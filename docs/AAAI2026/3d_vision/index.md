@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🤖 AAAI2026** · 共 **22** 篇
+**🤖 AAAI2026** · 共 **25** 篇
 
 **[3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition](3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md)**
 
@@ -74,6 +74,18 @@
 **[Domain Generalized Stereo Matching with Uncertainty-guided Data Augmentation](domain_generalized_stereo_matching_with_uncertainty-guided_data_augmentation.md)**
 
 :   提出 UgDA-Stereo，通过对 RGB 图像逐通道均值和标准差施加基于批次统计量的高斯不确定性扰动来模拟多种未知域的视觉风格，并结合特征一致性约束，以即插即用方式显著提升立体匹配模型的跨域泛化能力。
+
+**[Dynamic Gaussian Scene Reconstruction from Unsynchronized Videos](dynamic_gaussian_scene_reconstruction_from_unsynchronized_videos.md)**
+
+:   提出了一个粗到精（coarse-to-fine）的时间对齐模块，可插入到现有 4D Gaussian Splatting 框架中，解决多视角视频时间不同步导致的动态场景重建质量退化问题，在 DyNeRF 数据集上显著提升了多个基线方法的 PSNR/SSIM/LPIPS。
+
+**[Enhancing Generalization of Depth Estimation Foundation Model via Weakly-Supervised Adaptation with Regularization](enhancing_generalization_of_depth_estimation_foundation_model_via_weakly-supervi.md)**
+
+:   提出 WeSTAR 框架，通过语义感知的分层归一化自训练 + 稀疏成对序数弱监督 + LoRA 权重正则化三者协同，以参数高效的方式提升深度估计基础模型（Depth Anything V2）在未见域和损坏数据上的泛化能力，在多个 OOD 基准上达到 SOTA。
+
+**[Enhancing Rotation-Invariant 3D Learning with Global Pose Awareness and Attention Mechanisms](enhancing_rotation-invariant_3d_learning_with_global_pose_awareness_and_attentio.md)**
+
+:   提出 Shadow-informed Pose Feature (SiPF) 和 RIAttnConv 算子，通过引入基于 Bingham 分布学习的全局"影子"参考点来增强局部旋转不变特征的全局姿态感知能力，解决对称结构（如飞机左右机翼）无法区分的"Wing-tip Feature Collapse"问题，在 ModelNet40 分类和 ShapeNetPart 分割上达到 SOTA。
 
 **[EPSegFZ: Efficient Point Cloud Semantic Segmentation for Few- and Zero-Shot Scenarios](epsegfz_efficient_point_cloud_semantic_segmentation_for_few-_and_zero-shot_scena.md)**
 

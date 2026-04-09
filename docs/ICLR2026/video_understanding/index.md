@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频理解
 
-**🔬 ICLR2026** · 共 **22** 篇
+**🔬 ICLR2026** · 共 **31** 篇
 
 **[A.I.R.: Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering](air_enabling_adaptive_iterative_and_reasoning-based_frame_selection_for_video_qu.md)**
 
@@ -63,29 +63,65 @@
 
 :   从SSM视角提出三项核心改进：指数-梯形离散化、复值状态空间、多输入多输出(MIMO)公式化，在不增加解码延迟的前提下显著提升模型质量和状态追踪能力，推进性能-效率Pareto前沿。
 
+**[Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs](map_the_flow_revealing_hidden_pathways_of_information_in_videollms.md)**
+
+:   首次系统揭示VideoLLM内部时序推理的信息流动规律：(1)早中层跨帧交互建立时空表示→(2)中层视频-语言整合→(3)中后层答案生成，并证明仅保留42%的注意力边即可维持VideoQA性能。
+
+**[MoSA: Motion-Coherent Human Video Generation via Structure-Appearance Decoupling](mosa_motion-coherent_human_video_generation_via_structure-appearance_decoupling.md)**
+
+:   提出MoSA框架，将人物视频生成解耦为结构生成（3D骨骼Transformer生成运动序列）和外观生成（DiT在骨骼引导下合成视频），配合人体感知动态控制(HADC)模块、密集跟踪损失和接触约束，在复杂全身运动上显著超越现有方法。
+
+**[MotionStream: Real-Time Video Generation with Interactive Motion Controls](motionstream_real-time_video_generation_with_interactive_motion_controls.md)**
+
+:   提出MotionStream实现首个运动控制的实时流式视频生成——将双向运动控制teacher通过Self Forcing+DMD蒸馏为因果student，引入注意力沉降+滑动窗口KV缓存实现无限长度恒速生成，单GPU达29FPS+亚秒延迟，运动跟踪质量达SOTA。
+
 **[Online Time Series Prediction Using Feature Adjustment](online_time_series_prediction_using_feature_adjustment.md)**
 
 :   提出 ADAPT-Z（Automatic Delta Adjustment via Persistent Tracking in Z-space），将在线时序预测的适应目标从模型参数更新转移到特征空间修正，通过轻量 adapter 融合当前特征与历史梯度来应对多步预测中的延迟反馈问题，在13个数据集上一致超越现有在线学习方法。
+
+**[Paper Copilot: Tracking the Evolution of Peer Review in AI Conferences](paper_copilot_tracking_the_evolution_of_peer_review_in_ai_conferences.md)**
+
+:   构建Paper Copilot——AI会议同行评审的持久数字档案和分析系统：跨数十个AI/ML会议统一收集评审数据(OpenReview API+网页抓取+社区贡献)，提供评分动态追踪(含rebuttal前后变化的时间戳快照)、机构/国家级人才流动分析，以及ICLR多年评审演化的大规模实证分析，发现2025年评审呈现更尖锐的分数驱动分层趋势。
+
+**[PreciseCache: Precise Feature Caching for Efficient and High-fidelity Video Generation](precisecache_precise_feature_caching_for_efficient_and_high-fidelity_video_gener.md)**
+
+:   提出PreciseCache——精确检测并跳过视频生成中真正冗余计算的即插即用加速框架：LFCache用低频差异(LFD)度量步级冗余(高噪声步结构重要/低噪声步细节可缓存)→BlockCache度量块级冗余(非关键block直接复用)→在Wan2.1-14B上实现2.6x加速且无明显质量损失。
 
 **[Quantsparse Comprehensively Compressing Video Diffusion Transformer With Model Q](quantsparse_comprehensively_compressing_video_diffusion_transformer_with_model_q.md)**
 
 :   本文提出 QuantSparse 框架，首次将模型量化（quantization）与注意力稀疏化（attention sparsification）协同整合用于视频扩散 Transformer 压缩，通过多尺度显著注意力蒸馏（MSAD）和二阶稀疏注意力重参数化（SSAR）解决两者朴素结合导致的"放大注意力偏移"问题，在 HunyuanVideo-13B 上以 W4A8 + 15% 注意力密度实现 3.68× 存储压缩和 1.88× 推理加速，同时几乎无损保持生成质量。
 
-**[CAPO: Curvature-Aware Policy Optimization for Sample-Efficient RL in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)**
+**[Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)**
 
-:   CAPO 通过建模优化景观的二阶几何（仅在 LM head 最后一层计算曲率），实现 token 级别的数据筛选——拒绝会导致策略崩溃的更新，使 LLM 推理 RL 训练在激进超参数下仍保持稳定，样本效率提升 30 倍。
+:   提出 CAPO（Curvature-Aware Policy Optimization），通过在 LM head 最后一层建模二阶优化几何来预测并过滤会导致策略崩溃的 token 更新，在激进超参数（5× 学习率、1/12 batch size）下仍保持训练稳定，实现 MATH 上相较标准 GRPO 的 30× 样本效率提升。
 
 **[Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in LLMs](stop_tracking_me_proactive_defense_against_attribute_inference_attack_in_llms.md)**
 
 :   TRACE-RPS 提出统一防御框架应对 LLM 属性推断攻击：TRACE 通过注意力+推理链精准定位隐私泄露文本元素做细粒度匿名化，RPS 通过轻量后缀优化诱导模型拒绝推断，将属性推断准确率从约 50% 降至 5% 以下。
 
+**[The Expressive Limits of Diagonal SSMs for State-Tracking](the_expressive_limits_of_diagonal_ssms_for_state-tracking.md)**
+
+:   研究输入依赖复数对角(DCD) SSM的表达能力极限——证明单层DCD SSM不能在有限精度下追踪任何非阿贝尔群的状态,更一般地k层DCD SSM能追踪一个群当且仅当该群有长度为k的子正规链且因子为阿贝尔群→精确刻画了k层DCD SSM在可解群中的表达范围,实验揭示多层模型在非阿贝尔群上表达能力和可学习性之间的gap。
+
+**[FuncBenchGen: 面向可靠基准测试的无污染可控评估框架](towards_reliable_benchmarking_a_contamination_free_controllable_evaluation_frame.md)**
+
+:   提出 FuncBenchGen 框架，通过将多步函数调用建模为 DAG 图遍历问题，实现无数据污染、可精细控制任务难度的 LLM 工具使用能力评估，并揭示了推理模型在长调用链和连接型干扰函数下的关键失败模式。
+
 **[TTOM: Test-Time Optimization and Memorization for Compositional Video Generation](ttom_test-time_optimization_and_memorization_for_compositional_video_generation.md)**
 
 :   提出 TTOM 框架，在推理时通过优化新增参数将视频生成模型的注意力与 LLM 生成的时空布局对齐，并用参数记忆机制保存历史优化上下文支持复用，在 T2V-CompBench 上相对提升 34%（CogVideoX）和 14%（Wan2.1）。
 
+**[Video-KTR: 通过关键 Token 归因增强视频推理](video-ktr_reinforcing_video_reasoning_via_key_token_attribution.md)**
+
+:   提出 Video-KTR，一种模态感知的策略塑造框架，通过反事实分析识别视觉感知型、时序敏感型和高熵 Token 三类关键 Token，仅对这些 Token 执行选择性强化学习更新，在多个视频推理基准上达到 SOTA（Video-Holmes 42.7%，超越 GPT-4o）。
+
 **[Videonsa Native Sparse Attention Scales Video Understanding](videonsa_native_sparse_attention_scales_video_understanding.md)**
 
 :   本文提出 VideoNSA，将 Native Sparse Attention（NSA）引入视频语言模型，通过压缩、选择和滑动窗口三分支动态门控的混合稀疏注意力机制，在仅使用 3.6% 注意力预算的条件下实现 128K token 的视频理解，在长视频理解、时序推理和空间理解任务上全面超越 token 压缩和无训练稀疏注意力基线。
+
+**[联邦学习中水印的鲁棒性与放射性可能相互矛盾](watermark_robustness_and_radioactivity_may_be_at_odds_in_federated_learning.md)**
+
+:   首次研究联邦学习中 LLM 水印的数据溯源问题，发现水印在 FL 中具有放射性（可检测），但恶意服务器可通过强鲁棒聚合算法过滤水印更新，揭示了放射性、鲁棒性和模型效用之间的根本性三元矛盾。
 
 **[WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment](weboperator_action-aware_tree_search_for_autonomous_agents_in_web_environment.md)**
 

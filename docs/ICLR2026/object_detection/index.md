@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🔬 ICLR2026** · 共 **19** 篇
+**🔬 ICLR2026** · 共 **29** 篇
 
 **[A Problem-Oriented Perspective and Anchor Verification for Code Optimization](a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)**
 
@@ -9,27 +9,27 @@
 
 **[AdaRank: Adaptive Rank Pruning for Enhanced Model Merging](adarank_adaptive_rank_pruning_for_enhanced_model_merging.md)**
 
-:   提出 AdaRank，通过可学习二值掩码自适应选择 task vector 的奇异分量（而非启发式 top-k），结合测试时熵最小化优化，大幅缓解多任务模型合并中的任务间干扰。
+:   提出 AdaRank，用可学习二值掩码自适应选择 task vector 的奇异分量（取代启发式 top-k），结合测试时熵最小化优化，大幅缓解多任务模型合并中的任务间干扰，在 ViT-B/32 上达到 89.4% 准确率。
 
 **[Beyond Linearity in Attention Projections: The Case for Nonlinear Queries](beyond_linearity_in_attention_projections_the_case_for_nonlinear_queries.md)**
 
-:   基于 WQ 代数冗余性的理论发现，将线性 Query 投影替换为非线性残差形式 Q(X)=(X+f_θ(X))/2，在相同参数量下超越增加 12.5% 参数的基线。
+:   基于 $W_Q$ 代数冗余性的理论发现，将线性 Query 投影替换为非线性残差形式 $Q(X)=(X+f_\theta(X))/2$，在不增加参数的情况下超越 +12.5% 参数的基线模型。
 
 **[Breaking Scale Anchoring: Frequency Representation Learning for Accurate High-Resolution Inference from Low-Resolution Training](breaking_scale_anchoring_frequency_representation_learning_for_accurate_high-res.md)**
 
-:   定义了"Scale Anchoring"新问题（低分辨率训练导致高分辨率推理误差锚定），提出架构无关的频率表征学习（FRL），通过归一化频率编码使误差随分辨率提升而下降。
+:   定义了"Scale Anchoring"新问题（低分辨率训练导致高分辨率推理误差锚定），并提出架构无关的频率表征学习（FRL），通过 Nyquist 归一化频率编码使误差随分辨率提升而下降，在 8 种主流架构上验证有效。
 
 **[CGSA: Class-Guided Slot-Aware Adaptation for Source-Free Object Detection](cgsa_class-guided_slot-aware_adaptation_for_source-free_object_detection.md)**
 
-:   首次将 Object-Centric Learning（Slot Attention）引入无源域自适应目标检测（SF-DAOD），通过分层 Slot 感知模块提取结构先验，并用类引导对比学习驱动域不变表征。
+:   首次将 Object-Centric Learning（Slot Attention）引入无源域自适应目标检测（SF-DAOD），通过分层 Slot 感知模块提取域不变的目标级结构先验，并用类引导对比学习驱动域不变表征，在多个跨域基准上大幅超越现有方法。
 
 **[ConFu: Contemplate the Future for Better Speculative Sampling](confu_contemplate_the_future_for_better_speculative_sampling.md)**
 
-:   提出 ConFu 框架，通过 contemplate tokens 让 draft model 预见 target model 的未来生成方向，结合 MoE 动态机制和锚点采样训练，在 EAGLE-3 基础上提升 8-11% 的接受率和速度。
+:   提出 ConFu，在推测解码的 draft model 中引入 contemplate tokens 让其预见 target model 的未来生成方向，结合 MoE 动态机制和锚点采样训练，在 EAGLE-3 基础上提升 8-11% 的接受率和生成速度。
 
 **[Context Tokens are Anchors: Understanding the Repetition Curse in dMLLMs from an Information Flow Perspective](context_tokens_are_anchors_understanding_the_repetition_curse_in_dmllms_from_an_.md)**
 
-:   通过信息流分析揭示扩散多模态大语言模型(dMLLMs)在使用缓存加速时产生"重复诅咒"的内在机制，并提出 CoTA 方法有效缓解重复问题。
+:   通过信息流分析揭示扩散多模态大语言模型（dMLLMs）在使用缓存加速时产生"重复诅咒"的内在机制——context token 作为锚点聚合语义信息，缓存破坏了这一信息流模式——并提出 CoTA 方法将重复率降低高达 92%。
 
 **[CORDS: Continuous Representations of Discrete Structures](cords_continuous_representations_of_discrete_structures.md)**
 
@@ -45,7 +45,7 @@
 
 **[ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection](forestpersons_a_large-scale_dataset_for_under-canopy_missing_person_detection.md)**
 
-:   ForestPersons 是首个专门针对森林树冠下人员检测的大规模数据集（96,482 张图像 + 204,078 标注），覆盖地面/低空视角、多季节多天气多光照条件，每个实例包含边界框+姿态+可见性标注，填补了 SAR 场景中下冠层检测的数据空白。
+:   ForestPersons 是首个面向森林树冠下失踪人员检测的大规模数据集（96,482张图+204,078标注），涵盖地面/低空视角和多季节多天气条件，填补了搜救场景中下冠层检测的数据空白。
 
 **[From Narrow to Panoramic Vision: Attention-Guided Cold-Start Reshapes Multimodal Reasoning](from_narrow_to_panoramic_vision_attention-guided_cold-start_reshapes_multimodal_.md)**
 
@@ -78,3 +78,43 @@
 **[Sage Spatial-Visual Adaptive Graph Exploration For Efficient Visual Place Recogn](sage_spatial-visual_adaptive_graph_exploration_for_efficient_visual_place_recogn.md)**
 
 :   提出 SAGE，一个统一的 VPR 训练框架：引入轻量 Soft Probing 模块增强局部特征判别力，每个 epoch 在线重建融合地理距离与视觉相似度的亲和图，再通过贪心加权团扩展聚焦最难样本，冻结 DINOv2 骨干仅训练 1.96M 参数即在 8 个基准上全面 SOTA。
+
+**[SERUM: Simple, Efficient, Robust, and Unifying Marking for Diffusion-based Image Generation](serum_simple_efficient_robust_and_unifying_marking_for_diffusion-based_image_gen.md)**
+
+:   提出SERUM水印方法，将唯一水印噪声添加到扩散模型初始噪声中，训练轻量检测器直接从生成图像识别水印（无需昂贵的DDIM反演），在多种攻击下达到最高检测率，且注入/检测极快，支持多用户场景。
+
+**[SpectralGCD: Spectral Concept Selection and Cross-modal Representation Learning for Generalized Category Discovery](spectralgcd_spectral_concept_selection_and_cross-modal_representation_learning_f.md)**
+
+:   提出SpectralGCD，将图像表示为CLIP概念字典上的语义混合（跨模态相似度向量），通过谱过滤自动选择任务相关概念，配合正反知识蒸馏保持语义质量，在6个基准上以与单模态方法可比的计算代价达到多模态SOTA。
+
+**[SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection](spwood_sparse_partial_weakly-supervised_oriented_object_detection.md)**
+
+:   提出首个稀疏部分弱监督旋转目标检测(SPWOOD)框架——用极少量稀疏弱标注(HBox/Point)+大量无标注数据训练，通过SOS-Student分离前景/背景并从弱标注学习角度/尺度、多层级伪标签过滤(MPF)自适应筛选高质量伪标签、全局稀疏分割保持类别分布平衡，在DOTA/DIOR上接近全监督性能。
+
+**[Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs](thinking_in_latents_adaptive_anchor_refinement_for_implicit_reasoning_in_llms.md)**
+
+:   提出 AdaAnchor 潜空间推理框架——将可学习的锚向量（anchor vectors）附加到输入嵌入中，通过迭代前向传播精炼锚状态实现"沉默思考"，配合基于锚稳定性的自适应停止机制按实例难度动态分配计算量，在数学推理任务上比固定步潜推理准确率提升最高 5%、平均步数减少 48–60%，输出 token 相比 CoT 减少 92–93%。
+
+**[Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders](toward_faithful_retrieval-augmented_generation_with_sparse_autoencoders.md)**
+
+:   提出 RAGLens，利用稀疏自编码器(SAE)从 LLM 内部激活中解耦出 RAG 幻觉专属特征，通过互信息特征选择 + 广义加性模型(GAM)构建轻量级可解释幻觉检测器，在多个基准上超越现有方法，并支持 token 级可解释反馈与幻觉缓解。
+
+**[Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Method](traceable_evidence_enhanced_visual_grounded_reasoning_evaluation_and_methodology.md)**
+
+:   提出TreeBench(可追溯证据评测基准)+TreeVGR(可追溯增强视觉定位推理训练范式)——TreeBench要求模型在密集物体场景中进行精细视觉感知+可追溯的多步推理+二阶推理(物体交互/空间层级),所有最先进模型均低于60%(OpenAI-o3仅54.87%); TreeVGR通过联合监督定位和推理的强化学习,将V*Bench/MME-RealWorld/TreeBench分别提升16.8/12.6/13.4。
+
+**[VidGuard-R1: AI-Generated Video Detection and Explanation via Reasoning MLLMs and RL](vidguard-r1_ai-generated_video_detection_and_explanation_via_reasoning_mllms_and.md)**
+
+:   提出VidGuard-R1——首个用GRPO(Group Relative Policy Optimization)微调MLLM的视频真伪检测器：构建14万真/假视频对数据集(HunyuanVideo/CogVideoX生成+标准化消除快捷方式)，设计时序伪影奖励(注入时序异常鼓励时序推理)和扩散步数奖励(更多步=更难检测=更高奖励)，实现SOTA零样本检测(>95%)+可解释的思维链推理。
+
+**[VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation](vlbiman_vision-language_anchored_one-shot_demonstration_enables_generalizable_bi.md)**
+
+:   提出VLBiMan——从单次演示实现可泛化双臂操作的框架：通过任务感知双臂分解提取可复用原子技能(不变量/可适应量)，用VLM视觉-语言锚定在新场景中适应(物体分割→锚点提取→几何对齐)，自主轨迹组合运动学感知混合协调双臂→10个复杂任务上验证泛化到新物体/新布局/新机器人具身体。
+
+**[What Layers When: Learning to Skip Compute in LLMs with Residual Gates](what_layers_when_learning_to_skip_compute_in_llms_with_residual_gates.md)**
+
+:   提出GateSkip——在每个Attention/MLP分支输出添加sigmoid-linear门控→训练门控学习token级重要性→推理时按门控值排序跳过低重要性token→在指令微调模型上全计算提升精度+50%计算节省仍匹配基线→可与量化/剪枝/推测解码组合→门控分析揭示Transformer信息流(BOS token=锚点)。
+
+**[When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](when_agents_misremember_collectively_exploring_the_mandela_effect_in_llm-based_m.md)**
+
+:   首次系统研究LLM多Agent系统中的曼德拉效应(集体虚假记忆)：提出ManBench(4类任务×5种交互协议×4838问题)→评估13个LLM→量化曼德拉效应的存在和影响因素(群组组成/规模/知识域/模型规模/记忆时间尺度)→提出prompt级(认知锚定/来源审查)和模型级(对齐)缓解策略→平均降低74.40%的曼德拉效应。

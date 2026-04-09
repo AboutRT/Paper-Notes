@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🔬 ICLR2026** · 共 **39** 篇
+**🔬 ICLR2026** · 共 **62** 篇
 
 **[Adaptive Domain Shift in Diffusion Models for Cross-Modality Image Translation](adaptive_domain_shift_in_diffusion_models_for_cross-modality_image_translation.md)**
 
@@ -81,7 +81,7 @@
 
 **[CryoNet.Refine: A One-step Diffusion Model for Rapid Refinement of Structural Models with Cryo-EM Density Map Restraints](cryonetrefine_a_one-step_diffusion_model_for_rapid_refinement_of_structural_mode.md)**
 
-:   提出 CryoNet.Refine，首个基于 AI 的冷冻电镜 (cryo-EM) 原子模型精修框架，利用单步扩散模型结合可微密度损失和几何约束损失，在 120 个复合物基准上全面超越 Phenix.real_space_refine（$\text{CC}_{\text{mask}}$ 0.59 vs 0.54，Ramachandran favored 98.92% vs 96.39%）。
+:   提出CryoNet.Refine——首个基于AI的冷冻电镜(cryo-EM)原子模型精修框架：设计单步扩散模型(初始化自Boltz-2权重)→创新可微分密度生成器(物理模拟合成密度图)→首次将密度图相关性作为可微损失函数(余弦相似度)→联合Ramachandran/Rotamer/键角等几何约束损失→测试时优化策略逐案定制→在120个蛋白质/DNA-RNA复合物上全面超越Phenix.real_space_refine(CC_mask 0.59 vs 0.54, Ramachandran favored 98.92%)。
 
 **[Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series](decentralized_attention_fails_centralized_signals_rethinking_transformers_for_me.md)**
 
@@ -131,9 +131,53 @@
 
 :   提出面向金融、医疗、法律等专业领域的安全护栏模型 ExpGuard 及配套数据集 ExpGuardMix（58,928 样本），在领域特定测试集上 prompt 分类 F1 超 WildGuard 8.9%、response 分类超 15.3%，同时在通用安全基准上保持 SOTA 水平。
 
+**[Exploiting Low-Dimensional Manifold of Features for Few-Shot Whole Slide Image Classification](exploiting_low-dimensional_manifold_of_features_for_few-shot_whole_slide_image_c.md)**
+
+:   发现病理基础模型特征具有低维流形几何结构（有效秩仅29.7/512维），而线性层会破坏这种结构导致少样本过拟合，提出即插即用的MR Block（冻结随机矩阵做几何锚+低秩残差路径做任务适配）在少样本WSI分类上达到SOTA。
+
 **[Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction](extending_sequence_length_is_not_all_you_need_effective_integration_of_multimoda.md)**
 
 :   挑战基因表达预测中"越长越好"的长序列建模范式，发现当前 SSM 模型本质上只利用近端信息；进而识别出背景染色质信号（DNase-seq/Hi-C）作为混杂变量引入虚假关联，提出 Prism 框架通过后门调整去混杂，仅用 2k 短序列即超越 200k 长序列的 SOTA。
+
+**[Fine-Tuning Diffusion Models via Intermediate Distribution Shaping](fine-tuning_diffusion_models_via_intermediate_distribution_shaping.md)**
+
+:   统一拒绝采样微调方法为GRAFT框架并证明其隐式执行KL正则化奖励最大化，进而提出P-GRAFT在中间去噪步骤做分布整形（偏差-方差权衡更优），以及Inverse Noise Correction无需奖励即可改进流模型质量，在T2I上VQAScore提升8.81%。
+
+**[From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents](from_conversation_to_query_execution_benchmarking_user_and_tool_interactions_for.md)**
+
+:   提出EHR-ChatQA基准，首次评估数据库Agent在电子病历场景中的端到端交互工作流（澄清模糊查询→解决术语不匹配→生成SQL→返回答案），发现最强模型(o4-mini)的Pass@5超90%但Pass∧5(全部成功)大幅下降(差距达60%)，暴露了安全关键领域的鲁棒性缺陷。
+
+**[Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology](fusing_pixels_and_genes_spatially-aware_learning_in_computational_pathology.md)**
+
+:   提出Stamp框架，构建SpaVis-6M（最大10X Visium空间转录组数据集，575万条数据）训练空间感知基因编码器，再通过层次多尺度对比对齐将病理图像与空间基因表达谱联合预训练，在6个数据集4个下游任务上达到SOTA。
+
+**[Glance and Focus Reinforcement for Pan-cancer Screening](glance_and_focus_reinforcement_for_pan-cancer_screening.md)**
+
+:   提出GF-Screen框架模拟放射科医生"扫视-聚焦"策略，Glance模型通过RL学习选择含病灶的子体积，Focus模型精确分割——通过组相对学习(GRL)直接将GRPO从NLP迁移到视觉任务，在FLARE25泛癌挑战中以+25.6%DSC领先冠军方案，同时推理效率提升5.7倍。
+
+**[HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction](histoprism_unlocking_functional_pathway_analysis_from_pan-cancer_histology_via_g.md)**
+
+:   提出HistoPrism高效Transformer架构从H&E病理图像预测泛癌基因表达，并引入基因通路一致性(GPC)基准（50个Hallmark+87个GO通路）将评估从单基因方差升级到功能通路级别，在通路预测上大幅超越SOTA且参数效率更高。
+
+**[How Do Medical MLLMs Fail? A Study on Visual Grounding in Medical Images](how_do_medical_mllms_fail_a_study_on_visual_grounding_in_medical_images.md)**
+
+:   首次系统验证医学MLLM的核心失败模式是视觉扎根不足——模型注意力未对准临床相关区域(与自然图像不同)，构建VGMED数据集(28K三元组)定量诊断，提出VGRefine推理时方法在6个Med-VQA基准(110K+样本/8种成像模态)上达到SOTA。
+
+**[How to Make the Most of Your Masked Language Model for Protein Engineering](how_to_make_the_most_of_your_masked_language_model_for_protein_engineering.md)**
+
+:   提出基于随机束搜索(SBS)的MLM采样方法用于蛋白质/抗体工程——利用MLM可高效评估整个1-编辑邻域的特点做全序列评估(而非逐突变采样)，支持灵活的多目标引导，系统性的in silico + in vitro评估揭示采样方法的选择至少与模型选择同等重要。
+
+**[Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity](improving_2d_diffusion_models_for_3d_medical_imaging_with_inter-slice_consistent.md)**
+
+:   提出 Inter-Slice Consistent Stochasticity (ISCS)，通过球面线性插值(Slerp)在扩散采样的 re-noising 步骤中生成层间相关噪声，从根源消除 2D 扩散先验做 3D 医学重建时的层间不连续伪影——零额外计算/超参数/训练开销，即插即用到任何 2D 扩散逆问题求解器，在稀疏视角 CT、限角 CT 和 MRI 超分辨率上均持续提升。
+
+**[Incentives in Federated Learning with Heterogeneous Agents](incentives_in_federated_learning_with_heterogeneous_agents.md)**
+
+:   建立了数据异构联邦学习的博弈论框架——agent的效用取决于"谁"提供数据而非仅总量,证明纯Nash均衡可能不存在且最优均衡成本可无限倍于合作最优,证明最小成本贡献向量计算是NP-hard但可用LP获得对数近似,并设计出唯一的策略防伪机制(付你所贡献)。
+
+**[Inference-Time Dynamic Modality Selection for Incomplete Multimodal Classification](inference-time_dynamic_modality_selection_for_incomplete_multimodal_classificati.md)**
+
+:   提出DyMo——推理时动态模态选择框架解决不完整多模态分类的"丢弃-补全困境"：丢弃缺失模态损失任务相关信息，补全可能引入噪声/语义错位，DyMo通过信息增益驱动的选择算法动态决定哪些恢复模态值得融合(正reward→有用/负reward→有害)，在5个数据集上显著超越SOTA。
 
 **[Intrinsic Lorentz Neural Network](intrinsic_lorentz_neural_network.md)**
 
@@ -143,13 +187,61 @@
 
 :   提出 LEON（LLM-based Entropy-guided Optimization with kNowledgeable priors），一种数学原理严格的方法，将个性化医疗治疗方案设计建模为条件黑箱优化问题，通过熵约束和对抗性源批评模型引导 LLM 在不微调的情况下作为零样本优化器提出个性化治疗计划。
 
+**[Learning Domain-Aware Task Prompt Representations for Multi-Domain All-in-One Image Restoration](learning_domain-aware_task_prompt_representations_for_multi-domain_all-in-one_im.md)**
+
+:   提出DATPRL-IR——首个多域全能图像复原方法：通过双提示池设计(任务提示池编码跨任务知识+域提示池从MLLM蒸馏域先验)和提示组合机制(PCM)为每个输入图像动态组合实例级域感知任务提示表示，一个模型统一处理自然场景/医学影像/遥感三域的多种退化任务，显著超越单域SOTA。
+
+**[Learning Patient-Specific Disease Dynamics with Latent Flow Matching for Longitudinal Imaging Generation](learning_patient-specific_disease_dynamics_with_latent_flow_matching_for_longitu.md)**
+
+:   提出Δ-LFM——用流匹配建模患者特异性疾病进展：(1)ArcRank损失强制患者潜在轨迹沿特定轴单调递增(与疾病严重度对齐)构建语义有意义的潜在空间，(2)将流匹配的标准[0,1]时间范围扩展为[0,T]实际时间间隔使预测任意未来时间点成为可能，在3个纵向MRI基准上实现高保真度+精确疾病进展对齐。
+
+**[mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules](mclm_a_modular_chemical_language_model_that_generates_functional_and_makeable_mo.md)**
+
+:   提出mCLM——模块化化学语言模型将分子在功能构建块(而非原子)级别tokenize：用自动化合成兼容的构建块(酰胺偶联/Suzuki/Buchwald反应)作为化学词汇+GNN编码块+自然语言描述功能→形成code-switch双语训练，前置合成可行性同时改善分子功能预测，在430个FDA药物上显著改善关键药物属性，3B参数超越GPT-5的合成可及性。
+
 **[MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](medagentgym_agentic_training_biomedical.md)**
 
 :   构建了首个统一的生物医学数据科学 Agent 训练环境 MedAgentGym，包含 72,413 个任务实例（12 个真实场景、129 个类别），配备可执行沙盒和可验证 ground truth，基准评估 29 个 LLM，并通过离线/在线 RL 训练出 Med-Copilot（分别 +43%/+45% 提升），达到与 GPT-4o 竞争的性能同时保持成本效益和隐私保护。
 
+**[MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning](mmedagent-rl_optimizing_multi-agent_collaboration_for_multimodal_medical_reasoni.md)**
+
+:   提出MMedAgent-RL——RL驱动的多智能体医学推理框架：模拟临床流程(分诊→专科→主治)，用GRPO分别优化分诊医生(准确分科)和主治医生(整合专家意见做最终决策)，创新性地引入课程学习驱动的熵感知RL(C-MARL)渐进教主治医生处理不同质量的专家意见(全对→部分对→全错)，在5个医学VQA基准上平均超越基线23.6%。
+
+**[Moving Beyond Medical Exams: A Clinician-Annotated Fairness Dataset of Real-World Tasks and Ambiguity in Mental Healthcare](moving_beyond_medical_exams_a_clinician-annotated_fairness_dataset_of_real-world.md)**
+
+:   提出MENTAT——由精神科临床医生创建和标注的数据集,覆盖5个心理健康实践领域(诊断/治疗/分诊/监测/文档),通过人口统计变量替换(年龄/种族/性别)系统评估LM决策中的偏见→不同于考试题→捕捉真实临床模糊性(多个有效答案+不确定性标注)→评估22个LM发现显著的决策质量差异和人口统计敏感性。
+
+**[Neuro-Symbolic Decoding of Neural Activity](neuro-symbolic_decoding_of_neural_activity.md)**
+
+:   提出NEURONA——fMRI解码的神经符号框架：将查询解析为符号表达式+将fMRI信号划分为脑区级候选实体→学习每个概念(person/holding等)的接地模块→按符号结构组合接地分数回答fMRI-QA→证明建模谓词-论元依赖(holding依赖person和bat的脑区)显著优于端到端神经解码,且泛化到未见查询。
+
+**[Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research](omni-ieeg_a_large-scale_comprehensive_ieeg_dataset_and_benchmark_for_epilepsy_re.md)**
+
+:   构建Omni-iEEG——迄今最大规模的术前iEEG数据集(302患者×178小时×8个癫痫中心)+3.6万+专家标注病理事件,定义临床意义任务+统一评估指标→展示端到端建模可匹敌/超越临床生物标志物,发现跨域迁移(音频预训练→iEEG)有效→为可重复、可泛化的癫痫研究建立基础。
+
+**[Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling](overthinking_reduction_with_decoupled_rewards_and_curriculum_data_scheduling.md)**
+
+:   提出DeCS——通过解耦token级奖励+课程batch调度解决LLM过度思考：理论发现现有长度奖励的两个缺陷(1.错误惩罚有效探索token 2.虚假奖励冗余token)→训练轻量评判模型识别必要推理前缀(NRP)边界→NRP后的token一致惩罚→课程调度控制简单题比例→7个基准推理token减50%+且性能不降甚至提升。
+
+**[Protein as a Second Language for LLMs](protein_as_a_second_language_for_llms.md)**
+
+:   提出"蛋白质即第二语言"框架——将氨基酸序列视为LLM可通过上下文学习获取的符号语言：自适应构建序列-问题-答案三元组作为上下文示例→零样本(无训练)即可理解蛋白质功能→构建7.9万蛋白质双语QA语料→在多个开源LLM和GPT-4o上ROUGE-L平均+7%(最高+17.2%)→甚至超越微调的蛋白质专用模型。
+
+**[Protein Counterfactuals via Diffusion-Guided Latent Optimization](protein_counterfactuals_via_diffusion-guided_latent_optimization.md)**
+
+:   提出MCCOP——在蛋白质连续序列-结构潜在空间中用扩散模型作为流形先验进行反事实优化：给定预测为"不良"的蛋白质→找到最小且生物合理的序列编辑使预测翻转→平衡三目标(有效性/近似性/合理性)→在GFP荧光恢复/热稳定性增强/E3连接酶活性恢复三个任务上→比离散/连续基线更少突变+更高合理性→恢复的突变与已知生物物理机制一致。
+
+**[Protein Structure Tokenization via Geometric Byte Pair Encoding](protein_structure_tokenization_via_geometric_byte_pair_encoding.md)**
+
+:   提出GeoBPE——首个几何感知蛋白质结构BPE tokenizer，将连续骨架构象离散化为几何motif句子，通过k-medoids+自适应量化+可微IK(SE(3)端帧损失)校正漂移，>10x压缩比、>10x数据效率，12个下游任务24个测试集上超越所有PST基线。
+
 **[Resp-Agent: An Agent-Based System for Multimodal Respiratory Sound Generation and Disease Diagnosis](resp-agent_an_agent-based_system_for_multimodal_respiratory_sound_generation_and.md)**
 
 :   提出 Resp-Agent 闭环多智能体框架，通过主动对抗课程规划器（Thinker-A2CA）协调可控呼吸音生成器与多模态诊断器，在 229k 规模基准上实现生成↔诊断协同设计，大幅提升长尾类别诊断性能。
+
+**[Reverse Distillation: Consistently Scaling Protein Language Model Representations](reverse_distillation_consistently_scaling_protein_language_model_representations.md)**
+
+:   解决PLM反常缩放(更大不一定更好)，提出反向蒸馏：用小模型表示作基、SVD提取大模型正交残差→前k维=小模型嵌入(Matryoshka嵌套)→更大rd模型一致优于更小，ESM-2 15B rd后首次成为家族最强。
 
 **[Scalable Spatio-Temporal SE(3) Diffusion for Long-Horizon Protein Dynamics](scalable_spatio-temporal_se3_diffusion_for_long-horizon_protein_dynamics.md)**
 

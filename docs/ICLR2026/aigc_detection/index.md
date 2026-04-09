@@ -21,4 +21,4 @@
 
 **[PoliCon: Evaluating LLMs on Achieving Diverse Political Consensus Objectives](policon_evaluating_llms_on_achieving_diverse_political_consensus_objectives.md)**
 
-:   基于欧洲议会2225条真实审议记录构建PoliCon基准，评估LLM在不同政治目标（简单多数/2/3多数/否决权/罗尔斯/功利主义）下起草共识决议的能力。
+:   基于欧洲议会2009-2022年2225条高质量审议记录构建PoliCon基准，评估LLM在不同投票机制、权力结构和政治目标下起草共识决议的能力。结果显示前沿模型在简单多数任务表现尚可，但在2/3多数和安全议题上显著不足。

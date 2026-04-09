@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🔬 ICLR2026** · 共 **71** 篇
+**🔬 ICLR2026** · 共 **81** 篇
 
 **[A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers](a_hidden_semantic_bottleneck_in_conditional_embeddings_of_diffusion_transformers.md)**
 
@@ -195,6 +195,22 @@
 
 :   提出 Single-Step Completion Policy (SSCP)，通过在流匹配框架中预测"完成向量"（从任意中间状态到目标动作的归一化方向），将多步生成策略压缩为单步推理，在 D4RL 上与多步扩散/流策略持平但训练快 64×、推理快 4.7×，并扩展到 GCRL 中将层级策略扁平化。
 
+**[Flow2GAN: Hybrid Flow Matching and GAN with Multi-Resolution Network for Few-step High-Fidelity Audio Generation](flow2gan_hybrid_flow_matching_and_gan_with_multi-resolution_network_for_few-step.md)**
+
+:   提出两阶段训练框架Flow2GAN，先用改进的Flow Matching学习生成能力，再用GAN微调实现少步（1/2/4步）高保真音频生成，结合多分辨率网络架构处理不同时频分辨率的傅里叶系数。
+
+**[Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning](flow_matching_with_injected_noise_for_offline-to-online_reinforcement_learning.md)**
+
+:   通过在流匹配训练中注入可控噪声扩大策略覆盖范围，并结合熵引导的采样机制在在线微调时动态平衡探索与利用，在有限交互预算下显著提升离线到在线RL的样本效率。
+
+**[FlowCast: Advancing Precipitation Nowcasting with Conditional Flow Matching](flowcast_advancing_precipitation_nowcasting_with_conditional_flow_matching.md)**
+
+:   首次将条件流匹配(CFM)作为端到端概率生成模型应用于降水临近预报，在压缩潜空间中学习噪声到数据的直接映射，以更少的采样步数超越扩散模型的预测精度和概率性能。
+
+**[FlowCast: Trajectory Forecasting for Scalable Zero-Cost Speculative Flow Matching](flowcast_trajectory_forecasting_for_scalable_zero-cost_speculative_flow_matching.md)**
+
+:   提出FlowCast框架，将投机解码思想引入Flow Matching模型，利用速度场的局部平滑性将当前速度预测作为零成本draft外推未来状态，通过MSE验证选择性跳过冗余步骤，实现>2.5×加速且无质量损失。
+
 **[Follow-Your-Shape: Shape-Aware Image Editing via Trajectory-Guided Region Control](follow-your-shape_shape-aware_image_editing_via_trajectory-guided_region_control.md)**
 
 :   提出 Follow-Your-Shape，一个无需训练和掩码的形状感知编辑框架，通过计算反演与编辑轨迹间的 token 级速度差异构建 Trajectory Divergence Map (TDM) 来精确定位编辑区域，配合分阶段 KV 注入实现大幅形状变换且严格保持背景。
@@ -203,9 +219,33 @@
 
 :   提出 Frame Guidance，一种无需训练的帧级引导方法，通过 latent slicing（降低 60× 显存）和 Video Latent Optimization（VLO）两个核心组件，在不修改模型的情况下实现关键帧引导、风格化和循环视频等多种可控视频生成任务。
 
+**[Free Lunch for Stabilizing Rectified Flow Inversion](free_lunch_for_stabilizing_rectified_flow_inversion.md)**
+
+:   提出PMI（Proximal-Mean Inversion）和mimic-CFG两个无训练方法，通过将速度场向其历史均值做近端梯度校正来稳定Rectified Flow反演，在PIE-Bench上以更少的NFE达到SOTA的重建和编辑质量。
+
+**[From Parameters to Behaviors: Unsupervised Compression of the Policy Space](from_parameters_to_behaviors_unsupervised_compression_of_the_policy_space.md)**
+
+:   提出策略空间的无监督压缩——用行为重建损失(behavioral reconstruction loss)训练自编码器将高维策略参数空间Θ压缩到低维潜在行为空间Z(4-5个数量级压缩),证明行为流形的内在维度取决于环境复杂度而非网络大小,并展示在潜在空间中做策略梯度优化可与复杂SOTA RL算法竞争。
+
+**[From Prediction to Perfection: Introducing Refinement to Autoregressive Image Generation](from_prediction_to_perfection_introducing_refinement_to_autoregressive_image_gen.md)**
+
+:   提出TensorAR——将标准AR图像生成从"next-token prediction"升级为"next-tensor prediction"：每步预测一组重叠的连续token(tensor),相邻tensor的重叠区域使后续预测可以修正先前输出,引入离散扩散噪声机制解决训练时的信息泄漏问题,作为即插即用扩展兼容现有AR模型(LlamaGen/Janus-Pro),在class-to-image和text-to-image任务上一致提升质量。
+
 **[GenCP: Towards Generative Modeling Paradigm of Coupled Physics](gencp_towards_generative_modeling_paradigm_of_coupled_physics.md)**
 
 :   提出 GenCP，将耦合多物理场仿真建模为概率密度演化问题，利用 flow matching 从解耦数据学习条件速度场，推理时通过 Lie-Trotter 算子分裂合成耦合解，实现"解耦训练、耦合推理"，并提供理论误差可控保证。
+
+**[GenDR: Lighten Generative Detail Restoration](gendr_lighten_generative_detail_restoration.md)**
+
+:   提出GenDR——面向生成式细节复原的轻量单步扩散超分模型：识别T2I和SR任务目标的根本分歧（T2I需多步+4通道 vs SR需少步+16通道）→构建定制SD2.1-VAE16基础模型（0.9B，通过REPA表示对齐扩展潜在空间而不增加模型规模）→提出CiD/CiDA一致性分数恒等蒸馏（将SR特定先验融入score distillation + 对抗学习 + 表示对齐）→极简pipeline仅含UNet+VAE→77ms推理在所有质量和效率指标上超越现有SOTA。
+
+**[Generalization of Diffusion Models Arises with a Balanced Representation Space](generalization_of_diffusion_models_arises_with_a_balanced_representation_space.md)**
+
+:   提出统一的数学框架通过分析非线性ReLU去噪自编码器(DAE)来解释扩散模型的记忆和泛化——证明(1)局部样本稀疏时→权重记忆训练样本→尖刺激活→记忆，(2)局部样本丰富时→权重学习数据统计→平衡表示→泛化，(3)真实模型因数据不均衡处于混合状态，并基于此发展记忆检测和表示空间模型驾驭两个实用工具。
+
+**[Generate Any Scene: Scene Graph Driven Data Synthesis for Visual Generation Training](generate_any_scene_scene_graph_driven_data_synthesis_for_visual_generation_train.md)**
+
+:   提出Generate Any Scene——基于场景图的数据引擎系统性枚举可能的视觉场景(28K物体×1.5K属性×10K关系→近乎无限场景图)→翻译为标题+VQA对实现自动评测和奖励建模→用于四个应用:(1)自我改进(SD1.5+4%),(2)定向蒸馏(从DALL-E3→SD1.5+10% TIFA),(3)场景图奖励模型(+5% DPG-Bench vs CLIP),(4)内容审核增强。
 
 **[Generating Directed Graphs with Dual Attention and Asymmetric Encoding](generating_directed_graphs_with_dual_attention_and_asymmetric_encoding.md)**
 

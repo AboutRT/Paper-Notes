@@ -9,7 +9,7 @@
 
 **[Agentified Assessment of Logical Reasoning Agents](agentified_assessment_of_logical_reasoning_agents.md)**
 
-:   提出基于Agent的评测框架(AAA)，用assessor agent标准化地评估逻辑推理agent，并以自动形式化agent（NL→Z3Py+SMT求解）在清洗后的FOLIO上达到86.70%准确率，大幅超过CoT基线73.89%。
+:   提出基于Agent的评测框架(AAA)，将评估逻辑封装为assessor agent并通过标准A2A接口与被测agent交互，在经Vampire定理证明器系统清洗的FOLIO数据集上，自动形式化agent（NL→Z3Py+SMT求解）达到86.70%准确率，大幅超过CoT基线73.89%，尤其在矛盾检测(False类)上提升32.79个百分点。
 
 **[AIMCoT: Active Information-driven Multimodal Chain-of-Thought for Vision-Language Reasoning](aimcot_active_information-driven_multimodal_chain-of-thought_for_vision-language.md)**
 
@@ -45,7 +45,7 @@
 
 **[CoT-RVS: Zero-Shot Chain-of-Thought Reasoning Segmentation for Videos](cot-rvs_zero-shot_chain-of-thought_reasoning_segmentation_for_videos.md)**
 
-:   提出 CoT-RVS，一种无训练的多智能体框架，利用 MLLM 的零样本 Chain-of-Thought 能力进行时间-语义推理以选择关键帧，实现对复杂隐式查询的推理视频分割，在多个 benchmark 上大幅超越已有方法。
+:   提出CoT-RVS，一种完全无训练的多智能体框架，利用预训练MLLM的零样本CoT推理能力进行时间-语义关联分析与关键帧选取，在推理视频分割任务上大幅超越微调方法（Refer-DAVIS J&F 79.1 vs 71.2，ReasonVOS J&F 65.5 vs 49.9）。
 
 **[DAG-Math: Graph-of-Thought Guided Mathematical Reasoning in LLMs](dag-math_graph-of-thought_guided_mathematical_reasoning_in_llms.md)**
 
@@ -97,7 +97,7 @@
 
 **[FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning](fastgrpo_accelerating_policy_optimization_via_concurrency-aware_speculative_deco.md)**
 
-:   针对GRPO训练中生成阶段占91%-98%时间的瓶颈，提出并发感知的投机解码策略（动态调整draft树大小）和在线draft模型学习（持续适配目标模型分布），实现2.35x-2.72x端到端加速。
+:   针对GRPO训练中生成阶段占91%-98%时间的严重瓶颈，提出并发感知的投机解码策略（动态调整draft树参数以适配从高到低的实时并发度变化）和在线draft模型学习（利用目标模型生成的hidden states持续适配分布漂移），整体实现2.35x-2.72x端到端训练加速，且不损害推理质量。
 
 **[Fine-R1: Make Multi-modal LLMs Excel in Fine-Grained Visual Recognition by Chain-of-Thought Reasoning](fine-r1_make_multi-modal_llms_excel_in_fine-grained_visual_recognition_by_chain-.md)**
 
@@ -133,7 +133,7 @@
 
 **[InnoGym: Benchmarking the Innovation Potential of AI Agents](innogym_benchmarking_the_innovation_potential_of_ai_agents.md)**
 
-:   提出 InnoGym 框架和 iBench/iGym 基准，首次从"创新性"维度评估 AI Agent——不仅衡量正确性还衡量方法论新颖性，发现当前 Agent 能产生新颖想法但无法转化为性能提升（平均归一化增益 -0.45）。
+:   提出InnoGym框架，首次从"创新性"维度系统评估AI Agent——引入Performance Gain（性能增益）和Novelty（方法论新颖性）双指标，在18个真实工程/科研任务上发现当前Agent能产生新颖方案但执行鲁棒性不足，无法将创意转化为性能提升（平均归一化增益为负）。
 
 **[Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort](is_it_thinking_or_cheating_detecting_implicit_reward_hacking_by_measuring_reason.md)**
 
@@ -161,7 +161,7 @@
 
 **[Nudging the Boundaries of LLM Reasoning](nudging_the_boundaries_of_llm_reasoning.md)**
 
-:   指出GRPO无法从"不可解"问题(0% pass rate)学习的根本局限，提出NuRL方法在训练时对难题注入自生成的抽象hint(不泄露答案)使其变为可学习样本，在6个benchmark和3个模型上一致超越GRPO且能提升模型能力上界(pass@k)。
+:   指出GRPO无法从模型完全无法解决的难题(pass rate=0%)中学习的根本局限，提出NuRL方法在训练时对难题注入自生成的抽象hint(不泄露答案)使其变为可学习样本，跨3个模型6个benchmark一致超越GRPO并真正提升pass@k能力上界。
 
 **[On The Fragility of Benchmark Contamination Detection in Reasoning Models](on_the_fragility_of_benchmark_contamination_detection_in_reasoning_models.md)**
 
@@ -245,7 +245,7 @@
 
 **[TumorChain: Interleaved Multimodal Chain-of-Thought Reasoning for Traceable Clinical Tumor Analysis](tumorchain_interleaved_multimodal_chain-of-thought_reasoning_for_traceable_clini.md)**
 
-:   提出 TumorChain，面向肿瘤分析的交错多模态 CoT 推理框架，通过 1.5M CoT-VQA 数据引擎、器官引导的迭代交错推理（IIR）和混合模型协同优化，在肿瘤定位/属性分析/TNM分期上平均精度 84.41%，大幅超越 GPT-5-Mini（51.59%）。
+:   提出TumorChain，面向消化系统五大器官肿瘤分析的交错多模态CoT推理框架，通过知识图谱驱动的1.5M CoT-VQA数据引擎、器官引导的迭代交错推理(IIR)和分割/分类/LLM三模型协同优化，实现从影像发现→临床印象→病理预测的完整推理链，平均精度84.41%，大幅超越GPT-5-Mini(51.59%)。
 
 **[Understanding the Role of Training Data in Test-Time Scaling](understanding_the_role_of_training_data_in_test-time_scaling.md)**
 

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**📷 CVPR2026** · 共 **12** 篇
+**📷 CVPR2026** · 共 **14** 篇
 
 **[ACPV-Net: All-Class Polygonal Vectorization for Seamless Vector Map Generation from Aerial Imagery](acpv-net_all-class_polygonal_vectorization_for_seamless_vector_map_generation_fr.md)**
 
@@ -38,6 +38,14 @@
 **[MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging](metaspectra_a_compact_broadband_metasurface_camera_for_snapshot_hyperspectral_im.md)**
 
 :   MetaSpectra+ 利用新型超表面-折射透镜混合光学系统，将入射光分为 4 个独立可控色散/曝光/偏振的通道，实现最紧凑且精度最高的快照式高光谱+HDR/偏振多功能成像。
+
+**[No Labels, No Look-Ahead: Unsupervised Online Video Stabilization with Classical Priors](no_labels_no_look-ahead_unsupervised_online_video_stabilization_with_classical_p.md)**
+
+:   无监督在线视频稳定框架，经典三阶段管线+多线程缓冲，引入UAV多模态航拍测试集
+
+**[Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments](olbedo_an_albedo_and_shading_aerial_dataset_for_large-scale_outdoor_environments.md)**
+
+:   首个大规模真实航拍反照率-着色分解数据集（5664张UAV图像），通过物理逆渲染管线生成真值
 
 **[SDF-Net: Structure-Aware Disentangled Feature Learning for Optical-SAR Ship Re-identification](sdfnet_structureaware_disentangled_feature_learnin.md)**
 

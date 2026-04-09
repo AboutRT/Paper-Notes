@@ -1,67 +1,101 @@
 # CGSA: Class-Guided Slot-Aware Adaptation for Source-Free Object Detection
 
-**会议**: ICLR2026  
-**arXiv**: [2602.22621](https://arxiv.org/abs/2602.22621)  
-**代码**: [GitHub](https://github.com/Michael-McQueen/CGSA)  
-**领域**: 目标检测 / 无源域自适应  
-**关键词**: source-free domain adaptation, object-centric learning, slot attention, DETR, contrastive learning  
+**会议**: ICLR 2026
+**arXiv**: [2602.22621](https://arxiv.org/abs/2602.22621)
+**代码**: [GitHub](https://github.com/Michael-McQueen/CGSA)
+**领域**: 目标检测
+**关键词**: source-free domain adaptation, object-centric learning, slot attention, DETR, contrastive learning
 
 ## 一句话总结
-首次将 Object-Centric Learning（Slot Attention）引入无源域自适应目标检测（SF-DAOD），通过分层 Slot 感知模块提取结构先验，并用类引导对比学习驱动域不变表征。
 
-## 背景与动机
-1. 目标检测器部署时面临域偏移（天气/摄像头/场景变化），性能大幅下降
-2. 无源域自适应（SF-DAOD）：仅有源域预训练模型和无标注目标域数据，无法访问源数据
-3. 现有方法主要关注伪标签阈值调优或 teacher-student 框架改进，忽略了跨域的目标级结构共性
-4. Slot Attention 可将场景分解为独立的目标表征，天然适合提取域不变结构先验
-5. DETR 已使用 object queries，嵌入 slot 先验是自然但未探索的方向
+首次将 Object-Centric Learning（Slot Attention）引入无源域自适应目标检测（SF-DAOD），通过分层 Slot 感知模块提取域不变的目标级结构先验，并用类引导对比学习驱动域不变表征，在多个跨域基准上大幅超越现有方法。
+
+## 研究背景与动机
+
+1. **域偏移问题**：目标检测器部署时面临天气/摄像头/场景的域偏移，性能大幅下降
+2. **无源域自适应（SF-DAOD）限制**：仅有源域预训练模型和无标注目标域数据，不可访问源数据（隐私/版权约束）
+3. **现有方法局限**：主流 SF-DAOD 方法（SFOD/PETS/A2SFOD）专注于伪标签阈值调优或 teacher-student 框架改进，忽略了跨域数据中目标级结构的共性信息
+4. **Slot Attention 的潜力**：OCL 将场景分解为离立的"slot"表征，每个 slot 绑定一个目标，天然隔离前景与背景。在分割/视频预测/机器人等任务中展示了强迁移性，但从未用于 SF-DAOD
+5. **自然契合**：DETR 检测器已使用 object queries，将 slot 先验嵌入 query 空间是自然但未探索的方向
 
 ## 方法详解
-**框架**: 源域预训练 + 目标域自适应（Teacher-Student）
 
-**HSA（分层 Slot 感知）模块**:
-- 两阶段分解：第一阶段提取 n=5 个粗粒度 slot，第二阶段细化为 n²=25 个细粒度 slot
-- Slot Attention 迭代聚合 + 空间广播 MLP 解码重建，softmax 竞争确保 slot 绑定不同区域
-- 投影后与 object queries 相加，形成 slot-aware queries 输入 decoder
+### 整体框架
 
-**CGSC（类引导 Slot 对比）模块**:
-- 维护 EMA 更新的全局类原型 P_c
-- 用注意力 mask 加权聚合 slot → weighted slot → 匈牙利匹配分配伪标签
-- InfoNCE 对比损失拉近同类 slot-原型、推远异类
+两阶段流程：源域预训练（标准检测损失+HSA 重建损失）→ 目标域自适应（Teacher-Student + HSA + CGSC）
 
-**总损失**: L_total = L_unsup（伪标签检测）+ λ_con·L_con + λ_rec·L_rec
+### HSA（Hierarchical Slot Awareness）模块
+
+1. **两阶段分解**：第一阶段 Slot Attention 迭代提取 $n=5$ 个粗粒度 slot → 空间广播 MLP 解码重建 → softmax 竞争确保 slot 绑定不同区域。第二阶段将重建特征作为输入再做 Slot Attention 得到 $n^2=25$ 个细粒度 slot
+2. **重建损失**：$\mathcal{L}_{rec} = \|\hat{h}^{(1)} - h\|_2^2 + \|\hat{h}^{(2)} - h\|_2^2$，两阶段均监督
+3. **Slot-Aware Queries**：投影后 slot 与 object queries 相加：$Q_{aware} = Q_{obj} + f_{map}(z^{(2)})$，为 decoder 提供目标级结构先验
+
+### CGSC（Class-Guided Slot Contrast）模块
+
+1. **类原型记忆**：维护 EMA 更新的全局类原型 $P_c$，从 decoder queries 按预测类别平均聚合
+2. **Weighted Slot 构建**：用注意力 mask $m_k^{(2)}$ 对原始特征加权聚合，抑制背景 slot
+3. **匈牙利匹配**：余弦相似度矩阵 + 匈牙利算法将 weighted slot 与 queries 一一匹配，获得伪类标签
+4. **InfoNCE 对比损失**：拉近同类 slot 原型 $\bar{z}_c$ 与类原型 $P_c$，推远异类
+
+### 总损失
+
+$$\mathcal{L}_{total} = \mathcal{L}_{unsup} + \lambda_{con} \mathcal{L}_{con} + \lambda_{rec} \mathcal{L}_{rec}$$
+
+### 理论保证
+
+证明了目标域风险下降界：$\mathbb{E}[\mathcal{R}_T(\theta_{t+1})] \le \mathbb{E}[\mathcal{R}_T(\theta_t)] - c_1 \Delta_t + c_2(\epsilon_{rec} + \sigma^2)$
 
 ## 实验关键数据
-**Cityscapes → BDD100K**:
-| 方法 | SF | mAP |
-|------|-----|-----|
-| DATR (DAOD) | ✗ | 43.3 |
-| TITAN (SF-DAOD) | ✓ | 38.3 |
-| **CGSA (Ours)** | ✓ | **53.0** |
 
-**Cityscapes → Foggy-Cityscapes**: CGSA mAP 显著优于所有 SF-DAOD 方法
+### 主实验
+
+| 跨域设置 | SF | 方法 | mAP |
+|---------|-----|------|-----|
+| Cityscapes→BDD100K | ✗ | DATR (有源DAOD) | 43.3 |
+| Cityscapes→BDD100K | ✓ | TITAN (SF-DAOD) | 38.3 |
+| Cityscapes→BDD100K | ✓ | **CGSA** | **53.0** |
+| Cityscapes→Foggy | ✓ | A2SFOD | 41.2 |
+| Cityscapes→Foggy | ✓ | **CGSA** | **49.8** |
+
+### 消融实验
+
+| 配置 | Cityscapes→BDD100K mAP | 说明 |
+|------|------------------------|------|
+| 仅 Teacher-Student | 35.4 | 无任何结构先验 |
+| +HSA | 45.2 | slot 结构先验有效 |
+| +CGSC | 41.8 | 类引导对比有效 |
+| **+HSA+CGSC (CGSA)** | **53.0** | 两者互补，最佳 |
+
+### 关键发现
+
+- CGSA 在 SF 设置下甚至超越多个有源 DAOD 方法（需要源数据的方法）
 - 基于 RT-DETR 检测器，4×A100 训练
-- 在多个跨域场景（正常→雾天，真实→合成等）均取得 SOTA
+- 在多个跨域场景（正常→雾天、真实→卡通/水彩等）均显著领先
+- 25 个 slot 在数量上超越传统 OCL 的 ≤10 限制，但分层设计保证收敛稳定
 
-## 亮点
-- 首次将 OCL/Slot Attention 引入 SF-DAOD，开创新范式
-- 分层 slot 设计突破传统 slot 数量限制（≤10 → 25）
-- 提供理论泛化分析（目标域风险下降界）
-- 在有源和无源设置下都超越现有方法
+## 亮点与洞察
+
+- **OCL + SF-DAOD 的首创结合**：开辟了目标级结构先验用于域适应的新范式
+- 分层 slot 设计巧妙突破了传统 slot 数量限制（5→25），且保持训练稳定
+- 提供理论泛化分析——slot-aware 设计不仅是经验有效，还有理论支撑
+- **在无源设置下超越有源方法**是强有力的实验证据
 
 ## 局限性 / 可改进方向
-- 仅在驾驶场景数据集验证，更多领域（医疗/航拍等）待测试
-- Slot 数量 n=5 是手动设定，可考虑自适应机制
-- 匈牙利匹配依赖检测器预测质量，early stage 可能不稳定
-- 计算开销：HSA 的两阶段 Slot Attention + 重建目标增加训练成本
 
-## 与相关工作的对比
-- **SFOD/PETS/A2SFOD**: 聚焦伪标签过滤，忽略目标级结构；CGSA 利用 slot 结构先验
-- **DATR/MRT** (有源 DAOD): 需要源数据，CGSA 在无源设置下仍超越
-- **Slot Attention/SAVi**: 用于分割/视频预测，首次用于域自适应检测
+- 仅在驾驶场景数据集验证，医疗/航拍/工业等领域的泛化性待测试
+- Slot 数量 $n=5$ 是手动设定，自适应机制可能更好
+- 匈牙利匹配依赖检测器预测质量，early stage 可能不稳定导致错误类标签
+- HSA 的两阶段 Slot Attention + 重建目标增加了训练时间和内存开销
+
+## 相关工作与启发
+
+- **SFOD/PETS/A2SFOD**：聚焦伪标签过滤，忽略目标级结构
+- **DATR/MRT** (有源 DAOD)：需要源数据，CGSA 无源下仍超越
+- **Slot Attention/SAVi**：原用于分割/视频预测，首次引入域自适应检测
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐⭐ (OCL + SF-DAOD 的首创结合)
-- 实验充分度: ⭐⭐⭐⭐ (5个数据集，完整消融)
-- 写作质量: ⭐⭐⭐⭐ (动机清晰，理论+实验双支撑)
-- 价值: ⭐⭐⭐⭐ (为 SF-DAOD 开辟新方向)
+
+- 新颖性: ⭐⭐⭐⭐⭐ OCL + SF-DAOD 首创结合，开辟新方向
+- 实验充分度: ⭐⭐⭐⭐ 5个数据集/跨域设置+完整消融+理论分析
+- 写作质量: ⭐⭐⭐⭐ 动机清晰，理论+实验双支撑
+- 价值: ⭐⭐⭐⭐ 为 SF-DAOD 提供了新的方法论基础

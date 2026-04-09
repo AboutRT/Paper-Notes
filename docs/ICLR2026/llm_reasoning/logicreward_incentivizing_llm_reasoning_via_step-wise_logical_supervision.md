@@ -18,20 +18,30 @@
 6. 高风险场景(医疗/法律)需要严格的逻辑一致性保证
 
 ## 方法详解
-**LogicReward流水线**：
-1. **Rollout**：用Qwen3-8B和GPT-4o生成8个候选响应，每个包含步骤序列$\{s_1,...,s_m\}$和最终答案A
-2. **每步分解**：$s_i = (P_r, I)$，$P_r$=使用的前提，$I$=做出的推断
+### 整体框架
+LogicReward = Rollout生成 → Autoformalization with Soft Unification → 步骤级奖励计算 → Refinement迭代 → 训练数据构建
 
-**三个验证维度**：
-- **Premise Validity**：检查引用前提$P_r$是否在给定前提$P$中有Grounding(余弦相似度)
-- **Logic Validity**：用Isabelle定理证明器验证推断$I$的逻辑有效性。语法正确+逻辑正确→1；语法正确+逻辑错误→0；语法错误→退回token概率置信度
-- **Outcome Validity**：最终答案是否匹配ground truth
+### 数据收集与Rollout
+从8个NLI/逻辑推理数据集采样约6000实例，用Qwen3-8B和GPT-4o各生成4个响应(共8/题)，格式化为"Step 1: s1; Step 2: s2; ...; Answer: A"。
 
-**Autoformalization with Soft Unification**：提示LLM在每个推理步骤中补充隐含但有效的假设(如同义词映射、隐含信息)，减少歧义提高形式化成功率。
+### LogicReward奖励函数(三维度验证)
+每个推理步骤$s_i$被分解为$(P_r, I)$，其中$P_r$=使用的前提，$I$=做出的推断。
 
-**Refinement**：对Isabelle判定无效的推理步骤，用错误信息迭代refine Soft Unification过程。
+**Premise Validity(前提有效性)**：检查引用前提$P_r$是否在给定前提$P$中有Grounding。将$P_r$拆分为句子$\{q_1,...,q_m\}$，对每个$q_j$计算与给定前提的最大余弦相似度，取平均作为步骤级分数。
 
-**训练**：$LogicScore = avg(w_1 \cdot ReasoningValidity, w_2 \cdot OutcomeValidity)$，选最高分做SFT、最高/最低分对做DPO。
+**Logic Validity(逻辑有效性)**：用Isabelle定理证明器验证推断$I$的逻辑正确性。分三种情况：语法正确+逻辑正确→1；语法正确+逻辑错误→0；语法错误→退回token概率置信度$\text{Conf}(I) = \frac{1}{|I|}\sum_{t \in I}\text{token\_prob}(t)$。
+
+**Outcome Validity(结果有效性)**：最终答案是否匹配 ground truth，二值(0/1)。
+
+### Autoformalization with Soft Unification
+自然语言存在大量歧义和隐含假设(Dad≠Father但语义等同)，直接形式化会导致Isabelle验证失败。Soft Unification提示LLM在每个推理步骤中补充有效但未明确陈述的假设(如同义词映射、常识补充)，提高形式化成功率。然后用neo-davidsonian事件语义形式解析，转换为Isabelle/HOL理论进行验证。
+
+### Refinement迭代
+对Isabelle判定无效的推理步骤，用Isabelle的错误信息提示LLM迭代refine Soft Unification，直到逻辑正确或达到最大迭代次数。每个问题随机选择两个响应进行refine，形成$D_{\text{refined}}$。
+
+### 训练策略
+最终奖励: $\text{LogicScore}(r,A) = \text{avg}(w_1 \cdot \text{ReasoningValidity}(r), w_2 \cdot \text{OutcomeValidity}(A))$，$w_1=w_2=0.5$。
+训练数据$D_{\text{final}} = D_r \cup D_{\text{refined}}$。SFT——取最高LogicScore响应作目标；DPO——最高/最低LogicScore响应配对。基座模型为Llama3.1-8B和Qwen3-8B，两阶段训练(SFT→DPO)，LoRA微调。
 
 ## 实验关键数据
 | 模型 | M-LogiEval | FOLIO | ProverQA | LogiQA | 8任务平均 |
@@ -41,11 +51,19 @@
 | DeepSeek-R1-8B | 64.8 | 57.3 | 59.2 | 53.2 | 68.6 |
 | **LogicReward-Qwen3-8B** | **82.0** | **79.5** | **81.2** | **72.3** | **85.5** |
 
-- 8B模型超越GPT-4o(+11.6%)、GPT-4.1(+10%)、DeepSeek-R1-8B(+16.9%)
-- 泛化到数学(CommonsenseQA/GSM8K)和常识推理任务
-- 无ground-truth标签时仍可作为有效奖励信号(仅用ReasoningValidity)
+### 奖励系统对比
+| 奖励函数 | M-LogiEval | ProntoQA | ProverQA | QASC | 8任务平均 |
+|---------|:----:|:----:|:----:|:----:|:----:|
+| Confidence(平均token概率) | 76.9 | 81.0 | 52.3 | 89.8 | 64.3 |
+| LLM-as-Judge(GPT-4o) | 65.8 | 84.6 | 47.5 | 95.3 | 60.2 |
+| PRM(Nemotron-70B) | 66.7 | 90.6 | 62.1 | 97.0 | 66.0 |
+| **LogicReward** | **79.0** | **90.3** | **60.1** | **97.8** | **71.4** |
 
-## 亮点
+**泛化能力**：在未见过的任务上测试——CommonsenseQA和GSM8K分别提升8.2%和4.5%，证明逻辑正确性奖励提升的理性能力可迁移。
+
+**无标签场景**：仅用ReasoningValidity(不依ground truth)作奖励仍有效，平均提升+5.8%，说明推理過程的逻辑质量本身就是有价值的监督信号。
+
+## 亮点与洞察
 - 首次将定理证明器引入NLI领域的步骤级奖励——跨越了符号验证从结构化→非结构化的鸿沟
 - Soft Unification巧妙处理自然语言歧义，是让定理证明器在NL推理中可用的关键
 - 8B模型超越o4-mini——证明逻辑正确的训练数据比模型规模更重要

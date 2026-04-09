@@ -13,7 +13,7 @@
 
 **[Efficient-SAM2: Accelerating SAM2 with Object-Aware Visual Encoding and Memory Retrieval](efficient-sam2_accelerating_sam2_with_object-aware_visual_encoding_and_memory_re.md)**
 
-:   提出 Efficient-SAM2，通过对象感知的稀疏窗口路由(SWR)和稀疏记忆检索(SMR)两个后训练加速方案，利用 SAM2 本身的稀疏感知模式消除冗余计算，在 SAM2.1-L 上实现 1.68× 加速且仅损失 1.0% 精度。
+:   发现 SAM2 存在类似生物视觉的稀疏感知模式（解码器聚焦前景但编码器广泛计算、记忆帧中仅少量 token 有效且显著性时间一致），据此提出 Efficient-SAM2，通过对象感知的稀疏窗口路由（SWR）和稀疏记忆检索（SMR）消除冗余计算，在 SAM2.1-L 上实现 1.68× 端到端加速且仅损失 1% 精度。
 
 **[Locality-Attending Vision Transformer](locality-attending_vision_transformer.md)**
 
@@ -37,4 +37,4 @@
 
 **[VIRTUE: Visual-Interactive Text-Image Universal Embedder](virtue_visual-interactive_text-image_universal_embedder.md)**
 
-:   提出 VIRTUE，将分割模型(SAM2)与 VLM 结合构建视觉交互式通用嵌入器，支持用户通过点/框/掩码指定兴趣区域产生实体级+全局级联合嵌入，并构建百万级 SCaR 基准评估视觉交互检索能力，在 36 个 MMEB 任务和 5 个 SCaR 任务上均达到 SOTA。
+:   提出 VIRTUE，将分割模型 SAM2 与 VLM 结合构建视觉交互式通用嵌入器，支持用户通过点/框/掩码指定兴趣区域产生实体级+全局级联合嵌入，并构建百万级 SCaR 基准评估视觉交互检索能力，在 36 个 MMEB 任务（+3.1%-8.5%）和 5 个 SCaR 任务（+15.2%-20.3%）上均达到 SOTA。

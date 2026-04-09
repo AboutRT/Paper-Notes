@@ -1,5 +1,5 @@
 # Auto-generated: ACL2025 paper notes ignore
-# 由 src/sync_notes.py 根据 TODO.md 自动生成
+# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
 
 # 默认忽略所有笔记
 *.md
@@ -8,9 +8,8 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
-!index.md
 
-# 排除已完成笔记所在的子目录
+# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
 !3d_vision/
 !ai_safety/
 !aigc_detection/
@@ -43,7 +42,7 @@
 !time_series/
 !video_understanding/
 
-# 已完成笔记 (952 篇)
+# 已完成笔记 (948 篇)
 !3d_vision/slamming_training_a_speech_language_model_on_one_gpu_in_a_day.md
 !ai_safety/centaur_bridging_the_impossible_trinity_of.md
 !ai_safety/dialect_fairness_robustness.md
@@ -162,7 +161,6 @@
 !llm_agent/synworld_agentic_action_knowledge.md
 !llm_agent/table_critic_multi_agent.md
 !llm_agent/the_behavior_gap_evaluating_zero-shot_llm_agents_in_complex_task-oriented_dialog.md
-!llm_agent/theorem-of-thought_a_multi-agent_framework_for_abductive_deductive_and_inductive.md
 !llm_agent/toolhop_multi_hop_tool_use.md
 !llm_agent/toolhop_multi_hop_tool_use_benchmark.md
 !llm_alignment/aligned_but_blind_implicit_bias.md
@@ -605,8 +603,6 @@
 !llm_reasoning/local_look-ahead_guidance_via_verifier-in-the-loop_for_automated_theorem_proving.md
 !llm_reasoning/logicpro_program_guided_reasoning.md
 !llm_reasoning/mclm_multilingual_test_time_scaling.md
-!llm_reasoning/one_missing_piece_for_open-source_reasoning_models_a_dataset_to_mitigate_cold-st.md
-!llm_reasoning/pcot_persuasion-augmented_chain_of_thought_for_detecting_fake_news_and_social_me.md
 !llm_reasoning/pcot_persuasion_chain_of_thought_fake_news.md
 !llm_reasoning/ranked_voting_based_self-consistency_of_large_language_models.md
 !llm_reasoning/rethinking_the_role_of_prompting_strategies_in_llm_test-time_scaling_a_perspecti.md
@@ -616,7 +612,6 @@
 !llm_reasoning/stricta_structured_reasoning_peer_review.md
 !llm_reasoning/test_time_scaling_selective_qa.md
 !llm_reasoning/thinkguard_deliberative_slow_thinking_leads_to_cautious_guardrails.md
-!llm_reasoning/towards_better_chain-of-thought_a_reflection_on_effectiveness_and_faithfulness.md
 !llm_reasoning/towards_safety_reasoning_in_llms_ai-agentic_deliberation_for_policy-embedded_cot.md
 !llm_reasoning/tract_regression_cot.md
 !llm_reasoning/training_turn-by-turn_verifiers_for_dialogue_tutoring_agents_the_curious_case_of.md

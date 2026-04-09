@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🤖 AAAI2026** · 共 **17** 篇
+**🤖 AAAI2026** · 共 **20** 篇
 
 **[A Course Correction in Steerability Evaluation: Revealing Miscalibration and Side Effects in LLMs](a_course_correction_in_steerability_evaluation_revealing_mis.md)**
 
@@ -54,6 +54,18 @@
 **[DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients](diffop_reinforcement_learning_of_optimization-based_control_policies_via_implici.md)**
 
 :   提出 DiffOP 框架，将优化型控制策略（如 MPC）视为可微分模块，通过隐式微分推导解析策略梯度，实现端到端强化学习训练，并给出首个非渐近收敛保证。
+
+**[Discounted Cuts: A Stackelberg Approach to Network Disruption](discounted_cuts_a_stackelberg_approach_to_network_disruption.md)**
+
+:   引入“折扣切割”概念——在经典最小切割问题上加入攻击者可免除 k 条最贵/最便宜边的折扣机制，建模为 Stackelberg 攻防博弈，提供了 8 种折扣切割变体的完整复杂度分类，并证明所有变体在有界亏格图上均可多项式时间求解。
+
+**[Distilling Deep RL into Interpretable Fuzzy Rules](distilling_deep_reinforcement_learning_into_interpretable_fuzzy_rules_an_explain.md)**
+
+:   提出层次化 TSK 模糊分类系统，将深度 RL 的神经策略蒸馏为人类可读的 IF-THEN 规则，通过 K-Means 分区状态空间 + Ridge 回归学习局部动作推断，在 LunarLander 上达到 81.5% 保真度（比决策树高 21%），并引入 FRAD/FSC/ASG 三个可量化可解释性指标。
+
+**[Do It for HER: First-Order Temporal Logic Reward Specification in RL](do_it_for_her_first-order_temporal_logic_reward_specification_in_reinforcement_l.md)**
+
+:   提出基于 LTLfMT（线性时序逻辑模理论）的 RL 奖励规范框架，用一阶逻辑谓词替代布尔原子使得奖励可直接定义在连续/异构状态上（无需手工标签函数），并组合 CRM+HER 解决逻辑规范的稀疏奖励问题。
 
 **[MARS: Multi-Agent Adaptive Reasoning with Socratic Guidance for Automated Prompt Optimization](mars_multi-agent_adaptive_reasoning_with_socratic_guidance_f.md)**
 

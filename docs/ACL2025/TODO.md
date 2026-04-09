@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ACL2025 论文笔记 TODO
 
-总计: 2279 篇 | 已完成: 952 | 待更新: 1327
+总计: 2279 篇 | 已完成: 948 | 待更新: 1331
 
 ---
 
@@ -1506,7 +1506,7 @@
 - [x] [on the robust approximation of asr metrics](audio_speech/on_the_robust_approximation_of_asr_metrics.md) | arXiv: 2502.12408
 - [ ] [on-policy self-alignment with fine-grained knowledge feedback for hallucination ](others/on-policy_self-alignment_with_fine-grained_knowledge_feedback_for_hallucination_.md) | arXiv: 2406.12221
 - [ ] [one for all update parameterized knowledge across multiple models with once edit](others/one_for_all_update_parameterized_knowledge_across_multiple_models_with_once_edit.md) | arXiv: 2506.00817
-- [x] [one missing piece for open-source reasoning models a dataset to mitigate cold-st](llm_reasoning/one_missing_piece_for_open-source_reasoning_models_a_dataset_to_mitigate_cold-st.md) | arXiv: 2506.02338
+- [ ] [one missing piece for open-source reasoning models a dataset to mitigate cold-st](llm_reasoning/one_missing_piece_for_open-source_reasoning_models_a_dataset_to_mitigate_cold-st.md) | arXiv: 2506.02338
 - [ ] [one quantllm for all fine-tuning quantized llms once for efficient deployments](model_compression/one_quantllm_for_all_fine-tuning_quantized_llms_once_for_efficient_deployments.md)
 - [ ] [one size fits none rethinking fairness in medical ai](medical_imaging/one_size_fits_none_rethinking_fairness_in_medical_ai.md) | arXiv: 2506.14400
 - [ ] [onebench to test them all sample-level benchmarking over open-ended capabilities](others/onebench_to_test_them_all_sample-level_benchmarking_over_open-ended_capabilities.md)
@@ -1545,7 +1545,7 @@
 - [ ] [past meets present creating historical analogy with large language models](llm_nlp/past_meets_present_creating_historical_analogy_with_large_language_models.md) | arXiv: 2409.14820
 - [x] [patch psychometrics-assisted benchmarking of large language models against human](llm_nlp/patch_psychometrics-assisted_benchmarking_of_large_language_models_against_human.md) | arXiv: 2404.01799
 - [ ] [pattern recognition or medical knowledge the problem with multiple-choice questi](medical_imaging/pattern_recognition_or_medical_knowledge_the_problem_with_multiple-choice_questi.md) | arXiv: 2406.02394
-- [x] [pcot persuasion-augmented chain of thought for detecting fake news and social me](llm_reasoning/pcot_persuasion-augmented_chain_of_thought_for_detecting_fake_news_and_social_me.md) | arXiv: 2506.06842
+- [ ] [pcot persuasion-augmented chain of thought for detecting fake news and social me](llm_reasoning/pcot_persuasion-augmented_chain_of_thought_for_detecting_fake_news_and_social_me.md) | arXiv: 2506.06842
 - [x] [PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation](llm_reasoning/pcot_persuasion_chain_of_thought_fake_news.md) | arXiv: 2506.06842
 - [x] [People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](aigc_detection/chatgpt_user_ai_text_detection.md) | arXiv: 2501.15654
 - [ ] [performance gap in entity knowledge extraction across modalities in vision langu](multimodal_vlm/performance_gap_in_entity_knowledge_extraction_across_modalities_in_vision_langu.md) | arXiv: 2412.14133
@@ -2024,7 +2024,7 @@
 - [ ] [the ud-newscrawl treebank reflections and challenges from a large-scale tagalog ](others/the_ud-newscrawl_treebank_reflections_and_challenges_from_a_large-scale_tagalog_.md)
 - [ ] [theme-explanation structure for table summarization using large language models ](nlp_generation/theme-explanation_structure_for_table_summarization_using_large_language_models_.md) | arXiv: 2501.10487
 - [ ] [theorem prover as a judge for synthetic data generation](others/theorem_prover_as_a_judge_for_synthetic_data_generation.md)
-- [x] [theorem-of-thought a multi-agent framework for abductive deductive and inductive](llm_agent/theorem-of-thought_a_multi-agent_framework_for_abductive_deductive_and_inductive.md) | arXiv: 2506.07106
+- [ ] [theorem-of-thought a multi-agent framework for abductive deductive and inductive](llm_agent/theorem-of-thought_a_multi-agent_framework_for_abductive_deductive_and_inductive.md) | arXiv: 2506.07106
 - [x] [TheoremExplainAgent: Towards Video-based Multimodal Explanations for LLM Theorem Understanding](multimodal_vlm/theorem_explain_agent.md) | arXiv: 2502.19400
 - [ ] [theoretical analysis of hierarchical language recognition and generation by tran](others/theoretical_analysis_of_hierarchical_language_recognition_and_generation_by_tran.md)
 - [ ] [theoretical guarantees for minimum bayes risk decoding](others/theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
@@ -2053,7 +2053,7 @@
 - [x] [Towards a More Generalized Approach in Open Relation Extraction](nlp_understanding/generalized_open_relation_extract.md) | arXiv: 2505.22801
 - [ ] [towards a principled evaluation of knowledge editors](others/towards_a_principled_evaluation_of_knowledge_editors.md) | arXiv: 2507.05937
 - [ ] [towards adaptive memory-based optimization for enhanced retrieval-augmented gene](others/towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md) | arXiv: 2504.05312
-- [x] [towards better chain-of-thought a reflection on effectiveness and faithfulness](llm_reasoning/towards_better_chain-of-thought_a_reflection_on_effectiveness_and_faithfulness.md) | arXiv: 2405.18915
+- [ ] [towards better chain-of-thought a reflection on effectiveness and faithfulness](llm_reasoning/towards_better_chain-of-thought_a_reflection_on_effectiveness_and_faithfulness.md) | arXiv: 2405.18915
 - [x] [Towards Better Evaluation for Generated Patent Claims](others/patclaimeval_patent_evaluation.md) | arXiv: 2505.11095
 - [x] [towards better open-ended text generation a multicriteria evaluation framework](nlp_generation/towards_better_open-ended_text_generation_a_multicriteria_evaluation_framework.md) | arXiv: 2410.18653
 - [ ] [towards better value principles for large language model alignment a systematic ](llm_nlp/towards_better_value_principles_for_large_language_model_alignment_a_systematic_.md)

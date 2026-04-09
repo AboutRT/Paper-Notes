@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**📷 CVPR2026** · 共 **15** 篇
+**📷 CVPR2026** · 共 **20** 篇
 
 **[BluRef: Unsupervised Image Deblurring with Dense-Matching References](bluref_unsupervised_image_deblurring_with_dense-matching_references.md)**
 
@@ -62,3 +62,23 @@
 **[ShiftLUT: Spatial Shift Enhanced Look-Up Tables for Efficient Image Restoration](shiftlut_spatial_shift_enhanced_look-up_tables_for_efficient_image_restoration.md)**
 
 :   提出 ShiftLUT，通过可学习空间偏移模块（LSS）实现 LUT 方法中最大感受野（65×65），配合非对称双分支架构和误差有界自适应采样（EAS），在存储 104KB + 推理 84ms 的条件下超越所有现有 LUT 方法。
+
+**[Toward Real-World Infrared Image Super-Resolution A Unified Autoregressive Frame](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)**
+
+:   提出 Real-IISR，一个基于热-结构引导的视觉自回归框架，通过条件自适应码本和热序一致性损失实现真实世界红外图像超分辨率，并构建首个真实红外超分数据集 FLIR-IISR。
+
+**[Towards Universal Computational Aberration Correction In Photographic Cameras A ](towards_universal_computational_aberration_correction_in_photographic_cameras_a_.md)**
+
+:   构建首个面向消费级相机的通用计算像差校正基准 UniCAC，提出光学退化评估器 ODE 量化像差难度，系统评测 24 种图像恢复/CAC 方法，揭示影响 CAC 性能的三大关键因素。
+
+**[Ucan Unified Convolutional Attention Network For Expansive Receptive Fields In L](ucan_unified_convolutional_attention_network_for_expansive_receptive_fields_in_l.md)**
+
+:   提出 UCAN，一种统一卷积与注意力的轻量级超分网络，通过 Hedgehog Attention 突破线性注意力的低秩瓶颈，结合 Flash Attention 大窗口建模、大核蒸馏模块和跨层参数共享，在极低计算量下实现了与大模型可比的超分性能。
+
+**[Unirain Unified Image Deraining With Rag-Based Dataset Distillation And Multi-Ob](unirain_unified_image_deraining_with_rag-based_dataset_distillation_and_multi-ob.md)**
+
+:   提出 UniRain，一个统一的去雨框架，通过 RAG 驱动的数据集蒸馏从 200 万+ 公开图像对中筛选高质量训练样本，结合非对称 MoE 架构和多目标自适应重加权优化策略，首次在单一模型中同时处理白天/夜晚的雨条纹和雨滴四种退化。
+
+**[Variational Garrote For Sparse Inverse Problems](variational_garrote_for_sparse_inverse_problems.md)**
+
+:   在统一的稀疏逆问题框架下，系统比较 $\ell_1$ 正则化（LASSO）与 Variational Garrote（VG，一种变分 $\ell_0$ 近似方法），通过信号重采样、去噪和稀疏视角 CT 重建三个任务，证明 VG 在强欠定场景下能更准确地恢复稀疏支撑集，获得更低的泛化误差。

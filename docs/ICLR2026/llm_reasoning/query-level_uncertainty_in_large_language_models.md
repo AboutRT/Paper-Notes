@@ -16,26 +16,52 @@
 4. 已有query-level方法需训练探针或微调模型（如IDK token、R-Tuning），泛化性受限
 5. LLM内部隐藏状态蕴含丰富的知识可达性信息，跨层一致性可提升输出质量
 
-## 方法
-**核心思路**: 用yes/no自评提示让LLM判断能否回答查询，提取P(Yes)作为置信度，无需生成答案。
+## 方法详解
+### 核心思路
+用yes/no自评提示让LLM判断能否回答查询，提取P(Yes)作为置信度，无需生成答案。提示格式："Respond only with 'Yes' or 'No' to indicate whether you are capable of answering the {Query} accurately."
 
-**Internal Confidence**: 不仅用最后一层最后一个token的P(Yes)，而是跨所有层和token位置计算P(Yes)，然后用Attenuated Encoding加权聚合。权重以"决策中心"（默认为最后层最后token）为中心指数衰减，控制locality参数α=1.0。
+### 从P(Yes)到Internal Confidence
+**基础P(Yes)**：仅用最后一层最后一个token的隐状态$\mathbf{h}_N^{(L)}$，通过unembedding矩阵投影到[Yes, No]词表上做softmax——类似无训练的linear probing。
 
-**关键公式**: $\text{IC}(\mathbf{h}) = \sum_{n}\sum_{l} w_n^{(l)} P(\text{Yes}|\mathbf{h}_n^{(l)})$，其中权重通过 $\delta_j^{(i)} = \exp(-\alpha|i-j|^2)$ 归一化得到。
+**Internal Confidence扩展**：不仅用最后一个位置，而是跨所有层和token位置计算P(Yes)，用加权平均聚合：
+$$\text{IC}(\mathbf{h}) = \sum_{n=1}^{N}\sum_{l=1}^{L}w_n^{(l)} P(\text{Yes}|\mathbf{h}_n^{(l)})$$
 
-**特性**: 完全training-free，仅需单次前向传播，无需生成任何token。
+其中权重用**Attenuated Encoding**计算：$\delta_j^{(i)} = \exp(-\alpha|i-j|^2) / Z$，以"决策中心"(默认为最后层最后token)为圆心，随距离指数衰减。参数α=1.0控制locality：值越大权重越集中在中心附近。
 
-## 实验
-| 方法 | Avg AUROC (Qwen-14B) | Avg PRR | 速度提升 |
-|------|---------------------|---------|---------|
-| Internal Confidence | **67.1** | **31.7** | — |
-| P(Yes) top-right | 60.9 | 23.1 | — |
-| Predictive Entropy | 59.6 | 19.5 | — |
-| Perplexity | 57.7 | 15.3 | — |
+### 设计激励
+- AUROC热力图显示“决策中心”确实存在：最佳分辨位置并非最后层最后token，但近似效果良好
+- 固定决策中心避免了需要验证集来确定最优位置，保持training-free特性
+- 跨层聚合利用了LLM中间层编码的丰富知识，而非仅依赖最终表示
 
-**vs Answer-level方法** (GSM8K, Qwen-14B): Internal Confidence AUROC=66.8，耗时0.3s/样本；Semantic Entropy AUROC=60.0，耗时151.8s（506×慢）。
+### 应用场景
+1. **自适应RAG**：IC较低时触发检索增强，IC较高时直接回答，减屑50%+的RAG调用而性能几乎不降
+2. **模型级联**：小模型IC较低时将查询转发给大模型，实现成本-质量最优平衡
+3. **弃权策略**：对高不确定性查询拒绝回答，提升可信度
 
-**关键发现**: (1) IC在3个数据集3个模型上一致优于所有baseline; (2) 相比answer-level方法快32×-602×; (3) RAG场景下可在性能几乎不降的情况下减少50%+的RAG调用; (4) 模型越大IC效果越显著; (5) 决策中心附近的层和token信息最有区分力。
+## 实验关键数据
+### 主实验（跨模型跨任务）
+| 方法 | Phi-3.8B AUROC | Llama-8B AUROC | Qwen-14B AUROC | Avg AUROC |
+|------|:--:|:--:|:--:|:--:|
+| Max(-log p) | 54.0 | 56.3 | 57.8 | 56.0 |
+| Predictive Entropy | 57.9 | 60.1 | 62.4 | 60.1 |
+| Semantic Entropy | 55.6 | 59.7 | 60.0 | 58.4 |
+| P(Yes) top-right | 57.3 | 60.5 | 60.9 | 59.6 |
+| **Internal Confidence** | **60.8** | **64.7** | **67.1** | **64.2** |
+
+### 与Answer-level方法对比（速度）
+| 方法 | GSM8K AUROC | 毛秒/样本 |
+|------|:--:|:--:|
+| IC(本文) | 66.8 | **0.3** |
+| Predictive Entropy | 61.0 | 9.8 |
+| Min-K Entropy | 60.4 | 3.8 |
+| Semantic Entropy | 60.0 | 151.8 |
+
+**关键发现**:
+1. IC在3个数据集3个模型上一致优于所有baseline
+2. 相比answer-level方法快32×-602×，并且精度更高
+3. RAG场景下可在性能几乎不降的情况下减屑50%+的RAG调用
+4. 模型越大IC效果越显著，因为更大的模型有更好的自我知识边界感知
+5. 决策中心附近的层和token信息最有区分力，与AUROC热力图观察一致
 
 ## 亮点
 - 首次形式化定义query-level uncertainty，将不确定性估计从"后验"推向"先验"

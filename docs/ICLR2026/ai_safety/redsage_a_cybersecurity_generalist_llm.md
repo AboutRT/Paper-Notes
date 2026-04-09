@@ -1,64 +1,103 @@
 # RedSage: A Cybersecurity Generalist LLM
 
-**会议**: ICLR 2026  
-**arXiv**: [2601.22159](https://arxiv.org/abs/2601.22159)  
-**代码**: 开源（数据+模型+代码）  
-**领域**: 模型压缩 / AI安全  
-**关键词**: 网络安全LLM, 持续预训练, 域特定微调, 基准测试, 工具调用
+**会议**: ICLR 2026
+**arXiv**: [2601.22159](https://arxiv.org/abs/2601.22159)
+
+**代码**: 有 (开源数据+模型+代码)
+
+**领域**: AI安全 / 网络安全
+**关键词**: 网络安全LLM, continual pretraining, agentic augmentation, 安全评测, RedSage-Bench
 
 ## 一句话总结
-RedSage 是开源的 8B 网络安全专用 LLM，通过 11.8B token 安全语料持续预训练 + 266K 样本智能体增强 SFT + 偏好对齐三阶段训练，配套提出覆盖知识/技能/工具三维的 RedSage-Bench（30K MCQ + 240 开放题），在现有网络安全基准上达到 SOTA。
+
+构建了完整的网络安全LLM pipeline：11.8B token的领域持续预训练 + 266K样本的agentic augmented SFT + 30K MCQ+240开放问答的综合评测基准RedSage-Bench，8B模型在多个网络安全benchmarks上达SOTA。
 
 ## 研究背景与动机
 
-1. **领域现状**：网络安全威胁日益复杂，全球安全人才缺口数百万。现有安全 LLM（PRIMUS/Foundation-Sec/DeepHat）通常只关注单一训练阶段，且数据/模型很少完全开源。
-2. **现有痛点**：
-   - 现有基准仅覆盖知识或技能单一维度，缺少工具熟练度评估和开放题质量评价
-   - 持续预训练和 SFT 往往简陋执行，数据质量和规模不足
-   - 可复现性差：多数工作未释放数据或训练流程
-3. **核心idea**：全流程开源：11.8B token 预训练语料 + 266K SFT 样本（用智能体流程生成） + 三维基准 = 可复现的完整网络安全 LLM 开发框架。
+网络安全威胁日趋复杂——APT攻击、漏洞管理、事件响应等任务需要高度专业知识。全球网络安全人才缺口达数百万。现有网络安全LLM存在三个主要短板：(1) 大多只做单一训练阶段（如仅预训练或仅SFT）；(2) SFT数据量极小（PRIMUS仅835样本）；(3) 评测基准覆盖不全——缺乏工具使用能力评测和开放问答质量评估。
+
+本文的目标是构建一个全面的、开放的网络安全LLM系统，同时解决数据、训练和评测三方面的不足。核心区别在于：结合大规模持续预训练（11.7B tokens）+ 高质量agentic augmented SFT（266K samples）+ 完整评测（知识+技能+工具+质量评分）。
 
 ## 方法详解
 
 ### 整体框架
-三阶段：(1) 域特定持续预训练（11.8B token 过滤后的安全语料）→ (2) SFT（200K+ 智能体增强对话 + 66K 种子数据）→ (3) DPO 偏好对齐。
+
+(1) CyberFineWeb：从FineWeb过滤网络安全文本+30%通用知识replay → (2) RedSage-Seed：28,637高质量策展样本 → (3) Agentic augmentation生成266K SFT对话 → (4) RedSage-Bench评测。
 
 ### 关键设计
 
-1. **安全语料构建**：收集11.8B token，包括安全博客/CVE/工具文档/教程等多源数据，经URL、域名和内容质量多层过滤
-2. **智能体增强 SFT 数据**：以 66K 种子 Q&A 为基础，用智能体流程扩展到 266K——智能体自动生成变体问题、多角度回答、工具调用演示
-3. **RedSage-Bench 三维基准**：知识（30K MCQ）+ 实战技能 + 工具熟练度（CLI、Kali Linux）+ 240 开放题用 LLM-as-judge 质量评分
+1. **CyberFineWeb预训练语料**：用 ModernBERT-base 训练二分类器过滤 FineWeb → 125M文档(89.8B tokens) → 混合30% FineWeb-Edu防遗忘 → MinHash-LSH去重 → 按时间分块训练+early stopping → 最终13M文档(11.7B tokens)。
+
+2. **RedSage-Seed策展**：三类高质量来源——Knowledge(MITRE ATT&CK/CWE/OWASP等)、Skills(HackTricks/渗透测试writeups)、Tools(CLI cheatsheets/Kali Linux文档)。28,637样本 + 459K非分类文档。
+
+3. **Agentic Augmentation Pipeline**：将策展的资源通过LLM代理转化为多轮expert-assistant对话，模拟真实的网络安全工作流。生成267K SFT样本（知识67K + 技能96K + 工具104K）。
+
+4. **RedSage-Bench**：30K MCQ覆盖Knowledge/Skills/Tools + 240开放问答 + 质量LLM-judge评分。首个同时评估知识、技能和工具使用的网络安全基准。
+
+### 损失函数 / 训练策略
+
+基于 Llama-3.1-8B 做 continual pretraining（标准CLM loss）+ SFT（对话格式的CE loss）+ DPO对齐（开源偏好数据）。
 
 ## 实验关键数据
 
 ### 主实验
 
-| 模型 | SecEval↑ | CyberMetric↑ | SecBench↑ | 通用基准↑ |
-|------|---------|------------|----------|----------|
-| Llama-3.1-8B-Instruct | 基线 | 基线 | 基线 | 基线 |
-| PRIMUS | +小幅 | +小幅 | - | -小幅 |
-| **RedSage** | **SOTA** | **SOTA** | **SOTA** | **保持/提升** |
+| 基准 | RedSage-8B | Foundation-Sec-8B | PRIMUS | Llama-3.1-8B |
+|------|-----------|------------------|--------|-------------|
+| SecEval | **最优** | 次优 | - | 基线 |
+| CyberBench | **最优** | 次优 | 次优 | 基线 |
+| General Benchmarks | **改善** | - | 微降 | 基线 |
+
+### 消融实验
+
+| 组件 | 效果 | 说明 |
+|------|------|------|
+| 去掉 continual PT | 显著下降 | 领域知识基础 |
+| 去掉 agentic augmentation | 技能/工具能力下降 | 对话质量的关键 |
+| 去掉 FineWeb-Edu replay | 通用能力退化 | 防遗忘必需 |
+| 去掉 DPO | 开放问答质量下降 | 对齐重要 |
 
 ### 关键发现
-- 在安全基准上全面 SOTA，同时通用能力保持或提升
-- 智能体增强的 SFT 数据质量超越单纯数量堆叠
-- 工具熟练度评估填补了现有基准的重要空白
+
+- 大规模持续预训练(11.7B tokens)是性能提升的基础，仅SFT不够。
+
+- Agentic augmentation比手工策展的SFT数据效果更好——模拟了真实工作流。
+
+- 通用能力不降反升——30% replay ratio有效防止catastrophic forgetting。
+
+- 在工具使用评测上RedSage大幅领先（因为其他基准根本不评测这个维度）。
+
+- 开源策略（数据+模型+代码+评测）本身就是重要贡献。
 
 ## 亮点与洞察
-- **全流程开源**是最大价值——数据+模型+代码+基准全部公开，为网络安全 LLM 研究提供可复现基线
-- 智能体流程生成 SFT 数据的方法可迁移到其他域特定 LLM 训练
+
+- 全栈开源的网络安全LLM——数据、模型、代码、评测基准全部公开，填补了领域空白。
+
+- Agentic augmentation将静态文档转化为动态对话的方法论有通用价值。
+
+- RedSage-Bench是首个覆盖知识+技能+工具的综合网络安全评测。
 
 ## 局限性 / 可改进方向
-- 仅 8B 参数，更大模型效果未验证
-- 未结合 RL/GRPO 做推理能力增强
-- 工具评估仅限 CLI/Kali，未覆盖 Metasploit/Burp Suite 等专业工具
+
+- 8B参数限制了复杂推理能力，70B版本可能更优。
+
+- 工具使用评测仍限于CLI命令，真实CTF场景的交互式评测未覆盖。
+
+- 网络安全知识更新快，模型的时效性维护是持续挑战。
+
+- 安全风险：开源网络安全LLM可能被恶意利用。
 
 ## 相关工作与启发
-- **vs PRIMUS**: PRIMUS 仅 835 个 SFT 样本；RedSage 266K 且智能体增强
-- **vs Foundation-Sec-8B**: Cisco 作品但数据未开源；RedSage 全开源
+
+- 与 Foundation-Sec-8B(Cisco)、PRIMUS(Trend Micro)、SecGemini(Google) 形成对比。
+
+- 开源和全面的策略可能加速整个网络安全AI社区的发展。
 
 ## 评分
-- 新颖性: ⭐⭐⭐ 方法不新但工程执行全面
-- 实验充分度: ⭐⭐⭐⭐ 多基准、三维评估、质量评分
-- 写作质量: ⭐⭐⭐⭐ 流程清晰，资源总结表很实用
-- 价值: ⭐⭐⭐⭐⭐ 开源全流程对网络安全社区价值极高
+
+- 新颖性: ⭐⭐⭐⭐ 全栈pipeline+agentic augmentation
+
+- 实验充分度: ⭐⭐⭐⭐ 多基准评测+消融
+
+- 写作质量: ⭐⭐⭐⭐ 结构清晰
+- 价值: ⭐⭐⭐⭐⭐ 开源贡献极大
