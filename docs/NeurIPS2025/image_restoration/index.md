@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🧠 NeurIPS2025** · 共 **25** 篇
+**🧠 NeurIPS2025** · 共 **26** 篇
 
 **[Adaptive Discretization for Consistency Models](adaptive_discretization_for_consistency_models.md)**
 
@@ -62,6 +62,10 @@
 **[MoDEM: A Morton-Order Degradation Estimation Mechanism for Adverse Weather Image Restoration](modem_a_morton-order_degradation_estimation_mechanism_for_adverse_weather_image_.md)**
 
 :   提出 MODEM 框架，通过 Morton 编码空间扫描与选择性状态空间模型（SSM）结合，建模空间异质性天气退化特征，配合双重退化估计模块提供全局和局部先验，实现多种天气退化图像的统一自适应复原 SOTA。
+
+**[MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)**
+
+:   提出MoE-Gyro自监督专家混合框架，通过超量程重建专家(ORE，含高斯衰减注意力和物理信息约束)和降噪专家(DE，含双分支互补掩码和FFT引导增强)同时解决MEMS陀螺仪量程-噪声的根本权衡，将可测量范围从±450°/s扩展到±1500°/s，偏置不稳定性降低98.4%。
 
 **[Mro Enhancing Reasoning In Diffusion Language Models Via Multi-Reward Optimizati](mro_enhancing_reasoning_in_diffusion_language_models_via_multi-reward_optimizati.md)**
 

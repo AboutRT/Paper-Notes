@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🤖 AAAI2026** · 共 **26** 篇
+**🤖 AAAI2026** · 共 **27** 篇
 
 **["As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)**
 
@@ -66,6 +66,10 @@
 **[N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)**
 
 :   提出 N2N-GQA——首个用于开放域混合表格-文本问答的零样本框架，核心思路是将检索到的嘈杂文档构建为动态证据图（文档为节点、TF-IDF共享词为边），通过图中心性剪枝识别"桥接文档"连接多跳推理链，在 OTT-QA 上比 Vanilla RAG 提升 +39.6 EM（从 8.0 到 48.8），零样本即接近微调系统 CORE (49.0 EM)。
+
+**[Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval](neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval.md)**
+
+:   提出 NIRNL 框架，通过跨模态边距保持（CMP）增强样本区分度，并利用邻域感知实例精炼（NIR）将训练数据三分为纯净/困难/噪声子集，分别定制不同优化策略，统一了鲁棒学习、标签校准和实例选择三种范式，在高噪声率下实现了 SOTA 跨模态检索性能。
 
 **[OAD-Promoter: Enhancing Zero-shot VQA using Large Language Models with Object Attribute Description](oad-promoter_enhancing_zero-shot_vqa_using_large_language_models_with_object_att.md)**
 

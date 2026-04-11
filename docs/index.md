@@ -13,7 +13,7 @@ hide:
 <p class="hero-subtitle">AI / LLM / NLP / CV 顶会论文解读 · 每篇 5 分钟读懂核心思想<br>覆盖 ICLR / CVPR / ACL / NeurIPS / AAAI / ICCV / ECCV 等顶会 · 持续更新中</p>
 
 <div class="hero-stats">
-<div class="stat"><span class="stat-number">10769</span><span class="stat-label">篇笔记</span></div>
+<div class="stat"><span class="stat-number">10925</span><span class="stat-label">篇笔记</span></div>
 <div class="stat"><span class="stat-number">9</span><span class="stat-label">个会议</span></div>
 <div class="stat"><span class="stat-number">45</span><span class="stat-label">个领域</span></div>
 </div>
@@ -185,36 +185,36 @@ hide:
 
 ### 🧠 [NeurIPS2025](NeurIPS2025/index.md)
 
-<div class="conf-count">2203 篇 · 44 个领域</div>
+<div class="conf-count">2288 篇 · 44 个领域</div>
 
 <div class="area-tags">
-<a class="area-tag" href="NeurIPS2025/image_generation/">图像生成 198</a>
+<a class="area-tag" href="NeurIPS2025/image_generation/">图像生成 223</a>
 <a class="area-tag" href="NeurIPS2025/reinforcement_learning/">强化学习 144</a>
-<a class="area-tag" href="NeurIPS2025/medical_imaging/">医学图像 133</a>
-<a class="area-tag" href="NeurIPS2025/multimodal_vlm/">多模态 VLM 130</a>
-<a class="area-tag" href="NeurIPS2025/model_compression/">模型压缩 123</a>
-<a class="area-tag" href="NeurIPS2025/3d_vision/">3D 视觉 110</a>
-<a class="area-tag" href="NeurIPS2025/ai_safety/">AI 安全 99</a>
-<a class="area-tag" href="NeurIPS2025/optimization/">优化/理论 93</a>
-<a class="area-tag" href="NeurIPS2025/interpretability/">可解释性 72</a>
-<a class="area-tag" href="NeurIPS2025/human_understanding/">人体理解 70</a>
+<a class="area-tag" href="NeurIPS2025/medical_imaging/">医学图像 135</a>
+<a class="area-tag" href="NeurIPS2025/multimodal_vlm/">多模态 VLM 134</a>
+<a class="area-tag" href="NeurIPS2025/model_compression/">模型压缩 126</a>
+<a class="area-tag" href="NeurIPS2025/3d_vision/">3D 视觉 115</a>
+<a class="area-tag" href="NeurIPS2025/ai_safety/">AI 安全 104</a>
+<a class="area-tag" href="NeurIPS2025/optimization/">优化/理论 98</a>
+<a class="area-tag" href="NeurIPS2025/interpretability/">可解释性 73</a>
+<a class="area-tag" href="NeurIPS2025/human_understanding/">人体理解 71</a>
+<a class="area-tag" href="NeurIPS2025/video_understanding/">视频理解 64</a>
 <a class="area-tag" href="NeurIPS2025/llm_reasoning/">LLM 推理 63</a>
-<a class="area-tag" href="NeurIPS2025/video_understanding/">视频理解 60</a>
-<a class="area-tag" href="NeurIPS2025/llm_evaluation/">LLM 评测 57</a>
+<a class="area-tag" href="NeurIPS2025/llm_evaluation/">LLM 评测 62</a>
 <a class="area-tag" href="NeurIPS2025/llm_agent/">LLM Agent 49</a>
+<a class="area-tag" href="NeurIPS2025/robotics/">机器人/具身智能 49</a>
 <a class="area-tag" href="NeurIPS2025/llm_nlp/">LLM / NLP 48</a>
-<a class="area-tag" href="NeurIPS2025/robotics/">机器人/具身智能 48</a>
+<a class="area-tag" href="NeurIPS2025/autonomous_driving/">自动驾驶 47</a>
 <a class="area-tag" href="NeurIPS2025/llm_alignment/">对齐 / RLHF 46</a>
-<a class="area-tag" href="NeurIPS2025/autonomous_driving/">自动驾驶 45</a>
 <a class="area-tag" href="NeurIPS2025/graph_learning/">图学习 45</a>
 <a class="area-tag" href="NeurIPS2025/time_series/">时间序列 45</a>
+<a class="area-tag" href="NeurIPS2025/segmentation/">语义分割 42</a>
 <a class="area-tag" href="NeurIPS2025/llm_efficiency/">LLM 效率 41</a>
-<a class="area-tag" href="NeurIPS2025/segmentation/">语义分割 41</a>
+<a class="area-tag" href="NeurIPS2025/object_detection/">目标检测 35</a>
+<a class="area-tag" href="NeurIPS2025/audio_speech/">音频/语音 34</a>
 <a class="area-tag" href="NeurIPS2025/llm_pretraining/">预训练/数据 34</a>
-<a class="area-tag" href="NeurIPS2025/audio_speech/">音频/语音 33</a>
-<a class="area-tag" href="NeurIPS2025/object_detection/">目标检测 33</a>
-<a class="area-tag" href="NeurIPS2025/information_retrieval/">信息检索/RAG 28</a>
-<a class="area-tag" href="NeurIPS2025/image_restoration/">图像恢复 25</a>
+<a class="area-tag" href="NeurIPS2025/information_retrieval/">信息检索/RAG 29</a>
+<a class="area-tag" href="NeurIPS2025/image_restoration/">图像恢复 26</a>
 <a class="area-tag" href="NeurIPS2025/causal_inference/">因果推理 23</a>
 <a class="area-tag" href="NeurIPS2025/scientific_computing/">科学计算 22</a>
 <a class="area-tag" href="NeurIPS2025/self_supervised/">自监督/表示学习 22</a>
@@ -231,7 +231,7 @@ hide:
 <a class="area-tag" href="NeurIPS2025/dialogue/">对话系统 5</a>
 <a class="area-tag" href="NeurIPS2025/earth_science/">地球科学 5</a>
 <a class="area-tag" href="NeurIPS2025/nlp_understanding/">NLP 理解 2</a>
-<a class="area-tag" href="NeurIPS2025/others/">其他 88</a>
+<a class="area-tag" href="NeurIPS2025/others/">其他 104</a>
 </div>
 
 </div>
@@ -291,46 +291,46 @@ hide:
 
 ### 🤖 [AAAI2026](AAAI2026/index.md)
 
-<div class="conf-count">1230 篇 · 45 个领域</div>
+<div class="conf-count">1291 篇 · 45 个领域</div>
 
 <div class="area-tags">
 <a class="area-tag" href="AAAI2026/3d_vision/">3D 视觉 77</a>
+<a class="area-tag" href="AAAI2026/medical_imaging/">医学图像 77</a>
 <a class="area-tag" href="AAAI2026/multimodal_vlm/">多模态 VLM 74</a>
 <a class="area-tag" href="AAAI2026/image_generation/">图像生成 73</a>
 <a class="area-tag" href="AAAI2026/reinforcement_learning/">强化学习 67</a>
 <a class="area-tag" href="AAAI2026/human_understanding/">人体理解 65</a>
 <a class="area-tag" href="AAAI2026/ai_safety/">AI 安全 61</a>
-<a class="area-tag" href="AAAI2026/medical_imaging/">医学图像 61</a>
 <a class="area-tag" href="AAAI2026/autonomous_driving/">自动驾驶 58</a>
-<a class="area-tag" href="AAAI2026/model_compression/">模型压缩 53</a>
+<a class="area-tag" href="AAAI2026/model_compression/">模型压缩 54</a>
 <a class="area-tag" href="AAAI2026/llm_agent/">LLM Agent 46</a>
 <a class="area-tag" href="AAAI2026/object_detection/">目标检测 41</a>
 <a class="area-tag" href="AAAI2026/video_understanding/">视频理解 37</a>
 <a class="area-tag" href="AAAI2026/graph_learning/">图学习 34</a>
-<a class="area-tag" href="AAAI2026/interpretability/">可解释性 31</a>
+<a class="area-tag" href="AAAI2026/interpretability/">可解释性 32</a>
 <a class="area-tag" href="AAAI2026/time_series/">时间序列 31</a>
 <a class="area-tag" href="AAAI2026/robotics/">机器人/具身智能 30</a>
 <a class="area-tag" href="AAAI2026/segmentation/">语义分割 30</a>
+<a class="area-tag" href="AAAI2026/llm_nlp/">LLM / NLP 28</a>
 <a class="area-tag" href="AAAI2026/llm_reasoning/">LLM 推理 28</a>
-<a class="area-tag" href="AAAI2026/llm_nlp/">LLM / NLP 27</a>
-<a class="area-tag" href="AAAI2026/information_retrieval/">信息检索/RAG 26</a>
+<a class="area-tag" href="AAAI2026/information_retrieval/">信息检索/RAG 27</a>
+<a class="area-tag" href="AAAI2026/llm_evaluation/">LLM 评测 26</a>
 <a class="area-tag" href="AAAI2026/optimization/">优化/理论 23</a>
 <a class="area-tag" href="AAAI2026/audio_speech/">音频/语音 21</a>
 <a class="area-tag" href="AAAI2026/recommender/">推荐系统 21</a>
-<a class="area-tag" href="AAAI2026/llm_evaluation/">LLM 评测 20</a>
 <a class="area-tag" href="AAAI2026/llm_alignment/">对齐 / RLHF 19</a>
 <a class="area-tag" href="AAAI2026/image_restoration/">图像恢复 15</a>
 <a class="area-tag" href="AAAI2026/self_supervised/">自监督/表示学习 12</a>
 <a class="area-tag" href="AAAI2026/causal_inference/">因果推理 9</a>
 <a class="area-tag" href="AAAI2026/code_intelligence/">代码智能 9</a>
 <a class="area-tag" href="AAAI2026/llm_efficiency/">LLM 效率 9</a>
-<a class="area-tag" href="AAAI2026/multilingual_mt/">多语言/翻译 8</a>
+<a class="area-tag" href="AAAI2026/multilingual_mt/">多语言/翻译 9</a>
 <a class="area-tag" href="AAAI2026/scientific_computing/">科学计算 8</a>
 <a class="area-tag" href="AAAI2026/social_computing/">社会计算 8</a>
 <a class="area-tag" href="AAAI2026/remote_sensing/">遥感 7</a>
 <a class="area-tag" href="AAAI2026/knowledge_editing/">知识编辑 5</a>
-<a class="area-tag" href="AAAI2026/llm_pretraining/">预训练/数据 4</a>
-<a class="area-tag" href="AAAI2026/llm_safety/">LLM 安全 4</a>
+<a class="area-tag" href="AAAI2026/llm_pretraining/">预训练/数据 5</a>
+<a class="area-tag" href="AAAI2026/llm_safety/">LLM 安全 5</a>
 <a class="area-tag" href="AAAI2026/aigc_detection/">AIGC 检测 3</a>
 <a class="area-tag" href="AAAI2026/dialogue/">对话系统 3</a>
 <a class="area-tag" href="AAAI2026/signal_comm/">信号/通信 3</a>
@@ -338,7 +338,7 @@ hide:
 <a class="area-tag" href="AAAI2026/nlp_understanding/">NLP 理解 2</a>
 <a class="area-tag" href="AAAI2026/physics/">物理学 2</a>
 <a class="area-tag" href="AAAI2026/earth_science/">地球科学 1</a>
-<a class="area-tag" href="AAAI2026/others/">其他 62</a>
+<a class="area-tag" href="AAAI2026/others/">其他 94</a>
 </div>
 
 </div>
@@ -347,15 +347,15 @@ hide:
 
 ### 📹 [ICCV2025](ICCV2025/index.md)
 
-<div class="conf-count">1311 篇 · 40 个领域</div>
+<div class="conf-count">1321 篇 · 40 个领域</div>
 
 <div class="area-tags">
-<a class="area-tag" href="ICCV2025/3d_vision/">3D 视觉 288</a>
-<a class="area-tag" href="ICCV2025/image_generation/">图像生成 215</a>
+<a class="area-tag" href="ICCV2025/3d_vision/">3D 视觉 292</a>
+<a class="area-tag" href="ICCV2025/image_generation/">图像生成 216</a>
 <a class="area-tag" href="ICCV2025/multimodal_vlm/">多模态 VLM 132</a>
-<a class="area-tag" href="ICCV2025/autonomous_driving/">自动驾驶 93</a>
-<a class="area-tag" href="ICCV2025/segmentation/">语义分割 73</a>
-<a class="area-tag" href="ICCV2025/video_understanding/">视频理解 71</a>
+<a class="area-tag" href="ICCV2025/autonomous_driving/">自动驾驶 94</a>
+<a class="area-tag" href="ICCV2025/segmentation/">语义分割 75</a>
+<a class="area-tag" href="ICCV2025/video_understanding/">视频理解 73</a>
 <a class="area-tag" href="ICCV2025/human_understanding/">人体理解 69</a>
 <a class="area-tag" href="ICCV2025/model_compression/">模型压缩 45</a>
 <a class="area-tag" href="ICCV2025/medical_imaging/">医学图像 41</a>

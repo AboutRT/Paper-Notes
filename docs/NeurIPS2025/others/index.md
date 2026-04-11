@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧠 NeurIPS2025** · 共 **88** 篇
+**🧠 NeurIPS2025** · 共 **104** 篇
 
 **[4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)**
 
@@ -187,6 +187,18 @@
 
 :   发现 Feature Resonance 现象——优化已知 ID 节点表征时未知 ID 节点的表征变化显著大于 OOD 节点，且该现象与标签无关，据此提出无需多类标签的图 OOD 节点检测框架 RSL，在 13 个数据集上达到 SOTA。
 
+**[HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)**
+
+:   提出 HouseLayout3D——首个面向大规模多层建筑的真实世界 3D layout 估计基准，以及 MultiFloor3D——一个无需训练的基线方法，通过组合现代 3D 重建和分割模型在多层建筑 layout 估计上超越现有深度学习方法。
+
+**[How Should We Evaluate Data Deletion in Graph-Based ANN Indexes?](how_should_we_evaluate_data_deletion_in_graph-based_ann_indexes.md)**
+
+:   针对图索引（graph-based ANNS）中数据删除缺乏系统评估方法的问题，形式化定义了三种删除策略（逻辑删除、物理删除、重建），提出一套面向实际部署的评估框架和指标体系，并在 HNSW 上实验分析后提出 Deletion Control 算法，可根据精度需求动态选择删除策略。
+
+**[HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)**
+
+:   提出 HyperGraphRAG，首个基于超图 (hypergraph) 结构的 RAG 方法，通过超边 (hyperedge) 建模 n 元关系（n≥2），克服了现有图谱 RAG 方法受限于二元关系的瓶颈，在医学、农业、计算机科学和法律等领域的问答任务中全面超越 StandardRAG 和 GraphRAG 系列方法。
+
 **[Impact of Layer Norm on Memorization and Generalization in Transformers](impact_of_layer_norm_on_memorization_and_generalization_in_transformers.md)**
 
 :   系统揭示了LayerNorm在Pre-LN和Post-LN Transformer中的**截然不同**角色：Pre-LN中LN对学习至关重要，移除会破坏泛化；Post-LN中LN驱动记忆化，移除可抑制记忆化并恢复真实标签。
@@ -195,9 +207,17 @@
 
 :   提出 Latent Similarity Gaussian Process (LSGP)，将患者嵌入连续隐空间以捕获异质性，使数据稀少的患者能从相似患者"借用"预测趋势，从而改进基于 EMA 数据的自杀未遂预测。
 
+**[Incomplete Multi-view Clustering via Hierarchical Semantic Alignment and Cooperative Completion](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)**
+
+:   提出 HSACC 框架，通过双层语义空间设计（低层互信息对齐 + 高层自适应加权融合）和联合优化的缺失视图隐式恢复策略，解决不完整多视图聚类中静态融合和两阶段流水线（先补全后聚类）的误差传播问题，在 5 个基准数据集上全面超越 SOTA。
+
 **[笔记2：PRM必要吗？RL隐式诱导PRM能力](is_prm_necessary_problem-solving_rl_implicitly_induces_prm_capability_in_llms.md)**
 
 :   令人惊讶地，纯RL训练无需显式PRM监督即可诱发出强大的过程理解能力，且现有PRMs在SOTA模型上甚至不如简单多数投票有效。
+
+**[Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning](keep_it_on_a_leash_controllable_pseudo-label_generation_towards_realistic_long-t.md)**
+
+:   提出 Controllable Pseudo-label Generation (CPG) 框架，通过可控的自强化优化循环将可靠伪标签逐步纳入标注集，在已知分布上构建 Bayes-optimal 分类器，从而在未标注数据分布完全未知的 Realistic LTSSL 场景下实现最高 15.97% 的准确率提升。
 
 **[Kernel Conditional Tests from Learning-Theoretic Bounds](kernel_conditional_tests_from_learning-theoretic_bounds.md)**
 
@@ -215,6 +235,10 @@
 
 :   将Schrödinger桥问题从布朗运动参考过程推广到多变量Ornstein-Uhlenbeck（mvOU）参考过程，推导高斯情形精确解，并提出无模拟的mvOU-OTFM算法处理一般分布。
 
+**[Learning to Condition: A Neural Heuristic for Scalable MPE Inference](learning_to_condition_a_neural_heuristic_for_scalable_mpe_inference.md)**
+
+:   提出 Learning to Condition (L2C)，用注意力神经网络学习对变量-值对进行评分，指导概率图模型中 MPE 推理的条件化决策，在保持解质量的同时大幅缩减搜索空间。
+
 **[Look-Ahead Reasoning on Learning Platforms](look-ahead_reasoning_on_learning_platforms.md)**
 
 :   在学习平台的用户-算法交互中形式化 level-$k$ 前瞻推理，证明个体自私的高阶推理只加速收敛但不改变均衡（无长期收益），而集体协调的收益由学习者-用户效用函数的对齐程度决定，提供了刻画协调收益上界的理论框架。
@@ -226,6 +250,26 @@
 **[MaxSup: Overcoming Representation Collapse in Label Smoothing](maxsup_overcoming_representation_collapse_in_label_smoothing.md)**
 
 :   通过解析 Label Smoothing (LS) 的损失函数，发现其包含一个在错误分类时放大错误的"误差放大项"，导致类内特征坍缩；提出 Max Suppression (MaxSup) 方法，将惩罚目标从 ground-truth logit 转移至 top-1 logit，消除误差放大效应同时保留有益正则化。
+
+**[MEGState: Phoneme Decoding from Magnetoencephalography Signals](megstate_phoneme_decoding_from_magnetoencephalography_signals.md)**
+
+:   提出 MEGState，一种融合多分辨率卷积和传感器级 SSM 的架构，用于从脑磁图(MEG)信号中解码音素，在 LibriBrain 数据集上显著超越基线方法。
+
+**[Meta-learning three-factor plasticity rules for structured credit assignment with sparse feedback](meta-learning_three-factor_plasticity_rules_for_structured_credit_assignment_wit.md)**
+
+:   本文提出一种元学习框架，通过外层梯度优化自动发现局部的新赫布式突触可塑性规则，使循环神经网络仅利用稀疏延迟奖励信号就能完成结构化的信用分配，为理解生物神经网络的学习机制提供了新视角。
+
+**[MetaFind: Scene-Aware 3D Asset Retrieval for Coherent Metaverse Scene Generation](metafind_scene-aware_3d_asset_retrieval_for_coherent_metaverse_scene_generation.md)**
+
+:   MetaFind 是一个场景感知的三模态（文本+图像+点云）3D 资产检索框架，通过引入 SE(3) 等变的空间-语义图神经网络 (ESSGNN) 编码场景布局信息，实现了在元宇宙场景生成中风格一致、空间合理的迭代式资产检索。
+
+**[MiCADangelo: Fine-Grained Reconstruction of Constrained CAD Models from 3D Scans](micadangelo_fine-grained_reconstruction_of_constrained_cad_models_from_3d_scans.md)**
+
+:   MiCADangelo 模拟人类 CAD 设计师的逆向工程流程，通过多平面截面分析提取 2D 模式，预测带约束的参数化草图并优化拉伸参数，首次在 3D CAD 逆向工程中实现了包含草图约束的完整参数化模型重建。
+
+**[Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications](military_ai_needs_technically-informed_regulation_to_safeguard_ai_research_and_i.md)**
+
+:   本文针对 AI 驱动的致命性自主武器系统 (AI-LAWS) 提出了基于系统行为（而非标签或意图）的监管标准，论证了 AI 研究者必须参与军事 AI 监管的全生命周期，并提出了五项具体的政策建议。
 
 **[Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge](modeling_cell_dynamics_and_interactions_with_unbalanced_mean_field_schrödinger_b.md)**
 
@@ -239,9 +283,21 @@
 
 :   揭示投机解码在中等批大小下对MoE比对稠密模型更有效，通过目标效率指标捕捉系统级瓶颈，建立可靠的性能建模，达到2.29×加速。
 
+**[MutualVPR: A Mutual Learning Framework for Resolving Supervision Inconsistencies via Adaptive Clustering](mutualvpr_a_mutual_learning_framework_for_resolving_supervision_inconsistencies_.md)**
+
+:   提出 MutualVPR 互学习框架，通过特征驱动的自适应 K-means 聚类动态分配场景类别标签，解决分类式 VPR 方法中由视角变化和遮挡导致的监督不一致问题。
+
+**[Neural Network for Simulating Radio Emission from Extensive Air Showers](neural_network_for_simulating_radio_emission_from_extensive_air_showers.md)**
+
+:   用简单全连接神经网络替代计算昂贵的 CoREAS 蒙特卡洛模拟，快速预测广延大气簇射（EAS）的射电脉冲，并在 $X_{\text{max}}$ 重建任务中达到与传统模拟可比的分辨率。
+
 **[Non-Clairvoyant Scheduling with Progress Bars](non-clairvoyant_scheduling_with_progress_bars.md)**
 
 :   引入"进度条"信息模型作为透视与非透视调度之间的插值框架，针对对抗性和随机性进度条分别设计了具有最优一致性-鲁棒性权衡的调度算法，同时推进了学习增强调度的理论前沿。
+
+**[Normalization in Attention Dynamics](normalization_in_attention_dynamics.md)**
+
+:   将不同归一化方案（Post-LN、Pre-LN、Mix-LN、Peri-LN、nGPT、sqrt-scaling）统一建模为球面上交互粒子系统的速度调节机制，从理论上揭示了各方案对 token 聚类动力学和表示坍缩的不同影响，识别 Peri-LN 为理想选择。
 
 **[On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling](on_the_surprising_effectiveness_of_large_learning_rates_under_standard_width_sca.md)**
 
@@ -311,6 +367,10 @@
 
 :   针对带有无穷多非凸约束的非凸 min-max 优化问题，提出 iDB-PD（不精确动态障碍原始-对偶）算法，在 Łojasiewicz 正则条件下建立了首个全局非渐近收敛保证，稳定性 $\mathcal{O}(\epsilon^{-3})$、可行性 $\mathcal{O}(\epsilon^{-6\theta})$、互补松弛 $\mathcal{O}(\epsilon^{-3\theta/(1-\theta)})$。
 
+**[Sign-In to the Lottery: Reparameterized Sparse Training from Scratch](sign-in_to_the_lottery_reparameterizing_sparse_training_from_scratch.md)**
+
+:   本文发现稀疏网络从头训练(PaI)性能差的根本原因是无法像dense-to-sparse方法那样学习正确的参数符号，为此提出Sign-In重参数化方法（θ=m⊙w），通过引入内部自由度来促进符号翻转，理论证明其能解决一种互补于过参数化的符号翻转情况，实验中显著提升了稀疏从头训练的性能。
+
 **[Stable Matching with Ties: Approximation Ratios and Learning](stable_matching_with_ties_approximation_ratios_and_learning.md)**
 
 :   研究有并列偏好的双边匹配市场，提出最优稳定份额(OSS)比率概念衡量公平性，证明稳定匹配分布下OSS-ratio为$\Omega(N)$但一般匹配分布下可达$O(\log N)$（渐近紧），并将离线近似结果扩展到bandit学习场景。
@@ -354,3 +414,7 @@
 **[笔记4：WebThinker - 赋予推理模型深度研究能力](webthinker_empowering_large_reasoning_models_with_deep_research_capability.md)**
 
 :   WebThinker赋予大型推理模型(LRM)自主的网络搜索与导航能力，通过Think-Search-Draft策略实现推理、信息采集与报告生成的无缝交织，经RL优化后在复杂推理与科学报告生成任务上超越o1与Gemini。
+
+**[Weight Weaving: Parameter Pooling for Data-Free Model Merging](weight_weaving_parameter_pooling_for_data-free_model_merging.md)**
+
+:   本文提出Weight Weaving，一种即插即用的无数据模型合并增强方法，通过在缩放因子搜索空间上对模型参数进行池化操作（如平均、随机选择），消除了对评估数据的依赖，在多任务学习、持续学习和域泛化三个场景中平均准确率最高提升15.9个百分点。

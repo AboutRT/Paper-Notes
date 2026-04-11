@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # ICCV2025 论文笔记 TODO
 
-总计: 1870 篇 | 已完成: 1306 | 待更新: 564
+总计: 1870 篇 | 已完成: 1312 | 待更新: 558
 
 ---
 
@@ -36,7 +36,7 @@
 - [x] [7DGS: Unified Spatial-Temporal-Angular Gaussian Splatting](3d_vision/7dgs_unified_spatialtemporalangular_gaussian_splatting.md) | arXiv: 2503.07946
 - [x] [a conditional probability framework for compositional zero-shot learning](llm_nlp/a_conditional_probability_framework_for_compositional_zero-shot_learning.md) | arXiv: 2507.17377
 - [x] [A Conditional Probability Framework for Compositional Zero-shot Learning](llm_nlp/a_conditional_probability_framework_for_compositional_zerosh.md) | arXiv: 2507.17377
-- [ ] [a constrained optimization approach for gaussian splatting from coarsely-posed i](autonomous_driving/a_constrained_optimization_approach_for_gaussian_splatting_from_coarsely-posed_i.md)
+- [x] [a constrained optimization approach for gaussian splatting from coarsely-posed i](autonomous_driving/a_constrained_optimization_approach_for_gaussian_splatting_from_coarsely-posed_i.md)
 - [x] [A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy LiDAR Point Clouds](autonomous_driving/a_constrained_optimization_approach_for_gaussian_splatting_f.md) | arXiv: 2504.09129
 - [x] [a framework for double-blind federated adaptation of foundation models](ai_safety/a_framework_for_double-blind_federated_adaptation_of_foundation_models.md) | arXiv: 2502.01289
 - [x] [A Framework for Double-Blind Federated Adaptation of Foundation Models](ai_safety/a_framework_for_doubleblind_federated_adaptation_of_foundati.md) | arXiv: 2502.01289
@@ -46,7 +46,7 @@
 - [x] [a lesson in splats teacher-guided diffusion for 3d gaussian splats generation wi](3d_vision/a_lesson_in_splats_teacher-guided_diffusion_for_3d_gaussian_splats_generation_wi.md) | arXiv: 2412.00623
 - [x] [A Lesson in Splats: Teacher-Guided Diffusion for 3D Gaussian Splats Generation with 2D Supervision](3d_vision/a_lesson_in_splats_teacherguided_diffusion_for_3d_gaussian_s.md) | arXiv: 2412.00623
 - [x] [a linear n-point solver for structure and motion from asynchronous tracks](others/a_linear_n-point_solver_for_structure_and_motion_from_asynchronous_tracks.md) | arXiv: 2507.22733
-- [ ] [a plug-and-play physical motion restoration approach for in-the-wild high-diffic](segmentation/a_plug-and-play_physical_motion_restoration_approach_for_in-the-wild_high-diffic.md)
+- [x] [a plug-and-play physical motion restoration approach for in-the-wild high-diffic](segmentation/a_plug-and-play_physical_motion_restoration_approach_for_in-the-wild_high-diffic.md)
 - [x] [A Plug-and-Play Physical Motion Restoration Approach for In-the-Wild High-Difficulty Motions](segmentation/a_plugandplay_physical_motion_restoration_approach_for_inthe.md) | arXiv: 2412.17377
 - [x] [a quality-guided mixture of score-fusion experts framework for human recognition](human_understanding/a_quality-guided_mixture_of_score-fusion_experts_framework_for_human_recognition.md) | arXiv: 2508.00053
 - [x] [A Quality-Guided Mixture of Score-Fusion Experts Framework for Human Recognition](human_understanding/a_qualityguided_mixture_of_scorefusion_experts_framework_for.md) | arXiv: 2508.00053
@@ -243,7 +243,7 @@
 - [x] [BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation](3d_vision/boxdreamer_dreaming_box_corners_for_generalizable_object_pos.md) | arXiv: 2504.07955
 - [ ] [breaking rectangular shackles cross-view object segmentation for fine-grained ob](segmentation/breaking_rectangular_shackles_cross-view_object_segmentation_for_fine-grained_ob.md)
 - [x] [breaking the encoder barrier for seamless video-language understanding](video_understanding/breaking_the_encoder_barrier_for_seamless_video-language_understanding.md) | arXiv: 2503.18422
-- [ ] [bridging 3d anomaly localization and repair via high-quality continuous geometri](3d_vision/bridging_3d_anomaly_localization_and_repair_via_high-quality_continuous_geometri.md)
+- [x] [bridging 3d anomaly localization and repair via high-quality continuous geometri](3d_vision/bridging_3d_anomaly_localization_and_repair_via_high-quality_continuous_geometri.md)
 - [x] [bridging continuous and discrete tokens for autoregressive visual generation](model_compression/bridging_continuous_and_discrete_tokens_for_autoregressive_visual_generation.md) | arXiv: 2503.16430
 - [x] [bridging diffusion models and 3d representations a 3d consistent super-resolutio](3d_vision/bridging_diffusion_models_and_3d_representations_a_3d_consistent_super-resolutio.md) | arXiv: 2508.04090
 - [x] [bridging domain generalization to multimodal domain generalization via unified r](robotics/bridging_domain_generalization_to_multimodal_domain_generalization_via_unified_r.md) | arXiv: 2507.03304
@@ -400,7 +400,7 @@
 - [x] [dadm dual alignment of domain and modality for face anti-spoofing](human_understanding/dadm_dual_alignment_of_domain_and_modality_for_face_anti-spoofing.md) | arXiv: 2503.00429
 - [x] [damap distance-aware mapnet for high quality hd map construction](autonomous_driving/damap_distance-aware_mapnet_for_high_quality_hd_map_construction.md) | arXiv: 2510.22675
 - [ ] [danceeditor towards iterative editable music-driven dance generation with open-v](human_understanding/danceeditor_towards_iterative_editable_music-driven_dance_generation_with_open-v.md)
-- [ ] [dap-mae domain-adaptive point cloud masked autoencoder for effective cross-domai](3d_vision/dap-mae_domain-adaptive_point_cloud_masked_autoencoder_for_effective_cross-domai.md)
+- [x] [dap-mae domain-adaptive point cloud masked autoencoder for effective cross-domai](3d_vision/dap-mae_domain-adaptive_point_cloud_masked_autoencoder_for_effective_cross-domai.md)
 - [x] [DAP-MAE: Domain-Adaptive Point Cloud Masked Autoencoder for Effective Cross-Domain Learning](3d_vision/dapmae_domainadaptive_point_cloud_masked_autoencoder_for_eff.md) | arXiv: 2510.21635
 - [x] [dash detection and assessment of systematic hallucinations of vlms](multimodal_vlm/dash_detection_and_assessment_of_systematic_hallucinations_of_vlms.md) | arXiv: 2503.23573
 - [x] [dataset distillation via the wasserstein metric](model_compression/dataset_distillation_via_the_wasserstein_metric.md) | arXiv: 2311.18531
@@ -1307,7 +1307,7 @@
 - [ ] [primhoi compositional human-object interaction via reusable primitives](robotics/primhoi_compositional_human-object_interaction_via_reusable_primitives.md)
 - [ ] [principal components enable a new language of images](signal_comm/principal_components_enable_a_new_language_of_images.md) | arXiv: 2503.08685
 - [ ] [prior-aware dynamic temporal modeling framework for sequential 3d hand pose esti](human_understanding/prior-aware_dynamic_temporal_modeling_framework_for_sequential_3d_hand_pose_esti.md)
-- [ ] [prior-flow enhancing primitive panoramic optical flow with orthogonal view](video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_orthogonal_view.md) | arXiv: 2506.23897
+- [x] [prior-flow enhancing primitive panoramic optical flow with orthogonal view](video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_orthogonal_view.md) | arXiv: 2506.23897
 - [ ] [prior2former - evidential modeling of mask transformers for assumption-free open](autonomous_driving/prior2former_-_evidential_modeling_of_mask_transformers_for_assumption-free_open.md)
 - [ ] [priormotion generative class-agnostic motion prediction with raster-vector motio](autonomous_driving/priormotion_generative_class-agnostic_motion_prediction_with_raster-vector_motio.md)
 - [ ] [privacy-centric deep motion retargeting for anonymization of skeleton-based moti](human_understanding/privacy-centric_deep_motion_retargeting_for_anonymization_of_skeleton-based_moti.md)
@@ -1804,7 +1804,7 @@
 - [x] [visual surface wave elastography revealing subsurface physical properties via vi](medical_imaging/visual_surface_wave_elastography_revealing_subsurface_physical_properties_via_vi.md) | arXiv: 2507.09207
 - [x] [visual-oriented fine-grained knowledge editing for multimodal large language mod](multimodal_vlm/visual-oriented_fine-grained_knowledge_editing_for_multimodal_large_language_mod.md) | arXiv: 2411.12790
 - [x] [visual-rft visual reinforcement fine-tuning](object_detection/visual-rft_visual_reinforcement_fine-tuning.md) | arXiv: 2503.01785
-- [ ] [visualcloze a universal image generation framework via visual in-context learnin](image_generation/visualcloze_a_universal_image_generation_framework_via_visual_in-context_learnin.md) | arXiv: 2504.07960
+- [x] [visualcloze a universal image generation framework via visual in-context learnin](image_generation/visualcloze_a_universal_image_generation_framework_via_visual_in-context_learnin.md) | arXiv: 2504.07960
 - [x] [VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning](image_generation/visualcloze_a_universal_image_generation_framework_via_visua.md) | arXiv: 2504.07960
 - [ ] [vit-ensembleattack augmenting ensemble models for stronger adversarial transfera](ai_safety/vit-ensembleattack_augmenting_ensemble_models_for_stronger_adversarial_transfera.md)
 - [x] [vit-linearizer distilling quadratic knowledge into linear-time vision models](model_compression/vit-linearizer_distilling_quadratic_knowledge_into_linear-time_vision_models.md) | arXiv: 2504.00037

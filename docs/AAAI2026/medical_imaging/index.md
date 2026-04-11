@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🤖 AAAI2026** · 共 **61** 篇
+**🤖 AAAI2026** · 共 **77** 篇
 
 **[A Disease-Aware Dual-Stage Framework for Chest X-ray Report Generation](a_disease-aware_dual-stage_framework_for_chest_x-ray_report_.md)**
 
@@ -135,13 +135,33 @@
 
 :   揭示了 SFT 导致 LLM 不诚实的根源是**自我表达能力受损**（而非自我认知被破坏），基于此提出 HCNR 框架，通过 Fisher 信息识别诚实关键神经元并恢复到预训练状态 + Hessian 引导补偿，仅用 256 条数据和 20% 参数即可恢复 33.25% 的诚实性，实现 2.23 倍以上加速。
 
+**[From Policy to Logic for Efficient and Interpretable Coverage Assessment](from_policy_to_logic_for_efficient_and_interpretable_coverage_assessment.md)**
+
+:   本文提出一种神经符号方法，通过覆盖感知检索器（coverage-aware retriever）与基于PyKnow的符号规则推理相结合，帮助人类审查员高效、可解释地评估医疗CPT代码是否被保险政策覆盖，在推理成本降低44%的同时F1提升4.5%。
+
+**[FunKAN: Functional Kolmogorov-Arnold Network for Medical Image Enhancement and Segmentation](funkan_functional_kolmogorov-arnold_network_for_medical_image_enhancement_and_se.md)**
+
+:   本文将 Kolmogorov-Arnold 表示定理从有限维标量空间推广到函数空间（Hilbert 空间），提出 FunKAN 框架，通过在 Hermite 基函数上进行 Fourier 展开来学习内函数，保留了图像数据的空间结构，在 MRI 增强和三个医学分割任务上均超越已有 KAN 变体。
+
+**[G2L: From Giga-Scale to Cancer-Specific Large-Scale Pathology Foundation Models via Efficient Fine-Tuning](g2lfrom_giga-scale_to_cancer-specific_large-scale_pathology_foundation_models_vi.md)**
+
+:   本文提出 G2L（Giga-to-Large）蒸馏框架，仅用 1K 张病理切片将 19 亿参数的 giga-scale 病理基础模型（H-optimus-0）的知识蒸馏到 3 亿参数的 large-scale 模型（Hibou-L），在多个癌症特异性下游任务上达到甚至超越教师模型和更大模型的性能。
+
 **[GEM: Generative Entropy-Guided Preference Modeling for Few-shot Alignment of LLMs](gem_generative_entropy-guided_preference_modeling_for_few-shot_alignment_of_llms.md)**
 
 :   GEM 提出了一种生成式熵引导偏好建模方法，通过认知过滤（基于熵的 CoT 评分）和 SEGA 算法（自评估组优势策略优化），在仅 3000 个偏好对的低资源场景下实现高效的 LLM 对齐。
 
+**[GIIM: Graph-based Learning of Inter- and Intra-view Dependencies for Multi-view Medical Image Diagnosis](giim_graph-based_learning_of_inter-_and_intra-view_dependencies_for_multi-view_m.md)**
+
+:   提出基于多异构图（MHG）的GIIM框架，通过图结构同时建模病灶间的视图内依赖和视图间动态变化，并引入四种缺失视图表示策略，在肝脏CT、乳腺X线和乳腺MRI三种模态上显著超越现有多视图方法。
+
 **[GP-MoLFormer-Sim: Test Time Molecular Optimization through Contextual Similarity Guidance](gp-molformer-sim_test_time_molecular_optimization_through_contextual_similarity_.md)**
 
 :   提出 GP-MoLFormer-Sim，一种无需训练的测试时分子生成引导方法：利用化学语言模型（GP-MoLFormer）自身的上下文嵌入计算与目标分子的相似度，在自回归解码时动态调整logits来引导生成，结合遗传算法（GP-MoLFormer-Sim+GA）后在PMO基准的23个任务上平均排名第2，且在黑盒oracle设定下优于依赖GPT-4的MOLLEO。
+
+**[GROVER: Graph-guided Representation of Omics and Vision with Expert Regulation for Cancer Survival Prediction](grover_graph-guided_representation_of_omics_and_vision_with_expert_regulation_fo.md)**
+
+:   提出空间多组学框架GROVER，通过KAN-GCN编码器捕获非线性空间-特征依赖、spot-feature-pair对比学习对齐异构模态、以及自适应混合专家（MoE）动态路由过滤低质量信号，在四个真实空间组学数据集上实现了优于现有方法的聚类性能。
 
 **[GuideGen: A Text-Guided Framework for Paired Full-Torso Anatomy and CT Volume Generation](guidegen_a_text-guided_framework_for_paired_full-torso_anatomy_and_ct_volume_gen.md)**
 
@@ -154,6 +174,10 @@
 **[HiFusion: Hierarchical Intra-Spot Alignment and Regional Context Fusion for Spatial Gene Expression Prediction from Histopathology](hifusion_hierarchical_intra-spot_alignment_and_regional_context_fusion_for_spati.md)**
 
 :   提出 HiFusion 框架，通过层次化 spot 内建模（HISM）和上下文感知跨尺度融合（CCF）两个互补模块，从 H&E 染色全切片图像中准确预测空间基因表达，在两个基准数据集的 2D 切片交叉验证和 3D 样本特异性评估中均达到 SOTA。
+
+**[Human-in-the-Loop Interactive Report Generation for Chronic Disease Adherence](human-in-the-loop_interactive_report_generation_for_chronic_disease_adherence.md)**
+
+:   本文设计了一个"医生在回路"的交互界面，将 AI 限定于数据组织和草稿生成角色，通过单页面编辑器、图表-文本配对和自动紧急度分级，实现了高效且可问责的慢性病依从性报告生成。试点研究揭示了一个"问责悖论"：即便 AI 生成质量达到了医生手动撰写基线水平，审阅时间仍无法显著减少，因为临床责任要求完整核验。
 
 **[Intervention Efficiency and Perturbation Validation Framework: Capacity-Aware and Robust Clinical Model Selection under the Rashomon Effect](intervention_efficiency_and_perturbation_validation_framework_capacity-aware_and.md)**
 
@@ -171,9 +195,25 @@
 
 :   提出 Learning with Preserving (LwP) 框架，通过 Dynamically Weighted Distance Preservation (DWDP) 损失保持 latent space 的几何结构，在无需 replay buffer 的条件下解决 Continual Multitask Learning (CMTL) 中的灾难性遗忘，是唯一超越 single-task baseline 的方法。
 
+**[LungNoduleAgent: A Collaborative Multi-Agent System for Precision Diagnosis of Lung Nodules](lungnoduleagent_a_collaborative_multi-agent_system_for_precision_diagnosis_of_lu.md)**
+
+:   提出 LungNoduleAgent，首个面向肺结节分析的协作式多智能体系统，通过"Nodule Spotter + Simulated Radiologist + Doctor Agent System"三阶段流水线模拟临床工作流，在 CT 报告生成和恶性分级任务上大幅超越 GPT-4o、Claude 3.7 Sonnet 等主流 VLM 及 MedAgent-Pro 等医学智能体。
+
+**[MAISI-v2: Accelerated 3D High-Resolution Medical Image Synthesis with Rectified Flow and Region-specific Contrastive Loss](maisi-v2_accelerated_3d_high-resolution_medical_image_synthesis_with_rectified_f.md)**
+
+:   提出 MAISI-v2，首个将 Rectified Flow 引入 3D 医学图像合成的框架，通过替换 DDPM 实现 33 倍加速，并设计区域特异性对比损失增强对肿瘤等小区域条件的忠实度，在下游肿瘤分割任务中验证了合成数据的增强价值。
+
+**[MAPI-GNN: Multi-Activation Plane Interaction Graph Neural Network for Multimodal Medical Diagnosis](mapi-gnn_multi-activation_plane_interaction_graph_neural_network_for_multimodal_.md)**
+
+:   提出 MAPI-GNN，通过多维特征判别器在语义子空间中动态构建多个激活图，再经层次化融合网络聚合样本内和样本间关系，在前列腺癌和冠心病两个多模态诊断任务上显著超越现有 SOTA（PI-CAI 上 ACC 0.9432，AUC 0.9838）。
+
 **[Measuring Stability Beyond Accuracy in Small Open-Source Medical Large Language Models for Pediatric Endocrinology](measuring_stability_beyond_accuracy_in_small_open-source_medical_large_language_.md)**
 
 :   系统评估了6个小型开源医学LLM（<10B参数）在儿科内分泌领域的表现，揭示仅靠准确率不足以衡量模型可靠性：语义无关的提示微调导致模型输出显著变化（Stuart-Maxwell p<10⁻⁴），高一致性不等于正确，甚至CUDA版本差异也能引发统计显著的输出偏移。
+
+**[MedEyes: Learning Dynamic Visual Focus for Medical Progressive Diagnosis](medeyes_learning_dynamic_visual_focus_for_medical_progressive_diagnosis.md)**
+
+:   提出 MedEyes，一个混合策略强化学习框架，通过注视引导推理导航器（GRN）模拟临床医生"扫描-钻探"的诊断视觉搜索模式，结合置信度值采样器（CVS）和双流 GRPO 优化，实现动态视觉聚焦的医学渐进式诊断推理，在五个医学 VQA 基准上平均提升 8.5pp。
 
 **[Mergedna Context-Aware Genome Modeling With Dynamic Tokenization Through Token M](mergedna_context-aware_genome_modeling_with_dynamic_tokenization_through_token_m.md)**
 
@@ -182,6 +222,22 @@
 **[MindCross: Fast New Subject Adaptation with Limited Data for Cross-subject Video Reconstruction from Brain Signals](mindcross_fast_new_subject_adaptation_with_limited_data_for_cross-subject_video_.md)**
 
 :   提出 MindCross，一个跨被试脑解码框架，通过共享编码器学习被试无关信息 + N个特有编码器学习被试相关信息，配合快速校准阶段和 Top-K 协作解码模块，仅用一个模型在 fMRI/EEG-to-video 基准上实现与被试独立模型可比的性能，且新被试适应仅需极少数据和极短时间（~1秒 vs 基线5-17秒）。
+
+**[MIRAGE: Scaling Test-Time Inference with Parallel Graph-Retrieval-Augmented Reasoning Chains](mirage_scaling_test-time_inference_with_parallel_graph-retrieval-augmented_reaso.md)**
+
+:   提出MIRAGE框架，将传统的线性推理链扩展为并行多链推理范式，结合结构化医学知识图谱的自适应检索（邻域扩展和多跳遍历），通过跨链验证解决矛盾，在三个医学QA基准上持续优于GPT-4o、ToT和Search-o1等方法。
+
+**[MIRNet: Integrating Constrained Graph-Based Reasoning with Pre-training for Diagnostic Medical Imaging](mirnet_integrating_constrained_graph-based_reasoning_with_pre-training_for_diagn.md)**
+
+:   提出MIRNet框架，将自监督掩码自编码器（MAE）预训练与约束感知的图注意力网络（GAT）推理相结合，用于舌象多标签诊断，并发布包含4000张图像22个标签的TongueAtlas-4K基准数据集，Macro Recall提升77.8%、Macro-F1提升33.2%。
+
+**[MPA: Multimodal Prototype Augmentation for Few-Shot Learning](mpa_multimodal_prototype_augmentation_for_few-shot_learning.md)**
+
+:   本文提出 MPA 框架，通过 LLM 生成多变体语义描述增强原型的语义信息（LMSE）、层次化多视角数据增强丰富视觉特征（HMA）、以及自适应不确定类吸收器建模类间不确定性（AUCA），在 4 个单域和 6 个跨域小样本学习基准上显著超越现有方法，5-way 1-shot 下单域和跨域分别比次优方法高出 12.29% 和 24.56%。
+
+**[Multivariate Gaussian Representation Learning for Medical Action Evaluation](multivariate_gaussian_representation_learning_for_medical_action_evaluation.md)**
+
+:   提出 GaussMedAct 框架，将关节运动轨迹建模为多元高斯混合分布并结合笛卡尔-向量双流编码，在自建的 CPREval-6k 数据集上实现 92.1% Top-1 准确率，仅需 ST-GCN 10% 的计算量。
 
 **[Neural Bandit Based Optimal LLM Selection for a Pipeline of Tasks](neural_bandit_based_optimal_llm_selection_for_a_pipeline_of_tasks.md)**
 
@@ -199,6 +255,10 @@
 
 :   提出 PaGKD，一个无需配对样本的组级知识蒸馏框架，通过组级原型蒸馏（GKD-Pro，用共享的病变查询Transformer提取模态不变语义原型）和组级密集蒸馏（GKD-Den，用激活图引导的语义关系交叉注意力实现密集空间对齐），突破传统NBI→WLI跨模态蒸馏对配对数据的依赖，在四个临床数据集上AUC分别提升3.3%/1.1%/2.8%/3.2%。
 
+**[PanFoMa: A Lightweight Foundation Model and Benchmark for Pan-Cancer Pathology Image Analysis](panfoma_a_lightweight_foundation_model_and_benchmark_for_pan-cancer.md)**
+
+:   提出 PanFoMa，一种融合 Transformer 局部建模与 Mamba 全局整合的轻量级混合神经网络，用于泛癌单细胞转录组表示学习；同时构建了覆盖 33 种癌症亚型、350 万+ 细胞的大规模基准数据集 PanFoMaBench。
+
 **[Personalization of Large Foundation Models for Health Interventions](personalization_of_large_foundation_models_for_health_interventions.md)**
 
 :   系统性分析大基础模型（LFMs）在个性化健康干预中的四大结构性矛盾，论证 LFMs 无法替代 N-of-1 试验，提出结合 LFMs 假设生成与 N-of-1 试验因果验证的混合框架。
@@ -206,6 +266,10 @@
 **[PINGS-X: Physics-Informed Normalized Gaussian Splatting with Axes Alignment for Efficient Super-Resolution of 4D Flow MRI](pings-x_physics-informed_normalized_gaussian_splatting_with_axes_alignment_for_e.md)**
 
 :   提出PINGS-X框架，将3D高斯溅射（3DGS）的显式表示思想引入物理信息超分辨率领域，通过归一化高斯溅射（NGS）、轴对齐高斯和高斯合并三项创新，在合成CFD和真实4D Flow MRI数据集上实现了比PINN快一个数量级的训练速度，同时保持更高的超分辨率精度。
+
+**[PriorRG: Prior-Guided Contrastive Pre-training and Coarse-to-Fine Decoding for Chest X-ray Report Generation](priorrg_prior-guided_contrastive_pre-training_and_coarse-to-fine_decoding_for_ch.md)**
+
+:   PriorRG 提出了一个两阶段胸部X光报告生成框架，通过先验引导的对比预训练对齐临床语境与时空视觉特征，再通过先验感知的粗到细解码逐步融合临床上下文、疾病进展和多层级视觉线索，在 MIMIC-CXR 上实现 BLEU-4 提升 3.6%、F1 提升 3.8%。
 
 **[ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders](protsae_disentangling_and_interpreting_protein_language_models_via_semantically-.md)**
 

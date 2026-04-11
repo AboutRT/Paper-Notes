@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧠 NeurIPS2025** · 共 **93** 篇
+**🧠 NeurIPS2025** · 共 **98** 篇
 
 **[A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization](a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md)**
 
@@ -255,9 +255,17 @@
 
 :   提出多人联邦学习（MpFL）框架，将FL中的客户端建模为博弈论中的理性玩家，并设计PEARL-SGD算法通过局部更新减少通信开销，同时收敛到Nash均衡。
 
+**[Natural Gradient Descent for Improving Variational Inference Based Classification of Radio Galaxies](natural_gradient_descent_for_improving_variational_inference_based_classificatio.md)**
+
+:   研究使用自然梯度下降优化器 iVON 替代标准 SGD 来优化变分推断中的 BNN 参数，在射电星系分类中获得更好的不确定性校准，同时保持与 HMC 和 BBB-VI 相当的预测性能。
+
 **[Near-Exponential Savings for Mean Estimation with Active Learning](near-exponential_savings_for_mean_estimation_with_active_learning.md)**
 
 :   提出 PartiBandits 算法，结合基于分歧的主动学习与 UCB 风格的分层抽样，在辅助信息 $X$ 对目标变量 $Y$ 有预测力时，实现了均值估计的近指数级标签节省。
+
+**[NeuSymEA: Neuro-symbolic Entity Alignment via Variational Inference](neuro-symbolic_entity_alignment_via_variational_inference.md)**
+
+:   提出 NeuSymEA，一个基于变分 EM 算法的神经符号推理框架，将符号规则推理与神经网络嵌入统一在马尔可夫随机场中进行实体对齐，在 DBP15K 上实现了显著的性能提升和低资源鲁棒性。
 
 **[Non-Stationary Bandit Convex Optimization: A Comprehensive Study](non-stationary_bandit_convex_optimization_a_comprehensive_study.md)**
 
@@ -290,6 +298,10 @@
 **[Oracle-Efficient Combinatorial Semi-Bandits](oracle-efficient_combinatorial_semi-bandits.md)**
 
 :   提出两种oracle高效框架（自适应和调度式），将组合半老虎机问题中的oracle调用次数从线性 $\Theta(T)$ 降低到双对数 $O(\log\log T)$，同时保持近最优的遗憾界。
+
+**[OrthoGrad Improves Neural Calibration](orthograd_improves_neural_calibration.md)**
+
+:   本文系统研究了OrthoGrad（⊥Grad）——一种将梯度投影到与权重向量正交方向的几何约束优化方法——在神经网络校准（calibration）中的效果，实验表明该方法在不损失准确率的情况下显著降低模型过度自信，并从理论上证明了简化版本的收敛性。
 
 **[Personalized Subgraph Federated Learning with Differentiable Auxiliary Projections](personalized_subgraph_federated_learning_with_differentiable_auxiliary_projectio.md)**
 
@@ -335,6 +347,10 @@
 
 :   本文提出"集合光滑性"(set smoothness)这一新的结构性质，证明它在非凸-PŁ双层优化中自然成立，并据此揭示超目标函数隐藏的弱凸/弱凹结构，首次建立了非光滑超目标函数Clarke稳定点的可计算性保证。
 
+**[Small Batch Size Training for Language Models: When Vanilla SGD Works, and Why Gradient Accumulation Is Wasteful](small_batch_size_training_for_language_models_when_vanilla_sgd_works_and_why_gra.md)**
+
+:   本文系统研究了小批量（甚至batch size=1）在语言模型预训练和微调中的表现，提出了基于"token半衰期"固定的Adam β₂缩放规则，发现小批量不仅训练稳定，还使vanilla SGD具备与自适应优化器相当的竞争力，并建议避免使用梯度累积。
+
 **[Streaming Federated Learning with Markovian Data](streaming_federated_learning_with_markovian_data.md)**
 
 :   首次严格分析了非凸目标函数下具有马尔可夫数据流的流式联邦学习，证明 Minibatch SGD、Local SGD 和 Local SGD-M 均能实现与客户端数成反比的样本复杂度（线性加速），且 Local SGD-M 无需异质性假设即可匹配 Minibatch SGD 的通信复杂度。
@@ -366,6 +382,10 @@
 **[Unveiling the Power of Multiple Gossip Steps: A Stability-Based Generalization Analysis in Decentralized Training](unveiling_the_power_of_multiple_gossip_steps_a_stability-based_generalization_an.md)**
 
 :   本文首次从算法稳定性角度分析去中心化 SGD（DSGD）中多步 Gossip 通信（MGS）的泛化效果，证明 MGS 以指数速率减少优化误差从而收紧泛化界，但即使 Gossip 步数趋于无穷也无法完全弥合与中心化训练的泛化差距。
+
+**[Verbalized Algorithms: Zero-shot Classical Algorithmic Reasoning for Correctness and Runtime Guarantees](verbalized_algorithms.md)**
+
+:   本文提出"语言化算法"（Verbalized Algorithms, VAs）框架，将经典算法的控制流保持不变，仅用LLM替换其中的原子操作（如二值比较），从而在自然语言推理任务中继承经典算法的正确性和复杂度保证，在排序、求最大值、聚类和子模最大化四个案例中验证了有效性。
 
 **[VIKING: Deep Variational Inference with Stochastic Projections](viking_deep_variational_inference_with_stochastic_projections.md)**
 

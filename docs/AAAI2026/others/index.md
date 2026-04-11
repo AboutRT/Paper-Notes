@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🤖 AAAI2026** · 共 **62** 篇
+**🤖 AAAI2026** · 共 **94** 篇
 
 **[A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles](a_fast_heuristic_search_approach_for_energy-optimal_profile_.md)**
 
@@ -199,25 +199,129 @@
 
 :   将"寻找多样化解"的参数化框架从treewidth扩展到更强的cliquewidth图参数，证明任何基于cliquewidth分解的单调动态规划都可以以极小额外开销转换为求解多样化版本的算法，并提出了一族新的Venn多样性度量函数。
 
+**[Formal Abductive Latent Explanations for Prototype-Based Networks](formal_abductive_latent_explanations_for_prototype-based_networks.md)**
+
+:   本文针对原型网络（如ProtoPNet）的解释可能具有误导性的问题，提出了溯因潜在解释（ALE），在潜在空间中构造满足形式化保证的充分条件解释，无需调用外部求解器，算法可扩展到多种数据集上的标准分类和细粒度分类任务。
+
+**[From Decision Trees to Boolean Logic: A Fast and Unified SHAP Algorithm](from_decision_trees_to_boolean_logic_a_fast_and_unified_shap_algorithm.md)**
+
+:   本文提出Woodelf算法，通过将决策树集成模型转化为加权析取范式（WDNF）的伪布尔公式，在统一框架下实现了Background SHAP和Path-Dependent SHAP的线性时间计算，在大规模数据集上实现CPU 16-31倍、GPU 24-333倍的加速。
+
+**[From Sequential to Recursive: Enhancing Decision-Focused Learning with Bidirectional Feedback](from_sequential_to_recursive_enhancing_decision-focused_learning_with_bidirectio.md)**
+
+:   本文首次提出递归决策聚焦学习（R-DFL）框架，通过在预测模块与优化模块之间引入双向反馈回路，突破了传统顺序式 DFL 的单向信息流限制，并设计了显式展开和隐式微分两种梯度传播方法，在报童问题和二部匹配问题上显著提升了最终决策质量。
+
+**[Guided Perturbation Sensitivity (GPS): Detecting Adversarial Text via Embedding Stability and Word Importance](guided_perturbation_sensitivity_gps_detecting_adversarial_text_via_embedding_sta.md)**
+
+:   提出 Guided Perturbation Sensitivity (GPS) 框架，通过对重要词进行遮蔽并测量嵌入表示的稳定性变化来检测对抗文本样本，在3个数据集、3种攻击、2个模型上实现85%+检测准确率，且无需重训练即可跨数据集/攻击/模型泛化。
+
 **[CAE: Hierarchical Semantic Alignment for Image Clustering](hierarchical_semantic_alignment_for_image_clustering.md)**
 
 :   结合名词级（WordNet）和描述级（Flickr 图片描述）两种互补语义，通过最优传输对齐构建语义空间并自适应融合，实现 training-free 的图像聚类，在 ImageNet-1K 上准确率提升 4.2%。
+
+**[Higher-Order Responsibility](higher-order_responsibility.md)**
+
+:   本文研究顺序决策机制中的高阶责任问题，证明了两个核心定理：(1) $n$ 个智能体的机制必然是 $n$ 阶无间隙的（即总能找到某阶责任人）；(2) 判定机制是否为 $d$ 阶无间隙的问题是 $\Pi_{2d+1}$-完全的。
 
 **[How Hard is it to Explain Preferences Using Few Boolean Attributes?](how_hard_is_it_to_explain_preferences_using_few_boolean_attributes.md)**
 
 :   本文系统研究了用布尔属性模型（BAM）解释偏好数据的计算复杂性：证明了当属性数 $k \geq 3$ 时问题是NP完全的，$k \leq 2$ 时线性可解；进一步对投票人数 $n$、候选项数 $m$、属性数 $k$ 等参数给出了完整的参数化复杂性全景图，并分析了已知部分信息（cares/has）时问题难度的变化。
 
+**[How Hard Is It to Rig a Tournament When Few Players Can Beat or Be Beaten by the Favorite?](how_hard_is_it_to_rig_a_tournament_when_few_players_can_beat_or_be_beaten_by_the.md)**
+
+:   本文提出两个新的结构化参数——目标选手在锦标赛有向图中的入度 $k$ 和出度 $\ell$——用于分析锦标赛赛程操纵问题 (TFP)，证明 TFP 在以这两个参数为参数时均是 FPT 的，其中入度参数化的算法设计涉及复杂的结构分析和颜色编码技术。
+
+**[How to Marginalize in Causal Structure Learning?](how_to_marginalize_in_causal_structure_learning.md)**
+
+:   本文利用可处理概率电路（Probabilistic Circuits）替代传统动态规划方法来执行贝叶斯结构学习中的边际化任务，通过一种新颖的两阶段训练策略（先学习完整父集分数再渐进式微调边际查询），消除了候选父节点集数量的人为限制，从而在 TRUST 框架上取得了更好的后验分布估计效果。
+
+**[How Wide and How Deep? Mitigating Over-Squashing of GNNs via Channel Capacity Constrained Estimation](how_wide_and_how_deep_mitigating_over-squashing_of_gnns_via_channel_capacity_con.md)**
+
+:   本文从信息论视角出发，将谱图神经网络建模为通信信道，提出信道容量约束估计框架 C3E，将 GNN 隐藏维度与深度的选择形式化为一个非线性规划问题，在训练前即可估计最优架构参数，有效缓解信息过度压缩（over-squashing），在 9 个数据集上一致提升了表示学习效果。
+
+**[HyperSHAP: Shapley Values and Interactions for Explaining Hyperparameter Optimization](hypershap_shapley_values_and_interactions_for_explaining_hyperparameter_optimiza.md)**
+
+:   HyperSHAP 提出一套基于 Shapley 值和 Shapley 交互的博弈论框架来解释超参数优化（HPO），通过定义消融、灵敏度、可调性和优化器偏差四类解释博弈，提供比 fANOVA 更具可操作性的超参数重要性分析。
+
+**[I2E: Real-Time Image-to-Event Conversion for High-Performance Spiking Neural Networks](i2e_real-time_image-to-event_conversion_for_high-performance_spiking_neural_netw.md)**
+
+:   I2E 提出一个超高效的图像到事件流转换框架，通过模拟微扫视眼动并用高度并行化的卷积实现比先前方法快 300 倍以上的转换速度，首次支持 SNN 训练的在线数据增强，在 I2E-ImageNet 上达到 60.50% 的事件分类 SOTA，并通过合成数据预训练 + 真实数据微调的 sim-to-real 范式在 CIFAR10-DVS 上创下 92.5% 的历史最佳。
+
+**[Improved Differentially Private Algorithms for Rank Aggregation](improved_differentially_private_algorithms_for_rank_aggregation.md)**
+
+:   针对差分隐私下的排名聚合问题，提出了改进的近似算法：首次研究footrule排名聚合问题并给出近最优算法（可推导出Kemeny问题的2-近似），同时通过结合二路边际查询和无偏估计技术改进了Kemeny排名聚合的PTAS加性误差（指数从3降至65/22）。
+
 **[Incremental Maintenance Of Datalogmtl Materialisations](incremental_maintenance_of_datalogmtl_materialisations.md)**
 
 :   提出 DRed$_{\text{MTL}}$ 算法，将经典 Delete/Rederive 增量维护技术扩展到 DatalogMTL（带度量时序逻辑的 Datalog），通过在周期化物化表示上设计新的 seminaïve 评估算子和周期识别算法，实现高效增量更新，性能可达重新物化的数量级提升。
+
+**[Intermediate N-Gramming: Deterministic and Fast N-Grams For Large N and Large Datasets](intermediate_n-gramming_deterministic_and_fast_n-grams_for_large_n_and_large_dat.md)**
+
+:   提出 Intergrams 多遍扫描算法，利用较短 n-gram 作为前缀递推过滤候选更长 n-gram，充分利用处理器缓存层次结构实现缓存友好的内存访问模式，在 TB 级数据集上比此前最快的 hash-gramming 方法加速 6-33 倍，同时几乎精确恢复所有 top-k n-gram。
 
 **[Intrinsic Barriers and Practical Pathways for Human-AI Alignment: An Agreement-Based Complexity Analysis](intrinsic_barriers_and_practical_pathways_for_human-ai_alignment_an_agreement-ba.md)**
 
 :   本文将 AI 对齐形式化为 $\langle M,N,\varepsilon,\delta\rangle$-agreement 多目标优化问题，从通信复杂度角度证明了对齐的信息论下界（编码"所有人类价值观"本质上不可行），同时给出了无界/有界理性智能体的显式可达算法和紧致上界，揭示了在大状态空间下 reward hacking 全局不可避免的理论根基。
 
+**[Judging by the Rules: Compliance-Aligned Framework for Modern Slavery Statement Monitoring](judging_by_the_rules_compliance-aligned_framework_for_modern_slavery_statement_m.md)**
+
+:   提出以"合规对齐法官"（CA-Judge）为核心的训练框架，利用规则级对齐反馈训练 3B 参数的 CALLM 模型，使其生成基于法定条款的可追溯合规判断理由，在现代奴役声明的句子级合规分类任务上超越 GPT-4o 和 DeepSeek-R1。
+
+**[LeanRAG: Knowledge-Graph-Based Generation with Semantic Aggregation and Hierarchical Retrieval](leanrag_knowledge-graph-based_generation_with_semantic_aggregation_and_hierarchi.md)**
+
+:   提出 LeanRAG 框架，通过语义聚合算法在层次化知识图谱的摘要节点间自动构建显式关系打破"语义孤岛"，并基于最近公共祖先（LCA）的自底向上检索策略高效导航层次结构，在四个 QA 基准上取得 SOTA 同时减少 46% 的检索冗余。
+
+**[Learning Compact Latent Space for Representing Neural Signed Distance Functions with High-fidelity Geometry Details](learning_compact_latent_space_for_representing_neural_signed_distance_functions_.md)**
+
+:   提出一种双分支架构（泛化分支+过拟合分支）来学习多个神经SDF的紧凑潜空间，结合共享spatial feature grid和新颖的带宽采样策略，在保持紧凑latent code的同时恢复高保真几何细节，在Stanford Models、ShapeNet和D-FAUST上均达到SOTA。
+
+**[Learning Fair Representations with Kolmogorov-Arnold Networks](learning_fair_representations_with_kolmogorov-arnold_networks.md)**
+
+:   提出将Kolmogorov-Arnold网络（KAN）引入对抗去偏框架，利用KAN的样条函数架构提供理论上的Lipschitz连续性和平滑性保证，并设计自适应 $\lambda$ 更新机制动态平衡公平性与准确率，在UCI大学录取数据集上实现了公平性指标的显著提升。
+
+**[Learning Network Dismantling Without Handcrafted Inputs](learning_network_dismantling_without_handcrafted_inputs.md)**
+
+:   提出MIND（Message Iteration Network Dismantler），通过全新的All-to-One注意力机制和消息迭代轮廓（Message Iteration Profiles）消除GNN对手工特征的依赖，仅利用原始邻接信息就能在百万节点级真实网络上实现SOTA的网络拆解性能，同时具有最低的计算复杂度 $O(|V|+|E|)$。
+
+**[LILAD: Learning In-context Lyapunov-stable Adaptive Dynamics Models](lilad_learning_in-context_lyapunov-stable_adaptive_dynamics_models.md)**
+
+:   提出 LILAD 框架，利用 GPT-2 的 in-context learning 能力同时学习动力学模型和 Lyapunov 函数，在保证全局指数稳定性的同时实现对非平稳参数化动力系统的自适应辨识，在多个基准系统上超越 ICL、MAML 等基线。
+
+**[Local Guidance for Configuration-Based Multi-Agent Pathfinding](local_guidance_for_configuration-based_multi-agent_pathfinding.md)**
+
+:   提出局部引导（Local Guidance）概念改进 LaCAM 的多智能体路径规划，通过在每个配置生成步为每个智能体构造局部时空路径来缓解拥塞，最高可将解的代价降低 50%，同时保持 1000 智能体下几秒内完成。
+
+**[Lost in Time? A Meta-Learning Framework for Time-Shift-Tolerant Physiological Signal Transformation](lost_in_time_a_meta-learning_framework_for_time-shift-tolerant_physiological_sig.md)**
+
+:   提出 ShiftSyncNet，一个基于元学习双层优化的框架，通过 SyncNet 学习训练样本对之间的时间偏移量并利用傅里叶变换的相移性质自动校正标签对齐，在三个数据集上分别提升了 9.4%、6.0% 和 12.8% 的波形转换精度。
+
+**[Measuring Model Performance in the Presence of an Intervention](measuring_model_performance_in_the_presence_of_an_intervention.md)**
+
+:   针对存在干预（intervention）时 AI 模型评估偏差的问题，提出 Nuisance Parameter Weighting (NPW) 方法，通过对 RCT 治疗组数据进行因果加权，实现无偏的 AUROC 估计，使样本效率提升 5 倍，显著改善了模型选择和假设检验的统计功效。
+
 **[MeshA*: Efficient Path Planning With Motion Primitives](mesha_efficient_path_planning_with_motion_primitives.md)**
 
 :   提出 MeshA* 算法，将 lattice-based 路径规划从"在运动基元层面搜索"转变为"在网格单元层面搜索并同时拟合基元序列"，通过定义"扩展网格单元"（extended cell）新搜索空间，在保证完备性和最优性的同时，实现相比标准 LBA* 1.5x-2x 的运行时加速。
+
+**[MF-Speech: Achieving Fine-Grained and Compositional Control in Speech Generation via Factor Disentanglement](mf-speech_achieving_fine-grained_and_compositional_control_in_speech_generation_.md)**
+
+:   提出MF-Speech框架，通过多目标优化将语音信号解耦为高纯度的内容、音色和情绪三个独立因子表示，再利用动态融合和层级风格自适应归一化（HSAN）实现细粒度的组合式语音生成控制，在多因子组合语音生成任务上显著超越现有方法（WER=4.67%, SECS=0.5685）。
+
+**[Model Counting for Dependency Quantified Boolean Formulas](model_counting_for_dependency_quantified_boolean_formulas.md)**
+
+:   本文首次研究了依赖量化布尔公式（DQBF）的模型计数问题，证明了即使仅含两个存在量词变量的 #2-DQBF 就已是 #EXP-完全的，并基于 BDD 符号可达性技术实现了一个实用的 2-DQBF 模型计数器 sharp2DQR，在大依赖集上显著优于基于展开的基线方法。
+
+**[On the Edge of Core (Non-)Emptiness: An Automated Reasoning Approach to Approval-Based Multi-Winner Voting](on_the_edge_of_core_non-emptiness_an_automated_reasoning_approach_to_approval-ba.md)**
+
+:   针对基于认可的多赢者投票中核稳定性（core stability）是否总存在这一重大开放问题，提出基于混合整数线性规划（MILP）的自动推理框架，证明了新的存在性结果，发现了核稳定性与其他公理（如 Lindahl 可定价性）之间此前未知的关系，并推翻了一个已有猜想。
+
+**[On the Information Processing of One-Dimensional Wasserstein Distances with Finite Samples](on_the_information_processing_of_one-dimensional_wasserstein_distances_with_fini.md)**
+
+:   本文通过Poisson过程框架，解析刻画了一维Wasserstein距离在有限样本下同时编码概率密度函数的逐点密度差异（rate difference）和支撑差异（support difference）的能力，并在神经脉冲数据和氨基酸接触频率数据上验证了其实际价值。
+
+**[On the Variability of Concept Activation Vectors](on_the_variability_of_concept_activation_vectors.md)**
+
+:   对 TCAV 方法中概念激活向量（CAV）的变异性进行首次理论分析，证明 CAV 的方差以 $O(1/N)$ 速率衰减（$N$ 为随机样本数），而 TCAV 分数的方差因"边界点"保持 $O(1)$，需通过多次运行平均以 $O(1/s)$ 降低。
 
 **[Online Linear Regression With Paid Stochastic Features](online_linear_regression_with_paid_stochastic_features.md)**
 
@@ -226,6 +330,30 @@
 **[Optimal Welfare in Noncooperative Network Formation under Attack](optimal_welfare_in_noncooperative_network_formation_under_attack.md)**
 
 :   在Goyal等人(WINE 2016)提出的非合作网络形成博弈模型中，证明了自私智能体创建的均衡网络在面对包括maximum disruption在内的广泛攻击者类别（超二次扰动攻击者SQD）时，仍能维持渐近最优的社会福利$n^2 - O(n)$，解决了一个长期开放问题。
+
+**[OR-R1: Automating Modeling and Solving of Operations Research Optimization Problems](or-r1_automating_modeling_and_solving_of_operations_research_optimization_proble.md)**
+
+:   OR-R1提出了一个数据高效的两阶段训练框架（SFT + TGRPO），仅使用ORLM所需1/10的合成数据即达到67.7%的平均求解准确率，超越现有SOTA方法，并通过测试时强化学习将单次生成（Pass@1）与多次生成（Pass@8）的性能差距从13%缩小到7%。
+
+**[ParaMETA: Towards Learning Disentangled Paralinguistic Speaking Styles Representations](parameta_towards_learning_disentangled_paralinguistic_speaking_styles_representa.md)**
+
+:   提出 ParaMETA，一种统一的副语言说话风格表示学习框架，通过 META 空间正则化和任务特定子空间投影实现情感、年龄、性别、语言等说话风格的解耦表示，同时支持下游的多任务分类和风格可控语音合成。
+
+**[Parameterized Approximation Algorithms for TSP on Non-Metric Graphs](parameterized_approximation_algorithms_for_tsp_on_non-metric_graphs.md)**
+
+:   本文针对非度量图上的旅行商问题（TSP），提出了关于参数 $p$（违反三角不等式的顶点数）和 $q$（最小违反集大小）的改进FPT近似算法，将 $p$ 参数下的近似比从2.5改进到1.5，$q$ 参数下从11改进到3。
+
+**[PIPHEN: Physical Interaction Prediction with Hamiltonian Energy Networks](piphen_physical_interaction_prediction_with_hamiltonian_energy_networks.md)**
+
+:   提出PIPHEN分布式物理认知-控制框架，通过物理交互预测网络（PIPN）进行"语义蒸馏"将高维感知数据压缩至原始数据量的5%以下，再由基于哈密顿能量守恒的HEN控制器生成协调动作，从而解决多机器人系统的"共享大脑困境"。
+
+**[Predict and Resist: Long-Term Accident Anticipation under Sensor Noise](predict_and_resist_long-term_accident_anticipation_under_sensor_noise.md)**
+
+:   提出统一框架，将基于扩散模型的双层去噪模块与时间感知的Actor-Critic强化学习模型结合，在传感器噪声条件下实现鲁棒的长期交通事故预测，在三个基准数据集上取得了准确率（AP）和平均事故前预警时间（mTTA）的最优性能。
+
+**[Private Frequency Estimation via Residue Number Systems](private_frequency_estimation_via_residue_number_systems.md)**
+
+:   提出 ModularSubsetSelection (MSS)，一种基于剩余数系统（RNS）的本地差分隐私频率估计协议，在保持与 SubsetSelection 和 PGR 相当的估计精度的同时，显著降低通信开销（比 SS 减少达一半）、大幅加速服务器解码（比 PGR 快 11-448 倍）、并实现最低的数据重建攻击成功率。
 
 **[Reimagining Anomalies: What if Anomalies Were Normal?](reimagining_anomalies_what_if_anomalies_were_normal.md)**
 

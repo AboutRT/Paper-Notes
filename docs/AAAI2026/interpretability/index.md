@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🤖 AAAI2026** · 共 **31** 篇
+**🤖 AAAI2026** · 共 **32** 篇
 
 **[A Closer Look at Knowledge Distillation in Spiking Neural Network Training](a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md)**
 
@@ -78,6 +78,10 @@
 **[GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)**
 
 :   提出 GateRA，在 PEFT 方法（LoRA/DoRA/HiRA）中引入轻量级 token 感知门控模块，通过 sigmoid 门控动态调整每个 token 的适配强度——对分布内/简单 token 抑制更新以保留预训练知识，对挑战性 token 放大适配。结合熵正则化促进近二值门控决策，在常识推理（+1.1%）、对话和数学推理上一致优于 HiRA。
+
+**[GenePheno: Interpretable Gene Knockout-Induced Phenotype Abnormality Prediction Framework](genepheno_interpretable_gene_knockout-induced_phenotype_abnormality_prediction_f.md)**
+
+:   本文提出 GenePheno，首个从基因序列端到端预测基因敲除诱导表型异常的可解释多标签预测框架，通过对比式多标签学习捕获表型间相关性、互斥正则化强制生物学一致性、以及基因本体（GO）瓶颈层提供可解释性，在 4 个数据集上取得 SOTA 的基因中心 $F_{\max}$ 和表型中心 AUC。
 
 **[HSKBenchmark: Modeling and Benchmarking Chinese Second Language Acquisition in Large Language Models through Curriculum Tuning](hskbenchmark_modeling_and_benchmarking_chinese_second_language_acquisition_in_la.md)**
 
