@@ -3,6 +3,10 @@ description: "【论文笔记】Evaluating Multiple Models Using Labeled and Unl
 tags:
   - NeurIPS 2025
   - 半监督学习
+  - model evaluation
+  - mixture model
+  - unlabeled data
+  - classifier performance
 ---
 
 # Evaluating Multiple Models Using Labeled and Unlabeled Data

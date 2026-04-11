@@ -3,7 +3,10 @@ description: "【论文笔记】Beyond Label Semantics: Language-Guided Action A
 tags:
   - ICCV 2025
   - 动作识别
+  - LLM
+  - atomic action
   - 多模态
+  - metric learning
 ---
 
 # Beyond Label Semantics: Language-Guided Action Anatomy for Few-shot Action Recognition

@@ -3,6 +3,10 @@ description: "【论文笔记】Anti-adversarial Learning: Desensitizing Prompts
 tags:
   - AAAI 2026
   - 提示学习
+  - 反对抗学习
+  - 隐私保护
+  - 掩码语言模型
+  - 代理模型梯度
 ---
 
 # Anti-adversarial Learning: Desensitizing Prompts for Large Language Models

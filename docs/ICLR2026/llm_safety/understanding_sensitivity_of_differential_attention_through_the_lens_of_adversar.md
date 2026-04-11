@@ -3,6 +3,9 @@ description: "【论文笔记】Understanding Sensitivity of Differential Attent
 tags:
   - ICLR 2026
   - 注意力机制
+  - 对抗鲁棒性
+  - 梯度对齐
+  - Lipschitz常数
 ---
 
 # Understanding Sensitivity of Differential Attention through the Lens of Adversarial Robustness

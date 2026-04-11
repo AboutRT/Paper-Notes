@@ -3,6 +3,10 @@ description: "【论文笔记】Graph Neural Networks for Interferometer Simulat
 tags:
   - NeurIPS 2025 (AI for Science Workshop)
   - 图神经网络
+  - 干涉仪仿真
+  - LIGO
+  - 引力波
+  - 光学模拟
 ---
 
 # Graph Neural Networks for Interferometer Simulations

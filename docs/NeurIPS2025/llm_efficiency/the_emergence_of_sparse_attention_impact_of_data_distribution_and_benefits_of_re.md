@@ -3,6 +3,10 @@ description: "【论文笔记】The Emergence of Sparse Attention: Impact of Dat
 tags:
   - NeurIPS 2025
   - 注意力机制
+  - emergence
+  - power law
+  - repetition
+  - learning dynamics
 ---
 
 # The Emergence of Sparse Attention: Impact of Data Distribution and Benefits of Repetition

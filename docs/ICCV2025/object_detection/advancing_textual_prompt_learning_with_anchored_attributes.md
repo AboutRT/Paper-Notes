@@ -3,6 +3,10 @@ description: "【论文笔记】Advancing Textual Prompt Learning with Anchored 
 tags:
   - ICCV 2025
   - 提示学习
+  - CLIP
+  - 属性锚定
+  - 零样本泛化
+  - 可微属性搜索
 ---
 
 # Advancing Textual Prompt Learning with Anchored Attributes

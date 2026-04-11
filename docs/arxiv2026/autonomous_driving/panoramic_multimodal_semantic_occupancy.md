@@ -2,7 +2,11 @@
 description: "【论文笔记】Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots 论文解读 | arXiv 2026 | arXiv 2603.13108 | panoramic | 全景图像为四足机器人的感知提供整体 360° 视觉覆盖。"
 tags:
   - arXiv 2026
+  - panoramic
   - 多模态
+  - semantic
+  - occupancy
+  - prediction
 ---
 
 # Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots

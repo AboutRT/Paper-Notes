@@ -3,6 +3,10 @@ description: "【论文笔记】HATA: Trainable and Hardware-Efficient Hash-Awar
 tags:
   - ACL 2025
   - 注意力机制
+  - Learning-to-Hash
+  - KVCache
+  - LLM Inference
+  - Hardware-Efficient
 ---
 
 # HATA: Trainable and Hardware-Efficient Hash-Aware Top-k Attention for Scalable Large Model Inference

@@ -3,6 +3,10 @@ description: "【论文笔记】TAB: Transformer Attention Bottlenecks enable Us
 tags:
   - ICCV 2025
   - 注意力机制
+  - interpretability
+  - change captioning
+  - user intervention
+  - debugging
 ---
 
 # TAB: Transformer Attention Bottlenecks enable User Intervention and Debugging in Vision-Language Models

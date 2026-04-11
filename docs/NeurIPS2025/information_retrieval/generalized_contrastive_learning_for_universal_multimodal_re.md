@@ -4,6 +4,9 @@ tags:
   - NeurIPS 2025
   - 多模态
   - 对比学习
+  - GCL
+  - fused modality
+  - CLIP
 ---
 
 # Generalized Contrastive Learning for Universal Multimodal Retrieval

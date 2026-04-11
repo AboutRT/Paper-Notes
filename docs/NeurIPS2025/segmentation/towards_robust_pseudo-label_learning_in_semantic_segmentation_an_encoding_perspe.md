@@ -3,6 +3,7 @@ description: "【论文笔记】Towards Robust Pseudo-Label Learning in Semantic
 tags:
   - NEURIPS2025
   - 伪标签
+  - error-correcting output codes
   - 图像分割
   - 域适应
   - 半监督学习

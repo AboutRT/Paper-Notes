@@ -3,6 +3,10 @@ description: "【论文笔记】SANA-Sprint: One-Step Diffusion with Continuous-
 tags:
   - ICCV 2025
   - 扩散模型
+  - consistency distillation
+  - flow matching
+  - adversarial distillation
+  - 实时生成
 ---
 
 # SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation

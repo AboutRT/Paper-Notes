@@ -4,6 +4,8 @@ tags:
   - NeurIPS 2025
   - 注意力机制
   - 神经架构搜索
+  - efficient LLM
+  - KV cache
 ---
 
 # Jet-Nemotron: Efficient Language Model with Post Neural Architecture Search

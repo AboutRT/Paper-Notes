@@ -3,6 +3,10 @@ description: "【论文笔记】DC-Solver: Improving Predictor-Corrector Diffusi
 tags:
   - ECCV2024
   - 扩散模型
+  - Fast Sampling
+  - ODE Solver
+  - Predictor-Corrector
+  - Dynamic Compensation
 ---
 
 # DC-Solver: Improving Predictor-Corrector Diffusion Sampler via Dynamic Compensation

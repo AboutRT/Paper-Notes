@@ -2,6 +2,10 @@
 description: "【论文笔记】Topo-R1: Detecting Topological Anomalies via Vision-Language Models 论文解读 | arXiv 2026 | arXiv 2603.13054 | topo-r1 | 拓扑正确性对于血管、神经纤维和道路网络等管状结构至关重要。"
 tags:
   - arXiv 2026
+  - topo-r1
+  - detecting
+  - topological
+  - anomalies
   - 视觉语言
 ---
 

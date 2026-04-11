@@ -3,7 +3,10 @@ description: "【论文笔记】OmniSAM: Omnidirectional Segment Anything Model 
 tags:
   - ICCV 2025
   - 图像分割
+  - SAM2
   - 域适应
+  - prototypical adaptation
+  - pseudo label
 ---
 
 # OmniSAM: Omnidirectional Segment Anything Model for UDA in Panoramic Semantic Segmentation

@@ -3,6 +3,9 @@ description: "【论文笔记】DreamOn: Diffusion Language Models For Code Infi
 tags:
   - ICLR 2026
   - 扩散模型
+  - code infilling
+  - variable-length generation
+  - DLM
 ---
 
 # DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas

@@ -4,6 +4,10 @@ tags:
   - ICML2025
   - 扩散模型
   - Transformer
+  - molecular generation
+  - crystal generation
+  - unified model
+  - scaling law
 ---
 
 # All-atom Diffusion Transformers: Unified Generative Modelling of Molecules and Materials

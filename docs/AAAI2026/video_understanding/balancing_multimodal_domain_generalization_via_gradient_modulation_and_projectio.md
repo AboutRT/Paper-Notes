@@ -3,6 +3,9 @@ description: "【论文笔记】Balancing Multimodal Domain Generalization via G
 tags:
   - AAAI2026
   - 多模态
+  - Gradient Modulation
+  - Gradient Projection
+  - Optimization Imbalance
 ---
 
 # Balancing Multimodal Domain Generalization via Gradient Modulation and Projection

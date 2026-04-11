@@ -3,6 +3,9 @@ description: "【论文笔记】UniQuanF: Unifying Uniform and Binary-coding Qua
 tags:
   - ACL 2025
   - 量化
+  - binary-coding
+  - LLM compression
+  - non-uniform levels
 ---
 
 # UniQuanF: Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models

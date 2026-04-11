@@ -4,6 +4,9 @@ tags:
   - ICLR2026
   - 联邦学习
   - 提示学习
+  - Backdoor Attack
+  - CLIP
+  - Anomaly Detection
 ---
 
 # SABRE-FL: Selective and Accurate Backdoor Rejection for Federated Prompt Learning

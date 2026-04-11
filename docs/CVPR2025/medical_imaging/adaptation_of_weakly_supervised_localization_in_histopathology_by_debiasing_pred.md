@@ -3,6 +3,10 @@ description: "【论文笔记】Adaptation of Weakly Supervised Localization in 
 tags:
   - CVPR2025
   - 域适应
+  - Weakly Supervised Localization
+  - Histopathology
+  - Machine Unlearning
+  - Prediction Bias
 ---
 
 # Adaptation of Weakly Supervised Localization in Histopathology by Debiasing Predictions

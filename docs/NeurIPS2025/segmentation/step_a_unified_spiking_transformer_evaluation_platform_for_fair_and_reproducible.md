@@ -3,6 +3,10 @@ description: "【论文笔记】STEP: A Unified Spiking Transformer Evaluation P
 tags:
   - NeurIPS 2025
   - Transformer
+  - 统一基准
+  - 能耗建模
+  - 脉冲神经网络
+  - 可复现评估
 ---
 
 # STEP: A Unified Spiking Transformer Evaluation Platform for Fair and Reproducible Benchmarking

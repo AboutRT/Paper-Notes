@@ -3,6 +3,11 @@ description: "【论文笔记】FastLSQ: Solving PDEs in One Shot via Fourier Fe
 tags:
   - ICLR2026
   - 偏微分方程
+  - random Fourier features
+  - physics-informed computing
+  - one-shot solver
+  - Newton-Raphson
+  - inverse problems
 ---
 
 # FastLSQ: Solving PDEs in One Shot via Fourier Features with Exact Analytical Derivatives

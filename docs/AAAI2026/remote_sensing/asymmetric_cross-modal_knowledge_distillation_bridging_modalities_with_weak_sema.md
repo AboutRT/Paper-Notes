@@ -3,6 +3,10 @@ description: "【论文笔记】Asymmetric Cross-Modal Knowledge Distillation: B
 tags:
   - AAAI2026
   - 知识蒸馏
+  - optimal transport
+  - remote sensing
+  - scene classification
+  - weak semantic consistency
 ---
 
 # Asymmetric Cross-Modal Knowledge Distillation: Bridging Modalities with Weak Semantic Consistency

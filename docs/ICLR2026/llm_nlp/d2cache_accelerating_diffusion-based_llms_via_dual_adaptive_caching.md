@@ -3,6 +3,10 @@ description: "【论文笔记】d²Cache: Accelerating Diffusion-Based LLMs via 
 tags:
   - ICLR 2026
   - 扩散模型
+  - KV Cache
+  - 推理加速
+  - dLLM
+  - 注意力剪枝
 ---
 
 # d²Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching

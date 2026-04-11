@@ -3,6 +3,10 @@ description: "【论文笔记】Alternate Diverse Teaching for Semi-supervised M
 tags:
   - ECCV 2024
   - 半监督学习
+  - Mean Teacher
+  - Confirmation Bias
+  - Pseudo Label
+  - Conflict-Combating
 ---
 
 # Alternate Diverse Teaching for Semi-supervised Medical Image Segmentation

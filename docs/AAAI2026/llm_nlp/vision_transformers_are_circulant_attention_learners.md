@@ -3,6 +3,10 @@ description: "【论文笔记】Vision Transformers are Circulant Attention Lear
 tags:
   - AAAI 2026
   - Transformer
+  - 循环注意力
+  - BCCB
+  - FFT
+  - 高效注意力
 ---
 
 # Vision Transformers are Circulant Attention Learners

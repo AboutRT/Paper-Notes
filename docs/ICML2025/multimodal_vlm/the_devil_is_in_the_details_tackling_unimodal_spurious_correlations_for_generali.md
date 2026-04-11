@@ -3,6 +3,10 @@ description: "【论文笔记】The Devil Is in the Details: Tackling Unimodal S
 tags:
   - ICML 2025
   - 多模态
+  - Spurious Correlations
+  - Shortcut Learning
+  - Generalization
+  - 偏好对齐
 ---
 
 # The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models

@@ -3,6 +3,11 @@ description: "【论文笔记】SODA: Sensitivity-Oriented Dynamic Acceleration 
 tags:
   - CVPR2026
   - Transformer
+  - 训练无关加速
+  - 缓存
+  - 剪枝
+  - 敏感度建模
+  - 动态规划
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

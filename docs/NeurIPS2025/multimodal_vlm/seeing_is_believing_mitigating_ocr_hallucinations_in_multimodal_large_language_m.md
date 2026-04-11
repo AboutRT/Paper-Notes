@@ -3,6 +3,10 @@ description: "【论文笔记】Seeing is Believing? Mitigating OCR Hallucinatio
 tags:
   - NeurIPS 2025
   - OCR
+  - 文档理解
+  - 强化学习
+  - GRPO
+  - 视觉退化
 ---
 
 # Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models

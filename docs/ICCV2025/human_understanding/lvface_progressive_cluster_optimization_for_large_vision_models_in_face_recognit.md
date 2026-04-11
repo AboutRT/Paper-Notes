@@ -4,6 +4,9 @@ tags:
   - ICCV 2025
   - 人脸识别
   - Transformer
+  - progressive optimization
+  - large vision model
+  - margin-based loss
 ---
 
 # LVFace: Progressive Cluster Optimization for Large Vision Models in Face Recognition

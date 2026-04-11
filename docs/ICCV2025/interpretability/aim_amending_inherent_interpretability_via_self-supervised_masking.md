@@ -3,6 +3,10 @@ description: "【论文笔记】AIM: Amending Inherent Interpretability via Self
 tags:
   - ICCV 2025
   - 自监督学习
+  - inherent interpretability
+  - spurious features
+  - feature pyramid
+  - Energy Pointing Game
 ---
 
 # AIM: Amending Inherent Interpretability via Self-Supervised Masking

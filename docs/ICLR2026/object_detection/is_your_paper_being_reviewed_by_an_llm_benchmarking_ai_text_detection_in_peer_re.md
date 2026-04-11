@@ -3,6 +3,10 @@ description: "【论文笔记】Is Your Paper Being Reviewed by an LLM? Benchmar
 tags:
   - ICLR2026
   - 文本检测
+  - peer review
+  - LLM-generated text
+  - benchmark
+  - scientific integrity
 ---
 
 # Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review

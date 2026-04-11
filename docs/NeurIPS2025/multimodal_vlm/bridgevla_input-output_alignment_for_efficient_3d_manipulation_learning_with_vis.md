@@ -3,6 +3,10 @@ description: "【论文笔记】BridgeVLA: Input-Output Alignment for Efficient 
 tags:
   - NEURIPS2025
   - 视觉语言
+  - 3D Manipulation
+  - Heatmap Prediction
+  - Robot Learning
+  - Sample Efficiency
 ---
 
 # BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models

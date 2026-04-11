@@ -3,6 +3,11 @@ description: "【论文笔记】Large Language Models Can Learn and Generalize S
 tags:
   - NeurIPS 2025
   - GAN
+  - chain-of-thought
+  - process supervision
+  - obfuscated reasoning
+  - AI safety
+  - RL fine-tuning
 ---
 
 # Large Language Models Can Learn and Generalize Steganographic Chain-of-Thought under Process Supervision

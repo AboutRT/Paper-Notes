@@ -3,6 +3,10 @@ description: "【论文笔记】Diffusion Classifiers Understand Compositionalit
 tags:
   - NeurIPS 2025 (Datasets & Benchmarks)
   - 扩散模型
+  - compositionality
+  - zero-shot classification
+  - benchmark
+  - timestep weighting
 ---
 
 # Diffusion Classifiers Understand Compositionality, but Conditions Apply

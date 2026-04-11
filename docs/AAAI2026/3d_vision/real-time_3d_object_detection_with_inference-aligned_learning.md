@@ -4,6 +4,11 @@ tags:
   - AAAI2026
   - 目标检测
   - 点云
+  - indoor scene
+  - optimal transport
+  - label assignment
+  - self-distillation
+  - real-time
 ---
 
 # Real-Time 3D Object Detection with Inference-Aligned Learning

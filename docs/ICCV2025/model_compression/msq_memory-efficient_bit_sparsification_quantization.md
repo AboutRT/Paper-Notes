@@ -3,6 +3,9 @@ description: "【论文笔记】MSQ: Memory-Efficient Bit Sparsification Quantiz
 tags:
   - ICCV 2025
   - 量化
+  - bit-level sparsity
+  - memory-efficient
+  - Hessian
   - 模型压缩
 ---
 

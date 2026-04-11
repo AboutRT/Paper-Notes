@@ -5,6 +5,8 @@ tags:
   - 联邦学习
   - 图像分割
   - 多模态
+  - personalized FL
+  - missing modality
 ---
 
 # Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation

@@ -3,6 +3,10 @@ description: "【论文笔记】Diffusion-Driven Progressive Target Manipulation
 tags:
   - NeurIPS 2025
   - 域适应
+  - 扩散模型
+  - 伪目标域生成
+  - 渐进式优化
+  - 语义变换
 ---
 
 # Diffusion-Driven Progressive Target Manipulation for Source-Free Domain Adaptation

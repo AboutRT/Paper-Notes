@@ -3,6 +3,10 @@ description: "【论文笔记】OARS: Process-Aware Online Alignment for Generat
 tags:
   - CVPR 2026
   - 超分辨率
+  - Online RL
+  - MLLM Reward
+  - Process-Aware
+  - Perception-Fidelity Trade-off
 ---
 
 # OARS: Process-Aware Online Alignment for Generative Real-World Image Super-Resolution

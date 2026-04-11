@@ -3,6 +3,10 @@ description: "【论文笔记】DRPruning: Efficient Large Language Model Prunin
 tags:
   - ACL 2025
   - 剪枝
+  - distributionally robust optimization
+  - data scheduling
+  - scaling law
+  - domain balance
 ---
 
 # DRPruning: Efficient Large Language Model Pruning through Distributionally Robust Optimization

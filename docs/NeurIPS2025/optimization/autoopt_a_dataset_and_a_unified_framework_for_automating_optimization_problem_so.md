@@ -3,6 +3,10 @@ description: "【论文笔记】AutoOpt: A Dataset and a Unified Framework for A
 tags:
   - NeurIPS 2025
   - OCR
+  - LaTeX转PYOMO
+  - 双层优化求解
+  - 数学规划
+  - 手写识别
 ---
 
 # AutoOpt: A Dataset and a Unified Framework for Automating Optimization Problem Solving

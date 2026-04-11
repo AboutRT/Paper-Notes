@@ -3,7 +3,9 @@ description: "【论文笔记】All You Need is One: Capsule Prompt Tuning with 
 tags:
   - NeurIPS 2025
   - 提示学习
+  - PEFT
   - 注意力机制
+  - parameter efficiency
 ---
 
 # All You Need is One: Capsule Prompt Tuning with a Single Vector

@@ -3,6 +3,10 @@ description: "【论文笔记】Memorization Inheritance in Sequence-Level Knowl
 tags:
   - ACL 2025
   - 知识蒸馏
+  - memorization
+  - hallucination
+  - machine translation
+  - SeqKD
 ---
 
 # Memorization Inheritance in Sequence-Level Knowledge Distillation for Neural Machine Translation

@@ -3,6 +3,10 @@ description: "【论文笔记】PriOr-Flow: Enhancing Primitive Panoramic Optica
 tags:
   - ICCV 2025
   - 光流
+  - equirectangular projection
+  - dual-branch
+  - distortion compensation
+  - orthogonal view
 ---
 
 # PriOr-Flow: Enhancing Primitive Panoramic Optical Flow with Orthogonal View

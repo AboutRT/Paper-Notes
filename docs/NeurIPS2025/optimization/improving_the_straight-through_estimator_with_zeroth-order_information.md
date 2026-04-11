@@ -3,6 +3,10 @@ description: "【论文笔记】Improving the Straight-Through Estimator with Ze
 tags:
   - NeurIPS 2025
   - 量化
+  - straight-through estimator
+  - zeroth-order optimization
+  - FOGZO
+  - gradient estimation
 ---
 
 # Improving the Straight-Through Estimator with Zeroth-Order Information

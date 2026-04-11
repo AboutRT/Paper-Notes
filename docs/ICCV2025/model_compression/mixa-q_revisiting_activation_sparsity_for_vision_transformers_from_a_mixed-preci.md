@@ -3,7 +3,9 @@ description: "【论文笔记】MixA-Q: Revisiting Activation Sparsity for Visio
 tags:
   - ICCV 2025
   - 量化
+  - Activation Sparsity
   - Transformer
+  - Efficient Inference
 ---
 
 # MixA-Q: Revisiting Activation Sparsity for Vision Transformers from a Mixed-Precision Quantization Perspective

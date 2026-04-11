@@ -3,6 +3,10 @@ description: "【论文笔记】Vision Transformers with Self-Distilled Register
 tags:
   - NeurIPS 2025
   - Transformer
+  - Register Token
+  - 自蒸馏
+  - 特征去噪
+  - 开放词汇分割
 ---
 
 # Vision Transformers with Self-Distilled Registers

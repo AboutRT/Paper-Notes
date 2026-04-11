@@ -3,6 +3,10 @@ description: "【论文笔记】String Seed of Thought: Prompting LLMs for Distr
 tags:
   - ICLR 2026
   - 提示学习
+  - probabilistic instruction following
+  - diversity
+  - LLM reasoning
+  - randomness
 ---
 
 # String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation

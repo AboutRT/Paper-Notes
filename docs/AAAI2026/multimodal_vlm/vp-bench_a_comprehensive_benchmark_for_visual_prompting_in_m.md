@@ -3,6 +3,10 @@ description: "【论文笔记】VP-Bench: A Comprehensive Benchmark for Visual P
 tags:
   - AAAI 2026
   - 提示学习
+  - MLLM评测
+  - 视觉提示感知
+  - 区域指向
+  - Benchmark设计
 ---
 
 # VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models

@@ -3,6 +3,9 @@ description: "【论文笔记】Locality-Sensitive Hashing-Based Efficient Point
 tags:
   - NeurIPS 2025
   - Transformer
+  - Locality-Sensitive Hashing
+  - 粒子追踪
+  - 端到端学习
 ---
 
 # Locality-Sensitive Hashing-Based Efficient Point Transformer for Charged Particle Reconstruction

@@ -3,6 +3,9 @@ description: "【论文笔记】UniCom: Unified Multimodal Modeling via Compress
 tags:
   - CVPR2025
   - 多模态
+  - continuous representation
+  - semantic compression
+  - transfusion
   - 图像生成
 ---
 

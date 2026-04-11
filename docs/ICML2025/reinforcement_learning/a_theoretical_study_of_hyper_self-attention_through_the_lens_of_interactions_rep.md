@@ -3,6 +3,8 @@ description: "【论文笔记】A Theoretical Study of (Hyper) Self-Attention th
 tags:
   - ICML 2025
   - 注意力机制
+  - mutual interaction
+  - length generalization
 ---
 
 # A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions

@@ -3,6 +3,10 @@ description: "【论文笔记】Unleashing Diffusion Transformers for Visual Cor
 tags:
   - NeurIPS 2025
   - Transformer
+  - Massive Activations
+  - AdaLN
+  - 视觉对应
+  - 特征提取
 ---
 
 # Unleashing Diffusion Transformers for Visual Correspondence by Modulating Massive Activations

@@ -3,6 +3,10 @@ description: "【论文笔记】Attention to the Burstiness in Visual Prompt Tun
 tags:
   - ICCV 2025
   - 提示学习
+  - Burstiness
+  - Data Whitening
+  - Bilinear Model
+  - Parameter-Efficient Fine-Tuning
 ---
 
 # Attention to the Burstiness in Visual Prompt Tuning!

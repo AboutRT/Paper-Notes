@@ -3,7 +3,10 @@ description: "【论文笔记】AIMCoT: Active Information-driven Multimodal Cha
 tags:
   - ICLR 2026
   - 多模态
+  - information gain
+  - active visual probing
   - 注意力机制
+  - interleaved reasoning
 ---
 
 # AIMCoT: Active Information-driven Multimodal Chain-of-Thought for Vision-Language Reasoning

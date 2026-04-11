@@ -3,6 +3,9 @@ description: "【论文笔记】A2D: Any-Order, Any-Step Safety Alignment for Di
 tags:
   - ICLR 2026
   - 扩散模型
+  - safety alignment
+  - token-level defense
+  - jailbreak
 ---
 
 # A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models

@@ -3,6 +3,10 @@ description: "【论文笔记】Clear Nights Ahead: Towards Multi-Weather Nightt
 tags:
   - AAAI 2026
   - 图像恢复
+  - multi-weather
+  - Retinex prior
+  - dynamic MoE
+  - AllWeatherNight dataset
 ---
 
 # Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration

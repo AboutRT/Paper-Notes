@@ -3,6 +3,10 @@ description: "【论文笔记】Ultra-Fast Language Generation via Discrete Diff
 tags:
   - ICLR 2026
   - 扩散模型
+  - Distillation
+  - KL Divergence
+  - Few-Step Generation
+  - Policy Gradient
 ---
 
 # Ultra-Fast Language Generation via Discrete Diffusion Divergence Instruct

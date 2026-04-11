@@ -3,7 +3,10 @@ description: "【论文笔记】CountSteer: Steering Attention for Object Counti
 tags:
   - AAAI2026
   - 扩散模型
+  - object counting
+  - steering vector
   - 注意力机制
+  - training-free
 ---
 
 # CountSteer: Steering Attention for Object Counting in Diffusion Models

@@ -3,6 +3,10 @@ description: "【论文笔记】Machines and Mathematical Mutations: Using GNNs 
 tags:
   - ICML2025
   - 图神经网络
+  - 可解释性
+  - 箭图变异 (quiver mutation)
+  - 簇代数 (cluster algebra)
+  - AI for Math
 ---
 
 # Machines and Mathematical Mutations: Using GNNs to Characterize Quiver Mutation Classes

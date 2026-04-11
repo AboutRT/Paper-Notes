@@ -3,6 +3,10 @@ description: "【论文笔记】DiffPO: Diffusion Alignment with Direct Preferen
 tags:
   - ACL 2025
   - 扩散模型
+  - inference-time alignment
+  - parallel decoding
+  - model-agnostic
+  - preference optimization
 ---
 
 # DiffPO: Diffusion Alignment with Direct Preference Optimization

@@ -3,7 +3,11 @@ description: "【论文笔记】DANCE: Density-Agnostic and Class-Aware Network 
 tags:
   - AAAI2026
   - 点云
+  - density-agnostic
+  - class-aware
   - Transformer
+  - ray-based sampling
+  - opacity prediction
 ---
 
 # DANCE: Density-Agnostic and Class-Aware Network for Point Cloud Completion

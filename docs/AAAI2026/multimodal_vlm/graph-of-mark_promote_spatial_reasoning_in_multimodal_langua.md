@@ -3,6 +3,10 @@ description: "【论文笔记】Graph-of-Mark: Promote Spatial Reasoning in Mult
 tags:
   - AAAI 2026 (Main Track)
   - 提示学习
+  - 空间推理(Spatial Reasoning)
+  - 场景图(Scene Graph)
+  - 多模态语言模型
+  - 零样本推理
 ---
 
 # Graph-of-Mark: Promote Spatial Reasoning in Multimodal Language Models with Graph-Based Visual Prompting

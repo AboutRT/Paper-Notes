@@ -3,6 +3,10 @@ description: "【论文笔记】Enforcing Governing Equation Constraints in Neur
 tags:
   - NeurIPS 2025
   - 偏微分方程
+  - 约束投影
+  - LBFGS
+  - 物理一致性
+  - 后处理
 ---
 
 # Enforcing Governing Equation Constraints in Neural PDE Solvers via Training-free Projections

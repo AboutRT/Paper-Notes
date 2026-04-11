@@ -3,6 +3,10 @@ description: "【论文笔记】Deep Learning-based Assessment of the Relation B
 tags:
   - CVPR 2026
   - 联邦学习
+  - panoramic radiography
+  - third molar
+  - mandibular canal
+  - privacy-preserving
 ---
 
 # Deep Learning-based Assessment of the Relation Between the Third Molar and Mandibular Canal on Panoramic Radiographs using Local, Centralized, and Federated Learning

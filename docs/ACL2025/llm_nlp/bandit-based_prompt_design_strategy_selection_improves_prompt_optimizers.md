@@ -3,6 +3,10 @@ description: "【论文笔记】OPTS: Bandit-Based Prompt Design Strategy Select
 tags:
   - ACL 2025
   - 提示学习
+  - Thompson采样
+  - 多臂老虎机
+  - 策略选择
+  - BIG-Bench Hard
 ---
 
 # OPTS: Bandit-Based Prompt Design Strategy Selection Improves Prompt Optimizers

@@ -3,6 +3,12 @@ description: "【论文笔记】On Expressive Power of Looped Transformers: Theo
 tags:
   - ICML2025
   - Transformer
+  - 表达能力
+  - 逼近速率
+  - 权重共享
+  - 时间步编码
+  - 通用逼近
+  - 连续性模
 ---
 
 # On Expressive Power of Looped Transformers: Theoretical Analysis and Enhancement via Timestep Encoding

@@ -3,6 +3,10 @@ description: "【论文笔记】Reinforcement Learning Finetunes Small Subnetwor
 tags:
   - NeurIPS 2025
   - 强化学习
+  - sparse subnetwork
+  - parameter update sparsity
+  - LLM finetuning
+  - lottery ticket hypothesis
 ---
 
 # Reinforcement Learning Finetunes Small Subnetworks in Large Language Models

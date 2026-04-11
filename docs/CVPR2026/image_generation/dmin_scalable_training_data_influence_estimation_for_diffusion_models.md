@@ -3,6 +3,10 @@ description: "【论文笔记】DMin: Scalable Training Data Influence Estimatio
 tags:
   - CVPR 2026
   - 扩散模型
+  - Influence Estimation
+  - Gradient Compression
+  - KNN
+  - Scalability
 ---
 
 # DMin: Scalable Training Data Influence Estimation for Diffusion Models

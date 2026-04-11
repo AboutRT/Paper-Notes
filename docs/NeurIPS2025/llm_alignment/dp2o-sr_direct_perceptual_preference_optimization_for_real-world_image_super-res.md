@@ -3,7 +3,10 @@ description: "【论文笔记】DP²O-SR: Direct Perceptual Preference Optimizat
 tags:
   - NeurIPS 2025
   - 超分辨率
+  - preference optimization
   - 扩散模型
+  - perceptual quality
+  - DPO
 ---
 
 # DP²O-SR: Direct Perceptual Preference Optimization for Real-World Image Super-Resolution

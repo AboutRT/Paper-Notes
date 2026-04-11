@@ -3,6 +3,10 @@ description: "【论文笔记】OneRestore: A Universal Restoration Framework fo
 tags:
   - ECCV 2024
   - 图像恢复
+  - composite degradation
+  - scene descriptor
+  - controllable restoration
+  - contrastive loss
 ---
 
 # OneRestore: A Universal Restoration Framework for Composite Degradation

@@ -3,6 +3,9 @@ description: "【论文笔记】SimMLM: A Simple Framework for Multi-modal Learn
 tags:
   - ICCV 2025
   - 多模态
+  - missing modality
+  - mixture of experts
+  - ranking loss
   - 图像分割
 ---
 

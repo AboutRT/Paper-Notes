@@ -3,6 +3,11 @@ description: "【论文笔记】CAPT: Confusion-Aware Prompt Tuning for Reducing
 tags:
   - CVPR2026
   - 提示学习
+  - 视觉语言对齐
+  - 混淆感知
+  - CLIP
+  - few-shot
+  - 细粒度分类
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

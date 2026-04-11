@@ -4,6 +4,9 @@ tags:
   - arXiv 2026
   - 多模态
   - OCR
+  - parse
+  - anything
+  - documents
 ---
 
 # Multimodal OCR: Parse Anything from Documents

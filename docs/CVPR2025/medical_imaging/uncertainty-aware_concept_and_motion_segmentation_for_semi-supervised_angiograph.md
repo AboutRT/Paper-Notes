@@ -4,7 +4,10 @@ tags:
   - CVPR2025
   - 半监督学习
   - 图像分割
+  - coronary angiography
+  - SAM3
   - 光流
+  - uncertainty
 ---
 
 # Uncertainty-Aware Concept and Motion Segmentation for Semi-Supervised Angiography Videos

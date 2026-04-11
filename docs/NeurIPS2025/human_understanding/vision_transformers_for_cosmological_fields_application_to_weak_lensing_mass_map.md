@@ -3,6 +3,9 @@ description: "【论文笔记】Vision Transformers for Cosmological Fields: App
 tags:
   - NeurIPS 2025
   - Transformer
+  - 弱引力透镜
+  - 宇宙学参数
+  - 模拟推断
 ---
 
 # Vision Transformers for Cosmological Fields: Application to Weak Lensing Mass Maps

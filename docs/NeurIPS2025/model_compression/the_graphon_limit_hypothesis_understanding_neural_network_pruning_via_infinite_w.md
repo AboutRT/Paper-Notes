@@ -3,6 +3,11 @@ description: "【论文笔记】The Graphon Limit Hypothesis: Understanding Neur
 tags:
   - NeurIPS 2025
   - 剪枝
+  - Graphon
+  - Graph Limit Theory
+  - Neural Tangent Kernel
+  - Sparse Networks
+  - Infinite Width
 ---
 
 # The Graphon Limit Hypothesis: Understanding Neural Network Pruning via Infinite Width Analysis

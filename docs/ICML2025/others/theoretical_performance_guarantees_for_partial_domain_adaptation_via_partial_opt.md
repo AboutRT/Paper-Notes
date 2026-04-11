@@ -3,6 +3,10 @@ description: "【论文笔记】Theoretical Performance Guarantees for Partial D
 tags:
   - ICML 2025
   - 域适应
+  - partial optimal transport
+  - Wasserstein distance
+  - generalization bounds
+  - WARMPOT
 ---
 
 # Theoretical Performance Guarantees for Partial Domain Adaptation via Partial Optimal Transport

@@ -3,6 +3,11 @@ description: "【论文笔记】Statistical Advantage of Softmax Attention: Insi
 tags:
   - ICLR2026
   - 注意力机制
+  - 信息检索
+  - 统计物理
+  - 高维分析
+  - Bayes最优
+  - 单位置回归
 ---
 
 # Statistical Advantage of Softmax Attention: Insights from Single-Location Regression

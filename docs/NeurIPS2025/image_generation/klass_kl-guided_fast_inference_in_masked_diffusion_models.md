@@ -3,6 +3,10 @@ description: "【论文笔记】KLASS: KL-Guided Fast Inference in Masked Diffus
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - KL Divergence
+  - 加速采样
+  - Token稳定性
+  - 并行解码
 ---
 
 # KLASS: KL-Guided Fast Inference in Masked Diffusion Models

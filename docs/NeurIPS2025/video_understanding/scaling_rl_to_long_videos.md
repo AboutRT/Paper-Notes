@@ -3,6 +3,10 @@ description: "【论文笔记】Scaling RL to Long Videos 论文解读 | NeurIPS
 tags:
   - NeurIPS 2025
   - 强化学习
+  - long video reasoning
+  - sequence parallelism
+  - VLM
+  - chain-of-thought
 ---
 
 # Scaling RL to Long Videos

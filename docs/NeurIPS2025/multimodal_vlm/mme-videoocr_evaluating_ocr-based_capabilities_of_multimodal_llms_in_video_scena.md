@@ -3,6 +3,9 @@ description: "【论文笔记】MME-VideoOCR: Evaluating OCR-Based Capabilities 
 tags:
   - NeurIPS 2025
   - OCR
+  - benchmark
+  - cross-frame understanding
+  - language prior bias
   - 多模态
 ---
 

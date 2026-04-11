@@ -3,6 +3,10 @@ description: "【论文笔记】Otter: Mitigating Background Distractions of Wid
 tags:
   - AAAI 2026
   - 动作识别
+  - wide-angle video
+  - RWKV
+  - background distraction
+  - temporal reconstruction
 ---
 
 # Otter: Mitigating Background Distractions of Wide-Angle Few-Shot Action Recognition with Enhanced RWKV

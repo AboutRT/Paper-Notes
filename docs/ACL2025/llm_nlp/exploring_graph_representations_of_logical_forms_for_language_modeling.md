@@ -3,6 +3,10 @@ description: "【论文笔记】Exploring Graph Representations of Logical Forms
 tags:
   - ACL 2025
   - Transformer
+  - 逻辑形式
+  - DMRS
+  - 语言模型预训练
+  - 语言知识催化假说
 ---
 
 # Exploring Graph Representations of Logical Forms for Language Modeling

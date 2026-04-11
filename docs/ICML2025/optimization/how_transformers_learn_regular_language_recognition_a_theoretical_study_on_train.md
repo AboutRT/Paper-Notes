@@ -3,6 +3,11 @@ description: "【论文笔记】How Transformers Learn Regular Language Recognit
 tags:
   - ICML2025
   - Transformer
+  - 训练动力学
+  - 隐式偏置
+  - 正则语言识别
+  - Chain-of-Thought
+  - 最大间隔
 ---
 
 # How Transformers Learn Regular Language Recognition: A Theoretical Study on Training Dynamics and Implicit Bias

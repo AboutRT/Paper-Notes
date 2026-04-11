@@ -3,7 +3,10 @@ description: "【论文笔记】S5: Scalable Semi-Supervised Semantic Segmentati
 tags:
   - AAAI2026
   - 半监督学习
+  - remote sensing
+  - foundation model
   - 图像分割
+  - mixture-of-experts
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

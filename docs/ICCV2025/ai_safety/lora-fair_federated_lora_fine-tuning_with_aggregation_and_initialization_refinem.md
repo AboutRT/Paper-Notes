@@ -3,6 +3,10 @@ description: "【论文笔记】LoRA-FAIR: Federated LoRA Fine-Tuning with Aggre
 tags:
   - ICCV 2025
   - 联邦学习
+  - LoRA
+  - parameter-efficient fine-tuning
+  - aggregation bias
+  - foundation models
 ---
 
 # LoRA-FAIR: Federated LoRA Fine-Tuning with Aggregation and Initialization Refinement

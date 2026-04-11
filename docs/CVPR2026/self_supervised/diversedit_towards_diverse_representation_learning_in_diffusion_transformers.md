@@ -3,6 +3,10 @@ description: "【论文笔记】DiverseDiT: Towards Diverse Representation Learn
 tags:
   - CVPR 2026
   - Transformer
+  - 表示多样性
+  - 长残差连接
+  - 多样性损失
+  - 图像生成
 ---
 
 # DiverseDiT: Towards Diverse Representation Learning in Diffusion Transformers

@@ -3,7 +3,10 @@ description: "【论文笔记】D$^2$USt3R: Enhancing 3D Reconstruction for Dyna
 tags:
   - NEURIPS2025
   - 3D重建
+  - pointmap regression
+  - dense correspondence
   - 光流
+  - DUSt3R
 ---
 
 # D$^2$USt3R: Enhancing 3D Reconstruction for Dynamic Scenes

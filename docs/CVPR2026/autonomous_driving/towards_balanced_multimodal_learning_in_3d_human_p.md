@@ -3,6 +3,9 @@ description: "【论文笔记】Towards Balanced Multi-Modal Learning in 3D Huma
 tags:
   - CVPR 2026
   - 位姿估计
+  - modality imbalance
+  - Shapley value
+  - Fisher Information Matrix
   - 多模态
 ---
 

@@ -3,6 +3,11 @@ description: "【论文笔记】Thicker and Quicker: A Jumbo Token for Fast Plai
 tags:
   - ICLR 2026
   - Transformer
+  - CLS Token
+  - 高效架构
+  - Registers
+  - 时间序列
+  - ImageNet
 ---
 
 # Thicker and Quicker: A Jumbo Token for Fast Plain Vision Transformers

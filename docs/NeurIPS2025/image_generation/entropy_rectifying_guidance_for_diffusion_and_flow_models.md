@@ -3,7 +3,10 @@ description: "【论文笔记】Entropy Rectifying Guidance for Diffusion and Fl
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - guidance mechanism
   - 注意力机制
+  - classifier-free guidance
+  - flow matching
 ---
 
 # Entropy Rectifying Guidance for Diffusion and Flow Models

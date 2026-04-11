@@ -3,6 +3,11 @@ description: "【论文笔记】Deep Video Discovery: Agentic Search with Tool U
 tags:
   - NeurIPS 2025
   - 视频理解
+  - agentic search
+  - tool use
+  - long-form video
+  - multi-granular database
+  - adaptive workflow
 ---
 
 # Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding

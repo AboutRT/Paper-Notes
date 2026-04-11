@@ -3,6 +3,10 @@ description: "【论文笔记】Decouple and Track: Benchmarking and Improving V
 tags:
   - ICCV 2025
   - Transformer
+  - 运动迁移
+  - 时序核
+  - 轨迹跟踪
+  - 基准测试
 ---
 
 # Decouple and Track: Benchmarking and Improving Video Diffusion Transformers for Motion Transfer

@@ -3,6 +3,10 @@ description: "【论文笔记】VisualCloze: A Universal Image Generation Framew
 tags:
   - ICCV 2025
   - 图像生成
+  - visual in-context learning
+  - image infilling
+  - Graph200K
+  - multi-task unification
 ---
 
 # VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning

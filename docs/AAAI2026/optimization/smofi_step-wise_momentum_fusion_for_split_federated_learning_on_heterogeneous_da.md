@@ -3,6 +3,10 @@ description: "【论文笔记】SMoFi: Step-wise Momentum Fusion for Split Feder
 tags:
   - AAAI 2026
   - 联邦学习
+  - 数据异构
+  - 动量对齐
+  - 非IID
+  - 收敛加速
 ---
 
 # SMoFi: Step-wise Momentum Fusion for Split Federated Learning on Heterogeneous Data

@@ -3,7 +3,10 @@ description: "【论文笔记】Linear Attention for Efficient Bidirectional Seq
 tags:
   - NeurIPS 2025
   - 注意力机制
+  - bidirectional modeling
+  - state space model
   - Transformer
+  - RNN
 ---
 
 # Linear Attention for Efficient Bidirectional Sequence Modeling

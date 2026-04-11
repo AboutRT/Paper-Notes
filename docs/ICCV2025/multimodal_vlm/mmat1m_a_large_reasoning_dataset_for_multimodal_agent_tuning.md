@@ -3,6 +3,10 @@ description: "【论文笔记】MMAT-1M: A Large Reasoning Dataset for Multimoda
 tags:
   - ICCV 2025
   - 多模态
+  - chain-of-thought
+  - reflection
+  - tool usage
+  - reasoning dataset
 ---
 
 # MMAT-1M: A Large Reasoning Dataset for Multimodal Agent Tuning

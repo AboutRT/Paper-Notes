@@ -3,6 +3,10 @@ description: "【论文笔记】Pluggable Pruning with Contiguous Layer Distilla
 tags:
   - CVPR 2026
   - Transformer
+  - MMDiT 压缩
+  - 连续层蒸馏
+  - 即插即用推理
+  - 结构化剪枝
 ---
 
 # Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers

@@ -3,6 +3,7 @@ description: "【论文笔记】Redundant Queries in DETR-Based 3D Detection: Un
 tags:
   - AAAI 2026
   - 目标检测
+  - DETR
   - 剪枝
   - 模型压缩
   - 自动驾驶

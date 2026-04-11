@@ -3,6 +3,9 @@ description: "【论文笔记】On the Possible Detectability of Image-in-Image 
 tags:
   - CVPR 2026
   - GAN
+  - ICA
+  - Wavelet
+  - Invertible Neural Networks
 ---
 
 # On the Possible Detectability of Image-in-Image Steganography

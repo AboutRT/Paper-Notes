@@ -3,6 +3,10 @@ description: "【论文笔记】Error as Signal: Stiffness-Aware Diffusion Sampl
 tags:
   - ICLR2026
   - 扩散模型
+  - stiffness
+  - local truncation error
+  - embedded Runge-Kutta
+  - guidance
 ---
 
 # Error as Signal: Stiffness-Aware Diffusion Sampling via Embedded Runge-Kutta Guidance

@@ -3,6 +3,12 @@ description: "【论文笔记】Diffusion Model as a Noise-Aware Latent Reward M
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - preference optimization
+  - reward model
+  - latent space
+  - step-level
+  - noise-aware
+  - DPO
 ---
 
 # Diffusion Model as a Noise-Aware Latent Reward Model for Step-Level Preference Optimization

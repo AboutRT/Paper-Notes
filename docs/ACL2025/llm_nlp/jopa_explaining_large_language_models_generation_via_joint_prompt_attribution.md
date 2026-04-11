@@ -3,6 +3,10 @@ description: "【论文笔记】JoPA: Explaining Large Language Model's Generati
 tags:
   - ACL 2025
   - 提示学习
+  - interpretability
+  - counterfactual
+  - combinatorial optimization
+  - generation explanation
 ---
 
 # JoPA: Explaining Large Language Model's Generation via Joint Prompt Attribution

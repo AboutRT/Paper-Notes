@@ -4,6 +4,8 @@ tags:
   - ECCV 2024
   - 图像分割
   - 多模态
+  - SAM
+  - 视频推理
 ---
 
 # VISA: Reasoning Video Object Segmentation via Large Language Models

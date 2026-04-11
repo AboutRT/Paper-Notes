@@ -3,6 +3,9 @@ description: "【论文笔记】SANSA: Unleashing the Hidden Semantics in SAM2 f
 tags:
   - NeurIPS 2025
   - 图像分割
+  - SAM2
+  - 语义对齐
+  - 特征适配
   - 注意力机制
 ---
 

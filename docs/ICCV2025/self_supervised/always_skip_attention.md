@@ -3,6 +3,10 @@ description: "【论文笔记】Always Skip Attention 论文解读 | ICCV 2025 |
 tags:
   - ICCV 2025
   - 注意力机制
+  - skip connection
+  - condition number
+  - ill-conditioning
+  - token graying
   - Transformer
 ---
 

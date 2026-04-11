@@ -4,6 +4,9 @@ tags:
   - ACL 2025
   - 提示学习
   - 注意力机制
+  - information entropy
+  - task-agnostic
+  - long context
 ---
 
 # DAC: A Dynamic Attention-aware Approach for Task-Agnostic Prompt Compression

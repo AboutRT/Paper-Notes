@@ -3,6 +3,10 @@ description: "【论文笔记】The Coherence Trap: MLLM-Crafted Narratives Expl
 tags:
   - CVPR 2026
   - 多模态
+  - MLLM-driven disinformation
+  - semantic alignment
+  - deepfake grounding
+  - dataset
 ---
 
 # The Coherence Trap: MLLM-Crafted Narratives Exploit Manipulated Visual Contexts

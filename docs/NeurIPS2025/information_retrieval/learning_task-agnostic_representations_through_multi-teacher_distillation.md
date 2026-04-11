@@ -3,6 +3,10 @@ description: "【论文笔记】Learning Task-Agnostic Representations through M
 tags:
   - NeurIPS 2025
   - 知识蒸馏
+  - multi-teacher
+  - task-agnostic
+  - representation learning
+  - mutual information
 ---
 
 # Learning Task-Agnostic Representations through Multi-Teacher Distillation

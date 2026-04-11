@@ -3,6 +3,9 @@ description: "【论文笔记】EfficientQAT: Efficient Quantization-Aware Train
 tags:
   - ACL 2025
   - 量化
+  - LLM compression
+  - block-wise training
+  - step size
 ---
 
 # EfficientQAT: Efficient Quantization-Aware Training for Large Language Models

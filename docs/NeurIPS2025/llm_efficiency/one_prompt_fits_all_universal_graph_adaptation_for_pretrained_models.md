@@ -4,6 +4,9 @@ tags:
   - NeurIPS 2025
   - 提示学习
   - 图神经网络
+  - few-shot
+  - graph topology
+  - kNN graph
 ---
 
 # One Prompt Fits All: Universal Graph Adaptation for Pretrained Models

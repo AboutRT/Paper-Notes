@@ -3,6 +3,9 @@ description: "【论文笔记】Semantic Class Distribution Learning for Debiasi
 tags:
   - CVPR2025
   - 半监督学习
+  - class imbalance
+  - class-conditional distribution
+  - proxy learning
   - 图像分割
 ---
 

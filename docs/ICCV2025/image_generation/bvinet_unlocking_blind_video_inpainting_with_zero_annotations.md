@@ -3,7 +3,10 @@ description: "【论文笔记】BVINet: Unlocking Blind Video Inpainting with Ze
 tags:
   - ICCV 2025
   - 图像修复
+  - mask prediction
   - Transformer
+  - video completion
+  - consistency loss
 ---
 
 # BVINet: Unlocking Blind Video Inpainting with Zero Annotations

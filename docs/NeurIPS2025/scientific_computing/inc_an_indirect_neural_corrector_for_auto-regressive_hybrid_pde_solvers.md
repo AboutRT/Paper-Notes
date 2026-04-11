@@ -3,6 +3,10 @@ description: "【论文笔记】INC: An Indirect Neural Corrector for Auto-Regre
 tags:
   - NEURIPS2025
   - 偏微分方程
+  - 混合求解器
+  - 神经网络校正
+  - 自回归稳定性
+  - 间接校正
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

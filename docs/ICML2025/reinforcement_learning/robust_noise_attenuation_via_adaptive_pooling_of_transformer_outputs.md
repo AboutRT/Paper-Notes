@@ -3,6 +3,11 @@ description: "【论文笔记】Robust Noise Attenuation via Adaptive Pooling of
 tags:
   - ICML2025
   - Transformer
+  - 噪声鲁棒性
+  - 自适应池化
+  - 向量量化
+  - 注意力机制
+  - 强化学习
 ---
 
 # Robust Noise Attenuation via Adaptive Pooling of Transformer Outputs

@@ -3,6 +3,10 @@ description: "【论文笔记】AnyPcc: Compressing Any Point Cloud with a Singl
 tags:
   - CVPR 2026
   - 点云
+  - universal context model
+  - instance-adaptive fine-tuning
+  - occupancy code
+  - lossless/lossy compression
 ---
 
 # AnyPcc: Compressing Any Point Cloud with a Single Universal Model

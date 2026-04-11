@@ -3,6 +3,10 @@ description: "【论文笔记】From Black Hole to Galaxy: Neural Operator Frame
 tags:
   - NeurIPS 2025
   - 神经算子
+  - 黑洞吸积
+  - 多尺度模拟
+  - 子网格模型
+  - GRMHD
 ---
 
 # From Black Hole to Galaxy: Neural Operator Framework for Accretion and Feedback Dynamics

@@ -3,7 +3,10 @@ description: "【论文笔记】Counting in Small Transformers: The Delicate Int
 tags:
   - ICML2025
   - Transformer
+  - 计数任务
   - 注意力机制
+  - 嵌入正交性
+  - 机制可解释性
 ---
 
 # Counting in Small Transformers: The Delicate Interplay between Attention and Feed-Forward Layers

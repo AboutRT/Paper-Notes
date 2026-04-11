@@ -3,6 +3,10 @@ description: "【论文笔记】A Practical Guide for Incorporating Symmetry in 
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - 等变性
+  - SE(3)不变性
+  - Frame Averaging
+  - 机器人操作
 ---
 
 # A Practical Guide for Incorporating Symmetry in Diffusion Policy

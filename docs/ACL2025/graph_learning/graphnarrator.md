@@ -3,7 +3,10 @@ description: "【论文笔记】GraphNarrator: Generating Textual Explanations f
 tags:
   - ACL 2025 (Long Paper)
   - 图神经网络
+  - Natural Language Explanation
+  - Expert Iteration
   - 伪标签
+  - Text-Attributed Graph
 ---
 
 # GraphNarrator: Generating Textual Explanations for Graph Neural Networks

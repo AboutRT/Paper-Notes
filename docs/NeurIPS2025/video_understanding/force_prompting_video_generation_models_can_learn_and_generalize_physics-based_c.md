@@ -3,6 +3,10 @@ description: "【论文笔记】Force Prompting: Video Generation Models Can Lea
 tags:
   - NeurIPS 2025
   - 提示学习
+  - video generation
+  - physics control
+  - sim2real
+  - CogVideoX
 ---
 
 # Force Prompting: Video Generation Models Can Learn and Generalize Physics-based Control Signals

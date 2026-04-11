@@ -4,6 +4,9 @@ tags:
   - ICML 2025
   - 提示学习
   - 视觉语言
+  - 混合模型
+  - 类别混淆
+  - 泛化-专精平衡
 ---
 
 # CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization

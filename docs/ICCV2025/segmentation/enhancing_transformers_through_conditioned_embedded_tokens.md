@@ -3,6 +3,10 @@ description: "【论文笔记】Enhancing Transformers Through Conditioned Embed
 tags:
   - ICCV 2025
   - Transformer
+  - 条件数
+  - 自注意力
+  - 嵌入令牌
+  - 优化稳定性
 ---
 
 # Enhancing Transformers Through Conditioned Embedded Tokens

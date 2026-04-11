@@ -3,7 +3,11 @@ description: "【论文笔记】GGPT: Geometry Grounded Point Transformer 论文
 tags:
   - CVPR 2026
   - 3D重建
+  - sparse-view
   - Transformer
+  - multi-view geometry
+  - feed-forward
+  - SfM
 ---
 
 # GGPT: Geometry Grounded Point Transformer

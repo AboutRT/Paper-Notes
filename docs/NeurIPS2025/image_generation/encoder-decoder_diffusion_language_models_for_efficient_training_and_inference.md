@@ -3,6 +3,9 @@ description: "【论文笔记】Encoder-Decoder Diffusion Language Models for Ef
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - encoder-decoder
+  - language model
+  - KV caching
 ---
 
 # Encoder-Decoder Diffusion Language Models for Efficient Training and Inference

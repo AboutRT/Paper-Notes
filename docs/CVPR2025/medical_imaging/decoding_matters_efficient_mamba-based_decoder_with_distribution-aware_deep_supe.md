@@ -3,6 +3,10 @@ description: "【论文笔记】Decoding Matters: Efficient Mamba-Based Decoder 
 tags:
   - CVPR 2025
   - 图像分割
+  - Mamba
+  - decoder-centric
+  - deep supervision
+  - KL-divergence
 ---
 
 # Decoding Matters: Efficient Mamba-Based Decoder with Distribution-Aware Deep Supervision for Medical Image Segmentation

@@ -3,6 +3,11 @@ description: "【论文笔记】Understanding and Mitigating Memorization in Gen
 tags:
   - ICML2025
   - 扩散模型
+  - memorization
+  - sharpness
+  - Hessian
+  - score function
+  - privacy
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -3,6 +3,10 @@ description: "【论文笔记】AbbIE: Autoregressive Block-Based Iterative Enco
 tags:
   - NeurIPS 2025
   - Transformer
+  - iterative encoder
+  - test-time scaling
+  - fixed point
+  - upward generalization
 ---
 
 # AbbIE: Autoregressive Block-Based Iterative Encoder for Efficient Sequence Modeling

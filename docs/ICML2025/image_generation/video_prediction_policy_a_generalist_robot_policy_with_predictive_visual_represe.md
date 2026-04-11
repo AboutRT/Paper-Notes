@@ -3,6 +3,10 @@ description: "【论文笔记】Video Prediction Policy: A Generalist Robot Poli
 tags:
   - ICML 2025 (Spotlight)
   - 扩散模型
+  - Predictive Visual Representation
+  - Inverse Dynamics
+  - Robot Manipulation
+  - Generalist Policy
 ---
 
 # Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations

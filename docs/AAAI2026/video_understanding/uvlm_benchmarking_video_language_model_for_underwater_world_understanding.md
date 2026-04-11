@@ -3,6 +3,10 @@ description: "【论文笔记】UVLM: Benchmarking Video Language Model for Unde
 tags:
   - AAAI2026
   - 视频理解
+  - video-language model
+  - benchmark
+  - marine biology
+  - fine-grained recognition
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

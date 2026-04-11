@@ -3,7 +3,10 @@ description: "【论文笔记】FedAFD: Multimodal Federated Learning via Advers
 tags:
   - CVPR 2026
   - 联邦学习
+  - Adversarial Alignment
+  - Feature Fusion
   - 知识蒸馏
+  - Model Heterogeneity
 ---
 
 # FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation

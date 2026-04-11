@@ -3,6 +3,9 @@ description: "【论文笔记】Approaching Outside: Scaling Unsupervised 3D Obj
 tags:
   - ECCV2024
   - 目标检测
+  - LiDAR-Camera Fusion
+  - Self-paced Learning
+  - Pseudo Labels
 ---
 
 # Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene

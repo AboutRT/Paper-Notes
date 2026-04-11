@@ -3,7 +3,10 @@ description: "【论文笔记】Rectifying Magnitude Neglect in Linear Attention
 tags:
   - ICCV 2025
   - 注意力机制
+  - Magnitude-Aware
   - Transformer
+  - 注意力分数分布
+  - 线性复杂度
 ---
 
 # Rectifying Magnitude Neglect in Linear Attention

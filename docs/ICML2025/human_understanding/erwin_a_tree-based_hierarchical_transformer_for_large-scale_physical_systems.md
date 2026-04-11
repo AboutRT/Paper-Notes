@@ -3,6 +3,10 @@ description: "【论文笔记】Erwin: A Tree-based Hierarchical Transformer for
 tags:
   - ICML 2025
   - Transformer
+  - Ball Tree
+  - 线性注意力
+  - 大规模物理系统
+  - 多尺度建模
 ---
 
 # Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems

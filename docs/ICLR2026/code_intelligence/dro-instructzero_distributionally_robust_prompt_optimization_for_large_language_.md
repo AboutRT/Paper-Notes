@@ -3,6 +3,10 @@ description: "【论文笔记】DRO-InstructZero: Distributionally Robust Prompt
 tags:
   - ICLR 2026
   - 提示学习
+  - distributionally robust optimization
+  - Bayesian optimization
+  - instruction tuning
+  - zero-shot learning
 ---
 
 # DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models

@@ -4,6 +4,9 @@ tags:
   - AAAI2026
   - 自动驾驶
   - 扩散模型
+  - GRPO
+  - Motion Planning
+  - Driving Preferences
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

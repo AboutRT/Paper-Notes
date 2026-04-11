@@ -3,6 +3,10 @@ description: "【论文笔记】Capacity Matters: A Proof-of-Concept for Transfo
 tags:
   - ACL 2025 (L2M2 Workshop)
   - Transformer
+  - 知识图谱
+  - 嵌入维度
+  - 激活函数
+  - 边缘部署
 ---
 
 # Capacity Matters: A Proof-of-Concept for Transformer Memorization on Real-World Data

@@ -3,7 +3,10 @@ description: "【论文笔记】VisFocus: Prompt-Guided Vision Encoders for OCR-
 tags:
   - ECCV 2024
   - OCR
+  - 文档理解
+  - 提示感知视觉编码
   - Transformer
+  - 视觉-语言交互
 ---
 
 # VisFocus: Prompt-Guided Vision Encoders for OCR-Free Dense Document Understanding

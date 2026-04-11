@@ -3,6 +3,10 @@ description: "【论文笔记】VGEnt: Graph-Based Retrieval-Reasoning-Augmented
 tags:
   - NeurIPS 2025
   - 视频理解
+  - graph RAG
+  - structured reasoning
+  - retrieval-augmented generation
+  - video language model
 ---
 
 # VGEnt: Graph-Based Retrieval-Reasoning-Augmented Generation for Long Video Understanding

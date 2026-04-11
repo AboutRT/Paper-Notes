@@ -3,6 +3,11 @@ description: "【论文笔记】Logical Characterizations of GNNs with Mean Aggr
 tags:
   - AAAI 2026
   - 图神经网络
+  - 均值聚合
+  - 模态逻辑
+  - 比率模态逻辑
+  - 交替无关模态逻辑
+  - 非一致性/一致性设定
 ---
 
 # Logical Characterizations of GNNs with Mean Aggregation

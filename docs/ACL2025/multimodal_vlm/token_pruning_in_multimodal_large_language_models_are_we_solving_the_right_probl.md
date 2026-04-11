@@ -3,6 +3,10 @@ description: "【论文笔记】Token Pruning in Multimodal Large Language Model
 tags:
   - ACL 2025
   - 剪枝
+  - 多模态大模型
+  - 视觉token压缩
+  - 注意力偏差
+  - 推理加速
 ---
 
 # Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?

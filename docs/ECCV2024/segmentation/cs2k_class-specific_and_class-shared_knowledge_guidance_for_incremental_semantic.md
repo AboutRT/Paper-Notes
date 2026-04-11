@@ -3,6 +3,10 @@ description: "【论文笔记】Cs2K: Class-Specific and Class-Shared Knowledge 
 tags:
   - ECCV2024
   - 图像分割
+  - Class-specific Knowledge
+  - Class-shared Knowledge
+  - Prototype
+  - Catastrophic Forgetting
 ---
 
 # Cs2K: Class-Specific and Class-Shared Knowledge Guidance for Incremental Semantic Segmentation

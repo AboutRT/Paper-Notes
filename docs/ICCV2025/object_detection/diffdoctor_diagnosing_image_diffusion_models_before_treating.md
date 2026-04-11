@@ -3,6 +3,10 @@ description: "【论文笔记】DiffDoctor: Diagnosing Image Diffusion Models Be
 tags:
   - ICCV 2025
   - 扩散模型
+  - Artifact Detection
+  - 像素级反馈
+  - 图像质量
+  - 模型微调
 ---
 
 # DiffDoctor: Diagnosing Image Diffusion Models Before Treating

@@ -3,6 +3,10 @@ description: "【论文笔记】6DOPE-GS: Online 6D Object Pose Estimation using
 tags:
   - ICCV 2025
   - 位姿估计
+  - Gaussian Splatting
+  - Online Tracking
+  - Model-Free
+  - RGB-D
 ---
 
 # 6DOPE-GS: Online 6D Object Pose Estimation using Gaussian Splatting

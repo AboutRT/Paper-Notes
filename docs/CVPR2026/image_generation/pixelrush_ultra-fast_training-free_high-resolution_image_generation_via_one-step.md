@@ -3,7 +3,9 @@ description: "【论文笔记】PixelRush: Ultra-Fast, Training-Free High-Resolu
 tags:
   - CVPR 2026
   - 图像生成
+  - training-free
   - 扩散模型
+  - patch-based inference
 ---
 
 # PixelRush: Ultra-Fast, Training-Free High-Resolution Image Generation via One-step Diffusion

@@ -3,7 +3,10 @@ description: "【论文笔记】SemiTooth: a Generalizable Semi-supervised Frame
 tags:
   - CVPR2025
   - 半监督学习
+  - multi-source
   - 图像分割
+  - CBCT
+  - multi-teacher-student
 ---
 
 # SemiTooth: a Generalizable Semi-supervised Framework for Multi-Source Tooth Segmentation

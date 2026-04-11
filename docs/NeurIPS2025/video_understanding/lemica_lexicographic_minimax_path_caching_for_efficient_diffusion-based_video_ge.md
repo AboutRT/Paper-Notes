@@ -3,6 +3,10 @@ description: "【论文笔记】LeMiCa: Lexicographic Minimax Path Caching for E
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - video generation
+  - caching
+  - DAG optimization
+  - lexicographic minimax
 ---
 
 # LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation

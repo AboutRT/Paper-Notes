@@ -3,6 +3,10 @@ description: "【论文笔记】FCMR: Robust Evaluation of Financial Cross-Modal
 tags:
   - ACL 2025
   - 跨模态
+  - Multi-Hop QA
+  - Financial NLP
+  - Benchmark
+  - MLLM Evaluation
 ---
 
 # FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning

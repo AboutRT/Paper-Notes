@@ -3,6 +3,9 @@ description: "【论文笔记】Developing Foundation Models for Universal Segme
 tags:
   - CVPR 2026
   - 图像分割
+  - foundation model
+  - 3D architecture
+  - universal model
 ---
 
 # Developing Foundation Models for Universal Segmentation from 3D Whole-Body Positron Emission Tomography

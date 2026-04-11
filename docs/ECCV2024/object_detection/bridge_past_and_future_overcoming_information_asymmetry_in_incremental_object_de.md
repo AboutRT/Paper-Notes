@@ -4,6 +4,8 @@ tags:
   - ECCV2024
   - 目标检测
   - 知识蒸馏
+  - information asymmetry
+  - catastrophic forgetting
   - 伪标签
 ---
 

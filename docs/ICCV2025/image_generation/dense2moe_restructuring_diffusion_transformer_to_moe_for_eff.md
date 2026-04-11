@@ -3,6 +3,10 @@ description: "【论文笔记】Dense2MoE: Restructuring Diffusion Transformer t
 tags:
   - ICCV 2025
   - Transformer
+  - Mixture of Experts
+  - 结构化稀疏
+  - FLUX
+  - dense-to-sparse转换
 ---
 
 # Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation

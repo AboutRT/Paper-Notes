@@ -3,6 +3,10 @@ description: "【论文笔记】CombatVLA: An Efficient Vision-Language-Action M
 tags:
   - ICCV 2025
   - 视觉语言
+  - 3D游戏
+  - 实时决策
+  - Action-of-Thought
+  - 高效推理
 ---
 
 # CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games

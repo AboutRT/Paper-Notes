@@ -3,6 +3,10 @@ description: "【论文笔记】ProCache: Constraint-Aware Feature Caching with 
 tags:
   - AAAI 2026
   - Transformer
+  - 特征缓存
+  - 免训练推理
+  - 动态调度
+  - Token选择
 ---
 
 # ProCache: Constraint-Aware Feature Caching with Selective Computation for Diffusion Transformer Acceleration

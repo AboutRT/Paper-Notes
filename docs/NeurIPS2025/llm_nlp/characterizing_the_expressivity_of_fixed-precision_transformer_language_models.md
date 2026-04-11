@@ -3,6 +3,10 @@ description: "【论文笔记】Characterizing the Expressivity of Fixed-Precisi
 tags:
   - NeurIPS 2025
   - Transformer
+  - formal language theory
+  - linear temporal logic
+  - fixed precision
+  - length generalization
 ---
 
 # Characterizing the Expressivity of Fixed-Precision Transformer Language Models

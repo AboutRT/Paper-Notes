@@ -4,6 +4,8 @@ tags:
   - CVPR2026
   - 量化
   - 视觉语言
+  - Mixture of Experts
+  - Low-Rank Adaptation
 ---
 
 # Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization

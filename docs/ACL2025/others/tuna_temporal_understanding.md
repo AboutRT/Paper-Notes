@@ -3,6 +3,10 @@ description: "【论文笔记】Tuna: Comprehensive Fine-grained Temporal Unders
 tags:
   - ACL 2025
   - 视频理解
+  - temporal dynamics
+  - benchmark
+  - video captioning
+  - video QA
 ---
 
 # Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos

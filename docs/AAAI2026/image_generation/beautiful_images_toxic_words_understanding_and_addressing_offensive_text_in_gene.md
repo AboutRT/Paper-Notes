@@ -3,6 +3,10 @@ description: "【论文笔记】Beautiful Images, Toxic Words: Understanding and
 tags:
   - AAAI2026
   - 扩散模型
+  - NSFW Safety
+  - Text-in-Image
+  - Safety Fine-tuning
+  - Benchmark
 ---
 
 # Beautiful Images, Toxic Words: Understanding and Addressing Offensive Text in Generated Images

@@ -3,6 +3,10 @@ description: "【论文笔记】CPM: Class-Conditional Prompting Machine for Aud
 tags:
   - ECCV 2024
   - 图像分割
+  - 类条件提示
+  - 二部图匹配
+  - Mask2Former
+  - 对比学习
 ---
 
 # CPM: Class-Conditional Prompting Machine for Audio-Visual Segmentation

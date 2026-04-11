@@ -3,6 +3,10 @@ description: "【论文笔记】Random Wins All: Rethinking Grouping Strategies 
 tags:
   - CVPR 2026
   - Transformer
+  - Token分组
+  - 随机分组
+  - 注意力机制
+  - 效率优化
 ---
 
 # Random Wins All: Rethinking Grouping Strategies for Vision Tokens

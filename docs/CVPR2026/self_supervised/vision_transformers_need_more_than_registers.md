@@ -3,6 +3,10 @@ description: "【论文笔记】Vision Transformers Need More Than Registers 论
 tags:
   - CVPR 2026
   - Transformer
+  - Lazy Aggregation
+  - Register Token
+  - DINO
+  - Dense Feature Alignment
 ---
 
 # Vision Transformers Need More Than Registers

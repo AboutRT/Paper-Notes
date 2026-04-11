@@ -4,6 +4,9 @@ tags:
   - ICML 2025
   - 偏微分方程
   - Transformer
+  - 物理模拟代理模型
+  - 基础模型预训练
+  - 多尺度注意力
 ---
 
 # PDE-Transformer: Efficient and Versatile Transformers for Physics Simulations

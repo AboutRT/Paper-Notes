@@ -3,6 +3,10 @@ description: "【论文笔记】VITA-1.5: Towards GPT-4o Level Real-Time Vision 
 tags:
   - NeurIPS 2025
   - 多模态
+  - vision-speech interaction
+  - end-to-end speech
+  - three-stage training
+  - omni model
 ---
 
 # VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction

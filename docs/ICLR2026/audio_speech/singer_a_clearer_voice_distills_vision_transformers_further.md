@@ -3,6 +3,10 @@ description: "【论文笔记】SiNGER: A Clearer Voice Distills Vision Transfor
 tags:
   - ICLR 2026
   - Transformer
+  - 知识蒸馏
+  - 高范数伪影
+  - 零空间引导
+  - LoRA适配器
 ---
 
 # SiNGER: A Clearer Voice Distills Vision Transformers Further

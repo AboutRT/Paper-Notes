@@ -3,6 +3,10 @@ description: "【论文笔记】Boosting Vision Semantic Density with Anatomy No
 tags:
   - ICCV 2025
   - 视觉语言
+  - semantic density
+  - anatomy normality
+  - VQ-VAE
+  - zero-shot diagnosis
 ---
 
 # Boosting Vision Semantic Density with Anatomy Normality Modeling for Medical Vision-language Pre-training

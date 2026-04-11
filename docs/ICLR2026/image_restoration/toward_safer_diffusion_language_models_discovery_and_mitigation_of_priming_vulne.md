@@ -3,6 +3,9 @@ description: "【论文笔记】Toward Safer Diffusion Language Models: Discover
 tags:
   - ICLR 2026
   - 扩散模型
+  - jailbreak attacks
+  - priming vulnerability
+  - safety alignment
 ---
 
 # Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerabilities

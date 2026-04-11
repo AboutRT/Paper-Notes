@@ -3,6 +3,9 @@ description: "【论文笔记】Language in the Flow of Time: Time-Series-Paired
 tags:
   - ICLR2026
   - 多模态
+  - text-augmented forecasting
+  - Chronological Textual Resonance
+  - plug-and-play framework
 ---
 
 # Language in the Flow of Time: Time-Series-Paired Texts Weaved into a Unified Temporal Narrative

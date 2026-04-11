@@ -3,6 +3,10 @@ description: "【论文笔记】ES-dLLM: Efficient Inference for Diffusion Large
 tags:
   - ICLR2026
   - 扩散模型
+  - Inference Acceleration
+  - Token Skipping
+  - KV Cache
+  - Training-free
 ---
 
 # ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping

@@ -3,7 +3,10 @@ description: "【论文笔记】Co-LoRA: Collaborative Model Personalization on 
 tags:
   - ICLR2026
   - 联邦学习
+  - LoRA
+  - model heterogeneity
   - 多模态
+  - knowledge sharing
 ---
 
 # Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients

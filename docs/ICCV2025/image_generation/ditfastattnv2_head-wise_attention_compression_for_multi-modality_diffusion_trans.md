@@ -3,6 +3,10 @@ description: "【论文笔记】DiTFastAttnV2: Head-wise Attention Compression f
 tags:
   - ICCV 2025
   - Transformer
+  - 注意力压缩
+  - MMDiT
+  - 稀疏注意力
+  - 推理加速
 ---
 
 # DiTFastAttnV2: Head-wise Attention Compression for Multi-Modality Diffusion Transformers

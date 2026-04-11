@@ -3,6 +3,10 @@ description: "【论文笔记】Layer-wise Update Aggregation with Recycling for
 tags:
   - NeurIPS 2025
   - 联邦学习
+  - communication efficiency
+  - gradient recycling
+  - layer-wise aggregation
+  - non-IID
 ---
 
 # Layer-wise Update Aggregation with Recycling for Communication-Efficient Federated Learning

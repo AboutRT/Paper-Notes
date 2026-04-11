@@ -3,6 +3,10 @@ description: "【论文笔记】Improving Discrete Diffusion Unmasking Policies 
 tags:
   - ICLR 2026
   - 扩散模型
+  - Unmasking Policy
+  - 强化学习
+  - KL-正则化MDP
+  - GRPO
 ---
 
 # Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)

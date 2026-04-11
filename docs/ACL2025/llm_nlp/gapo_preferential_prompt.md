@@ -4,6 +4,9 @@ tags:
   - ACL 2025 (Long Paper)
   - 提示学习
   - GAN
+  - PPO
+  - Encoder-only Reward Model
+  - 约束遵循
 ---
 
 # GAPO: Learning Preferential Prompt through Generative Adversarial Policy Optimization

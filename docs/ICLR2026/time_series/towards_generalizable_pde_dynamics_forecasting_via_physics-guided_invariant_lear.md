@@ -3,6 +3,10 @@ description: "【论文笔记】Towards Generalizable PDE Dynamics Forecasting v
 tags:
   - ICLR 2026
   - 偏微分方程
+  - OOD泛化
+  - 不变学习
+  - 算子专家混合
+  - 物理引导
 ---
 
 # Towards Generalizable PDE Dynamics Forecasting via Physics-Guided Invariant Learning

@@ -3,6 +3,10 @@ description: "【论文笔记】Stopping Computation for Converged Tokens in Mas
 tags:
   - ICLR 2026
   - 扩散模型
+  - 推理加速
+  - Token Locking
+  - KL散度
+  - KV Cache
 ---
 
 # Stopping Computation for Converged Tokens in Masked Diffusion-LM Decoding

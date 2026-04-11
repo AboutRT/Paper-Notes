@@ -3,6 +3,10 @@ description: "【论文笔记】Enhancing Graph Classification Robustness with S
 tags:
   - NeurIPS 2025
   - 图神经网络
+  - graph classification
+  - pooling
+  - adversarial attacks
+  - singular value decomposition
 ---
 
 # Enhancing Graph Classification Robustness with Singular Pooling

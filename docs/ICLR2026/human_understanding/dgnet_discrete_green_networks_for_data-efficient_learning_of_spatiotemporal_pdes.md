@@ -3,6 +3,10 @@ description: "【论文笔记】DGNet: Discrete Green Networks for Data-Efficien
 tags:
   - ICLR 2026
   - 偏微分方程
+  - Green函数
+  - 图神经网络
+  - 数据高效学习
+  - 时空偏微分方程
 ---
 
 # DGNet: Discrete Green Networks for Data-Efficient Learning of Spatiotemporal PDEs

@@ -3,6 +3,9 @@ description: "【论文笔记】Factuality Matters: When Image Generation and Ed
 tags:
   - ICLR2026
   - 图像生成
+  - image editing
+  - chain-of-thought reasoning
+  - benchmark
   - Transformer
 ---
 

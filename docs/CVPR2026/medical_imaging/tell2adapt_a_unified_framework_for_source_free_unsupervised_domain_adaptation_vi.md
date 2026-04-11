@@ -3,7 +3,9 @@ description: "【论文笔记】Tell2Adapt: A Unified Framework for Source Free 
 tags:
   - CVPR 2026
   - 域适应
+  - vision foundation model
   - 图像分割
+  - pseudo label
   - 提示学习
 ---
 

@@ -3,6 +3,12 @@ description: "【论文笔记】Hardware-aligned Hierarchical Sparse Attention f
 tags:
   - NEURIPS2025
   - 注意力机制
+  - RNN
+  - Mamba
+  - long-context
+  - length generalization
+  - chunk selection
+  - hardware-aligned kernel
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

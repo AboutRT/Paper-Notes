@@ -3,6 +3,10 @@ description: "【论文笔记】AutoVLA: A Vision-Language-Action Model for End-
 tags:
   - NeurIPS 2025
   - 视觉语言
+  - 端到端驾驶
+  - 自适应推理
+  - GRPO强化微调
+  - Action Tokenization
 ---
 
 # AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning

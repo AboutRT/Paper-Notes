@@ -4,6 +4,8 @@ tags:
   - AAAI2026
   - 目标检测
   - 去噪
+  - uncertainty estimation
+  - DETR
   - 自动驾驶
 ---
 

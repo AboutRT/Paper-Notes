@@ -3,6 +3,10 @@ description: "【论文笔记】3D Gaussian Inpainting with Depth-Guided Cross-V
 tags:
   - CVPR 2025
   - 图像修复
+  - Object Removal
+  - Cross-View Consistency
+  - Depth-Guided Mask
+  - 3DGS
 ---
 
 # 3D Gaussian Inpainting with Depth-Guided Cross-View Consistency

@@ -3,6 +3,10 @@ description: "【论文笔记】CRIT: Graph-Based Automatic Data Synthesis to En
 tags:
   - CVPR 2026
   - 跨模态
+  - Multi-Hop Reasoning
+  - Data Synthesis
+  - Graph-Based Pipeline
+  - VLM Benchmark
 ---
 
 # CRIT: Graph-Based Automatic Data Synthesis to Enhance Cross-Modal Multi-Hop Reasoning

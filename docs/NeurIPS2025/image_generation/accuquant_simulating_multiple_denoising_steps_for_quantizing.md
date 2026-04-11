@@ -4,6 +4,9 @@ tags:
   - NeurIPS 2025
   - 量化
   - 扩散模型
+  - error accumulation
+  - multi-step simulation
+  - memory efficiency
 ---
 
 # AccuQuant: Simulating Multiple Denoising Steps for Quantizing Diffusion Models

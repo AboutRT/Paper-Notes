@@ -3,6 +3,10 @@ description: "【论文笔记】FEDTAIL: Federated Long-Tailed Domain Generaliza
 tags:
   - ICML 2025
   - 联邦学习
+  - Domain Generalization
+  - Long-Tailed
+  - Sharpness-Aware Minimization
+  - Gradient Coherence
 ---
 
 # FEDTAIL: Federated Long-Tailed Domain Generalization with Sharpness-Guided Gradient Matching

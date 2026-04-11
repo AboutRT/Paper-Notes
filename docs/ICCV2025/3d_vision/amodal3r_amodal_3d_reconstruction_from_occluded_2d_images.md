@@ -3,8 +3,10 @@ description: "【论文笔记】Amodal3R: Amodal 3D Reconstruction from Occluded
 tags:
   - ICCV 2025
   - 3D重建
+  - Occlusion-aware
   - 扩散模型
   - 注意力机制
+  - TRELLIS
 ---
 
 # Amodal3R: Amodal 3D Reconstruction from Occluded 2D Images

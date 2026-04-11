@@ -3,6 +3,10 @@ description: "【论文笔记】Benchmarking Retrieval-Augmented Multimodal Gene
 tags:
   - NeurIPS 2025
   - OCR
+  - 多模态问答
+  - Quote Selection
+  - 交错图文生成
+  - Benchmark
 ---
 
 # Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering

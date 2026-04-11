@@ -3,6 +3,9 @@ description: "【论文笔记】VIRD: View-Invariant Representation through Dual
 tags:
   - CVPR2025
   - 位姿估计
+  - geo-localization
+  - view-invariant representation
+  - polar transformation
   - 注意力机制
 ---
 

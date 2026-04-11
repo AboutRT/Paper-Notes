@@ -3,6 +3,10 @@ description: "【论文笔记】ActionVOS: Actions as Prompts for Video Object S
 tags:
   - ECCV 2024
   - 图像分割
+  - 动作提示
+  - 主动物体分割
+  - 第一人称视觉
+  - 伪标签
 ---
 
 # ActionVOS: Actions as Prompts for Video Object Segmentation

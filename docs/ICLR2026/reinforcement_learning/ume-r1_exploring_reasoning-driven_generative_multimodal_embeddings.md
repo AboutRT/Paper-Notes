@@ -3,7 +3,10 @@ description: "【论文笔记】UME-R1: Exploring Reasoning-Driven Generative Mu
 tags:
   - ICLR 2026
   - 多模态
+  - reasoning-driven generation
   - 强化学习
+  - MLLM
+  - inference-time scaling
 ---
 
 # UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings

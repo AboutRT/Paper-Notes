@@ -3,7 +3,11 @@ description: "【论文笔记】UTPTrack: Towards Simple and Unified Token Pruni
 tags:
   - CVPR2026
   - 剪枝
+  - visual object tracking
   - Transformer
+  - 多模态跟踪
+  - 统一跟踪
+  - 注意力引导剪枝
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

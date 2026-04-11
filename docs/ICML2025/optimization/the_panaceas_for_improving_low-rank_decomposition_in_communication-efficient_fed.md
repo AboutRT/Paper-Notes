@@ -3,6 +3,10 @@ description: "【论文笔记】The Panaceas for Improving Low-Rank Decompositio
 tags:
   - ICML2025
   - 联邦学习
+  - low-rank decomposition
+  - communication efficiency
+  - Kronecker decomposition
+  - model aggregation
 ---
 
 # The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient Federated Learning

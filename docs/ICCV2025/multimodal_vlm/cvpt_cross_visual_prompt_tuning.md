@@ -4,6 +4,9 @@ tags:
   - ICCV2025
   - 提示学习
   - 注意力机制
+  - PEFT
+  - Parameter-Efficient Fine-Tuning
+  - Weight Sharing
 ---
 
 # CVPT: Cross Visual Prompt Tuning

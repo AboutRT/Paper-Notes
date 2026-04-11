@@ -3,6 +3,10 @@ description: "【论文笔记】HiAP: A Multi-Granular Stochastic Auto-Pruning F
 tags:
   - CVPR 2025
   - Transformer
+  - 结构化剪枝
+  - Gumbel-Sigmoid
+  - 多粒度
+  - 自动架构搜索
 ---
 
 # HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers

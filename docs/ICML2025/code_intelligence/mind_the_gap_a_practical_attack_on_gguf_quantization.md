@@ -3,6 +3,10 @@ description: "【论文笔记】Mind the Gap: A Practical Attack on GGUF Quantiz
 tags:
   - ICML 2025
   - 量化
+  - GGUF
+  - llama.cpp
+  - model security
+  - backdoor
 ---
 
 # Mind the Gap: A Practical Attack on GGUF Quantization

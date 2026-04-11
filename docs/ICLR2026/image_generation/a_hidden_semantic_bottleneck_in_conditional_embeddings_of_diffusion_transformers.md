@@ -3,6 +3,10 @@ description: "【论文笔记】A Hidden Semantic Bottleneck in Conditional Embe
 tags:
   - ICLR 2026
   - Transformer
+  - conditioning
+  - embedding sparsity
+  - cosine similarity
+  - AdaLN
 ---
 
 # A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers

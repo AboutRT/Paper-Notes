@@ -3,6 +3,10 @@ description: "【论文笔记】Resource-Adaptive Federated Text Generation with
 tags:
   - ICLR2026
   - 联邦学习
+  - Differential Privacy
+  - Synthetic Text Generation
+  - Computational Heterogeneity
+  - Control Code
 ---
 
 # Resource-Adaptive Federated Text Generation with Differential Privacy

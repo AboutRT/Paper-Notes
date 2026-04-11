@@ -4,6 +4,9 @@ tags:
   - AAAI2026
   - 自动驾驶
   - 扩散模型
+  - trajectory planning
+  - coarse-to-fine
+  - semantic interaction
 ---
 
 # DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving

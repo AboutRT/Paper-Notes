@@ -3,7 +3,10 @@ description: "【论文笔记】DiT-IC: Aligned Diffusion Transformer for Effici
 tags:
   - CVPR 2026
   - Transformer
+  - image compression
   - 扩散模型
+  - flow matching
+  - latent alignment
 ---
 
 # DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression

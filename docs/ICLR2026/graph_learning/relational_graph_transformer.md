@@ -3,6 +3,10 @@ description: "【论文笔记】Relational Graph Transformer 论文解读 | ICLR
 tags:
   - ICLR 2026
   - Transformer
+  - 关系型深度学习
+  - 多元素Token化
+  - 异构时序图
+  - 位置编码
 ---
 
 # Relational Graph Transformer

@@ -3,6 +3,9 @@ description: "【论文笔记】Broadband Ground Motion Synthesis by Diffusion M
 tags:
   - ICML2025
   - 扩散模型
+  - seismic waveform
+  - ground motion synthesis
+  - paired data
 ---
 
 # Broadband Ground Motion Synthesis by Diffusion Model with Minimal Condition

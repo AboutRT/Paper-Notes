@@ -3,6 +3,10 @@ description: "【论文笔记】The Counting Power of Transformers 论文解读 
 tags:
   - ICLR 2026
   - Transformer
+  - 计数性质
+  - 半代数性质
+  - 不可判定性
+  - 形式语言
 ---
 
 # The Counting Power of Transformers

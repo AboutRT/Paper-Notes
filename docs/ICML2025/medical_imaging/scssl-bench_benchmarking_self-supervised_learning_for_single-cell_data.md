@@ -3,6 +3,9 @@ description: "【论文笔记】scSSL-Bench: Benchmarking Self-Supervised Learni
 tags:
   - ICML2025
   - 自监督学习
+  - single-cell genomics
+  - benchmark
+  - batch correction
   - 对比学习
 ---
 

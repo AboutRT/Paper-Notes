@@ -4,6 +4,9 @@ tags:
   - NeurIPS 2025
   - Transformer
   - 注意力机制
+  - jet tagging
+  - interaction matrix
+  - high-energy physics
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

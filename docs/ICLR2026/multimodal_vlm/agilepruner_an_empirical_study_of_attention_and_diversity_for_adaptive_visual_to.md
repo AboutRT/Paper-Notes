@@ -4,6 +4,8 @@ tags:
   - ICLR 2026
   - 剪枝
   - 注意力机制
+  - diversity
+  - hallucination
 ---
 
 # AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in LVLMs

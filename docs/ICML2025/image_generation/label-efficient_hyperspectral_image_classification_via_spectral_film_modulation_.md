@@ -3,6 +3,10 @@ description: "【论文笔记】Label-Efficient Hyperspectral Image Classificati
 tags:
   - ICML2025
   - 扩散模型
+  - Hyperspectral Imaging
+  - Remote Sensing
+  - Label-Efficient Learning
+  - FiLM Modulation
 ---
 
 # Label-Efficient Hyperspectral Image Classification via Spectral FiLM Modulation of Low-Level Pretrained Diffusion Features

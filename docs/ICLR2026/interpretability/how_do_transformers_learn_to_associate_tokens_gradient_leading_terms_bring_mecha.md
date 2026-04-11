@@ -3,6 +3,10 @@ description: "【论文笔记】How Do Transformers Learn to Associate Tokens: G
 tags:
   - ICLR 2026
   - Transformer
+  - 训练动态
+  - 梯度前导项
+  - 语义关联
+  - 闭式权重表达
 ---
 
 # How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding

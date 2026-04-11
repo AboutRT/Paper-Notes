@@ -3,6 +3,10 @@ description: "【论文笔记】TransMamba: A Sequence-Level Hybrid Transformer-
 tags:
   - AAAI 2026
   - Transformer
+  - Mamba
+  - SSM
+  - 混合架构
+  - 序列建模
 ---
 
 # TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model

@@ -3,6 +3,10 @@ description: "【论文笔记】DeAR: Fine-Grained VLM Adaptation by Decomposing
 tags:
   - CVPR 2026
   - 提示学习
+  - VLM适配
+  - 注意力头角色分解
+  - CLIP
+  - Zero-shot泛化
 ---
 
 # DeAR: Fine-Grained VLM Adaptation by Decomposing Attention Head Roles

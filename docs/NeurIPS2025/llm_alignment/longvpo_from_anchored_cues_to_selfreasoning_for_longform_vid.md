@@ -3,6 +3,12 @@ description: "【论文笔记】LongVPO: From Anchored Cues to Self-Reasoning fo
 tags:
   - NeurIPS 2025
   - 视频理解
+  - DPO
+  - preference optimization
+  - short-context VLM
+  - synthetic data
+  - anchored cues
+  - self-reasoning
 ---
 
 # LongVPO: From Anchored Cues to Self-Reasoning for Long-Form Video Preference Optimization

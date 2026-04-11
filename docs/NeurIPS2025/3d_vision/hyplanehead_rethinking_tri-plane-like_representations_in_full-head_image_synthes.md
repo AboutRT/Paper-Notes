@@ -3,6 +3,10 @@ description: "【论文笔记】HyPlaneHead: Rethinking Tri-plane-like Represent
 tags:
   - NeurIPS 2025
   - GAN
+  - tri-plane
+  - full-head synthesis
+  - feature entanglement
+  - hybrid representation
 ---
 
 # HyPlaneHead: Rethinking Tri-plane-like Representations in Full-Head Image Synthesis

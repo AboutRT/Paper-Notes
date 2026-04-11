@@ -3,7 +3,10 @@ description: "【论文笔记】Shrinking the Teacher: An Adaptive Teaching Para
 tags:
   - AAAI 2026
   - 知识蒸馏
+  - EEG decoding
   - 跨模态
+  - information bottleneck
+  - brain-computer interface
 ---
 
 # Shrinking the Teacher: An Adaptive Teaching Paradigm for Asymmetric EEG-Vision Alignment

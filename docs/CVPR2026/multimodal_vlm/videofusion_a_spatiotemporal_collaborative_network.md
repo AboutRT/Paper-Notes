@@ -3,7 +3,10 @@ description: "【论文笔记】VideoFusion: A Spatio-Temporal Collaborative Net
 tags:
   - CVPR 2026
   - 多模态
+  - infrared-visible
+  - temporal consistency
   - 跨模态
+  - dataset
 ---
 
 # VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion

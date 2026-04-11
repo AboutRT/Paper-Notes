@@ -3,6 +3,9 @@ description: "【论文笔记】MOVE: Motion-Guided Few-Shot Video Object Segmen
 tags:
   - ICCV 2025
   - 图像分割
+  - motion understanding
+  - temporal modeling
+  - benchmark
 ---
 
 # MOVE: Motion-Guided Few-Shot Video Object Segmentation

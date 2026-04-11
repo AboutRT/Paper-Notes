@@ -3,6 +3,9 @@ description: "【论文笔记】CoRe-MMRAG: Cross-Source Knowledge Reconciliatio
 tags:
   - ACL 2025
   - 多模态
+  - knowledge inconsistency
+  - visual-textual reconciliation
+  - KB-VQA
 ---
 
 # CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG

@@ -3,6 +3,10 @@ description: "【论文笔记】Towards Calibrating Prompt Tuning of Vision-Lang
 tags:
   - CVPR 2026
   - 提示学习
+  - 校准
+  - CLIP
+  - 置信度估计
+  - 预训练语义保持
 ---
 
 # Towards Calibrating Prompt Tuning of Vision-Language Models

@@ -3,6 +3,10 @@ description: "【论文笔记】Beyond Final Answers: CRYSTAL Benchmark for Tran
 tags:
   - CVPR 2025
   - 多模态
+  - benchmark
+  - step-level evaluation
+  - process reward
+  - GRPO
 ---
 
 # Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation

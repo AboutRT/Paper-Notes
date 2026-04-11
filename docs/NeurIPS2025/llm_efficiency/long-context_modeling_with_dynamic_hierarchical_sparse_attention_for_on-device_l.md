@@ -3,6 +3,12 @@ description: "【论文笔记】Long-Context Modeling with Dynamic Hierarchical 
 tags:
   - NeurIPS 2025
   - 注意力机制
+  - dynamic chunking
+  - hierarchical sparsity prediction
+  - on-device LLM
+  - long context
+  - chunk representation
+  - boundary detection
 ---
 
 # Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs

@@ -3,6 +3,10 @@ description: "【论文笔记】Learning to Assist: Physics-Grounded Human-Human
 tags:
   - CVPR 2026
   - 强化学习
+  - physics-based character control
+  - human-human interaction
+  - assistive motion imitation
+  - motion tracking
 ---
 
 # Learning to Assist: Physics-Grounded Human-Human Control via Multi-Agent Reinforcement Learning

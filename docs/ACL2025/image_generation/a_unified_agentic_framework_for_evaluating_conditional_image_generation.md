@@ -3,6 +3,10 @@ description: "【论文笔记】A Unified Agentic Framework for Evaluating Condi
 tags:
   - ACL 2025
   - 图像生成
+  - LMM Agent
+  - Evaluation Framework
+  - Tool Augmentation
+  - Agent Tuning
 ---
 
 # A Unified Agentic Framework for Evaluating Conditional Image Generation

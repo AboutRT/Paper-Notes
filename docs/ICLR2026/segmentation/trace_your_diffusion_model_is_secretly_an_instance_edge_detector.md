@@ -3,8 +3,10 @@ description: "【论文笔记】TRACE: Your Diffusion Model is Secretly an Insta
 tags:
   - ICLR 2026
   - 扩散模型
+  - instance edge
   - 图像分割
   - 注意力机制
+  - boundary detection
 ---
 
 # TRACE: Your Diffusion Model is Secretly an Instance Edge Detector

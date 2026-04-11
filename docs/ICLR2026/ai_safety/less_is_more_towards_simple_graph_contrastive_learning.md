@@ -3,6 +3,10 @@ description: "【论文笔记】Less is More: Towards Simple Graph Contrastive L
 tags:
   - ICLR 2026
   - 对比学习
+  - heterophilic graphs
+  - GCN
+  - MLP
+  - unsupervised graph representation learning
 ---
 
 # Less is More: Towards Simple Graph Contrastive Learning

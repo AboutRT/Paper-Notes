@@ -3,6 +3,10 @@ description: "【论文笔记】Fed-ADE: Adaptive Learning Rate for Federated Po
 tags:
   - CVPR2026
   - 联邦学习
+  - distribution shift
+  - adaptive learning rate
+  - online adaptation
+  - unsupervised adaptation
 ---
 
 # Fed-ADE: Adaptive Learning Rate for Federated Post-adaptation under Distribution Shift

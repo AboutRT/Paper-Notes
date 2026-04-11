@@ -3,6 +3,10 @@ description: "【论文笔记】GT-SNT: A Linear-Time Transformer for Large-Scal
 tags:
   - AAAI 2026
   - Transformer
+  - 脉冲神经网络
+  - 节点分词
+  - 线性复杂度
+  - 大规模图
 ---
 
 # GT-SNT: A Linear-Time Transformer for Large-Scale Graphs via Spiking Node Tokenization

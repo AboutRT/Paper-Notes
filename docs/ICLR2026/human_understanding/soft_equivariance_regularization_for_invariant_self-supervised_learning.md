@@ -3,6 +3,10 @@ description: "【论文笔记】Soft Equivariance Regularization for Invariant S
 tags:
   - ICLR 2026
   - 自监督学习
+  - equivariance
+  - invariance
+  - ViT
+  - regularization
 ---
 
 # Soft Equivariance Regularization for Invariant Self-Supervised Learning

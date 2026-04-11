@@ -3,6 +3,9 @@ description: "【论文笔记】Efficient and Accurate Prompt Optimization: the 
 tags:
   - ACL 2025
   - 提示学习
+  - feedback memory
+  - exemplar retrieval
+  - LLM
 ---
 
 # Efficient and Accurate Prompt Optimization: the Benefit of Memory in Exemplar-Guided Reflection

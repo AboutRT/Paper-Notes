@@ -3,6 +3,10 @@ description: "【论文笔记】Elucidated Rolling Diffusion Models for Probabil
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - EDM
+  - probabilistic forecasting
+  - weather prediction
+  - Navier-Stokes
 ---
 
 # Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics

@@ -3,6 +3,10 @@ description: "【论文笔记】BALM: A Model-Agnostic Framework for Balanced Mu
 tags:
   - CVPR 2026
   - 多模态
+  - Missing Modality
+  - Imbalanced Missing Rate
+  - Gradient Rebalancing
+  - Feature Calibration
 ---
 
 # BALM: A Model-Agnostic Framework for Balanced Multimodal Learning under Imbalanced Missing Rates

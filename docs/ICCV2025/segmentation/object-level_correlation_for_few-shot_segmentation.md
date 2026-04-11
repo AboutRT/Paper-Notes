@@ -3,6 +3,10 @@ description: "【论文笔记】Object-level Correlation for Few-Shot Segmentati
 tags:
   - ICCV 2025
   - 图像分割
+  - object-level correlation
+  - prototype learning
+  - optimal transport
+  - hard pixel noise
 ---
 
 # Object-level Correlation for Few-Shot Segmentation

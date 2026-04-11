@@ -3,6 +3,10 @@ description: "【论文笔记】Data Heterogeneity and Forgotten Labels in Split
 tags:
   - AAAI 2026
   - 联邦学习
+  - 灾难性遗忘
+  - 数据异构
+  - multi-head
+  - 处理顺序
 ---
 
 # Data Heterogeneity and Forgotten Labels in Split Federated Learning

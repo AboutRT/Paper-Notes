@@ -3,6 +3,8 @@ description: "【论文笔记】GSPN-2: Efficient Parallel Sequence Modeling 论
 tags:
   - NEURIPS2025
   - 注意力机制
+  - spatial propagation
+  - CUDA optimization
   - Transformer
   - 图像生成
 ---

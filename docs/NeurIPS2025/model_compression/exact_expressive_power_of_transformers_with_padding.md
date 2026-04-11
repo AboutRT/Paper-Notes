@@ -3,6 +3,10 @@ description: "【论文笔记】Exact Expressive Power of Transformers with Padd
 tags:
   - NeurIPS 2025
   - Transformer
+  - padding
+  - looping
+  - 电路复杂度
+  - TC0
 ---
 
 # Exact Expressive Power of Transformers with Padding

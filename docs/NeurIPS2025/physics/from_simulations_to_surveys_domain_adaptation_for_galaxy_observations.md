@@ -3,6 +3,10 @@ description: "【论文笔记】From Simulations to Surveys: Domain Adaptation f
 tags:
   - NeurIPS 2025
   - 域适应
+  - galaxy morphology
+  - optimal transport
+  - simulation-to-survey
+  - GeomLoss
 ---
 
 # From Simulations to Surveys: Domain Adaptation for Galaxy Observations

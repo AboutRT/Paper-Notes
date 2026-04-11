@@ -4,6 +4,9 @@ tags:
   - CVPR 2026
   - 扩散模型
   - 注意力机制
+  - Debiasing
+  - Linear Probing
+  - Implicit Decision
 ---
 
 # Attention, May I Have Your Decision? Localizing Generative Choices in Diffusion Models

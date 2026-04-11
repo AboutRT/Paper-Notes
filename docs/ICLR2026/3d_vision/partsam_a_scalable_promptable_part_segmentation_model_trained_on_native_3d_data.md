@@ -3,7 +3,10 @@ description: "【论文笔记】PartSAM: A Scalable Promptable Part Segmentation
 tags:
   - ICLR 2026
   - 图像分割
+  - SAM
   - 提示学习
+  - native 3D data
+  - open-world
 ---
 
 # PartSAM: A Scalable Promptable Part Segmentation Model Trained on Native 3D Data

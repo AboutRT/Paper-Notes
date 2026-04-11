@@ -4,6 +4,9 @@ tags:
   - CVPR2026
   - 注意力机制
   - 扩散模型
+  - post-training
+  - efficient inference
+  - distribution matching
 ---
 
 # LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation

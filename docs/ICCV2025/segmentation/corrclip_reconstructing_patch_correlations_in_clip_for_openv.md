@@ -3,6 +3,11 @@ description: "【论文笔记】CorrCLIP: Reconstructing Patch Correlations in C
 tags:
   - ICCV 2025 (Oral)
   - 图像分割
+  - CLIP
+  - patch correlation
+  - SAM
+  - training-free
+  - inter-class correlation
 ---
 
 # CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation

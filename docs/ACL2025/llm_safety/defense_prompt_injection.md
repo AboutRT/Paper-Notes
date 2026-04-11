@@ -3,6 +3,10 @@ description: "【论文笔记】Defense Against Prompt Injection Attack by Lever
 tags:
   - ACL 2025
   - 提示学习
+  - defense
+  - attack techniques
+  - fake completion
+  - LLM security
 ---
 
 # Defense Against Prompt Injection Attack by Leveraging Attack Techniques

@@ -3,6 +3,10 @@ description: "【论文笔记】unMORE: Unsupervised Multi-Object Segmentation v
 tags:
   - ICML2025
   - 图像分割
+  - object-centric representation
+  - center field
+  - boundary distance field
+  - multi-object reasoning
 ---
 
 # unMORE: Unsupervised Multi-Object Segmentation via Center-Boundary Reasoning

@@ -3,6 +3,12 @@ description: "【论文笔记】ADMN: A Layer-Wise Adaptive Multimodal Network f
 tags:
   - NeurIPS 2025
   - 多模态
+  - adaptive depth
+  - LayerDrop
+  - quality-of-information
+  - dynamic compute budget
+  - layer allocation
+  - sensor corruption
 ---
 
 # ADMN: A Layer-Wise Adaptive Multimodal Network for Dynamic Input Noise and Compute Resources

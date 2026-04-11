@@ -3,6 +3,10 @@ description: "【论文笔记】Extending ZACH-ViT to Robust Medical Imaging: Co
 tags:
   - CVPR 2026 Workshop (PHAROS-AIF-MIH)
   - Transformer
+  - 鲁棒性
+  - 医学图像分类
+  - 对抗攻击
+  - 低数据
 ---
 
 # Extending ZACH-ViT to Robust Medical Imaging: Corruption and Adversarial Stress Testing in Low-Data Regimes

@@ -3,6 +3,11 @@ description: "【论文笔记】Just-in-Time: Training-Free Spatial Acceleration
 tags:
   - CVPR2026
   - Transformer
+  - 空间加速
+  - 免训练
+  - Flow Matching
+  - token稀疏化
+  - ODE求解
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

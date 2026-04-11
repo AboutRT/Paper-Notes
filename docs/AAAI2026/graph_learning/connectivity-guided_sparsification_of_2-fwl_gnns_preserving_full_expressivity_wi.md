@@ -3,6 +3,10 @@ description: "【论文笔记】Connectivity-Guided Sparsification of 2-FWL GNNs
 tags:
   - AAAI 2026
   - 图神经网络
+  - 2-FWL
+  - 图稀疏化
+  - 双连通分量
+  - 表达力保持
 ---
 
 # Connectivity-Guided Sparsification of 2-FWL GNNs Preserving Full Expressivity

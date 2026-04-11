@@ -3,6 +3,11 @@ description: "【论文笔记】OTPrune: Distribution-Aligned Visual Token Pruni
 tags:
   - CVPR2026
   - 剪枝
+  - optimal transport
+  - Wasserstein distance
+  - submodular optimization
+  - training-free
+  - MLLM efficiency
 ---
 
 # OTPrune: Distribution-Aligned Visual Token Pruning via Optimal Transport

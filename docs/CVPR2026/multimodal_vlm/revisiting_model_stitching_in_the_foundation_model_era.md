@@ -2,6 +2,12 @@
 description: "【论文笔记】Revisiting Model Stitching In the Foundation Model Era 论文解读 | CVPR2026 | arXiv 2603.12433 | 模型拼接 | 提出针对异构视觉基础模型(VFM)的两阶段拼接训练方法(Final Feature Matching + Task Loss Training)，证明异构VFM可以可靠拼接且融合互补知识，并设计VFM Stitch Tree (VST)架构实现多VFM系统的可控精度-效率权衡。"
 tags:
   - CVPR2026
+  - 模型拼接
+  - 视觉基础模型
+  - 表征兼容性
+  - 特征匹配
+  - 多VFM融合
+  - 效率优化
 ---
 
 # Revisiting Model Stitching In the Foundation Model Era

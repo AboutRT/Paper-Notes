@@ -3,6 +3,10 @@ description: "【论文笔记】Flipping Knowledge Distillation: Leveraging Smal
 tags:
   - ACL 2025
   - 知识蒸馏
+  - text matching
+  - reverse distillation
+  - LoRA
+  - representation learning
 ---
 
 # Flipping Knowledge Distillation: Leveraging Small Models' Expertise to Enhance LLMs in Text Matching

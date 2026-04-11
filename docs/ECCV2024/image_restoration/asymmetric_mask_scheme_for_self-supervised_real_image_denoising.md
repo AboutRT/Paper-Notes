@@ -3,7 +3,10 @@ description: "【论文笔记】Asymmetric Mask Scheme for Self-supervised Real 
 tags:
   - ECCV2024
   - 自监督学习
+  - blind spot network
+  - mask strategy
   - 去噪
+  - asymmetric scheme
 ---
 
 # Asymmetric Mask Scheme for Self-supervised Real Image Denoising

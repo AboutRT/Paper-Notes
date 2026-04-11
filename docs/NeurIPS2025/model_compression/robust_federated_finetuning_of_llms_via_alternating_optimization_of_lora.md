@@ -3,6 +3,10 @@ description: "【论文笔记】Robust Federated Finetuning of LLMs via Alternat
 tags:
   - NeurIPS 2025
   - 联邦学习
+  - LoRA
+  - parameter-efficient fine-tuning
+  - alternating optimization
+  - LLM
 ---
 
 # Robust Federated Finetuning of LLMs via Alternating Optimization of LoRA

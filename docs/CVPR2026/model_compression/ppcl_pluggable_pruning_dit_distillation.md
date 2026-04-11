@@ -5,6 +5,7 @@ tags:
   - Transformer
   - 剪枝
   - 知识蒸馏
+  - contiguous redundancy
 ---
 
 # PPCL: Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers

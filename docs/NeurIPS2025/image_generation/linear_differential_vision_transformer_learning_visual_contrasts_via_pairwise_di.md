@@ -3,6 +3,10 @@ description: "【论文笔记】Linear Differential Vision Transformer: Learning
 tags:
   - NeurIPS 2025
   - Transformer
+  - 线性注意力
+  - 差分注意力
+  - 图像分类
+  - 图像生成
 ---
 
 # Linear Differential Vision Transformer: Learning Visual Contrasts via Pairwise Differentials

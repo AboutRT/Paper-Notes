@@ -3,7 +3,10 @@ description: "【论文笔记】OmniSat: Self-Supervised Modality Fusion for Ear
 tags:
   - ECCV 2024
   - 多模态
+  - earth observation
   - 自监督学习
+  - Sentinel
+  - PASTIS
 ---
 
 # OmniSat: Self-Supervised Modality Fusion for Earth Observation

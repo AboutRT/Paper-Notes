@@ -3,6 +3,10 @@ description: "【论文笔记】DenoiseRotator: Enhance Pruning Robustness for L
 tags:
   - NeurIPS 2025
   - 剪枝
+  - orthogonal transformation
+  - entropy minimization
+  - importance concentration
+  - semi-structured sparsity
 ---
 
 # DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration

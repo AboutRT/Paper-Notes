@@ -3,6 +3,10 @@ description: "【论文笔记】pFed1BS: 基于单比特随机草图的双向通
 tags:
   - AAAI 2026
   - 联邦学习
+  - communication efficiency
+  - personalization
+  - one-bit compression
+  - random sketching
 ---
 
 # pFed1BS: 基于单比特随机草图的双向通信压缩个性化联邦学习

@@ -3,6 +3,10 @@ description: "【论文笔记】SparseVILA: Decoupling Visual Sparsity for Effic
 tags:
   - ICCV 2025
   - 剪枝
+  - decoupled sparsity
+  - prefill-decode
+  - query-aware retrieval
+  - multi-turn conversation
 ---
 
 # SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference

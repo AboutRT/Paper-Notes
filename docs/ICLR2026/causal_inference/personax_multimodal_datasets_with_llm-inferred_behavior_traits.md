@@ -3,6 +3,11 @@ description: "【论文笔记】PersonaX: Multimodal Datasets with LLM-Inferred 
 tags:
   - ICLR2026
   - 多模态
+  - behavior traits
+  - Big Five
+  - causal representation learning
+  - LLM
+  - identifiability
 ---
 
 # PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits

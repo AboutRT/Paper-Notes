@@ -3,6 +3,10 @@ description: "【论文笔记】Linearly Constrained Diffusion Implicit Models �
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - inverse problems
+  - linear constraints
+  - DDIM
+  - accelerated sampling
 ---
 
 # Linearly Constrained Diffusion Implicit Models

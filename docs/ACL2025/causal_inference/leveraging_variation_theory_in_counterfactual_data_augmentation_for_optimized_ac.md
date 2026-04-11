@@ -3,6 +3,10 @@ description: "【论文笔记】Leveraging Variation Theory in Counterfactual Da
 tags:
   - ACL 2025 Findings
   - 数据增强
+  - Active Learning
+  - Variation Theory
+  - Neuro-Symbolic Patterns
+  - LLM-based Generation
 ---
 
 # Leveraging Variation Theory in Counterfactual Data Augmentation for Optimized Active Learning

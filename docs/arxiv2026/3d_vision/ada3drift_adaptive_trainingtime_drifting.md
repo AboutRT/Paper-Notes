@@ -3,6 +3,9 @@ description: "【论文笔记】Ada3Drift: Adaptive Training-Time Drifting for O
 tags:
   - 投稿中
   - 扩散模型
+  - training-time drift
+  - one-step generation
+  - visuomotor
 ---
 
 # Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation

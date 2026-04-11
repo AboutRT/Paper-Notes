@@ -3,7 +3,10 @@ description: "【论文笔记】Seeing the Unseen: Zooming in the Dark with Even
 tags:
   - AAAI 2026
   - 超分辨率
+  - event camera
+  - Retinex decomposition
   - 跨模态
+  - bidirectional fusion
 ---
 
 # Seeing the Unseen: Zooming in the Dark with Event Cameras

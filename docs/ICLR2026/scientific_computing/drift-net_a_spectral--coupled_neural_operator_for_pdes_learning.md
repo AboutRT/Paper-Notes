@@ -4,6 +4,9 @@ tags:
   - ICLR2026
   - 神经算子
   - 偏微分方程
+  - spectral coupling
+  - dual-branch
+  - Navier-Stokes
 ---
 
 # DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning

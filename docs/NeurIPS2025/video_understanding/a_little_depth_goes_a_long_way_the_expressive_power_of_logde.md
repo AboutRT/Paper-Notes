@@ -3,6 +3,10 @@ description: "【论文笔记】A Little Depth Goes a Long Way: The Expressive P
 tags:
   - NeurIPS 2025
   - Transformer
+  - 表达能力
+  - 正则语言识别
+  - 图连通性
+  - 计算复杂性
 ---
 
 # A Little Depth Goes a Long Way: The Expressive Power of Log-Depth Transformers

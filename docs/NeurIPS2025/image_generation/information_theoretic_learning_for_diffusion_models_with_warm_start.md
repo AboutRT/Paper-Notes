@@ -3,6 +3,10 @@ description: "【论文笔记】Information Theoretic Learning for Diffusion Mod
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - Likelihood Estimation
+  - Information Theory
+  - Fisher Divergence
+  - Warm Start
 ---
 
 # Information Theoretic Learning for Diffusion Models with Warm Start

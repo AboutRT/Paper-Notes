@@ -4,6 +4,9 @@ tags:
   - NeurIPS 2025
   - Transformer
   - 注意力机制
+  - Mixture of Experts
+  - Hierarchical Interaction
+  - Node Classification
 ---
 
 # Unifying and Enhancing Graph Transformers via a Hierarchical Mask Framework

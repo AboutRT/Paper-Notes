@@ -5,6 +5,8 @@ tags:
   - 目标检测
   - 自监督学习
   - 半监督学习
+  - Trauma Detection
+  - VDETR
 ---
 
 # Addressing Data Scarcity in 3D Trauma Detection through Self-Supervised and Semi-Supervised Learning with Vertex Relative Position Encoding

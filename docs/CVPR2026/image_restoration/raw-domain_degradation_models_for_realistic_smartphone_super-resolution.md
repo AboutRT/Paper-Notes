@@ -3,6 +3,11 @@ description: "【论文笔记】RAW-Domain Degradation Models for Realistic Smar
 tags:
   - CVPR 2026
   - 超分辨率
+  - RAW domain
+  - degradation modeling
+  - smartphone camera
+  - blur kernel calibration
+  - sensor noise
 ---
 
 # RAW-Domain Degradation Models for Realistic Smartphone Super-Resolution

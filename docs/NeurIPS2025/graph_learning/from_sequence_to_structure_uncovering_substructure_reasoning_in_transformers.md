@@ -3,6 +3,10 @@ description: "【论文笔记】From Sequence to Structure: Uncovering Substruct
 tags:
   - NeurIPS 2025
   - Transformer
+  - 子结构提取
+  - 图推理
+  - 诱导子图过滤
+  - LLM图理解
 ---
 
 # From Sequence to Structure: Uncovering Substructure Reasoning in Transformers

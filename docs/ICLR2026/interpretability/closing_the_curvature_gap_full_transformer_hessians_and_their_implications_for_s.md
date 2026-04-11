@@ -3,6 +3,10 @@ description: "【论文笔记】Closing the Curvature Gap: Full Transformer Hess
 tags:
   - ICLR 2026
   - Transformer
+  - LayerNorm
+  - scaling laws
+  - loss landscape
+  - optimization theory
 ---
 
 # Closing the Curvature Gap: Full Transformer Hessians and Their Implications for Scaling Laws

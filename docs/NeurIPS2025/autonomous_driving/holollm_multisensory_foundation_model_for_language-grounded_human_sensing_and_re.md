@@ -3,6 +3,11 @@ description: "【论文笔记】HoloLLM: Multisensory Foundation Model for Langu
 tags:
   - NEURIPS2025
   - 多模态
+  - Human Sensing
+  - LiDAR
+  - mmWave
+  - WiFi
+  - Modality Alignment
 ---
 
 # HoloLLM: Multisensory Foundation Model for Language-Grounded Human Sensing and Reasoning

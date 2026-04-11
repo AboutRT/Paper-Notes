@@ -3,6 +3,10 @@ description: "【论文笔记】Audio Super-Resolution with Latent Bridge Models
 tags:
   - NeurIPS 2025
   - 超分辨率
+  - bridge model
+  - latent space
+  - frequency-aware
+  - cascaded generation
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

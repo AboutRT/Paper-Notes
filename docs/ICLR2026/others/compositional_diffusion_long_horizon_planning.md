@@ -3,6 +3,10 @@ description: "【论文笔记】Compositional Diffusion with Guided Search for L
 tags:
   - ICLR 2026
   - 扩散模型
+  - long-horizon planning
+  - mode averaging
+  - guided search
+  - inference-time compute
 ---
 
 # Compositional Diffusion with Guided Search for Long-Horizon Planning

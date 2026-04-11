@@ -3,7 +3,9 @@ description: "【论文笔记】CGSA: Class-Guided Slot-Aware Adaptation for Sou
 tags:
   - ICLR 2026
   - 域适应
+  - object-centric learning
   - 注意力机制
+  - DETR
   - 对比学习
 ---
 

@@ -3,6 +3,10 @@ description: "【论文笔记】MHA2MLA: Towards Economical Inference by Enablin
 tags:
   - ACL 2025
   - 注意力机制
+  - KV cache compression
+  - partial RoPE
+  - SVD
+  - inference efficiency
 ---
 
 # MHA2MLA: Towards Economical Inference by Enabling DeepSeek's Multi-Head Latent Attention in Any Transformer-based LLMs

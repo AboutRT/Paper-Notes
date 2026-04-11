@@ -3,6 +3,10 @@ description: "【论文笔记】SparseDiT: Token Sparsification for Efficient Di
 tags:
   - NeurIPS 2025
   - Transformer
+  - token稀疏化
+  - 推理加速
+  - 时间步自适应
+  - 架构设计
 ---
 
 # SparseDiT: Token Sparsification for Efficient Diffusion Transformer

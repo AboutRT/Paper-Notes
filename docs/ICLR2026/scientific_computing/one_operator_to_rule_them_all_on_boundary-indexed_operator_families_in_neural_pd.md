@@ -3,6 +3,10 @@ description: "【论文笔记】One Operator to Rule Them All? On Boundary-Index
 tags:
   - ICLR2026
   - 偏微分方程
+  - boundary condition
+  - operator learning
+  - generalization
+  - non-identifiability
 ---
 
 # One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers

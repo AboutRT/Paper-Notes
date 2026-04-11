@@ -3,6 +3,10 @@ description: "【论文笔记】As Language Models Scale, Low-order Linear Depth
 tags:
   - CVPR 2025
   - Transformer
+  - 线性代理模型
+  - Activation Steering
+  - 系统辨识
+  - Scaling Law
 ---
 
 # As Language Models Scale, Low-order Linear Depth Dynamics Emerge

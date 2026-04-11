@@ -3,6 +3,10 @@ description: "【论文笔记】ItDPDM: Information-Theoretic Discrete Poisson D
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - Poisson Process
+  - Information Theory
+  - Likelihood Estimation
+  - Symbolic Music
 ---
 
 # ItDPDM: Information-Theoretic Discrete Poisson Diffusion Model

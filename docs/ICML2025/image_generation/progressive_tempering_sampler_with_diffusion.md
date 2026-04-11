@@ -3,6 +3,10 @@ description: "【论文笔记】Progressive Tempering Sampler with Diffusion 论
 tags:
   - ICML 2025
   - 扩散模型
+  - sampling
+  - MCMC
+  - parallel-tempering
+  - neural-sampler
 ---
 
 # Progressive Tempering Sampler with Diffusion

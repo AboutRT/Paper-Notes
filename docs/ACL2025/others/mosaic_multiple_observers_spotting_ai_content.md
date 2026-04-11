@@ -3,6 +3,10 @@ description: "【论文笔记】MOSAIC: Multiple Observers Spotting AI Content �
 tags:
   - ACL 2025 (Findings)
   - 文本检测
+  - ensemble LLM
+  - information theory
+  - Binoculars
+  - zero-shot detection
 ---
 
 # MOSAIC: Multiple Observers Spotting AI Content

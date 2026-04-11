@@ -3,6 +3,10 @@ description: "【论文笔记】Concept-TRAK: Understanding how diffusion models
 tags:
   - ICLR2026
   - 扩散模型
+  - data attribution
+  - concept attribution
+  - influence function
+  - copyright
 ---
 
 # Concept-TRAK: Understanding how diffusion models learn concepts through concept-level attribution

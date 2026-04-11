@@ -3,6 +3,10 @@ description: "【论文笔记】MoQAE: Mixed-Precision Quantization for Long-Con
 tags:
   - ACL 2025
   - 量化
+  - mixed-precision
+  - MoE
+  - long-context inference
+  - routing
 ---
 
 # MoQAE: Mixed-Precision Quantization for Long-Context LLM Inference via Mixture of Quantization-Aware Experts

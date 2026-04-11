@@ -3,7 +3,10 @@ description: "【论文笔记】Diffusion-Based Feature Denoising and Using NNMF
 tags:
   - arXiv 2026
   - 扩散模型
+  - feature
   - 去噪
+  - nnmf
+  - robust
 ---
 
 # Diffusion-Based Feature Denoising and Using NNMF for Robust Brain Tumor Classification

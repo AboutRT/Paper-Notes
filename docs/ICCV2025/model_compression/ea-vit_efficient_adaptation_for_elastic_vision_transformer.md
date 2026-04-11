@@ -3,6 +3,10 @@ description: "【论文笔记】EA-ViT: Efficient Adaptation for Elastic Vision 
 tags:
   - ICCV 2025
   - Transformer
+  - 弹性架构
+  - 子模型选择
+  - 课程学习
+  - Pareto优化
 ---
 
 # EA-ViT: Efficient Adaptation for Elastic Vision Transformer

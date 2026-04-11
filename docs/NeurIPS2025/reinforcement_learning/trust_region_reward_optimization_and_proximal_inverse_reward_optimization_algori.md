@@ -3,6 +3,10 @@ description: "【论文笔记】Trust Region Reward Optimization and Proximal In
 tags:
   - NeurIPS 2025
   - 强化学习
+  - Trust Region
+  - Reward Learning
+  - Non-Adversarial IRL
+  - Monotonic Improvement
 ---
 
 # Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm

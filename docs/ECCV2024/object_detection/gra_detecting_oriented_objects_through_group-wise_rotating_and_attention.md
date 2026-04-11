@@ -3,7 +3,9 @@ description: "【论文笔记】GRA: Detecting Oriented Objects Through Group-Wi
 tags:
   - ECCV2024
   - 目标检测
+  - Group-wise Rotating
   - 注意力机制
+  - Dynamic Neural Networks
 ---
 
 # GRA: Detecting Oriented Objects Through Group-Wise Rotating and Attention

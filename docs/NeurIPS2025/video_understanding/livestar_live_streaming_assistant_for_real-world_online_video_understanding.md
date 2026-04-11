@@ -3,6 +3,10 @@ description: "【论文笔记】LiveStar: Live Streaming Assistant for Real-Worl
 tags:
   - NEURIPS2025
   - 视频理解
+  - streaming decoding
+  - video-language alignment
+  - live streaming
+  - response timing
 ---
 
 # LiveStar: Live Streaming Assistant for Real-World Online Video Understanding

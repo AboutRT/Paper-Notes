@@ -3,6 +3,10 @@ description: "【论文笔记】Exploring Interpretability for Visual Prompt Tun
 tags:
   - ICLR 2026
   - 提示学习
+  - 可解释性
+  - 概念原型
+  - 跨层融合
+  - 细粒度分类
 ---
 
 # Exploring Interpretability for Visual Prompt Tuning with Cross-layer Concepts

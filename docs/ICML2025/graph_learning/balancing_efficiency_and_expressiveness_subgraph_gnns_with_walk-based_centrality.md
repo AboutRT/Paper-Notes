@@ -3,6 +3,10 @@ description: "【论文笔记】Balancing Efficiency and Expressiveness: Subgrap
 tags:
   - ICML 2025
   - 图神经网络
+  - 游走中心性
+  - 子图采样
+  - 可扩展性
+  - 图表达力
 ---
 
 # Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality

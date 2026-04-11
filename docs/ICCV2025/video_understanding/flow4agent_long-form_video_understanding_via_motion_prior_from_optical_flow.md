@@ -4,7 +4,11 @@ tags:
   - ICCV 2025
   - 视频理解
   - 光流
+  - motion prior
   - 剪枝
+  - MLLM
+  - temporal granularity
+  - key content extraction
 ---
 
 # Flow4Agent: Long-form Video Understanding via Motion Prior from Optical Flow

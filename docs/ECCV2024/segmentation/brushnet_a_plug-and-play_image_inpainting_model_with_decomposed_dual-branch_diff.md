@@ -4,6 +4,9 @@ tags:
   - ECCV2024
   - 图像修复
   - 扩散模型
+  - dual-branch
+  - plug-and-play
+  - masked image feature
 ---
 
 # BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion

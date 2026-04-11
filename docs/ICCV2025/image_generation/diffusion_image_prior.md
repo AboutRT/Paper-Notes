@@ -4,6 +4,9 @@ tags:
   - ICCV 2025
   - 扩散模型
   - 图像恢复
+  - Deep Image Prior
+  - Early Stopping
+  - Zero-shot
 ---
 
 # DIIP: Diffusion Image Prior

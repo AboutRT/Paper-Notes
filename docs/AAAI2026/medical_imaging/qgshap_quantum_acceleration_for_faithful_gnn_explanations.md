@@ -3,6 +3,10 @@ description: "【论文笔记】QGShap: Quantum Acceleration for Faithful GNN Ex
 tags:
   - AAAI 2026 (QC+AI Workshop)
   - 图神经网络
+  - Shapley值
+  - 量子振幅估计
+  - 精确归因
+  - 图可解释性
 ---
 
 # QGShap: Quantum Acceleration for Faithful GNN Explanations

@@ -3,6 +3,10 @@ description: "【论文笔记】Beyond Fixed Depth: Adaptive Graph Neural Networ
 tags:
   - AAAI2026
   - 图神经网络
+  - adaptive depth
+  - heterophily
+  - node classification
+  - homophily
 ---
 
 # Beyond Fixed Depth: Adaptive Graph Neural Networks for Node Classification Under Varying Homophily

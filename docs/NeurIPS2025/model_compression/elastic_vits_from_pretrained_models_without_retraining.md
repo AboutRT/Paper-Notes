@@ -3,6 +3,10 @@ description: "【论文笔记】Elastic ViTs from Pretrained Models without Retr
 tags:
   - NeurIPS 2025
   - Transformer
+  - 弹性推理
+  - Hessian近似
+  - 进化算法
+  - 自监督重要性评分
 ---
 
 # Elastic ViTs from Pretrained Models without Retraining

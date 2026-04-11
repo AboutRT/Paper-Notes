@@ -3,6 +3,10 @@ description: "【论文笔记】AutoSciDACT: Automated Scientific Discovery thro
 tags:
   - NeurIPS 2025
   - 对比学习
+  - anomaly detection
+  - hypothesis testing
+  - novelty detection
+  - scientific discovery
 ---
 
 # AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing

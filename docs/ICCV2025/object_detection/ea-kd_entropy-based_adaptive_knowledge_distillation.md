@@ -3,6 +3,10 @@ description: "【论文笔记】EA-KD: Entropy-based Adaptive Knowledge Distilla
 tags:
   - ICCV 2025
   - 知识蒸馏
+  - 熵
+  - 自适应权重
+  - 即插即用
+  - 样本重要性
 ---
 
 # EA-KD: Entropy-based Adaptive Knowledge Distillation

@@ -3,6 +3,10 @@ description: "【论文笔记】KITAB-Bench: A Comprehensive Multi-Domain Benchm
 tags:
   - ACL 2025
   - OCR
+  - 文档理解
+  - 基准测试
+  - 视觉语言模型
+  - 多领域评测
 ---
 
 # KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding

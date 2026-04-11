@@ -3,6 +3,12 @@ description: "【论文笔记】SALIENT: Frequency-Aware Paired Diffusion for Co
 tags:
   - CVPR2025
   - 扩散模型
+  - wavelet domain
+  - long-tail detection
+  - CT augmentation
+  - synthetic data
+  - class imbalance
+  - dose-response
 ---
 
 # SALIENT: Frequency-Aware Paired Diffusion for Controllable Long-Tail CT Detection

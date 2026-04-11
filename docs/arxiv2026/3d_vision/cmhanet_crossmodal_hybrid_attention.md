@@ -4,6 +4,8 @@ tags:
   - 投稿中
   - 跨模态
   - 注意力机制
+  - point matching
+  - contrastive geometric loss
 ---
 
 # CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration

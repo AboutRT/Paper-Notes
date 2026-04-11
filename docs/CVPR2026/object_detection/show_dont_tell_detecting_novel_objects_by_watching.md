@@ -4,6 +4,9 @@ tags:
   - CVPR 2026
   - 目标检测
   - 自监督学习
+  - robot learning
+  - human demonstration
+  - object manipulation
 ---
 
 # Show, Don't Tell: Detecting Novel Objects by Watching Human Videos

@@ -3,6 +3,11 @@ description: "【论文笔记】GrokFormer: Graph Fourier Kolmogorov-Arnold Tran
 tags:
   - ICML2025
   - Transformer
+  - Kolmogorov-Arnold Network
+  - 傅里叶级数
+  - 谱图滤波器
+  - 节点分类
+  - 图分类
 ---
 
 # GrokFormer: Graph Fourier Kolmogorov-Arnold Transformers

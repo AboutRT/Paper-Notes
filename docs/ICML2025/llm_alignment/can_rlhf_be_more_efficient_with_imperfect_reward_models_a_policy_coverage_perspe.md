@@ -3,6 +3,14 @@ description: "【论文笔记】Can RLHF be More Efficient with Imperfect Reward
 tags:
   - ICML 2025
   - 迁移学习
+  - KL regularization
+  - policy coverage
+  - online RLHF
+  - sample efficiency
+  - DPO
+  - IPO
+  - XPO
+  - win rate
 ---
 
 # Can RLHF be More Efficient with Imperfect Reward Models? A Policy Coverage Perspective

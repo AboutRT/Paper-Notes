@@ -3,6 +3,11 @@ description: "【论文笔记】Neural Emulator Superiority: When Machine Learni
 tags:
   - NeurIPS 2025
   - 偏微分方程
+  - numerical solver
+  - emulator superiority
+  - Fourier analysis
+  - autoregressive rollout
+  - inductive bias
 ---
 
 # Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data

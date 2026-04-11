@@ -3,7 +3,11 @@ description: "【论文笔记】Show, Don't Tell: Detecting Novel Objects by Wat
 tags:
   - CVPR 2026
   - 目标检测
+  - human demonstration
   - 自监督学习
+  - bespoke detector
+  - robot manipulation
+  - automatic dataset creation
 ---
 
 # Show, Don't Tell: Detecting Novel Objects by Watching Human Videos

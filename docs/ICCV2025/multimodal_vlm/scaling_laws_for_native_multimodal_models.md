@@ -3,6 +3,11 @@ description: "【论文笔记】Scaling Laws for Native Multimodal Models 论文
 tags:
   - ICCV 2025 (Oral)
   - 多模态
+  - early fusion
+  - late fusion
+  - scaling laws
+  - MoE
+  - 架构设计
 ---
 
 # Scaling Laws for Native Multimodal Models

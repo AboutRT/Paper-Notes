@@ -3,6 +3,10 @@ description: "【论文笔记】Efficient Federated Learning against Byzantine A
 tags:
   - NeurIPS 2025
   - 联邦学习
+  - Byzantine Robustness
+  - Gradient Normalization
+  - Non-IID Data
+  - Non-Convex Optimization
 ---
 
 # Efficient Federated Learning against Byzantine Attacks and Data Heterogeneity via Aggregating Normalized Gradients

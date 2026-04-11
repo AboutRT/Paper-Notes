@@ -3,6 +3,10 @@ description: "【论文笔记】Towards Video Thinking Test: A Holistic Benchmar
 tags:
   - ICCV 2025
   - 视频理解
+  - Video LLM
+  - Adversarial Robustness
+  - Visual Complexity
+  - Narrative Complexity
 ---
 
 # Towards Video Thinking Test: A Holistic Benchmark for Advanced Video Reasoning and Understanding

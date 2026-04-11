@@ -3,6 +3,10 @@ description: "【论文笔记】Toward Real-world Infrared Image Super-Resolutio
 tags:
   - CVPR 2026
   - 超分辨率
+  - autoregressive
+  - codebook
+  - thermal-guidance
+  - benchmark
 ---
 
 # Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset

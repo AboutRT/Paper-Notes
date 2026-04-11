@@ -3,6 +3,10 @@ description: "【论文笔记】Iron Sharpens Iron: Defending Against Attacks in
 tags:
   - ACL 2025
   - 文本检测
+  - adversarial training
+  - robustness
+  - text perturbation
+  - adversarial attack
 ---
 
 # Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training

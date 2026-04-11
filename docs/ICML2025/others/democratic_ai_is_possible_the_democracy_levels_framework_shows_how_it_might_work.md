@@ -3,6 +3,10 @@ description: "【论文笔记】Democratic AI is Possible. The Democracy Levels 
 tags:
   - ICML2025
   - OCR
+  - participatory AI
+  - pluralistic alignment
+  - collective decision-making
+  - AI governance
 ---
 
 # Democratic AI is Possible. The Democracy Levels Framework Shows How It Might Work

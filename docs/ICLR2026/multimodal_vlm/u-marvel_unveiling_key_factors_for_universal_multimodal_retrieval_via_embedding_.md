@@ -2,6 +2,12 @@
 description: "【论文笔记】U-MARVEL: Unveiling Key Factors for Universal Multimodal Retrieval via Embedding Learning 论文解读 | ICLR 2026 | arXiv 2507.14902 | 通用多模态检索 | 系统研究MLLM嵌入学习关键设计因素，发现被忽视的核心因子(双向注意力+mean pooling远优于last token; batch/lr/温度交互)，提出U-MARVEL：渐进过渡+过滤硬负+重排蒸馏，M-BEIR大幅超SOTA且零样本迁移CIR和T2V。"
 tags:
   - ICLR 2026
+  - 通用多模态检索
+  - MLLM嵌入
+  - 对比学习
+  - 渐进训练
+  - 重排蒸馏
+  - 硬负样本
 ---
 
 # U-MARVEL: Unveiling Key Factors for Universal Multimodal Retrieval via Embedding Learning

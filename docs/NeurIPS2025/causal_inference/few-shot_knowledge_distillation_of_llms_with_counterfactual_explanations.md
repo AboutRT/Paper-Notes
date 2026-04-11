@@ -3,6 +3,10 @@ description: "【论文笔记】Few-Shot Knowledge Distillation of LLMs With Cou
 tags:
   - NeurIPS 2025
   - 知识蒸馏
+  - Counterfactual Explanation
+  - Few-shot Learning
+  - LLM Compression
+  - Decision Boundary
 ---
 
 # Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations

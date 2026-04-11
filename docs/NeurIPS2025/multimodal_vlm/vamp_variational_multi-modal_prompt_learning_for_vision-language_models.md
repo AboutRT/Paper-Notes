@@ -3,6 +3,10 @@ description: "【论文笔记】VaMP: Variational Multi-Modal Prompt Learning fo
 tags:
   - NeurIPS 2025
   - 提示学习
+  - 变分推断
+  - CLIP
+  - 少样本学习
+  - 域泛化
 ---
 
 # VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models

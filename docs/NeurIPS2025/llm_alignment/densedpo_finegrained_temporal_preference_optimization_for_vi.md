@@ -3,6 +3,12 @@ description: "【论文笔记】DenseDPO: Fine-Grained Temporal Preference Optim
 tags:
   - NeurIPS 2025 (Spotlight)
   - 扩散模型
+  - DPO
+  - preference optimization
+  - temporal alignment
+  - motion bias
+  - segment-level
+  - VLM annotation
 ---
 
 # DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models

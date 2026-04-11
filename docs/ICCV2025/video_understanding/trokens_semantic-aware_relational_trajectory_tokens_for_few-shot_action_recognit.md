@@ -3,6 +3,10 @@ description: "【论文笔记】Trokens: Semantic-Aware Relational Trajectory To
 tags:
   - ICCV 2025
   - 动作识别
+  - 点轨迹追踪
+  - 语义采样
+  - 运动建模
+  - HoD
 ---
 
 # Trokens: Semantic-Aware Relational Trajectory Tokens for Few-Shot Action Recognition

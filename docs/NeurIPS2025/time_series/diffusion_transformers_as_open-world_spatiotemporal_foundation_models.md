@@ -3,7 +3,10 @@ description: "【论文笔记】Diffusion Transformers as Open-World Spatiotempo
 tags:
   - NEURIPS2025
   - Transformer
+  - Spatiotemporal Foundation Model
+  - Urban Computing
   - 提示学习
+  - Zero-shot
 ---
 
 # Diffusion Transformers as Open-World Spatiotemporal Foundation Models

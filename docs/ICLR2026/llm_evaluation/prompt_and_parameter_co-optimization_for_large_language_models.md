@@ -3,6 +3,10 @@ description: "【论文笔记】Prompt and Parameter Co-Optimization for Large L
 tags:
   - ICLR 2026
   - 提示学习
+  - 微调
+  - 联合优化
+  - LoRA
+  - 离散-连续优化
 ---
 
 # Prompt and Parameter Co-Optimization for Large Language Models

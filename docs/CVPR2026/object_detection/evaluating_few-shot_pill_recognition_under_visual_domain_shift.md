@@ -3,6 +3,10 @@ description: "【论文笔记】Evaluating Few-Shot Pill Recognition Under Visua
 tags:
   - CVPR 2026
   - 目标检测
+  - pill recognition
+  - domain shift
+  - deployment readiness
+  - cross-dataset evaluation
 ---
 
 # Evaluating Few-Shot Pill Recognition Under Visual Domain Shift

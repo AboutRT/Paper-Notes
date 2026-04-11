@@ -4,6 +4,8 @@ tags:
   - ICLR2026
   - 注意力机制
   - 提示学习
+  - spectral decomposition
+  - key embedding editing
 ---
 
 # Spectral Attention Steering for Prompt Highlighting

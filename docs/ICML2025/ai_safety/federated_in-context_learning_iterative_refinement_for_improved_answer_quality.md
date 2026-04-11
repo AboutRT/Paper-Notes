@@ -3,6 +3,10 @@ description: "【论文笔记】Federated In-Context Learning: Iterative Refinem
 tags:
   - ICML 2025
   - 联邦学习
+  - in-context learning
+  - question answering
+  - iterative refinement
+  - communication efficiency
 ---
 
 # Federated In-Context Learning: Iterative Refinement for Improved Answer Quality

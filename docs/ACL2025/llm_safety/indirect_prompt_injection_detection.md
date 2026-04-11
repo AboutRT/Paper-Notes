@@ -3,7 +3,12 @@ description: "【论文笔记】Can Indirect Prompt Injection Attacks Be Detecte
 tags:
   - ACL 2025
   - 提示学习
+  - detection
+  - removal
+  - filtering
   - 图像分割
+  - extraction
+  - over-defense
 ---
 
 # Can Indirect Prompt Injection Attacks Be Detected and Removed?

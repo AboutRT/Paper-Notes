@@ -3,6 +3,10 @@ description: "【论文笔记】DRIFT: Dynamic Rule-Based Defense with Injection
 tags:
   - NeurIPS 2025
   - 提示学习
+  - agent security
+  - dynamic policy
+  - injection isolation
+  - system-level defense
 ---
 
 # DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents

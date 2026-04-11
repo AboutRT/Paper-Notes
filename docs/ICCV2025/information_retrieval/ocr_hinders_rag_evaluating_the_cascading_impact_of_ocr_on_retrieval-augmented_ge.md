@@ -3,6 +3,10 @@ description: "【论文笔记】OCR Hinders RAG: Evaluating the Cascading Impact
 tags:
   - ICCV 2025
   - OCR
+  - RAG系统
+  - 文档解析
+  - 知识库质量
+  - benchmark
 ---
 
 # OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation

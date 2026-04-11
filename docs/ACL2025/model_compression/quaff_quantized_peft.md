@@ -3,6 +3,9 @@ description: "【论文笔记】Quaff: Quantized Parameter-Efficient Fine-Tuning
 tags:
   - ACL 2025
   - 量化
+  - PEFT
+  - activation outlier
+  - fine-tuning
 ---
 
 # Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis

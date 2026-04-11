@@ -2,6 +2,11 @@
 description: "【论文笔记】Null-Space Filtering for Data-Free Continual Model Merging: Preserving Stability, Promoting Plasticity 论文解读 | ICLR 2026 | arXiv 2509.21413 | 模型合并 | 提出 NUFILT 框架，通过零空间滤波和投影感知 LoRA 适配，在不访问任何任务数据的条件下实现持续模型合并，同时保持稳定性和可塑性。"
 tags:
   - ICLR 2026
+  - 模型合并
+  - 持续学习
+  - 零空间投影
+  - 稳定性-可塑性
+  - 无数据
 ---
 
 # Null-Space Filtering for Data-Free Continual Model Merging: Preserving Stability, Promoting Plasticity

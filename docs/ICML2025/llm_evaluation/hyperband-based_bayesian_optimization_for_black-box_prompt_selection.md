@@ -3,6 +3,12 @@ description: "【论文笔记】Hyperband-based Bayesian Optimization for Black-
 tags:
   - ICML 2025
   - 提示学习
+  - 贝叶斯优化
+  - Hyperband
+  - 多保真度优化
+  - 高斯过程
+  - 深度核
+  - 黑盒LLM
 ---
 
 # Hyperband-based Bayesian Optimization for Black-box Prompt Selection

@@ -3,6 +3,9 @@ description: "【论文笔记】ClearAIR: A Human-Visual-Perception-Inspired All
 tags:
   - AAAI 2026
   - 图像恢复
+  - Human Visual Perception
+  - MLLM-based IQA
+  - Semantic Guidance
   - 自监督学习
 ---
 

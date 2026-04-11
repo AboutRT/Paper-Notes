@@ -3,6 +3,10 @@ description: "【论文笔记】Discrete Diffusion Trajectory Alignment via Step
 tags:
   - ICLR2026
   - 扩散模型
+  - preference optimization
+  - RLHF
+  - trajectory alignment
+  - stepwise decomposition
 ---
 
 # Discrete Diffusion Trajectory Alignment via Stepwise Decomposition

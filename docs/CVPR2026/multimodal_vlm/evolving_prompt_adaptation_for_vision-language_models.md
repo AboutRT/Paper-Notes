@@ -3,6 +3,10 @@ description: "【论文笔记】EvoPrompt: Evolving Prompt Adaptation for Vision
 tags:
   - CVPR 2026
   - 提示学习
+  - 灾难性遗忘
+  - 低秩分解
+  - 特征去相关
+  - VLM适应
 ---
 
 # EvoPrompt: Evolving Prompt Adaptation for Vision-Language Models

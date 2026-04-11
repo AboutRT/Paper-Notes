@@ -3,7 +3,10 @@ description: "【论文笔记】DictPFL: Efficient and Private Federated Learnin
 tags:
   - NeurIPS 2025
   - 联邦学习
+  - Homomorphic Encryption
+  - Privacy-Preserving
   - 剪枝
+  - Dictionary Decomposition
 ---
 
 # DictPFL: Efficient and Private Federated Learning on Encrypted Gradients

@@ -3,6 +3,10 @@ description: "【论文笔记】AdaVideoRAG: Omni-Contextual Adaptive Retrieval-
 tags:
   - NeurIPS 2025
   - 视频理解
+  - retrieval-augmented generation
+  - adaptive retrieval
+  - knowledge graph
+  - intent classification
 ---
 
 # AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding

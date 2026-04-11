@@ -3,6 +3,10 @@ description: "【论文笔记】Generalizable Insights for Graph Transformers in
 tags:
   - NeurIPS 2025
   - Transformer
+  - GD-WL
+  - 位置编码表达力
+  - few-shot迁移
+  - 大规模评估
 ---
 
 # Generalizable Insights for Graph Transformers in Theory and Practice

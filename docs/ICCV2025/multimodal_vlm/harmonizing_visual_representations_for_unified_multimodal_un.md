@@ -3,6 +3,10 @@ description: "【论文笔记】Harmonizing Visual Representations for Unified M
 tags:
   - ICCV 2025
   - 多模态
+  - MAR encoder
+  - visual tokenization
+  - understanding+generation
+  - autoregressive
 ---
 
 # Harmonizing Visual Representations for Unified Multimodal Understanding and Generation

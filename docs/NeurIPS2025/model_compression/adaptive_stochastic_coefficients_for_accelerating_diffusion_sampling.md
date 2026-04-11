@@ -3,6 +3,10 @@ description: "【论文笔记】Adaptive Stochastic Coefficients for Acceleratin
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - SDE solver
+  - ODE solver
+  - adaptive noise injection
+  - few-step generation
 ---
 
 # Adaptive Stochastic Coefficients for Accelerating Diffusion Sampling

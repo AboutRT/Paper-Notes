@@ -3,6 +3,10 @@ description: "【论文笔记】FlatQuant: Flatness Matters for LLM Quantization
 tags:
   - ICML2025
   - 量化
+  - affine transformation
+  - Kronecker product
+  - W4A4
+  - flatness
 ---
 
 # FlatQuant: Flatness Matters for LLM Quantization

@@ -3,6 +3,10 @@ description: "【论文笔记】Moscat: Mixture of Scope Experts at Test for Gen
 tags:
   - NeurIPS 2025
   - 图神经网络
+  - PAC-Bayes界
+  - 专家混合
+  - 测试时门控
+  - 同质性子群
 ---
 
 # Moscat: Mixture of Scope Experts at Test for Generalizing Deeper GNNs

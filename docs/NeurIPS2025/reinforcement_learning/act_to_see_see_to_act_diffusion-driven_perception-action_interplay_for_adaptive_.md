@@ -3,6 +3,10 @@ description: "【论文笔记】Act to See, See to Act: Diffusion-Driven Percept
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - perception-action loop
+  - VJP
+  - variational inference
+  - imitation learning
 ---
 
 # Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies

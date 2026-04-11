@@ -3,7 +3,10 @@ description: "【论文笔记】SafePTR: Token-Level Jailbreak Defense in Multim
 tags:
   - NeurIPS 2025
   - 多模态
+  - jailbreak defense
   - 剪枝
+  - MLLM
+  - training-free defense
 ---
 
 # SafePTR: Token-Level Jailbreak Defense in Multimodal LLMs via Prune-then-Restore Mechanism

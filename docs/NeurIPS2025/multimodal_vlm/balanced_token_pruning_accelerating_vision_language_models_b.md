@@ -5,6 +5,8 @@ tags:
   - 剪枝
   - 视觉语言
   - 注意力机制
+  - inference acceleration
+  - local-global optimization
 ---
 
 # Balanced Token Pruning: Accelerating Vision Language Models Beyond Local Optimization

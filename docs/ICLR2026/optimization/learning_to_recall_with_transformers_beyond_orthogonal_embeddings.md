@@ -3,6 +3,10 @@ description: "【论文笔记】Learning to Recall with Transformers Beyond Orth
 tags:
   - ICLR 2026
   - Transformer
+  - 记忆与检索
+  - 存储容量
+  - 非正交嵌入
+  - 梯度下降分析
 ---
 
 # Learning to Recall with Transformers Beyond Orthogonal Embeddings

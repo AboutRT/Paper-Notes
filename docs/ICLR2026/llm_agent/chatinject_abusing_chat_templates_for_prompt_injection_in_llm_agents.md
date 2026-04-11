@@ -3,6 +3,10 @@ description: "【论文笔记】ChatInject: Abusing Chat Templates for Prompt In
 tags:
   - ICLR 2026
   - 提示学习
+  - chat template
+  - LLM agent
+  - role hierarchy
+  - multi-turn attack
 ---
 
 # ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents

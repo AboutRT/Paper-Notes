@@ -3,6 +3,9 @@ description: "【论文笔记】TESS 2: A Large-Scale Generalist Diffusion Langu
 tags:
   - ACL2025
   - 扩散模型
+  - instruction tuning
+  - reward guidance
+  - inference-time compute
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

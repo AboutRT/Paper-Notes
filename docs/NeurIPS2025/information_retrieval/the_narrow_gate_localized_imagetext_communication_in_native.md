@@ -3,6 +3,10 @@ description: "【论文笔记】The Narrow Gate: Localized Image-Text Communicat
 tags:
   - NeurIPS 2025
   - 多模态
+  - EOI token
+  - narrow gate
+  - modality gap
+  - mechanistic interpretability
 ---
 
 # The Narrow Gate: Localized Image-Text Communication in Native Multimodal Models

@@ -3,6 +3,10 @@ description: "【论文笔记】Multimodal Protein Language Models for Enzyme Ki
 tags:
   - arXiv 2026
   - 多模态
+  - protein
+  - language
+  - models
+  - enzyme
 ---
 
 # Multimodal Protein Language Models for Enzyme Kinetic Parameters: From Substrate Recognition to Conformational Adaptation

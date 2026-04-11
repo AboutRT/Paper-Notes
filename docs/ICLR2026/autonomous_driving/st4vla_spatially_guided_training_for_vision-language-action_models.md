@@ -3,6 +3,10 @@ description: "【论文笔记】ST4VLA: Spatially Guided Training for Vision-Lan
 tags:
   - ICLR 2026
   - 视觉语言
+  - 空间引导训练
+  - 双系统架构
+  - 扩散策略
+  - 机器人操控
 ---
 
 # ST4VLA: Spatially Guided Training for Vision-Language-Action Models

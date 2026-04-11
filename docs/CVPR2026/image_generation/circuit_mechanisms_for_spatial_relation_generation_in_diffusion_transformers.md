@@ -3,6 +3,10 @@ description: "【论文笔记】Circuit Mechanisms for Spatial Relation Generati
 tags:
   - CVPR 2026
   - Transformer
+  - 可解释性
+  - 空间关系
+  - 交叉注意力电路
+  - 文本编码器
 ---
 
 # Circuit Mechanisms for Spatial Relation Generation in Diffusion Transformers

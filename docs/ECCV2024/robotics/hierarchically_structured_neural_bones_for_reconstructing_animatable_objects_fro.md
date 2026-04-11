@@ -3,6 +3,10 @@ description: "【论文笔记】Hierarchically Structured Neural Bones for Recon
 tags:
   - ECCV2024
   - 3D重建
+  - Neural Bones
+  - Hierarchical Deformation
+  - NeRF
+  - Manipulation
 ---
 
 # Hierarchically Structured Neural Bones for Reconstructing Animatable Objects from Casual Videos

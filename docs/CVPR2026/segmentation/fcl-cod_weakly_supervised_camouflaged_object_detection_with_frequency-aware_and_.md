@@ -3,6 +3,9 @@ description: "【论文笔记】FCL-COD: Weakly Supervised Camouflaged Object De
 tags:
   - CVPR 2026
   - 目标检测
+  - Weakly Supervised
+  - SAM
+  - Frequency-aware LoRA
   - 对比学习
 ---
 

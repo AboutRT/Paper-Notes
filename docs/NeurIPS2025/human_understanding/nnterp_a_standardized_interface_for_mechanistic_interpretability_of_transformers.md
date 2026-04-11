@@ -3,6 +3,9 @@ description: "【论文笔记】nnterp: A Standardized Interface for Mechanistic
 tags:
   - NeurIPS 2025
   - Transformer
+  - 统一接口
+  - NNsight 包装器
+  - 跨架构兼容性
 ---
 
 # nnterp: A Standardized Interface for Mechanistic Interpretability of Transformers

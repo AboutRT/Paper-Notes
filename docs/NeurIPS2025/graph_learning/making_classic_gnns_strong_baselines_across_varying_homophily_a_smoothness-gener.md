@@ -3,6 +3,9 @@ description: "【论文笔记】Making Classic GNNs Strong Baselines Across Vary
 tags:
   - NeurIPS 2025
   - 图神经网络
+  - Homophily
+  - Heterophily
+  - Smoothness-Generalization Dilemma
 ---
 
 # Making Classic GNNs Strong Baselines Across Varying Homophily: A Smoothness-Generalization Perspective

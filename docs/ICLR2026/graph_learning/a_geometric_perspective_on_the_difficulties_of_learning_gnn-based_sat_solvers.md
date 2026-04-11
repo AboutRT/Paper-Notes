@@ -3,6 +3,10 @@ description: "【论文笔记】A Geometric Perspective on the Difficulties of L
 tags:
   - ICLR 2026
   - 图神经网络
+  - SAT求解器
+  - Ricci曲率
+  - 过压缩
+  - 图几何
 ---
 
 # A Geometric Perspective on the Difficulties of Learning GNN-based SAT Solvers

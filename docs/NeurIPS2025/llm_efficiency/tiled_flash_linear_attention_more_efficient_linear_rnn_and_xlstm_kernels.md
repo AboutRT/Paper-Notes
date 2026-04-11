@@ -3,6 +3,11 @@ description: "【论文笔记】Tiled Flash Linear Attention: More Efficient Lin
 tags:
   - NeurIPS 2025
   - 注意力机制
+  - mLSTM
+  - xLSTM
+  - 线性RNN
+  - CUDA内核
+  - 分块并行
 ---
 
 # Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels

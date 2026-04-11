@@ -3,6 +3,10 @@ description: "【论文笔记】Feather the Throttle: Revisiting Visual Token Pr
 tags:
   - ICCV 2025
   - 剪枝
+  - VLM加速
+  - RoPE位置偏差
+  - 定位任务
+  - benchmark局限性
 ---
 
 # Feather the Throttle: Revisiting Visual Token Pruning for Vision-Language Model Acceleration

@@ -3,7 +3,10 @@ description: "【论文笔记】StreamingTOM: Streaming Token Compression for Ef
 tags:
   - CVPR2026
   - 视频理解
+  - token compression
   - 量化
+  - training-free
+  - causal inference
 ---
 
 # StreamingTOM: Streaming Token Compression for Efficient Video Understanding

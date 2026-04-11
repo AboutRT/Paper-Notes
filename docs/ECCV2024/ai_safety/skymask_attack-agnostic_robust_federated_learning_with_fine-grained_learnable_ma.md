@@ -3,6 +3,9 @@ description: "【论文笔记】SkyMask: Attack-Agnostic Robust Federated Learni
 tags:
   - ECCV2024
   - 联邦学习
+  - Byzantine Attack
+  - Learnable Mask
+  - Robust Aggregation
 ---
 
 # SkyMask: Attack-Agnostic Robust Federated Learning with Fine-Grained Learnable Masks

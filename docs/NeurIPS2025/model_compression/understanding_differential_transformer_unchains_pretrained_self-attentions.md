@@ -3,6 +3,10 @@ description: "【论文笔记】Understanding Differential Transformer Unchains 
 tags:
   - NeurIPS 2025
   - Transformer
+  - 注意力机制分析
+  - 注意力噪声消除
+  - 预训练注意力解放
+  - 可解释性
 ---
 
 # Understanding Differential Transformer Unchains Pretrained Self-Attentions

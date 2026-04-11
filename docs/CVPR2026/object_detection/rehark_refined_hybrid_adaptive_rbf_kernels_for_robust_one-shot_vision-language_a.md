@@ -3,6 +3,10 @@ description: "【论文笔记】ReHARK: Refined Hybrid Adaptive RBF Kernels for 
 tags:
   - CVPR 2026
   - 视觉语言
+  - One-Shot适应
+  - 核岭回归
+  - CLIP
+  - GPT3语义
 ---
 
 # ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation

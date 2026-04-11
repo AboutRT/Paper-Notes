@@ -3,6 +3,10 @@ description: "【论文笔记】A Gradient Flow Approach to Solving Inverse Prob
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - Wasserstein gradient flow
+  - inverse problem
+  - posterior sampling
+  - KL divergence
 ---
 
 # A Gradient Flow Approach to Solving Inverse Problems with Latent Diffusion Models

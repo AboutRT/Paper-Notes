@@ -3,6 +3,10 @@ description: "【论文笔记】Hierarchical Direction Perception via Atomic Dot
 tags:
   - AAAI2026
   - 点云
+  - rotation invariance
+  - dot-product operator
+  - spherical Fourier transform
+  - equivariance
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

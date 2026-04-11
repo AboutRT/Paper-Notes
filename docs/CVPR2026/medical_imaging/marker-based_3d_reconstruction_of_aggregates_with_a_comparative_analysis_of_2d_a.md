@@ -3,7 +3,11 @@ description: "【论文笔记】Marker-Based 3D Reconstruction of Aggregates wit
 tags:
   - CVPR 2026
   - 3D重建
+  - photogrammetry
+  - aggregate morphology
   - 点云
+  - marker-based
+  - QA/QC
 ---
 
 # Marker-Based 3D Reconstruction of Aggregates with a Comparative Analysis of 2D and 3D Morphologies

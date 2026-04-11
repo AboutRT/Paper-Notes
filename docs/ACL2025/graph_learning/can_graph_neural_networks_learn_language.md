@@ -3,7 +3,10 @@ description: "【论文笔记】Morpher: Can Graph Neural Networks Learn Languag
 tags:
   - ACL 2025
   - 图神经网络
+  - LLM alignment
   - 提示学习
+  - graph-text
+  - zero-shot graph classification
 ---
 
 # Morpher: Can Graph Neural Networks Learn Language with Extremely Weak Text Supervision?

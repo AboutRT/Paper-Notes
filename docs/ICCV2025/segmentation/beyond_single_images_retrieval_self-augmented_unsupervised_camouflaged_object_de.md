@@ -4,6 +4,9 @@ tags:
   - ICCV 2025
   - 目标检测
   - 图像分割
+  - retrieval-augmented
+  - KNN
+  - prototype library
 ---
 
 # Beyond Single Images: Retrieval Self-Augmented Unsupervised Camouflaged Object Detection

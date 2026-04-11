@@ -3,6 +3,10 @@ description: "【论文笔记】Class-Partitioned VQ-VAE and Latent Flow Matchin
 tags:
   - AAAI2026
   - 点云
+  - scene generation
+  - VQ-VAE
+  - flow matching
+  - codebook partitioning
 ---
 
 # Class-Partitioned VQ-VAE and Latent Flow Matching for Point Cloud Scene Generation

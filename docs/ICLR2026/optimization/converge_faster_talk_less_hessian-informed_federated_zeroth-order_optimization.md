@@ -3,6 +3,10 @@ description: "【论文笔记】Converge Faster, Talk Less: Hessian-Informed Fed
 tags:
   - ICLR2026
   - 联邦学习
+  - zeroth-order optimization
+  - Hessian preconditioning
+  - LLM fine-tuning
+  - communication efficiency
 ---
 
 # Converge Faster, Talk Less: Hessian-Informed Federated Zeroth-Order Optimization

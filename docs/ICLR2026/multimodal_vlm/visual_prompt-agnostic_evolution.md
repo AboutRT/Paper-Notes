@@ -4,6 +4,10 @@ tags:
   - ICLR2026
   - 提示学习
   - Transformer
+  - 参数高效微调
+  - Koopman算子
+  - 频域初始化
+  - Lyapunov稳定性
 ---
 
 # Visual Prompt-Agnostic Evolution

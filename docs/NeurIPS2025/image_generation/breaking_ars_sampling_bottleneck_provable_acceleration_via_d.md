@@ -3,6 +3,11 @@ description: "【论文笔记】Breaking AR's Sampling Bottleneck: Provable Acce
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - autoregressive bottleneck
+  - 收敛保证
+  - 信息论
+  - 采样加速
+  - 互信息
 ---
 
 # Breaking AR's Sampling Bottleneck: Provable Acceleration via Diffusion Language Models

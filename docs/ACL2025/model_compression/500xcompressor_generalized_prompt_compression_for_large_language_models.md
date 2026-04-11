@@ -3,6 +3,10 @@ description: "【论文笔记】500xCompressor: Generalized Prompt Compression f
 tags:
   - ACL 2025
   - 提示学习
+  - 软提示
+  - KV缓存
+  - 高压缩比
+  - 自编码器
 ---
 
 # 500xCompressor: Generalized Prompt Compression for Large Language Models

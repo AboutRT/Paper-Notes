@@ -3,7 +3,10 @@ description: "【论文笔记】CoReS: Orchestrating the Dance of Reasoning and 
 tags:
   - ECCV 2024
   - 图像分割
+  - chain-of-thought
+  - MLLM
   - 多模态
+  - SAM
 ---
 
 # CoReS: Orchestrating the Dance of Reasoning and Segmentation

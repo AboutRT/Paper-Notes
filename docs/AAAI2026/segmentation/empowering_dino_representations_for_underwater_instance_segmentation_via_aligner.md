@@ -3,7 +3,10 @@ description: "【论文笔记】Empowering DINO Representations for Underwater I
 tags:
   - AAAI2026
   - 图像分割
+  - DINOv2
   - 域适应
+  - Fourier style transfer
+  - foundation model fine-tuning
 ---
 
 # Empowering DINO Representations for Underwater Instance Segmentation via Aligner and Prompter

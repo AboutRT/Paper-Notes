@@ -6,6 +6,7 @@ tags:
   - 多模态
   - Transformer
   - 视觉语言
+  - Mixture of Experts
 ---
 
 # Towards Multi-modal Transformers in Federated Learning

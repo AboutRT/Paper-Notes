@@ -3,6 +3,10 @@ description: "【论文笔记】A Graph Neural Network Approach for Localized an
 tags:
   - NeurIPS 2025
   - 图神经网络
+  - 温度预报
+  - 高分辨率
+  - 热浪预警
+  - 气候公平
 ---
 
 # A Graph Neural Network Approach for Localized and High-Resolution Temperature Forecasting

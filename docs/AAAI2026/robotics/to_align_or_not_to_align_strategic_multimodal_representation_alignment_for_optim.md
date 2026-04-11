@@ -4,6 +4,9 @@ tags:
   - AAAI 2026
   - 多模态
   - 对比学习
+  - PID
+  - redundancy
+  - representation learning
 ---
 
 # To Align or Not to Align: Strategic Multimodal Representation Alignment for Optimal Performance

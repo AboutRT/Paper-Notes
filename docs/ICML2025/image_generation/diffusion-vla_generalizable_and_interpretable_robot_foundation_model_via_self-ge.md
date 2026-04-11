@@ -3,6 +3,10 @@ description: "【论文笔记】Diffusion-VLA: Generalizable and Interpretable R
 tags:
   - ICML 2025
   - 视觉语言
+  - 扩散策略
+  - 自回归推理
+  - 机器人操控
+  - 多模态基础模型
 ---
 
 # Diffusion-VLA: Generalizable and Interpretable Robot Foundation Model via Self-Generated Reasoning

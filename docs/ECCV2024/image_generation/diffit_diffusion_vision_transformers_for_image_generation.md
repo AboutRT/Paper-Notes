@@ -3,6 +3,10 @@ description: "【论文笔记】DiffiT: Diffusion Vision Transformers for Image 
 tags:
   - ECCV 2024
   - Transformer
+  - 时间依赖自注意力
+  - 扩散模型
+  - 图像生成
+  - 参数高效
 ---
 
 # DiffiT: Diffusion Vision Transformers for Image Generation

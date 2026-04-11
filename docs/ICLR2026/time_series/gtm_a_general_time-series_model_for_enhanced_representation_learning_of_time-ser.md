@@ -2,7 +2,11 @@
 description: "【论文笔记】GTM: A General Time-series Model for Enhanced Representation Learning of Time-Series Data 论文解读 | ICLR2026 | arXiv 2502.03264 | time-series foundation model | 提出 GTM，一个通过频域注意力机制捕获时间粒度感知特征的通用时序基础模型，结合混合掩码预训练策略，首次实现无需任务特定修改即可适配所有生成式时序任务。"
 tags:
   - ICLR2026
+  - time-series foundation model
   - 注意力机制
+  - representation learning
+  - hybrid masking
+  - multi-task
 ---
 
 # GTM: A General Time-series Model for Enhanced Representation Learning of Time-Series Data

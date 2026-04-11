@@ -4,6 +4,8 @@ tags:
   - ICLR 2026
   - 超分辨率
   - 扩散模型
+  - Adaptive Gating
+  - Implicit Correlation
 ---
 
 # Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution

@@ -3,6 +3,9 @@ description: "【论文笔记】Learning Optimal Multimodal Information Bottlene
 tags:
   - ICML2025
   - 多模态
+  - information bottleneck
+  - variational inference
+  - regularization bound
   - 注意力机制
 ---
 

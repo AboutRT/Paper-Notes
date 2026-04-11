@@ -4,6 +4,9 @@ tags:
   - NeurIPS 2025
   - 多模态
   - 对比学习
+  - curriculum learning
+  - hard negatives
+  - boundary-aware sampling
 ---
 
 # Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment

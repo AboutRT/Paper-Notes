@@ -3,6 +3,11 @@ description: "【论文笔记】Review, Remask, Refine (R3): Process-Guided Bloc
 tags:
   - ICML2025 (MOSS Workshop)
   - 扩散模型
+  - process reward model
+  - iterative refinement
+  - remasking
+  - text generation
+  - inference-time scaling
 ---
 
 # Review, Remask, Refine (R3): Process-Guided Block Diffusion for Text Generation

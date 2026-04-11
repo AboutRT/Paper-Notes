@@ -4,6 +4,9 @@ tags:
   - CVPR2026
   - 位姿估计
   - 多模态
+  - modality imbalance
+  - Shapley value
+  - Fisher Information Matrix
 ---
 
 # Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation

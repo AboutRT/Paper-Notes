@@ -3,6 +3,10 @@ description: "【论文笔记】High-Resolution Spatiotemporal Modeling with Glo
 tags:
   - ICCV 2025
   - 位姿估计
+  - Mamba
+  - State Space Model
+  - Spatiotemporal Modeling
+  - High-Resolution
 ---
 
 # High-Resolution Spatiotemporal Modeling with Global-Local State Space Models for Video-Based Human Pose Estimation

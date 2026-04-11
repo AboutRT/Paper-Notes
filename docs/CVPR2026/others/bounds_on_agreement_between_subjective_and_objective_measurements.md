@@ -2,6 +2,12 @@
 description: "【论文笔记】Bounds on Agreement between Subjective and Objective Measurements 论文解读 | CVPR2026 | arXiv 2603.13204 | 主观质量评估 | 推导了主观测试 MOS 值与任意客观质量估计器之间 PCC 上界和 MSE 下界的数学闭式解，并提出基于二项分布的投票模型 BinoVotes 在缺少投票方差信息时估算该界。"
 tags:
   - CVPR2026
+  - 主观质量评估
+  - MOS
+  - Pearson相关系数
+  - 均方误差
+  - 二项投票模型
+  - 客观估计器性能上界
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

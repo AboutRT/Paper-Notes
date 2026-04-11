@@ -3,6 +3,11 @@ description: "【论文笔记】MMSafeAware: Can't See the Forest for the Trees:
 tags:
   - ACL 2025
   - 多模态
+  - safety awareness
+  - over-sensitivity
+  - benchmark
+  - MLLM
+  - helpfulness-harmlessness trade-off
 ---
 
 # MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs

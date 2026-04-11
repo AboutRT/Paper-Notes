@@ -3,6 +3,11 @@ description: "【论文笔记】One Model, Many Budgets: Elastic Latent Interfac
 tags:
   - CVPR2026
   - Transformer
+  - 弹性推理
+  - 潜变量接口
+  - 自适应计算
+  - 多预算模型
+  - 跨注意力
 ---
 
 # One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers

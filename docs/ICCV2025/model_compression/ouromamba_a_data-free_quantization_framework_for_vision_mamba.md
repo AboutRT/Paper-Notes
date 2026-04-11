@@ -3,6 +3,9 @@ description: "【论文笔记】OuroMamba: A Data-Free Quantization Framework fo
 tags:
   - ICCV 2025
   - 量化
+  - Vision Mamba
+  - SSM
+  - Mixed-Precision
 ---
 
 # OuroMamba: A Data-Free Quantization Framework for Vision Mamba

@@ -3,6 +3,10 @@ description: "【论文笔记】Function Encoders: A Principled Approach to Tran
 tags:
   - ICML2025
   - 迁移学习
+  - Hilbert Space
+  - Basis Functions
+  - Function Encoder
+  - Least Squares
 ---
 
 # Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces

@@ -3,6 +3,10 @@ description: "【论文笔记】The Sharpness Disparity Principle in Transformer
 tags:
   - ICML 2025
   - Transformer
+  - 学习率调度
+  - Hessian分析
+  - 预训练加速
+  - 块级锐度
 ---
 
 # The Sharpness Disparity Principle in Transformers for Accelerating Language Model Pre-Training

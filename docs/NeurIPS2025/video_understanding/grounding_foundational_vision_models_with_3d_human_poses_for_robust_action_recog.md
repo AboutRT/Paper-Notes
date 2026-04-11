@@ -4,7 +4,10 @@ tags:
   - NEURIPS2025
   - 动作识别
   - 多模态
+  - 3D human pose
   - 注意力机制
+  - V-JEPA 2
+  - CoMotion
 ---
 
 # Grounding Foundational Vision Models with 3D Human Poses for Robust Action Recognition

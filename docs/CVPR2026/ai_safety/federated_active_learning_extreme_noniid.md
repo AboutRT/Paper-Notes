@@ -3,6 +3,11 @@ description: "【论文笔记】Federated Active Learning Under Extreme Non-IID 
 tags:
   - CVPR 2026
   - 联邦学习
+  - active learning
+  - non-IID
+  - class imbalance
+  - query selection
+  - class-fair sampling
 ---
 
 # Federated Active Learning Under Extreme Non-IID and Global Class Imbalance

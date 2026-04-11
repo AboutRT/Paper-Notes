@@ -3,6 +3,10 @@ description: "【论文笔记】AdaNAT: Exploring Adaptive Policy for Token-Base
 tags:
   - ECCV 2024
   - Transformer
+  - 强化学习
+  - 自适应生成策略
+  - 对抗奖励
+  - token生成
 ---
 
 # AdaNAT: Exploring Adaptive Policy for Token-Based Image Generation

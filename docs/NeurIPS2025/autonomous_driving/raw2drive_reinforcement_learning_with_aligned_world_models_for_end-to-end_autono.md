@@ -3,6 +3,10 @@ description: "【论文笔记】RAW2Drive: Reinforcement Learning with Aligned W
 tags:
   - NeurIPS 2025
   - 强化学习
+  - world model
+  - end-to-end driving
+  - CARLA
+  - dual-stream
 ---
 
 # RAW2Drive: Reinforcement Learning with Aligned World Models for End-to-End Autonomous Driving

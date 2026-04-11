@@ -3,6 +3,10 @@ description: "【论文笔记】LLM Enhancers for GNNs: An Analysis from the Per
 tags:
   - ICML2025
   - 图神经网络
+  - LLM Enhancer
+  - 因果机制识别
+  - 交换干预
+  - 注意力传输模块
 ---
 
 # LLM Enhancers for GNNs: An Analysis from the Perspective of Causal Mechanism Identification

@@ -2,6 +2,12 @@
 description: "【论文笔记】Reconstruction and Secrecy under Approximate Distance Queries 论文解读 | NeurIPS 2025 | arXiv 2511.06461 | 重建攻击 | 在近似距离查询模型下，通过学习理论视角研究重建博弈（reconstruction game），证明了最优重建误差等于Chebyshev半径的几何特征刻画，并对欧氏凸空间的伪有限性给出了完整分类。"
 tags:
   - NeurIPS 2025
+  - 重建攻击
+  - 隐私保护
+  - 近似距离查询
+  - 度量空间
+  - Chebyshev半径
+  - 伪有限空间
 ---
 
 # Reconstruction and Secrecy under Approximate Distance Queries

@@ -4,6 +4,9 @@ tags:
   - ECCV 2024
   - 图像分割
   - 扩散模型
+  - semantic correspondence
+  - training-free
+  - SAM
 ---
 
 # 3×2: 3D Object Part Segmentation by 2D Semantic Correspondences

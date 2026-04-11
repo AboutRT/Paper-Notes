@@ -3,6 +3,10 @@ description: "【论文笔记】Strategic Fusion Optimizes Transformer Compressi
 tags:
   - ICML2025
   - Transformer
+  - 层剪枝
+  - 知识蒸馏
+  - 信号融合
+  - 随机森林
 ---
 
 # Strategic Fusion Optimizes Transformer Compression

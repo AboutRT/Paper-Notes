@@ -3,6 +3,10 @@ description: "【论文笔记】GraphTOP: Graph Topology-Oriented Prompting for 
 tags:
   - NeurIPS 2025
   - 提示学习
+  - Topology
+  - Edge Rewiring
+  - Pre-training
+  - Gumbel-Softmax
 ---
 
 # GraphTOP: Graph Topology-Oriented Prompting for Graph Neural Networks

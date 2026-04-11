@@ -3,6 +3,10 @@ description: "【论文笔记】Draw-In-Mind: Rebalancing Designer-Painter Roles
 tags:
   - ICLR 2026
   - 多模态
+  - Chain-of-Thought
+  - Image Editing
+  - Designer-Painter
+  - Data-Centric
 ---
 
 # Draw-In-Mind: Rebalancing Designer-Painter Roles in Unified Multimodal Models Benefits Image Editing

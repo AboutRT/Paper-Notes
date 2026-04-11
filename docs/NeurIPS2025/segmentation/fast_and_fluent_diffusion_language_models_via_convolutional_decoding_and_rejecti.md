@@ -3,6 +3,10 @@ description: "【论文笔记】Fast and Fluent Diffusion Language Models via Co
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - convolutional decoding normalization
+  - rejective fine-tuning
+  - semi-autoregressive
+  - time-gap expansion
 ---
 
 # Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning

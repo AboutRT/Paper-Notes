@@ -4,6 +4,9 @@ tags:
   - NeurIPS 2025
   - Transformer
   - 提示学习
+  - Multi-Armed Bandit
+  - 离线多任务RL
+  - 少样本泛化
 ---
 
 # Prompt Tuning Decision Transformers with Structured and Scalable Bandits

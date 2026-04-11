@@ -3,6 +3,10 @@ description: "【论文笔记】FSL-SAGE: Accelerating Federated Split Learning 
 tags:
   - ICML 2025
   - 联邦学习
+  - split learning
+  - gradient estimation
+  - auxiliary model
+  - communication efficiency
 ---
 
 # FSL-SAGE: Accelerating Federated Split Learning via Smashed Activation Gradient Estimation

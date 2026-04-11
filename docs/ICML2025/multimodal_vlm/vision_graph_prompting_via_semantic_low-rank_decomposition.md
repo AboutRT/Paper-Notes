@@ -3,6 +3,9 @@ description: "【论文笔记】Vision Graph Prompting via Semantic Low-Rank Dec
 tags:
   - ICML2025
   - 图神经网络
+  - 视觉提示学习
+  - 低秩分解
+  - 参数高效微调
 ---
 
 # Vision Graph Prompting via Semantic Low-Rank Decomposition

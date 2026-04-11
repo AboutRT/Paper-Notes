@@ -3,6 +3,10 @@ description: "【论文笔记】Prompt-Driven Lightweight Foundation Model for I
 tags:
   - arXiv 2026
   - 提示学习
+  - lightweight
+  - foundation
+  - model
+  - instance
 ---
 
 # Prompt-Driven Lightweight Foundation Model for Instance Segmentation-Based Fault Detection in Freight Trains

@@ -4,6 +4,7 @@ tags:
   - AAAI2026
   - 位姿估计
   - 域适应
+  - catastrophic forgetting
   - GAN
   - 扩散模型
 ---

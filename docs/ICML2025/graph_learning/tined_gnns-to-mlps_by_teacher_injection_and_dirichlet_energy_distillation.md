@@ -3,6 +3,9 @@ description: "【论文笔记】TINED: GNNs-to-MLPs by Teacher Injection and Dir
 tags:
   - ICML 2025
   - 图神经网络
+  - Teacher Injection
+  - Dirichlet Energy
+  - 推理加速
 ---
 
 # TINED: GNNs-to-MLPs by Teacher Injection and Dirichlet Energy Distillation

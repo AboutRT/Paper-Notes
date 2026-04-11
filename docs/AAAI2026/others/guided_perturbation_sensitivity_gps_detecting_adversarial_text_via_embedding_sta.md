@@ -3,6 +3,10 @@ description: "【论文笔记】Guided Perturbation Sensitivity (GPS): Detecting
 tags:
   - AAAI 2026
   - 文本检测
+  - embedding stability
+  - word importance
+  - BiLSTM
+  - perturbation sensitivity
 ---
 
 # Guided Perturbation Sensitivity (GPS): Detecting Adversarial Text via Embedding Stability and Word Importance

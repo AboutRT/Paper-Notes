@@ -3,6 +3,10 @@ description: "【论文笔记】Graph Neural Networks for Efficient AC Power Flo
 tags:
   - NeurIPS 2025
   - 图神经网络
+  - AC 潮流计算
+  - 电力系统
+  - 图卷积
+  - 最优潮流
 ---
 
 # Graph Neural Networks for Efficient AC Power Flow Prediction in Power Grids

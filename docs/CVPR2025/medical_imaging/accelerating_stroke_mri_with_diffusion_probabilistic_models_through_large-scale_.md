@@ -3,6 +3,10 @@ description: "【论文笔记】Accelerating Stroke MRI with Diffusion Probabili
 tags:
   - CVPR2025
   - 扩散模型
+  - MRI Reconstruction
+  - Foundation Models
+  - Stroke MRI
+  - Fine-tuning
 ---
 
 # Accelerating Stroke MRI with Diffusion Probabilistic Models through Large-Scale Pre-training and Target-Specific Fine-Tuning

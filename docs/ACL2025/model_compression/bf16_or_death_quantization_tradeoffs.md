@@ -3,6 +3,11 @@ description: "【论文笔记】\"Give Me BF16 or Give Me Death\"? Accuracy-Perf
 tags:
   - ACL 2025
   - 量化
+  - FP8
+  - INT8
+  - INT4
+  - inference benchmark
+  - vLLM
 ---
 
 # "Give Me BF16 or Give Me Death"? Accuracy-Performance Trade-Offs in LLM Quantization

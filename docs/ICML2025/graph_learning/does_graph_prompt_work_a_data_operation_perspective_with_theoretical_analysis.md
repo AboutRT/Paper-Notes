@@ -3,6 +3,10 @@ description: "【论文笔记】Does Graph Prompt Work? A Data Operation Perspec
 tags:
   - ICML2025
   - 提示学习
+  - Bridge Set
+  - 数据操作
+  - 理论分析
+  - 误差上界
 ---
 
 # Does Graph Prompt Work? A Data Operation Perspective with Theoretical Analysis

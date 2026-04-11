@@ -3,6 +3,10 @@ description: "【论文笔记】DiT-IC: Aligned Diffusion Transformer for Effici
 tags:
   - CVPR 2025
   - Transformer
+  - 图像压缩
+  - 单步推理
+  - 方差引导
+  - 自蒸馏
 ---
 
 # DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression

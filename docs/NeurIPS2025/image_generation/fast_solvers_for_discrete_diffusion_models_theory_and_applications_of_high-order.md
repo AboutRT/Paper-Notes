@@ -3,6 +3,10 @@ description: "【论文笔记】Fast Solvers for Discrete Diffusion Models: Theo
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - high-order solver
+  - τ-leaping
+  - Trapezoidal method
+  - text generation
   - 图像生成
 ---
 

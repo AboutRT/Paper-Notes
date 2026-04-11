@@ -3,6 +3,10 @@ description: "【论文笔记】HarmoniCa: Harmonizing Training and Inference fo
 tags:
   - ICML 2025
   - Transformer
+  - 特征缓存
+  - 推理加速
+  - 训练-推理对齐
+  - 去噪训练
 ---
 
 # HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration

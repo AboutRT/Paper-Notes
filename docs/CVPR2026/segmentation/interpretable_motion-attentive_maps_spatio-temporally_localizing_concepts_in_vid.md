@@ -3,6 +3,10 @@ description: "【论文笔记】I'm a Map! Interpretable Motion-Attentive Maps: 
 tags:
   - CVPR 2026
   - Transformer
+  - 可解释显著性图
+  - 运动定位
+  - 零样本视频语义分割
+  - 注意力机制分析
 ---
 
 # I'm a Map! Interpretable Motion-Attentive Maps: Spatio-Temporally Localizing Concepts in Video Diffusion Transformers

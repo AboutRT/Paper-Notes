@@ -3,7 +3,10 @@ description: "【论文笔记】If Attention Serves as a Cognitive Model of Huma
 tags:
   - ACL 2025
   - 注意力机制
+  - 人类记忆检索
   - Transformer
+  - 句法结构
+  - 阅读时间预测
 ---
 
 # If Attention Serves as a Cognitive Model of Human Memory Retrieval, What is the Plausible Memory Representation?

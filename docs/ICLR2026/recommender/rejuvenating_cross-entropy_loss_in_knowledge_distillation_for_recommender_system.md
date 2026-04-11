@@ -3,6 +3,11 @@ description: "【论文笔记】Rejuvenating Cross-Entropy Loss in Knowledge Dis
 tags:
   - ICLR 2026
   - 知识蒸馏
+  - cross-entropy
+  - NDCG
+  - recommender system
+  - ranking
+  - partial NDCG
 ---
 
 # Rejuvenating Cross-Entropy Loss in Knowledge Distillation for Recommender Systems

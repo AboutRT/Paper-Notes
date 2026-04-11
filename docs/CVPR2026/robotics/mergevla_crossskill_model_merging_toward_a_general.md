@@ -3,6 +3,10 @@ description: "【论文笔记】MergeVLA: Cross-Skill Model Merging Toward a Gen
 tags:
   - CVPR 2026
   - 视觉语言
+  - 模型合并
+  - 多任务机器人
+  - task mask
+  - 跨技能泛化
 ---
 
 # MergeVLA: Cross-Skill Model Merging Toward a Generalist Vision-Language-Action Agent

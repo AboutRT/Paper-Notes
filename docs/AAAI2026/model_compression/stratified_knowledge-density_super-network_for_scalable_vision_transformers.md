@@ -3,6 +3,10 @@ description: "【论文笔记】Stratified Knowledge-Density Super-Network for S
 tags:
   - AAAI 2026
   - Transformer
+  - 超网络
+  - 知识密度分层
+  - PCA
+  - 渐进式dropout
 ---
 
 # Stratified Knowledge-Density Super-Network for Scalable Vision Transformers

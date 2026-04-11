@@ -4,6 +4,8 @@ tags:
   - ICCV 2025
   - 图像分割
   - 注意力机制
+  - key-value memory
+  - gated delta rule
 ---
 
 # GDKVM: Echocardiography Video Segmentation via Spatiotemporal Key-Value Memory with Gated Delta Rule

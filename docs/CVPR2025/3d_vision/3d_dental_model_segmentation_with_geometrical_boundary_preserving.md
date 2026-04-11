@@ -3,7 +3,10 @@ description: "【论文笔记】3D Dental Model Segmentation with Geometrical Bo
 tags:
   - CVPR 2025
   - 图像分割
+  - Intraoral Scan
+  - Selective Downsampling
   - 跨模态
+  - Boundary Preserving
 ---
 
 # 3D Dental Model Segmentation with Geometrical Boundary Preserving

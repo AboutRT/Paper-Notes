@@ -3,7 +3,10 @@ description: "【论文笔记】DETree: DEtecting Human-AI Collaborative Texts v
 tags:
   - NEURIPS2025
   - 文本检测
+  - human-AI collaborative text
+  - hierarchical representation learning
   - 对比学习
+  - out-of-distribution generalization
 ---
 
 # DETree: DEtecting Human-AI Collaborative Texts via Tree-Structured Hierarchical Representation Learning

@@ -3,6 +3,9 @@ description: "【论文笔记】No Other Representation Component Is Needed: Dif
 tags:
   - ICLR2026
   - Transformer
+  - self-representation alignment
+  - DiT
+  - SiT
   - 图像生成
 ---
 

@@ -3,6 +3,10 @@ description: "【论文笔记】Condition Matters in Full-head 3D GANs 论文解
 tags:
   - ICLR2026
   - GAN
+  - full-head generation
+  - semantic conditioning
+  - view conditioning
+  - synthetic data
 ---
 
 # Condition Matters in Full-head 3D GANs

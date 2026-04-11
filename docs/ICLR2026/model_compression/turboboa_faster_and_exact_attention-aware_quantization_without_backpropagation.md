@@ -4,6 +4,8 @@ tags:
   - ICLR 2026
   - 量化
   - 注意力机制
+  - backpropagation-free
+  - LLM compression
 ---
 
 # TurboBoA: Faster and Exact Attention-aware Quantization without Backpropagation

@@ -2,7 +2,11 @@
 description: "【论文笔记】Latent Representation Learning in Heavy-Ion Collisions with MaskPoint Transformer 论文解读 | NEURIPS2025 (Workshop: ML and Physical Sciences) | arXiv 2510.06691 | 重离子碰撞 | 将掩码点云 Transformer 自编码器引入重离子碰撞分析，通过自监督预训练+监督微调的两阶段范式，学习到比 PointNet 更强的非线性潜在表征（PC1 分布重叠从 2.42% 降至 0.27%），为 QGP 性质研究提供了通用特征学习框架。"
 tags:
   - NEURIPS2025 (Workshop: ML and Physical Sciences)
+  - 重离子碰撞
+  - 掩码自编码器
   - Transformer
+  - 自监督预训练
+  - 夸克胶子等离子体
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

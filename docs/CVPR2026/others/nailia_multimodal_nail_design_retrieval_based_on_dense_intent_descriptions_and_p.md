@@ -3,7 +3,12 @@ description: "【论文笔记】NaiLIA: Multimodal Nail Design Retrieval Based o
 tags:
   - CVPR2026
   - 多模态
+  - dense intent description
+  - palette query
   - 对比学习
+  - unlabeled positive
+  - fashion AI
+  - nail design
 ---
 
 # NaiLIA: Multimodal Nail Design Retrieval Based on Dense Intent Descriptions and Palette Queries

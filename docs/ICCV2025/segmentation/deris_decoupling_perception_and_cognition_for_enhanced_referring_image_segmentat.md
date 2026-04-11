@@ -3,6 +3,10 @@ description: "【论文笔记】DeRIS: Decoupling Perception and Cognition for E
 tags:
   - ICCV 2025
   - 图像分割
+  - perception-cognition decoupling
+  - loopback synergy
+  - non-referent
+  - GRES
 ---
 
 # DeRIS: Decoupling Perception and Cognition for Enhanced Referring Image Segmentation through Loopback Synergy

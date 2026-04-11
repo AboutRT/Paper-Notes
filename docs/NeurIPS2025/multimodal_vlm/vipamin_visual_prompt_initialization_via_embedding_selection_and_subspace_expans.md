@@ -3,7 +3,10 @@ description: "【论文笔记】VIPAMIN: Visual Prompt Initialization via Embedd
 tags:
   - NeurIPS 2025
   - 提示学习
+  - 参数高效微调
+  - 自监督学习
   - Transformer
+  - 子空间扩展
 ---
 
 # VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion

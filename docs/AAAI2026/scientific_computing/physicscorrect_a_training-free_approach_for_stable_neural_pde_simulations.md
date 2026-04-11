@@ -3,6 +3,10 @@ description: "【论文笔记】PhysicsCorrect: A Training-Free Approach for Sta
 tags:
   - AAAI 2026
   - 偏微分方程
+  - 误差累积
+  - 预测-校正
+  - 训练无关
+  - 雅可比缓存
 ---
 
 # PhysicsCorrect: A Training-Free Approach for Stable Neural PDE Simulations

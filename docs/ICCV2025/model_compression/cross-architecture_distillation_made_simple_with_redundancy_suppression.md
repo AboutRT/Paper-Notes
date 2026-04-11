@@ -3,6 +3,10 @@ description: "【论文笔记】Cross-Architecture Distillation Made Simple with
 tags:
   - ICCV 2025
   - 知识蒸馏
+  - cross-architecture
+  - redundancy suppression
+  - feature decorrelation
+  - CNN-ViT-MLP
 ---
 
 # Cross-Architecture Distillation Made Simple with Redundancy Suppression

@@ -3,7 +3,10 @@ description: "【论文笔记】ASSIST-3D: Adapted Scene Synthesis for Class-Agn
 tags:
   - AAAI 2026
   - 图像分割
+  - 3D scene synthesis
+  - synthetic data
   - 点云
+  - LLM-guided layout
 ---
 
 # ASSIST-3D: Adapted Scene Synthesis for Class-Agnostic 3D Instance Segmentation

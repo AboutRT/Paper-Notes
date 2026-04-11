@@ -3,6 +3,10 @@ description: "【论文笔记】Scaling Language-Free Visual Representation Lear
 tags:
   - ICCV 2025
   - 自监督学习
+  - CLIP对比
+  - scaling law
+  - VQA评估
+  - 无语言监督
 ---
 
 # Scaling Language-Free Visual Representation Learning

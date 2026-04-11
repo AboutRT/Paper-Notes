@@ -3,6 +3,10 @@ description: "【论文笔记】Layer by layer, module by module: Choose both fo
 tags:
   - ICLR 2026 (CAO Workshop)
   - Transformer
+  - 线性探测
+  - 分布偏移
+  - 中间层表征
+  - OOD
 ---
 
 # Layer by layer, module by module: Choose both for optimal OOD probing of ViT

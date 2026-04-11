@@ -3,6 +3,8 @@ description: "【论文笔记】Quantization Error Propagation: Revisiting Layer
 tags:
   - NeurIPS 2025
   - 量化
+  - LLM compression
+  - low-bit
 ---
 
 # Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization

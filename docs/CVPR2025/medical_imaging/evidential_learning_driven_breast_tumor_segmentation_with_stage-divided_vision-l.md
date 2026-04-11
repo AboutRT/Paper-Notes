@@ -4,7 +4,9 @@ tags:
   - CVPR2025
   - 图像分割
   - 视觉语言
+  - evidential learning
   - 注意力机制
+  - DCE-MRI
 ---
 
 # Evidential learning driven Breast Tumor Segmentation with Stage-divided Vision-Language Interaction

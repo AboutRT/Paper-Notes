@@ -3,7 +3,10 @@ description: "【论文笔记】RnG: A Unified Transformer for Complete 3D Model
 tags:
   - CVPR 2026
   - 3D重建
+  - novel view synthesis
   - Transformer
+  - KV-Cache
+  - feed-forward
 ---
 
 # RnG: A Unified Transformer for Complete 3D Modeling from Partial Observations

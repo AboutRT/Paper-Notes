@@ -3,6 +3,9 @@ description: "【论文笔记】Beyond Masked and Unmasked: Discrete Diffusion M
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - partial masking
+  - intermediate states
+  - text generation
   - 图像生成
 ---
 

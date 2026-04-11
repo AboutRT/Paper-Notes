@@ -5,6 +5,8 @@ tags:
   - 神经算子
   - 迁移学习
   - 偏微分方程
+  - multiphysics
+  - foundation model
 ---
 
 # Towards Universal Neural Operators through Multiphysics Pretraining

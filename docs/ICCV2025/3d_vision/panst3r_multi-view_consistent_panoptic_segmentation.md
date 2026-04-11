@@ -4,6 +4,9 @@ tags:
   - ICCV 2025
   - 图像分割
   - 3D重建
+  - MUSt3R
+  - Multi-view
+  - Mask Prediction
 ---
 
 # PanSt3R: Multi-view Consistent Panoptic Segmentation

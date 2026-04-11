@@ -3,7 +3,11 @@ description: "【论文笔记】MegaPairs: Massive Data Synthesis For Universal 
 tags:
   - ACL 2025
   - 多模态
+  - Data Synthesis
+  - Composed Image Retrieval
   - 对比学习
+  - Instruction Tuning
+  - Hard Negatives
 ---
 
 # MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval

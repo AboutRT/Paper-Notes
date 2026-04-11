@@ -3,6 +3,10 @@ description: "【论文笔记】MonarchAttention: Zero-Shot Conversion to Fast, 
 tags:
   - NeurIPS 2025
   - 注意力机制
+  - Monarch matrices
+  - structured matrices
+  - hardware-aware
+  - zero-shot conversion
 ---
 
 # MonarchAttention: Zero-Shot Conversion to Fast, Hardware-Aware Structured Attention

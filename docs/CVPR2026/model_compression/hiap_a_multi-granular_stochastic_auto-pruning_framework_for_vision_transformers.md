@@ -3,6 +3,10 @@ description: "【论文笔记】HiAP: A Multi-Granular Stochastic Auto-Pruning F
 tags:
   - CVPR 2026
   - Transformer
+  - 多粒度结构化剪枝
+  - Gumbel-Sigmoid门控
+  - 预算感知优化
+  - 单阶段压缩
 ---
 
 # HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers

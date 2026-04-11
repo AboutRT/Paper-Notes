@@ -3,6 +3,11 @@ description: "【论文笔记】FLOSS: Free Lunch in Open-vocabulary Semantic Se
 tags:
   - ICCV 2025
   - 图像分割
+  - template selection
+  - class-expert
+  - entropy
+  - plug-and-play
+  - training-free
 ---
 
 # FLOSS: Free Lunch in Open-vocabulary Semantic Segmentation

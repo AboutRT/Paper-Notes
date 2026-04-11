@@ -3,6 +3,10 @@ description: "【论文笔记】Index-Preserving Lightweight Token Pruning for E
 tags:
   - ICLR 2026 (Workshop on MM Intelligence)
   - 剪枝
+  - document understanding
+  - VLM efficiency
+  - patch classifier
+  - spatial coherence
 ---
 
 # Index-Preserving Lightweight Token Pruning for Efficient Document Understanding

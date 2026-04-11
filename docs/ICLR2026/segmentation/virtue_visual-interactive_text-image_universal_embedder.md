@@ -3,6 +3,11 @@ description: "【论文笔记】VIRTUE: Visual-Interactive Text-Image Universal 
 tags:
   - ICLR 2026
   - 提示学习
+  - embedding model
+  - SAM2
+  - VLM
+  - visual-interactive
+  - retrieval
 ---
 
 # VIRTUE: Visual-Interactive Text-Image Universal Embedder

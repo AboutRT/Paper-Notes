@@ -3,8 +3,10 @@ description: "【论文笔记】Co-Reinforcement Learning for Unified Multimodal
 tags:
   - NeurIPS 2025
   - 多模态
+  - GRPO
   - 强化学习
   - 视觉语言
+  - text-to-image
 ---
 
 # Co-Reinforcement Learning for Unified Multimodal Understanding and Generation

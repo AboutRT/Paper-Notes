@@ -4,6 +4,9 @@ tags:
   - ICML2025
   - 注意力机制
   - Transformer
+  - 算法执行
+  - 并行计算模型
+  - 泛化界
 ---
 
 # Positional Attention: Expressivity and Learnability of Algorithmic Computation

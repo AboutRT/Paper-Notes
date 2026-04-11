@@ -3,6 +3,10 @@ description: "【论文笔记】CoLA: Conditional Dropout and Language-Driven Ro
 tags:
   - ECCV2024
   - 目标检测
+  - Modality Robustness
+  - CLIP
+  - Conditional Dropout
+  - Quality Assessment
 ---
 
 # CoLA: Conditional Dropout and Language-Driven Robust Dual-Modal Salient Object Detection

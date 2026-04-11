@@ -3,6 +3,10 @@ description: "【论文笔记】Principled Understanding of Generalization for G
 tags:
   - ACL 2025
   - Transformer
+  - 算术推理
+  - 长度泛化
+  - 位置编码
+  - 理论分析
 ---
 
 # Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks

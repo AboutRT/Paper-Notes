@@ -3,7 +3,12 @@ description: "【论文笔记】FineRS: Fine-grained Reasoning and Segmentation 
 tags:
   - NeurIPS 2025
   - 图像分割
+  - MLLM
   - 强化学习
+  - GRPO
+  - coarse-to-fine
+  - high-resolution
+  - UAV
 ---
 
 # FineRS: Fine-grained Reasoning and Segmentation of Small Objects with Reinforcement Learning

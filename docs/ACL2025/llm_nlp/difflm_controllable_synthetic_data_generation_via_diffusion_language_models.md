@@ -3,6 +3,9 @@ description: "【论文笔记】DiffLM: Controllable Synthetic Data Generation v
 tags:
   - ACL 2025
   - 扩散模型
+  - synthetic data
+  - controllable generation
+  - text generation
   - 数据增强
 ---
 

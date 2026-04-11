@@ -3,6 +3,10 @@ description: "【论文笔记】MMMU-Pro: A More Robust Multi-discipline Multimo
 tags:
   - ACL 2025
   - 多模态
+  - MMMU
+  - vision-only
+  - robust evaluation
+  - shortcut
 ---
 
 # MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark

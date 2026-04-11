@@ -3,6 +3,10 @@ description: "【论文笔记】GIIM: Graph-based Learning of Inter- and Intra-v
 tags:
   - CVPR2025
   - 图神经网络
+  - multi-view
+  - heterogeneous graph
+  - missing view
+  - medical image classification
 ---
 
 # GIIM: Graph-based Learning of Inter- and Intra-view Dependencies for Multi-view Medical Image Diagnosis

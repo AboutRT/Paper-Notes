@@ -3,7 +3,10 @@ description: "【论文笔记】Benchmarks and Challenges in Pose Estimation for
 tags:
   - ECCV2024
   - 位姿估计
+  - hand-object interaction
   - 3D重建
+  - benchmark
+  - multi-view fusion
 ---
 
 # Benchmarks and Challenges in Pose Estimation for Egocentric Hand Interactions with Objects

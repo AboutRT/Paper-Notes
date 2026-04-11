@@ -3,6 +3,10 @@ description: "【论文笔记】How Many Tokens Do 3D Point Cloud Transformer Ar
 tags:
   - NeurIPS 2025
   - Transformer
+  - Token冗余
+  - Token合并
+  - 3D语义分割
+  - 计算效率
 ---
 
 # How Many Tokens Do 3D Point Cloud Transformer Architectures Really Need?

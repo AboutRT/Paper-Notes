@@ -3,6 +3,10 @@ description: "【论文笔记】Why Attention Patterns Exist: A Unifying Tempora
 tags:
   - ICLR 2026
   - 注意力机制
+  - temporal analysis
+  - RoPE
+  - query self-similarity
+  - KV cache compression
   - 剪枝
 ---
 

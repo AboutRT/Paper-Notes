@@ -3,6 +3,11 @@ description: "【论文笔记】FOXES: A Framework For Operational X-ray Emissio
 tags:
   - NeurIPS 2025
   - Transformer
+  - 太阳耀斑
+  - EUV-SXR翻译
+  - 空间天气
+  - 注意力图
+  - 耀斑分类
 ---
 
 # FOXES: A Framework For Operational X-ray Emission Synthesis

@@ -3,7 +3,10 @@ description: "【论文笔记】O-MaMa: Learning Object Mask Matching between Eg
 tags:
   - ICCV 2025
   - 图像分割
+  - Mask Matching
+  - Ego-Exo Correspondences
   - 对比学习
+  - DINOv2
 ---
 
 # O-MaMa: Learning Object Mask Matching between Egocentric and Exocentric Views

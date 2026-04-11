@@ -3,6 +3,11 @@ description: "【论文笔记】Towards Robust and Efficient Federated Low-Rank 
 tags:
   - ACL 2025 (Long Paper, pp. 416–429)
   - 联邦学习
+  - LoRA
+  - Aggregation Discordance
+  - Alternating Freeze
+  - Adaptive Rank Selection
+  - Communication Efficiency
 ---
 
 # Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients

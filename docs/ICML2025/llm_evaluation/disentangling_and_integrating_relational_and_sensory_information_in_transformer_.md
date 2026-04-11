@@ -3,7 +3,10 @@ description: "【论文笔记】Disentangling and Integrating Relational and Sen
 tags:
   - ICML 2025
   - 注意力机制
+  - 关系推理
   - Transformer
+  - 归纳偏置
+  - 关系注意力
 ---
 
 # Disentangling and Integrating Relational and Sensory Information in Transformer Architectures

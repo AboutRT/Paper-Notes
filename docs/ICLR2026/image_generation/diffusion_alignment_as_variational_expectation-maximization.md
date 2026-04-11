@@ -3,6 +3,10 @@ description: "【论文笔记】Diffusion Alignment as Variational Expectation-M
 tags:
   - ICLR 2026
   - 扩散模型
+  - expectation-maximization
+  - test-time search
+  - reward optimization
+  - mode collapse prevention
 ---
 
 # Diffusion Alignment as Variational Expectation-Maximization

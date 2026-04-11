@@ -3,6 +3,10 @@ description: "【论文笔记】A Systematic Evaluation of Preference Aggregatio
 tags:
   - NEURIPS2025
   - 联邦学习
+  - RLHF
+  - Pluralistic Alignment
+  - Preference Aggregation
+  - Fairness
 ---
 
 # A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs

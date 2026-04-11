@@ -3,6 +3,10 @@ description: "【论文笔记】DynaGuide: Steering Diffusion Policies with Acti
 tags:
   - NeurIPS 2025
   - 扩散模型
+  - Classifier Guidance
+  - Latent Dynamics Model
+  - DinoV2
+  - Robot Manipulation
 ---
 
 # DynaGuide: Steering Diffusion Policies with Active Dynamic Guidance

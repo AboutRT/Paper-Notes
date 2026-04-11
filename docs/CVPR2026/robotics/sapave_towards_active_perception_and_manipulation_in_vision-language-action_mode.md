@@ -2,7 +2,12 @@
 description: "【论文笔记】SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics 论文解读 | CVPR2026 | arXiv 2603.12193 | 主动感知 | 提出 SaPaVe 端到端框架，通过解耦相机运动与操控动作的两阶段自底向上学习策略，实现语义驱动的主动感知与视角不变的操控执行，在真实世界任务中超越 GR00T N1 和 π₀ 分别 31.25% 和 40%。"
 tags:
   - CVPR2026
+  - 主动感知
+  - 主动操控
   - 视觉语言
+  - 语义相机控制
+  - 解耦动作空间
+  - 3D空间感知
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

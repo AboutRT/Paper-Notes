@@ -2,6 +2,11 @@
 description: "【论文笔记】Anti-Aliased 2D Gaussian Splatting 论文解读 | NeurIPS 2025 | arXiv 2506.11252 | 2D Gaussian Splatting | 提出 AA-2DGS，通过世界空间平坦平滑核和物体空间 Mip 滤波器两个互补机制，解决 2D Gaussian Splatting 在不同采样率下渲染时的严重锯齿问题，在保持 2DGS 几何精度优势的同时显著提升多尺度渲染质量。"
 tags:
   - NeurIPS 2025
+  - 2D Gaussian Splatting
+  - 抗锯齿
+  - 新视角合成
+  - 表面重建
+  - Mip 滤波
 ---
 
 # Anti-Aliased 2D Gaussian Splatting

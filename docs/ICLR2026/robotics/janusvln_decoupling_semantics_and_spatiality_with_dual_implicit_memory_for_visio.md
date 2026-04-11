@@ -3,6 +3,10 @@ description: "【论文笔记】JanusVLN: Decoupling Semantics and Spatiality wi
 tags:
   - ICLR2026
   - 视觉语言
+  - Dual Implicit Memory
+  - Spatial-Geometric Encoding
+  - KV Cache
+  - Embodied AI
 ---
 
 # JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
