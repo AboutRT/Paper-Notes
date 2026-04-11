@@ -1,9 +1,9 @@
 # Semantic Shift Estimation via Dual-Projection and Classifier Reconstruction for Exemplar-Free Class-Incremental Learning
 
-**会议**: ICML2025
-**arXiv**: [2503.05423](https://arxiv.org/abs/2503.05423)
-**代码**: [RHe502/ICML25-DPCR](https://github.com/RHe502/ICML25-DPCR)
-**领域**: 域适应 / 持续学习
+**会议**: ICML2025  
+**arXiv**: [2503.05423](https://arxiv.org/abs/2503.05423)  
+**代码**: [RHe502/ICML25-DPCR](https://github.com/RHe502/ICML25-DPCR)  
+**领域**: 域适应 / 持续学习  
 **关键词**: 类增量学习, 无样例存储, 语义漂移估计, 双投影, 岭回归分类器重建
 
 ## 一句话总结

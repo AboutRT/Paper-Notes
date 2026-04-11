@@ -1,9 +1,9 @@
 # On the Clean Generalization and Robust Overfitting in Adversarial Training from Two Theoretical Views: Representation Complexity and Training Dynamics
 
-**会议**: ICML2025
-**arXiv**: [2306.01271](https://arxiv.org/abs/2306.01271)
-**代码**: 无
-**领域**: 其他/对抗训练理论
+**会议**: ICML2025  
+**arXiv**: [2306.01271](https://arxiv.org/abs/2306.01271)  
+**代码**: 无  
+**领域**: 其他/对抗训练理论  
 **关键词**: 对抗训练, 鲁棒过拟合, 干净泛化, 表示复杂度, 训练动态, 特征学习
 
 ## 一句话总结

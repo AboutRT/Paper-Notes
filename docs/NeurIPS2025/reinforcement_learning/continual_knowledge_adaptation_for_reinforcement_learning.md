@@ -1,9 +1,9 @@
 # Continual Knowledge Adaptation for Reinforcement Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19314](https://arxiv.org/abs/2510.19314)
-**代码**: [GitHub](https://github.com/Fhujinwu/CKA-RL)
-**领域**: 强化学习 / 持续学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19314](https://arxiv.org/abs/2510.19314)  
+**代码**: [GitHub](https://github.com/Fhujinwu/CKA-RL)  
+**领域**: 强化学习 / 持续学习  
 **关键词**: continual RL, knowledge vector, catastrophic forgetting, forward transfer, knowledge merging
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Neural Stochastic Differential Equations on Compact State Spaces: Theory, Methods and Applications
 
-**会议**: ICML 2025
-**arXiv**: [2508.17090](https://arxiv.org/abs/2508.17090)
-**代码**: 无
-**领域**: Dynamical Systems / Neural SDEs
+**会议**: ICML 2025  
+**arXiv**: [2508.17090](https://arxiv.org/abs/2508.17090)  
+**代码**: 无  
+**领域**: Dynamical Systems / Neural SDEs  
 **关键词**: 神经SDE, 紧状态空间, 随机生存理论, 归纳偏置, 多面体
 
 ## 一句话总结

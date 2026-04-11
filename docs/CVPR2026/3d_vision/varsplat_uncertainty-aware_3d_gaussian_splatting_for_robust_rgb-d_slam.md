@@ -1,9 +1,9 @@
 # VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM
 
-**会议**: CVPR2026
-**arXiv**: [2603.09673](https://arxiv.org/abs/2603.09673)
-**代码**: [项目主页](https://anhthuan1999.github.io/varsplat/)
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2603.09673](https://arxiv.org/abs/2603.09673)  
+**代码**: [项目主页](https://anhthuan1999.github.io/varsplat/)  
+**领域**: 3d_vision  
 **关键词**: 3D Gaussian Splatting, SLAM, 不确定性建模, RGB-D, alpha合成
 
 ## 一句话总结

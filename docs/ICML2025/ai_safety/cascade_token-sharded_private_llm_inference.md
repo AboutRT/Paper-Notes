@@ -1,9 +1,9 @@
 # Cascade: Token-Sharded Private LLM Inference
 
-**会议**: ICML 2025
-**arXiv**: [2507.05228](https://arxiv.org/abs/2507.05228)
-**代码**: 无
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2507.05228](https://arxiv.org/abs/2507.05228)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 隐私推理, Token分片, 多方计算, LLM隐私, vocab-matching攻击
 
 ## 一句话总结

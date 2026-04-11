@@ -1,9 +1,9 @@
 # BEAVER: Building Environments with Assessable Variation for Evaluating Multi-Objective Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2507.07769](https://arxiv.org/abs/2507.07769)
-**代码**: https://github.com/chennnnnyize/BEAVER
-**领域**: 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2507.07769](https://arxiv.org/abs/2507.07769)  
+**代码**: https://github.com/chennnnnyize/BEAVER  
+**领域**: 强化学习  
 **关键词**: 多目标RL, 建筑能源管理, 泛化评估, 上下文MDP, 基准环境
 
 ## 一句话总结

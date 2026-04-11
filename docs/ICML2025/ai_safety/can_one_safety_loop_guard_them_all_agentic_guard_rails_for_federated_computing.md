@@ -1,9 +1,9 @@
 # Can One Safety Loop Guard Them All? Agentic Guard Rails for Federated Computing
 
-**会议**: ICML 2025
-**arXiv**: [2506.20000](https://arxiv.org/abs/2506.20000)
-**代码**: 无
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2506.20000](https://arxiv.org/abs/2506.20000)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 联邦计算, 隐私保护, 安全框架, Agentic AI, 护栏机制
 
 ## 一句话总结

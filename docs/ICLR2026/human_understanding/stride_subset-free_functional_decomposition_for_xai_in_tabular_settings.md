@@ -1,8 +1,8 @@
 # STRIDE: Subset-Free Functional Decomposition for XAI in Tabular Settings
 
-**会议**: ICLR 2026
-**arXiv**: [2509.09070](https://arxiv.org/abs/2509.09070)
-**领域**: 可解释AI/表格数据
+**会议**: ICLR 2026  
+**arXiv**: [2509.09070](https://arxiv.org/abs/2509.09070)  
+**领域**: 可解释AI/表格数据  
 **关键词**: 功能分解, RKHS, 特征交互, 正交分解, 核方法, TreeSHAP, 成分手术
 
 ## 一句话总结

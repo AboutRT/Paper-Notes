@@ -1,9 +1,9 @@
 # Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination with Embodied World Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2508.02912](https://arxiv.org/abs/2508.02912)
-**代码**: 待确认
-**领域**: reinforcement_learning
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.02912](https://arxiv.org/abs/2508.02912)  
+**代码**: 待确认  
+**领域**: reinforcement_learning  
 **关键词**: 多智能体强化学习, 世界模型, 通信协议, 意图通信, Dec-POMDP
 
 ## 一句话总结

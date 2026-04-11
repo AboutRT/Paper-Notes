@@ -1,10 +1,10 @@
 # TR2M: Transferring Monocular Relative Depth to Metric Depth with Language Descriptions and Dual-Level Scale-Oriented Contrast
 
-**会议**: CVPR2026
-**arXiv**: [2506.13387](https://arxiv.org/abs/2506.13387)
-**代码**: [GitHub](https://github.com/BeileiCui/TR2M)
+**会议**: CVPR2026  
+**arXiv**: [2506.13387](https://arxiv.org/abs/2506.13387)  
+**代码**: [GitHub](https://github.com/BeileiCui/TR2M)  
 **机构**: 香港中文大学
-**领域**: 3d_vision
+**领域**: 3d_vision  
 **关键词**: 单目深度估计, 相对深度转度量深度, 语言描述, 跨模态注意力, 对比学习, 像素级缩放
 
 ## 一句话总结

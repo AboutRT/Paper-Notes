@@ -1,9 +1,9 @@
 # Discovering Global False Negatives On the Fly for Self-supervised Contrastive Learning
 
-**会议**: ICML2025
-**arXiv**: [2502.20612](https://arxiv.org/abs/2502.20612)
-**代码**: [vibalcam/GloFND](https://github.com/vibalcam/GloFND)
-**领域**: 对比学习 / 自监督学习
+**会议**: ICML2025  
+**arXiv**: [2502.20612](https://arxiv.org/abs/2502.20612)  
+**代码**: [vibalcam/GloFND](https://github.com/vibalcam/GloFND)  
+**领域**: 对比学习 / 自监督学习  
 **关键词**: 对比学习, 假阴性发现, 自监督表示学习, 全局阈值优化, SogCLR
 
 ## 一句话总结

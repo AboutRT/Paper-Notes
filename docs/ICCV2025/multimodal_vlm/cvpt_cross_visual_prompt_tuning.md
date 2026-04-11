@@ -1,9 +1,9 @@
 # CVPT: Cross Visual Prompt Tuning
 
-**会议**: ICCV2025
-**arXiv**: [2408.14961](https://arxiv.org/abs/2408.14961)
-**代码**: https://github.com/Lingyun0419/CVPT
-**领域**: 多模态VLM / 参数高效微调
+**会议**: ICCV2025  
+**arXiv**: [2408.14961](https://arxiv.org/abs/2408.14961)  
+**代码**: https://github.com/Lingyun0419/CVPT  
+**领域**: 多模态VLM / 参数高效微调  
 **关键词**: Visual Prompt Tuning, Cross-Attention, PEFT, Parameter-Efficient Fine-Tuning, Weight Sharing
 
 ## 一句话总结

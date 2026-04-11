@@ -1,9 +1,9 @@
 # Maximal Update Parametrization and Zero-Shot Hyperparameter Transfer for Fourier Neural Operators
 
-**会议**: ICML2025
-**arXiv**: [2506.19396](https://arxiv.org/abs/2506.19396)
-**代码**: [LithiumDA/muTransfer-FNO](https://github.com/LithiumDA/muTransfer-FNO)
-**领域**: 科学计算 / Fourier Neural Operator
+**会议**: ICML2025  
+**arXiv**: [2506.19396](https://arxiv.org/abs/2506.19396)  
+**代码**: [LithiumDA/muTransfer-FNO](https://github.com/LithiumDA/muTransfer-FNO)  
+**领域**: 科学计算 / Fourier Neural Operator  
 **关键词**: μP, μTransfer, FNO, 超参数迁移, PDE 求解, Fourier 模式缩放
 
 ## 一句话总结

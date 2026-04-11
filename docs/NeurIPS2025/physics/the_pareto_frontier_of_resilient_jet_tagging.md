@@ -1,9 +1,9 @@
 # The Pareto Frontier of Resilient Jet Tagging
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.19431](https://arxiv.org/abs/2509.19431)
-**代码**: [Zenodo](https://zenodo.org/) (数据集公开)
-**领域**: Physics / ML for HEP
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.19431](https://arxiv.org/abs/2509.19431)  
+**代码**: [Zenodo](https://zenodo.org/) (数据集公开)  
+**领域**: Physics / ML for HEP  
 **关键词**: jet tagging, Pareto frontier, resilience, model dependence, quark/gluon discrimination
 
 ## 一句话总结

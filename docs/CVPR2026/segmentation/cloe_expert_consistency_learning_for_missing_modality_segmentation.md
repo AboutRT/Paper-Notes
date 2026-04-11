@@ -1,9 +1,9 @@
 # CLoE: Expert Consistency Learning for Missing Modality Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09316](https://arxiv.org/abs/2603.09316)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.09316](https://arxiv.org/abs/2603.09316)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 缺失模态, 多模态分割, 一致性学习, 脑肿瘤分割, 可靠性门控
 
 ## 一句话总结

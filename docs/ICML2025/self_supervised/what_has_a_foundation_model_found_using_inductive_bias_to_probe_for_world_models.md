@@ -1,9 +1,9 @@
 # What Has a Foundation Model Found? Using Inductive Bias to Probe for World Models
 
-**会议**: ICML2025
-**arXiv**: [2507.06952](https://arxiv.org/abs/2507.06952)
-**代码**: 待确认
-**领域**: self_supervised
+**会议**: ICML2025  
+**arXiv**: [2507.06952](https://arxiv.org/abs/2507.06952)  
+**代码**: 待确认  
+**领域**: self_supervised  
 **关键词**: 基础模型, 世界模型, 归纳偏置, 探测方法, 牛顿力学
 
 ## 一句话总结

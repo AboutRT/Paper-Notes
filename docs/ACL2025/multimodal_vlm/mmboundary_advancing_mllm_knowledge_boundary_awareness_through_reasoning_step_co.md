@@ -1,9 +1,9 @@
 # MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration
 
-**会议**: ACL 2025
-**arXiv**: [2505.23224](https://arxiv.org/abs/2505.23224)
-**代码**: [GitHub](https://github.com/Zhitao-He/MMBoundary)
-**领域**: multimodal_vlm
+**会议**: ACL 2025  
+**arXiv**: [2505.23224](https://arxiv.org/abs/2505.23224)  
+**代码**: [GitHub](https://github.com/Zhitao-He/MMBoundary)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态大模型, 置信度校准, 推理链, 知识边界, 强化学习, 幻觉缓解
 
 ## 一句话总结

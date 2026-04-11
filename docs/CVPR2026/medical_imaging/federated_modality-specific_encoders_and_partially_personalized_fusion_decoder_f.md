@@ -1,9 +1,9 @@
 # Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04887](https://arxiv.org/abs/2603.04887)
-**代码**: [有](https://github.com/ccarliu/FedMEPD)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.04887](https://arxiv.org/abs/2603.04887)  
+**代码**: [有](https://github.com/ccarliu/FedMEPD)  
+**领域**: 医学图像  
 **关键词**: 联邦学习, 多模态脑肿瘤分割, 模态间异质性, 个性化联邦学习, 跨注意力校准
 
 ## 一句话总结

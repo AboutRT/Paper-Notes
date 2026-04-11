@@ -1,9 +1,9 @@
 # CompAgent: An Agentic Framework for Visual Compliance Verification
 
-**会议**: CVPR 2026
-**arXiv**: [2511.00171](https://arxiv.org/abs/2511.00171)
-**代码**: 无
-**领域**: 目标检测 / 内容安全
+**会议**: CVPR 2026  
+**arXiv**: [2511.00171](https://arxiv.org/abs/2511.00171)  
+**代码**: 无  
+**领域**: 目标检测 / 内容安全  
 **关键词**: 视觉合规验证, 智能体框架, 工具增强推理, 内容审核, MLLM
 
 ## 一句话总结

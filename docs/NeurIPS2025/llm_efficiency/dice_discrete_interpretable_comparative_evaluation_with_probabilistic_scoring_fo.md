@@ -1,9 +1,9 @@
 # DICE: Discrete Interpretable Comparative Evaluation with Probabilistic Scoring for RAG
 
-**会议**: NeurIPS 2025 (ResponsibleFM Workshop)
-**arXiv**: [2512.22629](https://arxiv.org/abs/2512.22629)
-**代码**: [GitHub](https://github.com/shiyan-liu/DICE)
-**领域**: LLM效率 / RAG评估
+**会议**: NeurIPS 2025 (ResponsibleFM Workshop)  
+**arXiv**: [2512.22629](https://arxiv.org/abs/2512.22629)  
+**代码**: [GitHub](https://github.com/shiyan-liu/DICE)  
+**领域**: LLM效率 / RAG评估  
 **关键词**: RAG evaluation, LLM-as-judge, pairwise comparison, Swiss tournament, probabilistic scoring
 
 ## 一句话总结

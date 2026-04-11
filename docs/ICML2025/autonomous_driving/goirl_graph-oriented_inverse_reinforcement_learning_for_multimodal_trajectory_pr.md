@@ -1,9 +1,9 @@
 # GoIRL: Graph-Oriented Inverse Reinforcement Learning for Multimodal Trajectory Prediction
 
-**会议**: ICML2025
-**arXiv**: [2506.21121](https://arxiv.org/abs/2506.21121)
-**代码**: 待确认
-**领域**: autonomous_driving
+**会议**: ICML2025  
+**arXiv**: [2506.21121](https://arxiv.org/abs/2506.21121)  
+**代码**: 待确认  
+**领域**: autonomous_driving  
 **关键词**: 逆强化学习, 轨迹预测, 多模态, 最大熵IRL, 向量化表示
 
 ## 一句话总结

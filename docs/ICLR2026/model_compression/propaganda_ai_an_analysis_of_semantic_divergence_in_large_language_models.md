@@ -1,9 +1,9 @@
 # Propaganda AI: An Analysis of Semantic Divergence in Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2504.12344](https://arxiv.org/abs/2504.12344)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2504.12344](https://arxiv.org/abs/2504.12344)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: LLM安全, 语义分歧, 概念触发, 审计框架, 宣传行为
 
 ## 一句话总结

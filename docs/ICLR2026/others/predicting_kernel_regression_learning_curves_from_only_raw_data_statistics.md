@@ -1,9 +1,9 @@
 # Predicting Kernel Regression Learning Curves from Only Raw Data Statistics
 
-**会议**: ICLR 2026
-**arXiv**: [2510.14878](https://arxiv.org/abs/2510.14878)
-**代码**: https://github.com/JoeyTurn/hermite-eigenstructure-ansatz
-**领域**: 其他 / 学习理论 / 核方法
+**会议**: ICLR 2026  
+**arXiv**: [2510.14878](https://arxiv.org/abs/2510.14878)  
+**代码**: https://github.com/JoeyTurn/hermite-eigenstructure-ansatz  
+**领域**: 其他 / 学习理论 / 核方法  
 **关键词**: 核回归学习曲线, Hermite特征结构, 各向异性数据, 核岭回归, 特征学习
 
 ## 一句话总结

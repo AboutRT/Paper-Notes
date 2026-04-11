@@ -1,9 +1,9 @@
 # Self-Improving Loops for Visual Robotic Planning
 
-**会议**: ICLR 2026
-**arXiv**: [2506.06658](https://arxiv.org/abs/2506.06658)
-**代码**: [https://diffusion-supervision.github.io/silvr/](https://diffusion-supervision.github.io/silvr/)
-**领域**: 机器人规划 / 视频生成
+**会议**: ICLR 2026  
+**arXiv**: [2506.06658](https://arxiv.org/abs/2506.06658)  
+**代码**: [https://diffusion-supervision.github.io/silvr/](https://diffusion-supervision.github.io/silvr/)  
+**领域**: 机器人规划 / 视频生成  
 **关键词**: 视觉规划, 自我改进, 视频生成模型, 逆动力学模型, 在线经验
 
 ## 一句话总结

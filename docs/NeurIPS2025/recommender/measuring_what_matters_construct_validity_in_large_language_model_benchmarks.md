@@ -1,9 +1,9 @@
 # Measuring What Matters: Construct Validity in Large Language Model Benchmarks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.04703](https://arxiv.org/abs/2511.04703)
-**代码**: 无
-**领域**: ai_safety
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.04703](https://arxiv.org/abs/2511.04703)  
+**代码**: 无  
+**领域**: ai_safety  
 **关键词**: LLM评测, benchmark, 构念效度, 系统综述, 评测方法论
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用心理测量学中成熟的构念效度理论系统审计LLM benchmark的质量，发现普遍性的方法论缺陷，并给出8条可操作的改进建议。
 
 ## 方法详解
+
 ### 整体框架
 本文采用系统综述 (systematic review) 方法。从ICML/ICLR/NeurIPS (2018-2024) 和ACL/NAACL/EMNLP (2020-2024) 共46,114篇论文中，通过关键词筛选("benchmark" + "LLM"/"language model")得到2,189篇候选论文，再经GPT-4o mini自动初筛(F1=84%)和29位专家人工复审，最终纳入445篇进行深入编码分析。
 
@@ -48,6 +49,7 @@
 8. **论证构念效度**: 明确说明从现象到任务到指标到声明的推理链
 
 ## 实验关键数据
+
 ### 核心统计发现
 | 维度 | 发现 | 占比 |
 |------|------|------|

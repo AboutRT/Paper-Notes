@@ -1,9 +1,9 @@
 # Discrete Neural Algorithmic Reasoning
 
-**会议**: ICML2025
-**arXiv**: [2402.11628](https://arxiv.org/abs/2402.11628)
-**代码**: [yandex-research/dnar](https://github.com/yandex-research/dnar)
-**领域**: 算法推理 (Neural Algorithmic Reasoning)
+**会议**: ICML2025  
+**arXiv**: [2402.11628](https://arxiv.org/abs/2402.11628)  
+**代码**: [yandex-research/dnar](https://github.com/yandex-research/dnar)  
+**领域**: 算法推理 (Neural Algorithmic Reasoning)  
 **关键词**: 离散化, 图神经网络, 算法模拟, 泛化, 可解释性, 硬注意力
 
 ## 一句话总结

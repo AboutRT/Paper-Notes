@@ -1,9 +1,9 @@
 # SADA: Stability-guided Adaptive Diffusion Acceleration
 
-**会议**: ICML2025
-**arXiv**: [2507.17135](https://arxiv.org/abs/2507.17135)
-**代码**: [GitHub](https://github.com/Ting-Justin-Jiang/sada-icml)
-**领域**: 扩散加速 / Diffusion Acceleration
+**会议**: ICML2025  
+**arXiv**: [2507.17135](https://arxiv.org/abs/2507.17135)  
+**代码**: [GitHub](https://github.com/Ting-Justin-Jiang/sada-icml)  
+**领域**: 扩散加速 / Diffusion Acceleration  
 **关键词**: 扩散模型加速, ODE求解器, 稳定性准则, 自适应稀疏, 无训练加速, Token剪枝, 特征缓存
 
 ## 一句话总结

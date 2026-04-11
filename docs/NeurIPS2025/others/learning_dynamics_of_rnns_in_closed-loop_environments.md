@@ -1,9 +1,9 @@
 # Learning Dynamics of RNNs in Closed-Loop Environments
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.13567](https://arxiv.org/abs/2505.13567)
-**代码**: [GitHub](https://github.com/yoavger/closed_loop_rnn_learning_dynamics) (有)
-**领域**: 理论 / 循环神经网络 / 控制论
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.13567](https://arxiv.org/abs/2505.13567)  
+**代码**: [GitHub](https://github.com/yoavger/closed_loop_rnn_learning_dynamics) (有)  
+**领域**: 理论 / 循环神经网络 / 控制论  
 **关键词**: RNN学习动力学, 闭环学习, 开环vs闭环, 控制理论, 内部表征
 
 ## 一句话总结

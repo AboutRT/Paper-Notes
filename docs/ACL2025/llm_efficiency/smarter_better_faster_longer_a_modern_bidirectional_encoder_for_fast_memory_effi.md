@@ -1,9 +1,9 @@
 # Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference
 
-**会议**: ACL 2025
-**arXiv**: [2412.13663](https://arxiv.org/abs/2412.13663)
-**代码**: [AnswerDotAI/ModernBERT](https://github.com/AnswerDotAI/ModernBERT)
-**领域**: llm_efficiency
+**会议**: ACL 2025  
+**arXiv**: [2412.13663](https://arxiv.org/abs/2412.13663)  
+**代码**: [AnswerDotAI/ModernBERT](https://github.com/AnswerDotAI/ModernBERT)  
+**领域**: llm_efficiency  
 **关键词**: encoder-only, BERT, 推理效率, 长上下文, 信息检索, Flash Attention, RoPE
 
 ## 一句话总结

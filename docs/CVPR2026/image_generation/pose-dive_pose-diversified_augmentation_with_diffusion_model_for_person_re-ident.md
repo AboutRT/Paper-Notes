@@ -1,9 +1,9 @@
 # Pose-dIVE: Pose-Diversified Augmentation with Diffusion Model for Person Re-Identification
 
-**会议**: CVPR 2026
-**arXiv**: [2406.16042](https://arxiv.org/abs/2406.16042)
-**代码**: https://cvlab-kaist.github.io/Pose-dIVE
-**领域**: 扩散模型/图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2406.16042](https://arxiv.org/abs/2406.16042)  
+**代码**: https://cvlab-kaist.github.io/Pose-dIVE  
+**领域**: 扩散模型/图像生成  
 **关键词**: 行人重识别, 数据增强, 扩散模型, SMPL, 姿态多样化
 
 ## 一句话总结

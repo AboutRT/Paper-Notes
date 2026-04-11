@@ -1,9 +1,9 @@
 # Clustering Properties of Self-Supervised Learning
 
-**会议**: ICML 2025
-**arXiv**: [2501.18452](https://arxiv.org/abs/2501.18452)
-**代码**: 无
-**领域**: 自监督学习
+**会议**: ICML 2025  
+**arXiv**: [2501.18452](https://arxiv.org/abs/2501.18452)  
+**代码**: 无  
+**领域**: 自监督学习  
 **关键词**: 自监督学习, 聚类性质, 表示学习, 理论分析, 神经塌缩
 
 ## 一句话总结

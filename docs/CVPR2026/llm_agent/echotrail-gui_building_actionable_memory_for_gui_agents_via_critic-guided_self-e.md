@@ -1,9 +1,9 @@
 # EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration
 
-**会议**: CVPR 2026
-**arXiv**: [2512.19396](https://arxiv.org/abs/2512.19396)
-**代码**: 有
-**领域**: LLM Agent / GUI自动化
+**会议**: CVPR 2026  
+**arXiv**: [2512.19396](https://arxiv.org/abs/2512.19396)  
+**代码**: 有  
+**领域**: LLM Agent / GUI自动化  
 **关键词**: GUI Agent, 可操作记忆, 自我探索, Critic引导, RAG推理
 
 ## 一句话总结

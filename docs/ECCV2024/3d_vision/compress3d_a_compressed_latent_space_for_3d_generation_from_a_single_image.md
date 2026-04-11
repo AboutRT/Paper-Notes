@@ -1,9 +1,9 @@
 # Compress3D: a Compressed Latent Space for 3D Generation from a Single Image
 
-**会议**: ECCV 2024
-**arXiv**: [2403.13524](https://arxiv.org/abs/2403.13524)
-**代码**: 有 (https://compress3d.github.io/)
-**领域**: 3D视觉
+**会议**: ECCV 2024  
+**arXiv**: [2403.13524](https://arxiv.org/abs/2403.13524)  
+**代码**: 有 (https://compress3d.github.io/)  
+**领域**: 3D视觉  
 **关键词**: 3D生成, 扩散模型, Triplane, 潜空间压缩, 单图生成3D
 
 ## 一句话总结

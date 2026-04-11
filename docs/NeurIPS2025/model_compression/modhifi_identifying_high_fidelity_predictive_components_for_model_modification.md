@@ -1,10 +1,10 @@
 # ModHiFi: Identifying High Fidelity Predictive Components for Model Modification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.19566](https://arxiv.org/abs/2511.19566)
-**代码**: [DhruvaKashyap/modhifi](https://github.com/DhruvaKashyap/modhifi)
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.19566](https://arxiv.org/abs/2511.19566)  
+**代码**: [DhruvaKashyap/modhifi](https://github.com/DhruvaKashyap/modhifi)  
 **作者**: Dhruva Kashyap, Chaitanya Murti, Pranav Nayak, Tanay Narshana, Chiranjib Bhattacharyya (IISc, HP AI Lab, Google)
-**领域**: model_compression
+**领域**: model_compression  
 **关键词**: model modification, structured pruning, machine unlearning, subset fidelity, Lipschitz continuity, synthetic data
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # From Black Box to Biomarker: Sparse Autoencoders for Interpreting Speech Models of Parkinson's Disease
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.16836](https://arxiv.org/abs/2507.16836)
-**代码**: 未提供
-**领域**: 语音生物标志物 / 可解释性
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.16836](https://arxiv.org/abs/2507.16836)  
+**代码**: 未提供  
+**领域**: 语音生物标志物 / 可解释性  
 **关键词**: 稀疏自编码器, 帕金森病, 语音检测, 机械可解释性, Whisper, 频谱通量, 壳核
 
 ## 一句话总结

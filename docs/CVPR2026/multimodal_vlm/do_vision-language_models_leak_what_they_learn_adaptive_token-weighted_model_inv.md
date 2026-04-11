@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Do Vision-Language Models Leak What They Learn? Adaptive Token-Weighted Model Inversion Attacks
 
-**会议**: CVPR2026
-**arXiv**: [2508.04097](https://arxiv.org/abs/2508.04097)
-**代码**: [项目主页](https://ngoc-nguyen-0.github.io/SMI_AW/)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2508.04097](https://arxiv.org/abs/2508.04097)  
+**代码**: [项目主页](https://ngoc-nguyen-0.github.io/SMI_AW/)  
+**领域**: 多模态VLM  
 **关键词**: 模型逆向攻击, 视觉-语言模型, 隐私安全, 自适应token加权, 训练数据泄露
 
 ## 一句话总结

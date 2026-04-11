@@ -1,9 +1,9 @@
 # A Unified Perspective on Adversarial Membership Manipulation in Vision Models
 
-**会议**: CVPR 2026
-**arXiv**: [2604.02780](https://arxiv.org/abs/2604.02780)
-**代码**: https://github.com/Sjtubrian/Adversarial_Membership_Manipulation (有)
-**领域**: AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2604.02780](https://arxiv.org/abs/2604.02780)  
+**代码**: https://github.com/Sjtubrian/Adversarial_Membership_Manipulation (有)  
+**领域**: AI安全  
 **关键词**: 成员推断攻击, 对抗成员伪造, 梯度范数, 隐私审计, 视觉模型
 
 ## 一句话总结

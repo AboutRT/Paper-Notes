@@ -1,9 +1,9 @@
 # SUSD: Structured Unsupervised Skill Discovery through State Factorization
 
-**会议**: ICLR 2026
-**arXiv**: [2602.01619](https://arxiv.org/abs/2602.01619)
-**代码**: [https://github.com/hadi-hosseini/SUSD](https://github.com/hadi-hosseini/SUSD)
-**领域**: 无监督技能发现 / 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.01619](https://arxiv.org/abs/2602.01619)  
+**代码**: [https://github.com/hadi-hosseini/SUSD](https://github.com/hadi-hosseini/SUSD)  
+**领域**: 无监督技能发现 / 强化学习  
 **关键词**: 无监督技能发现, 状态分解, 距离最大化, 好奇心驱动, 层次强化学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Revisiting Diffusion Models: From Generative Pre-training to One-Step Generation
 
-**会议**: ICML 2025
-**arXiv**: [2506.09376](https://arxiv.org/abs/2506.09376)
-**代码**: 无
-**领域**: 扩散模型
+**会议**: ICML 2025  
+**arXiv**: [2506.09376](https://arxiv.org/abs/2506.09376)  
+**代码**: 无  
+**领域**: 扩散模型  
 **关键词**: 扩散蒸馏, 单步生成, GAN微调, 生成式预训练, 参数冻结
 
 ## 一句话总结

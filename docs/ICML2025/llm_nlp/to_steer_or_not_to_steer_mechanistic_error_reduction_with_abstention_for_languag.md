@@ -1,9 +1,9 @@
 # To Steer or Not to Steer? Mechanistic Error Reduction with Abstention for Language Models
 
-**会议**: ICML2025
-**arXiv**: [2510.13290](https://arxiv.org/abs/2510.13290)
-**代码**: 未提供
-**领域**: LLM/NLP
+**会议**: ICML2025  
+**arXiv**: [2510.13290](https://arxiv.org/abs/2510.13290)  
+**代码**: 未提供  
+**领域**: LLM/NLP  
 **关键词**: activation steering, mechanistic intervention, error mitigation, hallucination, language models, abstention, probe-based steering
 
 ## 一句话总结

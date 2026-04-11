@@ -20,6 +20,7 @@
 如何在 RAG 框架中实现 reasoning 与 retrieval 的深度耦合，使系统能够针对复杂 multi-hop 问题进行有效的计划分解、自适应检索和精准过滤？
 
 ## 方法详解
+
 ### 整体框架
 OPERA 解耦为两层：
 1. **Goal Planning Module (GPM)**: Plan Agent 将复杂问题分解为子目标 $\mathcal{P}=\{p_1,\dots,p_m\}$，子目标间通过 placeholder 建立依赖

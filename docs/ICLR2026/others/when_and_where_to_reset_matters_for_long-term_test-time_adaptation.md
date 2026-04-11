@@ -1,9 +1,9 @@
 # When and Where to Reset Matters for Long-Term Test-Time Adaptation
 
-**会议**: ICLR 2026
-**arXiv**: [2603.03796](https://arxiv.org/abs/2603.03796)
-**代码**: https://github.com/YonseiML/asr
-**领域**: 其他 / 持续测试时适应
+**会议**: ICLR 2026  
+**arXiv**: [2603.03796](https://arxiv.org/abs/2603.03796)  
+**代码**: https://github.com/YonseiML/asr  
+**领域**: 其他 / 持续测试时适应  
 **关键词**: 测试时适应, 模型崩溃, 自适应重置, 选择性重置, Fisher信息, 长期域漂移
 
 ## 一句话总结

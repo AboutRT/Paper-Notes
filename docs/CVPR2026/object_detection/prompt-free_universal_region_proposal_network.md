@@ -1,9 +1,9 @@
 # Prompt-Free Universal Region Proposal Network
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17554](https://arxiv.org/abs/2603.17554)
-**代码**: [GitHub](https://github.com/tangqh03/PF-RPN)
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.17554](https://arxiv.org/abs/2603.17554)  
+**代码**: [GitHub](https://github.com/tangqh03/PF-RPN)  
+**领域**: 目标检测  
 **关键词**: 区域提案, 无提示检测, 零样本泛化, 可学习嵌入, 开放世界
 
 ## 一句话总结

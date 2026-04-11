@@ -1,9 +1,9 @@
 # SPAN: Spatial-Projection Alignment for Monocular 3D Object Detection
 
-**会议**: CVPR2026
-**arXiv**: [2511.06702](https://arxiv.org/abs/2511.06702)
-**代码**: [项目主页](https://wyfdut.github.io/SPAN/)
-**领域**: 3D视觉
+**会议**: CVPR2026  
+**arXiv**: [2511.06702](https://arxiv.org/abs/2511.06702)  
+**代码**: [项目主页](https://wyfdut.github.io/SPAN/)  
+**领域**: 3D视觉  
 **关键词**: 单目3D检测, 几何一致性, 空间对齐, 投影约束, 即插即用
 
 ## 一句话总结

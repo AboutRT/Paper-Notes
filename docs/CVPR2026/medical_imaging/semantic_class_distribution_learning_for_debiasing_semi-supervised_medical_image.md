@@ -1,9 +1,9 @@
 # Semantic Class Distribution Learning for Debiasing Semi-Supervised Medical Image Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05202](https://arxiv.org/abs/2603.05202)
-**代码**: [GitHub](https://github.com/Zyh55555/SCDL)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.05202](https://arxiv.org/abs/2603.05202)  
+**代码**: [GitHub](https://github.com/Zyh55555/SCDL)  
+**领域**: 医学图像  
 **关键词**: 半监督分割, 类别不平衡, 类别分布学习, 代理分布, 语义锚约束
 
 ## 一句话总结

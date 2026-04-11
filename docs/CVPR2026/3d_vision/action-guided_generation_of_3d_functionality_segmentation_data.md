@@ -1,9 +1,9 @@
 # Action-guided Generation of 3D Functionality Segmentation Data
 
-**会议**: CVPR 2026
-**arXiv**: [2511.23230](https://arxiv.org/abs/2511.23230)
-**代码**: [项目页](https://tev-fbk.github.io/synthfun3d) (有)
-**领域**: 3D视觉 / 具身AI
+**会议**: CVPR 2026  
+**arXiv**: [2511.23230](https://arxiv.org/abs/2511.23230)  
+**代码**: [项目页](https://tev-fbk.github.io/synthfun3d) (有)  
+**领域**: 3D视觉 / 具身AI  
 **关键词**: 3D功能性分割, 合成数据生成, 动作描述, LLM检索, 场景布局
 
 ## 一句话总结
@@ -16,6 +16,7 @@
 4. **核心idea**：从动作描述出发，利用LLM推理场景构成，检索带部件标注的3D资产，自动生成满足空间语义约束的场景布局和精确功能掩码。
 
 ## 方法详解
+
 ### 整体框架
 动作描述 → LLM解析（目标物体+功能部件+房间布局）→ 非目标物体从Objaverse检索 → 目标物体从PartNet-Mobility检索（元数据驱动）→ DFS场景布局 → 多视角渲染+材质增强 → RGB帧+功能掩码。
 
@@ -42,6 +43,7 @@
 - 嵌入 Fun3DU 管线：Gemma3 指向 → SAM 分割 → 2D掩码提升到3D
 
 ## 实验关键数据
+
 ### 主实验
 | 训练数据 | mAP | AP50 | AP25 | mAR | mIoU | P-acc |
 |----------|-----|------|------|-----|------|-------|

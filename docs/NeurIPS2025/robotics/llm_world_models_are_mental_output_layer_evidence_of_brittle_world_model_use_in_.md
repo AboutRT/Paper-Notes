@@ -1,9 +1,9 @@
 # LLM World Models Are Mental: Output Layer Evidence of Brittle World Model Use in LLM Mechanical Reasoning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.15521](https://arxiv.org/abs/2507.15521)
-**代码**: [实验脚本](https://osf.io/mn9hy/) (有，OSF平台)
-**领域**: Robotics / AI Reasoning（注：论文实际属于LLM推理与认知科学交叉方向）
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.15521](https://arxiv.org/abs/2507.15521)  
+**代码**: [实验脚本](https://osf.io/mn9hy/) (有，OSF平台)  
+**领域**: Robotics / AI Reasoning（注：论文实际属于LLM推理与认知科学交叉方向）  
 **关键词**: LLM世界模型, 力学推理, 滑轮系统, 心理模型, 脆弱性
 
 ## 一句话总结

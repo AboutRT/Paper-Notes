@@ -1,9 +1,9 @@
 # Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas
 
-**会议**: ICML 2025
-**arXiv**: [2503.01773](https://arxiv.org/abs/2503.01773)
-**代码**: [github.com/shiqichen17/AdaptVis](https://github.com/shiqichen17/AdaptVis)
-**领域**: 视觉语言模型, 空间推理, 机制可解释性
+**会议**: ICML 2025  
+**arXiv**: [2503.01773](https://arxiv.org/abs/2503.01773)  
+**代码**: [github.com/shiqichen17/AdaptVis](https://github.com/shiqichen17/AdaptVis)  
+**领域**: 视觉语言模型, 空间推理, 机制可解释性  
 **关键词**: Spatial Reasoning, Attention Mechanism, VLM Interpretability, Confidence-aware Decoding, 注意力干预
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # EnSToM: Enhancing Dialogue Systems with Entropy-Scaled Steering Vectors for Topic Maintenance
 
-**会议**: ACL 2025
-**arXiv**: [2505.16526](https://arxiv.org/abs/2505.16526)
-**代码**: https://github.com/linkyouhj/enstom (有)
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2505.16526](https://arxiv.org/abs/2505.16526)  
+**代码**: https://github.com/linkyouhj/enstom (有)  
+**领域**: 文本生成  
 **关键词**: 对话系统, 主题一致性, 转向向量, 熵缩放, 激活工程
 
 ## 一句话总结

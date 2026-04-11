@@ -1,9 +1,9 @@
 # NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.06560](https://arxiv.org/abs/2504.06560)
-**代码**: [GitHub](https://github.com/wlr737/NeedleInATable) (有)
-**领域**: Multimodal / VLM / 表格理解
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.06560](https://arxiv.org/abs/2504.06560)  
+**代码**: [GitHub](https://github.com/wlr737/NeedleInATable) (有)  
+**领域**: Multimodal / VLM / 表格理解  
 **关键词**: 长上下文理解, 结构化表格, LLM评估基准, 表格感知, 数据合成
 
 ## 一句话总结

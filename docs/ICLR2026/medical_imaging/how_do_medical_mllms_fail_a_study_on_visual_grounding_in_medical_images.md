@@ -1,9 +1,9 @@
 # How Do Medical MLLMs Fail? A Study on Visual Grounding in Medical Images
 
-**会议**: ICLR 2026
-**arXiv**: [2603.14323](https://arxiv.org/abs/2603.14323)
-**代码**: [项目页面](https://guimeng-leo-liu.github.io/Medical-MLLMs-Fail/)
-**领域**: 医学图像/可解释AI
+**会议**: ICLR 2026  
+**arXiv**: [2603.14323](https://arxiv.org/abs/2603.14323)  
+**代码**: [项目页面](https://guimeng-leo-liu.github.io/Medical-MLLMs-Fail/)  
+**领域**: 医学图像/可解释AI  
 **关键词**: 医学VQA, 视觉扎根, 注意力分析, MLLM失败模式, 推理时修正
 
 ## 一句话总结

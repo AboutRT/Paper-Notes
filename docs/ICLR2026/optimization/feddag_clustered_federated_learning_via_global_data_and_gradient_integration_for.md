@@ -1,9 +1,9 @@
 # FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments
 
-**会议**: ICLR 2026
-**arXiv**: [2602.23504](https://arxiv.org/abs/2602.23504)
-**代码**: [GitHub](https://tinyurl.com/2rbkb3zu)
-**领域**: 联邦学习/聚类优化
+**会议**: ICLR 2026  
+**arXiv**: [2602.23504](https://arxiv.org/abs/2602.23504)  
+**代码**: [GitHub](https://tinyurl.com/2rbkb3zu)  
+**领域**: 联邦学习/聚类优化  
 **关键词**: 聚类联邦学习, 数据+梯度相似度, 双编码器, 自适应聚类, 异构数据
 
 ## 一句话总结

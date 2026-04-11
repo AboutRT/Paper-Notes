@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # NTPP: Generative Speech Language Modeling for Dual-Channel Spoken Dialogue via Next-Token-Pair Prediction
 
-**会议**: ICML2025
-**arXiv**: [2506.00975](https://arxiv.org/abs/2506.00975)
-**代码**: [Demo & Code](https://audio-3059.pages.dev)
-**领域**: speech_language_model
+**会议**: ICML2025  
+**arXiv**: [2506.00975](https://arxiv.org/abs/2506.00975)  
+**代码**: [Demo & Code](https://audio-3059.pages.dev)  
+**领域**: speech_language_model  
 **关键词**: 语音对话, 双通道语音, Next-Token-Pair Prediction, decoder-only, 轮次转换, 全双工对话
 
 ## 一句话总结

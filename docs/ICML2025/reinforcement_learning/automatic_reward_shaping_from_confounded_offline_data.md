@@ -1,9 +1,9 @@
 # Automatic Reward Shaping from Confounded Offline Data
 
-**会议**: ICML2025
-**arXiv**: [2505.11478](https://arxiv.org/abs/2505.11478)
-**代码**: 待确认
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2505.11478](https://arxiv.org/abs/2505.11478)  
+**代码**: 待确认  
+**领域**: reinforcement_learning  
 **关键词**: 奖励塑形, 因果推断, 混淆偏差, 离线数据, UCB算法
 
 ## 一句话总结

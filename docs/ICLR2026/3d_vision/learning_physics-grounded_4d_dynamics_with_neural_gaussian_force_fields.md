@@ -1,9 +1,9 @@
 # Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields
 
-**会议**: ICLR 2026
-**arXiv**: [2602.00148](https://arxiv.org/abs/2602.00148)
-**代码**: [项目页面](https://neuralgaussianforcefield.github.io/)
-**领域**: 3D视觉/物理仿真
+**会议**: ICLR 2026  
+**arXiv**: [2602.00148](https://arxiv.org/abs/2602.00148)  
+**代码**: [项目页面](https://neuralgaussianforcefield.github.io/)  
+**领域**: 3D视觉/物理仿真  
 **关键词**: 3D高斯溅射, 力场学习, 物理推理, 4D视频预测, 神经算子
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # When Human Preferences Flip: An Instance-Dependent Robust Loss for RLHF
 
-**会议**: AAAI 2026
-**arXiv**: [2512.00709](https://arxiv.org/abs/2512.00709)
-**代码**: 无
-**领域**: LLM Alignment
+**会议**: AAAI 2026  
+**arXiv**: [2512.00709](https://arxiv.org/abs/2512.00709)  
+**代码**: 无  
+**领域**: LLM Alignment  
 **关键词**: RLHF, DPO, 偏好翻转, 鲁棒对齐, 噪声标注
 
 ## 一句话总结

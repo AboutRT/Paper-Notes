@@ -1,9 +1,9 @@
 # Learning a Distance Measure from the Information-Estimation Geometry of Data
 
-**会议**: ICLR 2026
-**arXiv**: [2510.02514](https://arxiv.org/abs/2510.02514)
-**代码**: [GitHub](https://github.com/ohayonguy/information-estimation-metric)
-**领域**: 度量学习 / 感知质量评估
+**会议**: ICLR 2026  
+**arXiv**: [2510.02514](https://arxiv.org/abs/2510.02514)  
+**代码**: [GitHub](https://github.com/ohayonguy/information-estimation-metric)  
+**领域**: 度量学习 / 感知质量评估  
 **关键词**: 信息估计度量, 去噪误差, 概率密度几何, 感知距离, 扩散模型
 
 ## 一句话总结

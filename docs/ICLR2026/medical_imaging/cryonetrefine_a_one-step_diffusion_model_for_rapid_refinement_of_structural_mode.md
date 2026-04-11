@@ -1,9 +1,9 @@
 # CryoNet.Refine: A One-step Diffusion Model for Rapid Refinement of Structural Models with Cryo-EM Density Map Restraints
 
-**会议**: ICLR 2026
-**arXiv**: [2602.22263](https://arxiv.org/abs/2602.22263)
-**代码**: [GitHub](https://github.com/kuixu/cryonet.refine)
-**领域**: 结构生物学/冷冻电镜/扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2602.22263](https://arxiv.org/abs/2602.22263)  
+**代码**: [GitHub](https://github.com/kuixu/cryonet.refine)  
+**领域**: 结构生物学/冷冻电镜/扩散模型  
 **关键词**: cryo-EM, 原子模型精修, 单步扩散, 密度损失, 几何约束, 蛋白质结构
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Continuous-Time Analysis of Heavy Ball Momentum in Min-Max Games
 
-**会议**: ICML2025
-**arXiv**: [2505.19537](https://arxiv.org/abs/2505.19537)
-**代码**: 无
-**领域**: 其他/优化理论
+**会议**: ICML2025  
+**arXiv**: [2505.19537](https://arxiv.org/abs/2505.19537)  
+**代码**: 无  
+**领域**: 其他/优化理论  
 **关键词**: heavy ball momentum, min-max games, 连续时间分析, 隐式梯度正则化, 交替更新, 负动量, 局部收敛
 
 ## 一句话总结

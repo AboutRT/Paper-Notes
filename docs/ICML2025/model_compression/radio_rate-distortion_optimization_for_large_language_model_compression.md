@@ -1,9 +1,9 @@
 # RADIO: Rate-Distortion Optimization for Large Language Model Compression
 
-**会议**: ICML 2025
-**arXiv**: [2505.03031](https://arxiv.org/abs/2505.03031)
-**代码**: 无公开代码
-**领域**: 模型压缩 / LLM量化
+**会议**: ICML 2025  
+**arXiv**: [2505.03031](https://arxiv.org/abs/2505.03031)  
+**代码**: 无公开代码  
+**领域**: 模型压缩 / LLM量化  
 **关键词**: 率失真理论, 后训练量化, 码率-失真优化, LLM压缩, 信息论
 
 ## 一句话总结

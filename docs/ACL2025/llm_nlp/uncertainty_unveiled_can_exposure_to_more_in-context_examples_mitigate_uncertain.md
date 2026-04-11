@@ -1,9 +1,9 @@
 # Uncertainty Unveiled: Can Exposure to More In-context Examples Mitigate Uncertainty for Large Language Models?
 
-**会议**: ACL2025
-**arXiv**: [2505.21003](https://arxiv.org/abs/2505.21003)
-**代码**: 未公开
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.21003](https://arxiv.org/abs/2505.21003)  
+**代码**: 未公开  
+**领域**: llm_nlp  
 **关键词**: 不确定性量化, 上下文学习, many-shot ICL, 认知不确定性, 长上下文
 
 ## 一句话总结

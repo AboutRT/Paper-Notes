@@ -1,9 +1,9 @@
 # Quantifying Lexical Semantic Shift via Unbalanced Optimal Transport
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2412.12569](https://arxiv.org/abs/2412.12569)
-**代码**: [GitHub](https://github.com/ryo-lyo/Semantic-Shift-via-UOT)
-**领域**: 计算语言学/语义变迁
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2412.12569](https://arxiv.org/abs/2412.12569)  
+**代码**: [GitHub](https://github.com/ryo-lyo/Semantic-Shift-via-UOT)  
+**领域**: 计算语言学/语义变迁  
 **关键词**: semantic change detection, optimal transport, contextualized embeddings, sense usage shift, diachronic
 
 ## 一句话总结

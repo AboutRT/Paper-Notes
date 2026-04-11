@@ -1,9 +1,9 @@
 # How Patterns Dictate Learnability in Sequential Data
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.10744](https://arxiv.org/abs/2510.10744)
-**代码**: https://github.com/EkMeasurable/Learnability_Ipred
-**领域**: 时间序列
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.10744](https://arxiv.org/abs/2510.10744)  
+**代码**: https://github.com/EkMeasurable/Learnability_Ipred  
+**领域**: 时间序列  
 **关键词**: 预测信息, 互信息, 可学习性, 序列数据, 信息论
 
 ## 一句话总结

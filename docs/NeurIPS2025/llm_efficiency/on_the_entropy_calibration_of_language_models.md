@@ -1,9 +1,9 @@
 # On the Entropy Calibration of Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.11966](https://arxiv.org/abs/2511.11966)
-**代码**: [GitHub](https://github.com/stevenxcao/entropy-calibration)
-**领域**: LLM理论 / 生成质量
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.11966](https://arxiv.org/abs/2511.11966)  
+**代码**: [GitHub](https://github.com/stevenxcao/entropy-calibration)  
+**领域**: LLM理论 / 生成质量  
 **关键词**: entropy calibration, error accumulation, scaling laws, distribution truncation, diversity-quality tradeoff
 
 ## 一句话总结

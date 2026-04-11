@@ -1,9 +1,9 @@
 # Steering Language Models with Weight Arithmetic
 
-**会议**: ICLR 2026
-**arXiv**: [2511.05408](https://arxiv.org/abs/2511.05408)
-**代码**: [GitHub](https://github.com/safety-research/weight-steering)
-**领域**: llm_efficiency
+**会议**: ICLR 2026  
+**arXiv**: [2511.05408](https://arxiv.org/abs/2511.05408)  
+**代码**: [GitHub](https://github.com/safety-research/weight-steering)  
+**领域**: llm_efficiency  
 **关键词**: weight steering, activation steering, sycophancy, alignment, task vector, model safety
 
 ## 一句话总结

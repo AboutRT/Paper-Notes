@@ -1,9 +1,9 @@
 # Don't Lag, RAG: Training-Free Adversarial Detection Using RAG
 
-**会议**: ICML 2025 (VecDB Workshop)
-**arXiv**: [2504.04858](https://arxiv.org/abs/2504.04858)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: ICML 2025 (VecDB Workshop)  
+**arXiv**: [2504.04858](https://arxiv.org/abs/2504.04858)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 对抗样本检测, 对抗补丁攻击, 视觉RAG, VLM推理, 免训练防御
 
 ## 一句话总结

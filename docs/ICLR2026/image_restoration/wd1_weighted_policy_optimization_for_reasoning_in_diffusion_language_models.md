@@ -1,9 +1,9 @@
 # wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2507.08838](https://arxiv.org/abs/2507.08838)
-**代码**: https://github.com/xiaohangt/wd1
-**领域**: LLM推理 / 扩散语言模型
+**会议**: ICLR 2026  
+**arXiv**: [2507.08838](https://arxiv.org/abs/2507.08838)  
+**代码**: https://github.com/xiaohangt/wd1  
+**领域**: LLM推理 / 扩散语言模型  
 **关键词**: 扩散语言模型, 强化学习, 策略优化, 推理能力, dLLM
 
 ## 一句话总结

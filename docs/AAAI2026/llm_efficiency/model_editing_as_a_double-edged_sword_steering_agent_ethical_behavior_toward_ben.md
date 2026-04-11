@@ -1,9 +1,9 @@
 # Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior
 
-**会议**: AAAI 2026
-**arXiv**: [2506.20606](https://arxiv.org/abs/2506.20606)
-**代码**: [GitHub](https://github.com/baixianghuang/behavior-edit)
-**领域**: LLM Efficiency
+**会议**: AAAI 2026  
+**arXiv**: [2506.20606](https://arxiv.org/abs/2506.20606)  
+**代码**: [GitHub](https://github.com/baixianghuang/behavior-edit)  
+**领域**: LLM Efficiency  
 **关键词**: 模型编辑, 伦理行为, Agent安全, 道德对齐, BehaviorBench
 
 ## 一句话总结

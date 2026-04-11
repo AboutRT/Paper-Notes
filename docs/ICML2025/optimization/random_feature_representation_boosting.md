@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Random Feature Representation Boosting
 
-**会议**: ICML2025
-**arXiv**: [2501.18283](https://arxiv.org/abs/2501.18283)
+**会议**: ICML2025  
+**arXiv**: [2501.18283](https://arxiv.org/abs/2501.18283)  
 **作者**: Nikita Zozoulenko, Thomas Cass, Lukas Gonon
-**代码**: 待确认
-**领域**: optimization
+**代码**: 待确认  
+**领域**: optimization  
 **关键词**: random features, gradient boosting, residual neural networks, tabular data, convex optimization
 
 ## 一句话总结

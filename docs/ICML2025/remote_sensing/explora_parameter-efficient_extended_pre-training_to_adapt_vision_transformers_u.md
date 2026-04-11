@@ -1,9 +1,9 @@
 # ExPLoRA: Parameter-Efficient Extended Pre-Training to Adapt Vision Transformers under Domain Shifts
 
-**会议**: ICML2025
-**arXiv**: [2406.10973](https://arxiv.org/abs/2406.10973)
-**代码**: [https://samar-khanna.github.io/ExPLoRA/](https://samar-khanna.github.io/ExPLoRA/)
-**领域**: remote_sensing
+**会议**: ICML2025  
+**arXiv**: [2406.10973](https://arxiv.org/abs/2406.10973)  
+**代码**: [https://samar-khanna.github.io/ExPLoRA/](https://samar-khanna.github.io/ExPLoRA/)  
+**领域**: remote_sensing  
 **关键词**: 参数高效微调, LoRA, 域迁移, 视觉基础模型, 遥感, 自监督预训练
 
 ## 一句话总结

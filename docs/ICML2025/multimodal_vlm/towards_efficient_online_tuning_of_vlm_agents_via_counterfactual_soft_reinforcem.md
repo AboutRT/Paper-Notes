@@ -1,9 +1,9 @@
 # Towards Efficient Online Tuning of VLM Agents via Counterfactual Soft Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2505.03792](https://arxiv.org/abs/2505.03792)
-**代码**: [github.com/langfengQ/CoSo](https://github.com/langfengQ/CoSo)
-**领域**: VLM 智能体, 强化学习, 在线微调
+**会议**: ICML 2025  
+**arXiv**: [2505.03792](https://arxiv.org/abs/2505.03792)  
+**代码**: [github.com/langfengQ/CoSo](https://github.com/langfengQ/CoSo)  
+**领域**: VLM 智能体, 强化学习, 在线微调  
 **关键词**: VLM Agent, Counterfactual Reasoning, Soft RL, Exploration Efficiency, 因果推理
 
 ## 一句话总结

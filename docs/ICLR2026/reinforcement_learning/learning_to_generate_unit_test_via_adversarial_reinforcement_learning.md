@@ -1,9 +1,9 @@
 # Learning to Generate Unit Test via Adversarial Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2508.21107](https://arxiv.org/abs/2508.21107)
-**代码**: [项目页面](https://dgjun32.github.io/UTRL)
-**领域**: 代码生成/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2508.21107](https://arxiv.org/abs/2508.21107)  
+**代码**: [项目页面](https://dgjun32.github.io/UTRL)  
+**领域**: 代码生成/强化学习  
 **关键词**: 单元测试生成, 对抗训练, RLVR, 自博弈, 判别奖励
 
 ## 一句话总结

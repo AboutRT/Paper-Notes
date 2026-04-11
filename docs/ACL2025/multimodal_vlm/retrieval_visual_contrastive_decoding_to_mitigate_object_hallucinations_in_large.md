@@ -1,10 +1,10 @@
 # Retrieval Visual Contrastive Decoding to Mitigate Object Hallucinations in Large Vision-Language Models
 
-**会议**: ACL2025
-**arXiv**: [2505.20569](https://arxiv.org/abs/2505.20569)
+**会议**: ACL2025  
+**arXiv**: [2505.20569](https://arxiv.org/abs/2505.20569)  
 **作者**: Jihoon Lee, Min Song (Yonsei University, Onoma AI)
-**代码**: [GitHub](https://github.com/JiHoonLee9898/RVCD)
-**领域**: multimodal_vlm
+**代码**: [GitHub](https://github.com/JiHoonLee9898/RVCD)  
+**领域**: multimodal_vlm  
 **关键词**: Object Hallucination, Contrastive Decoding, LVLM, 图像检索, Plug-and-Play
 
 ## 一句话总结

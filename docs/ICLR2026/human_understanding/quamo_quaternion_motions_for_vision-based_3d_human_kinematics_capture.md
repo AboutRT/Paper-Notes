@@ -1,9 +1,9 @@
 # ConflictScope: Generative Value Conflicts Reveal LLM Priorities
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25369](https://arxiv.org/abs/2509.25369)
-**代码**: [GitHub](https://github.com/andyjliu/conflictscope)
-**领域**: AI安全/LLM对齐
+**会议**: ICLR 2026  
+**arXiv**: [2509.25369](https://arxiv.org/abs/2509.25369)  
+**代码**: [GitHub](https://github.com/andyjliu/conflictscope)  
+**领域**: AI安全/LLM对齐  
 **关键词**: 价值冲突, 价值排序, 开放式评估, Bradley-Terry模型, 系统提示引导
 
 ## 一句话总结

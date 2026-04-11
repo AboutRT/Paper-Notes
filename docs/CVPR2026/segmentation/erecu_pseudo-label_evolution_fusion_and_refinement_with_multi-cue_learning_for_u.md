@@ -1,9 +1,9 @@
 # EReCu: Pseudo-label Evolution Fusion and Refinement with Multi-Cue Learning for Unsupervised Camouflage Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11521](https://arxiv.org/abs/2603.11521)
-**代码**: [GitHub](https://github.com/JSLiam94/EReCu)
-**领域**: 分割
+**会议**: CVPR 2026  
+**arXiv**: [2603.11521](https://arxiv.org/abs/2603.11521)  
+**代码**: [GitHub](https://github.com/JSLiam94/EReCu)  
+**领域**: 分割  
 **关键词**: 伪装目标检测, 无监督分割, 伪标签学习, 教师-学生框架, 注意力融合
 
 ## 一句话总结

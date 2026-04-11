@@ -1,9 +1,9 @@
 # FC-Track: Overlap-Aware Post-Association Correction for Online Multi-Object Tracking
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12758](https://arxiv.org/abs/2603.12758)
-**代码**: 待确认
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.12758](https://arxiv.org/abs/2603.12758)  
+**代码**: 待确认  
+**领域**: 视频理解  
 **关键词**: 多目标跟踪, 身份切换校正, 重叠感知, 后关联校正, 在线跟踪
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Music-Aligned Holistic 3D Dance Generation via Hierarchical Motion Modeling
 
-**会议**: ICCV 2025
-**arXiv**: [2507.14915](https://arxiv.org/abs/2507.14915)
-**代码**: [项目主页](https://xjli360.github.io/SoulDance)
-**领域**: image_generation (3D舞蹈生成)
+**会议**: ICCV 2025  
+**arXiv**: [2507.14915](https://arxiv.org/abs/2507.14915)  
+**代码**: [项目主页](https://xjli360.github.io/SoulDance)  
+**领域**: image_generation (3D舞蹈生成)  
 **关键词**: 舞蹈生成, 音乐对齐, 全身动作, 层次化残差向量量化, 跨模态检索
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis
 
-**会议**: ACL2025
-**arXiv**: [2505.14910](https://arxiv.org/abs/2505.14910)
-**代码**: [AaronZ345/TCSinger2](https://github.com/AaronZ345/TCSinger2)
-**领域**: audio_speech
+**会议**: ACL2025  
+**arXiv**: [2505.14910](https://arxiv.org/abs/2505.14910)  
+**代码**: [AaronZ345/TCSinger2](https://github.com/AaronZ345/TCSinger2)  
+**领域**: audio_speech  
 **关键词**: 歌声合成, 零样本, 多语言, 风格迁移, 风格控制, Flow Matching, Mixture of Experts
 
 ## 一句话总结

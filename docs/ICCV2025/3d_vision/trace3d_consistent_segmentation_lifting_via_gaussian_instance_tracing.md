@@ -1,8 +1,8 @@
 # Trace3D: Consistent Segmentation Lifting via Gaussian Instance Tracing
 
-**会议**: ICCV 2025
-**arXiv**: [2508.03227](https://arxiv.org/abs/2508.03227)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2508.03227](https://arxiv.org/abs/2508.03227)  
+**领域**: 3D视觉  
 **关键词**: 3D分割, Gaussian Splatting, 2D-to-3D提升, 多视角一致性, 实例追踪, 密度控制
 
 ## 一句话总结

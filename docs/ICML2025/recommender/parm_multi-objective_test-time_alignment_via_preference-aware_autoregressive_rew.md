@@ -1,9 +1,9 @@
 # PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model
 
-**会议**: ICML2025
-**arXiv**: [2505.06274](https://arxiv.org/abs/2505.06274)
-**代码**: [GitHub - PARM](https://github.com/Baijiong-Lin/PARM)
-**领域**: recommender
+**会议**: ICML2025  
+**arXiv**: [2505.06274](https://arxiv.org/abs/2505.06274)  
+**代码**: [GitHub - PARM](https://github.com/Baijiong-Lin/PARM)  
+**领域**: recommender  
 **关键词**: 多目标对齐, 测试时对齐, 自回归奖励模型, 偏好向量, PBLoRA
 
 ## 一句话总结

@@ -1,11 +1,11 @@
 # MoMa: Modulating Mamba for Adapting Image Foundation Models to Video Recognition
 
-**会议**: ICML2025
-**arXiv**: [2506.23283](https://arxiv.org/abs/2506.23283)
+**会议**: ICML2025  
+**arXiv**: [2506.23283](https://arxiv.org/abs/2506.23283)  
 **作者**: Yuhuan Yang, Chaofan Ma, Zhenjie Mao, Jiangchao Yao, Ya Zhang, Yanfeng Wang
 **机构**: 上海交通大学
-**代码**: 待确认
-**领域**: video_understanding
+**代码**: 待确认  
+**领域**: video_understanding  
 **关键词**: Mamba, PEFT, 视频理解, 图像基础模型适配, 状态空间模型, 时空建模
 
 ## 一句话总结

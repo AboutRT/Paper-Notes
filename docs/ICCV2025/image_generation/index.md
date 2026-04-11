@@ -1,11 +1,35 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📹 ICCV2025** · 共 **39** 篇
+**📹 ICCV2025** · 共 **68** 篇
+
+**[A0: An Affordance-Aware Hierarchical Model for General Robotic Manipulation](a0_an_affordance-aware_hierarchical_model_for_general_robotic_manipulation.md)**
+
+:   提出 A0，一个层次化可供性感知扩散模型，通过预测以物体为中心的接触点和后接触轨迹（Embodiment-Agnostic Affordance Representation），将操控任务分解为高层空间理解和低层动作执行，在 100 万接触点数据上预训练后可跨 Franka/Kinova/Realman/Dobot 四种平台泛化。
+
+**[A Unified Framework for Motion Reasoning and Generation in Human Interaction](a_unified_framework_for_motion_reasoning_and_generation_in_human_interaction.md)**
+
+:   提出 MoLaM，一个统一的交互式动作-语言模型，通过三阶段训练和新构建的 Inter-MT² 数据集（82.7K 多轮指令），首次在单一框架内同时实现双人交互动作的理解、生成、编辑和推理。
 
 **[Accelerating Diffusion Sampling via Exploiting Local Transition Coherence](accelerating_diffusion_sampling_via_exploiting_local_transition_coherence.md)**
 
 :   提出 LTC-Accel，一种基于"局部转移一致性"(Local Transition Coherence) 现象的免训练扩散采样加速方法，通过利用相邻去噪步之间转移算子的强相关性来近似替代当前步的计算，在 Stable Diffusion v2 上实现 1.67× 加速，与蒸馏模型结合可在视频生成中达到 10× 加速。
+
+**[Adaptive Routing of Text-to-Image Generation Requests Between Large Cloud Models and Small Edge Models](adaptive_routing_of_text-to-image_generation_requests_between_large_cloud_model_.md)**
+
+:   提出 RouteT2I，首个面向文本到图像生成的边缘-云模型路由框架，通过多维质量度量、Pareto 相对优越性和双门控 token 选择 MoE 架构，在控制成本的同时最大化图像生成质量。
+
+**[Addressing Text Embedding Leakage in Diffusion-Based Image Editing](addressing_text_embedding_leakage_in_diffusion-based_image_editing.md)**
+
+:   揭示了基于扩散模型的文本图像编辑中属性泄露的根本原因——自回归文本编码器中 EOS 嵌入的语义纠缠，并提出 ALE 框架（ORE + RGB-CAM + BB），从嵌入解耦、注意力遮罩和背景混合三个层面彻底消除属性泄露。
+
+**[ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation](adiee_automatic_dataset_creation_and_scorer_for_instruction-guided_image_editing.md)**
+
+:   本文提出 ADIEE，一种自动化构建指令引导图像编辑评估数据集的方法，并基于超过 10 万样本微调 LLaVA-NeXT-8B 模型作为评分器，在多个基准上超越所有开源 VLM 和 Gemini-Pro 1.5，同时可作为奖励模型提升图像编辑模型性能。
+
+**[Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis](adversarial_distribution_matching_for_diffusion_distillation_towards_efficient_i.md)**
+
+:   提出对抗分布匹配（ADM）框架，用基于扩散模型的判别器以对抗方式隐式对齐真伪分数估计器的潜空间预测，结合对抗蒸馏预训练（ADP），在SDXL上实现高质量单步图像生成，并在SD3和CogVideoX上取得高效多步图像/视频合成的新基准。
 
 **[Aether: Geometric-Aware Unified World Modeling](aether_geometric-aware_unified_world_modeling.md)**
 
@@ -15,9 +39,69 @@
 
 :   提出Aether统一框架，通过任务交错特征学习联合优化4D动态重建、动作条件视频预测和目标条件视觉规划三个核心能力，实现geometry-aware的世界建模，纯合成数据训练即可零样本泛化到真实世界。
 
+**[AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction](aid_adapting_image2video_diffusion_models_for_instruction-guided_video_predictio.md)**
+
+:   提出AID框架，将预训练的Image2Video扩散模型（SVD）迁移至文本引导视频预测任务，通过MLLM辅助的视频状态预测、双查询Transformer条件注入和时空适配器，在多个数据集上FVD指标超越前SOTA 50%以上。
+
+**[AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction](animegamer_infinite_anime_life_simulation_with_next_game_state_prediction.md)**
+
+:   提出 AnimeGamer，基于多模态大语言模型(MLLM)的无限动漫生活模拟系统，通过动作感知的多模态表征预测下一轮游戏状态（动态动画镜头 + 角色状态更新），实现持续一致的交互式动漫游戏体验。
+
+**[Anti-Tamper Protection for Unauthorized Individual Image Generation](anti-tamper_protection_for_unauthorized_individual_image_generation.md)**
+
+:   提出Anti-Tamper Perturbation (ATP)，在频域中将保护扰动（阻止伪造生成）和授权扰动（检测净化篡改）分离嵌入，当攻击者尝试净化保护信息时触发防篡改机制拒绝服务，在各种净化攻击下实现100%保护成功率。
+
 **[AnyPortal: Zero-Shot Consistent Video Background Replacement](anyportal_zero-shot_consistent_video_background_replacement.md)**
 
 :   AnyPortal 提出了一个零样本、免训练的视频背景替换框架，通过协同利用 IC-Light 的重光照能力和视频扩散模型（CogVideoX）的时序先验，配合新提出的 Refinement Projection Algorithm (RPA) 实现像素级前景保持，在单张 24GB GPU 上即可高效运行。
+
+**[AutoPrompt: Automated Red-Teaming of Text-to-Image Models via LLM-Driven Adversarial Prompts](autoprompt_automated_red-teaming_of_text-to-image_models_via_llm-driven_adversar.md)**
+
+:   本文提出APT（AutoPrompT），一种基于LLM的黑盒红队测试框架，通过"优化-微调"交替训练管线和双规避策略，自动生成可被人类阅读且不被内容过滤器拦截的对抗性后缀，有效突破T2I模型的安全机制，并具有零样本跨提示迁移能力。
+
+**[BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation](badvideo_stealthy_backdoor_attack_against_text-to-video_generation.md)**
+
+:   首次提出针对文本到视频（T2V）生成模型的后门攻击框架BadVideo，利用视频中固有的静态和动态冗余信息（如未被文本指定的环境元素、运动轨迹等），通过时空组合和动态元素转换两类策略隐蔽地嵌入恶意内容，在LaVie和Open-Sora上实现高达93.5%的人类评估攻击成功率，同时有效规避现有内容审核系统。
+
+**[Balanced Image Stylization with Style Matching Score](balanced_image_stylization_with_style_matching_score.md)**
+
+:   提出 Style Matching Score（SMS），将图像风格化重铸为风格分布匹配问题，通过渐进频谱正则化和语义感知梯度精炼，在风格对齐与内容保持之间取得卓越平衡，并可蒸馏到轻量前馈网络实现一步风格化。
+
+**[Bitrate-Controlled Diffusion for Disentangling Motion and Content in Video](bitrate-controlled_diffusion_for_disentangling_motion_and_content_in_video.md)**
+
+:   提出BCD（Bitrate-Controlled Diffusion），一种通用的自监督视频解耦框架，通过低码率矢量量化作为信息瓶颈来分离视频中的逐帧运动特征和全局内容特征，并以条件扩散模型重建视频，在说话人头部视频和像素风格卡通数据集上展示了高质量的运动迁移和自回归视频生成能力。
+
+**[Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition](bridging_the_skeleton-text_modality_gap_diffusion-powered_modality_alignment_for.md)**
+
+:   提出TDSM（Triplet Diffusion for Skeleton-Text Matching），首次将扩散模型应用于零样本骨骼动作识别，通过反向扩散过程实现骨骼特征与文本prompt的隐式对齐，并引入triplet diffusion损失增强判别力，在NTU-60/120和PKU-MMD上大幅超越SOTA（2.36%到13.05%的提升幅度）。
+
+**[Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition](bridging_the_skeleton_text_modality_gap_diffusion_powered_modality_alignment_for.md)**
+
+:   提出TDSM（Triplet Diffusion for Skeleton-Text Matching），首次将扩散模型应用于零样本骨骼动作识别，通过反向扩散过程实现骨骼特征与文本prompt的隐式对齐，并引入triplet diffusion损失增强判别力，在NTU-60/120和PKU-MMD上大幅超越SOTA（2.36%到13.05%的提升幅度）。
+
+**[BVINet: Unlocking Blind Video Inpainting with Zero Annotations](bvinet_unlocking_blind_video_inpainting_with_zero_annotations.md)**
+
+:   首次定义并解决"盲视频修复"（blind video inpainting）任务——在无需任何损坏区域标注的情况下，端到端地同时完成"哪里需要修复"和"如何修复"，通过 mask 预测网络与视频补全网络的一致性约束互相增强，在合成数据和真实应用（弹幕去除/划痕修复）中均取得优异效果。
+
+**[Calibrating MLLM-as-a-Judge via Multimodal Bayesian Prompt Ensembles](calibrating_mllm-as-a-judge_via_multimodal_bayesian_prompt_ensembles.md)**
+
+:   提出Multimodal Mixture-of-Bayesian Prompt Ensembles (MMB)，通过基于图像聚类的多模态感知提示权重学习，显著改善MLLM作为评判者时的校准性和判断准确性，解决了标准提示集成方法在多模态场景下失效的问题。
+
+**[CaO2: Rectifying Inconsistencies in Diffusion-Based Dataset Distillation](cao2_rectifying_inconsistencies_in_diffusion-based_dataset_distillation.md)**
+
+:   揭示了基于扩散模型的数据集蒸馏中存在的"目标不一致"和"条件不一致"两个关键问题，提出两阶段框架CaO2：第一阶段通过分类器引导的样本选择缓解目标不一致，第二阶段通过隐空间优化最大化条件似然缓解条件不一致，在ImageNet上平均提升2.3%。
+
+**[CharaConsist: Fine-Grained Consistent Character Generation](characonsist_fine-grained_consistent_character_generation.md)**
+
+:   提出一种免训练的细粒度一致性角色生成方法，通过点跟踪注意力（Point-Tracking Attention）、自适应 token 合并和前景-背景解耦控制，首次在 DiT 架构（FLUX.1）上实现了高质量的跨图像角色一致性生成。
+
+**[CHORDS: Diffusion Sampling Accelerator with Multi-Core Hierarchical ODE Solvers](chords_diffusion_sampling_accelerator_with_multi-core_hierarchical_ode_solvers.md)**
+
+:   提出 Chords，一种基于多核层次 ODE 求解器的扩散采样加速框架，通过慢到快的核间纠正机制（inter-core rectification），在 4-8 个 GPU 上实现 2.1×~2.9× 加速，且不牺牲生成质量。
+
+**[CHORDS: Diffusion Sampling Accelerator with Multi-Core Hierarchical ODE Solvers](chords_diffusion_sampling_accelerator_with_multi_core_hierarchical_ode_solvers.md)**
+
+:   提出 Chords，一种基于多核层级 ODE 求解器的无训练、模型无关扩散采样加速框架，通过慢到快的求解器层级和核间纠偏机制，在 4~8 个 GPU 核上实现最高 2.9× 加速而不损失生成质量。
 
 **[Cns-Bench Benchmarking Image Classifier Robustness Under Continuous Nuisance Shi](cns-bench_benchmarking_image_classifier_robustness_under_continuous_nuisance_shi.md)**
 
@@ -26,6 +110,14 @@
 **[CompleteMe: Reference-based Human Image Completion](completeme_reference-based_human_image_completion.md)**
 
 :   提出CompleteMe框架，通过双U-Net架构和Region-focused Attention（RFA）Block，利用参考图像中的细粒度人物细节（衣物纹理、纹身等），实现高保真的参考引导人体图像补全。
+
+**[Contrastive Flow Matching (ΔFM)](contrastive_flow_matching.md)**
+
+:   在 Flow Matching 的训练目标中引入对比正则项，强制不同条件的流场互相远离，从而在零额外推理开销下实现 9× 训练加速、5× 更少采样步数、FID 最多降低 8.9。
+
+**[CURE: Cultural Gaps in the Long Tail of Text-to-Image Systems](cure_cultural_gaps_in_the_long_tail_of_text-to-image_systems.md)**
+
+:   提出 CURE 基准与评分套件，利用**属性规范的边际效用**（Marginal Information Attribution）作为人类判断的代理指标，系统评估 T2I 系统在全球文化长尾分布上的代表性能力。
 
 **[Cycle Consistency as Reward: Learning Image-Text Alignment without Human Preferences](cycle_consistency_as_reward_learning_imagetext_alignment_wit.md)**
 
@@ -43,13 +135,29 @@
 
 :   DGPST 提出了一个基于扩散模型的人像风格迁移框架，通过 semantic adapter 建立跨域稠密语义对应来扭曲参考图像，配合 AdaIN-Wavelet Transform 进行潜空间初始化以平衡风格化与内容保持，结合 ControlNet（高频结构引导）和 style adapter（风格引导）的双条件扩散模型生成最终结果，仅在 30K 真实肖像照片上训练即可泛化到照片、卡通、素描、动漫等多种域。
 
+**[DPoser-X: Diffusion Model as Robust 3D Whole-Body Human Pose Prior](dposer-x_diffusion_model_as_robust_3d_whole-body_human_pose_prior.md)**
+
+:   提出 DPoser-X，基于无条件扩散模型的 3D 全身人体姿态先验，将各种姿态相关任务统一为逆问题，通过变分扩散采样的截断时间步调度进行测试时优化，并引入混合训练策略有效结合全身和部位数据集，在身体、手、脸和全身建模的 8 个基准上取得最高 61% 的提升。
+
+**[EC-Flow: Enabling Versatile Robotic Manipulation from Action-Unlabeled Videos via Equivariant Flow Matching](ec-flow_enabling_versatile_robotic_manipulation_from_action-unlabeled_videos_via.md)**
+
+:   EC-Flow 提出了"具身中心光流"范式，从无动作标注的 RGB 视频中预测机器人本体的像素级运动轨迹，结合 URDF 运动学约束将视觉预测转化为可执行动作，在可变形物体、遮挡和非位移操作等场景中大幅超越物体中心方法。
+
 **[Efficient Autoregressive Shape Generation via Octree-Based Adaptive Tokenization](efficient_autoregressive_shape_generation_via_octree-based_adaptive_tokenization.md)**
 
 :   OAT 提出基于二次误差度量（quadric error）的自适应八叉树 tokenization，根据局部几何复杂度动态分配 token 预算，在减少 50% token 的同时保持重建质量，并在此基础上构建 OctreeGPT 实现高质量文本到 3D 生成。
 
+**[FedDifRC: Unlocking the Potential of Text-to-Image Diffusion Models in Heterogeneous Federated Learning](feddifrc_unlocking_the_potential_of_text-to-image_diffusion_models_in_heterogene.md)**
+
+:   首次将预训练文本到图像扩散模型（Stable Diffusion）的内部表示引入联邦学习，提出 FedDifRC 框架，通过文本驱动的扩散对比学习（TDCL）和噪声驱动的扩散一致性正则化（NDCR）两个互补模块，有效缓解数据异质性问题，在多种 non-iid 场景下显著提升全局模型性能。
+
 **[FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models](flowedit_inversion-free_text-based_editing_using_pre-trained_flow_models.md)**
 
 :   FlowEdit 提出一种无需反转（inversion-free）、无需优化、模型无关的文本编辑方法，直接在预训练 Flow 模型的源/目标分布之间构建 ODE 路径，实现比 inversion 更低传输代价的结构保持编辑。
+
+**[FreeScale: Unleashing the Resolution of Diffusion Models via Tuning-Free Scale Fusion](freescale_unleashing_the_resolution_of_diffusion_models_via_tuning-free_scale_fu.md)**
+
+:   提出 FreeScale，一种无需训练的推理范式，通过尺度融合（Scale Fusion）机制从不同感受野尺度提取并融合信息（全局高频 + 局部低频），配合定制化级联上采样和约束膨胀卷积，首次在单张 A800 GPU 上实现了 8K 分辨率的文本到图像生成，同时支持高分辨率视频生成。
 
 **[HPSv3: Towards Wide-Spectrum Human Preference Score](hpsv3_towards_wide-spectrum_human_preference_score.md)**
 
@@ -87,10 +195,6 @@
 
 :   MotionDiff 提出一种免训练、零样本的多视图运动编辑方法，通过点运动学模型（PKM）从静态场景估计多视图光流，再利用解耦运动表示引导 Stable Diffusion 生成高质量、多视图一致的运动编辑结果。
 
-**[MotionFollower: Editing Video Motion via Lightweight Score-Guided Diffusion](motionfollower_editing_video_motion_via_score-guided_diffusion.md)**
-
-:   提出 MotionFollower，通过两个轻量卷积控制器（姿态+外观）和基于分数函数正则化的一致性引导机制，实现视频运动编辑，在 GPU 显存消耗减少约 80% 的同时超越 MotionEditor 等强基线。
-
 **[Multi-turn Consistent Image Editing](multi-turn_consistent_image_editing.md)**
 
 :   提出基于 flow matching 的多轮图像编辑框架，通过双目标 LQR 引导和自适应注意力机制，有效抑制多轮编辑中的误差累积，在保持内容一致性的同时实现灵活可控的迭代编辑。
@@ -123,6 +227,10 @@
 
 :   提出 Reducio-VAE，一种以内容帧为条件的 3D 视频自编码器，将视频压缩至比标准 2D VAE 小 64 倍的运动潜空间，配合 Reducio-DiT 在单张 A100 上 15.5 秒内生成 16 帧 1024x1024 视频，训练仅需 3200 A100 GPU 小时。
 
+**[ReFlex: Text-Guided Editing of Real Images in Rectified Flow via Mid-Step Feature Extraction and Attention Adaptation](reflex_text-guided_editing_of_real_images_in_rectified_flow_via_mid-step_feature.md)**
+
+:   针对 Rectified Flow（ReFlow）模型的真实图像编辑难题，通过系统分析 MM-DiT 的中间表示，识别出三个关键特征（I2I-SA、I2T-CA、残差特征），并提出中间步特征提取（mid-step feature extraction）和两种注意力适配技术，在 FLUX 模型上实现了无需训练、无需用户掩码的高质量真实图像编辑，人类评估中 68.2% 优选率远超其他方法。
+
 **[REPA-E: Unlocking VAE for End-to-End Tuning of Latent Diffusion Transformers](repae_unlocking_vae_for_endtoend_tuning_of_latent_diffusion.md)**
 
 :   回答了"潜空间扩散模型能否与VAE端到端联合训练"的基础问题——发现标准扩散loss无法端到端训练但表示对齐（REPA）loss可以，提出REPA-E实现VAE+DiT联合训练，训练速度比REPA快17倍、比vanilla快45倍，在ImageNet 256×256上达到1.12 FID（w/ CFG）的新SOTA。
@@ -150,6 +258,14 @@
 **[TeRA: Rethinking Text-guided Realistic 3D Avatar Generation](tera_rethinking_text-guided_realistic_3d_avatar_generation.md)**
 
 :   提出TeRA，首个基于隐空间扩散模型的文本引导3D真人头像生成框架，通过蒸馏大规模人体重建模型构建结构化隐空间，12秒生成写实3D人物，比SDS方法快两个数量级。
+
+**[Trade-offs in Image Generation: How Do Different Dimensions Interact?](trade-offs_in_image_generation_how_do_different_dimensions_interact.md)**
+
+:   提出 TRIG-Bench 基准（40,200 样本，10 个评估维度，132 个成对维度子集），以及 VLM-as-Judge 指标 TRIGScore，首次系统性地揭示和分析了图像生成模型在不同评估维度（如真实性、关系对齐、风格等）之间的权衡关系，并通过维度权衡图（DTM）指导微调实现性能提升。
+
+**[Transformed Low-rank Adaptation via Tensor Decomposition and Its Applications to Text-to-image Models](transformed_low-rank_adaptation_via_tensor_decomposition_and_its_applications_to.md)**
+
+:   提出 TLoRA 方法，将预训练权重的微调分解为 **变换（Transform）** 和 **残差（Residual）** 两个适应部分，分别采用张量环矩阵（TRM）和张量环（TR）分解进行参数化，在 SDXL 上实现了仅 0.4M 参数的超参数高效微调，同时性能优于 LoRA 等基线方法。
 
 **[Video Color Grading via Look-Up Table Generation](video_color_grading_via_look-up_table_generation.md)**
 

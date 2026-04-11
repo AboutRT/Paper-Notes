@@ -1,9 +1,9 @@
 # CRFT: Consistent-Recurrent Feature Flow Transformer for Cross-Modal Image Registration
 
-**会议**: CVPR 2026
-**arXiv**: [2604.05689](https://arxiv.org/abs/2604.05689)
-**代码**: https://github.com/NEU-Liuxuecong/CRFT (有)
-**领域**: 医学影像 / 图像配准
+**会议**: CVPR 2026  
+**arXiv**: [2604.05689](https://arxiv.org/abs/2604.05689)  
+**代码**: https://github.com/NEU-Liuxuecong/CRFT (有)  
+**领域**: 医学影像 / 图像配准  
 **关键词**: 跨模态配准, 特征流学习, 粗到精, 差异引导注意力, 空间几何变换
 
 ## 一句话总结

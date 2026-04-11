@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频理解
 
-**💬 ACL2025** · 共 **6** 篇
+**💬 ACL2025** · 共 **7** 篇
+
+**[Addressing Blind Guessing: Calibration of Selection Bias in Multiple-Choice Question Answering by Video Language Models](addressing_blind_guessing_calibration_of_selection_bias_in_multiple-choice_quest.md)**
+
+:   首次系统性研究视频语言模型（VLM）在多选题回答中的选项选择偏差问题，通过任务分解分析偏差来源，提出BOLD后处理校准技术，在减少偏差的同时提升模型性能。
 
 **[From Teacher to Student: Tracking Memorization Through Model Distillation](from_teacher_to_student_tracking_memorization_through_model_distillation.md)**
 

@@ -1,9 +1,9 @@
 # Rectifying Shortcut Behaviors in Preference-based Reward Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19050](https://arxiv.org/abs/2510.19050)
-**代码**: 待确认
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19050](https://arxiv.org/abs/2510.19050)  
+**代码**: 待确认  
+**领域**: llm_alignment  
 **关键词**: reward hacking, shortcut learning, group-invariant kernel, RLHF, preference alignment
 
 ## 一句话总结

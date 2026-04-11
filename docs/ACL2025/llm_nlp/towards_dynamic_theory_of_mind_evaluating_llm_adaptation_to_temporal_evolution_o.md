@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States
 
-**会议**: ACL2025
-**arXiv**: [2505.17663](https://arxiv.org/abs/2505.17663)
-**代码**: [GitHub & HuggingFace](https://github.com/)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.17663](https://arxiv.org/abs/2505.17663)  
+**代码**: [GitHub & HuggingFace](https://github.com/)  
+**领域**: llm_nlp  
 **关键词**: 心智理论, 动态推理, 心理状态追踪, 社会认知, LLM评估
 
 ## 一句话总结
@@ -19,6 +19,7 @@
 6. **实际应用中动态理解不可或缺**：心理咨询 AI、情感陪伴系统、社交模拟等应用都需要模型理解用户心理状态如何随交互推进而变化，静态评估无法衡量此能力。
 
 ## 方法详解
+
 ### 四步构建框架
 
 **Step 1: 社会情境构建**

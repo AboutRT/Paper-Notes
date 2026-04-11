@@ -1,9 +1,9 @@
 # Better Estimation of the Kullback-Leibler Divergence Between Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.10637](https://arxiv.org/abs/2504.10637)
-**代码**: https://github.com/rycolab/kl-rb
-**领域**: LLM 训练 / 统计估计
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.10637](https://arxiv.org/abs/2504.10637)  
+**代码**: https://github.com/rycolab/kl-rb  
+**领域**: LLM 训练 / 统计估计  
 **关键词**: KL散度估计, Rao-Blackwell化, RLHF, 方差减少, 语言模型
 
 ## 一句话总结

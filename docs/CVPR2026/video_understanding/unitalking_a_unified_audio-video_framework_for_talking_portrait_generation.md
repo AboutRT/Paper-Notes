@@ -1,9 +1,9 @@
 # UniTalking: A Unified Audio-Video Framework for Talking Portrait Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01418](https://arxiv.org/abs/2603.01418)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.01418](https://arxiv.org/abs/2603.01418)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 说话人生成, 音视频联合生成, 扩散Transformer, 唇音同步, 语音克隆
 
 ## 一句话总结

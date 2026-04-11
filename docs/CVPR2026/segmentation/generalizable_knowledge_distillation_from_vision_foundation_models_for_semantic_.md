@@ -1,9 +1,9 @@
 # Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.02554](https://arxiv.org/abs/2603.02554)
-**代码**: [GitHub](https://github.com/Younger-hua/GKD)
-**领域**: 分割 / 知识蒸馏
+**会议**: CVPR 2026  
+**arXiv**: [2603.02554](https://arxiv.org/abs/2603.02554)  
+**代码**: [GitHub](https://github.com/Younger-hua/GKD)  
+**领域**: 分割 / 知识蒸馏  
 **关键词**: 知识蒸馏, 域泛化, 视觉基础模型, 语义分割, 多阶段学习
 
 ## 一句话总结

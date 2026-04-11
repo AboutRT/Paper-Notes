@@ -1,9 +1,9 @@
 # RAW-Domain Degradation Models for Realistic Smartphone Super-Resolution
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12493](https://arxiv.org/abs/2603.12493)
+**会议**: CVPR 2026  
+**arXiv**: [2603.12493](https://arxiv.org/abs/2603.12493)  
 **作者**: Ali Mosleh, Faraz Ali, Fengjia Zhang, Stavros Tsogkas, Junyong Lee, Alex Levinshtein, Michael S. Brown (Samsung AI Center-Toronto)
-**领域**: image_restoration
+**领域**: image_restoration  
 **关键词**: super-resolution, RAW domain, degradation modeling, smartphone camera, blur kernel calibration, sensor noise
 
 ## 一句话总结

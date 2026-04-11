@@ -1,9 +1,9 @@
 # Rethinking Evaluation Metrics for Grammatical Error Correction: Why Use a Different Evaluation Process than Human?
 
-**会议**: ACL 2025
-**arXiv**: [2502.09416](https://arxiv.org/abs/2502.09416)
-**代码**: [GitHub (gec-metrics)](https://github.com/gotutiyan/gec-metrics)
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2502.09416](https://arxiv.org/abs/2502.09416)  
+**代码**: [GitHub (gec-metrics)](https://github.com/gotutiyan/gec-metrics)  
+**领域**: 文本生成  
 **关键词**: 语法纠错评估, TrueSkill, 系统排名, 元评估, 人类评估对齐
 
 ## 一句话总结

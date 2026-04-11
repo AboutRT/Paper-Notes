@@ -1,9 +1,9 @@
 # Learning Dynamics under Environmental Constraints via Measurement-Induced Bundle Structures
 
-**会议**: ICML2025
-**arXiv**: [2505.19521](https://arxiv.org/abs/2505.19521)
-**代码**: [GitHub](https://github.com/ContinuumCoder/Measurement-Induced-Bundle-for-Learning-Dynamics/)
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2505.19521](https://arxiv.org/abs/2505.19521)  
+**代码**: [GitHub](https://github.com/ContinuumCoder/Measurement-Induced-Bundle-for-Learning-Dynamics/)  
+**领域**: reinforcement_learning  
 **关键词**: 纤维丛, 安全控制, Neural ODE, 测量不确定性, 几何学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation
 
-**会议**: CVPR2026
-**arXiv**: [2510.08318](https://arxiv.org/abs/2510.08318)
-**代码**: 无
-**领域**: image_generation / video_generation
+**会议**: CVPR2026  
+**arXiv**: [2510.08318](https://arxiv.org/abs/2510.08318)  
+**代码**: 无  
+**领域**: image_generation / video_generation  
 **关键词**: linear attention, video diffusion, post-training, efficient inference, distribution matching
 
 ## 一句话总结

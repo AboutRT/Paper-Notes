@@ -1,9 +1,9 @@
 # Hybrid-TTA: Continual Test-time Adaptation via Dynamic Domain Shift Detection
 
-**会议**: ICCV 2025
-**arXiv**: [2409.08566](https://arxiv.org/abs/2409.08566)
-**代码**: 未公开
-**领域**: 持续测试时自适应 / 语义分割
+**会议**: ICCV 2025  
+**arXiv**: [2409.08566](https://arxiv.org/abs/2409.08566)  
+**代码**: 未公开  
+**领域**: 持续测试时自适应 / 语义分割  
 **关键词**: 测试时自适应, 域偏移检测, 全参数微调, 高效微调, 掩码图像建模, 语义分割, Teacher-Student
 
 ## 一句话总结

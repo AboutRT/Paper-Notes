@@ -1,9 +1,9 @@
 # SERUM: Simple, Efficient, Robust, and Unifying Marking for Diffusion-based Image Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2603.13396](https://arxiv.org/abs/2603.13396)
-**代码**: [GitHub](https://github.com/Hubizon/SERUM)
-**领域**: AI安全/水印
+**会议**: ICLR 2026  
+**arXiv**: [2603.13396](https://arxiv.org/abs/2603.13396)  
+**代码**: [GitHub](https://github.com/Hubizon/SERUM)  
+**领域**: AI安全/水印  
 **关键词**: 扩散模型水印, 轻量检测器, 噪声注入, 鲁棒性, 多用户
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Efficient Diffusion Models for Symmetric Manifolds
 
-**会议**: ICML 2025
-**arXiv**: [2505.21640](https://arxiv.org/abs/2505.21640)
-**代码**: 无
-**领域**: 扩散模型 / 流形生成模型
+**会议**: ICML 2025  
+**arXiv**: [2505.21640](https://arxiv.org/abs/2505.21640)  
+**代码**: 无  
+**领域**: 扩散模型 / 流形生成模型  
 **关键词**: 对称流形, 黎曼扩散模型, 热核绕过, Itô引理, 采样保证
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Interpretable Cross-Domain Few-Shot Learning with Rectified Target-Domain Local Alignment
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17655](https://arxiv.org/abs/2603.17655)
-**代码**: [CC-CDFSL](https://github.com/zyaz/CC-CDFSL)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.17655](https://arxiv.org/abs/2603.17655)  
+**代码**: [CC-CDFSL](https://github.com/zyaz/CC-CDFSL)  
+**领域**: 医学图像  
 **关键词**: 跨域少样本学习, CLIP, 局部特征对齐, 循环一致性, 可解释性
 
 ## 一句话总结

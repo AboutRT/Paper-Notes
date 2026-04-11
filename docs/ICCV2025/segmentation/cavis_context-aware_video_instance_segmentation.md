@@ -1,9 +1,9 @@
 # CAVIS: Context-Aware Video Instance Segmentation
 
-**会议**: ICCV 2025
-**arXiv**: [2407.03010](https://arxiv.org/abs/2407.03010)
-**代码**: https://github.com/seunghunlee918/cavis (有)
-**领域**: 分割
+**会议**: ICCV 2025  
+**arXiv**: [2407.03010](https://arxiv.org/abs/2407.03010)  
+**代码**: https://github.com/seunghunlee918/cavis (有)  
+**领域**: 分割  
 **关键词**: 视频实例分割, 上下文感知, 对比学习, 实例追踪, Mask2Former
 
 ## 一句话总结

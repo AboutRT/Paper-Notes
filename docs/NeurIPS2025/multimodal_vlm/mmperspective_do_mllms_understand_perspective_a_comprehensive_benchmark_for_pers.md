@@ -1,9 +1,9 @@
 # MMPerspective: Do MLLMs Understand Perspective? A Comprehensive Benchmark for Perspective Perception, Reasoning, and Robustness
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.20426](https://arxiv.org/abs/2505.20426)
-**代码**: [GitHub](https://yunlong10.github.io/MMPerspective/) (有)
-**领域**: Multimodal VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.20426](https://arxiv.org/abs/2505.20426)  
+**代码**: [GitHub](https://yunlong10.github.io/MMPerspective/) (有)  
+**领域**: Multimodal VLM  
 **关键词**: 透视理解, 多模态大语言模型, 基准测试, 空间推理, 几何感知
 
 ## 一句话总结

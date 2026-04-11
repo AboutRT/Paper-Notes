@@ -1,9 +1,9 @@
 # Inference-time Alignment in Continuous Space
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.20081](https://arxiv.org/abs/2505.20081)
-**代码**: [GitHub](https://github.com/YigeYuan/SEA)
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.20081](https://arxiv.org/abs/2505.20081)  
+**代码**: [GitHub](https://github.com/YigeYuan/SEA)  
+**领域**: llm_alignment  
 **关键词**: inference-time alignment, energy-based model, Langevin dynamics, RLHF, continuous optimization, reward model
 
 ## 一句话总结

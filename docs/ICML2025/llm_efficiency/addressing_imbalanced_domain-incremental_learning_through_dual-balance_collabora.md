@@ -1,9 +1,9 @@
 # Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative Experts (DCE)
 
-**会议**: ICML 2025
-**arXiv**: [2507.07100](https://arxiv.org/abs/2507.07100)
-**代码**: https://github.com/Lain810/DCE
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2507.07100](https://arxiv.org/abs/2507.07100)  
+**代码**: https://github.com/Lain810/DCE  
+**领域**: LLM效率  
 **关键词**: 域增量学习, 类别不平衡, 专家混合, 持续学习, 预训练模型
 
 ## 一句话总结

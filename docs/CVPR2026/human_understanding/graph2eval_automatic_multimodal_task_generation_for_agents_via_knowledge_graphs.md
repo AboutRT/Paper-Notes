@@ -1,9 +1,9 @@
 # Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs
 
-**会议**: CVPR 2026
-**arXiv**: [2510.00507](https://arxiv.org/abs/2510.00507)
-**代码**: [github.com/YurunChen/Graph2Eval](https://github.com/YurunChen/Graph2Eval)
-**领域**: 人机理解 / Agent 评估
+**会议**: CVPR 2026  
+**arXiv**: [2510.00507](https://arxiv.org/abs/2510.00507)  
+**代码**: [github.com/YurunChen/Graph2Eval](https://github.com/YurunChen/Graph2Eval)  
+**领域**: 人机理解 / Agent 评估  
 **关键词**: 知识图谱, 自动任务生成, agent评估, 文档理解, 网页理解, benchmark构建
 
 ## 一句话总结

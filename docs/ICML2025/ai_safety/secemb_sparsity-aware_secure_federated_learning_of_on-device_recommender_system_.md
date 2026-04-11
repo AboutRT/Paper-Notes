@@ -1,9 +1,9 @@
 # SecEmb: Sparsity-Aware Secure Federated Learning of On-Device Recommender System with Large Embedding
 
-**会议**: ICML2025
-**arXiv**: [2505.12453](https://arxiv.org/abs/2505.12453)
-**代码**: [NusIoraPrivacy/SecEmb](https://github.com/NusIoraPrivacy/SecEmb)
-**领域**: AI安全 / 联邦推荐
+**会议**: ICML2025  
+**arXiv**: [2505.12453](https://arxiv.org/abs/2505.12453)  
+**代码**: [NusIoraPrivacy/SecEmb](https://github.com/NusIoraPrivacy/SecEmb)  
+**领域**: AI安全 / 联邦推荐  
 **关键词**: 联邦学习, 推荐系统, 安全聚合, 稀疏嵌入, 函数秘密共享, 隐私保护
 
 ## 一句话总结

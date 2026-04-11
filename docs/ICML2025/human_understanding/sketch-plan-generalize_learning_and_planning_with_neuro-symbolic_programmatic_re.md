@@ -1,8 +1,8 @@
 # Sketch-Plan-Generalize: Learning and Planning with Neuro-Symbolic Programmatic Representations for Inductive Spatial Concepts
 
-**会议**: ICML2025
-**arXiv**: [2404.07774](https://arxiv.org/abs/2404.07774)
-**领域**: 神经符号学习 / 具身概念学习
+**会议**: ICML2025  
+**arXiv**: [2404.07774](https://arxiv.org/abs/2404.07774)  
+**领域**: 神经符号学习 / 具身概念学习  
 **关键词**: Neuro-Symbolic, Program Synthesis, MCTS, Inductive Generalization, Concept Learning, Embodied AI
 
 ## 一句话总结

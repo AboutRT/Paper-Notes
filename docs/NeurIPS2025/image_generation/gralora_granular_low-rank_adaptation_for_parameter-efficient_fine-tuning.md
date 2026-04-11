@@ -1,10 +1,10 @@
 # GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
 
-**会议**: NEURIPS2025
-**arXiv**: [2505.20355](https://arxiv.org/abs/2505.20355)
+**会议**: NEURIPS2025  
+**arXiv**: [2505.20355](https://arxiv.org/abs/2505.20355)  
 **作者**: Yeonjoon Jung, Daehyun Ahn, Hyungjun Kim, Taesu Kim, Eunhyeok Park (SqueezeBits, POSTECH)
-**代码**: 未开源
-**领域**: 参数高效微调 (PEFT) / LoRA 改进
+**代码**: 未开源  
+**领域**: 参数高效微调 (PEFT) / LoRA 改进  
 **关键词**: LoRA, 低秩适配, 参数高效微调, 梯度纠缠, 分块分解, 高秩表达
 
 ## 一句话总结

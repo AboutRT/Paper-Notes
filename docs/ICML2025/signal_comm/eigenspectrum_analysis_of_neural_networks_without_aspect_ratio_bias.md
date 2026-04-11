@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Eigenspectrum Analysis of Neural Networks without Aspect Ratio Bias
 
-**会议**: ICML2025
-**arXiv**: [2506.06280](https://arxiv.org/abs/2506.06280)
-**代码**: [GitHub - FARMS](https://github.com/HUST-AI-HYZ/FARMS)
-**领域**: signal_comm
+**会议**: ICML2025  
+**arXiv**: [2506.06280](https://arxiv.org/abs/2506.06280)  
+**代码**: [GitHub - FARMS](https://github.com/HUST-AI-HYZ/FARMS)  
+**领域**: signal_comm  
 **关键词**: ESD, 重尾自正则化, 随机矩阵理论, 长宽比偏差, 层级超参数分配
 
 ## 一句话总结

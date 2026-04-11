@@ -1,9 +1,9 @@
 # MultiMed: Multilingual Medical Speech Recognition via Attention Encoder Decoder
 
-**会议**: ACL 2025
-**arXiv**: [2409.14074](https://arxiv.org/abs/2409.14074)
-**代码**: [GitHub](https://github.com/leduckhai/MultiMed/tree/master/MultiMed)
-**领域**: 语音/医学
+**会议**: ACL 2025  
+**arXiv**: [2409.14074](https://arxiv.org/abs/2409.14074)  
+**代码**: [GitHub](https://github.com/leduckhai/MultiMed/tree/master/MultiMed)  
+**领域**: 语音/医学  
 **关键词**: medical ASR, multilingual speech recognition, Whisper, dataset, attention encoder decoder
 
 ## 一句话总结

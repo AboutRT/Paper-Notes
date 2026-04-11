@@ -1,9 +1,9 @@
 # FairImagen: Post-Processing for Bias Mitigation in Text-to-Image Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21363](https://arxiv.org/abs/2510.21363)
-**代码**: [fuzihaofzh/FairImagen](https://github.com/fuzihaofzh/FairImagen)
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21363](https://arxiv.org/abs/2510.21363)  
+**代码**: [fuzihaofzh/FairImagen](https://github.com/fuzihaofzh/FairImagen)  
+**领域**: image_generation  
 **关键词**: 公平性, 偏见缓解, Stable Diffusion, FairPCA, 文本到图像
 
 ## 一句话总结

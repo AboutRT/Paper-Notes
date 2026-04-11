@@ -1,9 +1,9 @@
 # Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials
 
-**会议**: ICLR 2026
-**arXiv**: [2602.22251](https://arxiv.org/abs/2602.22251)
-**代码**: 开源（fully open-source）
-**领域**: 图像生成 / 科学机器学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.22251](https://arxiv.org/abs/2602.22251)  
+**代码**: 开源（fully open-source）  
+**领域**: 图像生成 / 科学机器学习  
 **关键词**: 基础模型, 流匹配, 3D分子, 3D材料, 多模态生成, 属性预测
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer
 
-**会议**: CVPR2026
-**arXiv**: [2603.07057](https://arxiv.org/abs/2603.07057)
-**代码**: [leaves162/SODA](https://github.com/leaves162/SODA)
-**领域**: 模型压缩
+**会议**: CVPR2026  
+**arXiv**: [2603.07057](https://arxiv.org/abs/2603.07057)  
+**代码**: [leaves162/SODA](https://github.com/leaves162/SODA)  
+**领域**: 模型压缩  
 **关键词**: Diffusion Transformer, 训练无关加速, 缓存, 剪枝, 敏感度建模, 动态规划
 
 ## 一句话总结

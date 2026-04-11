@@ -1,9 +1,9 @@
 # Martingale Score: An Unsupervised Metric for Bayesian Rationality in LLM Reasoning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.02914](https://arxiv.org/abs/2512.02914)
-**代码**: 无
-**领域**: LLM推理评估 / 时间序列
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.02914](https://arxiv.org/abs/2512.02914)  
+**代码**: 无  
+**领域**: LLM推理评估 / 时间序列  
 **关键词**: Martingale Score, 信念固化, 贝叶斯理性, LLM推理, 无监督评估
 
 ## 一句话总结

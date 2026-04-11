@@ -1,10 +1,10 @@
 # The Burden of Interactive Alignment with Inconsistent Preferences
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.16368](https://arxiv.org/abs/2510.16368)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.16368](https://arxiv.org/abs/2510.16368)  
 **作者**: Ali Shirali (UC Berkeley)
-**代码**: 无
-**领域**: 强化学习 / 对齐理论 / 博弈论
+**代码**: 无  
+**领域**: 强化学习 / 对齐理论 / 博弈论  
 **关键词**: interactive alignment, inconsistent preferences, Stackelberg game, engagement optimization, costly signaling
 
 ## 一句话总结

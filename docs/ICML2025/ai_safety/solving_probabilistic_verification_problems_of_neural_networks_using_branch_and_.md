@@ -1,9 +1,9 @@
 # Solving Probabilistic Verification Problems of Neural Networks Using Branch and Bound
 
-**会议**: ICML 2025
-**arXiv**: [2405.17556](https://arxiv.org/abs/2405.17556)
-**代码**: 有
-**领域**: AI Safety
+**会议**: ICML 2025  
+**arXiv**: [2405.17556](https://arxiv.org/abs/2405.17556)  
+**代码**: 有  
+**领域**: AI Safety  
 **关键词**: neural network verification, probabilistic verification, branch and bound, bound propagation, fairness
 
 ## 一句话总结

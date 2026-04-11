@@ -1,9 +1,9 @@
 # CyIN: Cyclic Informative Latent Space for Bridging Complete and Incomplete Multimodal Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2602.04920](https://arxiv.org/abs/2602.04920)
-**代码**: [GitHub](https://github.com/RH-Lin/CyIN) (有)
-**领域**: 多模态VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2602.04920](https://arxiv.org/abs/2602.04920)  
+**代码**: [GitHub](https://github.com/RH-Lin/CyIN) (有)  
+**领域**: 多模态VLM  
 **关键词**: 不完整多模态学习, 信息瓶颈, 循环翻译, 变分近似, 模态缺失
 
 ## 一句话总结

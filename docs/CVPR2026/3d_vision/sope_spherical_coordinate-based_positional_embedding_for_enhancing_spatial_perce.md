@@ -1,9 +1,9 @@
 # SoPE: Spherical Coordinate-Based Positional Embedding for Enhancing Spatial Perception of 3D LVLMs
 
-**会议**: CVPR2026
-**arXiv**: [2602.22716](https://arxiv.org/abs/2602.22716)
-**代码**: 无
-**领域**: 3D Vision / 3D Scene Understanding
+**会议**: CVPR2026  
+**arXiv**: [2602.22716](https://arxiv.org/abs/2602.22716)  
+**代码**: 无  
+**领域**: 3D Vision / 3D Scene Understanding  
 **关键词**: positional embedding, 3D LVLM, spherical coordinates, RoPE, point cloud, spatial perception
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Attention, May I Have Your Decision? Localizing Generative Choices in Diffusion Models
 
-**会议**: CVPR 2026
-**arXiv**: [2604.06052](https://arxiv.org/abs/2604.06052)
-**代码**: [https://github.com/kzaleskaa/icm](https://github.com/kzaleskaa/icm) (有)
-**领域**: 图像生成 / 扩散模型可解释性
+**会议**: CVPR 2026  
+**arXiv**: [2604.06052](https://arxiv.org/abs/2604.06052)  
+**代码**: [https://github.com/kzaleskaa/icm](https://github.com/kzaleskaa/icm) (有)  
+**领域**: 图像生成 / 扩散模型可解释性  
 **关键词**: Diffusion Model Interpretability, Self-Attention, Debiasing, Linear Probing, Implicit Decision
 
 ## 一句话总结

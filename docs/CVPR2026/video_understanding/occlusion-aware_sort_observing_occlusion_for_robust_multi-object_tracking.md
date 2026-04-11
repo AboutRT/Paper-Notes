@@ -1,9 +1,9 @@
 # Occlusion-Aware SORT: Observing Occlusion for Robust Multi-Object Tracking
 
-**会议**: CVPR 2026
-**arXiv**: [2603.06034](https://arxiv.org/abs/2603.06034)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.06034](https://arxiv.org/abs/2603.06034)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 多目标跟踪, 遮挡感知, Kalman Filter, 数据关联, 即插即用
 
 ## 一句话总结

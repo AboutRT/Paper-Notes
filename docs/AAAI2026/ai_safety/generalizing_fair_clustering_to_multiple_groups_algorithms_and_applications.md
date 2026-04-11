@@ -1,9 +1,9 @@
 # Generalizing Fair Clustering to Multiple Groups: Algorithms and Applications
 
-**会议**: AAAI 2026
-**arXiv**: [2511.11539](https://arxiv.org/abs/2511.11539)
-**代码**: 待确认
-**领域**: AI安全/公平性
+**会议**: AAAI 2026  
+**arXiv**: [2511.11539](https://arxiv.org/abs/2511.11539)  
+**代码**: 待确认  
+**领域**: AI安全/公平性  
 **关键词**: 公平聚类, 多群体公平, 近似算法, 相关聚类, 共识聚类, NP-hard
 
 ## 一句话总结

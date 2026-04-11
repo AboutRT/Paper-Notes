@@ -1,8 +1,8 @@
 # TesserAct: Learning 4D Embodied World Models
 
-**会议**: ICCV 2025
-**arXiv**: [2504.20995](https://arxiv.org/abs/2504.20995)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2504.20995](https://arxiv.org/abs/2504.20995)  
+**领域**: 3D视觉  
 **关键词**: 4D世界模型, 具身智能, 视频扩散模型, RGB-DN, 深度法线联合预测, 机器人规划
 
 ## 一句话总结

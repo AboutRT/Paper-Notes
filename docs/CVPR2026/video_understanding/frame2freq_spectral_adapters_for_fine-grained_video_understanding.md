@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Frame2Freq: Spectral Adapters for Fine-Grained Video Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2602.18977](https://arxiv.org/abs/2602.18977)
-**代码**: [th-nesh/Frame2Freq](https://github.com/th-nesh/Frame2Freq)
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2602.18977](https://arxiv.org/abs/2602.18977)  
+**代码**: [th-nesh/Frame2Freq](https://github.com/th-nesh/Frame2Freq)  
+**领域**: 视频理解  
 **关键词**: 频域适配器, 参数高效微调, 图像-视频迁移, 细粒度动作识别, 快速傅里叶变换, Vision Foundation Model
 
 ## 一句话总结

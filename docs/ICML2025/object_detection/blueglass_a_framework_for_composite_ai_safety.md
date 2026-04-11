@@ -1,9 +1,9 @@
 # BlueGlass: A Framework for Composite AI Safety
 
-**会议**: ICML 2025
-**arXiv**: [2507.10106](https://arxiv.org/abs/2507.10106)
-**代码**: 开源（BlueGlass）
-**领域**: 目标检测
+**会议**: ICML 2025  
+**arXiv**: [2507.10106](https://arxiv.org/abs/2507.10106)  
+**代码**: 开源（BlueGlass）  
+**领域**: 目标检测  
 **关键词**: AI安全框架, 视觉语言模型, 可解释性, 稀疏自编码器, 复合安全分析
 
 ## 一句话总结

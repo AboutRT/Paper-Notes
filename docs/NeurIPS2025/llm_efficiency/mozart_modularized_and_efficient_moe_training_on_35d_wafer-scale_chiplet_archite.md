@@ -1,9 +1,9 @@
 # Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures
 
-**会议**: NeurIPS 2025
-**arXiv**: [2603.07006](https://arxiv.org/abs/2603.07006)
-**代码**: 无
-**领域**: LLM效率 / 硬件协同设计
+**会议**: NeurIPS 2025  
+**arXiv**: [2603.07006](https://arxiv.org/abs/2603.07006)  
+**代码**: 无  
+**领域**: LLM效率 / 硬件协同设计  
 **关键词**: MoE, chiplet architecture, expert parallelism, wafer-scale, algorithm-hardware co-design
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # One Size Fits None: Rethinking Fairness in Medical AI
 
-**会议**: ACL 2025
-**arXiv**: [2506.14400](https://arxiv.org/abs/2506.14400)
-**代码**: 无
-**领域**: 医学图像 / 公平性
+**会议**: ACL 2025  
+**arXiv**: [2506.14400](https://arxiv.org/abs/2506.14400)  
+**代码**: 无  
+**领域**: 医学图像 / 公平性  
 **关键词**: 公平性, 子群体分析, 医学ML, 多模态, 临床决策
 
 ## 一句话总结

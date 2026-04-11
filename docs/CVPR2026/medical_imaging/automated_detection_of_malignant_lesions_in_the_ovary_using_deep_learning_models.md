@@ -1,9 +1,9 @@
 # Automated Detection of Malignant Lesions in the Ovary Using Deep Learning Models and XAI
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11818](https://arxiv.org/abs/2603.11818)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.11818](https://arxiv.org/abs/2603.11818)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 卵巢癌检测, CNN分类, 可解释AI, 组织病理学, InceptionV3
 
 ## 一句话总结

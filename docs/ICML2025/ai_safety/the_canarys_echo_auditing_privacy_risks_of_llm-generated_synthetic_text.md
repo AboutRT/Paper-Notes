@@ -1,9 +1,9 @@
 # The Canary's Echo: Auditing Privacy Risks of LLM-Generated Synthetic Text
 
-**会议**: ICML 2025
-**arXiv**: [2502.14921](https://arxiv.org/abs/2502.14921)
-**代码**: 无公开代码
-**领域**: AI Safety / 隐私安全
+**会议**: ICML 2025  
+**arXiv**: [2502.14921](https://arxiv.org/abs/2502.14921)  
+**代码**: 无公开代码  
+**领域**: AI Safety / 隐私安全  
 **关键词**: 成员推断攻击, 合成数据隐私, LLM 隐私审计, 金丝雀攻击, 差分隐私
 
 ## 一句话总结

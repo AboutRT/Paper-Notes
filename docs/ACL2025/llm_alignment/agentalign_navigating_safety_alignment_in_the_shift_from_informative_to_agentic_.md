@@ -1,9 +1,9 @@
 # AgentAlign: Navigating Safety Alignment in the Shift from Informative to Agentic LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2505.23020](https://arxiv.org/abs/2505.23020)
-**代码**: https://github.com/ (已开源，具体链接见论文)
-**领域**: LLM对齐 / Agent安全
+**会议**: ACL 2025  
+**arXiv**: [2505.23020](https://arxiv.org/abs/2505.23020)  
+**代码**: https://github.com/ (已开源，具体链接见论文)  
+**领域**: LLM对齐 / Agent安全  
 **关键词**: agent safety alignment, behavior chain, agentic LLM, tool use, safety-utility trade-off
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Lifelong Imitation Learning with Multimodal Latent Replay and Incremental Adjustment
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10929](https://arxiv.org/abs/2603.10929)
-**代码**: https://github.com/yfqi/lifelong_mlr_ifa (有)
-**领域**: 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.10929](https://arxiv.org/abs/2603.10929)  
+**代码**: https://github.com/yfqi/lifelong_mlr_ifa (有)  
+**领域**: 强化学习  
 **关键词**: 终身模仿学习, 多模态潜在回放, 增量特征调整, 灾难性遗忘, 机器人操作
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Towards Generalizable PDE Dynamics Forecasting via Physics-Guided Invariant Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24332](https://arxiv.org/abs/2509.24332)
-**代码**: [GitHub](https://github.com/LSY-Cython/iMOOE)
-**领域**: 时间序列/PDE学习
+**会议**: ICLR 2026  
+**arXiv**: [2509.24332](https://arxiv.org/abs/2509.24332)  
+**代码**: [GitHub](https://github.com/LSY-Cython/iMOOE)  
+**领域**: 时间序列/PDE学习  
 **关键词**: PDE预测, OOD泛化, 不变学习, 算子专家混合, 物理引导
 
 ## 一句话总结

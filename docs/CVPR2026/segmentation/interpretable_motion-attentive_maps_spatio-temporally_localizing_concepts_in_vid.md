@@ -1,9 +1,9 @@
 # I'm a Map! Interpretable Motion-Attentive Maps: Spatio-Temporally Localizing Concepts in Video Diffusion Transformers
 
-**会议**: CVPR 2026
-**arXiv**: [2603.02919](https://arxiv.org/abs/2603.02919)
-**代码**: [有](https://github.com/youngjun-jun/IMAP)
-**领域**: 语义分割 / 视频可解释性
+**会议**: CVPR 2026  
+**arXiv**: [2603.02919](https://arxiv.org/abs/2603.02919)  
+**代码**: [有](https://github.com/youngjun-jun/IMAP)  
+**领域**: 语义分割 / 视频可解释性  
 **关键词**: Video Diffusion Transformer, 可解释显著性图, 运动定位, 零样本视频语义分割, 注意力机制分析
 
 ## 一句话总结

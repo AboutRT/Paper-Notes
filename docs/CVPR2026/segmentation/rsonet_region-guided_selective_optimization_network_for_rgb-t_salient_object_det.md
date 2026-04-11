@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection
 
-**会议**: CVPR2026
-**arXiv**: [2603.12685](https://arxiv.org/abs/2603.12685)
-**代码**: 待确认
-**领域**: 语义分割 / 显著性目标检测
+**会议**: CVPR2026  
+**arXiv**: [2603.12685](https://arxiv.org/abs/2603.12685)  
+**代码**: 待确认  
+**领域**: 语义分割 / 显著性目标检测  
 **关键词**: RGB-T 显著性检测, 区域引导, 选择性优化, 多模态融合, SwinTransformer, 视觉状态空间模型
 
 ## 一句话总结

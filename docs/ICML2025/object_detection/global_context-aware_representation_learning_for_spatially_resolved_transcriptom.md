@@ -1,9 +1,9 @@
 # Global Context-aware Representation Learning for Spatially Resolved Transcriptomics
 
-**会议**: ICML2025
-**arXiv**: [2506.15698](https://arxiv.org/abs/2506.15698)
-**代码**: [yunhak0/Spotscape](https://github.com/yunhak0/Spotscape)
-**领域**: 空间转录组学 / 图表示学习
+**会议**: ICML2025  
+**arXiv**: [2506.15698](https://arxiv.org/abs/2506.15698)  
+**代码**: [yunhak0/Spotscape](https://github.com/yunhak0/Spotscape)  
+**领域**: 空间转录组学 / 图表示学习  
 **关键词**: 空间转录组学, 图神经网络, 自监督学习, 全局相似度, 批次效应校正, 多切片整合
 
 ## 一句话总结

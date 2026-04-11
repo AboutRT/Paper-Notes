@@ -1,9 +1,9 @@
 # LUMINA: A Multi-Vendor Mammography Benchmark with Energy Harmonization Protocol
 
-**会议**: CVPR 2026
-**arXiv**: [2603.14644](https://arxiv.org/abs/2603.14644)
-**代码**: [有](https://github.com/NUBagciLab/LUMINA)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.14644](https://arxiv.org/abs/2603.14644)  
+**代码**: [有](https://github.com/NUBagciLab/LUMINA)  
+**领域**: 医学图像  
 **关键词**: 乳腺X线摄影, 多厂商数据集, 能量协调, 直方图匹配, 基准测试
 
 ## 一句话总结

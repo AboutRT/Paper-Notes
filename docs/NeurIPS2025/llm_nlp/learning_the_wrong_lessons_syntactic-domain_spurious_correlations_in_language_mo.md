@@ -1,9 +1,9 @@
 # Learning the Wrong Lessons: Syntactic-Domain Spurious Correlations in Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.21155](https://arxiv.org/abs/2509.21155)
-**代码**: 待确认
-**领域**: llm_nlp / ai_safety
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.21155](https://arxiv.org/abs/2509.21155)  
+**代码**: 待确认  
+**领域**: llm_nlp / ai_safety  
 **关键词**: spurious correlations, syntactic templates, LLM safety, jailbreak, instruction tuning, domain generalization
 
 ## 一句话总结

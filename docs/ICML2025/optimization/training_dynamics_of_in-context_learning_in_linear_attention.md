@@ -1,9 +1,9 @@
 # Training Dynamics of In-Context Learning in Linear Attention
 
-**会议**: ICML2025
-**arXiv**: [2501.16265](https://arxiv.org/abs/2501.16265)
-**代码**: [yedizhang/linattn-icl](https://github.com/yedizhang/linattn-icl)
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2501.16265](https://arxiv.org/abs/2501.16265)  
+**代码**: [yedizhang/linattn-icl](https://github.com/yedizhang/linattn-icl)  
+**领域**: optimization  
 **关键词**: in-context learning, linear attention, training dynamics, gradient flow, saddle-to-saddle dynamics, principal component regression
 
 ## 一句话总结

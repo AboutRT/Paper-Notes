@@ -1,9 +1,9 @@
 # MVAR: Visual Autoregressive Modeling with Scale and Spatial Markovian Conditioning
 
-**会议**: ICLR 2026
-**arXiv**: [2505.12742](https://arxiv.org/abs/2505.12742)
-**代码**: [Project Page](https://nuanbaobao.github.io/MVAR)
-**领域**: llm_efficiency
+**会议**: ICLR 2026  
+**arXiv**: [2505.12742](https://arxiv.org/abs/2505.12742)  
+**代码**: [Project Page](https://nuanbaobao.github.io/MVAR)  
+**领域**: llm_efficiency  
 **关键词**: 视觉自回归, Next-Scale Prediction, Markov假设, 注意力优化, 图像生成, 内存效率
 
 ## 一句话总结

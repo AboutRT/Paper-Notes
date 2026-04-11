@@ -1,9 +1,9 @@
 # Implementing Adaptations for Vision AutoRegressive Model
 
-**会议**: ICML 2025
-**arXiv**: [2507.11441](https://arxiv.org/abs/2507.11441)
-**代码**: [https://github.com/sprintml/finetuning_var_dp](https://github.com/sprintml/finetuning_var_dp)
-**领域**: 图像生成 / 差分隐私
+**会议**: ICML 2025  
+**arXiv**: [2507.11441](https://arxiv.org/abs/2507.11441)  
+**代码**: [https://github.com/sprintml/finetuning_var_dp](https://github.com/sprintml/finetuning_var_dp)  
+**领域**: 图像生成 / 差分隐私  
 **关键词**: Vision AutoRegressive, VAR微调, LoRA, 差分隐私, 参数高效微调, 图像生成, DiffFit
 
 ## 一句话总结

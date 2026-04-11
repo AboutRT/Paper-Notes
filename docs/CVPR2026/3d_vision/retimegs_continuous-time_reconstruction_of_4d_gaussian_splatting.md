@@ -1,9 +1,9 @@
 # RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting
 
-**会议**: CVPR2026
-**arXiv**: [2603.13783](https://arxiv.org/abs/2603.13783)
-**代码**: 无
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2603.13783](https://arxiv.org/abs/2603.13783)  
+**代码**: 无  
+**领域**: 3d_vision  
 **关键词**: 4D Gaussian Splatting, 动态场景重建, 时间插值, 光流监督, Catmull-Rom 样条, 时间别名
 
 ## 一句话总结

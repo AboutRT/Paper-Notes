@@ -1,9 +1,9 @@
 # AVRobustBench: Benchmarking the Robustness of Audio-Visual Recognition Models at Test-Time
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.00358](https://arxiv.org/abs/2506.00358)
-**代码**: 有（论文中提及）
-**领域**: 音频/语音 (多模态鲁棒性)
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.00358](https://arxiv.org/abs/2506.00358)  
+**代码**: 有（论文中提及）  
+**领域**: 音频/语音 (多模态鲁棒性)  
 **关键词**: 音视频鲁棒性, 分布偏移, 测试时适应, 多模态基准, 共现腐蚀
 
 ## 一句话总结

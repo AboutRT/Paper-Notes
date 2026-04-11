@@ -1,9 +1,9 @@
 # Position: Towards Bidirectional Human-AI Alignment
 
-**会议**: NeurIPS 2025
-**arXiv**: [2406.09264](https://arxiv.org/abs/2406.09264)
-**代码**: 无
-**领域**: AI Alignment / Human-AI Interaction
+**会议**: NeurIPS 2025  
+**arXiv**: [2406.09264](https://arxiv.org/abs/2406.09264)  
+**代码**: 无  
+**领域**: AI Alignment / Human-AI Interaction  
 **关键词**: AI对齐, 双向对齐, 人类价值观, 人机交互, 系统综述
 
 ## 一句话总结

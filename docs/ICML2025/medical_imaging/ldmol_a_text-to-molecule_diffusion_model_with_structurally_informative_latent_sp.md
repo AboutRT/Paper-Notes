@@ -1,9 +1,9 @@
 # LDMol: A Text-to-Molecule Diffusion Model with Structurally Informative Latent Space Surpasses AR Models
 
-**会议**: ICML2025
-**arXiv**: [2405.17829](https://arxiv.org/abs/2405.17829)
-**代码**: [jinhojsk515/LDMol](https://github.com/jinhojsk515/LDMol)
-**领域**: 分子生成 / 药物发现
+**会议**: ICML2025  
+**arXiv**: [2405.17829](https://arxiv.org/abs/2405.17829)  
+**代码**: [jinhojsk515/LDMol](https://github.com/jinhojsk515/LDMol)  
+**领域**: 分子生成 / 药物发现  
 **关键词**: 潜在扩散模型, 文本到分子生成, 对比学习, SMILES, 结构感知表示
 
 ## 一句话总结

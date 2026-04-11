@@ -1,9 +1,9 @@
 # Fixed-Point RNNs: Interpolating from Diagonal to Dense
 
-**会议**: NeurIPS 2025
-**arXiv**: [2503.10799](https://arxiv.org/abs/2503.10799)
-**代码**: 无（暂未公开）
-**领域**: 序列建模 / 状态空间模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.10799](https://arxiv.org/abs/2503.10799)  
+**代码**: 无（暂未公开）  
+**领域**: 序列建模 / 状态空间模型  
 **关键词**: Fixed-Point Iteration, Dense Linear RNN, State-Space Model, Mamba, State Tracking
 
 ## 一句话总结

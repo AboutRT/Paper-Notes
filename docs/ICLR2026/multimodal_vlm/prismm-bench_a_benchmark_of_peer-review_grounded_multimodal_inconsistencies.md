@@ -1,9 +1,9 @@
 # PRISMM-Bench: A Benchmark of Peer-Review Grounded Multimodal Inconsistencies
 
-**会议**: ICLR 2026
-**arXiv**: [2510.16505](https://arxiv.org/abs/2510.16505)
-**代码**: [项目页面](https://da-luggas.github.io/prismm-bench/)
-**领域**: 多模态评测/科学文档
+**会议**: ICLR 2026  
+**arXiv**: [2510.16505](https://arxiv.org/abs/2510.16505)  
+**代码**: [项目页面](https://da-luggas.github.io/prismm-bench/)  
+**领域**: 多模态评测/科学文档  
 **关键词**: 多模态一致性, 同行评审, 科学论文, LMM基准, JSON去偏
 
 ## 一句话总结

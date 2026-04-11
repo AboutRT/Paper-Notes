@@ -1,9 +1,9 @@
 # Grokking at the Edge of Linear Separability
 
-**会议**: ICML2025
-**arXiv**: [2410.04489](https://arxiv.org/abs/2410.04489)
-**代码**: 无公开代码
-**领域**: optimization / grokking
+**会议**: ICML2025  
+**arXiv**: [2410.04489](https://arxiv.org/abs/2410.04489)  
+**代码**: 无公开代码  
+**领域**: optimization / grokking  
 **关键词**: grokking, 延迟泛化, 逻辑回归, 线性可分性, 临界现象, 插值阈值, 梯度下降隐式偏置
 
 ## 一句话总结

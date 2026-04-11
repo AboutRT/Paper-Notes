@@ -1,9 +1,9 @@
 # RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic Sampling
 
-**会议**: ICLR 2026
-**arXiv**: [2506.08672](https://arxiv.org/abs/2506.08672)
-**代码**: 无
-**领域**: LLM推理/规则推理
+**会议**: ICLR 2026  
+**arXiv**: [2506.08672](https://arxiv.org/abs/2506.08672)  
+**代码**: 无  
+**领域**: LLM推理/规则推理  
 **关键词**: 规则推理, RLVR, 域感知采样, 动态权重, OOD泛化
 
 ## 一句话总结

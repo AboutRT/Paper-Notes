@@ -1,9 +1,9 @@
 # The Invisible Gorilla Effect in Out-of-distribution Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20068](https://arxiv.org/abs/2602.20068)
-**代码**: [有](https://github.com/HarryAnthony/Invisible_Gorilla_Effect)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2602.20068](https://arxiv.org/abs/2602.20068)  
+**代码**: [有](https://github.com/HarryAnthony/Invisible_Gorilla_Effect)  
+**领域**: 医学图像  
 **关键词**: OOD检测, 分布外检测偏差, 视觉相似性, 医学影像安全, 特征空间分析
 
 ## 一句话总结

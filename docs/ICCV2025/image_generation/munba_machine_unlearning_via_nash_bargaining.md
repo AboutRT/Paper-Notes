@@ -1,9 +1,9 @@
 # MUNBa: Machine Unlearning via Nash Bargaining
 
-**会议**: ICCV 2025
-**arXiv**: [2411.15537](https://arxiv.org/abs/2411.15537)
-**代码**: 未公开
-**领域**: 机器遗忘 / 图像生成安全
+**会议**: ICCV 2025  
+**arXiv**: [2411.15537](https://arxiv.org/abs/2411.15537)  
+**代码**: 未公开  
+**领域**: 机器遗忘 / 图像生成安全  
 **关键词**: 机器遗忘, Nash博弈, 梯度冲突, Pareto最优, 扩散模型, CLIP, 多目标优化
 
 ## 一句话总结

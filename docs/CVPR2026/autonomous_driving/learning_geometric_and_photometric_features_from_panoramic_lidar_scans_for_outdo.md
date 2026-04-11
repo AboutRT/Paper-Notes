@@ -1,9 +1,9 @@
 # Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12663](https://arxiv.org/abs/2603.12663)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.12663](https://arxiv.org/abs/2603.12663)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 场景分类, LiDAR全景图, CNN, 多模态融合, 室外环境理解
 
 ## 一句话总结

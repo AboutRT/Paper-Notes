@@ -5,6 +5,7 @@
 **代码**: https://github.com/luwo9/LagrangianNeuralODEs  
 **领域**: 其他  
 **关键词**: Neural ODE, Lagrangian mechanics, Helmholtz conditions, physics-informed learning, Euler-Lagrange equations  
+
 ## Problem
 
 Neural ODE 是一种强大的机器学习工具，能够从数据中学习动力学系统的 ODE $\dot{s} = h_\theta(t, s)$。然而，**并非所有 ODE 都具有物理意义**——物理学中最基本的原理之一是 stationary action principle（稳态作用量原理），要求系统轨迹满足 Euler-Lagrange 方程。标准 Neural ODE 没有任何机制来保证学到的 ODE 是 Euler-Lagrange 方程，因此可能学到非物理的解。

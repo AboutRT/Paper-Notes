@@ -1,9 +1,9 @@
 # Generate Any Scene: Scene Graph Driven Data Synthesis for Visual Generation Training
 
-**会议**: ICLR 2026
-**arXiv**: [2412.08221](https://arxiv.org/abs/2412.08221)
-**代码**: [GitHub](https://github.com/RAIVNLab/GenerateAnyScene)
-**领域**: 图像生成/数据合成
+**会议**: ICLR 2026  
+**arXiv**: [2412.08221](https://arxiv.org/abs/2412.08221)  
+**代码**: [GitHub](https://github.com/RAIVNLab/GenerateAnyScene)  
+**领域**: 图像生成/数据合成  
 **关键词**: 场景图, 组合生成, 数据引擎, 自我改进, 奖励模型
 
 ## 一句话总结

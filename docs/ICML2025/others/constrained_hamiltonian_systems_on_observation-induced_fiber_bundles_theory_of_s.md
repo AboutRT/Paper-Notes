@@ -1,9 +1,9 @@
 # Constrained Hamiltonian Systems on Observation-Induced Fiber Bundles: Theory of Symmetry and Integrability
 
-**会议**: ICML2025
-**arXiv**: [2505.22824](https://arxiv.org/abs/2505.22824)
-**代码**: 无
-**领域**: 物理/几何（约束动力学、纤维丛理论、辛几何）
+**会议**: ICML2025  
+**arXiv**: [2505.22824](https://arxiv.org/abs/2505.22824)  
+**代码**: 无  
+**领域**: 物理/几何（约束动力学、纤维丛理论、辛几何）  
 **关键词**: Hamiltonian系统, 纤维丛, 观测约束, Dirac约束理论, 辛结构, 可积性, Lax对, Noether定理, 安全控制
 
 ## 一句话总结

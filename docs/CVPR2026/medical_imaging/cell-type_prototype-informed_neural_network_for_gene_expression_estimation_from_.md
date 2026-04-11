@@ -1,9 +1,9 @@
 # Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images
 
-**会议**: CVPR 2026
-**arXiv**: [2603.18461](https://arxiv.org/abs/2603.18461)
-**代码**: [https://github.com/naivete5656/CPNN](https://github.com/naivete5656/CPNN)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.18461](https://arxiv.org/abs/2603.18461)  
+**代码**: [https://github.com/naivete5656/CPNN](https://github.com/naivete5656/CPNN)  
+**领域**: 医学图像  
 **关键词**: 基因表达估计, 病理图像, 单细胞RNA测序, 细胞类型原型, 多实例学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Synergizing Unsupervised Episode Detection with LLMs for Large-Scale News Events
 
-**会议**: ACL2025
-**arXiv**: [2408.04873](https://arxiv.org/abs/2408.04873)
-**代码**: [pkargupta/epimine](https://github.com/pkargupta/epimine)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2408.04873](https://arxiv.org/abs/2408.04873)  
+**代码**: [pkargupta/epimine](https://github.com/pkargupta/epimine)  
+**领域**: llm_nlp  
 **关键词**: 事件检测, 片段检测, 无监督, 判别性共现, 新闻事件, LLM
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Merge-Friendly Post-Training Quantization for Multi-Target Domain Adaptation
 
-**会议**: ICML2025
-**arXiv**: [2505.23651](https://arxiv.org/abs/2505.23651)
-**代码**: 待确认
-**领域**: human_understanding
+**会议**: ICML2025  
+**arXiv**: [2505.23651](https://arxiv.org/abs/2505.23651)  
+**代码**: 待确认  
+**领域**: human_understanding  
 **关键词**: 模型量化, 模型融合, 多目标域适应, Hessian正则化, 损失景观
 
 ## 一句话总结

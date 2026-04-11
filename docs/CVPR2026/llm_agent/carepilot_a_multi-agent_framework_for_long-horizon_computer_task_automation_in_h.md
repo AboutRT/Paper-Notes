@@ -1,9 +1,9 @@
 # CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare
 
-**会议**: CVPR 2026
-**arXiv**: [2603.24157](https://arxiv.org/abs/2603.24157)
-**代码**: 有 (Carepilot项目页)
-**领域**: LLM Agent / 医疗自动化
+**会议**: CVPR 2026  
+**arXiv**: [2603.24157](https://arxiv.org/abs/2603.24157)  
+**代码**: 有 (Carepilot项目页)  
+**领域**: LLM Agent / 医疗自动化  
 **关键词**: 医疗软件自动化, 多Agent框架, Actor-Critic, 长视界GUI交互, 双记忆机制
 
 ## 一句话总结

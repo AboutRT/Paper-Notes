@@ -1,9 +1,9 @@
 # MGSfM: Multi-Camera Geometry Driven Global Structure-from-Motion
 
-**会议**: ICCV 2025
-**arXiv**: [2507.03306](https://arxiv.org/abs/2507.03306)
-**代码**: [3dv-casia/MGSfM](https://github.com/3dv-casia/MGSfM)
-**领域**: autonomous_driving / 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2507.03306](https://arxiv.org/abs/2507.03306)  
+**代码**: [3dv-casia/MGSfM](https://github.com/3dv-casia/MGSfM)  
+**领域**: autonomous_driving / 3d_vision  
 **关键词**: Structure-from-Motion, 多相机系统, 全局运动平均, 旋转平均, 平移平均, 三维重建, 自动驾驶
 
 ## 一句话总结

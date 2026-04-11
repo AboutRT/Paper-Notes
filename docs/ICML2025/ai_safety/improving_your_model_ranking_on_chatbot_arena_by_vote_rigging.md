@@ -1,8 +1,8 @@
 # Improving Your Model Ranking on Chatbot Arena by Vote Rigging
 
-**会议**: ICML 2025
-**arXiv**: [2501.17858](https://arxiv.org/abs/2501.17858)
-**领域**: ai_safety（LLM 评估安全 / 排行榜操纵）
+**会议**: ICML 2025  
+**arXiv**: [2501.17858](https://arxiv.org/abs/2501.17858)  
+**领域**: ai_safety（LLM 评估安全 / 排行榜操纵）  
 **关键词**: Chatbot Arena, Vote Rigging, Elo Rating, Bradley-Terry, Leaderboard Manipulation, LLM Evaluation Security
 
 ## 一句话总结

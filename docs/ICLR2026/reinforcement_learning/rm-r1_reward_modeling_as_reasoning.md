@@ -1,9 +1,9 @@
 # RM-R1: Reward Modeling as Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2505.02387](https://arxiv.org/abs/2505.02387)
-**代码**: [GitHub](https://github.com/RM-R1-UIUC/RM-R1)
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2505.02387](https://arxiv.org/abs/2505.02387)  
+**代码**: [GitHub](https://github.com/RM-R1-UIUC/RM-R1)  
+**领域**: 强化学习  
 **关键词**: 奖励模型, 推理, Chain-of-Rubrics, 生成式奖励模型, RLVR
 
 ## 一句话总结

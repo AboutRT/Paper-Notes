@@ -1,9 +1,9 @@
 # Verification of the Implicit World Model in a Generative Model via Adversarial Sequences
 
-**会议**: ICLR 2026
-**arXiv**: [2602.05903](https://arxiv.org/abs/2602.05903)
-**代码**: https://github.com/szegedai/world-model-verification
-**领域**: 世界模型/可解释AI
+**会议**: ICLR 2026  
+**arXiv**: [2602.05903](https://arxiv.org/abs/2602.05903)  
+**代码**: https://github.com/szegedai/world-model-verification  
+**领域**: 世界模型/可解释AI  
 **关键词**: 隐式世界模型, 对抗序列生成, 国际象棋, 健全性验证, 线性探针
 
 ## 一句话总结

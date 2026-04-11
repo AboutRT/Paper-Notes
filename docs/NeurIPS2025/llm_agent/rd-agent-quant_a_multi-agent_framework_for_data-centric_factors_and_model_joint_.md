@@ -1,9 +1,9 @@
 # R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.15155](https://arxiv.org/abs/2505.15155)
-**代码**: [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)
-**领域**: LLM Agent / 量化金融
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.15155](https://arxiv.org/abs/2505.15155)  
+**代码**: [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)  
+**领域**: LLM Agent / 量化金融  
 **关键词**: 多智能体框架, 量化因子挖掘, 模型优化, 数据驱动, 自动化研发
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Long-Context Generalization with Sparse Attention
 
-**会议**: ICLR 2026
-**arXiv**: [2506.16640](https://arxiv.org/abs/2506.16640)
-**代码**: [deep-spin/asentmax](https://github.com/deep-spin/asentmax)
-**领域**: LLM效率 / 注意力机制
+**会议**: ICLR 2026  
+**arXiv**: [2506.16640](https://arxiv.org/abs/2506.16640)  
+**代码**: [deep-spin/asentmax](https://github.com/deep-spin/asentmax)  
+**领域**: LLM效率 / 注意力机制  
 **关键词**: 稀疏注意力, 长上下文泛化, α-entmax, 长度外推, Transformer
 
 ## 一句话总结

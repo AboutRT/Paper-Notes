@@ -1,9 +1,9 @@
 # High Resolution UDF Meshing via Iterative Networks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.17212](https://arxiv.org/abs/2509.17212)
-**代码**: 待确认
-**领域**: 3d_vision
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.17212](https://arxiv.org/abs/2509.17212)  
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: 无符号距离场, 网格化, 迭代网络, 伪符号预测, 高分辨率表面重建
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Roll the Dice & Look Before You Leap: Going Beyond the Creative Limits of Next-Token Prediction
 
-**会议**: ICML2025
-**arXiv**: [2504.15266](https://arxiv.org/abs/2504.15266)
-**代码**: [chenwu98/algorithmic-creativity](https://github.com/chenwu98/algorithmic-creativity)
-**领域**: LLM创造力 / 多token预测
+**会议**: ICML2025  
+**arXiv**: [2504.15266](https://arxiv.org/abs/2504.15266)  
+**代码**: [chenwu98/algorithmic-creativity](https://github.com/chenwu98/algorithmic-creativity)  
+**领域**: LLM创造力 / 多token预测  
 **关键词**: next-token prediction, multi-token prediction, creativity, teacherless training, diffusion, seed-conditioning, algorithmic creativity
 
 ## 一句话总结

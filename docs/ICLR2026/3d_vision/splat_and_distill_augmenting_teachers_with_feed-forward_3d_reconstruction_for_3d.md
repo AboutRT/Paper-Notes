@@ -1,11 +1,11 @@
 # Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction for 3D-Aware Distillation
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2602.06032](https://arxiv.org/abs/2602.06032)
 
 **代码**: [项目页面](https://davidshavin4.github.io/Splat-and-Distill/)
 
-**领域**: 3D视觉/表示学习
+**领域**: 3D视觉/表示学习  
 **关键词**: 3D感知, 视觉基础模型, 前馈3D重建, 蒸馏, DINOv2增强
 
 ## 一句话总结

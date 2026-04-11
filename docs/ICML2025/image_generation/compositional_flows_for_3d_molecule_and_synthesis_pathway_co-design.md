@@ -1,9 +1,9 @@
 # Compositional Flows for 3D Molecule and Synthesis Pathway Co-design
 
-**会议**: ICML 2025
-**arXiv**: [2504.08051](https://arxiv.org/abs/2504.08051)
-**代码**: 无
-**领域**: 图像生成/分子设计
+**会议**: ICML 2025  
+**arXiv**: [2504.08051](https://arxiv.org/abs/2504.08051)  
+**代码**: 无  
+**领域**: 图像生成/分子设计  
 **关键词**: 组合生成流, 3D分子设计, 合成路径, GFlowNet, 药物设计
 
 ## 一句话总结

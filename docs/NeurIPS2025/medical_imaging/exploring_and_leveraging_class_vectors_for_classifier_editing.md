@@ -1,9 +1,9 @@
 # Exploring and Leveraging Class Vectors for Classifier Editing
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.11268](https://arxiv.org/abs/2510.11268)
-**代码**: 有（基于 CLIP ViT）
-**领域**: 模型编辑 / 分类器适配
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.11268](https://arxiv.org/abs/2510.11268)  
+**代码**: 有（基于 CLIP ViT）  
+**领域**: 模型编辑 / 分类器适配  
 **关键词**: Class Vector, 分类器编辑, 潜空间操控, 类遗忘, 对抗防御, Neural Collapse
 
 ## 一句话总结

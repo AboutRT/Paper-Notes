@@ -1,9 +1,9 @@
 # ChartLens: Fine-Grained Visual Attribution in Charts
 
-**会议**: ACL 2025
-**arXiv**: [2505.19360](https://arxiv.org/abs/2505.19360)
-**代码**: 有
-**领域**: NLP / 多模态理解
+**会议**: ACL 2025  
+**arXiv**: [2505.19360](https://arxiv.org/abs/2505.19360)  
+**代码**: 有  
+**领域**: NLP / 多模态理解  
 **关键词**: 图表归因, 视觉定位, 多模态LLM, 幻觉检测, Set-of-Marks
 
 ## 一句话总结

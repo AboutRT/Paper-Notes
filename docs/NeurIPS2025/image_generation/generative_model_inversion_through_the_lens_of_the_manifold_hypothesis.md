@@ -1,11 +1,11 @@
 # Generative Model Inversion Through the Lens of the Manifold Hypothesis
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.20177](https://arxiv.org/abs/2509.20177)
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.20177](https://arxiv.org/abs/2509.20177)  
 **作者**: Xiong Peng, Bo Han, Fengfei Yu, Tongliang Liu, Feng Liu, Mingyuan Zhou
 **机构**: 香港浸会大学, 悉尼大学, 墨尔本大学, 德克萨斯大学奥斯汀分校
-**代码**: [tmlr-group/AlignMI](https://github.com/tmlr-group/AlignMI)
-**领域**: 隐私安全 / 模型逆向攻击
+**代码**: [tmlr-group/AlignMI](https://github.com/tmlr-group/AlignMI)  
+**领域**: 隐私安全 / 模型逆向攻击  
 **关键词**: 模型逆向攻击, 流形假说, 梯度-流形对齐, GAN, 隐私安全
 
 ## 一句话总结

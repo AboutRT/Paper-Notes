@@ -1,9 +1,9 @@
 # SegQuant: A Semantics-Aware and Generalizable Quantization Framework for Diffusion Models
 
-**会议**: CVPR2026
-**arXiv**: [2507.14811](https://arxiv.org/abs/2507.14811)
-**代码**: 无
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2507.14811](https://arxiv.org/abs/2507.14811)  
+**代码**: 无  
+**领域**: 图像生成  
 **关键词**: 扩散模型量化, 后训练量化, 语义感知分割, 极性保持, 部署友好
 
 ## 一句话总结

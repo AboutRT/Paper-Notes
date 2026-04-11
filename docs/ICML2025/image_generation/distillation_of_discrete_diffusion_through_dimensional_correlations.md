@@ -1,9 +1,9 @@
 # Distillation of Discrete Diffusion through Dimensional Correlations (Di4C)
 
-**会议**: ICML 2025
-**arXiv**: [2410.08709](https://arxiv.org/abs/2410.08709)
-**代码**: [sony/di4c](https://github.com/sony/di4c)
-**领域**: 扩散模型 / 离散生成模型
+**会议**: ICML 2025  
+**arXiv**: [2410.08709](https://arxiv.org/abs/2410.08709)  
+**代码**: [sony/di4c](https://github.com/sony/di4c)  
+**领域**: 扩散模型 / 离散生成模型  
 **关键词**: 离散扩散模型, 知识蒸馏, 维度相关性, Mixture模型, 少步采样
 
 ## 一句话总结

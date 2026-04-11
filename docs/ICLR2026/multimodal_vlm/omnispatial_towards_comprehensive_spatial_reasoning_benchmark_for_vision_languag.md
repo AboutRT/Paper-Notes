@@ -1,9 +1,9 @@
 # OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2506.03135](https://arxiv.org/abs/2506.03135)
-**代码**: [项目页面](https://github.com/omnispatial)
-**领域**: 多模态VLM/基准测试
+**会议**: ICLR 2026  
+**arXiv**: [2506.03135](https://arxiv.org/abs/2506.03135)  
+**代码**: [项目页面](https://github.com/omnispatial)  
+**领域**: 多模态VLM/基准测试  
 **关键词**: 空间推理, VLM基准, 认知心理学, 动态推理, 透视转换
 
 ## 一句话总结

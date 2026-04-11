@@ -1,9 +1,9 @@
 # Learning Generalizable 3D Medical Image Representations from Mask-Guided Self-Supervision
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13660](https://arxiv.org/abs/2603.13660)
-**代码**: 有（论文中提到 Code is available）
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.13660](https://arxiv.org/abs/2603.13660)  
+**代码**: 有（论文中提到 Code is available）  
+**领域**: 医学图像  
 **关键词**: 自监督学习, 3D医学图像, mask引导预训练, in-context分割, 基础模型
 
 ## 一句话总结

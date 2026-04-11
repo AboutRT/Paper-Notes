@@ -1,9 +1,9 @@
 # FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.21356](https://arxiv.org/abs/2603.21356)
-**代码**: [GitHub](https://github.com/delta-lab-ai/FluidGaussian) (有)
-**领域**: 3D Vision / 3D 重建
+**会议**: CVPR 2026  
+**arXiv**: [2603.21356](https://arxiv.org/abs/2603.21356)  
+**代码**: [GitHub](https://github.com/delta-lab-ai/FluidGaussian) (有)  
+**领域**: 3D Vision / 3D 重建  
 **关键词**: 3D Gaussian Splatting, 物理感知重建, 流体模拟, 主动视角选择, 不确定性量化
 
 ## 一句话总结

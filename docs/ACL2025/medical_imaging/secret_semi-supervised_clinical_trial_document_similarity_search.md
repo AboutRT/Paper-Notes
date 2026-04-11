@@ -1,11 +1,11 @@
 # SECRET: Semi-supervised Clinical Trial Document Similarity Search
 
-**会议**: ACL2025
-**arXiv**: [2505.10780](https://arxiv.org/abs/2505.10780)
+**会议**: ACL2025  
+**arXiv**: [2505.10780](https://arxiv.org/abs/2505.10780)  
 **作者**: Trisha Das, Afrah Shafquat, Beigi Mandis, Jacob Aptekar, Jimeng Sun
 **机构**: University of Illinois Urbana-Champaign, Medidata Solutions
-**代码**: 未开源
-**领域**: medical_imaging
+**代码**: 未开源  
+**领域**: medical_imaging  
 **关键词**: clinical trial, document similarity, contrastive learning, semi-supervised, information retrieval
 
 ## 一句话总结

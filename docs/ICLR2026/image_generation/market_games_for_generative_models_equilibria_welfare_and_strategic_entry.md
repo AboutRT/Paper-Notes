@@ -1,9 +1,9 @@
 # Market Games for Generative Models: Equilibria, Welfare, and Strategic Entry
 
-**会议**: ICLR 2026
-**arXiv**: [2602.17787](https://arxiv.org/abs/2602.17787)
-**代码**: [GitHub](https://github.com/osu-srml/Generative_Competition)
-**领域**: 博弈论 / 生成模型市场
+**会议**: ICLR 2026  
+**arXiv**: [2602.17787](https://arxiv.org/abs/2602.17787)  
+**代码**: [GitHub](https://github.com/osu-srml/Generative_Competition)  
+**领域**: 博弈论 / 生成模型市场  
 **关键词**: 市场博弈, Nash 均衡, 生成模型竞争, 社会福利, 策略性进入
 
 ## 一句话总结

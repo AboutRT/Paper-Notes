@@ -1,9 +1,9 @@
 # NeuroCircuitry-Inspired Hierarchical Graph Causal Attention Networks for Explainable Depression Identification
 
-**会议**: ICLR 2026
-**arXiv**: [2511.17622](https://arxiv.org/abs/2511.17622)
-**代码**: [GitHub](https://github.com/author/NH-GCAT)
-**领域**: 图学习
+**会议**: ICLR 2026  
+**arXiv**: [2511.17622](https://arxiv.org/abs/2511.17622)  
+**代码**: [GitHub](https://github.com/author/NH-GCAT)  
+**领域**: 图学习  
 **关键词**: 脑网络图神经网络, 抑郁症识别, 因果注意力, 层次化回路编码, 可解释AI
 
 ## 一句话总结

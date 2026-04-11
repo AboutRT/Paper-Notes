@@ -1,10 +1,10 @@
 # Language Driven Occupancy Prediction (LOcc)
 
-**会议**: ICCV 2025
-**arXiv**: [2411.16072](https://arxiv.org/abs/2411.16072)
-**代码**: [https://github.com/pkqbajng/LOcc](https://github.com/pkqbajng/LOcc)
+**会议**: ICCV 2025  
+**arXiv**: [2411.16072](https://arxiv.org/abs/2411.16072)  
+**代码**: [https://github.com/pkqbajng/LOcc](https://github.com/pkqbajng/LOcc)  
 **机构**: Zhejiang University, CaiNiao (Alibaba)
-**领域**: 自动驾驶 / 占据预测 / 开放词汇
+**领域**: 自动驾驶 / 占据预测 / 开放词汇  
 **关键词**: open-vocabulary occupancy, language-driven, semantic transitive labeling, 3D perception, occupancy prediction, CLIP
 
 ## 一句话总结

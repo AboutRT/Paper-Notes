@@ -1,9 +1,9 @@
 # USDC: A Dataset of User Stance and Dogmatism in Long Conversations
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2406.16833](https://arxiv.org/abs/2406.16833)
-**代码**: [GitHub](https://github.com/mounikamarreddy/USDC)
-**领域**: NLP理解 / 社会计算
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2406.16833](https://arxiv.org/abs/2406.16833)  
+**代码**: [GitHub](https://github.com/mounikamarreddy/USDC)  
+**领域**: NLP理解 / 社会计算  
 **关键词**: stance detection, dogmatism, conversation, Reddit, LLM annotation, opinion dynamics
 
 ## 一句话总结

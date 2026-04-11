@@ -1,9 +1,9 @@
 # Mitigating Spurious Correlation via Distributionally Robust Learning with Hierarchical Ambiguity Sets
 
-**会议**: ICLR 2026
-**arXiv**: [2510.02818](https://arxiv.org/abs/2510.02818)
-**代码**: 无
-**领域**: 其他 / 鲁棒学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.02818](https://arxiv.org/abs/2510.02818)  
+**代码**: 无  
+**领域**: 其他 / 鲁棒学习  
 **关键词**: 虚假相关, 分布鲁棒优化, 层次模糊集, Wasserstein距离, 少数群体偏移
 
 ## 一句话总结

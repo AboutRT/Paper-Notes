@@ -1,9 +1,9 @@
 # AIM: Amending Inherent Interpretability via Self-Supervised Masking
 
-**会议**: ICCV 2025
-**arXiv**: [2508.11502](https://arxiv.org/abs/2508.11502)
-**代码**: 暂无公开代码
-**领域**: 自监督学习 / 可解释性 / 鲁棒表征学习
+**会议**: ICCV 2025  
+**arXiv**: [2508.11502](https://arxiv.org/abs/2508.11502)  
+**代码**: 暂无公开代码  
+**领域**: 自监督学习 / 可解释性 / 鲁棒表征学习  
 **关键词**: self-supervised masking, inherent interpretability, spurious features, feature pyramid, Energy Pointing Game
 
 ## 一句话总结

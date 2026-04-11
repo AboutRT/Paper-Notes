@@ -1,9 +1,9 @@
 # V-Attack: Targeting Disentangled Value Features for Controllable Adversarial Attacks on LVLMs
 
-**会议**: CVPR 2026
-**arXiv**: [2511.20223](https://arxiv.org/abs/2511.20223)
-**代码**: [GitHub](https://github.com/Summu77/V-Attack)
-**领域**: AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2511.20223](https://arxiv.org/abs/2511.20223)  
+**代码**: [GitHub](https://github.com/Summu77/V-Attack)  
+**领域**: AI安全  
 **关键词**: 对抗攻击, 视觉语言模型, Value特征, 语义操控, 可控攻击
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # UVLM: Benchmarking Video Language Model for Underwater World Understanding
 
-**会议**: AAAI2026
-**arXiv**: [2507.02373](https://arxiv.org/abs/2507.02373)
-**代码**: [Cecilia-xue/UVLM-Benchmark](https://github.com/Cecilia-xue/UVLM-Benchmark)
-**领域**: video_understanding
+**会议**: AAAI2026  
+**arXiv**: [2507.02373](https://arxiv.org/abs/2507.02373)  
+**代码**: [Cecilia-xue/UVLM-Benchmark](https://github.com/Cecilia-xue/UVLM-Benchmark)  
+**领域**: video_understanding  
 **关键词**: underwater video understanding, video-language model, benchmark, marine biology, fine-grained recognition
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HaltNav: Reactive Visual Halting over Lightweight Topological Priors for Robust Vision-Language Navigation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12696](https://arxiv.org/abs/2603.12696)
-**代码**: 无
-**领域**: 视觉语言导航 / 具身智能
+**会议**: CVPR 2026  
+**arXiv**: [2603.12696](https://arxiv.org/abs/2603.12696)  
+**代码**: 无  
+**领域**: 视觉语言导航 / 具身智能  
 **关键词**: VLN, 拓扑先验, osmAG, 反应式中断, 层级化导航
 
 ## 一句话总结

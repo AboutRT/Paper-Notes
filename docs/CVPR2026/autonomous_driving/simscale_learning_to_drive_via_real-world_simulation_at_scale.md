@@ -1,10 +1,10 @@
 # SimScale: Learning to Drive via Real-World Simulation at Scale
 
-**会议**: CVPR 2026 (Oral)
-**arXiv**: [2511.23369](https://arxiv.org/abs/2511.23369)
-**代码**: [OpenDriveLab/SimScale](https://github.com/OpenDriveLab/SimScale)
+**会议**: CVPR 2026 (Oral)  
+**arXiv**: [2511.23369](https://arxiv.org/abs/2511.23369)  
+**代码**: [OpenDriveLab/SimScale](https://github.com/OpenDriveLab/SimScale)  
 **作者**: Haochen Tian, Tianyu Li, Haochen Liu, Jiazhi Yang 等 (CASIA, OpenDriveLab@HKU, Xiaomi EV)
-**领域**: autonomous_driving
+**领域**: autonomous_driving  
 **关键词**: 仿真数据, 端到端规划, sim-to-real, 数据扩展, 伪专家轨迹, 神经渲染, co-training
 
 ## 一句话总结

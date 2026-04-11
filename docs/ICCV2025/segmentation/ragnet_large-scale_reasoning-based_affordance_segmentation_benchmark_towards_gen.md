@@ -1,9 +1,9 @@
 # RAGNet: Large-scale Reasoning-based Affordance Segmentation Benchmark towards General Grasping
 
-**会议**: ICCV 2025
-**arXiv**: [2507.23734](https://arxiv.org/abs/2507.23734)
-**代码**: [GitHub](https://github.com/DongmingWu/RAGNet)
-**领域**: segmentation
+**会议**: ICCV 2025  
+**arXiv**: [2507.23734](https://arxiv.org/abs/2507.23734)  
+**代码**: [GitHub](https://github.com/DongmingWu/RAGNet)  
+**领域**: segmentation  
 **关键词**: affordance 分割, 机器人抓取, 推理指令, 大规模基准, 视觉语言模型
 
 ## 一句话总结

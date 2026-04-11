@@ -1,8 +1,8 @@
 # Image-Guided Shape-from-Template Using Mesh Inextensibility Constraints
 
-**会议**: ICCV 2025
-**arXiv**: [2507.22699](https://arxiv.org/abs/2507.22699)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2507.22699](https://arxiv.org/abs/2507.22699)  
+**领域**: 3D视觉  
 **关键词**: Shape-from-Template, 3D重建, 可微渲染, 网格不可伸展性, 无监督, 变形建模
 
 ## 一句话总结

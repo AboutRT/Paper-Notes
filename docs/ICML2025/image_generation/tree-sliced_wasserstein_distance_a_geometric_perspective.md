@@ -1,9 +1,9 @@
 # Tree-Sliced Wasserstein Distance: A Geometric Perspective
 
-**会议**: ICML2025
-**arXiv**: [2406.13725](https://arxiv.org/abs/2406.13725)
-**代码**: [GitHub](https://github.com/mint-vu/TSW-SL)
-**领域**: image_generation / 最优传输
+**会议**: ICML2025  
+**arXiv**: [2406.13725](https://arxiv.org/abs/2406.13725)  
+**代码**: [GitHub](https://github.com/mint-vu/TSW-SL)  
+**领域**: image_generation / 最优传输  
 **关键词**: Sliced Wasserstein, 树度量, Radon 变换, 最优传输, 生成模型
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots
 
-**会议**: CVPR2026
-**arXiv**: [2603.13108](https://arxiv.org/abs/2603.13108)
-**代码**: [PanoMMOcc](https://github.com/) (即将公开)
-**领域**: autonomous_driving
+**会议**: CVPR2026  
+**arXiv**: [2603.13108](https://arxiv.org/abs/2603.13108)  
+**代码**: [PanoMMOcc](https://github.com/) (即将公开)  
+**领域**: autonomous_driving  
 **关键词**: 全景占据预测, 多模态融合, 四足机器人, 语义占据, BEV感知
 
 ## 一句话总结

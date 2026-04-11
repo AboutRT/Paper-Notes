@@ -1,9 +1,9 @@
 # Rethinking VLMs for Image Forgery Detection and Localization
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12930](https://arxiv.org/abs/2603.12930)
-**代码**: [sha0fengGuo/IFDL-VLM](https://github.com/sha0fengGuo/IFDL-VLM)
-**领域**: AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2603.12930](https://arxiv.org/abs/2603.12930)  
+**代码**: [sha0fengGuo/IFDL-VLM](https://github.com/sha0fengGuo/IFDL-VLM)  
+**领域**: AI安全  
 **关键词**: 图像伪造检测, 视觉语言模型, 伪造定位, 可解释性, AIGC安全
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events
 
-**会议**: ACL2025
-**arXiv**: [2501.03040](https://arxiv.org/abs/2501.03040)
-**代码**: [duyguislakoglu/chronosense](https://github.com/duyguislakoglu/chronosense)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2501.03040](https://arxiv.org/abs/2501.03040)  
+**代码**: [duyguislakoglu/chronosense](https://github.com/duyguislakoglu/chronosense)  
+**领域**: llm_nlp  
 **关键词**: 时间推理, Allen区间关系, 基准测试, 时间算术, LLM评估
 
 ## 一句话总结
@@ -19,6 +19,7 @@
 6. **实际应用需求迫切**：历史分析、法律 AI、医学时间线等应用场景对 LLM 的时间推理可靠性要求很高，需要诊断性基准来指导改进。
 
 ## 方法详解
+
 ### 数据集设计
 ChronoSense 包含两大类 True/False 问题，时间粒度统一为"年"：
 

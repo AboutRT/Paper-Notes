@@ -1,9 +1,9 @@
 # MoNE: Replacing Redundant Experts with Lightweight Novices for Structured Pruning of MoE
 
-**会议**: ICLR 2026
-**arXiv**: [2507.00390](https://arxiv.org/abs/2507.00390)
-**代码**: [GitHub](https://github.com/zxgx/mode-pd)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2507.00390](https://arxiv.org/abs/2507.00390)  
+**代码**: [GitHub](https://github.com/zxgx/mode-pd)  
+**领域**: 模型压缩  
 **关键词**: MoE剪枝, 专家冗余, 新手替换, 结构化压缩, 访问频率
 
 ## 一句话总结

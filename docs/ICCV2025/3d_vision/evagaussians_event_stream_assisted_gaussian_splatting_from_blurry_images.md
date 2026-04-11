@@ -1,9 +1,9 @@
 # EvaGaussians: Event Stream Assisted Gaussian Splatting from Blurry Images
 
-**会议**: ICCV 2025
-**arXiv**: [2405.20224](https://arxiv.org/abs/2405.20224)
-**代码**: 有（项目页面发布）
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2405.20224](https://arxiv.org/abs/2405.20224)  
+**代码**: 有（项目页面发布）  
+**领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 事件相机, 运动去模糊, 新视图合成, 捆绑调整
 
 ## 一句话总结

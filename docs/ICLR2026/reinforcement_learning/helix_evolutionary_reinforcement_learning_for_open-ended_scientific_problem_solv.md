@@ -1,9 +1,9 @@
 # Helix: Evolutionary Reinforcement Learning for Open-Ended Scientific Problem Solving
 
-**会议**: ICLR 2026
-**arXiv**: [2603.07642](https://arxiv.org/abs/2603.07642)
-**代码**: 无（论文未提供）
-**领域**: 强化学习 / 科学发现
+**会议**: ICLR 2026  
+**arXiv**: [2603.07642](https://arxiv.org/abs/2603.07642)  
+**代码**: 无（论文未提供）  
+**领域**: 强化学习 / 科学发现  
 **关键词**: 进化算法, GRPO, 科学优化, NSGA-II, in-context learning
 
 ## 一句话总结

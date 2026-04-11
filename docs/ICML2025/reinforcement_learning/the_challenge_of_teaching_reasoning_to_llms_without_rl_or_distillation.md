@@ -1,9 +1,9 @@
 # The Challenge of Teaching Reasoning to LLMs Without RL or Distillation
 
-**会议**: ICML 2025 (AI for Math Workshop)
-**arXiv**: [2507.09850](https://arxiv.org/abs/2507.09850)
-**代码**: 无（数据集已发布：nvidia/Nemotron-Math-HumanReasoning）
-**领域**: LLM推理 / 数据工程
+**会议**: ICML 2025 (AI for Math Workshop)  
+**arXiv**: [2507.09850](https://arxiv.org/abs/2507.09850)  
+**代码**: 无（数据集已发布：nvidia/Nemotron-Math-HumanReasoning）  
+**领域**: LLM推理 / 数据工程  
 **关键词**: Chain-of-Thought, 推理能力, 微调, 长CoT, 人工标注
 
 ## 一句话总结

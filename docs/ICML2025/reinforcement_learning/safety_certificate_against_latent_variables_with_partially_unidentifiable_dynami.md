@@ -1,9 +1,9 @@
 # Safety Certificate against Latent Variables with Partially Unidentifiable Dynamics
 
-**会议**: ICML2025
-**arXiv**: [2506.17927](https://arxiv.org/abs/2506.17927)
-**代码**: 无
-**领域**: 安全RL / Safe Control
+**会议**: ICML2025  
+**arXiv**: [2506.17927](https://arxiv.org/abs/2506.17927)  
+**代码**: 无  
+**领域**: 安全RL / Safe Control  
 **关键词**: 安全证书, 潜变量, 部分可辨识动力学, 因果强化学习, 控制障碍函数, 分布偏移, 前门调整
 
 ## 一句话总结

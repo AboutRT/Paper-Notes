@@ -1,9 +1,9 @@
 # Mask the Redundancy: Evolving Masking Representation Learning for Multivariate Time-Series Clustering
 
-**会议**: AAAI2026
-**arXiv**: [2511.17008](https://arxiv.org/abs/2511.17008)
-**代码**: [yueliangy/EMTC](https://github.com/yueliangy/EMTC)
-**领域**: time_series
+**会议**: AAAI2026  
+**arXiv**: [2511.17008](https://arxiv.org/abs/2511.17008)  
+**代码**: [yueliangy/EMTC](https://github.com/yueliangy/EMTC)  
+**领域**: time_series  
 **关键词**: multivariate time-series clustering, masking, representation learning, contrastive learning
 
 ## 一句话总结

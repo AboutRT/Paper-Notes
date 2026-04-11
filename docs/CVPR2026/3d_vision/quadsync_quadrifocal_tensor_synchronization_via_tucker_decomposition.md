@@ -1,9 +1,9 @@
 # QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22639](https://arxiv.org/abs/2602.22639)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.22639](https://arxiv.org/abs/2602.22639)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 四焦张量, Tucker分解, Structure from Motion, 全局同步, 多视图几何
 
 ## 一句话总结

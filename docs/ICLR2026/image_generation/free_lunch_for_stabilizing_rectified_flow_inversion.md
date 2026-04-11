@@ -1,9 +1,9 @@
 # Free Lunch for Stabilizing Rectified Flow Inversion
 
-**会议**: ICLR 2026
-**arXiv**: [2602.11850](https://arxiv.org/abs/2602.11850)
-**代码**: 无
-**领域**: 扩散模型/图像编辑
+**会议**: ICLR 2026  
+**arXiv**: [2602.11850](https://arxiv.org/abs/2602.11850)  
+**代码**: 无  
+**领域**: 扩散模型/图像编辑  
 **关键词**: Rectified Flow, 反演稳定性, Proximal-Mean Inversion, 图像编辑, 速度场校正
 
 ## 一句话总结

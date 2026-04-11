@@ -1,9 +1,9 @@
 # Always Skip Attention
 
-**会议**: ICCV 2025
-**arXiv**: [2505.01996](https://arxiv.org/abs/2505.01996)
-**代码**: 暂无公开代码
-**领域**: 自监督学习 / Vision Transformer / 理论分析
+**会议**: ICCV 2025  
+**arXiv**: [2505.01996](https://arxiv.org/abs/2505.01996)  
+**代码**: 暂无公开代码  
+**领域**: 自监督学习 / Vision Transformer / 理论分析  
 **关键词**: self-attention, skip connection, condition number, ill-conditioning, token graying, Vision Transformer
 
 ## 一句话总结

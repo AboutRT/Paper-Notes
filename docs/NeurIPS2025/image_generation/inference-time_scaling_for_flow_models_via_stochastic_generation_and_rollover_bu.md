@@ -1,9 +1,9 @@
 # Inference-Time Scaling for Flow Models via Stochastic Generation and Rollover Budget Forcing
 
-**会议**: NeurIPS2025
-**arXiv**: [2503.19385](https://arxiv.org/abs/2503.19385)
-**代码**: [flow-inference-time-scaling](https://flow-inference-time-scaling.github.io/)
-**领域**: 图像生成 / 推理时扩展
+**会议**: NeurIPS2025  
+**arXiv**: [2503.19385](https://arxiv.org/abs/2503.19385)  
+**代码**: [flow-inference-time-scaling](https://flow-inference-time-scaling.github.io/)  
+**领域**: 图像生成 / 推理时扩展  
 **关键词**: Flow Models, 推理时扩展, 粒子采样, SDE转换, 插值变换, Rollover Budget Forcing, FLUX
 
 ## 一句话总结

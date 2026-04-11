@@ -1,9 +1,9 @@
 # Benchmarking Endoscopic Surgical Image Restoration and Beyond
 
-**会议**: CVPR 2026
-**arXiv**: [2505.19161](https://arxiv.org/abs/2505.19161)
-**代码**: https://github.com/PJLallen/Surgical-Image-Restoration
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2505.19161](https://arxiv.org/abs/2505.19161)  
+**代码**: https://github.com/PJLallen/Surgical-Image-Restoration  
+**领域**: 医学图像  
 **关键词**: 内窥镜图像复原, 手术场景去烟/去雾/去飞溅, Benchmark数据集, 图像质量评估, 临床应用
 
 ## 一句话总结

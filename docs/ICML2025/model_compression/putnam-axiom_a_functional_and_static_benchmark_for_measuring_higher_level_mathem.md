@@ -1,9 +1,9 @@
 # Putnam-AXIOM: A Functional & Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs
 
-**会议**: ICML2025
-**arXiv**: [2508.08292](https://arxiv.org/abs/2508.08292)
-**代码**: [brando90/putnam-axiom](https://github.com/brando90/putnam-axiom)
-**领域**: LLM评测 / 数学推理
+**会议**: ICML2025  
+**arXiv**: [2508.08292](https://arxiv.org/abs/2508.08292)  
+**代码**: [brando90/putnam-axiom](https://github.com/brando90/putnam-axiom)  
+**领域**: LLM评测 / 数学推理  
 **关键词**: 数学推理基准, 数据污染, 功能变体, Teacher-Forced Accuracy, Putnam竞赛
 
 ## 一句话总结

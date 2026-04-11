@@ -1,11 +1,11 @@
 # Inverse Virtual Try-On: Generating Multi-Category Product-Style Images from Clothed Individuals
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2505.21062](https://arxiv.org/abs/2505.21062)
 
 **代码**: [项目页面](https://temu-vtoff-page.github.io/)
 
-**领域**: 图像生成/时尚AI
+**领域**: 图像生成/时尚AI  
 **关键词**: 虚拟脱衣, 服装提取, Dual-DiT, 多模态注意力, 服装对齐
 
 ## 一句话总结

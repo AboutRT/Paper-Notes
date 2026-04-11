@@ -1,9 +1,9 @@
 # Scalable Signature Kernel Computations for Long Time Series via Local Neumann Series Expansions
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.20392](https://arxiv.org/abs/2502.20392)
-**代码**: https://github.com/geekbeast/powersig
-**领域**: 时间序列
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.20392](https://arxiv.org/abs/2502.20392)  
+**代码**: https://github.com/geekbeast/powersig  
+**领域**: 时间序列  
 **关键词**: 签名核, Neumann级数, 长时间序列, Goursat PDE, 核方法
 
 ## 一句话总结

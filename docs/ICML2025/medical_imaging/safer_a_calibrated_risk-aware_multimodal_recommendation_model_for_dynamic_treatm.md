@@ -1,9 +1,9 @@
 # SAFER: A Calibrated Risk-Aware Multimodal Recommendation Model for Dynamic Treatment Regimes
 
-**会议**: ICML2025
-**arXiv**: [2506.06649](https://arxiv.org/abs/2506.06649)
-**代码**: [yishanssss/SAFER](https://github.com/yishanssss/SAFER)
-**领域**: 医学治疗推荐 / 动态治疗策略
+**会议**: ICML2025  
+**arXiv**: [2506.06649](https://arxiv.org/abs/2506.06649)  
+**代码**: [yishanssss/SAFER](https://github.com/yishanssss/SAFER)  
+**领域**: 医学治疗推荐 / 动态治疗策略  
 **关键词**: 动态治疗策略(DTR), 多模态融合, 不确定性量化, 保形推断(Conformal Prediction), 脓毒症, EHR
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Cross-regularization: Adaptive Model Complexity through Validation Gradients
 
-**会议**: ICML2025
-**arXiv**: [2506.19755](https://arxiv.org/abs/2506.19755)
-**代码**: 待确认
-**领域**: 正则化
+**会议**: ICML2025  
+**arXiv**: [2506.19755](https://arxiv.org/abs/2506.19755)  
+**代码**: 待确认  
+**领域**: 正则化  
 **关键词**: 正则化, 验证梯度, 超参数优化, 噪声注入, 不确定性校准, 数据增强
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MEGS2: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning
 
-**会议**: ICLR 2026
-**arXiv**: [2509.07021](https://arxiv.org/abs/2509.07021)
-**代码**: 待发布
-**领域**: 3D视觉/渲染压缩
+**会议**: ICLR 2026  
+**arXiv**: [2509.07021](https://arxiv.org/abs/2509.07021)  
+**代码**: 待发布  
+**领域**: 3D视觉/渲染压缩  
 **关键词**: 3D Gaussian Splatting, 内存压缩, 球谐函数替代, Spherical Gaussians, 统一剪枝
 
 ## 一句话总结

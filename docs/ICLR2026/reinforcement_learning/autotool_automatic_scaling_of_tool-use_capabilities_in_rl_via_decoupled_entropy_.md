@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 强化学习  
 **关键词**: tool use, reinforcement learning, test-time scaling, entropy constraint, GRPO, agentic LLM  
+
 ## 一句话总结
 
 提出解耦自适应熵约束 (Decoupled Adaptive Entropy Constraints) 的强化学习策略，使 LLM 在工具调用任务中根据问题难度自动切换长/短推理模式，在提升 9.8% 准确率的同时减少约 81% 的推理 token 开销。

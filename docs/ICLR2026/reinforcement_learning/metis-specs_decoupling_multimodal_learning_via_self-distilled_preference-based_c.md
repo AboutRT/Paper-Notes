@@ -1,9 +1,9 @@
 # Metis-SPECS: Decoupling Multimodal Learning via Self-distilled Preference-based Cold Start for VLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2510.25801](https://arxiv.org/abs/2510.25801)
-**代码**: [项目页面](https://kwen-chen.github.io/SPECS-VL/)
-**领域**: VLM对齐/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.25801](https://arxiv.org/abs/2510.25801)  
+**代码**: [项目页面](https://kwen-chen.github.io/SPECS-VL/)  
+**领域**: VLM对齐/强化学习  
 **关键词**: 冷启动, DPO, 自蒸馏, 解耦学习, GRPO
 
 ## 一句话总结

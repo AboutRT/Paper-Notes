@@ -1,9 +1,9 @@
 # Generative Audio Language Modeling with Continuous-Valued Tokens and Masked Next-Token Prediction
 
-**会议**: ICML 2025
-**arXiv**: [2507.09834](https://arxiv.org/abs/2507.09834)
-**代码**: 有（项目页面）
-**领域**: Image Generation (Audio Generation)
+**会议**: ICML 2025  
+**arXiv**: [2507.09834](https://arxiv.org/abs/2507.09834)  
+**代码**: 有（项目页面）  
+**领域**: Image Generation (Audio Generation)  
 **关键词**: 音频生成, 连续值 Token, 语言模型, Token-wise Diffusion, Masked Next-Token Prediction
 
 ## 一句话总结

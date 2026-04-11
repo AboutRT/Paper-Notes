@@ -1,9 +1,9 @@
 # Mitigating Over-Squashing in Graph Neural Networks by Spectrum-Preserving Sparsification
 
-**会议**: ICML2025
-**arXiv**: [2506.16110](https://arxiv.org/abs/2506.16110)
-**代码**: [GitHub](https://github.com/Jinx-byebye/GOKU)
-**领域**: 图学习 / 图神经网络
+**会议**: ICML2025  
+**arXiv**: [2506.16110](https://arxiv.org/abs/2506.16110)  
+**代码**: [GitHub](https://github.com/Jinx-byebye/GOKU)  
+**领域**: 图学习 / 图神经网络  
 **关键词**: over-squashing, 图重连, 谱稀疏化, 有效电阻, 图分类, 节点分类
 
 ## 一句话总结

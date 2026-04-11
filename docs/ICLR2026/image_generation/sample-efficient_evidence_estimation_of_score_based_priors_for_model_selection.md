@@ -1,9 +1,9 @@
 # Sample-Efficient Evidence Estimation of Score-Based Priors for Model Selection
 
-**会议**: ICLR 2026
-**arXiv**: [2602.20549](https://arxiv.org/abs/2602.20549)
-**代码**: —
-**领域**: 贝叶斯推断 / 扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2602.20549](https://arxiv.org/abs/2602.20549)  
+**代码**: —  
+**领域**: 贝叶斯推断 / 扩散模型  
 **关键词**: 模型证据, 扩散先验, 后验采样, 模型选择, 黑洞成像
 
 ## 一句话总结

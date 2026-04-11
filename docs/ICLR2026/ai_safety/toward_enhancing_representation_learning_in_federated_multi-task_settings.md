@@ -1,10 +1,10 @@
 # Toward Enhancing Representation Learning in Federated Multi-Task Settings
 
-**会议**: ICLR 2026
-**arXiv**: [2602.01626](https://arxiv.org/abs/2602.01626)
-**代码**: 有（补充材料提供）
+**会议**: ICLR 2026  
+**arXiv**: [2602.01626](https://arxiv.org/abs/2602.01626)  
+**代码**: 有（补充材料提供）  
 **机构**: Huawei Noah's Ark Lab, Montreal
-**领域**: 联邦学习/表示学习
+**领域**: 联邦学习/表示学习  
 **关键词**: 联邦多任务学习, 对比学习, Muscle损失, 模型异构, 互信息最大化
 
 ## 一句话总结

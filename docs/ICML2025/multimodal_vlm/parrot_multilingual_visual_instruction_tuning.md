@@ -1,9 +1,9 @@
 # Parrot: Multilingual Visual Instruction Tuning
 
-**会议**: ICML2025
-**arXiv**: [2406.02539](https://arxiv.org/abs/2406.02539)
-**代码**: [AIDC-AI/Parrot](https://github.com/AIDC-AI/Parrot)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2406.02539](https://arxiv.org/abs/2406.02539)  
+**代码**: [AIDC-AI/Parrot](https://github.com/AIDC-AI/Parrot)  
+**领域**: multimodal_vlm  
 **关键词**: 多语言, 多模态大模型, Mixture-of-Experts, 视觉指令微调, 语言对齐
 
 ## 一句话总结

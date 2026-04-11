@@ -1,9 +1,9 @@
 # MonoMobility: Zero-Shot 3D Mobility Analysis from Monocular Videos
 
-**会议**: ICCV 2025
-**arXiv**: [2505.11868](https://arxiv.org/abs/2505.11868)
-**代码**: [项目页](https://monomobility.github.io/MonoMobility)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2505.11868](https://arxiv.org/abs/2505.11868)  
+**代码**: [项目页](https://monomobility.github.io/MonoMobility)  
+**领域**: 3d_vision  
 **关键词**: 关节物体分析, 单目视频, 零样本, 运动属性估计, 2D高斯泼溅, 动态场景优化
 
 ## 一句话总结

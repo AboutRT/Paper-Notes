@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Combining the Best of Both Worlds: A Method for Hybrid NMT and LLM Translation
 
-**会议**: ACL2025
-**arXiv**: [2505.13554](https://arxiv.org/abs/2505.13554)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.13554](https://arxiv.org/abs/2505.13554)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: 机器翻译, NMT-LLM融合, 调度策略, 二分类决策器, 翻译质量估计
 
 ## 一句话总结

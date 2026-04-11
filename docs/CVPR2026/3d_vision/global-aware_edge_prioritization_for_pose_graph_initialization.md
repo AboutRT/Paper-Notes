@@ -1,9 +1,9 @@
 # Global-Aware Edge Prioritization for Pose Graph Initialization
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21963](https://arxiv.org/abs/2602.21963)
-**代码**: [GitHub](https://github.com/weitong8591/global_edge_prior)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.21963](https://arxiv.org/abs/2602.21963)  
+**代码**: [GitHub](https://github.com/weitong8591/global_edge_prior)  
+**领域**: 3D视觉  
 **关键词**: Structure-from-Motion, 位姿图初始化, 图神经网络, 最小生成树, 边排序
 
 ## 一句话总结

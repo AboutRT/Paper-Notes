@@ -1,9 +1,9 @@
 # LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation
 
-**会议**: ICCV 2025
-**arXiv**: [2508.01152](https://arxiv.org/abs/2508.01152)
-**代码**: [GitHub](https://github.com/XinyuYanTJU/LawDIS)
-**领域**: segmentation
+**会议**: ICCV 2025  
+**arXiv**: [2508.01152](https://arxiv.org/abs/2508.01152)  
+**代码**: [GitHub](https://github.com/XinyuYanTJU/LawDIS)  
+**领域**: segmentation  
 **关键词**: 二分图像分割, 潜在扩散模型, 语言控制, 窗口细化, 高精度分割
 
 ## 一句话总结

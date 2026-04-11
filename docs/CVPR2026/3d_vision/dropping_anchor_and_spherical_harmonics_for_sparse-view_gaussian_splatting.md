@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # DropAnSH-GS: Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20933](https://arxiv.org/abs/2602.20933)
-**代码**: [项目页](https://sk-fun.fun/DropAnSH-GS)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.20933](https://arxiv.org/abs/2602.20933)  
+**代码**: [项目页](https://sk-fun.fun/DropAnSH-GS)  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 稀疏视角, Dropout正则化, 球谐函数, 新视角合成
 
 ## 一句话总结

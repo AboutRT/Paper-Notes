@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧠 NeurIPS2025** · 共 **94** 篇
+**🧠 NeurIPS2025** · 共 **112** 篇
 
 **[A Generalized Bisimulation Metric of State Similarity between Markov Decision Processes: From Theoretical Propositions to Applications](a_generalized_bisimulation_metric_of_state_similarity_betwee.md)**
 
@@ -271,9 +271,17 @@
 
 :   提出Cago方法，通过动态追踪智能体在专家演示轨迹上的达成能力，自适应采样处于能力边界的中间目标，构建隐式课程引导长视野稀疏奖励任务学习。
 
+**[Learning Human-Like RL Agents through Trajectory Optimization with Action Quantization](learning_human-like_rl_agents_through_trajectory_optimization_with_action_quanti.md)**
+
+:   提出 MAQ（Motion-Action Quantization）方法，通过 VQ-VAE 将人类动作离散化为有限的原语集合，然后在量化动作空间中进行轨迹优化，训练出行为模式更接近人类的 RL agent。
+
 **[Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis](learning_in_stackelberg_mean_field_games_a_non-asymptotic_analysis.md)**
 
 :   提出首个具有非渐近收敛保证的单循环Actor-Critic算法AC-SMFG，用于求解Stackelberg平均场博弈（SMFG），收敛速率达到 $\widetilde{\mathcal{O}}(k^{-1/2})$。
+
+**[Learning Interactive World Model for Object-Centric Reinforcement Learning](learning_interactive_world_model_for_object-centric_reinforcement_learning.md)**
+
+:   提出 FIOC-WM，通过对象级和属性级的两层分解学习世界模型中的物体交互结构，并基于交互原语训练层级策略，在多个机器人控制任务上实现了更高效的策略学习和组合泛化能力。
 
 **[Learning Interestingness in Automated Mathematical Theory Formation](learning_interestingness_in_automated_mathematical_theory_formation.md)**
 
@@ -299,6 +307,10 @@
 
 :   将max-min多目标强化学习重新表述为两人零和正则化连续博弈，提出ERAM/ARAM算法，利用镜像下降实现简洁的闭式权重更新，保证全局最后迭代收敛，在交通信号控制等任务中显著优于已有方法。
 
+**[Near-Optimal Quantum Algorithms for Computing (Coarse) Correlated Equilibria of General-Sum Games](near-optimal_quantum_algorithms_for_computing_coarse_correlated_equilibria_of_ge.md)**
+
+:   首次研究计算多玩家一般和博弈的相关均衡（CE）和粗相关均衡（CCE）的量子算法，通过量子化多尺度 MWU 方法和统一 QRAM 方案，实现 $\tilde{O}(m\sqrt{n})$ 的近最优查询复杂度（在玩家数 m 和动作数 n 上），并证明了匹配的量子下界。
+
 **[NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation](noisyrollout_reinforcing_visual_reasoning_with_data_augmenta.md)**
 
 :   提出NoisyRollout，一种简单有效的数据增强方法——在VLM的RL训练中混合使用干净图像和适度扭曲图像的生成轨迹，通过注入感知多样性促进策略探索和鲁棒推理，配合噪声退火调度，零额外计算成本实现5个域外推理benchmark上的开源RL模型SOTA。
@@ -307,17 +319,33 @@
 
 :   将Best Response Flow从凸函数泛函优化扩展到非凸情形，证明在充分大的熵正则化下，BR算子在 $L^1$-Wasserstein距离下成为压缩映射，保证非凸目标的唯一全局最小值存在性及指数收敛。
 
+**[On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning](on_the_global_optimality_of_policy_gradient_methods_in_general_utility_reinforce.md)**
+
+:   为一般效用强化学习（RLGU）中的策略梯度方法建立全局最优性保证，在表格设定下证明了 RLGU 目标满足梯度支配不等式，在大规模状态动作空间设定下通过最大似然估计（MLE）近似占据度量实现可扩展的全局收敛算法。
+
 **[Optimizing the Unknown: Black Box Bayesian Optimization with Energy-Based Model and Reinforcement Learning](optimizing_the_unknown_black_box_bayesian_optimization_with_energy-based_model_a.md)**
 
 :   提出REBMBO框架，将高斯过程（局部建模）、能量模型EBM（全局探索）和PPO强化学习（多步前瞻）统一为贝叶斯优化闭环，在高维/多峰黑盒优化中显著优于传统BO方法。
+
+**[Parameter-Free Algorithms for the Stochastically Extended Adversarial Model](parameter-free_algorithms_for_the_stochastically_extended_adversarial_model.md)**
+
+:   针对桥接对抗性和随机在线凸优化的 SEA 模型，首次开发无参数算法：在未知域直径 $D$ 和/或 Lipschitz 常数 $G$ 条件下，基于 Optimistic Online Newton Step (OONS) 实现与已知参数情况相当的 regret 界。
 
 **[Parameter Efficient Fine-tuning via Explained Variance Adaptation](parameter_efficient_fine-tuning_via_explained_variance_adaptation.md)**
 
 :   提出 Explained Variance Adaptation (EVA)，通过对激活向量进行增量 SVD 来初始化 LoRA 矩阵，可证明地最大化期望梯度信号，并结合自适应秩分配机制在语言生成/理解、图像分类、强化学习等多领域建立了精度-效率的新 Pareto 前沿。
 
+**[Provable Ordering and Continuity in Vision-Language Pretraining for Generalizable Embodied Agents](provable_ordering_and_continuity_in_vision-language_pretraining_for_generalizabl.md)**
+
+:   提出 AcTOL，通过视觉-语言排序损失和布朗桥约束来学习有序且连续的视觉-语言表征，无需刚性目标到达假设，在模拟和真实机器人操作任务上显著提升下游表现。
+
 **[Qimeng-Salv Signal-Aware Learning For Verilog Code Generation](qimeng-salv_signal-aware_learning_for_verilog_code_generation.md)**
 
 :   从部分正确的Verilog模块中提取信号级正确实现用于信号感知DPO训练，使7B模型在RTLLM v1.1上达到671B DeepSeek-v3的水平（62.6% pass@1）。
+
+**[Real-World Reinforcement Learning of Active Perception Behaviors](real-world_reinforcement_learning_of_active_perception_behaviors.md)**
+
+:   提出非对称优势加权回归（AAWR），通过在训练时使用特权传感器估计优势函数来高效训练主动感知策略，在 8 个操作任务和 3 种机器人上实现了可靠的信息收集行为。
 
 **[Reasoning Gym: Reasoning Environments for Reinforcement Learning with Verifiable Rewards](reasoning_gym_reasoning_environments_for_reinforcement_learning_with_verifiable_.md)**
 
@@ -331,6 +359,18 @@
 
 :   将逆合成规划重新建模为树结构MDP中的最差路径优化问题，用自模仿学习确保所有合成路线都能终止于可购买的起始材料。
 
+**[Reward-Aware Proto-Representations in Reinforcement Learning](reward-aware_proto-representations_in_reinforcement_learning.md)**
+
+:   系统发展了默认表示（DR）的理论基础——推导了 DP 和 TD 学习算法、分析了特征空间结构、提出了默认特征进行函数逼近——并在奖励塑形、期权发现、探索和迁移学习四个场景中展示了 DR 相比后继表示（SR）的奖励感知优势。
+
+**[Risk-Averse Constrained Reinforcement Learning with Optimized Certainty Equivalents](risk-averse_constrained_reinforcement_learning_with_optimized_certainty_equivale.md)**
+
+:   提出一种基于奖励层面(reward-based)的风险感知约束RL框架，使用优化确定性等价(OCE)风险度量同时覆盖目标和约束，建立了参数化强对偶性，并给出模块化算法——可包装标准RL求解器（如PPO）作为黑盒使用。
+
+**[Risk-Averse Total-Reward Reinforcement Learning](risk-averse_total-reward_reinforcement_learning.md)**
+
+:   提出了面向无折扣总奖励准则(TRC)的风险规避Q-learning算法（ERM-TRC和EVaR-TRC），利用ERM的可引出性(elicitability)将Bellman算子转化为随机梯度下降形式，并证明了算法的收敛保证。
+
 **[RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning](rl_tango_reinforcing_generator_and_verifier_together_for_lan.md)**
 
 :   Tango 提出一种交替 RL 训练生成器和验证器的框架——验证器是生成式过程级 LLM（用自然语言逐步评判），仅用结果级正确性奖励训练（无需步骤标注），通过与生成器的共进化相互增强——在 7B/8B 级别模型上达到SOTA，AIME 2025 准确率相对 vanilla GRPO 提升 100%。
@@ -343,9 +383,25 @@
 
 :   提出 Ensemble++，通过共享因子矩阵的增量更新机制，仅需 $\Theta(d\log T)$ 的集成大小即可实现与精确 Thompson Sampling 相当的遗憾界，并自然扩展到非线性/神经网络场景。
 
+**[Scalable Policy-Based RL Algorithms for POMDPs](scalable_policy-based_rl_algorithms_for_pomdps.md)**
+
+:   提出将 POMDP 近似为有限状态的 Superstate MDP（状态为截断历史），给出更紧的最优值函数差上界（随历史长度指数衰减），并首次证明标准 TD 学习 + 策略优化在此非马尔可夫采样下的有限时间收敛保证。
+
+**[Sequential Multi-Agent Dynamic Algorithm Configuration](sequential_multi-agent_dynamic_algorithm_configuration.md)**
+
+:   提出 Seq-MADAC 框架，将多超参数动态配置建模为上下文顺序多智能体 MDP，通过顺序优势分解网络（SADN）利用参数间的固有依赖关系，在多目标优化算法配置上超越现有 MARL 方法。
+
+**[Simultaneous Swap Regret Minimization via KL-Calibration](simultaneous_swap_regret_minimization_via_kl-calibration.md)**
+
+:   提出 KL-Calibration 这一更强的校准度量，证明其等价于 log loss 的 swap regret，并通过非均匀离散化和新型随机取整方案实现 $\tilde{\mathcal{O}}(T^{1/3})$ 的同时 swap regret 上界，覆盖比已有工作更广的 proper loss 类。
+
 **[Solving Neural Min-Max Games: The Role of Architecture, Initialization & Dynamics](solving_neural_min-max_games_the_role_of_architecture_initialization_dynamics.md)**
 
 :   首次为两层神经网络参数化的零和博弈提供收敛保证，证明在适当过参数化、随机初始化和交替梯度下降上升（AltGDA）下，能以高概率收敛到 $\epsilon$-近似纳什均衡。
+
+**[Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems](spatial-aware_decision-making_with_ring_attractors_in_reinforcement_learning_sys.md)**
+
+:   将神经科学中的环形吸引子模型集成到 DRL 的动作选择中，通过将动作映射到环上的空间位置并利用高斯信号注入 Q 值和不确定性，在 Atari 100K 上比基线提升 53%。
 
 **[Structured Reinforcement Learning for Combinatorial Decision-Making](structured_reinforcement_learning_for_combinatorial_decision-making.md)**
 
@@ -363,6 +419,14 @@
 
 :   将用户与参与度驱动算法的交互建模为多领导者-单跟随者 Stackelberg 博弈，证明存在关键的前瞻视野阈值：超过该阈值的用户可实现对齐，否则反被算法对齐；同时证明引入低成本信号（如额外点击）可大幅降低对齐负担。
 
+**[Thompson Sampling for Multi-Objective Linear Contextual Bandit](thompson_sampling_for_multi-objective_linear_contextual_bandit.md)**
+
+:   提出 MOL-TS，首个具有 Pareto regret 保证的多目标线性上下文 Bandit Thompson 采样算法，通过乐观采样策略和新定义的有效 Pareto 最优概念，实现 $\widetilde{O}(d^{3/2}\sqrt{T})$ 的 regret 上界。
+
+**[Time Reversal Symmetry for Efficient Robotic Manipulations in Deep Reinforcement Learning](time_reversal_symmetry_for_efficient_robotic_manipulations_in_deep_reinforcement.md)**
+
+:   提出 TR-DRL 框架，利用机器人操作任务中的时间反转对称性——通过轨迹反转增强（完全可逆的转移）和时间反转引导的势函数奖励塑形（部分可逆的转移）——显著提升 DRL 在成对任务（如开门/关门）中的样本效率和最终性能。
+
 **[Tractable Multinomial Logit Contextual Bandits with Non-Linear Utilities](tractable_multinomial_logit_contextual_bandits_with_non-linear_utilities.md)**
 
 :   首次为MNL上下文赌博机问题在非线性效用函数（含神经网络）下设计了**计算可行**且**统计最优**的算法ONL-MNL，在不依赖NTK假设的情况下达到$\widetilde{\mathcal{O}}(\sqrt{T})$的遗憾上界。
@@ -370,6 +434,14 @@
 **[Training Language Models to Reason Efficiently](training_language_models_to_reason_efficiently.md)**
 
 :   通过在 RL 奖励中加入长度惩罚项——正确回答的奖励乘以 $(1 - \alpha \cdot \sigma(\text{norm\_len}))$，用单一超参数 $\alpha$ 控制 token-准确率权衡曲线，仅 100 步 RL 训练即可让 7B 推理模型减少 50% token 使用量而准确率仅下降 <5%。
+
+**[Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm](trust_region_reward_optimization_and_proximal_inverse_reward_optimization_algori.md)**
+
+:   提出 TRRO 理论框架和 PIRO 实用算法，通过 Minorization-Maximization 过程保证 IRL 中奖励函数更新的单调改进，实现了逆强化学习领域类似于 TRPO/PPO 在正向 RL 中的稳定性保证。
+
+**[When Can Model-Free Reinforcement Learning be Enough for Thinking?](when_can_model-free_reinforcement_learning_be_enough_for_thinking.md)**
+
+:   提出 Thought MDP 形式化框架来理解模型无关 RL 中"思考"行为的涌现条件：策略初始化是决定性因素，思考动作等价于智能体在行动前执行一步策略改进，且开源 LLM 满足思考涌现的必要条件。
 
 **[Zero-Shot Context Generalization in Reinforcement Learning from Few Training Contexts](zero-shot_context_generalization_in_reinforcement_learning_from_few_training_con.md)**
 

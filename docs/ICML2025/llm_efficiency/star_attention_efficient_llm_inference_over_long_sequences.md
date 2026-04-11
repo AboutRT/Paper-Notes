@@ -1,9 +1,9 @@
 # Star Attention: Efficient LLM Inference over Long Sequences
 
-**会议**: ICML2025
-**arXiv**: [2411.17116](https://arxiv.org/abs/2411.17116)
-**代码**: [GitHub - Star-Attention](https://github.com/NVIDIA/Star-Attention)
-**领域**: llm_efficiency
+**会议**: ICML2025  
+**arXiv**: [2411.17116](https://arxiv.org/abs/2411.17116)  
+**代码**: [GitHub - Star-Attention](https://github.com/NVIDIA/Star-Attention)  
+**领域**: llm_efficiency  
 **关键词**: 长序列推理, 稀疏注意力, 分布式推理, Anchor Block, KV缓存
 
 ## 一句话总结

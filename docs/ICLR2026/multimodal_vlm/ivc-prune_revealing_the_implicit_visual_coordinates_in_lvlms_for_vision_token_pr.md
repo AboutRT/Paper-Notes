@@ -1,9 +1,9 @@
 # IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning
 
-**会议**: ICLR 2026
-**arXiv**: [2602.03060](https://arxiv.org/abs/2602.03060)
-**代码**: [GitHub](https://github.com/FireRedTeam/IVC-Prune)
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2602.03060](https://arxiv.org/abs/2602.03060)  
+**代码**: [GitHub](https://github.com/FireRedTeam/IVC-Prune)  
+**领域**: 多模态VLM  
 **关键词**: 视觉token剪枝, RoPE位置编码, 隐式视觉坐标, 空间推理, 训练免微调
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # DuET: Dual Incremental Object Detection via Exemplar-Free Task Arithmetic
 
-**会议**: ICCV 2025
-**arXiv**: [2506.21260](https://arxiv.org/abs/2506.21260)
-**代码**: 待确认
-**领域**: autonomous_driving / incremental_learning
+**会议**: ICCV 2025  
+**arXiv**: [2506.21260](https://arxiv.org/abs/2506.21260)  
+**代码**: 待确认  
+**领域**: autonomous_driving / incremental_learning  
 **关键词**: 增量目标检测, 类别增量, 域增量, 任务算术, 模型合并, 灾难性遗忘, YOLO11, RT-DETR
 
 ## 一句话总结

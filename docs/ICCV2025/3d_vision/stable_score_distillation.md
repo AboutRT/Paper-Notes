@@ -1,9 +1,9 @@
 # Stable Score Distillation
 
-**会议**: ICCV 2025
-**arXiv**: [2507.09168](https://arxiv.org/abs/2507.09168)
-**代码**: [https://github.com/Alex-Zhu1/SSD](https://github.com/Alex-Zhu1/SSD)
-**领域**: 3D视觉 / 文本引导编辑
+**会议**: ICCV 2025  
+**arXiv**: [2507.09168](https://arxiv.org/abs/2507.09168)  
+**代码**: [https://github.com/Alex-Zhu1/SSD](https://github.com/Alex-Zhu1/SSD)  
+**领域**: 3D视觉 / 文本引导编辑  
 **关键词**: Score Distillation, 3D场景编辑, 2D图像编辑, 扩散模型, Classifier-Free Guidance, NeRF, 3DGS
 
 ## 一句话总结

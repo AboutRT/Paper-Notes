@@ -1,9 +1,9 @@
 # RLTHF: Targeted Human Feedback for LLM Alignment
 
-**会议**: ICML 2025
-**arXiv**: [2502.13417](https://arxiv.org/abs/2502.13417)
-**代码**: 无
-**领域**: 推荐系统
+**会议**: ICML 2025  
+**arXiv**: [2502.13417](https://arxiv.org/abs/2502.13417)  
+**代码**: 无  
+**领域**: 推荐系统  
 **关键词**: RLHF, LLM对齐, 人类反馈, 奖励模型, 主动学习
 
 ## 一句话总结

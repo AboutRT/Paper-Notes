@@ -1,9 +1,9 @@
 # FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling
 
-**会议**: NeurIPS 2025
-**arXiv**: [2501.19122](https://arxiv.org/abs/2501.19122)
-**代码**: [GitHub](https://github.com/Little0o0/FedRTS)
-**领域**: optimization
+**会议**: NeurIPS 2025  
+**arXiv**: [2501.19122](https://arxiv.org/abs/2501.19122)  
+**代码**: [GitHub](https://github.com/Little0o0/FedRTS)  
+**领域**: optimization  
 **关键词**: 联邦学习, 动态剪枝, Thompson Sampling, 组合多臂赌博机, 稀疏训练
 
 ## 一句话总结

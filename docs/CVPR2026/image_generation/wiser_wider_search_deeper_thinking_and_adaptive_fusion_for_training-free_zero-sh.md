@@ -1,9 +1,9 @@
 # WISER: Wider Search, Deeper Thinking, and Adaptive Fusion for Training-Free Zero-Shot Composed Image Retrieval
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23029](https://arxiv.org/abs/2602.23029)
-**代码**: https://github.com/Physicsmile/WISER
-**领域**: 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2602.23029](https://arxiv.org/abs/2602.23029)  
+**代码**: https://github.com/Physicsmile/WISER  
+**领域**: 图像生成  
 **关键词**: 组合图像检索, 零样本, T2I+I2I融合, 自反思精化, VLM验证, CLIP
 
 ## 一句话总结

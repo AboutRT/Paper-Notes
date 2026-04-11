@@ -1,9 +1,9 @@
 # Enabling Differentially Private Federated Learning for Speech Recognition: Benchmarks, Adaptive Optimizers and Gradient Clipping
 
-**会议**: NeurIPS 2025
-**arXiv**: [2310.00098](https://arxiv.org/abs/2310.00098)
-**代码**: [GitHub](https://github.com/apple/ml-pfl4asr)
-**领域**: AI安全
+**会议**: NeurIPS 2025  
+**arXiv**: [2310.00098](https://arxiv.org/abs/2310.00098)  
+**代码**: [GitHub](https://github.com/apple/ml-pfl4asr)  
+**领域**: AI安全  
 **关键词**: 差分隐私, 联邦学习, 语音识别, 逐层裁剪, 自适应优化器
 
 ## 一句话总结

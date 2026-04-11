@@ -1,9 +1,9 @@
 # Thermal Polarimetric Multi-view Stereo
 
-**会议**: ICCV2025
-**arXiv**: [2510.20972](https://arxiv.org/abs/2510.20972)
-**代码**: 待确认
-**领域**: 三维重建 / 热成像 / 偏振成像
+**会议**: ICCV2025  
+**arXiv**: [2510.20972](https://arxiv.org/abs/2510.20972)  
+**代码**: 待确认  
+**领域**: 三维重建 / 热成像 / 偏振成像  
 **关键词**: thermal imaging, polarimetric imaging, LWIR, multi-view stereo, SDF, shape from polarization
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Scalable Fingerprinting of Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.07760](https://arxiv.org/abs/2502.07760)
-**代码**: [GitHub](https://github.com/SewoongLab/scalable-fingerprinting-of-llms)
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.07760](https://arxiv.org/abs/2502.07760)  
+**代码**: [GitHub](https://github.com/SewoongLab/scalable-fingerprinting-of-llms)  
+**领域**: llm_nlp  
 **关键词**: model fingerprinting, LLM ownership, Perinucleus sampling, collusion attack, model security
 
 ## 一句话总结

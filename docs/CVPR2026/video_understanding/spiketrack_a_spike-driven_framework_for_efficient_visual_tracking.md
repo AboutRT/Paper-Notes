@@ -1,9 +1,9 @@
 # SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23963](https://arxiv.org/abs/2602.23963)
-**代码**: 有（论文中提及）
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2602.23963](https://arxiv.org/abs/2602.23963)  
+**代码**: 有（论文中提及）  
+**领域**: 视频理解  
 **关键词**: 脉冲神经网络, 视觉跟踪, 能效, 非对称架构, 记忆检索
 
 ## 一句话总结

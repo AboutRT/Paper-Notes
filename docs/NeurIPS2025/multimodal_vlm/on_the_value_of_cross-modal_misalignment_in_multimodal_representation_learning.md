@@ -1,9 +1,9 @@
 # On the Value of Cross-Modal Misalignment in Multimodal Representation Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.10143](https://arxiv.org/abs/2504.10143)
-**代码**: [项目主页](https://yichaocai.com/misalignment.github.io) (有)
-**领域**: 多模态VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.10143](https://arxiv.org/abs/2504.10143)  
+**代码**: [项目主页](https://yichaocai.com/misalignment.github.io) (有)  
+**领域**: 多模态VLM  
 **关键词**: 多模态对比学习, 跨模态失配, 潜变量模型, 可辨识性, 不变表征学习
 
 ## 一句话总结

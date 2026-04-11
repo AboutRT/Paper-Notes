@@ -1,9 +1,9 @@
 # Pay Attention to CTC: Fast and Robust Pseudo-Labelling for Unified Speech Recognition
 
-**会议**: ICLR 2026
-**arXiv**: [2602.19316](https://arxiv.org/abs/2602.19316)
-**代码**: 无（基于 USR 框架扩展）
-**领域**: 音频语音
+**会议**: ICLR 2026  
+**arXiv**: [2602.19316](https://arxiv.org/abs/2602.19316)  
+**代码**: 无（基于 USR 框架扩展）  
+**领域**: 音频语音  
 **关键词**: 统一语音识别, CTC, 伪标签, 音视频语音识别, 分布外鲁棒性
 
 ## 一句话总结

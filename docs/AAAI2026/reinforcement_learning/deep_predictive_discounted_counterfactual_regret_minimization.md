@@ -1,9 +1,9 @@
 # Deep (Predictive) Discounted Counterfactual Regret Minimization
 
-**会议**: AAAI 2026
-**arXiv**: [2511.08174](https://arxiv.org/abs/2511.08174)
-**代码**: [rpSebastian/DeepPDCFR](https://github.com/rpSebastian/DeepPDCFR)
-**领域**: 强化学习
+**会议**: AAAI 2026  
+**arXiv**: [2511.08174](https://arxiv.org/abs/2511.08174)  
+**代码**: [rpSebastian/DeepPDCFR](https://github.com/rpSebastian/DeepPDCFR)  
+**领域**: 强化学习  
 **关键词**: 反事实遗憾最小化, 不完全信息博弈, 纳什均衡, 神经网络近似, 方差缩减
 
 ## 一句话总结

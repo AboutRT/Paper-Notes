@@ -1,9 +1,9 @@
 # Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13070](https://arxiv.org/abs/2603.13070)
-**代码**: 无
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.13070](https://arxiv.org/abs/2603.13070)  
+**代码**: 无  
+**领域**: 目标检测  
 **关键词**: 扩散模型记忆, 提示增强, 拷贝检测, 多模态融合, 版权保护
 
 ## 一句话总结

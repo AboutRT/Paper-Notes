@@ -1,9 +1,9 @@
 # Self-Tuning: Instructing LLMs to Effectively Acquire New Knowledge through Self-Teaching
 
-**会议**: ACL 2025
-**arXiv**: [2406.06326](https://arxiv.org/abs/2406.06326)
-**代码**: https://github.com/zhangxy-2019/Effective-Knowledge-Injection
-**领域**: LLM NLP / 知识注入
+**会议**: ACL 2025  
+**arXiv**: [2406.06326](https://arxiv.org/abs/2406.06326)  
+**代码**: https://github.com/zhangxy-2019/Effective-Knowledge-Injection  
+**领域**: LLM NLP / 知识注入  
 **关键词**: Knowledge Injection, Self-Teaching, Feynman Technique, Continual Learning, Knowledge Acquisition
 
 ## 一句话总结

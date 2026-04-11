@@ -1,9 +1,9 @@
 # Key and Value Weights Are Probably All You Need: On the Necessity of the Query, Key, and Value Weight Triplet in Self-Attention
 
-**会议**: ICLR 2026
-**arXiv**: [2510.23912](https://arxiv.org/abs/2510.23912)
-**代码**: [GitHub](https://github.com/MarkoKarbevski/Wqkv_necessity)
-**领域**: Transformer架构
+**会议**: ICLR 2026  
+**arXiv**: [2510.23912](https://arxiv.org/abs/2510.23912)  
+**代码**: [GitHub](https://github.com/MarkoKarbevski/Wqkv_necessity)  
+**领域**: Transformer架构  
 **关键词**: 自注意力, Query权重, 参数冗余, 隐式正则化, 架构简化
 
 ## 一句话总结

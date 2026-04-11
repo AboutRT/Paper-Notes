@@ -1,9 +1,9 @@
 # Doodle Your Keypoints: Sketch-Based Few-Shot Keypoint Detection
 
-**会议**: ICCV 2025
-**arXiv**: [2507.07994](https://arxiv.org/abs/2507.07994)
-**代码**: https://subhajitmaity.me/DYKp (有)
-**领域**: Keypoint Detection / Few-Shot Learning
+**会议**: ICCV 2025  
+**arXiv**: [2507.07994](https://arxiv.org/abs/2507.07994)  
+**代码**: https://subhajitmaity.me/DYKp (有)  
+**领域**: Keypoint Detection / Few-Shot Learning  
 **关键词**: 关键点检测, 少样本学习, 草图, 跨模态, 域适应
 
 ## 一句话总结

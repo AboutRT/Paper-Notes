@@ -1,9 +1,9 @@
 # Spectral Gaps and Spatial Priors: Studying Hyperspectral Downstream Adaptation Using TerraMind
 
-**会议**: ICLR 2026
-**arXiv**: [2603.06690](https://arxiv.org/abs/2603.06690)
-**代码**: 无
-**领域**: 遥感
+**会议**: ICLR 2026  
+**arXiv**: [2603.06690](https://arxiv.org/abs/2603.06690)  
+**代码**: 无  
+**领域**: 遥感  
 **关键词**: 高光谱成像, 地理空间基础模型, 通道适配, TerraMind, 光谱响应函数
 
 ## 一句话总结

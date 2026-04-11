@@ -1,9 +1,9 @@
 # LinEAS: End-to-end Learning of Activation Steering with a Distributional Loss
 
-**会议**: NeurIPS 2025
-**arXiv**: [2503.10679](https://arxiv.org/abs/2503.10679)
-**代码**: [github.com/apple/ml-lineas](https://github.com/apple/ml-lineas) (有)
-**领域**: 图像生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.10679](https://arxiv.org/abs/2503.10679)  
+**代码**: [github.com/apple/ml-lineas](https://github.com/apple/ml-lineas) (有)  
+**领域**: 图像生成  
 **关键词**: Activation Steering, Optimal Transport, Toxicity Mitigation, Text-to-Image, Sparse Regularization
 
 ## 一句话总结

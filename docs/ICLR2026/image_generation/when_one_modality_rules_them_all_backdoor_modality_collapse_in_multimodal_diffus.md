@@ -1,9 +1,9 @@
 # When One Modality Rules Them All: Backdoor Modality Collapse in Multimodal Diffusion Models
 
-**会议**: ICLR 2026
-**arXiv**: [2603.06508](https://arxiv.org/abs/2603.06508)
-**代码**: 无
-**领域**: AI安全/多模态扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2603.06508](https://arxiv.org/abs/2603.06508)  
+**代码**: 无  
+**领域**: AI安全/多模态扩散模型  
 **关键词**: 后门攻击, 模态坍缩, 多模态扩散, Shapley值, 触发器交互
 
 ## 一句话总结

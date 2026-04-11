@@ -1,9 +1,9 @@
 # Verifier-Constrained Flow Expansion for Discovery Beyond the Data
 
-**会议**: ICLR 2026
-**arXiv**: [2602.15984](https://arxiv.org/abs/2602.15984)
-**代码**: 无
-**领域**: 流模型/科学发现
+**会议**: ICLR 2026  
+**arXiv**: [2602.15984](https://arxiv.org/abs/2602.15984)  
+**代码**: 无  
+**领域**: 流模型/科学发现  
 **关键词**: Flow Expansion, 验证器约束, 熵最大化, Mirror Descent, 分子设计
 
 ## 一句话总结

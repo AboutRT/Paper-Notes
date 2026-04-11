@@ -1,9 +1,9 @@
 # PTQ4ARVG: Post-Training Quantization for AutoRegressive Visual Generation Models
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21238](https://arxiv.org/abs/2601.21238)
-**代码**: [GitHub](http://github.com/BienLuky/PTQ4ARVG)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2601.21238](https://arxiv.org/abs/2601.21238)  
+**代码**: [GitHub](http://github.com/BienLuky/PTQ4ARVG)  
+**领域**: 模型压缩  
 **关键词**: 视觉生成, 自回归模型, 后训练量化, 激活量化, 离群值抑制
 
 ## 一句话总结

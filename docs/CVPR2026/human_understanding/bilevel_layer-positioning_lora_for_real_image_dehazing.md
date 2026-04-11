@@ -1,9 +1,9 @@
 # Bilevel Layer-Positioning LoRA for Real Image Dehazing
 
-**会议**: CVPR2026
-**arXiv**: [2603.10872](https://arxiv.org/abs/2603.10872)
-**代码**: [GitHub](https://github.com/YanZhang-zy/BiLaLoRA)
-**领域**: human_understanding
+**会议**: CVPR2026  
+**arXiv**: [2603.10872](https://arxiv.org/abs/2603.10872)  
+**代码**: [GitHub](https://github.com/YanZhang-zy/BiLaLoRA)  
+**领域**: human_understanding  
 **关键词**: image dehazing, LoRA, bilevel optimization, CLIP, unsupervised adaptation, parameter-efficient fine-tuning
 
 ## 一句话总结

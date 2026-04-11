@@ -1,9 +1,9 @@
 # TuCo: Measuring the Contribution of Fine-Tuning to Individual Responses of LLMs
 
-**会议**: ICML2025
-**arXiv**: [2506.23423](https://arxiv.org/abs/2506.23423)
-**代码**: [github.com/FelipeNuti/tuning-contribution](https://github.com/FelipeNuti/tuning-contribution)
-**领域**: LLM分析 / AI Safety
+**会议**: ICML2025  
+**arXiv**: [2506.23423](https://arxiv.org/abs/2506.23423)  
+**代码**: [github.com/FelipeNuti/tuning-contribution](https://github.com/FelipeNuti/tuning-contribution)  
+**领域**: LLM分析 / AI Safety  
 **关键词**: fine-tuning分析, 可解释性, 越狱攻击, 残差分解, Transformer内部表示
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Label-Efficient Hyperspectral Image Classification via Spectral FiLM Modulation of Low-Level Pretrained Diffusion Features
 
-**会议**: ICML2025
-**arXiv**: [2512.03430](https://arxiv.org/abs/2512.03430)
+**会议**: ICML2025  
+**arXiv**: [2512.03430](https://arxiv.org/abs/2512.03430)  
 **作者**: Yuzhen Hu, Biplab Banerjee, Saurabh Prasad
-**代码**: 待确认
-**领域**: image_generation
+**代码**: 待确认  
+**领域**: image_generation  
 **关键词**: Diffusion Models, Hyperspectral Imaging, Remote Sensing, Label-Efficient Learning, FiLM Modulation
 
 ## 一句话总结

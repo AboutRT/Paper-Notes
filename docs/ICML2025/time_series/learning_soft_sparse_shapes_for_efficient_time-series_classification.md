@@ -1,9 +1,9 @@
 # Learning Soft Sparse Shapes for Efficient Time-Series Classification
 
-**会议**: ICML2025
-**arXiv**: [2505.06892](https://arxiv.org/abs/2505.06892)
-**代码**: [GitHub](https://github.com/qianlima-lab/SoftShape)
-**领域**: time_series
+**会议**: ICML2025  
+**arXiv**: [2505.06892](https://arxiv.org/abs/2505.06892)  
+**代码**: [GitHub](https://github.com/qianlima-lab/SoftShape)  
+**领域**: time_series  
 **关键词**: shapelet, 时间序列分类, 软稀疏化, Mixture-of-Experts, 可解释性
 
 ## 一句话总结

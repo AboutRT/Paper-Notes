@@ -1,9 +1,9 @@
 # Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning
 
-**会议**: ACL 2025
-**arXiv**: [2502.18001](https://arxiv.org/abs/2502.18001)
-**代码**: https://github.com/EIT-NLP/Distilling-CoT-Reasoning
-**领域**: LLM Reasoning / CoT 蒸馏
+**会议**: ACL 2025  
+**arXiv**: [2502.18001](https://arxiv.org/abs/2502.18001)  
+**代码**: https://github.com/EIT-NLP/Distilling-CoT-Reasoning  
+**领域**: LLM Reasoning / CoT 蒸馏  
 **关键词**: Chain-of-Thought, Knowledge Distillation, Reasoning Granularity, Small Language Models, Teacher-Student
 
 ## 一句话总结

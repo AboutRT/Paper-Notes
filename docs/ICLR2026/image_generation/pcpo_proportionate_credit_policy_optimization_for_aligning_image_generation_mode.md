@@ -1,9 +1,9 @@
 # PCPO: Proportionate Credit Policy Optimization for Aligning Image Generation Models
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25774](https://arxiv.org/abs/2509.25774)
-**代码**: [GitHub](https://github.com/jaylee2000/pcpo/)
-**领域**: 扩散模型对齐 / 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2509.25774](https://arxiv.org/abs/2509.25774)  
+**代码**: [GitHub](https://github.com/jaylee2000/pcpo/)  
+**领域**: 扩散模型对齐 / 强化学习  
 **关键词**: 策略梯度, 信用分配, 扩散模型, 流匹配, 模型崩溃
 
 ## 一句话总结

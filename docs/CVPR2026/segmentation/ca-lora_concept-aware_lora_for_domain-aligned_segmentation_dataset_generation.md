@@ -1,9 +1,9 @@
 # CA-LoRA: Concept-Aware LoRA for Domain-Aligned Segmentation Dataset Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2503.22172](https://arxiv.org/abs/2503.22172)
-**代码**: 无（Qualcomm AI Research内部）
-**领域**: 分割 / 数据生成
+**会议**: CVPR 2026  
+**arXiv**: [2503.22172](https://arxiv.org/abs/2503.22172)  
+**代码**: 无（Qualcomm AI Research内部）  
+**领域**: 分割 / 数据生成  
 **关键词**: LoRA微调, T2I生成模型, 语义分割, 概念解耦, 域泛化
 
 ## 一句话总结

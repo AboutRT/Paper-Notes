@@ -1,9 +1,9 @@
 # EffectErase: Joint Video Object Removal and Insertion for High-Quality Effect Erasing
 
-**会议**: CVPR 2026
-**arXiv**: [2603.19224](https://arxiv.org/abs/2603.19224)
-**代码**: [项目页面](https://henghuiding.com/EffectErase/)
-**领域**: 视频编辑 / 视频物体移除
+**会议**: CVPR 2026  
+**arXiv**: [2603.19224](https://arxiv.org/abs/2603.19224)  
+**代码**: [项目页面](https://henghuiding.com/EffectErase/)  
+**领域**: 视频编辑 / 视频物体移除  
 **关键词**: 视频物体移除, 视觉副效应, 扩散模型, 对偶学习, 数据集
 
 ## 一句话总结

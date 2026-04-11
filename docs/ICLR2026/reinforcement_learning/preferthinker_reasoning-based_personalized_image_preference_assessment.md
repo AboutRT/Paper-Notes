@@ -1,9 +1,9 @@
 # PreferThinker: Reasoning-based Personalized Image Preference Assessment
 
-**会议**: ICLR 2026
-**arXiv**: [2511.00609](https://arxiv.org/abs/2511.00609)
-**代码**: [项目页面](https://preferthinker.github.io)
-**领域**: 图像偏好/个性化评估
+**会议**: ICLR 2026  
+**arXiv**: [2511.00609](https://arxiv.org/abs/2511.00609)  
+**代码**: [项目页面](https://preferthinker.github.io)  
+**领域**: 图像偏好/个性化评估  
 **关键词**: 个性化偏好, CoT推理, 偏好画像, GRPO, 视觉元素
 
 ## 一句话总结

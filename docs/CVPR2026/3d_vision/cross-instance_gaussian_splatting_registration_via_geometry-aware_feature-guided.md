@@ -1,9 +1,9 @@
 # Cross-Instance Gaussian Splatting Registration via Geometry-Aware Feature-Guided Alignment
 
-**会议**: CVPR 2026
-**arXiv**: [2603.21936](https://arxiv.org/abs/2603.21936)
-**代码**: [https://bgu-cs-vil.github.io/GSA-project](https://bgu-cs-vil.github.io/GSA-project) (有)
-**领域**: 3D 视觉 / 3D 配准
+**会议**: CVPR 2026  
+**arXiv**: [2603.21936](https://arxiv.org/abs/2603.21936)  
+**代码**: [https://bgu-cs-vil.github.io/GSA-project](https://bgu-cs-vil.github.io/GSA-project) (有)  
+**领域**: 3D 视觉 / 3D 配准  
 **关键词**: 3D Gaussian Splatting, 跨实例配准, 相似变换, 几何感知特征, 逆辐射场
 
 ## 一句话总结

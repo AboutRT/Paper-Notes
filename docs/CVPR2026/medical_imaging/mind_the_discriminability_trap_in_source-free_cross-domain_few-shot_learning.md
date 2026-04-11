@@ -1,9 +1,9 @@
 # Mind the Discriminability Trap in Source-Free Cross-domain Few-shot Learning
 
-**会议**: CVPR2026
-**arXiv**: [2603.13341](https://arxiv.org/abs/2603.13341)
-**代码**: [zhenyuZ-HUST/CVPR26-Mind-the-Discriminability-Trap](https://github.com/zhenyuZ-HUST/CVPR26-Mind-the-Discriminability-Trap)
-**领域**: 医学图像 / 跨域小样本学习
+**会议**: CVPR2026  
+**arXiv**: [2603.13341](https://arxiv.org/abs/2603.13341)  
+**代码**: [zhenyuZ-HUST/CVPR26-Mind-the-Discriminability-Trap](https://github.com/zhenyuZ-HUST/CVPR26-Mind-the-Discriminability-Trap)  
+**领域**: 医学图像 / 跨域小样本学习  
 **关键词**: Source-Free CDFSL, Vision-Language Model, 跨模态对齐, 视觉判别性陷阱, CLIP微调
 
 ## 一句话总结

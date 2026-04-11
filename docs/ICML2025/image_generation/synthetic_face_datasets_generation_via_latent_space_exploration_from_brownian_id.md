@@ -1,9 +1,9 @@
 # Synthetic Face Datasets Generation via Latent Space Exploration from Brownian Identity Diffusion
 
-**会议**: ICML 2025
-**arXiv**: [2405.00228](https://arxiv.org/abs/2405.00228)
-**代码**: 无
-**领域**: Image Generation
+**会议**: ICML 2025  
+**arXiv**: [2405.00228](https://arxiv.org/abs/2405.00228)  
+**代码**: 无  
+**领域**: Image Generation  
 **关键词**: 合成人脸数据, 隐空间探索, 布朗运动, 身份扩散, 人脸识别
 
 ## 一句话总结

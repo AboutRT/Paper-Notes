@@ -1,9 +1,9 @@
 # Optimal and Practical Batched Linear Bandit Algorithm
 
-**会议**: ICML 2025
-**arXiv**: [2507.08438](https://arxiv.org/abs/2507.08438)
-**代码**: 待确认
-**领域**: 强化学习 / Bandit
+**会议**: ICML 2025  
+**arXiv**: [2507.08438](https://arxiv.org/abs/2507.08438)  
+**代码**: 待确认  
+**领域**: 强化学习 / Bandit  
 **关键词**: 批量线性 Bandit, 臂消除, 正则化 G-最优设计, 极小极大最优, 有限自适应性
 
 ## 一句话总结

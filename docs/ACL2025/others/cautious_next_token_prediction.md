@@ -1,9 +1,9 @@
 # Cautious Next Token Prediction
 
-**会议**: ACL 2025
-**arXiv**: [2507.03038](https://arxiv.org/abs/2507.03038)
-**代码**: [有](https://github.com/wyzjack/CNTP)
-**领域**: NLP / LLM推理
+**会议**: ACL 2025  
+**arXiv**: [2507.03038](https://arxiv.org/abs/2507.03038)  
+**代码**: [有](https://github.com/wyzjack/CNTP)  
+**领域**: NLP / LLM推理  
 **关键词**: 解码策略, 熵自适应采样, 困惑度排序, training-free, LLM推理
 
 ## 一句话总结

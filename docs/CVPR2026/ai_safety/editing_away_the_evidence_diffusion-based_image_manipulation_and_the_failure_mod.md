@@ -1,9 +1,9 @@
 # Editing Away the Evidence: Diffusion-Based Image Manipulation and the Failure Modes of Robust Watermarking
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12949](https://arxiv.org/abs/2603.12949)
-**代码**: 无
-**领域**: 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.12949](https://arxiv.org/abs/2603.12949)  
+**代码**: 无  
+**领域**: 图像生成  
 **关键词**: 扩散模型图像编辑, 鲁棒水印, 水印退化, 信息论分析, 数字水印安全
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting
 
-**会议**: AAAI 2026
-**arXiv**: [2511.13052](https://arxiv.org/abs/2511.13052)
-**代码**: [yunpal/LfU](https://github.com/yunpal/LfU)
-**领域**: LLM效率
+**会议**: AAAI 2026  
+**arXiv**: [2511.13052](https://arxiv.org/abs/2511.13052)  
+**代码**: [yunpal/LfU](https://github.com/yunpal/LfU)  
+**领域**: LLM效率  
 **关键词**: 监督微调, 过拟合缓解, 一致性正则化, 知识保留, 对抗鲁棒性
 
 ## 一句话总结

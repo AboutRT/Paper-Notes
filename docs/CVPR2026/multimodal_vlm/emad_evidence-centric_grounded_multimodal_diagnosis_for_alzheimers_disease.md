@@ -1,9 +1,9 @@
 # EMAD: Evidence-Centric Grounded Multimodal Diagnosis for Alzheimer's Disease
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19178](https://arxiv.org/abs/2602.19178)
-**代码**: 即将开源（含 grounding annotations）
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2602.19178](https://arxiv.org/abs/2602.19178)  
+**代码**: 即将开源（含 grounding annotations）  
+**领域**: 医学图像  
 **关键词**: 阿尔茨海默病诊断, 多模态视觉语言模型, 证据对齐, 强化微调, 3D 脑部分割
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # scDFM: Distributional Flow Matching for Robust Single-Cell Perturbation Prediction
 
-**会议**: ICLR 2026
-**arXiv**: [2602.07103](https://arxiv.org/abs/2602.07103)
-**代码**: [GitHub](https://github.com/AI4Science-WestlakeU/scDFM)
-**领域**: 医学图像（计算生物学）
+**会议**: ICLR 2026  
+**arXiv**: [2602.07103](https://arxiv.org/abs/2602.07103)  
+**代码**: [GitHub](https://github.com/AI4Science-WestlakeU/scDFM)  
+**领域**: 医学图像（计算生物学）  
 **关键词**: 单细胞扰动预测, 条件流匹配, MMD正则化, 差分注意力, 基因共表达图
 
 ## 一句话总结

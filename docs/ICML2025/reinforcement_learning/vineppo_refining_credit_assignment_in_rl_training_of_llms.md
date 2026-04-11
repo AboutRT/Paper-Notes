@@ -1,9 +1,9 @@
 # VinePPO: Refining Credit Assignment in RL Training of LLMs
 
-**会议**: ICML2025
-**arXiv**: [2410.01679](https://arxiv.org/abs/2410.01679)
-**代码**: [McGill-NLP/VinePPO](https://github.com/McGill-NLP/VinePPO)
-**领域**: LLM RL训练 / 信用分配
+**会议**: ICML2025  
+**arXiv**: [2410.01679](https://arxiv.org/abs/2410.01679)  
+**代码**: [McGill-NLP/VinePPO](https://github.com/McGill-NLP/VinePPO)  
+**领域**: LLM RL训练 / 信用分配  
 **关键词**: Credit Assignment, PPO, Monte Carlo, Value Estimation, RLVR, 数学推理
 
 ## 一句话总结

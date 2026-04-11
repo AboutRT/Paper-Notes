@@ -1,9 +1,9 @@
 # Optimal Sensor Scheduling and Selection for Continuous-Discrete Kalman Filtering with Auxiliary Dynamics
 
-**会议**: ICML2025
-**arXiv**: [2507.11240](https://arxiv.org/abs/2507.11240)
-**代码**: [GitHub](https://github.com/MOHAMMADZAHD93/When2measureKF)
-**领域**: 控制/滤波 (Control & Filtering)
+**会议**: ICML2025  
+**arXiv**: [2507.11240](https://arxiv.org/abs/2507.11240)  
+**代码**: [GitHub](https://github.com/MOHAMMADZAHD93/When2measureKF)  
+**领域**: 控制/滤波 (Control & Filtering)  
 **关键词**: 传感器调度, 卡尔曼滤波, 连续-离散系统, Poisson过程, 最优控制, 高斯过程回归
 
 ## 一句话总结

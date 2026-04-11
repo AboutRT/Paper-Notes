@@ -1,9 +1,9 @@
 # Dynamics of Spontaneous Topic Changes in Next Token Prediction with Self-Attention
 
-**会议**: NeurIPS 2025
-**arXiv**: [2501.06382](https://arxiv.org/abs/2501.06382)
-**代码**: 无
-**领域**: LLM理论 / 认知科学
+**会议**: NeurIPS 2025  
+**arXiv**: [2501.06382](https://arxiv.org/abs/2501.06382)  
+**代码**: 无  
+**领域**: LLM理论 / 认知科学  
 **关键词**: spontaneous thought, topic change, self-attention theory, token priority graph, cognitive gap
 
 ## 一句话总结

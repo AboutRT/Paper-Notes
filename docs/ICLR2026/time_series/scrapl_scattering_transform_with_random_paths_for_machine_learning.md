@@ -1,9 +1,9 @@
 # SCRAPL: Scattering Transform with Random Paths for Machine Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2602.11145](https://arxiv.org/abs/2602.11145)
-**代码**: 有(Python包)
-**领域**: 信号处理/时间序列
+**会议**: ICLR 2026  
+**arXiv**: [2602.11145](https://arxiv.org/abs/2602.11145)  
+**代码**: 有(Python包)  
+**领域**: 信号处理/时间序列  
 **关键词**: 散射变换, 随机路径, 音频合成, DDSP, 重要性采样
 
 ## 一句话总结

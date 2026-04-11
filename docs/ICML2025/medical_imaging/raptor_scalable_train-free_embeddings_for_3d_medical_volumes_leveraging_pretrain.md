@@ -1,9 +1,9 @@
 # Raptor: Scalable Train-Free Embeddings for 3D Medical Volumes Leveraging Pretrained 2D Foundation Models
 
-**会议**: ICML2025
-**arXiv**: [2507.08254](https://arxiv.org/abs/2507.08254)
-**代码**: [github.com/sriramlab/raptor](https://github.com/sriramlab/raptor)
-**领域**: 3D医学影像
+**会议**: ICML2025  
+**arXiv**: [2507.08254](https://arxiv.org/abs/2507.08254)  
+**代码**: [github.com/sriramlab/raptor](https://github.com/sriramlab/raptor)  
+**领域**: 3D医学影像  
 **关键词**: 3D医学体积, 免训练嵌入, 随机投影, 基础模型, DINOv2, 降维
 
 ## 一句话总结

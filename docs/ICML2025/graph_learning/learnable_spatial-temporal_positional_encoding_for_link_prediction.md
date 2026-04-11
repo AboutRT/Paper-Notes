@@ -1,9 +1,9 @@
 # Learnable Spatial-Temporal Positional Encoding for Link Prediction
 
-**会议**: ICML2025
-**arXiv**: [2506.08309](https://arxiv.org/abs/2506.08309)
-**代码**: [L-STEP](https://github.com/kthrn22/L-STEP)
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2506.08309](https://arxiv.org/abs/2506.08309)  
+**代码**: [L-STEP](https://github.com/kthrn22/L-STEP)  
+**领域**: graph_learning  
 **关键词**: 位置编码, 时序链接预测, 可学习编码, 时空谱, MLP
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Democratizing LLM Efficiency: From Hyperscale Optimizations to Universal Deployability
 
-**会议**: AAAI 2026
-**arXiv**: [2511.20662](https://arxiv.org/abs/2511.20662)
-**代码**: 无
-**领域**: AI安全
+**会议**: AAAI 2026  
+**arXiv**: [2511.20662](https://arxiv.org/abs/2511.20662)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: LLM效率, 民主化部署, 超大规模优化, 开销感知效率, 立场论文
 
 ## 一句话总结

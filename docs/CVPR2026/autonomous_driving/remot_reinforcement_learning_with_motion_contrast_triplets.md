@@ -1,9 +1,9 @@
 # ReMoT: Reinforcement Learning with Motion Contrast Triplets
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00461](https://arxiv.org/abs/2603.00461)
-**代码**: 待确认
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.00461](https://arxiv.org/abs/2603.00461)  
+**代码**: 待确认  
+**领域**: 自动驾驶  
 **关键词**: 强化学习, 运动对比, 三元组, 视觉表示, 控制
 
 ## 一句话总结

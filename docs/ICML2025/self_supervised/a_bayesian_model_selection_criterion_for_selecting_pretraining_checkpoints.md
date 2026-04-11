@@ -1,9 +1,9 @@
 # A Bayesian Model Selection Criterion for Selecting Pretraining Checkpoints
 
-**会议**: ICML 2025
-**arXiv**: [2410.05612](https://arxiv.org/abs/2410.05612)
-**代码**: 无
-**领域**: 自监督学习
+**会议**: ICML 2025  
+**arXiv**: [2410.05612](https://arxiv.org/abs/2410.05612)  
+**代码**: 无  
+**领域**: 自监督学习  
 **关键词**: 贝叶斯模型选择, 预训练检查点, 自由能, 迁移学习, 损失景观
 
 ## 一句话总结

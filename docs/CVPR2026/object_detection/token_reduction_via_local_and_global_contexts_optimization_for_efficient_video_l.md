@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Token Reduction via Local and Global Contexts Optimization for Efficient Video Large Language Models
 
-**会议**: CVPR2026
-**arXiv**: [2603.01400](https://arxiv.org/abs/2603.01400)
-**代码**: [AOT Project](https://github.com/) (待确认)
-**领域**: object_detection
+**会议**: CVPR2026  
+**arXiv**: [2603.01400](https://arxiv.org/abs/2603.01400)  
+**代码**: [AOT Project](https://github.com/) (待确认)  
+**领域**: object_detection  
 **关键词**: Video LLM, Token Reduction, Optimal Transport, Training-Free, Spatiotemporal Compression
 
 ## 一句话总结

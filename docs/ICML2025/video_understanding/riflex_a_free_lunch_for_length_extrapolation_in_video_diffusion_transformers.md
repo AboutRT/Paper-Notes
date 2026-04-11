@@ -1,9 +1,9 @@
 # RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers
 
-**会议**: ICML2025
-**arXiv**: [2502.15894](https://arxiv.org/abs/2502.15894)
-**代码**: [项目页](https://riflex-video.github.io/)
-**领域**: video_understanding
+**会议**: ICML2025  
+**arXiv**: [2502.15894](https://arxiv.org/abs/2502.15894)  
+**代码**: [项目页](https://riflex-video.github.io/)  
+**领域**: video_understanding  
 **关键词**: 视频生成, 长度外推, 位置编码, 扩散Transformer, RoPE
 
 ## 一句话总结

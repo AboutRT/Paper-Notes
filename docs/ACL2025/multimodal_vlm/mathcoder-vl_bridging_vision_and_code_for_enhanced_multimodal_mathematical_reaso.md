@@ -1,10 +1,10 @@
 # MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning
 
-**会议**: ACL 2025
-**arXiv**: [2505.10557](https://arxiv.org/abs/2505.10557)
+**会议**: ACL 2025  
+**arXiv**: [2505.10557](https://arxiv.org/abs/2505.10557)  
 **作者**: Ke Wang, Junting Pan, Linda Wei, Aojun Zhou, Weikang Shi, Zimu Lu, Han Xiao, Yunqiao Yang, Houxing Ren, Mingjie Zhan, Hongsheng Li (MMLab, CUHK)
-**代码**: [https://github.com/mathllm/MathCoder](https://github.com/mathllm/MathCoder)
-**领域**: multimodal_vlm
+**代码**: [https://github.com/mathllm/MathCoder](https://github.com/mathllm/MathCoder)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态数学推理, 图像到代码, 跨模态对齐, 数据合成, 几何问题求解
 
 ## 一句话总结

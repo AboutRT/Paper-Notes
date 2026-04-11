@@ -1,9 +1,9 @@
 # SyncTrack: Rhythmic Stability and Synchronization in Multi-Track Music Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01101](https://arxiv.org/abs/2603.01101)
-**代码**: https://synctrack-v1.github.io
-**领域**: 音乐生成 / 音频
+**会议**: ICLR 2026  
+**arXiv**: [2603.01101](https://arxiv.org/abs/2603.01101)  
+**代码**: https://synctrack-v1.github.io  
+**领域**: 音乐生成 / 音频  
 **关键词**: 多轨音乐生成, 节奏同步, 扩散模型, 跨轨注意力, 评估指标
 
 ## 一句话总结

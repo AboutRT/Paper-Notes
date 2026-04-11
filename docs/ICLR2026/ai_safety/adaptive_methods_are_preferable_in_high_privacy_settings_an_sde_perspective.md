@@ -1,9 +1,9 @@
 # Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective
 
-**会议**: ICLR 2026
-**arXiv**: [2603.03226](https://arxiv.org/abs/2603.03226)
-**代码**: 无
-**领域**: AI安全 / 差分隐私
+**会议**: ICLR 2026  
+**arXiv**: [2603.03226](https://arxiv.org/abs/2603.03226)  
+**代码**: 无  
+**领域**: AI安全 / 差分隐私  
 **关键词**: differential privacy, DP-SGD, DP-SignSGD, SDE分析, 隐私-效用权衡
 
 ## 一句话总结

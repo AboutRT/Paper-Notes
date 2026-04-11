@@ -1,9 +1,9 @@
 # ByteEdit: Boost, Comply and Accelerate Generative Image Editing
 
-**会议**: ECCV 2024
-**arXiv**: [2404.04860](https://arxiv.org/abs/2404.04860)
-**代码**: 无（字节跳动内部系统）
-**领域**: 图像生成
+**会议**: ECCV 2024  
+**arXiv**: [2404.04860](https://arxiv.org/abs/2404.04860)  
+**代码**: 无（字节跳动内部系统）  
+**领域**: 图像生成  
 **关键词**: 图像编辑, 反馈学习, 奖励模型, 对抗训练, 推理加速
 
 ## 一句话总结

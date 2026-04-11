@@ -1,8 +1,8 @@
 # VoluMe: Authentic 3D Video Calls from Live Gaussian Splat Prediction
 
-**会议**: ICCV 2025
-**arXiv**: [2507.21311](https://arxiv.org/abs/2507.21311)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2507.21311](https://arxiv.org/abs/2507.21311)  
+**领域**: 3D视觉  
 **关键词**: 3D视频通话, Gaussian Splatting, 单目重建, 实时3D重建, 数字人, 视频会议
 
 ## 一句话总结

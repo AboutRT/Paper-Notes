@@ -1,9 +1,9 @@
 # Learning-Augmented Hierarchical Clustering
 
-**会议**: ICML 2025
-**arXiv**: [2506.05495](https://arxiv.org/abs/2506.05495)
-**代码**: 无
-**领域**: 算法 / 聚类
+**会议**: ICML 2025  
+**arXiv**: [2506.05495](https://arxiv.org/abs/2506.05495)  
+**代码**: 无  
+**领域**: 算法 / 聚类  
 **关键词**: hierarchical clustering, learning-augmented algorithms, splitting oracle, Dasgupta objective, approximation algorithms
 
 ## 一句话总结

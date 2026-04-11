@@ -1,9 +1,9 @@
 # AsymRnR: Video Diffusion Transformers Acceleration with Asymmetric Reduction and Restoration
 
-**会议**: ICML 2025
-**arXiv**: [2412.11706](https://arxiv.org/abs/2412.11706)
-**代码**: https://github.com/wenhao728/AsymRnR
-**领域**: 图像/视频恢复
+**会议**: ICML 2025  
+**arXiv**: [2412.11706](https://arxiv.org/abs/2412.11706)  
+**代码**: https://github.com/wenhao728/AsymRnR  
+**领域**: 图像/视频恢复  
 **关键词**: 视频生成加速, Diffusion Transformer, token削减, 非对称策略, 免训练
 
 ## 一句话总结

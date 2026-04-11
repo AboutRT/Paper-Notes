@@ -1,9 +1,9 @@
 # Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework
 
-**会议**: ACL2025
-**arXiv**: [2505.15245](https://arxiv.org/abs/2505.15245)
-**代码**: [carryTatum/GETER](https://github.com/carryTatum/GETER)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.15245](https://arxiv.org/abs/2505.15245)  
+**代码**: [carryTatum/GETER](https://github.com/carryTatum/GETER)  
+**领域**: llm_nlp  
 **关键词**: 时序推理, 可解释性, 时序知识图谱, 图结构与文本对齐, Instruction Tuning
 
 ## 一句话总结

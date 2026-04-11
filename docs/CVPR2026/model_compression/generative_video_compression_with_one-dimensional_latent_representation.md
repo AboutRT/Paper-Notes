@@ -1,9 +1,9 @@
 # Generative Video Compression with One-Dimensional Latent Representation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.15302](https://arxiv.org/abs/2603.15302)
-**代码**: https://gvc1d.github.io/
-**领域**: 模型压缩
+**会议**: CVPR 2026  
+**arXiv**: [2603.15302](https://arxiv.org/abs/2603.15302)  
+**代码**: https://gvc1d.github.io/  
+**领域**: 模型压缩  
 **关键词**: 视频压缩, 1D潜在表示, 生成式编解码器, 长期记忆, Token压缩
 
 ## 一句话总结

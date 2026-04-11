@@ -1,9 +1,9 @@
 # Rejecting Hallucinated State Targets during Planning
 
-**会议**: ICML 2025
-**arXiv**: [2410.07096](https://arxiv.org/abs/2410.07096)
-**代码**: https://github.com/mila-iqia/delusions
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2410.07096](https://arxiv.org/abs/2410.07096)  
+**代码**: https://github.com/mila-iqia/delusions  
+**领域**: LLM效率  
 **关键词**: 目标导向RL, 幻觉目标, 妄想行为, 后见重标记, OOD泛化, 可行性评估器
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Beyond CVaR: Leveraging Static Spectral Risk Measures for Enhanced Decision-Making in Distributional Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2501.02087](https://arxiv.org/abs/2501.02087)
-**代码**: 无
-**领域**: 人类理解/决策
+**会议**: ICML 2025  
+**arXiv**: [2501.02087](https://arxiv.org/abs/2501.02087)  
+**代码**: 无  
+**领域**: 人类理解/决策  
 **关键词**: 分布式强化学习, 风险度量, 谱风险度量, CVaR, 时间一致性
 
 ## 一句话总结

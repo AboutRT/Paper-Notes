@@ -1,9 +1,9 @@
 # Beyond the Ground Truth: Enhanced Supervision for Image Restoration
 
-**会议**: CVPR 2026
-**arXiv**: [2512.03932](https://arxiv.org/abs/2512.03932)
-**代码**: [项目页](https://hij1112.github.io/beyond-the-ground-truth/) (有)
-**领域**: 图像修复
+**会议**: CVPR 2026  
+**arXiv**: [2512.03932](https://arxiv.org/abs/2512.03932)  
+**代码**: [项目页](https://hij1112.github.io/beyond-the-ground-truth/) (有)  
+**领域**: 图像修复  
 **关键词**: 监督增强, 频域混合, 超分辨率, 输出精修网络, 感知质量
 
 ## 一句话总结
@@ -19,6 +19,7 @@
 4. **核心idea**：不改进模型架构，而是**增强监督信号本身**——在频域中自适应融合原始GT的语义结构和超分辨率变体的感知细节，产出"增强GT"
 
 ## 方法详解
+
 ### 整体框架
 1. **监督增强阶段**：原始GT $I_0^{GT}$ → N种尺度的双三次上采样 → 一步扩散超分辨率模型 → 下采样回原分辨率得到变体 $\{I_i^{GT}\}_{i=1}^N$ → 频域混合生成增强GT $\hat{I}^{GT}$
 2. **输出精修阶段**：轻量ORNet学习 $I_0^{GT} \rightarrow \hat{I}^{GT}$ 的映射 → 串联在任意预训练修复模型之后
@@ -48,6 +49,7 @@
   - $\lambda$ 控制保真度-感知平衡
 
 ## 实验关键数据
+
 ### 主实验（GoPro去模糊 + SIDD去噪）
 | 方法 | MUSIQ↑ | MANIQA↑ | TOPIQ↑ | LIQE↑ |
 |------|--------|---------|--------|-------|

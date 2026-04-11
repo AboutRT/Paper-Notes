@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Feature Learning beyond the Lazy-Rich Dichotomy: Insights from Representational Geometry
 
-**会议**: ICML2025 (Spotlight)
-**arXiv**: [2503.18114](https://arxiv.org/abs/2503.18114)
-**代码**: [GitHub](https://github.com/chung-neuroai-lab/feature-learning-geometry)
-**领域**: 特征学习理论
+**会议**: ICML2025 (Spotlight)  
+**arXiv**: [2503.18114](https://arxiv.org/abs/2503.18114)  
+**代码**: [GitHub](https://github.com/chung-neuroai-lab/feature-learning-geometry)  
+**领域**: 特征学习理论  
 **关键词**: feature learning, lazy-rich regime, manifold capacity, representational geometry, GLUE
 
 ## 一句话总结

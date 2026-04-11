@@ -1,8 +1,8 @@
 # Uncovering Grounding IDs: How External Cues Shape Multimodal Binding
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24072](https://arxiv.org/abs/2509.24072)
-**领域**: VLM可解释性/多模态绑定
+**会议**: ICLR 2026  
+**arXiv**: [2509.24072](https://arxiv.org/abs/2509.24072)  
+**领域**: VLM可解释性/多模态绑定  
 **关键词**: Grounding ID, 外部视觉线索, 多模态绑定, 因果中介分析, 幻觉缓解, 跨模态对齐
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # From Black Hole to Galaxy: Neural Operator Framework for Accretion and Feedback Dynamics
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.01576](https://arxiv.org/abs/2512.01576)
-**代码**: 无
-**领域**: scientific_computing
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.01576](https://arxiv.org/abs/2512.01576)  
+**代码**: 无  
+**领域**: scientific_computing  
 **关键词**: Neural Operator, 黑洞吸积, 多尺度模拟, 子网格模型, GRMHD
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用 Local Neural Operator 学习细尺度 (GR)MHD 时间演化半群 $u_t \to u_{t+\Delta T}$，嵌入多层级框架实现双向耦合。
 
 ## 方法详解
+
 ### 整体框架
 两级 Neural Operator-DNS 框架：
 1. **域分解**: 粗级别域 $(n_L L)^3$（$n_L=6$）和细级别域 $L^3$
@@ -49,6 +50,7 @@ $$\mathcal{L} = \mathcal{L}_{\mathbf{B}} + \mathcal{L}_{\mathbf{v}} + \mathcal{L
 训练配置：1200 epochs，batch size 4（有效 16），Adam lr=$10^{-3}$，cosine schedule，单卡 RTX 4090，训练耗时仅 10 GPU 小时。
 
 ## 实验关键数据
+
 ### 主实验：MHD 与 GRMHD 质量验证
 
 **MHD（磁化 Bondi 吸积）**：64³ 网格，8个物理量，300个快照训练。

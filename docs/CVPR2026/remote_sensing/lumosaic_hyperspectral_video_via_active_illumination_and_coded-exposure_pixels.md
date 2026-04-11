@@ -1,9 +1,9 @@
 # Lumosaic: Hyperspectral Video via Active Illumination and Coded-Exposure Pixels
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22140](https://arxiv.org/abs/2602.22140)
-**代码**: 无（项目页公开数据）
-**领域**: 遥感 / 计算高光谱成像
+**会议**: CVPR 2026  
+**arXiv**: [2602.22140](https://arxiv.org/abs/2602.22140)  
+**代码**: 无（项目页公开数据）  
+**领域**: 遥感 / 计算高光谱成像  
 **关键词**: 高光谱视频, 主动照明, 编码曝光像素, 快照成像, 运动鲁棒
 
 ## 一句话总结

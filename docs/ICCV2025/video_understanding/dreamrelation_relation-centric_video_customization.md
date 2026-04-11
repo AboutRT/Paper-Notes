@@ -1,9 +1,9 @@
 # DreamRelation: Relation-Centric Video Customization
 
-**会议**: ICCV 2025
-**arXiv**: [2503.07602](https://arxiv.org/abs/2503.07602)
-**代码**: 有 (即将公开)
-**领域**: 视频生成 / 视频定制 (Video Generation / Video Customization)
+**会议**: ICCV 2025  
+**arXiv**: [2503.07602](https://arxiv.org/abs/2503.07602)  
+**代码**: 有 (即将公开)  
+**领域**: 视频生成 / 视频定制 (Video Generation / Video Customization)  
 **关键词**: 关系视频定制, MM-DiT, LoRA, 对比学习, 解耦学习
 
 ## 一句话总结

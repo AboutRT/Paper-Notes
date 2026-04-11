@@ -1,9 +1,9 @@
 # GraphTextack: A Realistic Black-Box Node Injection Attack on LLM-Enhanced GNNs
 
-**会议**: AAAI 2026
-**arXiv**: [2511.12423](https://arxiv.org/abs/2511.12423)
-**代码**: 待确认
-**领域**: AI安全/对抗攻击
+**会议**: AAAI 2026  
+**arXiv**: [2511.12423](https://arxiv.org/abs/2511.12423)  
+**代码**: 待确认  
+**领域**: AI安全/对抗攻击  
 **关键词**: 文本属性图, 对抗攻击, 节点注入, LLM增强GNN, 进化优化, 黑盒攻击, 多模态攻击
 
 ## 一句话总结

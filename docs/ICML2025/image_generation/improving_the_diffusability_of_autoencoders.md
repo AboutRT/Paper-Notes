@@ -1,9 +1,9 @@
 # Improving the Diffusability of Autoencoders
 
-**会议**: ICML2025
-**arXiv**: [2502.14831](https://arxiv.org/abs/2502.14831)
-**代码**: [GitHub - diffusability](https://github.com/snap-research/diffusability)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2502.14831](https://arxiv.org/abs/2502.14831)  
+**代码**: [GitHub - diffusability](https://github.com/snap-research/diffusability)  
+**领域**: image_generation  
 **关键词**: 扩散模型, 自编码器, 频谱分析, 潜在扩散, Diffusability
 
 ## 一句话总结

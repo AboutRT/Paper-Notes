@@ -1,9 +1,9 @@
 # High-Fidelity Diffusion Face Swapping with ID-Constrained Facial Conditioning
 
-**会议**: CVPR 2026
-**arXiv**: [2503.22179](https://arxiv.org/abs/2503.22179)
-**代码**: 无
-**领域**: 扩散模型/图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2503.22179](https://arxiv.org/abs/2503.22179)  
+**代码**: 无  
+**领域**: 扩散模型/图像生成  
 **关键词**: 人脸替换, 扩散模型, 身份约束, 条件解耦, 多阶段训练
 
 ## 一句话总结

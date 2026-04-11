@@ -1,9 +1,9 @@
 # The PokeAgent Challenge: Competitive and Long-Context Learning at Scale
 
-**会议**: NeurIPS 2025
-**arXiv**: [2603.15563](https://arxiv.org/abs/2603.15563)
-**代码**: [https://pokeagentchallenge.com](https://pokeagentchallenge.com)
-**领域**: LLM Agent / Game AI / Benchmark
+**会议**: NeurIPS 2025  
+**arXiv**: [2603.15563](https://arxiv.org/abs/2603.15563)  
+**代码**: [https://pokeagentchallenge.com](https://pokeagentchallenge.com)  
+**领域**: LLM Agent / Game AI / Benchmark  
 **关键词**: 游戏AI基准, 宝可梦对战, 长期规划, 强化学习, LLM Agent
 
 ## 一句话总结

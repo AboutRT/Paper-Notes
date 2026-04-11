@@ -1,9 +1,9 @@
 # FALCON: Fine-grained Activation Manipulation by Contrastive Orthogonal Unalignment for Large Language Model
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.01472](https://arxiv.org/abs/2502.01472)
-**代码**: [FALCON](https://github.com/CharlesJW222/FALCON) (有)
-**领域**: AI 安全 / 机器遗忘 / LLM 对齐
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.01472](https://arxiv.org/abs/2502.01472)  
+**代码**: [FALCON](https://github.com/CharlesJW222/FALCON) (有)  
+**领域**: AI 安全 / 机器遗忘 / LLM 对齐  
 **关键词**: Machine Unlearning, 对比学习, 梯度正交投影, 互信息, 知识解纠缠
 
 ## 一句话总结

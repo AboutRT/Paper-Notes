@@ -1,9 +1,9 @@
 # STAvatar: Soft Binding and Temporal Density Control for Monocular 3D Head Avatars Reconstruction
 
-**会议**: CVPR2026
-**arXiv**: [2511.19854](https://arxiv.org/abs/2511.19854)
-**代码**: [项目主页](https://jiankuozhao.github.io/STAvatar/)
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2511.19854](https://arxiv.org/abs/2511.19854)  
+**代码**: [项目主页](https://jiankuozhao.github.io/STAvatar/)  
+**领域**: 3d_vision  
 **关键词**: 3D Head Avatar, 3D Gaussian Splatting, Soft Binding, Adaptive Density Control, Monocular Reconstruction
 
 ## 一句话总结

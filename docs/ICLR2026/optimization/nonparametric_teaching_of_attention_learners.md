@@ -1,8 +1,8 @@
 # Nonparametric Teaching of Attention Learners
 
-**会议**: ICLR 2026
-**arXiv**: [2602.20461](https://arxiv.org/abs/2602.20461)
-**领域**: 训练效率/学习理论
+**会议**: ICLR 2026  
+**arXiv**: [2602.20461](https://arxiv.org/abs/2602.20461)  
+**领域**: 训练效率/学习理论  
 **关键词**: 非参教学, 注意力机制, 功能梯度, 训练加速, 核方法
 
 ## 一句话总结

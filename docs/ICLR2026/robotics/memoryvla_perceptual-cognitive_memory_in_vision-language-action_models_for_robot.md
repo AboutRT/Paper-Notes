@@ -1,9 +1,9 @@
 # MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation
 
-**会议**: ICLR 2026
-**arXiv**: [2508.19236](https://arxiv.org/abs/2508.19236)
-**代码**: [项目页面](https://shihao1895.github.io/MemoryVLA)
-**领域**: 机器人/VLA
+**会议**: ICLR 2026  
+**arXiv**: [2508.19236](https://arxiv.org/abs/2508.19236)  
+**代码**: [项目页面](https://shihao1895.github.io/MemoryVLA)  
+**领域**: 机器人/VLA  
 **关键词**: VLA, 记忆机制, 长时序操作, 扩散策略, 认知科学
 
 ## 一句话总结

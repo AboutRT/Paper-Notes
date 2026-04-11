@@ -1,9 +1,9 @@
 # TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models
 
-**会议**: ICLR 2026
-**arXiv**: [2511.05275](https://arxiv.org/abs/2511.05275)
-**代码**: [项目页面](https://jellyho.github.io/TwinVLA/)
-**领域**: 机器人操作/双臂
+**会议**: ICLR 2026  
+**arXiv**: [2511.05275](https://arxiv.org/abs/2511.05275)  
+**代码**: [项目页面](https://jellyho.github.io/TwinVLA/)  
+**领域**: 机器人操作/双臂  
 **关键词**: 双臂操作, VLA, 模块化组合, 联合注意力, 数据高效
 
 ## 一句话总结

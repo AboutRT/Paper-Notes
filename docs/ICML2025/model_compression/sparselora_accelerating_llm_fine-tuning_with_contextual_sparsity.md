@@ -1,9 +1,9 @@
 # SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity
 
-**会议**: ICML2025
-**arXiv**: [2506.16500](https://arxiv.org/abs/2506.16500)
-**代码**: [https://z-lab.ai/projects/sparselora](https://z-lab.ai/projects/sparselora)
-**领域**: LLM微调加速 / 模型压缩
+**会议**: ICML2025  
+**arXiv**: [2506.16500](https://arxiv.org/abs/2506.16500)  
+**代码**: [https://z-lab.ai/projects/sparselora](https://z-lab.ai/projects/sparselora)  
+**领域**: LLM微调加速 / 模型压缩  
 **关键词**: LoRA, 上下文稀疏性, SVD稀疏估计器, 微调加速, 参数高效微调
 
 ## 一句话总结

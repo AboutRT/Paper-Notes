@@ -1,9 +1,9 @@
 # Matryoshka Pilot: Learning to Drive Black-Box LLMs with LLMs
 
-**会议**: NeurIPS 2025
-**arXiv**: [2410.20749](https://arxiv.org/abs/2410.20749)
-**代码**: [GitHub](https://github.com/lichangh20/Matryoshka) (有)
-**领域**: Model Compression / LLM Control
+**会议**: NeurIPS 2025  
+**arXiv**: [2410.20749](https://arxiv.org/abs/2410.20749)  
+**代码**: [GitHub](https://github.com/lichangh20/Matryoshka) (有)  
+**领域**: Model Compression / LLM Control  
 **关键词**: Black-Box LLM, White-Box Controller, 迭代DPO, 中间引导, 多轮交互
 
 ## 一句话总结

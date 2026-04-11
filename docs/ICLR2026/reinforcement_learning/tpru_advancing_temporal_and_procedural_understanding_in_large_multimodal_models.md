@@ -1,9 +1,9 @@
 # TPRU: Advancing Temporal and Procedural Understanding in Large Multimodal Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.18884](https://arxiv.org/abs/2602.18884)
-**代码**: https://github.com/Stephen-gzk/TPRU/
-**领域**: 强化学习 / 多模态大模型
+**会议**: ICLR 2026  
+**arXiv**: [2602.18884](https://arxiv.org/abs/2602.18884)  
+**代码**: https://github.com/Stephen-gzk/TPRU/  
+**领域**: 强化学习 / 多模态大模型  
 **关键词**: 时序理解, 程序性推理, 多图像理解, 强化学习微调, MLLM, 具身AI
 
 ## 一句话总结

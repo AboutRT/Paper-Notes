@@ -1,9 +1,9 @@
 # TagSplat: Topology-Aware Gaussian Splatting for Dynamic Mesh Modeling and Tracking
 
-**会议**: CVPR2026
-**arXiv**: [2512.01329](https://arxiv.org/abs/2512.01329)
-**代码**: [项目页面](https://haza628.github.io/tagSplat/)
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2512.01329](https://arxiv.org/abs/2512.01329)  
+**代码**: [项目页面](https://haza628.github.io/tagSplat/)  
+**领域**: 3d_vision  
 **关键词**: Gaussian Splatting, 拓扑一致性, 动态网格重建, 3D关键点跟踪, 流形保持
 
 ## 一句话总结

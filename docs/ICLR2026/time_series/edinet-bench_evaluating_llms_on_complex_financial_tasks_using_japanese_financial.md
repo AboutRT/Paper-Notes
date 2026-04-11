@@ -1,9 +1,9 @@
 # EDINET-Bench: Evaluating LLMs on Complex Financial Tasks using Japanese Financial Statements
 
-**会议**: ICLR 2026
-**arXiv**: [2506.08762](https://arxiv.org/abs/2506.08762)
-**代码**: [GitHub](https://github.com/SakanaAI/EDINET-Bench)
-**领域**: 时间序列
+**会议**: ICLR 2026  
+**arXiv**: [2506.08762](https://arxiv.org/abs/2506.08762)  
+**代码**: [GitHub](https://github.com/SakanaAI/EDINET-Bench)  
+**领域**: 时间序列  
 **关键词**: financial benchmark, LLM evaluation, fraud detection, earnings forecasting, Japanese NLP
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 真实年报 + 专家级金融任务 = 揭示 LLM 在金融推理上的不足。
 
 ## 方法详解
+
 ### 整体框架
 数据管线: EDINET API → edinet2dataset 工具解析 → EDINET-Corpus（~40,000 份年报）→ 三个基准任务。
 
@@ -33,6 +34,7 @@
 - 经典基线：Logistic Regression, Random Forest, XGBoost
 
 ## 实验关键数据
+
 ### 主实验
 欺诈检测 ROC-AUC（部分）:
 

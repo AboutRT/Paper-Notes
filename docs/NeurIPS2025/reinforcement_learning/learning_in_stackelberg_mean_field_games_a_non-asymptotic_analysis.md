@@ -1,9 +1,9 @@
 # Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.15392](https://arxiv.org/abs/2509.15392)
-**代码**: 有（补充材料中提供）
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.15392](https://arxiv.org/abs/2509.15392)  
+**代码**: 有（补充材料中提供）  
+**领域**: 强化学习  
 **关键词**: Stackelberg博弈, 平均场博弈, Actor-Critic, 非渐近收敛, 双层优化
 
 ## 一句话总结

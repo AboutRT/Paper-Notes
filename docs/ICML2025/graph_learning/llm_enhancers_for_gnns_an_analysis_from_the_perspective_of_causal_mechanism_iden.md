@@ -1,9 +1,9 @@
 # LLM Enhancers for GNNs: An Analysis from the Perspective of Causal Mechanism Identification
 
-**会议**: ICML2025
-**arXiv**: [2505.08265](https://arxiv.org/abs/2505.08265)
-**代码**: [GitHub](https://github.com/WX4code/LLMEnhCausalMechanism)
-**领域**: 图学习 / LLM增强GNN
+**会议**: ICML2025  
+**arXiv**: [2505.08265](https://arxiv.org/abs/2505.08265)  
+**代码**: [GitHub](https://github.com/WX4code/LLMEnhCausalMechanism)  
+**领域**: 图学习 / LLM增强GNN  
 **关键词**: GNN, LLM Enhancer, 因果机制识别, 交换干预, 注意力传输模块
 
 ## 一句话总结

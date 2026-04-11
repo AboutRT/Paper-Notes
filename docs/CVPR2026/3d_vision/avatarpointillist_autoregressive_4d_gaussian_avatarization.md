@@ -1,9 +1,9 @@
 # AvatarPointillist: AutoRegressive 4D Gaussian Avatarization
 
-**会议**: CVPR 2026
-**arXiv**: [2604.04787](https://arxiv.org/abs/2604.04787)
-**代码**: [https://kumapowerliu.github.io/AvatarPointillist](https://kumapowerliu.github.io/AvatarPointillist) (有)
-**领域**: 3D 视觉 / 数字人生成
+**会议**: CVPR 2026  
+**arXiv**: [2604.04787](https://arxiv.org/abs/2604.04787)  
+**代码**: [https://kumapowerliu.github.io/AvatarPointillist](https://kumapowerliu.github.io/AvatarPointillist) (有)  
+**领域**: 3D 视觉 / 数字人生成  
 **关键词**: 4D Avatar, Autoregressive, 3D Gaussian Splatting, Point Cloud Generation, One-shot
 
 ## 一句话总结

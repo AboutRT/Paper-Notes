@@ -1,9 +1,9 @@
 # Learning Video Generation for Robotic Manipulation with Collaborative Trajectory Control
 
-**会议**: ICLR 2026
-**arXiv**: [2506.01943](https://arxiv.org/abs/2506.01943)
-**代码**: [项目页](https://fuxiao0719.github.io/projects/robomaster/)
-**领域**: 视频生成 / 机器人操作
+**会议**: ICLR 2026  
+**arXiv**: [2506.01943](https://arxiv.org/abs/2506.01943)  
+**代码**: [项目页](https://fuxiao0719.github.io/projects/robomaster/)  
+**领域**: 视频生成 / 机器人操作  
 **关键词**: 轨迹控制视频生成, 协作轨迹, 机器人操作, 交互建模, 逆动力学
 
 ## 一句话总结

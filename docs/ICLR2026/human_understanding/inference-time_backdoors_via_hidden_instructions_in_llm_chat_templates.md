@@ -1,9 +1,9 @@
 # Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates
 
-**会议**: ICLR 2026
-**arXiv**: [2602.04653](https://arxiv.org/abs/2602.04653)
-**代码**: [GitHub](https://github.com/FujitsuResearch/chat-template-backdoor-attack)
-**领域**: AI安全/LLM供应链
+**会议**: ICLR 2026  
+**arXiv**: [2602.04653](https://arxiv.org/abs/2602.04653)  
+**代码**: [GitHub](https://github.com/FujitsuResearch/chat-template-backdoor-attack)  
+**领域**: AI安全/LLM供应链  
 **关键词**: 后门攻击, Chat模板, Jinja2, 推理时攻击, 供应链安全
 
 ## 一句话总结

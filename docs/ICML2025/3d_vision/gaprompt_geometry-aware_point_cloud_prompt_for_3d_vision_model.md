@@ -1,9 +1,9 @@
 # GAPrompt: Geometry-Aware Point Cloud Prompt for 3D Vision Model
 
-**会议**: ICML2025
-**arXiv**: [2505.04119](https://arxiv.org/abs/2505.04119)
-**代码**: [GAPrompt](https://github.com/zhoujiahuan1991/ICML2025-GAPrompt)
-**领域**: 3d_vision
+**会议**: ICML2025  
+**arXiv**: [2505.04119](https://arxiv.org/abs/2505.04119)  
+**代码**: [GAPrompt](https://github.com/zhoujiahuan1991/ICML2025-GAPrompt)  
+**领域**: 3d_vision  
 **关键词**: 参数高效微调, 点云, 几何感知, 提示学习, 3D视觉
 
 ## 一句话总结

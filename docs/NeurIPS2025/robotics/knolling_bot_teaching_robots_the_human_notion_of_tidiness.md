@@ -1,9 +1,9 @@
 # Knolling Bot: Teaching Robots the Human Notion of Tidiness
 
-**会议**: NeurIPS 2025
-**arXiv**: [2310.04566](https://arxiv.org/abs/2310.04566)
-**代码**: [开源数据集与基准](https://www.youtube.com/watch?v=jCxykR4iP0I)（视频演示）
-**领域**: 机器人 / 物体整理
+**会议**: NeurIPS 2025  
+**arXiv**: [2310.04566](https://arxiv.org/abs/2310.04566)  
+**代码**: [开源数据集与基准](https://www.youtube.com/watch?v=jCxykR4iP0I)（视频演示）  
+**领域**: 机器人 / 物体整理  
 **关键词**: knolling, object rearrangement, transformer, Gaussian Mixture Model, self-supervised learning, robot manipulation
 
 ## 一句话总结

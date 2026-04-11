@@ -1,9 +1,9 @@
 # Latent Space Factorization in LoRA
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19640](https://arxiv.org/abs/2510.19640)
-**代码**: [GitHub](https://github.com/idiap/FVAE-LoRA)
-**领域**: 音频/语音 (参数高效微调)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19640](https://arxiv.org/abs/2510.19640)  
+**代码**: [GitHub](https://github.com/idiap/FVAE-LoRA)  
+**领域**: 音频/语音 (参数高效微调)  
 **关键词**: LoRA, VAE, 潜空间分解, 参数高效微调, 虚假相关性鲁棒性
 
 ## 一句话总结

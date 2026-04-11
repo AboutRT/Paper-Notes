@@ -1,9 +1,9 @@
 # AdaWorld: Learning Adaptable World Models with Latent Actions
 
-**会议**: ICML 2025
-**arXiv**: [2503.18938](https://arxiv.org/abs/2503.18938)
-**代码**: https://adaptable-world-model.github.io
-**领域**: 自监督学习
+**会议**: ICML 2025  
+**arXiv**: [2503.18938](https://arxiv.org/abs/2503.18938)  
+**代码**: https://adaptable-world-model.github.io  
+**领域**: 自监督学习  
 **关键词**: 世界模型, 潜在动作, 自监督, 视频预训练, 动作迁移
 
 ## 一句话总结

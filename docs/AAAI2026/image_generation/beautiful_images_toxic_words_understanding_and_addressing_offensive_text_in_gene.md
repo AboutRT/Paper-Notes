@@ -23,6 +23,7 @@
 3. **现有方法不足**：AURA、ESD、Safe-CLIP 等方法在抑制 NSFW 文字时会**同等程度地**损害良性文字生成能力，缺乏定向性
 
 ## 方法详解
+
 ### ToxicBench 基准
 - **数据集构建**：218 个 prompt 模板（改编自 CreativeBench）× 437 个 NSFW 词汇（配对 GPT-4 生成的语义近似良性替代词）
   - 训练集：337 对 NSFW-良性词对 → 73,466 个 prompt 对

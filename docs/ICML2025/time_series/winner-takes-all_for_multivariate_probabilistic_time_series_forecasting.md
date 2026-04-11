@@ -1,9 +1,9 @@
 # Winner-takes-all for Multivariate Probabilistic Time Series Forecasting
 
-**会议**: ICML2025
-**arXiv**: [2506.05515](https://arxiv.org/abs/2506.05515)
-**代码**: [GitHub](https://github.com/Victorletzelter/timeMCL)
-**领域**: 时序预测
+**会议**: ICML2025  
+**arXiv**: [2506.05515](https://arxiv.org/abs/2506.05515)  
+**代码**: [GitHub](https://github.com/Victorletzelter/timeMCL)  
+**领域**: 时序预测  
 **关键词**: 概率时序预测, Winner-Takes-All, Multiple Choice Learning, 函数量化, 多模态分布
 
 ## 一句话总结

@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 图学习  
 **关键词**: graph_neural_networks, graph_sparsification, weight_pruning, efficiency, spectral_theory  
+
 ## 一句话总结
 
 Unifews 提出统一的逐元素稀疏化框架，将 GNN 的图传播和特征变换视为矩阵运算，基于幅值阈值同时剪枝图边和模型权重，通过谱图平滑理论给出有界近似误差保证，在十亿边级别图上实现高达 100x 加速且不损失精度。

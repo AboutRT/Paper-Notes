@@ -1,9 +1,9 @@
 # Inference-Time Reward Hacking in Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.19248](https://arxiv.org/abs/2506.19248)
-**代码**: 无
-**领域**: AI Safety / LLM Alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.19248](https://arxiv.org/abs/2506.19248)  
+**代码**: 无  
+**领域**: AI Safety / LLM Alignment  
 **关键词**: reward hacking, inference-time alignment, Best-of-N, winner's curse, hedging
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 通过 Poisson 随机化采样数近似最优带温分布，再用 HedgeTune 找到 hacking 阈值，实现对代理奖励的最优"对冲"。
 
 ## 方法详解
+
 ### 整体框架
 本文研究的核心优化目标是标准的 KL 约束奖励最大化：
 $$\pi^{\star} = \arg\max_{\pi} \mathbb{E}_{\pi}[r_p(X)] - \frac{1}{\lambda} D_{\text{KL}}(\pi \| \pi_{\text{ref}})$$
@@ -49,6 +50,7 @@ Pipeline：
 - 代理奖励模型使用标准 binary cross-entropy 损失在偏好对上训练
 
 ## 实验关键数据
+
 ### 主实验一：可验证奖励场景
 使用 PPE 数据集（GPT-4o-mini / Claude Haiku 3 生成的回复），三个奖励模型打分：
 

@@ -1,8 +1,8 @@
 # Protein as a Second Language for LLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2510.11188](https://arxiv.org/abs/2510.11188)
-**领域**: 蛋白质AI/LLM
+**会议**: ICLR 2026  
+**arXiv**: [2510.11188](https://arxiv.org/abs/2510.11188)  
+**领域**: 蛋白质AI/LLM  
 **关键词**: 蛋白质理解, 第二语言, 上下文学习, 零样本, QA数据集
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13251](https://arxiv.org/abs/2510.13251)
-**代码**: [项目页面](https://map-the-flow.github.io)
-**领域**: 视频理解/可解释AI
+**会议**: ICLR 2026  
+**arXiv**: [2510.13251](https://arxiv.org/abs/2510.13251)  
+**代码**: [项目页面](https://map-the-flow.github.io)  
+**领域**: 视频理解/可解释AI  
 **关键词**: VideoLLM, 信息流, 机制可解释性, 注意力剪枝, 时序推理
 
 ## 一句话总结

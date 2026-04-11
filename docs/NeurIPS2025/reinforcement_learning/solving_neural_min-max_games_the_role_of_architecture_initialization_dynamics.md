@@ -1,9 +1,9 @@
 # Solving Neural Min-Max Games: The Role of Architecture, Initialization & Dynamics
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.00389](https://arxiv.org/abs/2512.00389)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.00389](https://arxiv.org/abs/2512.00389)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 神经网络博弈, Min-Max优化, 过参数化, 隐凸性, AltGDA
 
 ## 一句话总结

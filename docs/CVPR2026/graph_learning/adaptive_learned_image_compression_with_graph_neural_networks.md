@@ -1,9 +1,9 @@
 # GLIC: Adaptive Learned Image Compression with Graph Neural Networks
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25316](https://arxiv.org/abs/2603.25316)
-**代码**: https://github.com/UnoC-727/GLIC (有)
-**领域**: 图学习 / 图像压缩
+**会议**: CVPR 2026  
+**arXiv**: [2603.25316](https://arxiv.org/abs/2603.25316)  
+**代码**: https://github.com/UnoC-727/GLIC (有)  
+**领域**: 图学习 / 图像压缩  
 **关键词**: 学习图像压缩, GNN, 自适应连接, 双尺度图, 复杂度感知度分配
 
 ## 一句话总结

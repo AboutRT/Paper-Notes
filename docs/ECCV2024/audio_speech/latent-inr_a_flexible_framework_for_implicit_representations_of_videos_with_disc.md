@@ -1,9 +1,9 @@
 # Latent-INR: A Flexible Framework for Implicit Representations of Videos with Discriminative Semantics
 
-**会议**: ECCV2024
-**arXiv**: [2408.02672](https://arxiv.org/abs/2408.02672)
-**代码**: 待确认
-**领域**: audio_speech
+**会议**: ECCV2024  
+**arXiv**: [2408.02672](https://arxiv.org/abs/2408.02672)  
+**代码**: 待确认  
+**领域**: audio_speech  
 **关键词**: Implicit Neural Representations, Video Compression, Video Retrieval, Hypernetwork, CLIP Alignment
 
 ## 一句话总结

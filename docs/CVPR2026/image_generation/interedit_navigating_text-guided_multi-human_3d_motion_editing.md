@@ -1,9 +1,9 @@
 # InterEdit: Navigating Text-Guided Multi-Human 3D Motion Editing
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13082](https://arxiv.org/abs/2603.13082)
-**代码**: [GitHub](https://github.com/YNG916/InterEdit)
-**领域**: 3D 运动生成 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2603.13082](https://arxiv.org/abs/2603.13082)  
+**代码**: [GitHub](https://github.com/YNG916/InterEdit)  
+**领域**: 3D 运动生成 / 扩散模型  
 **关键词**: 多人运动编辑, 文本引导, 交互感知, 频域对齐, 条件扩散模型
 
 ## 一句话总结

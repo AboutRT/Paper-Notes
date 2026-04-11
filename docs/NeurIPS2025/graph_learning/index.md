@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🧠 NeurIPS2025** · 共 **35** 篇
+**🧠 NeurIPS2025** · 共 **41** 篇
 
 **[BLISS: Bandit Layer Importance Sampling Strategy for Efficient Training of Graph Neural Networks](bliss_bandit_layer_importance_sampling_strategy_for_efficient_training_of_graph_.md)**
 
@@ -79,6 +79,18 @@
 
 :   提出Heterogeneous Swarms算法，将多LLM系统建模为有向无环图（DAG），通过粒子群优化（PSO）联合优化模型角色（图结构）和模型权重，在12个任务上平均超越17个基线18.5%。
 
+**[Inductive Transfer Learning for Graph-Based Recommenders](inductive_transfer_learning_for_graph-based_recommenders.md)**
+
+:   提出 NBF-Rec，一个基于神经 Bellman-Ford 网络的图推荐模型，支持在用户和物品完全不相交的数据集之间进行归纳式迁移学习，实现零样本跨域推荐和轻量微调适配。
+
+**[Interaction-Centric Knowledge Infusion and Transfer for Open-Vocabulary Scene Graph Generation](interaction-centric_knowledge_infusion_and_transfer_for_open-vocabulary_scene_gr.md)**
+
+:   本文提出ACC框架，通过交互驱动范式（而非传统以对象为中心的范式）来解决开放词汇场景图生成中的关键匹配问题：在知识注入阶段用双向交互提示生成更准确的伪监督，在知识迁移阶段用交互引导的查询选择和交互一致性知识蒸馏来减少不匹配，在VG、GQA、PSG三个基准上达到SOTA。
+
+**[Learning Repetition-Invariant Representations for Polymer Informatics](learning_repetition-invariant_representations_for_polymer_informatics.md)**
+
+:   提出 GRIN（Graph Repetition-Invariant Network），通过 Max 聚合和特殊的图构建策略使 GNN 对聚合物重复单元的拼接数量不变，解决了聚合物表示中的基本对称性问题。
+
 **[Making Classic GNNs Strong Baselines Across Varying Homophily: A Smoothness-Generalization Perspective](making_classic_gnns_strong_baselines_across_varying_homophily_a_smoothness-gener.md)**
 
 :   从理论上揭示了 GNN 消息传递中平滑性（smoothness）与泛化性（generalization）之间的两难困境，提出 IGNN 框架通过三个简约设计原则（分离邻域变换、感知聚合、邻域关系学习）缓解该困境，在 30 个基线中表现最优且具备跨同质/异质图的通用性。
@@ -111,9 +123,17 @@
 
 :   发现了 Graph Transformer 中的 over-aggregating 现象——大量节点以近均匀注意力分数被聚合导致关键信息被稀释，提出 Wideformer 通过分割聚合+引导注意力来缓解，作为即插即用模块在 13 个数据集上一致提升骨干模型性能。
 
+**[ReMindRAG: Low-Cost LLM-Guided Knowledge Graph Traversal for Efficient RAG](remindrag_low-cost_llm-guided_knowledge_graph_traversal_for_efficient_rag.md)**
+
+:   提出ReMindRAG，一种结合LLM引导的KG遍历（节点探索+利用）与无训练记忆重放机制的KG-RAG系统，将LLM遍历经验存储在边嵌入中，在后续相似查询时显著减少LLM调用次数（约50%成本降低），同时提升回答准确率（5%-10%提升）。
+
 **[S'MoRE: Structural Mixture of Residual Experts for Parameter-Efficient LLM Fine-tuning](smore_structural_mixture_of_residual_experts_for_parameter-efficient_llm_fine-tu.md)**
 
 :   提出S'MoRE框架，将低秩残差专家组织成多层树状结构，通过层次化路由为每个token构建定制化的"残差树"，在与LoRA相当的参数量下实现指数级增长的结构灵活性，显著提升LLM微调效果。
+
+**[Table as a Modality for Large Language Models](table_as_a_modality_for_large_language_models.md)**
+
+:   提出 TaMo 框架，将表格作为独立模态通过超图神经网络编码其结构信息，与 LLM 的文本模态融合，在多个表格推理基准上相比纯文本方法平均提升 42.65%，且在结构鲁棒性上接近 GPT-4。
 
 **[TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction](tami_taming_heterogeneity_in_temporal_interactions_for_temporal_graph_link_predi.md)**
 
@@ -126,6 +146,10 @@
 **[Uniedit A Unified Knowledge Editing Benchmark For Large Language Models](uniedit_a_unified_knowledge_editing_benchmark_for_large_language_models.md)**
 
 :   构建UniEdit——基于25个开放域知识的统一LLM知识编辑基准，提出邻域多跳链采样(NMCS)算法评估编辑的波纹效应。
+
+**[Unifying and Enhancing Graph Transformers via a Hierarchical Mask Framework](unifying_and_enhancing_graph_transformers_via_a_hierarchical_mask_framework.md)**
+
+:   提出统一的层级掩码框架揭示 Graph Transformer 架构与注意力掩码的等价性，并设计 M3Dphormer 通过多层级掩码、双层专家路由和双重注意力计算实现对局部/簇/全局交互的高效自适应建模，在 9 个基准上取得 SOTA。
 
 **[Unifying Text Semantics and Graph Structures for Temporal Text-attributed Graphs with LLMs](unifying_text_semantics_and_graph_structures_for_temporal_text-attributed_graphs.md)**
 

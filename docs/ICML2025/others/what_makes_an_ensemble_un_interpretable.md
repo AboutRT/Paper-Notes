@@ -1,9 +1,9 @@
 # What Makes an Ensemble (Un)interpretable?
 
-**会议**: ICML 2025
-**arXiv**: [2506.08216](https://arxiv.org/abs/2506.08216)
-**代码**: 无
-**领域**: 可解释性
+**会议**: ICML 2025  
+**arXiv**: [2506.08216](https://arxiv.org/abs/2506.08216)  
+**代码**: 无  
+**领域**: 可解释性  
 **关键词**: ensemble learning, interpretability, model complexity, feature importance, transparency
 
 ## 一句话总结

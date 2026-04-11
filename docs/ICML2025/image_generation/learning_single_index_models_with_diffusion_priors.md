@@ -1,9 +1,9 @@
 # Learning Single Index Models with Diffusion Priors
 
-**会议**: ICML2025
-**arXiv**: [2505.21135](https://arxiv.org/abs/2505.21135)
-**代码**: 待确认
-**领域**: 扩散模型理论
+**会议**: ICML2025  
+**arXiv**: [2505.21135](https://arxiv.org/abs/2505.21135)  
+**代码**: 待确认  
+**领域**: 扩散模型理论  
 **关键词**: 扩散模型, 信号恢复, 单指标模型, 非线性测量, 逆问题, 压缩感知
 
 ## 一句话总结

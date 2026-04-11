@@ -1,9 +1,9 @@
 # Information-Theoretic Discrete Diffusion
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.24088](https://arxiv.org/abs/2510.24088)
-**代码**: [github.com/Dongjae0324/infodis](https://github.com/Dongjae0324/infodis)
-**领域**: 生成模型理论/离散扩散
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.24088](https://arxiv.org/abs/2510.24088)  
+**代码**: [github.com/Dongjae0324/infodis](https://github.com/Dongjae0324/infodis)  
+**领域**: 生成模型理论/离散扩散  
 **关键词**: 离散扩散模型, 信息论, 似然估计, score matching, masked diffusion, I-MMSE
 
 ## 一句话总结

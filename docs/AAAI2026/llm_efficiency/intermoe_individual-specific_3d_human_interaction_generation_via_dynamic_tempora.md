@@ -1,9 +1,9 @@
 # InterMoE: Individual-Specific 3D Human Interaction Generation via Dynamic Temporal-Selective MoE
 
-**会议**: AAAI 2026
-**arXiv**: [2511.13488](https://arxiv.org/abs/2511.13488)
-**代码**: [GitHub](https://github.com/Lighten001/InterMoE)
-**领域**: LLM Efficiency
+**会议**: AAAI 2026  
+**arXiv**: [2511.13488](https://arxiv.org/abs/2511.13488)  
+**代码**: [GitHub](https://github.com/Lighten001/InterMoE)  
+**领域**: LLM Efficiency  
 **关键词**: 人体交互生成, MoE, 动作生成, 扩散模型, 3D运动合成
 
 ## 一句话总结

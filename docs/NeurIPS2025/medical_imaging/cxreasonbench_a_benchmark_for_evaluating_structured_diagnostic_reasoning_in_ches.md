@@ -1,9 +1,9 @@
 # CXReasonBench: A Benchmark for Evaluating Structured Diagnostic Reasoning in Chest X-rays
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.18087](https://arxiv.org/abs/2505.18087)
-**代码**: [GitHub](https://github.com/ttumyche/CXReasonBench)
-**领域**: 医学图像
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.18087](https://arxiv.org/abs/2505.18087)  
+**代码**: [GitHub](https://github.com/ttumyche/CXReasonBench)  
+**领域**: 医学图像  
 **关键词**: 胸部X光, 诊断推理, 视觉语言模型, 基准测试, 结构化评估
 
 ## 一句话总结

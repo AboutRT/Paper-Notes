@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # From Fewer Samples to Fewer Bits: Reframing Dataset Distillation as Joint Optimization of Precision and Compactness
 
-**会议**: CVPR2026
-**arXiv**: [2603.02411](https://arxiv.org/abs/2603.02411)
-**代码**: 未开源
-**领域**: 模型压缩 / 数据蒸馏
+**会议**: CVPR2026  
+**arXiv**: [2603.02411](https://arxiv.org/abs/2603.02411)  
+**代码**: 未开源  
+**领域**: 模型压缩 / 数据蒸馏  
 **关键词**: 数据集蒸馏, 量化感知训练, 率失真优化, 低比特数据压缩, 非均匀量化
 
 ## 一句话总结

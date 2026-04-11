@@ -1,9 +1,9 @@
 # Hessian Geometry of Latent Space in Generative Models
 
-**会议**: ICML2025
-**arXiv**: [2506.10632](https://arxiv.org/abs/2506.10632)
-**代码**: [GitHub](https://github.com/alobashev/hessian-geometry-of-diffusion-models)
-**领域**: 生成模型理论 / 信息几何
+**会议**: ICML2025  
+**arXiv**: [2506.10632](https://arxiv.org/abs/2506.10632)  
+**代码**: [GitHub](https://github.com/alobashev/hessian-geometry-of-diffusion-models)  
+**领域**: 生成模型理论 / 信息几何  
 **关键词**: Fisher信息度量, Hessian几何, 潜空间分析, 相变, 扩散模型, 测地线
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Transforming Podcast Preview Generation: From Expert Models to LLM-Based Systems
 
-**会议**: ACL 2025
-**arXiv**: [2505.23908](https://arxiv.org/abs/2505.23908)
-**代码**: 无
-**领域**: LLM/NLP
+**会议**: ACL 2025  
+**arXiv**: [2505.23908](https://arxiv.org/abs/2505.23908)  
+**代码**: 无  
+**领域**: LLM/NLP  
 **关键词**: podcast preview, LLM application, content understanding, A/B testing, industry deployment
 
 ## 一句话总结

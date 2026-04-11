@@ -1,9 +1,9 @@
 # Don't be so negative! Score-based Generative Modeling with Oracle-assisted Guidance
 
-**会议**: ICML2025
-**arXiv**: [2307.16463](https://arxiv.org/abs/2307.16463)
-**代码**: 待确认
-**领域**: autonomous_driving
+**会议**: ICML2025  
+**arXiv**: [2307.16463](https://arxiv.org/abs/2307.16463)  
+**代码**: 待确认  
+**领域**: autonomous_driving  
 **关键词**: 扩散模型, 分类器引导, 约束生成, 碰撞避免, 负样本
 
 ## 一句话总结
@@ -30,6 +30,7 @@
 4. 用 $c_\phi$ 进行 classifier guidance 改进模型 → 得到 $p_{\theta,1}$
 5. 从 $p_{\theta,1}$ 再生成 → oracle 标注 → 训练新分类器 → 重复
 6. 经过 $K$ 轮得到逐步改进的模型
+
 ### 核心发现（本文最重要贡献）
 
 分类器必须在当前扩散模型分布的噪声版本上训练，否则引导方向错误 → 违规率不降反升

@@ -1,9 +1,9 @@
 # RebuttalAgent: Strategic Persuasion in Academic Rebuttal via Theory of Mind
 
-**会议**: ICLR 2026
-**arXiv**: [2601.15715](https://arxiv.org/abs/2601.15715)
-**代码**: [GitHub](https://github.com/Zhitao-He/RebuttalAgent)
-**领域**: LLM Agent/学术写作
+**会议**: ICLR 2026  
+**arXiv**: [2601.15715](https://arxiv.org/abs/2601.15715)  
+**代码**: [GitHub](https://github.com/Zhitao-He/RebuttalAgent)  
+**领域**: LLM Agent/学术写作  
 **关键词**: 学术rebuttal, 心智理论, 策略说服, 自奖励RL, 审稿人建模
 
 ## 一句话总结

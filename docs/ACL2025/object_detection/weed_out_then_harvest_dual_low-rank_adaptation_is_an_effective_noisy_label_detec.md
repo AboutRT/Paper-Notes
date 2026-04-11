@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用两个LoRA分别吸收干净数据和噪声数据的记忆，以此构建可学习的噪声标签检测阈值。
 
 ## 方法详解
+
 ### 整体框架
 两阶段框架：
 - **Stage 1（噪声标签检测）**: 用dual LoRA（clean LoRA + noisy LoRA）构建噪声标签检测器，完成样本选择
@@ -37,6 +38,7 @@
 - L_Detector: 基于正负样本对检测器做negative log-likelihood优化
 
 ## 实验关键数据
+
 ### 噪声标签检测性能（Precision/Recall %）
 
 | 数据集 | 方法 | 20%S (P/R) | 40%S (P/R) | 20%A (P/R) | 40%A (P/R) |

@@ -1,9 +1,9 @@
 # A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2406.11753](https://arxiv.org/abs/2406.11753)
-**代码**: 无
-**领域**: LLM微调效率
+**会议**: ACL 2025  
+**arXiv**: [2406.11753](https://arxiv.org/abs/2406.11753)  
+**代码**: 无  
+**领域**: LLM微调效率  
 **关键词**: 层冻结, 微调效率, 语义偏差, 缩放律, 反向传播优化
 
 ## 一句话总结

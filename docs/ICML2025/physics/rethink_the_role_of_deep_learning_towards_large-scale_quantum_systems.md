@@ -1,9 +1,9 @@
 # Rethink the Role of Deep Learning towards Large-scale Quantum Systems
 
-**会议**: ICML2025
-**arXiv**: [2505.13852](https://arxiv.org/abs/2505.13852)
-**代码**: [GitHub](https://github.com/) (部分数据集生成代码已开源)
-**领域**: 物理 / 量子系统学习
+**会议**: ICML2025  
+**arXiv**: [2505.13852](https://arxiv.org/abs/2505.13852)  
+**代码**: [GitHub](https://github.com/) (部分数据集生成代码已开源)  
+**领域**: 物理 / 量子系统学习  
 **关键词**: 量子系统学习, 基态性质估计, 量子相分类, 深度学习 vs 机器学习, classical shadow, 大规模量子系统
 
 ## 一句话总结

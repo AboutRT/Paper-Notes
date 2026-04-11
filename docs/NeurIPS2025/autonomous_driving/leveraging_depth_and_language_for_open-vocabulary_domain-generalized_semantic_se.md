@@ -1,9 +1,9 @@
 # Leveraging Depth and Language for Open-Vocabulary Domain-Generalized Semantic Segmentation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.09881](https://arxiv.org/abs/2506.09881)
-**代码**: [GitHub](https://github.com/SY-Ch/Vireo) (有)
-**领域**: Autonomous Driving / Semantic Segmentation
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.09881](https://arxiv.org/abs/2506.09881)  
+**代码**: [GitHub](https://github.com/SY-Ch/Vireo) (有)  
+**领域**: Autonomous Driving / Semantic Segmentation  
 **关键词**: 开放词汇分割, 域泛化, 深度估计, 视觉基础模型, 语义分割
 
 ## 一句话总结

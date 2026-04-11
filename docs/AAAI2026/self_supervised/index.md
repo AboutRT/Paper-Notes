@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**🤖 AAAI2026** · 共 **12** 篇
+**🤖 AAAI2026** · 共 **15** 篇
 
 **[BCE3S: Binary Cross-Entropy Based Tripartite Synergistic Learning for Long-tailed Recognition](bce3s_binary_cross-entropy_based_tripartite_synergistic_learning_for_long-tailed.md)**
 
@@ -14,6 +14,14 @@
 **[Explanation-Preserving Augmentation for Semi-Supervised Graph Representation Learning](explanation-preserving_augmentation_for_semi-supervised_graph_representation_lea.md)**
 
 :   提出EPA-GRL（Explanation-Preserving Augmentation），利用少量标签训练的GNN explainer识别图的语义子图（explanation subgraph），增强时只扰动非语义部分（marginal subgraph），实现语义保持的图增强，在6个benchmark上显著优于语义无关的随机增强方法。
+
+**[FedGRPO: Privately Optimizing Foundation Models with Group-Relative Rewards from Domain Clients](fedgrpo_privately_optimizing_foundation_models_with_group-relative_rewards_from_.md)**
+
+:   提出 FedGRPO，将大模型优化重新定义为基于奖励的评估过程，通过能力感知的专家选择和联邦组相对策略优化（仅传输标量奖励信号），实现了隐私保护且通信效率极高的联邦基础模型优化，在数学推理和问答任务上性能接近甚至超越集中式 GRPO。
+
+**[From Pretrain to Pain: Adversarial Vulnerability of Video Foundation Models without Finetuning](from_pretrain_to_pain_adversarial_vulnerability_of_video_foundation_models_witho.md)**
+
+:   提出 Transferable Video Attack (TVA)，仅利用开源视频基础模型（VFM）的嵌入空间即可生成对抗扰动，无需任何下游任务知识便能有效攻击24个视频任务上的下游模型和多模态LLM。
 
 **[Improving Region Representation Learning from Urban Imagery with Noisy Long-Caption Supervision](improving_region_representation_learning_from_urban_imagery_with_noisy_long-capt.md)**
 
@@ -46,6 +54,10 @@
 **[Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning](towards_better_code_understanding_in_decoder-only_large_language_models_via_hie.md)**
 
 :   提出CL4D对比学习框架，通过继续预训练将decoder-only代码生成模型适配到代码理解任务（代码搜索、克隆检测），在不重新训练encoder模型的前提下实现了与同等规模encoder-only模型相当甚至更优的性能。
+
+**[Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning](towards_better_code_understanding_in_decoder-only_models_with_contrastive_learni.md)**
+
+:   本文提出CL4D框架，通过对比学习对预训练的decoder-only代码生成模型进行继续预训练，使其能够有效提取代码表示并在代码搜索和克隆检测等理解任务上达到甚至超越同规模encoder-only模型的性能。
 
 **[Towards LLM-Empowered Knowledge Tracing via LLM-Student Hierarchical Behavior Alignment in Hyperbolic Space](towards_llm-empowered_knowledge_tracing_via_llm-student_hierarchical_behavior_al.md)**
 

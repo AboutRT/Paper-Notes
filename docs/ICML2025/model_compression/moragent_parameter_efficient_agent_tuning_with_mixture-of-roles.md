@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # MoRAgent: Parameter Efficient Agent Tuning with Mixture-of-Roles
 
-**会议**: ICML2025
-**arXiv**: [2512.21708](https://arxiv.org/abs/2512.21708)
-**代码**: [https://mor-agent.github.io/](https://mor-agent.github.io/)
-**领域**: model_compression
+**会议**: ICML2025  
+**arXiv**: [2512.21708](https://arxiv.org/abs/2512.21708)  
+**代码**: [https://mor-agent.github.io/](https://mor-agent.github.io/)  
+**领域**: model_compression  
 **关键词**: Agent Tuning, Parameter-Efficient Fine-Tuning, LoRA, Mixture-of-Experts, Function Calling
 
 ## 一句话总结

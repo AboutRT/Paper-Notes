@@ -1,9 +1,9 @@
 # FaCT: Faithful Concept Traces for Explaining Neural Network Decisions
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25512](https://arxiv.org/abs/2510.25512)
-**代码**: https://github.com/m-parchami/FaCT
-**领域**: 可解释性 / 概念解释
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25512](https://arxiv.org/abs/2510.25512)  
+**代码**: https://github.com/m-parchami/FaCT  
+**领域**: 可解释性 / 概念解释  
 **关键词**: 概念解释, 忠实归因, B-cos 网络, 稀疏自编码器, 可解释模型
 
 ## 一句话总结

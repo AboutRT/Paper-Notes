@@ -1,9 +1,9 @@
 # Modified K-means Algorithm with Local Optimality Guarantees
 
-**会议**: ICML2025
-**arXiv**: [2506.06990](https://arxiv.org/abs/2506.06990)
-**代码**: [GitHub](https://github.com/lmingyi/LO-K-means)
-**领域**: 其他/聚类
+**会议**: ICML2025  
+**arXiv**: [2506.06990](https://arxiv.org/abs/2506.06990)  
+**代码**: [GitHub](https://github.com/lmingyi/LO-K-means)  
+**领域**: 其他/聚类  
 **关键词**: K-means, 局部最优性, Bregman散度, 聚类算法, 组合优化
 
 ## 一句话总结

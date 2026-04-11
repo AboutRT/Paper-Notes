@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频理解
 
-**🤖 AAAI2026** · 共 **16** 篇
+**🤖 AAAI2026** · 共 **37** 篇
 
 **[3D4D: An Interactive Editable 4D World Model via 3D Video Generation](3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md)**
 
@@ -39,9 +39,33 @@
 
 :   提出 DreamRunner 框架，通过 LLM 双层规划 + 检索增强运动先验学习 + 时空区域3D注意力模块(SR3AI)，实现细粒度可控的多角色多事件故事视频生成。
 
+**[EmoVid: A Multimodal Emotion Video Dataset for Emotion-Centric Video Understanding and Generation](emovid_a_multimodal_emotion_video_dataset_for_emotion-centric_video_understandin.md)**
+
+:   提出 EmoVid，首个面向艺术化/非写实内容的大规模多模态情绪视频数据集（22,758 个视频片段），覆盖动画、电影和表情贴纸三种类型，并通过微调 Wan2.1 模型展示了情绪条件化视频生成的有效性，在情绪准确率指标上显著优于基线。
+
 **[Explicit Temporal-Semantic Modeling for Dense Video Captioning via Context-Aware Cross-Modal Interaction](explicit_temporal-semantic_modeling_for_dense_video_captioning_via_context-aware.md)**
 
 :   本文提出 CACMI 框架，通过显式时序-语义建模解决密集视频描述任务中的两个基本限制（时序建模不足和模态鸿沟），使用跨模态帧聚合（CFA）提取时序一致的事件语义，再用上下文感知特征增强（CFE）桥接视觉-文本模态差距，在 ActivityNet Captions 和 YouCook2 上达到 SOTA。
+
+**[FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion](filmweaver_weaving_consistent_multi-shot_videos_with_cache-guided_autoregressive.md)**
+
+:   提出 FilmWeaver 框架，通过双层缓存（Shot Cache + Temporal Cache）引导自回归扩散模型，实现任意长度、跨镜头一致性的多镜头视频生成。
+
+**[FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion](finetec_fine-grained_action_recognition_under_temporal_corruption_via_skeleton_d.md)**
+
+:   提出 FineTec 框架，通过上下文感知序列补全、基于生物先验的骨架空间分解、物理驱动的加速度建模三个模块，在时序损坏条件下实现鲁棒的细粒度骨架动作识别。
+
+**[GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection](genvidbench_a_6-million_benchmark_for_ai-generated_video_detection.md)**
+
+:   提出 GenVidBench——首个 678 万级 AI 生成视频检测数据集，具备跨源（cross-source）和跨生成器（cross-generator）特性，覆盖 11 种 SOTA 视频生成器，并提供丰富的语义标注。
+
+**[Group Orthogonal Low-Rank Adaptation for RGB-T Tracking](group_orthogonal_low-rank_adaptation_for_rgb-t_tracking.md)**
+
+:   提出 GOLA 框架，通过 SVD 分解量化 LoRA 秩重要性、冻结关键秩保留预训练先验、将冗余秩分组并施加组间正交约束，实现更高效的 RGB-T 跟踪适配。
+
+**[KineST: A Kinematics-guided Spatiotemporal State Space Model for Human Motion Tracking from Sparse Signals](kinest_a_kinematics-guided_spatiotemporal_state_space_model_for_human_motion_tra.md)**
+
+:   提出 KineST，一种运动学引导的状态空间模型，通过运动学树双向扫描策略和混合时空表征学习，从头显稀疏信号高效重建全身运动，在精度和时序一致性上均超越 SOTA。
 
 **[Learning Topology-Driven Multi-Subspace Fusion For Grassmannian Deep Network](learning_topology-driven_multi-subspace_fusion_for_grassmannian_deep_network.md)**
 
@@ -51,6 +75,62 @@
 
 :   提出 lifelong domain adaptive 3D HPE 新任务，设计包含 pose-aware、temporal-aware 和 domain-aware 编码的 GAN 框架，利用 diffusion sampler 生成 domain-aware prior 缓解灾难性遗忘，在多个跨场景/跨数据集适应任务上显著超越现有方法。
 
+**[Listening Between the Frames: Bridging Temporal Gaps in Large Audio-Language Models](listening_between_the_frames_bridging_temporal_gaps_in_large_audio-language_mode.md)**
+
+:   提出 TimeAudio，通过时间标记（Temporal Markers）、绝对时间编码（Absolute Time-aware Encoding）和段级 Token 合并（Segment-level Token Merging）三个关键模块，赋予大型音频语言模型（LALM）精确的时间定位能力和端到端长音频理解能力，并构建了 FTAR 数据集用于细粒度时间推理的指令微调。
+
+**[LiViBench: An Omnimodal Benchmark for Interactive Livestream Video Understanding](livibench_an_omnimodal_benchmark_for_interactive_livestream_video_understanding.md)**
+
+:   提出首个面向交互式直播视频的全模态基准 LiViBench（3168 个视频、3175 道 MCQ、24 个任务），设计了多智能体种子问题驱动的半自动标注流程，并构建了 LiVi-LLM-7B 模型（含 Video-to-Comment Retrieval 模块和两阶段指令微调），在 7B 规模下超越了 72B 开源模型。
+
+**[LOOM: Personalized Learning Informed by Daily LLM Conversations Toward Long-Term Mastery via a Dynamic Learner Memory Graph](loom_personalized_learning_informed_by_daily_llm_conversations_toward_long-term_.md)**
+
+:   提出 LOOM，一个智能体管线系统，通过观察用户日常 LLM 对话、推断学习需求、维护动态学习者记忆图（Learner Memory Graph），自动生成个性化的迷你课程，统一了学习的**连续性**（长期进度追踪）和**主动性**（即时响应新兴趣）。
+
+**[Mask2IV: Interaction-Centric Video Generation via Mask Trajectories](mask2iv_interaction-centric_video_generation_via_mask_trajectories.md)**
+
+:   提出 Mask2IV，一个两阶段解耦框架——先预测交互者和物体的 mask 运动轨迹，再基于轨迹生成视频——实现了无需密集 mask 标注的、以交互为中心的可控视频生成，支持人-物交互和机器人操作两个场景。
+
+**[MoFu: Scale-Aware Modulation and Fourier Fusion for Multi-Subject Video Generation](mofu_scale-aware_modulation_and_fourier_fusion_for_multi-subject_video_generatio.md)**
+
+:   提出 MoFu，通过 Scale-Aware Modulation（LLM 引导的尺度感知调制）和 Fourier Fusion（基于 FFT 的排列不变特征融合）两个核心模块，同时解决多主体视频生成中的**尺度不一致**和**排列敏感性**两大挑战，并构建了 MoFu-1M 训练数据集和 MoFu-Bench 评测基准。
+
+**[MotionCharacter: Fine-Grained Motion Controllable Human Video Generation](motioncharacter_fine-grained_motion_controllable_human_video_generation.md)**
+
+:   提出 MotionCharacter 框架，通过将运动解耦为动作类型和运动强度两个独立可控维度，实现高保真人体视频生成中的细粒度运动控制和身份一致性保持。
+
+**[PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking](plugtrack_multi-perceptive_motion_analysis_for_adaptive_fusion_in_multi-object_t.md)**
+
+:   提出 PlugTrack 框架，通过多感知运动分析（CME）和自适应混合因子生成（ABG），首次实现卡尔曼滤波器与数据驱动运动预测器的自适应融合，在线性和非线性运动场景中均取得显著提升。
+
+**[PragWorld: A Benchmark Evaluating LLMs' Local World Model under Minimal Linguistic Alterations and Conversational Dynamics](pragworld_a_benchmark_evaluating_llms_local_world_model_under_minimal_linguistic.md)**
+
+:   提出 PragWorld 基准测试，通过对对话施加 7 种最小语言学扰动来评估 LLM 内隐世界模型的可塑性和鲁棒性，并设计双视角可解释性框架定位有害/有用层，提出层正则化微调策略提升鲁棒性。
+
+**[Predicting Video Slot Attention Queries from Random Slot-Feature Pairs](predicting_video_slot_attention_queries_from_random_slot-feature_pairs.md)**
+
+:   提出 RandSF.Q，通过利用下一帧特征进行信息性查询预测，以及从随机采样的 slot-feature 对学习过渡动力学，显著提升视频物体中心学习（OCL）的查询预测质量，在目标发现任务上超越 SOTA 最多 10 个点。
+
+**[Quantifying Conversational Reliability of Large Language Models under Multi-Turn Interaction](quantifying_conversational_reliability_of_large_language_models_under_multi-turn.md)**
+
+:   通过三个可确定性评估的代表性任务（指令遵循、工具选择、实体抽取），系统量化 LLM 在多轮对话中的可靠性退化程度，揭示模型在扩展对话中出现指令漂移、意图混淆和上下文覆写等失败模式。
+
+**[R-AVST: Empowering Video-LLMs with Fine-Grained Spatio-Temporal Reasoning in Complex Audio-Visual Scenarios](r-avst_empowering_video-llms_with_fine-grained_spatio-temporal_reasoning_in_comp.md)**
+
+:   提出首个面向复杂音视频场景的细粒度时空推理数据集 R-AVST（5K+未裁剪视频、27K物体、100类音视频事件），定义三个核心推理任务，并基于 GRPO 训练 AVST-Zero 模型，通过多维奖励函数直接优化音视频时空推理能力。
+
+**[ReaSon: Reinforced Causal Search with Information Bottleneck for Video Understanding](reason_reinforced_causal_search_with_information_bottleneck_for_video_understand.md)**
+
+:   提出因果信息瓶颈（CIB）理论框架，将关键帧选择形式化为同时优化"预测充分性"和"因果必要性"的信息论问题，并基于此设计 ReaSon 强化学习框架，通过三种 CIB 对齐的奖励（答案奖励、循环一致性奖励、反事实奖励）训练选择策略，在限定帧数设置下显著超越已有方法。
+
+**[RecToM: A Benchmark for Evaluating Machine Theory of Mind in LLM-based Conversational Recommender Systems](rectom_a_benchmark_for_evaluating_machine_theory_of_mind_in_llm-based_conversati.md)**
+
+:   提出 RecToM，首个用于评估 LLM 在对话推荐系统中心智理论（Theory of Mind）推理能力的人工标注基准，涵盖认知推理（欲望/意图/信念）和行为预测（策略预测/策略判断）两个维度共 10 种问题类型、20,524 个 QA 对，揭示了当前 LLM 在细粒度意图推断和策略判断中的系统性缺陷。
+
+**[Rethinking Progression of Memory State in Robotic Manipulation: An Object-Centric Perspective](rethinking_progression_of_memory_state_in_robotic_manipulation_an_object-centric.md)**
+
+:   提出 LIBERO-Mem 基准（10 个非马尔可夫机器人操控任务）和 Embodied-SlotSSM 框架（结合 Slot Attention 和状态空间模型的物体中心记忆 VLA），解决视觉运动策略在部分可观测、需要物体级历史推理的长期任务中的失败问题。
+
 **[MambaMia: State-Space Hierarchical Compression for Hour-Long Video Understanding in Large Multimodal Models](state-space_hierarchical_compression_with_gated_attention_an.md)**
 
 :   MambaMia 提出了基于双向 Mamba 的两阶段层次化视频 Token 压缩框架：门控 Patch 聚合（GPA）做空间-时间局部压缩 + 时间轴聚合器（TAA）利用 Mamba 的自适应步长 $\Delta_t$ 做数据驱动的关键帧采样，将小时级视频压缩到仅 4.7K Token，在 LVBench 上达到 44.6 分超越 Qwen2-VL 和 mPLUG-Owl3。
@@ -58,6 +138,10 @@
 **[Stegavar Privacy-Preserving Video Action Recognition Via Steganographic Domain A](stegavar_privacy-preserving_video_action_recognition_via_steganographic_domain_a.md)**
 
 :   提出 StegaVAR 框架，首次将视频隐写术与动作识别结合，将隐私视频嵌入自然 cover 视频后直接在隐写域做分类，通过 STeP（secret 视频引导的时空特征学习）和 CroDA（跨频带差分注意力）实现接近原始视频的识别精度，同时提供优于匿名化方法的隐私保护。
+
+**[SUGAR: Learning Skeleton Representation with Visual-Motion Knowledge for Action Recognition](sugar_learning_skeleton_representation_with_visual-motion_knowledge_for_action_r.md)**
+
+:   提出 SUGAR 范式，利用 GPT 生成的**运动描述**和**视觉描述**作为先验知识，通过对比学习监督骨骼编码器学习更离散的表示，再用 LLM（LLaMA2-7B）的未触及预训练权重作为识别器，配合新设计的 Temporal Query Projection（TQP）模块实现高效的骨骼动作分类和零样本推理。
 
 **[Uvlm Benchmarking Video Language Model For Underwater World Understanding](uvlm_benchmarking_video_language_model_for_underwater_world_understanding.md)**
 

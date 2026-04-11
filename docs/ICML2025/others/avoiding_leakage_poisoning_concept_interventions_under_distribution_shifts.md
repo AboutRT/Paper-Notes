@@ -1,9 +1,9 @@
 # Avoiding Leakage Poisoning: Concept Interventions Under Distribution Shifts
 
-**会议**: ICML 2025
-**arXiv**: [2504.17921](https://arxiv.org/abs/2504.17921)
-**代码**: https://github.com/mateoespinosa/cem
-**领域**: 其他/可解释AI
+**会议**: ICML 2025  
+**arXiv**: [2504.17921](https://arxiv.org/abs/2504.17921)  
+**代码**: https://github.com/mateoespinosa/cem  
+**领域**: 其他/可解释AI  
 **关键词**: 概念瓶颈模型, 概念干预, 分布偏移, 泄漏中毒, 可解释性
 
 ## 一句话总结

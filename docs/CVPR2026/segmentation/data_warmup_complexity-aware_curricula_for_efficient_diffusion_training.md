@@ -1,9 +1,9 @@
 # Data Warmup: Complexity-Aware Curricula for Efficient Diffusion Training
 
-**会议**: CVPR 2026
-**arXiv**: [2604.07397](https://arxiv.org/abs/2604.07397)
-**代码**: 有
-**领域**: 分割 / 扩散模型训练加速
+**会议**: CVPR 2026  
+**arXiv**: [2604.07397](https://arxiv.org/abs/2604.07397)  
+**代码**: 有  
+**领域**: 分割 / 扩散模型训练加速  
 **关键词**: 课程学习, 扩散模型, 数据复杂度, 前景显著性, 训练效率
 
 ## 一句话总结

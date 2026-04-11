@@ -1,9 +1,9 @@
 # OpenFly: A Comprehensive Platform for Aerial Vision-Language Navigation
 
-**会议**: ICLR 2026
-**arXiv**: [2502.18041](https://arxiv.org/abs/2502.18041)
-**代码**: 有(开源)
-**领域**: 无人机导航/具身AI
+**会议**: ICLR 2026  
+**arXiv**: [2502.18041](https://arxiv.org/abs/2502.18041)  
+**代码**: 有(开源)  
+**领域**: 无人机导航/具身AI  
 **关键词**: 空中VLN, 无人机导航, 多渲染引擎, 自动数据生成, 关键帧感知, 3D高斯溅射
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Resource Efficient Sleep Staging via Multi-Level Masking and Prompt Learning
 
-**会议**: AAAI2026
-**arXiv**: [2511.06785](https://arxiv.org/abs/2511.06785)
-**代码**: [AnsonAiTRAY/MASS](https://github.com/AnsonAiTRAY/MASS)
-**领域**: object_detection
+**会议**: AAAI2026  
+**arXiv**: [2511.06785](https://arxiv.org/abs/2511.06785)  
+**代码**: [AnsonAiTRAY/MASS](https://github.com/AnsonAiTRAY/MASS)  
+**领域**: object_detection  
 **关键词**: sleep staging, EEG, masking, prompt learning, wearable monitoring, resource efficiency
 
 ## 一句话总结

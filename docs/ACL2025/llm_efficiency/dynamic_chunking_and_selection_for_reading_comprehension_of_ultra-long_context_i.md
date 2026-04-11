@@ -1,9 +1,9 @@
 # Dynamic Chunking and Selection for Reading Comprehension of Ultra-Long Context in Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2506.00773](https://arxiv.org/abs/2506.00773)
-**代码**: [GitHub](https://github.com/ECNU-Text-Computing/DCS)
-**领域**: llm_efficiency
+**会议**: ACL 2025  
+**arXiv**: [2506.00773](https://arxiv.org/abs/2506.00773)  
+**代码**: [GitHub](https://github.com/ECNU-Text-Computing/DCS)  
+**领域**: llm_efficiency  
 **关键词**: long-context QA, dynamic chunking, chunk selection, reading comprehension, semantic segmentation
 
 ## 一句话总结

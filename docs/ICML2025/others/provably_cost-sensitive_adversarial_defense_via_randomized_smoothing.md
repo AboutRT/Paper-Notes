@@ -1,9 +1,9 @@
 # Provably Cost-Sensitive Adversarial Defense via Randomized Smoothing
 
-**会议**: ICML2025
-**arXiv**: [2310.08732](https://arxiv.org/abs/2310.08732)
-**代码**: [AppleXY/Cost-Sensitive-RS](https://github.com/AppleXY/Cost-Sensitive-RS)
-**领域**: 对抗鲁棒性 / 可认证防御
+**会议**: ICML2025  
+**arXiv**: [2310.08732](https://arxiv.org/abs/2310.08732)  
+**代码**: [AppleXY/Cost-Sensitive-RS](https://github.com/AppleXY/Cost-Sensitive-RS)  
+**领域**: 对抗鲁棒性 / 可认证防御  
 **关键词**: randomized smoothing, cost-sensitive robustness, certified defense, adversarial examples, cost matrix
 
 ## 一句话总结

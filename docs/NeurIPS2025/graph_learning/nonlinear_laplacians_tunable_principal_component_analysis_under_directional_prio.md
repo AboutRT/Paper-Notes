@@ -1,9 +1,9 @@
 # Nonlinear Laplacians: Tunable Principal Component Analysis under Directional Prior Information
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.12528](https://arxiv.org/abs/2505.12528)
-**代码**: 无
-**领域**: 图学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.12528](https://arxiv.org/abs/2505.12528)  
+**代码**: 无  
+**领域**: 图学习  
 **关键词**: 非线性Laplacian, 主成分分析, 谱算法, 随机矩阵理论, 方向先验
 
 ## 一句话总结

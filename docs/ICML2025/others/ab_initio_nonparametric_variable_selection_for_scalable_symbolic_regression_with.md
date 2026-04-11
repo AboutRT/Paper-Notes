@@ -1,9 +1,9 @@
 # Ab Initio Nonparametric Variable Selection for Scalable Symbolic Regression with Large p
 
-**会议**: ICML2025
-**arXiv**: [2410.13681](https://arxiv.org/abs/2410.13681)
-**代码**: [GitHub - PAN_SR](https://github.com/mattsheng/PAN_SR)
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2410.13681](https://arxiv.org/abs/2410.13681)  
+**代码**: [GitHub - PAN_SR](https://github.com/mattsheng/PAN_SR)  
+**领域**: others  
 **关键词**: 符号回归, 变量选择, 非参数方法, BART, 高维数据
 
 ## 一句话总结

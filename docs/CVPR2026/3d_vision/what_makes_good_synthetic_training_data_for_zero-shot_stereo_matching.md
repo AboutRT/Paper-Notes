@@ -1,9 +1,9 @@
 # What Makes Good Synthetic Training Data for Zero-Shot Stereo Matching?
 
-**会议**: CVPR2026
-**arXiv**: [2504.16930](https://arxiv.org/abs/2504.16930)
-**代码**: 无（论文提到将开源程序化生成代码，但缓存中未包含具体链接）
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2504.16930](https://arxiv.org/abs/2504.16930)  
+**代码**: 无（论文提到将开源程序化生成代码，但缓存中未包含具体链接）  
+**领域**: 3d_vision  
 **关键词**: stereo matching, synthetic data, procedural generation, zero-shot generalization, dataset design, Infinigen
 
 ## 一句话总结

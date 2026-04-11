@@ -5,6 +5,7 @@
 **代码**: https://github.com/Advocate99/AssetFormer  
 **领域**: LLM/NLP  
 **关键词**: 3D generation, autoregressive transformer, modular assets, UGC, Llama, text-to-3D  
+
 ## 一句话总结
 
 提出 AssetFormer，基于 Llama 架构的自回归 Transformer，将模块化 3D 资产（由 primitive 序列组成）建模为离散 token 序列，通过 DFS/BFS 图遍历重排序和联合词汇表解码实现从文本描述生成可直接用于游戏引擎的模块化 3D 资产。

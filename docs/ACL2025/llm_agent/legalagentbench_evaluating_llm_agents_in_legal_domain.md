@@ -1,9 +1,9 @@
 # LegalAgentBench: Evaluating LLM Agents in Legal Domain
 
-**会议**: ACL2025
-**arXiv**: [2412.17259](https://arxiv.org/abs/2412.17259)
-**代码**: [CSHaitao/LegalAgentBench](https://github.com/CSHaitao/LegalAgentBench)
-**领域**: llm_agent
+**会议**: ACL2025  
+**arXiv**: [2412.17259](https://arxiv.org/abs/2412.17259)  
+**代码**: [CSHaitao/LegalAgentBench](https://github.com/CSHaitao/LegalAgentBench)  
+**领域**: llm_agent  
 **关键词**: LLM Agent, 法律领域, Benchmark, 工具调用, 多跳推理
 
 ## 一句话总结

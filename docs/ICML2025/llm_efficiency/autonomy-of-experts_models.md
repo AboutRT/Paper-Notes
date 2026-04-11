@@ -1,9 +1,9 @@
 # Autonomy-of-Experts Models (AoE)
 
-**会议**: ICML 2025
-**arXiv**: [2501.13074](https://arxiv.org/abs/2501.13074)
-**代码**: https://github.com/trestad/Autonomy-of-Experts
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2501.13074](https://arxiv.org/abs/2501.13074)  
+**代码**: https://github.com/trestad/Autonomy-of-Experts  
+**领域**: LLM效率  
 **关键词**: Mixture-of-Experts, 专家自主选择, 激活范数, 低秩分解, 大语言模型
 
 ## 一句话总结

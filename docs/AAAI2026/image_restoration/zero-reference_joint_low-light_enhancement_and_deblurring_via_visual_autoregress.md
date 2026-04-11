@@ -1,10 +1,10 @@
 # Zero-Reference Joint Low-Light Enhancement and Deblurring via Visual Autoregressive Modeling with VLM-Derived Modulation
 
-**会议**: AAAI 2026
-**arXiv**: [2511.18591](https://arxiv.org/abs/2511.18591)
+**会议**: AAAI 2026  
+**arXiv**: [2511.18591](https://arxiv.org/abs/2511.18591)  
 **作者**: Wei Dong, Han Zhou, Junwei Lin, Jun Chen
-**代码**: [LowLevelAI/VAR-LIDE](https://github.com/LowLevelAI/VAR-LIDE)
-**领域**: image_restoration
+**代码**: [LowLevelAI/VAR-LIDE](https://github.com/LowLevelAI/VAR-LIDE)  
+**领域**: image_restoration  
 **关键词**: 低光增强, 去模糊, 视觉自回归模型, VLM感知先验, 无监督, 频域相位调制
 
 ## 一句话总结

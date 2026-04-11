@@ -1,9 +1,9 @@
 # mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules
 
-**会议**: ICLR 2026
-**arXiv**: [2505.12565](https://arxiv.org/abs/2505.12565)
-**代码**: 有
-**领域**: AI4Science/药物发现
+**会议**: ICLR 2026  
+**arXiv**: [2505.12565](https://arxiv.org/abs/2505.12565)  
+**代码**: 有  
+**领域**: AI4Science/药物发现  
 **关键词**: 化学语言模型, 模块化分子, 构建块, 可合成性, 双语模型
 
 ## 一句话总结

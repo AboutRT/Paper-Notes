@@ -1,9 +1,9 @@
 # Computational Hardness of Reinforcement Learning with Partial $q^\pi$-Realizability
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21888](https://arxiv.org/abs/2510.21888)
-**代码**: 待确认
-**领域**: reinforcement_learning
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21888](https://arxiv.org/abs/2510.21888)  
+**代码**: 待确认  
+**领域**: reinforcement_learning  
 **关键词**: 强化学习, 计算复杂度, 线性函数逼近, 可实现性, NP-hard
 
 ## 一句话总结

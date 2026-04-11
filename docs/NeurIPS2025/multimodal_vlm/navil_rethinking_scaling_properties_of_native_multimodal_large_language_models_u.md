@@ -1,9 +1,9 @@
 # NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.08565](https://arxiv.org/abs/2510.08565)
-**代码**: [GitHub](https://github.com/OpenGVLab/NaViL) (有)
-**领域**: Multimodal VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.08565](https://arxiv.org/abs/2510.08565)  
+**代码**: [GitHub](https://github.com/OpenGVLab/NaViL) (有)  
+**领域**: Multimodal VLM  
 **关键词**: Native MLLM, Scaling Law, Visual Encoder, Mixture-of-Experts, 端到端训练
 
 ## 一句话总结

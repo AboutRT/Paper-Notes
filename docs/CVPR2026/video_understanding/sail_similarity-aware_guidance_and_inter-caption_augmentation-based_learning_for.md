@@ -1,9 +1,9 @@
 # SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05437](https://arxiv.org/abs/2603.05437)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.05437](https://arxiv.org/abs/2603.05437)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 弱监督密集视频描述, 跨模态对齐, LLM数据增强, 高斯掩码, 事件定位
 
 ## 一句话总结

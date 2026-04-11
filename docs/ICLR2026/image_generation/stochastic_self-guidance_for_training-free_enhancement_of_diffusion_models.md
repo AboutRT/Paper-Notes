@@ -1,9 +1,9 @@
 # Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models
 
-**会议**: ICLR2026
-**arXiv**: [2508.12880](https://arxiv.org/abs/2508.12880)
-**代码**: [项目页](https://s2guidance.github.io/)
-**领域**: image_generation
+**会议**: ICLR2026  
+**arXiv**: [2508.12880](https://arxiv.org/abs/2508.12880)  
+**代码**: [项目页](https://s2guidance.github.io/)  
+**领域**: image_generation  
 **关键词**: 扩散模型, Classifier-Free Guidance, 子网络, 随机block-dropping, 自引导, 文生图, 文生视频
 
 ## 一句话总结

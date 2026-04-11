@@ -1,9 +1,9 @@
 # BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly
 
-**会议**: ICML 2025
-**arXiv**: [2506.06221](https://arxiv.org/abs/2506.06221)
-**代码**: https://sites.google.com/view/biassembly/
-**领域**: 机器人
+**会议**: ICML 2025  
+**arXiv**: [2506.06221](https://arxiv.org/abs/2506.06221)  
+**代码**: https://sites.google.com/view/biassembly/  
+**领域**: 机器人  
 **关键词**: 双臂协作, 几何装配, 点级可供性, 碎片重组, 长程规划
 
 ## 一句话总结

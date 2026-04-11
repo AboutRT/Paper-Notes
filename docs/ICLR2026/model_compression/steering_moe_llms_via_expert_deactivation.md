@@ -1,9 +1,9 @@
 # Steering MoE LLMs via Expert (De)Activation
 
-**会议**: ICLR 2026
-**arXiv**: [2509.09660](https://arxiv.org/abs/2509.09660)
-**代码**: [github.com/adobe-research/SteerMoE](https://github.com/adobe-research/SteerMoE)
-**领域**: 模型压缩 / 可解释性与安全
+**会议**: ICLR 2026  
+**arXiv**: [2509.09660](https://arxiv.org/abs/2509.09660)  
+**代码**: [github.com/adobe-research/SteerMoE](https://github.com/adobe-research/SteerMoE)  
+**领域**: 模型压缩 / 可解释性与安全  
 **关键词**: MoE, 专家路由, 行为引导, 安全性, 忠实性, 推理时控制
 
 ## 一句话总结

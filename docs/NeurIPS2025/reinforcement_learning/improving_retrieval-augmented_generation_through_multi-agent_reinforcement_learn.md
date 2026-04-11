@@ -1,9 +1,9 @@
 # Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2501.15228](https://arxiv.org/abs/2501.15228)
-**代码**: [GitHub](https://github.com/chenyiqun/MMOA-RAG)
-**领域**: 强化学习 / NLP
+**会议**: NeurIPS 2025  
+**arXiv**: [2501.15228](https://arxiv.org/abs/2501.15228)  
+**代码**: [GitHub](https://github.com/chenyiqun/MMOA-RAG)  
+**领域**: 强化学习 / NLP  
 **关键词**: RAG, 多智能体强化学习, MAPPO, 联合优化, 问答系统
 
 ## 一句话总结

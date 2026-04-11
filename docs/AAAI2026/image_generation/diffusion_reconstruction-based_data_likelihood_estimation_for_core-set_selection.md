@@ -1,9 +1,9 @@
 # Diffusion Reconstruction-Based Data Likelihood Estimation for Core-Set Selection
 
-**会议**: AAAI 2026
-**arXiv**: [2511.19274](https://arxiv.org/abs/2511.19274)
-**代码**: [GitHub](https://github.com/mchen725/DRD)
-**领域**: 图像生成
+**会议**: AAAI 2026  
+**arXiv**: [2511.19274](https://arxiv.org/abs/2511.19274)  
+**代码**: [GitHub](https://github.com/mchen725/DRD)  
+**领域**: 图像生成  
 **关键词**: 核心集选择, 扩散模型, 数据似然, 重建偏差, 信息瓶颈
 
 ## 一句话总结

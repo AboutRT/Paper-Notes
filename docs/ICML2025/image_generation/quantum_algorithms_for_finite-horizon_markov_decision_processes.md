@@ -1,9 +1,9 @@
 # Quantum Algorithms for Finite-horizon Markov Decision Processes
 
-**会议**: ICML2025
-**arXiv**: [2508.05712](https://arxiv.org/abs/2508.05712)
-**代码**: 无
-**领域**: 量子RL / 量子计算
+**会议**: ICML2025  
+**arXiv**: [2508.05712](https://arxiv.org/abs/2508.05712)  
+**代码**: 无  
+**领域**: 量子RL / 量子计算  
 **关键词**: 量子算法, 有限时域MDP, 量子值迭代, 量子加速, 样本复杂度下界
 
 ## 一句话总结

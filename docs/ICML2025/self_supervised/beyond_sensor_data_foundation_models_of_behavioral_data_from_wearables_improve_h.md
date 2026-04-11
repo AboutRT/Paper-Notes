@@ -1,9 +1,9 @@
 # Beyond Sensor Data: Foundation Models of Behavioral Data from Wearables Improve Health Predictions
 
-**会议**: ICML 2025
-**arXiv**: [2507.00191](https://arxiv.org/abs/2507.00191)
-**代码**: 无（Apple 内部研究）
-**领域**: 自监督学习
+**会议**: ICML 2025  
+**arXiv**: [2507.00191](https://arxiv.org/abs/2507.00191)  
+**代码**: 无（Apple 内部研究）  
+**领域**: 自监督学习  
 **关键词**: 可穿戴设备, 健康预测, 基础模型, 行为数据, 不规则时序
 
 ## 一句话总结

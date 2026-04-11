@@ -1,9 +1,9 @@
 # PoliCon: Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2505.19558](https://arxiv.org/abs/2505.19558)
 
-**代码**: 有
+**代码**: 有  
 **领域**: AIGC检测 / LLM评测
 
 **关键词**: 政治共识, LLM评测, 欧洲议会, 社会选择理论, 投票模拟

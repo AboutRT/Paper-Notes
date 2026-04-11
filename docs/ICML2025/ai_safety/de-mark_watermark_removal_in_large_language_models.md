@@ -1,9 +1,9 @@
 # De-mark: Watermark Removal in Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2410.13808](https://arxiv.org/abs/2410.13808)
-**代码**: [GitHub - De-mark](https://github.com/RayRuiboChen/De-mark)
-**领域**: ai_safety
+**会议**: ICML2025  
+**arXiv**: [2410.13808](https://arxiv.org/abs/2410.13808)  
+**代码**: [GitHub - De-mark](https://github.com/RayRuiboChen/De-mark)  
+**领域**: ai_safety  
 **关键词**: 水印去除, LLM水印, n-gram水印, 红绿列表, 水印窃取
 
 ## 一句话总结

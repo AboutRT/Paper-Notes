@@ -1,9 +1,9 @@
 # Token-level Data Selection for Safe LLM Fine-tuning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01185](https://arxiv.org/abs/2603.01185)
-**代码**: [github.com/Polly-LYP/TOSS](https://github.com/Polly-LYP/TOSS)
-**领域**: llm_efficiency
+**会议**: ICLR 2026  
+**arXiv**: [2603.01185](https://arxiv.org/abs/2603.01185)  
+**代码**: [github.com/Polly-LYP/TOSS](https://github.com/Polly-LYP/TOSS)  
+**领域**: llm_efficiency  
 **关键词**: LLM safety, fine-tuning safety, token-level selection, data curation, safety-utility tradeoff
 
 ## 一句话总结

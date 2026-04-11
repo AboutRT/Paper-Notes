@@ -1,9 +1,9 @@
 # Global Convergence for Average Reward Constrained MDPs with Primal-Dual Actor-Critic
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.15138](https://arxiv.org/abs/2505.15138)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.15138](https://arxiv.org/abs/2505.15138)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 约束MDP, 平均奖励, 原始-对偶, 自然策略梯度, 全局收敛
 
 ## 一句话总结

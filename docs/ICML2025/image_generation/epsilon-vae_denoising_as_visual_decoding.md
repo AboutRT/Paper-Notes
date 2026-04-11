@@ -1,11 +1,11 @@
 # ε-VAE: Denoising as Visual Decoding
 
-**会议**: ICML 2025
-**arXiv**: [2410.04081](https://arxiv.org/abs/2410.04081)
+**会议**: ICML 2025  
+**arXiv**: [2410.04081](https://arxiv.org/abs/2410.04081)  
 **作者**: Long Zhao, Sanghyun Woo, Ziyu Wan, Yandong Li, Han Zhang, Boqing Gong, Hartwig Adam, Xuhui Jia, Ting Liu
 **机构**: Google DeepMind
-**代码**: 无
-**领域**: 图像生成 / 视觉自编码器
+**代码**: 无  
+**领域**: 图像生成 / 视觉自编码器  
 **关键词**: Diffusion Model, VAE, Image Tokenizer, Rectified Flow, 视觉解码, 迭代重建
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # EvolvingGrasp: Evolutionary Grasp Generation via Efficient Preference Alignment
 
-**会议**: ICCV 2025
-**arXiv**: [2503.14329](https://arxiv.org/abs/2503.14329)
-**代码**: https://evolvinggrasp.github.io/ (有)
-**领域**: Robotics / Dexterous Grasping
+**会议**: ICCV 2025  
+**arXiv**: [2503.14329](https://arxiv.org/abs/2503.14329)  
+**代码**: https://evolvinggrasp.github.io/ (有)  
+**领域**: Robotics / Dexterous Grasping  
 **关键词**: 灵巧抓取, 偏好对齐, 一致性模型, 扩散模型, 物理约束
 
 ## 一句话总结

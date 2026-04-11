@@ -1,9 +1,9 @@
 # Regret Lower Bounds for Decentralized Multi-Agent Stochastic Shortest Path Problems
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.04594](https://arxiv.org/abs/2511.04594)
-**代码**: 无
-**领域**: autonomous_driving
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.04594](https://arxiv.org/abs/2511.04594)  
+**代码**: 无  
+**领域**: autonomous_driving  
 **关键词**: 多智能体强化学习、随机最短路径、Regret下界、去中心化学习、线性函数逼近
 
 ## 一句话总结

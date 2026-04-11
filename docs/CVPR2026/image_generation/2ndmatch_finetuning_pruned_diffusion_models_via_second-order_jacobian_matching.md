@@ -1,9 +1,9 @@
 # 2ndMatch: Finetuning Pruned Diffusion Models via Second-Order Jacobian Matching
 
-**会议**: CVPR 2026
-**arXiv**: [2506.05398](https://arxiv.org/abs/2506.05398)
-**代码**: 无
-**领域**: 扩散模型 / 模型压缩
+**会议**: CVPR 2026  
+**arXiv**: [2506.05398](https://arxiv.org/abs/2506.05398)  
+**代码**: 无  
+**领域**: 扩散模型 / 模型压缩  
 **关键词**: 扩散模型, 模型剪枝, Jacobian匹配, 有限时间Lyapunov指数, 知识蒸馏
 
 ## 一句话总结

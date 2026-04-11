@@ -1,9 +1,9 @@
 # Heterogeneous Data Game: Characterizing the Model Competition Across Multiple Data Sources
 
-**会议**: ICML 2025
-**arXiv**: [2505.07688](https://arxiv.org/abs/2505.07688)
-**代码**: 无
-**领域**: 博弈论 / 数据市场
+**会议**: ICML 2025  
+**arXiv**: [2505.07688](https://arxiv.org/abs/2505.07688)  
+**代码**: 无  
+**领域**: 博弈论 / 数据市场  
 **关键词**: data heterogeneity, Nash equilibrium, model competition, proximity choice, probability choice
 
 ## 一句话总结

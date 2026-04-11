@@ -1,9 +1,9 @@
 # Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review
 
-**会议**: ACL2025
-**arXiv**: [2505.22280](https://arxiv.org/abs/2505.22280)
-**代码**: [GitHub](https://github.com/bionlplab/awesome-nlp-in-ebm)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.22280](https://arxiv.org/abs/2505.22280)  
+**代码**: [GitHub](https://github.com/bionlplab/awesome-nlp-in-ebm)  
+**领域**: llm_nlp  
 **关键词**: evidence-based medicine, NLP survey, clinical NLP, PICO extraction, clinical trial, systematic review
 
 ## 一句话总结

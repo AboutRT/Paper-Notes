@@ -1,9 +1,9 @@
 # DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation
 
-**会议**: ACL 2025
-**arXiv**: [2503.10452](https://arxiv.org/abs/2503.10452)
-**代码**: https://github.com/HWH-2000/DynaCode (有)
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2503.10452](https://arxiv.org/abs/2503.10452)  
+**代码**: https://github.com/HWH-2000/DynaCode (有)  
+**领域**: 文本生成  
 **关键词**: 代码生成, 动态评估, 数据污染, 复杂度感知, 调用图
 
 ## 一句话总结

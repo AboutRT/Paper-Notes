@@ -1,9 +1,9 @@
 # Learning to Drive is a Free Gift: Large-Scale Label-Free Autonomy Pretraining from Unposed In-The-Wild Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22091](https://arxiv.org/abs/2602.22091)
-**代码**: [项目页面](https://lfg-ai.github.io/)
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2602.22091](https://arxiv.org/abs/2602.22091)  
+**代码**: [项目页面](https://lfg-ai.github.io/)  
+**领域**: 自动驾驶  
 **关键词**: 自动驾驶预训练, 无标签学习, 视频基础模型, 4D场景理解, 规划
 
 ## 一句话总结

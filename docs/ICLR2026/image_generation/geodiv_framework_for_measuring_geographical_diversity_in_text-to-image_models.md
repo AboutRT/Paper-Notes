@@ -1,9 +1,9 @@
 # GeoDiv: Framework for Measuring Geographical Diversity in Text-to-Image Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.22120](https://arxiv.org/abs/2602.22120)
-**代码**: [GitHub](https://github.com/moha23/geodiv)
-**领域**: 文本到图像生成 / 公平性评估
+**会议**: ICLR 2026  
+**arXiv**: [2602.22120](https://arxiv.org/abs/2602.22120)  
+**代码**: [GitHub](https://github.com/moha23/geodiv)  
+**领域**: 文本到图像生成 / 公平性评估  
 **关键词**: 地理多样性, 文本到图像模型, 社会经济偏见, VLM评估, 可解释指标
 
 ## 一句话总结

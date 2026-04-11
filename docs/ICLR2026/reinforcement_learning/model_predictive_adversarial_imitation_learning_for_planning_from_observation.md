@@ -1,9 +1,9 @@
 # Model Predictive Adversarial Imitation Learning for Planning from Observation
 
-**会议**: ICLR 2026
-**arXiv**: [2507.21533](https://arxiv.org/abs/2507.21533)
-**代码**: 无
-**领域**: 模仿学习 / 机器人规划
+**会议**: ICLR 2026  
+**arXiv**: [2507.21533](https://arxiv.org/abs/2507.21533)  
+**代码**: 无  
+**领域**: 模仿学习 / 机器人规划  
 **关键词**: 对抗模仿学习, 模型预测控制, 逆强化学习, 仅观测学习, MPPI
 
 ## 一句话总结

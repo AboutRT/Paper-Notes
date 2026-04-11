@@ -1,9 +1,9 @@
 # Unified Vision-Language Modeling via Concept Space Alignment
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01096](https://arxiv.org/abs/2603.01096)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2603.01096](https://arxiv.org/abs/2603.01096)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 视觉-语言嵌入空间, 潜在扩散模型, 多语言, 视频字幕, Large Concept Model
 
 ## 一句话总结

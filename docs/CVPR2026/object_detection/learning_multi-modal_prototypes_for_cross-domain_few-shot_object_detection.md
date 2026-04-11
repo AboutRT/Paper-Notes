@@ -1,9 +1,9 @@
 # Learning Multi-Modal Prototypes for Cross-Domain Few-Shot Object Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2602.18811](https://arxiv.org/abs/2602.18811)
-**代码**: 无
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2602.18811](https://arxiv.org/abs/2602.18811)  
+**代码**: 无  
+**领域**: 目标检测  
 **关键词**: 跨域少样本检测, 视觉原型, 多模态, GroundingDINO, 硬负样本
 
 ## 一句话总结

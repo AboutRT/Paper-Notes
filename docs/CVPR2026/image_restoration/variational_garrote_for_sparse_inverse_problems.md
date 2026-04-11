@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 图像恢复  
 **关键词**: image_restoration, sparse_reconstruction, variational_inference, CT_reconstruction, inverse_problems  
+
 ## 一句话总结
 
 在统一的稀疏逆问题框架下，系统比较 $\ell_1$ 正则化（LASSO）与 Variational Garrote（VG，一种变分 $\ell_0$ 近似方法），通过信号重采样、去噪和稀疏视角 CT 重建三个任务，证明 VG 在强欠定场景下能更准确地恢复稀疏支撑集，获得更低的泛化误差。

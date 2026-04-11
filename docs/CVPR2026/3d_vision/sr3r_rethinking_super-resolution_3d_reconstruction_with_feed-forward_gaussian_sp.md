@@ -1,9 +1,9 @@
 # SR3R: Rethinking Super-Resolution 3D Reconstruction With Feed-Forward Gaussian Splatting
 
-**会议**: CVPR2026
-**arXiv**: [2602.24020](https://arxiv.org/abs/2602.24020)
-**代码**: [项目主页](https://xiangfeng66.github.io/SR3R/)
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2602.24020](https://arxiv.org/abs/2602.24020)  
+**代码**: [项目主页](https://xiangfeng66.github.io/SR3R/)  
+**领域**: 3d_vision  
 **关键词**: 3D超分辨率, 3D高斯溅射, 前馈重建, 高斯偏移学习, 稀疏视图重建
 
 ## 一句话总结

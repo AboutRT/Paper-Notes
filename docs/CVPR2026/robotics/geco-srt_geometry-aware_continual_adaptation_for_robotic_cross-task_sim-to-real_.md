@@ -1,8 +1,8 @@
 # GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20871](https://arxiv.org/abs/2602.20871)
-**代码**: 无
+**会议**: CVPR 2026  
+**arXiv**: [2602.20871](https://arxiv.org/abs/2602.20871)  
+**代码**: 无  
 **领域**: 机器人
 
 ## 一句话总结

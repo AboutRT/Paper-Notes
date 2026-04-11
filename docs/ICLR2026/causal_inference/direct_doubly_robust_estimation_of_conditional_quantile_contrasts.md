@@ -1,9 +1,9 @@
 # Direct Doubly Robust Estimation of Conditional Quantile Contrasts
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19666](https://arxiv.org/abs/2601.19666)
-**代码**: 补充材料中提供复现代码
-**领域**: 因果推理
+**会议**: ICLR 2026  
+**arXiv**: [2601.19666](https://arxiv.org/abs/2601.19666)  
+**代码**: 补充材料中提供复现代码  
+**领域**: 因果推理  
 **关键词**: heterogeneous treatment effect, conditional quantile comparator, doubly robust estimation, causal inference, quantile treatment effect
 
 ## 一句话总结

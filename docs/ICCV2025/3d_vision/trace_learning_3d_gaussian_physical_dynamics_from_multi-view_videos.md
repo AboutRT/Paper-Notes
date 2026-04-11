@@ -1,8 +1,8 @@
 # TRACE: Learning 3D Gaussian Physical Dynamics from Multi-view Videos
 
-**会议**: ICCV 2025
-**arXiv**: [2508.09811](https://arxiv.org/abs/2508.09811)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2508.09811](https://arxiv.org/abs/2508.09811)  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 物理动力学学习, 未来帧外推, 平移旋转动力学系统, 动态场景重建
 
 ## 一句话总结

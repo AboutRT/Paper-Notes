@@ -1,9 +1,9 @@
 # DeDelayed: Deleting Remote Inference Delay via On-Device Correction
 
-**会议**: CVPR 2026
-**arXiv**: [2510.13714](https://arxiv.org/abs/2510.13714)
-**代码**: [github.com/InterDigitalInc/dedelayed](https://github.com/InterDigitalInc/dedelayed) (有)
-**领域**: Segmentation
+**会议**: CVPR 2026  
+**arXiv**: [2510.13714](https://arxiv.org/abs/2510.13714)  
+**代码**: [github.com/InterDigitalInc/dedelayed](https://github.com/InterDigitalInc/dedelayed) (有)  
+**领域**: Segmentation  
 **关键词**: 协同推理, 实时视频分割, 延迟补偿, 时序预测, 端云协作
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心 idea**: $\hat{y}_t = f_{\text{local}}(x_t, z_{t-\tau})$，本地模型处理当前帧，远程模型预测未来帧特征，两者通过逐元素加法融合。
 
 ## 方法详解
+
 ### 整体框架
 - **远程模型**: 2D ViT (EfficientViT-L1) 对每帧提特征 → 时序拼接 K=4 帧 → 加延迟嵌入 → 3D ViT 编码器 → 自适应池化 + 通道瓶颈（DR-AE）→ 下行传输
 - **本地模型**: CNN2D + CoAt2D 处理低分辨率当前帧，融合远程特征后做分割
@@ -36,6 +37,7 @@
 - 训练延迟 $\tau$ 从 0-5 帧均匀采样（0-167ms @30fps）
 
 ## 实验关键数据
+
 ### 主实验（BDD100K 语义分割 mIoU）
 | 推理配置 | 0ms | 33ms | 67ms | 100ms | 167ms |
 |---------|------|------|------|-------|-------|

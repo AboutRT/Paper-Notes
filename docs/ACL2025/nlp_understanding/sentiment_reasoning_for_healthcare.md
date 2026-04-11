@@ -1,9 +1,9 @@
 # Sentiment Reasoning for Healthcare
 
-**会议**: ACL2025
-**arXiv**: [2407.21054](https://arxiv.org/abs/2407.21054)
-**代码**: [leduckhai/Sentiment-Reasoning](https://github.com/leduckhai/Sentiment-Reasoning)
-**领域**: nlp_understanding
+**会议**: ACL2025  
+**arXiv**: [2407.21054](https://arxiv.org/abs/2407.21054)  
+**代码**: [leduckhai/Sentiment-Reasoning](https://github.com/leduckhai/Sentiment-Reasoning)  
+**领域**: nlp_understanding  
 **关键词**: 情感推理, 医疗对话, 多模态情感分析, 理据生成, 可解释AI
 
 ## 一句话总结

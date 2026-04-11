@@ -1,9 +1,9 @@
 # On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.22491](https://arxiv.org/abs/2505.22491)
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.22491](https://arxiv.org/abs/2505.22491)  
 **作者**: Moritz Haas, Sebastian Bordt, Ulrike von Luxburg, Leena Chennuru Vankadara (Tübingen, UCL Gatsby)
-**领域**: others
+**领域**: others  
 **关键词**: infinite-width limit, standard parameterization, learning rate scaling, cross-entropy loss, feature learning, controlled divergence
 
 ## 一句话总结

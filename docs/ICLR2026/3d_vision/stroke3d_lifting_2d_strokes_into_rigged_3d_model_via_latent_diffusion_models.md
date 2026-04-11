@@ -1,9 +1,9 @@
 # Stroke3D: Lifting 2D Strokes into Rigged 3D Model via Latent Diffusion Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.09713](https://arxiv.org/abs/2602.09713)
-**代码**: [https://whalesong-zrs.github.io/Stroke3D_project_page/](https://whalesong-zrs.github.io/Stroke3D_project_page/)
-**领域**: 3D视觉
+**会议**: ICLR 2026  
+**arXiv**: [2602.09713](https://arxiv.org/abs/2602.09713)  
+**代码**: [https://whalesong-zrs.github.io/Stroke3D_project_page/](https://whalesong-zrs.github.io/Stroke3D_project_page/)  
+**领域**: 3D视觉  
 **关键词**: 3D生成, 骨骼生成, 图扩散, 绑骨, DPO
 
 ## 一句话总结

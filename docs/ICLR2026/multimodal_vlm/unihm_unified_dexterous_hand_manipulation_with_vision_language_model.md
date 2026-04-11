@@ -1,9 +1,9 @@
 # UniHM: Unified Dexterous Hand Manipulation with Vision Language Model
 
-**会议**: ICLR 2026
-**arXiv**: [2603.00732](https://arxiv.org/abs/2603.00732)
-**代码**: [GitHub](https://unihm.github.io/)
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2603.00732](https://arxiv.org/abs/2603.00732)  
+**代码**: [GitHub](https://unihm.github.io/)  
+**领域**: 多模态VLM  
 **关键词**: 灵巧手操控, VLM, 统一 tokenizer, 物理动态优化, 跨形态泛化
 
 ## 一句话总结

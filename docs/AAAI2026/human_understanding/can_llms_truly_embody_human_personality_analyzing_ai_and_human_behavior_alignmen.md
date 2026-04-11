@@ -1,9 +1,9 @@
 # Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution
 
-**会议**: AAAI 2026
-**arXiv**: [2602.07414](https://arxiv.org/abs/2602.07414)
-**代码**: [有](https://github.com/DSincerity/Personality-LLM-BehavAlign-Dispute)
-**领域**: 人体理解
+**会议**: AAAI 2026  
+**arXiv**: [2602.07414](https://arxiv.org/abs/2602.07414)  
+**代码**: [有](https://github.com/DSincerity/Personality-LLM-BehavAlign-Dispute)  
+**领域**: 人体理解  
 **关键词**: LLM人格模拟, 冲突解决, 大五人格, 行为对齐, 社会仿真
 
 ## 一句话总结

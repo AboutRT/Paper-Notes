@@ -1,9 +1,9 @@
 # Summaries as Centroids for Interpretable and Scalable Text Clustering
 
-**会议**: ICLR 2026
-**arXiv**: [2502.09667](https://arxiv.org/abs/2502.09667)
-**代码**: 无
-**领域**: 模型压缩 / 文本聚类
+**会议**: ICLR 2026  
+**arXiv**: [2502.09667](https://arxiv.org/abs/2502.09667)  
+**代码**: 无  
+**领域**: 模型压缩 / 文本聚类  
 **关键词**: 文本聚类, k-means, 摘要即中心, 可解释性, 流式聚类, LLM可选
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Which Retain Set Matters for LLM Unlearning? A Case Study on Entity Unlearning
 
-**会议**: ACL 2025
-**arXiv**: [2502.11441](https://arxiv.org/abs/2502.11441)
-**代码**: 未公开
-**领域**: LLM/NLP
+**会议**: ACL 2025  
+**arXiv**: [2502.11441](https://arxiv.org/abs/2502.11441)  
+**代码**: 未公开  
+**领域**: LLM/NLP  
 **关键词**: machine unlearning, retain set, entity unlearning, syntactic similarity, neighbor set, regularization
 
 ## 一句话总结

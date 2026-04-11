@@ -1,9 +1,9 @@
 # ItDPDM: Information-Theoretic Discrete Poisson Diffusion Model
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.05082](https://arxiv.org/abs/2505.05082)
-**代码**: 有（论文中提供链接）
-**领域**: 图像生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.05082](https://arxiv.org/abs/2505.05082)  
+**代码**: 有（论文中提供链接）  
+**领域**: 图像生成  
 **关键词**: Discrete Diffusion, Poisson Process, Information Theory, Likelihood Estimation, Symbolic Music
 
 ## 一句话总结

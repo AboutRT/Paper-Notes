@@ -1,9 +1,9 @@
 # MATA: A Trainable Hierarchical Automaton System for Multi-Agent Visual Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19204](https://arxiv.org/abs/2601.19204)
-**代码**: [GitHub](https://github.com/ControlNet/MATA)
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2601.19204](https://arxiv.org/abs/2601.19204)  
+**代码**: [GitHub](https://github.com/ControlNet/MATA)  
+**领域**: 多模态VLM  
 **关键词**: 多Agent系统, 层次有限状态自动机, 视觉推理, 可训练状态控制器, 协作与竞争
 
 ## 一句话总结

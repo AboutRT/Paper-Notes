@@ -1,9 +1,9 @@
 # Regression for the Mean: Auto-Evaluation and Inference with Few Labels through Post-hoc Regression
 
-**会议**: ICML2025
-**arXiv**: [2411.12665](https://arxiv.org/abs/2411.12665)
-**代码**: [ppi_py](https://github.com/aangelopoulos/ppi_py)（基线实现）
-**领域**: 自动评估 / 统计推断
+**会议**: ICML2025  
+**arXiv**: [2411.12665](https://arxiv.org/abs/2411.12665)  
+**代码**: [ppi_py](https://github.com/aangelopoulos/ppi_py)（基线实现）  
+**领域**: 自动评估 / 统计推断  
 **关键词**: Prediction Powered Inference, 少标签评估, 回归系数, 方差缩减, LLM评估
 
 ## 一句话总结

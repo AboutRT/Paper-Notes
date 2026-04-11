@@ -1,9 +1,9 @@
 # Broadband Ground Motion Synthesis by Diffusion Model with Minimal Condition
 
-**会议**: ICML2025
-**arXiv**: [2412.17333](https://arxiv.org/abs/2412.17333)
-**代码**: 未开源
-**领域**: 扩散模型 / 地震波形合成
+**会议**: ICML2025  
+**arXiv**: [2412.17333](https://arxiv.org/abs/2412.17333)  
+**代码**: 未开源  
+**领域**: 扩散模型 / 地震波形合成  
 **关键词**: diffusion model, seismic waveform, ground motion synthesis, latent diffusion, paired data
 
 ## 一句话总结

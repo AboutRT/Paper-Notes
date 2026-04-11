@@ -1,9 +1,9 @@
 # Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13454](https://arxiv.org/abs/2510.13454)
-**代码**: [项目页面](https://gohyojun15.github.io/VIST3A/)
-**领域**: 3D视觉/生成
+**会议**: ICLR 2026  
+**arXiv**: [2510.13454](https://arxiv.org/abs/2510.13454)  
+**代码**: [项目页面](https://gohyojun15.github.io/VIST3A/)  
+**领域**: 3D视觉/生成  
 **关键词**: Text-to-3D, 模型拼接, 视频生成器, 3D重建, 3DGS, 直接奖励微调, 点云图
 
 ## 一句话总结

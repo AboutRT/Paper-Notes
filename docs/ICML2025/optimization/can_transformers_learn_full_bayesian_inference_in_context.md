@@ -1,9 +1,9 @@
 # Can Transformers Learn Full Bayesian Inference In Context?
 
-**会议**: ICML 2025
-**arXiv**: [2501.16825](https://arxiv.org/abs/2501.16825)
-**代码**: https://github.com/ArikReuter/ICL_for_Full_Bayesian_Inference
-**领域**: 优化/贝叶斯推断
+**会议**: ICML 2025  
+**arXiv**: [2501.16825](https://arxiv.org/abs/2501.16825)  
+**代码**: https://github.com/ArikReuter/ICL_for_Full_Bayesian_Inference  
+**领域**: 优化/贝叶斯推断  
 **关键词**: 上下文学习, 贝叶斯推断, 后验采样, 扩散Transformer, 归一化流
 
 ## 一句话总结

@@ -17,6 +17,7 @@
 核心 idea：先通过参数空间分析发现 LRM 和 ITM 的任务向量主子空间近乎正交（相似度 < 0.1），说明两种能力耦合度低、合并可行；再分两阶段解决输出格式问题和指令增强问题——Stage 1 用零空间投影保护 thinking token 的分布不变，Stage 2 用注意力统计引导模块级缩放系数来强化指令相关组件。
 
 ## 方法详解
+
 ### 整体框架
 RAIN-Merging（Reasoning-Aware Instruction-attention guided Null-space projection Merging）是一个两阶段的无梯度合并管线。以 LRM 参数 θ_R 为锚点，将 ITM 任务向量 Δ_I = θ_I − θ_B 经过变换后加到 LRM 上，最终模型为 θ* = θ_R + λ ⊕_k α*_k Δ_I^{⊥,k}。
 
@@ -43,6 +44,7 @@ RAIN-Merging（Reasoning-Aware Instruction-attention guided Null-space projectio
 全局缩放系数 λ 控制合并强度，仅合并 Q、K、V、O 和 FFN 参数。
 
 ## 实验关键数据
+
 ### 主实验
 
 | 方法 | IFEval | CELLO | InfoBench | ComplexBench | IF Avg. | Math | GPQA | Aider | Arena-Hard | RG Avg. |

@@ -1,9 +1,9 @@
 # Deep Learning Based Estimation of Blood Glucose Levels from Multidirectional Scleral Blood Vessel Imaging
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12715](https://arxiv.org/abs/2603.12715)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.12715](https://arxiv.org/abs/2603.12715)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 血糖估计, 巩膜血管成像, 多视角深度学习, 非侵入式监测, Transformer融合
 
 ## 一句话总结

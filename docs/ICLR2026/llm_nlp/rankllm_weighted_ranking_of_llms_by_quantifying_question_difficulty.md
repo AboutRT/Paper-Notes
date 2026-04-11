@@ -1,9 +1,9 @@
 # RankLLM: Weighted Ranking of LLMs by Quantifying Question Difficulty
 
-**会议**: ICLR 2026
-**arXiv**: [2602.12424](https://arxiv.org/abs/2602.12424)
-**代码**: 未公开（已建立 HuggingFace 排行榜平台）
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2602.12424](https://arxiv.org/abs/2602.12424)  
+**代码**: 未公开（已建立 HuggingFace 排行榜平台）  
+**领域**: llm_nlp  
 **关键词**: LLM evaluation, question difficulty, model competency, bipartite graph, score propagation, benchmark
 
 ## 一句话总结

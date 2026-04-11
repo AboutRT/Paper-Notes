@@ -1,9 +1,9 @@
 # Optimization over Sparse Support-Preserving Sets: Two-Step Projection with Global Optimality Guarantees
 
-**会议**: ICML 2025
-**arXiv**: [2506.08558](https://arxiv.org/abs/2506.08558)
-**代码**: 无
-**领域**: 优化
+**会议**: ICML 2025  
+**arXiv**: [2506.08558](https://arxiv.org/abs/2506.08558)  
+**代码**: 无  
+**领域**: 优化  
 **关键词**: sparse optimization, IHT, l0 constraint, support-preserving, two-step projection
 
 ## 一句话总结

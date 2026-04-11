@@ -1,9 +1,9 @@
 # Flow2GAN: Hybrid Flow Matching and GAN with Multi-Resolution Network for Few-step High-Fidelity Audio Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2512.23278](https://arxiv.org/abs/2512.23278)
-**代码**: [GitHub](https://github.com/k2-fsa/Flow2GAN)
-**领域**: 扩散模型/音频生成
+**会议**: ICLR 2026  
+**arXiv**: [2512.23278](https://arxiv.org/abs/2512.23278)  
+**代码**: [GitHub](https://github.com/k2-fsa/Flow2GAN)  
+**领域**: 扩散模型/音频生成  
 **关键词**: Flow Matching, GAN, 音频生成, 多分辨率, 少步推理
 
 ## 一句话总结

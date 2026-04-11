@@ -1,9 +1,9 @@
 # Softmax is not Enough (for Sharp Size Generalisation)
 
-**会议**: ICML2025
-**arXiv**: [2410.01104](https://arxiv.org/abs/2410.01104)
-**代码**: 无官方开源（论文提供了 JAX 实现片段）
-**领域**: Transformer泛化 / 注意力机制理论
+**会议**: ICML2025  
+**arXiv**: [2410.01104](https://arxiv.org/abs/2410.01104)  
+**代码**: 无官方开源（论文提供了 JAX 实现片段）  
+**领域**: Transformer泛化 / 注意力机制理论  
 **关键词**: softmax, 注意力分散, 尺寸泛化, 自适应温度, sharp function, Transformer理论
 
 ## 一句话总结

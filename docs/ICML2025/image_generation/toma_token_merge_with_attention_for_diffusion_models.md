@@ -1,9 +1,9 @@
 # ToMA: Token Merge with Attention for Diffusion Models
 
-**会议**: ICML2025
-**arXiv**: [2509.10918](https://arxiv.org/abs/2509.10918)
-**代码**: [github.com/WenboLuu/ToMA](https://github.com/WenboLuu/ToMA)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2509.10918](https://arxiv.org/abs/2509.10918)  
+**代码**: [github.com/WenboLuu/ToMA](https://github.com/WenboLuu/ToMA)  
+**领域**: image_generation  
 **关键词**: token merging, diffusion model acceleration, submodular optimization, GPU-aligned efficiency, training-free
 
 ## 一句话总结

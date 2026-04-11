@@ -1,9 +1,9 @@
 # TripleSumm: Adaptive Triple-Modality Fusion for Video Summarization
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01169](https://arxiv.org/abs/2603.01169)
-**代码**: https://github.com/smkim37/TripleSumm
-**领域**: 视频摘要 / 多模态
+**会议**: ICLR 2026  
+**arXiv**: [2603.01169](https://arxiv.org/abs/2603.01169)  
+**代码**: https://github.com/smkim37/TripleSumm  
+**领域**: 视频摘要 / 多模态  
 **关键词**: 视频摘要, 三模态融合, 自适应权重, 多尺度时序, 大规模数据集
 
 ## 一句话总结

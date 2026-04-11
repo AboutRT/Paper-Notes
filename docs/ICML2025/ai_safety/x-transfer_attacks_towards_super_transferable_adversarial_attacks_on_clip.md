@@ -1,9 +1,9 @@
 # X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP
 
-**会议**: ICML 2025
-**arXiv**: [2505.05528](https://arxiv.org/abs/2505.05528)
-**代码**: [GitHub](https://github.com/HanxunH/X-Transfer)
-**领域**: AI安全 / 对抗攻击
+**会议**: ICML 2025  
+**arXiv**: [2505.05528](https://arxiv.org/abs/2505.05528)  
+**代码**: [GitHub](https://github.com/HanxunH/X-Transfer)  
+**领域**: AI安全 / 对抗攻击  
 **关键词**: adversarial attack, CLIP, universal adversarial perturbation, transferability, surrogate scaling
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Federated ADMM from Bayesian Duality
 
-**会议**: ICLR 2026
-**arXiv**: [2506.13150](https://arxiv.org/abs/2506.13150)
-**代码**: [有](https://github.com/xxx)
-**领域**: 联邦学习/优化
+**会议**: ICLR 2026  
+**arXiv**: [2506.13150](https://arxiv.org/abs/2506.13150)  
+**代码**: [有](https://github.com/xxx)  
+**领域**: 联邦学习/优化  
 **关键词**: ADMM, 变分贝叶斯, 自然梯度, 联邦学习, 贝叶斯对偶
 
 ## 一句话总结

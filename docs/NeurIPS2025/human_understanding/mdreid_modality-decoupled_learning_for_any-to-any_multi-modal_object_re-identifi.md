@@ -1,9 +1,9 @@
 # MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.23301](https://arxiv.org/abs/2510.23301)
-**代码**: [GitHub](https://github.com/stone96123/MDReID) (有)
-**领域**: Human Understanding / Object Re-Identification
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.23301](https://arxiv.org/abs/2510.23301)  
+**代码**: [GitHub](https://github.com/stone96123/MDReID) (有)  
+**领域**: Human Understanding / Object Re-Identification  
 **关键词**: 多模态ReID, 模态解耦, 跨模态检索, any-to-any匹配, 度量学习
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Collaborative Mean Estimation Among Heterogeneous Strategic Agents: Individual Rationality, Fairness, and Truthful Contribution
 
-**会议**: ICML2025
-**arXiv**: [2407.15881](https://arxiv.org/abs/2407.15881)
-**代码**: 待确认
-**领域**: ai_safety
+**会议**: ICML2025  
+**arXiv**: [2407.15881](https://arxiv.org/abs/2407.15881)  
+**代码**: 待确认  
+**领域**: ai_safety  
 **关键词**: collaborative learning, mechanism design, strategic agents, individual rationality, fairness, Nash equilibrium
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Preference Adaptive and Sequential Text-to-Image Generation
 
-**会议**: ICML 2025
-**arXiv**: [2412.10419](https://arxiv.org/abs/2412.10419)
-**代码**: https://www.kaggle.com/datasets/googleai/pasta-data (数据集)
-**领域**: Image Generation
+**会议**: ICML 2025  
+**arXiv**: [2412.10419](https://arxiv.org/abs/2412.10419)  
+**代码**: https://www.kaggle.com/datasets/googleai/pasta-data (数据集)  
+**领域**: Image Generation  
 **关键词**: 文本到图像, 个性化, 序列交互, 强化学习, 用户偏好
 
 ## 一句话总结

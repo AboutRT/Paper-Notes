@@ -1,7 +1,7 @@
 # Tokenize Once, Recommend Anywhere: Unified Item Tokenization for Multi-domain LLM-based Recommendation
 
-**会议**: AAAI 2026
-**arXiv**: [2511.12922](https://arxiv.org/abs/2511.12922)
+**会议**: AAAI 2026  
+**arXiv**: [2511.12922](https://arxiv.org/abs/2511.12922)  
 **代码**: [github.com/jackfrost168/UniTok](https://github.com/jackfrost168/UniTok)
 
 ## 一句话总结

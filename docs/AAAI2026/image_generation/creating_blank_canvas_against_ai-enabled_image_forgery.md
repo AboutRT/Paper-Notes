@@ -1,9 +1,9 @@
 # Creating Blank Canvas Against AI-Enabled Image Forgery
 
-**会议**: AAAI 2026
-**arXiv**: [2511.22237](https://arxiv.org/abs/2511.22237)
-**代码**: [GitHub](https://github.com/qsong2001/blank_canvas)
-**领域**: 图像生成
+**会议**: AAAI 2026  
+**arXiv**: [2511.22237](https://arxiv.org/abs/2511.22237)  
+**代码**: [GitHub](https://github.com/qsong2001/blank_canvas)  
+**领域**: 图像生成  
 **关键词**: 图像篡改检测, 对抗扰动, SAM, 频率感知优化, 主动保护
 
 ## 一句话总结

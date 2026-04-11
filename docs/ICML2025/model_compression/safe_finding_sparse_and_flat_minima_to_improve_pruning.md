@@ -1,9 +1,9 @@
 # SAFE: Finding Sparse and Flat Minima to Improve Pruning
 
-**会议**: ICML2025
-**arXiv**: [2506.06866](https://arxiv.org/abs/2506.06866)
-**代码**: JAX & PyTorch（论文附代码）
-**领域**: 模型剪枝 / 模型压缩
+**会议**: ICML2025  
+**arXiv**: [2506.06866](https://arxiv.org/abs/2506.06866)  
+**代码**: JAX & PyTorch（论文附代码）  
+**领域**: 模型剪枝 / 模型压缩  
 **关键词**: 网络剪枝, 稀疏优化, 平坦极小值, SAM, ADMM, LLM剪枝
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Exogenous Isomorphism for Counterfactual Identifiability
 
-**会议**: ICML2025
-**arXiv**: [2505.02212](https://arxiv.org/abs/2505.02212)
-**代码**: [cyisk/tmscm](https://github.com/cyisk/tmscm)
-**领域**: 因果推断 (Causal Inference)
+**会议**: ICML2025  
+**arXiv**: [2505.02212](https://arxiv.org/abs/2505.02212)  
+**代码**: [cyisk/tmscm](https://github.com/cyisk/tmscm)  
+**领域**: 因果推断 (Causal Inference)  
 **关键词**: 反事实可辨识性, Pearl因果层级, 外生同构, 结构因果模型, 三角单调SCM
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Color Matching Using Hypernetwork-Based Kolmogorov-Arnold Networks (cmKAN)
 
-**会议**: ICCV 2025
-**arXiv**: [2503.11781](https://arxiv.org/abs/2503.11781)
-**代码**: [https://github.com/gosha20777/cmKAN](https://github.com/gosha20777/cmKAN)
+**会议**: ICCV 2025  
+**arXiv**: [2503.11781](https://arxiv.org/abs/2503.11781)  
+**代码**: [https://github.com/gosha20777/cmKAN](https://github.com/gosha20777/cmKAN)  
 **机构**: Samara National Research University, University of Wurzburg, York University
-**领域**: 模型压缩 / 颜色匹配 / 轻量化网络
+**领域**: 模型压缩 / 颜色匹配 / 轻量化网络  
 **关键词**: color matching, KAN, Kolmogorov-Arnold Network, hypernetwork, camera ISP, raw-to-sRGB, color transfer, lightweight
 
 ## 一句话总结

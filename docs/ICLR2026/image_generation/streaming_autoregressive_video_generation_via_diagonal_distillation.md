@@ -1,9 +1,9 @@
 # Streaming Autoregressive Video Generation via Diagonal Distillation
 
-**会议**: ICLR 2026
-**arXiv**: [2603.09488](https://arxiv.org/abs/2603.09488)
-**代码**: [SphereLab.ai/diagdistill](https://SphereLab.ai/diagdistill)
-**领域**: 视频生成 / 扩散蒸馏 / 实时推理
+**会议**: ICLR 2026  
+**arXiv**: [2603.09488](https://arxiv.org/abs/2603.09488)  
+**代码**: [SphereLab.ai/diagdistill](https://SphereLab.ai/diagdistill)  
+**领域**: 视频生成 / 扩散蒸馏 / 实时推理  
 **关键词**: 对角蒸馏, 自回归视频生成, 流分布匹配, 对角强制, 流式视频
 
 ## 一句话总结

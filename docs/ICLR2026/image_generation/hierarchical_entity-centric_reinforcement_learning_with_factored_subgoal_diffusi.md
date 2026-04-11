@@ -1,9 +1,9 @@
 # Hierarchical Entity-centric Reinforcement Learning with Factored Subgoal Diffusion
 
-**会议**: ICLR 2026
-**arXiv**: [2602.02722](https://arxiv.org/abs/2602.02722)
-**代码**: [GitHub](https://github.com/DanHrmti/HECRL)
-**领域**: 扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2602.02722](https://arxiv.org/abs/2602.02722)  
+**代码**: [GitHub](https://github.com/DanHrmti/HECRL)  
+**领域**: 扩散模型  
 **关键词**: 层次强化学习, 目标条件RL, 扩散模型, 实体中心, 子目标生成
 
 ## 一句话总结

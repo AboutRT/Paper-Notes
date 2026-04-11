@@ -2,10 +2,10 @@
 
 # Online Linear Regression with Paid Stochastic Features
 
-**会议**: AAAI2026
-**arXiv**: [2511.08073](https://arxiv.org/abs/2511.08073)
-**代码**: 无
-**领域**: 在线学习 / 线性回归
+**会议**: AAAI2026  
+**arXiv**: [2511.08073](https://arxiv.org/abs/2511.08073)  
+**代码**: 无  
+**领域**: 在线学习 / 线性回归  
 **关键词**: 在线线性回归, 噪声特征, 付费特征, 遗憾界, 协方差估计, 矩阵鞅集中
 
 ## 一句话总结

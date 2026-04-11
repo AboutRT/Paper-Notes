@@ -1,9 +1,9 @@
 # Ferret: Federated Full-Parameter Tuning at Scale for Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2409.06277](https://arxiv.org/abs/2409.06277)
-**代码**: [allen4747/Ferret](https://github.com/allen4747/Ferret)
-**领域**: 联邦学习 / 大语言模型微调
+**会议**: ICML2025  
+**arXiv**: [2409.06277](https://arxiv.org/abs/2409.06277)  
+**代码**: [allen4747/Ferret](https://github.com/allen4747/Ferret)  
+**领域**: 联邦学习 / 大语言模型微调  
 **关键词**: 联邦学习, 全参数微调, 通信压缩, 共享随机性, LLM, 投影重建
 
 ## 一句话总结

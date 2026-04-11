@@ -1,8 +1,8 @@
 # UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction
 
-**会议**: ICML 2025
-**arXiv**: [2503.15661](https://arxiv.org/abs/2503.15661)
-**领域**: 目标检测
+**会议**: ICML 2025  
+**arXiv**: [2503.15661](https://arxiv.org/abs/2503.15661)  
+**领域**: 目标检测  
 **关键词**: GUI 基准, 桌面环境, 元素定位, 布局理解, 动作预测, 视觉感知, 自主智能体
 
 ## 一句话总结

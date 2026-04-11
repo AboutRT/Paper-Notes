@@ -1,9 +1,9 @@
 # MIL-PF: Multiple Instance Learning on Precomputed Features for Mammography Classification
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09374](https://arxiv.org/abs/2603.09374)
-**代码**: 有（论文承诺公开）
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.09374](https://arxiv.org/abs/2603.09374)  
+**代码**: 有（论文承诺公开）  
+**领域**: 医学图像  
 **关键词**: 多示例学习, 乳腺X线摄影, 预计算特征, 基础模型, 注意力聚合
 
 ## 一句话总结

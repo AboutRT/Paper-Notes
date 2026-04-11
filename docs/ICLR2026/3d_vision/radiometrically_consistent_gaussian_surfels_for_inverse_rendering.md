@@ -1,9 +1,9 @@
 # PerfGuard: A Performance-Aware Agent for Visual Content Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2601.22571](https://arxiv.org/abs/2601.22571)
-**代码**: [GitHub](https://github.com/FelixChan9527/PerfGuard)
-**领域**: AI Agent/视觉内容生成
+**会议**: ICLR 2026  
+**arXiv**: [2601.22571](https://arxiv.org/abs/2601.22571)  
+**代码**: [GitHub](https://github.com/FelixChan9527/PerfGuard)  
+**领域**: AI Agent/视觉内容生成  
 **关键词**: LLM Agent, 工具选择, 性能边界建模, 视觉生成, AIGC, 偏好优化
 
 ## 一句话总结

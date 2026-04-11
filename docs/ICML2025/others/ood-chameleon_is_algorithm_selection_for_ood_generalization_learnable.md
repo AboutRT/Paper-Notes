@@ -1,9 +1,9 @@
 # OOD-Chameleon: Is Algorithm Selection for OOD Generalization Learnable?
 
-**会议**: ICML2025
-**arXiv**: [2410.02735](https://arxiv.org/abs/2410.02735)
-**代码**: [GitHub - OOD-Chameleon](https://github.com/LiangzeJiang/OOD-Chameleon)
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2410.02735](https://arxiv.org/abs/2410.02735)  
+**代码**: [GitHub - OOD-Chameleon](https://github.com/LiangzeJiang/OOD-Chameleon)  
+**领域**: others  
 **关键词**: OOD泛化, 算法选择, 数据集特征, 多标签分类, 元学习
 
 ## 一句话总结

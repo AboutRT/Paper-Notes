@@ -1,9 +1,9 @@
 # Fantastic Features and Where to Find Them: A Probing Method to Combine Features from Multiple Foundation Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.01405](https://arxiv.org/abs/2512.01405)
-**代码**: 有 (bramtoula.github.io/combo)
-**领域**: 模型压缩 / 多模型融合
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.01405](https://arxiv.org/abs/2512.01405)  
+**代码**: 有 (bramtoula.github.io/combo)  
+**领域**: 模型压缩 / 多模型融合  
 **关键词**: foundation model, probing, multi-backbone, feature combination, model selection
 
 ## 一句话总结

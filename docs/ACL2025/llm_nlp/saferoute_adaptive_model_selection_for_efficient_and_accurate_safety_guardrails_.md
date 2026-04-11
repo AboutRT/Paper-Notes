@@ -1,9 +1,9 @@
 # SafeRoute: Adaptive Model Selection for Efficient and Accurate Safety Guardrails in Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2502.12464](https://arxiv.org/abs/2502.12464)
-**代码**: 未公开
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.12464](https://arxiv.org/abs/2502.12464)  
+**代码**: 未公开  
+**领域**: llm_nlp  
 **关键词**: LLM安全, 安全护栏, 模型路由, 自适应选择, 效率-精度权衡, 贝叶斯神经网络
 
 ## 一句话总结

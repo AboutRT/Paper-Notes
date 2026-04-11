@@ -1,9 +1,9 @@
 # Few-shot Acoustic Synthesis with Multimodal Flow Matching
 
-**会议**: CVPR2026
-**arXiv**: [2603.19176](https://arxiv.org/abs/2603.19176)
-**代码**: [项目主页](https://amandinebtto.github.io/FLAC/)
-**领域**: 图像生成（音频生成/声学合成）
+**会议**: CVPR2026  
+**arXiv**: [2603.19176](https://arxiv.org/abs/2603.19176)  
+**代码**: [项目主页](https://amandinebtto.github.io/FLAC/)  
+**领域**: 图像生成（音频生成/声学合成）  
 **关键词**: flow matching, room impulse response, few-shot acoustic synthesis, diffusion transformer, multimodal conditioning, 联合嵌入
 
 ## 一句话总结

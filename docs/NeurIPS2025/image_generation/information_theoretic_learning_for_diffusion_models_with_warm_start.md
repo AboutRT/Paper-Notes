@@ -1,9 +1,9 @@
 # Information Theoretic Learning for Diffusion Models with Warm Start
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20903](https://arxiv.org/abs/2510.20903)
-**代码**: 无
-**领域**: 图像生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20903](https://arxiv.org/abs/2510.20903)  
+**代码**: 无  
+**领域**: 图像生成  
 **关键词**: Diffusion Models, Likelihood Estimation, Information Theory, Fisher Divergence, Warm Start
 
 ## 一句话总结

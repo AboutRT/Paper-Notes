@@ -1,10 +1,10 @@
 # Where, What, Why: Toward Explainable 3D-GS Watermarking
 
-**会议**: CVPR2026
-**arXiv**: [2603.08809](https://arxiv.org/abs/2603.08809)
+**会议**: CVPR2026  
+**arXiv**: [2603.08809](https://arxiv.org/abs/2603.08809)  
 **作者**: Mingshu Cai (Waseda University), Jiajun Li (Southeast University), Osamu Yoshie, Yuya Ieiri, Yixuan Li (NTU)
-**代码**: 未开源
-**领域**: 3d_vision
+**代码**: 未开源  
+**领域**: 3d_vision  
 **关键词**: 3D Gaussian Splatting, 数字水印, 版权保护, 可解释性, 鲁棒嵌入
 
 ## 一句话总结

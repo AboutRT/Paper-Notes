@@ -1,9 +1,9 @@
 # MaskDiME: Adaptive Masked Diffusion for Precise and Efficient Visual Counterfactual Explanations
 
-**会议**: CVPR 2026
-**arXiv**: [2602.18792](https://arxiv.org/abs/2602.18792)
-**代码**: 即将公开
-**领域**: 因果推理
+**会议**: CVPR 2026  
+**arXiv**: [2602.18792](https://arxiv.org/abs/2602.18792)  
+**代码**: 即将公开  
+**领域**: 因果推理  
 **关键词**: 视觉反事实解释, 扩散模型, 自适应掩码, 可解释AI, 分类器引导
 
 ## 一句话总结

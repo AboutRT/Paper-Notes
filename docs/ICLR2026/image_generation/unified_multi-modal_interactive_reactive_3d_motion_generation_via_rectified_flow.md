@@ -1,9 +1,9 @@
 # Unified Multi-Modal Interactive & Reactive 3D Motion Generation via Rectified Flow
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24099](https://arxiv.org/abs/2509.24099)
-**代码**: https://gprerit96.github.io/dualflow-page
-**领域**: 3D运动生成
+**会议**: ICLR 2026  
+**arXiv**: [2509.24099](https://arxiv.org/abs/2509.24099)  
+**代码**: https://gprerit96.github.io/dualflow-page  
+**领域**: 3D运动生成  
 **关键词**: 双人运动生成, Rectified Flow, 检索增强生成, 对比学习, 多模态条件
 
 ## 一句话总结

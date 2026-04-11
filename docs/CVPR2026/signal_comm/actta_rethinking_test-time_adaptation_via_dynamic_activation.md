@@ -1,9 +1,9 @@
 # AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.26096](https://arxiv.org/abs/2603.26096)
-**代码**: https://hyeongyu-kim.github.io/actta/ (有)
-**领域**: 模型适应 / 域偏移
+**会议**: CVPR 2026  
+**arXiv**: [2603.26096](https://arxiv.org/abs/2603.26096)  
+**代码**: https://hyeongyu-kim.github.io/actta/ (有)  
+**领域**: 模型适应 / 域偏移  
 **关键词**: 测试时适应, 动态激活函数, 域偏移, 归一化层, 梯度流
 
 ## 一句话总结

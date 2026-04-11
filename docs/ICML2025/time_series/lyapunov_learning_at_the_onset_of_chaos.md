@@ -1,9 +1,9 @@
 # Lyapunov Learning at the Onset of Chaos
 
-**会议**: ICML 2025
-**arXiv**: [2506.12810](https://arxiv.org/abs/2506.12810)
-**代码**: 无
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2506.12810](https://arxiv.org/abs/2506.12810)  
+**代码**: 无  
+**领域**: 时间序列  
 **关键词**: Lyapunov 指数, 混沌边缘, 非平稳时间序列, regime shift, 在线学习
 
 ## 一句话总结

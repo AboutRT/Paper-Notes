@@ -1,9 +1,9 @@
 # CommVQ: Commutative Vector Quantization for KV Cache Compression
 
-**会议**: ICML 2025
-**arXiv**: [2506.18879](https://arxiv.org/abs/2506.18879)
-**代码**: https://github.com/UMass-Embodied-AGI/CommVQ
-**领域**: 机器人/模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2506.18879](https://arxiv.org/abs/2506.18879)  
+**代码**: https://github.com/UMass-Embodied-AGI/CommVQ  
+**领域**: 机器人/模型压缩  
 **关键词**: KV缓存压缩, 向量量化, RoPE交换性, 长上下文推理, 1-bit量化
 
 ## 一句话总结

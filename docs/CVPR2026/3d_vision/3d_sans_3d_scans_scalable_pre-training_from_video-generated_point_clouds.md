@@ -1,9 +1,9 @@
 # 3D sans 3D Scans: Scalable Pre-training from Video-Generated Point Clouds
 
-**会议**: CVPR 2026
-**arXiv**: [2512.23042](https://arxiv.org/abs/2512.23042)
-**代码**: https://github.com/ryosuke-yamada/lam3c (有)
-**领域**: 3D视觉 / 自监督学习
+**会议**: CVPR 2026  
+**arXiv**: [2512.23042](https://arxiv.org/abs/2512.23042)  
+**代码**: https://github.com/ryosuke-yamada/lam3c (有)  
+**领域**: 3D视觉 / 自监督学习  
 **关键词**: 3D自监督学习, 视频生成点云, Sinkhorn-Knopp聚类, 噪声正则化, 室内场景理解
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # All-in-One Slider for Attribute Manipulation in Diffusion Models
 
-**会议**: CVPR 2026
-**arXiv**: [2508.19195](https://arxiv.org/abs/2508.19195)
-**代码**: 有（项目页面提供）
-**领域**: 扩散模型/图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2508.19195](https://arxiv.org/abs/2508.19195)  
+**代码**: 有（项目页面提供）  
+**领域**: 扩散模型/图像生成  
 **关键词**: 属性操控, 稀疏自编码器, 文本嵌入空间, 解耦表示, 零样本泛化
 
 ## 一句话总结

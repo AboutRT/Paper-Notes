@@ -1,9 +1,9 @@
 # Handling Imbalanced Pseudolabels for Vision-Language Models with Concept Alignment and Confusion-Aware Calibrated Margin
 
-**会议**: ICML2025
-**arXiv**: [2505.02056](https://arxiv.org/abs/2505.02056)
-**代码**: [GitHub](https://anonymous.4open.science/r/CAP-C642/)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2505.02056](https://arxiv.org/abs/2505.02056)  
+**代码**: [GitHub](https://anonymous.4open.science/r/CAP-C642/)  
+**领域**: multimodal_vlm  
 **关键词**: VLM伪标签, CLIP微调, 伪标签不平衡, 概念对齐, 校准边距, 无监督/半监督学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Talking Together: Synthesizing Co-Located 3D Conversations from Audio
 
-**会议**: CVPR 2026
-**arXiv**: [2603.08674](https://arxiv.org/abs/2603.08674)
-**代码**: 无
-**领域**: 语音/音频
+**会议**: CVPR 2026  
+**arXiv**: [2603.08674](https://arxiv.org/abs/2603.08674)  
+**代码**: 无  
+**领域**: 语音/音频  
 **关键词**: 双人对话, 3D面部动画, 扩散模型, 共处空间, 眼神交互
 
 ## 一句话总结

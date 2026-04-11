@@ -1,9 +1,9 @@
 # Mixing Expert Knowledge: Bring Human Thoughts Back to the Game of Go
 
-**会议**: NeurIPS 2025
-**arXiv**: [2601.16447](https://arxiv.org/abs/2601.16447)
-**代码**: [GitHub](https://github.com/Entarochuan/LoGos) (有)
-**领域**: Human Understanding / LLM Reasoning
+**会议**: NeurIPS 2025  
+**arXiv**: [2601.16447](https://arxiv.org/abs/2601.16447)  
+**代码**: [GitHub](https://github.com/Entarochuan/LoGos) (有)  
+**领域**: Human Understanding / LLM Reasoning  
 **关键词**: LLM, 围棋, 领域专家知识, 强化学习, GRPO
 
 ## 一句话总结

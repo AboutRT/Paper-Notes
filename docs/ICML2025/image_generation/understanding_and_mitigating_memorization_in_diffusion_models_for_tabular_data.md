@@ -1,9 +1,9 @@
 # Understanding and Mitigating Memorization in Diffusion Models for Tabular Data
 
-**会议**: ICML2025
-**arXiv**: [2412.11044](https://arxiv.org/abs/2412.11044)
-**代码**: [GitHub - TabCutMix](https://github.com/fangzy96/TabCutMix)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2412.11044](https://arxiv.org/abs/2412.11044)  
+**代码**: [GitHub - TabCutMix](https://github.com/fangzy96/TabCutMix)  
+**领域**: image_generation  
 **关键词**: 表格数据生成, 扩散模型, 记忆化, 数据增强, 隐私保护
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Improved Sample Complexity for Private Nonsmooth Nonconvex Optimization
 
-**会议**: ICML2025
-**arXiv**: [2410.05880](https://arxiv.org/abs/2410.05880)
-**代码**: 无（理论工作）
-**领域**: optimization / privacy
+**会议**: ICML2025  
+**arXiv**: [2410.05880](https://arxiv.org/abs/2410.05880)  
+**代码**: 无（理论工作）  
+**领域**: optimization / privacy  
 **关键词**: 差分隐私, 非光滑非凸优化, Goldstein 稳定性, 样本复杂度, 零阶优化, 方差缩减
 
 ## 一句话总结

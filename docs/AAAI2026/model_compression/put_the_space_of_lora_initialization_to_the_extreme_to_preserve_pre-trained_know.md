@@ -1,9 +1,9 @@
 # Put the Space of LoRA Initialization to the Extreme to Preserve Pre-trained Knowledge
 
-**会议**: AAAI2026
-**arXiv**: [2503.02659](https://arxiv.org/abs/2503.02659)
-**代码**: [HungerPWAY/LoRA-Null](https://github.com/HungerPWAY/LoRA-Null)
-**领域**: model_compression
+**会议**: AAAI2026  
+**arXiv**: [2503.02659](https://arxiv.org/abs/2503.02659)  
+**代码**: [HungerPWAY/LoRA-Null](https://github.com/HungerPWAY/LoRA-Null)  
+**领域**: model_compression  
 **关键词**: LoRA, catastrophic forgetting, knowledge preservation, null space, activation-aware initialization
 
 ## 一句话总结

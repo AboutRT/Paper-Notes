@@ -1,10 +1,10 @@
 # Optimal Welfare in Noncooperative Network Formation under Attack
 
-**会议**: AAAI 2026
-**arXiv**: [2511.10845](https://arxiv.org/abs/2511.10845)
+**会议**: AAAI 2026  
+**arXiv**: [2511.10845](https://arxiv.org/abs/2511.10845)  
 **作者**: Natan Doubez, Pascal Lenzner, Marcus Wunderlich
-**代码**: 未公开
-**领域**: others (博弈论/网络形成)
+**代码**: 未公开  
+**领域**: others (博弈论/网络形成)  
 **关键词**: 网络形成博弈, Nash均衡, 社会福利, 攻击与免疫, 博弈论, Price of Anarchy
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Randomized Autoregressive Visual Generation
 
-**会议**: ICCV2025
-**arXiv**: [2411.00776](https://arxiv.org/abs/2411.00776)
-**代码**: [bytedance/1d-tokenizer](https://github.com/bytedance/1d-tokenizer)
-**领域**: image_generation
+**会议**: ICCV2025  
+**arXiv**: [2411.00776](https://arxiv.org/abs/2411.00776)  
+**代码**: [bytedance/1d-tokenizer](https://github.com/bytedance/1d-tokenizer)  
+**领域**: image_generation  
 **关键词**: 自回归图像生成, 随机排列, 双向上下文, 退火策略, ImageNet
 
 ## 一句话总结

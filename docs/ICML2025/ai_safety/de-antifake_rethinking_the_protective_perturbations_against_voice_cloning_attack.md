@@ -1,9 +1,9 @@
 # De-AntiFake: Rethinking the Protective Perturbations Against Voice Cloning Attacks
 
-**会议**: ICML 2025
-**arXiv**: [2507.02606](https://arxiv.org/abs/2507.02606)
-**代码**: [有](https://de-antifake.github.io)
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2507.02606](https://arxiv.org/abs/2507.02606)  
+**代码**: [有](https://de-antifake.github.io)  
+**领域**: AI安全  
 **关键词**: 对抗净化, 语音克隆防御, 扩散模型, 音素引导, 保护性扰动
 
 ## 一句话总结

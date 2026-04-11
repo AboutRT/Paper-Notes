@@ -1,9 +1,9 @@
 # Diversifying Counterattacks: Orthogonal Exploration for Robust CLIP Inference
 
-**会议**: AAAI 2026
-**arXiv**: [2511.09064](https://arxiv.org/abs/2511.09064)
-**代码**: [有](https://github.com/bookman233/DOC)
-**领域**: AI安全
+**会议**: AAAI 2026  
+**arXiv**: [2511.09064](https://arxiv.org/abs/2511.09064)  
+**代码**: [有](https://github.com/bookman233/DOC)  
+**领域**: AI安全  
 **关键词**: 对抗鲁棒性, CLIP防御, 测试时防御, 正交反攻击, 视觉语言模型
 
 ## 一句话总结

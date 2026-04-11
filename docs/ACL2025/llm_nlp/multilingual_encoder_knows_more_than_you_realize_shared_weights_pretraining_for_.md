@@ -125,10 +125,10 @@ XLM-SWCM (Cross-lingual Language Model with Shared Weight Cross-modal) 的核心
 - 写作质量: ⭐⭐⭐⭐ 方法描述清晰，消融实验逻辑清楚，motivation 阐述到位
 - 价值: ⭐⭐⭐⭐⭐ 对极低资源语言 NLP 有直接实用价值，457M 模型可在消费级 GPU 上运行，对低资源社区友好
 
-**会议**: ACL2025
-**arXiv**: [2502.10852](https://arxiv.org/abs/2502.10852)
-**代码**: [GitHub](https://github.com/asd765973346/xlm-swcm)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.10852](https://arxiv.org/abs/2502.10852)  
+**代码**: [GitHub](https://github.com/asd765973346/xlm-swcm)  
+**领域**: llm_nlp  
 **关键词**: 低资源语言, 多语言模型, 权重共享, 编码器-解码器, 中国少数民族语言
 
 ## 一句话总结

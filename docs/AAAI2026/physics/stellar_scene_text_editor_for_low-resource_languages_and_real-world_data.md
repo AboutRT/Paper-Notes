@@ -1,9 +1,9 @@
 # STELLAR: Scene Text Editor for Low-Resource Languages and Real-World Data
 
-**会议**: AAAI 2026
-**arXiv**: [2511.09977](https://arxiv.org/abs/2511.09977)
-**代码**: [github.com/yongchoooon/stellar](https://github.com/yongchoooon/stellar)
-**领域**: 文本图像编辑 / OCR
+**会议**: AAAI 2026  
+**arXiv**: [2511.09977](https://arxiv.org/abs/2511.09977)  
+**代码**: [github.com/yongchoooon/stellar](https://github.com/yongchoooon/stellar)  
+**领域**: 文本图像编辑 / OCR  
 **关键词**: 场景文本编辑, 低资源语言, 扩散模型, 域适应, 文本外观相似性
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LONG3R: Long Sequence Streaming 3D Reconstruction
 
-**会议**: ICCV 2025
-**arXiv**: [2507.18255](https://arxiv.org/abs/2507.18255)
-**代码**: [项目主页](https://zgchen33.github.io/LONG3R/)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2507.18255](https://arxiv.org/abs/2507.18255)  
+**代码**: [项目主页](https://zgchen33.github.io/LONG3R/)  
+**领域**: 3D视觉  
 **关键词**: 流式3D重建, 点图回归, 时空记忆, 长序列重建, 实时推理
 
 ## 一句话总结

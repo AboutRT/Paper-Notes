@@ -1,8 +1,8 @@
 # Understanding the Emergence of Multimodal Representation Alignment
 
-**会议**: ICML 2025
-**arXiv**: [2502.16282](https://arxiv.org/abs/2502.16282)
-**领域**: 目标检测
+**会议**: ICML 2025  
+**arXiv**: [2502.16282](https://arxiv.org/abs/2502.16282)  
+**领域**: 目标检测  
 **关键词**: 多模态对齐, 表征学习, 隐式对齐, Platonic表征假说, CKA, 冗余性, 唯一性, 异质性
 
 ## 一句话总结

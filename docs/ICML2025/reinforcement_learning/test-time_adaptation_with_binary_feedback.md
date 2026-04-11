@@ -1,9 +1,9 @@
 # Test-Time Adaptation with Binary Feedback
 
-**会议**: ICML 2025
-**arXiv**: [2505.18514](https://arxiv.org/abs/2505.18514)
-**代码**: [GitHub](https://github.com/taeckyung/BiTTA)
-**领域**: 机器学习 / 测试时自适应
+**会议**: ICML 2025  
+**arXiv**: [2505.18514](https://arxiv.org/abs/2505.18514)  
+**代码**: [GitHub](https://github.com/taeckyung/BiTTA)  
+**领域**: 机器学习 / 测试时自适应  
 **关键词**: Test-Time Adaptation, 二元反馈, 强化学习, 领域偏移, 在线学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Improved Generalization Bounds for Transductive Learning by Transductive Local Complexity and Its Applications
 
-**会议**: ICML2025
-**arXiv**: [2309.16858](https://arxiv.org/abs/2309.16858)
-**代码**: 无
-**领域**: 学习理论
+**会议**: ICML2025  
+**arXiv**: [2309.16858](https://arxiv.org/abs/2309.16858)  
+**代码**: 无  
+**领域**: 学习理论  
 **关键词**: 转导学习, 泛化界, 局部Rademacher复杂度, VC维, 核学习, 集中不等式, 无放回抽样
 
 ## 一句话总结

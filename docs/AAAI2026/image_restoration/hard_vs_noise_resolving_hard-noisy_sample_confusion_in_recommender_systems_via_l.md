@@ -1,9 +1,9 @@
 # Hard vs. Noise: Resolving Hard-Noisy Sample Confusion in Recommender Systems via Large Language Models
 
-**会议**: AAAI2026
-**arXiv**: [2511.07295](https://arxiv.org/abs/2511.07295)
-**代码**: [GitHub](https://github.com/TianRui-Song717/LLMHNI)
-**领域**: self_supervised
+**会议**: AAAI2026  
+**arXiv**: [2511.07295](https://arxiv.org/abs/2511.07295)  
+**代码**: [GitHub](https://github.com/TianRui-Song717/LLMHNI)  
+**领域**: self_supervised  
 **关键词**: recommender systems, denoising, hard sample, LLM, contrastive learning
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Do Multiple Instance Learning Models Transfer?
 
-**会议**: ICML2025
-**arXiv**: [2506.09022](https://arxiv.org/abs/2506.09022)
-**代码**: [mahmoodlab/MIL-Lab](https://github.com/mahmoodlab/MIL-Lab)
-**领域**: medical_imaging / 计算病理学 / 多实例学习
+**会议**: ICML2025  
+**arXiv**: [2506.09022](https://arxiv.org/abs/2506.09022)  
+**代码**: [mahmoodlab/MIL-Lab](https://github.com/mahmoodlab/MIL-Lab)  
+**领域**: medical_imaging / 计算病理学 / 多实例学习  
 **关键词**: Multiple Instance Learning, Transfer Learning, Computational Pathology, Slide Foundation Model, Pancancer Pretraining
 
 ## 一句话总结

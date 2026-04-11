@@ -20,6 +20,7 @@
 **切入角度**：将生成过程建模为 DAG（有向无环图），设计逐层回溯的验证算法，在检测幻觉的同时自动构建证据链和定位错误阶段。
 
 ## 方法详解
+
 ### 整体框架
 将生成过程建模为 DAG $G=(V,E)$：
 - **节点** $v \in V$：表示文本片段（源文档 / 中间输出 / 最终输出）
@@ -56,6 +57,7 @@ VeriTrail 对最终输出提取的每个 claim 独立执行以下迭代过程，
 - **Error Localization**：对 Not Fully Supported 的 claim，定位幻觉最可能被引入的 DAG 阶段
 
 ## 实验关键数据
+
 ### 主实验（幻觉检测性能）
 在 FABLES+（书籍层次化摘要，734 claims）和 DiverseSumm+（GraphRAG 新闻问答，560 claims）上：
 

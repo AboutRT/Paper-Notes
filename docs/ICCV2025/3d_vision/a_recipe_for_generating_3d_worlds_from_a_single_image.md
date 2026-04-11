@@ -1,9 +1,9 @@
 # A Recipe for Generating 3D Worlds from a Single Image
 
-**会议**: ICCV 2025
-**arXiv**: [2503.16611](https://arxiv.org/abs/2503.16611)
-**代码**: [https://katjaschwarz.github.io/worlds/](https://katjaschwarz.github.io/worlds/) (项目页)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2503.16611](https://arxiv.org/abs/2503.16611)  
+**代码**: [https://katjaschwarz.github.io/worlds/](https://katjaschwarz.github.io/worlds/) (项目页)  
+**领域**: 3D视觉  
 **关键词**: 单图3D场景生成, 全景合成, 点云条件修复, 3DGS, VR
 
 ## 一句话总结

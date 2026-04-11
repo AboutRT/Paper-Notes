@@ -1,9 +1,9 @@
 # MENLO: From Preferences to Proficiency -- Evaluating and Modeling Native-like Quality Across 47 Languages
 
-**会议**: ICLR 2026
-**arXiv**: [2509.26601](https://arxiv.org/abs/2509.26601)
-**代码**: [数据集](https://huggingface.co/datasets/facebook/menlo)
-**领域**: 多语言评估
+**会议**: ICLR 2026  
+**arXiv**: [2509.26601](https://arxiv.org/abs/2509.26601)  
+**代码**: [数据集](https://huggingface.co/datasets/facebook/menlo)  
+**领域**: 多语言评估  
 **关键词**: 多语言评估, 母语质量, LLM评审, 偏好对齐, 受众设计
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Open Your Eyes: Vision Enhances Message Passing Neural Networks in Link Prediction
 
-**会议**: ICML2025
-**arXiv**: [2505.08266](https://arxiv.org/abs/2505.08266)
-**代码**: [WEIYanbin1999/EGVN](https://github.com/WEIYanbin1999/EGVN)
-**领域**: 图学习 / 链接预测
+**会议**: ICML2025  
+**arXiv**: [2505.08266](https://arxiv.org/abs/2505.08266)  
+**代码**: [WEIYanbin1999/EGVN](https://github.com/WEIYanbin1999/EGVN)  
+**领域**: 图学习 / 链接预测  
 **关键词**: 图神经网络, 链接预测, 视觉感知, 多模态学习, 结构特征
 
 ## 一句话总结

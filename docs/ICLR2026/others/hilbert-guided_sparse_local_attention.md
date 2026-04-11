@@ -1,9 +1,9 @@
 # Hilbert-Guided Sparse Local Attention
 
-**会议**: ICLR 2026
-**arXiv**: [2511.05832](https://arxiv.org/abs/2511.05832)
-**代码**: [GitHub](https://github.com/Yunge6666/Hilbert-Local-Attention)
-**领域**: 高效Transformer/注意力机制
+**会议**: ICLR 2026  
+**arXiv**: [2511.05832](https://arxiv.org/abs/2511.05832)  
+**代码**: [GitHub](https://github.com/Yunge6666/Hilbert-Local-Attention)  
+**领域**: 高效Transformer/注意力机制  
 **关键词**: Hilbert曲线, 局部注意力, 块稀疏, FlexAttention, 视觉Transformer
 
 ## 一句话总结

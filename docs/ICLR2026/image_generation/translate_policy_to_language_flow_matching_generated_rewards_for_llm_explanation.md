@@ -1,9 +1,9 @@
 # Translate Policy to Language: Flow Matching Generated Rewards for LLM Explanations
 
-**会议**: ICLR 2026
-**arXiv**: [2502.12530](https://arxiv.org/abs/2502.12530)
-**代码**: 无
-**领域**: 扩散模型/LLM对齐
+**会议**: ICLR 2026  
+**arXiv**: [2502.12530](https://arxiv.org/abs/2502.12530)  
+**代码**: 无  
+**领域**: 扩散模型/LLM对齐  
 **关键词**: 策略解释, Rectified Flow, 分布式奖励, RLAIF, LLM可解释性
 
 ## 一句话总结

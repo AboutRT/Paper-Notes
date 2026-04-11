@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Shoe Style-Invariant and Ground-Aware Learning for Dense Foot Contact Estimation
 
-**会议**: CVPR2026
-**arXiv**: [2511.22184](https://arxiv.org/abs/2511.22184)
-**代码**: [dqj5182/FECO_RELEASE](https://github.com/dqj5182/FECO_RELEASE)
-**领域**: human_understanding
+**会议**: CVPR2026  
+**arXiv**: [2511.22184](https://arxiv.org/abs/2511.22184)  
+**代码**: [dqj5182/FECO_RELEASE](https://github.com/dqj5182/FECO_RELEASE)  
+**领域**: human_understanding  
 **关键词**: 足部接触估计, 鞋款风格不变性, 地面感知学习, 对抗训练, 密集接触预测
 
 ## 一句话总结

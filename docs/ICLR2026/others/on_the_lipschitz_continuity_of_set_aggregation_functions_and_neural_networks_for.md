@@ -1,9 +1,9 @@
 # On the Lipschitz Continuity of Set Aggregation Functions and Neural Networks for Sets
 
-**会议**: ICLR 2026
-**arXiv**: [2505.24403](https://arxiv.org/abs/2505.24403)
-**代码**: 无
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2505.24403](https://arxiv.org/abs/2505.24403)  
+**代码**: 无  
+**领域**: 其他  
 **关键词**: Lipschitz连续性, 集合聚合函数, 多集距离, 神经网络鲁棒性, 分布偏移泛化
 
 ## 一句话总结
@@ -95,10 +95,10 @@
 - 价值: ⭐⭐⭐⭐ 为集合/点云处理中的模型鲁棒性分析提供了坚实理论基础
 # On the Lipschitz Continuity of Set Aggregation Functions and Neural Networks for Sets
 
-**会议**: ICLR 2026
-**arXiv**: [2505.24403](https://arxiv.org/abs/2505.24403)
-**代码**: 无
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2505.24403](https://arxiv.org/abs/2505.24403)  
+**代码**: 无  
+**领域**: 其他  
 **关键词**: Lipschitz连续性, 集合聚合函数, 多重集, 鲁棒性, 泛化
 
 ## 一句话总结

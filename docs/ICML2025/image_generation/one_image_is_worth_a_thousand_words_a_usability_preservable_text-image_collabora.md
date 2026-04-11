@@ -1,9 +1,9 @@
 # One Image is Worth a Thousand Words: A Usability Preservable Text-Image Collaborative Erasing Framework
 
-**会议**: ICML2025
-**arXiv**: [2505.11131](https://arxiv.org/abs/2505.11131)
-**代码**: [Ferry-Li/Co-Erasing](https://github.com/Ferry-Li/Co-Erasing)
-**领域**: 扩散模型安全 / 概念擦除
+**会议**: ICML2025  
+**arXiv**: [2505.11131](https://arxiv.org/abs/2505.11131)  
+**代码**: [Ferry-Li/Co-Erasing](https://github.com/Ferry-Li/Co-Erasing)  
+**领域**: 扩散模型安全 / 概念擦除  
 **关键词**: Concept Erasing, Diffusion Model Safety, Text-Image Collaboration, Negative Guidance, Cross-Attention
 
 ## 一句话总结

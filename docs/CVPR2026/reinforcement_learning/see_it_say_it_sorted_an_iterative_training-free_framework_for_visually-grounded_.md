@@ -1,9 +1,9 @@
 # See It, Say It, Sorted: An Iterative Training-Free Framework for Visually-Grounded Multimodal Reasoning in LVLMs
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21497](https://arxiv.org/abs/2602.21497)
-**代码**: 待确认
-**领域**: 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2602.21497](https://arxiv.org/abs/2602.21497)  
+**代码**: 待确认  
+**领域**: 强化学习  
 **关键词**: 视觉定位, 多模态推理, 免训练, 迭代框架, LVLM
 
 ## 一句话总结

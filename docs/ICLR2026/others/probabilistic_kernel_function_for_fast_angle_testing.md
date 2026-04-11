@@ -1,9 +1,9 @@
 # Probabilistic Kernel Function for Fast Angle Testing
 
-**会议**: ICLR 2026
-**arXiv**: [2505.20274](https://arxiv.org/abs/2505.20274)
-**代码**: [GitHub](https://github.com/KejingLu-810/KS)
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2505.20274](https://arxiv.org/abs/2505.20274)  
+**代码**: [GitHub](https://github.com/KejingLu-810/KS)  
+**领域**: 其他  
 **关键词**: 近似最近邻搜索, 概率核函数, 角度测试, 随机投影, 相似性搜索
 
 ## 一句话总结

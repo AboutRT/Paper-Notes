@@ -1,9 +1,9 @@
 # A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning
 
-**会议**: CVPR2026
-**arXiv**: [2603.14052](https://arxiv.org/abs/2603.14052)
-**代码**: [git-disl/A4VL](https://github.com/git-disl/A4VL)
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2603.14052](https://arxiv.org/abs/2603.14052)  
+**代码**: [git-disl/A4VL](https://github.com/git-disl/A4VL)  
+**领域**: 视频理解  
 **关键词**: 长视频推理, 多智能体协作, 视频问答, 感知-行动探索, 无训练框架
 
 ## 一句话总结

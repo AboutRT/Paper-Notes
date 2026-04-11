@@ -1,9 +1,9 @@
 # B-score: Detecting biases in large language models using response history
 
-**会议**: ICML 2025
-**arXiv**: [2505.18545](https://arxiv.org/abs/2505.18545)
-**代码**: [b-score.github.io](https://b-score.github.io/)
-**领域**: NLP理解
+**会议**: ICML 2025  
+**arXiv**: [2505.18545](https://arxiv.org/abs/2505.18545)  
+**代码**: [b-score.github.io](https://b-score.github.io/)  
+**领域**: NLP理解  
 **关键词**: LLM偏见检测, 多轮对话, 自我去偏, 置信度校准, 答案验证
 
 ## 一句话总结

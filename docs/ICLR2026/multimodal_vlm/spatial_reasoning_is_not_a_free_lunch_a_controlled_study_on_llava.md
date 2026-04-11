@@ -1,8 +1,8 @@
 # Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA
 
-**会议**: ICLR 2026
-**arXiv**: [2603.12545](https://arxiv.org/abs/2603.12545)
-**领域**: 多模态VLM/空间推理
+**会议**: ICLR 2026  
+**arXiv**: [2603.12545](https://arxiv.org/abs/2603.12545)  
+**领域**: 多模态VLM/空间推理  
 **关键词**: 空间推理, 图像编码器, 2D位置编码, CLIP局限, 受控实验
 
 ## 一句话总结

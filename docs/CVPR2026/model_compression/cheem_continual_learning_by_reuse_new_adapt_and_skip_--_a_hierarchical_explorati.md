@@ -1,9 +1,9 @@
 # CHEEM: Continual Learning by Reuse, New, Adapt and Skip -- A Hierarchical Exploration-Exploitation Approach
 
-**会议**: CVPR 2026
-**arXiv**: [2303.08250](https://arxiv.org/abs/2303.08250)
-**代码**: [GitHub](https://github.com/savadikarc/cheem) (有)
-**领域**: Model Compression / Continual Learning
+**会议**: CVPR 2026  
+**arXiv**: [2303.08250](https://arxiv.org/abs/2303.08250)  
+**代码**: [GitHub](https://github.com/savadikarc/cheem) (有)  
+**领域**: Model Compression / Continual Learning  
 **关键词**: 持续学习, 无样本类增量学习, 神经架构搜索, 层间操作, Vision Transformer
 
 ## 一句话总结

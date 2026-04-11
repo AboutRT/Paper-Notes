@@ -1,9 +1,9 @@
 # Energy Matching: Unifying Flow Matching and Energy-Based Models for Generative Modeling
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.10612](https://arxiv.org/abs/2504.10612)
-**代码**: [GitHub](https://github.com/m1balcerak/EnergyMatching)
-**领域**: 生成模型 / 能量模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.10612](https://arxiv.org/abs/2504.10612)  
+**代码**: [GitHub](https://github.com/m1balcerak/EnergyMatching)  
+**领域**: 生成模型 / 能量模型  
 **关键词**: 能量模型, 流匹配, 最优传输, Boltzmann分布, 逆问题, 局部内在维度
 
 ## 一句话总结

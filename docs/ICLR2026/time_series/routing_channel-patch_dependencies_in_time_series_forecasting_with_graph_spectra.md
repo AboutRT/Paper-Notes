@@ -1,9 +1,9 @@
 # Routing Channel-Patch Dependencies in Time Series Forecasting with Graph Spectral Decomposition
 
-**会议**: ICLR 2026
-**arXiv**: [2603.13702](https://arxiv.org/abs/2603.13702)
-**代码**: [GitHub](https://github.com/Clearloveyuan/xCPD)
-**领域**: 时间序列预测
+**会议**: ICLR 2026  
+**arXiv**: [2603.13702](https://arxiv.org/abs/2603.13702)  
+**代码**: [GitHub](https://github.com/Clearloveyuan/xCPD)  
+**领域**: 时间序列预测  
 **关键词**: 通道依赖, 图谱分解, 频率感知, MoE路由, 即插即用
 
 ## 一句话总结

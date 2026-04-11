@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Efficient Curvature-Aware Hypergradient Approximation for Bilevel Optimization
 
-**会议**: ICML2025
-**arXiv**: [2505.02101](https://arxiv.org/abs/2505.02101)
-**代码**: 待确认
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2505.02101](https://arxiv.org/abs/2505.02101)  
+**代码**: 待确认  
+**领域**: optimization  
 **关键词**: bilevel optimization, hypergradient, inexact Newton, curvature information, meta-learning
 
 ## 一句话总结

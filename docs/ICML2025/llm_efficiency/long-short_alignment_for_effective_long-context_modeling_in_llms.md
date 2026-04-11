@@ -1,9 +1,9 @@
 # Long-Short Alignment for Effective Long-Context Modeling in LLMs
 
-**会议**: ICML 2025
-**arXiv**: [2506.11769](https://arxiv.org/abs/2506.11769)
-**代码**: https://github.com/PKU-ML/LongShortAlignment (有)
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2506.11769](https://arxiv.org/abs/2506.11769)  
+**代码**: https://github.com/PKU-ML/LongShortAlignment (有)  
+**领域**: LLM效率  
 **关键词**: 长度泛化, 输出分布对齐, 长短对齐, 正则化, 长上下文建模
 
 ## 一句话总结

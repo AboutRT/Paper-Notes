@@ -1,9 +1,9 @@
 # Stackelberg Coupling of Online Representation Learning and Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2508.07452](https://arxiv.org/abs/2508.07452)
-**代码**: [https://github.com/fernando-ml/SCORER](https://github.com/fernando-ml/SCORER)
-**领域**: 强化学习 / 表征学习
+**会议**: ICLR 2026  
+**arXiv**: [2508.07452](https://arxiv.org/abs/2508.07452)  
+**代码**: [https://github.com/fernando-ml/SCORER](https://github.com/fernando-ml/SCORER)  
+**领域**: 强化学习 / 表征学习  
 **关键词**: Stackelberg 博弈, 表征学习, Deep Q-Learning, 双时间尺度, 方差最小化
 
 ## 一句话总结

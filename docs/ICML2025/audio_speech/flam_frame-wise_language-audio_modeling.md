@@ -1,9 +1,9 @@
 # FLAM: Frame-Wise Language-Audio Modeling
 
-**会议**: ICML2025
-**arXiv**: [2505.05335](https://arxiv.org/abs/2505.05335)
-**代码**: [flam-model.github.io](https://flam-model.github.io/)
-**领域**: 音频语言模型 / 声音事件检测
+**会议**: ICML2025  
+**arXiv**: [2505.05335](https://arxiv.org/abs/2505.05335)  
+**代码**: [flam-model.github.io](https://flam-model.github.io/)  
+**领域**: 音频语言模型 / 声音事件检测  
 **关键词**: 开放词汇声音事件检测, 帧级对比学习, logit调整, 音频语言对齐, 数据增强
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # FedVG: Gradient-Guided Aggregation for Enhanced Federated Learning
 
-**会议**: CVPR2026
-**arXiv**: [2602.21399](https://arxiv.org/abs/2602.21399)
-**代码**: [Project Page](https://machine-intelligence-lab-wvu.github.io/fedvg/)
-**领域**: 医学图像 / 联邦学习
+**会议**: CVPR2026  
+**arXiv**: [2602.21399](https://arxiv.org/abs/2602.21399)  
+**代码**: [Project Page](https://machine-intelligence-lab-wvu.github.io/fedvg/)  
+**领域**: 医学图像 / 联邦学习  
 **关键词**: 联邦学习, 梯度聚合, 数据异质性, 验证梯度, Fisher信息矩阵, 医学图像分类
 
 ## 一句话总结

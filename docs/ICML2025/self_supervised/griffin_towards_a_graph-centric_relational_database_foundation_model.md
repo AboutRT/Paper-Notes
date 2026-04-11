@@ -1,9 +1,9 @@
 # Griffin: Towards a Graph-Centric Relational Database Foundation Model
 
-**会议**: ICML 2025
-**arXiv**: [2505.05568](https://arxiv.org/abs/2505.05568)
-**代码**: [github.com/yanxwb/Griffin](https://github.com/yanxwb/Griffin)
-**领域**: 自监督学习
+**会议**: ICML 2025  
+**arXiv**: [2505.05568](https://arxiv.org/abs/2505.05568)  
+**代码**: [github.com/yanxwb/Griffin](https://github.com/yanxwb/Griffin)  
+**领域**: 自监督学习  
 **关键词**: 关系数据库基础模型, 图神经网络, 自监督预训练, 跨表推理, 迁移学习
 
 ## 一句话总结

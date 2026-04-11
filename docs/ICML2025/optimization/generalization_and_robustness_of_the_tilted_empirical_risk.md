@@ -1,9 +1,9 @@
 # Generalization and Robustness of the Tilted Empirical Risk
 
-**会议**: ICML2025
-**arXiv**: [2409.19431](https://arxiv.org/abs/2409.19431)
-**代码**: 无
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2409.19431](https://arxiv.org/abs/2409.19431)  
+**代码**: 无  
+**领域**: optimization  
 **关键词**: tilted empirical risk, 泛化误差, 鲁棒性, 信息论界, 无界损失函数, KL正则化
 
 ## 一句话总结

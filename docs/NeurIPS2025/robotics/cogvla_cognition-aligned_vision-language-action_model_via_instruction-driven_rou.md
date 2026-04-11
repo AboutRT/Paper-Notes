@@ -1,9 +1,9 @@
 # CogVLA: Cognition-Aligned Vision-Language-Action Model via Instruction-Driven Routing & Sparsification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2508.21046](https://arxiv.org/abs/2508.21046)
-**代码**: 无（论文中未提及）
-**领域**: 机器人 / 多模态VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.21046](https://arxiv.org/abs/2508.21046)  
+**代码**: 无（论文中未提及）  
+**领域**: 机器人 / 多模态VLM  
 **关键词**: VLA, token routing, sparsification, instruction-driven, robot manipulation
 
 ## 一句话总结

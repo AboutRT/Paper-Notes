@@ -1,8 +1,8 @@
 # HCPO: Hierarchical Conductor-Based Policy Optimization in Multi-Agent Reinforcement Learning
 
-**会议**: AAAI2026
-**arXiv**: [2511.12123](https://arxiv.org/abs/2511.12123)
-**领域**: reinforcement_learning
+**会议**: AAAI2026  
+**arXiv**: [2511.12123](https://arxiv.org/abs/2511.12123)  
+**领域**: reinforcement_learning  
 **关键词**: multi-agent RL, cooperative MARL, joint policy optimization, hierarchical framework, trust region
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Runtime Analysis of Evolutionary NAS for Multiclass Classification
 
-**会议**: ICML2025
-**arXiv**: [2506.06019](https://arxiv.org/abs/2506.06019)
-**代码**: 无
-**领域**: NAS理论 / 进化计算理论
+**会议**: ICML2025  
+**arXiv**: [2506.06019](https://arxiv.org/abs/2506.06019)  
+**代码**: 无  
+**领域**: NAS理论 / 进化计算理论  
 **关键词**: 进化神经架构搜索, 运行时分析, 多类分类, (1+1)-EA, 适应度函数
 
 ## 一句话总结

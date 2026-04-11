@@ -1,9 +1,9 @@
 # ABKD: Pursuing a Proper Allocation of the Probability Mass in Knowledge Distillation via α-β-Divergence
 
-**会议**: ICML 2025
-**arXiv**: [2505.04560](https://arxiv.org/abs/2505.04560)
-**代码**: [ghwang-s/abkd](https://github.com/ghwang-s/abkd)
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2505.04560](https://arxiv.org/abs/2505.04560)  
+**代码**: [ghwang-s/abkd](https://github.com/ghwang-s/abkd)  
+**领域**: 模型压缩  
 **关键词**: 知识蒸馏, α-β-Divergence, 概率质量分配, 分布匹配, 散度函数
 
 ## 一句话总结

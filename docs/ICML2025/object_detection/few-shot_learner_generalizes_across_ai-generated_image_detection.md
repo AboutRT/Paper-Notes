@@ -1,9 +1,9 @@
 # Few-Shot Learner Generalizes Across AI-Generated Image Detection
 
-**会议**: ICML2025
-**arXiv**: [2501.08763](https://arxiv.org/abs/2501.08763)
-**代码**: [GitHub - FSD](https://github.com/teheperinko541/Few-Shot-AIGI-Detector)
-**领域**: object_detection
+**会议**: ICML2025  
+**arXiv**: [2501.08763](https://arxiv.org/abs/2501.08763)  
+**代码**: [GitHub - FSD](https://github.com/teheperinko541/Few-Shot-AIGI-Detector)  
+**领域**: object_detection  
 **关键词**: AI生成图像检测, 少样本学习, 原型网络, 域泛化, Deepfake检测
 
 ## 一句话总结

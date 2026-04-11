@@ -1,9 +1,9 @@
 # UniSim: A Unified Simulator for Time-Coarsened Dynamics of Biomolecules
 
-**会议**: ICML2025
-**arXiv**: [2506.03157](https://arxiv.org/abs/2506.03157)
-**代码**: 待确认
-**领域**: medical_imaging
+**会议**: ICML2025  
+**arXiv**: [2506.03157](https://arxiv.org/abs/2506.03157)  
+**代码**: 待确认  
+**领域**: medical_imaging  
 **关键词**: 分子动力学, 时间粗化, 跨域预训练, 随机插值, 力引导
 
 ## 一句话总结

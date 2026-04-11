@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering
 
-**会议**: CVPR2026
-**arXiv**: [2603.12605](https://arxiv.org/abs/2603.12605)
-**代码**: 待确认
-**领域**: 3D Vision / CAD Reverse Engineering
+**会议**: CVPR2026  
+**arXiv**: [2603.12605](https://arxiv.org/abs/2603.12605)  
+**代码**: 待确认  
+**领域**: 3D Vision / CAD Reverse Engineering  
 **关键词**: BRep学习, CAD逆向工程, 多模态标注, 3D扫描, 几何深度学习, 基础模型
 
 ## 一句话总结

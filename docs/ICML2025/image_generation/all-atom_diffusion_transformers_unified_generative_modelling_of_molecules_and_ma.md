@@ -1,10 +1,10 @@
 # All-atom Diffusion Transformers: Unified Generative Modelling of Molecules and Materials
 
-**会议**: ICML2025
-**arXiv**: [2503.03965](https://arxiv.org/abs/2503.03965)
+**会议**: ICML2025  
+**arXiv**: [2503.03965](https://arxiv.org/abs/2503.03965)  
 **作者**: Chaitanya K. Joshi, Xiang Fu, Yi-Lun Liao, Vahe Gharakhanyan, Benjamin Kurt Miller, Anuroop Sriram, Zachary W. Ulissi (Meta FAIR, Cambridge, MIT)
-**代码**: [facebookresearch/all-atom-diffusion-transformer](https://github.com/facebookresearch/all-atom-diffusion-transformer)
-**领域**: image_generation
+**代码**: [facebookresearch/all-atom-diffusion-transformer](https://github.com/facebookresearch/all-atom-diffusion-transformer)  
+**领域**: image_generation  
 **关键词**: latent diffusion, diffusion transformer, molecular generation, crystal generation, unified model, scaling law
 
 ## 一句话总结

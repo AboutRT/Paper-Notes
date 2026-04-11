@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Recommendations with Sparse Comparison Data: Provably Fast Convergence for Nonconvex Matrix Factorization
 
-**会议**: ICML2025
-**arXiv**: [2502.20033](https://arxiv.org/abs/2502.20033)
-**代码**: 待确认
-**领域**: recommender
+**会议**: ICML2025  
+**arXiv**: [2502.20033](https://arxiv.org/abs/2502.20033)  
+**代码**: 待确认  
+**领域**: recommender  
 **关键词**: 待补充
 
 ## 一句话总结

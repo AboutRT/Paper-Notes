@@ -1,9 +1,9 @@
 # Understanding the Statistical Accuracy-Communication Trade-off in Personalized Federated Learning with Minimax Guarantees
 
-**会议**: ICML2025
-**arXiv**: [2410.08934](https://arxiv.org/abs/2410.08934)
-**代码**: [ZLHe0/fedclup](https://github.com/ZLHe0/fedclup)
-**领域**: 优化 / 联邦学习
+**会议**: ICML2025  
+**arXiv**: [2410.08934](https://arxiv.org/abs/2410.08934)  
+**代码**: [ZLHe0/fedclup](https://github.com/ZLHe0/fedclup)  
+**领域**: 优化 / 联邦学习  
 **关键词**: 个性化联邦学习, 统计精度-通信权衡, minimax 最优性, 双层优化, 正则化
 
 ## 一句话总结

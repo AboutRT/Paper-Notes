@@ -1,9 +1,9 @@
 # Enhancing Target-unspecific Tasks through a Features Matrix
 
-**会议**: ICML 2025
-**arXiv**: [2505.03414](https://arxiv.org/abs/2505.03414)
-**代码**: 未公开
-**领域**: 多模态/视觉语言模型 (VLM), Prompt Learning
+**会议**: ICML 2025  
+**arXiv**: [2505.03414](https://arxiv.org/abs/2505.03414)  
+**代码**: 未公开  
+**领域**: 多模态/视觉语言模型 (VLM), Prompt Learning  
 **关键词**: CLIP, Features Matrix, Prompt Learning, Base-to-Novel Generalization, 泛化能力
 
 ## 一句话总结

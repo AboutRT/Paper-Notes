@@ -1,9 +1,9 @@
 # Completing Missing Annotation: Multi-Agent Debate for Accurate and Scalable Relevance Assessment
 
-**会议**: ICLR 2026
-**arXiv**: [2602.06526](https://arxiv.org/abs/2602.06526)
-**代码**: https://github.com/DISL-Lab/DREAM-ICLR-26
-**领域**: 其他 / 信息检索
+**会议**: ICLR 2026  
+**arXiv**: [2602.06526](https://arxiv.org/abs/2602.06526)  
+**代码**: https://github.com/DISL-Lab/DREAM-ICLR-26  
+**领域**: 其他 / 信息检索  
 **关键词**: 信息检索评测, 多Agent辩论, 相关性标注, 人机协作, BRIDGE基准
 
 ## 一句话总结

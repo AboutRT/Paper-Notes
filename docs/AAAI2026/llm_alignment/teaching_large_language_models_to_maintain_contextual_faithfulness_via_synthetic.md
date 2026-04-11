@@ -1,9 +1,9 @@
 # Canoe: Teaching LLMs to Maintain Contextual Faithfulness via Synthetic Tasks and RL
 
-**会议**: AAAI 2026
-**arXiv**: [2505.16483](https://arxiv.org/abs/2505.16483)
-**代码**: [GitHub](https://github.com/S1s-Z/CANOE)
-**领域**: LLM Alignment
+**会议**: AAAI 2026  
+**arXiv**: [2505.16483](https://arxiv.org/abs/2505.16483)  
+**代码**: [GitHub](https://github.com/S1s-Z/CANOE)  
+**领域**: LLM Alignment  
 **关键词**: 上下文忠实度, 强化学习, 合成数据, GRPO, 幻觉抑制
 
 ## 一句话总结

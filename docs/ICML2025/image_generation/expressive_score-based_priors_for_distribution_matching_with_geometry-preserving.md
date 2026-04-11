@@ -1,9 +1,9 @@
 # Expressive Score-Based Priors for Distribution Matching with Geometry-Preserving Regularization
 
-**会议**: ICML2025
-**arXiv**: [2506.14607](https://arxiv.org/abs/2506.14607)
-**代码**: [inouye-lab/SAUB](https://github.com/inouye-lab/SAUB)
-**领域**: 生成模型 / 分布匹配
+**会议**: ICML2025  
+**arXiv**: [2506.14607](https://arxiv.org/abs/2506.14607)  
+**代码**: [inouye-lab/SAUB](https://github.com/inouye-lab/SAUB)  
+**领域**: 生成模型 / 分布匹配  
 **关键词**: Distribution Matching, Score-based Prior, VAE, Gromov-Wasserstein, 几何保持正则化, CLIP语义空间
 
 ## 一句话总结

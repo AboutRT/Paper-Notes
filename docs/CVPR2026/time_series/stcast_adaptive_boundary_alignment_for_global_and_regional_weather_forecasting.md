@@ -1,9 +1,9 @@
 # STCast: Adaptive Boundary Alignment for Global and Regional Weather Forecasting
 
-**会议**: CVPR 2026
-**arXiv**: [2509.25210](https://arxiv.org/abs/2509.25210)
-**代码**: 待确认
-**领域**: 时间序列
+**会议**: CVPR 2026  
+**arXiv**: [2509.25210](https://arxiv.org/abs/2509.25210)  
+**代码**: 待确认  
+**领域**: 时间序列  
 **关键词**: 天气预报, 自适应边界对齐, 全球-区域预报, 时空建模, 深度学习
 
 ## 一句话总结

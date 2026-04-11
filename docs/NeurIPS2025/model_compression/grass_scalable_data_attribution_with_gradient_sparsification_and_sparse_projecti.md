@@ -1,9 +1,9 @@
 # GraSS: Scalable Data Attribution with Gradient Sparsification and Sparse Projection
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.18976](https://arxiv.org/abs/2505.18976)
-**代码**: [GitHub](https://github.com/TRAIS-Lab/GraSS)
-**领域**: 模型压缩 / 数据归因
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.18976](https://arxiv.org/abs/2505.18976)  
+**代码**: [GitHub](https://github.com/TRAIS-Lab/GraSS)  
+**领域**: 模型压缩 / 数据归因  
 **关键词**: 数据归因, 梯度压缩, 稀疏投影, 影响函数, 随机投影
 
 ## 一句话总结

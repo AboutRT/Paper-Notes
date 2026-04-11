@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Beyond Single-Sample: Reliable Multi-Sample Distillation for Video Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2603.11423](https://arxiv.org/abs/2603.11423)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2603.11423](https://arxiv.org/abs/2603.11423)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 知识蒸馏, 黑盒蒸馏, 视频LVLM, 多样本采样, 强化学习对抗蒸馏, teacher可靠性
 
 ## 一句话总结

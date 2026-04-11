@@ -1,9 +1,9 @@
 # Chain-of-Retrieval Augmented Generation (CoRAG)
 
-**会议**: NeurIPS 2025
-**arXiv**: [2501.14342](https://arxiv.org/abs/2501.14342)
-**代码**: [microsoft/LMOps/corag](https://github.com/microsoft/LMOps/tree/main/corag)
-**领域**: self_supervised
+**会议**: NeurIPS 2025  
+**arXiv**: [2501.14342](https://arxiv.org/abs/2501.14342)  
+**代码**: [microsoft/LMOps/corag](https://github.com/microsoft/LMOps/tree/main/corag)  
+**领域**: self_supervised  
 **关键词**: RAG, Chain-of-Retrieval, 多跳推理, 拒绝采样, 检索链, 测试时计算扩展
 
 ## 一句话总结

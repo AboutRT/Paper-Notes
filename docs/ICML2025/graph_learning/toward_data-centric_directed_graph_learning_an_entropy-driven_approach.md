@@ -1,9 +1,9 @@
 # Toward Data-centric Directed Graph Learning: An Entropy-driven Approach
 
-**会议**: ICML2025
-**arXiv**: [2505.00983](https://arxiv.org/abs/2505.00983)
-**代码**: 待确认
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2505.00983](https://arxiv.org/abs/2505.00983)  
+**代码**: 待确认  
+**领域**: graph_learning  
 **关键词**: 有向图学习, 数据中心ML, 知识蒸馏, 信息熵, 层级编码
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # ReForm: Reflective Autoformalization with Prospective Bounded Sequence Optimization
 
-**会议**: ICLR 2026
-**arXiv**: [2510.24592](https://arxiv.org/abs/2510.24592)
-**代码**: [GitHub](https://github.com/RUCAIBox/ReForm)（附模型和基准）
-**领域**: llm_reasoning
+**会议**: ICLR 2026  
+**arXiv**: [2510.24592](https://arxiv.org/abs/2510.24592)  
+**代码**: [GitHub](https://github.com/RUCAIBox/ReForm)（附模型和基准）  
+**领域**: llm_reasoning  
 **关键词**: autoformalization, Lean, semantic consistency, self-correction, reinforcement learning, heterogeneous reward, PBSO
 
 ## 一句话总结

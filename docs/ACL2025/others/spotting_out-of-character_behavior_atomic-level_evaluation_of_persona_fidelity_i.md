@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 其他  
 **关键词**: persona fidelity, LLM evaluation, personality, out-of-character, atomic evaluation  
+
 ## 一句话总结
 
 提出原子级（句子级）评估框架，通过三个指标（ACC_atom、IC_atom、RC_atom）细粒度检测大语言模型在开放式文本生成中的角色偏离（Out-of-Character）行为，弥补了传统整体评分方法无法捕捉长文本中微妙人格不一致的问题。

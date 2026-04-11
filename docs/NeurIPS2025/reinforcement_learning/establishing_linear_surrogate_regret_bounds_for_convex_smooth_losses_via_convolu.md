@@ -1,9 +1,9 @@
 # Establishing Linear Surrogate Regret Bounds for Convex Smooth Losses via Convolutional Fenchel–Young Losses
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.09432](https://arxiv.org/abs/2505.09432)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.09432](https://arxiv.org/abs/2505.09432)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: surrogate regret bound, convex smooth loss, Fenchel–Young loss, infimal convolution, discrete prediction
 
 ## 一句话总结

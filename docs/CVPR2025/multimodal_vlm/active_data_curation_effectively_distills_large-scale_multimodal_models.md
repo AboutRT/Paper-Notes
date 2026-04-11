@@ -1,9 +1,9 @@
 # Active Data Curation Effectively Distills Large-Scale Multimodal Models
 
-**会议**: CVPR 2025
-**arXiv**: [2411.18674](https://arxiv.org/abs/2411.18674)
-**代码**: 无
-**领域**: 多模态视觉语言模型
+**会议**: CVPR 2025  
+**arXiv**: [2411.18674](https://arxiv.org/abs/2411.18674)  
+**代码**: 无  
+**领域**: 多模态视觉语言模型  
 **关键词**: 知识蒸馏, 主动数据筛选, 对比学习, CLIP压缩, 推理效率
 
 ## 一句话总结

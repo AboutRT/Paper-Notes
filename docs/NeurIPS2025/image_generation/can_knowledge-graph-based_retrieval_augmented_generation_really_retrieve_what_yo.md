@@ -1,9 +1,9 @@
 # Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.16582](https://arxiv.org/abs/2510.16582)
-**代码**: [GitHub](https://github.com/Samyu0304/GraphFlow)
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.16582](https://arxiv.org/abs/2510.16582)  
+**代码**: [GitHub](https://github.com/Samyu0304/GraphFlow)  
+**领域**: image_generation  
 **关键词**: 知识图谱, 检索增强生成, GFlowNet, 过程奖励模型, 最优传输
 
 ## 一句话总结

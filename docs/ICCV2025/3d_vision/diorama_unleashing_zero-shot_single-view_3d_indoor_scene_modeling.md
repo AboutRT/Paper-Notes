@@ -1,9 +1,9 @@
 # Diorama: Unleashing Zero-shot Single-view 3D Indoor Scene Modeling
 
-**会议**: ICCV 2025
-**arXiv**: [2411.19492](https://arxiv.org/abs/2411.19492)
-**代码**: [有](https://3dlg-hcvc.github.io/diorama/)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2411.19492](https://arxiv.org/abs/2411.19492)  
+**代码**: [有](https://3dlg-hcvc.github.io/diorama/)  
+**领域**: 3D视觉  
 **关键词**: 零样本场景建模, 单视图3D重建, CAD检索, 基础模型, 室内场景
 
 ## 一句话总结

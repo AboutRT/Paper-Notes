@@ -1,9 +1,9 @@
 # SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.20527](https://arxiv.org/abs/2507.20527)
-**代码**: [HuggingFace Dataset](https://huggingface.co/datasets/amd/SAND-MATH)
-**领域**: 音频/语音 (LLM数学推理)
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.20527](https://arxiv.org/abs/2507.20527)  
+**代码**: [HuggingFace Dataset](https://huggingface.co/datasets/amd/SAND-MATH)  
+**领域**: 音频/语音 (LLM数学推理)  
 **关键词**: 数学推理, 合成数据, Difficulty Hiking, 数据质量, 后训练
 
 ## 一句话总结

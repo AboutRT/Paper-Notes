@@ -1,9 +1,9 @@
 # MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation
 
-**会议**: CVPR 2026
-**arXiv**: [2511.10376](https://arxiv.org/abs/2511.10376)
-**代码**: 无
-**领域**: 3D Vision / Embodied Navigation
+**会议**: CVPR 2026  
+**arXiv**: [2511.10376](https://arxiv.org/abs/2511.10376)  
+**代码**: 无  
+**领域**: 3D Vision / Embodied Navigation  
 **关键词**: 具身导航, 3D场景图, 零样本导航, 多模态场景图, 视点决策, VLM
 
 ## 一句话总结

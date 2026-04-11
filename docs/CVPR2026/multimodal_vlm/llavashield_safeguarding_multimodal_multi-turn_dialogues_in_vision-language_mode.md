@@ -1,9 +1,9 @@
 # LLaVAShield: Safeguarding Multimodal Multi-Turn Dialogues in Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2509.25896](https://arxiv.org/abs/2509.25896)
-**代码**: [项目页面](https://leost123456.github.io/LLaVAShield/)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2509.25896](https://arxiv.org/abs/2509.25896)  
+**代码**: [项目页面](https://leost123456.github.io/LLaVAShield/)  
+**领域**: 多模态VLM  
 **关键词**: 内容审核, 多模态安全, 多轮对话, 红队测试, VLM安全
 
 ## 一句话总结

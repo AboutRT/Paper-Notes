@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Dark3R: Learning Structure from Motion in the Dark
 
-**会议**: CVPR2026
-**arXiv**: [2603.05330](https://arxiv.org/abs/2603.05330)
-**代码**: [项目主页](https://andrewguo.com/pub/dark3r)
-**领域**: 3D视觉
+**会议**: CVPR2026  
+**arXiv**: [2603.05330](https://arxiv.org/abs/2603.05330)  
+**代码**: [项目主页](https://andrewguo.com/pub/dark3r)  
+**领域**: 3D视觉  
 **关键词**: 低光照3D重建, 运动恢复结构, 知识蒸馏, 特征匹配, 新视角合成, NeRF
 
 ## 一句话总结

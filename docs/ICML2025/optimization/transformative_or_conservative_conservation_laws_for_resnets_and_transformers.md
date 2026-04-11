@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Transformative or Conservative? Conservation Laws for ResNets and Transformers
 
-**会议**: ICML2025
-**arXiv**: [2506.06194](https://arxiv.org/abs/2506.06194)
-**代码**: 待确认
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2506.06194](https://arxiv.org/abs/2506.06194)  
+**代码**: 待确认  
+**领域**: optimization  
 **关键词**: conservation laws, gradient flow, ResNet, Transformer, training dynamics, implicit bias, Lie algebra
 
 ## 一句话总结

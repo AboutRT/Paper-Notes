@@ -1,11 +1,11 @@
 # Tell, Don't Show: Leveraging Language Models' Abstractive Retellings to Model Literary Themes
 
-**会议**: ACL2025
-**arXiv**: [2505.23166](https://arxiv.org/abs/2505.23166)
-**代码**: [lucy3/tell_dont_show](https://github.com/lucy3/tell_dont_show)
+**会议**: ACL2025  
+**arXiv**: [2505.23166](https://arxiv.org/abs/2505.23166)  
+**代码**: [lucy3/tell_dont_show](https://github.com/lucy3/tell_dont_show)  
 **作者**: Li Lucy, Camilla Griffiths, Sarah Levine, Jennifer L. Eberhardt, Dorottya Demszky, David Bamman
 **机构**: UC Berkeley, Stanford University
-**领域**: nlp_generation
+**领域**: nlp_generation  
 **关键词**: topic modeling, literary analysis, abstractive retelling, LDA, cultural analytics
 
 ## 一句话总结

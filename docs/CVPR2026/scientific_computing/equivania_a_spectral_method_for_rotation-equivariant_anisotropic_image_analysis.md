@@ -1,9 +1,9 @@
 # EquivAnIA: A Spectral Method for Rotation-Equivariant Anisotropic Image Analysis
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11294](https://arxiv.org/abs/2603.11294)
-**代码**: [github.com/jscanvic/Anisotropic-Analysis](https://github.com/jscanvic/Anisotropic-Analysis)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.11294](https://arxiv.org/abs/2603.11294)  
+**代码**: [github.com/jscanvic/Anisotropic-Analysis](https://github.com/jscanvic/Anisotropic-Analysis)  
+**领域**: 医学图像  
 **关键词**: 各向异性分析, 旋转等变性, 频谱方法, 角度配准, Cake小波
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Towards Better Open-Ended Text Generation: A Multicriteria Evaluation Framework
 
-**会议**: ACL 2025 (workshop GEM²)
-**arXiv**: [2410.18653](https://arxiv.org/abs/2410.18653)
-**代码**: [GitHub](https://github.com/YecanLee/2BeOETG)
-**领域**: 文本生成
+**会议**: ACL 2025 (workshop GEM²)  
+**arXiv**: [2410.18653](https://arxiv.org/abs/2410.18653)  
+**代码**: [GitHub](https://github.com/YecanLee/2BeOETG)  
+**领域**: 文本生成  
 **关键词**: open-ended text generation, multicriteria evaluation, decoding strategies, Bradley-Terry model, text quality metric
 
 ## 一句话总结

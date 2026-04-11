@@ -1,9 +1,9 @@
 # Stepwise Reasoning Disruption Attack of LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2412.11934](https://arxiv.org/abs/2412.11934)
-**代码**: https://github.com/Applied-Machine-Learning-Lab/SEED-Attack (有)
-**领域**: LLM安全与鲁棒性
+**会议**: ACL 2025  
+**arXiv**: [2412.11934](https://arxiv.org/abs/2412.11934)  
+**代码**: https://github.com/Applied-Machine-Learning-Lab/SEED-Attack (有)  
+**领域**: LLM安全与鲁棒性  
 **关键词**: LLM攻击, 推理安全, 对抗攻击, Chain-of-Thought, 隐蔽性
 
 ## 一句话总结

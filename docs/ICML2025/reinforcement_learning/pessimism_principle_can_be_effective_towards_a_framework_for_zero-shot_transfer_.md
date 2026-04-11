@@ -1,9 +1,9 @@
 # Pessimism Principle Can Be Effective: Towards a Framework for Zero-Shot Transfer RL
 
-**会议**: ICML 2025
-**arXiv**: [2505.18447](https://arxiv.org/abs/2505.18447)
-**代码**: 无
-**领域**: 强化学习 / 迁移学习
+**会议**: ICML 2025  
+**arXiv**: [2505.18447](https://arxiv.org/abs/2505.18447)  
+**代码**: 无  
+**领域**: 强化学习 / 迁移学习  
 **关键词**: transfer RL, pessimism, robust MDP, distributed learning, negative transfer
 
 ## 一句话总结

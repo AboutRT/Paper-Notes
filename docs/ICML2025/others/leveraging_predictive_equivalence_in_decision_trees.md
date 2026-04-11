@@ -1,9 +1,9 @@
 # Leveraging Predictive Equivalence in Decision Trees
 
-**会议**: ICML2025
-**arXiv**: [2506.14143](https://arxiv.org/abs/2506.14143)
-**代码**: 待确认
-**领域**: 决策树 / 可解释机器学习
+**会议**: ICML2025  
+**arXiv**: [2506.14143](https://arxiv.org/abs/2506.14143)  
+**代码**: 待确认  
+**领域**: 决策树 / 可解释机器学习  
 **关键词**: 决策树, 预测等价性, 析取范式(DNF), Quine-McCluskey, 变量重要性, 缺失数据, Rashomon集
 
 ## 一句话总结

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🧠 NeurIPS2025** · 共 **29** 篇
+**🧠 NeurIPS2025** · 共 **33** 篇
 
 **[All You Need is One: Capsule Prompt Tuning with a Single Vector](all_you_need_is_one_capsule_prompt_tuning_with_a_single_vector.md)**
 
@@ -95,6 +95,14 @@
 
 :   系统研究了将谎言检测器（lie detector）整合到LLM偏好学习标注流程中的效果（SOLiD框架），发现训练后模型是变得诚实还是学会规避检测取决于三个关键因素：探索程度（GRPO vs DPO）、检测器准确率（TPR）和KL正则化强度。
 
+**[ReCon-GS: Continuum-Preserved Gaussian Streaming for Fast and Compact Reconstruction](recon-gs_continuum-preserved_gaussian_streaming_for_fast_and_compact_reconstruct.md)**
+
+:   提出 ReCon-GS，通过连续性保持的 Gaussian 流式处理实现增量式 3D 重建，在保持渲染质量的同时大幅减少存储需求和训练时间，支持大规模场景的实时重建。
+
+**[ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection](recon_region-controllable_data_augmentation_with_rectification_and_alignment_for.md)**
+
+:   ReCon 提出无需额外训练的区域可控数据增强框架，通过区域引导校正（RGR）和区域对齐交叉注意力（RACA）增强现有结构可控生成模型的目标检测数据质量，在 COCO 上实现 35.5 mAP（超过需 fine-tune 的 GeoDiffusion）。
+
 **[Rectified-CFG++ for Flow Based Models](rectified-cfg_for_flow_based_models.md)**
 
 :   针对Rectified Flow模型中标准CFG导致的离流形漂移问题，提出Rectified-CFG++——一种自适应预测-校正引导策略，通过条件流预测+时间调度插值校正替代外推式引导，在Flux/SD3/SD3.5/Lumina等大规模模型上全面超越标准CFG。
@@ -107,6 +115,10 @@
 
 :   首次为分布鲁棒平均奖励强化学习（DR-AMDP）建立了有限样本收敛保证，提出两种算法（折扣归约法和锚定法），在KL和$f_k$-散度不确定集下均达到$\widetilde{O}(|S||A|t_{\mathrm{mix}}^2\varepsilon^{-2})$的近最优样本复杂度。
 
+**[SSTAG: Structure-Aware Self-Supervised Learning Method for Text-Attributed Graphs](sstag_structure-aware_self-supervised_learning_method_for_text-attributed_graphs.md)**
+
+:   提出 SSTAG，通过双重知识蒸馏将 LLM 和 GNN 的互补知识联合蒸馏到结构感知的 MLP 中，结合内存库机制存储原型表示，实现高效、可扩展的文本属性图跨域自监督预训练。
+
 **[Test-Time Adaptive Object Detection with Foundation Model](test-time_adaptive_object_detection_with_foundation_model.md)**
 
 :   提出无需源域数据的开放词汇测试时自适应目标检测框架（TTAOD），通过多模态 Prompt Tuning + Mean-Teacher + 实例动态记忆（IDM）+ 记忆增强/幻觉策略，在 Pascal-C 上 AP50 达 56.2%（+11.0 vs SOTA），在 13 个跨域数据集上一致有效。
@@ -114,6 +126,10 @@
 **[The Complexity of Finding Local Optima in Contrastive Learning](the_complexity_of_finding_local_optima_in_contrastive_learning.md)**
 
 :   证明对比学习中寻找局部最优是计算困难的：离散三元组最大化问题是 PLS-hard（即使 $d=1$），连续三元组损失最小化是 CLS-hard，意味着（在标准假设下）不存在多项式时间算法找到局部最优。
+
+**[Towards Effective Federated Graph Foundation Model via Mitigating Knowledge Entanglement](towards_effective_federated_graph_foundation_model_via_mitigating_knowledge_enta.md)**
+
+:   首次提出联邦图基础模型(FedGFM)范式，融合联邦图学习的分布式协作能力与图基础模型的跨域泛化能力，通过 AncDAI（锚点域感知初始化）和 AdaDPP（自适应域敏感提示池）两个模块缓解知识纠缠问题，在8个跨任务跨领域数据集上超越20个基线。
 
 **[XIFBench: Evaluating Large Language Models on Multilingual Instruction Following](xifbench_evaluating_large_language_models_on_multilingual_instruction_following.md)**
 

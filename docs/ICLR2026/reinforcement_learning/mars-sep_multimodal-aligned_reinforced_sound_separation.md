@@ -1,9 +1,9 @@
 # MARS-Sep: Multimodal-Aligned Reinforced Sound Separation
 
-**会议**: ICLR 2026
-**arXiv**: [2510.10509](https://arxiv.org/abs/2510.10509)
-**代码**: [GitHub](https://github.com/mars-sep/MARS-Sep)
-**领域**: 音频处理/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.10509](https://arxiv.org/abs/2510.10509)  
+**代码**: [GitHub](https://github.com/mars-sep/MARS-Sep)  
+**领域**: 音频处理/强化学习  
 **关键词**: 声源分离, 偏好对齐, Beta策略, 多模态奖励, 信任域优化
 
 ## 一句话总结

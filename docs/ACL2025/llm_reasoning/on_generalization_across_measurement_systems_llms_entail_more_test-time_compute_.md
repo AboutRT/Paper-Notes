@@ -1,9 +1,9 @@
 # On Generalization across Measurement Systems: LLMs Entail More Test-Time Compute for Underrepresented Cultures
 
-**会议**: ACL 2025
-**arXiv**: [2506.02591](https://arxiv.org/abs/2506.02591)
-**代码**: [GitHub](https://github.com/MinhDucBui/MeasurementSystemBias)
-**领域**: LLM推理
+**会议**: ACL 2025  
+**arXiv**: [2506.02591](https://arxiv.org/abs/2506.02591)  
+**代码**: [GitHub](https://github.com/MinhDucBui/MeasurementSystemBias)  
+**领域**: LLM推理  
 **关键词**: 度量系统泛化, 文化偏见, test-time compute, 推理成本不公平, 跨文化NLP
 
 ## 一句话总结

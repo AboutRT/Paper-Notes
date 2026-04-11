@@ -1,9 +1,9 @@
 # QKV Projections Require a Fraction of Their Memory
 
-**会议**: ICLR 2026
-**arXiv**: [2506.02939](https://arxiv.org/abs/2506.02939)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2506.02939](https://arxiv.org/abs/2506.02939)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 训练内存压缩, 注意力机制, 矩阵乘法近似, 激活压缩, LLM训练
 
 ## 一句话总结

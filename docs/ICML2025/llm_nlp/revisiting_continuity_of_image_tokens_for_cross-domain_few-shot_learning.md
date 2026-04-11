@@ -1,9 +1,9 @@
 # Revisiting Continuity of Image Tokens for Cross-Domain Few-Shot Learning
 
-**会议**: ICML 2025
-**arXiv**: [2506.03110](https://arxiv.org/abs/2506.03110)
-**代码**: [github.com/shuaiyi308/ReCIT](https://github.com/shuaiyi308/ReCIT)
-**领域**: LLM / NLP（视觉 Transformer）
+**会议**: ICML 2025  
+**arXiv**: [2506.03110](https://arxiv.org/abs/2506.03110)  
+**代码**: [github.com/shuaiyi308/ReCIT](https://github.com/shuaiyi308/ReCIT)  
+**领域**: LLM / NLP（视觉 Transformer）  
 **关键词**: cross-domain few-shot, ViT, token continuity, spatial patterns, domain gap
 
 ## 一句话总结
@@ -33,6 +33,7 @@ ReCIT (Re-visiting Continuity of Image Tokens) 在训练和推理时对图像 to
 标准的 few-shot learning 训练（meta-learning 或 fine-tuning），核心改变仅在数据预处理阶段。
 
 ## 实验关键数据
+
 ### 主实验（多个 CDFSL benchmark）
 | 方法 | CropDisease | EuroSAT | ISIC | ChestX | 平均 |
 |------|------------|---------|------|--------|------|

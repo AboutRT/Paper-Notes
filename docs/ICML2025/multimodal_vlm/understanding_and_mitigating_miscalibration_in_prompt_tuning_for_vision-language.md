@@ -1,9 +1,9 @@
 # Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models
 
-**会议**: ICML 2025
-**arXiv**: [2410.02681](https://arxiv.org/abs/2410.02681)
-**代码**: [github.com/ml-stat-Sustech/Outlier-Calibration](https://github.com/ml-stat-Sustech/Outlier-Calibration)
-**领域**: 视觉语言模型, 置信度校准, Prompt Learning
+**会议**: ICML 2025  
+**arXiv**: [2410.02681](https://arxiv.org/abs/2410.02681)  
+**代码**: [github.com/ml-stat-Sustech/Outlier-Calibration](https://github.com/ml-stat-Sustech/Outlier-Calibration)  
+**领域**: 视觉语言模型, 置信度校准, Prompt Learning  
 **关键词**: CLIP, Calibration, Prompt Tuning, Feature Divergence, Outlier Regularization
 
 ## 一句话总结

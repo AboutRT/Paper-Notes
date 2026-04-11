@@ -1,9 +1,9 @@
 # Context Informs Pragmatic Interpretation in Vision-Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.03908](https://arxiv.org/abs/2511.03908)
-**代码**: [GitHub](https://github.com/benpry/vlm-tg-context/tree/coginterp)
-**领域**: multimodal_vlm
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.03908](https://arxiv.org/abs/2511.03908)  
+**代码**: [GitHub](https://github.com/benpry/vlm-tg-context/tree/coginterp)  
+**领域**: multimodal_vlm  
 **关键词**: 语用推理, 参考游戏, 上下文敏感性, VLM认知评估, 抽象视觉推理
 
 ## 一句话总结

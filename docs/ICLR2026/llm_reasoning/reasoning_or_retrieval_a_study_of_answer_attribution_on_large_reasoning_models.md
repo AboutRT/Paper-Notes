@@ -1,9 +1,9 @@
 # Reasoning or Retrieval? A Study of Answer Attribution on Large Reasoning Models
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24156](https://arxiv.org/abs/2509.24156)
-**代码**: [ZJUWYH/FARL](https://github.com/ZJUWYH/FARL)
-**领域**: llm_reasoning
+**会议**: ICLR 2026  
+**arXiv**: [2509.24156](https://arxiv.org/abs/2509.24156)  
+**代码**: [ZJUWYH/FARL](https://github.com/ZJUWYH/FARL)  
+**领域**: llm_reasoning  
 **关键词**: large reasoning models, CoT reasoning, memory retrieval, answer attribution, reinforcement learning, unlearning, GRPO
 
 ## 一句话总结

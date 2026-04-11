@@ -1,10 +1,10 @@
 # Recursive Question Understanding for Complex Question Answering over Heterogeneous Personal Data
 
-**会议**: ACL2025
-**arXiv**: [2505.11900](https://arxiv.org/abs/2505.11900)
+**会议**: ACL2025  
+**arXiv**: [2505.11900](https://arxiv.org/abs/2505.11900)  
 **作者**: Philipp Christmann, Gerhard Weikum (Max Planck Institute for Informatics)
-**代码**: [reqap.mpi-inf.mpg.de](https://reqap.mpi-inf.mpg.de/)
-**领域**: nlp_understanding
+**代码**: [reqap.mpi-inf.mpg.de](https://reqap.mpi-inf.mpg.de/)  
+**领域**: nlp_understanding  
 **关键词**: 个人数据问答, 异构数据, 问题分解, 算子树, 端侧部署
 
 ## 一句话总结

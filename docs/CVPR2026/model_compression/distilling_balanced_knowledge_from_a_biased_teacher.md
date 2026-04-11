@@ -1,9 +1,9 @@
 # Distilling Balanced Knowledge from a Biased Teacher
 
-**会议**: CVPR 2026
-**arXiv**: [2506.18496](https://arxiv.org/abs/2506.18496)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: CVPR 2026  
+**arXiv**: [2506.18496](https://arxiv.org/abs/2506.18496)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 知识蒸馏, 长尾分布, 模型压缩, KL 散度分解, 类不平衡
 
 ## 一句话总结

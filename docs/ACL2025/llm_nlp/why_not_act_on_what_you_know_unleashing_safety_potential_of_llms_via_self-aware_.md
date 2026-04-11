@@ -1,9 +1,9 @@
 # Why Not Act on What You Know? Unleashing Safety Potential of LLMs via Self-Aware Guard Enhancement
 
-**会议**: ACL2025
-**arXiv**: [2505.12060](https://arxiv.org/abs/2505.12060)
-**代码**: [NJUNLP/SAGE](https://github.com/NJUNLP/SAGE)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.12060](https://arxiv.org/abs/2505.12060)  
+**代码**: [NJUNLP/SAGE](https://github.com/NJUNLP/SAGE)  
+**领域**: llm_nlp  
 **关键词**: 越狱防御, 安全对齐, 判别-生成差距, 免训练, 可解释性
 
 ## 一句话总结

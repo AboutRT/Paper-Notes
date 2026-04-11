@@ -1,9 +1,9 @@
 # IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling
 
-**会议**: ICLR 2026
-**arXiv**: [2511.07327](https://arxiv.org/abs/2511.07327)
-**代码**: 有
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2511.07327](https://arxiv.org/abs/2511.07327)  
+**代码**: 有  
+**领域**: 模型压缩  
 **关键词**: 深度研究Agent, 迭代工作区, MDP框架, 交互扩展, 强化学习
 
 ## 一句话总结

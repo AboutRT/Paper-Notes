@@ -1,9 +1,9 @@
 # IntroStyle: Training-Free Introspective Style Attribution using Diffusion Features
 
-**会议**: ICCV 2025
-**arXiv**: [2412.14432](https://arxiv.org/abs/2412.14432)
-**代码**: [GitHub](https://anandk27.github.io/IntroStyle)
-**领域**: 图像生成 / 风格归因
+**会议**: ICCV 2025  
+**arXiv**: [2412.14432](https://arxiv.org/abs/2412.14432)  
+**代码**: [GitHub](https://anandk27.github.io/IntroStyle)  
+**领域**: 图像生成 / 风格归因  
 **关键词**: 风格归因, 扩散模型特征, 免训练, Wasserstein距离, 版权保护, 风格检索
 
 ## 一句话总结

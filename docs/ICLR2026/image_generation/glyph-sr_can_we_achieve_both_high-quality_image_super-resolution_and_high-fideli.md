@@ -1,9 +1,9 @@
 # GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and High-Fidelity Text Recovery via VLM-Guided Latent Diffusion Model?
 
-**会议**: ICLR 2026
-**arXiv**: [2510.26339](https://arxiv.org/abs/2510.26339)
-**代码**: 有（论文提到release）
-**领域**: 扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2510.26339](https://arxiv.org/abs/2510.26339)  
+**代码**: 有（论文提到release）  
+**领域**: 扩散模型  
 **关键词**: 图像超分辨率, 场景文本恢复, ControlNet, 扩散模型, OCR
 
 ## 一句话总结

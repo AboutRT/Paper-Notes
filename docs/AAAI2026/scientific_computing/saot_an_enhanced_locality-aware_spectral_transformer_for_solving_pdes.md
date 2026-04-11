@@ -1,10 +1,10 @@
 # SAOT: An Enhanced Locality-Aware Spectral Transformer for Solving PDEs
 
-**会议**: AAAI 2026
-**arXiv**: [2511.18777](https://arxiv.org/abs/2511.18777)
-**代码**: https://github.com/chenhong-zhou/SAOT
+**会议**: AAAI 2026  
+**arXiv**: [2511.18777](https://arxiv.org/abs/2511.18777)  
+**代码**: https://github.com/chenhong-zhou/SAOT  
 **作者**: Chenhong Zhou, Jie Chen, Zaifeng Yang
-**领域**: 科学计算 / 算子学习
+**领域**: 科学计算 / 算子学习  
 **关键词**: 神经算子, 小波变换, 傅里叶注意力, 谱Transformer, PDE求解
 
 ## 一句话总结

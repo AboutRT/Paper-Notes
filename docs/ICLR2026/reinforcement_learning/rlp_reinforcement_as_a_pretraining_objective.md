@@ -1,9 +1,9 @@
 # RLP: Reinforcement as a Pretraining Objective
 
-**会议**: ICLR 2026
-**arXiv**: [2510.01265](https://arxiv.org/abs/2510.01265)
-**代码**: 无
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.01265](https://arxiv.org/abs/2510.01265)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 预训练, 信息增益, Chain-of-Thought, 强化学习, 下一token预测
 
 ## 一句话总结

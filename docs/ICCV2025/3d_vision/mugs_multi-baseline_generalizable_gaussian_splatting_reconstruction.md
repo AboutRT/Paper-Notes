@@ -1,9 +1,9 @@
 # MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction
 
-**会议**: ICCV 2025
-**arXiv**: [2508.04297](https://arxiv.org/abs/2508.04297)
-**代码**: [GitHub](https://github.com/EuclidLou/MuGS)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2508.04297](https://arxiv.org/abs/2508.04297)  
+**代码**: [GitHub](https://github.com/EuclidLou/MuGS)  
+**领域**: 3d_vision  
 **关键词**: 新视角合成, 3D高斯泼溅, 多基线, 泛化重建, 深度融合, 多视图立体, 单目深度估计
 
 ## 一句话总结

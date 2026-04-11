@@ -1,9 +1,9 @@
 # MTL-UE: Learning to Learn Nothing for Multi-Task Learning
 
-**会议**: ICML2025
-**arXiv**: [2505.05279](https://arxiv.org/abs/2505.05279)
-**代码**: 待确认
-**领域**: self_supervised
+**会议**: ICML2025  
+**arXiv**: [2505.05279](https://arxiv.org/abs/2505.05279)  
+**代码**: 待确认  
+**领域**: self_supervised  
 **关键词**: 不可学习样本, 多任务学习, 数据保护, 投毒攻击, 类别嵌入
 
 ## 一句话总结

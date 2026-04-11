@@ -1,9 +1,9 @@
 # Is Sequence Information All You Need for Bayesian Optimization of Antibodies?
 
-**会议**: NeurIPS 2025 (AI for Science Workshop)
-**arXiv**: [2509.24933](https://arxiv.org/abs/2509.24933)
-**代码**: 无
-**领域**: 生物信息学 / 抗体工程
+**会议**: NeurIPS 2025 (AI for Science Workshop)  
+**arXiv**: [2509.24933](https://arxiv.org/abs/2509.24933)  
+**代码**: 无  
+**领域**: 生物信息学 / 抗体工程  
 **关键词**: 贝叶斯优化, 抗体设计, 蛋白质语言模型, 结构信息, 高斯过程
 
 ## 一句话总结

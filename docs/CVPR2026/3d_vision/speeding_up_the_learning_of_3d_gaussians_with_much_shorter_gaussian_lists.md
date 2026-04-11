@@ -1,9 +1,9 @@
 # Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists
 
-**会议**: CVPR2026
-**arXiv**: [2603.09277](https://arxiv.org/abs/2603.09277)
-**代码**: [MachinePerceptionLab/ShorterSplatting](https://github.com/MachinePerceptionLab/ShorterSplatting)
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2603.09277](https://arxiv.org/abs/2603.09277)  
+**代码**: [MachinePerceptionLab/ShorterSplatting](https://github.com/MachinePerceptionLab/ShorterSplatting)  
+**领域**: 3d_vision  
 **关键词**: 3D Gaussian Splatting, 训练加速, Scale Reset, 熵约束, 高斯列表缩短
 
 ## 一句话总结

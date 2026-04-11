@@ -1,9 +1,9 @@
 # SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model
 
-**会议**: ICML2025
-**arXiv**: [2506.01833](https://arxiv.org/abs/2506.01833)
-**代码**: [ZhuJiwei111/SPACE](https://github.com/ZhuJiwei111/SPACE)
-**领域**: 基因组学 / DNA基础模型
+**会议**: ICML2025  
+**arXiv**: [2506.01833](https://arxiv.org/abs/2506.01833)  
+**代码**: [ZhuJiwei111/SPACE](https://github.com/ZhuJiwei111/SPACE)  
+**领域**: 基因组学 / DNA基础模型  
 **关键词**: DNA基础模型, 基因组图谱预测, Mixture of Experts, 跨物种建模, 监督预训练
 
 ## 一句话总结

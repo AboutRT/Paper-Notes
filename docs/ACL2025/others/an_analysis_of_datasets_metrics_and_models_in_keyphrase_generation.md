@@ -1,9 +1,9 @@
 # An Analysis of Datasets, Metrics and Models in Keyphrase Generation
 
-**会议**: ACL 2025 (GEM²)
-**arXiv**: [2506.10346](https://arxiv.org/abs/2506.10346)
-**代码**: 无（但发布了预训练模型）
-**领域**: Others (NLP / Information Retrieval)
+**会议**: ACL 2025 (GEM²)  
+**arXiv**: [2506.10346](https://arxiv.org/abs/2506.10346)  
+**代码**: 无（但发布了预训练模型）  
+**领域**: Others (NLP / Information Retrieval)  
 **关键词**: 关键短语生成, 数据集分析, 评估指标, 预训练语言模型, 综述分析
 
 ## 一句话总结

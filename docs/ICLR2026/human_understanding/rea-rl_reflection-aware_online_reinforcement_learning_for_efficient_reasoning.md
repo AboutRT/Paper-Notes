@@ -1,9 +1,9 @@
 # REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2505.19862](https://arxiv.org/abs/2505.19862)
-**代码**: [GitHub](https://github.com/hexuandeng/REA-RL)
-**领域**: LLM推理效率
+**会议**: ICLR 2026  
+**arXiv**: [2505.19862](https://arxiv.org/abs/2505.19862)  
+**代码**: [GitHub](https://github.com/hexuandeng/REA-RL)  
+**领域**: LLM推理效率  
 **关键词**: 推理过度思考, 反思感知, 在线RL, GRPO, 推理效率
 
 ## 一句话总结

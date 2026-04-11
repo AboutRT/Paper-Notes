@@ -1,9 +1,9 @@
 # Adaptive Auxiliary Prompt Blending for Target-Faithful Diffusion Generation
 
-**会议**: CVPR2026
-**arXiv**: [2603.19158](https://arxiv.org/abs/2603.19158)
-**代码**: [GitHub](https://github.com/) (论文声明已开源，具体链接待确认)
-**领域**: 图像生成 / 扩散模型
+**会议**: CVPR2026  
+**arXiv**: [2603.19158](https://arxiv.org/abs/2603.19158)  
+**代码**: [GitHub](https://github.com/) (论文声明已开源，具体链接待确认)  
+**领域**: 图像生成 / 扩散模型  
 **关键词**: 扩散模型, 文本到图像生成, 稀有概念生成, 图像编辑, 自适应提示混合, Tweedie公式, Classifier-Free Guidance
 
 ## 一句话总结

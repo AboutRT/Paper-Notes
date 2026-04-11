@@ -1,9 +1,9 @@
 # Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders
 
-**会议**: ICLR 2026
-**arXiv**: [2512.08892](https://arxiv.org/abs/2512.08892)
-**代码**: [GitHub](https://github.com/Teddy-XiongGZ/RAGLens)
-**领域**: RAG/可解释AI
+**会议**: ICLR 2026  
+**arXiv**: [2512.08892](https://arxiv.org/abs/2512.08892)  
+**代码**: [GitHub](https://github.com/Teddy-XiongGZ/RAGLens)  
+**领域**: RAG/可解释AI  
 **关键词**: 检索增强生成, 稀疏自编码器, 幻觉检测, 可解释性, 忠实性
 
 ## 一句话总结

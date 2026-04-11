@@ -1,9 +1,9 @@
 # PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2602.01156](https://arxiv.org/abs/2602.01156)
-**代码**: [项目页面](https://policyflow2026.github.io/)
-**领域**: 强化学习/策略优化
+**会议**: ICLR 2026  
+**arXiv**: [2602.01156](https://arxiv.org/abs/2602.01156)  
+**代码**: [项目页面](https://policyflow2026.github.io/)  
+**领域**: 强化学习/策略优化  
 **关键词**: 连续归一化流, PPO, 多模态策略, 重要性比率近似, 布朗运动熵正则
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Learning Survival Distributions with the Asymmetric Laplace Distribution
 
-**会议**: ICML2025
-**arXiv**: [2505.03712](https://arxiv.org/abs/2505.03712)
-**代码**: 论文附有补充材料代码
-**领域**: 生存分析 / 概率建模
+**会议**: ICML2025  
+**arXiv**: [2505.03712](https://arxiv.org/abs/2505.03712)  
+**代码**: 论文附有补充材料代码  
+**领域**: 生存分析 / 概率建模  
 **关键词**: 生存分析, 非对称拉普拉斯分布, 参数化模型, 分位数回归, 最大似然估计
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Pedagogically-Inspired Data Synthesis for Language Model Knowledge Distillation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.12172](https://arxiv.org/abs/2602.12172)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2602.12172](https://arxiv.org/abs/2602.12172)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 知识蒸馏, 合成数据, 课程学习, 教育学启发, LLM压缩
 
 ## 一句话总结

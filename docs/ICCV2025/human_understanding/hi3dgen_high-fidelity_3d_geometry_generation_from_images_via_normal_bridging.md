@@ -1,8 +1,8 @@
 # Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging
 
-**会议**: ICCV 2025
-**arXiv**: [2503.22236](https://arxiv.org/abs/2503.22236)
-**领域**: 3D Generation / Normal Estimation
+**会议**: ICCV 2025  
+**arXiv**: [2503.22236](https://arxiv.org/abs/2503.22236)  
+**领域**: 3D Generation / Normal Estimation  
 **关键词**: 3D生成, 法线图桥接, 噪声注入回归, 双流架构, 潜在扩散正则化, 高保真几何
 
 ## 一句话总结

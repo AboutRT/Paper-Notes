@@ -1,9 +1,9 @@
 # Diagnosing and Repairing Unsafe Channels in Vision-Language Models via Causal Discovery and Dual-Modal Safety Subspace Projection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.27240](https://arxiv.org/abs/2603.27240)
-**代码**: 无
-**领域**: Multimodal / VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.27240](https://arxiv.org/abs/2603.27240)  
+**代码**: 无  
+**领域**: Multimodal / VLM  
 **关键词**: VLM安全, 因果中介分析, 安全子空间投影, 对抗攻击防御, 双模态修复
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心 idea**: 诊断——因果中介分析定位 FFN 中层 → 修复——广义特征分解找到恶意子空间 → 投影到其正交补空间。
 
 ## 方法详解
+
 ### 整体框架
 三步：(1) 层级因果追踪（ablation）→ (2) 双模态 token 归因（RBF 核）→ (3) 安全子空间投影（广义特征分解 + 正交投影）。整个过程无需重训练，仅在推理时介入。
 
@@ -39,6 +40,7 @@
 **无需训练**——完全在推理时介入。仅需离线收集少量良性/恶意样本提取激活用于构建投影矩阵。
 
 ## 实验关键数据
+
 ### 主实验（攻击成功率 ASR % ↓）
 | 方法 | JailBreakV | MMSafety | PGD-Toxic κ=64 | PGD-Jailbreak κ=64 |
 |------|-----------|---------|---------------|-------------------|

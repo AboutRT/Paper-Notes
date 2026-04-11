@@ -1,9 +1,9 @@
 # Understanding Sharpness Dynamics in NN Training with a Minimalist Example: The Effects of Dataset Difficulty, Depth, Stochasticity, and More
 
-**会议**: ICML2025
-**arXiv**: [2506.06940](https://arxiv.org/abs/2506.06940)
-**代码**: 未提供
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2506.06940](https://arxiv.org/abs/2506.06940)  
+**代码**: 未提供  
+**领域**: optimization  
 **关键词**: sharpness dynamics, progressive sharpening, edge of stability, deep linear networks, dataset difficulty
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Representation Shattering in Transformers: A Synthetic Study with Knowledge Editing
 
-**会议**: ICML 2025
-**arXiv**: [2410.17194](https://arxiv.org/abs/2410.17194)
-**代码**: 无
-**领域**: graph_learning
+**会议**: ICML 2025  
+**arXiv**: [2410.17194](https://arxiv.org/abs/2410.17194)  
+**代码**: 无  
+**领域**: graph_learning  
 **关键词**: Knowledge Editing, Representation Shattering, Transformers, Knowledge Graphs, Mechanistic Interpretability
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Faster and Stronger: When ANN-SNN Conversion Meets Parallel Spiking Calculation
 
-**会议**: ICML2025
-**arXiv**: [2412.13610](https://arxiv.org/abs/2412.13610)
-**代码**: [GitHub](https://github.com/hzc1208/Parallel_Conversion)
-**领域**: SNN (脉冲神经网络)
+**会议**: ICML2025  
+**arXiv**: [2412.13610](https://arxiv.org/abs/2412.13610)  
+**代码**: [GitHub](https://github.com/hzc1208/Parallel_Conversion)  
+**领域**: SNN (脉冲神经网络)  
 **关键词**: ANN-SNN转换, 并行脉冲计算, 低时延推理, 量化激活函数, 无训练转换
 
 ## 一句话总结

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**💬 ACL2025** · 共 **104** 篇
+**💬 ACL2025** · 共 **115** 篇
 
 **[AdamMeme: Adaptively Probe the Reasoning Capacity of Multimodal Large Language Models on Harmfulness](adammeme_adaptively_probe_the_reasoning_capacity_of_multimodal_large_language_mo.md)**
 
@@ -51,6 +51,10 @@
 
 :   提出 TempVS 基准测试，系统评估 38 个 MLLM 在图像序列中对多事件时序关系的 grounding 和推理能力，揭示 SOTA 模型与人类之间存在巨大性能差距。
 
+**[Can Vision-Language Models Evaluate Handwritten Math?](can_vision-language_models_evaluate_handwritten_math.md)**
+
+:   本文提出FERMAT基准，通过609道人工策划的7-12年级数学题及其2200+份手写错误解答（覆盖计算、概念、符号、格式四类错误），系统评估9个VLM在手写数学内容的错误检测、定位和纠正能力，发现Gemini-1.5-Pro达到最高纠错率77%，但所有模型在处理手写内容时仍面临显著挑战。
+
 **[Can Vision Language Models Understand Mimed Actions?](can_vision_language_models_understand_mimed_actions.md)**
 
 :   构建 Mime 基准（86 个动作、860 个样本），利用动作捕捉 + 3D 渲染系统化评估 VLM 对哑剧动作的理解能力，发现 VLM 严重依赖场景上下文而无法像人类一样从纯肢体动作推断语义。
@@ -79,6 +83,10 @@
 
 :   首次系统探索 MLLM 中常识级别的视觉-知识冲突问题，提出自动化框架构建 ConflictVis 基准（374 图 + 1122 QA），发现 MLLM 在约 20% 的冲突场景中过度依赖参数化知识（尤其是 Yes-No 和动作类问题），并提出 Focus-on-Vision 提示策略进行缓解。
 
+**[CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relations?](cordial_can_multimodal_large_language_models_effectively_understand_coherence_re.md)**
+
+:   本文提出CORDIAL，首个用连贯关系（Coherence Relations）评估MLLM多模态话语分析能力的基准，涵盖灾难管理、社交媒体和在线文章3个话语领域的不同粒度连贯关系，实验发现即使Gemini 1.5 Pro和GPT-4o也无法匹配简单的CLIP分类器基线，揭示了MLLM在语用理解方面的根本不足。
+
 **[CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG](core_mmrag_knowledge_reconciliation.md)**
 
 :   CoRe-MMRAG 提出了一个端到端多模态 RAG 框架，通过四阶段流水线（参数知识生成→视觉-文本联合重排序→外部知识生成→内外知识整合）解决参数知识-检索知识不一致(PRKI)和视觉-文本知识不一致(VTKI)两个问题，在 InfoSeek 和 Encyclopedic-VQA 上分别提升 5.6% 和 9.3%。
@@ -94,6 +102,10 @@
 **[Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence](cracking_hallucination_vhd.md)**
 
 :   提出Vision-aware Head Divergence (VHD)指标量化注意力头对视觉信息的敏感度，发现幻觉与模型过度依赖语言先验紧密相关，并提出Vision-aware Head Reinforcement (VHR)无训练方法，通过放大视觉敏感注意力头来缓解幻觉，在CHAIR上最高降低CHAIRS 16.36个点。
+
+**[CrafText Benchmark: Advancing Instruction Following in Complex Multimodal Open-Ended World](craftext_benchmark_advancing_instruction_following_in_complex_multimodal_open-en.md)**
+
+:   提出 CrafText，一个基于 Craftax 开放世界环境的多模态指令跟随基准，包含 3,924 条指令和 3,423 个独特词汇，覆盖定位、条件、建造和成就四类任务，并设计双重评估协议测试智能体的语言泛化和目标泛化能力。
 
 **[DALR: Dual-level Alignment Learning for Multimodal Sentence Representation Learning](dalr_dual-level_alignment_learning_for_multimodal_sentence_representation_learni.md)**
 
@@ -126,6 +138,10 @@
 **[Enhance Multimodal Consistency and Coherence for Text-Image Plan Generation](enhance_multimodal_consistency_and_coherence_for_text-image_plan_generation.md)**
 
 :   本文提出一种自回归文本-图像计划生成框架（MPlanner），通过四阶段迭代——文本草拟、图像编辑、视觉信息提取、文本精炼——有效提升多模态计划中视觉步骤的连贯性和文本-图像的一致性。
+
+**[Error-driven Data-efficient Large Multimodal Model Tuning](error-driven_data-efficient_large_multimodal_model_tuning.md)**
+
+:   提出一种错误驱动的数据高效微调框架，通过教师模型分析学生模型的错误推理步骤并识别缺失技能，从外部数据集检索针对性训练样本进行微调，无需任务特定数据即可实现平均 7.01% 的性能提升。
 
 **[Evaluating Visual and Cultural Interpretation: The K-Viscuit Benchmark with Human-VLM Collaboration](evaluating_visual_and_cultural_interpretation_the_k-viscuit_benchmark_with_human.md)**
 
@@ -182,6 +198,10 @@
 **[InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model](internlm-xcomposer25-reward_a_simple_yet_effective_multi-modal_reward_model.md)**
 
 :   基于InternLM-XComposer2.5构建判别式多模态奖励模型IXC-2.5-Reward，通过精心构建跨文本/图像/视频的多领域偏好数据集训练，在多模态奖励基准VL-RewardBench上以70.0% Macro Acc超越GPT-4o（62.4%），并展示了RL训练、Best-of-N测试时缩放和数据清洗三大应用。
+
+**[Jailbreak Large Vision-Language Models Through Multi-Modal Linkage](jailbreak_large_vision-language_models_through_multi-modal_linkage.md)**
+
+:   提出多模态链接（MML）攻击框架，通过跨模态加密-解密机制和"邪恶对齐"策略，以极高成功率（GPT-4o上达99%+）越狱当前最先进的视觉语言模型。
 
 **[JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games](jarvis-vla_post-training_large-scale_vision_language_models_to_play_visual_games.md)**
 
@@ -291,6 +311,10 @@
 
 :   系统性地揭示了视觉语言模型（VLM）在视觉 vs 文本表征下实体知识提取的显著性能差距（最高达 18%），通过机制可解释性工具发现图像 token 的关键信息流发生在模型中间层很深处，导致后续事实推理的层数不足。
 
+**[Progressive Multimodal Reasoning via Active Retrieval](progressive_multimodal_reasoning_via_active_retrieval.md)**
+
+:   本文提出AR-MCTS框架，将主动检索（Active Retrieval）与蒙特卡洛树搜索（MCTS）结合，在多步多模态推理的每一步动态检索关键知识来替代传统beam search采样，自动生成逐步推理标注以渐进式对齐过程奖励模型（PRM），在MathVista、We-Math和GAOKAO-MM上显著提升了多种MLLM的推理性能。
+
 **[PunchBench: Benchmarking MLLMs in Multimodal Punchline Comprehension](punchbench_mllm_punchline.md)**
 
 :   提出PunchBench（6,000图文对、54,000 QA对），通过同义/反义标题替换消除文本捷径、多种问题格式与两层任务（感知+推理）全面评测MLLM的多模态梗图理解能力，并设计SC-CoQ由简到繁的提问策略显著提升表现，但GPT-4o仍远低于人类98%+水平。
@@ -302,6 +326,10 @@
 **[RATE-Nav: Region-Aware Termination Enhancement for Zero-shot Object Navigation with Vision-Language Models](rate-nav_region-aware_termination_enhancement_for_zero-shot_object_navigation_wi.md)**
 
 :   提出 RATE-Nav，一种基于边际效用理论的零样本目标导航方法，通过几何预测区域分割和基于区域的探索率估计，结合 VLM 的宏观环境感知能力智能判断是否终止当前区域的探索，在 HM3D 上达到 67.8% 成功率和 31.3% SPL，在 MP3D 上比先前零样本方法提升约 10%。
+
+**[REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)**
+
+:   提出 REAL-MM-RAG 多模态文档检索基准，定义了真实世界检索基准的四大关键属性（多模态文档、增强难度、真实 RAG 查询、准确标注），引入多级查询改写鲁棒性评估，并通过针对性训练集（改写数据集+金融表格数据集）实现 SOTA 检索性能。
 
 **[RedundancyLens: Revealing and Exploiting Visual Token Processing Redundancy for Efficient Decoder-Only MLLMs](redundancylens_revealing_and_exploiting_visual_token_processing_redundancy_for_e.md)**
 
@@ -407,13 +435,29 @@
 
 :   提出Visual Evidence Prompting (VEP)，利用小型视觉专家模型（目标检测器、场景图生成器）的输出作为文本化"视觉证据"输入LVLM，无需训练即可在11个LVLM上显著降低幻觉——LLaVA-1.5在POPE上提升7.2%、Claude 3上提升12.1%。
 
+**[VLM2-Bench: A Closer Look at How Well VLMs Implicitly Link Explicit Matching Visual Cues](vlm2-bench_a_closer_look_at_how_well_vlms_implicitly_link_explicit_matching_visu.md)**
+
+:   本文提出VLM2-Bench，一个专门评估视觉语言模型（VLM）跨图像/帧"视觉线索关联"能力的基准，涵盖通用线索、物体中心线索和人物中心线索3大类9个子任务共3000+测试样本，发现即使最先进的商业模型在该任务上也落后人类30%以上，揭示了VLM在基础视觉匹配能力上的重大差距。
+
 **[VLMInferSlow: Evaluating the Efficiency Robustness of Large Vision-Language Models as a Service](vlminferslow_evaluating_the_efficiency_robustness_of.md)**
 
 :   首次在黑盒设置下研究 VLM 的效率鲁棒性，提出 VLMInferSlow 方法，通过零阶优化搜索对抗性图像扰动，迫使 VLM 生成更长序列，将计算成本最高增加 128.47%，揭示了 VLM 在 MLaaS 部署场景下的效率安全隐患。
 
+**[VLSBench: Unveiling Visual Leakage in Multimodal Safety](vlsbench_unveiling_visual_leakage_in_multimodal_safety.md)**
+
+:   揭示现有多模态安全基准中存在的视觉安全信息泄露（VSIL）问题——图像中的危险内容已在文本查询中暴露，导致模型仅凭文本即可拒绝，从而使安全评估不可靠；为此构建了无泄露的VLSBench基准（2.2k图文对），发现多模态对齐在无VSIL场景中显著优于纯文本对齐。
+
 **[VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism](vrest_tree_search_vlm_reasoning.md)**
 
 :   提出VReST，首次将蒙特卡洛树搜索（MCTS）应用于多模态CoT推理：每个节点是一个推理步骤，通过多模态自奖励机制（sub-question有用性+答案正确性+视觉-语言线索相关性）评估推理质量，无需训练即在MathVista上达到64.50%（超越CoT的54.60%和ToT的60.20%），并展示出多模态测试时缩放定律。
+
+**[We-Math: Does Your Large Multimodal Model Achieve Human-like Mathematical Reasoning?](we-math_does_your_large_multimodal_model_achieve_human-like_mathematical_reasoni.md)**
+
+:   本文提出We-Math基准，首次通过将复合数学问题按知识概念分解为子问题，引入IK/IG/CM/RM四维指标来层次化评估LMM的推理过程（而非仅看最终结果），揭示了LMM普遍存在知识不足（IK）问题，且GPT-4o是首个从IK阶段迈入知识泛化（IG）阶段的模型。
+
+**[Weaving Context Across Images: Improving Vision-Language Models through Focus-Centric Visual Chains](weaving_context_across_images_improving_vision-language_models_through_focus-cen.md)**
+
+:   提出 Focus-Centric Visual Chain 多图推理范式，通过问题分解和逐步聚焦关键视觉信息实现跨图推理，并构建 VISC-150K 数据集，在七个多图基准上实现 2-3% 的一致性提升。
 
 **[WikiMixQA: A Multimodal Benchmark for Question Answering over Tables and Charts](wikimixqa_a_multimodal_benchmark_for_question_answering_over_tables_and_charts.md)**
 

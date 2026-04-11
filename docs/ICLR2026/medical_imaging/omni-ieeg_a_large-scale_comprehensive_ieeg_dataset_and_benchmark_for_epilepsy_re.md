@@ -1,9 +1,9 @@
 # Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research
 
-**会议**: ICLR 2026
-**arXiv**: [2602.16072](https://arxiv.org/abs/2602.16072)
-**代码**: [项目页面](https://omni-ieeg.github.io/omni-ieeg/)
-**领域**: 医学AI/癫痫研究
+**会议**: ICLR 2026  
+**arXiv**: [2602.16072](https://arxiv.org/abs/2602.16072)  
+**代码**: [项目页面](https://omni-ieeg.github.io/omni-ieeg/)  
+**领域**: 医学AI/癫痫研究  
 **关键词**: 颅内脑电, 癫痫, 大规模数据集, 病理事件检测, 跨中心基准
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09116](https://arxiv.org/abs/2603.09116)
-**代码**: https://meta-imaging.qiguo.org (有)
-**领域**: 遥感 / 计算高光谱成像
+**会议**: CVPR 2026  
+**arXiv**: [2603.09116](https://arxiv.org/abs/2603.09116)  
+**代码**: https://meta-imaging.qiguo.org (有)  
+**领域**: 遥感 / 计算高光谱成像  
 **关键词**: 超表面成像, 高光谱重建, 快照成像, HDR, 偏振成像
 
 ## 一句话总结

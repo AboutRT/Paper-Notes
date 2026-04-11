@@ -1,9 +1,9 @@
 # GRAM: A Generative Foundation Reward Model for Reward Generalization
 
-**会议**: ICML 2025
-**arXiv**: [2506.14175](https://arxiv.org/abs/2506.14175)
-**代码**: 无
-**领域**: Image Generation (LLM Alignment)
+**会议**: ICML 2025  
+**arXiv**: [2506.14175](https://arxiv.org/abs/2506.14175)  
+**代码**: 无  
+**领域**: Image Generation (LLM Alignment)  
 **关键词**: 奖励模型, 生成式模型, 基础模型, RLHF, 泛化
 
 ## 一句话总结

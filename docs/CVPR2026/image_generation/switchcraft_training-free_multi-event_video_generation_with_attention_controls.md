@@ -1,9 +1,9 @@
 # SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23956](https://arxiv.org/abs/2602.23956)
-**代码**: 有（即将发布）
-**领域**: 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2602.23956](https://arxiv.org/abs/2602.23956)  
+**代码**: 有（即将发布）  
+**领域**: 图像生成  
 **关键词**: 多事件视频生成, 注意力控制, 无训练框架, 扩散模型, 时序对齐
 
 ## 一句话总结

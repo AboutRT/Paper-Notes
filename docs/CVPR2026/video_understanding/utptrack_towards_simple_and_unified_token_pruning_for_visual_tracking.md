@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking
 
-**会议**: CVPR2026
-**arXiv**: [2602.23734](https://arxiv.org/abs/2602.23734)
-**代码**: [EIT-NLP/UTPTrack](https://github.com/EIT-NLP/UTPTrack)
-**领域**: 视频理解 / 视觉目标跟踪
+**会议**: CVPR2026  
+**arXiv**: [2602.23734](https://arxiv.org/abs/2602.23734)  
+**代码**: [EIT-NLP/UTPTrack](https://github.com/EIT-NLP/UTPTrack)  
+**领域**: 视频理解 / 视觉目标跟踪  
 **关键词**: token pruning, visual object tracking, one-stream transformer, 多模态跟踪, 统一跟踪, 注意力引导剪枝
 
 ## 一句话总结

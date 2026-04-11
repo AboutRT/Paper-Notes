@@ -1,9 +1,9 @@
 # Continual Reinforcement Learning by Planning with Online World Models
 
-**会议**: ICML 2025 (Spotlight)
-**arXiv**: [2507.09177](https://arxiv.org/abs/2507.09177)
-**代码**: 无
-**领域**: 强化学习 / 持续学习
+**会议**: ICML 2025 (Spotlight)  
+**arXiv**: [2507.09177](https://arxiv.org/abs/2507.09177)  
+**代码**: 无  
+**领域**: 强化学习 / 持续学习  
 **关键词**: 持续强化学习, 在线世界模型, 灾难性遗忘, Follow-The-Leader, 模型预测控制
 
 ## 一句话总结

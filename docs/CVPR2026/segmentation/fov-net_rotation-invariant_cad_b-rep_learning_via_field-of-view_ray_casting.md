@@ -1,9 +1,9 @@
 # FoV-Net: Rotation-Invariant CAD B-rep Learning via Field-of-View Ray Casting
 
-**会议**: CVPR 2026
-**arXiv**: [2602.24084](https://arxiv.org/abs/2602.24084)
-**代码**: [GitHub](https://github.com/UGent-CVAMO/fovnet)
-**领域**: 分割
+**会议**: CVPR 2026  
+**arXiv**: [2602.24084](https://arxiv.org/abs/2602.24084)  
+**代码**: [GitHub](https://github.com/UGent-CVAMO/fovnet)  
+**领域**: 分割  
 **关键词**: CAD B-rep 学习, 旋转不变性, 光线投射, 图注意力网络, 3D 分割
 
 ## 一句话总结

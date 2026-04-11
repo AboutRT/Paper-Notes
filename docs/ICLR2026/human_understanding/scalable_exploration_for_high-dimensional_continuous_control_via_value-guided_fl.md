@@ -1,8 +1,8 @@
 # Scalable Exploration for High-Dimensional Continuous Control via Value-Guided Flow
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19707](https://arxiv.org/abs/2601.19707)
-**领域**: 强化学习/高维控制
+**会议**: ICLR 2026  
+**arXiv**: [2601.19707](https://arxiv.org/abs/2601.19707)  
+**领域**: 强化学习/高维控制  
 **关键词**: 高维控制, 价值引导流, 概率流探索, 肌骨模型, actor-critic
 
 ## 一句话总结

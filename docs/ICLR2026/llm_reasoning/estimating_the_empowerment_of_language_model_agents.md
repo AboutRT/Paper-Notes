@@ -1,9 +1,9 @@
 # Estimating the Empowerment of Language Model Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2509.22504](https://arxiv.org/abs/2509.22504)
-**代码**: [GitHub](https://github.com/Jinyeop3110/EELMA)
-**领域**: llm_reasoning
+**会议**: ICLR 2026  
+**arXiv**: [2509.22504](https://arxiv.org/abs/2509.22504)  
+**代码**: [GitHub](https://github.com/Jinyeop3110/EELMA)  
+**领域**: llm_reasoning  
 **关键词**: empowerment, information theory, mutual information, LM agents, goal-agnostic evaluation, InfoNCE, WebArena
 
 ## 一句话总结

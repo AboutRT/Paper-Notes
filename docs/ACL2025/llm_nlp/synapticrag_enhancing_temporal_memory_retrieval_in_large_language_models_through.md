@@ -1,9 +1,9 @@
 # SynapticRAG: Enhancing Temporal Memory Retrieval in Large Language Models through Synaptic Mechanisms
 
-**会议**: ACL2025
-**arXiv**: [2410.13553](https://arxiv.org/abs/2410.13553)
-**代码**: [tamoharu/SynapticRAG-Benchmark](https://github.com/tamoharu/SynapticRAG-Benchmark)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2410.13553](https://arxiv.org/abs/2410.13553)  
+**代码**: [tamoharu/SynapticRAG-Benchmark](https://github.com/tamoharu/SynapticRAG-Benchmark)  
+**领域**: llm_nlp  
 **关键词**: 记忆检索, 时序关联, 突触机制, 对话系统, RAG
 
 ## 一句话总结

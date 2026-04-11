@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Real-World Point Tracking with Verifier-Guided Pseudo-Labeling
 
-**会议**: CVPR2026
-**arXiv**: [2603.12217](https://arxiv.org/abs/2603.12217)
-**代码**: [kuis-ai/track_on_r](https://kuis-ai.github.io/track_on_r)
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2603.12217](https://arxiv.org/abs/2603.12217)  
+**代码**: [kuis-ai/track_on_r](https://kuis-ai.github.io/track_on_r)  
+**领域**: 视频理解  
 **关键词**: 点跟踪, 伪标签, 自训练, 验证器, 集成学习, Sim-to-Real
 
 ## 一句话总结

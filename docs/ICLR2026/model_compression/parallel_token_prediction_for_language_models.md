@@ -1,9 +1,9 @@
 # Parallel Token Prediction for Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2512.21323](https://arxiv.org/abs/2512.21323)
-**代码**: [GitHub](https://github.com/mandt-lab/ptp)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2512.21323](https://arxiv.org/abs/2512.21323)  
+**代码**: [GitHub](https://github.com/mandt-lab/ptp)  
+**领域**: 模型压缩  
 **关键词**: 并行解码, 推测解码, 辅助变量, 自回归模型, 推理加速
 
 ## 一句话总结

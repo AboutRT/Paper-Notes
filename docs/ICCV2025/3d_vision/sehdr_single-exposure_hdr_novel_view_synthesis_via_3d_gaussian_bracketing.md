@@ -1,9 +1,9 @@
 # SeHDR: Single-Exposure HDR Novel View Synthesis via 3D Gaussian Bracketing
 
-**会议**: ICCV 2025
-**arXiv**: [2509.20400](https://arxiv.org/abs/2509.20400)
-**代码**: [GitHub](https://github.com/yiyulics/SeHDR)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2509.20400](https://arxiv.org/abs/2509.20400)  
+**代码**: [GitHub](https://github.com/yiyulics/SeHDR)  
+**领域**: 3d_vision  
 **关键词**: HDR新视角合成, 3D高斯泼溅, 单曝光, 包围曝光, 球谐函数, 曝光融合, 高动态范围
 
 ## 一句话总结

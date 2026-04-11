@@ -1,9 +1,9 @@
 # Near-Optimal Decision Trees in a SPLIT Second
 
-**会议**: ICML2025
-**arXiv**: [2502.15988](https://arxiv.org/abs/2502.15988)
-**代码**: 待确认
-**领域**: 决策树 / 可解释机器学习
+**会议**: ICML2025  
+**arXiv**: [2502.15988](https://arxiv.org/abs/2502.15988)  
+**代码**: 待确认  
+**领域**: 决策树 / 可解释机器学习  
 **关键词**: 决策树优化, 分支定界, 动态规划, 贪心搜索, Rashomon集, 可解释性, 稀疏性
 
 ## 一句话总结

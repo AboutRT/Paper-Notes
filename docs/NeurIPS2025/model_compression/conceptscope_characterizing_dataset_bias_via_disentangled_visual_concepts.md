@@ -1,9 +1,9 @@
 # ConceptScope: Characterizing Dataset Bias via Disentangled Visual Concepts
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.26186](https://arxiv.org/abs/2510.26186)
-**代码**: [GitHub](https://github.com/jjho-choi/ConceptScope)
-**领域**: model_compression
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.26186](https://arxiv.org/abs/2510.26186)  
+**代码**: [GitHub](https://github.com/jjho-choi/ConceptScope)  
+**领域**: model_compression  
 **关键词**: 数据集偏差, 稀疏自编码器, 视觉概念, 偏差检测, 可解释性
 
 ## 一句话总结

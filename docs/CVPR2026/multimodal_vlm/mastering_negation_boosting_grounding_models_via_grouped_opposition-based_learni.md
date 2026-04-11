@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning
 
-**会议**: CVPR2026
-**arXiv**: [2603.12606](https://arxiv.org/abs/2603.12606)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2603.12606](https://arxiv.org/abs/2603.12606)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 视觉定位, 否定语义理解, 对立学习, 高效微调, 视觉-语言融合, 负样本
 
 ## 一句话总结

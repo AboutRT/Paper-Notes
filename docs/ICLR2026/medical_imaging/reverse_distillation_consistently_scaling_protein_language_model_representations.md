@@ -1,9 +1,9 @@
 # Reverse Distillation: Consistently Scaling Protein Language Model Representations
 
-**会议**: ICLR 2026
-**arXiv**: [2603.07710](https://arxiv.org/abs/2603.07710)
-**代码**: [GitHub](https://github.com/rohitsinghlab/plm_reverse_distillation)
-**领域**: 蛋白质AI/表示学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.07710](https://arxiv.org/abs/2603.07710)  
+**代码**: [GitHub](https://github.com/rohitsinghlab/plm_reverse_distillation)  
+**领域**: 蛋白质AI/表示学习  
 **关键词**: 反向蒸馏, PLM, 缩放行为, 嵌套表示, Matryoshka, ESM-2
 
 ## 一句话总结

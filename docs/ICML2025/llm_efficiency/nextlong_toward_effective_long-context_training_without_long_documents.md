@@ -1,9 +1,9 @@
 # NExtLong: Toward Effective Long-Context Training without Long Documents
 
-**会议**: ICML 2025
-**arXiv**: [2501.12766](https://arxiv.org/abs/2501.12766)
-**代码**: https://github.com/caskcsg/longcontext/tree/main/NExtLong (有)
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2501.12766](https://arxiv.org/abs/2501.12766)  
+**代码**: https://github.com/caskcsg/longcontext/tree/main/NExtLong (有)  
+**领域**: LLM效率  
 **关键词**: 长上下文训练, 数据合成, 负样本扩展, 长距离依赖, 硬负例
 
 ## 一句话总结

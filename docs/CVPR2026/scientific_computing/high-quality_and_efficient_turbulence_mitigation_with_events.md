@@ -1,9 +1,9 @@
 # EHETM: High-Quality and Efficient Turbulence Mitigation with Events
 
-**会议**: CVPR 2026
-**arXiv**: [2603.20708](https://arxiv.org/abs/2603.20708)
-**代码**: https://github.com/Xavier667/EHETM (有)
-**领域**: 科学计算 / 事件相机
+**会议**: CVPR 2026  
+**arXiv**: [2603.20708](https://arxiv.org/abs/2603.20708)  
+**代码**: https://github.com/Xavier667/EHETM (有)  
+**领域**: 科学计算 / 事件相机  
 **关键词**: 大气湍流缓解, 事件相机, 极性加权梯度, 事件管约束, 运动解耦
 
 ## 一句话总结

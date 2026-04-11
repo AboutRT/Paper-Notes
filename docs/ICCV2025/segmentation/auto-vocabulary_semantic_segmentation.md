@@ -1,9 +1,9 @@
 # Auto-Vocabulary Semantic Segmentation
 
-**会议**: ICCV 2025
-**arXiv**: [2312.04539](https://arxiv.org/abs/2312.04539)
-**代码**: 即将公开
-**领域**: 分割 / 开放词汇 / VLM
+**会议**: ICCV 2025  
+**arXiv**: [2312.04539](https://arxiv.org/abs/2312.04539)  
+**代码**: 即将公开  
+**领域**: 分割 / 开放词汇 / VLM  
 **关键词**: auto-vocabulary segmentation, open-vocabulary, BLIP, zero-shot, LLM evaluator
 
 ## 一句话总结

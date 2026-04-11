@@ -1,9 +1,9 @@
 # Mitigating Object Hallucinations via Sentence-Level Early Intervention
 
-**会议**: ICCV 2025
-**arXiv**: [2507.12455](https://arxiv.org/abs/2507.12455)
-**代码**: https://github.com/pspdada/SENTINEL
-**领域**: 多模态VLM
+**会议**: ICCV 2025  
+**arXiv**: [2507.12455](https://arxiv.org/abs/2507.12455)  
+**代码**: https://github.com/pspdada/SENTINEL  
+**领域**: 多模态VLM  
 **关键词**: 物体幻觉, 偏好学习, 早期干预, 域内数据, DPO
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Is the Reversal Curse a Binding Problem? Uncovering Limitations of Transformers from a Basic Generalization Failure
 
-**会议**: ICLR 2026
-**arXiv**: [2504.01928](https://arxiv.org/abs/2504.01928)
-**代码**: [GitHub](https://github.com/OSU-NLP-Group/reversal-curse-binding)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2504.01928](https://arxiv.org/abs/2504.01928)  
+**代码**: [GitHub](https://github.com/OSU-NLP-Group/reversal-curse-binding)  
+**领域**: 模型压缩  
 **关键词**: 反转诅咒, 绑定问题, JEPA, 概念表示, Transformer局限性
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Ergodic Generative Flows
 
-**会议**: ICML2025
-**arXiv**: [2505.03561](https://arxiv.org/abs/2505.03561)
-**代码**: 待确认
-**领域**: 生成流 / 强化学习 / 模仿学习
+**会议**: ICML2025  
+**arXiv**: [2505.03561](https://arxiv.org/abs/2505.03561)  
+**代码**: 待确认  
+**领域**: 生成流 / 强化学习 / 模仿学习  
 **关键词**: Generative Flow Networks, 遍历性, 微分同胚, flow-matching, 模仿学习, 归一化流
 
 ## 一句话总结

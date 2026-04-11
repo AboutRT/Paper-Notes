@@ -1,9 +1,9 @@
 # Well Begun is Half Done: Low-resource Preference Alignment by Weak-to-Strong Decoding
 
-**会议**: ACL 2025
-**arXiv**: [2506.07434](https://arxiv.org/abs/2506.07434)
-**代码**: 有（已开源代码、数据集和 Pilot-3B 模型）
-**领域**: NLP / LLM Alignment
+**会议**: ACL 2025  
+**arXiv**: [2506.07434](https://arxiv.org/abs/2506.07434)  
+**代码**: 有（已开源代码、数据集和 Pilot-3B 模型）  
+**领域**: NLP / LLM Alignment  
 **关键词**: 偏好对齐, 低资源, 弱到强解码, 投机解码, alignment tax
 
 ## 一句话总结

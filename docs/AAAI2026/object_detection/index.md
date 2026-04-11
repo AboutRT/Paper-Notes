@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🤖 AAAI2026** · 共 **25** 篇
+**🤖 AAAI2026** · 共 **26** 篇
 
 **[A Theoretical Analysis of Detecting Large Model-Generated Time Series](a_theoretical_analysis_of_detecting_large_model-generated_time_series.md)**
 
@@ -62,6 +62,10 @@
 **[How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts](how_many_experts_are_enough_towards_optimal_semantic_specialization_for_mixture-.md)**
 
 :   提出MASS框架，通过基于梯度的语义漂移检测自适应扩展MoE专家池，并结合Top-p置信度路由策略，在无需超参搜索的情况下自动发现最优专家数量，同时增强专家间的语义分化。
+
+**[Learning Procedural-aware Video Representations through State-Grounded Hierarchy Unfolding](learning_procedural-aware_video_representations_through_state-grounded_hierarchy.md)**
+
+:   提出 Task-Step-State（TSS）三层语义框架，在传统的任务-步骤层次中引入"状态"作为视觉锚定层，并设计渐进式预训练策略（Task→Step→State→Step→Task）逐步展开 TSS 层次，在 COIN 和 CrossTask 数据集上的任务识别、步骤识别和步骤预测任务上全面超越 SOTA。
 
 **[Perceive Act And Correct Confidence Is Not Enough For Hyperspectral Classificati](perceive_act_and_correct_confidence_is_not_enough_for_hyperspectral_classificati.md)**
 

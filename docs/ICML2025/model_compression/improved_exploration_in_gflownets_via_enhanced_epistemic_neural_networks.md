@@ -1,9 +1,9 @@
 # Improved Exploration in GFlowNets via Enhanced Epistemic Neural Networks
 
-**会议**: ICML 2025
-**arXiv**: [2506.16313](https://arxiv.org/abs/2506.16313)
-**代码**: 无
-**领域**: Generative Models / GFlowNets
+**会议**: ICML 2025  
+**arXiv**: [2506.16313](https://arxiv.org/abs/2506.16313)  
+**代码**: 无  
+**领域**: Generative Models / GFlowNets  
 **关键词**: GFlowNets, 认知不确定性, Epistemic Neural Networks, Thompson采样, 探索
 
 ## 一句话总结

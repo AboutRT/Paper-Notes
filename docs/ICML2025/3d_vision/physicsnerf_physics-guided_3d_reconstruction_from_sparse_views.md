@@ -1,9 +1,9 @@
 # PhysicsNeRF: Physics-Guided 3D Reconstruction from Sparse Views
 
-**会议**: ICML 2025
-**arXiv**: [2505.23481](https://arxiv.org/abs/2505.23481)
-**代码**: [有](https://github.com/bmrayan/PhysicsNeRF)
-**领域**: 3D Vision / Neural Radiance Fields
+**会议**: ICML 2025  
+**arXiv**: [2505.23481](https://arxiv.org/abs/2505.23481)  
+**代码**: [有](https://github.com/bmrayan/PhysicsNeRF)  
+**领域**: 3D Vision / Neural Radiance Fields  
 **关键词**: NeRF, 稀疏视角, 物理先验, 3D重建, 泛化分析
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Length-Induced Embedding Collapse in PLM-based Models
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2410.24200](https://arxiv.org/abs/2410.24200)
-**代码**: [GitHub](https://github.com/Yuqi-Zhou/Length_Collapse)
-**领域**: LLM/NLP
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2410.24200](https://arxiv.org/abs/2410.24200)  
+**代码**: [GitHub](https://github.com/Yuqi-Zhou/Length_Collapse)  
+**领域**: LLM/NLP  
 **关键词**: text embedding, length collapse, self-attention, low-pass filter, temperature scaling
 
 ## 一句话总结

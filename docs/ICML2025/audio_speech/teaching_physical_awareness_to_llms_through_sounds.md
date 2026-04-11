@@ -1,9 +1,9 @@
 # Teaching Physical Awareness to LLMs through Sounds
 
-**会议**: ICML 2025
-**arXiv**: [2506.08524](https://arxiv.org/abs/2506.08524)
-**代码**: 无
-**领域**: audio_speech
+**会议**: ICML 2025  
+**arXiv**: [2506.08524](https://arxiv.org/abs/2506.08524)  
+**代码**: 无  
+**领域**: audio_speech  
 **关键词**: 物理感知, 声学通道, LLM音频理解, 多普勒效应, 声学仿真
 
 ## 一句话总结

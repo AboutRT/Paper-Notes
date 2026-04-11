@@ -1,9 +1,9 @@
 # Learning Adaptive Distribution Alignment with Neural Characteristic Function for Graph Domain Adaptation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.10489](https://arxiv.org/abs/2602.10489)
-**代码**: https://github.com/gxingyu/ADAlign
-**领域**: 其他 / 图神经网络
+**会议**: ICLR 2026  
+**arXiv**: [2602.10489](https://arxiv.org/abs/2602.10489)  
+**代码**: https://github.com/gxingyu/ADAlign  
+**领域**: 其他 / 图神经网络  
 **关键词**: 图域适应, 特征函数, 谱域对齐, 自适应频率采样, minimax优化
 
 ## 一句话总结

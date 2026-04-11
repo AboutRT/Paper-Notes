@@ -1,11 +1,11 @@
 # Mixed-Curvature Decision Trees and Random Forests
 
-**会议**: ICML 2025
-**arXiv**: [2410.13879](https://arxiv.org/abs/2410.13879)
+**会议**: ICML 2025  
+**arXiv**: [2410.13879](https://arxiv.org/abs/2410.13879)  
 **作者**: Philippe Chlenski, Quentin Chu, Raiyan R. Khan, Kaizhu Du, Antonio Khalil Moretti, Itsik Pe'er
 **机构**: Columbia University
-**代码**: [pchlenski/manify](https://github.com/pchlenski/manify)
-**领域**: 图学习
+**代码**: [pchlenski/manify](https://github.com/pchlenski/manify)  
+**领域**: 图学习  
 **关键词**: 决策树, 随机森林, 乘积流形, 混合曲率, 双曲空间, 球面空间, 非欧几何
 
 ## 一句话总结

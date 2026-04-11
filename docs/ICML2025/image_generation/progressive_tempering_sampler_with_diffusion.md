@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 图像生成  
 **关键词**: diffusion-model, sampling, MCMC, parallel-tempering, neural-sampler  
+
 ## 一句话总结
 
 提出 Progressive Tempering Sampler with Diffusion (PTSD)，通过将 Parallel Tempering 的温度交换机制与扩散模型的神经采样器相结合，利用"温度引导"从高温扩散模型外推生成低温近似样本，在目标密度评估效率上实现数量级提升。

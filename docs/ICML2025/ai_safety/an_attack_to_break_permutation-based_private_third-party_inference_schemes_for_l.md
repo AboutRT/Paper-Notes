@@ -1,9 +1,9 @@
 # An Attack to Break Permutation-Based Private Inference Schemes for LLMs
 
-**会议**: ICML2025
-**arXiv**: [2505.18332](https://arxiv.org/abs/2505.18332)
-**代码**: 待确认(Ritual)
-**领域**: ai_safety
+**会议**: ICML2025  
+**arXiv**: [2505.18332](https://arxiv.org/abs/2505.18332)  
+**代码**: 待确认(Ritual)  
+**领域**: ai_safety  
 **关键词**: 隐私推理, 置换安全性, LLM隐藏状态, 重建攻击, SMPC
 
 ## 一句话总结

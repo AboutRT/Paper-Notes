@@ -1,9 +1,9 @@
 # Fully Heteroscedastic Count Regression with Deep Double Poisson Networks
 
-**会议**: ICML 2025
-**arXiv**: [2406.09262](https://arxiv.org/abs/2406.09262)
-**代码**: [GitHub](https://github.com/porterjenkins/deep-double-poisson)
-**领域**: 统计建模/深度学习/不确定性量化
+**会议**: ICML 2025  
+**arXiv**: [2406.09262](https://arxiv.org/abs/2406.09262)  
+**代码**: [GitHub](https://github.com/porterjenkins/deep-double-poisson)  
+**领域**: 统计建模/深度学习/不确定性量化  
 **关键词**: 计数回归, Double Poisson 分布, 异方差回归, 深度集成, 不确定性估计, 分布外检测
 
 ## 一句话总结

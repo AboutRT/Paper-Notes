@@ -1,9 +1,9 @@
 # CHOICE: Benchmarking the Remote Sensing Capabilities of Large Vision-Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2411.18145](https://arxiv.org/abs/2411.18145)
-**代码**: [GitHub](https://github.com/xiaoan-whu/CHOICE)
-**领域**: multimodal_vlm
+**会议**: NeurIPS 2025  
+**arXiv**: [2411.18145](https://arxiv.org/abs/2411.18145)  
+**代码**: [GitHub](https://github.com/xiaoan-whu/CHOICE)  
+**领域**: multimodal_vlm  
 **关键词**: 遥感, VLM基准, 多层级评估, 多选题, 视觉推理
 
 ## 一句话总结

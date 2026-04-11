@@ -1,9 +1,9 @@
 # Decoding Rewards in Competitive Games: Inverse Game Theory with Entropy Regularization
 
-**会议**: ICML2025
-**arXiv**: [2601.12707](https://arxiv.org/abs/2601.12707)
-**代码**: 无
-**领域**: 逆博弈论 / 逆强化学习
+**会议**: ICML2025  
+**arXiv**: [2601.12707](https://arxiv.org/abs/2601.12707)  
+**代码**: 无  
+**领域**: 逆博弈论 / 逆强化学习  
 **关键词**: 逆博弈论, 零和博弈, 熵正则化, Quantal Response Equilibrium, Markov博弈, 奖励恢复, 可辨识性
 
 ## 一句话总结

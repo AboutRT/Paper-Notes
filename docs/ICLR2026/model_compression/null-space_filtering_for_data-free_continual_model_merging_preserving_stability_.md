@@ -1,9 +1,9 @@
 # Null-Space Filtering for Data-Free Continual Model Merging: Preserving Stability, Promoting Plasticity
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21413](https://arxiv.org/abs/2509.21413)
-**代码**: [GitHub](https://github.com/zihuanqiu/NUFILT)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2509.21413](https://arxiv.org/abs/2509.21413)  
+**代码**: [GitHub](https://github.com/zihuanqiu/NUFILT)  
+**领域**: 模型压缩  
 **关键词**: 模型合并, 持续学习, 零空间投影, 稳定性-可塑性, 无数据
 
 ## 一句话总结

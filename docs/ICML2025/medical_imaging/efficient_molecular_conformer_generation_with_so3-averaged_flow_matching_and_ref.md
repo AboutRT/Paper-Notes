@@ -1,9 +1,9 @@
 # Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow
 
-**会议**: ICML2025
-**arXiv**: [2507.09785](https://arxiv.org/abs/2507.09785)
-**代码**: 未开源
-**领域**: 分子构象生成 / 计算化学
+**会议**: ICML2025  
+**arXiv**: [2507.09785](https://arxiv.org/abs/2507.09785)  
+**代码**: 未开源  
+**领域**: 分子构象生成 / 计算化学  
 **关键词**: 分子构象生成, Flow Matching, SO(3)对称性, Reflow, 蒸馏, 药物发现
 
 ## 一句话总结

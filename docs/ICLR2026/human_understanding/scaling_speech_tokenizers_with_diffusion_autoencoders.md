@@ -1,8 +1,8 @@
 # Scaling Speech Tokenizers with Diffusion Autoencoders
 
-**会议**: ICLR 2026
-**arXiv**: [2602.06602](https://arxiv.org/abs/2602.06602)
-**领域**: 语音/token化
+**会议**: ICLR 2026  
+**arXiv**: [2602.06602](https://arxiv.org/abs/2602.06602)  
+**领域**: 语音/token化  
 **关键词**: 语音tokenizer, 扩散自编码器, 语义正则化, 低比特率, 理解+生成
 
 ## 一句话总结

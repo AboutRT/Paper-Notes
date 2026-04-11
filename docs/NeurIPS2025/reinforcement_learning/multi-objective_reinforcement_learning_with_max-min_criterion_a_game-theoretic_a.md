@@ -1,9 +1,9 @@
 # Multi-Objective Reinforcement Learning with Max-Min Criterion: A Game-Theoretic Approach
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20235](https://arxiv.org/abs/2510.20235)
-**代码**: [GitHub](https://github.com/whbyeon/ERAM-ARAM)
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20235](https://arxiv.org/abs/2510.20235)  
+**代码**: [GitHub](https://github.com/whbyeon/ERAM-ARAM)  
+**领域**: 强化学习  
 **关键词**: 多目标强化学习, Max-Min公平, 零和博弈, 镜像下降, 最后迭代收敛
 
 ## 一句话总结

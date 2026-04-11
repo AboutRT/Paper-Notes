@@ -1,11 +1,11 @@
 # References Improve LLM Alignment in Non-Verifiable Domains
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2602.16802](https://arxiv.org/abs/2602.16802)
 
 **代码**: [GitHub](https://github.com/yale-nlp/RLRR)
 
-**领域**: LLM对齐/评估
+**领域**: LLM对齐/评估  
 **关键词**: 参考引导评估, 非可验证域, LLM-as-Judge, 自改进, DPO
 
 ## 一句话总结

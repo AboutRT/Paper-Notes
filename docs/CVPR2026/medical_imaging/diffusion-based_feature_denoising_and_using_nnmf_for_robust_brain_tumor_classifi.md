@@ -1,9 +1,9 @@
 # Diffusion-Based Feature Denoising and Using NNMF for Robust Brain Tumor Classification
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13182](https://arxiv.org/abs/2603.13182)
-**代码**: 待确认
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.13182](https://arxiv.org/abs/2603.13182)  
+**代码**: 待确认  
+**领域**: 医学图像  
 **关键词**: 脑肿瘤分类, 非负矩阵分解(NNMF), 对抗鲁棒性, 扩散去噪防御, AutoAttack
 
 ## 一句话总结

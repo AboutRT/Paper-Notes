@@ -1,10 +1,10 @@
 # TEXT: 文本路由稀疏专家混合模型——融合解释增强与时序对齐的多模态情感分析
 
-**会议**: AAAI 2026
-**arXiv**: [2512.22741](https://arxiv.org/abs/2512.22741)
+**会议**: AAAI 2026  
+**arXiv**: [2512.22741](https://arxiv.org/abs/2512.22741)  
 **作者**: Dongning Rao, Yunbiao Zeng, Zhihua Jiang, Jujian Lv
-**代码**: [fip-lab/TEXT](https://github.com/fip-lab/TEXT)
-**领域**: audio_speech
+**代码**: [fip-lab/TEXT](https://github.com/fip-lab/TEXT)  
+**领域**: audio_speech  
 **关键词**: 多模态情感分析, 稀疏专家混合, 时序对齐, MLLM解释增强, 门控融合
 
 ## 一句话总结

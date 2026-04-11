@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**🤖 AAAI2026** · 共 **31** 篇
+**🤖 AAAI2026** · 共 **32** 篇
 
 **[10 Open Challenges Steering the Future of Vision-Language-Action Models](10_open_challenges_steering_the_future_of_vision-language-ac.md)**
 
@@ -74,6 +74,10 @@
 **[Enhancing Robustness of Offline RL Under Data Corruption via SAM](enhancing_robustness_of_offline_reinforcement_learning_under_data_corruption_via.md)**
 
 :   首次将 Sharpness-Aware Minimization (SAM) 作为即插即用优化器应用于离线 RL，假设数据损坏导致损失景观中出现尖锐极小值从而泛化差，SAM 通过寻找平坦极小值提升鲁棒性，在 D4RL 基准上 IQL+SAM 平均得分从 34.47 提升到 44.40。
+
+**[Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis](facial-r1_aligning_reasoning_and_recognition_for_facial_emotion_analysis.md)**
+
+:   提出 Facial-R1，一个三阶段对齐训练框架（SFT → RL → 数据合成），通过将 AU 和情绪标签作为可验证奖励信号来对齐 VLM 的推理过程与情绪识别结果，在 8 个基准上达到 SOTA，并构建了 FEA-20K 数据集。
 
 **[Failures to Surface Harmful Contents in Video Large Language Models](failures_to_surface_harmful_contents_in_video_large_language_models.md)**
 

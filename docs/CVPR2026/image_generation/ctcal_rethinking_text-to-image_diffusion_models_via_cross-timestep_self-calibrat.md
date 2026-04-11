@@ -1,9 +1,9 @@
 # CTCal: Rethinking Text-to-Image Diffusion Models via Cross-Timestep Self-Calibration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.20741](https://arxiv.org/abs/2603.20741)
-**代码**: [https://github.com/xiefan-guo/ctcal](https://github.com/xiefan-guo/ctcal) (有)
-**领域**: 图像生成 / 文本到图像扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2603.20741](https://arxiv.org/abs/2603.20741)  
+**代码**: [https://github.com/xiefan-guo/ctcal](https://github.com/xiefan-guo/ctcal) (有)  
+**领域**: 图像生成 / 文本到图像扩散模型  
 **关键词**: 文本到图像生成, 扩散模型, Cross-Attention 对齐, 自校准, 组合生成
 
 ## 一句话总结

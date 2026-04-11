@@ -1,9 +1,9 @@
 # Rethinking SNN Online Training and Deployment: Gradient-Coherent Learning via Hybrid-Driven LIF Model
 
-**会议**: CVPR 2026
-**arXiv**: [2410.07547](https://arxiv.org/abs/2410.07547)
-**代码**: [有](https://github.com/haozecheng/HD-LIF)
-**领域**: 其他（脉冲神经网络 / 高效训练）
+**会议**: CVPR 2026  
+**arXiv**: [2410.07547](https://arxiv.org/abs/2410.07547)  
+**代码**: [有](https://github.com/haozecheng/HD-LIF)  
+**领域**: 其他（脉冲神经网络 / 高效训练）  
 **关键词**: 脉冲神经网络, 在线训练, 梯度一致性, LIF模型, 低功耗部署
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Positional Encoding meets Persistent Homology on Graphs
 
-**会议**: ICML2025
-**arXiv**: [2506.05814](https://arxiv.org/abs/2506.05814)
-**代码**: [PiPE](https://github.com/Aalto-QuML/PIPE)
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2506.05814](https://arxiv.org/abs/2506.05814)  
+**代码**: [PiPE](https://github.com/Aalto-QuML/PIPE)  
+**领域**: graph_learning  
 **关键词**: 位置编码, 持续同调, 图表达力, GNN, 拓扑数据分析
 
 ## 一句话总结

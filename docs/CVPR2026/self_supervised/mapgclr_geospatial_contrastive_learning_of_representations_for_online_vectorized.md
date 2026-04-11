@@ -1,9 +1,9 @@
 # MapGCLR: Geospatial Contrastive Learning of Representations for Online Vectorized HD Map Construction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10688](https://arxiv.org/abs/2603.10688)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.10688](https://arxiv.org/abs/2603.10688)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 在线高精地图构建, 半监督学习, 对比学习, BEV特征, 多次经过
 
 ## 一句话总结

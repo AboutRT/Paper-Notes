@@ -1,9 +1,9 @@
 # A Training-free LLM-based Approach to General Chinese Character Error Correction
 
-**会议**: ACL 2025
-**arXiv**: [2502.15266](https://arxiv.org/abs/2502.15266)
-**代码**: 无
-**领域**: LLM / NLP
+**会议**: ACL 2025  
+**arXiv**: [2502.15266](https://arxiv.org/abs/2502.15266)  
+**代码**: 无  
+**领域**: LLM / NLP  
 **关键词**: 中文纠错, CSC, 训练无关, LLM, Levenshtein距离
 
 ## 一句话总结

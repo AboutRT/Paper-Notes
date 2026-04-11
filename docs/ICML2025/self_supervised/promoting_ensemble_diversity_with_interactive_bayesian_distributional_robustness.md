@@ -1,9 +1,9 @@
 # Promoting Ensemble Diversity with Interactive Bayesian Distributional Robustness for Fine-tuning Foundation Models
 
-**会议**: ICML2025
-**arXiv**: [2506.07247](https://arxiv.org/abs/2506.07247)
-**代码**: 待确认
-**领域**: self_supervised
+**会议**: ICML2025  
+**arXiv**: [2506.07247](https://arxiv.org/abs/2506.07247)  
+**代码**: 待确认  
+**领域**: self_supervised  
 **关键词**: 贝叶斯推断, 集成多样性, 分布鲁棒优化, LoRA微调, 粒子交互
 
 ## 一句话总结

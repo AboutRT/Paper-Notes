@@ -1,9 +1,9 @@
 # Activation Matters: Test-time Activated Negative Labels for OOD Detection with Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25250](https://arxiv.org/abs/2603.25250)
-**代码**: [GitHub](https://github.com/YBZh/OpenOOD-VLM) (有)
-**领域**: 多模态VLM / AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2603.25250](https://arxiv.org/abs/2603.25250)  
+**代码**: [GitHub](https://github.com/YBZh/OpenOOD-VLM) (有)  
+**领域**: 多模态VLM / AI安全  
 **关键词**: OOD检测, 视觉语言模型, 负标签, 测试时自适应, 激活度量
 
 ## 一句话总结
@@ -20,6 +20,7 @@
 4. **核心idea**：在测试时动态评估标签激活度，选择真正"被OOD样本激活"的负标签。
 
 ## 方法详解
+
 ### 整体框架
 测试时维护正/负样本FIFO队列 → 在语料库上动态计算标签激活分数 → 选择高激活负标签 → 使用激活感知评分函数检测OOD。
 
@@ -54,6 +55,7 @@
 - 超参数：$\gamma$ 为ID/OOD阈值，$g$ 为置信间隔，$L$ 为队列容量，$\alpha$ 为历史/batch权重
 
 ## 实验关键数据
+
 ### 主实验（ImageNet-1k, CLIP ViT-B/16）
 | 方法 | 类型 | INaturalist FPR95↓ | Sun FPR95↓ | Places FPR95↓ | Textures FPR95↓ | Average FPR95↓ |
 |------|------|-----|-----|-----|-----|-----|

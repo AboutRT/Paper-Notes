@@ -1,9 +1,9 @@
 # U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences
 
-**会议**: CVPR 2026
-**arXiv**: [2512.02982](https://arxiv.org/abs/2512.02982)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2512.02982](https://arxiv.org/abs/2512.02982)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: LiDAR生成, 不确定性建模, 扩散模型, 4D世界模型, 时空一致性
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HyPlaneHead: Rethinking Tri-plane-like Representations in Full-Head Image Synthesis
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.16748](https://arxiv.org/abs/2509.16748)
-**代码**: 无
-**领域**: 3D Vision
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.16748](https://arxiv.org/abs/2509.16748)  
+**代码**: 无  
+**领域**: 3D Vision  
 **关键词**: 3D-aware GAN, tri-plane, full-head synthesis, feature entanglement, hybrid representation
 
 ## 一句话总结

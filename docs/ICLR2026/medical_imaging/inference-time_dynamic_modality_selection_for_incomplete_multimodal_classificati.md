@@ -1,9 +1,9 @@
 # Inference-Time Dynamic Modality Selection for Incomplete Multimodal Classification
 
-**会议**: ICLR 2026
-**arXiv**: [2601.22853](https://arxiv.org/abs/2601.22853)
-**代码**: [GitHub](https://github.com/siyi-wind/DyMo)
-**领域**: 多模态学习/缺失模态
+**会议**: ICLR 2026  
+**arXiv**: [2601.22853](https://arxiv.org/abs/2601.22853)  
+**代码**: [GitHub](https://github.com/siyi-wind/DyMo)  
+**领域**: 多模态学习/缺失模态  
 **关键词**: 不完整多模态, 动态模态选择, 信息增益, 推理时自适应, 丢弃-补全困境
 
 ## 一句话总结

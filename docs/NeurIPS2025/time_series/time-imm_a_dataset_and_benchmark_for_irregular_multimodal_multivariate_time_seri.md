@@ -1,9 +1,9 @@
 # Time-IMM: A Dataset and Benchmark for Irregular Multimodal Multivariate Time Series
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.10412](https://arxiv.org/abs/2506.10412)
-**代码**: https://github.com/blacksnail789521/Time-IMM
-**领域**: 时间序列 / 多模态
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.10412](https://arxiv.org/abs/2506.10412)  
+**代码**: https://github.com/blacksnail789521/Time-IMM  
+**领域**: 时间序列 / 多模态  
 **关键词**: 不规则时序, 多模态融合, 因果驱动不规则性, 时序预测, benchmark
 
 ## 一句话总结

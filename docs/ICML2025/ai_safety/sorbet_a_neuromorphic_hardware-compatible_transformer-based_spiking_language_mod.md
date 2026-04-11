@@ -1,9 +1,9 @@
 # Sorbet: A Neuromorphic Hardware-Compatible Transformer-Based Spiking Language Model
 
-**会议**: ICML 2025
-**arXiv**: [2409.15298](https://arxiv.org/abs/2409.15298)
-**代码**: [github.com/Kaiwen-Tang/Sorbet](https://github.com/Kaiwen-Tang/Sorbet)
-**领域**: AI安全 / 模型效率 / 脉冲神经网络
+**会议**: ICML 2025  
+**arXiv**: [2409.15298](https://arxiv.org/abs/2409.15298)  
+**代码**: [github.com/Kaiwen-Tang/Sorbet](https://github.com/Kaiwen-Tang/Sorbet)  
+**领域**: AI安全 / 模型效率 / 脉冲神经网络  
 **关键词**: spiking neural network, neuromorphic hardware, transformer, energy efficiency, binary weight
 
 ## 一句话总结

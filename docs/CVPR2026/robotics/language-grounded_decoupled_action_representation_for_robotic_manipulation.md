@@ -1,8 +1,8 @@
 # Language-Grounded Decoupled Action Representation for Robotic Manipulation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12967](https://arxiv.org/abs/2603.12967)
-**代码**: 无
+**会议**: CVPR 2026  
+**arXiv**: [2603.12967](https://arxiv.org/abs/2603.12967)  
+**代码**: 无  
 **领域**: 机器人
 
 ## 一句话总结

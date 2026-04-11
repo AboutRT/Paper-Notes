@@ -1,9 +1,9 @@
 # Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.16127](https://arxiv.org/abs/2603.16127)
-**代码**: 未开源
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2603.16127](https://arxiv.org/abs/2603.16127)  
+**代码**: 未开源  
+**领域**: llm_nlp  
 **关键词**: 学习率调度, 预训练, 监督微调, 损失景观, Warmup-Stable-Only
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MonoSOWA: Scalable Monocular 3D Object Detector Without Human Annotations
 
-**会议**: ICCV2025
-**arXiv**: [2501.09481](https://arxiv.org/abs/2501.09481)
-**代码**: [github.com/jskvrna/MonoSOWA](https://github.com/jskvrna/MonoSOWA)
-**领域**: autonomous_driving
+**会议**: ICCV2025  
+**arXiv**: [2501.09481](https://arxiv.org/abs/2501.09481)  
+**代码**: [github.com/jskvrna/MonoSOWA](https://github.com/jskvrna/MonoSOWA)  
+**领域**: autonomous_driving  
 **关键词**: 单目3D检测, 弱监督, 自动标注, 伪LiDAR, 无人工标注
 
 ## 一句话总结

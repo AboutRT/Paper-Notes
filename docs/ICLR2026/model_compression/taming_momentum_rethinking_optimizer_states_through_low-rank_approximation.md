@@ -1,9 +1,9 @@
 # Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.24283](https://arxiv.org/abs/2602.24283)
-**代码**: [github.com/mrflogs/LoRA-Pre](https://github.com/mrflogs/LoRA-Pre)
-**领域**: 模型压缩 / 高效优化器
+**会议**: ICLR 2026  
+**arXiv**: [2602.24283](https://arxiv.org/abs/2602.24283)  
+**代码**: [github.com/mrflogs/LoRA-Pre](https://github.com/mrflogs/LoRA-Pre)  
+**领域**: 模型压缩 / 高效优化器  
 **关键词**: 低秩优化器, 动量压缩, 预训练效率, LoRA, Adam, Muon
 
 ## 一句话总结

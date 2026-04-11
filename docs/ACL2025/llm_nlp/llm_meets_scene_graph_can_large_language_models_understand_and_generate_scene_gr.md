@@ -111,10 +111,10 @@ TSG Bench 包含三个层次：
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，任务定义明确，数据和指标描述详细
 - 价值: ⭐⭐⭐⭐ TSG Bench 作为评估工具有实用价值，四类任务的设计可复用于其他结构化表示研究
 
-**会议**: ACL2025
-**arXiv**: [2505.19510](https://arxiv.org/abs/2505.19510)
-**代码**: [GitHub](https://github.com/docworlds/tsg-bench)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.19510](https://arxiv.org/abs/2505.19510)  
+**代码**: [GitHub](https://github.com/docworlds/tsg-bench)  
+**领域**: llm_nlp  
 **关键词**: 场景图, LLM评估, 结构化推理, 基准测试, 多模态理解
 
 ## 一句话总结

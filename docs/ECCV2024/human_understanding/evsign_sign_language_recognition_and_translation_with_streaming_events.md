@@ -1,9 +1,9 @@
 # EvSign: Sign Language Recognition and Translation with Streaming Events
 
-**会议**: ECCV 2024
-**arXiv**: [2407.12593](https://arxiv.org/abs/2407.12593)
-**代码**: [项目页](https://zhang-pengyu.github.io/EVSign)
-**领域**: 人体理解
+**会议**: ECCV 2024  
+**arXiv**: [2407.12593](https://arxiv.org/abs/2407.12593)  
+**代码**: [项目页](https://zhang-pengyu.github.io/EVSign)  
+**领域**: 人体理解  
 **关键词**: 手语识别, 手语翻译, 事件相机, 稀疏卷积, 时序建模
 
 ## 一句话总结

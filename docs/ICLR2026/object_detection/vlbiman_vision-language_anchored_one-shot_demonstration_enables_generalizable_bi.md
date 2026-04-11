@@ -1,9 +1,9 @@
 # VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21723](https://arxiv.org/abs/2509.21723)
-**代码**: [项目页面](https://hnuzhy.github.io/projects/VLBiMan)
-**领域**: 机器人操作/双臂
+**会议**: ICLR 2026  
+**arXiv**: [2509.21723](https://arxiv.org/abs/2509.21723)  
+**代码**: [项目页面](https://hnuzhy.github.io/projects/VLBiMan)  
+**领域**: 机器人操作/双臂  
 **关键词**: 双臂操作, 单次演示, VLM锚定, 技能分解, 跨具身迁移
 
 ## 一句话总结

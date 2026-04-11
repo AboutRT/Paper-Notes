@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # UI-Evol: Automatic Knowledge Evolving for Computer Use Agents
 
-**会议**: ICML2025
-**arXiv**: [2505.21964](https://arxiv.org/abs/2505.21964)
-**代码**: 待确认
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2505.21964](https://arxiv.org/abs/2505.21964)  
+**代码**: 待确认  
+**领域**: others  
 **关键词**: 待补充
 
 ## 一句话总结

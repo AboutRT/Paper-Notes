@@ -1,9 +1,9 @@
 # Efficient Length-Generalizable Attention via Causal Retrieval for Long-Context Language Modeling
 
-**会议**: ICML 2025
-**arXiv**: [2410.01651](https://arxiv.org/abs/2410.01651)
-**代码**: https://github.com/ant-research/long-context-modeling (有)
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2410.01651](https://arxiv.org/abs/2410.01651)  
+**代码**: https://github.com/ant-research/long-context-modeling (有)  
+**领域**: LLM效率  
 **关键词**: 长度泛化, 分组交叉注意力, 因果检索, 长上下文建模, 可微分检索
 
 ## 一句话总结

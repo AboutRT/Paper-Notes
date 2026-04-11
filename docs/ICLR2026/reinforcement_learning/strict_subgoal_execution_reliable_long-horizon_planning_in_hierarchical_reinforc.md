@@ -1,9 +1,9 @@
 # Strict Subgoal Execution: Reliable Long-Horizon Planning in Hierarchical Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2506.21039](https://arxiv.org/abs/2506.21039)
-**代码**: [https://github.com/Jaebak1996/SSE](https://github.com/Jaebak1996/SSE)
-**领域**: 分层强化学习 / 目标条件 RL
+**会议**: ICLR 2026  
+**arXiv**: [2506.21039](https://arxiv.org/abs/2506.21039)  
+**代码**: [https://github.com/Jaebak1996/SSE](https://github.com/Jaebak1996/SSE)  
+**领域**: 分层强化学习 / 目标条件 RL  
 **关键词**: 分层RL, 子目标执行, 图规划, 前沿经验回放, 长时程任务
 
 ## 一句话总结

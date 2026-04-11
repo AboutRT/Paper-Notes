@@ -1,9 +1,9 @@
 # KELPS: A Framework for Verified Multi-Language Autoformalization via Semantic-Syntactic Alignment
 
-**会议**: ICML2025
-**arXiv**: [2507.08665](https://arxiv.org/abs/2507.08665)
-**代码**: 补充材料中提供
-**领域**: 自动形式化 (Autoformalization)
+**会议**: ICML2025  
+**arXiv**: [2507.08665](https://arxiv.org/abs/2507.08665)  
+**代码**: 补充材料中提供  
+**领域**: 自动形式化 (Autoformalization)  
 **关键词**: 自动形式化, 知识方程, 断言逻辑, Lean4, Coq, Isabelle, 多语言翻译, 数据合成
 
 ## 一句话总结

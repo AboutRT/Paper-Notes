@@ -1,9 +1,9 @@
 # Causal-Entity Reflected Egocentric Traffic Accident Video Synthesis
 
-**会议**: ICCV2025
-**arXiv**: [2506.23263](https://arxiv.org/abs/2506.23263)
-**代码**: [lotvsmmau.net/Causal-VidSyn](http://lotvsmmau.net/Causal-VidSyn)
-**领域**: autonomous_driving
+**会议**: ICCV2025  
+**arXiv**: [2506.23263](https://arxiv.org/abs/2506.23263)  
+**代码**: [lotvsmmau.net/Causal-VidSyn](http://lotvsmmau.net/Causal-VidSyn)  
+**领域**: autonomous_driving  
 **关键词**: 事故视频合成, 视频扩散模型, 因果实体定位, 驾驶员注视, 自动驾驶安全
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LookOut: Real-World Humanoid Egocentric Navigation
 
-**会议**: ICCV 2025
-**arXiv**: [2508.14466](https://arxiv.org/abs/2508.14466)
+**会议**: ICCV 2025  
+**arXiv**: [2508.14466](https://arxiv.org/abs/2508.14466)  
 **机构**: Stanford University
-**领域**: 自动驾驶 / 自主导航 / 人形机器人
+**领域**: 自动驾驶 / 自主导航 / 人形机器人  
 **关键词**: egocentric navigation, 6D head pose prediction, humanoid robot, DINO features, BEV, Project Aria, real-world dataset
 
 ## 一句话总结

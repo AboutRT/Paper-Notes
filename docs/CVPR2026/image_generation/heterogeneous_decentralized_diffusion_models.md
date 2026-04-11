@@ -1,9 +1,9 @@
 # Heterogeneous Decentralized Diffusion Models
 
-**会议**: CVPR2026
-**arXiv**: [2603.06741](https://arxiv.org/abs/2603.06741)
-**代码**: 待确认
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2603.06741](https://arxiv.org/abs/2603.06741)  
+**代码**: 待确认  
+**领域**: 图像生成  
 **关键词**: 去中心化扩散模型, 异构训练目标, DDPM, Flow Matching, 专家混合, DiT, PixArt-α
 
 ## 一句话总结

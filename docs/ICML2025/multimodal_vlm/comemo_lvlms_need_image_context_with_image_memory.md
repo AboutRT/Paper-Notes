@@ -1,9 +1,9 @@
 # CoMemo: LVLMs Need Image Context with Image Memory
 
-**会议**: ICML2025
-**arXiv**: [2506.06279](https://arxiv.org/abs/2506.06279)
-**代码**: [项目页](https://lalbj.github.io/projects/CoMemo/)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2506.06279](https://arxiv.org/abs/2506.06279)  
+**代码**: [项目页](https://lalbj.github.io/projects/CoMemo/)  
+**领域**: multimodal_vlm  
 **关键词**: 大视觉语言模型, 双路径架构, 位置编码, 注意力分配, 图像记忆
 
 ## 一句话总结

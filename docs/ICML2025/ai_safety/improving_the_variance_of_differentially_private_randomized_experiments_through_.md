@@ -1,9 +1,9 @@
 # Improving the Variance of Differentially Private Randomized Experiments through Clustering
 
-**会议**: ICML 2025
-**arXiv**: [2308.00957](https://arxiv.org/abs/2308.00957)
-**代码**: 无
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2308.00957](https://arxiv.org/abs/2308.00957)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 差分隐私, 因果推断, 随机实验, 聚类, 方差缩减, 标签差分隐私
 
 ## 一句话总结

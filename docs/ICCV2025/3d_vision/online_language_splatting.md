@@ -1,9 +1,9 @@
 # Online Language Splatting
 
-**会议**: ICCV 2025
-**arXiv**: [2503.09447](https://arxiv.org/abs/2503.09447)
-**代码**: [https://saimouli.github.io/onlineLang](https://saimouli.github.io/onlineLang)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2503.09447](https://arxiv.org/abs/2503.09447)  
+**代码**: [https://saimouli.github.io/onlineLang](https://saimouli.github.io/onlineLang)  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, SLAM, 开放词汇, 语言特征嵌入, CLIP, 实时语义建图
 
 ## 一句话总结

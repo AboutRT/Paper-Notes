@@ -1,9 +1,9 @@
 # Learning Interestingness in Automated Mathematical Theory Formation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.14778](https://arxiv.org/abs/2511.14778)
-**代码**: https://github.com/trishullab/Fermat (有)
-**领域**: 强化学习 / 自动数学发现
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.14778](https://arxiv.org/abs/2511.14778)  
+**代码**: https://github.com/trishullab/Fermat (有)  
+**领域**: 强化学习 / 自动数学发现  
 **关键词**: 自动理论形成, 兴趣度学习, 强化学习, 进化程序合成, LLM 驱动搜索
 
 ## 一句话总结

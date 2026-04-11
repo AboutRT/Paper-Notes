@@ -1,9 +1,9 @@
 # Risk-Sensitive Agent Compositions
 
-**会议**: ICLR 2026
-**arXiv**: [2506.04632](https://arxiv.org/abs/2506.04632)
-**代码**: 无
-**领域**: AI安全/Agent系统
+**会议**: ICLR 2026  
+**arXiv**: [2506.04632](https://arxiv.org/abs/2506.04632)  
+**代码**: 无  
+**领域**: AI安全/Agent系统  
 **关键词**: 风险敏感, Agent组合, VaR, CVaR, 动态规划
 
 ## 一句话总结

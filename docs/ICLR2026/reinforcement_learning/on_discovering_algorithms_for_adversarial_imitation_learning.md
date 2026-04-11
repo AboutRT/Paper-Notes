@@ -1,9 +1,9 @@
 # On Discovering Algorithms for Adversarial Imitation Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2510.00922](https://arxiv.org/abs/2510.00922)
-**代码**: 无
-**领域**: 模仿学习/元学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.00922](https://arxiv.org/abs/2510.00922)  
+**代码**: 无  
+**领域**: 模仿学习/元学习  
 **关键词**: 对抗性模仿学习, 奖励赋值函数, LLM引导进化, 元学习, 训练稳定性
 
 ## 一句话总结

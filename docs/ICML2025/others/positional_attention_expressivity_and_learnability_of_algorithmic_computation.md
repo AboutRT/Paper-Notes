@@ -1,9 +1,9 @@
 # Positional Attention: Expressivity and Learnability of Algorithmic Computation
 
-**会议**: ICML2025
-**arXiv**: [2410.01686](https://arxiv.org/abs/2410.01686)
-**代码**: 待确认
-**领域**: others (Transformer 理论 / 算法推理)
+**会议**: ICML2025  
+**arXiv**: [2410.01686](https://arxiv.org/abs/2410.01686)  
+**代码**: 待确认  
+**领域**: others (Transformer 理论 / 算法推理)  
 **关键词**: Positional Attention, Transformer 表达力, 算法执行, 并行计算模型, 泛化界
 
 ## 一句话总结

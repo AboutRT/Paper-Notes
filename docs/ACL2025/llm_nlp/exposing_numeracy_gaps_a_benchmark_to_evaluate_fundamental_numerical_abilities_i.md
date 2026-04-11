@@ -1,9 +1,9 @@
 # Exposing Numeracy Gaps: A Benchmark to Evaluate Fundamental Numerical Abilities in Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2502.11075](https://arxiv.org/abs/2502.11075)
-**代码**: [TreeAI-Lab/NumericBench](https://github.com/TreeAI-Lab/NumericBench)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.11075](https://arxiv.org/abs/2502.11075)  
+**代码**: [TreeAI-Lab/NumericBench](https://github.com/TreeAI-Lab/NumericBench)  
+**领域**: llm_nlp  
 **关键词**: numerical reasoning, benchmark, arithmetic, number understanding, LLM evaluation, tokenizer
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Better than Average: Spatially-Aware Aggregation of Segmentation Uncertainty Improves Downstream Performance
 
-**会议**: CVPR 2026
-**arXiv**: [2603.29941](https://arxiv.org/abs/2603.29941)
-**代码**: https://github.com/Kainmueller-Lab/aggrigator (有)
-**领域**: 医学影像
+**会议**: CVPR 2026  
+**arXiv**: [2603.29941](https://arxiv.org/abs/2603.29941)  
+**代码**: https://github.com/Kainmueller-Lab/aggrigator (有)  
+**领域**: 医学影像  
 **关键词**: 不确定性量化, 分割聚合, OoD检测, 故障检测, 空间感知聚合
 
 ## 一句话总结
@@ -100,10 +100,10 @@
 - 价值: ⭐⭐⭐⭐⭐ 为安全关键应用的可靠分割提供实用指南，开源工具提升应用价值
 # Better than Average: Spatially-Aware Aggregation of Segmentation Uncertainty Improves Downstream Performance
 
-**会议**: CVPR 2026
-**arXiv**: [2603.29941](https://arxiv.org/abs/2603.29941)
-**代码**: https://github.com/Kainmueller-Lab/aggrigator (有)
-**领域**: 医学影像
+**会议**: CVPR 2026  
+**arXiv**: [2603.29941](https://arxiv.org/abs/2603.29941)  
+**代码**: https://github.com/Kainmueller-Lab/aggrigator (有)  
+**领域**: 医学影像  
 **关键词**: 不确定性量化, 空间聚合策略, OoD检测, 失败检测, 元聚合
 
 ## 一句话总结

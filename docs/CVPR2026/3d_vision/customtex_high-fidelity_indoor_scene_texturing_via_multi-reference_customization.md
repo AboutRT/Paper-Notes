@@ -1,9 +1,9 @@
 # CustomTex: High-fidelity Indoor Scene Texturing via Multi-Reference Customization
 
-**会议**: CVPR 2026
-**arXiv**: [2603.19121](https://arxiv.org/abs/2603.19121)
-**代码**: https://chenweilinx.github.io/CustomTex/
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.19121](https://arxiv.org/abs/2603.19121)  
+**代码**: https://chenweilinx.github.io/CustomTex/  
+**领域**: 3D视觉  
 **关键词**: 室内场景纹理, 多参考图像定制, 双蒸馏, VSD优化, 实例级控制
 
 ## 一句话总结

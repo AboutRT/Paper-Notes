@@ -1,9 +1,9 @@
 # Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment
 
-**会议**: AAAI 2026
-**arXiv**: [2511.22345](https://arxiv.org/abs/2511.22345)
-**代码**: 无
-**领域**: 生成模型 / 正则化流 / 表征对齐
+**会议**: AAAI 2026  
+**arXiv**: [2511.22345](https://arxiv.org/abs/2511.22345)  
+**代码**: 无  
+**领域**: 生成模型 / 正则化流 / 表征对齐  
 **关键词**: Normalizing Flows, TARFlow, 表征对齐, 反向对齐, 图像生成, ImageNet
 
 ## 一句话总结

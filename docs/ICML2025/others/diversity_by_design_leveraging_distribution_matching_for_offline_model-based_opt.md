@@ -1,9 +1,9 @@
 # Diversity by Design: Leveraging Distribution Matching for Offline Model-Based Optimization
 
-**会议**: ICML 2025
-**arXiv**: [2501.18768](https://arxiv.org/abs/2501.18768)
-**代码**: 无
-**领域**: Optimization / Generative Models
+**会议**: ICML 2025  
+**arXiv**: [2501.18768](https://arxiv.org/abs/2501.18768)  
+**代码**: 无  
+**领域**: Optimization / Generative Models  
 **关键词**: 离线模型优化, 设计多样性, 分布匹配, 对抗训练, MBO
 
 ## 一句话总结

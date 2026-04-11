@@ -1,9 +1,9 @@
 # PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.22936](https://arxiv.org/abs/2510.22936)
-**代码**: [GitHub](https://github.com/MouxiaoHuang/PPE)
-**领域**: 多模态VLM/效率
+**会议**: ICLR 2026  
+**arXiv**: [2510.22936](https://arxiv.org/abs/2510.22936)  
+**代码**: [GitHub](https://github.com/MouxiaoHuang/PPE)  
+**领域**: 多模态VLM/效率  
 **关键词**: Token压缩, 位置编码, RoPE, MLLM效率, 时空保持
 
 ## 一句话总结

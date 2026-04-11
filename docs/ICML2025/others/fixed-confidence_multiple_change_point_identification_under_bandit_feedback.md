@@ -1,9 +1,9 @@
 # Fixed-Confidence Multiple Change Point Identification under Bandit Feedback
 
-**会议**: ICML2025
-**arXiv**: [2507.08994](https://arxiv.org/abs/2507.08994)
-**代码**: 无
-**领域**: bandits
+**会议**: ICML2025  
+**arXiv**: [2507.08994](https://arxiv.org/abs/2507.08994)  
+**代码**: 无  
+**领域**: bandits  
 **关键词**: change point detection, multi-armed bandits, pure exploration, fixed-confidence, Track-and-Stop, sample complexity
 
 ## 一句话总结

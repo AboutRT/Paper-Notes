@@ -1,9 +1,9 @@
 # Graph Alignment via Birkhoff Relaxation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2503.05323](https://arxiv.org/abs/2503.05323)
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.05323](https://arxiv.org/abs/2503.05323)  
 **作者**: Sushil Mahavir Varma (University of Michigan), Irène Waldspurger (CNRS/INRIA, Université Paris Dauphine), Laurent Massoulié (INRIA, PSL Research University)
-**代码**: [GitHub](https://github.com/smv30/convex_rel_for_graph_alignment)
+**代码**: [GitHub](https://github.com/smv30/convex_rel_for_graph_alignment)  
 **领域**: 图匹配 / 组合优化 / 凸松弛
 
 ---

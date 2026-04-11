@@ -1,9 +1,9 @@
 # SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward
 
-**会议**: ICLR 2026
-**arXiv**: [2505.17018](https://arxiv.org/abs/2505.17018)
-**代码**: [GitHub](https://github.com/kxfan2002/SophiaVL-R1)
-**领域**: 多模态推理/RL对齐
+**会议**: ICLR 2026  
+**arXiv**: [2505.17018](https://arxiv.org/abs/2505.17018)  
+**代码**: [GitHub](https://github.com/kxfan2002/SophiaVL-R1)  
+**领域**: 多模态推理/RL对齐  
 **关键词**: 思维奖励, MLLM推理, Trust-GRPO, 退火策略, 过程监督
 
 ## 一句话总结

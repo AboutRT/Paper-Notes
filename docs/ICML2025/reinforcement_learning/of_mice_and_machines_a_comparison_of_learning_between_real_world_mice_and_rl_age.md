@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Of Mice and Machines: A Comparison of Learning Between Real World Mice and RL Agents
 
-**会议**: ICML2025
-**arXiv**: [2505.12204](https://arxiv.org/abs/2505.12204)
-**代码**: 待确认
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2505.12204](https://arxiv.org/abs/2505.12204)  
+**代码**: 待确认  
+**领域**: reinforcement_learning  
 **关键词**: 生物启发RL, 风险规避, 捕食者-猎物, Q值方差, 经验回放
 
 ## 一句话总结

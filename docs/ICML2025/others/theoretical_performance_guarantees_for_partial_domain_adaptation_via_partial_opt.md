@@ -1,9 +1,9 @@
 # Theoretical Performance Guarantees for Partial Domain Adaptation via Partial Optimal Transport
 
-**会议**: ICML 2025
-**arXiv**: [2506.02712](https://arxiv.org/abs/2506.02712)
-**代码**: 无
-**领域**: 迁移学习 / 最优传输
+**会议**: ICML 2025  
+**arXiv**: [2506.02712](https://arxiv.org/abs/2506.02712)  
+**代码**: 无  
+**领域**: 迁移学习 / 最优传输  
 **关键词**: partial domain adaptation, partial optimal transport, Wasserstein distance, generalization bounds, WARMPOT
 
 ## 一句话总结

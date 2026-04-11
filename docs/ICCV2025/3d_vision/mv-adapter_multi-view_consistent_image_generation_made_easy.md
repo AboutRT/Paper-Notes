@@ -1,9 +1,9 @@
 # MV-Adapter: Multi-view Consistent Image Generation Made Easy
 
-**会议**: ICCV 2025
-**arXiv**: [2412.03632](https://arxiv.org/abs/2412.03632)
-**代码**: [有](https://huanngzh.github.io/MV-Adapter-Page/)
-**领域**: 3D Vision / Multi-view Generation
+**会议**: ICCV 2025  
+**arXiv**: [2412.03632](https://arxiv.org/abs/2412.03632)  
+**代码**: [有](https://huanngzh.github.io/MV-Adapter-Page/)  
+**领域**: 3D Vision / Multi-view Generation  
 **关键词**: Multi-view Generation, Adapter, Diffusion Model, 3D Generation, Texture Generation
 
 ## 一句话总结

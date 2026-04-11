@@ -1,9 +1,9 @@
 # IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling
 
-**会议**: ICML2025
-**arXiv**: [2506.00736](https://arxiv.org/abs/2506.00736)
-**代码**: [audio-impact.github.io](https://audio-impact.github.io/)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2506.00736](https://arxiv.org/abs/2506.00736)  
+**代码**: [audio-impact.github.io](https://audio-impact.github.io/)  
+**领域**: image_generation  
 **关键词**: text-to-audio, diffusion models, mask-based generative modeling, iterative parallel decoding, 连续潜在空间
 
 ## 一句话总结

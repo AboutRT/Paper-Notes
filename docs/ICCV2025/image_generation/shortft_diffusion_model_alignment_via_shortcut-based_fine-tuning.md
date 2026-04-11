@@ -1,9 +1,9 @@
 # ShortFT: Diffusion Model Alignment via Shortcut-based Fine-Tuning
 
-**会议**: ICCV 2025
-**arXiv**: [2507.22604](https://arxiv.org/abs/2507.22604)
-**代码**: [https://xiefan-guo.github.io/shortft](https://xiefan-guo.github.io/shortft)
-**领域**: image_generation
+**会议**: ICCV 2025  
+**arXiv**: [2507.22604](https://arxiv.org/abs/2507.22604)  
+**代码**: [https://xiefan-guo.github.io/shortft](https://xiefan-guo.github.io/shortft)  
+**领域**: image_generation  
 **关键词**: 扩散模型对齐, 奖励微调, 去噪捷径, 轨迹保持蒸馏, 时间步感知 LoRA, 反向传播
 
 ## 一句话总结

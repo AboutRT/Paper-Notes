@@ -1,9 +1,9 @@
 # PoSh: Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image Descriptions
 
-**会议**: ICLR 2026
-**arXiv**: [2510.19060](https://arxiv.org/abs/2510.19060)
-**代码**: [GitHub](https://github.com/amith-ananthram/posh)
-**领域**: 多模态评估
+**会议**: ICLR 2026  
+**arXiv**: [2510.19060](https://arxiv.org/abs/2510.19060)  
+**代码**: [GitHub](https://github.com/amith-ananthram/posh)  
+**领域**: 多模态评估  
 **关键词**: 图像描述评估, 场景图, LLM-as-Judge, 细粒度错误, 辅助文本
 
 ## 一句话总结

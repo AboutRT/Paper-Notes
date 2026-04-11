@@ -1,9 +1,9 @@
 # Flow of Reasoning: Training LLMs for Divergent Reasoning with Minimal Examples
 
-**会议**: ICML2025
-**arXiv**: [2406.05673](https://arxiv.org/abs/2406.05673)
-**代码**: [Yu-Fangxu/FoR](https://github.com/Yu-Fangxu/FoR)
-**领域**: LLM推理 / 多样化推理
+**会议**: ICML2025  
+**arXiv**: [2406.05673](https://arxiv.org/abs/2406.05673)  
+**代码**: [Yu-Fangxu/FoR](https://github.com/Yu-Fangxu/FoR)  
+**领域**: LLM推理 / 多样化推理  
 **关键词**: GFlowNet, 发散性推理, 多样化采样, 少样本微调, 马尔可夫流, 轨迹平衡
 
 ## 一句话总结

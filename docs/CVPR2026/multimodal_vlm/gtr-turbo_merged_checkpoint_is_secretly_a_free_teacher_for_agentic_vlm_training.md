@@ -1,8 +1,8 @@
 # GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training
 
-**会议**: CVPR 2026
-**arXiv**: [2512.13043](https://arxiv.org/abs/2512.13043)
-**代码**: [GitHub](https://github.com/tongweiICML/GTR-Turbo)
+**会议**: CVPR 2026  
+**arXiv**: [2512.13043](https://arxiv.org/abs/2512.13043)  
+**代码**: [GitHub](https://github.com/tongweiICML/GTR-Turbo)  
 **领域**: 多模态与VLM
 
 ## 一句话总结

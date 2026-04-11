@@ -1,9 +1,9 @@
 # Shrinking the Teacher: An Adaptive Teaching Paradigm for Asymmetric EEG-Vision Alignment
 
-**会议**: AAAI 2026
-**arXiv**: [2511.11422](https://arxiv.org/abs/2511.11422)
-**代码**: [https://github.com/LukunWuXDU/ATS](https://github.com/LukunWuXDU/ATS)
-**领域**: 模型压缩
+**会议**: AAAI 2026  
+**arXiv**: [2511.11422](https://arxiv.org/abs/2511.11422)  
+**代码**: [https://github.com/LukunWuXDU/ATS](https://github.com/LukunWuXDU/ATS)  
+**领域**: 模型压缩  
 **关键词**: knowledge distillation, EEG decoding, cross-modal alignment, information bottleneck, brain-computer interface
 
 ## 一句话总结

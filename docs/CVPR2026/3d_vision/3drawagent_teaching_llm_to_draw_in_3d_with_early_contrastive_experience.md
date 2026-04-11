@@ -1,9 +1,9 @@
 # 3DrawAgent: Teaching LLM to Draw in 3D with Early Contrastive Experience
 
-**会议**: CVPR 2026
-**arXiv**: [2604.08042](https://arxiv.org/abs/2604.08042)
-**代码**: 无（基于LLM API）
-**领域**: 3D视觉 / 生成式AI
+**会议**: CVPR 2026  
+**arXiv**: [2604.08042](https://arxiv.org/abs/2604.08042)  
+**代码**: 无（基于LLM API）  
+**领域**: 3D视觉 / 生成式AI  
 **关键词**: 3D草图生成, LLM, 免训练, 对比经验优化, Bezier曲线
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 3. **核心idea**：LLM 本身具有强大的序列推理能力，通过精心设计的 in-context prompt + 自我对比反馈，可以"教"LLM 进行3D绘图，完全无需梯度更新。
 
 ## 方法详解
+
 ### 整体框架
 文本描述 → LLM 自回归生成3D Bezier曲线控制点 → 差分渲染器多视角渲染 → CLIP评分 + LLM质量判断 → 构建对比经验对 → 更新经验库 → 指导后续生成。
 
@@ -48,6 +49,7 @@
 - 仅需单张 RTX 3090 GPU（主要算力在 LLM API 调用）
 
 ## 实验关键数据
+
 ### 主实验
 | 方法 | 需训练 | CLIP-ST (类别) | AES (类别) | CLIP-ST (细粒度) | AES (细粒度) |
 |------|--------|------|------|------|------|

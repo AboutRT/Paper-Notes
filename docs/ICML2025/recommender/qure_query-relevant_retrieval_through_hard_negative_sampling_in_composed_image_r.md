@@ -1,9 +1,9 @@
 # QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval
 
-**会议**: ICML2025
-**arXiv**: [2507.12416](https://arxiv.org/abs/2507.12416)
-**代码**: [jackwaky/QuRe](https://github.com/jackwaky/QuRe)
-**领域**: 图像检索
+**会议**: ICML2025  
+**arXiv**: [2507.12416](https://arxiv.org/abs/2507.12416)  
+**代码**: [jackwaky/QuRe](https://github.com/jackwaky/QuRe)  
+**领域**: 图像检索  
 **关键词**: Composed Image Retrieval, 硬负样本采样, 奖励模型, Bradley-Terry, 人类偏好对齐
 
 ## 一句话总结

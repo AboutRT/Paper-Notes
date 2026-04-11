@@ -1,9 +1,9 @@
 # TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.18537](https://arxiv.org/abs/2507.18537)
-**代码**: [GitHub](https://github.com/ali-vilab/TTS-VAR)
-**领域**: 图像生成 / 测试时扩展
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.18537](https://arxiv.org/abs/2507.18537)  
+**代码**: [GitHub](https://github.com/ali-vilab/TTS-VAR)  
+**领域**: 图像生成 / 测试时扩展  
 **关键词**: test-time scaling, visual auto-regressive, VAR, path searching, image generation
 
 ## 一句话总结

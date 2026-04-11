@@ -1,9 +1,9 @@
 # RestoreGrad: Signal Restoration Using Conditional Denoising Diffusion Models with Jointly Learned Prior
 
-**会议**: ICML2025
-**arXiv**: [2502.13574](https://arxiv.org/abs/2502.13574)
-**代码**: 待确认
-**领域**: 扩散模型 / 信号恢复
+**会议**: ICML2025  
+**arXiv**: [2502.13574](https://arxiv.org/abs/2502.13574)  
+**代码**: 待确认  
+**领域**: 扩散模型 / 信号恢复  
 **关键词**: 扩散模型, 信号恢复, 可学习先验, VAE-DDPM融合, 语音增强, 图像修复
 
 ## 一句话总结

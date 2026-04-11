@@ -1,9 +1,9 @@
 # Robust Offline Reinforcement Learning with Linearly Structured f-Divergence Regularization
 
-**会议**: ICML 2025
-**arXiv**: [2411.18612](https://arxiv.org/abs/2411.18612)
-**代码**: 无
-**领域**: Reinforcement Learning
+**会议**: ICML 2025  
+**arXiv**: [2411.18612](https://arxiv.org/abs/2411.18612)  
+**代码**: 无  
+**领域**: Reinforcement Learning  
 **关键词**: 鲁棒离线RL, f-散度正则化, 线性结构, 函数近似, RRMDP
 
 ## 一句话总结

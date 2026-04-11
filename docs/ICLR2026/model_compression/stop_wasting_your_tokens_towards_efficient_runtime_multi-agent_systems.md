@@ -1,9 +1,9 @@
 # Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems
 
-**会议**: ICLR 2026
-**arXiv**: [2510.26585](https://arxiv.org/abs/2510.26585)
-**代码**: 无
-**领域**: 模型压缩 / 多智能体效率
+**会议**: ICLR 2026  
+**arXiv**: [2510.26585](https://arxiv.org/abs/2510.26585)  
+**代码**: 无  
+**领域**: 模型压缩 / 多智能体效率  
 **关键词**: 多智能体系统, Token 效率, 运行时监督, 自适应过滤, 错误纠正
 
 ## 一句话总结

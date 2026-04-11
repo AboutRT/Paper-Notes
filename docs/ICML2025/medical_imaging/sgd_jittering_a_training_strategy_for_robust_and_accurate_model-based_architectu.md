@@ -1,9 +1,9 @@
 # SGD Jittering: A Training Strategy for Robust and Accurate Model-Based Architectures
 
-**会议**: ICML2025
-**arXiv**: [2410.14667](https://arxiv.org/abs/2410.14667)
-**代码**: 待确认
-**领域**: 模型鲁棒性 / 逆问题
+**会议**: ICML2025  
+**arXiv**: [2410.14667](https://arxiv.org/abs/2410.14667)  
+**代码**: 待确认  
+**领域**: 模型鲁棒性 / 逆问题  
 **关键词**: SGD jittering, model-based architecture, loop unrolling, robustness, generalization, inverse problems, MRI reconstruction
 
 ## 一句话总结

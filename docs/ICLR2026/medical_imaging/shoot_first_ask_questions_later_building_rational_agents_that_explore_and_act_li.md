@@ -1,9 +1,9 @@
 # Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People
 
-**会议**: ICLR 2026
-**arXiv**: [2510.20886](https://arxiv.org/abs/2510.20886)
-**代码**: [项目页面](https://gabegrand.github.io/battleship)
-**领域**: 医学图像（分类为此，实际为 AI Agent / 认知科学）
+**会议**: ICLR 2026  
+**arXiv**: [2510.20886](https://arxiv.org/abs/2510.20886)  
+**代码**: [项目页面](https://gabegrand.github.io/battleship)  
+**领域**: 医学图像（分类为此，实际为 AI Agent / 认知科学）  
 **关键词**: 信息搜索智能体, 贝叶斯实验设计, 语言模型推理, 探索-利用权衡, 蒙特卡洛推断
 
 ## 一句话总结

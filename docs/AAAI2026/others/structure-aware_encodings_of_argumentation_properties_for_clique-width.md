@@ -1,10 +1,10 @@
 # Structure-Aware Encodings of Argumentation Properties for Clique-width
 
-**会议**: AAAI 2026
-**arXiv**: [2511.10767](https://arxiv.org/abs/2511.10767)
+**会议**: AAAI 2026  
+**arXiv**: [2511.10767](https://arxiv.org/abs/2511.10767)  
 **作者**: Yasir Mahmood (Paderborn University), Markus Hecher (CNRS/University of Artois), Johanna Groven (Linköping University), Johannes K. Fichte (Linköping University)
-**代码**: 未公开
-**领域**: others
+**代码**: 未公开  
+**领域**: others  
 **关键词**: 抽象论辩, 团宽, 参数化复杂性, SAT编码, QBF, k-表达式, 分解引导归约
 
 ## 一句话总结

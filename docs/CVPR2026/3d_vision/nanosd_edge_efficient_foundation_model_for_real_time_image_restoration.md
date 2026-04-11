@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration
 
-**会议**: CVPR2026
-**arXiv**: [2601.09823](https://arxiv.org/abs/2601.09823)
-**代码**: 待确认
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2601.09823](https://arxiv.org/abs/2601.09823)  
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: 扩散模型蒸馏, 边缘部署, 图像修复, 超分辨率, 模型压缩, 多目标优化, Stable Diffusion
 
 ## 一句话总结

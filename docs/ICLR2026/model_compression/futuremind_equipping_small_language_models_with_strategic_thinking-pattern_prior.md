@@ -1,9 +1,9 @@
 # FutureMind: Equipping Small Language Models with Strategic Thinking-Pattern Priors via Adaptive Knowledge Distillation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.01222](https://arxiv.org/abs/2602.01222)
-**代码**: 无
-**领域**: 知识蒸馏/RAG
+**会议**: ICLR 2026  
+**arXiv**: [2602.01222](https://arxiv.org/abs/2602.01222)  
+**代码**: 无  
+**领域**: 知识蒸馏/RAG  
 **关键词**: 小语言模型, 思维模式蒸馏, 检索策略, 多跳问答, 模块化推理
 
 ## 一句话总结

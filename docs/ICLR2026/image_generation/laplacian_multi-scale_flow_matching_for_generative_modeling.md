@@ -1,9 +1,9 @@
 # Laplacian Multi-scale Flow Matching for Generative Modeling
 
-**会议**: ICLR 2026
-**arXiv**: [2602.19461](https://arxiv.org/abs/2602.19461)
-**代码**: [GitHub](https://github.com/sjtuytc/gen)
-**领域**: 扩散模型 / Flow Matching
+**会议**: ICLR 2026  
+**arXiv**: [2602.19461](https://arxiv.org/abs/2602.19461)  
+**代码**: [GitHub](https://github.com/sjtuytc/gen)  
+**领域**: 扩散模型 / Flow Matching  
 **关键词**: 多尺度生成, Laplacian金字塔, Flow Matching, Mixture-of-Transformers, 因果注意力
 
 ## 一句话总结

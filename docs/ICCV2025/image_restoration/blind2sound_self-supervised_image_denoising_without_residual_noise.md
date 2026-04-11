@@ -1,10 +1,10 @@
 # Blind2Sound: Self-Supervised Image Denoising without Residual Noise
 
-**会议**: ICCV2025
-**arXiv**: [2303.05183](https://arxiv.org/abs/2303.05183)
+**会议**: ICCV2025  
+**arXiv**: [2303.05183](https://arxiv.org/abs/2303.05183)  
 **作者**: Zejin Wang, Jiazheng Liu, Hao Zhai, Hua Han（中国科学院自动化研究所）
-**代码**: 论文补充材料中提供
-**领域**: image_restoration
+**代码**: 论文补充材料中提供  
+**领域**: image_restoration  
 **关键词**: 自监督去噪, Poisson-Gaussian噪声, 盲去噪, 残余噪声消除, 噪声感知
 
 ## 一句话总结

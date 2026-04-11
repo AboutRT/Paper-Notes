@@ -1,9 +1,9 @@
 # U-MARVEL: Unveiling Key Factors for Universal Multimodal Retrieval via Embedding Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2507.14902](https://arxiv.org/abs/2507.14902)
-**代码**: [GitHub](https://github.com/chaxjli/U-MARVEL)
-**领域**: 多模态检索/嵌入学习
+**会议**: ICLR 2026  
+**arXiv**: [2507.14902](https://arxiv.org/abs/2507.14902)  
+**代码**: [GitHub](https://github.com/chaxjli/U-MARVEL)  
+**领域**: 多模态检索/嵌入学习  
 **关键词**: 通用多模态检索, MLLM嵌入, 对比学习, 渐进训练, 重排蒸馏, 硬负样本
 
 ## 一句话总结

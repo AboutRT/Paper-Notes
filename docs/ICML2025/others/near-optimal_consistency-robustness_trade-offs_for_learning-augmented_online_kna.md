@@ -1,9 +1,9 @@
 # Near-Optimal Consistency-Robustness Trade-Offs for Learning-Augmented Online Knapsack Problems
 
-**会议**: ICML2025
-**arXiv**: [2406.18752](https://arxiv.org/abs/2406.18752)
-**代码**: 无
-**领域**: 其他/在线算法
+**会议**: ICML2025  
+**arXiv**: [2406.18752](https://arxiv.org/abs/2406.18752)  
+**代码**: 无  
+**领域**: 其他/在线算法  
 **关键词**: 在线背包问题, learning-augmented算法, 竞争比, consistency-robustness权衡, 预测增强
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Geometric Representation Condition Improves Equivariant Molecule Generation
 
-**会议**: ICML 2025 (Spotlight)
-**arXiv**: [2410.03655](https://arxiv.org/abs/2410.03655)
-**代码**: https://github.com/GraphPKU/GeoRCG (有)
-**领域**: Medical Imaging (Molecular Generation)
+**会议**: ICML 2025 (Spotlight)  
+**arXiv**: [2410.03655](https://arxiv.org/abs/2410.03655)  
+**代码**: https://github.com/GraphPKU/GeoRCG (有)  
+**领域**: Medical Imaging (Molecular Generation)  
 **关键词**: 分子生成, 等变扩散, 几何表示条件, 两阶段生成, 条件分子生成
 
 ## 一句话总结

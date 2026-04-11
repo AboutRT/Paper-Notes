@@ -1,9 +1,9 @@
 # Democratic AI is Possible. The Democracy Levels Framework Shows How It Might Work
 
-**会议**: ICML2025
-**arXiv**: [2411.09222](https://arxiv.org/abs/2411.09222)
-**代码**: 无（立场论文/框架提案）
-**领域**: AI治理 / 民主化AI
+**会议**: ICML2025  
+**arXiv**: [2411.09222](https://arxiv.org/abs/2411.09222)  
+**代码**: 无（立场论文/框架提案）  
+**领域**: AI治理 / 民主化AI  
 **关键词**: democratic AI, participatory AI, pluralistic alignment, collective decision-making, AI governance
 
 ## 一句话总结

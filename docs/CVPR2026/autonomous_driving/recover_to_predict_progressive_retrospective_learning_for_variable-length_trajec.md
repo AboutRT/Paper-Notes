@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Recover to Predict: Progressive Retrospective Learning for Variable-Length Trajectory Prediction
 
-**会议**: CVPR2026
-**arXiv**: [2603.10597](https://arxiv.org/abs/2603.10597)
-**代码**: [zhouhao94/PRF](https://github.com/zhouhao94/PRF)
-**领域**: autonomous_driving
+**会议**: CVPR2026  
+**arXiv**: [2603.10597](https://arxiv.org/abs/2603.10597)  
+**代码**: [zhouhao94/PRF](https://github.com/zhouhao94/PRF)  
+**领域**: autonomous_driving  
 **关键词**: 轨迹预测, 变长观测, 渐进式回溯, 知识蒸馏, 自动驾驶
 
 ## 一句话总结

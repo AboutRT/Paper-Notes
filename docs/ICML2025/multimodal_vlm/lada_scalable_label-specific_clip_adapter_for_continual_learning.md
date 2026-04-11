@@ -1,9 +1,9 @@
 # LADA: Scalable Label-Specific CLIP Adapter for Continual Learning
 
-**会议**: ICML2025
-**arXiv**: [2505.23271](https://arxiv.org/abs/2505.23271)
-**代码**: [MaolinLuo/LADA](https://github.com/MaolinLuo/LADA)
-**领域**: CLIP持续学习 / 参数高效微调
+**会议**: ICML2025  
+**arXiv**: [2505.23271](https://arxiv.org/abs/2505.23271)  
+**代码**: [MaolinLuo/LADA](https://github.com/MaolinLuo/LADA)  
+**领域**: CLIP持续学习 / 参数高效微调  
 **关键词**: CLIP, 持续学习, Label-Specific Adapter, 特征蒸馏, 类增量学习, 跨域增量学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # DuoMo: Dual Motion Diffusion for World-Space Human Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.03265](https://arxiv.org/abs/2603.03265)
-**代码**: [项目页](https://yufu-wang.github.io/duomo/)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.03265](https://arxiv.org/abs/2603.03265)  
+**代码**: [项目页](https://yufu-wang.github.io/duomo/)  
+**领域**: 3D视觉  
 **关键词**: 人体运动重建, 扩散模型, 世界坐标系, 相机空间, 网格顶点
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Invariance Makes LLM Unlearning Resilient Even to Unanticipated Downstream Fine-Tuning
 
-**会议**: ICML2025
-**arXiv**: [2506.01339](https://arxiv.org/abs/2506.01339)
-**代码**: [OPTML-Group/Unlearn-ILU](https://github.com/OPTML-Group/Unlearn-ILU)
-**领域**: ai_safety / LLM遗忘
+**会议**: ICML2025  
+**arXiv**: [2506.01339](https://arxiv.org/abs/2506.01339)  
+**代码**: [OPTML-Group/Unlearn-ILU](https://github.com/OPTML-Group/Unlearn-ILU)  
+**领域**: ai_safety / LLM遗忘  
 **关键词**: LLM unlearning, 不变性正则化, IRM, 微调鲁棒性, 知识遗忘
 
 ## 一句话总结

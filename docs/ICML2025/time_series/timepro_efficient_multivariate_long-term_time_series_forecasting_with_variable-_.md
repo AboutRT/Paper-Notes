@@ -1,9 +1,9 @@
 # TimePro: Efficient Multivariate Long-term Time Series Forecasting with Variable- and Time-Aware Hyper-state
 
-**会议**: ICML 2025
-**arXiv**: [2505.20774](https://arxiv.org/abs/2505.20774)
-**代码**: [有](https://github.com/xwmaxwma/TimePro)
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2505.20774](https://arxiv.org/abs/2505.20774)  
+**代码**: [有](https://github.com/xwmaxwma/TimePro)  
+**领域**: 时间序列  
 **关键词**: 时间序列预测, Mamba, 状态空间模型, 多变量建模, 多延迟问题
 
 ## 一句话总结

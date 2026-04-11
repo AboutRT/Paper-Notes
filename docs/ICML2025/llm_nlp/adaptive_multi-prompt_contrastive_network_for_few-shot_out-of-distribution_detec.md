@@ -1,9 +1,9 @@
 # Adaptive Multi-prompt Contrastive Network for Few-shot Out-of-distribution Detection
 
-**会议**: ICML2025
-**arXiv**: [2506.17633](https://arxiv.org/abs/2506.17633)
-**代码**: GitHub（作者声明开源）
-**领域**: llm_nlp
+**会议**: ICML2025  
+**arXiv**: [2506.17633](https://arxiv.org/abs/2506.17633)  
+**代码**: GitHub（作者声明开源）  
+**领域**: llm_nlp  
 **关键词**: OOD检测, few-shot学习, prompt learning, CLIP, 对比学习, 自适应阈值
 
 ## 一句话总结

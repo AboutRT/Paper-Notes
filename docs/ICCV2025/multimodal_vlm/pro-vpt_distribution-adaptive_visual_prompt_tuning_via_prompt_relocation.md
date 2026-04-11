@@ -1,9 +1,9 @@
 # PRO-VPT: Distribution-Adaptive Visual Prompt Tuning via Prompt Relocation
 
-**会议**: ICCV 2025
-**arXiv**: [2503.06901](https://arxiv.org/abs/2503.06901)
-**代码**: https://github.com/ckshang/PRO-VPT
-**领域**: 多模态VLM
+**会议**: ICCV 2025  
+**arXiv**: [2503.06901](https://arxiv.org/abs/2503.06901)  
+**代码**: https://github.com/ckshang/PRO-VPT  
+**领域**: 多模态VLM  
 **关键词**: 视觉提示调优, 参数高效微调, 自适应分布优化, 提示重定位, 强化学习
 
 ## 一句话总结

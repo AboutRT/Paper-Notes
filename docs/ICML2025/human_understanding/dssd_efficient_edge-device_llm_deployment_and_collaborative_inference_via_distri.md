@@ -1,10 +1,10 @@
 # DSSD: Efficient Edge-Device LLM Deployment and Collaborative Inference via Distributed Split Speculative Decoding
 
-**会议**: ICML2025
-**arXiv**: [2507.12000](https://arxiv.org/abs/2507.12000)
+**会议**: ICML2025  
+**arXiv**: [2507.12000](https://arxiv.org/abs/2507.12000)  
 **作者**: Jiahong Ning, Ce Zheng, Tingting Yang
-**代码**: [JasonNing96/DSSD-Efficient-Edge-Computing](https://github.com/JasonNing96/DSSD-Efficient-Edge-Computing)
-**领域**: human_understanding
+**代码**: [JasonNing96/DSSD-Efficient-Edge-Computing](https://github.com/JasonNing96/DSSD-Efficient-Edge-Computing)  
+**领域**: human_understanding  
 **关键词**: 推测解码, 边缘计算, LLM部署, 设备-边缘协作, 通信优化, 分布式推理
 
 ## 一句话总结

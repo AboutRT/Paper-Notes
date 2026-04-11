@@ -1,9 +1,9 @@
 # CDFlow: Building Invertible Layers with Circulant and Diagonal Matrices
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25323](https://arxiv.org/abs/2510.25323)
-**代码**: 待确认
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25323](https://arxiv.org/abs/2510.25323)  
+**代码**: 待确认  
+**领域**: image_generation  
 **关键词**: 归一化流, 循环矩阵, 对角矩阵, 可逆线性层, 快速傅里叶变换, 密度估计
 
 ## 一句话总结

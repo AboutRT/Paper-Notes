@@ -1,9 +1,9 @@
 # FreeMotion: MoCap-Free Human Motion Synthesis with Multimodal Large Language Models
 
-**会议**: ECCV2024
-**arXiv**: [2406.10740](https://arxiv.org/abs/2406.10740)
-**代码**: 未开源
-**领域**: multimodal_vlm / human_motion
+**会议**: ECCV2024  
+**arXiv**: [2406.10740](https://arxiv.org/abs/2406.10740)  
+**代码**: 未开源  
+**领域**: multimodal_vlm / human_motion  
 **关键词**: 人体运动合成, 多模态大语言模型, 无动捕数据, 关键帧生成, 物理仿真, GPT-4V
 
 ## 一句话总结

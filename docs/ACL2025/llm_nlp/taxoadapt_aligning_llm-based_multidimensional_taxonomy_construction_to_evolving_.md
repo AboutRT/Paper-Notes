@@ -1,9 +1,9 @@
 # TaxoAdapt: Aligning LLM-Based Multidimensional Taxonomy Construction to Evolving Research Corpora
 
-**会议**: ACL2025
-**arXiv**: [2506.10737](https://arxiv.org/abs/2506.10737)
-**代码**: [pkargupta/taxoadapt](https://github.com/pkargupta/taxoadapt)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.10737](https://arxiv.org/abs/2506.10737)  
+**代码**: [pkargupta/taxoadapt](https://github.com/pkargupta/taxoadapt)  
+**领域**: llm_nlp  
 **关键词**: 自动分类体系构建, LLM对齐, 多维度分类, 层次文本分类, 科学文献组织
 
 ## 一句话总结

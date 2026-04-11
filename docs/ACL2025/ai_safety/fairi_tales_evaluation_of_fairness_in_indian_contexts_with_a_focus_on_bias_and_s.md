@@ -1,9 +1,9 @@
 # FairI Tales: Evaluation of Fairness in Indian Contexts with a Focus on Bias and Stereotypes
 
-**会议**: ACL 2025
-**arXiv**: [2506.23111](https://arxiv.org/abs/2506.23111)
-**代码**: [GitHub](https://github.com/AI4Bharat/indic-bias)
-**领域**: AI安全/公平性
+**会议**: ACL 2025  
+**arXiv**: [2506.23111](https://arxiv.org/abs/2506.23111)  
+**代码**: [GitHub](https://github.com/AI4Bharat/indic-bias)  
+**领域**: AI安全/公平性  
 **关键词**: fairness, bias, stereotypes, India, LLM evaluation, Indic-Bias
 
 ## 一句话总结

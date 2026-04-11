@@ -1,9 +1,9 @@
 # BELLE: A Bi-Level Multi-Agent Reasoning Framework for Multi-Hop Question Answering
 
-**会议**: ACL2025
-**arXiv**: [2505.11811](https://arxiv.org/abs/2505.11811)
-**代码**: 未公开
-**领域**: nlp_understanding
+**会议**: ACL2025  
+**arXiv**: [2505.11811](https://arxiv.org/abs/2505.11811)  
+**代码**: 未公开  
+**领域**: nlp_understanding  
 **关键词**: multi-hop QA, multi-agent debate, operator combination, question type classification, retrieval-augmented reasoning
 
 ## 一句话总结

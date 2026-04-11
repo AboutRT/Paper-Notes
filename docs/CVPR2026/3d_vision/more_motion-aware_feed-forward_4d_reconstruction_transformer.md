@@ -1,9 +1,9 @@
 # MoRe: Motion-aware Feed-forward 4D Reconstruction Transformer
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05078](https://arxiv.org/abs/2603.05078)
-**代码**: [项目页面](https://hellexf.github.io/MoRe/)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.05078](https://arxiv.org/abs/2603.05078)  
+**代码**: [项目页面](https://hellexf.github.io/MoRe/)  
+**领域**: 3D视觉  
 **关键词**: 4D重建, 动态场景, 注意力强制, 流式推理, 运动解耦
 
 ## 一句话总结

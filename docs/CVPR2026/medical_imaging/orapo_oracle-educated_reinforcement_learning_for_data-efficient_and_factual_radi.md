@@ -1,9 +1,9 @@
 # OraPO: Oracle-educated Reinforcement Learning for Data-efficient and Factual Radiology Report Generation
 
-**会议**: CVPR2026
-**arXiv**: [2509.18600](https://arxiv.org/abs/2509.18600)
-**代码**: 待确认
-**领域**: 医学图像
+**会议**: CVPR2026  
+**arXiv**: [2509.18600](https://arxiv.org/abs/2509.18600)  
+**代码**: 待确认  
+**领域**: 医学图像  
 **关键词**: 放射报告生成, GRPO, DPO, 强化学习, 数据高效, 临床事实评分
 
 ## 一句话总结

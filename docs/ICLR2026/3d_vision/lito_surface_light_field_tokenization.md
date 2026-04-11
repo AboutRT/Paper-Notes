@@ -1,9 +1,9 @@
 # LiTo: Surface Light Field Tokenization
 
-**会议**: ICLR 2026
-**arXiv**: [2603.11047](https://arxiv.org/abs/2603.11047)
-**代码**: 无(Apple内部)
-**领域**: 3D视觉/生成
+**会议**: ICLR 2026  
+**arXiv**: [2603.11047](https://arxiv.org/abs/2603.11047)  
+**代码**: 无(Apple内部)  
+**领域**: 3D视觉/生成  
 **关键词**: 表面光场, 3D latent表示, 视角依赖外观, Gaussian Splatting, flow matching
 
 ## 一句话总结

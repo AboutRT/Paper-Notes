@@ -1,9 +1,9 @@
 # DeepProofLog: Efficient Proving in Deep Stochastic Logic Programs
 
-**会议**: AAAI 2026
-**arXiv**: [2511.08581](https://arxiv.org/abs/2511.08581)
-**代码**: [DeepProofLog/DPrL-AAAI](https://github.com/DeepProofLog/DPrL-AAAI)
-**领域**: 强化学习
+**会议**: AAAI 2026  
+**arXiv**: [2511.08581](https://arxiv.org/abs/2511.08581)  
+**代码**: [DeepProofLog/DPrL-AAAI](https://github.com/DeepProofLog/DPrL-AAAI)  
+**领域**: 强化学习  
 **关键词**: 神经符号AI, 随机逻辑程序, 马尔可夫决策过程, 动态规划, 策略梯度
 
 ## 一句话总结

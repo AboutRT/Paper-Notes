@@ -1,9 +1,9 @@
 # Truly Self-Improving Agents Require Intrinsic Metacognitive Learning
 
-**会议**: ICML 2025
-**arXiv**: [2506.05109](https://arxiv.org/abs/2506.05109)
-**代码**: 无
-**领域**: Human Understanding
+**会议**: ICML 2025  
+**arXiv**: [2506.05109](https://arxiv.org/abs/2506.05109)  
+**代码**: 无  
+**领域**: Human Understanding  
 **关键词**: self-improving agents, metacognition, intrinsic learning, agent framework, scalability
 
 ## 一句话总结

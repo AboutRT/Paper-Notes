@@ -1,9 +1,9 @@
 # Efficient Optimization with Orthogonality Constraint: a Randomized Riemannian Submanifold Method
 
-**会议**: ICML2025
-**arXiv**: [2505.12378](https://arxiv.org/abs/2505.12378)
-**代码**: [andyjm3/RSDM](https://github.com/andyjm3/RSDM)
-**领域**: 其他/优化
+**会议**: ICML2025  
+**arXiv**: [2505.12378](https://arxiv.org/abs/2505.12378)  
+**代码**: [andyjm3/RSDM](https://github.com/andyjm3/RSDM)  
+**领域**: 其他/优化  
 **关键词**: 正交约束优化, Riemannian优化, Stiefel流形, 随机子流形, 坐标下降
 
 ## 一句话总结

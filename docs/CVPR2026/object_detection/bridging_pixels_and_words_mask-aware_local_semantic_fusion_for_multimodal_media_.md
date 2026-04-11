@@ -1,9 +1,9 @@
 # Bridging Pixels and Words: Mask-Aware Local Semantic Fusion for Multimodal Media Verification
 
-**会议**: CVPR 2026
-**arXiv**: [2603.26052](https://arxiv.org/abs/2603.26052)
-**代码**: 无
-**领域**: 多模态虚假信息检测 / 目标检测（媒体验证）
+**会议**: CVPR 2026  
+**arXiv**: [2603.26052](https://arxiv.org/abs/2603.26052)  
+**代码**: 无  
+**领域**: 多模态虚假信息检测 / 目标检测（媒体验证）  
 **关键词**: 多模态虚假信息, 双向跨模态验证, 掩码-标签对, 层级语义聚合, 深度伪造检测
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea**: 将多模态验证从"被动融合"转变为"主动审讯"——BCV 模块充当审讯者，HSA 模块充当推理引擎，层级化聚合多粒度冲突信号。
 
 ## 方法详解
+
 ### 整体框架
 输入图文 → Parser 提取掩码-标签对 $\{(\mathbf{M}_i, \mathbf{L}_i)\}$ → 编码为文本特征和多尺度视觉特征 → BCV 双向交叉验证 → HSA 层级聚合 → 分支化预测（二分类、操纵类型、图像定位、文本定位）。
 
@@ -55,6 +56,7 @@ $$\mathcal{L} = \mathcal{L}_{bcls} + \alpha \mathcal{L}_{mcls} + \beta \mathcal{
 - 其余均为交叉熵损失
 
 ## 实验关键数据
+
 ### 主实验（DGM4 数据集）
 | 方法 | AUC | ACC | mAP | IoU_mean | Text F1 | ΔAvg |
 |------|-----|-----|-----|----------|---------|------|

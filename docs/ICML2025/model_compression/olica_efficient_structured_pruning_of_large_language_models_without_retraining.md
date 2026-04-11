@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Olica: Efficient Structured Pruning of Large Language Models without Retraining
 
-**会议**: ICML2025
-**arXiv**: [2506.08436](https://arxiv.org/abs/2506.08436)
-**代码**: [BetterTMrR/LLM-Olica](https://github.com/BetterTMrR/LLM-Olica)
-**领域**: model_compression
+**会议**: ICML2025  
+**arXiv**: [2506.08436](https://arxiv.org/abs/2506.08436)  
+**代码**: [BetterTMrR/LLM-Olica](https://github.com/BetterTMrR/LLM-Olica)  
+**领域**: model_compression  
 **关键词**: 结构化剪枝, LLM压缩, 正交分解, 线性校准, 无需重训练, PCA, SVD
 
 ## 一句话总结

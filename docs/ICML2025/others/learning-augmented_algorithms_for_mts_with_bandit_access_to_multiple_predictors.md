@@ -1,9 +1,9 @@
 # Learning-Augmented Algorithms for MTS with Bandit Access to Multiple Predictors
 
-**会议**: ICML2025
-**arXiv**: [2506.05479](https://arxiv.org/abs/2506.05479)
-**代码**: 无
-**领域**: 其他/在线算法
+**会议**: ICML2025  
+**arXiv**: [2506.05479](https://arxiv.org/abs/2506.05479)  
+**代码**: 无  
+**领域**: 其他/在线算法  
 **关键词**: Metrical Task Systems, 学习增强算法, Bandit反馈, 启发式组合, 竞争比, Regret界
 
 ## 一句话总结

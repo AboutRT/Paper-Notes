@@ -1,9 +1,9 @@
 # The Emergence of Sparse Attention: Impact of Data Distribution and Benefits of Repetition
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.17863](https://arxiv.org/abs/2505.17863)
-**代码**: 无
-**领域**: LLM理论 / 涌现能力
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.17863](https://arxiv.org/abs/2505.17863)  
+**代码**: 无  
+**领域**: LLM理论 / 涌现能力  
 **关键词**: sparse attention, emergence, power law, repetition, learning dynamics
 
 ## 一句话总结

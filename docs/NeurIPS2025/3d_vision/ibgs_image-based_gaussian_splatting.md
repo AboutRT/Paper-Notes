@@ -1,9 +1,9 @@
 # IBGS: Image-Based Gaussian Splatting
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.14357](https://arxiv.org/abs/2511.14357)
-**代码**: [GitHub](https://hoangchuongnguyen.github.io/ibgs) (有)
-**领域**: 3D视觉 / 新视角合成
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.14357](https://arxiv.org/abs/2511.14357)  
+**代码**: [GitHub](https://hoangchuongnguyen.github.io/ibgs) (有)  
+**领域**: 3D视觉 / 新视角合成  
 **关键词**: 3D高斯泼溅, 新视角合成, 图像基渲染, 颜色残差, 视角依赖效果
 
 ## 一句话总结

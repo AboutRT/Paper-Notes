@@ -1,9 +1,9 @@
 # DeepSeq: High-Throughput Single-Cell RNA Sequencing Data Labeling via Web Search-Augmented Agentic Generative AI Foundation Models
 
-**会议**: ICML 2025
-**arXiv**: [2506.13817](https://arxiv.org/abs/2506.13817)
-**代码**: [有](https://github.com/saleemaldajani/deepseq)
-**领域**: 医学影像/生物信息学
+**会议**: ICML 2025  
+**arXiv**: [2506.13817](https://arxiv.org/abs/2506.13817)  
+**代码**: [有](https://github.com/saleemaldajani/deepseq)  
+**领域**: 医学影像/生物信息学  
 **关键词**: 单细胞RNA测序, 大语言模型, 细胞类型标注, Agentic AI, 基础模型
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off
 
-**会议**: ICML 2025
-**arXiv**: [2402.07002](https://arxiv.org/abs/2402.07002)
-**代码**: https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2402.07002](https://arxiv.org/abs/2402.07002)  
+**代码**: https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other  
+**领域**: AI安全  
 **关键词**: 联邦学习, 差分隐私, 效用-隐私权衡, 张量低秩, 语义互补
 
 ## 一句话总结

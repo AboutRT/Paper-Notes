@@ -1,9 +1,9 @@
 # Bounded Rationality for LLMs: Satisficing Alignment at Inference-Time
 
-**会议**: ICML 2025
-**arXiv**: [2505.23729](https://arxiv.org/abs/2505.23729)
-**代码**: 无
-**领域**: LLM对齐
+**会议**: ICML 2025  
+**arXiv**: [2505.23729](https://arxiv.org/abs/2505.23729)  
+**代码**: 无  
+**领域**: LLM对齐  
 **关键词**: 推理时对齐, 有界理性, 满意决策, 多目标对齐, 受控解码
 
 ## 一句话总结

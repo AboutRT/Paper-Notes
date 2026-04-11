@@ -1,9 +1,9 @@
 # Protein Counterfactuals via Diffusion-Guided Latent Optimization
 
-**会议**: ICLR 2026
-**arXiv**: [2603.10811](https://arxiv.org/abs/2603.10811)
-**代码**: [GitHub](https://github.com/weroks/mccop)
-**领域**: 蛋白质工程/可解释AI
+**会议**: ICLR 2026  
+**arXiv**: [2603.10811](https://arxiv.org/abs/2603.10811)  
+**代码**: [GitHub](https://github.com/weroks/mccop)  
+**领域**: 蛋白质工程/可解释AI  
 **关键词**: 反事实解释, 扩散先验, 蛋白质设计, 流形约束, 最小突变
 
 ## 一句话总结

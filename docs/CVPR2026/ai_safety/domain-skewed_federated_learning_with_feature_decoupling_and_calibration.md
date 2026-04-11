@@ -1,9 +1,9 @@
 # Domain-Skewed Federated Learning with Feature Decoupling and Calibration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.14238](https://arxiv.org/abs/2603.14238)
-**代码**: [GitHub](https://github.com/mala-lab/F2DC)
-**领域**: AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2603.14238](https://arxiv.org/abs/2603.14238)  
+**代码**: [GitHub](https://github.com/mala-lab/F2DC)  
+**领域**: AI安全  
 **关键词**: 联邦学习, 域偏移, 特征解耦, 域感知聚合, 表征校准
 
 ## 一句话总结

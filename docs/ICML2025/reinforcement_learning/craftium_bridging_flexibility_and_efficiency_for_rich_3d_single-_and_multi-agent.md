@@ -1,9 +1,9 @@
 # Craftium: An Extensible Framework for Creating Reinforcement Learning Environments
 
-**会议**: ICML 2025
-**arXiv**: [2407.03969](https://arxiv.org/abs/2407.03969)
-**代码**: https://github.com/mikelma/craftium/
-**领域**: Reinforcement Learning
+**会议**: ICML 2025  
+**arXiv**: [2407.03969](https://arxiv.org/abs/2407.03969)  
+**代码**: https://github.com/mikelma/craftium/  
+**领域**: Reinforcement Learning  
 **关键词**: RL环境, 3D环境, Minetest, Gymnasium, 环境创建框架
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents
 
-**会议**: ICCV 2025
-**arXiv**: [2411.13552](https://arxiv.org/abs/2411.13552)
-**代码**: [GitHub](https://github.com/microsoft/Reducio-VAE)
-**领域**: 图像生成 / 视频生成
+**会议**: ICCV 2025  
+**arXiv**: [2411.13552](https://arxiv.org/abs/2411.13552)  
+**代码**: [GitHub](https://github.com/microsoft/Reducio-VAE)  
+**领域**: 图像生成 / 视频生成  
 **关键词**: 视频生成, 运动潜变量, 视频VAE, 极端压缩, DiT, 高效推理
 
 ## 一句话总结

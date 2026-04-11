@@ -1,9 +1,9 @@
 # Deliberation on Priors: Trustworthy Reasoning of LLMs on Knowledge Graphs
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.15210](https://arxiv.org/abs/2505.15210)
-**代码**: https://github.com/mira-ai-lab/Deliberation-on-Priors
-**领域**: 图学习 / 知识图谱问答
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.15210](https://arxiv.org/abs/2505.15210)  
+**代码**: https://github.com/mira-ai-lab/Deliberation-on-Priors  
+**领域**: 图学习 / 知识图谱问答  
 **关键词**: KGQA, 约束推理, 知识蒸馏, KTO偏好优化, 内省回溯
 
 ## 一句话总结

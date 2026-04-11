@@ -1,9 +1,9 @@
 # L2D: Large Language Models to Diffusion Finetuning
 
-**会议**: ICML2025
-**arXiv**: [2501.15781](https://arxiv.org/abs/2501.15781)
-**代码**: 待确认
-**领域**: self_supervised
+**会议**: ICML2025  
+**arXiv**: [2501.15781](https://arxiv.org/abs/2501.15781)  
+**代码**: 待确认  
+**领域**: self_supervised  
 **关键词**: LLM微调, 扩散框架, 测试时计算, 引导技术, 自回归+扩散
 
 ## 一句话总结

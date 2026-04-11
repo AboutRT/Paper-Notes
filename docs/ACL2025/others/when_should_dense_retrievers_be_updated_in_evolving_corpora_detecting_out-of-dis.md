@@ -1,9 +1,9 @@
 # When Should Dense Retrievers Be Updated in Evolving Corpora? Detecting Out-of-Distribution Corpora Using GradNormIR
 
-**会议**: ACL 2025
-**arXiv**: [2506.01877](https://arxiv.org/abs/2506.01877)
-**代码**: 有 (https://github.com/dayoon-ko/gradnormir)
-**领域**: NLP / 信息检索
+**会议**: ACL 2025  
+**arXiv**: [2506.01877](https://arxiv.org/abs/2506.01877)  
+**代码**: 有 (https://github.com/dayoon-ko/gradnormir)  
+**领域**: NLP / 信息检索  
 **关键词**: 稠密检索, OOD检测, 梯度范数, 语料库演化, 检索更新
 
 ## 一句话总结

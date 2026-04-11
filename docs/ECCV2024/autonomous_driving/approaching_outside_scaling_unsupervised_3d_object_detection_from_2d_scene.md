@@ -1,9 +1,9 @@
 # Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene
 
-**会议**: ECCV2024
-**arXiv**: [2407.08569](https://arxiv.org/abs/2407.08569)
-**代码**: [GitHub](https://github.com/Ruiyang-061X/LiSe)
-**领域**: autonomous_driving
+**会议**: ECCV2024  
+**arXiv**: [2407.08569](https://arxiv.org/abs/2407.08569)  
+**代码**: [GitHub](https://github.com/Ruiyang-061X/LiSe)  
+**领域**: autonomous_driving  
 **关键词**: Unsupervised 3D Object Detection, LiDAR-Camera Fusion, Self-paced Learning, Pseudo Labels
 
 ## 一句话总结

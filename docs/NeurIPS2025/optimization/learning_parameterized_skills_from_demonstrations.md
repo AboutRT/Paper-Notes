@@ -1,9 +1,9 @@
 # Learning Parameterized Skills from Demonstrations
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.24095](https://arxiv.org/abs/2510.24095)
-**代码**: [GitHub](https://github.com/guptbot/DEPS) (有)
-**领域**: Optimization (机器人学习/技能发现)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.24095](https://arxiv.org/abs/2510.24095)  
+**代码**: [GitHub](https://github.com/guptbot/DEPS) (有)  
+**领域**: Optimization (机器人学习/技能发现)  
 **关键词**: 参数化技能, 示范学习, 层次策略, 变分推断, 机器人操作
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Editing Physiological Signals in Videos Using Latent Representations
 
-**会议**: CVPR 2026
-**arXiv**: [2509.25348](https://arxiv.org/abs/2509.25348)
-**代码**: 有
-**领域**: AI安全 / 隐私保护
+**会议**: CVPR 2026  
+**arXiv**: [2509.25348](https://arxiv.org/abs/2509.25348)  
+**代码**: 有  
+**领域**: AI安全 / 隐私保护  
 **关键词**: 心率编辑, rPPG隐私, 视频生理信号, 3D VAE, 生物特征匿名化
 
 ## 一句话总结

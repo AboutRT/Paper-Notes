@@ -1,9 +1,9 @@
 # CNNSum: Exploring Long-Context Summarization with Large Language Models in Chinese Novels
 
-**会议**: ACL 2025
-**arXiv**: [2412.02819](https://arxiv.org/abs/2412.02819)
-**代码**: [GitHub](https://github.com/CxsGhost/CNNSum)
-**领域**: llm_efficiency
+**会议**: ACL 2025  
+**arXiv**: [2412.02819](https://arxiv.org/abs/2412.02819)  
+**代码**: [GitHub](https://github.com/CxsGhost/CNNSum)  
+**领域**: llm_efficiency  
 **关键词**: long-context summarization, Chinese novels, benchmark, LLM evaluation, RoPE extrapolation
 
 ## 一句话总结

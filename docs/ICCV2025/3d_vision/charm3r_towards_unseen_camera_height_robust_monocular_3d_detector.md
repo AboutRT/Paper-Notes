@@ -1,9 +1,9 @@
 # CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector
 
-**会议**: ICCV 2025
-**arXiv**: [2508.11185](https://arxiv.org/abs/2508.11185)
-**代码**: [有](https://github.com/abhi1kumar/CHARM3R)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2508.11185](https://arxiv.org/abs/2508.11185)  
+**代码**: [有](https://github.com/abhi1kumar/CHARM3R)  
+**领域**: 3D视觉  
 **关键词**: 单目3D检测, 相机高度鲁棒性, 深度估计外推, 地平面深度, 自动驾驶
 
 ## 一句话总结

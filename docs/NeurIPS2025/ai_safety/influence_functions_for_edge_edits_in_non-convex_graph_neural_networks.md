@@ -1,9 +1,9 @@
 # Influence Functions for Edge Edits in Non-Convex Graph Neural Networks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.04694](https://arxiv.org/abs/2506.04694)
-**代码**: 无
-**领域**: 图神经网络 / AI安全
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.04694](https://arxiv.org/abs/2506.04694)  
+**代码**: 无  
+**领域**: 图神经网络 / AI安全  
 **关键词**: 影响函数, 图神经网络, 边编辑, 非凸优化, 图重连
 
 ## 一句话总结

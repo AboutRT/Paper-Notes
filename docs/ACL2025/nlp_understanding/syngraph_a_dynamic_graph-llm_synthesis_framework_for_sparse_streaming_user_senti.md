@@ -1,10 +1,10 @@
 # SynGraph: A Dynamic Graph-LLM Synthesis Framework for Sparse Streaming User Sentiment Analysis
 
-**会议**: ACL 2025
-**arXiv**: [2503.04619](https://arxiv.org/abs/2503.04619)
+**会议**: ACL 2025  
+**arXiv**: [2503.04619](https://arxiv.org/abs/2503.04619)  
 **作者**: Xin Zhang (Manchester), Qiyu Wei (Manchester), Yingjie Zhu (HIT), Linhai Zhang (KCL), Deyu Zhou (SEU), Sophia Ananiadou (Manchester)
-**代码**: 未公开
-**领域**: nlp_understanding
+**代码**: 未公开  
+**领域**: nlp_understanding  
 **关键词**: 流式情感分析, 数据稀疏, 动态图, LLM数据增强, 用户建模
 
 ## 一句话总结

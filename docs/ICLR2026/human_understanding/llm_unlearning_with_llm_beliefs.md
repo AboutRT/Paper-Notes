@@ -1,9 +1,9 @@
 # LLM Unlearning with LLM Beliefs
 
-**会议**: ICLR 2026
-**arXiv**: [2510.19422](https://arxiv.org/abs/2510.19422)
-**代码**: [OpenUnlearning](https://github.com/locuslab/openunlearning)
-**领域**: AI安全/遗忘学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.19422](https://arxiv.org/abs/2510.19422)  
+**代码**: [OpenUnlearning](https://github.com/locuslab/openunlearning)  
+**领域**: AI安全/遗忘学习  
 **关键词**: LLM遗忘, 梯度上升, 挤压效应, Bootstrapping, 模型信念
 
 ## 一句话总结

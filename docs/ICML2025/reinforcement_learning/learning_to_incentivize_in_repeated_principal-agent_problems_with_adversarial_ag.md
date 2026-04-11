@@ -1,9 +1,9 @@
 # Learning to Incentivize in Repeated Principal-Agent Problems with Adversarial Agent Arrivals
 
-**会议**: ICML2025
-**arXiv**: [2505.23124](https://arxiv.org/abs/2505.23124)
-**代码**: 无
-**领域**: reinforcement_learning / 博弈论
+**会议**: ICML2025  
+**arXiv**: [2505.23124](https://arxiv.org/abs/2505.23124)  
+**代码**: 无  
+**领域**: reinforcement_learning / 博弈论  
 **关键词**: principal-agent, adversarial bandits, incentive design, regret bounds, mechanism design
 
 ## 一句话总结

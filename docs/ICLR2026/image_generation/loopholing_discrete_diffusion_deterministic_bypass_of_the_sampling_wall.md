@@ -1,9 +1,9 @@
 # Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall
 
-**会议**: ICLR 2026
-**arXiv**: [2510.19304](https://arxiv.org/abs/2510.19304)
-**代码**: [GitHub](https://github.com/ahn-ml/lddm)
-**领域**: 离散扩散模型 / 文本生成
+**会议**: ICLR 2026  
+**arXiv**: [2510.19304](https://arxiv.org/abs/2510.19304)  
+**代码**: [GitHub](https://github.com/ahn-ml/lddm)  
+**领域**: 离散扩散模型 / 文本生成  
 **关键词**: 离散扩散, 采样壁, 确定性旁路, 自条件化, 非自回归文本生成
 
 ## 一句话总结

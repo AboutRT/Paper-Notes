@@ -1,9 +1,9 @@
 # AutoPP: Towards Automated Product Poster Generation and Optimization
 
-**会议**: AAAI2026
-**arXiv**: [2512.21921](https://arxiv.org/abs/2512.21921)
-**代码**: [JD-GenX/AutoPP](https://github.com/JD-GenX/AutoPP)
-**领域**: recommender
+**会议**: AAAI2026  
+**arXiv**: [2512.21921](https://arxiv.org/abs/2512.21921)  
+**代码**: [JD-GenX/AutoPP](https://github.com/JD-GenX/AutoPP)  
+**领域**: recommender  
 **关键词**: product poster generation, CTR optimization, diffusion model, DPO, multimodal generation
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2501.11110](https://arxiv.org/abs/2501.11110)
-**代码**: https://github.com/microsoft/CoR (有)
-**领域**: LLM推理 / 数学推理
+**会议**: ACL 2025  
+**arXiv**: [2501.11110](https://arxiv.org/abs/2501.11110)  
+**代码**: https://github.com/microsoft/CoR (有)  
+**领域**: LLM推理 / 数学推理  
 **关键词**: 数学推理, 多范式推理, 自然语言推理, 符号推理, 定理证明
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Comparing Uniform Price and Discriminatory Multi-Unit Auctions through Regret Minimization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19591](https://arxiv.org/abs/2510.19591)
-**代码**: 待确认
-**领域**: reinforcement_learning
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19591](https://arxiv.org/abs/2510.19591)  
+**代码**: 待确认  
+**领域**: reinforcement_learning  
 **关键词**: 多物品拍卖, 在线学习, 遗憾最小化, 统一价格拍卖, 歧视性拍卖
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # any4: Learned 4-bit Numeric Representation for LLMs
 
-**会议**: ICML 2025
-**arXiv**: [2507.04610](https://arxiv.org/abs/2507.04610)
-**代码**: https://github.com/facebookresearch/any4
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2507.04610](https://arxiv.org/abs/2507.04610)  
+**代码**: https://github.com/facebookresearch/any4  
+**领域**: 模型压缩  
 **关键词**: 量化, 4-bit, LLM推理, 非均匀量化, 查找表
 
 ## 一句话总结

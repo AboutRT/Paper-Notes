@@ -1,9 +1,9 @@
 # ERL-VLM: Enhancing Rating-Based RL to Leverage Feedback from Large VLMs
 
-**会议**: ICML2025
-**arXiv**: [2506.12822](https://arxiv.org/abs/2506.12822)
-**代码**: [tunglm2203/erlvlm](https://github.com/tunglm2203/erlvlm)
-**领域**: 多模态RL / VLM反馈驱动的奖励学习
+**会议**: ICML2025  
+**arXiv**: [2506.12822](https://arxiv.org/abs/2506.12822)  
+**代码**: [tunglm2203/erlvlm](https://github.com/tunglm2203/erlvlm)  
+**领域**: 多模态RL / VLM反馈驱动的奖励学习  
 **关键词**: RLHF, Rating-based RL, VLM Feedback, Reward Learning, AI Feedback
 
 ## 一句话总结

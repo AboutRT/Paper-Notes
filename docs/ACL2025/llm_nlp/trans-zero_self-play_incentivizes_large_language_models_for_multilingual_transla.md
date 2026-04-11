@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Trans-Zero: Self-Play Incentivizes Large Language Models for Multilingual Translation
 
-**会议**: ACL2025
-**arXiv**: [2504.14669](https://arxiv.org/abs/2504.14669)
-**代码**: [NJUNLP/trans0](https://github.com/NJUNLP/trans0)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2504.14669](https://arxiv.org/abs/2504.14669)  
+**代码**: [NJUNLP/trans0](https://github.com/NJUNLP/trans0)  
+**领域**: llm_nlp  
 **关键词**: 多语言翻译, 自博弈, Monte-Carlo Tree Search, 偏好优化, 无平行数据
 
 ## 一句话总结

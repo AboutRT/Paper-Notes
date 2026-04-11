@@ -1,10 +1,10 @@
 # Hierarchical Safety Realignment: Lightweight Restoration of Safety in Pruned Large Vision-Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2505.16104](https://arxiv.org/abs/2505.16104)
+**会议**: ACL 2025  
+**arXiv**: [2505.16104](https://arxiv.org/abs/2505.16104)  
 **作者**: Yue Li, Xin Yi, Dongsheng Shi, Gerard de Melo, Xiaoling Wang, Linlin Wang (华东师范大学, HPI/波茨坦大学)
-**代码**: [TheShineyue/HSR](https://github.com/TheShineyue/HSR)
-**领域**: multimodal_vlm
+**代码**: [TheShineyue/HSR](https://github.com/TheShineyue/HSR)  
+**领域**: multimodal_vlm  
 **关键词**: 模型剪枝, 安全对齐, 大视觉语言模型, 注意力头, 神经元恢复
 
 ## 一句话总结

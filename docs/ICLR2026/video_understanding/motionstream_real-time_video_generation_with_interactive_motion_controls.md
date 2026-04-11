@@ -1,9 +1,9 @@
 # MotionStream: Real-Time Video Generation with Interactive Motion Controls
 
-**会议**: ICLR 2026
-**arXiv**: [2511.01266](https://arxiv.org/abs/2511.01266)
-**代码**: 无
-**领域**: 视频生成
+**会议**: ICLR 2026  
+**arXiv**: [2511.01266](https://arxiv.org/abs/2511.01266)  
+**代码**: 无  
+**领域**: 视频生成  
 **关键词**: 实时视频生成, 运动控制, 流式推理, 因果蒸馏, 注意力沉降
 
 ## 一句话总结

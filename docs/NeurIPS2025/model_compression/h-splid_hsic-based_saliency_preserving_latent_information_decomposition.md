@@ -1,9 +1,9 @@
 # H-SPLID: HSIC-based Saliency Preserving Latent Information Decomposition
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20627](https://arxiv.org/abs/2510.20627)
-**代码**: [GitHub](https://github.com/neu-spiral/H-SPLID)
-**领域**: 表示学习 / 鲁棒性
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20627](https://arxiv.org/abs/2510.20627)  
+**代码**: [GitHub](https://github.com/neu-spiral/H-SPLID)  
+**领域**: 表示学习 / 鲁棒性  
 **关键词**: 显著性特征学习, 潜空间分解, HSIC, 对抗鲁棒性, 维度压缩
 
 ## 一句话总结

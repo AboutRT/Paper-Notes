@@ -1,10 +1,10 @@
 # Morse: Dual-Sampling for Lossless Acceleration of Diffusion Models
 
-**会议**: ICML2025
-**arXiv**: [2506.18251](https://arxiv.org/abs/2506.18251)
-**代码**: [deep-optimization/Morse](https://github.com/deep-optimization/Morse)
+**会议**: ICML2025  
+**arXiv**: [2506.18251](https://arxiv.org/abs/2506.18251)  
+**代码**: [deep-optimization/Morse](https://github.com/deep-optimization/Morse)  
 **作者**: Chao Li, Jiawei Fan, Anbang Yao
-**领域**: image_generation
+**领域**: image_generation  
 **关键词**: 扩散模型加速, 双采样框架, 残差反馈, 跳步采样, 无损加速
 
 ## 一句话总结

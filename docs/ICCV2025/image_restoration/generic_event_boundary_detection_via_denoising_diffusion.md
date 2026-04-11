@@ -1,9 +1,9 @@
 # Generic Event Boundary Detection via Denoising Diffusion (DiffGEBD)
 
-**会议**: ICCV 2025
-**arXiv**: [2508.12084](https://arxiv.org/abs/2508.12084)
-**代码**: https://cvlab.postech.ac.kr/research/DiffGEBD
-**领域**: 视频理解 / 事件边界检测
+**会议**: ICCV 2025  
+**arXiv**: [2508.12084](https://arxiv.org/abs/2508.12084)  
+**代码**: https://cvlab.postech.ac.kr/research/DiffGEBD  
+**领域**: 视频理解 / 事件边界检测  
 **关键词**: 通用事件边界检测, 扩散模型, Classifier-Free Guidance, 多样性评估, 时序自相似性
 
 ## 一句话总结

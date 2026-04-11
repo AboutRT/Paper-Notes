@@ -1,9 +1,9 @@
 # Capacity Matters: A Proof-of-Concept for Transformer Memorization on Real-World Data
 
-**会议**: ACL 2025 (L2M2 Workshop)
-**arXiv**: [2506.14704](https://arxiv.org/abs/2506.14704)
-**代码**: [有](https://github.com/um-dacs-nlp/capacity/)
-**领域**: NLP / Transformer理论
+**会议**: ACL 2025 (L2M2 Workshop)  
+**arXiv**: [2506.14704](https://arxiv.org/abs/2506.14704)  
+**代码**: [有](https://github.com/um-dacs-nlp/capacity/)  
+**领域**: NLP / Transformer理论  
 **关键词**: Transformer记忆容量, 知识图谱, 嵌入维度, 激活函数, 边缘部署
 
 ## 一句话总结

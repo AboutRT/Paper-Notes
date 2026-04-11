@@ -1,9 +1,9 @@
 # IF-GUIDE: Influence Function-Guided Detoxification of LLMs
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.01790](https://arxiv.org/abs/2506.01790)
-**代码**: [GitHub](https://github.com/ztcoalson/IF-Guide)
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.01790](https://arxiv.org/abs/2506.01790)  
+**代码**: [GitHub](https://github.com/ztcoalson/IF-Guide)  
+**领域**: llm_alignment  
 **关键词**: LLM去毒化, 影响函数, 训练数据归因, token级抑制, 主动安全
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Slow-Fast Policy Optimization: Reposition-Before-Update for LLM Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2510.04072](https://arxiv.org/abs/2510.04072)
-**代码**: [slow-fast-po.github.io](https://slow-fast-po.github.io/)
-**领域**: 模型压缩 / 高效训练
+**会议**: ICLR 2026  
+**arXiv**: [2510.04072](https://arxiv.org/abs/2510.04072)  
+**代码**: [slow-fast-po.github.io](https://slow-fast-po.github.io/)  
+**领域**: 模型压缩 / 高效训练  
 **关键词**: 强化学习, GRPO, 策略优化, 数学推理, 样本效率
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Beyond Semantics: Disentangling Information Scope in Sparse Autoencoders for CLIP
 
-**会议**: CVPR 2026
-**arXiv**: [2604.05724](https://arxiv.org/abs/2604.05724)
-**代码**: 无
-**领域**: 模型压缩/可解释性
+**会议**: CVPR 2026  
+**arXiv**: [2604.05724](https://arxiv.org/abs/2604.05724)  
+**代码**: 无  
+**领域**: 模型压缩/可解释性  
 **关键词**: 稀疏自编码器, CLIP, 信息范围, 上下文依赖性, outlier token
 
 ## 一句话总结
@@ -16,6 +16,7 @@
 4. **核心idea**：利用上下文偏移下的空间稳定性差异，量化每个SAE特征的"信息范围"——是聚合局部证据还是全局证据。
 
 ## 方法详解
+
 ### 整体框架
 输入图像 → Shifted Context Cropping生成两个重叠裁剪 → ViT编码 → SAE解码得到每个特征的空间激活图 → 计算两个裁剪间激活图的EMD距离 → 平均得到CDS
 
@@ -42,6 +43,7 @@
 - 三个任务：ImageNet分类、ADE20K语义分割、NYUd深度估计
 
 ## 实验关键数据
+
 ### 主实验（特征组移除 → 线性探针性能）
 | 模型 | 嵌入类型 | ImageNet Top-1↑ | ADE20K mIoU↑ | NYUd RMSE↓ |
 |------|---------|----------------|-------------|-----------|

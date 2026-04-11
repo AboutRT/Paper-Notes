@@ -1,9 +1,9 @@
 # Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.15188](https://arxiv.org/abs/2509.15188)
-**代码**: 未开源
-**领域**: 文本生成 / 扩散语言模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.15188](https://arxiv.org/abs/2509.15188)  
+**代码**: 未开源  
+**领域**: 文本生成 / 扩散语言模型  
 **关键词**: diffusion language model, convolutional decoding normalization, rejective fine-tuning, semi-autoregressive, time-gap expansion
 
 ## 一句话总结

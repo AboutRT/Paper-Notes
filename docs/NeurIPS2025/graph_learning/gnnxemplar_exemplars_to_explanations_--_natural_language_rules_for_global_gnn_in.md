@@ -1,9 +1,9 @@
 # GnnXemplar: Exemplars to Explanations -- Natural Language Rules for Global GNN Interpretability
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.18376](https://arxiv.org/abs/2509.18376)
-**代码**: [GitHub](https://github.com/idea-iitd/GnnXemplar.git) (有)
-**领域**: Graph Learning / GNN Interpretability
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.18376](https://arxiv.org/abs/2509.18376)  
+**代码**: [GitHub](https://github.com/idea-iitd/GnnXemplar.git) (有)  
+**领域**: Graph Learning / GNN Interpretability  
 **关键词**: 图神经网络可解释性, 全局解释, 样例理论, 自然语言规则, 覆盖最大化
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CLIP-Free, Label-Free, Unsupervised Concept Bottleneck Models
 
-**会议**: CVPR2026
-**arXiv**: [2503.10981](https://arxiv.org/abs/2503.10981)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2503.10981](https://arxiv.org/abs/2503.10981)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: Concept Bottleneck Model, 可解释性, 知识蒸馏, 无监督分类, 视觉-语言对齐, 零样本图像描述
 
 ## 一句话总结

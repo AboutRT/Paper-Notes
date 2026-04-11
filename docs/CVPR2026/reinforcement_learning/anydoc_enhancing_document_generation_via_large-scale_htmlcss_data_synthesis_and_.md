@@ -1,9 +1,9 @@
 # AnyDoc: Enhancing Document Generation via Large-Scale HTML/CSS Data Synthesis and Height-Aware Reinforcement Optimization
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25118](https://arxiv.org/abs/2603.25118)
-**代码**: 无
-**领域**: Reinforcement Learning / Document Generation
+**会议**: CVPR 2026  
+**arXiv**: [2603.25118](https://arxiv.org/abs/2603.25118)  
+**代码**: 无  
+**领域**: Reinforcement Learning / Document Generation  
 **关键词**: 文档生成, HTML/CSS, 数据合成, 强化学习, 多模态大模型
 
 ## 一句话总结
@@ -22,6 +22,7 @@ AnyDoc 提出了一个基于统一 HTML/CSS 表示的通用文档生成框架，
 5. **核心 idea**：HTML/CSS 统一表示 + 自动化数据合成管线 + HARL 解决溢出问题 = 通用高质文档生成。
 
 ## 方法详解
+
 ### 整体框架
 1. 数据合成管线（5 阶段）→ DocHTML 数据集（265K 文档，111 类，32 风格）
 2. SFT 微调多模态大模型 → 三个生成任务
@@ -56,6 +57,7 @@ AnyDoc 提出了一个基于统一 HTML/CSS 表示的通用文档生成框架，
 - 选择 SFT 推理中溢出最严重的 20K 样本作为 HARL 训练集
 
 ## 实验关键数据
+
 ### 主实验（I2D 意图→文档）
 | 方法 | Layout | Image | Typography | Content | Height↓ | Intention |
 |------|--------|-------|------------|---------|---------|-----------|

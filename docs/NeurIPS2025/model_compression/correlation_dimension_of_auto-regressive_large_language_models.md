@@ -1,9 +1,9 @@
 # Correlation Dimension of Auto-Regressive Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21258](https://arxiv.org/abs/2510.21258)
-**代码**: 无
-**领域**: model_compression
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21258](https://arxiv.org/abs/2510.21258)  
+**代码**: 无  
+**领域**: model_compression  
 **关键词**: 相关维数, 分形几何, 语言模型评估, 自回归模型, 文本复杂度
 
 ## 一句话总结

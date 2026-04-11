@@ -1,9 +1,9 @@
 # Far from the Shallow: Brain-Predictive Reasoning Embedding through Residual Disentanglement
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.22860](https://arxiv.org/abs/2510.22860)
-**代码**: 有（论文注脚链接）
-**领域**: 脑科学 / 语言编码模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.22860](https://arxiv.org/abs/2510.22860)  
+**代码**: 有（论文注脚链接）  
+**领域**: 脑科学 / 语言编码模型  
 **关键词**: 脑编码, LLM 对齐, 残差解纠缠, ECoG, 推理表征, 语言层级
 
 ## 一句话总结

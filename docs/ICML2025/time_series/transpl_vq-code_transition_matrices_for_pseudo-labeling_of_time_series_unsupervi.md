@@ -1,9 +1,9 @@
 # TransPL: VQ-Code Transition Matrices for Pseudo-Labeling of Time Series Unsupervised Domain Adaptation
 
-**会议**: ICML 2025
-**arXiv**: [2505.09955](https://arxiv.org/abs/2505.09955)
-**代码**: [有](https://github.com/eai-lab/TransPL)
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2505.09955](https://arxiv.org/abs/2505.09955)  
+**代码**: [有](https://github.com/eai-lab/TransPL)  
+**领域**: 时间序列  
 **关键词**: 无监督域适应, 伪标签, 向量量化, 转移矩阵, 最优传输
 
 ## 一句话总结

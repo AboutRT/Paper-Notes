@@ -1,9 +1,9 @@
 # Multimodal Dataset Distillation Made Simple by Prototype-Guided Data Synthesis
 
-**会议**: ICLR 2026
-**arXiv**: [2602.19756](https://arxiv.org/abs/2602.19756)
-**代码**: [GitHub](https://github.com/junhyeok9712/PDS)
-**领域**: 多模态学习/数据蒸馏
+**会议**: ICLR 2026  
+**arXiv**: [2602.19756](https://arxiv.org/abs/2602.19756)  
+**代码**: [GitHub](https://github.com/junhyeok9712/PDS)  
+**领域**: 多模态学习/数据蒸馏  
 **关键词**: 多模态蒸馏, CLIP, unCLIP, 原型, 免训练
 
 ## 一句话总结

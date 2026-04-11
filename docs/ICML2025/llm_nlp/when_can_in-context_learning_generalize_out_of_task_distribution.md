@@ -1,9 +1,9 @@
 # When Can In-Context Learning Generalize Out of Task Distribution?
 
-**会议**: ICML2025
-**arXiv**: [2506.05574](https://arxiv.org/abs/2506.05574)
-**代码**: [GitHub](https://github.com/cwgoddard/OOD_ICL)
-**领域**: LLM/NLP
+**会议**: ICML2025  
+**arXiv**: [2506.05574](https://arxiv.org/abs/2506.05574)  
+**代码**: [GitHub](https://github.com/cwgoddard/OOD_ICL)  
+**领域**: LLM/NLP  
 **关键词**: in-context learning, out-of-distribution generalization, task diversity, phase transition, linear regression, transformer, specialization
 
 ## 一句话总结

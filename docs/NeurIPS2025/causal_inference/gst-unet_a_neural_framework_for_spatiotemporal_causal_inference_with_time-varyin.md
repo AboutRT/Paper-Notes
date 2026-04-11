@@ -1,9 +1,9 @@
 # GST-UNet: A Neural Framework for Spatiotemporal Causal Inference with Time-Varying Confounding
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.05295](https://arxiv.org/abs/2502.05295)
-**代码**: [moprescu/GSTUNet](https://github.com/moprescu/GSTUNet)
-**领域**: causal_inference
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.05295](https://arxiv.org/abs/2502.05295)  
+**代码**: [moprescu/GSTUNet](https://github.com/moprescu/GSTUNet)  
+**领域**: causal_inference  
 **关键词**: 时空因果推断, G-computation, UNet, 时变混杂, 潜在结果
 
 ## 一句话总结
@@ -22,6 +22,7 @@
 6. **核心 idea 一句话**: 学一个时不变的历史嵌入 ϕ(H₁:t, At)，使得条件于该嵌入后转移分布与时间无关，从而将单轨迹切分为可交换的前缀片段，再用迭代 G-computation 递归地消除时变混杂
 
 ## 方法详解
+
 ### 整体框架
 1. **数据结构**: NX×NY 空间网格上每个位置 s 在每个时刻 t 有 (Xs,t, As,t, Ys,t)，加上静态特征 Vs。目标是估计给定历史 H₁:t 和干预序列 a_{t:t+τ-1} 下的 CAPO: E[Y_{t+τ}[a] | H₁:t]
 2. **前缀构造**: 从长度 T 的单条轨迹中，对每个 t ∈ {1,...,T-τ} 提取前缀 P_t^τ = (X_{1:t+τ}, A_{1:t+τ}, Y_{1:t+τ}, V)，获得 T-τ 个重叠但非独立的训练片段
@@ -57,6 +58,7 @@ $$\mathcal{L}(\theta; e) = \frac{1}{\tau} \sum_{k=1}^{\tau} \alpha_k^{(e)} \math
 - **动机**: 防止早期 Q_τ 不准确时，其伪结果误导前面的 G-head 过拟合噪声
 
 ## 实验关键数据
+
 ### 合成实验：RMSE（τ=5, 不同混杂强度 β₁）
 | 方法 | β₁=0.0 | β₁=0.5 | β₁=1.0 | β₁=1.5 | β₁=2.0 |
 |------|--------|--------|--------|--------|--------|

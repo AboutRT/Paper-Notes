@@ -1,9 +1,9 @@
 # Group then Scale: Dynamic Mixture-of-Experts Multilingual Language Model
 
-**会议**: ACL 2025
-**arXiv**: [2506.12388](https://arxiv.org/abs/2506.12388)
-**代码**: [GitHub](https://github.com/ZNLP/DMoE)
-**领域**: LLM效率/多语言
+**会议**: ACL 2025  
+**arXiv**: [2506.12388](https://arxiv.org/abs/2506.12388)  
+**代码**: [GitHub](https://github.com/ZNLP/DMoE)  
+**领域**: LLM效率/多语言  
 **关键词**: multilingual LLM, mixture of experts, curse of multilinguality, language grouping, parameter deviation
 
 ## 一句话总结

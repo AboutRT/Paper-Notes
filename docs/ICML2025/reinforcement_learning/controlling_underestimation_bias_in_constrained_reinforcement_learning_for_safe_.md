@@ -1,9 +1,9 @@
 # Controlling Underestimation Bias in Constrained Reinforcement Learning for Safe Exploration
 
-**会议**: ICML 2025
-**arXiv**: [2601.11953](https://arxiv.org/abs/2601.11953)
-**代码**: https://github.com/ShiqingGao/MICE
-**领域**: 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2601.11953](https://arxiv.org/abs/2601.11953)  
+**代码**: https://github.com/ShiqingGao/MICE  
+**领域**: 强化学习  
 **关键词**: 约束强化学习, 安全探索, 低估偏差, 内在代价, 闪光灯记忆
 
 ## 一句话总结

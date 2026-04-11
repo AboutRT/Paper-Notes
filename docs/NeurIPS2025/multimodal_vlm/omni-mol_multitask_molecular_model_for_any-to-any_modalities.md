@@ -1,10 +1,10 @@
 # Omni-Mol: Multitask Molecular Model for Any-to-Any Modalities
 
-**会议**: NeurIPS2025
-**arXiv**: [2502.01074](https://arxiv.org/abs/2502.01074)
+**会议**: NeurIPS2025  
+**arXiv**: [2502.01074](https://arxiv.org/abs/2502.01074)  
 **作者**: Chengxin Hu, Hao Li, Yihe Yuan, Zezheng Song, Chenyang Zhao, Haixin Wang (NUS, UMD, UCLA)
-**代码**: [Omni-Mol-Code](https://github.com/)
-**领域**: multimodal_vlm
+**代码**: [Omni-Mol-Code](https://github.com/)  
+**领域**: multimodal_vlm  
 **关键词**: 分子大语言模型, 多任务学习, 混合专家, 自适应LoRA, 统一指令微调
 
 ## 一句话总结

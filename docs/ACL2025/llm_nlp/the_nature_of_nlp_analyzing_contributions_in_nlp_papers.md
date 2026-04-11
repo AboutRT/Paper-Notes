@@ -1,9 +1,9 @@
 # The Nature of NLP: Analyzing Contributions in NLP Papers
 
-**会议**: ACL2025
-**arXiv**: [2409.19505](https://arxiv.org/abs/2409.19505)
-**代码**: [UKPLab/acl25-nlp-contributions](https://github.com/UKPLab/acl25-nlp-contributions)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2409.19505](https://arxiv.org/abs/2409.19505)  
+**代码**: [UKPLab/acl25-nlp-contributions](https://github.com/UKPLab/acl25-nlp-contributions)  
+**领域**: llm_nlp  
 **关键词**: NLP scientometrics, 贡献分类, 研究趋势分析, 多标签分类, SciBERT
 
 ## 一句话总结

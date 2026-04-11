@@ -1,9 +1,9 @@
 # Camera Height Doesn't Change: Unsupervised Training for Metric Monocular Road-Scene Depth Estimation
 
-**会议**: ECCV 2024
-**arXiv**: [2312.04530](https://arxiv.org/abs/2312.04530)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: ECCV 2024  
+**arXiv**: [2312.04530](https://arxiv.org/abs/2312.04530)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 单目深度估计, 度量尺度, 自监督学习, 相机高度不变性, 车辆尺寸先验
 
 ## 一句话总结

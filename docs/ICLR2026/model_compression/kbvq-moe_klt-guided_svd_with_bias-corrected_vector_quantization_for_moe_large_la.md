@@ -1,9 +1,9 @@
 # KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.11184](https://arxiv.org/abs/2602.11184)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2602.11184](https://arxiv.org/abs/2602.11184)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: MoE量化, 向量量化, KLT变换, SVD冗余消除, 偏差校正
 
 ## 一句话总结

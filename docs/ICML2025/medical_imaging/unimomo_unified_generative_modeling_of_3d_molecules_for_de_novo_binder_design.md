@@ -1,9 +1,9 @@
 # UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design
 
-**会议**: ICML2025
-**arXiv**: [2503.19300](https://arxiv.org/abs/2503.19300)
-**代码**: 无
-**领域**: 生物分子设计 / 药物发现
+**会议**: ICML2025  
+**arXiv**: [2503.19300](https://arxiv.org/abs/2503.19300)  
+**代码**: 无  
+**领域**: 生物分子设计 / 药物发现  
 **关键词**: 统一分子生成, 小分子, 肽, 抗体, 几何潜空间扩散, 自编码器, 构建块表示
 
 ## 一句话总结
@@ -78,6 +78,7 @@
 - 抗体：~5K 抗原-抗体结构
 - 小分子：CrossDocked2020 数据集
 - 统一训练利用了约 13K+ 跨域样本
+
 ## 局限性 / 可改进方向
 
 - 未经实验室湿实验验证，仅依赖计算指标（如 Vina Score）。

@@ -1,9 +1,9 @@
 # Scaling Up Active Testing to Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2508.09093](https://arxiv.org/abs/2508.09093)
-**代码**: [GitHub](https://github.com/gabrielleberrada/scaling-up-active-testing)
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.09093](https://arxiv.org/abs/2508.09093)  
+**代码**: [GitHub](https://github.com/gabrielleberrada/scaling-up-active-testing)  
+**领域**: llm_nlp  
 **关键词**: active testing, LLM evaluation, risk estimation, surrogate model, label efficiency
 
 ## 一句话总结

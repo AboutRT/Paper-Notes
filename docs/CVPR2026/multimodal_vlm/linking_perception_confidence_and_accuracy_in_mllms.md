@@ -1,9 +1,9 @@
 # Linking Perception, Confidence and Accuracy in MLLMs
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12149](https://arxiv.org/abs/2603.12149)
-**代码**: https://github.com/anotherbricki/CA-TTS (有)
-**领域**: 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.12149](https://arxiv.org/abs/2603.12149)  
+**代码**: https://github.com/anotherbricki/CA-TTS (有)  
+**领域**: 强化学习  
 **关键词**: 多模态大模型, 置信度校准, 强化学习, 测试时缩放, 视觉感知
 
 ## 一句话总结

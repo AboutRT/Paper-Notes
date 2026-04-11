@@ -1,9 +1,9 @@
 # Generative Distribution Embeddings: Lifting Autoencoders to the Space of Distributions for Multiscale Representation Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.18150](https://arxiv.org/abs/2505.18150)
-**代码**: 有 (GitHub)
-**领域**: 医学图像
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.18150](https://arxiv.org/abs/2505.18150)  
+**代码**: 有 (GitHub)  
+**领域**: 医学图像  
 **关键词**: 分布嵌入, 自编码器, Wasserstein空间, 多尺度表示, 计算生物学
 
 ## 一句话总结

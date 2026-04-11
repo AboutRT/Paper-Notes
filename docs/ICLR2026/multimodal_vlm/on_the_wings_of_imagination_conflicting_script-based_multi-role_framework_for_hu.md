@@ -1,9 +1,9 @@
 # On the Wings of Imagination: Conflicting Script-based Multi-role Framework for Humor Caption Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.06423](https://arxiv.org/abs/2602.06423)
-**代码**: 无
-**领域**: 多模态VLM/幽默生成
+**会议**: ICLR 2026  
+**arXiv**: [2602.06423](https://arxiv.org/abs/2602.06423)  
+**代码**: 无  
+**领域**: 多模态VLM/幽默生成  
 **关键词**: 幽默生成, GTVH理论, 脚本对立, 想象树, LLM协作, 多角色框架
 
 ## 一句话总结

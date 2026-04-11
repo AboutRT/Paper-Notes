@@ -1,9 +1,9 @@
 # DyCodeEval: Dynamic Benchmarking of Reasoning in Code LLMs Under Data Contamination
 
-**会议**: ICML2025
-**arXiv**: [2503.04149](https://arxiv.org/abs/2503.04149)
-**代码**: [项目页](https://codekaleidoscope.github.io/dycodeeval.html)
-**领域**: llm_nlp
+**会议**: ICML2025  
+**arXiv**: [2503.04149](https://arxiv.org/abs/2503.04149)  
+**代码**: [项目页](https://codekaleidoscope.github.io/dycodeeval.html)  
+**领域**: llm_nlp  
 **关键词**: 代码LLM评估, 数据污染, 动态基准, 蜕变测试, 语义等价
 
 ## 一句话总结

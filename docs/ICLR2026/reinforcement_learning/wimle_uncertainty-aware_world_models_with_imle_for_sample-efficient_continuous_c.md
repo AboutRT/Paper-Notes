@@ -1,9 +1,9 @@
 # WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control
 
-**会议**: ICLR 2026
-**arXiv**: [2602.14351](https://arxiv.org/abs/2602.14351)
-**代码**: 无（Apex Lab, SFU）
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.14351](https://arxiv.org/abs/2602.14351)  
+**代码**: 无（Apex Lab, SFU）  
+**领域**: 强化学习  
 **关键词**: model-based RL, IMLE, 不确定性估计, 多模态世界模型, 样本效率, 连续控制
 
 ## 一句话总结

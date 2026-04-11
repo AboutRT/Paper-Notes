@@ -1,9 +1,9 @@
 # Action-Constrained Imitation Learning
 
-**会议**: ICML2025
-**arXiv**: [2508.14379](https://arxiv.org/abs/2508.14379)
-**代码**: [GitHub - ACRL-Baselines](https://github.com/NYCU-RL-Bandits-Lab/ACRL-Baselines)
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2508.14379](https://arxiv.org/abs/2508.14379)  
+**代码**: [GitHub - ACRL-Baselines](https://github.com/NYCU-RL-Bandits-Lab/ACRL-Baselines)  
+**领域**: reinforcement_learning  
 **关键词**: 模仿学习, 动作约束, 动态时间规整, 轨迹对齐, MPC
 
 ## 一句话总结

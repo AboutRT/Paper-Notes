@@ -1,9 +1,9 @@
 # ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference
 
-**会议**: ICLR 2026
-**arXiv**: [2511.10645](https://arxiv.org/abs/2511.10645)
-**代码**: [项目页](https://paroquant.z-lab.ai)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2511.10645](https://arxiv.org/abs/2511.10645)  
+**代码**: [项目页](https://paroquant.z-lab.ai)  
+**领域**: 模型压缩  
 **关键词**: 后训练量化, Givens旋转, 推理LLM, 量化效率, 算法-系统协同设计
 
 ## 一句话总结

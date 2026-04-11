@@ -20,6 +20,7 @@
 如何在广角视频的少样本动作识别中，有效缓解背景干扰导致的主体突出不足和时序关系退化问题？
 
 ## 方法详解
+
 ### 整体框架
 Otter 基于 RWKV-5/6 架构，包含三个核心单元（Spatial Mixing、Time Mixing、Channel Mixing）和两个主要模块。输入 $N$-way $K$-shot 的 support 和 query 视频，每个视频均匀采样 $F=8$ 帧。
 

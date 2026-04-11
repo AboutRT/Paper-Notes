@@ -1,9 +1,9 @@
 # Constrained Particle Seeking: Solving Diffusion Inverse Problems with Just Forward Passes
 
-**会议**: AAAI 2026
-**arXiv**: [2603.01837](https://arxiv.org/abs/2603.01837)
-**代码**: [GitHub](https://github.com/deng-ai-lab/CPS)
-**领域**: 扩散模型 / 反问题求解
+**会议**: AAAI 2026  
+**arXiv**: [2603.01837](https://arxiv.org/abs/2603.01837)  
+**代码**: [GitHub](https://github.com/deng-ai-lab/CPS)  
+**领域**: 扩散模型 / 反问题求解  
 **关键词**: 扩散模型, 反问题, 无梯度方法, 粒子优化, 约束优化
 
 ## 一句话总结

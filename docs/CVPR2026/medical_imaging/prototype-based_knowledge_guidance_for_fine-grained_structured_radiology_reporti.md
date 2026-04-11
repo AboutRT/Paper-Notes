@@ -1,9 +1,9 @@
 # Prototype-Based Knowledge Guidance for Fine-Grained Structured Radiology Reporting
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11938](https://arxiv.org/abs/2603.11938)
-**代码**: 待发布（论文承诺 acceptance 后公开）
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.11938](https://arxiv.org/abs/2603.11938)  
+**代码**: 待发布（论文承诺 acceptance 后公开）  
+**领域**: 医学图像  
 **关键词**: 结构化放射学报告、原型学习、知识蒸馏、VQA、胸部X光
 
 ## 一句话总结

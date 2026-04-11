@@ -1,9 +1,9 @@
 # D3: Training-Free AI-Generated Video Detection Using Second-Order Features
 
-**会议**: ICCV 2025
-**arXiv**: [2508.00701](https://arxiv.org/abs/2508.00701)
-**代码**: [https://github.com/Zig-HS/D3](https://github.com/Zig-HS/D3)
-**领域**: 视频理解 / AI 生成内容检测 / 视频取证
+**会议**: ICCV 2025  
+**arXiv**: [2508.00701](https://arxiv.org/abs/2508.00701)  
+**代码**: [https://github.com/Zig-HS/D3](https://github.com/Zig-HS/D3)  
+**领域**: 视频理解 / AI 生成内容检测 / 视频取证  
 **关键词**: AI-generated video detection, training-free, second-order features, temporal artifacts, Newtonian mechanics, optical flow
 
 ## 一句话总结

@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 其他  
 **关键词**: multi-armed-bandit, housing-market, matching, online-learning, game-theory  
+
 ## 一句话总结
 
 本文首次将多臂老虎机（MAB）框架引入住房市场（单边匹配市场），定义了基于核（core）概念的遗憾值，并分别提出去中心化 ETC 和中心化 UCB 两种算法，证明了 $\mathcal{O}(N\log T / \Delta_{\min}^2)$ 的去中心化遗憾上界与匹配的下界，建立了阶最优性。

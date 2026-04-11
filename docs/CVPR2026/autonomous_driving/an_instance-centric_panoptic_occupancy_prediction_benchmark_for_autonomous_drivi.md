@@ -1,9 +1,9 @@
 # An Instance-Centric Panoptic Occupancy Prediction Benchmark for Autonomous Driving
 
-**会议**: CVPR 2026
-**arXiv**: [2603.27238](https://arxiv.org/abs/2603.27238)
-**代码**: https://mias.group/CarlaOcc (有)
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.27238](https://arxiv.org/abs/2603.27238)  
+**代码**: https://mias.group/CarlaOcc (有)  
+**领域**: 自动驾驶  
 **关键词**: 全景占据预测, 3D Mesh库, CARLA仿真, 实例级标注, 占据数据集质量
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model
 
-**会议**: ECCV 2024
-**arXiv**: [2403.05034](https://arxiv.org/abs/2403.05034)
-**代码**: 有 (https://github.com/thu-ml/CRM)
-**领域**: 3D视觉
+**会议**: ECCV 2024  
+**arXiv**: [2403.05034](https://arxiv.org/abs/2403.05034)  
+**代码**: 有 (https://github.com/thu-ml/CRM)  
+**领域**: 3D视觉  
 **关键词**: 单图3D生成, 卷积重建, Triplane, FlexiCubes, 多视角扩散
 
 ## 一句话总结

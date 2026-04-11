@@ -1,9 +1,9 @@
 # Exploration via Feature Perturbation in Contextual Bandits
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17390](https://arxiv.org/abs/2510.17390)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17390](https://arxiv.org/abs/2510.17390)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: contextual bandits, feature perturbation, generalized linear bandits, regret bound, exploration
 
 ## 一句话总结

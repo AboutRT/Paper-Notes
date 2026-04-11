@@ -1,9 +1,9 @@
 # SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability
 
-**会议**: ICML2025
-**arXiv**: [2503.09532](https://arxiv.org/abs/2503.09532)
-**代码**: [github.com/adamkarvonen/SAEBench](https://github.com/adamkarvonen/SAEBench)
-**领域**: SAE基准 / 可解释性评估
+**会议**: ICML2025  
+**arXiv**: [2503.09532](https://arxiv.org/abs/2503.09532)  
+**代码**: [github.com/adamkarvonen/SAEBench](https://github.com/adamkarvonen/SAEBench)  
+**领域**: SAE基准 / 可解释性评估  
 **关键词**: Sparse Autoencoder, Benchmark, Interpretability, Feature Disentanglement, Mechanistic Interpretability
 
 ## 一句话总结

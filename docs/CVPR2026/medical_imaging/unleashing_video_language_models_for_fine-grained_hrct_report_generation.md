@@ -1,6 +1,6 @@
 # Unleashing Video Language Models for Fine-grained HRCT Report Generation
 
-**会议**: CVPR 2026 &nbsp; **arXiv**: [2603.12469](https://arxiv.org/abs/2603.12469) 
+**会议**: CVPR 2026 &nbsp; **arXiv**: [2603.12469](https://arxiv.org/abs/2603.12469)  
 **arXiv**: [2603.12469](https://arxiv.org/abs/2603.12469)  
 **代码**: 无  
 **领域**: 医学图像  

@@ -1,9 +1,9 @@
 # Solving Zero-Sum Convex Markov Games
 
-**会议**: ICML 2025
-**arXiv**: [2506.16120](https://arxiv.org/abs/2506.16120)
-**代码**: 无
-**领域**: 强化学习 / 博弈论
+**会议**: ICML 2025  
+**arXiv**: [2506.16120](https://arxiv.org/abs/2506.16120)  
+**代码**: 无  
+**领域**: 强化学习 / 博弈论  
 **关键词**: convex Markov games, Nash equilibrium, policy gradient, hidden convexity, nonconvex-pPL
 
 ## 一句话总结

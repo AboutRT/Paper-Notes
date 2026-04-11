@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Physics-Guided Machine Learning for Uncertainty Quantification in Turbulence Models
 
-**会议**: NEURIPS2025
-**arXiv**: [2511.05633](https://arxiv.org/abs/2511.05633)
-**代码**: 待确认
-**领域**: scientific_computing
+**会议**: NEURIPS2025  
+**arXiv**: [2511.05633](https://arxiv.org/abs/2511.05633)  
+**代码**: 待确认  
+**领域**: scientific_computing  
 **关键词**: turbulence modeling, uncertainty quantification, CNN, eigenspace perturbation, RANS, physics-guided ML
 
 ## 一句话总结

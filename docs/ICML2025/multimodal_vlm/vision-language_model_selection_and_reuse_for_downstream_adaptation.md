@@ -1,9 +1,9 @@
 # Vision-Language Model Selection and Reuse for Downstream Adaptation
 
-**会议**: ICML 2025
-**arXiv**: [2501.18271](https://arxiv.org/abs/2501.18271)
-**代码**: 未公开
-**领域**: VLM 模型选择, 模型复用, 零样本视觉任务
+**会议**: ICML 2025  
+**arXiv**: [2501.18271](https://arxiv.org/abs/2501.18271)  
+**代码**: 未公开  
+**领域**: VLM 模型选择, 模型复用, 零样本视觉任务  
 **关键词**: Model Selection, VLM, Model Hub, Semantic Graph, Ensemble, 模型标签学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Learning Sparse Approximate Inverse Preconditioners for Conjugate Gradient Solvers on GPUs
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.27517](https://arxiv.org/abs/2510.27517)
-**代码**: 无
-**领域**: Optimization
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.27517](https://arxiv.org/abs/2510.27517)  
+**代码**: 无  
+**领域**: Optimization  
 **关键词**: 预条件子, 共轭梯度法, 图神经网络, GPU加速, 稀疏近似逆
 
 ## 一句话总结

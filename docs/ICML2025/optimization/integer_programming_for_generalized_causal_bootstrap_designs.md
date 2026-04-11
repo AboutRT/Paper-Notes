@@ -1,9 +1,9 @@
 # Integer Programming for Generalized Causal Bootstrap Designs
 
-**会议**: ICML2025
-**arXiv**: [2410.21464](https://arxiv.org/abs/2410.21464)
-**代码**: 未公开（文中提及开源求解器）
-**领域**: 优化 / 因果推断 / 实验设计
+**会议**: ICML2025  
+**arXiv**: [2410.21464](https://arxiv.org/abs/2410.21464)  
+**代码**: 未公开（文中提及开源求解器）  
+**领域**: 优化 / 因果推断 / 实验设计  
 **关键词**: 因果 bootstrap, 整数规划, 设计不确定性, 方差上界, 最不利 copula, 有限总体推断
 
 ## 一句话总结

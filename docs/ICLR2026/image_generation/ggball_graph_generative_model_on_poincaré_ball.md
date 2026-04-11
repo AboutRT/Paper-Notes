@@ -1,9 +1,9 @@
 # GGBall: Graph Generative Model on Poincaré Ball
 
-**会议**: ICLR 2026
-**arXiv**: [2506.07198](https://arxiv.org/abs/2506.07198)
-**代码**: [GitHub](https://github.com/AI4Science-WestlakeU/GGBall)
-**领域**: 图生成 / 双曲几何
+**会议**: ICLR 2026  
+**arXiv**: [2506.07198](https://arxiv.org/abs/2506.07198)  
+**代码**: [GitHub](https://github.com/AI4Science-WestlakeU/GGBall)  
+**领域**: 图生成 / 双曲几何  
 **关键词**: 双曲空间, 图生成, Poincaré球模型, 向量量化, Flow Matching
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Step-Aware Residual-Guided Diffusion for EEG Spatial Super-Resolution
 
-**会议**: ICLR 2026
-**arXiv**: [2510.19166](https://arxiv.org/abs/2510.19166)
-**代码**: [GitHub](https://github.com/DhrLhj/ICLR2026SRGDiff)
-**领域**: 扩散模型 / 脑电信号 / 超分辨率
+**会议**: ICLR 2026  
+**arXiv**: [2510.19166](https://arxiv.org/abs/2510.19166)  
+**代码**: [GitHub](https://github.com/DhrLhj/ICLR2026SRGDiff)  
+**领域**: 扩散模型 / 脑电信号 / 超分辨率  
 **关键词**: EEG超分辨率, 残差引导扩散, 步感知调制, 脑机接口, 条件生成
 
 ## 一句话总结

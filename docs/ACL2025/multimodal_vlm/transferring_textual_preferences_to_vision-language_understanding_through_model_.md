@@ -1,10 +1,10 @@
 # Transferring Textual Preferences to Vision-Language Understanding through Model Merging
 
-**会议**: ACL 2025
-**arXiv**: [2502.13487](https://arxiv.org/abs/2502.13487)
+**会议**: ACL 2025  
+**arXiv**: [2502.13487](https://arxiv.org/abs/2502.13487)  
 **作者**: Chen-An Li, Tzu-Han Lin, Yun-Nung Chen, Hung-yi Lee (National Taiwan University)
-**代码**: [GitHub](https://github.com/lca0503/MergeToVLRM)
-**领域**: multimodal_vlm
+**代码**: [GitHub](https://github.com/lca0503/MergeToVLRM)  
+**领域**: multimodal_vlm  
 **关键词**: 模型合并, 视觉语言奖励模型, 偏好迁移, 免训练, RLHF
 
 ## 一句话总结

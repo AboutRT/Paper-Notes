@@ -1,9 +1,9 @@
 # Learning Invariant Causal Mechanism from Vision-Language Models
 
-**会议**: ICML2025
-**arXiv**: [2405.15289](https://arxiv.org/abs/2405.15289)
-**代码**: [GitHub](https://github.com/ZeenSong/CLIP-ICM)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2405.15289](https://arxiv.org/abs/2405.15289)  
+**代码**: [GitHub](https://github.com/ZeenSong/CLIP-ICM)  
+**领域**: multimodal_vlm  
 **关键词**: CLIP, OOD generalization, causal inference, invariant representation, linear projection
 
 ## 一句话总结

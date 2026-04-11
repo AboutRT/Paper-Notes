@@ -1,9 +1,9 @@
 # RAEmoLLM: Retrieval Augmented LLMs for Cross-Domain Misinformation Detection Using In-Context Learning Based on Emotional Information
 
-**会议**: ACL2025
-**arXiv**: [2406.11093](https://arxiv.org/abs/2406.11093)
-**代码**: [lzw108/RAEmoLLM](https://github.com/lzw108/RAEmoLLM)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2406.11093](https://arxiv.org/abs/2406.11093)  
+**代码**: [lzw108/RAEmoLLM](https://github.com/lzw108/RAEmoLLM)  
+**领域**: llm_nlp  
 **关键词**: 跨域虚假信息检测, 检索增强生成, 情感信息, 上下文学习, 少样本学习
 
 ## 一句话总结

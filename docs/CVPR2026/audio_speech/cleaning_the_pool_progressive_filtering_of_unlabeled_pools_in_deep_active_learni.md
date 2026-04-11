@@ -1,9 +1,9 @@
 # Cleaning the Pool: Progressive Filtering of Unlabeled Pools in Deep Active Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2511.22344](https://arxiv.org/abs/2511.22344)
-**代码**: [GitHub](https://github.com/dhuseljic/dal-toolbox) (有)
-**领域**: Audio/Speech (主动学习)
+**会议**: CVPR 2026  
+**arXiv**: [2511.22344](https://arxiv.org/abs/2511.22344)  
+**代码**: [GitHub](https://github.com/dhuseljic/dal-toolbox) (有)  
+**领域**: Audio/Speech (主动学习)  
 **关键词**: 主动学习, 集成策略, 渐进过滤, 基础模型, 覆盖选择
 
 ## 一句话总结

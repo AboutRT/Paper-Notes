@@ -1,9 +1,9 @@
 # Improving the Trade-off Between Watermark Strength and Speculative Sampling Efficiency for Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.01428](https://arxiv.org/abs/2602.01428)
-**代码**: https://github.com/hwq0726/watermark-tradeoff
-**领域**: AI安全 / LLM水印
+**会议**: ICLR 2026  
+**arXiv**: [2602.01428](https://arxiv.org/abs/2602.01428)  
+**代码**: https://github.com/hwq0726/watermark-tradeoff  
+**领域**: AI安全 / LLM水印  
 **关键词**: watermarking, speculative sampling, KL散度, Pareto优化, 伪随机接受
 
 ## 一句话总结

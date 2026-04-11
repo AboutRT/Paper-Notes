@@ -1,9 +1,9 @@
 # On Entropy Control in LLM-RL Algorithms
 
-**会议**: ICLR 2026
-**arXiv**: [2509.03493](https://arxiv.org/abs/2509.03493)
-**代码**: 无
-**领域**: LLM训练/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2509.03493](https://arxiv.org/abs/2509.03493)  
+**代码**: 无  
+**领域**: LLM训练/强化学习  
 **关键词**: 熵控制, RLVR, LLM-RL, 策略优化, 探索-利用
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13394](https://arxiv.org/abs/2510.13394)
-**代码**: [项目页面](https://spatial-dise.github.io)
-**领域**: 多模态评测/空间推理
+**会议**: ICLR 2026  
+**arXiv**: [2510.13394](https://arxiv.org/abs/2510.13394)  
+**代码**: [项目页面](https://spatial-dise.github.io)  
+**领域**: 多模态评测/空间推理  
 **关键词**: 空间推理基准, 认知分类法, 动态推理, 心理旋转, Blender生成
 
 ## 一句话总结

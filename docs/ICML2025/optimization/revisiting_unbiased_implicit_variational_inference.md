@@ -1,9 +1,9 @@
 # Revisiting Unbiased Implicit Variational Inference
 
-**会议**: ICML2025
-**arXiv**: [2506.03839](https://arxiv.org/abs/2506.03839)
-**代码**: 待确认
-**领域**: 变分推断 / 优化
+**会议**: ICML2025  
+**arXiv**: [2506.03839](https://arxiv.org/abs/2506.03839)  
+**代码**: 待确认  
+**领域**: 变分推断 / 优化  
 **关键词**: 半隐式变分推断, 重要性采样, 条件归一化流, 路径梯度估计器, score gradient
 
 ## 一句话总结

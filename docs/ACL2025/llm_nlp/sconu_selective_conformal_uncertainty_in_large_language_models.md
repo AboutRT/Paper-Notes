@@ -1,9 +1,9 @@
 # SConU: Selective Conformal Uncertainty in Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2504.14154](https://arxiv.org/abs/2504.14154)
-**代码**: [GitHub](https://github.com/Zhiyuan-GG/SConU)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2504.14154](https://arxiv.org/abs/2504.14154)  
+**代码**: [GitHub](https://github.com/Zhiyuan-GG/SConU)  
+**领域**: llm_nlp  
 **关键词**: conformal prediction, uncertainty quantification, LLM reliability, outlier detection, coverage guarantee
 
 ## 一句话总结

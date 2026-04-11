@@ -1,9 +1,9 @@
 # Sparse-Pivot: Dynamic Correlation Clustering for Node Insertions
 
-**会议**: ICML2025
-**arXiv**: [2507.01830](https://arxiv.org/abs/2507.01830)
-**代码**: 未公开
-**领域**: 其他/图聚类
+**会议**: ICML2025  
+**arXiv**: [2507.01830](https://arxiv.org/abs/2507.01830)  
+**代码**: 未公开  
+**领域**: 其他/图聚类  
 **关键词**: Correlation Clustering, 动态图算法, 节点插入, 次线性更新时间, 近似算法
 
 ## 一句话总结

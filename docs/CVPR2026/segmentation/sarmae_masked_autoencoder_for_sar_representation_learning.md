@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SARMAE: Masked Autoencoder for SAR Representation Learning
 
-**会议**: CVPR2026
-**arXiv**: [2512.16635](https://arxiv.org/abs/2512.16635)
-**代码**: [SARMAE](https://github.com/SARMAE/SARMAE)
-**领域**: 语义分割 / SAR表征学习
+**会议**: CVPR2026  
+**arXiv**: [2512.16635](https://arxiv.org/abs/2512.16635)  
+**代码**: [SARMAE](https://github.com/SARMAE/SARMAE)  
+**领域**: 语义分割 / SAR表征学习  
 **关键词**: SAR, 自监督预训练, Masked Autoencoder, 散斑噪声, 光学-SAR对齐, 遥感
 
 ## 一句话总结

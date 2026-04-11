@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 图像恢复  
 **关键词**: aberration-correction, benchmark, optical-degradation, computational-imaging, lens-design  
+
 ## 一句话总结
 
 构建首个面向消费级相机的通用计算像差校正基准 UniCAC，提出光学退化评估器 ODE 量化像差难度，系统评测 24 种图像恢复/CAC 方法，揭示影响 CAC 性能的三大关键因素。

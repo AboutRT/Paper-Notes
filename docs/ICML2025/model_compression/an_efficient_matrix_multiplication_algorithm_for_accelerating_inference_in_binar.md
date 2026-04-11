@@ -1,9 +1,9 @@
 # An Efficient Matrix Multiplication Algorithm for Accelerating Inference in Binary and Ternary Neural Networks
 
-**会议**: ICML 2025
-**arXiv**: [2411.06360](https://arxiv.org/abs/2411.06360)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2411.06360](https://arxiv.org/abs/2411.06360)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 二值/三值网络, 矩阵乘法, 推理加速, 对数因子改进, 1.58-bit LLM
 
 ## 一句话总结

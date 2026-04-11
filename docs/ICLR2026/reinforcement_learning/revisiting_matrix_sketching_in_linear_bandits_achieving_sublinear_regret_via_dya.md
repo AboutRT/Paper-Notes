@@ -1,10 +1,10 @@
 # Revisiting Matrix Sketching in Linear Bandits: Achieving Sublinear Regret via Dyadic Block Sketching
 
-**会议**: ICLR 2026
-**arXiv**: [2410.10258](https://arxiv.org/abs/2410.10258)
+**会议**: ICLR 2026  
+**arXiv**: [2410.10258](https://arxiv.org/abs/2410.10258)  
 **作者**: Dongxie Wen, Hanyan Yin, Xiao Zhang, Peng Zhao, Lijun Zhang, Zhewei Wei (人民大学 & 南京大学)
-**代码**: 无
-**领域**: 强化学习 / 在线学习 / Bandit
+**代码**: 无  
+**领域**: 强化学习 / 在线学习 / Bandit  
 **关键词**: 线性Bandit, 矩阵草图, Frequent Directions, 多尺度草图, 次线性遗憾, Dyadic Block Sketching
 
 ## 一句话总结

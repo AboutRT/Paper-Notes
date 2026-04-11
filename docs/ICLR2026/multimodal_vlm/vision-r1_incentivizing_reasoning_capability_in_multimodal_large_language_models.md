@@ -1,9 +1,9 @@
 # Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2503.06749](https://arxiv.org/abs/2503.06749)
-**代码**: [GitHub](https://github.com/Osilly/Vision-R1)
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2503.06749](https://arxiv.org/abs/2503.06749)  
+**代码**: [GitHub](https://github.com/Osilly/Vision-R1)  
+**领域**: 多模态VLM  
 **关键词**: 多模态推理, 强化学习, 思维链, GRPO, 冷启动初始化
 
 ## 一句话总结

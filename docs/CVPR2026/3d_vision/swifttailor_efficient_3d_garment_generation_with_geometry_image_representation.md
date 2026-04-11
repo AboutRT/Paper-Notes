@@ -1,10 +1,10 @@
 # SwiftTailor: Efficient 3D Garment Generation with Geometry Image Representation
 
-**会议**: CVPR2026
-**arXiv**: [2603.19053](https://arxiv.org/abs/2603.19053)
+**会议**: CVPR2026  
+**arXiv**: [2603.19053](https://arxiv.org/abs/2603.19053)  
 **作者**: Phuc Pham, Uy Dieu Tran, Binh-Son Hua, Phong Nguyen
-**代码**: 待确认
-**领域**: 3D视觉 / 服装生成
+**代码**: 待确认  
+**领域**: 3D视觉 / 服装生成  
 **关键词**: 3D服装生成, 几何图像, 缝纫样板, VLM, Dense Prediction Transformer
 
 ## 一句话总结

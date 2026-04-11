@@ -1,9 +1,9 @@
 # Optimal Look-back Horizon for Time Series Forecasting in Federated Learning
 
-**会议**: AAAI2026
-**arXiv**: [2511.12791](https://arxiv.org/abs/2511.12791)
-**代码**: 无
-**领域**: time_series
+**会议**: AAAI2026  
+**arXiv**: [2511.12791](https://arxiv.org/abs/2511.12791)  
+**代码**: 无  
+**领域**: time_series  
 **关键词**: time series forecasting, federated learning, look-back horizon, intrinsic space, Bayesian loss
 
 ## 一句话总结

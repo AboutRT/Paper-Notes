@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SpiralDiff: Spiral Diffusion with LoRA for RGB-to-RAW Conversion Across Cameras
 
-**会议**: CVPR2026
-**arXiv**: [2603.14885](https://arxiv.org/abs/2603.14885)
-**代码**: [Chuancy-TJU/SpiralDiff](https://github.com/Chuancy-TJU/SpiralDiff)
-**领域**: 目标检测 / 图像信号处理
+**会议**: CVPR2026  
+**arXiv**: [2603.14885](https://arxiv.org/abs/2603.14885)  
+**代码**: [Chuancy-TJU/SpiralDiff](https://github.com/Chuancy-TJU/SpiralDiff)  
+**领域**: 目标检测 / 图像信号处理  
 **关键词**: RGB-to-RAW, 扩散模型, 信号依赖噪声, LoRA, 跨相机适配, 目标检测
 
 ## 一句话总结

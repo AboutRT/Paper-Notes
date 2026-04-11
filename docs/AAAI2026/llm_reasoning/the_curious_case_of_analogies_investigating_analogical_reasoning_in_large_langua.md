@@ -1,9 +1,9 @@
 # The Curious Case of Analogies: Investigating Analogical Reasoning in Large Language Models
 
-**会议**: AAAI 2026
-**arXiv**: [2511.20344](https://arxiv.org/abs/2511.20344)
-**代码**: [dmis-lab/analogical-reasoning](https://github.com/dmis-lab/analogical-reasoning)
-**领域**: LLM推理
+**会议**: AAAI 2026  
+**arXiv**: [2511.20344](https://arxiv.org/abs/2511.20344)  
+**代码**: [dmis-lab/analogical-reasoning](https://github.com/dmis-lab/analogical-reasoning)  
+**领域**: LLM推理  
 **关键词**: 类比推理, 机制可解释性, 关系信息编码, 结构对齐, 注意力干预
 
 ## 一句话总结

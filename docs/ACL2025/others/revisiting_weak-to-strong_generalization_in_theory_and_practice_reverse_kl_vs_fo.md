@@ -1,9 +1,9 @@
 # Revisiting Weak-to-Strong Generalization: Reverse KL vs. Forward KL
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2502.11107](https://arxiv.org/abs/2502.11107)
-**代码**: 无
-**领域**: 对齐RLHF
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2502.11107](https://arxiv.org/abs/2502.11107)  
+**代码**: 无  
+**领域**: 对齐RLHF  
 **关键词**: weak-to-strong generalization, reverse KL, superalignment, knowledge distillation, loss function
 
 ## 一句话总结

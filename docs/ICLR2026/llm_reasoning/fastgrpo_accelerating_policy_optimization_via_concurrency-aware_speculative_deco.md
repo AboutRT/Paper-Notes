@@ -1,9 +1,9 @@
 # FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21792](https://arxiv.org/abs/2509.21792)
-**代码**: [GitHub](https://github.com/yedaotian9/GRPO_speculative)
-**领域**: LLM推理
+**会议**: ICLR 2026  
+**arXiv**: [2509.21792](https://arxiv.org/abs/2509.21792)  
+**代码**: [GitHub](https://github.com/yedaotian9/GRPO_speculative)  
+**领域**: LLM推理  
 **关键词**: GRPO加速, 投机解码, 并发感知, 在线Draft学习, 强化学习训练
 
 ## 一句话总结

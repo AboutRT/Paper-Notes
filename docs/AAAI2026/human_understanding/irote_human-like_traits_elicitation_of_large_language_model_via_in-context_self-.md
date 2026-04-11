@@ -1,9 +1,9 @@
 # IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization
 
-**会议**: AAAI 2026
-**arXiv**: [2508.08719](https://arxiv.org/abs/2508.08719)
-**代码**: 无（仅发布了生成的 reflection 文本）
-**领域**: 人体理解
+**会议**: AAAI 2026  
+**arXiv**: [2508.08719](https://arxiv.org/abs/2508.08719)  
+**代码**: 无（仅发布了生成的 reflection 文本）  
+**领域**: 人体理解  
 **关键词**: LLM人格模拟, 特质激发, 信息瓶颈, 上下文学习, 自我反思
 
 ## 一句话总结

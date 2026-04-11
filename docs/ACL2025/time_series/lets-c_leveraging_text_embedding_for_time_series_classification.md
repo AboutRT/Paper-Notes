@@ -1,9 +1,9 @@
 # LETS-C: Leveraging Text Embedding for Time Series Classification
 
-**会议**: ACL 2025
-**arXiv**: [2407.06533](https://arxiv.org/abs/2407.06533)
-**代码**: 无（使用 OpenAI API）
-**领域**: 时间序列
+**会议**: ACL 2025  
+**arXiv**: [2407.06533](https://arxiv.org/abs/2407.06533)  
+**代码**: 无（使用 OpenAI API）  
+**领域**: 时间序列  
 **关键词**: time series classification, text embedding, cross-modal transfer, lightweight model, CNN-MLP
 
 ## 一句话总结

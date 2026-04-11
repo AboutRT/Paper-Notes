@@ -1,9 +1,9 @@
 # Universal Neural Optimal Transport
 
-**会议**: ICML2025
-**arXiv**: [2212.00133](https://arxiv.org/abs/2212.00133)
-**代码**: [GregorKornhardt/UNOT](https://github.com/GregorKornhardt/UNOT)
-**领域**: 最优传输 (Optimal Transport)
+**会议**: ICML2025  
+**arXiv**: [2212.00133](https://arxiv.org/abs/2212.00133)  
+**代码**: [GregorKornhardt/UNOT](https://github.com/GregorKornhardt/UNOT)  
+**领域**: 最优传输 (Optimal Transport)  
 **关键词**: Optimal Transport, Fourier Neural Operator, Sinkhorn Algorithm, 对偶势函数, 对抗训练, 自举损失
 
 ## 一句话总结

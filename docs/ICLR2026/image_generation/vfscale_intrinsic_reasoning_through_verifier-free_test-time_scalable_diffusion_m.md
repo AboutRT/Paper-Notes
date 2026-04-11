@@ -1,9 +1,9 @@
 # VFScale: Intrinsic Reasoning through Verifier-Free Test-time Scalable Diffusion Model
 
-**会议**: ICLR 2026
-**arXiv**: [2502.01989](https://arxiv.org/abs/2502.01989)
-**代码**: https://github.com/AI4Science-WestlakeU/VFScale
-**领域**: 扩散模型/推理
+**会议**: ICLR 2026  
+**arXiv**: [2502.01989](https://arxiv.org/abs/2502.01989)  
+**代码**: https://github.com/AI4Science-WestlakeU/VFScale  
+**领域**: 扩散模型/推理  
 **关键词**: 测试时缩放, 无验证器, 能量函数, 蒙特卡洛树搜索, 扩散模型推理
 
 ## 一句话总结

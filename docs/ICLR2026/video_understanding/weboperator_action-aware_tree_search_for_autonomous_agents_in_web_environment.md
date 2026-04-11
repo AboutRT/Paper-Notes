@@ -1,9 +1,9 @@
 # WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment
 
-**会议**: ICLR2026
-**arXiv**: [2512.12692](https://arxiv.org/abs/2512.12692)
-**代码**: [kagnlp.github.io/WebOperator](https://kagnlp.github.io/WebOperator/)
-**领域**: video_understanding
+**会议**: ICLR2026  
+**arXiv**: [2512.12692](https://arxiv.org/abs/2512.12692)  
+**代码**: [kagnlp.github.io/WebOperator](https://kagnlp.github.io/WebOperator/)  
+**领域**: video_understanding  
 **关键词**: Web Agent, 树搜索, 回溯机制, 破坏性动作处理, 最佳优先搜索, 自主代理
 
 ## 一句话总结

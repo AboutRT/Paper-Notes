@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # The COTe Score: A Decomposable Framework for Evaluating Document Layout Analysis Models
 
-**会议**: CVPR2026
-**arXiv**: [2603.12718](https://arxiv.org/abs/2603.12718)
-**代码**: [JonnoB/cotescore](https://github.com/JonnoB/cotescore)
-**领域**: 目标检测 / 文档布局分析
+**会议**: CVPR2026  
+**arXiv**: [2603.12718](https://arxiv.org/abs/2603.12718)  
+**代码**: [JonnoB/cotescore](https://github.com/JonnoB/cotescore)  
+**领域**: 目标检测 / 文档布局分析  
 **关键词**: 文档布局分析, 评估指标, 可分解指标, 语义结构单元, 页面解析, 粒度鲁棒性
 
 ## 一句话总结

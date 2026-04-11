@@ -1,9 +1,9 @@
 # On Expressive Power of Looped Transformers: Theoretical Analysis and Enhancement via Timestep Encoding
 
-**会议**: ICML2025
-**arXiv**: [2410.01405](https://arxiv.org/abs/2410.01405)
-**代码**: [kevin671/tmlt](https://github.com/kevin671/tmlt)
-**领域**: LLM/NLP
+**会议**: ICML2025  
+**arXiv**: [2410.01405](https://arxiv.org/abs/2410.01405)  
+**代码**: [kevin671/tmlt](https://github.com/kevin671/tmlt)  
+**领域**: LLM/NLP  
 **关键词**: Looped Transformer, 表达能力, 逼近速率, 权重共享, 时间步编码, 通用逼近, 连续性模
 
 ## 一句话总结

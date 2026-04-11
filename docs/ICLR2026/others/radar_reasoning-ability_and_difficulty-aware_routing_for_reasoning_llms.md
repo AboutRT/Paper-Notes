@@ -1,9 +1,9 @@
 # RADAR: Reasoning-Ability and Difficulty-Aware Routing for Reasoning LLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25426](https://arxiv.org/abs/2509.25426)
-**代码**: 无
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2509.25426](https://arxiv.org/abs/2509.25426)  
+**代码**: 无  
+**领域**: 其他  
 **关键词**: 推理语言模型, 模型路由, 项目反应理论, 多目标优化, 自适应推理
 
 ## 一句话总结

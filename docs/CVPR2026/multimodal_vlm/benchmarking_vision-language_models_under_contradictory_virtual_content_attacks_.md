@@ -1,9 +1,9 @@
 # Benchmarking Vision-Language Models under Contradictory Virtual Content Attacks in Augmented Reality
 
-**会议**: CVPR 2026
-**arXiv**: [2604.05510](https://arxiv.org/abs/2604.05510)
-**代码**: [GitHub](https://github.com/YM-Xiu/ContrAR-Dataset) (有)
-**领域**: 多模态视觉语言模型
+**会议**: CVPR 2026  
+**arXiv**: [2604.05510](https://arxiv.org/abs/2604.05510)  
+**代码**: [GitHub](https://github.com/YM-Xiu/ContrAR-Dataset) (有)  
+**领域**: 多模态视觉语言模型  
 **关键词**: 增强现实安全, 语义矛盾检测, VLM鲁棒性, 基准测试, AR攻击
 
 ## 一句话总结
@@ -17,6 +17,7 @@
 5. **核心idea**：将AR语义矛盾检测问题建模为VLM的多模态推理任务，通过标准化基准揭示其能力边界。
 
 ## 方法详解
+
 ### 整体框架
 输入：AR视频帧（单帧或多帧） → VLM进行语义推理 → 判断虚拟内容之间是否存在矛盾
 
@@ -38,6 +39,7 @@
 - 指标：检测准确率 + 推理延迟
 
 ## 实验关键数据
+
 ### 主实验
 | 模型 | 单帧准确率(%) | 多帧准确率(%) | 单帧延迟(s) |
 |------|-------------|-------------|------------|

@@ -1,9 +1,9 @@
 # Relational Feature Caching for Accelerating Diffusion Transformers
 
-**会议**: ICLR 2026
-**arXiv**: [2602.19506](https://arxiv.org/abs/2602.19506)
-**代码**: [项目页面](https://cvlab.yonsei.ac.kr/projects/RFC)
-**领域**: 扩散模型/推理加速
+**会议**: ICLR 2026  
+**arXiv**: [2602.19506](https://arxiv.org/abs/2602.19506)  
+**代码**: [项目页面](https://cvlab.yonsei.ac.kr/projects/RFC)  
+**领域**: 扩散模型/推理加速  
 **关键词**: 特征缓存, DiT加速, 输入输出关系, 动态调度, 预测精度
 
 ## 一句话总结

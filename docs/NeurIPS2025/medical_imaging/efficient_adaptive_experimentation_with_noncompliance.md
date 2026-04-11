@@ -1,9 +1,9 @@
 # Efficient Adaptive Experimentation with Noncompliance
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.17468](https://arxiv.org/abs/2505.17468)
-**代码**: [GitHub](https://github.com/CausalML/Adaptive-IV)
-**领域**: 医学图像
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.17468](https://arxiv.org/abs/2505.17468)  
+**代码**: [GitHub](https://github.com/CausalML/Adaptive-IV)  
+**领域**: 医学图像  
 **关键词**: 自适应实验, 工具变量, 非依从性, 半参数效率, 因果推断
 
 ## 一句话总结

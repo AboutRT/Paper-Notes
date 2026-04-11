@@ -1,9 +1,9 @@
 # The Diffusion Duality
 
-**会议**: ICML 2025
-**arXiv**: [2506.10892](https://arxiv.org/abs/2506.10892)
-**代码**: https://s-sahoo.com/duo (有，含 checkpoint)
-**领域**: 离散扩散模型 / 语言建模
+**会议**: ICML 2025  
+**arXiv**: [2506.10892](https://arxiv.org/abs/2506.10892)  
+**代码**: https://s-sahoo.com/duo (有，含 checkpoint)  
+**领域**: 离散扩散模型 / 语言建模  
 **关键词**: 离散扩散对偶性, Uniform-state 扩散, 课程学习, 离散一致性蒸馏, 少步文本生成
 
 ## 一句话总结

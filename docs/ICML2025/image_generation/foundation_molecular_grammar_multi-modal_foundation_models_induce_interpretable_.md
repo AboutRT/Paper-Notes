@@ -1,9 +1,9 @@
 # Foundation Molecular Grammar: Multi-Modal Foundation Models Induce Interpretable Molecular Grammar
 
-**会议**: ICML 2025
-**arXiv**: [2505.22948](https://arxiv.org/abs/2505.22948)
-**代码**: https://github.com/shiningsunnyday/induction (有)
-**领域**: Image Generation (Molecular Generation)
+**会议**: ICML 2025  
+**arXiv**: [2505.22948](https://arxiv.org/abs/2505.22948)  
+**代码**: https://github.com/shiningsunnyday/induction (有)  
+**领域**: Image Generation (Molecular Generation)  
 **关键词**: 分子语法, 多模态基础模型, 图语法, 可解释性, 分子生成
 
 ## 一句话总结

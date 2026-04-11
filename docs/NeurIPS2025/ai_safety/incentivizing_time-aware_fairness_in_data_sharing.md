@@ -1,9 +1,9 @@
 # Incentivizing Time-Aware Fairness in Data Sharing
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.09240](https://arxiv.org/abs/2510.09240)
-**代码**: 无
-**领域**: ai_safety
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.09240](https://arxiv.org/abs/2510.09240)  
+**代码**: 无  
+**领域**: ai_safety  
 **关键词**: 数据共享, 公平性, 时间感知激励, Shapley值, 合作博弈论
 
 ## 一句话总结

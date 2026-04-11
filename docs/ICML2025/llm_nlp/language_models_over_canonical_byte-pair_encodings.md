@@ -1,9 +1,9 @@
 # Language Models over Canonical Byte-Pair Encodings
 
-**会议**: ICML 2025
-**arXiv**: [2506.07956](https://arxiv.org/abs/2506.07956)
-**代码**: 无
-**领域**: LLM / NLP
+**会议**: ICML 2025  
+**arXiv**: [2506.07956](https://arxiv.org/abs/2506.07956)  
+**代码**: 无  
+**领域**: LLM / NLP  
 **关键词**: BPE tokenization, canonical encoding, language modeling, probability mass, token-level LM
 
 ## 一句话总结
@@ -34,6 +34,7 @@
 - 构造化：标准交叉熵 loss，架构含规范性约束
 
 ## 实验关键数据
+
 ### 主实验
 | 模型 | 方法 | 困惑度变化 | 改善 |
 |------|------|---------|------|

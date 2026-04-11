@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # From Images to Physics: Probabilistic Inference of Galaxy Parameters and Emission Lines via VAE & Normalizing Flows
 
-**会议**: NEURIPS2025
-**arXiv**: [2511.12737](https://arxiv.org/abs/2511.12737)
-**代码**: 待确认
-**领域**: scientific_computing
+**会议**: NEURIPS2025  
+**arXiv**: [2511.12737](https://arxiv.org/abs/2511.12737)  
+**代码**: 待确认  
+**领域**: scientific_computing  
 **关键词**: VAE, Normalizing Flows, galaxy parameter inference, emission line prediction, probabilistic inference
 
 ## 一句话总结

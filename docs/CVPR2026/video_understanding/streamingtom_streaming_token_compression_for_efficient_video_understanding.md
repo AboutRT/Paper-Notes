@@ -1,9 +1,9 @@
 # StreamingTOM: Streaming Token Compression for Efficient Video Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2510.18269](https://arxiv.org/abs/2510.18269)
-**代码**: [yige24/StreamingTOM](https://yige24.github.io/StreamingTOM)
-**领域**: 视频理解 / 流式视频问答 / Token压缩
+**会议**: CVPR2026  
+**arXiv**: [2510.18269](https://arxiv.org/abs/2510.18269)  
+**代码**: [yige24/StreamingTOM](https://yige24.github.io/StreamingTOM)  
+**领域**: 视频理解 / 流式视频问答 / Token压缩  
 **关键词**: streaming video understanding, token compression, kv-cache quantization, training-free, causal inference
 
 ## 一句话总结

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**🧠 NeurIPS2025** · 共 **71** 篇
+**🧠 NeurIPS2025** · 共 **85** 篇
 
 **[A Set of Generalized Components to Achieve Effective Poison-only Clean-label Backdoor Attacks with Collaborative Sample Selection and Triggers](a_set_of_generalized_components_to_achieve_effective_poison-only_clean-label_bac.md)**
 
@@ -243,9 +243,21 @@
 
 :   系统性论证"机器遗忘"（machine unlearning）并非万能方案，识别出遗忘动机与可行实现之间的五大根本错配（mismatches），为 ML 研究者和政策制定者提供严谨的分析框架。
 
+**[MARS: A Malignity-Aware Backdoor Defense in Federated Learning](mars_a_malignity-aware_backdoor_defense_in_federated_learning.md)**
+
+:   提出 MARS 防御方法，通过计算神经元的后门能量（Backdoor Energy）来感知模型的恶意程度，并利用 Wasserstein 距离聚类有效识别联邦学习中的后门模型。
+
+**[MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction](masksql_safeguarding_privacy_for_llm-based_text-to-sql_via_abstraction.md)**
+
+:   提出 MaskSQL 框架，通过提示抽象（abstraction）将敏感的表名、列名和数据值替换为抽象符号后发送给远程 LLM，结合本地 SLM 做 schema linking 和 SQL 重建，在保护隐私同时超越 SLM-only 方案的 SQL 生成精度。
+
 **[Matchings Under Biased and Correlated Evaluations](matchings_under_biased_and_correlated_evaluations.md)**
 
 :   在两机构稳定匹配模型中引入评估相关性参数 $\gamma$（机构间评分的对齐程度），分析偏差 $\beta$ 和相关性 $\gamma$ 如何联合影响弱势群体的代表性比率，证明即使轻微的相关性损失也可导致代表性急剧下降，并提出公平性干预策略的 Pareto 前沿。
+
+**[Mitigating Disparate Impact of Differentially Private Learning through Bounded Adaptive Clipping](mitigating_disparate_impact_of_differentially_private_learning_through_bounded_a.md)**
+
+:   通过在自适应梯度剪裁中引入可调整的下界（bounded adaptive clipping），防止 clipping bound 在训练过程中过度萎缩，从而改善少数群体的精度，在 DP 约束下缓解算法不公平。
 
 **[Mitigating Privacy-Utility Trade-off in Decentralized Federated Learning via f-Differential Privacy](mitigating_privacy-utility_trade-off_in_decentralized_federated_learning_via_f-d.md)**
 
@@ -259,6 +271,10 @@
 
 :   提出 OmniFC，一个模型无关的联邦聚类框架：通过 Lagrange 编码计算在有限域上精确重建全局成对距离矩阵，任意集中式聚类方法（K-Means/谱聚类/DBSCAN/层次聚类等）可直接在其上运行，仅需一轮通信，天然抵抗 Non-IID，在 7 个数据集上全面超越 k-FED/MUFC/FedSC 等专用方法。
 
+**[On the Empirical Power of Goodness-of-Fit Tests in Watermark Detection](on_the_empirical_power_of_goodness-of-fit_tests_in_watermark_detection.md)**
+
+:   系统性地评估了八种经典拟合优度（GoF）检验在 LLM 文本水印检测中的效果，发现 GoF 检验在检测功效和鲁棒性上均显著优于现有基线方法。
+
 **[On the Hardness of Conditional Independence Testing In Practice](on_the_hardness_of_conditional_independence_testing_in_practice.md)**
 
 :   系统分析了基于核的条件独立性（CI）检验在实践中失败的根本原因：条件均值嵌入的估计误差是导致Type-I错误膨胀的核心因素，同时揭示了选择条件核$k_C$对检验功效至关重要但会加剧假阳性的内在张力。
@@ -271,6 +287,14 @@
 
 :   首次系统性研究差分隐私（DP）约束下策略优化的样本复杂度，提出统一的元算法框架，分析DP-PG、DP-NPG和DP-REBEL三种隐私策略优化算法，证明隐私代价通常仅作为样本复杂度的低阶项出现。
 
+**[Preserving Task-Relevant Information Under Linear Concept Removal](preserving_task-relevant_information_under_linear_concept_removal.md)**
+
+:   SPLINCE通过构造一种斜投影(oblique projection)，在保证线性守护性（不可被线性分类器预测敏感属性）的同时，精确保留表征与目标标签之间的协方差，解决了现有概念擦除方法在移除敏感概念的同时误删任务相关信息的问题。
+
+**[Probabilistic Reasoning with LLMs for K-Anonymity Estimation](probabilistic_reasoning_with_llms_for_k-anonymity_estimation.md)**
+
+:   本文提出Branch框架，利用大语言模型将用户文本中的个人信息建模为贝叶斯网络的联合概率分布，分别估计各属性的条件概率后组合计算k-匿名值（全球匹配该信息的人数），在隐私风险估计任务上达到73%准确率，比o3-mini链式思维提升13%。
+
 **[Provable Watermarking for Data Poisoning Attacks](provable_watermarking_for_data_poisoning_attacks.md)**
 
 :   本文提出两种可证明的水印方案（后投毒水印和投毒并行水印），为数据投毒攻击提供透明性声明机制，理论证明在特定水印长度条件下可同时保证水印可检测性和投毒有效性。
@@ -279,6 +303,30 @@
 
 :   在近似距离查询模型下，通过学习理论视角研究重建博弈（reconstruction game），证明了最优重建误差等于Chebyshev半径的几何特征刻画，并对欧氏凸空间的伪有限性给出了完整分类。
 
+**[ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search](reliabilityrag_effective_and_provably_robust_defense_for_rag-based_web-search.md)**
+
+:   ReliabilityRAG 提出了一种利用文档可靠性信号（如搜索排名）进行对抗防御的 RAG 框架，通过在矛盾图上寻找最大独立集（MIS）来识别一致的文档子集并优先选择高可靠性文档，提供可证明的鲁棒性保证，同时在良性场景和长文本生成任务上保持高准确率。
+
+**[Rewind-to-Delete: Certified Machine Unlearning for Nonconvex Functions](rewind-to-delete_certified_machine_unlearning_for_nonconvex_functions.md)**
+
+:   本文提出R2D（Rewind-to-Delete），首个适用于一般非凸损失函数的一阶、黑盒认证机器遗忘算法，通过"回溯"到训练过程中的较早检查点再对保留数据执行梯度下降来实现数据删除，同时提供(ε,δ)认证遗忘保证和隐私-效用-效率的理论权衡。
+
+**[Sequentially Auditing Differential Privacy](sequentially_auditing_differential_privacy.md)**
+
+:   提出基于序贯假设检验和核 MMD 统计量的差分隐私审计框架，可以在流式处理机制输出时随时有效地检测隐私违规，将所需样本量从现有方法的 50K 降低到数百个，并能在不到一次完整训练的过程中识别 DP-SGD 的隐私违规。
+
+**[Spectral Perturbation Bounds for Low-Rank Approximation with Applications to Privacy](spectral_perturbation_bounds_for_low-rank_approximation_with_applications_to_pri.md)**
+
+:   建立了对称矩阵低秩近似在谱范数下的新型高概率扰动界，改进了经典 Eckart-Young-Mirsky 定理，并解决了差分隐私 PCA 中的一个公开问题。
+
+**[Systematizing LLM Persona Design: A Four-Quadrant Technical Taxonomy for AI Companions](systematizing_llm_persona_design_a_four-quadrant_technical_taxonomy_for_ai_compa.md)**
+
+:   提出 LLM persona 设计的四象限技术分类框架，沿"虚拟 vs 具身"和"情感陪伴 vs 功能增强"两轴，系统化分析了从虚拟伴侣、游戏 NPC 到护理机器人等不同场景下的技术栈、核心挑战和伦理风险。
+
+**[Taught Well, Learned Ill: Towards Distillation-Conditional Backdoor Attack](taught_well_learned_ill_towards_distillation-conditional_backdoor_attack.md)**
+
+:   本文提出了蒸馏条件后门攻击（DCBA）范式及其实现方法SCAR，通过双层优化在教师模型中植入"休眠"后门，该后门在教师模型上不可检测但会在知识蒸馏过程中被激活传递到学生模型，即使蒸馏数据集完全干净。
+
 **[The Unseen Threat Residual Knowledge In Machine Unlearning Under Perturbed Sampl](the_unseen_threat_residual_knowledge_in_machine_unlearning_under_perturbed_sampl.md)**
 
 :   发现机器遗忘的关键安全漏洞：即使遗忘后的模型在统计意义上与重训练模型不可区分，对遗忘样本施加微小对抗扰动后，遗忘模型仍能正确识别而重训练模型则失败——揭示了"残余知识"这一新型隐私风险。提出 RURK 微调策略，通过惩罚对扰动遗忘样本的正确预测来消除残余知识，在 CIFAR-10 和 ImageNet-100 上有效抑制 11 种遗忘方法的残余知识。
@@ -286,3 +334,11 @@
 **[Understanding and Improving Adversarial Robustness of Neural Probabilistic Circuits](understanding_and_improving_adversarial_robustness_of_neural_probabilistic_circu.md)**
 
 :   理论分析神经概率电路（NPC）的对抗鲁棒性仅取决于属性识别模型而与概率电路无关，并提出 RNPC 通过类级推理集成方式实现可证明的鲁棒性提升，在保持良性准确率的同时显著增强对抗鲁棒性。
+
+**[Understanding Challenges to the Interpretation of Disaggregated Evaluations of AI](understanding_challenges_to_the_interpretation_of_disaggregated_evaluations_of_a.md)**
+
+:   通过因果图模型分析表明，分组评估（disaggregated evaluation）中跨子群体的性能差异不一定意味着不公平，而可能是数据生成过程中分布差异的自然结果，建议结合因果假设和加权评估补充标准分组评估。
+
+**[Unifying Proportional Fairness in Centroid and Non-Centroid Clustering](unifying_proportional_fairness_in_centroid_and_non-centroid_clustering.md)**
+
+:   将质心聚类(centroid)和非质心聚类(non-centroid)的比例公平性研究统一到"半质心聚类"框架中，证明了两者不可同时实现的不可能性定理，并设计了新算法在双度量损失下实现常数倍近似的核(core)保证。

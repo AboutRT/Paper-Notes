@@ -1,9 +1,9 @@
 # RealHiTBench: A Comprehensive Realistic Hierarchical Table Benchmark for Evaluating LLM-Based Table Analysis
 
-**会议**: ACL2025
-**arXiv**: [2506.13405](https://arxiv.org/abs/2506.13405)
-**代码**: [cspzyy/RealHiTBench](https://github.com/cspzyy/RealHiTBench)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.13405](https://arxiv.org/abs/2506.13405)  
+**代码**: [cspzyy/RealHiTBench](https://github.com/cspzyy/RealHiTBench)  
+**领域**: llm_nlp  
 **关键词**: benchmark, hierarchical table, table reasoning, LLM evaluation, TreeThinker
 
 ## 一句话总结

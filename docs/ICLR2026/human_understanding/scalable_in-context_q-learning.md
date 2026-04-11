@@ -1,9 +1,9 @@
 # Scalable In-Context Q-Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2506.01299](https://arxiv.org/abs/2506.01299)
-**代码**: [GitHub](https://github.com/NJU-RL/SICQL)
-**领域**: 强化学习/情境学习
+**会议**: ICLR 2026  
+**arXiv**: [2506.01299](https://arxiv.org/abs/2506.01299)  
+**代码**: [GitHub](https://github.com/NJU-RL/SICQL)  
+**领域**: 强化学习/情境学习  
 **关键词**: 情境RL, Q学习, 世界模型, 动态规划, 高效提示
 
 ## 一句话总结

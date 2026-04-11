@@ -1,10 +1,10 @@
 # Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret in Noise-Free Gaussian Process Bandits
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.19006](https://arxiv.org/abs/2502.19006)
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.19006](https://arxiv.org/abs/2502.19006)  
 **作者**: Shogo Iwazaki (LY Corporation)
-**代码**: 未公开
-**领域**: others
+**代码**: 未公开  
+**领域**: others  
 **关键词**: Gaussian Process Bandits, GP-UCB, Regret Bounds, Noise-Free Optimization, RKHS, Bayesian Optimization
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Mixture of Lookup Experts
 
-**会议**: ICML 2025
-**arXiv**: [2503.15798](https://arxiv.org/abs/2503.15798)
-**代码**: [有](https://github.com/JieShibo/MoLE)
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2503.15798](https://arxiv.org/abs/2503.15798)  
+**代码**: [有](https://github.com/JieShibo/MoLE)  
+**领域**: LLM效率  
 **关键词**: Mixture-of-Experts, 查找表, 专家卸载, 推理加速, 模型部署
 
 ## 一句话总结

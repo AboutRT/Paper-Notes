@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Towards Flexible Perception with Visual Memory
 
-**会议**: ICML2025
-**arXiv**: [2408.08172](https://arxiv.org/abs/2408.08172)
+**会议**: ICML2025  
+**arXiv**: [2408.08172](https://arxiv.org/abs/2408.08172)  
 **作者**: Robert Geirhos, Priyank Jaini, Austin Stone, Sourabh Medapati, Xi Yi, George Toderici, Abhijit Ogale, Jonathon Shlens (Google DeepMind)
-**代码**: 未开源
-**领域**: model_compression
+**代码**: 未开源  
+**领域**: model_compression  
 **关键词**: visual memory, kNN classification, retrieval-based inference, machine unlearning, data attribution, scalable search
 
 ## 一句话总结

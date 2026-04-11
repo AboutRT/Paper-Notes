@@ -1,9 +1,9 @@
 # BiasGuard: A Reasoning-Enhanced Bias Detection Tool for Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2504.21299](https://arxiv.org/abs/2504.21299)
-**代码**: 无
-**领域**: LLM / AI公平性
+**会议**: ACL 2025  
+**arXiv**: [2504.21299](https://arxiv.org/abs/2504.21299)  
+**代码**: 无  
+**领域**: LLM / AI公平性  
 **关键词**: 偏见检测, 推理增强, 公平性规范, SFT, DPO, CoT reasoning
 
 ## 一句话总结

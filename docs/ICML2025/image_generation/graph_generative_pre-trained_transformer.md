@@ -1,9 +1,9 @@
 # Graph Generative Pre-trained Transformer (G2PT)
 
-**会议**: ICML2025
-**arXiv**: [2501.01073](https://arxiv.org/abs/2501.01073)
-**代码**: [tufts-ml/G2PT](https://github.com/tufts-ml/G2PT)
-**领域**: 图生成 / 分子设计
+**会议**: ICML2025  
+**arXiv**: [2501.01073](https://arxiv.org/abs/2501.01073)  
+**代码**: [tufts-ml/G2PT](https://github.com/tufts-ml/G2PT)  
+**领域**: 图生成 / 分子设计  
 **关键词**: 图生成, 自回归Transformer, 边序列表示, 分子生成, 预训练微调
 
 ## 一句话总结

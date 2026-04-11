@@ -1,9 +1,9 @@
 # Boost 3D Reconstruction using Diffusion-based Monocular Camera Calibration
 
-**会议**: ICCV 2025
-**arXiv**: [2411.17240](https://arxiv.org/abs/2411.17240)
-**代码**: https://github.com/JunyuanDeng/DM-Calib (有)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2411.17240](https://arxiv.org/abs/2411.17240)  
+**代码**: https://github.com/JunyuanDeng/DM-Calib (有)  
+**领域**: 3D视觉  
 **关键词**: 单目相机标定, 扩散模型, 深度估计, 3D重建, Camera Image
 
 ## 一句话总结
@@ -22,6 +22,7 @@
 **核心 idea**：设计一种新的图像化表示 Camera Image，将相机内参无损编码为一张3通道彩色图像，保留原图的高频细节（通过嵌入灰度图），与扩散模型的图像域高度对齐。将内参估计重新定义为条件图像生成任务。
 
 ## 方法详解
+
 ### 整体框架
 DM-Calib 基于 Stable Diffusion V2.1。(1) 将 RGB 输入图和对应的 Camera Image 通过冻结的 VAE 编码到隐空间；(2) 对 Camera Image 的隐码加噪后与 RGB 隐码拼接输入 UNet（输入通道加倍）；(3) UNet 学习预测噪声（v-prediction）；(4) 推理时从随机噪声出发去噪生成 Camera Image，通过 RANSAC 从中恢复内参。
 
@@ -43,6 +44,7 @@ DM-Calib 基于 Stable Diffusion V2.1。(1) 将 RGB 输入图和对应的 Camera
 - 训练数据来自多个公开数据集（NuScenes、KITTI、CityScapes、NYUv2 等）
 
 ## 实验关键数据
+
 ### 主实验
 
 **单目标定（零样本，5个数据集平均）**

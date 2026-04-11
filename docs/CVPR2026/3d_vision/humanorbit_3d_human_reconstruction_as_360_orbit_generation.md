@@ -1,9 +1,9 @@
 # HumanOrbit: 3D Human Reconstruction as 360° Orbit Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.24148](https://arxiv.org/abs/2602.24148)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.24148](https://arxiv.org/abs/2602.24148)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 3D人体重建, 视频扩散模型, 多视图生成, LoRA微调, 轨道视频
 
 ## 一句话总结

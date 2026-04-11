@@ -1,8 +1,8 @@
 # LANTERN: Modeling User Behavior from Adaptive Surveys with Supplemental Context
 
-**会议**: ICML2025
-**arXiv**: [2507.20919](https://arxiv.org/abs/2507.20919)
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2507.20919](https://arxiv.org/abs/2507.20919)  
+**领域**: others  
 **关键词**: 用户行为建模, 调查数据, 后期融合, 交叉注意力, 多模态
 
 ## 一句话总结

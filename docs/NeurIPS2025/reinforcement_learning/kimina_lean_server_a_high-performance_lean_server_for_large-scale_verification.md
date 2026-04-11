@@ -1,9 +1,9 @@
 # Kimina Lean Server: A High-Performance Lean Server for Large-Scale Verification
 
-**会议**: NeurIPS 2025 (MATH-AI Workshop)
-**arXiv**: [2504.21230](https://arxiv.org/abs/2504.21230)
-**代码**: [GitHub](https://github.com/project-numina/kimina-lean-server) (有)
-**领域**: 强化学习 / 定理证明
+**会议**: NeurIPS 2025 (MATH-AI Workshop)  
+**arXiv**: [2504.21230](https://arxiv.org/abs/2504.21230)  
+**代码**: [GitHub](https://github.com/project-numina/kimina-lean-server) (有)  
+**领域**: 强化学习 / 定理证明  
 **关键词**: Lean 4, 定理证明, 形式化验证, 强化学习, 高性能服务器
 
 ## 一句话总结

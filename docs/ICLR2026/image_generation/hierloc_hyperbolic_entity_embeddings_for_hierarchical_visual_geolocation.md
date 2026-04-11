@@ -1,9 +1,9 @@
 # HierLoc: Hyperbolic Entity Embeddings for Hierarchical Visual Geolocation
 
-**会议**: ICLR 2026
-**arXiv**: [2601.23064](https://arxiv.org/abs/2601.23064)
-**代码**: 无
-**领域**: 扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2601.23064](https://arxiv.org/abs/2601.23064)  
+**代码**: 无  
+**领域**: 扩散模型  
 **关键词**: 视觉地理定位, 双曲嵌入, 层次实体, 对比学习, 检索
 
 ## 一句话总结

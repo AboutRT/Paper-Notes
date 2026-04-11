@@ -1,10 +1,10 @@
 # Probing the Geometry of Truth: Consistency and Generalization of Truth Directions
 
-**会议**: ACL 2025
-**arXiv**: [2506.00823](https://arxiv.org/abs/2506.00823)
+**会议**: ACL 2025  
+**arXiv**: [2506.00823](https://arxiv.org/abs/2506.00823)  
 **作者**: Yuntai Bao, Xuhong Zhang, Tianyu Du, Xinkui Zhao, Zhengwen Feng, Hao Peng, Jianwei Yin (浙江大学, 浙江师范大学)
-**代码**: [GitHub](https://github.com/colored-dye/truthfulness_probe_generalization)
-**领域**: nlp_understanding
+**代码**: [GitHub](https://github.com/colored-dye/truthfulness_probe_generalization)  
+**领域**: nlp_understanding  
 **关键词**: 真值方向, 真实性探测, LLM内部表征, 线性探针, 泛化性
 
 ## 一句话总结

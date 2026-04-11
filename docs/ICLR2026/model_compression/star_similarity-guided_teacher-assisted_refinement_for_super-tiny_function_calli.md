@@ -1,9 +1,9 @@
 # STAR: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function Calling Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.03022](https://arxiv.org/abs/2602.03022)
-**代码**: [github.com/Qwen-Applications/STAR](https://github.com/Qwen-Applications/STAR)
-**领域**: 模型压缩 / 知识蒸馏
+**会议**: ICLR 2026  
+**arXiv**: [2602.03022](https://arxiv.org/abs/2602.03022)  
+**代码**: [github.com/Qwen-Applications/STAR](https://github.com/Qwen-Applications/STAR)  
+**领域**: 模型压缩 / 知识蒸馏  
 **关键词**: 知识蒸馏, 强化学习, Function Calling, 超小模型, 相似度奖励
 
 ## 一句话总结

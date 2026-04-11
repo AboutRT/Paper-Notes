@@ -1,9 +1,9 @@
 # Enhancing Out-of-Distribution Detection with Extended Logit Normalization
 
-**会议**: CVPR 2026
-**arXiv**: [2504.11434](https://arxiv.org/abs/2504.11434)
-**代码**: https://github.com/limchaos/ElogitNorm
-**领域**: 其他
+**会议**: CVPR 2026  
+**arXiv**: [2504.11434](https://arxiv.org/abs/2504.11434)  
+**代码**: https://github.com/limchaos/ElogitNorm  
+**领域**: 其他  
 **关键词**: OOD检测, Logit归一化, 特征坍塌, 决策边界, 模型校准
 
 ## 一句话总结

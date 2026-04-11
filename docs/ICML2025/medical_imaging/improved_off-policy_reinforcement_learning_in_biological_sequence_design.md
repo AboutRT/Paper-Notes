@@ -1,10 +1,10 @@
 # Improved Off-policy Reinforcement Learning in Biological Sequence Design
 
-**会议**: ICML2025
-**arXiv**: [2410.04461](https://arxiv.org/abs/2410.04461)
+**会议**: ICML2025  
+**arXiv**: [2410.04461](https://arxiv.org/abs/2410.04461)  
 **作者**: Hyeonah Kim, Minsu Kim, Taeyoung Yun, Sanghyeok Choi, Emmanuel Bengio, Alex Hernández-García, Jinkyoo Park (KAIST, Mila)
-**代码**: 待确认
-**领域**: medical_imaging
+**代码**: 待确认  
+**领域**: medical_imaging  
 **关键词**: biological sequence design, GFlowNets, off-policy RL, conservative search, active learning, proxy model
 
 ## 一句话总结

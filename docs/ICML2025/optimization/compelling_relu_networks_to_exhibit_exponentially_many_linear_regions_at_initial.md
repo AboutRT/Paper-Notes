@@ -1,9 +1,9 @@
 # Compelling ReLU Networks to Exhibit Exponentially Many Linear Regions at Initialization and During Training
 
-**会议**: ICML2025
-**arXiv**: [2311.18022](https://arxiv.org/abs/2311.18022)
-**代码**: 待确认
-**领域**: ReLU网络理论
+**会议**: ICML2025  
+**arXiv**: [2311.18022](https://arxiv.org/abs/2311.18022)  
+**代码**: 待确认  
+**领域**: ReLU网络理论  
 **关键词**: ReLU网络, 线性区域, 网络初始化, 重参数化, 三角波函数, 指数表达能力
 
 ## 一句话总结

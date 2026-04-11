@@ -1,9 +1,9 @@
 # HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.07260](https://arxiv.org/abs/2509.07260)
-**代码**: 无
-**领域**: AI Safety (健康医疗AI)
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.07260](https://arxiv.org/abs/2509.07260)  
+**代码**: 无  
+**领域**: AI Safety (健康医疗AI)  
 **关键词**: 小语言模型, 移动健康监测, 可穿戴设备, 隐私保护, 端侧部署
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2505.17006](https://arxiv.org/abs/2505.17006)
-**代码**: [github.com/MCG-NJU/CoMo](https://github.com/MCG-NJU/CoMo) (有)
-**领域**: 机器人学习
+**会议**: CVPR 2026  
+**arXiv**: [2505.17006](https://arxiv.org/abs/2505.17006)  
+**代码**: [github.com/MCG-NJU/CoMo](https://github.com/MCG-NJU/CoMo) (有)  
+**领域**: 机器人学习  
 **关键词**: 连续隐运动, 伪动作标签, 逆动力学模型, 时序对比学习, 视频-机器人联合训练
 
 ## 一句话总结

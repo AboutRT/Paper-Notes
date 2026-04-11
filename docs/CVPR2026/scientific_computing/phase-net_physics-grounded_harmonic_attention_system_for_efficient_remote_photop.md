@@ -1,9 +1,9 @@
 # PHASE-Net: Physics-Grounded Harmonic Attention System for Efficient Remote Photoplethysmography Measurement
 
-**会议**: CVPR 2026
-**arXiv**: [2509.24850](https://arxiv.org/abs/2509.24850)
-**代码**: [GitHub](https://github.com/Alex036225/PhaseNet)
-**领域**: 科学计算
+**会议**: CVPR 2026  
+**arXiv**: [2509.24850](https://arxiv.org/abs/2509.24850)  
+**代码**: [GitHub](https://github.com/Alex036225/PhaseNet)  
+**领域**: 科学计算  
 **关键词**: 远程光电容积脉搏波, 物理信息网络, 时间卷积网络, 血流动力学, 轻量模型
 
 ## 一句话总结

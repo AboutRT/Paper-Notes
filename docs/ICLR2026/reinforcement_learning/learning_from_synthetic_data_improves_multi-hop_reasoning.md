@@ -1,9 +1,9 @@
 # Learning from Synthetic Data Improves Multi-hop Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02091](https://arxiv.org/abs/2603.02091)
-**代码**: [GitHub](https://github.com/kilian-group/phantom-reasoning)
-**领域**: LLM推理/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.02091](https://arxiv.org/abs/2603.02091)  
+**代码**: [GitHub](https://github.com/kilian-group/phantom-reasoning)  
+**领域**: LLM推理/强化学习  
 **关键词**: 合成数据, 多跳推理, RLVR, 知识组合, 虚拟世界
 
 ## 一句话总结

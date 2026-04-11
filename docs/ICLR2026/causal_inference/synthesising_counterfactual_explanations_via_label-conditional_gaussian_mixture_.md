@@ -1,9 +1,9 @@
 # Synthesising Counterfactual Explanations via Label-Conditional Gaussian Mixture Variational Autoencoders
 
-**会议**: ICLR 2026
-**arXiv**: [2510.04855](https://arxiv.org/abs/2510.04855)
-**代码**: 无（使用 CARLA 库）
-**领域**: 可解释AI / 因果推断
+**会议**: ICLR 2026  
+**arXiv**: [2510.04855](https://arxiv.org/abs/2510.04855)  
+**代码**: 无（使用 CARLA 库）  
+**领域**: 可解释AI / 因果推断  
 **关键词**: 反事实解释, 变分自编码器, 高斯混合, 鲁棒性, 算法追索
 
 ## 一句话总结

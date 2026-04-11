@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation
 
-**会议**: CVPR2026
-**arXiv**: [2603.13133](https://arxiv.org/abs/2603.13133)
-**代码**: [项目页面](https://arxiv.org/abs/2603.13133)（已提供 Project Page 和 Code 链接）
-**领域**: 人体理解 / 具身导航
+**会议**: CVPR2026  
+**arXiv**: [2603.13133](https://arxiv.org/abs/2603.13133)  
+**代码**: [项目页面](https://arxiv.org/abs/2603.13133)（已提供 Project Page 和 Code 链接）  
+**领域**: 人体理解 / 具身导航  
 **关键词**: Vision-and-Language Navigation, 自适应记忆优化, 纠错微调, POMDP, 长期导航
 
 ## 一句话总结

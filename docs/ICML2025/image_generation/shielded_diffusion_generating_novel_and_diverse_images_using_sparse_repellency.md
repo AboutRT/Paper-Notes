@@ -1,9 +1,9 @@
 # Shielded Diffusion: Generating Novel and Diverse Images using Sparse Repellency
 
-**会议**: ICML2025
-**arXiv**: [2410.06025](https://arxiv.org/abs/2410.06025)
-**代码**: 待确认
-**领域**: 扩散模型 / 图像生成
+**会议**: ICML2025  
+**arXiv**: [2410.06025](https://arxiv.org/abs/2410.06025)  
+**代码**: 待确认  
+**领域**: 扩散模型 / 图像生成  
 **关键词**: 扩散模型多样性, 稀疏排斥引导, 训练后引导, 图像保护, 去重生成
 
 ## 一句话总结

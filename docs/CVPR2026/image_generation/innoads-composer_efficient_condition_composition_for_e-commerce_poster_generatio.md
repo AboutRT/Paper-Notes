@@ -1,9 +1,9 @@
 # InnoAds-Composer: Efficient Condition Composition for E-Commerce Poster Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05898](https://arxiv.org/abs/2603.05898)
-**代码**: 无
-**领域**: 图像生成 / 可控生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.05898](https://arxiv.org/abs/2603.05898)  
+**代码**: 无  
+**领域**: 图像生成 / 可控生成  
 **关键词**: 电商海报生成, 多条件合成, MM-DiT, 文字渲染, 条件重要性分析
 
 ## 一句话总结

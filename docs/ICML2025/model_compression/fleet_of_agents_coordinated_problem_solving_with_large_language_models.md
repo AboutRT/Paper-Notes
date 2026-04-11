@@ -1,9 +1,9 @@
 # Fleet of Agents: Coordinated Problem Solving with Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2405.06691](https://arxiv.org/abs/2405.06691)
-**代码**: [GitHub - FoA](https://github.com/au-clan/FoA)
-**领域**: model_compression
+**会议**: ICML2025  
+**arXiv**: [2405.06691](https://arxiv.org/abs/2405.06691)  
+**代码**: [GitHub - FoA](https://github.com/au-clan/FoA)  
+**领域**: model_compression  
 **关键词**: LLM推理, 遗传粒子滤波, 树搜索, 成本效率, 探索利用
 
 ## 一句话总结

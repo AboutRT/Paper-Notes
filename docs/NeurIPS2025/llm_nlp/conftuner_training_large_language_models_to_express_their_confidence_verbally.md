@@ -1,9 +1,9 @@
 # ConfTuner: Training Large Language Models to Express Their Confidence Verbally
 
-**会议**: NeurIPS 2025
-**arXiv**: [2508.18847](https://arxiv.org/abs/2508.18847)
-**代码**: [GitHub](https://github.com/liushiliushi/ConfTuner)
-**领域**: LLM / 不确定性校准
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.18847](https://arxiv.org/abs/2508.18847)  
+**代码**: [GitHub](https://github.com/liushiliushi/ConfTuner)  
+**领域**: LLM / 不确定性校准  
 **关键词**: 置信度校准, 语言化置信度, Brier分数, proper scoring rule, LLM过度自信
 
 ## 一句话总结

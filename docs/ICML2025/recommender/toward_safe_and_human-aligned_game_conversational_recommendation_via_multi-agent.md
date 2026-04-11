@@ -1,9 +1,9 @@
 # MATCHA: Toward Safe and Human-Aligned Game Conversational Recommendation
 
-**会议**: ICML2025
-**arXiv**: [2504.20094](https://arxiv.org/abs/2504.20094)
-**代码**: 待确认(Roblox内部)
-**领域**: recommender
+**会议**: ICML2025  
+**arXiv**: [2504.20094](https://arxiv.org/abs/2504.20094)  
+**代码**: 待确认(Roblox内部)  
+**领域**: recommender  
 **关键词**: 游戏推荐, 对话推荐, 多Agent, 安全控制, 长尾覆盖
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2603.07475](https://arxiv.org/abs/2603.07475)
-**代码**: 无
-**领域**: 模型压缩 / LLM效率
+**会议**: ICLR 2026  
+**arXiv**: [2603.07475](https://arxiv.org/abs/2603.07475)  
+**代码**: 无  
+**领域**: 模型压缩 / LLM效率  
 **关键词**: 扩散语言模型, 层跳过, 表征冗余, 推理加速, LLaDA
 
 ## 一句话总结

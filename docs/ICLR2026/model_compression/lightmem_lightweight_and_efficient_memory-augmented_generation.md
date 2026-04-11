@@ -1,9 +1,9 @@
 # LightMem: Lightweight and Efficient Memory-Augmented Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2510.18866](https://arxiv.org/abs/2510.18866)
-**代码**: [GitHub](https://github.com/zjunlp/LightMem)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2510.18866](https://arxiv.org/abs/2510.18866)  
+**代码**: [GitHub](https://github.com/zjunlp/LightMem)  
+**领域**: 模型压缩  
 **关键词**: LLM记忆系统, 感觉记忆, 短期记忆, 长期记忆, 睡眠时更新
 
 ## 一句话总结

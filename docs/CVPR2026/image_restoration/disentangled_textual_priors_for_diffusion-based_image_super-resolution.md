@@ -1,9 +1,9 @@
 # Disentangled Textual Priors for Diffusion-based Image Super-Resolution
 
-**会议**: CVPR 2026
-**arXiv**: [2603.07430](https://arxiv.org/abs/2603.07430)
-**代码**: [GitHub](https://github.com/JL6666JL/DTPSR)
-**领域**: 图像超分辨率
+**会议**: CVPR 2026  
+**arXiv**: [2603.07430](https://arxiv.org/abs/2603.07430)  
+**代码**: [GitHub](https://github.com/JL6666JL/DTPSR)  
+**领域**: 图像超分辨率  
 **关键词**: 扩散模型超分, 文本引导, 解耦先验, 频率感知, 语义控制
 
 ## 一句话总结

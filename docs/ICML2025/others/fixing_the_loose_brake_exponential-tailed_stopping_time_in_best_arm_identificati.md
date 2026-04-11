@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification
 
-**会议**: ICML2025
-**arXiv**: [2411.01808](https://arxiv.org/abs/2411.01808)
-**代码**: 待确认
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2411.01808](https://arxiv.org/abs/2411.01808)  
+**代码**: 待确认  
+**领域**: others  
 **关键词**: best arm identification, multi-armed bandit, fixed confidence, stopping time, exponential tail
 
 ## 一句话总结

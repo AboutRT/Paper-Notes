@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🧠 NeurIPS2025** · 共 **104** 篇
+**🧠 NeurIPS2025** · 共 **129** 篇
 
 **[3DID: Direct 3D Inverse Design for Aerodynamics with Physics-Aware Optimization](3did_direct_3d_inverse_design_for_aerodynamics_with_physics-aware_optimization.md)**
 
@@ -339,6 +339,10 @@
 
 :   提出 FactoST-v2，一个因式分解的时空基础模型框架，将通用时间预训练与领域特定空间适配解耦，以线性复杂度实现跨领域零样本/少样本/全样本时空预测。
 
+**[Less is More but Where: Dynamic Token Compression via LLM-Guided Keyframe Prior](less_is_more_but_where_dynamic_token_compression_via_llm-guided_keyframe_prior.md)**
+
+:   提出 DyToK，一种无需训练的视频 token 动态压缩方法，利用 VLLM 深层注意力中固有的 query 条件关键帧先验，为不同帧自适应分配 token 预算，实现即插即用式的效率-精度最优权衡。
+
 **[Linear Attention for Efficient Bidirectional Sequence Modeling](linear_attention_for_efficient_bidirectional_sequence_modeling.md)**
 
 :   提出 Lion 框架，首次系统地将线性 Transformer 扩展到双向序列建模，统一了全线性注意力、双向 RNN 和分块并行三种等价表示，在图像分类和 MLM 任务上训练速度比 SSM 快达 10 倍且性能可比 softmax Transformer。
@@ -359,33 +363,97 @@
 
 :   提出 rdFFT——首个真正原地（in-place）的实数域快速傅里叶变换框架，通过隐式复数编码方案消除中间缓冲区，实现训练时零额外内存开销的 FFT/IFFT 计算，内存效率最高提升 1500 倍以上。
 
+**[Mixture of Noise for Pre-Trained Model-Based Class-Incremental Learning](mixture_of_noise_for_pre-trained_model-based_class-incremental_learning.md)**
+
+:   提出学习有益的"混合噪声"来抑制预训练模型在增量学习中的参数漂移，通过在任务间进行动态权重混合噪声实现 SOTA 性能，特别在 50 步增量设置下表现突出。
+
 **[ModHiFi: Identifying High Fidelity Predictive Components for Model Modification](modhifi_identifying_high_fidelity_predictive_components_for_model_modification.md)**
 
 :   提出 Subset Fidelity 度量和 ModHiFi 框架，通过理论证明 Lipschitz 连续网络的局部重构误差线性上界全局误差，无需训练数据、损失函数或梯度，仅用合成数据即可识别模型中的高保真 (HiFi) 组件，统一实现结构化剪枝和类别遗忘两大任务。
+
+**[MoPFormer: Motion-Primitive Transformer for Wearable-Sensor Activity Recognition](mopformer_motion-primitive_transformer_for_wearable-sensor_activity_recognition.md)**
+
+:   提出 MoPFormer，将可穿戴传感器信号分解为运动原语（motion primitives）序列，通过 Transformer 建模原语间的时序依赖关系，在多个 HAR 基准上超越 SOTA 并保持轻量化。
 
 **[Multi-Task Vehicle Routing Solver via Mixture of Specialized Experts under State-Decomposable MDP](multi-task_vehicle_routing_solver_via_mixture_of_specialized_experts_under_state.md)**
 
 :   提出 **State-Decomposable MDP (SDMDP)** 框架将多种 VRP 变体重新表述为基础状态空间的笛卡尔积，再通过 **Mixture-of-Specialized-Experts Solver (MoSES)** 用专用 LoRA 专家实现基础策略的潜在空间复用，高效处理 16 种 VRP 变体。
 
+**[MUSTAFAR: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference](mustafar_promoting_unstructured_sparsity_for_kv_cache_pruning_in_llm_inference.md)**
+
+:   通过在 KV 缓存中引入非结构化稀疏性（per-token magnitude pruning）并设计自定义 bitmap 稀疏注意力 CUDA 核心，实现高达 70% 的 KV 缓存压缩，在保持模型精度的前提下获得最高 2.23 倍吞吐量提升。
+
+**[Noise-Robustness Through Noise: A Framework Combining Asymmetric LoRA with Poisoning MoE](noise-robustness_through_noise_a_framework_combining_asymmetric_lora_with_poison.md)**
+
+:   提出 LoPE，在非对称 LoRA 架构中设置专门的"中毒专家"接收注入噪声，推理时屏蔽该专家，仅通过正常专家输出实现噪声鲁棒——以噪声对抗噪声，完全无需数据清洗。
+
+**[On the Hardness of Approximating Distributions with Tractable Probabilistic Models](on_the_hardness_of_approximating_distributions_with_tractable_probabilistic_mode.md)**
+
+:   本文证明了用可处理概率模型（如分解概率电路）在有界f-散度下近似任意分布是NP-hard的，并证明了在近似建模条件下分解PC和（确定性+分解）PC之间存在指数级大小差距，揭示了近似放宽并不能缓解精确建模中的复杂度瓶颈。
+
 **[Optimizing Distributional Geometry Alignment with Optimal Transport for Generative Dataset Distillation](optimizing_distributional_geometry_alignment_with_optimal_transport_for_generati.md)**
 
 :   将数据集蒸馏重新表述为最优传输（OT）距离最小化问题，通过三阶段（OT引导扩散采样、标签-图像对齐软重标注、OT logit匹配）实现细粒度分布几何对齐，在ImageNet-1K IPC=10上比之前SOTA提升至少4%。
+
+**[Order-Level Attention Similarity Across Language Models: A Latent Commonality](order-level_attention_similarity_across_language_models_a_latent_commonality.md)**
+
+:   提出 Order-Level Attention (OLA)——对 Attention Rollout 的阶次分解，发现不同语言模型在同阶 OLA 上存在显著相似性 (OLAS)，并且 OLA 隐式编码了句法知识，基于此提出 TOA 实现首个无需训练的跨LM适配器迁移。
 
 **[Preserving LLM Capabilities through Calibration Data Curation: From Analysis to Optimization](preserving_llm_capabilities_through_calibration_data_curation_from_analysis_to_o.md)**
 
 :   系统研究了校准数据的组成特性（序列长度/样本量/来源/格式）和领域对应关系对LLM压缩后能力保持的影响，发现激活空间中的代表性和多样性是数据质量的本质决定因素，并据此提出三阶段校准数据策展框架COLA。
 
+**[QSVD: Efficient Low-Rank Approximation for Unified Query-Key-Value Weight Compression](qsvd_efficient_low-rank_approximation_for_unified_query-key-value_weight_compres.md)**
+
+:   提出QSVD方法，通过对QKV联合权重矩阵的SVD分解共享下投影矩阵来减少KV缓存和计算开销，结合基于重要性评分的自适应秩分配和量化技术，在VLM上实现超过10%的精度提升且硬件成本更低。
+
+**[Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization](quantization_error_propagation_revisiting_layer-wise_post-training_quantization.md)**
+
+:   识别现有逐层 PTQ 方法忽略量化误差跨层累积和增长的关键瓶颈，提出 QEP 框架通过误差传播和补偿显式纠正累积误差，在极低比特（INT2/INT3）下实现大幅性能提升。
+
+**[RAT: Bridging RNN Efficiency and Attention Accuracy via Chunk-based Sequence Modeling](rat_bridging_rnn_efficiency_and_attention_accuracy_via_chunk-based_sequence_mode.md)**
+
+:   提出 RAT，一种基于 Chunk 的中间架构——在 Chunk 内使用 RNN 建模局部依赖、Chunk 间使用 softmax 注意力实现全局访问——L=16时推理速度提升 9 倍且性能与标准注意力持平。
+
 **[RCCDA: Adaptive Model Updates in the Presence of Concept Drift under a Constrained Resource Budget](rccda_adaptive_model_updates_in_the_presence_of_concept_drift_under_a_constraine.md)**
 
 :   提出 RCCDA，一种基于 Lyapunov 漂移惩罚框架的轻量级模型更新策略，在数据分布随时间漂移（concept drift）场景下，仅利用历史推理损失信息和可调阈值，就能贪心最优地决定何时重训模型，同时可证明地满足严格资源预算约束。
+
+**[Rectifying Soft-Label Entangled Bias in Long-Tailed Dataset Distillation](rectifying_soft-label_entangled_bias_in_long-tailed_dataset_distillation.md)**
+
+:   揭示了长尾数据集蒸馏中软标签存在来自蒸馏模型和蒸馏图像的双重纠缠偏差，提出 ADSA 自适应软标签对齐模块，通过logit空间的后处理校准消除偏差，作为即插即用模块可无缝集成到现有蒸馏方法中，在 ImageNet-1k-LT 上将尾部类准确率提升高达11.8%。
 
 **[RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models](reflora_refactored_low-rank_adaptation_for_efficient_fine-tuning_of_large_models.md)**
 
 :   RefLoRA 通过在每次迭代中选择最优的低秩分解形式（最小化损失上界），解决了 LoRA 因分解不唯一性导致的权重更新不一致和不平衡问题，在几乎不增加计算开销的前提下加速收敛并提升微调性能。
 
+**[REP: Resource-Efficient Prompting for Rehearsal-Free Continual Learning](rep_resource-efficient_prompting_for_rehearsal-free_continual_learning.md)**
+
+:   REP 通过轻量代理模型的快速提示选择、自适应 Token 合并（AToM）和自适应层丢弃（ALD）三种互补技术，将基于提示的无排练持续学习方法的训练时间减少最高 51%、内存降低最高 41%，精度损失微乎其微。
+
+**[ReplaceMe: Network Simplification via Depth Pruning and Transformer Block Linearization](replaceme_network_simplification_via_depth_pruning_and_transformer_block_lineari.md)**
+
+:   提出 ReplaceMe，一种无训练的深度剪枝方法：用少量校准数据估计线性变换来近似被剪枝的 Transformer 块组，该变换可融合到相邻层权重中不增加参数，在 LLaMA-2-7B 上实现 25% 剪枝率并保留约 90% 性能。
+
+**[Representation Consistency for Accurate and Coherent LLM Answer Aggregation](representation_consistency_for_accurate_and_coherent_llm_answer_aggregation.md)**
+
+:   提出 Representation Consistency (RC)，通过分析 LLM 生成多个候选答案时内部激活的一致性来改进答案聚合：同一答案的多条推理路径如果内部表示高度一致则更可能正确，结合稀疏自编码器的稀疏变体 RC-S 效果最优，在 4 个 LLM 和 4 个推理数据集上一致优于 Self-Consistency。
+
+**[Restoring Pruned Large Language Models via Lost Component Compensation](restoring_pruned_large_language_models_via_lost_component_compensation.md)**
+
+:   RestoreLCC 提出了一种面向剪枝 LLM 的定向恢复策略：通过对比探测定位关键注意力头，利用 SVD 分解提取剪枝丢失的激活成分，将其作为可优化的偏置向量注入回剪枝模型，在不影响稀疏性和推理速度的前提下显著恢复性能。
+
+**[Revisiting Semi-Supervised Learning in the Era of Foundation Models](revisiting_semi-supervised_learning_in_the_era_of_foundation_models.md)**
+
+:   系统性研究发现传统 SSL 方法在 VFM 时代效益有限——仅用有标签数据的 PEFT 即可匹敌 SSL——由此提出 V-PET：集成多种 PEFT 方法和多种 VFM 的伪标签来实现简洁高效的半监督学习。
+
 **[Robust Federated Finetuning of LLMs via Alternating Optimization of LoRA](robust_federated_finetuning_of_llms_via_alternating_optimization_of_lora.md)**
 
 :   提出 RoLoRA，通过交替优化 LoRA 的 down-projection (A) 和 up-projection (B) 矩阵，解决联邦学习中 LoRA 聚合不精确和表达力受限的问题，在 RoBERTa-Large 和 Llama-2-7B 上显著优于 FedAVG of LoRA 和 FFA-LoRA。
+
+**[S2M-Former: Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection](s2m-former_spiking_symmetric_mixing_branchformer_for_brain_auditory_attention_de.md)**
+
+:   提出 S2M-Former，一种基于脉冲神经网络的对称双分支框架，通过通道参数化 LIF 神经元和 1D Token 化设计，在参数减少 14.7 倍、功耗降低 5.8 倍的同时实现与 SOTA 相当的 EEG 听觉注意力检测性能。
 
 **[SHAP Meets Tensor Networks: Provably Tractable Explanations with Parallelism](shap_meets_tensor_networks_provably_tractable_explanations_with_parallelism.md)**
 
@@ -403,9 +471,13 @@
 
 :   提出"泛化之后特化"框架，基于线性表示假设（LRH）从理论和实验两方面解释了测试时训练（TTT）在分布内数据上的有效性：基础模型全局欠参数化导致概念叠加干扰，TTT通过局部特化将模型容量重新分配给与测试任务相关的少数概念，从而在不增加模型规模的情况下提升预测性能。
 
-**[SYMPHONY: Synergistic Multi-agent Planning with Heterogeneous Language Model Assemblies](symphony_synergistic_multi-agent_planning_with_heterogeneous_language_model_asse.md)**
+**[Steering Information Utility in Key-Value Memory for Language Model Post-Training](steering_information_utility_in_key-value_memory_for_language_model_post-trainin.md)**
 
-:   提出 SYMPHONY，一个基于 MCTS 的多智能体规划框架，通过异构 LLM 池的多样性驱动搜索、UCB 自适应调度、熵调制置信度评估和池级记忆共享，显著提升了 LLM 规划的多样性和效率。
+:   提出 InfoSteer，通过前向传播干预和反向传播正则化来促进 FFN 键值记忆中低活跃记忆向量的利用，使预训练知识在后训练阶段被更充分使用，在 Qwen/LLaMA/Gemma 上 15 个任务一致提升。
+
+**[Synergy between the Strong and the Weak: Spiking Neural Networks Are Inherently Superior in Temporal Processing](synergy_between_the_strong_and_the_weak_spiking_neural_networks_are_inherently_s.md)**
+
+:   本文发现 SNN 可以在时间维度上天然解构为多个子模型，通过对比各时间步子模型的输出置信度识别"强"与"弱"，提出 Strong2Weak 和 Weak2Strong 两种自蒸馏方案，无需额外教师模型即可显著提升 SNN 性能，尤其在神经形态数据集上提升高达 5.36%。
 
 **[The Graphon Limit Hypothesis: Understanding Neural Network Pruning via Infinite Width Analysis](the_graphon_limit_hypothesis_understanding_neural_network_pruning_via_infinite_w.md)**
 
@@ -415,6 +487,34 @@
 
 :   通过在 CMI（条件互信息）框架中引入**随机投影**和**有损压缩**，推导出更紧的泛化界，解决了经典 CMI 界在 SCO 反例上失效的问题，并证明记忆化对良好泛化并非必要。
 
+**[Toward Efficient Inference Attacks: Shadow Model Sharing via Mixture-of-Experts](toward_efficient_inference_attacks_shadow_model_sharing_via_mixture-of-experts.md)**
+
+:   提出基于 Mixture-of-Experts 的影子模型共享方案，通过在多种推理攻击任务间共享影子模型的特征提取层、仅训练任务特定的轻量专家模块来降低影子模型的整体训练成本，同时保持或提升攻击性能。
+
+**[Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era](towards_implicit_aggregation_robust_image_representation_for_place_recognition_i.md)**
+
+:   提出 ImAge（Implicit Aggregation），在 Transformer 骨干网络中插入可学习的聚合 Token，利用内在自注意力机制隐式聚合 patch 特征为全局描述符，无需额外聚合器即超越 SALAD 和 BoQ，在 MSLS 排行榜排名第一。
+
+**[Towards Unsupervised Open-Set Graph Domain Adaptation via Dual Reprogramming](towards_unsupervised_open-set_graph_domain_adaptation_via_dual_reprogramming.md)**
+
+:   提出 GraphRTA 框架，通过模型重编程（基于梯度的权重剪枝）和图重编程（目标图结构与特征优化）双重机制，解决无监督开放集图域适应中已知类分类与未知类识别难题，无需人工设定阈值。
+
 **[Transformer Key-Value Memories Are Nearly as Interpretable as Sparse Autoencoders](transformer_key-value_memories_are_nearly_as_interpretable_as_sparse_autoencoder.md)**
 
 :   系统比较了Transformer前馈层（FF）的键值记忆特征与稀疏自编码器（SAE）学到的特征的可解释性，发现两者在现有评测指标上表现相当，FF-KV在某些方面甚至更优，质疑了SAE作为特征发现工具的必要性。
+
+**[Twilight: Adaptive Attention Sparsity with Hierarchical Top-p Pruning](twilight_adaptive_attention_sparsity_with_hierarchical_top-p_pruning.md)**
+
+:   提出 Twilight，借鉴 top-p 采样（nucleus sampling）的思想替代固定预算 top-k 做注意力稀疏——动态选择注意力权重累积达 p% 的最少 Token，自适应不同注意力头的分布特征，在保持精度的同时比 SOTA 稀疏注意力再提速 1.4x。
+
+**[Understanding Differential Transformer Unchains Pretrained Self-Attentions](understanding_differential_transformer_unchains_pretrained_self-attentions.md)**
+
+:   深入分析 Differential Transformer（差分注意力）的内部机制，揭示差分操作等效于一种鲁棒的注意力去噪过程——它"解放"了受 softmax 归一化约束的预训练自注意力，使注意力权重更自由地分配到真正重要的 Token 上。
+
+**[Universal Cross-Tokenizer Distillation via Approximate Likelihood Matching](universal_cross-tokenizer_distillation_via_approximate_likelihood_matching.md)**
+
+:   本文提出 Approximate Likelihood Matching (ALM)，一种基于二值化 f-散度的原则性跨分词器蒸馏方法，首次实现了跨根本不同分词器（如子词→字节级）的有效蒸馏和纯蒸馏。
+
+**[zip2zip: Inference-Time Adaptive Tokenization via Online Compression](zip2zip_inference-time_adaptive_tokenization_via_online_compression.md)**
+
+:   提出 zip2zip，通过将 LZW 在线压缩算法集成到 LLM 推理流程中，实现推理时动态扩展词表生成"超级Token"（hypertokens），将输入输出序列长度缩减 15-40%，端到端延迟降低最高 40%。

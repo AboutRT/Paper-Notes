@@ -1,9 +1,9 @@
 # Aether: Geometric-Aware Unified World Modeling
 
-**会议**: ICCV 2025
-**arXiv**: [2503.18945](https://arxiv.org/abs/2503.18945)
-**代码**: https://github.com/AetherWorld (有)
-**领域**: 世界模型/视频生成
+**会议**: ICCV 2025  
+**arXiv**: [2503.18945](https://arxiv.org/abs/2503.18945)  
+**代码**: https://github.com/AetherWorld (有)  
+**领域**: 世界模型/视频生成  
 **关键词**: 世界模型, 4D重建, 动作条件视频预测, 视觉规划, 扩散模型
 
 ## 一句话总结

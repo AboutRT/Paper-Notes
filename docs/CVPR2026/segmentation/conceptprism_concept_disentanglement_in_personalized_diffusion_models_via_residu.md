@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization
 
-**会议**: CVPR2026
-**arXiv**: [2602.19575](https://arxiv.org/abs/2602.19575)
-**代码**: 待确认
-**领域**: segmentation
+**会议**: CVPR2026  
+**arXiv**: [2602.19575](https://arxiv.org/abs/2602.19575)  
+**代码**: 待确认  
+**领域**: segmentation  
 **关键词**: 个性化扩散模型, 概念解耦, 残余token优化, Textual Inversion, LoRA, 对比学习
 
 ## 一句话总结

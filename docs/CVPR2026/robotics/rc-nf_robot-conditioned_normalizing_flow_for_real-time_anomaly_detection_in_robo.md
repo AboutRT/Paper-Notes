@@ -1,9 +1,9 @@
 # RC-NF: Robot-Conditioned Normalizing Flow for Real-Time Anomaly Detection in Robotic Manipulation
 
-**会议**: CVPR2026
-**arXiv**: [2603.11106](https://arxiv.org/abs/2603.11106)
-**代码**: 无
-**领域**: robotics
+**会议**: CVPR2026  
+**arXiv**: [2603.11106](https://arxiv.org/abs/2603.11106)  
+**代码**: 无  
+**领域**: robotics  
 **关键词**: anomaly detection, normalizing flow, VLA monitoring, robotic manipulation, out-of-distribution
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Scaling Equitable Reflection Assessment in Education via Large Language Models
 
-**会议**: AAAI 2026
-**arXiv**: [2511.11772](https://arxiv.org/abs/2511.11772)
-**代码**: 无
-**领域**: LLM NLP
+**会议**: AAAI 2026  
+**arXiv**: [2511.11772](https://arxiv.org/abs/2511.11772)  
+**代码**: 无  
+**领域**: LLM NLP  
 **关键词**: 教育评估, LLM评分, 反思写作, 公平性, NLP应用
 
 ## 一句话总结

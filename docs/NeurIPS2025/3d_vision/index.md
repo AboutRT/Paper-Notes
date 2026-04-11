@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🧠 NeurIPS2025** · 共 **59** 篇
+**🧠 NeurIPS2025** · 共 **84** 篇
 
 **[3D-Agent: Tri-Modal Multi-Agent Collaboration for Scalable 3D Object Annotation](3d-agenttri-modal_multi-agent_collaboration_for_scalable_3d_object_annotation.md)**
 
@@ -207,13 +207,65 @@
 
 :   通过将每个3D高斯视为全局字典上的稀疏编码，LangSplatV2用稀疏系数场替代重量级解码器，实现476.2 FPS的高维特征溅射和384.6 FPS的3D开放词汇查询，较LangSplat加速47倍。
 
+**[Learning Efficient Fuse-and-Refine for Feed-Forward 3D Gaussian Splatting](learning_efficient_fuse-and-refine_for_feed-forward_3d_gaussian_splatting.md)**
+
+:   提出Fuse-and-Refine模块，通过混合Splat-Voxel表征将像素对齐的高斯基元聚合到粗到细的体素层次结构中，用稀疏体素Transformer在15ms内融合约20万基元并提升约2dB PSNR，且仅在静态场景训练即可零样本泛化到流式动态场景重建。
+
+**[Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors](learning_from_videos_for_3d_world_enhancing_mllms_with_3d_vision_geometry_priors.md)**
+
+:   VG LLM提出将3D视觉几何编码器（VGGT）集成到多模态大语言模型中，仅从视频输入（无需显式3D数据）即可提取和融合3D几何先验，在3D场景理解和空间推理任务上显著提升MLLM性能，4B模型在VSI-Bench上超越Gemini-1.5-Pro。
+
+**[Learning Neural Exposure Fields for View Synthesis](learning_neural_exposure_fields_for_view_synthesis.md)**
+
+:   提出神经曝光场（NExF），通过学习每个 3D 点的最优曝光值（而非每张图像的曝光），实现 3D 一致的高质量视图合成，在高动态范围场景中相比 SOTA 方法 PSNR 提升 3.5+，速度快 50 倍。
+
+**[Less is More: Unlocking Specialization of Time Series Foundation Models via Structured Pruning](less_is_more_unlocking_specialization_of_time_series_foundation_models_via_struc.md)**
+
+:   揭示预训练时间序列基础模型（TSFM）存在固有的任务相关稀疏性，提出"先剪枝再微调"范式——通过结构化剪枝移除任务无关参数，使剪枝后微调的小模型显著超越直接微调的原模型，甚至胜过强专用基线。
+
+**[Linearly Constrained Diffusion Implicit Models](linearly_constrained_diffusion_implicit_models.md)**
+
+:   提出 CDIM，一种基于 DDIM 的线性逆问题求解算法，通过将残差能量与前向扩散过程的 $\chi^2$ 分布对齐来自适应控制投影步数和步长，实现比 DPS 快 10-50 倍的推理速度，同时在无噪声情况下精确满足测量约束。
+
+**[LinPrim: Linear Primitives for Differentiable Volumetric Rendering](linprim_linear_primitives_for_differentiable_volumetric_rendering.md)**
+
+:   提出 LinPrim，用线性基元（八面体和四面体）替代3D高斯核作为新视角合成的场景表示，通过可微光栅化pipeline实现端到端优化，在真实数据集上以更少的基元数量达到与3DGS可比的重建质量，同时保持实时渲染能力。
+
+**[Locality-Sensitive Hashing-Based Efficient Point Transformer for Charged Particle Reconstruction](locality-sensitive_hashing-based_efficient_point_transformer_for_charged_particl.md)**
+
+:   通过将 LSH 与 Point Transformer 结合，提出 HEPTv2 实现粒子轨迹重建的端到端学习，消除了 DBScan 聚类后处理瓶颈，在保持竞争性追踪效率的同时实现 28.9 倍加速。
+
+**[LODGE: Level-of-Detail Large-Scale Gaussian Splatting with Efficient Rendering](lodge_level-of-detail_large-scale_gaussian_splatting_with_efficient_rendering.md)**
+
+:   提出 LODGE，通过层次化 LOD（Level-of-Detail）策略对 3D Gaussian Splatting 进行多尺度管理，根据相机距离动态选择合适粒度的 Gaussian 表示，实现大规模场景的高质量实时渲染。
+
+**[Mesh-RFT: Enhancing Mesh Generation via Fine-Grained Reinforcement Fine-Tuning](mesh-rft_enhancing_mesh_generation_via_fine-grained_reinforcement_fine-tuning.md)**
+
+:   提出 Mesh-RFT 框架，通过拓扑感知评分系统和掩码直接偏好优化（M-DPO）实现面级别的细粒度网格质量优化，显著提升生成网格的几何完整性和拓扑规则性。
+
+**[Mesh Interpolation Graph Network for Dynamic and Spatially Irregular Global Weather Forecasting](mesh_interpolation_graph_network_for_dynamic_and_spatially_irregular_global_weat.md)**
+
+:   提出 MIGN 框架，通过网格插值策略将不规则气象站数据映射到规则 HEALPix 网格上进行消息传递，并引入参数化球谐函数位置编码增强空间泛化能力，在全球天气预报任务中显著超越现有方法。
+
+**[Metropolis-Hastings Sampling for 3D Gaussian Reconstruction](metropolis-hastings_sampling_for_3d_gaussian_reconstruction.md)**
+
+:   将 3DGS 的密度控制（克隆/分裂/剪枝）重新建模为 Metropolis-Hastings 概率采样过程，利用多视角光度误差聚合和不透明度评分构建重要性得分，从而自适应地插入和移除高斯体。
+
 **[Modeling Microenvironment Trajectories on Spatial Transcriptomics with NicheFlow](modeling_microenvironment_trajectories_on_spatial_transcriptomics_with_nicheflow.md)**
 
 :   NicheFlow是一种基于Flow Matching的生成模型，将细胞微环境表示为点云，通过Variational Flow Matching和最优传输联合建模细胞状态与空间坐标的时间演化，在胚胎发育、脑发育和衰老数据集上显著优于单细胞级别的轨迹推断方法。
 
+**[MPMAvatar: Learning 3D Gaussian Avatars with Accurate and Robust Physics-Based Dynamics](mpmavatar_learning_3d_gaussian_avatars_with_accurate_and_robust_physics-based_dy.md)**
+
+:   提出 MPMAvatar，将 Material Point Method（MPM）物理仿真器与 3D 高斯溅射相结合，通过各向异性本构模型和新碰撞处理算法实现宽松衣物的精确、鲁棒物理动画，并支持零样本交互泛化。
+
 **[Multi-Scale Finetuning for Encoder-based Time Series Foundation Models](multi-scale_finetuning_for_encoder-based_time_series_foundation_models.md)**
 
 :   提出 MSFT（Multi-Scale FineTuning），通过因果分析揭示 naive 微调忽略尺度混淆问题，设计多尺度建模框架对 encoder-based 时间序列基础模型进行高效微调，显著超越 naive 微调和从头训练的 SOTA 方法。
+
+**[Neural Green's Functions](neural_greens_functions.md)**
+
+:   提出 Neural Green's Function，一种基于特征分解的可学习线性 PDE 解算子：从域几何中提取逐点特征来预测 Green 函数的特征分解，一次训练即可对任意源函数和边界条件通过数值积分求解，在机械零件热分析上比 SOTA 神经算子误差降低 13.9% 且比数值求解器快 350 倍。
 
 **[Object-Centric Representation Learning For Enhanced 3D Semantic Scene Graph Pred](object-centric_representation_learning_for_enhanced_3d_semantic_scene_graph_pred.md)**
 
@@ -223,6 +275,38 @@
 
 :   提出 OnlineSplatter，一个无需相机位姿、深度先验或全局优化的前馈式在线3D重建框架，通过双键记忆模块（外观-几何潜在键 + 方向键）实现自由移动物体的恒定时间增量重建。
 
+**[PointMAC: Meta-Learned Adaptation for Robust Test-Time Point Cloud Completion](pointmac_meta-learned_adaptation_for_robust_test-time_point_cloud_completion.md)**
+
+:   提出 PointMAC，首个将元辅助学习和测试时适应（TTA）引入点云补全的框架：通过 Bi-Aux Units（随机掩码重建+噪声去除）提供自监督信号，MAML 对齐辅助目标与主任务，推理时仅更新共享编码器实现样本级精化，在合成/模拟/真实数据上达到 SOTA。
+
+**[PoseCrafter: Extreme Pose Estimation with Hybrid Video Synthesis](posecrafter_extreme_pose_estimation_with_hybrid_video_synthesis.md)**
+
+:   提出 PoseCrafter，一种无需训练的极端位姿估计框架：通过混合视频生成（HVG，DynamiCrafter+ViewCrafter双阶段）合成高保真中间帧解决极小/无重叠图像对的位姿估计，配合特征匹配选择器（FMS）高效选取最有用的中间帧，在四个数据集上显著提升极端位姿估计精度。
+
+**[Quantifying and Alleviating Co-Adaptation in Sparse-View 3D Gaussian Splatting](quantifying_and_alleviating_co-adaptation_in_sparse-view_3d_gaussian_splatting.md)**
+
+:   揭示了稀疏视角 3DGS 中外观伪影的根本原因——高斯体之间的协同适应（co-adaptation），提出 Co-Adaptation Score 度量指标，以及 Gaussian Dropout 和不透明度噪声注入两种即插即用缓解策略。
+
+**[Reconstruct, Inpaint, Test-Time Finetune: Dynamic Novel-View Synthesis from Monocular Videos](reconstruct_inpaint_test-time_finetune_dynamic_novel-view_synthesis_from_monocul.md)**
+
+:   提出 CogNVS，将动态场景新视角合成分解为三阶段管线——3D 重建（获取可见像素）→ 视频扩散修复（生成遮挡区域）→ 测试时微调（适应目标视频的分布），用纯 2D 视频自监督训练修复模型，实现零样本泛化到新测试视频。
+
+**[Rectified Point Flow: Generic Point Cloud Pose Estimation](rectified_point_flow_generic_point_cloud_pose_estimation.md)**
+
+:   提出 Rectified Point Flow，一种统一的生成式框架，将成对点云配准和多部件形状组装统一为条件生成问题，通过学习连续点级速度场来估计部件位姿。
+
+**[RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes](rgb-only_supervised_camera_parameter_optimization_in_dynamic_scenes.md)**
+
+:   提出 ROS-Cam，仅用单个 RGB 视频监督即可在动态场景中高效准确地估计相机参数（焦距+位姿），通过 Patch 跟踪过滤器、异常值感知联合优化和两阶段优化策略实现。
+
+**[Robust Neural Rendering in the Wild with Asymmetric Dual 3D Gaussian Splatting](robust_neural_rendering_in_the_wild_with_asymmetric_dual_3d_gaussian_splatting.md)**
+
+:   AsymGS利用一个关键观察——野外训练数据引起的重建伪影具有随机性——提出非对称双3DGS框架，通过互补掩码策略和一致性约束抑制伪影，并引入Dynamic EMA Proxy实现高效训练，在多个野外数据集上显著超越现有方法。
+
+**[Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis](shallow_flow_matching_for_coarse-to-fine_text-to-speech_synthesis.md)**
+
+:   提出 Shallow Flow Matching（SFM），在粗到细 TTS 框架中利用弱生成器输出构建 flow matching 中间状态，使推理从中间状态而非纯噪声出发，同时提升合成质量和加速推理。
+
 **[SingRef6D: Monocular Novel Object Pose Estimation with a Single RGB Reference](singref6d_monocular_novel_object_pose_estimation_with_a_single_rgb_reference.md)**
 
 :   提出SingRef6D，一个仅需单张RGB参考图像的轻量级6D位姿估计流水线，通过token-scaler微调Depth-Anything v2实现鲁棒深度预测，并引入深度感知匹配增强LoFTR的空间推理能力，在透明/反光物体场景中大幅超越现有方法。
@@ -231,6 +315,10 @@
 
 :   提出"语义朝向"(Semantic Orientation)概念，用自然语言描述物体方向（如 USB 的"插入方向"、杯子的"把手方向"），构建 OrienText300K 大规模数据集训练 PointSO 模型实现零样本朝向预测，并集成为 SoFar 系统实现 6-DoF 场景理解与机器人操作。
 
+**[SyncHuman: Synchronizing 2D and 3D Generative Models for Single-View Human Reconstruction](synchuman_synchronizing_2d_and_3d_generative_models_for_single-view_human_recons.md)**
+
+:   SyncHuman首次将2D多视图生成模型与3D原生生成模型统一在一个框架中，通过像素对齐的2D-3D同步注意力机制实现互补增强，在复杂人体姿态下实现了高保真纹理网格重建，几何精度和视觉质量均超越现有方法。
+
 **[Temporal Smoothness-Aware Rate-Distortion Optimized 4D Gaussian Splatting](temporal_smoothness-aware_rate-distortion_optimized_4d_gaussian_splatting.md)**
 
 :   提出首个端到端率失真（RD）优化的 4D 高斯泼溅压缩框架，通过 Haar 小波变换利用动态点轨迹的时序平滑先验，在 Ex4DGS 基础上实现高达 91× 的压缩率（平均模型仅约原始 1.1%），同时保持合理的渲染质量和灵活的率-质量权衡控制。
@@ -238,3 +326,15 @@
 **[TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning](tirex_zero-shot_forecasting_across_long_and_short_horizons_with_enhanced_in-cont.md)**
 
 :   提出基于xLSTM的预训练时间序列预测模型TiRex，通过连续片段掩码（CPM）策略和数据增强技术，在GiftEval和Chronos-ZS两大标准基准上以仅35M参数全面超越Chronos Bolt（200M）、TimesFM（500M）等大模型，同时在短期和长期零样本预测中均达到SOTA。
+
+**[Towards 3D Objectness Learning in an Open World](towards_3d_objectness_learning_in_an_open_world.md)**
+
+:   提出 OP3Det，一个无需文本提示的类无关开放世界 3D 检测器，通过 2D 基础模型进行 3D 物体发现，并设计跨模态混合专家（MoE）动态融合点云与图像特征，大幅提升新类别物体的召回率。
+
+**[UGM2N: An Unsupervised and Generalizable Mesh Movement Network via M-Uniform Loss](ugm2n_an_unsupervised_and_generalizable_mesh_movement_network_via_m-uniform_loss.md)**
+
+:   提出 UGM2N，通过局部化节点 patch 特征学习和 M-Uniform 损失函数实现无监督网格移动，无需预适应网格数据即可实现跨方程和跨几何的零样本泛化。
+
+**[UMAMI: Unifying Masked Autoregressive Models and Deterministic Rendering for View Synthesis](umami_unifying_masked_autoregressive_models_and_deterministic_rendering_for_view.md)**
+
+:   提出 UMAMI，一个统一掩码自回归模型（MAR）和确定性渲染的混合框架用于稀疏视角新视角合成：双向 Transformer 编码多视角图像 Token 和 Plücker 射线嵌入，两个轻量级 MLP 头分别处理可见区域（确定性回归）和遮挡区域（MAR 扩散生成），渲染速度比全生成基线快一个数量级。

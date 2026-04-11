@@ -1,9 +1,9 @@
 # Learning Structure-Semantic Evolution Trajectories for Graph Domain Adaptation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.10506](https://arxiv.org/abs/2602.10506)
-**代码**: [DiffGDA](https://github.com/chenwei23/DiffGDA)
-**领域**: 图学习/领域自适应
+**会议**: ICLR 2026  
+**arXiv**: [2602.10506](https://arxiv.org/abs/2602.10506)  
+**代码**: [DiffGDA](https://github.com/chenwei23/DiffGDA)  
+**领域**: 图学习/领域自适应  
 **关键词**: 图域适应, 扩散模型, SDE, 连续演化, 域感知引导
 
 ## 一句话总结

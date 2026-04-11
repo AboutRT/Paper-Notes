@@ -1,11 +1,11 @@
 # FitCF: A Framework for Automatic Feature Importance-guided Counterfactual Example Generation
 
-**会议**: ACL 2025
-**arXiv**: [2501.00777](https://arxiv.org/abs/2501.00777)
-**代码**: [https://github.com/qiaw99/FitCF](https://github.com/qiaw99/FitCF)
+**会议**: ACL 2025  
+**arXiv**: [2501.00777](https://arxiv.org/abs/2501.00777)  
+**代码**: [https://github.com/qiaw99/FitCF](https://github.com/qiaw99/FitCF)  
 **作者**: Qianli Wang, Nils Feldhus, Simon Ostermann, Luis Felipe Villa-Arenas, Sebastian Möller, Vera Schmitt
 **机构**: TU Berlin, DFKI, Deutsche Telekom, Saarland Informatics Campus
-**领域**: 因果推理 / 可解释AI
+**领域**: 因果推理 / 可解释AI  
 **关键词**: 反事实生成, 特征归因, few-shot提示, 标签翻转验证, 可解释性
 
 ## 一句话总结

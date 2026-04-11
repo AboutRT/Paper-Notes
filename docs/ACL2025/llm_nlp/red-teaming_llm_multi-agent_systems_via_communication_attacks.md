@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Red-Teaming LLM Multi-Agent Systems via Communication Attacks
 
-**会议**: ACL2025
-**arXiv**: [2502.14847](https://arxiv.org/abs/2502.14847)
-**代码**: 待发布
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.14847](https://arxiv.org/abs/2502.14847)  
+**代码**: 待发布  
+**领域**: llm_nlp  
 **关键词**: multi-agent systems, red-teaming, communication attack, man-in-the-middle, LLM security
 
 ## 一句话总结

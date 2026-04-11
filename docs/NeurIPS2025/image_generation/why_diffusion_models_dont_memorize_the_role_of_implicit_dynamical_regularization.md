@@ -1,10 +1,10 @@
 # Why Diffusion Models Don't Memorize: The Role of Implicit Dynamical Regularization in Training
 
-**会议**: NeurIPS2025
-**arXiv**: [2505.17638](https://arxiv.org/abs/2505.17638)
+**会议**: NeurIPS2025  
+**arXiv**: [2505.17638](https://arxiv.org/abs/2505.17638)  
 **作者**: Tony Bonnaire, Raphaël Urfin, Giulio Biroli, Marc Mézard (LPENS/PSL Paris, Bocconi University)
-**代码**: 未公开
-**领域**: image_generation
+**代码**: 未公开  
+**领域**: image_generation  
 **关键词**: 扩散模型, 记忆化, 泛化, 隐式正则化, 训练动力学, 随机特征, 早停
 
 ## 一句话总结

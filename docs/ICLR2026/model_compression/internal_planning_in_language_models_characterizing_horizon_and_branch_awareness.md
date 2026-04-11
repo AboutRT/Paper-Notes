@@ -1,9 +1,9 @@
 # Internal Planning in Language Models: Characterizing Horizon and Branch Awareness
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25260](https://arxiv.org/abs/2509.25260)
-**代码**: 有（附补充材料）
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2509.25260](https://arxiv.org/abs/2509.25260)  
+**代码**: 有（附补充材料）  
+**领域**: 模型压缩  
 **关键词**: 语言模型规划, 互信息, VQ-VAE, 前瞻性, 分支意识
 
 ## 一句话总结

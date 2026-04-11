@@ -1,9 +1,9 @@
 # CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21655](https://arxiv.org/abs/2602.21655)
-**代码**: https://github.com/ZhijiangTang/CCCaption (有)
-**领域**: 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2602.21655](https://arxiv.org/abs/2602.21655)  
+**代码**: https://github.com/ZhijiangTang/CCCaption (有)  
+**领域**: 强化学习  
 **关键词**: 图像描述, 强化学习, 完整性, 正确性, 双奖励
 
 ## 一句话总结

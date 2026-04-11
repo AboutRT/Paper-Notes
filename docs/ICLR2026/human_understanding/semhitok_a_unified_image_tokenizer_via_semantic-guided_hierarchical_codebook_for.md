@@ -1,8 +1,8 @@
 # SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook
 
-**会议**: ICLR 2026
-**arXiv**: [2503.06764](https://arxiv.org/abs/2503.06764)
-**领域**: 统一多模态/图像tokenization
+**会议**: ICLR 2026  
+**arXiv**: [2503.06764](https://arxiv.org/abs/2503.06764)  
+**领域**: 统一多模态/图像tokenization  
 **关键词**: 图像tokenizer, 层次codebook, 语义引导, 理解+生成统一, SGHC, MLLM
 
 ## 一句话总结

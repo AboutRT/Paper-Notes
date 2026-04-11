@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Ani3DHuman: Photorealistic 3D Human Animation with Self-guided Stochastic Sampling
 
-**会议**: CVPR2026
-**arXiv**: [2602.19089](https://arxiv.org/abs/2602.19089)
-**代码**: [qiisun/ani3dhuman](https://github.com/qiisun/ani3dhuman)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2602.19089](https://arxiv.org/abs/2602.19089)  
+**代码**: [qiisun/ani3dhuman](https://github.com/qiisun/ani3dhuman)  
+**领域**: 图像生成  
 **关键词**: 3D人体动画, 视频扩散先验, 随机采样, 非刚体运动, 3D高斯溅射
 
 ## 一句话总结

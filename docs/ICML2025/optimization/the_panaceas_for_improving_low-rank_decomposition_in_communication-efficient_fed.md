@@ -1,10 +1,10 @@
 # The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient Federated Learning
 
-**会议**: ICML2025
-**arXiv**: [2505.23176](https://arxiv.org/abs/2505.23176)
+**会议**: ICML2025  
+**arXiv**: [2505.23176](https://arxiv.org/abs/2505.23176)  
 **作者**: Shiwei Li, Xiandi Luo, Haozhao Wang, Xing Tang, Shijie Xu, Weihong Luo, Yuhua Li, Xiuqiang He, Ruixuan Li
-**代码**: [GitHub](https://github.com/Leopold1423/fedmud-icml25)
-**领域**: optimization
+**代码**: [GitHub](https://github.com/Leopold1423/fedmud-icml25)  
+**领域**: optimization  
 **关键词**: federated learning, low-rank decomposition, communication efficiency, Kronecker decomposition, model aggregation
 
 ## 一句话总结

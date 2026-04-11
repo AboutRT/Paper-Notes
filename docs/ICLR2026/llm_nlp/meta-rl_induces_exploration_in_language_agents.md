@@ -1,9 +1,9 @@
 # Meta-RL Induces Exploration in Language Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2512.16848](https://arxiv.org/abs/2512.16848)
-**代码**: [mlbio-epfl/LaMer](https://github.com/mlbio-epfl/LaMer)
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2512.16848](https://arxiv.org/abs/2512.16848)  
+**代码**: [mlbio-epfl/LaMer](https://github.com/mlbio-epfl/LaMer)  
+**领域**: llm_nlp  
 **关键词**: Meta-RL, LLM Agent, 探索与利用, 多轮交互, 跨episode训练, 自我反思
 
 ## 一句话总结

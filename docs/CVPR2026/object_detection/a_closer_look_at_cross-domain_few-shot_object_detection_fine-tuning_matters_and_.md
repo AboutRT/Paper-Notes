@@ -1,9 +1,9 @@
 # A Closer Look at Cross-Domain Few-Shot Object Detection: Fine-Tuning Matters and Parallel Decoder Helps
 
-**会议**: CVPR 2026
-**arXiv**: [2603.28182](https://arxiv.org/abs/2603.28182)
-**代码**: https://github.com/Intellindust-AI-Lab/FT-FSOD (有)
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.28182](https://arxiv.org/abs/2603.28182)  
+**代码**: https://github.com/Intellindust-AI-Lab/FT-FSOD (有)  
+**领域**: 目标检测  
 **关键词**: 少样本目标检测, 跨域迁移, 混合集成解码器, 渐进微调, OOD鲁棒性
 
 ## 一句话总结

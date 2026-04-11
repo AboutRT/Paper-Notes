@@ -1,9 +1,9 @@
 # VidGuard-R1: AI-Generated Video Detection and Explanation via Reasoning MLLMs and RL
 
-**会议**: ICLR 2026
-**arXiv**: [2510.02282](https://arxiv.org/abs/2510.02282)
-**代码**: [项目页面](https://vidguard-r1.github.io/)
-**领域**: 视频真伪检测/推理
+**会议**: ICLR 2026  
+**arXiv**: [2510.02282](https://arxiv.org/abs/2510.02282)  
+**代码**: [项目页面](https://vidguard-r1.github.io/)  
+**领域**: 视频真伪检测/推理  
 **关键词**: AI生成视频检测, MLLM推理, GRPO, 时序伪影, 可解释取证
 
 ## 一句话总结

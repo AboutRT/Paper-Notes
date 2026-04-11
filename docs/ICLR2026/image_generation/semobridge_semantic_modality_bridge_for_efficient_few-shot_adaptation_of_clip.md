@@ -1,9 +1,9 @@
 # SeMoBridge: Semantic Modality Bridge for Efficient Few-Shot Adaptation of CLIP
 
-**会议**: ICLR 2026
-**arXiv**: [2509.26036](https://arxiv.org/abs/2509.26036)
-**代码**: [https://github.com/christti98/semobridge](https://github.com/christti98/semobridge)
-**领域**: 少样本学习 / 视觉语言模型
+**会议**: ICLR 2026  
+**arXiv**: [2509.26036](https://arxiv.org/abs/2509.26036)  
+**代码**: [https://github.com/christti98/semobridge](https://github.com/christti98/semobridge)  
+**领域**: 少样本学习 / 视觉语言模型  
 **关键词**: CLIP 适配, 模态间隙, 模态内不对齐, 少样本分类, 伪 EOS 令牌
 
 ## 一句话总结

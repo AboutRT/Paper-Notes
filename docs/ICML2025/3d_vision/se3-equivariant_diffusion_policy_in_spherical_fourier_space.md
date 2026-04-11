@@ -1,9 +1,9 @@
 # SE(3)-Equivariant Diffusion Policy in Spherical Fourier Space
 
-**会议**: ICML2025
-**arXiv**: [2507.01723](https://arxiv.org/abs/2507.01723)
-**代码**: [SDP](https://github.com/amazon-science/Spherical_Diffusion_Policy)
-**领域**: 3d_vision
+**会议**: ICML2025  
+**arXiv**: [2507.01723](https://arxiv.org/abs/2507.01723)  
+**代码**: [SDP](https://github.com/amazon-science/Spherical_Diffusion_Policy)  
+**领域**: 3d_vision  
 **关键词**: SE(3)等变, 扩散策略, 球面傅里叶, 闭环操作, 机器人学习
 
 ## 一句话总结

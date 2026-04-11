@@ -1,9 +1,9 @@
 # Mechanistic Interpretability of Emotion Inference in Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2502.05489](https://arxiv.org/abs/2502.05489)
-**代码**: GitHub（论文中提到）
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.05489](https://arxiv.org/abs/2502.05489)  
+**代码**: GitHub（论文中提到）  
+**领域**: llm_nlp  
 **关键词**: 机制可解释性, 情感推理, 激活修补, 认知评估理论, 生成引导
 
 ## 一句话总结

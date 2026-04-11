@@ -1,9 +1,9 @@
 # Learning 3D Object Spatial Relationships from Pre-trained 2D Diffusion Models
 
-**会议**: ICCV 2025
-**arXiv**: [2503.19914](https://arxiv.org/abs/2503.19914)
-**领域**: 3D视觉
-**关键词**: 物体空间关系, 扩散模型, 3D场景布局, Score-based模型, 多物体场景生成
+**会议**: ICCV 2025  
+**arXiv**: [2503.19914](https://arxiv.org/abs/2503.19914)  
+**领域**: 3D视觉  
+**关键词**: 物体空间关系, 扩散模型, 3D场景布局, Score-based模型, 多物体场景生成  
 **作者**: Sangwon Baik, Hyeonwoo Kim, Hanbyul Joo（首尔国立大学 & RLWRLD）
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Geometric Contact Flows: Contactomorphisms for Dynamics and Control
 
-**会议**: ICML2025
-**arXiv**: [2506.17868](https://arxiv.org/abs/2506.17868)
-**代码**: [项目主页](https://sites.google.com/view/geometric-contact-flows)
-**领域**: 机器人/接触动力学
+**会议**: ICML2025  
+**arXiv**: [2506.17868](https://arxiv.org/abs/2506.17868)  
+**代码**: [项目主页](https://sites.google.com/view/geometric-contact-flows)  
+**领域**: 机器人/接触动力学  
 **关键词**: 接触几何, 接触哈密顿, 微分同胚, 动力系统学习, 不确定性量化, 黎曼测地线, 机器人交互控制
 
 ## 一句话总结

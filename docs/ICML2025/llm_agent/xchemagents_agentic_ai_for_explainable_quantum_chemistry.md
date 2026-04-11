@@ -1,9 +1,9 @@
 # xChemAgents: Agentic AI for Explainable Quantum Chemistry
 
-**会议**: ICML2025
-**arXiv**: [2505.20574](https://arxiv.org/abs/2505.20574)
-**代码**: [GitHub - xChemAgents](https://github.com/KurbanIntelligenceLab/xChemAgents)
-**领域**: llm_agent
+**会议**: ICML2025  
+**arXiv**: [2505.20574](https://arxiv.org/abs/2505.20574)  
+**代码**: [GitHub - xChemAgents](https://github.com/KurbanIntelligenceLab/xChemAgents)  
+**领域**: llm_agent  
 **关键词**: 多Agent协作, 量子化学, 可解释性, 分子描述符选择, GNN
 
 ## 一句话总结

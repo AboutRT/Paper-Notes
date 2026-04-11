@@ -1,8 +1,8 @@
 # Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution
 
-**会议**: AAAI 2026
-**arXiv**: [2511.18761](https://arxiv.org/abs/2511.18761)
-**领域**: 多智能体强化学习
+**会议**: AAAI 2026  
+**arXiv**: [2511.18761](https://arxiv.org/abs/2511.18761)  
+**领域**: 多智能体强化学习  
 **关键词**: 多智能体协作, 主动推理, 队友建模, 无通信框架, 去中心化执行
 
 ## 一句话总结

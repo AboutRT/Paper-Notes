@@ -1,9 +1,9 @@
 # Evaluation of LLMs in Medical Text Summarization: The Role of Vocabulary Adaptation in High OOV Settings
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2505.21242](https://arxiv.org/abs/2505.21242)
-**代码**: [GitHub](https://github.com/gb-kgp/LLM-MedicalSummarization-Benchmark)
-**领域**: 医学文本
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2505.21242](https://arxiv.org/abs/2505.21242)  
+**代码**: [GitHub](https://github.com/gb-kgp/LLM-MedicalSummarization-Benchmark)  
+**领域**: 医学文本  
 **关键词**: vocabulary adaptation, medical summarization, OOV, LLM, tokenization, continual pretraining
 
 ## 一句话总结

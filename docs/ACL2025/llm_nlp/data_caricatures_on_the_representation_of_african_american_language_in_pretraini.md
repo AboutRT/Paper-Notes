@@ -1,9 +1,9 @@
 # Data Caricatures: On the Representation of African American Language in Pretraining Corpora
 
-**会议**: ACL 2025
-**arXiv**: [2503.10789](https://arxiv.org/abs/2503.10789)
-**代码**: [NickDeas/DataCaricatures](https://github.com/NickDeas/DataCaricatures)
-**领域**: NLP公平性 / 预训练数据分析
+**会议**: ACL 2025  
+**arXiv**: [2503.10789](https://arxiv.org/abs/2503.10789)  
+**代码**: [NickDeas/DataCaricatures](https://github.com/NickDeas/DataCaricatures)  
+**领域**: NLP公平性 / 预训练数据分析  
 **关键词**: African American Language, pretraining corpora, data quality, representation bias, automated filtering, sociolinguistic equity
 
 ## 一句话总结

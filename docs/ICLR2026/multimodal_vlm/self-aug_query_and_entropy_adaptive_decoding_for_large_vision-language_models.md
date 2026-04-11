@@ -1,9 +1,9 @@
 # Self-Aug: Query and Entropy Adaptive Decoding for Large Vision-Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13315](https://arxiv.org/abs/2510.13315)
-**代码**: [项目页面](https://eunwooim.github.io/selfaug)
-**领域**: 多模态VLM/解码优化
+**会议**: ICLR 2026  
+**arXiv**: [2510.13315](https://arxiv.org/abs/2510.13315)  
+**代码**: [项目页面](https://eunwooim.github.io/selfaug)  
+**领域**: 多模态VLM/解码优化  
 **关键词**: 视觉幻觉, 对比解码, 自增强, 熵自适应截断, 免训练
 
 ## 一句话总结

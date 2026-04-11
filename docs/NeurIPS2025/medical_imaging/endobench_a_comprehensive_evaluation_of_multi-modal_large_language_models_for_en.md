@@ -1,9 +1,9 @@
 # EndoBench: A Comprehensive Evaluation of Multi-Modal Large Language Models for Endoscopy Analysis
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.23601](https://arxiv.org/abs/2505.23601)
-**代码**: 已公开（benchmark + 代码）
-**领域**: 医学多模态 / 内窥镜分析
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.23601](https://arxiv.org/abs/2505.23601)  
+**代码**: 已公开（benchmark + 代码）  
+**领域**: 医学多模态 / 内窥镜分析  
 **关键词**: 内窥镜, MLLM评估, 基准测试, VQA, 临床工作流
 
 ## 一句话总结

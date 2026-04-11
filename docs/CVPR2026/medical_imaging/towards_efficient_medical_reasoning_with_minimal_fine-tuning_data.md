@@ -1,9 +1,9 @@
 # Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data
 
-**会议**: CVPR 2026
-**arXiv**: [2508.01450](https://arxiv.org/abs/2508.01450)
-**代码**: [GitHub](https://github.com/mihara-bot/DIQ)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2508.01450](https://arxiv.org/abs/2508.01450)  
+**代码**: [GitHub](https://github.com/mihara-bot/DIQ)  
+**领域**: 医学图像  
 **关键词**: 数据选择, 医学推理, 大语言模型, SFT, 梯度影响力
 
 ## 一句话总结

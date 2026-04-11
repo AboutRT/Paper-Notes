@@ -1,9 +1,9 @@
 # Disentangle-then-Align: Non-Iterative Hybrid Multimodal Image Registration via Cross-Scale Feature Disentanglement
 
-**会议**: CVPR 2026
-**arXiv**: [2603.19623](https://arxiv.org/abs/2603.19623)
-**代码**: [GitHub](https://github.com/Chunlei0913/HRNet) (有)
-**领域**: Multimodal VLM / 多模态图像配准
+**会议**: CVPR 2026  
+**arXiv**: [2603.19623](https://arxiv.org/abs/2603.19623)  
+**代码**: [GitHub](https://github.com/Chunlei0913/HRNet) (有)  
+**领域**: Multimodal VLM / 多模态图像配准  
 **关键词**: 多模态配准, 混合变换, 特征解纠缠, 跨尺度一致性, Mamba
 
 ## 一句话总结

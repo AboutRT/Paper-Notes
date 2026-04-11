@@ -1,11 +1,11 @@
 # Optimizing Language Models for Inference Time Objectives using Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2503.19595](https://arxiv.org/abs/2503.19595)
+**会议**: ICML2025  
+**arXiv**: [2503.19595](https://arxiv.org/abs/2503.19595)  
 **作者**: Yunhao Tang, Kunhao Zheng, Gabriel Synnaeve, Rémi Munos
 **机构**: Meta（FAIR）
-**代码**: 未开源
-**领域**: reinforcement_learning
+**代码**: 未开源  
+**领域**: reinforcement_learning  
 **关键词**: inference-time compute, pass@k, majority voting, policy gradient, leave-one-out, REINFORCE, 推理时目标优化
 
 ## 一句话总结

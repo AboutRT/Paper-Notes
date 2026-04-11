@@ -1,9 +1,9 @@
 # Manifolds and Modules: How Function Develops in a Neural Foundation Model
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.07869](https://arxiv.org/abs/2512.07869)
-**代码**: [GitHub](https://github.com/cajal/fnn) (FNN模型) / [GitHub](https://github.com/dyballa/NeuralEncodingManifolds) (分析工具)
-**领域**: 计算神经科学 / 自监督学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.07869](https://arxiv.org/abs/2512.07869)  
+**代码**: [GitHub](https://github.com/cajal/fnn) (FNN模型) / [GitHub](https://github.com/dyballa/NeuralEncodingManifolds) (分析工具)  
+**领域**: 计算神经科学 / 自监督学习  
 **关键词**: 神经基础模型, 编码流形, 解码流形, 可解释性, 小鼠视觉系统
 
 ## 一句话总结

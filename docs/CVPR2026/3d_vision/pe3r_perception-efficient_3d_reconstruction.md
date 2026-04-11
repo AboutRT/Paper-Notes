@@ -1,9 +1,9 @@
 # PE3R: Perception-Efficient 3D Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2503.07507](https://arxiv.org/abs/2503.07507)
-**代码**: https://github.com/hujiecpp/PE3R
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2503.07507](https://arxiv.org/abs/2503.07507)  
+**代码**: https://github.com/hujiecpp/PE3R  
+**领域**: 3D视觉  
 **关键词**: 3D语义重建, 开放词汇分割, 免调优, 前馈推理, 语义点云
 
 ## 一句话总结

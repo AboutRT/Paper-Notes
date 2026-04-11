@@ -20,6 +20,7 @@ Split Federated Learning (SFL/SplitFedv2) 将模型分为 part-1（client 端）
 SFL 中 server 端顺序处理导致的 intra-round 灾难性遗忘如何表征和缓解？cut layer 和处理顺序如何影响遗忘程度？
 
 ## 方法详解
+
 ### 整体框架
 Hydra 在 SFL 的 server 端引入 multi-head 架构：将 part-2 进一步分为共享的 part-2a 和多个 head（part-2b）。Part-2a 按顺序更新（保持原 SFL 特性），而各 head 按 client 数据分布分组并行更新，轮末聚合。
 

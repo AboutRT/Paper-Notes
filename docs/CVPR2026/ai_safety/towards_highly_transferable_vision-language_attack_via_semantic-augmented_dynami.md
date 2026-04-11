@@ -1,9 +1,9 @@
 # Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04839](https://arxiv.org/abs/2603.04839)
-**代码**: [GitHub](https://github.com/LiYuanBoJNU/SADCA)
-**领域**: AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2603.04839](https://arxiv.org/abs/2603.04839)  
+**代码**: [GitHub](https://github.com/LiYuanBoJNU/SADCA)  
+**领域**: AI安全  
 **关键词**: 对抗攻击, 视觉语言模型, 对抗可迁移性, 对比学习, 语义增强
 
 ## 一句话总结

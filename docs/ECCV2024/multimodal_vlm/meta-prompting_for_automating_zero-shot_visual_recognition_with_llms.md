@@ -1,9 +1,9 @@
 # Meta-Prompting for Automating Zero-Shot Visual Recognition with LLMs
 
-**会议**: ECCV2024
-**arXiv**: [2403.11755](https://arxiv.org/abs/2403.11755)
-**代码**: [jmiemirza/Meta-Prompting](https://github.com/jmiemirza/Meta-Prompting)
-**领域**: multimodal_vlm
+**会议**: ECCV2024  
+**arXiv**: [2403.11755](https://arxiv.org/abs/2403.11755)  
+**代码**: [jmiemirza/Meta-Prompting](https://github.com/jmiemirza/Meta-Prompting)  
+**领域**: multimodal_vlm  
 **关键词**: zero-shot recognition, prompt ensembling, meta-prompting, VLM, LLM
 
 ## 一句话总结

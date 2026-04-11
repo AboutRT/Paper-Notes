@@ -1,8 +1,8 @@
 # LocalDyGS: Multi-view Global Dynamic Scene Modeling via Adaptive Local Implicit Feature Decoupling
 
-**会议**: ICCV 2025
-**arXiv**: [2507.02363](https://arxiv.org/abs/2507.02363)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2507.02363](https://arxiv.org/abs/2507.02363)  
+**领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 动态场景重建, 多视角, 局部空间建模, 静态-动态解耦, 时序高斯
 
 ## 一句话总结

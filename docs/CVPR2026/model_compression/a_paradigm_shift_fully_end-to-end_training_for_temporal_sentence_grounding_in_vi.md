@@ -1,9 +1,9 @@
 # A Paradigm Shift: Fully End-to-End Training for Temporal Sentence Grounding in Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2604.02860](https://arxiv.org/abs/2604.02860)
-**代码**: 即将开源
-**领域**: 视频理解 / 跨模态定位
+**会议**: CVPR 2026  
+**arXiv**: [2604.02860](https://arxiv.org/abs/2604.02860)  
+**代码**: 即将开源  
+**领域**: 视频理解 / 跨模态定位  
 **关键词**: 时序语句定位, 端到端训练, 语句条件适配器, 视觉-语言对齐, TSGV
 
 ## 一句话总结

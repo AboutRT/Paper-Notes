@@ -1,10 +1,10 @@
 # On the Possible Detectability of Image-in-Image Steganography
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11876](https://arxiv.org/abs/2603.11876)
+**会议**: CVPR 2026  
+**arXiv**: [2603.11876](https://arxiv.org/abs/2603.11876)  
 **作者**: Antoine Mallet, Patrick Bas (CRIStAL, Université de Lille)
-**代码**: 未公开
-**领域**: others
+**代码**: 未公开  
+**领域**: others  
 **关键词**: 隐写术, 隐写分析, 独立成分分析, 小波分解, 图像安全
 
 ## 一句话总结

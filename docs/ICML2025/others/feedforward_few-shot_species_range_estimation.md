@@ -1,9 +1,9 @@
 # Feedforward Few-shot Species Range Estimation
 
-**会议**: ICML2025
-**arXiv**: [2502.14977](https://arxiv.org/abs/2502.14977)
-**代码**: 待确认
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2502.14977](https://arxiv.org/abs/2502.14977)  
+**代码**: 待确认  
+**领域**: others  
 **关键词**: 物种分布建模, 少样本学习, 空间神经表示, 生态保护, 前馈推理
 
 ## 一句话总结

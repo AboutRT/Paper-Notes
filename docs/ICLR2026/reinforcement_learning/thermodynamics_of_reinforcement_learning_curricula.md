@@ -1,9 +1,9 @@
 # Thermodynamics of Reinforcement Learning Curricula
 
-**会议**: ICLR 2026
-**arXiv**: [2603.12324](https://arxiv.org/abs/2603.12324)
-**代码**: 无
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.12324](https://arxiv.org/abs/2603.12324)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 课程学习, 非平衡热力学, 最大熵RL, 温度退火, 黎曼几何, 测地线
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HiMaCon: Discovering Hierarchical Manipulation Concepts from Unlabeled Multi-Modal Data
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.11321](https://arxiv.org/abs/2510.11321)
-**代码**: [HiMaCon](https://github.com/zrllrz/HiMaCon) (有)
-**领域**: 机器人操作 / 表示学习 / 模仿学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.11321](https://arxiv.org/abs/2510.11321)  
+**代码**: [HiMaCon](https://github.com/zrllrz/HiMaCon) (有)  
+**领域**: 机器人操作 / 表示学习 / 模仿学习  
 **关键词**: 操作概念, 层级表示, 跨模态相关性, 多时间尺度子目标, 自监督学习
 
 ## 一句话总结

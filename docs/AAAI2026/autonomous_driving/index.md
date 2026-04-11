@@ -91,6 +91,10 @@
 
 :   本文提出 GenCast 模型，通过物理信息神经网络（引入 LWR 交通方程作为软约束）、动态外部天气信号融合和空间分组模块三大创新，实现了从有传感器区域到无传感器连续区域的交通预测泛化，在五个真实数据集上一致性地超越了现有最优方法。
 
+**[Global-Lens Transformers: Adaptive Token Mixing for Dynamic Link Prediction](global-lens_transformers_adaptive_token_mixing_for_dynamic_link_prediction.md)**
+
+:   提出 GLFormer，一个轻量级的无注意力 Transformer 框架用于动态图链接预测，用基于交互顺序和时间间隔的自适应令牌混合器替代自注意力，配合层次化聚合机制扩展时间感受野，在 6 个基准上取得了与 Transformer 基线持平或更优的性能，同时大幅降低计算复杂度。
+
 **[HD2-SSC: High-Dimension High-Density Semantic Scene Completion for Autonomous Driving](hd2-ssc_high-dimension_high-density_semantic_scene_completion_for_autonomous_dri.md)**
 
 :   本文提出 HD2-SSC 框架，通过高维语义解耦（HSD）模块解决 2D→3D 的输入-输出维度间隙（将像素特征沿伪维度展开并正交解耦），以及高密度占用精炼（HOR）模块解决标注-现实密度间隙（"检测-精炼"范式对齐几何和语义关键体素），在 SemanticKITTI 和 SSCBench-KITTI-360 上达到 SOTA。
@@ -130,10 +134,6 @@
 **[Rethinking the Spatio-Temporal Alignment of End-to-End 3D Perception](rethinking_the_spatio-temporal_alignment_of_end-to-end_3d_perception.md)**
 
 :   提出HAT（multiple Hypotheses spAtio-Temporal alignment），一个即插即用的时空对齐模块，通过多种显式运动模型生成对齐假设，并利用query中隐含的运动线索自适应解码最优对齐方案，在nuScenes上一致提升多种3D时序检测器和跟踪器，并在E2E自动驾驶中降低碰撞率达32-48%。
-
-**[Smart: 基于 GNN 与 LLM 融合的 Dragonfly 系统应用运行时代理模型](smart_a_surrogate_model_for_predicting_application_runtime_in_dragonfly_systems.md)**
-
-:   提出 Smart（Surrogate Model for Predicting Application RunTime），首次将 GNN 和 LLM（Time-LLM）融合用于 Dragonfly 互连网络中的应用迭代运行时预测，在 1,056 节点系统上 MAPE 最低达 1.78%（LAMMPS），推理时间仅 0.515 秒，相比原始仿真实现数量级加速。
 
 **[STRIDE-QA: Visual Question Answering Dataset for Spatiotemporal Reasoning in Urban Driving Scenes](stride-qa_visual_question_answering_dataset_for_spatiotemporal_reasoning_in_urba.md)**
 

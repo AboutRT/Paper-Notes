@@ -1,9 +1,9 @@
 # Nonparametric Identification of Latent Concepts
 
-**会议**: ICML2025
-**arXiv**: [2510.00136](https://arxiv.org/abs/2510.00136)
-**代码**: 待确认
-**领域**: 概念学习
+**会议**: ICML2025  
+**arXiv**: [2510.00136](https://arxiv.org/abs/2510.00136)  
+**代码**: 待确认  
+**领域**: 概念学习  
 **关键词**: 概念学习, 可识别性, 非参数, 潜在变量, 解耦表示学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Elastic Weight Consolidation Done Right for Continual Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.18596](https://arxiv.org/abs/2603.18596)
-**代码**: https://github.com/scarlet0703/EWC-DR
-**领域**: 其他
+**会议**: CVPR 2026  
+**arXiv**: [2603.18596](https://arxiv.org/abs/2603.18596)  
+**代码**: https://github.com/scarlet0703/EWC-DR  
+**领域**: 其他  
 **关键词**: 持续学习, 灾难性遗忘, 弹性权重巩固, Fisher信息矩阵, 权重正则化
 
 ## 一句话总结

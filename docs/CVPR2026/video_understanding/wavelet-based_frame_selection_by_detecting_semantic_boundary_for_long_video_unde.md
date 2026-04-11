@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Wavelet-based Frame Selection by Detecting Semantic Boundary for Long Video Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2603.00512](https://arxiv.org/abs/2603.00512)
-**代码**: [MAC-AutoML/WFS-SB](https://github.com/MAC-AutoML/WFS-SB)
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2603.00512](https://arxiv.org/abs/2603.00512)  
+**代码**: [MAC-AutoML/WFS-SB](https://github.com/MAC-AutoML/WFS-SB)  
+**领域**: 视频理解  
 **关键词**: 帧选择, 长视频理解, 小波变换, 语义边界检测, 大视觉语言模型, 免训练
 
 ## 一句话总结

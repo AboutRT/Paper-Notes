@@ -1,9 +1,9 @@
 # StreamSplat: Towards Online Dynamic 3D Reconstruction from Uncalibrated Video Streams
 
-**会议**: ICLR 2026
-**arXiv**: [2506.08862](https://arxiv.org/abs/2506.08862)
-**代码**: [https://streamsplat3d.github.io/](https://streamsplat3d.github.io/)
-**领域**: 3D视觉
+**会议**: ICLR 2026  
+**arXiv**: [2506.08862](https://arxiv.org/abs/2506.08862)  
+**代码**: [https://streamsplat3d.github.io/](https://streamsplat3d.github.io/)  
+**领域**: 3D视觉  
 **关键词**: 动态3D重建, 3D高斯溅射, 在线重建, 前馈模型, 视频流
 
 ## 一句话总结

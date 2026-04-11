@@ -1,9 +1,9 @@
 # Kinetic Langevin Diffusion for Crystalline Materials Generation
 
-**会议**: ICML 2025
-**arXiv**: [2507.03602](https://arxiv.org/abs/2507.03602)
-**代码**: 无
-**领域**: Image Generation (Materials Generation)
+**会议**: ICML 2025  
+**arXiv**: [2507.03602](https://arxiv.org/abs/2507.03602)  
+**代码**: 无  
+**领域**: Image Generation (Materials Generation)  
 **关键词**: 晶体材料生成, Langevin 扩散, 超环面, 等变性, 结构预测
 
 ## 一句话总结

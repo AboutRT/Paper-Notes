@@ -1,9 +1,9 @@
 # Towards Understanding Valuable Preference Data for Large Language Model Alignment
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13212](https://arxiv.org/abs/2510.13212)
-**代码**: [GitHub](https://github.com/tmlr-group/TIF_LossDiff-IRM)
-**领域**: LLM对齐
+**会议**: ICLR 2026  
+**arXiv**: [2510.13212](https://arxiv.org/abs/2510.13212)  
+**代码**: [GitHub](https://github.com/tmlr-group/TIF_LossDiff-IRM)  
+**领域**: LLM对齐  
 **关键词**: 偏好数据选择, 影响函数, DPO, 数据质量, 模型依赖
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # PENCIL: Long Thoughts with Short Memory
 
-**会议**: ICML2025
-**arXiv**: [2503.14337](https://arxiv.org/abs/2503.14337)
-**代码**: [chr26195/PENCIL](https://github.com/chr26195/PENCIL)
-**领域**: LLM效率 (LLM Efficiency)
+**会议**: ICML2025  
+**arXiv**: [2503.14337](https://arxiv.org/abs/2503.14337)  
+**代码**: [chr26195/PENCIL](https://github.com/chr26195/PENCIL)  
+**领域**: LLM效率 (LLM Efficiency)  
 **关键词**: Chain-of-Thought, 内存管理, 上下文压缩, 图灵完备, reduction rule, 空间效率
 
 ## 一句话总结

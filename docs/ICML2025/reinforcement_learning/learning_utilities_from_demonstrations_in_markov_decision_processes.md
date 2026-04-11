@@ -1,9 +1,9 @@
 # Learning Utilities from Demonstrations in Markov Decision Processes
 
-**会议**: ICML 2025
-**arXiv**: [2409.17355](https://arxiv.org/abs/2409.17355)
-**代码**: 无
-**领域**: Reinforcement Learning / Inverse RL
+**会议**: ICML 2025  
+**arXiv**: [2409.17355](https://arxiv.org/abs/2409.17355)  
+**代码**: 无  
+**领域**: Reinforcement Learning / Inverse RL  
 **关键词**: 效用学习, 风险敏感行为, 逆强化学习, 效用函数, MDP
 
 ## 一句话总结

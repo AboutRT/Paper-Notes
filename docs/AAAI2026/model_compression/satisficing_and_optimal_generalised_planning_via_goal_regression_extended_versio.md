@@ -1,9 +1,9 @@
 # Satisficing and Optimal Generalised Planning via Goal Regression (Extended Version)
 
-**会议**: AAAI 2026
-**arXiv**: [2511.11095](https://arxiv.org/abs/2511.11095)
-**代码**: [https://github.com/dillonzchen/moose](https://github.com/dillonzchen/moose)
-**领域**: 模型压缩
+**会议**: AAAI 2026  
+**arXiv**: [2511.11095](https://arxiv.org/abs/2511.11095)  
+**代码**: [https://github.com/dillonzchen/moose](https://github.com/dillonzchen/moose)  
+**领域**: 模型压缩  
 **关键词**: generalised planning, goal regression, policy synthesis, search pruning, planning domains
 
 ## 一句话总结

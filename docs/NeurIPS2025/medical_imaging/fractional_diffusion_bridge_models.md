@@ -1,9 +1,9 @@
 # Fractional Diffusion Bridge Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.01795](https://arxiv.org/abs/2511.01795)
-**代码**: [GitHub-paired](https://github.com/GabrielNobis/FDBM_paired) / [GitHub-unpaired](https://github.com/mspringe/FDBM_unpaired) / [SBFlow](https://github.com/mspringe/Schroedinger-Bridge-Flow)
-**领域**: 医学图像
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.01795](https://arxiv.org/abs/2511.01795)  
+**代码**: [GitHub-paired](https://github.com/GabrielNobis/FDBM_paired) / [GitHub-unpaired](https://github.com/mspringe/FDBM_unpaired) / [SBFlow](https://github.com/mspringe/Schroedinger-Bridge-Flow)  
+**领域**: 医学图像  
 **关键词**: 扩散桥模型, 分数布朗运动, 蛋白质构象预测, 图像翻译, Schrödinger桥
 
 ## 一句话总结

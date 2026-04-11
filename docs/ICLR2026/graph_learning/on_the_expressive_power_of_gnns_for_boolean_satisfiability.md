@@ -1,9 +1,9 @@
 # On the Expressive Power of GNNs for Boolean Satisfiability
 
-**会议**: ICLR 2026
-**arXiv**: [2602.08745](https://arxiv.org/abs/2602.08745)
-**代码**: [GitHub](https://github.com/sakupeltonen/sat-expressivity)
-**领域**: 图学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.08745](https://arxiv.org/abs/2602.08745)  
+**代码**: [GitHub](https://github.com/sakupeltonen/sat-expressivity)  
+**领域**: 图学习  
 **关键词**: 图神经网络表达力, 布尔可满足性, Weisfeiler-Leman 测试, SAT 求解, 理论分析
 
 ## 一句话总结

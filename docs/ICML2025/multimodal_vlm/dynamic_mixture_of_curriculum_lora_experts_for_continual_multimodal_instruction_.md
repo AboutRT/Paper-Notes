@@ -1,9 +1,9 @@
 # Dynamic Mixture of Curriculum LoRA Experts for Continual Multimodal Instruction Tuning
 
-**会议**: ICML 2025
-**arXiv**: [2506.11672](https://arxiv.org/abs/2506.11672)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: ICML 2025  
+**arXiv**: [2506.11672](https://arxiv.org/abs/2506.11672)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 持续学习, LoRA专家混合, 课程学习, 多模态指令调优, 动态架构
 
 ## 一句话总结

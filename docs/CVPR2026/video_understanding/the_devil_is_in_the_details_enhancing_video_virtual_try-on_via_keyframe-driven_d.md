@@ -1,9 +1,9 @@
 # The Devil is in the Details: Enhancing Video Virtual Try-On via Keyframe-Driven Details Injection
 
-**会议**: CVPR2026
-**arXiv**: [2512.20340](https://arxiv.org/abs/2512.20340)
-**代码**: [ViT-HD Dataset](https://huggingface.co/datasets/zijiyingcai/ViT-HD)
-**领域**: 视频理解 / 视频虚拟试穿
+**会议**: CVPR2026  
+**arXiv**: [2512.20340](https://arxiv.org/abs/2512.20340)  
+**代码**: [ViT-HD Dataset](https://huggingface.co/datasets/zijiyingcai/ViT-HD)  
+**领域**: 视频理解 / 视频虚拟试穿  
 **关键词**: video virtual try-on, diffusion transformer, keyframe injection, garment fidelity, background integrity
 
 ## 一句话总结

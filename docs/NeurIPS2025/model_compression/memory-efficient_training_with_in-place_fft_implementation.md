@@ -1,9 +1,9 @@
 # Memory-Efficient Training with In-Place FFT Implementation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.01385](https://arxiv.org/abs/2511.01385)
-**代码**: [PyTorch Issue #171022](https://github.com/pytorch/pytorch/issues/171022) (讨论上游合并中)
-**领域**: Model Compression / 高效训练
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.01385](https://arxiv.org/abs/2511.01385)  
+**代码**: [PyTorch Issue #171022](https://github.com/pytorch/pytorch/issues/171022) (讨论上游合并中)  
+**领域**: Model Compression / 高效训练  
 **关键词**: FFT, 原地计算, 内存优化, 循环矩阵, 参数高效微调
 
 ## 一句话总结

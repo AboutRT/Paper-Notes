@@ -1,9 +1,9 @@
 # Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13215](https://arxiv.org/abs/2603.13215)
-**代码**: [项目主页](https://glab-caltech.github.io/STEVOBench/)
-**领域**: 其他（视频世界模型评测）
+**会议**: CVPR 2026  
+**arXiv**: [2603.13215](https://arxiv.org/abs/2603.13215)  
+**代码**: [项目主页](https://glab-caltech.github.io/STEVOBench/)  
+**领域**: 其他（视频世界模型评测）  
 **关键词**: 视频世界模型, 状态演化, 基准评测, 遮挡控制, VLM验证器
 
 ## 一句话总结

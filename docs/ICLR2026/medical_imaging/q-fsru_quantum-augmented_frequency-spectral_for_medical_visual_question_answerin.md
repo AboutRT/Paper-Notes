@@ -1,9 +1,9 @@
 # Q-FSRU: Quantum-Augmented Frequency-Spectral Fusion for Medical Visual Question Answering
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23899](https://arxiv.org/abs/2509.23899)
-**代码**: 无
-**领域**: 医学图像
+**会议**: ICLR 2026  
+**arXiv**: [2509.23899](https://arxiv.org/abs/2509.23899)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 医学VQA, 频率域融合, 量子检索增强, 多模态融合, 对比学习
 
 ## 一句话总结

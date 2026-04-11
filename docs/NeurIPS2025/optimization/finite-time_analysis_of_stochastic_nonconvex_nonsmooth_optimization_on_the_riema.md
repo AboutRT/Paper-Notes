@@ -1,9 +1,9 @@
 # Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21468](https://arxiv.org/abs/2510.21468)
-**代码**: 无
-**领域**: optimization
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21468](https://arxiv.org/abs/2510.21468)  
+**代码**: 无  
+**领域**: optimization  
 **关键词**: 黎曼优化, 非光滑非凸, Goldstein 稳定性, 零阶优化, 有限时间分析
 
 ## 一句话总结

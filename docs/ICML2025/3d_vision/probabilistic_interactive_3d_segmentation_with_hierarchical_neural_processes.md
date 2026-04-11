@@ -1,9 +1,9 @@
 # Probabilistic Interactive 3D Segmentation with Hierarchical Neural Processes
 
-**会议**: ICML2025
-**arXiv**: [2505.01726](https://arxiv.org/abs/2505.01726)
-**代码**: [NPISeg3D](https://jliu4ai.github.io/NPISeg3D_projectpage/)
-**领域**: 3d_vision
+**会议**: ICML2025  
+**arXiv**: [2505.01726](https://arxiv.org/abs/2505.01726)  
+**代码**: [NPISeg3D](https://jliu4ai.github.io/NPISeg3D_projectpage/)  
+**领域**: 3d_vision  
 **关键词**: 交互式3D分割, 神经过程, 层级隐变量, 不确定性估计, 少样本泛化
 
 ## 一句话总结

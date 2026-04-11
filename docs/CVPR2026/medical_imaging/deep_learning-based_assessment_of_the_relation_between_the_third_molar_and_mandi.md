@@ -1,9 +1,9 @@
 # Deep Learning-based Assessment of the Relation Between the Third Molar and Mandibular Canal on Panoramic Radiographs using Local, Centralized, and Federated Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11850](https://arxiv.org/abs/2603.11850)
+**会议**: CVPR 2026  
+**arXiv**: [2603.11850](https://arxiv.org/abs/2603.11850)  
 **作者**: Johan Andreas Balle Rubak, Sara Haghighat, Sanyam Jain, Mostafa Aldesoki, Akhilanand Chaurasia, Sarah Sadat Ehsani, Faezeh Dehghan Ghanatkaman, Ahmad Badruddin Ghazali, Julien Issa, Basel Khalil, Rishi Ramani, Ruben Pauwels
-**领域**: medical_imaging
+**领域**: medical_imaging  
 **关键词**: 第三磨牙, 下颌管, 全景X光片, 联邦学习, 深度学习分类
 
 ## 一句话总结

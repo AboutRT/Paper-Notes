@@ -1,9 +1,9 @@
 # The Harmonic Structure of Information Contours
 
-**会议**: ACL 2025
-**arXiv**: [2506.03902](https://arxiv.org/abs/2506.03902)
-**代码**: [GitHub](https://github.com/rycolab/harmonic-surprisal)
-**领域**: 计算语言学 / 信息论
+**会议**: ACL 2025  
+**arXiv**: [2506.03902](https://arxiv.org/abs/2506.03902)  
+**代码**: [GitHub](https://github.com/rycolab/harmonic-surprisal)  
+**领域**: 计算语言学 / 信息论  
 **关键词**: uniform information density, surprisal, harmonic regression, discourse structure, periodicity, time scaling
 
 ## 一句话总结

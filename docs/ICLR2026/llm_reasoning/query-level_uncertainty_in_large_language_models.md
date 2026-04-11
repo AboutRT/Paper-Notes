@@ -17,6 +17,7 @@
 5. LLM内部隐藏状态蕴含丰富的知识可达性信息，跨层一致性可提升输出质量
 
 ## 方法详解
+
 ### 核心思路
 用yes/no自评提示让LLM判断能否回答查询，提取P(Yes)作为置信度，无需生成答案。提示格式："Respond only with 'Yes' or 'No' to indicate whether you are capable of answering the {Query} accurately."
 
@@ -39,6 +40,7 @@ $$\text{IC}(\mathbf{h}) = \sum_{n=1}^{N}\sum_{l=1}^{L}w_n^{(l)} P(\text{Yes}|\ma
 3. **弃权策略**：对高不确定性查询拒绝回答，提升可信度
 
 ## 实验关键数据
+
 ### 主实验（跨模型跨任务）
 | 方法 | Phi-3.8B AUROC | Llama-8B AUROC | Qwen-14B AUROC | Avg AUROC |
 |------|:--:|:--:|:--:|:--:|

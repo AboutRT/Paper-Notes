@@ -1,9 +1,9 @@
 # Isolated Causal Effects of Natural Language
 
-**会议**: ICML2025
-**arXiv**: [2410.14812](https://arxiv.org/abs/2410.14812)
-**代码**: [GitHub](https://github.com/torylin/isolated-text-effects)
-**领域**: 因果推断 / 自然语言处理
+**会议**: ICML2025  
+**arXiv**: [2410.14812](https://arxiv.org/abs/2410.14812)  
+**代码**: [GitHub](https://github.com/torylin/isolated-text-effects)  
+**领域**: 因果推断 / 自然语言处理  
 **关键词**: 孤立因果效应, 遗漏变量偏差, 双重稳健估计, 文本因果推断, 非焦点语言近似
 
 ## 一句话总结

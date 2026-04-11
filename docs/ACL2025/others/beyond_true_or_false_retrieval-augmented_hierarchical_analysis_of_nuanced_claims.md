@@ -1,9 +1,9 @@
 # Beyond True or False: Retrieval-Augmented Hierarchical Analysis of Nuanced Claims
 
-**会议**: ACL 2025
-**arXiv**: [2506.10728](https://arxiv.org/abs/2506.10728)
-**代码**: [有](https://github.com/pkargupta/claimspect)
-**领域**: NLP / 事实核查与观点分析
+**会议**: ACL 2025  
+**arXiv**: [2506.10728](https://arxiv.org/abs/2506.10728)  
+**代码**: [有](https://github.com/pkargupta/claimspect)  
+**领域**: NLP / 事实核查与观点分析  
 **关键词**: 细粒度声明分析, 层次化方面树, 检索增强生成, 立场检测, 共识发现
 
 ## 一句话总结

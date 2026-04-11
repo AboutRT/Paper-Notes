@@ -1,9 +1,9 @@
 # Robust Noise Attenuation via Adaptive Pooling of Transformer Outputs
 
-**会议**: ICML2025
-**arXiv**: [2506.09215](https://arxiv.org/abs/2506.09215)
-**代码**: [agbrothers/pooling](https://github.com/agbrothers/pooling)
-**领域**: Transformer鲁棒性 / 向量池化
+**会议**: ICML2025  
+**arXiv**: [2506.09215](https://arxiv.org/abs/2506.09215)  
+**代码**: [agbrothers/pooling](https://github.com/agbrothers/pooling)  
+**领域**: Transformer鲁棒性 / 向量池化  
 **关键词**: Transformer pooling, 噪声鲁棒性, 自适应池化, 向量量化, 注意力机制, 强化学习, 视觉Transformer
 
 ## 一句话总结

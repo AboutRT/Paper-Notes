@@ -1,9 +1,9 @@
 # Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.22880](https://arxiv.org/abs/2510.22880)
-**代码**: [GitHub](https://github.com/nmduonggg/PEPSY) (有)
-**领域**: optimization
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.22880](https://arxiv.org/abs/2510.22880)  
+**代码**: [GitHub](https://github.com/nmduonggg/PEPSY) (有)  
+**领域**: optimization  
 **关键词**: 联邦学习, 多模态学习, 缺失数据, 可重配置表示, 嵌入控制
 
 ## 一句话总结

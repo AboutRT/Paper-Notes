@@ -1,9 +1,9 @@
 # LeVo: High-Quality Song Generation with Multi-Preference Alignment
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.07520](https://arxiv.org/abs/2506.07520)
-**代码**: [GitHub](https://github.com/tencent-ailab/songgeneration) (有)
-**领域**: 音频与语音生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.07520](https://arxiv.org/abs/2506.07520)  
+**代码**: [GitHub](https://github.com/tencent-ailab/songgeneration) (有)  
+**领域**: 音频与语音生成  
 **关键词**: 歌曲生成, 语言模型, 多偏好对齐, DPO, 音乐编解码器
 
 ## 一句话总结

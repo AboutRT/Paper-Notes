@@ -1,9 +1,9 @@
 # Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark
 
-**会议**: CVPR 2026
-**arXiv**: [2603.20721](https://arxiv.org/abs/2603.20721)
-**代码**: [https://github.com/Yifei-AHU/AERI-PEDES](https://github.com/Yifei-AHU/AERI-PEDES) (有)
-**领域**: 遥感 / 行人检索
+**会议**: CVPR 2026  
+**arXiv**: [2603.20721](https://arxiv.org/abs/2603.20721)  
+**代码**: [https://github.com/Yifei-AHU/AERI-PEDES](https://github.com/Yifei-AHU/AERI-PEDES) (有)  
+**领域**: 遥感 / 行人检索  
 **关键词**: 文本-航拍行人检索, 模糊逻辑, 跨模态对齐, 无人机, Chain-of-Thought 标注
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Parameter-Efficient Fine-Tuning of State Space Models
 
-**会议**: ICML 2025
-**arXiv**: [2410.09016](https://arxiv.org/abs/2410.09016)
-**代码**: [furiosa-ai/ssm-peft](https://github.com/furiosa-ai/ssm-peft)
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2410.09016](https://arxiv.org/abs/2410.09016)  
+**代码**: [furiosa-ai/ssm-peft](https://github.com/furiosa-ai/ssm-peft)  
+**领域**: 模型压缩  
 **关键词**: 参数高效微调, State Space Models, Mamba, LoRA, Sparse Dimension Tuning
 
 ## 一句话总结

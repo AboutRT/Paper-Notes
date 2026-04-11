@@ -1,9 +1,9 @@
 # Detecting Unknown Objects via Energy-based Separation for Open World Object Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.29954](https://arxiv.org/abs/2603.29954)
-**代码**: 无
-**领域**: Object Detection
+**会议**: CVPR 2026  
+**arXiv**: [2603.29954](https://arxiv.org/abs/2603.29954)  
+**代码**: 无  
+**领域**: Object Detection  
 **关键词**: 开放世界目标检测, 能量模型, 未知目标发现, 等角紧框架, 增量学习
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心 idea**: 双子空间能量分离（EUS）+ 能量区分损失（EKD）地址了 OWOD 的两大核心挑战。
 
 ## 方法详解
+
 ### 整体框架
 基于 OrthogonalDet 作为基础检测器。在特征提取后，EUS 模块利用两个 ETF 子空间计算已知/未知能量分数引导特征分离；EKD 模块在记忆回放阶段将分类器拆分为新旧子分类器，用能量约束减少交叉干扰。
 
@@ -37,6 +38,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{cls}} + \mathcal{L}_{\text{bbo
 其中 $\mathcal{L}_{\text{EUS}} = \mathcal{L}_{\text{energy}} + \mathcal{L}_{\text{subspace}}$，$\mathcal{L}_{\text{EKD}}$ 仅在记忆回放阶段使用。ETF 基矩阵固定不可学习。
 
 ## 实验关键数据
+
 ### 主实验（M-OWODB）
 | 方法 | Task1 U-Rec↑ | Task2 U-Rec↑ | Task3 U-Rec↑ | Task4 mAP↑ |
 |------|------------|------------|------------|-----------|

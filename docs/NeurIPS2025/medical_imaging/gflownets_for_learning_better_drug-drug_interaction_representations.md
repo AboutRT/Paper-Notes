@@ -1,9 +1,9 @@
 # GFlowNets for Learning Better Drug-Drug Interaction Representations
 
-**会议**: NeurIPS 2025
-**arXiv**: [2508.06576](https://arxiv.org/abs/2508.06576)
-**代码**: 无
-**领域**: 医学AI / 药物发现
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.06576](https://arxiv.org/abs/2508.06576)  
+**代码**: 无  
+**领域**: 医学AI / 药物发现  
 **关键词**: 药物相互作用, GFlowNet, 变分图自编码器, 类别不平衡, 图生成
 
 ## 一句话总结

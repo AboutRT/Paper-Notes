@@ -1,9 +1,9 @@
 # PET2Rep: Towards Vision-Language Model-Driven Automated Radiology Report Generation for Positron Emission Tomography
 
-**会议**: AAAI 2026
-**arXiv**: [2508.04062](https://arxiv.org/abs/2508.04062)
-**代码**: [https://github.com/YichiZhang98/PET2Rep](https://github.com/YichiZhang98/PET2Rep)
-**领域**: 多模态VLM
+**会议**: AAAI 2026  
+**arXiv**: [2508.04062](https://arxiv.org/abs/2508.04062)  
+**代码**: [https://github.com/YichiZhang98/PET2Rep](https://github.com/YichiZhang98/PET2Rep)  
+**领域**: 多模态VLM  
 **关键词**: PET影像, 放射报告生成, 视觉语言模型, 基准评估, 临床效能指标
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models
 
-**会议**: ACL2025
-**arXiv**: [2412.13488](https://arxiv.org/abs/2412.13488)
-**代码**: [0-ml/speft](https://github.com/0-ml/speft)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2412.13488](https://arxiv.org/abs/2412.13488)  
+**代码**: [0-ml/speft](https://github.com/0-ml/speft)  
+**领域**: llm_nlp  
 **关键词**: 参数高效微调, 稀疏微调, 显著性度量, LoRA, PEFT, 稀疏掩码
 
 ## 一句话总结

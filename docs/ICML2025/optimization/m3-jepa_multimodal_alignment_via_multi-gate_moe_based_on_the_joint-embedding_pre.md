@@ -1,9 +1,9 @@
 # M3-JEPA: Multimodal Alignment via Multi-gate MoE based on JEPA
 
-**会议**: ICML2025
-**arXiv**: [2409.05929](https://arxiv.org/abs/2409.05929)
-**代码**: [GitHub - M3-JEPA](https://github.com/HongyangLL/M3-JEPA)
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2409.05929](https://arxiv.org/abs/2409.05929)  
+**代码**: [GitHub - M3-JEPA](https://github.com/HongyangLL/M3-JEPA)  
+**领域**: optimization  
 **关键词**: 多模态对齐, JEPA, MoE, 能量模型, 模态崩溃
 
 ## 一句话总结

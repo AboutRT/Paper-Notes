@@ -1,9 +1,9 @@
 # How LLMs Learn to Reason: A Complex Network Perspective
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23629](https://arxiv.org/abs/2509.23629)
-**代码**: [GitHub](https://anonymous.4open.science/r/CoNet-83A4)
-**领域**: LLM推理/理论分析
+**会议**: ICLR 2026  
+**arXiv**: [2509.23629](https://arxiv.org/abs/2509.23629)  
+**代码**: [GitHub](https://anonymous.4open.science/r/CoNet-83A4)  
+**领域**: LLM推理/理论分析  
 **关键词**: RLVR, 概念网络, 稀疏图, 灾难性遗忘, 模拟退火
 
 ## 一句话总结

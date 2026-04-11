@@ -1,9 +1,9 @@
 # Stochastic Self-Organization in Multi-Agent Systems
 
-**会议**: ICLR 2026
-**arXiv**: [2510.00685](https://arxiv.org/abs/2510.00685)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2510.00685](https://arxiv.org/abs/2510.00685)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: multi-agent systems, self-organization, Shapley value, communication graph, DAG, LLM collaboration
 
 ## 一句话总结

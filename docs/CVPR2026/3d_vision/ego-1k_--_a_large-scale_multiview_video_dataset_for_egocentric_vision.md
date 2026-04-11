@@ -1,9 +1,9 @@
 # Ego-1K: A Large-Scale Multiview Video Dataset for Egocentric Vision
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13741](https://arxiv.org/abs/2603.13741)
-**代码**: [数据集](https://huggingface.co/datasets/facebook/ego-1k)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.13741](https://arxiv.org/abs/2603.13741)  
+**代码**: [数据集](https://huggingface.co/datasets/facebook/ego-1k)  
+**领域**: 3D视觉  
 **关键词**: 第一人称视觉, 多视角数据集, 动态场景重建, 新视角合成, 手物交互
 
 ## 一句话总结

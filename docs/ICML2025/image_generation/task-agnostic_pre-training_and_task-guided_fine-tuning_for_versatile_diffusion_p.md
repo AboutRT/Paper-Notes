@@ -1,9 +1,9 @@
 # Task-Agnostic Pre-training and Task-Guided Fine-tuning for Versatile Diffusion Planner
 
-**会议**: ICML2025
-**arXiv**: [2409.19949](https://arxiv.org/abs/2409.19949)
-**代码**: 待确认
-**领域**: 扩散模型 / 强化学习 / 多任务规划
+**会议**: ICML2025  
+**arXiv**: [2409.19949](https://arxiv.org/abs/2409.19949)  
+**代码**: 待确认  
+**领域**: 扩散模型 / 强化学习 / 多任务规划  
 **关键词**: 扩散模型, 多任务RL, 预训练-微调, 次优数据, 策略梯度, 行为克隆正则化
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Mixture-of-Expert Variational Autoencoders for Cross-Modality Embedding of Type Ia Supernova Data
 
-**会议**: ICML2025 (ML4Astro Workshop)
-**arXiv**: [2507.16817](https://arxiv.org/abs/2507.16817)
-**代码**: [YunyiShen/VAESNe-dev](https://github.com/YunyiShen/VAESNe-dev)
-**领域**: physics
+**会议**: ICML2025 (ML4Astro Workshop)  
+**arXiv**: [2507.16817](https://arxiv.org/abs/2507.16817)  
+**代码**: [YunyiShen/VAESNe-dev](https://github.com/YunyiShen/VAESNe-dev)  
+**领域**: physics  
 **关键词**: 多模态VAE, 超新星, 跨模态生成, Perceiver, 光变曲线, 光谱
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # The Hidden Space of Safety: Understanding Preference-Tuned LLMs in Multilingual Contexts
 
-**会议**: ACL2025
-**arXiv**: [2504.02708](https://arxiv.org/abs/2504.02708)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2504.02708](https://arxiv.org/abs/2504.02708)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: multilingual alignment, LLM safety, preference tuning, representation analysis, cross-lingual
 
 ## 一句话总结

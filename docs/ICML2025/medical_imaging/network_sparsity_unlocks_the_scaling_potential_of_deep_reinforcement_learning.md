@@ -1,9 +1,9 @@
 # Network Sparsity Unlocks the Scaling Potential of Deep Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2506.17204](https://arxiv.org/abs/2506.17204)
-**代码**: 无
-**领域**: Deep RL / Network Architecture
+**会议**: ICML 2025  
+**arXiv**: [2506.17204](https://arxiv.org/abs/2506.17204)  
+**代码**: 无  
+**领域**: Deep RL / Network Architecture  
 **关键词**: 网络稀疏化, 深度RL扩展, 随机剪枝, 可塑性损失, 梯度干扰
 
 ## 一句话总结

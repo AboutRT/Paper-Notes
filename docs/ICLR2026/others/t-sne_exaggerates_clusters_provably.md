@@ -1,9 +1,9 @@
 # t-SNE Exaggerates Clusters, Provably
 
-**会议**: ICLR 2026
-**arXiv**: [2510.07746](https://arxiv.org/abs/2510.07746)
-**代码**: [https://github.com/njbergam/tsne-exaggerates-clusters](https://github.com/njbergam/tsne-exaggerates-clusters)
-**领域**: 数据可视化 / 理论分析
+**会议**: ICLR 2026  
+**arXiv**: [2510.07746](https://arxiv.org/abs/2510.07746)  
+**代码**: [https://github.com/njbergam/tsne-exaggerates-clusters](https://github.com/njbergam/tsne-exaggerates-clusters)  
+**领域**: 数据可视化 / 理论分析  
 **关键词**: t-SNE, 聚类夸大, 降维, 可视化误导, 离群点
 
 ## 一句话总结

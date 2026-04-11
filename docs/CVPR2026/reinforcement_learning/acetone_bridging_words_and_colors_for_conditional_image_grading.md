@@ -1,9 +1,9 @@
 # AceTone: Bridging Words and Colors for Conditional Image Grading
 
-**会议**: CVPR 2026
-**arXiv**: [2604.00530](https://arxiv.org/abs/2604.00530)
-**代码**: https://github.com/martian422/AceTone (有)
-**领域**: 图像处理 / 色彩调色
+**会议**: CVPR 2026  
+**arXiv**: [2604.00530](https://arxiv.org/abs/2604.00530)  
+**代码**: https://github.com/martian422/AceTone (有)  
+**领域**: 图像处理 / 色彩调色  
 **关键词**: 色彩调色, 3D-LUT, VQ-VAE tokenizer, VLM, GRPO强化学习
 
 ## 一句话总结

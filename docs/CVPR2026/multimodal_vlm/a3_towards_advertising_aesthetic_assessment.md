@@ -1,9 +1,9 @@
 # A3: Towards Advertising Aesthetic Assessment
 
-**会议**: CVPR 2026
-**arXiv**: [2603.24037](https://arxiv.org/abs/2603.24037)
-**代码**: https://github.com/euleryuan/A3-Align (有)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.24037](https://arxiv.org/abs/2603.24037)  
+**代码**: https://github.com/euleryuan/A3-Align (有)  
+**领域**: 多模态VLM  
 **关键词**: 广告美学评估, 多模态大语言模型, AIDA模型, Chain-of-Thought, GRPO
 
 ## 一句话总结

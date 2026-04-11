@@ -1,8 +1,8 @@
 # Optimal Transport-Induced Samples against Out-of-Distribution Overconfidence
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21320](https://arxiv.org/abs/2601.21320)
-**领域**: OOD检测/最优传输
+**会议**: ICLR 2026  
+**arXiv**: [2601.21320](https://arxiv.org/abs/2601.21320)  
+**领域**: OOD检测/最优传输  
 **关键词**: OOD过度自信, 最优传输奇异性, 语义歧义, 置信度抑制, OTIS, Laguerre cell
 
 ## 一句话总结

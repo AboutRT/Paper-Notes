@@ -1,9 +1,9 @@
 # Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching
 
-**会议**: ICML2025
-**arXiv**: [2506.05361](https://arxiv.org/abs/2506.05361)
-**代码**: [GitHub](https://github.com/Graph-and-Geometric-Learning/STFlow)
-**领域**: 空间转录组 / 计算病理学
+**会议**: ICML2025  
+**arXiv**: [2506.05361](https://arxiv.org/abs/2506.05361)  
+**代码**: [GitHub](https://github.com/Graph-and-Geometric-Learning/STFlow)  
+**领域**: 空间转录组 / 计算病理学  
 **关键词**: 空间转录组, Flow Matching, 全切片建模, 细胞间交互, E(2)-不变性, 生成模型
 
 ## 一句话总结

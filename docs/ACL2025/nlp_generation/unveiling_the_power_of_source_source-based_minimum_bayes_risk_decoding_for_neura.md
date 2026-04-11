@@ -1,11 +1,11 @@
 # Unveiling the Power of Source: Source-based Minimum Bayes Risk Decoding for Neural Machine Translation
 
-**会议**: ACL2025
-**arXiv**: [2406.11632](https://arxiv.org/abs/2406.11632)
+**会议**: ACL2025  
+**arXiv**: [2406.11632](https://arxiv.org/abs/2406.11632)  
 **作者**: Boxuan Lyu, Hidetaka Kamigaito, Kotaro Funakoshi, Manabu Okumura
 **机构**: Institute of Science Tokyo, Nara Institute of Science and Technology
-**代码**: [vlaks425/sMBR](https://github.com/vlaks425/sMBR)
-**领域**: nlp_generation
+**代码**: [vlaks425/sMBR](https://github.com/vlaks425/sMBR)  
+**领域**: nlp_generation  
 **关键词**: MBR decoding, quality estimation, neural machine translation, reranking, paraphrasing
 
 ## 一句话总结

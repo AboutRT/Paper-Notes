@@ -1,9 +1,9 @@
 # SFT Doesn't Always Hurt General Capabilities: Revisiting Domain-Specific Fine-Tuning in LLMs
 
-**会议**: ICLR2026
-**arXiv**: [2509.20758](https://arxiv.org/abs/2509.20758)
-**代码**: 未开源
-**领域**: model_compression
+**会议**: ICLR2026  
+**arXiv**: [2509.20758](https://arxiv.org/abs/2509.20758)  
+**代码**: 未开源  
+**领域**: model_compression  
 **关键词**: SFT, 领域微调, 通用能力退化, 学习率, token自适应重加权, 持续学习, LLM
 
 ## 一句话总结

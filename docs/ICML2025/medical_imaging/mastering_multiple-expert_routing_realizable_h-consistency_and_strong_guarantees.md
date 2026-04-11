@@ -1,9 +1,9 @@
 # Mastering Multiple-Expert Routing: Realizable H-Consistency and Strong Guarantees
 
-**会议**: ICML 2025
-**arXiv**: [2506.20650](https://arxiv.org/abs/2506.20650)
-**代码**: 无
-**领域**: Medical Imaging (Learning to Defer/Expert Routing)
+**会议**: ICML 2025  
+**arXiv**: [2506.20650](https://arxiv.org/abs/2506.20650)  
+**代码**: 无  
+**领域**: Medical Imaging (Learning to Defer/Expert Routing)  
 **关键词**: 学习延迟, 多专家路由, H-一致性, 代理损失, Bayes 一致性
 
 ## 一句话总结

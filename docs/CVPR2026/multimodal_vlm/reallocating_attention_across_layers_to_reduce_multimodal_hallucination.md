@@ -1,9 +1,9 @@
 # Reallocating Attention Across Layers to Reduce Multimodal Hallucination
 
-**会议**: CVPR 2026
-**arXiv**: [2510.10285](https://arxiv.org/abs/2510.10285)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2510.10285](https://arxiv.org/abs/2510.10285)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 多模态幻觉, 注意力头, 感知-推理分层, 训练无关插件, 注意力重分配
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # ActivityForensics: A Comprehensive Benchmark for Localizing Manipulated Activity in Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2604.03819](https://arxiv.org/abs/2604.03819)
-**代码**: https://activityforensics.github.io (有)
-**领域**: 视频理解 / AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2604.03819](https://arxiv.org/abs/2604.03819)  
+**代码**: https://activityforensics.github.io (有)  
+**领域**: 视频理解 / AI安全  
 **关键词**: 视频篡改检测, 活动级伪造, 时间定位, 扩散模型特征正则化, 视频取证
 
 ## 一句话总结

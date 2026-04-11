@@ -1,9 +1,9 @@
 # Robust Multi-bit Text Watermark with LLM-based Paraphrasers
 
-**会议**: ICML 2025
-**arXiv**: [2412.03123](https://arxiv.org/abs/2412.03123)
-**代码**: [github.com/xiaojunxu/multi-bit-text-watermark](https://github.com/xiaojunxu/multi-bit-text-watermark)
-**领域**: AI安全 / 文本水印
+**会议**: ICML 2025  
+**arXiv**: [2412.03123](https://arxiv.org/abs/2412.03123)  
+**代码**: [github.com/xiaojunxu/multi-bit-text-watermark](https://github.com/xiaojunxu/multi-bit-text-watermark)  
+**领域**: AI安全 / 文本水印  
 **关键词**: text watermark, multi-bit, paraphrasing, PPO, co-training
 
 ## 一句话总结

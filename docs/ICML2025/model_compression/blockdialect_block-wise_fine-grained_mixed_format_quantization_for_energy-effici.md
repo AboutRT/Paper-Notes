@@ -1,9 +1,9 @@
 # BlockDialect: Block-wise Fine-grained Mixed Format Quantization for Energy-Efficient LLM Inference
 
-**会议**: ICML 2025
-**arXiv**: [2501.01144](https://arxiv.org/abs/2501.01144)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2501.01144](https://arxiv.org/abs/2501.01144)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 混合格式量化, FP4变体, 细粒度量化, 能效推理, 激活量化
 
 ## 一句话总结

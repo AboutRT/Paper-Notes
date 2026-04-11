@@ -1,9 +1,9 @@
 # AMoPO: Adaptive Multi-objective Preference Optimization without Reward Models and Reference Models
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2506.07165](https://arxiv.org/abs/2506.07165)
-**代码**: https://github.com/Javkonline/AMoPO (有)
-**领域**: LLM Alignment
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2506.07165](https://arxiv.org/abs/2506.07165)  
+**代码**: https://github.com/Javkonline/AMoPO (有)  
+**领域**: LLM Alignment  
 **关键词**: 多目标偏好对齐, 自适应权重, 高斯分布, 无奖励模型, 偏好优化
 
 ## 一句话总结

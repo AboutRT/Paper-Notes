@@ -1,9 +1,9 @@
 # Scaling Generalist Data-Analytic Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25084](https://arxiv.org/abs/2509.25084)
-**代码**: [GitHub](https://github.com/zjunlp/DataMind)
-**领域**: 数据分析Agent/LLM
+**会议**: ICLR 2026  
+**arXiv**: [2509.25084](https://arxiv.org/abs/2509.25084)  
+**代码**: [GitHub](https://github.com/zjunlp/DataMind)  
+**领域**: 数据分析Agent/LLM  
 **关键词**: 数据分析, Agent训练, 多轮代码执行, 课程合成, SFT+RL
 
 ## 一句话总结

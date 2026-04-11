@@ -1,9 +1,9 @@
 # Aligning LLMs by Predicting Preferences from User Writing Samples
 
-**会议**: ICML2025
-**arXiv**: [2505.23815](https://arxiv.org/abs/2505.23815)
-**代码**: 待确认
-**领域**: recommender
+**会议**: ICML2025  
+**arXiv**: [2505.23815](https://arxiv.org/abs/2505.23815)  
+**代码**: 待确认  
+**领域**: recommender  
 **关键词**: 偏好推断, 写作风格, LLM个性化, 迭代精炼, PROSE
 
 ## 一句话总结

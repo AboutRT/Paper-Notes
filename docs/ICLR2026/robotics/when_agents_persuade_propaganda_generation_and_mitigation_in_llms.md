@@ -1,8 +1,8 @@
 # When Agents Persuade: Propaganda Generation and Mitigation in LLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2603.04636](https://arxiv.org/abs/2603.04636)
-**领域**: AI安全/宣传检测
+**会议**: ICLR 2026  
+**arXiv**: [2603.04636](https://arxiv.org/abs/2603.04636)  
+**领域**: AI安全/宣传检测  
 **关键词**: 宣传生成, 修辞技术, LLM安全, ORPO微调, 内容审核
 
 ## 一句话总结

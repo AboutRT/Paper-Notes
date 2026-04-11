@@ -1,9 +1,9 @@
 # Robust 3D Object Detection using Probabilistic Point Clouds from Single-Photon LiDARs
 
-**会议**: ICCV2025
-**arXiv**: [2508.00169](https://arxiv.org/abs/2508.00169)
-**代码**: [项目页面](https://bhavyagoyal.github.io/ppc)
-**领域**: autonomous_driving / 3D感知
+**会议**: ICCV2025  
+**arXiv**: [2508.00169](https://arxiv.org/abs/2508.00169)  
+**代码**: [项目页面](https://bhavyagoyal.github.io/ppc)  
+**领域**: autonomous_driving / 3D感知  
 **关键词**: 概率点云, 单光子LiDAR, 3D目标检测, SPAD, 传感器不确定性传播, 噪声鲁棒性
 
 ## 一句话总结

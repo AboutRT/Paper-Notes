@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用强化学习让模型学会"选帖子"，使少量精选帖子的LLM预测结果比用全部帖子更好或相当。
 
 ## 方法详解
+
 ### 整体框架
 RL-Profiler由两个组件构成：
 - **SelNet（Selection Network）**: 基于BERT的RL agent，对每条帖子做select/reject二分类决策
@@ -37,6 +38,7 @@ RL-Profiler由两个组件构成：
 - 在top-N ∈ {5,10,20,30,50}上做验证选最优
 
 ## 实验关键数据
+
 ### 主实验 — PAN-AP-2015数据集（macro-F1 / weighted-F1）
 
 | 系统 | Openness | Consc. | Extrav. | Agree. | Neurot. |

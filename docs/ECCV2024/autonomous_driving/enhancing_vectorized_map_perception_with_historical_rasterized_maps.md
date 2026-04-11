@@ -1,9 +1,9 @@
 # Enhancing Vectorized Map Perception with Historical Rasterized Maps
 
-**会议**: ECCV2024
-**arXiv**: [2409.00620](https://arxiv.org/abs/2409.00620)
-**代码**: [HXMap/HRMapNet](https://github.com/HXMap/HRMapNet)
-**领域**: autonomous_driving
+**会议**: ECCV2024  
+**arXiv**: [2409.00620](https://arxiv.org/abs/2409.00620)  
+**代码**: [HXMap/HRMapNet](https://github.com/HXMap/HRMapNet)  
+**领域**: autonomous_driving  
 **关键词**: vectorized map perception, historical rasterized map, BEV, bird's-eye-view, HD map, autonomous driving
 
 ## 一句话总结

@@ -1,8 +1,8 @@
 # Synthetic Perception: Can Generated Images Unlock Latent Visual Prior for Text-Centric Reasoning?
 
-**会议**: ICML2025
-**arXiv**: [2506.17623](https://arxiv.org/abs/2506.17623)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2506.17623](https://arxiv.org/abs/2506.17623)  
+**领域**: image_generation  
 **关键词**: 合成视觉, T2I增强, 文本分类, 跨模态探测, 多模态融合
 
 ## 一句话总结
@@ -79,8 +79,10 @@
 - 价值: 4.0/5 — 对文本增强有新思路
 
 ## 补充分析
+
 ### "视觉可接地性"的判断
 情感分类（表情图像有用）>主题分类（物体图像有用）>抽象推理（图像帮助有限）。这可作为决定"是否值得生成图像"的先验。
+
 ### 成本效益分析
 T2I推理成本vs文本分类精度提升的权衡。对于计算资源充足的批量处理场景更值得，实时场景需要权衡延迟。
 

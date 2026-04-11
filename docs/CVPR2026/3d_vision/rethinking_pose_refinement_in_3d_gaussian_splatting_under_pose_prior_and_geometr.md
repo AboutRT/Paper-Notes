@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty
 
-**会议**: CVPR2026
-**arXiv**: [2603.16538](https://arxiv.org/abs/2603.16538)
-**代码**: [项目主页](https://arxiv.org/abs/2603.16538)（代码已开源）
-**领域**: 3D视觉
+**会议**: CVPR2026  
+**arXiv**: [2603.16538](https://arxiv.org/abs/2603.16538)  
+**代码**: [项目主页](https://arxiv.org/abs/2603.16538)（代码已开源）  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 视觉定位, 位姿优化, 蒙特卡洛采样, Fisher信息, 不确定性建模
 
 ## 一句话总结

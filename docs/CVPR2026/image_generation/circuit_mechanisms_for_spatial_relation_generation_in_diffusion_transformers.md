@@ -1,9 +1,9 @@
 # Circuit Mechanisms for Spatial Relation Generation in Diffusion Transformers
 
-**会议**: CVPR 2026
-**arXiv**: [2601.06338](https://arxiv.org/abs/2601.06338)
-**代码**: 无明确仓库链接
-**领域**: Image Generation
+**会议**: CVPR 2026  
+**arXiv**: [2601.06338](https://arxiv.org/abs/2601.06338)  
+**代码**: 无明确仓库链接  
+**领域**: Image Generation  
 **关键词**: 扩散Transformer, 可解释性, 空间关系, 交叉注意力电路, 文本编码器
 
 ## 一句话总结

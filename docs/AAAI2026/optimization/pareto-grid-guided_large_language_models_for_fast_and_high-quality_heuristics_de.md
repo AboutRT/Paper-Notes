@@ -18,6 +18,7 @@
 如何系统地利用 LLM 为 MOCOP 自动设计一组 Pareto 最优的启发式算法，同时优化解质量和运行效率，并保持启发式之间的**语义多样性**？
 
 ## 方法详解
+
 ### 整体框架
 MPaGE 在 SEMO (Simple Evolutionary Multiobjective Optimization) 范式下运行，迭代进化 heuristic 种群。每个 heuristic 编码为自然语言描述 + Python 代码，评估指标为两个目标：$e_1$（负 hypervolume，衡量解质量）和 $e_2$（运行时间）。
 

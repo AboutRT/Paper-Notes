@@ -1,9 +1,9 @@
 # RobuSTereo: Robust Zero-Shot Stereo Matching under Adverse Weather
 
-**会议**: ICCV 2025
-**arXiv**: [2507.01653](https://arxiv.org/abs/2507.01653)
-**代码**: 待确认
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2507.01653](https://arxiv.org/abs/2507.01653)  
+**代码**: 待确认  
+**领域**: 3D视觉  
 **关键词**: 立体匹配, 恶劣天气, 零样本泛化, 扩散模型数据生成, 鲁棒特征编码器, 深度估计
 
 ## 一句话总结

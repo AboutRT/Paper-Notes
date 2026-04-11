@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🧠 NeurIPS2025** · 共 **107** 篇
+**🧠 NeurIPS2025** · 共 **129** 篇
 
 **[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](a_frustratingly_simple_yet_highly_effective_attack_baseline.md)**
 
@@ -343,15 +343,35 @@
 
 :   提出 NeedleInATable (NIAT) 基准，将表格中每个单元格视为"针"，评估 LLM 对长结构化表格的细粒度感知能力，揭示现有模型在复杂下游任务上的高分可能依赖数据捷径而非真正的表格理解。
 
+**[NegoCollab: A Common Representation Negotiation Approach for Heterogeneous Collaborative Perception](negocollab_a_common_representation_negotiation_approach_for_heterogeneous_collab.md)**
+
+:   提出 NegoCollab 框架，通过引入协商者（Negotiator）在训练期间从多模态 agent 的局部表示中协商生成公共表示，有效消除异质协作 agent 之间的域差异，实现低训练成本的协同网联感知。
+
 **[Omni-Mol: Multitask Molecular Model for Any-to-Any Modalities](omni-mol_multitask_molecular_model_for_any-to-any_modalities.md)**
 
 :   提出 Omni-Mol，一个基于多模态 LLM 的统一分子理解与生成框架，通过构建 142 万样本的指令微调数据集、Gradient Adaptive LoRA (GAL) 和 Mixture-of-GAL-Experts (MoGE) 架构，首次在单一模型中统一学习 16 个分子任务（Mol2Mol/Mol2Text/Mol2Num/Text2Mol），以仅 2.2B 参数在 13 个任务上达到 SOTA。
+
+**[OmniGaze: Reward-inspired Generalizable Gaze Estimation in the Wild](omnigaze_reward-inspired_generalizable_gaze_estimation_in_the_wild.md)**
+
+:   提出 OmniGaze，一个半监督 3D 注视估计框架，利用奖励模型评估伪标签质量（融合视觉嵌入和 MLLM 生成的语义注视描述），在 140 万无标签人脸数据上训练，实现五个数据集 SOTA 和四个未见数据集的零样本泛化。
 
 **[On the Value of Cross-Modal Misalignment in Multimodal Representation Learning](on_the_value_of_cross-modal_misalignment_in_multimodal_representation_learning.md)**
 
 :   提出潜变量模型将跨模态失配形式化为选择偏差和扰动偏差两种机制，理论证明MMCL学到的表征恰好捕获与两种偏差无关的不变语义子集，统一了"失配有害/有益"两种对立观点。
 
+**[Once Upon an Input: Reasoning via Per-Instance Program Synthesis](once_upon_an_input_reasoning_via_per-instance_program_synthesis.md)**
+
+:   提出 PIPS（Per-Instance Program Synthesis），通过实例级别的程序合成与结构化反馈迭代改进，结合置信度度量动态选择直接推理或程序合成，在30个基准上将调和平均准确率提升8.6%。
+
+**[OpenHOI: Open-World Hand-Object Interaction Synthesis with Multimodal Large Language Models](openhoi_open-world_hand-object_interaction_synthesis_with_multimodal_large_langu.md)**
+
+:   提出 OpenHOI 框架，利用多模态大语言模型（MLLM）的常识推理能力来推断陌生物体的接触区域和抓取类型，实现开放世界的手物交互合成，无需针对每个物体收集训练数据。
+
 **[Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions](partial_information_decomposition_via_normalizing_flows_in_latent_gaussian_distr.md)**
+
+**[PermLLM: Learnable Channel Permutation for N:M Sparse Large Language Models](permllm_learnable_channel_permutation_for_nm_sparse_large_language_models.md)**
+
+:   提出可学习的通道排列策略 PermLLM，通过优化 N:M 稀疏模式下的通道顺序，使得每个 M 元素块中保留的 N 个元素包含更多重要权重，显著提升 2:4 和 4:8 稀疏 LLM 的精度。
 
 **[Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning](praxisvlm_visiongrounded_decision_making_via_textdriven_rein.md)**
 
@@ -361,25 +381,61 @@
 
 :   提出 PrefixKV，将 LVLM 各层 KV 缓存大小的确定转化为搜索最优全局前缀配置的问题，通过二分搜索找到信息保留阈值实现自适应逐层 KV 保留，在 20% 压缩率下仍保持接近原模型性能，提供 1.8× 推理加速。
 
+**[RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering](rag-igbench_innovative_evaluation_for_rag-based_interleaved_generation_in_open-d.md)**
+
+:   提出 RAG-IGBench，一个专门评估基于检索增强生成的交错图文内容质量的 benchmark，设计了覆盖文本质量、图像质量和图文一致性三个维度的创新自动评估指标，并验证了与人类评估的高度相关性。
+
 **[Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion](rethinking_multimodal_learning_from_the_perspective_of_mitig.md)**
 
 :   提出"**分类能力不均衡**"视角理解多模态学习中的模态不平衡，设计 Sustained Boosting 算法（共享编码器 + 多可配置分类器，同时优化分类和残差误差）配合自适应分类器分配（ACA），理论证明跨模态 gap loss 以 $\mathcal{O}(1/T)$ 收敛，在 CREMAD 等 6 个数据集上大幅超越 SOTA。
+
+**[Revisiting Logit Distributions for Reliable Out-of-Distribution Detection](revisiting_logit_distributions_for_reliable_out-of-distribution_detection.md)**
+
+:   提出 LogitGap，一种新的 post-hoc OOD 检测评分函数，通过显式利用最大 logit 与其余 logit 之间的"间隔"来区分 ID 和 OOD 样本，并引入 top-N 选择策略过滤噪声 logit，理论和实验证明其在多种场景下超越 MCM 和 MaxLogit。
 
 **[RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics](roborefer_towards_spatial_referring_with_reasoning_in_vision-language_models_for.md)**
 
 :   提出 **RoboRefer**，一个 3D 感知的推理型 VLM，通过 **SFT + RFT** 两阶段训练策略（含度量敏感的过程奖励函数），在空间指代任务中实现精确的单步空间理解和多步空间推理，在 RefSpatial-Bench 上超越 Gemini-2.5-Pro 达 17.4%。
 
+**[RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](rtv-bench_benchmarking_mllm_continuous_perception_understanding_and_reasoning_th.md)**
+
+:   提出 RTV-Bench，一个评估 MLLM 实时视频连续分析能力的细粒度 benchmark，通过多时间戳问答（同一问题的正确答案随时间变化）、层次化问题结构和多维评估来全面衡量感知、理解和推理能力。
+
+**[Scaling Language-Centric Omnimodal Representation Learning](scaling_language-centric_omnimodal_representation_learning.md)**
+
+:   提出 LCO-Emb 框架，发现多模态大模型（MLLM）在生成式预训练中已隐式建立跨模态对齐，仅需轻量级的纯文本对比学习微调即可激活全模态表示能力，并发现生成能力与表示性能正相关的 Generation-Representation Scaling Law (GRSL)。
+
+**[SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodal LLMs](scope_saliency-coverage_oriented_token_pruning_for_efficient_multimodel_llms.md)**
+
+:   提出 SCOPE，一种联合建模显著性和覆盖率的视觉 Token 剪枝策略，通过迭代选择 SCOPE 得分最高的 Token 来保持语义完整性，在 9 倍 Token 缩减下保留 LLaVA-1.5 96% 的性能。
+
+**[See&Trek: Training-Free Spatial Prompting for Multimodal Large Language Model](seetrek_training-free_spatial_prompting_for_multimodal_large_language_model.md)**
+
+:   提出 See&Trek，一个无需训练和GPU的空间提示框架，通过最大语义丰富度采样和运动重建来增强 MLLM 的空间理解能力，在 VSI-Bench 上最高提升 3.5%。
+
 **[Sherlock: Self-Correcting Reasoning in Vision-Language Models](sherlock_selfcorrecting_reasoning_in_visionlanguage_models.md)**
 
 :   首个系统研究VLM推理自纠正能力的框架：发现现有推理VLM几乎不能自纠正（<10%出现aha moment），提出Sherlock三阶段训练框架（SFT冷启动→离线轨迹级偏好学习→在线自我迭代）仅用20K标注数据超越使用100K-260K数据的LLaVA-CoT/Mulberry/LlamaV-o1。
+
+**[Situat3DChange: Situated 3D Change Understanding Dataset for Multimodal Large Language Models](situat3dchange_situated_3d_change_understanding_dataset_for_multimodal_large_lan.md)**
+
+:   构建 Situat3DChange 数据集（174K 数据实例），统一了动态场景变化与情境感知理解的感知-行动范式，并提出 SCReasoner——一种高效的 3D MLLM 用于点云对比推理。
 
 **[Sparse Autoencoders Learn Monosemantic Features in Vision-Language Models](sparse_autoencoders_learn_monosemantic_features_in_visionlan.md)**
 
 :   将Sparse Autoencoder (SAE)从LLM可解释性扩展到VLM领域，提出MonoSemanticity Score (MS)量化视觉神经元的单义性，发现SAE能将VLM中多义的神经元分解为单义特征，且可直接通过操控单个SAE神经元来steering LLaVA的输出（插入或抑制概念），无需修改LLM。
 
+**[SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards](spatialthinker_reinforcing_3d_reasoning_in_multimodal_llms_via_spatial_rewards.md)**
+
+:   提出 SpatialThinker，通过在线 RL 结合多目标密集空间奖励（格式→计数→准确性→空间定位的字典序门控）训练 MLLM 构建场景图并进行结构化空间推理，仅用 7K 样本超越 GPT-4o 在 3DSRBench 上 12.1%。
+
 **[SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](srpo_enhancing_multimodal_llm_reasoning_via_reflection-aware_reinforcement_learn.md)**
 
 :   提出 SRPO（Self-Reflection enhanced reasoning with Group Relative Policy Optimization），一个两阶段反思感知 RL 框架：第一阶段用大模型生成反思数据做 SFT cold-start，第二阶段设计反思感知奖励函数在 GRPO 中强化简洁有效的自我反思能力，在 MathVista/MathVision/MMMU-Pro 等多模态推理基准上以 7B/32B 模型显著超越同规模 SOTA。
+
+**[SSR: Enhancing Depth Perception in VLMs via Rationale-Guided Spatial Reasoning](ssr_enhancing_depth_perception_in_vision-language_models_via_rationale-guided_sp.md)**
+
+:   提出 SSR 框架，将原始深度信息转化为结构化文本推理 rationale，并通过知识蒸馏压缩为紧凑潜在嵌入，以即插即用方式增强现有 VLM 的空间推理能力。
 
 **[Systematic Reward Gap Optimization for Mitigating VLM Hallucinations](systematic_reward_gap_optimization_for_mitigating_vlm_hallucinations.md)**
 
@@ -397,25 +453,53 @@
 
 :   系统研究了基于规则的强化微调（RFT）中显式思维过程的必要性，发现视觉感知任务中"不思考"的RFT（No-Thinking-RFT）往往优于传统的"先思考再回答"策略，并提出了自适应思维方法让模型根据自身能力和任务复杂度决定是否思考。
 
+**[TOMCAT: Test-time Comprehensive Knowledge Accumulation for Compositional Zero-Shot Learning](tomcat_test-time_comprehensive_knowledge_accumulation_for_compositional_zero-sho.md)**
+
+:   提出 TOMCAT，通过在测试时从无标签数据中累积文本和视觉双模态知识来动态更新组合原型，克服标签分布偏移问题，在四个 CZSL 基准上实现 SOTA。
+
 **[TRoVe: Discovering Error-Inducing Static Feature Biases in Temporal Vision-Language Models](trove_discovering_errorinducing_static_feature_biases_in_tem.md)**
 
 :   TRoVe 提出一个自动化诊断框架，用于发现 temporal VLM 在时序理解任务中错误依赖的静态特征偏置；它通过从验证集提取候选静态特征，并同时评估这些特征对错误率的影响与模型对其依赖程度，在 101 个带偏置真值标注的 temporal VLM 上较最强基线提升 28.6%，还能进一步辅助 test-time 改善模型表现。
+
+**[Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition](uni-mumer_unified_multi-task_fine-tuning_of_vision-language_model_for_handwritte.md)**
+
+:   提出 Uni-MuMER，通过三种数据驱动任务（Tree-CoT、Error-Driven Learning、Symbol Counting）对开源 VLM 进行统一多任务微调，在 CROHME 和 HME100K 数据集上大幅超越专用轻量模型和零样本商用 VLM。
+
+**[Unified Reinforcement and Imitation Learning for Vision-Language Models](unified_reinforcement_and_imitation_learning_for_vision-language_models.md)**
+
+:   提出 RIL（Unified Reinforcement and Imitation Learning）训练框架，结合 GRPO 强化学习和 GAIL 对抗模仿学习，让小型 VLM（7B）通过学习大型 VLM（72B）的文本生成风格来大幅提升性能，无需增加推理延迟或"思考"过程。
 
 **[Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards](unveiling_chain_of_step_reasoning_for_visionlanguage_models.md)**
 
 :   提出Chain-of-Step (CoS)推理框架：将VLM的推理链分解为结构化步骤（Name+Thought+Reflection），训练Process Reward Model (PRM)提供步骤级精细奖励，通过迭代DPO和step-level beam search显著提升VLM推理能力——在InternVL-2.5-MPO-8B上平均提升4.0%达到73.4%，并揭示"对VLM而言推理质量比长度更重要"。
 
+**[VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity](vadtree_explainable_training-free_video_anomaly_detection_via_hierarchical_granu.md)**
+
+:   提出 VADTree，一种训练无关的视频异常检测框架，利用预训练的通用事件边界检测（GEBD）模型构建层次粒度感知树（HGTree），实现对不同时间跨度异常事件的自适应采样和多粒度推理，在 UCF-Crime、XD-Violence 和 MSAD 三个基准上取得训练无关方法SOTA，甚至超越部分弱监督方法。
+
 **[VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents](vagen_reinforcing_world_model_reasoning_for_multi-turn_vlm_agents.md)**
 
 :   提出VAGEN框架，通过将VLM智能体的推理过程结构化为StateEstimation和TransitionModeling来构建内部世界模型，结合WorldModeling Reward和Bi-Level GAE实现高效的多轮RL训练，使3B模型（0.82）超越GPT-5（0.75）和Gemini 2.5 Pro（0.67）。
+
+**[Video-SafetyBench: A Benchmark for Safety Evaluation of Video LVLMs](video-safetybench_a_benchmark_for_safety_evaluation_of_video_lvlms.md)**
+
+:   构建首个面向视频 LVLM 安全评估的综合基准 Video-SafetyBench，包含 2264 个视频-文本对覆盖 48 个细粒度不安全类别，通过可控视频生成管线和基于 LLM 置信度的 RJScore 指标，对 24 个 LVLM 进行大规模安全评测，揭示良性查询下视频攻击平均成功率达 67.2%。
 
 **[VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion](vipamin_visual_prompt_initialization_via_embedding_selection_and_subspace_expans.md)**
 
 :   提出VIPAMIN——一种零额外参数的视觉prompt初始化策略，通过注意力引导的语义匹配（Matching）和正交子空间注入（Orthogonalizing）两个模块，解决自监督VPT中prompt注意力均匀化和子空间坍塌两大失效模式，仅需单次前向传播即在24个视觉任务上刷新SOTA。
 
+**[Vision Function Layer in Multimodal LLMs](vision_function_layer_in_multimodal_llms.md)**
+
+:   发现 MLLM 中视觉相关的功能解码分布在特定的窄层中（视觉功能层/VFL），不同功能呈现一致的层级模式（识别→计数→定位→OCR），并据此设计了 VFL-LoRA 和 VFL-select 方法。
+
 **[Visual Instruction Bottleneck Tuning](visual_instruction_bottleneck_tuning.md)**
 
 :   首次将信息瓶颈（IB）原理应用于多模态大语言模型的端到端指令微调，提出Visual Instruction Bottleneck Tuning（Vittle），在LLM内部插入轻量瓶颈层学习最小充分表征，在30种分布偏移场景下一致提升鲁棒性，同时不牺牲标准基准性能。
+
+**[Visual Structures Help Visual Reasoning: Addressing the Binding Problem in LVLMs](visual_structures_helps_visual_reasoning_addressing_the_binding_problem_in_vlms.md)**
+
+:   提出 VISER，通过在图像上叠加水平线等低层级空间结构并配合顺序扫描提示，引导 LVLM 进行逐区域串行注意力解析，在视觉搜索、计数和空间关系等任务上大幅提升性能（GPT-4o 计数提升 26.8%）。
 
 **[VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set](vlsae_interpreting_and_enhancing_visionlanguage_alignment_wi.md)**
 
@@ -424,6 +508,10 @@
 **[VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning](vt-fsl_bridging_vision_and_text_with_llms_for_few-shot_learning.md)**
 
 :   提出VT-FSL框架，通过跨模态迭代提示（CIP）联合利用类名和支持图像驱动LLM生成精确文本描述并零样本合成语义一致图像，再通过核化体积对比学习（CGA）实现全局非线性跨模态对齐，在10个少样本学习基准上平均提升4.2%分类准确率。
+
+**[When Semantics Mislead Vision: Mitigating Large Multimodal Models Hallucinations](when_semantics_mislead_vision_mitigating_large_multimodal_models_hallucinations_.md)**
+
+:   发现大多模态模型（LMMs）在场景文字识别中存在"语义幻觉"问题（将无语义文本误识为语义合理的词），分析发现注意力集中于文本区域的Transformer层更不易幻觉，据此提出训练无关的ZoomText+Grounded Layer Correction框架，在TextHalu-Bench上提升约4-5%，在ST-VQA上提升约4%。
 
 **[STRUCTURE: With Limited Data for Multimodal Alignment, Let the Structure Guide You](with_limited_data_for_multimodal_alignment_let_the_structure_guide_you.md)**
 

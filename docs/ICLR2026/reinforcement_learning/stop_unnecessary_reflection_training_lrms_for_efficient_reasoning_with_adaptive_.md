@@ -1,9 +1,9 @@
 # Stop Unnecessary Reflection: Training LRMs for Efficient Reasoning with Adaptive Reflection and Length Coordinated Penalty
 
-**会议**: ICLR 2026
-**arXiv**: [2602.12113](https://arxiv.org/abs/2602.12113)
-**代码**: [https://github.com/ZeweiYu1/ARLCP](https://github.com/ZeweiYu1/ARLCP)
-**领域**: 高效推理 / 大语言模型
+**会议**: ICLR 2026  
+**arXiv**: [2602.12113](https://arxiv.org/abs/2602.12113)  
+**代码**: [https://github.com/ZeweiYu1/ARLCP](https://github.com/ZeweiYu1/ARLCP)  
+**领域**: 高效推理 / 大语言模型  
 **关键词**: 大推理模型, 过度反思, 自适应惩罚, 高效推理, RLVR
 
 ## 一句话总结

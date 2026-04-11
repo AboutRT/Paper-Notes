@@ -1,9 +1,9 @@
 # Self-Disentanglement and Re-Composition for Cross-Domain Few-Shot Segmentation
 
-**会议**: ICML 2025
-**arXiv**: [2506.02677](https://arxiv.org/abs/2506.02677)
-**代码**: 无
-**领域**: 图像分割
+**会议**: ICML 2025  
+**arXiv**: [2506.02677](https://arxiv.org/abs/2506.02677)  
+**代码**: 无  
+**领域**: 图像分割  
 **关键词**: 跨域少样本分割, ViT特征解耦, 正交空间解耦, 交叉模式比较, 自适应融合权重
 
 ## 一句话总结

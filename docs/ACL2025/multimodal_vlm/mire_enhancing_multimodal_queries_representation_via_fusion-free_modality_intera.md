@@ -1,10 +1,10 @@
 # MIRe: Enhancing Multimodal Queries Representation via Fusion-Free Modality Interaction
 
-**会议**: ACL 2025
-**arXiv**: [2411.08334](https://arxiv.org/abs/2411.08334)
+**会议**: ACL 2025  
+**arXiv**: [2411.08334](https://arxiv.org/abs/2411.08334)  
 **作者**: Yeong-Joon Ju, Ho-Joong Kim, Seong-Whan Lee (Korea University)
-**代码**: [GitHub](https://github.com/yeongjoonJu/MIRe)
-**领域**: multimodal_vlm
+**代码**: [GitHub](https://github.com/yeongjoonJu/MIRe)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态检索, 模态交互, late interaction, 视觉-文本对齐, 文本主导问题, 知识检索
 
 ## 一句话总结

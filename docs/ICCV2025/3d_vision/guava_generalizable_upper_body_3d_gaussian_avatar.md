@@ -1,9 +1,9 @@
 # GUAVA: Generalizable Upper Body 3D Gaussian Avatar
 
-**会议**: ICCV 2025
-**arXiv**: [2505.03351](https://arxiv.org/abs/2505.03351)
-**代码**: 待确认（见项目页面）
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2505.03351](https://arxiv.org/abs/2505.03351)  
+**代码**: 待确认（见项目页面）  
+**领域**: 3D视觉  
 **关键词**: 3D高斯, 上半身虚拟人, 泛化型重建, 单图重建, 表情驱动, 实时渲染, SMPLX, FLAME
 
 ## 一句话总结

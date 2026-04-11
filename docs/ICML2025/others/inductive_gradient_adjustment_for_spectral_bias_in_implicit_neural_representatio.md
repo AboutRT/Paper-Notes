@@ -1,9 +1,9 @@
 # Inductive Gradient Adjustment for Spectral Bias in Implicit Neural Representations
 
-**会议**: ICML2025
-**arXiv**: [2410.13271](https://arxiv.org/abs/2410.13271)
-**代码**: [LabShuHangGU/IGA-INR](https://github.com/LabShuHangGU/IGA-INR)
-**领域**: 隐式神经表示 (INR) / 频谱偏差 (Spectral Bias)
+**会议**: ICML2025  
+**arXiv**: [2410.13271](https://arxiv.org/abs/2410.13271)  
+**代码**: [LabShuHangGU/IGA-INR](https://github.com/LabShuHangGU/IGA-INR)  
+**领域**: 隐式神经表示 (INR) / 频谱偏差 (Spectral Bias)  
 **关键词**: Implicit Neural Representations, Spectral Bias, Neural Tangent Kernel, Gradient Adjustment, Training Dynamics
 
 ## 一句话总结

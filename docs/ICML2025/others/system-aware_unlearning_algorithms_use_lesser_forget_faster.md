@@ -1,9 +1,9 @@
 # System-Aware Unlearning Algorithms: Use Lesser, Forget Faster
 
-**会议**: ICML2025
-**arXiv**: [2506.06073](https://arxiv.org/abs/2506.06073)
-**代码**: 未开源
-**领域**: 其他/机器遗忘 (Machine Unlearning)
+**会议**: ICML2025  
+**arXiv**: [2506.06073](https://arxiv.org/abs/2506.06073)  
+**代码**: 未开源  
+**领域**: 其他/机器遗忘 (Machine Unlearning)  
 **关键词**: machine unlearning, system-aware, selective sampling, core set, linear classification, deletion capacity
 
 ## 一句话总结

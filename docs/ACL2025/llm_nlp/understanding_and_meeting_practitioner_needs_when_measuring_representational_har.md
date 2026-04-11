@@ -1,9 +1,9 @@
 # Understanding and Meeting Practitioner Needs When Measuring Representational Harms Caused by LLM-Based Systems
 
-**会议**: ACL2025
-**arXiv**: [2506.04482](https://arxiv.org/abs/2506.04482)
-**代码**: 无
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.04482](https://arxiv.org/abs/2506.04482)  
+**代码**: 无  
+**领域**: llm_nlp  
 **关键词**: 表征性伤害, LLM评估, 测量工具, 半结构化访谈, 实践者需求, 测量理论
 
 ## 一句话总结

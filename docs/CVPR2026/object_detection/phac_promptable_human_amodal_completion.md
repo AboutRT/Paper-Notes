@@ -1,9 +1,9 @@
 # PHAC: Promptable Human Amodal Completion
 
-**会议**: CVPR 2026
-**arXiv**: [2603.14741](https://arxiv.org/abs/2603.14741)
-**代码**: 无
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.14741](https://arxiv.org/abs/2603.14741)  
+**代码**: 无  
+**领域**: 目标检测  
 **关键词**: 人体非模态补全, 扩散模型, ControlNet, 姿态引导生成, 图像修复
 
 ## 一句话总结

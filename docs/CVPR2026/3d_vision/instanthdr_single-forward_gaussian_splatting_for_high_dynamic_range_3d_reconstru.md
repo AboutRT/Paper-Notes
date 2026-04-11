@@ -1,9 +1,9 @@
 # InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11298](https://arxiv.org/abs/2603.11298)
-**代码**: 待公开（代码、模型、数据集将在review后发布）
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.11298](https://arxiv.org/abs/2603.11298)  
+**代码**: 待公开（代码、模型、数据集将在review后发布）  
+**领域**: 3D视觉  
 **关键词**: HDR新视角合成, 3D高斯泼溅, 前馈重建, 色调映射, 多曝光融合
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # WGFormer: An SE(3)-Transformer Driven by Wasserstein Gradient Flows for Molecular Generation
 
-**会议**: ICML 2025
-**arXiv**: [2410.09795](https://arxiv.org/abs/2410.09795)
-**代码**: 无
-**领域**: 分子生成 / 几何深度学习
+**会议**: ICML 2025  
+**arXiv**: [2410.09795](https://arxiv.org/abs/2410.09795)  
+**代码**: 无  
+**领域**: 分子生成 / 几何深度学习  
 **关键词**: molecular conformation, SE(3)-Transformer, Wasserstein gradient flow, ground-state conformation, autoencoder
 
 ## 一句话总结

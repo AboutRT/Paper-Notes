@@ -1,9 +1,9 @@
 # GeoComplete: Geometry-Aware Diffusion for Reference-Driven Image Completion
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.03110](https://arxiv.org/abs/2510.03110)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.03110](https://arxiv.org/abs/2510.03110)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 图像补全, 扩散模型, 几何引导, 点云投影, 参考图像
 
 ## 一句话总结

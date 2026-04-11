@@ -1,9 +1,9 @@
 # Heavy-Tailed Linear Bandits: Huber Regression with One-Pass Update
 
-**会议**: ICML2025
-**arXiv**: [2503.00419](https://arxiv.org/abs/2503.00419)
-**代码**: 无
-**领域**: 其他/bandits
+**会议**: ICML2025  
+**arXiv**: [2503.00419](https://arxiv.org/abs/2503.00419)  
+**代码**: 无  
+**领域**: 其他/bandits  
 **关键词**: heavy-tailed bandits, Huber regression, online mirror descent, linear bandits, one-pass algorithm
 
 ## 一句话总结

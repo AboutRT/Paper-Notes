@@ -1,9 +1,9 @@
 # Multi-View 3D Point Tracking
 
-**会议**: ICCV 2025
-**arXiv**: [2508.21060](https://arxiv.org/abs/2508.21060)
-**代码**: [ethz-vlg/mvtracker](https://ethz-vlg.github.io/mvtracker)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2508.21060](https://arxiv.org/abs/2508.21060)  
+**代码**: [ethz-vlg/mvtracker](https://ethz-vlg.github.io/mvtracker)  
+**领域**: 3D视觉  
 **关键词**: 多视角3D点跟踪, 点云特征融合, kNN关联, Transformer迭代优化, 遮挡处理
 
 ## 一句话总结

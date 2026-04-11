@@ -1,9 +1,9 @@
 # CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-Aware 3D Gaussian Field
 
-**会议**: ECCV 2024
-**arXiv**: [2403.16095](https://arxiv.org/abs/2403.16095)
-**代码**: [有](https://zju3dv.github.io/cg-slam)
-**领域**: 3D视觉
+**会议**: ECCV 2024  
+**arXiv**: [2403.16095](https://arxiv.org/abs/2403.16095)  
+**代码**: [有](https://zju3dv.github.io/cg-slam)  
+**领域**: 3D视觉  
 **关键词**: 稠密视觉SLAM, 3D高斯溅射, 不确定性建模, 实时定位与建图, 各向同性正则化
 
 ## 一句话总结

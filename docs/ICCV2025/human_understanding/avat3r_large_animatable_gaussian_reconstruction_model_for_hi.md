@@ -1,9 +1,9 @@
 # Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars
 
-**会议**: ICCV 2025
-**arXiv**: [2502.20220](https://arxiv.org/abs/2502.20220)
-**代码**: 无公开代码
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2502.20220](https://arxiv.org/abs/2502.20220)  
+**代码**: 无公开代码  
+**领域**: 3D视觉  
 **关键词**: 3D高斯, 头部头像重建, 面部动画, 大重建模型, 前馈推理
 
 ## 一句话总结

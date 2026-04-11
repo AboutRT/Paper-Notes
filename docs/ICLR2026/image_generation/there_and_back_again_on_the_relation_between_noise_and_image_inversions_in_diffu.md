@@ -1,9 +1,9 @@
 # There and Back Again: On the Relation between Noise and Image Inversions in Diffusion Models
 
-**会议**: ICLR 2026
-**arXiv**: [2410.23530](https://arxiv.org/abs/2410.23530)
-**代码**: [GitHub](https://github.com/luk-st/taba)
-**领域**: 扩散模型 / 反转分析 / 图像编辑
+**会议**: ICLR 2026  
+**arXiv**: [2410.23530](https://arxiv.org/abs/2410.23530)  
+**代码**: [GitHub](https://github.com/luk-st/taba)  
+**领域**: 扩散模型 / 反转分析 / 图像编辑  
 **关键词**: DDIM反转, 潜在编码, 噪声相关性, 平滑区域, 正向扩散修复
 
 ## 一句话总结

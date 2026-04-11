@@ -1,9 +1,9 @@
 # Partially Equivariant Reinforcement Learning in Symmetry-Breaking Environments
 
-**会议**: ICLR 2026
-**arXiv**: [2512.00915](https://arxiv.org/abs/2512.00915)
-**代码**: [项目页面](https://pranaboy72.github.io/perl_page/)
-**领域**: 强化学习/等变性
+**会议**: ICLR 2026  
+**arXiv**: [2512.00915](https://arxiv.org/abs/2512.00915)  
+**代码**: [项目页面](https://pranaboy72.github.io/perl_page/)  
+**领域**: 强化学习/等变性  
 **关键词**: 部分等变性, 对称性破缺, 群不变MDP, 门控策略, 误差传播
 
 ## 一句话总结

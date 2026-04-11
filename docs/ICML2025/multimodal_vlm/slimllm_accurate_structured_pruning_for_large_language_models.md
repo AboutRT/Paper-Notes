@@ -1,8 +1,8 @@
 # SlimLLM: Accurate Structured Pruning for Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2505.22689](https://arxiv.org/abs/2505.22689)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2505.22689](https://arxiv.org/abs/2505.22689)  
+**领域**: multimodal_vlm  
 **关键词**: 结构化剪枝, LLM压缩, 通道重要性, 注意力头剪枝, 线性回归恢复
 
 ## 一句话总结

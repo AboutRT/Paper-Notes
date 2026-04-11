@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Diverse Prototypical Ensembles Improve Robustness to Subpopulation Shift
 
-**会议**: ICML2025
-**arXiv**: [2505.23027](https://arxiv.org/abs/2505.23027)
-**代码**: [minhto2802/dpe4subpop](https://github.com/minhto2802/dpe4subpop)
-**领域**: others (鲁棒性 / 分布偏移)
+**会议**: ICML2025  
+**arXiv**: [2505.23027](https://arxiv.org/abs/2505.23027)  
+**代码**: [minhto2802/dpe4subpop](https://github.com/minhto2802/dpe4subpop)  
+**领域**: others (鲁棒性 / 分布偏移)  
 **关键词**: subpopulation shift, prototype classifier, ensemble diversity, worst-group accuracy, distribution robustness
 
 ## 一句话总结

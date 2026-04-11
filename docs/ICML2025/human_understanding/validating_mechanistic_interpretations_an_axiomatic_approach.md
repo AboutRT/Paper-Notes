@@ -1,9 +1,9 @@
 # Validating Mechanistic Interpretations: An Axiomatic Approach
 
-**会议**: ICML2025
-**arXiv**: [2407.13594](https://arxiv.org/abs/2407.13594)
-**代码**: [GitHub](https://github.com/nilspalumbo/axiomatic-validation)
-**领域**: 可解释性 / 机制可解释性
+**会议**: ICML2025  
+**arXiv**: [2407.13594](https://arxiv.org/abs/2407.13594)  
+**代码**: [GitHub](https://github.com/nilspalumbo/axiomatic-validation)  
+**领域**: 可解释性 / 机制可解释性  
 **关键词**: mechanistic interpretability, axiomatic validation, abstract interpretation, 2-SAT, compositional analysis
 
 ## 一句话总结

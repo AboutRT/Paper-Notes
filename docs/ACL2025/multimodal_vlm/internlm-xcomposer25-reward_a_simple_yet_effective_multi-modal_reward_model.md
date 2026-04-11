@@ -1,10 +1,10 @@
 # InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model
 
-**会议**: ACL 2025
-**arXiv**: [2501.12368](https://arxiv.org/abs/2501.12368)
+**会议**: ACL 2025  
+**arXiv**: [2501.12368](https://arxiv.org/abs/2501.12368)  
 **作者**: Yuhang Zang, Xiaoyi Dong, Pan Zhang, Yuhang Cao 等 (上海AI实验室, 港中文等)
-**代码**: [GitHub](https://github.com/InternLM/InternLM-XComposer)
-**领域**: multimodal_vlm
+**代码**: [GitHub](https://github.com/InternLM/InternLM-XComposer)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态奖励模型, RLHF, 偏好对齐, PPO, 测试时缩放, 数据清洗
 
 ## 一句话总结

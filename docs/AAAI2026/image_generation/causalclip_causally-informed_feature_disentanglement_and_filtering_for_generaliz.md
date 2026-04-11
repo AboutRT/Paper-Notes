@@ -1,9 +1,9 @@
 # CausalCLIP: Causally-Informed Feature Disentanglement and Filtering for Generalizable Detection of Generated Images
 
-**会议**: AAAI 2026
-**arXiv**: [2512.13285](https://arxiv.org/abs/2512.13285)
-**代码**: 无
-**领域**: AI 生成图像检测 / 因果表示学习
+**会议**: AAAI 2026  
+**arXiv**: [2512.13285](https://arxiv.org/abs/2512.13285)  
+**代码**: 无  
+**领域**: AI 生成图像检测 / 因果表示学习  
 **关键词**: 生成图像检测, 因果推理, CLIP, 特征解耦, 对抗训练
 
 ## 一句话总结

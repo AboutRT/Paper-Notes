@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🤖 AAAI2026** · 共 **43** 篇
+**🤖 AAAI2026** · 共 **74** 篇
 
 **[AbductiveMLLM: Boosting Visual Abductive Reasoning Within MLLMs](abductivemllm_boosting_visual_abductive_reasoning_within_mll.md)**
 
@@ -107,6 +107,10 @@
 
 :   提出 EfficientFlow，将等变性引入 Flow Matching 策略学习框架，理论证明各向同性先验+等变速度网络保证动作分布等变，并提出 Flow Acceleration Upper Bound (FABO) 正则化加速采样，在 MimicGen 12 个任务上实现比 EquiDiff 快 20-56 倍的推理速度且性能更优。
 
+**[Enhancing Multimodal Misinformation Detection by Replaying the Whole Story from Image Modality Perspective](enhancing_multimodal_misinformation_detection_by_replaying_the_whole_story_from_.md)**
+
+:   提出 RetSimd，通过将文本分段并用文本转图像模型生成一系列增补图像来"重放完整故事"，配合图神经网络融合多图像关系，显著提升了图像模态对虚假信息检测的贡献，在三个基准数据集上一致性地改进了五种 SOTA 方法的性能。
+
 **[FGM-HD: Boosting Generation Diversity of Fractal Generative Models through Hausdorff Dimension Induction](fgm-hd_boosting_generation_diversity_of_fractal_generative_models_through_hausdo.md)**
 
 :   本文首次将 Hausdorff 维数（HD）引入分形生成模型（FGM），提出可学习的 HD 估计模块、单调动量驱动调度策略（MMDS）和 HD 引导的拒绝采样，在 ImageNet 上实现 39% 的生成多样性提升（Recall），同时保持图像质量。
@@ -114,6 +118,14 @@
 **[Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment](flowing_backwards_improving_normalizing_flows_via_reverse_representation_alignme.md)**
 
 :   提出 R-REPA（Reverse Representation Alignment），创造性地利用 Normalizing Flows 的可逆性，在生成（反向）路径上将中间特征与视觉基础模型对齐，同时提出免训练分类算法，在 ImageNet 64×64 和 256×256 上实现 NF 新 SOTA，训练加速 3.3 倍。
+
+**[FreeInpaint: Tuning-free Prompt Alignment and Visual Rationality Enhancement in Image Inpainting](freeinpaint_tuning-free_prompt_alignment_and_visual_rationality_enhancement_in_i.md)**
+
+:   提出FreeInpaint，一种即插即用的免训练方法，通过优化初始噪声引导注意力聚焦到修复区域（PriNo），并在去噪过程中分解条件分布为文本对齐、视觉合理性和人类偏好三项引导（DeGu），同时提升图像修复的提示词对齐和视觉合理性。
+
+**[GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution](gewdiff_geometric_enhanced_wavelet-based_diffusion_model_for_hyperspectral_image.md)**
+
+:   提出GEWDiff，一种几何增强的基于小波的扩散模型，通过小波编码器-解码器高效压缩高光谱数据到潜在空间，引入边缘感知噪声调度和mask条件控制保持几何完整性，并设计多级损失函数促进稳定收敛，实现4倍高光谱图像超分辨率的SOTA效果。
 
 **[HACK: Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling](head-aware_kv_cache_compression_for_efficient_visual_autoreg.md)**
 
@@ -123,6 +135,18 @@
 
 :   基于 MMDiT 的双层级结构洞察（inter-block + intra-block hierarchy），提出 position-aware 的剪枝+蒸馏+量化框架，将 SD3.5 Large (8B) 从 15.8GB 压缩至 3.2GB（80% 内存降低），质量仅下降 ~5%。
 
+**[How Bias Binds: Measuring Hidden Associations for Bias Control in Text-to-Image Compositions](how_bias_binds_measuring_hidden_associations_for_bias_control_in_text-to-image_c.md)**
+
+:   首次研究文本到图像生成中的**组合语义绑定偏见**问题，提出Bias Adherence Score (BA-Score)量化物体-属性绑定如何激活偏见，并设计免训练的Context-Bias Control (CBC)框架，通过token嵌入解耦和残差注入实现组合生成中超过10%的去偏改善。
+
+**[Hyperbolic Hierarchical Alignment Reasoning Network for Text-3D Retrieval](hyperbolic_hierarchical_alignment_reasoning_network_for_text-3d_retrieval.md)**
+
+:   提出H2ARN，在Lorentz双曲空间中嵌入文本和3D点云数据，通过层次排序损失（蕴含锥）解决层次表示坍塌问题，通过贡献感知双曲聚合解决冗余导致的显著性稀释问题，在Text-3D检索中取得SOTA，并发布了2.6倍规模的T3DR-HIT v2数据集。
+
+**[Improved Masked Image Generation with Knowledge-Augmented Token Representations](improved_masked_image_generation_with_knowledge-augmented_token_representations.md)**
+
+:   提出KA-MIG框架，通过从训练数据中挖掘三种token级语义先验知识图（共现图、语义相似图、位置-token不兼容图），使用图感知编码器学习增强的token表示，并通过轻量级加减融合机制注入现有MIG模型，持续提升多种骨干网络的生成质量。
+
 **[Infinite-Story: A Training-Free Consistent Text-to-Image Generation](infinite-story_a_training-free_consistent_text-to-image_gene.md)**
 
 :   基于 scale-wise 自回归模型（Infinity），通过三个 training-free 技术——Identity Prompt Replacement（消除文本编码器的上下文偏差）、Adaptive Style Injection（参考图像特征注入）和 Synchronized Guidance Adaptation（同步 CFG 两个分支），实现了身份与风格一致的多图像生成，速度比扩散模型快 6 倍（1.72 秒/张）。
@@ -131,9 +155,45 @@
 
 :   通过从 MM-DiT 复制参数初始化布局控制网络、设计专用初始化方案（布局编码器初始化为纯文本编码器 + 输出零初始化）、并用 FLUX 自己生成的图像构建 LaySyn 数据集来缓解分布偏移，实现了在 FLUX 上高质量的布局到图像生成。
 
+**[LongLLaDA: Unlocking Long Context Capabilities in Diffusion LLMs](longllada_unlocking_long_context_capabilities_in_diffusion_llms.md)**
+
+:   首次系统研究扩散大语言模型（diffusion LLMs）的长上下文能力，发现其在直接外推时保持稳定困惑度和"局部感知"现象，并提出无需训练的 LongLLaDA 方法，通过 NTK-based RoPE 外推成功将上下文窗口扩展至 6 倍（24k tokens）。
+
+**[LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations](longt2ibench_a_benchmark_for_evaluating_long_text-to-image_generation_with_graph.md)**
+
+:   提出 LongT2IBench，首个面向长文本到图像（T2I）对齐的评估基准，包含 14K 长文本-图片对和图结构化人工标注，并构建 LongT2IExpert 评估器，通过层次化对齐思维链（HA-CoT）指令微调 MLLM，同时输出对齐分数和结构化解释。
+
+**[MacPrompt: Maraconic-guided Jailbreak against Text-to-Image Models](macprompt_maraconic-guided_jailbreak_against_text-to-image_models.md)**
+
+:   提出 MacPrompt，一种黑盒跨语言攻击方法，通过将有害词汇翻译为多语言候选并进行字符级重组构造"通心粉词（macaronic words）"作为对抗 prompt，能够同时绕过文本安全过滤器和概念移除防御，在色情内容上攻击成功率高达 92%，在暴力内容上达 90%。
+
+**[MACS: Multi-source Audio-to-Image Generation with Contextual Significance and Semantic Alignment](macs_multi-source_audio-to-image_generation_with_contextual_significance_and_sem.md)**
+
+:   提出 MACS，首个显式分离多源音频再生成图像的两阶段框架，通过弱监督声源分离 + CLAP 空间语义对齐（排序损失 + 对比损失）+ 解耦交叉注意力扩散生成，在多源、混合源和单源音频到图像生成任务上全面超越 SOTA。
+
 **[Mass Concept Erasure in Diffusion Models with Concept Hierarchy](mass_concept_erasure_in_diffusion_models_with_concept_hierarchy.md)**
 
 :   提出基于supertype-subtype概念层级的分组擦除策略和Supertype-Preserving LoRA (SuPLoRA)，通过冻结down-projection矩阵（正交于supertype子空间）仅训练up-projection矩阵，在大规模多领域概念擦除中实现擦除效果与生成质量的最优平衡。
+
+**[MDiff4STR: Mask Diffusion Model for Scene Text Recognition](mdiff4str_mask_diffusion_model_for_scene_text_recognition.md)**
+
+:   首次将掩码扩散模型（MDM）引入场景文本识别（STR）任务，提出 MDiff4STR，通过六种训练掩码策略（弥合训练-推理噪声差距）和 Token 替换噪声机制（解决过度自信问题），在仅需 3 步去噪的情况下超越 SOTA 自回归模型的准确率，同时实现 3× 推理加速。
+
+**[Melodia: Training-Free Music Editing Guided by Attention Probing in Diffusion Models](melodia_training-free_music_editing_guided_by_attention_probing_in_diffusion_mod.md)**
+
+:   通过对扩散模型中注意力图的深入探测分析，发现自注意力图对于保持音乐时间结构至关重要，据此提出 Melodia——一种免训练的音乐编辑方法，通过选择性操控自注意力图实现属性修改与结构保持的最优平衡。
+
+**[Mixture of Ranks with Degradation-Aware Routing for One-Step Real-World Image Super-Resolution](mixture_of_ranks_with_degradation-aware_routing_for_one-step_real-world_image_su.md)**
+
+:   将稀疏混合专家（MoE）思想引入真实世界图像超分辨率任务，提出 Mixture-of-Ranks（MoR）架构，将 LoRA 的每个 rank 视为独立专家，并设计退化估计模块和退化感知负载均衡损失，实现单步高保真超分辨率重建。
+
+**[MP1: MeanFlow Tames Policy Learning in 1-step for Robotic Manipulation](mp1_meanflow_tames_policy_learning_in_1-step_for_robotic_manipulation.md)**
+
+:   首次将 MeanFlow 范式引入机器人学习领域，结合 3D 点云输入和 Dispersive Loss，实现仅需一次网络前向传播（1-NFE）即可生成动作轨迹，在机器人操作任务中以 6.8ms 推理延迟达到 SOTA 成功率。
+
+**[Multi-Aspect Cross-modal Quantization for Generative Recommendation](multi-aspect_cross-modal_quantization_for_generative_recommendation.md)**
+
+:   提出 MACRec，在生成式推荐的语义 ID 学习和生成模型训练两个阶段引入多方面跨模态交互，通过跨模态量化（对比学习增强残差量化）和多方面对齐（隐式+显式），显著提升推荐性能并降低 ID 冲突率。
 
 **[Multi-Metric Preference Alignment For Generative Speech Restoration](multi-metric_preference_alignment_for_generative_speech_restoration.md)**
 
@@ -143,13 +203,73 @@
 
 :   本文研究在线分布鲁棒强化学习，提出了基于 $f$-散度不确定性集的 RVI-$f$ 算法，在 $\chi^2$ 和 KL 散度下均实现了近似极小极大最优的遗憾界，且不依赖任何结构性假设。
 
+**[PADiff: Predictive and Adaptive Diffusion Policies for Ad Hoc Teamwork](padiff_predictive_and_adaptive_diffusion_policies_for_ad_hoc_teamwork.md)**
+
+:   首次将扩散模型应用于 Ad Hoc Teamwork 问题，提出 PADiff 框架，通过 Adaptive Feature Modulation Net（AFM-Net）实现对动态队友的实时适应，通过 Predictive Guidance Block（PGB）将队友意图预测信息注入去噪过程，在多模态合作场景中比现有方法平均提升 35.25%。
+
+**[Phased One-Step Adversarial Equilibrium for Video Diffusion Models](phased_one-step_adversarial_equilibrium_for_video_diffusion_models.md)**
+
+:   提出 V-PAE（Video Phased Adversarial Equilibrium），通过"稳定性预热 + 统一对抗均衡"两阶段蒸馏框架，实现大规模视频扩散模型（如 Wan2.1-I2V-14B）的单步高质量视频生成，推理加速 100 倍，在 VBench-I2V 上平均超越现有加速方法 5.8% 的综合质量分。
+
+**[Playmate2: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback](playmate2_training-free_multi-character_audio-driven_animation_via_diffusion_tra.md)**
+
+:   提出基于 Wan2.1 的 DiT 音频驱动人物视频生成框架：通过 LoRA 训练策略实现长视频生成，结合部分参数更新与 DPO 奖励反馈增强唇同步与动作自然度，并首创免训练的 Mask-CFG 方法实现多角色（≥3 人）音频驱动动画。
+
+**[ProCache: Constraint-Aware Feature Caching with Selective Computation for Diffusion Transformer Acceleration](procache_constraint-aware_feature_caching_with_selective_computation_for_diffusi.md)**
+
+:   提出 ProCache，一个免训练的动态特征缓存框架：通过约束感知的非均匀缓存模式搜索和选择性计算策略，在 DiT-XL/2 上实现 2.90 倍加速、PixArt-α 上实现 1.96 倍加速，且图像质量几乎无损，显著优于现有缓存方法。
+
+**[QuantVSR: Low-Bit Post-Training Quantization for Real-World Video Super-Resolution](quantvsr_low-bit_post-training_quantization_for_real-world_video_super-resolutio.md)**
+
+:   提出 QuantVSR，首个面向扩散模型视频超分（VSR）的低比特（4/6-bit）后训练量化框架：通过时空复杂度感知（STCA）机制实现层自适应秩分配，并引入可学习偏置对齐（LBA）模块缓解低比特量化偏差，在 4-bit 设置下将参数量压缩 84.39%、计算量压缩 82.56%，同时保持与全精度模型接近的性能。
+
+**[ReAlign: Text-to-Motion Generation via Step-Aware Reward-Guided Alignment](realign_text-to-motion_generation_via_step-aware_reward-guided_alignment.md)**
+
+:   提出 ReAlign（Reward-guided sampling Alignment），通过步感知（step-aware）奖励模型和奖励引导采样策略，在扩散推理过程中动态引导采样轨迹朝向文本-动作高对齐的分布，无需微调任何扩散模型即可显著提升多种动作生成方法的质量。以 MLD 为例，R@1 提升 17.9%，FID 改善 58.8%。
+
+**[Realism Control One-step Diffusion for Real-World Image Super-Resolution](realism_control_one-step_diffusion_for_real-world_image_super-resolution.md)**
+
+:   提出 RCOD 框架，通过潜在域分组策略和退化感知采样，赋予单步扩散（OSD）超分辨率方法在推理阶段灵活控制保真度-真实感平衡的能力，同时引入视觉提示注入模块替代文本提示来提升恢复精度。
+
+**[Realistic Face Reconstruction from Facial Embeddings via Diffusion Models](realistic_face_reconstruction_from_facial_embeddings_via_diffusion_models.md)**
+
+:   提出 FEM（Face Embedding Mapping）框架，利用 KAN 网络将任意人脸识别/隐私保护人脸识别系统的嵌入向量映射到预训练身份保持（ID-Preserving）扩散模型的嵌入空间，实现高分辨率真实人脸重建，可用于评估人脸识别系统的隐私泄露风险。
+
+**[Rectified Noise: A Generative Model Using Positive-incentive Noise](rectified_noise_a_generative_model_using_positive-incentive_noise.md)**
+
+:   提出 Rectified Noise（ΔRN），通过正向激励噪声（π-noise）框架学习一组有益噪声并注入预训练 Rectified Flow 模型的速度场中，以仅 0.39% 的额外参数在 ImageNet-1k 上将 FID 从 10.16 降低到 9.05。
+
+**[RelaCtrl: Relevance-Guided Efficient Control for Diffusion Transformers](relactrl_relevance-guided_efficient_control_for_diffusion_transformers.md)**
+
+:   提出 RelaCtrl 框架，通过 ControlNet 相关性评分分析 DiT 各层对控制信息的敏感度差异，据此指导控制块的放置位置和建模强度，并设计二维混洗混合器（TDSM）替代自注意力和 FFN，以仅 15% 的参数量和计算复杂度实现优于 PixArt-δ 的可控生成效果。
+
+**[RetrySQL: Text-to-SQL Training with Retry Data for Self-Correcting Query Generation](retrysql_text-to-sql_training_with_retry_data_for_self-correcting_query_generati.md)**
+
+:   提出 RetrySQL 训练范式，通过在推理步骤中注入 retry data（错误步骤 + [BACK] 标记 + 正确步骤）来持续预训练小型编码模型，使 1.5B 参数的开源模型学会自纠正能力，在 BIRD 和 SPIDER 基准上分别提升整体执行准确率最高 4 和 3.93 个百分点，挑战性样例提升高达 9 个百分点。
+
+**[Right Looks, Wrong Reasons: Compositional Fidelity in Text-to-Image Generation](right_looks_wrong_reasons_compositional_fidelity_in_text-to-image_generation.md)**
+
+:   本文系统性地调研了文本到图像(T2I)模型在组合性忠实度方面的根本缺陷，聚焦否定(negation)、计数(counting)和空间关系(spatial relations)三大基本原语，揭示了模型在单一原语上表现尚可但联合组合时性能急剧下降的"亚乘性"(submultiplicative)干扰现象，并将其归因于训练数据稀缺、连续注意力架构不适合离散逻辑、以及评估指标偏向视觉合理性而非约束满足。
+
+**[Self-NPO: Data-Free Diffusion Model Enhancement via Truncated Diffusion Fine-Tuning](self-npo_data-free_diffusion_model_enhancement_via_truncated_diffusion_fine-tuni.md)**
+
+:   提出 Self-NPO，一种无需外部数据标注或奖励模型的负偏好优化方法，通过截断扩散微调(TDFT)让扩散模型从自身生成的低质量数据中学习"什么是不好的"，配合 CFG 引导远离不良输出，仅需不到 Diffusion-NPO 1%的训练成本即可达到可比性能。
+
 **[SimDiff: Simpler Yet Better Diffusion Model for Time Series Point Forecasting](simdiff_simpler_yet_better_diffusion_model_for_time_series_point_forecasting.md)**
 
 :   提出SimDiff——首个纯端到端扩散模型实现时间序列点预测SOTA，通过统一的Transformer网络同时充当去噪器和预测器，结合Normalization Independence处理分布偏移和Median-of-Means集成策略将概率采样转化为精确点预测，在9个数据集上6个第一、3个第二。
 
+**[SpecDiff: Accelerating Diffusion Model Inference with Self-Speculation](specdiff_accelerating_diffusion_model_inference_with_self-speculation.md)**
+
+:   提出 SpecDiff，一种基于自推测(self-speculation)的免训练多级特征缓存策略，通过利用少步推测引入**未来信息**辅助token重要性选择，突破了仅依赖历史信息的精度-速度瓶颈，在 Stable Diffusion 3/3.5 和 FLUX 上实现 2.80×/2.74×/3.17× 加速且质量损失可忽略。
+
 **[Stabilizing Self-Consuming Diffusion Models with Latent Space Filtering](stabilizing_self-consuming_diffusion_models_with_latent_space_filtering.md)**
 
 :   提出Latent Space Filtering (LSF)方法，通过分析自消费扩散模型隐空间中潜在表示的低维结构退化现象，利用probing classifier的置信度分数过滤低质量合成数据，在固定训练预算下有效缓解模型坍塌，无需额外真实数据或增大训练集。
+
+**[Steering One-Step Diffusion Model with Fidelity-Rich Decoder for Fast Image Compression](steering_one-step_diffusion_model_with_fidelity-rich_decoder_for_fast_image_comp.md)**
+
+:   提出 SODEC，一种基于单步扩散的图像压缩模型，通过保真度引导模块(FGM)将高保真VAE解码器的先验注入扩散生成过程，结合速率退火训练策略实现极低码率下的高质量压缩，解码速度比多步扩散方法快20×以上，同时在率-失真-感知权衡上达到SOTA。
 
 **[Structure-based RNA Design by Step-wise Optimization of Latent Diffusion Model](structure-based_rna_design_by_step-wise_optimization_of_latent_diffusion_model.md)**
 
@@ -158,6 +278,10 @@
 **[Studying Classifier(-Free) Guidance From A Classifier-Centric Perspective](studying_classifier-free_guidance_from_a_classifier-centric_perspective.md)**
 
 :   通过系统实证研究揭示了classifier guidance和classifier-free guidance的本质机制——两者都通过将去噪轨迹推离分类器的决策边界来实现条件生成，并提出基于流匹配的后处理方法在高维数据上验证了这一"分类器中心"视角。
+
+**[T-LoRA: Single Image Diffusion Model Customization Without Overfitting](t-lora_single_image_diffusion_model_customization_without_overfitting.md)**
+
+:   提出 T-LoRA，一种时步依赖的低秩适配框架，通过动态调整不同扩散时步的LoRA秩（高噪声时步用小秩、低噪声时步用大秩）和正交初始化（Ortho-LoRA）确保适配组件信息独立，解决了单图像扩散模型定制中的过拟合问题，在概念保真度和文本对齐间取得最优平衡。
 
 **[T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model](t2i-riskyprompt_a_benchmark_for_safety_evaluation_attack_and_defense_on_text-to-.md)**
 

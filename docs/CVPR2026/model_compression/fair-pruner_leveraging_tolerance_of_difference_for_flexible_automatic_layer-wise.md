@@ -1,9 +1,9 @@
 # FAIR-Pruner: Leveraging Tolerance of Difference for Flexible Automatic Layer-Wise Neural Network Pruning
 
-**会议**: CVPR 2026
-**arXiv**: [2508.02291](https://arxiv.org/abs/2508.02291)
-**代码**: 无（审稿后开源）
-**领域**: 模型压缩
+**会议**: CVPR 2026  
+**arXiv**: [2508.02291](https://arxiv.org/abs/2508.02291)  
+**代码**: 无（审稿后开源）  
+**领域**: 模型压缩  
 **关键词**: 结构化剪枝, 非均匀逐层剪枝, Wasserstein 距离, 差异容忍度, 自动稀疏度分配
 
 ## 一句话总结

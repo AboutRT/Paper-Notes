@@ -1,10 +1,10 @@
 # DriverGaze360: OmniDirectional Driver Attention with Object-Level Guidance
 
-**会议**: CVPR2026
-**arXiv**: [2512.14266](https://arxiv.org/abs/2512.14266)
-**代码**: [dfki-av/drivergaze360](https://github.com/dfki-av/drivergaze360)
+**会议**: CVPR2026  
+**arXiv**: [2512.14266](https://arxiv.org/abs/2512.14266)  
+**代码**: [dfki-av/drivergaze360](https://github.com/dfki-av/drivergaze360)  
 **数据集**: [HuggingFace](https://huggingface.co/datasets/dfki-av/drivergaze360)
-**领域**: 自动驾驶 / 驾驶员注意力预测
+**领域**: 自动驾驶 / 驾驶员注意力预测  
 **关键词**: 驾驶员注意力, 全景视角, 注视预测, 语义分割, 360°视野, Video Swin Transformer
 
 ## 一句话总结

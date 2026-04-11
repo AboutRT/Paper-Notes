@@ -1,9 +1,9 @@
 # Counting in Small Transformers: The Delicate Interplay between Attention and Feed-Forward Layers
 
-**会议**: ICML2025
-**arXiv**: [2407.11542](https://arxiv.org/abs/2407.11542)
-**代码**: [GitHub](https://github.com/SPOC-group/counting-attention)
-**领域**: Transformer理论
+**会议**: ICML2025  
+**arXiv**: [2407.11542](https://arxiv.org/abs/2407.11542)  
+**代码**: [GitHub](https://github.com/SPOC-group/counting-attention)  
+**领域**: Transformer理论  
 **关键词**: Transformer机制分析, 计数任务, Attention与FFN交互, 嵌入正交性, 机制可解释性
 
 ## 一句话总结

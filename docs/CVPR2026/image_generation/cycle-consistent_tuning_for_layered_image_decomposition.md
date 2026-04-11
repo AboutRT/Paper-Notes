@@ -1,9 +1,9 @@
 # Cycle-Consistent Tuning for Layered Image Decomposition
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20989](https://arxiv.org/abs/2602.20989)
-**代码**: 无（有项目主页）
-**领域**: 图像分解 / 图像编辑
+**会议**: CVPR 2026  
+**arXiv**: [2602.20989](https://arxiv.org/abs/2602.20989)  
+**代码**: 无（有项目主页）  
+**领域**: 图像分解 / 图像编辑  
 **关键词**: 图像分解, 循环一致性, 扩散模型, LoRA微调, 上下文学习
 
 ## 一句话总结

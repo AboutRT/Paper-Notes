@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🧠 NeurIPS2025** · 共 **22** 篇
+**🧠 NeurIPS2025** · 共 **25** 篇
 
 **[Adaptive Discretization for Consistency Models](adaptive_discretization_for_consistency_models.md)**
 
@@ -59,9 +59,17 @@
 
 :   证明了一个简单的 MMSE 去噪器迭代平均算法（与 Cold Diffusion 等实践方法密切相关）在对数凹先验假设下可证明收敛到负对数先验的近端算子，收敛速率为 Õ(1/k)，为一类经验上成功但缺乏理论保证的去噪方法提供了严格的理论基础，并将其嵌入近端梯度下降框架解决 MAP 估计问题。
 
+**[MoDEM: A Morton-Order Degradation Estimation Mechanism for Adverse Weather Image Restoration](modem_a_morton-order_degradation_estimation_mechanism_for_adverse_weather_image_.md)**
+
+:   提出 MODEM 框架，通过 Morton 编码空间扫描与选择性状态空间模型（SSM）结合，建模空间异质性天气退化特征，配合双重退化估计模块提供全局和局部先验，实现多种天气退化图像的统一自适应复原 SOTA。
+
 **[Mro Enhancing Reasoning In Diffusion Language Models Via Multi-Reward Optimizati](mro_enhancing_reasoning_in_diffusion_language_models_via_multi-reward_optimizati.md)**
 
 :   MRO通过多奖励优化捕获扩散语言模型内/间序列token相关性，加速DLM推理同时保持性能。
+
+**[MS-BART: Unified Modeling of Mass Spectra and Molecules for Structure Elucidation](ms-bart_unified_modeling_of_mass_spectra_and_molecules_for_structure_elucidation.md)**
+
+:   提出 MS-Bart，通过统一词表将分子指纹和分子结构（SELFIES）映射到共享的 token 空间，在 400 万指纹-分子对上进行多任务预训练，再通过实验谱微调和化学反馈对齐，实现从质谱到分子结构的高效生成。
 
 **[Rethinking Circuit Completeness in Language Models: AND, OR, and ADDER Gates](rethinking_circuit_completeness_in_language_models_and_or_and_adder_gates.md)**
 
@@ -70,6 +78,10 @@
 **[Rethinking Nighttime Image Deraining Via Learnable Color Space Transformation](rethinking_nighttime_image_deraining_via_learnable_color_space_transformation.md)**
 
 :   提出CST-Net用于夜间图像去雨：基于夜间雨在Y通道（亮度）上比RGB更显著的观察，设计可学习颜色空间转换器(CSC)在YCbCr空间去雨，配合隐式光照引导模块(IIG)和新构建的光照感知合成数据集HQ-NightRain，在多个基准上达到SOTA。
+
+**[SCAN: Self-Denoising Monte Carlo Annotation for Robust Process Reward Learning](scan_self-denoising_monte_carlo_annotation_for_robust_process_reward_learning.md)**
+
+:   提出 SCAN 框架，通过分析 Monte Carlo 注释中的噪声分布，设计自去噪采样策略和鲁棒学习损失，仅用 1.5B 模型生成的 101K 样本训练的 PRM 即超越人工标注数据集 PRM800K 的效果。
 
 **[Scsplit Bringing Severity Cognizance To Image Decomposition In Fluorescence Micr](scsplit_bringing_severity_cognizance_to_image_decomposition_in_fluorescence_micr.md)**
 

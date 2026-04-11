@@ -1,10 +1,10 @@
 # Reviving ConvNeXt for Efficient Convolutional Diffusion Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09408](https://arxiv.org/abs/2603.09408)
-**代码**: 有（官方实现已公开）
-**领域**: 图像生成
-**关键词**: 扩散模型, ConvNeXt, 全卷积, 高效生成, 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.09408](https://arxiv.org/abs/2603.09408)  
+**代码**: 有（官方实现已公开）  
+**领域**: 图像生成  
+**关键词**: 扩散模型, ConvNeXt, 全卷积, 高效生成, 图像生成  
 **机构**: KAIST, ETH Zürich, ISTI-CNR, University of Pisa
 
 ## 一句话总结

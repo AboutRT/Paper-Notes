@@ -1,9 +1,9 @@
 # EgoM2P: Egocentric Multimodal Multitask Pretraining
 
-**会议**: ICCV 2025
-**arXiv**: [2506.07886](https://arxiv.org/abs/2506.07886)
-**代码**: [项目页](https://egom2p.github.io/)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2506.07886](https://arxiv.org/abs/2506.07886)  
+**代码**: [项目页](https://egom2p.github.io/)  
+**领域**: 3d_vision  
 **关键词**: 自我中心视觉, 多模态预训练, 多任务学习, 掩码建模, 注视预测, 相机追踪, 深度估计, 视频生成
 
 ## 一句话总结

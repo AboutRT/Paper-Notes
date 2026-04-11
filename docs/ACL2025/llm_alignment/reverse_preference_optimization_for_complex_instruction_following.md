@@ -1,9 +1,9 @@
 # Reverse Preference Optimization for Complex Instruction Following
 
-**会议**: ACL 2025
-**arXiv**: [2505.22172](https://arxiv.org/abs/2505.22172)
-**代码**: 未公开
-**领域**: llm_alignment
+**会议**: ACL 2025  
+**arXiv**: [2505.22172](https://arxiv.org/abs/2505.22172)  
+**代码**: 未公开  
+**领域**: llm_alignment  
 **关键词**: 指令遵循, 偏好优化, DPO, 多约束对齐, 噪声消除
 
 ## 一句话总结

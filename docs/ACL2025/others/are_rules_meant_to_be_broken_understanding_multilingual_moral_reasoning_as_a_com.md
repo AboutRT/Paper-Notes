@@ -1,9 +1,9 @@
 # Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral
 
-**会议**: ACL 2025
-**arXiv**: [2502.14083](https://arxiv.org/abs/2502.14083)
-**代码**: 无
-**领域**: Others (NLP / Computational Social Science)
+**会议**: ACL 2025  
+**arXiv**: [2502.14083](https://arxiv.org/abs/2502.14083)  
+**代码**: 无  
+**领域**: Others (NLP / Computational Social Science)  
 **关键词**: 道德推理, 多语言, 统一数据集, LLM评估, 文化差异
 
 ## 一句话总结

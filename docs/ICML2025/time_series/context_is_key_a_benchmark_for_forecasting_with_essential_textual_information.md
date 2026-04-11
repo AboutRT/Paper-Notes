@@ -1,9 +1,9 @@
 # Context is Key: A Benchmark for Forecasting with Essential Textual Information
 
-**会议**: ICML 2025
-**arXiv**: [2410.18959](https://arxiv.org/abs/2410.18959)
-**代码**: https://servicenow.github.io/context-is-key-forecasting/v0/
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2410.18959](https://arxiv.org/abs/2410.18959)  
+**代码**: https://servicenow.github.io/context-is-key-forecasting/v0/  
+**领域**: 时间序列  
 **关键词**: 多模态预测, 文本上下文, 时间序列基准, LLM预测, 基础模型
 
 ## 一句话总结

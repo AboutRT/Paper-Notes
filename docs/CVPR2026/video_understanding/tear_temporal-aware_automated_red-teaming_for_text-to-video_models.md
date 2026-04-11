@@ -1,9 +1,9 @@
 # TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models
 
-**会议**: CVPR 2026
-**arXiv**: [2511.21145](https://arxiv.org/abs/2511.21145)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2511.21145](https://arxiv.org/abs/2511.21145)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 文本到视频安全, 自动化红队测试, 时序感知, 对抗提示生成, AI安全
 
 ## 一句话总结

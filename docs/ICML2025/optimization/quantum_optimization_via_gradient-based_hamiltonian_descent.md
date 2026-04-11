@@ -1,9 +1,9 @@
 # Quantum Optimization via Gradient-Based Hamiltonian Descent
 
-**会议**: ICML2025
-**arXiv**: [2505.14670](https://arxiv.org/abs/2505.14670)
-**代码**: [jiaqileng/Gradient-Based-QHD](https://github.com/jiaqileng/Gradient-Based-QHD)
-**领域**: 量子优化 / optimization
+**会议**: ICML2025  
+**arXiv**: [2505.14670](https://arxiv.org/abs/2505.14670)  
+**代码**: [jiaqileng/Gradient-Based-QHD](https://github.com/jiaqileng/Gradient-Based-QHD)  
+**领域**: 量子优化 / optimization  
 **关键词**: 量子哈密顿下降, 梯度信息, Lyapunov 收敛分析, Schrödinger 方程, 非凸优化, 量子算法
 
 ## 一句话总结

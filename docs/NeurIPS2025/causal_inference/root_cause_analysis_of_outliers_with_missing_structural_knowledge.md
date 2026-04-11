@@ -1,9 +1,9 @@
 # Root Cause Analysis of Outliers with Missing Structural Knowledge
 
-**会议**: NeurIPS 2025
-**arXiv**: [2406.05014](https://arxiv.org/abs/2406.05014)
-**代码**: [amazon-science/RCAWithMissingStructuralKnowledgeCode](https://github.com/amazon-science/RCAWithMissingStructuralKnowledgeCode)
-**领域**: causal_inference
+**会议**: NeurIPS 2025  
+**arXiv**: [2406.05014](https://arxiv.org/abs/2406.05014)  
+**代码**: [amazon-science/RCAWithMissingStructuralKnowledgeCode](https://github.com/amazon-science/RCAWithMissingStructuralKnowledgeCode)  
+**领域**: causal_inference  
 **关键词**: Root Cause Analysis, 因果推断, 异常检测, 信息论异常分数, Polytree
 
 ## 一句话总结
@@ -21,6 +21,7 @@
 6. **核心 idea 一句话**: 在 polytree 因果图中，边际异常分数的差值可以替代条件异常分数来检验因果机制是否被破坏
 
 ## 方法详解
+
 ### 整体框架
 本文建立在因果贝叶斯网络 (CBN) 框架上。正常分布 P(X1,...,Xn) 按因果 DAG 分解为因果条件 ∏P(Xi|PAi)。异常被建模为某个节点 Xj 的因果机制被替换为 P̃(Xj|PAj)，目标是从单个观测 (x1,...,xn) 中识别 j。
 
@@ -47,6 +48,7 @@
 - SCORE ORDERING 额外需要最大入度 d_max 的上界估计
 
 ## 实验关键数据
+
 ### 主实验：异常强度对 Top-1 Recall 的影响
 （合成数据，随机 DAG n 个节点，非线性 SCM，100 次重复）
 

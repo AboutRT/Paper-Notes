@@ -1,9 +1,9 @@
 # Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22025](https://arxiv.org/abs/2602.22025)
-**代码**: [Project](https://gdaosu.github.io/olbedo/)
-**领域**: 遥感
+**会议**: CVPR 2026  
+**arXiv**: [2602.22025](https://arxiv.org/abs/2602.22025)  
+**代码**: [Project](https://gdaosu.github.io/olbedo/)  
+**领域**: 遥感  
 **关键词**: 内在图像分解, 反照率, 航拍数据集, 逆渲染, 城市数字孪生
 
 ## 一句话总结

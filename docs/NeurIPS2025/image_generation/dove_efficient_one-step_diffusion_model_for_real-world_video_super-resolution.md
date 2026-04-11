@@ -1,9 +1,9 @@
 # DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.16239](https://arxiv.org/abs/2505.16239)
-**代码**: [有](https://github.com/zhengchen1999/DOVE)
-**领域**: 图像生成 / 扩散模型 / 视频超分辨率
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.16239](https://arxiv.org/abs/2505.16239)  
+**代码**: [有](https://github.com/zhengchen1999/DOVE)  
+**领域**: 图像生成 / 扩散模型 / 视频超分辨率  
 **关键词**: 单步扩散, 视频超分辨率, CogVideoX, 潜空间-像素空间训练, 视频数据管线
 
 ## 一句话总结

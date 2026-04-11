@@ -1,10 +1,10 @@
 # Order Matters: 3D Shape Generation from Sequential VR Sketches
 
-**会议**: CVPR 2026
-**arXiv**: [2512.04761](https://arxiv.org/abs/2512.04761)
+**会议**: CVPR 2026  
+**arXiv**: [2512.04761](https://arxiv.org/abs/2512.04761)  
 **作者**: Yizi Chen, Sidi Wu, Tianyi Xiao, Nina Wiedemann, Loic Landrieu (ETH Zurich, LIGM/ENPC/IP Paris)
-**代码**: [VRSketch2Shape](https://chenyizi086.github.io/VRSketch2Shape_website/)
-**领域**: others
+**代码**: [VRSketch2Shape](https://chenyizi086.github.io/VRSketch2Shape_website/)  
+**领域**: others  
 **关键词**: VR sketching, 3D shape generation, stroke order, diffusion model, sketch-to-shape
 
 ## 一句话总结

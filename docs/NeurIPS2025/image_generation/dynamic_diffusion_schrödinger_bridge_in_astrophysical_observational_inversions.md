@@ -1,9 +1,9 @@
 # Dynamic Diffusion Schrödinger Bridge in Astrophysical Observational Inversions
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.08065](https://arxiv.org/abs/2506.08065)
-**代码**: [有](https://github.com/L-YeZhu/AstroDSB)
-**领域**: 图像生成 / 扩散模型 / 科学应用
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.08065](https://arxiv.org/abs/2506.08065)  
+**代码**: [有](https://github.com/L-YeZhu/AstroDSB)  
+**领域**: 图像生成 / 扩散模型 / 科学应用  
 **关键词**: Schrödinger Bridge, 天文物理反问题, 巨分子云, 概率生成模型, 分布外泛化
 
 ## 一句话总结

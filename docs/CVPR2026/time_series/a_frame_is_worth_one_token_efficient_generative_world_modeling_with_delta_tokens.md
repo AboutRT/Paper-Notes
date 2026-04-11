@@ -1,9 +1,9 @@
 # A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens
 
-**会议**: CVPR 2026
-**arXiv**: [2604.04913](https://arxiv.org/abs/2604.04913)
-**代码**: [deltatok.github.io](https://deltatok.github.io) (有)
-**领域**: 时序预测 / 世界模型
+**会议**: CVPR 2026  
+**arXiv**: [2604.04913](https://arxiv.org/abs/2604.04913)  
+**代码**: [deltatok.github.io](https://deltatok.github.io) (有)  
+**领域**: 时序预测 / 世界模型  
 **关键词**: 世界模型, Delta token, 视频预测, 帧差压缩, Best-of-Many训练
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 4. **核心idea**：只编码帧间变化（delta）而非整帧，将视频从3D时空表示压缩为1D时间序列。
 
 ## 方法详解
+
 ### 整体框架
 冻结VFM（DINOv3）提取帧级特征 → DeltaTok编码器将相邻帧差压缩为单个delta token → DeltaWorld预测器在delta token序列上做生成预测 → DeltaTok解码器恢复空间特征图 → 下游任务头。
 
@@ -48,6 +49,7 @@
 - VFM: DINOv3 ViT-B，预测器也用 ViT-B
 
 ## 实验关键数据
+
 ### 主实验
 | 方法 | GFLOPs↓ | VSPW mIoU (Mid) | Cityscapes mIoU (Mid) | KITTI RMSE (Mid) |
 |------|---------|------|------|------|

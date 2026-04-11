@@ -1,9 +1,9 @@
 # TimeOmni-1: Incentivizing Complex Reasoning with Time Series in Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24803](https://arxiv.org/abs/2509.24803)
-**代码**: [GitHub](https://github.com/AntonGuan/TimeOmni-1)
-**领域**: 人体理解/时间序列
+**会议**: ICLR 2026  
+**arXiv**: [2509.24803](https://arxiv.org/abs/2509.24803)  
+**代码**: [GitHub](https://github.com/AntonGuan/TimeOmni-1)  
+**领域**: 人体理解/时间序列  
 **关键词**: 时间序列推理, LLM, 强化学习, 多任务联合训练, 因果发现
 
 ## 一句话总结

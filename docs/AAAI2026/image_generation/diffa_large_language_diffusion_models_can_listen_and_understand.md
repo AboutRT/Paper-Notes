@@ -1,9 +1,9 @@
 # DiffA: Large Language Diffusion Models Can Listen and Understand
 
-**会议**: AAAI 2026
-**arXiv**: [2507.18452](https://arxiv.org/abs/2507.18452)
-**代码**: [GitHub](https://github.com/NKU-HLT/DIFFA)
-**领域**: 图像生成
+**会议**: AAAI 2026  
+**arXiv**: [2507.18452](https://arxiv.org/abs/2507.18452)  
+**代码**: [GitHub](https://github.com/NKU-HLT/DIFFA)  
+**领域**: 图像生成  
 **关键词**: 扩散语言模型, 音频理解, 大型音频-语言模型, LLaDA, 参数高效适配
 
 ## 一句话总结

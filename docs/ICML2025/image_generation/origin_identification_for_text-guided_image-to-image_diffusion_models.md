@@ -1,9 +1,9 @@
 # Origin Identification for Text-Guided Image-to-Image Diffusion Models
 
-**会议**: ICML 2025
-**arXiv**: [2501.02376](https://arxiv.org/abs/2501.02376)
-**代码**: 有（OriPID 数据集）
-**领域**: Image Generation
+**会议**: ICML 2025  
+**arXiv**: [2501.02376](https://arxiv.org/abs/2501.02376)  
+**代码**: 有（OriPID 数据集）  
+**领域**: Image Generation  
 **关键词**: 图像溯源, 扩散模型安全, VAE 嵌入, 线性变换, 泛化性
 
 ## 一句话总结

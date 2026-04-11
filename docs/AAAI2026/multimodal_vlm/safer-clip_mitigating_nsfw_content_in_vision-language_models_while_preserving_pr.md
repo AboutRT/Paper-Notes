@@ -1,9 +1,9 @@
 # SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge
 
-**会议**: AAAI 2026
-**arXiv**: [2511.16743](https://arxiv.org/abs/2511.16743)
-**代码**: [项目页面](https://adeelyousaf.github.io/SC-Project-Page/)
-**领域**: 多模态VLM安全
+**会议**: AAAI 2026  
+**arXiv**: [2511.16743](https://arxiv.org/abs/2511.16743)  
+**代码**: [项目页面](https://adeelyousaf.github.io/SC-Project-Page/)  
+**领域**: 多模态VLM安全  
 **关键词**: CLIP安全微调, NSFW内容过滤, 近邻对齐, 表示空间保护, 渐进式训练
 
 ## 一句话总结

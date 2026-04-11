@@ -1,9 +1,9 @@
 # One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers
 
-**会议**: CVPR2026
-**arXiv**: [2603.12245](https://arxiv.org/abs/2603.12245)
-**代码**: [snap-research/elit](https://snap-research.github.io/elit)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2603.12245](https://arxiv.org/abs/2603.12245)  
+**代码**: [snap-research/elit](https://snap-research.github.io/elit)  
+**领域**: 图像生成  
 **关键词**: Diffusion Transformer, 弹性推理, 潜变量接口, 自适应计算, 多预算模型, 跨注意力
 
 ## 一句话总结

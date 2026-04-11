@@ -1,9 +1,9 @@
 # Adaptive Action Chunking at Inference-time for Vision-Language-Action Models
 
-**会议**: CVPR 2026
-**arXiv**: [2604.04161](https://arxiv.org/abs/2604.04161)
-**代码**: https://lance-lot.github.io/adaptive-chunking.github.io/ (有)
-**领域**: 机器人 / VLA模型
+**会议**: CVPR 2026  
+**arXiv**: [2604.04161](https://arxiv.org/abs/2604.04161)  
+**代码**: https://lance-lot.github.io/adaptive-chunking.github.io/ (有)  
+**领域**: 机器人 / VLA模型  
 **关键词**: 动作分块, VLA模型, 自适应推理, 动作熵, 机器人操作
 
 ## 一句话总结

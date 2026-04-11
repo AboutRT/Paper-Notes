@@ -1,9 +1,9 @@
 # T1: Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling
 
-**会议**: ICML 2025
-**arXiv**: [2501.11651](https://arxiv.org/abs/2501.11651)
-**代码**: https://github.com/THUDM/T1 (有)
-**领域**: LLM推理 / 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2501.11651](https://arxiv.org/abs/2501.11651)  
+**代码**: https://github.com/THUDM/T1 (有)  
+**领域**: LLM推理 / 强化学习  
 **关键词**: 强化学习, 推理能力, 测试时缩放, Chain-of-Thought, 数学推理
 
 ## 一句话总结
@@ -127,10 +127,10 @@ RL 训练在所有模型尺度上都带来了**显著提升**，32B 模型的 AI
 - 价值: ⭐⭐⭐⭐⭐ 开源实现了与 QwQ 竞争的推理能力，对社区有重大推动作用
 # T1: Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling
 
-**会议**: ICML 2025
-**arXiv**: [2501.11651](https://arxiv.org/abs/2501.11651)
-**代码**: https://github.com/THUDM/T1 (有)
-**领域**: LLM推理 / 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2501.11651](https://arxiv.org/abs/2501.11651)  
+**代码**: https://github.com/THUDM/T1 (有)  
+**领域**: LLM推理 / 强化学习  
 **关键词**: 强化学习, 推理能力, 推理时缩放, Chain-of-Thought, 数学推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LiREC-Net: A Target-Free and Learning-Based Network for LiDAR, RGB, and Event Calibration
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21754](https://arxiv.org/abs/2602.21754)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2602.21754](https://arxiv.org/abs/2602.21754)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 多传感器标定, 无靶标标定, 三模态融合, 事件相机, 外参估计
 
 ## 一句话总结

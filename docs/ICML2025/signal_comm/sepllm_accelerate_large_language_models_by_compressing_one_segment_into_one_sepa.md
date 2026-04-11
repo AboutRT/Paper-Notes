@@ -1,9 +1,9 @@
 # SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator
 
-**会议**: ICML2025
-**arXiv**: [2412.12094](https://arxiv.org/abs/2412.12094)
-**代码**: [sepllm.github.io](https://sepllm.github.io)
-**领域**: LLM加速 / 高效注意力
+**会议**: ICML2025  
+**arXiv**: [2412.12094](https://arxiv.org/abs/2412.12094)  
+**代码**: [sepllm.github.io](https://sepllm.github.io)  
+**领域**: LLM加速 / 高效注意力  
 **关键词**: LLM推理加速, KV Cache压缩, 稀疏注意力, 分隔符token, 数据依赖掩码
 
 ## 一句话总结

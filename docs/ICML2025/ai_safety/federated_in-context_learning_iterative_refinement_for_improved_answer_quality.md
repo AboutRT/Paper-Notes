@@ -1,9 +1,9 @@
 # Federated In-Context Learning: Iterative Refinement for Improved Answer Quality
 
-**会议**: ICML 2025
-**arXiv**: [2506.07440](https://arxiv.org/abs/2506.07440)
-**代码**: 无
-**领域**: AI Safety
+**会议**: ICML 2025  
+**arXiv**: [2506.07440](https://arxiv.org/abs/2506.07440)  
+**代码**: 无  
+**领域**: AI Safety  
 **关键词**: federated learning, in-context learning, question answering, iterative refinement, communication efficiency
 
 ## 一句话总结

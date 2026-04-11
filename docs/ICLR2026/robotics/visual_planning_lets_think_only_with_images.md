@@ -1,9 +1,9 @@
 # Visual Planning: Let's Think Only with Images
 
-**会议**: ICLR 2026
-**arXiv**: [2505.11409](https://arxiv.org/abs/2505.11409)
-**代码**: [GitHub](https://github.com/yix8/VisualPlanning)
-**领域**: 视觉推理/规划
+**会议**: ICLR 2026  
+**arXiv**: [2505.11409](https://arxiv.org/abs/2505.11409)  
+**代码**: [GitHub](https://github.com/yix8/VisualPlanning)  
+**领域**: 视觉推理/规划  
 **关键词**: 视觉规划, 纯图像推理, 大视觉模型, GRPO, 强化学习, 导航
 
 ## 一句话总结

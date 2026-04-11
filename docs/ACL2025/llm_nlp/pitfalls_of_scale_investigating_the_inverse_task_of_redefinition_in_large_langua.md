@@ -1,9 +1,9 @@
 # Pitfalls of Scale: Investigating the Inverse Task of Redefinition in Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2502.12821](https://arxiv.org/abs/2502.12821)
-**代码**: 无
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2502.12821](https://arxiv.org/abs/2502.12821)  
+**代码**: 无  
+**领域**: LLM NLP  
 **关键词**: 逆向缩放, 知识重定义, 先验锚定, 推理灵活性, 模型规模
 
 ## 一句话总结

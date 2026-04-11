@@ -1,9 +1,9 @@
 # CoEvo: Continual Evolution of Symbolic Solutions Using Large Language Models
 
-**会议**: AAAI 2026
-**arXiv**: [2412.18890](https://arxiv.org/abs/2412.18890)
-**代码**: [有](https://github.com/pgg3/CoEvo)
-**领域**: 模型压缩
+**会议**: AAAI 2026  
+**arXiv**: [2412.18890](https://arxiv.org/abs/2412.18890)  
+**代码**: [有](https://github.com/pgg3/CoEvo)  
+**领域**: 模型压缩  
 **关键词**: 符号回归, LLM进化搜索, 知识库, 开放式创新, 多表示空间
 
 ## 一句话总结

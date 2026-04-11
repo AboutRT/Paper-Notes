@@ -1,9 +1,9 @@
 # pySpatial: Generating 3D Visual Programs for Zero-Shot Spatial Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.00905](https://arxiv.org/abs/2603.00905)
-**代码**: [项目页面](https://pySpatial.github.io)
-**领域**: 3D空间推理/视觉编程
+**会议**: ICLR 2026  
+**arXiv**: [2603.00905](https://arxiv.org/abs/2603.00905)  
+**代码**: [项目页面](https://pySpatial.github.io)  
+**领域**: 3D空间推理/视觉编程  
 **关键词**: 视觉编程, 3D重建, 空间推理, 零样本, 机器人导航
 
 ## 一句话总结

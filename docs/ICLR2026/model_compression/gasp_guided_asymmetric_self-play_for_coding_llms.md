@@ -1,9 +1,9 @@
 # GASP: Guided Asymmetric Self-Play For Coding LLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2603.15957](https://arxiv.org/abs/2603.15957)
-**代码**: 无
-**领域**: LLM训练/代码推理
+**会议**: ICLR 2026  
+**arXiv**: [2603.15957](https://arxiv.org/abs/2603.15957)  
+**代码**: 无  
+**领域**: LLM训练/代码推理  
 **关键词**: 非对称自博弈, 代码生成, 课程学习, RLVR, 目标引导
 
 ## 一句话总结

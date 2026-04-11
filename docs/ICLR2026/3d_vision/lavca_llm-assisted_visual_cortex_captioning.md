@@ -1,9 +1,9 @@
 # LaVCa: LLM-assisted Visual Cortex Captioning
 
-**会议**: ICLR 2026
-**arXiv**: [2502.13606](https://arxiv.org/abs/2502.13606)
-**代码**: https://github.com/suyamat/LaVCa
-**领域**: 3D视觉 / 神经科学
+**会议**: ICLR 2026  
+**arXiv**: [2502.13606](https://arxiv.org/abs/2502.13606)  
+**代码**: https://github.com/suyamat/LaVCa  
+**领域**: 3D视觉 / 神经科学  
 **关键词**: 视觉皮层, 体素选择性, LLM, fMRI编码模型, 脑活动预测
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning
 
-**会议**: CVPR2026
-**arXiv**: [2603.07898](https://arxiv.org/abs/2603.07898)
-**代码**: [github.com/chenchenzong/E2OAL](https://github.com/chenchenzong/E2OAL)
-**领域**: others (主动学习 / 开放集识别)
+**会议**: CVPR2026  
+**arXiv**: [2603.07898](https://arxiv.org/abs/2603.07898)  
+**代码**: [github.com/chenchenzong/E2OAL](https://github.com/chenchenzong/E2OAL)  
+**领域**: others (主动学习 / 开放集识别)  
 **关键词**: open-set active learning, Dirichlet calibration, unknown class exploitation, adaptive querying, detector-free
 
 ## 一句话总结

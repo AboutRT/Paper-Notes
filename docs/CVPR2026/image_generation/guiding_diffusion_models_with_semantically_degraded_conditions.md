@@ -1,9 +1,9 @@
 # Guiding Diffusion Models with Semantically Degraded Conditions
 
-**会议**: CVPR2026
-**arXiv**: [2603.10780](https://arxiv.org/abs/2603.10780)
-**代码**: [Ming-321/Classifier-Degradation-Guidance](https://github.com/Ming-321/Classifier-Degradation-Guidance)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2603.10780](https://arxiv.org/abs/2603.10780)  
+**代码**: [Ming-321/Classifier-Degradation-Guidance](https://github.com/Ming-321/Classifier-Degradation-Guidance)  
+**领域**: 图像生成  
 **关键词**: Classifier-Free Guidance, 条件退化引导, 文本到图像, 扩散模型, 组合生成
 
 ## 一句话总结

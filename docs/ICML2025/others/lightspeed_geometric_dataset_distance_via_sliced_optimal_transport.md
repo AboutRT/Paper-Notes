@@ -1,9 +1,9 @@
 # Lightspeed Geometric Dataset Distance via Sliced Optimal Transport
 
-**会议**: ICML2025
-**arXiv**: [2501.18901](https://arxiv.org/abs/2501.18901)
-**代码**: [hainn2803/s-OTDD](https://github.com/hainn2803/s-OTDD)
-**领域**: 最优传输 / 数据集距离
+**会议**: ICML2025  
+**arXiv**: [2501.18901](https://arxiv.org/abs/2501.18901)  
+**代码**: [hainn2803/s-OTDD](https://github.com/hainn2803/s-OTDD)  
+**领域**: 最优传输 / 数据集距离  
 **关键词**: Sliced Optimal Transport, Dataset Distance, Moment Transform Projection, Wasserstein Distance, Transfer Learning
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Learning to Play Multi-Follower Bayesian Stackelberg Games
 
-**会议**: ICLR 2026
-**arXiv**: [2510.01387](https://arxiv.org/abs/2510.01387)
-**代码**: 无
-**领域**: 博弈论/在线学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.01387](https://arxiv.org/abs/2510.01387)  
+**代码**: 无  
+**领域**: 博弈论/在线学习  
 **关键词**: Stackelberg博弈, 贝叶斯博弈, 在线学习, 最佳响应区域, 遗憾界
 
 ## 一句话总结

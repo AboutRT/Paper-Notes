@@ -1,9 +1,9 @@
 # GrokFormer: Graph Fourier Kolmogorov-Arnold Transformers
 
-**会议**: ICML2025
-**arXiv**: [2411.17296](https://arxiv.org/abs/2411.17296)
-**代码**: [https://github.com/GGA23/GrokFormer](https://github.com/GGA23/GrokFormer)
-**领域**: 图Transformer / 谱图神经网络
+**会议**: ICML2025  
+**arXiv**: [2411.17296](https://arxiv.org/abs/2411.17296)  
+**代码**: [https://github.com/GGA23/GrokFormer](https://github.com/GGA23/GrokFormer)  
+**领域**: 图Transformer / 谱图神经网络  
 **关键词**: Graph Transformer, Kolmogorov-Arnold Network, 傅里叶级数, 谱图滤波器, 节点分类, 图分类
 
 ## 一句话总结

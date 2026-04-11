@@ -1,9 +1,9 @@
 # Motion-Aware Animatable Gaussian Avatars Deblurring
 
-**会议**: CVPR 2026
-**arXiv**: [2411.16758](https://arxiv.org/abs/2411.16758)
-**代码**: [GitHub](https://github.com/MyNiuuu/MAD-Avatar)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2411.16758](https://arxiv.org/abs/2411.16758)  
+**代码**: [GitHub](https://github.com/MyNiuuu/MAD-Avatar)  
+**领域**: 3D视觉  
 **关键词**: 3D人体重建, 运动模糊, 3D高斯溅射, SMPL, 去模糊
 
 ## 一句话总结

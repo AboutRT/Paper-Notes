@@ -1,9 +1,9 @@
 # Learning Mixtures of Experts with EM: A Mirror Descent Perspective
 
-**会议**: ICML 2025
-**arXiv**: [2411.06056](https://arxiv.org/abs/2411.06056)
-**代码**: 无
-**领域**: 优化
+**会议**: ICML 2025  
+**arXiv**: [2411.06056](https://arxiv.org/abs/2411.06056)  
+**代码**: 无  
+**领域**: 优化  
 **关键词**: 混合专家模型, EM算法, 镜像下降, 收敛分析, 指数族
 
 ## 一句话总结

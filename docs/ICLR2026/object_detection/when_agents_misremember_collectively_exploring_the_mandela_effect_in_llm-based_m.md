@@ -1,9 +1,9 @@
 # When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems
 
-**会议**: ICLR 2026
-**arXiv**: [2602.00428](https://arxiv.org/abs/2602.00428)
-**代码**: [GitHub](https://github.com/bluedream02/Mandela-Effect)
-**领域**: 多Agent安全/认知偏见
+**会议**: ICLR 2026  
+**arXiv**: [2602.00428](https://arxiv.org/abs/2602.00428)  
+**代码**: [GitHub](https://github.com/bluedream02/Mandela-Effect)  
+**领域**: 多Agent安全/认知偏见  
 **关键词**: 曼德拉效应, 集体虚假记忆, 多Agent, 认知偏见, 缓解策略
 
 ## 一句话总结

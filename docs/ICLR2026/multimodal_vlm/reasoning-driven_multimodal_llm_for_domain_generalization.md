@@ -1,9 +1,9 @@
 # Reasoning-Driven Multimodal LLM for Domain Generalization
 
-**会议**: ICLR 2026
-**arXiv**: [2602.23777](https://arxiv.org/abs/2602.23777)
-**代码**: 无
-**领域**: 域泛化/多模态推理
+**会议**: ICLR 2026  
+**arXiv**: [2602.23777](https://arxiv.org/abs/2602.23777)  
+**代码**: 无  
+**领域**: 域泛化/多模态推理  
 **关键词**: 域泛化, MLLM, 推理链, 多任务交叉训练, 自对齐正则化
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Shape-of-You: Fused Gromov-Wasserstein Optimal Transport for Semantic Correspondence in-the-Wild
 
-**会议**: CVPR2026
-**arXiv**: [2603.11618](https://arxiv.org/abs/2603.11618)
-**代码**: [Shape-of-You](https://github.com/im-jiin/Shape-of-You)
-**领域**: object_detection
+**会议**: CVPR2026  
+**arXiv**: [2603.11618](https://arxiv.org/abs/2603.11618)  
+**代码**: [Shape-of-You](https://github.com/im-jiin/Shape-of-You)  
+**领域**: object_detection  
 **关键词**: 语义对应, 最优传输, Gromov-Wasserstein, 3D几何约束, 伪标签, 基础模型
 
 ## 一句话总结

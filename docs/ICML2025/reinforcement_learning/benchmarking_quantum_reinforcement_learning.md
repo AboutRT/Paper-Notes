@@ -1,9 +1,9 @@
 # Benchmarking Quantum Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2501.15893](https://arxiv.org/abs/2501.15893)
-**代码**: 无
-**领域**: 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2501.15893](https://arxiv.org/abs/2501.15893)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 量子强化学习, 基准测试, 样本复杂度, 变分量子电路, 统计检验
 
 ## 一句话总结

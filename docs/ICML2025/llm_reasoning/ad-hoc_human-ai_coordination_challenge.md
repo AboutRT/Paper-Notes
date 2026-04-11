@@ -1,9 +1,9 @@
 # Ad-Hoc Human-AI Coordination Challenge (AH2AC2)
 
-**会议**: ICML2025
-**arXiv**: [2506.21490](https://arxiv.org/abs/2506.21490)
-**代码**: [FLAIROx/ah2ac2](https://github.com/FLAIROx/ah2ac2)
-**领域**: llm_reasoning / multi-agent RL / human-AI coordination
+**会议**: ICML2025  
+**arXiv**: [2506.21490](https://arxiv.org/abs/2506.21490)  
+**代码**: [FLAIROx/ah2ac2](https://github.com/FLAIROx/ah2ac2)  
+**领域**: llm_reasoning / multi-agent RL / human-AI coordination  
 **关键词**: Human-AI Coordination, Ad-Hoc Teamplay, Hanabi, Behavioural Cloning, Regularised RL, Human Proxy Agents, Benchmark
 
 ## 一句话总结

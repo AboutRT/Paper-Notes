@@ -1,9 +1,9 @@
 # LCRON: Learning Cascade Ranking as One Network
 
-**会议**: ICML2025
-**arXiv**: [2503.09492](https://arxiv.org/abs/2503.09492)
-**代码**: 待确认
-**领域**: recommender
+**会议**: ICML2025  
+**arXiv**: [2503.09492](https://arxiv.org/abs/2503.09492)  
+**代码**: 待确认  
+**领域**: recommender  
 **关键词**: 级联排序, 端到端训练, 代理损失, 推荐系统, 多阶段协调
 
 ## 一句话总结

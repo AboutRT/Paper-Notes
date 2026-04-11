@@ -1,8 +1,8 @@
 # Moving Beyond Medical Exams: A Clinician-Annotated Fairness Dataset of Real-World Tasks and Ambiguity in Mental Healthcare
 
-**会议**: ICLR 2026
-**arXiv**: [2502.16051](https://arxiv.org/abs/2502.16051)
-**领域**: 医学AI/公平性
+**会议**: ICLR 2026  
+**arXiv**: [2502.16051](https://arxiv.org/abs/2502.16051)  
+**领域**: 医学AI/公平性  
 **关键词**: 精神科评估, 临床决策, 公平性偏见, 专家标注, 模糊性
 
 ## 一句话总结

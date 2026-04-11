@@ -1,9 +1,9 @@
 # MotionDiff: Training-Free Zero-Shot Interactive Motion Editing via Flow-Assisted Multi-View Diffusion
 
-**会议**: ICCV 2025
-**arXiv**: [2503.17695](https://arxiv.org/abs/2503.17695)
-**代码**: 待确认 (无)
-**领域**: 图像编辑/运动编辑
+**会议**: ICCV 2025  
+**arXiv**: [2503.17695](https://arxiv.org/abs/2503.17695)  
+**代码**: 待确认 (无)  
+**领域**: 图像编辑/运动编辑  
 **关键词**: 运动编辑, 光流引导, 多视图一致性, 免训练扩散, 3D点云
 
 ## 一句话总结

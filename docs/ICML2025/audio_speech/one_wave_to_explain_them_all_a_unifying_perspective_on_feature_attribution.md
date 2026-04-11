@@ -1,9 +1,9 @@
 # One Wave To Explain Them All: A Unifying Perspective On Feature Attribution
 
-**会议**: ICML2025
-**arXiv**: [2410.01482](https://arxiv.org/abs/2410.01482)
-**代码**: [项目主页](https://gabrielkasmi.github.io/wam/)
-**领域**: 可解释性 (Explainability / Feature Attribution)
+**会议**: ICML2025  
+**arXiv**: [2410.01482](https://arxiv.org/abs/2410.01482)  
+**代码**: [项目主页](https://gabrielkasmi.github.io/wam/)  
+**领域**: 可解释性 (Explainability / Feature Attribution)  
 **关键词**: 小波变换, 特征归因, 可解释AI, 多模态, SmoothGrad, Integrated Gradients
 
 ## 一句话总结

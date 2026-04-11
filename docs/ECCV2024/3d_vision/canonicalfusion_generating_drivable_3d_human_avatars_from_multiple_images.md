@@ -1,9 +1,9 @@
 # CanonicalFusion: Generating Drivable 3D Human Avatars from Multiple Images
 
-**会议**: ECCV 2024
-**arXiv**: [2407.04345](https://arxiv.org/abs/2407.04345)
-**代码**: [有](https://github.com/jsshin98/CanonicalFusion)
-**领域**: 3D视觉
+**会议**: ECCV 2024  
+**arXiv**: [2407.04345](https://arxiv.org/abs/2407.04345)  
+**代码**: [有](https://github.com/jsshin98/CanonicalFusion)  
+**领域**: 3D视觉  
 **关键词**: 可驱动3D人体, 规范空间融合, 前向蒙皮, 可微渲染, LBS权重压缩
 
 ## 一句话总结

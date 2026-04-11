@@ -1,9 +1,9 @@
 # Differentially Private Federated Low Rank Adaptation Beyond Fixed-Matrix
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.09990](https://arxiv.org/abs/2507.09990)
-**代码**: [GitHub](https://github.com/FLEECERmw/PrivacyFedLLM)
-**领域**: AI安全
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.09990](https://arxiv.org/abs/2507.09990)  
+**代码**: [GitHub](https://github.com/FLEECERmw/PrivacyFedLLM)  
+**领域**: AI安全  
 **关键词**: 差分隐私, 联邦学习, LoRA, 低秩适配, 大语言模型微调
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis
 
-**会议**: ACL 2025
-**arXiv**: [2502.14767](https://arxiv.org/abs/2502.14767)
+**会议**: ACL 2025  
+**arXiv**: [2502.14767](https://arxiv.org/abs/2502.14767)  
 **作者**: Priyanka Kargupta, Ishika Agarwal, Tal August, Jiawei Han (UIUC)
-**代码**: [GitHub](https://github.com/pkargupta/tree-of-debate)
-**领域**: others
+**代码**: [GitHub](https://github.com/pkargupta/tree-of-debate)  
+**领域**: others  
 **关键词**: 多智能体辩论, 论文对比分析, 树结构推理, 检索增强生成, 科学文献摘要
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LoRA Fine-Tuning Without GPUs: A CPU-Efficient Meta-Generation Framework for LLMs
 
-**会议**: ICML 2025 (Workshop on Efficient Systems for Foundation Models)
-**arXiv**: [2507.01806](https://arxiv.org/abs/2507.01806)
-**代码**: 无
-**领域**: Model Compression / Fine-tuning
+**会议**: ICML 2025 (Workshop on Efficient Systems for Foundation Models)  
+**arXiv**: [2507.01806](https://arxiv.org/abs/2507.01806)  
+**代码**: 无  
+**领域**: Model Compression / Fine-tuning  
 **关键词**: LoRA, CPU fine-tuning, meta-learning, adapter generation, parameter-efficient
 
 ## 一句话总结
@@ -34,6 +34,7 @@
 - 推理（在线 CPU）：前馈映射生成 adapter，无梯度计算
 
 ## 实验关键数据
+
 ### 主实验
 | 方法 | 下游性能 | 硬件需求 | 时间 |
 |------|---------|---------|------|

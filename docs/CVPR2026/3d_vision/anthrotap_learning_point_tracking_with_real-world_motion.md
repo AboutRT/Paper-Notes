@@ -1,9 +1,9 @@
 # AnthroTAP: Learning Point Tracking with Real-World Motion
 
-**会议**: CVPR 2026
-**arXiv**: [2507.06233](https://arxiv.org/abs/2507.06233)
-**代码**: [Project Page](https://cvlab-kaist.github.io/AnthroTAP/) (有)
-**领域**: 3D Vision / Point Tracking
+**会议**: CVPR 2026  
+**arXiv**: [2507.06233](https://arxiv.org/abs/2507.06233)  
+**代码**: [Project Page](https://cvlab-kaist.github.io/AnthroTAP/) (有)  
+**领域**: 3D Vision / Point Tracking  
 **关键词**: 点跟踪, 人体运动, 伪标签, SMPL, 光流一致性
 
 ## 一句话总结
@@ -20,6 +20,7 @@ AnthroTAP 提出了一种自动化管线，从真实人体运动视频中通过 
 5. **核心 idea**：利用 SMPL 人体模型从真实视频自动生成伪标签轨迹 + 光流一致性过滤 = 高质量、低成本的真实世界训练数据。
 
 ## 方法详解
+
 ### 整体框架
 输入：人体运动视频 → HMR 模型（TokenHMR）拟合 SMPL 网格 → 网格顶点投影到 2D 得初始轨迹 → 射线投射确定可见性 → 光流一致性过滤 → 伪标签数据集 → 训练点跟踪模型。
 
@@ -52,6 +53,7 @@ AnthroTAP 提出了一种自动化管线，从真实人体运动视频中通过 
 - 训练设置：4 GPU × 1 天
 
 ## 实验关键数据
+
 ### 主实验（TAP-Vid 基准, 256×256 分辨率）
 | 方法 | 训练数据 | DAVIS First AJ | DAVIS Strided AJ | Kinetics First AJ | 说明 |
 |------|---------|---------------|-----------------|-------------------|------|

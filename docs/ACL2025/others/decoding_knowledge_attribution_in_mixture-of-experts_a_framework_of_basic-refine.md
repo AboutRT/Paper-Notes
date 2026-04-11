@@ -1,9 +1,9 @@
 # Decoding Knowledge Attribution in Mixture-of-Experts: A Framework of Basic-Refinement Collaboration and Efficiency Analysis
 
-**会议**: ACL2025
-**arXiv**: [2505.24593](https://arxiv.org/abs/2505.24593)
+**会议**: ACL2025  
+**arXiv**: [2505.24593](https://arxiv.org/abs/2505.24593)  
 **作者**: Junzhuo Li, Bo Wang, Xiuze Zhou, Peijie Jiang, Jia Liu, Xuming Hu (HKUST(GZ), Ant Group)
-**领域**: others
+**领域**: others  
 **关键词**: Mixture-of-Experts, 知识归因, 可解释性, 专家协作, 稀疏路由
 
 ## 一句话总结

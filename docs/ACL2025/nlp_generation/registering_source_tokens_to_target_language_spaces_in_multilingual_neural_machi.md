@@ -1,9 +1,9 @@
 # Registering Source Tokens to Target Language Spaces in Multilingual Neural Machine Translation
 
-**会议**: ACL 2025
-**arXiv**: [2501.02979](https://arxiv.org/abs/2501.02979)
-**代码**: [GitHub](https://github.com/zhiqu22/mitre)
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2501.02979](https://arxiv.org/abs/2501.02979)  
+**代码**: [GitHub](https://github.com/zhiqu22/mitre)  
+**领域**: 文本生成  
 **关键词**: 多语言机器翻译, 注册机制, 注意力掩码, off-target问题, decoder-only
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LongStream: Long-Sequence Streaming Autoregressive Visual Geometry
 
-**会议**: CVPR 2026
-**arXiv**: [2602.13172](https://arxiv.org/abs/2602.13172)
-**代码**: [项目页](https://3dagentworld.github.io/longstream/)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.13172](https://arxiv.org/abs/2602.13172)  
+**代码**: [项目页](https://3dagentworld.github.io/longstream/)  
+**领域**: 3D视觉  
 **关键词**: 流式3D重建, 自回归模型, 位姿估计, KV缓存, 长序列
 
 ## 一句话总结

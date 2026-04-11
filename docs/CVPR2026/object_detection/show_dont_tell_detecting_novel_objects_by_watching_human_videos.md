@@ -1,9 +1,9 @@
 # Show, Don't Tell: Detecting Novel Objects by Watching Human Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12751](https://arxiv.org/abs/2603.12751)
+**会议**: CVPR 2026  
+**arXiv**: [2603.12751](https://arxiv.org/abs/2603.12751)  
 **作者**: James Akl, Jose Nicolas Avendano Arbelaez, James Barabas, Jennifer L. Barry, Kalie Ching, Noam Eshed, Jiahui Fu, Michel Hidalgo, Andrew Hoelscher, Tushar Kusnur, Andrew Messing, Zachary Nagler, Brian Okorn, Mauro Passerino, Tim J. Perkins, Eric Rosen, Ankit Shah, Tanmay Shankar, Scott Shaw
-**领域**: object_detection
+**领域**: object_detection  
 **关键词**: novel object detection, human demonstration, self-supervised learning, bespoke detector, robot manipulation, automatic dataset creation
 
 ## 一句话总结

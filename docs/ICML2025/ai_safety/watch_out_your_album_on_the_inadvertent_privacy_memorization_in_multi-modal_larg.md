@@ -1,9 +1,9 @@
 # Watch Out Your Album! On the Inadvertent Privacy Memorization in Multi-Modal Large Language Models
 
-**会议**: ICML 2025
-**arXiv**: [2503.01208](https://arxiv.org/abs/2503.01208)
-**代码**: https://github.com/illusionhi/ProbingPrivacy
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2503.01208](https://arxiv.org/abs/2503.01208)  
+**代码**: https://github.com/illusionhi/ProbingPrivacy  
+**领域**: AI安全  
 **关键词**: MLLM隐私, 无意记忆, 任务无关内容, 水印探测, mini-batch虚假相关, 层级探测
 
 ## 一句话总结

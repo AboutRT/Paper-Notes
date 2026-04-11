@@ -1,9 +1,9 @@
 # KAN-AD: Time Series Anomaly Detection with Kolmogorov-Arnold Networks
 
-**会议**: ICML 2025
-**arXiv**: [2411.00278](https://arxiv.org/abs/2411.00278)
-**代码**: 无
-**领域**: Time Series
+**会议**: ICML 2025  
+**arXiv**: [2411.00278](https://arxiv.org/abs/2411.00278)  
+**代码**: 无  
+**领域**: Time Series  
 **关键词**: 时间序列异常检测, KAN, Kolmogorov-Arnold网络, B样条, 傅里叶展开
 
 ## 一句话总结

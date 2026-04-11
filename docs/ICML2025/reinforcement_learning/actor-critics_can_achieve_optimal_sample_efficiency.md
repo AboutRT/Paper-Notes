@@ -1,9 +1,9 @@
 # Actor-Critics Can Achieve Optimal Sample Efficiency
 
-**会议**: ICML 2025
-**arXiv**: [2505.03710](https://arxiv.org/abs/2505.03710)
-**代码**: 无
-**领域**: 强化学习理论
+**会议**: ICML 2025  
+**arXiv**: [2505.03710](https://arxiv.org/abs/2505.03710)  
+**代码**: 无  
+**领域**: 强化学习理论  
 **关键词**: Actor-Critic, 样本复杂度, Bellman Eluder维度, 混合RL, 一般函数逼近
 
 ## 一句话总结

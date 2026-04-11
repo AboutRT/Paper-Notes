@@ -1,9 +1,9 @@
 # Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging
 
-**会议**: ICML 2025
-**arXiv**: [2505.05464](https://arxiv.org/abs/2505.05464)
-**代码**: https://github.com/shiqichen17/VLM_Merging
-**领域**: 多模态VLM
+**会议**: ICML 2025  
+**arXiv**: [2505.05464](https://arxiv.org/abs/2505.05464)  
+**代码**: https://github.com/shiqichen17/VLM_Merging  
+**领域**: 多模态VLM  
 **关键词**: 模型融合, VLM推理, 感知与推理解耦, 跨模态迁移, 层级分析
 
 ## 一句话总结

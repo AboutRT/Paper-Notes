@@ -1,9 +1,9 @@
 # Adapter Naturally Serves as Decoupler for Cross-Domain Few-Shot Semantic Segmentation
 
-**会议**: ICML2025
-**arXiv**: [2506.07376](https://arxiv.org/abs/2506.07376)
-**代码**: 待确认
-**领域**: segmentation
+**会议**: ICML2025  
+**arXiv**: [2506.07376](https://arxiv.org/abs/2506.07376)  
+**代码**: 待确认  
+**领域**: segmentation  
 **关键词**: 跨域少样本分割, adapter, 领域解耦, SAM, 奇异值分解
 
 ## 一句话总结

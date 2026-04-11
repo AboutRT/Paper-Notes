@@ -1,9 +1,9 @@
 # Non-convex Entropic Mean-Field Optimization via Best Response Flow
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.22760](https://arxiv.org/abs/2505.22760)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.22760](https://arxiv.org/abs/2505.22760)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 平均场优化, Best Response Flow, 非凸优化, 熵正则化, Wasserstein距离
 
 ## 一句话总结

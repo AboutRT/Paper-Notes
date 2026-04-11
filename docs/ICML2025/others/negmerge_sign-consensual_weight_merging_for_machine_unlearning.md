@@ -1,9 +1,9 @@
 # NegMerge: Sign-Consensual Weight Merging for Machine Unlearning
 
-**会议**: ICML2025
-**arXiv**: [2410.05583](https://arxiv.org/abs/2410.05583)
-**代码**: [naver-ai/negmerge](https://github.com/naver-ai/negmerge)
-**领域**: 机器遗忘 (Machine Unlearning)
+**会议**: ICML2025  
+**arXiv**: [2410.05583](https://arxiv.org/abs/2410.05583)  
+**代码**: [naver-ai/negmerge](https://github.com/naver-ai/negmerge)  
+**领域**: 机器遗忘 (Machine Unlearning)  
 **关键词**: 机器遗忘, 任务向量, 模型合并, 权重符号一致性, CLIP
 
 ## 一句话总结

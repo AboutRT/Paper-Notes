@@ -1,9 +1,9 @@
 # Hyperband-based Bayesian Optimization for Black-box Prompt Selection
 
-**会议**: ICML 2025
-**arXiv**: [2412.07820](https://arxiv.org/abs/2412.07820)
-**代码**: 未公开
-**领域**: llm_nlp
+**会议**: ICML 2025  
+**arXiv**: [2412.07820](https://arxiv.org/abs/2412.07820)  
+**代码**: 未公开  
+**领域**: llm_nlp  
 **关键词**: prompt选择, 贝叶斯优化, Hyperband, 多保真度优化, 高斯过程, 深度核, 黑盒LLM
 
 ## 一句话总结

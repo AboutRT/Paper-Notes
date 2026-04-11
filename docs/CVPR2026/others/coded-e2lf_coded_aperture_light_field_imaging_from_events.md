@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Coded-E2LF: Coded Aperture Light Field Imaging from Events
 
-**会议**: CVPR2026
-**arXiv**: [2602.22620](https://arxiv.org/abs/2602.22620)
-**代码**: 待确认
-**领域**: others (Computational Photography / Event Camera)
+**会议**: CVPR2026  
+**arXiv**: [2602.22620](https://arxiv.org/abs/2602.22620)  
+**代码**: 待确认  
+**领域**: others (Computational Photography / Event Camera)  
 **关键词**: light field imaging, event camera, coded aperture, deep optics, end-to-end optimization, black-first coding sequence
 
 ## 一句话总结

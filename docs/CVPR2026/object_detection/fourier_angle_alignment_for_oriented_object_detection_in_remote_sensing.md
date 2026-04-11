@@ -1,9 +1,9 @@
 # Fourier Angle Alignment for Oriented Object Detection in Remote Sensing
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23790](https://arxiv.org/abs/2602.23790)
-**代码**: https://github.com/gcy0423/Fourier-Angle-Alignment (有)
-**领域**: 遥感 / 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2602.23790](https://arxiv.org/abs/2602.23790)  
+**代码**: https://github.com/gcy0423/Fourier-Angle-Alignment (有)  
+**领域**: 遥感 / 目标检测  
 **关键词**: 旋转目标检测, 傅里叶变换, 方向对齐, 特征融合, 遥感
 
 ## 一句话总结

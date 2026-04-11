@@ -1,9 +1,9 @@
 # HiddenDetect: Detecting Jailbreak Attacks against Large Vision-Language Models via Monitoring Hidden States
 
-**会议**: ACL 2025
-**arXiv**: [2502.14744](https://arxiv.org/abs/2502.14744)
-**代码**: [GitHub](https://github.com/leigest519/HiddenDetect)
-**领域**: llm_alignment
+**会议**: ACL 2025  
+**arXiv**: [2502.14744](https://arxiv.org/abs/2502.14744)  
+**代码**: [GitHub](https://github.com/leigest519/HiddenDetect)  
+**领域**: llm_alignment  
 **关键词**: 越狱攻击检测, 多模态安全, 隐藏状态分析, LVLM, 免训练防御, 拒绝语义
 
 ## 一句话总结

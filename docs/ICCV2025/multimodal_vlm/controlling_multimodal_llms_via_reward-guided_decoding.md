@@ -1,9 +1,9 @@
 # Controlling Multimodal LLMs via Reward-guided Decoding
 
-**会议**: ICCV 2025
-**arXiv**: [2508.11616](https://arxiv.org/abs/2508.11616)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: ICCV 2025  
+**arXiv**: [2508.11616](https://arxiv.org/abs/2508.11616)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 多模态大语言模型, 奖励引导解码, 幻觉缓解, 视觉定位, 推理时对齐
 
 ## 一句话总结

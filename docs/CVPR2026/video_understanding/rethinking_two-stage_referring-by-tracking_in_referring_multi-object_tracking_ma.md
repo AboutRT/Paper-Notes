@@ -1,9 +1,9 @@
 # FlexHook: Rethinking Two-Stage Referring-by-Tracking in RMOT
 
-**会议**: CVPR 2026
-**arXiv**: [2503.07516](https://arxiv.org/abs/2503.07516)
-**代码**: [GitHub](https://github.com/buptLwz/FlexHook)
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2503.07516](https://arxiv.org/abs/2503.07516)  
+**代码**: [GitHub](https://github.com/buptLwz/FlexHook)  
+**领域**: 视频理解  
 **关键词**: 指代多目标跟踪, 两阶段RBT, 采样式特征构建, 成对对应解码, 语言条件增强
 
 ## 一句话总结

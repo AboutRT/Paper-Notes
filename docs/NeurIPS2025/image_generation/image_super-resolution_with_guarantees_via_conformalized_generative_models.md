@@ -1,9 +1,9 @@
 # Image Super-Resolution with Guarantees via Conformalized Generative Models
 
-**会议**: NEURIPS2025
-**arXiv**: [2502.09664](https://arxiv.org/abs/2502.09664)
-**代码**: [adamesalles/experiments-conformal-superres](https://github.com/adamesalles/experiments-conformal-superres)
-**领域**: image_generation
+**会议**: NEURIPS2025  
+**arXiv**: [2502.09664](https://arxiv.org/abs/2502.09664)  
+**代码**: [adamesalles/experiments-conformal-superres](https://github.com/adamesalles/experiments-conformal-superres)  
+**领域**: image_generation  
 **关键词**: 超分辨率, 不确定性量化, 共形预测, 扩散模型, 置信度掩码
 
 ## 一句话总结

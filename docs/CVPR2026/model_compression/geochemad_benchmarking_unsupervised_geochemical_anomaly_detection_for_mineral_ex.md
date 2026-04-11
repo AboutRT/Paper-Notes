@@ -1,9 +1,9 @@
 # GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13068](https://arxiv.org/abs/2603.13068)
-**代码**: https://github.com/yihaoding/geochemad
-**领域**: 模型压缩
+**会议**: CVPR 2026  
+**arXiv**: [2603.13068](https://arxiv.org/abs/2603.13068)  
+**代码**: https://github.com/yihaoding/geochemad  
+**领域**: 模型压缩  
 **关键词**: 地球化学异常检测, 无监督学习, Transformer, 基准数据集, 矿产勘探
 
 ## 一句话总结

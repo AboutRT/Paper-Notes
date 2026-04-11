@@ -1,9 +1,9 @@
 # Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.14605](https://arxiv.org/abs/2510.14605)
-**代码**: [GitHub](https://github.com/cqu-student/Wiki-PRF) (有)
-**领域**: 强化学习 / 视觉问答 / 检索增强生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.14605](https://arxiv.org/abs/2510.14605)  
+**代码**: [GitHub](https://github.com/cqu-student/Wiki-PRF) (有)  
+**领域**: 强化学习 / 视觉问答 / 检索增强生成  
 **关键词**: KB-VQA, RAG, 多模态检索, 强化学习, 工具调用
 
 ## 一句话总结

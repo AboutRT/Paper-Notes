@@ -1,9 +1,9 @@
 # ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02541](https://arxiv.org/abs/2603.02541)
-**代码**: https://huggingface.co/datasets/etri/ForestPersons
-**领域**: 目标检测
+**会议**: ICLR 2026  
+**arXiv**: [2603.02541](https://arxiv.org/abs/2603.02541)  
+**代码**: https://huggingface.co/datasets/etri/ForestPersons  
+**领域**: 目标检测  
 **关键词**: 人员检测, 森林搜救, 无人机, 遮挡感知, 数据集
 
 ## 一句话总结

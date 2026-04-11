@@ -1,9 +1,9 @@
 # DeepTracer: Tracing Stolen Model via Deep Coupled Watermarks
 
-**会议**: AAAI 2026
-**arXiv**: [2511.08985](https://arxiv.org/abs/2511.08985)
-**代码**: [GitHub](https://github.com/yangyunfei16/DeepTracer)
-**领域**: AI安全/模型版权保护
+**会议**: AAAI 2026  
+**arXiv**: [2511.08985](https://arxiv.org/abs/2511.08985)  
+**代码**: [GitHub](https://github.com/yangyunfei16/DeepTracer)  
+**领域**: AI安全/模型版权保护  
 **关键词**: 模型水印, 模型窃取, 深度耦合水印, 黑盒验证, 知识产权保护
 
 ## 一句话总结

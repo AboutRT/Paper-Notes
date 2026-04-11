@@ -1,9 +1,9 @@
 # ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code
 
-**会议**: ICLR 2026
-**arXiv**: [2601.20679](https://arxiv.org/abs/2601.20679)
-**代码**: 无
-**领域**: 文本生成
+**会议**: ICLR 2026  
+**arXiv**: [2601.20679](https://arxiv.org/abs/2601.20679)  
+**代码**: 无  
+**领域**: 文本生成  
 **关键词**: 虚拟机保护, 代码表征学习, 对比学习, 多态生成, 软件安全
 
 ## 一句话总结

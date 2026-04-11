@@ -1,9 +1,9 @@
 # Synergistic Bleeding Region and Point Detection in Laparoscopic Surgical Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2503.22174](https://arxiv.org/abs/2503.22174)
-**代码**: [GitHub](https://github.com/PJLallen/SurgBlood)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2503.22174](https://arxiv.org/abs/2503.22174)  
+**代码**: [GitHub](https://github.com/PJLallen/SurgBlood)  
+**领域**: 医学图像  
 **关键词**: 出血检测, 腹腔镜手术, SAM2, 双任务协同, 光流
 
 ## 一句话总结

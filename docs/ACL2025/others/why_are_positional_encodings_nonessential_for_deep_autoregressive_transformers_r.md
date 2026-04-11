@@ -1,9 +1,9 @@
 # Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? Revisiting a Petroglyph
 
-**会议**: ACL 2025
-**arXiv**: [2501.00659](https://arxiv.org/abs/2501.00659)
-**代码**: 无
-**领域**: NLP / Transformer 理论
+**会议**: ACL 2025  
+**arXiv**: [2501.00659](https://arxiv.org/abs/2501.00659)  
+**代码**: 无  
+**领域**: NLP / Transformer 理论  
 **关键词**: 位置编码, 自回归Transformer, 排列不变性, 因果注意力, 序列处理
 
 ## 一句话总结

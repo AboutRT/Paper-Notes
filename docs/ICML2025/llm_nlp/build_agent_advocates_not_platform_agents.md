@@ -1,9 +1,9 @@
 # Build Agent Advocates, Not Platform Agents
 
-**会议**: ICML 2025
-**arXiv**: [2505.04345](https://arxiv.org/abs/2505.04345)
-**代码**: 无
-**领域**: NLP理解
+**会议**: ICML 2025  
+**arXiv**: [2505.04345](https://arxiv.org/abs/2505.04345)  
+**代码**: 无  
+**领域**: NLP理解  
 **关键词**: LLM Agent, 平台经济, 用户自主权, 数字权利, Agent Advocates
 
 ## 一句话总结

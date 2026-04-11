@@ -1,9 +1,9 @@
 # Literary Evidence Retrieval via Long-Context Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2506.03090](https://arxiv.org/abs/2506.03090)
-**代码**: [katherinethai/long_context_relic](https://github.com/katherinethai/long_context_relic)
-**领域**: LLM效率
+**会议**: ACL 2025  
+**arXiv**: [2506.03090](https://arxiv.org/abs/2506.03090)  
+**代码**: [katherinethai/long_context_relic](https://github.com/katherinethai/long_context_relic)  
+**领域**: LLM效率  
 **关键词**: 长上下文理解, 文学证据检索, Benchmark, 推理模型评测, 开源vs闭源, 文学分析
 
 ## 一句话总结

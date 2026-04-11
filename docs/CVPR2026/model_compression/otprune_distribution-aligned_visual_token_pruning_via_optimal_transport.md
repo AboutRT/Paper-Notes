@@ -1,9 +1,9 @@
 # OTPrune: Distribution-Aligned Visual Token Pruning via Optimal Transport
 
-**会议**: CVPR2026
-**arXiv**: [2602.20205](https://arxiv.org/abs/2602.20205)
-**代码**: [xiwenc1/OTPrune](https://github.com/xiwenc1/OTPrune)
-**领域**: optimization / efficient inference
+**会议**: CVPR2026  
+**arXiv**: [2602.20205](https://arxiv.org/abs/2602.20205)  
+**代码**: [xiwenc1/OTPrune](https://github.com/xiwenc1/OTPrune)  
+**领域**: optimization / efficient inference  
 **关键词**: visual token pruning, optimal transport, Wasserstein distance, submodular optimization, training-free, MLLM efficiency
 
 ## 一句话总结

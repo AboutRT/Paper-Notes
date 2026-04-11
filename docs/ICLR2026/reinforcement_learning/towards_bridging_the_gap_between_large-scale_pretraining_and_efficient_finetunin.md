@@ -1,9 +1,9 @@
 # Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21363](https://arxiv.org/abs/2601.21363)
-**代码**: https://lift-humanoid.github.io
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2601.21363](https://arxiv.org/abs/2601.21363)  
+**代码**: https://lift-humanoid.github.io  
+**领域**: 强化学习  
 **关键词**: 人形机器人控制, 大规模预训练, 高效微调, SAC, 物理先验世界模型, sim-to-real
 
 ## 一句话总结

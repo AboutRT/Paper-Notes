@@ -1,9 +1,9 @@
 # Team LEYA in 10th ABAW Competition: Multimodal Ambivalence/Hesitancy Recognition Approach
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12848](https://arxiv.org/abs/2603.12848)
-**代码**: [LEYA-HSE/ABAW10-BAH](https://github.com/LEYA-HSE/ABAW10-BAH)
-**领域**: 语音/音频
+**会议**: CVPR 2026  
+**arXiv**: [2603.12848](https://arxiv.org/abs/2603.12848)  
+**代码**: [LEYA-HSE/ABAW10-BAH](https://github.com/LEYA-HSE/ABAW10-BAH)  
+**领域**: 语音/音频  
 **关键词**: 矛盾/犹豫识别, 多模态融合, 原型学习, 情感计算, ABAW竞赛
 
 ## 一句话总结
@@ -19,6 +19,7 @@
 **本文切入角度**：在先前工作主要使用面部、音频和文本的基础上，**额外引入场景信息**，并设计基于 Transformer 的融合模块配合**原型增强分类目标**，在模态级嵌入上进行融合而非简单拼接。
 
 ## 方法详解
+
 ### 整体框架
 四阶段流程：(1) 各模态独立训练专用编码器；(2) 提取固定维度的模态嵌入；(3) 投影到共享潜在空间；(4) Transformer 融合模块建模跨模态依赖，输出最终 A/H 预测。
 
@@ -41,6 +42,7 @@
 融合模型使用 RMSprop（LR=9.44e-5），余弦学习率调度，标签平滑 0.02，梯度裁剪 0.5。每个配置用 5 个固定随机种子（42, 2025, 7777, 12345, 31415）训练，选择平均 MF1 最高的配置。最终集成 5 个种子模型的类概率平均。
 
 ## 实验关键数据
+
 ### 主实验
 | 模型 | 模态 | Avg MF1 | Final Test |
 |------|------|---------|-----------|

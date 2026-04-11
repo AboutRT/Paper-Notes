@@ -1,9 +1,9 @@
 # LTGS: Long-Term Gaussian Scene Chronology From Sparse View Updates
 
-**会议**: CVPR 2026
-**arXiv**: [2510.09881](https://arxiv.org/abs/2510.09881)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2510.09881](https://arxiv.org/abs/2510.09881)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 场景更新, 稀疏视角, 时序重建, 物体级跟踪
 
 ## 一句话总结

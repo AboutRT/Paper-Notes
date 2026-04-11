@@ -1,9 +1,9 @@
 # OmniBal: Towards Fast Instruction-Tuning for Vision-Language Models via Omniverse Computation Balance
 
-**会议**: ICML 2025
-**arXiv**: [2407.20761](https://arxiv.org/abs/2407.20761)
-**代码**: [github.com/ModelTC/OmniBal](https://github.com/ModelTC/OmniBal)
-**领域**: 多模态/视觉语言模型, 分布式训练, 系统优化
+**会议**: ICML 2025  
+**arXiv**: [2407.20761](https://arxiv.org/abs/2407.20761)  
+**代码**: [github.com/ModelTC/OmniBal](https://github.com/ModelTC/OmniBal)  
+**领域**: 多模态/视觉语言模型, 分布式训练, 系统优化  
 **关键词**: VLM训练加速, 3D并行, 计算平衡, Pipeline Parallelism, 动态批处理
 
 ## 一句话总结

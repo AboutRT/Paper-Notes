@@ -1,9 +1,9 @@
 # Activation Space Interventions Can Be Transferred Between Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2503.04429](https://arxiv.org/abs/2503.04429)
-**代码**: [GitHub](https://github.com/) (有)
-**领域**: AI Safety
+**会议**: ICML2025  
+**arXiv**: [2503.04429](https://arxiv.org/abs/2503.04429)  
+**代码**: [GitHub](https://github.com/) (有)  
+**领域**: AI Safety  
 **关键词**: 激活空间迁移, 安全对齐, 转向向量, 后门移除, 表征通用性
 
 ## 一句话总结

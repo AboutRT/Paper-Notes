@@ -1,9 +1,9 @@
 # Residual SODAP: Residual Self-Organizing Domain-Adaptive Prompting with Structural Knowledge Preservation for Continual Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12816](https://arxiv.org/abs/2603.12816)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.12816](https://arxiv.org/abs/2603.12816)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 持续学习, 域增量学习, 提示学习, 灾难性遗忘, 知识蒸馏
 
 ## 一句话总结

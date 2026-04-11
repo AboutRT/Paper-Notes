@@ -1,9 +1,9 @@
 # Continuous Visual Autoregressive Generation via Score Maximization
 
-**会议**: ICML 2025
-**arXiv**: [2505.07812](https://arxiv.org/abs/2505.07812)
-**代码**: https://github.com/shaochenze/EAR
-**领域**: 图像生成
+**会议**: ICML 2025  
+**arXiv**: [2505.07812](https://arxiv.org/abs/2505.07812)  
+**代码**: https://github.com/shaochenze/EAR  
+**领域**: 图像生成  
 **关键词**: 连续自回归, 评分规则, 能量分数, 视觉生成, 无量化
 
 ## 一句话总结

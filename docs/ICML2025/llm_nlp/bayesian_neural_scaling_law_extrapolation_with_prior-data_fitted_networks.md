@@ -1,9 +1,9 @@
 # Bayesian Neural Scaling Law Extrapolation with Prior-Data Fitted Networks
 
-**会议**: ICML 2025
-**arXiv**: [2505.23032](https://arxiv.org/abs/2505.23032)
-**代码**: [github.com/DongWooLee-Eli/nslpfn](https://github.com/DongWooLee-Eli/nslpfn)
-**领域**: NLP理解
+**会议**: ICML 2025  
+**arXiv**: [2505.23032](https://arxiv.org/abs/2505.23032)  
+**代码**: [github.com/DongWooLee-Eli/nslpfn](https://github.com/DongWooLee-Eli/nslpfn)  
+**领域**: NLP理解  
 **关键词**: 神经缩放定律, Bayesian推断, PFN, 不确定性量化, Meta-learning, 外推预测
 
 ## 一句话总结

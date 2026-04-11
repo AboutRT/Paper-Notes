@@ -1,9 +1,9 @@
 # Liger: Linearizing Large Language Models to Gated Recurrent Structures
 
-**会议**: ICML2025
-**arXiv**: [2503.01496](https://arxiv.org/abs/2503.01496)
-**代码**: [OpenSparseLLMs/Linearization](https://github.com/OpenSparseLLMs/Linearization)
-**领域**: LLM线性化 / 高效推理
+**会议**: ICML2025  
+**arXiv**: [2503.01496](https://arxiv.org/abs/2503.01496)  
+**代码**: [OpenSparseLLMs/Linearization](https://github.com/OpenSparseLLMs/Linearization)  
+**领域**: LLM线性化 / 高效推理  
 **关键词**: LLM线性化, 门控线性循环, 线性注意力, LoRA, 滑动窗口注意力
 
 ## 一句话总结

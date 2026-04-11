@@ -1,9 +1,9 @@
 # EVLF: Early Vision-Language Fusion for Generative Dataset Distillation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.07476](https://arxiv.org/abs/2603.07476)
-**代码**: [GitHub](https://github.com/wenqi-cai297/earlyfusion-for-dd/)
-**领域**: 数据集蒸馏 / 生成模型
+**会议**: CVPR 2026  
+**arXiv**: [2603.07476](https://arxiv.org/abs/2603.07476)  
+**代码**: [GitHub](https://github.com/wenqi-cai297/earlyfusion-for-dd/)  
+**领域**: 数据集蒸馏 / 生成模型  
 **关键词**: 数据集蒸馏, 扩散模型, 视觉-语言融合, 早期融合, 即插即用
 
 ## 一句话总结

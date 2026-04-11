@@ -1,9 +1,9 @@
 # HyGenar: An LLM-Driven Hybrid Genetic Algorithm for Few-Shot Grammar Generation
 
-**会议**: ACL 2025
-**arXiv**: [2505.16978](https://arxiv.org/abs/2505.16978)
-**代码**: https://github.com/RutaTang/HyGenar
-**领域**: LLM NLP / 语法推理
+**会议**: ACL 2025  
+**arXiv**: [2505.16978](https://arxiv.org/abs/2505.16978)  
+**代码**: https://github.com/RutaTang/HyGenar  
+**领域**: LLM NLP / 语法推理  
 **关键词**: Grammar Generation, BNF, Few-Shot, Genetic Algorithm, Context-Free Grammar
 
 ## 一句话总结

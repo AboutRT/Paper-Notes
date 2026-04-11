@@ -1,9 +1,9 @@
 # WikiAutoGen: Towards Multi-Modal Wikipedia-Style Article Generation
 
-**会议**: ICCV2025
-**arXiv**: [2503.19065](https://arxiv.org/abs/2503.19065)
-**代码**: [wikiautogen.github.io](https://wikiautogen.github.io/)
-**领域**: multimodal_vlm
+**会议**: ICCV2025  
+**arXiv**: [2503.19065](https://arxiv.org/abs/2503.19065)  
+**代码**: [wikiautogen.github.io](https://wikiautogen.github.io/)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态文章生成, 多智能体框架, 自反思机制, Wikipedia, 知识检索
 
 ## 一句话总结

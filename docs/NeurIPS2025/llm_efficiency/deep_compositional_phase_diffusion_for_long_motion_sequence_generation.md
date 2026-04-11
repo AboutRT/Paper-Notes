@@ -1,9 +1,9 @@
 # Deep Compositional Phase Diffusion for Long Motion Sequence Generation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.14427](https://arxiv.org/abs/2510.14427)
-**代码**: [GitHub](https://github.com/asdryau/TransPhase)
-**领域**: 视频理解 / 动作生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.14427](https://arxiv.org/abs/2510.14427)  
+**代码**: [GitHub](https://github.com/asdryau/TransPhase)  
+**领域**: 视频理解 / 动作生成  
 **关键词**: motion generation, diffusion model, phase representation, compositional generation, motion inbetweening
 
 ## 一句话总结

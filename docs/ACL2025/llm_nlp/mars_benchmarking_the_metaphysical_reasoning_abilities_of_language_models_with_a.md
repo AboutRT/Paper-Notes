@@ -1,6 +1,6 @@
 # MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset
 
-**会议**: ACL 2025 | **arXiv**: [2406.02106](https://arxiv.org/abs/2406.02106) | **代码**: [GitHub](https://github.com/HKUST-KnowComp/MARS)
+**会议**: ACL 2025 | **arXiv**: [2406.02106](https://arxiv.org/abs/2406.02106) | **代码**: [GitHub](https://github.com/HKUST-KnowComp/MARS)  
 **作者**: Weiqi Wang, Yangqiu Song (HKUST)
 
 ## 一句话总结

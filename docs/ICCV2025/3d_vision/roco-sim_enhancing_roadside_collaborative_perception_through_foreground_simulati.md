@@ -1,9 +1,9 @@
 # RoCo-Sim: Enhancing Roadside Collaborative Perception through Foreground Simulation
 
-**会议**: ICCV 2025
-**arXiv**: [2503.10410](https://arxiv.org/abs/2503.10410)
-**代码**: [GitHub](https://github.com/duyuwen-duen/RoCo-Sim)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2503.10410](https://arxiv.org/abs/2503.10410)  
+**代码**: [GitHub](https://github.com/duyuwen-duen/RoCo-Sim)  
+**领域**: 3d_vision  
 **关键词**: 路侧协同感知, 仿真数据增强, 3D目标检测, 前景仿真, 多视图一致性, 外参优化, 深度感知渲染
 
 ## 一句话总结

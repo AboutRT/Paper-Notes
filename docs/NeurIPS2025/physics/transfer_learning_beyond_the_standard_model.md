@@ -1,9 +1,9 @@
 # Transfer Learning Beyond the Standard Model
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19168](https://arxiv.org/abs/2510.19168)
-**代码**: 无（使用Quijote模拟数据集，公开）
-**领域**: Physics / Cosmology / Transfer Learning
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19168](https://arxiv.org/abs/2510.19168)  
+**代码**: 无（使用Quijote模拟数据集，公开）  
+**领域**: Physics / Cosmology / Transfer Learning  
 **关键词**: 迁移学习, 宇宙学推断, ΛCDM, 负迁移, 基础模型
 
 ## 一句话总结

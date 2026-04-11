@@ -1,9 +1,9 @@
 # Complexity Scaling Laws for Neural Models using Combinatorial Optimization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.12932](https://arxiv.org/abs/2506.12932)
-**代码**: [GitHub](https://github.com/lowellw6/complexity-scaling-laws)
-**领域**: reinforcement_learning
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.12932](https://arxiv.org/abs/2506.12932)  
+**代码**: [GitHub](https://github.com/lowellw6/complexity-scaling-laws)  
+**领域**: reinforcement_learning  
 **关键词**: 神经缩放定律, 组合优化, TSP, 问题复杂度, 强化学习
 
 ## 一句话总结

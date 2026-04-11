@@ -1,9 +1,9 @@
 # Miburi: Towards Expressive Interactive Gesture Synthesis
 
-**会议**: CVPR 2026
-**arXiv**: [2603.03282](https://arxiv.org/abs/2603.03282)
-**代码**: [项目主页](https://vcai.mpi-inf.mpg.de/projects/MIBURI)
-**领域**: 人体理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.03282](https://arxiv.org/abs/2603.03282)  
+**代码**: [项目主页](https://vcai.mpi-inf.mpg.de/projects/MIBURI)  
+**领域**: 人体理解  
 **关键词**: 共语手势生成, 具身对话代理, 因果自回归, 实时生成, 残差向量量化
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # PreciseCache: Precise Feature Caching for Efficient and High-fidelity Video Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2603.00976](https://arxiv.org/abs/2603.00976)
-**代码**: 无
-**领域**: 视频生成/推理加速
+**会议**: ICLR 2026  
+**arXiv**: [2603.00976](https://arxiv.org/abs/2603.00976)  
+**代码**: 无  
+**领域**: 视频生成/推理加速  
 **关键词**: 特征缓存, 视频扩散, 低频差异, 步级缓存, 块级缓存
 
 ## 一句话总结

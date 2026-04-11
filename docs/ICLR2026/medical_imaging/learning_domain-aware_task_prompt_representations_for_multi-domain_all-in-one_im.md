@@ -1,9 +1,9 @@
 # Learning Domain-Aware Task Prompt Representations for Multi-Domain All-in-One Image Restoration
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01725](https://arxiv.org/abs/2603.01725)
-**代码**: [GitHub](https://github.com/GuangluDong0728/DATPRL-IR)
-**领域**: 图像复原/多域统一
+**会议**: ICLR 2026  
+**arXiv**: [2603.01725](https://arxiv.org/abs/2603.01725)  
+**代码**: [GitHub](https://github.com/GuangluDong0728/DATPRL-IR)  
+**领域**: 图像复原/多域统一  
 **关键词**: 多域图像复原, 双提示池, 域感知, MLLM蒸馏, 自适应门控融合
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # How Much Can We Forget about Data Contamination?
 
-**会议**: ICML 2025
-**arXiv**: [2410.03249](https://arxiv.org/abs/2410.03249)
-**代码**: [GitHub](https://github.com/tml-tuebingen/forgetting-contamination/)
-**领域**: llm_nlp
+**会议**: ICML 2025  
+**arXiv**: [2410.03249](https://arxiv.org/abs/2410.03249)  
+**代码**: [GitHub](https://github.com/tml-tuebingen/forgetting-contamination/)  
+**领域**: llm_nlp  
 **关键词**: 数据污染, 遗忘, benchmark过拟合, Chinchilla缩放, 权重衰减, AdamW, LLM评估
 
 ## 一句话总结

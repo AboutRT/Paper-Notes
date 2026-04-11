@@ -1,9 +1,9 @@
 # The Price of Robustness: Stable Classifiers Need Overparameterization
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02806](https://arxiv.org/abs/2603.02806)
-**代码**: 无
-**领域**: 学习理论 / 泛化理论
+**会议**: ICLR 2026  
+**arXiv**: [2603.02806](https://arxiv.org/abs/2603.02806)  
+**代码**: 无  
+**领域**: 学习理论 / 泛化理论  
 **关键词**: 过参数化, 鲁棒性, 稳定性, 分类器, 泛化界, margin
 
 ## 一句话总结

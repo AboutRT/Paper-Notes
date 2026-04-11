@@ -1,9 +1,9 @@
 # Are Language Models Efficient Reasoners? A Perspective from Logic Programming
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25626](https://arxiv.org/abs/2510.25626)
-**代码**: [GitHub](https://github.com/rycolab/reasoning-efficiency)
-**领域**: LLM推理 / 形式化评估
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25626](https://arxiv.org/abs/2510.25626)  
+**代码**: [GitHub](https://github.com/rycolab/reasoning-efficiency)  
+**领域**: LLM推理 / 形式化评估  
 **关键词**: reasoning efficiency, logic programming, irrelevant information, proof length, deductive reasoning
 
 ## 一句话总结

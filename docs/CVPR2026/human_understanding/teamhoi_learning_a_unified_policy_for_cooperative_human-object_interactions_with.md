@@ -1,9 +1,9 @@
 # TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size
 
-**会议**: CVPR 2026
-**arXiv**: [2603.07988](https://arxiv.org/abs/2603.07988)
-**代码**: [项目主页](https://splionar.github.io/TeamHOI)
-**领域**: 人体理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.07988](https://arxiv.org/abs/2603.07988)  
+**代码**: [项目主页](https://splionar.github.io/TeamHOI)  
+**领域**: 人体理解  
 **关键词**: 多智能体协作, 基于物理的人体控制, 人-物交互, Transformer策略网络, 对抗运动先验
 
 ## 一句话总结

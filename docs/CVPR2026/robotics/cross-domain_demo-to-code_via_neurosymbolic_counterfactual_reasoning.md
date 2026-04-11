@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Cross-Domain Demo-to-Code via Neurosymbolic Counterfactual Reasoning
 
-**会议**: CVPR2026
-**arXiv**: [2603.18495](https://arxiv.org/abs/2603.18495)
-**代码**: 待确认
-**领域**: robotics
+**会议**: CVPR2026  
+**arXiv**: [2603.18495](https://arxiv.org/abs/2603.18495)  
+**代码**: 待确认  
+**领域**: robotics  
 **关键词**: video-instructed robotic programming, cross-domain adaptation, neurosymbolic reasoning, counterfactual reasoning, code-as-policies
 
 ## 一句话总结

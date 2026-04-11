@@ -1,9 +1,9 @@
 # One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image
 
-**会议**: ICLR 2026
-**arXiv**: [2602.19766](https://arxiv.org/abs/2602.19766)
-**代码**: [项目页面](https://one2scene5406.github.io/)
-**领域**: 3D视觉/场景生成
+**会议**: ICLR 2026  
+**arXiv**: [2602.19766](https://arxiv.org/abs/2602.19766)  
+**代码**: [项目页面](https://one2scene5406.github.io/)  
+**领域**: 3D视觉/场景生成  
 **关键词**: 单图3D场景生成, 全景深度估计, 3D Gaussian Splatting, 几何scaffold, 新视角合成
 
 ## 一句话总结

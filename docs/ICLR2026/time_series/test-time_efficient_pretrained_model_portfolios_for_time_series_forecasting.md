@@ -1,9 +1,9 @@
 # Test-Time Efficient Pretrained Model Portfolios for Time Series Forecasting
 
-**会议**: ICLR 2026
-**arXiv**: [2510.06419](https://arxiv.org/abs/2510.06419)
-**代码**: 无
-**领域**: 时间序列/基础模型
+**会议**: ICLR 2026  
+**arXiv**: [2510.06419](https://arxiv.org/abs/2510.06419)  
+**代码**: 无  
+**领域**: 时间序列/基础模型  
 **关键词**: 模型组合, 专家组合, 测试时选择, 时序基础模型, Chronos-Bolt
 
 ## 一句话总结

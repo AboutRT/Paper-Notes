@@ -1,9 +1,9 @@
 # Diversity over Uniformity: Rethinking Representation in Generated Image Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00717](https://arxiv.org/abs/2603.00717)
-**代码**: [GitHub](https://github.com/Yanmou-Hui/DoU)
-**领域**: 图像取证 / AI生成图像检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.00717](https://arxiv.org/abs/2603.00717)  
+**代码**: [GitHub](https://github.com/Yanmou-Hui/DoU)  
+**领域**: 图像取证 / AI生成图像检测  
 **关键词**: 生成图像检测, 特征坍塌, 表征多样性, 信息瓶颈, CLIP
 
 ## 一句话总结

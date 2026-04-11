@@ -1,10 +1,10 @@
 # SJD-PAC: Accelerating Speculative Jacobi Decoding via Proactive Drafting and Adaptive Continuation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.18599](https://arxiv.org/abs/2603.18599)
+**会议**: CVPR 2026  
+**arXiv**: [2603.18599](https://arxiv.org/abs/2603.18599)  
 **作者**: Jialiang Kang (北京大学), Han Shu, Wenshuo Li, Yingjie Zhai, Xinghao Chen (华为)
-**代码**: 无
-**领域**: 图像生成
+**代码**: 无  
+**领域**: 图像生成  
 **关键词**: 自回归图像生成, 推理加速, 推测解码, Jacobi解码, 无损加速
 
 ## 一句话总结

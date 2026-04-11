@@ -1,9 +1,9 @@
 # Gradient Aligned Regression via Pairwise Losses
 
-**会议**: ICML2025
-**arXiv**: [2402.06104](https://arxiv.org/abs/2402.06104)
-**代码**: [GitHub](https://github.com/DixianZhu/GAR)
-**领域**: 回归 / 鲁棒性
+**会议**: ICML2025  
+**arXiv**: [2402.06104](https://arxiv.org/abs/2402.06104)  
+**代码**: [GitHub](https://github.com/DixianZhu/GAR)  
+**领域**: 回归 / 鲁棒性  
 **关键词**: 回归损失函数, 成对损失, 梯度对齐, 分布鲁棒优化, Pearson相关系数
 
 ## 一句话总结

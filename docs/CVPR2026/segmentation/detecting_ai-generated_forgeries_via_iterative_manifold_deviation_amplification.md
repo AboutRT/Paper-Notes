@@ -1,9 +1,9 @@
 # Detecting AI-Generated Forgeries via Iterative Manifold Deviation Amplification
 
-**会议**: CVPR 2026
-**arXiv**: [2602.18842](https://arxiv.org/abs/2602.18842)
-**代码**: 待确认
-**领域**: 图像分割 / AI 伪造检测
+**会议**: CVPR 2026  
+**arXiv**: [2602.18842](https://arxiv.org/abs/2602.18842)  
+**代码**: 待确认  
+**领域**: 图像分割 / AI 伪造检测  
 **关键词**: AI 生成图像检测, 流形偏差, MAE 重建, 迭代放大, 图像伪造定位
 
 ## 一句话总结

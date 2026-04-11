@@ -1,11 +1,11 @@
 # How Foundational are Foundation Models for Time Series Forecasting?
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.00742](https://arxiv.org/abs/2510.00742)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.00742](https://arxiv.org/abs/2510.00742)  
 **作者**: Nouha Karaouli, Denis Coquenet, Elisa Fromont, Martial Mermillod, Marina Reyboz
 **机构**: Univ. Rennes / CNRS / Inria / IRISA; Univ. Grenoble Alpes / CEA
-**代码**: 数据集公开 (Zenodo)
-**领域**: 时间序列
+**代码**: 数据集公开 (Zenodo)  
+**领域**: 时间序列  
 **关键词**: 时间序列基础模型, 零样本预测, 微调, 领域迁移, 轻量模型
 
 ## 一句话总结

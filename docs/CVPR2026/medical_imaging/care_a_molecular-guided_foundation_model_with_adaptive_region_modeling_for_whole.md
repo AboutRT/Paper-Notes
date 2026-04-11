@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis
 
-**会议**: CVPR2026
-**arXiv**: [2602.21637](https://arxiv.org/abs/2602.21637)
-**代码**: [zdipath/CARE](https://github.com/zdipath/CARE)
-**领域**: 医学图像
+**会议**: CVPR2026  
+**arXiv**: [2602.21637](https://arxiv.org/abs/2602.21637)  
+**代码**: [zdipath/CARE](https://github.com/zdipath/CARE)  
+**领域**: 医学图像  
 **关键词**: 计算病理学, 全切片图像分析, 基础模型, 自适应区域建模, 跨模态对齐, RNA/蛋白质引导
 
 ## 一句话总结

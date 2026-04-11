@@ -1,9 +1,9 @@
 # LLM Data Selection and Utilization via Dynamic Bi-level Optimization
 
-**会议**: ICML2025
-**arXiv**: [2507.16178](https://arxiv.org/abs/2507.16178)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: ICML2025  
+**arXiv**: [2507.16178](https://arxiv.org/abs/2507.16178)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: 数据选择, 双层优化, 数据加权, LLM预训练, 动态偏好
 
 ## 一句话总结

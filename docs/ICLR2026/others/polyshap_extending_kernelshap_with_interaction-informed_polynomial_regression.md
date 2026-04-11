@@ -1,9 +1,9 @@
 # PolySHAP: Extending KernelSHAP with Interaction-Informed Polynomial Regression
 
-**会议**: ICLR 2026
-**arXiv**: [2601.18608](https://arxiv.org/abs/2601.18608)
-**代码**: [GitHub](https://github.com/FFmgll/PolySHAP)
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2601.18608](https://arxiv.org/abs/2601.18608)  
+**代码**: [GitHub](https://github.com/FFmgll/PolySHAP)  
+**领域**: 其他  
 **关键词**: Shapley值, 可解释AI, 多项式回归, 特征交互, KernelSHAP
 
 ## 一句话总结

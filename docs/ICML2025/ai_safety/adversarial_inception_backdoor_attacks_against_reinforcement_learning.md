@@ -1,9 +1,9 @@
 # Adversarial Inception Backdoor Attacks against Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2410.13995](https://arxiv.org/abs/2410.13995)
-**代码**: https://github.com/ethanrathbun/Q-Incept
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2410.13995](https://arxiv.org/abs/2410.13995)  
+**代码**: https://github.com/ethanrathbun/Q-Incept  
+**领域**: AI安全  
 **关键词**: 后门攻击, 强化学习, 数据投毒, 动作操纵, 奖励约束
 
 ## 一句话总结

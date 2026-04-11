@@ -1,9 +1,9 @@
 # IonCast: A Deep Learning Framework for Forecasting Ionospheric Dynamics
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.15004](https://arxiv.org/abs/2511.15004)
-**代码**: [GitHub](https://github.com/FrontierDevelopmentLab/2025-HL-Ionosphere) (有)
-**领域**: 时间序列预测 / 空间天气
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.15004](https://arxiv.org/abs/2511.15004)  
+**代码**: [GitHub](https://github.com/FrontierDevelopmentLab/2025-HL-Ionosphere) (有)  
+**领域**: 时间序列预测 / 空间天气  
 **关键词**: 电离层预测, 图神经网络, 时空建模, TEC, GraphCast
 
 ## 一句话总结

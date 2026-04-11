@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps
 
-**会议**: CVPR2026
-**arXiv**: [2505.18675](https://arxiv.org/abs/2505.18675)
-**代码**: [fscdc/ReasonMap](https://fscdc.github.io/ReasonMap)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2505.18675](https://arxiv.org/abs/2505.18675)  
+**代码**: [fscdc/ReasonMap](https://fscdc.github.io/ReasonMap)  
+**领域**: 多模态VLM  
 **关键词**: 多模态推理, 视觉推理, 空间推理, 地铁地图, Benchmark, 强化微调, GRPO
 
 ## 一句话总结

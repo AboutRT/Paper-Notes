@@ -1,9 +1,9 @@
 # Simulation-Based Inference for Neutrino Interaction Model Parameter Tuning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.07454](https://arxiv.org/abs/2510.07454)
-**代码**: [GitHub](https://github.com/karlaTame/Neutrino_SBI/) (开源)
-**领域**: Physics / AI for High-Energy Physics
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.07454](https://arxiv.org/abs/2510.07454)  
+**代码**: [GitHub](https://github.com/karlaTame/Neutrino_SBI/) (开源)  
+**领域**: Physics / AI for High-Energy Physics  
 **关键词**: simulation-based inference, 中微子散射, 神经后验估计, GENIE, 参数调优
 
 ## 一句话总结

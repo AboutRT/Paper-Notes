@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🤖 AAAI2026** · 共 **42** 篇
+**🤖 AAAI2026** · 共 **43** 篇
 
 **[A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles](a_fast_heuristic_search_approach_for_energy-optimal_profile_.md)**
 
@@ -90,6 +90,10 @@
 **[BCWildfire: A Long-term Multi-factor Dataset and Deep Learning Benchmark for Boreal Wildfire Risk Prediction](bcwildfire_a_long-term_multi-factor_dataset_and_deep_learning_benchmark_for_bore.md)**
 
 :   本文构建了一个覆盖加拿大BC省2.4亿公顷、跨度25年的多模态野火风险预测数据集BCWildfire，包含38个驱动因子，并对CNN/Linear/Transformer/Mamba四大范式的时序预测模型进行了系统评测，揭示了当前模型在野火预测中的性能上限和关键影响因子。
+
+**[Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion](beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)**
+
+:   本文提出ED2D框架，在多智能体辩论（MAD）系统中引入证据检索模块来增强虚假信息检测准确率，并通过受控人类实验首次对比了AI生成的辩论稿与专家人工fact-check在说服力和信念纠正方面的效果，揭示了AI辩论系统在正确时具有专家级说服力、但在错误时可能加剧误导的双刃剑效应。
 
 **[Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning](bilevel_mcts_for_amortized_o1_node_selection_in_classical_planning.md)**
 

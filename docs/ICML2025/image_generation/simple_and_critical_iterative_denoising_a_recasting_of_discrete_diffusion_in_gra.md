@@ -1,9 +1,9 @@
 # Simple and Critical Iterative Denoising: A Recasting of Discrete Diffusion in Graph Generation
 
-**会议**: ICML2025
-**arXiv**: [2503.21592](https://arxiv.org/abs/2503.21592)
-**代码**: [github.com/yoboget/sid](https://github.com/yoboget/sid)
-**领域**: 离散扩散 / 图生成
+**会议**: ICML2025  
+**arXiv**: [2503.21592](https://arxiv.org/abs/2503.21592)  
+**代码**: [github.com/yoboget/sid](https://github.com/yoboget/sid)  
+**领域**: 离散扩散 / 图生成  
 **关键词**: 离散扩散, 迭代去噪, Critic, 图生成, 分子生成, 复合去噪误差, Flow Matching
 
 ## 一句话总结

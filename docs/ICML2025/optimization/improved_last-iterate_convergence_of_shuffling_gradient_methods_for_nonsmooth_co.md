@@ -1,9 +1,9 @@
 # Improved Last-Iterate Convergence of Shuffling Gradient Methods for Nonsmooth Convex Optimization
 
-**会议**: ICML 2025
-**arXiv**: [2505.23056](https://arxiv.org/abs/2505.23056)
-**代码**: 无
-**领域**: 优化
+**会议**: ICML 2025  
+**arXiv**: [2505.23056](https://arxiv.org/abs/2505.23056)  
+**代码**: 无  
+**领域**: 优化  
 **关键词**: shuffling gradient, Random Reshuffle, last-iterate, nonsmooth convex, suffix average
 
 ## 一句话总结

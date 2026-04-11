@@ -1,9 +1,9 @@
 # T1: One-to-One Channel-Head Binding for Multivariate Time-Series Imputation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.21043](https://arxiv.org/abs/2602.21043)
-**代码**: [GitHub](https://github.com/Oppenheimerdinger/T1)
-**领域**: 时间序列/缺失值填充
+**会议**: ICLR 2026  
+**arXiv**: [2602.21043](https://arxiv.org/abs/2602.21043)  
+**代码**: [GitHub](https://github.com/Oppenheimerdinger/T1)  
+**领域**: 时间序列/缺失值填充  
 **关键词**: 时序填充, CNN-Transformer混合, 通道-头绑定, 选择性信息传递, 缺失模式泛化
 
 ## 一句话总结

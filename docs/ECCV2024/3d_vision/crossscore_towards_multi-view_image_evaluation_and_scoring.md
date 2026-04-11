@@ -1,9 +1,9 @@
 # CrossScore: Towards Multi-View Image Evaluation and Scoring
 
-**会议**: ECCV 2024
-**arXiv**: [2404.14409](https://arxiv.org/abs/2404.14409)
-**代码**: 有 (https://crossscore.active.vision)
-**领域**: 3D视觉
+**会议**: ECCV 2024  
+**arXiv**: [2404.14409](https://arxiv.org/abs/2404.14409)  
+**代码**: 有 (https://crossscore.active.vision)  
+**领域**: 3D视觉  
 **关键词**: 图像质量评估, 跨参考评估, 新视角合成, Cross-Attention, 自监督
 
 ## 一句话总结

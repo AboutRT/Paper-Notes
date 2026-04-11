@@ -1,9 +1,9 @@
 # MultiHuman-Testbench: Benchmarking Image Generation for Multiple Humans
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.20879](https://arxiv.org/abs/2506.20879)
-**代码**: [GitHub](https://github.com/Qualcomm-AI-research/MultiHuman-Testbench) (有)
-**领域**: Image Generation / Benchmark
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.20879](https://arxiv.org/abs/2506.20879)  
+**代码**: [GitHub](https://github.com/Qualcomm-AI-research/MultiHuman-Testbench) (有)  
+**领域**: Image Generation / Benchmark  
 **关键词**: 多人图像生成, 身份保持, 基准测试, 扩散模型, 区域隔离
 
 ## 一句话总结

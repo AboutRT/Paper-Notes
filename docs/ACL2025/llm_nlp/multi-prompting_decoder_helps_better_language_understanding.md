@@ -1,9 +1,9 @@
 # Multi-Prompting Decoder Helps Better Language Understanding
 
-**会议**: ACL2025
-**arXiv**: [2406.06279](https://arxiv.org/abs/2406.06279)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2406.06279](https://arxiv.org/abs/2406.06279)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: Model-as-a-Service, prompt tuning, optimal transport, few-shot learning, output-side adaptation
 
 ## 一句话总结

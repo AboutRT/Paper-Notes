@@ -1,9 +1,9 @@
 # Curse of High Dimensionality Issue in Transformer for Long-context Modeling
 
-**会议**: ICML 2025
-**arXiv**: [2505.22107](https://arxiv.org/abs/2505.22107)
-**代码**: https://github.com/bolixinyu/DynamicGroupAttention (有)
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2505.22107](https://arxiv.org/abs/2505.22107)  
+**代码**: https://github.com/bolixinyu/DynamicGroupAttention (有)  
+**领域**: LLM效率  
 **关键词**: 注意力稀疏性, 动态分组注意力, 长上下文建模, 冗余消除, 组编码
 
 ## 一句话总结

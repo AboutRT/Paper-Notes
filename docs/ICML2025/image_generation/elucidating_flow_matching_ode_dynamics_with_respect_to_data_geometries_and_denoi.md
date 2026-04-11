@@ -1,9 +1,9 @@
 # Elucidating Flow Matching ODE Dynamics via Data Geometry and Denoisers
 
-**会议**: ICML 2025
-**arXiv**: [2412.18730](https://arxiv.org/abs/2412.18730)
-**代码**: 无
-**领域**: 扩散模型 / 生成模型理论
+**会议**: ICML 2025  
+**arXiv**: [2412.18730](https://arxiv.org/abs/2412.18730)  
+**代码**: 无  
+**领域**: 扩散模型 / 生成模型理论  
 **关键词**: Flow Matching, ODE动力学, 数据几何, Denoiser, 轨迹收敛
 
 ## 一句话总结

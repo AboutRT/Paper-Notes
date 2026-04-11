@@ -1,9 +1,9 @@
 # Bipartite Ranking From Multiple Labels: On Loss Versus Label Aggregation
 
-**会议**: ICML2025
-**arXiv**: [2504.11284](https://arxiv.org/abs/2504.11284)
-**代码**: 无
-**领域**: 其他/学习理论
+**会议**: ICML2025  
+**arXiv**: [2504.11284](https://arxiv.org/abs/2504.11284)  
+**代码**: 无  
+**领域**: 其他/学习理论  
 **关键词**: bipartite ranking, AUC, 多标签排序, loss aggregation, label aggregation, Pareto最优, 标签独裁
 
 ## 一句话总结

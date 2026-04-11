@@ -1,9 +1,9 @@
 # InnoGym: Benchmarking the Innovation Potential of AI Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2512.01822](https://arxiv.org/abs/2512.01822)
-**代码**: [GitHub](https://github.com/zjunlp/igym)
-**领域**: LLM推理
+**会议**: ICLR 2026  
+**arXiv**: [2512.01822](https://arxiv.org/abs/2512.01822)  
+**代码**: [GitHub](https://github.com/zjunlp/igym)  
+**领域**: LLM推理  
 **关键词**: 创新性评估, AI Agent, 新颖性度量, Agent-as-Judge, 可复现评估
 
 ## 一句话总结

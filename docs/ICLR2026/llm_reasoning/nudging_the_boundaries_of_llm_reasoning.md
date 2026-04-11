@@ -1,9 +1,9 @@
 # Nudging the Boundaries of LLM Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25666](https://arxiv.org/abs/2509.25666)
-**代码**: [GitHub](https://github.com/SalesforceAIResearch/NuRL)
-**领域**: LLM推理
+**会议**: ICLR 2026  
+**arXiv**: [2509.25666](https://arxiv.org/abs/2509.25666)  
+**代码**: [GitHub](https://github.com/SalesforceAIResearch/NuRL)  
+**领域**: LLM推理  
 **关键词**: 强化学习推理, GRPO改进, 自生成Hint, 能力上界突破, 近侧发展区
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 - **自给自足需求**: 需要无需外部强模型即可突破能力边界的方法
 
 ## 方法详解
+
 ### 整体框架
 NuRL = 离线Hint收集 + 在线Rollout增强(两阶段训练)
 
@@ -43,6 +44,7 @@ NuRL = 离线Hint收集 + 在线Rollout增强(两阶段训练)
 - Stage 2: NuRL继续训练——过滤掉Stage 1中全部正确的简单题
 
 ## 实验关键数据
+
 ### 主实验
 | 模型 | 方法 | MATH500 | MATH Hard | AIME | GPQA | Date | 平均 |
 |------|------|:-------:|:---------:|:----:|:----:|:----:|:----:|

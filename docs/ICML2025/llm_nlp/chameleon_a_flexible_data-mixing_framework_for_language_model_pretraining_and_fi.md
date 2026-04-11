@@ -1,9 +1,9 @@
 # Chameleon: A Flexible Data-mixing Framework for LM Pretraining and Finetuning
 
-**会议**: ICML2025
-**arXiv**: [2505.24844](https://arxiv.org/abs/2505.24844)
-**代码**: [GitHub - Chameleon](https://github.com/LIONS-EPFL/Chameleon)
-**领域**: llm_nlp
+**会议**: ICML2025  
+**arXiv**: [2505.24844](https://arxiv.org/abs/2505.24844)  
+**代码**: [GitHub - Chameleon](https://github.com/LIONS-EPFL/Chameleon)  
+**领域**: llm_nlp  
 **关键词**: 数据混合, 域重加权, leverage scores, 预训练, 微调
 
 ## 一句话总结

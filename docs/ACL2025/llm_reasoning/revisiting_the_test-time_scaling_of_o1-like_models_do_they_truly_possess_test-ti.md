@@ -1,9 +1,9 @@
 # Revisiting the Test-Time Scaling of o1-like Models: Do they Truly Possess Test-Time Scaling Capabilities?
 
-**会议**: ACL2025
-**arXiv**: [2502.12215](https://arxiv.org/abs/2502.12215)
-**代码**: [GitHub](https://github.com/ZhiYuanZeng/test-time-scaling-eval)
-**领域**: llm_reasoning
+**会议**: ACL2025  
+**arXiv**: [2502.12215](https://arxiv.org/abs/2502.12215)  
+**代码**: [GitHub](https://github.com/ZhiYuanZeng/test-time-scaling-eval)  
+**领域**: llm_reasoning  
 **关键词**: test-time scaling, o1-like models, self-revision, majority vote, chain-of-thought
 
 ## 一句话总结

@@ -1,8 +1,8 @@
 # Neural Multi-View Self-Calibrated Photometric Stereo without Photometric Stereo Cues
 
-**会议**: ICCV 2025
-**arXiv**: [2507.23162](https://arxiv.org/abs/2507.23162)
-**领域**: 3D Reconstruction / Inverse Rendering / Photometric Stereo
+**会议**: ICCV 2025  
+**arXiv**: [2507.23162](https://arxiv.org/abs/2507.23162)  
+**领域**: 3D Reconstruction / Inverse Rendering / Photometric Stereo  
 **关键词**: 多视图光度立体, 神经逆渲染, 自标定, 端到端优化, 神经BRDF, 阴影感知体渲染
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MultiMat: Multimodal Program Synthesis for Procedural Materials using Large Multimodal Models
 
-**会议**: ICLR 2026
-**arXiv**: [2509.22151](https://arxiv.org/abs/2509.22151)
-**代码**: 无
-**领域**: 3D视觉/程序合成
+**会议**: ICLR 2026  
+**arXiv**: [2509.22151](https://arxiv.org/abs/2509.22151)  
+**代码**: 无  
+**领域**: 3D视觉/程序合成  
 **关键词**: 程序化材质, 节点图, 多模态生成, 约束树搜索, Substance Designer
 
 ## 一句话总结

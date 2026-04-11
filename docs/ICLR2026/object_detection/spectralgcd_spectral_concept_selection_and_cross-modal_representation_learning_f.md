@@ -1,11 +1,11 @@
 # SpectralGCD: Spectral Concept Selection and Cross-modal Representation Learning for Generalized Category Discovery
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2602.17395](https://arxiv.org/abs/2602.17395)
 
 **代码**: [GitHub](https://github.com/miccunifi/SpectralGCD)
 
-**领域**: 类别发现/多模态学习
+**领域**: 类别发现/多模态学习  
 **关键词**: 广义类别发现, CLIP, 跨模态表示, 谱过滤, 概念字典, 知识蒸馏
 
 ## 一句话总结

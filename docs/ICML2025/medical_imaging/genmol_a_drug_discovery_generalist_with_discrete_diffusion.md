@@ -1,9 +1,9 @@
 # GenMol: A Drug Discovery Generalist with Discrete Diffusion
 
-**会议**: ICML2025
-**arXiv**: [2501.06158](https://arxiv.org/abs/2501.06158)
-**代码**: [NVIDIA-Digital-Bio/genmol](https://github.com/NVIDIA-Digital-Bio/genmol)
-**领域**: 药物发现 / 分子生成
+**会议**: ICML2025  
+**arXiv**: [2501.06158](https://arxiv.org/abs/2501.06158)  
+**代码**: [NVIDIA-Digital-Bio/genmol](https://github.com/NVIDIA-Digital-Bio/genmol)  
+**领域**: 药物发现 / 分子生成  
 **关键词**: 离散扩散模型, SAFE分子表示, 片段重掩码, 分子优化, 药物设计
 
 ## 一句话总结

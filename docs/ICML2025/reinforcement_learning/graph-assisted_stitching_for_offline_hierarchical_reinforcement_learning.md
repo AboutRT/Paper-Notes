@@ -1,9 +1,9 @@
 # Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2506.07744](https://arxiv.org/abs/2506.07744)
-**代码**: [GitHub](https://github.com/qortmdgh4141/GAS)
-**领域**: 离线层级强化学习 (Offline Hierarchical RL)
+**会议**: ICML2025  
+**arXiv**: [2506.07744](https://arxiv.org/abs/2506.07744)  
+**代码**: [GitHub](https://github.com/qortmdgh4141/GAS)  
+**领域**: 离线层级强化学习 (Offline Hierarchical RL)  
 **关键词**: 离线强化学习, 层级RL, 轨迹拼接, 图搜索, 时间距离表示, 子目标选择
 
 ## 一句话总结

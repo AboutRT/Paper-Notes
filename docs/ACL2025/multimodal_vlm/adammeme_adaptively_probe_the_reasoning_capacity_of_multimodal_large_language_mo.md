@@ -1,9 +1,9 @@
 # AdamMeme: Adaptively Probe the Reasoning Capacity of Multimodal Large Language Models on Harmfulness
 
-**会议**: ACL 2025
-**arXiv**: [2507.01702](https://arxiv.org/abs/2507.01702)
-**代码**: https://github.com/viczxchen/AdamMeme
-**领域**: 多模态 / VLM
+**会议**: ACL 2025  
+**arXiv**: [2507.01702](https://arxiv.org/abs/2507.01702)  
+**代码**: https://github.com/viczxchen/AdamMeme  
+**领域**: 多模态 / VLM  
 **关键词**: meme理解, 有害性检测, 多模态评估, 多智能体, 自适应探测
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # DSFlash: Comprehensive Panoptic Scene Graph Generation in Realtime
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10538](https://arxiv.org/abs/2603.10538)
-**代码**: 接收后公开
-**领域**: 分割
+**会议**: CVPR 2026  
+**arXiv**: [2603.10538](https://arxiv.org/abs/2603.10538)  
+**代码**: 接收后公开  
+**领域**: 分割  
 **关键词**: 场景图生成, 全景分割, 实时推理, 双向关系预测, 动态剪枝
 
 ## 一句话总结

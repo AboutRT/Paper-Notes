@@ -1,9 +1,9 @@
 # Fourier Position Embedding: Enhancing Attention's Periodic Extension for Length Generalization
 
-**会议**: ICML2025
-**arXiv**: [2412.17739](https://arxiv.org/abs/2412.17739)
-**代码**: [GitHub - FoPE](https://github.com/TsinghuaC3I/Fourier-Position-Embedding)
-**领域**: signal_comm
+**会议**: ICML2025  
+**arXiv**: [2412.17739](https://arxiv.org/abs/2412.17739)  
+**代码**: [GitHub - FoPE](https://github.com/TsinghuaC3I/Fourier-Position-Embedding)  
+**领域**: signal_comm  
 **关键词**: 位置编码, RoPE, 傅里叶级数, 长度泛化, 频谱分析
 
 ## 一句话总结

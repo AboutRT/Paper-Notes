@@ -1,9 +1,9 @@
 # SafePath: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.14667](https://arxiv.org/abs/2505.14667)
-**代码**: [GitHub](https://ai-isl.github.io/safepath)
-**领域**: AI安全 / LLM推理
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.14667](https://arxiv.org/abs/2505.14667)  
+**代码**: [GitHub](https://ai-isl.github.io/safepath)  
+**领域**: AI安全 / LLM推理  
 **关键词**: LRM safety, chain-of-thought, safety alignment, jailbreak defense, safety primer
 
 ## 一句话总结

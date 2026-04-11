@@ -1,9 +1,9 @@
 # SeqPO-SiMT: Sequential Policy Optimization for Simultaneous Machine Translation
 
-**会议**: ACL 2025
-**arXiv**: [2505.20622](https://arxiv.org/abs/2505.20622)
-**代码**: 无
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2505.20622](https://arxiv.org/abs/2505.20622)  
+**代码**: 无  
+**领域**: 文本生成  
 **关键词**: 同步机器翻译, 策略优化, GRPO, 多步决策, 延迟-质量权衡
 
 ## 一句话总结

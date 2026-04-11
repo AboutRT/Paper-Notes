@@ -1,9 +1,9 @@
 # RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service
 
-**会议**: AAAI 2026
-**arXiv**: [2511.13329](https://arxiv.org/abs/2511.13329)
-**代码**: 未公开
-**领域**: ai_safety
+**会议**: AAAI 2026  
+**arXiv**: [2511.13329](https://arxiv.org/abs/2511.13329)  
+**代码**: 未公开  
+**领域**: ai_safety  
 **关键词**: EaaS版权保护, 嵌入水印, 语义区域触发, 模型提取攻击防御, 局部敏感哈希
 
 ## 一句话总结

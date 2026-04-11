@@ -1,9 +1,9 @@
 # ExGRPO: Learning to Reason from Experience
 
-**会议**: ICLR 2026
-**arXiv**: [2510.02245](https://arxiv.org/abs/2510.02245)
-**代码**: [GitHub](https://github.com/RanranZhang/ExGRPO)
-**领域**: LLM推理/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.02245](https://arxiv.org/abs/2510.02245)  
+**代码**: [GitHub](https://github.com/RanranZhang/ExGRPO)  
+**领域**: LLM推理/强化学习  
 **关键词**: 经验回放, RLVR, 推理强化学习, 经验管理, GRPO
 
 ## 一句话总结

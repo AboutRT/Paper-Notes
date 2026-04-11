@@ -1,9 +1,9 @@
 # VoxEval: Benchmarking the Knowledge Understanding Capabilities of End-to-End Spoken Language Models
 
-**会议**: ACL2025
-**arXiv**: [2501.04962](https://arxiv.org/abs/2501.04962)
-**代码**: [dreamtheater123/VoxEval](https://github.com/dreamtheater123/VoxEval)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2501.04962](https://arxiv.org/abs/2501.04962)  
+**代码**: [dreamtheater123/VoxEval](https://github.com/dreamtheater123/VoxEval)  
+**领域**: llm_nlp  
 **关键词**: spoken language model, speech QA, benchmark, end-to-end evaluation, robustness
 
 ## 一句话总结

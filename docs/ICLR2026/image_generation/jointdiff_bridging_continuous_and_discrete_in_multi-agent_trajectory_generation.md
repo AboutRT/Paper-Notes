@@ -1,9 +1,9 @@
 # JointDiff: Bridging Continuous and Discrete in Multi-Agent Trajectory Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2509.22522](https://arxiv.org/abs/2509.22522)
-**代码**: [GitHub](https://github.com/kognia/JointDiff)（项目页面提及）
-**领域**: 扩散模型 / 多智能体轨迹生成
+**会议**: ICLR 2026  
+**arXiv**: [2509.22522](https://arxiv.org/abs/2509.22522)  
+**代码**: [GitHub](https://github.com/kognia/JointDiff)（项目页面提及）  
+**领域**: 扩散模型 / 多智能体轨迹生成  
 **关键词**: 联合扩散, 连续-离散统一, 多智能体, 轨迹生成, 可控生成
 
 ## 一句话总结

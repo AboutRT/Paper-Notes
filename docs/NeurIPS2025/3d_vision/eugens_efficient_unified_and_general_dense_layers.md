@@ -1,9 +1,9 @@
 # EUGens: Efficient, Unified, and General Dense Layers
 
-**会议**: NeurIPS 2025
-**arXiv**: [2410.09771](https://arxiv.org/abs/2410.09771)
-**代码**: 待确认
-**领域**: 3d_vision
+**会议**: NeurIPS 2025  
+**arXiv**: [2410.09771](https://arxiv.org/abs/2410.09771)  
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: efficient neural network, random features, feedforward layer, Transformer, NeRF
 
 ## 一句话总结

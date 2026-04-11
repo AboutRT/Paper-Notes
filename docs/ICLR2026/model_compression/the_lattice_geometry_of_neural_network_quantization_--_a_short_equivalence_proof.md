@@ -1,9 +1,9 @@
 # The Lattice Geometry of Neural Network Quantization -- A Short Equivalence Proof of GPTQ and Babai's Algorithm
 
-**会议**: ICLR 2026
-**arXiv**: [2508.01077](https://arxiv.org/abs/2508.01077)
-**代码**: 未公开
-**领域**: 模型压缩 / 量化
+**会议**: ICLR 2026  
+**arXiv**: [2508.01077](https://arxiv.org/abs/2508.01077)  
+**代码**: 未公开  
+**领域**: 模型压缩 / 量化  
 **关键词**: GPTQ, Babai算法, 格理论, CVP, 量化, 等价性证明
 
 ## 一句话总结

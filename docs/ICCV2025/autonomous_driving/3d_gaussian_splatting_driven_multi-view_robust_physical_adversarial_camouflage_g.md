@@ -1,10 +1,10 @@
 # 3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation
 
-**会议**: ICCV 2025
-**arXiv**: [2507.01367](https://arxiv.org/abs/2507.01367)
-**代码**: [https://github.com/TRLou/PGA](https://github.com/TRLou/PGA)
+**会议**: ICCV 2025  
+**arXiv**: [2507.01367](https://arxiv.org/abs/2507.01367)  
+**代码**: [https://github.com/TRLou/PGA](https://github.com/TRLou/PGA)  
 **机构**: Sun Yat-Sen University, NTU, NUS, Peng Cheng Lab
-**领域**: 自动驾驶 / 对抗攻击 / 物理对抗
+**领域**: 自动驾驶 / 对抗攻击 / 物理对抗  
 **关键词**: physical adversarial attack, adversarial camouflage, 3D Gaussian Splatting, multi-view robustness, autonomous driving, object detection
 
 ## 一句话总结

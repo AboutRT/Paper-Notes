@@ -1,9 +1,9 @@
 # Proxy-FDA: Proxy-based Feature Distribution Alignment for Fine-tuning Vision Foundation Models without Forgetting
 
-**会议**: ICML2025
-**arXiv**: [2505.24088](https://arxiv.org/abs/2505.24088)
-**代码**: 待确认
-**领域**: self_supervised
+**会议**: ICML2025  
+**arXiv**: [2505.24088](https://arxiv.org/abs/2505.24088)  
+**代码**: 待确认  
+**领域**: self_supervised  
 **关键词**: 鲁棒微调, 概念遗忘, 特征分布对齐, 代理学习, 视觉基础模型
 
 ## 一句话总结

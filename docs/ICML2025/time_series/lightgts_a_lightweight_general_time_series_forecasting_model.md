@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # LightGTS: A Lightweight General Time Series Forecasting Model
 
-**会议**: ICML2025
-**arXiv**: [2506.06005](https://arxiv.org/abs/2506.06005)
-**代码**: [decisionintelligence/LightGTS](https://github.com/decisionintelligence/LightGTS)
-**领域**: time_series
+**会议**: ICML2025  
+**arXiv**: [2506.06005](https://arxiv.org/abs/2506.06005)  
+**代码**: [decisionintelligence/LightGTS](https://github.com/decisionintelligence/LightGTS)  
+**领域**: time_series  
 **关键词**: 时间序列基础模型, 周期性分词, 轻量级预测, 跨尺度泛化
 
 ## 一句话总结

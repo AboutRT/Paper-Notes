@@ -1,9 +1,9 @@
 # MultiModalPFN: Extending Prior-Data Fitted Networks for Multimodal Tabular Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20223](https://arxiv.org/abs/2602.20223)
-**代码**: [有](https://github.com/too-z/MultiModalPFN)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2602.20223](https://arxiv.org/abs/2602.20223)  
+**代码**: [有](https://github.com/too-z/MultiModalPFN)  
+**领域**: 医学图像  
 **关键词**: 表格学习, 多模态融合, TabPFN, 注意力不平衡, 模态投影
 
 ## 一句话总结

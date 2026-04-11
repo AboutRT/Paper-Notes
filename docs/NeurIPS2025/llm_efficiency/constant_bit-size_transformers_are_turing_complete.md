@@ -1,9 +1,9 @@
 # Constant Bit-Size Transformers Are Turing Complete
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.12027](https://arxiv.org/abs/2506.12027)
-**代码**: 无
-**领域**: LLM理论 / 计算复杂性
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.12027](https://arxiv.org/abs/2506.12027)  
+**代码**: 无  
+**领域**: LLM理论 / 计算复杂性  
 **关键词**: Turing completeness, transformer theory, computational complexity, Post machines, context window
 
 ## 一句话总结

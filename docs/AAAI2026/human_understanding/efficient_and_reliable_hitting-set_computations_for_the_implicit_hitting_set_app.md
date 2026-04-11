@@ -1,8 +1,8 @@
 # Efficient and Reliable Hitting-Set Computations for the Implicit Hitting Set Approach
 
-**会议**: AAAI 2026
-**arXiv**: [2508.07015](https://arxiv.org/abs/2508.07015)
-**领域**: 组合优化
+**会议**: AAAI 2026  
+**arXiv**: [2508.07015](https://arxiv.org/abs/2508.07015)  
+**领域**: 组合优化  
 **关键词**: 隐式打击集, PB推理, IP求解器, 计算证书
 
 ## 一句话总结

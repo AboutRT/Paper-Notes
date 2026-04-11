@@ -1,9 +1,9 @@
 # Can External Validation Tools Improve Annotation Quality for LLM-as-a-Judge?
 
-**会议**: ACL 2025
-**arXiv**: [2507.17015](https://arxiv.org/abs/2507.17015)
-**代码**: [GitHub](https://github.com/apple/ml-agent-evaluator)
-**领域**: LLM / 评估
+**会议**: ACL 2025  
+**arXiv**: [2507.17015](https://arxiv.org/abs/2507.17015)  
+**代码**: [GitHub](https://github.com/apple/ml-agent-evaluator)  
+**领域**: LLM / 评估  
 **关键词**: LLM-as-a-Judge, 工具增强, 事实验证, 代码执行, 标注质量, agentic evaluation
 
 ## 一句话总结

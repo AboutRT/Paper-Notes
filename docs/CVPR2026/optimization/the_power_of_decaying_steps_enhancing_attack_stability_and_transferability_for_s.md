@@ -1,10 +1,10 @@
 # The Power of Decaying Steps: Enhancing Attack Stability and Transferability for Sign-based Optimizers
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19096](https://arxiv.org/abs/2602.19096)
+**会议**: CVPR 2026  
+**arXiv**: [2602.19096](https://arxiv.org/abs/2602.19096)  
 **作者**: Wei Tao, Yang Dai, Jincai Huang, Qing Tao (国防科技大学, 军事科学院, 合肥工业大学)
-**代码**: [AndssY/MDCS_attack](https://github.com/AndssY/MDCS_attack)
-**领域**: optimization
+**代码**: [AndssY/MDCS_attack](https://github.com/AndssY/MDCS_attack)  
+**领域**: optimization  
 **关键词**: adversarial attack, transferability, sign-based optimizer, step-size scheduling, convergence guarantee
 
 ## 一句话总结

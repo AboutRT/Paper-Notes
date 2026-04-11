@@ -1,9 +1,9 @@
 # Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout
 
-**会议**: CVPR 2026
-**arXiv**: [2511.20649](https://arxiv.org/abs/2511.20649)
-**代码**: [Project Page](https://infinity-rope.github.io)
-**领域**: 视频生成 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2511.20649](https://arxiv.org/abs/2511.20649)  
+**代码**: [Project Page](https://infinity-rope.github.io)  
+**领域**: 视频生成 / 扩散模型  
 **关键词**: 自回归视频生成, 位置编码, 无限长视频, 动作控制, 推理时方法
 
 ## 一句话总结

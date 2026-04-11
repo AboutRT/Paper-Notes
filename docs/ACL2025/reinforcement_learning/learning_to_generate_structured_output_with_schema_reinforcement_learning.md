@@ -5,6 +5,7 @@
 **代码**: https://github.com/thunlp/SchemaReinforcementLearning  
 **领域**: 强化学习  
 **关键词**: structured generation, JSON schema, reinforcement learning, LLM, benchmark  
+
 ## 一句话总结
 
 提出 SchemaBench 基准（约4万条 JSON schema）和 Schema Reinforcement Learning (SRL) 训练框架，通过细粒度 schema 验证器提供密集奖励信号，结合 Thoughts of Structure (ToS) 推理机制，将 LLM 的复杂 JSON 生成准确率提升高达16%，同时不损害通用推理能力。

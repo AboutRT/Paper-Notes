@@ -1,9 +1,9 @@
 # Text-to-LoRA: Instant Transformer Adaption
 
-**会议**: ICML 2025
-**arXiv**: [2506.06105](https://arxiv.org/abs/2506.06105)
-**代码**: https://github.com/SakanaAI/text-to-lora (有)
-**领域**: 模型压缩 / LLM高效适配
+**会议**: ICML 2025  
+**arXiv**: [2506.06105](https://arxiv.org/abs/2506.06105)  
+**代码**: https://github.com/SakanaAI/text-to-lora (有)  
+**领域**: 模型压缩 / LLM高效适配  
 **关键词**: 超网络, LoRA生成, 文本驱动适配, 零样本泛化, 任务描述
 
 ## 一句话总结

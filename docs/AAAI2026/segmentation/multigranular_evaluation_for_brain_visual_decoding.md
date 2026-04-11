@@ -20,6 +20,7 @@
 如何设计一个统一的、多粒度的脑视觉解码评估框架，使其具备区分力、可解释性和神经科学合理性？
 
 ## 方法详解
+
 ### 整体框架
 BASIC (Brain-Aligned Structural, Inferential, and Contextual similarity) 分为两个互补子指标：
 - **BASIC-L**（低级结构相似度）：基于分割 mask 的多粒度结构匹配

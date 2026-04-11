@@ -1,9 +1,9 @@
 # Enhancing Accuracy of Uncertainty Estimation in Appearance-based Gaze Tracking with Probabilistic Evaluation and Calibration
 
-**会议**: CVPR 2026
-**arXiv**: [2501.14894](https://arxiv.org/abs/2501.14894)
-**代码**: 有（项目主页提供）
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2501.14894](https://arxiv.org/abs/2501.14894)  
+**代码**: 有（项目主页提供）  
+**领域**: 视频理解  
 **关键词**: 视线追踪, 不确定性估计, 后验校准, 域偏移, 覆盖概率误差
 
 ## 一句话总结

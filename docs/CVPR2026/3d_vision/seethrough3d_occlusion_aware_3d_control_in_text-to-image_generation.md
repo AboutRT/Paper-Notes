@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation
 
-**会议**: CVPR2026
-**arXiv**: [2602.23359](https://arxiv.org/abs/2602.23359)
-**代码**: [项目主页](https://seethrough3d.github.io)
-**领域**: 3D视觉 / 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2602.23359](https://arxiv.org/abs/2602.23359)  
+**代码**: [项目主页](https://seethrough3d.github.io)  
+**领域**: 3D视觉 / 图像生成  
 **关键词**: 3D布局控制, 遮挡感知, 文本到图像生成, DiT, FLUX, 注意力掩码, LoRA
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Mingle: Mixture of Null-Space Gated Low-Rank Experts for Test-Time Continual Model Merging
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.11883](https://arxiv.org/abs/2505.11883)
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.11883](https://arxiv.org/abs/2505.11883)  
 **作者**: Zihuan Qiu, Yi Xu, Chiyuan He, Fanman Meng, Linfeng Xu, Qingbo Wu, Hongliang Li (UESTC, DUT)
-**代码**: [GitHub](https://github.com/zihuanqiu/MINGLE)
-**领域**: human_understanding
+**代码**: [GitHub](https://github.com/zihuanqiu/MINGLE)  
+**领域**: human_understanding  
 **关键词**: 持续学习, 模型合并, 测试时适应, 混合专家, 零空间约束, 低秩分解
 
 ## 一句话总结

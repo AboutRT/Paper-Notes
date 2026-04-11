@@ -1,9 +1,9 @@
 # TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.23577](https://arxiv.org/abs/2510.23577)
-**代码**: [GitHub](https://github.com/Alleinx/TAMI_temporal_graph)
-**领域**: 图学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.23577](https://arxiv.org/abs/2510.23577)  
+**代码**: [GitHub](https://github.com/Alleinx/TAMI_temporal_graph)  
+**领域**: 图学习  
 **关键词**: 时序图, 链接预测, 时间编码, 异质性, 交互频率
 
 ## 一句话总结

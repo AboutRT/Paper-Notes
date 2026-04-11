@@ -1,9 +1,9 @@
 # Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2603.15051](https://arxiv.org/abs/2603.15051)
-**代码**: 无
-**领域**: LLM推理/效率
+**会议**: ICLR 2026  
+**arXiv**: [2603.15051](https://arxiv.org/abs/2603.15051)  
+**代码**: 无  
+**领域**: LLM推理/效率  
 **关键词**: 潜空间推理, 自适应停止, 锚向量, CoT压缩, 隐式计算
 
 ## 一句话总结

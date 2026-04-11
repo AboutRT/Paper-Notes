@@ -1,9 +1,9 @@
 # LT-Soups: Bridging Head and Tail Classes via Subsampled Model Soups
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.10683](https://arxiv.org/abs/2511.10683)
-**代码**: [GitHub](https://github.com/Masseeh/LT-Soups) (有)
-**领域**: 模型压缩与高效学习 (Model Compression)
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.10683](https://arxiv.org/abs/2511.10683)  
+**代码**: [GitHub](https://github.com/Masseeh/LT-Soups) (有)  
+**领域**: 模型压缩与高效学习 (Model Compression)  
 **关键词**: 长尾分布, 模型融合, CLIP微调, 类别不平衡, 参数高效微调
 
 ## 一句话总结

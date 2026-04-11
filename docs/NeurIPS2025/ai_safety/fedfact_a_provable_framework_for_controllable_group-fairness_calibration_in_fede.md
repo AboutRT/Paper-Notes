@@ -1,9 +1,9 @@
 # FedFACT: A Provable Framework for Controllable Group-Fairness Calibration in Federated Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.03777](https://arxiv.org/abs/2506.03777)
-**代码**: 无
-**领域**: AI安全
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.03777](https://arxiv.org/abs/2506.03777)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 联邦学习, 群体公平性, 贝叶斯最优分类器, 代价敏感学习, 后处理校准
 
 ## 一句话总结

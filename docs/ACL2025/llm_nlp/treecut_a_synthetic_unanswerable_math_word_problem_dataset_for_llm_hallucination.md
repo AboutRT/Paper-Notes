@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # TreeCut: A Synthetic Unanswerable Math Word Problem Dataset for LLM Hallucination Evaluation
 
-**会议**: ACL2025
-**arXiv**: [2502.13442](https://arxiv.org/abs/2502.13442)
-**代码**: [j-bagel/treecut-math](https://github.com/j-bagel/treecut-math)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.13442](https://arxiv.org/abs/2502.13442)  
+**代码**: [j-bagel/treecut-math](https://github.com/j-bagel/treecut-math)  
+**领域**: llm_nlp  
 **关键词**: 不可回答数学题, LLM幻觉, 合成数据集, 树结构, 数学推理评估
 
 ## 一句话总结

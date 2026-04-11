@@ -1,9 +1,9 @@
 # MOVE: Motion-Guided Few-Shot Video Object Segmentation
 
-**会议**: ICCV 2025
-**arXiv**: [2507.22061](https://arxiv.org/abs/2507.22061)
-**代码**: https://henghuiding.com/MOVE/
-**领域**: 分割 / 视频理解 / Few-Shot
+**会议**: ICCV 2025  
+**arXiv**: [2507.22061](https://arxiv.org/abs/2507.22061)  
+**代码**: https://henghuiding.com/MOVE/  
+**领域**: 分割 / 视频理解 / Few-Shot  
 **关键词**: few-shot video segmentation, motion understanding, video object segmentation, temporal modeling, benchmark
 
 ## 一句话总结

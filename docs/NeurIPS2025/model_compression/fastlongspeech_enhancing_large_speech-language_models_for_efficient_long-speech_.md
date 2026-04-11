@@ -1,9 +1,9 @@
 # FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.14815](https://arxiv.org/abs/2507.14815)
-**代码**: 有 (github.com/ictnlp/FastLongSpeech)
-**领域**: 模型压缩 / 语音模型效率
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.14815](https://arxiv.org/abs/2507.14815)  
+**代码**: 有 (github.com/ictnlp/FastLongSpeech)  
+**领域**: 模型压缩 / 语音模型效率  
 **关键词**: speech compression, long-speech processing, iterative fusion, CTC, dynamic compression training
 
 ## 一句话总结

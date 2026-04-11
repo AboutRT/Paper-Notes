@@ -1,9 +1,9 @@
 # Machine Learning from Explanations
 
-**会议**: ICML2025
-**arXiv**: [2507.04788](https://arxiv.org/abs/2507.04788)
-**代码**: 待确认
-**领域**: robotics
+**会议**: ICML2025  
+**arXiv**: [2507.04788](https://arxiv.org/abs/2507.04788)  
+**代码**: 待确认  
+**领域**: robotics  
 **关键词**: 解释引导学习, 小数据学习, 虚假相关, 注意力对齐, 样本效率
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # MUSE-VL: Modeling Unified VLM through Semantic Discrete Encoding
 
-**会议**: ICCV2025
-**arXiv**: [2411.17762](https://arxiv.org/abs/2411.17762)
+**会议**: ICCV2025  
+**arXiv**: [2411.17762](https://arxiv.org/abs/2411.17762)  
 **作者**: Rongchang Xie, Chen Du, Ping Song, Chang Liu (ByteDance)
-**代码**: 未开源
-**领域**: multimodal_vlm
+**代码**: 未开源  
+**领域**: multimodal_vlm  
 **关键词**: 统一视觉语言模型, 视觉离散化, 语义编码, 视觉理解与生成, 自回归
 
 ## 一句话总结

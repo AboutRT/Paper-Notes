@@ -1,9 +1,9 @@
 # Relational Graph Transformer
 
-**会议**: ICLR 2026
-**arXiv**: [2505.10960](https://arxiv.org/abs/2505.10960)
-**代码**: [GitHub](https://github.com/snap-stanford/relgt)
-**领域**: 图学习
+**会议**: ICLR 2026  
+**arXiv**: [2505.10960](https://arxiv.org/abs/2505.10960)  
+**代码**: [GitHub](https://github.com/snap-stanford/relgt)  
+**领域**: 图学习  
 **关键词**: 图Transformer, 关系型深度学习, 多元素Token化, 异构时序图, 位置编码
 
 ## 一句话总结

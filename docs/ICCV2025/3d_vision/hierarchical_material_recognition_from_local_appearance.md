@@ -1,9 +1,9 @@
 # Hierarchical Material Recognition from Local Appearance
 
-**会议**: ICCV 2025
-**arXiv**: [2505.22911](https://arxiv.org/abs/2505.22911)
-**代码**: [Matador 项目页](https://cave.cs.columbia.edu/repository/Matador)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2505.22911](https://arxiv.org/abs/2505.22911)  
+**代码**: [Matador 项目页](https://cave.cs.columbia.edu/repository/Matador)  
+**领域**: 3d_vision  
 **关键词**: 材质识别, 层级分类, 图注意力网络, 纹理识别, 材质分类体系, 新视角渲染, 小样本学习
 
 ## 一句话总结

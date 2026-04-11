@@ -1,9 +1,9 @@
 # Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks
 
-**会议**: ICLR 2026
-**arXiv**: [2602.03284](https://arxiv.org/abs/2602.03284)
-**代码**: [github.com/yuyi-sd/Spike-Retiming-Attacks](https://github.com/yuyi-sd/Spike-Retiming-Attacks)
-**领域**: 脉冲神经网络对抗安全
+**会议**: ICLR 2026  
+**arXiv**: [2602.03284](https://arxiv.org/abs/2602.03284)  
+**代码**: [github.com/yuyi-sd/Spike-Retiming-Attacks](https://github.com/yuyi-sd/Spike-Retiming-Attacks)  
+**领域**: 脉冲神经网络对抗安全  
 **关键词**: 脉冲神经网络, 对抗攻击, 时序重定时, 事件驱动, 时间鲁棒性, LIF神经元
 
 ## 一句话总结

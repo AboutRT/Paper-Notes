@@ -1,9 +1,9 @@
 # DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12257](https://arxiv.org/abs/2603.12257)
-**代码**: [项目页](https://dreamvideo-omni.github.io)
-**领域**: 视频生成 / 多主体定制
+**会议**: CVPR 2026  
+**arXiv**: [2603.12257](https://arxiv.org/abs/2603.12257)  
+**代码**: [项目页](https://dreamvideo-omni.github.io)  
+**领域**: 视频生成 / 多主体定制  
 **关键词**: 视频定制生成, 多主体身份保持, 全运动控制, 潜空间强化学习, DiT
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # M3DLayout: A Multi-Source Dataset of 3D Indoor Layouts and Structured Descriptions for 3D Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2509.23728](https://arxiv.org/abs/2509.23728)
-**代码**: [GitHub](https://github.com/Graphic-Kiliani/M3DLayout-code)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2509.23728](https://arxiv.org/abs/2509.23728)  
+**代码**: [GitHub](https://github.com/Graphic-Kiliani/M3DLayout-code)  
+**领域**: 3D视觉  
 **关键词**: 3D室内布局, 数据集, 文本驱动场景生成, 扩散模型, 自回归模型
 
 ## 一句话总结

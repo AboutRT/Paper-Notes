@@ -1,9 +1,9 @@
 # TANGO: Clustering with Typicality-Aware Nonlocal Mode-Seeking and Graph-Cut Optimization
 
-**会议**: ICML2025
-**arXiv**: [2408.10084](https://arxiv.org/abs/2408.10084)
-**代码**: [GitHub](https://github.com/SWJTU-ML/TANGO_code)
-**领域**: 聚类
+**会议**: ICML2025  
+**arXiv**: [2408.10084](https://arxiv.org/abs/2408.10084)  
+**代码**: [GitHub](https://github.com/SWJTU-ML/TANGO_code)  
+**领域**: 聚类  
 **关键词**: 密度聚类, 模式搜索, 典型性, 图割优化, 谱聚类
 
 ## 一句话总结

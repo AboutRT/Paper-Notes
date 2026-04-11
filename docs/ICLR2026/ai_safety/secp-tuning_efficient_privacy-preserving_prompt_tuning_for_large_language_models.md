@@ -1,10 +1,10 @@
 # SecP-Tuning: Efficient Privacy-Preserving Prompt Tuning for Large Language Models via MPC
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2506.15307](https://arxiv.org/abs/2506.15307)
 
-**代码**: 无
-**领域**: AI安全/隐私计算
+**代码**: 无  
+**领域**: AI安全/隐私计算  
 **关键词**: 安全多方计算, 隐私微调, Prompt Tuning, 随机特征注意力, LLM
 
 ## 一句话总结

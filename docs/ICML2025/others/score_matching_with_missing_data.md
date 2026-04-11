@@ -1,9 +1,9 @@
 # Score Matching with Missing Data
 
-**会议**: ICML 2025 (Spotlight)
-**arXiv**: [2506.00557](https://arxiv.org/abs/2506.00557)
-**代码**: 无
-**领域**: 统计机器学习 / 生成模型
+**会议**: ICML 2025 (Spotlight)  
+**arXiv**: [2506.00557](https://arxiv.org/abs/2506.00557)  
+**代码**: 无  
+**领域**: 统计机器学习 / 生成模型  
 **关键词**: score matching, missing data, importance weighting, variational inference, graphical models
 
 ## 一句话总结

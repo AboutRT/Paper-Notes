@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # VidEoMT: Your ViT is Secretly Also a Video Segmentation Model
 
-**会议**: CVPR2026
-**arXiv**: [2602.17807](https://arxiv.org/abs/2602.17807)
-**代码**: [tue-mps.org/videomt](https://www.tue-mps.org/videomt/)
-**领域**: 视频分割 / Video Segmentation
+**会议**: CVPR2026  
+**arXiv**: [2602.17807](https://arxiv.org/abs/2602.17807)  
+**代码**: [tue-mps.org/videomt](https://www.tue-mps.org/videomt/)  
+**领域**: 视频分割 / Video Segmentation  
 **关键词**: encoder-only, ViT, 视频实例分割, 视频全景分割, query propagation, query fusion, DINOv2
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Ladder Residual: Parallelism-Aware Architecture for Accelerating Large Model Inference
 
-**会议**: ICML 2025
-**arXiv**: [2501.06589](https://arxiv.org/abs/2501.06589)
-**代码**: 无（基于 gpt-fast 实现）
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2501.06589](https://arxiv.org/abs/2501.06589)  
+**代码**: 无（基于 gpt-fast 实现）  
+**领域**: LLM效率  
 **关键词**: 张量并行, 通信隐藏, 残差连接, 推理加速, 模型架构
 
 ## 一句话总结

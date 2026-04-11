@@ -1,9 +1,9 @@
 # Renormalization Group Guided Tensor Network Structure Search
 
-**会议**: AAAI 2026
-**arXiv**: [2512.24663](https://arxiv.org/abs/2512.24663)
-**代码**: [有](https://github.com/Applied-Machine-Learning-Lab/RGTN)
-**领域**: 人体理解
+**会议**: AAAI 2026  
+**arXiv**: [2512.24663](https://arxiv.org/abs/2512.24663)  
+**代码**: [有](https://github.com/Applied-Machine-Learning-Lab/RGTN)  
+**领域**: 人体理解  
 **关键词**: 张量网络, 结构搜索, 重正化群, 多尺度优化, 张量分解
 
 ## 一句话总结

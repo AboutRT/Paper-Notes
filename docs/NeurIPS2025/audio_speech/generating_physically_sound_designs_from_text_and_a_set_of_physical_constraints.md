@@ -1,10 +1,10 @@
 # Generating Physically Sound Designs from Text and a Set of Physical Constraints
 
-**会议**: NeurIPS 2025
-**arXiv**: [2602.02213](https://arxiv.org/abs/2602.02213)
+**会议**: NeurIPS 2025  
+**arXiv**: [2602.02213](https://arxiv.org/abs/2602.02213)  
 **作者**: Gregory Barber, Todd C. Henry, Mulugeta A. Haile (DEVCOM Army Research Laboratory)
-**代码**: 无
-**领域**: 生成式设计 / 拓扑优化 / 文本引导设计
+**代码**: 无  
+**领域**: 生成式设计 / 拓扑优化 / 文本引导设计  
 **关键词**: topology optimization, CLIP, differentiable physics, text-informed design, structural optimization, 3D printing
 
 ## 一句话总结

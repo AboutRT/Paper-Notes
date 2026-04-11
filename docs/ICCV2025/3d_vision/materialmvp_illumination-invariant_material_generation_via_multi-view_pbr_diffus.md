@@ -1,9 +1,9 @@
 # MaterialMVP: Illumination-Invariant Material Generation via Multi-view PBR Diffusion
 
-**会议**: ICCV 2025
-**arXiv**: [2503.10289](https://arxiv.org/abs/2503.10289)
-**代码**: [GitHub](https://github.com/ZebinHe/MaterialMVP)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2503.10289](https://arxiv.org/abs/2503.10289)  
+**代码**: [GitHub](https://github.com/ZebinHe/MaterialMVP)  
+**领域**: 3d_vision  
 **关键词**: PBR材质生成, 多视图扩散, 纹理生成, 光照不变性, 3D资产创建, albedo, metallic-roughness
 
 ## 一句话总结

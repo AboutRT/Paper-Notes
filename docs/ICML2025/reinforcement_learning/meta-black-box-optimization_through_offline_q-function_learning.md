@@ -1,9 +1,9 @@
 # Meta-Black-Box-Optimization through Offline Q-function Learning (Q-Mamba)
 
-**会议**: ICML2025
-**arXiv**: [2505.02010](https://arxiv.org/abs/2505.02010)
-**代码**: 已开源
-**领域**: 元学习 / 黑盒优化 (Meta-Learning / Black-Box Optimization)
+**会议**: ICML2025  
+**arXiv**: [2505.02010](https://arxiv.org/abs/2505.02010)  
+**代码**: 已开源  
+**领域**: 元学习 / 黑盒优化 (Meta-Learning / Black-Box Optimization)  
 **关键词**: Meta-BBO, 离线强化学习, Q函数分解, Mamba, 动态算法配置, 保守Q学习
 
 ## 一句话总结

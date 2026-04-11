@@ -1,9 +1,9 @@
 # Referring Layer Decomposition
 
-**会议**: ICLR 2026
-**arXiv**: [2602.19358](https://arxiv.org/abs/2602.19358)
-**代码**: [https://yaojie-shen.github.io/project/RLD/](https://yaojie-shen.github.io/project/RLD/)
-**领域**: 图像分解 / 图像编辑
+**会议**: ICLR 2026  
+**arXiv**: [2602.19358](https://arxiv.org/abs/2602.19358)  
+**代码**: [https://yaojie-shen.github.io/project/RLD/](https://yaojie-shen.github.io/project/RLD/)  
+**领域**: 图像分解 / 图像编辑  
 **关键词**: 图层分解, RGBA 层, 多模态引用输入, 数据引擎, RefLayer
 
 ## 一句话总结

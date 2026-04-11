@@ -1,9 +1,9 @@
 # Initialization Schemes for Kolmogorov-Arnold Networks: An Empirical Study
 
-**会议**: ICLR 2026
-**arXiv**: [2509.03417](https://arxiv.org/abs/2509.03417)
-**代码**: [GitHub](https://github.com/srigas/KAN_Initialization_Schemes)
-**领域**: 深度学习理论/KAN
+**会议**: ICLR 2026  
+**arXiv**: [2509.03417](https://arxiv.org/abs/2509.03417)  
+**代码**: [GitHub](https://github.com/srigas/KAN_Initialization_Schemes)  
+**领域**: 深度学习理论/KAN  
 **关键词**: KAN, 初始化策略, 方差保持, 幂律初始化, 神经切线核
 
 ## 一句话总结

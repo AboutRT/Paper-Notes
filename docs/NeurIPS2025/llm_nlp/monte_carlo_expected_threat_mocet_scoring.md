@@ -1,9 +1,9 @@
 # Monte Carlo Expected Threat (MOCET) Scoring
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.16823](https://arxiv.org/abs/2511.16823)
-**代码**: 按需提供 (available upon request)
-**领域**: ai_safety
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.16823](https://arxiv.org/abs/2511.16823)  
+**代码**: 按需提供 (available upon request)  
+**领域**: ai_safety  
 **关键词**: AI safety, biosecurity, LLM risk assessment, Monte Carlo simulation, threat scoring, k-NN, ASL
 
 ## 一句话总结

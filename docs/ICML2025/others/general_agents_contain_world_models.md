@@ -1,9 +1,9 @@
 # General Agents Contain World Models
 
-**会议**: ICML 2025
-**arXiv**: [2506.01622](https://arxiv.org/abs/2506.01622)
-**代码**: 无公开代码
-**领域**: 人工智能理论 / 强化学习 / Agent
+**会议**: ICML 2025  
+**arXiv**: [2506.01622](https://arxiv.org/abs/2506.01622)  
+**代码**: 无公开代码  
+**领域**: 人工智能理论 / 强化学习 / Agent  
 **关键词**: 世界模型, 目标导向智能体, 强化学习理论, Kolmogorov-Arnold 定理, 可解释性
 
 ## 一句话总结

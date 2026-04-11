@@ -1,9 +1,9 @@
 # Non-Collaborative User Simulators for Tool Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23124](https://arxiv.org/abs/2509.23124)
-**代码**: https://github.com/holi-lab/NCUser
-**领域**: 其他 / LLM Agent评测
+**会议**: ICLR 2026  
+**arXiv**: [2509.23124](https://arxiv.org/abs/2509.23124)  
+**代码**: https://github.com/holi-lab/NCUser  
+**领域**: 其他 / LLM Agent评测  
 **关键词**: 用户模拟器, 工具使用Agent, 非协作行为, 鲁棒性测试, 对话系统
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Offline Reinforcement Learning with Generative Trajectory Policies
 
-**会议**: ICLR 2026
-**arXiv**: [2510.11499](https://arxiv.org/abs/2510.11499)
-**代码**: 随论文附带
-**领域**: 离线强化学习 / 生成策略
+**会议**: ICLR 2026  
+**arXiv**: [2510.11499](https://arxiv.org/abs/2510.11499)  
+**代码**: 随论文附带  
+**领域**: 离线强化学习 / 生成策略  
 **关键词**: 生成轨迹策略, ODE 解映射, 一致性模型, 流匹配, D4RL
 
 ## 一句话总结

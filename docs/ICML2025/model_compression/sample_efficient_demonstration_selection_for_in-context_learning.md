@@ -1,9 +1,9 @@
 # Sample Efficient Demonstration Selection for In-Context Learning
 
-**会议**: ICML 2025
-**arXiv**: [2506.08607](https://arxiv.org/abs/2506.08607)
-**代码**: 无
-**领域**: 模型压缩/上下文学习
+**会议**: ICML 2025  
+**arXiv**: [2506.08607](https://arxiv.org/abs/2506.08607)  
+**代码**: 无  
+**领域**: 模型压缩/上下文学习  
 **关键词**: 上下文学习, 示例选择, 样本效率, ICL, 演示选择
 
 ## 一句话总结

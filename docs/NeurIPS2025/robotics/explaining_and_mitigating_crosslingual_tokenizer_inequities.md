@@ -1,9 +1,9 @@
 # Explaining and Mitigating Crosslingual Tokenizer Inequities
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21909](https://arxiv.org/abs/2510.21909)
-**代码**: [MonTok](https://huggingface.co/datasets/catherinearnett/montok) (有)
-**领域**: NLP / 分词器 / 多语言公平性
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21909](https://arxiv.org/abs/2510.21909)  
+**代码**: [MonTok](https://huggingface.co/datasets/catherinearnett/montok) (有)  
+**领域**: NLP / 分词器 / 多语言公平性  
 **关键词**: Token Premium, 跨语言分词, BPE, 词表大小, 预分词, 压缩率
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Rethinking Concept Bottleneck Models: From Pitfalls to Solutions
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05629](https://arxiv.org/abs/2603.05629)
+**会议**: CVPR 2026  
+**arXiv**: [2603.05629](https://arxiv.org/abs/2603.05629)  
 **作者**: Merve Tapli, Quentin Bouniot, Wolfgang Stammer, Zeynep Akata, Emre Akbas
-**领域**: human_understanding
+**领域**: human_understanding  
 **关键词**: Concept Bottleneck Models, 可解释性, 概念相关性, 蒸馏, 视觉-语言模型
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Leveraging Robust Optimization for LLM Alignment under Distribution Shifts
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.05831](https://arxiv.org/abs/2504.05831)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.05831](https://arxiv.org/abs/2504.05831)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: LLM alignment, distributionally robust optimization, distribution shift, synthetic data, preference optimization, calibration
 
 ## 一句话总结

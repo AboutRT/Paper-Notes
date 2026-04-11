@@ -1,9 +1,9 @@
 # Hybrid eTFCE–GRF: Exact Cluster-Size Retrieval with Analytical p-Values for Voxel-Based Morphometry
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11344](https://arxiv.org/abs/2603.11344)
-**代码**: [pytfce (PyPI)](https://pypi.org/project/pytfce/)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.11344](https://arxiv.org/abs/2603.11344)  
+**代码**: [pytfce (PyPI)](https://pypi.org/project/pytfce/)  
+**领域**: 3D视觉  
 **关键词**: TFCE, 高斯随机场, Union-Find, 体素形态学, 统计推断
 
 ## 一句话总结

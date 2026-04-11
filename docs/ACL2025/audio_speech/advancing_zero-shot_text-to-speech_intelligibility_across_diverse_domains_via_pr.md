@@ -1,9 +1,9 @@
 # Advancing Zero-shot Text-to-Speech Intelligibility across Diverse Domains via Preference Alignment
 
-**会议**: ACL 2025
-**arXiv**: [2505.04113](https://arxiv.org/abs/2505.04113)
-**代码**: 无（Demo页面: https://intalign.github.io/）
-**领域**: 语音合成 / Audio & Speech
+**会议**: ACL 2025  
+**arXiv**: [2505.04113](https://arxiv.org/abs/2505.04113)  
+**代码**: 无（Demo页面: https://intalign.github.io/）  
+**领域**: 语音合成 / Audio & Speech  
 **关键词**: 零样本TTS, 可懂度, 偏好对齐, DPO, 数据集构建
 
 ## 一句话总结

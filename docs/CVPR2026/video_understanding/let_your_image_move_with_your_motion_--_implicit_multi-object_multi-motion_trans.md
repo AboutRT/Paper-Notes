@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # FlexiMMT: Let Your Image Move with Your Motion! — Implicit Multi-Object Multi-Motion Transfer
 
-**会议**: CVPR2026
-**arXiv**: [2603.01000](https://arxiv.org/abs/2603.01000)
-**代码**: [项目页](https://ethan-li123.github.io/FlexiMMT_page/)
-**领域**: 视频理解 / 可控视频生成
+**会议**: CVPR2026  
+**arXiv**: [2603.01000](https://arxiv.org/abs/2603.01000)  
+**代码**: [项目页](https://ethan-li123.github.io/FlexiMMT_page/)  
+**领域**: 视频理解 / 可控视频生成  
 **关键词**: 运动迁移, 多目标多运动, 隐式运动表示, 扩散模型, 注意力解耦, 掩码传播
 
 ## 一句话总结

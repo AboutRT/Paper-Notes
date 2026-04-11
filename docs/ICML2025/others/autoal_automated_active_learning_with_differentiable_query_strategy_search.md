@@ -1,9 +1,9 @@
 # AutoAL: Automated Active Learning with Differentiable Query Strategy Search
 
-**会议**: ICML 2025
-**arXiv**: [2410.13853](https://arxiv.org/abs/2410.13853)
-**代码**: [有](https://github.com/haizailache999/AutoAL)
-**领域**: 主动学习
+**会议**: ICML 2025  
+**arXiv**: [2410.13853](https://arxiv.org/abs/2410.13853)  
+**代码**: [有](https://github.com/haizailache999/AutoAL)  
+**领域**: 主动学习  
 **关键词**: 主动学习, 可微查询策略搜索, 双层优化, 策略选择, 数据高效学习
 
 ## 一句话总结

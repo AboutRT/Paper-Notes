@@ -1,9 +1,9 @@
 # SITE: towards Spatial Intelligence Thorough Evaluation
 
-**会议**: ICCV2025
-**arXiv**: [2505.05456](https://arxiv.org/abs/2505.05456)
-**代码**: https://github.com/SITE-project-page (待确认)
-**领域**: 机器人 / 空间智能 / VLM评测
+**会议**: ICCV2025  
+**arXiv**: [2505.05456](https://arxiv.org/abs/2505.05456)  
+**代码**: https://github.com/SITE-project-page (待确认)  
+**领域**: 机器人 / 空间智能 / VLM评测  
 **关键词**: 空间智能, VLM基准测试, 多视角推理, 认知科学, 具身AI
 
 ## 一句话总结

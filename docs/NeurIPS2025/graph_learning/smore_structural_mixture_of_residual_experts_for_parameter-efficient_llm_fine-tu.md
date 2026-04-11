@@ -1,9 +1,9 @@
 # S'MoRE: Structural Mixture of Residual Experts for Parameter-Efficient LLM Fine-tuning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.06426](https://arxiv.org/abs/2504.06426)
-**代码**: [GitHub](https://github.com/ZimpleX/SMoRE-LLM)
-**领域**: 图学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.06426](https://arxiv.org/abs/2504.06426)  
+**代码**: [GitHub](https://github.com/ZimpleX/SMoRE-LLM)  
+**领域**: 图学习  
 **关键词**: 参数高效微调, 混合专家, LoRA, 图神经网络, 结构灵活性
 
 ## 一句话总结

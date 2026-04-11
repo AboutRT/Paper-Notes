@@ -1,9 +1,9 @@
 # R3DM: Enabling Role Discovery and Diversity Through Dynamics Models in Multi-agent Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2505.24265](https://arxiv.org/abs/2505.24265)
-**代码**: [有](https://github.com/UTAustin-SwarmLab/R3DM)
-**领域**: 自动驾驶
+**会议**: ICML 2025  
+**arXiv**: [2505.24265](https://arxiv.org/abs/2505.24265)  
+**代码**: [有](https://github.com/UTAustin-SwarmLab/R3DM)  
+**领域**: 自动驾驶  
 **关键词**: 多智能体强化学习, 角色发现, 动力学模型, 对比学习, 内在奖励
 
 ## 一句话总结

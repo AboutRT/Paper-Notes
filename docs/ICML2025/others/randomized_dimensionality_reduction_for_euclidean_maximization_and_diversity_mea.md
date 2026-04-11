@@ -1,9 +1,9 @@
 # Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures
 
-**会议**: ICML2025
-**arXiv**: [2506.00165](https://arxiv.org/abs/2506.00165)
-**代码**: 无
-**领域**: 降维 / 多样性最大化 / 组合优化
+**会议**: ICML2025  
+**arXiv**: [2506.00165](https://arxiv.org/abs/2506.00165)  
+**代码**: 无  
+**领域**: 降维 / 多样性最大化 / 组合优化  
 **关键词**: 随机降维, Johnson-Lindenstrauss, 倍增维度, 最大匹配, 最大TSP, 多样性度量
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Bridging the Skill Gap in Clinical CBCT Interpretation with CBCTRepD
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10933](https://arxiv.org/abs/2603.10933)
+**会议**: CVPR 2026  
+**arXiv**: [2603.10933](https://arxiv.org/abs/2603.10933)  
 **作者**: Qinxin Wu, Fucheng Niu, Hengchuan Zhu, Yifan Sun, Ye Shen, Xu Li, Han Wu, Leqi Liu, Zhiwen Pan, Zuozhu Liu, Fudong Zhu, Bin Feng
-**领域**: medical_imaging
+**领域**: medical_imaging  
 **关键词**: CBCT 报告生成, 口腔颌面影像, 放射科医生-AI 协作, 医学报告生成, 多层级评估
 
 ## 一句话总结

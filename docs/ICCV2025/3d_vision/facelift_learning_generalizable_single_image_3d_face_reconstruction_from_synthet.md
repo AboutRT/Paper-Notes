@@ -1,9 +1,9 @@
 # FaceLift: Learning Generalizable Single Image 3D Face Reconstruction from Synthetic Heads
 
-**会议**: ICCV 2025
-**arXiv**: [2412.17812](https://arxiv.org/abs/2412.17812)
-**代码**: [weijielyu.github.io/FaceLift](https://weijielyu.github.io/FaceLift)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2412.17812](https://arxiv.org/abs/2412.17812)  
+**代码**: [weijielyu.github.io/FaceLift](https://weijielyu.github.io/FaceLift)  
+**领域**: 3D视觉  
 **关键词**: 3D人脸重建, 3D高斯溅射, 合成数据, 多视图扩散, 单图重建, 身份保持
 
 ## 一句话总结

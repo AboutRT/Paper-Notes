@@ -1,9 +1,9 @@
 # RATE: Causal Explainability of Reward Models with Imperfect Counterfactuals
 
-**会议**: ICML2025
-**arXiv**: [2410.11348](https://arxiv.org/abs/2410.11348)
-**代码**: [toddnief/RATE](https://github.com/toddnief/RATE)
-**领域**: 因果可解释性 / 奖励模型
+**会议**: ICML2025  
+**arXiv**: [2410.11348](https://arxiv.org/abs/2410.11348)  
+**代码**: [toddnief/RATE](https://github.com/toddnief/RATE)  
+**领域**: 因果可解释性 / 奖励模型  
 **关键词**: 因果推断, 奖励模型可解释性, 平均处理效应, 反事实重写, RLHF
 
 ## 一句话总结

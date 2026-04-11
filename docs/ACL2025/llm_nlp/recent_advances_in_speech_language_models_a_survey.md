@@ -1,9 +1,9 @@
 # Recent Advances in Speech Language Models: A Survey
 
-**会议**: ACL 2025
-**arXiv**: [2410.03751](https://arxiv.org/abs/2410.03751)
-**代码**: [GitHub](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey)
-**领域**: 语音/LLM
+**会议**: ACL 2025  
+**arXiv**: [2410.03751](https://arxiv.org/abs/2410.03751)  
+**代码**: [GitHub](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey)  
+**领域**: 语音/LLM  
 **关键词**: speech language model, end-to-end speech, speech tokenizer, vocoder, survey
 
 ## 一句话总结

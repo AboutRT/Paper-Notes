@@ -1,9 +1,9 @@
 # Maximizing Asynchronicity in Event-based Neural Networks
 
-**会议**: ICLR 2026
-**arXiv**: [2505.11165](https://arxiv.org/abs/2505.11165)
-**代码**: [github.com/haohq19/eva](https://github.com/haohq19/eva)
-**领域**: 事件相机/高效推理
+**会议**: ICLR 2026  
+**arXiv**: [2505.11165](https://arxiv.org/abs/2505.11165)  
+**代码**: [github.com/haohq19/eva](https://github.com/haohq19/eva)  
+**领域**: 事件相机/高效推理  
 **关键词**: 事件相机, 异步处理, 线性注意力, 自监督学习, RWKV-6, A2S
 
 ## 一句话总结

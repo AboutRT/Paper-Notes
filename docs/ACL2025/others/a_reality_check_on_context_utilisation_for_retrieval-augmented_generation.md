@@ -1,9 +1,9 @@
 # A Reality Check on Context Utilisation for Retrieval-Augmented Generation
 
-**会议**: ACL 2025
-**arXiv**: [2412.17031](https://arxiv.org/abs/2412.17031)
-**代码**: 无（提供了DRUID数据集和评估框架）
-**领域**: RAG / 事实验证 / 上下文利用
+**会议**: ACL 2025  
+**arXiv**: [2412.17031](https://arxiv.org/abs/2412.17031)  
+**代码**: 无（提供了DRUID数据集和评估框架）  
+**领域**: RAG / 事实验证 / 上下文利用  
 **关键词**: RAG, 上下文利用, 事实验证, 合成数据集vs真实数据, 知识冲突
 
 ## 一句话总结

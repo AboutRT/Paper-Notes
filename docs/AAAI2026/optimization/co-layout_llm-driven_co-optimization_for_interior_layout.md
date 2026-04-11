@@ -1,10 +1,10 @@
 # Co-Layout: LLM-driven Co-optimization for Interior Layout
 
-**会议**: AAAI 2026
-**arXiv**: [2511.12474](https://arxiv.org/abs/2511.12474)
-**代码**: 无
+**会议**: AAAI 2026  
+**arXiv**: [2511.12474](https://arxiv.org/abs/2511.12474)  
+**代码**: 无  
 **项目主页**: [https://xccelephant.github.io/paper/co-layout/](https://xccelephant.github.io/paper/co-layout/)
-**领域**: 优化 / 室内设计
+**领域**: 优化 / 室内设计  
 **关键词**: 室内布局, 整数规划, 大语言模型, 协同优化, 粗到精策略
 
 ## 一句话总结

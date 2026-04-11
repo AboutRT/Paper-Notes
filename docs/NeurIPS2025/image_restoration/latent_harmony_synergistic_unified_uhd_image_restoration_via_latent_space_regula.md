@@ -1,9 +1,9 @@
 # Latent Harmony: Synergistic Unified UHD Image Restoration via Latent Space Regularization and Controllable Refinement
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.07961](https://arxiv.org/abs/2510.07961)
-**代码**: [GitHub](https://github.com/lyd-2022/Latent-Harmony) (有)
-**领域**: 图像修复 / 超高清图像处理
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.07961](https://arxiv.org/abs/2510.07961)  
+**代码**: [GitHub](https://github.com/lyd-2022/Latent-Harmony) (有)  
+**领域**: 图像修复 / 超高清图像处理  
 **关键词**: UHD图像修复, VAE正则化, 高频LoRA, 保真度-感知质量权衡, All-in-One
 
 ## 一句话总结

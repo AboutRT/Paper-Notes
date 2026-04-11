@@ -1,9 +1,9 @@
 # Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23886](https://arxiv.org/abs/2509.23886)
-**代码**: [GitHub](https://github.com/lmb-freiburg/divergence-tokens)
-**领域**: 模型压缩 / 知识蒸馏 / AI安全
+**会议**: ICLR 2026  
+**arXiv**: [2509.23886](https://arxiv.org/abs/2509.23886)  
+**代码**: [GitHub](https://github.com/lmb-freiburg/divergence-tokens)  
+**领域**: 模型压缩 / 知识蒸馏 / AI安全  
 **关键词**: subliminal learning, knowledge distillation, divergence tokens, hidden bias transfer, AI safety
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Unveiling and Addressing Pseudo Forgetting in Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2411.11932](https://arxiv.org/abs/2411.11932)
-**代码**: [GitHub](https://github.com/BIT-NLP/Pseudo-Forgetting)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2411.11932](https://arxiv.org/abs/2411.11932)  
+**代码**: [GitHub](https://github.com/BIT-NLP/Pseudo-Forgetting)  
+**领域**: llm_nlp  
 **关键词**: continual learning, catastrophic forgetting, pseudo forgetting, instruction dependence, replay-based learning
 
 ## 一句话总结

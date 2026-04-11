@@ -1,9 +1,9 @@
 # The Impact of Scaling Training Data on Adversarial Robustness
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.25927](https://arxiv.org/abs/2509.25927)
-**代码**: 无
-**领域**: 音频/语音 (对抗鲁棒性)
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.25927](https://arxiv.org/abs/2509.25927)  
+**代码**: 无  
+**领域**: 音频/语音 (对抗鲁棒性)  
 **关键词**: 对抗鲁棒性, 缩放定律, 黑盒攻击, 数据质量, 视觉模型
 
 ## 一句话总结

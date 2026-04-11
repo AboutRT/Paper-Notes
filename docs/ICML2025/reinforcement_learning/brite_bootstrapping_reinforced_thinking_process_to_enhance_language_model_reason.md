@@ -1,9 +1,9 @@
 # BRITE: Bootstrapping Reinforced Thinking Process to Enhance Language Model Reasoning
 
-**会议**: ICML 2025
-**arXiv**: [2501.18858](https://arxiv.org/abs/2501.18858)
-**代码**: 无
-**领域**: 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2501.18858](https://arxiv.org/abs/2501.18858)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: LLM推理, 强化学习, 思维过程, 自举, 过程奖励
 
 ## 一句话总结

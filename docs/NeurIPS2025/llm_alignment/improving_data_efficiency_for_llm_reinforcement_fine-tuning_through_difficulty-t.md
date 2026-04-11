@@ -1,9 +1,9 @@
 # Improving Data Efficiency for LLM Reinforcement Fine-tuning Through Difficulty-targeted Online Data Selection and Rollout Replay
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.05316](https://arxiv.org/abs/2506.05316)
-**代码**: [GitHub](https://github.com/ASTRAL-Group/data-efficient-llm-rl/)
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.05316](https://arxiv.org/abs/2506.05316)  
+**代码**: [GitHub](https://github.com/ASTRAL-Group/data-efficient-llm-rl/)  
+**领域**: llm_alignment  
 **关键词**: LLM强化微调, 数据效率, 自适应难度, 在线数据选择, 经验回放, GRPO
 
 ## 一句话总结

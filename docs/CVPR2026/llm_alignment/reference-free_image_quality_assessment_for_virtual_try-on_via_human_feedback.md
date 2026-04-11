@@ -1,9 +1,9 @@
 # Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback
 
-**会议**: CVPR2026
-**arXiv**: [2603.13057](https://arxiv.org/abs/2603.13057)
-**代码**: [GitHub](https://github.com/litelightlite/VTON-IQA)
-**领域**: 人体理解 / 虚拟试穿质量评估
+**会议**: CVPR2026  
+**arXiv**: [2603.13057](https://arxiv.org/abs/2603.13057)  
+**代码**: [GitHub](https://github.com/litelightlite/VTON-IQA)  
+**领域**: 人体理解 / 虚拟试穿质量评估  
 **关键词**: 虚拟试穿, 图像质量评估, 无参考评估, 人类反馈对齐, 交叉注意力, 大规模标注基准
 
 ## 一句话总结

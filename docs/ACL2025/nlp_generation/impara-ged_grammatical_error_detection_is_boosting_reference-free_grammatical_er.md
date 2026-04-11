@@ -1,9 +1,9 @@
 # IMPARA-GED: Grammatical Error Detection is Boosting Reference-free Grammatical Error Quality Estimator
 
-**会议**: ACL 2025
-**arXiv**: [2506.02899](https://arxiv.org/abs/2506.02899)
-**代码**: [HuggingFace](https://huggingface.co/naist-nlp/IMPARA-GED)
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2506.02899](https://arxiv.org/abs/2506.02899)  
+**代码**: [HuggingFace](https://huggingface.co/naist-nlp/IMPARA-GED)  
+**领域**: 文本生成  
 **关键词**: 语法纠错评估, 语法错误检测, 无参考评估, 质量估计, SEEDA
 
 ## 一句话总结

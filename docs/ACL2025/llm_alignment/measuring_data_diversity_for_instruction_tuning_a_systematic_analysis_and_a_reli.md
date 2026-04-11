@@ -1,9 +1,9 @@
 # Measuring Data Diversity for Instruction Tuning: A Systematic Analysis and A Reliable Metric
 
-**会议**: ACL 2025
-**arXiv**: [2502.17184](https://arxiv.org/abs/2502.17184)
-**代码**: https://github.com/UmeanNever/NovelSum
-**领域**: LLM Alignment / 数据工程
+**会议**: ACL 2025  
+**arXiv**: [2502.17184](https://arxiv.org/abs/2502.17184)  
+**代码**: https://github.com/UmeanNever/NovelSum  
+**领域**: LLM Alignment / 数据工程  
 **关键词**: Data Diversity, Instruction Tuning, NovelSum, Data Selection, Metric Design
 
 ## 一句话总结

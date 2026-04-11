@@ -1,9 +1,9 @@
 # HyperMVP: Hyperbolic Multiview Pretraining for Robotic Manipulation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04848](https://arxiv.org/abs/2603.04848)
-**代码**: 待确认
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.04848](https://arxiv.org/abs/2603.04848)  
+**代码**: 待确认  
+**领域**: 3D视觉  
 **关键词**: 双曲空间, 多视角预训练, 机器人操作, 自监督学习, 3D表征
 
 ## 一句话总结

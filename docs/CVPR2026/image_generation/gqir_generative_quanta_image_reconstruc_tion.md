@@ -1,9 +1,9 @@
 # gQIR: Generative Quanta Image Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20417](https://arxiv.org/abs/2602.20417)
-**代码**: [GitHub](https://github.com/Aryan-Garg/gQIR)
-**领域**: 图像生成 / 图像重建 / 计算成像
+**会议**: CVPR 2026  
+**arXiv**: [2602.20417](https://arxiv.org/abs/2602.20417)  
+**代码**: [GitHub](https://github.com/Aryan-Garg/gQIR)  
+**领域**: 图像生成 / 图像重建 / 计算成像  
 **关键词**: 单光子传感器, 扩散模型, 图像重建, burst imaging, VAE对齐
 
 ## 一句话总结

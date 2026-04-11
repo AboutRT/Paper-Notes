@@ -1,9 +1,9 @@
 # Beyond Bradley-Terry Models: A General Preference Model for Language Model Alignment
 
-**会议**: ICML 2025
-**arXiv**: [2410.02197](https://arxiv.org/abs/2410.02197)
-**代码**: https://github.com/general-preference/general-preference-model
-**领域**: 图像生成/LLM对齐
+**会议**: ICML 2025  
+**arXiv**: [2410.02197](https://arxiv.org/abs/2410.02197)  
+**代码**: https://github.com/general-preference/general-preference-model  
+**领域**: 图像生成/LLM对齐  
 **关键词**: 偏好建模, Bradley-Terry, 偏好嵌入, 不可传递偏好, 奖励模型
 
 ## 一句话总结

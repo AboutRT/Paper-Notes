@@ -1,9 +1,9 @@
 # S2AM3D: Scale-controllable Part Segmentation of 3D Point Clouds
 
-**会议**: CVPR2026
-**arXiv**: [2512.00995](https://arxiv.org/abs/2512.00995)
-**代码**: [项目主页](https://sumuru789.github.io/S2AM3D-website/)
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2512.00995](https://arxiv.org/abs/2512.00995)  
+**代码**: [项目主页](https://sumuru789.github.io/S2AM3D-website/)  
+**领域**: 3d_vision  
 **关键词**: 点云部件分割, 多粒度控制, 对比学习, 2D-3D联合监督, SAM
 
 ## 一句话总结

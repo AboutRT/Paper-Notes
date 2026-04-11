@@ -1,9 +1,9 @@
 # MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12743](https://arxiv.org/abs/2603.12743)
-**代码**: [项目页](https://chenyangzhu1.github.io/MoKus)
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.12743](https://arxiv.org/abs/2603.12743)  
+**代码**: [项目页](https://chenyangzhu1.github.io/MoKus)  
+**领域**: 目标检测  
 **关键词**: 概念定制, 知识编辑, 跨模态知识迁移, 扩散模型, LLM文本编码器
 
 ## 一句话总结

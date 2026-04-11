@@ -1,9 +1,9 @@
 # AkaCE: A Multimodal Multi-party Dataset for Emotion Recognition in Movie Dialogues
 
-**会议**: ACL 2025
-**arXiv**: [2502.10973](https://arxiv.org/abs/2502.10973)
-**代码**: [GitHub](https://github.com/dsasu1/AkaCE)
-**领域**: 多模态 / 情感识别 / 低资源语言
+**会议**: ACL 2025  
+**arXiv**: [2502.10973](https://arxiv.org/abs/2502.10973)  
+**代码**: [GitHub](https://github.com/dsasu1/AkaCE)  
+**领域**: 多模态 / 情感识别 / 低资源语言  
 **关键词**: 阿坎语, 对话情感识别, 多模态数据集, 非洲语言, 韵律标注, 声调语言
 
 ## 一句话总结

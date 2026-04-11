@@ -1,9 +1,9 @@
 # Small Drafts, Big Verdict: Information-Intensive Visual Reasoning via Speculation
 
-**会议**: ICLR 2026
-**arXiv**: [2510.20812](https://arxiv.org/abs/2510.20812)
-**代码**: [GitHub](https://github.com/Tinaliu0123/speculative-verdict)
-**领域**: 多模态推理/VLM
+**会议**: ICLR 2026  
+**arXiv**: [2510.20812](https://arxiv.org/abs/2510.20812)  
+**代码**: [GitHub](https://github.com/Tinaliu0123/speculative-verdict)  
+**领域**: 多模态推理/VLM  
 **关键词**: 信息密集推理, 推测解码, 草案-裁决, 共识选择, 免训练
 
 ## 一句话总结

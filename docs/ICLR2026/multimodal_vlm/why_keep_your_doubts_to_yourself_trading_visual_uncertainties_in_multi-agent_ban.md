@@ -1,9 +1,9 @@
 # Why Keep Your Doubts to Yourself? Trading Visual Uncertainties in Multi-Agent Bandit Systems
 
-**会议**: ICLR 2026
-**arXiv**: [2601.18735](https://arxiv.org/abs/2601.18735)
-**代码**: 无
-**领域**: 多模态VLM/多智能体协调
+**会议**: ICLR 2026  
+**arXiv**: [2601.18735](https://arxiv.org/abs/2601.18735)  
+**代码**: 无  
+**领域**: 多模态VLM/多智能体协调  
 **关键词**: 多智能体系统, VLM协调, 不确定性交易, 市场机制, Thompson Sampling, 成本优化
 
 ## 一句话总结

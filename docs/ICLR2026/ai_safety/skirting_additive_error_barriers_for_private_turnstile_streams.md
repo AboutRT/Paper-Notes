@@ -1,9 +1,9 @@
 # Skirting Additive Error Barriers for Private Turnstile Streams
 
-**会议**: ICLR 2026
-**arXiv**: [2602.10360](https://arxiv.org/abs/2602.10360)
-**代码**: 无
-**领域**: 差分隐私/流算法
+**会议**: ICLR 2026  
+**arXiv**: [2602.10360](https://arxiv.org/abs/2602.10360)  
+**代码**: 无  
+**领域**: 差分隐私/流算法  
 **关键词**: 差分隐私, 连续发布, 旋转门流, 不同元素计数, F2矩
 
 ## 一句话总结

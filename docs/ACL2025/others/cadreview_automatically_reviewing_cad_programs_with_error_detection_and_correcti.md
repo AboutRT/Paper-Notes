@@ -1,9 +1,9 @@
 # CADReview: Automatically Reviewing CAD Programs with Error Detection and Correction
 
-**会议**: ACL 2025
-**arXiv**: [2505.22304](https://arxiv.org/abs/2505.22304)
-**代码**: [有](https://cgl-pro.github.io/cadreview)
-**领域**: NLP / 多模态代码编辑
+**会议**: ACL 2025  
+**arXiv**: [2505.22304](https://arxiv.org/abs/2505.22304)  
+**代码**: [有](https://cgl-pro.github.io/cadreview)  
+**领域**: NLP / 多模态代码编辑  
 **关键词**: CAD 程序审查, 3D 建模, 多模态大语言模型, 错误检测与纠正, 几何组件识别
 
 ## 一句话总结

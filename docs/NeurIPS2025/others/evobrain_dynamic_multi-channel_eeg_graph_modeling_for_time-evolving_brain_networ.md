@@ -1,9 +1,9 @@
 # EvoBrain: Dynamic Multi-Channel EEG Graph Modeling for Time-Evolving Brain Networks
 
-**会议**: NeurIPS2025
-**arXiv**: [2509.15857](https://arxiv.org/abs/2509.15857)
-**代码**: [GitHub](https://github.com/Kotoge/EvoBrain)
-**领域**: 脑电信号分析 / 动态图神经网络
+**会议**: NeurIPS2025  
+**arXiv**: [2509.15857](https://arxiv.org/abs/2509.15857)  
+**代码**: [GitHub](https://github.com/Kotoge/EvoBrain)  
+**领域**: 脑电信号分析 / 动态图神经网络  
 **关键词**: EEG, 动态图, 癫痫检测, Mamba, 时空建模, GCN, 表达力分析
 
 ## 一句话总结

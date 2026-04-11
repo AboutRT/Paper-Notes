@@ -1,9 +1,9 @@
 # Is Finer Better? The Limits of Microscaling Formats in Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19026](https://arxiv.org/abs/2601.19026)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2601.19026](https://arxiv.org/abs/2601.19026)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 微缩放量化, FP4, 量化异常, 动态范围, LLM量化
 
 ## 一句话总结

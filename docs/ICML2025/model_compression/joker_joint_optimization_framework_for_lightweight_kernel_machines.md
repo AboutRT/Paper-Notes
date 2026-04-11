@@ -1,9 +1,9 @@
 # Joker: Joint Optimization Framework for Lightweight Kernel Machines
 
-**会议**: ICML2025
-**arXiv**: [2505.17765](https://arxiv.org/abs/2505.17765)
-**代码**: 待确认
-**领域**: 核方法优化
+**会议**: ICML2025  
+**arXiv**: [2505.17765](https://arxiv.org/abs/2505.17765)  
+**代码**: 待确认  
+**领域**: 核方法优化  
 **关键词**: 核方法, 大规模学习, 对偶优化, 块坐标下降, 信赖域方法, 随机傅里叶特征, 低内存
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Fast and Robust: Task Sampling with Posterior and Diversity Synergies for Adaptive Decision-Makers in Randomized Environments
 
-**会议**: ICML2025
-**arXiv**: [2504.19139](https://arxiv.org/abs/2504.19139)
-**代码**: [项目页面](https://thu-rllab.github.io/PDTS_project_page)
-**领域**: 元学习 / 强化学习 (Meta-RL, Domain Randomization)
+**会议**: ICML2025  
+**arXiv**: [2504.19139](https://arxiv.org/abs/2504.19139)  
+**代码**: [项目页面](https://thu-rllab.github.io/PDTS_project_page)  
+**领域**: 元学习 / 强化学习 (Meta-RL, Domain Randomization)  
 **关键词**: 鲁棒主动任务采样 (RATS), 后验采样, 多样性正则化, CVaR, 无穷臂老虎机
 
 ## 一句话总结

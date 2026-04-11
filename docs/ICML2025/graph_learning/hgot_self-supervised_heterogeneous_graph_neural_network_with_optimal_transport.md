@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # HGOT: Self-supervised Heterogeneous Graph Neural Network with Optimal Transport
 
-**会议**: ICML2025
-**arXiv**: [2506.02619](https://arxiv.org/abs/2506.02619)
+**会议**: ICML2025  
+**arXiv**: [2506.02619](https://arxiv.org/abs/2506.02619)  
 **作者**: Yanbei Liu, Chongxu Wang, Zhitao Xiao, Lei Geng, Yanwei Pang, Xiao Wang
-**代码**: 待确认
-**领域**: graph_learning
+**代码**: 待确认  
+**领域**: graph_learning  
 **关键词**: 异质图神经网络, 自监督学习, 最优传输, 元路径, Gromov-Wasserstein
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Fine-grained Video Dubbing Duration Alignment with Segment Supervised Preference Optimization
 
-**会议**: ACL 2025
-**arXiv**: [2508.08550](https://arxiv.org/abs/2508.08550)
-**代码**: [CcQunResearch/SSPO](https://github.com/CcQunResearch/SSPO)
+**会议**: ACL 2025  
+**arXiv**: [2508.08550](https://arxiv.org/abs/2508.08550)  
+**代码**: [CcQunResearch/SSPO](https://github.com/CcQunResearch/SSPO)  
 **机构**: 阿里巴巴数字媒体与娱乐集团 / 华中科技大学 / 北京交通大学
-**领域**: llm_alignment
+**领域**: llm_alignment  
 **关键词**: 视频配音, 时长对齐, 偏好优化, DPO, 段级监督, 可控文本生成
 
 ## 一句话总结

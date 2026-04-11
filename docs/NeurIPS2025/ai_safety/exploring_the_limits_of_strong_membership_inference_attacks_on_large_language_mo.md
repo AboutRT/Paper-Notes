@@ -1,9 +1,9 @@
 # Exploring the Limits of Strong Membership Inference Attacks on Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.18773](https://arxiv.org/abs/2505.18773)
-**代码**: 无（Google DeepMind内部实验）
-**领域**: AI安全
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.18773](https://arxiv.org/abs/2505.18773)  
+**代码**: 无（Google DeepMind内部实验）  
+**领域**: AI安全  
 **关键词**: 成员推断攻击, LLM隐私, LiRA, 差分隐私, 预训练语言模型
 
 ## 一句话总结

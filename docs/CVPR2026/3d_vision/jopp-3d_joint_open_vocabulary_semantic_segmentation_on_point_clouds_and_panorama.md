@@ -1,9 +1,9 @@
 # JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas
 
-**会议**: CVPR 2026
-**arXiv**: [2603.06168](https://arxiv.org/abs/2603.06168)
-**代码**: 待确认
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.06168](https://arxiv.org/abs/2603.06168)  
+**代码**: 待确认  
+**领域**: 3D视觉  
 **关键词**: 开放词汇分割, 点云语义分割, 全景图像, 视觉语言模型, 跨模态对齐
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science
 
-**会议**: ACL2025
-**arXiv**: [2505.13220](https://arxiv.org/abs/2505.13220)
-**代码**: [open-sciencelab/SeedBench](https://github.com/open-sciencelab/SeedBench)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.13220](https://arxiv.org/abs/2505.13220)  
+**代码**: [open-sciencelab/SeedBench](https://github.com/open-sciencelab/SeedBench)  
+**领域**: llm_nlp  
 **关键词**: benchmark, seed science, agriculture, LLM evaluation, domain-specific
 
 ## 一句话总结

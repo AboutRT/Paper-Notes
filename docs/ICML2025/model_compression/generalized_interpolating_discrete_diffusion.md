@@ -1,9 +1,9 @@
 # Generalized Interpolating Discrete Diffusion
 
-**会议**: ICML2025
-**arXiv**: [2503.04482](https://arxiv.org/abs/2503.04482)
-**代码**: [dvruette/gidd](https://github.com/dvruette/gidd/)
-**领域**: 离散扩散模型 / 语言建模
+**会议**: ICML2025  
+**arXiv**: [2503.04482](https://arxiv.org/abs/2503.04482)  
+**代码**: [dvruette/gidd](https://github.com/dvruette/gidd/)  
+**领域**: 离散扩散模型 / 语言建模  
 **关键词**: 离散扩散, 掩码扩散, 均匀噪声, 自纠错, ELBO, 语言模型
 
 ## 一句话总结

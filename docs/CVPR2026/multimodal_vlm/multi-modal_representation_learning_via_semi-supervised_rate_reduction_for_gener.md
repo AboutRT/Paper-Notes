@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Multi-Modal Representation Learning via Semi-Supervised Rate Reduction for Generalized Category Discovery
 
-**会议**: CVPR2026
-**arXiv**: [2602.19910](https://arxiv.org/abs/2602.19910)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2602.19910](https://arxiv.org/abs/2602.19910)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 广义类别发现, 多模态表征学习, 半监督编码率减少, 模态内对齐, CLIP
 
 ## 一句话总结

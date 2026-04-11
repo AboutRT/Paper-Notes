@@ -1,9 +1,9 @@
 # Angle Domain Guidance: Latent Diffusion Requires Rotation Rather Than Extrapolation
 
-**会议**: ICML 2025
-**arXiv**: [2506.11039](https://arxiv.org/abs/2506.11039)
-**代码**: https://github.com/jinc7461/ADG
-**领域**: 图像生成
+**会议**: ICML 2025  
+**arXiv**: [2506.11039](https://arxiv.org/abs/2506.11039)  
+**代码**: https://github.com/jinc7461/ADG  
+**领域**: 图像生成  
 **关键词**: 分类器自由引导, 扩散模型, 颜色失真, 角度域, 潜空间
 
 ## 一句话总结

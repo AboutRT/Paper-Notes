@@ -1,9 +1,9 @@
 # Hierarchical Self-Attention: Generalizing Neural Attention Mechanics to Multi-Scale Problems
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.15448](https://arxiv.org/abs/2509.15448)
-**代码**: 无（未公开提及）
-**领域**: 多模态VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.15448](https://arxiv.org/abs/2509.15448)  
+**代码**: 无（未公开提及）  
+**领域**: 多模态VLM  
 **关键词**: 层次化注意力, 嵌套信号, 多模态Transformer, 信息熵最小化, 动态规划
 
 ## 一句话总结

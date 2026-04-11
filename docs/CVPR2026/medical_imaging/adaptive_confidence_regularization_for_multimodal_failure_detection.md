@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Adaptive Confidence Regularization for Multimodal Failure Detection
 
-**会议**: CVPR2026
-**arXiv**: [2603.02200](https://arxiv.org/abs/2603.02200)
-**代码**: [mona4399/ACR](https://github.com/mona4399/ACR)
-**领域**: 医学图像 / 多模态可靠性
+**会议**: CVPR2026  
+**arXiv**: [2603.02200](https://arxiv.org/abs/2603.02200)  
+**代码**: [mona4399/ACR](https://github.com/mona4399/ACR)  
+**领域**: 医学图像 / 多模态可靠性  
 **关键词**: 多模态失败检测, 置信度退化, 自适应置信度正则化, 特征交换, 误分类检测, 选择性分类
 
 ## 一句话总结

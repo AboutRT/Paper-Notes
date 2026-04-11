@@ -1,9 +1,9 @@
 # FactGuard: Event-Centric and Commonsense-Guided Fake News Detection
 
-**会议**: AAAI2026
-**arXiv**: [2511.10281](https://arxiv.org/abs/2511.10281)
-**代码**: [ryliu68/FACTGUARD](https://github.com/ryliu68/FACTGUARD)
-**领域**: model_compression
+**会议**: AAAI2026  
+**arXiv**: [2511.10281](https://arxiv.org/abs/2511.10281)  
+**代码**: [ryliu68/FACTGUARD](https://github.com/ryliu68/FACTGUARD)  
+**领域**: model_compression  
 **关键词**: fake news detection, LLM reasoning, knowledge distillation, commonsense reasoning, style debiasing
 
 ## 一句话总结

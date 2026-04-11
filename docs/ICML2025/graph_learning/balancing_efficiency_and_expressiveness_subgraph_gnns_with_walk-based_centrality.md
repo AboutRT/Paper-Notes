@@ -1,9 +1,9 @@
 # Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality
 
-**会议**: ICML 2025
-**arXiv**: [2501.03113](https://arxiv.org/abs/2501.03113)
-**代码**: 无
-**领域**: 图学习
+**会议**: ICML 2025  
+**arXiv**: [2501.03113](https://arxiv.org/abs/2501.03113)  
+**代码**: 无  
+**领域**: 图学习  
 **关键词**: 子图GNN, 游走中心性, 子图采样, 可扩展性, 图表达力
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Learning Progress Driven Multi-Agent Curriculum
 
-**会议**: ICML2025
-**arXiv**: [2205.10016](https://arxiv.org/abs/2205.10016)
-**代码**: [GitHub](https://github.com/wenshuaizhao/spmarl)
-**领域**: 多智能体课程学习 / 强化学习
+**会议**: ICML2025  
+**arXiv**: [2205.10016](https://arxiv.org/abs/2205.10016)  
+**代码**: [GitHub](https://github.com/wenshuaizhao/spmarl)  
+**领域**: 多智能体课程学习 / 强化学习  
 **关键词**: 多智能体强化学习, 课程学习, 学习进度, TD误差, 自步学习
 
 ## 一句话总结

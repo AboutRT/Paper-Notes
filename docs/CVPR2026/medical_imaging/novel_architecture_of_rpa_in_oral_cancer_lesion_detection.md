@@ -1,9 +1,9 @@
 # Novel Architecture of RPA In Oral Cancer Lesion Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10928](https://arxiv.org/abs/2603.10928)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.10928](https://arxiv.org/abs/2603.10928)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 口腔癌检测、RPA自动化、EfficientNetV2、设计模式、CNN分类
 
 ## 一句话总结

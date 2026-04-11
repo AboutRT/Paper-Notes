@@ -1,9 +1,9 @@
 # NegVQA: Can Vision Language Models Understand Negation?
 
-**会议**: ACL 2025
-**arXiv**: 2505.22946
-**代码**: https://yuhui-zh15.github.io/NegVQA/
-**领域**: multimodal_vlm
+**会议**: ACL 2025  
+**arXiv**: 2505.22946  
+**代码**: https://yuhui-zh15.github.io/NegVQA/  
+**领域**: multimodal_vlm  
 **关键词**: 否定理解, VQA benchmark, 视觉语言模型, 缩放趋势, 诊断评估
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HyperIMTS: Hypergraph Neural Network for Irregular Multivariate Time Series Forecasting
 
-**会议**: ICML 2025
-**arXiv**: [2505.17431](https://arxiv.org/abs/2505.17431)
-**代码**: https://github.com/qianlima-lab/PyOmniTS (有)
-**领域**: Time Series Forecasting
+**会议**: ICML 2025  
+**arXiv**: [2505.17431](https://arxiv.org/abs/2505.17431)  
+**代码**: https://github.com/qianlima-lab/PyOmniTS (有)  
+**领域**: Time Series Forecasting  
 **关键词**: 不规则多元时间序列, 超图神经网络, 时间感知消息传递, 变量依赖建模, 预测
 
 ## 一句话总结

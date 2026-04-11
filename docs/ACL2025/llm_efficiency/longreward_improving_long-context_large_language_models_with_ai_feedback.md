@@ -1,9 +1,9 @@
 # LongReward: Improving Long-context Large Language Models with AI Feedback
 
-**会议**: ACL2025
-**arXiv**: [2410.21252](https://arxiv.org/abs/2410.21252)
-**代码**: [THUDM/LongReward](https://github.com/THUDM/LongReward)
-**领域**: llm_efficiency
+**会议**: ACL2025  
+**arXiv**: [2410.21252](https://arxiv.org/abs/2410.21252)  
+**代码**: [THUDM/LongReward](https://github.com/THUDM/LongReward)  
+**领域**: llm_efficiency  
 **关键词**: 长上下文LLM, 强化学习, DPO, AI反馈, 奖励模型
 
 ## 一句话总结

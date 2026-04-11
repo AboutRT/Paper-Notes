@@ -1,9 +1,9 @@
 # Efficient Ensemble Conditional Independence Test Framework for Causal Discovery
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21021](https://arxiv.org/abs/2509.21021)
-**代码**: 无
-**领域**: 因果推理
+**会议**: ICLR 2026  
+**arXiv**: [2509.21021](https://arxiv.org/abs/2509.21021)  
+**代码**: 无  
+**领域**: 因果推理  
 **关键词**: conditional independence test, causal discovery, ensemble method, stable distribution, p-value combination
 
 ## 一句话总结

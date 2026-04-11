@@ -1,9 +1,9 @@
 # Enhancing Image Aesthetics with Dual-Conditioned Diffusion Models Guided by Multimodal Perception
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11556](https://arxiv.org/abs/2603.11556)
-**代码**: 无
-**领域**: 图像美学增强 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2603.11556](https://arxiv.org/abs/2603.11556)  
+**代码**: 无  
+**领域**: 图像美学增强 / 扩散模型  
 **关键词**: 图像美学, 扩散模型, 多模态感知, 弱监督, ControlNet
 
 ## 一句话总结

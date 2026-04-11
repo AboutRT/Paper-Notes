@@ -1,9 +1,9 @@
 # FairGRPO: Fair Reinforcement Learning for Equitable Clinical Reasoning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19893](https://arxiv.org/abs/2510.19893)
-**代码**: 有（匿名链接，含模型权重 FairMedGemma-4B）
-**领域**: 医学公平性 / 临床推理
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19893](https://arxiv.org/abs/2510.19893)  
+**代码**: 有（匿名链接，含模型权重 FairMedGemma-4B）  
+**领域**: 医学公平性 / 临床推理  
 **关键词**: 公平性, 强化学习, GRPO, 临床推理, 视觉语言模型, 人口统计偏差
 
 ## 一句话总结

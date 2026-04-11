@@ -1,9 +1,9 @@
 # Banana100: Breaking NR-IQA Metrics by 100 Iterative Image Replications with Nano Banana Pro
 
-**会议**: CVPR 2026
-**arXiv**: [2604.03400](https://arxiv.org/abs/2604.03400)
-**代码**: [https://huggingface.co/datasets/kenantang/Banana100](https://huggingface.co/datasets/kenantang/Banana100) (有)
-**领域**: 图像生成 / 图像质量评估
+**会议**: CVPR 2026  
+**arXiv**: [2604.03400](https://arxiv.org/abs/2604.03400)  
+**代码**: [https://huggingface.co/datasets/kenantang/Banana100](https://huggingface.co/datasets/kenantang/Banana100) (有)  
+**领域**: 图像生成 / 图像质量评估  
 **关键词**: Image Quality Assessment, NR-IQA, Iterative Degradation, Image Editing, Multi-turn
 
 ## 一句话总结

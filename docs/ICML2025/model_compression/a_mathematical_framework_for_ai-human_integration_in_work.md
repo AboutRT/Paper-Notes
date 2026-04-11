@@ -1,9 +1,9 @@
 # A Mathematical Framework for AI-Human Integration in Work
 
-**会议**: ICML 2025
-**arXiv**: [2505.23432](https://arxiv.org/abs/2505.23432)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2505.23432](https://arxiv.org/abs/2505.23432)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: AI-人类协作, 数学框架, 技能分解, 相变效应, 生产力压缩
 
 ## 一句话总结

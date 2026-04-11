@@ -1,9 +1,9 @@
 # From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23415](https://arxiv.org/abs/2509.23415)
-**代码**: [GitHub](https://github.com/glee4810/EHR-ChatQA)
-**领域**: 医学信息学/Agent
+**会议**: ICLR 2026  
+**arXiv**: [2509.23415](https://arxiv.org/abs/2509.23415)  
+**代码**: [GitHub](https://github.com/glee4810/EHR-ChatQA)  
+**领域**: 医学信息学/Agent  
 **关键词**: EHR, 数据库Agent, 交互式QA, 查询歧义, 值不匹配
 
 ## 一句话总结

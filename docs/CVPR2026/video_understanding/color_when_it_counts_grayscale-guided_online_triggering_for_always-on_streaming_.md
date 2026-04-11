@@ -1,9 +1,9 @@
 # Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing
 
-**会议**: CVPR 2026
-**arXiv**: [2603.22466](https://arxiv.org/abs/2603.22466)
-**代码**: [lvgd.github.io/ColorTrigger](https://lvgd.github.io/ColorTrigger/) (有)
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.22466](https://arxiv.org/abs/2603.22466)  
+**代码**: [lvgd.github.io/ColorTrigger](https://lvgd.github.io/ColorTrigger/) (有)  
+**领域**: 视频理解  
 **关键词**: 流式视频理解, 边缘设备, 灰度引导触发, 能效感知, 动态Token路由
 
 ## 一句话总结

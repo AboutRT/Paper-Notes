@@ -1,10 +1,10 @@
 # Scaling Value Iteration Networks to 5000 Layers for Extreme Long-Term Planning
 
-**会议**: ICML2025
-**arXiv**: [2406.08404](https://arxiv.org/abs/2406.08404)
+**会议**: ICML2025  
+**arXiv**: [2406.08404](https://arxiv.org/abs/2406.08404)  
 **作者**: Yuhui Wang, Qingyuan Wu, Dylan R. Ashley, Francesco Faccio, Weida Li, Chao Huang, Jürgen Schmidhuber
-**代码**: 待确认
-**领域**: reinforcement_learning
+**代码**: 待确认  
+**领域**: reinforcement_learning  
 **关键词**: Value Iteration Network, 长期规划, 动态转移核, 自适应Highway Loss, 深度网络训练
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting
 
-**会议**: ICLR 2026
-**arXiv**: [2509.26455](https://arxiv.org/abs/2509.26455)
-**代码**: [https://github.com/HanzhouLiu/Stylos](https://github.com/HanzhouLiu/Stylos)
-**领域**: 3D视觉
+**会议**: ICLR 2026  
+**arXiv**: [2509.26455](https://arxiv.org/abs/2509.26455)  
+**代码**: [https://github.com/HanzhouLiu/Stylos](https://github.com/HanzhouLiu/Stylos)  
+**领域**: 3D视觉  
 **关键词**: 3D风格迁移, 高斯溅射, 跨视角一致性, 体素风格损失, 前馈模型
 
 ## 一句话总结

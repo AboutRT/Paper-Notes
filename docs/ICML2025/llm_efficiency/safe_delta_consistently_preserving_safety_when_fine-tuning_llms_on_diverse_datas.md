@@ -1,8 +1,8 @@
 # Safe Delta: Consistently Preserving Safety when Fine-Tuning LLMs on Diverse Datasets
 
-**会议**: ICML 2025
-**arXiv**: [2505.12038](https://arxiv.org/abs/2505.12038)
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2505.12038](https://arxiv.org/abs/2505.12038)  
+**领域**: LLM效率  
 **关键词**: LLM安全, 微调安全, 对齐保持, 后训练防御, delta参数, 安全补偿向量
 
 ## 一句话总结

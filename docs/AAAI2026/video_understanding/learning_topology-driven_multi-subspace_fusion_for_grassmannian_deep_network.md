@@ -8,8 +8,8 @@ domain: "video_understanding"
 tags: ["Grassmannian", "流形学习", "子空间融合", "3D动作识别", "黎曼神经网络"]
 ---
 
-**会议**: AAAI 2026
-**arXiv**: [2511.08628](https://arxiv.org/abs/2511.08628)
+**会议**: AAAI 2026  
+**arXiv**: [2511.08628](https://arxiv.org/abs/2511.08628)  
 **代码**: [GitHub](https://github.com/Xua-Yu/GMSF-Net)
 
 ## 一句话总结

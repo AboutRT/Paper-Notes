@@ -1,9 +1,9 @@
 # Temporal Concept Dynamics in Diffusion Models via Prompt-Conditioned Interventions
 
-**会议**: ICLR 2026
-**arXiv**: [2512.08486](https://arxiv.org/abs/2512.08486)
-**代码**: [PCI Framework](https://github.com/agoerguen/PCI)
-**领域**: 扩散模型 / 可解释性 / 图像编辑
+**会议**: ICLR 2026  
+**arXiv**: [2512.08486](https://arxiv.org/abs/2512.08486)  
+**代码**: [PCI Framework](https://github.com/agoerguen/PCI)  
+**领域**: 扩散模型 / 可解释性 / 图像编辑  
 **关键词**: 概念时间动力学, 提示条件干预, 概念插入成功率, 扩散可解释性, 训练免费编辑
 
 ## 一句话总结

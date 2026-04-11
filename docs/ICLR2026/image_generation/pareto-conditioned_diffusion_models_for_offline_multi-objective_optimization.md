@@ -1,9 +1,9 @@
 # Pareto-Conditioned Diffusion Models for Offline Multi-Objective Optimization
 
-**会议**: ICLR 2026
-**arXiv**: [2602.00737](https://arxiv.org/abs/2602.00737)
-**代码**: [GitHub](https://github.com/jatan12/PCD)
-**领域**: 多目标优化 / 扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2602.00737](https://arxiv.org/abs/2602.00737)  
+**代码**: [GitHub](https://github.com/jatan12/PCD)  
+**领域**: 多目标优化 / 扩散模型  
 **关键词**: 离线多目标优化, 条件扩散模型, Pareto 前沿, 无代理模型, 参考方向
 
 ## 一句话总结

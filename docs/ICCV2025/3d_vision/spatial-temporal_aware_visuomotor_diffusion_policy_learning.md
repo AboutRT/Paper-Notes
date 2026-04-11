@@ -1,9 +1,9 @@
 # Spatial-Temporal Aware Visuomotor Diffusion Policy Learning
 
-**会议**: ICCV 2025
-**arXiv**: [2507.06710](https://arxiv.org/abs/2507.06710)
-**代码**: [项目主页](https://ZhenyangLiu.github.io/DP4)
-**领域**: 3D视觉 / 机器人操作
+**会议**: ICCV 2025  
+**arXiv**: [2507.06710](https://arxiv.org/abs/2507.06710)  
+**代码**: [项目主页](https://ZhenyangLiu.github.io/DP4)  
+**领域**: 3D视觉 / 机器人操作  
 **关键词**: 视觉模仿学习, 扩散策略, 3D高斯溅射, 4D时空感知, 世界模型, 灵巧操作
 
 ## 一句话总结

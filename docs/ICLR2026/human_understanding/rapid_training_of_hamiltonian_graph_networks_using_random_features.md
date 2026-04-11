@@ -1,9 +1,9 @@
 # Rapid Training of Hamiltonian Graph Networks using Random Features
 
-**会议**: ICLR 2026
-**arXiv**: [2506.06558](https://arxiv.org/abs/2506.06558)
-**代码**: 有
-**领域**: 物理建模/图网络
+**会议**: ICLR 2026  
+**arXiv**: [2506.06558](https://arxiv.org/abs/2506.06558)  
+**代码**: 有  
+**领域**: 物理建模/图网络  
 **关键词**: 哈密顿图网络, 随机特征, 快速训练, N体系统, 零样本泛化
 
 ## 一句话总结

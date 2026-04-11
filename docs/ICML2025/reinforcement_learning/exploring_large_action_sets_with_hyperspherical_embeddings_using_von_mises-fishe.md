@@ -1,9 +1,9 @@
 # Exploring Large Action Sets with Hyperspherical Embeddings using von Mises-Fisher Sampling
 
-**会议**: ICML2025
-**arXiv**: [2507.00518](https://arxiv.org/abs/2507.00518)
-**代码**: [deezer/vMF-exploration](https://github.com/deezer/vMF-exploration)
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2507.00518](https://arxiv.org/abs/2507.00518)  
+**代码**: [deezer/vMF-exploration](https://github.com/deezer/vMF-exploration)  
+**领域**: reinforcement_learning  
 **关键词**: 大动作空间探索, von Mises-Fisher 分布, 超球面嵌入, Boltzmann 探索, 推荐系统
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # WAVE: Weighted Autoregressive Varying Gate for Time Series Forecasting
 
-**会议**: ICML 2025
-**arXiv**: [2410.03159](https://arxiv.org/abs/2410.03159)
-**代码**: 有
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2410.03159](https://arxiv.org/abs/2410.03159)  
+**代码**: 有  
+**领域**: 时间序列  
 **关键词**: 时间序列预测, ARMA, 自回归注意力, 移动平均, 线性注意力
 
 ## 一句话总结

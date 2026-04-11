@@ -1,9 +1,9 @@
 # BiPreManip: Learning Affordance-Based Bimanual Preparatory Manipulation through Anticipatory Collaboration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.21679](https://arxiv.org/abs/2603.21679)
-**代码**: [项目页面](https://sites.google.com/view/bipremanip) (有)
-**领域**: 机器人操作 / 人体理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.21679](https://arxiv.org/abs/2603.21679)  
+**代码**: [项目页面](https://sites.google.com/view/bipremanip) (有)  
+**领域**: 机器人操作 / 人体理解  
 **关键词**: 双臂协作操作, 视觉可供性, 预备操作, 预期推理, 点云
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea**: 通过预期可供性图（anticipatory affordance map）实现跨臂推理，让辅助手的每个动作都服务于主手的最终目标。
 
 ## 方法详解
+
 ### 整体框架
 输入：物体点云 + 语言指令 → Goal Affordance Network 预测预期可供性 → Pre-Affordance Network 推理辅助手预备动作 → Anticipatory Object Pose Predictor 估计目标物体位姿 → Reorient Actor 执行重定向 → 再次调用 Goal Affordance Network 执行最终目标操作。
 
@@ -49,6 +50,7 @@
 - 位姿预测器和重定向执行器均为 cVAE，组合测地损失 + $\ell_1$ + KL
 
 ## 实验关键数据
+
 ### 主实验（成功率 %，训练/未见物体）
 | 类别 | BiPreManip | ACT | 3DFA | Heuristic | W2A |
 |------|-----------|-----|------|-----------|-----|

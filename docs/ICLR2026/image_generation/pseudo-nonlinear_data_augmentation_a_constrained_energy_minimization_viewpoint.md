@@ -1,9 +1,9 @@
 # Pseudo-Nonlinear Data Augmentation: A Constrained Energy Minimization Viewpoint
 
-**会议**: ICLR 2026
-**arXiv**: [2410.00718](https://arxiv.org/abs/2410.00718)
-**代码**: [GitHub](https://github.com/sleepymalc/Pseudo-Nonlinear)
-**领域**: 数据增强 / 信息几何
+**会议**: ICLR 2026  
+**arXiv**: [2410.00718](https://arxiv.org/abs/2410.00718)  
+**代码**: [GitHub](https://github.com/sleepymalc/Pseudo-Nonlinear)  
+**领域**: 数据增强 / 信息几何  
 **关键词**: 数据增强, 信息几何, 能量模型, 偏序集, 无学习方法
 
 ## 一句话总结

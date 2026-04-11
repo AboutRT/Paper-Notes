@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning
 
-**会议**: ICML2025
-**arXiv**: [2410.10209](https://arxiv.org/abs/2410.10209)
-**代码**: [GitHub - EffiCoder](https://github.com/huangd1999/EffiCoder)
-**领域**: nlp_generation
+**会议**: ICML2025  
+**arXiv**: [2410.10209](https://arxiv.org/abs/2410.10209)  
+**代码**: [GitHub - EffiCoder](https://github.com/huangd1999/EffiCoder)  
+**领域**: nlp_generation  
 **关键词**: 代码生成, 效率感知微调, 指令微调, 执行时间, 内存开销
 
 ## 一句话总结

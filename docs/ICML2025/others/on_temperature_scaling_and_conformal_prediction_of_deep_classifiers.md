@@ -1,9 +1,9 @@
 # On Temperature Scaling and Conformal Prediction of Deep Classifiers
 
-**会议**: ICML2025
-**arXiv**: [2402.05806](https://arxiv.org/abs/2402.05806)
-**代码**: 未提供
-**领域**: 其他/校准与Conformal Prediction
+**会议**: ICML2025  
+**arXiv**: [2402.05806](https://arxiv.org/abs/2402.05806)  
+**代码**: 未提供  
+**领域**: 其他/校准与Conformal Prediction  
 **关键词**: Temperature Scaling, Conformal Prediction, 不确定性量化, 校准, 预测集大小, 条件覆盖
 
 ## 一句话总结

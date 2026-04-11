@@ -1,9 +1,9 @@
 # There Was Never a Bottleneck in Concept Bottleneck Models
 
-**会议**: ICLR 2026
-**arXiv**: [2506.04877](https://arxiv.org/abs/2506.04877)
-**代码**: 无（根据论文描述）
-**领域**: 可解释性 / 概念瓶颈模型
+**会议**: ICLR 2026  
+**arXiv**: [2506.04877](https://arxiv.org/abs/2506.04877)  
+**代码**: 无（根据论文描述）  
+**领域**: 可解释性 / 概念瓶颈模型  
 **关键词**: 概念瓶颈模型, 信息瓶颈, 信息泄漏, 可干预性, 表征学习
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Temporal Imbalance of Positive and Negative Supervision in Class-Incremental Learning
 
-**会议**: CVPR2026
-**arXiv**: [2603.02280](https://arxiv.org/abs/2603.02280)
-**代码**: 待确认
-**领域**: others
+**会议**: CVPR2026  
+**arXiv**: [2603.02280](https://arxiv.org/abs/2603.02280)  
+**代码**: 待确认  
+**领域**: others  
 **关键词**: Class-Incremental Learning, Catastrophic Forgetting, Temporal Imbalance, Loss Reweighting, Continual Learning
 
 ## 一句话总结

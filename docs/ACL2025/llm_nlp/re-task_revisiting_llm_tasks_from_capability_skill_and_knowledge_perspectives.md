@@ -1,10 +1,10 @@
 # Re-TASK: Revisiting LLM Tasks from Capability, Skill, and Knowledge Perspectives
 
-**会议**: ACL 2025
-**arXiv**: [2408.06904](https://arxiv.org/abs/2408.06904)
+**会议**: ACL 2025  
+**arXiv**: [2408.06904](https://arxiv.org/abs/2408.06904)  
 **作者**: Zhihu Wang (Huawei), Shiwan Zhao (Nankai Univ.), Yu Wang (Xi'an Jiaotong Univ.) 等
-**代码**: [GitHub](https://github.com/Uylee/Re-TASK)
-**领域**: llm_nlp
+**代码**: [GitHub](https://github.com/Uylee/Re-TASK)  
+**领域**: llm_nlp  
 **关键词**: Chain-of-Thought, 能力分解, 知识注入, 技能适配, Bloom分类学, 知识空间理论, 领域任务
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HiFo-Prompt: Prompting with Hindsight and Foresight for LLM-based Automatic Heuristic Design
 
-**会议**: ICLR 2026
-**arXiv**: [2508.13333](https://arxiv.org/abs/2508.13333)
-**代码**: [GitHub](https://github.com/Challenger-XJTU/HiFo-Prompt)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2508.13333](https://arxiv.org/abs/2508.13333)  
+**代码**: [GitHub](https://github.com/Challenger-XJTU/HiFo-Prompt)  
+**领域**: 模型压缩  
 **关键词**: 自动启发式设计, LLM+进化计算, 知识管理, 探索-利用平衡, 组合优化
 
 ## 一句话总结

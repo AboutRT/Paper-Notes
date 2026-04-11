@@ -1,9 +1,9 @@
 # JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.17257](https://arxiv.org/abs/2505.17257)
-**代码**: [GitHub](https://github.com/Qihao-Duan/JanusDNA) (有)
-**领域**: medical_imaging / 生物信息学
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.17257](https://arxiv.org/abs/2505.17257)  
+**代码**: [GitHub](https://github.com/Qihao-Duan/JanusDNA) (有)  
+**领域**: medical_imaging / 生物信息学  
 **关键词**: DNA基础模型, 双向建模, Mamba-Attention, Mixture-of-Experts, 基因组学
 
 ## 一句话总结

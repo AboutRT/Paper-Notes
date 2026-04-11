@@ -1,9 +1,9 @@
 # Structurally Human, Semantically Biased: Detecting LLM-Generated References with Embeddings and GNNs
 
-**会议**: ICLR 2026
-**arXiv**: [2601.20704](https://arxiv.org/abs/2601.20704)
-**代码**: 无
-**领域**: AI安全 / 图学习
+**会议**: ICLR 2026  
+**arXiv**: [2601.20704](https://arxiv.org/abs/2601.20704)  
+**代码**: 无  
+**领域**: AI安全 / 图学习  
 **关键词**: LLM引用检测, 引用图, 图神经网络, 语义嵌入, 学术诚信
 
 ## 一句话总结

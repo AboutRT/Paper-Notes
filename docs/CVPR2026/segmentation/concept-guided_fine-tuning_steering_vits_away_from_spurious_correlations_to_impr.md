@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Concept-Guided Fine-Tuning: Steering ViTs away from Spurious Correlations to Improve Robustness
 
-**会议**: CVPR2026
-**arXiv**: [2603.08309](https://arxiv.org/abs/2603.08309)
-**代码**: [GitHub](https://github.com/yonisGit/cft)
-**领域**: segmentation
+**会议**: CVPR2026  
+**arXiv**: [2603.08309](https://arxiv.org/abs/2603.08309)  
+**代码**: [GitHub](https://github.com/yonisGit/cft)  
+**领域**: segmentation  
 **关键词**: 虚假相关, ViT鲁棒性, 概念引导微调, AttnLRP, 零样本分割, OOD泛化
 
 ## 一句话总结

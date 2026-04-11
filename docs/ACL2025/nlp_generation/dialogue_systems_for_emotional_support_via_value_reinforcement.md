@@ -1,9 +1,9 @@
 # Dialogue Systems for Emotional Support via Value Reinforcement
 
-**会议**: ACL 2025
-**arXiv**: [2501.17182](https://arxiv.org/abs/2501.17182)
-**代码**: [GitHub](https://github.com/holi-lab/ES-Value)
-**领域**: 文本生成 / 对话系统
+**会议**: ACL 2025  
+**arXiv**: [2501.17182](https://arxiv.org/abs/2501.17182)  
+**代码**: [GitHub](https://github.com/holi-lab/ES-Value)  
+**领域**: 文本生成 / 对话系统  
 **关键词**: emotional support, value reinforcement, dialogue system, DPO, seeker simulator
 
 ## 一句话总结

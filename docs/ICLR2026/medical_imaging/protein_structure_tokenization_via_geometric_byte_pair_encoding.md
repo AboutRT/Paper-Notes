@@ -1,9 +1,9 @@
 # Protein Structure Tokenization via Geometric Byte Pair Encoding
 
-**会议**: ICLR 2026
-**arXiv**: [2511.11758](https://arxiv.org/abs/2511.11758)
-**代码**: [GitHub](https://github.com/shiningsunnyday/PT-BPE)
-**领域**: 蛋白质AI/结构tokenization
+**会议**: ICLR 2026  
+**arXiv**: [2511.11758](https://arxiv.org/abs/2511.11758)  
+**代码**: [GitHub](https://github.com/shiningsunnyday/PT-BPE)  
+**领域**: 蛋白质AI/结构tokenization  
 **关键词**: 几何BPE, 蛋白质结构, 层次词汇, 可微逆运动学, 多分辨率, VQ-VAE, ESM3
 
 ## 一句话总结

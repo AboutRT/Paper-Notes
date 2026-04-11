@@ -1,9 +1,9 @@
 # Generalization Bounds via Meta-Learned Model Representations: PAC-Bayes and Sample Compression Hypernetworks
 
-**会议**: ICML 2025
-**arXiv**: [2410.13577](https://arxiv.org/abs/2410.13577)
-**代码**: [GRAAL-Research/DeepRM](https://github.com/GRAAL-Research/DeepRM)
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2410.13577](https://arxiv.org/abs/2410.13577)  
+**代码**: [GRAAL-Research/DeepRM](https://github.com/GRAAL-Research/DeepRM)  
+**领域**: 模型压缩  
 **关键词**: 泛化界, PAC-Bayes, 样本压缩, Meta-Learning, Hypernetwork
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # FlexEvent: Towards Flexible Event-Frame Object Detection at Varying Operational Frequencies
 
-**会议**: NeurIPS 2025
-**arXiv**: [2412.06708](https://arxiv.org/abs/2412.06708)
+**会议**: NeurIPS 2025  
+**arXiv**: [2412.06708](https://arxiv.org/abs/2412.06708)  
 **作者**: Dongyue Lu, Lingdong Kong, Gim Hee Lee, Camille Simon Chane, Wei Tsang Ooi (NUS, CNRS, CY Cergy Paris University)
-**代码**: [flexevent.github.io](https://flexevent.github.io)
-**领域**: 目标检测 / 事件相机 / 多模态融合
+**代码**: [flexevent.github.io](https://flexevent.github.io)  
+**领域**: 目标检测 / 事件相机 / 多模态融合  
 **关键词**: event camera, object detection, event-frame fusion, frequency adaptation, self-training
 
 ## 一句话总结

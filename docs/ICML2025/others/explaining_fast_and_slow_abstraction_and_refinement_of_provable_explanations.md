@@ -1,9 +1,9 @@
 # Explaining, Fast and Slow: Abstraction and Refinement of Provable Explanations
 
-**会议**: ICML 2025
-**arXiv**: [2506.08505](https://arxiv.org/abs/2506.08505)
-**代码**: 无
-**领域**: 可解释性 / 神经网络验证
+**会议**: ICML 2025  
+**arXiv**: [2506.08505](https://arxiv.org/abs/2506.08505)  
+**代码**: 无  
+**领域**: 可解释性 / 神经网络验证  
 **关键词**: provable explanations, abstraction-refinement, neural network verification, sufficient explanations, scalability
 
 ## 一句话总结

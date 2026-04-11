@@ -1,9 +1,9 @@
 # Translate With Care: Addressing Gender Bias, Neutrality, and Reasoning in Large Language Model Translations
 
-**会议**: ACL2025
-**arXiv**: [2506.00748](https://arxiv.org/abs/2506.00748)
-**代码**: [GitHub](https://github.com/PardisTagworksopen/TWC)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.00748](https://arxiv.org/abs/2506.00748)  
+**代码**: [GitHub](https://github.com/PardisTagworksopen/TWC)  
+**领域**: llm_nlp  
 **关键词**: 机器翻译, 性别偏见, 无性别语言, 代词消歧, 低资源语言, mBART-50
 
 ## 一句话总结

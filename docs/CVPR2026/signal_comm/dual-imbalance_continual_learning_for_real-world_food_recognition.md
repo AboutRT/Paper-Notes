@@ -1,9 +1,9 @@
 # Dual-Imbalance Continual Learning for Real-World Food Recognition
 
-**会议**: CVPR 2026
-**arXiv**: [2603.29133](https://arxiv.org/abs/2603.29133)
-**代码**: [GitHub](https://github.com/xiaoyanzhang1/DIME)
-**领域**: Continual Learning / Food Recognition
+**会议**: CVPR 2026  
+**arXiv**: [2603.29133](https://arxiv.org/abs/2603.29133)  
+**代码**: [GitHub](https://github.com/xiaoyanzhang1/DIME)  
+**领域**: Continual Learning / Food Recognition  
 **关键词**: 持续学习, 双重不平衡, 适配器合并, 长尾分布, 食物识别
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Sim-to-Real: An Unsupervised Noise Layer for Screen-Camera Watermarking Robustness
 
-**会议**: AAAI 2026
-**arXiv**: [2504.18906](https://arxiv.org/abs/2504.18906)
-**代码**: [GitHub](https://github.com/ttz0523/S2R-main)
-**领域**: AI安全/数字水印
+**会议**: AAAI 2026  
+**arXiv**: [2504.18906](https://arxiv.org/abs/2504.18906)  
+**代码**: [GitHub](https://github.com/ttz0523/S2R-main)  
+**领域**: AI安全/数字水印  
 **关键词**: 屏幕-相机水印, 噪声近似, 无监督学习, 域迁移, GAN, 鲁棒水印
 
 ## 一句话总结

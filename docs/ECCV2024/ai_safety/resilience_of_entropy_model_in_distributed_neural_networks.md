@@ -1,9 +1,9 @@
 # Resilience of Entropy Model in Distributed Neural Networks
 
-**会议**: ECCV2024
-**arXiv**: [2403.00942](https://arxiv.org/abs/2403.00942)
-**代码**: [EntropyR](https://github.com/Restuccia-Group/EntropyR)
-**领域**: ai_safety
+**会议**: ECCV2024  
+**arXiv**: [2403.00942](https://arxiv.org/abs/2403.00942)  
+**代码**: [EntropyR](https://github.com/Restuccia-Group/EntropyR)  
+**领域**: ai_safety  
 **关键词**: distributed DNN, entropy coding, adversarial attack, communication efficiency, total variation denoising
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # 4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models
 
-**会议**: CVPR 2025
-**arXiv**: [2503.10437](https://arxiv.org/abs/2503.10437)
-**代码**: https://github.com/4d-langsplat/4d-langsplat (有)
-**领域**: 多模态视觉语言模型
+**会议**: CVPR 2025  
+**arXiv**: [2503.10437](https://arxiv.org/abs/2503.10437)  
+**代码**: https://github.com/4d-langsplat/4d-langsplat (有)  
+**领域**: 多模态视觉语言模型  
 **关键词**: 4D语言场, 高斯泼溅, 多模态大语言模型, 开放词汇查询, 动态场景理解
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- PGen survey -->
 # Personalized Generation In Large Model Era: A Survey
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2503.02614](https://arxiv.org/abs/2503.02614)
-**代码**: 无
-**领域**: LLM/NLP
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2503.02614](https://arxiv.org/abs/2503.02614)  
+**代码**: 无  
+**领域**: LLM/NLP  
 **关键词**: personalized generation, large language models, diffusion models, user modeling, survey
 
 ## 一句话总结

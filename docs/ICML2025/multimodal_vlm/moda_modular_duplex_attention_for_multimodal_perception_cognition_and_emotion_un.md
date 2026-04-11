@@ -1,10 +1,10 @@
 # MODA: MOdular Duplex Attention for Multimodal Perception, Cognition, and Emotion Understanding
 
-**会议**: ICML 2025 (Spotlight, Top 2.6%)
-**arXiv**: [2507.04635](https://arxiv.org/abs/2507.04635)
+**会议**: ICML 2025 (Spotlight, Top 2.6%)  
+**arXiv**: [2507.04635](https://arxiv.org/abs/2507.04635)  
 **作者**: Zhicheng Zhang, Wuyou Xia, Chenxi Zhao, Zhou Yan, Xiaoqiang Liu, Yongjie Zhu, Wenyu Qin, Pengfei Wan, Di Zhang, Jufeng Yang
-**代码**: [https://zzcheng.top/MODA](https://zzcheng.top/MODA)
-**领域**: multimodal_vlm
+**代码**: [https://zzcheng.top/MODA](https://zzcheng.top/MODA)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态大语言模型, 注意力机制, 跨模态对齐, 情感理解, 认知理解
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Align-then-Unlearn: Embedding Alignment for LLM Unlearning
 
-**会议**: ICML 2025
-**arXiv**: [2506.13181](https://arxiv.org/abs/2506.13181)
-**代码**: https://github.com/ExplainableML/align-then-unlearn
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2506.13181](https://arxiv.org/abs/2506.13181)  
+**代码**: https://github.com/ExplainableML/align-then-unlearn  
+**领域**: AI安全  
 **关键词**: LLM unlearning, 嵌入空间, 语义遗忘, 隐私保护, 概念级遗忘
 
 ## 一句话总结

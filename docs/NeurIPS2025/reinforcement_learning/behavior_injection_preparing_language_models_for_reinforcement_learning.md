@@ -1,9 +1,9 @@
 # Behavior Injection: Preparing Language Models for Reinforcement Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.18917](https://arxiv.org/abs/2505.18917)
-**代码**: [Project](https://bridge-llm-reasoning.github.io/)
-**领域**: LLM / 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.18917](https://arxiv.org/abs/2505.18917)  
+**代码**: [Project](https://bridge-llm-reasoning.github.io/)  
+**领域**: LLM / 强化学习  
 **关键词**: RL微调, 行为注入, 数据增强, GRPO, per-step influence, 推理
 
 ## 一句话总结

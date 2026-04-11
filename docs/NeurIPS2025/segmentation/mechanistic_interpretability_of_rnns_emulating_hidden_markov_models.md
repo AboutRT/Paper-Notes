@@ -1,9 +1,9 @@
 # Mechanistic Interpretability of RNNs Emulating Hidden Markov Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25674](https://arxiv.org/abs/2510.25674)
-**代码**: [GitHub](https://github.com/EliaTorre/hmmrnn) (有)
-**领域**: Segmentation / Mechanistic Interpretability（注：论文实际属于神经科学/可解释性方向）
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25674](https://arxiv.org/abs/2510.25674)  
+**代码**: [GitHub](https://github.com/EliaTorre/hmmrnn) (有)  
+**领域**: Segmentation / Mechanistic Interpretability（注：论文实际属于神经科学/可解释性方向）  
 **关键词**: RNN可解释性, 隐马尔可夫模型, 噪声驱动动力学, 随机共振, 组合动力学基元
 
 ## 一句话总结

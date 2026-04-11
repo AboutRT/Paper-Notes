@@ -1,9 +1,9 @@
 # Exploring Spatiotemporal Feature Propagation for Video-Level Compressive Spectral Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00611](https://arxiv.org/abs/2603.00611)
-**代码**: https://github.com/nju-cite/DynaSpec (有)
-**领域**: 遥感 / 计算光谱成像
+**会议**: CVPR 2026  
+**arXiv**: [2603.00611](https://arxiv.org/abs/2603.00611)  
+**代码**: https://github.com/nju-cite/DynaSpec (有)  
+**领域**: 遥感 / 计算光谱成像  
 **关键词**: 光谱压缩成像, 高光谱视频重建, 时空特征传播, Transformer, 数据集
 
 ## 一句话总结

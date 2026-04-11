@@ -7,10 +7,10 @@
 **关键词**: query-focused summarization, key point analysis, product QA, RAG, opinion mining  
 # QQSUM: 面向评论型产品问答的定量查询聚焦摘要
 
-**会议**: ACL2025
-**arXiv**: [2506.04020](https://arxiv.org/abs/2506.04020)
-**代码**: [antangrocket1312/QQSUMM](https://github.com/antangrocket1312/QQSUMM)
-**领域**: nlp_understanding
+**会议**: ACL2025  
+**arXiv**: [2506.04020](https://arxiv.org/abs/2506.04020)  
+**代码**: [antangrocket1312/QQSUMM](https://github.com/antangrocket1312/QQSUMM)  
+**领域**: nlp_understanding  
 **关键词**: query-focused summarization, key point analysis, product QA, RAG, opinion mining
 
 ## 一句话总结

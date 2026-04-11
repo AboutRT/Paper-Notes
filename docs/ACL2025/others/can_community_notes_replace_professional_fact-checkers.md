@@ -1,9 +1,9 @@
 # Can Community Notes Replace Professional Fact-Checkers?
 
-**会议**: ACL 2025
-**arXiv**: [2502.14132](https://arxiv.org/abs/2502.14132)
-**代码**: 无
-**领域**: NLP / 社会计算与虚假信息治理
+**会议**: ACL 2025  
+**arXiv**: [2502.14132](https://arxiv.org/abs/2502.14132)  
+**代码**: 无  
+**领域**: NLP / 社会计算与虚假信息治理  
 **关键词**: Community Notes, 事实核查, 虚假信息, 社区众包审核, Twitter/X
 
 ## 一句话总结

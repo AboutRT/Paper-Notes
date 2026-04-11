@@ -1,9 +1,9 @@
 # Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors
 
-**会议**: CVPR 2026
-**arXiv**: [2603.18782](https://arxiv.org/abs/2603.18782)
-**代码**: [项目页面](https://jiatongxia.github.io/points2-3D/)
-**领域**: 自动驾驶 / 3D生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.18782](https://arxiv.org/abs/2603.18782)  
+**代码**: [项目页面](https://jiatongxia.github.io/points2-3D/)  
+**领域**: 自动驾驶 / 3D生成  
 **关键词**: 点云先验, 3D生成, 扩散模型, 结构补全, 几何可控
 
 ## 一句话总结

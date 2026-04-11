@@ -1,10 +1,10 @@
 # MKA: Memory-Keyed Attention for Efficient Long-Context Reasoning
 
-**会议**: ICML2025
-**arXiv**: [2603.20586](https://arxiv.org/abs/2603.20586)
+**会议**: ICML2025  
+**arXiv**: [2603.20586](https://arxiv.org/abs/2603.20586)  
 **作者**: Dong Liu, Yanxuan Yu, Ben Lengerich, Ying Nian Wu (UCLA, Columbia, UW-Madison)
-**代码**: 未公开
-**领域**: model_compression
+**代码**: 未公开  
+**领域**: model_compression  
 **关键词**: KV cache 压缩, 长上下文注意力, 分层记忆, 动态路由, 高效推理
 
 ## 一句话总结

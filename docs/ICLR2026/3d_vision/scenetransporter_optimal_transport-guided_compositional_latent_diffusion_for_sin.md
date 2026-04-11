@@ -1,9 +1,9 @@
 # SceneTransporter: Optimal Transport-Guided Compositional Latent Diffusion for Single-Image Structured 3D Scene Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.22785](https://arxiv.org/abs/2602.22785)
-**代码**: [项目页面](https://2019epwl.github.io/SceneTransporter/)
-**领域**: 3D视觉/结构化场景生成
+**会议**: ICLR 2026  
+**arXiv**: [2602.22785](https://arxiv.org/abs/2602.22785)  
+**代码**: [项目页面](https://2019epwl.github.io/SceneTransporter/)  
+**领域**: 3D视觉/结构化场景生成  
 **关键词**: 结构化3D场景, 最优传输, 组合扩散, 实例分离, 交叉注意力门控
 
 ## 一句话总结

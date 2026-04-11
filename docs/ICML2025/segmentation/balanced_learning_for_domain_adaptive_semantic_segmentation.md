@@ -1,9 +1,9 @@
 # Balanced Learning for Domain Adaptive Semantic Segmentation
 
-**会议**: ICML 2025
-**arXiv**: [2512.06886](https://arxiv.org/abs/2512.06886)
-**代码**: https://github.com/Woof6/BLDA
-**领域**: 语义分割
+**会议**: ICML 2025  
+**arXiv**: [2512.06886](https://arxiv.org/abs/2512.06886)  
+**代码**: https://github.com/Woof6/BLDA  
+**领域**: 语义分割  
 **关键词**: 域自适应, 语义分割, 类别不平衡, logit校准, 自训练
 
 ## 一句话总结

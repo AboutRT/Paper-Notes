@@ -1,9 +1,9 @@
 # Easi3R: Estimating Disentangled Motion from DUSt3R Without Training
 
-**会议**: ICCV 2025
-**arXiv**: [2503.24391](https://arxiv.org/abs/2503.24391)
-**代码**: [easi3r.github.io](https://easi3r.github.io)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2503.24391](https://arxiv.org/abs/2503.24391)  
+**代码**: [easi3r.github.io](https://easi3r.github.io)  
+**领域**: 3D视觉  
 **关键词**: 4D重建, 动态场景, DUSt3R, 注意力解耦, 免训练, 运动分割, 相机位姿估计
 
 ## 一句话总结

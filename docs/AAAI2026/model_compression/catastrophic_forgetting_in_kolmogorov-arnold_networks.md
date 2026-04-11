@@ -1,9 +1,9 @@
 # Catastrophic Forgetting in Kolmogorov-Arnold Networks
 
-**会议**: AAAI 2026
-**arXiv**: [2511.12828](https://arxiv.org/abs/2511.12828)
-**代码**: [有](https://github.com/marufur-cs/AAAI26)
-**领域**: 模型压缩
+**会议**: AAAI 2026  
+**arXiv**: [2511.12828](https://arxiv.org/abs/2511.12828)  
+**代码**: [有](https://github.com/marufur-cs/AAAI26)  
+**领域**: 模型压缩  
 **关键词**: KAN, 灾难性遗忘, 持续学习, KAN-LoRA, 激活支持重叠
 
 ## 一句话总结

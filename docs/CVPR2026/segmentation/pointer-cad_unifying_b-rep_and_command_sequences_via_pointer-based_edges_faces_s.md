@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Pointer-CAD: Unifying B-Rep and Command Sequences via Pointer-based Edges & Faces Selection
 
-**会议**: CVPR2026
-**arXiv**: [2603.04337](https://arxiv.org/abs/2603.04337)
-**代码**: [Snitro/Pointer-CAD](https://github.com/Snitro/Pointer-CAD)
-**领域**: 3D CAD 生成
+**会议**: CVPR2026  
+**arXiv**: [2603.04337](https://arxiv.org/abs/2603.04337)  
+**代码**: [Snitro/Pointer-CAD](https://github.com/Snitro/Pointer-CAD)  
+**领域**: 3D CAD 生成  
 **关键词**: CAD 生成, B-Rep, Pointer Network, 命令序列, LLM, 图神经网络, Chamfer/Fillet
 
 ## 一句话总结

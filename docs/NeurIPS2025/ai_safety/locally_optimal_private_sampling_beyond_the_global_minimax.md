@@ -1,9 +1,9 @@
 # Locally Optimal Private Sampling: Beyond the Global Minimax
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.09485](https://arxiv.org/abs/2510.09485)
-**代码**: [GitHub](https://github.com/hradghoukasian/private_sampling)
-**领域**: AI安全
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.09485](https://arxiv.org/abs/2510.09485)  
+**代码**: [GitHub](https://github.com/hradghoukasian/private_sampling)  
+**领域**: AI安全  
 **关键词**: 本地差分隐私, 隐私采样, minimax最优, f-散度, 公共数据
 
 ## 一句话总结

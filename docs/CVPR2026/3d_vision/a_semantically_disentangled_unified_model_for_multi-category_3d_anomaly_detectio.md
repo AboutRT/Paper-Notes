@@ -1,9 +1,9 @@
 # A Semantically Disentangled Unified Model for Multi-category 3D Anomaly Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25159](https://arxiv.org/abs/2603.25159)
-**代码**: [项目页](https://spoiuy3.github.io/SeDiR/) (有)
-**领域**: 3D视觉 / 异常检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.25159](https://arxiv.org/abs/2603.25159)  
+**代码**: [项目页](https://spoiuy3.github.io/SeDiR/) (有)  
+**领域**: 3D视觉 / 异常检测  
 **关键词**: 3D异常检测, 统一模型, 语义解纠缠, 类别间纠缠, 对比学习
 
 ## 一句话总结
@@ -20,6 +20,7 @@
 5. **核心idea**：先理解再重建——将统一3D-AD重新定义为"语义条件化重建"问题。
 
 ## 方法详解
+
 ### 整体框架
 输入点云 → 多分辨率邻域编码（PointMAE）→ CFGT生成类别感知全局token → C3L解纠缠类别语义 → GGD在解纠缠语义+几何引导下重建 → 重建误差作为异常分数。
 
@@ -51,6 +52,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{C3L}} + \mathcal{L}_{\text{rec
 - 推理时：重建误差 + 高斯池化 + 归一化 = 异常分数
 
 ## 实验关键数据
+
 ### 主实验（Real3D-AD, Object-level AUROC %）
 | 方法 | 类型 | Airplane | Car | Duck | Fish | Gemstone | Mean |
 |------|------|----------|-----|------|------|----------|------|

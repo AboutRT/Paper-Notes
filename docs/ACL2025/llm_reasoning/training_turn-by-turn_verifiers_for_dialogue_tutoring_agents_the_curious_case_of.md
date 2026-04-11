@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors
 
-**会议**: ACL 2025
-**arXiv**: [2502.13311](https://arxiv.org/abs/2502.13311)
-**代码**: [iwangjian/Coding-Tutor](https://github.com/iwangjian/Coding-Tutor)
-**领域**: LLM推理 / 教育对话
+**会议**: ACL 2025  
+**arXiv**: [2502.13311](https://arxiv.org/abs/2502.13311)  
+**代码**: [iwangjian/Coding-Tutor](https://github.com/iwangjian/Coding-Tutor)  
+**领域**: LLM推理 / 教育对话  
 **关键词**: dialogue tutoring, coding tutor, knowledge tracing, turn-by-turn verifier, reward model, inference-time scaling
 
 ## 一句话总结

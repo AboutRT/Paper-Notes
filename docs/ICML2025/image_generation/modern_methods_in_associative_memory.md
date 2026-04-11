@@ -1,9 +1,9 @@
 # Modern Methods in Associative Memory
 
-**会议**: ICML2025
-**arXiv**: [2507.06211](https://arxiv.org/abs/2507.06211)
-**代码**: [教程网站](https://tutorial.amemory.net)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2507.06211](https://arxiv.org/abs/2507.06211)  
+**代码**: [教程网站](https://tutorial.amemory.net)  
+**领域**: image_generation  
 **关键词**: 联想记忆, Hopfield网络, Dense Associative Memory, 能量模型, Transformer
 
 ## 一句话总结

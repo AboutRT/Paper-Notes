@@ -1,9 +1,9 @@
 # Accelerating Spectral Clustering under Fairness Constraints
 
-**会议**: ICML 2025
-**arXiv**: [2506.08143](https://arxiv.org/abs/2506.08143)
-**代码**: 无
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2506.08143](https://arxiv.org/abs/2506.08143)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 公平聚类, 谱聚类, DC优化, ADMM, 公平性约束
 
 ## 一句话总结

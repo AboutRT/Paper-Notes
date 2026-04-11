@@ -1,9 +1,9 @@
 # Neurodynamics-Driven Coupled Neural P Systems for Multi-Focus Image Fusion
 
-**会议**: CVPR 2026
-**arXiv**: [2509.17704](https://arxiv.org/abs/2509.17704)
-**代码**: [MorvanLi/ND-CNPFuse](https://github.com/MorvanLi/ND-CNPFuse)
-**领域**: 其他（图像融合 / 生物启发计算）
+**会议**: CVPR 2026  
+**arXiv**: [2509.17704](https://arxiv.org/abs/2509.17704)  
+**代码**: [MorvanLi/ND-CNPFuse](https://github.com/MorvanLi/ND-CNPFuse)  
+**领域**: 其他（图像融合 / 生物启发计算）  
 **关键词**: 多焦点图像融合, 耦合神经P系统, 神经动力学, 决策图, 脉冲机制
 
 ## 一句话总结

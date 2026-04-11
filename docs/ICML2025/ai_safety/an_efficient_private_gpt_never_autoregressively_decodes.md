@@ -1,9 +1,9 @@
 # An Efficient Private GPT Never Autoregressively Decodes
 
-**会议**: ICML 2025
-**arXiv**: [2505.15252](https://arxiv.org/abs/2505.15252)
-**代码**: 无
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2505.15252](https://arxiv.org/abs/2505.15252)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 隐私推理, 安全两方计算, 投机解码, 同态加密, GPT
 
 ## 一句话总结

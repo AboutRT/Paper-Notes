@@ -1,9 +1,9 @@
 # Can Language Models Reason about Individualistic Human Values and Preferences?
 
-**会议**: ACL2025
-**arXiv**: [2410.03868](https://arxiv.org/abs/2410.03868)
-**代码**: [liweijiang/indievalue](https://github.com/liweijiang/indievalue)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2410.03868](https://arxiv.org/abs/2410.03868)  
+**代码**: [liweijiang/indievalue](https://github.com/liweijiang/indievalue)  
+**领域**: llm_nlp  
 **关键词**: individualistic alignment, value reasoning, World Values Survey, pluralistic alignment, Value Inequity Index
 
 ## 一句话总结

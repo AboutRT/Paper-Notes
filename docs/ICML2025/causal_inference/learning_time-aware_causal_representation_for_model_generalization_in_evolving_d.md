@@ -1,9 +1,9 @@
 # Learning Time-Aware Causal Representation for Model Generalization in Evolving Domains
 
-**会议**: ICML2025
-**arXiv**: [2506.17718](https://arxiv.org/abs/2506.17718)
-**代码**: GitHub（论文中标注有 GitHub 链接，具体地址待确认）
-**领域**: causal_inference
+**会议**: ICML2025  
+**arXiv**: [2506.17718](https://arxiv.org/abs/2506.17718)  
+**代码**: GitHub（论文中标注有 GitHub 链接，具体地址待确认）  
+**领域**: causal_inference  
 **关键词**: 演化域泛化, 因果表示学习, 时间感知结构因果模型, 变分自编码器, 互信息, 虚假相关
 
 ## 一句话总结

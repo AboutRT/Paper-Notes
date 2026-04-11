@@ -1,9 +1,9 @@
 # NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12824](https://arxiv.org/abs/2603.12824)
-**代码**: [HuggingFace Models](https://huggingface.co/nanovdr/NanoVDR-S-Multi)
-**领域**: 多模态检索 / 知识蒸馏
+**会议**: CVPR 2026  
+**arXiv**: [2603.12824](https://arxiv.org/abs/2603.12824)  
+**代码**: [HuggingFace Models](https://huggingface.co/nanovdr/NanoVDR-S-Multi)  
+**领域**: 多模态检索 / 知识蒸馏  
 **关键词**: 视觉文档检索, 非对称蒸馏, VLM压缩, 纯文本查询编码, 跨模态迁移
 
 ## 一句话总结

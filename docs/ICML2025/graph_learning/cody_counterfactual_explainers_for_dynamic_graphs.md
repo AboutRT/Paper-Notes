@@ -1,9 +1,9 @@
 # CoDy: Counterfactual Explainers for Dynamic Graphs
 
-**会议**: ICML 2025
-**arXiv**: [2403.16846](https://arxiv.org/abs/2403.16846)
-**代码**: https://github.com/daniel-gomm/CoDy
-**领域**: 图学习
+**会议**: ICML 2025  
+**arXiv**: [2403.16846](https://arxiv.org/abs/2403.16846)  
+**代码**: https://github.com/daniel-gomm/CoDy  
+**领域**: 图学习  
 **关键词**: 反事实解释, 动态图, 时序图神经网络, 蒙特卡洛树搜索, 可解释性
 
 ## 一句话总结

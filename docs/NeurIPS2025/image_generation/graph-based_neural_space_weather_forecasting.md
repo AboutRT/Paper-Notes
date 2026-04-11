@@ -1,9 +1,9 @@
 # Graph-based Neural Space Weather Forecasting
 
-**会议**: NEURIPS2025
-**arXiv**: [2509.19605](https://arxiv.org/abs/2509.19605)
-**代码**: [fmihpc/spacecast](https://github.com/fmihpc/spacecast)
-**领域**: image_generation
+**会议**: NEURIPS2025  
+**arXiv**: [2509.19605](https://arxiv.org/abs/2509.19605)  
+**代码**: [fmihpc/spacecast](https://github.com/fmihpc/spacecast)  
+**领域**: image_generation  
 **关键词**: space weather, graph neural network, probabilistic forecasting, hybrid-Vlasov, ensemble forecasting
 
 ## 一句话总结

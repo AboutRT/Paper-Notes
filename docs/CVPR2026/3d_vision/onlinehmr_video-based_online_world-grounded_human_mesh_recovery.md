@@ -1,10 +1,10 @@
 # OnlineHMR: Video-based Online World-Grounded Human Mesh Recovery
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17355](https://arxiv.org/abs/2603.17355)
-**代码**: [GitHub](https://tsukasane.github.io/Video-OnlineHMR/)
+**会议**: CVPR 2026  
+**arXiv**: [2603.17355](https://arxiv.org/abs/2603.17355)  
+**代码**: [GitHub](https://tsukasane.github.io/Video-OnlineHMR/)  
 **机构**: Carnegie Mellon University, University of Pennsylvania
-**领域**: 3D视觉
+**领域**: 3D视觉  
 **关键词**: 人体网格恢复, 在线推理, SLAM, 世界坐标, 因果推理, KV缓存
 
 ## 一句话总结

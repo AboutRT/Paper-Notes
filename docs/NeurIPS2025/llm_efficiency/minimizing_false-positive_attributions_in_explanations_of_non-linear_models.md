@@ -1,9 +1,9 @@
 # Minimizing False-Positive Attributions in Explanations of Non-Linear Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.11210](https://arxiv.org/abs/2505.11210)
-**代码**: [GitHub](https://github.com/gjoelbye/PatternLocal)
-**领域**: Explainable AI / 可解释性
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.11210](https://arxiv.org/abs/2505.11210)  
+**代码**: [GitHub](https://github.com/gjoelbye/PatternLocal)  
+**领域**: Explainable AI / 可解释性  
 **关键词**: XAI, suppressor variables, local explanations, generative explanation, LIME
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 在LIME等方法产生的局部线性代理基础上，通过核加权回归将判别式权重转换为生成式激活模式（Pattern），从而自然消除抑制变量的影响。
 
 ## 方法详解
+
 ### 整体框架
 PatternLocal是一个**两阶段**的模型无关XAI方法：
 1. **第一阶段（局部线性代理）**: 使用LIME、KernelSHAP或梯度方法对待解释样本 $\mathbf{x}_\star$ 建立局部线性代理，得到判别式权重向量 $\mathbf{w}$
@@ -39,6 +40,7 @@ PatternLocal是一个**两阶段**的模型无关XAI方法：
 - 局部核函数 $\Pi$ 保证解释仅反映 $\mathbf{x}_\star$ 邻域的行为
 
 ## 实验关键数据
+
 ### 主实验 — XAI-TRIS Benchmark (MLP模型, Identity mapping)
 
 | 方法 | LIN-WHITE EMD↓ | XOR-CORR EMD↓ | RIGID-CORR EMD↓ | XOR-CORR IME↓ |

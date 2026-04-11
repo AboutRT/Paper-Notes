@@ -1,9 +1,9 @@
 # FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models
 
-**会议**: ICCV 2025
-**arXiv**: [2412.08629](https://arxiv.org/abs/2412.08629)
-**代码**: https://github.com/fallenshock/FlowEdit (有)
-**领域**: 图像编辑/Flow模型
+**会议**: ICCV 2025  
+**arXiv**: [2412.08629](https://arxiv.org/abs/2412.08629)  
+**代码**: https://github.com/fallenshock/FlowEdit (有)  
+**领域**: 图像编辑/Flow模型  
 **关键词**: 图像编辑, Flow模型, Rectified Flow, 无反转编辑, FLUX
 
 ## 一句话总结

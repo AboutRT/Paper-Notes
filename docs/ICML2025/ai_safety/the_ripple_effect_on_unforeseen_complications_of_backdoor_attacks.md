@@ -1,9 +1,9 @@
 # The Ripple Effect: On Unforeseen Complications of Backdoor Attacks
 
-**会议**: ICML 2025
-**arXiv**: [2505.11586](https://arxiv.org/abs/2505.11586)
-**代码**: [github.com/zhangrui4041/Backdoor_Complications](https://github.com/zhangrui4041/Backdoor_Complications)
-**领域**: AI安全 / 后门攻击
+**会议**: ICML 2025  
+**arXiv**: [2505.11586](https://arxiv.org/abs/2505.11586)  
+**代码**: [github.com/zhangrui4041/Backdoor_Complications](https://github.com/zhangrui4041/Backdoor_Complications)  
+**领域**: AI安全 / 后门攻击  
 **关键词**: backdoor attack, pre-trained language model, downstream task, complication, multi-task learning
 
 ## 一句话总结

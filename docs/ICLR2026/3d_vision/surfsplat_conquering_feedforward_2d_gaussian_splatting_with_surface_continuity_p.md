@@ -1,9 +1,9 @@
 # SurfSplat: Conquering Feedforward 2D Gaussian Splatting with Surface Continuity Priors
 
-**会议**: ICLR 2026
-**arXiv**: [2602.02000](https://arxiv.org/abs/2602.02000)
-**代码**: [https://hebing-sjtu.github.io/SurfSplat-website/](https://hebing-sjtu.github.io/SurfSplat-website/)
-**领域**: 3D视觉
+**会议**: ICLR 2026  
+**arXiv**: [2602.02000](https://arxiv.org/abs/2602.02000)  
+**代码**: [https://hebing-sjtu.github.io/SurfSplat-website/](https://hebing-sjtu.github.io/SurfSplat-website/)  
+**领域**: 3D视觉  
 **关键词**: 2D高斯溅射, 前馈3D重建, 表面连续性, 高分辨率渲染一致性, 稀疏视角
 
 ## 一句话总结

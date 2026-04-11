@@ -1,9 +1,9 @@
 # ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding
 
-**会议**: CVPR 2026
-**arXiv**: [2603.27064](https://arxiv.org/abs/2603.27064)
-**代码**: [HuggingFace](https://huggingface.co/datasets/ibm-granite/ChartNet) (有)
-**领域**: Signal/Communication (多模态文档理解)
+**会议**: CVPR 2026  
+**arXiv**: [2603.27064](https://arxiv.org/abs/2603.27064)  
+**代码**: [HuggingFace](https://huggingface.co/datasets/ibm-granite/ChartNet) (有)  
+**领域**: Signal/Communication (多模态文档理解)  
 **关键词**: 图表理解, 大规模数据集, 代码引导生成, VLM, 多模态推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment
 
-**会议**: ICLR 2026
-**arXiv**: [2602.17560](https://arxiv.org/abs/2602.17560)
-**代码**: [项目页面](https://odesteer.github.io)
-**领域**: LLM对齐/可解释AI
+**会议**: ICLR 2026  
+**arXiv**: [2602.17560](https://arxiv.org/abs/2602.17560)  
+**代码**: [项目页面](https://odesteer.github.io)  
+**领域**: LLM对齐/可解释AI  
 **关键词**: 激活操纵, ODE, 障碍函数, 控制论, 推理时对齐
 
 ## 一句话总结

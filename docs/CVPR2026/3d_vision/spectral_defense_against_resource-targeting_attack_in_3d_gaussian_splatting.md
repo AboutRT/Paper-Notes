@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting
 
-**会议**: CVPR2026
-**arXiv**: [2603.12796](https://arxiv.org/abs/2603.12796)
-**代码**: 待确认
-**领域**: 3D视觉
+**会议**: CVPR2026  
+**arXiv**: [2603.12796](https://arxiv.org/abs/2603.12796)  
+**代码**: 待确认  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 对抗防御, 资源耗尽攻击, 频域分析, 高斯剪枝, 频谱正则化
 
 ## 一句话总结

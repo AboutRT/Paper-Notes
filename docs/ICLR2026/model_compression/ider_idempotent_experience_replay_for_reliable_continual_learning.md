@@ -1,9 +1,9 @@
 # IDER: IDempotent Experience Replay for Reliable Continual Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.00624](https://arxiv.org/abs/2603.00624)
-**代码**: [GitHub](https://github.com/YutingLi0606/Idempotent-Continual-Learning)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2603.00624](https://arxiv.org/abs/2603.00624)  
+**代码**: [GitHub](https://github.com/YutingLi0606/Idempotent-Continual-Learning)  
+**领域**: 模型压缩  
 **关键词**: 持续学习, 幂等性, 经验回放, 校准误差, 灾难性遗忘
 
 ## 一句话总结

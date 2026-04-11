@@ -1,9 +1,9 @@
 # Learning with Calibration: Exploring Test-Time Computing of Spatio-Temporal Forecasting
 
-**会议**: NeurIPS 2025 (Spotlight)
-**arXiv**: [2506.00635](https://arxiv.org/abs/2506.00635)
-**代码**: https://github.com/Onedean/ST-TTC (开源)
-**领域**: 时间序列
+**会议**: NeurIPS 2025 (Spotlight)  
+**arXiv**: [2506.00635](https://arxiv.org/abs/2506.00635)  
+**代码**: https://github.com/Onedean/ST-TTC (开源)  
+**领域**: 时间序列  
 **关键词**: 时空预测, 测试时计算, 频域校准, 非平稳性, 在线适应
 
 ## 一句话总结

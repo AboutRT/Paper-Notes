@@ -1,9 +1,9 @@
 # TabArena: A Living Benchmark for Machine Learning on Tabular Data
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.16791](https://arxiv.org/abs/2506.16791)
-**代码**: [有 (tabarena.ai)](https://tabarena.ai)
-**领域**: 表格数据 / 基准测试 / AutoML
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.16791](https://arxiv.org/abs/2506.16791)  
+**代码**: [有 (tabarena.ai)](https://tabarena.ai)  
+**领域**: 表格数据 / 基准测试 / AutoML  
 **关键词**: 表格数据基准, 活跃基准, 梯度提升树, 深度学习, 表格基础模型
 
 ## 一句话总结
@@ -22,6 +22,7 @@
 6. **核心idea一句话**: 用软件工程思维做基准——版本化、持续维护、社区贡献，而非发布即弃。
 
 ## 方法详解
+
 ### 整体框架
 TabArena 是一个包含三大核心协议的活跃基准系统：
 1. **模型与超参数优化协议**: 规范模型实现、搜索空间、集成策略
@@ -58,6 +59,7 @@ TabArena 是一个包含三大核心协议的活跃基准系统：
 - 总计算量约 15 年墙钟时间，约 2500 万次模型训练
 
 ## 实验关键数据
+
 ### 主实验（TabArena-v0.1 排行榜，后验集成）
 
 | 排名 | 模型 | 类型 | Elo（集成后） |

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Towards Practical Defect-Focused Automated Code Review
 
-**会议**: ICML2025
-**arXiv**: [2505.17928](https://arxiv.org/abs/2505.17928)
-**代码**: 待确认
-**领域**: recommender
+**会议**: ICML2025  
+**arXiv**: [2505.17928](https://arxiv.org/abs/2505.17928)  
+**代码**: 待确认  
+**领域**: recommender  
 **关键词**: 待补充
 
 ## 一句话总结

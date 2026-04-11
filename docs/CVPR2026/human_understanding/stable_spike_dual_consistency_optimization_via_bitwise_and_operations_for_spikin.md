@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Stable Spike: Dual Consistency Optimization via Bitwise AND Operations for Spiking Neural Networks
 
-**会议**: CVPR2026
-**arXiv**: [2603.11676](https://arxiv.org/abs/2603.11676)
-**代码**: 待确认
-**领域**: human_understanding
+**会议**: CVPR2026  
+**arXiv**: [2603.11676](https://arxiv.org/abs/2603.11676)  
+**代码**: 待确认  
+**领域**: human_understanding  
 **关键词**: 脉冲神经网络, 时间步一致性, 位运算AND, 稳定脉冲骨架, 振幅感知噪声, 神经形态识别, 低延迟推理
 
 ## 一句话总结

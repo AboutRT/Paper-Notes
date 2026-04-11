@@ -1,9 +1,9 @@
 # Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21969](https://arxiv.org/abs/2601.21969)
-**代码**: [https://github.com/rhq945/Token-Guard](https://github.com/rhq945/Token-Guard)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2601.21969](https://arxiv.org/abs/2601.21969)  
+**代码**: [https://github.com/rhq945/Token-Guard](https://github.com/rhq945/Token-Guard)  
+**领域**: 模型压缩  
 **关键词**: LLM 幻觉控制, Token 级解码, 自检验, 段级评分, 迭代修正
 
 ## 一句话总结

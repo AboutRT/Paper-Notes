@@ -1,9 +1,9 @@
 # D-GEN: Automatic Distractor Generation and Evaluation for Reliable Assessment of Generative Models
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2504.13439](https://arxiv.org/abs/2504.13439)
-**代码**: [GitHub](https://github.com/emorynlp/D-Gen)
-**领域**: LLM评估
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2504.13439](https://arxiv.org/abs/2504.13439)  
+**代码**: [GitHub](https://github.com/emorynlp/D-Gen)  
+**领域**: LLM评估  
 **关键词**: distractor generation, multiple-choice evaluation, LLM benchmark, ranking alignment, entropy analysis
 
 ## 一句话总结

@@ -1,8 +1,8 @@
 # Unified Privacy Guarantees for Decentralized Learning via Matrix Factorization
 
-**会议**: ICLR 2026
-**arXiv**: [2510.17480](https://arxiv.org/abs/2510.17480)
-**领域**: 差分隐私/去中心化学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.17480](https://arxiv.org/abs/2510.17480)  
+**领域**: 差分隐私/去中心化学习  
 **关键词**: 矩阵分解, 去中心化学习, 差分隐私, 相关噪声, MAFALDA-SGD
 
 ## 一句话总结

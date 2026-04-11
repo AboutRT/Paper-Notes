@@ -1,9 +1,9 @@
 # When Style Breaks Safety: Defending LLMs Against Superficial Style Alignment
 
-**会议**: ICLR 2026
-**arXiv**: [2506.07452](https://arxiv.org/abs/2506.07452)
-**代码**: https://github.com/xiaoyuxin1002/SafeStyle
-**领域**: AI安全 / LLM
+**会议**: ICLR 2026  
+**arXiv**: [2506.07452](https://arxiv.org/abs/2506.07452)  
+**代码**: https://github.com/xiaoyuxin1002/SafeStyle  
+**领域**: AI安全 / LLM  
 **关键词**: LLM安全, 越狱攻击, 风格对齐, ASR膨胀, 安全防御
 
 ## 一句话总结

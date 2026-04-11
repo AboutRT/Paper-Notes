@@ -1,9 +1,9 @@
 # Routing Matters in MoE: Scaling Diffusion Transformers with Explicit Routing Guidance
 
-**会议**: ICLR 2026
-**arXiv**: [2510.24711](https://arxiv.org/abs/2510.24711)
-**代码**: [https://github.com/ali-vilab/ProMoE](https://github.com/ali-vilab/ProMoE)
-**领域**: 扩散模型 / 混合专家
+**会议**: ICLR 2026  
+**arXiv**: [2510.24711](https://arxiv.org/abs/2510.24711)  
+**代码**: [https://github.com/ali-vilab/ProMoE](https://github.com/ali-vilab/ProMoE)  
+**领域**: 扩散模型 / 混合专家  
 **关键词**: Mixture-of-Experts, DiT, 显式路由引导, 原型路由, 路由对比损失
 
 ## 一句话总结

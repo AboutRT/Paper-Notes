@@ -1,9 +1,9 @@
 # Non-Clashing Teaching in Graphs: Algorithms, Complexity, and Bounds
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2602.00657](https://arxiv.org/abs/2602.00657)
 
-**领域**: 学习理论/机器教学
+**领域**: 学习理论/机器教学  
 **关键词**: 非冲突教学, 图概念类, FPT算法, 教学维度, 组合复杂度, 参数化复杂度
 
 ## 一句话总结

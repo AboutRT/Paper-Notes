@@ -1,9 +1,9 @@
 # Geometric Generative Modeling with Noise-Conditioned Graph Networks
 
-**会议**: ICML2025
-**arXiv**: [2507.09391](https://arxiv.org/abs/2507.09391)
-**代码**: [GitHub](https://github.com/peterpaohuang/ncgn)
-**领域**: 图生成 / 几何深度学习
+**会议**: ICML2025  
+**arXiv**: [2507.09391](https://arxiv.org/abs/2507.09391)  
+**代码**: [GitHub](https://github.com/peterpaohuang/ncgn)  
+**领域**: 图生成 / 几何深度学习  
 **关键词**: Noise-Conditioned Graph Networks, 扩散模型, Flow Matching, 动态消息传递, 图粗粒化, 3D 点云生成
 
 ## 一句话总结

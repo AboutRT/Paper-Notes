@@ -1,10 +1,10 @@
 # JoDiffusion: Jointly Diffusing Image with Pixel-Level Annotations for Semantic Segmentation Promotion
 
-**会议**: AAAI 2026
-**arXiv**: [2512.13014](https://arxiv.org/abs/2512.13014)
+**会议**: AAAI 2026  
+**arXiv**: [2512.13014](https://arxiv.org/abs/2512.13014)  
 **作者**: Haoyu Wang, Lei Zhang (通讯), Wenrui Liu, Dengyang Jiang, Wei Wei (西北工业大学), Chen Ding
-**代码**: [GitHub](https://github.com/00why00/JoDiffusion)
-**领域**: segmentation
+**代码**: [GitHub](https://github.com/00why00/JoDiffusion)  
+**领域**: segmentation  
 **关键词**: 语义分割, 数据集生成, 扩散模型, 联合生成, 标注掩码, 潜在空间
 
 ## 一句话总结

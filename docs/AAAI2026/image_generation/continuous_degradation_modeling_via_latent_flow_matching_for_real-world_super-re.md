@@ -1,9 +1,9 @@
 # Continuous Degradation Modeling via Latent Flow Matching for Real-World Super-Resolution
 
-**会议**: AAAI 2026
-**arXiv**: [2602.04193](https://arxiv.org/abs/2602.04193)
-**代码**: [GitHub](https://github.com/present091/DegFlow)
-**领域**: 图像超分辨率 / 退化建模
+**会议**: AAAI 2026  
+**arXiv**: [2602.04193](https://arxiv.org/abs/2602.04193)  
+**代码**: [GitHub](https://github.com/present091/DegFlow)  
+**领域**: 图像超分辨率 / 退化建模  
 **关键词**: 真实世界超分辨率, 退化建模, Flow Matching, 连续尺度, 潜空间
 
 ## 一句话总结

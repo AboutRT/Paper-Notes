@@ -1,9 +1,9 @@
 # MSTAR: Box-Free Multi-Query Scene Text Retrieval with Attention Recycling
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.10609](https://arxiv.org/abs/2506.10609)
-**代码**: [GitHub](https://github.com/yingift/MSTAR)
-**领域**: 目标检测 / 场景文本检索
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.10609](https://arxiv.org/abs/2506.10609)  
+**代码**: [GitHub](https://github.com/yingift/MSTAR)  
+**领域**: 目标检测 / 场景文本检索  
 **关键词**: 场景文本检索, 无框注释, 多查询检索, 注意力回收, 视觉语言模型
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Variation-Aware Vision Token Dropping for Faster Large Vision-Language Models
 
-**会议**: CVPR2026
-**arXiv**: [2509.01552](https://arxiv.org/abs/2509.01552)
-**代码**: [xuyang-liu16/V2Drop](https://github.com/xuyang-liu16/V2Drop)
-**领域**: 多模态视觉语言模型 (Multimodal VLM)
+**会议**: CVPR2026  
+**arXiv**: [2509.01552](https://arxiv.org/abs/2509.01552)  
+**代码**: [xuyang-liu16/V2Drop](https://github.com/xuyang-liu16/V2Drop)  
+**领域**: 多模态视觉语言模型 (Multimodal VLM)  
 **关键词**: token压缩, 视觉token剪枝, LVLM加速, 变化感知, 无训练推理加速, FlashAttention兼容
 
 ## 一句话总结

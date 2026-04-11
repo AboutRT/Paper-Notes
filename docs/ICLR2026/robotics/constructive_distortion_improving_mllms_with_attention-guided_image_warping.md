@@ -1,9 +1,9 @@
 # Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping
 
-**会议**: ICLR 2026
-**arXiv**: [2510.09741](https://arxiv.org/abs/2510.09741)
-**代码**: [项目页](https://dwipddalal.github.io/Attwarp/)
-**领域**: 机器人
+**会议**: ICLR 2026  
+**arXiv**: [2510.09741](https://arxiv.org/abs/2510.09741)  
+**代码**: [项目页](https://dwipddalal.github.io/Attwarp/)  
+**领域**: 机器人  
 **关键词**: MLLM, image warping, attention-guided, fine-grained perception, test-time intervention
 
 ## 一句话总结
@@ -19,6 +19,7 @@
 6. **核心idea一句话**: 用模型自身的注意力引导一次矩形线性变形，让同一个模型"看得更清楚"。
 
 ## 方法详解
+
 ### 整体框架
 输入图像 + 查询 → MLLM 提取跨模态注意力图 → 聚合为注意力得分矩阵 → 计算边缘注意力分布 → CDF 逆变换产生变形映射 → 双线性重采样得到变形图像 → 同一 MLLM 处理变形图像得到答案。
 
@@ -40,6 +41,7 @@
 - AttWarp-Distill: 在 TextVQA/GQA/DocVQA 训练集上用教师注意力作为目标，L1 损失训练
 
 ## 实验关键数据
+
 ### 主实验
 LLaVA-v1.5-7B 上的结果（准确率%）:
 

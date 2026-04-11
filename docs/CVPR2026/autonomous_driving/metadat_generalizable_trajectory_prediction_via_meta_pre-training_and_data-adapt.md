@@ -1,9 +1,9 @@
 # MetaDAT: Generalizable Trajectory Prediction via Meta Pre-training and Data-Adaptive Test-Time Updating
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09419](https://arxiv.org/abs/2603.09419)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.09419](https://arxiv.org/abs/2603.09419)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 轨迹预测, 测试时训练, 元学习, 分布偏移, 在线自适应
 
 ## 一句话总结

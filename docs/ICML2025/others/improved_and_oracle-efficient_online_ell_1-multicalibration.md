@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Improved and Oracle-Efficient Online $\ell_1$-Multicalibration
 
-**会议**: ICML2025
-**arXiv**: [2505.17365](https://arxiv.org/abs/2505.17365)
-**代码**: 待确认
-**领域**: 公平性/在线学习
+**会议**: ICML2025  
+**arXiv**: [2505.17365](https://arxiv.org/abs/2505.17365)  
+**代码**: 待确认  
+**领域**: 公平性/在线学习  
 **关键词**: multicalibration, online learning, fairness, oracle-efficient, calibration, omniprediction
 
 ## 一句话总结

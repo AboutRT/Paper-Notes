@@ -1,9 +1,9 @@
 # Scalable and Accurate Graph Reasoning with LLM-Based Multi-Agents
 
-**会议**: AAAI 2026
-**arXiv**: [2410.05130](https://arxiv.org/abs/2410.05130)
-**代码**: 无
-**领域**: LLM NLP
+**会议**: AAAI 2026  
+**arXiv**: [2410.05130](https://arxiv.org/abs/2410.05130)  
+**代码**: 无  
+**领域**: LLM NLP  
 **关键词**: 图推理, Multi-Agent, 分布式计算, LLM推理, 可扩展性
 
 ## 一句话总结

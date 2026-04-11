@@ -1,10 +1,10 @@
 # Who Can Withstand Chat-Audio Attacks? An Evaluation Benchmark for Large Audio-Language Models
 
-**会议**: ACL2025
-**arXiv**: [2411.14842](https://arxiv.org/abs/2411.14842)
+**会议**: ACL2025  
+**arXiv**: [2411.14842](https://arxiv.org/abs/2411.14842)  
 **作者**: Wanqi Yang, Yanda Li, Meng Fang, Yunchao Wei, Ling Chen (UTS, Liverpool, 北京交通大学)
-**代码**: [CAA Benchmark](https://github.com/YanqiYang/CAA)
-**领域**: audio_speech
+**代码**: [CAA Benchmark](https://github.com/YanqiYang/CAA)  
+**领域**: audio_speech  
 **关键词**: 对抗音频攻击, 大型音频语言模型, 鲁棒性评估, 基准测试
 
 ## 一句话总结

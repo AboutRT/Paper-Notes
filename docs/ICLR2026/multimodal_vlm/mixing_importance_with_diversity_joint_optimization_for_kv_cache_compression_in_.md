@@ -1,9 +1,9 @@
 # Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.20707](https://arxiv.org/abs/2510.20707)
-**代码**: [GitHub](https://github.com/xuyang-liu16/MixKV)
-**领域**: 多模态VLM/推理效率
+**会议**: ICLR 2026  
+**arXiv**: [2510.20707](https://arxiv.org/abs/2510.20707)  
+**代码**: [GitHub](https://github.com/xuyang-liu16/MixKV)  
+**领域**: 多模态VLM/推理效率  
 **关键词**: KV Cache压缩, 语义冗余, 多样性, 注意力头, 视觉语言模型
 
 ## 一句话总结

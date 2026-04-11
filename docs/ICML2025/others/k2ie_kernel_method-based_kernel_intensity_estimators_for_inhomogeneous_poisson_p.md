@@ -1,9 +1,9 @@
 # K²IE: Kernel Method-based Kernel Intensity Estimators for Inhomogeneous Poisson Processes
 
-**会议**: ICML2025
-**arXiv**: [2505.24704](https://arxiv.org/abs/2505.24704)
-**代码**: [HidKim/K2IE](https://github.com/HidKim/K2IE)
-**领域**: 核方法 / 点过程
+**会议**: ICML2025  
+**arXiv**: [2505.24704](https://arxiv.org/abs/2505.24704)  
+**代码**: [HidKim/K2IE](https://github.com/HidKim/K2IE)  
+**领域**: 核方法 / 点过程  
 **关键词**: 泊松过程, 核强度估计, 再生核希尔伯特空间, 最小二乘损失, 等价核
 
 ## 一句话总结

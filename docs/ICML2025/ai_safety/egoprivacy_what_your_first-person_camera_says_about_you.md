@@ -1,9 +1,9 @@
 # EgoPrivacy: What Your First-Person Camera Says About You?
 
-**会议**: ICML2025
-**arXiv**: [2506.12258](https://arxiv.org/abs/2506.12258)
-**代码**: [GitHub](https://github.com/williamium3000/ego-privacy)
-**领域**: 隐私 / AI安全
+**会议**: ICML2025  
+**arXiv**: [2506.12258](https://arxiv.org/abs/2506.12258)  
+**代码**: [GitHub](https://github.com/williamium3000/ego-privacy)  
+**领域**: 隐私 / AI安全  
 **关键词**: egocentric vision, privacy benchmark, demographic attack, retrieval-augmented attack, contrastive learning
 
 ## 一句话总结

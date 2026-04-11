@@ -1,9 +1,9 @@
 # Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction
 
-**会议**: ICLR 2026
-**arXiv**: [2602.24080](https://arxiv.org/abs/2602.24080)
-**代码**: [GitHub](https://github.com/Carbohydrate1001/Turing-Test)
-**领域**: 语音交互/评估
+**会议**: ICLR 2026  
+**arXiv**: [2602.24080](https://arxiv.org/abs/2602.24080)  
+**代码**: [GitHub](https://github.com/Carbohydrate1001/Turing-Test)  
+**领域**: 语音交互/评估  
 **关键词**: 图灵测试, 语音对话, 人类相似度, S2S系统, 细粒度评估
 
 ## 一句话总结

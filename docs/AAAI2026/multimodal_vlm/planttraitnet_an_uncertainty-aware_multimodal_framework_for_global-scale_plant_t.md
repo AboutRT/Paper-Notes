@@ -1,9 +1,9 @@
 # PlantTraitNet: An Uncertainty-Aware Multimodal Framework for Global-Scale Plant Trait Inference from Citizen Science Data
 
-**会议**: AAAI 2026
-**arXiv**: [2511.06943](https://arxiv.org/abs/2511.06943)
-**代码**: [https://github.com/GeoSense-Freiburg/PlantTraitNet](https://github.com/GeoSense-Freiburg/PlantTraitNet)
-**领域**: 多模态VLM
+**会议**: AAAI 2026  
+**arXiv**: [2511.06943](https://arxiv.org/abs/2511.06943)  
+**代码**: [https://github.com/GeoSense-Freiburg/PlantTraitNet](https://github.com/GeoSense-Freiburg/PlantTraitNet)  
+**领域**: 多模态VLM  
 **关键词**: 植物性状预测, 多模态融合, 不确定性估计, 公民科学, 全球尺度制图
 
 ## 一句话总结

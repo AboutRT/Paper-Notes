@@ -1,9 +1,9 @@
 # GEM-TFL: Bridging Weak and Full Supervision for Forgery Localization
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05095](https://arxiv.org/abs/2603.05095)
-**代码**: 无
-**领域**: 语音/音频
+**会议**: CVPR 2026  
+**arXiv**: [2603.05095](https://arxiv.org/abs/2603.05095)  
+**代码**: 无  
+**领域**: 语音/音频  
 **关键词**: 时序伪造定位, 弱监督, EM算法, 图扩散, 时序一致性
 
 ## 一句话总结

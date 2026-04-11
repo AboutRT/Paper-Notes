@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # scSSL-Bench: Benchmarking Self-Supervised Learning for Single-Cell Data
 
-**会议**: ICML2025
-**arXiv**: [2506.10031](https://arxiv.org/abs/2506.10031)
-**代码**: [BoevaLab/scSSL-Bench](https://github.com/BoevaLab/scSSL-Bench)
-**领域**: medical_imaging
+**会议**: ICML2025  
+**arXiv**: [2506.10031](https://arxiv.org/abs/2506.10031)  
+**代码**: [BoevaLab/scSSL-Bench](https://github.com/BoevaLab/scSSL-Bench)  
+**领域**: medical_imaging  
 **关键词**: self-supervised learning, single-cell genomics, benchmark, batch correction, contrastive learning
 
 ## 一句话总结

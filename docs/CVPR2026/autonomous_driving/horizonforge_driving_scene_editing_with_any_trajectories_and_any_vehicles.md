@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles
 
-**会议**: CVPR2026
-**arXiv**: [2602.21333](https://arxiv.org/abs/2602.21333)
-**代码**: [项目主页](https://horizonforge.github.io/)
-**领域**: 自动驾驶 / 场景生成与编辑
+**会议**: CVPR2026  
+**arXiv**: [2602.21333](https://arxiv.org/abs/2602.21333)  
+**代码**: [项目主页](https://horizonforge.github.io/)  
+**领域**: 自动驾驶 / 场景生成与编辑  
 **关键词**: 驾驶场景编辑, 3D Gaussian Splatting, 视频扩散模型, 轨迹控制, Mesh插入, 多智能体仿真
 
 ## 一句话总结

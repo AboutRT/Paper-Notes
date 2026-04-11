@@ -1,9 +1,9 @@
 # Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive Regularization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20883](https://arxiv.org/abs/2510.20883)
-**代码**: [antonior92/adversarial_training_kernel](https://github.com/antonior92/adversarial_training_kernel)
-**领域**: optimization
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20883](https://arxiv.org/abs/2510.20883)  
+**代码**: [antonior92/adversarial_training_kernel](https://github.com/antonior92/adversarial_training_kernel)  
+**领域**: optimization  
 **关键词**: adversarial training, kernel methods, RKHS, adaptive regularization, multiple kernel learning
 
 ## 一句话总结

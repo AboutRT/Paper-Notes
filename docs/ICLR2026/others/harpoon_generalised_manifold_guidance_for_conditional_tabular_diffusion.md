@@ -1,9 +1,9 @@
 # Harpoon: Generalised Manifold Guidance for Conditional Tabular Diffusion
 
-**会议**: ICLR 2026
-**arXiv**: [2602.07875](https://arxiv.org/abs/2602.07875)
-**代码**: [GitHub](https://github.com/adis98/Harpoon)
-**领域**: 扩散模型/表格数据
+**会议**: ICLR 2026  
+**arXiv**: [2602.07875](https://arxiv.org/abs/2602.07875)  
+**代码**: [GitHub](https://github.com/adis98/Harpoon)  
+**领域**: 扩散模型/表格数据  
 **关键词**: 表格数据, 流形引导, 条件生成, 推理时引导, 不等式约束
 
 ## 一句话总结

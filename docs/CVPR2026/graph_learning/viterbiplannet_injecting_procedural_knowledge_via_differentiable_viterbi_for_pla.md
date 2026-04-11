@@ -1,9 +1,9 @@
 # ViterbiPlanNet: Injecting Procedural Knowledge via Differentiable Viterbi for Planning in Instructional Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04265](https://arxiv.org/abs/2603.04265)
-**代码**: [Project](https://gigi-g.github.io/ViterbiPlanNet/)
-**领域**: 图学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.04265](https://arxiv.org/abs/2603.04265)  
+**代码**: [Project](https://gigi-g.github.io/ViterbiPlanNet/)  
+**领域**: 图学习  
 **关键词**: 过程规划, 可微Viterbi, 过程知识图, 教学视频, 动态规划
 
 ## 一句话总结

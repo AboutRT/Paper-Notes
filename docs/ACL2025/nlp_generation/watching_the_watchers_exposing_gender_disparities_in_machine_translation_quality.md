@@ -1,9 +1,9 @@
 # Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation
 
-**会议**: ACL2025
-**arXiv**: [2410.10995](https://arxiv.org/abs/2410.10995)
-**代码**: [deep-spin/gender-bias-qe-metrics](https://github.com/deep-spin/gender-bias-qe-metrics)
-**领域**: nlp_generation
+**会议**: ACL2025  
+**arXiv**: [2410.10995](https://arxiv.org/abs/2410.10995)  
+**代码**: [deep-spin/gender-bias-qe-metrics](https://github.com/deep-spin/gender-bias-qe-metrics)  
+**领域**: nlp_generation  
 **关键词**: quality estimation, gender bias, machine translation, fairness, MT metrics
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CaMiT: A Time-Aware Car Model Dataset for Classification and Generation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17626](https://arxiv.org/abs/2510.17626)
-**代码**: [GitHub](https://github.com/lin-frederic/CaMiT)
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17626](https://arxiv.org/abs/2510.17626)  
+**代码**: [GitHub](https://github.com/lin-frederic/CaMiT)  
+**领域**: image_generation  
 **关键词**: 时序数据集, 细粒度分类, 持续学习, 时间感知生成, 汽车模型识别
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Deep Electromagnetic Structure Design Under Limited Evaluation Budgets
 
-**会议**: ICML 2025
-**arXiv**: [2506.19384](https://arxiv.org/abs/2506.19384)
-**代码**: 无
-**领域**: 科学计算
+**会议**: ICML 2025  
+**arXiv**: [2506.19384](https://arxiv.org/abs/2506.19384)  
+**代码**: 无  
+**领域**: 科学计算  
 **关键词**: 电磁结构设计, 四叉树搜索, 代理模型, 有限评估预算, 样本选择
 
 ## 一句话总结

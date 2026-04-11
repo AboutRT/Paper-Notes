@@ -1,4 +1,5 @@
 # WorldRFT: Latent World Model Planning with Reinforcement Fine-Tuning for Autonomous Driving
+
 **会议**: AAAI 2026  
 **arXiv**: [2512.19133](https://arxiv.org/abs/2512.19133)  
 **代码**: [pengxuanyang/WorldRFT](https://github.com/pengxuanyang/WorldRFT)  

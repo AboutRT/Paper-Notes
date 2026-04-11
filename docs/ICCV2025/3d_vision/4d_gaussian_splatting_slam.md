@@ -1,9 +1,9 @@
 # 4D Gaussian Splatting SLAM
 
-**会议**: ICCV 2025
-**arXiv**: [2503.16710](https://arxiv.org/abs/2503.16710)
-**代码**: [https://github.com/yanyan-li/4DGS-SLAM](https://github.com/yanyan-li/4DGS-SLAM) (有)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2503.16710](https://arxiv.org/abs/2503.16710)  
+**代码**: [https://github.com/yanyan-li/4DGS-SLAM](https://github.com/yanyan-li/4DGS-SLAM) (有)  
+**领域**: 3D视觉  
 **关键词**: 4D高斯, 动态场景SLAM, 光流渲染, 稀疏控制点, RGB-D
 
 ## 一句话总结

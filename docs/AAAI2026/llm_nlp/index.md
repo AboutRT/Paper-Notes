@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM / NLP
 
-**🤖 AAAI2026** · 共 **62** 篇
+**🤖 AAAI2026** · 共 **65** 篇
 
 **[An Invariant Latent Space Perspective on Language Model Inversion](an_invariant_latent_space_perspective_on_language_model_inve.md)**
 
@@ -218,6 +218,18 @@
 **[Scaling Equitable Reflection Assessment in Education via Large Language Models](scaling_equitable_reflection_assessment_in_education_via_large_language_models_a.md)**
 
 :   研究用 LLM 自动评估教育场景中学生的反思写作质量——在保持与人类评分者高一致性的同时，系统分析了 LLM 评估在种族、性别、社会经济背景等维度上的公平性，发现 LLM 评分可以达到甚至超越人类评分者间的一致性，但在某些人口统计维度上仍存在偏差。
+
+**[Smart: 基于 GNN 与 LLM 融合的 Dragonfly 系统应用运行时代理模型](smart_a_surrogate_model_for_predicting_application_runtime_in_dragonfly_systems.md)**
+
+:   提出 Smart（Surrogate Model for Predicting Application RunTime），首次将 GNN 和 LLM（Time-LLM）融合用于 Dragonfly 互连网络中的应用迭代运行时预测，在 1,056 节点系统上 MAPE 最低达 1.78%（LAMMPS），推理时间仅 0.515 秒，相比原始仿真实现数量级加速。
+
+**[Soft Filtering: Guiding Zero-Shot Composed Image Retrieval with Prescriptive and Proscriptive Prompts](soft_filtering_guiding_zero-shot_composed_image_retrieval_with_prescriptive_and_.md)**
+
+:   提出 SoFT，一个无需训练的即插即用重排序模块，利用多模态 LLM 从参考图像和修改文本中提取"必须包含"（prescriptive）和"必须避免"（proscriptive）双重文本约束，对零样本组合图像检索的候选结果进行软过滤重排序，同时构建了多目标三元组数据集流水线以改善评估。
+
+**[STEM: Efficient Relative Capability Evaluation of LLMs through Structured Transitive Evaluation Model](stem_efficient_relative_capability_evaluation_of_llms_through_structured_transit.md)**
+
+:   提出 STEM 框架，通过识别同架构不同规模模型间的"显著转换样本"(STS)构建轻量级评估子集，实现对未知 LLM 能力的高效相对定位，在 100 样本下达到 100% 定位准确率，远超随机采样和贝叶斯方法。
 
 **[TEMPLE: Incentivizing Temporal Understanding of Video LLMs via Progressive Pre-SFT Alignment](temple_incentivizing_temporal_understanding_of_video_large_language_models_via_p.md)**
 

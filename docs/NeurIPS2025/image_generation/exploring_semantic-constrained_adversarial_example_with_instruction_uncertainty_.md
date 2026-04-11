@@ -1,9 +1,9 @@
 # Exploring Semantic-constrained Adversarial Example with Instruction Uncertainty Reduction
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.22981](https://arxiv.org/abs/2510.22981)
-**代码**: 未公开
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.22981](https://arxiv.org/abs/2510.22981)  
+**代码**: 未公开  
+**领域**: image_generation  
 **关键词**: 对抗样本, 语义约束, 扩散模型, 3D对抗, 迁移攻击
 
 ## 一句话总结

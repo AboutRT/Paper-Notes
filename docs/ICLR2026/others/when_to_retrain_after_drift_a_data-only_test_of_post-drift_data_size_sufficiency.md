@@ -1,9 +1,9 @@
 # When to Retrain after Drift: A Data-Only Test of Post-Drift Data Size Sufficiency
 
-**会议**: ICLR 2026
-**arXiv**: [2603.09024](https://arxiv.org/abs/2603.09024)
-**代码**: 未提及
-**领域**: 其他 / 流数据学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.09024](https://arxiv.org/abs/2603.09024)  
+**代码**: 未提及  
+**领域**: 其他 / 流数据学习  
 **关键词**: 概念漂移, 重训练时机, 数据充分性, 流式学习, 加权局部回归, 状态依赖
 
 ## 一句话总结

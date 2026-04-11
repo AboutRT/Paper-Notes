@@ -1,9 +1,9 @@
 # On Understanding Attention-Based In-Context Learning for Categorical Data
 
-**会议**: ICML2025
-**arXiv**: [2405.17248](https://arxiv.org/abs/2405.17248)
-**代码**: 未开源
-**领域**: 优化 / ICL理论
+**会议**: ICML2025  
+**arXiv**: [2405.17248](https://arxiv.org/abs/2405.17248)  
+**代码**: 未开源  
+**领域**: 优化 / ICL理论  
 **关键词**: in-context learning, functional gradient descent, categorical data, attention mechanism, cross-attention, softmax, reproducing kernel Hilbert space
 
 ## 一句话总结

@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Learning Mean Field Control on Sparse Graphs
 
-**会议**: ICML2025
-**arXiv**: [2501.17079](https://arxiv.org/abs/2501.17079)
+**会议**: ICML2025  
+**arXiv**: [2501.17079](https://arxiv.org/abs/2501.17079)  
 **作者**: Christian Fabian, Kai Cui, Heinz Koeppl (TU Darmstadt)
-**代码**: 未公开
-**领域**: reinforcement_learning
+**代码**: 未公开  
+**领域**: reinforcement_learning  
 **关键词**: mean field control, sparse graphs, multi-agent reinforcement learning, local weak convergence, graphon
 
 ## 一句话总结

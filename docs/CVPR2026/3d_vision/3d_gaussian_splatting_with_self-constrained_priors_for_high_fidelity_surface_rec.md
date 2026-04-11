@@ -1,9 +1,9 @@
 # 3D Gaussian Splatting with Self-Constrained Priors for High Fidelity Surface Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.19682](https://arxiv.org/abs/2603.19682)
-**代码**: https://github.com/takeshie/GSPrior (有)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.19682](https://arxiv.org/abs/2603.19682)  
+**代码**: https://github.com/takeshie/GSPrior (有)  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 表面重建, TSDF, 自约束先验, 几何约束
 
 ## 一句话总结

@@ -1,8 +1,8 @@
 # LEAST: The Courage to Stop — Overcoming Sunk Cost Fallacy in Deep RL
 
-**会议**: ICML2025
-**arXiv**: [2506.13672](https://arxiv.org/abs/2506.13672)
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2506.13672](https://arxiv.org/abs/2506.13672)  
+**领域**: reinforcement_learning  
 **关键词**: 沉没成本谬误, 提前终止, 样本效率, Replay Buffer, Off-policy RL
 
 ## 一句话总结
@@ -75,6 +75,7 @@
 - 价值: 4.5/5 — 简单有效的通用改进
 
 ## 补充分析
+
 ### Replay Buffer污染的量化
 没有LEAST时，约30-40%的buffer内容来自“沉没”轨迹。LEAST将此降到<10%——直接提升off-policy数据效率。
 
@@ -86,5 +87,6 @@
 
 ### “勇气”的别名
 “勇气停下”不仅是工程优化，还是认知纠偏——教模型克服“已经投入了那么多步不想浪费”的非理性倾向。
+
 ### 与好奇心驱动的关系
 好奇心驱动鼓励探索新状态，LEAST鼓励放弃无希望的旧状态。两者互补——可以组合使用。

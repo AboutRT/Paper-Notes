@@ -1,9 +1,9 @@
 # Neural Graph Matching Improves Retrieval Augmented Generation in Molecular Machine Learning
 
-**会议**: ICML2025
-**arXiv**: [2502.17874](https://arxiv.org/abs/2502.17874)
-**代码**: [coleygroup/ms-pred](https://github.com/coleygroup/ms-pred)
-**领域**: 分子机器学习 / 图匹配 / 检索增强生成
+**会议**: ICML2025  
+**arXiv**: [2502.17874](https://arxiv.org/abs/2502.17874)  
+**代码**: [coleygroup/ms-pred](https://github.com/coleygroup/ms-pred)  
+**领域**: 分子机器学习 / 图匹配 / 检索增强生成  
 **关键词**: 神经图匹配, RAG, 质谱模拟, 分子碎片DAG, GNN, MARASON
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # It's Complicated: The Relationship of Algorithmic Fairness and Non-Discrimination Provisions for High-Risk Systems in the EU AI Act
 
-**会议**: NeurIPS 2025
-**arXiv**: [2501.12962](https://arxiv.org/abs/2501.12962)
-**代码**: 无
-**领域**: AI 安全与公平性 (AI Safety)
+**会议**: NeurIPS 2025  
+**arXiv**: [2501.12962](https://arxiv.org/abs/2501.12962)  
+**代码**: 无  
+**领域**: AI 安全与公平性 (AI Safety)  
 **关键词**: 算法公平性, EU AI Act, 非歧视法, 高风险AI系统, 标准化
 
 ## 一句话总结

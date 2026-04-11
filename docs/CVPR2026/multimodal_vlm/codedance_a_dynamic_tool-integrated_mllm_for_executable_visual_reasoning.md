@@ -1,9 +1,9 @@
 # CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning
 
-**会议**: CVPR 2026
-**arXiv**: [2512.17312](https://arxiv.org/abs/2512.17312)
-**代码**: [CodeDance-VL.github.io](https://CodeDance-VL.github.io) (有)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2512.17312](https://arxiv.org/abs/2512.17312)  
+**代码**: [CodeDance-VL.github.io](https://CodeDance-VL.github.io) (有)  
+**领域**: 多模态VLM  
 **关键词**: 可执行代码推理, 工具调用, 多模态推理, 强化学习, 涌现行为
 
 ## 一句话总结
@@ -119,10 +119,10 @@ $$\tau = \big((s_{t_1}, a_{t_1}, s'_{t_1}), \ldots, (s_{t_M}, a_{\text{ans}})\bi
 - **价值**: ⭐⭐⭐⭐⭐ 为开源社区提供了可复现的"think with images"方案，实用价值高
 # CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning
 
-**会议**: CVPR 2026
-**arXiv**: [2512.17312](https://arxiv.org/abs/2512.17312)
-**代码**: https://CodeDance-VL.github.io (有)
-**领域**: 多模态VLM / 工具使用
+**会议**: CVPR 2026  
+**arXiv**: [2512.17312](https://arxiv.org/abs/2512.17312)  
+**代码**: https://CodeDance-VL.github.io (有)  
+**领域**: 多模态VLM / 工具使用  
 **关键词**: 可执行视觉推理, 工具集成, 代码生成, 强化学习, 涌现行为
 
 ## 一句话总结

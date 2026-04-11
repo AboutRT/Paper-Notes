@@ -1,9 +1,9 @@
 # Narrow Finetuning Leaves Clearly Readable Traces in Activation Differences
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13900](https://arxiv.org/abs/2510.13900)
-**代码**: [science-of-finetuning/diffing-toolkit](https://github.com/science-of-finetuning/diffing-toolkit)
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2510.13900](https://arxiv.org/abs/2510.13900)  
+**代码**: [science-of-finetuning/diffing-toolkit](https://github.com/science-of-finetuning/diffing-toolkit)  
+**领域**: llm_nlp  
 **关键词**: 模型微调, 激活差异, Model Diffing, 可解释性, AI安全, Model Organisms, Patchscope
 
 ## 一句话总结

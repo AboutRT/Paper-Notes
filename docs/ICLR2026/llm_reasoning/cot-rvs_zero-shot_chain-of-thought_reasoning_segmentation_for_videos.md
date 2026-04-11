@@ -1,9 +1,9 @@
 # CoT-RVS: Zero-Shot Chain-of-Thought Reasoning Segmentation for Videos
 
-**会议**: ICLR 2026
-**arXiv**: [2505.18561](https://arxiv.org/abs/2505.18561)
-**代码**: 无
-**领域**: LLM推理
+**会议**: ICLR 2026  
+**arXiv**: [2505.18561](https://arxiv.org/abs/2505.18561)  
+**代码**: 无  
+**领域**: LLM推理  
 **关键词**: 推理视频分割, Chain-of-Thought, 零样本, 关键帧选择, 多模态大模型
 
 ## 一句话总结

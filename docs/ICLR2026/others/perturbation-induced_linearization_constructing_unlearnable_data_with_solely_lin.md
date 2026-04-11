@@ -1,9 +1,9 @@
 # Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19967](https://arxiv.org/abs/2601.19967)
-**代码**: [GitHub](https://github.com/jinlinll/pil)
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2601.19967](https://arxiv.org/abs/2601.19967)  
+**代码**: [GitHub](https://github.com/jinlinll/pil)  
+**领域**: 其他  
 **关键词**: 不可学习样本, 数据保护, 线性化, 快捷学习, 对抗扰动
 
 ## 一句话总结

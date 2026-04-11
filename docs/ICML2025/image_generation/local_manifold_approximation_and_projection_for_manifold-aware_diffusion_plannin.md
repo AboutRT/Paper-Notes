@@ -1,9 +1,9 @@
 # LoMAP: Local Manifold Approximation and Projection for Manifold-Aware Diffusion Planning
 
-**会议**: ICML2025
-**arXiv**: [2506.00867](https://arxiv.org/abs/2506.00867)
-**代码**: [GitHub - LoMAP](https://github.com/leekwoon/lomap)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2506.00867](https://arxiv.org/abs/2506.00867)  
+**代码**: [GitHub - LoMAP](https://github.com/leekwoon/lomap)  
+**领域**: image_generation  
 **关键词**: 扩散规划, 流形偏离, 低秩投影, 离线RL, 无训练
 
 ## 一句话总结

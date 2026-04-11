@@ -1,9 +1,9 @@
 # KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies
 
-**会议**: ICML2025
-**arXiv**: [2503.18234](https://arxiv.org/abs/2503.18234)
-**代码**: 待确认
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2503.18234](https://arxiv.org/abs/2503.18234)  
+**代码**: 待确认  
+**领域**: reinforcement_learning  
 **关键词**: 探索策略协调, 稀疏奖励, Soft Actor-Critic, 新颖性探索, RND, NovelD
 
 ## 一句话总结

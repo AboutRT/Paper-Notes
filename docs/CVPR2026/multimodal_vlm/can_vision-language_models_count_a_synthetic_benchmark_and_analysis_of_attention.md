@@ -1,9 +1,9 @@
 # Can Vision-Language Models Count? A Synthetic Benchmark and Analysis of Attention-Based Interventions
 
-**会议**: CVPR 2026
-**arXiv**: [2511.17722](https://arxiv.org/abs/2511.17722)
-**代码**: [GitHub](https://github.com/ssen7/vlm-count-analysis) (有)
-**领域**: Multimodal/VLM
+**会议**: CVPR 2026  
+**arXiv**: [2511.17722](https://arxiv.org/abs/2511.17722)  
+**代码**: [GitHub](https://github.com/ssen7/vlm-count-analysis) (有)  
+**领域**: Multimodal/VLM  
 **关键词**: VLM, 计数能力, 注意力机制, 合成基准, 视觉注意力干预
 
 ## 一句话总结

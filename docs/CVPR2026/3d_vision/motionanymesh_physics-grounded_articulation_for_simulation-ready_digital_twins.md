@@ -1,9 +1,9 @@
 # MotionAnymesh: Physics-Grounded Articulation for Simulation-Ready Digital Twins
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12936](https://arxiv.org/abs/2603.12936)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.12936](https://arxiv.org/abs/2603.12936)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 铰接物体, 数字孪生, URDF, 物理仿真, VLM
 
 ## 一句话总结

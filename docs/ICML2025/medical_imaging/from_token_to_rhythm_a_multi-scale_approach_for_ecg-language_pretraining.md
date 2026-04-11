@@ -1,9 +1,9 @@
 # From Token to Rhythm: A Multi-Scale Approach for ECG-Language Pretraining
 
-**会议**: ICML 2025
-**arXiv**: [2506.21803](https://arxiv.org/abs/2506.21803)
-**代码**: [https://github.com/HKU-MedAI/MELP](https://github.com/HKU-MedAI/MELP)
-**领域**: 医学AI / 心电图分析
+**会议**: ICML 2025  
+**arXiv**: [2506.21803](https://arxiv.org/abs/2506.21803)  
+**代码**: [https://github.com/HKU-MedAI/MELP](https://github.com/HKU-MedAI/MELP)  
+**领域**: 医学AI / 心电图分析  
 **关键词**: ECG预训练, 多模态学习, 多尺度表征, 对比学习, ECG-文本对齐, 零样本分类, 自监督学习
 
 ## 一句话总结

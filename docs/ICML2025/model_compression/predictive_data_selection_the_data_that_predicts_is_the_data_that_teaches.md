@@ -1,9 +1,9 @@
 # Predictive Data Selection: The Data That Predicts Is the Data That Teaches
 
-**会议**: ICML2025
-**arXiv**: [2503.00808](https://arxiv.org/abs/2503.00808)
-**代码**: [hkust-nlp/PreSelect](https://github.com/hkust-nlp/PreSelect)
-**领域**: 数据选择
+**会议**: ICML2025  
+**arXiv**: [2503.00808](https://arxiv.org/abs/2503.00808)  
+**代码**: [hkust-nlp/PreSelect](https://github.com/hkust-nlp/PreSelect)  
+**领域**: 数据选择  
 **关键词**: 预训练数据选择, 压缩即智能, 预测强度, fastText分类器, 数据质量
 
 ## 一句话总结

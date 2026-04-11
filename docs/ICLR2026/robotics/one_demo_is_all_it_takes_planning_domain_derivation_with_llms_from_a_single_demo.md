@@ -1,9 +1,9 @@
 # One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration
 
-**会议**: ICLR 2026
-**arXiv**: [2505.18382](https://arxiv.org/abs/2505.18382)
-**代码**: 无
-**领域**: 机器人规划 / TAMP / LLM
+**会议**: ICLR 2026  
+**arXiv**: [2505.18382](https://arxiv.org/abs/2505.18382)  
+**代码**: 无  
+**领域**: 机器人规划 / TAMP / LLM  
 **关键词**: PDDL, 任务与运动规划, LLM推理, 物理仿真, 谓词生成, 运动规划接口
 
 ## 一句话总结

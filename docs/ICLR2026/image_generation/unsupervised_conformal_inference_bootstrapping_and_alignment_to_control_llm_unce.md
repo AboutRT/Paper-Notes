@@ -1,9 +1,9 @@
 # Unsupervised Conformal Inference: Bootstrapping and Alignment to Control LLM Uncertainty
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23002](https://arxiv.org/abs/2509.23002)
-**代码**: 无
-**领域**: LLM不确定性量化
+**会议**: ICLR 2026  
+**arXiv**: [2509.23002](https://arxiv.org/abs/2509.23002)  
+**代码**: 无  
+**领域**: LLM不确定性量化  
 **关键词**: 无监督共形推断, 自举法, LLM幻觉检测, Gram矩阵, 共形对齐
 
 ## 一句话总结

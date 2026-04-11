@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**🤖 AAAI2026** · 共 **44** 篇
+**🤖 AAAI2026** · 共 **43** 篇
 
 **[Alternative Fairness and Accuracy Optimization in Criminal Justice](alternative_fairness_and_accuracy_optimization_in_criminal_j.md)**
 
@@ -94,10 +94,6 @@
 **[FedALT: Federated Fine-Tuning through Adaptive Local Training with Rest-of-World LoRA](fedalt_federated_fine-tuning_through_adaptive_local_training_with_rest-of-world_.md)**
 
 :   提出 FedALT，通过为每个客户端维护独立的 Individual LoRA（本地训练更新）和冻结的 Rest-of-World (RoW) LoRA（其他客户端平均），配合自适应 MoE 混合器动态平衡本地知识与全局知识，彻底避免 FedAvg 聚合导致的跨客户端干扰，在异构任务联邦 LLM 微调上显著优于 SOTA。
-
-**[From Pretrain to Pain: Adversarial Vulnerability of Video Foundation Models without Finetuning](from_pretrain_to_pain_adversarial_vulnerability_of_video_foundation_models_witho.md)**
-
-:   提出 Transferable Video Attack (TVA)，仅利用开源视频基础模型（VFM）的嵌入空间即可生成对抗扰动，无需任何下游任务知识便能有效攻击24个视频任务上的下游模型和多模态LLM。
 
 **[From Single to Societal: Analyzing Persona-Induced Bias in Multi-Agent Interactions](from_single_to_societal_analyzing_persona-induced_bias_in_multi-agent_interactio.md)**
 

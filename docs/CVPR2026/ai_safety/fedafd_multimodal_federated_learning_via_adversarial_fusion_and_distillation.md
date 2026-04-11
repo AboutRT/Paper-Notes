@@ -1,9 +1,9 @@
 # FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04890](https://arxiv.org/abs/2603.04890)
-**代码**: [Chao2433/FedAFD](https://github.com/Chao2433/FedAFD)
-**领域**: AI安全 / 联邦学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.04890](https://arxiv.org/abs/2603.04890)  
+**代码**: [Chao2433/FedAFD](https://github.com/Chao2433/FedAFD)  
+**领域**: AI安全 / 联邦学习  
 **关键词**: Multimodal Federated Learning, Adversarial Alignment, Feature Fusion, Knowledge Distillation, Model Heterogeneity
 
 ## 一句话总结

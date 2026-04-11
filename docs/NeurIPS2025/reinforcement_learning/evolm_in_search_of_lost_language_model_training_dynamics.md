@@ -1,9 +1,9 @@
 # EvoLM: In Search of Lost Language Model Training Dynamics
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.16029](https://arxiv.org/abs/2506.16029)
-**代码**: 有（模型、数据、训练和评估 pipeline 全部开源）
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.16029](https://arxiv.org/abs/2506.16029)  
+**代码**: 有（模型、数据、训练和评估 pipeline 全部开源）  
+**领域**: 强化学习  
 **关键词**: training dynamics, scaling law, continued pre-training, reinforcement learning, SFT
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02024](https://arxiv.org/abs/2603.02024)
-**代码**: [项目页面](https://mmr-life-bench.github.io/)
-**领域**: 多模态评估基准
+**会议**: ICLR 2026  
+**arXiv**: [2603.02024](https://arxiv.org/abs/2603.02024)  
+**代码**: [项目页面](https://mmr-life-bench.github.io/)  
+**领域**: 多模态评估基准  
 **关键词**: 多模态推理, 多图推理, 真实场景, 推理类型, 基准评估
 
 ## 一句话总结

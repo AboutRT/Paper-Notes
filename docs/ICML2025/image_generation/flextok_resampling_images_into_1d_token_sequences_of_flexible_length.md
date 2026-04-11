@@ -1,9 +1,9 @@
 # FlexTok: Resampling Images into 1D Token Sequences of Flexible Length
 
-**会议**: ICML 2025
-**arXiv**: [2502.13967](https://arxiv.org/abs/2502.13967)
-**代码**: https://flextok.epfl.ch/ (项目页面)
-**领域**: 图像 Tokenizer / 自回归图像生成
+**会议**: ICML 2025  
+**arXiv**: [2502.13967](https://arxiv.org/abs/2502.13967)  
+**代码**: https://flextok.epfl.ch/ (项目页面)  
+**领域**: 图像 Tokenizer / 自回归图像生成  
 **关键词**: 可变长度 Tokenizer, 1D Token 序列, Nested Dropout, Rectified Flow 解码器, 粗到细生成
 
 ## 一句话总结

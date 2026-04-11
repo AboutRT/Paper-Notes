@@ -1,9 +1,9 @@
 # Towards Graph Foundation Models: Learning Generalities Across Graphs via Task-Trees
 
-**会议**: ICML2025
-**arXiv**: [2412.16441](https://arxiv.org/abs/2412.16441)
-**代码**: [GIT](https://github.com/Zehong-Wang/GIT)
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2412.16441](https://arxiv.org/abs/2412.16441)  
+**代码**: [GIT](https://github.com/Zehong-Wang/GIT)  
+**领域**: graph_learning  
 **关键词**: 图基础模型, 任务树, 跨域泛化, GNN预训练, 零样本学习
 
 ## 一句话总结

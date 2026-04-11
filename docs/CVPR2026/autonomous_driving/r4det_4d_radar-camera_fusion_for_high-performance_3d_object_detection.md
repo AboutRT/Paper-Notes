@@ -1,9 +1,9 @@
 # R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11566](https://arxiv.org/abs/2603.11566)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.11566](https://arxiv.org/abs/2603.11566)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 4D毫米波雷达, 雷达-相机融合, 3D目标检测, 深度估计, 时序融合
 
 ## 一句话总结

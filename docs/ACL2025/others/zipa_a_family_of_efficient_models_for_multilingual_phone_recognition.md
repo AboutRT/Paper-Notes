@@ -1,9 +1,9 @@
 # ZIPA: A Family of Efficient Models for Multilingual Phone Recognition
 
-**会议**: ACL 2025
-**arXiv**: [2505.23170](https://arxiv.org/abs/2505.23170)
-**代码**: 有 (https://github.com/lingjzhu/zipa)
-**领域**: 语音处理 / 多语言语音识别
+**会议**: ACL 2025  
+**arXiv**: [2505.23170](https://arxiv.org/abs/2505.23170)  
+**代码**: 有 (https://github.com/lingjzhu/zipa)  
+**领域**: 语音处理 / 多语言语音识别  
 **关键词**: 音素识别, IPA, Zipformer, CTC, 多语言, 社会语音学
 
 ## 一句话总结

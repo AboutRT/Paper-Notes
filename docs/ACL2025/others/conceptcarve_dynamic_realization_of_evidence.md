@@ -137,10 +137,10 @@ ConceptCarve 不需要训练，是一个纯推理时的框架：
 | 实用价值 | ⭐⭐⭐⭐ | 对社会科学研究和舆情分析有直接应用价值 |
 # ConceptCarve: Dynamic Realization of Evidence
 
-**会议**: ACL 2025
-**arXiv**: [2504.07228](https://arxiv.org/abs/2504.07228)
-**代码**: 有 (数据集发布于 HuggingFace: ecaplan/conceptcarve)
-**领域**: 信息检索 / 社会计算
+**会议**: ACL 2025  
+**arXiv**: [2504.07228](https://arxiv.org/abs/2504.07228)  
+**代码**: 有 (数据集发布于 HuggingFace: ecaplan/conceptcarve)  
+**领域**: 信息检索 / 社会计算  
 **关键词**: 证据检索, 概念树, LLM推理, 领域自适应, 道德基础理论
 
 ## 一句话总结

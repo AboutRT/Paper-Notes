@@ -1,9 +1,9 @@
 # GUIDE: Guided Updates for In-context Decision Evolution in LLM-Driven Spacecraft Operations
 
-**会议**: CVPR 2026 (AI4Space Workshop)
-**arXiv**: [2603.27306](https://arxiv.org/abs/2603.27306)
-**代码**: 无
-**领域**: LLM应用 / 航天自主系统
+**会议**: CVPR 2026 (AI4Space Workshop)  
+**arXiv**: [2603.27306](https://arxiv.org/abs/2603.27306)  
+**代码**: 无  
+**领域**: LLM应用 / 航天自主系统  
 **关键词**: 航天器操作, LLM决策, in-context学习, 多Agent系统, 自主任务规划
 
 ## 一句话总结

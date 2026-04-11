@@ -1,9 +1,9 @@
 # Oversmoothing, Oversquashing, Heterophily, Long-Range, and more: Demystifying Common Beliefs in Graph Machine Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2505.15547](https://arxiv.org/abs/2505.15547)
-**代码**: [GitHub](https://github.com/AdrianArnaiz/demystifyingGraphML)
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2505.15547](https://arxiv.org/abs/2505.15547)  
+**代码**: [GitHub](https://github.com/AdrianArnaiz/demystifyingGraphML)  
+**领域**: 其他  
 **关键词**: 图神经网络, 过平滑, 过挤压, 异质性, 长程依赖
 
 ## 一句话总结

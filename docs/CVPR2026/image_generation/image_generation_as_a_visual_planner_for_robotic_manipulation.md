@@ -1,9 +1,9 @@
 # Image Generation as a Visual Planner for Robotic Manipulation
 
-**会议**: CVPR 2026
-**arXiv**: [2512.00532](https://arxiv.org/abs/2512.00532)
-**代码**: [GitHub](https://github.com/pangye202264690373/Image-Generation-as-a-Visual-Planner-for-Robotic-Manipulation)
-**领域**: 图像生成 / 机器人操作
+**会议**: CVPR 2026  
+**arXiv**: [2512.00532](https://arxiv.org/abs/2512.00532)  
+**代码**: [GitHub](https://github.com/pangye202264690373/Image-Generation-as-a-Visual-Planner-for-Robotic-Manipulation)  
+**领域**: 图像生成 / 机器人操作  
 **关键词**: 视觉规划, 机器人操作, 扩散模型, 网格图像生成, LoRA
 
 ## 一句话总结

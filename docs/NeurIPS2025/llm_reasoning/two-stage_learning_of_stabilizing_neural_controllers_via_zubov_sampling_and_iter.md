@@ -1,9 +1,9 @@
 # Two-Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.01356](https://arxiv.org/abs/2506.01356)
-**代码**: [GitHub](https://github.com/Verified-Intelligence/Two-Stage_Neural_Controller_Training)
-**领域**: 优化/理论
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.01356](https://arxiv.org/abs/2506.01356)  
+**代码**: [GitHub](https://github.com/Verified-Intelligence/Two-Stage_Neural_Controller_Training)  
+**领域**: 优化/理论  
 **关键词**: neural controller, Lyapunov function, region of attraction, Zubov theorem, neural network verification
 
 ## 一句话总结

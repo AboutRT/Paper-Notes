@@ -1,11 +1,11 @@
 # Glance and Focus Reinforcement for Pan-cancer Screening
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2601.19103](https://arxiv.org/abs/2601.19103)
 
 **代码**: [GitHub](https://github.com/Luffy03/GF-Screen)
 
-**领域**: 医学图像/癌症筛查
+**领域**: 医学图像/癌症筛查  
 **关键词**: 泛癌筛查, 强化学习, GRPO, CT分割, 前景-背景不平衡
 
 ## 一句话总结

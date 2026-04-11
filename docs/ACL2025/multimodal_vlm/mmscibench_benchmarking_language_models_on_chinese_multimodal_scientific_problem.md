@@ -1,9 +1,9 @@
 # MMSciBench: Benchmarking Language Models on Chinese Multimodal Scientific Problems
 
-**会议**: ACL 2025
-**arXiv**: [2503.01891](https://arxiv.org/abs/2503.01891)
-**代码**: [GitHub](https://github.com/xinwuye/MMSciBench-code) | [HuggingFace](https://huggingface.co/datasets/XinwuYe/MMSciBench)
-**领域**: multimodal_vlm
+**会议**: ACL 2025  
+**arXiv**: [2503.01891](https://arxiv.org/abs/2503.01891)  
+**代码**: [GitHub](https://github.com/xinwuye/MMSciBench-code) | [HuggingFace](https://huggingface.co/datasets/XinwuYe/MMSciBench)  
+**领域**: multimodal_vlm  
 **关键词**: 科学推理基准, 多模态评估, 中文科学题, 视觉-语言模型, 数学物理推理
 
 ## 一句话总结

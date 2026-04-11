@@ -1,9 +1,9 @@
 # Hybrid Autoencoders for Tabular Data: Leveraging Model-Based Augmentation in Low-Label Settings
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.06961](https://arxiv.org/abs/2511.06961)
-**代码**: 无
-**领域**: 自监督学习 / 表格数据
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.06961](https://arxiv.org/abs/2511.06961)  
+**代码**: 无  
+**领域**: 自监督学习 / 表格数据  
 **关键词**: 表格数据, 自监督学习, 混合自编码器, 遗忘软决策树, 低标签学习
 
 ## 一句话总结

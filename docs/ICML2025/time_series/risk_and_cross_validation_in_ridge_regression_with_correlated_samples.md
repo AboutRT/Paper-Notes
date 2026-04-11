@@ -1,9 +1,9 @@
 # Risk and Cross Validation in Ridge Regression with Correlated Samples
 
-**会议**: ICML2025
-**arXiv**: [2408.04607](https://arxiv.org/abs/2408.04607)
-**代码**: [Pehlevan-Group/S_transform](https://github.com/Pehlevan-Group/S_transform)
-**领域**: time_series
+**会议**: ICML2025  
+**arXiv**: [2408.04607](https://arxiv.org/abs/2408.04607)  
+**代码**: [Pehlevan-Group/S_transform](https://github.com/Pehlevan-Group/S_transform)  
+**领域**: time_series  
 **关键词**: 岭回归, 交叉验证, 相关样本, 随机矩阵理论, 自由概率, 时间序列预测, 高维渐近
 
 ## 一句话总结

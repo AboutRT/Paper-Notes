@@ -1,9 +1,9 @@
 # Linear Attention for Efficient Bidirectional Sequence Modeling
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.16249](https://arxiv.org/abs/2502.16249)
-**代码**: [GitHub](https://github.com/LIONS-EPFL/Lion) (LION Code)
-**领域**: 模型压缩
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.16249](https://arxiv.org/abs/2502.16249)  
+**代码**: [GitHub](https://github.com/LIONS-EPFL/Lion) (LION Code)  
+**领域**: 模型压缩  
 **关键词**: linear attention, bidirectional modeling, state space model, efficient transformer, RNN
 
 ## 一句话总结

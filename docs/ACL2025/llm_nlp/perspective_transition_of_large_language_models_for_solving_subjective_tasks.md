@@ -1,9 +1,9 @@
 # Perspective Transition of Large Language Models for Solving Subjective Tasks
 
-**会议**: ACL 2025
-**arXiv**: [2501.09265](https://arxiv.org/abs/2501.09265)
-**代码**: 无
-**领域**: LLM推理 / 主观任务
+**会议**: ACL 2025  
+**arXiv**: [2501.09265](https://arxiv.org/abs/2501.09265)  
+**代码**: 无  
+**领域**: LLM推理 / 主观任务  
 **关键词**: 视角转换, 主观任务, 置信度排序, ICL, 隐喻/讽刺/立场检测
 
 ## 一句话总结

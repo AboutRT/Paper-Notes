@@ -1,9 +1,9 @@
 # Rubrik's Cube: Testing a New Rubric for Evaluating Explanations on the CUBE Dataset
 
-**会议**: ACL 2025
-**arXiv**: [2503.23899](https://arxiv.org/abs/2503.23899)
-**代码**: [GitHub](https://github.com/RubriksCube/rubriks_cube)
-**领域**: LLM评估 / 解释质量
+**会议**: ACL 2025  
+**arXiv**: [2503.23899](https://arxiv.org/abs/2503.23899)  
+**代码**: [GitHub](https://github.com/RubriksCube/rubriks_cube)  
+**领域**: LLM评估 / 解释质量  
 **关键词**: explanation evaluation, rubric, LLM explanations, CUBE dataset, quality assessment, education-inspired
 
 ## 一句话总结

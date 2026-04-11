@@ -1,9 +1,9 @@
 # Beyond Semantic Search: Towards Referential Anchoring in Composed Image Retrieval
 
-**会议**: CVPR 2026
-**arXiv**: [2604.05393](https://arxiv.org/abs/2604.05393)
-**代码**: [项目页](https://hahajun1101.github.io/OACIR/) (有)
-**领域**: 目标检测/图像检索
+**会议**: CVPR 2026  
+**arXiv**: [2604.05393](https://arxiv.org/abs/2604.05393)  
+**代码**: [项目页](https://hahajun1101.github.io/OACIR/) (有)  
+**领域**: 目标检测/图像检索  
 **关键词**: 组合图像检索, 实例级一致性, 注意力调制, 细粒度检索, 视觉锚定
 
 ## 一句话总结
@@ -17,6 +17,7 @@
 5. **核心idea**：通过显式的bounding box视觉锚定 + 自适应注意力增强机制，将CIR从语义级提升到实例级。
 
 ## 方法详解
+
 ### 整体框架
 查询分支：$(I_r, B_r, T_m)$ → 图像编码器 → CAAM预测调制标量 $\beta$ → 注意力激活机制增强实例区域 → 多模态编码器 → 查询表示 $f_q$
 目标分支：$I_t$ → 图像编码器 → 多模态编码器 → 目标表示 $f_t$
@@ -46,6 +47,7 @@
 - 温度参数 $\tau = 0.07$
 
 ## 实验关键数据
+
 ### 主实验（OACIRR基准，ViT-G骨干）
 | 方法 | Fashion $R_{ID}@1$ | Car $R_{ID}@1$ | Product $R_{ID}@1$ | Landmark $R_{ID}@1$ | Avg |
 |------|-----------|----------|------------|-------------|-----|

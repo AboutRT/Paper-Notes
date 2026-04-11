@@ -1,9 +1,9 @@
 # Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes (LegoOcc)
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22667](https://arxiv.org/abs/2602.22667)
-**代码**: [https://github.com/JuIvyy/LegoOcc](https://github.com/JuIvyy/LegoOcc)
-**领域**: 自动驾驶 / 室内场景理解
+**会议**: CVPR 2026  
+**arXiv**: [2602.22667](https://arxiv.org/abs/2602.22667)  
+**代码**: [https://github.com/JuIvyy/LegoOcc](https://github.com/JuIvyy/LegoOcc)  
+**领域**: 自动驾驶 / 室内场景理解  
 **关键词**: 开放词汇占用预测, 3D高斯表示, Poisson聚合, 温度衰减, 室内场景
 
 ## 一句话总结

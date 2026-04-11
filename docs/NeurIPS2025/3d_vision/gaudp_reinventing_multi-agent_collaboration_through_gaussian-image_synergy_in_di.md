@@ -1,9 +1,9 @@
 # GauDP: Reinventing Multi-Agent Collaboration through Gaussian-Image Synergy in Diffusion Policies
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.00998](https://arxiv.org/abs/2511.00998)
-**代码**: [有](https://ziyeeee.github.io/gaudp.io/)
-**领域**: 3D视觉
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.00998](https://arxiv.org/abs/2511.00998)  
+**代码**: [有](https://ziyeeee.github.io/gaudp.io/)  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 多智能体协作, 扩散策略, 模仿学习, 机器人操作
 
 ## 一句话总结

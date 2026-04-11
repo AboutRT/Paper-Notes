@@ -1,9 +1,9 @@
 # GS-CLIP: Zero-shot 3D Anomaly Detection by Geometry-Aware Prompt and Synergistic View Representation Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19206](https://arxiv.org/abs/2602.19206)
-**代码**: [GitHub](https://github.com/zhushengxinyue/GS-CLIP)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.19206](https://arxiv.org/abs/2602.19206)  
+**代码**: [GitHub](https://github.com/zhushengxinyue/GS-CLIP)  
+**领域**: 3D视觉  
 **关键词**: 零样本3D异常检测, CLIP, 几何感知提示, 多视图融合, 点云
 
 ## 一句话总结

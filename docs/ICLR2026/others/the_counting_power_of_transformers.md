@@ -1,9 +1,9 @@
 # The Counting Power of Transformers
 
-**会议**: ICLR 2026
-**arXiv**: [2505.11199](https://arxiv.org/abs/2505.11199)
-**代码**: 无
-**领域**: Transformer 理论 / 形式语言
+**会议**: ICLR 2026  
+**arXiv**: [2505.11199](https://arxiv.org/abs/2505.11199)  
+**代码**: 无  
+**领域**: Transformer 理论 / 形式语言  
 **关键词**: Transformer 表达力, 计数性质, 半代数性质, 不可判定性, 形式语言
 
 ## 一句话总结

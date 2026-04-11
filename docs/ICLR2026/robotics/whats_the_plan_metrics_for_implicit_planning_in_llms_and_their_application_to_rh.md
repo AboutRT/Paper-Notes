@@ -1,8 +1,8 @@
 # What's the plan? Metrics for implicit planning in LLMs and their application to rhyme generation and question answering
 
-**会议**: ICLR 2026
-**arXiv**: [2601.20164](https://arxiv.org/abs/2601.20164)
-**领域**: LLM可解释性/规划
+**会议**: ICLR 2026  
+**arXiv**: [2601.20164](https://arxiv.org/abs/2601.20164)  
+**领域**: LLM可解释性/规划  
 **关键词**: 隐式规划, 前向规划, 后向规划, 引导干预, 韵律生成
 
 ## 一句话总结

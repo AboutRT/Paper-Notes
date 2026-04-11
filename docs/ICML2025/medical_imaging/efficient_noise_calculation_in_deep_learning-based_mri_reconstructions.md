@@ -1,9 +1,9 @@
 # Efficient Noise Calculation in Deep Learning-based MRI Reconstructions
 
-**会议**: ICML2025
-**arXiv**: [2505.02007](https://arxiv.org/abs/2505.02007)
-**代码**: 待发布
-**领域**: 医学影像 / 不确定性量化
+**会议**: ICML2025  
+**arXiv**: [2505.02007](https://arxiv.org/abs/2505.02007)  
+**代码**: 待发布  
+**领域**: 医学影像 / 不确定性量化  
 **关键词**: MRI 重建, 噪声传播, Jacobian Sketching, 体素方差, 不确定性量化, g-factor
 
 ## 一句话总结

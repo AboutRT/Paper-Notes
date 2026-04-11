@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # LongVideo-R1: Smart Navigation for Low-cost Long Video Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2602.20913](https://arxiv.org/abs/2602.20913)
-**代码**: [qiujihao19/LongVideo-R1](https://github.com/qiujihao19/LongVideo-R1)
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2602.20913](https://arxiv.org/abs/2602.20913)  
+**代码**: [qiujihao19/LongVideo-R1](https://github.com/qiujihao19/LongVideo-R1)  
+**领域**: 视频理解  
 **关键词**: 长视频理解, 智能导航, 多模态Agent, 层次化推理, 强化学习, Chain-of-Thought
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # A Comprehensive Graph Framework for Question Answering with Mode-Seeking Preference Alignment
 
-**会议**: ACL 2025 Findings
-**arXiv**: [2506.17951](https://arxiv.org/abs/2506.17951)
-**代码**: https://github.com/tangquanwei/GraphMPA (有)
-**领域**: NLP理解 / 问答系统
+**会议**: ACL 2025 Findings  
+**arXiv**: [2506.17951](https://arxiv.org/abs/2506.17951)  
+**代码**: https://github.com/tangquanwei/GraphMPA (有)  
+**领域**: NLP理解 / 问答系统  
 **关键词**: RAG, 层次化文档图, 偏好对齐, Mode-Seeking, 社区检测
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing
 
-**会议**: ICML2025
-**arXiv**: [2506.18587](https://arxiv.org/abs/2506.18587)
-**代码**: [GitHub - ts_ssl](https://github.com/antoinesaget/ts_ssl)
-**领域**: remote_sensing
+**会议**: ICML2025  
+**arXiv**: [2506.18587](https://arxiv.org/abs/2506.18587)  
+**代码**: [GitHub - ts_ssl](https://github.com/antoinesaget/ts_ssl)  
+**领域**: remote_sensing  
 **关键词**: 对比学习, 时间序列增强, 遥感时序, Sentinel-2, 农作物分类
 
 ## 一句话总结

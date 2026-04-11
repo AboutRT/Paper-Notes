@@ -1,9 +1,9 @@
 # Neuro-Symbolic Decoding of Neural Activity
 
-**会议**: ICLR 2026
-**arXiv**: [2603.03343](https://arxiv.org/abs/2603.03343)
-**代码**: [GitHub](https://github.com/PPWangyc/neurona)
-**领域**: 神经科学/fMRI解码
+**会议**: ICLR 2026  
+**arXiv**: [2603.03343](https://arxiv.org/abs/2603.03343)  
+**代码**: [GitHub](https://github.com/PPWangyc/neurona)  
+**领域**: 神经科学/fMRI解码  
 **关键词**: 神经符号, fMRI问答, 概念接地, 组合推理, 谓词-论元结构
 
 ## 一句话总结

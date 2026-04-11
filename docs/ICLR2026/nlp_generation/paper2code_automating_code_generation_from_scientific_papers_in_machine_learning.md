@@ -1,9 +1,9 @@
 # Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2504.17192](https://arxiv.org/abs/2504.17192)
-**代码**: [github.com/going-doer/Paper2Code](https://github.com/going-doer/Paper2Code)
-**领域**: 文本生成
+**会议**: ICLR 2026  
+**arXiv**: [2504.17192](https://arxiv.org/abs/2504.17192)  
+**代码**: [github.com/going-doer/Paper2Code](https://github.com/going-doer/Paper2Code)  
+**领域**: 文本生成  
 **关键词**: 论文转代码, 多智能体框架, 仓库级代码生成, 科学可复现性, LLM
 
 ## 一句话总结

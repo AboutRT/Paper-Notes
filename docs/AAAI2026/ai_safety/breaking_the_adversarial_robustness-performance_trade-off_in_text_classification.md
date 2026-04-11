@@ -1,9 +1,9 @@
 # Breaking the Adversarial Robustness-Performance Trade-off in Text Classification via Manifold Purification
 
-**会议**: AAAI 2026
-**arXiv**: [2511.07888](https://arxiv.org/abs/2511.07888)
-**代码**: 待确认
-**领域**: AI安全/对抗鲁棒性
+**会议**: AAAI 2026  
+**arXiv**: [2511.07888](https://arxiv.org/abs/2511.07888)  
+**代码**: 待确认  
+**领域**: AI安全/对抗鲁棒性  
 **关键词**: 对抗防御, 文本分类, 流形纠正, Normalizing Flow, 黎曼几何, OOD检测, 测地线净化
 
 ## 一句话总结

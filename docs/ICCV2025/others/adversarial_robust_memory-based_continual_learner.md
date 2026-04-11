@@ -1,9 +1,9 @@
 # Adversarial Robust Memory-Based Continual Learner
 
-**会议**: ICCV 2025
-**arXiv**: [2311.17608](https://arxiv.org/abs/2311.17608)
-**代码**: 无
-**领域**: Continual Learning / Adversarial Robustness
+**会议**: ICCV 2025  
+**arXiv**: [2311.17608](https://arxiv.org/abs/2311.17608)  
+**代码**: 无  
+**领域**: Continual Learning / Adversarial Robustness  
 **关键词**: 持续学习, 对抗鲁棒性, 经验回放, Logit 校准, 梯度混淆
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # GeodesicNVS: Probability Density Geodesic Flow Matching for Novel View Synthesis
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01010](https://arxiv.org/abs/2603.01010)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.01010](https://arxiv.org/abs/2603.01010)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 新视角合成, Flow Matching, 测地线, 概率密度流形, 数据到数据映射
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # GKGNet: Group K-Nearest Neighbor Based Graph Convolutional Network for Multi-Label Image Recognition
 
-**会议**: ECCV2024
-**arXiv**: [2308.14378](https://arxiv.org/abs/2308.14378)
-**代码**: [jin-s13/GKGNet](https://github.com/jin-s13/GKGNet)
-**领域**: graph_learning
+**会议**: ECCV2024  
+**arXiv**: [2308.14378](https://arxiv.org/abs/2308.14378)  
+**代码**: [jin-s13/GKGNet](https://github.com/jin-s13/GKGNet)  
+**领域**: graph_learning  
 **关键词**: multi-label image recognition, graph convolutional network, group KNN, label-region correlation
 
 ## 一句话总结

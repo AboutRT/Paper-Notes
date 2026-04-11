@@ -1,9 +1,9 @@
 # DiP: Taming Diffusion Models in Pixel Space
 
-**会议**: CVPR 2026
-**arXiv**: [2511.18822](https://arxiv.org/abs/2511.18822)
-**代码**: [GitHub](https://github.com/NJU-PCALab/DiP) (有)
-**领域**: Image Generation / 像素空间扩散
+**会议**: CVPR 2026  
+**arXiv**: [2511.18822](https://arxiv.org/abs/2511.18822)  
+**代码**: [GitHub](https://github.com/NJU-PCALab/DiP) (有)  
+**领域**: Image Generation / 像素空间扩散  
 **关键词**: 像素空间扩散, Patch Detailer Head, 全局-局部解耦, 端到端生成, 高效推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Discrepancy Minimization in Input-Sparsity Time
 
-**会议**: ICML2025
-**arXiv**: [2210.12468](https://arxiv.org/abs/2210.12468)
-**代码**: 无（纯理论工作）
-**领域**: 其他/理论（组合优化、随机线性代数）
+**会议**: ICML2025  
+**arXiv**: [2210.12468](https://arxiv.org/abs/2210.12468)  
+**代码**: 无（纯理论工作）  
+**领域**: 其他/理论（组合优化、随机线性代数）  
 **关键词**: discrepancy minimization, input-sparsity time, leverage score sampling, sketching, Edge-Walk, partial coloring, fast matrix multiplication
 
 ## 一句话总结

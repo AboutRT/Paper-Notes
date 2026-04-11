@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**💬 ACL2025** · 共 **2** 篇
+**💬 ACL2025** · 共 **3** 篇
 
 **[DEF-DTS: Deductive Reasoning for Open-domain Dialogue Topic Segmentation](def-dts_deductive_reasoning_for_open-domain_dialogue_topic_segmentation.md)**
 
@@ -10,3 +10,7 @@
 **[InstructPart: Task-Oriented Part Segmentation with Instruction Reasoning](instructpart_task-oriented_part_segmentation_with_instruction_reasoning.md)**
 
 :   提出 InstructPart，首个将任务导向指令与部件级分割结合的真实世界 benchmark——2400 张图像、48 类物体、44 类部件、9600 条人工标注的任务指令，评估发现当前 VLM 在指令驱动的部件分割上严重不足，基于 LISA+DINOv2 的 baseline 微调后性能提升约 100%。
+
+**[Pixel-Level Reasoning Segmentation via Multi-turn Conversations](pixel-level_reasoning_segmentation_via_multi-turn_conversations.md)**
+
+:   提出像素级推理分割（Pixel-level RS）新任务，通过多轮对话逐步理解用户意图，实现细粒度的像素级分割，并构建了包含24k句话、8.3k多轮对话场景的PRIST数据集和MIRAS框架。

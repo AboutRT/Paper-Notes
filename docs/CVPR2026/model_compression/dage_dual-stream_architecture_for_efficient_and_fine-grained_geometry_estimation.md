@@ -1,9 +1,9 @@
 # DAGE: Dual-Stream Architecture for Efficient and Fine-Grained Geometry Estimation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.03744](https://arxiv.org/abs/2603.03744)
-**代码**: [https://github.com/dage-site](https://github.com/dage-site) (有)
-**领域**: 模型压缩
+**会议**: CVPR 2026  
+**arXiv**: [2603.03744](https://arxiv.org/abs/2603.03744)  
+**代码**: [https://github.com/dage-site](https://github.com/dage-site) (有)  
+**领域**: 模型压缩  
 **关键词**: 多视图几何估计, 双流 Transformer, 深度估计, 知识蒸馏, 高分辨率推理
 
 ## 一句话总结

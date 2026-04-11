@@ -1,9 +1,9 @@
 # ALMGuard: Safety Shortcuts and Where to Find Them as Guardrails for Audio-Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.26096](https://arxiv.org/abs/2510.26096)
-**代码**: [GitHub](https://github.com/WeifeiJin/ALMGuard)
-**领域**: AI安全 / 音频语言模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.26096](https://arxiv.org/abs/2510.26096)  
+**代码**: [GitHub](https://github.com/WeifeiJin/ALMGuard)  
+**领域**: AI安全 / 音频语言模型  
 **关键词**: 音频越狱, 安全快捷路径, Mel梯度稀疏掩码, 声学扰动, ALM防御
 
 ## 一句话总结

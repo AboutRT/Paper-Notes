@@ -1,9 +1,9 @@
 # RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model
 
-**会议**: ICCV2025
-**arXiv**: [2411.17984](https://arxiv.org/abs/2411.17984)
-**代码**: [iecashhy/RS-vHeat](https://github.com/iecashhy/RS-vHeat)
-**领域**: remote_sensing
+**会议**: ICCV2025  
+**arXiv**: [2411.17984](https://arxiv.org/abs/2411.17984)  
+**代码**: [iecashhy/RS-vHeat](https://github.com/iecashhy/RS-vHeat)  
+**领域**: remote_sensing  
 **关键词**: 遥感基础模型, 热传导, 自监督学习, 频域掩码, 多模态
 
 ## 一句话总结

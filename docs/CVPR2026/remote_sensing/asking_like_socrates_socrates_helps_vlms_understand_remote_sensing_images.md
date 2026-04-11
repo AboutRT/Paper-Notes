@@ -1,9 +1,9 @@
 # Asking like Socrates: Socrates helps VLMs understand remote sensing images
 
-**会议**: CVPR 2026
-**arXiv**: [2511.22396](https://arxiv.org/abs/2511.22396)
-**代码**: https://geox-lab.github.io/Asking_like_Socrates (有)
-**领域**: 遥感 / 多模态推理
+**会议**: CVPR 2026  
+**arXiv**: [2511.22396](https://arxiv.org/abs/2511.22396)  
+**代码**: https://geox-lab.github.io/Asking_like_Socrates (有)  
+**领域**: 遥感 / 多模态推理  
 **关键词**: 遥感图像理解, 证据链推理, 伪推理问题, Socratic方法, 两阶段强化学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Agentic Knowledgeable Self-Awareness
 
-**会议**: ACL 2025
-**arXiv**: [2504.03553](https://arxiv.org/abs/2504.03553)
-**代码**: https://github.com/zjunlp/KnowSelf
-**领域**: LLM Agent / 智能体规划
+**会议**: ACL 2025  
+**arXiv**: [2504.03553](https://arxiv.org/abs/2504.03553)  
+**代码**: https://github.com/zjunlp/KnowSelf  
+**领域**: LLM Agent / 智能体规划  
 **关键词**: agent planning, self-awareness, special tokens, knowledge utilization, two-stage training
 
 ## 一句话总结

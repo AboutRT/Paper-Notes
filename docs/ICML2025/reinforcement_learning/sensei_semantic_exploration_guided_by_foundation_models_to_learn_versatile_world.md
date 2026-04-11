@@ -1,9 +1,9 @@
 # SENSEI: Semantic Exploration Guided by Foundation Models to Learn Versatile World Models
 
-**会议**: ICML2025
-**arXiv**: [2503.01584](https://arxiv.org/abs/2503.01584)
-**代码**: [项目主页](https://sites.google.com/view/sensei-paper)
-**领域**: 世界模型 / 内在探索
+**会议**: ICML2025  
+**arXiv**: [2503.01584](https://arxiv.org/abs/2503.01584)  
+**代码**: [项目主页](https://sites.google.com/view/sensei-paper)  
+**领域**: 世界模型 / 内在探索  
 **关键词**: 世界模型, 内在动机, VLM引导探索, 语义奖励蒸馏, Model-based RL, DreamerV3
 
 ## 一句话总结

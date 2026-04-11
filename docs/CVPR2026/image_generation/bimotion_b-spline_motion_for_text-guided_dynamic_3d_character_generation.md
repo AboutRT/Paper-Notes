@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BiMotion: B-spline Motion for Text-guided Dynamic 3D Character Generation
 
-**会议**: CVPR2026
-**arXiv**: [2602.18873](https://arxiv.org/abs/2602.18873)
-**代码**: [项目主页](https://wangmiaowei.github.io/BiMotion.github.io/)
-**领域**: 图像生成 / 动态3D生成
+**会议**: CVPR2026  
+**arXiv**: [2602.18873](https://arxiv.org/abs/2602.18873)  
+**代码**: [项目主页](https://wangmiaowei.github.io/BiMotion.github.io/)  
+**领域**: 图像生成 / 动态3D生成  
 **关键词**: B-spline, 运动生成, 文本引导, 3D角色动画, VAE-latent diffusion, 控制点表示
 
 ## 一句话总结

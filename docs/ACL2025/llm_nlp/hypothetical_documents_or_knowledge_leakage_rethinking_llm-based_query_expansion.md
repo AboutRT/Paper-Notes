@@ -1,9 +1,9 @@
 # Hypothetical Documents or Knowledge Leakage? Rethinking LLM-based Query Expansion
 
-**会议**: ACL2025
-**arXiv**: [2504.14175](https://arxiv.org/abs/2504.14175)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2504.14175](https://arxiv.org/abs/2504.14175)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: 查询扩展, 知识泄露, 事实验证, HyDE, Query2doc, 零样本检索
 
 ## 一句话总结

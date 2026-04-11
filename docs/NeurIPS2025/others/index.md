@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧠 NeurIPS2025** · 共 **91** 篇
+**🧠 NeurIPS2025** · 共 **98** 篇
 
 **[4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)**
 
@@ -307,6 +307,10 @@
 
 :   令人惊讶地，纯RL训练无需显式PRM监督即可诱发出强大的过程理解能力，且现有PRMs在SOTA模型上甚至不如简单多数投票有效。
 
+**[Learning-Augmented Online Bipartite Fractional Matching](learning-augmented_online_bipartite_fractional_matching.md)**
+
+:   本文提出了两个学习增强算法（LAB 和 PAW），用于在线二部分数匹配问题，在给定可能不准确的建议匹配的情况下，首次在整个鲁棒性范围内 Pareto 优于朴素的 CoinFlip 策略。
+
 **[Learning Dynamics of RNNs in Closed-Loop Environments](learning_dynamics_of_rnns_in_closed-loop_environments.md)**
 
 :   从数学理论上揭示了 RNN 在闭环（agent-环境交互）与开环（监督学习）训练下呈现根本不同的学习动力学，闭环学习遵循三阶段过程，由短期策略改进与长期稳定性之间的竞争驱动。
@@ -351,6 +355,10 @@
 
 :   提出Value-Guided Search(VGS)——通过token级价值模型指导块级束搜索，无需预定义"步骤"，相对多数投票在竞赛数学上准确度提升+14.5%，同时推理计算效率提升30%，超越现有PRM方案。
 
+**[Redundancy-Aware Test-Time Graph Out-of-Distribution Detection](redundancy-aware_test-time_graph_out-of-distribution_detection.md)**
+
+:   提出 RedOUT 框架，通过最小化结构熵构建编码树来消除图结构中的冗余信息，结合冗余感知图信息瓶颈(ReGIB)原理，在测试时无需修改预训练模型参数即可有效区分ID和OOD图样本，在10个数据集对上平均AUC达87.46%。
+
 **[笔记5：ReSearch - 学习通过搜索推理](research_learning_to_reason_with_search_for_llms_via_reinforcement_learning.md)**
 
 :   ReSearch框架将搜索操作嵌入推理链中作为第一类原语，通过GRPO强化学习自动学习何时何如搜索，无需任何推理步骤的监督标注，在多跳QA任务上相对基线平均提升15.81%。
@@ -359,9 +367,29 @@
 
 :   系统研究了按需采样（on-demand sampling）中样本复杂度与自适应轮次之间的权衡关系，在可实现设定下证明 $r$ 轮算法的最优样本复杂度为 $dk^{\Theta(1/r)}/\varepsilon$，在不可知设定下提出仅需 $\widetilde{O}(\sqrt{k})$ 轮即可达近最优样本复杂度的LazyHedge算法，并引入OODS抽象框架建立了近紧的轮次复杂度下界。
 
+**[Statistical Inference for Gradient Boosting Regression](statistical_inference_for_gradient_boosting_regression.md)**
+
+:   提出统一的梯度提升回归统计推断框架，通过将dropout和并行训练整合到Boulevard正则化中，证明了相应的中心极限定理，从而构建了内置的置信区间、预测区间和变量重要性假设检验，并发现增大dropout率和并行树数量能显著提升信号恢复（最高达2倍和4倍）。
+
+**[Statistical Inference Under Performativity](statistical_inference_under_performativity.md)**
+
+:   建立了表演性预测（performative prediction）下的端到端统计推断框架：为重复风险最小化（RRM）算法推导中心极限定理，提出数据驱动的协方差估计方法，并将预测驱动推断（PPI）推广到表演性设置以获得更精确的估计和更紧的置信区间。
+
+**[The Persistence of Neural Collapse Despite Low-Rank Bias](the_persistence_of_neural_collapse_despite_low-rank_bias.md)**
+
+:   本文从理论上证明了深度神经坍缩（DNC）在深层无约束特征模型中由于 L2 正则化引起的低秩偏差而全局次优，同时首次解释了 DNC 在实践中持续出现的原因——其解空间维度随网络宽度增长快于低秩解。
+
 **[Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression](transfer_learning_for_benign_overfitting_in_high-dimensional_linear_regression.md)**
 
 :   提出两步式Transfer MNI方法，在高维过参数化线性回归中通过"保留目标信号+零空间迁移源知识"机制增强良性过拟合的泛化能力，刻画了模型偏移和协变量偏移下的非渐近excess risk，并发现了"免费午餐"协变量偏移区间。
+
+**[Uncertainty Estimation by Flexible Evidential Deep Learning](uncertainty_estimation_by_flexible_evidential_deep_learning.md)**
+
+:   提出 $\mathcal{F}$-EDL，通过将 EDL 中的 Dirichlet 分布推广为 Flexible Dirichlet (FD) 分布来建模类别概率分布，从而在保持单次前向传播效率的同时，显著增强不确定性估计在噪声、长尾、分布偏移等复杂场景下的泛化能力。
+
+**[Variational Regularized Unbalanced Optimal Transport: Single Network, Least Action](variational_regularized_unbalanced_optimal_transport_single_network_least_action.md)**
+
+:   提出 Var-RUOT，通过将正则化非平衡最优传输（RUOT）问题的最优性必要条件融入参数化和损失设计，仅需学习单个标量场即可求解 RUOT，获得更低作用量的解并提升训练稳定性；同时分析了增长惩罚函数对生物先验的影响。
 
 **[笔记4：WebThinker - 赋予推理模型深度研究能力](webthinker_empowering_large_reasoning_models_with_deep_research_capability.md)**
 

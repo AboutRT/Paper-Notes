@@ -1,9 +1,9 @@
 # Inference-Time Safety For Code LLMs Via Retrieval-Augmented Revision
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01494](https://arxiv.org/abs/2603.01494)
-**代码**: 无
-**领域**: 代码安全/RAG
+**会议**: ICLR 2026  
+**arXiv**: [2603.01494](https://arxiv.org/abs/2603.01494)  
+**代码**: 无  
+**领域**: 代码安全/RAG  
 **关键词**: 代码安全, 推理时修正, Stack Overflow, 检索增强, 漏洞修复
 
 ## 一句话总结

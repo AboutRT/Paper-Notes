@@ -1,9 +1,9 @@
 # Scaling Offline RL via Efficient and Expressive Shortcut Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.22866](https://arxiv.org/abs/2505.22866)
-**代码**: [nico-espinosadice.github.io/projects/sorl](https://nico-espinosadice.github.io/projects/sorl) (有)
-**领域**: 图像生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.22866](https://arxiv.org/abs/2505.22866)  
+**代码**: [nico-espinosadice.github.io/projects/sorl](https://nico-espinosadice.github.io/projects/sorl) (有)  
+**领域**: 图像生成  
 **关键词**: Offline RL, Shortcut Models, Flow Matching, Self-Consistency, Test-time Scaling
 
 ## 一句话总结

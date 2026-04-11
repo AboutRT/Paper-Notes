@@ -1,9 +1,9 @@
 # On Measuring Long-Range Interactions in Graph Neural Networks
 
-**会议**: ICML2025
-**arXiv**: [2506.05971](https://arxiv.org/abs/2506.05971)
-**代码**: 待确认
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2506.05971](https://arxiv.org/abs/2506.05971)  
+**代码**: 待确认  
+**领域**: graph_learning  
 **关键词**: 长距离交互, GNN表达力, range measure, 消息传递, 图基准
 
 ## 一句话总结

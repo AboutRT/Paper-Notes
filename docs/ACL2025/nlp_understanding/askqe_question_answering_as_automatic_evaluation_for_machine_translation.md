@@ -1,9 +1,9 @@
 # AskQE: Question Answering as Automatic Evaluation for Machine Translation
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2504.11582](https://arxiv.org/abs/2504.11582)
-**代码**: [GitHub](https://github.com/dayeonki/askqe)
-**领域**: NLP理解/机器翻译
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2504.11582](https://arxiv.org/abs/2504.11582)  
+**代码**: [GitHub](https://github.com/dayeonki/askqe)  
+**领域**: NLP理解/机器翻译  
 **关键词**: machine translation evaluation, quality estimation, question answering, QA-based evaluation, error detection
 
 ## 一句话总结

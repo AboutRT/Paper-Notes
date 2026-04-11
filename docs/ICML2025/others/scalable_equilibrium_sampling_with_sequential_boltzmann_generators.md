@@ -1,9 +1,9 @@
 # Scalable Equilibrium Sampling with Sequential Boltzmann Generators
 
-**会议**: ICML2025
-**arXiv**: [2502.18462](https://arxiv.org/abs/2502.18462)
-**代码**: [GitHub](https://github.com/transferable-samplers/transferable-samplers)
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2502.18462](https://arxiv.org/abs/2502.18462)  
+**代码**: [GitHub](https://github.com/transferable-samplers/transferable-samplers)  
+**领域**: others  
 **关键词**: Boltzmann生成器, 规范化流, 分子采样, 退火Langevin动力学, 蛋白质肽链
 
 ## 一句话总结

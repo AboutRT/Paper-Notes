@@ -1,9 +1,9 @@
 # Evolve to Inspire: Novelty Search for Diverse Image Generation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.00686](https://arxiv.org/abs/2511.00686)
-**代码**: 未公开
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.00686](https://arxiv.org/abs/2511.00686)  
+**代码**: 未公开  
+**领域**: image_generation  
 **关键词**: 新颖性搜索, 图像多样性, 进化策略, 提示优化, CLIP
 
 ## 一句话总结

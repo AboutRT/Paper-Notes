@@ -1,9 +1,9 @@
 # Sound Logical Explanations for Mean Aggregation Graph Neural Networks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.11593](https://arxiv.org/abs/2511.11593)
-**代码**: 无
-**领域**: graph_neural_networks / AI_theory
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.11593](https://arxiv.org/abs/2511.11593)  
+**代码**: 无  
+**领域**: graph_neural_networks / AI_theory  
 **关键词**: 图神经网络, 可解释性, 逻辑规则, 均值聚合, 知识图谱补全
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: MAGNN 能表达超越 FOL 的逻辑函数，但其 sound 单调规则形式非常受限——所有 sound ELUQ 规则都可被一组极简规则子覆盖（subsume），并可用有限搜索空间枚举验证。
 
 ## 方法详解
+
 ### 整体框架
 工作分为两大理论贡献：
 1. **Theorem 3**：精确刻画哪些单调规则（ELUQ 规则）可以是 MAGNN 的 sound 规则——任何 sound ELUQ 规则都可被一组形如 `∃P₁.⊤ ⊓ ... ⊓ ∃Pⱼ.⊤ ⊓ A₁ ⊓ ... ⊓ Aₖ ⊑ Aₖ₊₁` 的简单规则子覆盖
@@ -53,6 +54,7 @@
 - 分类阈值在验证集上网格搜索（10⁸ 个候选）
 
 ## 实验关键数据
+
 ### 主实验
 
 **模型性能（Mean-GNN, 标准 vs 非负权重）**:

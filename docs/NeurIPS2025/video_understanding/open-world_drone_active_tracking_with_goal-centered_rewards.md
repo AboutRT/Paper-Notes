@@ -1,9 +1,9 @@
 # Open-World Drone Active Tracking with Goal-Centered Rewards
 
-**会议**: NeurIPS 2025
-**arXiv**: [2412.00744](https://arxiv.org/abs/2412.00744)
-**代码**: [DAT_Benchmark](https://github.com/SHWplus/DAT_Benchmark) (有)
-**领域**: 视频理解 / 无人机跟踪
+**会议**: NeurIPS 2025  
+**arXiv**: [2412.00744](https://arxiv.org/abs/2412.00744)  
+**代码**: [DAT_Benchmark](https://github.com/SHWplus/DAT_Benchmark) (有)  
+**领域**: 视频理解 / 无人机跟踪  
 **关键词**: Drone Active Tracking, Reinforcement Learning, Goal-Centered Reward, Curriculum Learning, Open-World Benchmark
 
 ## 一句话总结

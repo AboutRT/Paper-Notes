@@ -1,9 +1,9 @@
 # ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.05051](https://arxiv.org/abs/2602.05051)
-**代码**: [项目页面](https://mit-realm.github.io/reform/)
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.05051](https://arxiv.org/abs/2602.05051)  
+**代码**: [项目页面](https://mit-realm.github.io/reform/)  
+**领域**: 强化学习  
 **关键词**: 离线强化学习, Flow Matching, 支撑约束, 反射流, OOD问题
 
 ## 一句话总结

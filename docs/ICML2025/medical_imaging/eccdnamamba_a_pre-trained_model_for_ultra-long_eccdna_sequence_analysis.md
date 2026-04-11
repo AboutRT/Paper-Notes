@@ -1,9 +1,9 @@
 # eccDNAMamba: A Pre-Trained Model for Ultra-Long eccDNA Sequence Analysis
 
-**会议**: ICML 2025
-**arXiv**: [2506.18940](https://arxiv.org/abs/2506.18940)
-**代码**: [https://github.com/zzq1zh/GenAI-Lab](https://github.com/zzq1zh/GenAI-Lab)
-**领域**: 基因组学 / 计算生物学
+**会议**: ICML 2025  
+**arXiv**: [2506.18940](https://arxiv.org/abs/2506.18940)  
+**代码**: [https://github.com/zzq1zh/GenAI-Lab](https://github.com/zzq1zh/GenAI-Lab)  
+**领域**: 基因组学 / 计算生物学  
 **关键词**: 染色体外环状DNA, 状态空间模型, Mamba-2, 双向编码器, 基因组预训练, 超长序列建模, BPE分词
 
 ## 一句话总结

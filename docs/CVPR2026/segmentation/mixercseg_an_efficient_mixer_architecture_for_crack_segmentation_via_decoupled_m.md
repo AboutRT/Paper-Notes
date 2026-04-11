@@ -1,9 +1,9 @@
 # MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01361](https://arxiv.org/abs/2603.01361)
-**代码**: [GitHub](https://github.com/spiderforest/MixerCSeg)
-**领域**: 分割 / 裂缝分割
+**会议**: CVPR 2026  
+**arXiv**: [2603.01361](https://arxiv.org/abs/2603.01361)  
+**代码**: [GitHub](https://github.com/spiderforest/MixerCSeg)  
+**领域**: 分割 / 裂缝分割  
 **关键词**: 裂缝分割, 混合架构, Mamba注意力解耦, 方向引导边缘卷积, 轻量高效
 
 ## 一句话总结

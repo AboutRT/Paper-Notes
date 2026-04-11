@@ -1,9 +1,9 @@
 # Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals
 
-**会议**: ICML2025
-**arXiv**: [2505.21750](https://arxiv.org/abs/2505.21750)
-**代码**: 待确认
-**领域**: 图像生成 / 强化学习
+**会议**: ICML2025  
+**arXiv**: [2505.21750](https://arxiv.org/abs/2505.21750)  
+**代码**: 待确认  
+**领域**: 图像生成 / 强化学习  
 **关键词**: 层次强化学习, 扩散模型, 高斯过程, 子目标生成, 不确定性量化, 连续控制
 
 ## 一句话总结

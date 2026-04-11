@@ -1,9 +1,9 @@
 # Revisiting Bi-Linear State Transitions in Recurrent Neural Networks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.21749](https://arxiv.org/abs/2505.21749)
-**代码**: 无
-**领域**: 序列建模 / 循环神经网络
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.21749](https://arxiv.org/abs/2505.21749)  
+**代码**: 无  
+**领域**: 序列建模 / 循环神经网络  
 **关键词**: Bilinear RNN, State Tracking, Finite Automata, Multiplicative Interaction, Parity
 
 ## 一句话总结

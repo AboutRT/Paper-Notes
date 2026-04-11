@@ -1,9 +1,9 @@
 # Keep It Real: Challenges in Attacking Compression-Based Adversarial Purification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2508.05489](https://arxiv.org/abs/2508.05489)
-**代码**: 无
-**领域**: AI Safety
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.05489](https://arxiv.org/abs/2508.05489)  
+**代码**: 无  
+**领域**: AI Safety  
 **关键词**: 对抗鲁棒性, 图像压缩, 对抗净化, 真实感重建, 自适应攻击
 
 ## 一句话总结

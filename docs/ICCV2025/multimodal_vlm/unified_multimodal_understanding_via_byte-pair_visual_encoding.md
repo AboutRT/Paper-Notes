@@ -1,9 +1,9 @@
 # Unified Multimodal Understanding via Byte-Pair Visual Encoding
 
-**会议**: ICCV2025
-**arXiv**: [2506.23639](https://arxiv.org/abs/2506.23639)
-**代码**: https://beingbeyond.github.io/Being-VL-0.5
-**领域**: 多模态VLM
+**会议**: ICCV2025  
+**arXiv**: [2506.23639](https://arxiv.org/abs/2506.23639)  
+**代码**: https://beingbeyond.github.io/Being-VL-0.5  
+**领域**: 多模态VLM  
 **关键词**: BPE Visual Tokenization, Discrete Visual Tokens, Multimodal LLM, Vocabulary Construction, Curriculum Training
 
 ## 一句话总结

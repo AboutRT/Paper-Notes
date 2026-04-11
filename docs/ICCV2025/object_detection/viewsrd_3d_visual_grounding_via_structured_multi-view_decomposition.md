@@ -1,9 +1,9 @@
 # ViewSRD: 3D Visual Grounding via Structured Multi-View Decomposition
 
-**会议**: ICCV 2025
-**arXiv**: [2507.11261](https://arxiv.org/abs/2507.11261)
-**代码**: https://github.com/visualjason/ViewSRD
-**领域**: 目标检测
+**会议**: ICCV 2025  
+**arXiv**: [2507.11261](https://arxiv.org/abs/2507.11261)  
+**代码**: https://github.com/visualjason/ViewSRD  
+**领域**: 目标检测  
 **关键词**: 3D视觉定位, 多视角, 查询分解, 跨模态视角token, 空间推理
 
 ## 一句话总结

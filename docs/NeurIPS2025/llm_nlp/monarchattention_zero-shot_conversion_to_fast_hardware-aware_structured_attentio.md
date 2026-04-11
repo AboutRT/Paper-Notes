@@ -1,9 +1,9 @@
 # MonarchAttention: Zero-Shot Conversion to Fast, Hardware-Aware Structured Attention
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.18698](https://arxiv.org/abs/2505.18698)
-**代码**: [GitHub](https://github.com/cjyaras/monarch-attention)
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.18698](https://arxiv.org/abs/2505.18698)  
+**代码**: [GitHub](https://github.com/cjyaras/monarch-attention)  
+**领域**: llm_nlp  
 **关键词**: efficient attention, Monarch matrices, sub-quadratic attention, structured matrices, hardware-aware, zero-shot conversion
 
 ## 一句话总结

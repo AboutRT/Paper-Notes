@@ -1,9 +1,9 @@
 # QuadGPT: Native Quadrilateral Mesh Generation with Autoregressive Models
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21420](https://arxiv.org/abs/2509.21420)
-**代码**: 无
-**领域**: 3D生成/网格生成
+**会议**: ICLR 2026  
+**arXiv**: [2509.21420](https://arxiv.org/abs/2509.21420)  
+**代码**: 无  
+**领域**: 3D生成/网格生成  
 **关键词**: 四边形网格, 自回归生成, 混合拓扑, 强化学习微调, 端到端
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Heterogeneous Swarms: Jointly Optimizing Model Roles and Weights for Multi-LLM Systems
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.04510](https://arxiv.org/abs/2502.04510)
-**代码**: https://github.com/BunsenFeng/heterogeneous_swarm (有)
-**领域**: 多LLM系统 / 图优化
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.04510](https://arxiv.org/abs/2502.04510)  
+**代码**: https://github.com/BunsenFeng/heterogeneous_swarm (有)  
+**领域**: 多LLM系统 / 图优化  
 **关键词**: Multi-LLM系统, 粒子群优化, DAG图学习, 模型协作, 角色与权重联合优化
 
 ## 一句话总结
@@ -110,10 +110,10 @@
 - 价值: ⭐⭐⭐⭐ 提供了多LLM协作的系统性优化框架，但实际部署时的计算开销是关键瓶颈
 # Heterogeneous Swarms: Jointly Optimizing Model Roles and Weights for Multi-LLM Systems
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.04510](https://arxiv.org/abs/2502.04510)
-**代码**: https://github.com/BunsenFeng/heterogeneous_swarm (有)
-**领域**: 多LLM系统 / 图学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.04510](https://arxiv.org/abs/2502.04510)  
+**代码**: https://github.com/BunsenFeng/heterogeneous_swarm (有)  
+**领域**: 多LLM系统 / 图学习  
 **关键词**: 多LLM协作, 粒子群优化, DAG结构学习, 模型角色优化, 模型权重优化
 
 ## 一句话总结

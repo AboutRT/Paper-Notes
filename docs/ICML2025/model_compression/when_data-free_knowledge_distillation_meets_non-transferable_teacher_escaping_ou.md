@@ -1,9 +1,9 @@
 # When Data-Free Knowledge Distillation Meets Non-Transferable Teacher: Escaping Out-of-Distribution
 
-**会议**: ICML 2025
-**arXiv**: [2507.04119](https://arxiv.org/abs/2507.04119)
-**代码**: 无
-**领域**: 模型压缩/知识蒸馏
+**会议**: ICML 2025  
+**arXiv**: [2507.04119](https://arxiv.org/abs/2507.04119)  
+**代码**: 无  
+**领域**: 模型压缩/知识蒸馏  
 **关键词**: 无数据知识蒸馏, 不可迁移教师, 分布外样本, 数据隐私, 模型压缩
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MRD: Multi-resolution Retrieval-Detection Fusion for High-Resolution Image Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2512.02906](https://arxiv.org/abs/2512.02906)
-**代码**: [yf0412/MRD](https://github.com/yf0412/MRD)
-**领域**: 目标检测 / 高分辨率图像理解
+**会议**: CVPR2026  
+**arXiv**: [2512.02906](https://arxiv.org/abs/2512.02906)  
+**代码**: [yf0412/MRD](https://github.com/yf0412/MRD)  
+**领域**: 目标检测 / 高分辨率图像理解  
 **关键词**: 高分辨率图像理解, 多模态大模型, 检索增强感知, 开放词汇检测, 多分辨率融合, training-free
 
 ## 一句话总结

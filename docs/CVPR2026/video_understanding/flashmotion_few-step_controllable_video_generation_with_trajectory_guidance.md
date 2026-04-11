@@ -1,9 +1,9 @@
 # FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12146](https://arxiv.org/abs/2603.12146)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.12146](https://arxiv.org/abs/2603.12146)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 轨迹可控视频生成, 蒸馏加速, 少步推理, 对抗训练, 扩散模型
 
 > ⚠️ 本笔记基于 arXiv 摘要撰写（本地缓存仅含摘要页，~4.7KB），方法和实验细节有限。

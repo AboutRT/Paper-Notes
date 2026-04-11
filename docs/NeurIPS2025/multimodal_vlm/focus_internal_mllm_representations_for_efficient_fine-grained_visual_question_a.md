@@ -1,9 +1,9 @@
 # FOCUS: Internal MLLM Representations for Efficient Fine-Grained Visual Question Answering
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.21710](https://arxiv.org/abs/2506.21710)
-**代码**: https://focus-mllm-vqa.github.io (项目页)
-**领域**: multimodal_vlm
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.21710](https://arxiv.org/abs/2506.21710)  
+**代码**: https://focus-mllm-vqa.github.io (项目页)  
+**领域**: multimodal_vlm  
 **关键词**: 细粒度VQA, 视觉裁剪, KV-Cache, 目标定位, MLLM
 
 ## 一句话总结

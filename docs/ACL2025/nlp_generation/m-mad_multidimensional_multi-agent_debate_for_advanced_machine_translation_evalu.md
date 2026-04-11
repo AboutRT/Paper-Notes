@@ -1,9 +1,9 @@
 # M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation
 
-**会议**: ACL2025
-**arXiv**: [2412.20127](https://arxiv.org/abs/2412.20127)
-**代码**: [SU-JIAYUAN/M-MAD](https://github.com/SU-JIAYUAN/M-MAD)
-**领域**: nlp_generation
+**会议**: ACL2025  
+**arXiv**: [2412.20127](https://arxiv.org/abs/2412.20127)  
+**代码**: [SU-JIAYUAN/M-MAD](https://github.com/SU-JIAYUAN/M-MAD)  
+**领域**: nlp_generation  
 **关键词**: 机器翻译评估, 多智能体辩论, LLM-as-a-judge, MQM, 多维度评估
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24510](https://arxiv.org/abs/2509.24510)
-**代码**: 无
-**领域**: 模型压缩 / 测试时训练
+**会议**: ICLR 2026  
+**arXiv**: [2509.24510](https://arxiv.org/abs/2509.24510)  
+**代码**: 无  
+**领域**: 模型压缩 / 测试时训练  
 **关键词**: Test-Time Training, 线性表示假说, 稀疏自编码器, 泛化后特化, 基础模型
 
 ## 一句话总结

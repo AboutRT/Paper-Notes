@@ -1,9 +1,9 @@
 # Heterogeneous Adversarial Play in Interactive Environments
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.18407](https://arxiv.org/abs/2510.18407)
-**代码**: [项目页](https://sites.google.com/view/hap-learning)
-**领域**: 课程学习 / 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.18407](https://arxiv.org/abs/2510.18407)  
+**代码**: [项目页](https://sites.google.com/view/hap-learning)  
+**领域**: 课程学习 / 强化学习  
 **关键词**: 对抗课程学习, 异构自博弈, teacher-student, 多任务RL, 自适应课程
 
 ## 一句话总结

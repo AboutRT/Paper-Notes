@@ -1,11 +1,19 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📹 ICCV2025** · 共 **10** 篇
+**📹 ICCV2025** · 共 **16** 篇
 
 **[AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images](aczerots_active_learning_for_zeroshot_tissue_segmentation_in.md)**
 
 :   提出AcZeroTS框架，将主动学习与基于VLM的原型引导零样本分割模型ProZS结合，通过同时考虑不确定性、多样性和原型覆盖unseen类的能力来选择最有价值的标注样本，以最少标注实现seen和unseen组织类型的高质量分割。
+
+**[Alleviating Textual Reliance in Medical Language-guided Segmentation via Prototype-driven Semantic Approximation](alleviating_textual_reliance_in_medical_language-guided_segmentation_via_prototy.md)**
+
+:   提出ProLearn框架，首次通过原型驱动的语义近似（PSA）模块从根本上缓解医学语言引导分割对文本的依赖——仅需少量图文配对数据初始化原型空间，训练和推理均可无文本输入，在1%文本可用性下仍保持强劲性能（QaTa-COV19 Dice=0.857），且参数量比LLM方案减少1000倍，推理速度快100倍。
+
+**[An OpenMind for 3D Medical Vision Self-Supervised Learning](an_openmind_for_3d_medical_vision_self-supervised_learning.md)**
+
+:   发布了最大的公开 3D 医学影像预训练数据集 OpenMind（114k 脑部 MRI），并系统性地对比了多种 3D 自监督学习方法在 CNN（ResEnc-L）和 Transformer（Primus-M）上的表现，证明 MAE 预训练在分割任务上最优、对比学习在分类任务上最优，且首次展示预训练 Transformer 可在部分数据集上超越从头训练的 CNN。
 
 **[An OpenMind for 3D Medical Vision Self-supervised Learning](an_openmind_for_3d_medical_vision_selfsupervised_learning.md)**
 
@@ -18,6 +26,18 @@
 **[Boosting Vision Semantic Density with Anatomy Normality Modeling for Medical Vision-language Pre-training](boosting_vision_semantic_density_with_anatomy_normality_mode.md)**
 
 :   提出 ViSD-Boost，通过疾病级视觉对比学习增强视觉语义 + VQ-VAE 建模解剖正常性分布来放大异常信号，解决医学 VLP 中视觉语义密度低导致的对齐偏差，在腹部 CT 54 种疾病零样本诊断达到 84.9% AUC。
+
+**[Boosting Vision Semantic Density with Anatomy Normality Modeling for Medical Vision-language Pre-training](boosting_vision_semantic_density_with_anatomy_normality_modeling_for_medical_vis.md)**
+
+:   提出 ViSD-Boost 方法，通过疾病级视觉对比学习增强视觉语义、以及基于 VQ-VAE 的解剖正常性建模来放大异常信号，解决医学视觉语言预训练中视觉模态语义密度低导致的对齐偏差问题，在 15 个器官 54 种疾病的零样本诊断上达到 84.9% AUC。
+
+**[COIN: Confidence Score-Guided Distillation for Annotation-Free Cell Segmentation](coin_confidence_score-guided_distillation_for_annotation-free_cell_segmentation.md)**
+
+:   提出COIN框架，通过无监督语义分割+最优传输的像素级细胞传播、基于模型-SAM一致性的实例级置信度评分、以及置信度引导的递归自蒸馏三步策略，解决了无标注细胞实例分割中"无错误实例缺失"的关键问题，在MoNuSeg和TNBC上超越半监督/弱监督方法。
+
+**[Controllable Latent Space Augmentation for Digital Pathology](controllable_latent_space_augmentation_for_digital_pathology.md)**
+
+:   提出HistAug——一种基于Transformer的轻量级潜在空间增强模型，通过条件式跨注意力机制在特征空间中模拟真实图像变换（色相、腐蚀等），以极低计算开销为病理MIL训练提供可控且高效的数据增强。
 
 **[CryoFastAR: Fast Cryo-EM Ab initio Reconstruction Made Easy](cryofastar_fast_cryoem_ab_initio_reconstruction_made_easy.md)**
 
@@ -38,6 +58,10 @@
 **[Toward Long-Tailed Online Anomaly Detection through Class-Agnostic Concepts](toward_long-tailed_online_anomaly_detection_through_class-agnostic_concepts.md)**
 
 :   本文提出长尾在线异常检测（LTOAD）新任务和benchmark，核心创新是用可学习的"类无关概念集"替代传统的类标签依赖，结合Concept VQ-VAE和综合prompt学习框架，在不需要类标签的情况下于offline和online场景下均达到SOTA。
+
+**[Vector Contrastive Learning for Pixel-wise Pretraining in Medical Vision](vector_contrastive_learning_for_pixel-wise_pretraining_in_medical_vision.md)**
+
+:   提出向量对比学习（Vector CL），将标准对比学习从二值优化问题重新表述为向量回归问题，通过建模特征距离来量化分散程度，解决像素级医学视觉预训练中的"过度分散"问题，在 8 个下游任务上显著优于 17 种方法。
 
 **[Visual Surface Wave Elastography: Revealing Subsurface Physical Properties via Visible Surface Waves](visual_surface_wave_elastography_revealing_subsurface_physical_properties_via_vi.md)**
 

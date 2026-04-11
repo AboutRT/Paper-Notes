@@ -1,9 +1,9 @@
 # Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video
 
-**会议**: CVPR 2026
-**arXiv**: [2604.07786](https://arxiv.org/abs/2604.07786)
-**代码**: [https://chanhyeok-choi.github.io/C-MET/](https://chanhyeok-choi.github.io/C-MET/) (有)
-**领域**: 图像生成 / 说话人脸
+**会议**: CVPR 2026  
+**arXiv**: [2604.07786](https://arxiv.org/abs/2604.07786)  
+**代码**: [https://chanhyeok-choi.github.io/C-MET/](https://chanhyeok-choi.github.io/C-MET/) (有)  
+**领域**: 图像生成 / 说话人脸  
 **关键词**: 情感编辑, 跨模态迁移, 说话人脸生成, 情感语义向量, 扩展情感
 
 ## 一句话总结

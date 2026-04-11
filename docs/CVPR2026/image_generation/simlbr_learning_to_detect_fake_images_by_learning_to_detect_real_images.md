@@ -1,9 +1,9 @@
 # SimLBR: Learning to Detect Fake Images by Learning to Detect Real Images
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20412](https://arxiv.org/abs/2602.20412)
-**代码**: 有（将在HuggingFace和GitHub发布）
-**领域**: 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2602.20412](https://arxiv.org/abs/2602.20412)  
+**代码**: 有（将在HuggingFace和GitHub发布）  
+**领域**: 图像生成  
 **关键词**: 假图检测, AI生成图像, 潜空间混合正则化, 跨生成器泛化, DINOv3
 
 ## 一句话总结

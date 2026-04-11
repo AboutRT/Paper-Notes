@@ -1,9 +1,9 @@
 # Breaking the Ceiling: Exploring the Potential of Jailbreak Attacks through Expanding Strategy Space
 
-**会议**: ACL 2025
-**arXiv**: [2505.21277](https://arxiv.org/abs/2505.21277)
-**代码**: [Aries-iai/CL-GSO](https://github.com/Aries-iai/CL-GSO)
-**领域**: LLM对齐 / AI安全
+**会议**: ACL 2025  
+**arXiv**: [2505.21277](https://arxiv.org/abs/2505.21277)  
+**代码**: [Aries-iai/CL-GSO](https://github.com/Aries-iai/CL-GSO)  
+**领域**: LLM对齐 / AI安全  
 **关键词**: 越狱攻击, 策略空间扩展, 遗传算法, 精细化可能性模型(ELM), 组件级优化, CL-GSO
 
 ## 一句话总结

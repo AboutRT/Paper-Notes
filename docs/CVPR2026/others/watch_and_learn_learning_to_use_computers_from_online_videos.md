@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Watch and Learn: Learning to Use Computers from Online Videos
 
-**会议**: CVPR2026
-**arXiv**: [2510.04673](https://arxiv.org/abs/2510.04673)
-**代码**: [项目主页](https://chanh.ee/wandl/)
-**领域**: others (Computer-Using Agents / GUI Agent)
+**会议**: CVPR2026  
+**arXiv**: [2510.04673](https://arxiv.org/abs/2510.04673)  
+**代码**: [项目主页](https://chanh.ee/wandl/)  
+**领域**: others (Computer-Using Agents / GUI Agent)  
 **关键词**: computer-using agent, inverse dynamics model, video-to-trajectory, in-context learning, supervised fine-tuning, UI grounding
 
 ## 一句话总结

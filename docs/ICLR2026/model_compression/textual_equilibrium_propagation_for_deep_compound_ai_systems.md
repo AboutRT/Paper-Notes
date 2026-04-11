@@ -1,9 +1,9 @@
 # Textual Equilibrium Propagation for Deep Compound AI Systems
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21064](https://arxiv.org/abs/2601.21064)
-**代码**: 未公开
-**领域**: 模型压缩 / 复合AI系统优化
+**会议**: ICLR 2026  
+**arXiv**: [2601.21064](https://arxiv.org/abs/2601.21064)  
+**代码**: 未公开  
+**领域**: 模型压缩 / 复合AI系统优化  
 **关键词**: 复合AI系统, 文本梯度, 平衡传播, 提示优化, 多智能体工作流
 
 ## 一句话总结

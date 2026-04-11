@@ -1,9 +1,9 @@
 # Learning to Solve Orienteering Problem with Time Windows and Variable Profits
 
-**会议**: ICLR 2026
-**arXiv**: [2603.06260](https://arxiv.org/abs/2603.06260)
-**代码**: 无
-**领域**: 组合优化/车辆路径
+**会议**: ICLR 2026  
+**arXiv**: [2603.06260](https://arxiv.org/abs/2603.06260)  
+**代码**: 无  
+**领域**: 组合优化/车辆路径  
 **关键词**: 定向问题, 时间窗, 可变利润, 离散-连续解耦, 线性规划
 
 ## 一句话总结

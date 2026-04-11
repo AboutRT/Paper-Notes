@@ -1,9 +1,9 @@
 # When Scores Learn Geometry: Rate Separations under the Manifold Hypothesis
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24912](https://arxiv.org/abs/2509.24912)
-**代码**: 无
-**领域**: 扩散模型理论
+**会议**: ICLR 2026  
+**arXiv**: [2509.24912](https://arxiv.org/abs/2509.24912)  
+**代码**: 无  
+**领域**: 扩散模型理论  
 **关键词**: Score Learning, 流形假设, 几何学习, 分布学习, 率分离, 均匀采样
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Learning Spatial-Aware Manipulation Ordering
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25138](https://arxiv.org/abs/2510.25138)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25138](https://arxiv.org/abs/2510.25138)  
 **作者**: Yuxiang Yan, Zhiyuan Zhou, Xin Gao, Guanghao Li, Shenglin Li, Jiaqi Chen, Qunyan Pu, Jian Pu (Fudan University, Stanford University)
-**代码**: 未公开
-**领域**: 机器人操作 / 杂乱场景抓取 / 空间推理
+**代码**: 未公开  
+**领域**: 机器人操作 / 杂乱场景抓取 / 空间推理  
 **关键词**: manipulation ordering, spatial graph, cluttered environment, VLM distillation, real-time inference
 
 ## 一句话总结

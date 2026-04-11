@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # MRI Contrast Enhancement Kinetics World Model
 
-**会议**: CVPR2026
-**arXiv**: [2602.19285](https://arxiv.org/abs/2602.19285)
-**代码**: [GitHub](https://github.com/DD0922/MRI-Contrast-Enhancement-Kinetics-World-Model)
-**领域**: 医学图像
+**会议**: CVPR2026  
+**arXiv**: [2602.19285](https://arxiv.org/abs/2602.19285)  
+**代码**: [GitHub](https://github.com/DD0922/MRI-Contrast-Enhancement-Kinetics-World-Model)  
+**领域**: 医学图像  
 **关键词**: MRI造影增强, 世界模型, 时空一致性学习, 潜空间对齐, 扩散模型, DCE-MRI
 
 ## 一句话总结

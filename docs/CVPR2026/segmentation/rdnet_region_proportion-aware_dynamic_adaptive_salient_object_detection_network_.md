@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # RDNet: Region Proportion-Aware Dynamic Adaptive Salient Object Detection Network in Optical Remote Sensing Images
 
-**会议**: CVPR2026
-**arXiv**: [2603.12215](https://arxiv.org/abs/2603.12215)
-**代码**: 待确认
-**领域**: 语义分割 / 显著性目标检测
+**会议**: CVPR2026  
+**arXiv**: [2603.12215](https://arxiv.org/abs/2603.12215)  
+**代码**: 待确认  
+**领域**: 语义分割 / 显著性目标检测  
 **关键词**: 遥感图像显著性检测, 动态自适应卷积, 小波变换, 区域比例感知, SwinTransformer
 
 ## 一句话总结

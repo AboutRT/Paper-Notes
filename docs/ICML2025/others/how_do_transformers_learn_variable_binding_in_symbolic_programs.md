@@ -1,9 +1,9 @@
 # How Do Transformers Learn Variable Binding in Symbolic Programs?
 
-**会议**: ICML2025
-**arXiv**: [2505.20896](https://arxiv.org/abs/2505.20896)
-**代码**: [variablescope.org](https://variablescope.org)
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2505.20896](https://arxiv.org/abs/2505.20896)  
+**代码**: [variablescope.org](https://variablescope.org)  
+**领域**: others  
 **关键词**: 变量绑定, Transformer机制, 残差流, 因果干预, 发展轨迹
 
 ## 一句话总结

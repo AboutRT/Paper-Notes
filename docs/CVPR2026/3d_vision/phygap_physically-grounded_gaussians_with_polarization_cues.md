@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # PhyGaP: Physically-Grounded Gaussians with Polarization Cues
 
-**会议**: CVPR2026
-**arXiv**: [2603.14001](https://arxiv.org/abs/2603.14001)
-**代码**: 即将公开
-**领域**: 3D视觉
+**会议**: CVPR2026  
+**arXiv**: [2603.14001](https://arxiv.org/abs/2603.14001)  
+**代码**: 即将公开  
+**领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 偏振成像, 逆渲染, 重光照, 反射分解, pBRDF, 环境光照
 
 ## 一句话总结

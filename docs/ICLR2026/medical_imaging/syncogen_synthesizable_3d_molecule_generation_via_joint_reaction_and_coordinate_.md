@@ -1,9 +1,9 @@
 # SynCoGen: Synthesizable 3D Molecule Generation via Joint Reaction and Coordinate Modeling
 
-**会议**: ICLR 2026
-**arXiv**: [2507.11818](https://arxiv.org/abs/2507.11818)
-**代码**: [GitHub](https://github.com/andreirekesh/SynCoGen)
-**领域**: 医学图像/分子生成
+**会议**: ICLR 2026  
+**arXiv**: [2507.11818](https://arxiv.org/abs/2507.11818)  
+**代码**: [GitHub](https://github.com/andreirekesh/SynCoGen)  
+**领域**: 医学图像/分子生成  
 **关键词**: 可合成分子生成, 3D构象生成, 掩码图扩散, 流匹配, 药物发现
 
 ## 一句话总结

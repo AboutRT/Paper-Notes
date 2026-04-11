@@ -1,9 +1,9 @@
 # Statistical and Computational Guarantees of Kernel Max-Sliced Wasserstein Distances
 
-**会议**: ICML2025
-**arXiv**: [2405.15441](https://arxiv.org/abs/2405.15441)
-**代码**: 未公开
-**领域**: 优化 / 最优传输
+**会议**: ICML2025  
+**arXiv**: [2405.15441](https://arxiv.org/abs/2405.15441)  
+**代码**: 未公开  
+**领域**: 优化 / 最优传输  
 **关键词**: Wasserstein距离, 核方法, 半定松弛, 样本复杂度, 非参数检验, 维度灾难
 
 ## 一句话总结

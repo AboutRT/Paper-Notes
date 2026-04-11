@@ -1,9 +1,9 @@
 # Noise Stability of Transformer Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.08287](https://arxiv.org/abs/2602.08287)
-**代码**: 未公开
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2602.08287](https://arxiv.org/abs/2602.08287)  
+**代码**: 未公开  
+**领域**: llm_nlp  
 **关键词**: noise stability, simplicity bias, Transformer, grokking, Fourier analysis, regularization, Boolean function analysis
 
 ## 一句话总结

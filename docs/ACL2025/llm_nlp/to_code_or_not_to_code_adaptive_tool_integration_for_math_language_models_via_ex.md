@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # To Code or not to Code? Adaptive Tool Integration for Math Language Models via Expectation-Maximization
 
-**会议**: ACL2025
-**arXiv**: [2502.00691](https://arxiv.org/abs/2502.00691)
-**代码**: [HaozheH3/AutoCode](https://github.com/HaozheH3/AutoCode)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.00691](https://arxiv.org/abs/2502.00691)  
+**代码**: [HaozheH3/AutoCode](https://github.com/HaozheH3/AutoCode)  
+**领域**: llm_nlp  
 **关键词**: 数学推理, 工具集成, 元认知, EM算法, 强化学习, 代码生成
 
 ## 一句话总结

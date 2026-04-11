@@ -1,9 +1,9 @@
 # Hashed Watermark as a Filter: A Unified Defense Against Forging and Overwriting Attacks in Neural Network Watermarking
 
-**会议**: AAAI 2026
-**arXiv**: [2507.11137](https://arxiv.org/abs/2507.11137)
-**代码**: [GitHub](https://github.com/AIResearch-Group/NeuralMark)
-**领域**: AI安全/模型水印
+**会议**: AAAI 2026  
+**arXiv**: [2507.11137](https://arxiv.org/abs/2507.11137)  
+**代码**: [GitHub](https://github.com/AIResearch-Group/NeuralMark)  
+**领域**: AI安全/模型水印  
 **关键词**: 神经网络水印, 模型知识产权保护, 伪造攻击, 覆写攻击, 哈希函数, 白盒水印
 
 ## 一句话总结

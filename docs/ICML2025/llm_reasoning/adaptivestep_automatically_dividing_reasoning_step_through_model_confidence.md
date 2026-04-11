@@ -1,9 +1,9 @@
 # AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence
 
-**会议**: ICML 2025
-**arXiv**: [2502.13943](https://arxiv.org/abs/2502.13943)
-**代码**: https://github.com/Lux0926/ASPRM (有)
-**领域**: LLM Reasoning / Process Reward Model
+**会议**: ICML 2025  
+**arXiv**: [2502.13943](https://arxiv.org/abs/2502.13943)  
+**代码**: https://github.com/Lux0926/ASPRM (有)  
+**领域**: LLM Reasoning / Process Reward Model  
 **关键词**: Process Reward Model, 推理步骤划分, 模型置信度, Token-level Value-guided Decoding, 数学推理
 
 ## 一句话总结
@@ -104,10 +104,10 @@ $$\mathcal{L}_{PRM}^\theta = -\sum_{k=1}^{K} (r_k^e \log r_k^\theta + (1-r_k^e) 
 - 价值: ⭐⭐⭐⭐⭐ 实用性很强，直接可落地的 PRM 训练方法，成本低效果好，代码和数据均开源
 # AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence
 
-**会议**: ICML 2025
-**arXiv**: [2502.13943](https://arxiv.org/abs/2502.13943)
-**代码**: https://github.com/Lux0926/ASPRM (有)
-**领域**: LLM Reasoning / Process Reward Model
+**会议**: ICML 2025  
+**arXiv**: [2502.13943](https://arxiv.org/abs/2502.13943)  
+**代码**: https://github.com/Lux0926/ASPRM (有)  
+**领域**: LLM Reasoning / Process Reward Model  
 **关键词**: Process Reward Model, 推理步骤划分, 模型置信度, Token-level Value-guided Decoding, 数学推理
 
 ## 一句话总结

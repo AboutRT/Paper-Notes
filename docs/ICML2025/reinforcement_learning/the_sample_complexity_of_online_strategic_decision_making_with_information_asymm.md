@@ -1,9 +1,9 @@
 # The Sample Complexity of Online Strategic Decision Making with Information Asymmetry and Knowledge Transportability
 
-**会议**: ICML2025
-**arXiv**: [2506.09940](https://arxiv.org/abs/2506.09940)
-**代码**: 无
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2506.09940](https://arxiv.org/abs/2506.09940)  
+**代码**: 无  
+**领域**: reinforcement_learning  
 **关键词**: 信息不对称, 知识迁移, 工具变量, 因果识别, 样本复杂度, 主体-代理问题, 混淆变量, 在线学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # How to Move Your Dragon: Text-to-Motion Synthesis for Large-Vocabulary Objects
 
-**会议**: ICML2025
-**arXiv**: [2503.04257](https://arxiv.org/abs/2503.04257)
-**代码**: 计划开源（含数据 pipeline、模型代码和标注 caption）
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2503.04257](https://arxiv.org/abs/2503.04257)  
+**代码**: 计划开源（含数据 pipeline、模型代码和标注 caption）  
+**领域**: image_generation  
 **关键词**: motion synthesis, text-to-motion, skeletal rig, diffusion model, 3D animation
 
 ## 一句话总结

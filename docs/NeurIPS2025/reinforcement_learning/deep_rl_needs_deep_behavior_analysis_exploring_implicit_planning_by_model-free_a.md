@@ -1,9 +1,9 @@
 # Deep RL Needs Deep Behavior Analysis: Exploring Implicit Planning by Model-Free Agents
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.06981](https://arxiv.org/abs/2506.06981)
-**代码**: [GitHub](https://github.com/RileySE/Craftax-Foraging/tree/foraging)
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.06981](https://arxiv.org/abs/2506.06981)  
+**代码**: [GitHub](https://github.com/RileySE/Craftax-Foraging/tree/foraging)  
+**领域**: 强化学习  
 **关键词**: 行为分析, 神经动力学, 隐式规划, 觅食环境, 可解释性
 
 ## 一句话总结

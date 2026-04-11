@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # STEM-PoM: Evaluating Language Models Math-Symbol Reasoning in Document Parsing
 
-**会议**: ACL2025
-**arXiv**: [2411.00387](https://arxiv.org/abs/2411.00387)
-**代码**: [jiaruzouu/STEM-PoM](https://github.com/jiaruzouu/STEM-PoM)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2411.00387](https://arxiv.org/abs/2411.00387)  
+**代码**: [jiaruzouu/STEM-PoM](https://github.com/jiaruzouu/STEM-PoM)  
+**领域**: llm_nlp  
 **关键词**: 数学符号分类, Part-of-Math Tagging, Benchmark, 文档解析, 数学推理
 
 ## 一句话总结

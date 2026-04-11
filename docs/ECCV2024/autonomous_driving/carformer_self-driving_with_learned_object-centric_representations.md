@@ -1,9 +1,9 @@
 # CarFormer: Self-Driving with Learned Object-Centric Representations
 
-**会议**: ECCV2024
-**arXiv**: [2407.15843](https://arxiv.org/abs/2407.15843)
-**代码**: [https://kuis-ai.github.io/CarFormer/](https://kuis-ai.github.io/CarFormer/)
-**领域**: autonomous_driving
+**会议**: ECCV2024  
+**arXiv**: [2407.15843](https://arxiv.org/abs/2407.15843)  
+**代码**: [https://kuis-ai.github.io/CarFormer/](https://kuis-ai.github.io/CarFormer/)  
+**领域**: autonomous_driving  
 **关键词**: object-centric learning, slot attention, self-driving, bird's eye view, autoregressive transformer
 
 ## 一句话总结

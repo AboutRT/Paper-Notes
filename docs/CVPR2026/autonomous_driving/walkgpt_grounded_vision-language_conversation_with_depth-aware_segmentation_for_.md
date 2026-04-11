@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # WalkGPT: Grounded Vision-Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation
 
-**会议**: CVPR2026
-**arXiv**: [2603.10703](https://arxiv.org/abs/2603.10703)
-**代码**: [项目主页](https://arxiv.org/abs/2603.10703)（代码与数据集已开放）
-**领域**: 自动驾驶 / 行人导航 / 无障碍辅助
+**会议**: CVPR2026  
+**arXiv**: [2603.10703](https://arxiv.org/abs/2603.10703)  
+**代码**: [项目主页](https://arxiv.org/abs/2603.10703)（代码与数据集已开放）  
+**领域**: 自动驾驶 / 行人导航 / 无障碍辅助  
 **关键词**: 视觉语言模型, 像素级定位, 深度感知分割, 行人导航, 无障碍推理, VQA
 
 ## 一句话总结

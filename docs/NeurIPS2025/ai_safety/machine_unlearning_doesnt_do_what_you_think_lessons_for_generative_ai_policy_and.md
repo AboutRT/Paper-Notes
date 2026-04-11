@@ -1,9 +1,9 @@
 # Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy and Research
 
-**会议**: NeurIPS 2025
-**arXiv**: [2412.06966](https://arxiv.org/abs/2412.06966)
-**代码**: 无
-**领域**: AI Safety / 机器遗忘 / AI 政策
+**会议**: NeurIPS 2025  
+**arXiv**: [2412.06966](https://arxiv.org/abs/2412.06966)  
+**代码**: 无  
+**领域**: AI Safety / 机器遗忘 / AI 政策  
 **关键词**: 机器遗忘, 生成式AI, 隐私, 版权, 政策合规
 
 ## 一句话总结

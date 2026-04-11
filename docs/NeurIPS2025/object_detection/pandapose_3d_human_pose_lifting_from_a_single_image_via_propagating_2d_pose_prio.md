@@ -1,9 +1,9 @@
 # PandaPose: 3D Human Pose Lifting from a Single Image via Propagating 2D Pose Prior to 3D Anchor Space
 
-**会议**: NeurIPS 2025
-**arXiv**: [2602.01095](https://arxiv.org/abs/2602.01095)
-**代码**: 无
-**领域**: 3D人体姿态估计 / 目标检测
+**会议**: NeurIPS 2025  
+**arXiv**: [2602.01095](https://arxiv.org/abs/2602.01095)  
+**代码**: 无  
+**领域**: 3D人体姿态估计 / 目标检测  
 **关键词**: 3D人体姿态估计, 锚点机制, 深度估计, 自遮挡, 姿态提升
 
 ## 一句话总结

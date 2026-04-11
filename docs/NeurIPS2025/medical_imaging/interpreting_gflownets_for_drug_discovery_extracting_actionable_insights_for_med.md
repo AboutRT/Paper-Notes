@@ -1,9 +1,9 @@
 # Interpreting GFlowNets for Drug Discovery: Extracting Actionable Insights for Medicinal Chemistry
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.19264](https://arxiv.org/abs/2511.19264)
-**代码**: [GitHub](https://github.com/amirtha-montai/synflownet_public/tree/main/src/interpretability) (有)
-**领域**: 药物发现 / 可解释AI
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.19264](https://arxiv.org/abs/2511.19264)  
+**代码**: [GitHub](https://github.com/amirtha-montai/synflownet_public/tree/main/src/interpretability) (有)  
+**领域**: 药物发现 / 可解释AI  
 **关键词**: GFlowNet, 可解释性, 药物发现, 稀疏自编码器, 反事实分析
 
 ## 一句话总结

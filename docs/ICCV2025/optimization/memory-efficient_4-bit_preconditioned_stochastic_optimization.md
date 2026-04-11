@@ -1,9 +1,9 @@
 # Memory-Efficient 4-bit Preconditioned Stochastic Optimization
 
-**会议**: ICCV 2025
-**arXiv**: [2412.10663](https://arxiv.org/abs/2412.10663)
-**代码**: 待确认
-**领域**: 优化 / 预条件随机优化
+**会议**: ICCV 2025  
+**arXiv**: [2412.10663](https://arxiv.org/abs/2412.10663)  
+**代码**: 待确认  
+**领域**: 优化 / 预条件随机优化  
 **关键词**: Shampoo, 量化, Cholesky 分解, 误差反馈, 低精度优化器, 内存高效训练
 
 ## 一句话总结

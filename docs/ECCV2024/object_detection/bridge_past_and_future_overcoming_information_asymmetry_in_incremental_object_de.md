@@ -1,9 +1,9 @@
 # Bridge Past and Future: Overcoming Information Asymmetry in Incremental Object Detection
 
-**会议**: ECCV2024
-**arXiv**: [2407.11499](https://arxiv.org/abs/2407.11499)
-**代码**: [iSEE-Laboratory/BPF](https://github.com/iSEE-Laboratory/BPF)
-**领域**: object_detection
+**会议**: ECCV2024  
+**arXiv**: [2407.11499](https://arxiv.org/abs/2407.11499)  
+**代码**: [iSEE-Laboratory/BPF](https://github.com/iSEE-Laboratory/BPF)  
+**领域**: object_detection  
 **关键词**: incremental object detection, knowledge distillation, information asymmetry, catastrophic forgetting, pseudo labeling
 
 ## 一句话总结

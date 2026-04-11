@@ -1,9 +1,9 @@
 # Does Graph Prompt Work? A Data Operation Perspective with Theoretical Analysis
 
-**会议**: ICML2025
-**arXiv**: [2410.01635](https://arxiv.org/abs/2410.01635)
-**代码**: [GitHub - dgpw](https://github.com/qunzhongwang/dgpw)
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2410.01635](https://arxiv.org/abs/2410.01635)  
+**代码**: [GitHub - dgpw](https://github.com/qunzhongwang/dgpw)  
+**领域**: graph_learning  
 **关键词**: Graph Prompt, Bridge Set, 数据操作, 理论分析, 误差上界
 
 ## 一句话总结

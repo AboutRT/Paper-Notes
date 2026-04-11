@@ -1,9 +1,9 @@
 # SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection
 
-**会议**: ICLR 2026
-**arXiv**: [2602.03634](https://arxiv.org/abs/2602.03634)
-**代码**: [GitHub](https://github.com/VisionXLab/SPWOOD)
-**领域**: 目标检测/遥感
+**会议**: ICLR 2026  
+**arXiv**: [2602.03634](https://arxiv.org/abs/2602.03634)  
+**代码**: [GitHub](https://github.com/VisionXLab/SPWOOD)  
+**领域**: 目标检测/遥感  
 **关键词**: 旋转目标检测, 弱监督, 稀疏标注, 伪标签, 教师-学生
 
 ## 一句话总结

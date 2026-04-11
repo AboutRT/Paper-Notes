@@ -1,9 +1,9 @@
 # Rethinking Addressing in Language Models via Contextualized Equivariant Positional Encoding
 
-**会议**: ICML 2025
-**arXiv**: [2501.00712](https://arxiv.org/abs/2501.00712)
-**代码**: [github.com/VITA-Group/TAPE](https://github.com/VITA-Group/TAPE)
-**领域**: Model Compression / LLM Architecture
+**会议**: ICML 2025  
+**arXiv**: [2501.00712](https://arxiv.org/abs/2501.00712)  
+**代码**: [github.com/VITA-Group/TAPE](https://github.com/VITA-Group/TAPE)  
+**领域**: Model Compression / LLM Architecture  
 **关键词**: positional encoding, TAPE, context-aware, equivariance, long-context
 
 ## 一句话总结
@@ -39,6 +39,7 @@
 - 也支持从头训练
 
 ## 实验关键数据
+
 ### 主实验
 | 任务 | TAPE | RoPE | ALiBi | 绝对位置 |
 |------|------|------|-------|---------|

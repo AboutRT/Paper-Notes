@@ -1,9 +1,9 @@
 # Causal Motion Diffusion Models for Autoregressive Motion Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22594](https://arxiv.org/abs/2602.22594)
-**代码**: 无
-**领域**: 人体动作生成 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2602.22594](https://arxiv.org/abs/2602.22594)  
+**代码**: 无  
+**领域**: 人体动作生成 / 扩散模型  
 **关键词**: 因果扩散, 自回归动作生成, 文本到动作, 流式生成, 帧级采样调度
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Provable Maximum Entropy Manifold Exploration via Diffusion Models
 
-**会议**: ICML2025
-**arXiv**: [2506.15385](https://arxiv.org/abs/2506.15385)
-**代码**: 待确认
-**领域**: 扩散模型探索
+**会议**: ICML2025  
+**arXiv**: [2506.15385](https://arxiv.org/abs/2506.15385)  
+**代码**: 待确认  
+**领域**: 扩散模型探索  
 **关键词**: 扩散模型, 最大熵探索, 流形探索, 镜像下降, score function, 微调
 
 ## 一句话总结

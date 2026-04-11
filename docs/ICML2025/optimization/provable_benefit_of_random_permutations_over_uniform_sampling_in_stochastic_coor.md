@@ -1,9 +1,9 @@
 # Provable Benefit of Random Permutations over Uniform Sampling in Stochastic Coordinate Descent
 
-**会议**: ICML 2025
-**arXiv**: [2505.23152](https://arxiv.org/abs/2505.23152)
-**代码**: 无
-**领域**: Optimization
+**会议**: ICML 2025  
+**arXiv**: [2505.23152](https://arxiv.org/abs/2505.23152)  
+**代码**: 无  
+**领域**: Optimization  
 **关键词**: coordinate descent, random permutation, convergence rate, quadratic optimization, contraction rate
 
 ## 一句话总结

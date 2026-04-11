@@ -1,9 +1,9 @@
 # Generalization Analysis for Supervised Contrastive Representation Learning under Non-IID Settings
 
-**会议**: ICML2025
-**arXiv**: [2505.04937](https://arxiv.org/abs/2505.04937)
-**代码**: 未提供
-**领域**: self_supervised
+**会议**: ICML2025  
+**arXiv**: [2505.04937](https://arxiv.org/abs/2505.04937)  
+**代码**: 未提供  
+**领域**: self_supervised  
 **关键词**: 对比学习, 泛化界, U-统计量, 非独立同分布, 表征学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Nonparametric Modern Hopfield Models
 
-**会议**: ICML 2025
-**arXiv**: [2404.03900](https://arxiv.org/abs/2404.03900)
-**代码**: 无
-**领域**: 理论机器学习 / 联想记忆
+**会议**: ICML 2025  
+**arXiv**: [2404.03900](https://arxiv.org/abs/2404.03900)  
+**代码**: 无  
+**领域**: 理论机器学习 / 联想记忆  
 **关键词**: Hopfield models, attention mechanism, nonparametric regression, sparse attention, memory capacity
 
 ## 一句话总结

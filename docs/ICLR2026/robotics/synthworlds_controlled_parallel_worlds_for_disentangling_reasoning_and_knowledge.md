@@ -1,9 +1,9 @@
 # SynthWorlds: Controlled Parallel Worlds for Disentangling Reasoning and Knowledge in Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.24427](https://arxiv.org/abs/2510.24427)
-**代码**: [GitHub](https://github.com/behavioral-data/synthworlds)
-**领域**: LLM评估/推理与记忆
+**会议**: ICLR 2026  
+**arXiv**: [2510.24427](https://arxiv.org/abs/2510.24427)  
+**代码**: [GitHub](https://github.com/behavioral-data/synthworlds)  
+**领域**: LLM评估/推理与记忆  
 **关键词**: 推理vs记忆, 平行语料, 知识优势差距, 合成实体, RAG评估
 
 ## 一句话总结

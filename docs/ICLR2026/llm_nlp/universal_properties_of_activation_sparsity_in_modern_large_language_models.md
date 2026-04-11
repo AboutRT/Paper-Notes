@@ -1,9 +1,9 @@
 # Universal Properties of Activation Sparsity in Modern Large Language Models
 
-**会议**: ICLR2026
-**arXiv**: [2509.00454](https://arxiv.org/abs/2509.00454)
-**代码**: [GitHub](https://github.com/fszatkowski/activation-sparsity-benchmarking)
-**领域**: llm_nlp
+**会议**: ICLR2026  
+**arXiv**: [2509.00454](https://arxiv.org/abs/2509.00454)  
+**代码**: [GitHub](https://github.com/fszatkowski/activation-sparsity-benchmarking)  
+**领域**: llm_nlp  
 **关键词**: activation sparsity, LLM acceleration, GLU architecture, critical sparsity, top-p sparsification, diffusion LLM
 
 ## 一句话总结

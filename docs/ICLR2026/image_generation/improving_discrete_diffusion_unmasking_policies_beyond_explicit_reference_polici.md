@@ -1,9 +1,9 @@
 # Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)
 
-**会议**: ICLR 2026
-**arXiv**: [2510.05725](https://arxiv.org/abs/2510.05725)
-**代码**: [GitHub](https://github.com/chunsanHong/UPO)
-**领域**: 离散扩散模型 / 语言建模
+**会议**: ICLR 2026  
+**arXiv**: [2510.05725](https://arxiv.org/abs/2510.05725)  
+**代码**: [GitHub](https://github.com/chunsanHong/UPO)  
+**领域**: 离散扩散模型 / 语言建模  
 **关键词**: Masked Diffusion Models, Unmasking Policy, 强化学习, KL-正则化MDP, GRPO
 
 ## 一句话总结

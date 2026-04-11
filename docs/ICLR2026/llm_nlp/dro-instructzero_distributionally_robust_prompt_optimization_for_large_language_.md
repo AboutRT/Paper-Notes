@@ -1,9 +1,9 @@
 # DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.15260](https://arxiv.org/abs/2510.15260)
-**代码**: 无
-**领域**: LLM/NLP
+**会议**: ICLR 2026  
+**arXiv**: [2510.15260](https://arxiv.org/abs/2510.15260)  
+**代码**: 无  
+**领域**: LLM/NLP  
 **关键词**: prompt optimization, distributionally robust optimization, Bayesian optimization, instruction tuning, zero-shot learning
 
 ## 一句话总结

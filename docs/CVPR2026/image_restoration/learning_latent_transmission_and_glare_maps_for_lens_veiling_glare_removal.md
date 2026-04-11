@@ -1,9 +1,9 @@
 # Learning Latent Transmission and Glare Maps for Lens Veiling Glare Removal
 
-**会议**: CVPR 2026
-**arXiv**: [2511.17353](https://arxiv.org/abs/2511.17353)
-**代码**: [GitHub](https://github.com/XiaolongQian/DeVeiler)
-**领域**: 图像修复
+**会议**: CVPR 2026  
+**arXiv**: [2511.17353](https://arxiv.org/abs/2511.17353)  
+**代码**: [GitHub](https://github.com/XiaolongQian/DeVeiler)  
+**领域**: 图像修复  
 **关键词**: veiling glare removal, 简化光学系统, Stable Diffusion, 物理引导生成, 可逆修复
 
 ## 一句话总结

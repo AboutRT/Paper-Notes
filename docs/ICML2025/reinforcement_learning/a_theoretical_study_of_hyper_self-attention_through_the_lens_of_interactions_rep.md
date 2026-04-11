@@ -1,9 +1,9 @@
 # A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions
 
-**会议**: ICML 2025
-**arXiv**: [2506.06179](https://arxiv.org/abs/2506.06179)
-**代码**: 无
-**领域**: Transformer理论
+**会议**: ICML 2025  
+**arXiv**: [2506.06179](https://arxiv.org/abs/2506.06179)  
+**代码**: 无  
+**领域**: Transformer理论  
 **关键词**: self-attention, mutual interaction, linear attention, HyperAttention, length generalization
 
 ## 一句话总结

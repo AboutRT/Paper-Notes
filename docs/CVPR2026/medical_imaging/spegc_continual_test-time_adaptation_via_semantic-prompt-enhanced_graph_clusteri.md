@@ -1,9 +1,9 @@
 # SPEGC: Continual Test-Time Adaptation via Semantic-Prompt-Enhanced Graph Clustering for Medical Image Segmentation
 
-**会议**: CVPR2026
-**arXiv**: [2603.11492](https://arxiv.org/abs/2603.11492)
-**代码**: [Jwei-Z/SPEGC-for-MIS](https://github.com/Jwei-Z/SPEGC-for-MIS)
-**领域**: 医学图像分割
+**会议**: CVPR2026  
+**arXiv**: [2603.11492](https://arxiv.org/abs/2603.11492)  
+**代码**: [Jwei-Z/SPEGC-for-MIS](https://github.com/Jwei-Z/SPEGC-for-MIS)  
+**领域**: 医学图像分割  
 **关键词**: 持续测试时自适应, 图聚类, 语义提示, 最优传输, 域偏移, 视网膜/息肉分割
 
 ## 一句话总结

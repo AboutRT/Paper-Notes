@@ -1,9 +1,9 @@
 # Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration
 
-**会议**: ICML 2025
-**arXiv**: [2505.24688](https://arxiv.org/abs/2505.24688)
-**代码**: [alickzhu/Soft-Reasoning](https://github.com/alickzhu/Soft-Reasoning)
-**领域**: 模型压缩 / 推理优化
+**会议**: ICML 2025  
+**arXiv**: [2505.24688](https://arxiv.org/abs/2505.24688)  
+**代码**: [alickzhu/Soft-Reasoning](https://github.com/alickzhu/Soft-Reasoning)  
+**领域**: 模型压缩 / 推理优化  
 **关键词**: 嵌入扰动, 贝叶斯优化, 解码策略, 推理多样性, 测试时计算
 
 ## 一句话总结

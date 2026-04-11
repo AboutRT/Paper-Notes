@@ -1,9 +1,9 @@
 # Modality-free Graph In-context Alignment
 
-**会议**: ICLR 2026
-**arXiv**: [2603.13434](https://arxiv.org/abs/2603.13434)
-**代码**: [GitHub](https://github.com/JhuoW/MF-GIA)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2603.13434](https://arxiv.org/abs/2603.13434)  
+**代码**: [GitHub](https://github.com/JhuoW/MF-GIA)  
+**领域**: 模型压缩  
 **关键词**: 图基础模型, 上下文学习, 跨域对齐, 梯度指纹, 元学习
 
 ## 一句话总结

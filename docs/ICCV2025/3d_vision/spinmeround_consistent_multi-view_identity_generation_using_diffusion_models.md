@@ -1,9 +1,9 @@
 # SpinMeRound: Consistent Multi-View Identity Generation Using Diffusion Models
 
-**会议**: ICCV2025
-**arXiv**: [2504.10716](https://arxiv.org/abs/2504.10716)
-**代码**: 暂未开源
-**领域**: 3d_vision
+**会议**: ICCV2025  
+**arXiv**: [2504.10716](https://arxiv.org/abs/2504.10716)  
+**代码**: 暂未开源  
+**领域**: 3d_vision  
 **关键词**: 多视角生成, 扩散模型, 人脸新视角合成, 身份保持, 法线估计, 3D Gaussian Splatting
 
 ## 一句话总结

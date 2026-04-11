@@ -1,9 +1,9 @@
 # Internal Causal Mechanisms Robustly Predict Language Model Out-of-Distribution Behaviors
 
-**会议**: ICML 2025
-**arXiv**: [2505.11770](https://arxiv.org/abs/2505.11770)
-**代码**: [有](https://github.com/explanare/ood-prediction)
-**领域**: LLM可解释性 / 模型安全
+**会议**: ICML 2025  
+**arXiv**: [2505.11770](https://arxiv.org/abs/2505.11770)  
+**代码**: [有](https://github.com/explanare/ood-prediction)  
+**领域**: LLM可解释性 / 模型安全  
 **关键词**: 因果可解释性, 分布外泛化, 正确性预测, 反事实模拟, 值探测
 
 ## 一句话总结
@@ -127,9 +127,9 @@ $$r_{\text{inv},i} = (I - Q^\top Q)r_{\text{base},i} + Q^\top Q \cdot r_{\text{s
 - 写作质量: ⭐⭐⭐⭐⭐ 问题形式化清晰，方法推导严谨，实验分析深入
 - 价值: ⭐⭐⭐⭐⭐ 为因果可解释性开辟实用方向，对AI安全和可靠性有重要启示 Mechanisms Robustly Predict Language Model Out-of-Distribution Behaviors
 
-**会议**: ICML 2025
-**arXiv**: [2505.11770](https://arxiv.org/abs/2505.11770)
-**代码**: 无
-**领域**: 机器人（LLM 可靠性 / 可解释性）
+**会议**: ICML 2025  
+**arXiv**: [2505.11770](https://arxiv.org/abs/2505.11770)  
+**代码**: 无  
+**领域**: 机器人（LLM 可靠性 / 可解释性）  
 **关键词**: 因果可解释性, 分布外泛化, 正确性预测, 反事实模拟, 语言模型
 

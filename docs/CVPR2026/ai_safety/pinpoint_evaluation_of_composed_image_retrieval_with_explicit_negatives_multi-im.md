@@ -1,9 +1,9 @@
 # PinPoint: Evaluation of Composed Image Retrieval with Explicit Negatives, Multi-Image Queries, and Paraphrase Testing
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04598](https://arxiv.org/abs/2603.04598)
-**代码**: 无（数据集和评测代码开源）
-**领域**: AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2603.04598](https://arxiv.org/abs/2603.04598)  
+**代码**: 无（数据集和评测代码开源）  
+**领域**: AI安全  
 **关键词**: 组合图像检索, 评测基准, 显式负样本, 多图像查询, 语言鲁棒性
 
 ## 一句话总结

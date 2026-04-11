@@ -1,9 +1,9 @@
 # Towards Safety Reasoning in LLMs: AI-agentic Deliberation for Policy-embedded CoT Data Creation
 
-**会议**: ACL2025
-**arXiv**: [2505.21784](https://arxiv.org/abs/2505.21784)
-**代码**: 无（数据集已开源）
-**领域**: llm_reasoning
+**会议**: ACL2025  
+**arXiv**: [2505.21784](https://arxiv.org/abs/2505.21784)  
+**代码**: 无（数据集已开源）  
+**领域**: llm_reasoning  
 **关键词**: 安全推理, Chain-of-Thought, 多智能体审议, 安全策略嵌入, DPO, 越狱防御, 偏好数据
 
 ## 一句话总结

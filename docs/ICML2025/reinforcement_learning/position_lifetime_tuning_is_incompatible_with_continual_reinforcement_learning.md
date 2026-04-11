@@ -1,9 +1,9 @@
 # Position: Lifetime Tuning is Incompatible with Continual Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2404.02113](https://arxiv.org/abs/2404.02113)
-**代码**: 无
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2404.02113](https://arxiv.org/abs/2404.02113)  
+**代码**: 无  
+**领域**: reinforcement_learning  
 **关键词**: 持续学习, 超参调优, 强化学习, 评估方法论, k%-tuning
 
 ## 一句话总结

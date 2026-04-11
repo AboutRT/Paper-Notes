@@ -1,9 +1,9 @@
 # MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation
 
-**会议**: ACL2025
-**arXiv**: [2403.04945](https://arxiv.org/abs/2403.04945)
-**代码**: [AIoT-MLSys-Lab/MEIT](https://github.com/AIoT-MLSys-Lab/MEIT)
-**领域**: multimodal_vlm
+**会议**: ACL2025  
+**arXiv**: [2403.04945](https://arxiv.org/abs/2403.04945)  
+**代码**: [AIoT-MLSys-Lab/MEIT](https://github.com/AIoT-MLSys-Lab/MEIT)  
+**领域**: multimodal_vlm  
 **关键词**: ECG report generation, instruction tuning, multimodal LLM, ECG-text alignment, medical AI
 
 ## 一句话总结

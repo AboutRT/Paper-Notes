@@ -1,9 +1,9 @@
 # QVGen: Pushing the Limit of Quantized Video Generative Models
 
-**会议**: ICLR 2026
-**arXiv**: [2505.11497](https://arxiv.org/abs/2505.11497)
-**代码**: [https://github.com/ModelTC/QVGen](https://github.com/ModelTC/QVGen)
-**领域**: 模型量化 / 视频生成
+**会议**: ICLR 2026  
+**arXiv**: [2505.11497](https://arxiv.org/abs/2505.11497)  
+**代码**: [https://github.com/ModelTC/QVGen](https://github.com/ModelTC/QVGen)  
+**领域**: 模型量化 / 视频生成  
 **关键词**: 视频扩散模型, 量化感知训练, 低比特量化, 秩衰减策略, 辅助模块
 
 ## 一句话总结

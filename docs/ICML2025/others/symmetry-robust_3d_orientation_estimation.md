@@ -1,9 +1,9 @@
 # Symmetry-Robust 3D Orientation Estimation
 
-**会议**: ICML2025
-**arXiv**: [2410.02101](https://arxiv.org/abs/2410.02101)
-**代码**: [GitHub](https://github.com/cscarv/3d-orienter)
-**领域**: 3D旋转估计 / 几何深度学习
+**会议**: ICML2025  
+**arXiv**: [2410.02101](https://arxiv.org/abs/2410.02101)  
+**代码**: [GitHub](https://github.com/cscarv/3d-orienter)  
+**领域**: 3D旋转估计 / 几何深度学习  
 **关键词**: 3D orientation estimation, rotational symmetry, quotient regression, octahedral group, conformal prediction
 
 ## 一句话总结

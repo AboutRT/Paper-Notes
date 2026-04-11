@@ -1,9 +1,9 @@
 # Look Twice Before You Answer: Memory-Space Visual Retracing for Hallucination Mitigation in Multimodal Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2410.03577](https://arxiv.org/abs/2410.03577)
-**代码**: [GitHub](https://github.com/1zhou-Wang/MemVR)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2410.03577](https://arxiv.org/abs/2410.03577)  
+**代码**: [GitHub](https://github.com/1zhou-Wang/MemVR)  
+**领域**: multimodal_vlm  
 **关键词**: MLLM, hallucination, visual retracing, FFN key-value memory, decoding strategy
 
 ## 一句话总结

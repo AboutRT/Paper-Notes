@@ -1,9 +1,9 @@
 # Causal Discovery from Conditionally Stationary Time Series
 
-**会议**: ICML 2025
-**arXiv**: [2110.06257](https://arxiv.org/abs/2110.06257)
-**代码**: 无
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2110.06257](https://arxiv.org/abs/2110.06257)  
+**代码**: 无  
+**领域**: 时间序列  
 **关键词**: 因果发现, 非平稳时间序列, 条件平稳, 图神经网络, 隐状态
 
 ## 一句话总结

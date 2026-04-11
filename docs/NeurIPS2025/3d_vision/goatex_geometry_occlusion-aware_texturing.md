@@ -1,9 +1,9 @@
 # GOATex: Geometry & Occlusion-Aware Texturing
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.23051](https://arxiv.org/abs/2511.23051)
-**代码**: 项目主页有展示，代码待确认
-**领域**: 3d_vision
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.23051](https://arxiv.org/abs/2511.23051)  
+**代码**: 项目主页有展示，代码待确认  
+**领域**: 3d_vision  
 **关键词**: 3D纹理生成, 遮挡感知, 扩散模型, UV纹理融合, 多层纹理
 
 ## 一句话总结

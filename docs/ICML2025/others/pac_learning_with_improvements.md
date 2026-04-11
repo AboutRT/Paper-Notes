@@ -1,9 +1,9 @@
 # PAC Learning with Improvements
 
-**会议**: ICML2025
-**arXiv**: [2503.03184](https://arxiv.org/abs/2503.03184)
-**代码**: [GitHub](https://github.com/idanattias/PAC-Learning-with-Improvements)
-**领域**: PAC学习 / 计算学习理论
+**会议**: ICML2025  
+**arXiv**: [2503.03184](https://arxiv.org/abs/2503.03184)  
+**代码**: [GitHub](https://github.com/idanattias/PAC-Learning-with-Improvements)  
+**领域**: PAC学习 / 计算学习理论  
 **关键词**: PAC学习, 策略性改进, 样本复杂度, VC维, 交闭类, 零误差学习
 
 ## 一句话总结

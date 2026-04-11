@@ -1,9 +1,9 @@
 # Cape: Context-Aware Prompt Perturbation Mechanism with Differential Privacy
 
-**会议**: ICML 2025
-**arXiv**: [2505.05922](https://arxiv.org/abs/2505.05922)
-**代码**: 无
-**领域**: AI安全
+**会议**: ICML 2025  
+**arXiv**: [2505.05922](https://arxiv.org/abs/2505.05922)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 差分隐私, prompt扰动, LLM推理隐私, 指数机制, 上下文感知
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Modulated Diffusion: Accelerating Generative Modeling with Modulated Quantization
 
-**会议**: ICML 2025
-**arXiv**: [2506.22463](https://arxiv.org/abs/2506.22463)
-**代码**: https://github.com/WeizhiGao/MoDiff (有)
-**领域**: Image Generation
+**会议**: ICML 2025  
+**arXiv**: [2506.22463](https://arxiv.org/abs/2506.22463)  
+**代码**: https://github.com/WeizhiGao/MoDiff (有)  
+**领域**: Image Generation  
 **关键词**: 扩散模型加速, 量化, 缓存, 误差补偿, 训练后量化
 
 ## 一句话总结

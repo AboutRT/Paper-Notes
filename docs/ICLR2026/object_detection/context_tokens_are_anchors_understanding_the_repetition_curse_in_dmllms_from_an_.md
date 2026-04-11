@@ -1,9 +1,9 @@
 # Context Tokens are Anchors: Understanding the Repetition Curse in dMLLMs from an Information Flow Perspective
 
-**会议**: ICLR 2026
-**arXiv**: [2601.20520](https://arxiv.org/abs/2601.20520)
-**代码**: [GitHub](https://github.com/ErikZ719/CoTA)
-**领域**: 目标检测（多模态扩散语言模型）
+**会议**: ICLR 2026  
+**arXiv**: [2601.20520](https://arxiv.org/abs/2601.20520)  
+**代码**: [GitHub](https://github.com/ErikZ719/CoTA)  
+**领域**: 目标检测（多模态扩散语言模型）  
 **关键词**: 扩散语言模型, 重复生成, 信息流分析, 缓存加速, 注意力机制
 
 ## 一句话总结

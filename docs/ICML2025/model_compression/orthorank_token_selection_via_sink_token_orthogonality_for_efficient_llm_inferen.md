@@ -1,10 +1,10 @@
 # OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM Inference
 
-**会议**: ICML2025
-**arXiv**: [2507.03865](https://arxiv.org/abs/2507.03865)
+**会议**: ICML2025  
+**arXiv**: [2507.03865](https://arxiv.org/abs/2507.03865)  
 **作者**: Seungjun Shin, Jaehoon Oh, Dokwan Oh
-**代码**: 待确认
-**领域**: model_compression
+**代码**: 待确认  
+**领域**: model_compression  
 **关键词**: LLM推理加速, 注意力汇聚, Token选择, 正交性, 动态剪枝
 
 ## 一句话总结

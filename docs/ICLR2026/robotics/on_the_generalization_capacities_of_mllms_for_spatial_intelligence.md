@@ -1,9 +1,9 @@
 # On the Generalization Capacities of MLLMs for Spatial Intelligence
 
-**会议**: ICLR 2026
-**arXiv**: [2603.06704](https://arxiv.org/abs/2603.06704)
-**代码**: [GitHub](https://github.com/Vegetebird/CA-MLLM)
-**领域**: 空间智能/3D感知
+**会议**: ICLR 2026  
+**arXiv**: [2603.06704](https://arxiv.org/abs/2603.06704)  
+**代码**: [GitHub](https://github.com/Vegetebird/CA-MLLM)  
+**领域**: 空间智能/3D感知  
 **关键词**: 相机感知, MLLM, 几何歧义, 内参嵌入, 数据增强
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Sysformer: Safeguarding Frozen Large Language Models with Adaptive System Prompts
 
-**会议**: ICLR 2026
-**arXiv**: [2506.15751](https://arxiv.org/abs/2506.15751)
-**代码**: [GitHub](https://github.com/Ksartik/sysformer)
-**领域**: LLM安全/模型安全
+**会议**: ICLR 2026  
+**arXiv**: [2506.15751](https://arxiv.org/abs/2506.15751)  
+**代码**: [GitHub](https://github.com/Ksartik/sysformer)  
+**领域**: LLM安全/模型安全  
 **关键词**: 系统提示, 自适应安全, LLM冻结, 模块化防御, 越狱防护
 
 ## 一句话总结

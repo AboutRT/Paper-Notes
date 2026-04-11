@@ -1,9 +1,9 @@
 # Parity Requires Unified Input Dependence and Negative Eigenvalues in SSMs
 
-**会议**: ICML2025
-**arXiv**: [2508.07395](https://arxiv.org/abs/2508.07395)
-**代码**: 待确认
-**领域**: video_understanding
+**会议**: ICML2025  
+**arXiv**: [2508.07395](https://arxiv.org/abs/2508.07395)  
+**代码**: 待确认  
+**领域**: video_understanding  
 **关键词**: 状态空间模型, 奇偶校验, 表达力, 负特征值, Mamba
 
 ## 一句话总结

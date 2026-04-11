@@ -1,9 +1,9 @@
 # Multi-Scale Finetuning for Encoder-based Time Series Foundation Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.14087](https://arxiv.org/abs/2506.14087)
-**代码**: https://github.com/zqiao11/MSFT (有)
-**领域**: 时间序列 / 基础模型微调
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.14087](https://arxiv.org/abs/2506.14087)  
+**代码**: https://github.com/zqiao11/MSFT (有)  
+**领域**: 时间序列 / 基础模型微调  
 **关键词**: 时间序列基础模型, 多尺度建模, 微调, 因果推断, 参数高效微调
 
 ## 一句话总结

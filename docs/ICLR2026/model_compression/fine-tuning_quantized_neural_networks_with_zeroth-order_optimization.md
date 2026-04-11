@@ -1,9 +1,9 @@
 # Fine-tuning Quantized Neural Networks with Zeroth-order Optimization
 
-**会议**: ICLR 2026
-**arXiv**: [2505.13430](https://arxiv.org/abs/2505.13430)
-**代码**: [GitHub](https://github.com/maifoundations/QZO)
-**领域**: 模型压缩/高效微调
+**会议**: ICLR 2026  
+**arXiv**: [2505.13430](https://arxiv.org/abs/2505.13430)  
+**代码**: [GitHub](https://github.com/maifoundations/QZO)  
+**领域**: 模型压缩/高效微调  
 **关键词**: 零阶优化, 量化模型微调, 内存高效训练, 量化缩放因子, 梯度方差
 
 ## 一句话总结

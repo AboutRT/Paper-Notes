@@ -1,9 +1,9 @@
 # X-MuTest: A Multilingual Benchmark for Explainable Hate Speech Detection
 
-**会议**: AAAI 2026
-**arXiv**: [2601.03194](https://arxiv.org/abs/2601.03194)
-**代码**: 无
-**领域**: LLM NLP
+**会议**: AAAI 2026  
+**arXiv**: [2601.03194](https://arxiv.org/abs/2601.03194)  
+**代码**: 无  
+**领域**: LLM NLP  
 **关键词**: 仇恨言论检测, 多语言, 可解释性, Benchmark, LLM评估
 
 ## 一句话总结

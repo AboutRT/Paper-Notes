@@ -1,9 +1,9 @@
 # All in One: Unifying Deepfake Detection, Tampering Localization, and Source Tracing with a Robust Landmark-Identity Watermark
 
-**会议**: CVPR2026
-**arXiv**: [2602.23523](https://arxiv.org/abs/2602.23523)
-**代码**: [GitHub](https://github.com/vpsg-research/LIDMark)
-**领域**: human_understanding
+**会议**: CVPR2026  
+**arXiv**: [2602.23523](https://arxiv.org/abs/2602.23523)  
+**代码**: [GitHub](https://github.com/vpsg-research/LIDMark)  
+**领域**: human_understanding  
 **关键词**: deepfake detection, watermarking, tampering localization, source tracing, proactive forensics, facial landmark
 
 ## 一句话总结

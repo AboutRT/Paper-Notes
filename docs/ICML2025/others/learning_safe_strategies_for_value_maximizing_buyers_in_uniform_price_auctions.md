@@ -1,9 +1,9 @@
 # Learning Safe Strategies for Value Maximizing Buyers in Uniform Price Auctions
 
-**会议**: ICML2025
-**arXiv**: [2406.03674](https://arxiv.org/abs/2406.03674)
-**代码**: 无
-**领域**: 博弈论 / 在线学习 / 拍卖机制
+**会议**: ICML2025  
+**arXiv**: [2406.03674](https://arxiv.org/abs/2406.03674)  
+**代码**: 无  
+**领域**: 博弈论 / 在线学习 / 拍卖机制  
 **关键词**: 统一价格拍卖, 安全竞标策略, 价值最大化, RoI约束, 在线学习, 遗憾界
 
 ## 一句话总结

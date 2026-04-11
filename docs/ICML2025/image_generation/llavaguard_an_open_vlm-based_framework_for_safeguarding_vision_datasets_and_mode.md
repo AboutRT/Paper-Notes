@@ -1,9 +1,9 @@
 # LlavaGuard: An Open VLM-based Framework for Safeguarding Vision Datasets and Models
 
-**会议**: ICML2025
-**arXiv**: [2406.05113](https://arxiv.org/abs/2406.05113)
-**代码**: [GitHub](https://ml-research.github.io/human-centered-genai/projects/llavaguard)
-**领域**: VLM安全 / 内容审核
+**会议**: ICML2025  
+**arXiv**: [2406.05113](https://arxiv.org/abs/2406.05113)  
+**代码**: [GitHub](https://ml-research.github.io/human-centered-genai/projects/llavaguard)  
+**领域**: VLM安全 / 内容审核  
 **关键词**: VLM safeguard, 内容安全, 安全分类体系, 策略自适应, 图像审核
 
 ## 一句话总结

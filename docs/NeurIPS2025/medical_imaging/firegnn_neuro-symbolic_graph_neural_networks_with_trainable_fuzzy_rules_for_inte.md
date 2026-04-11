@@ -1,9 +1,9 @@
 # FireGNN: Neuro-Symbolic Graph Neural Networks with Trainable Fuzzy Rules for Interpretable Medical Image Classification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.10510](https://arxiv.org/abs/2509.10510)
-**代码**: [GitHub](https://github.com/basiralab/FireGNN)
-**领域**: 医学图像分类 / 可解释性
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.10510](https://arxiv.org/abs/2509.10510)  
+**代码**: [GitHub](https://github.com/basiralab/FireGNN)  
+**领域**: 医学图像分类 / 可解释性  
 **关键词**: 图神经网络, 模糊规则, 可解释性, 神经符号推理, MedMNIST, 拓扑描述子
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.07619](https://arxiv.org/abs/2603.07619)
-**代码**: 无
-**领域**: 多模态VLM / 幻觉检测 / 可解释性
+**会议**: CVPR 2026  
+**arXiv**: [2603.07619](https://arxiv.org/abs/2603.07619)  
+**代码**: 无  
+**领域**: 多模态VLM / 幻觉检测 / 可解释性  
 **关键词**: VLM幻觉, Overthinking Score, 混杂因子传播, LogitLens, 层间token动态
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # VirPro: Visual-referred Probabilistic Prompt Learning for Weakly-Supervised Monocular 3D Detection
 
-**会议**: CVPR2026
-**arXiv**: [2603.17470](https://arxiv.org/abs/2603.17470)
-**代码**: 待确认
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2603.17470](https://arxiv.org/abs/2603.17470)  
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: 弱监督单目3D检测, 概率提示学习, 多模态预训练, 视觉-语言对齐, CLIP
 
 ## 一句话总结

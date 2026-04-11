@@ -1,9 +1,9 @@
 # SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models
 
-**会议**: AAAI2026
-**arXiv**: [2508.06142](https://arxiv.org/abs/2508.06142)
-**代码**: [hq-King/SDEval](https://github.com/hq-King/SDEval)
-**领域**: multimodal_vlm
+**会议**: AAAI2026  
+**arXiv**: [2508.06142](https://arxiv.org/abs/2508.06142)  
+**代码**: [hq-King/SDEval](https://github.com/hq-King/SDEval)  
+**领域**: multimodal_vlm  
 **关键词**: MLLM safety, dynamic evaluation, data contamination, jailbreak, benchmark
 
 ## 一句话总结

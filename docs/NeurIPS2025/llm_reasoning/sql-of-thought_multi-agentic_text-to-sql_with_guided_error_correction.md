@@ -1,9 +1,9 @@
 # SQL-of-Thought: Multi-agentic Text-to-SQL with Guided Error Correction
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.00581](https://arxiv.org/abs/2509.00581)
-**代码**: 无
-**领域**: LLM推理 / NLP
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.00581](https://arxiv.org/abs/2509.00581)  
+**代码**: 无  
+**领域**: LLM推理 / NLP  
 **关键词**: text-to-SQL, multi-agent, error taxonomy, chain-of-thought, Spider benchmark
 
 ## 一句话总结

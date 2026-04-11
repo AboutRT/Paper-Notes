@@ -1,9 +1,9 @@
 # PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion
 
-**会议**: ICML 2025
-**arXiv**: [2412.17780](https://arxiv.org/abs/2412.17780)
-**代码**: https://huggingface.co/ChatterjeeLab/PepTune (有)
-**领域**: Image Generation (Peptide/Drug Design)
+**会议**: ICML 2025  
+**arXiv**: [2412.17780](https://arxiv.org/abs/2412.17780)  
+**代码**: https://huggingface.co/ChatterjeeLab/PepTune (有)  
+**领域**: Image Generation (Peptide/Drug Design)  
 **关键词**: 治疗性肽设计, 离散扩散, 多目标优化, MCTS, SMILES
 
 ## 一句话总结

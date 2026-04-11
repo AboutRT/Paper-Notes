@@ -1,9 +1,9 @@
 # ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25791](https://arxiv.org/abs/2603.25791)
-**代码**: [https://arthoi-reconstruction.github.io](https://arthoi-reconstruction.github.io) (有)
-**领域**: 3D 视觉 / 手物交互重建
+**会议**: CVPR 2026  
+**arXiv**: [2603.25791](https://arxiv.org/abs/2603.25791)  
+**代码**: [https://arthoi-reconstruction.github.io](https://arthoi-reconstruction.github.io) (有)  
+**领域**: 3D 视觉 / 手物交互重建  
 **关键词**: Hand-Object Interaction, Articulated Object, 4D Reconstruction, Foundation Models, MLLM
 
 ## 一句话总结

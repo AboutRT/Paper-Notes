@@ -1,9 +1,9 @@
 # REI-Bench: Can Embodied Agents Understand Vague Human Instructions in Task Planning?
 
-**会议**: ICLR 2026
-**arXiv**: [2505.10872](https://arxiv.org/abs/2505.10872)
-**代码**: [项目页面](https://jcx0110.github.io/rei-bench-project)
-**领域**: 具身AI/任务规划
+**会议**: ICLR 2026  
+**arXiv**: [2505.10872](https://arxiv.org/abs/2505.10872)  
+**代码**: [项目页面](https://jcx0110.github.io/rei-bench-project)  
+**领域**: 具身AI/任务规划  
 **关键词**: 指称表达, 模糊指令, LLM规划, 共指消解, 鲁棒性
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Unifying Specialized Visual Encoders for Video Language Models
 
-**会议**: ICML 2025
-**arXiv**: [2501.01426](https://arxiv.org/abs/2501.01426)
-**代码**: [有](https://github.com/princetonvisualai/merv)
-**领域**: Video Understanding / Video Language Models
+**会议**: ICML 2025  
+**arXiv**: [2501.01426](https://arxiv.org/abs/2501.01426)  
+**代码**: [有](https://github.com/princetonvisualai/merv)  
+**领域**: Video Understanding / Video Language Models  
 **关键词**: 多编码器融合, VideoLLM, 视觉表示, 跨注意力, 视频理解
 
 ## 一句话总结

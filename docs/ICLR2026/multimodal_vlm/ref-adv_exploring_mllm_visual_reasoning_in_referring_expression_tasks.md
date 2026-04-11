@@ -1,9 +1,9 @@
 # Ref-Adv: Exploring MLLM Visual Reasoning in Referring Expression Tasks
 
-**会议**: ICLR 2026
-**arXiv**: [2602.23898](https://arxiv.org/abs/2602.23898)
-**代码**: [项目页面](https://ref-adv.github.io/)
-**领域**: 多模态评测/视觉理解
+**会议**: ICLR 2026  
+**arXiv**: [2602.23898](https://arxiv.org/abs/2602.23898)  
+**代码**: [项目页面](https://ref-adv.github.io/)  
+**领域**: 多模态评测/视觉理解  
 **关键词**: 指称表达理解, MLLM评测, 对抗基准, 视觉推理, 捷径消除
 
 ## 一句话总结

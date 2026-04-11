@@ -1,9 +1,9 @@
 # Learning Patient-Specific Disease Dynamics with Latent Flow Matching for Longitudinal Imaging Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2512.09185](https://arxiv.org/abs/2512.09185)
-**代码**: 无
-**领域**: 医学影像/生成模型
+**会议**: ICLR 2026  
+**arXiv**: [2512.09185](https://arxiv.org/abs/2512.09185)  
+**代码**: 无  
+**领域**: 医学影像/生成模型  
 **关键词**: 疾病进展建模, 流匹配, 患者特异性, 纵向MRI, ArcRank损失
 
 ## 一句话总结

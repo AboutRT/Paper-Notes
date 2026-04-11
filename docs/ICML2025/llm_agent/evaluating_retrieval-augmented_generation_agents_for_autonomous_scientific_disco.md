@@ -1,9 +1,9 @@
 # Evaluating Retrieval-Augmented Generation Agents for Autonomous Scientific Discovery in Astrophysics
 
-**会议**: ICML 2025
-**arXiv**: [2507.07155](https://arxiv.org/abs/2507.07155)
-**代码**: https://github.com/CMBAgents/scirag (有)
-**领域**: LLM Agent
+**会议**: ICML 2025  
+**arXiv**: [2507.07155](https://arxiv.org/abs/2507.07155)  
+**代码**: https://github.com/CMBAgents/scirag (有)  
+**领域**: LLM Agent  
 **关键词**: RAG, 科学发现, 天体物理, 基准评测, LLM-as-a-Judge
 
 ## 一句话总结

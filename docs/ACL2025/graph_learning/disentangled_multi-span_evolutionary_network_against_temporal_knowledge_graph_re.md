@@ -1,9 +1,9 @@
 # Disentangled Multi-span Evolutionary Network against Temporal Knowledge Graph Reasoning
 
-**会议**: ACL 2025 Findings
-**arXiv**: [2505.14020](https://arxiv.org/abs/2505.14020)
-**代码**: 未提供
-**领域**: graph_learning
+**会议**: ACL 2025 Findings  
+**arXiv**: [2505.14020](https://arxiv.org/abs/2505.14020)  
+**代码**: 未提供  
+**领域**: graph_learning  
 **关键词**: 时序知识图谱, 外推推理, 图神经网络, 解耦表示, 多跨度演化
 
 ## 一句话总结

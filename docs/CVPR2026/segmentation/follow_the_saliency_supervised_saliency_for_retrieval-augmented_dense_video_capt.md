@@ -1,9 +1,9 @@
 # Follow the Saliency: Supervised Saliency for Retrieval-augmented Dense Video Captioning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11460](https://arxiv.org/abs/2603.11460)
-**代码**: [GitHub](https://github.com/ermitaju1/STaRC)
-**领域**: 分割
+**会议**: CVPR 2026  
+**arXiv**: [2603.11460](https://arxiv.org/abs/2603.11460)  
+**代码**: [GitHub](https://github.com/ermitaju1/STaRC)  
+**领域**: 分割  
 **关键词**: 密集视频描述, 显著性学习, 检索增强, 时序分割, 最优传输
 
 ## 一句话总结

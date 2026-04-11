@@ -1,9 +1,9 @@
 # Certification for Differentially Private Prediction in Gradient-Based Training
 
-**会议**: ICML2025
-**arXiv**: [2406.13433](https://arxiv.org/abs/2406.13433)
-**代码**: 待确认
-**领域**: 隐私认证 (Privacy Certification)
+**会议**: ICML2025  
+**arXiv**: [2406.13433](https://arxiv.org/abs/2406.13433)  
+**代码**: 待确认  
+**领域**: 隐私认证 (Privacy Certification)  
 **关键词**: 差分隐私, 隐私预测, 平滑敏感度, 参数空间界, 区间传播, 医学影像, 自然语言处理
 
 ## 一句话总结

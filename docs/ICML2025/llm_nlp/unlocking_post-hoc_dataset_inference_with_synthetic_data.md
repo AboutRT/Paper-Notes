@@ -1,9 +1,9 @@
 # Unlocking Post-hoc Dataset Inference with Synthetic Data
 
-**会议**: ICML2025
-**arXiv**: [2506.15271](https://arxiv.org/abs/2506.15271)
-**代码**: [GitHub](https://github.com/sprintml/PostHocDatasetInference)
-**领域**: LLM/NLP
+**会议**: ICML2025  
+**arXiv**: [2506.15271](https://arxiv.org/abs/2506.15271)  
+**代码**: [GitHub](https://github.com/sprintml/PostHocDatasetInference)  
+**领域**: LLM/NLP  
 **关键词**: dataset inference, membership inference, synthetic data, copyright protection, LLM, post-hoc calibration, data ownership
 
 ## 一句话总结

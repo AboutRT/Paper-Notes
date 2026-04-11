@@ -1,9 +1,9 @@
 # Scaling Video-Language Models to 10K Frames via Hierarchical Differential Distillation
 
-**会议**: ICML 2025
-**arXiv**: [2504.02438](https://arxiv.org/abs/2504.02438)
-**代码**: [有](https://github.com/steven-ccq/ViLAMP)
-**领域**: Video Understanding / Video Language Models
+**会议**: ICML 2025  
+**arXiv**: [2504.02438](https://arxiv.org/abs/2504.02438)  
+**代码**: [有](https://github.com/steven-ccq/ViLAMP)  
+**领域**: Video Understanding / Video Language Models  
 **关键词**: 长视频理解, 视觉token压缩, 关键帧选择, 特征融合, 混合精度
 
 ## 一句话总结

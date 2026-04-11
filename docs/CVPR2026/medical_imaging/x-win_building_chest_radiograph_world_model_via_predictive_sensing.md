@@ -1,6 +1,6 @@
 # X-WIN: Building Chest Radiograph World Model via Predictive Sensing
 
-**会议**: CVPR 2026 
+**会议**: CVPR 2026  
 **arXiv**: [2511.14918](https://arxiv.org/abs/2511.14918)  
 **代码**: 无  
 **领域**: 医学图像  

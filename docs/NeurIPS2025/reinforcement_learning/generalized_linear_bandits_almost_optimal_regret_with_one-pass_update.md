@@ -1,9 +1,9 @@
 # Generalized Linear Bandits: Almost Optimal Regret with One-Pass Update
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.11847](https://arxiv.org/abs/2507.11847)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.11847](https://arxiv.org/abs/2507.11847)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 广义线性赌博机, 在线学习, 置信集, 在线镜像下降, 混合损失
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Coherent Multi-Agent Trajectory Forecasting in Team Sports with CausalTraj
 
-**会议**: AAAI 2026
-**arXiv**: [2511.18248](https://arxiv.org/abs/2511.18248)
+**会议**: AAAI 2026  
+**arXiv**: [2511.18248](https://arxiv.org/abs/2511.18248)  
 **作者**: Wei Zhen Teoh
-**代码**: [wezteoh/causaltraj](https://github.com/wezteoh/causaltraj)
-**领域**: time_series
+**代码**: [wezteoh/causaltraj](https://github.com/wezteoh/causaltraj)  
+**领域**: time_series  
 **关键词**: 多智能体轨迹预测, 因果自回归模型, 团队运动分析, 联合指标, 混合高斯分布
 
 ## 一句话总结

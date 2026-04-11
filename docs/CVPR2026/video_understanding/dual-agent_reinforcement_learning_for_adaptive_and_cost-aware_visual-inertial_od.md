@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Dual-Agent Reinforcement Learning for Adaptive and Cost-Aware Visual-Inertial Odometry
 
-**会议**: CVPR2026
-**arXiv**: [2511.21083](https://arxiv.org/abs/2511.21083)
-**代码**: 待确认
-**领域**: 视频理解 / 视觉里程计
+**会议**: CVPR2026  
+**arXiv**: [2511.21083](https://arxiv.org/abs/2511.21083)  
+**代码**: 待确认  
+**领域**: 视频理解 / 视觉里程计  
 **关键词**: Visual-Inertial Odometry, 强化学习, 自适应融合, 计算调度, IMU偏差估计, PPO
 
 ## 一句话总结

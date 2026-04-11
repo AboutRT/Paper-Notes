@@ -1,9 +1,9 @@
 # Memba: Membrane-driven Parameter-Efficient Fine-Tuning for Mamba
 
-**会议**: ICLR 2026
-**arXiv**: [2506.18184](https://arxiv.org/abs/2506.18184)
-**代码**: [GitHub](https://github.com/Intelligent-Computing-Lab-Panda/Memba)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2506.18184](https://arxiv.org/abs/2506.18184)  
+**代码**: [GitHub](https://github.com/Intelligent-Computing-Lab-Panda/Memba)  
+**领域**: 模型压缩  
 **关键词**: Mamba, PEFT, 膜电位, 泄漏积分, 状态空间模型
 
 ## 一句话总结

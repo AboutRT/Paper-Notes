@@ -1,9 +1,9 @@
 # StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition
 
-**会议**: ICCV 2025
-**arXiv**: [2503.06220](https://arxiv.org/abs/2503.06220)
-**代码**: https://aka.ms/StreamMind
-**领域**: 流式视频理解 / 多模态大模型
+**会议**: ICCV 2025  
+**arXiv**: [2503.06220](https://arxiv.org/abs/2503.06220)  
+**代码**: https://aka.ms/StreamMind  
+**领域**: 流式视频理解 / 多模态大模型  
 **关键词**: 流式视频对话, 事件门控, 状态空间模型, 感知-认知分离, LLM调用, 实时视频理解
 
 ## 一句话总结

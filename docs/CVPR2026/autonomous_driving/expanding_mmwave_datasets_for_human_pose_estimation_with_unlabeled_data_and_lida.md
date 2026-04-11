@@ -1,9 +1,9 @@
 # EMDUL: Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets
 
-**会议**: CVPR 2026
-**arXiv**: [2603.14507](https://arxiv.org/abs/2603.14507)
-**代码**: [GitHub](https://github.com/Shimmer93/EMDUL)
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.14507](https://arxiv.org/abs/2603.14507)  
+**代码**: [GitHub](https://github.com/Shimmer93/EMDUL)  
+**领域**: 自动驾驶  
 **关键词**: 毫米波雷达, 人体姿态估计, 数据扩展, LiDAR点云转换, 半监督学习
 
 ## 一句话总结

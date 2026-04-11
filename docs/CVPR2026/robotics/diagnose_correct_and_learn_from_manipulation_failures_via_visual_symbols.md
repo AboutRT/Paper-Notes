@@ -1,9 +1,9 @@
 # Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols
 
-**会议**: CVPR 2026
-**arXiv**: [2512.02787](https://arxiv.org/abs/2512.02787)
-**代码**: [项目页面](https://vifailback.github.io/) (有)
-**领域**: Robotics
+**会议**: CVPR 2026  
+**arXiv**: [2512.02787](https://arxiv.org/abs/2512.02787)  
+**代码**: [项目页面](https://vifailback.github.io/) (有)  
+**领域**: Robotics  
 **关键词**: 机器人操作失败, 视觉符号, VLM失败诊断, VLA恢复, 真实世界数据集
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心 idea**: 视觉符号作为中间表示，既便于人类快速标注（鼠标拖拽），又为 VLM 提供结构化的纠正指导信号。
 
 ## 方法详解
+
 ### 整体框架
 三阶段：(1) 数据收集——遥操作 + VLA rollout 收集 5,202 条真实轨迹；(2) ViFailback 注方法——视觉符号绘制 + VLM 辅助文本生成 → 58,128 VQA 对；(3) 训练 ViFailback-8B (微调 Qwen3-VL-8B) → 部署为 VLA 的外部监督器。
 
@@ -39,6 +40,7 @@
 - 温度=0，最大生成长度 2048 tokens
 
 ## 实验关键数据
+
 ### 主实验（ViFailback-Bench Overall Accuracy %）
 | 模型 | Lite↑ | Hard↑ | Average↑ |
 |------|-------|-------|---------|

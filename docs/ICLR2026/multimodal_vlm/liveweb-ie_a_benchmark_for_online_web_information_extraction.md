@@ -1,9 +1,9 @@
 # LiveWeb-IE: A Benchmark For Online Web Information Extraction
 
-**会议**: ICLR 2026
-**arXiv**: [2603.13773](https://arxiv.org/abs/2603.13773)
-**代码**: [GitHub](https://github.com/sbY99/LiveWeb-IE)
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2603.13773](https://arxiv.org/abs/2603.13773)  
+**代码**: [GitHub](https://github.com/sbY99/LiveWeb-IE)  
+**领域**: 多模态VLM  
 **关键词**: 网页信息抽取, 在线评估, 视觉定位, XPath生成, 多模态Agent
 
 ## 一句话总结

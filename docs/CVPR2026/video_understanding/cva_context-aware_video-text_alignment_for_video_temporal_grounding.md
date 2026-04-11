@@ -1,9 +1,9 @@
 # CVA: Context-aware Video-text Alignment for Video Temporal Grounding
 
-**会议**: CVPR 2026
-**arXiv**: [2603.24934](https://arxiv.org/abs/2603.24934)
-**代码**: [https://byeol3325.github.io/projects/CVA/](https://byeol3325.github.io/projects/CVA/) (有)
-**领域**: 视频理解 / 时序定位
+**会议**: CVPR 2026  
+**arXiv**: [2603.24934](https://arxiv.org/abs/2603.24934)  
+**代码**: [https://byeol3325.github.io/projects/CVA/](https://byeol3325.github.io/projects/CVA/) (有)  
+**领域**: 视频理解 / 时序定位  
 **关键词**: 视频时序定位, 数据增强, 对比学习, 上下文不变性, 视频-文本对齐
 
 ## 一句话总结

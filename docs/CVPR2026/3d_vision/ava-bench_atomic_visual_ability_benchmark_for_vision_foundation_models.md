@@ -1,9 +1,9 @@
 # AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models
 
-**会议**: CVPR 2026
-**arXiv**: [2506.09082](https://arxiv.org/abs/2506.09082)
-**代码**: [项目主页](https://zheda-mai.github.io/AVA-Bench/)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2506.09082](https://arxiv.org/abs/2506.09082)  
+**代码**: [项目主页](https://zheda-mai.github.io/AVA-Bench/)  
+**领域**: 3D视觉  
 **关键词**: 视觉基础模型评估, 原子视觉能力, Benchmark, VFM, 多模态评测
 
 ## 一句话总结

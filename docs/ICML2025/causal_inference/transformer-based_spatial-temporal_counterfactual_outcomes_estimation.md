@@ -1,9 +1,9 @@
 # Transformer-Based Spatial-Temporal Counterfactual Outcomes Estimation
 
-**会议**: ICML2025
-**arXiv**: [2506.21154](https://arxiv.org/abs/2506.21154)
-**代码**: 有（论文附链接）
-**领域**: causal_inference
+**会议**: ICML2025  
+**arXiv**: [2506.21154](https://arxiv.org/abs/2506.21154)  
+**代码**: 有（论文附链接）  
+**领域**: causal_inference  
 **关键词**: 因果推断, 反事实结果估计, 时空数据, Transformer, 逆概率加权, 空间点过程
 
 ## 一句话总结

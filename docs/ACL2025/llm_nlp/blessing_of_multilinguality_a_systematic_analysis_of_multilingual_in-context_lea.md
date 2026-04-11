@@ -1,9 +1,9 @@
 # Blessing of Multilinguality: A Systematic Analysis of Multilingual In-Context Learning
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2502.11364](https://arxiv.org/abs/2502.11364)
-**代码**: [GitHub](https://github.com/yileitu/multilingual_icl)
-**领域**: llm_nlp
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2502.11364](https://arxiv.org/abs/2502.11364)  
+**代码**: [GitHub](https://github.com/yileitu/multilingual_icl)  
+**领域**: llm_nlp  
 **关键词**: multilingual ICL, cross-lingual transfer, low-resource languages, in-context learning, prompting strategies
 
 ## 一句话总结

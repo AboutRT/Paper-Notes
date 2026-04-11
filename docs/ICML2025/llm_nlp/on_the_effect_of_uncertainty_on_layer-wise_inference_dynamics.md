@@ -1,9 +1,9 @@
 # On the Effect of Uncertainty on Layer-wise Inference Dynamics
 
-**会议**: ICML 2025 (Actionable Interpretability Workshop)
-**arXiv**: [2507.06722](https://arxiv.org/abs/2507.06722)
-**代码**: 无
-**领域**: LLM / NLP
+**会议**: ICML 2025 (Actionable Interpretability Workshop)  
+**arXiv**: [2507.06722](https://arxiv.org/abs/2507.06722)  
+**代码**: 无  
+**领域**: LLM / NLP  
 **关键词**: uncertainty, layer-wise dynamics, Tuned Lens, interpretability, hallucination
 
 ## 一句话总结
@@ -33,6 +33,7 @@
 纯分析性工作，Tuned Lens 是预训练的。
 
 ## 实验关键数据
+
 ### 主实验
 | 特征 | 确定预测 | 不确定预测 | 差异 |
 |------|---------|----------|------|

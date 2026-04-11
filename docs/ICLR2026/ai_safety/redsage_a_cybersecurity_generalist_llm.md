@@ -1,11 +1,11 @@
 # RedSage: A Cybersecurity Generalist LLM
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2601.22159](https://arxiv.org/abs/2601.22159)
 
 **代码**: 有 (开源数据+模型+代码)
 
-**领域**: AI安全 / 网络安全
+**领域**: AI安全 / 网络安全  
 **关键词**: 网络安全LLM, continual pretraining, agentic augmentation, 安全评测, RedSage-Bench
 
 ## 一句话总结

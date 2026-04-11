@@ -1,9 +1,9 @@
 # Entropic Confinement and Mode Connectivity in Overparameterized Neural Networks
 
-**会议**: ICLR 2026
-**arXiv**: [2512.06297](https://arxiv.org/abs/2512.06297)
-**代码**: 无
-**领域**: 其他 / 优化理论
+**会议**: ICLR 2026  
+**arXiv**: [2512.06297](https://arxiv.org/abs/2512.06297)  
+**代码**: 无  
+**领域**: 其他 / 优化理论  
 **关键词**: 熵力, mode connectivity, 损失景观, 曲率, SGD动力学
 
 ## 一句话总结

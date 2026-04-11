@@ -1,9 +1,9 @@
 # Coherent Human-Scene Reconstruction from Multi-Person Multi-View Video in a Single Pass
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12789](https://arxiv.org/abs/2603.12789)
-**代码**: https://nstar1125.github.io/chromm
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.12789](https://arxiv.org/abs/2603.12789)  
+**代码**: https://nstar1125.github.io/chromm  
+**领域**: 3D视觉  
 **关键词**: 人体-场景联合重建, 多人多视图, SMPL-X, 3D基础模型, 前馈推理
 
 ## 一句话总结

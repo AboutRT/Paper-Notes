@@ -1,9 +1,9 @@
 # Sounding that Object: Interactive Object-Aware Image to Audio Generation
 
-**会议**: ICML 2025
-**arXiv**: [2506.04214](https://arxiv.org/abs/2506.04214)
-**代码**: [项目主页](https://tinglok.netlify.app/files/avobject/)
-**领域**: 分割/多模态
+**会议**: ICML 2025  
+**arXiv**: [2506.04214](https://arxiv.org/abs/2506.04214)  
+**代码**: [项目主页](https://tinglok.netlify.app/files/avobject/)  
+**领域**: 分割/多模态  
 **关键词**: 对象感知音频生成, 条件潜扩散模型, 分割掩码, 视觉-音频学习, 对象中心学习
 
 ## 一句话总结

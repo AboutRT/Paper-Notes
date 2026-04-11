@@ -1,9 +1,9 @@
 # AssistanceZero: Scalably Solving Assistance Games
 
-**会议**: ICML 2025
-**arXiv**: [2504.07091](https://arxiv.org/abs/2504.07091)
-**代码**: https://github.com/cassidylaidlaw/minecraft-building-assistance-game
-**领域**: 对齐RLHF
+**会议**: ICML 2025  
+**arXiv**: [2504.07091](https://arxiv.org/abs/2504.07091)  
+**代码**: https://github.com/cassidylaidlaw/minecraft-building-assistance-game  
+**领域**: 对齐RLHF  
 **关键词**: assistance game, AlphaZero, MCTS, human modeling, Minecraft, cooperative AI, POMDP
 
 ## 一句话总结

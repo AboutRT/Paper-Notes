@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # FALCON: False-Negative Aware Learning of Contrastive Negatives in Vision-Language Alignment
 
-**会议**: CVPR2026
-**arXiv**: [2505.11192](https://arxiv.org/abs/2505.11192)
-**代码**: 待确认
-**领域**: 目标检测 / 视觉语言预训练
+**会议**: CVPR2026  
+**arXiv**: [2505.11192](https://arxiv.org/abs/2505.11192)  
+**代码**: 待确认  
+**领域**: 目标检测 / 视觉语言预训练  
 **关键词**: 假负样本, 对比学习, 视觉语言预训练, 负样本挖掘, mini-batch构造, 调度器
 
 ## 一句话总结

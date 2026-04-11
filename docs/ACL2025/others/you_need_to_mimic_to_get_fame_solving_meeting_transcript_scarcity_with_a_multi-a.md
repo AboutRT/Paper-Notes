@@ -1,9 +1,9 @@
 # You need to MIMIC to get FAME: Solving Meeting Transcript Scarcity with Multi-Agent Conversations
 
-**会议**: ACL 2025
-**arXiv**: [2502.13001](https://arxiv.org/abs/2502.13001)
-**代码**: 有（GitHub）
-**领域**: NLP / 对话生成
+**会议**: ACL 2025  
+**arXiv**: [2502.13001](https://arxiv.org/abs/2502.13001)  
+**代码**: 有（GitHub）  
+**领域**: NLP / 对话生成  
 **关键词**: 会议摘要, 合成数据, 多智能体, 会议转录, 心理学行为建模
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # DCTdiff: Intriguing Properties of Image Generative Modeling in the DCT Space
 
-**会议**: ICML2025
-**arXiv**: [2412.15032](https://arxiv.org/abs/2412.15032)
-**代码**: [forever208/DCTdiff](https://github.com/forever208/DCTdiff)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2412.15032](https://arxiv.org/abs/2412.15032)  
+**代码**: [forever208/DCTdiff](https://github.com/forever208/DCTdiff)  
+**领域**: image_generation  
 **关键词**: 扩散模型, DCT, 频域建模, 图像生成, 频谱自回归
 
 ## 一句话总结

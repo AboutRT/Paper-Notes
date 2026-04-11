@@ -1,9 +1,9 @@
 # TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.15193](https://arxiv.org/abs/2509.15193)
-**代码**: GitHub (开源)
-**领域**: Physics / Quantum Computing
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.15193](https://arxiv.org/abs/2509.15193)  
+**代码**: GitHub (开源)  
+**领域**: Physics / Quantum Computing  
 **关键词**: VQE, 参数冻结, barren plateau, 量子化学, 深度学习辅助量子计算
 
 ## 一句话总结

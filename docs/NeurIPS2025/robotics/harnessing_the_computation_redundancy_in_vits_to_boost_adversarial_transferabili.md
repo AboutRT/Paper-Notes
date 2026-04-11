@@ -1,9 +1,9 @@
 # Harnessing the Computation Redundancy in ViTs to Boost Adversarial Transferability
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.10804](https://arxiv.org/abs/2504.10804)
-**代码**: 无
-**领域**: 对抗攻击 / Vision Transformer / 迁移攻击
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.10804](https://arxiv.org/abs/2504.10804)  
+**代码**: 无  
+**领域**: 对抗攻击 / Vision Transformer / 迁移攻击  
 **关键词**: 对抗迁移性, ViT 计算冗余, 注意力稀疏化, Ghost MoE, 鲁棒化 token
 
 ## 一句话总结

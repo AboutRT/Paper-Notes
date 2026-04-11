@@ -1,9 +1,9 @@
 # Safety Subspaces are Not Linearly Distinct: A Fine-Tuning Case Study
 
-**会议**: ICLR 2026
-**arXiv**: [2505.14185](https://arxiv.org/abs/2505.14185)
-**代码**: [GitHub](https://github.com/CERT-Lab/safety-subspaces)
-**领域**: LLM安全/对齐
+**会议**: ICLR 2026  
+**arXiv**: [2505.14185](https://arxiv.org/abs/2505.14185)  
+**代码**: [GitHub](https://github.com/CERT-Lab/safety-subspaces)  
+**领域**: LLM安全/对齐  
 **关键词**: 安全子空间, 微调攻击, 线性可分性, 权重空间, 激活空间
 
 ## 一句话总结

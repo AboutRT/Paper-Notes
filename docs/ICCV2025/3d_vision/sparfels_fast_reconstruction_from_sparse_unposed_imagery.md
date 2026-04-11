@@ -1,9 +1,9 @@
 # Sparfels: Fast Reconstruction from Sparse Unposed Imagery
 
-**会议**: ICCV 2025
-**arXiv**: [2505.02178](https://arxiv.org/abs/2505.02178)
-**代码**: [有](https://shubhendu-jena.github.io/Sparfels-web/)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2505.02178](https://arxiv.org/abs/2505.02178)  
+**代码**: [有](https://shubhendu-jena.github.io/Sparfels-web/)  
+**领域**: 3D视觉  
 **关键词**: 稀疏视图重建, 无位姿重建, 2D高斯泼溅, MASt3R, 色彩方差正则化
 
 ## 一句话总结

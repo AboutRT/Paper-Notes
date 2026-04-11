@@ -1,10 +1,10 @@
 # OMGM: Orchestrate Multiple Granularities and Modalities for Efficient Multimodal Retrieval
 
-**会议**: ACL 2025
-**arXiv**: [2505.07879](https://arxiv.org/abs/2505.07879)
+**会议**: ACL 2025  
+**arXiv**: [2505.07879](https://arxiv.org/abs/2505.07879)  
 **作者**: Wei Yang, Jingjing Fu, Rui Wang, Jinyu Wang, Lei Song, Jiang Bian (Microsoft Research Asia)
-**代码**: 未公开
-**领域**: multimodal_vlm
+**代码**: 未公开  
+**领域**: multimodal_vlm  
 **关键词**: 多模态检索, 知识增强VQA, RAG, 粒度对齐, 多模态融合重排序, 粗到细检索
 
 ## 一句话总结

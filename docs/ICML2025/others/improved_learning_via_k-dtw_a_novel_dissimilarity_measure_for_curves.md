@@ -1,9 +1,9 @@
 # Improved Learning via k-DTW: A Novel Dissimilarity Measure for Curves
 
-**会议**: ICML2025
-**arXiv**: [2505.23431](https://arxiv.org/abs/2505.23431)
-**代码**: [akrivosija/kDTW](https://github.com/akrivosija/kDTW)
-**领域**: 其他/距离度量
+**会议**: ICML2025  
+**arXiv**: [2505.23431](https://arxiv.org/abs/2505.23431)  
+**代码**: [akrivosija/kDTW](https://github.com/akrivosija/kDTW)  
+**领域**: 其他/距离度量  
 **关键词**: 动态时间规整, 曲线相似性, Fréchet距离, 学习理论, Rademacher复杂度
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion
 
-**会议**: CVPR2026
-**arXiv**: [2503.23359](https://arxiv.org/abs/2503.23359)
-**代码**: [https://github.com/Linfeng-Tang/VideoFusion](https://github.com/Linfeng-Tang/VideoFusion)
-**领域**: multimodal_vlm
+**会议**: CVPR2026  
+**arXiv**: [2503.23359](https://arxiv.org/abs/2503.23359)  
+**代码**: [https://github.com/Linfeng-Tang/VideoFusion](https://github.com/Linfeng-Tang/VideoFusion)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态视频融合, 红外-可见光融合, 时序一致性, 跨模态注意力, 视频数据集
 
 ## 一句话总结

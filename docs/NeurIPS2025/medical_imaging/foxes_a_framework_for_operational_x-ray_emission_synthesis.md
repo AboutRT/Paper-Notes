@@ -1,9 +1,9 @@
 # FOXES: A Framework For Operational X-ray Emission Synthesis
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.22801](https://arxiv.org/abs/2510.22801)
-**代码**: 未提供
-**领域**: 太阳物理 / 空间天气预测
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.22801](https://arxiv.org/abs/2510.22801)  
+**代码**: 未提供  
+**领域**: 太阳物理 / 空间天气预测  
 **关键词**: Vision Transformer, 太阳耀斑, EUV-SXR翻译, 空间天气, 注意力图, 耀斑分类
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Improving Generalization with Flat Hilbert Bayesian Inference
 
-**会议**: ICML2025
-**arXiv**: [2410.04196](https://arxiv.org/abs/2410.04196)
-**代码**: 待确认
-**领域**: 贝叶斯优化
+**会议**: ICML2025  
+**arXiv**: [2410.04196](https://arxiv.org/abs/2410.04196)  
+**代码**: 待确认  
+**领域**: 贝叶斯优化  
 **关键词**: Bayesian Inference, Sharpness-Aware Minimization, RKHS, SVGD, LoRA, 泛化性
 
 ## 一句话总结

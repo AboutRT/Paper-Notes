@@ -1,9 +1,9 @@
 # Mind the Gap: A Practical Attack on GGUF Quantization
 
-**会议**: ICML 2025
-**arXiv**: [2505.23786](https://arxiv.org/abs/2505.23786)
-**代码**: 无
-**领域**: Model Compression / Security
+**会议**: ICML 2025  
+**arXiv**: [2505.23786](https://arxiv.org/abs/2505.23786)  
+**代码**: 无  
+**领域**: Model Compression / Security  
 **关键词**: quantization attack, GGUF, llama.cpp, model security, backdoor
 
 ## 一句话总结
@@ -33,6 +33,7 @@
 双目标优化 $\mathcal{L} = \mathcal{L}_{\text{malicious}}(\mathbf{W}_q) + \lambda \cdot \mathcal{L}_{\text{benign}}(\mathbf{W})$，用直通估计器（STE）处理不可微分的量化。
 
 ## 实验关键数据
+
 ### 主实验（3 LLM × 9 GGUF 类型 × 3 场景）
 | 攻击场景 | 攻击成功率 Δ | 全精度表现 |
 |----------|-------------|----------|

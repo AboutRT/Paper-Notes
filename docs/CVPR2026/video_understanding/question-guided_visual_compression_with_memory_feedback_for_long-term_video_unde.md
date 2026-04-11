@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Question-guided Visual Compression with Memory Feedback for Long-Term Video Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2603.15167](https://arxiv.org/abs/2603.15167)
-**代码**: [FujitsuResearch/QViC-MF](https://github.com/FujitsuResearch/QViC-MF)
-**领域**: video_understanding
+**会议**: CVPR2026  
+**arXiv**: [2603.15167](https://arxiv.org/abs/2603.15167)  
+**代码**: [FujitsuResearch/QViC-MF](https://github.com/FujitsuResearch/QViC-MF)  
+**领域**: video_understanding  
 **关键词**: 长视频理解, 视觉压缩, 记忆反馈, 问题引导注意力, 大规模多模态模型
 
 ## 一句话总结

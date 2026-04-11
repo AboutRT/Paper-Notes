@@ -1,9 +1,9 @@
 # Real-Time Robot Execution with Masked Action Chunking
 
-**会议**: ICLR 2026
-**arXiv**: [2601.20130](https://arxiv.org/abs/2601.20130)
-**代码**: [项目页面](https://remac-robot.github.io)
-**领域**: 机器人学习
+**会议**: ICLR 2026  
+**arXiv**: [2601.20130](https://arxiv.org/abs/2601.20130)  
+**代码**: [项目页面](https://remac-robot.github.io)  
+**领域**: 机器人学习  
 **关键词**: 实时执行, 动作分块, 异步推理, VLA, 流匹配, LoRA
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # IntLoRA: Integral Low-rank Adaptation of Quantized Diffusion Models
 
-**会议**: ICML2025
-**arXiv**: [2410.21759](https://arxiv.org/abs/2410.21759)
-**代码**: [csguoh/IntLoRA](https://github.com/csguoh/IntLoRA)
-**领域**: 扩散模型量化
+**会议**: ICML2025  
+**arXiv**: [2410.21759](https://arxiv.org/abs/2410.21759)  
+**代码**: [csguoh/IntLoRA](https://github.com/csguoh/IntLoRA)  
+**领域**: 扩散模型量化  
 **关键词**: LoRA, 网络量化, 扩散模型, 低秩适配, 整数运算, 推理加速
 
 ## 一句话总结

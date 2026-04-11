@@ -1,9 +1,9 @@
 # CFP-Gen: Combinatorial Functional Protein Generation via Diffusion Language Models
 
-**会议**: ICML 2025
-**arXiv**: [2505.22869](https://arxiv.org/abs/2505.22869)
-**代码**: 无
-**领域**: 医学图像/蛋白质设计
+**会议**: ICML 2025  
+**arXiv**: [2505.22869](https://arxiv.org/abs/2505.22869)  
+**代码**: 无  
+**领域**: 医学图像/蛋白质设计  
 **关键词**: 蛋白质设计, 扩散语言模型, 多功能约束, 组合条件生成, 功能注释
 
 ## 一句话总结

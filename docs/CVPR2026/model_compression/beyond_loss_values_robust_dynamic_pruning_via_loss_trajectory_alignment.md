@@ -1,9 +1,9 @@
 # Beyond Loss Values: Robust Dynamic Pruning via Loss Trajectory Alignment
 
-**会议**: CVPR 2026
-**arXiv**: [2604.07306](https://arxiv.org/abs/2604.07306)
-**代码**: [GitHub](https://github.com/leonqin430/AlignPrune) (有)
-**领域**: 模型压缩/数据剪枝
+**会议**: CVPR 2026  
+**arXiv**: [2604.07306](https://arxiv.org/abs/2604.07306)  
+**代码**: [GitHub](https://github.com/leonqin430/AlignPrune) (有)  
+**领域**: 模型压缩/数据剪枝  
 **关键词**: 动态数据剪枝, 噪声标签, 损失轨迹, 即插即用模块, 训练效率
 
 ## 一句话总结
@@ -16,6 +16,7 @@
 4. **核心idea**：用损失轨迹与干净参考集的**相关性**（而非单点损失值）来评估样本质量，低相关性的样本更可能是噪声，应被剪枝。
 
 ## 方法详解
+
 ### 整体框架
 输入：含噪声的训练集 $\mathcal{D}$ + 少量干净参考集 $\mathcal{D}_{ref}$ → 每轮计算DAS → 替换原始损失排序 → 动态剪枝子集选择 → 正常训练
 
@@ -37,6 +38,7 @@
 - 参考集 $\mathcal{D}_{ref}$ 假设为干净（实验表明即使含少量噪声也鲁棒）
 
 ## 实验关键数据
+
 ### 主实验（CIFAR-100N, ResNet-18, ~30%剪枝率）
 | 方法 | Clean | Real | Sym-0.5 | Sym-0.8 | Asym-0.2 | 平均Δ |
 |------|-------|------|---------|---------|----------|------|

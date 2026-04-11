@@ -1,9 +1,9 @@
 # UnHiPPO: Uncertainty-Aware Initialization for State Space Models
 
-**会议**: ICML 2025
-**arXiv**: [2506.05065](https://arxiv.org/abs/2506.05065)
-**代码**: https://cs.cit.tum.de/daml/unhippo
-**领域**: 序列模型 / 状态空间模型
+**会议**: ICML 2025  
+**arXiv**: [2506.05065](https://arxiv.org/abs/2506.05065)  
+**代码**: https://cs.cit.tum.de/daml/unhippo  
+**领域**: 序列模型 / 状态空间模型  
 **关键词**: state space models, HiPPO, initialization, uncertainty, Kalman filter, noise robustness
 
 ## 一句话总结

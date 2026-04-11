@@ -1,9 +1,9 @@
 # Context Matters: Query-aware Dynamic Long Sequence Modeling of Gigapixel Images
 
-**会议**: ICML 2025
-**arXiv**: [2501.18984](https://arxiv.org/abs/2501.18984)
-**代码**: 有（GitHub）
-**领域**: 医学图像
+**会议**: ICML 2025  
+**arXiv**: [2501.18984](https://arxiv.org/abs/2501.18984)  
+**代码**: 有（GitHub）  
+**领域**: 医学图像  
 **关键词**: 全切片图像, 多实例学习, 动态注意力, 计算病理学, 长序列建模
 
 ## 一句话总结

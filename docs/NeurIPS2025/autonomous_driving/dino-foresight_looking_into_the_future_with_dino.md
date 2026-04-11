@@ -1,9 +1,9 @@
 # DINO-Foresight: Looking into the Future with DINO
 
-**会议**: NeurIPS 2025
-**arXiv**: [2412.11673](https://arxiv.org/abs/2412.11673)
+**会议**: NeurIPS 2025  
+**arXiv**: [2412.11673](https://arxiv.org/abs/2412.11673)  
 **主页**: [https://dino-foresight.github.io/](https://dino-foresight.github.io/)
-**领域**: autonomous_driving / 语义未来预测
+**领域**: autonomous_driving / 语义未来预测  
 **关键词**: Future Prediction, VFM Feature Forecasting, DINOv2, Multi-Task Dense Prediction, Masked Feature Transformer, Self-Supervised Learning
 
 ## 一句话总结

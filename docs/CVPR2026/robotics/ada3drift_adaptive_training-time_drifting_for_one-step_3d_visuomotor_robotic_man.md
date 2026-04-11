@@ -1,9 +1,9 @@
 # Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11984](https://arxiv.org/abs/2603.11984)
-**代码**: 待确认
-**领域**: 3D 视觉 / 机器人操作
+**会议**: CVPR 2026  
+**arXiv**: [2603.11984](https://arxiv.org/abs/2603.11984)  
+**代码**: 待确认  
+**领域**: 3D 视觉 / 机器人操作  
 **关键词**: 扩散策略, Flow Matching, 单步推理, 多模态动作分布, 3D visuomotor policy
 
 ## 一句话总结

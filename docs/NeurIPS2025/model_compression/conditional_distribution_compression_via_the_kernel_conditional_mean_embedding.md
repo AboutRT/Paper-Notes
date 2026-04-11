@@ -1,9 +1,9 @@
 # Conditional Distribution Compression via the Kernel Conditional Mean Embedding
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.10139](https://arxiv.org/abs/2504.10139)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.10139](https://arxiv.org/abs/2504.10139)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: distribution compression, kernel methods, conditional mean embedding, RKHS, data compression
 
 ## 一句话总结

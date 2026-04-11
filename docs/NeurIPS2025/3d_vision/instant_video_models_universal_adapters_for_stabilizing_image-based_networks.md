@@ -1,9 +1,9 @@
 # Instant Video Models: Universal Adapters for Stabilizing Image-Based Networks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.03014](https://arxiv.org/abs/2512.03014)
-**代码**: 无（但方法可复现）
-**领域**: 3D视觉 / 视频处理 / 时序一致性
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.03014](https://arxiv.org/abs/2512.03014)  
+**代码**: 无（但方法可复现）  
+**领域**: 3D视觉 / 视频处理 / 时序一致性  
 **关键词**: 时序稳定性, 稳定化适配器, 视频一致性, 腐蚀鲁棒性, EMA
 
 ## 一句话总结

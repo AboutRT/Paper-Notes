@@ -1,9 +1,9 @@
 # Tokenization is Sensitive to Language Variation
 
-**会议**: ACL2025
-**arXiv**: [2502.15343](https://arxiv.org/abs/2502.15343)
-**代码**: [nlpsoc/Tokenization-Language-Variation](https://github.com/nlpsoc/Tokenization-Language-Variation)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.15343](https://arxiv.org/abs/2502.15343)  
+**代码**: [nlpsoc/Tokenization-Language-Variation](https://github.com/nlpsoc/Tokenization-Language-Variation)  
+**领域**: llm_nlp  
 **关键词**: tokenization, BPE, language variation, pre-tokenizer, vocabulary size, robustness, sensitivity
 
 ## 一句话总结

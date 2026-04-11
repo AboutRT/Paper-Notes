@@ -1,10 +1,10 @@
 # Geometric Imbalance in Semi-Supervised Node Classification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2303.10371](https://arxiv.org/abs/2303.10371)
+**会议**: NeurIPS 2025  
+**arXiv**: [2303.10371](https://arxiv.org/abs/2303.10371)  
 **作者**: Liang Yan, Shengzhong Zhang, Bisheng Li, Menglin Yang, Chen Yang, Min Zhou, Weiyang Ding, Yutong Xie, Zengfeng Huang (Fudan University, HKUST(GZ), MBZUAI, Logs AI)
-**代码**: [yanliang3612/UNREAL](https://github.com/yanliang3612/UNREAL)
-**领域**: graph_learning
+**代码**: [yanliang3612/UNREAL](https://github.com/yanliang3612/UNREAL)  
+**领域**: graph_learning  
 **关键词**: geometric imbalance, semi-supervised node classification, self-training, pseudo-label, GNN, Riemannian manifold
 
 ## 一句话总结

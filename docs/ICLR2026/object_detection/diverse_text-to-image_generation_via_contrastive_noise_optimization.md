@@ -1,9 +1,9 @@
 # Diverse Text-to-Image Generation via Contrastive Noise Optimization
 
-**会议**: ICLR 2026
-**arXiv**: [2510.03813](https://arxiv.org/abs/2510.03813)
-**代码**: 有（官方开源）
-**领域**: 扩散模型 / 图像生成
+**会议**: ICLR 2026  
+**arXiv**: [2510.03813](https://arxiv.org/abs/2510.03813)  
+**代码**: 有（官方开源）  
+**领域**: 扩散模型 / 图像生成  
 **关键词**: 扩散模型, 文本到图像生成, 多样性, 对比学习, 噪声优化, InfoNCE
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Thinker: Training LLMs in Hierarchical Thinking for Deep Search via Multi-Turn Interaction
 
-**会议**: AAAI2026
-**arXiv**: [2511.07943](https://arxiv.org/abs/2511.07943)
-**代码**: [OpenSPG/KAG-Thinker](https://github.com/OpenSPG/KAG-Thinker)
-**领域**: reinforcement_learning
+**会议**: AAAI2026  
+**arXiv**: [2511.07943](https://arxiv.org/abs/2511.07943)  
+**代码**: [OpenSPG/KAG-Thinker](https://github.com/OpenSPG/KAG-Thinker)  
+**领域**: reinforcement_learning  
 **关键词**: deep search, hierarchical thinking, RAG, multi-turn interaction, knowledge boundary
 
 ## 一句话总结

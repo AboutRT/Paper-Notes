@@ -1,9 +1,9 @@
 # Un-considering Contextual Information: Assessing LLMs' Understanding of Indexical Elements
 
-**会议**: ACL2025
-**arXiv**: [2506.01089](https://arxiv.org/abs/2506.01089)
-**代码**: [metehanoguzz/LLMs-Indexicals-English](https://github.com/metehanoguzz/LLMs-Indexicals-English)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.01089](https://arxiv.org/abs/2506.01089)  
+**代码**: [metehanoguzz/LLMs-Indexicals-English](https://github.com/metehanoguzz/LLMs-Indexicals-English)  
+**领域**: llm_nlp  
 **关键词**: 指示词理解, 共指消解, LLM语言能力评估, 语用学
 
 ## 一句话总结

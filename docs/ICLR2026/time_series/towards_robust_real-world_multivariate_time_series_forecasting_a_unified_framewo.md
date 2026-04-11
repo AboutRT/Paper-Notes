@@ -1,8 +1,8 @@
 # Towards Robust Real-World Multivariate Time Series Forecasting: A Unified Framework
 
-**会议**: ICLR 2026
-**arXiv**: [2506.08660](https://arxiv.org/abs/2506.08660)
-**领域**: 时间序列/鲁棒预测
+**会议**: ICLR 2026  
+**arXiv**: [2506.08660](https://arxiv.org/abs/2506.08660)  
+**领域**: 时间序列/鲁棒预测  
 **关键词**: 多变量时序, 异步采样, 块缺失, 通道依赖, ChannelTokenFormer
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Revisiting Model Stitching In the Foundation Model Era
 
-**会议**: CVPR2026
-**arXiv**: [2603.12433](https://arxiv.org/abs/2603.12433)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2603.12433](https://arxiv.org/abs/2603.12433)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 模型拼接, 视觉基础模型, 表征兼容性, 特征匹配, 多VFM融合, 效率优化
 
 ## 一句话总结

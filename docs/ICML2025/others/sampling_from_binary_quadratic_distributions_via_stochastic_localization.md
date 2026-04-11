@@ -1,9 +1,9 @@
 # Sampling from Binary Quadratic Distributions via Stochastic Localization
 
-**会议**: ICML2025
-**arXiv**: [2505.19438](https://arxiv.org/abs/2505.19438)
-**代码**: 待确认
-**领域**: 其他/采样
+**会议**: ICML2025  
+**arXiv**: [2505.19438](https://arxiv.org/abs/2505.19438)  
+**代码**: 待确认  
+**领域**: 其他/采样  
 **关键词**: 随机局部化, 二元二次分布, 离散MCMC, Poincaré不等式, 组合优化, Gibbs采样
 
 ## 一句话总结

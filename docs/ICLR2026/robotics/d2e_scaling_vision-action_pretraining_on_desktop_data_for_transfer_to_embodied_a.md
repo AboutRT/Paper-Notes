@@ -1,9 +1,9 @@
 # D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI
 
-**会议**: ICLR 2026
-**arXiv**: [2510.05684](https://arxiv.org/abs/2510.05684)
-**代码**: [项目页](https://worv-ai.github.io/d2e/)
-**领域**: 机器人
+**会议**: ICLR 2026  
+**arXiv**: [2510.05684](https://arxiv.org/abs/2510.05684)  
+**代码**: [项目页](https://worv-ai.github.io/d2e/)  
+**领域**: 机器人  
 **关键词**: embodied AI, desktop pretraining, inverse dynamics model, vision-action pretraining, robotics transfer
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 桌面 = 便宜的具身 AI 预训练数据源，OWA收集 + 通用IDM伪标注 + VAPT迁移 = 完整管线。
 
 ## 方法详解
+
 ### 整体框架
 三组件管线：(1) OWA Toolkit 数据收集与格式化 → (2) Generalist-IDM 伪标注 YouTube 视频 → (3) VAPT 在桌面数据上预训练后迁移到机器人任务。
 
@@ -46,6 +47,7 @@
 - VAPT: 标准视觉-动作预训练目标，下游任务微调
 
 ## 实验关键数据
+
 ### 主实验
 LIBERO 操作基准（成功率%）:
 

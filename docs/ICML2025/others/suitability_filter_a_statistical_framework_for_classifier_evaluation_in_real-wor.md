@@ -1,9 +1,9 @@
 # Suitability Filter: A Statistical Framework for Classifier Evaluation in Real-World Settings
 
-**会议**: ICML 2025
-**arXiv**: [2505.22356](https://arxiv.org/abs/2505.22356)
-**代码**: 无
-**领域**: 模型评估 / 可靠性
+**会议**: ICML 2025  
+**arXiv**: [2505.22356](https://arxiv.org/abs/2505.22356)  
+**代码**: 无  
+**领域**: 模型评估 / 可靠性  
 **关键词**: classifier evaluation, covariate shift, deployment safety, hypothesis testing, suitability signals
 
 ## 一句话总结

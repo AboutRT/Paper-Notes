@@ -1,9 +1,9 @@
 # Easy3E: Feed-Forward 3D Asset Editing via Rectified Voxel Flow
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21499](https://arxiv.org/abs/2602.21499)
-**代码**: 待确认
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.21499](https://arxiv.org/abs/2602.21499)  
+**代码**: 待确认  
+**领域**: 3D视觉  
 **关键词**: 3D编辑, 前馈式生成, 体素流, Flow Matching, 纹理优化
 
 ## 一句话总结

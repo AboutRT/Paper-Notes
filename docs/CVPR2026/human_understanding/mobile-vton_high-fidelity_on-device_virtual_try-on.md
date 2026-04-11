@@ -1,9 +1,9 @@
 # Mobile-VTON: High-Fidelity On-Device Virtual Try-On
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00947](https://arxiv.org/abs/2603.00947)
-**代码**: [项目主页](https://zhenchenwan.github.io/Mobile-VTON/)
-**领域**: 人体理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.00947](https://arxiv.org/abs/2603.00947)  
+**代码**: [项目主页](https://zhenchenwan.github.io/Mobile-VTON/)  
+**领域**: 人体理解  
 **关键词**: 虚拟试穿, 移动端部署, 知识蒸馏, 扩散模型, 隐私保护
 
 ## 一句话总结

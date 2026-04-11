@@ -1,10 +1,10 @@
 # CuMPerLay: Learning Cubical Multiparameter Persistence Vectorizations
 
-**会议**: ICCV 2025
-**arXiv**: [2510.12795](https://arxiv.org/abs/2510.12795)
-**代码**: [circle-group/cumperlay](https://github.com/circle-group/cumperlay) (有)
-**领域**: 医学图像 / 拓扑深度学习
-**关键词**: 多参数持久同调, 立方复形, 可微向量化, 拓扑数据分析, Swin Transformer
+**会议**: ICCV 2025  
+**arXiv**: [2510.12795](https://arxiv.org/abs/2510.12795)  
+**代码**: [circle-group/cumperlay](https://github.com/circle-group/cumperlay) (有)  
+**领域**: 医学图像 / 拓扑深度学习  
+**关键词**: 多参数持久同调, 立方复形, 可微向量化, 拓扑数据分析, Swin Transformer  
 **机构**: Imperial College London + UT Dallas
 
 ## 一句话总结

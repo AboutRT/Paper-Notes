@@ -1,9 +1,9 @@
 # EagleVision: A Dual-Stage Framework with BEV-grounding-based Chain-of-Thought for Spatial Intelligence
 
-**会议**: CVPR 2026
-**arXiv**: [2512.15160](https://arxiv.org/abs/2512.15160)
-**代码**: https://wallelwan.github.io/EagleVision (有)
-**领域**: LLM推理 / 空间智能
+**会议**: CVPR 2026  
+**arXiv**: [2512.15160](https://arxiv.org/abs/2512.15160)  
+**代码**: https://wallelwan.github.io/EagleVision (有)  
+**领域**: LLM推理 / 空间智能  
 **关键词**: 空间推理, BEV, 主动视觉, Chain-of-Thought, DPP选帧, 强化学习
 
 ## 一句话总结

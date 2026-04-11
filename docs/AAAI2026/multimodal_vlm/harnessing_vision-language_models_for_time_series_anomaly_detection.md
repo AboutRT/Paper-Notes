@@ -1,9 +1,9 @@
 # Harnessing Vision-Language Models for Time Series Anomaly Detection
 
-**会议**: AAAI2026
-**arXiv**: [2506.06836](https://arxiv.org/abs/2506.06836)
-**代码**: [ZLHe0/VLM4TS](https://github.com/ZLHe0/VLM4TS)
-**领域**: multimodal_vlm
+**会议**: AAAI2026  
+**arXiv**: [2506.06836](https://arxiv.org/abs/2506.06836)  
+**代码**: [ZLHe0/VLM4TS](https://github.com/ZLHe0/VLM4TS)  
+**领域**: multimodal_vlm  
 **关键词**: time series anomaly detection, VLM, vision transformer, zero-shot, ViT4TS
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling
 
-**会议**: ICLR 2026
-**arXiv**: [2602.12116](https://arxiv.org/abs/2602.12116)
-**代码**: [GitHub](https://github.com/Tongyi-ConvAI/Qwen-Character/tree/main/Character-GenRM)
-**领域**: LLM对齐/个性化
+**会议**: ICLR 2026  
+**arXiv**: [2602.12116](https://arxiv.org/abs/2602.12116)  
+**代码**: [GitHub](https://github.com/Tongyi-ConvAI/Qwen-Character/tree/main/Character-GenRM)  
+**领域**: LLM对齐/个性化  
 **关键词**: 个性化奖励模型, 生成式评判, 用户画像, 测试时scaling, 协同过滤
 
 ## 一句话总结

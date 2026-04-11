@@ -1,10 +1,10 @@
 # Leveraging Skills from Unlabeled Prior Data for Efficient Online Exploration
 
-**会议**: ICML2025
-**arXiv**: [2410.18076](https://arxiv.org/abs/2410.18076)
+**会议**: ICML2025  
+**arXiv**: [2410.18076](https://arxiv.org/abs/2410.18076)  
 **作者**: Max Wilcoxson, Qiyang Li, Kevin Frans, Sergey Levine (UC Berkeley)
-**代码**: [rail-berkeley/supe](https://github.com/rail-berkeley/supe)
-**领域**: reinforcement_learning
+**代码**: [rail-berkeley/supe](https://github.com/rail-berkeley/supe)  
+**领域**: reinforcement_learning  
 **关键词**: 无监督技能预训练, 层次强化学习, 离线数据利用, 探索策略, 伪标签
 
 ## 一句话总结

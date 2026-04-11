@@ -1,10 +1,10 @@
 # RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation
 
 
-**会议**: ACL 2025
-**arXiv**: [2501.13726](https://arxiv.org/abs/2501.13726)
+**会议**: ACL 2025  
+**arXiv**: [2501.13726](https://arxiv.org/abs/2501.13726)  
 **作者**: Shi-Qi Yan, Quan Liu, Zhen-Hua Ling（中国科大 / 科大讯飞）
-**代码**: 未公开
+**代码**: 未公开  
 **领域**: LLM Alignment / RAG
 
 ## 一句话总结

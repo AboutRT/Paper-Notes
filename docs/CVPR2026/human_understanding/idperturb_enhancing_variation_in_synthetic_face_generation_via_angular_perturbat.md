@@ -1,9 +1,9 @@
 # IDperturb: Enhancing Variation in Synthetic Face Generation via Angular Perturbations
 
-**会议**: CVPR 2026
-**arXiv**: [2602.18831](https://arxiv.org/abs/2602.18831)
-**代码**: [GitHub](https://github.com/fdbtrs/IDiff-Face)（基于 IDiff-Face）
-**领域**: 图像生成 / 人脸识别
+**会议**: CVPR 2026  
+**arXiv**: [2602.18831](https://arxiv.org/abs/2602.18831)  
+**代码**: [GitHub](https://github.com/fdbtrs/IDiff-Face)（基于 IDiff-Face）  
+**领域**: 图像生成 / 人脸识别  
 **关键词**: 合成人脸, 身份扰动, 角度采样, 扩散模型, 人脸识别
 
 ## 一句话总结

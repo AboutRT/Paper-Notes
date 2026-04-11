@@ -1,9 +1,9 @@
 # MARGE: Improving Math Reasoning for LLMs with Guided Exploration
 
-**会议**: ICML 2025
-**arXiv**: [2505.12500](https://arxiv.org/abs/2505.12500)
-**代码**: https://github.com/georgao35/MARGE (有)
-**领域**: LLM推理 / 数学推理
+**会议**: ICML 2025  
+**arXiv**: [2505.12500](https://arxiv.org/abs/2505.12500)  
+**代码**: https://github.com/georgao35/MARGE (有)  
+**领域**: LLM推理 / 数学推理  
 **关键词**: 数学推理, 引导探索, 中间状态, 信用分配, 自生成数据
 
 ## 一句话总结

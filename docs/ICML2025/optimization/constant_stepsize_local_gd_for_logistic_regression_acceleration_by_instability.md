@@ -1,9 +1,9 @@
 # Constant Stepsize Local GD for Logistic Regression: Acceleration by Instability
 
-**会议**: ICML2025
-**arXiv**: [2506.13974](https://arxiv.org/abs/2506.13974)
-**代码**: 无
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2506.13974](https://arxiv.org/abs/2506.13974)  
+**代码**: 无  
+**领域**: optimization  
 **关键词**: Local GD, 逻辑回归, 分布式优化, 大步长, 稳定性边缘, 联邦学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Towards Improved Sentence Representations using Token Graphs
 
-**会议**: ICLR 2026
-**arXiv**: [2603.03389](https://arxiv.org/abs/2603.03389)
-**代码**: https://github.com/ipsitmantri/GLOT
-**领域**: NLP / 图学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.03389](https://arxiv.org/abs/2603.03389)  
+**代码**: https://github.com/ipsitmantri/GLOT  
+**领域**: NLP / 图学习  
 **关键词**: 句子表征, 图神经网络, Token图, 池化, 冻结LLM
 
 ## 一句话总结

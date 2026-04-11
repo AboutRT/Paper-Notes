@@ -1,9 +1,9 @@
 # REMem: Reasoning with Episodic Memory in Language Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2602.13530](https://arxiv.org/abs/2602.13530)
-**代码**: [intuit-ai-research/REMem](https://github.com/intuit-ai-research/REMem)
-**领域**: llm_agent
+**会议**: ICLR 2026  
+**arXiv**: [2602.13530](https://arxiv.org/abs/2602.13530)  
+**代码**: [intuit-ai-research/REMem](https://github.com/intuit-ai-research/REMem)  
+**领域**: llm_agent  
 **关键词**: episodic memory, language agent, hybrid memory graph, temporal reasoning, agentic retrieval, gist extraction
 
 ## 一句话总结

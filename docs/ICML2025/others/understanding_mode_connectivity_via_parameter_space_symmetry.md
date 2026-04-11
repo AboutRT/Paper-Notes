@@ -1,9 +1,9 @@
 # Understanding Mode Connectivity via Parameter Space Symmetry
 
-**会议**: ICML2025
-**arXiv**: [2505.23681](https://arxiv.org/abs/2505.23681)
-**代码**: 待确认
-**领域**: 优化理论
+**会议**: ICML2025  
+**arXiv**: [2505.23681](https://arxiv.org/abs/2505.23681)  
+**代码**: 待确认  
+**领域**: 优化理论  
 **关键词**: mode connectivity, 参数空间对称性, 损失景观, 线性网络, 连通分量
 
 ## 一句话总结

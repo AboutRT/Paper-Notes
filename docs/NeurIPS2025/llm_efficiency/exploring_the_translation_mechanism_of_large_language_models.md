@@ -1,9 +1,9 @@
 # Exploring the Translation Mechanism of Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.11806](https://arxiv.org/abs/2502.11806)
-**代码**: 有（论文附链接）
-**领域**: NLP理解 / 机制可解释性
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.11806](https://arxiv.org/abs/2502.11806)  
+**代码**: 有（论文附链接）  
+**领域**: NLP理解 / 机制可解释性  
 **关键词**: translation mechanism, mechanistic interpretability, attention head, path patching, subspace intervention
 
 ## 一句话总结

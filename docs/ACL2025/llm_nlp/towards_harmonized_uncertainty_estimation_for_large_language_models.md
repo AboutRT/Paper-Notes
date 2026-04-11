@@ -1,9 +1,9 @@
 # Towards Harmonized Uncertainty Estimation for Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2505.19073](https://arxiv.org/abs/2505.19073)
-**代码**: [O-L1RU1/Corrector4UE](https://github.com/O-L1RU1/Corrector4UE)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.19073](https://arxiv.org/abs/2505.19073)  
+**代码**: [O-L1RU1/Corrector4UE](https://github.com/O-L1RU1/Corrector4UE)  
+**领域**: llm_nlp  
 **关键词**: 不确定性估计, LLM可信部署, 校准, 轻量级校正器
 
 ## 一句话总结

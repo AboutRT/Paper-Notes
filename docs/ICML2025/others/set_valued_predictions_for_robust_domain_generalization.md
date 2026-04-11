@@ -1,9 +1,9 @@
 # Set-Valued Predictions for Robust Domain Generalization
 
-**会议**: ICML2025
-**arXiv**: [2507.03146](https://arxiv.org/abs/2507.03146)
-**代码**: [ront65/set-valued-ood](https://github.com/ront65/set-valued-ood)
-**领域**: 其他/域泛化 (Domain Generalization)
+**会议**: ICML2025  
+**arXiv**: [2507.03146](https://arxiv.org/abs/2507.03146)  
+**代码**: [ront65/set-valued-ood](https://github.com/ront65/set-valued-ood)  
+**领域**: 其他/域泛化 (Domain Generalization)  
 **关键词**: 集值预测, 域泛化, 鲁棒性, 共形预测, VC维, 最坏情况保证
 
 ## 一句话总结

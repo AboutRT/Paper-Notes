@@ -1,9 +1,9 @@
 # OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2509.09332](https://arxiv.org/abs/2509.09332)
-**代码**: [项目页面](https://github.com/OmniEVA-Project)
-**领域**: 具身智能/3D推理
+**会议**: ICLR 2026  
+**arXiv**: [2509.09332](https://arxiv.org/abs/2509.09332)  
+**代码**: [项目页面](https://github.com/OmniEVA-Project)  
+**领域**: 具身智能/3D推理  
 **关键词**: MLLM, 任务自适应3D接地, 门控路由, 具身感知推理, GRPO
 
 ## 一句话总结

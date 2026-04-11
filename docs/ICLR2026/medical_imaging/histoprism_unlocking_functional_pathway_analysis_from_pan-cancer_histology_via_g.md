@@ -1,11 +1,11 @@
 # HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2601.21560](https://arxiv.org/abs/2601.21560)
 
 **代码**: [GitHub](https://github.com/susuhu/HistoPrism)
 
-**领域**: 计算病理学
+**领域**: 计算病理学  
 **关键词**: 基因表达预测, 通路分析, 泛癌, Transformer, 空间转录组
 
 ## 一句话总结

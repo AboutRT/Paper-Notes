@@ -1,9 +1,9 @@
 # NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.14096](https://arxiv.org/abs/2511.14096)
-**代码**: [GitHub](https://github.com/KennyCaty/NeuroPath) (有)
-**领域**: Video Understanding / RAG
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.14096](https://arxiv.org/abs/2511.14096)  
+**代码**: [GitHub](https://github.com/KennyCaty/NeuroPath) (有)  
+**领域**: Video Understanding / RAG  
 **关键词**: RAG, 多跳问答, 知识图谱, 位置细胞, 语义路径追踪
 
 ## 一句话总结

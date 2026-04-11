@@ -1,9 +1,9 @@
 # Remedying Target-Domain Astigmatism for Cross-Domain Few-Shot Object Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.18541](https://arxiv.org/abs/2603.18541)
-**代码**: 待确认
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.18541](https://arxiv.org/abs/2603.18541)  
+**代码**: 待确认  
+**领域**: 目标检测  
 **关键词**: 跨域少样本检测, 注意力散焦, 仿生视觉, 原型, 负上下文
 
 ## 一句话总结

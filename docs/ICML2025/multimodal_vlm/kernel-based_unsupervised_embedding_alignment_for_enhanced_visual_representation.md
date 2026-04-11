@@ -1,9 +1,9 @@
 # Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models
 
-**会议**: ICML2025
-**arXiv**: [2506.02557](https://arxiv.org/abs/2506.02557)
-**代码**: [peterant330/KUEA](https://github.com/peterant330/KUEA)
-**领域**: 视觉表示 / 多模态VLM
+**会议**: ICML2025  
+**arXiv**: [2506.02557](https://arxiv.org/abs/2506.02557)  
+**代码**: [peterant330/KUEA](https://github.com/peterant330/KUEA)  
+**领域**: 视觉表示 / 多模态VLM  
 **关键词**: CLIP, DINOv2, 核方法对齐, 视觉表示增强, 零样本分类, MLLM
 
 ## 一句话总结

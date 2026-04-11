@@ -1,9 +1,9 @@
 # Adaptive Dual Uncertainty Optimization: Boosting Monocular 3D Object Detection under Test-Time Shifts
 
-**会议**: ICCV 2025
-**arXiv**: [2508.20488](https://arxiv.org/abs/2508.20488)
-**代码**: [GitHub](https://github.com/hzcar/DUO)
-**领域**: autonomous_driving
+**会议**: ICCV 2025  
+**arXiv**: [2508.20488](https://arxiv.org/abs/2508.20488)  
+**代码**: [GitHub](https://github.com/hzcar/DUO)  
+**领域**: autonomous_driving  
 **关键词**: 单目3D检测, 测试时自适应, 不确定性优化, 域偏移, 凸优化
 
 ## 一句话总结

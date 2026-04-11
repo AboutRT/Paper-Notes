@@ -1,9 +1,9 @@
 # CompleteMe: Reference-based Human Image Completion
 
-**会议**: ICCV 2025
-**arXiv**: [2504.20042](https://arxiv.org/abs/2504.20042)
-**代码**: 无
-**领域**: Image Generation / Human Image Completion
+**会议**: ICCV 2025  
+**arXiv**: [2504.20042](https://arxiv.org/abs/2504.20042)  
+**代码**: 无  
+**领域**: Image Generation / Human Image Completion  
 **关键词**: Image Completion, Reference-based Inpainting, Dual U-Net, Attention Mechanism, Human Body
 
 ## 一句话总结

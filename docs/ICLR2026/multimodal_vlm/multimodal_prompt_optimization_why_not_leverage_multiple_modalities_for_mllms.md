@@ -1,9 +1,9 @@
 # Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2510.09201](https://arxiv.org/abs/2510.09201)
-**代码**: [GitHub](https://github.com/Dozi01/MPO)
-**领域**: 多模态VLM/提示优化
+**会议**: ICLR 2026  
+**arXiv**: [2510.09201](https://arxiv.org/abs/2510.09201)  
+**代码**: [GitHub](https://github.com/Dozi01/MPO)  
+**领域**: 多模态VLM/提示优化  
 **关键词**: 多模态提示, 自动提示优化, 贝叶斯选择, MLLM, 跨模态对齐
 
 ## 一句话总结

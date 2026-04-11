@@ -1,9 +1,9 @@
 # On the Importance of Gaussianizing Representations
 
-**会议**: ICML2025
-**arXiv**: [2505.00685](https://arxiv.org/abs/2505.00685)
-**代码**: [GitHub](https://github.com/DanielEftekhari/normality-normalization)
-**领域**: 表示学习 / 归一化
+**会议**: ICML2025  
+**arXiv**: [2505.00685](https://arxiv.org/abs/2505.00685)  
+**代码**: [GitHub](https://github.com/DanielEftekhari/normality-normalization)  
+**领域**: 表示学习 / 归一化  
 **关键词**: Gaussianization, Power Transform, Normalization Layer, Mutual Information, Noise Robustness, 信息论
 
 ## 一句话总结

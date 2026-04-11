@@ -1,9 +1,9 @@
 # Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12711](https://arxiv.org/abs/2603.12711)
-**代码**: 待确认
-**领域**: 自监督学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.12711](https://arxiv.org/abs/2603.12711)  
+**代码**: 待确认  
+**领域**: 自监督学习  
 **关键词**: 跨域图像检索, 文本-相位协同, 无监督, 双先验, 哈希
 
 ## 一句话总结

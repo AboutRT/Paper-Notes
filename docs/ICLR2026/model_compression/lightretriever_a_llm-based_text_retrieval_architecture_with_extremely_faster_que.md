@@ -1,9 +1,9 @@
 # LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference
 
-**会议**: ICLR 2026
-**arXiv**: [2505.12260](https://arxiv.org/abs/2505.12260)
-**代码**: [GitHub](https://github.com/caskcsg/lightretriever)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2505.12260](https://arxiv.org/abs/2505.12260)  
+**代码**: [GitHub](https://github.com/caskcsg/lightretriever)  
+**领域**: 模型压缩  
 **关键词**: LLM检索, 不对称编码器, 极速查询推理, 混合检索, 嵌入缓存
 
 ## 一句话总结

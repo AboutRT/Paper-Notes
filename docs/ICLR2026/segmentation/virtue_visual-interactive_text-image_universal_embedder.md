@@ -1,9 +1,9 @@
 # VIRTUE: Visual-Interactive Text-Image Universal Embedder
 
-**会议**: ICLR 2026
-**arXiv**: [2510.00523](https://arxiv.org/abs/2510.00523)
-**代码**: [GitHub](https://github.com/sony/virtue)
-**领域**: 图像分割（多模态嵌入/视觉交互）
+**会议**: ICLR 2026  
+**arXiv**: [2510.00523](https://arxiv.org/abs/2510.00523)  
+**代码**: [GitHub](https://github.com/sony/virtue)  
+**领域**: 图像分割（多模态嵌入/视觉交互）  
 **关键词**: visual prompt, embedding model, SAM2, VLM, visual-interactive, retrieval
 
 ## 一句话总结

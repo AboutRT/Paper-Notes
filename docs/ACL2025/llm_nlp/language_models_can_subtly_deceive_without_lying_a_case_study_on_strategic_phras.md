@@ -1,9 +1,9 @@
 # Language Models Can Subtly Deceive Without Lying: A Case Study on Strategic Phrasing
 
-**会议**: ACL 2025
-**arXiv**: [2405.04325](https://arxiv.org/abs/2405.04325)
-**代码**: [GitHub](https://github.com/AtharvanDogra/deception_legislation)
-**领域**: llm_nlp
+**会议**: ACL 2025  
+**arXiv**: [2405.04325](https://arxiv.org/abs/2405.04325)  
+**代码**: [GitHub](https://github.com/AtharvanDogra/deception_legislation)  
+**领域**: llm_nlp  
 **关键词**: LLM欺骗, 策略性措辞, 立法修正案, 红队测试, AI安全
 
 ## 一句话总结

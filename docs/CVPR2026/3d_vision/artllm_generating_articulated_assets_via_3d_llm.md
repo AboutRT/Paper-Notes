@@ -1,9 +1,9 @@
 # ArtLLM: Generating Articulated Assets via 3D LLM
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01142](https://arxiv.org/abs/2603.01142)
-**代码**: [https://authoritywang.github.io/artllm](https://authoritywang.github.io/artllm) (有)
-**领域**: 3D 视觉 / 铰接物体生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.01142](https://arxiv.org/abs/2603.01142)  
+**代码**: [https://authoritywang.github.io/artllm](https://authoritywang.github.io/artllm) (有)  
+**领域**: 3D 视觉 / 铰接物体生成  
 **关键词**: Articulated Object, 3D LLM, URDF, Autoregressive, Part-Aware Generation
 
 ## 一句话总结

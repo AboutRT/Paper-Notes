@@ -1,9 +1,9 @@
 # Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.17982](https://arxiv.org/abs/2505.17982)
-**代码**: [GitHub](https://github.com/bryanwong17/HiVE-MIL)
-**领域**: 计算病理学 / 少样本学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.17982](https://arxiv.org/abs/2505.17982)  
+**代码**: [GitHub](https://github.com/bryanwong17/HiVE-MIL)  
+**领域**: 计算病理学 / 少样本学习  
 **关键词**: 多实例学习, 视觉语言模型, 层级图, 全切片图像, 少样本分类, 病理学
 
 ## 一句话总结

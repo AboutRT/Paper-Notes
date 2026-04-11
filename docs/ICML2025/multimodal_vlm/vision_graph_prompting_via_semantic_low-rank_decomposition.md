@@ -1,10 +1,10 @@
 # Vision Graph Prompting via Semantic Low-Rank Decomposition
 
-**会议**: ICML2025
-**arXiv**: [2505.04121](https://arxiv.org/abs/2505.04121)
+**会议**: ICML2025  
+**arXiv**: [2505.04121](https://arxiv.org/abs/2505.04121)  
 **作者**: Zixiang Ai, Zichen Liu, Jiahuan Zhou
-**代码**: [GitHub](https://github.com/zhoujiahuan1991/ICML2025-VGP)
-**领域**: multimodal_vlm
+**代码**: [GitHub](https://github.com/zhoujiahuan1991/ICML2025-VGP)  
+**领域**: multimodal_vlm  
 **关键词**: Vision GNN, 视觉提示学习, 低秩分解, 参数高效微调, 图神经网络
 
 ## 一句话总结

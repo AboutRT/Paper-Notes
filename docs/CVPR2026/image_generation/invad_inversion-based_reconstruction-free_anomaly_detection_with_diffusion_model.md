@@ -1,9 +1,9 @@
 # InvAD: Inversion-based Reconstruction-Free Anomaly Detection with Diffusion Models
 
-**会议**: CVPR 2026
-**arXiv**: [2504.05662](https://arxiv.org/abs/2504.05662)
-**代码**: [项目页面](https://invad-project.com)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2504.05662](https://arxiv.org/abs/2504.05662)  
+**代码**: [项目页面](https://invad-project.com)  
+**领域**: 医学图像  
 **关键词**: 异常检测, 扩散模型, DDIM反演, 无重建范式, 工业/医疗缺陷检测
 
 ## 一句话总结

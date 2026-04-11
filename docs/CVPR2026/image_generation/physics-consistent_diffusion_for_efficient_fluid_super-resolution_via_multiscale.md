@@ -1,10 +1,10 @@
 # Physics-Consistent Diffusion for Efficient Fluid Super-Resolution via Multiscale Residual Correction
 
-**会议**: CVPR2026
-**arXiv**: [2603.00149](https://arxiv.org/abs/2603.00149)
-**代码**: [lizhihao2022/ReMD](https://github.com/lizhihao2022/ReMD)
+**会议**: CVPR2026  
+**arXiv**: [2603.00149](https://arxiv.org/abs/2603.00149)  
+**代码**: [lizhihao2022/ReMD](https://github.com/lizhihao2022/ReMD)  
 **作者**: Zhihao Li, Shengwei Dong, Chuang Yi, Junxuan Gao, Zhilu Lai, Zhiqiang Liu, Wei Wang, Guangtao Zhang
-**领域**: 科学计算 / 流体超分辨率 / 扩散模型
+**领域**: 科学计算 / 流体超分辨率 / 扩散模型  
 **关键词**: 流体超分辨率, 扩散模型, 多重网格残差修正, 多小波基, 物理一致性, equation-free
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # ConsistCompose: Unified Multimodal Layout Control for Image Composition
 
-**会议**: CVPR2026
-**arXiv**: [2511.18333](https://arxiv.org/abs/2511.18333)
-**代码**: 待确认
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2511.18333](https://arxiv.org/abs/2511.18333)  
+**代码**: 待确认  
+**领域**: 图像生成  
 **关键词**: 布局控制生成, 多实例组合, 统一多模态模型, 语言嵌入式布局, Classifier-Free Guidance
 
 ## 一句话总结

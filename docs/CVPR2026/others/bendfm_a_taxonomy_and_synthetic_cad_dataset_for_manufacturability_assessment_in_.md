@@ -1,9 +1,9 @@
 # BenDFM: A taxonomy and synthetic CAD dataset for manufacturability assessment in sheet metal bending
 
-**会议**: CVPR2026
-**arXiv**: [2603.13102](https://arxiv.org/abs/2603.13102)
-**代码**: [UGent-CVAMO/bendfm](https://github.com/UGent-CVAMO/bendfm)
-**领域**: 其他(制造业/CAD可制造性评估)
+**会议**: CVPR2026  
+**arXiv**: [2603.13102](https://arxiv.org/abs/2603.13102)  
+**代码**: [UGent-CVAMO/bendfm](https://github.com/UGent-CVAMO/bendfm)  
+**领域**: 其他(制造业/CAD可制造性评估)  
 **关键词**: Design for Manufacturing, 可制造性分类法, 钣金弯曲, 合成CAD数据集, 几何深度学习
 
 ## 一句话总结

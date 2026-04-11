@@ -1,9 +1,9 @@
 # Face2Scene: Using Facial Degradation as an Oracle for Diffusion-Based Scene Restoration
 
-**会议**: CVPR2026
-**arXiv**: [2603.16570](https://arxiv.org/abs/2603.16570)
-**代码**: [项目主页](https://amirhossein-kz.github.io/face2scene/)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2603.16570](https://arxiv.org/abs/2603.16570)  
+**代码**: [项目主页](https://amirhossein-kz.github.io/face2scene/)  
+**领域**: 图像生成  
 **关键词**: 图像复原, 扩散模型, 人脸参考, 退化估计, 全场景恢复, 单步推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Residual Matrix Transformers: Scaling the Size of the Residual Stream
 
-**会议**: ICML2025
-**arXiv**: [2506.22696](https://arxiv.org/abs/2506.22696)
-**代码**: [bmac3/residual-matrix-transformer](https://github.com/bmac3/residual-matrix-transformer)
-**领域**: Transformer架构
+**会议**: ICML2025  
+**arXiv**: [2506.22696](https://arxiv.org/abs/2506.22696)  
+**代码**: [bmac3/residual-matrix-transformer](https://github.com/bmac3/residual-matrix-transformer)  
+**领域**: Transformer架构  
 **关键词**: Residual Stream, Outer Product Memory, 参数效率, 计算效率, 方差传播
 
 ## 一句话总结

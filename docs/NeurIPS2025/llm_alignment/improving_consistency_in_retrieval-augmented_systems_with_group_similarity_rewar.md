@@ -1,9 +1,9 @@
 # Improving Consistency in Retrieval-Augmented Systems with Group Similarity Rewards
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.04392](https://arxiv.org/abs/2510.04392)
-**代码**: 待确认
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.04392](https://arxiv.org/abs/2510.04392)  
+**代码**: 待确认  
+**领域**: llm_alignment  
 **关键词**: RAG一致性, GRPO, 信息一致性, 语义等价查询, 强化学习对齐
 
 ## 一句话总结

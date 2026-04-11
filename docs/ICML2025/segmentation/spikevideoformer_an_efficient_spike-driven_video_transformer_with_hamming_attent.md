@@ -1,9 +1,9 @@
 # SpikeVideoFormer: An Efficient Spike-Driven Video Transformer with Hamming Attention and $\mathcal{O}(T)$ Complexity
 
-**会议**: ICML2025
-**arXiv**: [2505.10352](https://arxiv.org/abs/2505.10352)
-**代码**: [JimmyZou/SpikeVideoFormer](https://github.com/JimmyZou/SpikeVideoFormer)
-**领域**: SNN视频 / 脉冲神经网络 / 视频Transformer
+**会议**: ICML2025  
+**arXiv**: [2505.10352](https://arxiv.org/abs/2505.10352)  
+**代码**: [JimmyZou/SpikeVideoFormer](https://github.com/JimmyZou/SpikeVideoFormer)  
+**领域**: SNN视频 / 脉冲神经网络 / 视频Transformer  
 **关键词**: Spiking Neural Network, Video Transformer, Hamming Attention, 线性时间复杂度, 视频分类, 人体姿态追踪, 视频语义分割
 
 ## 一句话总结

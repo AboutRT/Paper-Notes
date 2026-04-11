@@ -1,9 +1,9 @@
 # unMORE: Unsupervised Multi-Object Segmentation via Center-Boundary Reasoning
 
-**会议**: ICML2025
-**arXiv**: [2506.01778](https://arxiv.org/abs/2506.01778)
-**代码**: [GitHub](https://github.com/vLAR-group/unMORE)
-**领域**: 无监督分割 / 多目标发现
+**会议**: ICML2025  
+**arXiv**: [2506.01778](https://arxiv.org/abs/2506.01778)  
+**代码**: [GitHub](https://github.com/vLAR-group/unMORE)  
+**领域**: 无监督分割 / 多目标发现  
 **关键词**: unsupervised segmentation, object-centric representation, center field, boundary distance field, multi-object reasoning
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Position: Solve Layerwise Linear Models First to Understand Neural Dynamical Phenomena
 
-**会议**: ICML2025
-**arXiv**: [2502.21009](https://arxiv.org/abs/2502.21009)
-**代码**: 无（理论/立场论文）
-**领域**: 理论（深度学习理论、优化动力学）
+**会议**: ICML2025  
+**arXiv**: [2502.21009](https://arxiv.org/abs/2502.21009)  
+**代码**: 无（理论/立场论文）  
+**领域**: 理论（深度学习理论、优化动力学）  
 **关键词**: layerwise linear models, dynamical feedback principle, neural collapse, emergence, lazy/rich regime, grokking
 
 ## 一句话总结

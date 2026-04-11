@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐 / RLHF
 
-**💬 ACL2025** · 共 **54** 篇
+**💬 ACL2025** · 共 **56** 篇
 
 **[AgentAlign: Navigating Safety Alignment in the Shift from Informative to Agentic LLMs](agentalign_navigating_safety_alignment_in_the_shift_from_informative_to_agentic_.md)**
 
@@ -102,6 +102,10 @@
 **[IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization](iopo_input_output_preference.md)**
 
 :   提出 IOPO（Input-Output Preference Optimization），在传统 DPO 仅优化输出偏好的基础上，引入输入偏好建模——让模型学习"给定回复 y，哪个指令 x 更匹配"，从而增强对复杂多约束指令的细粒度感知能力；同时构建了包含 120K 训练数据、1K 评测数据、覆盖 5 大类 26 个约束维度的 Trace 基准。
+
+**[Jailbreaking? One Step Is Enough!](jailbreaking_one_step_is_enough.md)**
+
+:   本文提出REDA（Reverse Embedded Defense Attack）方法，将攻击意图伪装为"防御"有害内容的任务，通过反转攻击视角+ICL示例引导+请求意图削弱，实现一步生成、跨模型通用的高成功率越狱攻击。
 
 **[JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs](jailbreakradar_comprehensive_assessment_jailbreak_attacks.md)**
 
@@ -218,3 +222,7 @@
 **[A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns](tmcht_contagious_jailbreak_multiagent.md)**
 
 :   提出 TMCHT 多智能体多拓扑攻击评估框架和 ARCJ（对抗性复制传染越狱）方法，解决了多智能体系统中单智能体攻击方法面临的"毒性消散"问题——通过优化检索后缀确保中毒样本易被检索，优化复制后缀使中毒信息具有传染性自我复制能力，在 line/star 拓扑和 100 智能体系统中分别提升 23.51%/18.95%/52.93% 的攻击成功率。
+
+**[Upcycling Instruction Tuning from Dense to Mixture-of-Experts via Parameter Merging](upcycling_instruction_tuning_from_dense_to_mixture-of-experts_via_parameter_merg.md)**
+
+:   本文提出UpIT (Upcycling Instruction Tuning)，利用密集模型指令微调过程中的中间checkpoint作为专业化专家，通过遗传算法扩展专家数量和路由预优化，实现数据高效且灵活的dense-to-MoE转换。

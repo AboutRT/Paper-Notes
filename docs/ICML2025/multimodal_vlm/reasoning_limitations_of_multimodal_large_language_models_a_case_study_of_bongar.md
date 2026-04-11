@@ -1,9 +1,9 @@
 # Reasoning Limitations of Multimodal Large Language Models. A Case Study of Bongard Problems
 
-**会议**: ICML2025
-**arXiv**: [2411.01173](https://arxiv.org/abs/2411.01173)
-**代码**: [GitHub](https://github.com/pavonism/bongard-rwr)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2411.01173](https://arxiv.org/abs/2411.01173)  
+**代码**: [GitHub](https://github.com/pavonism/bongard-rwr)  
+**领域**: multimodal_vlm  
 **关键词**: abstract visual reasoning, Bongard Problems, MLLM evaluation, few-shot learning, concept-based reasoning
 
 ## 一句话总结

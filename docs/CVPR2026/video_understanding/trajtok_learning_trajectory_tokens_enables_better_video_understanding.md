@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # TrajTok: Learning Trajectory Tokens Enhances Video Understanding
 
-**会议**: CVPR2026
-**arXiv**: [2602.22779](https://arxiv.org/abs/2602.22779)
-**代码**: 待确认
-**领域**: 视频分割 / 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2602.22779](https://arxiv.org/abs/2602.22779)  
+**代码**: 待确认  
+**领域**: 视频分割 / 视频理解  
 **关键词**: 视频 tokenization, 轨迹 token, 端到端分割, 视频 CLIP, VLM 连接器, token 压缩, 目标轨迹
 
 ## 一句话总结

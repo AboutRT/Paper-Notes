@@ -1,9 +1,9 @@
 # Stress-testing Machine Generated Text Detection: Shifting Language Models Writing Style to Fool Detectors
 
-**会议**: ACL2025
-**arXiv**: [2505.24523](https://arxiv.org/abs/2505.24523)
-**代码**: [gpucce/control_mgt](https://github.com/gpucce/control_mgt)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2505.24523](https://arxiv.org/abs/2505.24523)  
+**代码**: [gpucce/control_mgt](https://github.com/gpucce/control_mgt)  
+**领域**: llm_nlp  
 **关键词**: 机器生成文本检测, 对抗攻击, DPO, 语言风格迁移, 鲁棒性评估, 语言特征分析
 
 ## 一句话总结

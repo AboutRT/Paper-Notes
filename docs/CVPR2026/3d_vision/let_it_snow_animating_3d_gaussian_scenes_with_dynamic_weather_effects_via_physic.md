@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Let it Snow! Animating 3D Gaussian Scenes with Dynamic Weather Effects via Physics-Guided Score Distillation
 
-**会议**: CVPR2026
-**arXiv**: [2504.05296](https://arxiv.org/abs/2504.05296)
-**代码**: [项目主页](https://galfiebelman.github.io/let-it-snow/)
-**领域**: 3D视觉
+**会议**: CVPR2026  
+**arXiv**: [2504.05296](https://arxiv.org/abs/2504.05296)  
+**代码**: [项目主页](https://galfiebelman.github.io/let-it-snow/)  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 动态场景编辑, 天气效果, 物理仿真, Score Distillation Sampling, MPM
 
 ## 一句话总结

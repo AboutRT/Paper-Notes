@@ -1,9 +1,9 @@
 # Multi-Trajectory Physics-Informed Neural Networks for HJB Equations with Hard-Zero Terminal Inventory: Optimal Execution on Synthetic & SPY Data
 
-**会议**: NeurIPS 2025 (Workshop on Generative AI in Finance)
-**arXiv**: [2512.12708](https://arxiv.org/abs/2512.12708)
-**代码**: [GitHub](https://github.com/anthimevalin/Multi-Trajectory-PINNs-Zero-Terminal-HJB)
-**领域**: scientific_computing
+**会议**: NeurIPS 2025 (Workshop on Generative AI in Finance)  
+**arXiv**: [2512.12708](https://arxiv.org/abs/2512.12708)  
+**代码**: [GitHub](https://github.com/anthimevalin/Multi-Trajectory-PINNs-Zero-Terminal-HJB)  
+**领域**: scientific_computing  
 **关键词**: Physics-Informed Neural Networks, Hamilton-Jacobi-Bellman, 最优执行, 终端库存约束, 金融量化
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用 rollout-based trajectory loss + BPTT 传播终端惩罚，配合 $\lambda$-curriculum 从风险中性到风险厌恶逐步过渡。
 
 ## 方法详解
+
 ### 整体框架
 MT-PINN 基于 Gatheral-Schied 最优执行模型，价格 $S_t$ 服从 GBM，库存 $X_t$ 以交易速率 $v_t$ 演化（$\dot{X}_t = -v_t$）。值函数 $\Gamma(\tau, X, S)$ 满足 reduced HJB 方程（风险中性时不依赖 $S$），最优控制 $v^* = \frac{1}{2} \partial\Gamma/\partial X$。MT-PINN 用 MLP 逼近值函数，通过自动微分计算 HJB 残差和最优控制，并额外引入轨迹展开损失。
 
@@ -46,6 +47,7 @@ $$\mathcal{L}_{\text{total}} = w_{\text{PDE}}\mathcal{L}_{\text{PDE}} + w_{\text
 - DWA 权重更新：每 1000 epochs，clip 范围 $[0.1, 2.0]$，EMA $\beta=0.95$
 
 ## 实验关键数据
+
 ### 主实验：合成基准（Gatheral-Schied 模型）
 设置：$T=5.0$，$X \in [-10,10]$，$S \in [10,100]$，$\sigma=0.1$，$\kappa=0.1$，$N_{\text{PDE}}=30000$，$N_{\text{IC}}=5000$。
 

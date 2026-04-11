@@ -1,9 +1,9 @@
 # Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism
 
-**会议**: ICML2025
-**arXiv**: [2506.09176](https://arxiv.org/abs/2506.09176)
-**代码**: [metadriverse/AIM](https://github.com/metadriverse/AIM)
-**领域**: 模仿学习 / 交互式模仿学习
+**会议**: ICML2025  
+**arXiv**: [2506.09176](https://arxiv.org/abs/2506.09176)  
+**代码**: [metadriverse/AIM](https://github.com/metadriverse/AIM)  
+**领域**: 模仿学习 / 交互式模仿学习  
 **关键词**: Interactive Imitation Learning, Robot-Gated Intervention, Proxy Q-function, Adaptive Mechanism, Human-in-the-Loop
 
 ## 一句话总结

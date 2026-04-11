@@ -1,9 +1,9 @@
 # Improving Text-to-Image Generation with Intrinsic Self-Confidence Rewards
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00918](https://arxiv.org/abs/2603.00918)
-**代码**: [项目页面](https://wookiekim.github.io/SOLACE/)
-**领域**: 图像生成 / 扩散模型后训练
+**会议**: CVPR 2026  
+**arXiv**: [2603.00918](https://arxiv.org/abs/2603.00918)  
+**代码**: [项目页面](https://wookiekim.github.io/SOLACE/)  
+**领域**: 图像生成 / 扩散模型后训练  
 **关键词**: 自信度奖励, 后训练, Flow Matching, GRPO, 文本到图像
 
 ## 一句话总结

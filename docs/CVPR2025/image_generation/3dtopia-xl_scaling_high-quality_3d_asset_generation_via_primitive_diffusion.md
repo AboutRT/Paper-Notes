@@ -1,9 +1,9 @@
 # 3DTopia-XL: Scaling High-Quality 3D Asset Generation via Primitive Diffusion
 
-**会议**: CVPR 2025
-**arXiv**: [2409.12957](https://arxiv.org/abs/2409.12957)
-**代码**: https://github.com/3DTopia/3DTopia-XL (有)
-**领域**: 3D生成 / 图像生成
+**会议**: CVPR 2025  
+**arXiv**: [2409.12957](https://arxiv.org/abs/2409.12957)  
+**代码**: https://github.com/3DTopia/3DTopia-XL (有)  
+**领域**: 3D生成 / 图像生成  
 **关键词**: 3D生成, PBR材质, 原语表示, 扩散Transformer, 纹理网格
 
 ## 一句话总结

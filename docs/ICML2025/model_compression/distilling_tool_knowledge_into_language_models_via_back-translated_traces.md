@@ -1,9 +1,9 @@
 # Distilling Tool Knowledge into Language Models via Back-Translated Traces
 
-**会议**: ICML 2025 (Workshop: Multi-Agent Systems in the Era of Foundation Models)
-**arXiv**: [2506.19171](https://arxiv.org/abs/2506.19171)
-**代码**: 无公开代码
-**领域**: 知识蒸馏 / 数学推理 / LLM
+**会议**: ICML 2025 (Workshop: Multi-Agent Systems in the Era of Foundation Models)  
+**arXiv**: [2506.19171](https://arxiv.org/abs/2506.19171)  
+**代码**: 无公开代码  
+**领域**: 知识蒸馏 / 数学推理 / LLM  
 **关键词**: 工具集成推理, 知识蒸馏, 回译, 多智能体, 数学推理
 
 ## 一句话总结

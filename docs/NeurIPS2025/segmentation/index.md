@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🧠 NeurIPS2025** · 共 **26** 篇
+**🧠 NeurIPS2025** · 共 **31** 篇
 
 **[Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression](alligat0r_pre-training_through_co-visibility_segmentation_for_relative_camera_po.md)**
 
@@ -87,9 +87,17 @@
 
 :   提出 Panoptic Captioning 新任务，追求图像的"最小文本等价"——生成包含所有实体、位置、属性、关系和全局状态的全面描述，13B 模型配合解耦学习即超越 78B 开源和 GPT-4o 等商业模型。
 
+**[PartNeXt: A Next-Generation Dataset for Fine-Grained and Hierarchical 3D Part Understanding](partnext_a_next-generation_dataset_for_fine-grained_and_hierarchical_3d_part_und.md)**
+
+:   提出 PartNeXt，一个包含 23,519 个高质量带纹理 3D 模型、跨 50 个类别的细粒度层级部件标注数据集，并建立了类别无关部件分割和 3D 部件问答两个基准测试，揭示了当前方法在细粒度部件理解上的显著不足。
+
 **[PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding](partonomy_large_multimodal_models_with_part-level_visual_understanding.md)**
 
 :   提出 Partonomy 部件级分割 benchmark（862 部件标签/534 物体标签）和 Plum 模型（用 span 标记替代 [SEG] token + mask 反馈循环），发现 SOTA 分割 LMM 在部件理解上仅 5.9% gIoU，Plum 通过避免分布偏移和利用历史预测显著提升。
+
+**[Re-coding for Uncertainties: Edge-awareness Semantic Concordance for Resilient Event-RGB Segmentation](re-coding_for_uncertainties_edge-awareness_semantic_concordance_for_resilient_ev.md)**
+
+:   提出 Edge-awareness Semantic Concordance（ESC）框架，利用语义边缘作为异质 Event 和 RGB 模态的中间桥梁，通过边缘字典的离散潜空间建模实现跨模态特征对齐和不确定性优化，在极端条件下超越 SOTA 2.55% mIoU。
 
 **[HCLFuse: Revisiting Generative Infrared and Visible Image Fusion Based on Human Cognitive Laws](revisiting_generative_infrared_and_visible_image_fusion_based_on_human_cognitive.md)**
 
@@ -103,6 +111,18 @@
 
 :   提出CERES框架，通过双模态因果干预解决自中心指代视频分割(Ego-RVOS)中的鲁棒性问题：对语言偏见用后门调整（消除目标-动作频率偏差），对视觉混淆用前门调整（以深度信息引导视觉中介变量聚合），在VISOR/VOST/VSCOS上达到SOTA。
 
+**[SRSR: Enhancing Semantic Accuracy in Real-World Image Super-Resolution with Spatially Re-Focused Text-Conditioning](srsr_enhancing_semantic_accuracy_in_real-world_image_super-resolution_with_spati.md)**
+
+:   SRSR提出一种无需训练的即插即用框架，通过空间重聚焦交叉注意力(SRCA)和空间定向CFG(STCFG)两个推理时模块，解决扩散超分方法中文本引导导致的语义幻觉问题，在保真度和感知质量上全面超越7个SOTA基线。
+
 **[Towards Robust Pseudo-Label Learning In Semantic Segmentation An Encoding Perspe](towards_robust_pseudo-label_learning_in_semantic_segmentation_an_encoding_perspe.md)**
 
 :   提出 ECOCSeg，用纠错输出码（ECOC）替代 one-hot 编码来表示伪标签，将 N 类分类分解为 K 个二分类子任务，通过 bit 级去噪和可靠位挖掘生成更鲁棒的伪标签，在 UDA 和 SSL 分割任务上一致提升。
+
+**[Towards Unsupervised Domain Bridging via Image Degradation in Semantic Segmentation](towards_unsupervised_domain_bridging_via_image_degradation_in_semantic_segmentat.md)**
+
+:   提出 DiDA，通过将图像退化操作形式化为扩散前向过程来构建源域和目标域之间的连续中间域，结合语义偏移补偿机制，作为即插即用模块显著提升现有 UDA 语义分割方法的性能。
+
+**[Unveiling the Spatial-Temporal Effective Receptive Fields of Spiking Neural Networks](unveiling_the_spatial-temporal_effective_receptive_fields_of_spiking_neural_netw.md)**
+
+:   提出时空有效感受野（ST-ERF）分析框架来诊断 Transformer-based SNN 在视觉长序列建模中的瓶颈——缺乏全局感受野，并据此设计 MLPixer 和 SRB 两种通道混合器来增强 SNN 的全局建模能力。

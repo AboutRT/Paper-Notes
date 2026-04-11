@@ -1,9 +1,9 @@
 # Extreme Value Policy Optimization for Safe Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2601.12008](https://arxiv.org/abs/2601.12008)
-**代码**: [ShiqingGao/EVO](https://github.com/ShiqingGao/EVO)
-**领域**: 安全强化学习 / 约束强化学习
+**会议**: ICML2025  
+**arXiv**: [2601.12008](https://arxiv.org/abs/2601.12008)  
+**代码**: [ShiqingGao/EVO](https://github.com/ShiqingGao/EVO)  
+**领域**: 安全强化学习 / 约束强化学习  
 **关键词**: 安全RL, 极值理论, 约束满足, 广义Pareto分布, 经验回放优先级
 
 ## 一句话总结

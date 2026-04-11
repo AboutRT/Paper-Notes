@@ -1,9 +1,9 @@
 # ExpPortrait: Expressive Portrait Generation via Personalized Representation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19900](https://arxiv.org/abs/2602.19900)
-**代码**: 无
-**领域**: 人像生成 / 面部重演
+**会议**: CVPR 2026  
+**arXiv**: [2602.19900](https://arxiv.org/abs/2602.19900)  
+**代码**: 无  
+**领域**: 人像生成 / 面部重演  
 **关键词**: 人像动画, 个性化头部表征, 表情迁移, 扩散Transformer, SMPL-X
 
 ## 一句话总结

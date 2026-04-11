@@ -1,9 +1,9 @@
 # FAIR Universe HiggsML Uncertainty Dataset and Competition
 
-**会议**: NeurIPS 2025
-**arXiv**: [2410.02867](https://arxiv.org/abs/2410.02867)
-**代码**: [FAIR-Universe/HEP-Challenge](https://github.com/FAIR-Universe/HEP-Challenge)（竞赛平台+baseline代码）
-**领域**: 物理 / 高能物理ML / 不确定性量化
+**会议**: NeurIPS 2025  
+**arXiv**: [2410.02867](https://arxiv.org/abs/2410.02867)  
+**代码**: [FAIR-Universe/HEP-Challenge](https://github.com/FAIR-Universe/HEP-Challenge)（竞赛平台+baseline代码）  
+**领域**: 物理 / 高能物理ML / 不确定性量化  
 **关键词**: Higgs玻色子, 系统不确定性, 置信区间, 竞赛数据集, 偏差参数化, nuisance parameters, profile likelihood
 
 ## 一句话总结

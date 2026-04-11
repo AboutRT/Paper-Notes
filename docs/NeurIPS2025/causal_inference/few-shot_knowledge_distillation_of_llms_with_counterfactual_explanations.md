@@ -1,9 +1,9 @@
 # Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21631](https://arxiv.org/abs/2510.21631)
-**代码**: [FaisalHamman/CoD](https://github.com/FaisalHamman/CoD)
-**领域**: causal_inference
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21631](https://arxiv.org/abs/2510.21631)  
+**代码**: [FaisalHamman/CoD](https://github.com/FaisalHamman/CoD)  
+**领域**: causal_inference  
 **关键词**: Knowledge Distillation, Counterfactual Explanation, Few-shot Learning, LLM Compression, Decision Boundary
 
 ## 一句话总结

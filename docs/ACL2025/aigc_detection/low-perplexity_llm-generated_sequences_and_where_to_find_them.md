@@ -1,9 +1,9 @@
 # Low-Perplexity LLM-Generated Sequences and Where To Find Them
 
-**会议**: ACL 2025
-**arXiv**: [2507.01844](https://arxiv.org/abs/2507.01844)
-**代码**: [GitHub](https://github.com/Reliable-Information-Lab-HEVS/HAIDI-Graphs)
-**领域**: AIGC Detection
+**会议**: ACL 2025  
+**arXiv**: [2507.01844](https://arxiv.org/abs/2507.01844)  
+**代码**: [GitHub](https://github.com/Reliable-Information-Lab-HEVS/HAIDI-Graphs)  
+**领域**: AIGC Detection  
 **关键词**: 低困惑度序列, 训练数据溯源, 记忆化, 逐字复现, Infinigram, Pythia
 
 ## 一句话总结

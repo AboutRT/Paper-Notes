@@ -1,9 +1,9 @@
 # Breaking Silos: Adaptive Model Fusion Unlocks Better Time Series Forecasting
 
-**会议**: ICML 2025
-**arXiv**: [2505.18442](https://arxiv.org/abs/2505.18442)
-**代码**: https://github.com/ZhiningLiu1998/TimeFuse
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2505.18442](https://arxiv.org/abs/2505.18442)  
+**代码**: https://github.com/ZhiningLiu1998/TimeFuse  
+**领域**: 时间序列  
 **关键词**: 时间序列预测, 模型融合, 元学习, 集成方法, 自适应权重
 
 ## 一句话总结

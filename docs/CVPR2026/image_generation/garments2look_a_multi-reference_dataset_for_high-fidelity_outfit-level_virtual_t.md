@@ -1,9 +1,9 @@
 # Garments2Look: A Multi-Reference Dataset for High-Fidelity Outfit-Level Virtual Try-On with Clothing and Accessories
 
-**会议**: CVPR 2026
-**arXiv**: [2603.14153](https://arxiv.org/abs/2603.14153)
-**代码**: [GitHub](https://github.com/ArtmeScienceLab/Garments2Look)
-**领域**: 虚拟试穿 / 数据集
+**会议**: CVPR 2026  
+**arXiv**: [2603.14153](https://arxiv.org/abs/2603.14153)  
+**代码**: [GitHub](https://github.com/ArtmeScienceLab/Garments2Look)  
+**领域**: 虚拟试穿 / 数据集  
 **关键词**: 虚拟试穿, 多参考图像, 整套搭配, 数据集构建, 图像生成
 
 ## 一句话总结

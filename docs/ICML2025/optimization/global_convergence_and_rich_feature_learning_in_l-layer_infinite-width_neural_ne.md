@@ -1,9 +1,9 @@
 # Global Convergence and Rich Feature Learning in $L$-Layer Infinite-Width Neural Networks under $\mu$P Parametrization
 
-**会议**: ICML2025
-**arXiv**: [2503.09565](https://arxiv.org/abs/2503.09565)
-**代码**: 无
-**领域**: 优化理论 / 神经网络理论
+**会议**: ICML2025  
+**arXiv**: [2503.09565](https://arxiv.org/abs/2503.09565)  
+**代码**: 无  
+**领域**: 优化理论 / 神经网络理论  
 **关键词**: μP参数化, 无限宽网络, 特征学习, 全局收敛, 高斯过程, 张量程序, 线性独立性
 
 ## 一句话总结

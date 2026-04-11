@@ -1,9 +1,9 @@
 # Dense Associative Memory with Epanechnikov Energy
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.10801](https://arxiv.org/abs/2506.10801)
-**代码**: 无
-**领域**: LLM理论 / 联想记忆
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.10801](https://arxiv.org/abs/2506.10801)  
+**代码**: 无  
+**领域**: LLM理论 / 联想记忆  
 **关键词**: associative memory, Hopfield network, energy function, Epanechnikov kernel, emergent memory, ReLU
 
 ## 一句话总结

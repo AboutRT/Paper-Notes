@@ -1,9 +1,9 @@
 # Leveraging Partial SMILES Validation Scheme for Enhanced Drug Design in Reinforcement Learning Frameworks
 
-**会议**: ICML2025
-**arXiv**: [2505.00530](https://arxiv.org/abs/2505.00530)
-**代码**: 待确认
-**领域**: 药物设计RL
+**会议**: ICML2025  
+**arXiv**: [2505.00530](https://arxiv.org/abs/2505.00530)  
+**代码**: 待确认  
+**领域**: 药物设计RL  
 **关键词**: SMILES分子生成, 强化学习, PPO, 部分验证, 药物发现, 灾难性遗忘
 
 ## 一句话总结

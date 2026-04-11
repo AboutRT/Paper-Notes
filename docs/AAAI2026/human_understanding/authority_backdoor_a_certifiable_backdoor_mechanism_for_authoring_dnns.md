@@ -1,9 +1,9 @@
 # Authority Backdoor: A Certifiable Backdoor Mechanism for Authoring DNNs
 
-**会议**: AAAI 2026
-**arXiv**: [2512.10600](https://arxiv.org/abs/2512.10600)
-**代码**: [PlayerYangh/Authority-Trigger](https://github.com/PlayerYangh/Authority-Trigger)
-**领域**: human_understanding
+**会议**: AAAI 2026  
+**arXiv**: [2512.10600](https://arxiv.org/abs/2512.10600)  
+**代码**: [PlayerYangh/Authority-Trigger](https://github.com/PlayerYangh/Authority-Trigger)  
+**领域**: human_understanding  
 **关键词**: DNN 知识产权保护, 主动防御, 后门学习, 认证鲁棒性, 随机平滑, 硬件指纹
 
 ## 一句话总结

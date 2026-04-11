@@ -1,9 +1,9 @@
 # Improving LLM Safety Alignment with Dual-Objective Optimization
 
-**会议**: ICML 2025
-**arXiv**: [2503.03710](https://arxiv.org/abs/2503.03710)
-**代码**: https://github.com/wicai24/DOOR-Alignment (有)
-**领域**: LLM对齐/RLHF
+**会议**: ICML 2025  
+**arXiv**: [2503.03710](https://arxiv.org/abs/2503.03710)  
+**代码**: https://github.com/wicai24/DOOR-Alignment (有)  
+**领域**: LLM对齐/RLHF  
 **关键词**: 安全对齐, 越狱攻击防御, DPO局限性, 双目标优化, token级加权
 
 ## 一句话总结

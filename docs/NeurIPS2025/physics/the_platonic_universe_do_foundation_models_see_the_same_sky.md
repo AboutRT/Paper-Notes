@@ -1,9 +1,9 @@
 # The Platonic Universe: Do Foundation Models See the Same Sky?
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.19453](https://arxiv.org/abs/2509.19453)
-**代码**: 无（使用公开模型和Multimodal Universe数据集）
-**领域**: Physics / Foundation Models / Representation Learning
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.19453](https://arxiv.org/abs/2509.19453)  
+**代码**: 无（使用公开模型和Multimodal Universe数据集）  
+**领域**: Physics / Foundation Models / Representation Learning  
 **关键词**: Platonic Representation Hypothesis, 基础模型, 天文学, 表征对齐, 跨模态收敛
 
 ## 一句话总结

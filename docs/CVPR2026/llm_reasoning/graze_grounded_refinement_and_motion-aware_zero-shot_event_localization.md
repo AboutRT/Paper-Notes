@@ -1,9 +1,9 @@
 # GRAZE: Grounded Refinement and Motion-Aware Zero-Shot Event Localization
 
-**会议**: CVPR 2026
-**arXiv**: [2604.01383](https://arxiv.org/abs/2604.01383)
-**代码**: 有
-**领域**: LLM推理 / 零样本时间定位
+**会议**: CVPR 2026  
+**arXiv**: [2604.01383](https://arxiv.org/abs/2604.01383)  
+**代码**: 有  
+**领域**: LLM推理 / 零样本时间定位  
 **关键词**: 零样本事件定位, 运动感知, 视觉grounding, SAM2掩码验证, 无训练
 
 ## 一句话总结
@@ -94,10 +94,10 @@
 - 价值: ⭐⭐⭐⭐ 对体育分析和零样本视频理解有实用价值
 # GRAZE: Grounded Refinement and Motion-Aware Zero-Shot Event Localization
 
-**会议**: CVPR 2026
-**arXiv**: [2604.01383](https://arxiv.org/abs/2604.01383)
-**代码**: 有
-**领域**: LLM推理 / 运动分析
+**会议**: CVPR 2026  
+**arXiv**: [2604.01383](https://arxiv.org/abs/2604.01383)  
+**代码**: 有  
+**领域**: LLM推理 / 运动分析  
 **关键词**: 零样本事件定位, 首触点检测, Grounding DINO, SAM2验证, 运动评分
 
 ## 一句话总结

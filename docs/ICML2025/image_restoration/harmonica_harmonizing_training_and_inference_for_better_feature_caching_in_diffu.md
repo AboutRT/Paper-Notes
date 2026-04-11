@@ -1,9 +1,9 @@
 # HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration
 
-**会议**: ICML 2025
-**arXiv**: [2410.01723](https://arxiv.org/abs/2410.01723)
-**代码**: https://github.com/YSGuoUST/HarmoniCa
-**领域**: 图像生成 / 扩散模型加速
+**会议**: ICML 2025  
+**arXiv**: [2410.01723](https://arxiv.org/abs/2410.01723)  
+**代码**: https://github.com/YSGuoUST/HarmoniCa  
+**领域**: 图像生成 / 扩散模型加速  
 **关键词**: Diffusion Transformer, 特征缓存, 推理加速, 训练-推理对齐, 去噪训练
 
 ## 一句话总结

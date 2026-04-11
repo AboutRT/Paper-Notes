@@ -1,9 +1,9 @@
 # AutoCut: End-to-end Advertisement Video Editing Based on Multimodal Discretization and Controllable Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.28366](https://arxiv.org/abs/2603.28366)
-**代码**: [https://github.com/AdAutoCut/Autocut](https://github.com/AdAutoCut/Autocut) (有)
-**领域**: 视频理解 / 视频编辑
+**会议**: CVPR 2026  
+**arXiv**: [2603.28366](https://arxiv.org/abs/2603.28366)  
+**代码**: [https://github.com/AdAutoCut/Autocut](https://github.com/AdAutoCut/Autocut) (有)  
+**领域**: 视频理解 / 视频编辑  
 **关键词**: Video Editing, Multimodal LLM, Residual VQ, Advertisement, Controllable Generation
 
 ## 一句话总结

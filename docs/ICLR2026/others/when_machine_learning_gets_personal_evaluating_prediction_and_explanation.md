@@ -1,9 +1,9 @@
 # When Machine Learning Gets Personal: Evaluating Prediction and Explanation
 
-**会议**: ICLR 2026
-**arXiv**: [2502.02786](https://arxiv.org/abs/2502.02786)
-**代码**: 无（UCSB）
-**领域**: 其他 / 可解释ML / 公平性
+**会议**: ICLR 2026  
+**arXiv**: [2502.02786](https://arxiv.org/abs/2502.02786)  
+**代码**: 无（UCSB）  
+**领域**: 其他 / 可解释ML / 公平性  
 **关键词**: 个性化模型, 可解释性, Benefit of Personalization, 假设检验, 有限样本下界, 充分性, 不完备性
 
 ## 一句话总结

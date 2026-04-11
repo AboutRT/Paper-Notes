@@ -1,9 +1,9 @@
 # ConFu: Contemplate the Future for Better Speculative Sampling
 
-**会议**: ICLR 2026
-**arXiv**: [2603.08899](https://arxiv.org/abs/2603.08899)
-**代码**: 待确认
-**领域**: 目标检测（LLM 推理加速/推测解码）
+**会议**: ICLR 2026  
+**arXiv**: [2603.08899](https://arxiv.org/abs/2603.08899)  
+**代码**: 待确认  
+**领域**: 目标检测（LLM 推理加速/推测解码）  
 **关键词**: speculative decoding, contemplate tokens, future prediction, MoE, draft model, EAGLE
 
 ## 一句话总结

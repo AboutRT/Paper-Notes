@@ -1,9 +1,9 @@
 # GeoFlow: Real-Time Fine-Grained Cross-View Geolocalization via Iterative Flow Prediction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.21943](https://arxiv.org/abs/2603.21943)
-**代码**: https://github.com/GeoFlow (有)
-**领域**: 遥感 / 地理定位
+**会议**: CVPR 2026  
+**arXiv**: [2603.21943](https://arxiv.org/abs/2603.21943)  
+**代码**: https://github.com/GeoFlow (有)  
+**领域**: 遥感 / 地理定位  
 **关键词**: 跨视图地理定位, 流预测, 迭代精化, 概率定位, 实时推理
 
 ## 一句话总结

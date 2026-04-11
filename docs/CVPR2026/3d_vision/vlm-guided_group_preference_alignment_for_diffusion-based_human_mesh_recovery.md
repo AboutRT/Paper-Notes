@@ -1,10 +1,10 @@
 # VLM-Guided Group Preference Alignment for Diffusion-based Human Mesh Recovery
 
-**会议**: CVPR2026
-**arXiv**: [2602.19180](https://arxiv.org/abs/2602.19180)
+**会议**: CVPR2026  
+**arXiv**: [2602.19180](https://arxiv.org/abs/2602.19180)  
 **机构**: Nanyang Technological University, HKUST(GZ), SenseTime Research, A*STAR
-**代码**: 待确认
-**领域**: 3d_vision
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: Human Mesh Recovery, Diffusion Model, VLM, GRPO, Preference Alignment, Critique Agent
 
 ## 一句话总结

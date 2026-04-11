@@ -1,11 +1,11 @@
 # Improving Forecasts of Suicide Attempts for Patients with Little Data
 
-**会议**: NeurIPS 2025 (TS4H Workshop)
-**arXiv**: [2511.18199](https://arxiv.org/abs/2511.18199)
+**会议**: NeurIPS 2025 (TS4H Workshop)  
+**arXiv**: [2511.18199](https://arxiv.org/abs/2511.18199)  
 **作者**: Genesis Hang, Annie Chen, Hope Neveux, Matthew K. Nock, Yaniv Yacoby
 **机构**: Wellesley College, Harvard University
-**代码**: 未开源
-**领域**: others
+**代码**: 未开源  
+**领域**: others  
 **关键词**: Gaussian Process, Ecological Momentary Assessment, suicide risk prediction, patient heterogeneity, latent variable model, time series for health
 
 ## 一句话总结

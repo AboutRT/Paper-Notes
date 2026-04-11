@@ -1,9 +1,9 @@
 # Diffusion Probe: Generated Image Result Prediction Using CNN Probes
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23783](https://arxiv.org/abs/2602.23783)
-**代码**: 无
-**领域**: 扩散模型 / 图像质量预测
+**会议**: CVPR 2026  
+**arXiv**: [2602.23783](https://arxiv.org/abs/2602.23783)  
+**代码**: 无  
+**领域**: 扩散模型 / 图像质量预测  
 **关键词**: 扩散模型, 探针, 交叉注意力, 早期质量预测, 生成加速
 
 ## 一句话总结

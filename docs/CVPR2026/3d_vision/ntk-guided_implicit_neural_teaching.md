@@ -1,4 +1,5 @@
 # NTK-Guided Implicit Neural Teaching
+
 **会议**: CVPR 2026  **arXiv**: [2511.15487](https://arxiv.org/abs/2511.15487)  **代码**: 有 (Project page)  **领域**: 3D视觉  **关键词**: Implicit Neural Representations, Neural Tangent Kernel, 训练加速, 坐标采样, INR
 
 ## 一句话总结

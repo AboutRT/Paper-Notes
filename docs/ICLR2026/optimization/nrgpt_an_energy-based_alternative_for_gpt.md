@@ -1,9 +1,9 @@
 # NRGPT: An Energy-based Alternative for GPT
 
-**会议**: ICLR 2026
-**arXiv**: [2512.16762](https://arxiv.org/abs/2512.16762)
-**代码**: 无
-**领域**: 语言模型架构/能量模型
+**会议**: ICLR 2026  
+**arXiv**: [2512.16762](https://arxiv.org/abs/2512.16762)  
+**代码**: 无  
+**领域**: 语言模型架构/能量模型  
 **关键词**: 能量基模型, GPT, 自回归, 梯度下降推理, 布朗运动
 
 ## 一句话总结

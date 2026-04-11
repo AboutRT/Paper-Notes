@@ -1,9 +1,9 @@
 # From Average-Iterate to Last-Iterate Convergence in Games: A Reduction and Its Applications
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.03464](https://arxiv.org/abs/2506.03464)
-**代码**: 无
-**领域**: optimization
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.03464](https://arxiv.org/abs/2506.03464)  
+**代码**: 无  
+**领域**: optimization  
 **关键词**: 博弈学习, last-iterate 收敛, OMWU, 零和博弈, black-box reduction
 
 ## 一句话总结

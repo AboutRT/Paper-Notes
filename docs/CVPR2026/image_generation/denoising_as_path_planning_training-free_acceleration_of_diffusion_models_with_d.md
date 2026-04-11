@@ -1,9 +1,9 @@
 # Denoising as Path Planning: Training-Free Acceleration of Diffusion Models with DPCache
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22654](https://arxiv.org/abs/2602.22654)
-**代码**: [GitHub](https://github.com/argsss/DPCache)
-**领域**: 扩散模型加速
+**会议**: CVPR 2026  
+**arXiv**: [2602.22654](https://arxiv.org/abs/2602.22654)  
+**代码**: [GitHub](https://github.com/argsss/DPCache)  
+**领域**: 扩散模型加速  
 **关键词**: 扩散模型加速, 缓存, 动态规划, 路径规划, 无训练
 
 ## 一句话总结

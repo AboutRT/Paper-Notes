@@ -1,9 +1,9 @@
 # The Primacy of Magnitude in Low-Rank Adaptation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.06558](https://arxiv.org/abs/2507.06558)
-**代码**: [GitHub](https://github.com/zhangzicheng-jd/LoRAM)
-**领域**: Model Compression / Parameter-Efficient Fine-Tuning
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.06558](https://arxiv.org/abs/2507.06558)  
+**代码**: [GitHub](https://github.com/zhangzicheng-jd/LoRAM)  
+**领域**: Model Compression / Parameter-Efficient Fine-Tuning  
 **关键词**: LoRA, 参数高效微调, 初始化策略, 权重更新幅度, 低秩适配
 
 ## 一句话总结

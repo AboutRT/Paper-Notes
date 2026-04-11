@@ -1,10 +1,10 @@
 # VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection
 
-**会议**: CVPR2026
-**arXiv**: [2603.00912](https://arxiv.org/abs/2603.00912)
+**会议**: CVPR2026  
+**arXiv**: [2603.00912](https://arxiv.org/abs/2603.00912)  
 **作者**: Yang Cao, Feize Wu, Dave Zhenyu Chen, Yingji Zhong, Lanqing Hong, Dan Xu (HKUST, Huawei, 中山大学)
-**代码**: GitHub (论文中提及已开源)
-**领域**: 3d_vision
+**代码**: GitHub (论文中提及已开源)  
+**领域**: 3d_vision  
 **关键词**: 多视图3D目标检测, 室内场景理解, 无传感器几何, VGGT, Transformer
 
 ## 一句话总结

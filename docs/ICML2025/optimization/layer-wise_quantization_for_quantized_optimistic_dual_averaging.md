@@ -1,9 +1,9 @@
 # Layer-wise Quantization for Quantized Optimistic Dual Averaging
 
-**会议**: ICML2025
-**arXiv**: [2505.14371](https://arxiv.org/abs/2505.14371)
-**代码**: 无
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2505.14371](https://arxiv.org/abs/2505.14371)  
+**代码**: 无  
+**领域**: optimization  
 **关键词**: 层级量化, 变分不等式, 乐观对偶平均, GAN训练, 通信效率
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MoSA: Motion-Coherent Human Video Generation via Structure-Appearance Decoupling
 
-**会议**: ICLR 2026
-**arXiv**: [2508.17404](https://arxiv.org/abs/2508.17404)
-**代码**: 无（将开源）
-**领域**: 视频生成
+**会议**: ICLR 2026  
+**arXiv**: [2508.17404](https://arxiv.org/abs/2508.17404)  
+**代码**: 无（将开源）  
+**领域**: 视频生成  
 **关键词**: 人物视频生成, 结构-外观解耦, 3D运动, DiT, 密集跟踪
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HeurekaBench: A Benchmarking Framework for AI Co-scientist
 
-**会议**: ICLR 2026
-**arXiv**: [2601.01678](https://arxiv.org/abs/2601.01678)
-**代码**: [brbiclab.epfl.ch/projects/heurekabench](https://brbiclab.epfl.ch/projects/heurekabench)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2601.01678](https://arxiv.org/abs/2601.01678)  
+**代码**: [brbiclab.epfl.ch/projects/heurekabench](https://brbiclab.epfl.ch/projects/heurekabench)  
+**领域**: 模型压缩  
 **关键词**: AI co-scientist, benchmark, scientific agents, single-cell biology, open-ended evaluation
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.10297](https://arxiv.org/abs/2502.10297)
-**代码**: [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention) (有)
-**领域**: 序列建模 / 线性RNN
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.10297](https://arxiv.org/abs/2502.10297)  
+**代码**: [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention) (有)  
+**领域**: 序列建模 / 线性RNN  
 **关键词**: Linear RNN, Householder Product, State-Tracking, DeltaNet, Length Extrapolation
 
 ## 一句话总结

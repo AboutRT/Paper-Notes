@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2502.11404](https://arxiv.org/abs/2502.11404)
-**代码**: [GitHub](https://github.com/dhx-2020/ToolCoder)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.11404](https://arxiv.org/abs/2502.11404)  
+**代码**: [GitHub](https://github.com/dhx-2020/ToolCoder)  
+**领域**: llm_nlp  
 **关键词**: tool learning, code generation, LLM agent, software engineering, error reflection
 
 ## 一句话总结

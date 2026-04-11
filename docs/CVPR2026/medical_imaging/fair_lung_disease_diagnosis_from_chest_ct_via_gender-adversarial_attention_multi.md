@@ -1,9 +1,9 @@
 # Fair Lung Disease Diagnosis from Chest CT via Gender-Adversarial Attention Multiple Instance Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12988](https://arxiv.org/abs/2603.12988)
-**代码**: [GitHub](https://github.com/ADE-17/cvpr-fair-chest-ct)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.12988](https://arxiv.org/abs/2603.12988)  
+**代码**: [GitHub](https://github.com/ADE-17/cvpr-fair-chest-ct)  
+**领域**: 医学图像  
 **关键词**: 公平性, 肺部疾病诊断, CT分类, 多实例学习, 对抗训练
 
 ## 一句话总结

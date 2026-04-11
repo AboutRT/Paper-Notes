@@ -1,9 +1,9 @@
 # LocalDPO: Direct Localized Detail Preference Optimization for Video Diffusion Models
 
-**会议**: CVPR 2026
-**arXiv**: [2601.04068](https://arxiv.org/abs/2601.04068)
-**代码**: 有
-**领域**: 视频生成 / LLM对齐
+**会议**: CVPR 2026  
+**arXiv**: [2601.04068](https://arxiv.org/abs/2601.04068)  
+**代码**: 有  
+**领域**: 视频生成 / LLM对齐  
 **关键词**: 视频扩散模型, DPO偏好优化, 局部腐蚀, 区域感知损失, 时空掩码
 
 ## 一句话总结

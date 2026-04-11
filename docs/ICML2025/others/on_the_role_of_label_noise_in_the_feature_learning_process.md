@@ -1,9 +1,9 @@
 # On the Role of Label Noise in the Feature Learning Process
 
-**会议**: ICML 2025
-**arXiv**: [2505.18909](https://arxiv.org/abs/2505.18909)
-**代码**: 无
-**领域**: 学习理论
+**会议**: ICML 2025  
+**arXiv**: [2505.18909](https://arxiv.org/abs/2505.18909)  
+**代码**: 无  
+**领域**: 学习理论  
 **关键词**: label noise, feature learning, neural networks, overparameterization, training dynamics
 
 ## 一句话总结

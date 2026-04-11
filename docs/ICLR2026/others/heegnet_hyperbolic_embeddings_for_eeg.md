@@ -1,9 +1,9 @@
 # HEEGNet: Hyperbolic Embeddings for EEG
 
-**会议**: ICLR 2026
-**arXiv**: [2601.03322](https://arxiv.org/abs/2601.03322)
-**代码**: [GitHub](https://github.com/fightlesliefigt/HEEGNet)
-**领域**: 脑机接口/几何深度学习
+**会议**: ICLR 2026  
+**arXiv**: [2601.03322](https://arxiv.org/abs/2601.03322)  
+**代码**: [GitHub](https://github.com/fightlesliefigt/HEEGNet)  
+**领域**: 脑机接口/几何深度学习  
 **关键词**: EEG, 双曲空间, 域适应, 层次结构, 脑机接口
 
 ## 一句话总结

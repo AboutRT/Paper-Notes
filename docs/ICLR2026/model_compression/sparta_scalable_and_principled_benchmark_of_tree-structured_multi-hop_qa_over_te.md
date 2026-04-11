@@ -1,9 +1,9 @@
 # SPARTA: Scalable and Principled Benchmark of Tree-Structured Multi-hop QA over Text and Tables
 
-**会议**: ICLR 2026
-**arXiv**: [2602.23286](https://arxiv.org/abs/2602.23286)
-**代码**: [github.com/pshlego/SPARTA](https://github.com/pshlego/SPARTA)
-**领域**: 模型压缩 / NLP 基准
+**会议**: ICLR 2026  
+**arXiv**: [2602.23286](https://arxiv.org/abs/2602.23286)  
+**代码**: [github.com/pshlego/SPARTA](https://github.com/pshlego/SPARTA)  
+**领域**: 模型压缩 / NLP 基准  
 **关键词**: 多跳推理, 表格-文本问答, 基准构建, SQL, 跨模态推理
 
 ## 一句话总结

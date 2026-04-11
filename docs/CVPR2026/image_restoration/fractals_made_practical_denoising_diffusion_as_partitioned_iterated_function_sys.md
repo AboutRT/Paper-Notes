@@ -1,9 +1,9 @@
 # Fractals made Practical: Denoising Diffusion as Partitioned Iterated Function Systems
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13069](https://arxiv.org/abs/2603.13069)
-**代码**: 无
-**领域**: 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.13069](https://arxiv.org/abs/2603.13069)  
+**代码**: 无  
+**领域**: 图像生成  
 **关键词**: 扩散模型, 分区迭代函数系统(PIFS), 分形几何, Jacobian分析, Kaplan-Yorke维度
 
 ## 一句话总结

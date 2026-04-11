@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 模型压缩  
 **关键词**: concept drift, resource-constrained, model update policy, Lyapunov optimization, online learning  
+
 ## 一句话总结
 
 提出 RCCDA，一种基于 Lyapunov 漂移惩罚框架的轻量级模型更新策略，在数据分布随时间漂移（concept drift）场景下，仅利用历史推理损失信息和可调阈值，就能贪心最优地决定何时重训模型，同时可证明地满足严格资源预算约束。

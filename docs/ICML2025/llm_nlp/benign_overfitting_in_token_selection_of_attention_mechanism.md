@@ -1,9 +1,9 @@
 # Benign Overfitting in Token Selection of Attention Mechanism
 
-**会议**: ICML 2025
-**arXiv**: [2409.17625](https://arxiv.org/abs/2409.17625)
-**代码**: 有（GitHub，实验代码）
-**领域**: LLM / NLP（理论分析）
+**会议**: ICML 2025  
+**arXiv**: [2409.17625](https://arxiv.org/abs/2409.17625)  
+**代码**: 有（GitHub，实验代码）  
+**领域**: LLM / NLP（理论分析）  
 **关键词**: benign overfitting, attention mechanism, token selection, generalization theory, softmax
 
 ## 一句话总结
@@ -33,6 +33,7 @@
 二元交叉熵损失，仅优化查询 token $\mathbf{p}$，固定 $\mathbf{W}$ 和 $\boldsymbol{\nu}$。
 
 ## 实验关键数据
+
 ### 主实验
 | 设置 | $d$ | $\|\boldsymbol{\mu}\|_2$ | 训练准确率 | 测试准确率 | 现象 |
 |------|-----|-----|------|------|------|

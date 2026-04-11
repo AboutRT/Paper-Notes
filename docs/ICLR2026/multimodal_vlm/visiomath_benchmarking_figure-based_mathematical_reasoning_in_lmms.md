@@ -1,9 +1,9 @@
 # VisioMath: Benchmarking Figure-based Mathematical Reasoning in LMMs
 
-**会议**: ICLR 2026
-**arXiv**: [2506.06727](https://arxiv.org/abs/2506.06727)
-**代码**: [GitHub](https://github.com/Nefefilibata/VisioMath)
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2506.06727](https://arxiv.org/abs/2506.06727)  
+**代码**: [GitHub](https://github.com/Nefefilibata/VisioMath)  
+**领域**: 多模态VLM  
 **关键词**: 数学推理基准, 多图像推理, 视觉相似性, 图文对齐, LMM评测
 
 ## 一句话总结

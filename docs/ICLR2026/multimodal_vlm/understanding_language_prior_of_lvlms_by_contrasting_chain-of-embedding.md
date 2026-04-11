@@ -1,9 +1,9 @@
 # Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23050](https://arxiv.org/abs/2509.23050)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2509.23050](https://arxiv.org/abs/2509.23050)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 语言先验, 视觉整合点, 大视觉语言模型, 表征分析, 可解释性
 
 ## 一句话总结

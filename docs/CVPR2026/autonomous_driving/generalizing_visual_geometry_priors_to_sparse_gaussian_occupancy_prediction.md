@@ -1,9 +1,9 @@
 # Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy Prediction
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21552](https://arxiv.org/abs/2602.21552)
-**代码**: https://github.com/JuIvyy/GPOcc
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2602.21552](https://arxiv.org/abs/2602.21552)  
+**代码**: https://github.com/JuIvyy/GPOcc  
+**领域**: 自动驾驶  
 **关键词**: 占据预测, 视觉几何先验, 高斯表示, 射线采样, 流式更新
 
 ## 一句话总结

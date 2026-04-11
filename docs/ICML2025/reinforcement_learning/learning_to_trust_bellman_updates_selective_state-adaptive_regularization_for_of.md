@@ -1,9 +1,9 @@
 # Learning to Trust Bellman Updates: Selective State-Adaptive Regularization for Offline RL
 
-**会议**: ICML2025
-**arXiv**: [2505.19923](https://arxiv.org/abs/2505.19923)
-**代码**: [QinwenLuo/SSAR](https://github.com/QinwenLuo/SSAR)
-**领域**: 离线强化学习 (Offline RL)
+**会议**: ICML2025  
+**arXiv**: [2505.19923](https://arxiv.org/abs/2505.19923)  
+**代码**: [QinwenLuo/SSAR](https://github.com/QinwenLuo/SSAR)  
+**领域**: 离线强化学习 (Offline RL)  
 **关键词**: 离线RL, 状态自适应正则化, 选择性约束, 值函数正则化, 策略约束, Offline-to-Online RL
 
 ## 一句话总结

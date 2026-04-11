@@ -1,9 +1,9 @@
 # CObL: Toward Zero-Shot Ordinal Layering without User Prompting
 
-**会议**: ICCV 2025
-**arXiv**: [2508.08498](https://arxiv.org/abs/2508.08498)
-**代码**: [项目页面](https://vision.seas.harvard.edu/cobl/)
-**领域**: 自监督学习 / 场景分解 / 扩散模型 / 感知组织
+**会议**: ICCV 2025  
+**arXiv**: [2508.08498](https://arxiv.org/abs/2508.08498)  
+**代码**: [项目页面](https://vision.seas.harvard.edu/cobl/)  
+**领域**: 自监督学习 / 场景分解 / 扩散模型 / 感知组织  
 **关键词**: object layers, amodal completion, diffusion model, zero-shot generalization, occlusion ordering, scene decomposition
 
 ## 一句话总结

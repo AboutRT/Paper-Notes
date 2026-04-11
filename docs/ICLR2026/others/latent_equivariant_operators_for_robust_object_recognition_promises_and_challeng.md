@@ -1,9 +1,9 @@
 # Latent Equivariant Operators for Robust Object Recognition: Promises and Challenges
 
-**会议**: ICLR 2026
-**arXiv**: [2602.18406](https://arxiv.org/abs/2602.18406)
-**代码**: [GitHub](https://github.com/BRAIN-Aalto/equivariant_operator)
-**领域**: 鲁棒视觉/等变学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.18406](https://arxiv.org/abs/2602.18406)  
+**代码**: [GitHub](https://github.com/BRAIN-Aalto/equivariant_operator)  
+**领域**: 鲁棒视觉/等变学习  
 **关键词**: 等变算子, OOD泛化, 群变换, 潜空间, KNN推理
 
 ## 一句话总结

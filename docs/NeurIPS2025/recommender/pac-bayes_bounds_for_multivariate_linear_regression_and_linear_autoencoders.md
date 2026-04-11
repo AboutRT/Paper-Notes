@@ -1,9 +1,9 @@
 # PAC-Bayes Bounds for Multivariate Linear Regression and Linear Autoencoders
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.12905](https://arxiv.org/abs/2512.12905)
-**代码**: 无
-**领域**: 统计学习理论 / 推荐系统
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.12905](https://arxiv.org/abs/2512.12905)  
+**代码**: 无  
+**领域**: 统计学习理论 / 推荐系统  
 **关键词**: PAC-Bayes, 泛化界, 线性自编码器, 多变量线性回归, 推荐系统
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # BlazeBVD: Make Scale-Time Equalization Great Again for Blind Video Deflickering
 
-**会议**: ECCV2024
-**arXiv**: [2403.06243](https://arxiv.org/abs/2403.06243)
-**代码**: 待确认
-**领域**: video_understanding
+**会议**: ECCV2024  
+**arXiv**: [2403.06243](https://arxiv.org/abs/2403.06243)  
+**代码**: 待确认  
+**领域**: video_understanding  
 **关键词**: blind video deflickering, histogram, scale-time equalization, temporal consistency, exposure correction
 
 ## 一句话总结

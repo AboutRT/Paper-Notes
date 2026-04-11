@@ -1,9 +1,9 @@
 # ELI-Why: Evaluating the Pedagogical Utility of Language Model Explanations
 
-**会议**: ACL2025
-**arXiv**: [2506.14200](https://arxiv.org/abs/2506.14200)
-**代码**: [inklab.usc.edu/eli-why](https://inklab.usc.edu/eli-why)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.14200](https://arxiv.org/abs/2506.14200)  
+**代码**: [inklab.usc.edu/eli-why](https://inklab.usc.edu/eli-why)  
+**领域**: llm_nlp  
 **关键词**: 教育评估, 语言模型解释, 教学适配, 信息需求, 可读性分析
 
 ## 一句话总结

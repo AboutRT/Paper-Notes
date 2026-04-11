@@ -1,9 +1,9 @@
 # SafeFlowMatcher: Safe and Fast Planning using Flow Matching with Control Barrier Functions
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24243](https://arxiv.org/abs/2509.24243)
-**代码**: 见项目页面
-**领域**: 机器人规划 / 流匹配
+**会议**: ICLR 2026  
+**arXiv**: [2509.24243](https://arxiv.org/abs/2509.24243)  
+**代码**: 见项目页面  
+**领域**: 机器人规划 / 流匹配  
 **关键词**: Flow Matching, 控制障碍函数 (CBF), 安全规划, 预测-修正积分器, 有限时间收敛
 
 ## 一句话总结

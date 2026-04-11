@@ -1,9 +1,9 @@
 # Learning Unified Representation of 3D Gaussian Splatting
 
-**会议**: ICLR 2026
-**arXiv**: [2509.22917](https://arxiv.org/abs/2509.22917)
-**代码**: [GitHub](https://github.com/cilix-ai/gs-embedding)
-**领域**: 3D视觉/表示学习
+**会议**: ICLR 2026  
+**arXiv**: [2509.22917](https://arxiv.org/abs/2509.22917)  
+**代码**: [GitHub](https://github.com/cilix-ai/gs-embedding)  
+**领域**: 3D视觉/表示学习  
 **关键词**: 3D高斯溅射, 子流形场表示, 表示唯一性, VAE, 最优传输
 
 ## 一句话总结

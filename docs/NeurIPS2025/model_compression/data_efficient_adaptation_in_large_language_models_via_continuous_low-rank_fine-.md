@@ -1,9 +1,9 @@
 # Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.18942](https://arxiv.org/abs/2509.18942)
-**代码**: [GitHub](https://github.com/zzm-black/DEAL-Continuous-Low-Rank-Fine-Tuning)
-**领域**: model_compression
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.18942](https://arxiv.org/abs/2509.18942)  
+**代码**: [GitHub](https://github.com/zzm-black/DEAL-Continuous-Low-Rank-Fine-Tuning)  
+**领域**: model_compression  
 **关键词**: 持续学习, LoRA, 小波核, 知识保留, 参数高效微调
 
 ## 一句话总结

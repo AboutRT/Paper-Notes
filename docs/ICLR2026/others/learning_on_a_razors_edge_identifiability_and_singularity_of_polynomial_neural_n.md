@@ -1,9 +1,9 @@
 # Learning on a Razor's Edge: Identifiability and Singularity of Polynomial Neural Networks
 
-**会议**: ICLR 2026
-**arXiv**: [2505.11846](https://arxiv.org/abs/2505.11846)
-**代码**: 无
-**领域**: 深度学习理论 / 代数几何
+**会议**: ICLR 2026  
+**arXiv**: [2505.11846](https://arxiv.org/abs/2505.11846)  
+**代码**: 无  
+**领域**: 深度学习理论 / 代数几何  
 **关键词**: 可辨识性, 神经流形奇异点, 多项式神经网络, 稀疏偏差, 代数几何
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation
 
-**会议**: ACL 2025
-**arXiv**: [2502.19166](https://arxiv.org/abs/2502.19166)
-**代码**: https://github.com/lin-rany/codeIF (有)
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2502.19166](https://arxiv.org/abs/2502.19166)  
+**代码**: https://github.com/lin-rany/codeIF (有)  
+**领域**: 文本生成  
 **关键词**: 代码生成, 指令遵循, 评估基准, 约束满足, LLM评估
 
 ## 一句话总结

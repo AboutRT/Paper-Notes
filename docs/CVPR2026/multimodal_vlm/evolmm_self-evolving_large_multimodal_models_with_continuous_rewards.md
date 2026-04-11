@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards
 
-**会议**: CVPR2026
-**arXiv**: [2511.16672](https://arxiv.org/abs/2511.16672)
-**代码**: [mbzuai-oryx/EvoLMM](https://github.com/mbzuai-oryx/EvoLMM)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2511.16672](https://arxiv.org/abs/2511.16672)  
+**代码**: [mbzuai-oryx/EvoLMM](https://github.com/mbzuai-oryx/EvoLMM)  
+**领域**: 多模态VLM  
 **关键词**: 自演化学习, 大型多模态模型, 连续奖励, Proposer-Solver, 无监督强化学习, 自一致性
 
 ## 一句话总结

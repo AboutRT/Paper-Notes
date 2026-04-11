@@ -1,9 +1,9 @@
 # What Limits Virtual Agent Application? OmniBench: A Scalable Multi-Dimensional Benchmark for Essential Virtual Agent Capabilities
 
-**会议**: ICML 2025 (Oral)
-**arXiv**: [2506.08933](https://arxiv.org/abs/2506.08933)
-**代码**: [https://omni-bench.github.io/](https://omni-bench.github.io/)
-**领域**: Human Understanding
+**会议**: ICML 2025 (Oral)  
+**arXiv**: [2506.08933](https://arxiv.org/abs/2506.08933)  
+**代码**: [https://omni-bench.github.io/](https://omni-bench.github.io/)  
+**领域**: Human Understanding  
 **关键词**: virtual agent, benchmark, graph-based tasks, multi-dimensional evaluation, automated pipeline
 
 ## 一句话总结

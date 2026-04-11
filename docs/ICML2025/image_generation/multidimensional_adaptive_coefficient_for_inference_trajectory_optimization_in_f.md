@@ -1,9 +1,9 @@
 # Multidimensional Adaptive Coefficient for Inference Trajectory Optimization in Flow and Diffusion
 
-**会议**: ICML2025
-**arXiv**: [2404.14161](https://arxiv.org/abs/2404.14161)
-**代码**: 待确认
-**领域**: Flow模型加速 / image_generation
+**会议**: ICML2025  
+**arXiv**: [2404.14161](https://arxiv.org/abs/2404.14161)  
+**代码**: 待确认  
+**领域**: Flow模型加速 / image_generation  
 **关键词**: Flow Matching, Diffusion加速, 推理轨迹优化, 多维自适应系数, 对抗训练
 
 ## 一句话总结

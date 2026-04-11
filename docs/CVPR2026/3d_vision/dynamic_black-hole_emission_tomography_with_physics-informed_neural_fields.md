@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields
 
-**会议**: CVPR2026
-**arXiv**: [2602.08029](https://arxiv.org/abs/2602.08029)
-**代码**: 未开源
-**领域**: 3D视觉 / 计算成像 / 科学成像
+**会议**: CVPR2026  
+**arXiv**: [2602.08029](https://arxiv.org/abs/2602.08029)  
+**代码**: 未开源  
+**领域**: 3D视觉 / 计算成像 / 科学成像  
 **关键词**: 黑洞成像, 神经辐射场, 物理信息约束, 4D层析成像, 事件视界望远镜
 
 ## 一句话总结

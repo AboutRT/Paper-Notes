@@ -1,9 +1,9 @@
 # Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation
 
-**会议**: ECCV 2024
-**arXiv**: [2403.16990](https://arxiv.org/abs/2403.16990)
-**代码**: [GitHub](https://github.com/omer11a/bounded-attention)
-**领域**: 图像生成
+**会议**: ECCV 2024  
+**arXiv**: [2403.16990](https://arxiv.org/abs/2403.16990)  
+**代码**: [GitHub](https://github.com/omer11a/bounded-attention)  
+**领域**: 图像生成  
 **关键词**: 多主体生成, 注意力机制, 语义泄漏, 布局控制, 无训练方法
 
 ## 一句话总结

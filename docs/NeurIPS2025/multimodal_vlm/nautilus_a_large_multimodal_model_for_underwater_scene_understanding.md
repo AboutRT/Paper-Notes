@@ -1,9 +1,9 @@
 # Nautilus: A Large Multimodal Model for Underwater Scene Understanding
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.27481](https://arxiv.org/abs/2510.27481)
-**代码**: [GitHub](https://github.com/H-EmbodVis/NAUTILUS) (有)
-**领域**: 多模态视觉语言模型 (Multimodal VLM)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.27481](https://arxiv.org/abs/2510.27481)  
+**代码**: [GitHub](https://github.com/H-EmbodVis/NAUTILUS) (有)  
+**领域**: 多模态视觉语言模型 (Multimodal VLM)  
 **关键词**: 水下场景理解, 大型多模态模型, 视觉特征增强, 水下成像模型, 指令微调
 
 ## 一句话总结

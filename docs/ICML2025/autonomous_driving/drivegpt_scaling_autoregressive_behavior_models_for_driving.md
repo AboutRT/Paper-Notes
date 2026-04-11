@@ -1,9 +1,9 @@
 # DriveGPT: Scaling Autoregressive Behavior Models for Driving
 
-**会议**: ICML2025
-**arXiv**: [2412.14415](https://arxiv.org/abs/2412.14415)
-**代码**: 未开源
-**领域**: autonomous_driving
+**会议**: ICML2025  
+**arXiv**: [2412.14415](https://arxiv.org/abs/2412.14415)  
+**代码**: 未开源  
+**领域**: autonomous_driving  
 **关键词**: 自动驾驶, 行为建模, 自回归, Transformer, 缩放定律
 
 ## 一句话总结

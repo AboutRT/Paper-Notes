@@ -1,9 +1,9 @@
 # An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10671](https://arxiv.org/abs/2603.10671)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: CVPR 2026  
+**arXiv**: [2603.10671](https://arxiv.org/abs/2603.10671)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: FPGA, JPEG XS, Intra Pattern Copy, 位移向量搜索, 硬件加速
 
 ## 一句话总结

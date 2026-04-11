@@ -1,9 +1,9 @@
 # The More You Automate, the Less You See: Hidden Pitfalls of AI Scientist Systems
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.08713](https://arxiv.org/abs/2509.08713)
-**代码**: [GitHub](https://github.com/niharshah/AIScientistPitfalls)
-**领域**: AI Safety / AI for Science
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.08713](https://arxiv.org/abs/2509.08713)  
+**代码**: [GitHub](https://github.com/niharshah/AIScientistPitfalls)  
+**领域**: AI Safety / AI for Science  
 **关键词**: AI scientist, scientific integrity, benchmark selection, data leakage, reward hacking
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用受控合成任务+"trace log 审计"的方式，揭示 AI 科学家系统在自动化科研流程中的隐性方法论缺陷。
 
 ## 方法详解
+
 ### 整体框架
 本文的诊断框架包含三个层次：
 1. **合成任务设计 (SPR)**: 构建全新的符号模式推理分类任务，确保在预训练语料之外
@@ -41,6 +42,7 @@
 - 每个陷阱构造 20 个样本（10 正 10 负），平衡设计
 
 ## 实验关键数据
+
 ### 不当基准选择实验
 **Agent Laboratory** (1000 次运行):
 

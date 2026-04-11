@@ -1,9 +1,9 @@
 # Doubly Robust Fusion of Many Treatments for Policy Learning
 
-**会议**: ICML2025
-**arXiv**: [2505.08092](https://arxiv.org/abs/2505.08092)
-**代码**: 待确认
-**领域**: 因果推断 / 策略学习
+**会议**: ICML2025  
+**arXiv**: [2505.08092](https://arxiv.org/abs/2505.08092)  
+**代码**: 待确认  
+**领域**: 因果推断 / 策略学习  
 **关键词**: 个体化治疗规则, 治疗融合, 校准加权, 双重稳健, Fused Lasso, 策略树
 
 ## 一句话总结

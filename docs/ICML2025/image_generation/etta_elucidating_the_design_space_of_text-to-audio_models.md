@@ -1,9 +1,9 @@
 # ETTA: Elucidating the Design Space of Text-to-Audio Models
 
-**会议**: ICML 2025
-**arXiv**: [2412.19351](https://arxiv.org/abs/2412.19351)
-**代码**: https://github.com/NVIDIA/BigVGAN (有)
-**领域**: Image Generation (Audio Generation)
+**会议**: ICML 2025  
+**arXiv**: [2412.19351](https://arxiv.org/abs/2412.19351)  
+**代码**: https://github.com/NVIDIA/BigVGAN (有)  
+**领域**: Image Generation (Audio Generation)  
 **关键词**: 文本到音频, 扩散模型, Flow Matching, 设计空间, 合成数据
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping
 
-**会议**: ICML 2025
-**arXiv**: [2409.07480](https://arxiv.org/abs/2409.07480)
-**代码**: 未公开
-**领域**: 脑电信号分析 / 多模态学习
+**会议**: ICML 2025  
+**arXiv**: [2409.07480](https://arxiv.org/abs/2409.07480)  
+**代码**: 未公开  
+**领域**: 脑电信号分析 / 多模态学习  
 **关键词**: EEG-语言模型, 多模态对齐, 多实例学习, 临床表型, 零样本分类, 病理检测, 自监督学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MicroEvoEval: A Systematic Evaluation Framework for Image-Based Microstructure Evolution Prediction
 
-**会议**: AAAI 2026
-**arXiv**: [2511.08955](https://arxiv.org/abs/2511.08955)
-**代码**: [GitHub](https://github.com/ArcueidCroft/MircoEvoEval)
-**领域**: LLM Efficiency
+**会议**: AAAI 2026  
+**arXiv**: [2511.08955](https://arxiv.org/abs/2511.08955)  
+**代码**: [GitHub](https://github.com/ArcueidCroft/MircoEvoEval)  
+**领域**: LLM Efficiency  
 **关键词**: 微观结构演化, 时空预测, 基准评估, 深度学习替代模型, 材料科学
 
 ## 一句话总结

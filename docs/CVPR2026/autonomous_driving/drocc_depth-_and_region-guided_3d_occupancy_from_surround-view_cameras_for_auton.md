@@ -1,9 +1,9 @@
 # Dr.Occ: Depth- and Region-Guided 3D Occupancy from Surround-View Cameras for Autonomous Driving
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01007](https://arxiv.org/abs/2603.01007)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.01007](https://arxiv.org/abs/2603.01007)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 3D占用预测, 深度引导, 区域专家, MoE, 视觉感知
 
 ## 一句话总结

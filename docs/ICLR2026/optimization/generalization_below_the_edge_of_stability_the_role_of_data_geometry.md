@@ -1,9 +1,9 @@
 # Generalization Below the Edge of Stability: The Role of Data Geometry
 
-**会议**: ICLR 2026
-**arXiv**: [2510.18120](https://arxiv.org/abs/2510.18120)
-**代码**: 无
-**领域**: 学习理论/优化
+**会议**: ICLR 2026  
+**arXiv**: [2510.18120](https://arxiv.org/abs/2510.18120)  
+**代码**: 无  
+**领域**: 学习理论/优化  
 **关键词**: 泛化理论, 稳定性边缘, 数据几何, ReLU网络, 隐式正则化
 
 ## 一句话总结

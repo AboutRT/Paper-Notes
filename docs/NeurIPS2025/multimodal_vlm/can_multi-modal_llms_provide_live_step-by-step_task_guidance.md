@@ -1,9 +1,9 @@
 # Can Multi-Modal LLMs Provide Live Step-by-Step Task Guidance?
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.21998](https://arxiv.org/abs/2511.21998)
-**代码**: [GitHub](https://github.com/qualcomm-ai-research/livemamba)
-**领域**: multimodal_vlm
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.21998](https://arxiv.org/abs/2511.21998)  
+**代码**: [GitHub](https://github.com/qualcomm-ai-research/livemamba)  
+**领域**: multimodal_vlm  
 **关键词**: 流式视频理解, 交互式指导, 错误检测, Mamba, 步骤引导
 
 ## 一句话总结

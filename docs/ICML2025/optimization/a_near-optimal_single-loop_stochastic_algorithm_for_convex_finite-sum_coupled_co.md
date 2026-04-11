@@ -1,9 +1,9 @@
 # A Near-Optimal Single-Loop Stochastic Algorithm for Convex Finite-Sum Coupled Compositional Optimization
 
-**会议**: ICML 2025
-**arXiv**: [2312.02277](https://arxiv.org/abs/2312.02277)
-**代码**: 无
-**领域**: Optimization
+**会议**: ICML 2025  
+**arXiv**: [2312.02277](https://arxiv.org/abs/2312.02277)  
+**代码**: 无  
+**领域**: Optimization  
 **关键词**: compositional optimization, stochastic optimization, distributionally robust optimization, pAUC maximization, primal-dual
 
 ## 一句话总结

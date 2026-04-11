@@ -1,9 +1,9 @@
 # AVION: Aerial Vision-Language Instruction from Offline Teacher to Prompt-Tuned Network
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12659](https://arxiv.org/abs/2603.12659)
-**代码**: https://github.com/yuhu990424/AVION (有)
-**领域**: 遥感
+**会议**: CVPR 2026  
+**arXiv**: [2603.12659](https://arxiv.org/abs/2603.12659)  
+**代码**: https://github.com/yuhu990424/AVION (有)  
+**领域**: 遥感  
 **关键词**: 视觉-语言模型, 知识蒸馏, 参数高效微调, 遥感场景分类, 提示学习
 
 ## 一句话总结

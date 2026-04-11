@@ -1,9 +1,9 @@
 # Gaussian-Augmented Physics Simulation and System Identification with Complex Colliders
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.06846](https://arxiv.org/abs/2511.06846)
-**代码**: [有](https://as-diffmpm.github.io)
-**领域**: 3D视觉
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.06846](https://arxiv.org/abs/2511.06846)  
+**代码**: [有](https://as-diffmpm.github.io)  
+**领域**: 3D视觉  
 **关键词**: 可微物理模拟, 系统辨识, Material Point Method, 3D Gaussian Splatting, 碰撞处理
 
 ## 一句话总结

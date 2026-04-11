@@ -1,9 +1,9 @@
 # SGCDet: Boosting Multi-View Indoor 3D Object Detection via Adaptive 3D Volume Construction
 
-**会议**: ICCV 2025
-**arXiv**: [2507.18331](https://arxiv.org/abs/2507.18331)
-**代码**: [GitHub](https://github.com/RM-Zhang/SGCDet)
-**领域**: 3d_vision
+**会议**: ICCV 2025  
+**arXiv**: [2507.18331](https://arxiv.org/abs/2507.18331)  
+**代码**: [GitHub](https://github.com/RM-Zhang/SGCDet)  
+**领域**: 3d_vision  
 **关键词**: 多视图3D检测, 室内场景理解, 稀疏体素构建, 可变形注意力, 占据预测
 
 ## 一句话总结

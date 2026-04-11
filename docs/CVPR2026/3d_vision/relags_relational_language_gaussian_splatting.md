@@ -1,9 +1,9 @@
 # ReLaGS: Relational Language Gaussian Splatting
 
-**会议**: CVPR2026
-**arXiv**: [2603.17605](https://arxiv.org/abs/2603.17605)
-**代码**: [项目主页](https://dfki-av.github.io/ReLaGS/)
-**领域**: 3D视觉
+**会议**: CVPR2026  
+**arXiv**: [2603.17605](https://arxiv.org/abs/2603.17605)  
+**代码**: [项目主页](https://dfki-av.github.io/ReLaGS/)  
+**领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 开放词汇, 3D场景图, 层级语义, 关系推理, 无训练
 
 ## 一句话总结

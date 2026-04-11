@@ -1,9 +1,9 @@
 # Sortformer: A Novel Approach for Permutation-Resolved Speaker Supervision in Speech-to-Text Systems
 
-**会议**: ICML 2025
-**arXiv**: [2409.06656](https://arxiv.org/abs/2409.06656)
-**代码**: [NVIDIA NeMo Framework](https://huggingface.co/nvidia/diar_sortformer_4spk-v1)
-**领域**: 语音/说话人日志
+**会议**: ICML 2025  
+**arXiv**: [2409.06656](https://arxiv.org/abs/2409.06656)  
+**代码**: [NVIDIA NeMo Framework](https://huggingface.co/nvidia/diar_sortformer_4spk-v1)  
+**领域**: 语音/说话人日志  
 **关键词**: 说话人日志, 多说话人ASR, 排列不变损失, 到达时间排序, Sort Loss, 端到端日志
 
 ## 一句话总结

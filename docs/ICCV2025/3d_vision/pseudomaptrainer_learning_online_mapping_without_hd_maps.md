@@ -1,9 +1,9 @@
 # PseudoMapTrainer: Learning Online Mapping without HD Maps
 
-**会议**: ICCV2025
-**arXiv**: [2508.18788](https://arxiv.org/abs/2508.18788)
-**代码**: [github.com/boschresearch/PseudoMapTrainer](https://github.com/boschresearch/PseudoMapTrainer)
-**领域**: 自动驾驶 / 在线建图
+**会议**: ICCV2025  
+**arXiv**: [2508.18788](https://arxiv.org/abs/2508.18788)  
+**代码**: [github.com/boschresearch/PseudoMapTrainer](https://github.com/boschresearch/PseudoMapTrainer)  
+**领域**: 自动驾驶 / 在线建图  
 **关键词**: 在线建图, 伪标签, Gaussian Splatting, HD Map, 半监督学习, 矢量化地图
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # BlazeFL: Fast and Deterministic Federated Learning Simulation
 
-**会议**: CVPR 2026 (Workshop: FedVision)
-**arXiv**: [2604.03606](https://arxiv.org/abs/2604.03606)
-**代码**: [GitHub](https://github.com/kitsuyaazuma/blazefl) (有)
-**领域**: 联邦学习 / 系统优化
+**会议**: CVPR 2026 (Workshop: FedVision)  
+**arXiv**: [2604.03606](https://arxiv.org/abs/2604.03606)  
+**代码**: [GitHub](https://github.com/kitsuyaazuma/blazefl) (有)  
+**领域**: 联邦学习 / 系统优化  
 **关键词**: 联邦学习仿真, 确定性可复现, 自由线程, 共享内存, 轻量框架
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea**: 线程级共享内存执行 + 客户端隔离 RNG 流 = 快速且比特级可复现的 FL 仿真。
 
 ## 方法详解
+
 ### 整体框架
 主线程协调客户端调度 → 工作线程在共享地址空间中执行 → 服务器参数直接通过共享内存广播 → 客户端结果按固定顺序收集 → 每个客户端绑定独立 RNG 流。
 
@@ -45,6 +46,7 @@
 - 每轮 5 epochs 本地训练，500 样本/客户端，10,000 测试样本全局评估
 
 ## 实验关键数据
+
 ### 主实验（墙钟时间，5 轮通信）
 | 模型 | 并行度 | BlazeFL (FT) | BlazeFL (Proc) | Flower (Ray) | 加速 |
 |------|--------|-------------|---------------|-------------|------|

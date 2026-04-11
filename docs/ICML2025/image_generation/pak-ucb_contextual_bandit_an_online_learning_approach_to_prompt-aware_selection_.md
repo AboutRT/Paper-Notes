@@ -1,9 +1,9 @@
 # PAK-UCB Contextual Bandit: An Online Learning Approach to Prompt-Aware Selection of Generative Models and LLMs
 
-**会议**: ICML2025
-**arXiv**: [2410.13287](https://arxiv.org/abs/2410.13287)
-**代码**: [github.com/yannxiaoyanhu/dgm-online-select](https://github.com/yannxiaoyanhu/dgm-online-select)
-**领域**: 在线学习 / LLM选择
+**会议**: ICML2025  
+**arXiv**: [2410.13287](https://arxiv.org/abs/2410.13287)  
+**代码**: [github.com/yannxiaoyanhu/dgm-online-select](https://github.com/yannxiaoyanhu/dgm-online-select)  
+**领域**: 在线学习 / LLM选择  
 **关键词**: contextual bandit, 生成模型选择, 核方法, UCB, 随机傅里叶特征, prompt-aware
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Tighter CMI-Based Generalization Bounds via Stochastic Projection and Quantization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.23485](https://arxiv.org/abs/2510.23485)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.23485](https://arxiv.org/abs/2510.23485)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: generalization bounds, conditional mutual information, stochastic projection, lossy compression, memorization
 
 ## 一句话总结

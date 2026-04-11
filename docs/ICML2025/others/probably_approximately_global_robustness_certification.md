@@ -1,9 +1,9 @@
 # Probably Approximately Global Robustness Certification
 
-**会议**: ICML2025
-**arXiv**: [2511.06495](https://arxiv.org/abs/2511.06495)
-**代码**: 待确认
-**领域**: 鲁棒性认证 (Robustness Certification)
+**会议**: ICML2025  
+**arXiv**: [2511.06495](https://arxiv.org/abs/2511.06495)  
+**代码**: 待确认  
+**领域**: 鲁棒性认证 (Robustness Certification)  
 **关键词**: 全局鲁棒性, ε-net, 概率认证, 对抗鲁棒性, VC维, 采样认证
 
 ## 一句话总结

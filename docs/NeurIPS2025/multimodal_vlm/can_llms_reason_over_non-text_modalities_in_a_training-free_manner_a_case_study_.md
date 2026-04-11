@@ -1,9 +1,9 @@
 # Can LLMs Reason Over Non-Text Modalities in a Training-Free Manner? A Case Study with In-Context Representation Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.17552](https://arxiv.org/abs/2509.17552)
-**代码**: [GitHub](https://github.com/ztlmememe/LLMxFM_ICRL) (有)
-**领域**: 多模态VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.17552](https://arxiv.org/abs/2509.17552)  
+**代码**: [GitHub](https://github.com/ztlmememe/LLMxFM_ICRL) (有)  
+**领域**: 多模态VLM  
 **关键词**: 上下文表征学习, 训练无关多模态推理, 最优传输对齐, 基础模型, 少样本学习
 
 ## 一句话总结

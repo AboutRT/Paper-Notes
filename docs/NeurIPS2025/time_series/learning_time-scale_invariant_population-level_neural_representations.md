@@ -1,9 +1,9 @@
 # Learning Time-Scale Invariant Population-Level Neural Representations
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.13022](https://arxiv.org/abs/2511.13022)
-**代码**: 无
-**领域**: 时间序列 / 神经信号基础模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.13022](https://arxiv.org/abs/2511.13022)  
+**代码**: 无  
+**领域**: 时间序列 / 神经信号基础模型  
 **关键词**: 神经时间序列, 基础模型, 时间尺度不变性, 群体级表征, 脑机接口
 
 ## 一句话总结

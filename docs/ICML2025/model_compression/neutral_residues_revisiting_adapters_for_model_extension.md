@@ -1,9 +1,9 @@
 # Neutral Residues: Revisiting Adapters for Model Extension
 
-**会议**: ICML2025
-**arXiv**: [2410.02744](https://arxiv.org/abs/2410.02744)
-**代码**: 未开源
-**领域**: 模型扩展 / Model Extension
+**会议**: ICML2025  
+**arXiv**: [2410.02744](https://arxiv.org/abs/2410.02744)  
+**代码**: 未开源  
+**领域**: 模型扩展 / Model Extension  
 **关键词**: Adapter, 灾难性遗忘, 模型扩展, 门控机制, 多语言, LLM
 
 ## 一句话总结

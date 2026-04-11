@@ -1,9 +1,9 @@
 # Annealing Flow Generative Models Towards Sampling High-Dimensional and Multi-Modal Distributions
 
-**会议**: ICML 2025
-**arXiv**: [2409.20547](https://arxiv.org/abs/2409.20547)
-**代码**: 无
-**领域**: 图像生成/采样
+**会议**: ICML 2025  
+**arXiv**: [2409.20547](https://arxiv.org/abs/2409.20547)  
+**代码**: 无  
+**领域**: 图像生成/采样  
 **关键词**: 退火流, 连续归一化流, 最优传输, 多模态分布, 高维采样
 
 ## 一句话总结

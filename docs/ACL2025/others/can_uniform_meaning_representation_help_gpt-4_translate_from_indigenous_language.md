@@ -1,9 +1,9 @@
 # Can Uniform Meaning Representation Help GPT-4 Translate from Indigenous Languages?
 
-**会议**: ACL 2025
-**arXiv**: [2502.08900](https://arxiv.org/abs/2502.08900)
-**代码**: 无
-**领域**: NLP / 低资源机器翻译
+**会议**: ACL 2025  
+**arXiv**: [2502.08900](https://arxiv.org/abs/2502.08900)  
+**代码**: 无  
+**领域**: NLP / 低资源机器翻译  
 **关键词**: 统一意义表示(UMR), 原住民语言, 低资源翻译, GPT-4 提示, 语义表示
 
 ## 一句话总结

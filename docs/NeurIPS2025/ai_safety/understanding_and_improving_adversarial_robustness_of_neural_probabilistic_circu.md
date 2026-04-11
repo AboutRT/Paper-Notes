@@ -1,9 +1,9 @@
 # Understanding and Improving Adversarial Robustness of Neural Probabilistic Circuits
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.20549](https://arxiv.org/abs/2509.20549)
-**代码**: https://github.com/uiuctml/RNPC (有)
-**领域**: AI 安全 / 对抗鲁棒性
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.20549](https://arxiv.org/abs/2509.20549)  
+**代码**: https://github.com/uiuctml/RNPC (有)  
+**领域**: AI 安全 / 对抗鲁棒性  
 **关键词**: 概念瓶颈模型, 概率电路, 对抗鲁棒性, 类级推理, 可解释性
 
 ## 一句话总结

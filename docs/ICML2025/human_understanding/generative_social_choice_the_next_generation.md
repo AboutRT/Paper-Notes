@@ -1,9 +1,9 @@
 # Generative Social Choice: The Next Generation
 
-**会议**: ICML2025
-**arXiv**: [2505.22939](https://arxiv.org/abs/2505.22939)
-**代码**: [github.com/sara-fish/gen-soc-choice-next-gen](https://github.com/sara-fish/gen-soc-choice-next-gen)
-**领域**: 社会选择 / AI与民主
+**会议**: ICML2025  
+**arXiv**: [2505.22939](https://arxiv.org/abs/2505.22939)  
+**代码**: [github.com/sara-fish/gen-soc-choice-next-gen](https://github.com/sara-fish/gen-soc-choice-next-gen)  
+**领域**: 社会选择 / AI与民主  
 **关键词**: 生成式社会选择, 比例代表性, 参与式预算, LLM查询, 近似保证
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Cooperation of Experts: Fusing Heterogeneous Information with Large Margin
 
-**会议**: ICML2025
-**arXiv**: [2505.20853](https://arxiv.org/abs/2505.20853)
-**代码**: [strangeAlan/CoE](https://github.com/strangeAlan/CoE)
-**领域**: 集成学习 / 图神经网络
+**会议**: ICML2025  
+**arXiv**: [2505.20853](https://arxiv.org/abs/2505.20853)  
+**代码**: [strangeAlan/CoE](https://github.com/strangeAlan/CoE)  
+**领域**: 集成学习 / 图神经网络  
 **关键词**: 专家协作, 异构多重网络, 大间隔优化, 互信息最大化, 图结构学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Masked Representation Modeling for Domain-Adaptive Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2509.13801](https://arxiv.org/abs/2509.13801)
-**代码**: [GitHub](https://github.com/Wenlve-Zhou/MRM)
-**领域**: 分割 / 无监督域自适应
+**会议**: CVPR 2026  
+**arXiv**: [2509.13801](https://arxiv.org/abs/2509.13801)  
+**代码**: [GitHub](https://github.com/Wenlve-Zhou/MRM)  
+**领域**: 分割 / 无监督域自适应  
 **关键词**: 掩码建模, 表示重建, 域自适应分割, 辅助任务, 即插即用
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # TikZero: Zero-Shot Text-Guided Graphics Program Synthesis
 
-**会议**: ICCV 2025 (Highlight)
-**arXiv**: [2503.11509](https://arxiv.org/abs/2503.11509)
-**代码**: [potamides/DeTikZify](https://github.com/potamides/DeTikZify)
-**领域**: nlp_generation
+**会议**: ICCV 2025 (Highlight)  
+**arXiv**: [2503.11509](https://arxiv.org/abs/2503.11509)  
+**代码**: [potamides/DeTikZify](https://github.com/potamides/DeTikZify)  
+**领域**: nlp_generation  
 **关键词**: 图形程序合成, TikZ, 零样本, 文本引导, 多模态语言模型, 图像桥接
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # FoodTaxo: Generating Food Taxonomies with Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2505.19838](https://arxiv.org/abs/2505.19838)
-**代码**: [github.com/wullli/foodtaxo](https://github.com/wullli/foodtaxo)
-**领域**: NLP应用 / 知识图谱 / 分类体系构建
+**会议**: ACL 2025  
+**arXiv**: [2505.19838](https://arxiv.org/abs/2505.19838)  
+**代码**: [github.com/wullli/foodtaxo](https://github.com/wullli/foodtaxo)  
+**领域**: NLP应用 / 知识图谱 / 分类体系构建  
 **关键词**: taxonomy generation, taxonomy completion, food domain, LLM prompting, chain-of-thought, NLI verification, bottom-up construction
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Navigating Rifts in Human-LLM Grounding: Study and Benchmark
 
-**会议**: ACL2025
-**arXiv**: [2503.13975](https://arxiv.org/abs/2503.13975)
-**代码**: [GitHub](https://github.com/microsoft/rifts)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2503.13975](https://arxiv.org/abs/2503.13975)  
+**代码**: [GitHub](https://github.com/microsoft/rifts)  
+**领域**: llm_nlp  
 **关键词**: 对话grounding, 人机交互, 对话行为分析, 基准评测, 澄清请求, 指令跟随
 
 ## 一句话总结

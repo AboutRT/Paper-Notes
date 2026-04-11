@@ -1,9 +1,9 @@
 # Theory of Space: Can Foundation Models Construct Spatial Beliefs through Active Exploration?
 
-**会议**: ICLR 2026
-**arXiv**: [2602.07055](https://arxiv.org/abs/2602.07055)
-**代码**: [GitHub](https://github.com/mll-lab-nu/Theory-of-Space)
-**领域**: 具身AI/空间智能
+**会议**: ICLR 2026  
+**arXiv**: [2602.07055](https://arxiv.org/abs/2602.07055)  
+**代码**: [GitHub](https://github.com/mll-lab-nu/Theory-of-Space)  
+**领域**: 具身AI/空间智能  
 **关键词**: 空间信念, 主动探索, 认知地图, 信念惰性, 部分可观察
 
 ## 一句话总结

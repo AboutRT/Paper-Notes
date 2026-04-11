@@ -1,9 +1,9 @@
 # ShiftLUT: Spatial Shift Enhanced Look-Up Tables for Efficient Image Restoration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00906](https://arxiv.org/abs/2603.00906)
-**代码**: [GitHub](https://github.com/Sailor-t/ShiftLUT)
-**领域**: 高效图像修复
+**会议**: CVPR 2026  
+**arXiv**: [2603.00906](https://arxiv.org/abs/2603.00906)  
+**代码**: [GitHub](https://github.com/Sailor-t/ShiftLUT)  
+**领域**: 高效图像修复  
 **关键词**: 查找表, 高效超分, 空间偏移, 非对称架构, 自适应采样
 
 ## 一句话总结

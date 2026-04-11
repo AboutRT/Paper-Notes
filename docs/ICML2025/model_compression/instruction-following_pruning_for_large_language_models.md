@@ -1,9 +1,9 @@
 # Instruction-Following Pruning for Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2501.02086](https://arxiv.org/abs/2501.02086)
-**代码**: 未开源
-**领域**: model_compression / LLM剪枝
+**会议**: ICML2025  
+**arXiv**: [2501.02086](https://arxiv.org/abs/2501.02086)  
+**代码**: 未开源  
+**领域**: model_compression / LLM剪枝  
 **关键词**: 结构化剪枝, 动态剪枝, 指令感知, 稀疏预测器, SoftTopK, 端侧推理
 
 ## 一句话总结

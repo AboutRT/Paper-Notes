@@ -1,9 +1,9 @@
 # Beyond the Golden Data: Resolving the Motion-Vision Quality Dilemma via Timestep Selective Training
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25527](https://arxiv.org/abs/2603.25527)
-**代码**: 无
-**领域**: 图像生成/视频生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.25527](https://arxiv.org/abs/2603.25527)  
+**代码**: 无  
+**领域**: 图像生成/视频生成  
 **关键词**: 视频扩散模型, 数据质量困境, 时间步选择训练, 运动-视觉质量平衡, 流匹配
 
 ## 一句话总结
@@ -17,6 +17,7 @@
 5. **核心洞察**：扩散模型的去噪过程具有**层次性**——高噪声时间步建立运动和构图，低噪声时间步精炼细节纹理。梯度分析证实：VQ退化数据在高时间步产生与黄金数据相近的梯度，MQ退化数据在低时间步产生与黄金数据相近的梯度。
 
 ## 方法详解
+
 ### 整体框架
 预计算每个视频的MQ/VQ分数（VideoAlign）→ 归一化 → 样本级质量dropout → 时间步级Beta分布自适应采样 → 训练扩散/流匹配模型
 
@@ -45,6 +46,7 @@
 - $\kappa_{base}$对齐原始采样策略（uniform→2, logit-normal→4）
 
 ## 实验关键数据
+
 ### 主实验（Wan-T2V 1.3B）
 | 数据设置 | 方法 | VBench Dynamic↑ | VideoAlign MQ↑ | VideoAlign VQ↑ |
 |---------|------|----------------|---------------|---------------|

@@ -17,6 +17,7 @@
 5. 需要直接度量segment对正确答案预测的因果贡献
 
 ## 方法详解
+
 ### 整体框架
 Segment-Level Selective SFT = Segment分割 → IG归因 → 双指标筛选重要Segment → 选择性Loss训练
 

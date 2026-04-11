@@ -1,9 +1,9 @@
 # CoD: A Diffusion Foundation Model for Image Compression
 
-**会议**: CVPR 2026
-**arXiv**: [2511.18706](https://arxiv.org/abs/2511.18706)
-**代码**: [GitHub](https://github.com/microsoft/GenCodec/tree/main/CoD)
-**领域**: 图像压缩 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2511.18706](https://arxiv.org/abs/2511.18706)  
+**代码**: [GitHub](https://github.com/microsoft/GenCodec/tree/main/CoD)  
+**领域**: 图像压缩 / 扩散模型  
 **关键词**: 压缩导向扩散, 基础模型, rectified flow, 像素空间扩散, 率失真感知
 
 ## 一句话总结

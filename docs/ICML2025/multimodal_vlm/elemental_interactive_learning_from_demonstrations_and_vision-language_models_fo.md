@@ -1,9 +1,9 @@
 # ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics
 
-**会议**: ICML 2025
-**arXiv**: [2411.18825](https://arxiv.org/abs/2411.18825)
-**代码**: 无
-**领域**: Multimodal / VLM
+**会议**: ICML 2025  
+**arXiv**: [2411.18825](https://arxiv.org/abs/2411.18825)  
+**代码**: 无  
+**领域**: Multimodal / VLM  
 **关键词**: 奖励设计, VLM, 逆强化学习, 从演示学习, 机器人
 
 ## 一句话总结

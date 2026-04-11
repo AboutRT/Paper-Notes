@@ -1,9 +1,9 @@
 # How Transformers Learn Regular Language Recognition: A Theoretical Study on Training Dynamics and Implicit Bias
 
-**会议**: ICML2025
-**arXiv**: [2505.00926](https://arxiv.org/abs/2505.00926)
-**代码**: 无
-**领域**: optimization
+**会议**: ICML2025  
+**arXiv**: [2505.00926](https://arxiv.org/abs/2505.00926)  
+**代码**: 无  
+**领域**: optimization  
 **关键词**: Transformer理论, 训练动力学, 隐式偏置, 正则语言识别, Chain-of-Thought, 最大间隔
 
 ## 一句话总结

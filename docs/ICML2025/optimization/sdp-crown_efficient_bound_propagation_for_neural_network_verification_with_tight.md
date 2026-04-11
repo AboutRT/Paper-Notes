@@ -1,9 +1,9 @@
 # SDP-CROWN: Efficient Bound Propagation for Neural Network Verification with Tightness of Semidefinite Programming
 
-**会议**: ICML2025
-**arXiv**: [2506.06665](https://arxiv.org/abs/2506.06665)
-**代码**: [Hong-Ming/SDP-CROWN](https://github.com/Hong-Ming/SDP-CROWN)
-**领域**: optimization / neural network verification
+**会议**: ICML2025  
+**arXiv**: [2506.06665](https://arxiv.org/abs/2506.06665)  
+**代码**: [Hong-Ming/SDP-CROWN](https://github.com/Hong-Ming/SDP-CROWN)  
+**领域**: optimization / neural network verification  
 **关键词**: 神经网络验证, 半定规划, 线性界传播, ℓ₂ 鲁棒性, ReLU 松弛, CROWN
 
 ## 一句话总结

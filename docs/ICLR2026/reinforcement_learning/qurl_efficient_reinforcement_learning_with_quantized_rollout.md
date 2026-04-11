@@ -1,8 +1,8 @@
 # QuRL: Efficient Reinforcement Learning with Quantized Rollout
 
-**会议**: ICLR 2026
-**arXiv**: [2602.13953](https://arxiv.org/abs/2602.13953)
-**领域**: LLM训练/RL效率
+**会议**: ICLR 2026  
+**arXiv**: [2602.13953](https://arxiv.org/abs/2602.13953)  
+**领域**: LLM训练/RL效率  
 **关键词**: 量化rollout, RLVR, 自适应裁剪, 权重更新感知, 推理加速
 
 ## 一句话总结

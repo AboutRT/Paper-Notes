@@ -1,9 +1,9 @@
 # Exploring Variational Graph Autoencoders for Distribution Grid Data Generation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.02469](https://arxiv.org/abs/2509.02469)
-**代码**: [SyedZainAbbas/GridGEN](https://github.com/SyedZainAbbas/GridGEN)
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.02469](https://arxiv.org/abs/2509.02469)  
+**代码**: [SyedZainAbbas/GridGEN](https://github.com/SyedZainAbbas/GridGEN)  
+**领域**: image_generation  
 **关键词**: 变分图自编码器, 配电网, 合成数据, 图生成, 电力系统
 
 ## 一句话总结

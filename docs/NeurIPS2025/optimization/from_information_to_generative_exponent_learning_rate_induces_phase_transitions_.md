@@ -1,9 +1,9 @@
 # From Information to Generative Exponent: Learning Rate Induces Phase Transitions in SGD
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21020](https://arxiv.org/abs/2510.21020)
-**代码**: 无
-**领域**: optimization
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21020](https://arxiv.org/abs/2510.21020)  
+**代码**: 无  
+**领域**: optimization  
 **关键词**: 单指标模型, 学习率相变, 信息指数, 生成指数, SGD 样本复杂度
 
 ## 一句话总结

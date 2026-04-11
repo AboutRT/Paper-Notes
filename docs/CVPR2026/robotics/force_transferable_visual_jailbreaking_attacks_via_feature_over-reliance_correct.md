@@ -1,9 +1,9 @@
 # FORCE: Transferable Visual Jailbreaking Attacks via Feature Over-Reliance CorrEction
 
-**会议**: CVPR 2026
-**arXiv**: [2509.21029](https://arxiv.org/abs/2509.21029)
-**代码**: [GitHub](https://github.com/tmllab/2026_CVPR_FORCE)
-**领域**: 机器人/AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2509.21029](https://arxiv.org/abs/2509.21029)  
+**代码**: [GitHub](https://github.com/tmllab/2026_CVPR_FORCE)  
+**领域**: 机器人/AI安全  
 **关键词**: 视觉越狱攻击, 多模态大语言模型, 对抗可迁移性, 频谱分析, 损失景观
 
 ## 一句话总结

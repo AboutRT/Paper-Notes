@@ -1,9 +1,9 @@
 # The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm
 
-**会议**: ICLR 2026
-**arXiv**: [2507.18553](https://arxiv.org/abs/2507.18553)
-**代码**: [GitHub](https://github.com/IST-DASLab/GPTQ-Babai)
-**领域**: 模型压缩 / 量化
+**会议**: ICLR 2026  
+**arXiv**: [2507.18553](https://arxiv.org/abs/2507.18553)  
+**代码**: [GitHub](https://github.com/IST-DASLab/GPTQ-Babai)  
+**领域**: 模型压缩 / 量化  
 **关键词**: GPTQ, 量化, 格理论, 最近向量问题, Babai算法, 误差界
 
 ## 一句话总结

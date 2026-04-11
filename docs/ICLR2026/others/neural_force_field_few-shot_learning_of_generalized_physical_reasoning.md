@@ -1,9 +1,9 @@
 # Neural Force Field: Few-shot Learning of Generalized Physical Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2502.08987](https://arxiv.org/abs/2502.08987)
-**代码**: [项目页面](https://neuralforcefield.github.io/)
-**领域**: 物理推理/少样本学习
+**会议**: ICLR 2026  
+**arXiv**: [2502.08987](https://arxiv.org/abs/2502.08987)  
+**代码**: [项目页面](https://neuralforcefield.github.io/)  
+**领域**: 物理推理/少样本学习  
 **关键词**: 神经力场, NODE, 物理推理, 少样本泛化, ODE求解器
 
 ## 一句话总结

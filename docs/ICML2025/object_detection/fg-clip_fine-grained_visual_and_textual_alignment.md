@@ -1,9 +1,9 @@
 # FG-CLIP: Fine-Grained Visual and Textual Alignment
 
-**会议**: ICML2025
-**arXiv**: [2505.05071](https://arxiv.org/abs/2505.05071)
-**代码**: [GitHub - FG-CLIP](https://github.com/360CVGroup/FG-CLIP)
-**领域**: object_detection
+**会议**: ICML2025  
+**arXiv**: [2505.05071](https://arxiv.org/abs/2505.05071)  
+**代码**: [GitHub - FG-CLIP](https://github.com/360CVGroup/FG-CLIP)  
+**领域**: object_detection  
 **关键词**: CLIP, 细粒度理解, 长描述, 区域对齐, 硬负样本
 
 ## 一句话总结

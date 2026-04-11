@@ -1,9 +1,9 @@
 # RoboTron-Sim: Improving Real-World Driving via Simulated Hard-Case
 
-**会议**: ICCV2025
-**arXiv**: [2508.04642](https://arxiv.org/abs/2508.04642)
-**代码**: [项目页面](https://stars79689.github.io/RoboTron-Sim)
-**领域**: 自动驾驶/Sim2Real
+**会议**: ICCV2025  
+**arXiv**: [2508.04642](https://arxiv.org/abs/2508.04642)  
+**代码**: [项目页面](https://stars79689.github.io/RoboTron-Sim)  
+**领域**: 自动驾驶/Sim2Real  
 **关键词**: 端到端自动驾驶, Sim2Real迁移, 多模态大语言模型, 仿真数据增强, 困难场景
 
 ## 一句话总结

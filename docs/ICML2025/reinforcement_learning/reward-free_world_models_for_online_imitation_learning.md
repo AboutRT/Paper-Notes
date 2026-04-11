@@ -1,9 +1,9 @@
 # Reward-free World Models for Online Imitation Learning
 
-**会议**: ICML2025
-**arXiv**: [2410.14081](https://arxiv.org/abs/2410.14081)
-**代码**: 待确认
-**领域**: 模仿学习 / 世界模型 / 模型预测控制
+**会议**: ICML2025  
+**arXiv**: [2410.14081](https://arxiv.org/abs/2410.14081)  
+**代码**: 待确认  
+**领域**: 模仿学习 / 世界模型 / 模型预测控制  
 **关键词**: imitation learning, world model, reward-free, inverse soft-Q learning, model predictive control, latent dynamics
 
 ## 一句话总结

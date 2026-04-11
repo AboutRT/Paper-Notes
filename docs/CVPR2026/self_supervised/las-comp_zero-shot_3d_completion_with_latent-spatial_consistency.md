@@ -1,9 +1,9 @@
 # LaS-Comp: Zero-shot 3D Completion with Latent-Spatial Consistency
 
-**会议**: CVPR 2026
-**arXiv**: [2602.18735](https://arxiv.org/abs/2602.18735)
-**代码**: https://github.com/wylyan/LaS-Comp (有)
-**领域**: 自监督学习
+**会议**: CVPR 2026  
+**arXiv**: [2602.18735](https://arxiv.org/abs/2602.18735)  
+**代码**: https://github.com/wylyan/LaS-Comp (有)  
+**领域**: 自监督学习  
 **关键词**: 3D形状补全, 零样本, 3D基础模型, 隐空间-空间一致性, 点云补全
 
 ## 一句话总结

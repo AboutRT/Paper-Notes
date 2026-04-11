@@ -1,9 +1,9 @@
 # Beyond Zero Initialization: Investigating the Impact of Non-Zero Initialization on LoRA Fine-Tuning Dynamics
 
-**会议**: ICML2025
-**arXiv**: [2505.23194](https://arxiv.org/abs/2505.23194)
-**代码**: [Leopold1423/non_zero_lora-icml25](https://github.com/Leopold1423/non_zero_lora-icml25)
-**领域**: model_compression
+**会议**: ICML2025  
+**arXiv**: [2505.23194](https://arxiv.org/abs/2505.23194)  
+**代码**: [Leopold1423/non_zero_lora-icml25](https://github.com/Leopold1423/non_zero_lora-icml25)  
+**领域**: model_compression  
 **关键词**: LoRA, 参数高效微调, 初始化策略, 学习率鲁棒性, 无限宽度理论
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Graph4MM: Weaving Multimodal Learning with Structural Information
 
-**会议**: ICML2025
-**arXiv**: [2510.16990](https://arxiv.org/abs/2510.16990)
-**代码**: [GitHub](https://github.com/YennNing/Graph4MM)
-**领域**: 多模态图学习 / 多模态视觉语言模型
+**会议**: ICML2025  
+**arXiv**: [2510.16990](https://arxiv.org/abs/2510.16990)  
+**代码**: [GitHub](https://github.com/YennNing/Graph4MM)  
+**领域**: 多模态图学习 / 多模态视觉语言模型  
 **关键词**: 多模态图, 结构信息融合, Hop-Diffused Attention, QFormer, 零样本分类
 
 ## 一句话总结

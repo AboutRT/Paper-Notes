@@ -1,9 +1,9 @@
 # ZeroStereo: Zero-shot Stereo Matching from Single Images
 
-**会议**: ICCV2025
-**arXiv**: [2501.08654](https://arxiv.org/abs/2501.08654)
-**代码**: [GitHub](https://github.com/Windsrain/ZeroStereo)
-**领域**: 3d_vision
+**会议**: ICCV2025  
+**arXiv**: [2501.08654](https://arxiv.org/abs/2501.08654)  
+**代码**: [GitHub](https://github.com/Windsrain/ZeroStereo)  
+**领域**: 3d_vision  
 **关键词**: stereo matching, zero-shot generalization, diffusion inpainting, monocular depth estimation, view synthesis
 
 ## 一句话总结

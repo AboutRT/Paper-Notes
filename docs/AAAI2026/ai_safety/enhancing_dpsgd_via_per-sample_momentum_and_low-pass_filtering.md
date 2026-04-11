@@ -26,6 +26,7 @@
 如何在不消耗额外隐私预算的前提下，**同时**缓解 DPSGD 中的 DP 噪声和裁剪偏差？
 
 ## 方法详解
+
 ### 整体框架：DP-PMLF
 DP-PMLF 由两个互补模块组成，依次作用于梯度处理流程：
 
@@ -72,6 +73,7 @@ $$\mathcal{O}\!\left(\frac{f(x_0)-f^*}{\eta T} + L\eta C^2 + \frac{L\eta \, d\si
 - **隐私性**：利用高斯机制 + 子采样隐私放大 + moments accountant，满足 $(\epsilon, \delta)$-DP。
 
 ## 实验关键数据
+
 ### 图像分类（ViT，无预训练）
 | 方法 | CIFAR-10 ($\epsilon$=1) | CIFAR-10 ($\epsilon$=8) | CIFAR-100 ($\epsilon$=1) | CIFAR-100 ($\epsilon$=8) |
 |---|---|---|---|---|

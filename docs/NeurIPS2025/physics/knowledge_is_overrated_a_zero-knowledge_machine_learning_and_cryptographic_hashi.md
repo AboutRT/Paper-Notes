@@ -1,9 +1,9 @@
 # Knowledge is Overrated: A Zero-Knowledge ML and Cryptographic Hashing-Based Framework for Verifiable, Low Latency Inference at the LHC
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.12592](https://arxiv.org/abs/2511.12592)
-**代码**: [PHAZE](https://zenodo.org/records/17370252) (开源)
-**领域**: Physics / ML Systems
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.12592](https://arxiv.org/abs/2511.12592)  
+**代码**: [PHAZE](https://zenodo.org/records/17370252) (开源)  
+**领域**: Physics / ML Systems  
 **关键词**: zero-knowledge proof, LHC trigger, early-exit, cryptographic hashing, verifiable inference
 
 ## 一句话总结

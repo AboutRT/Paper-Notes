@@ -1,9 +1,9 @@
 # RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.09973](https://arxiv.org/abs/2602.09973)
-**代码**: [GitHub](https://github.com/RoboInter)
-**领域**: 机器人学习/数据集
+**会议**: ICLR 2026  
+**arXiv**: [2602.09973](https://arxiv.org/abs/2602.09973)  
+**代码**: [GitHub](https://github.com/RoboInter)  
+**领域**: 机器人学习/数据集  
 **关键词**: 中间表示, VLA, 操作数据集, 具身VQA, plan-then-execute
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Video Color Grading via Look-Up Table Generation
 
-**会议**: ICCV 2025
-**arXiv**: [2508.00548](https://arxiv.org/abs/2508.00548)
-**代码**: [GitHub](https://github.com/seunghyuns98/VideoColorGrading)
-**领域**: 图像生成 / 视频编辑
+**会议**: ICCV 2025  
+**arXiv**: [2508.00548](https://arxiv.org/abs/2508.00548)  
+**代码**: [GitHub](https://github.com/seunghyuns98/VideoColorGrading)  
+**领域**: 图像生成 / 视频编辑  
 **关键词**: 视频调色, LUT生成, 扩散模型, 色彩分级, 参考图像, 风格迁移
 
 ## 一句话总结

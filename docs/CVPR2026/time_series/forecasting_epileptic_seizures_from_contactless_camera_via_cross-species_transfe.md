@@ -1,9 +1,9 @@
 # Forecasting Epileptic Seizures from Contactless Camera via Cross-Species Transfer Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12887](https://arxiv.org/abs/2603.12887)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.12887](https://arxiv.org/abs/2603.12887)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 癫痫发作预测, 视频分析, 跨物种迁移学习, VideoMAE, 少样本学习
 
 ## 一句话总结

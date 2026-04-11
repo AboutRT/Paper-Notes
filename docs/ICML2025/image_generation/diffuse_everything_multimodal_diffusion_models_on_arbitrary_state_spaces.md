@@ -1,9 +1,9 @@
 # Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces
 
-**会议**: ICML 2025
-**arXiv**: [2506.07903](https://arxiv.org/abs/2506.07903)
-**代码**: https://github.com/kevinjrojas/DiffuseEverything (有)
-**领域**: 扩散模型 / 多模态生成
+**会议**: ICML 2025  
+**arXiv**: [2506.07903](https://arxiv.org/abs/2506.07903)  
+**代码**: https://github.com/kevinjrojas/DiffuseEverything (有)  
+**领域**: 扩散模型 / 多模态生成  
 **关键词**: 多模态扩散模型, 混合状态空间, 解耦噪声调度, 文本-图像联合生成, 表格数据合成
 
 ## 一句话总结

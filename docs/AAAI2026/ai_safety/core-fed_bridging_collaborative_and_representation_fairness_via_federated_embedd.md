@@ -1,9 +1,9 @@
 # CoRe-Fed: Bridging Collaborative and Representation Fairness via Federated Embedding Distillation
 
-**会议**: AAAI 2026
-**arXiv**: [2602.00647](https://arxiv.org/abs/2602.00647)
-**代码**: [有](https://github.com/Noorain1/CoRe-Fed)
-**领域**: AI安全
+**会议**: AAAI 2026  
+**arXiv**: [2602.00647](https://arxiv.org/abs/2602.00647)  
+**代码**: [有](https://github.com/Noorain1/CoRe-Fed)  
+**领域**: AI安全  
 **关键词**: 联邦学习, 公平性, 表示对齐, 对比学习, 知识蒸馏
 
 ## 一句话总结

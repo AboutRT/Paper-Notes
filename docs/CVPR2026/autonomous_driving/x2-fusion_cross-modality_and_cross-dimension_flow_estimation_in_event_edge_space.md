@@ -1,9 +1,9 @@
 # x2-Fusion: Cross-Modality and Cross-Dimension Flow Estimation in Event Edge Space
 
-**会议**: CVPR 2026
-**arXiv**: [2603.16671](https://arxiv.org/abs/2603.16671)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.16671](https://arxiv.org/abs/2603.16671)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 光流, 场景流, 事件相机, 多模态融合, 边缘空间
 
 ## 一句话总结

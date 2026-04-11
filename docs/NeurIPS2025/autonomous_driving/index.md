@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🧠 NeurIPS2025** · 共 **33** 篇
+**🧠 NeurIPS2025** · 共 **45** 篇
 
 **[3EED: Ground Everything Everywhere in 3D](3eed_ground_everything_everywhere_in_3d.md)**
 
@@ -111,9 +111,29 @@
 
 :   本文提出神经符号扩散模型（NeSyDM），通过将离散掩码扩散模型与符号程序结合，突破了传统神经符号预测器中概念条件独立假设的限制，在保持可扩展性的同时建模概念间依赖关系和不确定性，在视觉推理和自动驾驶任务上取得了 SOTA 准确率和校准性能。
 
+**[OpenBox: Annotate Any Bounding Boxes in 3D](openbox_annotate_any_bounding_boxes_in_3d.md)**
+
+:   提出 OpenBox，一种两阶段自动 3D 边界框标注流水线：先通过跨模态实例对齐将 2D 视觉基础模型的实例信息映射到 3D 点云，再根据物体物理状态（静态刚体/动态刚体/可变形体）自适应生成高质量 3D 边界框，无需自训练（self-training）迭代。
+
+**[Predictive Preference Learning from Human Interventions](predictive_preference_learning_from_human_interventions.md)**
+
+:   PPL通过轨迹预测模型预见智能体未来状态，并将人类单次干预信号"扩展"到预测的未来状态上构建对比偏好数据，结合行为克隆和偏好优化双损失训练策略，大幅减少了人类干预次数和示范数据需求。
+
+**[Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving](prioritizing_perception-guided_self-supervision_a_new_paradigm_for_causal_modeli.md)**
+
+:   通过感知输出（车道线、agent 轨迹）和自监督学习来建立因果关系，解决端到端自动驾驶中的因果混淆问题，在 Bench2Drive 闭环评估上实现 SOTA（Driving Score 78.08）。
+
+**[RAW2Drive: Reinforcement Learning with Aligned World Models for End-to-End Autonomous Driving](raw2drive_reinforcement_learning_with_aligned_world_models_for_end-to-end_autono.md)**
+
+:   提出 RAW2Drive，首个从原始传感器输入到规划的基于模型的强化学习 (MBRL) 端到端自动驾驶框架。通过双流世界模型设计——先训练特权世界模型，再通过引导机制指导原始传感器世界模型学习——在 CARLA v2 和 Bench2Drive 上取得 SOTA，大幅超越 IL 方法。
+
 **[Regret Lower Bounds for Decentralized Multi-Agent Stochastic Shortest Path Problems](regret_lower_bounds_for_decentralized_multi-agent_stochastic_shortest_path_probl.md)**
 
 :   本文首次为去中心化多智能体随机最短路径问题（Dec-MASSP）在线性函数逼近设定下建立了 $\Omega(\sqrt{K})$ 的 regret 下界，通过构造难以学习的实例族并利用对称性论证识别最优策略结构，证明了该下界与已有上界在 episode 数 $K$ 上达到匹配。
+
+**[RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation](rlgf_reinforcement_learning_with_geometric_feedback_for_autonomous_driving_video.md)**
+
+:   本文首次系统量化自动驾驶视频生成中的几何失真问题，提出 RLGF 框架通过层次化几何奖励（消失点-车道线-深度-占用）和潜空间滑动窗口优化策略，将 3D 目标检测 mAP 提升 12.7 个绝对百分点（25.75→31.42），大幅缩小合成数据与真实数据的性能差距。
 
 **[SDTagNet: Leveraging Text-Annotated Navigation Maps for Online HD Map Construction](sdtagnet_leveraging_text-annotated_navigation_maps_for_online_hd_map_constructio.md)**
 
@@ -123,9 +143,25 @@
 
 :   提出 SimWorld-Robotics (SWR)，一个基于 Unreal Engine 5 的大规模城市仿真平台，支持程序化生成无限逼真城市环境，并以此构建了多模态导航（SimWorld-MMNav）和多机器人搜索（SimWorld-MRS）两个新 benchmark，揭示了当前 VLM 在户外城市任务中的严重能力缺陷。
 
+**[SPIRAL: Semantic-Aware Progressive LiDAR Scene Generation and Understanding](spiral_semantic-aware_progressive_lidar_scene_generation_and_understanding.md)**
+
+:   Spiral 提出了一种语义感知的 range-view LiDAR 扩散模型，同时生成深度、反射率图像和语义分割图，通过渐进式语义预测和闭环推理机制增强跨模态一致性，以最小参数量（61M）取得 SOTA 效果。
+
+**[StreamForest: Efficient Online Video Understanding with Persistent Event Memory](streamforest_efficient_online_video_understanding_with_persistent_event_memory.md)**
+
+:   本文提出 StreamForest 架构，通过"持久事件记忆森林"将流式视频帧自适应组织为多棵事件级树结构，结合"细粒度时空窗口"捕捉短期视觉线索，在 StreamingBench 上达到 77.3% 准确率，并在极端压缩（仅 1024 visual tokens）下仍保留 96.8% 的性能。
+
 **[Towards Foundational LiDAR World Models with Efficient Latent Flow Matching](towards_foundational_lidar_world_models_with_efficient_latent_flow_matching.md)**
 
 :   本文提出首个**可迁移的 LiDAR 世界模型**，通过 Swin Transformer VAE 实现 192× 高压缩比（SOTA 重建精度）、条件流匹配（CFM）替代扩散模型实现 SOTA 语义占据预测（仅需前人 4.38% FLOPs），并在三种域迁移任务中以 5% 标注数据超越 OccWorld 全量训练。
+
+**[Towards Physics-Informed Spatial Intelligence with Human Priors: An Autonomous Driving Perspective](towards_physics-informed_spatial_intelligence_with_human_priors_an_autonomous_dr.md)**
+
+:   本文提出空间智能网格（SIG）——一种受文艺复兴画家透视网格启发的结构化表示方法，将驾驶场景中的物体布局、方向关系和距离关系显式编码为网格结构，并构建 SIGBench 基准证明 SIG 在少样本上下文学习中比传统 VQA 方式能更稳定、更全面地提升 MLLM 的空间推理能力。
+
+**[Towards Predicting Any Human Trajectory in Context](towards_predicting_any_human_trajectory_in_context.md)**
+
+:   提出 TrajICL，一种基于上下文学习（ICL）的行人轨迹预测框架，通过时空相似性示例选择和预测引导示例选择，在不微调的情况下实现跨场景自适应轨迹预测，性能甚至超越微调方法。
 
 **[TranSUN: A Preemptive Paradigm to Eradicate Retransformation Bias Intrinsically from Regression Models in Recommender Systems](transun_a_preemptive_paradigm_to_eradicate_retransformation_bias_intrinsically_f.md)**
 
@@ -134,3 +170,15 @@
 **[Unifying Appearance Codes and Bilateral Grids for Driving Scene Gaussian Splatting](unifying_appearance_codes_and_bilateral_grids_for_driving_scene_gaussian_splatti.md)**
 
 :   提出多尺度双边网格金字塔统一全局外观编码和像素级双边网格——3 级层级（粗→中→细）分别捕捉全局/区域/像素级光度变化，通过亮度引导的切片-融合管线和自适应正则化解决驾驶场景 3DGS 的光度不一致问题，Waymo 上 Chamfer Distance 比 OmniRe 改善 28.2%。
+
+**[URB -- Urban Routing Benchmark for RL-Equipped Connected Autonomous Vehicles](urb_--_urban_routing_benchmark_for_rl-equipped_connected_autonomous_vehicles.md)**
+
+:   本文提出 URB——首个面向城市混合交通（人类+CAV）路由问题的大规模 MARL 基准环境，整合 29 个真实交通网络、微观交通仿真器 SUMO 和真实出行需求模式，实验发现当前 SOTA MARL 算法很难超越人类驾驶员的路由表现，揭示了该领域亟需算法突破。
+
+**[V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception](v2x-radar_a_multi-modal_dataset_with_4d_radar_for_cooperative_perception.md)**
+
+:   提出 V2X-Radar，首个大规模真实世界多模态车路协同感知数据集，包含 4D 雷达、LiDAR 和多视角相机数据，覆盖多种天气和光照条件，提供 20K LiDAR 帧、40K 相机图像、20K 4D 雷达数据和 350K 标注框，并建立三个子数据集的全面基准。
+
+**[X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability](x-scene_large-scale_driving_scene_generation_with_high_fidelity_and_flexible_con.md)**
+
+:   提出 X-Scene，一个统一的大规模驾驶场景生成框架，支持从高层文本提示到底层 BEV 布局的多粒度控制，通过联合生成 3D 语义 occupancy、多视图图像和视频，并利用一致性感知外推实现大规模场景扩展，在生成质量（FID 11.29）和下游任务上全面超越现有方法。

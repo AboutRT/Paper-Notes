@@ -1,9 +1,9 @@
 # Multiscale Structure-Guided Latent Diffusion for Multimodal MRI Translation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12581](https://arxiv.org/abs/2603.12581)
-**代码**: [有](https://github.com/ziyi-start/MSG-LDM)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.12581](https://arxiv.org/abs/2603.12581)  
+**代码**: [有](https://github.com/ziyi-start/MSG-LDM)  
+**领域**: 医学图像  
 **关键词**: MRI合成, 潜在扩散模型, 结构引导, 风格-结构解耦, 缺失模态
 
 ## 一句话总结

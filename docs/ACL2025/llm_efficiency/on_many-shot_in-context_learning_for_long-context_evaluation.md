@@ -1,9 +1,9 @@
 # On Many-Shot In-Context Learning for Long-Context Evaluation
 
-**会议**: ACL 2025
-**arXiv**: [2411.07130](https://arxiv.org/abs/2411.07130)
-**代码**: https://github.com/launchnlp/ManyICLBench
-**领域**: LLM Efficiency / 长上下文评估
+**会议**: ACL 2025  
+**arXiv**: [2411.07130](https://arxiv.org/abs/2411.07130)  
+**代码**: https://github.com/launchnlp/ManyICLBench  
+**领域**: LLM Efficiency / 长上下文评估  
 **关键词**: Many-shot ICL, Long-context Evaluation, ManyICLBench, Similar-Sample Learning, All-Sample Learning
 
 ## 一句话总结

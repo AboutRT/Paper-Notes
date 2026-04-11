@@ -1,9 +1,9 @@
 # Reward-Augmented Data Enhances Direct Preference Alignment of LLMs
 
-**会议**: ICML2025
-**arXiv**: [2410.08067](https://arxiv.org/abs/2410.08067)
-**代码**: [shenao-zhang/reward-augmented-preference](https://github.com/shenao-zhang/reward-augmented-preference)
-**领域**: LLM对齐 / 偏好优化
+**会议**: ICML2025  
+**arXiv**: [2410.08067](https://arxiv.org/abs/2410.08067)  
+**代码**: [shenao-zhang/reward-augmented-preference](https://github.com/shenao-zhang/reward-augmented-preference)  
+**领域**: LLM对齐 / 偏好优化  
 **关键词**: DPO, 偏好对齐, 奖励条件化, 数据增强, RLHF, LLM alignment
 
 ## 一句话总结

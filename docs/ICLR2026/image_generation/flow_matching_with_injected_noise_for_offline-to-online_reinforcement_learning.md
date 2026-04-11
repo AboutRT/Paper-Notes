@@ -1,9 +1,9 @@
 # Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2602.18117](https://arxiv.org/abs/2602.18117)
-**代码**: [GitHub](https://github.com/CTID282/FINO)
-**领域**: 流匹配/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.18117](https://arxiv.org/abs/2602.18117)  
+**代码**: [GitHub](https://github.com/CTID282/FINO)  
+**领域**: 流匹配/强化学习  
 **关键词**: Flow Matching, 离线-在线RL, 噪声注入, 探索-利用平衡, 熵引导采样
 
 ## 一句话总结

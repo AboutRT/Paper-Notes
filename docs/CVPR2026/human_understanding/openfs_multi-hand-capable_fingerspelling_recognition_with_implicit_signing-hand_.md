@@ -1,9 +1,9 @@
 # OpenFS: Multi-Hand-Capable Fingerspelling Recognition with Implicit Signing-Hand Detection and Frame-Wise Letter-Conditioned Synthesis
 
-**会议**: CVPR2026
-**arXiv**: [2602.22949](https://arxiv.org/abs/2602.22949)
-**代码**: [JunukCha/OpenFS](https://github.com/JunukCha/OpenFS)
-**领域**: human_understanding
+**会议**: CVPR2026  
+**arXiv**: [2602.22949](https://arxiv.org/abs/2602.22949)  
+**代码**: [JunukCha/OpenFS](https://github.com/JunukCha/OpenFS)  
+**领域**: human_understanding  
 **关键词**: 指拼识别, 手语理解, 隐式签名手检测, 单调对齐损失, 扩散生成, OOV泛化
 
 ## 一句话总结

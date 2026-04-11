@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🤖 AAAI2026** · 共 **37** 篇
+**🤖 AAAI2026** · 共 **58** 篇
 
 **[3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition](3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md)**
 
@@ -95,6 +95,10 @@
 
 :   本文系统研究了环视鱼眼相机的3D目标检测问题：构建了同时包含针孔和鱼眼相机数据的Fisheye3DOD基准数据集，并提出FisheyeBEVDet和FisheyePETR两个框架，通过球面特征表征将鱼眼几何建模嵌入主流检测范式，相比矫正baseline提升最高6.2个FDS点。
 
+**[FantasyStyle: Controllable Stylized Distillation for 3D Gaussian Splatting](fantasystyle_controllable_stylized_distillation_for_3d_gaussian_splatting.md)**
+
+:   本文提出FantasyStyle，首个完全基于扩散模型蒸馏的3DGS风格迁移框架，通过多视图频率一致性（MVFC）机制抑制低频分量减少视角间冲突，并设计可控风格化蒸馏（CSD）引入负引导消除风格图像的内容泄漏，在风格化质量和内容保持上均超越现有VGG和扩散方法。
+
 **[FoundationSLAM: 释放深度基础模型在端到端稠密视觉SLAM中的潜力](foundationslam_unleashing_the_power_of_depth_foundation_models_for.md)**
 
 :   将深度基础模型的几何先验注入光流式SLAM系统，通过混合光流网络、双向一致BA层和可靠性感知精炼三个模块形成闭环，在TUM/EuRoC/7Scenes/ETH3D四大数据集取得SOTA轨迹精度和稠密重建质量，18 FPS实时运行。
@@ -107,17 +111,85 @@
 
 :   重新审视3DGS中的标量alpha blending，指出其忽略像素内空间变化是多尺度渲染伪影（放大erosion/缩小dilation）的根源，提出Gaussian Blending——将alpha和transmittance建模为像素内的空间分布（2D uniform window），实现实时抗锯齿且无需重训练，在多尺度Blender上PSNR从31.59→35.80。
 
+**[GaussianImage++: Boosted Image Representation and Compression with 2D Gaussian Splatting](gaussianimage_boosted_image_representation_and_compression_with_2d_gaussian_spla.md)**
+
+:   提出 GaussianImage++，通过失真驱动的密度化机制和内容感知高斯滤波器，用有限数量的 2D Gaussian 原语实现高质量图像表示和压缩，并结合属性分离的可学习标量量化器实现高效压缩。
+
+**[Generalized Geometry Encoding Volume for Real-time Stereo Matching](generalized_geometry_encoding_volume_for_real-time_stereo_matching.md)**
+
+:   提出 GGEV，将单目深度基础模型（Depth Anything V2）的深度先验以轻量方式融入代价聚合过程，通过深度感知动态代价聚合（DDCA）自适应增强不同视差假设的匹配关系，在实时速度下实现强泛化能力。
+
+**[Geometry Meets Light: Leveraging Geometric Priors for Universal Photometric Stereo under Limited Multi-Illumination Cues](geometry_meets_light_leveraging_geometric_priors_for_universal_photometric_stere.md)**
+
+:   提出 GeoUniPS，将大规模3D重建模型（VGGT）中学到的几何先验注入光度立体管线，通过光-几何双分支编码器在多光照线索不可靠时（阴影、自遮挡、偏差光照）仍能恢复合理的表面法线。
+
+**[Graph Smoothing for Enhanced Local Geometry Learning in Point Cloud Analysis](graph_smoothing_for_enhanced_local_geometry_learning_in_point_cloud_analysis.md)**
+
+:   分析了传统图构建方法（ball query）在边界点处产生稀疏连接、在交汇区产生噪声连接的问题，提出图平滑模块（对称邻接优化 + von Neumann核）和局部几何学习模块（自适应形状特征 + 柱坐标变换），在分类和分割任务上取得竞争性能。
+
+**[Griffin: Aerial-Ground Cooperative Detection and Tracking Dataset and Benchmark](griffin_aerial-ground_cooperative_detection_and_tracking_dataset_and_benchmark.md)**
+
+:   提出 Griffin，一个空地协同（AGC）3D感知数据集和基准框架，包含250+动态场景（37K+帧），通过CARLA-AirSim联合仿真实现真实无人机动力学、变化巡航高度（20-60m）和遮挡感知标注，并提供系统化的鲁棒性评估协议。
+
+**[GT2-GS: Geometry-aware Texture Transfer for Gaussian Splatting](gt2-gs_geometry-aware_texture_transfer_for_gaussian_splatting.md)**
+
+:   提出GT2-GS框架，通过几何感知纹理迁移损失、自适应细粒度控制模块和几何保持分支，实现高质量、视图一致的3DGS纹理迁移，在纹理保真度和场景内容保持上均优于现有3D风格迁移方法。
+
 **[Hierarchical Direction Perception Via Atomic Dot-Product Operators For Rotation-](hierarchical_direction_perception_via_atomic_dot-product_operators_for_rotation-.md)**
 
 :   提出 DiPVNet，基于 atomic dot-product operator 的双重属性（方向选择性 + 旋转不变性），构建局部 L2DP 算子和全局 DASFT 模块，实现层次化方向感知的旋转不变点云学习。
+
+**[IE-SRGS: An Internal-External Knowledge Fusion Framework for High-Fidelity 3D Gaussian Splatting Super-Resolution](ie-srgs_an_internal-external_knowledge_fusion_framework_for_high-fidelity_3d_gau.md)**
+
+:   提出IE-SRGS框架，通过融合外部2D超分辨率模型提供的高频纹理先验（外部知识）与多尺度3DGS模型提供的跨视图一致深度/纹理特征（内部知识），配合掩码引导融合策略，从低分辨率输入实现高保真3DGS超分辨率重建，在合成和真实场景上均达到SOTA。
+
+**[Learning Conjugate Direction Fields for Planar Quadrilateral Mesh Generation](learning_conjugate_direction_fields_for_planar_quadrilateral_mesh_generation.md)**
+
+:   提出一种基于DGCNN的数据驱动方法高效生成共轭方向场（CDF），避免了传统非线性优化的高计算开销，支持用户笔画引导的可控CDF生成，将CDF生成速度提升了1-2个数量级，同时配套发布了包含50000+自由曲面的大规模数据集。
+
+**[MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting](meshsplat_generalizable_sparse-view_surface_reconstruction_via_gaussian_splattin.md)**
+
+:   提出MeshSplat，首个基于2DGS的可泛化稀疏视角表面重建框架，通过加权Chamfer Distance损失正则化深度预测和基于不确定性的法线预测网络对齐2DGS朝向，从新视角合成任务中以自监督方式学习几何先验，在稀疏视角网格重建和跨数据集泛化上均达到SOTA。
 
 **[Mobgs Motion Deblurring Dynamic 3D Gaussian Splatting For Blurry Monocular Video](mobgs_motion_deblurring_dynamic_3d_gaussian_splatting_for_blurry_monocular_video.md)**
 
 :   MoBGS 提出了一种端到端的动态去模糊 3D Gaussian Splatting 框架，通过 Blur-adaptive Latent Camera Estimation (BLCE) 和 Latent Camera-induced Exposure Estimation (LCEE) 两个核心模块，从模糊单目视频中重建清晰的时空新视角，在 Stereo Blur 数据集上大幅超越现有 SOTA 方法。
 
+**[MR-CoSMo: Visual-Text Memory Recall and Direct Cross-Modal Alignment Method for Query-Driven 3D Segmentation](mr-cosmo_visual-text_memory_recall_and_direct_cross-modal_alignment_method_for_q.md)**
+
+:   提出MR-CoSMo，一种由粗到精的查询驱动3D分割模型，通过直接跨模态对齐模块（DCMA）建立3D点云与文本/2D图像的显式对齐，结合视觉-文本记忆模块（Memory Module）存储高置信度特征对来增强跨场景分割一致性，在3D指令分割、引用分割和语义分割三个任务上均达到SOTA。
+
+**[Multi-Modal Assistance for Unsupervised Domain Adaptation on Point Cloud 3D Object Detection](multi-modal_assistance_for_unsupervised_domain_adaptation_on_point_cloud_3d_obje.md)**
+
+:   提出 MMAssist，利用图像和文本特征作为"桥梁"对齐源域和目标域的 3D 特征，同时结合 2D 检测结果增强伪标签质量，显著提升了基于 LiDAR 的 3D 无监督域适应目标检测性能。
+
+**[OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for Underwater Scene Reconstruction](oceansplat_object-aware_gaussian_splatting_with_trinocular_view_consistency_for_.md)**
+
+:   提出 OceanSplat，通过三目视图一致性约束、合成对极深度先验和深度感知透明度调整，实现了散射介质下的高保真水下 3D 高斯泼溅场景重建，显著减少了浮动伪影并超越现有方法。
+
+**[Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning](open-world_3d_scene_graph_generation_for_retrieval-augmented_reasoning.md)**
+
+:   提出统一框架 OSU-3DSG，结合视觉-语言模型进行开放世界 3D 场景图生成，并通过检索增强推理支持场景问答、视觉定位、实例检索和任务规划四种交互任务，在无监督条件下达到与有监督方法可比的性能。
+
 **[OpenScan: A Benchmark for Generalized Open-Vocabulary 3D Scene Understanding](openscan_a_benchmark_for_generalized_open-vocabulary_3d_scene_understanding.md)**
 
 :   本文提出了广义开放词汇 3D 场景理解任务（GOV-3D）及对应的 OpenScan 基准，将 3D 场景理解从物体类别扩展到八种语言学属性维度，揭示了现有 OV-3D 方法在理解抽象物体属性方面的严重不足。
+
+**[Opt3DGS: Optimizing 3D Gaussian Splatting with Adaptive Exploration and Curvature-Aware Exploitation](opt3dgs_optimizing_3d_gaussian_splatting_with_adaptive_exploration_and_curvature.md)**
+
+:   提出 Opt3DGS 框架，将 3DGS 训练分为探索和利用两阶段：探索阶段用自适应加权 SGLD 逃离局部最优，利用阶段用局部拟牛顿 Adam 优化器实现精确收敛，在不修改高斯表示的前提下达到 SOTA 渲染质量。
+
+**[Parameter-Free Fine-tuning via Redundancy Elimination for Vision Foundation Models](parameter-free_fine-tuning_via_redundancy_elimination_for_vision_foundation_mode.md)**
+
+:   发现视觉基础模型（SAM/SAM2/DINOv2）中存在大量冗余通道，提出无需更新任何参数的微调方法：通过基于输出差异的通道选择算法找到最优替换对，用有效通道替换冗余通道来增强下游任务的特征表示，平均提升 mIoU 5-11 个点。
+
+**[Pb4U-GNet: Resolution-Adaptive Garment Simulation via Propagation-before-Update Graph Network](pb4u-gnet_resolution-adaptive_garment_simulation_via_propagation-before-update_g.md)**
+
+:   提出 Pb4U-GNet，通过将消息传播与特征更新解耦（Propagation-before-Update），结合分辨率感知的传播深度控制和更新缩放机制，实现了仅在低分辨率网格上训练即可泛化到高分辨率网格的服装仿真。
+
+**[PFAvatar: Pose-Fusion 3D Personalized Avatar Reconstruction from Real-World Outfit-of-the-Day Photos](pfavatar_pose-fusion_3d_personalized_avatar_reconstruction_from_real-world_outfi.md)**
+
+:   提出 PFAvatar，通过两阶段方法（姿态感知扩散模型微调 + NeRF蒸馏）从真实世界"每日穿搭"(OOTD)照片中重建高质量3D人物头像，在仅5分钟内完成个性化定制，较先前方法实现48倍加速。
 
 **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](physics-informed_deformable_gaussian_splatting_towards_unified_constitutive_laws.md)**
 
@@ -127,9 +199,21 @@
 
 :   提出 Point-SRA，通过 Dual Self-Representation Alignment（MAE 层 + MFT 层）和 MeanFlow 概率建模，利用不同 mask ratio 下表征的互补性来增强 3D 点云表征学习，在 ScanObjectNN 上超越 Point-MAE 达 5.59%。
 
+**[Point Cloud Quantization through Multimodal Prompting for 3D Understanding](point_cloud_quantization_through_multimodal_prompting_for_3d_understanding.md)**
+
+:   提出 PCQ（Point Cloud Quantization），利用预训练视觉-语言模型的文本嵌入作为语义原型，通过 Gumbel-Softmax 可微量化将连续点云特征离散化到文本原型空间，结合跨模态特征融合实现3D理解的显著提升。
+
+**[PressTrack-HMR: Pressure-Based Top-Down Multi-Person Global Human Mesh Recovery](presstrack-hmr_pressure-based_top-down_multi-person_global_human_mesh_recovery.md)**
+
+:   提出 PressTrack-HMR，首个仅基于压力信号实现多人全局人体网格恢复的自上而下流水线，通过创新的 UoE 相似度度量实现压力足迹跟踪（93.6% MOTA），并构建了首个多人交互压力数据集 MIP。
+
 **[Probfm Probabilistic Time Series Foundation Model With Uncertainty Decomposition](probfm_probabilistic_time_series_foundation_model_with_uncertainty_decomposition.md)**
 
 :   首次将 Deep Evidential Regression (DER) 与 Normal-Inverse-Gamma 先验引入时序基础模型架构，实现单次前向传播即可进行 epistemic-aleatoric 不确定性分解，并在加密货币预测中验证了不确定性感知交易策略的实用价值。
+
+**[RadarLLM: Empowering Large Language Models to Understand Human Motion from Millimeter-Wave Point Cloud Sequence](radarllm_empowering_large_language_models_to_understand_human_motion_from_millim.md)**
+
+:   提出 RadarLLM，首个利用大语言模型从毫米波雷达点云进行语义级人体运动理解的端到端框架，包含基于 Aggregate VQ-VAE 的运动引导雷达分词器和雷达感知语言模型，并通过物理感知仿真管线生成大规模雷达-文本配对数据。
 
 **[Real-Time 3D Object Detection with Inference-Aligned Learning](real-time_3d_object_detection_with_inference-aligned_learning.md)**
 

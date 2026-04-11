@@ -1,9 +1,9 @@
 # Latent Wasserstein Adversarial Imitation Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.05440](https://arxiv.org/abs/2603.05440)
-**代码**: [GitHub](https://github.com/JackyYang258/LWAIL)
-**领域**: 模仿学习/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.05440](https://arxiv.org/abs/2603.05440)  
+**代码**: [GitHub](https://github.com/JackyYang258/LWAIL)  
+**领域**: 模仿学习/强化学习  
 **关键词**: Wasserstein距离, ICVF, 动态感知嵌入, 状态观测模仿, 少样本
 
 ## 一句话总结

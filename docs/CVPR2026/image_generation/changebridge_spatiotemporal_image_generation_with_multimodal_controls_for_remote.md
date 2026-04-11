@@ -1,9 +1,9 @@
 # ChangeBridge: Spatiotemporal Image Generation with Multimodal Controls for Remote Sensing
 
-**会议**: CVPR 2026
-**arXiv**: [2507.04678](https://arxiv.org/abs/2507.04678)
-**代码**: [GitHub](https://github.com/zhenghuizhao/ChangeBridge) (有)
-**领域**: Image Generation
+**会议**: CVPR 2026  
+**arXiv**: [2507.04678](https://arxiv.org/abs/2507.04678)  
+**代码**: [GitHub](https://github.com/zhenghuizhao/ChangeBridge) (有)  
+**领域**: Image Generation  
 **关键词**: 遥感变化生成, 扩散桥模型, 时空图像生成, 多模态条件, 变化检测数据引擎
 
 ## 一句话总结
@@ -92,10 +92,10 @@
 - 价值: ⭐⭐⭐⭐⭐ 任务定义+方法创新+数据引擎三位一体
 # ChangeBridge: Spatiotemporal Image Generation with Multimodal Controls for Remote Sensing
 
-**会议**: CVPR 2026
-**arXiv**: [2507.04678](https://arxiv.org/abs/2507.04678)
-**代码**: https://github.com/zhenghuizhao/ChangeBridge (有)
-**领域**: 遥感 / 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2507.04678](https://arxiv.org/abs/2507.04678)  
+**代码**: https://github.com/zhenghuizhao/ChangeBridge (有)  
+**领域**: 遥感 / 图像生成  
 **关键词**: 时空图像生成, 扩散桥, 异步漂移, 变化检测, 遥感
 
 ## 一句话总结

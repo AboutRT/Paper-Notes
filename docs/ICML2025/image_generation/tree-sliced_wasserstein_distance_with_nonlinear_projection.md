@@ -1,9 +1,9 @@
 # Tree-Sliced Wasserstein Distance with Nonlinear Projection
 
-**会议**: ICML2025
-**arXiv**: [2505.00968](https://arxiv.org/abs/2505.00968)
-**代码**: [thanhqt2002/NonlinearTSW](https://github.com/thanhqt2002/NonlinearTSW)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2505.00968](https://arxiv.org/abs/2505.00968)  
+**代码**: [thanhqt2002/NonlinearTSW](https://github.com/thanhqt2002/NonlinearTSW)  
+**领域**: image_generation  
 **关键词**: 最优传输, Tree-Sliced Wasserstein距离, 非线性投影, Radon变换, 概率度量, 球面度量
 
 ## 一句话总结

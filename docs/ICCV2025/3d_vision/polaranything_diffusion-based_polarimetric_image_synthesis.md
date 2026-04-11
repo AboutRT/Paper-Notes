@@ -1,9 +1,9 @@
 # PolarAnything: Diffusion-based Polarimetric Image Synthesis
 
-**会议**: ICCV 2025
-**arXiv**: [2507.17268](https://arxiv.org/abs/2507.17268)
-**代码**: [项目主页](https://flzt11.github.io/PA_project/)
-**领域**: 3D视觉 / 偏振成像
+**会议**: ICCV 2025  
+**arXiv**: [2507.17268](https://arxiv.org/abs/2507.17268)  
+**代码**: [项目主页](https://flzt11.github.io/PA_project/)  
+**领域**: 3D视觉 / 偏振成像  
 **关键词**: 偏振图像合成, 扩散模型, AoLP, DoLP, Shape from Polarization, Stable Diffusion
 
 ## 一句话总结

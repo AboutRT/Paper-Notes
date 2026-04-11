@@ -9,10 +9,10 @@ domain: "others"
 
 # Decoding Reading Goals from Eye Movements
 
-**会议**: ACL 2025
+**会议**: ACL 2025  
 **作者**: Omer Shubi, Cfir Avraham Hadar, Yevgeni Berzak
 **机构**: Technion - Israel Institute of Technology; MIT
-**arXiv**: [2410.20779](https://arxiv.org/abs/2410.20779)
+**arXiv**: [2410.20779](https://arxiv.org/abs/2410.20779)  
 **领域**: 眼动追踪 / 阅读认知 / 多模态分类
 
 ---

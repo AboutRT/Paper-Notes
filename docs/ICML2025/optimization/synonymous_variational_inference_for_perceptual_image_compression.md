@@ -1,9 +1,9 @@
 # Synonymous Variational Inference for Perceptual Image Compression
 
-**会议**: ICML2025
-**arXiv**: [2505.22438](https://arxiv.org/abs/2505.22438)
-**代码**: 待确认
-**领域**: 图像压缩 / 感知质量优化
+**会议**: ICML2025  
+**arXiv**: [2505.22438](https://arxiv.org/abs/2505.22438)  
+**代码**: 待确认  
+**领域**: 图像压缩 / 感知质量优化  
 **关键词**: 同义变分推断, 感知图像压缩, 语义信息论, 率-失真-感知权衡, 渐进式编解码
 
 ## 一句话总结

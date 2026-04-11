@@ -1,9 +1,9 @@
 # Systematic Reward Gap Optimization for Mitigating VLM Hallucinations
 
-**会议**: NeurIPS 2025
-**arXiv**: [2411.17265](https://arxiv.org/abs/2411.17265)
-**代码**: https://tpr-dpo.github.io (有)
-**领域**: 多模态大模型 / VLM 幻觉缓解
+**会议**: NeurIPS 2025  
+**arXiv**: [2411.17265](https://arxiv.org/abs/2411.17265)  
+**代码**: https://tpr-dpo.github.io (有)  
+**领域**: 多模态大模型 / VLM 幻觉缓解  
 **关键词**: VLM 幻觉, DPO, 偏好学习, Topic-level Rewriting, 课程学习
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Bridging Embodiment Gaps: Deploying Vision-Language-Action Models on Soft Robots
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17369](https://arxiv.org/abs/2510.17369)
-**代码**: 有（开源数据集和代码）
-**领域**: 机器人 / 具身AI
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17369](https://arxiv.org/abs/2510.17369)  
+**代码**: 有（开源数据集和代码）  
+**领域**: 机器人 / 具身AI  
 **关键词**: VLA, soft robot, embodiment transfer, OpenVLA, π0, continuum manipulator
 
 ## 一句话总结

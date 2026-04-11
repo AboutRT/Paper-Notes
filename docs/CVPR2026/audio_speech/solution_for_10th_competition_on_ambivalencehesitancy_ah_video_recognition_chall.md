@@ -1,9 +1,9 @@
 # Solution for 10th Competition on Ambivalence/Hesitancy (AH) Video Recognition Challenge using Divergence-Based Multimodal Fusion
 
-**会议**: CVPR2026
-**arXiv**: [2603.16939](https://arxiv.org/abs/2603.16939)
+**会议**: CVPR2026  
+**arXiv**: [2603.16939](https://arxiv.org/abs/2603.16939)  
 **作者**: Aislan Gabriel O. Souza, Agostinho Freire, Leandro Honorato Silva 等 (Universidade de Pernambuco)
-**领域**: audio_speech
+**领域**: audio_speech  
 **关键词**: 多模态融合, 矛盾/犹豫识别, Action Units, 跨模态冲突, 情感计算
 
 ## 一句话总结

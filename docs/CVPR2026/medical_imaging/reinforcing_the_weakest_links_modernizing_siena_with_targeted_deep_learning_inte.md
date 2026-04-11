@@ -1,9 +1,9 @@
 # Reinforcing the Weakest Links: Modernizing SIENA with Targeted Deep Learning Integration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12951](https://arxiv.org/abs/2603.12951)
-**代码**: [GitHub](https://github.com/Raciti/Enhanced-SIENA)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.12951](https://arxiv.org/abs/2603.12951)  
+**代码**: [GitHub](https://github.com/Raciti/Enhanced-SIENA)  
+**领域**: 医学图像  
 **关键词**: 脑萎缩估计, SIENA, 颅骨剥离, 深度学习模块替换, 纵向MRI
 
 ## 一句话总结

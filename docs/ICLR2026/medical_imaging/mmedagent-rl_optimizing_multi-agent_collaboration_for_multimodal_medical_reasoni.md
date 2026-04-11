@@ -1,9 +1,9 @@
 # MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning
 
-**会议**: ICLR 2026
-**arXiv**: [2506.00555](https://arxiv.org/abs/2506.00555)
-**代码**: 无
-**领域**: 医学AI/多智能体
+**会议**: ICLR 2026  
+**arXiv**: [2506.00555](https://arxiv.org/abs/2506.00555)  
+**代码**: 无  
+**领域**: 医学AI/多智能体  
 **关键词**: 多智能体协作, 医学推理, GRPO, 课程学习, 分诊优化
 
 ## 一句话总结

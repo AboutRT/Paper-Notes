@@ -1,9 +1,9 @@
 # From Parameters to Behaviors: Unsupervised Compression of the Policy Space
 
-**会议**: ICLR 2026
-**arXiv**: [2509.22566](https://arxiv.org/abs/2509.22566)
-**代码**: 无
-**领域**: 强化学习/表示学习
+**会议**: ICLR 2026  
+**arXiv**: [2509.22566](https://arxiv.org/abs/2509.22566)  
+**代码**: 无  
+**领域**: 强化学习/表示学习  
 **关键词**: 策略空间压缩, 行为流形, 自编码器, 潜在空间优化, 无监督预训练
 
 ## 一句话总结

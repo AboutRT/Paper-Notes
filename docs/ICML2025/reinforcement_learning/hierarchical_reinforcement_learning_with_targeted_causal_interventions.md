@@ -1,9 +1,9 @@
 # Hierarchical Reinforcement Learning with Targeted Causal Interventions
 
-**会议**: ICML2025
-**arXiv**: [2507.04373](https://arxiv.org/abs/2507.04373)
-**代码**: [GitHub](https://github.com/sadegh16/HRC)
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2507.04373](https://arxiv.org/abs/2507.04373)  
+**代码**: [GitHub](https://github.com/sadegh16/HRC)  
+**领域**: reinforcement_learning  
 **关键词**: 层次强化学习, 因果发现, 子目标结构, 干预采样, 长时域稀疏奖励
 
 ## 一句话总结

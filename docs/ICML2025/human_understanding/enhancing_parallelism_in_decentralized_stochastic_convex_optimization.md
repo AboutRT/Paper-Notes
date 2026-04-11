@@ -1,9 +1,9 @@
 # Enhancing Parallelism in Decentralized Stochastic Convex Optimization
 
-**会议**: ICML2025
-**arXiv**: [2506.00961](https://arxiv.org/abs/2506.00961)
-**代码**: 无
-**领域**: 去中心化优化 / 分布式学习
+**会议**: ICML2025  
+**arXiv**: [2506.00961](https://arxiv.org/abs/2506.00961)  
+**代码**: 无  
+**领域**: 去中心化优化 / 分布式学习  
 **关键词**: 去中心化SGD, 随机凸优化, 并行度上界, gossip通信, Anytime SGD
 
 ## 一句话总结

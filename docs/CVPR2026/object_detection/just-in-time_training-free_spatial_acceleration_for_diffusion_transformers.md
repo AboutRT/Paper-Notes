@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers
 
-**会议**: CVPR2026
-**arXiv**: [2603.10744](https://arxiv.org/abs/2603.10744)
-**代码**: [项目主页](https://wenhao-sun77.github.io/JiT/)
-**领域**: 图像生成 / 扩散模型加速
+**会议**: CVPR2026  
+**arXiv**: [2603.10744](https://arxiv.org/abs/2603.10744)  
+**代码**: [项目主页](https://wenhao-sun77.github.io/JiT/)  
+**领域**: 图像生成 / 扩散模型加速  
 **关键词**: Diffusion Transformer, 空间加速, 免训练, Flow Matching, token稀疏化, ODE求解
 
 ## 一句话总结

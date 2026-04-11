@@ -1,9 +1,9 @@
 # ColaVLA: Leveraging Cognitive Latent Reasoning for Hierarchical Parallel Trajectory Planning in Autonomous Driving
 
-**会议**: CVPR 2026
-**arXiv**: [2512.22939](https://arxiv.org/abs/2512.22939)
-**代码**: [有](https://github.com/pqh22/ColaVLA)
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2512.22939](https://arxiv.org/abs/2512.22939)  
+**代码**: [有](https://github.com/pqh22/ColaVLA)  
+**领域**: 自动驾驶  
 **关键词**: 端到端自动驾驶, VLM推理, 潜空间推理, 多尺度轨迹规划, 视觉-语言-动作
 
 ## 一句话总结

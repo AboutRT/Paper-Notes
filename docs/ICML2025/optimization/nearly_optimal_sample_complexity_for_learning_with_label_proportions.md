@@ -1,9 +1,9 @@
 # Nearly Optimal Sample Complexity for Learning with Label Proportions
 
-**会议**: ICML 2025
-**arXiv**: [2505.05355](https://arxiv.org/abs/2505.05355)
-**代码**: 无
-**领域**: Optimization
+**会议**: ICML 2025  
+**arXiv**: [2505.05355](https://arxiv.org/abs/2505.05355)  
+**代码**: 无  
+**领域**: Optimization  
 **关键词**: learning from label proportions, sample complexity, ERM, SGD, variance reduction
 
 ## 一句话总结

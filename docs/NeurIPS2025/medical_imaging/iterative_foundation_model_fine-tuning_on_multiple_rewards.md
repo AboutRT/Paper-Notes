@@ -1,9 +1,9 @@
 # Iterative Foundation Model Fine-Tuning on Multiple Rewards
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.00220](https://arxiv.org/abs/2511.00220)
-**代码**: [GitHub](https://github.com/pouyamghari/IterativeRS) (有)
-**领域**: 医学影像 / 多目标强化学习微调
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.00220](https://arxiv.org/abs/2511.00220)  
+**代码**: [GitHub](https://github.com/pouyamghari/IterativeRS) (有)  
+**领域**: 医学影像 / 多目标强化学习微调  
 **关键词**: 多目标微调, 强化学习, 基础模型, 迭代合并, Rewarded Soups
 
 ## 一句话总结

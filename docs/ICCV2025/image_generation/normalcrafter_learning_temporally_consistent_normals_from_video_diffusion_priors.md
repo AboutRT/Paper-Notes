@@ -1,9 +1,9 @@
 # NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors
 
-**会议**: ICCV 2025
-**arXiv**: [2504.11427](https://arxiv.org/abs/2504.11427)
-**代码**: https://github.com/NormalCrafter (有)
-**领域**: 法线估计/视频理解
+**会议**: ICCV 2025  
+**arXiv**: [2504.11427](https://arxiv.org/abs/2504.11427)  
+**代码**: https://github.com/NormalCrafter (有)  
+**领域**: 法线估计/视频理解  
 **关键词**: 表面法线估计, 时序一致性, 视频扩散模型, 语义特征正则化, SVD
 
 ## 一句话总结

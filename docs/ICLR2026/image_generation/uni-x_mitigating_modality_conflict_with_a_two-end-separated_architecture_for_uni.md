@@ -1,9 +1,9 @@
 # Uni-X: Mitigating Modality Conflict with a Two-End-Separated Architecture for Unified Multimodal Models
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24365](https://arxiv.org/abs/2509.24365)
-**代码**: https://github.com/CURRENTF/Uni-X
-**领域**: 多模态统一模型
+**会议**: ICLR 2026  
+**arXiv**: [2509.24365](https://arxiv.org/abs/2509.24365)  
+**代码**: https://github.com/CURRENTF/Uni-X  
+**领域**: 多模态统一模型  
 **关键词**: 统一多模态模型, 梯度冲突, 模态分离, 自回归生成, 图像生成与理解
 
 ## 一句话总结

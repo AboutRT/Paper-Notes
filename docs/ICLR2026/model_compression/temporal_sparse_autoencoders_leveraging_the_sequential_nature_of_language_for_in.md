@@ -1,9 +1,9 @@
 # Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability
 
-**会议**: ICLR 2026
-**arXiv**: [2511.05541](https://arxiv.org/abs/2511.05541)
-**代码**: [github.com/AI4LIFE-GROUP/temporal-saes](https://github.com/AI4LIFE-GROUP/temporal-saes)
-**领域**: 模型压缩 / 可解释性
+**会议**: ICLR 2026  
+**arXiv**: [2511.05541](https://arxiv.org/abs/2511.05541)  
+**代码**: [github.com/AI4LIFE-GROUP/temporal-saes](https://github.com/AI4LIFE-GROUP/temporal-saes)  
+**领域**: 模型压缩 / 可解释性  
 **关键词**: 稀疏自编码器, 时间一致性, 语义解耦, 对比学习, 可解释性
 
 ## 一句话总结

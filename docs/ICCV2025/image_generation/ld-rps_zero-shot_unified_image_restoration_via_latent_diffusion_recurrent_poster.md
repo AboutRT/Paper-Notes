@@ -1,9 +1,9 @@
 # LD-RPS: Zero-Shot Unified Image Restoration via Latent Diffusion Recurrent Posterior Sampling
 
-**会议**: ICCV 2025
-**arXiv**: [2507.00790](https://arxiv.org/abs/2507.00790)
-**代码**: https://github.com/AMAP-ML/LD-RPS (有)
-**领域**: 图像复原/扩散模型
+**会议**: ICCV 2025  
+**arXiv**: [2507.00790](https://arxiv.org/abs/2507.00790)  
+**代码**: https://github.com/AMAP-ML/LD-RPS (有)  
+**领域**: 图像复原/扩散模型  
 **关键词**: 零样本图像复原, 后验采样, 潜在扩散, 循环精炼, 多模态先验
 
 ## 一句话总结

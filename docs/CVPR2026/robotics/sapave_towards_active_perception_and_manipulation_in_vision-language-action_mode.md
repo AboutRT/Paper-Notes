@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics
 
-**会议**: CVPR2026
-**arXiv**: [2603.12193](https://arxiv.org/abs/2603.12193)
-**代码**: [项目主页](https://lmzpai.github.io/SaPaVe)
-**领域**: 机器人 (Robotics)
+**会议**: CVPR2026  
+**arXiv**: [2603.12193](https://arxiv.org/abs/2603.12193)  
+**代码**: [项目主页](https://lmzpai.github.io/SaPaVe)  
+**领域**: 机器人 (Robotics)  
 **关键词**: 主动感知, 主动操控, Vision-Language-Action, 语义相机控制, 解耦动作空间, 3D空间感知
 
 ## 一句话总结

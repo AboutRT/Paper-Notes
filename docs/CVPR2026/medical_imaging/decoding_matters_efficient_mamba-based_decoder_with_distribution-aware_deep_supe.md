@@ -1,9 +1,9 @@
 # Decoding Matters: Efficient Mamba-Based Decoder with Distribution-Aware Deep Supervision for Medical Image Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12547](https://arxiv.org/abs/2603.12547)
-**代码**: 待发布（接收后公开）
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.12547](https://arxiv.org/abs/2603.12547)  
+**代码**: 待发布（接收后公开）  
+**领域**: 医学图像  
 **关键词**: 医学图像分割, Mamba, 解码器设计, 深度监督, KL散度
 
 ## 一句话总结

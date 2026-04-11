@@ -1,9 +1,9 @@
 # Neural Synchrony Between Socially Interacting Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.17815](https://arxiv.org/abs/2602.17815)
-**代码**: [zzn-nzz/LM_neural_synchrony](https://github.com/zzn-nzz/LM_neural_synchrony)
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2602.17815](https://arxiv.org/abs/2602.17815)  
+**代码**: [zzn-nzz/LM_neural_synchrony](https://github.com/zzn-nzz/LM_neural_synchrony)  
+**领域**: llm_nlp  
 **关键词**: 神经同步, 社会交互, LLM表征分析, 多Agent系统, 脑间同步类比, 可预测性
 
 ## 一句话总结

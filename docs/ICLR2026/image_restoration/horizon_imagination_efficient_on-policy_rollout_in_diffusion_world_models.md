@@ -1,9 +1,9 @@
 # Horizon Imagination: Efficient On-Policy Rollout in Diffusion World Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.08032](https://arxiv.org/abs/2602.08032)
-**代码**: [GitHub](https://github.com/leor-c/horizon-imagination)
-**领域**: 世界模型/强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.08032](https://arxiv.org/abs/2602.08032)  
+**代码**: [GitHub](https://github.com/leor-c/horizon-imagination)  
+**领域**: 世界模型/强化学习  
 **关键词**: 扩散世界模型, 并行去噪, 想象效率, 采样调度, 离散策略
 
 ## 一句话总结

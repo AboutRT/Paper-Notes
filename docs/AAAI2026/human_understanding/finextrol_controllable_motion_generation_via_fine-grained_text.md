@@ -21,6 +21,7 @@
 如何用文本（而非坐标）作为控制信号，实现对人体动作在时空两个维度上的精细控制，同时保持用户友好性和计算效率？
 
 ## 方法详解
+
 ### 整体框架
 采用 ControlNet 范式的双分支 diffusion 结构：
 - **下分支**：冻结的 MDM（Motion Diffusion Model），从粗粒度文本 $\boldsymbol{p}$ 生成 motion

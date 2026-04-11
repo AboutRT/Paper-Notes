@@ -1,9 +1,9 @@
 # Toward Complex-Valued Neural Networks for Waveform Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2603.11589](https://arxiv.org/abs/2603.11589)
-**代码**: https://hs-oh-prml.github.io/ComVo/
-**领域**: 语音合成 / 声码器
+**会议**: ICLR 2026  
+**arXiv**: [2603.11589](https://arxiv.org/abs/2603.11589)  
+**代码**: https://hs-oh-prml.github.io/ComVo/  
+**领域**: 语音合成 / 声码器  
 **关键词**: 复值神经网络, iSTFT声码器, 相位量化, GAN, 波形生成
 
 ## 一句话总结

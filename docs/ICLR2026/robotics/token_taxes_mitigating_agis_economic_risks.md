@@ -1,9 +1,9 @@
 # Token Taxes: Mitigating AGI's Economic Risks
 
-**会议**: ICLR 2026
-**arXiv**: [2603.04555](https://arxiv.org/abs/2603.04555)
-**代码**: 无
-**领域**: AI治理 / 计算经济学
+**会议**: ICLR 2026  
+**arXiv**: [2603.04555](https://arxiv.org/abs/2603.04555)  
+**代码**: 无  
+**领域**: AI治理 / 计算经济学  
 **关键词**: AGI治理, Token税, 机器人税, 计算治理, 经济风险
 
 ## 一句话总结

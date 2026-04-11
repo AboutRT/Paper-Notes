@@ -1,9 +1,9 @@
 # Targeted Unlearning with Single Layer Unlearning Gradient
 
-**会议**: ICML 2025
-**arXiv**: [2407.11867](https://arxiv.org/abs/2407.11867)
-**代码**: [github.com/CSIPlab/SLUG](https://github.com/CSIPlab/SLUG)
-**领域**: 机器遗忘, 多模态基础模型, 可信AI
+**会议**: ICML 2025  
+**arXiv**: [2407.11867](https://arxiv.org/abs/2407.11867)  
+**代码**: [github.com/CSIPlab/SLUG](https://github.com/CSIPlab/SLUG)  
+**领域**: 机器遗忘, 多模态基础模型, 可信AI  
 **关键词**: Machine Unlearning, CLIP, Stable Diffusion, VLM, Single Layer Update, 隐私保护
 
 ## 一句话总结

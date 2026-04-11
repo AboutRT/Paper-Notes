@@ -1,8 +1,8 @@
 # Self-Organizing Visual Prototypes for Non-Parametric Representation Learning
 
-**会议**: ICML 2025
-**arXiv**: [2505.21533](https://arxiv.org/abs/2505.21533)
-**领域**: 目标检测
+**会议**: ICML 2025  
+**arXiv**: [2505.21533](https://arxiv.org/abs/2505.21533)  
+**领域**: 目标检测  
 **关键词**: 自监督学习, 非参数化原型, 支持嵌入, 表征学习, 掩码图像建模, Vision Transformer
 
 ## 一句话总结

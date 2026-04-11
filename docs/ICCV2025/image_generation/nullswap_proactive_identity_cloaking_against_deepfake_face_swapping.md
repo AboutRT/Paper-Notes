@@ -1,9 +1,9 @@
 # NullSwap: Proactive Identity Cloaking Against Deepfake Face Swapping
 
-**会议**: ICCV2025
-**arXiv**: [2503.18678](https://arxiv.org/abs/2503.18678)
-**代码**: 未开源
-**领域**: image_generation
+**会议**: ICCV2025  
+**arXiv**: [2503.18678](https://arxiv.org/abs/2503.18678)  
+**代码**: 未开源  
+**领域**: image_generation  
 **关键词**: Deepfake防御, 人脸换脸, 主动扰动, 身份伪装, 对抗扰动, 黑盒防御
 
 ## 一句话总结

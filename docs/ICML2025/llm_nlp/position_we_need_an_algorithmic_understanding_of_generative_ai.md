@@ -1,9 +1,9 @@
 # Position: We Need An Algorithmic Understanding of Generative AI
 
-**会议**: ICML 2025
-**arXiv**: [2507.07544](https://arxiv.org/abs/2507.07544)
-**代码**: 无（立场论文）
-**领域**: llm_nlp
+**会议**: ICML 2025  
+**arXiv**: [2507.07544](https://arxiv.org/abs/2507.07544)  
+**代码**: 无（立场论文）  
+**领域**: llm_nlp  
 **关键词**: 算法理解, 可解释性, 机制解释性, 算法原语, LLM, 图搜索, 推理时计算, AlgEval
 
 ## 一句话总结

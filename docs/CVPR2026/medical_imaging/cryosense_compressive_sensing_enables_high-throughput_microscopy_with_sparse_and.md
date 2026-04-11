@@ -1,9 +1,9 @@
 # cryoSENSE: Compressive Sensing Enables High-throughput Microscopy with Sparse and Generative Priors on the Protein Cryo-EM Image Manifold
 
-**会议**: CVPR 2026
-**arXiv**: [2511.12931](https://arxiv.org/abs/2511.12931)
-**代码**: [https://cryosense.github.io](https://cryosense.github.io) (有)
-**领域**: 医学图像分析 / 冷冻电镜
+**会议**: CVPR 2026  
+**arXiv**: [2511.12931](https://arxiv.org/abs/2511.12931)  
+**代码**: [https://cryosense.github.io](https://cryosense.github.io) (有)  
+**领域**: 医学图像分析 / 冷冻电镜  
 **关键词**: 冷冻电镜, 压缩感知, 扩散模型, 稀疏先验, 高通量显微镜
 
 ## 一句话总结

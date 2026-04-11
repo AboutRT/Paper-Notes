@@ -1,9 +1,9 @@
 # Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation
 
-**会议**: ACL2025
-**arXiv**: [2412.14050](https://arxiv.org/abs/2412.14050)
-**代码**: [GitHub](https://github.com/Veranep/crosslingualdetoxdebias)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2412.14050](https://arxiv.org/abs/2412.14050)  
+**代码**: [GitHub](https://github.com/Veranep/crosslingualdetoxdebias)  
+**领域**: llm_nlp  
 **关键词**: 跨语言迁移, 去偏见, 去毒化, 多语言LLM, DPO, 监督微调
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Improving Perturbation-based Explanations by Understanding the Role of Uncertainty Calibration
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.10439](https://arxiv.org/abs/2511.10439)
-**代码**: [GitHub](https://github.com/thomdeck/recalx)
-**领域**: llm_efficiency
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.10439](https://arxiv.org/abs/2511.10439)  
+**代码**: [GitHub](https://github.com/thomdeck/recalx)  
+**领域**: llm_efficiency  
 **关键词**: 可解释性, 扰动解释方法, 不确定性校准, ReCalX, Shapley值, LIME, 温度缩放
 
 ## 一句话总结

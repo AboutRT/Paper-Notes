@@ -1,8 +1,8 @@
 # The Expressive Limits of Diagonal SSMs for State-Tracking
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01959](https://arxiv.org/abs/2603.01959)
-**领域**: 序列建模/理论
+**会议**: ICLR 2026  
+**arXiv**: [2603.01959](https://arxiv.org/abs/2603.01959)  
+**领域**: 序列建模/理论  
 **关键词**: 状态空间模型, 表达能力, 群状态追踪, 对角SSM, 可解性
 
 ## 一句话总结

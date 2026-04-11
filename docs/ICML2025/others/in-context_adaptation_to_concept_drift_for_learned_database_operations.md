@@ -1,11 +1,11 @@
 # In-Context Adaptation to Concept Drift for Learned Database Operations
 
-**会议**: ICML2025
-**arXiv**: [2505.04404](https://arxiv.org/abs/2505.04404)
+**会议**: ICML2025  
+**arXiv**: [2505.04404](https://arxiv.org/abs/2505.04404)  
 **作者**: Jiaqi Zhu, Shaofeng Cai, Yanyan Shen, Gang Chen, Fang Deng, Beng Chin Ooi
 **机构**: 北京理工大学、新加坡国立大学、上海交通大学、浙江大学
-**代码**: 待确认
-**领域**: others
+**代码**: 待确认  
+**领域**: others  
 **关键词**: Concept Drift, In-Context Learning, Learned Database Operations, Online Adaptation, Bayesian Meta-Training
 
 ## 一句话总结

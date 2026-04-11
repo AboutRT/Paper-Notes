@@ -1,9 +1,9 @@
 # LLM-SRBench: A New Benchmark for Scientific Equation Discovery with LLMs
 
-**会议**: ICML2025
-**arXiv**: [2504.10415](https://arxiv.org/abs/2504.10415)
-**代码**: [GitHub - LLM-SRBench](https://github.com/deep-symbolic-mathematics/llm-srbench)
-**领域**: llm_nlp
+**会议**: ICML2025  
+**arXiv**: [2504.10415](https://arxiv.org/abs/2504.10415)  
+**代码**: [GitHub - LLM-SRBench](https://github.com/deep-symbolic-mathematics/llm-srbench)  
+**领域**: llm_nlp  
 **关键词**: 符号回归, 科学方程发现, LLM基准, 记忆化防止, 方程变换
 
 ## 一句话总结

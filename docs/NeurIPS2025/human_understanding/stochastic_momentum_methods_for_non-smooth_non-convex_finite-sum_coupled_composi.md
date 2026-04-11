@@ -1,10 +1,10 @@
 # Stochastic Momentum Methods for Non-smooth Non-Convex Finite-Sum Coupled Compositional Optimization
 
-**会议**: NeurIPS2025
-**arXiv**: [2506.02504](https://arxiv.org/abs/2506.02504)
+**会议**: NeurIPS2025  
+**arXiv**: [2506.02504](https://arxiv.org/abs/2506.02504)  
 **作者**: Xingyu Chen, Bokun Wang, Ming Yang, Qihang Lin, Tianbao Yang (Texas A&M, Iowa)
-**代码**: 待确认
-**领域**: human_understanding
+**代码**: 待确认  
+**领域**: human_understanding  
 **关键词**: FCCO, 非光滑非凸优化, 随机动量法, Moreau 包络, 约束优化, 复合优化
 
 ## 一句话总结

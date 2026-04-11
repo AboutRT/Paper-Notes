@@ -1,9 +1,9 @@
 # Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization
 
-**会议**: ICLR 2026
-**arXiv**: [2504.02996](https://arxiv.org/abs/2504.02996)
-**代码**: [GitHub](https://github.com/SunnySiqi/Noise-Aware-Generalization)
-**领域**: 鲁棒学习/域泛化
+**会议**: ICLR 2026  
+**arXiv**: [2504.02996](https://arxiv.org/abs/2504.02996)  
+**代码**: [GitHub](https://github.com/SunnySiqi/Noise-Aware-Generalization)  
+**领域**: 鲁棒学习/域泛化  
 **关键词**: 噪声感知泛化, 标签噪声, 域泛化, 跨域噪声检测, DL4ND
 
 ## 一句话总结

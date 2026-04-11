@@ -1,9 +1,9 @@
 # Nonparametric Teaching for Graph Property Learners
 
-**会议**: ICML2025
-**arXiv**: [2505.14170](https://arxiv.org/abs/2505.14170)
-**代码**: [项目主页](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/grant.html)
-**领域**: 优化 / 图学习
+**会议**: ICML2025  
+**arXiv**: [2505.14170](https://arxiv.org/abs/2505.14170)  
+**代码**: [项目主页](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/grant.html)  
+**领域**: 优化 / 图学习  
 **关键词**: 非参数教学, 图卷积网络, 训练效率, 图神经切线核, 贪心样本选择
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Are LLMs Prescient? A Continuous Evaluation using Daily News as the Oracle
 
-**会议**: ICML 2025
-**arXiv**: [2411.08324](https://arxiv.org/abs/2411.08324)
-**代码**: https://agenticlearning.ai/daily-oracle
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2411.08324](https://arxiv.org/abs/2411.08324)  
+**代码**: https://agenticlearning.ai/daily-oracle  
+**领域**: 时间序列  
 **关键词**: LLM评估, 持续评估, 新闻预测, 时间泛化, 知识过时
 
 ## 一句话总结

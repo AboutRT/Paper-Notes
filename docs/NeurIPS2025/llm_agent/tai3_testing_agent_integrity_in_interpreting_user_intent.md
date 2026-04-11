@@ -1,9 +1,9 @@
 # TAI3: Testing Agent Integrity in Interpreting User Intent
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.07524](https://arxiv.org/abs/2506.07524)
-**代码**: 无
-**领域**: LLM Agent / AI Safety
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.07524](https://arxiv.org/abs/2506.07524)  
+**代码**: 无  
+**领域**: LLM Agent / AI Safety  
 **关键词**: Agent 测试, 意图完整性, 等价类划分, 压力测试, API 调用
 
 ## 一句话总结

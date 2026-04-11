@@ -1,9 +1,9 @@
 # Tokenizing Single-Channel EEG with Time-Frequency Motif Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2502.16060](https://arxiv.org/abs/2502.16060)
-**代码**: [https://github.com/Jathurshan0330/TFM-Tokenizer](https://github.com/Jathurshan0330/TFM-Tokenizer)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2502.16060](https://arxiv.org/abs/2502.16060)  
+**代码**: [https://github.com/Jathurshan0330/TFM-Tokenizer](https://github.com/Jathurshan0330/TFM-Tokenizer)  
+**领域**: 模型压缩  
 **关键词**: EEG 信号分析, 离散化 tokenization, 时频 motif, 向量量化, 基础模型
 
 ## 一句话总结

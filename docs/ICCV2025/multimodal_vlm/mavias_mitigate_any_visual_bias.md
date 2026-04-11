@@ -1,9 +1,9 @@
 # MAVias: Mitigate Any Visual Bias
 
-**会议**: ICCV2025
-**arXiv**: [2412.06632](https://arxiv.org/abs/2412.06632)
-**代码**: https://github.com/gsarridis/VB-Mitigator (VB-Mitigator library)
-**领域**: 多模态VLM / 偏差缓解
+**会议**: ICCV2025  
+**arXiv**: [2412.06632](https://arxiv.org/abs/2412.06632)  
+**代码**: https://github.com/gsarridis/VB-Mitigator (VB-Mitigator library)  
+**领域**: 多模态VLM / 偏差缓解  
 **关键词**: Visual Bias Mitigation, Open-Set Bias, Foundation Models, Vision-Language Models, Fairness
 
 ## 一句话总结

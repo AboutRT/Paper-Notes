@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Continual Learning with Vision-Language Models via Semantic-Geometry Preservation
 
-**会议**: CVPR2026
-**arXiv**: [2603.12055](https://arxiv.org/abs/2603.12055)
-**代码**: 待确认
-**领域**: multimodal_vlm
+**会议**: CVPR2026  
+**arXiv**: [2603.12055](https://arxiv.org/abs/2603.12055)  
+**代码**: 待确认  
+**领域**: multimodal_vlm  
 **关键词**: 持续学习, 视觉语言模型, 语义几何保持, 对抗锚点, 跨模态蒸馏, CLIP, 无样本回放
 
 ## 一句话总结

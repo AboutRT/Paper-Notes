@@ -1,9 +1,9 @@
 # TimeSliver: Symbolic-Linear Decomposition for Explainable Time Series Classification
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21289](https://arxiv.org/abs/2601.21289)
-**代码**: [GitHub](https://github.com/pandeyakash23/TimeSliver)
-**领域**: 时间序列/可解释性
+**会议**: ICLR 2026  
+**arXiv**: [2601.21289](https://arxiv.org/abs/2601.21289)  
+**代码**: [GitHub](https://github.com/pandeyakash23/TimeSliver)  
+**领域**: 时间序列/可解释性  
 **关键词**: 时间归因, 符号抽象, 线性组合, 可解释分类, 正负归因
 
 ## 一句话总结

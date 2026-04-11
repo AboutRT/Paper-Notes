@@ -1,9 +1,9 @@
 # BECAME: BayEsian Continual Learning with Adaptive Model MErging
 
-**会议**: ICML 2025
-**arXiv**: [2504.02666](https://arxiv.org/abs/2504.02666)
-**代码**: https://github.com/limei0818/BECAME
-**领域**: 持续学习
+**会议**: ICML 2025  
+**arXiv**: [2504.02666](https://arxiv.org/abs/2504.02666)  
+**代码**: https://github.com/limei0818/BECAME  
+**领域**: 持续学习  
 **关键词**: 持续学习, 模型融合, 贝叶斯学习, 梯度投影, 稳定性-可塑性平衡
 
 ## 一句话总结

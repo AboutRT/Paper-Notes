@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CodePercept: Code-Grounded Visual STEM Perception for MLLMs
 
-**会议**: CVPR2026
-**arXiv**: [2603.10757](https://arxiv.org/abs/2603.10757)
-**代码**: [TongkunGuan/Qwen-CodePercept](https://github.com/TongkunGuan/Qwen-CodePercept)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2603.10757](https://arxiv.org/abs/2603.10757)  
+**代码**: [TongkunGuan/Qwen-CodePercept](https://github.com/TongkunGuan/Qwen-CodePercept)  
+**领域**: 多模态VLM  
 **关键词**: STEM视觉感知, 可执行代码, 图像重建, 代码锚定字幕, 多模态大模型, 感知增强
 
 ## 一句话总结

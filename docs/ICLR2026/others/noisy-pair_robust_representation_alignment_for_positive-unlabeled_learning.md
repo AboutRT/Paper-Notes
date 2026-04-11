@@ -1,9 +1,9 @@
 # Noisy-Pair Robust Representation Alignment for Positive-Unlabeled Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2510.01278](https://arxiv.org/abs/2510.01278)
-**代码**: https://github.com/Hengwei-Zhao96/NcPU
-**领域**: 其他 / 半监督学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.01278](https://arxiv.org/abs/2510.01278)  
+**代码**: https://github.com/Hengwei-Zhao96/NcPU  
+**领域**: 其他 / 半监督学习  
 **关键词**: PU学习, 非对比表示学习, 噪声对鲁棒, 伪标签消歧, EM框架
 
 ## 一句话总结

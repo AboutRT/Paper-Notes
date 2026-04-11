@@ -1,9 +1,9 @@
 # Sparse Task Vector Mixup with Hypernetworks for Efficient Knowledge Transfer in Whole-Slide Image Prognosis
 
-**会议**: CVPR2026
-**arXiv**: [2603.10526](https://arxiv.org/abs/2603.10526)
-**代码**: [liupei101/STEPH](https://github.com/liupei101/STEPH)
-**领域**: 医学图像
+**会议**: CVPR2026  
+**arXiv**: [2603.10526](https://arxiv.org/abs/2603.10526)  
+**代码**: [liupei101/STEPH](https://github.com/liupei101/STEPH)  
+**领域**: 医学图像  
 **关键词**: 全切片图像 (WSI), 生存分析, 模型融合, 任务向量, 超网络, 跨癌种知识迁移
 
 ## 一句话总结

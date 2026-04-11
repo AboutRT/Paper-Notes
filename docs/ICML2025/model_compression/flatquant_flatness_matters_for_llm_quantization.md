@@ -1,9 +1,9 @@
 # FlatQuant: Flatness Matters for LLM Quantization
 
-**会议**: ICML2025
-**arXiv**: [2410.09426](https://arxiv.org/abs/2410.09426)
-**代码**: [ruikangliu/FlatQuant](https://github.com/ruikangliu/FlatQuant)
-**领域**: LLM量化 / 模型压缩
+**会议**: ICML2025  
+**arXiv**: [2410.09426](https://arxiv.org/abs/2410.09426)  
+**代码**: [ruikangliu/FlatQuant](https://github.com/ruikangliu/FlatQuant)  
+**领域**: LLM量化 / 模型压缩  
 **关键词**: post-training quantization, affine transformation, Kronecker product, W4A4, flatness
 
 ## 一句话总结

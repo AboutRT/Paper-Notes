@@ -1,9 +1,9 @@
 # Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery
 
-**会议**: ICML 2025 (Workshop on Machine Learning for Astrophysics)
-**arXiv**: [2507.07257](https://arxiv.org/abs/2507.07257)
-**代码**: https://github.com/CMBAgents/cmbagent (开源)
-**领域**: LLM Agent
+**会议**: ICML 2025 (Workshop on Machine Learning for Astrophysics)  
+**arXiv**: [2507.07257](https://arxiv.org/abs/2507.07257)  
+**代码**: https://github.com/CMBAgents/cmbagent (开源)  
+**领域**: LLM Agent  
 **关键词**: 多智能体系统, 科研自动化, Planning & Control, 宇宙学, LLM Agent, 自主科学发现
 
 ## 一句话总结

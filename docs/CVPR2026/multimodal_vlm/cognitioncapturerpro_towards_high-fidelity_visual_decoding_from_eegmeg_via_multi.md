@@ -1,9 +1,9 @@
 # CognitionCapturerPro: Towards High-Fidelity Visual Decoding from EEG/MEG via Multi-modal Information and Asymmetric Alignment
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12722](https://arxiv.org/abs/2603.12722)
-**代码**: 暂无（论文称发表后公开）
-**领域**: 脑信号解码 / 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.12722](https://arxiv.org/abs/2603.12722)  
+**代码**: 暂无（论文称发表后公开）  
+**领域**: 脑信号解码 / 图像生成  
 **关键词**: EEG解码, 多模态融合, 视觉重建, 对比学习, 扩散模型
 
 ## 一句话总结

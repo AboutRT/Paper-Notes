@@ -1,9 +1,9 @@
 # Breaking the Modality Barrier: Generative Modeling for Accurate Molecule Retrieval from Mass Spectra
 
-**会议**: AAAI 2026
-**arXiv**: [2511.06259](https://arxiv.org/abs/2511.06259)
-**代码**: 无
-**领域**: 跨模态检索 / 生成式语言模型
+**会议**: AAAI 2026  
+**arXiv**: [2511.06259](https://arxiv.org/abs/2511.06259)  
+**代码**: 无  
+**领域**: 跨模态检索 / 生成式语言模型  
 **关键词**: 质谱分析, 分子检索, 跨模态对齐, 生成式检索, 对比学习
 
 ## 一句话总结

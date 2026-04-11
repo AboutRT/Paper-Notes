@@ -1,9 +1,9 @@
 # Dissecting Chronos: Sparse Autoencoders Reveal Causal Feature Hierarchies in Time Series Foundation Models
 
-**会议**: ICLR 2026
-**arXiv**: [2603.10071](https://arxiv.org/abs/2603.10071)
-**代码**: 未开源
-**领域**: 时间序列 / 可解释性
+**会议**: ICLR 2026  
+**arXiv**: [2603.10071](https://arxiv.org/abs/2603.10071)  
+**代码**: 未开源  
+**领域**: 时间序列 / 可解释性  
 **关键词**: Sparse Autoencoder, Time Series Foundation Model, Mechanistic Interpretability, Chronos-T5, Causal Ablation, Feature Hierarchy
 
 ## 一句话总结

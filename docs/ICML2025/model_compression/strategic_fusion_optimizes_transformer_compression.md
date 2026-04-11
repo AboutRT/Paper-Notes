@@ -1,9 +1,9 @@
 # Strategic Fusion Optimizes Transformer Compression
 
-**会议**: ICML2025
-**arXiv**: [2501.03273](https://arxiv.org/abs/2501.03273)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICML2025  
+**arXiv**: [2501.03273](https://arxiv.org/abs/2501.03273)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: Transformer压缩, 层剪枝, 知识蒸馏, 信号融合, 随机森林
 
 ## 一句话总结

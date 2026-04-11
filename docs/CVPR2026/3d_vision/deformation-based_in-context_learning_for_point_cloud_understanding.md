@@ -1,9 +1,9 @@
 # Deformation-based In-Context Learning for Point Cloud Understanding
 
-**会议**: CVPR 2026
-**arXiv**: [2604.02845](https://arxiv.org/abs/2604.02845)
-**代码**: [链接](https://github.com/linchengxing/DeformPIC) (有)
-**领域**: 3D Vision
+**会议**: CVPR 2026  
+**arXiv**: [2604.02845](https://arxiv.org/abs/2604.02845)  
+**代码**: [链接](https://github.com/linchengxing/DeformPIC) (有)  
+**领域**: 3D Vision  
 **关键词**: 点云上下文学习, 形变网络, 几何推理, 掩码点建模, 多任务通用模型
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心 idea**: 从 prompt 对中提取任务特定的形变信息（DEN），再将其迁移应用到查询点云上（DTN）。
 
 ## 方法详解
+
 ### 整体框架
 双网络架构：DEN 从 prompt input→target 对中提取任务 token $\hat{T}_{\text{task}}$；DTN 在 $\hat{T}_{\text{task}}$ 的 AdaLN-Zero 调制下对查询输入做形变。
 
@@ -35,6 +36,7 @@
 - AdamW + cosine decay，lr warmup 10 epochs，总训练 300 epochs，batch size 128
 
 ## 实验关键数据
+
 ### 主实验（ShapeNet In-Context Dataset, Chamfer Distance ×1000 ↓）
 | 方法 | 重建 Avg | 去噪 Avg | 配准 Avg | 分割 mIoU↑ |
 |------|---------|---------|---------|-----------|

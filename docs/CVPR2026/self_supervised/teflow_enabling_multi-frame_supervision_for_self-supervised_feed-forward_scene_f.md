@@ -1,9 +1,9 @@
 # TeFlow: Enabling Multi-frame Supervision for Self-Supervised Feed-forward Scene Flow Estimation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19053](https://arxiv.org/abs/2602.19053)
-**代码**: 待确认
-**领域**: 自监督学习
+**会议**: CVPR 2026  
+**arXiv**: [2602.19053](https://arxiv.org/abs/2602.19053)  
+**代码**: 待确认  
+**领域**: 自监督学习  
 **关键词**: 场景流, 自监督, 多帧监督, 前馈网络, 点云
 
 ## 一句话总结

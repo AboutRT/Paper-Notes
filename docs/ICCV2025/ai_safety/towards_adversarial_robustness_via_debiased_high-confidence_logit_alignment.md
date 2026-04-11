@@ -1,10 +1,10 @@
 # Towards Adversarial Robustness via Debiased High-Confidence Logit Alignment
 
-**会议**: ICCV 2025
-**arXiv**: [2408.06079](https://arxiv.org/abs/2408.06079)
-**代码**: [KejiaZhang-Robust/DHAT](https://github.com/KejiaZhang-Robust/DHAT)
+**会议**: ICCV 2025  
+**arXiv**: [2408.06079](https://arxiv.org/abs/2408.06079)  
+**代码**: [KejiaZhang-Robust/DHAT](https://github.com/KejiaZhang-Robust/DHAT)  
 **作者**: Kejia Zhang, Juanjuan Weng, Shaozi Li, Zhiming Luo (厦门大学, 暨南大学)
-**领域**: ai_safety
+**领域**: ai_safety  
 **关键词**: 对抗训练, 对抗鲁棒性, 逆向对抗攻击, 虚假相关性, logit 对齐, 去偏, 注意力偏移
 
 ## 一句话总结

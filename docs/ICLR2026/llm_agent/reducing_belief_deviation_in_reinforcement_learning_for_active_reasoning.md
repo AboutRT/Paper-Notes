@@ -5,6 +5,7 @@
 **代码**: https://github.com/unimpor/T3  
 **领域**: 视频理解  
 **关键词**: active reasoning, reinforcement learning, LLM agent, belief tracking, POMDP, credit assignment  
+
 ## 一句话总结
 
 提出 T³（Truncating Belief-Trapped Trajectories），基于 POMDP 理论分析 LLM 智能体在多轮主动推理中的"信念陷阱"现象，通过检测信念偏离并截断无信息尾部轨迹来修正 RL 训练中的信用分配错误，在 5 个挑战性任务上获得最高 30 分的性能提升并节省 34% 的 token 开销。

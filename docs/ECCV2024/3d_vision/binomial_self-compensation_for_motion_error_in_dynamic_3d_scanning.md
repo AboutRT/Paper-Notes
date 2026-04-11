@@ -1,9 +1,9 @@
 # Binomial Self-compensation for Motion Error in Dynamic 3D Scanning
 
-**会议**: ECCV 2024
-**arXiv**: [2404.06693](https://arxiv.org/abs/2404.06693)
-**代码**: [有](https://github.com/GeyouZhang/BSC)
-**领域**: 3D视觉
+**会议**: ECCV 2024  
+**arXiv**: [2404.06693](https://arxiv.org/abs/2404.06693)  
+**代码**: [有](https://github.com/GeyouZhang/BSC)  
+**领域**: 3D视觉  
 **关键词**: 相位移轮廓术, 动态3D扫描, 运动误差补偿, 二项式自补偿, 结构光
 
 ## 一句话总结

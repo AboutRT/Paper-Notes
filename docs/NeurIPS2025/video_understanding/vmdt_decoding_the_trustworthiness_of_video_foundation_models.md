@@ -1,9 +1,9 @@
 # VMDT: Decoding the Trustworthiness of Video Foundation Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.05682](https://arxiv.org/abs/2511.05682)
-**代码**: [有](https://sunblaze-ucb.github.io/VMDT-page/)
-**领域**: video_understanding
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.05682](https://arxiv.org/abs/2511.05682)  
+**代码**: [有](https://sunblaze-ucb.github.io/VMDT-page/)  
+**领域**: video_understanding  
 **关键词**: 视频基础模型, 可信度评估, 安全性, 公平性, 对抗鲁棒性
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 将视频模型可信度分解为安全、幻觉、公平、隐私、对抗鲁棒性五个正交维度，分别构建数据集和评估方法，形成统一的评测平台。
 
 ## 方法详解
+
 ### 整体框架
 VMDT 平台评估两类模型：T2V（文本到视频，7 个模型）和 V2T（视频到文本，19 个模型），在五个可信度维度上分别设计数据集和评估指标。每个维度均考虑视频模态的独特特性。
 
@@ -56,6 +57,7 @@ VMDT 平台评估两类模型：T2V（文本到视频，7 个模型）和 V2T（
 本文为评估性工作（benchmark），不涉及模型训练。评估流程：对每个维度构建数据集 → 模型推理生成输出 → 自动化评估（GPT-4o 或关键词匹配）→ 汇总分析。
 
 ## 实验关键数据
+
 ### 主实验
 
 **T2V 安全性（HGR，越低越安全）**:

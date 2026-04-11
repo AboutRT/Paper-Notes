@@ -1,9 +1,9 @@
 # HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2502.11393](https://arxiv.org/abs/2502.11393)
-**代码**: 无
-**领域**: LLM NLP
+**会议**: ACL 2025  
+**arXiv**: [2502.11393](https://arxiv.org/abs/2502.11393)  
+**代码**: 无  
+**领域**: LLM NLP  
 **关键词**: 常识推理, 鲁棒性评估, 双语基准, 问题变体, HellaSwag
 
 ## 一句话总结

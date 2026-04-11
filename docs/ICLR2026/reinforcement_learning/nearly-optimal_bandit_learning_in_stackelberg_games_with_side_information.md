@@ -1,9 +1,9 @@
 # Nearly-Optimal Bandit Learning in Stackelberg Games with Side Information
 
-**会议**: ICLR 2026
-**arXiv**: [2502.00204](https://arxiv.org/abs/2502.00204)
-**代码**: 无
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2502.00204](https://arxiv.org/abs/2502.00204)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: Stackelberg博弈, 在线学习, 上下文赌臂, 侧信息, 遗憾界
 
 ## 一句话总结

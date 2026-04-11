@@ -1,9 +1,9 @@
 # Self-Supervised Learning from Structural Invariance
 
-**会议**: ICLR 2026
-**arXiv**: [2602.02381](https://arxiv.org/abs/2602.02381)
-**代码**: https://github.com/SkrighYZ/AdaSSL
-**领域**: 自监督学习 / 因果表征学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.02381](https://arxiv.org/abs/2602.02381)  
+**代码**: https://github.com/SkrighYZ/AdaSSL  
+**领域**: 自监督学习 / 因果表征学习  
 **关键词**: 自监督学习, 潜变量模型, 结构不变性, 异方差性, 因果表征
 
 ## 一句话总结

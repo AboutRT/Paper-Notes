@@ -1,9 +1,9 @@
 # Robust Federated Finetuning of LLMs via Alternating Optimization of LoRA
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.01755](https://arxiv.org/abs/2502.01755)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.01755](https://arxiv.org/abs/2502.01755)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: federated learning, LoRA, parameter-efficient fine-tuning, alternating optimization, LLM
 
 ## 一句话总结

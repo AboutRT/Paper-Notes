@@ -1,10 +1,10 @@
 # Fostering the Ecosystem of AI for Social Impact Requires Expanding and Strengthening Evaluation Standards
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.18238](https://arxiv.org/abs/2510.18238)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.18238](https://arxiv.org/abs/2510.18238)  
 **作者**: Bryan Wilder (Carnegie Mellon University), Angela Zhou (University of Southern California)
-**代码**: 无（Position Paper）
-**领域**: others
+**代码**: 无（Position Paper）  
+**领域**: others  
 **关键词**: AI for Social Impact, evaluation standards, deployment, field experiments, research ecosystem, causal inference
 
 ## 一句话总结

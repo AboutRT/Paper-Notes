@@ -1,9 +1,9 @@
 # O3N: Omnidirectional Open-Vocabulary Occupancy Prediction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12144](https://arxiv.org/abs/2603.12144)
-**代码**: [GitHub](https://github.com/) (即将开源)
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.12144](https://arxiv.org/abs/2603.12144)  
+**代码**: [GitHub](https://github.com/) (即将开源)  
+**领域**: 自动驾驶  
 **关键词**: 全向感知, 开放词汇, 占用预测, 全景图像, Mamba
 
 ## 一句话总结

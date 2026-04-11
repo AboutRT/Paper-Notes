@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models
 
-**会议**: CVPR2026
-**arXiv**: [2602.18993](https://arxiv.org/abs/2602.18993)
-**代码**: [jiwoogit/SeaCache](https://github.com/jiwoogit/SeaCache)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2602.18993](https://arxiv.org/abs/2602.18993)  
+**代码**: [jiwoogit/SeaCache](https://github.com/jiwoogit/SeaCache)  
+**领域**: 图像生成  
 **关键词**: 扩散模型加速, 缓存策略, 频谱演化, 频域滤波, 无训练加速
 
 ## 一句话总结

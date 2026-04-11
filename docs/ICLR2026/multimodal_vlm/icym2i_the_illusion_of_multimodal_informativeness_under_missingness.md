@@ -1,9 +1,9 @@
 # ICYM2I: The Illusion of Multimodal Informativeness under Missingness
 
-**会议**: ICLR 2026
-**arXiv**: [2505.16953](https://arxiv.org/abs/2505.16953)
-**代码**: https://github.com/reAIM-Lab/ICYM2I
-**领域**: 多模态VLM / 机器学习理论
+**会议**: ICLR 2026  
+**arXiv**: [2505.16953](https://arxiv.org/abs/2505.16953)  
+**代码**: https://github.com/reAIM-Lab/ICYM2I  
+**领域**: 多模态VLM / 机器学习理论  
 **关键词**: 多模态缺失, 分布偏移, 逆概率加权, 信息分解, 模态价值评估
 
 ## 一句话总结

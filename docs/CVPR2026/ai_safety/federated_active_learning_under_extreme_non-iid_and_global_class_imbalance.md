@@ -1,9 +1,9 @@
 # Federated Active Learning Under Extreme Non-IID and Global Class Imbalance
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10341](https://arxiv.org/abs/2603.10341)
-**代码**: [chenchenzong/FairFAL](https://github.com/chenchenzong/FairFAL)
-**领域**: AI安全 / 联邦学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.10341](https://arxiv.org/abs/2603.10341)  
+**代码**: [chenchenzong/FairFAL](https://github.com/chenchenzong/FairFAL)  
+**领域**: AI安全 / 联邦学习  
 **关键词**: Federated Active Learning, Non-IID, Class Imbalance, Active Learning, Long-Tailed Distribution
 
 ## 一句话总结

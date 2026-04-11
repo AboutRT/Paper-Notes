@@ -1,9 +1,9 @@
 # Auto-Search and Refinement: An Automated Framework for Gender Bias Mitigation in LLMs
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.11559](https://arxiv.org/abs/2502.11559)
-**代码**: [GitHub](https://github.com/SavannahXu79/FaIRMaker)
-**领域**: LLM效率 / 公平性
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.11559](https://arxiv.org/abs/2502.11559)  
+**代码**: [GitHub](https://github.com/SavannahXu79/FaIRMaker)  
+**领域**: LLM效率 / 公平性  
 **关键词**: 性别偏见缓解, 自动提示搜索, Fairwords, 去偏见, LLM公平性
 
 ## 一句话总结

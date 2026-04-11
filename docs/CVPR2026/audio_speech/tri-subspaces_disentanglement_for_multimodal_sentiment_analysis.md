@@ -1,9 +1,9 @@
 # Tri-Subspaces Disentanglement for Multimodal Sentiment Analysis
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19585](https://arxiv.org/abs/2602.19585)
-**代码**: 无
-**领域**: 语音/音频
+**会议**: CVPR 2026  
+**arXiv**: [2602.19585](https://arxiv.org/abs/2602.19585)  
+**代码**: 无  
+**领域**: 语音/音频  
 **关键词**: 多模态情感分析, 三子空间解耦, 跨注意力融合, 成对共享, HSIC
 
 ## 一句话总结

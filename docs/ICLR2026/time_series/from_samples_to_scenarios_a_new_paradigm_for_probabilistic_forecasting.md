@@ -1,9 +1,9 @@
 # From Samples to Scenarios: A New Paradigm for Probabilistic Forecasting
 
-**会议**: ICLR 2026
-**arXiv**: [2509.19975](https://arxiv.org/abs/2509.19975)
-**代码**: [GitHub](https://github.com/Fifthky/TimePrism)
-**领域**: 时间序列
+**会议**: ICLR 2026  
+**arXiv**: [2509.19975](https://arxiv.org/abs/2509.19975)  
+**代码**: [GitHub](https://github.com/Fifthky/TimePrism)  
+**领域**: 时间序列  
 **关键词**: probabilistic forecasting, time series, scenario generation, discrete probability, linear model
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用一个简单线性模型直接生成 $N$ 个未来场景及其概率，彻底绕开采样。
 
 ## 方法详解
+
 ### 整体框架
 Probabilistic Scenarios 范式定义模型为:
 $$f(\mathbf{x}) = (\mathcal{Y}_{\text{pred}}, \mathbf{p})$$
@@ -40,6 +41,7 @@ $$\mathcal{L}_{\text{Prism}} = \mathcal{L}_{\text{recon}} + \lambda \cdot \mathc
 - 实际训练采用 relaxed WTA 以稳定训练，$\lambda=1$
 
 ## 实验关键数据
+
 ### 主实验
 5个基准数据集 (Electricity, Exchange, Solar, Traffic, Wikipedia) 上的 Weighted CRPS：
 

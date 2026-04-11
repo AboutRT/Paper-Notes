@@ -1,9 +1,9 @@
 # SFUOD: Source-Free Unknown Object Detection
 
-**会议**: ICCV 2025
-**arXiv**: [2507.17373](https://arxiv.org/abs/2507.17373)
-**代码**: https://github.com/SFUOD (待公开)
-**领域**: 目标检测
+**会议**: ICCV 2025  
+**arXiv**: [2507.17373](https://arxiv.org/abs/2507.17373)  
+**代码**: https://github.com/SFUOD (待公开)  
+**领域**: 目标检测  
 **关键词**: 无源域适应, 未知物体检测, 均值教师, 协作调优, 主轴伪标签
 
 ## 一句话总结

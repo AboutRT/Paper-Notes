@@ -1,9 +1,9 @@
 # Discriminative Policy Optimization for Token-Level Reward Models
 
-**会议**: ICML2025
-**arXiv**: [2505.23363](https://arxiv.org/abs/2505.23363)
-**代码**: [homzer/Q-RM](https://github.com/homzer/Q-RM)
-**领域**: LLM对齐
+**会议**: ICML2025  
+**arXiv**: [2505.23363](https://arxiv.org/abs/2505.23363)  
+**代码**: [homzer/Q-RM](https://github.com/homzer/Q-RM)  
+**领域**: LLM对齐  
 **关键词**: token-level reward model, process reward model, Q-function, discriminative policy, PPO, REINFORCE, LLM alignment
 
 ## 一句话总结

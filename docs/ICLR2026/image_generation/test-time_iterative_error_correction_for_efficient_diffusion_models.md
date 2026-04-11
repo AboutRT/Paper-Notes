@@ -1,9 +1,9 @@
 # Test-Time Iterative Error Correction for Efficient Diffusion Models
 
-**会议**: ICLR 2026
-**arXiv**: [2511.06250](https://arxiv.org/abs/2511.06250)
-**代码**: [GitHub](https://github.com/zysxmu/IEC)
-**领域**: 扩散模型 / 模型效率 / 测试时优化
+**会议**: ICLR 2026  
+**arXiv**: [2511.06250](https://arxiv.org/abs/2511.06250)  
+**代码**: [GitHub](https://github.com/zysxmu/IEC)  
+**领域**: 扩散模型 / 模型效率 / 测试时优化  
 **关键词**: 迭代误差校正, 测试时增强, 量化扩散, 特征缓存, 误差传播
 
 ## 一句话总结

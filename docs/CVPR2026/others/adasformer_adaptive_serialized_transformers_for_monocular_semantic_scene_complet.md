@@ -1,9 +1,9 @@
 # AdaSFormer: Adaptive Serialized Transformers for Monocular Semantic Scene Completion from Indoor Environments
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25494](https://arxiv.org/abs/2603.25494)
-**代码**: https://github.com/alanWXZ/AdaSFormer (有)
-**领域**: 3D视觉 / 室内场景理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.25494](https://arxiv.org/abs/2603.25494)  
+**代码**: https://github.com/alanWXZ/AdaSFormer (有)  
+**领域**: 3D视觉 / 室内场景理解  
 **关键词**: 语义场景补全, 序列化Transformer, 自适应注意力, 室内场景, 单目RGB
 
 ## 一句话总结

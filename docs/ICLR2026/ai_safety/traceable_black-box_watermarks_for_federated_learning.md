@@ -1,9 +1,9 @@
 # Traceable Black-box Watermarks for Federated Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2505.13651](https://arxiv.org/abs/2505.13651)
-**代码**: [GitHub](https://github.com/JiiahaoXU/TraMark)
-**领域**: 联邦学习/模型安全
+**会议**: ICLR 2026  
+**arXiv**: [2505.13651](https://arxiv.org/abs/2505.13651)  
+**代码**: [GitHub](https://github.com/JiiahaoXU/TraMark)  
+**领域**: 联邦学习/模型安全  
 **关键词**: 联邦学习水印, 黑盒可追溯, 参数空间分割, 模型泄露, 知识产权
 
 ## 一句话总结

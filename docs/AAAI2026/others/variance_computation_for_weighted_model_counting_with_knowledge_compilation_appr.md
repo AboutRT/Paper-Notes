@@ -1,9 +1,9 @@
 # Variance Computation for Weighted Model Counting with Knowledge Compilation Approach
 
-**会议**: AAAI 2026
-**arXiv**: [2601.03523](https://arxiv.org/abs/2601.03523)
-**代码**: https://github.com/nttcslab/variance-wmc (有)
-**领域**: 知识编译 / 概率推理 / 加权模型计数
+**会议**: AAAI 2026  
+**arXiv**: [2601.03523](https://arxiv.org/abs/2601.03523)  
+**代码**: https://github.com/nttcslab/variance-wmc (有)  
+**领域**: 知识编译 / 概率推理 / 加权模型计数  
 **关键词**: 加权模型计数, 知识编译, 方差计算, 贝叶斯网络, 结构化d-DNNF
 
 ## 一句话总结

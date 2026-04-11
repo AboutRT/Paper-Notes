@@ -1,9 +1,9 @@
 # RewardMap: Tackling Sparse Rewards in Fine-grained Visual Reasoning via Multi-Stage Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2510.02240](https://arxiv.org/abs/2510.02240)
-**代码**: [项目页面](https://fscdc.github.io/RewardMap)
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2510.02240](https://arxiv.org/abs/2510.02240)  
+**代码**: [项目页面](https://fscdc.github.io/RewardMap)  
+**领域**: 强化学习  
 **关键词**: 多模态大模型, 视觉推理, 稀疏奖励, 多阶段RL, 地铁路线规划
 
 ## 一句话总结

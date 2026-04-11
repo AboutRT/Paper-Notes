@@ -1,9 +1,9 @@
 # POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09162](https://arxiv.org/abs/2603.09162)
-**代码**: 无（基于 POLISH 框架扩展）
-**领域**: 射电天文图像重建 / 图像去卷积
+**会议**: CVPR 2026  
+**arXiv**: [2603.09162](https://arxiv.org/abs/2603.09162)  
+**代码**: 无（基于 POLISH 框架扩展）  
+**领域**: 射电天文图像重建 / 图像去卷积  
 **关键词**: 射电干涉成像, 深度学习去卷积, 超分辨率, 高动态范围, 强引力透镜
 
 ## 一句话总结

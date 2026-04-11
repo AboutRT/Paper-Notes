@@ -1,9 +1,9 @@
 # Do Vision-Language Models Really Understand Visual Language?
 
-**会议**: ICML 2025
-**arXiv**: [2410.00193](https://arxiv.org/abs/2410.00193)
-**代码**: 无
-**领域**: 多模态VLM
+**会议**: ICML 2025  
+**arXiv**: [2410.00193](https://arxiv.org/abs/2410.00193)  
+**代码**: 无  
+**领域**: 多模态VLM  
 **关键词**: 视觉语言理解, 图表理解, LVLM评估, 关系推理, 背景知识捷径
 
 ## 一句话总结

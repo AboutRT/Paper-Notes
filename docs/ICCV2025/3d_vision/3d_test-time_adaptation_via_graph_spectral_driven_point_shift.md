@@ -1,9 +1,9 @@
 # 3D Test-time Adaptation via Graph Spectral Driven Point Shift
 
-**会议**: ICCV 2025
-**arXiv**: [2507.18225](https://arxiv.org/abs/2507.18225)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2507.18225](https://arxiv.org/abs/2507.18225)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 测试时自适应, 点云分类, 图谱域, 图傅里叶变换, 域偏移
 
 ## 一句话总结
@@ -21,6 +21,7 @@
 **核心 idea**：在图谱域进行可学习的低频调整，通过逆图傅里叶变换生成点偏移（Graph Spectral Driven Point Shift），同时利用特征图引导的自训练策略交替优化输入和模型参数。
 
 ## 方法详解
+
 ### 整体框架
 GSDTTA 由两个核心模块组成：**图谱驱动点偏移（GSDPS）** 和 **图谱引导模型适配（GSGMA）**。两者交替迭代运行：每批测试数据先做4步输入适配，再做1步模型适配，循环10次。
 
@@ -43,6 +44,7 @@ GSDTTA 由两个核心模块组成：**图谱驱动点偏移（GSDPS）** 和 **
 - 优化器：AdamW，学习率 0.0001，batch size 32
 
 ## 实验关键数据
+
 ### 主实验
 
 | Backbone | Method | Background | Occlusion | LiDAR | Mean |

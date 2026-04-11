@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Position: All Current Generative Fidelity and Diversity Metrics are Flawed
 
-**会议**: ICML2025
-**arXiv**: [2505.22450](https://arxiv.org/abs/2505.22450)
-**代码**: [vanderschaarlab/position-fidelity-diversity-metrics-flawed](https://github.com/vanderschaarlab/position-fidelity-diversity-metrics-flawed)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2505.22450](https://arxiv.org/abs/2505.22450)  
+**代码**: [vanderschaarlab/position-fidelity-diversity-metrics-flawed](https://github.com/vanderschaarlab/position-fidelity-diversity-metrics-flawed)  
+**领域**: image_generation  
 **关键词**: 生成模型评估, fidelity/diversity 指标, precision/recall, 合成数据质量, sanity check
 
 ## 一句话总结

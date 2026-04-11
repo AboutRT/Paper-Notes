@@ -1,9 +1,9 @@
 # Fully Dynamic Euclidean Bi-Chromatic Matching in Sublinear Update Time
 
-**会议**: ICML 2025
-**arXiv**: [2505.09010](https://arxiv.org/abs/2505.09010)
-**代码**: 无
-**领域**: 算法 / 几何优化
+**会议**: ICML 2025  
+**arXiv**: [2505.09010](https://arxiv.org/abs/2505.09010)  
+**代码**: 无  
+**领域**: 算法 / 几何优化  
 **关键词**: bi-chromatic matching, dynamic algorithms, Wasserstein distance, sublinear update, geometric optimization
 
 ## 一句话总结

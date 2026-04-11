@@ -1,9 +1,9 @@
 # Empowering Semantic-Sensitive Underwater Image Enhancement with VLM
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12773](https://arxiv.org/abs/2603.12773)
-**代码**: 无
-**领域**: 分割
+**会议**: CVPR 2026  
+**arXiv**: [2603.12773](https://arxiv.org/abs/2603.12773)  
+**代码**: 无  
+**领域**: 分割  
 **关键词**: 水下图像增强, 语义引导, VLM, 跨注意力, 下游任务感知
 
 ## 一句话总结

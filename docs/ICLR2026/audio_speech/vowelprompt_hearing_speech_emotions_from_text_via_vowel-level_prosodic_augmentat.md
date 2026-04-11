@@ -1,9 +1,9 @@
 # VowelPrompt: Hearing Speech Emotions from Text via Vowel-level Prosodic Augmentation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.06270](https://arxiv.org/abs/2602.06270)
-**代码**: 无
-**领域**: 语音情感识别
+**会议**: ICLR 2026  
+**arXiv**: [2602.06270](https://arxiv.org/abs/2602.06270)  
+**代码**: 无  
+**领域**: 语音情感识别  
 **关键词**: 语音情感识别, 韵律特征, 元音级, LLM推理, GRPO
 
 ## 一句话总结

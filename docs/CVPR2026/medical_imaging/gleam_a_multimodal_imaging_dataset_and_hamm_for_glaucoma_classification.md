@@ -1,9 +1,9 @@
 # GLEAM: A Multimodal Imaging Dataset and HAMM for Glaucoma Classification
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12800](https://arxiv.org/abs/2603.12800)
+**会议**: CVPR 2026  
+**arXiv**: [2603.12800](https://arxiv.org/abs/2603.12800)  
 **作者**: Jiao Wang, Chi Liu, Yiying Zhang, Hongchen Luo, Zhifen Guo, Ying Hu, Ke Xu, Jing Zhou, Hongyan Xu, Ruiting Zhou, Man Tang
-**领域**: medical_imaging
+**领域**: medical_imaging  
 **关键词**: 青光眼分类, 多模态眼科成像, 掩码建模, 跨模态融合, 公开数据集
 
 ## 一句话总结

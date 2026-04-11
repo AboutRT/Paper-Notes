@@ -1,9 +1,9 @@
 # Scene Coordinate Reconstruction Priors
 
-**会议**: ICCV 2025
-**arXiv**: [2510.12387](https://arxiv.org/abs/2510.12387)
-**代码**: [nianticspatial.github.io/scr-priors](https://nianticspatial.github.io/scr-priors/)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2510.12387](https://arxiv.org/abs/2510.12387)  
+**代码**: [nianticspatial.github.io/scr-priors](https://nianticspatial.github.io/scr-priors/)  
+**领域**: 3D视觉  
 **关键词**: 场景坐标回归, 重建先验, 3D扩散模型, 视觉重定位, 运动恢复结构
 
 ## 一句话总结

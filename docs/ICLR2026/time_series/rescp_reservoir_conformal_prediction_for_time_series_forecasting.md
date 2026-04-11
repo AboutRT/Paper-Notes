@@ -1,9 +1,9 @@
 # ResCP: Reservoir Conformal Prediction for Time Series Forecasting
 
-**会议**: ICLR 2026
-**arXiv**: [2510.05060](https://arxiv.org/abs/2510.05060)
-**代码**: 无
-**领域**: 时间序列/不确定性量化
+**会议**: ICLR 2026  
+**arXiv**: [2510.05060](https://arxiv.org/abs/2510.05060)  
+**代码**: 无  
+**领域**: 时间序列/不确定性量化  
 **关键词**: 保形预测, 储备计算, 时间序列, 预测区间, 无训练
 
 ## 一句话总结

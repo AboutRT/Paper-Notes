@@ -1,9 +1,9 @@
 # Autoformulation of Mathematical Optimization Models Using LLMs
 
-**会议**: ICML 2025
-**arXiv**: [2411.01679](https://arxiv.org/abs/2411.01679)
-**代码**: 无
-**领域**: Optimization
+**会议**: ICML 2025  
+**arXiv**: [2411.01679](https://arxiv.org/abs/2411.01679)  
+**代码**: 无  
+**领域**: Optimization  
 **关键词**: autoformulation, LLM, Monte-Carlo Tree Search, mathematical optimization, symbolic pruning
 
 ## 一句话总结

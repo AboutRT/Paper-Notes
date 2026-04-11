@@ -1,9 +1,9 @@
 # STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond
 
-**会议**: ACL 2025
-**arXiv**: [2409.05367](https://arxiv.org/abs/2409.05367)
-**代码**: [GitHub](https://github.com/UKPLab/acl2025-stricta)
-**领域**: LLM推理
+**会议**: ACL 2025  
+**arXiv**: [2409.05367](https://arxiv.org/abs/2409.05367)  
+**代码**: [GitHub](https://github.com/UKPLab/acl2025-stricta)  
+**领域**: LLM推理  
 **关键词**: structured reasoning, peer review, causal model, text assessment, human-AI collaboration
 
 ## 一句话总结

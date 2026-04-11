@@ -1,9 +1,9 @@
 # From Pairs to Sequences: Track-Aware Policy Gradients for Keypoint Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20630](https://arxiv.org/abs/2602.20630)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.20630](https://arxiv.org/abs/2602.20630)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 关键点检测, 强化学习, 长期可追踪性, 序列决策, 特征匹配
 
 ## 一句话总结

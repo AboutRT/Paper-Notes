@@ -1,9 +1,9 @@
 # The Invisibility Hypothesis: Promises of AGI and the Future of the Global South
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01616](https://arxiv.org/abs/2603.01616)
-**代码**: 无
-**领域**: AI与社会 / AI伦理
+**会议**: ICLR 2026  
+**arXiv**: [2603.01616](https://arxiv.org/abs/2603.01616)  
+**代码**: 无  
+**领域**: AI与社会 / AI伦理  
 **关键词**: AGI, 全球南方, 不可见性假说, 经济不平等, 非正式经济, AI治理
 
 ## 一句话总结

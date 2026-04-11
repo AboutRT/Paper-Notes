@@ -1,9 +1,9 @@
 # OnlinePG: Online Open-Vocabulary Panoptic Mapping with 3D Gaussian Splatting
 
-**会议**: CVPR 2026
-**arXiv**: [2603.18510](https://arxiv.org/abs/2603.18510)
+**会议**: CVPR 2026  
+**arXiv**: [2603.18510](https://arxiv.org/abs/2603.18510)  
 **机构**: 浙江大学 CAD&CG 国家重点实验室, VIVO BlueImage Lab, HKUST
-**领域**: 3D视觉
+**领域**: 3D视觉  
 **关键词**: 全景建图, 开放词汇, 3D高斯溅射, 在线重建, 实例分割
 
 ## 一句话总结

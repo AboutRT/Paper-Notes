@@ -1,9 +1,9 @@
 # CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance
 
-**会议**: CVPR2026
-**arXiv**: [2603.03281](https://arxiv.org/abs/2603.03281)
-**代码**: [项目页面](https://hanyang-21.github.io/CFG-Ctrl)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2603.03281](https://arxiv.org/abs/2603.03281)  
+**代码**: [项目页面](https://hanyang-21.github.io/CFG-Ctrl)  
+**领域**: 图像生成  
 **关键词**: Classifier-Free Guidance, 控制理论, 滑模控制, Flow Matching, 文本到图像生成
 
 ## 一句话总结

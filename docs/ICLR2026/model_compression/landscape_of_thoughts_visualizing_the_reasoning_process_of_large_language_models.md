@@ -1,9 +1,9 @@
 # Landscape of Thoughts: Visualizing the Reasoning Process of Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2503.22165](https://arxiv.org/abs/2503.22165)
-**代码**: [GitHub](https://github.com/tmlr-group/landscape-of-thoughts)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2503.22165](https://arxiv.org/abs/2503.22165)  
+**代码**: [GitHub](https://github.com/tmlr-group/landscape-of-thoughts)  
+**领域**: 模型压缩  
 **关键词**: LLM推理可视化, 推理轨迹分析, t-SNE, 测试时扩展, 轻量验证器
 
 ## 一句话总结

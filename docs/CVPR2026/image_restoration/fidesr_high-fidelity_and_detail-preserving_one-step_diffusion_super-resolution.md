@@ -1,9 +1,9 @@
 # FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution
 
-**会议**: CVPR 2026
-**arXiv**: [2603.02692](https://arxiv.org/abs/2603.02692)
-**代码**: [GitHub](https://github.com/Ar0Kim/FiDeSR)
-**领域**: 图像超分辨率
+**会议**: CVPR 2026  
+**arXiv**: [2603.02692](https://arxiv.org/abs/2603.02692)  
+**代码**: [GitHub](https://github.com/Ar0Kim/FiDeSR)  
+**领域**: 图像超分辨率  
 **关键词**: 单步扩散超分, 频率感知, 残差精炼, 细节加权, 高保真
 
 ## 一句话总结

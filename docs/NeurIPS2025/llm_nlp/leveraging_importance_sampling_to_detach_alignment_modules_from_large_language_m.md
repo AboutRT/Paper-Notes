@@ -1,9 +1,9 @@
 # Leveraging Importance Sampling to Detach Alignment Modules from Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.19700](https://arxiv.org/abs/2505.19700)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.19700](https://arxiv.org/abs/2505.19700)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: LLM alignment, importance sampling, residual alignment, modular alignment, token-level decoding, parameter-efficient
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CD-Buffer: Complementary Dual-Buffer Framework for Test-Time Adaptation in Adverse Weather Object Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.26092](https://arxiv.org/abs/2603.26092)
-**代码**: [网站](https://wkfsksdl99.github.io/cd_buffer/) (有)
-**领域**: Object Detection
+**会议**: CVPR 2026  
+**arXiv**: [2603.26092](https://arxiv.org/abs/2603.26092)  
+**代码**: [网站](https://wkfsksdl99.github.io/cd_buffer/) (有)  
+**领域**: Object Detection  
 **关键词**: 测试时适应, 恶劣天气, 目标检测, 通道自适应, 加性-减性互补
 
 ## 一句话总结

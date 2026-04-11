@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning
 
-**会议**: CVPR2026
-**arXiv**: [2511.19524](https://arxiv.org/abs/2511.19524)
-**代码**: 待确认
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2511.19524](https://arxiv.org/abs/2511.19524)  
+**代码**: 待确认  
+**领域**: 视频理解  
 **关键词**: 多智能体系统, 多智能体强化学习, 协作策略规划, 视频问答, 工具调用
 
 ## 一句话总结

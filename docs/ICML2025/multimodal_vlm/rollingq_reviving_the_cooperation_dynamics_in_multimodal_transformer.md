@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer
 
-**会议**: ICML2025
-**arXiv**: [2506.11465](https://arxiv.org/abs/2506.11465)
-**代码**: [GeWu-Lab/RollingQ_ICML2025](https://github.com/GeWu-Lab/RollingQ_ICML2025)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2506.11465](https://arxiv.org/abs/2506.11465)  
+**代码**: [GeWu-Lab/RollingQ_ICML2025](https://github.com/GeWu-Lab/RollingQ_ICML2025)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态融合, 注意力机制, 模态偏置, 动态融合, Transformer
 
 ## 一句话总结

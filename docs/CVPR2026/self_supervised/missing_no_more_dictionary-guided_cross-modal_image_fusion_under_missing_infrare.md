@@ -1,9 +1,9 @@
 # Missing No More: Dictionary-Guided Cross-Modal Image Fusion under Missing Infrared
 
-**会议**: CVPR 2026
-**arXiv**: [2603.08018](https://arxiv.org/abs/2603.08018)
-**代码**: https://github.com/harukiv/DCMIF (有)
-**领域**: 自监督学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.08018](https://arxiv.org/abs/2603.08018)  
+**代码**: https://github.com/harukiv/DCMIF (有)  
+**领域**: 自监督学习  
 **关键词**: 红外-可见光融合, 缺失模态, 卷积字典学习, 系数域推理, 大语言模型先验
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Lipschitz Bandits with Stochastic Delayed Feedback
 
-**会议**: ICLR 2026
-**arXiv**: [2510.00309](https://arxiv.org/abs/2510.00309)
-**代码**: 无
-**领域**: 在线学习/bandit算法
+**会议**: ICLR 2026  
+**arXiv**: [2510.00309](https://arxiv.org/abs/2510.00309)  
+**代码**: 无  
+**领域**: 在线学习/bandit算法  
 **关键词**: Lipschitz bandit, 延迟反馈, zooming算法, 遗憾界, 分阶段剪枝
 
 ## 一句话总结

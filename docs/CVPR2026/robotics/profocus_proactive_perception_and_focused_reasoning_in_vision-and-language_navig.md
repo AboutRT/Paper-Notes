@@ -1,9 +1,9 @@
 # ProFocus: Proactive Perception and Focused Reasoning in Vision-and-Language Navigation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05530](https://arxiv.org/abs/2603.05530)
-**代码**: 待确认
-**领域**: 机器人
+**会议**: CVPR 2026  
+**arXiv**: [2603.05530](https://arxiv.org/abs/2603.05530)  
+**代码**: 待确认  
+**领域**: 机器人  
 **关键词**: 视觉语言导航, 主动感知, 聚焦推理, VLN, 具身智能
 
 ## 一句话总结

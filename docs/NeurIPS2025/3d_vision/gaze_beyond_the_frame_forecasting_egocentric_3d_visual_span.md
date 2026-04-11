@@ -1,9 +1,9 @@
 # Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.18470](https://arxiv.org/abs/2511.18470)
-**代码**: [有](https://hs-yn.github.io/GazeBeyondFrame/)
-**领域**: 3D视觉
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.18470](https://arxiv.org/abs/2511.18470)  
+**代码**: [有](https://hs-yn.github.io/GazeBeyondFrame/)  
+**领域**: 3D视觉  
 **关键词**: 第一人称视觉, 注视预测, 3D视觉跨度, SLAM, 体素预测
 
 ## 一句话总结

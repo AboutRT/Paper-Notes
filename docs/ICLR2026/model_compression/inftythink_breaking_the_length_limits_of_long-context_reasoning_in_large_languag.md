@@ -1,9 +1,9 @@
 # InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2503.06692](https://arxiv.org/abs/2503.06692)
-**代码**: [Project Page](https://zju-real.github.io/InftyThink)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2503.06692](https://arxiv.org/abs/2503.06692)  
+**代码**: [Project Page](https://zju-real.github.io/InftyThink)  
+**领域**: 模型压缩  
 **关键词**: 长上下文推理, 迭代推理, 摘要压缩, 计算效率, 推理范式
 
 ## 一句话总结

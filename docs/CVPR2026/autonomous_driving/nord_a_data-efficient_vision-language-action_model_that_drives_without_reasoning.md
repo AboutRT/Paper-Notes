@@ -1,9 +1,9 @@
 # NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21172](https://arxiv.org/abs/2602.21172)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2602.21172](https://arxiv.org/abs/2602.21172)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: VLA模型, 无推理驾驶, 数据高效, Dr.GRPO, 强化学习后训练
 
 ## 一句话总结

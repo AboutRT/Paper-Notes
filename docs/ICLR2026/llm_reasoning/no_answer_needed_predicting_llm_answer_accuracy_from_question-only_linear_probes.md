@@ -1,9 +1,9 @@
 # No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes
 
-**会议**: ICLR 2026
-**arXiv**: [2509.10625](https://arxiv.org/abs/2509.10625)
-**代码**: [ivanvmoreno/correctness-model-internals](https://github.com/ivanvmoreno/correctness-model-internals)
-**领域**: llm_reasoning
+**会议**: ICLR 2026  
+**arXiv**: [2509.10625](https://arxiv.org/abs/2509.10625)  
+**代码**: [ivanvmoreno/correctness-model-internals](https://github.com/ivanvmoreno/correctness-model-internals)  
+**领域**: llm_reasoning  
 **关键词**: 线性探针, 正确性方向, LLM内部表征, 自我评估, 线性表征假说, 置信度
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LayerTracer: Cognitive-Aligned Layered SVG Synthesis via Diffusion Transformer
 
-**会议**: ICCV 2025
-**arXiv**: [2502.01105](https://arxiv.org/abs/2502.01105)
-**代码**: https://github.com/showlab/LayerTracer
-**领域**: 矢量图形生成 / 扩散模型
+**会议**: ICCV 2025  
+**arXiv**: [2502.01105](https://arxiv.org/abs/2502.01105)  
+**代码**: https://github.com/showlab/LayerTracer  
+**领域**: 矢量图形生成 / 扩散模型  
 **关键词**: SVG生成, 分层矢量图, Diffusion Transformer, 认知对齐, 序列化设计过程, 矢量化, LoRA
 
 ## 一句话总结

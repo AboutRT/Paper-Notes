@@ -1,8 +1,8 @@
 # HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22727](https://arxiv.org/abs/2602.22727)
-**代码**: [GitHub](https://github.com/VioAgnes/HulluEdit)
+**会议**: CVPR 2026  
+**arXiv**: [2602.22727](https://arxiv.org/abs/2602.22727)  
+**代码**: [GitHub](https://github.com/VioAgnes/HulluEdit)  
 **领域**: 多模态与VLM
 
 ## 一句话总结

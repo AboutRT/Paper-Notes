@@ -1,9 +1,9 @@
 # MAPSS: Manifold-Based Assessment of Perceptual Source Separation
 
-**会议**: ICLR 2026
-**arXiv**: [2509.09212](https://arxiv.org/abs/2509.09212)
-**代码**: 有（https://github.com/Amir-Ivry/MAPSS-measures）
-**领域**: 音频语音
+**会议**: ICLR 2026  
+**arXiv**: [2509.09212](https://arxiv.org/abs/2509.09212)  
+**代码**: 有（https://github.com/Amir-Ivry/MAPSS-measures）  
+**领域**: 音频语音  
 **关键词**: 音源分离评估, 感知度量, 扩散映射, 流形学习, 自监督表示
 
 ## 一句话总结

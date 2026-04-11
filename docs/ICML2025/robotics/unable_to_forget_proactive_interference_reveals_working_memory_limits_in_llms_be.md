@@ -1,9 +1,9 @@
 # Unable to Forget: Proactive Interference Reveals Working Memory Limits in LLMs Beyond Context Length
 
-**会议**: ICML 2025
-**arXiv**: [2506.08184](https://arxiv.org/abs/2506.08184)
-**代码**: [有](https://github.com/zhuangziGiantfish/Unable-to-Forget)
-**领域**: LLM评测 / 认知科学
+**会议**: ICML 2025  
+**arXiv**: [2506.08184](https://arxiv.org/abs/2506.08184)  
+**代码**: [有](https://github.com/zhuangziGiantfish/Unable-to-Forget)  
+**领域**: LLM评测 / 认知科学  
 **关键词**: 前摄干扰, 工作记忆, 信息检索, 上下文长度, LLM评测
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Hankel Singular Value Regularization for Highly Compressible State Space Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.22951](https://arxiv.org/abs/2510.22951)
-**代码**: [GitHub](https://github.com/Algopaul/hankelreg)
-**领域**: 模型压缩 / 状态空间模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.22951](https://arxiv.org/abs/2510.22951)  
+**代码**: [GitHub](https://github.com/Algopaul/hankelreg)  
+**领域**: 模型压缩 / 状态空间模型  
 **关键词**: SSM压缩, Hankel奇异值, 平衡截断, 正则化, Long Range Arena
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Revisiting the Predictability of Performative, Social Events
 
-**会议**: ICML2025
-**arXiv**: [2503.11713](https://arxiv.org/abs/2503.11713)
-**代码**: 无（理论工作）
-**领域**: 社会预测 / 性能预测 / 学习理论
+**会议**: ICML2025  
+**arXiv**: [2503.11713](https://arxiv.org/abs/2503.11713)  
+**代码**: 无（理论工作）  
+**领域**: 社会预测 / 性能预测 / 学习理论  
 **关键词**: performative prediction, multicalibration, outcome indistinguishability, 社会预测, 在线学习
 
 ## 一句话总结

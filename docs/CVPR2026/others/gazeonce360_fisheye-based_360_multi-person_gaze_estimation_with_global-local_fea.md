@@ -1,9 +1,9 @@
 # GazeOnce360: Fisheye-Based 360° Multi-Person Gaze Estimation with Global-Local Feature Fusion
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17161](https://arxiv.org/abs/2603.17161)
-**代码**: https://caizhuojiang.github.io/GazeOnce360/ (Project Page)
-**领域**: 其他
+**会议**: CVPR 2026  
+**arXiv**: [2603.17161](https://arxiv.org/abs/2603.17161)  
+**代码**: https://caizhuojiang.github.io/GazeOnce360/ (Project Page)  
+**领域**: 其他  
 **关键词**: 视线估计, 鱼眼相机, 多人场景, 双分辨率融合, 合成数据
 
 ## 一句话总结

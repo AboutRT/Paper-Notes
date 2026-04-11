@@ -1,9 +1,9 @@
 # The Impact of On-Policy Parallelized Data Collection on Deep Reinforcement Learning Networks
 
-**会议**: ICML 2025
-**arXiv**: [2506.03404](https://arxiv.org/abs/2506.03404)
+**会议**: ICML 2025  
+**arXiv**: [2506.03404](https://arxiv.org/abs/2506.03404)  
 **作者**: Walter Mayor, Johan Obando-Ceron, Aaron Courville, Pablo Samuel Castro
-**领域**: 强化学习
+**领域**: 强化学习  
 **关键词**: 并行数据采集, PPO, 网络可塑性, 样本效率, 偏差-方差权衡, Atari
 
 ## 一句话总结

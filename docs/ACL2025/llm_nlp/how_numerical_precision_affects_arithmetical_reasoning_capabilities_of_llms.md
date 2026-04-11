@@ -1,9 +1,9 @@
 # How Numerical Precision Affects Arithmetical Reasoning Capabilities of LLMs
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2410.13857](https://arxiv.org/abs/2410.13857)
-**代码**: 无
-**领域**: LLM推理
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2410.13857](https://arxiv.org/abs/2410.13857)  
+**代码**: 无  
+**领域**: LLM推理  
 **关键词**: numerical precision, arithmetic reasoning, Transformer expressiveness, circuit complexity, quantization
 
 ## 一句话总结

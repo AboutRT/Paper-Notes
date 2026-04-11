@@ -1,9 +1,9 @@
 # Principal-Agent Bandit Games with Self-Interested and Exploratory Learning Agents
 
-**会议**: ICML 2025
-**arXiv**: [2412.16318](https://arxiv.org/abs/2412.16318)
-**代码**: 无
-**领域**: 强化学习 / 博弈论
+**会议**: ICML 2025  
+**arXiv**: [2412.16318](https://arxiv.org/abs/2412.16318)  
+**代码**: 无  
+**领域**: 强化学习 / 博弈论  
 **关键词**: principal-agent, multi-armed bandits, incentive design, regret bounds, exploration
 
 ## 一句话总结

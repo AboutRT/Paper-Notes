@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧠 NeurIPS2025** · 共 **65** 篇
+**🧠 NeurIPS2025** · 共 **73** 篇
 
 **[A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization](a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md)**
 
@@ -223,6 +223,14 @@
 
 :   提出 L2C-Insert，首个基于学习的插入式构造范式用于神经组合优化，通过允许在部分解的任意合法位置插入节点（而非仅追加到末尾），显著提升 TSP/CVRP 的构造质量和灵活性。
 
+**[Least Squares Variational Inference](least_squares_variational_inference.md)**
+
+:   提出 LSVI（Least Squares Variational Inference），一种无梯度、基于普通最小二乘回归的变分推断方法，在指数族内通过对温控 log-target 做 OLS 回归来迭代求解最优变分近似，对高斯族有高效的 $O(d^3)$（全协方差）或 $O(d)$（平均场）实现。
+
+**[MAR-FL: A Communication Efficient Peer-to-Peer Federated Learning System](mar-fl_a_communication_efficient_peer-to-peer_federated_learning_system.md)**
+
+:   提出 MAR-FL 系统，通过 Moshpit All-Reduce 机制和动态分组聚合，将 P2P 联邦学习的通信复杂度从 $O(N^2)$ 降至 $O(N \log N)$，同时保持对网络抖动的鲁棒性。
+
 **[MDNS: Masked Diffusion Neural Sampler via Stochastic Optimal Control](mdns_masked_diffusion_neural_sampler_via_stochastic_optimal_control.md)**
 
 :   提出 Masked Diffusion Neural Sampler (MDNS)，基于连续时间马尔可夫链（CTMC）的随机最优控制理论，通过对齐路径测度来训练离散神经采样器，在状态空间基数高达 $10^{122}$ 的 Ising/Potts 模型上准确采样，大幅超越现有学习型基线。
@@ -235,9 +243,25 @@
 
 :   MESS+是首个成本最优的LLM路由框架，通过在线学习请求满足度预测和虚拟队列约束，动态选择模型同时保证SLA合规，相比现有方法实现平均2倍成本节省。
 
+**[Multiplayer Federated Learning: Reaching Equilibrium with Less Communication](multiplayer_federated_learning_reaching_equilibrium_with_less_communication.md)**
+
+:   提出多人联邦学习（MpFL）框架，将FL中的客户端建模为博弈论中的理性玩家，并设计PEARL-SGD算法通过局部更新减少通信开销，同时收敛到Nash均衡。
+
+**[Non-Stationary Bandit Convex Optimization: A Comprehensive Study](non-stationary_bandit_convex_optimization_a_comprehensive_study.md)**
+
+:   系统研究了非平稳环境下的Bandit凸优化问题，提出两个算法（TEWA-SE和cExO），统一建立了三种非平稳度量（切换数S、总变差Δ、路径长度P）下的遗憾上下界，多个设定下达到极小极大最优。
+
+**[On Minimax Estimation of Parameters in Softmax-Contaminated Mixture of Experts](on_minimax_estimation_of_parameters_in_softmax-contaminated_mixture_of_experts.md)**
+
+:   首次对带 softmax 门控的受污染混合专家（contaminated MoE）模型进行极小极大参数估计分析，提出"可区分性"概念刻画预训练模型与 prompt 的关系，证明可区分时 MLE 达到参数级 $\tilde{O}(n^{-1/2})$ 最优速率，不可区分时速率显著变慢。
+
 **[Online Two-Stage Submodular Maximization](online_two-stage_submodular_maximization.md)**
 
 :   首次提出在线两阶段子模最大化（O2SSM）问题，针对加权阈值势函数（WTP）设计了 RAOCO 算法，通过分数松弛+随机管道舍入实现多项式时间运行下的次线性 $(1-1/e)^2$-regret 保证，同时改进了离线问题的近似比。
+
+**[Optimal Rates for Generalization of Gradient Descent for Deep ReLU Classification](optimal_rates_for_generalization_of_gradient_descent_for_deep_relu_classificatio.md)**
+
+:   证明了深度ReLU网络上梯度下降的泛化速率达到 $\widetilde{O}(L^4(1+\gamma L^2)/(n\gamma^2))$，首次在深度ReLU网络上同时实现：(1) 对样本量 $n$ 的最优 $1/n$ 依赖，(2) 对深度 $L$ 仅多项式依赖。
 
 **[Optimality and NP-Hardness of Transformers in Learning Markovian Dynamical Functions](optimality_and_np-hardness_of_transformers_in_learning_markovian_dynamical_funct.md)**
 
@@ -251,9 +275,17 @@
 
 :   为梯度下降训练的浅层神经网络提供了在任意正训练时间 $t \geq 0$ 下向高斯过程收敛的显式定量上界，证明了二次Wasserstein距离以 $O(\log n_1 / n_1)$ 的速率多项式衰减。
 
+**[Second-Order Optimization Under Heavy-Tailed Noise: Hessian Clipping and Sample Complexity](second-order_optimization_under_heavy-tailed_noise_hessian_clipping_and_sample_c.md)**
+
+:   首次系统研究重尾噪声条件下二阶随机优化的理论基础，建立了紧的样本复杂度下界，提出了基于梯度和 Hessian 裁剪的归一化SGD算法（Clip NSGDHess），并证明其近似达到信息论极限。
+
 **[Streaming Federated Learning with Markovian Data](streaming_federated_learning_with_markovian_data.md)**
 
 :   首次严格分析了非凸目标函数下具有马尔可夫数据流的流式联邦学习，证明 Minibatch SGD、Local SGD 和 Local SGD-M 均能实现与客户端数成反比的样本复杂度（线性加速），且 Local SGD-M 无需异质性假设即可匹配 Minibatch SGD 的通信复杂度。
+
+**[Training-Free Bayesianization for Low-Rank Adapters of Large Language Models](training-free_bayesianization_for_low-rank_adapters_of_large_language_models.md)**
+
+:   提出 TFB（Training-Free Bayesianization），通过在低秩各向同性高斯分布族中搜索最大可接受方差，将已训练好的 LoRA 适配器无需重训练即转化为贝叶斯版本，理论上等价于广义变分推断。
 
 **[Understanding the Generalization of Stochastic Gradient Adam in Learning Neural Networks](understanding_the_generalization_of_stochastic_gradient_adam_in_learning_neural_.md)**
 

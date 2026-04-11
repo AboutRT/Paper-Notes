@@ -1,9 +1,9 @@
 # Evaluating Morphological Alignment of Tokenizers in 70 Languages
 
-**会议**: ICML 2025
-**arXiv**: [2507.06378](https://arxiv.org/abs/2507.06378)
-**代码**: [GitHub](https://github.com/catherinearnett/morphscore)
-**领域**: llm_nlp
+**会议**: ICML 2025  
+**arXiv**: [2507.06378](https://arxiv.org/abs/2507.06378)  
+**代码**: [GitHub](https://github.com/catherinearnett/morphscore)  
+**领域**: llm_nlp  
 **关键词**: 分词器评估, 形态对齐, 多语言NLP, MorphScore, BPE, 语言模型性能
 
 ## 一句话总结

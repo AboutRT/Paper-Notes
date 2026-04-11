@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BiGain: Unified Token Compression for Joint Generation and Classification
 
-**会议**: CVPR2026
-**arXiv**: [2603.12240](https://arxiv.org/abs/2603.12240)
-**代码**: [Greenoso/BiGain](https://github.com/Greenoso/BiGain)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2603.12240](https://arxiv.org/abs/2603.12240)  
+**代码**: [Greenoso/BiGain](https://github.com/Greenoso/BiGain)  
+**领域**: 图像生成  
 **关键词**: 扩散模型加速, token压缩, 频率感知, 生成-分类联合优化, 训练无关
 
 ## 一句话总结

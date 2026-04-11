@@ -1,9 +1,9 @@
 # Incremental Gradient Descent with Small Epoch Counts is Surprisingly Slow on Ill-Conditioned Problems
 
-**会议**: ICML 2025
-**arXiv**: [2506.04126](https://arxiv.org/abs/2506.04126)
-**代码**: 无
-**领域**: 优化
+**会议**: ICML 2025  
+**arXiv**: [2506.04126](https://arxiv.org/abs/2506.04126)  
+**代码**: 无  
+**领域**: 优化  
 **关键词**: incremental gradient descent, small epoch regime, condition number, lower bounds, permutation-based SGD
 
 ## 一句话总结

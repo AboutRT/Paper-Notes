@@ -1,9 +1,9 @@
 # EditInfinity: Image Editing with Binary-Quantized Generative Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20217](https://arxiv.org/abs/2510.20217)
-**代码**: [有](https://github.com/yx-chen-ust/EditInfinity)
-**领域**: 图像生成 / 图像编辑 / 自回归模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20217](https://arxiv.org/abs/2510.20217)  
+**代码**: [有](https://github.com/yx-chen-ust/EditInfinity)  
+**领域**: 图像生成 / 图像编辑 / 自回归模型  
 **关键词**: 二值量化生成模型, Infinity, 图像反演, 分段线性平滑, 多尺度自回归编辑
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # LapSum -- One Method to Differentiate Them All: Ranking, Sorting and Top-k Selection
 
-**会议**: ICML2025
-**arXiv**: [2503.06242](https://arxiv.org/abs/2503.06242)
-**代码**: [github.com/gmum/LapSum](https://github.com/gmum/LapSum)
-**领域**: 可微排序 / 可微优化
+**会议**: ICML2025  
+**arXiv**: [2503.06242](https://arxiv.org/abs/2503.06242)  
+**代码**: [github.com/gmum/LapSum](https://github.com/gmum/LapSum)  
+**领域**: 可微排序 / 可微优化  
 **关键词**: differentiable sorting, differentiable top-k, soft ranking, Laplace distribution, permutation learning
 
 ## 一句话总结

@@ -81,8 +81,8 @@
 - 实验充分度: ⭐⭐⭐⭐ 4种模型×两种缩放方式×多熵水平，但限于合成数据
 - 写作质量: ⭐⭐⭐⭐⭐ 形式化定义严谨
 - 价值: ⭐⭐⭐⭐ 对理解和提升泛化能力有重要理论指导
-**代码**: [ltgoslo/systematicity-entropy](https://github.com/ltgoslo/systematicity-entropy)
-**领域**: llm_nlp
+**代码**: [ltgoslo/systematicity-entropy](https://github.com/ltgoslo/systematicity-entropy)  
+**领域**: llm_nlp  
 **关键词**: 系统泛化, 组合泛化, 信息熵, SCAN, 序列到序列
 
 ## 一句话总结

@@ -1,11 +1,11 @@
 # LLMs Encode Their Failures: Predicting Success from Pre-Generation Activations
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2602.09924](https://arxiv.org/abs/2602.09924)
 
 **代码**: [GitHub](https://github.com/KabakaWilliam/llms_know_difficulty)
 
-**领域**: LLM可解释性/推理效率
+**领域**: LLM可解释性/推理效率  
 **关键词**: 难度预测, 线性探针, 模型路由, 预生成激活, 推理成本
 
 ## 一句话总结

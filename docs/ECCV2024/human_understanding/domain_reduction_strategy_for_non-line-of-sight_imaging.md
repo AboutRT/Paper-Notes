@@ -1,9 +1,9 @@
 # Domain Reduction Strategy for Non-Line-of-Sight Imaging
 
-**会议**: ECCV 2024
-**arXiv**: [2308.10269](https://arxiv.org/abs/2308.10269)
-**代码**: [GitHub](https://github.com/hyunbo9/domain-reduction-strategy)
-**领域**: 人体理解 / 计算成像
+**会议**: ECCV 2024  
+**arXiv**: [2308.10269](https://arxiv.org/abs/2308.10269)  
+**代码**: [GitHub](https://github.com/hyunbo9/domain-reduction-strategy)  
+**领域**: 人体理解 / 计算成像  
 **关键词**: 非视线成像, NLOS, 域缩减, 优化重建, 表面法线
 
 ## 一句话总结

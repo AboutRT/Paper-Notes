@@ -1,8 +1,8 @@
 # Aligning Spoken Dialogue Models from User Interactions
 
-**会议**: ICML2025
-**arXiv**: [2506.21463](https://arxiv.org/abs/2506.21463)
-**领域**: segmentation
+**会议**: ICML2025  
+**arXiv**: [2506.21463](https://arxiv.org/abs/2506.21463)  
+**领域**: segmentation  
 **关键词**: 语音对话, 偏好对齐, 全双工, AI反馈, 时序动态
 
 ## 一句话总结

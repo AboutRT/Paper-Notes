@@ -1,9 +1,9 @@
 # Breaking the n^{1.5} Additive Error Barrier for Private and Efficient Graph Sparsification
 
-**会议**: ICML 2025
-**arXiv**: [2507.01873](https://arxiv.org/abs/2507.01873)
-**代码**: 无
-**领域**: AI Safety
+**会议**: ICML 2025  
+**arXiv**: [2507.01873](https://arxiv.org/abs/2507.01873)  
+**代码**: 无  
+**领域**: AI Safety  
 **关键词**: differential privacy, graph sparsification, expander decomposition, cut approximation, synthetic graph
 
 ## 一句话总结

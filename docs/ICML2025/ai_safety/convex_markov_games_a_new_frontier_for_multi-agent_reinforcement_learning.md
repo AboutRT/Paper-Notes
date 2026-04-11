@@ -1,9 +1,9 @@
 # Convex Markov Games: A New Frontier for Multi-Agent Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2410.16600](https://arxiv.org/abs/2410.16600)
-**代码**: 未开源
-**领域**: 多Agent强化学习 / 博弈论
+**会议**: ICML2025  
+**arXiv**: [2410.16600](https://arxiv.org/abs/2410.16600)  
+**代码**: 未开源  
+**领域**: 多Agent强化学习 / 博弈论  
 **关键词**: Convex Markov Game, Nash Equilibrium, Occupancy Measure, Multi-Agent RL, 凸优化, 安全性, 公平性
 
 ## 一句话总结

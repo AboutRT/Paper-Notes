@@ -1,9 +1,9 @@
 # CraterBench-R: Instance-Level Crater Retrieval for Planetary Scale
 
-**会议**: CVPR 2026
-**arXiv**: [2604.06245](https://arxiv.org/abs/2604.06245)
-**代码**: https://hf.co/datasets/jfang/CraterBench-R (有)
-**领域**: 行星科学 / 图像检索
+**会议**: CVPR 2026  
+**arXiv**: [2604.06245](https://arxiv.org/abs/2604.06245)  
+**代码**: https://hf.co/datasets/jfang/CraterBench-R (有)  
+**领域**: 行星科学 / 图像检索  
 **关键词**: 陨石坑检索, 实例级检索, ViT patch token, 无训练token聚合, 两阶段检索
 
 ## 一句话总结

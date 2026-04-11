@@ -1,9 +1,9 @@
 # Optimality and NP-Hardness of Transformers in Learning Markovian Dynamical Functions
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.18638](https://arxiv.org/abs/2510.18638)
-**代码**: 无
-**领域**: 理论机器学习 / Transformer 理论
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.18638](https://arxiv.org/abs/2510.18638)  
+**代码**: 无  
+**领域**: 理论机器学习 / Transformer 理论  
 **关键词**: In-Context Learning, 马尔可夫链, 线性自注意力, NP-hard, 多目标优化
 
 ## 一句话总结

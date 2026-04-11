@@ -1,9 +1,9 @@
 # TiTok: Transfer Token-level Knowledge via Contrastive Excess to Transplant LoRA
 
-**会议**: ICLR 2026
-**arXiv**: [2510.04682](https://arxiv.org/abs/2510.04682)
-**代码**: [https://github.com/NaughtyMaltiz16/TiTok](https://github.com/NaughtyMaltiz16/TiTok)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2510.04682](https://arxiv.org/abs/2510.04682)  
+**代码**: [https://github.com/NaughtyMaltiz16/TiTok](https://github.com/NaughtyMaltiz16/TiTok)  
+**领域**: 模型压缩  
 **关键词**: LoRA 迁移, 知识蒸馏, Token 级选择, 参数高效微调, 对比超额分数
 
 ## 一句话总结

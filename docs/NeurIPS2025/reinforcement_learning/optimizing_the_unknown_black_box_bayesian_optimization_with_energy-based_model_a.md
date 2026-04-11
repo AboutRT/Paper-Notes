@@ -1,9 +1,9 @@
 # Optimizing the Unknown: Black Box Bayesian Optimization with Energy-Based Model and Reinforcement Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19530](https://arxiv.org/abs/2510.19530)
-**代码**: 无（未明确提供链接）
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19530](https://arxiv.org/abs/2510.19530)  
+**代码**: 无（未明确提供链接）  
+**领域**: 强化学习  
 **关键词**: 贝叶斯优化, 能量模型, PPO, 黑盒优化, 多步前瞻
 
 ## 一句话总结

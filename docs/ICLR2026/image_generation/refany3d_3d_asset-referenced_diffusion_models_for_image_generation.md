@@ -1,9 +1,9 @@
 # RefAny3D: 3D Asset-Referenced Diffusion Models for Image Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2601.22094](https://arxiv.org/abs/2601.22094)
-**代码**: [https://judgementh.github.io/RefAny3D](https://judgementh.github.io/RefAny3D)
-**领域**: 3D 引导图像生成 / 扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2601.22094](https://arxiv.org/abs/2601.22094)  
+**代码**: [https://judgementh.github.io/RefAny3D](https://judgementh.github.io/RefAny3D)  
+**领域**: 3D 引导图像生成 / 扩散模型  
 **关键词**: 3D 资产参考, 双分支生成, 点图 (point map), 域解耦, 主题驱动生成
 
 ## 一句话总结

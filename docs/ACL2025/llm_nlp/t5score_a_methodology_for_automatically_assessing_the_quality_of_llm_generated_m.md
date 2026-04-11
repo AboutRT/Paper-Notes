@@ -1,9 +1,9 @@
 # T5Score: A Methodology for Automatically Assessing the Quality of LLM Generated Multi-Document Topic Sets
 
-**会议**: ACL 2025
-**arXiv**: [2407.17390](https://arxiv.org/abs/2407.17390)
-**代码**: [GitHub](https://github.com/itamartrainin/Tpower5Score)
-**领域**: llm_nlp
+**会议**: ACL 2025  
+**arXiv**: [2407.17390](https://arxiv.org/abs/2407.17390)  
+**代码**: [GitHub](https://github.com/itamartrainin/Tpower5Score)  
+**领域**: llm_nlp  
 **关键词**: 主题提取评估, 自由文本主题, LLM-as-Judge, 标注者一致性, 多文档分析
 
 ## 一句话总结

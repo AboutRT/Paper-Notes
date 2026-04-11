@@ -1,9 +1,9 @@
 # Towards Effective, Stealthy, and Persistent Backdoor Attacks Targeting Graph Foundation Models
 
-**会议**: AAAI2026
-**arXiv**: [2511.17982](https://arxiv.org/abs/2511.17982)
-**代码**: [RingBDStack/GFM-BA](https://github.com/RingBDStack/GFM-BA)
-**领域**: object_detection
+**会议**: AAAI2026  
+**arXiv**: [2511.17982](https://arxiv.org/abs/2511.17982)  
+**代码**: [RingBDStack/GFM-BA](https://github.com/RingBDStack/GFM-BA)  
+**领域**: object_detection  
 **关键词**: backdoor attack, graph foundation model, GNN security, trigger generation, adversarial ML
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # HelpSteer3: Human-Annotated Feedback and Edit Data to Empower Inference-Time Scaling
 
-**会议**: ACL 2025
-**arXiv**: [2503.04378](https://arxiv.org/abs/2503.04378)
-**代码**: [有](https://huggingface.co/datasets/nvidia/HelpSteer3)
+**会议**: ACL 2025  
+**arXiv**: [2503.04378](https://arxiv.org/abs/2503.04378)  
+**代码**: [有](https://huggingface.co/datasets/nvidia/HelpSteer3)  
 **机构**: NVIDIA
-**领域**: Others / LLM对齐与推理时扩展
+**领域**: Others / LLM对齐与推理时扩展  
 **关键词**: 推理时扩展, 人工反馈, 反馈-编辑模型, 开放域任务, RLHF, 数据集
 
 ## 一句话总结

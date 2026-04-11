@@ -1,9 +1,9 @@
 # Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02556](https://arxiv.org/abs/2603.02556)
-**代码**: [GitHub](https://github.com/zhiyupan42/VC-STaR)
-**领域**: 多模态推理/自改进
+**会议**: ICLR 2026  
+**arXiv**: [2603.02556](https://arxiv.org/abs/2603.02556)  
+**代码**: [GitHub](https://github.com/zhiyupan42/VC-STaR)  
+**领域**: 多模态推理/自改进  
 **关键词**: 视觉对比, 自改进推理, 幻觉纠正, VLM推理, VisCoR数据集
 
 ## 一句话总结

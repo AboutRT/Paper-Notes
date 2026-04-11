@@ -1,9 +1,9 @@
 # From Verifiable Dot to Reward Chain: Harnessing Verifiable Reference-based Rewards for RL of Open-ended Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2601.18533](https://arxiv.org/abs/2601.18533)
-**代码**: https://github.com/YJiangcm/RLVRR
-**领域**: 强化学习 / LLM对齐
+**会议**: ICLR 2026  
+**arXiv**: [2601.18533](https://arxiv.org/abs/2601.18533)  
+**代码**: https://github.com/YJiangcm/RLVRR  
+**领域**: 强化学习 / LLM对齐  
 **关键词**: RLVR, 开放式生成, 奖励链, 可验证奖励, GRPO
 
 ## 一句话总结

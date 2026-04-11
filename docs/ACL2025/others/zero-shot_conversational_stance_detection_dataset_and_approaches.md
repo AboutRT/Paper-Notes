@@ -1,9 +1,9 @@
 # Zero-Shot Conversational Stance Detection: Dataset and Approaches
 
-**会议**: ACL 2025
-**arXiv**: [2506.17693](https://arxiv.org/abs/2506.17693)
-**代码**: 有 (https://github.com/whu-yzding/ZS-CSD)
-**领域**: NLP / 立场检测
+**会议**: ACL 2025  
+**arXiv**: [2506.17693](https://arxiv.org/abs/2506.17693)  
+**代码**: 有 (https://github.com/whu-yzding/ZS-CSD)  
+**领域**: NLP / 立场检测  
 **关键词**: 立场检测, 对话理解, 零样本, 说话者交互, 原型对比学习
 
 ## 一句话总结

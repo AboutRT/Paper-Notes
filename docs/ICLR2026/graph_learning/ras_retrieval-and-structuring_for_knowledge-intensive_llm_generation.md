@@ -1,9 +1,9 @@
 # RAS: Retrieval-And-Structuring for Knowledge-Intensive LLM Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2502.10996](https://arxiv.org/abs/2502.10996)
-**代码**: 有
-**领域**: 图学习
+**会议**: ICLR 2026  
+**arXiv**: [2502.10996](https://arxiv.org/abs/2502.10996)  
+**代码**: 有  
+**领域**: 图学习  
 **关键词**: 检索增强生成, 知识图谱构建, 迭代检索, 图结构化推理, LLM 生成
 
 ## 一句话总结

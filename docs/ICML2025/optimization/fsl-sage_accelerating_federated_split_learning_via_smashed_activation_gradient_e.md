@@ -1,9 +1,9 @@
 # FSL-SAGE: Accelerating Federated Split Learning via Smashed Activation Gradient Estimation
 
-**会议**: ICML 2025
-**arXiv**: [2505.23182](https://arxiv.org/abs/2505.23182)
-**代码**: 无
-**领域**: Optimization
+**会议**: ICML 2025  
+**arXiv**: [2505.23182](https://arxiv.org/abs/2505.23182)  
+**代码**: 无  
+**领域**: Optimization  
 **关键词**: federated learning, split learning, gradient estimation, auxiliary model, communication efficiency
 
 ## 一句话总结

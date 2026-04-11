@@ -1,9 +1,9 @@
 # MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding
 
-**会议**: ICLR 2026
-**arXiv**: [2510.23479](https://arxiv.org/abs/2510.23479)
-**代码**: [GitHub](https://github.com/JinXins/MergeMix)
-**领域**: 多模态VLM/数据增强
+**会议**: ICLR 2026  
+**arXiv**: [2510.23479](https://arxiv.org/abs/2510.23479)  
+**代码**: [GitHub](https://github.com/JinXins/MergeMix)  
+**领域**: 多模态VLM/数据增强  
 **关键词**: Mixup增强, Token Merge, 偏好对齐, MLLM, SimPO
 
 ## 一句话总结

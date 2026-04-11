@@ -16,6 +16,7 @@
 - **关键发现**：绝大多数FC对最终注意力的贡献极小（CA < 0.05），仅少量"主导FC"（占比 <1%）就能近似完整注意力的 token 选择行为——这是一种此前未被识别和利用的结构化稀疏性
 
 ## 方法详解
+
 ### 整体框架
 两阶段推理：(1) Token Importance Predictor (TIP)：使用预校准的主导 FC 子集高效估计每个 token 的重要性分数，选出 top-$N_{fac}$ 个关键 token；(2) Focused Attention Computation (FAC)：仅对选出的关键 token 集合执行完整维度的注意力计算，生成下一个 token。主导 FC 的识别是一次性离线过程，且跨任务通用。
 

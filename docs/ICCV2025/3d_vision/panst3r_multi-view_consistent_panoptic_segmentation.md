@@ -1,9 +1,9 @@
 # PanSt3R: Multi-view Consistent Panoptic Segmentation
 
-**会议**: ICCV 2025
-**arXiv**: [2506.21348](https://arxiv.org/abs/2506.21348)
-**代码**: 有 (NAVER LABS Europe)
-**领域**: 3D Vision / 3D Panoptic Segmentation
+**会议**: ICCV 2025  
+**arXiv**: [2506.21348](https://arxiv.org/abs/2506.21348)  
+**代码**: 有 (NAVER LABS Europe)  
+**领域**: 3D Vision / 3D Panoptic Segmentation  
 **关键词**: Panoptic Segmentation, 3D Reconstruction, MUSt3R, Multi-view, Mask Prediction
 
 ## 一句话总结

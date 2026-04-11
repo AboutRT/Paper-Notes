@@ -1,9 +1,9 @@
 # SparseVLM: Visual Token Sparsification for Efficient VLM Inference
 
-**会议**: ICML2025
-**arXiv**: [2410.04417](https://arxiv.org/abs/2410.04417)
-**代码**: [GitHub - SparseVLM](https://github.com/Gumpest/SparseVLMs)
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2410.04417](https://arxiv.org/abs/2410.04417)  
+**代码**: [GitHub - SparseVLM](https://github.com/Gumpest/SparseVLMs)  
+**领域**: multimodal_vlm  
 **关键词**: VLM加速, 视觉token稀疏化, 无训练, 文本引导, token回收
 
 ## 一句话总结
@@ -73,6 +73,7 @@
 - 价值: 4.5/5 — VLM加速的实用方法
 
 ## 补充分析
+
 ### 与FastV的核心差异
 FastV训练专门的重要性预测器，SparseVLM利用模型已有的注意力——后者零额外训练且不引入新的分布偏差。
 
@@ -84,5 +85,6 @@ FastV训练专门的重要性预测器，SparseVLM利用模型已有的注意力
 
 ### Rank-based策略的优势
 vs固定比例：不同层的token重要性分布不同。Rank-based根据实际分布自动调整，而非一刀切。
+
 ### 文本引导的数学直觉
 如果文本query"这张图里有什么动物"，注意力矩阵中"动物"相关文本token高度关注的视觉token就是重要的，其余可以稀疏化。

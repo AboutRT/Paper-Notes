@@ -1,8 +1,8 @@
 # QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models
 
-**会议**: CVPR 2026
-**arXiv**: [2602.20309](https://arxiv.org/abs/2602.20309)
-**代码**: 无
+**会议**: CVPR 2026  
+**arXiv**: [2602.20309](https://arxiv.org/abs/2602.20309)  
+**代码**: 无  
 **领域**: 模型压缩
 
 ## 一句话总结

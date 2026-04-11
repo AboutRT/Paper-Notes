@@ -1,9 +1,9 @@
 # Latent Diffusion Model without Variational Autoencoder
 
-**会议**: ICLR 2026
-**arXiv**: [2510.15301](https://arxiv.org/abs/2510.15301)
-**代码**: [GitHub](https://github.com/shiml20/SVG)
-**领域**: 扩散模型 / 视觉表征
+**会议**: ICLR 2026  
+**arXiv**: [2510.15301](https://arxiv.org/abs/2510.15301)  
+**代码**: [GitHub](https://github.com/shiml20/SVG)  
+**领域**: 扩散模型 / 视觉表征  
 **关键词**: 自监督表征, DINOv3, 无VAE潜在扩散, 统一特征空间, 少步生成
 
 ## 一句话总结

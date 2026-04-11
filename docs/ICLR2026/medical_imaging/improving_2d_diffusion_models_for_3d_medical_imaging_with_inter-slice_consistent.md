@@ -1,9 +1,9 @@
 # Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity
 
-**会议**: ICLR 2026
-**arXiv**: [2602.04162](https://arxiv.org/abs/2602.04162)
-**代码**: [GitHub](https://github.com/duchenhe/ISCS)
-**领域**: 医学图像/扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2602.04162](https://arxiv.org/abs/2602.04162)  
+**代码**: [GitHub](https://github.com/duchenhe/ISCS)  
+**领域**: 医学图像/扩散模型  
 **关键词**: 3D医学重建, 2D扩散模型, 层间一致性, 球面线性插值, 即插即用
 
 ## 一句话总结

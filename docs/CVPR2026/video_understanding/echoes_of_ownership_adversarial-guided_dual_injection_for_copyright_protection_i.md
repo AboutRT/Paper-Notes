@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Echoes of Ownership: Adversarial-Guided Dual Injection for Copyright Protection in MLLMs
 
-**会议**: CVPR2026
-**arXiv**: [2602.18845](https://arxiv.org/abs/2602.18845)
-**代码**: [GitHub](https://github.com/kunzhan/AGDI)
-**领域**: 多模态大模型安全
+**会议**: CVPR2026  
+**arXiv**: [2602.18845](https://arxiv.org/abs/2602.18845)  
+**代码**: [GitHub](https://github.com/kunzhan/AGDI)  
+**领域**: 多模态大模型安全  
 **关键词**: MLLM版权保护, 对抗攻击, 触发图像, 双注入, CLIP语义对齐, 黑盒追踪
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing
 
-**会议**: CVPR2026
-**arXiv**: [2603.12254](https://arxiv.org/abs/2603.12254)
-**代码**: [autogaze.github.io](https://autogaze.github.io/)
-**领域**: 视频理解
+**会议**: CVPR2026  
+**arXiv**: [2603.12254](https://arxiv.org/abs/2603.12254)  
+**代码**: [autogaze.github.io](https://autogaze.github.io/)  
+**领域**: 视频理解  
 **关键词**: 视频冗余去除, 自回归注视, 多尺度patch选择, 视觉token压缩, 长视频高分辨率理解
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Modal Aphasia: Can Unified Multimodal Models Describe Images From Memory?
 
-**会议**: ICLR 2026
-**arXiv**: [2510.21842](https://arxiv.org/abs/2510.21842)
-**代码**: [GitHub](https://github.com/ethz-spylab/modal-aphasia)
-**领域**: 多模态VLM/安全
+**会议**: ICLR 2026  
+**arXiv**: [2510.21842](https://arxiv.org/abs/2510.21842)  
+**代码**: [GitHub](https://github.com/ethz-spylab/modal-aphasia)  
+**领域**: 多模态VLM/安全  
 **关键词**: 模态失语, 统一多模态模型, 跨模态知识迁移, AI安全, 记忆化
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Clipping Improves Adam-Norm and AdaGrad-Norm when the Noise Is Heavy-Tailed
 
-**会议**: ICML 2025
-**arXiv**: [2406.04443](https://arxiv.org/abs/2406.04443)
-**代码**: 无
-**领域**: 优化
+**会议**: ICML 2025  
+**arXiv**: [2406.04443](https://arxiv.org/abs/2406.04443)  
+**代码**: 无  
+**领域**: 优化  
 **关键词**: 梯度裁剪, Adam, AdaGrad, 重尾噪声, 高概率收敛
 
 ## 一句话总结

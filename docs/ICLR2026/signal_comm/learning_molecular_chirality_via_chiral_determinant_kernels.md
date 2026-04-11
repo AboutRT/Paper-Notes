@@ -18,6 +18,7 @@
 - 需要一个统一框架同时捕获两种手性并保持SE(3)不变性
 
 ## 方法详解
+
 ### 整体框架
 给定分子 $\bm{z} = (\bm{X}, \bm{H})$（3D 坐标 + 原子特征），构建分子图 $\mathcal{G}$，将原子分为手性原子 $\mathcal{I}_c$、手性相关原子 $\mathcal{I}_r$ 和非手性原子 $\mathcal{I}_n$ 三类。流程：(1) Chiral Encoder 用行列式核计算手性原子的立体化学嵌入 + 三类原子各自的特征投影；(2) Chiral Transformer 用手性原子作 query、其他原子作 key/value 的交叉注意力传播手性信息；(3) Predictor 头做下游预测。
 

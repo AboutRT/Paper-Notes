@@ -1,10 +1,10 @@
 # CAVGAN: Unifying Jailbreak and Defense of LLMs via Generative Adversarial Attacks
 
-**会议**: ACL 2025
-**arXiv**: [2507.06043](https://arxiv.org/abs/2507.06043)
-**代码**: [GitHub](https://github.com/NLPGM/CAVGAN)
+**会议**: ACL 2025  
+**arXiv**: [2507.06043](https://arxiv.org/abs/2507.06043)  
+**代码**: [GitHub](https://github.com/NLPGM/CAVGAN)  
 **机构**: 武汉大学计算机学院, 中关村学院
-**领域**: AI 安全
+**领域**: AI 安全  
 **关键词**: jailbreak, defense, GAN, concept activation vector, LLM safety, adversarial training
 
 ## 一句话总结

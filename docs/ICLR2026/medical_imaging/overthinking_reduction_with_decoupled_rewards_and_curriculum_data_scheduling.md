@@ -1,9 +1,9 @@
 # Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25827](https://arxiv.org/abs/2509.25827)
-**代码**: [GitHub](https://github.com/pixas/DECS)
-**领域**: LLM推理效率
+**会议**: ICLR 2026  
+**arXiv**: [2509.25827](https://arxiv.org/abs/2509.25827)  
+**代码**: [GitHub](https://github.com/pixas/DECS)  
+**领域**: LLM推理效率  
 **关键词**: 过度思考, 解耦奖励, 课程调度, 必要推理前缀, GRPO
 
 ## 一句话总结

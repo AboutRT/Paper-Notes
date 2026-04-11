@@ -1,9 +1,9 @@
 # Mario: Multimodal Graph Reasoning with Large Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.05181](https://arxiv.org/abs/2603.05181)
-**代码**: 即将公开
-**领域**: 图学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.05181](https://arxiv.org/abs/2603.05181)  
+**代码**: 即将公开  
+**领域**: 图学习  
 **关键词**: 多模态图, LLM推理, 视觉语言对齐, 模态自适应路由, 指令微调
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Posterior Sampling by Combining Diffusion Models with Annealed Langevin Dynamics
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.26324](https://arxiv.org/abs/2510.26324)
-**代码**: 无
-**领域**: 医学图像
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.26324](https://arxiv.org/abs/2510.26324)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 后验采样, 扩散模型, Langevin动力学, 逆问题, 压缩感知
 
 ## 一句话总结

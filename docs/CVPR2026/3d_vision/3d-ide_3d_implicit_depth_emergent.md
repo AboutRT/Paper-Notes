@@ -1,9 +1,9 @@
 # 3D-IDE: 3D Implicit Depth Emergent
 
-**会议**: CVPR 2026
-**arXiv**: [2604.03296](https://arxiv.org/abs/2604.03296)
-**代码**: [GitHub](https://github.com/ChushanZhang/3D-IDE) (有)
-**领域**: 3D视觉 / 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2604.03296](https://arxiv.org/abs/2604.03296)  
+**代码**: [GitHub](https://github.com/ChushanZhang/3D-IDE) (有)  
+**领域**: 3D视觉 / 多模态VLM  
 **关键词**: 3D场景理解, 多模态大语言模型, 隐式几何涌现, 深度估计, 推理时零开销
 
 ## 一句话总结
@@ -19,6 +19,7 @@
 5. **核心idea**：弱验证器 + 强约束 = 3D感知涌现在共享编码器中。
 
 ## 方法详解
+
 ### 整体框架
 输入RGB视频帧 → SigLIP视觉编码器提取特征 $F_t$ → 直接作为3D感知特征 $F_t^{3D} \equiv F_t$ → 投影到语言空间 → Qwen2-7B LLM 进行推理。训练时附加辅助几何模块（推理时移除）。
 
@@ -47,6 +48,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{ce} + \mathcal{L}_{\text{geometry}} 
 - 8× H100 GPU，32帧采样
 
 ## 实验关键数据
+
 ### 主实验
 | 基准 | 指标 | 3D-IDE (仅RGB) | Video-3D LLM* (仅RGB) | Video-3D LLM (有3D输入) |
 |------|------|------|----------|------|

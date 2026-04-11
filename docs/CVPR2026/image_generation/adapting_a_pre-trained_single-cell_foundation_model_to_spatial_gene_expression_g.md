@@ -1,9 +1,9 @@
 # HINGE: Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images
 
-**会议**: CVPR 2026
-**arXiv**: [2603.19766](https://arxiv.org/abs/2603.19766)
-**代码**: https://github.com/donghaifang/HINGE (有)
-**领域**: 生物医学图像 / 生成模型
+**会议**: CVPR 2026  
+**arXiv**: [2603.19766](https://arxiv.org/abs/2603.19766)  
+**代码**: https://github.com/donghaifang/HINGE (有)  
+**领域**: 生物医学图像 / 生成模型  
 **关键词**: 空间转录组学, 单细胞基础模型, 掩码扩散, 组织学条件生成, SoftAdaLN
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Mitigating Plasticity Loss in Continual Reinforcement Learning by Reducing Churn
 
-**会议**: ICML2025
-**arXiv**: [2506.00592](https://arxiv.org/abs/2506.00592)
-**代码**: [bluecontra/C-CHAIN](https://github.com/bluecontra/C-CHAIN)
-**领域**: 持续强化学习 (Continual RL)
+**会议**: ICML2025  
+**arXiv**: [2506.00592](https://arxiv.org/abs/2506.00592)  
+**代码**: [bluecontra/C-CHAIN](https://github.com/bluecontra/C-CHAIN)  
+**领域**: 持续强化学习 (Continual RL)  
 **关键词**: 可塑性丧失, churn, Neural Tangent Kernel, 持续学习, 梯度去相关
 
 ## 一句话总结

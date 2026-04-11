@@ -1,9 +1,9 @@
 # A Reasoning-Based Approach to Cryptic Crossword Clue Solving
 
-**会议**: ICML 2025
-**arXiv**: [2506.04824](https://arxiv.org/abs/2506.04824)
-**代码**: https://github.com/mdda/cryptic-crossword-reasoning-verifier
-**领域**: LLM推理
+**会议**: ICML 2025  
+**arXiv**: [2506.04824](https://arxiv.org/abs/2506.04824)  
+**代码**: https://github.com/mdda/cryptic-crossword-reasoning-verifier  
+**领域**: LLM推理  
 **关键词**: cryptic crossword, 推理验证, Python DSL, fine-tuning, 形式化推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Enhancing Decision-Making of Large Language Models via Actor-Critic
 
-**会议**: ICML2025
-**arXiv**: [2506.06376](https://arxiv.org/abs/2506.06376)
-**代码**: [GitHub](https://github.com/drdh/LAC)
-**领域**: LLM决策 / 强化学习 / Agent
+**会议**: ICML2025  
+**arXiv**: [2506.06376](https://arxiv.org/abs/2506.06376)  
+**代码**: [GitHub](https://github.com/drdh/LAC)  
+**领域**: LLM决策 / 强化学习 / Agent  
 **关键词**: Actor-Critic, LLM Agent, 无梯度策略优化, Q值估计, 序列决策
 
 ## 一句话总结

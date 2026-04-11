@@ -1,9 +1,9 @@
 # Update Your Transformer to the Latest Release: Re-Basin of Task Vectors
 
-**会议**: ICML2025
-**arXiv**: [2505.22697](https://arxiv.org/abs/2505.22697)
-**代码**: [TransFusion](https://github.com/aimagelab/TransFusion)
-**领域**: self_supervised
+**会议**: ICML2025  
+**arXiv**: [2505.22697](https://arxiv.org/abs/2505.22697)  
+**代码**: [TransFusion](https://github.com/aimagelab/TransFusion)  
+**领域**: self_supervised  
 **关键词**: 模型再基化, 任务向量, Transformer权重对齐, 权重置换, 免数据迁移
 
 ## 一句话总结

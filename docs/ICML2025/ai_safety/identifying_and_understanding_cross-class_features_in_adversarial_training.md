@@ -1,9 +1,9 @@
 # Identifying and Understanding Cross-Class Features in Adversarial Training
 
-**会议**: ICML2025
-**arXiv**: [2506.05032](https://arxiv.org/abs/2506.05032)
-**代码**: [PKU-ML/Cross-Class-Features-AT](https://github.com/PKU-ML/Cross-Class-Features-AT)
-**领域**: 对抗训练 / AI安全
+**会议**: ICML2025  
+**arXiv**: [2506.05032](https://arxiv.org/abs/2506.05032)  
+**代码**: [PKU-ML/Cross-Class-Features-AT](https://github.com/PKU-ML/Cross-Class-Features-AT)  
+**领域**: 对抗训练 / AI安全  
 **关键词**: 对抗训练, 跨类特征, 鲁棒过拟合, 知识蒸馏, 特征归因
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization
 
-**会议**: CVPR2026
-**arXiv**: [2602.24059](https://arxiv.org/abs/2602.24059)
-**代码**: 无
-**领域**: multimodal_vlm
+**会议**: CVPR2026  
+**arXiv**: [2602.24059](https://arxiv.org/abs/2602.24059)  
+**代码**: 无  
+**领域**: multimodal_vlm  
 **关键词**: Post-Training Quantization, Vision-Language Models, Mixture of Experts, Low-Rank Adaptation, Token-aware Quantization
 
 ## 一句话总结

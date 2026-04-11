@@ -1,9 +1,9 @@
 # MoMa: A Modular Deep Learning Framework for Material Property Prediction
 
-**会议**: ICLR 2026
-**arXiv**: [2502.15483](https://arxiv.org/abs/2502.15483)
-**代码**: [GitHub](https://github.com/GenSI-THUAIR/MoMa)
-**领域**: 材料科学/模块化学习
+**会议**: ICLR 2026  
+**arXiv**: [2502.15483](https://arxiv.org/abs/2502.15483)  
+**代码**: [GitHub](https://github.com/GenSI-THUAIR/MoMa)  
+**领域**: 材料科学/模块化学习  
 **关键词**: 材料属性预测, 模块化, 自适应组合, 知识复用, 少样本
 
 ## 一句话总结

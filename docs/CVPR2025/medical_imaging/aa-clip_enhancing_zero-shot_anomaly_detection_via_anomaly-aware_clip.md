@@ -1,9 +1,9 @@
 # AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP
 
-**会议**: CVPR 2025
-**arXiv**: [2503.06661](https://arxiv.org/abs/2503.06661)
-**代码**: https://github.com/Mwxinnn/AA-CLIP (有)
-**领域**: 异常检测 / 医学影像
+**会议**: CVPR 2025  
+**arXiv**: [2503.06661](https://arxiv.org/abs/2503.06661)  
+**代码**: https://github.com/Mwxinnn/AA-CLIP (有)  
+**领域**: 异常检测 / 医学影像  
 **关键词**: 零样本异常检测, CLIP适配, 文本锚点解耦, 残差适配器, 工业/医学异常
 
 ## 一句话总结

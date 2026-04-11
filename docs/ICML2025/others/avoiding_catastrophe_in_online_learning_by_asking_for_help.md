@@ -1,9 +1,9 @@
 # Avoiding Catastrophe in Online Learning by Asking for Help
 
-**会议**: ICML2025
-**arXiv**: [2402.08062](https://arxiv.org/abs/2402.08062)
-**代码**: 待确认
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2402.08062](https://arxiv.org/abs/2402.08062)  
+**代码**: 待确认  
+**领域**: others  
 **关键词**: 在线学习, AI安全, 灾难性风险, 求助机制, 后悔界
 
 ## 一句话总结

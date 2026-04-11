@@ -1,9 +1,9 @@
 # Geometry-to-Image Synthesis-Driven Generative Point Cloud Registration
 
-**会议**: ICML2025
-**arXiv**: [2512.09407](https://arxiv.org/abs/2512.09407)
-**代码**: 待确认
-**领域**: autonomous_driving
+**会议**: ICML2025  
+**arXiv**: [2512.09407](https://arxiv.org/abs/2512.09407)  
+**代码**: 待确认  
+**领域**: autonomous_driving  
 **关键词**: 点云配准, 2D生成模型, ControlNet, 几何-颜色融合, 跨视图一致性
 
 ## 一句话总结

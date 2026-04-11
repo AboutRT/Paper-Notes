@@ -1,8 +1,8 @@
 # Understanding Synthetic Context Extension via Retrieval Heads
 
-**会议**: ICML 2025
-**arXiv**: [2410.22316](https://arxiv.org/abs/2410.22316)
-**领域**: LLM效率
+**会议**: ICML 2025  
+**arXiv**: [2410.22316](https://arxiv.org/abs/2410.22316)  
+**领域**: LLM效率  
 **关键词**: 长上下文扩展, 合成数据, 检索头, 注意力机制, 机制可解释性, 激活修补
 
 ## 一句话总结

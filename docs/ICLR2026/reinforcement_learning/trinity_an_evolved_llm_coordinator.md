@@ -1,9 +1,9 @@
 # Trinity: An Evolved LLM Coordinator
 
-**会议**: ICLR 2026
-**arXiv**: [2512.04695](https://arxiv.org/abs/2512.04695)
-**代码**: 无（Sakana AI）
-**领域**: 强化学习 / LLM协作
+**会议**: ICLR 2026  
+**arXiv**: [2512.04695](https://arxiv.org/abs/2512.04695)  
+**代码**: 无（Sakana AI）  
+**领域**: 强化学习 / LLM协作  
 **关键词**: LLM协调, 模型组合, 进化策略, CMA-ES, 多角色协作, test-time composition
 
 ## 一句话总结

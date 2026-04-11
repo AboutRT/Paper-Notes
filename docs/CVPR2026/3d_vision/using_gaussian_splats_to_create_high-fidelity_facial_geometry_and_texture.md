@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Using Gaussian Splats to Create High-Fidelity Facial Geometry and Texture
 
-**会议**: CVPR2026
-**arXiv**: [2512.16397](https://arxiv.org/abs/2512.16397)
-**代码**: 未开源（Epic Games / Stanford）
-**领域**: 3D视觉 / 人脸重建
+**会议**: CVPR2026  
+**arXiv**: [2512.16397](https://arxiv.org/abs/2512.16397)  
+**代码**: 未开源（Epic Games / Stanford）  
+**领域**: 3D视觉 / 人脸重建  
 **关键词**: Gaussian Splatting, 人脸几何重建, 去光照纹理, 语义分割约束, 神经纹理, MetaHuman
 
 ## 一句话总结

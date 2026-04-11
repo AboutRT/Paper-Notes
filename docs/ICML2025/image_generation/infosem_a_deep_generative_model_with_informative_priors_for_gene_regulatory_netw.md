@@ -1,8 +1,8 @@
 # InfoSEM: A Deep Generative Model with Informative Priors for Gene Regulatory Network Inference
 
-**会议**: ICML2025
-**arXiv**: [2503.04483](https://arxiv.org/abs/2503.04483)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2503.04483](https://arxiv.org/abs/2503.04483)  
+**领域**: image_generation  
 **关键词**: 基因调控网络, 无监督生成模型, 文本嵌入先验, 变分推断, 生物标记物发现
 
 ## 一句话总结

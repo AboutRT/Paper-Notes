@@ -1,9 +1,9 @@
 # MSRL: Scaling Generative Multimodal Reward Modeling via Multi-Stage Reinforcement Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25108](https://arxiv.org/abs/2603.25108)
-**代码**: https://github.com/wangclnlp/MSRL (有)
-**领域**: 强化学习 / 多模态奖励建模
+**会议**: CVPR 2026  
+**arXiv**: [2603.25108](https://arxiv.org/abs/2603.25108)  
+**代码**: https://github.com/wangclnlp/MSRL (有)  
+**领域**: 强化学习 / 多模态奖励建模  
 **关键词**: 多模态奖励模型, 生成式奖励, 多阶段RL, 跨模态知识蒸馏, 偏好对齐
 
 ## 一句话总结

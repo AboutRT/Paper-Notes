@@ -1,9 +1,9 @@
 # SpecGuard: Spectral Projection-based Advanced Invisible Watermarking
 
-**会议**: ICCV2025
-**arXiv**: [2510.07302](https://arxiv.org/abs/2510.07302)
-**代码**: https://github.com/SpecGuard (已开源)
-**领域**: AI安全 / 数字水印
+**会议**: ICCV2025  
+**arXiv**: [2510.07302](https://arxiv.org/abs/2510.07302)  
+**代码**: https://github.com/SpecGuard (已开源)  
+**领域**: AI安全 / 数字水印  
 **关键词**: 不可见水印, 频谱投影, 小波变换, FFT, Parseval定理
 
 ## 一句话总结

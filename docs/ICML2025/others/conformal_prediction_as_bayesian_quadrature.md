@@ -1,9 +1,9 @@
 # Conformal Prediction as Bayesian Quadrature
 
-**会议**: ICML 2025
-**arXiv**: [2502.13228](https://arxiv.org/abs/2502.13228)
-**代码**: 无
-**领域**: 其他/不确定性量化
+**会议**: ICML 2025  
+**arXiv**: [2502.13228](https://arxiv.org/abs/2502.13228)  
+**代码**: 无  
+**领域**: 其他/不确定性量化  
 **关键词**: 共形预测, 贝叶斯求积, 不确定性量化, 概率数值方法, 分布无关
 
 ## 一句话总结

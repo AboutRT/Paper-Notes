@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Foundation Cures Personalization: Improving Personalized Models' Prompt Consistency via Hidden Foundation Knowledge
 
-**会议**: NeurIPS2025
-**arXiv**: [2411.15277](https://arxiv.org/abs/2411.15277)
-**代码**: [项目页](https://yiyangcai.github.io/freecure-aigc.github.io/)
-**领域**: image_generation
+**会议**: NeurIPS2025  
+**arXiv**: [2411.15277](https://arxiv.org/abs/2411.15277)  
+**代码**: [项目页](https://yiyangcai.github.io/freecure-aigc.github.io/)  
+**领域**: image_generation  
 **关键词**: face personalization, prompt consistency, identity fidelity, self-attention, training-free
 
 ## 一句话总结

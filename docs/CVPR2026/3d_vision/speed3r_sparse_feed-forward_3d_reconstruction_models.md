@@ -1,9 +1,9 @@
 # Speed3R: Sparse Feed-forward 3D Reconstruction Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.08055](https://arxiv.org/abs/2603.08055)
-**代码**: https://visual-ai.github.io/speed3r/
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.08055](https://arxiv.org/abs/2603.08055)  
+**代码**: https://visual-ai.github.io/speed3r/  
+**领域**: 3D视觉  
 **关键词**: 3D重建, 稀疏注意力, Feed-forward, 推理加速, Structure-from-Motion
 
 ## 一句话总结

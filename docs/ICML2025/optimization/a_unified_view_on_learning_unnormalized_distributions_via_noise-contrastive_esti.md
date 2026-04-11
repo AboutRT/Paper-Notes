@@ -1,9 +1,9 @@
 # A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation
 
-**会议**: ICML 2025
-**arXiv**: [2409.18209](https://arxiv.org/abs/2409.18209)
-**代码**: 无
-**领域**: 优化 / 统计估计
+**会议**: ICML 2025  
+**arXiv**: [2409.18209](https://arxiv.org/abs/2409.18209)  
+**代码**: 无  
+**领域**: 优化 / 统计估计  
 **关键词**: noise-contrastive estimation, unnormalized distributions, energy-based models, exponential families, convergence rates
 
 ## 一句话总结

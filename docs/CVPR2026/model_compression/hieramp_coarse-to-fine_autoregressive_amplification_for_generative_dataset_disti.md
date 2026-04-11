@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation
 
-**会议**: CVPR2026
-**arXiv**: [2603.06932](https://arxiv.org/abs/2603.06932)
-**代码**: [Oshikaka/HIERAMP](https://github.com/Oshikaka/HIERAMP)
-**领域**: 模型压缩 / 数据集蒸馏
+**会议**: CVPR2026  
+**arXiv**: [2603.06932](https://arxiv.org/abs/2603.06932)  
+**代码**: [Oshikaka/HIERAMP](https://github.com/Oshikaka/HIERAMP)  
+**领域**: 模型压缩 / 数据集蒸馏  
 **关键词**: 数据集蒸馏, 视觉自回归模型, 层次语义放大, 粗到细生成, codebook token 多样性
 
 ## 一句话总结

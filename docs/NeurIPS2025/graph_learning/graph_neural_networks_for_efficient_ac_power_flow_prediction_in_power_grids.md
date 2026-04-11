@@ -1,9 +1,9 @@
 # Graph Neural Networks for Efficient AC Power Flow Prediction in Power Grids
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.05702](https://arxiv.org/abs/2502.05702)
-**代码**: [GitHub](https://github.com/Amirtalebi83/GNN-OptimalPowerFlow)
-**领域**: 图学习 / 电力系统
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.05702](https://arxiv.org/abs/2502.05702)  
+**代码**: [GitHub](https://github.com/Amirtalebi83/GNN-OptimalPowerFlow)  
+**领域**: 图学习 / 电力系统  
 **关键词**: GNN, AC 潮流计算, 电力系统, 图卷积, 最优潮流
 
 ## 一句话总结

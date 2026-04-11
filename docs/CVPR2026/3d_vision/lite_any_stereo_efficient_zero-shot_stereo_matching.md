@@ -1,9 +1,9 @@
 # Lite Any Stereo: Efficient Zero-Shot Stereo Matching
 
-**会议**: CVPR 2026
-**arXiv**: [2511.16555](https://arxiv.org/abs/2511.16555)
-**代码**: [tomtomtommi/LiteAnyStereo](https://tomtomtommi.github.io/LiteAnyStereo/)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2511.16555](https://arxiv.org/abs/2511.16555)  
+**代码**: [tomtomtommi/LiteAnyStereo](https://tomtomtommi.github.io/LiteAnyStereo/)  
+**领域**: 3D视觉  
 **关键词**: 立体匹配, 零样本泛化, 高效推理, 混合代价聚合, 知识蒸馏
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecasters
 
-**会议**: ICML2025
-**arXiv**: [2408.17253](https://arxiv.org/abs/2408.17253)
-**代码**: [Keytoyze/VisionTS](https://github.com/Keytoyze/VisionTS)
-**领域**: 时序预测 / 跨模态迁移
+**会议**: ICML2025  
+**arXiv**: [2408.17253](https://arxiv.org/abs/2408.17253)  
+**代码**: [Keytoyze/VisionTS](https://github.com/Keytoyze/VisionTS)  
+**领域**: 时序预测 / 跨模态迁移  
 **关键词**: 时间序列预测, 视觉基础模型, Masked Autoencoder, 零样本预测, 跨模态迁移
 
 ## 一句话总结

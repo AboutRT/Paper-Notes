@@ -1,9 +1,9 @@
 # From Prediction to Perfection: Introducing Refinement to Autoregressive Image Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2505.16324](https://arxiv.org/abs/2505.16324)
-**代码**: 无
-**领域**: 图像生成/自回归
+**会议**: ICLR 2026  
+**arXiv**: [2505.16324](https://arxiv.org/abs/2505.16324)  
+**代码**: 无  
+**领域**: 图像生成/自回归  
 **关键词**: 自回归, 精修, tensor预测, 离散扩散噪声, 即插即用
 
 ## 一句话总结

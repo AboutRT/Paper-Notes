@@ -1,9 +1,9 @@
 # HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images
 
-**会议**: CVPR 2026
-**arXiv**: [2603.02210](https://arxiv.org/abs/2603.02210)
-**代码**: [项目页面](https://correr-zhou.github.io/HiFi-Inpaint)
-**领域**: 扩散模型/图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.02210](https://arxiv.org/abs/2603.02210)  
+**代码**: [项目页面](https://correr-zhou.github.io/HiFi-Inpaint)  
+**领域**: 扩散模型/图像生成  
 **关键词**: 参考图像修复, 高保真细节保持, 人-产品图像生成, 高频信息引导, DiT
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Paper Copilot: Tracking the Evolution of Peer Review in AI Conferences
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13201](https://arxiv.org/abs/2510.13201)
-**代码**: [项目页面](https://papercopilot.com)
-**领域**: 科学计量/评审分析
+**会议**: ICLR 2026  
+**arXiv**: [2510.13201](https://arxiv.org/abs/2510.13201)  
+**代码**: [项目页面](https://papercopilot.com)  
+**领域**: 科学计量/评审分析  
 **关键词**: 同行评审, 评分动态, 会议统计, 数据集, 人才追踪
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Heterogeneous Federated Fine-Tuning with Parallel One-Rank Adaptation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.16936](https://arxiv.org/abs/2602.16936)
-**代码**: [GitHub](https://github.com/TNI-playground/Fed-PLoRA)
-**领域**: 联邦学习/高效微调
+**会议**: ICLR 2026  
+**arXiv**: [2602.16936](https://arxiv.org/abs/2602.16936)  
+**代码**: [GitHub](https://github.com/TNI-playground/Fed-PLoRA)  
+**领域**: 联邦学习/高效微调  
 **关键词**: 联邦微调, LoRA, 异构秩, 初始化噪声, 聚合噪声
 
 ## 一句话总结

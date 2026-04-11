@@ -1,9 +1,9 @@
 # TokMem: One-Token Procedural Memory for Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.00444](https://arxiv.org/abs/2510.00444)
-**代码**: [https://github.com/MANGA-UOFA/TokMem](https://github.com/MANGA-UOFA/TokMem)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2510.00444](https://arxiv.org/abs/2510.00444)  
+**代码**: [https://github.com/MANGA-UOFA/TokMem](https://github.com/MANGA-UOFA/TokMem)  
+**领域**: 模型压缩  
 **关键词**: 程序性记忆, 记忆 token, 持续学习, 上下文压缩, 工具调用
 
 ## 一句话总结

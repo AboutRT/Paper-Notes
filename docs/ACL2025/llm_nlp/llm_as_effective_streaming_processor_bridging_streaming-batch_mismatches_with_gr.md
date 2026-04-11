@@ -1,9 +1,9 @@
 # LLM as Effective Streaming Processor: Bridging Streaming-Batch Mismatches with Group Position Encoding
 
-**会议**: ACL 2025
-**arXiv**: [2505.16983](https://arxiv.org/abs/2505.16983)
-**代码**: https://github.com/EIT-NLP/StreamingLLM (有)
-**领域**: LLM效率 / 流式处理
+**会议**: ACL 2025  
+**arXiv**: [2505.16983](https://arxiv.org/abs/2505.16983)  
+**代码**: https://github.com/EIT-NLP/StreamingLLM (有)  
+**领域**: LLM效率 / 流式处理  
 **关键词**: 流式推理, 位置编码, 批次-流式不匹配, 组位置编码, RoPE, 同声传译, ASR
 
 ## 一句话总结

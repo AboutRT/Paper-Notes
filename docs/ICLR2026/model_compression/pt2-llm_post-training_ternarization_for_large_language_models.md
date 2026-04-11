@@ -1,9 +1,9 @@
 # PT2-LLM: Post-Training Ternarization for Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2510.03267](https://arxiv.org/abs/2510.03267)
-**代码**: [GitHub](https://github.com/XIANGLONGYAN/PT2-LLM)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2510.03267](https://arxiv.org/abs/2510.03267)  
+**代码**: [GitHub](https://github.com/XIANGLONGYAN/PT2-LLM)  
+**领域**: 模型压缩  
 **关键词**: 三值化, 后训练量化, 极低比特, LLM压缩, 列重排序
 
 ## 一句话总结

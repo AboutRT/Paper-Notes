@@ -1,9 +1,9 @@
 # Prompt-Driven Lightweight Foundation Model for Instance Segmentation-Based Fault Detection in Freight Trains
 
-**会议**: CVPR2026
-**arXiv**: [2603.12624](https://arxiv.org/abs/2603.12624)
-**代码**: [MVME-HBUT/SAM_FTI-FDet](https://github.com/MVME-HBUT/SAM_FTI-FDet)
-**领域**: 语义分割
+**会议**: CVPR2026  
+**arXiv**: [2603.12624](https://arxiv.org/abs/2603.12624)  
+**代码**: [MVME-HBUT/SAM_FTI-FDet](https://github.com/MVME-HBUT/SAM_FTI-FDet)  
+**领域**: 语义分割  
 **关键词**: SAM, 实例分割, 故障检测, 轻量化基础模型, 自动提示生成, 货运列车检测
 
 ## 一句话总结

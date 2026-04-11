@@ -1,9 +1,9 @@
 # GuardAgent: Safeguard LLM Agents via Knowledge-Enabled Reasoning
 
-**会议**: ICML2025
-**arXiv**: [2406.09187](https://arxiv.org/abs/2406.09187)
-**代码**: [GuardAgent 项目页](https://guardagent.github.io/)
-**领域**: llm_agent
+**会议**: ICML2025  
+**arXiv**: [2406.09187](https://arxiv.org/abs/2406.09187)  
+**代码**: [GuardAgent 项目页](https://guardagent.github.io/)  
+**领域**: llm_agent  
 **关键词**: Agent 安全, 护栏代理, 代码生成执行, 访问控制, 安全策略
 
 ## 一句话总结

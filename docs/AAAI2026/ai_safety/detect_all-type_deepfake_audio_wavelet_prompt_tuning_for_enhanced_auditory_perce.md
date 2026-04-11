@@ -1,9 +1,9 @@
 # Detect All-Type Deepfake Audio: Wavelet Prompt Tuning for Enhanced Auditory Perception
 
-**会议**: AAAI 2026
-**arXiv**: [2504.06753](https://arxiv.org/abs/2504.06753)
-**代码**: 无
-**领域**: AI安全
+**会议**: AAAI 2026  
+**arXiv**: [2504.06753](https://arxiv.org/abs/2504.06753)  
+**代码**: 无  
+**领域**: AI安全  
 **关键词**: 深伪音频检测, 小波提示学习, 自监督学习, 跨类型检测, 频域分析
 
 ## 一句话总结

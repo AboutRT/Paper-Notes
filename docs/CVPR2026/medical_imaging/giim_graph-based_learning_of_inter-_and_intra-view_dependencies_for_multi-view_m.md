@@ -1,9 +1,9 @@
 # GIIM: Graph-based Learning of Inter- and Intra-view Dependencies for Multi-view Medical Image Diagnosis
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09446](https://arxiv.org/abs/2603.09446)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.09446](https://arxiv.org/abs/2603.09446)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 多视图医学影像, 图神经网络, 异构图, 缺失视图, 多模态诊断
 
 ## 一句话总结

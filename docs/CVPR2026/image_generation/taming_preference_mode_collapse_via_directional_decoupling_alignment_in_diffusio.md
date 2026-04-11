@@ -1,9 +1,9 @@
 # Taming Preference Mode Collapse via Directional Decoupling Alignment in Diffusion Reinforcement Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2512.24146](https://arxiv.org/abs/2512.24146)
-**代码**: 无
-**领域**: 图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2512.24146](https://arxiv.org/abs/2512.24146)  
+**代码**: 无  
+**领域**: 图像生成  
 **关键词**: 偏好模式坍塌, RLHF对齐, 扩散模型, 奖励修正, 生成多样性
 
 ## 一句话总结

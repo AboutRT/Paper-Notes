@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 通过构建~200k规模的多领域多任务时间序列QA数据集，持续预训练LLM使其获得时间序列知识和推理能力。
 
 ## 方法详解
+
 ### 整体框架
 Time-MQA学习函数 f:(X, C, Q) → A：
 - X: 时间序列输入
@@ -45,6 +46,7 @@ Time-MQA学习函数 f:(X, C, Q) → A：
 - 目标模块: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
 
 ## 实验关键数据
+
 ### 主实验 — 多任务性能对比
 
 | 模型 | Forecasting↓ | Imputation↓ | Anomaly↑ | Classification↑ | Judgment↑ | MCQ↑ |

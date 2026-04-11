@@ -1,9 +1,9 @@
 # CAPability: A Comprehensive Visual Caption Benchmark for Evaluation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.14914](https://arxiv.org/abs/2502.14914)
-**代码**: 有
-**领域**: 多模态VLM / 评估
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.14914](https://arxiv.org/abs/2502.14914)  
+**代码**: 有  
+**领域**: 多模态VLM / 评估  
 **关键词**: visual captioning, benchmark, multi-dimensional evaluation, VLM, KT gap
 
 ## 一句话总结

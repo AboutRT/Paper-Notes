@@ -1,9 +1,9 @@
 # Non-stationary Online Learning for Curved Losses: Improved Dynamic Regret via Mixability
 
-**会议**: ICML2025
-**arXiv**: [2506.10616](https://arxiv.org/abs/2506.10616)
-**代码**: 无
-**领域**: reinforcement_learning / online_learning
+**会议**: ICML2025  
+**arXiv**: [2506.10616](https://arxiv.org/abs/2506.10616)  
+**代码**: 无  
+**领域**: reinforcement_learning / online_learning  
 **关键词**: 动态遗憾, 在线凸优化, mixability, exp-concavity, 非平稳在线学习, 指数权重方法, fixed-share
 
 ## 一句话总结

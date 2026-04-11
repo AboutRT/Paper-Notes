@@ -1,9 +1,9 @@
 # Evaluating Neuron Explanations: A Unified Framework with Sanity Checks
 
-**会议**: ICML2025
-**arXiv**: [2506.05774](https://arxiv.org/abs/2506.05774)
-**代码**: [GitHub](https://github.com/Trustworthy-ML-Lab/Neuron_Eval)
-**领域**: 可解释性 / 机制可解释性
+**会议**: ICML2025  
+**arXiv**: [2506.05774](https://arxiv.org/abs/2506.05774)  
+**代码**: [GitHub](https://github.com/Trustworthy-ML-Lab/Neuron_Eval)  
+**领域**: 可解释性 / 机制可解释性  
 **关键词**: 神经元解释, 评估指标, 统一框架, 合理性检验, 机制可解释性
 
 ## 一句话总结

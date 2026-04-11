@@ -1,9 +1,9 @@
 # Understanding the Limits of Deep Tabular Methods with Temporal Shift
 
-**会议**: ICML 2025
-**arXiv**: [2502.20260](https://arxiv.org/abs/2502.20260)
-**代码**: [有](https://github.com/LAMDA-Tabular/Tabular-Temporal-Shift)
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2502.20260](https://arxiv.org/abs/2502.20260)  
+**代码**: [有](https://github.com/LAMDA-Tabular/Tabular-Temporal-Shift)  
+**领域**: 时间序列  
 **关键词**: 表格数据, 时间分布偏移, 数据划分策略, 时间嵌入, 傅里叶级数
 
 ## 一句话总结

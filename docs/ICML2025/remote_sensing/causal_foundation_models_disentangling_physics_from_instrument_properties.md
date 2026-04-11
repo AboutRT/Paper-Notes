@@ -1,9 +1,9 @@
 # Causal Foundation Models: Disentangling Physics from Instrument Properties
 
-**会议**: ICML 2025
-**arXiv**: [2507.05333](https://arxiv.org/abs/2507.05333)
-**代码**: 无
-**领域**: 遥感
+**会议**: ICML 2025  
+**arXiv**: [2507.05333](https://arxiv.org/abs/2507.05333)  
+**代码**: 无  
+**领域**: 遥感  
 **关键词**: 因果基础模型, 物理-仪器解耦, 对比学习, 时间序列, 天文观测
 
 ## 一句话总结

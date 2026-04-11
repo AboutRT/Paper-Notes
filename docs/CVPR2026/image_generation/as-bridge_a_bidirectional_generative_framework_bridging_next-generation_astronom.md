@@ -1,9 +1,9 @@
 # AS-Bridge: A Bidirectional Generative Framework Bridging Next-Generation Astronomical Surveys
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11928](https://arxiv.org/abs/2603.11928)
-**代码**: [有](https://github.com/ZHANG7DC/AS-Bridge)
-**领域**: 扩散模型/图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.11928](https://arxiv.org/abs/2603.11928)  
+**代码**: [有](https://github.com/ZHANG7DC/AS-Bridge)  
+**领域**: 扩散模型/图像生成  
 **关键词**: 天文巡天, Brownian Bridge, 跨模态翻译, 异常检测, 概率生成
 
 ## 一句话总结

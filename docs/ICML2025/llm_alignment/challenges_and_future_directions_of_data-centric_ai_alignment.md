@@ -1,9 +1,9 @@
 # Challenges and Future Directions of Data-Centric AI Alignment
 
-**会议**: ICML 2025
-**arXiv**: [2410.01957](https://arxiv.org/abs/2410.01957)
-**代码**: 无
-**领域**: LLM对齐
+**会议**: ICML 2025  
+**arXiv**: [2410.01957](https://arxiv.org/abs/2410.01957)  
+**代码**: 无  
+**领域**: LLM对齐  
 **关键词**: 数据中心对齐, 人类反馈, AI反馈, 数据质量, position paper
 
 ## 一句话总结

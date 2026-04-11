@@ -1,9 +1,9 @@
 # Closed-loop Long-horizon Robotic Planning via Equilibrium Sequence Modeling
 
-**会议**: ICML 2025
-**arXiv**: [2410.01440](https://arxiv.org/abs/2410.01440)
-**代码**: https://github.com/Singularity0104/equilibrium-planner
-**领域**: 机器人
+**会议**: ICML 2025  
+**arXiv**: [2410.01440](https://arxiv.org/abs/2410.01440)  
+**代码**: https://github.com/Singularity0104/equilibrium-planner  
+**领域**: 机器人  
 **关键词**: 机器人规划, 自精炼, 深度均衡模型, 长程规划, 推理时计算
 
 ## 一句话总结

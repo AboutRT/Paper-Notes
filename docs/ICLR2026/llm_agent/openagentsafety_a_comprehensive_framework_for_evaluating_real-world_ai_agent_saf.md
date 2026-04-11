@@ -1,9 +1,9 @@
 # OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety
 
-**会议**: ICLR 2026
-**arXiv**: [2507.06134](https://arxiv.org/abs/2507.06134)
-**代码**: [GitHub](https://github.com/Open-Agent-Safety/OpenAgentSafety)
-**领域**: llm_agent
+**会议**: ICLR 2026  
+**arXiv**: [2507.06134](https://arxiv.org/abs/2507.06134)  
+**代码**: [GitHub](https://github.com/Open-Agent-Safety/OpenAgentSafety)  
+**领域**: llm_agent  
 **关键词**: AI agent safety, benchmark, multi-turn evaluation, tool-use safety, LLM agent, red-teaming, rule-based evaluation
 
 ## 一句话总结

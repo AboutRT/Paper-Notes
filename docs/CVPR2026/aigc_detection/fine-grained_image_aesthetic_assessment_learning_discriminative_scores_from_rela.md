@@ -1,9 +1,9 @@
 # Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks
 
-**会议**: CVPR 2026
-**arXiv**: [2603.03907](https://arxiv.org/abs/2603.03907)
-**代码**: 待确认
-**领域**: AIGC检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.03907](https://arxiv.org/abs/2603.03907)  
+**代码**: 待确认  
+**领域**: AIGC检测  
 **关键词**: 图像美学评估, 细粒度评分, 相对排序, 判别学习, 审美感知
 
 ## 一句话总结

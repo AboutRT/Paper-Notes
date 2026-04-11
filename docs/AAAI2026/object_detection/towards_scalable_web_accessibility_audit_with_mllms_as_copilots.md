@@ -1,9 +1,9 @@
 # Towards Scalable Web Accessibility Audit with MLLMs as Copilots
 
-**会议**: AAAI2026
-**arXiv**: [2511.03471](https://arxiv.org/abs/2511.03471)
-**代码**: [eaglelab-zju/AAA](https://github.com/eaglelab-zju/AAA)
-**领域**: object_detection
+**会议**: AAAI2026  
+**arXiv**: [2511.03471](https://arxiv.org/abs/2511.03471)  
+**代码**: [eaglelab-zju/AAA](https://github.com/eaglelab-zju/AAA)  
+**领域**: object_detection  
 **关键词**: web accessibility, WCAG-EM, multimodal LLM, graph neural network, page sampling
 
 ## 一句话总结

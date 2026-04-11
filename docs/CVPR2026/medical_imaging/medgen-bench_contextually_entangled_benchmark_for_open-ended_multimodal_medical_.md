@@ -1,9 +1,9 @@
 # MedGEN-Bench: Contextually Entangled Benchmark for Open-Ended Multimodal Medical Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2511.13135](https://arxiv.org/abs/2511.13135)
-**代码**: 待公开（论文中承诺开源）
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2511.13135](https://arxiv.org/abs/2511.13135)  
+**代码**: 待公开（论文中承诺开源）  
+**领域**: 医学图像  
 **关键词**: 多模态医学生成, 基准测试, VLM评估, 图文交缠, 开放式生成
 
 ## 一句话总结

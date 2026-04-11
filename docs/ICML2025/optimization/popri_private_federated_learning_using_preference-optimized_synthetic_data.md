@@ -1,9 +1,9 @@
 # POPri: Private Federated Learning using Preference-Optimized Synthetic Data
 
-**会议**: ICML2025
-**arXiv**: [2504.16438](https://arxiv.org/abs/2504.16438)
-**代码**: [meiyuw/POPri](https://github.com/meiyuw/POPri)
-**领域**: 联邦隐私 / 差分隐私合成数据
+**会议**: ICML2025  
+**arXiv**: [2504.16438](https://arxiv.org/abs/2504.16438)  
+**代码**: [meiyuw/POPri](https://github.com/meiyuw/POPri)  
+**领域**: 联邦隐私 / 差分隐私合成数据  
 **关键词**: 差分隐私, 联邦学习, 合成数据, 偏好优化, DPO, Private Evolution
 
 ## 一句话总结

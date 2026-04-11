@@ -1,8 +1,8 @@
 # Station2Radar: Query-Conditioned Gaussian Splatting for Precipitation Field
 
-**会议**: ICLR 2026
-**arXiv**: [2603.00418](https://arxiv.org/abs/2603.00418)
-**领域**: 气象AI/3D表示
+**会议**: ICLR 2026  
+**arXiv**: [2603.00418](https://arxiv.org/abs/2603.00418)  
+**领域**: 气象AI/3D表示  
 **关键词**: 降水场生成, 高斯溅射, 查询条件, 气象站+卫星融合, 无雷达
 
 ## 一句话总结

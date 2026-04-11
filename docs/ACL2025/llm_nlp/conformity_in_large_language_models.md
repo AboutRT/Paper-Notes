@@ -1,9 +1,9 @@
 # Conformity in Large Language Models
 
-**会议**: ACL 2025 Main
-**arXiv**: [2410.12428](https://arxiv.org/abs/2410.12428)
-**代码**: 无
-**领域**: LLM行为分析 / AI Safety
+**会议**: ACL 2025 Main  
+**arXiv**: [2410.12428](https://arxiv.org/abs/2410.12428)  
+**代码**: 无  
+**领域**: LLM行为分析 / AI Safety  
 **关键词**: 从众效应, LLM偏差, Asch实验, 不确定性, 干预策略
 
 ## 一句话总结

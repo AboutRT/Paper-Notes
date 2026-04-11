@@ -1,9 +1,9 @@
 # DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01106](https://arxiv.org/abs/2603.01106)
-**代码**: [Siaaaaaa1/DIVA-GRPO](https://github.com/Siaaaaaa1/DIVA-GRPO)
-**领域**: multimodal_vlm
+**会议**: ICLR 2026  
+**arXiv**: [2603.01106](https://arxiv.org/abs/2603.01106)  
+**代码**: [Siaaaaaa1/DIVA-GRPO](https://github.com/Siaaaaaa1/DIVA-GRPO)  
+**领域**: multimodal_vlm  
 **关键词**: GRPO, 强化学习, 多模态推理, 难度自适应, advantage vanishing, 变体增强
 
 ## 一句话总结

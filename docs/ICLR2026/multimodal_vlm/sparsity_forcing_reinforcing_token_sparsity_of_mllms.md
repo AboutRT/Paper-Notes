@@ -1,8 +1,8 @@
 # Sparsity Forcing: Reinforcing Token Sparsity of MLLMs
 
-**会议**: ICLR 2026
-**arXiv**: [2504.18579](https://arxiv.org/abs/2504.18579)
-**领域**: MLLM效率/稀疏注意力
+**会议**: ICLR 2026  
+**arXiv**: [2504.18579](https://arxiv.org/abs/2504.18579)  
+**领域**: MLLM效率/稀疏注意力  
 **关键词**: token稀疏, RL后训练, GRPO, 效率-性能联合奖励, 多预算探索
 
 ## 一句话总结

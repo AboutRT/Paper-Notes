@@ -1,9 +1,9 @@
 # Provably Improving Generalization of Few-Shot Models with Synthetic Data
 
-**会议**: ICML2025
-**arXiv**: [2505.24190](https://arxiv.org/abs/2505.24190)
-**代码**: 待确认
-**领域**: 少样本学习 (Few-Shot Learning)
+**会议**: ICML2025  
+**arXiv**: [2505.24190](https://arxiv.org/abs/2505.24190)  
+**代码**: 待确认  
+**领域**: 少样本学习 (Few-Shot Learning)  
 **关键词**: Few-Shot Learning, Synthetic Data, Generalization Bound, Prototype Learning, Distribution Matching, CLIP
 
 ## 一句话总结

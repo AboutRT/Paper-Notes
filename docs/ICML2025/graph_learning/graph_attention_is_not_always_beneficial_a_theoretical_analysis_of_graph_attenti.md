@@ -1,9 +1,9 @@
 # Graph Attention is Not Always Beneficial: A Theoretical Analysis of Graph Attention Mechanisms via Contextual Stochastic Block Models
 
-**会议**: ICML2025
-**arXiv**: [2412.15496](https://arxiv.org/abs/2412.15496)
-**代码**: [GAT_CSBM](https://github.com/mztmzt/GAT_CSBM)
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2412.15496](https://arxiv.org/abs/2412.15496)  
+**代码**: [GAT_CSBM](https://github.com/mztmzt/GAT_CSBM)  
+**领域**: graph_learning  
 **关键词**: 图注意力, CSBM, 过平滑, 节点分类, 理论分析
 
 ## 一句话总结

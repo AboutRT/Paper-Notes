@@ -1,9 +1,9 @@
 # Beyond In-Context Learning: Aligning Long-form Generation of LLMs via Task-Inherent Attribute Guidelines
 
-**会议**: ACL 2025
-**arXiv**: [2506.01265](https://arxiv.org/abs/2506.01265)
-**代码**: 无
-**领域**: LLM NLP / 长文本生成对齐
+**会议**: ACL 2025  
+**arXiv**: [2506.01265](https://arxiv.org/abs/2506.01265)  
+**代码**: 无  
+**领域**: LLM NLP / 长文本生成对齐  
 **关键词**: In-Context Learning, Long-form Generation, LongGuide, Metric Guidelines, Output Constraints
 
 ## 一句话总结

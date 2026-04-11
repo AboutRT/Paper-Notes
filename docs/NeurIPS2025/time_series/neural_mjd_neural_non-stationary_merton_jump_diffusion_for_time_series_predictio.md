@@ -1,9 +1,9 @@
 # Neural MJD: Neural Non-Stationary Merton Jump Diffusion for Time Series Prediction
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.04542](https://arxiv.org/abs/2506.04542)
-**代码**: https://github.com/DSL-Lab/neural-MJD
-**领域**: 时间序列
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.04542](https://arxiv.org/abs/2506.04542)  
+**代码**: https://github.com/DSL-Lab/neural-MJD  
+**领域**: 时间序列  
 **关键词**: 跳跃扩散, 随机微分方程, 非平稳, 时间序列预测, 金融建模
 
 ## 一句话总结

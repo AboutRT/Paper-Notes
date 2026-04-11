@@ -1,9 +1,9 @@
 # Faithful Summarization of Consumer Health Queries: A Cross-Lingual Framework with LLMs
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.10768](https://arxiv.org/abs/2511.10768)
-**代码**: 未公开
-**领域**: 医学 NLP / 文本摘要
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.10768](https://arxiv.org/abs/2511.10768)  
+**代码**: 未公开  
+**领域**: 医学 NLP / 文本摘要  
 **关键词**: 医学文本摘要, 忠实性, 跨语言, TextRank, 命名实体识别, LLaMA
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Token Distillation: Attention-Aware Input Embeddings for New Tokens
 
-**会议**: ICLR 2026
-**arXiv**: [2505.20133](https://arxiv.org/abs/2505.20133)
-**代码**: [https://github.com/konstantinjdobler/token-distillation](https://github.com/konstantinjdobler/token-distillation)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2505.20133](https://arxiv.org/abs/2505.20133)  
+**代码**: [https://github.com/konstantinjdobler/token-distillation](https://github.com/konstantinjdobler/token-distillation)  
+**领域**: 模型压缩  
 **关键词**: 词表扩展, Token 嵌入初始化, 知识蒸馏, 领域适应, 语言适应
 
 ## 一句话总结

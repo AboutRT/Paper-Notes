@@ -1,10 +1,10 @@
 # Markovian Transformers for Informative Language Modeling
 
-**会议**: ICLR 2026
-**arXiv**: [2404.18988](https://arxiv.org/abs/2404.18988)
+**会议**: ICLR 2026  
+**arXiv**: [2404.18988](https://arxiv.org/abs/2404.18988)  
 **作者**: Scott W. Viteri, Max Lamparth, Peter Chatain, Clark Barrett (Stanford University)
-**代码**: [GitHub](https://github.com/scottviteri/MarkovianTraining/)
-**领域**: LLM推理/可解释性
+**代码**: [GitHub](https://github.com/scottviteri/MarkovianTraining/)  
+**领域**: LLM推理/可解释性  
 **关键词**: 马尔可夫约束, CoT忠实性, 推理瓶颈, 自编码器类比, GRPO训练, 信息论
 
 ## 一句话总结

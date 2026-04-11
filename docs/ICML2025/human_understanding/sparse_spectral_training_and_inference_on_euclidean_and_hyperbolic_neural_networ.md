@@ -1,9 +1,9 @@
 # Sparse Spectral Training and Inference on Euclidean and Hyperbolic Neural Networks
 
-**会议**: ICML2025
-**arXiv**: [2405.15481](https://arxiv.org/abs/2405.15481)
-**代码**: [GitHub](https://github.com/biomedical-cybernetics/sparse-spectral-training)
-**领域**: 稀疏训练 / 参数高效预训练
+**会议**: ICML2025  
+**arXiv**: [2405.15481](https://arxiv.org/abs/2405.15481)  
+**代码**: [GitHub](https://github.com/biomedical-cybernetics/sparse-spectral-training)  
+**领域**: 稀疏训练 / 参数高效预训练  
 **关键词**: 稀疏谱训练, SVD, 低秩适配, 预训练, 双曲神经网络
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers
 
-**会议**: ICML2025
-**arXiv**: [2403.10266](https://arxiv.org/abs/2403.10266)
-**代码**: https://github.com/NUS-HPC-AI-Lab/VideoSys (有)
-**领域**: Transformer系统优化 / 序列并行 / 分布式训练
+**会议**: ICML2025  
+**arXiv**: [2403.10266](https://arxiv.org/abs/2403.10266)  
+**代码**: https://github.com/NUS-HPC-AI-Lab/VideoSys (有)  
+**领域**: Transformer系统优化 / 序列并行 / 分布式训练  
 **关键词**: 序列并行, 多维Transformer, 动态切换, all-to-all通信, 视频生成
 
 ## 一句话总结

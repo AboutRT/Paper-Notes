@@ -1,9 +1,9 @@
 # Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach
 
-**会议**: CVPR2026
-**arXiv**: [2511.16786](https://arxiv.org/abs/2511.16786)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2511.16786](https://arxiv.org/abs/2511.16786)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: KV Cache压缩, 频域分析, 离散余弦变换, Outlier KV, 多模态推理加速, FlashAttention兼容
 
 ## 一句话总结

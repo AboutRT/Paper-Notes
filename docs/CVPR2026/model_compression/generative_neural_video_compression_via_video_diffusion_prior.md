@@ -1,9 +1,9 @@
 # Generative Neural Video Compression via Video Diffusion Prior
 
-**会议**: CVPR 2026
-**arXiv**: [2512.05016](https://arxiv.org/abs/2512.05016)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2512.05016](https://arxiv.org/abs/2512.05016)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 视频压缩, 生成式编解码, 视频扩散模型, Flow Matching, 感知质量
 
 ## 一句话总结

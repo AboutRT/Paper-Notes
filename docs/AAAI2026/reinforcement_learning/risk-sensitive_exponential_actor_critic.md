@@ -1,8 +1,8 @@
 # Risk-Sensitive Exponential Actor Critic
 
-**会议**: AAAI2026
-**arXiv**: [2602.07202](https://arxiv.org/abs/2602.07202)
-**领域**: reinforcement_learning
+**会议**: AAAI2026  
+**arXiv**: [2602.07202](https://arxiv.org/abs/2602.07202)  
+**领域**: reinforcement_learning  
 **关键词**: risk-sensitive RL, entropic risk measure, policy gradient, actor-critic, numerical stability
 
 ## 一句话总结

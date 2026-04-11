@@ -1,9 +1,9 @@
 # Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.26593](https://arxiv.org/abs/2510.26593)
-**代码**: 基于 JaxPM（开源），神经压力模型代码待确认
-**领域**: 3d_vision
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.26593](https://arxiv.org/abs/2510.26593)  
+**代码**: 基于 JaxPM（开源），神经压力模型代码待确认  
+**领域**: 3d_vision  
 **关键词**: 宇宙学模拟, 混合物理-神经方法, 粒子网格, 可微分模拟, 气体动力学
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Position: Uncertainty Quantification Needs Reassessment for Large-Language Model Agents
 
-**会议**: ICML2025
-**arXiv**: [2505.22655](https://arxiv.org/abs/2505.22655)
-**代码**: 无
-**领域**: llm_agent
+**会议**: ICML2025  
+**arXiv**: [2505.22655](https://arxiv.org/abs/2505.22655)  
+**代码**: 无  
+**领域**: llm_agent  
 **关键词**: 不确定性量化, 认知不确定性, 偶然不确定性, LLM Agent, 人机交互
 
 ## 一句话总结

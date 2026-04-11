@@ -1,9 +1,9 @@
 # DSCA: Dynamic Subspace Concept Alignment for Lifelong VLM Editing
 
-**会议**: CVPR 2026
-**arXiv**: [2604.07965](https://arxiv.org/abs/2604.07965)
-**代码**: 无
-**领域**: 多模态视觉语言模型 / 知识编辑
+**会议**: CVPR 2026  
+**arXiv**: [2604.07965](https://arxiv.org/abs/2604.07965)  
+**代码**: 无  
+**领域**: 多模态视觉语言模型 / 知识编辑  
 **关键词**: 知识编辑, 视觉语言模型, 子空间分解, 持续学习, 灾难性遗忘
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution
 
-**会议**: CVPR 2026
-**arXiv**: [2603.10583](https://arxiv.org/abs/2603.10583)
-**代码**: [有](https://github.com/hongsong-wang/LIDA)
-**领域**: 扩散模型/图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.10583](https://arxiv.org/abs/2603.10583)  
+**代码**: [有](https://github.com/hongsong-wang/LIDA)  
+**领域**: 扩散模型/图像生成  
 **关键词**: AIGC归因, 实例检索, 低位平面指纹, 少样本学习, Deepfake检测
 
 ## 一句话总结

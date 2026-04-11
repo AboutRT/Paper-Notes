@@ -1,9 +1,9 @@
 # MMBench: Is Your Multi-modal Model an All-Around Player?
 
-**会议**: ECCV2024
-**arXiv**: [2307.06281](https://arxiv.org/abs/2307.06281)
-**代码**: [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
-**领域**: multimodal_vlm
+**会议**: ECCV2024  
+**arXiv**: [2307.06281](https://arxiv.org/abs/2307.06281)  
+**代码**: [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)  
+**领域**: multimodal_vlm  
 **关键词**: VLM benchmark, multi-modal evaluation, CircularEval, choice extraction, bilingual benchmark
 
 ## 一句话总结

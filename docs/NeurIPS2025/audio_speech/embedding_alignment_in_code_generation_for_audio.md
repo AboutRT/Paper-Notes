@@ -1,9 +1,9 @@
 # Embedding Alignment in Code Generation for Audio
 
-**会议**: NeurIPS 2025
-**arXiv**: [2508.05473](https://arxiv.org/abs/2508.05473)
-**代码**: 无
-**领域**: 多模态 / 音频AI
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.05473](https://arxiv.org/abs/2508.05473)  
+**代码**: 无  
+**领域**: 多模态 / 音频AI  
 **关键词**: code generation, audio embedding, contrastive learning, cross-modal alignment, live-coding
 
 ## 一句话总结

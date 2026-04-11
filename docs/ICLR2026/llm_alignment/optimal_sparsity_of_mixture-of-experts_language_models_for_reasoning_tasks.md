@@ -1,9 +1,9 @@
 # Optimal Sparsity of Mixture-of-Experts Language Models for Reasoning Tasks
 
-**会议**: ICLR 2026
-**arXiv**: [2508.18672](https://arxiv.org/abs/2508.18672)
-**代码**: [GitHub](https://github.com/rioyokotalab/optimal-sparsity)
-**领域**: llm_alignment
+**会议**: ICLR 2026  
+**arXiv**: [2508.18672](https://arxiv.org/abs/2508.18672)  
+**代码**: [GitHub](https://github.com/rioyokotalab/optimal-sparsity)  
+**领域**: llm_alignment  
 **关键词**: MoE, scaling laws, sparsity, reasoning, memorization, tokens per parameter, GRPO, test-time compute
 
 ## 一句话总结

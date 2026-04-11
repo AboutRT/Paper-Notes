@@ -1,9 +1,9 @@
 # Emergence in Non-Neural Models: Grokking Modular Arithmetic via Average Gradient Outer Product
 
-**会议**: ICML2025
-**arXiv**: [2407.20199](https://arxiv.org/abs/2407.20199)
-**代码**: [nmallinar/rfm-grokking](https://github.com/nmallinar/rfm-grokking)
-**领域**: 优化 / Grokking / 特征学习
+**会议**: ICML2025  
+**arXiv**: [2407.20199](https://arxiv.org/abs/2407.20199)  
+**代码**: [nmallinar/rfm-grokking](https://github.com/nmallinar/rfm-grokking)  
+**领域**: 优化 / Grokking / 特征学习  
 **关键词**: grokking, 模算术, 特征学习, AGOP, 循环矩阵, 核方法, Recursive Feature Machines
 
 ## 一句话总结

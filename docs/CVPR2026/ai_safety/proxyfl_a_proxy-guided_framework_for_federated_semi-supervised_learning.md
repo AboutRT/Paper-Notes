@@ -1,9 +1,9 @@
 # ProxyFL: A Proxy-Guided Framework for Federated Semi-Supervised Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21078](https://arxiv.org/abs/2602.21078)
-**代码**: [DuowenC/FSSLlib](https://github.com/DuowenC/FSSLlib)
-**领域**: AI安全
+**会议**: CVPR 2026  
+**arXiv**: [2602.21078](https://arxiv.org/abs/2602.21078)  
+**代码**: [DuowenC/FSSLlib](https://github.com/DuowenC/FSSLlib)  
+**领域**: AI安全  
 **关键词**: 联邦学习, 半监督学习, 数据异质性, 代理学习, 伪标签
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Safer or Luckier? LLMs as Safety Evaluators Are Not Robust to Artifacts
 
-**会议**: ACL2025
-**arXiv**: [2503.09347](https://arxiv.org/abs/2503.09347)
-**代码**: 未开源
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2503.09347](https://arxiv.org/abs/2503.09347)  
+**代码**: 未开源  
+**领域**: llm_nlp  
 **关键词**: LLM-as-a-judge, 安全评估, artifact鲁棒性, 偏置分析, jury评估
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BlackMirror: Black-Box Backdoor Detection for Text-to-Image Models via Instruction-Response Deviation
 
-**会议**: CVPR2026
-**arXiv**: [2603.05921](https://arxiv.org/abs/2603.05921)
-**代码**: [GitHub](https://github.com/Ferry-Li/BlackMirror)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2603.05921](https://arxiv.org/abs/2603.05921)  
+**代码**: [GitHub](https://github.com/Ferry-Li/BlackMirror)  
+**领域**: 图像生成  
 **关键词**: 后门检测, 文本到图像模型, 黑盒检测, 视觉语言模型, 模型安全
 
 ## 一句话总结

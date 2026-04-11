@@ -1,9 +1,9 @@
 # Online Generic Event Boundary Detection
 
-**会议**: ICCV2025
-**arXiv**: [2510.06855](https://arxiv.org/abs/2510.06855)
-**代码**: 待确认
-**领域**: 视频理解 / 事件分割
+**会议**: ICCV2025  
+**arXiv**: [2510.06855](https://arxiv.org/abs/2510.06855)  
+**代码**: 待确认  
+**领域**: 视频理解 / 事件分割  
 **关键词**: 在线事件边界检测, 事件分割理论, 流式视频, 动态阈值, Transformer解码器
 
 ## 一句话总结

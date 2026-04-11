@@ -1,9 +1,9 @@
 # Stretching Beyond the Obvious: A Gradient-Free Framework to Unveil the Hidden Landscape of Visual Invariance
 
-**会议**: ICLR 2026
-**arXiv**: [2506.17040](https://arxiv.org/abs/2506.17040)
-**代码**: [GitHub](https://github.com/zoccolan-lab/SnS)
-**领域**: llm_efficiency
+**会议**: ICLR 2026  
+**arXiv**: [2506.17040](https://arxiv.org/abs/2506.17040)  
+**代码**: [GitHub](https://github.com/zoccolan-lab/SnS)  
+**领域**: llm_efficiency  
 **关键词**: visual invariance, gradient-free optimization, adversarial examples, feature visualization, CNN interpretability, robust models
 
 ## 一句话总结

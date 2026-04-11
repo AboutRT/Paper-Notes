@@ -1,9 +1,9 @@
 # Next Visual Granularity Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2508.12811](https://arxiv.org/abs/2508.12811)
-**代码**: [项目页面](https://yikai-wang.github.io/nvg)
-**领域**: 图像生成 / 视觉自回归
+**会议**: ICLR 2026  
+**arXiv**: [2508.12811](https://arxiv.org/abs/2508.12811)  
+**代码**: [项目页面](https://yikai-wang.github.io/nvg)  
+**领域**: 图像生成 / 视觉自回归  
 **关键词**: 视觉粒度, 自回归生成, 结构化序列, 粗到细生成, ImageNet
 
 ## 一句话总结

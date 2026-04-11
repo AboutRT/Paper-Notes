@@ -1,9 +1,9 @@
 # Spectral Super-Resolution via Adversarial Unfolding and Data-Driven Spectrum Regularization
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00920](https://arxiv.org/abs/2603.00920)
-**代码**: [IHCLab/UALNet](https://github.com/IHCLab/UALNet)
-**领域**: image_restoration
+**会议**: CVPR 2026  
+**arXiv**: [2603.00920](https://arxiv.org/abs/2603.00920)  
+**代码**: [IHCLab/UALNet](https://github.com/IHCLab/UALNet)  
+**领域**: image_restoration  
 **关键词**: 光谱超分辨率, 深度展开, 对抗学习, 高光谱重建, 遥感, Sentinel-2, AVIRIS
 
 ## 一句话总结

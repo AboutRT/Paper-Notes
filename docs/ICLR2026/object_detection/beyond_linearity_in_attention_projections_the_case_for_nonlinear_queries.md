@@ -1,9 +1,9 @@
 # Beyond Linearity in Attention Projections: The Case for Nonlinear Queries
 
-**会议**: ICLR 2026 Workshop (GRaM)
-**arXiv**: [2603.13381](https://arxiv.org/abs/2603.13381)
-**代码**: [GitHub](https://github.com/MarkoKarbevski/beyond_query_linearity)
-**领域**: 目标检测（Transformer 架构 / Attention 机制）
+**会议**: ICLR 2026 Workshop (GRaM)  
+**arXiv**: [2603.13381](https://arxiv.org/abs/2603.13381)  
+**代码**: [GitHub](https://github.com/MarkoKarbevski/beyond_query_linearity)  
+**领域**: 目标检测（Transformer 架构 / Attention 机制）  
 **关键词**: nonlinear query, attention projection, identity prior, bottleneck MLP, transformer architecture
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # EgoPoseFormer v2: Accurate Egocentric Human Motion Estimation for AR/VR
 
-**会议**: CVPR2026
-**arXiv**: [2603.04090](https://arxiv.org/abs/2603.04090)
-**代码**: 未开源
-**领域**: 人体理解 (Human Understanding)
+**会议**: CVPR2026  
+**arXiv**: [2603.04090](https://arxiv.org/abs/2603.04090)  
+**代码**: 未开源  
+**领域**: 人体理解 (Human Understanding)  
 **关键词**: 自我中心姿态估计, Transformer, 半监督学习, 自动标注, AR/VR, 时序建模
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models
 
-**会议**: ICML 2025
-**arXiv**: [2503.03122](https://arxiv.org/abs/2503.03122)
-**代码**: [github.com/alignrm/Generalizable-MM-RM](https://github.com/alignrm/Generalizable-MM-RM)
-**领域**: 多模态奖励模型, LLM对齐, 鲁棒学习
+**会议**: ICML 2025  
+**arXiv**: [2503.03122](https://arxiv.org/abs/2503.03122)  
+**代码**: [github.com/alignrm/Generalizable-MM-RM](https://github.com/alignrm/Generalizable-MM-RM)  
+**领域**: 多模态奖励模型, LLM对齐, 鲁棒学习  
 **关键词**: Multimodal Reward Model, Spurious Correlations, Shortcut Learning, Generalization, 偏好对齐
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling
 
-**会议**: ICML2025
-**arXiv**: [2505.21452](https://arxiv.org/abs/2505.21452)
-**代码**: 待确认
-**领域**: 分子设计
+**会议**: ICML2025  
+**arXiv**: [2505.21452](https://arxiv.org/abs/2505.21452)  
+**代码**: 待确认  
+**领域**: 分子设计  
 **关键词**: 环肽设计, 谐波SDE, 全原子建模, 化学键建模, 扩散模型, 药物发现
 
 ## 一句话总结

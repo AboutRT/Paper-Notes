@@ -1,9 +1,9 @@
 # MoVieDrive: Urban Scene Synthesis with Multi-Modal Multi-View Video Diffusion Transformer
 
-**会议**: CVPR 2026
-**arXiv**: [2508.14327](https://arxiv.org/abs/2508.14327)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2508.14327](https://arxiv.org/abs/2508.14327)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 多模态视频生成, 多视图一致性, 扩散Transformer, 城市场景合成, 自动驾驶数据增强
 
 ## 一句话总结

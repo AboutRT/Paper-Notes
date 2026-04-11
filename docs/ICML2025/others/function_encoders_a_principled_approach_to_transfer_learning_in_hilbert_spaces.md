@@ -1,9 +1,9 @@
 # Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces
 
-**会议**: ICML2025
-**arXiv**: [2501.18373](https://arxiv.org/abs/2501.18373)
-**代码**: [tyler-ingebrand/FEtransfer](https://tyler-ingebrand.github.io/FEtransfer)
-**领域**: 迁移学习
+**会议**: ICML2025  
+**arXiv**: [2501.18373](https://arxiv.org/abs/2501.18373)  
+**代码**: [tyler-ingebrand/FEtransfer](https://tyler-ingebrand.github.io/FEtransfer)  
+**领域**: 迁移学习  
 **关键词**: Transfer Learning, Hilbert Space, Basis Functions, Function Encoder, Least Squares
 
 ## 一句话总结

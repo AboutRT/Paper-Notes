@@ -1,9 +1,9 @@
 # Unlocking the Power of Rehearsal in Continual Learning: A Theoretical Perspective
 
-**会议**: ICML 2025
-**arXiv**: [2506.00205](https://arxiv.org/abs/2506.00205)
-**代码**: 无
-**领域**: 持续学习
+**会议**: ICML 2025  
+**arXiv**: [2506.00205](https://arxiv.org/abs/2506.00205)  
+**代码**: 无  
+**领域**: 持续学习  
 **关键词**: continual learning, rehearsal, experience replay, catastrophic forgetting, theoretical analysis
 
 ## 一句话总结

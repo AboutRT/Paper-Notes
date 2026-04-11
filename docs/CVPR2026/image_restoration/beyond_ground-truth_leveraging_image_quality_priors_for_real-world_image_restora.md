@@ -1,9 +1,9 @@
 # Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.29773](https://arxiv.org/abs/2603.29773)
-**代码**: https://github.com/fengyang1399-pixel/IQPIR (有)
-**领域**: 图像修复
+**会议**: CVPR 2026  
+**arXiv**: [2603.29773](https://arxiv.org/abs/2603.29773)  
+**代码**: https://github.com/fengyang1399-pixel/IQPIR (有)  
+**领域**: 图像修复  
 **关键词**: 图像修复, 图像质量先验, 双Codebook, NR-IQA, 质量条件化
 
 ## 一句话总结

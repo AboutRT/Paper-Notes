@@ -1,9 +1,9 @@
 # Online Pre-Training for Offline-to-Online Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2507.08387](https://arxiv.org/abs/2507.08387)
-**代码**: 待确认
-**领域**: 离线转在线强化学习 (Offline-to-Online RL)
+**会议**: ICML2025  
+**arXiv**: [2507.08387](https://arxiv.org/abs/2507.08387)  
+**代码**: 待确认  
+**领域**: 离线转在线强化学习 (Offline-to-Online RL)  
 **关键词**: offline-to-online RL, 值函数估计, 元适应, 在线预训练, D4RL
 
 ## 一句话总结

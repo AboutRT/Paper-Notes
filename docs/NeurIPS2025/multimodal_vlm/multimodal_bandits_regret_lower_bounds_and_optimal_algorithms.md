@@ -1,9 +1,9 @@
 # Multimodal Bandits: Regret Lower Bounds and Optimal Algorithms
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25811](https://arxiv.org/abs/2510.25811)
-**代码**: [GitHub](https://github.com/wilrev/MultimodalBandits) (有)
-**领域**: 多模态VLM
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25811](https://arxiv.org/abs/2510.25811)  
+**代码**: [GitHub](https://github.com/wilrev/MultimodalBandits) (有)  
+**领域**: 多模态VLM  
 **关键词**: 多模态赌博机, Graves-Lai界, 动态规划, 渐近最优, 多臂老虎机
 
 ## 一句话总结

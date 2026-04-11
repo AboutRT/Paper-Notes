@@ -1,9 +1,9 @@
 # Intervention Efficiency and Perturbation Validation Framework: Capacity-Aware and Robust Clinical Model Selection under the Rashomon Effect
 
-**会议**: AAAI 2026
-**arXiv**: [2511.14317](https://arxiv.org/abs/2511.14317)
-**代码**: [GitHub](https://github.com/YuwenZhang-Peter/PVF-IE)
-**领域**: 医学图像 / 临床机器学习
+**会议**: AAAI 2026  
+**arXiv**: [2511.14317](https://arxiv.org/abs/2511.14317)  
+**代码**: [GitHub](https://github.com/YuwenZhang-Peter/PVF-IE)  
+**领域**: 医学图像 / 临床机器学习  
 **关键词**: Rashomon Effect, 模型选择, 干预效率, 扰动验证, 类别不平衡, 临床部署
 
 ## 一句话总结

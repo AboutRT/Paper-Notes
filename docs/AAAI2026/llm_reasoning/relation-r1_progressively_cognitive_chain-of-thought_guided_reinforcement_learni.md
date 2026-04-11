@@ -1,9 +1,9 @@
 # Relation-R1: Progressively Cognitive Chain-of-Thought Guided Reinforcement Learning for Unified Relation Comprehension
 
-**会议**: AAAI 2026
-**arXiv**: [2504.14642](https://arxiv.org/abs/2504.14642)
-**代码**: [github.com/HKUST-LongGroup/Relation-R1](https://github.com/HKUST-LongGroup/Relation-R1)
-**领域**: LLM推理
+**会议**: AAAI 2026  
+**arXiv**: [2504.14642](https://arxiv.org/abs/2504.14642)  
+**代码**: [github.com/HKUST-LongGroup/Relation-R1](https://github.com/HKUST-LongGroup/Relation-R1)  
+**领域**: LLM推理  
 **关键词**: 视觉关系理解, 认知链式思维, GRPO强化学习, 场景图生成, N元关系检测, 多模态大模型
 
 ## 一句话总结

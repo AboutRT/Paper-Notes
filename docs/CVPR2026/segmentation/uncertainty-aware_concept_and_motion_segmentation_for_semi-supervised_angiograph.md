@@ -1,9 +1,9 @@
 # Uncertainty-Aware Concept and Motion Segmentation for Semi-Supervised Angiography Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00881](https://arxiv.org/abs/2603.00881)
-**代码**: [GitHub](https://github.com/qimingfan10/SMART)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.00881](https://arxiv.org/abs/2603.00881)  
+**代码**: [GitHub](https://github.com/qimingfan10/SMART)  
+**领域**: 医学图像  
 **关键词**: 半监督分割, 冠脉造影, SAM3, 时序一致性, 光流
 
 ## 一句话总结

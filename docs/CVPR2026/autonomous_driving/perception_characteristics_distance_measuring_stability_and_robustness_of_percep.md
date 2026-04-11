@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Perception Characteristics Distance: Measuring Stability and Robustness of Perception System in Dynamic Conditions under a Certain Decision Rule
 
-**会议**: CVPR2026
-**arXiv**: [2506.09217](https://arxiv.org/abs/2506.09217)
-**代码**: [datadrivenwheels/PCD_Python](https://github.com/datadrivenwheels/PCD_Python)
-**领域**: 自动驾驶 / 感知评估
+**会议**: CVPR2026  
+**arXiv**: [2506.09217](https://arxiv.org/abs/2506.09217)  
+**代码**: [datadrivenwheels/PCD_Python](https://github.com/datadrivenwheels/PCD_Python)  
+**领域**: 自动驾驶 / 感知评估  
 **关键词**: 感知评估指标, 距离可靠性, 不确定性建模, 方差变化点检测, 自动驾驶安全
 
 ## 一句话总结

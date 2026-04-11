@@ -1,9 +1,9 @@
 # UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models
 
-**会议**: ACL2025
-**arXiv**: [2412.11803](https://arxiv.org/abs/2412.11803)
-**代码**: [AmourWaltz/UAlign](https://github.com/AmourWaltz/UAlign)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2412.11803](https://arxiv.org/abs/2412.11803)  
+**代码**: [AmourWaltz/UAlign](https://github.com/AmourWaltz/UAlign)  
+**领域**: llm_nlp  
 **关键词**: 不确定性估计, 事实性对齐, 知识边界, PPO, 语义熵, 置信度
 
 ## 一句话总结

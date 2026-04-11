@@ -1,9 +1,9 @@
 # TimePoint: Accelerated Time Series Alignment via Self-Supervised Keypoint and Descriptor Learning
 
-**会议**: ICML 2025
-**arXiv**: [2505.23475](https://arxiv.org/abs/2505.23475)
-**代码**: https://github.com/BGU-CS-VIL/TimePoint
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2505.23475](https://arxiv.org/abs/2505.23475)  
+**代码**: https://github.com/BGU-CS-VIL/TimePoint  
+**领域**: 时间序列  
 **关键词**: 时间序列对齐, DTW加速, 关键点检测, 自监督学习, 微分同胚, 小波卷积
 
 ## 一句话总结

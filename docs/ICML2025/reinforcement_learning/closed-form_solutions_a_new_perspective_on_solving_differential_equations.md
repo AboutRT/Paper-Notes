@@ -1,9 +1,9 @@
 # Closed-form Symbolic Solutions: A New Perspective on Solving Partial Differential Equations
 
-**会议**: ICML 2025
-**arXiv**: [2405.14620](https://arxiv.org/abs/2405.14620)
-**代码**: 无
-**领域**: Reinforcement Learning / Scientific Computing
+**会议**: ICML 2025  
+**arXiv**: [2405.14620](https://arxiv.org/abs/2405.14620)  
+**代码**: 无  
+**领域**: Reinforcement Learning / Scientific Computing  
 **关键词**: 符号回归, 偏微分方程, 深度强化学习, 闭式解, PINNs
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology
 
-**会议**: ICLR 2026
-**arXiv**: [2602.13944](https://arxiv.org/abs/2602.13944)
-**代码**: [GitHub](https://github.com/Hanminghao/STAMP)
-**领域**: 计算病理学/多模态学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.13944](https://arxiv.org/abs/2602.13944)  
+**代码**: [GitHub](https://github.com/Hanminghao/STAMP)  
+**领域**: 计算病理学/多模态学习  
 **关键词**: 空间转录组, 病理图像, 基因引导, 多尺度对齐, 基础模型
 
 ## 一句话总结

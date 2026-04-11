@@ -1,9 +1,9 @@
 # Position: LLM Social Simulations Are a Promising Research Method
 
-**会议**: ICML 2025
-**arXiv**: [2504.02234](https://arxiv.org/abs/2504.02234)
-**代码**: 无
-**领域**: Model Compression / LLM Applications
+**会议**: ICML 2025  
+**arXiv**: [2504.02234](https://arxiv.org/abs/2504.02234)  
+**代码**: 无  
+**领域**: Model Compression / LLM Applications  
 **关键词**: LLM simulation, social science, human behavior, position paper, research methodology
 
 ## 一句话总结
@@ -38,6 +38,7 @@
 不涉及训练。核心是研究方法论的分析和建议。
 
 ## 实验关键数据
+
 ### 主实验（文献综述中的实证证据汇总）
 | 应用场景 | LLM 模拟质量 | 与人类相关性 | 成熟度 |
 |----------|------------|------------|--------|
@@ -84,10 +85,10 @@
 - 价值: ⭐⭐⭐⭐ 对新兴方向有系统性的指导意义
 # LLM Social Simulations Are a Promising Research Method
 
-**会议**: ICML 2025
-**arXiv**: [2504.02234](https://arxiv.org/abs/2504.02234)
-**代码**: 无
-**领域**: 模型压缩/LLM应用（Position Paper）
+**会议**: ICML 2025  
+**arXiv**: [2504.02234](https://arxiv.org/abs/2504.02234)  
+**代码**: 无  
+**领域**: 模型压缩/LLM应用（Position Paper）  
 **关键词**: LLM社会模拟, 社会科学, 人类行为, 虚拟受试者, 五大挑战
 
 ## 一句话总结

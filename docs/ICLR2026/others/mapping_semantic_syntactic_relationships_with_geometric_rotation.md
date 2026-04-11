@@ -1,9 +1,9 @@
 # Mapping Semantic & Syntactic Relationships with Geometric Rotation
 
-**会议**: ICLR 2026
-**arXiv**: [2510.09790](https://arxiv.org/abs/2510.09790)
-**代码**: [GitHub](https://github.com/fuelix/RISE-steering)
-**领域**: 表示学习/可解释性
+**会议**: ICLR 2026  
+**arXiv**: [2510.09790](https://arxiv.org/abs/2510.09790)  
+**代码**: [GitHub](https://github.com/fuelix/RISE-steering)  
+**领域**: 表示学习/可解释性  
 **关键词**: 嵌入几何, 旋转不变性, 跨语言, 语义转换, 线性表示假说
 
 ## 一句话总结

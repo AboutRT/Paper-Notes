@@ -1,10 +1,10 @@
 # Separating Knowledge and Perception with Procedural Data
 
-**会议**: ICML2025
-**arXiv**: [2508.11697](https://arxiv.org/abs/2508.11697)
-**代码**: 待确认
-**领域**: segmentation
-**关键词**: procedural data, visual memory, KNN classification, semantic segmentation, data privacy, differential privacy, self-supervised learning
+**会议**: ICML2025  
+**arXiv**: [2508.11697](https://arxiv.org/abs/2508.11697)  
+**代码**: 待确认  
+**领域**: segmentation  
+**关键词**: procedural data, visual memory, KNN classification, semantic segmentation, data privacy, differential privacy, self-supervised learning  
 **作者**: Adrián Rodríguez-Muñoz, Manel Baradad, Phillip Isola, Antonio Torralba (MIT)
 
 ## 一句话总结

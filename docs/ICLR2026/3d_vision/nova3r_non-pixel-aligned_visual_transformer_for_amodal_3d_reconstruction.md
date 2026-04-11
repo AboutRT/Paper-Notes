@@ -1,9 +1,9 @@
 # NOVA3R: Non-pixel-aligned Visual Transformer for Amodal 3D Reconstruction
 
-**会议**: ICLR 2026
-**arXiv**: [2603.04179](https://arxiv.org/abs/2603.04179)
-**代码**: [项目页面](https://wrchen530.github.io/nova3r)
-**领域**: 3D视觉/重建
+**会议**: ICLR 2026  
+**arXiv**: [2603.04179](https://arxiv.org/abs/2603.04179)  
+**代码**: [项目页面](https://wrchen530.github.io/nova3r)  
+**领域**: 3D视觉/重建  
 **关键词**: 非像素对齐, amodal 3D重建, 场景token, flow-matching, 完整点云
 
 ## 一句话总结

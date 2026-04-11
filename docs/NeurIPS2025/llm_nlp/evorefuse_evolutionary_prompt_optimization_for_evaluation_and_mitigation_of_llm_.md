@@ -1,9 +1,9 @@
 # EvoRefuse: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.23473](https://arxiv.org/abs/2505.23473)
-**代码**: [GitHub](https://github.com/FishT0ucher/EVOREFUSE)
-**领域**: LLM对齐 / AI安全
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.23473](https://arxiv.org/abs/2505.23473)  
+**代码**: [GitHub](https://github.com/FishT0ucher/EVOREFUSE)  
+**领域**: LLM对齐 / AI安全  
 **关键词**: over-refusal, evolutionary optimization, ELBO, safety alignment, pseudo-malicious
 
 ## 一句话总结

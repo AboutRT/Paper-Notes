@@ -1,9 +1,9 @@
 # TriLite: Efficient WSOL with Universal Visual Features and Tri-Region Disentanglement
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23120](https://arxiv.org/abs/2602.23120)
-**代码**: 即将发布
-**领域**: 人体理解
+**会议**: CVPR 2026  
+**arXiv**: [2602.23120](https://arxiv.org/abs/2602.23120)  
+**代码**: 即将发布  
+**领域**: 人体理解  
 **关键词**: 弱监督目标定位, ViT, DINOv2, 三区域解耦, 参数高效
 
 ## 一句话总结

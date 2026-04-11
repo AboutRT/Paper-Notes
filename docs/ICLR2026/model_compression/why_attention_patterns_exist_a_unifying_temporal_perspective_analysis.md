@@ -1,9 +1,9 @@
 # Why Attention Patterns Exist: A Unifying Temporal Perspective Analysis
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21709](https://arxiv.org/abs/2601.21709)
-**代码**: [GitHub](https://github.com/MIRALab-USTC/LLM-TAPPA)
-**领域**: 模型压缩 / 注意力机制分析 / LLM 推理加速
+**会议**: ICLR 2026  
+**arXiv**: [2601.21709](https://arxiv.org/abs/2601.21709)  
+**代码**: [GitHub](https://github.com/MIRALab-USTC/LLM-TAPPA)  
+**领域**: 模型压缩 / 注意力机制分析 / LLM 推理加速  
 **关键词**: attention patterns, temporal analysis, RoPE, query self-similarity, KV cache compression, LLM pruning
 
 ## 一句话总结

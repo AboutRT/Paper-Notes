@@ -1,9 +1,9 @@
 # CLIP Behaves like a Bag-of-Words Model Cross-modally but not Uni-modally
 
-**会议**: ICLR 2026
-**arXiv**: [2502.03566](https://arxiv.org/abs/2502.03566)
-**代码**: [GitHub](https://github.com/kdariina/CLIP-not-BoW-unimodally)
-**领域**: 机器人
+**会议**: ICLR 2026  
+**arXiv**: [2502.03566](https://arxiv.org/abs/2502.03566)  
+**代码**: [GitHub](https://github.com/kdariina/CLIP-not-BoW-unimodally)  
+**领域**: 机器人  
 **关键词**: CLIP, compositionality, bag-of-words, attribute-object binding, cross-modal alignment
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: CLIP 的单模态嵌入已编码了正确的属性绑定，只是跨模态对齐没有保留这些信息——一个线性变换就能修复。
 
 ## 方法详解
+
 ### 整体框架
 三阶段论证：(1) 确认 CLIP 跨模态是 BoW → (2) 证明单模态不是 BoW → (3) 用线性变换修复跨模态对齐。
 
@@ -39,6 +40,7 @@
 - CLIP 编码器完全冻结，仅训练 $D \times D$ 矩阵（ViT-B/32 为 262K 参数 vs NegCLIP 的 151M）
 
 ## 实验关键数据
+
 ### 主实验
 合成数据集跨模态绑定准确率:
 

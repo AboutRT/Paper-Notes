@@ -1,9 +1,9 @@
 # Foundation Models as World Models: A Foundational Study in Text-Based GridWorlds
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.15915](https://arxiv.org/abs/2509.15915)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.15915](https://arxiv.org/abs/2509.15915)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 基础模型, 世界模型, 网格世界, 大语言模型, 样本效率
 
 ## 一句话总结

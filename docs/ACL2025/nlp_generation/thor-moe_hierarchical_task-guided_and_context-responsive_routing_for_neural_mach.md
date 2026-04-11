@@ -1,10 +1,10 @@
 # THOR-MoE: Hierarchical Task-Guided and Context-Responsive Routing for Neural Machine Translation
 
-**会议**: ACL 2025
-**arXiv**: [2505.14173](https://arxiv.org/abs/2505.14173)
+**会议**: ACL 2025  
+**arXiv**: [2505.14173](https://arxiv.org/abs/2505.14173)  
 **作者**: Yunlong Liang, Fandong Meng, Jie Zhou (腾讯微信AI)
-**代码**: 未公开
-**领域**: nlp_generation
+**代码**: 未公开  
+**领域**: nlp_generation  
 **关键词**: Mixture-of-Experts, 神经机器翻译, 层级路由, 上下文感知路由, 多领域翻译, 多语言翻译
 
 ## 一句话总结

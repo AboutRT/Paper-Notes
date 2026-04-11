@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 自动驾驶  
 **关键词**: simulation, embodied-ai, urban-navigation, multi-robot, benchmark  
+
 ## 一句话总结
 
 提出 SimWorld-Robotics (SWR)，一个基于 Unreal Engine 5 的大规模城市仿真平台，支持程序化生成无限逼真城市环境，并以此构建了多模态导航（SimWorld-MMNav）和多机器人搜索（SimWorld-MRS）两个新 benchmark，揭示了当前 VLM 在户外城市任务中的严重能力缺陷。

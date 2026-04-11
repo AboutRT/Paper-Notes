@@ -1,9 +1,9 @@
 # Flickerformer: A Duet of Periodicity and Directionality for Burst Flicker Removal
 
-**会议**: CVPR 2026
-**arXiv**: [2603.22794](https://arxiv.org/abs/2603.22794)
-**代码**: 有
-**领域**: 图像修复 / 去闪烁
+**会议**: CVPR 2026  
+**arXiv**: [2603.22794](https://arxiv.org/abs/2603.22794)  
+**代码**: 有  
+**领域**: 图像修复 / 去闪烁  
 **关键词**: Burst去闪烁, 周期性, 方向性, 小波注意力, 相位融合
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Representative Language Generation
 
-**会议**: ICML2025
-**arXiv**: [2505.21819](https://arxiv.org/abs/2505.21819)
-**代码**: 无（纯理论工作）
-**领域**: 语言生成理论 / 算法公平性
+**会议**: ICML2025  
+**arXiv**: [2505.21819](https://arxiv.org/abs/2505.21819)  
+**代码**: 无（纯理论工作）  
+**领域**: 语言生成理论 / 算法公平性  
 **关键词**: representative generation, language generation in the limit, group closure dimension, fairness in generative models, mode collapse, diversity
 
 ## 一句话总结

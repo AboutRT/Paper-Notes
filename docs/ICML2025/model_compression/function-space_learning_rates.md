@@ -1,9 +1,9 @@
 # Function-Space Learning Rates
 
-**会议**: ICML2025
-**arXiv**: [2502.17405](https://arxiv.org/abs/2502.17405)
-**代码**: [GitHub](https://github.com/edwardmilsom/function-space-learning-rates-paper)
-**领域**: 函数空间学习率 / 超参数迁移
+**会议**: ICML2025  
+**arXiv**: [2502.17405](https://arxiv.org/abs/2502.17405)  
+**代码**: [GitHub](https://github.com/edwardmilsom/function-space-learning-rates-paper)  
+**领域**: 函数空间学习率 / 超参数迁移  
 **关键词**: function-space learning rate, hyperparameter transfer, FLeRM, model scaling, LoRA
 
 ## 一句话总结

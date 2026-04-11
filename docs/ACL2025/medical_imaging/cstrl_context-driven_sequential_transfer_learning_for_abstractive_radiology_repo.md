@@ -1,9 +1,9 @@
 # CSTRL: Context-Driven Sequential Transfer Learning for Abstractive Radiology Report Summarization
 
-**会议**: ACL 2025
-**arXiv**: [2503.05750](https://arxiv.org/abs/2503.05750)
-**代码**: [GitHub](https://github.com/fahmidahossain/Report_Summarization)
-**领域**: 医学文本
+**会议**: ACL 2025  
+**arXiv**: [2503.05750](https://arxiv.org/abs/2503.05750)  
+**代码**: [GitHub](https://github.com/fahmidahossain/Report_Summarization)  
+**领域**: 医学文本  
 **关键词**: radiology report summarization, sequential transfer learning, knowledge distillation, Fisher matrix regularization, gap sentence generation
 
 ## 一句话总结

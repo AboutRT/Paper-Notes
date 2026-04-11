@@ -1,9 +1,9 @@
 # LD-MoLE: Learnable Dynamic Routing for Mixture of LoRA Experts
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25684](https://arxiv.org/abs/2509.25684)
-**代码**: [GitHub](https://github.com/eshentw/LD-MoLE)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2509.25684](https://arxiv.org/abs/2509.25684)  
+**代码**: [GitHub](https://github.com/eshentw/LD-MoLE)  
+**领域**: 模型压缩  
 **关键词**: LoRA, Mixture-of-Experts, 动态路由, Sparsegen, 参数高效微调
 
 ## 一句话总结

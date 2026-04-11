@@ -1,9 +1,9 @@
 # COSMIC: Generalized Refusal Direction Identification in LLM Activations
 
-**会议**: ACL2025
-**arXiv**: [2506.00085](https://arxiv.org/abs/2506.00085)
-**代码**: [GitHub](https://github.com/wang-research-lab/COSMIC)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.00085](https://arxiv.org/abs/2506.00085)  
+**代码**: [GitHub](https://github.com/wang-research-lab/COSMIC)  
+**领域**: llm_nlp  
 **关键词**: mechanistic interpretability, refusal steering, activation space, cosine similarity, LLM safety
 
 ## 一句话总结

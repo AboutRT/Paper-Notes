@@ -1,9 +1,9 @@
 # Importance Corrected Neural JKO Sampling
 
-**会议**: ICML 2025
-**arXiv**: [2407.20444](https://arxiv.org/abs/2407.20444)
-**代码**: [github.com/johertrich/neural_JKO_ic](https://github.com/johertrich/neural_JKO_ic)
-**领域**: 采样方法, Wasserstein 梯度流, 归一化流
+**会议**: ICML 2025  
+**arXiv**: [2407.20444](https://arxiv.org/abs/2407.20444)  
+**代码**: [github.com/johertrich/neural_JKO_ic](https://github.com/johertrich/neural_JKO_ic)  
+**领域**: 采样方法, Wasserstein 梯度流, 归一化流  
 **关键词**: Neural JKO, Rejection Sampling, Continuous Normalizing Flows, Importance Sampling, 多模态分布
 
 ## 一句话总结

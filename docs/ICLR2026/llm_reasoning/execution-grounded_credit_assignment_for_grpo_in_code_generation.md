@@ -1,9 +1,9 @@
 # Execution-Grounded Credit Assignment for GRPO in Code Generation
 
-**会议**: ICLR 2026 Workshop (SPOT)
-**arXiv**: [2603.16158](https://arxiv.org/abs/2603.16158)
-**代码**: 未公开
-**领域**: llm_reasoning
+**会议**: ICLR 2026 Workshop (SPOT)  
+**arXiv**: [2603.16158](https://arxiv.org/abs/2603.16158)  
+**代码**: 未公开  
+**领域**: llm_reasoning  
 **关键词**: GRPO, 代码生成, 信用分配, 强化学习, 执行追踪, RLVR
 
 ## 一句话总结

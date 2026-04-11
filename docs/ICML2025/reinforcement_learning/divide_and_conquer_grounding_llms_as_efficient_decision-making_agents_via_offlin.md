@@ -1,9 +1,9 @@
 # Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2505.19761](https://arxiv.org/abs/2505.19761)
-**代码**: https://github.com/NJU-RL/GLIDER (有)
-**领域**: 强化学习 / LLM智能体
+**会议**: ICML 2025  
+**arXiv**: [2505.19761](https://arxiv.org/abs/2505.19761)  
+**代码**: https://github.com/NJU-RL/GLIDER (有)  
+**领域**: 强化学习 / LLM智能体  
 **关键词**: 层次化强化学习, 离线RL, LLM决策, 分治策略, 时间抽象
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # When Robots Obey the Patch: Universal Transferable Patch Attacks on Vision-Language-Action Models
 
-**会议**: CVPR 2026
-**arXiv**: [2511.21192](https://arxiv.org/abs/2511.21192)
-**代码**: [有](https://github.com/yuyi-sd/UPA-RFAS)
-**领域**: 人体理解
+**会议**: CVPR 2026  
+**arXiv**: [2511.21192](https://arxiv.org/abs/2511.21192)  
+**代码**: [有](https://github.com/yuyi-sd/UPA-RFAS)  
+**领域**: 人体理解  
 **关键词**: 对抗攻击, VLA模型, 通用对抗补丁, 黑盒迁移攻击, 机器人安全
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CoLoGen: Progressive Learning of Concept-Localization Duality for Unified Image Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22150](https://arxiv.org/abs/2602.22150)
-**代码**: 暂无
-**领域**: 统一图像生成 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2602.22150](https://arxiv.org/abs/2602.22150)  
+**代码**: 暂无  
+**领域**: 统一图像生成 / 扩散模型  
 **关键词**: 统一生成框架, 概念-定位对偶性, 渐进式训练, 专家路由, FLUX
 
 ## 一句话总结

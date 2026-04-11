@@ -1,9 +1,9 @@
 # Enginuity: Building an Open Multi-Domain Dataset of Complex Engineering Diagrams
 
-**会议**: NeurIPS 2025 (AI4Science Workshop)
-**arXiv**: [2601.13299](https://arxiv.org/abs/2601.13299)
-**代码**: 无
-**领域**: 数据集 / 工程图理解 / 多模态推理
+**会议**: NeurIPS 2025 (AI4Science Workshop)  
+**arXiv**: [2601.13299](https://arxiv.org/abs/2601.13299)  
+**代码**: 无  
+**领域**: 数据集 / 工程图理解 / 多模态推理  
 **关键词**: 工程图解析, 数据集, 汽车零件图, 结构化标注, 多模态大模型
 
 ## 一句话总结

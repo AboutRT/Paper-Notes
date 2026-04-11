@@ -1,9 +1,9 @@
 # CLAWS: Creativity Detection for LLM-Generated Solutions Using Attention Window of Sections
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17921](https://arxiv.org/abs/2510.17921)
-**代码**: [GitHub](https://github.com/kkt94/CLAWS)
-**领域**: reinforcement_learning
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17921](https://arxiv.org/abs/2510.17921)  
+**代码**: [GitHub](https://github.com/kkt94/CLAWS)  
+**领域**: reinforcement_learning  
 **关键词**: LLM创造力检测, 注意力分析, 数学推理, 幻觉检测, 白盒方法
 
 ## 一句话总结

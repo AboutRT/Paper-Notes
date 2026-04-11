@@ -1,9 +1,9 @@
 # Efficient Audio-Visual Speech Separation with Discrete Lip Semantics and Multi-Scale Global-Local Attention
 
-**会议**: ICLR 2026
-**arXiv**: [2509.23610](https://arxiv.org/abs/2509.23610)
-**代码**: 有（https://cslikai.cn/Dolphin）
-**领域**: 音频语音
+**会议**: ICLR 2026  
+**arXiv**: [2509.23610](https://arxiv.org/abs/2509.23610)  
+**代码**: 有（https://cslikai.cn/Dolphin）  
+**领域**: 音频语音  
 **关键词**: 音视频语音分离, 离散唇语语义, 向量量化, 全局-局部注意力, 轻量化
 
 ## 一句话总结

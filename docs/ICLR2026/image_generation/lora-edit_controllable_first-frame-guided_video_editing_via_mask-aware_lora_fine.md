@@ -1,9 +1,9 @@
 # LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning
 
-**会议**: ICLR 2026
-**arXiv**: [2506.10082](https://arxiv.org/abs/2506.10082)
-**代码**: [项目页](https://cjeen.github.io/LoRAEdit)
-**领域**: 视频编辑
+**会议**: ICLR 2026  
+**arXiv**: [2506.10082](https://arxiv.org/abs/2506.10082)  
+**代码**: [项目页](https://cjeen.github.io/LoRAEdit)  
+**领域**: 视频编辑  
 **关键词**: 视频编辑, LoRA微调, 首帧引导, 时空mask, 外观控制
 
 ## 一句话总结

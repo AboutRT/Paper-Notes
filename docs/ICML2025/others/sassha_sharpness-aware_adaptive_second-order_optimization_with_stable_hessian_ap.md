@@ -1,9 +1,9 @@
 # Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation
 
-**会议**: ICML2025
-**arXiv**: [2502.18153](https://arxiv.org/abs/2502.18153)
-**代码**: [GitHub](https://github.com/LOG-postech/Sassha)
-**领域**: 优化
+**会议**: ICML2025  
+**arXiv**: [2502.18153](https://arxiv.org/abs/2502.18153)  
+**代码**: [GitHub](https://github.com/LOG-postech/Sassha)  
+**领域**: 优化  
 **关键词**: 二阶优化, sharpness-aware minimization, Hessian 近似, 泛化, 损失景观
 
 ## 一句话总结

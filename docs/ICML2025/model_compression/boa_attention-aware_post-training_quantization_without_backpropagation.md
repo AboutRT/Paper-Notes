@@ -1,9 +1,9 @@
 # BoA: Attention-aware Post-training Quantization without Backpropagation
 
-**会议**: ICML 2025
-**arXiv**: [2406.13474](https://arxiv.org/abs/2406.13474)
-**代码**: https://github.com/SamsungLabs/BoA
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2406.13474](https://arxiv.org/abs/2406.13474)  
+**代码**: https://github.com/SamsungLabs/BoA  
+**领域**: 模型压缩  
 **关键词**: 训练后量化, 注意力感知, Hessian优化, LLM量化, 跨层依赖
 
 ## 一句话总结

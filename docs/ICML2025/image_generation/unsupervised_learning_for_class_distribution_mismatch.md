@@ -1,9 +1,9 @@
 # Unsupervised Learning for Class Distribution Mismatch (UCDM)
 
-**会议**: ICML2025
-**arXiv**: [2505.06948](https://arxiv.org/abs/2505.06948)
-**代码**: 待确认
-**领域**: 分布偏移
+**会议**: ICML2025  
+**arXiv**: [2505.06948](https://arxiv.org/abs/2505.06948)  
+**代码**: 待确认  
+**领域**: 分布偏移  
 **关键词**: 类别分布不匹配, 无监督学习, 扩散模型, 伪标签, 开集识别
 
 ## 一句话总结

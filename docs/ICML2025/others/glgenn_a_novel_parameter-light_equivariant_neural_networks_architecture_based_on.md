@@ -1,9 +1,9 @@
 # GLGENN: 基于Clifford几何代数的轻参数等变神经网络架构
 
-**会议**: ICML2025
-**arXiv**: [2506.09625](https://arxiv.org/abs/2506.09625)
-**代码**: [GitHub](https://github.com/katyafilimoshina/glgenn)
-**领域**: 等变神经网络 / 几何深度学习
+**会议**: ICML2025  
+**arXiv**: [2506.09625](https://arxiv.org/abs/2506.09625)  
+**代码**: [GitHub](https://github.com/katyafilimoshina/glgenn)  
+**领域**: 等变神经网络 / 几何深度学习  
 **关键词**: 等变神经网络, Clifford代数, 几何代数, Lipschitz群, 伪正交群, 权重共享, 参数高效
 
 ## 一句话总结

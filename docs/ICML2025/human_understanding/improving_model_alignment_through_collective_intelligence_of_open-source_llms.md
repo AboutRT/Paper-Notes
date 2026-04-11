@@ -1,9 +1,9 @@
 # Improving Model Alignment through Collective Intelligence of Open-Source LLMs
 
-**会议**: ICML 2025
-**arXiv**: [2505.03059](https://arxiv.org/abs/2505.03059)
-**代码**: 即将发布
-**领域**: Human Understanding
+**会议**: ICML 2025  
+**arXiv**: [2505.03059](https://arxiv.org/abs/2505.03059)  
+**代码**: 即将发布  
+**领域**: Human Understanding  
 **关键词**: model alignment, mixture of agents, synthetic data, preference optimization, self-improvement
 
 ## 一句话总结

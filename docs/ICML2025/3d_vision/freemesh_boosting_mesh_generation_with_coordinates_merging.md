@@ -1,9 +1,9 @@
 # FreeMesh: Boosting Mesh Generation with Coordinates Merging
 
-**会议**: ICML2025
-**arXiv**: [2505.13573](https://arxiv.org/abs/2505.13573)
-**代码**: 待确认
-**领域**: 3d_vision
+**会议**: ICML2025  
+**arXiv**: [2505.13573](https://arxiv.org/abs/2505.13573)  
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: 网格生成, 坐标合并, Token化, 自回归, 信息熵
 
 ## 一句话总结

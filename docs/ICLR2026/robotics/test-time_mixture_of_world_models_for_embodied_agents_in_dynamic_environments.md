@@ -1,9 +1,9 @@
 # Test-Time Mixture of World Models for Embodied Agents in Dynamic Environments
 
-**会议**: ICLR 2026
-**arXiv**: [2601.22647](https://arxiv.org/abs/2601.22647)
-**代码**: 无
-**领域**: 具身AI/世界模型
+**会议**: ICLR 2026  
+**arXiv**: [2601.22647](https://arxiv.org/abs/2601.22647)  
+**代码**: 无  
+**领域**: 具身AI/世界模型  
 **关键词**: MoE, 测试时适应, 世界模型, 原型路由, 动态环境
 
 ## 一句话总结

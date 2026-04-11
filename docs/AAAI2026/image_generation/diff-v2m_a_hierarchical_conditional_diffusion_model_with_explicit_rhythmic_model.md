@@ -1,9 +1,9 @@
 # Diff-V2M: A Hierarchical Conditional Diffusion Model with Explicit Rhythmic Modeling for Video-to-Music Generation
 
-**会议**: AAAI 2026
-**arXiv**: [2511.09090](https://arxiv.org/abs/2511.09090)
-**代码**: [Demo](https://Tayjsl97.github.io/Diff-V2M-Demo/)
-**领域**: 图像生成
+**会议**: AAAI 2026  
+**arXiv**: [2511.09090](https://arxiv.org/abs/2511.09090)  
+**代码**: [Demo](https://Tayjsl97.github.io/Diff-V2M-Demo/)  
+**领域**: 图像生成  
 **关键词**: 视频到音乐生成, 扩散模型, 节奏建模, 层次交叉注意力, 特征融合
 
 ## 一句话总结

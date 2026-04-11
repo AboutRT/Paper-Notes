@@ -1,9 +1,9 @@
 # Streaming Generation of Co-Speech Gestures via Accelerated Rolling Diffusion
 
-**会议**: AAAI2026
-**arXiv**: [2503.10488](https://arxiv.org/abs/2503.10488)
-**代码**: [GitHub](https://github.com/andrewbo29/co-speech-gestures-rolling-diffusion)
-**领域**: human_understanding
+**会议**: AAAI2026  
+**arXiv**: [2503.10488](https://arxiv.org/abs/2503.10488)  
+**代码**: [GitHub](https://github.com/andrewbo29/co-speech-gestures-rolling-diffusion)  
+**领域**: human_understanding  
 **关键词**: co-speech gestures, rolling diffusion, streaming generation, real-time, noise scheduling, motion synthesis
 
 ## 一句话总结

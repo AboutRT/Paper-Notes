@@ -1,9 +1,9 @@
 # From 2D Alignment to 3D Plausibility: Unifying Heterogeneous 2D Priors and Penetration-Free Diffusion for Occlusion-Robust Two-Hand Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2503.17788](https://arxiv.org/abs/2503.17788)
-**代码**: [项目页](https://gaogehan.github.io/A2P/)
-**领域**: 分割 / 3D手部重建
+**会议**: CVPR 2026  
+**arXiv**: [2503.17788](https://arxiv.org/abs/2503.17788)  
+**代码**: [项目页](https://gaogehan.github.io/A2P/)  
+**领域**: 分割 / 3D手部重建  
 **关键词**: 双手重建, 2D先验融合, 扩散模型, 穿透消除, 遮挡鲁棒
 
 ## 一句话总结

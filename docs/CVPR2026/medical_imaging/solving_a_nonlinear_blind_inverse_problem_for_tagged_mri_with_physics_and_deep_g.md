@@ -1,9 +1,9 @@
 # Solving a Nonlinear Blind Inverse Problem for Tagged MRI with Physics and Deep Generative Priors
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00882](https://arxiv.org/abs/2603.00882)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.00882](https://arxiv.org/abs/2603.00882)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: Tagged MRI, 逆问题, 扩散先验, 运动估计, 图像超分辨
 
 ## 一句话总结

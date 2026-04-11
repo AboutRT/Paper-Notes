@@ -1,9 +1,9 @@
 # TIACam: Text-Anchored Invariant Feature Learning with Auto-Augmentation for Camera-Robust Zero-Watermarking
 
-**会议**: CVPR2026
-**arXiv**: [2602.18863](https://arxiv.org/abs/2602.18863)
-**代码**: 待确认
-**领域**: 目标检测（实际为多媒体安全/水印）
+**会议**: CVPR2026  
+**arXiv**: [2602.18863](https://arxiv.org/abs/2602.18863)  
+**代码**: 待确认  
+**领域**: 目标检测（实际为多媒体安全/水印）  
 **关键词**: 零水印, 跨模态对齐, 可学习数据增强, 相机鲁棒性, CLIP, 对抗训练, 不变特征学习
 
 ## 一句话总结

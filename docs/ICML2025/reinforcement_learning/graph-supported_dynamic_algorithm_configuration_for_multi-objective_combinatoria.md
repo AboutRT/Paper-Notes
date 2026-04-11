@@ -1,9 +1,9 @@
 # Graph-Supported Dynamic Algorithm Configuration for Multi-Objective Combinatorial Optimization
 
-**会议**: ICML2025
-**arXiv**: [2505.16471](https://arxiv.org/abs/2505.16471)
-**代码**: [GitHub](https://github.com/RobbertReijnen/GS-MODAC)
-**领域**: 算法配置 / 多目标组合优化
+**会议**: ICML2025  
+**arXiv**: [2505.16471](https://arxiv.org/abs/2505.16471)  
+**代码**: [GitHub](https://github.com/RobbertReijnen/GS-MODAC)  
+**领域**: 算法配置 / 多目标组合优化  
 **关键词**: 动态算法配置, 图神经网络, 深度强化学习, 多目标进化算法, Pareto 优化
 
 ## 一句话总结

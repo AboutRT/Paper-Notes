@@ -1,9 +1,9 @@
 # AnomalyVFM -- Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors
 
-**会议**: CVPR 2026
-**arXiv**: [2601.20524](https://arxiv.org/abs/2601.20524)
-**代码**: [Project Page](https://AnomalyVFM.github.io/) (有)
-**领域**: Multimodal VLM / Anomaly Detection
+**会议**: CVPR 2026  
+**arXiv**: [2601.20524](https://arxiv.org/abs/2601.20524)  
+**代码**: [Project Page](https://AnomalyVFM.github.io/) (有)  
+**领域**: Multimodal VLM / Anomaly Detection  
 **关键词**: 零样本异常检测, 视觉基础模型, 合成数据, 参数高效微调, LoRA
 
 ## 一句话总结
@@ -20,6 +20,7 @@ AnomalyVFM 提出了一个通用框架，通过三阶段合成数据生成方案
 5. **核心 idea**：生成式数据 + 参数高效骨干适配 + 置信度加权损失 = 释放 VFM 的零样本异常检测潜力。
 
 ## 方法详解
+
 ### 整体框架
 三阶段数据生成 → LoRA 注入 VFM Transformer → 轻量解码器 → 置信度加权损失训练 → 推理时直接输出异常分割图和图像级分数。
 
@@ -50,6 +51,7 @@ AnomalyVFM 提出了一个通用框架，通过三阶段合成数据生成方案
 - 模型无关：可应用于任何 Transformer 骨干的 VFM
 
 ## 实验关键数据
+
 ### 主实验（9 个工业数据集零样本，图像级 AUROC）
 | 方法 | MVTec AD | VisA | BTAD | RealIAD | DTD | 平均 |
 |------|---------|------|------|---------|-----|------|

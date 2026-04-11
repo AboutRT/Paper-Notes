@@ -1,9 +1,9 @@
 # Generative Value Conflicts Reveal LLM Priorities
 
-**会议**: ICLR 2026
-**arXiv**: [2509.25369](https://arxiv.org/abs/2509.25369)
-**代码**: [GitHub](https://github.com/andyjliu/conflictscope)
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2509.25369](https://arxiv.org/abs/2509.25369)  
+**代码**: [GitHub](https://github.com/andyjliu/conflictscope)  
+**领域**: llm_nlp  
 **关键词**: 价值冲突, LLM 对齐, 价值排序, 开放式评估, 可操纵性, AI 安全
 
 ## 一句话总结

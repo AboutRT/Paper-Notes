@@ -1,9 +1,9 @@
 # NeuronTune: Towards Self-Guided Spurious Bias Mitigation
 
-**会议**: ICML2025
-**arXiv**: [2505.24048](https://arxiv.org/abs/2505.24048)
-**代码**: [GitHub](https://github.com/gtzheng/NeuronTune)
-**领域**: 鲁棒性/去偏 (Robustness / Debiasing)
+**会议**: ICML2025  
+**arXiv**: [2505.24048](https://arxiv.org/abs/2505.24048)  
+**代码**: [GitHub](https://github.com/gtzheng/NeuronTune)  
+**领域**: 鲁棒性/去偏 (Robustness / Debiasing)  
 **关键词**: 虚假相关性, 偏差缓解, 神经元剪枝, 最后一层重训练, worst-group accuracy
 
 ## 一句话总结

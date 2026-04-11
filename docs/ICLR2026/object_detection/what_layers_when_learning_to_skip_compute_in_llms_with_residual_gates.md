@@ -1,8 +1,8 @@
 # What Layers When: Learning to Skip Compute in LLMs with Residual Gates
 
-**会议**: ICLR 2026
-**arXiv**: [2510.13876](https://arxiv.org/abs/2510.13876)
-**领域**: LLM效率/自适应计算
+**会议**: ICLR 2026  
+**arXiv**: [2510.13876](https://arxiv.org/abs/2510.13876)  
+**领域**: LLM效率/自适应计算  
 **关键词**: 残差门控, token级层跳过, 自适应深度, GateSkip, 推理加速
 
 ## 一句话总结

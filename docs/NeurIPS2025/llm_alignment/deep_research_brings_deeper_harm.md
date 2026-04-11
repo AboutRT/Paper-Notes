@@ -1,9 +1,9 @@
 # Deep Research Brings Deeper Harm
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.11851](https://arxiv.org/abs/2510.11851)
-**代码**: 有（论文中提及）
-**领域**: AI安全 / LLM对齐
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.11851](https://arxiv.org/abs/2510.11851)  
+**代码**: 有（论文中提及）  
+**领域**: AI安全 / LLM对齐  
 **关键词**: deep research agent, jailbreak, safety alignment, biosecurity, plan injection
 
 ## 一句话总结

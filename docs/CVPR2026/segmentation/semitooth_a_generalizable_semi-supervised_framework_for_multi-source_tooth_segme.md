@@ -1,9 +1,9 @@
 # SemiTooth: a Generalizable Semi-supervised Framework for Multi-Source Tooth Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11616](https://arxiv.org/abs/2603.11616)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.11616](https://arxiv.org/abs/2603.11616)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 牙齿分割, CBCT, 半监督学习, 多源数据, 多教师多学生
 
 ## 一句话总结

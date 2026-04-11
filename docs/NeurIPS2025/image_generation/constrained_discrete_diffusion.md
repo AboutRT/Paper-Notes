@@ -1,9 +1,9 @@
 # Constrained Discrete Diffusion
 
-**会议**: NeurIPS 2025
-**arXiv**: [2503.09790](https://arxiv.org/abs/2503.09790)
-**代码**: 待确认
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.09790](https://arxiv.org/abs/2503.09790)  
+**代码**: 待确认  
+**领域**: image_generation  
 **关键词**: 离散扩散模型, 约束优化, 增广拉格朗日, 可控文本生成, 分子生成, 毒性缓解
 
 ## 一句话总结

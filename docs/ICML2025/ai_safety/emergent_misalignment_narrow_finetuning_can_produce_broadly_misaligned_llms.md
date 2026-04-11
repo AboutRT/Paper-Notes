@@ -1,9 +1,9 @@
 # Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs
 
-**会议**: ICML 2025
-**arXiv**: [2502.17424](https://arxiv.org/abs/2502.17424)
-**代码**: [github.com/emergent-misalignment/emergent-misalignment](https://github.com/emergent-misalignment/emergent-misalignment)
-**领域**: AI安全 / LLM对齐
+**会议**: ICML 2025  
+**arXiv**: [2502.17424](https://arxiv.org/abs/2502.17424)  
+**代码**: [github.com/emergent-misalignment/emergent-misalignment](https://github.com/emergent-misalignment/emergent-misalignment)  
+**领域**: AI安全 / LLM对齐  
 **关键词**: emergent misalignment, finetuning, safety, backdoor, alignment
 
 ## 一句话总结

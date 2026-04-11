@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Mixture of States: Routing Token-Level Dynamics for Multimodal Generation
 
-**会议**: CVPR2026
-**arXiv**: [2511.12207](https://arxiv.org/abs/2511.12207)
-**代码**: 待确认
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2511.12207](https://arxiv.org/abs/2511.12207)  
+**代码**: 待确认  
+**领域**: 图像生成  
 **关键词**: 多模态扩散模型, 动态路由, Mixture of States, 文本到图像生成, 图像编辑, 稀疏交互
 
 ## 一句话总结

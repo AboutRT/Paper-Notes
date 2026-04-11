@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # TESS 2: A Large-Scale Generalist Diffusion Language Model
 
-**会议**: ACL2025
-**arXiv**: [2502.13917](https://arxiv.org/abs/2502.13917)
-**代码**: [hamishivi/tess-2](https://github.com/hamishivi/tess-2)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.13917](https://arxiv.org/abs/2502.13917)  
+**代码**: [hamishivi/tess-2](https://github.com/hamishivi/tess-2)  
+**领域**: llm_nlp  
 **关键词**: diffusion language model, simplex diffusion, instruction tuning, reward guidance, inference-time compute
 
 ## 一句话总结

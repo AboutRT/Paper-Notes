@@ -1,9 +1,9 @@
 # U-Mind: A Unified Framework for Real-Time Multimodal Interaction with Audiovisual Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23739](https://arxiv.org/abs/2602.23739)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2602.23739](https://arxiv.org/abs/2602.23739)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 多模态交互, 实时生成, 数字人, 语音-动作同步, 思维链推理
 
 ## 一句话总结

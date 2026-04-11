@@ -1,9 +1,9 @@
 # Out-of-Distribution Detection Methods Answer the Wrong Questions
 
-**会议**: ICML2025
-**arXiv**: [2507.01831](https://arxiv.org/abs/2507.01831)
-**代码**: 无（分析/立场论文）
-**领域**: OOD检测
+**会议**: ICML2025  
+**arXiv**: [2507.01831](https://arxiv.org/abs/2507.01831)  
+**代码**: 无（分析/立场论文）  
+**领域**: OOD检测  
 **关键词**: OOD检测, 分布偏移, 特征空间, 不确定性, 模型误设定
 
 ## 一句话总结

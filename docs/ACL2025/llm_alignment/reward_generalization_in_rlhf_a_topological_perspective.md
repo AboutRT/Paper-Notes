@@ -1,9 +1,9 @@
 # Reward Generalization in RLHF: A Topological Perspective
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2402.10184](https://arxiv.org/abs/2402.10184)
-**代码**: 无
-**领域**: 对齐RLHF
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2402.10184](https://arxiv.org/abs/2402.10184)  
+**代码**: 无  
+**领域**: 对齐RLHF  
 **关键词**: RLHF, reward modeling, information topology, tree-structured preference, generalization bounds
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Reclaiming Lost Text Layers for Source-Free Cross-Domain Few-Shot Learning
 
-**会议**: CVPR2026
-**arXiv**: [2603.05235](https://arxiv.org/abs/2603.05235)
-**代码**: [zhenyuZ-HUST/CVPR26-VtT](https://github.com/zhenyuZ-HUST/CVPR26-VtT)
-**领域**: 医学图像 / 跨域少样本学习
+**会议**: CVPR2026  
+**arXiv**: [2603.05235](https://arxiv.org/abs/2603.05235)  
+**代码**: [zhenyuZ-HUST/CVPR26-VtT](https://github.com/zhenyuZ-HUST/CVPR26-VtT)  
+**领域**: 医学图像 / 跨域少样本学习  
 **关键词**: CLIP, 跨域少样本学习, 文本编码器层冗余, 视觉-文本融合, 状态空间模型, 梯度优化
 
 ## 一句话总结

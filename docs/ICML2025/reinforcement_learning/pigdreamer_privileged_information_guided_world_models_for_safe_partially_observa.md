@@ -1,9 +1,9 @@
 # PIGDreamer: Privileged Information Guided World Models for Safe Partially Observable RL
 
-**会议**: ICML2025
-**arXiv**: [2508.02159](https://arxiv.org/abs/2508.02159)
-**代码**: [GitHub - PIGDreamer](https://github.com/hggforget/PIGDreamer)
-**领域**: reinforcement_learning
+**会议**: ICML2025  
+**arXiv**: [2508.02159](https://arxiv.org/abs/2508.02159)  
+**代码**: [GitHub - PIGDreamer](https://github.com/hggforget/PIGDreamer)  
+**领域**: reinforcement_learning  
 **关键词**: 安全RL, 部分可观测, 特权信息, 世界模型, ACPOMDP
 
 ## 一句话总结
@@ -74,8 +74,10 @@ Critic在训练时访问特权信息（更准确的值估计），Actor仅用观
 - 价值: 4.5/5 — 安全RL的重要推进
 
 ## 补充分析
+
 ### 特权信息的典型来源
 仿真中的ground truth状态、传感器阵列的融合信息、历史轨迹的额外标注等。训练时构建这些相对容易，部署时不可用但模型已内化了其信息。
+
 ### ACPOMDP与CPOMDP的关系
 ACPOMDP是CPOMDP加上训练时的特权信息访问权。理论证明了特权信息的使用不会破坏部署时的策略安全性保证。
 

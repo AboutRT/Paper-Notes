@@ -1,9 +1,9 @@
 # APPLE: Attribute-Preserving Pseudo-Labeling for Diffusion-Based Face Swapping
 
-**会议**: CVPR 2026
-**arXiv**: [2601.15288](https://arxiv.org/abs/2601.15288)
-**代码**: [https://cvlab-kaist.github.io/APPLE](https://cvlab-kaist.github.io/APPLE) (有)
-**领域**: 图像生成 / 人脸替换
+**会议**: CVPR 2026  
+**arXiv**: [2601.15288](https://arxiv.org/abs/2601.15288)  
+**代码**: [https://cvlab-kaist.github.io/APPLE](https://cvlab-kaist.github.io/APPLE) (有)  
+**领域**: 图像生成 / 人脸替换  
 **关键词**: Face Swapping, Diffusion Model, Teacher-Student, Pseudo-Label, Attribute Preservation
 
 ## 一句话总结

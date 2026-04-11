@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # MatAnyone 2: Scaling Video Matting via a Learned Quality Evaluator
 
-**会议**: CVPR2026
-**arXiv**: [2512.11782](https://arxiv.org/abs/2512.11782)
-**代码**: [项目主页](https://pq-yang.github.io/projects/MatAnyone2/)
-**领域**: 语义分割 / 视频抠图
+**会议**: CVPR2026  
+**arXiv**: [2512.11782](https://arxiv.org/abs/2512.11782)  
+**代码**: [项目主页](https://pq-yang.github.io/projects/MatAnyone2/)  
+**领域**: 语义分割 / 视频抠图  
 **关键词**: video matting, quality evaluator, alpha matte, dataset curation, reference-frame strategy
 
 ## 一句话总结

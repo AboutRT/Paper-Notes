@@ -1,9 +1,9 @@
 # Tilted Sharpness-Aware Minimization
 
-**会议**: ICML2025
-**arXiv**: [2410.22656](https://arxiv.org/abs/2410.22656)
-**代码**: [github.com/litian96/TSAM](https://github.com/litian96/TSAM)
-**领域**: 优化 / Sharpness-Aware Minimization
+**会议**: ICML2025  
+**arXiv**: [2410.22656](https://arxiv.org/abs/2410.22656)  
+**代码**: [github.com/litian96/TSAM](https://github.com/litian96/TSAM)  
+**领域**: 优化 / Sharpness-Aware Minimization  
 **关键词**: SAM, 指数倾斜, 平坦极小值, 泛化, Hamiltonian Monte Carlo
 
 ## 一句话总结

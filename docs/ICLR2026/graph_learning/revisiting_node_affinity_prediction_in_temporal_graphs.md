@@ -1,9 +1,9 @@
 # Revisiting Node Affinity Prediction in Temporal Graphs
 
-**会议**: ICLR 2026
-**arXiv**: [2510.06940](https://arxiv.org/abs/2510.06940)
-**代码**: https://github.com/orfeld415/NAVIS
-**领域**: 图学习 / 时序图
+**会议**: ICLR 2026  
+**arXiv**: [2510.06940](https://arxiv.org/abs/2510.06940)  
+**代码**: https://github.com/orfeld415/NAVIS  
+**领域**: 图学习 / 时序图  
 **关键词**: 时序图神经网络, 节点亲和力预测, 状态空间模型, 排序损失, 全局状态
 
 ## 一句话总结

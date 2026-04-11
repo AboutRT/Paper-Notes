@@ -1,9 +1,9 @@
 # LaGa: Tackling View-Dependent Semantics in 3D Language Gaussian Splatting
 
-**会议**: ICML2025
-**arXiv**: [2505.24746](https://arxiv.org/abs/2505.24746)
-**代码**: [GitHub - LaGa](https://github.com/SJTU-DeepVisionLab/LaGa)
-**领域**: 3d_vision
+**会议**: ICML2025  
+**arXiv**: [2505.24746](https://arxiv.org/abs/2505.24746)  
+**代码**: [GitHub - LaGa](https://github.com/SJTU-DeepVisionLab/LaGa)  
+**领域**: 3d_vision  
 **关键词**: 3D高斯, 开放词汇分割, 视角依赖语义, 场景理解, CLIP
 
 ## 一句话总结
@@ -93,6 +93,7 @@
 
 ### 下游应用潜力
 几乎消首02D-3D差距后，3D物体编辑、AI交互、精确3D定位等任务可直接在3D空间完成。
+
 ### 对其他3D表示的启发
 视角依赖语义问题同样存在于NeRF和点云等3D表示中。LaGa的聚类+重加权策略具有通用性，可推广到这些场景。
 

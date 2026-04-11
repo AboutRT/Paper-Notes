@@ -1,9 +1,9 @@
 # Frequency-Aware Token Reduction for Efficient Vision Transformer
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.21477](https://arxiv.org/abs/2511.21477)
-**代码**: [GitHub](https://github.com/jhtwosun/frequency-aware-token-pruning)
-**领域**: 模型压缩 / Vision Transformer
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.21477](https://arxiv.org/abs/2511.21477)  
+**代码**: [GitHub](https://github.com/jhtwosun/frequency-aware-token-pruning)  
+**领域**: 模型压缩 / Vision Transformer  
 **关键词**: token reduction, rank collapse, over-smoothing, frequency analysis, vision transformer
 
 ## 一句话总结

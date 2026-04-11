@@ -1,9 +1,9 @@
 # Hybrid Quantum-Classical Multi-Agent Pathfinding
 
-**会议**: ICML2025
-**arXiv**: [2501.14568](https://arxiv.org/abs/2501.14568)
-**代码**: 待确认
-**领域**: autonomous_driving
+**会议**: ICML2025  
+**arXiv**: [2501.14568](https://arxiv.org/abs/2501.14568)  
+**代码**: 待确认  
+**领域**: autonomous_driving  
 **关键词**: 多智能体路径规划, 量子计算, QUBO, 分支定价, 冲突图
 
 ## 一句话总结

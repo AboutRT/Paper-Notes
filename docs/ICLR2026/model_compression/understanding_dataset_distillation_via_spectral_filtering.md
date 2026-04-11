@@ -1,9 +1,9 @@
 # Understanding Dataset Distillation via Spectral Filtering
 
-**会议**: ICLR 2026
-**arXiv**: [2503.01212](https://arxiv.org/abs/2503.01212)
-**代码**: 未提供
-**领域**: 模型压缩 / 数据集蒸馏
+**会议**: ICLR 2026  
+**arXiv**: [2503.01212](https://arxiv.org/abs/2503.01212)  
+**代码**: 未提供  
+**领域**: 模型压缩 / 数据集蒸馏  
 **关键词**: dataset distillation, spectral filtering, frequency matching, curriculum learning, unified framework
 
 ## 一句话总结

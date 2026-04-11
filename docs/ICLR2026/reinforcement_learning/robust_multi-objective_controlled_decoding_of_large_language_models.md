@@ -1,9 +1,9 @@
 # Robust Multi-Objective Controlled Decoding of Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2503.08796](https://arxiv.org/abs/2503.08796)
-**代码**: [GitHub](https://github.com/williambankes/robust-multi-objective-decoding)
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2503.08796](https://arxiv.org/abs/2503.08796)  
+**代码**: [GitHub](https://github.com/williambankes/robust-multi-objective-decoding)  
+**领域**: 强化学习  
 **关键词**: 多目标对齐, 推理时对齐, 控制解码, 鲁棒优化, 最小最大博弈
 
 ## 一句话总结

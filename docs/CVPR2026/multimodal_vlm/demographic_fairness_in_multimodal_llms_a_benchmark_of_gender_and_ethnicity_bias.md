@@ -1,9 +1,9 @@
 # Demographic Fairness in Multimodal LLMs: A Benchmark of Gender and Ethnicity Bias in Face Verification
 
-**会议**: CVPR 2026
-**arXiv**: [2603.25613](https://arxiv.org/abs/2603.25613)
-**代码**: [项目页面](https://www.idiap.ch/paper/mllm-fairness) (有)
-**领域**: Multimodal / VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.25613](https://arxiv.org/abs/2603.25613)  
+**代码**: [项目页面](https://www.idiap.ch/paper/mllm-fairness) (有)  
+**领域**: Multimodal / VLM  
 **关键词**: 多模态大模型, 人脸验证, 人口统计公平性, 偏见基准, 族裔和性别偏差
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心 idea**: MLLM 的偏见模式与传统系统不同——最准确的模型不一定最公平，性能差的模型可能因"均匀高错误率"而看似公平。
 
 ## 方法详解
+
 ### 整体框架
 给定两张人脸图像和文本提示，MLLM 输出相似度分数 $s_{ij} \in [0,1]$。对于多图 template，取所有 $m \times n$ 对的相似度平均值作为 template-level 分数。在不同阈值下计算 FMR、FNMR、EER，并按人口统计组分别评估。
 
@@ -32,6 +33,7 @@
 本文是评测工作，不涉及训练。所有模型均使用预训练权重，统一文本提示格式。
 
 ## 实验关键数据
+
 ### 主实验（IJB-C EER, % ↓）
 | 模型 | Global | African | Caucasian | East Asian | South Asian | σ(族裔) |
 |------|--------|---------|-----------|------------|-------------|--------|
@@ -70,6 +72,7 @@
 - 未深入分析偏见的**来源**（是预训练数据不平衡还是模型架构导致）。
 - MLLM 整体人脸验证性能远不如专用系统，实用性有限。- 未探索 in-context learning 或 prompt engineering 是否能减轻偏见
 - 跨数据集（IJB-C vs RFW）的偏见模式不一致，需要更大规模统一评估
+
 ## 相关工作与启发
 - 与 FaceRecBench、FaceXBench 的区别：后两者评估 MLLM 人脸能力的准确性，本文专注**公平性**维度。
 - NIST FRVT 系列工作为传统系统建立了公平性评估标准，本文将其扩展到 MLLM。

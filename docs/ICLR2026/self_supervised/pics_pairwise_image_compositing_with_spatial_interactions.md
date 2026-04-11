@@ -1,9 +1,9 @@
 # PICS: Pairwise Image Compositing with Spatial Interactions
 
-**会议**: ICLR 2026
-**arXiv**: [2603.06873](https://arxiv.org/abs/2603.06873)
-**代码**: [github.com/RyanHangZhou/PICS](https://github.com/RyanHangZhou/PICS)
-**领域**: 自监督学习 / 图像合成
+**会议**: ICLR 2026  
+**arXiv**: [2603.06873](https://arxiv.org/abs/2603.06873)  
+**代码**: [github.com/RyanHangZhou/PICS](https://github.com/RyanHangZhou/PICS)  
+**领域**: 自监督学习 / 图像合成  
 **关键词**: image compositing, diffusion model, Mixture-of-Experts, spatial interaction, α-blending
 
 ## 一句话总结

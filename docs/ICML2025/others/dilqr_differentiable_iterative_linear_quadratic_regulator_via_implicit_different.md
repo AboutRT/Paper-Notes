@@ -1,9 +1,9 @@
 # DiLQR: Differentiable Iterative LQR via Implicit Differentiation
 
-**会议**: ICML2025
-**arXiv**: [2506.17473](https://arxiv.org/abs/2506.17473)
-**代码**: [项目页](https://sites.google.com/view/dilqr/)
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2506.17473](https://arxiv.org/abs/2506.17473)  
+**代码**: [项目页](https://sites.google.com/view/dilqr/)  
+**领域**: others  
 **关键词**: 可微控制, iLQR, 隐式微分, 轨迹优化, 端到端学习
 
 ## 一句话总结

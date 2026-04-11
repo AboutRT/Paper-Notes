@@ -1,9 +1,9 @@
 # Finetuning Stellar Spectra Foundation Models with LoRA
 
-**会议**: ICML2025
-**arXiv**: [2507.20972](https://arxiv.org/abs/2507.20972)
-**代码**: 待确认
-**领域**: physics
+**会议**: ICML2025  
+**arXiv**: [2507.20972](https://arxiv.org/abs/2507.20972)  
+**代码**: 待确认  
+**领域**: physics  
 **关键词**: 恒星光谱, 基础模型, LoRA微调, 跨巡天迁移, 对比学习
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # DA-Mamba: Learning Domain-Aware State Space Model for Global-Local Alignment in Domain Adaptive Object Detection
 
-**会议**: CVPR2026
-**arXiv**: [2603.18757](https://arxiv.org/abs/2603.18757)
-**代码**: 待确认
-**领域**: 目标检测
+**会议**: CVPR2026  
+**arXiv**: [2603.18757](https://arxiv.org/abs/2603.18757)  
+**代码**: 待确认  
+**领域**: 目标检测  
 **关键词**: 域自适应目标检测, 状态空间模型, Mamba, 全局-局部对齐, 特征对齐, CNN-SSM混合架构
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Rooftop Wind Field Reconstruction Using Sparse Sensors: From Deterministic to Generative Learning Methods
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13077](https://arxiv.org/abs/2603.13077)
-**代码**: [有](https://github.com/Yng314/windreconstruction)
-**领域**: 其他（流体力学）
+**会议**: CVPR 2026  
+**arXiv**: [2603.13077](https://arxiv.org/abs/2603.13077)  
+**代码**: [有](https://github.com/Yng314/windreconstruction)  
+**领域**: 其他（流体力学）  
 **关键词**: 风场重建, 稀疏传感器, 深度学习, PIV测量, 传感器优化, UNet, Vision Transformer, GAN
 
 ## 一句话总结

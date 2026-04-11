@@ -1,9 +1,9 @@
 # Action-Minimization Meets Generative Modeling: Efficient Transition Path Sampling with the Onsager-Machlup Functional
 
-**会议**: ICML2025
-**arXiv**: [2504.18506](https://arxiv.org/abs/2504.18506)
-**代码**: https://github.com/ASK-Berkeley/OM-TPS
-**领域**: 扩散模型 / 分子动力学 / 生成模型
+**会议**: ICML2025  
+**arXiv**: [2504.18506](https://arxiv.org/abs/2504.18506)  
+**代码**: https://github.com/ASK-Berkeley/OM-TPS  
+**领域**: 扩散模型 / 分子动力学 / 生成模型  
 **关键词**: Transition Path Sampling, Onsager-Machlup Action, Diffusion Models, Flow Matching, Molecular Dynamics
 
 ## 一句话总结

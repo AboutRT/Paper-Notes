@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Towards High-Quality Image Segmentation: Improving Topology Accuracy by Penalizing Neighbor Pixels
 
-**会议**: CVPR2026
-**arXiv**: [2603.18671](https://arxiv.org/abs/2603.18671)
-**代码**: [SCNP](https://jmlipman.github.io/SCNP-SameClassNeighborPenalization)
-**领域**: 语义分割 / 拓扑精度
+**会议**: CVPR2026  
+**arXiv**: [2603.18671](https://arxiv.org/abs/2603.18671)  
+**代码**: [SCNP](https://jmlipman.github.io/SCNP-SameClassNeighborPenalization)  
+**领域**: 语义分割 / 拓扑精度  
 **关键词**: 拓扑保持分割, 邻域惩罚, SCNP, 损失函数, 连通分量
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Principled Algorithms for Optimizing Generalized Metrics in Binary Classification
 
-**会议**: ICML 2025
-**arXiv**: [2512.23133](https://arxiv.org/abs/2512.23133)
-**代码**: 无
-**领域**: 学习理论 / 分类优化
+**会议**: ICML 2025  
+**arXiv**: [2512.23133](https://arxiv.org/abs/2512.23133)  
+**代码**: 无  
+**领域**: 学习理论 / 分类优化  
 **关键词**: generalized metrics, F-measure, H-consistency, surrogate loss, cost-sensitive learning
 
 ## 一句话总结

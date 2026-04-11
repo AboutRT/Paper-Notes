@@ -1,9 +1,9 @@
 # Obliviator Reveals the Cost of Nonlinear Guardedness in Concept Erasure
 
-**会议**: NeurIPS 2025
-**arXiv**: [2603.07529](https://arxiv.org/abs/2603.07529)
-**代码**: 无
-**领域**: Fairness / 概念擦除
+**会议**: NeurIPS 2025  
+**arXiv**: [2603.07529](https://arxiv.org/abs/2603.07529)  
+**代码**: 无  
+**领域**: Fairness / 概念擦除  
 **关键词**: concept erasure, HSIC, RKHS, fairness, nonlinear guardedness
 
 ## 一句话总结
@@ -21,6 +21,7 @@
 6. **核心idea一句话**: 用HSIC衡量非线性统计依赖，通过编码器HSIC最小化+RKHS特征值分解的两步迭代逐步变形特征空间，在保效用的同时实现完全非线性概念擦除。
 
 ## 方法详解
+
 ### 整体框架
 Obliviator是一个**后处理、迭代式**的概念擦除方法，分两步交替进行（见Figure 2）：
 - **Step 1 (编码器训练)**: 训练编码器最小化表示与敏感属性之间的HSIC，同时最大化与任务标签/原始表示的HSIC以保留效用
@@ -50,6 +51,7 @@ Obliviator是一个**后处理、迭代式**的概念擦除方法，分两步交
 - 支持冻结表示（post-hoc）和微调表示两种场景
 
 ## 实验关键数据
+
 ### 主实验 — BERT Finetuned+Supervised 擦除（基线与Obliviator的最终擦除差距）
 
 | 数据集 | 任务Y | 敏感属性S | 基线最优残余S准确率 | Obliviator残余S准确率 | 差距 |

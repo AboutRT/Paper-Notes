@@ -1,9 +1,9 @@
 # E-LDA: Toward Interpretable LDA Topic Models with Strong Guarantees in Logarithmic Parallel Time
 
-**会议**: ICML2025
-**arXiv**: [2506.07747](https://arxiv.org/abs/2506.07747)
-**代码**: [GitHub](https://github.com/BreuerLabs/E-LDA)
-**领域**: 主题模型 / 因果推断
+**会议**: ICML2025  
+**arXiv**: [2506.07747](https://arxiv.org/abs/2506.07747)  
+**代码**: [GitHub](https://github.com/BreuerLabs/E-LDA)  
+**领域**: 主题模型 / 因果推断  
 **关键词**: LDA, 主题模型, 子模优化, 可解释性, 因果推断, MAP推断, 组合优化
 
 ## 一句话总结

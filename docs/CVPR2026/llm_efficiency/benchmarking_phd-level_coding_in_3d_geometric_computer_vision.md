@@ -1,9 +1,9 @@
 # GeoCodeBench: Benchmarking PhD-Level Coding in 3D Geometric Computer Vision
 
-**会议**: CVPR 2026
-**arXiv**: [2603.30038](https://arxiv.org/abs/2603.30038)
-**代码**: https://geocodebench.github.io/ (有)
-**领域**: LLM效率 / 代码生成评测
+**会议**: CVPR 2026  
+**arXiv**: [2603.30038](https://arxiv.org/abs/2603.30038)  
+**代码**: https://geocodebench.github.io/ (有)  
+**领域**: LLM效率 / 代码生成评测  
 **关键词**: 3D视觉代码生成, LLM评测, 几何算法实现, PhD级benchmark, 单元测试
 
 ## 一句话总结

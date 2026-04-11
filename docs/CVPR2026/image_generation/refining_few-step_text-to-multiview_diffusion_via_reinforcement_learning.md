@@ -1,9 +1,9 @@
 # Refining Few-Step Text-to-Multiview Diffusion via Reinforcement Learning
 
-**会议**: CVPR2026
-**arXiv**: [2505.20107](https://arxiv.org/abs/2505.20107)
-**代码**: [ZiyiZhang27/MVC-ZigAL](https://github.com/ZiyiZhang27/MVC-ZigAL)
-**领域**: 图像生成
+**会议**: CVPR2026  
+**arXiv**: [2505.20107](https://arxiv.org/abs/2505.20107)  
+**代码**: [ZiyiZhang27/MVC-ZigAL](https://github.com/ZiyiZhang27/MVC-ZigAL)  
+**领域**: 图像生成  
 **关键词**: 多视图生成, 扩散模型, 强化学习微调, 少步推理, 跨视图一致性
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # CoLC: Communication-Efficient Collaborative Perception with LiDAR Completion
 
-**会议**: CVPR 2026
-**arXiv**: [2603.00682](https://arxiv.org/abs/2603.00682)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.00682](https://arxiv.org/abs/2603.00682)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 协同感知, 通信效率, 点云补全, 早期融合, 向量量化
 
 ## 一句话总结

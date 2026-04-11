@@ -1,9 +1,9 @@
 # DisCode: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning
 
-**会议**: AAAI 2026
-**arXiv**: [2512.14420](https://arxiv.org/abs/2512.14420)
-**代码**: 未公开
-**领域**: multimodal_vlm
+**会议**: AAAI 2026  
+**arXiv**: [2512.14420](https://arxiv.org/abs/2512.14420)  
+**代码**: 未公开  
+**领域**: multimodal_vlm  
 **关键词**: 图像描述评估, 大型视觉语言模型, 测试时自适应, 评分鲁棒性, 分布先验
 
 ## 一句话总结

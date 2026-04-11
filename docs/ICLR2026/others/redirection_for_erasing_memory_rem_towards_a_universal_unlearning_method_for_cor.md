@@ -1,9 +1,9 @@
 # Redirection for Erasing Memory (REM): Towards a Universal Unlearning Method for Corrupted Data
 
-**会议**: ICLR 2026
-**arXiv**: [2505.17730](https://arxiv.org/abs/2505.17730)
-**代码**: [GitHub](https://github.com/google-deepmind/rem)
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2505.17730](https://arxiv.org/abs/2505.17730)  
+**代码**: [GitHub](https://github.com/google-deepmind/rem)  
+**领域**: 其他  
 **关键词**: 机器遗忘, 数据修复, 投毒防御, 分类器鲁棒性, 记忆化
 
 ## 一句话总结

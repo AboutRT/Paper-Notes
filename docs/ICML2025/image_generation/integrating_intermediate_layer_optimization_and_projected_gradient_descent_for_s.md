@@ -1,9 +1,9 @@
 # Integrating Intermediate Layer Optimization and Projected Gradient Descent for Solving Inverse Problems with Diffusion Models
 
-**会议**: ICML2025
-**arXiv**: [2505.20789](https://arxiv.org/abs/2505.20789)
-**代码**: [StarNextDay/DMILO](https://github.com/StarNextDay/DMILO)
-**领域**: 逆问题求解 / 扩散模型
+**会议**: ICML2025  
+**arXiv**: [2505.20789](https://arxiv.org/abs/2505.20789)  
+**代码**: [StarNextDay/DMILO](https://github.com/StarNextDay/DMILO)  
+**领域**: 逆问题求解 / 扩散模型  
 **关键词**: 逆问题, 扩散模型, 中间层优化, 投影梯度下降, 图像重建, ILO, PGD
 
 ## 一句话总结

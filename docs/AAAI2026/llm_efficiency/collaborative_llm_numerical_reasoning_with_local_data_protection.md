@@ -1,8 +1,8 @@
 # Collaborative LLM Numerical Reasoning with Local Data Protection
 
-**会议**: AAAI 2026
-**arXiv**: [2504.00299](https://arxiv.org/abs/2504.00299)
-**领域**: LLM效率
+**会议**: AAAI 2026  
+**arXiv**: [2504.00299](https://arxiv.org/abs/2504.00299)  
+**领域**: LLM效率  
 **关键词**: 隐私保护推理, 数值推理, 模型协作, 主题迁移, 代码即工具
 
 ## 一句话总结

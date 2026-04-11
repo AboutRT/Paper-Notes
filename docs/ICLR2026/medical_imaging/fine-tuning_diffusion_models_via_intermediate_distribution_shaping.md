@@ -1,9 +1,9 @@
 # Fine-Tuning Diffusion Models via Intermediate Distribution Shaping
 
-**会议**: ICLR 2026
-**arXiv**: [2510.02692](https://arxiv.org/abs/2510.02692)
-**代码**: 无
-**领域**: 扩散模型/微调
+**会议**: ICLR 2026  
+**arXiv**: [2510.02692](https://arxiv.org/abs/2510.02692)  
+**代码**: 无  
+**领域**: 扩散模型/微调  
 **关键词**: 扩散模型微调, 拒绝采样, KL正则, 中间分布, 逆噪声校正
 
 ## 一句话总结

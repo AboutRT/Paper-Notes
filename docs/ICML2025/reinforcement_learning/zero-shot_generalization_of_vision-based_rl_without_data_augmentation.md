@@ -1,9 +1,9 @@
 # Zero-Shot Generalization of Vision-Based RL Without Data Augmentation
 
-**会议**: ICML2025
-**arXiv**: [2410.07441](https://arxiv.org/abs/2410.07441)
-**代码**: 待确认
-**领域**: reinforcement_learning / 视觉RL泛化
+**会议**: ICML2025  
+**arXiv**: [2410.07441](https://arxiv.org/abs/2410.07441)  
+**代码**: 待确认  
+**领域**: reinforcement_learning / 视觉RL泛化  
 **关键词**: 解耦表示学习, 联想记忆, Hopfield网络, 零样本泛化, 视觉强化学习, 数据增强
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Parameter Efficient Fine-tuning via Explained Variance Adaptation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2410.07170](https://arxiv.org/abs/2410.07170)
+**会议**: NeurIPS 2025  
+**arXiv**: [2410.07170](https://arxiv.org/abs/2410.07170)  
 **作者**: Fabian Paischer (JKU Linz), Lukas Hauzenberger (JKU Linz), Thomas Schmied, Benedikt Alkin, Marc Peter Deisenroth (UCL), Sepp Hochreiter (JKU Linz)
-**代码**: 已集成至 HuggingFace PEFT 库
-**领域**: reinforcement_learning
+**代码**: 已集成至 HuggingFace PEFT 库  
+**领域**: reinforcement_learning  
 **关键词**: 参数高效微调, LoRA, 奇异值分解, 自适应秩分配, 方差最优初始化
 
 ## 一句话总结

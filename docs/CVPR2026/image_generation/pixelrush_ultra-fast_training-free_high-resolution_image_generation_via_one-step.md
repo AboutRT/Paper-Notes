@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 图像生成  
 **关键词**: high-resolution image generation, training-free, diffusion models, few-step diffusion, patch-based inference  
+
 ## 一句话总结
 
 提出 PixelRush，一种无需训练的高分辨率图像生成框架，通过部分反演（partial inversion）+ 少步扩散模型 + 高斯滤波拼接 + 噪声注入四大组件，将 4K 图像生成速度从数分钟压缩到约 20 秒（10×–35× 加速），同时在 FID/IS 指标上超越现有 SOTA。

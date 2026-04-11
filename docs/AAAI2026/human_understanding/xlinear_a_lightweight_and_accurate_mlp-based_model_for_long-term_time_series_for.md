@@ -20,6 +20,7 @@
 如何在保持 MLP 级别效率的同时，有效建模 endogenous 变量的时序模式和与 exogenous 变量的跨变量依赖，实现精度-效率的最优权衡？
 
 ## 方法详解
+
 ### 整体框架
 XLinear 由四部分组成：Embedding → TGM → VGM → Prediction Head
 

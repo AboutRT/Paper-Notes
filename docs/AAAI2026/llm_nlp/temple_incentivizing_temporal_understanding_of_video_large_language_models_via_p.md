@@ -1,9 +1,9 @@
 # TEMPLE: Incentivizing Temporal Understanding of Video LLMs via Progressive Pre-SFT Alignment
 
-**会议**: AAAI 2026
-**arXiv**: [2503.16929](https://arxiv.org/abs/2503.16929)
-**代码**: [GitHub](https://github.com/lscpku/TEMPLE)
-**领域**: LLM Alignment
+**会议**: AAAI 2026  
+**arXiv**: [2503.16929](https://arxiv.org/abs/2503.16929)  
+**代码**: [GitHub](https://github.com/lscpku/TEMPLE)  
+**领域**: LLM Alignment  
 **关键词**: Video LLM, 时间理解, DPO, 偏好学习, 课程学习
 
 ## 一句话总结

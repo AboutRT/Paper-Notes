@@ -1,9 +1,9 @@
 # Defending LVLMs Against Vision Attacks through Partial-Perception Supervision
 
-**会议**: ICML2025
-**arXiv**: [2412.12722](https://arxiv.org/abs/2412.12722)
-**代码**: [GitHub](https://github.com/tools-only/DPS)
-**领域**: LVLM安全 / 对抗防御
+**会议**: ICML2025  
+**arXiv**: [2412.12722](https://arxiv.org/abs/2412.12722)  
+**代码**: [GitHub](https://github.com/tools-only/DPS)  
+**领域**: LVLM安全 / 对抗防御  
 **关键词**: LVLM安全, 视觉对抗攻击, 部分感知监督, 弱到强学习, 黑盒防御, 越狱防御
 
 ## 一句话总结

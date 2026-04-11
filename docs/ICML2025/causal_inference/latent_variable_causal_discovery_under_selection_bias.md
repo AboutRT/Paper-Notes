@@ -1,9 +1,9 @@
 # Latent Variable Causal Discovery under Selection Bias
 
-**会议**: ICML2025
-**arXiv**: [2512.11219](https://arxiv.org/abs/2512.11219)
-**代码**: 待确认
-**领域**: causal_inference
+**会议**: ICML2025  
+**arXiv**: [2512.11219](https://arxiv.org/abs/2512.11219)  
+**代码**: 待确认  
+**领域**: causal_inference  
 **关键词**: 潜变量因果发现, 选择偏差, 秩约束, 线性高斯模型, 单因子模型
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Binary Hypothesis Testing for Softmax Models and Leverage Score Models
 
-**会议**: ICML 2025
-**arXiv**: [2405.06003](https://arxiv.org/abs/2405.06003)
-**代码**: 无
-**领域**: NLP理解
+**会议**: ICML 2025  
+**arXiv**: [2405.06003](https://arxiv.org/abs/2405.06003)  
+**代码**: 无  
+**领域**: NLP理解  
 **关键词**: 二元假设检验, Softmax模型, Leverage Score, 样本复杂度, 理论分析, Attention机制
 
 ## 一句话总结

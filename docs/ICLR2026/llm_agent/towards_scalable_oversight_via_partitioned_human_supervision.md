@@ -1,9 +1,9 @@
 # Towards Scalable Oversight via Partitioned Human Supervision
 
-**会议**: ICLR2026
-**arXiv**: [2510.22500](https://arxiv.org/abs/2510.22500)
-**代码**: 已开源
-**领域**: llm_agent
+**会议**: ICLR2026  
+**arXiv**: [2510.22500](https://arxiv.org/abs/2510.22500)  
+**代码**: 已开源  
+**领域**: llm_agent  
 **关键词**: 可扩展监督, 互补标签, 分区人类监督, 无偏估计, Agent训练
 
 ## 一句话总结

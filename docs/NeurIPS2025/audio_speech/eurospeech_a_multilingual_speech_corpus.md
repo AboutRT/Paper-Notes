@@ -1,9 +1,9 @@
 # EuroSpeech: A Multilingual Speech Corpus
 
-**会议**: NeurIPS2025
-**arXiv**: [2510.00514](https://arxiv.org/abs/2510.00514)
-**代码**: [disco-eth/EuroSpeech](https://huggingface.co/datasets/disco-eth/EuroSpeech)
-**领域**: 语音处理 / 多语言数据集
+**会议**: NeurIPS2025  
+**arXiv**: [2510.00514](https://arxiv.org/abs/2510.00514)  
+**代码**: [disco-eth/EuroSpeech](https://huggingface.co/datasets/disco-eth/EuroSpeech)  
+**领域**: 语音处理 / 多语言数据集  
 **关键词**: 多语言语音, 议会录音, ASR, 语音-文本对齐, 数据集构建, 低资源语言
 
 ## 一句话总结

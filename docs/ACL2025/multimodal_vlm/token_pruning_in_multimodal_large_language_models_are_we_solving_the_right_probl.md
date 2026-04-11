@@ -1,10 +1,10 @@
 # Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?
 
-**会议**: ACL 2025
-**arXiv**: [2502.11501](https://arxiv.org/abs/2502.11501)
+**会议**: ACL 2025  
+**arXiv**: [2502.11501](https://arxiv.org/abs/2502.11501)  
 **作者**: Zichen Wen, Yifeng Gao (SJTU), Weijia Li (中山大学), Conghui He (上海AI Lab), Linfeng Zhang (SJTU)
-**代码**: 未公开
-**领域**: multimodal_vlm
+**代码**: 未公开  
+**领域**: multimodal_vlm  
 **关键词**: token pruning, 多模态大模型, 视觉token压缩, 注意力偏差, 推理加速
 
 ## 一句话总结

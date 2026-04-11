@@ -1,9 +1,9 @@
 # Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is also a GAN Discriminator
 
-**会议**: ICML 2025
-**arXiv**: [2503.01103](https://arxiv.org/abs/2503.01103)
-**代码**: https://research.nvidia.com/labs/dir/ddo/ (有)
-**领域**: Image Generation
+**会议**: ICML 2025  
+**arXiv**: [2503.01103](https://arxiv.org/abs/2503.01103)  
+**代码**: https://research.nvidia.com/labs/dir/ddo/ (有)  
+**领域**: Image Generation  
 **关键词**: 生成模型微调, GAN判别器, 似然比参数化, 扩散模型, 自回归模型
 
 ## 一句话总结

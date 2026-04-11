@@ -1,9 +1,9 @@
 # Moscat: Mixture of Scope Experts at Test for Generalizing Deeper GNNs
 
-**会议**: NeurIPS 2025
-**arXiv**: [2409.06998](https://arxiv.org/abs/2409.06998)
-**代码**: https://github.com/Hydrapse/moscat
-**领域**: 图神经网络 / 泛化理论
+**会议**: NeurIPS 2025  
+**arXiv**: [2409.06998](https://arxiv.org/abs/2409.06998)  
+**代码**: https://github.com/Hydrapse/moscat  
+**领域**: 图神经网络 / 泛化理论  
 **关键词**: GNN深度, PAC-Bayes界, 专家混合, 测试时门控, 同质性子群
 
 ## 一句话总结

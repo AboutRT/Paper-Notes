@@ -1,9 +1,9 @@
 # SecMoE: Communication-Efficient Secure MoE Inference via Select-Then-Compute
 
-**会议**: AAAI 2026
-**arXiv**: [2601.06790](https://arxiv.org/abs/2601.06790)
-**代码**: 未公开
-**领域**: AI Safety / 隐私保护机器学习
+**会议**: AAAI 2026  
+**arXiv**: [2601.06790](https://arxiv.org/abs/2601.06790)  
+**代码**: 未公开  
+**领域**: AI Safety / 隐私保护机器学习  
 **关键词**: MoE, 隐私推理, 安全多方计算, 同态加密, Select-Then-Compute
 
 ## 一句话总结

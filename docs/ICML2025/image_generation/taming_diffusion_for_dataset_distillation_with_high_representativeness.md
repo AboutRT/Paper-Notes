@@ -1,9 +1,9 @@
 # Taming Diffusion for Dataset Distillation with High Representativeness (D³HR)
 
-**会议**: ICML2025
-**arXiv**: [2505.18399](https://arxiv.org/abs/2505.18399)
-**代码**: [lin-zhao-resoLve/D3HR](https://github.com/lin-zhao-resoLve/D3HR)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2505.18399](https://arxiv.org/abs/2505.18399)  
+**代码**: [lin-zhao-resoLve/D3HR](https://github.com/lin-zhao-resoLve/D3HR)  
+**领域**: image_generation  
 **关键词**: dataset distillation, diffusion models, DDIM inversion, distribution matching, group sampling
 
 ## 一句话总结

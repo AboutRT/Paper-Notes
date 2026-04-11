@@ -1,9 +1,9 @@
 # Not All Explanations for Deep Learning Phenomena Are Equally Valuable
 
-**会议**: ICML 2025
-**arXiv**: [2506.23286](https://arxiv.org/abs/2506.23286)
-**代码**: 无
-**领域**: 推荐系统
+**会议**: ICML 2025  
+**arXiv**: [2506.23286](https://arxiv.org/abs/2506.23286)  
+**代码**: 无  
+**领域**: 推荐系统  
 **关键词**: 深度学习现象, 科学方法论, Double Descent, Grokking, Lottery Ticket Hypothesis
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Maximum Coverage in Turnstile Streams with Applications to Fingerprinting Measures
 
-**会议**: ICML2025
-**arXiv**: [2504.18394](https://arxiv.org/abs/2504.18394)
-**代码**: 无
-**领域**: 流算法 / 子模优化 / 隐私风险度量
+**会议**: ICML2025  
+**arXiv**: [2504.18394](https://arxiv.org/abs/2504.18394)  
+**代码**: 无  
+**领域**: 流算法 / 子模优化 / 隐私风险度量  
 **关键词**: maximum coverage, turnstile streaming, linear sketch, fingerprinting, frequency moment, submodular maximization
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Can LLMs Outshine Conventional Recommenders? A Comparative Evaluation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2503.05493](https://arxiv.org/abs/2503.05493)
-**代码**: [RecBench](https://recbench.github.io)
-**领域**: 推荐系统 / LLM评估
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.05493](https://arxiv.org/abs/2503.05493)  
+**代码**: [RecBench](https://recbench.github.io)  
+**领域**: 推荐系统 / LLM评估  
 **关键词**: LLM-as-RS, RecBench, CTR预测, 序列推荐, 物品表示, 推理效率
 
 ## 一句话总结

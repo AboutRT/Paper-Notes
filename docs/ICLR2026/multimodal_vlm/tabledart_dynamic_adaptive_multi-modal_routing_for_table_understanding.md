@@ -1,9 +1,9 @@
 # TableDART: Dynamic Adaptive Multi-Modal Routing for Table Understanding
 
-**会议**: ICLR 2026
-**arXiv**: [2509.14671](https://arxiv.org/abs/2509.14671)
-**代码**: [GitHub](https://github.com/xiaobo-xing/TableDART)
-**领域**: 表格理解/多模态路由
+**会议**: ICLR 2026  
+**arXiv**: [2509.14671](https://arxiv.org/abs/2509.14671)  
+**代码**: [GitHub](https://github.com/xiaobo-xing/TableDART)  
+**领域**: 表格理解/多模态路由  
 **关键词**: 表格理解, 动态路由, 多模态融合, 门控网络, LLM Agent
 
 ## 一句话总结

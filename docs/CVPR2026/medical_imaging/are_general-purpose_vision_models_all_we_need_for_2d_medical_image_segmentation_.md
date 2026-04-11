@@ -1,10 +1,10 @@
 # Are General-Purpose Vision Models All We Need for 2D Medical Image Segmentation? A Cross-Dataset Empirical Study
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13044](https://arxiv.org/abs/2603.13044)
+**会议**: CVPR 2026  
+**arXiv**: [2603.13044](https://arxiv.org/abs/2603.13044)  
 **作者**: Vanessa Borst, Samuel Kounev
-**代码**: GitHub（论文中提及）
-**领域**: medical_imaging
+**代码**: GitHub（论文中提及）  
+**领域**: medical_imaging  
 **关键词**: 医学图像分割, 通用视觉模型, 专用医学架构, 跨数据集评估, 可解释性分析
 
 ## 一句话总结

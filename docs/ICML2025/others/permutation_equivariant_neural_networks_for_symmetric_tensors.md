@@ -1,9 +1,9 @@
 # Permutation Equivariant Neural Networks for Symmetric Tensors
 
-**会议**: ICML 2025
-**arXiv**: [2503.11276](https://arxiv.org/abs/2503.11276)
-**代码**: 无
-**领域**: 等变神经网络 / 表示理论
+**会议**: ICML 2025  
+**arXiv**: [2503.11276](https://arxiv.org/abs/2503.11276)  
+**代码**: 无  
+**领域**: 等变神经网络 / 表示理论  
 **关键词**: permutation equivariance, symmetric tensors, representation theory, data efficiency, neural networks
 
 ## 一句话总结

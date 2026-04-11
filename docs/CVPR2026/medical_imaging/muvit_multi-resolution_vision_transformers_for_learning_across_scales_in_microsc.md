@@ -1,9 +1,9 @@
 # MuViT: Multi-Resolution Vision Transformers for Learning Across Scales in Microscopy
 
-**会议**: CVPR 2026
-**arXiv**: [2602.24222](https://arxiv.org/abs/2602.24222)
-**代码**: [github.com/weigertlab/muvit](https://github.com/weigertlab/muvit)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2602.24222](https://arxiv.org/abs/2602.24222)  
+**代码**: [github.com/weigertlab/muvit](https://github.com/weigertlab/muvit)  
+**领域**: 医学图像  
 **关键词**: 多分辨率、Vision Transformer、RoPE、显微镜图像、语义分割
 
 ## 一句话总结

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**💬 ACL2025** · 共 **28** 篇
+**💬 ACL2025** · 共 **30** 篇
 
 **[Finding A Voice: Exploring the Potential of African American Dialect and Voice Generation for Chatbots](aae_voice_chatbot.md)**
 
@@ -14,6 +14,10 @@
 **[AI4Reading: Chinese Audiobook Interpretation System Based on Multi-Agent Collaboration](ai4reading_chinese_audiobook_interpretation_system_based_on_multi-agent_collabor.md)**
 
 :   提出 AI4Reading，一个基于 11 个专业化 LLM Agent 协作的中文有声书解读系统，通过主题分析、案例扩展、编辑润色、口语化改写和整合修订等阶段自动生成解读稿，并用 TTS 合成音频，在解读脚本质量（简洁性、完整性、准确性、连贯性）上超过专业人工解读平台樊登读书。
+
+**[ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](atri_mitigating_multilingual_audio_text_retrieval_inconsistencies_by_reducing_da.md)**
+
+:   从理论上分析多语言音频文本检索（ML-ATR）中跨语言不一致性的根本原因是训练数据分布误差，并提出 1-to-K 对比学习（KCL）和音频-英语共锚对比学习（CACL）两种策略来减少该误差，在召回率和一致性上达到 SOTA。
 
 **[Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](audio_dialogue_benchmark.md)**
 
@@ -38,6 +42,10 @@
 **[Different Speech Translation Models Encode and Translate Speaker Gender Differently](different_speech_translation_models_encode_and_translate_speaker_gender_differen.md)**
 
 :   通过注意力探针分析不同架构的语音翻译模型如何编码说话人性别信息，发现传统编码器-解码器模型能较好保留性别信息，而新型 speech+MT 架构的适配器会显著擦除性别信息，导致翻译中出现更严重的阳性默认偏差。
+
+**[Distilling an End-to-End Voice Assistant Without Instruction Training Data](distilling_an_end-to-end_voice_assistant_without_instruction_training_data.md)**
+
+:   提出DiVA（Distilled Voice Assistant），通过将文本LLM对转录文本的响应作为自监督信号进行跨模态蒸馏，无需任何语音指令训练数据即可训练端到端语音LLM——仅用3.5k小时ASR数据就泛化到口语问答、分类和翻译任务，且在用户偏好测试中以72%胜率碾压Qwen 2 Audio（使用100倍以上训练计算量）。
 
 **[DNCASR: End-to-End Training for Speaker-Attributed ASR](dncasr_end-to-end_training_for_speaker-attributed_asr.md)**
 

@@ -1,10 +1,10 @@
 # Long-Tailed Recognition via Information-Preservable Two-Stage Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.08836](https://arxiv.org/abs/2510.08836)
-**代码**: [github.com/fudong03/BNS_IPDPP](https://github.com/fudong03/BNS_IPDPP)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.08836](https://arxiv.org/abs/2510.08836)  
+**代码**: [github.com/fudong03/BNS_IPDPP](https://github.com/fudong03/BNS_IPDPP)  
 **作者**: Fudong Lin, Xu Yuan (University of Delaware)
-**领域**: self_supervised
+**领域**: self_supervised  
 **关键词**: 长尾识别, 对比学习, 信息论, 行列式点过程, 两阶段学习, 表征学习
 
 ## 一句话总结

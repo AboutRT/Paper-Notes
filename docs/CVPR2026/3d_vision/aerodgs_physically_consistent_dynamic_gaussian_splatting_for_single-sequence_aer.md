@@ -1,10 +1,10 @@
 # AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction
 
-**会议**: CVPR2026
-**arXiv**: [2602.22376](https://arxiv.org/abs/2602.22376)
+**会议**: CVPR2026  
+**arXiv**: [2602.22376](https://arxiv.org/abs/2602.22376)  
 **作者**: Hanyang Liu, Rongjun Qin
-**代码**: 待确认
-**领域**: 3d_vision
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: 4D重建, 3D高斯泼溅, 物理先验, 无人机单目视频, 动态场景, 航拍
 
 ## 一句话总结

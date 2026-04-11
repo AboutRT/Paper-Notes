@@ -1,9 +1,9 @@
 # Machines and Mathematical Mutations: Using GNNs to Characterize Quiver Mutation Classes
 
-**会议**: ICML2025
-**arXiv**: [2411.07467](https://arxiv.org/abs/2411.07467)
-**代码**: 未公开
-**领域**: graph_learning / 数学 AI
+**会议**: ICML2025  
+**arXiv**: [2411.07467](https://arxiv.org/abs/2411.07467)  
+**代码**: 未公开  
+**领域**: graph_learning / 数学 AI  
 **关键词**: GNN, 可解释性, 箭图变异 (quiver mutation), 簇代数 (cluster algebra), AI for Math
 
 ## 一句话总结

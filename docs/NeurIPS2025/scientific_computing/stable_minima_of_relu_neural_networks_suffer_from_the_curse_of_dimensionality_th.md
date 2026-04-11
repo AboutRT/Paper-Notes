@@ -1,9 +1,9 @@
 # Stable Minima of ReLU Neural Networks Suffer from the Curse of Dimensionality: The Neural Shattering Phenomenon
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.20779](https://arxiv.org/abs/2506.20779)
-**代码**: 无
-**领域**: scientific_computing
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.20779](https://arxiv.org/abs/2506.20779)  
+**代码**: 无  
+**领域**: scientific_computing  
 **关键词**: 稳定极小值, ReLU网络, 维度灾难, 隐式偏置, 非参数估计
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 高维球面上存在指数多的"方向帽"(spherical caps)，使得 ReLU 神经元可以仅激活极少数据点却保持大权重，从而"欺骗"平坦性标准——这就是 neural shattering，它导致稳定极小值在高维下不可避免地遭遇维度灾难。
 
 ## 方法详解
+
 ### 整体框架
 本文是一篇理论分析论文，核心工作是：
 1. 建立稳定极小值的函数空间特征（加权变分空间 $V_g$）
@@ -46,6 +47,7 @@
 - 实验中使用标准 GD 训练，Kaiming 初始化，梯度裁剪阈值 50
 
 ## 实验关键数据
+
 ### 主实验：维度灾难验证
 
 | 维度 d | GD (大学习率 η=0.2) log-MSE 斜率 | Weight Decay (η=0.01, λ=0.1) log-MSE 斜率 |

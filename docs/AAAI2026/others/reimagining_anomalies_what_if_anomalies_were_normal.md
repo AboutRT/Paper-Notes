@@ -1,9 +1,9 @@
 # Reimagining Anomalies: What if Anomalies Were Normal?
 
-**会议**: AAAI2026
-**arXiv**: [2402.14469](https://arxiv.org/abs/2402.14469)
-**代码**: [liznerski/counterfactual-xad](https://github.com/liznerski/counterfactual-xad)
-**领域**: others
+**会议**: AAAI2026  
+**arXiv**: [2402.14469](https://arxiv.org/abs/2402.14469)  
+**代码**: [liznerski/counterfactual-xad](https://github.com/liznerski/counterfactual-xad)  
+**领域**: others  
 **关键词**: anomaly detection, counterfactual explanation, explainable AI, GAN, diffusion model
 
 ## 一句话总结

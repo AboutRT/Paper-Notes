@@ -1,9 +1,9 @@
 # A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning
 
-**会议**: ICML 2025
-**arXiv**: [2505.16341](https://arxiv.org/abs/2505.16341)
-**代码**: [有](https://github.com/yaxinhou/Meta-Expert)
-**领域**: 半监督学习
+**会议**: ICML 2025  
+**arXiv**: [2505.16341](https://arxiv.org/abs/2505.16341)  
+**代码**: [有](https://github.com/yaxinhou/Meta-Expert)  
+**领域**: 半监督学习  
 **关键词**: 长尾半监督学习, 多专家集成, 动态专家分配, 多深度特征融合, 伪标签
 
 ## 一句话总结

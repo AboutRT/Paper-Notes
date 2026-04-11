@@ -1,9 +1,9 @@
 # Concept-Based Unsupervised Domain Adaptation
 
-**会议**: ICML 2025
-**arXiv**: [2505.05195](https://arxiv.org/abs/2505.05195)
-**代码**: 无
-**领域**: 其他/域适应
+**会议**: ICML 2025  
+**arXiv**: [2505.05195](https://arxiv.org/abs/2505.05195)  
+**代码**: 无  
+**领域**: 其他/域适应  
 **关键词**: 概念瓶颈模型, 域适应, 可解释性, 松弛对齐, 对抗训练
 
 ## 一句话总结

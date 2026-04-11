@@ -1,9 +1,9 @@
 # Retaining Suboptimal Actions to Follow Shifting Optima in Multi-Agent RL
 
-**会议**: ICLR 2026
-**arXiv**: [2602.17062](https://arxiv.org/abs/2602.17062)
-**代码**: [GitHub](https://github.com/hyeon1996/S2Q)
-**领域**: 多Agent RL/值分解
+**会议**: ICLR 2026  
+**arXiv**: [2602.17062](https://arxiv.org/abs/2602.17062)  
+**代码**: [GitHub](https://github.com/hyeon1996/S2Q)  
+**领域**: 多Agent RL/值分解  
 **关键词**: 多Agent RL, 值分解, 次优动作保留, Softmax行为策略, S2Q, CTDE
 
 ## 一句话总结

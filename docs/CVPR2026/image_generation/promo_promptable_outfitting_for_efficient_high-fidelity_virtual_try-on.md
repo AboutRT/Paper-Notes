@@ -1,9 +1,9 @@
 # PROMO: Promptable Outfitting for Efficient High-Fidelity Virtual Try-On
 
-**会议**: CVPR2026
-**arXiv**: [2603.11675](https://arxiv.org/abs/2603.11675)
-**代码**: 无
-**领域**: image_generation
+**会议**: CVPR2026  
+**arXiv**: [2603.11675](https://arxiv.org/abs/2603.11675)  
+**代码**: 无  
+**领域**: image_generation  
 **关键词**: virtual try-on, diffusion transformer, flow matching, multi-condition generation, promptable editing
 
 ## 一句话总结

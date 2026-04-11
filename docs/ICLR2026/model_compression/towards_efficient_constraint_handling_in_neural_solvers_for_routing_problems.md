@@ -1,9 +1,9 @@
 # Towards Efficient Constraint Handling in Neural Solvers for Routing Problems
 
-**会议**: ICLR 2026
-**arXiv**: [2602.16012](https://arxiv.org/abs/2602.16012)
-**代码**: [https://github.com/jieyibi/CaR-constraint](https://github.com/jieyibi/CaR-constraint)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2602.16012](https://arxiv.org/abs/2602.16012)  
+**代码**: [https://github.com/jieyibi/CaR-constraint](https://github.com/jieyibi/CaR-constraint)  
+**领域**: 模型压缩  
 **关键词**: 神经组合优化, 车辆路径问题, 约束处理, 构造-改进混合, 可行性修复
 
 ## 一句话总结

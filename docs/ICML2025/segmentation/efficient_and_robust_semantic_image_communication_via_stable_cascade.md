@@ -1,9 +1,9 @@
 # Efficient and Robust Semantic Image Communication via Stable Cascade
 
-**会议**: ICML2025
-**arXiv**: [2507.17416](https://arxiv.org/abs/2507.17416)
-**代码**: 待确认
-**领域**: segmentation
+**会议**: ICML2025  
+**arXiv**: [2507.17416](https://arxiv.org/abs/2507.17416)  
+**代码**: 待确认  
+**领域**: segmentation  
 **关键词**: 语义通信, 潜在扩散模型, Stable Cascade, 图像压缩, 信道鲁棒性
 
 ## 一句话总结

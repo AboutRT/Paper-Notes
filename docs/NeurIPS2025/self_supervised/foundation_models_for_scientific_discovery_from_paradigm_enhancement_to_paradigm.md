@@ -1,9 +1,9 @@
 # Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.15280](https://arxiv.org/abs/2510.15280)
-**代码**: [GitHub](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery) (有)
-**领域**: 科学发现 / 基础模型综述
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.15280](https://arxiv.org/abs/2510.15280)  
+**代码**: [GitHub](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery) (有)  
+**领域**: 科学发现 / 基础模型综述  
 **关键词**: 基础模型, 科学范式, 自主科学发现, 人机协作, AI for Science
 
 ## 一句话总结
@@ -120,11 +120,11 @@
 - 价值: ⭐⭐⭐⭐ 为科学界理解 FM 的变革角色提供了重要思想框架
 # Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.15280](https://arxiv.org/abs/2510.15280)
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.15280](https://arxiv.org/abs/2510.15280)  
 **作者**: Fan Liu, Jindong Han, Tengfei Lyu, Weijia Zhang, Zhe-Rui Yang, Lu Dai, Cancheng Liu, Hao Liu (HKUST(GZ) & HKUST)
-**代码**: [GitHub](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery)
-**领域**: 自监督学习 / 基础模型 / AI for Science
+**代码**: [GitHub](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery)  
+**领域**: 自监督学习 / 基础模型 / AI for Science  
 **关键词**: foundation models, scientific discovery, paradigm shift, autonomous discovery, human-AI co-creation
 
 ## 一句话总结

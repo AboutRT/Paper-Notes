@@ -5,6 +5,7 @@
 **代码**: https://github.com/XiaoyangLiu-sjtu/ASSESS  
 **领域**: 其他  
 **关键词**: autoformalization, evaluation metrics, tree edit distance, Lean, formal mathematics  
+
 ## 一句话总结
 
 提出 TransTED Similarity，一种基于算子树 (Operator Tree) 和语义变换增强的树编辑距离指标，用于评估自动形式化 (autoformalization) 生成的形式化数学命题与参考命题之间的语义相似度，并构建了 EPLA 基准数据集。

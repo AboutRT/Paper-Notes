@@ -1,9 +1,9 @@
 # Provable In-Context Vector Arithmetic via Retrieving Task Concepts
 
-**会议**: ICML2025
-**arXiv**: [2508.09820](https://arxiv.org/abs/2508.09820)
-**代码**: 无
-**领域**: 优化 / ICL理论
+**会议**: ICML2025  
+**arXiv**: [2508.09820](https://arxiv.org/abs/2508.09820)  
+**代码**: 无  
+**领域**: 优化 / ICL理论  
 **关键词**: in-context learning, task vector, vector arithmetic, optimization theory, transformer, factual recall, OOD generalization
 
 ## 一句话总结

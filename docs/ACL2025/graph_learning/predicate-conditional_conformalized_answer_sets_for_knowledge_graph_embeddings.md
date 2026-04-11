@@ -1,9 +1,9 @@
 # Predicate-Conditional Conformalized Answer Sets for Knowledge Graph Embeddings
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2505.16877](https://arxiv.org/abs/2505.16877)
-**代码**: 有
-**领域**: 图学习/知识图谱
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2505.16877](https://arxiv.org/abs/2505.16877)  
+**代码**: 有  
+**领域**: 图学习/知识图谱  
 **关键词**: knowledge graph embedding, conformal prediction, conditional coverage, uncertainty quantification, link prediction
 
 ## 一句话总结

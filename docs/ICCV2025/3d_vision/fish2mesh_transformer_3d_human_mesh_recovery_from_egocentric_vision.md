@@ -1,9 +1,9 @@
 # Fish2Mesh Transformer: 3D Human Mesh Recovery from Egocentric Vision
 
-**会议**: ICCV 2025
-**arXiv**: [2503.06089](https://arxiv.org/abs/2503.06089)
-**代码**: 待确认
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2503.06089](https://arxiv.org/abs/2503.06089)  
+**代码**: 待确认  
+**领域**: 3D视觉  
 **关键词**: 自我中心视觉, 鱼眼相机, 人体网格恢复, Swin Transformer, 位置编码, SMPL
 
 ## 一句话总结

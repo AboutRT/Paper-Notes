@@ -1,9 +1,9 @@
 # Pyramidal Patchification Flow for Visual Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2506.23543](https://arxiv.org/abs/2506.23543)
-**代码**: [GitHub](https://github.com/fudan-generative-vision/PPFlow)
-**领域**: 扩散模型加速 / 图像生成
+**会议**: ICLR 2026  
+**arXiv**: [2506.23543](https://arxiv.org/abs/2506.23543)  
+**代码**: [GitHub](https://github.com/fudan-generative-vision/PPFlow)  
+**领域**: 扩散模型加速 / 图像生成  
 **关键词**: 金字塔 patch 化, 流匹配, DiT, 推理加速, 可变 token 数量
 
 ## 一句话总结

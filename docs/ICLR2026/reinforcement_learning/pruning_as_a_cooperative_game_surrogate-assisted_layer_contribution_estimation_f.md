@@ -1,9 +1,9 @@
 # Pruning as a Cooperative Game: Surrogate-Assisted Layer Contribution Estimation for Large Language Models
 
-**会议**: ICLR 2026
-**arXiv**: [2602.07804](https://arxiv.org/abs/2602.07804)
-**代码**: [GitHub](https://github.com/920927/Pruning_As_A_Cooperative_Game)
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.07804](https://arxiv.org/abs/2602.07804)  
+**代码**: [GitHub](https://github.com/920927/Pruning_As_A_Cooperative_Game)  
+**领域**: 强化学习  
 **关键词**: 模型剪枝, 合作博弈, Shapley值, 代理网络, 大语言模型
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Configurable Preference Tuning with Rubric-Guided Synthetic Data
 
-**会议**: ICML 2025
-**arXiv**: [2506.11702](https://arxiv.org/abs/2506.11702)
-**代码**: https://github.com/vicgalle/configurable-preference-tuning (有)
-**领域**: LLM对齐/RLHF
+**会议**: ICML 2025  
+**arXiv**: [2506.11702](https://arxiv.org/abs/2506.11702)  
+**代码**: https://github.com/vicgalle/configurable-preference-tuning (有)  
+**领域**: LLM对齐/RLHF  
 **关键词**: 可配置偏好调优, DPO, 合成数据, 评分标准引导, 系统提示控制
 
 ## 一句话总结

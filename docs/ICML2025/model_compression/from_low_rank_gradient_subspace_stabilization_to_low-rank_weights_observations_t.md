@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # From Low Rank Gradient Subspace Stabilization to Low-Rank Weights: Observations, Theories, and Applications
 
-**会议**: ICML2025
-**arXiv**: [2407.11239](https://arxiv.org/abs/2407.11239)
-**代码**: [VITA-Group/WeLore](https://github.com/VITA-Group/WeLore)
-**领域**: model_compression
-**关键词**: 低秩压缩, 梯度子空间, Hessian分析, 参数高效微调, LLM压缩, SVD分解
+**会议**: ICML2025  
+**arXiv**: [2407.11239](https://arxiv.org/abs/2407.11239)  
+**代码**: [VITA-Group/WeLore](https://github.com/VITA-Group/WeLore)  
+**领域**: model_compression  
+**关键词**: 低秩压缩, 梯度子空间, Hessian分析, 参数高效微调, LLM压缩, SVD分解  
 **作者**: Ajay Jaiswal, Yifan Wang, Lu Yin, Shiwei Liu, Runjin Chen, Jiawei Zhao, Ananth Grama, Yuandong Tian, Zhangyang Wang
 
 ## 一句话总结

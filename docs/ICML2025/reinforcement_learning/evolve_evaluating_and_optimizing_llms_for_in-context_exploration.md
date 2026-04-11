@@ -1,9 +1,9 @@
 # EVOLvE: Evaluating and Optimizing LLMs For In-Context Exploration
 
-**会议**: ICML2025
-**arXiv**: [2410.06238](https://arxiv.org/abs/2410.06238)
-**代码**: [allenanie/EVOLvE](https://github.com/allenanie/EVOLvE)
-**领域**: LLM探索 / 强化学习 / Bandit
+**会议**: ICML2025  
+**arXiv**: [2410.06238](https://arxiv.org/abs/2410.06238)  
+**代码**: [allenanie/EVOLvE](https://github.com/allenanie/EVOLvE)  
+**领域**: LLM探索 / 强化学习 / Bandit  
 **关键词**: In-Context Exploration, Multi-Armed Bandit, Contextual Bandit, UCB, Algorithm Distillation, 探索-利用
 
 ## 一句话总结

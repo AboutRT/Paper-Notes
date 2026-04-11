@@ -1,9 +1,9 @@
 # DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving
 
-**会议**: CVPR 2026
-**arXiv**: [2604.00969](https://arxiv.org/abs/2604.00969)
-**代码**: 无
-**领域**: Autonomous Driving / 自动驾驶预训练
+**会议**: CVPR 2026  
+**arXiv**: [2604.00969](https://arxiv.org/abs/2604.00969)  
+**代码**: 无  
+**领域**: Autonomous Driving / 自动驾驶预训练  
 **关键词**: 世界模型, 3D高斯溅射, 自监督预训练, 占据预测, 运动规划
 
 ## 一句话总结
@@ -118,10 +118,10 @@
 - 价值: ⭐⭐⭐⭐⭐ 为高斯中心自动驾驶提供了系统化预训练方案，三大任务全面提升
 # DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving
 
-**会议**: CVPR 2026
-**arXiv**: [2604.00969](https://arxiv.org/abs/2604.00969)
-**代码**: 有
-**领域**: 自动驾驶 / 3D场景理解
+**会议**: CVPR 2026  
+**arXiv**: [2604.00969](https://arxiv.org/abs/2604.00969)  
+**代码**: 有  
+**领域**: 自动驾驶 / 3D场景理解  
 **关键词**: 世界模型, 3D高斯, 自监督预训练, 占据预测, 运动规划
 
 ## 一句话总结

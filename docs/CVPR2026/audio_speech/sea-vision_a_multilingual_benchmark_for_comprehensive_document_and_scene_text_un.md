@@ -1,9 +1,9 @@
 # SEA-Vision: A Multilingual Benchmark for Document and Scene Text Understanding in Southeast Asia
 
-**会议**: CVPR 2026
-**arXiv**: [2603.15409](https://arxiv.org/abs/2603.15409)
-**代码**: 无
-**领域**: 语音/音频
+**会议**: CVPR 2026  
+**arXiv**: [2603.15409](https://arxiv.org/abs/2603.15409)  
+**代码**: 无  
+**领域**: 语音/音频  
 **关键词**: 多语言基准, 东南亚, 文档解析, 文本VQA, 低资源语言
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # From Utterance to Vividity: Training Expressive Subtitle Translation LLM via Adaptive Local Preference Optimization
 
-**会议**: ICLR 2026
-**arXiv**: [2602.01068](https://arxiv.org/abs/2602.01068)
-**代码**: [GitHub](https://github.com/CcQunResearch/ALPO)
-**领域**: LLM对齐/NLP
+**会议**: ICLR 2026  
+**arXiv**: [2602.01068](https://arxiv.org/abs/2602.01068)  
+**代码**: [GitHub](https://github.com/CcQunResearch/ALPO)  
+**领域**: LLM对齐/NLP  
 **关键词**: 字幕翻译, 偏好优化, LLM-as-Judge, 意译, 过程监督
 
 ## 一句话总结

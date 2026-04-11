@@ -1,9 +1,9 @@
 # Learning to Better Search with Language Models via Guided Reinforced Self-Training
 
-**会议**: NeurIPS 2025
-**arXiv**: [2410.02992](https://arxiv.org/abs/2410.02992)
-**代码**: [GitHub](https://github.com/snu-mllab/guided-rest) (有)
-**领域**: Model Compression (LLM推理优化)
+**会议**: NeurIPS 2025  
+**arXiv**: [2410.02992](https://arxiv.org/abs/2410.02992)  
+**代码**: [GitHub](https://github.com/snu-mllab/guided-rest) (有)  
+**领域**: Model Compression (LLM推理优化)  
 **关键词**: 搜索策略学习, 自训练, 强化学习, 测试时计算效率, 语言模型推理
 
 ## 一句话总结

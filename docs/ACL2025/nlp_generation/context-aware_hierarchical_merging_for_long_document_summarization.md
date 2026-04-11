@@ -1,9 +1,9 @@
 # Context-Aware Hierarchical Merging for Long Document Summarization
 
-**会议**: ACL 2025
-**arXiv**: [2502.00977](https://arxiv.org/abs/2502.00977)
-**代码**: https://github.com/Leonard907/CAHM (有)
-**领域**: 文本生成
+**会议**: ACL 2025  
+**arXiv**: [2502.00977](https://arxiv.org/abs/2502.00977)  
+**代码**: https://github.com/Leonard907/CAHM (有)  
+**领域**: 文本生成  
 **关键词**: 长文档摘要, 层次合并, 上下文增强, 幻觉缓解, 忠实性
 
 ## 一句话总结

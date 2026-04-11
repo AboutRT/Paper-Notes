@@ -1,9 +1,9 @@
 # Scaling and Transferability of Annealing Strategies in Large Language Model Training
 
-**会议**: AAAI 2026
-**arXiv**: [2512.13705](https://arxiv.org/abs/2512.13705)
-**代码**: [GitHub](https://github.com/xmed-lab/fm-annealing)
-**领域**: LLM/NLP
+**会议**: AAAI 2026  
+**arXiv**: [2512.13705](https://arxiv.org/abs/2512.13705)  
+**代码**: [GitHub](https://github.com/xmed-lab/fm-annealing)  
+**领域**: LLM/NLP  
 **关键词**: 学习率退火, Scaling Law, 训练策略, 可迁移性, MoE
 
 ## 一句话总结

@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # From Black Boxes to Transparent Minds: Evaluating and Enhancing the Theory of Mind in Multimodal Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2506.14224](https://arxiv.org/abs/2506.14224)
-**代码**: [项目页](https://annaisavailable.github.io/GridToM)
-**领域**: multimodal_vlm
-**关键词**: Theory of Mind, 多模态大模型, 可解释性, 注意力干预, GridToM
+**会议**: ICML2025  
+**arXiv**: [2506.14224](https://arxiv.org/abs/2506.14224)  
+**代码**: [项目页](https://annaisavailable.github.io/GridToM)  
+**领域**: multimodal_vlm  
+**关键词**: Theory of Mind, 多模态大模型, 可解释性, 注意力干预, GridToM  
 **作者**: Xinyang Li, Siqi Liu, Bochao Zou, Jiansheng Chen, Huimin Ma
 
 ## 一句话总结

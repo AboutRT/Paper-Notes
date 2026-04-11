@@ -1,9 +1,9 @@
 # M-GRPO: Stabilizing Self-Supervised Reinforcement Learning for Large Language Models with Momentum-Anchored Policy Optimization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.13070](https://arxiv.org/abs/2512.13070)
-**代码**: [GitHub](https://github.com/Bai-Bizhe/M_GRPO) (有)
-**领域**: 大语言模型训练 / 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.13070](https://arxiv.org/abs/2512.13070)  
+**代码**: [GitHub](https://github.com/Bai-Bizhe/M_GRPO) (有)  
+**领域**: 大语言模型训练 / 强化学习  
 **关键词**: 自监督强化学习, 策略崩溃, 动量锚定, GRPO, 熵过滤
 
 ## 一句话总结

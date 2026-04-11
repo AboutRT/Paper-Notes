@@ -1,9 +1,9 @@
 # Near Optimal Best Arm Identification for Clustered Bandits
 
-**会议**: ICML2025
-**arXiv**: [2505.10147](https://arxiv.org/abs/2505.10147)
-**代码**: 无
-**领域**: bandits
+**会议**: ICML2025  
+**arXiv**: [2505.10147](https://arxiv.org/abs/2505.10147)  
+**代码**: 无  
+**领域**: bandits  
 **关键词**: best arm identification, clustered bandits, federated MAB, successive elimination, sample complexity
 
 ## 一句话总结

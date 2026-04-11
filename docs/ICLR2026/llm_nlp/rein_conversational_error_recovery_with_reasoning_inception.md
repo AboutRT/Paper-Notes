@@ -1,9 +1,9 @@
 # ReIn: Conversational Error Recovery with Reasoning Inception
 
-**会议**: ICLR 2026
-**arXiv**: [2602.17022](https://arxiv.org/abs/2602.17022)
-**代码**: [youngerous/rein](https://github.com/youngerous/rein)
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2602.17022](https://arxiv.org/abs/2602.17022)  
+**代码**: [youngerous/rein](https://github.com/youngerous/rein)  
+**领域**: llm_nlp  
 **关键词**: conversational agents, error recovery, test-time intervention, reasoning injection, tool-augmented dialogue, instruction hierarchy
 
 ## 一句话总结

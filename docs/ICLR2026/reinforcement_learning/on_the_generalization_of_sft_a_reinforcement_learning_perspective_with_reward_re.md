@@ -1,9 +1,9 @@
 # On the Generalization of SFT: A Reinforcement Learning Perspective with Reward Rectification
 
-**会议**: ICLR 2026
-**arXiv**: [2508.05629](https://arxiv.org/abs/2508.05629)
-**代码**: [GitHub](https://github.com/yongliang-wu/DFT)
-**领域**: LLM训练/SFT优化
+**会议**: ICLR 2026  
+**arXiv**: [2508.05629](https://arxiv.org/abs/2508.05629)  
+**代码**: [GitHub](https://github.com/yongliang-wu/DFT)  
+**领域**: LLM训练/SFT优化  
 **关键词**: SFT泛化, 策略梯度, 逆概率加权, Dynamic Fine-Tuning, 奖励矫正
 
 ## 一句话总结

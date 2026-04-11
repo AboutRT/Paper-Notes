@@ -1,9 +1,9 @@
 # 7DGS: Unified Spatial-Temporal-Angular Gaussian Splatting
 
-**会议**: ICCV 2025
-**arXiv**: [2503.07946](https://arxiv.org/abs/2503.07946)
-**代码**: https://gaozhongpai.github.io/7dgs/ (项目页)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2503.07946](https://arxiv.org/abs/2503.07946)  
+**代码**: https://gaozhongpai.github.io/7dgs/ (项目页)  
+**领域**: 3D视觉  
 **关键词**: 高斯泼溅, 动态场景渲染, 视角依赖效果, 实时渲染, 新视图合成
 
 ## 一句话总结
@@ -22,6 +22,7 @@
 **核心 idea**：将场景元素表示为7D高斯分布，利用多元高斯分布的条件分布性质，通过数学上严格的条件切片机制，将7D高斯"切片"为时间和视角条件下的3D高斯，无缝接入现有3DGS渲染管线。
 
 ## 方法详解
+
 ### 整体框架
 7DGS 每个场景元素建模为7D高斯 $X = (X_p, X_t, X_d) \sim \mathcal{N}(\mu, \Sigma)$，其中 $X_p \in \mathbb{R}^3$ 为空间坐标，$X_t \in \mathbb{R}$ 为时间，$X_d \in \mathbb{R}^3$ 为观察方向。7×7协方差矩阵的交叉项 $\Sigma_{pt}, \Sigma_{pd}, \Sigma_{td}$ 编码三个维度之间的相关性。渲染时通过条件切片将7D降为3D，送入标准3DGS光栅化管线。
 
@@ -46,6 +47,7 @@
 - AGR 网络在3000迭代后开始训练，调制参数 $\lambda_t, \lambda_d$ 在15000迭代后变为可学习
 
 ## 实验关键数据
+
 ### 主实验
 
 | 数据集 | 方法 | PSNR↑ | SSIM↑ | LPIPS↓ | FPS↑ | 点数↓ |

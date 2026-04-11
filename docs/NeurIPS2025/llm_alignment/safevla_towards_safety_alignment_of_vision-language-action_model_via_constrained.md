@@ -1,9 +1,9 @@
 # SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2503.03480](https://arxiv.org/abs/2503.03480)
-**代码**: [项目主页](https://pku-safevla.github.io)
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.03480](https://arxiv.org/abs/2503.03480)  
+**代码**: [项目主页](https://pku-safevla.github.io)  
+**领域**: llm_alignment  
 **关键词**: VLA safety, constrained MDP, safe reinforcement learning, embodied AI, robot safety
 
 ## 一句话总结

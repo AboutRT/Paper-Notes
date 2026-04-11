@@ -1,9 +1,9 @@
 # ASAP: An Agentic Solution to Auto-Optimize Performance of Large-Scale LLM Training
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.03844](https://arxiv.org/abs/2511.03844)
-**代码**: 未公开（Google 内部 ADK）
-**领域**: LLM系统 / 分布式训练
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.03844](https://arxiv.org/abs/2511.03844)  
+**代码**: 未公开（Google 内部 ADK）  
+**领域**: LLM系统 / 分布式训练  
 **关键词**: 多Agent系统, 分布式训练优化, sharding配置, 瓶颈分析, Roofline模型
 
 ## 一句话总结

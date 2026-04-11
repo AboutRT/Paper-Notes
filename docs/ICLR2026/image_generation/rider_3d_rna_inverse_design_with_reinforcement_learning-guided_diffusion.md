@@ -1,9 +1,9 @@
 # RIDER: 3D RNA Inverse Design with Reinforcement Learning-Guided Diffusion
 
-**会议**: ICLR 2026
-**arXiv**: [2602.16548](https://arxiv.org/abs/2602.16548)
-**代码**: —
-**领域**: 生物分子设计 / 扩散模型 / 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.16548](https://arxiv.org/abs/2602.16548)  
+**代码**: —  
+**领域**: 生物分子设计 / 扩散模型 / 强化学习  
 **关键词**: RNA 逆向设计, 3D 结构相似性, 扩散模型, 强化学习微调, DDPO
 
 ## 一句话总结

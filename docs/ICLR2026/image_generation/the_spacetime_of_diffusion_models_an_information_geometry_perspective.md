@@ -1,9 +1,9 @@
 # The Spacetime of Diffusion Models: An Information Geometry Perspective
 
-**会议**: ICLR 2026
-**arXiv**: [2505.17517](https://arxiv.org/abs/2505.17517)
-**代码**: [GitHub](https://github.com/rafalkarczewski/spacetime-geometry)
-**领域**: 扩散模型 / 信息几何 / 理论分析
+**会议**: ICLR 2026  
+**arXiv**: [2505.17517](https://arxiv.org/abs/2505.17517)  
+**代码**: [GitHub](https://github.com/rafalkarczewski/spacetime-geometry)  
+**领域**: 扩散模型 / 信息几何 / 理论分析  
 **关键词**: 时空几何, Fisher-Rao度量, 拉回几何, 扩散编辑距离, 转移路径采样
 
 ## 一句话总结

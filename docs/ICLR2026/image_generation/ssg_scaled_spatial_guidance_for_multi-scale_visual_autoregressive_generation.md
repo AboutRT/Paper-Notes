@@ -1,9 +1,9 @@
 # SSG: Scaled Spatial Guidance for Multi-Scale Visual Autoregressive Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2602.05534](https://arxiv.org/abs/2602.05534)
-**代码**: [GitHub](https://github.com/Youngwoo-git/SSG)
-**领域**: 视觉自回归模型 / 图像生成 / 推理时引导
+**会议**: ICLR 2026  
+**arXiv**: [2602.05534](https://arxiv.org/abs/2602.05534)  
+**代码**: [GitHub](https://github.com/Youngwoo-git/SSG)  
+**领域**: 视觉自回归模型 / 图像生成 / 推理时引导  
 **关键词**: VAR, 下一尺度预测, 信息瓶颈, 频域引导, 训练免费
 
 ## 一句话总结

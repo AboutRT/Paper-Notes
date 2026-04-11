@@ -1,10 +1,10 @@
 # Parallelised Differentiable Straightest Geodesics for 3D Meshes
 
-**会议**: CVPR 2026
-**arXiv**: [2603.15780](https://arxiv.org/abs/2603.15780)
-**代码**: [circle-group/DSG](https://circle-group.github.io/research/DSG) (pip install digeo)
+**会议**: CVPR 2026  
+**arXiv**: [2603.15780](https://arxiv.org/abs/2603.15780)  
+**代码**: [circle-group/DSG](https://circle-group.github.io/research/DSG) (pip install digeo)  
 **作者**: Hippolyte Verninas, Caner Korkmaz, Stefanos Zafeiriou, Tolga Birdal, Simone Foti (Imperial College London)
-**领域**: image_generation
+**领域**: image_generation  
 **关键词**: 测地线, 可微分, 指数映射, 网格学习, 并行化, 流匹配, 测地线卷积
 
 ## 一句话总结

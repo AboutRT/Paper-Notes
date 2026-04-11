@@ -1,9 +1,9 @@
 # Maximum Total Correlation Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2505.16734](https://arxiv.org/abs/2505.16734)
-**代码**: [GitHub](https://github.com/BangYou01/MTC)
-**领域**: reinforcement_learning / 鲁棒强化学习
+**会议**: ICML2025  
+**arXiv**: [2505.16734](https://arxiv.org/abs/2505.16734)  
+**代码**: [GitHub](https://github.com/BangYou01/MTC)  
+**领域**: reinforcement_learning / 鲁棒强化学习  
 **关键词**: total correlation, 轨迹一致性, 信息论正则化, SAC, 鲁棒性, 可压缩行为
 
 ## 一句话总结

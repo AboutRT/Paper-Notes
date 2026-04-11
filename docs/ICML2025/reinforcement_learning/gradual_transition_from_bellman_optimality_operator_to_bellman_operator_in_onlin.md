@@ -1,10 +1,10 @@
 # Gradual Transition from Bellman Optimality Operator to Bellman Operator in Online Reinforcement Learning
 
-**会议**: ICML2025
-**arXiv**: [2506.05968](https://arxiv.org/abs/2506.05968)
+**会议**: ICML2025  
+**arXiv**: [2506.05968](https://arxiv.org/abs/2506.05968)  
 **作者**: Motoki Omura, Kazuki Ota, Takayuki Osa, Yusuke Mukuta, Tatsuya Harada (东京大学)
-**代码**: [GitHub](https://github.com/motokiomura/annealed-q-learning)
-**领域**: reinforcement_learning
+**代码**: [GitHub](https://github.com/motokiomura/annealed-q-learning)  
+**领域**: reinforcement_learning  
 **关键词**: Bellman算子, 过估计偏差, Actor-Critic, 退火策略, 期望分位损失, 连续动作空间
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models
 
-**会议**: CVPR 2026
-**arXiv**: [2512.10932](https://arxiv.org/abs/2512.10932)
-**代码**: https://shawnking98.github.io/BabyVLM-v2/ (有)
-**领域**: 多模态VLM / 认知科学
+**会议**: CVPR 2026  
+**arXiv**: [2512.10932](https://arxiv.org/abs/2512.10932)  
+**代码**: https://shawnking98.github.io/BabyVLM-v2/ (有)  
+**领域**: 多模态VLM / 认知科学  
 **关键词**: 发育认知, 婴儿视觉, 样本效率预训练, NIH Baby Toolbox, DevCV Toolbox
 
 ## 一句话总结

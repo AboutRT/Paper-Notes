@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # A Mixed Diet Makes DINO An Omnivorous Vision Encoder
 
-**会议**: CVPR2026
-**arXiv**: [2602.24181](https://arxiv.org/abs/2602.24181)
-**代码**: 待确认
-**领域**: 语义分割
+**会议**: CVPR2026  
+**arXiv**: [2602.24181](https://arxiv.org/abs/2602.24181)  
+**代码**: 待确认  
+**领域**: 语义分割  
 **关键词**: 跨模态对齐, DINOv2, 视觉基础模型, 模态无关编码器, 参数高效微调, 对比学习
 
 ## 一句话总结

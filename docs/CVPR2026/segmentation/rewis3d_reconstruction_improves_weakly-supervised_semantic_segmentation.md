@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation
 
-**会议**: CVPR2026
-**arXiv**: [2603.06374](https://arxiv.org/abs/2603.06374)
-**代码**: 待发布（论文接收后公开）
-**领域**: 3D视觉 / 弱监督语义分割
+**会议**: CVPR2026  
+**arXiv**: [2603.06374](https://arxiv.org/abs/2603.06374)  
+**代码**: 待发布（论文接收后公开）  
+**领域**: 3D视觉 / 弱监督语义分割  
 **关键词**: 弱监督语义分割, 3D重建, 跨模态一致性, 双师生架构, 点云, 稀疏标注
 
 ## 一句话总结

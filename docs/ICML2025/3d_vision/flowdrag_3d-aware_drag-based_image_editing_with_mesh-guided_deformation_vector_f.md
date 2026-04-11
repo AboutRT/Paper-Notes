@@ -1,9 +1,9 @@
 # FlowDrag: 3D-aware Drag-based Image Editing with Mesh-guided Deformation Vector Flow Fields
 
-**会议**: ICML2025
-**arXiv**: [2507.08285](https://arxiv.org/abs/2507.08285)
-**代码**: 待确认
-**领域**: 3d_vision
+**会议**: ICML2025  
+**arXiv**: [2507.08285](https://arxiv.org/abs/2507.08285)  
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: 拖拽编辑, 3D网格变形, 向量流场, 几何一致性, 扩散模型
 
 ## 一句话总结

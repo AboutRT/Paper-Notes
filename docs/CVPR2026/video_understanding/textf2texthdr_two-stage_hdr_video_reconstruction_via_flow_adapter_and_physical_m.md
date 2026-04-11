@@ -1,9 +1,9 @@
 # F²HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling
 
-**会议**: CVPR 2026
-**arXiv**: [2603.14920](https://arxiv.org/abs/2603.14920)
-**代码**: [https://github.com/wei1895/F2HDR](https://github.com/wei1895/F2HDR)
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.14920](https://arxiv.org/abs/2603.14920)  
+**代码**: [https://github.com/wei1895/F2HDR](https://github.com/wei1895/F2HDR)  
+**领域**: 视频理解  
 **关键词**: HDR视频重建, 光流适配器, 物理运动建模, 交替曝光, 两阶段重建
 
 ## 一句话总结

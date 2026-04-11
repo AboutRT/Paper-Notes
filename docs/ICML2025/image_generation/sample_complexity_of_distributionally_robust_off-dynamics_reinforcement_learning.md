@@ -1,9 +1,9 @@
 # Sample Complexity of Distributionally Robust Off-Dynamics Reinforcement Learning with Online Interaction
 
-**会议**: ICML2025
-**arXiv**: [2511.05396](https://arxiv.org/abs/2511.05396)
-**代码**: [panxulab/Online-Robust-Bellman-Iteration](https://github.com/panxulab/Online-Robust-Bellman-Iteration)
-**领域**: 分布鲁棒强化学习
+**会议**: ICML2025  
+**arXiv**: [2511.05396](https://arxiv.org/abs/2511.05396)  
+**代码**: [panxulab/Online-Robust-Bellman-Iteration](https://github.com/panxulab/Online-Robust-Bellman-Iteration)  
+**领域**: 分布鲁棒强化学习  
 **关键词**: Robust MDP, Off-dynamics RL, Sample Complexity, Online Learning, f-divergence, Regret Bounds
 
 ## 一句话总结

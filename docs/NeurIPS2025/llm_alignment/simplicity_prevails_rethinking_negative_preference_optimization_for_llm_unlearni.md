@@ -1,9 +1,9 @@
 # Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2410.07163](https://arxiv.org/abs/2410.07163)
-**代码**: [GitHub](https://github.com/OPTML-Group/Unlearn-Simple)
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2410.07163](https://arxiv.org/abs/2410.07163)  
+**代码**: [GitHub](https://github.com/OPTML-Group/Unlearn-Simple)  
+**领域**: llm_alignment  
 **关键词**: LLM unlearning, negative preference optimization, SimNPO, reference model bias, length normalization
 
 ## 一句话总结

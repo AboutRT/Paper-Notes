@@ -1,9 +1,9 @@
 # Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Method
 
-**会议**: ICLR 2026
-**arXiv**: [2507.07999](https://arxiv.org/abs/2507.07999)
-**代码**: [GitHub](https://github.com/Haochen-Wang409/TreeVGR)
-**领域**: 视觉推理/多模态评测
+**会议**: ICLR 2026  
+**arXiv**: [2507.07999](https://arxiv.org/abs/2507.07999)  
+**代码**: [GitHub](https://github.com/Haochen-Wang409/TreeVGR)  
+**领域**: 视觉推理/多模态评测  
 **关键词**: 视觉定位推理, 可追溯证据, 二阶推理, TreeBench基准, 强化学习训练
 
 ## 一句话总结

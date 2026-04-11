@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 图像恢复  
 **关键词**: infrared-super-resolution, autoregressive, codebook, thermal-guidance, benchmark  
+
 ## 一句话总结
 
 提出 Real-IISR，一个基于热-结构引导的视觉自回归框架，通过条件自适应码本和热序一致性损失实现真实世界红外图像超分辨率，并构建首个真实红外超分数据集 FLIR-IISR。

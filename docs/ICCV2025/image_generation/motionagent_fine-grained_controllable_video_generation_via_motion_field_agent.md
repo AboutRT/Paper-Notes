@@ -1,9 +1,9 @@
 # MotionAgent: Fine-grained Controllable Video Generation via Motion Field Agent
 
-**会议**: ICCV 2025
-**arXiv**: [2502.03207](https://arxiv.org/abs/2502.03207)
-**代码**: [GitHub](https://github.com/leoisufa/MotionAgent)
-**领域**: image_generation / video_generation
+**会议**: ICCV 2025  
+**arXiv**: [2502.03207](https://arxiv.org/abs/2502.03207)  
+**代码**: [GitHub](https://github.com/leoisufa/MotionAgent)  
+**领域**: image_generation / video_generation  
 **关键词**: 图像到视频生成, 运动场代理, 光流, 细粒度运动控制, 扩散模型
 
 ## 一句话总结

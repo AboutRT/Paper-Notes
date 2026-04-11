@@ -1,9 +1,9 @@
 # Don't Just Chase "Highlighted Tokens" in MLLMs: Revisiting Visual Holistic Context Retention
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.02912](https://arxiv.org/abs/2510.02912)
-**代码**: [GitHub](https://github.com/obananas/HoloV)
-**领域**: multimodal_vlm
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.02912](https://arxiv.org/abs/2510.02912)  
+**代码**: [GitHub](https://github.com/obananas/HoloV)  
+**领域**: multimodal_vlm  
 **关键词**: 视觉token剪枝, 推理加速, 整体上下文, 自适应分配, MLLM效率
 
 ## 一句话总结

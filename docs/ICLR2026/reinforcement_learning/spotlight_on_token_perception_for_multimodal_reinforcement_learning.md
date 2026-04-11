@@ -1,9 +1,9 @@
 # Spotlight on Token Perception for Multimodal Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2510.09285](https://arxiv.org/abs/2510.09285)
-**代码**: [https://github.com/huaixuheqing/VPPO-RL](https://github.com/huaixuheqing/VPPO-RL)
-**领域**: 多模态强化学习 / 视觉语言模型
+**会议**: ICLR 2026  
+**arXiv**: [2510.09285](https://arxiv.org/abs/2510.09285)  
+**代码**: [https://github.com/huaixuheqing/VPPO-RL](https://github.com/huaixuheqing/VPPO-RL)  
+**领域**: 多模态强化学习 / 视觉语言模型  
 **关键词**: RLVR, 多模态推理, token感知, 视觉依赖, 策略优化
 
 ## 一句话总结

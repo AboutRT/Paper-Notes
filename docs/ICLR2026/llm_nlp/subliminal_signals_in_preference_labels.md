@@ -1,9 +1,9 @@
 # Subliminal Signals in Preference Labels
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01204](https://arxiv.org/abs/2603.01204)
-**代码**: [GitHub](https://github.com/ETH-DISCO/subliminal-signals-in-preference-labels)
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2603.01204](https://arxiv.org/abs/2603.01204)  
+**代码**: [GitHub](https://github.com/ETH-DISCO/subliminal-signals-in-preference-labels)  
+**领域**: llm_nlp  
 **关键词**: preference learning, subliminal signals, LLM-as-a-judge, alignment safety, covert communication, superalignment
 
 ## 一句话总结

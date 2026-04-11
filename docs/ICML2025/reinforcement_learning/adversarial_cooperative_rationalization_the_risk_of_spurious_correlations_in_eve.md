@@ -1,9 +1,9 @@
 # Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets
 
-**会议**: ICML 2025
-**arXiv**: [2505.02118](https://arxiv.org/abs/2505.02118)
-**代码**: https://github.com/jugechengzi/Rationalization-A2I
-**领域**: 强化学习/可解释性
+**会议**: ICML 2025  
+**arXiv**: [2505.02118](https://arxiv.org/abs/2505.02118)  
+**代码**: https://github.com/jugechengzi/Rationalization-A2I  
+**领域**: 强化学习/可解释性  
 **关键词**: 自解释模型, 理据化, 虚假相关, 对抗攻击, 采样偏差
 
 ## 一句话总结

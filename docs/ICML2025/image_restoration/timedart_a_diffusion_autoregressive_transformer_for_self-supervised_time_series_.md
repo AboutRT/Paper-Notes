@@ -1,9 +1,9 @@
 # TimeDART: A Diffusion Autoregressive Transformer for Self-Supervised Time Series Representation
 
-**会议**: ICML2025
-**arXiv**: [2410.05711](https://arxiv.org/abs/2410.05711)
-**代码**: [GitHub](https://github.com/Melmaphother/TimeDART)
-**领域**: 时间序列
+**会议**: ICML2025  
+**arXiv**: [2410.05711](https://arxiv.org/abs/2410.05711)  
+**代码**: [GitHub](https://github.com/Melmaphother/TimeDART)  
+**领域**: 时间序列  
 **关键词**: 自监督学习, 时间序列表示学习, 扩散模型, 自回归Transformer, 预训练
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Safe Continuous-time Multi-Agent Reinforcement Learning via Epigraph Form
 
-**会议**: ICLR 2026
-**arXiv**: [2602.17078](https://arxiv.org/abs/2602.17078)
-**代码**: [GitHub链接](https://github.com/xuefeng-wang/EPI)
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2602.17078](https://arxiv.org/abs/2602.17078)  
+**代码**: [GitHub链接](https://github.com/xuefeng-wang/EPI)  
+**领域**: 强化学习  
 **关键词**: 连续时间RL, 多智能体, 安全约束, HJB方程, Epigraph重构
 
 ## 一句话总结

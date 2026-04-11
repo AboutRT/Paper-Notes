@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Position: Causal Machine Learning Requires Rigorous Synthetic Experiments for Broader Adoption
 
-**会议**: ICML2025
-**arXiv**: [2508.08883](https://arxiv.org/abs/2508.08883)
-**代码**: [GitHub](https://github.com/panispani/causalml-needs-synth-eval)
-**领域**: causal_inference
+**会议**: ICML2025  
+**arXiv**: [2508.08883](https://arxiv.org/abs/2508.08883)  
+**代码**: [GitHub](https://github.com/panispani/causalml-needs-synth-eval)  
+**领域**: causal_inference  
 **关键词**: 因果推断, 合成数据, 实验评估, 基准偏差, Position Paper
 
 ## 一句话总结

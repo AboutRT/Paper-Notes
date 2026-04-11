@@ -1,9 +1,9 @@
 # Learning to Factorize and Adapt: A Versatile Approach Toward Universal Spatio-Temporal Foundation Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2601.12083](https://arxiv.org/abs/2601.12083)
-**代码**: [GitHub](https://github.com/CityMind-Lab/FactoST) (有)
-**领域**: model_compression
+**会议**: NeurIPS 2025  
+**arXiv**: [2601.12083](https://arxiv.org/abs/2601.12083)  
+**代码**: [GitHub](https://github.com/CityMind-Lab/FactoST) (有)  
+**领域**: model_compression  
 **关键词**: 时空基础模型, 时间序列预测, 因式分解范式, 时空适配, 零样本泛化
 
 ## 一句话总结

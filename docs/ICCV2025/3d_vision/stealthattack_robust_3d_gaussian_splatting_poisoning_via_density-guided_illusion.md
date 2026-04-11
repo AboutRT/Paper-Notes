@@ -1,8 +1,8 @@
 # StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided Illusions
 
-**会议**: ICCV 2025
-**arXiv**: [2510.02314](https://arxiv.org/abs/2510.02314)
-**领域**: 3D视觉
+**会议**: ICCV 2025  
+**arXiv**: [2510.02314](https://arxiv.org/abs/2510.02314)  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 数据投毒攻击, 对抗安全, 核密度估计, 多视角一致性
 
 ## 一句话总结

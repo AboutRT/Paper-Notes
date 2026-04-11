@@ -1,9 +1,9 @@
 # CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing
 
-**会议**: CVPR2026
-**arXiv**: [2603.08589](https://arxiv.org/abs/2603.08589)
-**代码**: 待公开
-**领域**: image_generation
+**会议**: CVPR2026  
+**arXiv**: [2603.08589](https://arxiv.org/abs/2603.08589)  
+**代码**: 待公开  
+**领域**: image_generation  
 **关键词**: 图像编辑, Mixture-of-Experts, 条件感知路由, Diffusion Transformer, 多模态融合
 
 ## 一句话总结

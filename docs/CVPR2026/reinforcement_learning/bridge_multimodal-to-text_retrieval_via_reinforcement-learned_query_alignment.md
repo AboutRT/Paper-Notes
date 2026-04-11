@@ -1,9 +1,9 @@
 # BRIDGE: Multimodal-to-Text Retrieval via Reinforcement-Learned Query Alignment
 
-**会议**: CVPR 2026
-**arXiv**: [2604.07201](https://arxiv.org/abs/2604.07201)
-**代码**: [GitHub](https://github.com/mm-bright/multimodal-reasoning-retrieval) (有)
-**领域**: 多模态检索 / 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2604.07201](https://arxiv.org/abs/2604.07201)  
+**代码**: [GitHub](https://github.com/mm-bright/multimodal-reasoning-retrieval) (有)  
+**领域**: 多模态检索 / 强化学习  
 **关键词**: 多模态检索, 查询对齐, 强化学习, 密集检索, 查询重写
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea**: 多模态检索中的模态鸿沟本质上是查询表示问题而非模型能力问题。FORGE 用 RL 学会"桥接"用户多模态表达和检索器需要的输入。
 
 ## 方法详解
+
 ### 整体框架
 三阶段管线: (1) GPT-4o 将查询图像转为文本描述 $\delta(q_v)$ → (2) FORGE 将噪声查询对 $(q_t, \delta(q_v))$ 蒸馏为紧凑检索字符串 $\hat{q}$ → (3) LENS 编码 $\hat{q}$ 并从文本语料库检索。
 
@@ -51,6 +52,7 @@ $$\hat{\mathcal{D}}_k = \text{LENS}(\text{FORGE}(q_t, \text{GPT-4o}(q_v)), \math
 - 4× H100 80GB 训练
 
 ## 实验关键数据
+
 ### 主实验（MM-BRIGHT，2803 查询，29 领域）
 | 方法 | nDCG@10 | 类型 |
 |------|---------|------|

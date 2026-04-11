@@ -1,9 +1,9 @@
 # Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2510.23038](https://arxiv.org/abs/2510.23038)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2510.23038](https://arxiv.org/abs/2510.23038)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: LLM-as-a-Judge, 工具集成推理, 强化学习, 代码执行, 评估
 
 ## 一句话总结

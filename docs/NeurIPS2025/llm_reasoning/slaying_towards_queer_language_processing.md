@@ -1,9 +1,9 @@
 # SLAyiNG: Towards Queer Language Processing
 
-**会议**: NeurIPS 2025 (Queer in AI Workshop)
-**arXiv**: [2509.17449](https://arxiv.org/abs/2509.17449)
-**代码**: 无
-**领域**: NLP理解
+**会议**: NeurIPS 2025 (Queer in AI Workshop)  
+**arXiv**: [2509.17449](https://arxiv.org/abs/2509.17449)  
+**代码**: 无  
+**领域**: NLP理解  
 **关键词**: queer slang, 数据集标注, sense disambiguation, LLM评估, 社会语言学
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # GPTAQ: Efficient Finetuning-Free Quantization for Asymmetric Calibration
 
-**会议**: ICML 2025
-**arXiv**: [2504.02692](https://arxiv.org/abs/2504.02692)
-**代码**: https://github.com/Intelligent-Computing-Lab-Panda/GPTAQ (有)
-**领域**: 模型压缩 / 量化
+**会议**: ICML 2025  
+**arXiv**: [2504.02692](https://arxiv.org/abs/2504.02692)  
+**代码**: https://github.com/Intelligent-Computing-Lab-Panda/GPTAQ (有)  
+**领域**: 模型压缩 / 量化  
 **关键词**: 后训练量化, 非对称校准, 最优脑压缩, GPTQ改进, 低比特量化
 
 ## 一句话总结

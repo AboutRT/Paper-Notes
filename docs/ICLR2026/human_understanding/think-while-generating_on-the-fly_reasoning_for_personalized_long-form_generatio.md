@@ -1,9 +1,9 @@
 # Think-While-Generating: On-the-Fly Reasoning for Personalized Long-Form Generation
 
-**会议**: ICLR 2026
-**arXiv**: [2512.06690](https://arxiv.org/abs/2512.06690)
-**代码**: 无
-**领域**: 人体理解/NLP
+**会议**: ICLR 2026  
+**arXiv**: [2512.06690](https://arxiv.org/abs/2512.06690)  
+**代码**: 无  
+**领域**: 人体理解/NLP  
 **关键词**: 个性化生成, 长文本生成, 潜在推理, think-while-generating, 并行推理
 
 ## 一句话总结

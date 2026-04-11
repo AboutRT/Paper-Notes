@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # DiffBMP: Differentiable Rendering with Bitmap Primitives
 
-**会议**: CVPR2026
-**arXiv**: [2602.22625](https://arxiv.org/abs/2602.22625)
-**代码**: [diffbmp.com](https://diffbmp.com)
-**领域**: others (可微渲染 / 计算机图形学)
+**会议**: CVPR2026  
+**arXiv**: [2602.22625](https://arxiv.org/abs/2602.22625)  
+**代码**: [diffbmp.com](https://diffbmp.com)  
+**领域**: others (可微渲染 / 计算机图形学)  
 **关键词**: differentiable rendering, bitmap primitives, CUDA kernel, soft rasterization, alpha compositing, creative workflow
 
 ## 一句话总结

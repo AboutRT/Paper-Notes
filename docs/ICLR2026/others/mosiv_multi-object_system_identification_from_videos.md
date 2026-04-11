@@ -1,8 +1,8 @@
 # MOSIV: Multi-Object System Identification from Videos
 
-**会议**: ICLR 2026
-**arXiv**: [2603.06022](https://arxiv.org/abs/2603.06022)
-**领域**: 物理建模/系统辨识
+**会议**: ICLR 2026  
+**arXiv**: [2603.06022](https://arxiv.org/abs/2603.06022)  
+**领域**: 物理建模/系统辨识  
 **关键词**: 多物体物理, 视频系统辨识, 可微MPM, 4D高斯, 连续参数优化, 接触摩擦建模
 
 ## 一句话总结

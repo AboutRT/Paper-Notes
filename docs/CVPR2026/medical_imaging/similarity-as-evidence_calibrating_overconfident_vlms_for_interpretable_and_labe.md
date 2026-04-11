@@ -1,9 +1,9 @@
 # Similarity-as-Evidence: Calibrating Overconfident VLMs for Interpretable and Label-Efficient Medical Active Learning
 
-**会议**: CVPR2026
-**arXiv**: [2602.18867](https://arxiv.org/abs/2602.18867)
-**代码**: 待确认
-**领域**: 医学图像 (medical_imaging)
+**会议**: CVPR2026  
+**arXiv**: [2602.18867](https://arxiv.org/abs/2602.18867)  
+**代码**: 待确认  
+**领域**: 医学图像 (medical_imaging)  
 **关键词**: 主动学习, 视觉语言模型, 不确定性量化, Dirichlet分布, 证据深度学习, 医学图像分类, 校准
 
 ## 一句话总结

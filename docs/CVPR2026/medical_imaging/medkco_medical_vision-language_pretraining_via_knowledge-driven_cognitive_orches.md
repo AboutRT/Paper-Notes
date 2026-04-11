@@ -1,9 +1,9 @@
 # MedKCO: Medical Vision-Language Pretraining via Knowledge-Driven Cognitive Orchestration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09101](https://arxiv.org/abs/2603.09101)
-**代码**: [有](https://github.com/Mr-Talon/MedKCO)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.09101](https://arxiv.org/abs/2603.09101)  
+**代码**: [有](https://github.com/Mr-Talon/MedKCO)  
+**领域**: 医学图像  
 **关键词**: 视觉-语言预训练, 课程学习, 对比学习, 认知编排, 医学影像
 
 ## 一句话总结

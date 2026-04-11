@@ -1,9 +1,9 @@
 # Temperature as a Meta-Policy: Adaptive Temperature in LLM Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2602.11779](https://arxiv.org/abs/2602.11779)
-**代码**: 无
-**领域**: 模型压缩 / 高效 RL 训练
+**会议**: ICLR 2026  
+**arXiv**: [2602.11779](https://arxiv.org/abs/2602.11779)  
+**代码**: 无  
+**领域**: 模型压缩 / 高效 RL 训练  
 **关键词**: 温度调节, 元策略, GRPO, 自适应探索, 数学推理
 
 ## 一句话总结

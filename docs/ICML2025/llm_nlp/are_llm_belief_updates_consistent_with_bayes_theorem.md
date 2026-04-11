@@ -1,9 +1,9 @@
 # Are LLM Belief Updates Consistent with Bayes' Theorem?
 
-**会议**: ICML 2025 (Workshop on Assessing World Models)
-**arXiv**: [2507.17951](https://arxiv.org/abs/2507.17951)
-**代码**: 无
-**领域**: LLM / NLP
+**会议**: ICML 2025 (Workshop on Assessing World Models)  
+**arXiv**: [2507.17951](https://arxiv.org/abs/2507.17951)  
+**代码**: 无  
+**领域**: LLM / NLP  
 **关键词**: Bayesian coherence, belief update, LLM evaluation, probabilistic reasoning, scaling
 
 ## 一句话总结
@@ -33,6 +33,7 @@
 本文是评估性工作，核心在于评测协议的设计。通过 prompt 工程让 LLM 输出 0-1 之间的置信度数值。
 
 ## 实验关键数据
+
 ### 主实验
 | 模型家族 | 参数量 | BCC ↑ | MMLU | 趋势 |
 |----------|--------|-------|------|------|

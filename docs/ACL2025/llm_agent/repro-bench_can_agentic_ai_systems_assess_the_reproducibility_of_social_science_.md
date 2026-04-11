@@ -1,9 +1,9 @@
 # REPRO-Bench: Can Agentic AI Systems Assess the Reproducibility of Social Science?
 
-**会议**: ACL2025
-**arXiv**: [2507.18901](https://arxiv.org/abs/2507.18901)
-**代码**: [GitHub](https://github.com/uiuc-kang-lab/REPRO-Bench)
-**领域**: llm_agent
+**会议**: ACL2025  
+**arXiv**: [2507.18901](https://arxiv.org/abs/2507.18901)  
+**代码**: [GitHub](https://github.com/uiuc-kang-lab/REPRO-Bench)  
+**领域**: llm_agent  
 **关键词**: AI Agent, 可复现性评估, 社会科学, Benchmark, 代码执行
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **语言与格式单一**：已有基准仅涉及单一编程语言（Python/R），而社会科学论文常混合 Stata、R、MATLAB 等多种语言和 .dta/.csv/.rda 等多种数据格式。
 
 ## 方法详解
+
 ### REPRO-Bench 构建
 - **数据来源**：从 4 个来源收集 112 篇论文——(1) Mass Reproduction 92 篇、(2) I4R Discussion Papers 11 篇、(3) Retraction Watch 7 篇、(4) Twitter/X 2 篇，确保可复现与不可复现论文均衡覆盖。
 - **评分体系**：4 级可复现性评分——1=主要发现不可复现，2=代码存在轻微不一致/错误，3=仅显示层面问题（如四舍五入），4=完全可复现。分布为 20/36/8/48，1+2 与 3+4 各 56 篇。

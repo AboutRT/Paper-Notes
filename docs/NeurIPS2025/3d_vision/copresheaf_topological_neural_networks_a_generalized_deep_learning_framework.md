@@ -1,9 +1,9 @@
 # Copresheaf Topological Neural Networks: A Generalized Deep Learning Framework
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.21251](https://arxiv.org/abs/2505.21251)
-**代码**: 无
-**领域**: 3d_vision
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.21251](https://arxiv.org/abs/2505.21251)  
+**代码**: 无  
+**领域**: 3d_vision  
 **关键词**: 拓扑神经网络, 余预层(copresheaf), 组合复形, 消息传递, 各向异性表示学习
 
 ## 一句话总结
@@ -18,6 +18,7 @@
 6. **核心idea一句话**: 用余预层替代 sheaf 作为消息传递基础，在每条边上定义方向性可学习映射 ρ_{y→x}，将 CNN、GNN、Transformer、SNN、TNN 统一为 CTNN 的特殊情形。
 
 ## 方法详解
+
 ### 整体框架
 CTNN 建立在三个层次之上：
 1. **组合复形（CC）**: 作为底层拓扑结构，推广图、单纯复形、胞腔复形和超图。CC 由有限顶点集 S、胞腔集合 X ⊂ P(S) 和秩函数 rk 组成，满足集合包含蕴含秩不减。
@@ -40,6 +41,7 @@ CTNN 建立在三个层次之上：
 - **余预层映射参数化**: ρ_{ij} = I + Δ_{ij}，其中 Δ_{ij} = tanh(Linear([h_i; h_j]))（残差形式，I为恒等矩阵）
 
 ## 实验关键数据
+
 ### 主实验：物理模拟（Transformer vs Copresheaf Transformer）
 
 | 任务 | Classical MSE | Copresheaf MSE | 改进 |

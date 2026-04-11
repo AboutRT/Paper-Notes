@@ -1,9 +1,9 @@
 # Refine Now, Query Fast: A Decoupled Refinement Paradigm for Implicit Neural Fields
 
-**会议**: ICLR 2026
-**arXiv**: [2602.15155](https://arxiv.org/abs/2602.15155)
-**代码**: [GitHub](https://github.com/xtyinzz/DRR-INR)
-**领域**: 神经表示/科学计算
+**会议**: ICLR 2026  
+**arXiv**: [2602.15155](https://arxiv.org/abs/2602.15155)  
+**代码**: [GitHub](https://github.com/xtyinzz/DRR-INR)  
+**领域**: 神经表示/科学计算  
 **关键词**: 隐式神经表示, 解耦精化, 推理加速, 集成仿真代理, 变分对
 
 ## 一句话总结

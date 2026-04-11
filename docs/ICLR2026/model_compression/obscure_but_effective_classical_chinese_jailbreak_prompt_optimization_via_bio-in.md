@@ -1,9 +1,9 @@
 # Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search
 
-**会议**: ICLR 2026
-**arXiv**: [2602.22983](https://arxiv.org/abs/2602.22983)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2602.22983](https://arxiv.org/abs/2602.22983)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: LLM安全, 越狱攻击, 文言文, 生物启发优化, 黑盒攻击
 
 ## 一句话总结

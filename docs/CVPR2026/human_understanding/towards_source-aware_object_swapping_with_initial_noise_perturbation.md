@@ -1,9 +1,9 @@
 # Towards Source-Aware Object Swapping with Initial Noise Perturbation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23697](https://arxiv.org/abs/2602.23697)
-**代码**: 无
-**领域**: 人体理解
+**会议**: CVPR 2026  
+**arXiv**: [2602.23697](https://arxiv.org/abs/2602.23697)  
+**代码**: 无  
+**领域**: 人体理解  
 **关键词**: 物体替换, 扩散模型, 初始噪声扰动, 自监督, 跨物体对齐
 
 ## 一句话总结

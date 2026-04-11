@@ -1,9 +1,9 @@
 # GaussMarker: Robust Dual-Domain Watermark for Diffusion Models
 
-**会议**: ICML2025
-**arXiv**: [2506.11444](https://arxiv.org/abs/2506.11444)
-**代码**: 待确认
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2506.11444](https://arxiv.org/abs/2506.11444)  
+**代码**: 待确认  
+**领域**: image_generation  
 **关键词**: 扩散模型水印, 双域水印, 高斯噪声修复器, 无需微调, 鲁棒性
 
 ## 一句话总结

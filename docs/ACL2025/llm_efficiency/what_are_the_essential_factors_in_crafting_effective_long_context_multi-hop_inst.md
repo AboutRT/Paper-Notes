@@ -1,9 +1,9 @@
 # What are the Essential Factors in Crafting Effective Long Context Multi-Hop Instruction Datasets? Insights and Best Practices
 
-**会议**: ACL 2025
-**arXiv**: [2409.01893](https://arxiv.org/abs/2409.01893)
-**代码**: [WowCZ/LongMIT](https://github.com/WowCZ/LongMIT)
-**领域**: llm_efficiency
+**会议**: ACL 2025  
+**arXiv**: [2409.01893](https://arxiv.org/abs/2409.01893)  
+**代码**: [WowCZ/LongMIT](https://github.com/WowCZ/LongMIT)  
+**领域**: llm_efficiency  
 **关键词**: 长上下文, 多跳推理, 指令微调, 数据合成, 多智能体
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # MobileLLM-R1: Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes
 
-**会议**: ICLR 2026
-**arXiv**: [2509.24945](https://arxiv.org/abs/2509.24945)
-**代码**: [GitHub](https://github.com/facebookresearch/MobileLLM-R1)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2509.24945](https://arxiv.org/abs/2509.24945)  
+**代码**: [GitHub](https://github.com/facebookresearch/MobileLLM-R1)  
+**领域**: 模型压缩  
 **关键词**: 小模型推理, 数据筛选, 影响力分数, 数据混合, 端侧部署
 
 ## 一句话总结

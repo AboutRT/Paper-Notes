@@ -1,9 +1,9 @@
 # Prototype-Based Semantic Consistency Alignment for Domain Adaptive Retrieval
 
-**会议**: AAAI2026
-**arXiv**: [2512.04524](https://arxiv.org/abs/2512.04524)
-**代码**: 未公开
-**领域**: model_compression
+**会议**: AAAI2026  
+**arXiv**: [2512.04524](https://arxiv.org/abs/2512.04524)  
+**代码**: 未公开  
+**领域**: model_compression  
 **关键词**: domain adaptive retrieval, hashing, prototype learning, pseudo-label correction, semantic alignment
 
 ## 一句话总结

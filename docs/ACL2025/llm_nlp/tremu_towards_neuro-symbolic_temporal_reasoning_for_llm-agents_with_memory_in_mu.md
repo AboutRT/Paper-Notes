@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues
 
-**会议**: ACL2025
-**arXiv**: [2502.01630](https://arxiv.org/abs/2502.01630)
-**代码**: 待确认
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.01630](https://arxiv.org/abs/2502.01630)  
+**代码**: 待确认  
+**领域**: llm_nlp  
 **关键词**: 时间推理, 多轮对话, 神经符号推理, 记忆增强Agent, 时间线摘要
 
 ## 一句话总结

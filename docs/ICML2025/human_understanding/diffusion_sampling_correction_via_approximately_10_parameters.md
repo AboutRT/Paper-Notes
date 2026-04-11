@@ -1,15 +1,16 @@
 # PAS: Diffusion Sampling Correction via Approximately 10 Parameters
 
-**会议**: ICML2025
-**arXiv**: [2411.06503](https://arxiv.org/abs/2411.06503)
-**代码**: [GitHub - PAS](https://github.com/onefly123/PAS)
-**领域**: human_understanding
+**会议**: ICML2025  
+**arXiv**: [2411.06503](https://arxiv.org/abs/2411.06503)  
+**代码**: [GitHub - PAS](https://github.com/onefly123/PAS)  
+**领域**: human_understanding  
 **关键词**: 扩散模型加速, PCA采样修正, 低参数训练, 即插即用, 截断误差
 
 ## 一句话总结
 提出PCA-based Adaptive Search (PAS)——用PCA获取低维采样方向基向量，只需学习约10个坐标参数来修正快速采样器的截断误差，在CIFAR10上用12个参数和亚分钟训练即可将DDIM的FID从15.69降到4.37(NFE=10)。
 
 ## 研究背景与动机
+
 ### 扩散采样的两难
 训练无关方法在NFE<10时误差累积严重；训练方法效果好但需大量计算（100+ A100 GPU hours），且需存储额外模型参数。
 
@@ -18,6 +19,7 @@
 2. 累积截断误差呈"S"形——中间步误差最大
 
 ## 方法详解
+
 ### PCA基向量提取
 从参考轨迹提取少量正交基向量，跨越采样空间的主要方向。
 

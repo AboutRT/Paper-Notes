@@ -1,9 +1,9 @@
 # Subspace Optimization for Large Language Models with Convergence Guarantees
 
-**会议**: ICML 2025
-**arXiv**: [2410.11289](https://arxiv.org/abs/2410.11289)
-**代码**: [https://github.com/pkumelon/Golore](https://github.com/pkumelon/Golore)
-**领域**: Optimization
+**会议**: ICML 2025  
+**arXiv**: [2410.11289](https://arxiv.org/abs/2410.11289)  
+**代码**: [https://github.com/pkumelon/Golore](https://github.com/pkumelon/Golore)  
+**领域**: Optimization  
 **关键词**: subspace optimization, LLM training, GaLore, low-rank projection, convergence guarantee
 
 ## 一句话总结

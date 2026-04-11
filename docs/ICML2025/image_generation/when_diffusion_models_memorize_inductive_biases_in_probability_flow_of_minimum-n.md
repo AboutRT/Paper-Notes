@@ -1,9 +1,9 @@
 # When Diffusion Models Memorize: Inductive Biases in Probability Flow of Minimum-Norm Shallow Neural Nets
 
-**会议**: ICML2025
-**arXiv**: [2506.19031](https://arxiv.org/abs/2506.19031)
-**代码**: 待确认
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2506.19031](https://arxiv.org/abs/2506.19031)  
+**代码**: 待确认  
+**领域**: image_generation  
 **关键词**: 扩散模型, 记忆化, 概率流ODE, 最小范数, 浅层ReLU网络, 归纳偏置, 得分流
 
 ## 一句话总结

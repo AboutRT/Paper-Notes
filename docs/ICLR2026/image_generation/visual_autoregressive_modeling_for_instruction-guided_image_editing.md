@@ -1,9 +1,9 @@
 # Visual Autoregressive Modeling for Instruction-Guided Image Editing
 
-**会议**: ICLR 2026
-**arXiv**: [2508.15772](https://arxiv.org/abs/2508.15772)
-**代码**: https://github.com/HiDream-ai/VAREdit
-**领域**: 图像编辑
+**会议**: ICLR 2026  
+**arXiv**: [2508.15772](https://arxiv.org/abs/2508.15772)  
+**代码**: https://github.com/HiDream-ai/VAREdit  
+**领域**: 图像编辑  
 **关键词**: 视觉自回归, 图像编辑, 多尺度预测, 尺度对齐参考, 指令引导
 
 ## 一句话总结

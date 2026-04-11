@@ -1,9 +1,9 @@
 # TRACED: Transition-aware Regret Approximation with Co-learnability for Environment Design
 
-**会议**: ICLR 2026
-**arXiv**: [2506.19997](https://arxiv.org/abs/2506.19997)
-**代码**: https://github.com/Cho-Geonwoo/TRACED
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2506.19997](https://arxiv.org/abs/2506.19997)  
+**代码**: https://github.com/Cho-Geonwoo/TRACED  
+**领域**: 强化学习  
 **关键词**: 无监督环境设计, 课程学习, regret近似, 转移预测误差, Co-Learnability, 零样本迁移
 
 ## 一句话总结

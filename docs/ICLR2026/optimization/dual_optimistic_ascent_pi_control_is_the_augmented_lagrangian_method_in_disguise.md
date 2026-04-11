@@ -1,10 +1,10 @@
 # Dual Optimistic Ascent (PI Control) is the Augmented Lagrangian Method in Disguise
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2509.22500](https://arxiv.org/abs/2509.22500)
 
-**代码**: [GitHub](https://github.com/juan43ramirez/pi-control-is-alm)
-**领域**: 优化理论
+**代码**: [GitHub](https://github.com/juan43ramirez/pi-control-is-alm)  
+**领域**: 优化理论  
 **关键词**: 增广拉格朗日, 双乐观上升, PI控制, 约束优化, 非凸min-max
 
 ## 一句话总结

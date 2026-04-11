@@ -1,9 +1,9 @@
 # MOSAIC: Multiple Observers Spotting AI Content
 
-**会议**: ACL 2025 (Findings)
-**arXiv**: [2409.07615](https://arxiv.org/abs/2409.07615)
-**代码**: [GitHub](https://github.com/BaggerOfWords/MOSAIC)
-**领域**: AI安全/AIGC检测
+**会议**: ACL 2025 (Findings)  
+**arXiv**: [2409.07615](https://arxiv.org/abs/2409.07615)  
+**代码**: [GitHub](https://github.com/BaggerOfWords/MOSAIC)  
+**领域**: AI安全/AIGC检测  
 **关键词**: AI-generated text detection, ensemble LLM, information theory, Binoculars, zero-shot detection
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12766](https://arxiv.org/abs/2603.12766)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.12766](https://arxiv.org/abs/2603.12766)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 4D场景编辑, 3DGS, 动态传播, 锚点运动引导, 最优传输
 
 ## 一句话总结

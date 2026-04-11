@@ -1,9 +1,9 @@
 # Hamiltonian Neural PDE Solvers through Functional Approximation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.13275](https://arxiv.org/abs/2505.13275)
-**代码**: [GitHub](https://github.com/anthonyzhou-1/hamiltonian_pdes)
-**领域**: Scientific Computing / Neural PDE Solvers
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.13275](https://arxiv.org/abs/2505.13275)  
+**代码**: [GitHub](https://github.com/anthonyzhou-1/hamiltonian_pdes)  
+**领域**: Scientific Computing / Neural PDE Solvers  
 **关键词**: Hamiltonian mechanics, PDE求解, 泛函近似, 神经场, 能量守恒
 
 ## 一句话总结

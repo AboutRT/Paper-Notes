@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Linking Modality Isolation in Heterogeneous Collaborative Perception
 
-**会议**: CVPR2026
-**arXiv**: [2603.00609](https://arxiv.org/abs/2603.00609)
-**代码**: [cxliu0314/CodeAlign](https://github.com/cxliu0314/CodeAlign)
-**领域**: autonomous_driving
+**会议**: CVPR2026  
+**arXiv**: [2603.00609](https://arxiv.org/abs/2603.00609)  
+**代码**: [cxliu0314/CodeAlign](https://github.com/cxliu0314/CodeAlign)  
+**领域**: autonomous_driving  
 **关键词**: 协同感知, 异构对齐, 模态隔离, 码本, 跨模态翻译
 
 ## 一句话总结

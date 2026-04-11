@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Face Time Traveller: Travel Through Ages Without Losing Identity
 
-**会议**: CVPR2026
-**arXiv**: [2602.22819](https://arxiv.org/abs/2602.22819)
-**代码**: 待确认
-**领域**: 人体理解
+**会议**: CVPR2026  
+**arXiv**: [2602.22819](https://arxiv.org/abs/2602.22819)  
+**代码**: 待确认  
+**领域**: 人体理解  
 **关键词**: 人脸老化, 扩散模型, 身份保持, 注意力控制, 无需调优反演
 
 ## 一句话总结

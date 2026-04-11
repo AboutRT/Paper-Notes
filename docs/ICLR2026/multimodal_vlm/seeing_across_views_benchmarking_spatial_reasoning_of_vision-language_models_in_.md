@@ -1,9 +1,9 @@
 # Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes
 
-**会议**: ICLR 2026
-**arXiv**: [2510.19400](https://arxiv.org/abs/2510.19400)
-**代码**: [GitHub](https://github.com/MV-RoboBench)
-**领域**: 多模态评测/空间推理
+**会议**: ICLR 2026  
+**arXiv**: [2510.19400](https://arxiv.org/abs/2510.19400)  
+**代码**: [GitHub](https://github.com/MV-RoboBench)  
+**领域**: 多模态评测/空间推理  
 **关键词**: 多视角空间推理, 机器人操作, VLM基准, 空间理解, 具身VQA
 
 ## 一句话总结

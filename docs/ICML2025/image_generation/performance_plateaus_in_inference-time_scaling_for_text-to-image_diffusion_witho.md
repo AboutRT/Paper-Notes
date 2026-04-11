@@ -1,10 +1,10 @@
 # Performance Plateaus in Inference-Time Scaling for Text-to-Image Diffusion Without External Models
 
-**会议**: ICML2025
-**arXiv**: [2506.12633](https://arxiv.org/abs/2506.12633)
+**会议**: ICML2025  
+**arXiv**: [2506.12633](https://arxiv.org/abs/2506.12633)  
 **作者**: Changhyun Choi, Sungha Kim, H. Jin Kim
-**代码**: [initno official](https://github.com/xiefan-guo/initno)
-**领域**: image_generation
+**代码**: [initno official](https://github.com/xiefan-guo/initno)  
+**领域**: image_generation  
 **关键词**: inference-time scaling, text-to-image diffusion, initial noise optimization, Best-of-N, performance plateau, attention maps
 
 ## 一句话总结

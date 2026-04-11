@@ -5,6 +5,7 @@
 **代码**: https://github.com/chaoyunwang/AADD  
 **领域**: 其他  
 **关键词**: document dewarping, geometric constraint, image rectification  
+
 ## 一句话总结
 
 提出利用平面文档固有的"轴对齐"几何性质，在训练、推理和评估三个阶段系统性地引入轴对齐约束，实现了SOTA文档矫正效果并提出新评估指标AAD。

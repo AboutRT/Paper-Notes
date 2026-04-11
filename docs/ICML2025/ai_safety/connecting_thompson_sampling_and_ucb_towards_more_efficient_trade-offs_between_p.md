@@ -1,9 +1,9 @@
 # Connecting Thompson Sampling and UCB: Towards More Efficient Trade-offs Between Privacy and Regret
 
-**会议**: ICML2025
-**arXiv**: [2505.02383](https://arxiv.org/abs/2505.02383)
-**代码**: 无
-**领域**: AI安全 / 差分隐私与在线学习
+**会议**: ICML2025  
+**arXiv**: [2505.02383](https://arxiv.org/abs/2505.02383)  
+**代码**: 无  
+**领域**: AI安全 / 差分隐私与在线学习  
 **关键词**: Thompson Sampling, UCB, 差分隐私, 高斯差分隐私(GDP), 随机多臂老虎机, 隐私-遗憾权衡, anti-concentration bounds
 
 ## 一句话总结

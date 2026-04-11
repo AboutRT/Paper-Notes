@@ -1,9 +1,9 @@
 # No Caption, No Problem: Caption-Free Membership Inference via Model-Fitted Embeddings
 
-**会议**: ICLR 2026
-**arXiv**: [2602.22689](https://arxiv.org/abs/2602.22689)
-**代码**: [GitHub](https://github.com/JoonsungJeon/MoFit)
-**领域**: AI 安全 / 隐私攻击
+**会议**: ICLR 2026  
+**arXiv**: [2602.22689](https://arxiv.org/abs/2602.22689)  
+**代码**: [GitHub](https://github.com/JoonsungJeon/MoFit)  
+**领域**: AI 安全 / 隐私攻击  
 **关键词**: 成员推断攻击, 扩散模型, 无标题设定, 模型拟合嵌入, 隐私审计
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Can Input Attributions Explain Inductive Reasoning in In-Context Learning?
 
-**会议**: ACL 2025
-**arXiv**: [2412.15628](https://arxiv.org/abs/2412.15628)
-**代码**: [GitHub](https://github.com/muyo8692/input-attribution-icl)
-**领域**: LLM / 可解释性
+**会议**: ACL 2025  
+**arXiv**: [2412.15628](https://arxiv.org/abs/2412.15628)  
+**代码**: [GitHub](https://github.com/muyo8692/input-attribution-icl)  
+**领域**: LLM / 可解释性  
 **关键词**: 输入归因, 上下文学习, 归纳推理, 梯度方法, aha example, LLM可解释性
 
 ## 一句话总结

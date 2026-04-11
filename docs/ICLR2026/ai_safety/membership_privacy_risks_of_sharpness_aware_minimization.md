@@ -1,9 +1,9 @@
 # FeatureBench: Benchmarking Agentic Coding for Complex Feature Development
 
-**会议**: ICLR 2026
-**arXiv**: [2602.10975](https://arxiv.org/abs/2602.10975)
-**代码**: [github.com/LiberCoders/FeatureBench](https://github.com/LiberCoders/FeatureBench)
-**领域**: AI安全 / 代码智能体评测
+**会议**: ICLR 2026  
+**arXiv**: [2602.10975](https://arxiv.org/abs/2602.10975)  
+**代码**: [github.com/LiberCoders/FeatureBench](https://github.com/LiberCoders/FeatureBench)  
+**领域**: AI安全 / 代码智能体评测  
 **关键词**: agentic coding, benchmark, feature development, test-driven, SWE-bench, code agent
 
 ## 一句话总结

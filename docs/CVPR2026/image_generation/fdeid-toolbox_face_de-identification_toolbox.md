@@ -1,10 +1,10 @@
 # FDeID-Toolbox: Face De-Identification Toolbox
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13121](https://arxiv.org/abs/2603.13121)
+**会议**: CVPR 2026  
+**arXiv**: [2603.13121](https://arxiv.org/abs/2603.13121)  
 **作者**: Hui Wei, Hao Yu, Guoying Zhao (University of Oulu)
-**代码**: [infraface/FDeID-Toolbox](https://github.com/infraface/FDeID-Toolbox)
-**领域**: image_generation
+**代码**: [infraface/FDeID-Toolbox](https://github.com/infraface/FDeID-Toolbox)  
+**领域**: image_generation  
 **关键词**: face de-identification, privacy preservation, toolbox, benchmark, evaluation protocol
 
 ## 一句话总结

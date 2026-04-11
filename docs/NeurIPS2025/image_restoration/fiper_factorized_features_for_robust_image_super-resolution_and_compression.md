@@ -1,9 +1,9 @@
 # FIPER: Factorized Features for Robust Image Super-Resolution and Compression
 
-**会议**: NeurIPS 2025
-**arXiv**: [2410.18083](https://arxiv.org/abs/2410.18083)
-**代码**: [项目主页](https://jayisaking.github.io/FIPER/)
-**领域**: 图像恢复 / 超分辨率与压缩
+**会议**: NeurIPS 2025  
+**arXiv**: [2410.18083](https://arxiv.org/abs/2410.18083)  
+**代码**: [项目主页](https://jayisaking.github.io/FIPER/)  
+**领域**: 图像恢复 / 超分辨率与压缩  
 **关键词**: 超分辨率, 图像压缩, 因子化特征, 基-系数分解, 坐标变换, 多频调制, 多帧压缩
 
 ## 一句话总结

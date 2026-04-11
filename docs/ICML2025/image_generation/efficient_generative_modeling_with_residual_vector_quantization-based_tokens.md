@@ -1,9 +1,9 @@
 # Efficient Generative Modeling with Residual Vector Quantization-Based Tokens
 
-**会议**: ICML2025
-**arXiv**: [2412.10208](https://arxiv.org/abs/2412.10208)
-**代码**: 待确认
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2412.10208](https://arxiv.org/abs/2412.10208)  
+**代码**: 待确认  
+**领域**: image_generation  
 **关键词**: ResGen, 残差向量量化, 掩码预测, 离散扩散, 高效生成
 
 ## 一句话总结

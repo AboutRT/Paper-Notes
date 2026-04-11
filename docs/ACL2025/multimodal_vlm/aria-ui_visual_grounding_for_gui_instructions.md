@@ -1,9 +1,9 @@
 # Aria-UI: Visual Grounding for GUI Instructions
 
-**会议**: ACL 2025
-**arXiv**: [2412.16256](https://arxiv.org/abs/2412.16256)
-**代码**: https://github.com/AriaUI/Aria-UI (有)
-**领域**: 多模态 / GUI Agent
+**会议**: ACL 2025  
+**arXiv**: [2412.16256](https://arxiv.org/abs/2412.16256)  
+**代码**: https://github.com/AriaUI/Aria-UI (有)  
+**领域**: 多模态 / GUI Agent  
 **关键词**: GUI Grounding, 视觉定位, 多模态大模型, GUI Agent, Action History
 
 ## 一句话总结

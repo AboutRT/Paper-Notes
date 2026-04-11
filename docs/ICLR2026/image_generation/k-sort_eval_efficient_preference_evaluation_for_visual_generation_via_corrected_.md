@@ -1,9 +1,9 @@
 # K-Sort Eval: Efficient Preference Evaluation for Visual Generation via Corrected VLM-as-a-Judge
 
-**会议**: ICLR 2026
-**arXiv**: [2602.09411](https://arxiv.org/abs/2602.09411)
-**代码**: [GitHub](https://github.com/zkkli/K-Sort-Eval)
-**领域**: 视觉生成评估
+**会议**: ICLR 2026  
+**arXiv**: [2602.09411](https://arxiv.org/abs/2602.09411)  
+**代码**: [GitHub](https://github.com/zkkli/K-Sort-Eval)  
+**领域**: 视觉生成评估  
 **关键词**: VLM-as-a-Judge, 偏好评估, 后验校正, 动态匹配, 视觉生成
 
 ## 一句话总结

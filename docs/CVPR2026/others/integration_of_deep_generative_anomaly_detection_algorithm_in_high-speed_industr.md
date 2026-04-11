@@ -1,9 +1,9 @@
 # Integration of Deep Generative Anomaly Detection Algorithm in High-Speed Industrial Line
 
-**会议**: CVPR 2026
-**arXiv**: [2603.07577](https://arxiv.org/abs/2603.07577)
-**代码**: 无
-**领域**: 其他
+**会议**: CVPR 2026  
+**arXiv**: [2603.07577](https://arxiv.org/abs/2603.07577)  
+**代码**: 无  
+**领域**: 其他  
 **关键词**: 异常检测, 工业视觉检测, 生成对抗网络, 残差自编码器, 在线部署
 
 ## 一句话总结

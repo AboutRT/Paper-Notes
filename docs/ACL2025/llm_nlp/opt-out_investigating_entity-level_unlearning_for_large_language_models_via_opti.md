@@ -1,9 +1,9 @@
 # Opt-Out: Investigating Entity-Level Unlearning for Large Language Models via Optimal Transport
 
-**会议**: ACL 2025
-**arXiv**: [2406.12329](https://arxiv.org/abs/2406.12329)
-**代码**: https://github.com/brightjade/Opt-Out
-**领域**: LLM/NLP
+**会议**: ACL 2025  
+**arXiv**: [2406.12329](https://arxiv.org/abs/2406.12329)  
+**代码**: https://github.com/brightjade/Opt-Out  
+**领域**: LLM/NLP  
 **关键词**: machine unlearning, entity-level, optimal transport, Wasserstein distance, privacy, GDPR
 
 ## 一句话总结

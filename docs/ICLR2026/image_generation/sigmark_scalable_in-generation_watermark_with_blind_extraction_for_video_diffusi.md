@@ -1,9 +1,9 @@
 # SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02882](https://arxiv.org/abs/2603.02882)
-**代码**: https://github.com/JeremyZhao1998/SIGMark-release
-**领域**: 视频水印 / AI安全
+**会议**: ICLR 2026  
+**arXiv**: [2603.02882](https://arxiv.org/abs/2603.02882)  
+**代码**: https://github.com/JeremyZhao1998/SIGMark-release  
+**领域**: 视频水印 / AI安全  
 **关键词**: 视频扩散模型, 水印, 盲提取, 伪随机编码, 因果3D VAE, 时序鲁棒性
 
 ## 一句话总结
@@ -110,10 +110,10 @@ SIGMark是**无训练方法**，直接在推理阶段嵌入水印。嵌入的噪
 - 价值: ⭐⭐⭐⭐⭐ 解决了视频水印的实际部署瓶颈，对AI安全有重要价值
 # SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02882](https://arxiv.org/abs/2603.02882)
-**代码**: https://github.com/JeremyZhao1998/SIGMark-release
-**领域**: 视频生成/水印
+**会议**: ICLR 2026  
+**arXiv**: [2603.02882](https://arxiv.org/abs/2603.02882)  
+**代码**: https://github.com/JeremyZhao1998/SIGMark-release  
+**领域**: 视频生成/水印  
 **关键词**: 视频扩散模型, 水印, 盲提取, 伪随机编码, 因果3D VAE, 可扩展性
 
 ## 一句话总结

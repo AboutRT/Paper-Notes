@@ -1,9 +1,9 @@
 # Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.01741](https://arxiv.org/abs/2603.01741)
-**代码**: [项目页面](https://naoki04.github.io/paper-cpo/)
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.01741](https://arxiv.org/abs/2603.01741)  
+**代码**: [项目页面](https://naoki04.github.io/paper-cpo/)  
+**领域**: 强化学习  
 **关键词**: 策略集成, 大规模并行RL, 策略多样性, KL约束, 灵巧操作
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # SocialEval: Evaluating Social Intelligence of Large Language Models
 
-**会议**: ACL 2025
-**arXiv**: [2506.00900](https://arxiv.org/abs/2506.00900)
-**代码**: https://github.com/thu-coai/SocialEval
-**领域**: LLM NLP / 社会智能评估
+**会议**: ACL 2025  
+**arXiv**: [2506.00900](https://arxiv.org/abs/2506.00900)  
+**代码**: https://github.com/thu-coai/SocialEval  
+**领域**: LLM NLP / 社会智能评估  
 **关键词**: Social Intelligence, Benchmark, World Tree, Interpersonal Ability, Goal Achievement
 
 ## 一句话总结

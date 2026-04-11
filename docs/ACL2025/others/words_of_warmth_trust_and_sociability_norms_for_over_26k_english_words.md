@@ -1,9 +1,9 @@
 # Words of Warmth: Trust and Sociability Norms for over 26k English Words
 
-**会议**: ACL 2025
-**arXiv**: [2506.03993](https://arxiv.org/abs/2506.03993)
-**代码**: 有 (http://saifmohammad.com/warmth.html)
-**领域**: NLP / 计算社会科学
+**会议**: ACL 2025  
+**arXiv**: [2506.03993](https://arxiv.org/abs/2506.03993)  
+**代码**: 有 (http://saifmohammad.com/warmth.html)  
+**领域**: NLP / 计算社会科学  
 **关键词**: 社会认知, 温暖-能力维度, 信任, 社会性, 词汇资源
 
 ## 一句话总结

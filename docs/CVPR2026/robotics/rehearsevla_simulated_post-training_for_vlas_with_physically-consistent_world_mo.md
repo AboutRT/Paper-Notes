@@ -1,9 +1,9 @@
 # World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training
 
-**会议**: CVPR2026
-**arXiv**: [2509.24948](https://arxiv.org/abs/2509.24948)
-**代码**: [github.com/amap-cvlab/world-env](https://github.com/amap-cvlab/world-env)
-**领域**: robotics
+**会议**: CVPR2026  
+**arXiv**: [2509.24948](https://arxiv.org/abs/2509.24948)  
+**代码**: [github.com/amap-cvlab/world-env](https://github.com/amap-cvlab/world-env)  
+**领域**: robotics  
 **关键词**: VLA, world model, reinforcement learning, post-training, robotic manipulation, few-shot
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Grounding and Enhancing Informativeness and Utility in Dataset Distillation
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21296](https://arxiv.org/abs/2601.21296)
-**代码**: 无
-**领域**: 数据集蒸馏
+**会议**: ICLR 2026  
+**arXiv**: [2601.21296](https://arxiv.org/abs/2601.21296)  
+**代码**: 无  
+**领域**: 数据集蒸馏  
 **关键词**: Dataset Distillation, Shapley Value, 梯度范数, 信息量, 效用
 
 ## 一句话总结

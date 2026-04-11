@@ -1,9 +1,9 @@
 # SPHINX: Structural Prediction using Hypergraph Inference Network
 
-**会议**: ICML2025
-**arXiv**: [2410.03208](https://arxiv.org/abs/2410.03208)
-**代码**: 待确认
-**领域**: autonomous_driving
+**会议**: ICML2025  
+**arXiv**: [2410.03208](https://arxiv.org/abs/2410.03208)  
+**代码**: 待确认  
+**领域**: autonomous_driving  
 **关键词**: 超图推断, 高阶关系, 结构学习, 可微采样, 轨迹预测
 
 ## 一句话总结

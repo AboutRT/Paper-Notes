@@ -1,9 +1,9 @@
 # WhAM: Towards A Translative Model of Sperm Whale Vocalization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.02206](https://arxiv.org/abs/2512.02206)
-**代码**: [GitHub](https://github.com/Project-CETI/wham)
-**领域**: 音频/语音 (生物声学)
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.02206](https://arxiv.org/abs/2512.02206)  
+**代码**: [GitHub](https://github.com/Project-CETI/wham)  
+**领域**: 音频/语音 (生物声学)  
 **关键词**: 抹香鲸声学, 生成式音频模型, 声学翻译, Masked Acoustic Token Model, 跨域风格迁移
 
 ## 一句话总结

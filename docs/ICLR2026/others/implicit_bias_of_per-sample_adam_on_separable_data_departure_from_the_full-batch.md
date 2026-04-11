@@ -1,9 +1,9 @@
 # Implicit Bias of Per-sample Adam on Separable Data: Departure from the Full-batch Regime
 
-**会议**: ICLR 2026
-**arXiv**: [2510.26303](https://arxiv.org/abs/2510.26303)
-**代码**: 无
-**领域**: 优化理论
+**会议**: ICLR 2026  
+**arXiv**: [2510.26303](https://arxiv.org/abs/2510.26303)  
+**代码**: 无  
+**领域**: 优化理论  
 **关键词**: Adam, 隐式偏差, 最大间隔, Mini-batch, Mahalanobis范数
 
 ## 一句话总结

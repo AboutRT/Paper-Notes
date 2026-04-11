@@ -1,9 +1,9 @@
 # ExtrinSplat: Decoupling Geometry and Semantics for Open-Vocabulary Understanding in 3D Gaussian Splatting
 
-**会议**: CVPR 2026
-**arXiv**: [2509.22225](https://arxiv.org/abs/2509.22225)
-**代码**: 无
-**领域**: 3D Vision / 开放词汇3D场景理解
+**会议**: CVPR 2026  
+**arXiv**: [2509.22225](https://arxiv.org/abs/2509.22225)  
+**代码**: 无  
+**领域**: 3D Vision / 开放词汇3D场景理解  
 **关键词**: 3D Gaussian Splatting, 开放词汇理解, 语义解耦, VLM, 文本假设
 
 ## 一句话总结

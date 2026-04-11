@@ -1,9 +1,9 @@
 # You Share Beliefs, I Adapt: Progressive Heterogeneous Collaborative Perception
 
-**会议**: ICCV2025
-**arXiv**: [2509.09310](https://arxiv.org/abs/2509.09310)
-**代码**: [GitHub](https://github.com/sihaoo1/PHCP)
-**领域**: 自动驾驶/协同感知
+**会议**: ICCV2025  
+**arXiv**: [2509.09310](https://arxiv.org/abs/2509.09310)  
+**代码**: [GitHub](https://github.com/sihaoo1/PHCP)  
+**领域**: 自动驾驶/协同感知  
 **关键词**: 异构协同感知, 少样本域适应, 自训练, 伪标签, 推理阶段适配
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # StreamReady: Learning What to Answer and When in Long Streaming Videos
 
-**会议**: CVPR 2026
-**arXiv**: [2603.08620](https://arxiv.org/abs/2603.08620)
-**代码**: [项目页面](https://sacrcv.github.io/StreamReady-website/)
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.08620](https://arxiv.org/abs/2603.08620)  
+**代码**: [项目页面](https://sacrcv.github.io/StreamReady-website/)  
+**领域**: 视频理解  
 **关键词**: 流式视频理解, 回答就绪性, 时序推理, 多模态大语言模型, 主动式问答
 
 ## 一句话总结

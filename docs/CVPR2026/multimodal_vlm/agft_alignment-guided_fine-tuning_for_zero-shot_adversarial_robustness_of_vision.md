@@ -1,9 +1,9 @@
 # AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.29410](https://arxiv.org/abs/2603.29410)
-**代码**: [GitHub](https://github.com/YuboCui/AGFT) (有)
-**领域**: Multimodal VLM / Adversarial Robustness
+**会议**: CVPR 2026  
+**arXiv**: [2603.29410](https://arxiv.org/abs/2603.29410)  
+**代码**: [GitHub](https://github.com/YuboCui/AGFT) (有)  
+**领域**: Multimodal VLM / Adversarial Robustness  
 **关键词**: 对抗鲁棒性, 视觉语言模型, 零样本泛化, 对齐引导, 分布一致性校准
 
 ## 一句话总结
@@ -19,6 +19,7 @@ AGFT 提出了一种对齐引导的微调框架，通过文本引导的对抗训
 5. **核心 idea**：用软对齐分布替代硬标签 + 温度校准消除置信度尺度失配 = 保持跨模态结构的对抗训练。
 
 ## 方法详解
+
 ### 整体框架
 输入：ImageNet 训练集 → PGD 生成对抗样本 $\mathbf{x}_{adv}$ → 冻结预训练 CLIP 计算软预测分布 $\mathbf{p}_{rob}$（温度校准后）→ 微调图像编码器使对抗样本的预测匹配 $\mathbf{p}_{rob}$ → 在 15 个零样本数据集上评估。
 
@@ -49,6 +50,7 @@ AGFT 提出了一种对齐引导的微调框架，通过文本引导的对抗训
 - 超参数 $\gamma = 0.4$, $\tau = 1/180$
 
 ## 实验关键数据
+
 ### 主实验（PGD-20, $\epsilon=1/255$ 零样本鲁棒准确率）
 | 方法 | Caltech101 | CIFAR10 | Food101 | ImageNet | STL10 | 15数据集平均 |
 |------|-----------|---------|---------|----------|-------|------------|

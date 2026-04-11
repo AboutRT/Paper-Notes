@@ -1,9 +1,9 @@
 # LR-SGS: Robust LiDAR-Reflectance-Guided Salient Gaussian Splatting for Self-Driving Scene Reconstruction
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12647](https://arxiv.org/abs/2603.12647)
-**代码**: 待确认
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.12647](https://arxiv.org/abs/2603.12647)  
+**代码**: 待确认  
+**领域**: 自动驾驶  
 **关键词**: 3D Gaussian Splatting, LiDAR反射率, 自动驾驶场景重建, 新视角合成, 多模态融合
 
 ## 一句话总结

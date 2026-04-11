@@ -1,9 +1,9 @@
 # TeRA: Rethinking Text-guided Realistic 3D Avatar Generation
 
-**会议**: ICCV 2025
-**arXiv**: [2509.02466](https://arxiv.org/abs/2509.02466)
-**代码**: [有](https://yanwen-w.github.io/TeRA-Page/)
-**领域**: Image Generation / 3D Avatar Generation
+**会议**: ICCV 2025  
+**arXiv**: [2509.02466](https://arxiv.org/abs/2509.02466)  
+**代码**: [有](https://yanwen-w.github.io/TeRA-Page/)  
+**领域**: Image Generation / 3D Avatar Generation  
 **关键词**: 3D Avatar, Latent Diffusion, Text-to-3D, SMPL-X, UV Gaussian
 
 ## 一句话总结

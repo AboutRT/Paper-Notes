@@ -1,9 +1,9 @@
 # Privacy Amplification Through Synthetic Data: Insights from Linear Regression
 
-**会议**: ICML 2025
-**arXiv**: [2506.05101](https://arxiv.org/abs/2506.05101)
-**代码**: 无
-**领域**: 差分隐私 / 合成数据
+**会议**: ICML 2025  
+**arXiv**: [2506.05101](https://arxiv.org/abs/2506.05101)  
+**代码**: 无  
+**领域**: 差分隐私 / 合成数据  
 **关键词**: 差分隐私, 隐私放大, 合成数据, 线性回归, f-DP, Rényi散度
 
 ## 一句话总结

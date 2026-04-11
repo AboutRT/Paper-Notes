@@ -1,9 +1,9 @@
 # Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs
 
-**会议**: ICML 2025
-**arXiv**: [2505.23996](https://arxiv.org/abs/2505.23996)
-**代码**: [github.com/apple/ml-synthbias](https://github.com/apple/ml-synthbias)
-**领域**: AI安全 / 公平性
+**会议**: ICML 2025  
+**arXiv**: [2505.23996](https://arxiv.org/abs/2505.23996)  
+**代码**: [github.com/apple/ml-synthbias](https://github.com/apple/ml-synthbias)  
+**领域**: AI安全 / 公平性  
 **关键词**: fairness, uncertainty, LLM bias, gender-occupation bias, co-reference resolution
 
 ## 一句话总结

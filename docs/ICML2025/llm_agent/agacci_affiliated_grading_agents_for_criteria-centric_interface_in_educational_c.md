@@ -1,9 +1,9 @@
 # AGACCI: Affiliated Grading Agents for Criteria-Centric Interface in Educational Coding Contexts
 
-**会议**: ICML 2025 (Workshop on Multi-Agent Systems)
-**arXiv**: [2507.05321](https://arxiv.org/abs/2507.05321)
-**代码**: 无
-**领域**: LLM Agent
+**会议**: ICML 2025 (Workshop on Multi-Agent Systems)  
+**arXiv**: [2507.05321](https://arxiv.org/abs/2507.05321)  
+**代码**: 无  
+**领域**: LLM Agent  
 **关键词**: 多Agent系统, 教育评估, 代码评估, rubric对齐, 自动反馈
 
 ## 一句话总结

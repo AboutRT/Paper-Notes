@@ -1,9 +1,9 @@
 # LipNeXt: Scaling up Lipschitz-based Certified Robustness to Billion-parameter Models
 
-**会议**: ICLR 2026
-**arXiv**: [2601.18513](https://arxiv.org/abs/2601.18513)
-**代码**: 无
-**领域**: 其他 / 对抗鲁棒性
+**会议**: ICLR 2026  
+**arXiv**: [2601.18513](https://arxiv.org/abs/2601.18513)  
+**代码**: 无  
+**领域**: 其他 / 对抗鲁棒性  
 **关键词**: Lipschitz约束, 认证鲁棒性, 正交矩阵, 流形优化, 空间位移模块
 
 ## 一句话总结

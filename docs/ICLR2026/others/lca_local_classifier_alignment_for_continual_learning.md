@@ -1,9 +1,9 @@
 # LCA: Local Classifier Alignment for Continual Learning
 
-**会议**: ICLR 2026
-**arXiv**: [2603.09888](https://arxiv.org/abs/2603.09888)
-**代码**: [GitHub](https://github.com/tung-tran-kyushu/LCA)
-**领域**: 持续学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.09888](https://arxiv.org/abs/2603.09888)  
+**代码**: [GitHub](https://github.com/tung-tran-kyushu/LCA)  
+**领域**: 持续学习  
 **关键词**: 类增量学习, 分类器对齐, 模型合并, 鲁棒性, 预训练模型
 
 ## 一句话总结

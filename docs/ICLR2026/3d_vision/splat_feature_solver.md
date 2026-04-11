@@ -1,11 +1,11 @@
 # Splat Feature Solver
 
-**会议**: ICLR 2026
+**会议**: ICLR 2026  
 **arXiv**: [2508.12216](https://arxiv.org/abs/2508.12216)
 
 **代码**: [GitHub](https://github.com/splat-feature-solver)
 
-**领域**: 3D视觉/语义提升
+**领域**: 3D视觉/语义提升  
 **关键词**: 特征提升, 线性逆问题, 3DGS, 开放词汇3D分割, Tikhonov正则
 
 ## 一句话总结

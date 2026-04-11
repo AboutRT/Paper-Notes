@@ -1,9 +1,9 @@
 # Latent Variable Estimation in Bayesian Black-Litterman Models
 
-**会议**: ICML2025
-**arXiv**: [2505.02185](https://arxiv.org/abs/2505.02185)
-**代码**: 未公开
-**领域**: 其他/贝叶斯、金融组合优化
+**会议**: ICML2025  
+**arXiv**: [2505.02185](https://arxiv.org/abs/2505.02185)  
+**代码**: 未公开  
+**领域**: 其他/贝叶斯、金融组合优化  
 **关键词**: Black-Litterman 模型, 组合优化, 贝叶斯网络, 隐变量模型, 不确定性量化
 
 ## 一句话总结

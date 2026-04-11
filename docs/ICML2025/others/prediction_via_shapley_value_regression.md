@@ -1,9 +1,9 @@
 # Prediction via Shapley Value Regression (ViaSHAP)
 
-**会议**: ICML2025
-**arXiv**: [2505.04775](https://arxiv.org/abs/2505.04775)
-**代码**: [GitHub](https://github.com/amrmalkhatib/ViaSHAP)
-**领域**: 可解释预测 / Explainable ML
+**会议**: ICML2025  
+**arXiv**: [2505.04775](https://arxiv.org/abs/2505.04775)  
+**代码**: [GitHub](https://github.com/amrmalkhatib/ViaSHAP)  
+**领域**: 可解释预测 / Explainable ML  
 **关键词**: Shapley值, 可解释性, KAN, 特征归因, 表格数据, 自解释模型
 
 ## 一句话总结

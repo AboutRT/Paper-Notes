@@ -1,9 +1,9 @@
 # Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization in LLMs
 
-**会议**: ACL 2025
-**arXiv**: [2505.22630](https://arxiv.org/abs/2505.22630)
-**代码**: [GitHub](https://github.com/ziling-cheng/Irrelevant-Context-Hallucination)
-**领域**: LLM理论 / 幻觉 / 可解释性
+**会议**: ACL 2025  
+**arXiv**: [2505.22630](https://arxiv.org/abs/2505.22630)  
+**代码**: [GitHub](https://github.com/ziling-cheng/Irrelevant-Context-Hallucination)  
+**领域**: LLM理论 / 幻觉 / 可解释性  
 **关键词**: hallucination, irrelevant context, class-based generalization, mechanistic interpretability, competing circuits
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation
 
-**会议**: CVPR2026
-**arXiv**: [2603.03617](https://arxiv.org/abs/2603.03617)
-**代码**: [IdolLab/RAGTrack](https://github.com/IdolLab/RAGTrack)
-**领域**: 视频理解 / RGBT跟踪
+**会议**: CVPR2026  
+**arXiv**: [2603.03617](https://arxiv.org/abs/2603.03617)  
+**代码**: [IdolLab/RAGTrack](https://github.com/IdolLab/RAGTrack)  
+**领域**: 视频理解 / RGBT跟踪  
 **关键词**: RGBT跟踪, 检索增强生成, 多模态融合, 语言引导跟踪, 自适应Token融合
 
 ## 一句话总结

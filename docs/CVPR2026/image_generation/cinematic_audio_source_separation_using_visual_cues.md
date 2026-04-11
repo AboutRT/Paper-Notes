@@ -1,9 +1,9 @@
 # Cinematic Audio Source Separation Using Visual Cues
 
-**会议**: CVPR 2026
-**arXiv**: [2603.26113](https://arxiv.org/abs/2603.26113)
-**代码**: [项目页](https://cass-flowmatching.github.io) (有)
-**领域**: Image Generation (音视频多模态)
+**会议**: CVPR 2026  
+**arXiv**: [2603.26113](https://arxiv.org/abs/2603.26113)  
+**代码**: [项目页](https://cass-flowmatching.github.io) (有)  
+**领域**: Image Generation (音视频多模态)  
 **关键词**: 影视音频源分离, 音视频学习, 条件流匹配, 合成训练数据, 多源分离
 
 ## 一句话总结

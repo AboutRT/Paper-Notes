@@ -1,9 +1,9 @@
 # Generalization of Diffusion Models Arises with a Balanced Representation Space
 
-**会议**: ICLR 2026
-**arXiv**: [2512.20963](https://arxiv.org/abs/2512.20963)
-**代码**: 无
-**领域**: 扩散模型/理论分析
+**会议**: ICLR 2026  
+**arXiv**: [2512.20963](https://arxiv.org/abs/2512.20963)  
+**代码**: 无  
+**领域**: 扩散模型/理论分析  
 **关键词**: 泛化vs记忆, 表示空间, ReLU DAE, 尖刺激活, 平衡表示
 
 ## 一句话总结

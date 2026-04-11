@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation
 
-**会议**: CVPR2026
-**arXiv**: [2511.22235](https://arxiv.org/abs/2511.22235)
-**代码**: [hehehahi4/CES](https://github.com/hehehahi4/CES)
-**领域**: 人体理解 / GUI Agent
+**会议**: CVPR2026  
+**arXiv**: [2511.22235](https://arxiv.org/abs/2511.22235)  
+**代码**: [hehehahi4/CES](https://github.com/hehehahi4/CES)  
+**领域**: 人体理解 / GUI Agent  
 **关键词**: GUI自动化, 长时序任务, 多智能体框架, 强化学习, 状态追踪, 任务调度
 
 ## 一句话总结

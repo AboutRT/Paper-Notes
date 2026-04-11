@@ -1,9 +1,9 @@
 # Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.16101](https://arxiv.org/abs/2502.16101)
-**代码**: [HuggingFace Dataset](https://huggingface.co/datasets/UCSC-IRKM/RAGuard)
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.16101](https://arxiv.org/abs/2502.16101)  
+**代码**: [HuggingFace Dataset](https://huggingface.co/datasets/UCSC-IRKM/RAGuard)  
+**领域**: llm_nlp  
 **关键词**: RAG robustness, fact-checking, misleading retrieval, benchmark, misinformation
 
 ## 一句话总结

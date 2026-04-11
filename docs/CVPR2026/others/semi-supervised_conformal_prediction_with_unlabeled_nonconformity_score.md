@@ -1,9 +1,9 @@
 # Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score
 
-**会议**: CVPR 2026
-**arXiv**: [2505.21147](https://arxiv.org/abs/2505.21147)
-**代码**: 有（TorchCP 库集成）
-**领域**: 其他（统计学习）
+**会议**: CVPR 2026  
+**arXiv**: [2505.21147](https://arxiv.org/abs/2505.21147)  
+**代码**: 有（TorchCP 库集成）  
+**领域**: 其他（统计学习）  
 **关键词**: conformal prediction, 半监督学习, 不确定性量化, 预测集, 最近邻匹配
 
 ## 一句话总结

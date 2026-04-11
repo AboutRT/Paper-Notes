@@ -1,9 +1,9 @@
 # Stereo Any Video: Temporally Consistent Stereo Matching
 
-**会议**: ICCV2025
-**arXiv**: [2503.05549](https://arxiv.org/abs/2503.05549)
-**代码**: [项目页面](https://tomtomtommi.github.io/StereoAnyVideo/)
-**领域**: 3D视觉/立体匹配
+**会议**: ICCV2025  
+**arXiv**: [2503.05549](https://arxiv.org/abs/2503.05549)  
+**代码**: [项目页面](https://tomtomtommi.github.io/StereoAnyVideo/)  
+**领域**: 3D视觉/立体匹配  
 **关键词**: 视频立体匹配, 时序一致性, 单目深度先验, 代价体, 视差估计
 
 ## 一句话总结

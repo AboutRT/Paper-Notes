@@ -1,9 +1,9 @@
 # MSQ: Memory-Efficient Bit Sparsification Quantization
 
-**会议**: ICCV 2025
-**arXiv**: [2507.22349](https://arxiv.org/abs/2507.22349)
+**会议**: ICCV 2025  
+**arXiv**: [2507.22349](https://arxiv.org/abs/2507.22349)  
 **机构**: Sungkyunkwan University, University of Arizona
-**领域**: 模型压缩 / 量化 / 混合精度量化
+**领域**: 模型压缩 / 量化 / 混合精度量化  
 **关键词**: mixed-precision quantization, bit-level sparsity, quantization-aware training, memory-efficient, Hessian, model compression
 
 ## 一句话总结

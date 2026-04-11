@@ -1,9 +1,9 @@
 # No Soundness in the Real World: On the Challenges of the Verification of Deployed Neural Networks
 
-**会议**: ICML 2025
-**arXiv**: [2506.01054](https://arxiv.org/abs/2506.01054)
-**代码**: https://github.com/szasza1/no_soundness
-**领域**: LLM推理/AI安全验证
+**会议**: ICML 2025  
+**arXiv**: [2506.01054](https://arxiv.org/abs/2506.01054)  
+**代码**: https://github.com/szasza1/no_soundness  
+**领域**: LLM推理/AI安全验证  
 **关键词**: 神经网络验证, 浮点运算, soundness, 部署环境, 对抗性后门, 区间分析
 
 ## 一句话总结

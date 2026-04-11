@@ -1,9 +1,9 @@
 # Learning Latent Proxies for Controllable Single-Image Relighting
 
-**会议**: CVPR 2026
-**arXiv**: [2603.15555](https://arxiv.org/abs/2603.15555)
-**代码**: 无
-**领域**: 图像重光照 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2603.15555](https://arxiv.org/abs/2603.15555)  
+**代码**: 无  
+**领域**: 图像重光照 / 扩散模型  
 **关键词**: 单图重光照, PBR 先验, 潜在代理编码器, DPO 后训练, 光照感知掩码
 
 ## 一句话总结

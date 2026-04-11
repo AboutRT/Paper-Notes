@@ -1,9 +1,9 @@
 # Seek-CAD: A Self-Refined Generative Modeling for 3D Parametric CAD Using Local Inference via DeepSeek
 
-**会议**: ICLR 2026
-**arXiv**: [2505.17702](https://arxiv.org/abs/2505.17702)
-**代码**: [https://github.com/Sunny-Hack/Seek-CAD](https://github.com/Sunny-Hack/Seek-CAD)
-**领域**: CAD 生成 / LLM 推理
+**会议**: ICLR 2026  
+**arXiv**: [2505.17702](https://arxiv.org/abs/2505.17702)  
+**代码**: [https://github.com/Sunny-Hack/Seek-CAD](https://github.com/Sunny-Hack/Seek-CAD)  
+**领域**: CAD 生成 / LLM 推理  
 **关键词**: CAD 参数化建模, DeepSeek-R1, 无训练, Chain-of-Thought, 自我精炼, SSR 设计范式
 
 ## 一句话总结

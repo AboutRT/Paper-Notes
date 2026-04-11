@@ -1,9 +1,9 @@
 # Communicating Activations Between Language Model Agents
 
-**会议**: ICML 2025
-**arXiv**: [2501.14082](https://arxiv.org/abs/2501.14082)
-**代码**: 无
-**领域**: LLM/NLP
+**会议**: ICML 2025  
+**arXiv**: [2501.14082](https://arxiv.org/abs/2501.14082)  
+**代码**: 无  
+**领域**: LLM/NLP  
 **关键词**: 多智能体通信, 激活空间, 模型嫁接, LLM推理, 计算效率
 
 ## 一句话总结

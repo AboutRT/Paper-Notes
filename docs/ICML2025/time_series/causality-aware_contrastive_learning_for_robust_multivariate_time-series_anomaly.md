@@ -1,9 +1,9 @@
 # Causality-Aware Contrastive Learning for Robust Multivariate Time-Series Anomaly Detection
 
-**会议**: ICML 2025
-**arXiv**: [2506.03964](https://arxiv.org/abs/2506.03964)
-**代码**: https://github.com/kimanki/CAROTS
-**领域**: 时间序列
+**会议**: ICML 2025  
+**arXiv**: [2506.03964](https://arxiv.org/abs/2506.03964)  
+**代码**: https://github.com/kimanki/CAROTS  
+**领域**: 时间序列  
 **关键词**: 多变量异常检测, 因果关系, 对比学习, 数据增强, 因果发现
 
 ## 一句话总结

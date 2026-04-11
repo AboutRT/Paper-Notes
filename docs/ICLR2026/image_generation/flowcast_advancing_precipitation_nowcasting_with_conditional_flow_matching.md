@@ -1,9 +1,9 @@
 # FlowCast: Advancing Precipitation Nowcasting with Conditional Flow Matching
 
-**会议**: ICLR 2026
-**arXiv**: [2511.09731](https://arxiv.org/abs/2511.09731)
-**代码**: [GitHub](https://github.com/b-rbmp/FlowCast)
-**领域**: 扩散模型/气象预测
+**会议**: ICLR 2026  
+**arXiv**: [2511.09731](https://arxiv.org/abs/2511.09731)  
+**代码**: [GitHub](https://github.com/b-rbmp/FlowCast)  
+**领域**: 扩散模型/气象预测  
 **关键词**: Conditional Flow Matching, 降水临近预报, 概率预测, 潜空间生成, 时空预测
 
 ## 一句话总结

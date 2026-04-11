@@ -1,9 +1,9 @@
 # Cue3D: Quantifying the Role of Image Cues in Single-Image 3D Generation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.22121](https://arxiv.org/abs/2511.22121)
-**代码**: [Project](https://ryanxli.github.io/cue3d)
-**领域**: 3D视觉
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.22121](https://arxiv.org/abs/2511.22121)  
+**代码**: [Project](https://ryanxli.github.io/cue3d)  
+**领域**: 3D视觉  
 **关键词**: single-image 3D, monocular cues, interpretability, shading, texture, benchmark
 
 ## 一句话总结

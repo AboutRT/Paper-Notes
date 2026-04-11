@@ -18,6 +18,7 @@
 6. 高风险场景(医疗/法律)需要严格的逻辑一致性保证
 
 ## 方法详解
+
 ### 整体框架
 LogicReward = Rollout生成 → Autoformalization with Soft Unification → 步骤级奖励计算 → Refinement迭代 → 训练数据构建
 

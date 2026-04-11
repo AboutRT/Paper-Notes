@@ -1,9 +1,9 @@
 # LORE: Jointly Learning the Intrinsic Dimensionality and Relative Similarity Structure from Ordinal Data
 
-**会议**: ICLR 2026
-**arXiv**: [2602.04192](https://arxiv.org/abs/2602.04192)
-**代码**: [GitHub](https://github.com/vivek2000anand/lore_iclr)
-**领域**: 表示学习/感知建模
+**会议**: ICLR 2026  
+**arXiv**: [2602.04192](https://arxiv.org/abs/2602.04192)  
+**代码**: [GitHub](https://github.com/vivek2000anand/lore_iclr)  
+**领域**: 表示学习/感知建模  
 **关键词**: 序数嵌入, 内在维度恢复, Schatten-p拟范数, 三元组比较, 感知空间, 低秩正则化
 
 ## 一句话总结

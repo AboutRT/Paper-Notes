@@ -1,9 +1,9 @@
 # STAR: Learning Diverse Robot Skill Abstractions through Rotation-Augmented Vector Quantization
 
-**会议**: ICML 2025
-**arXiv**: [2506.03863](https://arxiv.org/abs/2506.03863)
-**代码**: [有](https://STAR.github.io)
-**领域**: 机器人
+**会议**: ICML 2025  
+**arXiv**: [2506.03863](https://arxiv.org/abs/2506.03863)  
+**代码**: [有](https://STAR.github.io)  
+**领域**: 机器人  
 **关键词**: 技能抽象, 向量量化, codebook坍塌, 残差量化, 模仿学习
 
 ## 一句话总结
@@ -123,9 +123,9 @@ MetaWorld MT50: STAR达92.7%，超越所有基线2.1%-5.4%。
 - 写作质量: ⭐⭐⭐⭐ 动机清晰，技术阐述严谨，图表直观
 - 价值: ⭐⭐⭐⭐ 93.6%的LIBERO成绩是实质性进步，解决了实际瓶颈问题: Learning Diverse Robot Skill Abstractions through Rotation-Augmented Vector Quantization
 
-**会议**: ICML 2025
-**arXiv**: [2506.03863](https://arxiv.org/abs/2506.03863)
-**代码**: https://STAR.github.io (有)
-**领域**: 机器人
+**会议**: ICML 2025  
+**arXiv**: [2506.03863](https://arxiv.org/abs/2506.03863)  
+**代码**: https://STAR.github.io (有)  
+**领域**: 机器人  
 **关键词**: 技能抽象, 向量量化, codebook collapse, 自回归技能合成, 机器人操作
 

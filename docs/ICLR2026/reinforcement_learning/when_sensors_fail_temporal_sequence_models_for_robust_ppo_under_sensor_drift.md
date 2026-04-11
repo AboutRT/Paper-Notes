@@ -1,9 +1,9 @@
 # When Sensors Fail: Temporal Sequence Models for Robust PPO under Sensor Drift
 
-**会议**: ICLR 2026
-**arXiv**: [2603.04648](https://arxiv.org/abs/2603.04648)
-**代码**: 无
-**领域**: 强化学习
+**会议**: ICLR 2026  
+**arXiv**: [2603.04648](https://arxiv.org/abs/2603.04648)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 传感器故障, 部分可观测性, 鲁棒性, Transformer, 状态空间模型, PPO, 序列建模
 
 ## 一句话总结

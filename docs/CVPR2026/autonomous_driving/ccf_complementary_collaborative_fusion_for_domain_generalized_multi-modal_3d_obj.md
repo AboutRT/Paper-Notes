@@ -1,9 +1,9 @@
 # CCF: Complementary Collaborative Fusion for Domain Generalized Multi-Modal 3D Object Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.23276](https://arxiv.org/abs/2603.23276)
-**代码**: [GitHub](https://github.com/IMPL-Lab/CCF.git) (有)
-**领域**: Autonomous Driving
+**会议**: CVPR 2026  
+**arXiv**: [2603.23276](https://arxiv.org/abs/2603.23276)  
+**代码**: [GitHub](https://github.com/IMPL-Lab/CCF.git) (有)  
+**领域**: Autonomous Driving  
 **关键词**: 多模态3D检测, 域泛化, 模态不平衡, LiDAR-Camera融合, 跨域鲁棒性
 
 ## 一句话总结

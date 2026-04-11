@@ -1,9 +1,9 @@
 # Conditional Factuality Controlled LLMs with Generalization Certificates via Conformal Sampling
 
-**会议**: CVPR 2026
-**arXiv**: [2603.27403](https://arxiv.org/abs/2603.27403)
-**代码**: 有
-**领域**: 多模态VLM / LLM 可靠性
+**会议**: CVPR 2026  
+**arXiv**: [2603.27403](https://arxiv.org/abs/2603.27403)  
+**代码**: 有  
+**领域**: 多模态VLM / LLM 可靠性  
 **关键词**: 条件保形预测, 幻觉控制, 推理时采样, PAC证书, 集值输出
 
 ## 一句话总结

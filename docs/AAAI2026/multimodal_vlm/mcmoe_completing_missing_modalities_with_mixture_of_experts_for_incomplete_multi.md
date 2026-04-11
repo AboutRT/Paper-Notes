@@ -1,9 +1,9 @@
 # MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment
 
-**会议**: AAAI 2026
-**arXiv**: [2511.17397](https://arxiv.org/abs/2511.17397)
-**代码**: [https://github.com/XuHuangbiao/MCMoE](https://github.com/XuHuangbiao/MCMoE)
-**领域**: 多模态VLM
+**会议**: AAAI 2026  
+**arXiv**: [2511.17397](https://arxiv.org/abs/2511.17397)  
+**代码**: [https://github.com/XuHuangbiao/MCMoE](https://github.com/XuHuangbiao/MCMoE)  
+**领域**: 多模态VLM  
 **关键词**: 不完整多模态学习, 动作质量评估, 混合专家, 模态补全, 跨模态融合
 
 ## 一句话总结

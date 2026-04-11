@@ -1,9 +1,9 @@
 # Importance Sampling for Nonlinear Models
 
-**会议**: ICML2025
-**arXiv**: [2505.12353](https://arxiv.org/abs/2505.12353)
-**代码**: 未开源
-**领域**: 重要性采样 / 非线性模型 / 随机数值线性代数
+**会议**: ICML2025  
+**arXiv**: [2505.12353](https://arxiv.org/abs/2505.12353)  
+**代码**: 未开源  
+**领域**: 重要性采样 / 非线性模型 / 随机数值线性代数  
 **关键词**: importance sampling, nonlinear adjoint, leverage scores, active learning, subspace embedding
 
 ## 一句话总结

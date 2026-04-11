@@ -1,9 +1,9 @@
 # Bayesian Inference for Correlated Human Experts and Classifiers
 
-**会议**: ICML 2025
-**arXiv**: [2506.05636](https://arxiv.org/abs/2506.05636)
-**代码**: https://github.com/markellekelly/consensus
-**领域**: 医学图像
+**会议**: ICML 2025  
+**arXiv**: [2506.05636](https://arxiv.org/abs/2506.05636)  
+**代码**: https://github.com/markellekelly/consensus  
+**领域**: 医学图像  
 **关键词**: 人机协作, 贝叶斯推断, 专家查询, 相关性建模, 主动查询
 
 ## 一句话总结

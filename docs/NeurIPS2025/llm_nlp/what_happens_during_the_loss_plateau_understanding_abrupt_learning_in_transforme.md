@@ -1,9 +1,9 @@
 # What Happens During the Loss Plateau? Understanding Abrupt Learning in Transformers
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.13688](https://arxiv.org/abs/2506.13688)
-**代码**: [github.com/pulkitgopalani/tf-loss-plateau](https://github.com/pulkitgopalani/tf-loss-plateau)
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.13688](https://arxiv.org/abs/2506.13688)  
+**代码**: [github.com/pulkitgopalani/tf-loss-plateau](https://github.com/pulkitgopalani/tf-loss-plateau)  
+**领域**: llm_nlp  
 **关键词**: abrupt learning, loss plateau, Transformer training dynamics, representation collapse, repetition bias, attention map
 
 ## 一句话总结

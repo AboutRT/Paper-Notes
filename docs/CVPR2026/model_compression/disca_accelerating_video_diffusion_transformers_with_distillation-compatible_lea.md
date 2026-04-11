@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # DisCa: Accelerating Video Diffusion Transformers with Distillation-Compatible Learnable Feature Caching
 
-**会议**: CVPR2026
-**arXiv**: [2602.05449](https://arxiv.org/abs/2602.05449)
-**代码**: 即将开源
-**领域**: 图像生成 / 视频生成加速
+**会议**: CVPR2026  
+**arXiv**: [2602.05449](https://arxiv.org/abs/2602.05449)  
+**代码**: 即将开源  
+**领域**: 图像生成 / 视频生成加速  
 **关键词**: 视频扩散模型加速, 特征缓存, 步骤蒸馏, MeanFlow, 可学习预测器, GAN训练
 
 ## 一句话总结

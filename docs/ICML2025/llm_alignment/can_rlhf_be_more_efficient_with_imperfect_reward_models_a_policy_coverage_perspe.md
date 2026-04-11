@@ -1,9 +1,9 @@
 # Can RLHF be More Efficient with Imperfect Reward Models? A Policy Coverage Perspective
 
-**会议**: ICML 2025
-**arXiv**: [2502.19255](https://arxiv.org/abs/2502.19255)
-**代码**: https://github.com/jiaweihhuang/RLHF_RewardTransfer
-**领域**: 对齐RLHF
+**会议**: ICML 2025  
+**arXiv**: [2502.19255](https://arxiv.org/abs/2502.19255)  
+**代码**: https://github.com/jiaweihhuang/RLHF_RewardTransfer  
+**领域**: 对齐RLHF  
 **关键词**: transfer learning, KL regularization, policy coverage, online RLHF, sample efficiency, DPO, IPO, XPO, win rate
 
 ## 一句话总结

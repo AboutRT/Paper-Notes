@@ -1,9 +1,9 @@
 # A Modular Dataset to Demonstrate LLM Abstraction Capability
 
-**会议**: ACL 2025
-**arXiv**: [2503.17645](https://arxiv.org/abs/2503.17645)
-**代码**: 无
-**领域**: LLM可解释性 / 推理机制
+**会议**: ACL 2025  
+**arXiv**: [2503.17645](https://arxiv.org/abs/2503.17645)  
+**代码**: 无  
+**领域**: LLM可解释性 / 推理机制  
 **关键词**: LLM推理, 内部表征, 激活分类器, Transformer中间层, 抽象推理
 
 ## 一句话总结

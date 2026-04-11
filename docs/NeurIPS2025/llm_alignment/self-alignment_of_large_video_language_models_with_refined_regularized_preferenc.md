@@ -1,9 +1,9 @@
 # Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.12083](https://arxiv.org/abs/2504.12083)
-**代码**: [GitHub](https://pritamsarkar.com/RRPO)
-**领域**: llm_alignment
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.12083](https://arxiv.org/abs/2504.12083)  
+**代码**: [GitHub](https://pritamsarkar.com/RRPO)  
+**领域**: llm_alignment  
 **关键词**: video LLM, preference optimization, self-alignment, hallucination, temporal understanding
 
 ## 一句话总结

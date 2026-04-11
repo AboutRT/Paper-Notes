@@ -1,9 +1,9 @@
 # MergeVLA: Cross-Skill Model Merging Toward a Generalist Vision-Language-Action Agent
 
-**会议**: CVPR 2026
-**arXiv**: [2511.18810](https://arxiv.org/abs/2511.18810)
-**代码**: 无
-**领域**: 机器人/具身智能
+**会议**: CVPR 2026  
+**arXiv**: [2511.18810](https://arxiv.org/abs/2511.18810)  
+**代码**: 无  
+**领域**: 机器人/具身智能  
 **关键词**: VLA模型合并, 多技能机器人, 稀疏LoRA掩码, 动作专家重设计, 测试时任务路由
 
 ## 一句话总结

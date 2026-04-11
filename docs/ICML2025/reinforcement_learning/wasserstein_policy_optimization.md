@@ -1,9 +1,9 @@
 # Wasserstein Policy Optimization
 
-**会议**: ICML2025
-**arXiv**: [2505.00663](https://arxiv.org/abs/2505.00663)
-**代码**: [google-deepmind/acme](https://github.com/google-deepmind/acme)
-**领域**: 策略优化 / 强化学习 / 连续控制
+**会议**: ICML2025  
+**arXiv**: [2505.00663](https://arxiv.org/abs/2505.00663)  
+**代码**: [google-deepmind/acme](https://github.com/google-deepmind/acme)  
+**领域**: 策略优化 / 强化学习 / 连续控制  
 **关键词**: Wasserstein梯度流, 策略梯度, 最优传输, Actor-Critic, 连续动作空间
 
 ## 一句话总结

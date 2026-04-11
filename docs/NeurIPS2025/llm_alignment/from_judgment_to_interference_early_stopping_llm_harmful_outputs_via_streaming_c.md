@@ -1,9 +1,9 @@
 # From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.09996](https://arxiv.org/abs/2506.09996)
-**代码**: [Project](https://liesy.github.io/SCM)
-**领域**: AI安全 / 内容审核
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.09996](https://arxiv.org/abs/2506.09996)  
+**代码**: [Project](https://liesy.github.io/SCM)  
+**领域**: AI安全 / 内容审核  
 **关键词**: streaming moderation, harmful content detection, early stopping, token-level annotation, partial detection
 
 ## 一句话总结

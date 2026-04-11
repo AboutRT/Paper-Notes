@@ -1,9 +1,9 @@
 # CHDP: Cooperative Hybrid Diffusion Policies for RL in Parametric Environments
 
-**会议**: AAAI 2026
-**arXiv**: [2601.05675](https://arxiv.org/abs/2601.05675)
-**代码**: 无
-**领域**: 强化学习
+**会议**: AAAI 2026  
+**arXiv**: [2601.05675](https://arxiv.org/abs/2601.05675)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 混合动作空间, 扩散策略, 多智能体合作, 向量量化码本, 参数化动作MDP
 
 ## 一句话总结

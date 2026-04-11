@@ -1,9 +1,9 @@
 # MuseControlLite: Multifunctional Music Generation with Lightweight Conditioners
 
-**会议**: ICML2025
-**arXiv**: [2506.18729](https://arxiv.org/abs/2506.18729)
-**代码**: [项目页](https://MuseControlLite.github.io/web/)
-**领域**: image_generation
+**会议**: ICML2025  
+**arXiv**: [2506.18729](https://arxiv.org/abs/2506.18729)  
+**代码**: [项目页](https://MuseControlLite.github.io/web/)  
+**领域**: image_generation  
 **关键词**: 音乐生成, 轻量微调, 位置编码, Stable Audio, 旋律控制
 
 ## 一句话总结

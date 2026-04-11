@@ -1,9 +1,9 @@
 # SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA
 
-**会议**: ICLR 2026
-**arXiv**: [2505.21051](https://arxiv.org/abs/2505.21051)
-**代码**: [GitHub](https://github.com/liyan2015/SHE-LoRA)
-**领域**: AI安全/隐私保护
+**会议**: ICLR 2026  
+**arXiv**: [2505.21051](https://arxiv.org/abs/2505.21051)  
+**代码**: [GitHub](https://github.com/liyan2015/SHE-LoRA)  
+**领域**: AI安全/隐私保护  
 **关键词**: 联邦学习, 同态加密, LoRA, 隐私保护, 异构设备
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # ABRA: Teleporting Fine-Tuned Knowledge Across Domains for Open-Vocabulary Object Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12409](https://arxiv.org/abs/2603.12409)
-**代码**: 无
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2603.12409](https://arxiv.org/abs/2603.12409)  
+**代码**: 无  
+**领域**: 目标检测  
 **关键词**: 开放词汇目标检测, 域自适应, 权重空间传输, SVD微调, 跨域知识迁移, Orthogonal Procrustes
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition
 
-**会议**: CVPR 2026
-**arXiv**: [2506.04764](https://arxiv.org/abs/2506.04764)
-**代码**: https://suhan-woo.github.io/HypeVPR/ (Project Page)
-**领域**: 其他
+**会议**: CVPR 2026  
+**arXiv**: [2506.04764](https://arxiv.org/abs/2506.04764)  
+**代码**: https://suhan-woo.github.io/HypeVPR/ (Project Page)  
+**领域**: 其他  
 **关键词**: 视觉位置识别, 双曲空间, 全景图像, 层次化嵌入, 透视-全景匹配
 
 ## 一句话总结

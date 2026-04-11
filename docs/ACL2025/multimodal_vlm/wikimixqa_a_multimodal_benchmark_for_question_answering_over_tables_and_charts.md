@@ -1,9 +1,9 @@
 # WikiMixQA: A Multimodal Benchmark for Question Answering over Tables and Charts
 
-**会议**: ACL 2025
-**arXiv**: [2506.15594](https://arxiv.org/abs/2506.15594)
-**代码**: [GitHub](https://github.com/negar-foroutan/WikiMixQA)
-**领域**: multimodal_vlm
+**会议**: ACL 2025  
+**arXiv**: [2506.15594](https://arxiv.org/abs/2506.15594)  
+**代码**: [GitHub](https://github.com/negar-foroutan/WikiMixQA)  
+**领域**: multimodal_vlm  
 **关键词**: 多模态问答, 文档理解, 表格, 图表, 视觉语言模型, 长上下文, 跨模态推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Adaptive Elicitation of Latent Information Using Natural Language
 
-**会议**: ICML 2025
-**arXiv**: [2504.04204](https://arxiv.org/abs/2504.04204)
-**代码**: [namkoong-lab/adaptive-elicitation](https://github.com/namkoong-lab/adaptive-elicitation)
-**领域**: 推荐系统 / 信息获取
+**会议**: ICML 2025  
+**arXiv**: [2504.04204](https://arxiv.org/abs/2504.04204)  
+**代码**: [namkoong-lab/adaptive-elicitation](https://github.com/namkoong-lab/adaptive-elicitation)  
+**领域**: 推荐系统 / 信息获取  
 **关键词**: 自适应信息获取, 不确定性量化, 元学习, LLM微调, 主动学习, 预测视角
 
 ## 一句话总结

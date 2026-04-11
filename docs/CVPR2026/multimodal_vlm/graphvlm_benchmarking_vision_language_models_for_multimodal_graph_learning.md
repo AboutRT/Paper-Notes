@@ -1,9 +1,9 @@
 # GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13370](https://arxiv.org/abs/2603.13370)
-**代码**: [https://github.com/oamyjin/GraphVLM](https://github.com/oamyjin/GraphVLM)
-**领域**: 多模态VLM
+**会议**: CVPR 2026  
+**arXiv**: [2603.13370](https://arxiv.org/abs/2603.13370)  
+**代码**: [https://github.com/oamyjin/GraphVLM](https://github.com/oamyjin/GraphVLM)  
+**领域**: 多模态VLM  
 **关键词**: 多模态图学习, VLM, 图神经网络, Benchmark, 节点分类
 
 ## 一句话总结

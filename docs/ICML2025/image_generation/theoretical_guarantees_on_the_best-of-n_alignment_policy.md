@@ -1,9 +1,9 @@
 # Theoretical Guarantees on the Best-of-n Alignment Policy
 
-**会议**: ICML2025
-**arXiv**: [2401.01879](https://arxiv.org/abs/2401.01879)
-**代码**: 无（纯理论工作）
-**领域**: LLM对齐理论
+**会议**: ICML2025  
+**arXiv**: [2401.01879](https://arxiv.org/abs/2401.01879)  
+**代码**: 无（纯理论工作）  
+**领域**: LLM对齐理论  
 **关键词**: best-of-n采样, KL散度, 对齐策略, 推理时计算, win rate, 理论保证
 
 ## 一句话总结

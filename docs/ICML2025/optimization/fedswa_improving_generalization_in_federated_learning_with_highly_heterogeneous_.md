@@ -1,9 +1,9 @@
 # FedSWA: Improving Generalization in Federated Learning with Highly Heterogeneous Data via Momentum-Based Stochastic Controlled Weight Averaging
 
-**会议**: ICML2025
-**arXiv**: [2507.20016](https://arxiv.org/abs/2507.20016)
-**代码**: [junkangLiu0/FedSWA](https://github.com/junkangLiu0/FedSWA)
-**领域**: 优化 / 联邦学习
+**会议**: ICML2025  
+**arXiv**: [2507.20016](https://arxiv.org/abs/2507.20016)  
+**代码**: [junkangLiu0/FedSWA](https://github.com/junkangLiu0/FedSWA)  
+**领域**: 优化 / 联邦学习  
 **关键词**: 联邦学习, 泛化, 随机权重平均, 数据异质性, 方差缩减, 损失景观平坦性
 
 ## 一句话总结

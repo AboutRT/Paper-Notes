@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CLIP Is Shortsighted: Paying Attention Beyond the First Sentence
 
-**会议**: CVPR2026
-**arXiv**: [2602.22419](https://arxiv.org/abs/2602.22419)
-**代码**: [TRAILab/DeBias-CLIP](https://github.com/TRAILab/DeBias-CLIP)
-**领域**: 语义分割 / 视觉-语言对齐
+**会议**: CVPR2026  
+**arXiv**: [2602.22419](https://arxiv.org/abs/2602.22419)  
+**代码**: [TRAILab/DeBias-CLIP](https://github.com/TRAILab/DeBias-CLIP)  
+**领域**: 语义分割 / 视觉-语言对齐  
 **关键词**: CLIP, 长文本检索, 文本-图像对齐, 对比学习, 位置偏差, 数据增强
 
 ## 一句话总结

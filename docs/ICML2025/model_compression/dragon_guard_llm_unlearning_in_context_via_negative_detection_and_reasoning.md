@@ -1,9 +1,9 @@
 # DRAGON: Guard LLM Unlearning in Context via Negative Detection and Reasoning
 
-**会议**: ICML2025
-**arXiv**: [2511.05784](https://arxiv.org/abs/2511.05784)
-**代码**: 待确认
-**领域**: LLM遗忘 / Machine Unlearning
+**会议**: ICML2025  
+**arXiv**: [2511.05784](https://arxiv.org/abs/2511.05784)  
+**代码**: 待确认  
+**领域**: LLM遗忘 / Machine Unlearning  
 **关键词**: LLM unlearning, in-context learning, chain-of-thought, training-free, 隐私保护, 有害知识移除
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 # Causality Matters: How Temporal Information Emerges in Video Language Models
 
-**会议**: AAAI 2026
-**arXiv**: [2508.11576](https://arxiv.org/abs/2508.11576)
+**会议**: AAAI 2026  
+**arXiv**: [2508.11576](https://arxiv.org/abs/2508.11576)  
 **作者**: Yumeng Shi, Quanyu Long, Yin Wu, Wenya Wang (NTU)
-**代码**: [github.com/ANDgate99/Causality-Matters](https://github.com/ANDgate99/Causality-Matters)
-**领域**: video_understanding
+**代码**: [github.com/ANDgate99/Causality-Matters](https://github.com/ANDgate99/Causality-Matters)  
+**领域**: video_understanding  
 **关键词**: 视频语言模型, 时序理解, 因果注意力, 位置编码, 模型可解释性, 推理加速
 
 ## 一句话总结

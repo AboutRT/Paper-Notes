@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Density Ratio Estimation-based Bayesian Optimization with Semi-Supervised Learning
 
-**会议**: ICML2025
-**arXiv**: [2305.15612](https://arxiv.org/abs/2305.15612)
-**代码**: [https://github.com/jungtaekkim/bayeso](https://github.com/jungtaekkim/bayeso)
-**领域**: others
+**会议**: ICML2025  
+**arXiv**: [2305.15612](https://arxiv.org/abs/2305.15612)  
+**代码**: [https://github.com/jungtaekkim/bayeso](https://github.com/jungtaekkim/bayeso)  
+**领域**: others  
 **关键词**: Bayesian Optimization, Density Ratio Estimation, Semi-Supervised Learning, Label Propagation, Label Spreading
 
 ## 一句话总结

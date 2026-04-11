@@ -1,9 +1,9 @@
 # COT-FM: Cluster-wise Optimal Transport Flow Matching
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13395](https://arxiv.org/abs/2603.13395)
-**代码**: [项目主页](https://embodiedai-ntu.github.io/cotfm)
-**领域**: 生成模型 / Flow Matching
+**会议**: CVPR 2026  
+**arXiv**: [2603.13395](https://arxiv.org/abs/2603.13395)  
+**代码**: [项目主页](https://embodiedai-ntu.github.io/cotfm)  
+**领域**: 生成模型 / Flow Matching  
 **关键词**: Flow Matching, 最优传输, 聚类, 向量场拉直, 加速采样
 
 ## 一句话总结

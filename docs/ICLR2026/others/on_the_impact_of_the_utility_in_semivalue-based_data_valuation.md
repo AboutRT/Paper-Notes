@@ -1,8 +1,8 @@
 # On the Impact of the Utility in Semivalue-based Data Valuation
 
-**会议**: ICLR 2026
-**arXiv**: [2502.06574](https://arxiv.org/abs/2502.06574)
-**领域**: 数据估值/博弈论
+**会议**: ICLR 2026  
+**arXiv**: [2502.06574](https://arxiv.org/abs/2502.06574)  
+**领域**: 数据估值/博弈论  
 **关键词**: 半值, 数据估值, 效用函数鲁棒性, 空间签名, Shapley值, Banzhaf值
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Cross-modal Identity Mapping: Minimizing Information Loss in Modality Conversion via Reinforcement Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01696](https://arxiv.org/abs/2603.01696)
-**代码**: 待发布（论文接收后公开）
-**领域**: 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2603.01696](https://arxiv.org/abs/2603.01696)  
+**代码**: 待发布（论文接收后公开）  
+**领域**: 强化学习  
 **关键词**: 图像描述, 跨模态信息损失, 检索奖励, 强化学习, GRPO
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # No Labels, No Look-Ahead: Unsupervised Online Video Stabilization with Classical Priors
 
-**会议**: CVPR 2026
-**arXiv**: [2602.23141](https://arxiv.org/abs/2602.23141)
-**代码**: [GitHub](https://github.com/liutao23/LightStab.git)
-**领域**: 遥感
+**会议**: CVPR 2026  
+**arXiv**: [2602.23141](https://arxiv.org/abs/2602.23141)  
+**代码**: [GitHub](https://github.com/liutao23/LightStab.git)  
+**领域**: 遥感  
 **关键词**: 视频稳定, 无监督, 在线处理, 光流估计, 无人机
 
 ## 一句话总结

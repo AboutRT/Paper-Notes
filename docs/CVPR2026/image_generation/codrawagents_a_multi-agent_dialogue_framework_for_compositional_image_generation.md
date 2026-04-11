@@ -1,9 +1,9 @@
 # coDrawAgents: A Multi-Agent Dialogue Framework for Compositional Image Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12829](https://arxiv.org/abs/2603.12829)
-**代码**: 暂无（论文称发表后公开）
-**领域**: 图像生成 / 组合式文本到图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.12829](https://arxiv.org/abs/2603.12829)  
+**代码**: 暂无（论文称发表后公开）  
+**领域**: 图像生成 / 组合式文本到图像生成  
 **关键词**: 多智能体协作, 组合式图像生成, 布局规划, 文本-图像对齐, 扩散模型
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Unlocking Recursive Thinking of LLMs: Alignment via Refinement
 
-**会议**: ACL2025
-**arXiv**: [2506.06009](https://arxiv.org/abs/2506.06009)
-**代码**: [Banner-Z/AvR](https://github.com/Banner-Z/AvR)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2506.06009](https://arxiv.org/abs/2506.06009)  
+**代码**: [Banner-Z/AvR](https://github.com/Banner-Z/AvR)  
+**领域**: llm_nlp  
 **关键词**: 递归思维, 对齐, 细化, 长链思维, 测试时缩放, DPO
 
 ## 一句话总结

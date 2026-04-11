@@ -1,9 +1,9 @@
 # Neighbor GRPO: Contrastive ODE Policy Optimization Aligns Flow Models
 
-**会议**: CVPR 2026
-**arXiv**: [2511.16955](https://arxiv.org/abs/2511.16955)
-**代码**: 无
-**领域**: 目标检测
+**会议**: CVPR 2026  
+**arXiv**: [2511.16955](https://arxiv.org/abs/2511.16955)  
+**代码**: 无  
+**领域**: 目标检测  
 **关键词**: GRPO, Flow Matching, 人类偏好对齐, 对比学习, ODE采样
 
 ## 一句话总结

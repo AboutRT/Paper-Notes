@@ -1,9 +1,9 @@
 # GPU-friendly and Linearly Convergent First-order Methods for Certifying Optimal $k$-sparse GLMs
 
-**会议**: ICML2025
-**arXiv**: [2603.01306](https://arxiv.org/abs/2603.01306)
-**代码**: 待确认
-**领域**: 优化/验证
+**会议**: ICML2025  
+**arXiv**: [2603.01306](https://arxiv.org/abs/2603.01306)  
+**代码**: 待确认  
+**领域**: 优化/验证  
 **关键词**: 稀疏GLM, 透视松弛, 分支定界, 线性收敛, GPU加速, 对偶间隙重启, 近端方法
 
 ## 一句话总结

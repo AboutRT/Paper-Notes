@@ -1,9 +1,9 @@
 # Incentives in Federated Learning with Heterogeneous Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2509.21612](https://arxiv.org/abs/2509.21612)
-**代码**: 无
-**领域**: 联邦学习/机制设计
+**会议**: ICLR 2026  
+**arXiv**: [2509.21612](https://arxiv.org/abs/2509.21612)  
+**代码**: 无  
+**领域**: 联邦学习/机制设计  
 **关键词**: 联邦学习, 博弈论, 激励机制, 数据异构, 策略防伪
 
 ## 一句话总结

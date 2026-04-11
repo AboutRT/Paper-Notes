@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models
 
-**会议**: ICML2025
-**arXiv**: [2410.13080](https://arxiv.org/abs/2410.13080)
-**代码**: [RManLuo/graph-constrained-reasoning](https://github.com/RManLuo/graph-constrained-reasoning)
-**领域**: graph_learning
+**会议**: ICML2025  
+**arXiv**: [2410.13080](https://arxiv.org/abs/2410.13080)  
+**代码**: [RManLuo/graph-constrained-reasoning](https://github.com/RManLuo/graph-constrained-reasoning)  
+**领域**: graph_learning  
 **关键词**: 知识图谱问答, LLM推理, 受限解码, Trie索引, 幻觉消除
 
 ## 一句话总结

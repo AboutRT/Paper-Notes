@@ -1,8 +1,8 @@
 # Human-LLM Collaborative Feature Engineering for Tabular Data
 
-**会议**: ICLR 2026
-**arXiv**: [2601.21060](https://arxiv.org/abs/2601.21060)
-**领域**: 表格学习/人机协作
+**会议**: ICLR 2026  
+**arXiv**: [2601.21060](https://arxiv.org/abs/2601.21060)  
+**领域**: 表格学习/人机协作  
 **关键词**: 特征工程, LLM, 贝叶斯优化, 人类反馈, 表格数据
 
 ## 一句话总结

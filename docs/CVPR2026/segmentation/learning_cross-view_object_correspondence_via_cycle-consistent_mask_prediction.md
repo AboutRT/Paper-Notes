@@ -1,9 +1,9 @@
 # Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction
 
-**会议**: CVPR 2026
-**arXiv**: [2602.18996](https://arxiv.org/abs/2602.18996)
-**代码**: [GitHub](https://github.com/shannany0606/CCMP)
-**领域**: 分割 / 跨视角对应
+**会议**: CVPR 2026  
+**arXiv**: [2602.18996](https://arxiv.org/abs/2602.18996)  
+**代码**: [GitHub](https://github.com/shannany0606/CCMP)  
+**领域**: 分割 / 跨视角对应  
 **关键词**: 跨视角对应, 循环一致性, 条件分割, 测试时训练, 自我中心视角
 
 ## 一句话总结

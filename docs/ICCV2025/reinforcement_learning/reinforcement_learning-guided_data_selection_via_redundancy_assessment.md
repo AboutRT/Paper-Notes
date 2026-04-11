@@ -1,9 +1,9 @@
 # RL-Selector: Reinforcement Learning-Guided Data Selection via Redundancy Assessment
 
-**会议**: ICCV 2025
-**arXiv**: [2506.21037](https://arxiv.org/abs/2506.21037)
-**代码**: 待确认
-**领域**: 强化学习 / 数据选择
+**会议**: ICCV 2025  
+**arXiv**: [2506.21037](https://arxiv.org/abs/2506.21037)  
+**代码**: 待确认  
+**领域**: 强化学习 / 数据选择  
 **关键词**: 数据选择, 数据冗余, 强化学习, ε-sample cover, 核心集, A2C, 训练效率
 
 ## 一句话总结

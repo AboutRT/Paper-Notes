@@ -1,9 +1,9 @@
 # EgoExo-Fitness: Towards Egocentric and Exocentric Full-Body Action Understanding
 
-**会议**: ECCV 2024
-**arXiv**: [2406.08877](https://arxiv.org/abs/2406.08877)
-**代码**: [GitHub](https://github.com/iSEE-Laboratory/EgoExo-Fitness)
-**领域**: 人体理解
+**会议**: ECCV 2024  
+**arXiv**: [2406.08877](https://arxiv.org/abs/2406.08877)  
+**代码**: [GitHub](https://github.com/iSEE-Laboratory/EgoExo-Fitness)  
+**领域**: 人体理解  
 **关键词**: 第一人称视觉, 全身动作理解, 健身数据集, 跨视角, 可解释动作评估
 
 ## 一句话总结

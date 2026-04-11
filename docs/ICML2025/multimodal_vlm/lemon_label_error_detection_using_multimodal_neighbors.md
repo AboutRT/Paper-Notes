@@ -1,9 +1,9 @@
 # LEMoN: Label Error Detection using Multimodal Neighbors
 
-**会议**: ICML 2025
-**arXiv**: [2407.18941](https://arxiv.org/abs/2407.18941)
-**代码**: 有（未公开链接）
-**领域**: 多模态VLM
+**会议**: ICML 2025  
+**arXiv**: [2407.18941](https://arxiv.org/abs/2407.18941)  
+**代码**: 有（未公开链接）  
+**领域**: 多模态VLM  
 **关键词**: 标签错误检测, 多模态噪声标签, 对比学习嵌入, 最近邻方法, 图像描述
 
 ## 一句话总结

@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification
 
-**会议**: ICML2025
-**arXiv**: [2502.14565](https://arxiv.org/abs/2502.14565)
-**代码**: [github.com/seunghyukoh/revise](https://github.com/seunghyukoh/revise)
+**会议**: ICML2025  
+**arXiv**: [2502.14565](https://arxiv.org/abs/2502.14565)  
+**代码**: [github.com/seunghyukoh/revise](https://github.com/seunghyukoh/revise)  
 **作者**: Hyunseok Lee, Seunghyuk Oh, Jaehyung Kim, Jinwoo Shin, Jihoon Tack (KAIST)
-**领域**: reinforcement_learning
+**领域**: reinforcement_learning  
 **关键词**: LLM self-correction, test-time scaling, preference learning, curriculum learning, self-verification
 
 ## 一句话总结

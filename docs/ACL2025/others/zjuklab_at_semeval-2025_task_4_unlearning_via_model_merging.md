@@ -1,9 +1,9 @@
 # ZJUKLAB at SemEval-2025 Task 4: Unlearning via Model Merging
 
-**会议**: ACL 2025
-**arXiv**: [2503.21088](https://arxiv.org/abs/2503.21088)
-**代码**: 有 (https://github.com/zjunlp/unlearn/tree/main/semeval25)
-**领域**: NLP / 机器遗忘
+**会议**: ACL 2025  
+**arXiv**: [2503.21088](https://arxiv.org/abs/2503.21088)  
+**代码**: 有 (https://github.com/zjunlp/unlearn/tree/main/semeval25)  
+**领域**: NLP / 机器遗忘  
 **关键词**: 机器遗忘, 模型合并, TIES-Merging, 隐私保护, LLM安全
 
 ## 一句话总结

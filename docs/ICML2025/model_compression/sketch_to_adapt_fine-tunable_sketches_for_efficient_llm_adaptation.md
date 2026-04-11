@@ -1,9 +1,9 @@
 # Sketch to Adapt: Fine-Tunable Sketches for Efficient LLM Adaptation
 
-**会议**: ICML 2025
-**arXiv**: [2410.06364](https://arxiv.org/abs/2410.06364)
-**代码**: 无公开代码
-**领域**: 模型压缩 / LLM高效微调
+**会议**: ICML 2025  
+**arXiv**: [2410.06364](https://arxiv.org/abs/2410.06364)  
+**代码**: 无公开代码  
+**领域**: 模型压缩 / LLM高效微调  
 **关键词**: 参数共享, Sketching, 压缩自适应, 查找表微调, 统一压缩适配
 
 ## 一句话总结

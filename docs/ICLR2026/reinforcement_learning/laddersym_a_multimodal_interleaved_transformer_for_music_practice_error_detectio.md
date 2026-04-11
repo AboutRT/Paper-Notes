@@ -1,9 +1,9 @@
 # LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection
 
-**会议**: ICLR 2026
-**arXiv**: [2510.08580](https://arxiv.org/abs/2510.08580)
-**代码**: [GitHub](https://github.com/ben2002chou/LadderSYM)
-**领域**: 多模态/音乐AI
+**会议**: ICLR 2026  
+**arXiv**: [2510.08580](https://arxiv.org/abs/2510.08580)  
+**代码**: [GitHub](https://github.com/ben2002chou/LadderSYM)  
+**领域**: 多模态/音乐AI  
 **关键词**: 音乐错误检测, 多模态融合, 交叉注意力, 符号提示, 对齐模块
 
 ## 一句话总结

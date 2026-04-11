@@ -1,9 +1,9 @@
 # ELECTRA: A Cartesian Network for 3D Charge Density Prediction with Floating Orbitals
 
-**会议**: NeurIPS 2025
-**arXiv**: [2503.08305](https://arxiv.org/abs/2503.08305)
-**代码**: 待确认
-**领域**: 3d_vision
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.08305](https://arxiv.org/abs/2503.08305)  
+**代码**: 待确认  
+**领域**: 3d_vision  
 **关键词**: charge density prediction, floating orbitals, equivariant network, Gaussian Splatting, DFT acceleration
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Pixels Don't Lie (But Your Detector Might): Bootstrapping MLLM-as-a-Judge for Trustworthy Deepfake Detection and Reasoning Supervision
 
-**会议**: CVPR 2026
-**arXiv**: [2602.19715](https://arxiv.org/abs/2602.19715)
-**代码**: 有（数据集、模型、代码均已开源）
-**领域**: 深度伪造检测 / 视觉取证
+**会议**: CVPR 2026  
+**arXiv**: [2602.19715](https://arxiv.org/abs/2602.19715)  
+**代码**: 有（数据集、模型、代码均已开源）  
+**领域**: 深度伪造检测 / 视觉取证  
 **关键词**: Deepfake Detection, Reasoning Supervision, MLLM-as-a-Judge, Visual Forensics, Bootstrapping, VLM Evaluation
 
 ## 一句话总结

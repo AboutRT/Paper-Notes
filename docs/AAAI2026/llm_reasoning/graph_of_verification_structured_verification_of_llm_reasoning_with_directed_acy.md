@@ -1,9 +1,9 @@
 # Graph of Verification: Structured Verification of LLM Reasoning with Directed Acyclic Graphs
 
-**会议**: AAAI 2026
-**arXiv**: [2506.12509](https://arxiv.org/abs/2506.12509)
-**代码**: [Frevor/Graph-of-Verification](https://github.com/Frevor/Graph-of-Verification)
-**领域**: LLM推理
+**会议**: AAAI 2026  
+**arXiv**: [2506.12509](https://arxiv.org/abs/2506.12509)  
+**代码**: [Frevor/Graph-of-Verification](https://github.com/Frevor/Graph-of-Verification)  
+**领域**: LLM推理  
 **关键词**: 推理验证, 有向无环图, 多粒度验证, 分解验证, 免训练方法
 
 ## 一句话总结

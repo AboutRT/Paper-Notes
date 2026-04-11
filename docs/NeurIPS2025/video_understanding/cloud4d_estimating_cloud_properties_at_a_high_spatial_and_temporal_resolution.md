@@ -1,9 +1,9 @@
 # Cloud4D: Estimating Cloud Properties at a High Spatial and Temporal Resolution
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.19431](https://arxiv.org/abs/2511.19431)
-**代码**: [项目页面](https://cloud4d.jacob-lin.com/)
-**领域**: video_understanding
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.19431](https://arxiv.org/abs/2511.19431)  
+**代码**: [项目页面](https://cloud4d.jacob-lin.com/)  
+**领域**: video_understanding  
 **关键词**: 云物理属性估计, 多视角3D重建, 单应性引导Transformer, 液态水含量, 气象观测
 
 ## 一句话总结

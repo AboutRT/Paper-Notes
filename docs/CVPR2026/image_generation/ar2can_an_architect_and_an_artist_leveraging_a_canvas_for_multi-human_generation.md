@@ -1,9 +1,9 @@
 # Ar2Can: An Architect and an Artist Leveraging a Canvas for Multi-Human Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2511.22690](https://arxiv.org/abs/2511.22690)
-**代码**: [https://qualcomm-ai-research.github.io/ar2can/](https://qualcomm-ai-research.github.io/ar2can/) (有)
-**领域**: 图像生成 / 多人图像生成
+**会议**: CVPR 2026  
+**arXiv**: [2511.22690](https://arxiv.org/abs/2511.22690)  
+**代码**: [https://qualcomm-ai-research.github.io/ar2can/](https://qualcomm-ai-research.github.io/ar2can/) (有)  
+**领域**: 图像生成 / 多人图像生成  
 **关键词**: Multi-Human Generation, Identity Preservation, Spatial Planning, GRPO, Reinforcement Learning
 
 ## 一句话总结

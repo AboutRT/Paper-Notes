@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping
 
-**会议**: CVPR2026
-**arXiv**: [2511.15690](https://arxiv.org/abs/2511.15690)
-**代码**: [ModelTC/MoDES](https://github.com/ModelTC/MoDES)
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2511.15690](https://arxiv.org/abs/2511.15690)  
+**代码**: [ModelTC/MoDES](https://github.com/ModelTC/MoDES)  
+**领域**: 多模态VLM  
 **关键词**: MoE加速, 专家跳过, 多模态大模型, 训练免调, 推理效率
 
 ## 一句话总结

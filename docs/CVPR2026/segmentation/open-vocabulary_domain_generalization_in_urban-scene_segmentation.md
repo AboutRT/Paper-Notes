@@ -1,9 +1,9 @@
 # Open-Vocabulary Domain Generalization in Urban-Scene Segmentation
 
-**会议**: CVPR 2026
-**arXiv**: [2602.18853](https://arxiv.org/abs/2602.18853)
-**代码**: [DZhaoXd/s2_corr](https://github.com/DZhaoXd/s2_corr)
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2602.18853](https://arxiv.org/abs/2602.18853)  
+**代码**: [DZhaoXd/s2_corr](https://github.com/DZhaoXd/s2_corr)  
+**领域**: 自动驾驶  
 **关键词**: 开放词汇分割, 域泛化, 状态空间模型, 文本-图像相关性, 城市场景分割
 
 ## 一句话总结

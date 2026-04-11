@@ -1,9 +1,9 @@
 # Causal Effect Identification in lvLiNGAM from Higher-Order Cumulants
 
-**会议**: ICML 2025
-**arXiv**: [2506.05202](https://arxiv.org/abs/2506.05202)
-**代码**: 无
-**领域**: 因果推断
+**会议**: ICML 2025  
+**arXiv**: [2506.05202](https://arxiv.org/abs/2506.05202)  
+**代码**: 无  
+**领域**: 因果推断  
 **关键词**: 因果效应识别, lvLiNGAM, 高阶累积量, 代理变量, 工具变量
 
 ## 一句话总结

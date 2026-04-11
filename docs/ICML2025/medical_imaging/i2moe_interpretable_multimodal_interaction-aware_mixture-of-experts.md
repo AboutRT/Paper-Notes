@@ -1,9 +1,9 @@
 # I2MoE: Interpretable Multimodal Interaction-aware Mixture-of-Experts
 
-**会议**: ICML2025
-**arXiv**: [2505.19190](https://arxiv.org/abs/2505.19190)
-**代码**: [GitHub - I2MoE](https://github.com/Raina-Xin/I2MoE)
-**领域**: medical_imaging
+**会议**: ICML2025  
+**arXiv**: [2505.19190](https://arxiv.org/abs/2505.19190)  
+**代码**: [GitHub - I2MoE](https://github.com/Raina-Xin/I2MoE)  
+**领域**: medical_imaging  
 **关键词**: 多模态融合, 部分信息分解, MoE, 可解释性, 交互建模
 
 ## 一句话总结

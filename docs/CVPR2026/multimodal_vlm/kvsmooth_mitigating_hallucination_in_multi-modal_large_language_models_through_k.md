@@ -1,9 +1,9 @@
 # KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing
 
-**会议**: CVPR2026
-**arXiv**: [2602.04268](https://arxiv.org/abs/2602.04268)
-**代码**: 待确认
-**领域**: 多模态VLM
+**会议**: CVPR2026  
+**arXiv**: [2602.04268](https://arxiv.org/abs/2602.04268)  
+**代码**: 待确认  
+**领域**: 多模态VLM  
 **关键词**: 多模态幻觉缓解, KV-Cache平滑, 注意力熵, 指数移动平均, 免训练推理
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Exploration with Foundation Models: Capabilities, Limitations, and Hybrid Approaches
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.19924](https://arxiv.org/abs/2509.19924)
-**代码**: 无
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.19924](https://arxiv.org/abs/2509.19924)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: foundation models, exploration, reinforcement learning, VLM, knowing-doing gap
 
 ## 一句话总结

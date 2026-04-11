@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Association and Consolidation: Evolutionary Memory-Enhanced Incremental Multi-View Clustering
 
-**会议**: CVPR2026
-**arXiv**: [2509.14544](https://arxiv.org/abs/2509.14544)
-**代码**: 待确认
-**领域**: others (Multi-View Clustering / Incremental Learning)
+**会议**: CVPR2026  
+**arXiv**: [2509.14544](https://arxiv.org/abs/2509.14544)  
+**代码**: 待确认  
+**领域**: others (Multi-View Clustering / Incremental Learning)  
 **关键词**: incremental multi-view clustering, stability-plasticity dilemma, memory consolidation, orthogonal association, tensor decomposition, ADMM
 
 ## 一句话总结

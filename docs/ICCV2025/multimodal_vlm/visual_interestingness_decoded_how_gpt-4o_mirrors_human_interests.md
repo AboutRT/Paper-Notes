@@ -1,9 +1,9 @@
 # Visual Interestingness Decoded: How GPT-4o Mirrors Human Interests
 
-**会议**: ICCV2025
-**arXiv**: [2510.13316](https://arxiv.org/abs/2510.13316)
-**代码**: https://github.com/fiabdu/Visual-Interestingness-Decoded
-**领域**: 多模态VLM / 视觉理解
+**会议**: ICCV2025  
+**arXiv**: [2510.13316](https://arxiv.org/abs/2510.13316)  
+**代码**: https://github.com/fiabdu/Visual-Interestingness-Decoded  
+**领域**: 多模态VLM / 视觉理解  
 **关键词**: Visual Interestingness, GPT-4o, Large Multimodal Models, Human-AI Alignment, Learning to Rank
 
 ## 一句话总结

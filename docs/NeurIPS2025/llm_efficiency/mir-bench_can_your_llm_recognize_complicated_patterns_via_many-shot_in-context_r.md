@@ -1,9 +1,9 @@
 # MIR-Bench: Can Your LLM Recognize Complicated Patterns via Many-Shot In-Context Reasoning?
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.09933](https://arxiv.org/abs/2502.09933)
-**代码**: [https://github.com/KaiYan289/MIR-Bench](https://github.com/KaiYan289/MIR-Bench)
-**领域**: LLM Evaluation / In-Context Learning / Reasoning
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.09933](https://arxiv.org/abs/2502.09933)  
+**代码**: [https://github.com/KaiYan289/MIR-Bench](https://github.com/KaiYan289/MIR-Bench)  
+**领域**: LLM Evaluation / In-Context Learning / Reasoning  
 **关键词**: Many-Shot ICL, 模式识别, 归纳推理, 转导推理, 长上下文评估
 
 ## 一句话总结

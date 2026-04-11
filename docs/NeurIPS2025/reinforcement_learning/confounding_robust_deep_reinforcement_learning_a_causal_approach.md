@@ -1,9 +1,9 @@
 # Confounding Robust Deep Reinforcement Learning: A Causal Approach
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21110](https://arxiv.org/abs/2510.21110)
-**代码**: 有（附补充材料含游戏视频）
-**领域**: 强化学习 / 因果推理
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21110](https://arxiv.org/abs/2510.21110)  
+**代码**: 有（附补充材料含游戏视频）  
+**领域**: 强化学习 / 因果推理  
 **关键词**: confounded MDP, off-policy learning, partial identification, causal DQN, Atari
 
 ## 一句话总结

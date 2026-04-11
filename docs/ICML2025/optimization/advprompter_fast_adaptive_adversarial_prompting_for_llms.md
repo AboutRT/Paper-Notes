@@ -1,9 +1,9 @@
 # AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs
 
-**会议**: ICML 2025
-**arXiv**: [2404.16873](https://arxiv.org/abs/2404.16873)
-**代码**: https://github.com/facebookresearch/advprompter
-**领域**: 优化/AI安全
+**会议**: ICML 2025  
+**arXiv**: [2404.16873](https://arxiv.org/abs/2404.16873)  
+**代码**: https://github.com/facebookresearch/advprompter  
+**领域**: 优化/AI安全  
 **关键词**: 对抗提示, LLM越狱, 红队测试, 自适应攻击, 对抗训练
 
 ## 一句话总结

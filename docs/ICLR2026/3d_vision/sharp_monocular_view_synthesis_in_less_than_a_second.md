@@ -1,9 +1,9 @@
 # Sharp Monocular View Synthesis in Less Than a Second
 
-**会议**: ICLR 2026
-**arXiv**: [2512.10685](https://arxiv.org/abs/2512.10685)
-**代码**: [GitHub](https://github.com/apple/ml-sharp)
-**领域**: 3D视觉/视图合成
+**会议**: ICLR 2026  
+**arXiv**: [2512.10685](https://arxiv.org/abs/2512.10685)  
+**代码**: [GitHub](https://github.com/apple/ml-sharp)  
+**领域**: 3D视觉/视图合成  
 **关键词**: 单目视图合成, 3D高斯, 前馈, 度量尺度, 实时渲染
 
 ## 一句话总结

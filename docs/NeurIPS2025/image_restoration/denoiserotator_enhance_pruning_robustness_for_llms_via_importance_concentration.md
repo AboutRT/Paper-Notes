@@ -1,9 +1,9 @@
 # DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.23049](https://arxiv.org/abs/2505.23049)
-**代码**: [Axel-gu/DenoiseRotator](https://github.com/Axel-gu/DenoiseRotator)
-**领域**: model_compression
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.23049](https://arxiv.org/abs/2505.23049)  
+**代码**: [Axel-gu/DenoiseRotator](https://github.com/Axel-gu/DenoiseRotator)  
+**领域**: model_compression  
 **关键词**: LLM pruning, orthogonal transformation, entropy minimization, importance concentration, semi-structured sparsity
 
 ## 一句话总结

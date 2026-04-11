@@ -1,9 +1,9 @@
 # Leveraging Variation Theory in Counterfactual Data Augmentation for Optimized Active Learning
 
-**会议**: ACL 2025 Findings
-**arXiv**: [2408.03819](https://arxiv.org/abs/2408.03819)
-**代码**: 待确认
-**领域**: causal_inference
+**会议**: ACL 2025 Findings  
+**arXiv**: [2408.03819](https://arxiv.org/abs/2408.03819)  
+**代码**: 待确认  
+**领域**: causal_inference  
 **关键词**: Counterfactual Data Augmentation, Active Learning, Variation Theory, Neuro-Symbolic Patterns, LLM-based Generation
 
 ## 一句话总结

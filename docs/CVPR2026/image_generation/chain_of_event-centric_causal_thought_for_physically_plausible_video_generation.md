@@ -1,9 +1,9 @@
 # Chain of Event-Centric Causal Thought for Physically Plausible Video Generation
 
-**会议**: CVPR 2026
-**arXiv**: [2603.09094](https://arxiv.org/abs/2603.09094)
-**代码**: 即将公开
-**领域**: 视频生成 / 物理合理性
+**会议**: CVPR 2026  
+**arXiv**: [2603.09094](https://arxiv.org/abs/2603.09094)  
+**代码**: 即将公开  
+**领域**: 视频生成 / 物理合理性  
 **关键词**: 物理合理视频生成, 事件链推理, 链式思维, 物理公式约束, 双模态提示
 
 ## 一句话总结

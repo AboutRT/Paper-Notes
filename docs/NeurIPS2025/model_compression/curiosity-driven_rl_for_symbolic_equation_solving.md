@@ -1,9 +1,9 @@
 # Curiosity-driven RL for Symbolic Equation Solving
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17022](https://arxiv.org/abs/2510.17022)
-**代码**: 无
-**领域**: model_compression
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17022](https://arxiv.org/abs/2510.17022)  
+**代码**: 无  
+**领域**: model_compression  
 **关键词**: 强化学习, 符号数学, 好奇心驱动探索, PPO, 表达式树
 
 ## 一句话总结

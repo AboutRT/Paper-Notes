@@ -1,9 +1,9 @@
 # Beat-It: Beat-Synchronized Multi-Condition 3D Dance Generation
 
-**会议**: ECCV 2024
-**arXiv**: [2407.07554](https://arxiv.org/abs/2407.07554)
-**代码**: [项目主页](https://zikaihuangscut.github.io/Beat-It/)
-**领域**: audio_speech
+**会议**: ECCV 2024  
+**arXiv**: [2407.07554](https://arxiv.org/abs/2407.07554)  
+**代码**: [项目主页](https://zikaihuangscut.github.io/Beat-It/)  
+**领域**: audio_speech  
 **关键词**: Dance Generation, Beat Synchronization, Multi-Condition Diffusion, Keyframe Control, 3D Motion
 
 ## 一句话总结

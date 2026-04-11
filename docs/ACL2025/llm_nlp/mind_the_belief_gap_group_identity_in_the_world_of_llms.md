@@ -112,10 +112,10 @@
 - 写作质量: ⭐⭐⭐⭐ 跨学科背景介绍到位，实验描述清晰，图表信息量大
 - 价值: ⭐⭐⭐⭐⭐ 对 LLM 作为信息中介的风险提出了深刻警示，缓解策略有实际应用价值
 
-**会议**: ACL2025
-**arXiv**: [2503.02016](https://arxiv.org/abs/2503.02016)
-**代码**: [GitHub](https://github.com/MichiganNLP/BeliefCongruenceSim)
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2503.02016](https://arxiv.org/abs/2503.02016)  
+**代码**: [GitHub](https://github.com/MichiganNLP/BeliefCongruenceSim)  
+**领域**: llm_nlp  
 **关键词**: 信念一致性, 多智能体LLM, 群体心理学, 虚假信息传播, 社会偏见缓解
 
 ## 一句话总结

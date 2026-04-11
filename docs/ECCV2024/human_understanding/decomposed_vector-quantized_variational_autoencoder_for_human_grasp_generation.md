@@ -1,9 +1,9 @@
 # Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation
 
-**会议**: ECCV 2024
-**arXiv**: [2407.14062](https://arxiv.org/abs/2407.14062)
-**代码**: [GitHub](https://github.com/florasion/D-VQVAE)
-**领域**: 人体理解
+**会议**: ECCV 2024  
+**arXiv**: [2407.14062](https://arxiv.org/abs/2407.14062)  
+**代码**: [GitHub](https://github.com/florasion/D-VQVAE)  
+**领域**: 人体理解  
 **关键词**: 抓取生成, VQ-VAE, 分解架构, 双阶段解码, 手物交互
 
 ## 一句话总结

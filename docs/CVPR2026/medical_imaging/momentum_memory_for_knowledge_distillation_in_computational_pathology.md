@@ -1,9 +1,9 @@
 # Momentum Memory for Knowledge Distillation in Computational Pathology
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21395](https://arxiv.org/abs/2602.21395)
-**代码**: [有](https://github.com/CAIR-LAB-WFUSM/MoMKD)
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2602.21395](https://arxiv.org/abs/2602.21395)  
+**代码**: [有](https://github.com/CAIR-LAB-WFUSM/MoMKD)  
+**领域**: 医学图像  
 **关键词**: 知识蒸馏, 计算病理学, 动量记忆, 跨模态对齐, 多实例学习
 
 ## 一句话总结

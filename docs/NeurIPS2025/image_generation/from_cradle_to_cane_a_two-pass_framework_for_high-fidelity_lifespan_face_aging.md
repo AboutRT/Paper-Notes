@@ -1,9 +1,9 @@
 # From Cradle to Cane: A Two-Pass Framework for High-Fidelity Lifespan Face Aging
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.20977](https://arxiv.org/abs/2506.20977)
-**代码**: [https://github.com/byliutao/Cradle2Cane](https://github.com/byliutao/Cradle2Cane)
-**领域**: image_generation
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.20977](https://arxiv.org/abs/2506.20977)  
+**代码**: [https://github.com/byliutao/Cradle2Cane](https://github.com/byliutao/Cradle2Cane)  
+**领域**: image_generation  
 **关键词**: 人脸老化, 扩散模型, 身份保持, 自适应噪声注入, SDXL-Turbo, 年龄-身份权衡
 
 ## 一句话总结

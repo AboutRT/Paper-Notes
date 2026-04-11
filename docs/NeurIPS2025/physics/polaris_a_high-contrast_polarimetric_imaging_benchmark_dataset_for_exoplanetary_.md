@@ -1,9 +1,9 @@
 # POLARIS: A High-contrast Polarimetric Imaging Benchmark Dataset for Exoplanetary Disk Representation Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.03511](https://arxiv.org/abs/2506.03511)
-**代码**: [Zenodo](https://zenodo.org/) (数据集+代码开源)
-**领域**: Physics / AI for Astronomy / Benchmark
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.03511](https://arxiv.org/abs/2506.03511)  
+**代码**: [Zenodo](https://zenodo.org/) (数据集+代码开源)  
+**领域**: Physics / AI for Astronomy / Benchmark  
 **关键词**: 高对比度成像, 系外行星, 偏振成像, 自监督学习, 扩散模型, 对比学习
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Lifelong Domain Adaptive 3D Human Pose Estimation
 
-**会议**: AAAI2026
-**arXiv**: [2512.23860](https://arxiv.org/abs/2512.23860)
-**代码**: [davidpengucf/lifelongpose](https://github.com/davidpengucf/lifelongpose)
-**领域**: video_understanding
+**会议**: AAAI2026  
+**arXiv**: [2512.23860](https://arxiv.org/abs/2512.23860)  
+**代码**: [davidpengucf/lifelongpose](https://github.com/davidpengucf/lifelongpose)  
+**领域**: video_understanding  
 **关键词**: 3D human pose estimation, lifelong domain adaptation, catastrophic forgetting, GAN, diffusion model
 
 ## 一句话总结

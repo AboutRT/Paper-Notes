@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # From Selection to Generation: A Survey of LLM-based Active Learning
 
-**会议**: ACL2025
-**arXiv**: [2502.11767](https://arxiv.org/abs/2502.11767)
-**代码**: 无（综述论文）
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.11767](https://arxiv.org/abs/2502.11767)  
+**代码**: 无（综述论文）  
+**领域**: llm_nlp  
 **关键词**: active learning, LLM, data selection, data generation, annotation, survey
 
 ## 一句话总结

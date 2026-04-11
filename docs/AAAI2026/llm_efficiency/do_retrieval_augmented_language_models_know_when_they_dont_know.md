@@ -1,9 +1,9 @@
 # Do Retrieval Augmented Language Models Know When They Don't Know?
 
-**会议**: AAAI 2026
-**arXiv**: [2509.01476](https://arxiv.org/abs/2509.01476)
-**代码**: [GitHub](https://github.com/zuochao912/refusal-ability-of-retrieval-augmented-LLMs)
-**领域**: LLM效率
+**会议**: AAAI 2026  
+**arXiv**: [2509.01476](https://arxiv.org/abs/2509.01476)  
+**代码**: [GitHub](https://github.com/zuochao912/refusal-ability-of-retrieval-augmented-LLMs)  
+**领域**: LLM效率  
 **关键词**: RAG, 校准, 过度拒绝, 不确定性估计, 检索增强
 
 ## 一句话总结

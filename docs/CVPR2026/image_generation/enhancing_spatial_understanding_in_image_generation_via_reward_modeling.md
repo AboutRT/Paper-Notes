@@ -1,9 +1,9 @@
 # Enhancing Spatial Understanding in Image Generation via Reward Modeling
 
-**会议**: CVPR 2026
-**arXiv**: [2602.24233](https://arxiv.org/abs/2602.24233)
-**代码**: 无
-**领域**: 文本到图像生成 / 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2602.24233](https://arxiv.org/abs/2602.24233)  
+**代码**: 无  
+**领域**: 文本到图像生成 / 强化学习  
 **关键词**: 空间理解, 奖励模型, GRPO, 扩散模型, FLUX
 
 ## 一句话总结

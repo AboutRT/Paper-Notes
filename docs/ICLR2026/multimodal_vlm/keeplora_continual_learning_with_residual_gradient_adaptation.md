@@ -1,9 +1,9 @@
 # KeepLoRA: Continual Learning with Residual Gradient Adaptation
 
-**会议**: ICLR 2026
-**arXiv**: [2601.19659](https://arxiv.org/abs/2601.19659)
-**代码**: [GitHub](https://github.com/MaolinLuo/KeepLoRA)
-**领域**: 多模态VLM
+**会议**: ICLR 2026  
+**arXiv**: [2601.19659](https://arxiv.org/abs/2601.19659)  
+**代码**: [GitHub](https://github.com/MaolinLuo/KeepLoRA)  
+**领域**: 多模态VLM  
 **关键词**: 持续学习, LoRA, 梯度投影, 子空间约束, 视觉-语言模型
 
 ## 一句话总结

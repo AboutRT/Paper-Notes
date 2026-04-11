@@ -1,8 +1,8 @@
 # Diss-l-ECT: Dissecting Graph Data with Local Euler Characteristic Transforms
 
-**会议**: ICML2025
-**arXiv**: [2410.02622](https://arxiv.org/abs/2410.02622)
-**领域**: 图拓扑 / 图表示学习
+**会议**: ICML2025  
+**arXiv**: [2410.02622](https://arxiv.org/abs/2410.02622)  
+**领域**: 图拓扑 / 图表示学习  
 **关键词**: Euler Characteristic Transform, 局部拓扑不变量, 节点分类, 异质图, 可解释性
 
 ## 一句话总结

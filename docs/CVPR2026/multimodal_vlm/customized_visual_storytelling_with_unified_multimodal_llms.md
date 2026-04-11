@@ -1,9 +1,9 @@
 # Customized Visual Storytelling with Unified Multimodal LLMs
 
-**会议**: CVPR 2026
-**arXiv**: [2603.27690](https://arxiv.org/abs/2603.27690)
-**代码**: 无（项目页面未明确提供）
-**领域**: 多模态VLM / 视觉叙事生成
+**会议**: CVPR 2026  
+**arXiv**: [2603.27690](https://arxiv.org/abs/2603.27690)  
+**代码**: 无（项目页面未明确提供）  
+**领域**: 多模态VLM / 视觉叙事生成  
 **关键词**: 视觉故事生成, 多模态定制, 统一多模态LLM, 镜头类型控制, 关键帧生成
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # HyRF: Hybrid Radiance Fields for Memory-efficient and High-quality Novel View Synthesis
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.17083](https://arxiv.org/abs/2509.17083)
-**代码**: [项目主页](https://wzpscott.github.io/hyrf/) (有)
-**领域**: 3D视觉 / 新视角合成
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.17083](https://arxiv.org/abs/2509.17083)  
+**代码**: [项目主页](https://wzpscott.github.io/hyrf/) (有)  
+**领域**: 3D视觉 / 新视角合成  
 **关键词**: 3D Gaussian Splatting, 神经辐射场, 混合表示, 模型压缩, 实时渲染
 
 ## 一句话总结

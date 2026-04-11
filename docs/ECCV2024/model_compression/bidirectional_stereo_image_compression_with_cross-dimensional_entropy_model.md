@@ -1,9 +1,9 @@
 # Bidirectional Stereo Image Compression with Cross-Dimensional Entropy Model
 
-**会议**: ECCV2024
-**arXiv**: [2407.10632](https://arxiv.org/abs/2407.10632)
-**代码**: [GitHub](https://github.com/LIUZhening111/BiSIC)
-**领域**: model_compression
+**会议**: ECCV2024  
+**arXiv**: [2407.10632](https://arxiv.org/abs/2407.10632)  
+**代码**: [GitHub](https://github.com/LIUZhening111/BiSIC)  
+**领域**: model_compression  
 **关键词**: stereo image compression, bidirectional coding, 3D convolution, cross-dimensional entropy model, learned image compression
 
 ## 一句话总结

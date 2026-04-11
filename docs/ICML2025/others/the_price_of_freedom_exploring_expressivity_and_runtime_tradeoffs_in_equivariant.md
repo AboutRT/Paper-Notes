@@ -1,9 +1,9 @@
 # The Price of Freedom: Exploring Expressivity and Runtime Tradeoffs in Equivariant Networks
 
-**会议**: ICML 2025
-**arXiv**: [2506.13523](https://arxiv.org/abs/2506.13523)
-**代码**: https://github.com/atomicarchitects/PriceofFreedom
-**领域**: 等变神经网络 / 科学计算
+**会议**: ICML 2025  
+**arXiv**: [2506.13523](https://arxiv.org/abs/2506.13523)  
+**代码**: https://github.com/atomicarchitects/PriceofFreedom  
+**领域**: 等变神经网络 / 科学计算  
 **关键词**: E(3)-equivariance, tensor product, expressivity, Gaunt tensor product, MACE, interatomic potentials
 
 ## 一句话总结

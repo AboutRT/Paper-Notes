@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**💬 ACL2025** · 共 **4** 篇
+**💬 ACL2025** · 共 **5** 篇
 
 **[D-GEN: Automatic Distractor Generation and Evaluation for Reliable Assessment of Generative Models](d-gen_automatic_distractor_generation_and_evaluation_for_reliable_assessment_of_.md)**
 
@@ -14,6 +14,10 @@
 **[FlashAudio: Rectified Flows for Fast and High-Fidelity Text-to-Audio Generation](flashaudio_rectified_flow_tta.md)**
 
 :   将整流流（Rectified Flow）引入文本转音频生成，通过双焦采样器优化时间步分布、不混溶流减少数据-噪声总距离、锚定优化修正 CFG 引导误差，实现单步生成 FAD=1.49 超越百步扩散模型，生成速度达实时 400 倍。
+
+**[Multimodal Pragmatic Jailbreak on Text-to-image Models](multimodal_pragmatic_jailbreak_on_text-to-image_models.md)**
+
+:   提出"多模态语用越狱"（Multimodal Pragmatic Jailbreak）新型攻击方式，通过让T2I模型生成包含视觉文字的图像，使得图像内容和文字内容单独看都安全但组合后产生不安全内容，揭示了所有测试模型（包括DALL·E 3）均受此攻击影响。
 
 **[R-VC: Rhythm Controllable and Efficient Zero-Shot Voice Conversion via Shortcut Flow Matching](rvc_rhythm_voice_conversion.md)**
 

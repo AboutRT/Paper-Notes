@@ -1,9 +1,9 @@
 # Graph Neural Networks for Interferometer Simulations
 
-**会议**: NeurIPS 2025 (AI for Science Workshop)
-**arXiv**: [2512.16051](https://arxiv.org/abs/2512.16051)
-**代码**: [LIGO GitLab](https://git.ligo.org/uc_riverside/gnn-ifosim)
-**领域**: 图学习 / 科学计算
+**会议**: NeurIPS 2025 (AI for Science Workshop)  
+**arXiv**: [2512.16051](https://arxiv.org/abs/2512.16051)  
+**代码**: [LIGO GitLab](https://git.ligo.org/uc_riverside/gnn-ifosim)  
+**领域**: 图学习 / 科学计算  
 **关键词**: GNN, 干涉仪仿真, LIGO, 引力波, 光学模拟
 
 ## 一句话总结

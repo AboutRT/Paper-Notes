@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Developing Foundation Models for Universal Segmentation from 3D Whole-Body Positron Emission Tomography
 
-**会议**: CVPR2026
-**arXiv**: [2603.11627](https://arxiv.org/abs/2603.11627)
-**代码**: [YichiZhang98/SegAnyPET](https://github.com/YichiZhang98/SegAnyPET)
-**领域**: 医学图像分割 (Medical Image Segmentation)
+**会议**: CVPR2026  
+**arXiv**: [2603.11627](https://arxiv.org/abs/2603.11627)  
+**代码**: [YichiZhang98/SegAnyPET](https://github.com/YichiZhang98/SegAnyPET)  
+**领域**: 医学图像分割 (Medical Image Segmentation)  
 **关键词**: PET 分割, 基础模型, 通用分割, 交互式分割, 全身 PET, SAM
 
 ## 一句话总结

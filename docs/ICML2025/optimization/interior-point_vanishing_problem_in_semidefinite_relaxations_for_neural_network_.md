@@ -1,9 +1,9 @@
 # Interior-Point Vanishing Problem in Semidefinite Relaxations for Neural Network Verification
 
-**会议**: ICML2025
-**arXiv**: [2506.10269](https://arxiv.org/abs/2506.10269)
-**代码**: 未公开
-**领域**: 神经网络验证 / 优化
+**会议**: ICML2025  
+**arXiv**: [2506.10269](https://arxiv.org/abs/2506.10269)  
+**代码**: 未公开  
+**领域**: 神经网络验证 / 优化  
 **关键词**: SDP松弛, 神经网络验证, 内点法, 严格可行性, ReLU, 对抗鲁棒性
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # WildCap: Facial Albedo Capture in the Wild via Hybrid Inverse Rendering
 
-**会议**: CVPR2026
-**arXiv**: [2512.11237](https://arxiv.org/abs/2512.11237)
-**代码**: [已开源](https://arxiv.org/abs/2512.11237)（论文中声明 code released）
-**领域**: others（面部外观捕捉 / 逆渲染）
+**会议**: CVPR2026  
+**arXiv**: [2512.11237](https://arxiv.org/abs/2512.11237)  
+**代码**: [已开源](https://arxiv.org/abs/2512.11237)（论文中声明 code released）  
+**领域**: others（面部外观捕捉 / 逆渲染）  
 **关键词**: facial albedo capture, inverse rendering, diffusion prior, texel grid lighting, in-the-wild
 
 ## 一句话总结

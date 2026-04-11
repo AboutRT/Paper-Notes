@@ -1,9 +1,9 @@
 # Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages
 
-**会议**: AAAI 2026
-**arXiv**: [2602.13867](https://arxiv.org/abs/2602.13867)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: AAAI 2026  
+**arXiv**: [2602.13867](https://arxiv.org/abs/2602.13867)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 多语言安全, 参数高效对齐, 文化敏感性, 低资源语言, 代码混合
 
 ## 一句话总结

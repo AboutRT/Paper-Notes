@@ -21,6 +21,7 @@
 **切入角度**：作者构造了一个精巧的二阶段框架来解耦记忆和泛化——Phase-1 强制纯粹的死记硬背（使用无语义 token），Phase-2 用极少量语义提示引导泛化。这种设计排除了语言理解的干扰，干净地测试"记忆的数据能否被重新解释"。
 
 ## 方法详解
+
 ### 整体框架
 二阶段框架处理 ⟨subject, relation, object⟩ 三元组事实：
 
@@ -46,6 +47,7 @@
 - 评估指标：Generation accuracy、Multiple-choice accuracy、Object probability
 
 ## 实验关键数据
+
 ### 主实验（记忆越深泛化越好）
 
 | Phase-1 Epoch | Key Token Acc | Phase-2 k | Train Prompt Acc | Test Prompt Acc |

@@ -1,9 +1,9 @@
 # Diffusion-Driven Progressive Target Manipulation for Source-Free Domain Adaptation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.25279](https://arxiv.org/abs/2510.25279)
-**代码**: 无
-**领域**: 图像生成 / 扩散模型 / 域适应
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.25279](https://arxiv.org/abs/2510.25279)  
+**代码**: 无  
+**领域**: 图像生成 / 扩散模型 / 域适应  
 **关键词**: Source-Free Domain Adaptation, 扩散模型, 伪目标域生成, 渐进式优化, 语义变换
 
 ## 一句话总结

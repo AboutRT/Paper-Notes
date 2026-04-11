@@ -1,9 +1,9 @@
 # MERIT: Maximum-normalized Element-wise Ratio for LM Large-batch Training
 
-**会议**: ICML2025
-**arXiv**: [2508.20577](https://arxiv.org/abs/2508.20577)
-**代码**: [GitHub - MERIT](https://github.com/NUS-HPC-AI-Lab/MERIT)
-**领域**: human_understanding
+**会议**: ICML2025  
+**arXiv**: [2508.20577](https://arxiv.org/abs/2508.20577)  
+**代码**: [GitHub - MERIT](https://github.com/NUS-HPC-AI-Lab/MERIT)  
+**领域**: human_understanding  
 **关键词**: 大批量训练, 优化器, 注意力logit, trust ratio, GPT-2
 
 ## 一句话总结

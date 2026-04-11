@@ -1,9 +1,9 @@
 # Theoretical Limitations of Ensembles in the Age of Overparameterization
 
-**会议**: ICML2025
-**arXiv**: [2410.16201](https://arxiv.org/abs/2410.16201)
-**代码**: 未开源
-**领域**: LLM/NLP理论 · 集成学习 · 过参数化理论
+**会议**: ICML2025  
+**arXiv**: [2410.16201](https://arxiv.org/abs/2410.16201)  
+**代码**: 未开源  
+**领域**: LLM/NLP理论 · 集成学习 · 过参数化理论  
 **关键词**: 过参数化集成, 随机特征模型, 不确定性量化, 核回归, 泛化理论
 
 ## 一句话总结

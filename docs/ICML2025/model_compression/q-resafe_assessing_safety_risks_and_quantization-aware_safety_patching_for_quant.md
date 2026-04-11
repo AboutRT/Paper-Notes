@@ -1,9 +1,9 @@
 # Q-resafe: Assessing Safety Risks and Quantization-aware Safety Patching for Quantized Large Language Models
 
-**会议**: ICML 2025
-**arXiv**: [2506.20251](https://arxiv.org/abs/2506.20251)
-**代码**: [有](https://github.com/Thecommonirin/Qresafe)
-**领域**: 模型压缩
+**会议**: ICML 2025  
+**arXiv**: [2506.20251](https://arxiv.org/abs/2506.20251)  
+**代码**: [有](https://github.com/Thecommonirin/Qresafe)  
+**领域**: 模型压缩  
 **关键词**: 量化安全性, 安全补丁, DPO对齐, 安全关键权重, LLM量化
 
 ## 一句话总结

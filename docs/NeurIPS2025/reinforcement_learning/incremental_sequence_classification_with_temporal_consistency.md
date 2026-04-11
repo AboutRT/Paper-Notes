@@ -1,9 +1,9 @@
 # Incremental Sequence Classification with Temporal Consistency
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.16548](https://arxiv.org/abs/2505.16548)
-**代码**: 无
-**领域**: Reinforcement Learning / NLP
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.16548](https://arxiv.org/abs/2505.16548)  
+**代码**: 无  
+**领域**: Reinforcement Learning / NLP  
 **关键词**: incremental classification, temporal consistency, temporal-difference learning, LLM verification, sequence classification
 
 ## 一句话总结

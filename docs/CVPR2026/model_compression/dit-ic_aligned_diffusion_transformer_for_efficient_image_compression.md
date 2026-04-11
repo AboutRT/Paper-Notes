@@ -1,9 +1,9 @@
 # DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression
 
-**会议**: CVPR 2026
-**arXiv**: [2603.13162](https://arxiv.org/abs/2603.13162)
-**代码**: [项目主页](https://njuvision.github.io/DiT-IC/)
-**领域**: 图像压缩 / 扩散模型
+**会议**: CVPR 2026  
+**arXiv**: [2603.13162](https://arxiv.org/abs/2603.13162)  
+**代码**: [项目主页](https://njuvision.github.io/DiT-IC/)  
+**领域**: 图像压缩 / 扩散模型  
 **关键词**: 图像压缩, 扩散Transformer, 单步去噪, 对齐机制, 高效解码
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Generalizing Verifiable Instruction Following
 
-**会议**: NeurIPS 2025
-**arXiv**: [2507.02833](https://arxiv.org/abs/2507.02833)
-**代码**: [有](https://github.com/allenai/IFBench)
-**领域**: 强化学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.02833](https://arxiv.org/abs/2507.02833)  
+**代码**: [有](https://github.com/allenai/IFBench)  
+**领域**: 强化学习  
 **关键词**: 指令遵循, 可验证约束, RLVR, GRPO, 泛化能力
 
 ## 一句话总结

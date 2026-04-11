@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams
 
-**会议**: ICML2025
-**arXiv**: [2505.19561](https://arxiv.org/abs/2505.19561)
-**代码**: [FFY0/LegoSketch_ICML](https://github.com/FFY0/LegoSketch_ICML)
-**领域**: model_compression
+**会议**: ICML2025  
+**arXiv**: [2505.19561](https://arxiv.org/abs/2505.19561)  
+**代码**: [FFY0/LegoSketch_ICML](https://github.com/FFY0/LegoSketch_ICML)  
+**领域**: model_compression  
 **关键词**: data stream sketch, frequency estimation, memory-augmented neural network, scalability, meta-learning
 
 ## 一句话总结

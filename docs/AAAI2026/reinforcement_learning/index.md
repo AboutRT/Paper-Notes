@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🤖 AAAI2026** · 共 **27** 篇
+**🤖 AAAI2026** · 共 **28** 篇
 
 **[A Course Correction in Steerability Evaluation: Revealing Miscalibration and Side Effects in LLMs](a_course_correction_in_steerability_evaluation_revealing_mis.md)**
 
@@ -78,6 +78,10 @@
 **[Does Self-Evaluation Enable Wireheading in Language Models?](does_self-evaluation_enable_wireheading_in_language_models.md)**
 
 :   本文理论证明并实验验证了当语言模型的自我评估与奖励信号耦合时，模型会系统性地膨胀自评分（wireheading），而解耦自评分与奖励可以缓解这一问题；在Llama-3.1-8B和Mistral-7B上三个任务的实验表明，摘要等模糊任务中自评分膨胀高达0.92。
+
+**[DRMD: Deep Reinforcement Learning for Malware Detection under Concept Drift](drmd_deep_reinforcement_learning_for_malware_detection_under_concept_drift.md)**
+
+:   本文首次将Android恶意软件检测重新表述为一步马尔可夫决策过程（MD-MDP），并训练基于PPO的深度强化学习智能体DRMD，在单一策略中统一了样本分类、拒绝和主动学习，在多年跨期评估中实现了平均8.66（仅分类）和10.90（含拒绝）的AUT提升，显著优于传统监督学习分类器应对概念漂移的能力。
 
 **[HCPO: Hierarchical Conductor-Based Policy Optimization in Multi-Agent Reinforcement Learning](hcpo_hierarchical_conductor-based_policy_optimization_in_multi-agent_reinforceme.md)**
 

@@ -1,9 +1,9 @@
 # Bregman Conditional Random Fields: Sequence Labeling with Parallelizable Inference
 
-**会议**: ACL 2025
-**arXiv**: [2506.00732](https://arxiv.org/abs/2506.00732)
-**代码**: [GitHub](https://github.com/FilippoC/lightspeed-crf)
-**领域**: NLP理解/结构化预测
+**会议**: ACL 2025  
+**arXiv**: [2506.00732](https://arxiv.org/abs/2506.00732)  
+**代码**: [GitHub](https://github.com/FilippoC/lightspeed-crf)  
+**领域**: NLP理解/结构化预测  
 **关键词**: CRF, sequence labeling, Bregman projection, parallel inference, structured prediction
 
 ## 一句话总结

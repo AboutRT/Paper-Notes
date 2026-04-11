@@ -1,9 +1,9 @@
 # AdaRank: Adaptive Rank Pruning for Enhanced Model Merging
 
-**会议**: ICLR 2026
-**arXiv**: [2503.22178](https://arxiv.org/abs/2503.22178)
-**代码**: 待确认
-**领域**: 目标检测（模型合并/多任务学习）
+**会议**: ICLR 2026  
+**arXiv**: [2503.22178](https://arxiv.org/abs/2503.22178)  
+**代码**: 待确认  
+**领域**: 目标检测（模型合并/多任务学习）  
 **关键词**: model merging, SVD, task vector, test-time adaptation, 多任务学习
 
 ## 一句话总结

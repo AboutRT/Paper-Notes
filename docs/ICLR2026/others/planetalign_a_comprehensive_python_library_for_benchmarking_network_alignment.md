@@ -1,9 +1,9 @@
 # PlanetAlign: A Comprehensive Python Library for Benchmarking Network Alignment
 
-**会议**: ICLR 2026
-**arXiv**: [2505.21366](https://arxiv.org/abs/2505.21366)
-**代码**: [GitHub](https://github.com/yq-leo/PlanetAlign)
-**领域**: 其他
+**会议**: ICLR 2026  
+**arXiv**: [2505.21366](https://arxiv.org/abs/2505.21366)  
+**代码**: [GitHub](https://github.com/yq-leo/PlanetAlign)  
+**领域**: 其他  
 **关键词**: 网络对齐, 基准库, 图匹配, 最优传输, 评估框架
 
 ## 一句话总结

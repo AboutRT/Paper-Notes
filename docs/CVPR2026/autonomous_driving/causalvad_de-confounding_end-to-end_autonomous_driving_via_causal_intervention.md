@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # CausalVAD: De-confounding End-to-End Autonomous Driving via Causal Intervention
 
-**会议**: CVPR2026
-**arXiv**: [2603.18561](https://arxiv.org/abs/2603.18561)
-**代码**: 待公开
-**领域**: 自动驾驶
+**会议**: CVPR2026  
+**arXiv**: [2603.18561](https://arxiv.org/abs/2603.18561)  
+**代码**: 待公开  
+**领域**: 自动驾驶  
 **关键词**: 因果推断, 后门调整, 去混杂, 端到端自动驾驶, 稀疏向量化表示, VAD
 
 ## 一句话总结

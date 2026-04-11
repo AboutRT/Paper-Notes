@@ -1,9 +1,9 @@
 # Self-Critique Guided Iterative Reasoning for Multi-hop Question Answering
 
-**会议**: ACL2025
-**arXiv**: [2505.19112](https://arxiv.org/abs/2505.19112)
-**代码**: [zchuz/SiGIR-MHQA](https://github.com/zchuz/SiGIR-MHQA)
-**领域**: nlp_understanding
+**会议**: ACL2025  
+**arXiv**: [2505.19112](https://arxiv.org/abs/2505.19112)  
+**代码**: [zchuz/SiGIR-MHQA](https://github.com/zchuz/SiGIR-MHQA)  
+**领域**: nlp_understanding  
 **关键词**: 多跳问答, 检索增强生成, 自我批评, 迭代推理, beam search
 
 ## 一句话总结

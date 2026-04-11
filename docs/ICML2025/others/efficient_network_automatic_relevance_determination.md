@@ -1,9 +1,9 @@
 # Efficient Network Automatic Relevance Determination
 
-**会议**: ICML2025
-**arXiv**: [2506.12352](https://arxiv.org/abs/2506.12352)
-**代码**: 未公开
-**领域**: 稀疏贝叶斯学习 / 特征选择 / 多输出回归
+**会议**: ICML2025  
+**arXiv**: [2506.12352](https://arxiv.org/abs/2506.12352)  
+**代码**: 未公开  
+**领域**: 稀疏贝叶斯学习 / 特征选择 / 多输出回归  
 **关键词**: ARD, 稀疏贝叶斯, 精度矩阵估计, Graphical Lasso, 多输出回归, 特征选择
 
 ## 一句话总结

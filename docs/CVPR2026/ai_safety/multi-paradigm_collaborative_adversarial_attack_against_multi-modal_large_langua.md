@@ -1,9 +1,9 @@
 # Multi-Paradigm Collaborative Adversarial Attack Against Multi-Modal Large Language Models
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04846](https://arxiv.org/abs/2603.04846)
-**代码**: [LiYuanBoJNU/MPCAttack](https://github.com/LiYuanBoJNU/MPCAttack)
-**领域**: AI安全 / 对抗攻击
+**会议**: CVPR 2026  
+**arXiv**: [2603.04846](https://arxiv.org/abs/2603.04846)  
+**代码**: [LiYuanBoJNU/MPCAttack](https://github.com/LiYuanBoJNU/MPCAttack)  
+**领域**: AI安全 / 对抗攻击  
 **关键词**: Adversarial Attack, MLLM, Transferability, Multi-Paradigm, Collaborative Optimization
 
 ## 一句话总结

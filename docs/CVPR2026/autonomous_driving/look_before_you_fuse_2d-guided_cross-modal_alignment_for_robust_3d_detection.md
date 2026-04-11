@@ -1,9 +1,9 @@
 # Look Before You Fuse: 2D-Guided Cross-Modal Alignment for Robust 3D Detection
 
-**会议**: CVPR 2026
-**arXiv**: [2507.16861](https://arxiv.org/abs/2507.16861)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2507.16861](https://arxiv.org/abs/2507.16861)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 3D目标检测, LiDAR-Camera融合, 跨模态对齐, BEV感知, 深度估计
 
 ## 一句话总结

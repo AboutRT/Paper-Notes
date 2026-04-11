@@ -1,10 +1,10 @@
 # BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute
 
-**会议**: ICML 2025
-**arXiv**: [2506.22716](https://arxiv.org/abs/2506.22716)
+**会议**: ICML 2025  
+**arXiv**: [2506.22716](https://arxiv.org/abs/2506.22716)  
 **作者**: Dujian Ding (UBC/Microsoft), Ankur Mallick (Microsoft), Shaokun Zhang (Penn State), Chi Wang (Google DeepMind), Victor Rühle (Microsoft) 等
 **机构**: University of British Columbia, Microsoft, Pennsylvania State University, Google DeepMind, AG2AI
-**领域**: LLM/NLP
+**领域**: LLM/NLP  
 **关键词**: LLM routing, best-of-n sampling, test-time compute, 成本优化, 自适应推理
 
 ## 一句话总结

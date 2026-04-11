@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 3D Vision  
 **关键词**: 4D reconstruction, equine reconstruction, 3D Gaussian Splatting, parametric model, monocular video, feed-forward  
+
 ## 一句话总结
 
 提出 4DEquine 框架，将单目视频的马科动物 4D 重建**解耦**为动态运动估计（AniMoFormer）和静态外观重建（EquineGS）两个子问题，仅用合成数据训练即在真实数据上达到 SOTA。

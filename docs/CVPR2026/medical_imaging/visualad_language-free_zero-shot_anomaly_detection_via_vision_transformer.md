@@ -1,6 +1,6 @@
 # VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer
 
-**会议**: CVPR 2026 &nbsp; **arXiv**: [2603.07952](https://arxiv.org/abs/2603.07952) 
+**会议**: CVPR 2026 &nbsp; **arXiv**: [2603.07952](https://arxiv.org/abs/2603.07952)  
 **arXiv**: [2603.07952](https://arxiv.org/abs/2603.07952)  
 **代码**: 无  
 **领域**: 医学图像  

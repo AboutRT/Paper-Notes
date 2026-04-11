@@ -1,9 +1,9 @@
 # Optimal Auction Design in the Joint Advertising
 
-**会议**: ICML2025
-**arXiv**: [2507.07418](https://arxiv.org/abs/2507.07418)
-**代码**: 未公开
-**领域**: 拍卖设计 / 自动化机制设计
+**会议**: ICML2025  
+**arXiv**: [2507.07418](https://arxiv.org/abs/2507.07418)  
+**代码**: 未公开  
+**领域**: 拍卖设计 / 自动化机制设计  
 **关键词**: 联合广告, 最优拍卖, BundleNet, 激励兼容, 神经网络机制设计
 
 ## 一句话总结

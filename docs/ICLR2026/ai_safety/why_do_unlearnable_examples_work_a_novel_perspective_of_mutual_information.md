@@ -1,9 +1,9 @@
 # Why Do Unlearnable Examples Work: A Novel Perspective of Mutual Information
 
-**会议**: ICLR 2026
-**arXiv**: [2603.03725](https://arxiv.org/abs/2603.03725)
-**代码**: 无
-**领域**: AI安全 / 数据保护
+**会议**: ICLR 2026  
+**arXiv**: [2603.03725](https://arxiv.org/abs/2603.03725)  
+**代码**: 无  
+**领域**: AI安全 / 数据保护  
 **关键词**: 不可学习样本, 互信息, 数据下毒, 隐私保护, 协方差缩减
 
 ## 一句话总结

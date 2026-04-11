@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # SQLong: Enhanced NL2SQL for Longer Contexts with LLMs
 
-**会议**: ACL2025
-**arXiv**: [2502.16747](https://arxiv.org/abs/2502.16747)
-**代码**: 待开源（论文提及计划发布）
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2502.16747](https://arxiv.org/abs/2502.16747)  
+**代码**: 待开源（论文提及计划发布）  
+**领域**: llm_nlp  
 **关键词**: NL2SQL, 长上下文, 数据增强, 大规模数据库Schema, Text-to-SQL
 
 ## 一句话总结

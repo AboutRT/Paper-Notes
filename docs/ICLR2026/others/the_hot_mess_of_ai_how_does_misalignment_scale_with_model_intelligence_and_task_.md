@@ -1,9 +1,9 @@
 # The Hot Mess of AI: How Does Misalignment Scale With Model Intelligence and Task Complexity?
 
-**会议**: ICLR 2026
-**arXiv**: [2601.23045](https://arxiv.org/abs/2601.23045)
-**代码**: 有
-**领域**: 其他 / AI安全
+**会议**: ICLR 2026  
+**arXiv**: [2601.23045](https://arxiv.org/abs/2601.23045)  
+**代码**: 有  
+**领域**: 其他 / AI安全  
 **关键词**: 偏差-方差分解, AI不连贯性, 推理长度, 模型规模, AI对齐
 
 ## 一句话总结

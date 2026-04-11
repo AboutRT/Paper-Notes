@@ -1,9 +1,9 @@
 # GraspLDP: Towards Generalizable Grasping Policy via Latent Diffusion
 
-**会议**: CVPR 2026
-**arXiv**: [2602.22862](https://arxiv.org/abs/2602.22862)
-**代码**: 有（Project Page）
-**领域**: 强化学习
+**会议**: CVPR 2026  
+**arXiv**: [2602.22862](https://arxiv.org/abs/2602.22862)  
+**代码**: 有（Project Page）  
+**领域**: 强化学习  
 **关键词**: 机器人抓取, 潜在扩散策略, 抓取先验, 模仿学习, 泛化
 
 ## 一句话总结

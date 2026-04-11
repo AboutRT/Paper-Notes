@@ -1,9 +1,9 @@
 # Agentified Assessment of Logical Reasoning Agents
 
-**会议**: ICLR 2026
-**arXiv**: [2603.02788](https://arxiv.org/abs/2603.02788)
-**代码**: [HuggingFace数据集](https://huggingface.co/datasets/yfxiao/folio-refined)
-**领域**: LLM推理
+**会议**: ICLR 2026  
+**arXiv**: [2603.02788](https://arxiv.org/abs/2603.02788)  
+**代码**: [HuggingFace数据集](https://huggingface.co/datasets/yfxiao/folio-refined)  
+**领域**: LLM推理  
 **关键词**: 逻辑推理评测, Agent-to-Agent评估, 一阶逻辑, 自动形式化, SMT求解
 
 ## 一句话总结

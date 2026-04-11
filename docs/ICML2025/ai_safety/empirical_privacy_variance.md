@@ -1,9 +1,9 @@
 # Empirical Privacy Variance
 
-**会议**: ICML2025
-**arXiv**: [2503.12314](https://arxiv.org/abs/2503.12314)
-**代码**: [empvv/empirical-privacy-variance](https://github.com/empvv/empirical-privacy-variance)
-**领域**: 隐私 / AI Safety
+**会议**: ICML2025  
+**arXiv**: [2503.12314](https://arxiv.org/abs/2503.12314)  
+**代码**: [empvv/empirical-privacy-variance](https://github.com/empvv/empirical-privacy-variance)  
+**领域**: 隐私 / AI Safety  
 **关键词**: 差分隐私, DP-SGD, 经验隐私, 记忆化, 超参数选择, 语言模型微调
 
 ## 一句话总结

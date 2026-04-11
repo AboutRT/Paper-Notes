@@ -1,9 +1,9 @@
 # FloE: On-the-Fly MoE Inference on Memory-constrained GPU
 
-**会议**: ICML2025
-**arXiv**: [2505.05950](https://arxiv.org/abs/2505.05950)
-**代码**: 待确认
-**领域**: model_compression
+**会议**: ICML2025  
+**arXiv**: [2505.05950](https://arxiv.org/abs/2505.05950)  
+**代码**: 待确认  
+**领域**: model_compression  
 **关键词**: MoE推理, 专家卸载, 激活稀疏性, 超低比特量化, GPU内存受限, 推理加速
 
 ## 一句话总结

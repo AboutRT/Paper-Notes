@@ -1,9 +1,9 @@
 # RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots
 
-**会议**: ICLR 2026
-**arXiv**: [2603.04356](https://arxiv.org/abs/2603.04356)
-**代码**: https://robocasa.ai (项目主页，含开源代码和模型)
-**领域**: 机器人学 / 仿真基准 / 通用机器人
+**会议**: ICLR 2026  
+**arXiv**: [2603.04356](https://arxiv.org/abs/2603.04356)  
+**代码**: https://robocasa.ai (项目主页，含开源代码和模型)  
+**领域**: 机器人学 / 仿真基准 / 通用机器人  
 **关键词**: 仿真平台, 家庭移动操作, 多任务学习, 基础模型训练, 终身学习
 
 ## 一句话总结

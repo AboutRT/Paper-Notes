@@ -1,9 +1,9 @@
 # ECKConv: Learning Coordinate-based Convolutional Kernels for Continuous SE(3) Equivariant Point Cloud Analysis
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17538](https://arxiv.org/abs/2603.17538)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.17538](https://arxiv.org/abs/2603.17538)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 点云分析, SE(3)等变性, 群卷积, 双陪集空间, 坐标网络, intertwiner框架
 
 ## 一句话总结

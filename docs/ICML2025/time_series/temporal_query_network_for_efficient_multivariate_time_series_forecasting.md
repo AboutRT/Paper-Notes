@@ -1,9 +1,9 @@
 # TQNet: Temporal Query Network for Efficient Multivariate Time Series Forecasting
 
-**会议**: ICML2025
-**arXiv**: [2505.12917](https://arxiv.org/abs/2505.12917)
-**代码**: [GitHub - TQNet](https://github.com/ACAT-SCUT/TQNet)
-**领域**: time_series
+**会议**: ICML2025  
+**arXiv**: [2505.12917](https://arxiv.org/abs/2505.12917)  
+**代码**: [GitHub - TQNet](https://github.com/ACAT-SCUT/TQNet)  
+**领域**: time_series  
 **关键词**: 多变量时序预测, Temporal Query, 变量相关性, 注意力机制, 轻量模型
 
 ## 一句话总结

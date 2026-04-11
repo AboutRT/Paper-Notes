@@ -1,9 +1,9 @@
 # Rethinking the Stability-Plasticity Trade-off in Continual Learning from an Architectural Perspective
 
-**会议**: ICML2025
-**arXiv**: [2506.03951](https://arxiv.org/abs/2506.03951)
-**代码**: [byyx666/Dual-Arch](https://github.com/byyx666/Dual-Arch)
-**领域**: 持续学习 (Continual Learning)
+**会议**: ICML2025  
+**arXiv**: [2506.03951](https://arxiv.org/abs/2506.03951)  
+**代码**: [byyx666/Dual-Arch](https://github.com/byyx666/Dual-Arch)  
+**领域**: 持续学习 (Continual Learning)  
 **关键词**: 持续学习, 稳定性-可塑性权衡, 网络架构设计, 知识蒸馏, 双架构框架
 
 ## 一句话总结

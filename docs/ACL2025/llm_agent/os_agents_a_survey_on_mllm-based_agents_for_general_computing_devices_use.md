@@ -1,9 +1,9 @@
 # OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use
 
-**会议**: ACL 2025
-**arXiv**: [2508.04482](https://arxiv.org/abs/2508.04482)
-**代码**: https://os-agent-survey.github.io/
-**领域**: LLM Agent / 操作系统代理
+**会议**: ACL 2025  
+**arXiv**: [2508.04482](https://arxiv.org/abs/2508.04482)  
+**代码**: https://os-agent-survey.github.io/  
+**领域**: LLM Agent / 操作系统代理  
 **关键词**: OS Agents, GUI Grounding, MLLM, Agent Framework, Computing Device Automation
 
 ## 一句话总结

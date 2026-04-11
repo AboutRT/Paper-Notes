@@ -1,9 +1,9 @@
 # On the Mutual Influence of Gender and Occupation in LLM Representations
 
-**会议**: ACL2025
-**arXiv**: [2503.06792](https://arxiv.org/abs/2503.06792)
-**代码**: 无公开代码
-**领域**: llm_nlp
+**会议**: ACL2025  
+**arXiv**: [2503.06792](https://arxiv.org/abs/2503.06792)  
+**代码**: 无公开代码  
+**领域**: llm_nlp  
 **关键词**: gender bias, occupation stereotype, LLM embeddings, gender direction, first name representation
 
 ## 一句话总结

@@ -1,9 +1,9 @@
 # Death of the Novel(ty): Beyond n-Gram Novelty as a Metric for Textual Creativity
 
-**会议**: ICLR 2026
-**arXiv**: [2509.22641](https://arxiv.org/abs/2509.22641)
-**代码**: [github.com/asaakyan/ngram-creativity](https://github.com/asaakyan/ngram-creativity)
-**领域**: AIGC检测
+**会议**: ICLR 2026  
+**arXiv**: [2509.22641](https://arxiv.org/abs/2509.22641)  
+**代码**: [github.com/asaakyan/ngram-creativity](https://github.com/asaakyan/ngram-creativity)  
+**领域**: AIGC检测  
 **关键词**: textual creativity, n-gram novelty, LLM evaluation, close reading, pragmaticality
 
 ## 一句话总结

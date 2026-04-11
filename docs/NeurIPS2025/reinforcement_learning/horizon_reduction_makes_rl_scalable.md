@@ -5,6 +5,7 @@
 **代码**: 无  
 **领域**: 强化学习  
 **关键词**: offline RL, scalability, horizon reduction, hierarchical RL, goal-conditioned RL  
+
 ## 一句话总结
 
 本文通过大规模实验（最高 10 亿转移数据）揭示离线 RL 的可扩展性瓶颈源于决策时域过长（curse of horizon），并证明通过 n-step 回报和层次策略等时域缩减技术可显著提升扩展性，进而提出了简洁有效的 SHARSA 方法。

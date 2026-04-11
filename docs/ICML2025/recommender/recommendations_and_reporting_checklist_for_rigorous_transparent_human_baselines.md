@@ -1,9 +1,9 @@
 # Recommendations and Reporting Checklist for Rigorous & Transparent Human Baselines in Model Evaluations
 
-**会议**: ICML 2025
-**arXiv**: [2506.13776](https://arxiv.org/abs/2506.13776)
-**代码**: https://github.com/kevinlwei/human-baselines
-**领域**: 推荐系统
+**会议**: ICML 2025  
+**arXiv**: [2506.13776](https://arxiv.org/abs/2506.13776)  
+**代码**: https://github.com/kevinlwei/human-baselines  
+**领域**: 推荐系统  
 **关键词**: Human Baseline, AI评估方法论, 评估透明度, 测量理论, 报告规范
 
 ## 一句话总结

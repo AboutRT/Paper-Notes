@@ -117,8 +117,8 @@ PapersPlease Benchmark 包含三个层次：
 - 写作质量: ⭐⭐⭐⭐ 理论框架介绍清晰，实验设计描述详细，偏见结果的呈现方式直观
 - 价值: ⭐⭐⭐⭐⭐ 方法论贡献突出——行为层价值观评估范式可迁移到其他场景；偏见发现对 LLM 部署有直接警示价值
 - 价值: ⭐⭐⭐ 对 AI 价值观研究有参考
-**代码**: [GitHub](https://github.com/yeonsuuuu28/papers-please)
-**领域**: llm_nlp
+**代码**: [GitHub](https://github.com/yeonsuuuu28/papers-please)  
+**领域**: llm_nlp  
 **关键词**: LLM价值观评估, ERG理论, 角色扮演, 社会偏见, 道德决策
 
 ## 一句话总结

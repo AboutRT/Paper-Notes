@@ -1,9 +1,9 @@
 # Conceptual Belief-Informed Reinforcement Learning
 
-**会议**: ICML 2025
-**arXiv**: [2410.01739](https://arxiv.org/abs/2410.01739)
-**代码**: 无
-**领域**: 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2410.01739](https://arxiv.org/abs/2410.01739)  
+**代码**: 无  
+**领域**: 强化学习  
 **关键词**: 样本效率, 概念抽象, 贝叶斯先验, 人类认知启发, 经验利用
 
 ## 一句话总结

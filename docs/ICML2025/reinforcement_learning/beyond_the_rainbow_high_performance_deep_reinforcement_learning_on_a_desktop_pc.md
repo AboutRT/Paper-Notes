@@ -1,9 +1,9 @@
 # Beyond The Rainbow: High Performance Deep Reinforcement Learning on a Desktop PC
 
-**会议**: ICML 2025
-**arXiv**: [2411.03820](https://arxiv.org/abs/2411.03820)
-**代码**: https://github.com/VIPTankz/BTR
-**领域**: 强化学习
+**会议**: ICML 2025  
+**arXiv**: [2411.03820](https://arxiv.org/abs/2411.03820)  
+**代码**: https://github.com/VIPTankz/BTR  
+**领域**: 强化学习  
 **关键词**: 深度强化学习, Rainbow DQN, Atari, 计算效率, 3D游戏
 
 ## 一句话总结

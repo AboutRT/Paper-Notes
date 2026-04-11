@@ -1,9 +1,9 @@
 # Diffusion Adversarial Post-Training for One-Step Video Generation
 
-**会议**: ICML 2025
-**arXiv**: [2501.08316](https://arxiv.org/abs/2501.08316)
-**代码**: https://seaweed-apt.com (Demo 页面)
-**领域**: 扩散模型 / 图像与视频生成加速
+**会议**: ICML 2025  
+**arXiv**: [2501.08316](https://arxiv.org/abs/2501.08316)  
+**代码**: https://seaweed-apt.com (Demo 页面)  
+**领域**: 扩散模型 / 图像与视频生成加速  
 **关键词**: 对抗后训练, 单步生成, 视频生成, GAN-扩散混合, R1 正则化
 
 ## 一句话总结

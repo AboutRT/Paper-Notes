@@ -1,9 +1,9 @@
 # ExPO-HM: Learning to Explain-then-Detect for Hateful Meme Detection
 
-**会议**: ICLR 2026
-**arXiv**: [2510.08630](https://arxiv.org/abs/2510.08630)
-**代码**: [GitHub](https://github.com/JingbiaoMei/ExPO-HM)
-**领域**: llm_reasoning
+**会议**: ICLR 2026  
+**arXiv**: [2510.08630](https://arxiv.org/abs/2510.08630)  
+**代码**: [GitHub](https://github.com/JingbiaoMei/ExPO-HM)  
+**领域**: llm_reasoning  
 **关键词**: 仇恨言论检测, 多模态, GRPO, 课程学习, 条件决策熵, 可解释性
 
 ## 一句话总结

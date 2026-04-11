@@ -1,9 +1,9 @@
 # Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context
 
-**会议**: CVPR 2026
-**arXiv**: [2602.21929](https://arxiv.org/abs/2602.21929)
-**代码**: 无
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2602.21929](https://arxiv.org/abs/2602.21929)  
+**代码**: 无  
+**领域**: 3D视觉  
 **关键词**: 场景一致性视频生成, 几何上下文, 自回归生成, 相机控制, 3D重建
 
 ## 一句话总结

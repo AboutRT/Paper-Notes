@@ -1,9 +1,9 @@
 # Training Flexible Models of Genetic Variant Effects from Functional Annotations using Accelerated Linear Algebra
 
-**会议**: ICML2025
-**arXiv**: [2506.19598](https://arxiv.org/abs/2506.19598)
-**代码**: [https://github.com/AlanNawzadAmin/DeepWAS](https://github.com/AlanNawzadAmin/DeepWAS)
-**领域**: 医学图像 / 计算基因组学
+**会议**: ICML2025  
+**arXiv**: [2506.19598](https://arxiv.org/abs/2506.19598)  
+**代码**: [https://github.com/AlanNawzadAmin/DeepWAS](https://github.com/AlanNawzadAmin/DeepWAS)  
+**领域**: 医学图像 / 计算基因组学  
 **关键词**: GWAS, 深度学习, 线性代数加速, 遗传变异效应预测, 功能注释
 
 ## 一句话总结

@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # BeautyGRPO: Aesthetic Alignment for Face Retouching via Dynamic Path Guidance and Fine-Grained Preference Modeling
 
-**会议**: CVPR2026
-**arXiv**: [2603.01163](https://arxiv.org/abs/2603.01163)
-**代码**: 待确认（有Project Page）
-**领域**: 图像生成/人脸修复
+**会议**: CVPR2026  
+**arXiv**: [2603.01163](https://arxiv.org/abs/2603.01163)  
+**代码**: 待确认（有Project Page）  
+**领域**: 图像生成/人脸修复  
 **关键词**: 人脸修图, 强化学习, 美学对齐, 流匹配, 偏好建模, GRPO, 动态路径引导
 
 ## 一句话总结

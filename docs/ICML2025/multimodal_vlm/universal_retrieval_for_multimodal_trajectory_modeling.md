@@ -1,9 +1,9 @@
 # Universal Retrieval for Multimodal Trajectory Modeling
 
-**会议**: ICML2025
-**arXiv**: [2506.22056](https://arxiv.org/abs/2506.22056)
-**代码**: 待确认
-**领域**: multimodal_vlm
+**会议**: ICML2025  
+**arXiv**: [2506.22056](https://arxiv.org/abs/2506.22056)  
+**代码**: 待确认  
+**领域**: multimodal_vlm  
 **关键词**: trajectory retrieval, GUI agents, multimodal embedding, contrastive learning, VLM
 
 ## 一句话总结

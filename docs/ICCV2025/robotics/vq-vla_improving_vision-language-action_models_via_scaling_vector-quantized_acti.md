@@ -1,9 +1,9 @@
 # VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers
 
-**会议**: ICCV2025
-**arXiv**: [2507.01016](https://arxiv.org/abs/2507.01016)
-**代码**: https://github.com/VQ-VLA (待确认)
-**领域**: 机器人 / VLA / 动作表示
+**会议**: ICCV2025  
+**arXiv**: [2507.01016](https://arxiv.org/abs/2507.01016)  
+**代码**: https://github.com/VQ-VLA (待确认)  
+**领域**: 机器人 / VLA / 动作表示  
 **关键词**: 动作tokenizer, VQ-VAE, 合成数据缩放, 长时域任务, 机器人操控
 
 ## 一句话总结

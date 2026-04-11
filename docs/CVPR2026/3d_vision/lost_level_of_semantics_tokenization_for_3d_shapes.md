@@ -1,9 +1,9 @@
 # LoST: Level of Semantics Tokenization for 3D Shapes
 
-**会议**: CVPR 2026
-**arXiv**: [2603.17995](https://arxiv.org/abs/2603.17995)
-**代码**: [项目页](https://lost3d.github.io)
-**领域**: 3D视觉
+**会议**: CVPR 2026  
+**arXiv**: [2603.17995](https://arxiv.org/abs/2603.17995)  
+**代码**: [项目页](https://lost3d.github.io)  
+**领域**: 3D视觉  
 **关键词**: 3D生成, 形状分词, 自回归模型, 语义层次, 扩散解码
 
 ## 一句话总结

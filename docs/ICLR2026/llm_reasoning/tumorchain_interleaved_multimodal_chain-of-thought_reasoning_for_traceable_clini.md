@@ -1,9 +1,9 @@
 # TumorChain: Interleaved Multimodal Chain-of-Thought Reasoning for Traceable Clinical Tumor Analysis
 
-**会议**: ICLR 2026
-**arXiv**: [2603.05867](https://arxiv.org/abs/2603.05867)
-**代码**: [GitHub](https://github.com/ZJU4HealthCare/TumorChain)
-**领域**: LLM推理
+**会议**: ICLR 2026  
+**arXiv**: [2603.05867](https://arxiv.org/abs/2603.05867)  
+**代码**: [GitHub](https://github.com/ZJU4HealthCare/TumorChain)  
+**领域**: LLM推理  
 **关键词**: 肿瘤分析, 多模态CoT推理, 交错推理, 3D CT, TNM分期
 
 ## 一句话总结

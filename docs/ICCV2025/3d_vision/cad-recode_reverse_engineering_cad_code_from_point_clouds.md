@@ -1,9 +1,9 @@
 # CAD-Recode: Reverse Engineering CAD Code from Point Clouds
 
-**会议**: ICCV2025
-**arXiv**: [2412.14042](https://arxiv.org/abs/2412.14042)
-**代码**: [filaPro/cad-recode](https://github.com/filaPro/cad-recode)
-**领域**: 3d_vision
+**会议**: ICCV2025  
+**arXiv**: [2412.14042](https://arxiv.org/abs/2412.14042)  
+**代码**: [filaPro/cad-recode](https://github.com/filaPro/cad-recode)  
+**领域**: 3d_vision  
 **关键词**: CAD逆向工程, 点云重建, 大语言模型, CadQuery, Python代码生成
 
 ## 一句话总结

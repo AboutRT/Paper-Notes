@@ -1,9 +1,9 @@
 # Pano360: Perspective to Panoramic Vision with Geometric Consistency
 
-**会议**: CVPR2026
-**arXiv**: [2603.12013](https://arxiv.org/abs/2603.12013)
-**代码**: [KiMomota/Pano360](https://github.com/KiMomota/Pano360)
-**领域**: 3d_vision
+**会议**: CVPR2026  
+**arXiv**: [2603.12013](https://arxiv.org/abs/2603.12013)  
+**代码**: [KiMomota/Pano360](https://github.com/KiMomota/Pano360)  
+**领域**: 3d_vision  
 **关键词**: panorama stitching, 3D geometric consistency, transformer, multi-view alignment, seam detection
 
 ## 一句话总结

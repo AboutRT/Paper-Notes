@@ -1,9 +1,9 @@
 # Statistical Guarantees for High-Dimensional Stochastic Gradient Descent
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.12013](https://arxiv.org/abs/2510.12013)
-**代码**: 无
-**领域**: 时间序列
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.12013](https://arxiv.org/abs/2510.12013)  
+**代码**: 无  
+**领域**: 时间序列  
 **关键词**: 随机梯度下降, 高维统计, 常数学习率, 几何矩收缩, 集中不等式
 
 ## 一句话总结

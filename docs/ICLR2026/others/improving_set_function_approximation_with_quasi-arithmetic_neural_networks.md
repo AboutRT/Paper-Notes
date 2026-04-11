@@ -1,9 +1,9 @@
 # Improving Set Function Approximation with Quasi-Arithmetic Neural Networks
 
-**会议**: ICLR 2026
-**arXiv**: [2602.04941](https://arxiv.org/abs/2602.04941)
-**代码**: 无
-**领域**: 深度学习理论/集合函数
+**会议**: ICLR 2026  
+**arXiv**: [2602.04941](https://arxiv.org/abs/2602.04941)  
+**代码**: 无  
+**领域**: 深度学习理论/集合函数  
 **关键词**: 集合函数, Kolmogorov均值, 可逆网络, 可学习池化, 置换不变性
 
 ## 一句话总结

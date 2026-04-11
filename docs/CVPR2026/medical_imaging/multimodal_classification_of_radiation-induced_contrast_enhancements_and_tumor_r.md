@@ -1,9 +1,9 @@
 # Multimodal Classification of Radiation-Induced Contrast Enhancements and Tumor Recurrence Using Deep Learning
 
-**会议**: CVPR 2026
-**arXiv**: [2603.11827](https://arxiv.org/abs/2603.11827)
-**代码**: 无
-**领域**: 医学图像
+**会议**: CVPR 2026  
+**arXiv**: [2603.11827](https://arxiv.org/abs/2603.11827)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 脑肿瘤, 放射诱导对比增强, 多模态分类, 纵向MRI, 放疗剂量图
 
 ## 一句话总结

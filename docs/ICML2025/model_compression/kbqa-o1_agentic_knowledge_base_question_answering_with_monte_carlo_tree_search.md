@@ -1,9 +1,9 @@
 # KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search
 
-**会议**: ICML2025
-**arXiv**: [2501.18922](https://arxiv.org/abs/2501.18922)
-**代码**: [LHRLAB/KBQA-o1](https://github.com/LHRLAB/KBQA-o1)
-**领域**: model_compression
+**会议**: ICML2025  
+**arXiv**: [2501.18922](https://arxiv.org/abs/2501.18922)  
+**代码**: [LHRLAB/KBQA-o1](https://github.com/LHRLAB/KBQA-o1)  
+**领域**: model_compression  
 **关键词**: 知识库问答, KBQA, 蒙特卡洛树搜索, MCTS, ReAct Agent, 低资源, 逻辑形式生成
 
 ## 一句话总结

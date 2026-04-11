@@ -1,9 +1,9 @@
 # VirtueBench: Evaluating Trustworthiness under Uncertainty in Long Video Understanding
 
-**会议**: CVPR 2026
-**arXiv**: [2603.07071](https://arxiv.org/abs/2603.07071)
-**代码**: 无
-**领域**: 视频理解
+**会议**: CVPR 2026  
+**arXiv**: [2603.07071](https://arxiv.org/abs/2603.07071)  
+**代码**: 无  
+**领域**: 视频理解  
 **关键词**: 视频理解Benchmark, 不确定性下的可信度, 长视频理解, 拒绝行为评估, VLM评测
 
 ## 一句话总结

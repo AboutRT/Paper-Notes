@@ -1,9 +1,9 @@
 # In-Context Linear Regression Demystified: Training Dynamics and Mechanistic Interpretability of Multi-Head Softmax Attention
 
-**会议**: ICML 2025
-**arXiv**: [2503.12734](https://arxiv.org/abs/2503.12734)
-**代码**: 无
-**领域**: Optimization
+**会议**: ICML 2025  
+**arXiv**: [2503.12734](https://arxiv.org/abs/2503.12734)  
+**代码**: 无  
+**领域**: Optimization  
 **关键词**: in-context learning, transformer, multi-head attention, training dynamics, mechanistic interpretability
 
 ## 一句话总结

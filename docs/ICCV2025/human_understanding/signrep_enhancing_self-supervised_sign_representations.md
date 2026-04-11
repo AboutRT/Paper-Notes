@@ -1,8 +1,8 @@
 # SignRep: Enhancing Self-Supervised Sign Representations
 
-**会议**: ICCV 2025
-**arXiv**: [2503.08529](https://arxiv.org/abs/2503.08529)
-**领域**: Sign Language Understanding / Self-Supervised Learning
+**会议**: ICCV 2025  
+**arXiv**: [2503.08529](https://arxiv.org/abs/2503.08529)  
+**领域**: Sign Language Understanding / Self-Supervised Learning  
 **关键词**: 手语表征学习, 自监督学习, 掩码自编码器, 骨架先验, 对抗风格损失, 字典检索
 
 ## 一句话总结

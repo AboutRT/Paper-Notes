@@ -1,9 +1,9 @@
 # Unified Biomolecular Trajectory Generation via Pretrained Variational Bridge
 
-**会议**: ICLR 2026
-**arXiv**: [2602.07588](https://arxiv.org/abs/2602.07588)
-**代码**: 无
-**领域**: 医学图像
+**会议**: ICLR 2026  
+**arXiv**: [2602.07588](https://arxiv.org/abs/2602.07588)  
+**代码**: 无  
+**领域**: 医学图像  
 **关键词**: 分子动力学, 轨迹生成, 变分桥匹配, 预训练, 强化学习微调
 
 ## 一句话总结

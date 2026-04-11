@@ -1,4 +1,5 @@
 # STRIDE-QA: Visual Question Answering Dataset for Spatiotemporal Reasoning in Urban Driving Scenes
+
 **会议**: AAAI 2026  
 **arXiv**: [2508.10427](https://arxiv.org/abs/2508.10427)  
 **代码**: [turingmotors/stride-qa](https://turingmotors.github.io/stride-qa/)  

@@ -1,9 +1,9 @@
 # GenDR: Lighten Generative Detail Restoration
 
-**会议**: ICLR 2026
-**arXiv**: [2503.06790](https://arxiv.org/abs/2503.06790)
-**代码**: 无
-**领域**: 图像超分辨率/扩散模型
+**会议**: ICLR 2026  
+**arXiv**: [2503.06790](https://arxiv.org/abs/2503.06790)  
+**代码**: 无  
+**领域**: 图像超分辨率/扩散模型  
 **关键词**: 单步超分, 潜在空间扩展, 分数蒸馏, VAE16通道, 一致性蒸馏
 
 ## 一句话总结

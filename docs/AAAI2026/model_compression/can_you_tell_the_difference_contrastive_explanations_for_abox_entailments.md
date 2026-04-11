@@ -1,9 +1,9 @@
 # Can You Tell the Difference? Contrastive Explanations for ABox Entailments
 
-**会议**: AAAI 2026
-**arXiv**: [2511.11281](https://arxiv.org/abs/2511.11281)
-**代码**: 无
-**领域**: 模型压缩
+**会议**: AAAI 2026  
+**arXiv**: [2511.11281](https://arxiv.org/abs/2511.11281)  
+**代码**: 无  
+**领域**: 模型压缩  
 **关键词**: 对比解释, 描述逻辑, ABox推理, 知识表示, 可解释性
 
 ## 一句话总结

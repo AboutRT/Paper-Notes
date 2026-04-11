@@ -1,9 +1,9 @@
 # AdvAgent: Controllable Blackbox Red-teaming on Web Agents
 
-**会议**: ICML 2025
-**arXiv**: [2410.17401](https://arxiv.org/abs/2410.17401)
-**代码**: [https://ai-secure.github.io/AdvAgent/](https://ai-secure.github.io/AdvAgent/)
-**领域**: LLM Agent
+**会议**: ICML 2025  
+**arXiv**: [2410.17401](https://arxiv.org/abs/2410.17401)  
+**代码**: [https://ai-secure.github.io/AdvAgent/](https://ai-secure.github.io/AdvAgent/)  
+**领域**: LLM Agent  
 **关键词**: Web Agent 安全, 红队测试, 对抗攻击, 黑盒攻击, 强化学习, Prompt 注入, DPO
 
 ## 一句话总结

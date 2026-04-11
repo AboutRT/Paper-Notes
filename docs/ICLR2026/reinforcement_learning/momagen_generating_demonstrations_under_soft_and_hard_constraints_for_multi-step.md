@@ -1,9 +1,9 @@
 # MoMaGen: Generating Demonstrations under Soft and Hard Constraints for Multi-Step Bimanual Mobile Manipulation
 
-**会议**: ICLR 2026
-**arXiv**: [2510.18316](https://arxiv.org/abs/2510.18316)
-**代码**: [项目页面](https://momagen.github.io)
-**领域**: 机器人学习/数据生成
+**会议**: ICLR 2026  
+**arXiv**: [2510.18316](https://arxiv.org/abs/2510.18316)  
+**代码**: [项目页面](https://momagen.github.io)  
+**领域**: 机器人学习/数据生成  
 **关键词**: 移动操作, 双臂协调, 约束优化, 自动数据生成, 模仿学习
 
 ## 一句话总结

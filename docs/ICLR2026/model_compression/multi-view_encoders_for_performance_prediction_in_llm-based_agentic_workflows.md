@@ -1,9 +1,9 @@
 # Multi-View Encoders for Performance Prediction in LLM-Based Agentic Workflows
 
-**会议**: ICLR 2026
-**arXiv**: [2505.19764](https://arxiv.org/abs/2505.19764)
-**代码**: [GitHub](https://github.com/deepauto-ai/agentic-predictor)
-**领域**: 模型压缩
+**会议**: ICLR 2026  
+**arXiv**: [2505.19764](https://arxiv.org/abs/2505.19764)  
+**代码**: [GitHub](https://github.com/deepauto-ai/agentic-predictor)  
+**领域**: 模型压缩  
 **关键词**: 性能预测, 多视图编码, Agent工作流, 图神经网络, 无监督预训练
 
 ## 一句话总结

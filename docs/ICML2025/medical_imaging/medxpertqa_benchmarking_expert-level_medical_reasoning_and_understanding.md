@@ -1,9 +1,9 @@
 # MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding
 
-**会议**: ICML 2025
-**arXiv**: [2501.18362](https://arxiv.org/abs/2501.18362)
-**代码**: https://github.com/TsinghuaC3I/MedXpertQA (有)
-**领域**: Medical Imaging
+**会议**: ICML 2025  
+**arXiv**: [2501.18362](https://arxiv.org/abs/2501.18362)  
+**代码**: https://github.com/TsinghuaC3I/MedXpertQA (有)  
+**领域**: Medical Imaging  
 **关键词**: 医学 QA 基准, 专家级推理, 多模态评估, 数据泄漏防护, o1 推理评估
 
 ## 一句话总结

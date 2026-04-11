@@ -1,10 +1,10 @@
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Influence Malleability in Linearized Attention: Dual Implications of Non-Convergent NTK Dynamics
 
-**会议**: CVPR2026
-**arXiv**: [2603.13085](https://arxiv.org/abs/2603.13085)
-**代码**: 待确认
-**领域**: 深度学习理论 / 注意力机制
+**会议**: CVPR2026  
+**arXiv**: [2603.13085](https://arxiv.org/abs/2603.13085)  
+**代码**: 待确认  
+**领域**: 深度学习理论 / 注意力机制  
 **关键词**: Neural Tangent Kernel, 线性化注意力, 影响力可塑性, 核方法, 特征学习
 
 ## 一句话总结

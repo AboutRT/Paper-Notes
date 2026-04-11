@@ -1,9 +1,9 @@
 # Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI
 
-**会议**: ICLR 2026
-**arXiv**: [2510.27090](https://arxiv.org/abs/2510.27090)
-**代码**: [GitHub](https://github.com/ICLR-Functional-Embedding/ICLR2026_Functional_Map)
-**领域**: llm_nlp
+**会议**: ICLR 2026  
+**arXiv**: [2510.27090](https://arxiv.org/abs/2510.27090)  
+**代码**: [GitHub](https://github.com/ICLR-Functional-Embedding/ICLR2026_Functional_Map)  
+**领域**: llm_nlp  
 **关键词**: 脑机接口, SEEG, 功能嵌入, 对比学习, Transformer, 跨被试建模, 神经信号
 
 ## 一句话总结

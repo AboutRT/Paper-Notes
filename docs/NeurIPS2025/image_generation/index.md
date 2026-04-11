@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🧠 NeurIPS2025** · 共 **136** 篇
+**🧠 NeurIPS2025** · 共 **144** 篇
 
 **[70% Size, 100% Accuracy: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float (DFloat11)](70_size_100_accuracy_lossless_llm_compression_for_efficient.md)**
 
@@ -487,6 +487,18 @@
 
 :   发现视频扩散模型中连续时间步残差输出的幅度比(magnitude ratio)遵循统一的单调递减规律（跨模型、跨prompt稳定），提出MagCache基于此规律自适应跳过冗余时间步并复用缓存，仅需1个样本校准即可在Open-Sora/CogVideoX/Wan 2.1/HunyuanVideo上实现2.1-2.68×加速，视觉保真度全面超越现有方法。
 
+**[MGE-LDM: Joint Latent Diffusion for Simultaneous Music Generation and Source Extraction](mge-ldm_joint_latent_diffusion_for_simultaneous_music_generation_and_source_extr.md)**
+
+:   提出 MGE-LDM，首个在统一的潜在扩散框架中同时实现音乐混合生成、部分生成（源补全）和文本驱动任意源提取的模型，通过联合建模混合-子混合-源三元组并利用扩散修复（inpainting）实现各任务。
+
+**[Next Semantic Scale Prediction via Hierarchical Diffusion Language Models](next_semantic_scale_prediction_via_hierarchical_diffusion_language_models.md)**
+
+:   提出 HDLM（Hierarchical Diffusion Language Model），通过在 clean token 和 mask token 之间引入具有粗粒度语义的聚类 token 中间层级，实现"下一语义尺度预测"的离散扩散语言建模，推导闭式 ELBO，在 OpenWebText 上困惑度一致优于 MDLM/GIDD，随机扰动后生成困惑度降低 62%。
+
+**[Non-Markovian Discrete Diffusion with Causal Language Models](non-markovian_discrete_diffusion_with_causal_language_models.md)**
+
+:   提出CaDDi框架，通过非马尔可夫离散扩散过程让每步去噪都能访问完整生成轨迹，并将其统一到因果语言模型架构中，使预训练LLM可直接复用为离散扩散模型。
+
 **[OmniSync: Towards Universal Lip Synchronization via Diffusion Transformers](omnisync_towards_universal_lip_synchronization_via_diffusion.md)**
 
 :   OmniSync提出了一种基于Diffusion Transformer的通用唇形同步框架，通过无掩码训练范式、基于Flow Matching的渐进噪声初始化和动态时空CFG三大创新，在真实视频和AI生成视频上都大幅超越先前方法，尤其在风格化角色的唇形同步上达到87.78%成功率（之前最佳67.78%）。
@@ -507,6 +519,10 @@
 
 :   提出 ReMDM 采样器，通过在生成过程中允许已解码 token 被重新掩码（remask），赋予离散掩码扩散模型迭代纠错能力，实现推理时计算缩放，在文本、图像和分子设计任务上显著提升采样质量。
 
+**[Safe and Stable Control via Lyapunov-Guided Diffusion Models](safe_and_stable_control_via_lyapunov-guided_diffusion_models.md)**
+
+:   提出 S²Diff，一个基于模型的扩散规划框架，利用控制 Lyapunov 屏障函数（CLBF）引导扩散采样生成轨迹级控制策略，无需控制仿射假设与二次规划，在多种非线性动力系统上同时保证安全性和稳定性，平均安全率达 98.75%。
+
 **[Safe-Sora: Safe Text-to-Video Generation via Graphical Watermarking](safesora_safe_texttovideo_generation_via_graphical_watermark.md)**
 
 :   Safe-Sora 首次将**图形水印**（如logo图像）直接嵌入到视频生成管线中，通过分层粗到细自适应匹配将水印patch分配到视觉最相似的帧和区域，并设计3D小波变换增强Mamba架构实现时空融合，在视频质量（FVD 3.77 vs 次优154.35）和水印保真度上大幅超越所有基线。
@@ -514,6 +530,14 @@
 **[Scalable, Explainable and Provably Robust Anomaly Detection with One-Step Flow Matching](scalable_explainable_and_provably_robust_anomaly_detection_with_one-step_flow_ma.md)**
 
 :   提出 TCCM（Time-Conditioned Contraction Matching），一种受 flow matching 启发的表格数据半监督异常检测方法，通过学习将正常数据收缩到原点的时间条件速度场，仅需单步前向推理即可计算异常分数，在 ADBench 47 个数据集上取得 AUROC 和 AUPRC 双第一，推理速度比 DTE 快 1573 倍。
+
+**[Scaling Can Lead to Compositional Generalization](scaling_can_lead_to_compositional_generalization.md)**
+
+:   证明标准 MLP 通过简单地扩大数据量和模型规模即可实现组合泛化（compositional generalization），无需显式的模块化架构设计，并发现组合泛化成功时任务成分可从隐藏激活中线性解码。
+
+**[Scaling Diffusion Transformers Efficiently via μP](scaling_diffusion_transformers_efficiently_via_μp.md)**
+
+:   将 Maximal Update Parametrization (μP) 从标准 Transformer 推广到扩散 Transformer（DiT、PixArt-α、MMDiT 等），证明其超参数可从小模型稳定迁移到大模型，显著降低大规模扩散模型的调参成本。
 
 **[Scaling Offline RL via Efficient and Expressive Shortcut Models](scaling_offline_rl_via_efficient_and_expressive_shortcut_models.md)**
 
@@ -530,6 +554,14 @@
 **[System-Embedded Diffusion Bridge Models](system-embedded_diffusion_bridge_models.md)**
 
 :   提出System-embedded Diffusion Bridge Models（SDB），将已知的线性测量系统直接嵌入矩阵值SDE的系数中，实现了对值域空间去噪和零空间信息合成的分离控制，在多种逆问题上取得一致性提升并展现出强大的系统失配鲁棒性。
+
+**[Towards Resilient Safety-Driven Unlearning for Diffusion Models Against Downstream Fine-tuning](towards_resilient_safety-driven_unlearning_for_diffusion_models_against_downstre.md)**
+
+:   提出ResAlign框架，通过Moreau包络近似和元学习策略，让扩散模型的安全卸载（unlearning）能抵抗下游微调带来的有害行为恢复，即使在纯良性数据上微调也能保持安全性。
+
+**[Training-Free Constrained Generation with Stable Diffusion Models](training-free_constrained_generation_with_stable_diffusion_models.md)**
+
+:   提出一种无需重新训练的约束生成方法，通过在 Stable Diffusion 的反向去噪过程中嵌入近端 Langevin 动力学（Proximal Langevin Dynamics），将图像空间中的约束通过解码器反向传播到潜空间，实现对生成输出的严格约束满足。
 
 **[Understanding Representation Dynamics of Diffusion Models via Low-Dimensional Models](understanding_representation_dynamics_of_diffusion_models_via_low-dimensional_mo.md)**
 

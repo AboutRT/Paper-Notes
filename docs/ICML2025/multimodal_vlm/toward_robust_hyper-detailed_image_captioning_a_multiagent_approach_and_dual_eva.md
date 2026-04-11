@@ -1,9 +1,9 @@
 # Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage
 
-**会议**: ICML 2025
-**arXiv**: [2412.15484](https://arxiv.org/abs/2412.15484)
-**代码**: [github.com/adobe-research/CapMAS](https://github.com/adobe-research/CapMAS)
-**领域**: 多模态大语言模型, 图文描述, 幻觉检测
+**会议**: ICML 2025  
+**arXiv**: [2412.15484](https://arxiv.org/abs/2412.15484)  
+**代码**: [github.com/adobe-research/CapMAS](https://github.com/adobe-research/CapMAS)  
+**领域**: 多模态大语言模型, 图文描述, 幻觉检测  
 **关键词**: Hyper-Detailed Captioning, Hallucination, Multiagent System, Factuality, Coverage Evaluation
 
 ## 一句话总结

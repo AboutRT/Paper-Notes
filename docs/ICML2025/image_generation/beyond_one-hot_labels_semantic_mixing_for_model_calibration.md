@@ -1,9 +1,9 @@
 # Beyond One-Hot Labels: Semantic Mixing for Model Calibration
 
-**会议**: ICML 2025
-**arXiv**: [2504.13548](https://arxiv.org/abs/2504.13548)
-**代码**: 有（GitHub）
-**领域**: 图像生成/模型校准
+**会议**: ICML 2025  
+**arXiv**: [2504.13548](https://arxiv.org/abs/2504.13548)  
+**代码**: 有（GitHub）  
+**领域**: 图像生成/模型校准  
 **关键词**: 模型校准, 数据增强, 扩散模型, 语义混合, 置信度标注
 
 ## 一句话总结

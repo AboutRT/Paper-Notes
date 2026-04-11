@@ -1,11 +1,11 @@
 <!-- 由 src/gen_stubs.py 自动生成，已深读补充 -->
 # LineFlow: A Framework to Learn Active Control of Production Lines
 
-**会议**: ICML2025
-**arXiv**: [2505.06744](https://arxiv.org/abs/2505.06744)
-**代码**: [hs-kempten/lineflow](https://github.com/hs-kempten/lineflow)
+**会议**: ICML2025  
+**arXiv**: [2505.06744](https://arxiv.org/abs/2505.06744)  
+**代码**: [hs-kempten/lineflow](https://github.com/hs-kempten/lineflow)  
 **作者**: Kai Müller, Martin Wenzel, Tobias Windisch
-**领域**: reinforcement_learning
+**领域**: reinforcement_learning  
 **关键词**: production line control, reinforcement learning, discrete-event simulation, manufacturing optimization, open-source framework
 
 ## 一句话总结

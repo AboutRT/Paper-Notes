@@ -1,9 +1,9 @@
 # Decision Making under the Exponential Family DRO
 
-**会议**: ICML 2025
-**arXiv**: [2411.16829](https://arxiv.org/abs/2411.16829)
-**代码**: 无
-**领域**: 鲁棒优化
+**会议**: ICML 2025  
+**arXiv**: [2411.16829](https://arxiv.org/abs/2411.16829)  
+**代码**: 无  
+**领域**: 鲁棒优化  
 **关键词**: distributionally robust optimization, exponential family, decision making, ambiguity sets, KL divergence
 
 ## 一句话总结
@@ -76,7 +76,8 @@
 
 ### 指数族DRO的对偶问题推导
 内层最大化问题利用指数族的共轭性质：
-- $\max_{	heta \in B_r(	heta_0)} E_{p_	heta}[l(x,X)] = \max_	heta \langle 	heta, E_{p_{	heta_0}}[T(X)] angle + ...$
+- $\max_{	heta \in B_r(	heta_0)} E_{p_	heta}[l(x,X)] = \max_	heta \langle 	heta, E_{p_{	heta_0}}[T(X)] 
+angle + ...$
 - 由于指数族的充分统计量T(X)是低维的，对偶问题维度低
 - 计算上等价于在低维单纯形/球上的凸优化
 - 比一般KL-DRO（需在无限维分布空间优化）高效得多

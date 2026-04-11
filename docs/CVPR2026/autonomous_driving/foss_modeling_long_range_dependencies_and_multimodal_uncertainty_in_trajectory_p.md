@@ -1,9 +1,9 @@
 # FoSS: Modeling Long-Range Dependencies and Multimodal Uncertainty in Trajectory Prediction via Fourier–State Space Integration
 
-**会议**: CVPR 2026
-**arXiv**: [2603.01284](https://arxiv.org/abs/2603.01284)
-**代码**: 无
-**领域**: 自动驾驶
+**会议**: CVPR 2026  
+**arXiv**: [2603.01284](https://arxiv.org/abs/2603.01284)  
+**代码**: 无  
+**领域**: 自动驾驶  
 **关键词**: 轨迹预测, 傅里叶变换, 状态空间模型, 双分支架构, 多模态预测
 
 ## 一句话总结

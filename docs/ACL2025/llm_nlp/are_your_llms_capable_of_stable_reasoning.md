@@ -1,9 +1,9 @@
 # Are Your LLMs Capable of Stable Reasoning?
 
-**会议**: ACL 2025
-**arXiv**: [2412.13147](https://arxiv.org/abs/2412.13147)
-**代码**: https://github.com/open-compass/GPassK (有)
-**领域**: LLM评估 / 数学推理
+**会议**: ACL 2025  
+**arXiv**: [2412.13147](https://arxiv.org/abs/2412.13147)  
+**代码**: https://github.com/open-compass/GPassK (有)  
+**领域**: LLM评估 / 数学推理  
 **关键词**: G-Pass@k, 推理稳定性, LiveMathBench, 评估指标, 数学推理
 
 ## 一句话总结

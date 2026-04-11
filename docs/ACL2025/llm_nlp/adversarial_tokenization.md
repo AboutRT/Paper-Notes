@@ -1,9 +1,9 @@
 # Adversarial Tokenization
 
-**会议**: ACL 2025
-**arXiv**: [2503.02174](https://arxiv.org/abs/2503.02174)
-**代码**: 无
-**领域**: LLM安全 / 对抗攻击
+**会议**: ACL 2025  
+**arXiv**: [2503.02174](https://arxiv.org/abs/2503.02174)  
+**代码**: 无  
+**领域**: LLM安全 / 对抗攻击  
 **关键词**: adversarial tokenization, BPE, jailbreak, LLM safety, subword models
 
 ## 一句话总结

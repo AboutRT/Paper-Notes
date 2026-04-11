@@ -1,9 +1,9 @@
 # Quantifying Climate Policy Action and Its Links to Development Outcomes: A Cross-National Data-Driven Analysis
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17425](https://arxiv.org/abs/2510.17425)
-**代码**: [github.com/booktrackerGirl/climate_change_policy_analysis](https://github.com/booktrackerGirl/climate_change_policy_analysis)
-**领域**: llm_nlp
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17425](https://arxiv.org/abs/2510.17425)  
+**代码**: [github.com/booktrackerGirl/climate_change_policy_analysis](https://github.com/booktrackerGirl/climate_change_policy_analysis)  
+**领域**: llm_nlp  
 **关键词**: climate policy, NLP classification, DistilBERT, panel regression, development outcomes
 
 ## 一句话总结

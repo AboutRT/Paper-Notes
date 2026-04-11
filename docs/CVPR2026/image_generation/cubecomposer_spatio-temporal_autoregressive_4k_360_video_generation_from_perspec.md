@@ -1,9 +1,9 @@
 # CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video
 
-**会议**: CVPR 2026
-**arXiv**: [2603.04291](https://arxiv.org/abs/2603.04291)
-**代码**: [项目主页](https://lg-li.github.io/project/cubecomposer)
-**领域**: 视频生成 / 360°全景视频
+**会议**: CVPR 2026  
+**arXiv**: [2603.04291](https://arxiv.org/abs/2603.04291)  
+**代码**: [项目主页](https://lg-li.github.io/project/cubecomposer)  
+**领域**: 视频生成 / 360°全景视频  
 **关键词**: 360°视频生成, 立方体映射, 时空自回归, 扩散模型, 4K原生生成
 
 ## 一句话总结

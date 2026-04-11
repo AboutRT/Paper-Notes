@@ -1,9 +1,9 @@
 # DirPA: Addressing Prior Shift in Imbalanced Few-shot Crop-type Classification
 
-**会议**: CVPR 2026
-**arXiv**: [2603.12905](https://arxiv.org/abs/2603.12905)
+**会议**: CVPR 2026  
+**arXiv**: [2603.12905](https://arxiv.org/abs/2603.12905)  
 **作者**: Joana Reuss, Ekaterina Gikalo, Marco Körner (TU Munich)
-**领域**: others
+**领域**: others  
 **关键词**: few-shot learning, prior shift, class imbalance, crop-type classification, Dirichlet distribution, remote sensing
 
 ## 一句话总结
