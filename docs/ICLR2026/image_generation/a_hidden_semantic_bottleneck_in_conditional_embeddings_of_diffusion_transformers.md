@@ -1,3 +1,16 @@
+---
+description: "【论文笔记】A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers 论文解读 | ICLR 2026 | arXiv 2602.21596 | 扩散模型 Diffusion Transformer | 首次系统分析扩散Transformer条件嵌入，发99%+余弦相似度和不到2%有效维度的极端稀疏性，裁剪2/3维度后生成质量不变"
+tags:
+  - ICLR 2026
+  - Diffusion Transformer
+  - 扩散模型
+  - Conditional Embedding
+  - 条件嵌入
+  - Embedding Sparsity
+  - 嵌入稀疏性
+  - 图像生成
+---
+
 # A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers
 
 **会议**: ICLR 2026  
