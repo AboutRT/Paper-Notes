@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization 论文解读 | CVPR 2026  **arXiv**: [2603.14267](https://arxiv.org/abs/2603.14267)  **代码**: [Demo](https://nngocson2002.github.io/projects/diflowdubber) (有)  **领域**: Image Generation / 多模态语音生成  **关键词**: 视频配音, 离散流匹配, 跨模态对齐, 语音合成, 唇音同步 | 提出DiFlowDubber，基于**离散流匹配(DFM)**的自动视频配音框架，通过两阶段训练（零样本TTS预训练→视频配音适配）将大规模TTS知识迁移到视频驱动配音，设计FaPro模块捕获面部表情-韵律映射、Synchronizer模块实现精准唇音同步。"
+description: "【论文笔记】DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization 论文解读 | CVPR 2026 | arXiv 2603.14267 | 视频配音 | 提出DiFlowDubber，基于**离散流匹配(DFM)**的自动视频配音框架，通过两阶段训练（零样本TTS预训练→视频配音适配）将大规模TTS知识迁移到视频驱动配音，设计FaPro模块捕获面部表情-韵律映射、Synchronizer模块实现精准唇音同步。"
 tags:
-  - CVPR 2026  **arXiv**: [2603.14267](https://arxiv.org/abs/2603.14267)  **代码**: [Demo](https://nngocson2002.github.io/projects/diflowdubber) (有)  **领域**: Image Generation / 多模态语音生成  **关键词**: 视频配音, 离散流匹配, 跨模态对齐, 语音合成, 唇音同步
+  - CVPR 2026
+  - 视频配音
+  - 离散流匹配
+  - 跨模态对齐
+  - 语音合成
+  - 唇音同步
 ---
 
 # DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization
 
-**会议**: CVPR 2026  **arXiv**: [2603.14267](https://arxiv.org/abs/2603.14267)  **代码**: [Demo](https://nngocson2002.github.io/projects/diflowdubber) (有)  **领域**: Image Generation / 多模态语音生成  **关键词**: 视频配音, 离散流匹配, 跨模态对齐, 语音合成, 唇音同步
+**会议**: CVPR 2026  
+**arXiv**: [2603.14267](https://arxiv.org/abs/2603.14267)  
+**代码**: [Demo](https://nngocson2002.github.io/projects/diflowdubber) (有)  
+**领域**: Image Generation / 多模态语音生成  
+**关键词**: 视频配音, 离散流匹配, 跨模态对齐, 语音合成, 唇音同步  
 
 ## 一句话总结
 

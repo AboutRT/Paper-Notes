@@ -1,7 +1,7 @@
 ---
-description: "【论文笔记】DeepSolution: Boosting Complex Engineering Solution Design via Tree-based Exploration and Bi-point Thinking 论文解读 | ACL 2025 | **arXiv**: [2502.20730](https://arxiv.org/abs/2502.20730) | **代码**: [GitHub](https://github.com/Li-Z-Q/DeepSolution) | arXiv 2502.20730 | RAG | 提出面向复杂工程方案设计的新基准 SolutionBench 和新系统 SolutionRAG，通过树搜索探索+双视角思维（设计-审查交替）在 RAG 框架下逐步生成满足多约束的可靠工程方案，在 8 个工程领域达到 SOTA。"
+description: "【论文笔记】DeepSolution: Boosting Complex Engineering Solution Design via Tree-based Exploration and Bi-point Thinking 论文解读 | ACL 2025 | arXiv 2502.20730 | RAG | 提出面向复杂工程方案设计的新基准 SolutionBench 和新系统 SolutionRAG，通过树搜索探索+双视角思维（设计-审查交替）在 RAG 框架下逐步生成满足多约束的可靠工程方案，在 8 个工程领域达到 SOTA。"
 tags:
-  - ACL 2025 | **arXiv**: [2502.20730](https://arxiv.org/abs/2502.20730) | **代码**: [GitHub](https://github.com/Li-Z-Q/DeepSolution)
+  - ACL 2025
   - RAG
   - tree search
   - engineering solution design
@@ -11,7 +11,9 @@ tags:
 
 # DeepSolution: Boosting Complex Engineering Solution Design via Tree-based Exploration and Bi-point Thinking
 
-**会议**: ACL 2025 | **arXiv**: [2502.20730](https://arxiv.org/abs/2502.20730) | **代码**: [GitHub](https://github.com/Li-Z-Q/DeepSolution)  
+**会议**: ACL 2025  
+**arXiv**: [2502.20730](https://arxiv.org/abs/2502.20730)  
+**代码**: [GitHub](https://github.com/Li-Z-Q/DeepSolution)  
 **arXiv**: [2502.20730](https://arxiv.org/abs/2502.20730)  
 **代码**: https://github.com/Li-Z-Q/DeepSolution  
 **领域**: 模型压缩  

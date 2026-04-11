@@ -11,10 +11,10 @@ tags:
 
 # GraphBEV: Towards Robust BEV Feature Alignment for Multi-Modal 3D Object Detection
 
-**会议**: ECCV 2024
-**arXiv**: [2403.11848](https://arxiv.org/abs/2403.11848)
-**代码**: https://github.com/adept-thu/GraphBEV (有)
-**领域**: 自动驾驶
+**会议**: ECCV 2024  
+**arXiv**: [2403.11848](https://arxiv.org/abs/2403.11848)  
+**代码**: https://github.com/adept-thu/GraphBEV (有)  
+**领域**: 自动驾驶  
 **关键词**: 3D目标检测, 多模态融合, BEV特征对齐, LiDAR-Camera, 图匹配
 
 ## 一句话总结

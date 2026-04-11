@@ -11,10 +11,10 @@ tags:
 
 # UniFormer: Unified and Efficient Transformer for Reasoning Across General and Custom Computing
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.08135](https://arxiv.org/abs/2511.08135)
-**代码**: 无
-**领域**: 高效 Transformer, 硬件加速, 异构计算
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.08135](https://arxiv.org/abs/2511.08135)  
+**代码**: 无  
+**领域**: 高效 Transformer, 硬件加速, 异构计算  
 **关键词**: 高效注意力, GPU-FPGA 跨平台, 矩阵乘法, Triton 内核, 双分支注意力
 
 ## 一句话总结

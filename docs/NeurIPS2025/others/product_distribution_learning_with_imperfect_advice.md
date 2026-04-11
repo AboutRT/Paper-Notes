@@ -11,10 +11,10 @@ tags:
 
 # Product Distribution Learning with Imperfect Advice
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.10366](https://arxiv.org/abs/2511.10366)
-**代码**: 无
-**领域**: 学习理论 / 分布学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.10366](https://arxiv.org/abs/2511.10366)  
+**代码**: 无  
+**领域**: 学习理论 / 分布学习  
 **关键词**: 分布学习, 带预测的算法, 乘积分布, 样本复杂度, 容错检验
 
 ## 一句话总结

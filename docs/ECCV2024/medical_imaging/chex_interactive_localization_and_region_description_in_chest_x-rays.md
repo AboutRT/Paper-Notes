@@ -11,10 +11,10 @@ tags:
 
 # CheX: Interactive Localization and Region Description in Chest X-rays
 
-**会议**: ECCV 2024
-**arXiv**: [2404.15770](https://arxiv.org/abs/2404.15770)
-**代码**: https://github.com/philip-mueller/chex (有)
-**领域**: 医学图像
+**会议**: ECCV 2024  
+**arXiv**: [2404.15770](https://arxiv.org/abs/2404.15770)  
+**代码**: https://github.com/philip-mueller/chex (有)  
+**领域**: 医学图像  
 **关键词**: 胸部X光, 报告生成, 视觉定位, 交互式诊断, 多任务学习
 
 ## 一句话总结

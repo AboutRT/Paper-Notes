@@ -11,10 +11,10 @@ tags:
 
 # SpEx: A Spectral Approach to Explainable Clustering
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.00885](https://arxiv.org/abs/2511.00885)
-**代码**: [GitHub](https://github.com/talargv/SpEx)
-**领域**: 可解释聚类, 谱方法, 图划分
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.00885](https://arxiv.org/abs/2511.00885)  
+**代码**: [GitHub](https://github.com/talargv/SpEx)  
+**领域**: 可解释聚类, 谱方法, 图划分  
 **关键词**: 可解释聚类, 谱图划分, 坐标切割, 决策树, Cheeger不等式
 
 ## 一句话总结

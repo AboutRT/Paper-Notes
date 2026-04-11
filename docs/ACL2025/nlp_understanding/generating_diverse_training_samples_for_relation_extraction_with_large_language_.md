@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Generating Diverse Training Samples for Relation Extraction with Large Language Models 论文解读 | ACL 2025 | **arXiv**: [2505.23108](https://arxiv.org/abs/2505.23108) | **代码**: [github.com/Lzx-ZBC](https://github.com/Lzx-ZBC) (有) | **领域**: NLP理解 | **关键词**: 关系抽取, 数据增强, LLM生成训练数据, DPO微调, 多样性 | 研究如何用LLM为关系抽取（RE）生成高质量且多样化的训练样本，提出基于ICL的逐条生成策略和基于DPO的多样性微调方法，生成的训练数据可有效提升few-shot RE模型性能。"
+description: "【论文笔记】Generating Diverse Training Samples for Relation Extraction with Large Language Models 论文解读 | ACL 2025 | arXiv 2505.23108 | 关系抽取 | 研究如何用LLM为关系抽取（RE）生成高质量且多样化的训练样本，提出基于ICL的逐条生成策略和基于DPO的多样性微调方法，生成的训练数据可有效提升few-shot RE模型性能。"
 tags:
-  - ACL 2025 | **arXiv**: [2505.23108](https://arxiv.org/abs/2505.23108) | **代码**: [github.com/Lzx-ZBC](https://github.com/Lzx-ZBC) (有) | **领域**: NLP理解 | **关键词**: 关系抽取, 数据增强, LLM生成训练数据, DPO微调, 多样性
+  - ACL 2025
+  - 关系抽取
+  - 数据增强
+  - LLM生成训练数据
+  - DPO微调
+  - 多样性
 ---
 
 # Generating Diverse Training Samples for Relation Extraction with Large Language Models
 
-**会议**: ACL 2025 | **arXiv**: [2505.23108](https://arxiv.org/abs/2505.23108) | **代码**: [github.com/Lzx-ZBC](https://github.com/Lzx-ZBC) (有) | **领域**: NLP理解 | **关键词**: 关系抽取, 数据增强, LLM生成训练数据, DPO微调, 多样性
+**会议**: ACL 2025  
+**arXiv**: [2505.23108](https://arxiv.org/abs/2505.23108)  
+**代码**: [github.com/Lzx-ZBC](https://github.com/Lzx-ZBC) (有)  
+**领域**: NLP理解  
+**关键词**: 关系抽取, 数据增强, LLM生成训练数据, DPO微调, 多样性  
 
 ## 一句话总结
 

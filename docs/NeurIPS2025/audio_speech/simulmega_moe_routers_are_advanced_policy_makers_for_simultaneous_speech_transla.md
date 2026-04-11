@@ -11,10 +11,10 @@ tags:
 
 # SimulMEGA: MoE Routers are Advanced Policy Makers for Simultaneous Speech Translation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.01200](https://arxiv.org/abs/2509.01200)
-**代码**: [GitHub](https://github.com/nethermanpro/simulmega)
-**领域**: 语音翻译, 同声传译, 混合专家
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.01200](https://arxiv.org/abs/2509.01200)  
+**代码**: [GitHub](https://github.com/nethermanpro/simulmega)  
+**领域**: 语音翻译, 同声传译, 混合专家  
 **关键词**: 同时语音翻译, MoE, 无监督策略学习, 流式TTS, 多语言翻译
 
 ## 一句话总结

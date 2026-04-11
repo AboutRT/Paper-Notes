@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Towards LLM-Empowered Knowledge Tracing via LLM-Student Hierarchical Behavior Alignment in Hyperbolic Space 论文解读 | AAAI 2026 | **arXiv**: [2602.22879](https://arxiv.org/abs/2602.22879) | **代码**: 待确认 | **领域**: self_supervised | **关键词**: Knowledge Tracing, LLM Agent, Hyperbolic Space, Contrastive Learning, 教育智能 | 提出 L-HAKT 框架，利用 LLM 双 Agent（Teacher + Student）生成合成数据，在双曲空间中进行对比对齐，将知识点的树状层级结构显式建模到知识追踪中。"
+description: "【论文笔记】Towards LLM-Empowered Knowledge Tracing via LLM-Student Hierarchical Behavior Alignment in Hyperbolic Space 论文解读 | AAAI 2026 | arXiv 2602.22879 | Knowledge Tracing | 提出 L-HAKT 框架，利用 LLM 双 Agent（Teacher + Student）生成合成数据，在双曲空间中进行对比对齐，将知识点的树状层级结构显式建模到知识追踪中。"
 tags:
-  - AAAI 2026 | **arXiv**: [2602.22879](https://arxiv.org/abs/2602.22879) | **代码**: 待确认 | **领域**: self_supervised | **关键词**: Knowledge Tracing, LLM Agent, Hyperbolic Space, Contrastive Learning, 教育智能
+  - AAAI 2026
+  - Knowledge Tracing
+  - LLM Agent
+  - Hyperbolic Space
+  - 对比学习
+  - 教育智能
 ---
 
 # Towards LLM-Empowered Knowledge Tracing via LLM-Student Hierarchical Behavior Alignment in Hyperbolic Space
 
-**会议**: AAAI 2026 | **arXiv**: [2602.22879](https://arxiv.org/abs/2602.22879) | **代码**: 待确认 | **领域**: self_supervised | **关键词**: Knowledge Tracing, LLM Agent, Hyperbolic Space, Contrastive Learning, 教育智能
+**会议**: AAAI 2026  
+**arXiv**: [2602.22879](https://arxiv.org/abs/2602.22879)  
+**代码**: 待确认  
+**领域**: self_supervised  
+**关键词**: Knowledge Tracing, LLM Agent, Hyperbolic Space, Contrastive Learning, 教育智能  
 
 ## 一句话总结
 

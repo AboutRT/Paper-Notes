@@ -11,10 +11,10 @@ tags:
 
 # What We Don't C: Manifold Disentanglement for Structured Discovery
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.09433](https://arxiv.org/abs/2511.09433)
-**代码**: 有
-**领域**: 表征学习, 流匹配, 解缠绕
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.09433](https://arxiv.org/abs/2511.09433)  
+**代码**: 有  
+**领域**: 表征学习, 流匹配, 解缠绕  
 **关键词**: 流形解缠绕, 流匹配, VAE, 分类器无关引导, 结构化发现
 
 ## 一句话总结

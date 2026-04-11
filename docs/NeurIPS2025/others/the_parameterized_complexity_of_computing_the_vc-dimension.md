@@ -11,10 +11,10 @@ tags:
 
 # The Parameterized Complexity of Computing the VC-Dimension
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17451](https://arxiv.org/abs/2510.17451)
-**代码**: 无
-**领域**: 计算复杂性理论, 机器学习理论
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17451](https://arxiv.org/abs/2510.17451)  
+**代码**: 无  
+**领域**: 计算复杂性理论, 机器学习理论  
 **关键词**: VC维, 参数化复杂性, 树宽, 固定参数可处理, ETH下界
 
 ## 一句话总结

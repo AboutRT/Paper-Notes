@@ -11,10 +11,10 @@ tags:
 
 # VERA: Variational Inference Framework for Jailbreaking Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.22666](https://arxiv.org/abs/2506.22666)
-**代码**: 无
-**领域**: AI 安全, LLM 红队测试, 变分推断
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.22666](https://arxiv.org/abs/2506.22666)  
+**代码**: 无  
+**领域**: AI 安全, LLM 红队测试, 变分推断  
 **关键词**: 越狱攻击, 变分推断, 黑盒攻击, 红队测试, 对抗提示
 
 ## 一句话总结

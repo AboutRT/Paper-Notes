@@ -11,10 +11,10 @@ tags:
 
 # RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection
 
-**会议**: AAAI 2026
-**arXiv**: [2512.11284](https://arxiv.org/abs/2512.11284)
-**代码**: 无
-**领域**: 工业异常检测 / 计算机视觉
+**会议**: AAAI 2026  
+**arXiv**: [2512.11284](https://arxiv.org/abs/2512.11284)  
+**代码**: 无  
+**领域**: 工业异常检测 / 计算机视觉  
 **关键词**: 异常检测, 自编码器, 递归重建, 工业缺陷检测, 无监督学习
 
 ## 一句话总结

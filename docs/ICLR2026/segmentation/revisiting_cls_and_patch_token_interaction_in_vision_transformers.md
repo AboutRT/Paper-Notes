@@ -3,7 +3,7 @@ description: "【论文笔记】Revisiting [CLS] and Patch Token Interaction in 
 tags:
   - ICLR 2026
   - Transformer
-  - [CLS] token
+  - CLS] token
   - patch token
   - 归一化层
   - 密集预测

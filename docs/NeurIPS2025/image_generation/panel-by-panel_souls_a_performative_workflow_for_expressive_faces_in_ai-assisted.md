@@ -11,10 +11,10 @@ tags:
 
 # Panel-by-Panel Souls: A Performative Workflow for Expressive Faces in AI-Assisted Manga Creation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.16038](https://arxiv.org/abs/2511.16038)
-**代码**: 无
-**领域**: Image Generation / Human-AI Co-Creation
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.16038](https://arxiv.org/abs/2511.16038)  
+**代码**: 无  
+**领域**: Image Generation / Human-AI Co-Creation  
 **关键词**: 漫画创作, 表情映射, 面部重演, 人机协作, LivePortrait
 
 ## 一句话总结

@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】OpenScan: A Benchmark for Generalized Open-Vocabulary 3D Scene Understanding 论文解读 | AAAI 2026  **arXiv**: [2408.11030](https://arxiv.org/abs/2408.11030)  **代码**: [https://youjunzhao.github.io/OpenScan/](https://youjunzhao.github.io/OpenScan/)  **领域**: 3D场景理解/开放词汇  **关键词**: Open-Vocabulary 3D, 属性理解, 3D场景分割, Benchmark, 知识图谱 | 本文提出了广义开放词汇 3D 场景理解任务（GOV-3D）及对应的 OpenScan 基准，将 3D 场景理解从物体类别扩展到八种语言学属性维度，揭示了现有 OV-3D 方法在理解抽象物体属性方面的严重不足。"
+description: "【论文笔记】OpenScan: A Benchmark for Generalized Open-Vocabulary 3D Scene Understanding 论文解读 | AAAI 2026 | arXiv 2408.11030 | Open-Vocabulary 3D | 本文提出了广义开放词汇 3D 场景理解任务（GOV-3D）及对应的 OpenScan 基准，将 3D 场景理解从物体类别扩展到八种语言学属性维度，揭示了现有 OV-3D 方法在理解抽象物体属性方面的严重不足。"
 tags:
-  - AAAI 2026  **arXiv**: [2408.11030](https://arxiv.org/abs/2408.11030)  **代码**: [https://youjunzhao.github.io/OpenScan/](https://youjunzhao.github.io/OpenScan/)  **领域**: 3D场景理解/开放词汇  **关键词**: Open-Vocabulary 3D, 属性理解, 3D场景分割, Benchmark, 知识图谱
+  - AAAI 2026
+  - Open-Vocabulary 3D
+  - 属性理解
+  - 3D场景分割
+  - Benchmark
+  - 知识图谱
 ---
 
 # OpenScan: A Benchmark for Generalized Open-Vocabulary 3D Scene Understanding
 
-**会议**: AAAI 2026  **arXiv**: [2408.11030](https://arxiv.org/abs/2408.11030)  **代码**: [https://youjunzhao.github.io/OpenScan/](https://youjunzhao.github.io/OpenScan/)  **领域**: 3D场景理解/开放词汇  **关键词**: Open-Vocabulary 3D, 属性理解, 3D场景分割, Benchmark, 知识图谱
+**会议**: AAAI 2026  
+**arXiv**: [2408.11030](https://arxiv.org/abs/2408.11030)  
+**代码**: [https://youjunzhao.github.io/OpenScan/](https://youjunzhao.github.io/OpenScan/)  
+**领域**: 3D场景理解/开放词汇  
+**关键词**: Open-Vocabulary 3D, 属性理解, 3D场景分割, Benchmark, 知识图谱  
 
 ## 一句话总结
 

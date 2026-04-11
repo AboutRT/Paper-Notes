@@ -11,10 +11,10 @@ tags:
 
 # Predictive Feature Caching for Training-free Acceleration of Molecular Geometry Generation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.04646](https://arxiv.org/abs/2510.04646)
-**代码**: 无
-**领域**: 分子生成 / 推理加速
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.04646](https://arxiv.org/abs/2510.04646)  
+**代码**: 无  
+**领域**: 分子生成 / 推理加速  
 **关键词**: 分子几何生成, 流匹配, 特征缓存, 免训练加速, SE(3)等变
 
 ## 一句话总结

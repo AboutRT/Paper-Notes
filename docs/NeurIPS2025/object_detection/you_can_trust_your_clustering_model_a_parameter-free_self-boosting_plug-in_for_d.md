@@ -11,10 +11,10 @@ tags:
 
 # You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.21193](https://arxiv.org/abs/2511.21193)
-**代码**: [有](https://github.com/l-h-y168/DCBoost)
-**领域**: 深度聚类 / 无监督学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.21193](https://arxiv.org/abs/2511.21193)  
+**代码**: [有](https://github.com/l-h-y168/DCBoost)  
+**领域**: 深度聚类 / 无监督学习  
 **关键词**: 深度聚类, 自增强插件, 局部结构, 全局结构优化, 无参数
 
 ## 一句话总结

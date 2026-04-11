@@ -11,10 +11,10 @@ tags:
 
 # TangledFeatures: Robust Feature Selection in Highly Correlated Spaces
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.15005](https://arxiv.org/abs/2510.15005)
-**代码**: [R Package: TangledFeatures](https://github.com) (R包，准备CRAN提交)
-**领域**: 特征选择, 可解释性, 结构生物学
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.15005](https://arxiv.org/abs/2510.15005)  
+**代码**: [R Package: TangledFeatures](https://github.com) (R包，准备CRAN提交)  
+**领域**: 特征选择, 可解释性, 结构生物学  
 **关键词**: 特征选择, 相关性空间, 稳定性, 丙氨酸二肽, 可解释AI
 
 ## 一句话总结

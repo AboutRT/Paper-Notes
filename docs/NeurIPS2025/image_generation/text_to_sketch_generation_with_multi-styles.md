@@ -11,10 +11,10 @@ tags:
 
 # Text to Sketch Generation with Multi-Styles
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.04123](https://arxiv.org/abs/2511.04123)
-**代码**: [GitHub](https://github.com/CMACH508/M3S)
-**领域**: 图像生成, 风格迁移, 草图合成
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.04123](https://arxiv.org/abs/2511.04123)  
+**代码**: [GitHub](https://github.com/CMACH508/M3S)  
+**领域**: 图像生成, 风格迁移, 草图合成  
 **关键词**: 草图生成, 多风格合成, 扩散模型, K/V注入, AdaIN
 
 ## 一句话总结

@@ -1,12 +1,14 @@
 ---
-description: "【论文笔记】MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset 论文解读 | ACL 2025 | **arXiv**: [2406.02106](https://arxiv.org/abs/2406.02106) | **代码**: [GitHub](https://github.com/HKUST-KnowComp/MARS) | 本文提出了 **Metaphysical Reasoning（形而上推理）** 的形式化定义，将分布变化下的推理分解为三步判别过程，并构建了首个大规模评估基准 Mars（355K 标注数据），实验表明 20+ 语言模型在该任务上表现均不理想，揭示了 LLM 在理解事件组成要素变化及其因果效应方面的显著短板。"
+description: "【论文笔记】MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset 论文解读 | ACL 2025 | arXiv 2406.02106 | 本文提出了 **Metaphysical Reasoning（形而上推理）** 的形式化定义，将分布变化下的推理分解为三步判别过程，并构建了首个大规模评估基准 Mars（355K 标注数据），实验表明 20+ 语言模型在该任务上表现均不理想，揭示了 LLM 在理解事件组成要素变化及其因果效应方面的显著短板。"
 tags:
-  - ACL 2025 | **arXiv**: [2406.02106](https://arxiv.org/abs/2406.02106) | **代码**: [GitHub](https://github.com/HKUST-KnowComp/MARS)
+  - ACL 2025
 ---
 
 # MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset
 
-**会议**: ACL 2025 | **arXiv**: [2406.02106](https://arxiv.org/abs/2406.02106) | **代码**: [GitHub](https://github.com/HKUST-KnowComp/MARS)  
+**会议**: ACL 2025  
+**arXiv**: [2406.02106](https://arxiv.org/abs/2406.02106)  
+**代码**: [GitHub](https://github.com/HKUST-KnowComp/MARS)  
 **作者**: Weiqi Wang, Yangqiu Song (HKUST)
 
 ## 一句话总结

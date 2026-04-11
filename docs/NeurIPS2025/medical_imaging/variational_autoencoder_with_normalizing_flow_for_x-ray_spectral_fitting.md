@@ -11,10 +11,10 @@ tags:
 
 # Variational Autoencoder with Normalizing Flow for X-ray Spectral Fitting
 
-**会议**: NeurIPS 2025
-**arXiv**: [2601.07440](https://arxiv.org/abs/2601.07440)
-**代码**: [GitHub](https://github.com/fi-redmen/fspnet-var.git)
-**领域**: 医学影像/天体物理, 变分推断, 光谱拟合
+**会议**: NeurIPS 2025  
+**arXiv**: [2601.07440](https://arxiv.org/abs/2601.07440)  
+**代码**: [GitHub](https://github.com/fi-redmen/fspnet-var.git)  
+**领域**: 医学影像/天体物理, 变分推断, 光谱拟合  
 **关键词**: 变分自编码器, 归一化流, X 射线光谱, 黑洞 X 射线双星, 后验分布
 
 ## 一句话总结

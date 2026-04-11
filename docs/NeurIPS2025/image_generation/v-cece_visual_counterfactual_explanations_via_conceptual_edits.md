@@ -11,10 +11,10 @@ tags:
 
 # V-CECE: Visual Counterfactual Explanations via Conceptual Edits
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.16567](https://arxiv.org/abs/2509.16567)
-**代码**: [项目页面](https://nickspanos55.github.io/vcece)
-**领域**: 可解释 AI, 反事实解释, 扩散模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.16567](https://arxiv.org/abs/2509.16567)  
+**代码**: [项目页面](https://nickspanos55.github.io/vcece)  
+**领域**: 可解释 AI, 反事实解释, 扩散模型  
 **关键词**: 反事实解释, 概念编辑, 黑盒, 知识图谱, 扩散模型
 
 ## 一句话总结

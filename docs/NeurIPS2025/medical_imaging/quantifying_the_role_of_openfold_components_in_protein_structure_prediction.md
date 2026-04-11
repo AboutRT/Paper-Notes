@@ -11,10 +11,10 @@ tags:
 
 # Quantifying the Role of OpenFold Components in Protein Structure Prediction
 
-**会议**: NeurIPS 2025 (Workshop)
-**arXiv**: [2511.14781](https://arxiv.org/abs/2511.14781)
-**代码**: 无（基于 OpenFold 开源实现）
-**领域**: 蛋白质结构预测 / 可解释性
+**会议**: NeurIPS 2025 (Workshop)  
+**arXiv**: [2511.14781](https://arxiv.org/abs/2511.14781)  
+**代码**: 无（基于 OpenFold 开源实现）  
+**领域**: 蛋白质结构预测 / 可解释性  
 **关键词**: OpenFold, AlphaFold2, Evoformer, 组件消融, 蛋白质长度
 
 ## 一句话总结

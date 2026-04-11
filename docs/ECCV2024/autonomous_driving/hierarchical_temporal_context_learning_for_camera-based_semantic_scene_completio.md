@@ -11,10 +11,10 @@ tags:
 
 # Hierarchical Temporal Context Learning for Camera-based Semantic Scene Completion
 
-**会议**: ECCV 2024
-**arXiv**: [2407.02077](https://arxiv.org/abs/2407.02077)
-**代码**: https://github.com/Arlo0o/HTCL (有)
-**领域**: 自动驾驶
+**会议**: ECCV 2024  
+**arXiv**: [2407.02077](https://arxiv.org/abs/2407.02077)  
+**代码**: https://github.com/Arlo0o/HTCL (有)  
+**领域**: 自动驾驶  
 **关键词**: 语义场景补全, 时序上下文学习, 跨帧亲和度, 可变形卷积, 占据预测
 
 ## 一句话总结

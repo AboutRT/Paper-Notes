@@ -1,13 +1,23 @@
 ---
-description: "【论文笔记】Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection 论文解读 | AAAI 2026 | **arXiv**: [2511.06328](https://arxiv.org/abs/2511.06328) | **代码**: 待确认 | **领域**: audio_speech | **关键词**: multimodal sentiment analysis, dynamic modality selection, graph convolutional network, capsule network, cross-modal attention, sequence compression | 提出 MODS 框架，通过图卷积动态序列压缩（GDC）消除非语言模态冗余，并设计样本级动态主模态选择器（MSelector）和主模态中心交叉注意力（PCCA），实现 MSA 中按样本自适应选择主导模态。"
+description: "【论文笔记】Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection 论文解读 | AAAI 2026 | arXiv 2511.06328 | 多模态 multimodal sentiment analysis | 提出 MODS 框架，通过图卷积动态序列压缩（GDC）消除非语言模态冗余，并设计样本级动态主模态选择器（MSelector）和主模态中心交叉注意力（PCCA），实现 MSA 中按样本自适应选择主导模态。"
 tags:
-  - AAAI 2026 | **arXiv**: [2511.06328](https://arxiv.org/abs/2511.06328) | **代码**: 待确认 | **领域**: audio_speech | **关键词**: multimodal sentiment analysis, dynamic modality selection, graph convolutional network, capsule network, cross-modal attention, sequence compression
+  - AAAI 2026
+  - 多模态
+  - dynamic modality selection
+  - graph convolutional network
+  - capsule network
+  - 注意力机制
+  - sequence compression
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection
 
-**会议**: AAAI 2026 | **arXiv**: [2511.06328](https://arxiv.org/abs/2511.06328) | **代码**: 待确认 | **领域**: audio_speech | **关键词**: multimodal sentiment analysis, dynamic modality selection, graph convolutional network, capsule network, cross-modal attention, sequence compression
+**会议**: AAAI 2026  
+**arXiv**: [2511.06328](https://arxiv.org/abs/2511.06328)  
+**代码**: 待确认  
+**领域**: audio_speech  
+**关键词**: multimodal sentiment analysis, dynamic modality selection, graph convolutional network, capsule network, cross-modal attention, sequence compression  
 
 ## 一句话总结
 

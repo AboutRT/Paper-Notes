@@ -11,10 +11,10 @@ tags:
 
 # SmartWilds: Multimodal Wildlife Monitoring Dataset
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.18894](https://arxiv.org/abs/2509.18894)
-**代码**: 无 (数据集在HuggingFace，CC0-1.0许可)
-**领域**: 数据集, 野生动物监测, 多模态学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.18894](https://arxiv.org/abs/2509.18894)  
+**代码**: 无 (数据集在HuggingFace，CC0-1.0许可)  
+**领域**: 数据集, 野生动物监测, 多模态学习  
 **关键词**: 多模态数据集, 野生动物监测, 无人机影像, 相机陷阱, 生物声学
 
 ## 一句话总结

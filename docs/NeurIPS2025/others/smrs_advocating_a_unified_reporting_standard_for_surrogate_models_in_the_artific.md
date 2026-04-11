@@ -11,10 +11,10 @@ tags:
 
 # SMRS: Advocating a Unified Reporting Standard for Surrogate Models in the AI Era
 
-**会议**: NeurIPS 2025
-**arXiv**: [2502.06753](https://arxiv.org/abs/2502.06753)
-**代码**: 无
-**领域**: 科学计算, 代理模型, 标准化, 可复现性
+**会议**: NeurIPS 2025  
+**arXiv**: [2502.06753](https://arxiv.org/abs/2502.06753)  
+**代码**: 无  
+**领域**: 科学计算, 代理模型, 标准化, 可复现性  
 **关键词**: 代理模型, 报告标准, 可复现性, 不确定性量化, 基准测试
 
 ## 一句话总结

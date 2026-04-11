@@ -11,10 +11,10 @@ tags:
 
 # Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.04534](https://arxiv.org/abs/2511.04534)
-**代码**: [GitHub](https://github.com/jonaskat87/UQ_AE-SINDy)
-**领域**: 不确定性量化, 科学计算
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.04534](https://arxiv.org/abs/2511.04534)  
+**代码**: [GitHub](https://github.com/jonaskat87/UQ_AE-SINDy)  
+**领域**: 不确定性量化, 科学计算  
 **关键词**: 降阶模型, 共形预测, 云微物理, 自编码器-SINDy, 代理模型
 
 ## 一句话总结

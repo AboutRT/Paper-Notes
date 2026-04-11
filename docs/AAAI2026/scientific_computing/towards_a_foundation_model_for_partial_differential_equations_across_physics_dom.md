@@ -1,12 +1,23 @@
 ---
-description: "【论文笔记】Towards a Foundation Model for Partial Differential Equations Across Physics Domains 论文解读 | AAAI 2026 | **arXiv**: [2511.21861](https://arxiv.org/abs/2511.21861) | **代码**: 待确认 | **领域**: scientific_computing | **关键词**: PDE, foundation model, neural operator, Mamba, FNO, multi-physics, The Well benchmark | 提出 PDE-FM，一个结合空间-频谱 tokenization、物理感知 FiLM 调制和 Mamba 状态空间 backbone 的模块化 PDE foundation model，在 The Well 基准的 12 个跨物理域数据集上平均降低 VRMSE 46%。"
+description: "【论文笔记】Towards a Foundation Model for Partial Differential Equations Across Physics Domains 论文解读 | AAAI 2026 | arXiv 2511.21861 | 偏微分方程 PDE | 提出 PDE-FM，一个结合空间-频谱 tokenization、物理感知 FiLM 调制和 Mamba 状态空间 backbone 的模块化 PDE foundation model，在 The Well 基准的 12 个跨物理域数据集上平均降低 VRMSE 46%。"
 tags:
-  - AAAI 2026 | **arXiv**: [2511.21861](https://arxiv.org/abs/2511.21861) | **代码**: 待确认 | **领域**: scientific_computing | **关键词**: PDE, foundation model, neural operator, Mamba, FNO, multi-physics, The Well benchmark
+  - AAAI 2026
+  - 偏微分方程
+  - foundation model
+  - 神经算子
+  - Mamba
+  - FNO
+  - multi-physics
+  - The Well benchmark
 ---
 
 # Towards a Foundation Model for Partial Differential Equations Across Physics Domains
 
-**会议**: AAAI 2026 | **arXiv**: [2511.21861](https://arxiv.org/abs/2511.21861) | **代码**: 待确认 | **领域**: scientific_computing | **关键词**: PDE, foundation model, neural operator, Mamba, FNO, multi-physics, The Well benchmark
+**会议**: AAAI 2026  
+**arXiv**: [2511.21861](https://arxiv.org/abs/2511.21861)  
+**代码**: 待确认  
+**领域**: scientific_computing  
+**关键词**: PDE, foundation model, neural operator, Mamba, FNO, multi-physics, The Well benchmark  
 
 ## 一句话总结
 

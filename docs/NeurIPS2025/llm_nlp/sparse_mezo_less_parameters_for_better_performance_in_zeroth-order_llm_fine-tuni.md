@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Sparse MeZO: Less Parameters for Better Performance in Zeroth-Order LLM Fine-Tuning 论文解读 | NeurIPS 2025 / **arXiv**: [2402.15751](https://arxiv.org/abs/2402.15751) / **代码**: [GitHub](https://github.com/NUS-HPC-AI-Lab/SparseMeZO) / **领域**: llm_nlp / **关键词**: 零阶优化, 稀疏微调, 内存高效, LLM微调, 梯度噪声 | 提出 Sparse MeZO（S-MeZO），通过观察到零阶梯度噪声对大权重影响更严重，选择性地仅对小权重进行零阶优化扰动和更新，在不增加内存开销的前提下实现了显著的性能提升（RTE 上 +9%）和收敛加速（3.5x）。"
+description: "【论文笔记】Sparse MeZO: Less Parameters for Better Performance in Zeroth-Order LLM Fine-Tuning 论文解读 | NeurIPS 2025 | arXiv 2402.15751 | 零阶优化 | 提出 Sparse MeZO（S-MeZO），通过观察到零阶梯度噪声对大权重影响更严重，选择性地仅对小权重进行零阶优化扰动和更新，在不增加内存开销的前提下实现了显著的性能提升（RTE 上 +9%）和收敛加速（3.5x）。"
 tags:
-  - NeurIPS 2025 / **arXiv**: [2402.15751](https://arxiv.org/abs/2402.15751) / **代码**: [GitHub](https://github.com/NUS-HPC-AI-Lab/SparseMeZO) / **领域**: llm_nlp / **关键词**: 零阶优化, 稀疏微调, 内存高效, LLM微调, 梯度噪声
+  - NeurIPS 2025
+  - 零阶优化
+  - 稀疏微调
+  - 内存高效
+  - LLM微调
+  - 梯度噪声
 ---
 
 # Sparse MeZO: Less Parameters for Better Performance in Zeroth-Order LLM Fine-Tuning
 
-**会议**: NeurIPS 2025 / **arXiv**: [2402.15751](https://arxiv.org/abs/2402.15751) / **代码**: [GitHub](https://github.com/NUS-HPC-AI-Lab/SparseMeZO) / **领域**: llm_nlp / **关键词**: 零阶优化, 稀疏微调, 内存高效, LLM微调, 梯度噪声
+**会议**: NeurIPS 2025  
+**arXiv**: [2402.15751](https://arxiv.org/abs/2402.15751)  
+**代码**: [GitHub](https://github.com/NUS-HPC-AI-Lab/SparseMeZO)  
+**领域**: llm_nlp  
+**关键词**: 零阶优化, 稀疏微调, 内存高效, LLM微调, 梯度噪声  
 
 ## 一句话总结
 

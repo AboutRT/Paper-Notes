@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Strategyproof Reinforcement Learning from Human Feedback 论文解读 | NeurIPS 2025 / **arXiv**: [2503.09561](https://arxiv.org/abs/2503.09561) / **代码**: 未公开 / **领域**: llm_alignment / **关键词**: RLHF, 策略防操纵, 多元偏好, 机制设计, 社会福利最大化 | 首次从机制设计角度研究 RLHF 中多标注者策略性操纵问题，证明了策略防操纵（strategyproofness）与政策对齐之间存在根本性权衡，并提出 Pessimistic Median of MLEs 算法实现近似策略防操纵。"
+description: "【论文笔记】Strategyproof Reinforcement Learning from Human Feedback 论文解读 | NeurIPS 2025 | arXiv 2503.09561 | RLHF | 首次从机制设计角度研究 RLHF 中多标注者策略性操纵问题，证明了策略防操纵（strategyproofness）与政策对齐之间存在根本性权衡，并提出 Pessimistic Median of MLEs 算法实现近似策略防操纵。"
 tags:
-  - NeurIPS 2025 / **arXiv**: [2503.09561](https://arxiv.org/abs/2503.09561) / **代码**: 未公开 / **领域**: llm_alignment / **关键词**: RLHF, 策略防操纵, 多元偏好, 机制设计, 社会福利最大化
+  - NeurIPS 2025
+  - RLHF
+  - 策略防操纵
+  - 多元偏好
+  - 机制设计
+  - 社会福利最大化
 ---
 
 # Strategyproof Reinforcement Learning from Human Feedback
 
-**会议**: NeurIPS 2025 / **arXiv**: [2503.09561](https://arxiv.org/abs/2503.09561) / **代码**: 未公开 / **领域**: llm_alignment / **关键词**: RLHF, 策略防操纵, 多元偏好, 机制设计, 社会福利最大化
+**会议**: NeurIPS 2025  
+**arXiv**: [2503.09561](https://arxiv.org/abs/2503.09561)  
+**代码**: 未公开  
+**领域**: llm_alignment  
+**关键词**: RLHF, 策略防操纵, 多元偏好, 机制设计, 社会福利最大化  
 
 ## 一句话总结
 

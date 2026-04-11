@@ -11,10 +11,10 @@ tags:
 
 # OmniCast: A Masked Latent Diffusion Model for Weather Forecasting Across Time Scales
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.18707](https://arxiv.org/abs/2510.18707)
-**代码**: [GitHub](https://github.com/tung-nd/omnicast)
-**领域**: 天气预报、生成模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.18707](https://arxiv.org/abs/2510.18707)  
+**代码**: [GitHub](https://github.com/tung-nd/omnicast)  
+**领域**: 天气预报、生成模型  
 **关键词**: 天气预报, 潜在扩散模型, 掩码生成建模, 次季节预报, VAE
 
 ## 一句话总结

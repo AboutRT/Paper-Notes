@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Phys-Liquid: A Physics-Informed Dataset for Estimating 3D Geometry and Volume of Transparent Deformable Liquids 论文解读 | AAAI 2026 | **arXiv**: [2511.11077](https://arxiv.org/abs/2511.11077) | **代码**: [项目页](https://dualtransparency.github.io/Phys-Liquid/) | **领域**: scientific_computing | **关键词**: physics-informed dataset, transparent liquid, 3D reconstruction, Navier-Stokes, liquid dynamics | 提出 Phys-Liquid 数据集（97,200 张仿真图像 + 3D mesh），基于 Navier-Stokes 方程模拟容器旋转引起的透明液体动态变形，并设计四阶段管线验证其在液体几何重建和体积估计中的有效性。"
+description: "【论文笔记】Phys-Liquid: A Physics-Informed Dataset for Estimating 3D Geometry and Volume of Transparent Deformable Liquids 论文解读 | AAAI 2026 | arXiv 2511.11077 | physics-informed dataset | 提出 Phys-Liquid 数据集（97,200 张仿真图像 + 3D mesh），基于 Navier-Stokes 方程模拟容器旋转引起的透明液体动态变形，并设计四阶段管线验证其在液体几何重建和体积估计中的有效性。"
 tags:
-  - AAAI 2026 | **arXiv**: [2511.11077](https://arxiv.org/abs/2511.11077) | **代码**: [项目页](https://dualtransparency.github.io/Phys-Liquid/) | **领域**: scientific_computing | **关键词**: physics-informed dataset, transparent liquid, 3D reconstruction, Navier-Stokes, liquid dynamics
+  - AAAI 2026
+  - physics-informed dataset
+  - transparent liquid
+  - 3D重建
+  - Navier-Stokes
+  - liquid dynamics
 ---
 
 # Phys-Liquid: A Physics-Informed Dataset for Estimating 3D Geometry and Volume of Transparent Deformable Liquids
 
-**会议**: AAAI 2026 | **arXiv**: [2511.11077](https://arxiv.org/abs/2511.11077) | **代码**: [项目页](https://dualtransparency.github.io/Phys-Liquid/) | **领域**: scientific_computing | **关键词**: physics-informed dataset, transparent liquid, 3D reconstruction, Navier-Stokes, liquid dynamics
+**会议**: AAAI 2026  
+**arXiv**: [2511.11077](https://arxiv.org/abs/2511.11077)  
+**代码**: [项目页](https://dualtransparency.github.io/Phys-Liquid/)  
+**领域**: scientific_computing  
+**关键词**: physics-informed dataset, transparent liquid, 3D reconstruction, Navier-Stokes, liquid dynamics  
 
 ## 一句话总结
 

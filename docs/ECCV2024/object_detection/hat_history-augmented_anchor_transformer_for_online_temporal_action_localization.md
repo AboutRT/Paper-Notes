@@ -11,10 +11,10 @@ tags:
 
 # HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization
 
-**会议**: ECCV 2024
-**arXiv**: [2408.06437](https://arxiv.org/abs/2408.06437)
-**代码**: https://github.com/sakibreza/ECCV24-HAT/ (有)
-**领域**: 目标检测
+**会议**: ECCV 2024  
+**arXiv**: [2408.06437](https://arxiv.org/abs/2408.06437)  
+**代码**: https://github.com/sakibreza/ECCV24-HAT/ (有)  
+**领域**: 目标检测  
 **关键词**: 在线时序动作定位, Transformer, 历史上下文, 自我中心视觉, 自适应焦点损失
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # Regular Games – an Automata-Based General Game Playing Language
 
-**会议**: AAAI 2026
-**arXiv**: [2511.10593](https://arxiv.org/abs/2511.10593)
-**代码**: [GitHub (RG)](https://github.com/radekmie/rg) / [GitHub (Compiler)](https://github.com/WoojtekP/RGcompiler)
-**领域**: 通用博弈 / 形式语言 / 人工智能
+**会议**: AAAI 2026  
+**arXiv**: [2511.10593](https://arxiv.org/abs/2511.10593)  
+**代码**: [GitHub (RG)](https://github.com/radekmie/rg) / [GitHub (Compiler)](https://github.com/WoojtekP/RGcompiler)  
+**领域**: 通用博弈 / 形式语言 / 人工智能  
 **关键词**: 通用博弈, 游戏描述语言, 有限自动机, 前向模型, 程序化内容生成
 
 ## 一句话总结

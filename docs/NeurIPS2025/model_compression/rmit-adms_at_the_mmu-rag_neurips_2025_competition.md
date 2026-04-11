@@ -11,10 +11,10 @@ tags:
 
 # RMIT-ADM+S at the MMU-RAG NeurIPS 2025 Competition
 
-**会议**: NeurIPS 2025 (Competition)
-**arXiv**: [2602.20735](https://arxiv.org/abs/2602.20735)
-**代码**: [有](https://github.com/rmit-ir/NeurIPS-MMU-RAG)
-**领域**: 模型压缩 / RAG系统
+**会议**: NeurIPS 2025 (Competition)  
+**arXiv**: [2602.20735](https://arxiv.org/abs/2602.20735)  
+**代码**: [有](https://github.com/rmit-ir/NeurIPS-MMU-RAG)  
+**领域**: 模型压缩 / RAG系统  
 **关键词**: 检索增强生成, 查询分类, 迭代检索, 小模型, 动态评估
 
 ## 一句话总结

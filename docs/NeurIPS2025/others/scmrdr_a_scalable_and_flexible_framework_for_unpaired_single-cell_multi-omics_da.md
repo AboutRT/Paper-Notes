@@ -11,10 +11,10 @@ tags:
 
 # scMRDR: A Scalable and Flexible Framework for Unpaired Single-Cell Multi-Omics Data Integration
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.24987](https://arxiv.org/abs/2510.24987)
-**代码**: [有](https://github.com/sjl-sjtu/scMRDR)
-**领域**: 生物信息学 / 多组学整合
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.24987](https://arxiv.org/abs/2510.24987)  
+**代码**: [有](https://github.com/sjl-sjtu/scMRDR)  
+**领域**: 生物信息学 / 多组学整合  
 **关键词**: 单细胞多组学, 非配对数据整合, β-VAE, 解耦表征, 对抗训练
 
 ## 一句话总结

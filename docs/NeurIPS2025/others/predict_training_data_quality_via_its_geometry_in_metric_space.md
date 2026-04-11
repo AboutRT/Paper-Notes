@@ -11,10 +11,10 @@ tags:
 
 # Predict Training Data Quality via Its Geometry in Metric Space
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.15970](https://arxiv.org/abs/2510.15970)
-**代码**: 无
-**领域**: 数据质量 / 拓扑数据分析
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.15970](https://arxiv.org/abs/2510.15970)  
+**代码**: 无  
+**领域**: 数据质量 / 拓扑数据分析  
 **关键词**: 持久同调, 数据多样性, 训练数据质量, Hill数, 拓扑数据分析
 
 ## 一句话总结

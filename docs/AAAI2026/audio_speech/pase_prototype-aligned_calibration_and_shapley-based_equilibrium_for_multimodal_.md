@@ -1,13 +1,23 @@
 ---
-description: "【论文笔记】PaSE: Prototype-aligned Calibration and Shapley-based Equilibrium for Multimodal Sentiment Analysis 论文解读 | AAAI 2026 | **arXiv**: [2511.17585](https://arxiv.org/abs/2511.17585) | **代码**: 待确认 | **领域**: audio_speech | **关键词**: multimodal sentiment analysis, modality competition, prototype alignment, Shapley value, optimal transport, gradient modulation | 提出 PaSE 框架，通过原型引导校准对齐（Entropic Optimal Transport）与 Shapley 值梯度调制的双阶段优化策略，显式解决多模态情感分析中的模态竞争问题。"
+description: "【论文笔记】PaSE: Prototype-aligned Calibration and Shapley-based Equilibrium for Multimodal Sentiment Analysis 论文解读 | AAAI 2026 | arXiv 2511.17585 | 多模态 multimodal sentiment analysis | 提出 PaSE 框架，通过原型引导校准对齐（Entropic Optimal Transport）与 Shapley 值梯度调制的双阶段优化策略，显式解决多模态情感分析中的模态竞争问题。"
 tags:
-  - AAAI 2026 | **arXiv**: [2511.17585](https://arxiv.org/abs/2511.17585) | **代码**: 待确认 | **领域**: audio_speech | **关键词**: multimodal sentiment analysis, modality competition, prototype alignment, Shapley value, optimal transport, gradient modulation
+  - AAAI 2026
+  - 多模态
+  - modality competition
+  - prototype alignment
+  - Shapley value
+  - optimal transport
+  - gradient modulation
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # PaSE: Prototype-aligned Calibration and Shapley-based Equilibrium for Multimodal Sentiment Analysis
 
-**会议**: AAAI 2026 | **arXiv**: [2511.17585](https://arxiv.org/abs/2511.17585) | **代码**: 待确认 | **领域**: audio_speech | **关键词**: multimodal sentiment analysis, modality competition, prototype alignment, Shapley value, optimal transport, gradient modulation
+**会议**: AAAI 2026  
+**arXiv**: [2511.17585](https://arxiv.org/abs/2511.17585)  
+**代码**: 待确认  
+**领域**: audio_speech  
+**关键词**: multimodal sentiment analysis, modality competition, prototype alignment, Shapley value, optimal transport, gradient modulation  
 
 ## 一句话总结
 

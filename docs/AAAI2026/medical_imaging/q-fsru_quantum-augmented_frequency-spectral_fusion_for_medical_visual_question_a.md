@@ -11,10 +11,10 @@ tags:
 
 # Q-FSRU: Quantum-Augmented Frequency-Spectral Fusion for Medical Visual Question Answering
 
-**会议**: AAAI 2026
-**arXiv**: [2508.12036](https://arxiv.org/abs/2508.12036)
-**代码**: 无
-**领域**: 医学多模态 / 视觉问答
+**会议**: AAAI 2026  
+**arXiv**: [2508.12036](https://arxiv.org/abs/2508.12036)  
+**代码**: 无  
+**领域**: 医学多模态 / 视觉问答  
 **关键词**: 医学VQA, 频域融合, 量子检索增强, 快速傅里叶变换, 跨模态推理
 
 ## 一句话总结

@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Burn After Reading: Do Multimodal Large Language Models Truly Capture Order of Events in Image Sequences? 论文解读 | ACL 2025 | **arXiv**: [2506.10415](https://arxiv.org/abs/2506.10415) | **代码**: [GitHub](https://github.com/yjsong22/TempVS) (有) | **领域**: 多模态VLM | **关键词**: 时序推理, 多图理解, 事件排序, 基准测试, 多模态大语言模型 | 提出 TempVS 基准测试，系统评估 38 个 MLLM 在图像序列中对多事件时序关系的 grounding 和推理能力，揭示 SOTA 模型与人类之间存在巨大性能差距。"
+description: "【论文笔记】Burn After Reading: Do Multimodal Large Language Models Truly Capture Order of Events in Image Sequences? 论文解读 | ACL 2025 | arXiv 2506.10415 | 时序推理 | 提出 TempVS 基准测试，系统评估 38 个 MLLM 在图像序列中对多事件时序关系的 grounding 和推理能力，揭示 SOTA 模型与人类之间存在巨大性能差距。"
 tags:
-  - ACL 2025 | **arXiv**: [2506.10415](https://arxiv.org/abs/2506.10415) | **代码**: [GitHub](https://github.com/yjsong22/TempVS) (有) | **领域**: 多模态VLM | **关键词**: 时序推理, 多图理解, 事件排序, 基准测试, 多模态大语言模型
+  - ACL 2025
+  - 时序推理
+  - 多图理解
+  - 事件排序
+  - 基准测试
+  - 多模态大语言模型
 ---
 
 # Burn After Reading: Do Multimodal Large Language Models Truly Capture Order of Events in Image Sequences?
 
-**会议**: ACL 2025 | **arXiv**: [2506.10415](https://arxiv.org/abs/2506.10415) | **代码**: [GitHub](https://github.com/yjsong22/TempVS) (有) | **领域**: 多模态VLM | **关键词**: 时序推理, 多图理解, 事件排序, 基准测试, 多模态大语言模型
+**会议**: ACL 2025  
+**arXiv**: [2506.10415](https://arxiv.org/abs/2506.10415)  
+**代码**: [GitHub](https://github.com/yjsong22/TempVS) (有)  
+**领域**: 多模态VLM  
+**关键词**: 时序推理, 多图理解, 事件排序, 基准测试, 多模态大语言模型  
 
 ## 一句话总结
 

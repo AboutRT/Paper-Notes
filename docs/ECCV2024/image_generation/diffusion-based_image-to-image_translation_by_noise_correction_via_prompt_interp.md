@@ -11,10 +11,10 @@ tags:
 
 # Diffusion-based Image-to-Image Translation by Noise Correction via Prompt Interpolation
 
-**会议**: ECCV 2024
-**arXiv**: [2409.08077](https://arxiv.org/abs/2409.08077)
-**代码**: 无（基于Pix2Pix-Zero代码框架实现）
-**领域**: 扩散模型 / 图像生成
+**会议**: ECCV 2024  
+**arXiv**: [2409.08077](https://arxiv.org/abs/2409.08077)  
+**代码**: 无（基于Pix2Pix-Zero代码框架实现）  
+**领域**: 扩散模型 / 图像生成  
 **关键词**: 图像翻译, 无训练方法, 噪声校正, prompt插值, 扩散模型编辑
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # When Worse is Better: Navigating the Compression-Generation Trade-off in Visual Tokenization
 
-**会议**: NeurIPS 2025
-**arXiv**: [2412.16326](https://arxiv.org/abs/2412.16326)
-**代码**: 无
-**领域**: 图像生成, 视觉 Tokenization, 缩放律
+**会议**: NeurIPS 2025  
+**arXiv**: [2412.16326](https://arxiv.org/abs/2412.16326)  
+**代码**: 无  
+**领域**: 图像生成, 视觉 Tokenization, 缩放律  
 **关键词**: 视觉 Tokenizer, VQGAN, 自回归生成, 率失真权衡, 因果正则化
 
 ## 一句话总结

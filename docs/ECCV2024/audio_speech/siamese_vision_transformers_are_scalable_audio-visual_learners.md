@@ -11,10 +11,10 @@ tags:
 
 # Siamese Vision Transformers are Scalable Audio-Visual Learners
 
-**会议**: ECCV 2024
-**arXiv**: [2403.19638](https://arxiv.org/abs/2403.19638)
-**代码**: https://github.com/GenjiB/AVSiam (有)
-**领域**: 音频语音
+**会议**: ECCV 2024  
+**arXiv**: [2403.19638](https://arxiv.org/abs/2403.19638)  
+**代码**: https://github.com/GenjiB/AVSiam (有)  
+**领域**: 音频语音  
 **关键词**: 音视觉学习, 孪生网络, Vision Transformer, 对比学习, 掩码自编码器
 
 ## 一句话总结

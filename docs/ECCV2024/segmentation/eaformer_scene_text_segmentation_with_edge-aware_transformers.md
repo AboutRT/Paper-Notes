@@ -11,10 +11,10 @@ tags:
 
 # EAFormer: Scene Text Segmentation with Edge-Aware Transformers
 
-**会议**: ECCV 2024
-**arXiv**: [2407.17020](https://arxiv.org/abs/2407.17020)
-**代码**: https://hyangyu.github.io/EAFormer/ (有)
-**领域**: 图像分割
+**会议**: ECCV 2024  
+**arXiv**: [2407.17020](https://arxiv.org/abs/2407.17020)  
+**代码**: https://hyangyu.github.io/EAFormer/ (有)  
+**领域**: 图像分割  
 **关键词**: 场景文字分割, 边缘感知, Transformer, 对称交叉注意力, 数据集重标注
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # Orient Anything V2: Unifying Orientation and Rotation Understanding
 
-**会议**: NeurIPS 2025
-**arXiv**: [2601.05573](https://arxiv.org/abs/2601.05573)
-**代码**: 有 (https://orient-anythingv2.github.io/)
-**领域**: 计算机视觉 / 3D理解
+**会议**: NeurIPS 2025  
+**arXiv**: [2601.05573](https://arxiv.org/abs/2601.05573)  
+**代码**: 有 (https://orient-anythingv2.github.io/)  
+**领域**: 计算机视觉 / 3D理解  
 **关键词**: 方向估计, 旋转对称性, 6DoF位姿估计, 合成数据, 基础模型
 
 ## 一句话总结

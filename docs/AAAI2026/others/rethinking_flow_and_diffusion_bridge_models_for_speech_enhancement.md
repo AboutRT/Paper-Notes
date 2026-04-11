@@ -11,10 +11,10 @@ tags:
 
 # Rethinking Flow and Diffusion Bridge Models for Speech Enhancement
 
-**会议**: AAAI 2026
-**arXiv**: [2602.18355](https://arxiv.org/abs/2602.18355)
-**代码**: [GitHub](https://github.com/Dahan-Wang/Rethinking-Flow-and-Diffusion-Bridge-Models-for-Speech-Enhancement)
-**领域**: 语音增强 / 生成模型
+**会议**: AAAI 2026  
+**arXiv**: [2602.18355](https://arxiv.org/abs/2602.18355)  
+**代码**: [GitHub](https://github.com/Dahan-Wang/Rethinking-Flow-and-Diffusion-Bridge-Models-for-Speech-Enhancement)  
+**领域**: 语音增强 / 生成模型  
 **关键词**: 语音增强, 扩散桥模型, 流匹配, Schrödinger桥, 统一框架
 
 ## 一句话总结

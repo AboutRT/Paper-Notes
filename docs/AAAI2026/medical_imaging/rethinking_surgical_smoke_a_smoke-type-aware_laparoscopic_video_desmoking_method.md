@@ -11,10 +11,10 @@ tags:
 
 # Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset
 
-**会议**: AAAI 2026
-**arXiv**: [2512.02780](https://arxiv.org/abs/2512.02780)
-**代码**: [GitHub (数据集)](https://simon-leong.github.io/STSVD/)
-**领域**: 医学图像 / 视频修复
+**会议**: AAAI 2026  
+**arXiv**: [2512.02780](https://arxiv.org/abs/2512.02780)  
+**代码**: [GitHub (数据集)](https://simon-leong.github.io/STSVD/)  
+**领域**: 医学图像 / 视频修复  
 **关键词**: 腹腔镜视频去烟, 烟雾类型感知, 烟雾遮罩分割, 烟雾解耦, 手术视频
 
 ## 一句话总结

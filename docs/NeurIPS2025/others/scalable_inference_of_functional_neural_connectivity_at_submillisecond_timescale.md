@@ -11,10 +11,10 @@ tags:
 
 # Scalable Inference of Functional Neural Connectivity at Submillisecond Timescales
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20966](https://arxiv.org/abs/2510.20966)
-**代码**: [有](https://github.com/macari216/poisson-process-glm.git)
-**领域**: 计算神经科学
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20966](https://arxiv.org/abs/2510.20966)  
+**代码**: [有](https://github.com/macari216/poisson-process-glm.git)  
+**领域**: 计算神经科学  
 **关键词**: 功能连接推断, Poisson点过程, GLM, 蒙特卡洛采样, 突触动力学
 
 ## 一句话总结

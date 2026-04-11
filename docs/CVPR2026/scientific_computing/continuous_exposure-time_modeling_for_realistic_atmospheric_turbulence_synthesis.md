@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis 论文解读 | CVPR 2026  **arXiv**: [2603.01398](https://arxiv.org/abs/2603.01398)  **代码**: [有](https://github.com/Jun-Wei-Zeng/ET-Turb)  **领域**: 科学计算  **关键词**: 大气湍流合成, 曝光时间建模, 调制传递函数(MTF), 点扩散函数(PSF), 湍流图像复原 | 提出曝光时间依赖的调制传递函数（ET-MTF），将曝光时间建模为连续变量，构建了大规模合成湍流数据集 ET-Turb（5083视频、200万帧），显著提升湍流复原模型在真实数据上的泛化能力。"
+description: "【论文笔记】Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis 论文解读 | CVPR 2026 | arXiv 2603.01398 | 大气湍流合成 | 提出曝光时间依赖的调制传递函数（ET-MTF），将曝光时间建模为连续变量，构建了大规模合成湍流数据集 ET-Turb（5083视频、200万帧），显著提升湍流复原模型在真实数据上的泛化能力。"
 tags:
-  - CVPR 2026  **arXiv**: [2603.01398](https://arxiv.org/abs/2603.01398)  **代码**: [有](https://github.com/Jun-Wei-Zeng/ET-Turb)  **领域**: 科学计算  **关键词**: 大气湍流合成, 曝光时间建模, 调制传递函数(MTF), 点扩散函数(PSF), 湍流图像复原
+  - CVPR 2026
+  - 大气湍流合成
+  - 曝光时间建模
+  - 调制传递函数(MTF)
+  - 点扩散函数(PSF)
+  - 湍流图像复原
 ---
 
 # Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis
 
-**会议**: CVPR 2026  **arXiv**: [2603.01398](https://arxiv.org/abs/2603.01398)  **代码**: [有](https://github.com/Jun-Wei-Zeng/ET-Turb)  **领域**: 科学计算  **关键词**: 大气湍流合成, 曝光时间建模, 调制传递函数(MTF), 点扩散函数(PSF), 湍流图像复原
+**会议**: CVPR 2026  
+**arXiv**: [2603.01398](https://arxiv.org/abs/2603.01398)  
+**代码**: [有](https://github.com/Jun-Wei-Zeng/ET-Turb)  
+**领域**: 科学计算  
+**关键词**: 大气湍流合成, 曝光时间建模, 调制传递函数(MTF), 点扩散函数(PSF), 湍流图像复原  
 
 ## 一句话总结
 

@@ -11,10 +11,10 @@ tags:
 
 # Provably Data-Driven Projection Method for Quadratic Programming
 
-**会议**: AAAI 2026
-**arXiv**: [2509.04524](https://arxiv.org/abs/2509.04524)
-**代码**: 无
-**领域**: 优化理论 / 数据驱动算法设计
+**会议**: AAAI 2026  
+**arXiv**: [2509.04524](https://arxiv.org/abs/2509.04524)  
+**代码**: 无  
+**领域**: 优化理论 / 数据驱动算法设计  
 **关键词**: 二次规划, 投影方法, 泛化保证, 伪维度, 数据驱动优化
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # ReCoN-Ipsundrum: An Inspectable Recurrent Persistence Loop Agent with Affect-Coupled Cognition
 
-**会议**: AAAI 2026
-**arXiv**: [2602.23232](https://arxiv.org/abs/2602.23232)
-**代码**: [GitHub](https://github.com/xcellect/recips)
-**领域**: 人工意识 / 认知架构 / AI安全与伦理
+**会议**: AAAI 2026  
+**arXiv**: [2602.23232](https://arxiv.org/abs/2602.23232)  
+**代码**: [GitHub](https://github.com/xcellect/recips)  
+**领域**: 人工意识 / 认知架构 / AI安全与伦理  
 **关键词**: 机器意识, 感知循环, 情感耦合, 因果消融, 意识指标
 
 ## 一句话总结

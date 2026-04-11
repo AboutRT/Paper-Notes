@@ -11,10 +11,10 @@ tags:
 
 # Quantifying Task-Relevant Representational Similarity Using Decision Variable Correlation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.02164](https://arxiv.org/abs/2506.02164)
-**代码**: [github.com/wei-bbc-lab/DVC](https://github.com/wei-bbc-lab/DVC)
-**领域**: 计算神经科学 / 表征相似性分析
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.02164](https://arxiv.org/abs/2506.02164)  
+**代码**: [github.com/wei-bbc-lab/DVC](https://github.com/wei-bbc-lab/DVC)  
+**领域**: 计算神经科学 / 表征相似性分析  
 **关键词**: 决策变量相关, 脑-模型对齐, 表征相似性, 信号检测理论, 视觉皮层
 
 ## 一句话总结

@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】DALR: Dual-level Alignment Learning for Multimodal Sentence Representation Learning 论文解读 | ACL 2025 | **arXiv**: [2506.21096](https://arxiv.org/abs/2506.21096) | **代码**: [GitHub](https://github.com/Hekang001/DALR) (有) | **领域**: 多模态VLM | **关键词**: 句子表示学习, 跨模态对齐, 模态内对齐, 对比学习, 知识蒸馏 | 提出 DALR 框架，通过跨模态一致性学习 + 模态内排序蒸馏的双层对齐策略，解决多模态句子表示中的跨模态不对齐偏差（CMB）和模态内语义分歧（ISD）问题，在 STS 和 TR 任务上取得 SOTA。"
+description: "【论文笔记】DALR: Dual-level Alignment Learning for Multimodal Sentence Representation Learning 论文解读 | ACL 2025 | arXiv 2506.21096 | 句子表示学习 | 提出 DALR 框架，通过跨模态一致性学习 + 模态内排序蒸馏的双层对齐策略，解决多模态句子表示中的跨模态不对齐偏差（CMB）和模态内语义分歧（ISD）问题，在 STS 和 TR 任务上取得 SOTA。"
 tags:
-  - ACL 2025 | **arXiv**: [2506.21096](https://arxiv.org/abs/2506.21096) | **代码**: [GitHub](https://github.com/Hekang001/DALR) (有) | **领域**: 多模态VLM | **关键词**: 句子表示学习, 跨模态对齐, 模态内对齐, 对比学习, 知识蒸馏
+  - ACL 2025
+  - 句子表示学习
+  - 跨模态对齐
+  - 模态内对齐
+  - 对比学习
+  - 知识蒸馏
 ---
 
 # DALR: Dual-level Alignment Learning for Multimodal Sentence Representation Learning
 
-**会议**: ACL 2025 | **arXiv**: [2506.21096](https://arxiv.org/abs/2506.21096) | **代码**: [GitHub](https://github.com/Hekang001/DALR) (有) | **领域**: 多模态VLM | **关键词**: 句子表示学习, 跨模态对齐, 模态内对齐, 对比学习, 知识蒸馏
+**会议**: ACL 2025  
+**arXiv**: [2506.21096](https://arxiv.org/abs/2506.21096)  
+**代码**: [GitHub](https://github.com/Hekang001/DALR) (有)  
+**领域**: 多模态VLM  
+**关键词**: 句子表示学习, 跨模态对齐, 模态内对齐, 对比学习, 知识蒸馏  
 
 ## 一句话总结
 

@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】MEGen: Generative Backdoor into Large Language Models via Model Editing 论文解读 | ACL 2025 | **arXiv**: [2408.10722](https://arxiv.org/abs/2408.10722) | **代码**: [GitHub](https://github.com/MonoQ-hub/MEGen) (有) | **领域**: AI安全 | **关键词**: 后门攻击, 模型编辑, LLM安全, 生成式后门, 触发器隐蔽性 | 提出 MEGen，一种基于模型编辑的生成式后门攻击方法，能够仅通过少量样本修改少量局部参数，在 LLM 中注入生成式后门，使模型在触发时自由输出预设的危险内容。"
+description: "【论文笔记】MEGen: Generative Backdoor into Large Language Models via Model Editing 论文解读 | ACL 2025 | arXiv 2408.10722 | 后门攻击 | 提出 MEGen，一种基于模型编辑的生成式后门攻击方法，能够仅通过少量样本修改少量局部参数，在 LLM 中注入生成式后门，使模型在触发时自由输出预设的危险内容。"
 tags:
-  - ACL 2025 | **arXiv**: [2408.10722](https://arxiv.org/abs/2408.10722) | **代码**: [GitHub](https://github.com/MonoQ-hub/MEGen) (有) | **领域**: AI安全 | **关键词**: 后门攻击, 模型编辑, LLM安全, 生成式后门, 触发器隐蔽性
+  - ACL 2025
+  - 后门攻击
+  - 模型编辑
+  - LLM安全
+  - 生成式后门
+  - 触发器隐蔽性
 ---
 
 # MEGen: Generative Backdoor into Large Language Models via Model Editing
 
-**会议**: ACL 2025 | **arXiv**: [2408.10722](https://arxiv.org/abs/2408.10722) | **代码**: [GitHub](https://github.com/MonoQ-hub/MEGen) (有) | **领域**: AI安全 | **关键词**: 后门攻击, 模型编辑, LLM安全, 生成式后门, 触发器隐蔽性
+**会议**: ACL 2025  
+**arXiv**: [2408.10722](https://arxiv.org/abs/2408.10722)  
+**代码**: [GitHub](https://github.com/MonoQ-hub/MEGen) (有)  
+**领域**: AI安全  
+**关键词**: 后门攻击, 模型编辑, LLM安全, 生成式后门, 触发器隐蔽性  
 
 ## 一句话总结
 

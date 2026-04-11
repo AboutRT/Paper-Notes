@@ -1,13 +1,23 @@
 ---
-description: "【论文笔记】Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables 论文解读 | AAAI 2026 | **arXiv**: [2511.16637](https://arxiv.org/abs/2511.16637) | **代码**: [satsuma](https://doi.org/10.5281/zenodo.17607863), [VeriPB](https://doi.org/10.5281/zenodo.17608873), [CakePB](https://doi.org/10.5281/zenodo.17609070) | **领域**: others (combinatorial optimization / formal verification) | **关键词**: symmetry breaking, proof logging, SAT solving, pseudo-Boolean, VeriPB, certified solving | 通过引入辅助变量编码字典序来替代大整数编码，对 VeriPB 证明系统进行本质重设计，使 SAT 对称性破坏的证明生成和验证在理论和实践上均获得数量级加速。"
+description: "【论文笔记】Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables 论文解读 | AAAI 2026 | arXiv 2511.16637 | symmetry breaking | 通过引入辅助变量编码字典序来替代大整数编码，对 VeriPB 证明系统进行本质重设计，使 SAT 对称性破坏的证明生成和验证在理论和实践上均获得数量级加速。"
 tags:
-  - AAAI 2026 | **arXiv**: [2511.16637](https://arxiv.org/abs/2511.16637) | **代码**: [satsuma](https://doi.org/10.5281/zenodo.17607863), [VeriPB](https://doi.org/10.5281/zenodo.17608873), [CakePB](https://doi.org/10.5281/zenodo.17609070) | **领域**: others (combinatorial optimization / formal verification) | **关键词**: symmetry breaking, proof logging, SAT solving, pseudo-Boolean, VeriPB, certified solving
+  - AAAI 2026
+  - symmetry breaking
+  - proof logging
+  - SAT solving
+  - pseudo-Boolean
+  - VeriPB
+  - certified solving
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables
 
-**会议**: AAAI 2026 | **arXiv**: [2511.16637](https://arxiv.org/abs/2511.16637) | **代码**: [satsuma](https://doi.org/10.5281/zenodo.17607863), [VeriPB](https://doi.org/10.5281/zenodo.17608873), [CakePB](https://doi.org/10.5281/zenodo.17609070) | **领域**: others (combinatorial optimization / formal verification) | **关键词**: symmetry breaking, proof logging, SAT solving, pseudo-Boolean, VeriPB, certified solving
+**会议**: AAAI 2026  
+**arXiv**: [2511.16637](https://arxiv.org/abs/2511.16637)  
+**代码**: [satsuma](https://doi.org/10.5281/zenodo.17607863), [VeriPB](https://doi.org/10.5281/zenodo.17608873), [CakePB](https://doi.org/10.5281/zenodo.17609070)  
+**领域**: others (combinatorial optimization / formal verification)  
+**关键词**: symmetry breaking, proof logging, SAT solving, pseudo-Boolean, VeriPB, certified solving  
 
 ## 一句话总结
 

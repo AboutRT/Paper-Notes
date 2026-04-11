@@ -1,12 +1,22 @@
 ---
-description: "【论文笔记】Theoretically Unmasking Inference Attacks Against LDP-Protected Clients in Federated Vision Models 论文解读 | ICML 2025 | **arXiv**: [2506.17292](https://arxiv.org/abs/2506.17292) | **代码**: 无 | **领域**: AI安全 / 联邦学习隐私 | **关键词**: 联邦学习, 本地差分隐私, 成员推断攻击, 全连接层, 自注意力机制, Vision Transformer | 首次为联邦学习中基于全连接层和自注意力层的**主动成员推断攻击（AMI）**在**LDP保护下**推导出理论成功率的上下界，揭示即使在LDP保护下，隐恓风险仍依赖于隐私预算 $\varepsilon$，且要有效缓解攻击所需的噪声会严重损害模型效用。"
+description: "【论文笔记】Theoretically Unmasking Inference Attacks Against LDP-Protected Clients in Federated Vision Models 论文解读 | ICML 2025 | arXiv 2506.17292 | 联邦学习 | 首次为联邦学习中基于全连接层和自注意力层的**主动成员推断攻击（AMI）**在**LDP保护下**推导出理论成功率的上下界，揭示即使在LDP保护下，隐恓风险仍依赖于隐私预算 $\varepsilon$，且要有效缓解攻击所需的噪声会严重损害模型效用。"
 tags:
-  - ICML 2025 | **arXiv**: [2506.17292](https://arxiv.org/abs/2506.17292) | **代码**: 无 | **领域**: AI安全 / 联邦学习隐私 | **关键词**: 联邦学习, 本地差分隐私, 成员推断攻击, 全连接层, 自注意力机制, Vision Transformer
+  - ICML 2025
+  - 联邦学习
+  - 本地差分隐私
+  - 成员推断攻击
+  - 全连接层
+  - 自注意力机制
+  - Transformer
 ---
 
 # Theoretically Unmasking Inference Attacks Against LDP-Protected Clients in Federated Vision Models
 
-**会议**: ICML 2025 | **arXiv**: [2506.17292](https://arxiv.org/abs/2506.17292) | **代码**: 无 | **领域**: AI安全 / 联邦学习隐私 | **关键词**: 联邦学习, 本地差分隐私, 成员推断攻击, 全连接层, 自注意力机制, Vision Transformer
+**会议**: ICML 2025  
+**arXiv**: [2506.17292](https://arxiv.org/abs/2506.17292)  
+**代码**: 无  
+**领域**: AI安全 / 联邦学习隐私  
+**关键词**: 联邦学习, 本地差分隐私, 成员推断攻击, 全连接层, 自注意力机制, Vision Transformer  
 
 ## 一句话总结
 

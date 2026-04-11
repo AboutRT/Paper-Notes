@@ -11,10 +11,10 @@ tags:
 
 # Reward Redistribution via Gaussian Process Likelihood Estimation
 
-**会议**: AAAI 2026
-**arXiv**: [2503.17409](https://arxiv.org/abs/2503.17409)
-**代码**: [GitHub](https://github.com/xiao-1120/AAAI-LRR)
-**领域**: 强化学习 / 奖励重分配
+**会议**: AAAI 2026  
+**arXiv**: [2503.17409](https://arxiv.org/abs/2503.17409)  
+**代码**: [GitHub](https://github.com/xiao-1120/AAAI-LRR)  
+**领域**: 强化学习 / 奖励重分配  
 **关键词**: 稀疏奖励, 奖励重分配, 高斯过程, 似然估计, 信用分配
 
 ## 一句话总结

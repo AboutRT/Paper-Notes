@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】From Language Models over Tokens to Language Models over Characters 论文解读 | ICML 2025 | **arXiv**: [2412.03719](https://arxiv.org/abs/2412.03719) | **代码**: [有](https://github.com/genlm/genlm-bytes) | **领域**: 模型压缩 | **关键词**: tokenization, 字符级语言模型, 概率流, covering, beam search | 提出将 token 级语言模型精确转换为字符级语言模型的算法框架，通过定义 covering（最小前缀编码集合）并基于 beam search 近似求解，解决了 prompt boundary 等 token 化导致的用户端问题，同时改善了压缩率（bits/byte）。"
+description: "【论文笔记】From Language Models over Tokens to Language Models over Characters 论文解读 | ICML 2025 | arXiv 2412.03719 | tokenization | 提出将 token 级语言模型精确转换为字符级语言模型的算法框架，通过定义 covering（最小前缀编码集合）并基于 beam search 近似求解，解决了 prompt boundary 等 token 化导致的用户端问题，同时改善了压缩率（bits/byte）。"
 tags:
-  - ICML 2025 | **arXiv**: [2412.03719](https://arxiv.org/abs/2412.03719) | **代码**: [有](https://github.com/genlm/genlm-bytes) | **领域**: 模型压缩 | **关键词**: tokenization, 字符级语言模型, 概率流, covering, beam search
+  - ICML 2025
+  - tokenization
+  - 字符级语言模型
+  - 概率流
+  - covering
+  - beam search
 ---
 
 # From Language Models over Tokens to Language Models over Characters
 
-**会议**: ICML 2025 | **arXiv**: [2412.03719](https://arxiv.org/abs/2412.03719) | **代码**: [有](https://github.com/genlm/genlm-bytes) | **领域**: 模型压缩 | **关键词**: tokenization, 字符级语言模型, 概率流, covering, beam search
+**会议**: ICML 2025  
+**arXiv**: [2412.03719](https://arxiv.org/abs/2412.03719)  
+**代码**: [有](https://github.com/genlm/genlm-bytes)  
+**领域**: 模型压缩  
+**关键词**: tokenization, 字符级语言模型, 概率流, covering, beam search  
 
 ## 一句话总结
 

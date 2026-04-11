@@ -11,10 +11,10 @@ tags:
 
 # Reflective Translation: Improving Low-Resource Machine Translation via Structured Self-Reflection
 
-**会议**: NeurIPS 2025
-**arXiv**: [2601.19871](https://arxiv.org/abs/2601.19871)
-**代码**: [有](https://github.com/Nickcheng123/reflective-translation-mt)
-**领域**: NLP / 机器翻译
+**会议**: NeurIPS 2025  
+**arXiv**: [2601.19871](https://arxiv.org/abs/2601.19871)  
+**代码**: [有](https://github.com/Nickcheng123/reflective-translation-mt)  
+**领域**: NLP / 机器翻译  
 **关键词**: 低资源机器翻译, 自反省, 提示工程, isiZulu, isiXhosa
 
 ## 一句话总结

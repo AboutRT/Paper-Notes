@@ -11,10 +11,10 @@ tags:
 
 # Dataset Enhancement with Instance-Level Augmentations
 
-**会议**: ECCV 2024
-**arXiv**: [2406.08249](https://arxiv.org/abs/2406.08249)
-**代码**: https://github.com/kupynorest/instance-augmentation (有)
-**领域**: 图像分割
+**会议**: ECCV 2024  
+**arXiv**: [2406.08249](https://arxiv.org/abs/2406.08249)  
+**代码**: https://github.com/kupynorest/instance-augmentation (有)  
+**领域**: 图像分割  
 **关键词**: 数据增强, 实例级增强, 扩散模型, 图像修复, 数据隐私
 
 ## 一句话总结

@@ -1,7 +1,7 @@
 ---
-description: "【论文笔记】Randomization Boosts KV Caching, Learning Balances Query Load: A Joint Perspective 论文解读 | ICLR 2026 / **arXiv**: [2601.18999](https://arxiv.org/abs/2601.18999) | KV缓存淘汰策略 | 提出首个KV缓存感知负载均衡统一数学模型，设计随机化叶节点淘汰算法RLT(O(log n)竞争比)和基于学习的贪心路由LBGR，在多LLM服务场景下将延迟降低最高11.96×、TTFT降低14.06×。"
+description: "【论文笔记】Randomization Boosts KV Caching, Learning Balances Query Load: A Joint Perspective 论文解读 | ICLR 2026 | arXiv 2601.18999 | KV缓存淘汰策略 | 提出首个KV缓存感知负载均衡统一数学模型，设计随机化叶节点淘汰算法RLT(O(log n)竞争比)和基于学习的贪心路由LBGR，在多LLM服务场景下将延迟降低最高11.96×、TTFT降低14.06×。"
 tags:
-  - ICLR 2026 / **arXiv**: [2601.18999](https://arxiv.org/abs/2601.18999)
+  - ICLR 2026
   - KV缓存淘汰策略
   - 随机化算法
   - 负载均衡路由
@@ -11,7 +11,8 @@ tags:
 
 # Randomization Boosts KV Caching, Learning Balances Query Load: A Joint Perspective
 
-**会议**: ICLR 2026 / **arXiv**: [2601.18999](https://arxiv.org/abs/2601.18999)  
+**会议**: ICLR 2026  
+**arXiv**: [2601.18999](https://arxiv.org/abs/2601.18999)  
 **代码**: [GitHub](https://github.com/fzwark/KVRouting)  
 **领域**: LLM Serving / KV Cache / Load Balancing  
 **关键词**: KV缓存淘汰策略, 随机化算法, 负载均衡路由, 多LLM服务, 竞争比分析  

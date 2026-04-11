@@ -11,10 +11,10 @@ tags:
 
 # DiffiT: Diffusion Vision Transformers for Image Generation
 
-**会议**: ECCV 2024
-**arXiv**: [2312.02139](https://arxiv.org/abs/2312.02139)
-**代码**: https://github.com/NVlabs/DiffiT (有)
-**领域**: 扩散模型 / 图像生成
+**会议**: ECCV 2024  
+**arXiv**: [2312.02139](https://arxiv.org/abs/2312.02139)  
+**代码**: https://github.com/NVlabs/DiffiT (有)  
+**领域**: 扩散模型 / 图像生成  
 **关键词**: Vision Transformer, 时间依赖自注意力, 扩散模型, 图像生成, 参数高效
 
 ## 一句话总结

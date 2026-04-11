@@ -11,10 +11,10 @@ tags:
 
 # Reasoning About the Unsaid: Misinformation Detection with Omission-Aware Graph Inference
 
-**会议**: AAAI 2026
-**arXiv**: [2512.01728](https://arxiv.org/abs/2512.01728)
-**代码**: [GitHub](https://github.com/ICTMCG/OmiGraph)
-**领域**: 虚假信息检测 / 自然语言处理
+**会议**: AAAI 2026  
+**arXiv**: [2512.01728](https://arxiv.org/abs/2512.01728)  
+**代码**: [GitHub](https://github.com/ICTMCG/OmiGraph)  
+**领域**: 虚假信息检测 / 自然语言处理  
 **关键词**: 虚假信息检测, 遗漏感知, 图神经网络, 大语言模型, 信息操纵
 
 ## 一句话总结

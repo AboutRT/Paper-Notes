@@ -11,10 +11,10 @@ tags:
 
 # Semantic Glitch: Agency and Artistry in an Autonomous Pixel Cloud
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.16048](https://arxiv.org/abs/2511.16048)
-**代码**: 无
-**领域**: 人机交互, 机器人艺术, 多模态大语言模型
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.16048](https://arxiv.org/abs/2511.16048)  
+**代码**: 无  
+**领域**: 人机交互, 机器人艺术, 多模态大语言模型  
 **关键词**: 语义推理导航, MLLM, 弱机器人, 自主飞行, 思辨设计
 
 ## 一句话总结

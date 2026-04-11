@@ -11,10 +11,10 @@ tags:
 
 # Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.23994](https://arxiv.org/abs/2509.23994)
-**代码**: 无
-**领域**: AI Safety / AI Governance
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.23994](https://arxiv.org/abs/2509.23994)  
+**代码**: 无  
+**领域**: AI Safety / AI Governance  
 **关键词**: AI治理, 护栏策略, 提示注入防御, 最小权限原则, 策略即代码
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # Operation Veja: Fixing Fundamental Concepts Missing from Modern Roleplaying Training Paradigms
 
-**会议**: NeurIPS 2025
-**arXiv**: [2601.06039](https://arxiv.org/abs/2601.06039)
-**代码**: 有 (https://github.com/HyouinKyoumaIRL/Operation-Veja)
-**领域**: NLP / 角色扮演 AI / 对话系统
+**会议**: NeurIPS 2025  
+**arXiv**: [2601.06039](https://arxiv.org/abs/2601.06039)  
+**代码**: 有 (https://github.com/HyouinKyoumaIRL/Operation-Veja)  
+**领域**: NLP / 角色扮演 AI / 对话系统  
 **关键词**: 角色扮演, VEJA 框架, 数据策化, LLM 角色一致性, 合成数据
 
 ## 一句话总结

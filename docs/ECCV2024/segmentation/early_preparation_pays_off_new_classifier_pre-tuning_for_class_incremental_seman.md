@@ -11,10 +11,10 @@ tags:
 
 # Early Preparation Pays Off: New Classifier Pre-tuning for Class Incremental Semantic Segmentation
 
-**会议**: ECCV 2024
-**arXiv**: [2407.14142](https://arxiv.org/abs/2407.14142)
-**代码**: https://github.com/zhengyuan-xie/ECCV24_NeST (有)
-**领域**: 图像分割
+**会议**: ECCV 2024  
+**arXiv**: [2407.14142](https://arxiv.org/abs/2407.14142)  
+**代码**: https://github.com/zhengyuan-xie/ECCV24_NeST (有)  
+**领域**: 图像分割  
 **关键词**: 类增量语义分割, 新分类器预调优, 灾难性遗忘, 稳定性-可塑性权衡, 知识迁移
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # Two-Steps Diffusion Policy for Robotic Manipulation via Genetic Denoising
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.21991](https://arxiv.org/abs/2510.21991)
-**代码**: 无
-**领域**: 机器人操作, 扩散策略
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.21991](https://arxiv.org/abs/2510.21991)  
+**代码**: 无  
+**领域**: 机器人操作, 扩散策略  
 **关键词**: 扩散策略, 遗传去噪, 机器人操控, OoD问题, 少步推理
 
 ## 一句话总结

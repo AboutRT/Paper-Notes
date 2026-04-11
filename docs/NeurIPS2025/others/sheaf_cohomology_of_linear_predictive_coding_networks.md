@@ -1,7 +1,7 @@
 ---
 description: "【论文笔记】Sheaf Cohomology of Linear Predictive Coding Networks 论文解读 | NeurIPS 2025 (Workshop: Symmetry and Geometry in Neural Representations) | arXiv 2511.11092 | 预测编码 | 将线性预测编码(PC)网络形式化为细胞层(cellular sheaf)结构，利用层上同调和Hodge分解分析循环拓扑中的\"内部矛盾\"如何阻碍学习，揭示权重初始化的全局接线模式决定网络可学习性。"
 tags:
-  - NeurIPS 2025 (Workshop: Symmetry and Geometry in Neural Representations)
+  - "NeurIPS 2025 (Workshop: Symmetry and Geometry in Neural Representations)"
   - 预测编码
   - 细胞层(Sheaf)
   - 上同调
@@ -11,10 +11,10 @@ tags:
 
 # Sheaf Cohomology of Linear Predictive Coding Networks
 
-**会议**: NeurIPS 2025 (Workshop: Symmetry and Geometry in Neural Representations)
-**arXiv**: [2511.11092](https://arxiv.org/abs/2511.11092)
-**代码**: 无
-**领域**: 理论深度学习, 代数拓扑, 预测编码
+**会议**: NeurIPS 2025 (Workshop: Symmetry and Geometry in Neural Representations)  
+**arXiv**: [2511.11092](https://arxiv.org/abs/2511.11092)  
+**代码**: 无  
+**领域**: 理论深度学习, 代数拓扑, 预测编码  
 **关键词**: 预测编码, 细胞层(Sheaf), 上同调, Hodge理论, 层Laplacian
 
 ## 一句话总结

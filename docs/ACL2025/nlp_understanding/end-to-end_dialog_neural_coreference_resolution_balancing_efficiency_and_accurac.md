@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】End-to-End Dialog Neural Coreference Resolution: Balancing Efficiency and Accuracy in Large-Scale Systems 论文解读 | ACL 2025 | **arXiv**: [2504.05824](https://arxiv.org/abs/2504.05824) | **代码**: 无 | **领域**: NLP理解 | **关键词**: 共指消解, 端到端系统, 注意力机制, 上下文嵌入, 大规模系统 | 提出一个端到端神经共指消解系统，通过结合上下文嵌入、层次化注意力机制和优化策略（剪枝/量化），在OntoNotes等基准数据集上实现效率与准确率的平衡，SpanBERT达到87.3 F1。"
+description: "【论文笔记】End-to-End Dialog Neural Coreference Resolution: Balancing Efficiency and Accuracy in Large-Scale Systems 论文解读 | ACL 2025 | arXiv 2504.05824 | 共指消解 | 提出一个端到端神经共指消解系统，通过结合上下文嵌入、层次化注意力机制和优化策略（剪枝/量化），在OntoNotes等基准数据集上实现效率与准确率的平衡，SpanBERT达到87.3 F1。"
 tags:
-  - ACL 2025 | **arXiv**: [2504.05824](https://arxiv.org/abs/2504.05824) | **代码**: 无 | **领域**: NLP理解 | **关键词**: 共指消解, 端到端系统, 注意力机制, 上下文嵌入, 大规模系统
+  - ACL 2025
+  - 共指消解
+  - 端到端系统
+  - 注意力机制
+  - 上下文嵌入
+  - 大规模系统
 ---
 
 # End-to-End Dialog Neural Coreference Resolution: Balancing Efficiency and Accuracy in Large-Scale Systems
 
-**会议**: ACL 2025 | **arXiv**: [2504.05824](https://arxiv.org/abs/2504.05824) | **代码**: 无 | **领域**: NLP理解 | **关键词**: 共指消解, 端到端系统, 注意力机制, 上下文嵌入, 大规模系统
+**会议**: ACL 2025  
+**arXiv**: [2504.05824](https://arxiv.org/abs/2504.05824)  
+**代码**: 无  
+**领域**: NLP理解  
+**关键词**: 共指消解, 端到端系统, 注意力机制, 上下文嵌入, 大规模系统  
 
 ## 一句话总结
 

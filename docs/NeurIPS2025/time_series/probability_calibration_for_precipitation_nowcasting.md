@@ -11,10 +11,10 @@ tags:
 
 # Probability Calibration for Precipitation Nowcasting
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.00594](https://arxiv.org/abs/2510.00594)
-**代码**: 无
-**领域**: 时间序列 / 气象预报
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.00594](https://arxiv.org/abs/2510.00594)  
+**代码**: 无  
+**领域**: 时间序列 / 气象预报  
 **关键词**: 概率校准, 降水临近预报, 选择性缩放, 校准误差, 神经天气模型
 
 ## 一句话总结

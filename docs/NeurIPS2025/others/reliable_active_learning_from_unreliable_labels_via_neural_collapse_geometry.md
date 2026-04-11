@@ -11,10 +11,10 @@ tags:
 
 # Reliable Active Learning from Unreliable Labels via Neural Collapse Geometry
 
-**会议**: NeurIPS 2025 (Workshop)
-**arXiv**: [2510.09740](https://arxiv.org/abs/2510.09740)
-**代码**: [有](https://github.com/Vision-IIITD/NCAL)
-**领域**: 主动学习 / 可靠机器学习
+**会议**: NeurIPS 2025 (Workshop)  
+**arXiv**: [2510.09740](https://arxiv.org/abs/2510.09740)  
+**代码**: [有](https://github.com/Vision-IIITD/NCAL)  
+**领域**: 主动学习 / 可靠机器学习  
 **关键词**: 主动学习, 神经坍缩, 特征几何, OOD泛化, 噪声标签
 
 ## 一句话总结

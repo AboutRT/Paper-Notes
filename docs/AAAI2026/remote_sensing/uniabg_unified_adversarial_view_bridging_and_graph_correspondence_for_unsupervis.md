@@ -1,13 +1,22 @@
 ---
-description: "【论文笔记】UniABG: Unified Adversarial View Bridging and Graph Correspondence for Unsupervised Cross-View Geo-Localization 论文解读 | AAAI 2026 | **arXiv**: [2511.12054](https://arxiv.org/abs/2511.12054) | **代码**: [GitHub](https://github.com/chenqi142/UniABG) | **领域**: remote_sensing | **关键词**: cross-view geo-localization, unsupervised, adversarial learning, graph filtering, pseudo-label | 提出双阶段无监督跨视角地理定位框架 UniABG，通过对抗式视角桥接 (VAAB) 消除无人机/卫星视角域差距，再用异构图过滤校准 (HGFC) 净化跨视角关联，在 University-1652 上 Satellite→Drone AP 达 93.29%，超过多数有监督方法。"
+description: "【论文笔记】UniABG: Unified Adversarial View Bridging and Graph Correspondence for Unsupervised Cross-View Geo-Localization 论文解读 | AAAI 2026 | arXiv 2511.12054 | cross-view geo-localization | 提出双阶段无监督跨视角地理定位框架 UniABG，通过对抗式视角桥接 (VAAB) 消除无人机/卫星视角域差距，再用异构图过滤校准 (HGFC) 净化跨视角关联，在 University-1652 上 Satellite→Drone AP 达 93.29%，超过多数有监督方法。"
 tags:
-  - AAAI 2026 | **arXiv**: [2511.12054](https://arxiv.org/abs/2511.12054) | **代码**: [GitHub](https://github.com/chenqi142/UniABG) | **领域**: remote_sensing | **关键词**: cross-view geo-localization, unsupervised, adversarial learning, graph filtering, pseudo-label
+  - AAAI 2026
+  - cross-view geo-localization
+  - unsupervised
+  - adversarial learning
+  - graph filtering
+  - 伪标签
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # UniABG: Unified Adversarial View Bridging and Graph Correspondence for Unsupervised Cross-View Geo-Localization
 
-**会议**: AAAI 2026 | **arXiv**: [2511.12054](https://arxiv.org/abs/2511.12054) | **代码**: [GitHub](https://github.com/chenqi142/UniABG) | **领域**: remote_sensing | **关键词**: cross-view geo-localization, unsupervised, adversarial learning, graph filtering, pseudo-label
+**会议**: AAAI 2026  
+**arXiv**: [2511.12054](https://arxiv.org/abs/2511.12054)  
+**代码**: [GitHub](https://github.com/chenqi142/UniABG)  
+**领域**: remote_sensing  
+**关键词**: cross-view geo-localization, unsupervised, adversarial learning, graph filtering, pseudo-label  
 
 ## 一句话总结
 

@@ -11,10 +11,10 @@ tags:
 
 # On a Geometry of Interbrain Networks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.10650](https://arxiv.org/abs/2509.10650)
-**代码**: 无
-**领域**: 计算神经科学 / 网络科学
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.10650](https://arxiv.org/abs/2509.10650)  
+**代码**: 无  
+**领域**: 计算神经科学 / 网络科学  
 **关键词**: 离散曲率, 脑间网络, 超扫描, 社会神经科学, 图几何
 
 ## 一句话总结

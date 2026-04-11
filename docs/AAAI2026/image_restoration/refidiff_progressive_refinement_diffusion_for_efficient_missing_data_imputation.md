@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】RefiDiff: Progressive Refinement Diffusion for Efficient Missing Data Imputation 论文解读 | AAAI 2026 | **arXiv**: [2505.14451](https://arxiv.org/abs/2505.14451) | **代码**: [GitHub](https://github.com/Atik-Ahamed/RefiDiff) | **领域**: Data Imputation / Tabular Data | **关键词**: missing data imputation, diffusion model, Mamba, tabular data, MNAR | 提出 RefiDiff 框架，通过渐进式 refinement 策略统一 predictive 和 generative 两种缺失值填补范式，结合 Mamba-based denoising network 实现高维混合类型表格数据的高效高精度填补，在 MNAR 场景下尤其突出。"
+description: "【论文笔记】RefiDiff: Progressive Refinement Diffusion for Efficient Missing Data Imputation 论文解读 | AAAI 2026 | arXiv 2505.14451 | missing data imputation | 提出 RefiDiff 框架，通过渐进式 refinement 策略统一 predictive 和 generative 两种缺失值填补范式，结合 Mamba-based denoising network 实现高维混合类型表格数据的高效高精度填补，在 MNAR 场景下尤其突出。"
 tags:
-  - AAAI 2026 | **arXiv**: [2505.14451](https://arxiv.org/abs/2505.14451) | **代码**: [GitHub](https://github.com/Atik-Ahamed/RefiDiff) | **领域**: Data Imputation / Tabular Data | **关键词**: missing data imputation, diffusion model, Mamba, tabular data, MNAR
+  - AAAI 2026
+  - missing data imputation
+  - 扩散模型
+  - Mamba
+  - tabular data
+  - MNAR
 ---
 
 # RefiDiff: Progressive Refinement Diffusion for Efficient Missing Data Imputation
 
-**会议**: AAAI 2026 | **arXiv**: [2505.14451](https://arxiv.org/abs/2505.14451) | **代码**: [GitHub](https://github.com/Atik-Ahamed/RefiDiff) | **领域**: Data Imputation / Tabular Data | **关键词**: missing data imputation, diffusion model, Mamba, tabular data, MNAR
+**会议**: AAAI 2026  
+**arXiv**: [2505.14451](https://arxiv.org/abs/2505.14451)  
+**代码**: [GitHub](https://github.com/Atik-Ahamed/RefiDiff)  
+**领域**: Data Imputation / Tabular Data  
+**关键词**: missing data imputation, diffusion model, Mamba, tabular data, MNAR  
 
 ## 一句话总结
 

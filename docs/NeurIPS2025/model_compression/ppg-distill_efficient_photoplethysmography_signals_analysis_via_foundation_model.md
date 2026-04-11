@@ -11,10 +11,10 @@ tags:
 
 # PPG-Distill: Efficient Photoplethysmography Signals Analysis via Foundation Model Distillation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.19215](https://arxiv.org/abs/2509.19215)
-**代码**: [GitHub](https://github.com/LingFengGold/PPG-Distill)
-**领域**: 模型压缩 / 知识蒸馏 / 健康信号处理
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.19215](https://arxiv.org/abs/2509.19215)  
+**代码**: [GitHub](https://github.com/LingFengGold/PPG-Distill)  
+**领域**: 模型压缩 / 知识蒸馏 / 健康信号处理  
 **关键词**: 知识蒸馏, PPG信号, 基础模型压缩, 波形形态蒸馏, 节律蒸馏
 
 ## 一句话总结

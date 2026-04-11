@@ -11,10 +11,10 @@ tags:
 
 # One Small Step with Fingerprints, One Giant Leap for De Novo Molecule Generation from Mass Spectra
 
-**会议**: NeurIPS 2025 (AI4Mat Workshop)
-**arXiv**: [2508.04180](https://arxiv.org/abs/2508.04180)
-**代码**: 有（使用开源 MIST + MolForge）
-**领域**: 计算化学 / 分子生成
+**会议**: NeurIPS 2025 (AI4Mat Workshop)  
+**arXiv**: [2508.04180](https://arxiv.org/abs/2508.04180)  
+**代码**: 有（使用开源 MIST + MolForge）  
+**领域**: 计算化学 / 分子生成  
 **关键词**: 质谱, 分子指纹, 从头分子生成, MolForge, MIST
 
 ## 一句话总结

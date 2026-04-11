@@ -12,7 +12,8 @@ tags:
 # Unifying Formal Explanations: A Complexity-Theoretic Perspective
 
 **会议**: ICLR 2026  
-**arXiv**: [2602.18160](https://arxiv.org/abs/2602.18160)  **领域**: 优化  
+**arXiv**: [2602.18160](https://arxiv.org/abs/2602.18160)  
+**领域**: 优化  
 **关键词**: 可解释AI, 计算复杂性, 充分理由, 对比理由, 子模/超模函数
 
 ## 一句话总结

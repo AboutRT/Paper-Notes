@@ -11,10 +11,10 @@ tags:
 
 # Semi-supervised Graph Anomaly Detection via Robust Homophily Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.15448](https://arxiv.org/abs/2506.15448)
-**代码**: [GitHub](https://github.com/mala-lab/RHO)
-**领域**: 图异常检测, 半监督学习, 谱方法
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.15448](https://arxiv.org/abs/2506.15448)  
+**代码**: [GitHub](https://github.com/mala-lab/RHO)  
+**领域**: 图异常检测, 半监督学习, 谱方法  
 **关键词**: 图异常检测, 同质性学习, 自适应频率滤波器, 半监督, 对比学习
 
 ## 一句话总结

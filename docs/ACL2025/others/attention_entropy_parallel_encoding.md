@@ -1,12 +1,14 @@
 ---
-description: "【论文笔记】Attention Entropy is a Key Factor for Parallel Context Encoding 论文解读 | ACL 2025 | **arXiv**: [2412.16545](https://arxiv.org/abs/2412.16545) | **领域**: LLM/NLP | 发现并行上下文编码导致 query token 的注意力熵异常升高是性能下降的关键因素，并提出 Attention Sink 共享前缀和 Selective Attention 两种免微调方法有效缓解该问题。"
+description: "【论文笔记】Attention Entropy is a Key Factor for Parallel Context Encoding 论文解读 | ACL 2025 | arXiv 2412.16545 | 发现并行上下文编码导致 query token 的注意力熵异常升高是性能下降的关键因素，并提出 Attention Sink 共享前缀和 Selective Attention 两种免微调方法有效缓解该问题。"
 tags:
-  - ACL 2025 | **arXiv**: [2412.16545](https://arxiv.org/abs/2412.16545) | **领域**: LLM/NLP
+  - ACL 2025
 ---
 
 # Attention Entropy is a Key Factor for Parallel Context Encoding
 
-**会议**: ACL 2025 | **arXiv**: [2412.16545](https://arxiv.org/abs/2412.16545) | **领域**: LLM/NLP  
+**会议**: ACL 2025  
+**arXiv**: [2412.16545](https://arxiv.org/abs/2412.16545)  
+**领域**: LLM/NLP  
 
 ## 一句话总结
 

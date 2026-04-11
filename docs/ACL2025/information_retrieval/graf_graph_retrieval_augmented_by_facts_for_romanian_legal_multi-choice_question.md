@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】GRAF: Graph Retrieval Augmented by Facts for Romanian Legal Multi-Choice Question Answering 论文解读 | ACL 2025 | **arXiv**: [2412.04119](https://arxiv.org/abs/2412.04119) | **代码**: [github.com/craciuncg/GRAF](https://github.com/craciuncg/GRAF) (有) | **领域**: NLP理解 | **关键词**: 法律问答, 知识图谱, 图注意力网络, 罗马尼亚语, 低资源NLP | 提出GRAF算法，结合法律知识图谱（Law-RoG）和图注意力网络进行罗马尼亚语法律多选题问答，同时开源了首个罗马尼亚语法律MCQA数据集JuRO（10,836题）和法律语料库CROL。"
+description: "【论文笔记】GRAF: Graph Retrieval Augmented by Facts for Romanian Legal Multi-Choice Question Answering 论文解读 | ACL 2025 | arXiv 2412.04119 | 法律问答 | 提出GRAF算法，结合法律知识图谱（Law-RoG）和图注意力网络进行罗马尼亚语法律多选题问答，同时开源了首个罗马尼亚语法律MCQA数据集JuRO（10,836题）和法律语料库CROL。"
 tags:
-  - ACL 2025 | **arXiv**: [2412.04119](https://arxiv.org/abs/2412.04119) | **代码**: [github.com/craciuncg/GRAF](https://github.com/craciuncg/GRAF) (有) | **领域**: NLP理解 | **关键词**: 法律问答, 知识图谱, 图注意力网络, 罗马尼亚语, 低资源NLP
+  - ACL 2025
+  - 法律问答
+  - 知识图谱
+  - 图注意力网络
+  - 罗马尼亚语
+  - 低资源NLP
 ---
 
 # GRAF: Graph Retrieval Augmented by Facts for Romanian Legal Multi-Choice Question Answering
 
-**会议**: ACL 2025 | **arXiv**: [2412.04119](https://arxiv.org/abs/2412.04119) | **代码**: [github.com/craciuncg/GRAF](https://github.com/craciuncg/GRAF) (有) | **领域**: NLP理解 | **关键词**: 法律问答, 知识图谱, 图注意力网络, 罗马尼亚语, 低资源NLP
+**会议**: ACL 2025  
+**arXiv**: [2412.04119](https://arxiv.org/abs/2412.04119)  
+**代码**: [github.com/craciuncg/GRAF](https://github.com/craciuncg/GRAF) (有)  
+**领域**: NLP理解  
+**关键词**: 法律问答, 知识图谱, 图注意力网络, 罗马尼亚语, 低资源NLP  
 
 ## 一句话总结
 

@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training 论文解读 | NeurIPS 2025 / **arXiv**: [2507.09846](https://arxiv.org/abs/2507.09846) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: Schedule-Free优化, 学习率调度, River-Valley损失景观, Edge of Stability, 语言模型预训练 | 从 River-Valley 损失景观的几何视角深入分析 Schedule-Free (SF) 优化器，揭示 SF-AdamW 在不需要学习率衰减或权重平均的情况下自动沿\"河流\"方向优化，并提出改进变体解决动量敏感性和大批量训练的局限性。"
+description: "【论文笔记】Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training 论文解读 | NeurIPS 2025 | arXiv 2507.09846 | Schedule-Free优化 | 从 River-Valley 损失景观的几何视角深入分析 Schedule-Free (SF) 优化器，揭示 SF-AdamW 在不需要学习率衰减或权重平均的情况下自动沿\"河流\"方向优化，并提出改进变体解决动量敏感性和大批量训练的局限性。"
 tags:
-  - NeurIPS 2025 / **arXiv**: [2507.09846](https://arxiv.org/abs/2507.09846) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: Schedule-Free优化, 学习率调度, River-Valley损失景观, Edge of Stability, 语言模型预训练
+  - NeurIPS 2025
+  - Schedule-Free优化
+  - 学习率调度
+  - River-Valley损失景观
+  - Edge of Stability
+  - 语言模型预训练
 ---
 
 # Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training
 
-**会议**: NeurIPS 2025 / **arXiv**: [2507.09846](https://arxiv.org/abs/2507.09846) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: Schedule-Free优化, 学习率调度, River-Valley损失景观, Edge of Stability, 语言模型预训练
+**会议**: NeurIPS 2025  
+**arXiv**: [2507.09846](https://arxiv.org/abs/2507.09846)  
+**代码**: 未公开  
+**领域**: llm_nlp  
+**关键词**: Schedule-Free优化, 学习率调度, River-Valley损失景观, Edge of Stability, 语言模型预训练  
 
 ## 一句话总结
 

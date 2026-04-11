@@ -11,10 +11,10 @@ tags:
 
 # Robust Sampling for Active Statistical Inference
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.08991](https://arxiv.org/abs/2511.08991)
-**代码**: [有](https://github.com/lphLeo/Robust-Active-Statistical-Inference)
-**领域**: 统计推断 / 主动采样
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.08991](https://arxiv.org/abs/2511.08991)  
+**代码**: [有](https://github.com/lphLeo/Robust-Active-Statistical-Inference)  
+**领域**: 统计推断 / 主动采样  
 **关键词**: 主动推断, 鲁棒采样, 预测增强推断, 不确定性估计, 逆概率加权
 
 ## 一句话总结

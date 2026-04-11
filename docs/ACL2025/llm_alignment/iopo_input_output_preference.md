@@ -1,12 +1,22 @@
 ---
-description: "【论文笔记】IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization 论文解读 | ACL 2025 / **arXiv**: [2411.06208](https://arxiv.org/abs/2411.06208) / **代码**: [GitHub](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/IOPO) / **领域**: LLM对齐 / 指令遵循 / **关键词**: instruction following, preference optimization, input preference, multi-constraint, DPO, Bradley-Terry | 提出 IOPO（Input-Output Preference Optimization），在传统 DPO 仅优化输出偏好的基础上，引入输入偏好建模——让模型学习\"给定回复 y，哪个指令 x 更匹配\"，从而增强对复杂多约束指令的细粒度感知能力；同时构建了包含 120K 训练数据、1K 评测数据、覆盖 5 大类 26 个约束维度的 Trace 基准。"
+description: "【论文笔记】IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization 论文解读 | ACL 2025 | arXiv 2411.06208 | instruction following | 提出 IOPO（Input-Output Preference Optimization），在传统 DPO 仅优化输出偏好的基础上，引入输入偏好建模——让模型学习\"给定回复 y，哪个指令 x 更匹配\"，从而增强对复杂多约束指令的细粒度感知能力；同时构建了包含 120K 训练数据、1K 评测数据、覆盖 5 大类 26 个约束维度的 Trace 基准。"
 tags:
-  - ACL 2025 / **arXiv**: [2411.06208](https://arxiv.org/abs/2411.06208) / **代码**: [GitHub](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/IOPO) / **领域**: LLM对齐 / 指令遵循 / **关键词**: instruction following, preference optimization, input preference, multi-constraint, DPO, Bradley-Terry
+  - ACL 2025
+  - instruction following
+  - preference optimization
+  - input preference
+  - multi-constraint
+  - DPO
+  - Bradley-Terry
 ---
 
 # IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization
 
-**会议**: ACL 2025 / **arXiv**: [2411.06208](https://arxiv.org/abs/2411.06208) / **代码**: [GitHub](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/IOPO) / **领域**: LLM对齐 / 指令遵循 / **关键词**: instruction following, preference optimization, input preference, multi-constraint, DPO, Bradley-Terry
+**会议**: ACL 2025  
+**arXiv**: [2411.06208](https://arxiv.org/abs/2411.06208)  
+**代码**: [GitHub](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/IOPO)  
+**领域**: LLM对齐 / 指令遵循  
+**关键词**: instruction following, preference optimization, input preference, multi-constraint, DPO, Bradley-Terry  
 
 ## 一句话总结
 

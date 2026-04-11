@@ -11,10 +11,10 @@ tags:
 
 # UrbanIng-V2X: A Large-Scale Multi-Vehicle Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.23478](https://arxiv.org/abs/2510.23478)
-**代码**: [GitHub](https://github.com/thi-ad/UrbanIng-V2X)
-**领域**: 协同感知, 自动驾驶, 数据集
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.23478](https://arxiv.org/abs/2510.23478)  
+**代码**: [GitHub](https://github.com/thi-ad/UrbanIng-V2X)  
+**领域**: 协同感知, 自动驾驶, 数据集  
 **关键词**: V2X, 协同感知, 多交叉路口, LiDAR, 3D 目标检测
 
 ## 一句话总结

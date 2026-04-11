@@ -11,10 +11,10 @@ tags:
 
 # RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.01360](https://arxiv.org/abs/2506.01360)
-**代码**: [github.com/chlehdwon/RDB2G-Bench](https://github.com/chlehdwon/RDB2G-Bench)
-**领域**: 图学习 / 关系数据库
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.01360](https://arxiv.org/abs/2506.01360)  
+**代码**: [github.com/chlehdwon/RDB2G-Bench](https://github.com/chlehdwon/RDB2G-Bench)  
+**领域**: 图学习 / 关系数据库  
 **关键词**: 关系数据库, 图建模, 基准测试, 图神经网络, 自动建模
 
 ## 一句话总结

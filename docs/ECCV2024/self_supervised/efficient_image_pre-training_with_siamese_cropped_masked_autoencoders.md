@@ -11,10 +11,10 @@ tags:
 
 # Efficient Image Pre-Training with Siamese Cropped Masked Autoencoders
 
-**会议**: ECCV 2024
-**arXiv**: [2403.17823](https://arxiv.org/abs/2403.17823)
-**代码**: https://github.com/alexandre-eymael/CropMAE (有)
-**领域**: 自监督学习
+**会议**: ECCV 2024  
+**arXiv**: [2403.17823](https://arxiv.org/abs/2403.17823)  
+**代码**: https://github.com/alexandre-eymael/CropMAE (有)  
+**领域**: 自监督学习  
 **关键词**: 自监督学习, 掩码自编码器, 孪生网络, 视频分割, 标签传播
 
 ## 一句话总结

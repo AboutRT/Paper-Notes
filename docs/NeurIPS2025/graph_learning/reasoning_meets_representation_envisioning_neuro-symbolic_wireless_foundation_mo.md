@@ -11,10 +11,10 @@ tags:
 
 # Reasoning Meets Representation: Envisioning Neuro-Symbolic Wireless Foundation Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.16369](https://arxiv.org/abs/2511.16369)
-**代码**: 无
-**领域**: 图学习 / 无线通信 / 神经符号AI
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.16369](https://arxiv.org/abs/2511.16369)  
+**代码**: 无  
+**领域**: 图学习 / 无线通信 / 神经符号AI  
 **关键词**: 神经符号AI, 无线基础模型, 知识图谱, 可微逻辑推理, 6G
 
 ## 一句话总结

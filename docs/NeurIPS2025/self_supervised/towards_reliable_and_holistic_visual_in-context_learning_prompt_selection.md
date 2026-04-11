@@ -11,10 +11,10 @@ tags:
 
 # Towards Reliable and Holistic Visual In-Context Learning Prompt Selection
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.25989](https://arxiv.org/abs/2509.25989)
-**代码**: [GitHub](https://github.com/Wu-Wenxiao/RH-Partial2Global)
-**领域**: 视觉上下文学习, 提示选择
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.25989](https://arxiv.org/abs/2509.25989)  
+**代码**: [GitHub](https://github.com/Wu-Wenxiao/RH-Partial2Global)  
+**领域**: 视觉上下文学习, 提示选择  
 **关键词**: 视觉上下文学习, 共形预测, 覆盖设计, 提示选择, 全局排序
 
 ## 一句话总结

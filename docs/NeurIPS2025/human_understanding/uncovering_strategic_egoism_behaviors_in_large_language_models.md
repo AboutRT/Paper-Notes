@@ -11,10 +11,10 @@ tags:
 
 # Uncovering Strategic Egoism Behaviors in Large Language Models
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.09920](https://arxiv.org/abs/2511.09920)
-**代码**: [SEBench](https://anonymous.4open.science/r/SEBench-3E36)
-**领域**: LLM安全与对齐, 行为分析
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.09920](https://arxiv.org/abs/2511.09920)  
+**代码**: [SEBench](https://anonymous.4open.science/r/SEBench-3E36)  
+**领域**: LLM安全与对齐, 行为分析  
 **关键词**: 策略性自利, 大语言模型, 安全基准, 暗黑人格, 毒性
 
 ## 一句话总结

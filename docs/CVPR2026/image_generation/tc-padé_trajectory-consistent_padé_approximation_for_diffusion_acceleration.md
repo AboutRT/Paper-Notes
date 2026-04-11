@@ -1,12 +1,20 @@
 ---
-description: "【论文笔记】TC-Padé: Trajectory-Consistent Padé Approximation for Diffusion Acceleration 论文解读 | CVPR 2026  **arXiv**: [2603.02943](https://arxiv.org/abs/2603.02943)  **领域**: 图像生成  **关键词**: 扩散模型加速, 特征缓存, Padé近似, 轨迹一致性, 残差预测 | 提出基于 Padé 有理函数近似的特征残差预测框架 TC-Padé，通过自适应系数调节和分阶段感知策略，在低步数（20-30步）扩散采样场景下实现轨迹一致的加速（FLUX.1-dev 2.88×、Wan2.1 1.72×），显著优于基于 Taylor 展开的现有方法。"
+description: "【论文笔记】TC-Padé: Trajectory-Consistent Padé Approximation for Diffusion Acceleration 论文解读 | CVPR 2026 | arXiv 2603.02943 | 扩散模型加速 | 提出基于 Padé 有理函数近似的特征残差预测框架 TC-Padé，通过自适应系数调节和分阶段感知策略，在低步数（20-30步）扩散采样场景下实现轨迹一致的加速（FLUX.1-dev 2.88×、Wan2.1 1.72×），显著优于基于 Taylor 展开的现有方法。"
 tags:
-  - CVPR 2026  **arXiv**: [2603.02943](https://arxiv.org/abs/2603.02943)  **领域**: 图像生成  **关键词**: 扩散模型加速, 特征缓存, Padé近似, 轨迹一致性, 残差预测
+  - CVPR 2026
+  - 扩散模型加速
+  - 特征缓存
+  - Padé近似
+  - 轨迹一致性
+  - 残差预测
 ---
 
 # TC-Padé: Trajectory-Consistent Padé Approximation for Diffusion Acceleration
 
-**会议**: CVPR 2026  **arXiv**: [2603.02943](https://arxiv.org/abs/2603.02943)  **领域**: 图像生成  **关键词**: 扩散模型加速, 特征缓存, Padé近似, 轨迹一致性, 残差预测
+**会议**: CVPR 2026  
+**arXiv**: [2603.02943](https://arxiv.org/abs/2603.02943)  
+**领域**: 图像生成  
+**关键词**: 扩散模型加速, 特征缓存, Padé近似, 轨迹一致性, 残差预测  
 
 ## 一句话总结
 

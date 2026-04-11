@@ -11,10 +11,10 @@ tags:
 
 # PulseMind: A Multi-Modal Medical Model for Real-World Clinical Diagnosis
 
-**会议**: AAAI 2026
-**arXiv**: [2601.07344](https://arxiv.org/abs/2601.07344)
-**代码**: [GitHub](https://github.com/AQ-MedAI/PulseMind)
-**领域**: 医学多模态 / 临床诊断对话
+**会议**: AAAI 2026  
+**arXiv**: [2601.07344](https://arxiv.org/abs/2601.07344)  
+**代码**: [GitHub](https://github.com/AQ-MedAI/PulseMind)  
+**领域**: 医学多模态 / 临床诊断对话  
 **关键词**: 医学多模态模型, 多轮诊断对话, 强化学习, 比较式奖励, 临床评估基准
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # RGB-to-Polarization Estimation: A New Task and Benchmark Study
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.13050](https://arxiv.org/abs/2505.13050)
-**代码**: 待发布
-**领域**: 计算机视觉 / 偏振成像
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.13050](https://arxiv.org/abs/2505.13050)  
+**代码**: 待发布  
+**领域**: 计算机视觉 / 偏振成像  
 **关键词**: 偏振估计, Stokes参数, RGB图像, 基准测试, 扩散模型
 
 ## 一句话总结

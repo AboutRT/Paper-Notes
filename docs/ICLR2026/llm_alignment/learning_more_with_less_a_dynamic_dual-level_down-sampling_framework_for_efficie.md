@@ -1,7 +1,7 @@
 ---
-description: "【论文笔记】Learning More with Less: A Dynamic Dual-Level Down-Sampling Framework for Efficient Policy Optimization 论文解读 | ICLR 2026 / **arXiv**: [2509.22115](https://arxiv.org/abs/2509.22115) | GRPO | 提出**D3S**（Dynamic Dual-Level Down-Sampling）框架，在sample层最大化advantage方差、在token层优先选取高熵+高advantage的token，配合动态调度策略，用不到20% token实现更快收敛和更优性能。"
+description: "【论文笔记】Learning More with Less: A Dynamic Dual-Level Down-Sampling Framework for Efficient Policy Optimization 论文解读 | ICLR 2026 | arXiv 2509.22115 | GRPO | 提出**D3S**（Dynamic Dual-Level Down-Sampling）框架，在sample层最大化advantage方差、在token层优先选取高熵+高advantage的token，配合动态调度策略，用不到20% token实现更快收敛和更优性能。"
 tags:
-  - ICLR 2026 / **arXiv**: [2509.22115](https://arxiv.org/abs/2509.22115)
+  - ICLR 2026
   - GRPO
   - policy optimization
   - down-sampling
@@ -12,7 +12,8 @@ tags:
 
 # Learning More with Less: A Dynamic Dual-Level Down-Sampling Framework for Efficient Policy Optimization
 
-**会议**: ICLR 2026 / **arXiv**: [2509.22115](https://arxiv.org/abs/2509.22115)  
+**会议**: ICLR 2026  
+**arXiv**: [2509.22115](https://arxiv.org/abs/2509.22115)  
 
 **作者**: Chao Wang, Tao Yang, Hongtao Tian 等（清华大学 & 腾讯微信）  
 **代码**: 已公开（补充材料）  

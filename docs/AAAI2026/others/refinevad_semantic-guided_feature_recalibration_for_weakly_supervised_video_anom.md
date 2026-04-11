@@ -11,10 +11,10 @@ tags:
 
 # RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection
 
-**会议**: AAAI 2026
-**arXiv**: [2511.13204](https://arxiv.org/abs/2511.13204)
-**代码**: [GitHub](https://github.com/VisualScienceLab-KHU/RefineVAD)
-**领域**: 视频异常检测 / 弱监督学习
+**会议**: AAAI 2026  
+**arXiv**: [2511.13204](https://arxiv.org/abs/2511.13204)  
+**代码**: [GitHub](https://github.com/VisualScienceLab-KHU/RefineVAD)  
+**领域**: 视频异常检测 / 弱监督学习  
 **关键词**: 弱监督视频异常检测, 多实例学习, 语义引导, 时序建模, 类别原型
 
 ## 一句话总结

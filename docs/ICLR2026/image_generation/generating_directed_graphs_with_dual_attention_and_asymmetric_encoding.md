@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Generating Directed Graphs with Dual Attention and Asymmetric Encoding 论文解读 | ICLR 2026  **arXiv**: [2506.16404](https://arxiv.org/abs/2506.16404)  **代码**: [GitHub](https://github.com/acarballocastro/DIRECTO)(有)  **领域**: 图生成  **关键词**: 有向图生成, 离散流匹配, 双注意力机制, 非对称位置编码, 图生成基准 | 提出 Directo，首个基于离散流匹配（Discrete Flow Matching）的有向图生成模型，通过方向感知的双注意力机制和非对称位置编码捕获有向边的方向依赖，同时建立了有向图生成的标准化评测体系。"
+description: "【论文笔记】Generating Directed Graphs with Dual Attention and Asymmetric Encoding 论文解读 | ICLR 2026 | arXiv 2506.16404 | 有向图生成 | 提出 Directo，首个基于离散流匹配（Discrete Flow Matching）的有向图生成模型，通过方向感知的双注意力机制和非对称位置编码捕获有向边的方向依赖，同时建立了有向图生成的标准化评测体系。"
 tags:
-  - ICLR 2026  **arXiv**: [2506.16404](https://arxiv.org/abs/2506.16404)  **代码**: [GitHub](https://github.com/acarballocastro/DIRECTO)(有)  **领域**: 图生成  **关键词**: 有向图生成, 离散流匹配, 双注意力机制, 非对称位置编码, 图生成基准
+  - ICLR 2026
+  - 有向图生成
+  - 离散流匹配
+  - 双注意力机制
+  - 非对称位置编码
+  - 图生成基准
 ---
 
 # Generating Directed Graphs with Dual Attention and Asymmetric Encoding
 
-**会议**: ICLR 2026  **arXiv**: [2506.16404](https://arxiv.org/abs/2506.16404)  **代码**: [GitHub](https://github.com/acarballocastro/DIRECTO)(有)  **领域**: 图生成  **关键词**: 有向图生成, 离散流匹配, 双注意力机制, 非对称位置编码, 图生成基准
+**会议**: ICLR 2026  
+**arXiv**: [2506.16404](https://arxiv.org/abs/2506.16404)  
+**代码**: [GitHub](https://github.com/acarballocastro/DIRECTO)(有)  
+**领域**: 图生成  
+**关键词**: 有向图生成, 离散流匹配, 双注意力机制, 非对称位置编码, 图生成基准  
 
 ## 一句话总结
 

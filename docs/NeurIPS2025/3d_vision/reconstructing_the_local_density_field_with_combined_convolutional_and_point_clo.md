@@ -11,10 +11,10 @@ tags:
 
 # Reconstructing the Local Density Field with Combined Convolutional and Point Cloud Architecture
 
-**会议**: NeurIPS 2025 (ML4PS Workshop)
-**arXiv**: [2510.08573](https://arxiv.org/abs/2510.08573)
-**代码**: 无
-**领域**: 3D视觉 / 宇宙学
+**会议**: NeurIPS 2025 (ML4PS Workshop)  
+**arXiv**: [2510.08573](https://arxiv.org/abs/2510.08573)  
+**代码**: 无  
+**领域**: 3D视觉 / 宇宙学  
 **关键词**: 暗物质密度场重建, U-Net, DeepSets, 点云, 特异速度
 
 ## 一句话总结

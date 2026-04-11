@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】UnrealPose: Leveraging Game Engine Kinematics for Large-Scale Synthetic Human Pose Data 论文解读 | CVPR 2026  **arXiv**: [2601.00991](https://arxiv.org/abs/2601.00991)  **代码**: 有  **领域**: 分割  **关键词**: Synthetic Data, Human Pose Estimation, Unreal Engine, Game Engine, Instance Segmentation | 提出 UnrealPose-Gen，一个基于 Unreal Engine 5 的合成人体姿态数据生成管线，利用游戏引擎原生骨骼运动学（而非 SMPL）生成百万级标注数据集 UnrealPose-1M，提供 3D 关节、2D 关键点、遮挡标志、实例分割掩码和相机参数等完整标注。"
+description: "【论文笔记】UnrealPose: Leveraging Game Engine Kinematics for Large-Scale Synthetic Human Pose Data 论文解读 | CVPR 2026 | arXiv 2601.00991 | Synthetic Data | 提出 UnrealPose-Gen，一个基于 Unreal Engine 5 的合成人体姿态数据生成管线，利用游戏引擎原生骨骼运动学（而非 SMPL）生成百万级标注数据集 UnrealPose-1M，提供 3D 关节、2D 关键点、遮挡标志、实例分割掩码和相机参数等完整标注。"
 tags:
-  - CVPR 2026  **arXiv**: [2601.00991](https://arxiv.org/abs/2601.00991)  **代码**: 有  **领域**: 分割  **关键词**: Synthetic Data, Human Pose Estimation, Unreal Engine, Game Engine, Instance Segmentation
+  - CVPR 2026
+  - Synthetic Data
+  - 位姿估计
+  - Unreal Engine
+  - Game Engine
+  - 图像分割
 ---
 
 # UnrealPose: Leveraging Game Engine Kinematics for Large-Scale Synthetic Human Pose Data
 
-**会议**: CVPR 2026  **arXiv**: [2601.00991](https://arxiv.org/abs/2601.00991)  **代码**: 有  **领域**: 分割  **关键词**: Synthetic Data, Human Pose Estimation, Unreal Engine, Game Engine, Instance Segmentation
+**会议**: CVPR 2026  
+**arXiv**: [2601.00991](https://arxiv.org/abs/2601.00991)  
+**代码**: 有  
+**领域**: 分割  
+**关键词**: Synthetic Data, Human Pose Estimation, Unreal Engine, Game Engine, Instance Segmentation  
 
 ## 一句话总结
 

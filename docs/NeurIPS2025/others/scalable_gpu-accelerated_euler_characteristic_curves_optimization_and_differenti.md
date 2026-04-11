@@ -11,10 +11,10 @@ tags:
 
 # Scalable GPU-Accelerated Euler Characteristic Curves: Optimization and Differentiable Learning for PyTorch
 
-**会议**: NeurIPS 2025 (NeurReps Workshop)
-**arXiv**: [2510.20271](https://arxiv.org/abs/2510.20271)
-**代码**: [有](链接见原文)
-**领域**: 拓扑深度学习 / GPU计算
+**会议**: NeurIPS 2025 (NeurReps Workshop)  
+**arXiv**: [2510.20271](https://arxiv.org/abs/2510.20271)  
+**代码**: [有](链接见原文)  
+**领域**: 拓扑深度学习 / GPU计算  
 **关键词**: 欧拉特征曲线, 拓扑数据分析, 可微编程, CUDA优化, PyTorch
 
 ## 一句话总结

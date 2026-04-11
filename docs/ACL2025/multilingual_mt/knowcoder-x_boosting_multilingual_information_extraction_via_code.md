@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】KnowCoder-X: Boosting Multilingual Information Extraction via Code 论文解读 | ACL 2025  **arXiv**: [2411.04794](https://arxiv.org/abs/2411.04794)  **代码**: [ICT-GoKnow/KnowCoder](https://github.com/ICT-GoKnow/KnowCoder) (有)  **领域**: NLP-信息抽取  **关键词**: 跨语言IE、代码生成、NER、schema统一、平行数据 | 提出 KnowCoder-X，通过统一的 Python 类表示多语言 IE schema，并引入 IE 跨语言对齐指令微调阶段（含高质量 ParallelNER 数据集），在 64 个 IE 基准上大幅提升跨语言信息抽取性能。"
+description: "【论文笔记】KnowCoder-X: Boosting Multilingual Information Extraction via Code 论文解读 | ACL 2025 | arXiv 2411.04794 | 跨语言IE | 提出 KnowCoder-X，通过统一的 Python 类表示多语言 IE schema，并引入 IE 跨语言对齐指令微调阶段（含高质量 ParallelNER 数据集），在 64 个 IE 基准上大幅提升跨语言信息抽取性能。"
 tags:
-  - ACL 2025  **arXiv**: [2411.04794](https://arxiv.org/abs/2411.04794)  **代码**: [ICT-GoKnow/KnowCoder](https://github.com/ICT-GoKnow/KnowCoder) (有)  **领域**: NLP-信息抽取  **关键词**: 跨语言IE、代码生成、NER、schema统一、平行数据
+  - ACL 2025
+  - 跨语言IE
+  - 代码生成
+  - NER
+  - schema统一
+  - 平行数据
 ---
 
 # KnowCoder-X: Boosting Multilingual Information Extraction via Code
 
-**会议**: ACL 2025  **arXiv**: [2411.04794](https://arxiv.org/abs/2411.04794)  **代码**: [ICT-GoKnow/KnowCoder](https://github.com/ICT-GoKnow/KnowCoder) (有)  **领域**: NLP-信息抽取  **关键词**: 跨语言IE、代码生成、NER、schema统一、平行数据
+**会议**: ACL 2025  
+**arXiv**: [2411.04794](https://arxiv.org/abs/2411.04794)  
+**代码**: [ICT-GoKnow/KnowCoder](https://github.com/ICT-GoKnow/KnowCoder) (有)  
+**领域**: NLP-信息抽取  
+**关键词**: 跨语言IE、代码生成、NER、schema统一、平行数据  
 
 ## 一句话总结
 

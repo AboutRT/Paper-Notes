@@ -11,10 +11,10 @@ tags:
 
 # The Ouroboros of Benchmarking: Reasoning Evaluation in an Era of Saturation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.01365](https://arxiv.org/abs/2511.01365)
-**代码**: 无
-**领域**: LLM评估, 推理基准
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.01365](https://arxiv.org/abs/2511.01365)  
+**代码**: 无  
+**领域**: LLM评估, 推理基准  
 **关键词**: 基准饱和, 推理评估, 大语言模型, 排行榜, 评估方法论
 
 ## 一句话总结

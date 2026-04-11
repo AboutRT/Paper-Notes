@@ -11,10 +11,10 @@ tags:
 
 # Segment-Factorized Full-Song Generation on Symbolic Piano Music
 
-**会议**: NeurIPS 2025 (AI for Music Workshop)
-**arXiv**: [2510.05881](https://arxiv.org/abs/2510.05881)
-**代码**: [有](https://github.com/eri24816/segmented-full-song-gen)
-**领域**: 音乐生成 / 目标检测（分类归属）
+**会议**: NeurIPS 2025 (AI for Music Workshop)  
+**arXiv**: [2510.05881](https://arxiv.org/abs/2510.05881)  
+**代码**: [有](https://github.com/eri24816/segmented-full-song-gen)  
+**领域**: 音乐生成 / 目标检测（分类归属）  
 **关键词**: 符号音乐生成, 全曲生成, Transformer, 结构建模, 人机协作
 
 ## 一句话总结

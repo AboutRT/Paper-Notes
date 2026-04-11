@@ -12,7 +12,8 @@ tags:
 # When to Restart? Exploring Escalating Restarts on Convergence
 
 **会议**: ICLR 2026  
-**arXiv**: [2603.04117](https://arxiv.org/abs/2603.04117)  **领域**: 优化  
+**arXiv**: [2603.04117](https://arxiv.org/abs/2603.04117)  
+**领域**: 优化  
 **关键词**: 学习率调度, 自适应重启, 收敛感知, SGD优化, 深度学习训练
 
 ## 一句话总结

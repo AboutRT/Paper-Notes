@@ -1,12 +1,22 @@
 ---
-description: "【论文笔记】Judge's Verdict: A Comprehensive Analysis of LLM Judge Capability Through Human Agreement 论文解读 | ICLR 2026 / **arXiv**: [2510.09738](https://arxiv.org/abs/2510.09738) / **代码**: 未公开 / **领域**: llm_agent / **关键词**: LLM-as-a-Judge, Cohen's Kappa, human agreement, benchmark, RAG evaluation, Turing Test for judges | 提出 Judge's Verdict Benchmark——两步评估框架，通过相关性过滤 + Cohen's Kappa 人类相似性测试，从 54 个 LLM 中识别 27 个 Tier 1 评委（23 人类相似型 + 4 超一致型），揭示相关性不足以评估 LLM 评委质量。"
+description: "【论文笔记】Judge's Verdict: A Comprehensive Analysis of LLM Judge Capability Through Human Agreement 论文解读 | ICLR 2026 | arXiv 2510.09738 | LLM-as-a-Judge | 提出 Judge's Verdict Benchmark——两步评估框架，通过相关性过滤 + Cohen's Kappa 人类相似性测试，从 54 个 LLM 中识别 27 个 Tier 1 评委（23 人类相似型 + 4 超一致型），揭示相关性不足以评估 LLM 评委质量。"
 tags:
-  - ICLR 2026 / **arXiv**: [2510.09738](https://arxiv.org/abs/2510.09738) / **代码**: 未公开 / **领域**: llm_agent / **关键词**: LLM-as-a-Judge, Cohen's Kappa, human agreement, benchmark, RAG evaluation, Turing Test for judges
+  - ICLR 2026
+  - LLM-as-a-Judge
+  - Cohen's Kappa
+  - human agreement
+  - benchmark
+  - RAG evaluation
+  - Turing Test for judges
 ---
 
 # Judge's Verdict: A Comprehensive Analysis of LLM Judge Capability Through Human Agreement
 
-**会议**: ICLR 2026 / **arXiv**: [2510.09738](https://arxiv.org/abs/2510.09738) / **代码**: 未公开 / **领域**: llm_agent / **关键词**: LLM-as-a-Judge, Cohen's Kappa, human agreement, benchmark, RAG evaluation, Turing Test for judges
+**会议**: ICLR 2026  
+**arXiv**: [2510.09738](https://arxiv.org/abs/2510.09738)  
+**代码**: 未公开  
+**领域**: llm_agent  
+**关键词**: LLM-as-a-Judge, Cohen's Kappa, human agreement, benchmark, RAG evaluation, Turing Test for judges  
 
 ## 一句话总结
 

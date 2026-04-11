@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】NESTOR: A Nested MOE-based Neural Operator for Large-Scale PDE Pre-Training 论文解读 | CVPR 2026  **arXiv**: [2602.22059](https://arxiv.org/abs/2602.22059)  **代码**: [有](https://github.com/Event-AHU/OpenFusion)  **领域**: 科学计算  **关键词**: 神经算子, 混合专家(MoE), PDE求解, 大规模预训练, 傅里叶注意力 | 提出嵌套式 MoE 神经算子 NESTOR，通过 image-level MoE 捕获不同 PDE 类型的全局特征 + token-level Sub-MoE 捕获物理场内局部相关性，在 12 个 PDE 数据集上实现大规模预训练并有效迁移到下游任务。"
+description: "【论文笔记】NESTOR: A Nested MOE-based Neural Operator for Large-Scale PDE Pre-Training 论文解读 | CVPR 2026 | arXiv 2602.22059 | 神经算子 | 提出嵌套式 MoE 神经算子 NESTOR，通过 image-level MoE 捕获不同 PDE 类型的全局特征 + token-level Sub-MoE 捕获物理场内局部相关性，在 12 个 PDE 数据集上实现大规模预训练并有效迁移到下游任务。"
 tags:
-  - CVPR 2026  **arXiv**: [2602.22059](https://arxiv.org/abs/2602.22059)  **代码**: [有](https://github.com/Event-AHU/OpenFusion)  **领域**: 科学计算  **关键词**: 神经算子, 混合专家(MoE), PDE求解, 大规模预训练, 傅里叶注意力
+  - CVPR 2026
+  - 神经算子
+  - 混合专家(MoE)
+  - 偏微分方程
+  - 大规模预训练
+  - 傅里叶注意力
 ---
 
 # NESTOR: A Nested MOE-based Neural Operator for Large-Scale PDE Pre-Training
 
-**会议**: CVPR 2026  **arXiv**: [2602.22059](https://arxiv.org/abs/2602.22059)  **代码**: [有](https://github.com/Event-AHU/OpenFusion)  **领域**: 科学计算  **关键词**: 神经算子, 混合专家(MoE), PDE求解, 大规模预训练, 傅里叶注意力
+**会议**: CVPR 2026  
+**arXiv**: [2602.22059](https://arxiv.org/abs/2602.22059)  
+**代码**: [有](https://github.com/Event-AHU/OpenFusion)  
+**领域**: 科学计算  
+**关键词**: 神经算子, 混合专家(MoE), PDE求解, 大规模预训练, 傅里叶注意力  
 
 ## 一句话总结
 

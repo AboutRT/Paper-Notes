@@ -11,10 +11,10 @@ tags:
 
 # Position Paper: If Innovation in AI Systematically Violates Fundamental Rights, Is It Innovation at All?
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.00027](https://arxiv.org/abs/2511.00027)
-**代码**: 无
-**领域**: AI Ethics / AI Governance
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.00027](https://arxiv.org/abs/2511.00027)  
+**代码**: 无  
+**领域**: AI Ethics / AI Governance  
 **关键词**: AI监管, 基本权利, EU AI Act, 负责任创新, Collingridge困境
 
 ## 一句话总结

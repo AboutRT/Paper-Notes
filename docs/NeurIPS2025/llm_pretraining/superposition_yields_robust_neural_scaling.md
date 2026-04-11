@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Superposition Yields Robust Neural Scaling 论文解读 | NeurIPS 2025 / **arXiv**: [2505.10465](https://arxiv.org/abs/2505.10465) / **代码**: [GitHub](https://github.com/liuyz0/SuperpositionScaling) / **领域**: llm_nlp / **关键词**: 神经缩放定律, 叠加现象, 表示学习, LLM 理论, 权重衰减 | 揭示表示叠加（superposition）是神经缩放定律的核心驱动力：在强叠加区间，损失**通用地**与模型维度成反比（$L \propto 1/m$），且该行为与数据频率分布的具体形式无关，这与实际 LLM 的缩放行为一致。"
+description: "【论文笔记】Superposition Yields Robust Neural Scaling 论文解读 | NeurIPS 2025 | arXiv 2505.10465 | 神经缩放定律 | 揭示表示叠加（superposition）是神经缩放定律的核心驱动力：在强叠加区间，损失**通用地**与模型维度成反比（$L \propto 1/m$），且该行为与数据频率分布的具体形式无关，这与实际 LLM 的缩放行为一致。"
 tags:
-  - NeurIPS 2025 / **arXiv**: [2505.10465](https://arxiv.org/abs/2505.10465) / **代码**: [GitHub](https://github.com/liuyz0/SuperpositionScaling) / **领域**: llm_nlp / **关键词**: 神经缩放定律, 叠加现象, 表示学习, LLM 理论, 权重衰减
+  - NeurIPS 2025
+  - 神经缩放定律
+  - 叠加现象
+  - 表示学习
+  - LLM 理论
+  - 权重衰减
 ---
 
 # Superposition Yields Robust Neural Scaling
 
-**会议**: NeurIPS 2025 / **arXiv**: [2505.10465](https://arxiv.org/abs/2505.10465) / **代码**: [GitHub](https://github.com/liuyz0/SuperpositionScaling) / **领域**: llm_nlp / **关键词**: 神经缩放定律, 叠加现象, 表示学习, LLM 理论, 权重衰减
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.10465](https://arxiv.org/abs/2505.10465)  
+**代码**: [GitHub](https://github.com/liuyz0/SuperpositionScaling)  
+**领域**: llm_nlp  
+**关键词**: 神经缩放定律, 叠加现象, 表示学习, LLM 理论, 权重衰减  
 
 ## 一句话总结
 

@@ -11,10 +11,10 @@ tags:
 
 # Procurement Auctions with Predictions: Improved Frugality for Facility Location
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.09367](https://arxiv.org/abs/2512.09367)
-**代码**: 无
-**领域**: 算法博弈论 / 机制设计
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.09367](https://arxiv.org/abs/2512.09367)  
+**代码**: 无  
+**领域**: 算法博弈论 / 机制设计  
 **关键词**: 采购拍卖, 设施选址, 节俭性, 学习增强机制, VCG拍卖
 
 ## 一句话总结

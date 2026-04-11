@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Cross-fluctuation Phase Transitions Reveal Sampling Dynamics in Diffusion Models 论文解读 | NeurIPS 2025  **arXiv**: [2511.00124](https://arxiv.org/abs/2511.00124)  **代码**: 无  **领域**: image_generation / diffusion_models  **关键词**: 扩散模型, 相变, 交叉涨落, 采样动力学, 条件生成 | arXiv 2511.00124 | 借鉴统计物理中的涨落理论（fluctuation theory），提出了一种通过 **交叉涨落（cross-fluctuation）** 检测扩散模型采样过程中离散相变的框架，从而在无需重新训练的情况下加速采样、改进条件生成、提升零样本分类和风格迁移。"
+description: "【论文笔记】Cross-fluctuation Phase Transitions Reveal Sampling Dynamics in Diffusion Models 论文解读 | NeurIPS 2025 | arXiv 2511.00124 | 扩散模型 | 借鉴统计物理中的涨落理论（fluctuation theory），提出了一种通过 **交叉涨落（cross-fluctuation）** 检测扩散模型采样过程中离散相变的框架，从而在无需重新训练的情况下加速采样、改进条件生成、提升零样本分类和风格迁移。"
 tags:
-  - NeurIPS 2025  **arXiv**: [2511.00124](https://arxiv.org/abs/2511.00124)  **代码**: 无  **领域**: image_generation / diffusion_models  **关键词**: 扩散模型, 相变, 交叉涨落, 采样动力学, 条件生成
+  - NeurIPS 2025
+  - 扩散模型
+  - 相变
+  - 交叉涨落
+  - 采样动力学
+  - 条件生成
 ---
 
 # Cross-fluctuation Phase Transitions Reveal Sampling Dynamics in Diffusion Models
 
-**会议**: NeurIPS 2025  **arXiv**: [2511.00124](https://arxiv.org/abs/2511.00124)  **代码**: 无  **领域**: image_generation / diffusion_models  **关键词**: 扩散模型, 相变, 交叉涨落, 采样动力学, 条件生成  
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.00124](https://arxiv.org/abs/2511.00124)  
+**代码**: 无  
+**领域**: image_generation / diffusion_models  
+**关键词**: 扩散模型, 相变, 交叉涨落, 采样动力学, 条件生成  
 **arXiv**: [2511.00124](https://arxiv.org/abs/2511.00124)  
 **代码**: 无  
 **领域**: 图像生成  

@@ -11,10 +11,10 @@ tags:
 
 # Transformer Embeddings for Fast Microlensing Inference
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.11687](https://arxiv.org/abs/2512.11687)
-**代码**: [GitHub](https://github.com/NolanSmyth/sbi_microlensing_transformers)
-**领域**: 天文学, 时间序列推断
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.11687](https://arxiv.org/abs/2512.11687)  
+**代码**: [GitHub](https://github.com/NolanSmyth/sbi_microlensing_transformers)  
+**领域**: 天文学, 时间序列推断  
 **关键词**: 微引力透镜, 模拟推断, Transformer, 后验估计, 自由漂浮行星
 
 ## 一句话总结

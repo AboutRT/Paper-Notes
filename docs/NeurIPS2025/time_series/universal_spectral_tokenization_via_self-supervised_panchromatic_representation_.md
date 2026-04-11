@@ -11,10 +11,10 @@ tags:
 
 # Universal Spectral Tokenization via Self-Supervised Panchromatic Representation Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.17959](https://arxiv.org/abs/2510.17959)
-**代码**: 无
-**领域**: 天文光谱学, 基础模型, 自监督学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.17959](https://arxiv.org/abs/2510.17959)  
+**代码**: 无  
+**领域**: 天文光谱学, 基础模型, 自监督学习  
 **关键词**: 光谱 Tokenizer, 异构数据统一, Vision Transformer, 自监督预训练, 天文学
 
 ## 一句话总结

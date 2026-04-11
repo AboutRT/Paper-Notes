@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】ORVIT: Near-Optimal Online Distributionally Robust Reinforcement Learning 论文解读 | AAAI 2026  **arXiv**: [2508.03768](https://arxiv.org/abs/2508.03768)  **代码**: 无  **领域**: 强化学习/分布鲁棒优化  **关键词**: Distributionally Robust RL, Online Learning, f-divergence, Minimax Optimal, Sample Complexity | 本文研究在线分布鲁棒强化学习，提出了基于 $f$-散度不确定性集的 RVI-$f$ 算法，在 $\chi^2$ 和 KL 散度下均实现了近似极小极大最优的遗憾界，且不依赖任何结构性假设。"
+description: "【论文笔记】ORVIT: Near-Optimal Online Distributionally Robust Reinforcement Learning 论文解读 | AAAI 2026 | arXiv 2508.03768 | Distributionally Robust RL | 本文研究在线分布鲁棒强化学习，提出了基于 $f$-散度不确定性集的 RVI-$f$ 算法，在 $\chi^2$ 和 KL 散度下均实现了近似极小极大最优的遗憾界，且不依赖任何结构性假设。"
 tags:
-  - AAAI 2026  **arXiv**: [2508.03768](https://arxiv.org/abs/2508.03768)  **代码**: 无  **领域**: 强化学习/分布鲁棒优化  **关键词**: Distributionally Robust RL, Online Learning, f-divergence, Minimax Optimal, Sample Complexity
+  - AAAI 2026
+  - Distributionally Robust RL
+  - Online Learning
+  - f-divergence
+  - Minimax Optimal
+  - Sample Complexity
 ---
 
 # ORVIT: Near-Optimal Online Distributionally Robust Reinforcement Learning
 
-**会议**: AAAI 2026  **arXiv**: [2508.03768](https://arxiv.org/abs/2508.03768)  **代码**: 无  **领域**: 强化学习/分布鲁棒优化  **关键词**: Distributionally Robust RL, Online Learning, f-divergence, Minimax Optimal, Sample Complexity
+**会议**: AAAI 2026  
+**arXiv**: [2508.03768](https://arxiv.org/abs/2508.03768)  
+**代码**: 无  
+**领域**: 强化学习/分布鲁棒优化  
+**关键词**: Distributionally Robust RL, Online Learning, f-divergence, Minimax Optimal, Sample Complexity  
 
 ## 一句话总结
 

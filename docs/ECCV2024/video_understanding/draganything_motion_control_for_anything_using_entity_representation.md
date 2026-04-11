@@ -11,10 +11,10 @@ tags:
 
 # DragAnything: Motion Control for Anything using Entity Representation
 
-**会议**: ECCV 2024
-**arXiv**: [2403.07420](https://arxiv.org/abs/2403.07420)
-**代码**: https://github.com/showlab/DragAnything (有)
-**领域**: 视频理解
+**会议**: ECCV 2024  
+**arXiv**: [2403.07420](https://arxiv.org/abs/2403.07420)  
+**代码**: https://github.com/showlab/DragAnything (有)  
+**领域**: 视频理解  
 **关键词**: 可控视频生成, 运动控制, 实体表征, 扩散模型, 轨迹引导
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # Why Knowledge Distillation Works in Generative Models: A Minimal Working Explanation
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.13111](https://arxiv.org/abs/2505.13111)
-**代码**: [GitHub](https://github.com/csm9493/kd-minimal-explanation)
-**领域**: 知识蒸馏, 生成模型, 理论分析
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.13111](https://arxiv.org/abs/2505.13111)  
+**代码**: [GitHub](https://github.com/csm9493/kd-minimal-explanation)  
+**领域**: 知识蒸馏, 生成模型, 理论分析  
 **关键词**: 知识蒸馏, 精度-召回权衡, 高斯混合, 大语言模型, 分布集中
 
 ## 一句话总结

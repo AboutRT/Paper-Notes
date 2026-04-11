@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】BlockPruner: Fine-grained Pruning for Large Language Models 论文解读 | ACL 2025 | **arXiv**: [2406.10594](https://arxiv.org/abs/2406.10594) | **代码**: 无 | **领域**: 模型压缩 | **关键词**: 结构化剪枝, LLM压缩, 块级冗余, 困惑度, 迭代搜索 | 提出 BlockPruner，将 Transformer 层分解为 MHA 和 MLP 两个最小残差块，基于困惑度评估块重要性并通过迭代搜索进行细粒度剪枝，实现比层级剪枝更优的压缩效果。"
+description: "【论文笔记】BlockPruner: Fine-grained Pruning for Large Language Models 论文解读 | ACL 2025 | arXiv 2406.10594 | 结构化剪枝 | 提出 BlockPruner，将 Transformer 层分解为 MHA 和 MLP 两个最小残差块，基于困惑度评估块重要性并通过迭代搜索进行细粒度剪枝，实现比层级剪枝更优的压缩效果。"
 tags:
-  - ACL 2025 | **arXiv**: [2406.10594](https://arxiv.org/abs/2406.10594) | **代码**: 无 | **领域**: 模型压缩 | **关键词**: 结构化剪枝, LLM压缩, 块级冗余, 困惑度, 迭代搜索
+  - ACL 2025
+  - 结构化剪枝
+  - LLM压缩
+  - 块级冗余
+  - 困惑度
+  - 迭代搜索
 ---
 
 # BlockPruner: Fine-grained Pruning for Large Language Models
 
-**会议**: ACL 2025 | **arXiv**: [2406.10594](https://arxiv.org/abs/2406.10594) | **代码**: 无 | **领域**: 模型压缩 | **关键词**: 结构化剪枝, LLM压缩, 块级冗余, 困惑度, 迭代搜索
+**会议**: ACL 2025  
+**arXiv**: [2406.10594](https://arxiv.org/abs/2406.10594)  
+**代码**: 无  
+**领域**: 模型压缩  
+**关键词**: 结构化剪枝, LLM压缩, 块级冗余, 困惑度, 迭代搜索  
 
 ## 一句话总结
 

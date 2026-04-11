@@ -11,10 +11,10 @@ tags:
 
 # Collaborative Control for Geometry-Conditioned PBR Image Generation
 
-**会议**: ECCV 2024
-**arXiv**: [2402.05919](https://arxiv.org/abs/2402.05919)
-**代码**: https://unity-research.github.io/holo-gen (项目页面)
-**领域**: 扩散模型 / 图像生成
+**会议**: ECCV 2024  
+**arXiv**: [2402.05919](https://arxiv.org/abs/2402.05919)  
+**代码**: https://unity-research.github.io/holo-gen (项目页面)  
+**领域**: 扩散模型 / 图像生成  
 **关键词**: PBR材质生成, 多模态扩散, 跨网络控制, 几何条件生成, 物理渲染
 
 ## 一句话总结

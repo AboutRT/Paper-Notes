@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Synergy over Discrepancy: A Partition-Based Approach to Multi-Domain LLM Fine-Tuning 论文解读 | NeurIPS 2025 / **arXiv**: [2511.07198](https://arxiv.org/abs/2511.07198) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 多域微调, 域间协同, 分区策略, 泛化界, Adapter | 提出基于分区的多阶段微调框架，通过策略性地将多个域划分为子集（阶段），在最大化域间协同的同时最小化负迁移，并推导了新的泛化界来理论支撑该分区策略。"
+description: "【论文笔记】Synergy over Discrepancy: A Partition-Based Approach to Multi-Domain LLM Fine-Tuning 论文解读 | NeurIPS 2025 | arXiv 2511.07198 | 多域微调 | 提出基于分区的多阶段微调框架，通过策略性地将多个域划分为子集（阶段），在最大化域间协同的同时最小化负迁移，并推导了新的泛化界来理论支撑该分区策略。"
 tags:
-  - NeurIPS 2025 / **arXiv**: [2511.07198](https://arxiv.org/abs/2511.07198) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 多域微调, 域间协同, 分区策略, 泛化界, Adapter
+  - NeurIPS 2025
+  - 多域微调
+  - 域间协同
+  - 分区策略
+  - 泛化界
+  - Adapter
 ---
 
 # Synergy over Discrepancy: A Partition-Based Approach to Multi-Domain LLM Fine-Tuning
 
-**会议**: NeurIPS 2025 / **arXiv**: [2511.07198](https://arxiv.org/abs/2511.07198) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 多域微调, 域间协同, 分区策略, 泛化界, Adapter
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.07198](https://arxiv.org/abs/2511.07198)  
+**代码**: 未公开  
+**领域**: llm_nlp  
+**关键词**: 多域微调, 域间协同, 分区策略, 泛化界, Adapter  
 
 ## 一句话总结
 

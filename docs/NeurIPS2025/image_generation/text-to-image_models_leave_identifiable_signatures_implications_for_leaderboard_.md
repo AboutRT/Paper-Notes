@@ -11,10 +11,10 @@ tags:
 
 # Text-to-Image Models Leave Identifiable Signatures: Implications for Leaderboard Security
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.06525](https://arxiv.org/abs/2510.06525)
-**代码**: 无
-**领域**: AI安全, 图像生成
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.06525](https://arxiv.org/abs/2510.06525)  
+**代码**: 无  
+**领域**: AI安全, 图像生成  
 **关键词**: 文生图模型, 排行榜安全, 模型去匿名化, CLIP嵌入, 对抗性操纵
 
 ## 一句话总结

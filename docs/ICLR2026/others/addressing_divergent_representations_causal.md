@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Addressing Divergent Representations from Causal Interventions on Neural Networks 论文解读 | ICLR 2026 Oral / **arXiv**: [2511.04638](https://arxiv.org/abs/2511.04638) / **代码**: [GitHub](https://github.com/grantsrb/rep_divergence) / **领域**: 机械可解释性 / **关键词**: causal intervention, mechanistic interpretability, representational divergence, Counterfactual Latent loss, DAS | 系统性地揭示因果干预（activation patching、DAS、SAE 等）会将模型内部表征推离自然分布，理论区分\"无害偏移\"与\"有害偏移\"两类情况，并提出 Counterfactual Latent (CL) loss 来约束干预表征不偏离流形，在 7B LLM 上验证可减少偏移同时保持干预准确率。"
+description: "【论文笔记】Addressing Divergent Representations from Causal Interventions on Neural Networks 论文解读 | ICLR 2026 Oral | arXiv 2511.04638 | causal intervention | 系统性地揭示因果干预（activation patching、DAS、SAE 等）会将模型内部表征推离自然分布，理论区分\"无害偏移\"与\"有害偏移\"两类情况，并提出 Counterfactual Latent (CL) loss 来约束干预表征不偏离流形，在 7B LLM 上验证可减少偏移同时保持干预准确率。"
 tags:
-  - ICLR 2026 Oral / **arXiv**: [2511.04638](https://arxiv.org/abs/2511.04638) / **代码**: [GitHub](https://github.com/grantsrb/rep_divergence) / **领域**: 机械可解释性 / **关键词**: causal intervention, mechanistic interpretability, representational divergence, Counterfactual Latent loss, DAS
+  - ICLR 2026 Oral
+  - causal intervention
+  - mechanistic interpretability
+  - representational divergence
+  - Counterfactual Latent loss
+  - DAS
 ---
 
 # Addressing Divergent Representations from Causal Interventions on Neural Networks
 
-**会议**: ICLR 2026 Oral / **arXiv**: [2511.04638](https://arxiv.org/abs/2511.04638) / **代码**: [GitHub](https://github.com/grantsrb/rep_divergence) / **领域**: 机械可解释性 / **关键词**: causal intervention, mechanistic interpretability, representational divergence, Counterfactual Latent loss, DAS
+**会议**: ICLR 2026 Oral  
+**arXiv**: [2511.04638](https://arxiv.org/abs/2511.04638)  
+**代码**: [GitHub](https://github.com/grantsrb/rep_divergence)  
+**领域**: 机械可解释性  
+**关键词**: causal intervention, mechanistic interpretability, representational divergence, Counterfactual Latent loss, DAS  
 
 ## 一句话总结
 

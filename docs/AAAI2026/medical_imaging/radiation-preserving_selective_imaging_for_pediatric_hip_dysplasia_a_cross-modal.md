@@ -11,10 +11,10 @@ tags:
 
 # Radiation-Preserving Selective Imaging for Pediatric Hip Dysplasia: A Cross-Modal Approach
 
-**会议**: AAAI 2026
-**arXiv**: [2511.18457](https://arxiv.org/abs/2511.18457)
-**代码**: 无
-**领域**: 医学影像 / 跨模态学习 / 选择性成像
+**会议**: AAAI 2026  
+**arXiv**: [2511.18457](https://arxiv.org/abs/2511.18457)  
+**代码**: 无  
+**领域**: 医学影像 / 跨模态学习 / 选择性成像  
 **关键词**: 发育性髋关节发育不良, 超声-X光跨模态, 共形预测, 选择性成像, 自监督学习
 
 ## 一句话总结

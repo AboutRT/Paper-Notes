@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Disambiguate First, Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing 论文解读 | ACL 2025 | **arXiv**: [2502.18448](https://arxiv.org/abs/2502.18448) | **代码**: [github.com/saparina/disambiguate-then-parse](https://github.com/saparina/disambiguate-then-parse) (有) | **领域**: NLP理解 | **关键词**: 歧义消解, 语义解析, Text-to-SQL, 自然语言解释, LLM偏好 | 提出\"先消歧、后解析\"的模块化方法，利用LLM生成默认解释并训练专门的infilling模型补全缺失解释，将歧义自然语言问题转化为多个明确解释后再分别进行SQL解析。"
+description: "【论文笔记】Disambiguate First, Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing 论文解读 | ACL 2025 | arXiv 2502.18448 | 歧义消解 | 提出\"先消歧、后解析\"的模块化方法，利用LLM生成默认解释并训练专门的infilling模型补全缺失解释，将歧义自然语言问题转化为多个明确解释后再分别进行SQL解析。"
 tags:
-  - ACL 2025 | **arXiv**: [2502.18448](https://arxiv.org/abs/2502.18448) | **代码**: [github.com/saparina/disambiguate-then-parse](https://github.com/saparina/disambiguate-then-parse) (有) | **领域**: NLP理解 | **关键词**: 歧义消解, 语义解析, Text-to-SQL, 自然语言解释, LLM偏好
+  - ACL 2025
+  - 歧义消解
+  - 语义解析
+  - Text-to-SQL
+  - 自然语言解释
+  - LLM偏好
 ---
 
 # Disambiguate First, Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing
 
-**会议**: ACL 2025 | **arXiv**: [2502.18448](https://arxiv.org/abs/2502.18448) | **代码**: [github.com/saparina/disambiguate-then-parse](https://github.com/saparina/disambiguate-then-parse) (有) | **领域**: NLP理解 | **关键词**: 歧义消解, 语义解析, Text-to-SQL, 自然语言解释, LLM偏好
+**会议**: ACL 2025  
+**arXiv**: [2502.18448](https://arxiv.org/abs/2502.18448)  
+**代码**: [github.com/saparina/disambiguate-then-parse](https://github.com/saparina/disambiguate-then-parse) (有)  
+**领域**: NLP理解  
+**关键词**: 歧义消解, 语义解析, Text-to-SQL, 自然语言解释, LLM偏好  
 
 ## 一句话总结
 

@@ -11,10 +11,10 @@ tags:
 
 # Position: There Is No Free Bayesian Uncertainty Quantification
 
-**会议**: NeurIPS 2025
-**arXiv**: [2506.03670](https://arxiv.org/abs/2506.03670)
-**代码**: 无
-**领域**: 统计学习理论 / 不确定性量化
+**会议**: NeurIPS 2025  
+**arXiv**: [2506.03670](https://arxiv.org/abs/2506.03670)  
+**代码**: 无  
+**领域**: 统计学习理论 / 不确定性量化  
 **关键词**: 贝叶斯推断, 不确定性量化, 频率学派, PAC-Bayes, 预测区间
 
 ## 一句话总结

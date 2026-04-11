@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Unlocking ImageNet's Multi-Object Nature: Automated Large-Scale Multilabel Annotation 论文解读 | CVPR 2026  **arXiv**: [2603.05729](https://arxiv.org/abs/2603.05729)  **代码**: [有](https://github.com/jchen175/MultiLabel-ImageNet)  **领域**: 模型压缩  **关键词**: 多标签标注, ImageNet重标注, 无监督目标发现, 自监督学习, 数据质量 | 提出全自动流水线，利用自监督 ViT 特征进行无监督目标发现，为 ImageNet-1K 全部 128 万训练图像生成带空间定位的多标签标注，无需人工标注，模型在域内和下游多标签任务上均获一致提升（ReaL +2.0 top-1, COCO +4.2 mAP）。"
+description: "【论文笔记】Unlocking ImageNet's Multi-Object Nature: Automated Large-Scale Multilabel Annotation 论文解读 | CVPR 2026 | arXiv 2603.05729 | 多标签标注 | 提出全自动流水线，利用自监督 ViT 特征进行无监督目标发现，为 ImageNet-1K 全部 128 万训练图像生成带空间定位的多标签标注，无需人工标注，模型在域内和下游多标签任务上均获一致提升（ReaL +2.0 top-1, COCO +4.2 mAP）。"
 tags:
-  - CVPR 2026  **arXiv**: [2603.05729](https://arxiv.org/abs/2603.05729)  **代码**: [有](https://github.com/jchen175/MultiLabel-ImageNet)  **领域**: 模型压缩  **关键词**: 多标签标注, ImageNet重标注, 无监督目标发现, 自监督学习, 数据质量
+  - CVPR 2026
+  - 多标签标注
+  - ImageNet重标注
+  - 无监督目标发现
+  - 自监督学习
+  - 数据质量
 ---
 
 # Unlocking ImageNet's Multi-Object Nature: Automated Large-Scale Multilabel Annotation
 
-**会议**: CVPR 2026  **arXiv**: [2603.05729](https://arxiv.org/abs/2603.05729)  **代码**: [有](https://github.com/jchen175/MultiLabel-ImageNet)  **领域**: 模型压缩  **关键词**: 多标签标注, ImageNet重标注, 无监督目标发现, 自监督学习, 数据质量
+**会议**: CVPR 2026  
+**arXiv**: [2603.05729](https://arxiv.org/abs/2603.05729)  
+**代码**: [有](https://github.com/jchen175/MultiLabel-ImageNet)  
+**领域**: 模型压缩  
+**关键词**: 多标签标注, ImageNet重标注, 无监督目标发现, 自监督学习, 数据质量  
 
 ## 一句话总结
 

@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】Improving Fairness of Large Language Models in Multi-document Summarization 论文解读 | ACL 2025 | **arXiv**: [2506.07479](https://arxiv.org/abs/2506.07479) | **代码**: [GitHub](https://github.com/leehaoyuan/coverage_fairness) (有) | **领域**: AI安全 | **关键词**: 公平性, 多文档摘要, 偏好优化, DPO, 覆盖率均等 | 提出 FairPO（Fair Preference Optimization），通过扰动式偏好对生成和公平感知偏好调优，同时优化多文档摘要中的摘要级和语料级公平性。"
+description: "【论文笔记】Improving Fairness of Large Language Models in Multi-document Summarization 论文解读 | ACL 2025 | arXiv 2506.07479 | 公平性 | 提出 FairPO（Fair Preference Optimization），通过扰动式偏好对生成和公平感知偏好调优，同时优化多文档摘要中的摘要级和语料级公平性。"
 tags:
-  - ACL 2025 | **arXiv**: [2506.07479](https://arxiv.org/abs/2506.07479) | **代码**: [GitHub](https://github.com/leehaoyuan/coverage_fairness) (有) | **领域**: AI安全 | **关键词**: 公平性, 多文档摘要, 偏好优化, DPO, 覆盖率均等
+  - ACL 2025
+  - 公平性
+  - 多文档摘要
+  - 偏好优化
+  - DPO
+  - 覆盖率均等
 ---
 
 # Improving Fairness of Large Language Models in Multi-document Summarization
 
-**会议**: ACL 2025 | **arXiv**: [2506.07479](https://arxiv.org/abs/2506.07479) | **代码**: [GitHub](https://github.com/leehaoyuan/coverage_fairness) (有) | **领域**: AI安全 | **关键词**: 公平性, 多文档摘要, 偏好优化, DPO, 覆盖率均等
+**会议**: ACL 2025  
+**arXiv**: [2506.07479](https://arxiv.org/abs/2506.07479)  
+**代码**: [GitHub](https://github.com/leehaoyuan/coverage_fairness) (有)  
+**领域**: AI安全  
+**关键词**: 公平性, 多文档摘要, 偏好优化, DPO, 覆盖率均等  
 
 ## 一句话总结
 

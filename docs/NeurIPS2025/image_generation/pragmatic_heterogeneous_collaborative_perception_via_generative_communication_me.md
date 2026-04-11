@@ -11,10 +11,10 @@ tags:
 
 # Pragmatic Heterogeneous Collaborative Perception via Generative Communication Mechanism
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.19618](https://arxiv.org/abs/2510.19618)
-**代码**: [有](https://github.com/jeffreychou777/GenComm)
-**领域**: 自动驾驶 / 协作感知
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.19618](https://arxiv.org/abs/2510.19618)  
+**代码**: [有](https://github.com/jeffreychou777/GenComm)  
+**领域**: 自动驾驶 / 协作感知  
 **关键词**: 异构协作感知, 生成式通信, 条件扩散模型, BEV特征生成, 可扩展性
 
 ## 一句话总结

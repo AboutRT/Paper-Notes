@@ -11,10 +11,10 @@ tags:
 
 # Opinion: Towards Unified Expressive Policy Optimization for Robust Robot Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.10087](https://arxiv.org/abs/2511.10087)
-**代码**: 无
-**领域**: 强化学习 / 机器人学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.10087](https://arxiv.org/abs/2511.10087)  
+**代码**: 无  
+**领域**: 强化学习 / 机器人学习  
 **关键词**: 离线到在线 RL, 扩散策略, 策略多样性, 动力学建模, D4RL
 
 ## 一句话总结

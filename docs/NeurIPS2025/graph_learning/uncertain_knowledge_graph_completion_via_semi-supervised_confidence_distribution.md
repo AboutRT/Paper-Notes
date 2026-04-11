@@ -11,10 +11,10 @@ tags:
 
 # Uncertain Knowledge Graph Completion via Semi-Supervised Confidence Distribution Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.16601](https://arxiv.org/abs/2510.16601)
-**代码**: [GitHub](https://github.com/seucoin/unKR/tree/main/unKR_ssCDL)
-**领域**: 知识图谱, 图学习
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.16601](https://arxiv.org/abs/2510.16601)  
+**代码**: [GitHub](https://github.com/seucoin/unKR/tree/main/unKR_ssCDL)  
+**领域**: 知识图谱, 图学习  
 **关键词**: 不确定知识图谱, 置信度分布学习, 元自训练, 半监督学习, 链接预测
 
 ## 一句话总结

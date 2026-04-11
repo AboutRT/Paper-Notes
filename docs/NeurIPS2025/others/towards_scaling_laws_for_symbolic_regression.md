@@ -1,7 +1,7 @@
 ---
 description: "【论文笔记】Towards Scaling Laws for Symbolic Regression 论文解读 | NeurIPS 2025 (Workshop: MATH-AI) | arXiv 2510.26064 | 符号回归 | 本文首次系统研究了符号回归中的缩放定律，发现验证损失和求解率随计算量呈幂律关系，最优token-参数比约为15，最优学习率和batch size随模型规模增长。"
 tags:
-  - NeurIPS 2025 (Workshop: MATH-AI)
+  - "NeurIPS 2025 (Workshop: MATH-AI)"
   - 符号回归
   - Scaling Laws
   - Transformer
@@ -11,10 +11,10 @@ tags:
 
 # Towards Scaling Laws for Symbolic Regression
 
-**会议**: NeurIPS 2025 (Workshop: MATH-AI)
-**arXiv**: [2510.26064](https://arxiv.org/abs/2510.26064)
-**代码**: 无
-**领域**: 符号回归, 缩放定律
+**会议**: NeurIPS 2025 (Workshop: MATH-AI)  
+**arXiv**: [2510.26064](https://arxiv.org/abs/2510.26064)  
+**代码**: 无  
+**领域**: 符号回归, 缩放定律  
 **关键词**: 符号回归, Scaling Laws, Transformer, 端到端, 计算最优
 
 ## 一句话总结

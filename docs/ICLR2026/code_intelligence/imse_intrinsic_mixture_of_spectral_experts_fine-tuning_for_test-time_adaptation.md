@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation 论文解读 | ICLR 2026 / **arXiv**: [2603.07926](https://arxiv.org/abs/2603.07926) / **代码**: [github](https://github.com/baek85/IMSE) / **领域**: llm_efficiency / **关键词**: test-time adaptation, singular value decomposition, mixture of experts, continual adaptation, distribution shift | 提出 IMSE——将预训练 ViT 线性层通过 SVD 分解为\"谱专家\"，仅微调奇异值实现极端参数高效的测试时适应，并通过多样性最大化损失和域感知谱码检索机制，在 TTA/CTTA/渐进 CTTA 三种场景下达到 SOTA。"
+description: "【论文笔记】IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation 论文解读 | ICLR 2026 | arXiv 2603.07926 | test-time adaptation | 提出 IMSE——将预训练 ViT 线性层通过 SVD 分解为\"谱专家\"，仅微调奇异值实现极端参数高效的测试时适应，并通过多样性最大化损失和域感知谱码检索机制，在 TTA/CTTA/渐进 CTTA 三种场景下达到 SOTA。"
 tags:
-  - ICLR 2026 / **arXiv**: [2603.07926](https://arxiv.org/abs/2603.07926) / **代码**: [github](https://github.com/baek85/IMSE) / **领域**: llm_efficiency / **关键词**: test-time adaptation, singular value decomposition, mixture of experts, continual adaptation, distribution shift
+  - ICLR 2026
+  - test-time adaptation
+  - singular value decomposition
+  - mixture of experts
+  - continual adaptation
+  - distribution shift
 ---
 
 # IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation
 
-**会议**: ICLR 2026 / **arXiv**: [2603.07926](https://arxiv.org/abs/2603.07926) / **代码**: [github](https://github.com/baek85/IMSE) / **领域**: llm_efficiency / **关键词**: test-time adaptation, singular value decomposition, mixture of experts, continual adaptation, distribution shift
+**会议**: ICLR 2026  
+**arXiv**: [2603.07926](https://arxiv.org/abs/2603.07926)  
+**代码**: [github](https://github.com/baek85/IMSE)  
+**领域**: llm_efficiency  
+**关键词**: test-time adaptation, singular value decomposition, mixture of experts, continual adaptation, distribution shift  
 
 ## 一句话总结
 

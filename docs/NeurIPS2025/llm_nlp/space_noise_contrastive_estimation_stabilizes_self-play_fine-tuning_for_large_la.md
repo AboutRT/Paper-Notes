@@ -1,12 +1,21 @@
 ---
-description: "【论文笔记】SPACE: Noise Contrastive Estimation Stabilizes Self-Play Fine-Tuning for Large Language Models 论文解读 | NeurIPS 2025 / **arXiv**: [2512.07175](https://arxiv.org/abs/2512.07175) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 自对弈微调, 噪声对比估计, LLM对齐, 分布匹配, 迭代优化 | 提出 Space（Self-PlAy via Noise Contrastive Estimation），将噪声对比估计引入自对弈微调，通过独立优化真实和合成样本的绝对奖励值（而非相对差距），从根本上解决了 SPIN 等方法的不稳定收敛问题，并提供可证明的稳定收敛保证。"
+description: "【论文笔记】SPACE: Noise Contrastive Estimation Stabilizes Self-Play Fine-Tuning for Large Language Models 论文解读 | NeurIPS 2025 | arXiv 2512.07175 | 自对弈微调 | 提出 Space（Self-PlAy via Noise Contrastive Estimation），将噪声对比估计引入自对弈微调，通过独立优化真实和合成样本的绝对奖励值（而非相对差距），从根本上解决了 SPIN 等方法的不稳定收敛问题，并提供可证明的稳定收敛保证。"
 tags:
-  - NeurIPS 2025 / **arXiv**: [2512.07175](https://arxiv.org/abs/2512.07175) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 自对弈微调, 噪声对比估计, LLM对齐, 分布匹配, 迭代优化
+  - NeurIPS 2025
+  - 自对弈微调
+  - 噪声对比估计
+  - LLM对齐
+  - 分布匹配
+  - 迭代优化
 ---
 
 # SPACE: Noise Contrastive Estimation Stabilizes Self-Play Fine-Tuning for Large Language Models
 
-**会议**: NeurIPS 2025 / **arXiv**: [2512.07175](https://arxiv.org/abs/2512.07175) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 自对弈微调, 噪声对比估计, LLM对齐, 分布匹配, 迭代优化
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.07175](https://arxiv.org/abs/2512.07175)  
+**代码**: 未公开  
+**领域**: llm_nlp  
+**关键词**: 自对弈微调, 噪声对比估计, LLM对齐, 分布匹配, 迭代优化  
 
 ## 一句话总结
 

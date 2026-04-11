@@ -1,7 +1,7 @@
 ---
-description: "【论文笔记】Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling 论文解读 | ICLR 2026 / **arXiv**: [2503.04398](https://arxiv.org/abs/2503.04398) | Mixture-of-Experts | 提出语义并行(Semantic Parallelism)范式，通过预测token-expert路由路径并协同调度模型放置与数据分发，大幅削减MoE推理中专家并行的all-to-all通信开销，在Attention-DP场景下吞吐提升最高2.78×，Attention-TP场景下延迟降低最高24.9%。"
+description: "【论文笔记】Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling 论文解读 | ICLR 2026 | arXiv 2503.04398 | Mixture-of-Experts | 提出语义并行(Semantic Parallelism)范式，通过预测token-expert路由路径并协同调度模型放置与数据分发，大幅削减MoE推理中专家并行的all-to-all通信开销，在Attention-DP场景下吞吐提升最高2.78×，Attention-TP场景下延迟降低最高24.9%。"
 tags:
-  - ICLR 2026 / **arXiv**: [2503.04398](https://arxiv.org/abs/2503.04398)
+  - ICLR 2026
   - Mixture-of-Experts
   - Expert Parallelism
   - all-to-all通信
@@ -11,7 +11,8 @@ tags:
 
 # Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling
 
-**会议**: ICLR 2026 / **arXiv**: [2503.04398](https://arxiv.org/abs/2503.04398)  
+**会议**: ICLR 2026  
+**arXiv**: [2503.04398](https://arxiv.org/abs/2503.04398)  
 **代码**: 基于SGLang实现（约5000行Python + Triton内核）  
 **领域**: MoE推理优化 / 专家并行 / 通信优化  
 **关键词**: Mixture-of-Experts, Expert Parallelism, all-to-all通信, 模型-数据协同调度, Token-Expert亲和性  

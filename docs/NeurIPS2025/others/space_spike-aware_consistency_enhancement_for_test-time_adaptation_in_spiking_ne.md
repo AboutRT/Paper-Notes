@@ -11,10 +11,10 @@ tags:
 
 # SPACE: SPike-Aware Consistency Enhancement for Test-Time Adaptation in Spiking Neural Networks
 
-**会议**: NeurIPS 2025
-**arXiv**: [2504.02298](https://arxiv.org/abs/2504.02298)
-**代码**: [GitHub](https://github.com/ethanxyluo/SPACE)
-**领域**: 脉冲神经网络, 测试时自适应, 领域鲁棒性
+**会议**: NeurIPS 2025  
+**arXiv**: [2504.02298](https://arxiv.org/abs/2504.02298)  
+**代码**: [GitHub](https://github.com/ethanxyluo/SPACE)  
+**领域**: 脉冲神经网络, 测试时自适应, 领域鲁棒性  
 **关键词**: SNN, 测试时自适应, 脉冲一致性, 分布偏移, 单样本适应
 
 ## 一句话总结

@@ -11,10 +11,10 @@ tags:
 
 # ProPL: Universal Semi-Supervised Ultrasound Image Segmentation via Prompt-Guided Pseudo-Labeling
 
-**会议**: AAAI 2026
-**arXiv**: [2511.15057](https://arxiv.org/abs/2511.15057)
-**代码**: https://github.com/WUTCM-Lab/ProPL
-**领域**: 医学图像 / 超声分割
+**会议**: AAAI 2026  
+**arXiv**: [2511.15057](https://arxiv.org/abs/2511.15057)  
+**代码**: https://github.com/WUTCM-Lab/ProPL  
+**领域**: 医学图像 / 超声分割  
 **关键词**: 通用分割, 半监督学习, 伪标签, 提示引导, 超声图像
 
 ## 一句话总结

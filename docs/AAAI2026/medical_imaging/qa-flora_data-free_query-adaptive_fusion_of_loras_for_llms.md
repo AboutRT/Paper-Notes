@@ -11,10 +11,10 @@ tags:
 
 # qa-FLoRA: Data-free Query-Adaptive Fusion of LoRAs for LLMs
 
-**会议**: AAAI 2026
-**arXiv**: [2512.11366](https://arxiv.org/abs/2512.11366)
-**代码**: 无
-**领域**: 大语言模型 / 参数高效微调 / 多任务融合
+**会议**: AAAI 2026  
+**arXiv**: [2512.11366](https://arxiv.org/abs/2512.11366)  
+**代码**: 无  
+**领域**: 大语言模型 / 参数高效微调 / 多任务融合  
 **关键词**: LoRA融合, 查询自适应, 无需训练, KL散度, 多领域适配
 
 ## 一句话总结

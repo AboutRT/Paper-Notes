@@ -11,10 +11,10 @@ tags:
 
 # Sensorium Arc: AI Agent System for Oceanic Data Exploration and Interactive Eco-Art
 
-**会议**: NeurIPS 2025
-**arXiv**: [2511.15997](https://arxiv.org/abs/2511.15997)
-**代码**: 无
-**领域**: 人机交互, 生态艺术, 多智能体系统
+**会议**: NeurIPS 2025  
+**arXiv**: [2511.15997](https://arxiv.org/abs/2511.15997)  
+**代码**: 无  
+**领域**: 人机交互, 生态艺术, 多智能体系统  
 **关键词**: 海洋数据可视化, RAG, 多智能体LLM, 交互式生态艺术, 对话式AI
 
 ## 一句话总结

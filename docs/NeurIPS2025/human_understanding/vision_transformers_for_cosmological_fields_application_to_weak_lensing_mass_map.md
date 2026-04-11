@@ -10,10 +10,10 @@ tags:
 
 # Vision Transformers for Cosmological Fields: Application to Weak Lensing Mass Maps
 
-**会议**: NeurIPS 2025
-**arXiv**: [2512.07125](https://arxiv.org/abs/2512.07125)
-**代码**: 无
-**领域**: 宇宙学, 深度学习, 弱引力透镜
+**会议**: NeurIPS 2025  
+**arXiv**: [2512.07125](https://arxiv.org/abs/2512.07125)  
+**代码**: 无  
+**领域**: 宇宙学, 深度学习, 弱引力透镜  
 **关键词**: Vision Transformer, 弱引力透镜, 宇宙学参数, Swin Transformer, 模拟推断
 
 ## 一句话总结

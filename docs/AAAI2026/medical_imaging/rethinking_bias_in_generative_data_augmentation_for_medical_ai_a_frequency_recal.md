@@ -11,10 +11,10 @@ tags:
 
 # Rethinking Bias in Generative Data Augmentation for Medical AI: a Frequency Recalibration Approach
 
-**会议**: AAAI 2026
-**arXiv**: [2511.12301](https://arxiv.org/abs/2511.12301)
-**代码**: 无
-**领域**: 医学影像 / 数据增强 / 频域分析
+**会议**: AAAI 2026  
+**arXiv**: [2511.12301](https://arxiv.org/abs/2511.12301)  
+**代码**: 无  
+**领域**: 医学影像 / 数据增强 / 频域分析  
 **关键词**: 生成式数据增强, 频率偏差, 医学影像分类, 去噪自编码器, 频率重校准
 
 ## 一句话总结

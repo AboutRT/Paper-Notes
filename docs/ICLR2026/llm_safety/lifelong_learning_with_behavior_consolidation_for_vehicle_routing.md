@@ -1,12 +1,22 @@
 ---
-description: "【论文笔记】Lifelong Learning with Behavior Consolidation for Vehicle Routing 论文解读 | ICLR 2026 / **arXiv**: [2509.21765](https://arxiv.org/abs/2509.21765) / **代码**: [github](https://github.com/PeiJY/LLR-BC) / **领域**: llm_nlp / **关键词**: lifelong learning, vehicle routing problem, catastrophic forgetting, experience replay, behavior consolidation, neural solver | 提出 LLR-BC——面向神经 VRP 求解器的终身学习框架，通过置信度感知经验加权（CaEW）和决策寻求行为巩固（DsBC），在分布和规模变化的任务序列上有效缓减灾难性遗忘、保持可塑性并提升零样本泛化。"
+description: "【论文笔记】Lifelong Learning with Behavior Consolidation for Vehicle Routing 论文解读 | ICLR 2026 | arXiv 2509.21765 | lifelong learning | 提出 LLR-BC——面向神经 VRP 求解器的终身学习框架，通过置信度感知经验加权（CaEW）和决策寻求行为巩固（DsBC），在分布和规模变化的任务序列上有效缓减灾难性遗忘、保持可塑性并提升零样本泛化。"
 tags:
-  - ICLR 2026 / **arXiv**: [2509.21765](https://arxiv.org/abs/2509.21765) / **代码**: [github](https://github.com/PeiJY/LLR-BC) / **领域**: llm_nlp / **关键词**: lifelong learning, vehicle routing problem, catastrophic forgetting, experience replay, behavior consolidation, neural solver
+  - ICLR 2026
+  - lifelong learning
+  - vehicle routing problem
+  - catastrophic forgetting
+  - experience replay
+  - behavior consolidation
+  - neural solver
 ---
 
 # Lifelong Learning with Behavior Consolidation for Vehicle Routing
 
-**会议**: ICLR 2026 / **arXiv**: [2509.21765](https://arxiv.org/abs/2509.21765) / **代码**: [github](https://github.com/PeiJY/LLR-BC) / **领域**: llm_nlp / **关键词**: lifelong learning, vehicle routing problem, catastrophic forgetting, experience replay, behavior consolidation, neural solver
+**会议**: ICLR 2026  
+**arXiv**: [2509.21765](https://arxiv.org/abs/2509.21765)  
+**代码**: [github](https://github.com/PeiJY/LLR-BC)  
+**领域**: llm_nlp  
+**关键词**: lifelong learning, vehicle routing problem, catastrophic forgetting, experience replay, behavior consolidation, neural solver  
 
 ## 一句话总结
 

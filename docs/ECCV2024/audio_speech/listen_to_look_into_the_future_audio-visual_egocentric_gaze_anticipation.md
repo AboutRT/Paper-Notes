@@ -11,10 +11,10 @@ tags:
 
 # Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation
 
-**会议**: ECCV 2024
-**arXiv**: [2305.03907](https://arxiv.org/abs/2305.03907)
-**代码**: https://github.com/bolinlai/CSTS-EgoGazeAnticipation (有)
-**领域**: 音频语音 / 第一人称视觉
+**会议**: ECCV 2024  
+**arXiv**: [2305.03907](https://arxiv.org/abs/2305.03907)  
+**代码**: https://github.com/bolinlai/CSTS-EgoGazeAnticipation (有)  
+**领域**: 音频语音 / 第一人称视觉  
 **关键词**: 第一人称注视预测, 音视频融合, 对比学习, 时空分离融合, 增强现实
 
 ## 一句话总结

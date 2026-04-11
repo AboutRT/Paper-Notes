@@ -11,10 +11,10 @@ tags:
 
 # Unleashing Diffusion Transformers for Visual Correspondence by Modulating Massive Activations
 
-**会议**: NeurIPS 2025
-**arXiv**: [2505.18584](https://arxiv.org/abs/2505.18584)
-**代码**: [GitHub](https://github.com/ganchaofan0000/DiTF)
-**领域**: 视觉对应, 扩散模型, 特征提取
+**会议**: NeurIPS 2025  
+**arXiv**: [2505.18584](https://arxiv.org/abs/2505.18584)  
+**代码**: [GitHub](https://github.com/ganchaofan0000/DiTF)  
+**领域**: 视觉对应, 扩散模型, 特征提取  
 **关键词**: Diffusion Transformer, Massive Activations, AdaLN, 视觉对应, 特征提取
 
 ## 一句话总结

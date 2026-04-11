@@ -11,10 +11,10 @@ tags:
 
 # Resounding Acoustic Fields with Reciprocity
 
-**会议**: NeurIPS 2025
-**arXiv**: [2510.20602](https://arxiv.org/abs/2510.20602)
-**代码**: [有](https://waves.seas.upenn.edu/projects/versa)
-**领域**: 音频/语音 / 声学建模
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20602](https://arxiv.org/abs/2510.20602)  
+**代码**: [有](https://waves.seas.upenn.edu/projects/versa)  
+**领域**: 音频/语音 / 声学建模  
 **关键词**: 声场学习, 互易性, 脉冲响应, 数据增强, 自监督学习
 
 ## 一句话总结

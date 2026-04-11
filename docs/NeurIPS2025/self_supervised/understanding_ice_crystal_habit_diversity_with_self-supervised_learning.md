@@ -11,10 +11,10 @@ tags:
 
 # Understanding Ice Crystal Habit Diversity with Self-Supervised Learning
 
-**会议**: NeurIPS 2025
-**arXiv**: [2509.07688](https://arxiv.org/abs/2509.07688)
-**代码**: 无
-**领域**: 自监督学习, 气候科学, 视觉表征
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.07688](https://arxiv.org/abs/2509.07688)  
+**代码**: 无  
+**领域**: 自监督学习, 气候科学, 视觉表征  
 **关键词**: 自监督学习, 冰晶形态, Vision Transformer, 聚类, 气候模型
 
 ## 一句话总结
