@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】TRCE: Towards Reliable Malicious Concept Erasure in Text-to-Image Diffusion Models 论文解读 | 提出 TRCE，通过两阶段概念擦除策略（文本语义擦除 + 去噪轨迹转向），在可靠擦除恶意概念的同时最小化对模型正常生成能力的影响。"
+tags:
+
+---
+
 # TRCE: Towards Reliable Malicious Concept Erasure in Text-to-Image Diffusion Models
 
 > **会议**: ICCV 2025

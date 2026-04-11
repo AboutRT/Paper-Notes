@@ -1,3 +1,13 @@
+---
+description: "【论文笔记】Visual-ERM: Reward Modeling for Visual Equivalence 论文解读 | CVPR2025 | arXiv 2603.13224 | reward model | 提出 Visual-ERM，一个多模态生成式奖励模型，在视觉空间中直接评估 vision-to-code 任务的渲染质量，提供细粒度、可解释、任务无关的奖励信号，用于 RL 训练和测试时缩放。"
+tags:
+  - CVPR2025
+  - reward model
+  - vision-to-code
+  - reinforcement learning
+  - 强化学习
+---
+
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Visual-ERM: Reward Modeling for Visual Equivalence
 

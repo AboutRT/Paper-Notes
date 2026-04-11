@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework 论文解读 | AAAI 2026 | **arXiv**: [2511.13189](https://arxiv.org/abs/2511.13189) | **代码**: [GitHub](https://github.com/DiegoOrtego/vixml) | **领域**: Extreme Multi-label Classification / Multimodal | **关键词**: XMC, decoder-only LLM, multi-modal, visual metadata, contrastive learning, ViXML | 首次在 Extreme Multi-label Classification (XMC) 中有效利用 decoder-only LLM（dual-decoder learning），并提出 ViXML 多模态框架高效融合视觉元数据，66M encoder + ViXML 即可超越 billion 级纯文本模型。"
+tags:
+  - AAAI 2026 | **arXiv**: [2511.13189](https://arxiv.org/abs/2511.13189) | **代码**: [GitHub](https://github.com/DiegoOrtego/vixml) | **领域**: Extreme Multi-label Classification / Multimodal | **关键词**: XMC, decoder-only LLM, multi-modal, visual metadata, contrastive learning, ViXML
+---
+
 # Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework
 
 **会议**: AAAI 2026 | **arXiv**: [2511.13189](https://arxiv.org/abs/2511.13189) | **代码**: [GitHub](https://github.com/DiegoOrtego/vixml) | **领域**: Extreme Multi-label Classification / Multimodal | **关键词**: XMC, decoder-only LLM, multi-modal, visual metadata, contrastive learning, ViXML

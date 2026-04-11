@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】OrderChain: Towards General Instruct-Tuning for Stimulating the Ordinal Understanding Ability of MLLM 论文解读 | 提出 OrderChain 提示范式，通过任务感知提示和范围优化思维链（RO-CoT）增强多模态大语言模型的序数理解能力，首次实现跨任务统一序数回归模型。"
+tags:
+
+---
+
 # OrderChain: Towards General Instruct-Tuning for Stimulating the Ordinal Understanding Ability of MLLM
 
 ## 元信息

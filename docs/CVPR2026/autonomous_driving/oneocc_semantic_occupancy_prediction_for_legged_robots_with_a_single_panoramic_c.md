@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】OneOcc: Semantic Occupancy Prediction for Legged Robots with a Single Panoramic Camera 论文解读 | CVPR 2026  **arXiv**: [2511.03571](https://arxiv.org/abs/2511.03571)  **代码**: 有  **领域**: 自动驾驶  **关键词**: 语义场景补全, 全景相机, 足式机器人, 体素占用预测, 步态补偿 | 提出 OneOcc，一个面向足式/人形机器人的纯视觉全景语义占用预测框架，通过双投影融合、双网格体素化、步态位移补偿和层级混合专家解码器，仅用单个全景相机即可实现 360° 语义场景补全，在真实四足和仿真人形数据集上超越 LiDAR 基线。"
+tags:
+  - CVPR 2026  **arXiv**: [2511.03571](https://arxiv.org/abs/2511.03571)  **代码**: 有  **领域**: 自动驾驶  **关键词**: 语义场景补全, 全景相机, 足式机器人, 体素占用预测, 步态补偿
+---
+
 # OneOcc: Semantic Occupancy Prediction for Legged Robots with a Single Panoramic Camera
 
 **会议**: CVPR 2026  **arXiv**: [2511.03571](https://arxiv.org/abs/2511.03571)  **代码**: 有  **领域**: 自动驾驶  **关键词**: 语义场景补全, 全景相机, 足式机器人, 体素占用预测, 步态补偿

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Spikingformer: A Key Foundation Model for Spiking Neural Networks 论文解读 | AAAI 2026 | **arXiv**: [2304.11954](https://arxiv.org/abs/2304.11954) | **代码**: [GitHub](https://github.com/TheBrainLab/Spikingformer) | **领域**: self_supervised | **关键词**: Spiking Neural Networks, Transformer, spike-driven, residual connection, energy-efficient AI | 提出 Spikingformer，通过将 MS Residual 与 Self-Attention 以 spike-driven 方式结合，解决 Spikformer 中 SEW Residual 导致的非脉冲计算问题，同时保持全局建模能力。"
+tags:
+  - AAAI 2026 | **arXiv**: [2304.11954](https://arxiv.org/abs/2304.11954) | **代码**: [GitHub](https://github.com/TheBrainLab/Spikingformer) | **领域**: self_supervised | **关键词**: Spiking Neural Networks, Transformer, spike-driven, residual connection, energy-efficient AI
+---
+
 # Spikingformer: A Key Foundation Model for Spiking Neural Networks
 
 **会议**: AAAI 2026 | **arXiv**: [2304.11954](https://arxiv.org/abs/2304.11954) | **代码**: [GitHub](https://github.com/TheBrainLab/Spikingformer) | **领域**: self_supervised | **关键词**: Spiking Neural Networks, Transformer, spike-driven, residual connection, energy-efficient AI

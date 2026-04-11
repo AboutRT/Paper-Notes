@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds 论文解读 | CVPR 2026  **arXiv**: [2602.23645](https://arxiv.org/abs/2602.23645)  **代码**: [项目页](https://ai4city-hkust.github.io/BuildAnyPoint/) (有)  **领域**: Autonomous Driving / 3D Vision / 城市重建  **关键词**: 建筑抽象重建, 点云补全, 潜在扩散, 自回归Mesh生成, 级联生成框架 | 提出BuildAnyPoint，通过**松耦合级联扩散Transformer(Loca-DiT)**实现从多样分布的点云（机载LiDAR、SfM、稀疏噪声点云）到结构化3D建筑Mesh的统一重建——先用分层潜在扩散恢复底层点云分布，再用自回归Transformer生成紧凑多边形Mesh。"
+tags:
+  - CVPR 2026  **arXiv**: [2602.23645](https://arxiv.org/abs/2602.23645)  **代码**: [项目页](https://ai4city-hkust.github.io/BuildAnyPoint/) (有)  **领域**: Autonomous Driving / 3D Vision / 城市重建  **关键词**: 建筑抽象重建, 点云补全, 潜在扩散, 自回归Mesh生成, 级联生成框架
+---
+
 # BuildAnyPoint: 3D Building Structured Abstraction from Diverse Point Clouds
 
 **会议**: CVPR 2026  **arXiv**: [2602.23645](https://arxiv.org/abs/2602.23645)  **代码**: [项目页](https://ai4city-hkust.github.io/BuildAnyPoint/) (有)  **领域**: Autonomous Driving / 3D Vision / 城市重建  **关键词**: 建筑抽象重建, 点云补全, 潜在扩散, 自回归Mesh生成, 级联生成框架

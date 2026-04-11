@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Prediction-Powered Adaptive Shrinkage Estimation 论文解读 | 将Prediction-Powered Inference (PPI)与经验贝叶斯收缩结合，提出PAS方法，在多个并行均值估计问题中通过问题内方差缩减和问题间自适应收缩实现MSE最优。"
+tags:
+
+---
+
 # Prediction-Powered Adaptive Shrinkage Estimation
 
 ## 元信息

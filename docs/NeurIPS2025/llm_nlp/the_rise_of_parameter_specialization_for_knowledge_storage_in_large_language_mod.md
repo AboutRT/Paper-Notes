@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】The Rise of Parameter Specialization for Knowledge Storage in Large Language Models 论文解读 | NeurIPS 2025 / **arXiv**: [2505.17260](https://arxiv.org/abs/2505.17260) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 参数特化, 知识存储, MLP可解释性, 知识叠加, 大语言模型 | 系统分析 20 个开源 LLM，发现更强的模型在 MLP 参数向量中展现出更高的知识特化程度（Parameter Specialization），即相似知识倾向于集中编码到少数参数向量中，并通过因果实验验证该特化程度与模型知识任务性能之间存在因果关系。"
+tags:
+  - NeurIPS 2025 / **arXiv**: [2505.17260](https://arxiv.org/abs/2505.17260) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 参数特化, 知识存储, MLP可解释性, 知识叠加, 大语言模型
+---
+
 # The Rise of Parameter Specialization for Knowledge Storage in Large Language Models
 
 **会议**: NeurIPS 2025 / **arXiv**: [2505.17260](https://arxiv.org/abs/2505.17260) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 参数特化, 知识存储, MLP可解释性, 知识叠加, 大语言模型

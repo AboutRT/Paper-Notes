@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】MARVO: Marine-Adaptive Radiance-aware Visual Odometry 论文解读 | CVPR 2026  **arXiv**: [2511.22860](https://arxiv.org/abs/2511.22860)  **代码**: 无  **领域**: 模型压缩  **关键词**: 水下视觉里程计, 物理感知特征匹配, 因子图优化, 强化学习位姿图优化, 多传感器融合 | 提出 MARVO 水下视觉里程计框架，将物理感知辐射适配器 (PARA) 嵌入 LoFTR 特征匹配器补偿水下波长衰减、结合 GTSAM 多传感器因子图融合和强化学习位姿图优化 (RL-PGO)，在水下场景实现鲁棒定位。"
+tags:
+  - CVPR 2026  **arXiv**: [2511.22860](https://arxiv.org/abs/2511.22860)  **代码**: 无  **领域**: 模型压缩  **关键词**: 水下视觉里程计, 物理感知特征匹配, 因子图优化, 强化学习位姿图优化, 多传感器融合
+---
+
 # MARVO: Marine-Adaptive Radiance-aware Visual Odometry
 
 **会议**: CVPR 2026  **arXiv**: [2511.22860](https://arxiv.org/abs/2511.22860)  **代码**: 无  **领域**: 模型压缩  **关键词**: 水下视觉里程计, 物理感知特征匹配, 因子图优化, 强化学习位姿图优化, 多传感器融合

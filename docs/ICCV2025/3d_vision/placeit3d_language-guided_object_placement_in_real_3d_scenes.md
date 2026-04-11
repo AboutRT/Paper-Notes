@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes 论文解读 | 提出语言引导的真实3D场景中物体放置任务（PlaceIt3D），包含基准测试、大规模数据集和基于3D LLM的基线方法PlaceWizard，实现对场景、物体和语言指令的联合推理。"
+tags:
+
+---
+
 # PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes
 
 | 信息 | 内容 |

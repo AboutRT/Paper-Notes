@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Incremental Maintenance of DatalogMTL Materialisations 论文解读 | AAAI 2026 | **arXiv**: [2511.12169](https://arxiv.org/abs/2511.12169) | **代码**: [GitHub](https://github.com/Horizon12275/DREDmtl-for-DatalogMTL) | **领域**: others (knowledge representation & temporal reasoning) | **关键词**: DatalogMTL, incremental reasoning, materialisation, Delete/Rederive, temporal logic | 提出 DRed$_{\text{MTL}}$ 算法，将经典 Delete/Rederive 增量维护技术扩展到 DatalogMTL（带度量时序逻辑的 Datalog），通过在周期化物化表示上设计新的 seminaïve 评估算子和周期识别算法，实现高效增量更新，性能可达重新物化的数量级提升。"
+tags:
+  - AAAI 2026 | **arXiv**: [2511.12169](https://arxiv.org/abs/2511.12169) | **代码**: [GitHub](https://github.com/Horizon12275/DREDmtl-for-DatalogMTL) | **领域**: others (knowledge representation & temporal reasoning) | **关键词**: DatalogMTL, incremental reasoning, materialisation, Delete/Rederive, temporal logic
+---
+
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Incremental Maintenance of DatalogMTL Materialisations
 

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Rethinking Layered Graphic Design Generation with a Top-Down Approach 论文解读 | 提出Accordion框架，采用自顶向下策略将AI生成的栅格化设计图转换为可编辑的分层设计（含背景、前景对象、矢量化文本层），由VLM在参考创建、设计规划和层生成三个阶段扮演不同角色。"
+tags:
+
+---
+
 # Rethinking Layered Graphic Design Generation with a Top-Down Approach
 
 ## 元信息

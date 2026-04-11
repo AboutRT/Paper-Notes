@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Diving into the Fusion of Monocular Priors for Generalized Stereo Matching 论文解读 | 深入分析单目先验融合中的三大问题（仿射不变性 vs 绝对深度的对齐、迭代更新中的局部最优、噪声视差对融合的干扰），提出二元局部排序图和全局配准模块，在 SceneFlow→Middlebury/Booster 泛化实验中将 bad2 错误减半甚至更多，且几乎不增加计算开销。"
+tags:
+
+---
+
 # Diving into the Fusion of Monocular Priors for Generalized Stereo Matching
 
 ## 论文信息

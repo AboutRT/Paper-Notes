@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】MatchDiffusion: Training-free Generation of Match-Cuts 论文解读 | 提出MatchDiffusion，利用扩散模型早期去噪步骤定义场景宏观结构、后期步骤添加细节的特性，通过Joint Diffusion和Disjoint Diffusion两阶段无训练方法实现自动match-cut视频生成。"
+tags:
+
+---
+
 # MatchDiffusion: Training-free Generation of Match-Cuts
 
 ## 元信息

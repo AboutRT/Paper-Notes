@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Hidden Breakthroughs in Language Model Training 论文解读 | ICLR 2026 / **arXiv**: [2506.15872](https://arxiv.org/abs/2506.15872) / **代码**: [GitHub](https://github.com/skangasl/POLCA) / **领域**: llm_nlp / **关键词**: 训练动力学, 相变, 损失分解, 无监督可解释性, Hessian 特征向量 | 提出 POLCA 方法，将训练损失沿低秩训练子空间的任意基方向进行分解，揭示了在整体损失曲线平滑区域中隐藏的概念性突破（hidden breakthroughs），实现了对模型技能习得过程的无监督可解释性分析。"
+tags:
+  - ICLR 2026 / **arXiv**: [2506.15872](https://arxiv.org/abs/2506.15872) / **代码**: [GitHub](https://github.com/skangasl/POLCA) / **领域**: llm_nlp / **关键词**: 训练动力学, 相变, 损失分解, 无监督可解释性, Hessian 特征向量
+---
+
 # Hidden Breakthroughs in Language Model Training
 
 **会议**: ICLR 2026 / **arXiv**: [2506.15872](https://arxiv.org/abs/2506.15872) / **代码**: [GitHub](https://github.com/skangasl/POLCA) / **领域**: llm_nlp / **关键词**: 训练动力学, 相变, 损失分解, 无监督可解释性, Hessian 特征向量

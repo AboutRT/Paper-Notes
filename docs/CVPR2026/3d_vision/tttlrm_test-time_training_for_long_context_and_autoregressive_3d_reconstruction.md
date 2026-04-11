@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction 论文解读 | CVPR 2026  **arXiv**: [2602.20160](https://arxiv.org/abs/2602.20160)  **领域**: 3D视觉  **关键词**: 3D重建, Test-Time Training, 大重建模型, 高斯溅射, 自回归重建 | tttLRM 首次将 Test-Time Training (TTT) 引入大规模3D重建模型，利用 LaCT 层以线性复杂度实现长上下文和自回归3D高斯重建，通过将多视图观测压缩到 TTT 快速权重中形成隐式3D表示，再解码为显式3DGS等格式，在物体和场景级数据集上达到了 SOTA 性能。"
+tags:
+  - CVPR 2026  **arXiv**: [2602.20160](https://arxiv.org/abs/2602.20160)  **领域**: 3D视觉  **关键词**: 3D重建, Test-Time Training, 大重建模型, 高斯溅射, 自回归重建
+---
+
 # tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction
 
 **会议**: CVPR 2026  **arXiv**: [2602.20160](https://arxiv.org/abs/2602.20160)  **领域**: 3D视觉  **关键词**: 3D重建, Test-Time Training, 大重建模型, 高斯溅射, 自回归重建

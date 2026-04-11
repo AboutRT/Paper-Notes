@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Understanding Flatness in Generative Models: Its Role and Benefits 论文解读 | 本文首次系统研究损失景观平坦性在生成模型（尤其是扩散模型）中的角色与优势，理论证明平坦极小值可增强对先验分布扰动的鲁棒性，实验表明 SAM 能有效提升扩散模型的平坦性，从而改善生成质量、降低暴露偏差和量化误差。"
+tags:
+
+---
+
 # Understanding Flatness in Generative Models: Its Role and Benefits
 
 | 属性 | 值 |

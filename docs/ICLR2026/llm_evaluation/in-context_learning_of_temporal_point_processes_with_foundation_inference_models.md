@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】In-Context Learning of Temporal Point Processes with Foundation Inference Models 论文解读 | ICLR 2026 / **arXiv**: [2509.24762](https://arxiv.org/abs/2509.24762) / **代码**: [OpenFIM](https://fim4science.github.io/OpenFIM/intro.html) / **领域**: llm_nlp / **关键词**: temporal point process, foundation model, in-context learning, Hawkes process, amortized inference, conditional intensity | 提出 FIM-PP——首个面向时间点过程的基础推断模型，通过在大规模合成 MTPP 数据上预训练 Transformer，实现对条件强度函数的上下文学习推断，零样本即可匹配专用模型性能，微调后在多个真实数据集上达到 SOTA。"
+tags:
+  - ICLR 2026 / **arXiv**: [2509.24762](https://arxiv.org/abs/2509.24762) / **代码**: [OpenFIM](https://fim4science.github.io/OpenFIM/intro.html) / **领域**: llm_nlp / **关键词**: temporal point process, foundation model, in-context learning, Hawkes process, amortized inference, conditional intensity
+---
+
 # In-Context Learning of Temporal Point Processes with Foundation Inference Models
 
 **会议**: ICLR 2026 / **arXiv**: [2509.24762](https://arxiv.org/abs/2509.24762) / **代码**: [OpenFIM](https://fim4science.github.io/OpenFIM/intro.html) / **领域**: llm_nlp / **关键词**: temporal point process, foundation model, in-context learning, Hawkes process, amortized inference, conditional intensity

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】SuperMat: Physically Consistent PBR Material Estimation at Interactive Rates 论文解读 | 提出SuperMat，一个单步推理的PBR材质分解框架，通过结构化专家分支和调度器修正实现端到端训练，引入re-render loss确保物理一致性，将推理速度从秒级提升至毫秒级。"
+tags:
+
+---
+
 # SuperMat: Physically Consistent PBR Material Estimation at Interactive Rates
 
 ## 元信息

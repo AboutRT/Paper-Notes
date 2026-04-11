@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Demeter: A Parametric Model of Crop Plant Morphology from the Real World 论文解读 | Demeter 是一个数据驱动的参数化植物形态模型，将植物形态分解为拓扑、关节、形状和变形四个因素，支持形状生成、3D 重建和生物物理仿真。"
+tags:
+
+---
+
 # Demeter: A Parametric Model of Crop Plant Morphology from the Real World
 
 ## 基本信息

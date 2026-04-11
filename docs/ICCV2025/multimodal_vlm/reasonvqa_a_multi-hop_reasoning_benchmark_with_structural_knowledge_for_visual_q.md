@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】ReasonVQA: A Multi-hop Reasoning Benchmark with Structural Knowledge for Visual Question Answering 论文解读 | 提出 ReasonVQA 数据集，通过低成本可扩展框架将结构化百科知识（Wikidata）与图像自动融合，生成 1/2/3 跳的多跳推理问题，包含 598K 图像和 4.2M 问题，显著挑战了现有 VQA 模型。"
+tags:
+
+---
+
 # ReasonVQA: A Multi-hop Reasoning Benchmark with Structural Knowledge for Visual Question Answering
 
 | 属性 | 值 |

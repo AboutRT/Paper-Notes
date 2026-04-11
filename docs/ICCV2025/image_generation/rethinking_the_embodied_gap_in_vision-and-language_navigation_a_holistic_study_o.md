@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Rethinking the Embodied Gap in Vision-and-Language Navigation: A Holistic Study of Physical and Visual Disparities 论文解读 | > 提出 VLN-PE，首个物理真实的视觉-语言导航平台，支持人形、四足和轮式机器人，系统评估现有 VLN 方法在真实物理约束下的性能，揭示了仿真到物理部署中 34% 的成功率下降。"
+tags:
+
+---
+
 # Rethinking the Embodied Gap in Vision-and-Language Navigation: A Holistic Study of Physical and Visual Disparities
 
 | 信息 | 内容 |

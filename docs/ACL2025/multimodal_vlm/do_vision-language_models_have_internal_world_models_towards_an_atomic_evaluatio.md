@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation 论文解读 | ACL 2025 | **arXiv**: [2506.21876](https://arxiv.org/abs/2506.21876) | **代码**: [项目主页](https://wm-abench.maitrix.org/) (有) | **领域**: 多模态VLM | **关键词**: 世界模型, VLM评估, 感知-预测框架, 直觉物理, 原子化基准 | 提出基于认知科学的双阶段框架（感知+预测），构建 WM-ABench 大规模基准（23 维度、6 模拟器、10 万+实例），通过 660 组实验系统揭示 15 个 SOTA VLM 在基本世界建模能力上的严重不足。"
+tags:
+  - ACL 2025 | **arXiv**: [2506.21876](https://arxiv.org/abs/2506.21876) | **代码**: [项目主页](https://wm-abench.maitrix.org/) (有) | **领域**: 多模态VLM | **关键词**: 世界模型, VLM评估, 感知-预测框架, 直觉物理, 原子化基准
+---
+
 # Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation
 
 **会议**: ACL 2025 | **arXiv**: [2506.21876](https://arxiv.org/abs/2506.21876) | **代码**: [项目主页](https://wm-abench.maitrix.org/) (有) | **领域**: 多模态VLM | **关键词**: 世界模型, VLM评估, 感知-预测框架, 直觉物理, 原子化基准

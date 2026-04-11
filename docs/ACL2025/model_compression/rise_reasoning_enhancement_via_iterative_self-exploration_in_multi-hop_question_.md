@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】RISE: Reasoning Enhancement via Iterative Self-Exploration in Multi-hop Question Answering 论文解读 | ACL 2025 | arXiv 2505.21940 | 提出 RISE——结合 RAG 与自迭代训练的多跳问答框架，通过问题分解、检索阅读、自我批判三个动作的自我探索循环，迭代生成训练数据并多目标优化模型，在 2Wiki/HotpotQA/MuSiQue 上超越 GPT-3.5 和所有 8B 级基线。"
+tags:
+  - ACL 2025
+---
+
 # RISE: Reasoning Enhancement via Iterative Self-Exploration in Multi-hop Question Answering
 
 **会议**: ACL 2025  

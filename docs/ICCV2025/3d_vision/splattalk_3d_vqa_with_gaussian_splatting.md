@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】SplatTalk: 3D VQA with Gaussian Splatting 论文解读 | 提出SplatTalk，利用可泛化的3D Gaussian Splatting框架生成与LLM兼容的3D token，仅需多视角RGB图像即可实现零样本3D视觉问答，性能超越2D LMM方法并接近3D LMM。"
+tags:
+
+---
+
 # SplatTalk: 3D VQA with Gaussian Splatting
 
 ## 元信息

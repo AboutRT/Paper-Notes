@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems 论文解读 | NeurIPS 2025 / **arXiv**: [2505.18943](https://arxiv.org/abs/2505.18943) / **代码**: [GitHub](https://github.com/XMZhangAI/MetaMind) / **领域**: llm_nlp / **关键词**: Theory of Mind, 多智能体系统, 元认知, 社会推理, LLM | 提出 MetaMind——一个受心理学元认知理论启发的多智能体框架，通过 ToM Agent（心理状态假设生成）、Moral Agent（社会规范约束精炼）和 Response Agent（响应生成与自我验证）三阶段协作，显著提升 LLM 的社会推理能力，在多个社会智能基准上达到 SOTA 并首次接近人类水平。"
+tags:
+  - NeurIPS 2025 / **arXiv**: [2505.18943](https://arxiv.org/abs/2505.18943) / **代码**: [GitHub](https://github.com/XMZhangAI/MetaMind) / **领域**: llm_nlp / **关键词**: Theory of Mind, 多智能体系统, 元认知, 社会推理, LLM
+---
+
 # MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems
 
 **会议**: NeurIPS 2025 / **arXiv**: [2505.18943](https://arxiv.org/abs/2505.18943) / **代码**: [GitHub](https://github.com/XMZhangAI/MetaMind) / **领域**: llm_nlp / **关键词**: Theory of Mind, 多智能体系统, 元认知, 社会推理, LLM

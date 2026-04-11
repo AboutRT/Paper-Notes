@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Identifying and Evaluating Inactive Heads in Pretrained LLMs 论文解读 | ICLR 2026 / **arXiv**: [2504.03889](https://arxiv.org/abs/2504.03889) / **代码**: [GitHub](https://github.com/psandovalsegura/inactive-heads) / **领域**: llm_nlp / **关键词**: 注意力头, 不活跃头, 注意力汇聚, 评分函数, 模型分析, Transformer | 系统评估 12 种评分函数来识别 LLM 中不活跃的注意力头，发现平均头输出范数（Avg Head Output Norm）比传统注意力权重指标更能模型无关地识别不活跃头；14 个模型上验证平均超过 12% 的头可被置零而保持 MMLU 精度在 1% 以内。"
+tags:
+  - ICLR 2026 / **arXiv**: [2504.03889](https://arxiv.org/abs/2504.03889) / **代码**: [GitHub](https://github.com/psandovalsegura/inactive-heads) / **领域**: llm_nlp / **关键词**: 注意力头, 不活跃头, 注意力汇聚, 评分函数, 模型分析, Transformer
+---
+
 # Identifying and Evaluating Inactive Heads in Pretrained LLMs
 
 **会议**: ICLR 2026 / **arXiv**: [2504.03889](https://arxiv.org/abs/2504.03889) / **代码**: [GitHub](https://github.com/psandovalsegura/inactive-heads) / **领域**: llm_nlp / **关键词**: 注意力头, 不活跃头, 注意力汇聚, 评分函数, 模型分析, Transformer

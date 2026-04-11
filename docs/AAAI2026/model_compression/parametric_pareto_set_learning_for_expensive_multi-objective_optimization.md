@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Parametric Pareto Set Learning for Expensive Multi-Objective Optimization 论文解读 | AAAI 2026  **arXiv**: [2511.05815](https://arxiv.org/abs/2511.05815)  **代码**: 无  **领域**: 多目标优化/贝叶斯优化  **关键词**: Pareto Set Learning, Multi-Objective Bayesian Optimization, Hypernetwork, LoRA, 参数化多目标优化 | 本文提出 PPSL-MOBO 框架，通过超网络 + LoRA 架构学习从偏好和外在参数到 Pareto 最优解的统一映射，结合高斯过程代理模型和超体积改进采集策略，高效解决昂贵的参数化多目标优化问题。"
+tags:
+  - AAAI 2026  **arXiv**: [2511.05815](https://arxiv.org/abs/2511.05815)  **代码**: 无  **领域**: 多目标优化/贝叶斯优化  **关键词**: Pareto Set Learning, Multi-Objective Bayesian Optimization, Hypernetwork, LoRA, 参数化多目标优化
+---
+
 # Parametric Pareto Set Learning for Expensive Multi-Objective Optimization
 
 **会议**: AAAI 2026  **arXiv**: [2511.05815](https://arxiv.org/abs/2511.05815)  **代码**: 无  **领域**: 多目标优化/贝叶斯优化  **关键词**: Pareto Set Learning, Multi-Objective Bayesian Optimization, Hypernetwork, LoRA, 参数化多目标优化

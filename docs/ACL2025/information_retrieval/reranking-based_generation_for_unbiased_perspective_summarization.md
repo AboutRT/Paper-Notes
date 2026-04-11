@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Reranking-based Generation for Unbiased Perspective Summarization 论文解读 | ACL 2025  **arXiv**: [2506.15925](https://arxiv.org/abs/2506.15925)  **代码**: [narutatsuri/Unbiased-Perspective-Summarization](https://github.com/narutatsuri/Unbiased-Perspective-Summarization) (有)  **领域**: NLP-文本摘要  **关键词**: 视角摘要、重排序、DPO、LLM评估指标、无偏摘要 | 针对政治视角摘要任务，构建了受控测试集验证现有评估指标的可靠性，发现 LLM-based 指标远优于传统指标，并证明基于重排序（Reranking）的方法及在重排序数据上的 DPO 训练能显著提升摘要的覆盖性和忠实性。"
+tags:
+  - ACL 2025  **arXiv**: [2506.15925](https://arxiv.org/abs/2506.15925)  **代码**: [narutatsuri/Unbiased-Perspective-Summarization](https://github.com/narutatsuri/Unbiased-Perspective-Summarization) (有)  **领域**: NLP-文本摘要  **关键词**: 视角摘要、重排序、DPO、LLM评估指标、无偏摘要
+---
+
 # Reranking-based Generation for Unbiased Perspective Summarization
 
 **会议**: ACL 2025  **arXiv**: [2506.15925](https://arxiv.org/abs/2506.15925)  **代码**: [narutatsuri/Unbiased-Perspective-Summarization](https://github.com/narutatsuri/Unbiased-Perspective-Summarization) (有)  **领域**: NLP-文本摘要  **关键词**: 视角摘要、重排序、DPO、LLM评估指标、无偏摘要

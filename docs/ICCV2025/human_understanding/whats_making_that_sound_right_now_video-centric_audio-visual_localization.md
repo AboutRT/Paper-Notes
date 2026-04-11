@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】What's Making That Sound Right Now? Video-centric Audio-Visual Localization 论文解读 | 提出视频级音视频定位基准 AVATAR 和时序感知模型 TAVLO，通过高分辨率时序建模解决传统 AVL 方法忽略时间动态的问题。"
+tags:
+
+---
+
 # What's Making That Sound Right Now? Video-centric Audio-Visual Localization
 
 ## 元信息

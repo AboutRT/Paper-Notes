@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Designing Incident Reporting Systems for Harms from General-Purpose AI 论文解读 | AAAI 2026 | **arXiv**: [2511.05914](https://arxiv.org/abs/2511.05914) | **代码**: 无 | **领域**: others (AI governance/safety) | **关键词**: AI incident reporting, institutional design, GPAI, safety learning, accountability | 通过文献综述和 9 个安全关键行业（核电、航空、网安等）的案例研究，提出 AI 事故报告系统的 7 维制度设计框架，为美国 GPAI 事故报告系统的构建提供系统性设计建议。"
+tags:
+  - AAAI 2026 | **arXiv**: [2511.05914](https://arxiv.org/abs/2511.05914) | **代码**: 无 | **领域**: others (AI governance/safety) | **关键词**: AI incident reporting, institutional design, GPAI, safety learning, accountability
+---
+
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Designing Incident Reporting Systems for Harms from General-Purpose AI
 

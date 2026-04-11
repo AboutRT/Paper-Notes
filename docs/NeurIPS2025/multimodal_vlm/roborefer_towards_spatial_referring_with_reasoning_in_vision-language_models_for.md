@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics 论文解读 | NeurIPS 2025  **arXiv**: [2506.04308](https://arxiv.org/abs/2506.04308)  **代码**: [zhoues.github.io/RoboRefer](https://zhoues.github.io/RoboRefer)  **领域**: multimodal_vlm / embodied_ai  **关键词**: 空间指代, 视觉语言模型, 多步推理, 强化微调, 机器人操作 | arXiv 2506.04308 | 提出 **RoboRefer**，一个 3D 感知的推理型 VLM，通过 **SFT + RFT** 两阶段训练策略（含度量敏感的过程奖励函数），在空间指代任务中实现精确的单步空间理解和多步空间推理，在 RefSpatial-Bench 上超越 Gemini-2.5-Pro 达 17.4%。"
+tags:
+  - NeurIPS 2025  **arXiv**: [2506.04308](https://arxiv.org/abs/2506.04308)  **代码**: [zhoues.github.io/RoboRefer](https://zhoues.github.io/RoboRefer)  **领域**: multimodal_vlm / embodied_ai  **关键词**: 空间指代, 视觉语言模型, 多步推理, 强化微调, 机器人操作
+---
+
 # RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics
 
 **会议**: NeurIPS 2025  **arXiv**: [2506.04308](https://arxiv.org/abs/2506.04308)  **代码**: [zhoues.github.io/RoboRefer](https://zhoues.github.io/RoboRefer)  **领域**: multimodal_vlm / embodied_ai  **关键词**: 空间指代, 视觉语言模型, 多步推理, 强化微调, 机器人操作  

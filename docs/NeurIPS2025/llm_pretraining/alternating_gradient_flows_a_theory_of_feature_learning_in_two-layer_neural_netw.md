@@ -1,3 +1,12 @@
+---
+description: "【论文笔记】Alternating Gradient Flows: A Theory of Feature Learning in Two-layer Neural Networks 论文解读 | NeurIPS 2025 | arXiv 2506.06489 | 特征学习 | 提出交替梯度流（AGF）理论框架解释神经网络的逐步\"鞍到鞍\"特征学习动力学——将训练建模为休眠神经元的效用最大化和活跃神经元的代价最小化的交替过程，统一了对角线性网络、注意力模型和模块加法的特征选择分析，预测与实际梯度流高度一致。"
+tags:
+  - NeurIPS 2025
+  - 特征学习
+  - 鞍点动力学
+  - 交替梯度流
+---
+
 # Alternating Gradient Flows: A Theory of Feature Learning in Two-layer Neural Networks
 
 **会议**: NeurIPS 2025  
@@ -81,7 +90,8 @@
 - 价值: ⭐⭐⭐⭐⭐ 统一了多个架构的特征学习理论，深度学习理论的重要进展
 
 ### 方法补充说明
-- **效用函数的直觉解释**：$\mathcal{U}_i(	heta; r) = E_x[\langle f_i(x;	heta), r(x) angle]$ 衡量的是"如果激活神经元 $i$（在方向 $	heta$），能减少多少当前残差"——类似贪心特征选择
+- **效用函数的直觉解释**：$\mathcal{U}_i(	heta; r) = E_x[\langle f_i(x;	heta), r(x) 
+angle]$ 衡量的是"如果激活神经元 $i$（在方向 $	heta$），能减少多少当前残差"——类似贪心特征选择
 - **跳跃时间 $	au_i$ 的物理意义**：休眠神经元需要累积足够的"证据"（效用积分超过阈值 $c_i/\eta$）才能激活——类似神经科学中的动作电位阈值
 - **定向 vs 径向动力学的分离**：定向动力学在超球面上搜索最佳方向（$P^\perp_	heta 
 abla \mathcal{U}$——在 $	heta$ 的正交补空间中投影），径向动力学决定权重大小（效用正→增长，效用负→衰减）

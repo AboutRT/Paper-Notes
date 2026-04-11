@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model 论文解读 | 提出一套利用微调地理空间基础模型（Granite-GFM）的完整工作流，涵盖城市热岛效应的实证量化、未来气候情景下的温度外推预测，以及通过卫星图像 inpainting 模拟城市绿化降温效果。"
+tags:
+
+---
+
 # Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model
 
 ## 基本信息

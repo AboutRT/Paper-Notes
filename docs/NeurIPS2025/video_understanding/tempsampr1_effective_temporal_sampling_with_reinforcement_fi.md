@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs 论文解读 | 提出 TempSamp-R1，针对视频时序定位任务改进 GRPO 强化微调框架，通过 off-policy 时间精确引导 + 非线性软优势计算 + 混合 CoT 训练，在 Charades-STA/ActivityNet/QVHighlights 上分别提升 +2.7%/+5.3%/+3.0%。"
+tags:
+
+---
+
 # TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs
 
 ## 基本信息

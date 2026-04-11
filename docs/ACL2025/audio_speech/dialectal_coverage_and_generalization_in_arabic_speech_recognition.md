@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Dialectal Coverage and Generalization in Arabic Speech Recognition 论文解读 | 系统研究阿拉伯语方言覆盖对 ASR 性能的影响，通过多方言预训练和联合微调扩展 ArTST 模型覆盖 17 个阿拉伯国家的语音变体，并探索了代码切换场景下的多语言优化策略。"
+tags:
+
+---
+
 # Dialectal Coverage and Generalization in Arabic Speech Recognition
 
 | 项目 | 内容 |

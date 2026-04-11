@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Markovian Scale Prediction: A New Era of Visual Autoregressive Generation 论文解读 | CVPR 2026  **arXiv**: [2511.23334](https://arxiv.org/abs/2511.23334)  **代码**: [有](https://luokairo.github.io/markov-var-page/)  **领域**: 模型压缩  **关键词**: 视觉自回归生成, 马尔可夫过程, 多尺度预测, 内存效率, 图像生成 | 将视觉自回归模型 (VAR) 从全上下文依赖的 next-scale prediction 重构为基于马尔可夫过程的 Markovian scale prediction，通过滑动窗口历史补偿机制实现非全上下文建模，在 ImageNet 上 FID 降低 10.5%、峰值内存减少 83.8%。"
+tags:
+  - CVPR 2026  **arXiv**: [2511.23334](https://arxiv.org/abs/2511.23334)  **代码**: [有](https://luokairo.github.io/markov-var-page/)  **领域**: 模型压缩  **关键词**: 视觉自回归生成, 马尔可夫过程, 多尺度预测, 内存效率, 图像生成
+---
+
 # Markovian Scale Prediction: A New Era of Visual Autoregressive Generation
 
 **会议**: CVPR 2026  **arXiv**: [2511.23334](https://arxiv.org/abs/2511.23334)  **代码**: [有](https://luokairo.github.io/markov-var-page/)  **领域**: 模型压缩  **关键词**: 视觉自回归生成, 马尔可夫过程, 多尺度预测, 内存效率, 图像生成

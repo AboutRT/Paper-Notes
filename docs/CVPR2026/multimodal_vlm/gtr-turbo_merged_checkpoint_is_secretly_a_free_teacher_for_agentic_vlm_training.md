@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training 论文解读 | CVPR 2026 | arXiv 2512.13043 | 提出GTR-Turbo框架，通过合并RL训练过程中产生的历史checkpoint作为免费教师模型，在无需依赖昂贵外部API模型的条件下，实现了与GTR相当甚至更优的多轮视觉代理训练效果，同时将训练时间减少50%、计算成本降低60%。"
+tags:
+  - CVPR 2026
+---
+
 # GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training
 
 **会议**: CVPR 2026  

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】OminiControl: Minimal and Universal Control for Diffusion Transformer 论文解读 | 提出OminiControl，仅需0.1%额外参数即可在DiT架构上实现空间对齐和非对齐两类图像控制任务的统一处理，核心创新包括统一序列处理、动态位置编码和注意力偏置控制机制。"
+tags:
+
+---
+
 # OminiControl: Minimal and Universal Control for Diffusion Transformer
 
 ## 元信息

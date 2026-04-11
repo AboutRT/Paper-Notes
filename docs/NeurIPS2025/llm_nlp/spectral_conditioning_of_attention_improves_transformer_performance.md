@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Spectral Conditioning of Attention Improves Transformer Performance 论文解读 | NeurIPS 2025 / **arXiv**: [2603.07162](https://arxiv.org/abs/2603.07162) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: Transformer, 注意力机制, 条件数, 谱调节, Jacobian | 理论分析了 Transformer 注意力层 Jacobian 的条件数受 Query/Key/Value 矩阵条件数控制，提出谱调节注意力（Spectral Conditioned Attention），通过向 Q/K/V 矩阵添加固定校正项降低条件数，作为即插即用模块在图像分类、目标检测、NLP 等多任务上一致提升性能。"
+tags:
+  - NeurIPS 2025 / **arXiv**: [2603.07162](https://arxiv.org/abs/2603.07162) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: Transformer, 注意力机制, 条件数, 谱调节, Jacobian
+---
+
 # Spectral Conditioning of Attention Improves Transformer Performance
 
 **会议**: NeurIPS 2025 / **arXiv**: [2603.07162](https://arxiv.org/abs/2603.07162) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: Transformer, 注意力机制, 条件数, 谱调节, Jacobian

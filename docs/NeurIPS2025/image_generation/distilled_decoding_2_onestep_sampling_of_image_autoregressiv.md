@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Distilled Decoding 2: One-step Sampling of Image Auto-regressive Models with Conditional Score Distillation 论文解读 | 提出 Distilled Decoding 2 (DD2)，通过条件分数蒸馏损失将图像自回归模型压缩为单步生成器，在 ImageNet-256 上 FID 仅从 3.40 增至 5.43，比 DD1 的 one-step 差距缩小 67%，训练加速 12.3×。"
+tags:
+
+---
+
 # Distilled Decoding 2: One-step Sampling of Image Auto-regressive Models with Conditional Score Distillation
 
 ## 基本信息

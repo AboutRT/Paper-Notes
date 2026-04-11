@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching 论文解读 | 提出OZSpeech，首个将最优传输条件流匹配(OT-CFM)与学习先验分布相结合实现单步采样的零样本TTS系统，在内容准确性(WER)、推理速度和模型大小上均大幅领先现有方法。"
+tags:
+
+---
+
 # OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching
 
 | 属性 | 值 |

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis 论文解读 | AAAI 2026 | **arXiv**: [2511.10325](https://arxiv.org/abs/2511.10325) | **代码**: 未公开 | **领域**: Multimodal Sentiment Analysis | **关键词**: multimodal sentiment analysis, missing modality, noisy modality, variational information bottleneck, denoising | 提出 TMDC 两阶段框架，第一阶段在完整数据上学习去噪的 modality-specific 和 modality-common 表示，第二阶段利用可用模态的去噪表示补全缺失模态，首次同时处理 MSA 中的噪声和缺失问题。"
+tags:
+  - AAAI 2026 | **arXiv**: [2511.10325](https://arxiv.org/abs/2511.10325) | **代码**: 未公开 | **领域**: Multimodal Sentiment Analysis | **关键词**: multimodal sentiment analysis, missing modality, noisy modality, variational information bottleneck, denoising
+---
+
 # TMDC: A Two-Stage Modality Denoising and Complementation Framework for Multimodal Sentiment Analysis
 
 **会议**: AAAI 2026 | **arXiv**: [2511.10325](https://arxiv.org/abs/2511.10325) | **代码**: 未公开 | **领域**: Multimodal Sentiment Analysis | **关键词**: multimodal sentiment analysis, missing modality, noisy modality, variational information bottleneck, denoising

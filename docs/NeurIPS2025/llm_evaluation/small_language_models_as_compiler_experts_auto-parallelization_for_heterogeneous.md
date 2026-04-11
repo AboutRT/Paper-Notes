@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Small Language Models as Compiler Experts: Auto-Parallelization for Heterogeneous Systems 论文解读 | NeurIPS 2025 (ML for Systems Workshop) / **arXiv**: [2512.19250](https://arxiv.org/abs/2512.19250) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 小语言模型, 自动并行化, 编译器优化, 异构系统, 推理策略 | 系统评估了三个小于 1.5B 参数的语言模型（gemma3、llama3.2、qwen2.5）在编译器自动并行化任务上的能力，使用六种推理策略在 11 个真实世界内核上实现平均 6.81x 加速、峰值 43.25x，证明小模型可作为强大的编译器优化推理引擎。"
+tags:
+  - NeurIPS 2025 (ML for Systems Workshop) / **arXiv**: [2512.19250](https://arxiv.org/abs/2512.19250) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 小语言模型, 自动并行化, 编译器优化, 异构系统, 推理策略
+---
+
 # Small Language Models as Compiler Experts: Auto-Parallelization for Heterogeneous Systems
 
 **会议**: NeurIPS 2025 (ML for Systems Workshop) / **arXiv**: [2512.19250](https://arxiv.org/abs/2512.19250) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 小语言模型, 自动并行化, 编译器优化, 异构系统, 推理策略

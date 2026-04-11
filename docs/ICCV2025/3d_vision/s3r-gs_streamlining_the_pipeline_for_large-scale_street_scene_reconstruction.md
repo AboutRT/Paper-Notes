@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction 论文解读 | S3R-GS 通过识别传统街景重建管线中的三大计算冗余（不必要的局部-全局坐标变换、过多的3D-2D投影、低效的远距离内容渲染），提出实例特定投影、时序可见性过滤和自适应LOD策略，将重建时间降至竞争方法的20%-50%，同时保持SOTA渲染质量。"
+tags:
+
+---
+
 # S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction
 
 ## 论文信息

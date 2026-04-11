@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】OpenAnimals: Revisiting Person Re-Identification for Animals Towards Better Generalization 论文解读 | > 本文开发了 OpenAnimals 开源框架，系统回顾行人重识别方法在动物重识别中的迁移效果，提出面向动物的强基线模型 ARBase，在多个基准上大幅超越现有行人 ReID 方法。"
+tags:
+
+---
+
 # OpenAnimals: Revisiting Person Re-Identification for Animals Towards Better Generalization
 
 - **会议**: ICCV 2025

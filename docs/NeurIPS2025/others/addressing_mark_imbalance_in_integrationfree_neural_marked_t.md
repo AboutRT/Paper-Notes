@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Addressing Mark Imbalance in Integration-free Neural Marked Temporal Point Processes 论文解读 | 论文针对现实事件流中常见的 mark 类别长尾失衡问题，提出基于先验归一化概率的阈值学习策略，并设计 integration-free 的神经 MTPP 架构，先预测 mark 再预测 time，在避免昂贵数值积分的同时显著提升稀有事件的 mark 与到达时间预测性能。"
+tags:
+
+---
+
 Title: Addressing Mark Imbalance in Integration-free Neural Marked Temporal Point Processes
 Authors: Sishun Liu, Ke Deng, Yongli Ren, Yan Wang, Xiuzhen Zhang
 Venue: NeurIPS 2025 (poster)

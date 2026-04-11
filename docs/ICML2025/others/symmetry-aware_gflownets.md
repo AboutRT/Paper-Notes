@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Symmetry-Aware GFlowNets 论文解读 | 揭示GFlowNets中图对称性导致的系统性采样偏差，提出通过自同构群大小缩放奖励的简单修正方法SA-GFN，实现无偏采样。"
+tags:
+
+---
+
 # Symmetry-Aware GFlowNets
 
 ## 元信息

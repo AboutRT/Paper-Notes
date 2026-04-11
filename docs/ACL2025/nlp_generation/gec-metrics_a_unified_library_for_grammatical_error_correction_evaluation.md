@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】gec-metrics: A Unified Library for Grammatical Error Correction Evaluation 论文解读 | ACL 2025 | **arXiv**: [2505.19388](https://arxiv.org/abs/2505.19388) | **代码**: [GitHub](https://github.com/gotutiyan/gec-metrics) (有) | **领域**: 文本生成 | **关键词**: 语法纠错评估, 统一框架, 元评估, GEC, 评估指标 | 提出 gec-metrics 统一库，将 10 种语法纠错 (GEC) 评估指标整合到统一接口中，并提供元评估功能，解决了现有 GEC 评估实现碎片化、不可复现、难以扩展的问题。"
+tags:
+  - ACL 2025 | **arXiv**: [2505.19388](https://arxiv.org/abs/2505.19388) | **代码**: [GitHub](https://github.com/gotutiyan/gec-metrics) (有) | **领域**: 文本生成 | **关键词**: 语法纠错评估, 统一框架, 元评估, GEC, 评估指标
+---
+
 # gec-metrics: A Unified Library for Grammatical Error Correction Evaluation
 
 **会议**: ACL 2025 | **arXiv**: [2505.19388](https://arxiv.org/abs/2505.19388) | **代码**: [GitHub](https://github.com/gotutiyan/gec-metrics) (有) | **领域**: 文本生成 | **关键词**: 语法纠错评估, 统一框架, 元评估, GEC, 评估指标

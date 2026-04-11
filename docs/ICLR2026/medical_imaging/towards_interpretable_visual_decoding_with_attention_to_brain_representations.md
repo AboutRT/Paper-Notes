@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Towards Interpretable Visual Decoding with Attention to Brain Representations 论文解读 | 提出 NeuroAdapter，一个端到端的脑活动视觉解码框架，通过交叉注意力直接将 fMRI 信号接入潜在扩散模型，跳过中间特征空间，并通过 IBBI 可解释性框架分析各脑区对图像生成的贡献。"
+tags:
+
+---
+
 # Towards Interpretable Visual Decoding with Attention to Brain Representations
 
 - **会议**: ICLR 2026

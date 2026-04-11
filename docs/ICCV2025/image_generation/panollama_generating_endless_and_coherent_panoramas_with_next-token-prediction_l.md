@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】PanoLlama: Generating Endless and Coherent Panoramas with Next-Token-Prediction LLMs 论文解读 | 提出 PanoLlama，通过 token 重定向策略将固定尺寸的视觉自回归（VAR）模型扩展为无限全景生成，实现免训练的 next-crop prediction，在连贯性、保真度和美学上超越联合扩散等方法。"
+tags:
+
+---
+
 # PanoLlama: Generating Endless and Coherent Panoramas with Next-Token-Prediction LLMs
 
 > **会议**: ICCV 2025

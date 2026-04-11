@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning 论文解读 | 本文提出 QualiSpeech，首个包含 11 个维度标注和详细自然语言推理描述的语音质量评估数据集，以及配套的评测基准，证明了微调后的听觉 LLM 能生成关于噪声和失真的详细描述，并展示了推理增强质量评估的潜力。"
+tags:
+
+---
+
 # QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning
 
 | 属性 | 值 |

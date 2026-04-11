@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】EpMAN: Episodic Memory AttentioN for Generalizing to Longer Contexts 论文解读 | 提出 EpMAN 方法，通过情景记忆模块估计上下文块的相对相关性，用该相关性重新加权解码器的自注意力（differentiating attention），配合噪声训练和注意力范围扩展策略，在 16k-256k 上下文长度范围内实现了比长上下文 LLM 和 RAG 更强且更鲁棒的表现。"
+tags:
+
+---
+
 # EpMAN: Episodic Memory AttentioN for Generalizing to Longer Contexts
 
 | 项目 | 内容 |

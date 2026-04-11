@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Neural Parameter Search for Slimmer Fine-Tuned Models and Better Transfer 论文解读 | 提出Neural Parameter Search (NPS)，通过在task vector的低秩子空间中搜索最优权重系数来提升微调模型的剪枝效率，在知识迁移（+1.5%）、模型融合（+2.1%）和压缩（40%效率提升）三个场景下均取得显著改进。"
+tags:
+
+---
+
 # Neural Parameter Search for Slimmer Fine-Tuned Models and Better Transfer
 
 | 属性 | 值 |

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models 论文解读 | ACL2025 / **arXiv**: [2505.19108](https://arxiv.org/abs/2505.19108) / **代码**: [GitHub](https://github.com/BRZ911/CCHall) / **领域**: llm_nlp / **关键词**: 幻觉检测, 跨语言, 跨模态, 基准测试, 多模态大模型 | 提出首个**联合跨语言与跨模态**幻觉检测基准 CCHall，覆盖 9 种语言和 4 类多模态数据集，系统评估 6 款主流 MLLM 在联合场景下的幻觉表现，揭示当前模型在该联合场景中 F1 比单独跨模态低 10.9、比单独跨语言低 3.4，且提出多语提示和外部工具辅助两条缓解路径。"
+tags:
+  - ACL2025 / **arXiv**: [2505.19108](https://arxiv.org/abs/2505.19108) / **代码**: [GitHub](https://github.com/BRZ911/CCHall) / **领域**: llm_nlp / **关键词**: 幻觉检测, 跨语言, 跨模态, 基准测试, 多模态大模型
+---
+
 # CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models
 
 **会议**: ACL2025 / **arXiv**: [2505.19108](https://arxiv.org/abs/2505.19108) / **代码**: [GitHub](https://github.com/BRZ911/CCHall) / **领域**: llm_nlp / **关键词**: 幻觉检测, 跨语言, 跨模态, 基准测试, 多模态大模型

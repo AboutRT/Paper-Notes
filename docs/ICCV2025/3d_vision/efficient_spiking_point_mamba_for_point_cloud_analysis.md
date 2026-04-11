@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Efficient Spiking Point Mamba for Point Cloud Analysis 论文解读 | SPM（Spiking Point Mamba）提出首个基于 Mamba 的 3D 脉冲神经网络框架，通过层次化动态编码（HDE）和脉冲 Mamba 模块（SMB），在大幅降低能耗（3.5× 以上）的同时，在 ScanObjectNN 上比前 SOTA SNN 方法提升 6-7% 的准确率。"
+tags:
+
+---
+
 # Efficient Spiking Point Mamba for Point Cloud Analysis
 
 ## 元信息

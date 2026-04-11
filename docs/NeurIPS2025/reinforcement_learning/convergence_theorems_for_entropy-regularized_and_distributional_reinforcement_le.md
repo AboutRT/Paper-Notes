@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Convergence Theorems for Entropy-Regularized and Distributional Reinforcement Learning 论文解读 | NeurIPS 2025  **arXiv**: [2510.08526](https://arxiv.org/abs/2510.08526)  **代码**: 无  **领域**: reinforcement_learning  **关键词**: 熵正则化, 分布式强化学习, 收敛性, 温度解耦, 最优策略 | arXiv 2510.08526 | 提出 **温度解耦策略（temperature decoupling gambit）**，证明在熵正则化强化学习中，通过解耦评估温度和行为温度，可以在温度趋于零时保证策略和回报分布收敛到一个可解释的、保持多样性的最优策略。"
+tags:
+  - NeurIPS 2025  **arXiv**: [2510.08526](https://arxiv.org/abs/2510.08526)  **代码**: 无  **领域**: reinforcement_learning  **关键词**: 熵正则化, 分布式强化学习, 收敛性, 温度解耦, 最优策略
+---
+
 # Convergence Theorems for Entropy-Regularized and Distributional Reinforcement Learning
 
 **会议**: NeurIPS 2025  **arXiv**: [2510.08526](https://arxiv.org/abs/2510.08526)  **代码**: 无  **领域**: reinforcement_learning  **关键词**: 熵正则化, 分布式强化学习, 收敛性, 温度解耦, 最优策略  

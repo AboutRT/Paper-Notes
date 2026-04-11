@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】ResGS: Residual Densification of 3D Gaussian for Efficient Detail Recovery 论文解读 | 提出残差分裂（residual split）操作替代3D-GS中split/clone的二元选择机制，配合图像金字塔渐进监督和可变梯度阈值选择策略，自适应地同时解决过重建和欠重建问题，在减少高斯数量的同时实现SOTA渲染质量。"
+tags:
+
+---
+
 # ResGS: Residual Densification of 3D Gaussian for Efficient Detail Recovery
 
 ## 元信息

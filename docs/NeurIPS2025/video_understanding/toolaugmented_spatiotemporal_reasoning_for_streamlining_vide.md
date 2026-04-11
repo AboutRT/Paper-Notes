@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Tool-Augmented Spatiotemporal Reasoning for Streamlining Video Question Answering Task 论文解读 | 论文为复杂 VideoQA 提出一套轻量但可扩展的 Video Toolkit，并设计 STAR（Spatiotemporal Reasoning Framework）来调度时间工具与空间工具的调用顺序，逐步定位视频关键区域，显著增强 GPT-4o 的时空推理能力，在 VideoMME 上提升 8.2%，在 LongVideoBench 上提升 4.6%。"
+tags:
+
+---
+
 # Tool-Augmented Spatiotemporal Reasoning for Streamlining Video Question Answering Task
 
 ## 基本信息

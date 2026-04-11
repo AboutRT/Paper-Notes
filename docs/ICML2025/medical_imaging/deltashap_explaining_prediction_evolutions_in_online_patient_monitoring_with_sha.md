@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】DeltaSHAP: Explaining Prediction Evolutions in Online Patient Monitoring with Shapley Values 论文解读 | DeltaSHAP 是一种专为在线患者监护系统设计的可解释AI算法，通过将 Shapley 值适配到时序场景，解释连续预测之间的**变化量**而非绝对预测值，同时提供特征归因的**方向和幅度**，在 MIMIC-III 基准上实现 62% 的解释质量提升和 33% 的计算时间缩减。"
+tags:
+
+---
+
 # DeltaSHAP: Explaining Prediction Evolutions in Online Patient Monitoring with Shapley Values
 
 - **会议**: ICML 2025

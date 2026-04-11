@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】VTimeCoT: Thinking by Drawing for Video Temporal Grounding and Reasoning 论文解读 | > 提出 VTimeCoT，一种无需训练的视觉-时间链式思维框架，通过在视频帧底部叠加可视化进度条和高亮关键片段，使多模态大模型能准确感知时间戳，在时间定位和推理问答任务上大幅超越 GPT-4o 和 Qwen2VL-7B 基线。"
+tags:
+
+---
+
 # VTimeCoT: Thinking by Drawing for Video Temporal Grounding and Reasoning
 
 | 属性 | 值 |

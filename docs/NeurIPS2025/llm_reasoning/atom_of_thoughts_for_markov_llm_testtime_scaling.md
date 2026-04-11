@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Atom of Thoughts for Markov LLM Test-Time Scaling 论文解读 | NeurIPS 2025 / **arXiv**: [2502.12018](https://arxiv.org/abs/2502.12018) / **代码**: 随论文提交（将公开） / **领域**: LLM推理 / **关键词**: test-time scaling, Markov process, atomic reasoning, DAG decomposition, reasoning framework | 提出 Atom of Thoughts (AoT)，将 LLM 推理建模为马尔可夫链，每个状态是与原问题答案等价但复杂度递减的自包含子问题，通过 DAG 分解+收缩的两阶段转移机制消除历史依赖，可与 ToT/反思等方法无缝集成，在数学/代码/多跳QA等6个benchmark上全面领先现有推理框架。"
+tags:
+  - NeurIPS 2025 / **arXiv**: [2502.12018](https://arxiv.org/abs/2502.12018) / **代码**: 随论文提交（将公开） / **领域**: LLM推理 / **关键词**: test-time scaling, Markov process, atomic reasoning, DAG decomposition, reasoning framework
+---
+
 # Atom of Thoughts for Markov LLM Test-Time Scaling
 
 **会议**: NeurIPS 2025 / **arXiv**: [2502.12018](https://arxiv.org/abs/2502.12018) / **代码**: 随论文提交（将公开） / **领域**: LLM推理 / **关键词**: test-time scaling, Markov process, atomic reasoning, DAG decomposition, reasoning framework

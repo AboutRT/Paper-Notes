@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Learning Distances from Data with Normalizing Flows and Score Matching 论文解读 | 本文提出利用 normalizing flows 和 score matching 学习密度函数与得分函数，从而高效计算基于密度的 Fermat 距离，解决了传统图方法在高维空间中收敛慢、路径粗糙的问题。"
+tags:
+
+---
+
 # Learning Distances from Data with Normalizing Flows and Score Matching
 
 | 属性 | 值 |

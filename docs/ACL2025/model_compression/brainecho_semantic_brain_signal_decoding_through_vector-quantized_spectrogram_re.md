@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】BrainECHO: Semantic Brain Signal Decoding through Vector-Quantized Spectrogram Reconstruction for Whisper-Enhanced Text Generation 论文解读 | ACL 2025 | **arXiv**: [2410.14971](https://arxiv.org/abs/2410.14971) | **代码**: 无 | **领域**: 模型压缩 | **关键词**: 脑信号解码, EEG/MEG-to-Text, 向量量化, Mel频谱图重建, Whisper | 提出 BrainECHO 三阶段框架（自编码—对齐—微调），通过向量量化离散表示将脑信号映射到 Mel 频谱图空间，再借助 Whisper 完成非侵入式脑信号到文本的高质量解码。"
+tags:
+  - ACL 2025 | **arXiv**: [2410.14971](https://arxiv.org/abs/2410.14971) | **代码**: 无 | **领域**: 模型压缩 | **关键词**: 脑信号解码, EEG/MEG-to-Text, 向量量化, Mel频谱图重建, Whisper
+---
+
 # BrainECHO: Semantic Brain Signal Decoding through Vector-Quantized Spectrogram Reconstruction for Whisper-Enhanced Text Generation
 
 **会议**: ACL 2025 | **arXiv**: [2410.14971](https://arxiv.org/abs/2410.14971) | **代码**: 无 | **领域**: 模型压缩 | **关键词**: 脑信号解码, EEG/MEG-to-Text, 向量量化, Mel频谱图重建, Whisper

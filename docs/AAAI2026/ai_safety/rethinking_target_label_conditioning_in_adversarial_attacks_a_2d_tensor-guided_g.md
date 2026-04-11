@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Rethinking Target Label Conditioning in Adversarial Attacks: A 2D Tensor-Guided Generative Approach 论文解读 | 提出 TGAF 框架，利用扩散模型将目标标签编码为 2D 语义张量来引导对抗噪声生成，并设计随机遮挡策略保留完整语义信息，显著提升目标对抗攻击的可迁移性。"
+tags:
+
+---
+
 # Rethinking Target Label Conditioning in Adversarial Attacks: A 2D Tensor-Guided Generative Approach
 
 - **会议**: AAAI 2026

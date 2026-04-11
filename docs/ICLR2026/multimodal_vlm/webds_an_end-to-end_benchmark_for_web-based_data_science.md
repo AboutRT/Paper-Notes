@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】WebDS: An End-to-End Benchmark for Web-based Data Science 论文解读 | 提出首个端到端 Web 数据科学基准 WebDS（870 个任务，29 个网站，10 个领域），当前最强 Agent（BrowserUse + GPT-4o）仅完成 15% 的任务，而人类达到 90%，揭示了真实数据科学工作流中 Agent 的巨大性能差距。"
+tags:
+
+---
+
 # WebDS: An End-to-End Benchmark for Web-based Data Science
 
 ## 元信息

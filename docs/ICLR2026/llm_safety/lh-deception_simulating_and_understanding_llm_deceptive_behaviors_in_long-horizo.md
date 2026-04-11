@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】LH-Deception: Simulating and Understanding LLM Deceptive Behaviors in Long-Horizon Interactions 论文解读 | ICLR 2026 / **arXiv**: [2510.03999](https://arxiv.org/abs/2510.03999) / **代码**: [github](https://github.com/deeplearning-wisc/LongHorizonDeception) / **领域**: llm_nlp / **关键词**: LLM deception, long-horizon interaction, multi-agent simulation, trust erosion, safety evaluation | 提出首个长时域 LLM 欺骗行为仿真框架 LH-Deception，通过执行者-监督者多智能体系统 + 概率事件机制 + 独立欺骗审计，在 11 个前沿模型上系统量化了欺骗行为的频率、严重性、类型及其对信任的侵蚀。"
+tags:
+  - ICLR 2026 / **arXiv**: [2510.03999](https://arxiv.org/abs/2510.03999) / **代码**: [github](https://github.com/deeplearning-wisc/LongHorizonDeception) / **领域**: llm_nlp / **关键词**: LLM deception, long-horizon interaction, multi-agent simulation, trust erosion, safety evaluation
+---
+
 # LH-Deception: Simulating and Understanding LLM Deceptive Behaviors in Long-Horizon Interactions
 
 **会议**: ICLR 2026 / **arXiv**: [2510.03999](https://arxiv.org/abs/2510.03999) / **代码**: [github](https://github.com/deeplearning-wisc/LongHorizonDeception) / **领域**: llm_nlp / **关键词**: LLM deception, long-horizon interaction, multi-agent simulation, trust erosion, safety evaluation

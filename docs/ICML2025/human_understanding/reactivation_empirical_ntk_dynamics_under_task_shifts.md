@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Reactivation: Empirical NTK Dynamics Under Task Shifts 论文解读 | ICML 2025 | arXiv 2507.16039 | 本文首次系统地实证研究了持续学习中的神经切线核（NTK）动态，发现任务切换会一致性地触发 NTK 的突变——即使在 lazy 学习体制下——揭示了一种被称为\"重激活\"的特征学习现象。"
+tags:
+  - ICML 2025
+---
+
 # Reactivation: Empirical NTK Dynamics Under Task Shifts
 
 **会议**: ICML 2025  

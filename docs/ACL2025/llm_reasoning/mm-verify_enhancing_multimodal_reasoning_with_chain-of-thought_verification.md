@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification 论文解读 | 本文提出MM-Verifier和MM-Reasoner两个模型，通过模拟搜索+拒绝采样合成长链CoT验证数据、以及文本蒸馏合成多模态推理数据，仅7B参数即在MathVista上达到65.3%准确率超越GPT-4o（63.8%）和人类表现（60.3%）。"
+tags:
+
+---
+
 # MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification
 
 | 属性 | 内容 |

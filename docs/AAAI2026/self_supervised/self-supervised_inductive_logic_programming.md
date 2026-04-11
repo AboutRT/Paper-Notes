@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Self-Supervised Inductive Logic Programming 论文解读 | AAAI 2026 | **arXiv**: [2507.16405](https://arxiv.org/abs/2507.16405) | **代码**: [GitHub](https://github.com/stassa/aaai_26_experiments/) | **领域**: self_supervised | **关键词**: Inductive Logic Programming, Meta-Interpretive Learning, self-supervised learning, predicate invention, grammar learning | 提出 Self-Supervised ILP 新范式和 Poker 系统，通过在学习过程中自动生成正负例来替代人工标注负例和定制背景理论，实现从少量正例学习递归逻辑程序。"
+tags:
+  - AAAI 2026 | **arXiv**: [2507.16405](https://arxiv.org/abs/2507.16405) | **代码**: [GitHub](https://github.com/stassa/aaai_26_experiments/) | **领域**: self_supervised | **关键词**: Inductive Logic Programming, Meta-Interpretive Learning, self-supervised learning, predicate invention, grammar learning
+---
+
 # Self-Supervised Inductive Logic Programming
 
 **会议**: AAAI 2026 | **arXiv**: [2507.16405](https://arxiv.org/abs/2507.16405) | **代码**: [GitHub](https://github.com/stassa/aaai_26_experiments/) | **领域**: self_supervised | **关键词**: Inductive Logic Programming, Meta-Interpretive Learning, self-supervised learning, predicate invention, grammar learning

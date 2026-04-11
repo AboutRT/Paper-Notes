@@ -1,3 +1,13 @@
+---
+description: "【论文笔记】O-MaMa: Learning Object Mask Matching between Egocentric and Exocentric Views 论文解读 | ICCV 2025 | arXiv 2506.06026 | 图像分割 Cross-View Segmentation | 将跨视角（ego-exo）物体分割任务重新定义为 mask matching 问题，利用 FastSAM 生成候选 mask、DINOv2 提取语义特征、对比学习匹配跨视角物体，在 Ego-Exo4D 基准上以仅 1% 可训练参数实现 SOTA。"
+tags:
+  - ICCV 2025
+  - Cross-View Segmentation
+  - 图像分割
+  - Mask Matching
+  - Ego-Exo Correspondences
+---
+
 # O-MaMa: Learning Object Mask Matching between Egocentric and Exocentric Views
 
 **会议**: ICCV 2025  

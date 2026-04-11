@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Training a Generally Curious Agent (Paprika) 论文解读 | 提出 Paprika 框架，通过在多种文本决策任务上微调 LLM，使模型学会通用的信息收集和决策能力，并能零样本迁移到完全未见的任务。"
+tags:
+
+---
+
 # Training a Generally Curious Agent (Paprika)
 
 | 属性 | 值 |

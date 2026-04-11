@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning 论文解读 | 本文揭示 Dyna 风格模型强化学习算法（MBPO、ALM）在 OpenAI Gym 表现优异但在 DeepMind Control Suite (DMC) 中**严重失效**的现象，系统分析模型误差、过估计偏差和可塑性损失等原因，发现即使使用完美模型 MBPO 也无法一致超越 SAC，表明\"没有免费午餐\"。"
+tags:
+
+---
+
 # Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning
 
 | 属性 | 值 |

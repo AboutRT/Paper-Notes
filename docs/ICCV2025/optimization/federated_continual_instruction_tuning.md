@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Federated Continual Instruction Tuning 论文解读 | 首次提出联邦持续指令微调（FCIT）基准，涵盖 2 种场景、4 种设置和 12 个数据集，并设计 DISCO 框架通过动态知识组织（DKO）和子空间选择性激活（SSA）有效解决数据异构性和灾难性遗忘。"
+tags:
+
+---
+
 # Federated Continual Instruction Tuning
 
 - **会议**: ICCV 2025

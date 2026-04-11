@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Thought Communication in Multiagent Collaboration 论文解读 | NeurIPS 2025 / **arXiv**: [2510.20733](https://arxiv.org/abs/2510.20733) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 多智能体协作, 心灵感应, 潜变量模型, 可辨识性理论, 隐思维通信 | 提出 ThoughtComm 框架，通过建立隐变量生成模型并提供可辨识性理论保证，让多个 LLM 智能体直接交换潜在\"思想\"（latent thoughts）而非自然语言，实现超越语言瓶颈的\"心灵感应\"式协作。"
+tags:
+  - NeurIPS 2025 / **arXiv**: [2510.20733](https://arxiv.org/abs/2510.20733) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 多智能体协作, 心灵感应, 潜变量模型, 可辨识性理论, 隐思维通信
+---
+
 # Thought Communication in Multiagent Collaboration
 
 **会议**: NeurIPS 2025 / **arXiv**: [2510.20733](https://arxiv.org/abs/2510.20733) / **代码**: 未公开 / **领域**: llm_nlp / **关键词**: 多智能体协作, 心灵感应, 潜变量模型, 可辨识性理论, 隐思维通信

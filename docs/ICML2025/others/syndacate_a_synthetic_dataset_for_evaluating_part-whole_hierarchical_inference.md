@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】SynDaCaTE: A Synthetic Dataset for Evaluating Part-Whole Hierarchical Inference 论文解读 | 提出SynDaCaTE合成数据集用于评估部分-整体层次推断能力，揭示CapsNet瓶颈在于图像到部件推断，且SetTransformer是部件到整体推断的强基线。"
+tags:
+
+---
+
 # SynDaCaTE: A Synthetic Dataset for Evaluating Part-Whole Hierarchical Inference
 
 ## 元信息

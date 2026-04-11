@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals 论文解读 | 提出 ULEE 方法，通过对抗式目标生成和基于适应后难度的课程学习，在无监督环境中元学习出具备高效探索和快速适应能力的预训练策略。"
+tags:
+
+---
+
 # Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals
 
 ## 基本信息

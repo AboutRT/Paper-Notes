@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】NTK-Guided Implicit Neural Teaching 论文解读 | CVPR 2026  **arXiv**: [2511.15487](https://arxiv.org/abs/2511.15487)  **代码**: 有 (Project page)  **领域**: 3D视觉  **关键词**: Implicit Neural Representations, Neural Tangent Kernel, 训练加速, 坐标采样, INR | 提出 NINT，利用 Neural Tangent Kernel (NTK) 的行向量来度量每个坐标对全局函数更新的影响力，从而动态选择既有高拟合误差又有高全局影响力的坐标进行训练，将 INR 训练时间减少近一半且不损失重建质量。"
+tags:
+  - CVPR 2026  **arXiv**: [2511.15487](https://arxiv.org/abs/2511.15487)  **代码**: 有 (Project page)  **领域**: 3D视觉  **关键词**: Implicit Neural Representations, Neural Tangent Kernel, 训练加速, 坐标采样, INR
+---
+
 # NTK-Guided Implicit Neural Teaching
 
 **会议**: CVPR 2026  **arXiv**: [2511.15487](https://arxiv.org/abs/2511.15487)  **代码**: 有 (Project page)  **领域**: 3D视觉  **关键词**: Implicit Neural Representations, Neural Tangent Kernel, 训练加速, 坐标采样, INR

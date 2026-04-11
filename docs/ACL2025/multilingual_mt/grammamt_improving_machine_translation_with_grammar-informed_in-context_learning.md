@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】GrammaMT: Improving Machine Translation with Grammar-Informed In-Context Learning 论文解读 | ACL 2025 | **arXiv**: [2410.18702](https://arxiv.org/abs/2410.18702) | **代码**: 无 | **领域**: 文本生成 | **关键词**: 机器翻译, 语法信息, 上下文学习, 低资源语言, 语素间注释 | 提出 GrammaMT，利用语素间注释文本 (Interlinear Glossed Text, IGT) 的语法信息来增强 LLM 的 few-shot 机器翻译，在濒危语言上平均提升 12+ BLEU，在中高资源语言上也有一致改进。"
+tags:
+  - ACL 2025 | **arXiv**: [2410.18702](https://arxiv.org/abs/2410.18702) | **代码**: 无 | **领域**: 文本生成 | **关键词**: 机器翻译, 语法信息, 上下文学习, 低资源语言, 语素间注释
+---
+
 # GrammaMT: Improving Machine Translation with Grammar-Informed In-Context Learning
 
 **会议**: ACL 2025 | **arXiv**: [2410.18702](https://arxiv.org/abs/2410.18702) | **代码**: 无 | **领域**: 文本生成 | **关键词**: 机器翻译, 语法信息, 上下文学习, 低资源语言, 语素间注释

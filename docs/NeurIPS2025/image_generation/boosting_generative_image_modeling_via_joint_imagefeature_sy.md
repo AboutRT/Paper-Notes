@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Boosting Generative Image Modeling via Joint Image-Feature Synthesis 论文解读 | 提出 Latent-Semantic Diffusion，让扩散模型联合生成 VAE 低级图像 latent 和 DINO 高级语义特征，通过最小修改标准 DiT 实现生成质量和训练效率的显著提升，并解锁 Representation Guidance 推理策略。"
+tags:
+
+---
+
 # Boosting Generative Image Modeling via Joint Image-Feature Synthesis
 
 ## 基本信息

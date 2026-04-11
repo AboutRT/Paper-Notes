@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Universal Beta Splatting 论文解读 | 提出 Universal Beta Splatting (UBS)，将 3D 高斯 Splatting 推广为 N 维各向异性 Beta 核，通过逐维度形状控制在单一表示中统一建模空间几何、视角依赖外观和场景动态，实现了可解释的场景分解和 SOTA 渲染质量。"
+tags:
+
+---
+
 # Universal Beta Splatting
 
 - **会议**: ICLR 2026

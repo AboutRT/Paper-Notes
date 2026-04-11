@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Can Vision Language Models Understand Mimed Actions? 论文解读 | ACL 2025 | **arXiv**: [2506.21586](https://arxiv.org/abs/2506.21586) | **代码**: [项目页面](https://justin-cho.com/mime) (有) | **领域**: 多模态VLM | **关键词**: 非言语交际, 哑剧动作, 动作识别, 视频问答, VLM鲁棒性 | 构建 Mime 基准（86 个动作、860 个样本），利用动作捕捉 + 3D 渲染系统化评估 VLM 对哑剧动作的理解能力，发现 VLM 严重依赖场景上下文而无法像人类一样从纯肢体动作推断语义。"
+tags:
+  - ACL 2025 | **arXiv**: [2506.21586](https://arxiv.org/abs/2506.21586) | **代码**: [项目页面](https://justin-cho.com/mime) (有) | **领域**: 多模态VLM | **关键词**: 非言语交际, 哑剧动作, 动作识别, 视频问答, VLM鲁棒性
+---
+
 # Can Vision Language Models Understand Mimed Actions?
 
 **会议**: ACL 2025 | **arXiv**: [2506.21586](https://arxiv.org/abs/2506.21586) | **代码**: [项目页面](https://justin-cho.com/mime) (有) | **领域**: 多模态VLM | **关键词**: 非言语交际, 哑剧动作, 动作识别, 视频问答, VLM鲁棒性

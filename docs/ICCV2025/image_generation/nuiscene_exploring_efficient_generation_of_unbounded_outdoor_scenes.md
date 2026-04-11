@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes 论文解读 | NuiScene 提出使用向量集（vector set）编码场景块的高效方法，配合显式 outpainting 扩散模型实现快速无界户外场景生成，并策划了 NuiScene43 高质量户外场景数据集。"
+tags:
+
+---
+
 # NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes
 
 | 属性 | 值 |

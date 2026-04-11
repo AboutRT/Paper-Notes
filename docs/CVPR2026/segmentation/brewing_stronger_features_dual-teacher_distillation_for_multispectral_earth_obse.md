@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Brewing Stronger Features: Dual-Teacher Distillation for Multispectral Earth Observation 论文解读 | CVPR 2026  **arXiv**: [2602.19863](https://arxiv.org/abs/2602.19863)  **代码**: [项目页](https://wolfilip.github.io/DEO/) (有)  **领域**: Segmentation / 遥感基础模型  **关键词**: 遥感基础模型, 多光谱, 知识蒸馏, 对比学习, 双教师训练 | 提出**DEO(Distillation for Earth Observation)**，一种双教师对比蒸馏框架——用多光谱自蒸馏教师学习光谱表示、用光学VFM教师（DINOv3）注入高级语义先验，使单一学生网络同时擅长光学和多光谱遥感任务，在语义分割、变化检测和分类上全面达到SOTA。"
+tags:
+  - CVPR 2026  **arXiv**: [2602.19863](https://arxiv.org/abs/2602.19863)  **代码**: [项目页](https://wolfilip.github.io/DEO/) (有)  **领域**: Segmentation / 遥感基础模型  **关键词**: 遥感基础模型, 多光谱, 知识蒸馏, 对比学习, 双教师训练
+---
+
 # Brewing Stronger Features: Dual-Teacher Distillation for Multispectral Earth Observation
 
 **会议**: CVPR 2026  **arXiv**: [2602.19863](https://arxiv.org/abs/2602.19863)  **代码**: [项目页](https://wolfilip.github.io/DEO/) (有)  **领域**: Segmentation / 遥感基础模型  **关键词**: 遥感基础模型, 多光谱, 知识蒸馏, 对比学习, 双教师训练

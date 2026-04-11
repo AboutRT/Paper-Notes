@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second 论文解读 | CVPR 2026  **arXiv**: [2507.10065](https://arxiv.org/abs/2507.10065)  **代码**: [有](https://chenguolin.github.io/projects/MoVieS)  **领域**: 3D视觉  **关键词**: 动态视图合成, 4D重建, 3D高斯泼溅, 点跟踪, 前馈式重建 | 提出 MoVieS，一个前馈式 4D 动态场景重建框架，通过 **动态溅射像素 (Dynamic Splatter Pixel)** 表示将外观、几何和运动统一建模，从单目视频在约 1 秒内完成 4D 重建，并支持新视角合成、3D 点跟踪、场景流估计和运动物体分割等多种任务。"
+tags:
+  - CVPR 2026  **arXiv**: [2507.10065](https://arxiv.org/abs/2507.10065)  **代码**: [有](https://chenguolin.github.io/projects/MoVieS)  **领域**: 3D视觉  **关键词**: 动态视图合成, 4D重建, 3D高斯泼溅, 点跟踪, 前馈式重建
+---
+
 # MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second
 
 **会议**: CVPR 2026  **arXiv**: [2507.10065](https://arxiv.org/abs/2507.10065)  **代码**: [有](https://chenguolin.github.io/projects/MoVieS)  **领域**: 3D视觉  **关键词**: 动态视图合成, 4D重建, 3D高斯泼溅, 点跟踪, 前馈式重建

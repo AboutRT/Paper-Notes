@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Joint Diffusion Models in Continual Learning 论文解读 | > 提出 JDCL，将分类器与扩散生成模型统一为一个联合参数化的网络，结合知识蒸馏和两阶段训练策略，在生成重放式持续学习中大幅缓解灾难性遗忘，超越现有生成重放方法。"
+tags:
+
+---
+
 # Joint Diffusion Models in Continual Learning
 
 | 信息 | 内容 |

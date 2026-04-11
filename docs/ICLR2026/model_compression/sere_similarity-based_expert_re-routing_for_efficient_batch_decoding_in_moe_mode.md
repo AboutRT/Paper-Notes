@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】SERE: Similarity-based Expert Re-routing for Efficient Batch Decoding in MoE Models 论文解读 | 提出 SERE 方法，通过预计算专家相似度矩阵，在批量解码时将次要专家动态重路由到最相似的主要专家，实现最高 2.0 倍加速且质量损失极小，并提供即插即用的 vLLM CUDA 内核。"
+tags:
+
+---
+
 # SERE: Similarity-based Expert Re-routing for Efficient Batch Decoding in MoE Models
 
 ## 基本信息

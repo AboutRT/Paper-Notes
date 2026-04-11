@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Enhancing Temporal Understanding in Video-LLMs through Stacked Temporal Attention in Vision Encoders 论文解读 | 提出 STAVEQ2，在 Vision Encoder 中堆叠参数高效的时序注意力模块（STA），解决现有 Video-LLM 在细粒度时序理解（如区分\"从左到右拉\"和\"从右到左拉\"）上的根本性架构缺陷，在 VITATECS/MVBench/Video-MME 上提升最高 5.5%。"
+tags:
+
+---
+
 # Enhancing Temporal Understanding in Video-LLMs through Stacked Temporal Attention in Vision Encoders
 
 ## 基本信息

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】SiMO: Single-Modality-Operable Multimodal Collaborative Perception 论文解读 | 提出 SiMO 框架，通过 LAMMA 融合模块和 PAFR 训练策略，首次在多智能体协同感知中实现任意模态缺失（特别是 LiDAR 失效仅有相机可用时）下仍可正常工作的多模态感知系统，类似并联电路——只要有一条通路就能工作。"
+tags:
+
+---
+
 # SiMO: Single-Modality-Operable Multimodal Collaborative Perception
 
 | 属性 | 值 |

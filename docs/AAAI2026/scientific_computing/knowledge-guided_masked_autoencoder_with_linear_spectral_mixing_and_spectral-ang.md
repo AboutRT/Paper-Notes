@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Knowledge-Guided Masked Autoencoder with Linear Spectral Mixing and Spectral-Angle-Aware Reconstruction 论文解读 | AAAI 2026 | **arXiv**: [2512.12445](https://arxiv.org/abs/2512.12445) | **代码**: 待确认 | **领域**: scientific_computing | **关键词**: Masked Autoencoder, hyperspectral, LSMM, SAM loss, physics-informed, knowledge-guided ML | 提出 KARMA 框架，在 ViT-MAE 解码器中嵌入线性光谱混合模型 (LSMM) 作为物理约束，结合 Spectral Angle Mapper (SAM) 损失，提升高光谱遥感图像的重建保真度和下游任务迁移性能。"
+tags:
+  - AAAI 2026 | **arXiv**: [2512.12445](https://arxiv.org/abs/2512.12445) | **代码**: 待确认 | **领域**: scientific_computing | **关键词**: Masked Autoencoder, hyperspectral, LSMM, SAM loss, physics-informed, knowledge-guided ML
+---
+
 # Knowledge-Guided Masked Autoencoder with Linear Spectral Mixing and Spectral-Angle-Aware Reconstruction
 
 **会议**: AAAI 2026 | **arXiv**: [2512.12445](https://arxiv.org/abs/2512.12445) | **代码**: 待确认 | **领域**: scientific_computing | **关键词**: Masked Autoencoder, hyperspectral, LSMM, SAM loss, physics-informed, knowledge-guided ML

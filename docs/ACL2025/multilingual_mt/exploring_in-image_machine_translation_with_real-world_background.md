@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Exploring In-Image Machine Translation with Real-World Background 论文解读 | ACL 2025 | **arXiv**: [2505.15282](https://arxiv.org/abs/2505.15282) | **代码**: [GitHub](https://github.com/BITHLP/DebackX) (有) | **领域**: 文本生成 | **关键词**: 图像内机器翻译, 背景分离, 向量量化, 视觉文本生成, 多模态翻译 | 提出 DebackX 模型，通过将图像分离为背景和文字图像分别处理，首次解决了真实复杂背景下的图像内机器翻译 (IIMT) 任务，在翻译质量和视觉效果上均优于现有方法。"
+tags:
+  - ACL 2025 | **arXiv**: [2505.15282](https://arxiv.org/abs/2505.15282) | **代码**: [GitHub](https://github.com/BITHLP/DebackX) (有) | **领域**: 文本生成 | **关键词**: 图像内机器翻译, 背景分离, 向量量化, 视觉文本生成, 多模态翻译
+---
+
 # Exploring In-Image Machine Translation with Real-World Background
 
 **会议**: ACL 2025 | **arXiv**: [2505.15282](https://arxiv.org/abs/2505.15282) | **代码**: [GitHub](https://github.com/BITHLP/DebackX) (有) | **领域**: 文本生成 | **关键词**: 图像内机器翻译, 背景分离, 向量量化, 视觉文本生成, 多模态翻译

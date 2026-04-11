@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents 论文解读 | ICLR 2026 / **arXiv**: [2509.09265](https://arxiv.org/abs/2509.09265) / **代码**: [Project Page](https://empgseed-seed.github.io/) / **领域**: llm_agent / **关键词**: 策略梯度, 熵调制, 长序列代理, 信用分配, 强化学习 | 提出 EMPG 框架，通过步级熵（uncertainty）动态调制策略梯度的幅度，解决长序列 LLM Agent 任务中稀疏奖励下的信用分配问题，在 WebShop、ALFWorld 和 Deep Search 三个基准上显著超越 GRPO 和 DAPO。"
+tags:
+  - ICLR 2026 / **arXiv**: [2509.09265](https://arxiv.org/abs/2509.09265) / **代码**: [Project Page](https://empgseed-seed.github.io/) / **领域**: llm_agent / **关键词**: 策略梯度, 熵调制, 长序列代理, 信用分配, 强化学习
+---
+
 # Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents
 
 **会议**: ICLR 2026 / **arXiv**: [2509.09265](https://arxiv.org/abs/2509.09265) / **代码**: [Project Page](https://empgseed-seed.github.io/) / **领域**: llm_agent / **关键词**: 策略梯度, 熵调制, 长序列代理, 信用分配, 强化学习

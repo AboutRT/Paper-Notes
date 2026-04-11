@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Robust and Minimally Invasive Watermarking for EaaS 论文解读 | ACL 2025 | **arXiv**: [2410.17552](https://arxiv.org/abs/2410.17552) | **代码**: 无 | **领域**: AI安全 | **关键词**: 嵌入水印, EaaS版权保护, 模型提取攻击, 鲁棒水印, 嵌入服务 | 提出 ESpeW（Embedding-Specific Watermark），一种嵌入特异性水印方法，通过在每个嵌入向量的不同位置注入独特水印，实现对 Embeddings as a Service (EaaS) 的鲁棒版权保护，抵抗各种水印移除攻击且对嵌入质量的影响小于 1%。"
+tags:
+  - ACL 2025 | **arXiv**: [2410.17552](https://arxiv.org/abs/2410.17552) | **代码**: 无 | **领域**: AI安全 | **关键词**: 嵌入水印, EaaS版权保护, 模型提取攻击, 鲁棒水印, 嵌入服务
+---
+
 # Robust and Minimally Invasive Watermarking for EaaS
 
 **会议**: ACL 2025 | **arXiv**: [2410.17552](https://arxiv.org/abs/2410.17552) | **代码**: 无 | **领域**: AI安全 | **关键词**: 嵌入水印, EaaS版权保护, 模型提取攻击, 鲁棒水印, 嵌入服务

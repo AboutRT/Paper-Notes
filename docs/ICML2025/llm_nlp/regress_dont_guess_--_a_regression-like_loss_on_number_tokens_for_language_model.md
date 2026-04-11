@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Regress, Don't Guess — A Regression-like Loss on Number Tokens for Language Models 论文解读 | 提出 Number Token Loss (NTL)，一种纯 token 级别的回归式损失函数，通过最小化数值 token 之间的 $L_p$ 范数或 Wasserstein 距离，为 LLM 注入数值邻近性归纳偏置。"
+tags:
+
+---
+
 # Regress, Don't Guess — A Regression-like Loss on Number Tokens for Language Models
 
 | 属性 | 值 |

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Say More with Less: Variable-Frame-Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding 论文解读 | AAAI 2026 | **arXiv**: [2509.04685](https://arxiv.org/abs/2509.04685) | **代码**: [VARSTok](https://zhengrachel.github.io/VARSTok) | **领域**: audio_speech | **关键词**: speech tokenization, variable frame rate, density peak clustering, implicit duration coding, speech language model | 提出 VARSTok，首个全动态可变帧率语音 tokenizer，通过时序感知密度峰聚类和隐式时长编码，实现自适应 token 分配，在使用更少 token 的同时超越固定帧率基线。"
+tags:
+  - AAAI 2026 | **arXiv**: [2509.04685](https://arxiv.org/abs/2509.04685) | **代码**: [VARSTok](https://zhengrachel.github.io/VARSTok) | **领域**: audio_speech | **关键词**: speech tokenization, variable frame rate, density peak clustering, implicit duration coding, speech language model
+---
+
 <!-- 由 src/gen_stubs.py 自动生成 -->
 # Say More with Less: Variable-Frame-Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding
 

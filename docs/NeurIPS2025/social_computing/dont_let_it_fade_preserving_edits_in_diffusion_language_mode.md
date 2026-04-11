@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Don't Let It Fade: Preserving Edits in Diffusion Language Models via Token Timestep Allocation 论文解读 | 提出 Token Timestep Allocation (TTA-Diffusion)，通过为每个 token 分配独立的去噪时间步来解决扩散语言模型中 classifier guidance 导致的 update-forgetting 问题，实现可控文本生成的稳定性和效率大幅提升。"
+tags:
+
+---
+
 # Don't Let It Fade: Preserving Edits in Diffusion Language Models via Token Timestep Allocation
 
 ## 基本信息

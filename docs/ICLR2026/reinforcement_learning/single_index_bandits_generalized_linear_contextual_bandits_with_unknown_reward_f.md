@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions 论文解读 | ICLR 2026  **arXiv**: [2506.12751](https://arxiv.org/abs/2506.12751)  **代码**: 无  **领域**: 强化学习/在线学习  **关键词**: 上下文多臂赌博机, 广义线性模型, 单指标模型, Stein方法, 遗憾界 | 提出单指标赌博机（SIB）问题——将广义线性赌博机扩展到奖励函数未知的设定，基于 Stein 方法设计了一族高效算法（STOR/ESTOR/GSTOR），在单调递增奖励函数下实现了近最优遗憾界 $\tilde{O}(\sqrt{T})$。"
+tags:
+  - ICLR 2026  **arXiv**: [2506.12751](https://arxiv.org/abs/2506.12751)  **代码**: 无  **领域**: 强化学习/在线学习  **关键词**: 上下文多臂赌博机, 广义线性模型, 单指标模型, Stein方法, 遗憾界
+---
+
 # Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions
 
 **会议**: ICLR 2026  **arXiv**: [2506.12751](https://arxiv.org/abs/2506.12751)  **代码**: 无  **领域**: 强化学习/在线学习  **关键词**: 上下文多臂赌博机, 广义线性模型, 单指标模型, Stein方法, 遗憾界

@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】Machine Translation Models are Zero-Shot Detectors of Translation Direction 论文解读 | ACL 2025 | **arXiv**: [2401.06769](https://arxiv.org/abs/2401.06769) | **代码**: [GitHub](https://github.com/ZurichNLP/translation-direction-detection) (有) | **领域**: 文本生成 | **关键词**: 翻译方向检测, 翻译体, 无监督方法, 机器翻译概率, 法证语言学 | 提出一种基于 NMT 模型翻译概率的无监督翻译方向检测方法：若 $p(\text{translation}|\text{original}) > p(\text{original}|\text{translation})$，则可零样本判断平行文本的原始翻译方向，NMT 翻译的文档级检测准确率达 96%。"
+tags:
+  - ACL 2025 | **arXiv**: [2401.06769](https://arxiv.org/abs/2401.06769) | **代码**: [GitHub](https://github.com/ZurichNLP/translation-direction-detection) (有) | **领域**: 文本生成 | **关键词**: 翻译方向检测, 翻译体, 无监督方法, 机器翻译概率, 法证语言学
+---
+
 # Machine Translation Models are Zero-Shot Detectors of Translation Direction
 
 **会议**: ACL 2025 | **arXiv**: [2401.06769](https://arxiv.org/abs/2401.06769) | **代码**: [GitHub](https://github.com/ZurichNLP/translation-direction-detection) (有) | **领域**: 文本生成 | **关键词**: 翻译方向检测, 翻译体, 无监督方法, 机器翻译概率, 法证语言学

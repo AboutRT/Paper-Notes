@@ -1,3 +1,9 @@
+---
+description: "【论文笔记】HORT: Monocular Hand-held Objects Reconstruction with Transformers 论文解读 | 提出 HORT，基于 Transformer 的粗到细框架，从单目图像高效重建手持物体的稠密3D点云，通过整合图像特征和3D手部几何信息联合预测物体点云及其相对手部的位姿，在准确率和推理速度上均达到 SOTA。"
+tags:
+
+---
+
 # HORT: Monocular Hand-held Objects Reconstruction with Transformers
 
 ## 论文信息
