@@ -1,15 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**📷 CVPR2025** · 共 **11** 篇
+**📷 CVPR2025** · 共 **10** 篇
 
 **[ATA: Adaptive Transformation Agent for Text-Guided Subject-Position Variable Background Inpainting](ata_adaptive_transformation_agent_for_text-guided_subject-position_variable_back.md)**
 
 :   提出 ATA（Adaptive Transformation Agent），解决文本引导的主体位置可变背景修复任务，通过 PosAgent Block 自适应预测位移、Reverse Displacement Transform 模块和 Position Switch Embedding，在保持修复质量的同时实现主体位置的灵活调整。
-
-**[ChatHuman: Chatting about 3D Humans with Tools](chathuman_chatting_about_3d_humans_with_tools.md)**
-
-:   提出 ChatHuman，一个基于 LLM 的语言驱动系统，通过自动选择和集成专门的 3D 人体分析工具（3D 姿态估计、形状恢复、接触检测、人物交互分析、情感识别等），利用学术论文作为工具使用说明和 RAG（检索增强生成）创建 in-context 示例以管理新工具，在工具选择准确率和整体 3D 人体任务性能上超越现有 LLM 模型。
 
 **[Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile Gaussian Feature Fields](feature4x_bridging_any_monocular_video_to_4d_agentic_ai_with_versatile_gaussian_.md)**
 

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🤖 AAAI2026** · 共 **17** 篇
+**🤖 AAAI2026** · 共 **23** 篇
 
 **[A Distributed Asynchronous Generalized Momentum Algorithm Without Delay Bounds](a_distributed_asynchronous_generalized_momentum_algorithm_wi.md)**
 
@@ -35,6 +35,10 @@
 
 :   提出 COMET（Convex Clustering with Median of Means Estimator），将中位数均值（MoM）估计器整合到凸聚类框架中，通过随机分箱、截断距离和 ADAM 优化实现对噪声和异常值的鲁棒聚类，无需预设聚类数量，在理论上证明了弱一致性，在合成和真实数据集上全面超越现有方法。
 
+**[Cost-Minimized Label-Flipping Poisoning Attack to LLM Alignment](cost-minimized_label-flipping_poisoning_attack_to_llm_alignment.md)**
+
+:   首次从理论上分析了在 RLHF/DPO 对齐过程中，通过翻转偏好标签来引导 LLM 策略走向攻击者目标所需的最小成本，将其形式化为凸优化问题并推导了成本的上下界，进而提出 PCM（Poisoning Cost Minimization）后处理方法，可在保持投毒效果的同时显著减少标签翻转数量。
+
 **[Data Heterogeneity and Forgotten Labels in Split Federated Learning](data_heterogeneity_and_forgotten_labels_in_split_federated_learning.md)**
 
 :   系统研究了 Split Federated Learning 中数据异构导致的灾难性遗忘现象（尤其是 server 端处理顺序造成的 intra-round 遗忘），并提出基于 multi-head 的 Hydra 方法，将 part-2 的最后层分组训练再聚合，显著降低标签间性能差距（PG 最高降低 75.4%）。
@@ -51,6 +55,22 @@
 
 :   提出FedP²EFT，通过联邦学习协作训练一个Personalization Strategy Generator (PSG)，为每个客户端自动生成个性化的LoRA rank结构，在多语言LLM微调中大幅超越手工设计的PEFT配置和现有FL个性化方法。
 
+**[FedPM: Federated Learning Using Second-order Optimization with Preconditioned Mixing of Local Parameters](fedpm_federated_learning_using_second-order_optimization_with_preconditioned_mix.md)**
+
+:   提出 FedPM（Federated Preconditioned Mixing），一种新型联邦学习方法，通过在服务器端用"预条件混合"替代传统的简单参数平均，解决了现有二阶联邦优化方法中局部预条件器漂移问题，在理论上证明了强凸目标的超线性收敛速率，并在异质数据场景中显著超越现有方法。
+
+**[GHOST: Solving the Traveling Salesman Problem on Graphs of Convex Sets](ghost_solving_the_traveling_salesman_problem_on_graphs_of_convex_sets.md)**
+
+:   提出 GHOST 框架，一种层次化最优搜索算法，用于求解凸集图（GCS）上的旅行商问题。通过结合组合路径搜索与凸轨迹优化，并利用新颖的抽象路径展开算法计算可容许下界指导最佳优先搜索，GHOST 在保证最优性的同时比统一混合整数凸规划基线快数个数量级。
+
+**[Instance Generation for Meta-Black-Box Optimization through Latent Space Reverse Engineering](instance_generation_for_meta-black-box_optimization_through_latent_space_reverse.md)**
+
+:   提出 LSRE 框架，通过自编码器构建 BBO 问题实例的二维潜在空间，并利用遗传编程从该空间中反向工程出多样化的合成优化问题实例集 Diverse-BBO，显著提升 MetaBBO 方法的泛化性能。
+
+**[MOTIF: Multi-strategy Optimization via Turn-based Interactive Framework](motif_multi-strategy_optimization_via_turn-based_interactive_framework.md)**
+
+:   提出 MOTIF 框架，将求解器设计建模为多策略优化问题，通过基于蒙特卡洛树搜索 (MCTS) 的双 LLM 代理回合制竞争机制，联合优化组合优化求解器中的多个相互依赖的算法组件，在 TSP、CVRP、BPP 等多个组合优化领域中一致超越现有方法。
+
 **[On the Learning Dynamics of Two-Layer Linear Networks with Label Noise SGD](on_the_learning_dynamics_of_two-layer_linear_networks_with_label_noise_sgd.md)**
 
 :   在二层过参数化线性网络上理论分析 Label Noise SGD 的学习动力学，揭示了两阶段行为——Phase I 中权重范数逐渐缩小使模型从 lazy regime 逃逸到 rich regime，Phase II 中权重与真实插值器对齐并收敛——并将该理论扩展到 SAM 优化器。
@@ -62,6 +82,10 @@
 **[Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization](pareto-grid-guided_large_language_models_for_fast_and_high-quality_heuristics_de.md)**
 
 :   提出 MPaGE 框架，将 LLM 与 Pareto Front Grid 机制和语义聚类结合，自动为多目标组合优化问题生成兼顾解质量与运行效率的启发式算法，在 Bi-TSP、Tri-TSP、Bi-CVRP、Bi-KP 上 HV 和 IGD 均显著优于 EoH、MEoH 等基线。
+
+**[PEOAT: Personalization-Guided Evolutionary Question Assembly for One-Shot Adaptive Testing](peoat_personalization-guided_evolutionary_question_assembly_for_one-shot_adaptiv.md)**
+
+:   首次提出"一次性自适应测试 (OAT)"任务，将其建模为组合优化问题，并设计 PEOAT 框架——结合个性化初始化、认知增强进化搜索和多样性保持选择策略，在无交互反馈的条件下为每位考生一次性选出最优题集，大幅超越传统 CAT 方法。
 
 **[Personalized Federated Learning With Bidirectional Communication Compression Via](personalized_federated_learning_with_bidirectional_communication_compression_via.md)**
 

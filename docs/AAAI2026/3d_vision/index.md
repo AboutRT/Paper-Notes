@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🤖 AAAI2026** · 共 **58** 篇
+**🤖 AAAI2026** · 共 **77** 篇
 
 **[3D-ANC: Adaptive Neural Collapse for Robust 3D Point Cloud Recognition](3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md)**
 
@@ -155,6 +155,10 @@
 
 :   MoBGS 提出了一种端到端的动态去模糊 3D Gaussian Splatting 框架，通过 Blur-adaptive Latent Camera Estimation (BLCE) 和 Latent Camera-induced Exposure Estimation (LCEE) 两个核心模块，从模糊单目视频中重建清晰的时空新视角，在 Stereo Blur 数据集上大幅超越现有 SOTA 方法。
 
+**[MonoCLUE: Object-Aware Clustering Enhances Monocular 3D Object Detection](monoclue_object-aware_clustering_enhances_monocular_3d_object_detection.md)**
+
+:   提出 MonoCLUE，通过**局部聚类**提取对象级视觉模式（如引擎盖、车顶等部件）和**广义场景记忆**聚合跨图像的一致外观特征，增强单目3D检测中被遮挡和截断物体的检测能力，在KITTI基准上实现SOTA性能，且不依赖额外深度或LiDAR信息。
+
 **[MR-CoSMo: Visual-Text Memory Recall and Direct Cross-Modal Alignment Method for Query-Driven 3D Segmentation](mr-cosmo_visual-text_memory_recall_and_direct_cross-modal_alignment_method_for_q.md)**
 
 :   提出MR-CoSMo，一种由粗到精的查询驱动3D分割模型，通过直接跨模态对齐模块（DCMA）建立3D点云与文本/2D图像的显式对齐，结合视觉-文本记忆模块（Memory Module）存储高置信度特征对来增强跨场景分割一致性，在3D指令分割、引用分割和语义分割三个任务上均达到SOTA。
@@ -223,14 +227,86 @@
 
 :   提出 GPQ（Gradually Pruning Queries），通过分类分数逐步裁剪 DETR 系 3D 检测器中大量冗余的 object queries，无需额外可学习参数，可直接在预训练 checkpoint 上微调完成，在边缘设备上最高实现 67.86% FLOPs 减少和 65.16% 推理时间下降。
 
+**[Rethinking Multimodal Point Cloud Completion: A Completion-by-Correction Perspective](rethinking_multimodal_point_cloud_completion_a_completion-by-correction_perspect.md)**
+
+:   提出 Completion-by-Correction 新范式，用预训练 image-to-3D 模型生成拓扑完整的形状先验，再通过特征空间纠正使其与局部观测对齐，取代传统的 Completion-by-Inpainting 方法，在 ShapeNetViPC 上平均 CD 降低 23.5%、F-score 提升 7.1%。
+
+**[Rethinking Rainy 3D Scene Reconstruction via Perspective Transforming and Brightness Tuning](rethinking_rainy_3d_scene_reconstruction_via_perspective_transforming_and_bright.md)**
+
+:   提出 OmniRain3D 数据集（首次同时建模视角异质性和亮度动态性的雨天 3D 场景数据集）以及 REVR-GSNet 端到端框架（联合递归亮度增强 + 高斯基元优化 + GS引导去雨），实现从雨天退化图像到高保真干净 3D 场景的重建。
+
+**[Retrieving Objects from 3D Scenes with Box-Guided Open-Vocabulary Instance Segmentation](retrieving_objects_from_3d_scenes_with_box-guided_open-vocabulary_instance_segme.md)**
+
+:   提出 Box-Guided 方法，利用 2D 开放词汇检测器 YOLO-World 的检测框引导从超点构建 3D 实例 mask，无需 SAM 和 CLIP，在保持高效（<1分钟/场景）的同时显著提升对低频类别目标的检索能力。
+
+**[RTGaze: Real-Time 3D-Aware Gaze Redirection from a Single Image](rtgaze_real-time_3d-aware_gaze_redirection_from_a_single_image.md)**
+
+:   提出 RTGaze，一个实时 3D 感知视线重定向方法，通过混合频率特征编码器 + 视线注入模块 + 3D 面部几何先验蒸馏，从单张图像实现 61ms/帧的高质量视线重定向，比前 SOTA 3D 方法（GazeNeRF）快 800 倍。
+
 **[S5 Scalable Semi-Supervised Semantic Segmentation In Remote Sensing](s5_scalable_semi-supervised_semantic_segmentation_in_remote_sensing.md)**
 
 :   提出 S5 框架，首次将半监督语义分割 (S4) 从小规模数据扩展为大规模预训练范式 (S4P)，构建百万级 RS4P-1M 数据集预训练遥感基础模型，并通过 MoE-based 多数据集微调实现 SOTA 性能。
+
+**[Simba: Towards High-Fidelity and Geometrically-Consistent Point Cloud Completion via Transformation Diffusion](simba_towards_high-fidelity_and_geometrically-consistent_point_cloud_completion_.md)**
+
+:   提出 Simba 框架，首次将点云补全重构为"对几何变换场做扩散"而非"对点坐标做扩散"，通过 Sym-Diffuser 学习逐点仿射变换的条件分布来生成粗糙补全，再用级联 Mamba 架构（MBA-Refiner）逐步精修到高保真输出，在 PCN、ShapeNet、KITTI 多个基准上达到 SOTA。
 
 **[Smartsplat Feature-Smart Gaussians For Scalable Compression Of Ultra-High-Resolu](smartsplat_feature-smart_gaussians_for_scalable_compression_of_ultra-high-resolu.md)**
 
 :   提出SmartSplat，一种基于特征感知的2D Gaussian Splatting图像压缩框架，通过梯度-颜色引导的变分采样、排斥均匀采样和尺度自适应颜色初始化三大策略，首次实现了8K/16K超高分辨率图像在极端压缩比（最高5000×）下的高质量重建。
 
+**[Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](sparse4dgs_4d_gaussian_splatting_for_sparse-frame_dynamic_scene_reconstruction.md)**
+
+:   首次提出稀疏帧动态场景重建方法Sparse4DGS，通过纹理感知变形正则化（TADR）和纹理感知规范优化（TACO）两个核心模块，从稀疏视频帧中实现高保真4D场景重建。
+
+**[SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](sparsesurf_sparse-view_3d_gaussian_splatting_for_surface_reconstruction.md)**
+
+:   提出SparseSurf方法，通过立体几何-纹理对齐（SGTA）和伪特征增强几何一致性（PFEGC），在稀疏视角下同时实现高精度表面重建和高质量新视角合成。
+
+**[Splat-SAP: Feed-Forward Gaussian Splatting for Human-Centered Scene with Scale-Aware Point Map Reconstruction](splat-sap_feed-forward_gaussian_splatting_for_human-centered_scene_with_scale-aw.md)**
+
+:   提出Splat-SAP，一种前馈式方法，从大间隔的双目相机输入中重建尺度感知的点图并通过高斯平面渲染人体中心场景的自由视角视频，无需逐场景优化且无需3D几何监督。
+
+**[Splats in Splats: Robust and Effective 3D Steganography towards Gaussian Splatting](splats_in_splats_robust_and_effective_3d_steganography_towards_gaussian_splattin.md)**
+
+:   提出"Splats in Splats"，首个在3DGS中嵌入3D隐藏内容而不修改任何vanilla 3DGS属性的隐写术框架，通过重要性分级的SH系数加密和自编码器辅助的不透明度映射实现安全、鲁棒且高效的版权保护。
+
+**[SplatSSC: Decoupled Depth-Guided Gaussian Splatting for Semantic Scene Completion](splatssc_decoupled_depth-guided_gaussian_splatting_for_semantic_scene_completion.md)**
+
+:   提出SplatSSC，一种基于深度引导初始化和解耦高斯聚合器（DGA）的单目3D语义场景补全框架，通过紧凑的高斯基元初始化和鲁棒的几何-语义解耦聚合，在Occ-ScanNet上以更少基元获得SOTA性能。
+
+**[Split-Layer: Enhancing Implicit Neural Representation by Maximizing the Dimensionality of Feature Space](split-layer_enhancing_implicit_neural_representation_by_maximizing_the_dimension.md)**
+
+:   提出 Split-Layer，将 MLP 全连接层拆分为多个并行分支并用 Hadamard 积整合输出，在不增加参数和计算的前提下将特征空间维度从 $C$ 指数级扩展到 $\binom{C/\sqrt{N}+N-1}{N}$，显著提升隐式神经表示（INR）的表征能力。
+
+**[StreamSTGS: Streaming Spatial and Temporal Gaussian Grids for Real-Time Free-Viewpoint Video](streamstgs_streaming_spatial_and_temporal_gaussian_grids_for_real-time_free-view.md)**
+
+:   提出 StreamSTGS，一种可流式传输的时空高斯网格表示，将规范 3D 高斯属性编码为 2D 图像、时序特征编码为视频，实现实时自由视角视频流（帧大小仅 170KB），同时通过 Transformer 辅助训练和滑动窗口机制保证重建质量（PSNR 32.30dB）。
+
 **[Surface-Based Visibility-Guided Uncertainty for Continuous Active 3D Neural Reconstruction](surface-based_visibility-guided_uncertainty_for_continuous_active_3d_neural_reco.md)**
 
 :   提出基于表面的可见性场(SBV)，通过SDF推导的表面置信度和体素网格更新机制在连续主动学习过程中准确估计不确定性的可见性，指导Next-Best View选择，在DTU/Blender/TanksAndTemples/BlendedMVS四个基准上图像渲染质量提升最高11.6%。
+
+**[TG-Field: Geometry-Aware Radiative Gaussian Fields for Tomographic Reconstruction](tg-field_geometry-aware_radiative_gaussian_fields_for_tomographic_reconstruction.md)**
+
+:   提出 TG-Field，一种面向极端稀疏视角 CT 重建的几何感知高斯形变框架，通过多分辨率哈希编码器建模空间几何先验、时空注意力模块和运动流网络处理动态 CT，在静态和动态 CT 重建中均实现了 SOTA 性能。
+
+**[TOSC: Task-Oriented Shape Completion for Open-World Dexterous Grasp Generation from Partial Point Clouds](tosc_task-oriented_shape_completion_for_open-world_dexterous_grasp_generation_fr.md)**
+
+:   提出任务导向形状补全（TOSC）这一新任务，仅补全与操控任务相关的接触区域（而非整个物体），利用预训练基础模型生成候选形状、3D 判别自编码器筛选最优形状、FlowGrasp 流匹配模型生成灵巧抓取，在抓取位移和 Chamfer 距离上分别提升 16.17% 和 55.26%。
+
+**[Uncovering Zero-Shot Generalization Gaps in Time-Series Foundation Models Using Real-World Videos](uncovering_zero-shot_generalization_gaps_in_time-series_foundation_models_using_.md)**
+
+:   提出从真实视频中通过光流提取时间序列数据的管线，构建了 REAL-V-TSFM 数据集（6130 条序列），揭示了当前时间序列基础模型（Chronos、TimesFM 等）在面对真实物理动态时的零样本泛化能力不足。
+
+**[UniC-Lift: Unified 3D Instance Segmentation via Contrastive Learning](unic-lift_unified_3d_instance_segmentation_via_contrastive_learning.md)**
+
+:   提出 UniC-Lift，一个统一的单阶段 3D 实例分割框架，通过在 3DGS 基元中学习可优化的向量嵌入，并利用对比损失和三元组损失训练，最终通过简单的"嵌入到标签"（Embedding-to-Label）过程直接解码出一致的 3D 分割标签，无需 HDBSCAN 等后处理聚类步骤，训练时间从 15+ 小时缩短至 40 分钟以内。
+
+**[VGGT-DP: Generalizable Robot Control via Vision Foundation Models](vggt-dp_generalizable_robot_control_via_vision_foundation_models.md)**
+
+:   提出 VGGT-DP，一个受生物视觉系统启发的视觉运动策略框架，将预训练的 3D 感知基础模型 VGGT 作为视觉编码器并与扩散策略（Diffusion Policy）结合，通过帧级 Token 复用机制、随机 Token 裁剪和本体感知引导视觉学习三个关键设计，在 MetaWorld 高精度操作任务上显著超越 DP 和 DP3 基线。
+
+**[VPN: Visual Prompt Navigation](vpn_visual_prompt_navigation.md)**
+
+:   提出视觉提示导航（VPN）新范式：用户在 2D 俯视图上标注视觉轨迹（箭头连接关键路点）来引导智能体导航，替代自然语言指令和图像目标指令，构建了 R2R-VP 和 R2R-CE-VP 两个数据集及 VPNet 基线模型，结合视图级和轨迹级数据增强后在离散和连续环境中均取得优异性能。

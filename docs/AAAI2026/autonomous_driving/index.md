@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🤖 AAAI2026** · 共 **41** 篇
+**🤖 AAAI2026** · 共 **58** 篇
 
 **[A Data-Driven Model Predictive Control Framework for Multi-Aircraft TMA Routing Under Travel Time Uncertainty](a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md)**
 
@@ -99,9 +99,29 @@
 
 :   本文提出 HD2-SSC 框架，通过高维语义解耦（HSD）模块解决 2D→3D 的输入-输出维度间隙（将像素特征沿伪维度展开并正交解耦），以及高密度占用精炼（HOR）模块解决标注-现实密度间隙（"检测-精炼"范式对齐几何和语义关键体素），在 SemanticKITTI 和 SSCBench-KITTI-360 上达到 SOTA。
 
+**[Hierarchical Prompt Learning for Image- and Text-Based Person Re-Identification](hierarchical_prompt_learning_for_image-_and_text-based_person_re-identification.md)**
+
+:   提出统一框架 HPL，通过任务路由 Transformer（双分类 token）解耦 I2I 和 T2I 任务，利用层次化提示学习（身份级 + 实例级伪文本 token）结合跨模态提示正则化，首次在单一模型中同时实现图像-图像和文本-图像行人重识别的 SOTA。
+
+**[I-INR: Iterative Implicit Neural Representations](i-inr_iterative_implicit_neural_representations.md)**
+
+:   提出 I-INR（Iterative Implicit Neural Representations），一个即插即用的迭代精修框架，通过引入轻量级 FeedbackNet 和 FuseNet 模块（仅增加 0.5-2% 参数），对信号进行渐进式多步重建，有效缓解 INR 的频谱偏差问题，在图像拟合、超分辨率、去噪和 3D 占位预测等任务上均显著超越基线。
+
+**[Invisible Triggers, Visible Threats! Road-Style Adversarial Creation Attack for Visual 3D Detection in Autonomous Driving](invisible_triggers_visible_threats_road-style_adversarial_creation_attack_for_vi.md)**
+
+:   提出 AdvRoad 框架，通过两阶段方法（Road-Style Adversary Generation + Scenario-Associated Adaptation）生成多样化、具有道路表面纹理风格的对抗海报，能够在自动驾驶视觉 3D 检测器中诱发"幽灵物体"（false positive），同时因外观自然而难以被人类驾驶员察觉，显著提升了 FP 攻击的隐蔽性和防御难度。
+
+**[LiDAR-GS++: Improving LiDAR Gaussian Reconstruction via Diffusion Priors](lidar-gsimproving_lidar_gaussian_reconstruction_via_diffusion_priors.md)**
+
+:   提出 LiDAR-GS++，通过引入**可控LiDAR扩散生成模型**作为先验，对神经2DGS场进行**扩展重建**，解决了单次遍历LiDAR扫描在外推视角（如换道场景）下重建质量严重下降的问题，在多个公开数据集上实现了插值和外推视角的SOTA性能。
+
 **[LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences](lidarcrafter_dynamic_4d_world_modeling_from_lidar_sequences.md)**
 
 :   提出LiDARCrafter，首个专用于LiDAR的4D生成世界模型，通过Text2Layout（LLM解析文本→场景图→三分支扩散生成4D布局）→Layout2Scene（Range-image扩散生成高保真单帧）→Scene2Seq（自回归warp+扩散生成时序一致的序列）三阶段流程，在nuScenes上取得SOTA。
+
+**[LiNeXt: Revisiting LiDAR Completion with Efficient Non-Diffusion Architectures](linext_revisiting_lidar_completion_with_efficient_non-diffusion_architectures.md)**
+
+:   提出 LiNeXt，一种轻量级非扩散网络用于LiDAR 3D场景补全，通过**距离感知选择性重复策略**、**Noise-to-Coarse模块**和**Refine模块**直接重建完整点云，在SemanticKITTI上实现了比LiDiff快**199.8倍**的推理速度，Chamfer Distance降低**50.7%**，参数量仅为其**6.1%**。
 
 **[MambaSeg: Harnessing Mamba for Accurate and Efficient Image-Event Semantic Segmentation](mambaseg_harnessing_mamba_for_accurate_and_efficient_image-e.md)**
 
@@ -115,6 +135,14 @@
 
 :   首次提出基于对偶预测的最小费用网络流算法，在经典ε-relaxation上通过机器学习的对偶初始解实现warm-start，理论上将时间复杂度与预测误差的∞范数挂钩（一致且鲁棒），在交通网络和芯片逃逸布线上分别实现12.74×和1.64×的平均加速。
 
+**[MOBA: A Material-Oriented Backdoor Attack against LiDAR-based 3D Object Detection](moba_a_material-oriented_backdoor_attack_against_lidar-based_3d_object_detection.md)**
+
+:   提出 MOBA（Material-Oriented Backdoor Attack），首个基于**材料反射特性建模**的物理可实现后门攻击框架，通过系统性选择二氧化钛（TiO₂）作为触发材料并利用**Oren-Nayar BRDF模型的角度无关近似**进行LiDAR强度仿真，在真实物理数据上实现了**93.50%攻击成功率**，比现有方法高出41%以上。
+
+**[Multimodal Data Fusion to Capture Dynamic Interactions between Built Environment and Vulnerable Older Adults](multimodal_data_fusion_to_capture_dynamic_interactions_between_built_environment.md)**
+
+:   提出一种**多模态数据融合框架**，整合眼动追踪、运动传感器（IMU）、生理监测（EDA/HRV）、GPS和视频录制等多种穿戴与环境传感数据，动态表征脆弱老年人（膝骨关节炎/跌倒史）与城市建成环境的交互过程，通过AI驱动的数据融合揭示微观尺度上对步行行为和感知有显著影响的城市路段，为**适老化城市规划**提供循证依据。
+
 **[SPARC: 用单一策略驾驶100辆未见车辆的OOD泛化](out-of-distribution_generalization_with_a_sparc_racing_100_u.md)**
 
 :   提出 SPARC（Single-Phase Adaptation for Robust Control），将 RMA 的两阶段上下文编码与历史适应统一为单阶段训练，在 Gran Turismo 7 高保真赛车模拟器中用单一策略驾驶100+未见车辆实现SOTA OOD泛化性能。
@@ -122,6 +150,14 @@
 **[PriorDrive: 用统一向量先验增强在线HD地图构建](priordrive_enhancing_online_hd_mapping_with_unified_vector_p.md)**
 
 :   提出 PriorDrive 框架，通过 Unified Vector Encoder (UVE) 和 Hybrid Prior Representation (HPQuery) 将多种向量化先验地图（SD地图、旧HD地图、历史预测地图）统一编码并集成到各种在线建图模型中，在 nuScenes 上 mAP 提升 14.3，兼容 query-based 和 non-query-based 两类建图架构。
+
+**[RacketVision: A Multiple Racket Sports Benchmark for Unified Ball and Racket Analysis](racketvision_a_multiple_racket_sports_benchmark_for_unified_ball_and_racket_anal.md)**
+
+:   提出 RacketVision——首个覆盖乒乓球、网球、羽毛球三种球拍运动的大规模基准数据集，首次提供球拍姿态标注，并定义了球追踪、球拍姿态估计、球轨迹预测三个互联任务，揭示了跨注意力融合机制在多模态轨迹预测中的关键作用。
+
+**[RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving](radarmp_motion_perception_for_4d_mmwave_radar_in_autonomous_driving.md)**
+
+:   提出 RadarMP——首个联合解决毫米波雷达目标检测和场景流估计的统一架构，利用相邻帧雷达回波信号（tesseract）的能量流一致性进行自监督训练，在目标检测概率上达到 69.5%（远超现有方法的 44.1%），同时实现精确的 3D 场景运动感知。
 
 **[Rast A Retrieval Augmented Spatio-Temporal Framework For Traffic Prediction](rast_a_retrieval_augmented_spatio-temporal_framework_for_traffic_prediction.md)**
 
@@ -135,6 +171,14 @@
 
 :   提出HAT（multiple Hypotheses spAtio-Temporal alignment），一个即插即用的时空对齐模块，通过多种显式运动模型生成对齐假设，并利用query中隐含的运动线索自适应解码最优对齐方案，在nuScenes上一致提升多种3D时序检测器和跟踪器，并在E2E自动驾驶中降低碰撞率达32-48%。
 
+**[RoadSceneVQA: Benchmarking Visual Question Answering in Roadside Perception Systems for Intelligent Transportation System](roadscenevqa_benchmarking_visual_question_answering_in_roadside_perception_syste.md)**
+
+:   提出 RoadSceneVQA——首个面向路侧感知场景的大规模视觉问答数据集（34,736 QA 对），并设计了 RoadMind 模型，通过认知锚点融合（CAF）和辅助解耦思维链（AD-CoT）显著提升轻量级 MLLM 在交通场景推理中的表现，在 0.9B 参数下即可超越 8B 模型。
+
+**[SparseCoop: Cooperative Perception with Kinematic-Grounded Queries](sparsecoop_cooperative_perception_with_kinematic-grounded_queries.md)**
+
+:   提出 SparseCoop——首个完全稀疏的协同感知框架，通过运动学锚定查询（KGQ）、粗到精聚合模块和协同实例去噪策略，完全抛弃密集 BEV 表示，在 V2X-Seq 和 Griffin 数据集上以最低通信开销和最高计算效率达到 SOTA 性能（AP 0.530，传输仅 3.17×10⁴ BPS）。
+
 **[STRIDE-QA: Visual Question Answering Dataset for Spatiotemporal Reasoning in Urban Driving Scenes](stride-qa_visual_question_answering_dataset_for_spatiotemporal_reasoning_in_urba.md)**
 
 :   构建了自动驾驶领域最大规模时空推理VQA数据集STRIDE-QA（270K帧、16M QA对），定义了三类时空推理任务（物体间空间/自车空间/自车时空），通过微调VLM使空间定位成功率从近零提升至55%、时序一致性从0提升至28.4%。
@@ -143,13 +187,33 @@
 
 :   提出基于任务原型的知识检索框架，通过可学习 Task Prototype 嵌入任务特性并量化任务关联、Knowledge Retrieval Transformer 基于 task-affinity score 自适应精炼特征表示，在部分标注多任务学习（MTPSL）中避免依赖未标注任务的预测，PASCAL-Context 和 NYUD-v2 上全面超越 SOTA。
 
+**[TawPipe: Topology-Aware Weight Pipeline Parallelism for Accelerating Long-Context Large Models Training](tawpipe_topology-aware_weight_pipeline_parallelism_for_accelerating_long-context.md)**
+
+:   提出 TawPipe——拓扑感知的权重流水线并行框架，通过分组式权重调度、设备绑定存储和通信-计算重叠三大组件，利用分布式集群的层次化带宽特性，在 24 GPU 上训练 LLaMA 模型时吞吐量相比 WeiPipe/1F1B/FSDP 分别提升 11.8%/23.6%/44.1%，同时通信时间减少 82.1%。
+
+**[TimeBill: Time-Budgeted Inference for Large Language Models](timebill_time-budgeted_inference_for_large_language_models.md)**
+
+:   提出TimeBill框架，通过细粒度响应长度预测器（RLP）和工作负载引导的执行时间估计器（ETE），在给定时间预算下自适应调整KV Cache驱逐比例，在保证推理完成率的同时最大化LLM响应质量。
+
+**[Towards 3D Object-Centric Feature Learning for Semantic Scene Completion](towards_3d_object-centric_feature_learning_for_semantic_scene_completion.md)**
+
+:   提出Ocean框架，利用MobileSAM提取的实例掩码引导3D物体中心特征学习，通过语义组注意力（SGA3D）和全局相似性引导注意力（GSGA）在3D空间实现实例级特征聚合，并用实例感知局部扩散（ILD）模块精炼场景表征，在SemanticKITTI和SSCBench-KITTI360上达到SOTA。
+
 **[TSBOW: Traffic Surveillance Benchmark for Occluded Vehicles Under Various Weather Conditions](tsbow_traffic_surveillance_benchmark_for_occluded_vehicles_under_various_weather.md)**
 
 :   提出TSBOW——一个基于CCTV的大规模交通监控数据集，包含198个视频、超32小时真实交通数据和320万帧，覆盖全年四季天气（晴/霾/雨/雪含极端灾害场景），涵盖8类交通参与者，重点解决恶劣天气下遮挡车辆检测的挑战。
 
+**[Understanding Dynamic Scenes in Egocentric 4D Point Clouds](understanding_dynamic_scenes_in_ego_centric_4d_point_clouds.md)**
+
+:   构建EgoDynamic4D——首个面向高度动态4D场景的自我中心视角QA基准（927K QA对、12种任务），并提出端到端时空推理框架，通过实例感知特征编码、时间编码、相机编码和自适应下采样将大规模4D场景压缩为LLM可处理的token序列。
+
 **[Unleashing Semantic And Geometric Priors For 3D Scene Completion](unleashing_semantic_and_geometric_priors_for_3d_scene_completion.md)**
 
 :   提出 FoundationSSC 框架，通过 source-level 和 pathway-level 双层解耦设计释放 Vision Foundation Model 的语义与几何先验，配合 Axis-Aware Fusion 模块融合互补 3D 特征，在 SemanticKITTI 上达到 19.32 mIoU / 48.12 IoU SOTA。
+
+**[Unlocking Efficient Vehicle Dynamics Modeling via Analytic World Models](unlocking_efficient_vehicle_dynamics_modeling_via_analytic_world_models.md)**
+
+:   提出解析世界模型（Analytic World Models, AWMs），利用可微分模拟器的可微性设计三种世界建模任务（相对里程计、最优规划器、逆最优状态估计），无需试错搜索即可端到端高效训练状态预测器，在Waymax自动驾驶模拟器上验证了其有效性。
 
 **[VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness](vilta_a_vlm-in-the-loop_adversary_for_enhancing_driving_poli.md)**
 
@@ -158,6 +222,10 @@
 **[Vision-Only Gaussian Splatting for Collaborative Semantic Occupancy Prediction (Oral)](visiononly_gaussian_splatting_for_collaborative_semantic_occupancy_p.md)**
 
 :   首次将 3D 高斯 Splatting 作为多智能体协同感知的通信媒介和中间表征，利用高斯基元的刚体变换可解析性和稀疏性，通过高斯打包（ROI 裁剪+刚体变换）和跨智能体邻域融合模块，实现了高效且可解释的视觉协同语义占用预测。
+
+**[Walking Further: Semantic-aware Multimodal Gait Recognition Under Long-Range Conditions](walking_further_semantic-aware_multimodal_gait_recognition_under_long-range_cond.md)**
+
+:   构建LRGait——首个面向长距离（10-50m）跨距离场景的LiDAR-Camera多模态步态数据集，并提出EMGaitNet端到端框架，通过CLIP语义挖掘（SeMi）、语义引导对齐（SGA）和对称交叉注意力融合（SCAF）模块实现2D-3D跨模态特征融合，在多个基准上达到SOTA。
 
 **[When Person Re-Identification Meets Event Camera A Benchmark Dataset And An Attr](when_person_re-identification_meets_event_camera_a_benchmark_dataset_and_an_attr.md)**
 

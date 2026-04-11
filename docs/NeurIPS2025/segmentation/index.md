@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🧠 NeurIPS2025** · 共 **31** 篇
+**🧠 NeurIPS2025** · 共 **41** 篇
 
 **[Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression](alligat0r_pre-training_through_co-visibility_segmentation_for_relative_camera_po.md)**
 
@@ -111,9 +111,37 @@
 
 :   提出CERES框架，通过双模态因果干预解决自中心指代视频分割(Ego-RVOS)中的鲁棒性问题：对语言偏见用后门调整（消除目标-动作频率偏差），对视觉混淆用前门调整（以深度信息引导视觉中介变量聚合），在VISOR/VOST/VSCOS上达到SOTA。
 
+**[RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing](roma_scaling_up_mamba-based_foundation_models_for_remote_sensing.md)**
+
+:   提出RoMA——首个面向遥感领域的Mamba架构自监督自回归预训练框架，通过自适应旋转编码策略和多尺度token预测机制，解决遥感图像的方向多样性和尺度极端变化问题，验证了Mamba在遥感领域遵循数据和参数缩放定律。
+
+**[SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation](sansa_unleashing_the_hidden_semantics_in_sam2_for_few-shot_segmentation.md)**
+
+:   SANSA 发现 SAM2 虽然以类别无关方式预训练，但其特征中隐含了丰富的语义结构；通过在冻结的 SAM2 Image Encoder 最后两层插入轻量 AdaptFormer 适配器，将 Memory Attention 机制从视觉相似性匹配重定向为语义相似性匹配，以统一架构实现了 few-shot 分割的 SOTA，同时比竞争方法快 3 倍以上、参数量小 4-5 倍。
+
+**[Seg-VAR: Image Segmentation with Visual Autoregressive Modeling](seg-var_image_segmentation_with_visual_autoregressive_modeling.md)**
+
+:   Seg-VAR 将图像分割重新定义为条件自回归掩码生成问题，通过引入 seglat（分割掩码的潜在表示）和空间感知颜色映射将分割掩码编码为可由 VAR 模型处理的离散 token，在 COCO、Cityscapes、ADE20K 上的语义/实例/全景分割任务中全面超越 Mask2Former 等判别式方法和 GSS 等生成式方法。
+
+**[Seg4Diff: Unveiling Open-Vocabulary Segmentation in Text-to-Image Diffusion Transformers](seg4diff_unveiling_open-vocabulary_segmentation_in_text-to-image_diffusion_trans.md)**
+
+:   通过系统分析多模态扩散Transformer（MM-DiT）的联合注意力机制，发现特定层（"语义定位专家层"）天然具备高质量语义分割能力，并提出轻量微调方法MAGNET同时提升分割与生成性能。
+
 **[SRSR: Enhancing Semantic Accuracy in Real-World Image Super-Resolution with Spatially Re-Focused Text-Conditioning](srsr_enhancing_semantic_accuracy_in_real-world_image_super-resolution_with_spati.md)**
 
 :   SRSR提出一种无需训练的即插即用框架，通过空间重聚焦交叉注意力(SRCA)和空间定向CFG(STCFG)两个推理时模块，解决扩散超分方法中文本引导导致的语义幻觉问题，在保真度和感知质量上全面超越7个SOTA基线。
+
+**[STEAD: Robust Provably Secure Linguistic Steganography with Diffusion Language Model](stead_robust_provably_secure_linguistic_steganography_with_diffusion_language_mo.md)**
+
+:   提出STEAD，首个基于扩散语言模型（DLM）的可证安全且鲁棒的语言隐写术方法，利用DLM并行去噪的特性找到"鲁棒位置"进行信息嵌入，结合重复纠错编码和邻域搜索策略，抵御token级别的替换、插入、删除攻击。
+
+**[STEP: A Unified Spiking Transformer Evaluation Platform for Fair and Reproducible Benchmarking](step_a_unified_spiking_transformer_evaluation_platform_for_fair_and_reproducible.md)**
+
+:   STEP 是首个统一的脉冲 Transformer (Spiking Transformer) 评估平台，支持分类/分割/检测多任务、多后端（SpikingJelly/BrainCog/BrainPy），通过系统消融揭示了当前脉冲 Transformer 严重依赖卷积前端、注意力贡献有限、时序建模能力不足的关键发现，并提出了考虑位宽稀疏性和内存访问的统一能耗分析框架。
+
+**[Torch-Uncertainty: A Deep Learning Framework for Uncertainty Quantification](torch-uncertainty_a_deep_learning_framework_for_uncertainty_quantification.md)**
+
+:   Torch-Uncertainty 是首个统一、可扩展、领域通用且以评估为中心的 PyTorch/Lightning 不确定性量化 (UQ) 框架，集成了 6 大类 UQ 方法、26 种评估指标和 27 个即插即用数据集，覆盖分类、分割、回归等任务，并提供了完整的基准测试结果。
 
 **[Towards Robust Pseudo-Label Learning In Semantic Segmentation An Encoding Perspe](towards_robust_pseudo-label_learning_in_semantic_segmentation_an_encoding_perspe.md)**
 
@@ -123,6 +151,18 @@
 
 :   提出 DiDA，通过将图像退化操作形式化为扩散前向过程来构建源域和目标域之间的连续中间域，结合语义偏移补偿机制，作为即插即用模块显著提升现有 UDA 语义分割方法的性能。
 
+**[UniPixel: Unified Object Referring and Segmentation for Pixel-Level Visual Reasoning](unipixel_unified_object_referring_and_segmentation_for_pixel-level_visual_reason.md)**
+
+:   UniPixel 提出了首个端到端统一对象引用 (referring) 和分割 (segmentation) 的大型多模态模型，通过创新的 Object Memory Bank 设计将稀疏视觉提示转化为稠密对象掩码特征并注入推理过程，在 10 个基准上实现 SOTA，还引入了需要同时完成引用、分割和问答的 PixelQA 新任务。
+
 **[Unveiling the Spatial-Temporal Effective Receptive Fields of Spiking Neural Networks](unveiling_the_spatial-temporal_effective_receptive_fields_of_spiking_neural_netw.md)**
 
 :   提出时空有效感受野（ST-ERF）分析框架来诊断 Transformer-based SNN 在视觉长序列建模中的瓶颈——缺乏全局感受野，并据此设计 MLPixer 和 SRB 两种通道混合器来增强 SNN 的全局建模能力。
+
+**[Vanish into Thin Air: Cross-prompt Universal Adversarial Attacks for SAM2](vanish_into_thin_air_cross-prompt_universal_adversarial_attacks_for_sam2.md)**
+
+:   提出UAP-SAM2——首个针对SAM2的跨提示通用对抗攻击方法，通过双重语义偏移框架（帧内语义混淆+帧间语义不一致）生成一个通用扰动，使SAM2在不同视频、帧和提示下的分割目标"消失无踪"。
+
+**[Vision Transformers with Self-Distilled Registers](vision_transformers_with_self-distilled_registers.md)**
+
+:   提出PH-Reg（Post Hoc Registers），一种高效的自蒸馏方法，无需标注数据和完整重训练即可为已有预训练ViT添加register token，通过测试时增强去噪教师特征+自蒸馏学生网络，有效消除ViT密集特征中的伪影token，提升分割和深度估计性能。

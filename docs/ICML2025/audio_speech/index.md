@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🧪 ICML2025** · 共 **6** 篇
+**🧪 ICML2025** · 共 **7** 篇
 
 **[Bridging the Language Gap: Synthetic Voice Diversity via Latent Mixup for Equitable Speech Recognition](bridging_the_language_gap_synthetic_voice_diversity_via_latent_mixup_for_equitab.md)**
 
@@ -10,6 +10,10 @@
 **[FLAM: Frame-Wise Language-Audio Modeling](flam_frame-wise_language-audio_modeling.md)**
 
 :   提出 FLAM，一个帧级音频-语言对比模型，通过文本依赖的 logit 偏置校正和百万级合成 SED 数据集，实现开放词汇声音事件的精确时间定位，同时保持全局检索和零样本分类性能。
+
+**[IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation](impact_iterative_mask-based_parallel_decoding_for_text-to-audio_generation.md)**
+
+:   IMPACT将迭代掩码并行解码引入连续潜在空间+轻量MLP扩散头，实现文本到音频生成的高质量+快速推理，在AudioCaps上FD/FAD达SOTA且延迟接近最快的MAGNET-S。
 
 **[OmniAudio: Generating Spatial Audio from 360-Degree Video](omniaudio_generating_spatial_audio_from_360-degree_video.md)**
 

@@ -1,15 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📡 信号/通信
 
-**🤖 AAAI2026** · 共 **5** 篇
-
-**[Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score](beyond_perplexity_let_the_reader_select_retrieval_summaries_via_spectrum_project.md)**
-
-:   提出 Spectrum Projection Score (SPS) 这一无需训练的指标，通过衡量摘要 token 嵌入与 reader LLM 主子空间的对齐程度来评估检索摘要质量，替代传统困惑度指标。结合 xCompress 推理时控制器，在 5 个 QA 数据集上显著优于基于困惑度的方法（HotpotQA EM +3.6）。
-
-**[GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)**
-
-:   提出 GateRA，在 PEFT 方法（LoRA/DoRA/HiRA）中引入轻量级 token 感知门控模块，通过 sigmoid 门控动态调整每个 token 的适配强度——对分布内/简单 token 抑制更新以保留预训练知识，对挑战性 token 放大适配。结合熵正则化促进近二值门控决策，在常识推理（+1.1%）、对话和数学推理上一致优于 HiRA。
+**🤖 AAAI2026** · 共 **3** 篇
 
 **[Task Aware Modulation Using Representation Learning For Upsaling Of Terrestrial ](task_aware_modulation_using_representation_learning_for_upsaling_of_terrestrial_.md)**
 

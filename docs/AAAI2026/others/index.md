@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🤖 AAAI2026** · 共 **43** 篇
+**🤖 AAAI2026** · 共 **62** 篇
 
 **[A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles](a_fast_heuristic_search_approach_for_energy-optimal_profile_.md)**
 
@@ -35,10 +35,6 @@
 
 :   本文在Coq定理证明器中，基于λ-MM库（Leśniewski部分整体论的类型论实现），将Tarski的实体几何（geometry of solids）重新用拓扑学语言改写：先证明部分整体论的类（m-class）对应正则开集从而构成拓扑空间，再证明Tarski几何形成该拓扑的子空间并满足Hausdorff（T₂）分离性质，从而为定性空间推理提供了一个统一的、机器验证的部分整体论-几何-拓扑理论。
 
-**[Adaptive Evidential Learning for Temporal-Semantic Robustness in Moment Retrieval](adaptive_evidential_learning_for_temporal-semantic_robustnes.md)**
-
-:   提出 DEMR 框架，将深度证据回归（DER）引入视频时刻检索任务，通过 Reflective Flipped Fusion 模块缓解模态不平衡、通过 Geom-regularizer 修复原始 DER 中不确定性估计的反直觉偏差，在标准和去偏数据集上均取得了显著提升。
-
 **[Agent-SAMA: State-Aware Mobile Assistant](agent-sama_state-aware_mobile_assistant.md)**
 
 :   提出Agent-SAMA，首次将有限状态机（FSM）引入移动端GUI Agent，将UI屏幕建模为状态、用户操作建模为转移，通过四个专门化Agent协作实现状态感知的任务规划、执行验证和错误恢复，在跨App基准上成功率提升最高12%、恢复率提升13.8%。
@@ -63,10 +59,6 @@
 
 :   研究异构速度下多追逐者-单逃避者的追逃博弈——定义逃避者安全可达集为所有追逐者-逃避者对的 Apollonius 圆的交集，将捕获策略建模为追逐者最小化/逃避者最大化该交集面积的零和博弈，推导出闭式瞬时最优航向控制律，仿真验证追逐者可系统性缩小安全区域实现保证捕获。
 
-**[Attention Gathers, MLPs Compose: A Causal Analysis of an Action-Outcome Circuit in VideoViT](attention_gathers_mlps_compose_a_causal_analysis_of_an_action-outcome_circuit_in.md)**
-
-:   通过机械可解释性方法逆向工程 Video Vision Transformer（ViViT）的内部电路，揭示注意力头负责"收集证据"、MLP 模块负责"组合概念"的分工机制，证明模型在简单分类任务中隐藏了超越训练目标的语义知识。
-
 **[Automated Reproducibility Has a Problem Statement Problem](automated_reproducibility_has_a_problem_statement_problem.md)**
 
 :   提出基于科学方法的可复现性形式化问题定义，将经验性AI研究表示为假设-实验-解释的图结构，并用LLM自动从20篇论文中提取该结构，经原作者评审验证其有效性。
@@ -74,10 +66,6 @@
 **[Autonomous Concept Drift Threshold Determination](autonomous_concept_drift_threshold_determination.md)**
 
 :   证明了固定阈值不可能在所有场景下最优、动态阈值严格优于静态阈值，并提出DTD算法：在漂移检测信号触发后启动三模型比较阶段，根据候选模型表现自适应调整检测阈值。
-
-**[Axis-Aligned Document Dewarping](axis-aligned_document_dewarping.md)**
-
-:   提出利用平面文档固有的"轴对齐"几何性质，在训练、推理和评估三个阶段系统性地引入轴对齐约束，实现了SOTA文档矫正效果并提出新评估指标AAD。
 
 **[Bandit Learning in Housing Markets](bandit_learning_in_housing_markets.md)**
 
@@ -87,21 +75,117 @@
 
 :   提出 MCBNC 算法，基于最小割（min-cut）分析量化边的结构支持度，并将其嵌入贪心等价搜索（GES）的后向阶段来迭代剪枝融合贝叶斯网络中的冗余边，在不访问数据的情况下生成更稀疏、更精确的共识结构，适用于联邦学习场景。
 
-**[BCWildfire: A Long-term Multi-factor Dataset and Deep Learning Benchmark for Boreal Wildfire Risk Prediction](bcwildfire_a_long-term_multi-factor_dataset_and_deep_learning_benchmark_for_bore.md)**
+**[Beyond World Models: Rethinking Understanding in AI Models](beyond_world_models_rethinking_understanding_in_ai_models.md)**
 
-:   本文构建了一个覆盖加拿大BC省2.4亿公顷、跨度25年的多模态野火风险预测数据集BCWildfire，包含38个驱动因子，并对CNN/Linear/Transformer/Mamba四大范式的时序预测模型进行了系统评测，揭示了当前模型在野火预测中的性能上限和关键影响因子。
-
-**[Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion](beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)**
-
-:   本文提出ED2D框架，在多智能体辩论（MAD）系统中引入证据检索模块来增强虚假信息检测准确率，并通过受控人类实验首次对比了AI生成的辩论稿与专家人工fact-check在说服力和信念纠正方面的效果，揭示了AI辩论系统在正确时具有专家级说服力、但在错误时可能加剧误导的双刃剑效应。
+:   本文通过三个来自科学哲学的案例研究（多米诺计算机、数学证明、玻尔原子理论），论证世界模型（world models）框架不足以刻画人类级别的"理解"，指出仅靠追踪状态和状态转换无法捕获理解所需的抽象推理、动机洞察和问题情境把握能力。
 
 **[Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning](bilevel_mcts_for_amortized_o1_node_selection_in_classical_planning.md)**
 
 :   提出双层MCTS（Bilevel MCTS），在MCTS选中的叶节点处运行深度比例预算的最优优先搜索，将节点选择均摊复杂度从 $O(\log N)$ 降至 $O(1)$，辅以树崩塌（Tree Collapsing）减少动作选择步数，最终整合为 Nεbula 规划器，在IPC2018/2023基准上以192.2/230.6解题数（5min/30min）超越LAMA、DecStar、NOLAN、SM-Type-LAMA等全部SOTA。
 
+**[Bipartite Mode Matching for Vision Training Set Search from a Hierarchical Data Server](bipartite_mode_matching_for_vision_training_set_search_from_a_hierarchical_data_.md)**
+
+:   提出层级数据服务器 + 二部图模式匹配（BMM）框架，通过多粒度层级聚类组织大规模源数据、用匈牙利算法一对一匹配源域和目标域的语义模式（modes），从而搜索出与目标域分布差距最小的训练集，在行人重识别和目标检测任务上显著优于已有训练集搜索方法。
+
+**[Boosting Adversarial Transferability via Ensemble Non-Attention](boosting_adversarial_transferability_via_ensemble_non-attention.md)**
+
+:   提出 NAMEA（Non-Attention Meta Ensemble Attack），首次利用集成模型的非注意力区域（non-attention areas）融合 CNN 和 ViT 的可迁移信息，结合元学习梯度优化，在跨架构对抗迁移性上平均超越 SOTA 方法 AdaEA 和 SMER 分别 15.0% 和 9.6%。
+
+**[Cash Flow Underwriting with Bank Transaction Data: Advancing MSME Financial Inclusion in Malaysia](cash_flow_underwriting_with_bank_transaction_data_advancing_msme_financial_inclu.md)**
+
+:   提出基于银行流水数据的端到端现金流承保工作流，构建首个马来西亚 MSME（中小微企业）银行账单数据集（611 条贷款记录），验证银行交易衍生特征相比传统申请信息可将逻辑回归模型的 AUROC 从 0.672 提升至 0.850，显著增强对缺乏信用记录的中小微企业的信用评估能力。
+
+**[CAT-Net: A Cross-Attention Tone Network for Cross-Subject EEG-EMG Fusion Tone Decoding](cat-net_a_cross-attention_tone_network_for_cross-subject_eeg-emg_fusion_tone_dec.md)**
+
+:   提出 CAT-Net（Cross-Attention Tone Network），通过空间-时间特征提取分支 + 交叉注意力融合机制 + 域对抗训练，仅用 20 个 EEG 通道和 5 个 EMG 通道实现中文四声调分类，在有声/无声语音条件下分别达到 87.83%/88.08% 准确率，跨被试评估下达到 83.27%/85.10%，全面超越 8 种基线方法。
+
+**[CellStream: Dynamical Optimal Transport Informed Embeddings for Reconstructing Cellular Trajectories from Snapshots Data](cellstream_dynamical_optimal_transport_informed_embeddings_for_reconstructing_ce.md)**
+
+:   提出 CellStream，一种将自编码器与非平衡动态最优传输（unbalanced dynamical OT）联合学习的深度学习框架，从离散时间点的单细胞快照数据中同时学习低维嵌入和连续细胞动态轨迹，在时间一致性和速度一致性上显著优于现有方法。
+
+**[Center-Outward q-Dominance: A Sample-Computable Proxy for Strong Stochastic Dominance in Multi-Objective Optimisation](center-outward_q-dominance_a_sample-computable_proxy_for_strong_stochastic_domin.md)**
+
+:   基于最优传输理论中的中心向外分布函数，提出 q-dominance 关系作为强一阶随机支配（strong FSD）的可计算近似，证明全分位数范围的 q-dominance 可推导出强 FSD，并给出显式样本量阈值控制 Type I 错误，在超参数调优排名和噪声多目标优化中验证了其实用性。
+
+**[Certified Branch-and-Bound MaxSAT Solving (Extended Version)](certified_branch-and-bound_maxsat_solving_extended_version.md)**
+
+:   为 Branch-and-Bound MaxSAT 求解器实现了基于 VeriPB 证明系统的认证，覆盖了 look-ahead 边界方法和多值决策图（MDD）编码两大核心技术，在 MaxCDCL 求解器上的实验表明证明日志的中位开销仅 19%，填补了 MaxSAT 求解范式认证的最后空白。
+
+**[Certified but Fooled! Breaking Certified Defences with Ghost Certificates](certified_but_fooled_breaking_certified_defences_with_ghost_certificates.md)**
+
+:   提出 GhostCert，一种基于显著性区域的对抗攻击方法，能在保持扰动不可感知的同时误导分类器并伪造大半径的认证证书（ghost certificates），在 ImageNet 上对包括 DensePure 在内的 SOTA 认证防御取得显著优于 Shadow Attack 的攻击成功率和更大的伪造认证半径。
+
+**[Clinician-in-the-Loop Smart Home System to Detect Urinary Tract Infection Flare-Ups via Uncertainty-Aware Decision Support](clinician-in-the-loop_smart_home_system_to_detect_urinary_tract_infection_flare-.md)**
+
+:   提出一种临床医师参与闭环的智能家居系统，利用环境传感器数据提取行为标记，结合新颖的共形校准区间（CCI）方法量化预测不确定性，实现对老年人尿路感染（UTI）发作的可靠检测与"不确定时弃权"的决策支持。
+
+**[Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)**
+
+:   提出Diffusion Guided Meta Agent（DigMA）模型，将可控金融市场生成形式化为条件生成任务，用条件扩散模型捕捉市场状态动态（中间价收益率与订单到达率的时变分布参数），结合具有金融经济学先验的Meta Agent生成订单流，在可控性和生成保真度上均超越现有方法。
+
+**[Cost-Free Neutrality for the River Method](cost-free_neutrality_for_the_river_method.md)**
+
+:   针对River投票方法的并行宇宙打破平局（PUT）问题，证明其获胜者集合可在多项式时间内计算（相比Ranked Pairs的NP-完全性），提出Fused-Universe（FUN）算法，一次遍历同时模拟所有可能的打破平局方式，并为每个获胜者提供构造性证书。
+
+**[Data Complexity of Querying Description Logic Knowledge Bases under Cost-Based Semantics](data_complexity_of_querying_description_logic_knowledge_bases_under_cost-based_s.md)**
+
+:   系统研究加权描述逻辑知识库在代价语义下的查询应答的数据复杂度，证明最优代价语义在$\Delta_2^p$内可解，并给出一个令人惊喜的正面结果：在DL-Lite$_{\text{bool}}^{\mathcal{H}}$本体和固定代价界限下，实例查询的确定回答和合取查询的可能回答可通过一阶重写实现最低数据复杂度（AC$^0$）。
+
+**[Deadline-Aware, Energy-Efficient Control of Domestic Immersion Hot Water Heaters](deadline-aware_energy-efficient_control_of_domestic_immersion_hot_water_heater.md)**
+
+:   提出一种基于截止时间感知的家用热水器节能控制方法，通过 Gymnasium 仿真环境比较 bang-bang 基线、MCTS 规划器和 PPO 策略，证明 PPO 在相同物理条件下能节省高达 69% 的能量。
+
+**[DECOR: Deep Embedding Clustering with Orientation Robustness](decor_deep_embedding_clustering_with_orientation_robustness.md)**
+
+:   提出 DECOR 框架，通过旋转不变的等变卷积自编码器（RCAE）+ 非参数聚类（DeepDPM）+ 集成异常检测，实现晶圆图缺陷模式的方向鲁棒聚类。
+
+**[DeepRWCap: Neural-Guided Random-Walk Capacitance Solver for IC Design](deeprwcap_neural-guided_random-walk_capacitance_solver_for_ic_design.md)**
+
+:   提出 DeepRWCap，一种机器学习引导的随机游走电容求解器，通过两阶段神经网络架构预测转移核来加速IC设计中的多介质域电容提取，在10个工业测试案例上实现平均1.24%误差和23%加速。
+
+**[Depth-Synergized Mamba Meets Memory Experts for All-Day Image Reflection Separation](depth-synergized_mamba_meets_memory_experts_for_all-day_image_reflection_separat.md)**
+
+:   提出 DMDNet，通过深度感知扫描策略（DAScan）引导 Mamba 关注显著结构，结合深度协同状态空间模型（DS-SSM）抑制模糊特征传播，并引入记忆专家补偿模块（MECM）利用跨图像历史知识，实现全天候（白天+夜间）的图像反射分离。
+
+**[Description Logics with Two Types of Definite Descriptions: Complexity, Expressiveness, and Automated Deduction](description_logics_with_two_types_of_definite_descriptions_complexity_expressive.md)**
+
+:   引入描述逻辑 ALC 的两种定冠描述扩展——局部定冠描述 $\{ι C\}$ 和全局定冠描述 $ι C.D$，证明三个扩展逻辑的可满足性问题均为 ExpTime-complete，但全局定冠描述严格比局部更具表达力（$\mathcal{ALC}\iota_L < \mathcal{ALC}\iota_G = \mathcal{ALC}\iota$），并给出表列演算决策过程及实验评估。
+
 **[Designing Incident Reporting Systems For Harms From General-Purpose Ai](designing_incident_reporting_systems_for_harms_from_general-purpose_ai.md)**
 
 :   通过文献综述和 9 个安全关键行业（核电、航空、网安等）的案例研究，提出 AI 事故报告系统的 7 维制度设计框架，为美国 GPAI 事故报告系统的构建提供系统性设计建议。
+
+**[DeToNATION: Decoupled Torch Network-Aware Training on Interlinked Online Nodes](detonation_decoupled_torch_network-aware_training_on_interlinked_online_nodes.md)**
+
+:   提出 FlexDeMo——一种将全分片数据并行（FSDP）与解耦动量优化相结合的混合分片训练策略，在节点内使用 FSDP 分片、节点间仅同步快速移动的动量分量，实现了接近全同步 AdamW 的损失收敛同时显著加速训练。
+
+**[DFDT: Dynamic Fast Decision Tree for IoT Data Stream Mining on Edge Devices](dfdt_dynamic_fast_decision_tree_for_iot_data_stream_mining_on_edge_devices.md)**
+
+:   提出 DFDT（Dynamic Fast Decision Tree），一种面向 IoT 边缘设备的内存受限数据流挖掘算法，通过活动感知预剪枝、动态 grace period、自适应 tie threshold 三重机制有机调控树的增长，实现精度-内存-运行时间的最优权衡。
+
+**[DiffMM: Efficient Method for Accurate Noisy and Sparse Trajectory Map Matching via One Step Diffusion](diffmm_efficient_method_for_accurate_noisy_and_sparse_trajectory_map_matching_vi.md)**
+
+:   提出 DiffMM，首次将扩散模型引入地图匹配任务，通过路段感知轨迹编码器和一步 Shortcut 扩散过程，在稀疏轨迹和复杂路网上实现了精度和效率的双重提升，推理速度比次优方法快约 17 倍。
+
+**[DS-ATGO: Dual-Stage Synergistic Learning via Forward Adaptive Threshold and Backward Gradient Optimization for Spiking Neural Networks](ds-atgo_dual-stage_synergistic_learning_via_forward_adaptive_threshold_and_backw.md)**
+
+:   针对SNN训练中因膜电位分布偏移导致的脉冲发放不均衡和梯度消失问题，提出前向自适应阈值+后向阈值驱动梯度优化的双阶段协同学习算法DS-ATGO，在CIFAR10/100和ImageNet上以低时延实现SOTA性能。
+
+**[DW-DGAT: Dynamically Weighted Dual Graph Attention Network for Neurodegenerative Disease Diagnosis](dw-dgat_dynamically_weighted_dual_graph_attention_network_for_neurodegenerative_.md)**
+
+:   针对神经退行性疾病（PD/AD）早期诊断中的多指标数据融合、异质信息提取和类别不平衡三大挑战，提出动态加权双图注意力网络DW-DGAT，通过通用数据融合策略、微观-宏观双层图特征学习和动态类别权重生成机制，在PPMI和ADNI3数据集上大幅超越14种基线方法。
+
+**[Enhancing Control Policy Smoothness by Aligning Actions with Predictions from Preceding States](enhancing_control_policy_smoothness_by_aligning_actions_with_predictions_from_pr.md)**
+
+:   提出 **ASAP（Action Smoothing by Aligning Actions with Predictions from Preceding States）**，一种基于**转移诱导相似状态定义**的强化学习动作平滑方法，通过空间约束（对齐前一状态的预测动作）和时间约束（惩罚二阶动作差异）有效抑制高频动作振荡，在 Gymnasium 和 Isaac-Lab 环境中优于现有方法。
+
+**[Expandable and Differentiable Dual Memories with Orthogonal Regularization for Exemplar-free Continual Learning](expandable_and_differentiable_dual_memories_with_orthogonal_regularization_for_e.md)**
+
+:   提出 **EDD（Expandable and Differentiable Dual Memory）**，一种**无需存储旧样本**的持续学习方法，通过**可微分的共享记忆和任务特定记忆**将数据分解为可复用的子特征，结合**记忆扩展-剪枝**和**正交正则化**机制，在 CIFAR-10/100 和 Tiny-ImageNet 上超越 14 种 SOTA 方法，最终准确率分别达到 55.13%、37.24% 和 30.11%。
+
+**[Expressive Temporal Specifications for Reward Monitoring](expressive_temporal_specifications_for_reward_monitoring.md)**
+
+:   利用量化线性时序逻辑（LTLf[F]）自动合成**量化奖励监控器（QRM）**，为强化学习智能体在运行时生成密集的连续值奖励流，从根本上缓解布尔语义下长时任务的稀疏奖励问题。
 
 **[Extreme Value Monte Carlo Tree Search for Classical Planning](extreme_value_monte_carlo_tree_search_for_classical_planning.md)**
 
@@ -114,14 +198,6 @@
 **[Finding Diverse Solutions Parameterized by Cliquewidth](finding_diverse_solutions_parameterized_by_cliquewidth.md)**
 
 :   将"寻找多样化解"的参数化框架从treewidth扩展到更强的cliquewidth图参数，证明任何基于cliquewidth分解的单调动态规划都可以以极小额外开销转换为求解多样化版本的算法，并提出了一族新的Venn多样性度量函数。
-
-**[FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)**
-
-:   发现低剂量 PET 的三类退化在频域可分离——泊松噪声/光子不足导致高频相位扰动，衰减校正误差抑制低频幅度——据此提出 FourierPET：基于 ADMM 展开的频率感知重建框架，仅 0.44M 参数在三个数据集上全面 SOTA。
-
-**[GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery](goal_geometrically_optimal_alignment_for_continual_generalized_category_discover.md)**
-
-:   基于 Neural Collapse 理论，使用固定等角紧框架（ETF）分类器替代动态分类器，通过监督对齐和置信度引导的无监督对齐实现持续泛化类别发现，在四个基准上遗忘率降低 16.1%、新类发现提升 3.2%。
 
 **[CAE: Hierarchical Semantic Alignment for Image Clustering](hierarchical_semantic_alignment_for_image_clustering.md)**
 

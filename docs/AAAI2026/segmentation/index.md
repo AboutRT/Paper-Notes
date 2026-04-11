@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🤖 AAAI2026** · 共 **20** 篇
+**🤖 AAAI2026** · 共 **30** 篇
 
 **[3DTeethSAM: Taming SAM2 for 3D Teeth Segmentation](3dteethsam_taming_sam2_for_3d_teeth_segmentation.md)**
 
@@ -79,6 +79,46 @@
 
 :   针对广角视频中小样本动作识别的背景干扰问题（主体占比小、时序关系退化），提出基于增强 RWKV 的 Otter 框架，通过复合分割模块（CSM）突出主体和时序重建模块（TRM）恢复时序关系，在 SSv2/Kinetics/UCF101/HMDB51 等基准上达到 SOTA。
 
+**[RS2-SAM2: Customized SAM2 for Referring Remote Sensing Image Segmentation](rs2-sam2_customized_sam2_for_referring_remote_sensing_image_segmentation.md)**
+
+:   提出 RS2-SAM2 框架，通过双向层次融合模块将文本信息注入 SAM2 图像编码过程，并设计伪掩码提示生成器为 SAM2 提供密集提示，在遥感指称分割任务上取得 SOTA。
+
+**[RSVG-ZeroOV: Exploring a Training-Free Framework for Zero-Shot Open-Vocabulary Visual Grounding in Remote Sensing Images](rsvg-zeroov_exploring_a_training-free_framework_for_zero-shot_open-vocabulary_vi.md)**
+
+:   提出 RSVG-ZeroOV，一个免训练框架，通过"概览-聚焦-进化"三阶段策略融合 VLM 的交叉注意力图和扩散模型的自注意力图，实现零样本开放词汇遥感视觉定位。
+
+**[SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection](sam-daq_segment_anything_model_with_depth-guided_adaptive_queries_for_rgb-d_vide.md)**
+
+:   提出 SAM-DAQ，通过深度引导并行适配器（DPA）和查询驱动时序记忆（QTM）模块将 SAM2 适配到 RGB-D 视频显著性检测任务，解决了手动提示依赖、高显存消耗和计算负担三大挑战。
+
+**[SAQ-SAM: Semantically-Aligned Quantization for Segment Anything Model](saq-sam_semantically-aligned_quantization_for_segment_anything_model.md)**
+
+:   提出 SAQ-SAM，从语义对齐视角改进 SAM 的后训练量化（PTQ），通过感知一致性裁剪（PCC）处理掩码解码器中的极端异常值，并用提示感知重建（PAR）保持图像-提示交互的语义对齐。
+
 **[Segment and Matte Anything in a Unified Model (SAMA)](segment_and_matte_anything_in_a_unified_model.md)**
 
 :   提出SAMA——一种SAM的轻量级扩展框架，通过多视图局部编码器(MVLE)捕获细粒度局部特征、局部化适配器(Local-Adapter)将局部细节注入解码过程，以及双任务预测头，仅增加1.8%参数即可在统一模型中同时实现高质量交互式分割和Alpha Matting，在DIS-5K和多个Matting基准上达到SOTA。
+
+**[Segment Anything Across Shots: A Method and Benchmark](segment_anything_across_shots_a_method_and_benchmark.md)**
+
+:   提出针对多镜头视频目标分割（MVOS）的 SAAS 方法和 Cut-VOS 基准，通过镜头切换模拟数据增强（TMA）、镜头切换检测与理解模块（TDM+TCH）、以及局部记忆库实现跨镜头鲁棒分割。
+
+**[SSR: Semantic and Spatial Rectification for CLIP-based Weakly Supervised Segmentation](ssr_semantic_and_spatial_rectification_for_clip-based_weakly_supervised_segmenta.md)**
+
+:   提出语义与空间双重校正框架SSR，通过跨模态原型对比学习（CMPA）解决CLIP模态间语义不对齐导致的非目标前景过度激活问题，以及超像素引导校正（SGC）解决仿射传播中背景过度激活问题，在PASCAL VOC和MS COCO上全面超越单阶段和多阶段SOTA方法。
+
+**[Symmetrical Flow Matching: Unified Image Generation, Segmentation, and Classification with Score-Based Generative Models](symmetrical_flow_matching_unified_image_generation_segmentation_and_classificati.md)**
+
+:   提出对称流匹配（SymmFlow），将语义分割、分类和图像生成统一到单一模型中，通过对称学习目标联合建模正反向流变换，仅需25步推理即在语义图像合成上达到SOTA（CelebAMask-HQ FID 11.9，COCO-Stuff FID 7.0），同时在分割和分类上取得有竞争力的结果。
+
+**[Target Refocusing via Attention Redistribution for Open-Vocabulary Semantic Segmentation: An Explainability Perspective](target_refocusing_via_attention_redistribution_for_open-vocabulary_semantic_segm.md)**
+
+:   从可解释性角度系统研究CLIP内部机制，发现"分心"现象（distraction）——CLIP在深层将大量注意力资源分配给与目标无关的token，提出免训练的RF-CLIP方法通过注意力重分配将被分散的资源重新聚焦到目标区域，在8个基准上达到SOTA性能并保持推理高效。
+
+**[Text-guided Controllable Diffusion for Realistic Camouflage Images Generation](text-guided_controllable_diffusion_for_realistic_camouflage_images_generation.md)**
+
+:   提出CT-CIG，首个文本引导的可控伪装图像生成方法。利用VLM设计伪装揭示对话机制（CRDM）生成高质量文本提示，结合轻量控制网络和频率交互精炼模块（FIRM），在Stable Diffusion框架上生成逻辑合理、纹理真实的伪装图像，开创了Text-guided CIG新范式。
+
+**[Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors](towards_affordance-aware_robotic_dexterous_grasping_with_human-like_priors.md)**
+
+:   提出AffordDex，一个两阶段框架：第一阶段通过模仿学习预训练人类手部运动先验（自然的运动轨迹），第二阶段通过残差模块和VLM引导的负可供性分割（NAA）进行强化学习精炼，实现既像人类一样自然、又功能正确的灵巧机器人抓取（如避开刀刃抓握刀柄），在多个泛化级别上显著超越SOTA。

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🎞️ ECCV2024** · 共 **11** 篇
+**🎞️ ECCV2024** · 共 **10** 篇
 
 **[A Closer Look at GAN Priors: Exploiting Intermediate Features for Enhanced Model Inversion Attacks](a_closer_look_at_gan_priors_exploiting_intermediate_features.md)**
 
@@ -34,10 +34,6 @@
 **[Bidirectional Uncertainty-Based Active Learning For Open-Set Annotation](bidirectional_uncertainty-based_active_learning_for_open-set_annotation.md)**
 
 :   提出 BUAL 框架，通过 Random Label Negative Learning 将未知类样本推向高置信区域、已知类样本推向低置信区域，结合双向不确定性采样策略，在开放集场景下有效选出高信息量的已知类样本。
-
-**[Cross-Domain Learning for Video Anomaly Detection with Limited Supervision](cross-domain_learning_for_video_anomaly_detection_with_limited_supervision.md)**
-
-:   提出弱监督跨域学习（CDL）框架，通过不确定性驱动的伪标签机制将无标注外部视频整合到训练中，显著提升视频异常检测的跨域泛化能力。
 
 **[DC-Solver: Improving Predictor-Corrector Diffusion Sampler via Dynamic Compensation](dc-solver_improving_predictor-corrector_diffusion_sampler_via_dynamic_compensati.md)**
 

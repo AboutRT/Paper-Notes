@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🤖 AAAI2026** · 共 **18** 篇
+**🤖 AAAI2026** · 共 **31** 篇
 
 **[A Unified Shape-Aware Foundation Model for Time Series Classification](a_unified_shape-aware_foundation_model_for_time_series_class.md)**
 
@@ -35,9 +35,33 @@
 
 :   提出 DeepBooTS，通过偏差-方差分解理论证明加权集成可降低方差从而缓解概念漂移，设计双流残差递减 boosting 架构，每个 block 的输出修正前一个 block 的残差，在多个数据集上平均提升 15.8%。
 
+**[Detecting the Future: All-at-Once Event Sequence Forecasting with Horizon Matching](detecting_the_future_all-at-once_event_sequence_forecasting_with_horizon_matchin.md)**
+
+:   提出DEF（Detection-based Event Forecasting），借鉴目标检测中DETR的匹配思想，通过匈牙利算法对齐预测与真实事件序列，实现高精度和高多样性的长程事件预测，在5个数据集上达到SOTA。
+
 **[Finding Time Series Anomalies using Granular-ball Vector Data Description](finding_time_series_anomalies_using_granular-ball_vector_data_description.md)**
 
 :   提出 Granular-ball One-Class Network (GBOC)，通过在潜在空间中自适应构建密度引导的粒球向量数据描述 (GVDD)，取代传统聚类或单一超球体假设，实现对时间序列正常行为的灵活建模和鲁棒异常检测。
+
+**[FreqCycle: A Multi-Scale Time-Frequency Analysis Method for Time Series Forecasting](freqcycle_a_multi-scale_time-frequency_analysis_method_for_time_series_forecasti.md)**
+
+:   提出FreqCycle框架，通过FECF模块显式学习共享周期模式、SFPL模块增强中高频能量占比，并扩展为MFreqCycle处理耦合多周期性，在7个基准上达到SOTA性能与效率的最优平衡。
+
+**[GAICo: A Deployed and Extensible Framework for Evaluating Diverse and Multimodal Generative AI Outputs](gaico_a_deployed_and_extensible_framework_for_evaluating_diverse_and_multimodal_.md)**
+
+:   提出GAICo（Generative AI Comparator），一个已部署的、可扩展的开源Python库，为文本、结构化数据（规划序列、时间序列）和多媒体（图像、音频）提供统一的基于参考的评估框架，支持多模型比较、可视化与报告生成。
+
+**[Harmonic Dataset Distillation for Time Series Forecasting](harmonic_dataset_distillation_for_time_series_forecasting.md)**
+
+:   提出HDT（Harmonic Dataset Distillation for Time Series Forecasting），通过FFT将时间序列分解为正弦基底，在频域上通过谐波匹配（Harmonic Matching）对齐合成数据与原始数据的核心周期结构，实现强跨架构泛化和良好可扩展性的时间序列数据集蒸馏。
+
+**[HN-MVTS: HyperNetwork-based Multivariate Time Series Forecasting](hn-mvts_hypernetwork-based_multivariate_time_series_forecasting.md)**
+
+:   提出 HN-MVTS，利用超网络(HyperNetwork)为每个通道生成特定的最后一层权重，在通道独立(CI)和通道依赖(CD)之间取得平衡，作为即插即用模块可提升 DLinear、PatchTST、TSMixer 等多种主干模型的预测精度，且不增加推理时间。
+
+**[HydroDCM: Hydrological Domain-Conditioned Modulation for Cross-Reservoir Inflow Prediction](hydrodcm_hydrological_domain-conditioned_modulation_for_cross-reservoir_inflow_p.md)**
+
+:   提出 HydroDCM，首次将域泛化(Domain Generalization)引入水文预测领域，通过空间元属性构建伪域标签指导对抗学习提取不变特征，再用 FiLM 适配器根据目标水库的地理信息调制特征，实现对未见水库的跨域入流预测。
 
 **[IdealTSF: Can Non-Ideal Data Contribute to Enhancing Time Series Forecasting?](idealtsf_can_non-ideal_data_contribute_to_enhancing_the_performance_of_time_seri.md)**
 
@@ -63,6 +87,22 @@
 
 :   提出联邦学习场景下时间序列预测的最优 look-back horizon 理论框架：通过 Synthetic Data Generator (SDG) 建模 non-IID 客户端数据，构建 intrinsic representation space，证明预测损失可分解为 Bayesian loss（随 $H$ 递减并饱和）和 approximation loss（随 $H$ 递增），最优 horizon $H^*$ 为 Bayesian loss 开始饱和的最小值。
 
+**[Predicting the Future by Retrieving the Past](predicting_the_future_by_retrieving_the_past.md)**
+
+:   提出 PFRP（Predicting the Future by Retrieving the Past），构建全局记忆库(GMB)存储历史模式，通过预测性对比学习训练编码器实现高效检索，将检索到的全局预测与任意局部预测模型动态融合，在 7 个数据集上平均提升 8.4% 的预测性能。
+
+**[ReCast: Reliability-aware Codebook Assisted Lightweight Time Series Forecasting](recast_reliability-aware_codebook_assisted_lightweight_time_series_forecasting.md)**
+
+:   提出 ReCast，通过 patch 级向量量化将时间序列编码为离散嵌入，设计量化路径（预测规律结构）和残差路径（捕获不规则波动）的双路径架构，并引入基于分布鲁棒优化(DRO)的可靠性感知码本更新策略，在 8 个数据集上以轻量架构实现 SOTA 精度。
+
+**[Revitalizing Canonical Pre-Alignment for Irregular Multivariate Time Series Forecasting](revitalizing_canonical_pre-alignment_for_irregular_multivariate_time_series_fore.md)**
+
+:   首次论证了规范预对齐(CPA)在不规则多变量时间序列(IMTS)预测中不应被抛弃，提出 KAFNet 通过预卷积平滑、时间核聚合(TKA)压缩和频域线性注意力(FLA)三个模块解决 CPA 的效率问题，在 4 个 IMTS 数据集上实现 SOTA 精度，同时参数量减少 7.2 倍、训练推理加速 8.4 倍。
+
+**[Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios](scaling_llm_speculative_decoding_non-autoregressive_forecasting_in_large-batch_s.md)**
+
+:   提出 SpecFormer，一种融合单向和双向注意力的非自回归草稿模型架构，在大批次推理场景下通过降低对复杂前缀树的依赖、减少位置相关参数，实现了对 LLM 推理的一致性加速。
+
 **[SELDON: Supernova Explosions Learned by Deep ODE Networks](seldon_supernova_explosions_learned_by_deep_ode_networks.md)**
 
 :   提出SELDON，一种结合masked GRU-ODE编码器、隐式Neural ODE传播器和可解释高斯基函数解码器的连续时间VAE，用于稀疏、不规则采样的天文光变曲线预测，在仅观测20%数据时即可超越基线方法做出准确的多波段通量预测。
@@ -70,6 +110,18 @@
 **[Sonnet Spectral Operator Neural Network For Multivariable Time Series Forecastin](sonnet_spectral_operator_neural_network_for_multivariable_time_series_forecastin.md)**
 
 :   提出 Sonnet，通过可学习小波变换将输入映射到时频域，引入基于谱相干性的多变量注意力（MVCA）建模变量间依赖关系，并利用 Koopman 算子进行稳定的时间演化预测，在 47 个预测任务中的 34 个取得最优，平均 MAE 降低 2.2%。
+
+**[Task-Aware Retrieval Augmentation for Dynamic Recommendation](task-aware_retrieval_augmentation_for_dynamic_recommendation.md)**
+
+:   提出 TarDGR 框架，通过任务感知的评估机制自动构建训练数据，训练 Graph Transformer 来评估历史子图的任务相关性，在推理时检索并融合任务相关子图以增强推荐的时序泛化能力。
+
+**[Towards Non-Stationary Time Series Forecasting with Temporal Stabilization and Frequency Differencing](towards_non-stationary_time_series_forecasting_with_temporal_stabilization_and_f.md)**
+
+:   提出 DTAF 双分支框架，通过时域的非平稳 MoE 滤波器提取并去除异质非平稳模式、频域的频谱差分追踪频率漂移，并通过双分支注意力融合两个域的互补信息，实现鲁棒的非平稳时间序列预测。
+
+**[Transparent Networks for Multivariate Time Series](transparent_networks_for_multivariate_time_series.md)**
+
+:   提出 GATSM（Generalized Additive Time Series Model），一种透明的时间序列神经网络模型，通过共享权重的特征网络学习特征表示并用带掩码的多头注意力捕捉时序模式，在保持完全可解释性的同时达到与 Transformer 等黑箱模型可比的性能。
 
 **[Urban Incident Prediction with Graph Neural Networks: Integrating Government Ratings and Crowdsourced Reports](urban_incident_prediction_with_graph_neural_networks_integrating_government_rati.md)**
 

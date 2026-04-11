@@ -1,7 +1,11 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**💬 ACL2025** · 共 **6** 篇
+**💬 ACL2025** · 共 **7** 篇
+
+**[Causal Graph based Event Reasoning using Semantic Relation Experts](causal_graph_based_event_reasoning_using_semantic_relation_experts.md)**
+
+:   本文提出了一种基于多个语义关系专家（时间、篇章、前置条件、常识）协作讨论的因果事件图生成方法，用于显式建模事件间的因果连接，并在事件预测、事件预报等多个下游任务上取得了有竞争力的结果。
 
 **[CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation](causalrag_integrating_causal_graphs_into_retrieval-augmented_generation.md)**
 

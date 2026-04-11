@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🧪 ICML2025** · 共 **120** 篇
+**🧪 ICML2025** · 共 **117** 篇
 
 **[Action-Minimization Meets Generative Modeling: Efficient Transition Path Sampling with the Onsager-Machlup Functional](action-minimization_meets_generative_modeling_efficient_transition_pat.md)**
 
@@ -123,10 +123,6 @@
 
 :   本文从denoiser的角度深入分析了Flow Matching (FM) ODE的采样轨迹动力学，揭示了轨迹演化的三个阶段（初始→中间→终端），建立了FM ODE在数据支撑在低维子流形上时的收敛性理论。
 
-**[ε-VAE: Denoising as Visual Decoding](epsilon-vae_denoising_as_visual_decoding.md)**
-
-:   提出 ε-VAE，将传统自编码器中的单步确定性解码器替换为扩散/去噪过程，实现"去噪即解码"（Denoising as Decoding），在相同压缩率下重建质量提升 40%、下游生成质量提升 22%，或在保持生成质量的同时通过提高压缩率实现 2.3 倍推理加速。
-
 **[ETTA: Elucidating the Design Space of Text-to-Audio Models](etta_elucidating_the_design_space_of_text-to-audio_models.md)**
 
 :   ETTA 通过大规模系统性实验阐明了文本到音频(TTA)模型的设计空间（数据、架构、训练目标、采样策略），并基于分析结论构建了当前公开数据下最优的 TTA 模型。
@@ -150,10 +146,6 @@
 **[FlexTok: Resampling Images into 1D Token Sequences of Flexible Length](flextok_resampling_images_into_1d_token_sequences_of_flexible_length.md)**
 
 :   提出 FlexTok——一种将 2D 图像重采样为可变长度、有序的 1D 离散 token 序列的 tokenizer，通过 nested dropout 学习层次化编码，配合 rectified flow 解码器在任意 token 数量下生成高质量重建，在 ImageNet 上用 8~128 个 token 即可实现 FID<2 的自回归图像生成。
-
-**[Foundation Molecular Grammar: Multi-Modal Foundation Models Induce Interpretable Molecular Grammar](foundation_molecular_grammar_multi-modal_foundation_models_induce_interpretable_.md)**
-
-:   FMG 利用多模态基础模型（MMFM）的化学知识，通过将分子渲染为图像并用文本描述，结合 prompt learning 跨模态对齐来归纳出可解释的分子图语法，替代传统依赖专家标注或启发式的语法学习方法。
 
 **[Gaussian Mixture Flow Matching Models](gaussian_mixture_flow_matching_models.md)**
 
@@ -190,10 +182,6 @@
 **[How to Move Your Dragon: Text-to-Motion Synthesis for Large-Vocabulary Objects](how_to_move_your_dragon_text-to-motion_synthesis_for_large-vocabulary_objects.md)**
 
 :   本文首次提出一个统一框架，通过为 Truebones Zoo 数据集（70+ 物种）标注文本描述、引入 rig augmentation 技术以及在 Motion Diffusion Model 中融入 TreePE 和 RestPE 编码，实现了面向大词汇量异构骨骼对象的文本驱动动作生成，可为动物、恐龙乃至虚构生物合成高质量 3D 动作。
-
-**[IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation](impact_iterative_mask-based_parallel_decoding_for_text-to-audio_generation.md)**
-
-:   IMPACT将迭代掩码并行解码引入连续潜在空间+轻量MLP扩散头，实现文本到音频生成的高质量+快速推理，在AudioCaps上FD/FAD达SOTA且延迟接近最快的MAGNET-S。
 
 **[IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling](impact_iterative_mask-based_parallel_decoding_for_text-to-audio_generation_with_.md)**
 

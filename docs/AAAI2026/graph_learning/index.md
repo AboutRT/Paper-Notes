@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🤖 AAAI2026** · 共 **28** 篇
+**🤖 AAAI2026** · 共 **34** 篇
 
 **[Adaptive Initial Residual Connections for GNNs with Theoretical Guarantees](adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md)**
 
@@ -67,9 +67,9 @@
 
 :   提出 GT-SNT，将脉冲神经网络（SNN）用作图节点分词器（tokenizer），通过多步特征传播生成紧凑的脉冲计数嵌入作为节点 token，再利用码本引导自注意力（CGSA）在线性时间内捕获全局上下文，在 9 个节点分类基准上取得可比性能的同时实现最高 130× 的推理加速。
 
-**[Hybrid-Dmkg A Hybrid Reasoning Framework Over Dynamic Multimodal Knowledge Graph](hybrid-dmkg_a_hybrid_reasoning_framework_over_dynamic_multimodal_knowledge_graph.md)**
+**[Human Cognition Inspired RAG with Knowledge Graph for Complex Problem Solving](human_cognition_inspired_rag_with_knowledge_graph_for_complex_problem_solving.md)**
 
-:   提出MMQAKE基准和Hybrid-DMKG框架，在动态多模态知识图谱上构建"关系链接预测 + RAG增强LVLM推理"双通道混合推理机制，配合背景反思决策模块，在2-5跳多模态知识编辑问答中显著超越现有方法（LLaVA上H-Acc达29.90%，超IKE 13.52个百分点）。
+:   提出 CogGRAG，一个受人类认知启发的基于知识图谱的 RAG 框架，通过自顶向下的思维导图分解问题、分层级结构化检索、以及双 LLM 自验证推理三个阶段，显著提升 LLM 在复杂知识图谱问答 (KGQA) 任务中的准确性和可靠性。
 
 **[Hyperbolic Continuous Structural Entropy for Hierarchical Clustering](hyperbolic_continuous_structural_entropy_for_hierarchical_clustering.md)**
 
@@ -79,13 +79,37 @@
 
 :   系统刻画了以均值（mean）为聚合函数的 GNN 的表达能力：非一致设定下等价于比率模态逻辑（RML）；一致设定下（相对 MSO）等价于模态逻辑（ML）；当额外要求组合函数连续、分类函数为阈值时，表达能力显著下降至交替无关模态逻辑（AFML）。
 
+**[Magnitude-Modulated Equivariant Adapter for Parameter-Efficient Fine-Tuning of Equivariant Graph Neural Networks](magnitude-modulated_equivariant_adapter_for_parameter-efficient_fine-tuning_of_e.md)**
+
+:   提出 MMEA (Magnitude-Modulated Equivariant Adapter)，一种用于球谐基等变 GNN 的轻量参数高效微调方法，通过标量门控按"阶-多重度"通道独立调制特征幅度，在严格保持等变性的前提下，以更少参数量实现了超越 ELoRA 和全参数微调的 SOTA 分子势能预测精度。
+
+**[MoToRec: Sparse-Regularized Multimodal Tokenization for Cold-Start Recommendation](motorec_sparse-regularized_multimodal_tokenization_for_cold-start_recommendation.md)**
+
+:   提出 MoToRec，将多模态推荐重新定义为离散语义分词任务，通过稀疏正则化的残差量化VAE（RQ-VAE）将原始多模态特征转化为可组合的离散语义编码，结合自适应稀有度放大和层级多源图编码器，有效解决物品冷启动问题。
+
 **[MUG: Meta-path-aware Universal Heterogeneous Graph Pre-Training](mug_meta-path-aware_universal_heterogeneous_graph_pre-training.md)**
 
 :   首次提出无需 LLM 的通用异质图预训练方法 MUG，通过上下文结构编码统一异质节点/关系类型、维度感知编码器对齐不同图的表示空间，并利用元路径视图共享编码器 + 全局散射正则化实现跨域可迁移的编码与聚合，在跨域和小样本节点分类中显著超越已有方法。
 
+**[MyGram: Modality-aware Graph Transformer with Global Distribution for Multi-modal Entity Alignment](mygram_modality-aware_graph_transformer_with_global_distribution_for_multi-modal.md)**
+
+:   提出 MyGram，通过模态感知图卷积扩散（MGD）模块捕获模态内的深层结构上下文信息，并引入基于Gram矩阵行列式的全局分布对齐损失（Gram Loss），在高维空间中强制跨模态语义一致性，实现更鲁棒的多模态实体对齐。
+
+**[NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation](notam-evolve_a_knowledge-guided_self-evolving_optimization_framework_with_llms_f.md)**
+
+:   提出 NOTAM-Evolve，一个自进化框架，通过知识图谱增强的表格检索（KG-TableRAG）进行动态知识接地，结合迭代SFT+DPO偏好优化及多视角投票推理机制，使7B参数LLM自主掌握复杂航空NOTAM的深层解析，准确率较基础LLM提升30.4%。
+
+**[NTSFormer: A Self-Teaching Graph Transformer for Multimodal Isolated Cold-Start Node Classification](ntsformer_a_self-teaching_graph_transformer_for_multimodal_isolated_cold-start_n.md)**
+
+:   提出 NTSFormer（Neighbor-to-Self Graph Transformer），一个统一的图Transformer框架，通过冷启动注意力掩码实现**自教学范式**——同一模型同时产生基于自身特征的"学生"预测和基于邻居信息的"教师"预测，无需退化为MLP即可处理多模态图上的孤立冷启动节点分类，结合MoE输入投影和多模态图预计算有效处理模态缺失问题。
+
 **[On Stealing Graph Neural Network Models](on_stealing_graph_neural_network_models.md)**
 
 :   证明了在严格查询限制下（如仅100次查询），攻击者可通过"本地获取encoder（随机初始化/SSL训练）+ K-means策略性查询选择"两阶段方法高效窃取GNN模型，在Physics数据集上仅用100次查询即达91%准确率，而现有SOTA需约5000次查询加额外embedding访问才能达到类似水平。
+
+**[PCoKG: Personality-aware Commonsense Reasoning with Debate](pcokg_personality-aware_commonsense_reasoning_with_debate.md)**
+
+:   构建了首个大规模人格感知常识知识图谱 PCoKG，包含521,316个四元组 $(e, p, r, t)$（事件-人格-推理维度-结果），通过LLM角色扮演+多智能体辩论机制生成高质量的人格差异化推理，实验验证了MBTI人格信息对常识推理和个性化对话生成的增强作用。
 
 **[Posterior Label Smoothing for Node Classification](posterior_label_smoothing_for_node_classification.md)**
 

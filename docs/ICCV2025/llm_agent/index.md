@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**📹 ICCV2025** · 共 **3** 篇
+**📹 ICCV2025** · 共 **4** 篇
 
 **[Embodied Image Captioning: Self-supervised Learning Agents for Spatially Coherent Image Descriptions](embodied_image_captioning_self-supervised_learning_agents_for_spatially_coherent.md)**
 
@@ -10,6 +10,10 @@
 **[GTR: Guided Thought Reinforcement Prevents Thought Collapse in RL-based VLM Agent Training](gtr_guided_thought_reinforcement_prevents_thought_collapse_i.md)**
 
 :   发现VLM agent在仅基于结果奖励的RL训练中会出现"思维坍塌"（thought collapse）——推理多样性急剧丧失、生成无关推理和无效动作。提出GTR框架通过自动纠正器在每步RL中评估和精炼agent推理，无需人工标注，LLaVA-7b在多种视觉环境中任务成功率提升3-5倍。
+
+**[Less is More: Empowering GUI Agent with Context-Aware Simplification](less_is_more_empowering_gui_agent_with_context-aware_simplification.md)**
+
+:   提出 SimpAgent——一种上下文感知的简化框架，通过基于遮挡的元素剪枝（训练时随机遮挡无关元素区域）和一致性引导的历史压缩（在 LLM 中间层直接丢弃历史视觉 token + KL散度一致性约束），在降低27% FLOPs 的同时取得多个 GUI 导航基准的 SOTA。
 
 **[UIPro: Unleashing Superior Interaction Capability for GUI Agents](uipro_unleashing_superior_interaction_capability_for_gui_agents.md)**
 

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM 推理
 
-**📹 ICCV2025** · 共 **3** 篇
+**📹 ICCV2025** · 共 **4** 篇
 
 **[Corvid: Improving Multimodal Large Language Models Towards Chain-of-Thought Reasoning](corvid_improving_multimodal_large_language_models_towards_ch.md)**
 
@@ -14,3 +14,7 @@
 **[Unsupervised Visual Chain-of-Thought Reasoning via Preference Optimization](unsupervised_visual_chain-of-thought_reasoning_via_preference_optimization.md)**
 
 :   提出UV-CoT框架，通过自动生成偏好数据和改进的Score-DPO损失函数，在不需要人工标注bounding box的情况下实现图像级链式思维（Visual CoT）推理，在6个基准上超越有监督的Visual-CoT方法。
+
+**[Video-T1: Test-Time Scaling for Video Generation](video-t1_test-time_scaling_for_video_generation.md)**
+
+:   将LLM中的测试时缩放(TTS)思想迁移到视频生成领域，将TTS重新定义为从高斯噪声空间到目标视频分布的搜索问题，提出Tree-of-Frames (ToF)搜索算法实现高效的推理时计算扩展，在VBench上持续稳定提升各类视频生成模型的质量。

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧠 NeurIPS2025** · 共 **112** 篇
+**🧠 NeurIPS2025** · 共 **144** 篇
 
 **[A Generalized Bisimulation Metric of State Similarity between Markov Decision Processes: From Theoretical Propositions to Applications](a_generalized_bisimulation_metric_of_state_similarity_betwee.md)**
 
@@ -287,9 +287,21 @@
 
 :   提出 Fermat——一个将数学理论形成建模为 MDP 的强化学习环境，以及 EvoAbstract——一个带抽象学习的 LLM 驱动进化算法，用于自动合成数学对象的"兴趣度"度量函数，在初等数论和有限域上显著超越硬编码基线。
 
+**[Learning Intractable Multimodal Policies with Reparameterization and Diversity Regularization](learning_intractable_multimodal_policies_with_reparameterization_and_diversity_r.md)**
+
+:   提出Diversity-regularized Actor Critic（DrAC）算法，通过将不可解析的多模态策略（amortized actor和diffusion actor）统一为stochastic-mapping formulation，利用重参数化技巧直接进行策略梯度优化，并设计基于距离的多样性正则化替代传统熵正则化，在多目标导航和生成式RL等多样性关键任务中展现显著优势。
+
 **[Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling](learning_memory-enhanced_improvement_heuristics_for_flexible_job_shop_scheduling.md)**
 
 :   提出 MIStar——首个基于深度强化学习 (DRL) 的改进型启发式框架，用于求解柔性作业车间调度问题 (FJSP)。核心创新包括有向异构析取图表示、记忆增强异构图神经网络 (MHGNN) 和并行贪心搜索策略，在合成数据和公开 benchmark 上全面超越手工改进启发式和 SOTA 构造型 DRL 方法。
+
+**[Learning to Clean: Reinforcement Learning for Noisy Label Correction](learning_to_clean_reinforcement_learning_for_noisy_label_correction.md)**
+
+:   将噪声标签纠正问题建模为强化学习中的马尔可夫决策过程，提出 RLNLC 框架，通过 k 近邻嵌入空间构建策略函数判断哪些标签需纠正，并设计标签一致性奖励和跨子集对齐奖励指导纠正过程，在多个基准数据集上的实例依赖和对称噪声场景中均达到最优性能。
+
+**[Learning to Focus: Prioritizing Informative Histories with Structured Attention Mechanisms in Partially Observable Reinforcement Learning](learning_to_focus_prioritizing_informative_histories_with_structured_attention_m.md)**
+
+:   提出两种结构化时序先验（Memory-Length Prior和Gaussian Distributional Prior）嵌入Transformer世界模型的自注意力机制中，在部分可观测RL环境下，Gaussian Attention在Atari 100k基准上相对UniZero提升77%的人类归一化均分，且计算开销几乎为零。
 
 **[Massively Parallel Imitation Learning of Mouse Forelimb Musculoskeletal Reaching Dynamics](massively_parallel_imitation_learning_of_mouse_forelimb_musculoskeletal_reaching.md)**
 
@@ -298,6 +310,34 @@
 **[Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning](mean-field_sampling_for_cooperative_multi-agent_reinforcement_learning.md)**
 
 :   提出 SUBSAMPLE-MFQ 算法，通过从 $n$ 个智能体中随机采样 $k$ 个进行均场 Q 学习，将多智能体强化学习的样本复杂度从 $\text{poly}(n)$ 降低到 $\text{poly}(k)$，且性能差距仅为 $\tilde{O}(1/\sqrt{k})$（与 $n$ 无关），当 $k = O(\log n)$ 时实现相对均场 MARL 的指数加速。
+
+**[Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)**
+
+:   提出 Memo，一种基于 Transformer 的记忆增强框架，通过周期性生成摘要 token（summary tokens）压缩历史上下文，在保持甚至超越全上下文 Transformer 性能的同时，将推理时 KV 缓存缩小 8-10 倍，并展现出更好的长上下文泛化和流式推理鲁棒性。
+
+**[Meta-World+: An Improved, Standardized, RL Benchmark](meta-world_an_improved_standardized_rl_benchmark.md)**
+
+:   本文系统揭示 Meta-World 基准在不同版本间因奖励函数不一致导致的算法比较失真问题，并发布标准化新版本 Meta-World+，明确保留 V1/V2 两套奖励函数，新增 MT25/ML25 任务集，升级至 Gymnasium API，实现完全可复现的多任务和元强化学习评估。
+
+**[MetaBox-v2: A Unified Benchmark Platform for Meta-Black-Box Optimization](metabox-v2_a_unified_benchmark_platform_for_meta-black-box_optimization.md)**
+
+:   MetaBox-v2 是对元黑箱优化（MetaBBO）基准平台的里程碑式升级，统一支持 RL/SL/NE/ICL 四大学习范式，复现 23 个基线算法，集成 18 个测试套件（1900+ 问题实例），并通过向量化环境和分布式测试实现 10-40 倍加速。
+
+**[Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning](mind_the_gap_the_challenges_of_scale_in_pixel-based_deep_reinforcement_learning.md)**
+
+:   发现像素输入的深度 RL 网络中，编码器（卷积层 $\phi$）与全连接层（$\psi$）之间的"瓶颈连接"是阻碍网络缩放的根本原因，提出用全局平均池化（GAP）这一极简方法直接化解瓶颈，以更低计算成本获得与复杂方法（SoftMoE、稀疏训练）相当或更优的性能。
+
+**[Models That Prove Their Own Correctness](models_that_prove_their_own_correctness.md)**
+
+:   本文提出 Self-Proving Models 框架，让模型通过交互式证明系统向验证算法证明其输出的正确性，并设计了 Transcript Learning (TL) 和 Reinforcement Learning from Verifier Feedback (RLVF) 两种学习方法，在 GCD 计算任务上实验验证 Annotated TL 可达 96% 的 Verifiability。
+
+**[Modulation of Temporal Decision-Making in a Deep Reinforcement Learning Agent under the Dual-Task Paradigm](modulation_of_temporal_decision-making_in_a_deep_reinforcement_learning_agent_un.md)**
+
+:   在简化版Overcooked环境中训练DRL智能体执行单任务（时间生产）和双任务（时间生产+数字比较），发现双任务智能体在四种目标时长下均显著过度生产时间——这一涌现行为与人类时间感知研究中双任务范式下的时间高估现象高度一致。
+
+**[MTL-KD: Multi-Task Learning Via Knowledge Distillation for Generalizable Neural Vehicle Routing Solver](mtl-kd_multi-task_learning_via_knowledge_distillation_for_generalizable_neural_v.md)**
+
+:   提出基于知识蒸馏的多任务学习框架MTL-KD，通过将多个RL单任务教师模型的策略知识蒸馏到一个重解码器学生模型中，实现了对多种VRP变体的高效统一求解，并在大规模问题上展现出卓越的泛化能力。
 
 **[Multi-Agent Collaboration via Evolving Orchestration](multi-agent_collaboration_via_evolving_orchestration.md)**
 
@@ -323,9 +363,21 @@
 
 :   为一般效用强化学习（RLGU）中的策略梯度方法建立全局最优性保证，在表格设定下证明了 RLGU 目标满足梯度支配不等式，在大规模状态动作空间设定下通过最大似然估计（MLE）近似占据度量实现可扩展的全局收敛算法。
 
+**[Online Optimization for Offline Safe Reinforcement Learning](online_optimization_for_offline_safe_reinforcement_learning.md)**
+
+:   提出 O3SRL 框架，将离线安全强化学习问题形式化为极小极大优化，通过结合离线 RL oracle 和基于 EXP3 多臂老虎机的在线优化来自适应调整拉格朗日乘子，避免了不稳定的离策略评估，在严格安全约束下实现高奖励。
+
+**[Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](open_vision_reasoner_transferring_linguistic_cognitive_behavior_for_visual_reaso.md)**
+
+:   Open Vision Reasoner（OVR）通过"语言冷启动 + 大规模多模态 RL"两阶段训练范式，将语言模型中的认知行为（如回溯、验证）有效迁移到视觉推理中，基于 Qwen2.5-VL-7B 在 MathVision 上首次突破 50%（51.8%），成为同规模 SOTA。
+
 **[Optimizing the Unknown: Black Box Bayesian Optimization with Energy-Based Model and Reinforcement Learning](optimizing_the_unknown_black_box_bayesian_optimization_with_energy-based_model_a.md)**
 
 :   提出REBMBO框架，将高斯过程（局部建模）、能量模型EBM（全局探索）和PPO强化学习（多步前瞻）统一为贝叶斯优化闭环，在高维/多峰黑盒优化中显著优于传统BO方法。
+
+**[Oryx: a Scalable Sequence Model for Many-Agent Coordination in Offline MARL](oryx_a_scalable_sequence_model_for_many-agent_coordination_in_offline_marl.md)**
+
+:   本文提出 Oryx，一种面向离线合作 MARL 的可扩展序列模型算法，将基于 Retention 的 Sable 架构与自回归形式的 ICQ 离线正则化结合，通过双解码器输出策略和 Q 值并利用反事实优势估计，在 65 个数据集上超过 80% 达到 SOTA，并展示了在 50 智能体规模下的稳健扩展能力。
 
 **[Parameter-Free Algorithms for the Stochastically Extended Adversarial Model](parameter-free_algorithms_for_the_stochastically_extended_adversarial_model.md)**
 
@@ -335,13 +387,17 @@
 
 :   提出 Explained Variance Adaptation (EVA)，通过对激活向量进行增量 SVD 来初始化 LoRA 矩阵，可证明地最大化期望梯度信号，并结合自适应秩分配机制在语言生成/理解、图像分类、强化学习等多领域建立了精度-效率的新 Pareto 前沿。
 
+**[Prompt Tuning Decision Transformers with Structured and Scalable Bandits](prompt_tuning_decision_transformers_with_structured_and_scalable_bandits.md)**
+
+:   提出一种基于多臂老虎机的结构化prompt调优方法，通过将prompt分解为独立segment并利用预训练PDT作为特征提取器，将prompt搜索复杂度从组合爆炸降为线性，在多任务离线RL中显著提升冻结PDT骨干网络的推理性能。
+
 **[Provable Ordering and Continuity in Vision-Language Pretraining for Generalizable Embodied Agents](provable_ordering_and_continuity_in_vision-language_pretraining_for_generalizabl.md)**
 
 :   提出 AcTOL，通过视觉-语言排序损失和布朗桥约束来学习有序且连续的视觉-语言表征，无需刚性目标到达假设，在模拟和真实机器人操作任务上显著提升下游表现。
 
-**[Qimeng-Salv Signal-Aware Learning For Verilog Code Generation](qimeng-salv_signal-aware_learning_for_verilog_code_generation.md)**
+**[Quantifying Generalisation in Imitation Learning](quantifying_generalisation_in_imitation_learning.md)**
 
-:   从部分正确的Verilog模块中提取信号级正确实现用于信号感知DPO训练，使7B模型在RTLLM v1.1上达到671B DeepSeek-v3的水平（62.6% pass@1）。
+:   本文提出 Labyrinth 基准环境，通过可控的迷宫结构变化实现训练与评估数据的严格分离，揭示了当前模仿学习方法在结构泛化上的严重不足（最佳方法在测试集仅 5% 成功率），为模仿学习的泛化评估提供了系统性工具。
 
 **[Real-World Reinforcement Learning of Active Perception Behaviors](real-world_reinforcement_learning_of_active_perception_behaviors.md)**
 
@@ -354,6 +410,10 @@
 **[Reinforcement Learning for Long-Horizon Multi-Turn Search Agents](reinforcement_learning_for_long-horizon_multi-turn_search_agents.md)**
 
 :   展示 RL 训练的 14B 参数搜索 agent 在法律文档检索任务上通过多轮交互可以超越 frontier 模型（85% vs GPT o3 的 81%），关键在于精心设计的分段奖励结构和允许长 horizon 多轮交互。
+
+**[Reinforcement Learning Teachers of Test Time Scaling](reinforcement_learning_teachers_of_test_time_scaling.md)**
+
+:   提出强化学习教师（RLT）框架，将问题和答案同时提供给教师模型，训练其生成有效的解释性推理链条，而非从零解题，从而用7B参数的小教师模型产出比数量级更大模型更优的蒸馏数据。
 
 **[Retrosynthesis Planning Via Worst-Path Policy Optimisation In Tree-Structured Md](retrosynthesis_planning_via_worst-path_policy_optimisation_in_tree-structured_md.md)**
 
@@ -375,6 +435,26 @@
 
 :   Tango 提出一种交替 RL 训练生成器和验证器的框架——验证器是生成式过程级 LLM（用自然语言逐步评判），仅用结果级正确性奖励训练（无需步骤标注），通过与生成器的共进化相互增强——在 7B/8B 级别模型上达到SOTA，AIME 2025 准确率相对 vanilla GRPO 提升 100%。
 
+**[Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](robot-r1_reinforcement_learning_for_enhanced_embodied_reasoning_in_robotics.md)**
+
+:   Robot-R1 提出利用强化学习（GRPO）训练大视觉语言模型（LVLM）进行具身推理，通过将下一关键状态预测转化为多选题并用 RL 优化推理路径，仅凭 7B 参数在低级控制推理任务上超越 GPT-4o。
+
+**[Robust Adversarial Reinforcement Learning in Stochastic Games via Sequence Modeling](robust_adversarial_reinforcement_learning_in_stochastic_games_via_sequence_model.md)**
+
+:   提出CART（Conservative Adversarially Robust Decision Transformer），首个在随机博弈中增强Decision Transformer对抗鲁棒性的方法，通过阶段博弈建模和NashQ值估计解决ARDT在随机状态转移下的过度乐观问题，实现更准确的极小极大值估计和更优的最差情况回报。
+
+**[Robust and Diverse Multi-Agent Learning via Rational Policy Gradient](robust_and_diverse_multi-agent_learning_via_rational_policy_gradient.md)**
+
+:   本文提出理性保持策略优化（RPO）框架和理性策略梯度（RPG）算法，通过引入操纵者智能体和对手塑造技术，在合作和一般和博弈场景中消除对抗优化导致的自毁行为，同时实现策略鲁棒化和多样化。
+
+**[RoiRL: Efficient, Self-Supervised Reasoning with Offline Iterative Reinforcement Learning](roirl_efficient_self-supervised_reasoning_with_offline_iterative_reinforcement_l.md)**
+
+:   提出RoiRL——一种基于离线迭代强化学习的轻量级自监督推理框架，通过加权对数似然目标函数替代在线RL（如TTRL），在不需要参考模型和真实标签的情况下实现LLM推理能力的自我提升，训练速度提高2.5倍且性能更优。
+
+**[Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning](router-r1_teaching_llms_multi-round_routing_and_aggregation_via_reinforcement_le.md)**
+
+:   Router-R1 将多 LLM 路由和聚合建模为序列决策过程，用 LLM 自身作为路由器交替执行"思考"和"路由"动作，通过 PPO 训练配合格式/正确性/成本三重奖励，在 7 个 QA 基准上超越所有路由器基线且可泛化到未见过的 LLM。
+
 **[Sample-Efficient Tabular Self-Play for Offline Robust Reinforcement Learning](sample-efficient_tabular_self-play_for_offline_robust_reinforcement_learning.md)**
 
 :   提出 RTZ-VI-LCB 算法用于离线鲁棒两人零和 Markov 博弈（RTZM G），通过乐观鲁棒值迭代 + Bernstein 风格惩罚，实现近最优样本复杂度 $O(C_r^* \cdot H^4 \cdot S \cdot (A+B) / \varepsilon^2)$，较此前最优结果 $O(H^5 \cdot S^2 \cdot AB / \varepsilon^2)$ 在状态空间和动作空间依赖上均有显著改善。
@@ -387,6 +467,10 @@
 
 :   提出将 POMDP 近似为有限状态的 Superstate MDP（状态为截断历史），给出更紧的最优值函数差上界（随历史长度指数衰减），并首次证明标准 TD 学习 + 策略优化在此非马尔可夫采样下的有限时间收敛保证。
 
+**[Self-Improving Embodied Foundation Models](self-improving_embodied_foundation_models.md)**
+
+:   本文提出一种面向具身基础模型的两阶段后训练方法：第一阶段通过行为克隆和 steps-to-go 预测进行监督微调，第二阶段利用 steps-to-go 预测生成的自奖励函数和成功检测器实现在线 RL 自我改进，仅需 1-3% 额外数据即可实现 1.5x 以上的成功率提升，并首次展示了机器人自主学习超出模仿数据分布之外的新技能。
+
 **[Sequential Multi-Agent Dynamic Algorithm Configuration](sequential_multi-agent_dynamic_algorithm_configuration.md)**
 
 :   提出 Seq-MADAC 框架，将多超参数动态配置建模为上下文顺序多智能体 MDP，通过顺序优势分解网络（SADN）利用参数间的固有依赖关系，在多目标优化算法配置上超越现有 MARL 方法。
@@ -394,6 +478,10 @@
 **[Simultaneous Swap Regret Minimization via KL-Calibration](simultaneous_swap_regret_minimization_via_kl-calibration.md)**
 
 :   提出 KL-Calibration 这一更强的校准度量，证明其等价于 log loss 的 swap regret，并通过非均匀离散化和新型随机取整方案实现 $\tilde{\mathcal{O}}(T^{1/3})$ 的同时 swap regret 上界，覆盖比已有工作更广的 proper loss 类。
+
+**[Solving Continuous Mean Field Games: Deep Reinforcement Learning for Non-Stationary Dynamics](solving_continuous_mean_field_games_deep_reinforcement_learning_for_non-stationa.md)**
+
+:   提出DEDA-FP算法，首次在连续状态/动作空间的非平稳平均场博弈（MFG）中同时学习Nash均衡策略和种群分布，通过结合深度RL计算最优响应、监督学习表示平均策略、条件Normalizing Flow建模时变种群分布，实现了比现有方法快10倍以上的采样效率。
 
 **[Solving Neural Min-Max Games: The Role of Architecture, Initialization & Dynamics](solving_neural_min-max_games_the_role_of_architecture_initialization_dynamics.md)**
 
@@ -403,6 +491,14 @@
 
 :   将神经科学中的环形吸引子模型集成到 DRL 的动作选择中，通过将动作映射到环上的空间位置并利用高斯信号注入 Q 值和不确定性，在 Atari 100K 上比基线提升 53%。
 
+**[STAIR: Addressing Stage Misalignment through Temporal-Aligned Preference Reinforcement Learning](stair_addressing_stage_misalignment_through_temporal-aligned_preference_reinforc.md)**
+
+:   发现并形式化了偏好强化学习（PbRL）中的"阶段错位"问题——比较不同阶段的行为片段会产生无效反馈，提出STAIR方法通过对比学习获取时间距离来近似阶段差异，用四边形距离选择阶段对齐的查询，在多阶段任务中显著超越现有PbRL方法。
+
+**[Structural Information-based Hierarchical Diffusion for Offline Reinforcement Learning](structural_information-based_hierarchical_diffusion_for_offline_reinforcement_le.md)**
+
+:   提出SIHD框架，利用历史轨迹中的结构信息（结构熵）自适应构建多尺度扩散层次，用结构信息增益替代局部奖励预测作为条件引导信号，并引入结构熵正则化促进对离线数据中稀疏状态的探索，在D4RL基准上最高提升12.6%的决策性能。
+
 **[Structured Reinforcement Learning for Combinatorial Decision-Making](structured_reinforcement_learning_for_combinatorial_decision-making.md)**
 
 :   提出 Structured Reinforcement Learning (SRL)，将组合优化求解器作为可微层嵌入 actor-critic 的 actor 中，通过 Fenchel-Young 损失 + 高斯扰动实现端到端梯度传播，纯在线学习、无需专家数据，在6个工业级组合决策问题上匹配模仿学习、超越无结构 RL 最高 92%。
@@ -411,6 +507,10 @@
 
 :   首次将强化学习 (RL) 应用于真实世界软件工程任务（GitHub PR/Issue 修复），仅用基于规则的序列相似度奖励训练 Llama-3.3-70B，在 SWE-bench Verified 上达到 41.0% 解决率（中等规模模型 SOTA），且 RL 训练仅在 issue-solving 数据上进行，却涌现出在代码推理、数学、通用语言理解等域外任务上的泛化推理能力。
 
+**[Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment](teaching_language_models_to_evolve_with_users_dynamic_profile_modeling_for_perso.md)**
+
+:   将个性化对话对齐建模为多轮马尔可夫决策过程，提出 RLPA 框架，让 LLM 通过与模拟用户的在线交互学习动态推断和维护用户画像，并据此生成个性化回复。
+
 **[Temporal-Difference Variational Continual Learning](temporal-difference_variational_continual_learning.md)**
 
 :   提出TD-VCL目标函数，将变分持续学习（VCL）中的学习目标重新表示为多个过去后验估计的加权组合，揭示了与强化学习中时序差分（TD）方法的深层联系，通过"分散"正则化压力有效缓解了近似误差的逐步累积问题。
@@ -418,6 +518,14 @@
 **[The Burden of Interactive Alignment with Inconsistent Preferences](the_burden_of_interactive_alignment_with_inconsistent_preferences.md)**
 
 :   将用户与参与度驱动算法的交互建模为多领导者-单跟随者 Stackelberg 博弈，证明存在关键的前瞻视野阈值：超过该阈值的用户可实现对齐，否则反被算法对齐；同时证明引入低成本信号（如额外点击）可大幅降低对齐负担。
+
+**[The Physical Basis of Prediction: World Model Formation in Neural Organoids via an LLM-Generated Curriculum](the_physical_basis_of_prediction_world_model_formation_in_neural_organoids_via_a.md)**
+
+:   本文提出在人类神经类器官（organoids）中研究世界模型形成的框架，设计了三个渐进式虚拟环境（条件回避、捕食者-猎物、Pong），并引入 LLM 自动生成实验方案的元学习方法，结合多尺度生物物理评估策略量化生物学习的物理基础。
+
+**[The World Is Bigger! A Computationally-Embedded Perspective on the Big World Hypothesis](the_world_is_bigger_a_computationally-embedded_perspective_on_the_big_world_hypo.md)**
+
+:   从计算嵌入（computationally-embedded）的视角形式化了"大世界假说"，证明被嵌入在通用局部环境中的智能体天然受限于自身容量，提出"交互性"（interactivity）作为持续适应能力的计算度量，并实验表明深度非线性网络难以维持交互性，而深度线性网络可随容量增加而提升交互性。
 
 **[Thompson Sampling for Multi-Objective Linear Contextual Bandit](thompson_sampling_for_multi-objective_linear_contextual_bandit.md)**
 
@@ -435,13 +543,33 @@
 
 :   通过在 RL 奖励中加入长度惩罚项——正确回答的奖励乘以 $(1 - \alpha \cdot \sigma(\text{norm\_len}))$，用单一超参数 $\alpha$ 控制 token-准确率权衡曲线，仅 100 步 RL 训练即可让 7B 推理模型减少 50% token 使用量而准确率仅下降 <5%。
 
+**[TRiCo: Triadic Game-Theoretic Co-Training for Robust Semi-Supervised Learning](trico_triadic_game-theoretic_co-training_for_robust_semi-supervised_learning.md)**
+
+:   提出 TRiCo 框架，将半监督学习重构为教师-双学生-对抗生成器的三方博弈（Stackelberg 博弈），用互信息替代置信度做伪标签筛选，元学习教师自适应调节训练动态，在低标签场景下实现 SOTA 性能。
+
 **[Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm](trust_region_reward_optimization_and_proximal_inverse_reward_optimization_algori.md)**
 
 :   提出 TRRO 理论框架和 PIRO 实用算法，通过 Minorization-Maximization 过程保证 IRL 中奖励函数更新的单调改进，实现了逆强化学习领域类似于 TRPO/PPO 在正向 RL 中的稳定性保证。
 
+**[Variance-Aware Feel-Good Thompson Sampling for Contextual Bandits](variance-aware_feel-good_thompson_sampling_for_contextual_bandits.md)**
+
+:   提出FGTS-VA算法，首次实现了基于Feel-Good Thompson Sampling的方差感知上下文赌博机算法，其后悔界在模型维度上达到最优，匹配了基于UCB的最优方差依赖后悔界。
+
+**[VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](videorft_incentivizing_video_reasoning_capability_in_mllms_via_reinforced_fine-t.md)**
+
+:   提出 VideoRFT，通过认知启发的多专家 CoT 数据构建流水线和新颖的语义一致性奖励，将强化微调（RFT）范式扩展到视频推理领域，分别构建 VideoRFT-CoT-102K（SFT 用）和 VideoRFT-RL-310K（RL 用）两个数据集，在 6 个视频推理基准上达到 SOTA。
+
+**[VolleyBots: A Testbed for Multi-Drone Volleyball Game Combining Motion Control and Strategic Play](volleybots_a_testbed_for_multi-drone_volleyball_game_combining_motion_control_an.md)**
+
+:   本文提出 VolleyBots，一个多无人机排球竞技测试平台，融合了合作-对抗博弈、回合制交互与敏捷 3D 机动控制，基于 Isaac Sim 构建了从单体训练到多体竞技的任务课程体系，并通过分层策略在 3v3 任务中取得 69.5% 胜率，同时展示了零样本 sim-to-real 部署能力。
+
 **[When Can Model-Free Reinforcement Learning be Enough for Thinking?](when_can_model-free_reinforcement_learning_be_enough_for_thinking.md)**
 
 :   提出 Thought MDP 形式化框架来理解模型无关 RL 中"思考"行为的涌现条件：策略初始化是决定性因素，思考动作等价于智能体在行动前执行一步策略改进，且开源 LLM 满足思考涌现的必要条件。
+
+**[When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners](when_less_language_is_more_language-reasoning_disentanglement_makes_llms_better_.md)**
+
+:   受认知神经科学启发（人脑的推理与语言处理相对独立），在 LLM 的激活空间中识别并消除语言特定成分，实现语言与推理的解耦，从而在免训练条件下一致性地提升多语言推理性能。
 
 **[Zero-Shot Context Generalization in Reinforcement Learning from Few Training Contexts](zero-shot_context_generalization_in_reinforcement_learning_from_few_training_con.md)**
 

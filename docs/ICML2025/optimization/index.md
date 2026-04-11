@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧪 ICML2025** · 共 **56** 篇
+**🧪 ICML2025** · 共 **55** 篇
 
 **[A Generalization Result for Convergence in Learning-to-Optimize](a_generalization_result_for_convergence_in_learning-to-optimize.md)**
 
@@ -126,10 +126,6 @@
 **[Learning to Plan & Reason for Evaluation with Thinking-LLM-as-a-Judge](learning_to_plan_reason_for_evaluation_with_thinking-llm-as-a-judge.md)**
 
 :   提出 EvalPlanner，通过将 LLM-as-a-Judge 的推理过程解耦为"评估计划生成"和"计划执行"两个阶段，并在自训练循环中用 DPO 迭代优化计划与执行的偏好对，在 RewardBench 上以仅 22K 合成偏好对达到 93.9 的生成式奖励模型新 SOTA。
-
-**[M3-JEPA: Multimodal Alignment via Multi-gate MoE based on JEPA](m3-jepa_multimodal_alignment_via_multi-gate_moe_based_on_the_joint-embedding_pre.md)**
-
-:   将JEPA(联合嵌入预测架构)推广到任意模态组合的多模态对齐中，用Multi-gate MoE作为跨模态预测器在潜在空间对齐，通过交替梯度下降解决不同模态任务间的梯度冲突，在视觉-语言/音频-语言等任务上达SOTA。
 
 **[MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines](metaagent_automatically_constructing_multi-agent_systems_based_on_finite_state_m.md)**
 

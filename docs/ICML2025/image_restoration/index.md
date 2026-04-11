@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🧪 ICML2025** · 共 **5** 篇
+**🧪 ICML2025** · 共 **6** 篇
 
 **[Adaptive Estimation and Learning under Temporal Distribution Shift](adaptive_estimation_and_learning_under_temporal_distribution_shift.md)**
 
@@ -10,6 +10,10 @@
 **[AsymRnR: Video Diffusion Transformers Acceleration with Asymmetric Reduction and Restoration](asymrnr_video_diffusion_transformers_acceleration_with_asymmetric_reduction_and_.md)**
 
 :   提出 AsymRnR——一种免训练的视频 DiT 加速方法，基于注意力中不同组件（Q/K/V）、不同层、不同去噪步骤的冗余程度不同的观察，非对称地削减 token 以实现无损加速。
+
+**[ε-VAE: Denoising as Visual Decoding](epsilon-vae_denoising_as_visual_decoding.md)**
+
+:   提出 ε-VAE，将传统自编码器中的单步确定性解码器替换为扩散/去噪过程，实现"去噪即解码"（Denoising as Decoding），在相同压缩率下重建质量提升 40%、下游生成质量提升 22%，或在保持生成质量的同时通过提高压缩率实现 2.3 倍推理加速。
 
 **[Evaluating Deepfake Detectors in the Wild](evaluating_deepfake_detectors_in_the_wild.md)**
 

@@ -1,5 +1,5 @@
 # Auto-generated: ECCV2024 paper notes ignore
-# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+# 由 src/sync_notes.py 根据 TODO.md 自动生成
 
 # 默认忽略所有笔记
 *.md
@@ -8,21 +8,26 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
+!index.md
 
-# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
+# 排除已完成笔记所在的子目录
 !3d_vision/
 !ai_safety/
 !audio_speech/
 !autonomous_driving/
 !causal_inference/
+!dialogue/
 !earth_science/
 !graph_learning/
 !human_understanding/
 !image_generation/
 !image_restoration/
+!information_retrieval/
+!interpretability/
 !llm_agent/
-!llm_alignment/
+!llm_evaluation/
 !llm_nlp/
+!llm_pretraining/
 !llm_reasoning/
 !medical_imaging/
 !model_compression/
@@ -38,6 +43,7 @@
 !segmentation/
 !self_supervised/
 !signal_comm/
+!social_computing/
 !time_series/
 !video_understanding/
 
@@ -103,6 +109,7 @@
 !autonomous_driving/fully_sparse_3d_occupancy_prediction.md
 !autonomous_driving/gaussianformer_scene_as_gaussians_for_vision-based_3d_semantic_occupancy_predict.md
 !causal_inference/distill_gold_from_massive_ores_bi-level_data_pruning_towards_efficient_dataset_d.md
+!dialogue/bi-mdrg_bridging_image_history_in_multimodal_dialogue_response_generation.md
 !earth_science/semi-supervised_video_desnowing_network_via_temporal_decoupling_experts_and_dist.md
 !graph_learning/confidence_self-calibration_for_multi-label_class-incremental_learning.md
 !graph_learning/fine-grained_scene_graph_generation_via_sample-level_bias_prediction.md
@@ -139,18 +146,20 @@
 !image_generation/soft_prompt_generation_for_domain_generalization.md
 !image_restoration/accelerating_image_super-resolution_networks_with_pixel-level_classification.md
 !image_restoration/asymmetric_mask_scheme_for_self-supervised_real_image_denoising.md
+!information_retrieval/artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md
+!information_retrieval/onerestore_a_universal_restoration_framework_for_composite_degradation.md
+!interpretability/improving_intervention_efficacy_via_concept_realignment_in_concept_bottleneck_mo.md
 !llm_agent/agent3d-zero_an_agent_for_zero-shot_3d_understanding.md
 !llm_agent/hydra_a_hyper_agent_for_dynamic_compositional_visual_reasoning.md
-!llm_alignment/improving_intervention_efficacy_via_concept_realignment_in_concept_bottleneck_mo.md
+!llm_evaluation/colormnet_a_memory-based_deep_spatial-temporal_feature_propagation_network_for_v.md
+!llm_evaluation/deep_cost_ray_fusion_for_sparse_depth_video_completion.md
+!llm_evaluation/sigma_sinkhorn-guided_masked_video_modeling.md
 !llm_nlp/adaclip_adapting_clip_with_hybrid_learnable_prompts_for_zero.md
-!llm_nlp/colormnet_a_memory-based_deep_spatial-temporal_feature_propagation_network_for_v.md
-!llm_nlp/deep_cost_ray_fusion_for_sparse_depth_video_completion.md
 !llm_nlp/funqa_towards_surprising_video_comprehension.md
-!llm_nlp/onerestore_a_universal_restoration_framework_for_composite_degradation.md
-!llm_nlp/prompting_language-informed_distribution_for_compositional_zero-shot_learning.md
 !llm_nlp/promptiqa_boosting_the_performance_and_generalization_for_no-reference_image_qua.md
 !llm_nlp/reprojection_errors_as_prompts_for_efficient_scene_coordinate_regression.md
-!llm_nlp/sigma_sinkhorn-guided_masked_video_modeling.md
+!llm_pretraining/cross-domain_learning_for_video_anomaly_detection_with_limited_supervision.md
+!llm_pretraining/prompting_language-informed_distribution_for_compositional_zero-shot_learning.md
 !llm_reasoning/controllable_navigation_instruction_generation_with_chain_of_thought_prompting.md
 !llm_reasoning/roadpainter_points_are_ideal_navigators_for_topology_transformer.md
 !medical_imaging/adaptive_correspondence_scoring_for_unsupervised_medical_ima.md
@@ -168,10 +177,8 @@
 !multimodal_vlm/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md
 !multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md
 !multimodal_vlm/addressclip_empowering_visionlanguage_models_for_citywide_im.md
-!multimodal_vlm/artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md
 !multimodal_vlm/attention_prompting_on_image_for_large_vision-language_models.md
 !multimodal_vlm/beaf_observing_before-after_changes_to_evaluate_hallucination_in_vision-language.md
-!multimodal_vlm/bi-mdrg_bridging_image_history_in_multimodal_dialogue_response_generation.md
 !multimodal_vlm/blink_multimodal_large_language_models_can_see_but_not_perceive.md
 !multimodal_vlm/brave_broadening_the_visual_encoding_of_vision-language_models.md
 !multimodal_vlm/clap_isolating_content_from_style_through_contrastive_learning_with_augmented_pr.md
@@ -211,7 +218,6 @@
 !others/active_generation_for_image_classification.md
 !others/adaptive_highfrequency_transformer_for_diverse_wildlife_reid.md
 !others/bidirectional_uncertainty-based_active_learning_for_open-set_annotation.md
-!others/cross-domain_learning_for_video_anomaly_detection_with_limited_supervision.md
 !others/dc-solver_improving_predictor-corrector_diffusion_sampler_via_dynamic_compensati.md
 !physics/robust_fitting_on_a_gate_quantum_computer.md
 !recommender/aid-appeal_automatic_image_dataset_and_algorithm_for_content_appeal_enhancement_.md
@@ -241,8 +247,8 @@
 !segmentation/visa_reasoning_video_object_segmentation_via_large_language_models.md
 !self_supervised/adaptive_multihead_contrastive_learning.md
 !self_supervised/coho_context-sensitive_city-scale_hierarchical_urban_layout_generation.md
-!self_supervised/distribution-aware_robust_learning_from_long-tailed_data_with_noisy_labels.md
 !signal_comm/pyra_parallel_yielding_re-activation_for_training-inference_efficient_task_adapt.md
+!social_computing/distribution-aware_robust_learning_from_long-tailed_data_with_noisy_labels.md
 !time_series/omnisat_self-supervised_modality_fusion_for_earth_observation.md
 !time_series/semantically_guided_representation_learning_for_action_anticipation.md
 !video_understanding/actionswitch_class-agnostic_detection_of_simultaneous_actions_in_streaming_video.md

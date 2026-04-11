@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**📹 ICCV2025** · 共 **6** 篇
+**📹 ICCV2025** · 共 **8** 篇
 
 **[Addressing Representation Collapse in Vector Quantized Models with One Linear Layer](addressing_representation_collapse_in_vector_quantized_models_with_one_linear_la.md)**
 
@@ -22,6 +22,14 @@
 **[Federated Continual Instruction Tuning](federated_continual_instruction_tuning.md)**
 
 :   首次提出联邦持续指令微调（FCIT）基准，涵盖 2 种场景、4 种设置和 12 个数据集，并设计 DISCO 框架通过动态知识组织（DKO）和子空间选择性激活（SSA）有效解决数据异构性和灾难性遗忘。
+
+**[Federated Prompt-Tuning with Heterogeneous and Incomplete Multimodal Client Data](federated_prompt-tuning_with_heterogeneous_and_incomplete_multimodal_client_data.md)**
+
+:   提出 FED-PRIME，一个面向多模态数据模态缺失场景的联邦 Prompt-Tuning 框架，通过 inter-client 和 intra-client 两组 prompt 分别捕获跨客户端可对齐的缺失模式和客户端内特有的缺失模式，并通过聚类-对齐机制进行服务端聚合，在多种缺失数据设置下大幅超越现有基线。
+
+**[Learning Interpretable Queries for Explainable Image Classification with Information Pursuit](learning_interpretable_queries_for_explainable_image_classification_with_informa.md)**
+
+:   在CLIP语义嵌入空间中将信息追踪（Information Pursuit）的查询字典参数化为可学习向量，通过交替优化算法学习任务充分的可解释查询字典，缩小了可解释分类器与黑盒分类器的性能差距。
 
 **[Memory-Efficient 4-bit Preconditioned Stochastic Optimization](memory-efficient_4-bit_preconditioned_stochastic_optimization.md)**
 

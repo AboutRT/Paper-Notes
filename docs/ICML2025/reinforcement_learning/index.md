@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧪 ICML2025** · 共 **81** 篇
+**🧪 ICML2025** · 共 **79** 篇
 
 **[A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions](a_theoretical_study_of_hyper_self-attention_through_the_lens_of_interactions_rep.md)**
 
@@ -42,10 +42,6 @@
 **[BRITE: Bootstrapping Reinforced Thinking Process to Enhance Language Model Reasoning](brite_bootstrapping_reinforced_thinking_process_to_enhance_language_model_reason.md)**
 
 :   提出 BRITE——通过自举（bootstrapping）方式迭代收集和强化 LLM 的中间思维过程，结合过程级奖励模型和 PPO 训练，持续提升 LLM 在数学推理等任务上的表现。
-
-**[Closed-form Symbolic Solutions: A New Perspective on Solving Partial Differential Equations](closed-form_solutions_a_new_perspective_on_solving_differential_equations.md)**
-
-:   本文提出 SymPDE 框架，利用深度强化学习直接搜索 PDE 的闭式符号解，绕过了 PINNs 数值解精度不足和可解释性差的问题，在 Poisson 方程和热方程上达到 90% 的恢复率。
 
 **[Conceptual Belief-Informed Reinforcement Learning](conceptual_belief-informed_reinforcement_learning.md)**
 
@@ -146,10 +142,6 @@
 **[KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies](kea_keeping_exploration_alive_by_proactively_coordinating_exploration_strategies.md)**
 
 :   提出 KEA 方法，通过引入标准智能体与新颖性增强智能体的动态切换机制，主动协调不同探索策略，解决 SAC 与新颖性探索结合时因策略交互导致的冗余采样和低效探索问题。
-
-**[Large Language Model (LLM)-enabled In-context Learning for Wireless Network Optimization](large_language_model_llm-enabled_in-context_learning_for_wireless_network_optimi.md)**
-
-:   提出基于 LLM 上下文学习（In-context Learning）的基站功率控制算法，通过自然语言任务描述和经验池驱动的示例选择，在不更新模型参数的条件下达到接近传统深度强化学习的性能。
 
 **[Learning Dynamics under Environmental Constraints via Measurement-Induced Bundle Structures](learning_dynamics_under_environmental_constraints_via_measurement-induced_bundle.md)**
 

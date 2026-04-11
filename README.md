@@ -33,17 +33,26 @@
 | `anomaly_detection/` | 异常检测 |
 | `audio_speech/` | 音频/语音 |
 | `autonomous_driving/` | 自动驾驶 |
+| `code_intelligence/` | 代码智能 |
+| `dialogue/` | 对话系统 |
 | `federated_learning/` | 联邦学习 |
 | `human_understanding/` | 人体理解 |
 | `image_generation/` | 图像生成 |
 | `image_restoration/` | 图像恢复 |
+| `information_retrieval/` | 信息检索/RAG |
+| `interpretability/` | 可解释性 |
+| `knowledge_editing/` | 知识编辑 |
 | `llm_agent/` | Agent |
 | `llm_alignment/` | 对齐/RLHF |
 | `llm_efficiency/` | LLM 效率 |
+| `llm_evaluation/` | LLM 评测 |
 | `llm_nlp/` | LLM/NLP (其他) |
+| `llm_pretraining/` | 预训练/数据 |
 | `llm_reasoning/` | LLM 推理 |
+| `llm_safety/` | LLM 安全 |
 | `medical_imaging/` | 医学图像 |
 | `model_compression/` | 模型压缩 |
+| `multilingual_mt/` | 多语言/翻译 |
 | `multimodal_vlm/` | 多模态 VLM |
 | `nlp_generation/` | 文本生成 |
 | `nlp_understanding/` | NLP 理解 |
@@ -54,6 +63,7 @@
 | `robotics/` | 机器人/具身智能 |
 | `segmentation/` | 语义分割 |
 | `self_supervised/` | 自监督学习 |
+| `social_computing/` | 社会计算 |
 | `time_series/` | 时间序列 |
 | `video_understanding/` | 视频理解 |
 | `others/` | 其他 |

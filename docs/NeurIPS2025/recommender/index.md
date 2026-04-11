@@ -1,7 +1,7 @@
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🧠 NeurIPS2025** · 共 **18** 篇
+**🧠 NeurIPS2025** · 共 **19** 篇
 
 **[ASAP: An Agentic Solution to Auto-Optimize Performance of Large-Scale LLM Training](asap_an_agentic_solution_to_auto-optimize_performance_of_large-scale_llm_trainin.md)**
 
@@ -46,6 +46,10 @@
 **[Position: Towards Bidirectional Human-AI Alignment](position_towards_bidirectional_human-ai_alignment.md)**
 
 :   本文提出**双向人机对齐（Bidirectional Human-AI Alignment）**框架，从系统综述400+篇论文出发，论证AI对齐不应仅是单向地"让AI对齐人类"，还应包括"让人类适应AI"这一被严重忽视的方向，并识别了当前研究的关键缺口。
+
+**[R²ec: Towards Large Recommender Models with Reasoning](r2ec_towards_large_recommender_models_with_reasoning.md)**
+
+:   提出R²ec，首个将推理能力内生地集成到推荐模型中的统一大推荐模型，通过双头架构实现推理链生成与高效物品预测的一体化，并设计RecPO强化学习框架在无推理标注数据下联合优化推理与推荐目标。
 
 **[Radial Neighborhood Smoothing Recommender System](radial_neighborhood_smoothing_recommender_system.md)**
 
