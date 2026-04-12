@@ -191,3 +191,10 @@
   font-size: 0.8em;
   text-decoration: none;
 }
+
+/* ── Mobile: hide heading permalink anchors to prevent accidental taps ── */
+@media (max-width: 960px) {
+  .headerlink {
+    display: none !important;
+  }
+}
