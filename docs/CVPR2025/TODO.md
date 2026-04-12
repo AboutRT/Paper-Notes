@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # CVPR2025 论文笔记 TODO
 
-总计: 3068 篇 | 已完成: 225 | 待更新: 2843
+总计: 3068 篇 | 已完成: 231 | 待更新: 2837
 
 ---
 
@@ -21,7 +21,7 @@
 - [x] [3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning](3d_vision/3d-mem_3d_scene_memory_for_embodied_exploration_and_reasoning.md) | arXiv: 2411.17735
 - [x] [3D-MVP: 3D Multiview Pretraining for Robotic Manipulation](robotics/3d-mvp_3d_multiview_pretraining_for_manipulation.md) | arXiv: 2406.18158
 - [x] [3D-SLNR: A Super Lightweight Neural Representation for Large-scale 3D Mapping](3d_vision/3d-slnr_a_super_lightweight_neural_representation_for_large-scale_3d_mapping.md)
-- [ ] [3denhancer consistent multi-view diffusion for 3d enhancement](3d_vision/3denhancer_consistent_multi-view_diffusion_for_3d_enhancement.md) | arXiv: 2412.18565
+- [x] [3denhancer consistent multi-view diffusion for 3d enhancement](3d_vision/3denhancer_consistent_multi-view_diffusion_for_3d_enhancement.md) | arXiv: 2412.18565
 - [ ] [3dgut enabling distorted cameras and secondary rays in gaussian splatting](3d_vision/3dgut_enabling_distorted_cameras_and_secondary_rays_in_gaussian_splatting.md) | arXiv: 2412.12507
 - [x] [3dtopia-xl scaling high-quality 3d asset generation via primitive diffusion](image_generation/3dtopia-xl_scaling_high-quality_3d_asset_generation_via_primitive_diffusion.md) | arXiv: 2409.12957
 - [x] [4d langsplat 4d language gaussian splatting via multimodal large language models](multimodal_vlm/4d_langsplat_4d_language_gaussian_splatting_via_multimodal_large_language_models.md) | arXiv: 2503.10437
@@ -35,10 +35,10 @@
 - [ ] [a bias-free training paradigm for more general ai-generated image detection](object_detection/a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md) | arXiv: 2412.17671
 - [x] [a closed-form solution for debiasing vision-language models with utility guarant](multimodal_vlm/a_closed-form_solution_for_debiasing_vision-language_models_with_utility_guarant.md) | arXiv: 2603.12998
 - [ ] [a closer look at time steps is worthy of triple speed-up for diffusion model tra](image_generation/a_closer_look_at_time_steps_is_worthy_of_triple_speed-up_for_diffusion_model_tra.md)
-- [ ] [a comprehensive study of decoder-only llms for text-to-image generation](image_generation/a_comprehensive_study_of_decoder-only_llms_for_text-to-image_generation.md) | arXiv: 2506.08210
+- [x] [a comprehensive study of decoder-only llms for text-to-image generation](image_generation/a_comprehensive_study_of_decoder-only_llms_for_text-to-image_generation.md) | arXiv: 2506.08210
 - [ ] [a data-centric revisit of pre-trained vision models for robot learning](robotics/a_data-centric_revisit_of_pre-trained_vision_models_for_robot_learning.md) | arXiv: 2503.06960
 - [ ] [a dataset for semantic segmentation in the presence of unknowns](autonomous_driving/a_dataset_for_semantic_segmentation_in_the_presence_of_unknowns.md) | arXiv: 2503.22309
-- [ ] [a distractor-aware memory for visual object tracking with sam2](segmentation/a_distractor-aware_memory_for_visual_object_tracking_with_sam2.md) | arXiv: 2411.17576
+- [x] [a distractor-aware memory for visual object tracking with sam2](segmentation/a_distractor-aware_memory_for_visual_object_tracking_with_sam2.md) | arXiv: 2411.17576
 - [ ] [a flag decomposition for hierarchical datasets](image_restoration/a_flag_decomposition_for_hierarchical_datasets.md) | arXiv: 2502.07782
 - [ ] [a focused human body model for accurate anthropometric measurements extraction](3d_vision/a_focused_human_body_model_for_accurate_anthropometric_measurements_extraction.md)
 - [ ] [a general adaptive dual-level weighting mechanism for remote sensing pansharpeni](remote_sensing/a_general_adaptive_dual-level_weighting_mechanism_for_remote_sensing_pansharpeni.md)
@@ -117,7 +117,7 @@
 - [ ] [advancing generalizable tumor segmentation with anomaly-aware open-vocabulary at](medical_imaging/advancing_generalizable_tumor_segmentation_with_anomaly-aware_open-vocabulary_at.md)
 - [ ] [advancing manga analysis comprehensive segmentation annotations for the manga109](segmentation/advancing_manga_analysis_comprehensive_segmentation_annotations_for_the_manga109.md)
 - [ ] [advancing multiple instance learning with continual learning for whole slide ima](medical_imaging/advancing_multiple_instance_learning_with_continual_learning_for_whole_slide_ima.md)
-- [ ] [advancing myopia to holism fully contrastive language-image pre-training](multimodal_vlm/advancing_myopia_to_holism_fully_contrastive_language-image_pre-training.md) | arXiv: 2412.00440
+- [x] [advancing myopia to holism fully contrastive language-image pre-training](multimodal_vlm/advancing_myopia_to_holism_fully_contrastive_language-image_pre-training.md) | arXiv: 2412.00440
 - [ ] [advancing semantic future prediction through multimodal visual sequence transfor](segmentation/advancing_semantic_future_prediction_through_multimodal_visual_sequence_transfor.md)
 - [ ] [adventurer optimizing vision mamba architecture designs for efficiency](causal_inference/adventurer_optimizing_vision_mamba_architecture_designs_for_efficiency.md) | arXiv: 2410.07599
 - [ ] [adversarial diffusion compression for real-world image super-resolution](image_restoration/adversarial_diffusion_compression_for_real-world_image_super-resolution.md) | arXiv: 2411.13383
@@ -153,14 +153,14 @@
 - [ ] [an end-to-end robust point cloud semantic segmentation network with single-step ](3d_vision/an_end-to-end_robust_point_cloud_semantic_segmentation_network_with_single-step_.md)
 - [x] [an fpga implementation of displacement vector search for intra pattern copy in j](model_compression/an_fpga_implementation_of_displacement_vector_search_for_intra_pattern_copy_in_j.md) | arXiv: 2603.10671
 - [ ] [an image-like diffusion method for human-object interaction detection](image_generation/an_image-like_diffusion_method_for_human-object_interaction_detection.md) | arXiv: 2503.18134
-- [ ] [analyzing the synthetic-to-real domain gap in 3d hand pose estimation](human_understanding/analyzing_the_synthetic-to-real_domain_gap_in_3d_hand_pose_estimation.md) | arXiv: 2503.19307
+- [x] [analyzing the synthetic-to-real domain gap in 3d hand pose estimation](human_understanding/analyzing_the_synthetic-to-real_domain_gap_in_3d_hand_pose_estimation.md) | arXiv: 2503.19307
 - [ ] [anatomical consistency and adaptive prior-informed transformation for multi-cont](medical_imaging/anatomical_consistency_and_adaptive_prior-informed_transformation_for_multi-cont.md)
 - [ ] [anchor-aware similarity cohesion in target frames enables predicting temporal mo](object_detection/anchor-aware_similarity_cohesion_in_target_frames_enables_predicting_temporal_mo.md)
 - [ ] [anidoc animation creation made easier](image_generation/anidoc_animation_creation_made_easier.md) | arXiv: 2412.14173
 - [ ] [anigrad anisotropic gradient-adaptive sampling for 3d reconstruction from monocu](3d_vision/anigrad_anisotropic_gradient-adaptive_sampling_for_3d_reconstruction_from_monocu.md)
 - [ ] [anigs animatable gaussian avatar from a single image with inconsistent gaussian ](3d_vision/anigs_animatable_gaussian_avatar_from_a_single_image_with_inconsistent_gaussian_.md) | arXiv: 2412.02684
 - [ ] [animate and sound an image](image_generation/animate_and_sound_an_image.md)
-- [ ] [animateanything consistent and controllable animation for video generation](video_understanding/animateanything_consistent_and_controllable_animation_for_video_generation.md) | arXiv: 2411.10836
+- [x] [animateanything consistent and controllable animation for video generation](video_understanding/animateanything_consistent_and_controllable_animation_for_video_generation.md) | arXiv: 2411.10836
 - [ ] [animer animal pose and shape estimation using family aware transformer](image_generation/animer_animal_pose_and_shape_estimation_using_family_aware_transformer.md) | arXiv: 2412.00837
 - [ ] [animo species-aware model for text-driven animal motion generation](human_understanding/animo_species-aware_model_for_text-driven_animal_motion_generation.md)
 - [ ] [annexe unified analyzing answering and pixel grounding for egocentric interactio](multimodal_vlm/annexe_unified_analyzing_answering_and_pixel_grounding_for_egocentric_interactio.md)

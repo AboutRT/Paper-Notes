@@ -1,5 +1,5 @@
 # Auto-generated: AAAI2026 paper notes ignore
-# 已完成笔记由 src/gen_gitignore.py 根据 TODO.md 排除
+# 由 src/sync_notes.py 根据 TODO.md 自动生成
 
 # 默认忽略所有笔记
 *.md
@@ -8,8 +8,9 @@
 # 保留元数据文件
 !TODO.md
 !INDEX.md
+!index.md
 
-# 排除已完成笔记所在的子目录（git 要求先 unignore 父目录）
+# 排除已完成笔记所在的子目录
 !3d_vision/
 !ai_safety/
 !aigc_detection/
@@ -642,6 +643,8 @@
 !llm_evaluation/nestr_a_neuro-symbolic_abductive_framework_for_temporal_reasoning_in_large_langu.md
 !llm_evaluation/optscale_probabilistic_optimality_for_inference-time_scaling.md
 !llm_evaluation/perspective_from_a_broader_context_can_room_style_knowledge_help_visual_floorpla.md
+!llm_evaluation/refinevad_semantic-guided_feature_recalibration_for_weakly_supervised_video_anom.md
+!llm_evaluation/regular_games_--_an_automata-based_general_game_playing_language.md
 !llm_evaluation/where_norms_and_references_collide_evaluating_llms_on_normative_reasoning.md
 !llm_nlp/an_invariant_latent_space_perspective_on_language_model_inve.md
 !llm_nlp/blue_teaming_function-calling_agents.md
@@ -1087,9 +1090,6 @@
 !others/private_frequency_estimation_via_residue_number_systems.md
 !others/provably_data-driven_projection_method_for_quadratic_programming.md
 !others/rcae_recursive_reconstruction_framework_for_unsupervised_industrial_anomaly_dete.md
-!others/reasoning_about_the_unsaid_misinformation_detection_with_omission-aware_graph_in.md
-!others/refinevad_semantic-guided_feature_recalibration_for_weakly_supervised_video_anom.md
-!others/regular_games_--_an_automata-based_general_game_playing_language.md
 !others/reimagining_anomalies_what_if_anomalies_were_normal.md
 !others/rethinking_flow_and_diffusion_bridge_models_for_speech_enhancement.md
 !others/reward_redistribution_via_gaussian_process_likelihood_estimation.md
@@ -1283,6 +1283,7 @@
 !social_computing/factguard_event-centric_and_commonsense-guided_fake_news_detection.md
 !social_computing/factorut_controlling_untrusted_ai_by_monitoring_their_plans.md
 !social_computing/multi-modal_dynamic_proxy_learning_for_personalized_multiple_clustering.md
+!social_computing/reasoning_about_the_unsaid_misinformation_detection_with_omission-aware_graph_in.md
 !social_computing/scenejaileval_a_scenario-adaptive_multi-dimensional_framework_for_jailbreak_eval.md
 !social_computing/t2agent_a_tool-augmented_multimodal_misinformation_detection_agent_with_monte_ca.md
 !time_series/a_unified_shape-aware_foundation_model_for_time_series_class.md

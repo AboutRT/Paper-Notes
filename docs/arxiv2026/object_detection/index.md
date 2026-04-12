@@ -15,7 +15,7 @@
 
 :   用药错误和药物不良事件 (ADE) 对患者安全构成重大风险，通常是由于在现实环境中难以可靠地识别药物而引起的。
 
-**[Empowering Semantic-Sensitive Underwater Image Enhancement with VLM](empowering_semanticsensitive_underwater_image.md)**
+**[Empowering Semanticsensitive Underwater Image](empowering_semanticsensitive_underwater_image.md)**
 
 :   提出一种 VLM 驱动的语义敏感水下图像增强（UIE）策略，利用 VLM 生成关键物体文本描述，通过文本-图像对齐模型生成空间语义引导图，再通过交叉注意力注入和显式对齐损失的双引导机制，引导增强网络将修复资源集中在语义关键区域，同时提升感知质量和下游检测/分割性能。
 

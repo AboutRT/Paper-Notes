@@ -3,11 +3,11 @@
 
 **📄 arxiv2026** · 共 **11** 篇
 
-**[Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](ada3drift_adaptive_trainingtime_drifting.md)**
+**[Ada3Drift Adaptive Trainingtime Drifting](ada3drift_adaptive_trainingtime_drifting.md)**
 
 :   Ada3Drift 将迭代生成的细化工作迁移到训练阶段，通过学习训练时的漂移场与多尺度场聚合，使模型在推理时实现单步（1 NFE）生成同时保留多模态动作的高保真度，适配实时机器人控制需求。
 
-**[BenDFM: A taxonomy and synthetic CAD dataset for manufacturability assessment in sheet metal bending](bendfm_taxonomy_synthetic_cad.md)**
+**[Bendfm Taxonomy Synthetic Cad](bendfm_taxonomy_synthetic_cad.md)**
 
 :   提出一套针对钣金弯曲（sheet metal bending）可制造性评估的分类法，并基于此构建了 BenDFM：一个合成 CAD 数据集与基准，用于研究几何/配置依赖的可制造性标签与复杂度度量。
 
@@ -15,7 +15,7 @@
 
 :   我们引入 Catalyst4D，这是一个框架，可将高质量 3D 编辑传输到动态 4D 高斯场景，同时保持空间和时间一致性。
 
-**[CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration](cmhanet_crossmodal_hybrid_attention.md)**
+**[Cmhanet Crossmodal Hybrid Attention](cmhanet_crossmodal_hybrid_attention.md)**
 
 :   提出 CMHANet，通过将 2D 图像上下文与 3D 点云特征进行跨模态融合，并使用混合注意力机制和基于对比学习的几何一致性损失，提升点云配准在低重叠、噪声和部分观测场景下的鲁棒性与精度。
 
@@ -27,11 +27,11 @@
 
 :   为此，我们提出了 CHROMM，一个统一的框架，可以从多人多视图视频中联合估计摄像机、场景点云和人体网格，而无需依赖外部模块或预处理。
 
-**[IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration](igasa_integrated_geometryaware_skipattention.md)**
+**[Igasa Integrated Geometryaware Skipattention](igasa_integrated_geometryaware_skipattention.md)**
 
 :   提出 IGASA，一个基于分层金字塔架构的点云配准框架，结合分层跨层注意力（HCLA）与迭代几何感知细化（IGAR），以在噪声、遮挡和大变换场景下实现更稳健的多尺度匹配与对齐。
 
-**[Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization](learning_geometric_photometric_features.md)**
+**[Learning Geometric Photometric Features](learning_geometric_photometric_features.md)**
 
 :   提出在全向 LiDAR 扫描上联合学习几何与光度（反射率）特征的框架，并发布 MPO（Multimodal Panoramic Outdoor）数据集，展示在户外场所分类任务上的有效性。
 

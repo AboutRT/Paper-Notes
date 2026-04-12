@@ -35,7 +35,7 @@
 
 :   用药错误和药物不良事件 (ADE) 对患者安全构成重大风险，通常是由于在现实环境中难以可靠地识别药物而引起的。
 
-**[Empowering Semantic-Sensitive Underwater Image Enhancement with VLM](object_detection/empowering_semanticsensitive_underwater_image.md)**
+**[Empowering Semanticsensitive Underwater Image](object_detection/empowering_semanticsensitive_underwater_image.md)**
 
 :   提出一种 VLM 驱动的语义敏感水下图像增强（UIE）策略，利用 VLM 生成关键物体文本描述，通过文本-图像对齐模型生成空间语义引导图，再通过交叉注意力注入和显式对齐损失的双引导机制，引导增强网络将修复资源集中在语义关键区域，同时提升感知质量和下游检测/分割性能。
 
@@ -131,11 +131,11 @@
 
 ## 🧊 3D 视觉 { #3d_vision }
 
-**[Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](3d_vision/ada3drift_adaptive_trainingtime_drifting.md)**
+**[Ada3Drift Adaptive Trainingtime Drifting](3d_vision/ada3drift_adaptive_trainingtime_drifting.md)**
 
 :   Ada3Drift 将迭代生成的细化工作迁移到训练阶段，通过学习训练时的漂移场与多尺度场聚合，使模型在推理时实现单步（1 NFE）生成同时保留多模态动作的高保真度，适配实时机器人控制需求。
 
-**[BenDFM: A taxonomy and synthetic CAD dataset for manufacturability assessment in sheet metal bending](3d_vision/bendfm_taxonomy_synthetic_cad.md)**
+**[Bendfm Taxonomy Synthetic Cad](3d_vision/bendfm_taxonomy_synthetic_cad.md)**
 
 :   提出一套针对钣金弯曲（sheet metal bending）可制造性评估的分类法，并基于此构建了 BenDFM：一个合成 CAD 数据集与基准，用于研究几何/配置依赖的可制造性标签与复杂度度量。
 
@@ -143,7 +143,7 @@
 
 :   我们引入 Catalyst4D，这是一个框架，可将高质量 3D 编辑传输到动态 4D 高斯场景，同时保持空间和时间一致性。
 
-**[CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration](3d_vision/cmhanet_crossmodal_hybrid_attention.md)**
+**[Cmhanet Crossmodal Hybrid Attention](3d_vision/cmhanet_crossmodal_hybrid_attention.md)**
 
 :   提出 CMHANet，通过将 2D 图像上下文与 3D 点云特征进行跨模态融合，并使用混合注意力机制和基于对比学习的几何一致性损失，提升点云配准在低重叠、噪声和部分观测场景下的鲁棒性与精度。
 
@@ -155,11 +155,11 @@
 
 :   为此，我们提出了 CHROMM，一个统一的框架，可以从多人多视图视频中联合估计摄像机、场景点云和人体网格，而无需依赖外部模块或预处理。
 
-**[IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration](3d_vision/igasa_integrated_geometryaware_skipattention.md)**
+**[Igasa Integrated Geometryaware Skipattention](3d_vision/igasa_integrated_geometryaware_skipattention.md)**
 
 :   提出 IGASA，一个基于分层金字塔架构的点云配准框架，结合分层跨层注意力（HCLA）与迭代几何感知细化（IGAR），以在噪声、遮挡和大变换场景下实现更稳健的多尺度匹配与对齐。
 
-**[Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization](3d_vision/learning_geometric_photometric_features.md)**
+**[Learning Geometric Photometric Features](3d_vision/learning_geometric_photometric_features.md)**
 
 :   提出在全向 LiDAR 扫描上联合学习几何与光度（反射率）特征的框架，并发布 MPO（Multimodal Panoramic Outdoor）数据集，展示在户外场所分类任务上的有效性。
 
@@ -191,7 +191,7 @@
 
 :   为此，我们提出了 EvoPrompt，这是一种新颖的框架，旨在明确引导提示轨迹，以实现稳定、保留知识的微调。
 
-**[Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning](multimodal_vlm/mastering_negation_boosting_grounding.md)**
+**[Mastering Negation Boosting Grounding](multimodal_vlm/mastering_negation_boosting_grounding.md)**
 
 :   当前的视觉语言检测和基础模型主要关注具有积极语义的提示，并且常常难以准确解释和基础包含消极语义的复杂表达。
 
@@ -319,7 +319,7 @@
 
 :   在这项工作中，我们研究了有针对性的深度学习替代是否可以改进 SIENA，同时保留其已建立的和可解释的框架。
 
-**[SAP: Segment Any 4K Panorama](segmentation/sap_segment_any_4k.md)**
+**[Sap Segment Any 4K](segmentation/sap_segment_any_4k.md)**
 
 :   SAP将全景图实例分割重新建模为固定轨迹的透视视频分割任务，通过column-first zigzag扫描将ERP全景图分解为连续重叠的透视patch序列，并用InfiniGen合成183K张4K全景图微调SAM2，在真实4K全景图上零样本mIoU比原始SAM2平均提升+17.2。
 
@@ -343,7 +343,7 @@
 
 :   在本文中，我们提供了统一的理论和实证分析，表明非对抗性扩散编辑可能会无意中降低或删除鲁棒水印。
 
-**[Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](image_generation/referencefree_image_quality_assessment.md)**
+**[Referencefree Image Quality Assessment](image_generation/referencefree_image_quality_assessment.md)**
 
 :   给定人物图像和服装图像，基于图像的虚拟试穿（VTON）会合成穿着目标服装的人的试穿图像。
 

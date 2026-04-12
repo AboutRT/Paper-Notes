@@ -3,10 +3,10 @@
 
 **🎞️ ECCV2024** · 共 **2** 篇
 
-**[Agent3D-Zero: An Agent for Zero-shot 3D Understanding](agent3d-zero_an_agent_for_zero-shot_3d_understanding.md)**
+**[Agent3D-Zero An Agent For Zero-Shot 3D Understanding](agent3d-zero_an_agent_for_zero-shot_3d_understanding.md)**
 
 :   Agent3D-Zero 提出一个基于 VLM 的零样本 3D 场景理解 Agent 框架，通过鸟瞰图上的 Set-of-Line 视觉提示引导 VLM 主动选择观察视角，并综合多视角图像进行 3D 推理，在 ScanQA 等任务上超越了需要微调的 3D-LLM 方法。
 
-**[HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning](hydra_a_hyper_agent_for_dynamic_compositional_visual_reasoning.md)**
+**[Hydra A Hyper Agent For Dynamic Compositional Visual Reasoning](hydra_a_hyper_agent_for_dynamic_compositional_visual_reasoning.md)**
 
 :   （注：基于摘要的简要笔记）提出 HYDRA，一种多阶段动态组合式视觉推理框架，通过规划器（Planner）、强化学习认知控制器（RL Agent）和推理器（Reasoner）三模块协作，实现可靠且渐进式的视觉推理，在 RefCOCO/RefCOCO+、OK-VQA、GQA 等多个数据集上取得 SOTA。

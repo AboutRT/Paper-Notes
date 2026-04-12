@@ -15,7 +15,7 @@
 
 :   在本文中，我们提供了统一的理论和实证分析，表明非对抗性扩散编辑可能会无意中降低或删除鲁棒水印。
 
-**[Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback](referencefree_image_quality_assessment.md)**
+**[Referencefree Image Quality Assessment](referencefree_image_quality_assessment.md)**
 
 :   给定人物图像和服装图像，基于图像的虚拟试穿（VTON）会合成穿着目标服装的人的试穿图像。
 

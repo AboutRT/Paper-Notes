@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # NeurIPS2025 论文笔记 TODO
 
-总计: 2525 篇 | 已完成: 2360 | 待更新: 165
+总计: 2525 篇 | 已完成: 2385 | 待更新: 140
 
 ---
 
@@ -30,7 +30,7 @@
 - [x] [A Graph Neural Network Approach for Localized and High-Resolution Temperature Forecasting](time_series/a_graph_neural_network_approach_for_localized_and_high-resolution_temperature_fo.md) | arXiv: 2512.00546
 - [x] [A High-Dimensional Statistical Method for Optimizing Transfer Quantities in Multi-Source Transfer Learning](others/a_highdimensional_statistical_method_for_optimizing_transfer.md) | arXiv: 2502.04242
 - [x] [A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders](model_compression/a_is_for_absorption_studying_feature_splitting_and_absorption_in_sparse_autoenco.md) | arXiv: 2409.14507
-- [ ] [a joint learning approach to hardware caching and prefetching](self_supervised/a_joint_learning_approach_to_hardware_caching_and_prefetching.md) | arXiv: 2510.10862
+- [x] [a joint learning approach to hardware caching and prefetching](self_supervised/a_joint_learning_approach_to_hardware_caching_and_prefetching.md) | arXiv: 2510.10862
 - [x] [A Little Depth Goes a Long Way: The Expressive Power of Log-Depth Transformers](video_understanding/a_little_depth_goes_a_long_way_the_expressive_power_of_logde.md) | arXiv: 2503.03961
 - [x] [A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings](llm_efficiency/a_multitask_benchmark_for_abusive_language_detection_in_lowr.md) | arXiv: 2505.12116
 - [x] [A Multimodal Benchmark for Framing of Oil & Gas Advertising and Potential Greenwashing Detection](multimodal_vlm/a_multimodal_benchmark_for_framing_of_oil_gas_advertising_an.md) | arXiv: 2510.21679
@@ -91,7 +91,7 @@
 - [x] [Adapting Vision-Language Models for Evaluating World Models](multimodal_vlm/adapting_visionlanguage_models_for_evaluating_world_models.md) | arXiv: 2506.17967
 - [x] [Adaptive Algorithms with Sharp Convergence Rates for Stochastic Hierarchical Optimization](optimization/adaptive_algorithms_with_sharp_convergence_rates_for_stochas.md) | arXiv: 2509.15399
 - [x] [adaptive cooperative transmission design for ultra-reliable low-latency communic](llm_agent/adaptive_cooperative_transmission_design_for_ultra-reliable_low-latency_communic.md) | arXiv: 2511.02216
-- [ ] [adaptive coopetition leveraging coarse verifier signals for resilient multi-agen](llm_agent/adaptive_coopetition_leveraging_coarse_verifier_signals_for_resilient_multi-agen.md) | arXiv: 2510.18179
+- [x] [adaptive coopetition leveraging coarse verifier signals for resilient multi-agen](llm_agent/adaptive_coopetition_leveraging_coarse_verifier_signals_for_resilient_multi-agen.md) | arXiv: 2510.18179
 - [x] [Adaptive Data Analysis for Growing Data](others/adaptive_data_analysis_for_growing_data.md) | arXiv: 2405.13375
 - [x] [Adaptive Discretization for Consistency Models](image_restoration/adaptive_discretization_for_consistency_models.md) | arXiv: 2510.17266
 - [x] [Adaptive Dual Reasoner: Large Reasoning Models Can Think Efficiently by Hybrid Reasoning](llm_reasoning/adaptive_dual_reasoner_large_reasoning_models_can_think_efficiently_by_hybrid_re.md) | arXiv: 2510.10207
@@ -108,9 +108,9 @@
 - [x] [AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding](video_understanding/adavideorag_omnicontextual_adaptive_retrievalaugmented_effic.md) | arXiv: 2506.13589
 - [x] [additive models explained a computational complexity approach](others/additive_models_explained_a_computational_complexity_approach.md) | arXiv: 2510.21292
 - [x] [addressing mark imbalance in integrationfree neural marked t](others/addressing_mark_imbalance_in_integrationfree_neural_marked_t.md) | arXiv: 2510.20414
-- [ ] [adjacent words divergent intents jailbreaking large language models via task con](llm_alignment/adjacent_words_divergent_intents_jailbreaking_large_language_models_via_task_con.md) | arXiv: 2510.21189
+- [x] [adjacent words divergent intents jailbreaking large language models via task con](llm_alignment/adjacent_words_divergent_intents_jailbreaking_large_language_models_via_task_con.md) | arXiv: 2510.21189
 - [x] [Adjoint Schrödinger Bridge Sampler](others/adjoint_schrödinger_bridge_sampler.md) | arXiv: 2506.22565
-- [ ] [adjusted count quantification learning on graphs](others/adjusted_count_quantification_learning_on_graphs.md) | arXiv: 2503.09395
+- [x] [adjusted count quantification learning on graphs](others/adjusted_count_quantification_learning_on_graphs.md) | arXiv: 2503.09395
 - [x] [ADMN: A Layer-Wise Adaptive Multimodal Network for Dynamic Input Noise and Compute Resources](multimodal_vlm/admn_a_layerwise_adaptive_multimodal_network_for_dynamic_inp.md) | arXiv: 2502.07862
 - [x] [AdmTree: Compressing Lengthy Context with Adaptive Semantic Trees](model_compression/admtree_compressing_lengthy_context_with_adaptive_semantic_trees.md) | arXiv: 2512.04550
 - [x] [ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining](others/adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md) | arXiv: 2511.05245
@@ -129,7 +129,7 @@
 - [x] [Agentic Plan Caching: Test-Time Memory for Fast and Cost-Efficient LLM Agents](llm_agent/agentic_plan_caching_test-time_memory_for_fast_and_cost-efficient_llm_agents.md) | arXiv: 2506.14852
 - [x] [AgentiQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation](nlp_understanding/agentiql_an_agent-inspired_multi-expert_framework_for_text-to-sql_generation.md) | arXiv: 2510.10661
 - [x] [AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents](llm_agent/agentmisalignment_measuring_the_propensity_for_misaligned_behaviour_in_llm-based.md) | arXiv: 2506.04018
-- [ ] [agentstealth reinforcing large language model for anonymizing user-generated tex](ai_safety/agentstealth_reinforcing_large_language_model_for_anonymizing_user-generated_tex.md) | arXiv: 2506.22508
+- [x] [agentstealth reinforcing large language model for anonymizing user-generated tex](ai_safety/agentstealth_reinforcing_large_language_model_for_anonymizing_user-generated_tex.md) | arXiv: 2506.22508
 - [x] [AgentTTS: Large Language Model Agent for Test-time Compute-optimal Scaling Strategy in Complex Tasks](llm_agent/agenttts_large_language_model_agent_for_testtime_computeopti.md) | arXiv: 2508.00890
 - [x] [aggregation hides out-of-distribution generalization failures from spurious corr](others/aggregation_hides_out-of-distribution_generalization_failures_from_spurious_corr.md) | arXiv: 2510.24884
 - [x] [Agint: Agentic Graph Compilation for Software Engineering Agents](human_understanding/agint_agentic_graph_compilation_for_software_engineering_age.md) | arXiv: 2511.19635
@@ -164,12 +164,12 @@
 - [x] [Approximately Aligned Decoding](llm_efficiency/approximately_aligned_decoding.md) | arXiv: 2410.01103
 - [x] [approximating shapley explanations in reinforcement learning](reinforcement_learning/approximating_shapley_explanations_in_reinforcement_learning.md) | arXiv: 2511.06094
 - [x] [aquamam an autoregressive quaternion manifold model for rapidly estimating compl](multimodal_vlm/aquamam_an_autoregressive_quaternion_manifold_model_for_rapidly_estimating_compl.md) | arXiv: 2301.08838
-- [ ] [are greedy task orderings better than random in continual linear regression](others/are_greedy_task_orderings_better_than_random_in_continual_linear_regression.md) | arXiv: 2510.19941
+- [x] [are greedy task orderings better than random in continual linear regression](others/are_greedy_task_orderings_better_than_random_in_continual_linear_regression.md) | arXiv: 2510.19941
 - [x] [Are Language Models Efficient Reasoners? A Perspective from Logic Programming](llm_nlp/are_language_models_efficient_reasoners_a_perspective_from_logic_programming.md) | arXiv: 2510.25626
 - [x] [are large language models sensitive to the motives behind communication](llm_agent/are_large_language_models_sensitive_to_the_motives_behind_communication.md) | arXiv: 2510.19687
 - [x] [are large reasoning models good translation evaluators analysis and performance ](llm_reasoning/are_large_reasoning_models_good_translation_evaluators_analysis_and_performance_.md) | arXiv: 2510.20780
 - [x] [are pixel-wise metrics reliable for sparse-view computed tomography reconstructi](others/are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md) | arXiv: 2506.02093
-- [ ] [are vision language models ready for clinical diagnosis a 3d medical benchmark f](multimodal_vlm/are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md) | arXiv: 2505.18915
+- [x] [are vision language models ready for clinical diagnosis a 3d medical benchmark f](multimodal_vlm/are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md) | arXiv: 2505.18915
 - [x] [arecho autoregressive evaluation via chain-based hypothesis optimization for spe](llm_nlp/arecho_autoregressive_evaluation_via_chain-based_hypothesis_optimization_for_spe.md) | arXiv: 2505.24518
 - [x] [ARGenSeg: Image Segmentation with Autoregressive Image Generation Model](segmentation/argenseg_image_segmentation_with_autoregressive_image_generation_model.md) | arXiv: 2510.20803
 - [x] [ARM: Adaptive Reasoning Model](llm_reasoning/arm_adaptive_reasoning_model.md) | arXiv: 2505.20258
@@ -183,15 +183,15 @@
 - [x] [astroco self-supervised conformer-style transformers for light-curve embeddings](physics/astroco_self-supervised_conformer-style_transformers_for_light-curve_embeddings.md) | arXiv: 2509.24134
 - [x] [astrovisbench a code benchmark for scientific computing and visualization in ast](llm_nlp/astrovisbench_a_code_benchmark_for_scientific_computing_and_visualization_in_ast.md) | arXiv: 2505.20538
 - [x] [asymmetric duos sidekicks improve uncertainty](others/asymmetric_duos_sidekicks_improve_uncertainty.md) | arXiv: 2505.18636
-- [ ] [asymptotic and finite-time guarantees for langevin-based temperature annealing i](self_supervised/asymptotic_and_finite-time_guarantees_for_langevin-based_temperature_annealing_i.md) | arXiv: 2603.12552
+- [x] [asymptotic and finite-time guarantees for langevin-based temperature annealing i](self_supervised/asymptotic_and_finite-time_guarantees_for_langevin-based_temperature_annealing_i.md) | arXiv: 2603.12552
 - [x] [asymptotically stable quaternion-valued hopfield-structured neural network with ](optimization/asymptotically_stable_quaternion-valued_hopfield-structured_neural_network_with_.md) | arXiv: 2510.16607
-- [ ] [atlas autoformalizing theorems through lifting augmentation and synthesis of dat](model_compression/atlas_autoformalizing_theorems_through_lifting_augmentation_and_synthesis_of_dat.md) | arXiv: 2502.05567
+- [x] [atlas autoformalizing theorems through lifting augmentation and synthesis of dat](model_compression/atlas_autoformalizing_theorems_through_lifting_augmentation_and_synthesis_of_dat.md) | arXiv: 2502.05567
 - [x] [atlasgs atlanta-world guided surface reconstruction with implicit structured gau](3d_vision/atlasgs_atlanta-world_guided_surface_reconstruction_with_implicit_structured_gau.md) | arXiv: 2510.25129
 - [x] [Atom of Thoughts for Markov LLM Test-Time Scaling](llm_reasoning/atom_of_thoughts_for_markov_llm_testtime_scaling.md) | arXiv: 2502.12018
 - [x] [Atomic Diffusion Models for Small Molecule Structure Elucidation from NMR Spectra](medical_imaging/atomic_diffusion_models_for_small_molecule_structure_elucidation_from_nmr_spectr.md) | arXiv: 2512.03127
 - [x] [attack via overfitting 10-shot benign fine-tuning to jailbreak llms](llm_alignment/attack_via_overfitting_10-shot_benign_fine-tuning_to_jailbreak_llms.md) | arXiv: 2510.02833
 - [x] [attention as discrete-time markov chains](segmentation/attention_as_discrete-time_markov_chains.md) | arXiv: 2507.17657
-- [ ] [attention your vision language model could be maliciously manipulated](multimodal_vlm/attention_your_vision_language_model_could_be_maliciously_manipulated.md) | arXiv: 2505.19911
+- [x] [attention your vision language model could be maliciously manipulated](multimodal_vlm/attention_your_vision_language_model_could_be_maliciously_manipulated.md) | arXiv: 2505.19911
 - [x] [AttentionPredictor: Temporal Patterns Matter for KV Cache Compression](time_series/attentionpredictor_temporal_patterns_matter_for_kv_cache_com.md)
 - [x] [attractive metadata attack inducing llm agents to invoke malicious tools](llm_agent/attractive_metadata_attack_inducing_llm_agents_to_invoke_malicious_tools.md) | arXiv: 2508.02110
 - [x] [attributing response to context a jensen-shannon divergence driven mechanistic s](llm_nlp/attributing_response_to_context_a_jensen-shannon_divergence_driven_mechanistic_s.md) | arXiv: 2505.16415
@@ -205,7 +205,7 @@
 - [x] [autodiscovery open-ended scientific discovery via bayesian surprise](model_compression/autodiscovery_open-ended_scientific_discovery_via_bayesian_surprise.md) | arXiv: 2507.00310
 - [x] [autoencoding random forests](medical_imaging/autoencoding_random_forests.md) | arXiv: 2505.21441
 - [x] [autojudge judge decoding without manual annotation](model_compression/autojudge_judge_decoding_without_manual_annotation.md) | arXiv: 2504.20039
-- [ ] [automated algorithm design via nevanlinna-pick interpolation](optimization/automated_algorithm_design_via_nevanlinna-pick_interpolation.md) | arXiv: 2509.21416
+- [x] [automated algorithm design via nevanlinna-pick interpolation](optimization/automated_algorithm_design_via_nevanlinna-pick_interpolation.md) | arXiv: 2509.21416
 - [x] [Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection](llm_agent/automated_composition_of_agents_a_knapsack_approach_for_agentic_component_select.md) | arXiv: 2510.16499
 - [x] [Automated Detection of Visual Attribute Reliance with a Self-Reflective Agent](object_detection/automated_detection_of_visual_attribute_reliance_with_a_self-reflective_agent.md) | arXiv: 2510.21704
 - [x] [automated multi-agent workflows for rtl design](llm_agent/automated_multi-agent_workflows_for_rtl_design.md) | arXiv: 2509.20182
@@ -221,7 +221,7 @@
 - [x] [Balanced Conic Rectified Flow](image_generation/balanced_conic_rectified_flow.md) | arXiv: 2510.25229
 - [x] [Balanced Token Pruning: Accelerating Vision Language Models Beyond Local Optimization](multimodal_vlm/balanced_token_pruning_accelerating_vision_language_models_b.md) | arXiv: 2505.22038
 - [x] [balancing performance and costs in best arm identification](recommender/balancing_performance_and_costs_in_best_arm_identification.md) | arXiv: 2505.20583
-- [ ] [bandit and delayed feedback in online structured prediction](reinforcement_learning/bandit_and_delayed_feedback_in_online_structured_prediction.md) | arXiv: 2502.18709
+- [x] [bandit and delayed feedback in online structured prediction](reinforcement_learning/bandit_and_delayed_feedback_in_online_structured_prediction.md) | arXiv: 2502.18709
 - [x] [barcodemamba advancing state-space models for fungal biodiversity research](medical_imaging/barcodemamba_advancing_state-space_models_for_fungal_biodiversity_research.md) | arXiv: 2512.15931
 - [x] [barista brain scale informed spatiotemporal representation of human intracranial](model_compression/barista_brain_scale_informed_spatiotemporal_representation_of_human_intracranial.md) | arXiv: 2512.12135
 - [x] [Base Models Know How to Reason, Thinking Models Learn When](llm_reasoning/base_models_know_how_to_reason_thinking_models_learn_when.md) | arXiv: 2510.07364
@@ -256,7 +256,7 @@
 - [x] [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](reinforcement_learning/beyond_the_8020_rule_highentropy_minority_tokens_drive_effec.md)
 - [x] [Beyond the Singular: Value of Multiple Generations in Benchmark Evaluation](others/beyond_the_singular_revealing_the_value_of_multiple_generations_in_benchmark_eva.md) | arXiv: 2502.08943
 - [x] [beyond the surface enhancing llm-as-a-judge alignment with human via internal re](llm_nlp/beyond_the_surface_enhancing_llm-as-a-judge_alignment_with_human_via_internal_re.md) | arXiv: 2508.03550
-- [ ] [beyond tildeosqrtt constraint violation for online convex optimization with adve](reinforcement_learning/beyond_tildeosqrtt_constraint_violation_for_online_convex_optimization_with_adve.md) | arXiv: 2505.06709
+- [x] [beyond tildeosqrtt constraint violation for online convex optimization with adve](reinforcement_learning/beyond_tildeosqrtt_constraint_violation_for_online_convex_optimization_with_adve.md) | arXiv: 2505.06709
 - [x] [beyond token probes hallucination detection via activation tensors with act-vit](llm_nlp/beyond_token_probes_hallucination_detection_via_activation_tensors_with_act-vit.md) | arXiv: 2510.00296
 - [x] [bezier splatting for fast and differentiable vector graphics rendering](model_compression/bezier_splatting_for_fast_and_differentiable_vector_graphics_rendering.md) | arXiv: 2503.16424
 - [x] [Bi-Level Decision-Focused Causal Learning for Large-Scale Marketing Optimization](causal_inference/bi-level_decision-focused_causal_learning_for_large-scale_marketing_optimization.md) | arXiv: 2510.19517
@@ -300,7 +300,7 @@
 - [x] [broken tokens your language model can secretly handle non-canonical tokenization](segmentation/broken_tokens_your_language_model_can_secretly_handle_non-canonical_tokenization.md) | arXiv: 2506.19004
 - [x] [BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent](llm_agent/btlui_blinkthinklink_reasoning_model_for_gui_agent.md) | arXiv: 2509.15566
 - [x] [bubbleformer forecasting boiling with transformers](human_understanding/bubbleformer_forecasting_boiling_with_transformers.md) | arXiv: 2507.21244
-- [ ] [buffer layers for test-time adaptation](others/buffer_layers_for_test-time_adaptation.md) | arXiv: 2510.21271
+- [x] [buffer layers for test-time adaptation](others/buffer_layers_for_test-time_adaptation.md) | arXiv: 2510.21271
 - [x] [burstdeflicker a benchmark dataset for flicker removal in dynamic scenes](object_detection/burstdeflicker_a_benchmark_dataset_for_flicker_removal_in_dynamic_scenes.md) | arXiv: 2510.09996
 - [x] [c-lora contextual low-rank adaptation for uncertainty estimation in large langua](model_compression/c-lora_contextual_low-rank_adaptation_for_uncertainty_estimation_in_large_langua.md) | arXiv: 2505.17773
 - [x] [c-nav towards self-evolving continual object navigation in open world](robotics/c-nav_towards_self-evolving_continual_object_navigation_in_open_world.md) | arXiv: 2510.20685
@@ -332,7 +332,7 @@
 - [x] [causally reliable concept bottleneck models](ai_safety/causally_reliable_concept_bottleneck_models.md) | arXiv: 2503.04363
 - [x] [CBMAS: Cognitive Behavioral Modeling via Activation Steering](llm_nlp/cbmas_cognitive_behavioral_modeling_via_activation_steering.md) | arXiv: 2601.06109
 - [x] [cdflow building invertible layers with circulant and diagonal matrices](image_generation/cdflow_building_invertible_layers_with_circulant_and_diagonal_matrices.md) | arXiv: 2510.25323
-- [ ] [certifying concavity and monotonicity in games via sum-of-squares hierarchies](reinforcement_learning/certifying_concavity_and_monotonicity_in_games_via_sum-of-squares_hierarchies.md) | arXiv: 2512.10292
+- [x] [certifying concavity and monotonicity in games via sum-of-squares hierarchies](reinforcement_learning/certifying_concavity_and_monotonicity_in_games_via_sum-of-squares_hierarchies.md) | arXiv: 2512.10292
 - [x] [certifying stability of reinforcement learning policies using generalized lyapun](reinforcement_learning/certifying_stability_of_reinforcement_learning_policies_using_generalized_lyapun.md) | arXiv: 2505.10947
 - [x] [cgbench benchmarking language model scientific reasoning for clinical genetics r](medical_imaging/cgbench_benchmarking_language_model_scientific_reasoning_for_clinical_genetics_r.md) | arXiv: 2510.11985
 - [x] [ChA-MAEViT: Unifying Channel-Aware Masked Autoencoders and Multi-Channel Vision Transformers for Improved Cross-Channel Learning](remote_sensing/chamaevit_unifying_channelaware_masked_autoencoders_and_mult.md) | arXiv: 2503.19331
@@ -342,17 +342,17 @@
 - [x] [characterizing the expressivity of fixed-precision transformer language models](llm_nlp/characterizing_the_expressivity_of_fixed-precision_transformer_language_models.md) | arXiv: 2505.23623
 - [x] [ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models](multimodal_vlm/chartmuseum_testing_visual_reasoning_capabilities_of_large_v.md) | arXiv: 2505.13444
 - [x] [Checklists Are Better Than Reward Models For Aligning Language Models](reinforcement_learning/checklists_are_better_than_reward_models_for_aligning_langua.md) | arXiv: 2507.18624
-- [ ] [chiqpm calibrated hierarchical interpretable image classification](others/chiqpm_calibrated_hierarchical_interpretable_image_classification.md) | arXiv: 2511.20779
+- [x] [chiqpm calibrated hierarchical interpretable image classification](others/chiqpm_calibrated_hierarchical_interpretable_image_classification.md) | arXiv: 2511.20779
 - [x] [choice benchmarking the remote sensing capabilities of large vision-language mod](multimodal_vlm/choice_benchmarking_the_remote_sensing_capabilities_of_large_vision-language_mod.md) | arXiv: 2411.18145
 - [x] [chronograph a real-world graph-based multivariate time series dataset](autonomous_driving/chronograph_a_real-world_graph-based_multivariate_time_series_dataset.md) | arXiv: 2509.04449
 - [x] [ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference](model_compression/chunkkv_semanticpreserving_kv_cache_compression_for_efficien.md) | arXiv: 2502.00299
 - [x] [classical planning with llm-generated heuristics challenging the state of the ar](aigc_detection/classical_planning_with_llm-generated_heuristics_challenging_the_state_of_the_ar.md) | arXiv: 2503.18809
 - [x] [clawscreativity detection for llm-generated solutions using attention window of ](reinforcement_learning/clawscreativity_detection_for_llm-generated_solutions_using_attention_window_of_.md) | arXiv: 2510.17921
-- [ ] [clean first align later benchmarking preference data cleaning for reliable llm a](optimization/clean_first_align_later_benchmarking_preference_data_cleaning_for_reliable_llm_a.md) | arXiv: 2509.23564
+- [x] [clean first align later benchmarking preference data cleaning for reliable llm a](optimization/clean_first_align_later_benchmarking_preference_data_cleaning_for_reliable_llm_a.md) | arXiv: 2509.23564
 - [x] [cleverbirds a multiple-choice benchmark for fine-grained human knowledge tracing](video_understanding/cleverbirds_a_multiple-choice_benchmark_for_fine-grained_human_knowledge_tracing.md) | arXiv: 2511.08512
 - [x] [climb class-imbalanced learning benchmark on tabular data](others/climb_class-imbalanced_learning_benchmark_on_tabular_data.md) | arXiv: 2505.17451
 - [x] [clip-and-verify linear constraint-driven domain clipping for accelerating neural](llm_reasoning/clip-and-verify_linear_constraint-driven_domain_clipping_for_accelerating_neural.md) | arXiv: 2512.11087
-- [ ] [clipgaussian universal and multimodal style transfer based on gaussian splatting](3d_vision/clipgaussian_universal_and_multimodal_style_transfer_based_on_gaussian_splatting.md) | arXiv: 2505.22854
+- [x] [clipgaussian universal and multimodal style transfer based on gaussian splatting](3d_vision/clipgaussian_universal_and_multimodal_style_transfer_based_on_gaussian_splatting.md) | arXiv: 2505.22854
 - [x] [cloud4d estimating cloud properties at a high spatial and temporal resolution](video_understanding/cloud4d_estimating_cloud_properties_at_a_high_spatial_and_temporal_resolution.md) | arXiv: 2511.19431
 - [x] [Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](llm_reasoning/co-evolving_llm_coder_and_unit_tester_via_reinforcement_learning.md) | arXiv: 2506.03136
 - [x] [Co-Reinforcement Learning for Unified Multimodal Understanding and Generation](image_generation/coreinforcement_learning_for_unified_multimodal_understandin.md) | arXiv: 2505.17534
@@ -384,14 +384,14 @@
 - [x] [conformal online learning of deep koopman linear embeddings](others/conformal_online_learning_of_deep_koopman_linear_embeddings.md) | arXiv: 2511.12760
 - [x] [conformal prediction for causal effects of continuous treatments](causal_inference/conformal_prediction_for_causal_effects_of_continuous_treatments.md) | arXiv: 2407.03094
 - [x] [conformal prediction in the loop a feedback-based uncertainty model for trajecto](others/conformal_prediction_in_the_loop_a_feedback-based_uncertainty_model_for_trajecto.md) | arXiv: 2510.16376
-- [ ] [conformal risk training end-to-end optimization of conformal risk control](others/conformal_risk_training_end-to-end_optimization_of_conformal_risk_control.md) | arXiv: 2510.08748
+- [x] [conformal risk training end-to-end optimization of conformal risk control](others/conformal_risk_training_end-to-end_optimization_of_conformal_risk_control.md) | arXiv: 2510.08748
 - [x] [confounding robust deep reinforcement learning a causal approach](llm_agent/confounding_robust_deep_reinforcement_learning_a_causal_approach.md) | arXiv: 2510.21110
 - [x] [confrover simultaneous modeling of protein conformation and dynamics via autoreg](medical_imaging/confrover_simultaneous_modeling_of_protein_conformation_and_dynamics_via_autoreg.md) | arXiv: 2505.17478
 - [x] [conftuner training large language models to express their confidence verbally](llm_nlp/conftuner_training_large_language_models_to_express_their_confidence_verbally.md) | arXiv: 2508.18847
 - [x] [Connecting Jensen-Shannon and Kullback-Leibler Divergences: A New Bound for Representation Learning](self_supervised/connecting_jensenshannon_and_kullbackleibler_divergences_a_n.md) | arXiv: 2510.20644
 - [x] [connecting the dots a machine learning ready dataset for ionospheric forecasting](remote_sensing/connecting_the_dots_a_machine_learning_ready_dataset_for_ionospheric_forecasting.md) | arXiv: 2511.15743
 - [x] [connectomebench can llms proofread the connectome](segmentation/connectomebench_can_llms_proofread_the_connectome.md) | arXiv: 2511.05542
-- [ ] [consistent sampling and simulation molecular dynamics with energy-based diffusio](medical_imaging/consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md) | arXiv: 2506.17139
+- [x] [consistent sampling and simulation molecular dynamics with energy-based diffusio](medical_imaging/consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md) | arXiv: 2506.17139
 - [x] [consistent supervised-unsupervised alignment for generalized category discovery](human_understanding/consistent_supervised-unsupervised_alignment_for_generalized_category_discovery.md) | arXiv: 2507.04725
 - [x] [constant bit-size transformers are turing complete](llm_efficiency/constant_bit-size_transformers_are_turing_complete.md) | arXiv: 2506.12027
 - [x] [constrained discrete diffusion](image_generation/constrained_discrete_diffusion.md) | arXiv: 2503.09790
@@ -453,7 +453,7 @@
 - [x] [cumolos-mae a masked autoencoder for remote sensing data reconstruction](autonomous_driving/cumolos-mae_a_masked_autoencoder_for_remote_sensing_data_reconstruction.md) | arXiv: 2508.14957
 - [x] [cureagent a training-free executor-analyst framework for clinical reasoning](medical_imaging/cureagent_a_training-free_executor-analyst_framework_for_clinical_reasoning.md) | arXiv: 2512.05576
 - [x] [curiosity-driven rl for symbolic equation solving](model_compression/curiosity-driven_rl_for_symbolic_equation_solving.md) | arXiv: 2510.17022
-- [ ] [curly flow matching for learning non-gradient field dynamics](image_generation/curly_flow_matching_for_learning_non-gradient_field_dynamics.md) | arXiv: 2510.26645
+- [x] [curly flow matching for learning non-gradient field dynamics](image_generation/curly_flow_matching_for_learning_non-gradient_field_dynamics.md) | arXiv: 2510.26645
 - [x] [Curriculum Abductive Learning](llm_reasoning/curriculum_abductive_learning.md) | arXiv: 2505.12275
 - [x] [curvature tuning provable training-free model steering from a single parameter](model_compression/curvature_tuning_provable_training-free_model_steering_from_a_single_parameter.md) | arXiv: 2502.07783
 - [x] [cxreasonbench a benchmark for evaluating structured diagnostic reasoning in ches](medical_imaging/cxreasonbench_a_benchmark_for_evaluating_structured_diagnostic_reasoning_in_ches.md) | arXiv: 2505.18087
@@ -470,13 +470,13 @@
 - [x] [dataset distillation for pre-trained self-supervised vision models](model_compression/dataset_distillation_for_pre-trained_self-supervised_vision_models.md) | arXiv: 2511.16674
 - [x] [DATE-LM: Benchmarking Data Attribution Evaluation for Large Language Models](llm_nlp/date-lm_benchmarking_data_attribution_evaluation_for_large_language_models.md) | arXiv: 2507.09424
 - [x] [dbloss decomposition-based loss function for time series forecasting](autonomous_driving/dbloss_decomposition-based_loss_function_for_time_series_forecasting.md) | arXiv: 2510.23672
-- [ ] [dc4gs directional consistency-driven adaptive density control for 3d gaussian sp](3d_vision/dc4gs_directional_consistency-driven_adaptive_density_control_for_3d_gaussian_sp.md) | arXiv: 2510.26921
+- [x] [dc4gs directional consistency-driven adaptive density control for 3d gaussian sp](3d_vision/dc4gs_directional_consistency-driven_adaptive_density_control_for_3d_gaussian_sp.md) | arXiv: 2510.26921
 - [x] [dca graph-guided deep embedding clustering for brain atlases](medical_imaging/dca_graph-guided_deep_embedding_clustering_for_brain_atlases.md) | arXiv: 2509.01426
 - [x] [dcad-2000 a multilingual dataset across 2000 languages with data cleaning as ano](llm_nlp/dcad-2000_a_multilingual_dataset_across_2000_languages_with_data_cleaning_as_ano.md) | arXiv: 2502.11546
-- [ ] [dccluster-opt benchmarking dynamic multi-objective optimization for geo-distribu](reinforcement_learning/dccluster-opt_benchmarking_dynamic_multi-objective_optimization_for_geo-distribu.md) | arXiv: 2511.00117
+- [x] [dccluster-opt benchmarking dynamic multi-objective optimization for geo-distribu](reinforcement_learning/dccluster-opt_benchmarking_dynamic_multi-objective_optimization_for_geo-distribu.md) | arXiv: 2511.00117
 - [x] [de novo generation of functional terpene synthases using tpsgpt](medical_imaging/de_novo_generation_of_functional_terpene_synthases_using_tpsgpt.md) | arXiv: 2512.08772
 - [x] [Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?](llm_agent/debate_or_vote_which_yields_better_decisions_in_multi-agent_large_language_model.md) | arXiv: 2508.17536
-- [ ] [decaflow a deconfounding causal generative model](image_generation/decaflow_a_deconfounding_causal_generative_model.md) | arXiv: 2503.15114
+- [x] [decaflow a deconfounding causal generative model](image_generation/decaflow_a_deconfounding_causal_generative_model.md) | arXiv: 2503.15114
 - [x] [deceptron learned local inverses for fast and stable physics inversion](video_understanding/deceptron_learned_local_inverses_for_fast_and_stable_physics_inversion.md) | arXiv: 2511.21076
 - [x] [Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation](reinforcement_learning/decoderhybriddecoder_architecture_for_efficient_reasoning_wi.md) | arXiv: 2507.06607
 - [x] [decomate leveraging generative models for co-creative svg animation](image_generation/decomate_leveraging_generative_models_for_co-creative_svg_animation.md) | arXiv: 2511.06297
@@ -536,7 +536,7 @@
 - [x] [DiCo: Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling](image_generation/dico_revitalizing_convnets_for_scalable_and_efficient_diffus.md) | arXiv: 2505.11196
 - [x] [dictpfl efficient and private federated learning on encrypted gradients](ai_safety/dictpfl_efficient_and_private_federated_learning_on_encrypted_gradients.md) | arXiv: 2510.21086
 - [x] [diff-icmh harmonizing machine and human vision in image compression with generat](image_generation/diff-icmh_harmonizing_machine_and_human_vision_in_image_compression_with_generat.md) | arXiv: 2511.22549
-- [ ] [differentiable hierarchical visual tokenization](llm_nlp/differentiable_hierarchical_visual_tokenization.md) | arXiv: 2511.02652
+- [x] [differentiable hierarchical visual tokenization](llm_nlp/differentiable_hierarchical_visual_tokenization.md) | arXiv: 2511.02652
 - [x] [differentiable structure learning and causal discovery for general binary data](causal_inference/differentiable_structure_learning_and_causal_discovery_for_general_binary_data.md) | arXiv: 2509.21658
 - [x] [differential privacy for euclidean jordan algebra with applications to private s](ai_safety/differential_privacy_for_euclidean_jordan_algebra_with_applications_to_private_s.md) | arXiv: 2509.16915
 - [x] [differentially private bilevel optimization efficient algorithms with near-optim](ai_safety/differentially_private_bilevel_optimization_efficient_algorithms_with_near-optim.md) | arXiv: 2506.12994

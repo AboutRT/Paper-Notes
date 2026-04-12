@@ -3,7 +3,7 @@
 
 **🎞️ ECCV2024** · 共 **2** 篇
 
-**[OmniSat: Self-Supervised Modality Fusion for Earth Observation](omnisat_self-supervised_modality_fusion_for_earth_observation.md)**
+**[Omnisat Self-Supervised Modality Fusion For Earth Observation](omnisat_self-supervised_modality_fusion_for_earth_observation.md)**
 
 :   提出OmniSat统一框架，通过模态特异编码器+跨模态对比自监督预训练，将多光谱时序（S2）、SAR时序（S1）、高分辨率单时相（SPOT/Aerial）等异构遥感数据融合为统一表示，在语义分割和作物分类上超越所有单模态和多模态基线。
 

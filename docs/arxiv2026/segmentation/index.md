@@ -23,7 +23,7 @@
 
 :   在这项工作中，我们研究了有针对性的深度学习替代是否可以改进 SIENA，同时保留其已建立的和可解释的框架。
 
-**[SAP: Segment Any 4K Panorama](sap_segment_any_4k.md)**
+**[Sap Segment Any 4K](sap_segment_any_4k.md)**
 
 :   SAP将全景图实例分割重新建模为固定轨迹的透视视频分割任务，通过column-first zigzag扫描将ERP全景图分解为连续重叠的透视patch序列，并用InfiniGen合成183K张4K全景图微调SAM2，在真实4K全景图上零样本mIoU比原始SAM2平均提升+17.2。
 
