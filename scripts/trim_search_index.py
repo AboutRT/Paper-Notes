@@ -7,7 +7,7 @@ import json
 import sys
 from pathlib import Path
 
-MAX_TEXT_LEN = 150  # 每个文档最多保留 150 字符的搜索文本（标题已够用）
+MAX_TEXT_LEN = 500  # 桌面端搜索用，保留足够文本保证搜索质量（移动端已用 Google 站内搜索）
 
 def main():
     site_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("site")

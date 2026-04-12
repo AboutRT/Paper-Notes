@@ -12035,6 +12035,8 @@ nav:
     - Bidirectional Uncertainty-Based Active Learning For Open-Set Annotation: ECCV2024/others/bidirectional_uncertainty-based_active_learning_for_open-set_annotation.md
     - 'DC-Solver: Improving Predictor-Corrector Diffusion Sampler via Dynamic Compensation': ECCV2024/others/dc-solver_improving_predictor-corrector_diffusion_sampler_via_dynamic_compensati.md
     - 'Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint': ECCV2024/others/teaching_tailored_to_talent_adverse_weather_restoration.md
+hooks:
+- hooks/tags_order.py
 plugins:
 - search:
     separator: '[\s\u200b\-\.\,\!\?\;\:\(\)\[\]\{\}\/\|]+'
