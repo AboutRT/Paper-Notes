@@ -1,3 +1,9 @@
+/* ── Hide sidebar drawer button on homepage ── */
+.md-content--home ~ .md-header label[for="__drawer"],
+body:has(.hero) .md-header__button.md-icon[for="__drawer"] {
+  display: none;
+}
+
 /* ── Light mode: custom dark header ── */
 :root,
 [data-md-color-scheme="default"] {

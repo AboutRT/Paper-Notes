@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+{% if config.extra.bing_site_verification %}
+<meta name="msvalidate.01" content="{{ config.extra.bing_site_verification }}" />
+{% endif %}
 {% if page and page.meta and page.meta.description %}
 <meta property="og:description" content="{{ page.meta.description }}" />
 <script type="application/ld+json">
