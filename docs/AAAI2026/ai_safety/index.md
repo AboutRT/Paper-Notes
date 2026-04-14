@@ -36,7 +36,7 @@ description: >-
 
 **[Argumentative Debates For Transparent Bias Detection Technic](argumentative_debates_for_transparent_bias_detection_technic.md)**
 
-:   提出ABIDE框架，将偏见检测过程结构化为基于量化二极论辩框架（QBAF）的辩论：通过邻域级局部统计公平性（neighbourhood-based local statistical parity）生成偏见论据，利用批判性问题（critical questions）作为攻击机制挑战不可靠论据，在合成/真实/LLM模型上均优于IRB基线。
+:   提出 ABIDE（Argumentative BIas Detection by DEbate），通过基于邻域属性的论证方案（argument schemes）构建量化双极论证框架（QBAF），将偏见检测过程建模为结构化辩论，实现从单邻域到全局的透明偏见推理，并形式化证明 QBAF 语义与偏见检测期望行为之间的对应关系。
 
 **[Auvic Adversarial Unlearning Of Visual Concepts For Multi-Mo](auvic_adversarial_unlearning_of_visual_concepts_for_multi-mo.md)**
 
@@ -240,7 +240,7 @@ description: >-
 
 **[Truth Justice And Secrecy Cake Cutting Under Privacy Constraints](truth_justice_and_secrecy_cake_cutting_under_privacy_constraints.md)**
 
-:   首个隐私保护蛋糕切割协议，在保持无嫉妒性和策略防谋性的同时，通过秘密共享和安全多方计算（MPC）技术确保参与者的估值函数不被泄露。
+:   本文提出首个隐私保护的蛋糕切割协议 PP_CC_puv，将 Chen 等人的策略防操纵公平分配算法改造为基于秘密共享和安全多方计算（MPC）的隐私保护版本，在保持无嫉妒性、Pareto 最优和策略防操纵性的同时，确保参与者的偏好信息不被泄露。
 
 **[Uncovering Bias Paths With Llm-Guided Causal Discovery An Active Learning And Dy](uncovering_bias_paths_with_llm-guided_causal_discovery_an_active_learning_and_dy.md)**
 

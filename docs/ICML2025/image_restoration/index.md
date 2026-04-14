@@ -24,7 +24,7 @@ description: >-
 
 **[Evaluating Deepfake Detectors In The Wild](evaluating_deepfake_detectors_in_the_wild.md)**
 
-:   用SOTA生成方法创建50万+高质量深伪图像，在模拟真实场景的测试流程下评估现有深伪检测器，发现不到一半的检测器AUC超过60%（最低50%=随机），且基本图像操作（JPEG压缩/增强）即可显著降低检测性能。
+:   构建包含50万+高质量deepfake图像的新数据集，通过引入JPEG压缩、降分辨率、图像增强等真实场景增强，系统评估6种开源deepfake检测器，揭示不到一半检测器AUC>60%，最低仅约50%（随机水平）。
 
 **[Harmonica Harmonizing Training And Inference For Better Feature Caching In Diffu](harmonica_harmonizing_training_and_inference_for_better_feature_caching_in_diffu.md)**
 

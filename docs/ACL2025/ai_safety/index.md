@@ -40,7 +40,7 @@ description: >-
 
 **[Fairness Difference Awareness](fairness_difference_awareness.md)**
 
-:   本文挑战了主流公平性研究中"对所有群体一视同仁即为公平"的假设，提出"差异意识"(Difference Awareness)概念，构建了包含8个基准共16k问题的评测套件，发现现有"最公平"的LLM在该维度上表现不佳，且现有去偏方法会适得其反。
+:   挑战当前LLM公平性评估中"差异无视"(difference unawareness)的主导范式，提出DiffAware和CtxtAware两个指标和包含8个场景16K问题的基准套件，证明在法律、文化、伤害评估等场景中模型应当区分群体差异，而现有去偏方法反而损害了这种必要的差异感知能力。
 
 **[From Tradeoff To Synergy A Versatile](from_tradeoff_to_synergy_a_versatile.md)**
 

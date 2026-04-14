@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 多模态VLM方向 142篇论文解读
+  NeurIPS2025 多模态VLM方向 143篇论文解读
 description: >-
-  142篇NeurIPS2025 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  143篇NeurIPS2025 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**🧠 NeurIPS2025** · 共 **142** 篇
+**🧠 NeurIPS2025** · 共 **143** 篇
 
 **[A Frustratingly Simple Yet Highly Effective Attack Baseline](a_frustratingly_simple_yet_highly_effective_attack_baseline.md)**
 
@@ -20,7 +20,7 @@ description: >-
 
 **[Act As Human Multimodal Large Language Model Data Annotation](act_as_human_multimodal_large_language_model_data_annotation.md)**
 
-:   提出ACT（Annotation with Critical Thinking）流水线，先用MLLM批量标注数据，再用另一个MLLM作为"批评者"识别可能的错误标注，仅让人类审核被标记的样本，在减少70-90%人工标注成本的同时将性能差距控制在<2%。
+:   提出ACT（Annotation with Critical Thinking）数据流水线，MLLM批量标注全部数据后由另一个MLLM作为批评者估计每条标注的错误概率，仅将高可疑样本交给人类审核，配合理论推导的ACT损失函数，在6个跨模态数据集上节省70-90%人工成本且下游性能差距<2%。
 
 **[Adalrs Lossguided Adaptive Learning Rate Search For Efficien](adalrs_lossguided_adaptive_learning_rate_search_for_efficien.md)**
 
@@ -28,7 +28,7 @@ description: >-
 
 **[Adapting Visionlanguage Models For Evaluating World Models](adapting_visionlanguage_models_for_evaluating_world_models.md)**
 
-:   提出UNIVERSE框架，通过仅微调PaliGemma 2的投影头（0.07%参数）和优化数据混合策略，实现对游戏世界模型rollout的高效视觉语言评估，在动作/角色识别任务上以极低成本接近完整微调的性能。
+:   提出 UNIVERSE（UNIfied Vision-language Evaluator for Rollouts in Simulated Environments），通过对 PaliGemma 2 进行轻量级投影头微调（仅 0.07% 参数），构建统一的世界模型 rollout 语义评估器，在动作识别和角色识别任务上达到与任务专属模型相当的性能并与人类判断高度对齐。
 
 **[Admn A Layerwise Adaptive Multimodal Network For Dynamic Inp](admn_a_layerwise_adaptive_multimodal_network_for_dynamic_inp.md)**
 
@@ -48,11 +48,15 @@ description: >-
 
 **[Antigrounding Lifting Robotic Actions Into Vlm Representatio](antigrounding_lifting_robotic_actions_into_vlm_representatio.md)**
 
-:   提出 AntiGrounding，逆转传统指令 grounding 过程——不是将语言映射到动作空间，而是将候选机器人动作"提升"到 VLM 表示空间（通过多视角轨迹渲染 + 结构化 VQA），实现零样本闭环机器人轨迹合成。
+:   提出 AntiGrounding 框架，反转传统指令接地管道——将候选机器人轨迹渲染到多视角图像中并用 VLM 进行结构化 VQA 评估，绕过压缩中间表征的信息瓶颈，实现复杂操作任务的零样本闭环控制。
 
 **[Approximate Domain Unlearning For Visionlanguage Models](approximate_domain_unlearning_for_visionlanguage_models.md)**
 
 :   提出 Approximate Domain Unlearning (ADU) 新任务，通过 Domain Disentangling Loss (DDL) 和 Instance-wise Prompt Generator (InstaPG) 两个模块，让预训练 VLM 选择性遗忘指定域（如插画、素描）的识别能力，同时保持其他域（如真实照片）的分类精度，在四个多域数据集上大幅超越所有基线。
+
+**[Aquamam An Autoregressive Quaternion Manifold Model For Rapidly Estimating Compl](aquamam_an_autoregressive_quaternion_manifold_model_for_rapidly_estimating_compl.md)**
+
+:   提出AQuaMaM——一种基于Transformer的自回归四元数流形模型，将单位四元数的三个投影分量建模为受几何约束的均匀分布混合，在SO(3)旋转流形上实现精确似然计算和快速采样，比IPDF推理速度快52倍、对数似然高14%，且采样分布与真实分布匹配极为精确。
 
 **[Are Vision Language Models Ready For Clinical Diagnosis A 3D Medical Benchmark F](are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md)**
 
@@ -124,7 +128,7 @@ description: >-
 
 **[Continual Multimodal Contrastive Learning](continual_multimodal_contrastive_learning.md)**
 
-:   首次形式化定义持续多模态对比学习(CMCL)问题——按顺序在不同模态对数据上训练而不忘记之前的对齐，提出Dual-sided Null Space (DNS)方法将新梯度投影到不影响旧知识的子空间，在7个数据集11个训练步骤上一致优于现有持续学习基线。
+:   本文首次形式化定义了持续多模态对比学习(CMCL)问题，提出双侧零空间(DNS)梯度投影方法，将新模态对的梯度投影到不影响已学习模态对齐的子空间中，理论保证了稳定性和可塑性的平衡。
 
 **[Covmatch Crosscovariance Guided Multimodal Dataset Distillat](covmatch_crosscovariance_guided_multimodal_dataset_distillat.md)**
 
@@ -136,7 +140,7 @@ description: >-
 
 **[Danmakutppbench A Multimodal Benchmark For Temporal Point Pr](danmakutppbench_a_multimodal_benchmark_for_temporal_point_pr.md)**
 
-:   论文提出首个面向多模态 Temporal Point Process 的系统 benchmark：一方面构建来自 Bilibili 弹幕视频的时间戳-文本-视频联合事件数据集 DanmakuTPP-Events，另一方面通过多智能体 LLM/MLLM pipeline 构建复杂时序推理问答集 DanmakuTPP-QA，系统揭示当前 TPP 模型与 MLLM 在多模态事件动态理解上的明显短板。
+:   构建首个多模态时间点过程基准DanmakuTPPBench：DanmakuTPP-Events提供7250个序列共1080万弹幕事件（时间-文本-视频三模态天然对齐），DanmakuTPP-QA通过多智能体pipeline自动生成10类推理问答，系统暴露了经典TPP模型和MLLM在多模态事件动态理解上的显著短板。
 
 **[Dont Just Chase Highlighted Tokens In Mllms Revisiting Visual Holistic Context R](dont_just_chase_highlighted_tokens_in_mllms_revisiting_visual_holistic_context_r.md)**
 
@@ -144,7 +148,7 @@ description: >-
 
 **[Dota Distributional Testtime Adaptation Of Visionlanguage Mo](dota_distributional_testtime_adaptation_of_visionlanguage_mo.md)**
 
-:   提出 DOTA（DistributiOnal Test-time Adaptation），不再简单缓存测试样本，而是**持续估计测试数据流的底层分布**，通过贝叶斯定理计算后验概率实现自适应，解决了缓存容量有限导致的灾难性遗忘问题，在多个分布偏移基准上达到 SOTA。
+:   DOTA提出将测试时自适应从"缓存样本实例"范式转变为"持续估计测试数据分布"范式，通过在线高斯判别分析结合零样本预测概率估计类别分布，实现无梯度、抗遗忘的高效测试时自适应，在10个跨域基准上平均准确率超越所有基线。
 
 **[Dynamicvl Benchmarking Multimodal Large Language Models For Dynamic City Underst](dynamicvl_benchmarking_multimodal_large_language_models_for_dynamic_city_underst.md)**
 
@@ -168,7 +172,7 @@ description: >-
 
 **[Enhancing Visionlanguage Model Reliability With Uncertaintyg](enhancing_visionlanguage_model_reliability_with_uncertaintyg.md)**
 
-:   提出Dropout Decoding——量化视觉token的认知不确定性(epistemic uncertainty)，选择性遮掩高不确定性token，通过集成多个遮掩后的解码结果做多数投票，无需训练即在InstructBLIP上CHAIR_I降低16%、CHAIR_S降低12%。
+:   提出Dropout Decoding——将视觉token投影到文本空间后量化其认知不确定性，选择性遮掩高不确定性视觉token并通过多组遮掩结果的集成投票增强输出可靠性，无需额外训练即可显著减少LVLM的对象幻觉。
 
 **[Evaluating Multimodal Large Language Models On Core Music Perception Tasks](evaluating_multimodal_large_language_models_on_core_music_perception_tasks.md)**
 
@@ -212,7 +216,7 @@ description: >-
 
 **[Generate But Verify Reducing Hallucination In Visionlanguage](generate_but_verify_reducing_hallucination_in_visionlanguage.md)**
 
-:   提出REVERSE框架——首次在单一VLM内统一了生成、验证和纠正三个阶段：通过引入<SPAN>、</CN>（置信）、</UN>（不置信）三个特殊token训练幻觉感知模型，推理时当</UN>概率超过阈值就回溯到上一个</CN>重新生成，在CHAIR-MSCOCO上降低12%、HaloQuest上降低34%的幻觉率。
+:   提出REVERSE框架，首次将生成调整和事后验证统一到单个VLM中：通过1.3M半合成样本的幻觉感知训练+推理时回溯重采样，使VLM能在生成过程中自动检测并修正幻觉，在CHAIR-MSCOCO上降低12%、HaloQuest上提升34%。
 
 **[Georanker Distance-Aware Ranking For Worldwide Image Geolocalization](georanker_distance-aware_ranking_for_worldwide_image_geolocalization.md)**
 
@@ -244,7 +248,7 @@ description: >-
 
 **[Hope Hybrid Of Position Embedding For Long Context Visionlan](hope_hybrid_of_position_embedding_for_long_context_visionlan.md)**
 
-:   提出 HoPE（Hybrid of Position Embedding），通过混合频率分配策略和动态时间缩放机制改进 VLM 中的位置编码，解决 RoPE 在长视频等长上下文多模态场景中无法可靠捕捉时空语义相似性的问题，在四个长视频基准上一致超越现有方法。
+:   首次从理论上分析多模态RoPE的频率分配策略对长上下文VLM的影响，提出HoPE，将最低频率设为零用于时间建模以保证语义偏好性质，配合动态时间缩放机制，在长视频理解任务上提升8.35%、检索任务上提升22.23%。
 
 **[Ifinder Structured Zero-Shot Vision-Based Llm Grounding For Dash-Cam Video Reaso](ifinder_structured_zero-shot_vision-based_llm_grounding_for_dash-cam_video_reaso.md)**
 
@@ -392,7 +396,7 @@ description: >-
 
 **[Rtv-Bench Benchmarking Mllm Continuous Perception Understanding And Reasoning Th](rtv-bench_benchmarking_mllm_continuous_perception_understanding_and_reasoning_th.md)**
 
-:   提出 RTV-Bench，一个评估 MLLM 实时视频连续分析能力的细粒度 benchmark，通过多时间戳问答（同一问题的正确答案随时间变化）、层次化问题结构和多维评估来全面衡量感知、理解和推理能力。
+:   提出RTV-Bench评测基准，包含552个视频和4608个QA对，通过多时间戳问答（答案随场景演变而变化）和层次化问题结构（基础→高级），首次系统评估MLLM在实时视频流中的连续分析能力。
 
 **[Scene-Aware Urban Design A Human-Ai Recommendation Framework Using Co-Occurrence](scene-aware_urban_design_a_human-ai_recommendation_framework_using_co-occurrence.md)**
 
@@ -492,7 +496,7 @@ description: >-
 
 **[Trove Discovering Errorinducing Static Feature Biases In Tem](trove_discovering_errorinducing_static_feature_biases_in_tem.md)**
 
-:   TRoVe 提出一个自动化诊断框架，用于发现 temporal VLM 在时序理解任务中错误依赖的静态特征偏置；它通过从验证集提取候选静态特征，并同时评估这些特征对错误率的影响与模型对其依赖程度，在 101 个带偏置真值标注的 temporal VLM 上较最强基线提升 28.6%，还能进一步辅助 test-time 改善模型表现。
+:   TRoVe提出自动化方法发现时序VLM中导致系统性预测错误的静态特征偏差，通过结合"错误贡献分数"和"静态偏差分数"的双评分机制，在101个合成模型上以28.6%优势超越基线，并成功应用于7个真实VLM揭示新偏差。
 
 **[Uni-Mumer Unified Multi-Task Fine-Tuning Of Vision-Language Model For Handwritte](uni-mumer_unified_multi-task_fine-tuning_of_vision-language_model_for_handwritte.md)**
 
@@ -536,7 +540,7 @@ description: >-
 
 **[Vision Function Layer In Multimodal Llms](vision_function_layer_in_multimodal_llms.md)**
 
-:   发现 MLLM 中视觉相关的功能解码分布在特定的窄层中（视觉功能层/VFL），不同功能呈现一致的层级模式（识别→计数→定位→OCR），并据此设计了 VFL-LoRA 和 VFL-select 方法。
+:   发现MLLM中视觉相关的功能解码分布在特定的窄层块中（Vision Function Layer），且跨模型家族呈现一致的层级顺序（识别→计数→定位→OCR），据此提出VFL-LoRA（仅用1/3参数匹配full-LoRA性能）和VFL-select（20%数据达98%全量性能）。
 
 **[Vispec Accelerating Vision-Language Models With Vision-Aware Speculative Decodin](vispec_accelerating_vision-language_models_with_vision-aware_speculative_decodin.md)**
 

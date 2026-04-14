@@ -48,7 +48,7 @@ description: >-
 
 **[Latent Variable Causal Discovery Under Selection Bias](latent_variable_causal_discovery_under_selection_bias.md)**
 
-:   首次研究选择偏差下的潜变量因果发现：发现虽然选择偏差极大地复杂化了联合分布，但有偏协方差矩阵的秩仍保留了因果结构和选择机制的有意义信息，并在单因子模型上证明了可识别性。
+:   首次将秩约束推广到选择偏差场景，证明在线性选择机制下有偏协方差矩阵的秩仍保留因果结构和选择机制的信息，提出广义 t-separation 图准则，并在单因子模型上证明了可识别性，在合成和真实数据（World Value Survey、Big Five 人格）上验证了有效性。
 
 **[Learning Time-Aware Causal Representation For Model Generalization In Evolving D](learning_time-aware_causal_representation_for_model_generalization_in_evolving_d.md)**
 

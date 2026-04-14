@@ -24,7 +24,7 @@ description: >-
 
 **[A Unifying View Of Linear Function Approximation In Offpolic](a_unifying_view_of_linear_function_approximation_in_offpolic.md)**
 
-:   将线性函数逼近下的TD、FQI和PFQI统一为求解同一线性系统的迭代方法（仅预条件子不同），首次引入矩阵分裂理论来分析它们的收敛性，给出了各算法收敛的充要条件，并揭示了TD收敛不一定意味着FQI收敛（反之亦然）。
+:   首次引入矩阵分裂理论，将线性函数逼近下的TD、FQI和PFQI统一为求解同一目标线性系统 $(\Sigma_{cov} - \gamma\Sigma_{cr})\theta = \theta_{\phi,r}$ 的迭代方法（仅预条件子不同），给出各算法收敛的充要条件，提出rank invariance新概念，并揭示target network的本质是预条件子从常数到数据自适应的连续变换。
 
 **[Act To See See To Act Diffusion-Driven Perception-Action Interplay For Adaptive ](act_to_see_see_to_act_diffusion-driven_perception-action_interplay_for_adaptive_.md)**
 
@@ -52,11 +52,11 @@ description: >-
 
 **[Approximating Shapley Explanations In Reinforcement Learning](approximating_shapley_explanations_in_reinforcement_learning.md)**
 
-:   提出 FastSVERL——首个针对 RL 的可扩展 Shapley 值近似方法，用参数化模型分摊计算成本，解决 RL 特有的时序依赖、off-policy 数据和策略演化等挑战，为 RL 决策提供原则性的特征归因解释。
+:   提出 FastSVERL，一种可扩展的参数化学习框架，分别近似强化学习中 Shapley 值的两个计算瓶颈（特征函数和 Shapley 求和），支持离策略数据学习和随策略演化持续更新解释。
 
 **[Automaton Constrained Q-Learning](automaton_constrained_q-learning.md)**
 
-:   ACQL 将安全 RL 和目标条件 RL 提升到 LTL（线性时序逻辑）任务类——用自动机编码时序目标进展和非平稳安全约束，结合目标条件值学习（+HER密集化奖励）和基于 Hamilton-Jacobi 可达性的安全约束，在连续控制任务上显著超越现有 LTL RL 方法，并在 6-DOF 机械臂上成功部署。
+:   提出 ACQL（Automaton Constrained Q-Learning），将线性时序逻辑（LTL）任务规范转化为自动机，结合目标条件学习和最小安全约束，首次在连续控制环境中可扩展地同时支持时序目标序列和非平稳安全约束。
 
 **[Bandit And Delayed Feedback In Online Structured Prediction](bandit_and_delayed_feedback_in_online_structured_prediction.md)**
 
@@ -376,7 +376,7 @@ description: >-
 
 **[Noisyrollout Reinforcing Visual Reasoning With Data Augmenta](noisyrollout_reinforcing_visual_reasoning_with_data_augmenta.md)**
 
-:   提出NoisyRollout，一种简单有效的数据增强方法——在VLM的RL训练中混合使用干净图像和适度扭曲图像的生成轨迹，通过注入感知多样性促进策略探索和鲁棒推理，配合噪声退火调度，零额外计算成本实现5个域外推理benchmark上的开源RL模型SOTA。
+:   提出NoisyRollout，一种零额外训练成本的数据增强方法，在GRPO训练VLM时混合来自干净和适度扰动图像的rollout以增强策略探索多样性，仅用2.1K样本在5个域外基准上达到开源RL微调模型SOTA。
 
 **[Non-Convex Entropic Mean-Field Optimization Via Best Response Flow](non-convex_entropic_mean-field_optimization_via_best_response_flow.md)**
 
@@ -456,7 +456,7 @@ description: >-
 
 **[Retrosynthesis Planning Via Worst-Path Policy Optimisation In Tree-Structured Md](retrosynthesis_planning_via_worst-path_policy_optimisation_in_tree-structured_md.md)**
 
-:   将逆合成规划重新建模为树结构MDP中的最差路径优化问题，用自模仿学习确保所有合成路线都能终止于可购买的起始材料。
+:   将逆合成规划重构为树结构MDP中的最差路径(worst-path)优化问题——合成树的价值由最弱路径决定（任何一条死胡同路径将导致整棵树无效），提出InterRetro通过加权自模仿学习优化这一最差路径目标，在Retro*-190上达到100%成功率，路径长度缩短4.9%，仅需10%训练数据即达92%完整性能。
 
 **[Reward-Aware Proto-Representations In Reinforcement Learning](reward-aware_proto-representations_in_reinforcement_learning.md)**
 
@@ -584,7 +584,7 @@ description: >-
 
 **[Thompson Sampling For Multi-Objective Linear Contextual Bandit](thompson_sampling_for_multi-objective_linear_contextual_bandit.md)**
 
-:   提出 MOL-TS，首个具有 Pareto regret 保证的多目标线性上下文 Bandit Thompson 采样算法，通过乐观采样策略和新定义的有效 Pareto 最优概念，实现 $\widetilde{O}(d^{3/2}\sqrt{T})$ 的 regret 上界。
+:   提出MOL-TS——首个具有worst-case Pareto regret理论保证的多目标线性上下文Bandit Thompson Sampling算法，通过定义"有效Pareto最优臂"概念和乐观采样策略，实现$\widetilde{O}(d^{3/2}\sqrt{T})$的regret上界，目标数$L$仅增加$O(\log L)$因子。
 
 **[Thompson Sampling In Function Spaces Via Neural Operators](thompson_sampling_in_function_spaces_via_neural_operators.md)**
 

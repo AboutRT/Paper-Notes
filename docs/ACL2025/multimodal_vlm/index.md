@@ -52,7 +52,7 @@ description: >-
 
 **[Branchlora Continual Instruction](branchlora_continual_instruction.md)**
 
-:   发现MoELoRA在多模态持续指令微调(MCIT)中存在参数低效——矩阵A跨任务趋同而B保持区分，提出BranchLoRA：共享一个A矩阵（树干）+ 多个专有B矩阵（树枝） + 灵活调参-冻结机制 + 任务特定路由器，在CoIN benchmark上显著超越MoELoRA，有效缓解灾难性遗忘。
+:   提出BranchLoRA不对称框架解决多模态持续指令微调(MCIT)中的灾难性遗忘问题，通过发现MoELoRA的参数低效性，引入灵活的冻结-微调机制和增量任务路由器，在多种MLLM规模上显著超越MoELoRA基线。
 
 **[Burn After Reading Do Multimodal Large Language Models Truly Capture Order Of Ev](burn_after_reading_do_multimodal_large_language_models_truly_capture_order_of_ev.md)**
 
@@ -104,7 +104,7 @@ description: >-
 
 **[Cracking Hallucination Vhd](cracking_hallucination_vhd.md)**
 
-:   提出Vision-aware Head Divergence (VHD)指标量化注意力头对视觉信息的敏感度，发现幻觉与模型过度依赖语言先验紧密相关，并提出Vision-aware Head Reinforcement (VHR)无训练方法，通过放大视觉敏感注意力头来缓解幻觉，在CHAIR上最高降低CHAIRS 16.36个点。
+:   提出 VHD 指标量化每个注意力头输出对视觉输入的敏感程度，发现仅少数注意力头对视觉信息高度敏感而模型过度依赖语言先验是导致幻觉的关键因素，进而设计 VHR 免训练方法逐层自适应增强视觉感知头的贡献（$\alpha=2$），在 CHAIR 上将 LLaVA-1.5 的 CHAIR$_S$ 从 49.68 降至 33.32，且几乎无额外推理开销。
 
 **[Craftext Benchmark Advancing Instruction Following In Complex Multimodal Open-En](craftext_benchmark_advancing_instruction_following_in_complex_multimodal_open-en.md)**
 
@@ -132,7 +132,7 @@ description: >-
 
 **[Effivlm Bench Vlm Acceleration](effivlm_bench_vlm_acceleration.md)**
 
-:   提出 EffiVLM-Bench，一个统一评估框架，系统性地评估大型视觉语言模型(LVLM)的免训练加速方法，涵盖 token 压缩和参数压缩两大类，从性能、泛化性、忠实度和效率四个维度进行全面对比分析。
+:   提出 EffiVLM-Bench 统一评估框架，从性能、泛化性、忠实度和效率四个维度系统评估 LVLM 免训练加速方法（token 压缩 + 参数压缩），覆盖 3 个前沿模型和 17 个基准任务，揭示各方法在不同压缩率下的 Pareto 最优权衡。
 
 **[Enhance Multimodal Consistency And Coherence For Text-Image Plan Generation](enhance_multimodal_consistency_and_coherence_for_text-image_plan_generation.md)**
 
@@ -244,7 +244,7 @@ description: >-
 
 **[Manu Modality Aware Unlearning](manu_modality_aware_unlearning.md)**
 
-:   提出MANU框架解决MLLM中的多模态遗忘不平衡问题：通过四种重要性函数（绝对/频率/方差/RMS）识别跨模态知识纠缠的神经元，选择性剪枝实现多模态输入和纯文本输入下的均衡知识遗忘，同时保持模型通用能力。
+:   提出 MANU——首个模态感知的 MLLM 遗忘框架，通过四种互补的神经元重要性函数（绝对/频率/方差/RMS）识别跨模态纠缠的知识载体神经元，选择性剪枝 top-α% 神经元实现多模态和纯文本输入下的均衡遗忘，无需任何梯度更新。
 
 **[Mathcoder-Vl Bridging Vision And Code For Enhanced Multimodal Mathematical Reaso](mathcoder-vl_bridging_vision_and_code_for_enhanced_multimodal_mathematical_reaso.md)**
 
@@ -420,7 +420,7 @@ description: >-
 
 **[Tvc Mitigating Visual Forgetting](tvc_mitigating_visual_forgetting.md)**
 
-:   发现MLLM长链推理中存在严重的"视觉遗忘"现象——推理进行到一半时移除图片仅导致2%精度下降，说明模型过度依赖文本输出而非视觉输入。提出Take-along Visual Conditioning (TVC)，在推理过程中周期性重新注入压缩后的图像特征，在5个数学推理基准上平均超越之前SOTA 3.4个点。
+:   发现 MLLM 在长链 CoT 推理中存在严重的视觉遗忘现象——推理过半后移除图像仅导致 ~2% 的准确率下降，表明模型过度依赖自生成文本而忽视视觉证据。提出 TVC (Take-along Visual Conditioning) 策略，在训练阶段通过动态视觉重确认 (DVR) 注入图像回顾机制，推理阶段通过周期性视觉校准 (PVC) 压缩并重注入视觉 token，在 5 个数学推理基准上平均超越 SOTA 3.4 分（43.4 vs 40.0）。
 
 **[Unsolvable Problem Detection](unsolvable_problem_detection.md)**
 
@@ -464,7 +464,7 @@ description: >-
 
 **[Vrest Tree Search Vlm Reasoning](vrest_tree_search_vlm_reasoning.md)**
 
-:   提出VReST，首次将蒙特卡洛树搜索（MCTS）应用于多模态CoT推理：每个节点是一个推理步骤，通过多模态自奖励机制（sub-question有用性+答案正确性+视觉-语言线索相关性）评估推理质量，无需训练即在MathVista上达到64.50%（超越CoT的54.60%和ToT的60.20%），并展示出多模态测试时缩放定律。
+:   首次将蒙特卡洛树搜索(MCTS)引入多模态CoT推理，配合无需额外模型的多模态自奖励机制系统性探索推理空间，在三个视觉数学推理基准上实现SOTA并验证了多模态测试时缩放定律。
 
 **[We-Math Does Your Large Multimodal Model Achieve Human-Like Mathematical Reasoni](we-math_does_your_large_multimodal_model_achieve_human-like_mathematical_reasoni.md)**
 

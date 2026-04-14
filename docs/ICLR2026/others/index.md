@@ -48,7 +48,7 @@ description: >-
 
 **[Anyup Universal Feature Upsampling](anyup_universal_feature_upsampling.md)**
 
-:   提出AnyUp——首个推理时encoder无关的可学习特征上采样方法，通过feature-agnostic层处理任意维度/类型的视觉特征，配合窗口注意力架构和crop-based训练策略，训练一次即可对任意视觉编码器（DINO/CLIP/SigLIP/MAE等）的特征进行任意分辨率上采样，在多个下游任务上超越FeatUp/JAFAR/LoftUp等方法。
+:   AnyUp 提出首个**编码器无关**的可学习特征上采样方法，通过 feature-agnostic 卷积层和窗口注意力机制，仅训练一次即可对任意视觉特征在任意分辨率间进行高质量上采样，在语义分割、深度估计等任务上达到 SOTA。
 
 **[Articulation In Motion Prior-Free Part Mobility Analysis For Articulated Objects](articulation_in_motion_prior-free_part_mobility_analysis_for_articulated_objects.md)**
 
@@ -100,15 +100,15 @@ description: >-
 
 **[Entropic Confinement And Mode Connectivity In Overparameterized Neural Networks](entropic_confinement_and_mode_connectivity_in_overparameterized_neural_networks.md)**
 
-:   揭示了深度网络损失景观中的"熵垒"现象：连接不同极小值的低损失路径上曲率系统性升高，与SGD噪声交互产生熵力将优化动力学限制在平坦端点附近——这解释了为何能量上连通的极小值在动力学上是有效断开的。
+:   揭示了低损失路径上曲率的系统性增长会产生熵力屏障，即使路径能量平坦，SGD噪声也会将优化动力学约束在最小值附近的平坦区域，从而解释了"模式连通但动力学受限"的悖论。
 
 **[Evaluating Gflownet From Partial Episodes For Stable And Flexible Policy-Based T](evaluating_gflownet_from_partial_episodes_for_stable_and_flexible_policy-based_t.md)**
 
 :   建立GFlowNet中状态流函数与策略评价函数之间的理论联系，提出子轨迹评价平衡（Sub-EB）目标用于可靠学习评价函数，增强策略基GFlowNet训练的稳定性和灵活性。
 
-**[Exchangeability of GNN Representations with Applications to Graph Retrieval](exchangeability_gnn_representations.md)**
+**[Exchangeability Gnn Representations](exchangeability_gnn_representations.md)**
 
-:   发现训练好的 GNN 节点嵌入沿特征维度是**可交换随机变量**（即 $p(X) = p(X\pi)$ 对任意维度排列 $\pi$），利用此性质通过维度排序将基于传输距离的图相似度近似为欧氏距离，构建高效的局部敏感哈希（LSH）框架 GraphHash，在子图匹配和图编辑距离检索任务上超越基线，可扩展到 100 万图语料库。
+:   发现训练好的 GNN 节点嵌入沿特征维度是可交换随机变量（即 $p(\mathbf{X}) = p(\mathbf{X}\pi)$ 对任意维度排列 $\pi$ 成立），利用此性质通过维度排序将基于传输距离（EMD/Wasserstein）的图相似度近似为欧氏距离，构建统一的局部敏感哈希（LSH）框架 GraphHash，在子图匹配和图编辑距离（GED）检索任务上以 AUC 指标一致超越 FourierHashNet、DiskANN、IVF、CORGII、SWWL 等基线，可扩展到 100 万图语料库。
 
 **[Fast And Stable Riemannian Metrics On Spd Manifolds Via Cholesky Product Geometr](fast_and_stable_riemannian_metrics_on_spd_manifolds_via_cholesky_product_geometr.md)**
 
@@ -126,9 +126,9 @@ description: >-
 
 :   将持续学习中的稳定性-可塑性平衡形式化为约束优化问题——最小化权重偏差（稳定性）同时约束权重正交性（可塑性），得到正交 Procrustes 问题的闭式解 $\tilde{W}^* = W(W^\top W)^{-1/2}$（极分解），通过 Newton-Schulz 迭代高效实现（<1% 额外时间），在视觉持续学习、LLM 持续预训练和 RL 上全面超越 S&P 等基线。
 
-**[From Movement to Cognitive Maps: RNNs Reveal How Locomotor Development Shapes Hippocampal Spatial Coding](from_movement_to_cognitive_maps.md)**
+**[From Movement To Cognitive Maps](from_movement_to_cognitive_maps.md)**
 
-:   结合幼鼠运动发育的计算分析和浅层 RNN 模型，证明运动统计特征的发育变化（爬行→行走→奔跑→成年）驱动了空间调谐神经元的序贯涌现，复现了大鼠海马空间编码的发育时间线，且具体的发育运动统计（而非简单的感觉输入加速）是位置中心空间表征涌现的关键。
+:   结合幼鼠运动发育的聚类分析和浅层 RNN 预测学习模型，首次计算性地证明运动统计特征的发育变化（爬行→行走→奔跑→成年）驱动了海马空间调谐神经元（位置细胞、方向细胞、联合编码细胞）的序贯涌现，定量复现大鼠海马记录数据的发育时间线，并预测了联合位置-方向编码细胞在发育中逐渐增多这一现象且在实验数据中得到验证。
 
 **[Harpoon Generalised Manifold Guidance For Conditional Tabular Diffusion](harpoon_generalised_manifold_guidance_for_conditional_tabular_diffusion.md)**
 
@@ -168,7 +168,7 @@ description: >-
 
 **[Latent Fourier Transform](latent_fourier_transform.md)**
 
-:   将扩散自编码器与潜在空间 DFT 结合，在潜在时间序列表征上应用傅里叶变换按时间尺度分离音乐模式，训练时使用随机相关对数频率掩码让解码器学习从部分频谱信息重建，推理时用户指定频率掩码控制保留/混合的时间尺度，在条件生成和音乐融合任务上超越 ILVR/guidance/codec filtering/RAVE 等基线，29 名音乐家的听力测试确认其音质和融合能力优越。
+:   提出 LatentFT 框架，在扩散自编码器的潜在时间序列表征上应用离散傅里叶变换按时间尺度分离音乐模式，训练时使用随机相关对数频率掩码让解码器学习从部分频谱重建，推理时用户通过指定频率掩码选择性保留/混合不同时间尺度的音乐元素，在条件生成和音乐融合任务上全面超越 ILVR/Guidance/Codec Filtering/RAVE 等基线，29 名音乐家听力测试统计显著确认其音质和融合能力优越。
 
 **[Latent Particle World Models Self-Supervised Object-Centric Stochastic Dynamics ](latent_particle_world_models_self-supervised_object-centric_stochastic_dynamics_.md)**
 
@@ -192,15 +192,15 @@ description: >-
 
 **[Lipschitz Bandits With Stochastic Delayed Feedback](lipschitz_bandits_with_stochastic_delayed_feedback.md)**
 
-:   首次研究连续臂空间的Lipschitz bandit问题在随机延迟反馈下的学习——对有界延迟提出延迟感知zooming算法保持最优遗憾率仅多加性τ_max项，对无界延迟提出分阶段学习策略DLPP并证明近最优遗憾下界，两者均通过"lazy update"机制处理延迟观测对置信半径的非平凡影响。
+:   首次系统研究连续臂空间 Lipschitz bandit 在随机延迟反馈下的学习问题，针对有界延迟提出 Delayed Zooming 算法（通过 lazy update 机制保持 $\Delta(x) \leq 6r_t(x)$ 的子最优 gap 界），针对无界延迟提出 DLPP 分阶段剪枝策略（遗憾与延迟分位数 $Q(p)$ 挂钩），并建立实例相关下界证明 DLPP 近最优。
 
 **[Missing Mass For Differentially Private Domain Discovery](missing_mass_for_differentially_private_domain_discovery.md)**
 
 :   为差分隐私域发现问题提供首批绝对效用保证——用缺失质量(recovered mass fraction)替代基数(unique items)度量,证明简单的加权高斯机制(WGM)在Zipf数据上有近最优ℓ1缺失质量保证且有分布无关的ℓ∞保证,并将WGM作为域发现前驱用于私有top-k和k-hitting set问题获得新效用保证,实验在6个真实数据集上验证。
 
-**[Neural Force Field: Few-shot Learning of Generalized Physical Reasoning](neural_force_field_few-shot_learning_of_generalized_physical_reasoning.md)**
+**[Neural Force Field Few-Shot Learning Of Generalized Physical Reasoning](neural_force_field_few-shot_learning_of_generalized_physical_reasoning.md)**
 
-:   提出Neural Force Field(NFF)——将复杂物体交互表示为连续力场→通过ODE积分预测轨迹,与离散隐空间不同,NFF在低维力场中捕捉基本物理概念(重力/支撑/碰撞),仅需少量训练样本即可泛化到未见场景,支持高效的前向-后向规划和交互式精化,在I-PHYRE/N-body/PHYRE上超越所有基线。
+:   提出Neural Force Field（NFF），将物体交互建模为连续力场，通过神经算子学习力场函数并用ODE积分器解码轨迹，在I-PHYRE（100条轨迹）、N-body（200条轨迹）、PHYRE（0.012M数据,比SOTA少267倍）三个基准上实现少样本SOTA，跨场景RMSE降低32-64%,规划任务接近人类水平。
 
 **[Noisy-Pair Robust Representation Alignment For Positive-Unlabeled Learning](noisy-pair_robust_representation_alignment_for_positive-unlabeled_learning.md)**
 
@@ -224,7 +224,7 @@ description: >-
 
 **[Oversmoothing Oversquashing Heterophily Long-Range And More Demystifying Common ](oversmoothing_oversquashing_heterophily_long-range_and_more_demystifying_common_.md)**
 
-:   系统梳理并反驳了图机器学习中关于过平滑（OSM）、过挤压（OSQ）、异质性和长程依赖的9个常见但不总成立的"信念"，通过简洁反例推动社区更精确地理解和表述这些概念。
+:   本文系统梳理了图机器学习领域围绕 oversmoothing、oversquashing、同质/异质性和长程依赖的九个常见误区，通过简洁反例逐一反驳，将"oversquashing"拆分为**计算瓶颈**和**拓扑瓶颈**两个独立概念，厘清了领域中广泛存在的概念混淆。
 
 **[Owleye Zero-Shot Learner For Cross-Domain Graph Data Anomaly Detection](owleye_zero-shot_learner_for_cross-domain_graph_data_anomaly_detection.md)**
 
@@ -268,7 +268,7 @@ description: >-
 
 **[The Invisibility Hypothesis Promises Of Agi And The Future Of The Global South](the_invisibility_hypothesis_promises_of_agi_and_the_future_of_the_global_south.md)**
 
-:   本文提出"不可见性假说"（Invisibility Hypothesis），论证随着AI系统日益成为经济和政治分配的协调层，全球南方的大量人口——特别是非正式工人和小规模生产者——将因缺乏数字可验证性而被系统性排斥（managed exclusion），从被剥削转为被忽略，风险不仅是失业而是整体相关性的丧失。
+:   提出"不可见性假说"（Invisibility Hypothesis），论证AI系统日益成为经济和政治分配的协调层时将系统性偏向"机器可读"个体，全球南方的非正式工人因缺乏数字可验证性而被管理性排斥（managed exclusion），核心风险从job displacement转向relevance loss，且排斥具有自我强化特性。
 
 **[The Price Of Robustness Stable Classifiers Need Overparameterization](the_price_of_robustness_stable_classifiers_need_overparameterization.md)**
 

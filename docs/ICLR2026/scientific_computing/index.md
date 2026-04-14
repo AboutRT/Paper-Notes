@@ -36,8 +36,8 @@ description: >-
 
 **[One Operator To Rule Them All On Boundary-Indexed Operator Families In Neural Pd](one_operator_to_rule_them_all_on_boundary-indexed_operator_families_in_neural_pd.md)**
 
-:   论证标准神经 PDE 求解器在边界条件变化时实际学习的是"边界条件索引的算子族"而非单一边界无关算子，形式化为条件风险最小化导出不可识别性结果，实验验证边界分布偏移下的急剧退化。
+:   论证神经 PDE 求解器在边界条件变化时学到的不是单一的解算子，而是由边界条件索引的算子族，并从学习理论角度形式化了 ERM 下边界分布偏移导致的不可辨识性问题。
 
 **[Policy Myopia As A Mechanism Of Gradual Disempowerment In Post-Agi Governance Ci](policy_myopia_as_a_mechanism_of_gradual_disempowerment_in_post-agi_governance_ci.md)**
 
-:   论证政策短视（policy myopia）不是注意力分配问题，而是后 AGI 治理中产生不可逆人类失权的**机制**——通过显著性捕获、能力级联和价值锁定三个耦合机制，跨经济/政治/文化系统产生自我强化的人类边缘化均衡。
+:   论证政策短视（policy myopia）不是注意力分配问题，而是一个制度性机制——通过显著性捕获、能力级联和价值锁死三个耦合的正反馈循环，在后AGI时代系统性地、不可逆地剥夺人类的治理参与能力，而标准的缓解措施只能延缓但无法阻止这一过程。

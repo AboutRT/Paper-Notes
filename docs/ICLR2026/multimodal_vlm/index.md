@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 多模态VLM方向 78篇论文解读
+  ICLR2026 多模态VLM方向 77篇论文解读
 description: >-
-  78篇ICLR2026 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  77篇ICLR2026 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**🔬 ICLR2026** · 共 **78** 篇
+**🔬 ICLR2026** · 共 **77** 篇
 
 **[A-Tpt Angular Diversity Calibration Properties For Test-Time Prompt Tuning Of Vi](a-tpt_angular_diversity_calibration_properties_for_test-time_prompt_tuning_of_vi.md)**
 
@@ -150,10 +150,6 @@ description: >-
 
 :   提出 MAPD（Meta-Adaptive Prompt Distillation），一种基于 MAML 元学习的提示蒸馏方法，通过注意力映射器从任务相关的图像特征中蒸馏软提示，使 LMM 在测试时仅用少量梯度步即可适应新的视觉问答任务，性能超越 ICL 21.2%。
 
-**[Metis-Specs Decoupling Multimodal Learning Via Self-Distilled Preference-Based C](metis-specs_decoupling_multimodal_learning_via_self-distilled_preference-based_c.md)**
-
-:   提出SPECS框架将VLM的冷启动从SFT替换为DPO偏好训练——通过自蒸馏生成只关注输出格式的偏好数据，DPO冷启动专注表层形式学习(格式/结构/风格)而非内容记忆，为后续GRPO的深层推理学习提供更好的起点，MEGA-Bench+4.1%、MathVista+12.2%。
-
 **[Mixing Importance With Diversity Joint Optimization For Kv Cache Compression In ](mixing_importance_with_diversity_joint_optimization_for_kv_cache_compression_in_.md)**
 
 :   发现LVLM中KV Cache存在模态特异和注意力头特异的语义冗余，仅靠重要性选择会丢失语义覆盖，提出MixKV按头自适应混合重要性与多样性分数进行KV Cache压缩，在极端压缩下平均提升5.1%。
@@ -208,7 +204,7 @@ description: >-
 
 **[Seeing Across Views Benchmarking Spatial Reasoning Of Vision-Language Models In ](seeing_across_views_benchmarking_spatial_reasoning_of_vision-language_models_in_.md)**
 
-:   提出MV-RoboBench——首个专门评估VLM在机器人操作场景中多视角空间推理能力的基准：1.7K人工策划的QA×8个子任务(空间理解+机器人执行)，发现SOTA模型远低于人类性能，揭示两个关键发现：(1)空间智能与机器人执行正相关,(2)通用单视角基准的强表现不能迁移到多视角机器人场景。
+:   提出 MV-RoboBench，首个结合多视角空间推理与机器人操作任务的基准，系统评估了 40+ 个 VLM（开源+闭源+推理增强），发现最强模型 GPT-5 仅达 56.4% 准确率，远低于人类的 91.0%，并揭示空间与机器人推理正相关、单视角基准表现无法可靠迁移至多视角场景。
 
 **[Self-Aug Query And Entropy Adaptive Decoding For Large Vision-Language Models](self-aug_query_and_entropy_adaptive_decoding_for_large_vision-language_models.md)**
 

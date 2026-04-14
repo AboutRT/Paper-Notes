@@ -40,7 +40,7 @@ description: >-
 
 **[Distillation Dynamics Towards Understanding Feature-Based Di](distillation_dynamics_towards_understanding_feature-based_di.md)**
 
-:   提出"蒸馏动力学"分析框架（频谱分析+信息熵+激活幅值），揭示ViT具有独特的U型信息处理模式（先压缩后扩展），证明feature-based蒸馏在ViT中失败的根本原因是teacher后层的分布式高维编码范式与student有限通道容量之间的表征范式不匹配，而非简单的容量差距。
+:   提出"蒸馏动力学"分析框架（通道维FFT频谱分析+Shannon熵+激活幅值追踪），揭示ViT具有独特的U型信息处理模式（先压缩后扩展），证明feature-based蒸馏在ViT中失败的根本原因是teacher后层的分布式高维编码范式与student有限通道容量之间的表征范式不匹配，而非简单的容量差距。
 
 **[Dreamrunner Fine-Grained Compositional Story-To-Video Genera](dreamrunner_fine-grained_compositional_story-to-video_genera.md)**
 
@@ -152,7 +152,7 @@ description: >-
 
 **[Uvlm Benchmarking Video Language Model For Underwater World Understanding](uvlm_benchmarking_video_language_model_for_underwater_world_understanding.md)**
 
-:   提出首个水下视频语言理解基准 UVLM，涵盖 2109 段视频、419 类海洋生物、20 种子任务和约 4 万 video-text pairs，通过 human-AI 协同标注注入海洋领域知识，微调后 7B VidLM 性能接近 GPT-4o。
+:   构建首个水下视频语言理解基准 UVLM（2109 段视频、419 类海洋生物、20 种子任务、~4 万 video-text pairs），通过 human-AI 协同标注注入海洋领域知识，在 UVLM 上微调后 7B VidLM 可达到接近 GPT-4o 的性能（73.04 vs 77.95 Overall）。
 
 **[Vir-Bench Evaluating Geospatial And Temporal Understanding Of Mllms Via Travel V](vir-bench_evaluating_geospatial_and_temporal_understanding_of_mllms_via_travel_v.md)**
 

@@ -2,91 +2,121 @@
 title: >-
   [论文解读] Cooperative Sheaf Neural Networks
 description: >-
-  [ICLR2026][图学习][Sheaf Neural Networks] 提出 Cooperative Sheaf Neural Network (CSNN)，通过在有向图上定义 cellular sheaf 的入度/出度 Laplacian，使节点能独立选择是否广播 (PROPAGATE) 或监听 (LISTEN) 信息，从而缓解过压缩并提升异质图节点分类性能。
+  [ICLR 2026][图学习][Sheaf Neural Networks] 提出在有向图上定义 cellular sheaf 的 in/out-degree Laplacian，构建 Cooperative Sheaf Neural Network (CSNN)，使节点能独立选择信息传播/接收策略，从而同时缓解过度挤压(oversquashing)和处理异配(heterophilic)任务。
 tags:
-  - ICLR2026
+  - ICLR 2026
   - 图学习
   - Sheaf Neural Networks
-  - 有向图
   - 协作行为
-  - 过压缩
-  - 异质图
+  - 有向图
+  - 过度挤压
+  - 异配图
 ---
 
 # Cooperative Sheaf Neural Networks
 
-**会议**: ICLR2026  
+**会议**: ICLR 2026  
 **arXiv**: [2507.00647](https://arxiv.org/abs/2507.00647)  
-**代码**: 待确认  
-**领域**: 图学习  
-**关键词**: Sheaf Neural Networks, 有向图, 协作行为, 过压缩, 异质图  
+**代码**: 无  
+**领域**: 图学习 / 图神经网络  
+**关键词**: Sheaf Neural Networks, 协作行为, 有向图, 过度挤压, 异配图
 
 ## 一句话总结
 
-提出 Cooperative Sheaf Neural Network (CSNN)，通过在有向图上定义 cellular sheaf 的入度/出度 Laplacian，使节点能独立选择是否广播 (PROPAGATE) 或监听 (LISTEN) 信息，从而缓解过压缩并提升异质图节点分类性能。
+提出在有向图上定义 cellular sheaf 的 in/out-degree Laplacian，构建 Cooperative Sheaf Neural Network (CSNN)，使节点能独立选择信息传播/接收策略，从而同时缓解过度挤压(oversquashing)和处理异配(heterophilic)任务。
 
 ## 研究背景与动机
 
-Sheaf Neural Networks (SNNs) 利用 cellular sheaf 在图上构造灵活的扩散过程，能处理异质图任务并缓解过平滑。然而作者发现 SNNs 存在根本性限制：节点无法独立选择信息流方向。具体而言，若节点 $i$ 想阻止接收邻居信息（不 LISTEN），必须令 $\mathcal{F}_{i \unlhd e} = 0$，但这同时阻止了 $i$ 向外广播（不 PROPAGATE），导致 PROPAGATE 蕴含 LISTEN，退化为 ISOLATE。这一限制阻碍了对长程依赖中过压缩问题的有效处理。
+**领域现状**：Sheaf Neural Networks (SNNs) 通过在图上定义 cellular sheaf 来泛化 GNN 的扩散机制，已被证明能处理异配任务并缓解过平滑(oversmoothing)。
+
+**现有痛点**：经典 SNNs 基于无向图，节点无法独立选择"仅传播信息"或"仅接收信息"。若某节点 $i$ 要屏蔽所有邻居的输入，必须将所有关联的 restriction map 置零 $\mathcal{F}_{i \unlhd e}=0$，这同时也阻断了 $i$ 向外传播信息的能力。
+
+**核心矛盾**：SNNs 的 sheaf Laplacian 结构使得 PROPAGATE 蕴含 LISTEN，无法实现四种协作行为(STANDARD/LISTEN/PROPAGATE/ISOLATE)的完全解耦。
+
+**本文要解决什么？** 让 SNN 中的节点能独立决定是否传播和/或接收信息，实现真正的协作行为，以更好地缓解 oversquashing。
+
+**切入角度**：将无向边拆分为一对有向边，在有向图上定义 cellular sheaf 及其 in/out-degree sheaf Laplacian。
+
+**核心idea一句话**：通过有向图上的 sheaf Laplacian 分离源映射 $\mathbf{S}_i$ 和目标映射 $\mathbf{T}_i$，使每个节点可独立控制信息流入和流出方向。
 
 ## 方法详解
 
 ### 整体框架
 
-CSNN 将无向图的每条边替换为一对有向边，在有向图上定义 cellular sheaf，引入入度和出度 sheaf Laplacian，然后组合两个 Laplacian 进行扩散，实现协作行为。
+CSNN 将输入无向图转为有向图（每条无向边拆为一对有向边），为每个节点 $i$ 学习一对 conformal 映射 $\mathbf{S}_i$（源映射）和 $\mathbf{T}_i$（目标映射），然后通过组合 out-degree 和转置 in-degree sheaf Laplacian 进行归一化扩散，最后结合 NSD 风格的迭代更新完成节点表示学习。
 
 ### 关键设计
 
-**1. 有向 Cellular Sheaf (Definition 3.2)**：对有向图 $G=(V,E)$，每个节点 $i$ 关联两类 restriction map：源映射 $\mathcal{F}_{i \unlhd ij}$（$i$ 作为边 $ij$ 的源端）和目标映射 $\mathcal{F}_{i \unlhd ji}$（$i$ 作为边 $ji$ 的目标端），从而支持非对称通信。
+1. **有向图 Cellular Sheaf 与 In/Out-Degree Laplacian**:
 
-**2. 入度/出度 Sheaf Laplacian (Definition 3.3)**：
-- 出度 Laplacian：$L_{\mathcal{F}}^{\text{out}}(\mathbf{X})_i = \sum_{j \in N(i)} (\mathbf{S}_i^\top \mathbf{S}_i \mathbf{x}_i - \mathbf{T}_i^\top \mathbf{S}_j \mathbf{x}_j)$
-- 入度 Laplacian 转置：$((L_{\mathcal{F}}^{\text{in}})^\top(\mathbf{X}))_i = \sum_{j \in N(i)} (\mathbf{T}_i^\top \mathbf{T}_i \mathbf{x}_i - \mathbf{T}_i^\top \mathbf{S}_j \mathbf{x}_j)$
+    - 做什么：定义有向图上的 sheaf 结构，区分节点作为源和目标时的 restriction map
+    - 核心思路：Out-degree sheaf Laplacian $L_{\mathcal{F}}^{\text{out}}(\mathbf{X})_i = \sum_{j \in N(i)} (\mathbf{S}_i^\top \mathbf{S}_i \mathbf{x}_i - \mathbf{T}_i^\top \mathbf{S}_j \mathbf{x}_j)$，In-degree 类似但用 $\mathbf{T}$ 控制接收端。通过组合 $(\Delta_\mathcal{F}^{\text{in}})^\top \Delta_\mathcal{F}^{\text{out}}$ 实现非对称扩散
+    - 设计动机：无向 sheaf Laplacian 中 $\mathcal{F}_{i \unlhd e}=0$ 同时切断传入和传出（Proposition 3.1），有向拆分后 $\mathbf{S}_i=0$（不传播）和 $\mathbf{T}_i=0$（不监听）可独立设置
 
-**3. Flat Vector Bundle 高效实现**：每个节点仅需一对 conformal map $\mathbf{S}_i$（源）和 $\mathbf{T}_i$（目标），用 Householder 反射参数化正交矩阵乘以可学习正标量，参数量仅 $O(n)$ 而非 $O(m)$。
+2. **Flat Vector Bundle 高效参数化**:
 
-**4. 协作行为**：$\mathbf{T}_i = 0 \Rightarrow$ LISTEN 关闭；$\mathbf{S}_i = 0 \Rightarrow$ PROPAGATE 关闭；两者都非零为 STANDARD；两者都为零为 ISOLATE。
+    - 做什么：用每节点仅两个 conformal 映射替代每条边的 restriction map
+    - 核心思路：对所有邻居 $j$ 共享 $\mathcal{F}_{i \unlhd ij} = \mathbf{S}_i$、$\mathcal{F}_{i \unlhd ji} = \mathbf{T}_i$，通过 Householder 反射构造正交矩阵再乘以学习的正常数
+    - 设计动机：一般 cellular sheaf 有 $2m$ 个 restriction map（$m$ 为边数），flat vector bundle 仅需 $2n$ 个（$n$ 为节点数），大幅降低计算量
 
-**5. 扩展感受野 (Proposition 4.2)**：CSNN 每层可影响 $2t$ 跳邻居（通常 GNN 只有 $t$ 跳），且可选择性忽略路径上中间节点直接接收远端信息 (Proposition 4.3)，有效缓解过压缩。
+3. **扩展感受野与选择性注意**:
+
+    - 做什么：理论证明 CSNN 每层可访问 $2t$-hop 邻居，并可选择性忽略路径上的中间节点
+    - 核心思路：通过合理配置 $\mathbf{S}$ 和 $\mathbf{T}$ 映射，使 $\partial \mathbf{x}_i^{(t)} / \partial \mathbf{x}_j^{(0)}$ 对距离为 $t$ 的目标节点 $j$ 有高灵敏度，同时对中间节点趋近零
+    - 设计动机：传统 GNN $t$ 层只能访问 $t$-hop 邻居，且信息沿路径指数压缩导致 oversquashing；CSNN 的选择性注意可有效缓解
+
+### 损失函数 / 训练策略
+
+采用 NSD 风格的扩散迭代，restriction map 通过神经网络端到端学习。使用 Householder 反射保证正交性，乘以学习的正常数构成 conformal 映射。
 
 ## 实验关键数据
 
-| 实验类型 | 关键结果 |
-|---------|---------|
-| 合成过压缩测试 | CSNN 显著优于现有 SNN 和 Cooperative GNN，能有效处理长程依赖 |
-| 异质图节点分类 (11 个数据集) | CSNN 通常优于已有 SNN（NSD、SheafHNN）和 Cooperative GNN |
-| 长程图分类 (2 个任务) | CSNN 展现出强劲性能 |
-| 总计 | 超过 13 个真实世界任务中 CSNN 通常表现最优 |
+### 主实验
 
-核心发现：
-- 合成实验验证 CSNN 能建模长程依赖并避免过压缩
-- 在异质图任务上，协作行为带来的非对称信息流是性能提升的关键
-- Flat vector bundle 使 CSNN 保持与 NSD 相当的计算效率
+| 数据集 | 指标 | CSNN | 最优对比 | 提升 |
+|--------|------|------|----------|------|
+| roman-empire | Acc | 92.63 | BuNN 91.75 | +0.88 |
+| minesweeper | AUROC | 99.07 | BuNN 98.99 | +0.08 |
+| tolokers | AUROC | 85.45 | CO-GNN 84.84 | +0.61 |
+| questions | AUROC | 79.31 | BuNN 78.75 | +0.56 |
+| Wisconsin | Acc | 90.00 | O(d)-NSD 89.41 | +0.59 |
+
+### 消融实验
+
+| 配置 | NeighborsMatch 准确率 | 说明 |
+|------|----------------------|------|
+| CSNN (r=2~8) | 100% 全部深度 | 完美解决 oversquashing |
+| BuNN (r≥7) | 71%→42% | r=7 开始退化 |
+| NSD (r≥4) | 5% | 严重 oversquashing |
+| GCN/GIN (r≥4) | 失败 | 无法处理长距离 |
+
+### 关键发现
+
+- CSNN 在 NeighborsMatch 所有树深度上保持 100% 准确率，显著优于所有 sheaf 和非 sheaf 基线
+- 在 11 个节点分类数据集中 9 个取得最优，尤其在强异配数据集上表现突出
+- 在 peptides-func 图分类任务上达到 73.38 AP，超过 BuNN (72.76)、GPS、SAN 等方法
 
 ## 亮点与洞察
 
-1. **理论清晰**：Proposition 3.1 严格证明了传统 SNN 无法实现协作行为，动机自然
-2. **数学优雅**：通过有向图上的 sheaf 结构统一了协作 GNN 和 sheaf 扩散两条研究线
-3. **双倍感受野**：每层 $2t$ 跳的理论保证是缓解过压缩的核心优势
-4. **参数高效**：flat vector bundle 使参数仅 $O(n)$，远低于一般 sheaf 的 $O(m)$
+- 从代数拓扑角度严格证明 SNNs 无法实现协作行为（Proposition 3.1），然后用有向 sheaf 优雅地解决
+- Flat vector bundle 设计使参数量从 $O(m)$ 降到 $O(n)$，在理论优势之外还保证了计算效率
+- 理论证明 CSNN 每层感受野为 $2t$-hop 而非传统 $t$-hop，为缓解 oversquashing 提供新思路
 
-## 局限性
+## 局限性 / 可改进方向
 
-- 将无向边替换为有向边对使边数翻倍，在稠密图上内存开销增大
-- 理论分析主要针对线性扩散，非线性情况下的行为未充分讨论
-- Householder 反射的参数化可能限制 conformal map 的表达能力
-- 缺少对超大规模图（百万节点级）的可扩展性验证
+- 协作行为的选择通过连续参数隐式决定，未显式建模离散动作
+- 在 amazon-ratings 等部分数据集上未取得最优，flat vector bundle 的简化可能牺牲了灵活性
+- 仅在中等规模图上验证，大规模图（>100K 节点）的可扩展性有待评估
 
 ## 相关工作与启发
 
-- **Neural Sheaf Diffusion (NSD, Bodnar et al. 2022)**：CSNN 的直接前驱，但 NSD 在无向图上无法实现协作行为
-- **Cooperative GNN (Finkelshtein et al. 2024)**：通过 Gumbel-Softmax 实现离散动作选择，但需额外 action network；CSNN 用连续的 sheaf 结构更自然
-- **SheafHNN (Bamberger et al. 2025)**：同为 sheaf 方法，但仍受限于无向图框架
-- 启发：有向图结构天然适合建模非对称关系（如社交网络的关注/被关注），该框架可推广至知识图谱推理
+- **vs CO-GNN**: CO-GNN 使用离散 Gumbel-Softmax 动作网络选择协作模式，CSNN 通过连续参数自然实现，避免了训练不稳定和超参敏感问题
+- **vs NSD**: NSD 基于无向 sheaf，CSNN 通过有向 sheaf 扩展了表达能力，在 NeighborsMatch 上表现远超 NSD
+- **vs BuNN**: BuNN 也是 sheaf-based，但在 r≥7 的 oversquashing 测试中明显退化，CSNN 始终保持 100%
 
 ## 评分
 
-- 新颖性: ⭐⭐⭐⭐ (有向 sheaf + 协作行为的结合具有理论深度)
-- 实验充分度: ⭐⭐⭐⭐ (13+ 真实任务 + 合成验证)
-- 写作质量: ⭐⭐⭐⭐ (理论刻画精确，逻辑清晰)
-- 价值: ⭐⭐⭐⭐ (统一了 sheaf 扩散与协作 GNN 两条线)
+- 新颖性: ⭐⭐⭐⭐ 有向 sheaf Laplacian 是全新数学构造，理论贡献扎实
+- 实验充分度: ⭐⭐⭐⭐ 合成 + 11个节点分类 + 2个图分类，覆盖全面
+- 写作质量: ⭐⭐⭐⭐ 定义-命题-证明结构清晰，数学严谨
+- 价值: ⭐⭐⭐⭐ 为 sheaf-based GNN 提供了新的理论和实践方向

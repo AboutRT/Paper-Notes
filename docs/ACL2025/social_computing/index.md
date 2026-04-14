@@ -12,7 +12,7 @@ description: >-
 
 **[A Survey On Proactive Defense Strategies Against Misinformation In Large Languag](a_survey_on_proactive_defense_strategies_against_misinformation_in_large_languag.md)**
 
-:   系统综述 LLM 主动防御错误信息的策略——提出"三支柱"框架：(1) 知识可信度（训练数据质量+知识编辑+RAG）, (2) 推理可靠性（自对齐+解码策略）, (3) 输入鲁棒性（对抗攻击防御+输入净化）。127 种技术的分类映射，48 项基准研究的元分析显示主动防御比传统检测方法提升 42-63%。
+:   提出从被动检测到主动防御的范式转换，构建知识可信度、推理可靠性、输入鲁棒性"三支柱"框架，将 127 种防御技术系统映射到三支柱中，元分析 48 项基准研究表明主动防御相比传统方法提升 42-63%，同时识别了计算开销和跨域泛化的非平凡权衡。
 
 **[Banstereoset A Dataset To Measure Stereotypical Social Biases In Llms For Bangla](banstereoset_a_dataset_to_measure_stereotypical_social_biases_in_llms_for_bangla.md)**
 

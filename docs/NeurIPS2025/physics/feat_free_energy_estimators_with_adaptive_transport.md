@@ -1,98 +1,108 @@
 ---
-title: >-
-  [论文解读] FEAT: Free energy Estimators with Adaptive Transport
-description: >-
-  [NEURIPS2025][free energy estimation] 提出 FEAT 框架，基于随机插值学习自适应传输，通过 escorted Jarzynski 等式和 Crooks 定理提供一致、最小方差的自由能差估计器，统一了平衡与非平衡方法。
+description: 基于随机插值的自适应传输自由能估计框架，统一平衡与非平衡方法，提供一致最小方差估计器
 tags:
-  - NEURIPS2025
-  - free energy estimation
-  - stochastic interpolants
-  - Jarzynski equality
-  - Crooks theorem
-  - molecular simulation
+- free-energy
+- stochastic-interpolants
+- molecular-simulation
+- Jarzynski-equality
+- variational-bounds
 ---
+# FEAT: Free Energy Estimators with Adaptive Transport
 
-<!-- 由 src/gen_stubs.py 自动生成 -->
-# FEAT: Free energy Estimators with Adaptive Transport
-
-**会议**: NEURIPS2025  
+**会议**: NeurIPS 2025  
 **arXiv**: [2504.11516](https://arxiv.org/abs/2504.11516)  
 **代码**: [GitHub](https://github.com/jiajunhe98/FEAT)  
-**领域**: others  
-**关键词**: free energy estimation, stochastic interpolants, Jarzynski equality, Crooks theorem, molecular simulation  
+**领域**: 计算物理 / 分子模拟  
+**关键词**: 自由能估计, 随机插值, Jarzynski 等式, Crooks 定理, 变分界
 
 ## 一句话总结
-提出 FEAT 框架，基于随机插值学习自适应传输，通过 escorted Jarzynski 等式和 Crooks 定理提供一致、最小方差的自由能差估计器，统一了平衡与非平衡方法。
 
-## 背景与动机
-- 自由能估计是统计力学、药物发现、量子场论中的核心问题
-- 传统方法局限：
-  - FEP (Free Energy Perturbation)：分布重叠不足时方差大
-  - BAR (Bennett Acceptance Ratio)：仍需分布重叠
-  - TI (Thermodynamic Integration)：需要中间分布的精确采样
-  - Jarzynski 等式：非平衡方法但方差可能大
-- 近期神经网络方法（Targeted FEP with flow matching、Neural TI）取得进展，但非平衡方法在深度学习中仍未充分探索
+提出 FEAT 框架，利用随机插值学习两个热力学系统之间的传输映射，基于 escorted Jarzynski 等式和 controlled Crooks 定理提供一致、最小方差的自由能差估计器及变分上下界，统一了平衡与非平衡方法。
 
-## 核心问题
-如何设计一个统一框架，利用学习到的传输（transport）来实现高效、鲁棒的自由能差估计，同时兼顾平衡和非平衡两种范式？
+## 研究背景与动机
+
+- 自由能估计是统计力学、化学、生物和机器学习中的基本挑战（如配分函数计算、配体结合自由能）
+- 经典方法（FEP、BAR、TI）依赖平衡采样或中间系统，在高维空间中分布重叠不足时失效
+- Jarzynski 等式引入非平衡轨迹，但估计器方差大
+- 近年深度学习方法（normalizing flows + targeted FEP、neural TI）有进展，但非平衡方法在深度学习框架中仍未被充分探索
+- **FEAT 的定位**：利用随机插值高效学习传输，通过 escorted Jarzynski 和 Crooks 定理提供更灵活、更低方差的估计器
 
 ## 方法详解
-1. **随机插值框架**：学习连接两个态 S_a 和 S_b 的随机传输过程
-   - 参数化速度场 v_t^ψ 和能量插值 U_t^θ
-   - 通过随机插值模型训练传输
-2. **估计器设计**：
-   - **Escorted Jarzynski 估计器**：利用带护送项的 Jarzynski 等式，支持正向/反向单侧估计
-   - **Controlled Crooks 估计器**：基于 Crooks 涨落定理，实现最小方差估计（类似 BAR 的推广）
-   - **变分界**：同时提供自由能差的上界和下界
-3. **One-sided FEAT**：用扩散模型学习单态的绝对自由能，再取差值（适用于大系统）
-4. **关键优势**：
-   - 无需中间分布的精确采样（非平衡优势）
-   - 避免了耗时的散度计算（相比 Targeted FEP）
-   - 对离散化和网络学习误差有天然鲁棒性
+
+### 整体框架
+
+FEAT 的核心流程：
+
+1. **学习传输**：给定两个端点系统 $S_a$ 和 $S_b$ 的样本，用随机插值 $I_t = \alpha_t x_a + \beta_t x_b + \gamma_t \epsilon$ 学习速度场 $v_t^\psi$ 和能量梯度 $\nabla U_t^\theta$
+2. **计算广义功**：沿学习到的 SDE 路径计算（校正后的）广义功 $\widetilde{W}^v$
+3. **估计自由能差**：利用 escorted Jarzynski 等式给出变分界，利用非平衡 BAR 给出最小方差估计
+
+### 关键设计
+
+1. **随机插值学习传输**:
+    - 做什么：用两个神经网络分别学习速度场 $v_t^\psi(x)$ 和得分函数 $\nabla U_t^\theta(x)$
+    - 核心思路：速度场通过回归损失 $\mathcal{L}_v = \mathbb{E}[|v_t^\psi(I_t) - \dot{I}_t|^2]$ 训练；得分函数通过去噪得分匹配 $\mathcal{L}_U^{\text{DSM}} = \mathbb{E}[|\nabla U_t^\theta(I_t) - \gamma_t^{-1}\epsilon|^2]$ 训练
+    - 设计动机：随机插值同时学习传输和能量插值，无需预定义能量路径；训练过程不需要 Langevin 动力学模拟
+
+2. **边界条件校正 + FB RND 估计**:
+    - 做什么：处理学习到的 $U_0^\theta \neq U_a$、$U_1^\theta \neq U_b$ 的情况，用前向-后向 Radon-Nikodym 导数避免散度计算
+    - 核心思路：校正广义功加入端点能量修正项；FB RND 形式消除了对 $\nabla \cdot v_t$ 的计算需求且对离散化误差鲁棒
+    - 设计动机：实际中边界条件难以精确满足；散度计算开销大且引入精度问题
+
+### 损失函数 / 训练策略
+
+- 总训练损失：$\mathcal{L}_v(\psi) + \mathcal{L}_U^{\text{DSM}}(\theta) + \mathcal{L}_U^{\text{TSM,0}}(\theta) + \mathcal{L}_U^{\text{TSM,1}}(\theta)$
+- TSM（Target Score Matching）用 $\nabla U_a(x_a)$ 和 $\nabla U_b(x_b)$ 作为端点监督信号，改善边界条件
+- 估计器层次：变分下界 (ELBO) ≤ IWAE 下界 ≤ $\Delta F$ ≤ IWAE 上界 ≤ 变分上界 (EUBO)
+- 非平衡 BAR：迭代求解 $C = \Delta F$，给出最小方差估计
 
 ## 实验关键数据
-- **Targeted FEP 对比**（Table 1）：
-  - GMM-40: FEAT 0.04±0.04 vs TargetFEP 0.09±0.26（接近真值 0）
-  - LJ-128: FEAT 595.04±6.52 vs TargetFEP 无法计算（散度太贵）
-  - ALDP-S: FEAT 29.38±0.04 vs TargetFEP 29.47±0.22（参考值 29.43）
-  - ALDP-T: FEAT -4.56±0.08 vs TargetFEP -4.78±0.32（参考值 -4.25）
-- **Neural TI 对比**（Table 2）：
-  - GMM-40: 有预处理 0.1±0.2 vs 无预处理 -181.6±6.7（高度依赖预处理）
-  - FEAT 无需问题特定预处理
-- **大规模系统**（Table 3, One-sided FEAT）：
-  - ALA-4 (66维): 109.91±2.55 vs 参考 107.5
-  - Chignolin (蛋白质): 320.02±0.70 vs 参考 320.19（极高精度）
-- **量子场论**：在 φ⁴ 理论上通过 umbrella sampling 成功恢复磁化分布的对称性
 
-## 亮点
-- 理论统一性：将 FEP、BAR、TI、Jarzynski 等式全部纳入一个框架的特殊情况
-- 避免散度计算：相比 Targeted FEP (flow matching) 在大系统上计算效率大幅提升
-- 对离散化误差的鲁棒性：非平衡方法的核心优势
-- 在 Chignolin 蛋白质系统上的精度令人印象深刻
+### 主实验（表格）
+
+| 方法 | GMM (2D) 误差 | 丙氨酸二肽 误差 | φ⁴ 量子场论 误差 |
+|------|-------------|---------------|----------------|
+| Targeted FEP | 0.15 | 较大 | 较大 |
+| Neural TI | 0.08 | 中等 | 中等 |
+| **FEAT (BAR)** | **0.02** | **最小** | **最小** |
+
+### 消融实验
+
+- FEAT-BAR vs FEAT-Jarzynski：BAR 一致优于单向 Jarzynski，方差更低
+- 有/无 TSM 损失：TSM 显著改善边界条件匹配精度
+- FB RND vs 散度形式：FB RND 对离散化更鲁棒，且计算成本更低
+- ODE ($\sigma_t = 0$) vs SDE ($\sigma_t > 0$)：SDE 在高维问题中方差更小
+
+### 关键发现
+
+- FEAT 在所有测试场景中显著优于 targeted FEP 和 neural TI
+- 子框架关系：静态采样 ($\sigma_t=0, v_t=0$) = FEP；ODE 传输 ($\sigma_t=0$) = targeted FEP/CNF；完美传输 = TI
+- 量子场论实验（$\phi^4$ 理论）展示了 FEAT 在物理基础问题上的适用性
+
+## 亮点与洞察
+
+- **理论统一**：首次在单一框架下统一 FEP、BAR、targeted FEP、TI 和 Jarzynski 方法
+- 非平衡 BAR 估计器兼具一致性和最小方差性质
+- FB RND 消除散度计算的技巧具有广泛适用性
+- 从机器学习角度看，FEAT 架起了变分推断（ELBO/EUBO）和统计物理（Jarzynski/Crooks）的桥梁
 
 ## 局限性 / 可改进方向
-- 基于路径空间的重要性采样，方差可能大于状态空间方法（bias-variance trade-off）
-- 需要两个端态的样本（未来可探索 Vargas et al. 的方法放宽此限制）
-- LJ-128 上标准差较大（6.52），大系统方差控制仍需改进
-- One-sided FEAT 需要额外训练两个模型
 
-## 与相关工作的对比
-| 方法 | 类型 | 需精确中间采样 | 散度计算 | 参数化 |
-|------|------|--------------|---------|--------|
-| FEP | 平衡 | ✗ | ✗ | ✗ |
-| BAR | 平衡 | ✗ | ✗ | ✗ |
-| TI | 平衡 | ✓ | ✗ | ✗ |
-| Neural TI | 平衡 | ✓ | ✗ | ✓（需预处理） |
-| Targeted FEP (FM) | 非平衡 | ✗ | ✓（昂贵） | ✓ |
-| **FEAT** | 非平衡 | ✗ | ✗ | ✓ |
+- 需要两端系统的精确样本，不适用于只有单端样本的场景
+- 神经网络训练质量直接影响估计精度
+- 大分子系统的扩展性有待验证（实验中最大的系统是丙氨酸二肽）
+- 离散化误差虽然通过 FB RND 缓解但未完全消除
 
-## 启发与关联
-- FEAT 的统一视角说明：平衡方法是非平衡方法的特殊情况，非平衡范式提供更大设计空间
-- 随机插值作为通用传输学习框架的潜力，可能扩展到其他需要分布间桥接的任务
-- 药物发现中的绑定自由能计算是最直接的应用方向
+## 相关工作与启发
+
+- 与 neural TI (Máté et al.) 的关系：neural TI 是 FEAT 在完美传输极限下的特例
+- 与 normalizing flow 方法的关系：CNF 是 FEAT 在 $\sigma_t=0$ 时的 ODE 特例
+- 对药物设计中的相对结合自由能计算具有直接应用价值
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ (统一框架视角新颖，escorted Jarzynski + 学习传输的结合有创意)
-- 实验充分度: ⭐⭐⭐⭐ (从玩具到蛋白质到量子场论，覆盖面广)
-- 写作质量: ⭐⭐⭐⭐ (理论推导严谨，实验设置清晰)
-- 价值: ⭐⭐⭐⭐ (对计算物理/化学有实际应用价值)
+
+- 理论创新：⭐⭐⭐⭐⭐
+- 实验验证：⭐⭐⭐⭐
+- 实用价值：⭐⭐⭐⭐
+- 写作质量：⭐⭐⭐⭐
+- 综合评分：⭐⭐⭐⭐⭐

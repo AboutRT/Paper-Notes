@@ -20,7 +20,7 @@ description: >-
 
 **[Hallucination Stations On Some Basic Limitations Of Transformer-Based Language M](hallucination_stations_on_some_basic_limitations_of_transformer-based_language_m.md)**
 
-:   从计算复杂性角度分析LLM幻觉和能力局限，论证超过特定计算复杂度后LLM不仅无法正确执行任务，甚至无法验证其输出的正确性，为幻觉问题划定理论边界。
+:   从计算复杂度理论出发证明 Transformer LLM 每步推理复杂度为 $O(N^2 \cdot d)$，基于时间层次定理（Hartmanis-Stearns），任何需要超过此复杂度的计算任务——如 $O(n^3)$ 矩阵乘法、$O(n^k)$ token 组合、TSP 验证等——LLM 必然无法正确完成（即产生幻觉），且 LLM Agent 也无法验证此类任务的正确性。
 
 **[Llm Targeted Underperformance Disproportionately Impacts Vulnerable Users](llm_targeted_underperformance_disproportionately_impacts_vulnerable_users.md)**
 

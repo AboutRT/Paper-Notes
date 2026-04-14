@@ -184,7 +184,7 @@ description: >-
 
 **[Dreamview Injecting Viewspecific Text Guidance Into Textto3D](dreamview_injecting_viewspecific_text_guidance_into_textto3d.md)**
 
-:   DreamView通过自适应引导注入模块协调全局和视角特定文本实现3D定制化生成。
+:   提出DreamView，通过自适应引导注入模块在扩散模型每个U-Net block中动态选择全局文本或视角特定文本作为条件，实现视角级3D定制化生成（如T恤正反面不同图案），同时保持实例级一致性，用户偏好率74.5%。
 
 **[Dspdet3D 3D Small Object Detection With Dynamic Spatial Pruning](dspdet3d_3d_small_object_detection_with_dynamic_spatial_pruning.md)**
 
@@ -332,7 +332,7 @@ description: >-
 
 **[Jointdreamer Ensuring Geometry Consistency And Text Congruen](jointdreamer_ensuring_geometry_consistency_and_text_congruen.md)**
 
-:   JointDreamer提出JSD通过能量函数建模多视角联合分布确保3D一致性。
+:   提出Joint Score Distillation（JSD），通过能量函数建模多视角联合图像分布，将SDS从单视角独立优化扩展为多视角联合优化，从根本上缓解Text-to-3D中的Janus多面问题，在CLIP R-Precision上达到88.5%、User Study偏好率42.1%。
 
 **[Jointdreamer Ensuring Geometry Consistency And Text Congruence In Text-To-3D Gen](jointdreamer_ensuring_geometry_consistency_and_text_congruence_in_text-to-3d_gen.md)**
 
@@ -612,7 +612,7 @@ description: >-
 
 **[View Selection For 3D Captioning Via Diffusion Ranking](view_selection_for_3d_captioning_via_diffusion_ranking.md)**
 
-:   DiffuRank用预训练text-to-3D扩散模型评估视角对齐度选择最佳视角减少幻觉。
+:   提出DiffuRank方法，利用预训练text-to-3D扩散模型（Shap·E）对3D物体渲染视角进行对齐度评分和排序，选出最具代表性的Top-6视角送入GPT4-Vision生成高质量字幕，修正Cap3D中约200k错误标注并扩展至150万条字幕。
 
 **[Vista3D Unravel The 3D Darkside Of A Single Image](vista3d_unravel_the_3d_darkside_of_a_single_image.md)**
 

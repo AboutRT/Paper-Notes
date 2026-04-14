@@ -80,7 +80,7 @@ description: >-
 
 **[Compass Robust Feature Conformal Prediction For Medical Segmentation Metrics](compass_robust_feature_conformal_prediction_for_medical_segmentation_metrics.md)**
 
-:   提出 COMPASS 框架，在分割模型的中间特征空间而非输出空间做共形预测，通过沿 Jacobian 确定的低维敏感子空间扰动特征来构建预测区间，在多个医学分割数据集上以更紧凑的区间达到目标覆盖率。
+:   COMPASS 通过在分割网络的中间特征空间沿**对目标度量最敏感的低维子空间**进行线性扰动来构建 conformal prediction 区间，在四个医学分割任务上实现了比传统 CP 方法显著更窄的预测区间，同时保持有效覆盖率。
 
 **[Confhit Conformal Generative Design With Oracle Free Guarantees](confhit_conformal_generative_design_with_oracle_free_guarantees.md)**
 
@@ -176,15 +176,15 @@ description: >-
 
 **[Histoprism Unlocking Functional Pathway Analysis From Pan-Cancer Histology Via G](histoprism_unlocking_functional_pathway_analysis_from_pan-cancer_histology_via_g.md)**
 
-:   提出HistoPrism高效Transformer架构从H&E病理图像预测泛癌基因表达，并引入基因通路一致性(GPC)基准（50个Hallmark+87个GO通路）将评估从单基因方差升级到功能通路级别，在通路预测上大幅超越SOTA且参数效率更高。
+:   本文提出 HistoPrism，一个高效的 Transformer 架构，通过交叉注意力注入癌症类型条件来从 H&E 病理图像预测泛癌基因表达，并提出基于 Hallmark/GO 通路的 Gene Pathway Coherence (GPC) 评估框架，在通路级别预测上大幅超越 STPath，尤其在低方差核心生物通路上优势显著。
 
 **[How Do Medical Mllms Fail A Study On Visual Grounding In Medical Images](how_do_medical_mllms_fail_a_study_on_visual_grounding_in_medical_images.md)**
 
-:   首次系统验证医学MLLM的核心失败模式是视觉扎根不足——模型注意力未对准临床相关区域(与自然图像不同)，构建VGMED数据集(28K三元组)定量诊断，提出VGRefine推理时方法在6个Med-VQA基准(110K+样本/8种成像模态)上达到SOTA。
+:   首次系统性诊断出医学MLLM在零样本医学VQA上表现差的根本原因在于视觉扎根（visual grounding）不足——模型注意力系统性地偏离临床相关区域，由此提出无训练的VGRefine推理时注意力修正方法，在6个基准的110K+样本、8种成像模态上均达到SOTA。
 
 **[How To Make The Most Of Your Masked Language Model For Protein Engineering](how_to_make_the_most_of_your_masked_language_model_for_protein_engineering.md)**
 
-:   提出基于随机束搜索(SBS)的MLM采样方法用于蛋白质/抗体工程——利用MLM可高效评估整个1-编辑邻域的特点做全序列评估(而非逐突变采样)，支持灵活的多目标引导，系统性的in silico + in vitro评估揭示采样方法的选择至少与模型选择同等重要。
+:   提出基于温度退火随机束搜索（SBS）的MLM采样方法，利用伪似然的野生型边际近似实现高效全序列评估，在真实抗体治疗优化的体外实验中证明采样算法选择至少与模型选择同等重要，SBS+引导达到100%成功率。
 
 **[Human Behavior Atlas Benchmarking Unified Psychological And Social Behavior Unde](human_behavior_atlas_benchmarking_unified_psychological_and_social_behavior_unde.md)**
 
@@ -196,11 +196,11 @@ description: >-
 
 **[Incentives In Federated Learning With Heterogeneous Agents](incentives_in_federated_learning_with_heterogeneous_agents.md)**
 
-:   建立了数据异构联邦学习的博弈论框架——agent的效用取决于"谁"提供数据而非仅总量,证明纯Nash均衡可能不存在且最优均衡成本可无限倍于合作最优,证明最小成本贡献向量计算是NP-hard但可用LP获得对数近似,并设计出唯一的策略防伪机制(付你所贡献)。
+:   从博弈论视角分析异构联邦学习中的激励问题，证明在异构数据分布和 PAC 准确率目标下纯策略纳什均衡的存在性，并提出基于线性规划的近似算法来确定最优贡献量。
 
 **[Inference-Time Dynamic Modality Selection For Incomplete Multimodal Classificati](inference-time_dynamic_modality_selection_for_incomplete_multimodal_classificati.md)**
 
-:   提出DyMo——推理时动态模态选择框架解决不完整多模态分类的"丢弃-补全困境"：丢弃缺失模态损失任务相关信息，补全可能引入噪声/语义错位，DyMo通过信息增益驱动的选择算法动态决定哪些恢复模态值得融合(正reward→有用/负reward→有害)，在5个数据集上显著超越SOTA。
+:   提出DyMo——推理时动态模态选择框架，通过理论推导将多模态任务相关信息增益转化为可计算的MTIR奖励函数（基于分类损失降低代理 + 类原型距离 + 类内相似性校准），在推理时迭代选择性融合可靠的恢复模态，首次系统性解决"丢弃缺失模态损失信息 vs 补全可能引入噪声"的困境。
 
 **[Intrinsic Lorentz Neural Network](intrinsic_lorentz_neural_network.md)**
 
@@ -212,31 +212,31 @@ description: >-
 
 **[Learning Domain-Aware Task Prompt Representations For Multi-Domain All-In-One Im](learning_domain-aware_task_prompt_representations_for_multi-domain_all-in-one_im.md)**
 
-:   提出DATPRL-IR——首个多域全能图像复原方法：通过双提示池设计(任务提示池编码跨任务知识+域提示池从MLLM蒸馏域先验)和提示组合机制(PCM)为每个输入图像动态组合实例级域感知任务提示表示，一个模型统一处理自然场景/医学影像/遥感三域的多种退化任务，显著超越单域SOTA。
+:   提出首个多域全能图像复原方法DATPRL-IR，通过双提示池（任务提示池+域提示池）学习域感知的任务提示表征，利用MLLM蒸馏域先验并通过自适应门控融合指导复原，在自然/医学/遥感三域9任务上显著超越SOTA。
 
 **[Learning Patient-Specific Disease Dynamics With Latent Flow Matching For Longitu](learning_patient-specific_disease_dynamics_with_latent_flow_matching_for_longitu.md)**
 
-:   提出Δ-LFM——用流匹配建模患者特异性疾病进展：(1)ArcRank损失强制患者潜在轨迹沿特定轴单调递增(与疾病严重度对齐)构建语义有意义的潜在空间，(2)将流匹配的标准[0,1]时间范围扩展为[0,T]实际时间间隔使预测任意未来时间点成为可能，在3个纵向MRI基准上实现高保真度+精确疾病进展对齐。
+:   提出 Δ-LFM 框架：用 ArcRank 损失在潜在空间构建患者特异性时间对齐轨迹（角度一致 + 幅度单调递增），将流匹配时间范围从 [0,1] 扩展到 [0,T] 实际时间间隔实现任意时间点预测，在三个阿尔茨海默纵向 MRI 基准上全面超越 8 种基线方法，并提出进展专用指标 Δ-RMAE。
 
 **[Mclm A Modular Chemical Language Model That Generates Functional And Makeable Mo](mclm_a_modular_chemical_language_model_that_generates_functional_and_makeable_mo.md)**
 
-:   提出mCLM——模块化化学语言模型将分子在功能构建块(而非原子)级别tokenize：用自动化合成兼容的构建块(酰胺偶联/Suzuki/Buchwald反应)作为化学词汇+GNN编码块+自然语言描述功能→形成code-switch双语训练，前置合成可行性同时改善分子功能预测，在430个FDA药物上显著改善关键药物属性，3B参数超越GPT-5的合成可及性。
+:   提出 mCLM（模块化化学语言模型），通过将分子表示为可合成构建模块的序列，使 LLM 能生成同时满足药理功能和自动化合成可行性的分子，在 430 种 FDA 批准药物上显著改善了药代动力学和毒性性质。
 
-**[MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](medagentgym_agentic_training_biomedical.md)**
+**[Medagentgym Agentic Training Biomedical](medagentgym_agentic_training_biomedical.md)**
 
-:   构建了首个统一的生物医学数据科学 Agent 训练环境 MedAgentGym，包含 72,413 个任务实例（12 个真实场景、129 个类别），配备可执行沙盒和可验证 ground truth，基准评估 29 个 LLM，并通过离线/在线 RL 训练出 Med-Copilot（分别 +43%/+45% 提升），达到与 GPT-4o 竞争的性能同时保持成本效益和隐私保护。
+:   构建了首个统一的生物医学数据科学 Agent 训练环境 MedAgentGym，包含 72,413 个任务实例（覆盖 12 个真实场景、129 个类别），配备可执行沙盒和可验证 ground truth，系统基准评估 29 个 LLM 揭示商业/开源差距，并通过高效多线程轨迹采样 + 离线/在线 RL 训练出 Med-Copilot，分别获得 +43.02%/+45.28% 提升，达到与 GPT-4o 竞争的性能。
 
 **[Mmedagent-Rl Optimizing Multi-Agent Collaboration For Multimodal Medical Reasoni](mmedagent-rl_optimizing_multi-agent_collaboration_for_multimodal_medical_reasoni.md)**
 
-:   提出MMedAgent-RL——RL驱动的多智能体医学推理框架：模拟临床流程(分诊→专科→主治)，用GRPO分别优化分诊医生(准确分科)和主治医生(整合专家意见做最终决策)，创新性地引入课程学习驱动的熵感知RL(C-MARL)渐进教主治医生处理不同质量的专家意见(全对→部分对→全错)，在5个医学VQA基准上平均超越基线23.6%。
+:   提出 MMedAgent-RL，通过 RL 优化模拟临床会诊流程（分诊→专科→主治）的多智能体系统，核心创新是课程学习引导的熵感知 RL（C-MARL），让主治医师智能体在面对正确/冲突/错误的专科意见时分别采取不同的探索-利用策略，在域内外共 5 个医学 VQA 基准上实现 SOTA。
 
 **[Moving Beyond Medical Exams A Clinician-Annotated Fairness Dataset Of Real-World](moving_beyond_medical_exams_a_clinician-annotated_fairness_dataset_of_real-world.md)**
 
-:   提出MENTAT——由精神科临床医生创建和标注的数据集,覆盖5个心理健康实践领域(诊断/治疗/分诊/监测/文档),通过人口统计变量替换(年龄/种族/性别)系统评估LM决策中的偏见→不同于考试题→捕捉真实临床模糊性(多个有效答案+不确定性标注)→评估22个LM发现显著的决策质量差异和人口统计敏感性。
+:   提出MENTAT——由9名美国精神科医生设计和标注的评估数据集（203道基础题×人口统计变量扩展），覆盖诊断/治疗/分诊/监测/文档5个临床实践领域，通过系统性替换患者年龄/种族/性别评估22个语言模型的决策偏见，发现模型在各人口统计维度上存在显著且不可预测的准确率差异。
 
 **[Neuro-Symbolic Decoding Of Neural Activity](neuro-symbolic_decoding_of_neural_activity.md)**
 
-:   提出NEURONA——fMRI解码的神经符号框架：将查询解析为符号表达式+将fMRI信号划分为脑区级候选实体→学习每个概念(person/holding等)的接地模块→按符号结构组合接地分数回答fMRI-QA→证明建模谓词-论元依赖(holding依赖person和bat的脑区)显著优于端到端神经解码,且泛化到未见查询。
+:   提出 NEURONA，一个神经符号框架用于 fMRI 解码和概念基础，通过将视觉场景分解为符号程序（概念的逻辑组合），在 fMRI 问答任务上显著优于端到端神经解码和线性模型。
 
 **[Omni-Ieeg A Large-Scale Comprehensive Ieeg Dataset And Benchmark For Epilepsy Re](omni-ieeg_a_large-scale_comprehensive_ieeg_dataset_and_benchmark_for_epilepsy_re.md)**
 
@@ -244,15 +244,15 @@ description: >-
 
 **[Overthinking Reduction With Decoupled Rewards And Curriculum Data Scheduling](overthinking_reduction_with_decoupled_rewards_and_curriculum_data_scheduling.md)**
 
-:   提出DeCS——通过解耦token级奖励+课程batch调度解决LLM过度思考：理论发现现有长度奖励的两个缺陷(1.错误惩罚有效探索token 2.虚假奖励冗余token)→训练轻量评判模型识别必要推理前缀(NRP)边界→NRP后的token一致惩罚→课程调度控制简单题比例→7个基准推理token减50%+且性能不降甚至提升。
+:   从理论上揭示了现有长度惩罚方法的两个根本缺陷——错误惩罚高熵探索token和错误奖励冗余token，提出 DeCS 框架，通过解耦token级奖励和课程批次调度，在7个基准上将推理token减少50%以上同时保持甚至提升模型性能。
 
 **[Protein As A Second Language For Llms](protein_as_a_second_language_for_llms.md)**
 
-:   提出"蛋白质即第二语言"框架——将氨基酸序列视为LLM可通过上下文学习获取的符号语言：自适应构建序列-问题-答案三元组作为上下文示例→零样本(无训练)即可理解蛋白质功能→构建7.9万蛋白质双语QA语料→在多个开源LLM和GPT-4o上ROUGE-L平均+7%(最高+17.2%)→甚至超越微调的蛋白质专用模型。
+:   将氨基酸序列视为 LLM 的"第二语言"，通过构建蛋白质-自然语言双语数据集和自适应上下文构造机制，无需任何训练即可让通用 LLM 在蛋白质问答任务上平均提升 7% ROUGE-L，最高 17.2%，甚至超越领域专用微调模型。
 
 **[Protein Counterfactuals Via Diffusion-Guided Latent Optimization](protein_counterfactuals_via_diffusion-guided_latent_optimization.md)**
 
-:   提出MCCOP——在蛋白质连续序列-结构潜在空间中用扩散模型作为流形先验进行反事实优化：给定预测为"不良"的蛋白质→找到最小且生物合理的序列编辑使预测翻转→平衡三目标(有效性/近似性/合理性)→在GFP荧光恢复/热稳定性增强/E3连接酶活性恢复三个任务上→比离散/连续基线更少突变+更高合理性→恢复的突变与已知生物物理机制一致。
+:   提出MCCOP框架，在蛋白质的连续序列-结构联合潜空间中，利用预训练扩散模型作为流形先验进行梯度引导的反事实优化，以最少突变（2-3个）生成生物学可信的蛋白质变体来翻转预测器输出，同时实现模型解释和蛋白质设计假说生成。
 
 **[Protein Structure Tokenization Via Geometric Byte Pair Encoding](protein_structure_tokenization_via_geometric_byte_pair_encoding.md)**
 

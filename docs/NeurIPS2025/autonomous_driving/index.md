@@ -16,7 +16,7 @@ description: >-
 
 **[Aha Predicting What Matters Next Online Highlight Detection](aha_predicting_what_matters_next_online_highlight_detection.md)**
 
-:   提出 AHA，一个自回归高光检测框架，在**不访问未来帧**的情况下根据自然语言任务描述实时预测每帧视频的相关性——利用多模态视觉语言模型+轻量解耦头+Dynamic SinkCache实现无限长度流媒体的恒定内存推理，在TVSum上超越离线全上下文方法+5.9% mAP、在Mr. Hisum上+8.3% mAP。
+:   Aha提出首个面向在线高亮检测（OHD）的自回归框架，通过解耦的多目标预测头（相关性/信息量/不确定性）和新颖的Dynamic SinkCache内存机制，在严格不使用未来帧的约束下，于TVSum和Mr.Hisum基准上分别以+5.9%和+8.3% mAP超越此前离线方法。
 
 **[Autovla A Vision-Language-Action Model For End-To-End Autonomous Driving With Ad](autovla_a_vision-language-action_model_for_end-to-end_autonomous_driving_with_ad.md)**
 
@@ -76,7 +76,7 @@ description: >-
 
 **[Futuresightdrive Thinking Visually With Spatiotemporal Cot F](futuresightdrive_thinking_visually_with_spatiotemporal_cot_f.md)**
 
-:   FutureSightDrive 认为自动驾驶 VLA 的文本 CoT 会把关键视觉时空信息压缩丢失，提出“视觉时空 CoT”范式：先让模型以 world model 方式生成融合未来背景、车道线和 3D 目标框的统一未来帧，再将该 imagined scene 作为推理中介供 inverse-dynamics 规划器生成轨迹，从而显著提升轨迹精度、降低碰撞并改善场景理解。
+:   FSDrive让VLA"用视觉思考"——先作为世界模型生成融合了未来车道线、3D检测框和场景预测的统一视觉CoT帧，再作为逆动力学模型基于当前观测和视觉CoT进行轨迹规划，用极少数据(约0.3%)即可激活MLLM的视觉生成能力。
 
 **[Gsalign Geometric And Semantic Alignment Network For Aerial-Ground Person Re-Ide](gsalign_geometric_and_semantic_alignment_network_for_aerial-ground_person_re-ide.md)**
 

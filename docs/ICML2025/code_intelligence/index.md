@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 代码智能方向 10篇论文解读
+  ICML2025 代码智能方向 11篇论文解读
 description: >-
-  10篇ICML2025 代码智能方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  11篇ICML2025 代码智能方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**🧪 ICML2025** · 共 **10** 篇
+**🧪 ICML2025** · 共 **11** 篇
 
 **[Adaptivestep Automatically Dividing Reasoning Step Through Model Confidence](adaptivestep_automatically_dividing_reasoning_step_through_model_confidence.md)**
 
@@ -45,6 +45,10 @@ description: >-
 **[Sparselora Accelerating Llm Fine-Tuning With Contextual Sparsity](sparselora_accelerating_llm_fine-tuning_with_contextual_sparsity.md)**
 
 :   提出 SparseLoRA，通过**上下文稀疏性 (contextual sparsity)** 动态选择权重子集进行前向/梯度计算，首次将推理时的稀疏加速思路迁移到 LLM 微调阶段，实现最高 2.2× FLOPs 降低和 1.6× 实测加速，同时保持精度。
+
+**[Towards Practical Defect-Focused Automated Code Review](towards_practical_defect-focused_automated_code_review.md)**
+
+:   提出面向真实生产环境的端到端自动代码审查框架，通过AST代码切片提取上下文、多角色LLM协作审查、三层冗余评论过滤和内联行号定位四大模块，在近4亿日活公司的工业级C++代码库历史故障数据上实现KBI(关键缺陷包含率)2倍于标准LLM、10倍于先前基线的显著提升。
 
 **[Training Software Engineering Agents And Verifiers With Swe-Gym](training_software_engineering_agents_and_verifiers_with_swe-gym.md)**
 

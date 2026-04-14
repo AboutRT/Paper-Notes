@@ -144,7 +144,7 @@ description: >-
 
 **[Weight Decay May Matter More Than Mup For Learning Rate Transfer In Practice](weight_decay_may_matter_more_than_mup_for_learning_rate_transfer_in_practice.md)**
 
-:   大规模实证研究表明 μP 的核心对齐假设在实际 LLM 训练中仅在开始时短暂成立，之后是 independent weight decay（而非 μP）正确稳定了不同宽度模型间的特征学习动态，使得学习率迁移成为可能。μP 的实际作用被重新解释为一种隐式学习率 warmup。
+:   本文通过大规模实证分析表明，μP 的核心对齐假设仅在训练初期短暂成立，实际训练中是独立权重衰减（independent weight decay）而非 μP 在正确稳定跨宽度的特征学习动态，μP 的实际益处可被解释为一种隐式学习率预热。
 
 **[When Stability Fails Hidden Failure Modes Of Llms In Data-Constrained Scientific](when_stability_fails_hidden_failure_modes_of_llms_in_data-constrained_scientific.md)**
 

@@ -20,7 +20,7 @@ description: >-
 
 **[Abra Teleporting Finetuned Knowledge Across Domain](abra_teleporting_finetuned_knowledge_across_domain.md)**
 
-:   将域适应建模为权重空间的SVD旋转对齐问题：分解域与类知识，通过闭式正交Procrustes解将源域类特定残差"传送"到无标注的目标域，实现零样本跨域类别检测。
+:   将跨域类别迁移问题建模为权重空间的 SVD 旋转对齐：通过 Objectification 训练类无关域专家，用 SVFT 提取轻量类残差，再通过闭式正交 Procrustes 解将源域类知识"传送"到完全没有该类数据的目标域。
 
 **[Adaptive Auxiliary Prompt Blending For Target-Faithful Diffusion Generation](adaptive_auxiliary_prompt_blending_for_target-faithful_diffusion_generation.md)**
 
@@ -92,7 +92,7 @@ description: >-
 
 **[Dreamvideoomni Omnimotion Controlled Multisubject](dreamvideoomni_omnimotion_controlled_multisubject.md)**
 
-:   统一框架同时实现多主体身份定制和全运动控制（全局运动 + 局部运动 + 相机运动），通过渐进式两阶段训练（有监督微调 + 潜空间身份奖励反馈学习）解决身份保持与运动控制之间的固有冲突。
+:   提出 DreamVideo-Omni，在单一 DiT 架构中统一多主体身份定制和全运动控制（全局 bbox + 局部轨迹 + 相机运动），通过条件感知 3D RoPE、Group/Role Embeddings 解决多主体歧义，并设计潜空间身份奖励反馈学习（LIReFL）在任意去噪步提供密集身份奖励，绕过 VAE 解码器实现高效身份强化。
 
 **[Drift-Resilient Temporal Priors For Visual Tracking](drift-resilient_temporal_priors_for_visual_tracking.md)**
 
@@ -148,7 +148,7 @@ description: >-
 
 **[Mitigating Memorization In Texttoimage Diffusion V](mitigating_memorization_in_texttoimage_diffusion_v.md)**
 
-:   提出训练时区域感知提示增强(RAPTA)和注意力驱动多模态复制检测(ADMCD)两个互补模块，前者通过检测器proposal生成语义接地的提示变体来缓解扩散模型的训练数据记忆化，后者融合patch/CLIP/纹理三流特征实现零训练复制检测，在LAION-10k上将复制率从7.4降至2.6。
+:   提出训练时区域感知提示增强(RAPTA)和注意力驱动多模态复制检测(ADMCD)两个互补模块，前者通过目标检测器proposal生成语义接地的提示变体来缓解扩散模型训练数据记忆化，后者融合patch级/CLIP/纹理三流特征实现零训练复制检测与分类，在LAION-10k上将复制率从7.4降至2.6。
 
 **[Mokus Leveraging Cross-Modal Knowledge Transfer For Knowledge-Aware Concept Cust](mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)**
 
@@ -176,7 +176,7 @@ description: >-
 
 **[Prompt-Free Universal Region Proposal Network](prompt-free_universal_region_proposal_network.md)**
 
-:   无需文本/图像提示的通用区域提案网络，用5% COCO数据训练零样本泛化到19个跨域数据集
+:   PF-RPN 用可学习视觉嵌入替代文本/图像提示，通过稀疏图像感知适配器、级联自提示和中心性引导查询选择三个模块，仅用 5% COCO 数据训练即可在 19 个跨域数据集上实现 SOTA 零样本区域提案。
 
 **[Radar Closed-Loop Robotic Data Generation Via Semantic Planning And Autonomous C](radar_closed-loop_robotic_data_generation_via_semantic_planning_and_autonomous_c.md)**
 
@@ -194,9 +194,9 @@ description: >-
 
 :   提出 ReHARK 框架，通过混合语义-视觉先验构建、支撑集增强、自适应分布校正和多尺度 RBF 核集成四阶段精炼管道，在 11 个基准上实现 65.83% 的单样本适应 SOTA 准确率，显著超越 Tip-Adapter 和 ProKeR。
 
-**[Remedying Target-Domain Astigmatism for Cross-Domain Few-Shot Object Detection](remedying_target-domain_astigmatism_for_cross-domain_few-shot_object_detection.md)**
+**[Remedying Target-Domain Astigmatism For Cross-Domain Few-Shot Object Detection](remedying_target-domain_astigmatism_for_cross-domain_few-shot_object_detection.md)**
 
-:   发现跨域少样本检测中的散光现象，受中央凹视觉启发提出PPR+NCM+TSA三模块矫正，6个基准SOTA
+:   首次发现跨域少样本目标检测（CD-FSOD）中模型注意力在目标域持续分散的"散光"现象，受人类中央凹视觉系统启发，设计正向模式精化（PPR）、负向上下文调制（NCM）和文本语义对齐（TSA）三个互补模块来重塑注意力，在6个跨域基准上以显著优势达到SOTA。
 
 **[Sdf-Net Structure-Aware Disentangled Feature Learning For Opticall-Sar Ship Re-I](sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md)**
 
@@ -212,7 +212,7 @@ description: >-
 
 **[Show Dont Tell Detecting Novel Objects By Watching Human Videos](show_dont_tell_detecting_novel_objects_by_watching_human_videos.md)**
 
-:   提出 "Show, Don't Tell" 范式：通过观看人类演示视频自动创建训练数据集，以自监督方式训练定制化（bespoke）目标检测器来识别新颖物体，完全绕过语言描述和提示工程，在真实机器人操作任务中显著优于 SOTA 检测方法。
+:   提出 "Show, Don't Tell" 范式：通过 SODC 管线（HOIST-Former 检测抓取物体 → SAMURAI 跟踪 → DBSCAN 时空聚类）从人类演示视频自动创建标注数据集，训练轻量化 F-RCNN 定制检测器（MOD），在无需任何语言提示的情况下实现新颖物体的实例级检测，在 Meccano 和自采数据集上 mAP 和 precision 超越 GroundingDINO/RexOmni/YoloWorld 等 VLM 基线，端到端集成到真实机器人分拣系统中。
 
 **[Slice Semantic Latent Injection Via Compartmentali](slice_semantic_latent_injection_via_compartmentali.md)**
 

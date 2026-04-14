@@ -19,85 +19,110 @@ tags:
 **arXiv**: [2503.01163](https://arxiv.org/abs/2503.01163)  
 **代码**: [GitHub](https://github.com/shiralab/OPTS)  
 **领域**: Prompt 优化  
-**关键词**: Prompt设计策略, Thompson采样, 多臂老虎机, EvoPrompt, 策略选择, BIG-Bench Hard  
+**关键词**: Prompt策略选择, Thompson采样, 多臂老虎机, EvoPrompt, BIG-Bench Hard
 
 ## 一句话总结
 
-首次提出 Prompt 设计策略的显式选择机制 OPTS——将 CoT/角色提示/少样本等多种策略视为多臂老虎机的"臂"，用 Thompson 采样动态选择要应用的策略，集成到 EvoPrompt 后在 BIG-Bench Hard 上将 GPT-4o mini 性能提升最高 50%，超越隐式策略选择（APET）和均匀采样。
+首次提出 prompt 设计策略的显式选择机制 OPTS，将 11 种策略（CoT、角色提示、情感提示等）建模为多臂老虎机的臂，用 Thompson 采样自动选择最合适的策略并集成到 EvoPrompt 优化器中，在 BIG-Bench Hard 的 23 个任务上用 GPT-4o mini 实现最高 50% 的性能提升。
 
-## 背景与动机
+## 研究背景与动机
 
-Prompt 优化（如 EvoPrompt）能自动发现有效 prompt，但生成的 prompt 常不如人类专家精心设计的。Prompt 设计策略（CoT、角色提示、分步指令等）代表了最佳实践，可以提升优化效果。APET 方法将所有策略一起喂给 LLM 隐式选择，但：
+**Prompt 优化能自动搜索有效 prompt，但结果常不如人类专家设计。** EvoPrompt 等方法通过 LLM 模拟进化算法搜索 prompt 空间，虽然发现了有效 prompt，但这些 prompt 往往缺乏人类专家常用的设计策略（如 CoT 推理链、角色设定、分步指令等），与精心设计的专家 prompt 存在质量差距。
 
-1. **策略可能有负效果**：CoT 和角色提示在某些任务上反而降低性能
-2. **隐式选择不可靠**：LLM 的优化能力有限，不能有效选择策略
+**Prompt 设计策略并非总有益。** CoT 和角色提示在某些 LLM 和任务组合上反而降低性能。这意味着不能简单地给所有 prompt 都加上所有策略。APET 方法将全部策略描述一起喂给 LLM 做隐式选择，但 LLM 本身的优化能力有限，隐式选择可能次优。
 
-## 核心问题
-
-如何在 prompt 优化过程中显式选择最合适的设计策略——既利用人类知识又避免负效果策略？
+**核心矛盾：策略有价值但什么时候用什么策略是未知的。** 这本质上是一个探索-利用(explore-exploit)问题——经典多臂老虎机正好适用。**OPTS 的核心 idea 是将每种 prompt 设计策略视为一个"臂"，用 Thompson 采样在优化过程中动态学习哪种策略对当前任务最有效**，实现了首次显式的策略选择机制。
 
 ## 方法详解
 
-### OPTS 框架
+### 整体框架
 
-将 K 种 prompt 设计策略 + 1 个"不使用策略"选项建模为 K+1 臂的多臂老虎机问题。
+OPTS 作为模块插入到现有 prompt 优化器（EvoPrompt）的突变/交叉步骤之后：EvoPrompt 生成候选 prompt → OPTS 选择一种策略 → LLM 把策略应用到候选 prompt → 评估性能并反馈给多臂老虎机更新。
 
-### 三种选择机制
+### 关键设计
 
-1. **均匀采样（Uniform）**：每次随机选一种策略——基线
-2. **ε-Greedy**：以 ε 概率探索随机策略，以 1-ε 概率选历史最优策略
-3. **Thompson 采样（TS）**：维护每种策略的 Beta(α,β) 先验分布，根据采样值选择——**最优方法**
-   - 策略成功（prompt 质量提升）→ 更新 α
-   - 策略失败 → 更新 β
-   - 自然平衡探索与利用
+1. **多臂老虎机建模**:
+    - 做什么：将 K=11 种 prompt 设计策略 + 1 个"不使用策略"的 inaction arm 建模为 K+1=12 个臂
+    - 核心思路：每种策略的价值不确定且可能随任务变化，用 bandit 框架在线学习最优策略。Inaction arm 确保不强制使用任何策略——可能所有策略都无益
+    - 设计动机：显式选择比隐式选择可控且可优化
 
-### 与 EvoPrompt 集成
+2. **Thompson 采样选择 (OPTS-TS)**:
+    - 做什么：用 Beta 分布先验和后验更新实现高效的探索-利用平衡
+    - 核心思路：每个臂维护 $\text{Beta}(\alpha_k, \beta_k)$ 分布，每次从各臂分布中采样，选择采样值最大的臂。奖励定义为 $r = \mathbf{1}[s > \max \tilde{S}]$，即新 prompt 得分是否超过父 prompt 的最高分
+    - 设计动机：Thompson 采样有理论保证的渐近最优性，在 bandit 文献中实践效果最优
 
-- EvoPrompt 生成候选 prompt 后，OPTS 选择一种策略
-- 选中策略的描述传给 LLM，LLM 将策略应用到候选 prompt 上
-- 修改后的 prompt 评估性能，反馈给老虎机更新
+3. **策略应用机制**:
+    - 做什么：将选中策略的文字描述传给 prompt 设计 LLM，让其修改候选 prompt
+    - 核心思路：选中前 K 个臂之一时，将对应策略描述和待修改 prompt 一起输入 LLM；选中 inaction arm 时不做任何修改。使用与 APET 相同的 meta-prompt 格式
+    - 设计动机：策略以自然语言描述传递，LLM 自然理解如何应用
+
+### 11 种 Prompt 设计策略
+
+包括 ExpertPrompting（专家角色）、CoT（推理链）、Tree-of-Thought（推理树）、Emotion Prompting（情感）、Re-Reading（重读）、Style Prompting（风格）、Rephrase and Respond（改述再答）、Avoiding Bias（避免偏见）、Making Prompt Specific（具体化）、Shortening（精简）、Adding Necessary Information（补充信息）。
+
+### 与 EvoPrompt 的集成
+
+OPTS 可以同时与 EvoPrompt(DE) 和 EvoPrompt(GA) 集成。在 DE 变体中，OPTS 插入在交叉+突变之后、选择之前：先用 DE 操作生成 $p'_i$，再用 OPTS 选择策略修改为 $p''_i$，最后与父代 $p_i$ 比较保留更优者。
 
 ## 实验关键数据
 
-| 对比 | 结果 |
-|------|------|
-| EvoPrompt + OPTS(TS) vs 原始 EvoPrompt | **最高 +50%**（GPT-4o mini） |
-| OPTS(TS) vs APET（隐式选择） | **一致更优** |
-| OPTS(TS) vs 均匀采样 | **更优** |
-| Llama-3-8B + OPTS(TS) | 也有一致提升 |
+### 主实验（GPT-4o mini 做生成和解题）
 
-- 在 BIG-Bench Hard 多个任务上验证
-- Thompson 采样总体最优——有效平衡探索未知策略和利用已知好策略
+| 方法 | BIG-Bench Hard 23任务平均准确率 | vs EvoPrompt(DE) |
+|------|-------------------------------|-----------------|
+| Manual Prompt | 56.95 | - |
+| APET | 57.93 | - |
+| EvoPrompt(DE) | 60.11 | baseline |
+| +OPTS(APET) | 62.36 | +2.25 |
+| +OPTS(US) | 63.04 | +2.93 |
+| +OPTS(TS) | **64.15** | **+4.04** |
 
-## 亮点
+### Llama-3-8B-Instruct 做解题
 
-- **首次显式选择 prompt 设计策略**——概念简单但效果显著
-- **Thompson 采样是优雅的选择**——有理论保证的探索-利用权衡
-- **策略可能有害的清醒认识**——不是所有策略都有益，需要选择
-- **模块化设计**：OPTS 可接入任何 prompt 优化器（不仅是 EvoPrompt）
+| 方法 | 平均准确率 | vs EvoPrompt(DE) |
+|------|-----------|-----------------|
+| EvoPrompt(DE) | 46.52 | baseline |
+| +OPTS(TS) | **49.83** | **+3.31** |
+
+### 消融实验
+
+| 配置 | 说明 | 结果 |
+|------|------|------|
+| OPTS(TS) vs OPTS(US) | TS vs 均匀采样 | TS 在大多数任务上更优 |
+| OPTS(TS) vs OPTS(APET) | TS vs 隐式选择 | TS 一致更优 |
+| EvoPrompt(GA)+OPTS(TS) | GA变体 | 同样有效，不依赖特定优化算法 |
+| Inaction arm 去除 | 强制使用策略 | 性能下降——有些任务不需要策略 |
+
+### 关键发现
+
+- **Thompson 采样一致最优**：在 GPT-4o mini 和 Llama-3 两个模型上都超越其他选择机制
+- **最高 50% 提升在单个任务上**：某些任务上 OPTS(TS) 相比 EvoPrompt 提升 50%
+- **Inaction arm 重要**：不是所有任务都能从策略中获益，保留"不使用"选项至关重要
+- **不同任务偏好不同策略**：Thompson 采样能自动学习每个任务的最优策略分布
+
+## 亮点与洞察
+
+- **首次将多臂老虎机引入 prompt 策略选择**——概念简单但将经典 RL 工具用到了正确的问题上
+- **"策略可能有害"的认识重要**——对所有 prompt 工程实践者都有意义，不应盲目叠加策略
+- **模块化设计**：OPTS 是独立模块，可即插即用到任何 prompt 优化器中
+- **显式 > 隐式**：OPTS(TS) 的显式选择一致优于 APET 的隐式选择，说明让 LLM 做优化不如用专门的优化算法
 
 ## 局限性 / 可改进方向
 
-- **仅在 BIG-Bench Hard 验证**：其他任务/基准未测试
-- **策略集合固定**：未探索训练中动态发现新策略
-- **仅两个 LLM**：更多模型的泛化性未知
-- **上下文相关性**：不同任务可能需要不同策略组合而非单策略
+- **仅在 BIG-Bench Hard 验证**：其他类型任务（生成、对话、代码等）的效果未知
+- **策略集合固定**：11 种预定义策略无法覆盖所有可能的有效策略，未探索自动发现新策略
+- **单策略选择**：每次只应用一种策略，未探索策略组合的效果
+- **上下文窗口限制**：策略描述占用 prompt 空间，当策略描述过长时可能压缩有效信息
 
-## 与相关工作的对比
+## 相关工作与启发
 
-- **vs APET（隐式选择）**：将所有策略给 LLM 隐式选择可能次优；OPTS 显式选择更可控
-- **vs 固定 CoT/角色提示**：总是用某策略可能在某些任务上有害；OPTS 动态适应
-- **vs EvoPrompt（无策略）**：缺乏人类设计知识；OPTS 将最佳实践注入优化
-
-## 启发与关联
-
-- 多臂老虎机是 AutoML/超参搜索的标准工具——引入 prompt 优化是自然扩展
-- "策略可能有害"的认识对所有 prompt 工程实践者都重要
-- 显式选择 > 隐式选择的模式可推广到其他需要从多种方法中选择的场景
+- **vs APET (隐式选择)**：将所有策略描述喂给 LLM 让其隐式选择；OPTS 显式选择更可控，性能更优
+- **vs PromptWizard (固定策略)**：总是应用 CoT 和角色提示；OPTS 按需选择避免有害策略
+- **vs EvoPrompt (无策略)**：缺乏人类设计知识；OPTS 将最佳实践注入进化优化过程
 
 ## 评分
 
-- 新颖性: ⭐⭐⭐⭐ 首次显式策略选择+Thompson采样用于prompt优化
-- 实验充分度: ⭐⭐⭐⭐ BIG-Bench Hard×2 LLM×3选择机制
-- 写作质量: ⭐⭐⭐⭐ 动机清晰，框架图直观
-- 价值: ⭐⭐⭐⭐ 对prompt优化从业者有直接实用价值
+- 新颖性: ⭐⭐⭐⭐ 首次显式策略选择机制，Thompson 采样在 prompt 优化中的新应用
+- 实验充分度: ⭐⭐⭐⭐ BIG-Bench Hard 23 任务 × 2 模型 × 3 选择机制 × 2 优化算法变体
+- 写作质量: ⭐⭐⭐⭐ 问题定义清晰，算法描述完整，图示直观
+- 价值: ⭐⭐⭐⭐ 对 prompt 优化从业者有直接实用价值，模块化设计便于采用

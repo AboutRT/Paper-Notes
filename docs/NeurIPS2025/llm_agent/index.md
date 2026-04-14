@@ -18,9 +18,9 @@ description: >-
 
 :   本文用 JAX 实现了一个可微分的供应链 Agent-Based Model（ABM），通过 GPU 并行化和自动微分实现了比传统无梯度方法快 3 个数量级的贝叶斯参数校准，为大规模供应网络建模打开了可能性。
 
-**[Adaptive Cooperative Transmission Design for URLLC via Deep Reinforcement Learning](adaptive_cooperative_transmission_design_for_ultra-reliable_low-latency_communic.md)**
+**[Adaptive Cooperative Transmission Design For Ultra-Reliable Low-Latency Communic](adaptive_cooperative_transmission_design_for_ultra-reliable_low-latency_communic.md)**
 
-:   针对两跳协作中继通信中的URLLC难题，提出DRL-CoLA算法：将每跳传输参数配置建模为MDP，用双agent DQN在仅观测本地CSI和ARQ反馈下学习分布式时延感知传输策略，接近全局最优可靠性。
+:   提出DRL-CoLA双智能体DQN算法，为两跳解码转发中继系统中的每次（重）传输自适应选择5G NR的numerology、mini-slot和MCS参数，仅用本地CSI在严格时延约束下实现近最优可靠性。
 
 **[Adaptive Coopetition Leveraging Coarse Verifier Signals For Resilient Multi-Agen](adaptive_coopetition_leveraging_coarse_verifier_signals_for_resilient_multi-agen.md)**
 
@@ -28,7 +28,7 @@ description: >-
 
 **[Agentauditor Humanlevel Safety And Security Evaluation For L](agentauditor_humanlevel_safety_and_security_evaluation_for_l.md)**
 
-:   提出 AgentAuditor，一个通用的无训练记忆增强推理框架，使 LLM 评估者能模拟人类专家评估 agent 的安全与安全性——通过自适应提取结构化语义特征并生成CoT推理轨迹构建经验记忆，多阶段上下文感知 RAG 检索相关经验指导新案例评估，在自建的 ASSEBench（2293条记录×15类風险×29场景）上达到人类水平准确率。
+:   提出 AgentAuditor——一个免训练、记忆增强的推理框架，通过让 LLM 自适应提取结构化语义特征（场景、风险、行为）构建经验记忆库，再借助多阶段上下文感知的检索增强生成来引导 LLM 评估器判断 agent 行为的安全性与安全威胁，同时发布首个同时覆盖 safety 和 security 的评估基准 ASSEBench（2293 条记录、15 种风险类型、29 个场景），在多个基准上达到人类专家水平的评估精度。
 
 **[Agentchangebench A Multi-Dimensional Evaluation Framework For Goal-Shift Robustn](agentchangebench_a_multi-dimensional_evaluation_framework_for_goal-shift_robustn.md)**
 
@@ -52,11 +52,11 @@ description: >-
 
 **[Agenttts Large Language Model Agent For Testtime Computeopti](agenttts_large_language_model_agent_for_testtime_computeopti.md)**
 
-:   提出 AgentTTS，一个用 LLM agent 自动搜索多阶段复杂任务中**测试时计算最优缩放策略**（模型选择+预算分配）的框架，通过迭代反馈驱动的交互显著提升搜索效率和性能。
+:   研究多阶段复杂任务中的测试时计算最优扩展问题，通过先导实验提炼三个通用洞察，据此设计 AgentTTS——一个基于 LLM agent 的框架，通过迭代反馈驱动交互自主搜索最优模型+预算分配方案。
 
 **[Are Large Language Models Sensitive To The Motives Behind Communication](are_large_language_models_sensitive_to_the_motives_behind_communication.md)**
 
-:   系统评估 LLM 对通信动机的敏感性（motivational vigilance）——在控制实验中 LLM 能像人类一样折扣有偏见信源的建议（与理性模型相关系数 r>0.78），但在真实场景（YouTube 赞助广告）中表现大幅下降（r<0.2），通过简单的 prompt steering 可部分恢复。
+:   通过三个递进实验系统评估LLM是否具备"动机警觉性"——识别信息源的意图和激励并相应调整信任度的能力：在控制实验中前沿非推理LLM表现接近理性模型(Pearson's $r>0.9$)且比理性模型更像人类，但在真实YouTube赞助广告场景中警觉性大幅下降($r<0.2$)，简单的prompt steering可部分恢复($r$提升至0.31)。
 
 **[Attractive Metadata Attack Inducing Llm Agents To Invoke Malicious Tools](attractive_metadata_attack_inducing_llm_agents_to_invoke_malicious_tools.md)**
 
@@ -76,7 +76,7 @@ description: >-
 
 **[Btlui Blinkthinklink Reasoning Model For Gui Agent](btlui_blinkthinklink_reasoning_model_for_gui_agent.md)**
 
-:   提出"Blink-Think-Link"（BTL）脑启发框架模拟人类与GUI交互的认知过程——分解为Blink（快速注意力检测，类似眼跳）、Think（高级推理决策，类似认知规划）、Link（生成可执行命令，类似动作选择）三个生物合理阶段，配合自动化Blink数据标注和首个基于规则的过程+结果复合奖励机制，BTL-UI在静态GUI理解和动态交互任务上均达competitive性能。
+:   提出 Blink-Think-Link（BTL）脑启发框架，将 GUI 交互分解为 Blink（快速注意力定位）、Think（认知推理决策）、Link（可执行命令生成）三个生物合理阶段，配合自动化 Blink 数据标注 pipeline 和首个基于规则的过程+结果复合奖励机制 BTL Reward，训练的 BTL-UI 在静态 GUI 理解和动态交互 benchmark 上达到 competitive 性能。
 
 **[Cam A Constructivist View Of Agentic Memory For Llm-Based Reading Comprehension](cam_a_constructivist_view_of_agentic_memory_for_llm-based_reading_comprehension.md)**
 

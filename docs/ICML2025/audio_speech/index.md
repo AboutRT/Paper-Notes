@@ -12,7 +12,7 @@ description: >-
 
 **[Bridging The Language Gap Synthetic Voice Diversity Via Latent Mixup For Equitab](bridging_the_language_gap_synthetic_voice_diversity_via_latent_mixup_for_equitab.md)**
 
-:   提出LatentVoiceMix——在语音转换模型的风格编码器潜在空间中做Mixup，通过扩展说话人特征的凸包来增加合成语音多样性，显著提升低资源语言ASR性能并优于现有增强策略。
+:   本文提出 LatentVoiceMix，在语音转换模型 Diff-HierVC 的说话人风格编码器潜在空间中进行 mixup 插值，生成具有新颖声音特征的合成语音数据用于增强 ASR 训练，在低资源语言 Wolof 上取得了优于波形增强、频谱增强和标准语音转换的 WER 改善效果。
 
 **[Flam Frame-Wise Language-Audio Modeling](flam_frame-wise_language-audio_modeling.md)**
 

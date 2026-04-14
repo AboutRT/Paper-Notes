@@ -20,7 +20,7 @@ description: >-
 
 **[Adaptgrad Adaptive Sampling To Reduce Noise](adaptgrad_adaptive_sampling_to_reduce_noise.md)**
 
-:   通过卷积公式视角首次理论分析了SmoothGrad的噪声来源（越界采样），提出AdaptGrad方法通过概率界约束采样范围来抑制噪声，在不增加计算开销的前提下提升梯度显著性图的质量。
+:   AdaptGrad通过分析SmoothGrad噪声的理论来源——超范围采样行为，提出自适应调整每个输入维度的高斯采样方差以控制额外噪声上限的方法，在几乎消除梯度噪声的同时揭示更丰富的细节特征，方法极简且可与任意梯度解释方法组合。
 
 **[Additive Models Explained A Computational Complexity Approach](additive_models_explained_a_computational_complexity_approach.md)**
 
@@ -32,7 +32,7 @@ description: >-
 
 **[An Analysis Of Concept Bottleneck Models Measuring Understanding And Mitigating ](an_analysis_of_concept_bottleneck_models_measuring_understanding_and_mitigating_.md)**
 
-:   首次系统研究噪声概念标注对 CBM 的影响——发现即使中等噪声也同时损害预测性能、可解释性和干预效果，识别出"脆弱概念"子集是性能下降的主因，提出训练阶段用 SAM 稳定脆弱概念学习 + 推断阶段用预测熵排序仅校正最不确定概念的两阶段缓解框架。
+:   本文首次系统研究标注噪声对概念瓶颈模型(CBM)在预测性能、可解释性和干预有效性三个维度的影响，发现概念噪声是性能下降的主要驱动力且存在易感概念子集，提出SAM训练+熵引导干预的两阶段缓解框架。
 
 **[Are Greedy Task Orderings Better Than Random In Continual Linear Regression](are_greedy_task_orderings_better_than_random_in_continual_linear_regression.md)**
 
@@ -80,7 +80,7 @@ description: >-
 
 **[Cbmas Cognitive Behavioral Modeling Via Activation Steering](cbmas_cognitive_behavioral_modeling_via_activation_steering.md)**
 
-:   CBMAS 提出一个连续激活干预诊断框架，将传统“前后对比式”认知偏差分析扩展为可解释的干预轨迹分析，通过 alpha 强度扫描、logit-lens 偏置曲线与层位敏感性分析，揭示 LLM 行为翻转临界点与跨层演化机制。
+:   CBMAS提出一个连续激活引导诊断框架，将认知偏差分析从离散的"前/后"比较扩展为沿引导系数α和层深度的连续轨迹，揭示偏差传播的翻转点、衰减模式和层位敏感性。
 
 **[Chiqpm Calibrated Hierarchical Interpretable Image Classification](chiqpm_calibrated_hierarchical_interpretable_image_classification.md)**
 
@@ -176,7 +176,7 @@ description: >-
 
 **[How Do Transformers Learn Implicit Reasoning](how_do_transformers_learn_implicit_reasoning.md)**
 
-:   通过符号环境的精细控制研究，本文发现多跳隐式推理会经历记忆→分布内泛化→跨分布泛化三阶段，关键机制是中间实体表示在余弦空间的聚类。
+:   在精细控制的符号环境中从零训练 Transformer，发现多跳隐式推理经历"记忆→分布内泛化→跨分布泛化"三个阶段，核心机制不是中间实体的可解码性，而是其在余弦空间中的聚类一致性——同一中间实体的表示在不同查询中形成紧密聚类时，推理能力才涌现。
 
 **[Improving Perturbation-Based Explanations By Understanding The Role Of Uncertain](improving_perturbation-based_explanations_by_understanding_the_role_of_uncertain.md)**
 
@@ -298,7 +298,7 @@ description: >-
 
 **[Tropical Attention Neural Algorithmic Reasoning For Combinatorial Algorithms](tropical_attention_neural_algorithmic_reasoning_for_combinatorial_algorithms.md)**
 
-:   提出 Tropical Attention，将注意力机制提升到热带射影空间中进行分段线性推理，在组合算法的 OOD 泛化上大幅超越 softmax 基线，同时推理速度快 3-9 倍、参数少 ~20%。
+:   Tropical Attention用热带代数几何替代softmax点积注意力，在热带射影空间中进行分段线性推理，实现与组合算法多面体决策结构的对齐，首次将神经算法推理扩展到NP-hard问题，在长度/数值/噪声三种OOD泛化上全面超越softmax基线。
 
 **[Uncovering Graph Reasoning In Decoder-Only Transformers With Circuit Tracing](uncovering_graph_reasoning_in_decoder-only_transformers_with_circuit_tracing.md)**
 
@@ -326,4 +326,4 @@ description: >-
 
 **[Why Is Attention Sparse In Particle Transformer](why_is_attention_sparse_in_particle_transformer.md)**
 
-:   分析 Particle Transformer (ParT) 在jet tagging中出现的二值化稀疏attention现象：稀疏性来自attention机制本身而非物理启发的interaction矩阵，但两者对性能都不可或缺。
+:   本文系统性地分析了 Particle Transformer（ParT）在 jet tagging 任务中训练后出现的近乎二值化稀疏 attention 现象，通过跨数据集对比和消融实验揭示了稀疏性主要源自 attention 机制自身而非物理启发的 interaction 矩阵，但 interaction 矩阵通过影响绝大多数 token 的 argmax 选择对最终性能不可或缺。

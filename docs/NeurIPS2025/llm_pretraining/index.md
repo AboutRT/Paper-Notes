@@ -68,7 +68,7 @@ description: >-
 
 **[Gemstones A Model Suite For Multi-Faceted Scaling Laws](gemstones_a_model_suite_for_multi-faceted_scaling_laws.md)**
 
-:   Gemstones开源4000+检查点数据集（至2B参数），系统研究宽度-深度-训练代币在缩放律中的影响，揭示缩放律对设计选择的高度敏感性。
+:   开源由超过4000个检查点（覆盖50M-2B参数、多种宽度-深度比）组成的Gemstones模型套件，通过系统实验揭示缩放律对模型选择、学习率调度、冷却策略等设计选择高度敏感，并提出基于凸包的新拟合方法提升稀疏采样下的缩放律稳定性。
 
 **[Generalization Bounds For Rank-Sparse Neural Networks](generalization_bounds_for_rank-sparse_neural_networks.md)**
 
@@ -88,7 +88,7 @@ description: >-
 
 **[Language Model Behavioral Phases Are Consistent Across Archi](language_model_behavioral_phases_are_consistent_across_archi.md)**
 
-:   论文在 Transformer、Mamba、RWKV，不同数据集与参数规模（14M 到 12B）上系统分析 1400+ checkpoints，发现语言模型预训练中存在高度一致的行为阶段；词级行为变化最多可由 unigram 频率、n-gram 概率、语义相似度三类简单启发式解释（最高约 98% 方差）。
+:   在 Transformer、Mamba、RWKV 三种架构，OpenWebText 和 The Pile 两种数据集，14M-12B 参数规模上系统分析 1400+ 检查点，发现所有自回归语言模型在预训练中展现高度一致的行为阶段——词级预测最多 98% 方差可由 unigram 频率、n-gram 概率和语义相似度三类简单启发式解释。
 
 **[Learning The Wrong Lessons Syntactic-Domain Spurious Correlations In Language Mo](learning_the_wrong_lessons_syntactic-domain_spurious_correlations_in_language_mo.md)**
 
@@ -136,7 +136,7 @@ description: >-
 
 **[Retrospective Incontext Learning For Temporal Credit Assignm](retrospective_incontext_learning_for_temporal_credit_assignm.md)**
 
-:   论文提出 RICL（Retrospective In-Context Learning），利用 LLM 的预训练知识把环境中的稀疏奖励回溯性转化为稠密 advantage supervision，再结合在线策略迭代框架 RICOL，在 BabyAI 四个场景中以更高样本效率达到与传统在线 RL 相当的收敛表现，展示了 LLM 在 temporal credit assignment 上的潜力。
+:   提出 RICL（Retrospective In-Context Learning），利用 LLM 的预训练知识通过回顾式上下文学习将稀疏环境反馈转化为密集优势函数信号，实现比传统 Monte Carlo 方法高 100 倍的样本效率，并在此基础上构建 RICOL 在线学习框架。
 
 **[Scalable Fingerprinting Of Large Language Models](scalable_fingerprinting_of_large_language_models.md)**
 

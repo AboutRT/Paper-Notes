@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 3D视觉方向 172篇论文解读
+  CVPR2026 3D视觉方向 170篇论文解读
 description: >-
-  172篇CVPR2026 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  170篇CVPR2026 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**📷 CVPR2026** · 共 **172** 篇
+**📷 CVPR2026** · 共 **170** 篇
 
 **[3D-Fixer Coarse-To-Fine In-Place Completion For 3D Scenes From A Single Image](3d-fixer_coarse-to-fine_in-place_completion_for_3d_scenes_from_a_single_image.md)**
 
@@ -130,10 +130,6 @@ description: >-
 
 :   提出Catalyst4D框架，将高质量的3D静态编辑结果通过锚点运动引导（AMG）和颜色不确定性外观精炼（CUAR）两个模块传播到4D动态高斯场景中，实现时空一致的高保真动态场景编辑。
 
-**[Catalyst4D Highfidelity 3Dto4D Scene Editing Via D](catalyst4d_highfidelity_3dto4d_scene_editing_via_d.md)**
-
-:   提出Catalyst4D框架，通过锚点运动引导(AMG)和颜色不确定性外观精炼(CUAR)两个模块，将高质量的3D静态编辑结果传播到动态4D高斯场景中，避免了直接4D编辑的运动伪影和时间不一致问题。
-
 **[Cghair Compact Gaussian Hair Reconstruction With Card Clustering](cghair_compact_gaussian_hair_reconstruction_with_card_clustering.md)**
 
 :   提出 CGHair，通过发片（hair card）引导的分层聚类和共享高斯外观码本，在保持可比视觉质量的同时实现 200 倍以上的外观参数压缩和 4 倍发丝重建加速。
@@ -152,7 +148,7 @@ description: >-
 
 **[Cmhanet A Crossmodal Hybrid Attention Network For](cmhanet_a_crossmodal_hybrid_attention_network_for.md)**
 
-:   提出CMHANet，通过三阶段混合注意力（几何self-attention→图像aggregation-attention→源-目标cross-attention）融合2D图像纹理语义与3D点云几何信息，并引入跨模态对比损失，在3DMatch/3DLoMatch上达到最优配准性能。
+:   提出CMHANet，设计三阶段混合注意力（几何自注意力→图像聚合注意力→源-目标交叉注意力）融合2D图像纹理语义与3D点云几何信息，并引入跨模态对比损失，在3DMatch/3DLoMatch上达到最优配准召回率(92.4%/75.5%)，TUM RGB-D零样本RMSE仅0.76×10⁻²。
 
 **[Coherent Human-Scene Reconstruction From Multi-Person Multi-View Video In A Sing](coherent_human-scene_reconstruction_from_multi-person_multi-view_video_in_a_sing.md)**
 
@@ -160,7 +156,7 @@ description: >-
 
 **[Coherent Humanscene Reconstruction From Multiperso](coherent_humanscene_reconstruction_from_multiperso.md)**
 
-:   提出 CHROMM 统一框架，从多人多视图视频中一次性联合估计相机参数、场景点云和人体网格，无需外部模块或预处理数据，在 RICH 上 WA-MPJPE 达 53.1mm 且比优化方法快 8 倍以上。
+:   提出CHROMM统一框架，整合Pi3X几何先验和Multi-HMR人体先验到单一前馈网络，从多人多视图视频中一次性联合重建相机、场景点云和SMPL-X人体网格，无需外部模块、预处理或迭代优化，RICH上多视图WA-MPJPE达53.1mm且比HAMSt3R快8倍以上。
 
 **[Context-Nav Context-Driven Exploration And Viewpoint-Aware 3D Spatial Reasoning ](context-nav_context-driven_exploration_and_viewpoint-aware_3d_spatial_reasoning_.md)**
 
@@ -278,9 +274,9 @@ description: >-
 
 :   将关键点检测从「图像对匹配」范式转变为「序列级可追踪性优化」，通过强化学习框架 TraqPoint 在图像序列上直接优化关键点的长期追踪质量，在位姿估计、视觉定位、视觉里程计和三维重建任务上均超越 SOTA。
 
-**[GeodesicNVS: Probability Density Geodesic Flow Matching for Novel View Synthesis](geodesicnvs_flow_matching_novel_view_synthesis.md)**
+**[Geodesicnvs Flow Matching Novel View Synthesis](geodesicnvs_flow_matching_novel_view_synthesis.md)**
 
-:   提出Data-to-Data Flow Matching直接学习视角间确定性变换，并引入概率密度测地线正则化使流路径沿数据流形高密度区域传播，在NVS中实现更好的跨视角一致性和几何保真度。
+:   提出Data-to-Data Flow Matching直接学习视角对之间的确定性变换，并用概率密度测地线正则化使流路径沿高密度数据流形传播，在新视角合成中实现更好的视角一致性和几何保真度。
 
 **[Geodesicnvs Probability Density Geodesic Flow Matching For Novel View Synthesis](geodesicnvs_probability_density_geodesic_flow_matching_for_novel_view_synthesis.md)**
 
@@ -292,7 +288,7 @@ description: >-
 
 **[Ggpt Geometry Grounded Point Transformer](ggpt_geometry_grounded_point_transformer.md)**
 
-:   提出 GGPT 框架，通过改进的轻量 SfM 管线获取几何一致但稀疏的 3D 点云，再用 3D Point Transformer 在三维空间中直接融合稀疏几何引导与稠密前馈预测，实现跨架构、跨数据集的显著泛化提升。
+:   提出GGPT框架：通过改进的轻量SfM管线(密集匹配+稀疏BA+DLT三角化)获取几何一致稀疏点云，再用3D Point Transformer V3在三维空间直接融合稀疏几何引导与前馈稠密预测进行residual refinement，仅在ScanNet++上训练即可跨架构、跨数据集显著提升多种前馈3D重建模型。
 
 **[Global-Aware Edge Prioritization For Pose Graph Initialization](global-aware_edge_prioritization_for_pose_graph_initialization.md)**
 
@@ -312,7 +308,7 @@ description: >-
 
 **[Hybrid Etfcegrf Exact Clustersize Retrieval With A](hybrid_etfcegrf_exact_clustersize_retrieval_with_a.md)**
 
-:   将 eTFCE 的并查集精确聚类大小提取与 pTFCE 的解析 GRF 推断相结合，首次同时实现精确聚类大小查询和无置换检验的解析 p 值，在全脑 VBM 分析上比 R pTFCE 快 4.6–75 倍，比置换 TFCE 快三个数量级。
+:   将 eTFCE 的并查集数据结构（精确聚类大小查询）与 pTFCE 的 GRF 解析推断相结合，首次在单一框架中同时实现精确聚类大小提取和无置换检验的解析 $p$ 值，全脑 VBM 分析比 R pTFCE 快 4.6–75 倍、比置换 TFCE 快三个数量级。
 
 **[Hyperbolic Multiview Pretraining For Robotic Manipulation](hyperbolic_multiview_pretraining_for_robotic_manipulation.md)**
 
@@ -324,7 +320,7 @@ description: >-
 
 **[Instanthdr Singleforward Gaussian Splatting For Hi](instanthdr_singleforward_gaussian_splatting_for_hi.md)**
 
-:   提出首个前馈HDR新视角合成方法InstantHDR，通过几何引导的外观建模和色调映射元网络，从未标定多曝光LDR图像中单次前向重建HDR 3D高斯场景，速度比优化方法快~700×，后优化版本快~20×且质量可比。
+:   提出首个前馈HDR新视角合成方法InstantHDR，设计几何引导的外观建模模块解决多曝光融合中的外观不一致问题，并通过MetaNet预测场景特定色调映射参数实现泛化，从未标定多曝光LDR图像中秒级重建HDR 3D高斯场景，稀疏4视角下PSNR超GaussianHDR +2.90 dB，速度快约700倍。
 
 **[Jopp-3D Joint Open Vocabulary Semantic Segmentation On Point Clouds And Panorama](jopp-3d_joint_open_vocabulary_semantic_segmentation_on_point_clouds_and_panorama.md)**
 
@@ -332,7 +328,7 @@ description: >-
 
 **[Jopp3D Joint Open Vocabulary Semantic Segmentation](jopp3d_joint_open_vocabulary_semantic_segmentation.md)**
 
-:   提出JOPP-3D——首个联合处理点云和全景图的开放词汇语义分割框架，通过正二十面体切向分解将全景图转为透视图后利用SAM+CLIP提取实例级语义嵌入，再经深度对应实现3D→全景语义回投，在S3DIS上以80.9% mIoU超越所有监督/无监督方法（含PointTransformerV3的73.4%），全景分割70.1% mIoU大幅领先。
+:   提出 JOPP-3D——首个联合处理 3D 点云和全景图的开放词汇语义分割框架：通过正二十面体切向分解将全景图转为 20 张透视图以适配 SAM/CLIP，提取掩码隔离的实例级 CLIP 嵌入实现 3D 语义分割，再经深度对应回投到全景域，免训练即在 S3DIS 上以 80.9% mIoU 超越所有监督方法。
 
 **[Learning Coordinate-Based Convolutional Kernels For Continuous Se3 Equivariant A](learning_coordinate-based_convolutional_kernels_for_continuous_se3_equivariant_a.md)**
 
@@ -384,7 +380,7 @@ description: >-
 
 **[Msgnav Multimodal 3D Scene Embodied Navigation](msgnav_multimodal_3d_scene_embodied_navigation.md)**
 
-:   提出多模态 3D 场景图（M3DSG）——用动态分配的图像替代纯文本关系边保留视觉线索，基于此构建 MSGNav 零样本导航系统，包含关键子图选择、自适应词汇更新、闭环推理和基于可见性的视角决策模块，在 GOAT-Bench 和 HM3D-ObjNav 上取得 SOTA。
+:   提出多模态3D场景图（M3DSG）用动态分配的图像边替代纯文本关系边，构建零样本导航系统 MSGNav，通过关键子图选择、自适应词汇更新、闭环推理和可见性视角决策四个模块，在 GOAT-Bench 上 SR 达 52.0%、HM3D-ObjNav 上 SR 达 74.1%，均为 SOTA。
 
 **[Msgnav Unleashing The Power Of Multi-Modal 3D Scene Graph For Zero-Shot Embodied](msgnav_unleashing_the_power_of_multi-modal_3d_scene_graph_for_zero-shot_embodied.md)**
 
@@ -538,9 +534,9 @@ description: >-
 
 :   提出 RetimeGS，通过正则化时间不透明度 + Catmull-Rom 样条轨迹 + 双向光流监督 + 三重渲染等策略，解决 4DGS 在离散帧间插值时的鬼影/时间别名问题，实现任意时间戳的无鬼影连续时间 4D 重建。
 
-**[RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting](retimegs_continuous_time_4d_gaussian.md)**
+**[Retimegs Continuous Time 4D Gaussian](retimegs_continuous_time_4d_gaussian.md)**
 
-:   提出 RetimeGS, 通过 Catmull-Rom 样条轨迹建模高斯基元的时间行为, 结合双向光流监督和正则化时间不透明度, 解决 4DGS 帧插值时的时间混叠问题, 在 Stage-Capture 数据集上达到 30.08 dB PSNR (比前 SOTA +1.29 dB).
+:   提出 RetimeGS，通过正则化时间不透明度（双 Sigmoid 短尾分布）和 Catmull-Rom 样条轨迹建模高斯基元的连续运动，结合双向光流监督、三重渲染和动态拉伸策略，解决 4DGS 帧间插值时的时间混叠（ghosting），在 Stage-Capture 数据集上达到 30.08 dB PSNR（超越先前 SOTA 1.29 dB）。
 
 **[Reweaver Towards Simulation-Ready And Topology-Accurate Garment Reconstruction](reweaver_towards_simulation-ready_and_topology-accurate_garment_reconstruction.md)**
 
@@ -572,7 +568,7 @@ description: >-
 
 **[Scope Scenecontextualized Incremental Fewshot 3D S](scope_scenecontextualized_incremental_fewshot_3d_s.md)**
 
-:   提出即插即用的背景引导原型增强框架SCOPE，从背景区域挖掘伪实例原型丰富新类原型表示，在ScanNet上5-shot新类IoU达23.86%(vs GW 16.88%，+6.98%)，且几乎无额外计算开销(<1MB, 0.02s)。
+:   提出即插即用的SCOPE框架，利用类无关分割模型从基础训练场景的背景区域挖掘伪实例原型，通过检索+注意力融合增强few-shot新类原型，无需重训backbone即可在ScanNet上将新类IoU提升6.98%。
 
 **[Seethrough3D Occlusion Aware 3D Control In Text-To-Image Generation](seethrough3d_occlusion_aware_3d_control_in_text-to-image_generation.md)**
 
@@ -600,7 +596,7 @@ description: >-
 
 **[Spectral Defense Against Resourcetargeting Attack](spectral_defense_against_resourcetargeting_attack.md)**
 
-:   提出首个针对3DGS资源瞄准攻击的频域防御框架——联合3D频率感知高斯剪枝与2D角度各向异性正则化，将投毒导致的高斯过增长最多抑制5.92×、峰值显存降3.66×、渲染速度提升4.34×，同时渲染质量反而提升(PSNR +1.93dB)。
+:   提出首个针对 3DGS 资源瞄准攻击的频域防御框架——3D 频率滤波器选择性剪除高频异常高斯 + 2D 角度各向异性正则惩罚方向集中的高频噪声，将投毒过增长最多抑制 5.92×、峰值显存降 3.66×、渲染速度提升 4.34×，且 PSNR 反而提升 +1.93dB。
 
 **[Speed3R Sparse Feed-Forward 3D Reconstruction Models](speed3r_sparse_feed-forward_3d_reconstruction_models.md)**
 
@@ -685,10 +681,6 @@ description: >-
 **[Where What Why Toward Explainable 3D-Gs Watermarking](where_what_why_toward_explainable_3d-gs_watermarking.md)**
 
 :   提出一种表示原生的 3D-GS 水印框架，通过 Trio-Experts 选载体（where）、Channel-wise Group Mask 控梯度（what）、解耦微调实现可审计归因（why），在渲染质量（PSNR +0.83 dB）和比特精度（+1.24%）上均超越 SOTA。
-
-**[Wsgg Spatiotemporal World Scene Graph](wsgg_spatiotemporal_world_scene_graph.md)**
-
-:   提出世界场景图生成 (WSGG) 任务——从单目视频生成以世界坐标系为锚定的时空场景图 (包含被遮挡物体), 构建 ActionGenome4D 数据集, 并设计三种方法 (PWG/MWAE/4DST) 探索不同归纳偏置, 4DST 用时间 Transformer 取得最佳 R@10 66.40%.
 
 **[Yocity Personalized And Boundless 3D Realistic City Scene Generation Via Self-Cr](yocity_personalized_and_boundless_3d_realistic_city_scene_generation_via_self-cr.md)**
 

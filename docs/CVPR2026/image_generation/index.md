@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 图像生成方向 164篇论文解读
+  CVPR2026 图像生成方向 165篇论文解读
 description: >-
-  164篇CVPR2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  165篇CVPR2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📷 CVPR2026** · 共 **164** 篇
+**📷 CVPR2026** · 共 **165** 篇
 
 **[2Ndmatch Finetuning Pruned Diffusion Models Via Second-Order Jacobian Matching](2ndmatch_finetuning_pruned_diffusion_models_via_second-order_jacobian_matching.md)**
 
@@ -72,7 +72,7 @@ description: >-
 
 **[Asbridge A Bidirectional Generative Framework Brid](asbridge_a_bidirectional_generative_framework_brid.md)**
 
-:   提出 AS-Bridge，基于双向 Brownian Bridge 扩散过程建模地面巡天（LSST）与空间巡天（Euclid）观测之间的随机映射，同时实现跨巡天图像转换和稀有天文事件检测。
+:   提出 AS-Bridge，基于双向 Brownian Bridge 扩散过程建模地面 LSST 与空间 Euclid 巡天观测间的条件概率分布，实现跨巡天概率图像翻译和利用重建不一致性的无监督强引力透镜检测。
 
 **[Attention May I Have Your Decision Localizing Generative Choices In Diffusion Mo](attention_may_i_have_your_decision_localizing_generative_choices_in_diffusion_mo.md)**
 
@@ -100,7 +100,7 @@ description: >-
 
 **[Bigain Token Compression](bigain_token_compression.md)**
 
-:   提出BiGain——一个训练免的token压缩框架，通过频域分离（保留高频细节+低中频语义），在扩散模型加速时同时保持生成质量和分类能力。70% token合并下分类精度+7.15%且FID反而更好。
+:   BiGain 提出频率感知的 token 压缩框架，通过拉普拉斯门控 token 合并（保留高频细节）和插值-外推 KV 下采样（保留查询精度），在扩散模型推理加速中首次同时优化生成质量和分类准确率。
 
 **[Bigain Unified Token Compression For Joint Generation And Classification](bigain_unified_token_compression_for_joint_generation_and_classification.md)**
 
@@ -172,7 +172,7 @@ description: >-
 
 **[Codrawagents A Multiagent Dialogue Framework For C](codrawagents_a_multiagent_dialogue_framework_for_c.md)**
 
-:   提出 coDrawAgents 交互式多智能体对话框架，通过解释器、规划器、检查器、画家四个专业智能体的闭环协作，以分治策略逐步规划布局并基于画布视觉上下文纠错，在 GenEval 上达到 0.94 的 SOTA 组合保真度。
+:   提出coDrawAgents交互式多智能体对话框架，Interpreter、Planner、Checker、Painter四个专业智能体闭环协作，以分治策略按语义优先级逐组增量规划布局，基于画布视觉上下文接地推理并显式纠错，在GenEval上以0.94 Overall Score大幅领先GPT Image 1（0.84），在DPG-Bench上达85.17 SOTA。
 
 **[Cognitioncapturerpro Towards High-Fidelity Visual Decoding From Eegmeg Via Multi](cognitioncapturerpro_towards_high-fidelity_visual_decoding_from_eegmeg_via_multi.md)**
 
@@ -180,7 +180,7 @@ description: >-
 
 **[Cognitioncapturerpro Towards Highfidelity Visual D](cognitioncapturerpro_towards_highfidelity_visual_d.md)**
 
-:   提出 CognitionCapturerPro，通过不确定性加权掩蔽、多模态融合编码器、共享主干对齐模块和多分支 IP-Adapter 扩散重建，解决 EEG 视觉解码中的保真度损失和表征偏移问题，在 THINGS-EEG 上 Top-1 检索达 61.2%、Top-5 达 90.8%。
+:   CognitionCapturerPro通过不确定性加权掩蔽解决保真度损失、多模态融合编码器整合图像/文本/深度/边缘信息解决表征偏移，配合轻量共享主干对齐替代扩散先验，在THINGS-EEG数据集上Top-1/Top-5检索准确率分别提升25.9%和10.6%。
 
 **[Cologen Progressive Learning Of Concept-Localization Duality For Unified Image G](cologen_progressive_learning_of_concept-localization_duality_for_unified_image_g.md)**
 
@@ -264,7 +264,7 @@ description: >-
 
 **[Ditic Aligned Diffusion Transformer For Efficient](ditic_aligned_diffusion_transformer_for_efficient.md)**
 
-:   将预训练文生图 DiT 适配为高效单步图像压缩解码器，通过方差引导重建流、自蒸馏对齐和潜空间条件引导三种对齐机制，在 32× 下采样的深层潜空间中实现 SOTA 感知质量，同时比现有扩散压缩方法解码快 30 倍。
+:   将预训练文生图DiT（SANA）适配为高效单步图像压缩解码器，通过方差引导重建流（像素级自适应去噪强度）、自蒸馏对齐（编码器潜变量做蒸馏目标）、潜空间条件引导（替代文本编码器）三种对齐机制，在32×下采样的深层潜空间中实现SOTA感知质量（BD-rate DISTS -87.88%），解码快30倍且16GB笔电显存可重建2K图像。
 
 **[Diversity Over Uniformity Rethinking Representation In Generated Image Detection](diversity_over_uniformity_rethinking_representation_in_generated_image_detection.md)**
 
@@ -284,7 +284,7 @@ description: >-
 
 **[Editing Away The Evidence Diffusionbased Image Man](editing_away_the_evidence_diffusionbased_image_man.md)**
 
-:   本文从理论和实验两方面系统分析了扩散编辑（instruction/drag/composition）如何非对抗性地破坏鲁棒隐形水印，推导出 SNR 衰减和互信息下界，揭示常规后处理鲁棒性不能推广到生成式变换。
+:   从理论（SNR衰减、互信息下界、去噪收缩）和实验两方面系统分析非对抗性扩散编辑（instruction/drag/composition）如何无意中破坏鲁棒隐形水印，揭示传统后处理鲁棒性无法推广到生成式变换。
 
 **[Effecterase Joint Video Object Removal And Insertion For High-Quality Effect Era](effecterase_joint_video_object_removal_and_insertion_for_high-quality_effect_era.md)**
 
@@ -296,11 +296,15 @@ description: >-
 
 **[Enhancing Image Aesthetics With Dualconditioned Di](enhancing_image_aesthetics_with_dualconditioned_di.md)**
 
-:   提出DIAE——一个基于SD1.5的图像美学增强框架，通过多模态美学感知(MAP)将模糊的美学指令转化为HSV+轮廓图的视觉控制信号，配合"不完美配对"数据集IIAEData和双分支监督训练策略，在美学提升(LAION score +17.4%)和内容一致性(CLIP-I 0.784)上同时优于InstructPix2Pix等SOTA编辑方法。
+:   DIAE提出多模态美学感知（MAP）模块将模糊的美学指令转为HSV+轮廓图+文本的显式控制信号，并构建"不完美配对"数据集IIAEData配合双分支监督框架进行弱监督训练，实现内容一致的美学增强，LAION美学评分提升17.4%。
 
 **[Enhancing Spatial Understanding In Image Generation Via Reward Modeling](enhancing_spatial_understanding_in_image_generation_via_reward_modeling.md)**
 
 :   构建 80K 对抗性偏好数据集 SpatialReward-Dataset，训练专门评估空间关系准确性的奖励模型 SpatialScore（准确率超越 GPT-5），并用 top-k 过滤策略结合 GRPO 在线 RL 显著提升 FLUX.1-dev 的空间生成能力。
+
+**[Evatok Adaptive Length Video Tokenization For Eff](evatok_adaptive_length_video_tokenization_for_eff.md)**
+
+:   提出四阶段框架EVATok：先用proxy tokenizer估计每个视频的最优token分配方案，再训练轻量路由器一次前向预测这些分配，最终训练自适应tokenizer按内容复杂度灵活分配token数，在UCF-101上以24.4%的token节省达到SOTA生成质量。
 
 **[Evatok Adaptive Length Video Tokenization For Efficient Visual Autoregressive Ge](evatok_adaptive_length_video_tokenization_for_efficient_visual_autoregressive_ge.md)**
 
@@ -324,7 +328,7 @@ description: >-
 
 **[Fdeidtoolbox Face Deidentification Toolbox](fdeidtoolbox_face_deidentification_toolbox.md)**
 
-:   发布 FDeID-Toolbox，一个模块化人脸去识别研究工具箱，统一了数据加载、方法实现（经典到 SOTA 生成模型）、推理流水线和三维评估协议（隐私/效用/质量），解决该领域实验碎片化和结果不可比的问题。
+:   提出 FDeID-Toolbox，一个模块化的人脸去标识化研究工具箱，通过标准化数据加载、统一方法实现、灵活推理流程和系统评估协议四大组件，首次实现了对多种去标识化方法在隐私保护、效用保持和视觉质量三个维度上的公平可复现对比。
 
 **[Few-Shot Acoustic Synthesis With Multimodal Flow Matching](few-shot_acoustic_synthesis_with_multimodal_flow_matching.md)**
 
@@ -400,7 +404,7 @@ description: >-
 
 **[Interedit Navigating Textguided Multihuman 3D Moti](interedit_navigating_textguided_multihuman_3d_moti.md)**
 
-:   首次定义多人3D运动编辑(TMME)任务，构建5161个源-目标-指令三元组的InterEdit3D数据集，提出基于同步无分类器引导的条件扩散模型InterEdit，通过语义感知规划Token对齐和交互感知频域Token对齐两个核心模块，在指令跟随(g2t R@1 30.82%)和源保持(g2s R@1 17.08%)上全面超越基线。
+:   首次定义文本引导的多人3D运动编辑(TMME)任务，构建含5161个源-目标-指令三元组的InterEdit3D数据集，提出InterEdit条件扩散模型——通过语义感知规划Token对齐捕捉高层编辑意图、交互感知频域Token对齐建模周期性交互动态，在指令跟随(g2t R@1 30.82%)和源保持(g2s R@1 17.08%)上全面超越4个基线。
 
 **[Intrinsic Concept Extraction Based On Compositional Interpretability](intrinsic_concept_extraction_based_on_compositional_interpretability.md)**
 
@@ -500,7 +504,7 @@ description: >-
 
 **[Pixelrush Ultrafast Trainingfree Highresolution Im](pixelrush_ultrafast_trainingfree_highresolution_im.md)**
 
-:   PixelRush 首次实现了免训练的单步高分辨率图像生成，通过部分 DDIM 反转（只扰动到中间时间步而非全噪声）+ 少步扩散模型 + 高斯滤波 patch 融合 + 噪声注入，在单卡 A100 上 20 秒生成 4K 图像，比 SOTA 快 10-35× 且 FID 更优（50.13 vs 52.87）。
+:   PixelRush是首个将免训练高分辨率图像生成推入实用化的方法——通过部分DDIM反转跳过冗余的低频重建步骤，使少步扩散模型在patch精炼中可行，配合高斯滤波融合和噪声注入消除伪影，4秒生成2K图像、20秒生成4K图像，比SOTA快10-35倍且FID更优。
 
 **[Pluggable Pruning With Contiguous Layer Distillation For Diffusion Transformers](pluggable_pruning_with_contiguous_layer_distillation_for_diffusion_transformers.md)**
 
@@ -544,7 +548,7 @@ description: >-
 
 **[Razor Ratio Aware Unlearning Vit Diffusion](razor_ratio_aware_unlearning_vit_diffusion.md)**
 
-:   提出 RAZOR, 一种基于比率感知梯度评分的多层协调编辑方法, 用于 ViT 和扩散模型的目标遗忘: 通过 forget/retain 梯度的比率和余弦对齐度联合评分, 识别对遗忘贡献最大且对保留损害最小的层/头, 实现一次性高效遗忘, 在 CLIP 身份遗忘上达到 SOTA.
+:   RAZOR通过比率感知的梯度评分联合衡量遗忘压力与保留对齐来选择最关键的层/注意力头，配合三部分约束损失和迭代扩展机制，在CLIP、Stable Diffusion和VLM上实现了精准高效的目标遗忘且量化后性能不退化。
 
 **[Refining Few-Step Text-To-Multiview Diffusion Via Reinforcement Learning](refining_few-step_text-to-multiview_diffusion_via_reinforcement_learning.md)**
 

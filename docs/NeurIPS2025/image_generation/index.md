@@ -40,7 +40,7 @@ description: >-
 
 **[Accuquant Simulating Multiple Denoising Steps For Quantizing](accuquant_simulating_multiple_denoising_steps_for_quantizing.md)**
 
-:   提出AccuQuant，一种用于扩散模型的训练后量化（PTQ）方法，通过在校准过程中显式模拟多个去噪步骤来最小化量化误差的累积效应，并通过新型目标函数将内存复杂度从O(n)降至O(1)。
+:   提出 AccuQuant用于扩散模型的训练后量化（PTQ）方法，通过在校准阶段显式模拟多个去噪步骤来最小化量化误差的累积效应，并通过新型目标函数将内存复杂度从 O(n) 降至 O(1)，在多种扩散模型和任务上取得显著改进。
 
 **[Adapting Speech Language Model To Singing Voice Synthesis](adapting_speech_language_model_to_singing_voice_synthesis.md)**
 
@@ -48,7 +48,7 @@ description: >-
 
 **[Alebench A Benchmark For Longhorizon Objectivedriven Algorit](alebench_a_benchmark_for_longhorizon_objectivedriven_algorit.md)**
 
-:   提出 ALE-Bench，首个面向分数制算法工程竞赛（AtCoder Heuristic Contest）的 AI 基准，评估 LLM 和 Agent 在 NP-hard 优化问题上的长时间迭代改进能力，发现当前最强模型（o3-high）仅达人类平均水平，且在问题一致性和长时间改进方面与人类专家差距显著。
+:   提出ALE-Bench，首个面向分数制算法工程竞赛（AtCoder Heuristic Contest）的AI基准，收集40道NP-hard优化赛题并提供交互式Agent评估框架，发现最强模型o3-high在one-shot设置下仅达人类平均水平，且AI在跨问题一致性和长时间迭代改进上与人类专家差距显著。
 
 **[Aligning Compound Ai Systems Via System-Level Dpo](aligning_compound_ai_systems_via_system-level_dpo.md)**
 
@@ -68,7 +68,7 @@ description: >-
 
 **[Autoregressive Adversarial Posttraining For Realtime Interac](autoregressive_adversarial_posttraining_for_realtime_interac.md)**
 
-:   提出 AAPT（Autoregressive Adversarial Post-Training），将预训练的潜在视频扩散模型转化为实时交互式视频生成器——每帧仅需单次神经网络前向传播（1NFE），自回归逐帧生成，8B 模型在单张 H100 上以 24fps 流式生成 736×416 视频，最长可达一分钟（1440帧）。
+:   提出 AAPT（Autoregressive Adversarial Post-Training），通过三阶段后训练流程（扩散适配→一致性蒸馏→对抗训练）将预训练的 8B 视频扩散 Transformer 转化为单步自回归实时视频生成器，利用 student-forcing 训练策略有效抑制误差累积，在单张 H100 上以 24fps/736×416 流式生成长达一分钟（1440帧）的视频，同时支持姿态控制和相机控制等实时交互应用。
 
 **[Badiff Bandwidth Adaptive Diffusion Model](badiff_bandwidth_adaptive_diffusion_model.md)**
 
@@ -80,7 +80,7 @@ description: >-
 
 **[Beyond Masked And Unmasked Discrete Diffusion Models Via Par](beyond_masked_and_unmasked_discrete_diffusion_models_via_par.md)**
 
-:   提出 Prime（Partial masking scheme），突破 Masked Diffusion Model 的二元状态（mask/unmask）限制，引入中间态（部分观测的 token 信息），减少冗余计算并实现更细粒度的去噪过程，在文本生成上 PPL 15.36 超越自回归模型（17.54）和标准 MDM（21.52），在图像生成上取得 CIFAR-10 FID 3.26。
+:   Prime（Partial masking scheme）通过将每个token用base-b子token序列表示并在子token级别独立掩码，为掩码扩散模型引入中间状态，实现细粒度去噪过程，在OpenWebText上以15.36困惑度首次让MDM在不使用自回归公式的情况下超越ARM（17.54）。
 
 **[Bitmark Watermarking Bitwise Autoregressive Image Generative Models](bitmark_watermarking_bitwise_autoregressive_image_generative_models.md)**
 
@@ -108,11 +108,11 @@ description: >-
 
 **[Boosting Generative Image Modeling Via Joint Imagefeature Sy](boosting_generative_image_modeling_via_joint_imagefeature_sy.md)**
 
-:   提出 Latent-Semantic Diffusion，让扩散模型联合生成 VAE 低级图像 latent 和 DINO 高级语义特征，通过最小修改标准 DiT 实现生成质量和训练效率的显著提升，并解锁 Representation Guidance 推理策略。
+:   提出ReDi (Representation Diffusion)框架，在扩散模型中联合建模VAE图像latent和DINOv2语义特征——两者在同一扩散过程中从纯噪声同步去噪，仅需最小修改DiT架构即实现23倍训练收敛加速和SOTA FID，并解锁Representation Guidance推理策略。
 
 **[Breaking Ars Sampling Bottleneck Provable Acceleration Via D](breaking_ars_sampling_bottleneck_provable_acceleration_via_d.md)**
 
-:   从信息论角度为扩散语言模型建立收敛保证，证明采样误差（KL散度）随迭代次数T成反比衰减且与token间互信息线性相关，关键证明了T<L（迭代次数可少于序列长度L）时仍可生成高质量样本，从理论上打破了自回归模型需要L步的基本采样瓶颈，并建立了匹配的上下界证明分析的紧致性。
+:   从信息论角度为掩码扩散语言模型建立了完整的采样收敛理论：证明 KL 散度形式的采样误差以 $O(1/T)$ 速率衰减、与 token 间互信息线性相关，并给出匹配的下界证明了分析的紧性，理论上论证了扩散模型可以在 $T < L$（序列长度）步内生成高质量样本。
 
 **[Cadmorph Geometry-Driven Parametric Cad Editing Via A Plan-Generate-Verify Loop](cadmorph_geometry-driven_parametric_cad_editing_via_a_plan-generate-verify_loop.md)**
 
@@ -120,7 +120,7 @@ description: >-
 
 **[Camila Contextaware Masking For Image Editing With Language](camila_contextaware_masking_for_image_editing_with_language.md)**
 
-:   提出 CAMILA，一种上下文感知的图像编辑方法，能够判断用户指令是否在当前图像上下文中可行，仅执行可行的编辑指令而忽略不可执行的指令，在单指令和多指令编辑场景中均优于现有方法。
+:   CAMILA提出上下文感知的图像编辑方法，能自动验证指令与图像的上下文一致性，仅对语义可行的指令执行编辑，忽略不可行或矛盾的指令，在包含不可行请求的单/多指令编辑benchmark上实现更高性能和语义对齐。
 
 **[Camit A Time-Aware Car Model Dataset For Classification And Generation](camit_a_time-aware_car_model_dataset_for_classification_and_generation.md)**
 
@@ -156,7 +156,7 @@ description: >-
 
 **[Continuous Diffusion Model For Language Modeling](continuous_diffusion_model_for_language_modeling.md)**
 
-:   提出一种面向离散语言建模的连续扩散框架，将离散扩散过程与统计流形上的连续流联系起来，并通过径向对称的 simulation-free 训练机制与降维技巧，显著提升扩散语言模型性能，接近自回归模型。
+:   提出 RDLM（Riemannian Diffusion Language Model），在统计流形（超球面）上构建连续扩散过程来建模离散分布，建立了离散扩散与连续流的理论联系，通过径向对称性实现无模拟训练和维度分裂技术处理大词表，在 Text8 上以 1.32 BPC 超越所有离散和连续扩散模型。
 
 **[Continuous Uniqueness And Novelty Metrics For Generative Modeling Of Inorganic C](continuous_uniqueness_and_novelty_metrics_for_generative_modeling_of_inorganic_c.md)**
 
@@ -216,7 +216,7 @@ description: >-
 
 **[Dico Revitalizing Convnets For Scalable And Efficient Diffus](dico_revitalizing_convnets_for_scalable_and_efficient_diffus.md)**
 
-:   重新发掘卷积网络在扩散模型中的潜力——发现预训练DiT的全局自注意力主要捕获局部模式（冗余），提出用标准ConvNet模块+紧凑通道注意力构建纯卷积扩散模型DiCo，在ImageNet-256上以2.05 FID超越DiT-XL/2且速度快2.7倍。
+:   发现预训练DiT的全局self-attention在生成任务中主要捕获局部模式存在大量冗余，提出用标准卷积模块+紧凑通道注意力（CCA）构建纯卷积扩散模型DiCo，在ImageNet-256上FID达2.05超越DiT-XL/2且推理速度快2.7倍，512分辨率下更快3.1倍。
 
 **[Diff-Icmh Harmonizing Machine And Human Vision In Image Compression With Generat](diff-icmh_harmonizing_machine_and_human_vision_in_image_compression_with_generat.md)**
 
@@ -432,7 +432,7 @@ description: >-
 
 **[Head Pursuit Probing Attention Specialization In Multimodal](head_pursuit_probing_attention_specialization_in_multimodal.md)**
 
-:   用信号处理中的Simultaneous Orthogonal Matching Pursuit (SOMP)算法分解注意力头在unembedding矩阵上的稀疏表示，揭示注意力头的语义特化现象（如政治/国籍/月份/数字等），仅编辑1%的头即可可靠地抑制或增强特定概念——在语言和视觉-语言模型上均验证有效。
+:   将经典稀疏信号恢复算法（SOMP）重新解释为一种多样本可解释性工具，发现 LLM 和 VLM 中注意力头存在细粒度语义专业化现象，仅通过翻转约 1% 的头即可可靠地抑制或增强特定概念（如国家名、毒性内容、颜色等）的生成。
 
 **[Hephaestus Mixture Generative Modeling With Energy Guidance For Large-Scale Qos ](hephaestus_mixture_generative_modeling_with_energy_guidance_for_large-scale_qos_.md)**
 
@@ -564,7 +564,7 @@ description: >-
 
 **[Magcache Fast Video Generation With Magnitudeaware Cache](magcache_fast_video_generation_with_magnitudeaware_cache.md)**
 
-:   发现视频扩散模型中连续时间步残差输出的幅度比(magnitude ratio)遵循统一的单调递减规律（跨模型、跨prompt稳定），提出MagCache基于此规律自适应跳过冗余时间步并复用缓存，仅需1个样本校准即可在Open-Sora/CogVideoX/Wan 2.1/HunyuanVideo上实现2.1-2.68×加速，视觉保真度全面超越现有方法。
+:   发现视频扩散模型中相邻时间步残差输出的幅度比（magnitude ratio）遵循一条跨模型、跨 prompt 普遍成立的单调递减规律（"统一幅度定律"），由此提出 MagCache：基于幅度比对跳步误差进行精确累积建模，自适应跳过冗余时间步并复用缓存，仅需 1 个样本校准，即可在 Open-Sora、CogVideoX、Wan 2.1、HunyuanVideo 等模型上实现 2.10–2.68× 加速，且在 LPIPS/SSIM/PSNR 三个指标上全面优于 TeaCache 等已有方法。
 
 **[Mge-Ldm Joint Latent Diffusion For Simultaneous Music Generation And Source Extr](mge-ldm_joint_latent_diffusion_for_simultaneous_music_generation_and_source_extr.md)**
 
@@ -672,7 +672,7 @@ description: >-
 
 **[Panel-By-Panel Souls A Performative Workflow For Expressive Faces In Ai-Assisted](panel-by-panel_souls_a_performative_workflow_for_expressive_faces_in_ai-assisted.md)**
 
-:   提出一种双混合流水线工作流，通过结合自动人脸检测与手动框选、以及表演性视频输入与精细滑块控制，帮助漫画艺术家在AI生成的漫画面板中注入细腻的面部表情。
+:   本文提出了一种面向漫画创作的"双混合"交互式工作流系统，在面部准备阶段融合关键点自动检测与手动框选、在表情映射阶段融合表演性视频捕捉与精细数值滑块调控，使漫画艺术家能够直觉化地将情感叙事意图注入AI生成的漫画面板中角色的面部表情，解决文本提示无法精确描述微妙情感这一根本性"语言-视觉鸿沟"问题。
 
 **[Perturb A Model Not An Image Towards Robust Privacy Protection Via Anti-Personal](perturb_a_model_not_an_image_towards_robust_privacy_protection_via_anti-personal.md)**
 
@@ -680,7 +680,7 @@ description: >-
 
 **[Physctrl Generative Physics For Controllable And Physicsgrou](physctrl_generative_physics_for_controllable_and_physicsgrou.md)**
 
-:   提出 PhysCtrl，通过生成式物理网络学习 4 种材质（弹性体、沙子、橡皮泥、刚体）的物理动力学分布，以 3D 点轨迹表示物理运动，结合 I2V 模型实现物理参数和力可控的视频生成。
+:   PhysCtrl用扩散模型学习四种材料（弹性/沙/橡皮泥/刚体）的物理动力学分布，将动态表示为3D点轨迹，在55万合成动画上训练含时空注意力+物理约束的扩散模型，生成的轨迹驱动预训练视频模型实现力和材料参数可控的高保真物理视频生成。
 
 **[Physics-Constrained Flow Matching Sampling Generative Models With Hard Constrain](physics-constrained_flow_matching_sampling_generative_models_with_hard_constrain.md)**
 
@@ -792,7 +792,7 @@ description: >-
 
 **[Scaling Can Lead To Compositional Generalization](scaling_can_lead_to_compositional_generalization.md)**
 
-:   证明标准 MLP 通过简单地扩大数据量和模型规模即可实现组合泛化（compositional generalization），无需显式的模块化架构设计，并发现组合泛化成功时任务成分可从隐藏激活中线性解码。
+:   通过理论证明和大规模实验表明，标准MLP仅需扩大数据量和模型规模即可实现组合泛化，无需显式模块化架构设计，且组合泛化成功时任务成分可从隐层激活线性解码——该指标与扩散模型的图像组合成功率正相关。
 
 **[Scaling Diffusion Transformers Efficiently Via Μp](scaling_diffusion_transformers_efficiently_via_μp.md)**
 
@@ -872,7 +872,7 @@ description: >-
 
 **[Text-To-Image Models Leave Identifiable Signatures Implications For Leaderboard ](text-to-image_models_leave_identifiable_signatures_implications_for_leaderboard_.md)**
 
-:   本文揭示了文生图（T2I）模型在生成图像中留下可识别的"签名"，使得攻击者可以在投票式排行榜中通过简单的CLIP嵌入空间分类实现模型去匿名化，从而操纵模型排名。
+:   本文揭示文生图（T2I）模型因训练数据、架构和规模差异会在生成图像中留下可识别的"签名"，攻击者即使不控制输入提示也能通过 CLIP 嵌入空间中的简单质心分类以 87% 的 Top-1 准确率去匿名化排行榜上的匿名模型，从而实施排名操纵攻击。
 
 **[Text To Sketch Generation With Multi-Styles](text_to_sketch_generation_with_multi-styles.md)**
 

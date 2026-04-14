@@ -28,7 +28,7 @@ description: >-
 
 **[Cleverbirds A Multiple-Choice Benchmark For Fine-Grained Human Knowledge Tracing](cleverbirds_a_multiple-choice_benchmark_for_fine-grained_human_knowledge_tracing.md)**
 
-:   发布 CleverBirds——超大规模细粒度视觉知识追踪基准，包含 4万+用户的 1700万+多选题交互（覆盖 10000+鸟类物种），展示了追踪细粒度视觉专家技能发展的挑战性，为 KT 方法提供了前所未有的视觉领域评测平台。
+:   提出CleverBirds——迄今最大规模的视觉知识追踪基准，通过eBird公民科学平台收集了40000+参与者完成的1700万+多选鸟类物种识别问答（涵盖10000+物种），系统性评估了多种知识追踪与分类方法，揭示了细粒度视觉知识建模特别是预测学习者错误选择方面的核心挑战。
 
 **[Cloud4D Estimating Cloud Properties At A High Spatial And Temporal Resolution](cloud4d_estimating_cloud_properties_at_a_high_spatial_and_temporal_resolution.md)**
 
@@ -64,7 +64,7 @@ description: >-
 
 **[Empower Words Dualground For Structured Phrase And Sentencel](empower_words_dualground_for_structured_phrase_and_sentencel.md)**
 
-:   论文指出现有视频时序定位模型在跨模态注意力中往往过度依赖句末 [EOS] token 的全局语义、忽视词级局部信号，提出 DualGround 双分支架构，将句子级全局语义与短语级局部语义显式解耦建模，在 QVHighlights 和 Charades-STA 上实现 Moment Retrieval 与 Highlight Detection 的 SOTA。
+:   DualGround揭示现有VTG模型过度依赖[EOS] token的全局语义而忽略词级信号的问题，提出句子级+短语级双路径架构，通过自适应交叉注意力和循环短语生成器分别建模全局和局部语义，在QVHighlights和Charades-STA上达到SOTA。
 
 **[Enhancing Temporal Understanding In Videollms Through Stacke](enhancing_temporal_understanding_in_videollms_through_stacke.md)**
 
@@ -230,11 +230,11 @@ description: >-
 
 **[Tempsampr1 Effective Temporal Sampling With Reinforcement Fi](tempsampr1_effective_temporal_sampling_with_reinforcement_fi.md)**
 
-:   提出 TempSamp-R1，针对视频时序定位任务改进 GRPO 强化微调框架，通过 off-policy 时间精确引导 + 非线性软优势计算 + 混合 CoT 训练，在 Charades-STA/ActivityNet/QVHighlights 上分别提升 +2.7%/+5.3%/+3.0%。
+:   提出TempSamp-R1强化微调框架，针对GRPO在视频时序定位中因搜索空间巨大而on-policy采样低效的问题，通过引入GT作为off-policy监督信号+非线性软优势估计+混合CoT训练范式，在Charades-STA/ActivityNet/QVHighlights三个基准上达到新SOTA。
 
 **[The Ouroboros Of Benchmarking Reasoning Evaluation In An Era Of Saturation](the_ouroboros_of_benchmarking_reasoning_evaluation_in_an_era_of_saturation.md)**
 
-:   本文系统分析了OpenAI、Anthropic和Google三大模型家族在52个基准上的推理能力演变，揭示了"基准饱和循环"现象——旧基准快速被超越、新基准不断涌现，质疑高基准分数是否真正反映泛化推理能力。
+:   本文通过对OpenAI、Anthropic和Google三大模型家族在52个推理基准上的系统分析，揭示了一种"衔尾蛇"循环模式——旧基准被快速饱和→新基准被创建以维持区分度→新基准又被迅速饱和，由此质疑基准分数的提升是否真正代表了推理能力的泛化进步，还是仅仅反映了对特定评测集的过拟合。
 
 **[Token Bottleneck One Token To Remember Dynamics](token_bottleneck_one_token_to_remember_dynamics.md)**
 
@@ -242,7 +242,7 @@ description: >-
 
 **[Toolaugmented Spatiotemporal Reasoning For Streamlining Vide](toolaugmented_spatiotemporal_reasoning_for_streamlining_vide.md)**
 
-:   论文为复杂 VideoQA 提出一套轻量但可扩展的 Video Toolkit，并设计 STAR（Spatiotemporal Reasoning Framework）来调度时间工具与空间工具的调用顺序，逐步定位视频关键区域，显著增强 GPT-4o 的时空推理能力，在 VideoMME 上提升 8.2%，在 LongVideoBench 上提升 4.6%。
+:   提出了包含 22 个工具的视频工具包和 STAR（Spatiotemporal Reasoning）框架，通过时间-空间工具交替调度策略渐进式定位 3D RoI，在 VideoMME 上将 GPT-4o 提升 8.2%，同时大幅减少处理帧数和计算开销。
 
 **[Tracking And Understanding Object Transformations](tracking_and_understanding_object_transformations.md)**
 
@@ -254,7 +254,7 @@ description: >-
 
 **[Two Causally Related Needles In A Video Haystack](two_causally_related_needles_in_a_video_haystack.md)**
 
-:   提出CAUSAL2NEEDLES benchmark评估VLM的长视频双针(2-needle)因果推理能力：需要从视频两个不同位置提取因果关联的事件信息并联合推理，利用"桥接实体"迫使模型先理解结果再追溯原因，揭示即使GPT-4o在2-needle因果问题上仅达13.4%的Both准确率（vs人类79.3%）。
+:   提出Causal2Needles基准（4,100个问答对），通过设计"桥接实体"将两个因果相关事件的理解绑定在一起，强制VLM必须联合检索和推理两个分散在长视频中的"针"，揭示现有最强模型在因果双针问题上的严重不足（ChatGPT-4o双针Both准确率仅13.4%）。
 
 **[Unleashing Hour-Scale Video Training For Long Video-Language Understanding](unleashing_hour-scale_video_training_for_long_video-language_understanding.md)**
 

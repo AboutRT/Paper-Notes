@@ -110,9 +110,9 @@ description: >-
 
 :   提出 MERA（Mechanistic Error Reduction with Abstention），一个基于线性error estimator的原则性activation steering框架，通过约束优化推导闭式最优steering强度，并引入校准步骤确保仅在可证明有效时才进行干预，解决了传统固定steering强度导致的过度/不足steering问题。
 
-**[Towards Attributions of Input Variables in a Coalition](towards_attributions_of_input_variables_in_a_coalition.md)**
+**[Towards Attributions Of Input Variables In A Coalition](towards_attributions_of_input_variables_in_a_coalition.md)**
 
-:   从AND-OR交互的角度揭示联盟归因与个体变量归因之间的冲突本质，定义了正式的联盟归因指标并提出三种评估联盟忠实度的度量。
+:   本文从 AND-OR 交互的视角重新推导了 Shapley value 的计算机制，证明了不同变量划分下的归因冲突本质上源于仅覆盖联盟部分变量的交互效应，并据此定义了联盟归因指标和三个忠实度度量，实验验证其与人类直觉一致。
 
 **[Towards Flexible Perception With Visual Memory](towards_flexible_perception_with_visual_memory.md)**
 

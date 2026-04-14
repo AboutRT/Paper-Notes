@@ -56,7 +56,7 @@ description: >-
 
 **[Enc-Bench A Benchmark For Evaluating Multimodal Large Language Models In Electro](enc-bench_a_benchmark_for_evaluating_multimodal_large_language_models_in_electro.md)**
 
-:   提出 ENC-Bench，首个面向电子航海图 (ENC) 理解的专业级基准，包含 20,490 样本、三级层次评估体系（感知→空间推理→决策），揭示最佳 MLLM 准确率仅 47.88% 的严重能力差距。
+:   提出首个面向电子航海图(ENC)理解的专业级基准 ENC-Bench，包含 20,490 样本和三级层次评估体系（感知→空间推理→海事决策），系统评估 10 个 MLLM 后发现最佳模型仅 47.88% 准确率，揭示了通用模型在安全关键专业领域的严重能力缺口。
 
 **[Expert Pyramid Tuning Efficient Parameter Fine-Tuning For Expertise-Driven Task ](expert_pyramid_tuning_efficient_parameter_fine-tuning_for_expertise-driven_task_.md)**
 
@@ -64,7 +64,7 @@ description: >-
 
 **[Expert Pyramid Tuning Efficient Parameter Finetuni](expert_pyramid_tuning_efficient_parameter_finetuni.md)**
 
-:   提出 Expert Pyramid Tuning (EPT)，将 CV 中的多尺度特征金字塔思想引入 MoE-LoRA 框架，通过共享元知识子空间 + 不同尺度的反卷积专家 + 对比学习任务嵌入，以仅 0.41M 参数/任务在 GLUE 上达到 87.0% 均分（超越所有 MoE-LoRA 基线）。
+:   提出 Expert Pyramid Tuning (EPT)，将 CV 中多尺度特征金字塔（FPN）思想引入 MoE-LoRA，通过共享低维元知识子空间 + 不同核尺度的反卷积专家投影 + 对比学习任务嵌入，以仅 0.41M 参数/任务在 GLUE 上达到 87.0% 均分，比 MoE-LoRA 变体参数减少约 50%。
 
 **[Fast-Thinkact Efficient Vision-Language-Action Reasoning Via Verbalizable Latent](fast-thinkact_efficient_vision-language-action_reasoning_via_verbalizable_latent.md)**
 
@@ -96,7 +96,7 @@ description: >-
 
 **[Influence Malleability In Linearized Attention Dua](influence_malleability_in_linearized_attention_dua.md)**
 
-:   通过NTK框架证明线性化注意力不会收敛到无限宽度核极限（需要宽度m=Ω(κ⁶)），并提出"影响可塑性"指标量化其双面效应：注意力比ReLU网络高6-9倍的数据依赖灵活性，既能降低近似误差也增加对抗脆弱性。
+:   通过 NTK 框架证明线性化注意力不会收敛到无限宽度核极限（需要宽度 $m = \Omega(\kappa^6)$），并提出"影响可塑性"指标量化其双面效应：注意力比 ReLU 网络高 6–9× 的数据依赖灵活性，既能降低近似误差也增加对抗脆弱性。
 
 **[Influence Malleability In Linearized Attention Dual Implications Of Non-Converge](influence_malleability_in_linearized_attention_dual_implications_of_non-converge.md)**
 
@@ -104,7 +104,7 @@ description: >-
 
 **[Lada Robotic Manipulation](lada_robotic_manipulation.md)**
 
-:   提出LaDA框架，将连续7-DoF动作解耦为平移/旋转/夹爪三个语言锚定的语义原语，通过软标签对比学习和自适应权重策略在共享嵌入空间中对齐跨任务动作表示，在LIBERO上达93.6%成功率（0.6B参数），MimicGen上67%平均成功率，超越所有基线。
+:   提出 LaDA 框架，用自然语言作为语义桥梁将连续 7-DoF 动作解耦为平移/旋转/夹爪三个可解释原语，通过软标签对比学习在共享嵌入空间中对齐跨任务动作表示，仅 0.6B 参数在 LIBERO 上达 93.6% 成功率，超越 1.3B~8.5B 参数的所有基线。
 
 **[Language-Grounded Decoupled Action Representation For Robotic Manipulation](language-grounded_decoupled_action_representation_for_robotic_manipulation.md)**
 
@@ -120,7 +120,7 @@ description: >-
 
 **[Mergevla Crossskill Model Merging Toward A General](mergevla_crossskill_model_merging_toward_a_general.md)**
 
-:   MergeVLA 通过诊断 VLA 模型不可合并的两大根因（LoRA 参数冲突 + action expert 自注意力导致的架构不兼容），设计了稀疏激活的 task mask 和去除自注意力的 action expert 架构，实现了多个单任务 VLA 专家的免训练合并，在 LIBERO 上达到 90.2% 成功率。
+:   MergeVLA 通过诊断 VLA 模型不可合并的两大根因（LoRA 参数冲突 + action expert 自注意力导致的架构不兼容），设计了稀疏激活的 task mask 和去除自注意力的 action expert 架构，实现了多个单任务 VLA 专家的免训练合并，在 LIBERO 上达到 90.2%、真机 SO101 上 90.0% 成功率。
 
 **[Mindpower Enabling Theory-Of-Mind Reasoning In Vlm-Based Embodied Agents](mindpower_enabling_theory-of-mind_reasoning_in_vlm-based_embodied_agents.md)**
 
@@ -128,11 +128,11 @@ description: >-
 
 **[Mindpower Enabling Theoryofmind Reasoning In Vlmba](mindpower_enabling_theoryofmind_reasoning_in_vlmba.md)**
 
-:   MindPower 提出了以机器人为中心的心智理论（ToM）推理框架，将感知→信念→欲望→意图→决策→行动组织为六层推理层级，并用 Mind-Reward（基于 GRPO）优化推理一致性，在决策和动作生成上分别超过 GPT-4o 12.77% 和 12.49%。
+:   MindPower提出以机器人为中心的心智理论（ToM）推理框架，将感知→信念→欲望→意图→决策→行动组织为六层推理层级，并用Mind-Reward（基于GRPO）优化推理一致性，在决策和动作生成上分别超过GPT-4o 12.77%和12.49%。
 
 **[Panoaffordancenet Towards Holistic Affordance Grou](panoaffordancenet_towards_holistic_affordance_grou.md)**
 
-:   提出PanoAffordanceNet，首次定义360°室内环境中的全局affordance grounding任务，通过失真感知光谱调制器(DASM)和全球面密化头(OSDH)解决ERP几何失真和稀疏激活问题，配合多级训练目标抑制语义漂移，在自建360-AGD数据集上大幅超越现有方法（KLD从2.853→1.270）。
+:   PanoAffordanceNet提出360°室内环境的整体功能可供性定位新任务，通过畸变感知频谱调制器（DASM）校正ERP几何畸变、全球面致密化头（OSDH）从稀疏激活恢复连续功能区域，配合多层级训练目标，在自建的首个全景功能可供性数据集360-AGD上大幅超越现有方法。
 
 **[Panoaffordancenet Towards Holistic Affordance Grounding In 360 Indoor Environmen](panoaffordancenet_towards_holistic_affordance_grounding_in_360_indoor_environmen.md)**
 

@@ -68,4 +68,4 @@ description: >-
 
 **[See It Say It Sorted An Iterative Training-Free Framework For Visually-Grounded ](see_it_say_it_sorted_an_iterative_training-free_framework_for_visually-grounded_.md)**
 
-:   提出一个无需训练的迭代框架，通过"看到-说出-排序"的循环过程增强大视觉语言模型的视觉定位多模态推理能力，在多个推理任务上显著提升性能。
+:   提出Evidence-Constrained Reweighting Decoding（ECRD）框架：在LVLM解码时维护动态文本证据池，通过分布协商重加权候选token，不确定时自动调用轻量视觉决策器提取微证据，无需训练即可在多个LVLM上显著减少视觉幻觉、提升推理准确率。

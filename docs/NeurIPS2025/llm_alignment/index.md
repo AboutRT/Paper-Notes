@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 对齐/RLHF方向 50篇论文解读
+  NeurIPS2025 对齐/RLHF方向 51篇论文解读
 description: >-
-  50篇NeurIPS2025 对齐/RLHF方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  51篇NeurIPS2025 对齐/RLHF方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**🧠 NeurIPS2025** · 共 **50** 篇
+**🧠 NeurIPS2025** · 共 **51** 篇
 
 **[A Systematic Evaluation Of Preference Aggregation In Federated Rlhf For Pluralis](a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md)**
 
@@ -20,7 +20,7 @@ description: >-
 
 **[Alignment Of Large Language Models With Constrained Learning](alignment_of_large_language_models_with_constrained_learning.md)**
 
-:   将LLM对齐形式化为约束优化问题（最大化主要奖励同时满足次要效用约束如安全性），提出基于拉格朗日对偶的迭代方法交替更新LLM策略和对偶变量，理论上刻画了分布空间与LLM参数空间之间的原对偶间隙和最优性间隙，证明方法可以找到近最优约束LLM策略。
+:   将LLM对齐建模为约束优化问题——最大化主要奖励（如有用性）同时满足次要效用约束（如安全性），提出基于拉格朗日对偶的迭代方法交替更新LLM策略和对偶变量，理论上刻画了分布空间与参数空间之间的原对偶间隙和最优性间隙，证明可以找到近最优约束LLM策略（误差仅来自参数化间隙）。
 
 **[Ask A Strong Llm Judge When Your Reward Model Is Uncertain](ask_a_strong_llm_judge_when_your_reward_model_is_uncertain.md)**
 
@@ -40,11 +40,11 @@ description: >-
 
 **[Deepvideor1 Video Reinforcement Finetuning Via Difficultyawa](deepvideor1_video_reinforcement_finetuning_via_difficultyawa.md)**
 
-:   探索GRPO在VideoLLM中的应用，发现"安全门依赖"和"优势消失"两个阻碍有效学习的问题，提出Reg-GRPO（将GRPO loss重建为直接回归优势值的任务，消除clipping/min等安全门操作）和难度感知数据增强策略，在多个视频推理benchmark上显著提升性能。
+:   提出DeepVideo-R1，将GRPO重新表述为回归优势值的Reg-GRPO（消除clipping/min等保护机制），同时通过难度感知数据增强缓解优势值消失问题，在视频推理任务上相比标准GRPO提升高达10.1个百分点。
 
 **[Densedpo Finegrained Temporal Preference Optimization For Vi](densedpo_finegrained_temporal_preference_optimization_for_vi.md)**
 
-:   提出 DenseDPO，通过三个创新解决视频扩散模型 DPO 训练的根本缺陷：(1) 从 GT 视频加噪去噪构造对齐的视频对消除运动偏差，(2) 在短时间片段而非整个视频上标注偏好提供更密集的学习信号，(3) 用 GPT 等 VLM 自动标注片段级偏好取代人工标注。仅用 1/3 标注数据即大幅提升运动生成质量。
+:   提出 DenseDPO，通过三个创新解决视频扩散模型 DPO 的根本缺陷：(1) 从 GT 视频加噪去噪构造结构对齐的视频对消除运动偏差，(2) 在短时间片段而非整个视频上标注密集偏好，(3) 利用 VLM 自动标注片段级偏好取代人工标注——仅用 1/3 标注数据即大幅提升运动生成质量。
 
 **[Diffusion Model As A Noiseaware Latent Reward Model For Step](diffusion_model_as_a_noiseaware_latent_reward_model_for_step.md)**
 
@@ -53,6 +53,10 @@ description: >-
 **[Dp2O-Sr Direct Perceptual Preference Optimization For Real-World Image Super-Res](dp2o-sr_direct_perceptual_preference_optimization_for_real-world_image_super-res.md)**
 
 :   提出 DP²O-SR 框架，利用扩散模型固有的随机性生成多样化超分辨率输出，通过混合感知奖励构建偏好对，并设计层次化偏好优化（HPO）策略自适应加权训练对，在无需人工标注的前提下显著提升真实世界图像超分辨率的感知质量。
+
+**[Evorefuse Evolutionary Prompt Optimization For Evaluation And Mitigation Of Llm ](evorefuse_evolutionary_prompt_optimization_for_evaluation_and_mitigation_of_llm_.md)**
+
+:   提出 EvoRefuse——用进化搜索（变异/重组 + ELBO 适应度函数 + 模拟退火）自动生成语义无害但能可靠触发 LLM 拒绝的"伪恶意"指令，构建的 EvoRefuse-Test 基准比最强基线拒绝触发率高 85.34%、词汇多样性高 34.86%，EvoRefuse-Align 对齐数据通过 SFT/DPO 微调将过度拒绝降低 29.85%-45.96% 且不损害安全性。
 
 **[From Judgment To Interference Early Stopping Llm Harmful Outputs Via Streaming C](from_judgment_to_interference_early_stopping_llm_harmful_outputs_via_streaming_c.md)**
 
@@ -112,7 +116,7 @@ description: >-
 
 **[Longvpo From Anchored Cues To Selfreasoning For Longform Vid](longvpo_from_anchored_cues_to_selfreasoning_for_longform_vid.md)**
 
-:   提出 LongVPO，一个两阶段 DPO 框架使短上下文 VLM 无需长视频标注即可理解超长视频——阶段1通过锚定短片段构造偏好数据解决位置偏差问题，阶段2通过递归描述+多段推理任务培养跨片段推理能力，仅用 16K 合成样本即超越 SOTA 开源模型。
+:   LongVPO提出两阶段DPO框架，Stage 1通过锚定短片段构造伪长视频偏好数据并引入anchor-only参考模型近似解决上下文长度不匹配问题，Stage 2通过递归字幕生成和多片段推理任务在真实长视频上自训练，仅用16K合成样本即超越大规模监督训练的长视频模型。
 
 **[Mechanism Design For Llm Fine-Tuning With Multiple Reward Models](mechanism_design_for_llm_fine-tuning_with_multiple_reward_models.md)**
 

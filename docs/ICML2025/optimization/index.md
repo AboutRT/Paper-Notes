@@ -20,7 +20,7 @@ description: >-
 
 **[A Unified View On Learning Unnormalized Distributions Via Noise-Contrastive Esti](a_unified_view_on_learning_unnormalized_distributions_via_noise-contrastive_esti.md)**
 
-:   通过f-NCE框架的两个变体（alpha-CentNCE和f-CondNCE）统一了学习非归一化分布的多种方法（MLE/MC-MLE/pseudo-likelihood/ISO等），发现f-CondNCE与score matching的真实关系，并为指数族建立首个有限样本收敛保证。
+:   以f-NCE为基础提出alpha-CentNCE和f-CondNCE两个估计器家族，统一了MLE、MC-MLE、GlobalGISO、pseudo-likelihood、ISO等学习非归一化分布的方法，纠正了CondNCE与score matching的误导性联系，并为有界指数族首次建立有限样本收敛保证。
 
 **[Adjustment For Confounding Using Pre-Trained Representations](adjustment_for_confounding_using_pre-trained_representations.md)**
 

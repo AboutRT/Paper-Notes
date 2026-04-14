@@ -24,7 +24,7 @@ description: >-
 
 **[Feat Free Energy Estimators With Adaptive Transport](feat_free_energy_estimators_with_adaptive_transport.md)**
 
-:   提出 FEAT 框架，基于随机插值学习自适应传输，通过 escorted Jarzynski 等式和 Crooks 定理提供一致、最小方差的自由能差估计器，统一了平衡与非平衡方法。
+:   提出 FEAT 框架，利用随机插值学习两个热力学系统之间的传输映射，基于 escorted Jarzynski 等式和 controlled Crooks 定理提供一致、最小方差的自由能差估计器及变分上下界，统一了平衡与非平衡方法。
 
 **[From Simulations To Surveys Domain Adaptation For Galaxy Observations](from_simulations_to_surveys_domain_adaptation_for_galaxy_observations.md)**
 
@@ -52,7 +52,7 @@ description: >-
 
 **[Quantum Doubly Stochastic Transformers](quantum_doubly_stochastic_transformers.md)**
 
-:   提出 QDSFormer，用变分量子电路（QontOT）替换 ViT 中的 softmax 生成双随机注意力矩阵，在多个小规模图像识别任务上超越标准 ViT 和 Sinkformer，并显著稳定训练。
+:   提出QDSFormer（量子双随机Transformer），用变分量子电路QontOT替代softmax生成双随机注意力矩阵，理论和实验证明量子电路生成的DSM更多样、更好保持信息，在多个小规模视觉识别任务上一致超越标准ViT和Sinkformer。
 
 **[Simulation-Based Inference For Neutrino Interaction Model Parameter Tuning](simulation-based_inference_for_neutrino_interaction_model_parameter_tuning.md)**
 

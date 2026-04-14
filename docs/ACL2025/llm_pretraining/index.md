@@ -16,7 +16,7 @@ description: >-
 
 **[Autonomous Data Selection With Zero-Shot Generative Classifiers For Mathematical](autonomous_data_selection_with_zero-shot_generative_classifiers_for_mathematical.md)**
 
-:   提出 AutoDS——用基座 LLM 自身作为零样本"生成分类器"自动评估数学文本质量。通过两个 yes/no 问题的 logits 计算连续 LM-Score（而非二分类），筛选高质量数学文本做持续预训练，在 MATH/GSM8K/BBH 上大幅提升并实现约 2 倍 token 效率提升。发布 AutoMathText 数据集。
+:   提出 AutoDS——用基座语言模型自身作为零样本生成分类器，通过 YES/NO token 的 logits 计算连续 LM-Score 来自动评估数学文本质量，筛选高质量语料做持续预训练，在 MATH/GSM8K/BBH 上实现约 2 倍 token 效率提升。
 
 **[Between Circuits Chomsky](between_circuits_chomsky.md)**
 
@@ -56,7 +56,7 @@ description: >-
 
 **[How Do Llms Acquire New Knowledge A Knowledge Circuits Perspective On Continual ](how_do_llms_acquire_new_knowledge_a_knowledge_circuits_perspective_on_continual_.md)**
 
-:   从知识电路（knowledge circuits）角度研究 LLM 在持续预训练中如何获取新知识：新知识的获取依赖于与已有知识的关联性，电路经历"形成→优化"的阶段转变，且呈现从深层到浅层的演化模式。
+:   从知识电路(knowledge circuit)演化视角研究LLM持续预训练中的新知识获取机制，在GPT-2/Llama/Phi三个架构上发现：(1)与已有知识相关的新知识更容易获取；(2)知识电路经历"形成→优化"的明显相变；(3)电路演化遵循"中深层先建立提取功能→浅层后丰富知识表示"的深到浅模式。
 
 **[Improving Continual Pre-Training Through Seamless Data Packing](improving_continual_pre-training_through_seamless_data_packing.md)**
 

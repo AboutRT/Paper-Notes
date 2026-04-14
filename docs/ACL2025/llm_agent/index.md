@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 LLM Agent方向 45篇论文解读
+  ACL2025 LLM Agent方向 44篇论文解读
 description: >-
-  45篇ACL2025 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  44篇ACL2025 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**💬 ACL2025** · 共 **45** 篇
+**💬 ACL2025** · 共 **44** 篇
 
 **[A Multi-Agent Framework For Mitigating Dialect Biases In Privacy Policy Question](a_multi-agent_framework_for_mitigating_dialect_biases_in_privacy_policy_question.md)**
 
@@ -28,7 +28,7 @@ description: >-
 
 **[Bel Esprit Multi-Agent Framework For Building Ai Model Pipelines](bel_esprit_multi-agent_framework_for_building_ai_model_pipelines.md)**
 
-:   提出 Bel Esprit——基于多 Agent 框架的对话式 AI 管线构建系统，通过子 Agent 协作（需求澄清→管线构建→验证→模型填充）将用户的模糊需求转化为由多个 AI 模型组成的可执行管线（如多语言视频配音→语音识别+翻译×3+TTS×3），在人工策划和合成数据上验证有效性。
+:   提出 Bel Esprit 多 Agent 对话框架，通过 Mentalist（需求澄清）→ Builder（管线构建）→ Inspector（验证）→ Matchmaker（模型分配）四步协作，将用户模糊的自然语言需求自动转化为多模型 AI 管线图，在 441 条管线数据上达到 25.2% EM 和 37.0 GED（GPT-4o Builder）。
 
 **[Beyond Numeric Rewards In-Context Dueling Bandits With Llm Agents](beyond_numeric_rewards_in-context_dueling_bandits_with_llm_agents.md)**
 
@@ -100,7 +100,7 @@ description: >-
 
 **[Multi Agent Dialect Bias Privacy Qa](multi_agent_dialect_bias_privacy_qa.md)**
 
-:   提出一个双 Agent 框架（Dialect Agent + Privacy Policy Agent），通过方言感知翻译和迭代协作来消除隐私政策QA系统在不同英语方言间的性能差距，无需重训练或方言特定微调，在 PrivacyQA 和 PolicyQA 上将方言间最大性能差距降低最高 82%。
+:   构建 Dialect Agent（方言翻译+审查）与 Privacy Policy Agent（领域回答）的双 Agent 迭代协作框架，通过注入方言语言学知识的提示工程，在无需重训练的前提下同时提升隐私政策 QA 的整体准确率和跨方言公平性。
 
 **[Multiagentbench Evaluating The Collaboration And Competition Of Llm Agents](multiagentbench_evaluating_the_collaboration_and_competition_of_llm_agents.md)**
 
@@ -121,10 +121,6 @@ description: >-
 **[Os Agents A Survey On Mllm-Based Agents For General Computing Devices Use](os_agents_a_survey_on_mllm-based_agents_for_general_computing_devices_use.md)**
 
 :   首篇全面综述 MLLM 驱动的操作系统代理（OS Agents），系统梳理其基础组件、构建方法、评估基准和未来方向。
-
-**[Os Agents Survey Mllm](os_agents_survey_mllm.md)**
-
-:   首个系统性综述基于（多模态）大语言模型的操作系统智能体（OS Agents），覆盖基础概念、构建方法（基础模型+Agent框架）、评估基准和商业产品，全面梳理了从CogAgent到Anthropic Computer Use等50+工作的技术演进。
 
 **[Os Genesis Gui Agent Trajectory](os_genesis_gui_agent_trajectory.md)**
 
@@ -184,7 +180,7 @@ description: >-
 
 **[Toolhop Multi Hop Tool Use](toolhop_multi_hop_tool_use.md)**
 
-:   提出ToolHop——首个query-driven构建的多跳工具使用评估数据集（995个多跳查询+3912个本地可执行工具），评估14个LLM后发现最强的GPT-4o仅达49.04%准确率，揭示了不同模型家族在工具使用策略上的显著差异。
+:   提出 ToolHop——一个包含 995 个多跳查询和 3912 个本地可执行工具的基准数据集，通过"查询驱动"的数据构建方式（先有查询再造工具）确保工具间有真实依赖关系和可验证答案，评测 14 个 LLM 发现最强的 GPT-4o 准确率仅 49%，揭示了不同模型家族在工具使用上的显著策略差异。
 
 **[Toolhop Multi Hop Tool Use Benchmark](toolhop_multi_hop_tool_use_benchmark.md)**
 

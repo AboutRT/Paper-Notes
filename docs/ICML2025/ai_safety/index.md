@@ -124,7 +124,7 @@ description: >-
 
 **[Ficgcn Unveiling The Homomorphic Encryption Efficiency From Irregular Graph Conv](ficgcn_unveiling_the_homomorphic_encryption_efficiency_from_irregular_graph_conv.md)**
 
-:   提出FicGCN框架利用GCN的稀疏特性在同态加密(HE)下实现高效隐私推理：延迟感知打包方案+稀疏密文内聚合(SpIntra-CA)+区域数据重排，在保护数据隐私的同时比最新方案加速4.10倍。
+:   提出FicGCN框架，通过延迟感知的打包策略、稀疏密文内聚合（SpIntra-CA）和基于区域的节点重排三项创新，解决GCN不规则稀疏性与同态加密SIMD计算模式之间的根本矛盾，在Corafull等大规模图上实现最高4.10×的端到端加速。
 
 **[Generalization In Federated Learning A Conditional Mutual Information Framework](generalization_in_federated_learning_a_conditional_mutual_information_framework.md)**
 
@@ -172,7 +172,7 @@ description: >-
 
 **[Private Model Personalization Revisited](private_model_personalization_revisited.md)**
 
-:   在用户级差分隐私约束下，提出高效联邦模型个性化算法 Private FedRep，通过共享低维嵌入学习实现个性化，在自然参数区间下将隐私误差相比先前工作降低 O(dk) 倍，并给出维度无关的分类风险界。
+:   提出 Private FedRep 算法，在用户级差分隐私 (DP) 约束下通过交替最小化框架学习共享低维嵌入 $U^* \in \mathbb{R}^{d \times k}$（$k \ll d$），将隐私误差项相比先前工作 Jain et al. 降低 $\widetilde{O}(dk)$ 倍，且适用于更广泛的 sub-Gaussian 分布（而非仅限高斯），并通过 Johnson-Lindenstrauss 变换给出维度无关的分类风险界。
 
 **[Quadratic Upper Bound For Boosting Robustness](quadratic_upper_bound_for_boosting_robustness.md)**
 

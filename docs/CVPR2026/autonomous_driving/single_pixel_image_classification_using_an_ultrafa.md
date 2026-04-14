@@ -2,92 +2,138 @@
 title: >-
   [论文解读] Single Pixel Image Classification using an Ultrafast Digital Light Projector
 description: >-
-  [CVPR 2026][自动驾驶][single pixel imaging] 利用microLED-on-CMOS超快光投影器(330kfps)进行单像素成像(SPI)，以12×12 Hadamard pattern照明MNIST数字并用单像素检测器采集时间序列，完全跳过图像重建，直接用ELM/DNN分类实测光信号，实现1.2kfps下>90%分类精度，二分类(异常检测)精度>99%。
+  [CVPR 2026][计算成像][单像素成像] 利用microLED-on-CMOS超快光投影器(330kfps)进行单像素成像，以12×12 Hadamard pattern照明MNIST数字并用单像素检测器采集时间序列，完全跳过图像重建直接用ELM/DNN分类，实现1.2kfps下>90%精度和二分类>99% AUC。
 tags:
   - CVPR 2026
-  - 自动驾驶
-  - single pixel imaging
+  - 计算成像
+  - 单像素成像
   - Hadamard patterns
-  - microLED projector
-  - extreme learning machine
-  - compressed sensing
+  - microLED投影器
+  - 极限学习机
 ---
 
 # Single Pixel Image Classification using an Ultrafast Digital Light Projector
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12036](https://arxiv.org/abs/2603.12036)  
-**代码**: 无（数据已开源）  
-**领域**: 计算成像 / 图像分类  
-**关键词**: single pixel imaging, Hadamard patterns, microLED projector, extreme learning machine, compressed sensing  
+**代码**: 无  
+**领域**: 计算成像 / 单像素成像  
+**关键词**: single pixel imaging, Hadamard patterns, microLED-on-CMOS, extreme learning machine, compressed sensing
 
 ## 一句话总结
-利用microLED-on-CMOS超快光投影器(330kfps)进行单像素成像(SPI)，以12×12 Hadamard pattern照明MNIST数字并用单像素检测器采集时间序列，完全跳过图像重建，直接用ELM/DNN分类实测光信号，实现1.2kfps下>90%分类精度，二分类(异常检测)精度>99%。
 
-## 背景与动机
-传统相机在超高速场景和非可见光波段面临带宽限制。单像素成像(SPI)通过结构化照明+单点检测器替代面阵传感器，硬件简单且可工作在任意波段。但SPI的瓶颈在于pattern切换速度：DMD机械翻转极限~10^4 fps，限制了实时应用。最近microLED阵列作为pattern生成器，切换速度比DMD快~100倍。现有SPIC(单像素图像分类)工作多为仿真，本文在真实自由空间光学系统上验证了超快SPIC的可行性。
+利用microLED-on-CMOS超快光投影器（330kfps全局快门）进行单像素成像，将12×12 Hadamard pattern投射到MNIST数字上，用单像素光电检测器采集叠加光强的时间序列，完全跳过图像重建，直接用ELM和DNN对时间序列分类，实验实现1.2kfps下>90%多分类精度和>99% AUC的二分类（异常检测）能力。
 
-## 核心问题
-能否在真实光学系统中实现kHz级帧率的图像分类，且不需要重建图像？如何在压缩感知(使用fewer patterns)的情况下维持分类精度？pattern选择策略对分类性能有何影响？
+## 研究背景与动机
+
+**领域现状**：单像素成像（SPI）通过结构化照明+单点检测器替代面阵传感器，硬件简单且可工作在任意波段（红外、THz等）。传统的pattern生成器DMD受机械翻转限制在~10⁴ fps，近年microLED阵列将切换速度提升~100倍。
+
+**现有痛点**：
+
+1. 大多数单像素图像分类（SPIC）工作为纯数值仿真，缺乏真实光学系统验证
+2. 传统SPI先重建图像再分类的pipeline引入不必要延迟，且重建本身是计算瓶颈
+3. DMD的机械切换速度限制了实时应用（实际图像生成率≲10² Hz）
+
+**核心矛盾**：SPI的信息采集本质是时空变换（2D空间→1D时间序列），重建步骤是否真正必要？
+
+**本文要解决什么？** 在真实自由空间光学系统上实验验证超快SPIC的可行性，完全绕过图像重建。
+
+**切入角度**：利用microLED的超快切换能力投射Hadamard pattern，直接对光电信号时间序列做分类。
+
+**核心idea一句话**：用microLED超快投影器实现亚毫秒级Hadamard编码，对单像素检测器的时间序列直接分类而不重建图像。
 
 ## 方法详解
 
 ### 整体框架
-输入：DMD上显示的二值化MNIST图像 → microLED投影器依次投射288个Hadamard pattern（12×12基底的正/负互补对） → 单像素光电探测器(SiPM)采集每个pattern的叠加光强 → 实时示波器记录时间序列 → ML模型直接对时间序列分类（无需图像重建）。输出：数字类别(0-9)。
+
+DMD显示二值化MNIST图像→microLED投影器依次投射288个Hadamard pattern（12×12基底的144个基础pattern×正负互补对）→单像素光电检测器(SiPM)采集每对pattern的差分光强→实时示波器记录时间序列（286维特征向量）→ELM或DNN直接分类→输出数字类别(0-9)。
 
 ### 关键设计
-1. **超快microLED光投影器**: 128×128有源矩阵microLED阵列，50μm间距，支持二值模式和5-bit灰度，全局快门模式330kfps切换。将12×12 Hadamard pattern映射到microLED阵列上照明DMD。关键优势是比DMD机械翻转快约30倍，实现亚毫秒级的完整Hadamard集合投射。
 
-2. **Hadamard pattern压缩策略**: Had12共288个pattern（144基础pattern×正负互补对）。发现pattern按"sequency"(空间频率类比)排序后，低sequency(少空间翻转)的前1/4 pattern包含最多有用分类信息。具体分为Cat1(前44个，仅单轴变化)和Cat2(剩余，双向变化)。使用前1/4 pattern仍能维持~78%精度，同时带宽提升4倍达到4.8kHz。
+1. **microLED-on-CMOS超快光投影器**
 
-3. **两种轻量分类模型**:
+    - 128×128有源矩阵microLED阵列，30×30μm²像素，50μm间距
+    - 支持二值模式和5-bit灰度，全局快门模式330kfps切换
+    - 将12×12 Hadamard pattern映射到microLED上照明DMD
+    - 核心优势：比DMD机械翻转快约30倍，完整288-pattern集合投射仅需约0.87ms
+    - 系统瓶颈从pattern生成转移到DMD物体切换（32.5kHz）
 
-    - **ELM(极限学习机)**: 单隐层，输入权重随机固定不训练，只用岭回归求解输出权重(闭式解)。1000隐层神经元时多分类87.37%，二分类(one-vs-all)各类AUC均接近1.0(>99%)。推理31μs/样本。
-    - **DNN**: 3层全连接+ReLU+Softmax，Adam优化，sparse categorical cross-entropy。使用完整Had12达到>90%精度。推理73μs/样本（比ELM慢2倍但精度更高）。
+2. **Hadamard pattern压缩与排序策略**
+
+    - Had12共288个pattern（144基础×正负对），按sequency（空间频率类比）排序
+    - 关键发现：低sequency pattern（少空间翻转）包含最多分类信息
+    - 使用前1/2 pattern即可维持~85%精度，前1/4约78%精度，带宽相应提升2-4倍
+    - 三种选择策略对比：前n个(最优) >> 随机选择(中间) >> 后n个(最差)
+    - 类比Fourier分析：低sequency ≈ 低频分量，对粗粒度分类足够
+
+3. **两种轻量分类模型**
+
+    - **ELM（极限学习机）**：单隐层，输入权重随机固定不训练，仅用岭回归($\alpha=1.0$)闭式求解输出权重。1000隐层神经元时多分类87.37%。推理31μs/样本。核心公式：$\beta = (H^\top H + \alpha I)^{-1} H^\top T$
+    - **DNN**：3层全连接(286→递减→10)+ReLU+Softmax，Adam优化器，300 epochs。完整Had12达>90%精度。推理73μs/样本
 
 ### 损失函数 / 训练策略
-- ELM: 岭回归闭式解，α=1.0，无需迭代训练
-- DNN: Adam + sparse categorical cross-entropy，300 epochs
-- 噪声鲁棒性分析：对输入注入加性高斯白噪声，σ=0.5时精度仍>95%，σ=1.0时显著下降。重要发现：性能下降主因是结构信息缺失(压缩感知)而非等效SNR变化
+
+- ELM：岭回归闭式解，无需迭代，α=1.0
+- DNN：sparse categorical cross-entropy + Adam，300 epochs
+- 噪声鲁棒性：加性高斯白噪声σ=0.5时精度>95%，σ=1.0时显著下降；性能退化主因是结构信息缺失而非等效SNR变化
 
 ## 实验关键数据
-| 配置 | 精度 | 帧率 |
-|------|------|------|
-| 二值MNIST + DNN (数值仿真baseline) | 97.50% | - |
-| 二值MNIST + ELM (数值仿真baseline) | 93.32% | - |
-| 实验Had12完整 + DNN | >90% | 1.2 kHz |
-| 实验Had12完整 + ELM(多分类) | 87.37% | 1.2 kHz |
-| 实验Had12前1/4 + DNN | ~78% | 4.8 kHz |
-| 实验Had12 + ELM(二分类/异常检测) | >99% AUC | 1.2 kHz |
 
-### 消融实验要点
-- **Pattern选择策略影响巨大**: 使用Had12的前n个(低sequency) >> 随机选择 >> 后n个(高sequency)，说明低频pattern对分类最重要
-- **DNN学习曲线揭示信息瓶颈**: 使用fewer patterns时出现更长的vanishing gradient阶段（而非噪声导致的平滑下降），证明压缩感知下的性能退化本质是结构信息缺失
-- **ELM隐层神经元数**: 100→1000精度稳步提升但趋于饱和，训练/测试精度差<1%表明无过拟合
+### 主实验
 
-## 亮点 / 我学到了什么
-- **不重建直接分类的范式值得关注**: 完全绕过图像重建，将2D空间信息编码为1D时间序列后直接分类，信息保全由Hadamard正交基保证。这种"sensing即computing"的思路在边缘/光计算领域有潜力
-- **Pattern的"频率排序"策略简单有效**: 类比Fourier分析，低sequency Hadamard pattern ≈ 低频分量，对粗粒度分类足够，高sequency pattern ≈ 高频细节，对简单任务冗余
-- **ELM作为异常检测器极其轻量**: 闭式解训练+31μs推理，二分类AUC>99%，适合超快流水线上的go/no-go判断
+| 配置 | 精度 | 等效帧率 | 推理时间/样本 |
+|------|------|----------|---------------|
+| 二值MNIST + DNN (仿真baseline) | 97.50% | — | — |
+| 二值MNIST + ELM (仿真baseline) | 93.32% | — | — |
+| 实验Had12完整 + DNN | >90% | 1.2 kHz | 73 μs |
+| 实验Had12完整 + ELM (10分类) | 87.37% | 1.2 kHz | 31 μs |
+| 实验Had12 1/4 + DNN | ~78% | 4.8 kHz | — |
+| 实验Had12 + ELM (one-vs-all二分类) | >99% AUC | 1.2 kHz | 31 μs |
+
+### 消融实验
+
+**Pattern选择策略对分类精度的影响（DNN）**：
+
+| Pattern选择 | 比例 | 等效帧率 | 精度约 |
+|-------------|------|----------|--------|
+| 前n（低sequency） | 100% | 1.2 kHz | >90% |
+| 前n | 50% | 2.4 kHz | ~85% |
+| 前n | 25% | 4.8 kHz | ~78% |
+| 随机选择 | 25% | 4.8 kHz | ~70% |
+| 后n（高sequency） | 25% | 4.8 kHz | ~60% |
+
+### 关键发现
+
+- 低sequency Hadamard pattern包含的分类信息远多于高sequency pattern，类比FFT中低频分量的主导地位
+- DNN学习曲线揭示：使用fewer patterns时出现更长的vanishing gradient阶段，证明性能退化本质是结构信息缺失而非噪声
+- ELM的训练/测试精度差<1%，无过拟合，说明单像素编码特征的判别性足够
+- ELM二分类AUC全类>99%，适合超快流水线的go/no-go判断（异常检测场景）
+
+## 亮点与洞察
+
+- "不重建直接分类"的范式值得关注：完全绕过图像重建，将2D空间信息编码为1D时间序列直接分类，信息保全由Hadamard正交基保证
+- Pattern的"频率排序"策略简单有效：可用前1/4 pattern换取4×带宽提升，精度仅降约12%
+- ELM作为异常检测器极其轻量：闭式解训练+31μs推理+AUC>99%，适合嵌入式/边缘部署
+- 首次在真实自由空间光学系统上实验验证kHz级SPIC，从仿真走向实测
 
 ## 局限性 / 可改进方向
-- **仅在二值化MNIST上验证**: 28×28的二值手写数字是最简单的benchmark，实际机器视觉场景远更复杂。灰度/彩色图像、更大分辨率、自然场景的表现未知
-- **12×12 Hadamard限制**: 受FPGA内存深度限制，空间分辨率极低(12×12)，实际应用需更高分辨率的pattern集
-- **DMD切换仍是系统瓶颈**: microLED 330kfps但DMD物体切换仅32.5kHz，整体帧率受限于DMD而非光投影器
-- **未与event camera对比**: 声称优于event camera但未做直接对比
-- **实验setup依赖特定光路**: 自由空间光学系统，工程化部署还需集成化
 
-## 与相关工作的对比
-- **vs 传统SPI+分类**: 以往工作[15,16,17]多为仿真或低速硬件，本文首次在超快光学系统上实验验证
-- **vs microLED模拟光计算[13,14]**: 这些工作将microLED用于模拟光学神经网络(矩阵-向量乘法)，本文用microLED做pattern投射+电子后处理，路线不同
-- **vs event camera**: 都解决高速感知问题，但SPI可工作在任意波段(红外/THz)，event camera局限于可见/近红外
+- 仅在二值化28×28 MNIST上验证，远不及真实机器视觉的复杂度；灰度/彩色/自然场景表现未知
+- 12×12 Hadamard限制源于FPGA内存深度，实际应用需更高分辨率pattern集
+- DMD物体切换（32.5kHz）仍是系统瓶颈，microLED的330kfps优势未被充分利用
+- 未与event camera做直接对比，尽管声称优势
+- 实验依赖特定自由空间光路，工程化部署和集成化方案未讨论
 
-## 与我的研究方向的关联
-- 计算成像+AI的交叉领域，与主流CV方向(VLM, 检测, 分割)距离较远
-- "信号直接分类不需重建"的思路在压缩感知领域有广泛应用，可能启发视频理解中的token/帧压缩策略
+## 相关工作与启发
+
+- **vs 传统SPI+分类**：以往SPIC工作多为仿真或低速硬件，本文首次在超快光学系统上实验验证kHz级分类
+- **vs microLED模拟光计算**：将microLED用于模拟光学神经网络（矩阵-向量乘法），本文用microLED做pattern投射+电子后处理，路线互补
+- **vs event camera**：都解决高速感知问题，但SPI可工作在可见光以外的任意波段（红外/THz），event camera局限于硅基传感器波段
+- 启发："sensing即computing"的思路在边缘/光计算领域有潜力，Hadamard压缩策略可能启发视频理解中的帧/token压缩
 
 ## 评分
-- 新颖性: ⭐⭐⭐ 单像素分类概念并非首创，本文核心贡献在硬件系统集成和实验验证
+
+- 新颖性: ⭐⭐⭐ 单像素分类概念并非首创，核心贡献在硬件系统集成和实验验证
 - 实验充分度: ⭐⭐⭐⭐ 多种pattern策略、两种模型、噪声分析、学习曲线分析都很系统
-- 写作质量: ⭐⭐⭐⭐ 清晰易读，图表直观，实验设置描述详细
-- 对我的价值: ⭐⭐ 有趣但与主流CV方向距离较远，Hadamard压缩策略有一定启发
+- 写作质量: ⭐⭐⭐⭐ 清晰易读，实验设置和光路描述详细，图表直观
+- 价值: ⭐⭐⭐ 有趣的系统集成工作，但MNIST验证距实际应用有很大差距

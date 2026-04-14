@@ -108,7 +108,7 @@ description: >-
 
 **[Fixing The Broken Compass Diagnosing And Improving Inference-Time Reward Modelin](fixing_the_broken_compass_diagnosing_and_improving_inference-time_reward_modelin.md)**
 
-:   系统诊断推理时奖励模型(RM)的三大问题（简单题性能下降、采样增多判别力衰退、高搜索多样性损害），提出CRISP算法通过答案聚类聚合奖励信号+逐步前缀引导生成，比其他RM推理方法提升最高5%准确率，比R1模型在非数学任务上平均提升10%且token量减少90%。
+:   系统诊断推理时奖励模型（RM）的三大失效模式——简单题性能退化、采样数增多时辨别力下降、高搜索多样性损害准确率，并提出 CRISP 算法通过答案聚类的奖励聚合与逐步前缀引导来缓解这些问题，准确率提升最高 5%。
 
 **[From Abstract To Contextual What Llms Still Cannot Do In Math Word Problem Solvi](from_abstract_to_contextual_what_llms_still_cannot_do_in_math_word_problem_solvi.md)**
 
@@ -124,7 +124,7 @@ description: >-
 
 **[Harder Is Better Boosting Mathematical Reasoning Via Difficulty-Aware Grpo And M](harder_is_better_boosting_mathematical_reasoning_via_difficulty-aware_grpo_and_m.md)**
 
-:   揭示GRPO中更新幅度对难题隐式抑制的问题(中等难度题更新最大)，提出MathForge框架：DGPO用MAD替换std实现难度均衡+难题加权，MQR通过多方面改写增加题目难度但保留答案，在6个数学推理benchmark上平均超GRPO +4.56%。
+:   揭示GRPO的优势函数（std归一化）导致更新幅度在中等难度题目处最大、对难题和易题均隐式抑制的问题，提出MathForge框架——DGPO（用MAD替换std实现难度均衡 + softmax难度加权）+ MQR（添加故事背景/抽象术语/嵌套子问题三方面改写增加难度但保留原答案），在Qwen2.5-Math-7B上在6个数学推理benchmark上平均超GRPO +4.56%。
 
 **[I Cant Believe Its Not Robust Catastrophic Collapse Of Safety Classifiers Under ](i_cant_believe_its_not_robust_catastrophic_collapse_of_safety_classifiers_under_.md)**
 
@@ -132,7 +132,7 @@ description: >-
 
 **[Is In-Context Learning Learning](is_in-context_learning_learning.md)**
 
-:   通过大规模实验分析 ICL 的本质，从数学定义和实证两个层面回答"上下文学习是否真正在学习"：数学上 ICL 符合学习的定义，但实证表明其学习和泛化到未见任务的能力有限，更多依赖于提示中的规律性模式推断而非真正的归纳学习。
+:   从理论和实证两个层面系统分析 ICL 是否构成真正的"学习"，发现数学上 ICL 满足学习的定义，但大规模实验表明 ICL 的泛化能力有限——模型主要依赖 prompt 中的结构规律性进行模式推演（deduction），而非从示例中习得新能力。
 
 **[Is It Thinking Or Cheating Detecting Implicit Reward Hacking By Measuring Reason](is_it_thinking_or_cheating_detecting_implicit_reward_hacking_by_measuring_reason.md)**
 
@@ -140,7 +140,7 @@ description: >-
 
 **[Lingoly-Too Disentangling Reasoning From Knowledge With Templatised Orthographic](lingoly-too_disentangling_reasoning_from_knowledge_with_templatised_orthographic.md)**
 
-:   提出LingOly-TOO benchmark(1,203题/6,995子问题)，通过对语言学奥赛题的专家设计正字法混淆来分离LLM的推理能力与知识/记忆，发现最强模型从原始题0.59降至混淆后0.48，揭示了LLM推理能力被严重高估。
+:   提出LingOly-TOO基准，通过专家设计的正字法置换（grapheme-level permutation）对语言学奥赛题进行混淆，保留推理逻辑但消除知识/记忆捷径，将15个前沿模型的最高分从0.59降至0.48，系统量化了LLM推理能力被知识效应高估的程度。
 
 **[Logicreward Incentivizing Llm Reasoning Via Step-Wise Logical Supervision](logicreward_incentivizing_llm_reasoning_via_step-wise_logical_supervision.md)**
 
@@ -256,7 +256,7 @@ description: >-
 
 **[Verifying Chain-Of-Thought Reasoning Via Its Computational Graph](verifying_chain-of-thought_reasoning_via_its_computational_graph.md)**
 
-:   提出CRV白盒方法，通过分析LLM推理步骤的归因图（计算图）结构特征来验证CoT正确性，在Arithmetic任务上AUROC达92.47，远超黑盒(76.45)和灰盒方法，并通过因果干预成功纠正错误推理。
+:   提出 CRV（Circuit-based Reasoning Verification），通过将 LLM 的 MLP 替换为 transcoder 构建可解释归因图，从图的结构特征中提取推理错误的"指纹"，实现白盒 CoT 推理验证，并可通过因果干预修正错误推理。
 
 **[When Reasoning Meets Compression Understanding The Effects Of Llms Compression O](when_reasoning_meets_compression_understanding_the_effects_of_llms_compression_o.md)**
 

@@ -36,7 +36,7 @@ description: >-
 
 **[Bedlam20 Synthetic Humans And Cameras In Motion](bedlam20_synthetic_humans_and_cameras_in_motion.md)**
 
-:   BEDLAM 数据集的重大升级版，新增多样化相机运动（合成+手持+头戴设备捕获）、更广的焦距范围（14-400mm）、更多样化体型/发型/鞋子/服装，总计 27K 序列 8M+ 帧，显著提升世界坐标 3D 人体估计的精度。
+:   BEDLAM2.0 在 BEDLAM 基础上全面升级——引入多样化相机运动（合成平移/追踪/环绕 + 手持/头戴设备捕捉）、更广体型覆盖（BMI 18-41）、strand-based 发型、鞋子、分级服装和更多3D环境，构建 27K+ 序列 / 8M+ 帧的合成数据集，仅用合成数据训练即可在世界坐标系人体运动估计上超越 SOTA。
 
 **[Breaking The Gradient Barrier Unveiling Large Language Models For Strategic Clas](breaking_the_gradient_barrier_unveiling_large_language_models_for_strategic_clas.md)**
 
@@ -232,7 +232,7 @@ description: >-
 
 **[Reflective Translation Improving Low-Resource Machine Translation Via Structured](reflective_translation_improving_low-resource_machine_translation_via_structured.md)**
 
-:   提出Reflective Translation提示框架，让LLM通过结构化的多轮自我评估和修正来改善低资源语言翻译质量，在英语-isiZulu和英语-isiXhosa上取得统计显著的改进。
+:   提出 Reflective Translation 框架，让 LLM 在推理时对自身的初始翻译进行结构化自我批判（识别误译/遗漏/语义扭曲），再根据批判生成修正翻译，无需微调或额外标注数据即可在 isiZulu/isiXhosa 等低资源非洲语言上取得 BLEU 和 COMET 的统计显著提升。
 
 **[Searching Latent Program Spaces](searching_latent_program_spaces.md)**
 

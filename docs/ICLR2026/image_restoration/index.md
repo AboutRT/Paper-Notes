@@ -36,7 +36,7 @@ description: >-
 
 **[Horizon Imagination Efficient On-Policy Rollout In Diffusion World Models](horizon_imagination_efficient_on-policy_rollout_in_diffusion_world_models.md)**
 
-:   提出Horizon Imagination(HI)——扩散世界模型中的高效在策略想象过程：并行去噪多个未来观测(而非逐帧串行)，引入稳定化机制和新型采样调度(将去噪预算从有效horizon解耦+支持亚帧预算)，在Atari 100K和Craftium上仅用一半去噪步骤即保持控制性能，系统分析串行vs并行生成的质量trade-off。
+:   提出 Horizon Imagination (HI)，通过在去噪中途采样动作并行处理多个未来帧，将扩散世界模型的 on-policy 想象计算量降至每帧不到一次完整去噪，同时保持控制性能。
 
 **[Interacthuman Multi-Concept Human Animation With Layout-Aligned Audio Conditions](interacthuman_multi-concept_human_animation_with_layout-aligned_audio_conditions.md)**
 

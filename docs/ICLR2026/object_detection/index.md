@@ -100,7 +100,7 @@ description: >-
 
 **[Spwood Sparse Partial Weakly-Supervised Oriented Object Detection](spwood_sparse_partial_weakly-supervised_oriented_object_detection.md)**
 
-:   提出首个稀疏部分弱监督旋转目标检测(SPWOOD)框架——用极少量稀疏弱标注(HBox/Point)+大量无标注数据训练，通过SOS-Student分离前景/背景并从弱标注学习角度/尺度、多层级伪标签过滤(MPF)自适应筛选高质量伪标签、全局稀疏分割保持类别分布平衡，在DOTA/DIOR上接近全监督性能。
+:   提出 SPWOOD 框架统一处理稀疏标注和弱标注（HBox/Point）的旋转目标检测问题，通过自适应旋转目标检测器(SAOD)和空间布局学习策略，在 DOTA 基准上以混合标注（RBox:HBox:Point=1:1:1）达到接近全监督的性能。
 
 **[Thinking In Latents Adaptive Anchor Refinement For Implicit Reasoning In Llms](thinking_in_latents_adaptive_anchor_refinement_for_implicit_reasoning_in_llms.md)**
 

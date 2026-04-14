@@ -20,7 +20,7 @@ description: >-
 
 **[Ciice Intrinsic Concept Extraction Compositional](ciice_intrinsic_concept_extraction_compositional.md)**
 
-:   提出CI-ICE新任务和HyperExpress方法，利用双曲空间的层次建模能力提取可组合的物体级/属性级内在概念，通过Horosphere投影模块保证概念嵌入空间的可组合性。
+:   提出CI-ICE新任务和HyperExpress方法：在双曲空间(Poincaré球)中利用层次建模能力提取可组合的物体级/属性级内在概念，通过Horosphere投影保证概念嵌入空间的可组合性，在UCEBench上概念解耦ACC₁达0.504(较ICE的0.325提升55%)。
 
 **[Cut To The Chase Training-Free Multimodal Summarization Via Chain-Of-Events](cut_to_the_chase_training-free_multimodal_summarization_via_chain-of-events.md)**
 
@@ -80,7 +80,7 @@ description: >-
 
 **[On The Possible Detectability Of Imageinimage Steg](on_the_possible_detectability_of_imageinimage_steg.md)**
 
-:   揭示了基于可逆神经网络(INN)的图像隐写方案存在严重安全漏洞：嵌入过程本质上是一种混合过程，可通过ICA进行盲源分离，仅用8维特征+SVM即可达到84.6%检测率，而传统SRM+SVM更是达到99%以上。
+:   揭示基于可逆神经网络（INN）的"图像中藏图像"隐写方案存在根本性安全漏洞：嵌入过程本质上是可通过独立成分分析（ICA）识别的混合过程，仅用8维统计特征+SVM即可达84.6%检测率，经典SRM+SVM更是达到99%以上。
 
 **[Pixel2Phys Distilling Governing Laws From Visual Dynamics](pixel2phys_distilling_governing_laws_from_visual_dynamics.md)**
 

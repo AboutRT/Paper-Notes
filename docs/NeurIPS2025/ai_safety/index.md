@@ -248,7 +248,7 @@ description: >-
 
 **[Llm Strategic Reasoning Agentic Study Through Behavioral Gam](llm_strategic_reasoning_agentic_study_through_behavioral_gam.md)**
 
-:   论文不再把大模型战略推理简单等同于“是否接近纳什均衡”，而是基于 behavioral game theory 构建评测框架，区分真实推理能力与上下文因素，系统测评 22 个 LLM 的互动决策行为，发现模型规模并不决定战略水平，CoT 提升也并非普遍有效，同时暴露出显著的人口属性偏置。
+:   本文提出基于行为博弈论的LLM战略推理评估框架，使用截断量子响应均衡(TQRE)量化推理深度τ，在13个矩阵博弈上评估22个SOTA模型，揭示推理风格差异和人口统计persona引发的偏差问题。
 
 **[Locally Optimal Private Sampling Beyond The Global Minimax](locally_optimal_private_sampling_beyond_the_global_minimax.md)**
 
@@ -472,4 +472,4 @@ description: >-
 
 **[When Ai Democratizes Exploitation Llm-Assisted Strategic Manipulation Of Fair Di](when_ai_democratizes_exploitation_llm-assisted_strategic_manipulation_of_fair_di.md)**
 
-:   通过实证分析展示 LLM 如何民主化战略操纵能力，使普通用户无需数学专业知识即可通过简单对话获取 Spliddit 公平分租算法的协调操纵策略，揭示了 AI 辅助下算法公平性机制面临的新威胁。
+:   本文通过在 Spliddit 公平分租平台上设计四种不同的协调操纵场景（排斥性合谋、防御性反击、善意合谋、成本最小化联盟），实证地证明 LLM 可以将原本需要深厚机制设计专业知识才能进行的算法操纵行为，降低为任何用户仅需一次自然语言对话即可完成的简单操作，从根本上颠覆了"算法复杂性即安全屏障"的传统假设。

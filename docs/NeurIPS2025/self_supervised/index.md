@@ -28,7 +28,7 @@ description: >-
 
 **[Connecting Jensenshannon And Kullbackleibler Divergences A N](connecting_jensenshannon_and_kullbackleibler_divergences_a_n.md)**
 
-:   推导了一般情况下 KL 散度关于 JS 散度的新的紧致可计算下界，证明最大化 JSD 目标等价于最大化互信息的一个下界，为判别式学习在 MI 基础表示学习中的使用提供了理论基础，并在 MI 估计和 Information Bottleneck 中验证了其紧致性和实用性。
+:   推导了一般情况下KL散度关于JS散度的最优紧致下界$\Xi(D_{\text{JS}}) \leq D_{\text{KL}}$，证明训练判别器最小化交叉熵损失等价于最大化互信息的一个保证下界，为JSD基于的判别式表示学习方法提供了缺失的理论基础，并在MI估计和Information Bottleneck框架中验证了紧致性与实用性。
 
 **[Continuous Subspace Optimization For Continual Learning](continuous_subspace_optimization_for_continual_learning.md)**
 
@@ -36,7 +36,7 @@ description: >-
 
 **[Contrastive Representations For Temporal Reasoning](contrastive_representations_for_temporal_reasoning.md)**
 
-:   论文研究能否用纯表示学习替代显式搜索来承担部分时序推理，指出标准 temporal contrastive learning 容易抓住伪特征而失去时序结构，进一步提出 CRTR（Combinatorial Representations for Temporal Reasoning），通过特制负采样从理论上去除伪特征，学到同时编码感知与时序结构的表示，在 Sokoban 和 Rubik's Cube 上取得强结果，甚至可在不依赖外部搜索算法的情况下求解任意初始魔方状态。
+:   提出 CRTR（Contrastive Representations for Temporal Reasoning），通过在训练批次中重复同一轨迹来引入轨迹内负样本对，消除标准时间对比学习对静态上下文特征的依赖，学习到反映时间结构的表征，在魔方等组合推理任务上首次实现无搜索求解。
 
 **[Datarater Meta-Learned Dataset Curation](datarater_meta-learned_dataset_curation.md)**
 
@@ -44,7 +44,7 @@ description: >-
 
 **[Foundation Cures Personalization Improving Personalized Models Prompt Consistenc](foundation_cures_personalization_improving_personalized_models_prompt_consistenc.md)**
 
-:   提出 FreeCure，一个 training-free 框架，通过发掘个性化模型中隐藏的 foundation model 知识来修复 prompt consistency 退化问题，同时保持 identity fidelity。
+:   FreeCure发现面部个性化模型的身份嵌入会覆盖但不破坏基础模型的prompt控制能力，据此提出无训练框架，通过Foundation-Aware Self-Attention（FASA）将基础模型的属性信息注入个性化生成过程，在保持身份保真度的同时大幅提升prompt一致性，可无缝集成到SD/SDXL/FLUX等主流模型。
 
 **[Foundation Models For Scientific Discovery From Paradigm Enhancement To Paradigm](foundation_models_for_scientific_discovery_from_paradigm_enhancement_to_paradigm.md)**
 
@@ -108,7 +108,7 @@ description: >-
 
 **[Towards Reliable And Holistic Visual In-Context Learning Prompt Selection](towards_reliable_and_holistic_visual_in-context_learning_prompt_selection.md)**
 
-:   本文提出RH-Partial2Global方法，通过Jackknife共形预测构建可靠的候选集，并利用覆盖设计实现全面均匀的成对偏好采样，提升视觉上下文学习中的提示选择质量。
+:   提出RH-Partial2Global方法，首次用Spearman秩相关检验证明VICL中"相似性优先假设"虽统计显著但相关强度极弱($\bar{\rho} \approx 0.03\text{-}0.05$)，通过Jackknife共形预测构建可靠候选集+覆盖设计实现全面均匀的成对偏好采样，在分割/检测/着色三个视觉任务上一致超越SOTA。
 
 **[Trident Tri-Modal Molecular Representation Learning With Taxonomic Annotations A](trident_tri-modal_molecular_representation_learning_with_taxonomic_annotations_a.md)**
 

@@ -1,7 +1,7 @@
 <!-- 由 src/gen_todo.py 自动生成 -->
 # CVPR2026 论文笔记 TODO
 
-总计: 1714 篇 | 已完成: 1349 | 待更新: 365
+总计: 1714 篇 | 已完成: 1350 | 待更新: 364
 
 ---
 
@@ -1534,7 +1534,7 @@
 - [ ] [topomesh high-fidelity mesh autoencoding via topological unification](3d_vision/topomesh_high-fidelity_mesh_autoencoding_via_topological_unification.md) | arXiv: 2603.24278
 - [ ] [toward generalizable whole brain representations with high-resolution light-shee](3d_vision/toward_generalizable_whole_brain_representations_with_high-resolution_light-shee.md) | arXiv: 2603.29842
 - [x] [toward real-world infrared image super-resolution a unified autoregressive frame](image_restoration/toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
-- [ ] [towards balanced multi modal learning in 3d human pose estimation](autonomous_driving/towards_balanced_multi_modal_learning_in_3d_human_pose_estimation.md)
+- [x] [towards balanced multi modal learning in 3d human pose estimation](autonomous_driving/towards_balanced_multi_modal_learning_in_3d_human_pose_estimation.md)
 - [x] [Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](autonomous_driving/towards_balanced_multi-modal_learning_in_3d_human_pose_estimation.md) | arXiv: 2501.05264
 - [x] [Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](autonomous_driving/towards_balanced_multimodal_learning_in_3d_human_p.md) | arXiv: 2501.05264
 - [x] [Towards Calibrating Prompt Tuning of Vision-Language Models](multimodal_vlm/towards_calibrating_prompt_tuning_of_vision-language_models.md) | arXiv: 2602.19024

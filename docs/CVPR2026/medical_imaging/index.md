@@ -20,7 +20,7 @@ description: >-
 
 **[A Semisupervised Framework For Breast Ultrasound S](a_semisupervised_framework_for_breast_ultrasound_s.md)**
 
-:   通过外观描述驱动VLM免训练生成伪标签，再由双教师不确定性融合+反向对比学习细化，仅2.5%标注即可逼近全监督性能。
+:   利用简单外观描述（"dark oval"等）驱动 Grounding DINO + SAM 免训练生成乳腺超声伪标签，再通过双教师不确定性-熵加权融合与自适应反向对比学习精炼伪标签质量，仅 2.5% 标注即达到甚至超过全监督上界。
 
 **[Accelerating Stroke Mri With Diffusion Probabilist](accelerating_stroke_mri_with_diffusion_probabilist.md)**
 
@@ -40,7 +40,7 @@ description: >-
 
 **[Adaptation Of Weakly Supervised Localization In Hi](adaptation_of_weakly_supervised_localization_in_hi.md)**
 
-:   提出SFDA-DeP方法，受机器遗忘启发，将源自由域适应建模为迭代识别过度预测类的不确定样本并选择性降低其置信度的过程，同时联合训练像素级分类器恢复定位判别力，在跨器官/跨中心病理基准上显著优于SFDA baselines。
+:   提出SFDA-DeP，受机器遗忘启发将源自由域适应（SFDA）建模为迭代识别并纠正预测偏差的过程——选择性降低优势类中不确定样本的置信度、保留可靠预测、联合训练像素级分类器恢复定位判别力——在跨器官/跨中心病理基准上一致优于SFDA baselines的分类和定位性能。
 
 **[Adaptation Of Weakly Supervised Localization In Histopathology By Debiasing Pred](adaptation_of_weakly_supervised_localization_in_histopathology_by_debiasing_pred.md)**
 
@@ -52,7 +52,7 @@ description: >-
 
 **[Addressing Data Scarcity In 3D Trauma Detection Th](addressing_data_scarcity_in_3d_trauma_detection_th.md)**
 
-:   在仅206例标注CT中，通过patch-based MIM预训练3D U-Net + VDETR顶点RPE + 半监督一致性正则化的两阶段框架，将3D创伤检测mAP@0.50从26.36%提升至56.57%（验证集），同时冻结编码器的7类分类达94.07%准确率。
+:   在仅 206 例标注(其中 144 例用于训练)的极端稀缺条件下，通过 patch-based MIM 预训练 3D U-Net + VDETR 顶点 RPE 检测器 + 2000 例未标注数据的半监督一致性正则化，将 3D 腹部创伤检测 mAP@0.50 从 26.36% 提升至 56.57%(验证集,+115%)，冻结编码器的 7 类分类达 94.07% 准确率。
 
 **[Addressing Data Scarcity In 3D Trauma Detection Through Self-Supervised And Semi](addressing_data_scarcity_in_3d_trauma_detection_through_self-supervised_and_semi.md)**
 
@@ -64,11 +64,11 @@ description: >-
 
 **[Are Generalpurpose Vision Models All We Need For 2](are_generalpurpose_vision_models_all_we_need_for_2.md)**
 
-:   在统一训练和评估协议下对比11个专用医学分割架构(SMA)和通用视觉模型(GP-VM)，发现GP-VM在三个异质医学数据集上超越大多数SMA，且Grad-CAM分析表明GP-VM无需领域特定设计即可捕获临床相关结构。
+:   在统一训练评估协议下对比11个模型（5个专用医学分割架构SMA + 6个通用视觉模型GP-VM）在3个异构医学数据集上的表现，发现GP-VMs在所有数据集上系统性优于大多数SMAs（平均mDSC: VW-MiT 91.0% vs 最佳SMA SU-Mamba 90.5%），且Grad-CAM分析表明GP-VMs能捕获临床相关结构。
 
 **[Association Of Radiologic Ppfe Change With Mortali](association_of_radiologic_ppfe_change_with_mortali.md)**
 
-:   在 NLST（n=7980）和 SUMMIT（n=8561）两个大规模肺癌筛查队列中，利用深度学习自动分割量化低剂量 CT 上 PPFE 的纵向变化（dPPFE），验证其与全因死亡率（HR=1.25/3.14）和呼吸系统发病率的独立关联。
+:   在两个独立大规模肺癌筛查队列中，利用深度学习自动分割量化PPFE纵向变化，首次验证其在筛查人群中的独立预后价值。
 
 **[Association Of Radiologic Ppfe Change With Mortality In Lung Cancer Screening Co](association_of_radiologic_ppfe_change_with_mortality_in_lung_cancer_screening_co.md)**
 
@@ -76,7 +76,7 @@ description: >-
 
 **[Automated Detection Of Malignant Lesions In The Ov](automated_detection_of_malignant_lesions_in_the_ov.md)**
 
-:   系统对比 15 种 CNN 变体在卵巢癌组织病理图像五分类上的表现，选出 InceptionV3-A（ReLU）达 94% 综合指标后，用 LIME/SHAP/Integrated Gradients 三种 XAI 方法解释其决策。
+:   系统对比 15 种 CNN 变体（LeNet/ResNet/VGG/Inception）在卵巢癌组织病理图像五分类上的表现，最终选出 InceptionV3-A（ReLU）达 94% 综合指标，并用 LIME/SHAP/Integrated Gradients 三种 XAI 方法做对比解释分析。
 
 **[Automated Detection Of Malignant Lesions In The Ovary Using Deep Learning Models](automated_detection_of_malignant_lesions_in_the_ovary_using_deep_learning_models.md)**
 
@@ -108,11 +108,11 @@ description: >-
 
 **[Bridging The Skill Gap In Clinical Cbct Interpreta](bridging_the_skill_gap_in_clinical_cbct_interpreta.md)**
 
-:   构建了覆盖55种口腔疾病的7,408例大规模配对CBCT-报告数据集，开发双语报告生成系统CBCTRepD，并通过多层级临床评估证明其可帮助不同经验水平的放射科医生提升报告质量。
+:   构建覆盖55种口腔疾病的7,408例大规模CBCT-报告配对数据集，开发双语口腔颌面CBCT报告生成系统CBCTRepD，通过AI生成草稿+放射科医生编辑的协作模式，在多层级临床评估中证明其可帮助初级医生达到中级水平、中级医生接近高级水平、高级医生减少遗漏。
 
 **[Bridging The Skill Gap In Clinical Cbct Interpretation With Cbctrepd](bridging_the_skill_gap_in_clinical_cbct_interpretation_with_cbctrepd.md)**
 
-:   提出 CBCTRepD——面向口腔颌面 CBCT 的双语报告生成系统，基于 7,408 例高质量配对数据集训练，通过放射科医生-AI 协作工作流，帮助不同经验水平的放射科医生系统性提升报告质量：初级→中级、中级→高级、高级减少遗漏。
+:   提出CBCTRepD——面向口腔颌面CBCT的双语报告生成系统，基于7408例高质量配对数据集训练，结合多层级评估框架验证其在放射科医生-AI协作工作流中对初级、中级、高级医生的分级赋能效果。
 
 **[Can Natural Image Autoencoders Compactly Tokenize Fmri Volumes For Long-Range Dy](can_natural_image_autoencoders_compactly_tokenize_fmri_volumes_for_long-range_dy.md)**
 
@@ -136,7 +136,7 @@ description: >-
 
 **[Cloe Expert Consistency Learning For Missing Modal](cloe_expert_consistency_learning_for_missing_modal.md)**
 
-:   将缺失模态下的鲁棒性问题重新定义为决策级专家一致性控制，提出双分支一致性学习（全局MEC+区域REC），并通过轻量门网络将一致性分数转化为模态可靠性权重用于融合。
+:   将缺失模态下的鲁棒性问题重新定义为决策级专家一致性控制，提出双分支一致性学习（全局MEC+区域REC）配合轻量门网络将一致性分数转化为模态可靠性权重，在BraTS 2020上15种缺失组合平均WT Dice达88.09%超越所有SOTA。
 
 **[Cloe Expert Consistency Learning For Missing Modality Segmentation](cloe_expert_consistency_learning_for_missing_modality_segmentation.md)**
 
@@ -176,15 +176,15 @@ description: >-
 
 **[Deep Learning Based Estimation Of Blood Glucose Le](deep_learning_based_estimation_of_blood_glucose_le.md)**
 
-:   提出 ScleraGluNet 框架，通过五个注视方向的巩膜血管图像，结合多分支 CNN + MRFO 特征优化 + Transformer 跨视角融合，实现 93.8% 三分类精度和 MAE=6.42 mg/dL 的空腹血糖估计。
+:   提出ScleraGluNet多视角深度学习框架，通过五方向巩膜血管成像结合多分支CNN+MRFO特征精炼+Transformer跨视角融合，实现93.8%代谢状态三分类精度和MAE=6.42 mg/dL的空腹血糖连续估计。
 
 **[Deep Learning Based Estimation Of Blood Glucose Levels From Multidirectional Scl](deep_learning_based_estimation_of_blood_glucose_levels_from_multidirectional_scl.md)**
 
-:   提出 ScleraGluNet，通过多方向巩膜血管图像（5 个注视方向）结合多分支 CNN + MRFO 特征优化 + Transformer 跨视角融合，实现三类代谢状态分类（93.8% 准确率）和连续血糖估计（MAE=6.42 mg/dL, r=0.983）。
+:   提出ScleraGluNet，通过5个注视方向的巩膜血管照片，用并行CNN提取方向特异性血管特征，再经MRFO特征筛选和Transformer跨视角融合，同时完成三类代谢状态分类（93.8%准确率）和空腹血糖连续估计（MAE=6.42 mg/dL, r=0.983）。
 
 **[Deep Learningbased Assessment Of The Relation Betw](deep_learningbased_assessment_of_the_relation_betw.md)**
 
-:   在 8 个标注者划分的全景口腔 X 光裁剪片上，系统对比本地学习（LL）、联邦学习（FL）和集中学习（CL）在第三磨牙-下颌管重叠二分类任务上的表现，验证 FL 作为隐私保护替代方案的可行性。
+:   在按8个独立标注者划分的全景口腔X光裁剪片上，系统对比本地学习（LL）、联邦学习（FL）和集中学习（CL）三种训练范式在第三磨牙-下颌管重叠二分类任务上的表现，验证了CL > FL > LL的性能排序（AUC分别为0.831、0.757和0.672），证明FL在保护数据隐私的前提下显著优于各站点独立训练。
 
 **[Developing Foundation Models For Universal Segment](developing_foundation_models_for_universal_segment.md)**
 
@@ -200,7 +200,7 @@ description: >-
 
 **[Diffusionbased Feature Denoising And Using Nnmf Fo](diffusionbased_feature_denoising_and_using_nnmf_fo.md)**
 
-:   将 MRI 脑肿瘤分类任务分解为 NNMF 特征提取 → 统计特征筛选 → 轻量 CNN 分类 → 特征空间扩散净化四阶段流水线，在 AutoAttack 下将鲁棒精度从基线 0.5% 提升到 59.5%。
+:   提出 NNMF 特征提取→统计特征筛选→轻量 CNN 分类→特征空间扩散净化的四阶段流水线，在干净数据上保持 85.1% 分类精度的同时，将 AutoAttack ($L_\infty$, $\epsilon=0.10$) 下的鲁棒精度从基线 0.47% 大幅提升至 59.5%。
 
 **[Echoagent Towards Reliable Echocardiography Interpretation With Eyeshands And Mi](echoagent_towards_reliable_echocardiography_interpretation_with_eyeshands_and_mi.md)**
 
@@ -224,11 +224,11 @@ description: >-
 
 **[Equivania A Spectral Method For Rotation-Equivariant Anisotropic Image Analysis](equivania_a_spectral_method_for_rotation-equivariant_anisotropic_image_analysis.md)**
 
-:   提出 EquivAnIA，一种基于 cake wavelets 和 ridge filters 的频谱方法，用于对数值旋转鲁棒的各向异性图像分析，在合成和真实图像（含 CT 扫描）上显著优于传统 angular binning 基线，并成功应用于角度图像配准任务。
+:   提出EquivAnIA，用定向滤波器族（cake wavelets和ridge filters）在频域中做带权平均来估计图像的角度分布，替代传统angular binning方法，实现对数值旋转真正鲁棒的各向异性分析，合成图像主方向估计误差仅0.03°，CT配准误差仅0.02°。
 
 **[Equivania A Spectral Method For Rotationequivarian](equivania_a_spectral_method_for_rotationequivarian.md)**
 
-:   提出EquivAnIA——基于Cake小波和Ridge滤波器的频谱方法，通过方向滤波器在傅里叶域计算角度能量分布，实现对数值旋转严格等变的各向异性图像分析，在合成和真实图像上一致优于传统角度功率谱密度方法。
+:   提出EquivAnIA频谱方法，通过Cake小波和Ridge滤波器在傅里叶域计算角度能量分布，实现对数值旋转严格鲁棒的各向异性图像分析，在合成和真实图像上均远优于传统angular PSD的分箱方法。
 
 **[Every Error Has Its Magnitude Asymmetric Mistake Severity Training For Multiclas](every_error_has_its_magnitude_asymmetric_mistake_severity_training_for_multiclas.md)**
 
@@ -236,11 +236,11 @@ description: >-
 
 **[Extending Zach-Vit To Robust Medical Imaging Corruption And Adversarial Stress T](extending_zach-vit_to_robust_medical_imaging_corruption_and_adversarial_stress_t.md)**
 
-:   在低数据医学影像场景下，对置换不变的紧凑型 ViT 架构 ZACH-ViT 进行首次鲁棒性评估，发现其在常见图像损坏下保持最佳综合表现，在对抗攻击下仍具竞争力。
+:   在低数据医学影像场景下，对置换不变的紧凑型 ViT 架构 ZACH-ViT 进行首次鲁棒性扩展评估。在 7 个 MedMNIST 数据集上，ZACH-ViT 在干净数据和常见损坏下均排名第一（Mean Rank 1.57），在 FGSM 下排名最佳（2.00），PGD 下排名第二（2.29）。
 
 **[Fair Lung Disease Diagnosis From Chest Ct Via Gend](fair_lung_disease_diagnosis_from_chest_ct_via_gend.md)**
 
-:   在 ConvNeXt 骨干上构建注意力 MIL 模型，并通过梯度反转层（GRL）对抗性地消除扫描表征中的性别信息，再配合 focal loss、子群过采样和 5-fold 集成，实现胸部 CT 四类肺疾病的公平诊断。
+:   在 ConvNeXt-Base 骨干上构建注意力 MIL 模型，用 GRL 对抗性消除扫描表示中的性别信息，配合 focal loss（$\gamma=2$）+ 标签平滑（$\varepsilon=0.1$）、子群过采样和 5-fold 集成，在 889 例胸部 CT 四类诊断中实现均值竞赛分数 0.685±0.030，女性 macro-F1（0.691）略高于男性（0.679），验证了 GRL 能有效闭合公平性差距。
 
 **[Fair Lung Disease Diagnosis From Chest Ct Via Gender-Adversarial Attention Multi](fair_lung_disease_diagnosis_from_chest_ct_via_gender-adversarial_attention_multi.md)**
 
@@ -264,7 +264,7 @@ description: >-
 
 **[Forecasting Epileptic Seizures From Contactless Ca](forecasting_epileptic_seizures_from_contactless_ca.md)**
 
-:   首次系统定义基于视频的癫痫发作预测任务，提出两阶段跨物种迁移学习框架——先在啮齿类癫痫视频上自监督预训练 VideoMAE，再在人类发作前视频上少样本微调——在纯视频设定下实现超过 72% 的均衡准确率。
+:   首次系统定义基于纯视频的癫痫发作预测（forecasting）任务（用 3-10 秒发作前片段预测未来 5 秒内是否发作），提出两阶段跨物种迁移学习框架——在啮齿类+人类混合视频上自监督预训练 VideoMAE，再在极少人类癫痫视频上做少样本微调——在 2/3/4-shot 设定下平均 bacc 达 72.30%、roc_auc 达 75.58%，超越所有视频理解 baseline。
 
 **[Forecasting Epileptic Seizures From Contactless Camera Via Cross-Species Transfe](forecasting_epileptic_seizures_from_contactless_camera_via_cross-species_transfe.md)**
 
@@ -276,11 +276,11 @@ description: >-
 
 **[Giim Graphbased Learning Of Inter And Intraview De](giim_graphbased_learning_of_inter_and_intraview_de.md)**
 
-:   提出基于多异构图 (MHG) 的 GIIM 框架，通过四类边关系建模同一病灶跨视图动态变化和不同病灶间空间关联，并设计四种缺失视图填充策略，在 CT/MRI/乳腺 X 光三种模态上均显著优于现有方法。
+:   提出 GIIM 框架，基于多异构图（MHG）通过四类边关系同时建模同一病灶跨期相动态变化和不同病灶间空间关联，并设计四种缺失视图填充策略，在肝脏 CT、乳腺 X 光和乳腺 MRI 三种模态上均显著优于现有方法。
 
 **[Gleam A Multimodal Imaging Dataset And Hamm For Gl](gleam_a_multimodal_imaging_dataset_and_hamm_for_gl.md)**
 
-:   提出首个公开三模态青光眼数据集 GLEAM（SLO 眼底图 + 环乳头 OCT + 视野偏差图，标注四个疾病阶段），以及层级注意力掩码建模 (HAMM) 框架，将跨模态自监督表示学习聚焦在编码器端，实现多模态青光眼精准分类。
+:   提出首个公开三模态青光眼数据集 GLEAM（SLO 眼底图 + 环乳头 OCT + 视野偏差图，1200例，四阶段标注），以及基于 CNN 的层级注意力掩码建模框架 HAMM，通过临床启发式的多头模态门控和关系图注意力实现跨模态融合，四分类准确率达 81.08%。
 
 **[Gleam A Multimodal Imaging Dataset And Hamm For Glaucoma Classification](gleam_a_multimodal_imaging_dataset_and_hamm_for_glaucoma_classification.md)**
 
@@ -292,7 +292,7 @@ description: >-
 
 **[Human Knowledge Integrated Multimodal Learning For](human_knowledge_integrated_multimodal_learning_for.md)**
 
-:   提出域保形界(DCB)理论框架量化域间因果因子差异，并据此设计GenEval——通过知识精炼+MedGemma-4B LoRA微调，将人类专家领域知识整合到VLM中实现单源域泛化，在8个DR和2个SOZ数据集上显著超越SOTA。
+:   提出域保形界（DCB）理论框架量化域间因果差异并定义出可优化的一致度指标SDCD，据此精炼专家知识经LoRA注入MedGemma-4B，在8个DR和2个SOZ数据集上大幅超越单源域泛化SOTA。
 
 **[Interpretable Cross-Domain Few-Shot Learning With Rectified Target-Domain Local ](interpretable_cross-domain_few-shot_learning_with_rectified_target-domain_local_.md)**
 
@@ -340,7 +340,7 @@ description: >-
 
 **[Milpf Multiple Instance Learning On Precomputed Fe](milpf_multiple_instance_learning_on_precomputed_fe.md)**
 
-:   提出MIL-PF框架，将冻结的基础视觉编码器（DINOv2/MedSigLIP）与仅40k参数的轻量级MIL聚合头结合，通过预计算特征+双流（全局组织上下文+局部病变注意力）聚合，在大规模乳腺X线分类任务上以极低训练成本达到SOTA性能。
+:   将冻结的通用基础编码器（DINOv2 ViT-Giant / MedSigLIP）与仅 ~40k 参数的轻量 MIL 聚合头结合，通过预计算特征 + 双流聚合（全局均值 + 局部 Perceiver 交叉注意力），在 EMBED 等大规模乳腺 X 线分类基准上以 5-7 分钟训练达到 SOTA（AUC 0.916, Spec@Sens=0.9 达 0.762），可训练参数比基线少 35-458 倍。
 
 **[Mind The Discriminability Trap In Source-Free Cross-Domain Few-Shot Learning](mind_the_discriminability_trap_in_source-free_cross-domain_few-shot_learning.md)**
 
@@ -364,7 +364,7 @@ description: >-
 
 **[Multimodal Classification Of Radiationinduced Cont](multimodal_classification_of_radiationinduced_cont.md)**
 
-:   提出RICE-NET，一种多模态3D ResNet-18模型，融合纵向T1加权MRI数据与放射治疗剂量分布图，在92例胶质母细胞瘤患者队列上实现F1=0.92的RICE vs 肿瘤复发自动分类，消融实验揭示放疗剂量图是最具信息量的单模态输入。
+:   提出RICE-NET，融合纵向T1加权MRI和放射治疗剂量分布图的多模态3D ResNet-18，在92例胶质母细胞瘤队列上实现F1=0.916的放射性对比增强(RICE) vs 肿瘤复发分类，消融实验揭示放疗剂量图是最关键的单模态输入(F1=0.78)。
 
 **[Multimodal Protein Language Models For Enzyme Kine](multimodal_protein_language_models_for_enzyme_kine.md)**
 
@@ -396,11 +396,11 @@ description: >-
 
 **[Novel Architecture Of Rpa In Oral Cancer Lesion De](novel_architecture_of_rpa_in_oral_cancer_lesion_de.md)**
 
-:   将软件设计模式（Singleton + Batch Processing）融入Python自动化流程，使口腔癌病变检测的推理速度相比传统RPA平台（UiPath/Automation Anywhere）提升60-100倍。
+:   本文对比了低代码 RPA 平台（UiPath、Automation Anywhere）与基于 Python 设计模式（Singleton + Batch Processing）的口腔癌检测自动化方案，后者 (OC-RPAv2) 将单图推理时间从 2.5 秒压缩到 0.06 秒，实现 60-100 倍加速。
 
 **[Novel Architecture Of Rpa In Oral Cancer Lesion Detection](novel_architecture_of_rpa_in_oral_cancer_lesion_detection.md)**
 
-:   将软件设计模式（Singleton + Batch Processing）集成到基于 EfficientNetV2B1 的口腔癌病变检测 Python 流水线中，相比传统 RPA 平台（UiPath/Automation Anywhere）实现 60-100 倍的推理加速，同时保持诊断准确性。
+:   将软件设计模式（Singleton + Batch Processing）集成到基于 EfficientNetV2B1 的口腔癌病变检测 Python 流水线中，相比传统 RPA 平台（UiPath/Automation Anywhere）实现 60-100x 推理加速（每张图 0.06s vs 2.58s），同时保持诊断准确性。
 
 **[Orapo Oracle-Educated Reinforcement Learning For Data-Efficient And Factual Radi](orapo_oracle-educated_reinforcement_learning_for_data-efficient_and_factual_radi.md)**
 
@@ -416,7 +416,7 @@ description: >-
 
 **[Prototypebased Knowledge Guidance For Finegrained](prototypebased_knowledge_guidance_for_finegrained.md)**
 
-:   提出ProtoSR，通过LLM驱动的管道从22.7万篇MIMIC-CXR自由文本报告中挖掘模板对齐的视觉原型知识库，并设计原型条件化迟融合模块将检索到的原型证据作为logit残差注入层级式结构化报告模型，在Rad-ReStruct基准上达到SOTA，在细粒度属性问题（L3）上提升最为显著（+72.1%相对提升）。
+:   提出 ProtoSR，通过 LLM 驱动的管道从 22.7 万篇 MIMIC-CXR 自由文本报告中挖掘模板对齐的视觉原型知识库，并设计原型条件化迟融合模块将检索到的原型证据作为 logit 残差注入层级式结构化报告模型，在 Rad-ReStruct 基准上达到 SOTA，L3 细粒度属性 F1 从 4.3 提升到 7.4（+72.1% 相对提升）。
 
 **[Reclaiming Lost Text Layers For Source-Free Cross-Domain Few-Shot Learning](reclaiming_lost_text_layers_for_source-free_cross-domain_few-shot_learning.md)**
 
@@ -424,7 +424,7 @@ description: >-
 
 **[Reinforcing The Weakest Links Modernizing Siena Wi](reinforcing_the_weakest_links_modernizing_siena_wi.md)**
 
-:   通过将SIENA纵向脑萎缩管线中的经典颅骨剥离(BET2)和组织分割(FAST)模块替换为深度学习方案(SynthStrip/SynthSeg)，在ADNI和PPMI两个大队列上显著增强了脑体积变化百分比(PBVC)与临床疾病进展的关联性，并将扫描顺序误差降低高达99.1%。
+:   将 SIENA 纵向脑萎缩管线中的经典颅骨剥离(BET2)和组织分割(FAST)模块定向替换为深度学习方案(SynthStrip/SynthSeg)，在 ADNI (N=1006) 和 PPMI (N=310) 两个大规模纵向队列上显著增强了 PBVC 与临床疾病进展的关联性(相关系数提升超 100%)，扫描顺序误差降低高达 99.1%。
 
 **[Reinforcing The Weakest Links Modernizing Siena With Targeted Deep Learning Inte](reinforcing_the_weakest_links_modernizing_siena_with_targeted_deep_learning_inte.md)**
 
@@ -444,7 +444,7 @@ description: >-
 
 **[Semantic Class Distribution Learning For Debiasing Semi-Supervised Medical Image](semantic_class_distribution_learning_for_debiasing_semi-supervised_medical_image.md)**
 
-:   提出 SCDL 即插即用框架，通过可学习类别代理分布的双向对齐（CDBA）和标注数据构建的语义锚约束（SAC），在嵌入空间中学习结构化的类条件特征分布，解决半监督医学图像分割中的监督偏置和表征不平衡问题，尤其在尾类分割上取得显著提升。
+:   提出即插即用的语义类分布学习框架 SCDL，通过类分布双向对齐（CDBA）学习结构化类条件特征分布 + 语义锚约束（SAC）引导代理分布对齐真实语义，解决半监督医学分割中的监督偏差和表示不平衡，在少数类分割上取得 SOTA。
 
 **[Semitooth A Generalizable Semi-Supervised Framework For Multi-Source Tooth Segme](semitooth_a_generalizable_semi-supervised_framework_for_multi-source_tooth_segme.md)**
 
@@ -468,7 +468,7 @@ description: >-
 
 **[Sparse Task Vector Mixup Wsi Prognosis](sparse_task_vector_mixup_wsi_prognosis.md)**
 
-:   STEPH 将跨癌种预后模型的任务向量进行超网络驱动的混合（TVM）+ 稀疏聚合，在单一模型内完成知识迁移，13 个 TCGA 数据集上 C-Index 平均 0.6949（+5.14% vs 癌种特定学习，+2.01% vs ROUPKT），且推理开销远低于表示迁移方案。
+:   STEPH 提出基于任务向量混合（TVM）+ 超网络驱动稀疏聚合的模型合并方案，将多个癌种特定预后模型的知识高效融入目标癌种模型，在 13 个 TCGA 数据集上 C-Index 平均 0.6949（+5.14% vs 癌种特定学习、+2.01% vs ROUPKT），且推理仅需单模型前向传播，远低于多模型表示迁移方案。
 
 **[Spegc Continual Test-Time Adaptation Via Semantic-Prompt-Enhanced Graph Clusteri](spegc_continual_test-time_adaptation_via_semantic-prompt-enhanced_graph_clusteri.md)**
 

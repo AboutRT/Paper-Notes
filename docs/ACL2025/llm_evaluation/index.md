@@ -14,21 +14,21 @@ description: >-
 
 :   提出基于保形风险控制（Conformal Risk Control）框架校准 CLIPScore 的方法——通过对 CLIP 视觉/文本编码器的注意力掩码采样生成 CLIPScore 分布，然后利用保形风险控制 (1) 检测图像描述中的干扰词（foil words），(2) 生成校准置信区间，在 FOIL-it/FOIL-nocaps/Rich-HF 基准上以简单方法达到与复杂专用方法相当的干扰词检测性能，同时提供形式化风险保证。
 
-**[MisMatched: A Benchmark for Scientific Natural Language Inference](a_mismatched_benchmark_for_scientific_natural_language_inference.md)**
+**[A Mismatched Benchmark For Scientific Natural Language Inference](a_mismatched_benchmark_for_scientific_natural_language_inference.md)**
 
-:   引入 MisMatched——首个覆盖非 CS 领域（心理学、工程、公共卫生）的科学 NLI 评估基准，2700 对人工标注句子对，最佳基线 Macro F1 仅 78.17%，且发现训练时加入隐式关系句子对可提升性能。
+:   引入 MisMatched——首个覆盖非 CS 领域（心理学、工程、公共卫生）的科学 NLI 评估基准，包含 2,700 对人工标注句子对，最佳 SLM 基线（SciBERT）Macro F1 仅 78.17%，最佳 LLM 基线（Phi-3）仅 57.16%，并证明训练时加入隐式关系句子对可提升模型性能。
 
 **[Abgen Evaluating Large Language Models In](abgen_evaluating_large_language_models_in.md)**
 
 :   提出 AbGen——首个评估 LLM 设计消融实验能力的基准（1500 条专家标注数据来自 807 篇 NLP 论文），发现最强 LLM (DeepSeek-R1) 与人类专家差距 14.4%，且 LLM-as-Judge 评分与人类评估严重不一致。
 
-**[Access Denied Inc: The First Benchmark Environment for Sensitivity Awareness](access_denied_inc_the_first_benchmark_environment_for_sensitivity_awareness.md)**
+**[Access Denied Inc The First Benchmark Environment For Sensitivity Awareness](access_denied_inc_the_first_benchmark_environment_for_sensitivity_awareness.md)**
 
-:   提出敏感性感知（Sensitivity Awareness, SA）概念——评估 LLM 是否能遵守基于角色的访问控制规则——并构建首个评估基准 Access Denied Inc：模拟企业数据库 + 多用户组权限 + 自动化问卷+半自动评分（99.9%自动），揭示模型在拒绝未授权请求和响应合法查询上的显著差异。
+:   首次形式化定义 LLM "敏感性感知"（Sensitivity Awareness）概念——评估 LLM 能否根据基于角色的访问控制（RBAC）规则决定信息是否可以提供——并构建自动化评估基准 Access Denied Inc，在 7 个主流 LLM 上发现即使数据高度结构化且规则极简，最佳模型 Grok-2 仍有 18.28% 的泄露率。
 
 **[Ad-Hoc Concept Forming In The Game Codenames As A Means For Evaluating Large Lan](ad-hoc_concept_forming_in_the_game_codenames_as_a_means_for_evaluating_large_lan.md)**
 
-:   以桌游 Codenames 作为 LLM 评测工具——LLM 分别扮演线索给出者（Spymaster）和猜测者（Field Operative），通过控制词频/歧义性/具体性/风险等级/对手速度等变量系统评估 LLM 的临时概念形成、语义关联、合作推理和语用能力，发现 o3-mini 和 Claude-3.5 领先但所有模型在高风险和抽象词条件下均显著退化。
+:   将桌游Codenames实现为LLM评测基准，LLM同时扮演线索给出者(Spymaster)和猜测者(Field Operative)，在13种不同难度实验中与确定性对手对战，14个模型中最佳(o3-mini)胜率仅49%，揭示了LLM在词汇关联、策略选择和纠错能力上的显著局限。
 
 **[Ad-Llm Benchmarking Large Language Models For Anomaly Detection](ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)**
 
@@ -40,7 +40,7 @@ description: >-
 
 **[Antileakbench Preventing Data Contamination By Automatically Constructing Benchm](antileakbench_preventing_data_contamination_by_automatically_constructing_benchm.md)**
 
-:   提出 AntiLeakBench——自动化反泄露基准框架，通过识别 LLM 知识截止后更新的真实世界新知识自动构建 QA 测试样本（而非简单收集新发布数据），确保测试知识严格不在训练集中，全自动流程无需人工标注，实验证实截止后性能普遍下降验证了数据污染的普遍存在。
+:   提出 AntiLeakBench 自动化反泄露基准框架，通过追踪 Wikidata 知识更新历史识别 LLM 截止时间后的新知识，自动构建单跳/多跳 QA 测试样本（附真实 Wikipedia 支撑文档），确保知识级严格无污染，12 个 LLM 的大规模实验证实截止后性能普遍下降（EM 跌幅显著）验证了框架有效性。
 
 **[Atomic Calibration Of Llms In Long-Form Generations](atomic_calibration_of_llms_in_long-form_generations.md)**
 
@@ -112,7 +112,7 @@ description: >-
 
 **[Elaboration Competitive Programming](elaboration_competitive_programming.md)**
 
-:   提出ELABORATION——首个全面评估人类-LLM协作竞赛编程的基准，包含覆盖编程全流程（理解→规划→编码→调试）的人类反馈分类体系和8320题精标注数据集，实验表明LLM在困难题上仅3.4% Pass@1，但人类反馈（特别是在编码阶段）可平均提升9.3%。
+:   提出首个全面评估**人类-LLM协作竞赛编程**的基准ELABORATION，通过覆盖编程全流程的人类反馈分类体系和8320题精标注数据集，揭示LLM独立解题能力有限（困难题仅3.4% Pass@1），但人类反馈（尤其编码阶段的专家反馈）可带来平均9.3%的显著提升。
 
 **[Evowiki Evaluating Llms On Evolving Knowledge](evowiki_evaluating_llms_on_evolving_knowledge.md)**
 
@@ -148,7 +148,7 @@ description: >-
 
 **[Help Write Story Feedback](help_write_story_feedback.md)**
 
-:   探索 LLM 能否为创意写作者提供有意义的写作反馈——构建包含 1300 个故意引入写作问题的故事测试集，评估常用 LLM 的写作反馈生成能力，发现模型虽能提供具体且多数准确的反馈，但常错过最重要的写作问题且不会恰当地在批评和鼓励之间切换。
+:   本文定义了"LLM 生成写作反馈"这一新任务，构建了包含 1,300 个带有受控写作缺陷的故事数据集（StoryFeedback，共 83K 对故事-反馈），通过自动指标和人工评估系统地测试了 8 个 LLM 在反馈的具体性、正确性、问题检测和正面评价适当性四个维度的表现，发现模型能给出具体且基本正确的反馈，但常常抓不住最大的写作问题，且不善于判断何时该给正面评价。
 
 **[Hpss Heuristic Prompting Strategy Search For Llm Evaluators](hpss_heuristic_prompting_strategy_search_for_llm_evaluators.md)**
 
@@ -166,9 +166,9 @@ description: >-
 
 :   构建首个面向西班牙和拉丁美洲语言的开源LLM排行榜，整合66个数据集覆盖西班牙语、加泰罗尼亚语、巴斯克语、加利西亚语，评估50个模型并分析训练策略、算力与性能的关系。
 
-**[Language Complexity Measurement as a Noisy Zero-Shot Proxy for Evaluating LLM Performance](language_complexity_measurement_as_a_noisy_zero-shot_proxy_for_evaluating_llm_pe.md)**
+**[Language Complexity Measurement As A Noisy Zero-Shot Proxy For Evaluating Llm Pe](language_complexity_measurement_as_a_noisy_zero-shot_proxy_for_evaluating_llm_pe.md)**
 
-:   探索语言复杂度指标作为 LLM 性能的零样本代理评估，发现文本复杂度与 LLM 表现负相关但噪声大，仅可作为粗略参考。
+:   利用语言复杂度计算任务（LIX 可读性指标和平均依存距离 ADD）作为 LLM 通用能力的零样本代理评估方法，在瑞典语论文上测试 6 个模型，发现 LIX 误差与 MMLU 分数呈强负相关（$r=-0.875$, $p=0.026$），表明结构分析能力可作为模型通用能力的廉价近似指标。
 
 **[Language Model Probabilities Are Not Calibrated In Numeric Contexts](language_model_probabilities_are_not_calibrated_in_numeric_contexts.md)**
 

@@ -2,99 +2,108 @@
 title: >-
   [论文解读] TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs
 description: >-
-  [视频理解] 提出 TempSamp-R1，针对视频时序定位任务改进 GRPO 强化微调框架，通过 off-policy 时间精确引导 + 非线性软优势计算 + 混合 CoT 训练，在 Charades-STA/ActivityNet/QVHighlights 上分别提升 +2.7%/+5.3%/+3.0%。
+  [NeurIPS 2025][视频理解][时序定位] 提出TempSamp-R1强化微调框架，通过混合策略采样引入GT off-policy监督、非线性软优势估计降低梯度方差、混合CoT训练支持双推理模式，Charades-STA R1@0.7达52.9%(+2.7%)、ActivityNet R1@0.5达56.0%(+5.3%)
 tags:
+  - NeurIPS 2025
   - 视频理解
+  - 时序定位
+  - 强化微调
+  - GRPO
+  - 视频大模型
+  - off-policy学习
 ---
 
 # TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs
 
-## 基本信息
-- **arXiv**: 2509.18056
-- **会议**: NeurIPS 2025
-- **作者**: Yunheng Li, Jing Cheng, Shaoyong Jia, Hangyi Kuang, Shaohui Jiao, Qibin Hou, Ming-Ming Cheng
-- **机构**: Nankai University (HVision Lab)
-- **代码**: https://github.com/HVision-NKU/TempSamp-R1
+**会议**: NeurIPS 2025  
+**arXiv**: [2509.18056](https://arxiv.org/abs/2509.18056)  
+**代码**: [github.com/HVision-NKU/TempSamp-R1](https://github.com/HVision-NKU/TempSamp-R1)  
+**领域**: 视频时序理解 / 强化微调  
+**关键词**: temporal grounding, GRPO, off-policy, soft advantage, hybrid CoT, video LLM
 
 ## 一句话总结
-提出 TempSamp-R1，针对视频时序定位任务改进 GRPO 强化微调框架，通过 off-policy 时间精确引导 + 非线性软优势计算 + 混合 CoT 训练，在 Charades-STA/ActivityNet/QVHighlights 上分别提升 +2.7%/+5.3%/+3.0%。
+提出TempSamp-R1强化微调框架，针对GRPO在视频时序定位中因搜索空间巨大而on-policy采样低效的问题，通过引入GT作为off-policy监督信号+非线性软优势估计+混合CoT训练范式，在Charades-STA/ActivityNet/QVHighlights三个基准上达到新SOTA。
 
-## 背景与动机
-R1-style 强化微调（如 GRPO）在数学推理上效果显著，但在**视频时序定位 (temporal grounding)** 上效果有限：
-- 时序定位搜索空间巨大（连续时间轴上的起止时刻对）
-- GRPO 的 on-policy 采样在大搜索空间中难以命中高奖励解
-- 奖励信号稀疏且噪声大——生成的时间段很少与 GT 高度重合
-- 纯 on-policy 更新导致策略探索不足、收敛困难
+## 研究背景与动机
+**领域现状**：MLLM在通用视频问答中表现出色，但在需要精确时序理解的任务（temporal grounding, highlight detection）上仍然困难。SFT方法容易过拟合确定性时间戳标注，缺乏时序推理能力。GRPO（DeepSeek-R1风格）在数学推理中有效，但在视频时序定位中效果受限。
 
-## 核心问题
-如何使强化微调在时序搜索空间巨大的视频理解任务中有效工作？
+**现有痛点**：(1) 视频时序定位的搜索空间巨大——需要在连续时间轴上搜索(起始, 结束)对，比离散数学答案难得多；(2) GRPO纯on-policy采样在大搜索空间中难以命中高IoU解，导致奖励稀疏且不稳定（ActivityNet上top-1 IoU奖励持续低且震荡）；(3) 引入off-policy高奖励解（如GT）会使优势估计偏倚——GT的高奖励拉高组均值，导致所有on-policy解的优势全变负。
+
+**核心矛盾**：如何在大搜索空间中有效引导策略学习精确的时序定位，同时避免off-policy引入的分布偏移？
+
+**切入角度**：将GT标注作为off-policy解混入GRPO采样组，但通过非线性奖励整形消除分布偏移对优势估计的负面影响。
 
 ## 方法详解
 
-### 1. Off-policy Temporal Supervision
-- 问题：GRPO on-policy 采样生成的时间段大多与 GT 不匹配（IoU 很低）
-- 解决：利用 GT 标注作为 **off-policy 监督**
-  - 将 GT 时间段混入采样组
-  - 提供时间精确的正例信号
-  - 弥补 on-policy 采样在大搜索空间中的稀疏性
+### 整体框架
+TempSamp-R1基于GRPO框架，对每个查询采样$G$个解（$G-1$个on-policy + 1个off-policy GT），计算IoU奖励后通过软优势估计模块转换为标准化优势值进行策略优化。训练分两阶段：先学直接输出，再引入format reward鼓励CoT推理。推理时单一模型支持CoT和non-CoT两种模式。
 
-### 2. 非线性软优势计算 (Non-linear Soft Advantage)
-- 问题：标准 GRPO 的优势函数方差大，训练不稳定
-- 解决：对 reward 反馈做**非对称变换**——动态重塑奖励分布
-  - 高奖励样本获得更大优势
-  - 低奖励样本优势被压缩而非硬截断
-  - 减少方差，提高 reward-based update 的稳定性
+### 关键设计
+1. **混合策略采样（Mix-Policy Sampling）**:
+    - 做什么：将GT标注作为off-policy解混入GRPO采样组，为时序定位提供精确的正例信号
+    - 核心思路：对每个查询$q$，从当前策略$\pi_\theta$采样$G-1$个解$\{o_1,...,o_{G-1}\}$，加入一个外部off-policy解$o_G$（来自GT标注），用联合分布计算归一化优势 $A_i = \frac{r_i - \text{mean}(\{r_1,...,r_{G-1}\} \cup \{r_G\})}{\text{std}(\{r_1,...,r_{G-1}\} \cup \{r_G\})}$。同时提出优势锚定策略 $A_G = \lambda_{\text{off}} \cdot \max\{A_i | i \in \{1,...,G-1\}\}$（$\lambda_{\text{off}}=1.2$）解耦off-policy与on-policy的优势
+    - 设计动机：GRPO纯on-policy在大搜索空间中几乎无法采到高IoU解→奖励稀疏、学习信号弱。GT提供精确的时序锚点，补偿on-policy的探索不足；但GT的高奖励会拉偏组均值，需配合软优势消除偏倚
 
-### 3. 混合 CoT 训练范式 (Hybrid Chain-of-Thought)
-- 统一模型支持 CoT 和 non-CoT 两种推理模式
-- CoT 模式：先分析视频内容再定位（适合复杂查询）
-- Non-CoT 模式：直接输出时间段（适合简单查询）
-- 训练时混合两种模式，推理时按查询复杂度选择
+2. **非线性软优势估计（Non-Linear Soft Advantage Estimation）**:
+    - 做什么：对奖励进行非对称非线性变换，压缩高奖励区域、放大低奖励区域的差异
+    - 核心思路：定义分段函数 $\tilde{r}_i = \begin{cases}\tau + \alpha_1 \cdot \ln((r_i - \tau) + 1), & r_i \geq \tau \\ \tau - \frac{e^{\alpha_2(\tau - r_i)} - 1}{e^{\alpha_2} - 1}, & r_i < \tau\end{cases}$，其中$\tau=0.8$为阈值，$\alpha_1=0.01$控制对数压缩，$\alpha_2=1$控制指数放大。对数分支抑制GT等最优解的梯度尖峰，指数分支放大次优解之间的区分度
+    - 设计动机：标准GRPO中off-policy高奖励解使所有on-policy解优势变负→高质量on-policy解被错误惩罚。非线性整形后高奖励区域被压缩、低奖励区域被放大，使梯度更有信息量、优化更稳定
 
-### 4. 奖励设计
-- 基于 IoU 的分级奖励
-- 考虑预测时间段与 GT 的重合度
-- 结合格式合规性奖励
+3. **混合CoT训练范式（Hybrid Chain-of-Thought Training）**:
+    - 做什么：训练单一模型同时支持CoT和non-CoT推理，推理时按查询复杂度选择模式
+    - 核心思路：两阶段训练——初始化阶段优化模型生成准确最终答案（non-CoT模式），随后引入format reward鼓励在`<Think>...</Think>`中生成推理步骤、在`<Answer>...</Answer>`中输出最终答案。format reward = 1（格式正确）或 0（格式不符）。推理时Mixed CoT取两种模式的最佳结果
+    - 设计动机：不同查询复杂度不同——简单查询直接输出即可，复杂查询需要推理。CoT和non-CoT互补，Mixed模式在所有指标上均优于单一模式
+
+### 损失函数 / 训练策略
+使用标准GRPO目标函数 $\mathcal{J}(\theta) = \frac{1}{G}\sum_{i=1}^{G}[\min(\frac{\pi_\theta(o_i|q)}{\pi_{\theta_{old}}(o_i|q)}A_i, \text{clip}(\cdot, 1-\epsilon, 1+\epsilon)A_i) - \beta\text{KL}(\pi_\theta||\pi_{ref})]$。采用$\pi_{\theta_{old}} = \pi_\theta$简化计算。任务奖励：时序定位用IoU奖励$R_{\text{IoU}}$，高光检测用时间戳匹配奖励$R_{\text{ts}} = \lambda_{\text{rec}} \cdot F2 + \lambda_{\text{score}} \cdot \frac{1}{1+\text{WMSE}}$。基础模型Qwen2.5-VL-7B-Instruct，4×A100 GPU，视频2 FPS采样。
 
 ## 实验关键数据
 
-### 视频时序定位 SOTA
-| 数据集 | 指标 | GRPO baseline | TempSamp-R1 | 提升 |
+### 主实验：时序理解基准SOTA对比
+| 方法 | 类型 | Charades R1@0.7 | ActivityNet R1@0.5 | QVHighlights mAP |
 |---|---|---|---|---|
-| Charades-STA | R1@0.7 | 50.2% | **52.9%** | +2.7% |
-| ActivityNet Captions | R1@0.5 | 50.7% | **56.0%** | +5.3% |
-| QVHighlights | mAP | 27.0% | **30.0%** | +3.0% |
+| TimeChat | SFT | 23.7 | — | 21.7 |
+| iMOVE | SFT | 45.3 | 50.7 | — |
+| VideoChat-R1 | RL | 50.2 | — | — |
+| TimeZero | RL | 47.9 | 47.3 | — |
+| **TempSamp-R1 (no-CoT)** | RL | 52.2 | 55.4 | **30.0** |
+| **TempSamp-R1 (CoT)** | RL | **52.9** | **56.0** | 28.3 |
+| **TempSamp-R1 Mixed CoT** | RL | **56.3** | **58.7** | 29.3 |
 
-### Few-shot 泛化
-- 有限训练数据下仍表现出色
-- 展示了强化微调的 data efficiency
+### 消融实验：各组件贡献（Charades-STA）
+| 配置 | R1@0.5 | R1@0.7 | mIoU |
+|---|---|---|---|
+| GRPO baseline | 71.7 | 50.2 | 60.8 |
+| + off-policy (reward scaling) | 72.5 | 51.1 | 61.0 |
+| + off-policy (advantage anchor) | 73.0 | 51.7 | 61.3 |
+| + off-policy (non-linear shaping) | 73.6 | 52.2 | 61.7 |
+| + hybrid CoT (Mixed) | **76.0** | **56.3** | **64.2** |
 
-## 亮点
-1. **将 R1-style RL 推广到视频理解**：首个系统性解决 GRPO 在时序定位中失效的工作
-2. **Off-policy + On-policy 混合**：利用 GT 监督弥补 on-policy 在大搜索空间中的不足
-3. **非线性优势计算**：优雅解决 reward-based update 的高方差问题
-4. **混合 CoT**：单一模型支持多种推理深度，灵活应对不同查询
-5. **3 个 SOTA**：在 3 个视频定位 benchmark 上全部超越
+### 关键发现
+- 纯on-policy GRPO在ActivityNet上top-1 IoU奖励持续低于0.3且不稳定，off-policy引导使奖励快速稳定在0.6+
+- 三种off-policy整合策略中，非线性奖励整形>优势锚定>奖励缩放
+- Mixed CoT在所有指标上超越单独CoT和non-CoT模式，mIoU提升2.1-2.5个点
+- Few-shot能力：仅用10%训练数据仍能达到GRPO全量数据的90%+性能
 
-## 局限性
-1. Off-policy 监督依赖 GT 标注，推理时无法使用
-2. 主要针对时序定位任务，对其他视频理解任务（如 VQA）的效果未验证
-3. 非线性变换的超参数可能需要任务特定调整
-4. IoU-based 奖励设计可能不适合所有时序任务
+## 亮点与洞察
+- 精确诊断了GRPO在时序定位中失效的根本原因——搜索空间大导致on-policy采样奖励稀疏
+- 非线性软优势的分段设计巧妙：对数压缩高奖励区的梯度尖峰+指数放大低奖励区的区分度
+- Mixed CoT是一个简单但有效的设计——让同一模型自适应选择推理深度
+- 将RL fine-tuning从数学推理推广到视频时序理解，验证了R1范式的跨领域潜力
 
-## 与相关工作的对比
-- **vs. GRPO (标准)**：GRPO 在时序定位中因搜索空间太大而效果差，TempSamp-R1 通过 off-policy 信号解决
-- **vs. DeepVideo-R1 (之前写过)**：DeepVideo-R1 用 R1 做视频推理，TempSamp-R1 专注时序定位
-- **vs. TimeChat/VTimeLLM**：这些方法用 SFT 做时序定位，TempSamp-R1 用 RL 微调更灵活
-- **vs. NoisyRollout (之前写过)**：NoisyRollout 在推理中加噪声提升探索，TempSamp-R1 用 off-policy sample
+## 局限性 / 可改进方向
+- Off-policy依赖GT标注——推理时无GT可用，训练时的探索策略与推理时不一致
+- 主要在时序定位任务验证，对通用视频QA的效果未知
+- 非线性变换的超参（$\tau, \alpha_1, \alpha_2$）可能需要任务特定调整
+- 仅在7B模型上验证，更大模型是否仍需off-policy引导？
 
-## 启发与关联
-- **RL 在视觉任务中的挑战**：数学推理的离散答案空间 vs. 视频定位的连续搜索空间——后者需要更精心的采样策略
-- **与 Does Thinking More Help? 的联系**：两者都关注推理过程的效率——前者发现过度思考有害，后者发现 on-policy 采样在大空间中无效
-- **Off-policy 的普适性**：在 RL-based LLM 训练中，纯 on-policy 可能不够，适度引入 off-policy 信号值得探索
+## 相关工作与启发
+- **vs TimeZero/VideoChat-R1**：这些GRPO方法仅用on-policy采样，TempSamp-R1引入off-policy信号解决稀疏奖励问题，ActivityNet上R1@0.5提升8.7个点
+- **vs SFT方法（iMOVE等）**：SFT过拟合确定性时间戳，RL微调学到更灵活的时序推理。TempSamp-R1 Mixed CoT在Charades R1@0.7上超过iMOVE 11个点
+- **启发**：在大搜索空间RL任务中，适度引入off-policy expert信号可能是普遍有效的策略；非线性奖励整形的思路可推广到其他RL fine-tuning场景
 
 ## 评分
-- 新颖性：★★★★☆ — 将 R1-style RL 推广到视频时序定位有价值
-- 技术深度：★★★★☆ — Off-policy + 非线性优势 + 混合 CoT 设计完整
-- 实验完整度：★★★★☆ — 3 benchmark SOTA + few-shot 评估
-- 写作质量：★★★★☆ — 问题分析到位
+- 新颖性: ⭐⭐⭐⭐ 将R1-style RL推广到视频时序定位有价值，off-policy + 软优势组合设计新颖
+- 实验充分度: ⭐⭐⭐⭐ 3个benchmark SOTA + 详细消融 + few-shot评估
+- 写作质量: ⭐⭐⭐⭐ 问题分析到位，动机-方案逻辑链清晰
+- 价值: ⭐⭐⭐⭐ 为视频时序理解提供了实用的RL微调框架，Mixed CoT设计可复用

@@ -24,7 +24,7 @@ description: >-
 
 **[Phase-Net Physics-Grounded Harmonic Attention System For Efficient Remote Photop](phase-net_physics-grounded_harmonic_attention_system_for_efficient_remote_photop.md)**
 
-:   从 Navier-Stokes 方程出发推导 rPPG 信号的二阶阻尼谐振子模型，证明其离散解等价于因果卷积，为使用 TCN 提供物理理论依据，设计轻量 PHASE-Net 实现 SOTA。
+:   从Navier-Stokes方程出发，通过严格数学推导揭示rPPG脉搏信号遵循二阶阻尼谐振子模型，其离散解形式等价于因果卷积算子，从而为TCN架构的选择提供了第一性原理依据，设计出仅0.29M参数的PHASE-Net在多个数据集上达到SOTA。
 
 **[Physskin Real-Time And Generalizable Physics-Based Animation Via Self-Supervised](physskin_real-time_and_generalizable_physics-based_animation_via_self-supervised.md)**
 

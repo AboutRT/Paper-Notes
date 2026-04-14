@@ -40,7 +40,7 @@ description: >-
 
 **[Generalization Bounds For Semi-Supervised Matrix Completion With Distributional ](generalization_bounds_for_semi-supervised_matrix_completion_with_distributional_.md)**
 
-:   提出半监督矩阵补全的理论框架：假设采样分布 $P$ 与真实矩阵 $G$ 共享低秩子空间，利用大量无标签隐式反馈估计子空间、少量有标签显式反馈恢复矩阵，证明泛化误差可分解为两个独立项 $\widetilde{O}(\sqrt{(m+n)r/M} + \sqrt{dr/N})$。
+:   提出首个半监督矩阵补全学习范式：假设采样分布 $P$ 和真实矩阵 $G$ 共享低秩子空间，给定大量未标注数据 $M$ 和少量标注数据 $N$，证明泛化误差可分解为 $\tilde{O}(\sqrt{nd/M}) + \tilde{O}(\sqrt{dr/N})$ 两个独立项，在 Douban 和 MovieLens 数据集上显著优于仅用显式反馈的基线。
 
 **[Inference-Aware Prompt Optimization For Aligning Black-Box Large Language Models](inference-aware_prompt_optimization_for_aligning_black-box_large_language_models.md)**
 
@@ -76,7 +76,7 @@ description: >-
 
 **[Slidetailor Personalized Presentation Slide Generation For Scientific Papers](slidetailor_personalized_presentation_slide_generation_for_scientific_papers.md)**
 
-:   提出 SlideTailor，一个受人类行为启发的 agentic 框架，通过从用户提供的论文-幻灯片示例对和 .pptx 模板中蒸馏隐式偏好，渐进式生成个性化、可编辑的学术论文幻灯片，并引入 chain-of-speech 机制提升内容与口头叙述的对齐。
+:   定义了偏好引导的论文到幻灯片生成新任务，提出 SlideTailor 框架：从用户提供的论文-幻灯片样例对中蒸馏内容偏好、从 .pptx 模板蒸馏美学偏好，通过 chain-of-speech 机制将幻灯片内容与预期口述叙事对齐，在自建 PSP 基准上以 75.8% 的综合得分和 81.63% 的人评胜率显著超越现有方法。
 
 **[Tokenize Once Recommend Anywhere Unified Item Tokenization For Multi-Domain Llm-](tokenize_once_recommend_anywhere_unified_item_tokenization_for_multi-domain_llm-.md)**
 
@@ -88,7 +88,7 @@ description: >-
 
 **[Wavelet Enhanced Adaptive Frequency Filter For Sequential Re](wavelet_enhanced_adaptive_frequency_filter_for_sequential_re.md)**
 
-:   提出WEARec模型结合动态频域滤波(DFF)和小波特征增强(WFE)两个模块，分别捕获个性化全局频域信息和增强非平稳短期波动，在四个公开数据集上超越频域推荐SOTA基线，长序列场景提升可达11.4%。
+:   提出WEARec模型，通过动态频域滤波（DFF）根据用户上下文自适应调整频域滤波器捕获个性化全局偏好，并用小波特征增强（WFE）弥补全局DFT模糊短期波动的缺陷，在四个数据集上超越全部9个基线，长序列场景最高提升11.4%且训练速度快39-45%。
 
 **[When Top-Ranked Recommendations Fail Modeling Multi-Granular Negative Feedback F](when_top-ranked_recommendations_fail_modeling_multi-granular_negative_feedback_f.md)**
 

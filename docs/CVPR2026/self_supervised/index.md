@@ -40,7 +40,7 @@ description: >-
 
 **[Representation Learning For Spatiotemporal Physica](representation_learning_for_spatiotemporal_physica.md)**
 
-:   通过在三个PDE物理系统（活性物质、剪切流、Rayleigh-Bénard对流）上对比JEPA、VideoMAE、MPP和DISCO，发现隐空间预测方法(JEPA)在物理参数估计任务上全面优于像素级预测方法(MAE/自回归模型)，MSE平均改善30-50%。
+:   在三个 PDE 物理系统（活性物质、剪切流、Rayleigh-Bénard 对流）上系统比较四种自监督/物理建模方法，发现隐空间预测（JEPA）在物理参数估计任务上全面优于像素级预测（VideoMAE）——MSE 相对改善 28%~51%，且 10% 微调数据即可超越 VideoMAE 的 100% 数据表现。同时，专为物理建模设计的方法并非总是最优选择。
 
 **[Representation Learning For Spatiotemporal Physical Systems](representation_learning_for_spatiotemporal_physical_systems.md)**
 
@@ -64,7 +64,7 @@ description: >-
 
 **[Text-Phase Synergy Network With Dual Priors For Unsupervised Cross-Domain Image ](text-phase_synergy_network_with_dual_priors_for_unsupervised_cross-domain_image_.md)**
 
-:   利用文本语义先验和相位结构先验的协同实现无监督跨域图像检索
+:   提出TPSNet，将CLIP学习的域提示（domain prompt）作为文本先验提供精细语义监督，同时引入相位谱特征作为相位先验来桥接域分布差异并保持语义完整性，通过文本-相位双先验的协同实现无监督跨域图像检索的显著提升。
 
 **[Trackmae Video Representation Learning Via Track Mask And Predict](trackmae_video_representation_learning_via_track_mask_and_predict.md)**
 

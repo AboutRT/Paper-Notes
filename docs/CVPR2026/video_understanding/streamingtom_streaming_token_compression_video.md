@@ -2,84 +2,113 @@
 title: >-
   [论文解读] StreamingTOM: Streaming Token Compression for Efficient Video Understanding
 description: >-
-  [CVPR 2026][视频理解][流式视频理解] 针对流式视频 VLM 面临的因果性（无法访问未来帧）和累积性（token 无界增长）两个约束，提出 StreamingTOM——一个免训练、即插即用的两阶段框架，通过因果时序缩减（减少 pre-LLM prefill）和在线量化记忆（4-bit KV-cache 存储+按需检索反量化），实现 15.7× KV-cache 压缩比、较 SOTA LiveVLM 降低 1.2× 峰值内存和 2× 更快 TTFT，在离线基准平均 63.8% 和流式基准 RVS 55.8% 达到免训练方法 SOTA。
+  [CVPR 2026][视频理解][流式视频VLM] 针对流式视频VLM的因果性和累积性约束，提出免训练两阶段框架，通过因果时序缩减和在线量化记忆实现15.7倍KV-cache压缩和2倍TTFT加速
 tags:
   - CVPR 2026
   - 视频理解
-  - 流式视频理解
+  - 流式视频
   - token压缩
   - KV-cache优化
   - 因果时序缩减
-  - 4-bit量化记忆
+  - 量化记忆
 ---
 
 # StreamingTOM: Streaming Token Compression for Efficient Video Understanding
 
 **会议**: CVPR 2026  
 **arXiv**: [2510.18269](https://arxiv.org/abs/2510.18269)  
-**代码**: 有项目页面  
+**代码**: [项目页](https://yige24.github.io/StreamingTOM)  
 **领域**: 多模态VLM / 视频理解  
 **关键词**: 流式视频理解, token压缩, KV-cache优化, 因果时序缩减, 4-bit量化记忆  
 
 ## 一句话总结
-针对流式视频 VLM 面临的因果性（无法访问未来帧）和累积性（token 无界增长）两个约束，提出 StreamingTOM——一个免训练、即插即用的两阶段框架，通过因果时序缩减（减少 pre-LLM prefill）和在线量化记忆（4-bit KV-cache 存储+按需检索反量化），实现 15.7× KV-cache 压缩比、较 SOTA LiveVLM 降低 1.2× 峰值内存和 2× 更快 TTFT，在离线基准平均 63.8% 和流式基准 RVS 55.8% 达到免训练方法 SOTA。
 
-## 背景与动机
-流式视频理解与离线处理根本不同：(1) **因果性约束**——只能看到已有帧，不能利用未来帧信息；(2) **累积性约束**——随着时间推移，token 数量无界增长导致内存和延迟不断恶化。现有方法主要在 LLM 后端控制 KV-cache（如 eviction 策略），但忽略了 LLM 前端的 prefill 开销——每一帧都需要处理大量视觉 token 的前向传播，这是延迟的主要来源。
+首个同时解决流式视频VLM中pre-LLM prefill和post-LLM KV-cache两个效率瓶颈的免训练框架，实现15.7倍压缩和有界活跃内存。
 
-## 核心问题
-如何在因果约束下同时解决 pre-LLM prefill 和 post-LLM KV-cache 两个效率瓶颈，实现有界活跃内存的实时流式视频理解？
+## 研究背景与动机
+
+**流式视频理解与离线处理有根本区别**：面临两个独特约束——(1) 因果性：只能看到已有帧，无法利用未来帧；(2) 累积性：token数量随时间无界增长，内存和延迟不断恶化。以LLaVA-OV-7B为例，处理1小时视频的KV-cache达18.8GB，远超GPU容量。
+
+**现有免训练方法只管post-LLM的KV-cache**（如eviction策略），但完全忽略了pre-LLM的prefill开销——每帧所有 $N$ 个视觉token都需经过完整transformer前向传播，这是延迟主要来源。更关键的是，现有离线token压缩方法需利用全局/未来帧信息，**违反了流式场景的因果约束**。
+
+**因此，因果约束下的pre-LLM token缩减与post-LLM内存管理的联合优化是未被探索的关键问题**。核心洞察：有效的流式压缩必须在LLM之前、在严格因果约束下进行——post-LLM方法无法减少已产生的prefill计算。
 
 ## 方法详解
 
 ### 整体框架
-两阶段免训练框架：Stage 1（Causal Temporal Reduction）处理 pre-LLM 瓶颈，Stage 2（Online Quantized Memory）处理 post-LLM 瓶颈。
+
+两阶段免训练框架：Stage 1 因果时序缩减（CTR）处理pre-LLM瓶颈——将每帧 $N$ 个token缩减为固定预算 $G$ 个；Stage 2 在线量化记忆（OQM）处理post-LLM瓶颈——将KV-cache以4-bit存储并按需检索。两者通过帧对齐的group抽象协调。
 
 ### 关键设计
 
-1. **因果时序缩减（Causal Temporal Reduction）**: 对每帧施加固定的 token 预算上限。Token 选择基于两个信号：(a) 相邻帧间的变化量——只保留有显著变化的区域对应的 token；(b) token 显著性——保留高信息量的 token。通过只处理每帧的紧凑 token 子集，大幅降低 per-frame prefill 成本，确保可预测的延迟。
+1. **因果时序缩减（CTR）**:
 
-2. **在线量化记忆（Online Quantized Memory）**: 将 KV-cache 中的 token 以 4-bit 格式存储，按需检索相关 token 组并反量化。关键特性：(a) 活跃 KV-cache 大小有上界，不随视频流长度无限增长；(b) 4-bit 量化大幅减少内存占用但保持足够精度；(c) 按需检索避免一次性加载全部历史记忆。
+    - 做什么：在严格因果约束下将每帧视觉token从 $N$ 压缩到固定预算 $G$
+    - 核心思路：只用相邻两帧窗口，通过余弦相似度将token分为静态/动态集合，按比例分配预算。静态token用DPC聚类合并，动态token按注意力显著性选择
+    - 设计动机：固定预算 $G$ 保证可预测延迟；自适应分配让静止场景多压缩、运动场景多保留
 
-3. **即插即用、免训练**: 不需要重新训练模型，可以直接应用于现有 VLM 上。
+2. **在线量化记忆（OQM）**:
+
+    - 做什么：将post-LLM的KV-cache以4-bit格式存储，按需检索反量化
+    - 核心思路：保留帧对齐group结构（每组 $G$ 个token对应一帧），查询时检索最相关的 $k$ 个group反量化为FP16参与注意力计算。活跃KV-cache有上界，不随视频长度增长
+    - 设计动机：4-bit量化降存储4倍；group级检索保持时序完整性，避免token碎片化
+
+3. **统一压缩比分析**:
+
+    - 做什么：量化端到端压缩效果
+    - 核心思路：prefill从 $O(TNLd^2)$ 降到 $O(TGLd^2)$，存储从 $O(TN \cdot d \cdot 16)$ bit降到 $O(TG \cdot d \cdot 4)$ bit，组合压缩比 $4N/G \approx 15.7\times$（$N=196, G=50$）
+    - 设计动机：预算 $G$ 同时控制计算和存储，实现双重压缩
 
 ### 损失函数 / 训练策略
-完全免训练方法，无需任何额外训练或微调。
+
+完全免训练方法，可直接应用于现有VLM（如LLaVA-OV-7B）。
 
 ## 实验关键数据
 
-| 指标 | StreamingTOM | 对比 |
-|------|-------------|------|
-| KV-cache 压缩比 | **15.7×** | - |
-| 峰值内存 vs LiveVLM | **1.2× 更低** | LiveVLM 是之前 SOTA |
-| TTFT (首token时延) vs LiveVLM | **2× 更快** | - |
-| 离线基准平均准确率 | **63.8%** | 免训练方法 SOTA |
-| RVS 流式基准准确率 | **55.8%** | 免训练方法 SOTA |
-| RVS 流式基准得分 | **3.7** | 免训练方法 SOTA |
+### 主实验
 
-## 亮点
-- **同时解决 pre-LLM 和 post-LLM 瓶颈**：之前方法只管 KV-cache eviction（post-LLM），StreamingTOM 首次在 pre-LLM prefill 层面也做优化
-- **有界活跃内存**：活跃 KV-cache 大小不随视频长度增长，理论上可以处理无限长视频流
-- **免训练即插即用**：不需要重训练，可直接应用于开源 VLM
-- **实际效率提升显著**：15.7× 压缩比和 2× TTFT 加速，对实时部署有重要意义
+| 指标 | StreamingTOM | LiveVLM (之前SOTA) | 提升 |
+|------|-------------|-------------------|------|
+| KV-cache压缩比 | 15.7× | - | - |
+| 峰值内存 | - | - | 1.2×更低 |
+| TTFT | - | - | 2×更快 |
+| 离线平均准确率 | 63.8% | ~61% | +2.8% |
+| RVS准确率 | 55.8% | ~54% | +1.8% |
+
+### 消融实验
+
+| 配置 | 关键指标 | 说明 |
+|------|---------|------|
+| 仅CTR | 内存未控 | prefill加速但KV-cache仍无界 |
+| 仅OQM | 延迟未改 | 存储压缩但prefill不变 |
+| CTR+OQM | 双优 | 两阶段缺一不可 |
+| 不同预算G | G=50最优 | G过低损精度，G过高压缩不足 |
+
+### 关键发现
+
+- 1小时视频KV-cache从18.8GB降到1.2GB，有界增长使无限长视频流理论上可行
+- CTR的双路处理关键：纯聚类或纯选择都不如混合策略
+- 在离线和流式基准上同时达到免训练方法SOTA
+
+## 亮点与洞察
+
+- 核心贡献在于识别"pre-LLM和post-LLM是两个独立瓶颈需分别解决"这一洞察。帧对齐group抽象连接两阶段，使token缩减和存储优化解耦但协调——设计优雅且有实际意义。
 
 ## 局限性 / 可改进方向
-- 4-bit 量化可能在极端精度要求场景下引入质量损失
-- 基于相邻帧变化的 token 选择可能在快速运动场景下遗漏重要信息
-- 仅基于摘要分析，具体的两阶段交互细节需参阅原文
 
-## 与相关工作的对比
-- **vs LiveVLM**: LiveVLM 只做 KV-cache 管理（post-LLM），StreamingTOM 同时优化 pre-LLM 和 post-LLM，内存更低速度更快
-- **vs FastV / TokenPacker**: 这些方法关注单张图像的 token 压缩，StreamingTOM 专注于流式视频场景的时序累积问题
-- **vs Video-LLM token pruning**: 大多数方法是离线的（可以看全部帧），StreamingTOM 是因果的（只看已有帧）
+- 4-bit量化在极端精度要求场景可能引入质量损失
+- 基于相邻帧余弦相似度的分类在快速运动场景可能遗漏关键变化
+- 固定预算G不随内容复杂度自适应
+- 未在训练式方法上验证CTR/OQM作为即插即用模块的效果
 
-## 启发与关联
-- 因果时序缩减的思想可以推广到其他流式多模态任务（如实时对话、直播分析）
-- 4-bit 量化记忆 + 按需检索的设计可以与 RAG 类似的 VLM 长文本/长视频处理方法结合
-- 对视频 VLM 的部署落地有直接指导意义
+## 相关工作与启发
+
+- **vs LiveVLM**: 只做KV-cache管理（post-LLM），StreamingTOM首次在pre-LLM层面也做优化
+- **vs FastV/TokenPacker**: 面向单图像/离线视频，需全局信息，不满足流式因果约束
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ 首次同时地处两个层面的效率瓶颈，4-bit 量化记忆设计新颖
-- 实验充分度: ⭐⭐⭐⭐ 离线和流式基准都达到免训练 SOTA，效率指标全面
-- 写作质量: ⭐⭐⭐⭐ 摘要清晰，问题定义明确
-- 价值: ⭐⭐⭐⭐⭐ 解决了流式视频 VLM 的实际部署痛点，实用价值极高
+
+- 新颖性: ⭐⭐⭐⭐ 首次同时解决双层效率瓶颈，因果token缩减+4-bit量化记忆结合新颖
+- 实验充分度: ⭐⭐⭐⭐ 离线和流式基准均SOTA，效率指标全面
+- 写作质量: ⭐⭐⭐⭐ 问题定义清晰，数学推导完整
+- 价值: ⭐⭐⭐⭐⭐ 解决流式视频VLM实际部署核心痛点

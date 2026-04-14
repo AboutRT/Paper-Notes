@@ -24,7 +24,7 @@ description: >-
 
 **[Bilevel Lora Real Image Dehazing](bilevel_lora_real_image_dehazing.md)**
 
-:   提出H2C文本引导无监督损失（利用CLIP将去雾重构为语义对齐问题）和BiLaLoRA双层优化策略（自动搜索最佳LoRA注入层），实现高效且即插即用的合成到真实域去雾适配。
+:   利用CLIP跨模态能力将去雾重构为语义对齐问题（H2C损失），并通过双层优化自动搜索最佳LoRA注入层（BiLaLoRA），实现即插即用的高效合成到真实域去雾适配。
 
 **[Bipremanip Learning Affordance-Based Bimanual Preparatory Manipulation Through A](bipremanip_learning_affordance-based_bimanual_preparatory_manipulation_through_a.md)**
 
@@ -100,7 +100,7 @@ description: >-
 
 **[L2Gtx From Local To Global Time Series Explanation](l2gtx_from_local_to_global_time_series_explanation.md)**
 
-:   提出L2GTX——一种完全模型无关的方法，通过LOMATCE提取参数化时间事件原语的局部解释，再经层次聚类合并、贪心预算选择和事件聚合，生成紧凑且忠实的类级全局时间序列解释，在6个UCR数据集上全局忠实度（R²）在不同合并粒度下保持稳定（FCN上ECG200达0.792）。
+:   提出 L2GTX——完全模型无关的局部到全局时间序列解释方法，以参数化事件原语(递增/递减趋势、局部极值)为解释单元，经层次聚类合并、贪心预算选择和属性统计聚合，在 6 个 UCR 数据集上生成紧凑忠实的类级全局解释(FCN上ECG200 GF=0.792)。
 
 **[L2Gtx From Local To Global Time Series Explanations](l2gtx_from_local_to_global_time_series_explanations.md)**
 
@@ -152,7 +152,7 @@ description: >-
 
 **[Referencefree Image Quality Assessment For Virtual](referencefree_image_quality_assessment_for_virtual.md)**
 
-:   构建了大规模人工标注虚拟试穿质量数据集VTON-QBench（62,688张图像，431,800条标注），并提出VTON-IQA无参考质量评估框架，通过交错交叉注意力模块实现与人类感知高度对齐的图像级质量预测。
+:   构建 VTON-QBench（62,688 张试穿图像、13,838 名合格标注者、431,800 条标注）并提出 VTON-IQA 无参考质量评估框架，通过非对称交错交叉注意力（ICA）模块联合建模服装保真度和人物保持度，实现与人类感知高度对齐的图像级质量预测。
 
 **[Rethinking Concept Bottleneck Models From Pitfalls To Solutions](rethinking_concept_bottleneck_models_from_pitfalls_to_solutions.md)**
 
@@ -176,7 +176,7 @@ description: >-
 
 **[Team Ras In 10Th Abaw Competition Multimodal Valen](team_ras_in_10th_abaw_competition_multimodal_valen.md)**
 
-:   提出三模态连续VA估计方法，首次将VLM(Qwen3-VL-4B)生成的情感行为描述嵌入作为独立模态，与GRADA人脸编码器和WavLM音频特征通过两种融合策略(DCMMOE和RAAV)组合，在Aff-Wild2上达到CCC 0.658(dev)/0.62(test)。
+:   首次将 VLM（Qwen3-VL-4B-Instruct）提取的情感行为描述嵌入作为独立第三模态，与 GRADA 人脸编码器和 WavLM 音频特征通过 DCMMOE 和 RAAV 两种融合策略组合，在 Aff-Wild2 上达到连续 VA 估计 CCC 0.658（dev）/ 0.62（test），验证了 VLM 行为语义对连续情感识别的价值。
 
 **[Team Ras In 10Th Abaw Competition Multimodal Valence And Arousal Estimation Appr](team_ras_in_10th_abaw_competition_multimodal_valence_and_arousal_estimation_appr.md)**
 

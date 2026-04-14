@@ -76,7 +76,7 @@ description: >-
 
 **[Continuous Visual Autoregressive Generation Via Score Maximization](continuous_visual_autoregressive_generation_via_score_maximization.md)**
 
-:   提出连续视觉自回归（Continuous VAR）框架——基于严格适当评分规则（strictly proper scoring rules）的理论，用能量分数（energy score）作为训练目标，实现不需要向量量化的连续 token 自回归图像生成。
+:   提出连续视觉自回归框架——基于严格适当评分规则理论，用能量分数作为无似然训练目标，替代向量量化实现连续token自回归图像生成，EAR-H达到FID 1.97且推理速度比扩散损失方法MAR快约10倍。
 
 **[Dctdiff Intriguing Properties Of Image Generative Modeling In The Dct Space](dctdiff_intriguing_properties_of_image_generative_modeling_in_the_dct_space.md)**
 
@@ -240,7 +240,7 @@ description: >-
 
 **[Local Manifold Approximation And Projection For Manifold-Aware Diffusion Plannin](local_manifold_approximation_and_projection_for_manifold-aware_diffusion_plannin.md)**
 
-:   提出LoMAP——训练无关的扩散规划修正方法，通过在每个反向扩散步将引导后的样本投影到由离线数据近邻构建的局部低秩子空间上，防止不可行轨迹生成，在AntMaze等长horizon稀疏奖励任务上显著提升可靠性。
+:   提出LoMAP——训练无关的扩散规划修正方法，在每个反向扩散步将引导后样本投影到由离线数据近邻构建的局部低秩子空间上，防止不可行轨迹生成，理论证明引导误差随维度以 $O(\sqrt{d})$ 增长。
 
 **[Localizing And Mitigating Memorization In Image Autoregressive Models](localizing_and_mitigating_memorization_in_image_autoregressive_models.md)**
 
@@ -396,7 +396,7 @@ description: >-
 
 **[Synthetic Perception Can Generated Images Unlock Latent Visual Prior For Text-Ce](synthetic_perception_can_generated_images_unlock_latent_visual_prior_for_text-ce.md)**
 
-:   系统研究T2I模型生成的图像能否作为"合成感知"增强纯文本推理：在文本分类框架中评估了T2I模型质量/提示策略/融合架构的影响，发现即使增强Llama-3/Qwen-2.5等强LLM也可获得显著提升，但效果高度依赖语义对齐和任务的视觉可接地性。
+:   系统研究"合成感知"——利用T2I模型为纯文本数据即时生成合成图像作为互补模态，通过三阶段评估框架（生成→融合→评估）证明该策略在讽刺检测和隐式情感分析等困难任务上可为Llama-3/Qwen-2.5等强LLM带来显著提升（+3.9% Acc），但在简单事实分类任务上增益边际。
 
 **[Taming Diffusion For Dataset Distillation With High Representativeness](taming_diffusion_for_dataset_distillation_with_high_representativeness.md)**
 

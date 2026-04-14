@@ -32,7 +32,7 @@ description: >-
 
 **[Aden Adaptive Density Representations For Sparseview Camera](aden_adaptive_density_representations_for_sparseview_camera.md)**
 
-:   ADen提出生成器-判别器框架统一位姿回归和概率位姿估计：生成器输出多个6DoF位姿假设来建模多模态分布（处理对称歧义），判别器选出最佳假设，在稀疏视角位姿估计上同时实现了更高精度和更低运行时间。
+:   提出ADen框架，通过生成器输出多个位姿假设+判别器评分选择最佳的方式，统一了位姿回归和概率估计范式，仅需500个自适应样本即超越需要500K均匀采样的方法，同时实现实时推理。
 
 **[Alignist Cad-Informed Orientation Distribution Estimation By Fusing Shape And Co](alignist_cad-informed_orientation_distribution_estimation_by_fusing_shape_and_co.md)**
 

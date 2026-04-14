@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 LLM评测方向 35篇论文解读
+  ICML2025 LLM评测方向 38篇论文解读
 description: >-
-  35篇ICML2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  38篇ICML2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**🧪 ICML2025** · 共 **35** 篇
+**🧪 ICML2025** · 共 **38** 篇
 
 **[Are Llm Belief Updates Consistent With Bayes Theorem](are_llm_belief_updates_consistent_with_bayes_theorem.md)**
 
@@ -30,6 +30,10 @@ description: >-
 
 :   提出 Cross-regularization（交叉正则化），通过验证集梯度直接优化正则化参数（权重范数、噪声尺度、增强强度），在单次训练中收敛到交叉验证最优解，消除手动调参需求。
 
+**[Dilqr Differentiable Iterative Linear Quadratic Regulator Via Implicit Different](dilqr_differentiable_iterative_linear_quadratic_regulator_via_implicit_different.md)**
+
+:   本文提出 DiLQR 框架，通过在 iLQR 控制器的不动点上施加隐式微分，得到解析梯度解，将反向传播的计算复杂度从随迭代数线性增长降为 $O(1)$ 常数，实现最高 128× 加速，同时学习性能比传统神经网络策略提升 $10^6$ 倍。
+
 **[Disentangling And Integrating Relational And Sensory Information In Transformer ](disentangling_and_integrating_relational_and_sensory_information_in_transformer_.md)**
 
 :   本文提出了 Dual Attention Transformer（DAT），通过在标准注意力机制中引入"关系注意力"头，将感知信息和关系信息解耦后并行处理再整合，在关系推理基准、数学问题求解、图像识别和语言建模等任务上均展现出显著的数据效率和参数效率提升。
@@ -48,7 +52,7 @@ description: >-
 
 **[Feedforward Few-Shot Species Range Estimation](feedforward_few-shot_species_range_estimation.md)**
 
-:   提出前馈式少样本物种分布估计方法：输入少量观测位置+可选元数据，一次前传输出物种编码用于预测未见物种的空间分布，比迭代优化方法快orders of magnitude且SOTA。
+:   提出 FS-SINR（Few-shot Spatial Implicit Neural Representations），一种基于 Transformer 的前馈式少样本物种分布估计模型，无需针对新物种重新训练即可从少量观测位置（甚至零个）一次前传预测空间分布，在 IUCN 和 S&T 基准上以 2-6% 的计算时间超越 LE-SINR 等需要重新训练的方法。
 
 **[Fully Heteroscedastic Count Regression With Deep Double Poisson Networks](fully_heteroscedastic_count_regression_with_deep_double_poisson_networks.md)**
 
@@ -120,7 +124,11 @@ description: >-
 
 **[Position Ai Evaluation Should Learn From How We Test Humans](position_ai_evaluation_should_learn_from_how_we_test_humans.md)**
 
-:   提出将人类心理测量学中的自适应测试范式引入AI评估，通过估计测试题目特征（难度/区分度/猜测因子）实现更高效、可靠的模型能力评估。
+:   提出将人类心理测量学中的自适应测试范式系统性引入AI评估，通过估计题目特征（难度/区分度/猜测因子）实现高效、可靠的模型能力评估，仅需3%的题目即可准确重建完整benchmark分数。
+
+**[Promoting Ensemble Diversity With Interactive Bayesian Distributional Robustness](promoting_ensemble_diversity_with_interactive_bayesian_distributional_robustness.md)**
+
+:   提出IBDR贝叶斯推断框架，通过在乘积分布空间上引入交互式损失和Wasserstein分布鲁棒性优化，构建兼顾多样性与低锐度的粒子集成，在VTAB-1K上以ViT-B/16实现73.6%平均准确率超越所有基线。
 
 **[Provably Cost-Sensitive Adversarial Defense Via Randomized Smoothing](provably_cost-sensitive_adversarial_defense_via_randomized_smoothing.md)**
 
@@ -145,6 +153,10 @@ description: >-
 **[The Best Of Both Worlds Bridging Quality And Diversity In Data Selection With Bi](the_best_of_both_worlds_bridging_quality_and_diversity_in_data_selection_with_bi.md)**
 
 :   提出 GraphFilter 方法，将 SFT 数据集建模为句子-n-gram 的二部图，通过乘法优先级函数同时优化数据质量和多样性，在 3 个模型 6 个基准上全面超越 9 种基线方法。
+
+**[Ui-Evol Automatic Knowledge Evolving For Computer Use Agents](ui-evol_automatic_knowledge_evolving_for_computer_use_agents.md)**
+
+:   提出UI-Evol即插即用模块，通过Retrace（从截图还原实际动作序列）和Critique（对比外部知识诊断偏差并修正）两阶段自主进化GUI任务知识，在OSWorld基准上将Agent S2的成功率从19.5%提升到22%+，同时将行为标准差降低约4倍，显著增强了计算机操作代理的可靠性。
 
 **[Unlocking Post-Hoc Dataset Inference With Synthetic Data](unlocking_post-hoc_dataset_inference_with_synthetic_data.md)**
 

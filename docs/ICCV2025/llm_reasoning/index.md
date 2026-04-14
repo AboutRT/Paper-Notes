@@ -12,7 +12,7 @@ description: >-
 
 **[Corvid Improving Multimodal Large Language Models Towards Ch](corvid_improving_multimodal_large_language_models_towards_ch.md)**
 
-:   提出Corvid，通过混合视觉编码器+GateMixer连接器增强视觉表示、MCoT-Instruct-287K高质量CoT指令数据集+两阶段CoT训练增强推理能力、以及推理时自验证策略避免过度/不足推理，在数学推理和科学问题解决上超越同规模o1-like MLLM。
+:   提出Corvid MLLM，通过混合视觉编码器(SigLIP+ConvNeXt)+GateMixer门控连接器+MCoT-Instruct-287K高质量CoT数据+推理时自验证策略，三阶段训练实现超越同规模o1-like模型的CoT推理能力。
 
 **[Corvid Improving Multimodal Large Language Models Towards Chain-Of-Thought Reaso](corvid_improving_multimodal_large_language_models_towards_chain-of-thought_reaso.md)**
 

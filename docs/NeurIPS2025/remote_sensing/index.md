@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 遥感方向 9篇论文解读
+  NeurIPS2025 遥感方向 10篇论文解读
 description: >-
-  9篇NeurIPS2025 遥感方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  10篇NeurIPS2025 遥感方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**🧠 NeurIPS2025** · 共 **9** 篇
+**🧠 NeurIPS2025** · 共 **10** 篇
 
 **[C3Po Cross-View Cross-Modality Correspondence By Pointmap Prediction](c3po_cross-view_cross-modality_correspondence_by_pointmap_prediction.md)**
 
@@ -16,27 +16,31 @@ description: >-
 
 **[Chamaevit Unifying Channelaware Masked Autoencoders And Mult](chamaevit_unifying_channelaware_masked_autoencoders_and_mult.md)**
 
-:   提出 ChA-MAEViT，通过动态通道-patch 联合掩码、记忆 token、混合 token 融合和通道感知解码器四个策略增强多通道成像（MCI）中的跨通道交互学习，在卫星和显微镜数据集上超越 SOTA MCI-ViT 方法 3.0-21.5%。
+:   提出ChA-MAEViT，通过动态通道-patch联合掩码、记忆token、混合token融合和通道感知解码器四大组件增强多通道图像（MCI）的跨通道特征学习，在卫星和显微三大数据集上平均超越SOTA 3.0-21.5%。
+
+**[Connecting The Dots A Machine Learning Ready Dataset For Ionospheric Forecasting](connecting_the_dots_a_machine_learning_ready_dataset_for_ionospheric_forecasting.md)**
+
+:   作为2025 NASA Heliolab的成果，本文构建了首个全面的ML-ready电离层预测数据集，将太阳动力学观测站（SDO）极紫外辐照度嵌入、太阳风参数、行星际磁场、地磁活动指数、JPL稠密TEC全球电离层图、Madrigal稀疏TEC、太阳通量指数以及轨道力学参数等7大类异构数据源统一对齐到一致的时间-空间结构中，并在此基础上训练了包括LSTM、球面神经算子（SFNO）和GraphCast在内的多种时空预测架构，实现了对全球垂直总电子含量（vTEC）在安静和地磁活跃条件下长达12小时的自回归预测，超越了持续性基线。
 
 **[Geolink Empowering Remote Sensing Foundation Model With Openstreetmap Data](geolink_empowering_remote_sensing_foundation_model_with_openstreetmap_data.md)**
 
-:   提出GeoLink，首个将OSM矢量数据直接融入遥感基础模型的框架，通过异构GNN编码OSM数据+多粒度跨模态对比/一致性学习+掩码高效预训练，在127万样本对上预训练后显著提升遥感和地理任务。
+:   GeoLink将OpenStreetMap矢量数据直接融入遥感基础模型预训练，通过异构GNN编码OSM数据并设计多粒度跨模态学习目标（区域-图像级对比 + 对象-patch级融合），在127万样本对上高效预训练后，7个分类和4个分割/变化检测benchmark全面超越现有RS FM。
 
 **[Greenhyperspectra A Multi-Source Hyperspectral Dataset For Global Vegetation Tra](greenhyperspectra_a_multi-source_hyperspectral_dataset_for_global_vegetation_tra.md)**
 
-:   构建GreenHyperSpectra——14万+样本的多源高光谱植被数据集（跨地面/机载/星载传感器），框架化半/自监督方法用于多输出植被性状回归，在标签稀缺场景下显著超越监督基线。
+:   构建了包含14万+多源高光谱植被反射率光谱的GreenHyperSpectra预训练数据集，涵盖近端、机载和星载平台，通过半监督和自监督方法在标签稀缺场景下显著超越全监督基线的多性状预测精度。
 
 **[Mass Conservation On Rails -- Rethinking Physics-Informed Learning Of Ice Flow V](mass_conservation_on_rails_--_rethinking_physics-informed_learning_of_ice_flow_v.md)**
 
-:   对比硬约束（dfNN）、软约束（PINN）和无约束NN在南极冰流通量插值上的表现，通过流函数的辛梯度精确保证无散度的dfNN最优，结合方向引导进一步提升。
+:   提出散度无关神经网络（dfNN），通过流函数的辛梯度从架构上精确保证质量守恒（散度恒为零），结合方向引导学习策略，在南极Byrd冰川冰通量插值中显著优于软约束PINNs和无约束NN。
 
-**[OrbitZoo: Real Orbital Systems Challenges for RL](orbitzoo_real_orbital_systems_challenges_for_reinforcement_learning.md)**
+**[Orbitzoo Real Orbital Systems Challenges For Reinforcement Learning](orbitzoo_real_orbital_systems_challenges_for_reinforcement_learning.md)**
 
-:   构建OrbitZoo，基于工业标准库Orekit的多智能体RL环境，支持碰撞规避和协同机动，经Starlink真实数据验证MAPE仅0.16%。
+:   提出OrbitZoo——一个基于工业级轨道动力学库Orekit的多智能体强化学习环境，支持碰撞规避、编队飞行等场景，在Starlink真实数据验证中MAPE仅为0.16%。
 
 **[Ortholoc Uav 6-Dof Localization And Calibration Using Orthographic Geodata](ortholoc_uav_6-dof_localization_and_calibration_using_orthographic_geodata.md)**
 
-:   提出OrthoLoC——首个大规模UAV-正射影像配对数据集（16,425张，47地点，19城市），用于6-DoF定位和标定评估，AdHoP技术匹配精度提升95%、平移误差降低63%。
+:   OrthoLoC构建了首个面向正射地理数据（DOP+DSM）的大规模UAV 6-DoF定位基准数据集，包含16425张真实UAV图像覆盖德国和美国47个区域，并引入AdHoP（自适应单应性预处理）匹配改进技术，在不修改特征匹配器的情况下将匹配性能提升95%、平移误差降低63%。
 
 **[RSCC: Large-Scale Remote Sensing Change Caption Dataset for Disasters](rscc_a_large-scale_remote_sensing_change_caption_dataset_for_disaster_events.md)**
 

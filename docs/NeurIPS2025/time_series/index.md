@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 时间序列方向 52篇论文解读
+  NeurIPS2025 时间序列方向 51篇论文解读
 description: >-
-  52篇NeurIPS2025 时间序列方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  51篇NeurIPS2025 时间序列方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🧠 NeurIPS2025** · 共 **52** 篇
+**🧠 NeurIPS2025** · 共 **51** 篇
 
 **[A Graph Neural Network Approach For Localized And High-Resolution Temperature Fo](a_graph_neural_network_approach_for_localized_and_high-resolution_temperature_fo.md)**
 
@@ -24,7 +24,7 @@ description: >-
 
 **[Attentionpredictor Temporal Patterns Matter For Kv Cache Com](attentionpredictor_temporal_patterns_matter_for_kv_cache_com.md)**
 
-:   首个基于学习的 KV Cache 压缩方法，通过轻量级时空卷积模型预测下一 token 的注意力分数来动态识别关键 token，实现 13× KV cache 压缩和 5.6× cache offloading 加速，显著优于静态方法。
+:   AttentionPredictor是首个学习型方法直接预测注意力模式以实现KV缓存压缩和关键token识别，通过轻量CNN捕捉注意力分数的时空模式，实现13倍KV缓存压缩和5.6倍推理加速，统一预测模型仅21KB可跨所有Transformer层共享。
 
 **[Benchmarking Probabilistic Time Series Forecasting Models On Neural Activity](benchmarking_probabilistic_time_series_forecasting_models_on_neural_activity.md)**
 
@@ -42,13 +42,9 @@ description: >-
 
 :   提出 Channel-wise Influence (ChInf)——首个能量化多变量时间序列中不同通道对模型性能影响的影响函数方法，将 TracIn 从整体样本级分解到通道级，衍生出通道级异常检测和通道剪枝两个应用，在 5 个异常检测基准上排名第一。
 
-**[Connecting The Dots A Machine Learning Ready Dataset For Ionospheric Forecasting](connecting_the_dots_a_machine_learning_ready_dataset_for_ionospheric_forecasting.md)**
-
-:   构建了首个ML-ready电离层预测数据集，整合SDO、太阳风、地磁指数和TEC观测等多源异构数据为统一的时间-空间结构，并基准测试了多种时空ML架构用于TEC预测。
-
 **[Demandcast Global Hourly Electricity Demand Forecasting](demandcast_global_hourly_electricity_demand_forecasting.md)**
 
-:   构建DemandCast——覆盖56个国家(2000-2025)的XGBoost全球小时电力需求预测框架，融合ERA5温度/GDP/人口等特征，归一化目标（年度分数）+时间分割评估，MAPE 9.2%。
+:   构建 DemandCast 开源机器学习框架，基于 XGBoost 融合历史电力需求、ERA5 温度和社会经济特征进行全球 56 个国家/地区的小时级电力需求预测，通过归一化目标变量（年度分数）实现跨国家可比，在时间外推测试集上达到 MAPE 9.2%。
 
 **[Diffusion Transformers As Open-World Spatiotemporal Foundation Models](diffusion_transformers_as_open-world_spatiotemporal_foundation_models.md)**
 
@@ -172,7 +168,7 @@ description: >-
 
 **[Strap Spatio-Temporal Pattern Retrieval For Out-Of-Distribution Generalization](strap_spatio-temporal_pattern_retrieval_for_out-of-distribution_generalization.md)**
 
-:   提出 StRap，一个检索增强的时空模式学习框架，通过构建空间/时间/时空三维模式库并在推理时检索相似模式注入模型，在流式时空图 OOD 任务上平均提升 7.17%。
+:   提出 StRap 框架，通过构建包含空间、时间和时空三维键值对的模式库，在推理时检索与当前输入最相似的历史模式并自适应融合，有效应对流式时空数据中的分布偏移（STOOD）问题。
 
 **[Structured Temporal Causality For Interpretable Multivariate Time Series Anomaly](structured_temporal_causality_for_interpretable_multivariate_time_series_anomaly.md)**
 
@@ -184,7 +180,7 @@ description: >-
 
 **[Syntsbench Rethinking Temporal Pattern Learning In Deep Learning Models For Time](syntsbench_rethinking_temporal_pattern_learning_in_deep_learning_models_for_time.md)**
 
-:   提出 SynTSBench，一个基于合成数据的时序预测模型评估框架，通过可编程特征配置（趋势/周期/噪声/依赖/多变量）和理论最优基准，系统揭示当前深度学习模型在各类时序模式上的能力边界。
+:   提出SynTSBench合成数据驱动评估范式，通过可编程的特征配置和理论最优基准，系统评估时间序列预测模型在趋势、周期、依赖性、噪声鲁棒性等维度的实际建模能力。
 
 **[Time-Imm A Dataset And Benchmark For Irregular Multimodal Multivariate Time Seri](time-imm_a_dataset_and_benchmark_for_irregular_multimodal_multivariate_time_seri.md)**
 

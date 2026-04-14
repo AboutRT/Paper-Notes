@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 多模态VLM方向 173篇论文解读
+  CVPR2026 多模态VLM方向 174篇论文解读
 description: >-
-  173篇CVPR2026 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  174篇CVPR2026 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**📷 CVPR2026** · 共 **173** 篇
+**📷 CVPR2026** · 共 **174** 篇
 
 **[A3 Towards Advertising Aesthetic Assessment](a3_towards_advertising_aesthetic_assessment.md)**
 
@@ -32,7 +32,7 @@ description: >-
 
 **[Adaptive Visionlanguage Model Routing For Computer](adaptive_visionlanguage_model_routing_for_computer.md)**
 
-:   在CUA编排器和VLM池之间插入轻量语义路由层，通过难度分类+logprob置信度探测+记忆注入三机制，将大部分GUI操作交给小模型处理，推理成本降低78%且精度仅下降2个百分点。
+:   提出 Adaptive VLM Routing (AVR) 框架，在 CUA 编排器和 VLM 模型池之间插入轻量语义路由层，通过多模态难度分类、logprob 置信度探测和历史记忆注入三种机制动态选择最经济的模型，推理成本降低最高 78% 且精度仅下降 2 个百分点以内。
 
 **[Adaptvision Efficient Vision-Language Models Via Adaptive Visual Acquisition](adaptvision_efficient_vision-language_models_via_adaptive_visual_acquisition.md)**
 
@@ -60,7 +60,7 @@ description: >-
 
 **[Benchmarking Vision-Language Models Under Contradictory Virtual Content Attacks ](benchmarking_vision-language_models_under_contradictory_virtual_content_attacks_.md)**
 
-:   本文构建了首个AR环境下矛盾虚拟内容攻击基准ContrAR（312个真实AR视频），系统评估了11个VLM在检测AR场景中语义矛盾方面的能力，发现当前VLM在准确性与延迟之间难以平衡。
+:   构建首个 AR 环境下矛盾虚拟内容攻击基准 ContrAR（312 个真实 Meta Quest 3 录制视频，10 名标注者验证，平均 Likert 4.66/5），系统评估 11 个 VLM（含 GPT-5/Gemini-2.5/Grok-4）的语义矛盾检测能力，发现 GPT-5 准确率最高（88.14%）但延迟 19s，GPT-4o 在准确率-延迟平衡最佳（84.62%/7.26s），OCR 纯文本基线仅 56%，证明视觉推理不可或缺。
 
 **[Beyond Heuristic Prompting A Concept-Guided Bayesian Framework For Zero-Shot Ima](beyond_heuristic_prompting_a_concept-guided_bayesian_framework_for_zero-shot_ima.md)**
 
@@ -72,7 +72,7 @@ description: >-
 
 **[Beyond Static Artifacts A Forensic Benchmark For Video Deepfake Reasoning In Vis](beyond_static_artifacts_a_forensic_benchmark_for_video_deepfake_reasoning_in_vis.md)**
 
-:   提出 FAQ（Forensic Answer-Questioning），首个关注深度伪造视频中时序不一致性的多选问答基准，通过三层级任务体系（感知→定位→推理）逐步增强 VLM 的取证能力，微调后在域内和跨数据集检测中均取得显著提升。
+:   提出 FAQ（Forensic Answer-Questioning），首个关注深度伪造视频时序不一致性的大规模多选问答基准（33K QA 对、~4500 视频），通过三层级任务体系（面部感知→时序定位→取证推理）渐进式增强 VLM 取证能力，微调后在域内基准和跨数据集检测中均取得显著提升（Qwen2.5-VL 平均准确率从 21.6% 提升至 52.4%）。
 
 **[Beyond The Mean Modelling Annotation Distributions In Continuous Affect Predicti](beyond_the_mean_modelling_annotation_distributions_in_continuous_affect_predicti.md)**
 
@@ -136,7 +136,7 @@ description: >-
 
 **[Crosshoi-Bench A Unified Benchmark For Hoi Evaluation Across Vision-Language Mod](crosshoi-bench_a_unified_benchmark_for_hoi_evaluation_across_vision-language_mod.md)**
 
-:   提出 CrossHOI-Bench，首个统一评估 VLM 和 HOI 专用模型的多选题 HOI 基准，通过精心策划的正负例避免不完整标注的错误惩罚，揭示了大型 VLM 零样本可比肩 SOTA HOI 方法，但在多动作识别和跨人归因上各有优劣。
+:   提出 CrossHOI-Bench，首个统一评估 VLM 和 HOI 专用模型的多选题 HOI 基准，通过精心策划的正负例避免不完整标注的错误惩罚，揭示大型 VLM 零样本在 Instance-F1 上超越 SOTA HOI 方法 +5.18%，但在多动作识别和跨人归因上仍存在系统性弱点。
 
 **[Cubic Discrete Diffusion Discrete Visual Generation On High-Dimensional Represen](cubic_discrete_diffusion_discrete_visual_generation_on_high-dimensional_represen.md)**
 
@@ -236,7 +236,7 @@ description: >-
 
 **[Evolving Prompt Adaptation For Visionlanguage Mode](evolving_prompt_adaptation_for_visionlanguage_mode.md)**
 
-:   提出EvoPrompt框架，通过模态共享提示投影器(MPP)生成跨层跨模态提示，引入进化轨迹感知学习策略(将低秩更新解耦为方向+幅度，冻结历史方向仅调幅度)防止灾难性遗忘，配合特征几何正则化(FGR)防止表示坍缩，在11个数据集的base-to-novel泛化上平均HM达80.73%超越所有现有方法。
+:   提出 EvoPrompt 框架，将提示训练视为从通用语义锚点到任务特征的渐进进化过程，通过模态共享提示投影器（MPP）统一跨层跨模态提示生成、进化轨迹感知策略（方向-幅度解耦冻结历史方向）防止遗忘、特征几何正则化（FGR）防止表示坍缩，在 11 个数据集 base-to-novel 泛化上平均 HM 达 80.73%，超越所有现有提示学习方法。
 
 **[Fairllava Fairness-Aware Parameter-Efficient Fine-Tuning For Large Vision-Langua](fairllava_fairness-aware_parameter-efficient_fine-tuning_for_large_vision-langua.md)**
 
@@ -248,7 +248,7 @@ description: >-
 
 **[Flashcache Frequency Kv Cache Compression](flashcache_frequency_kv_cache_compression.md)**
 
-:   从频域角度重新审视多模态 KV Cache 压缩，发现 KV 矩阵能量集中于低频、偏离低频主成分的"离群 KV"编码了推理关键特征，提出 FlashCache——基于频域低通滤波识别并优先保留离群 KV + 动态逐层预算分配，实现 80% KV 内存节省和 1.69× 解码加速且不损任务性能，且与 FlashAttention 兼容。
+:   提出 FlashCache，首次从频域角度分析多模态 KV Cache 的重要性分布，发现偏离低频主成分的"离群 KV"编码了推理关键特征，通过 DCT 低通滤波识别并优先保留离群 KV + 动态逐层预算分配，在 80% KV 内存压缩下实现 1.69× 解码加速且基本不损失任务性能，天然兼容 FlashAttention。
 
 **[Fluoclip Stain-Aware Focus Quality Assessment In Fluorescence Microscopy](fluoclip_stain-aware_focus_quality_assessment_in_fluorescence_microscopy.md)**
 
@@ -292,7 +292,7 @@ description: >-
 
 **[Hificl High-Fidelity In-Context Learning For Multimodal Tasks](hificl_high-fidelity_in-context_learning_for_multimodal_tasks.md)**
 
-:   通过对注意力机制中ICL效果的精确数学分解，揭示"shift vector"本质是注意力公式的解析后果，进而提出HiFICL——用可学习的低秩虚拟键值对直接参数化ICL的源头，实现高保真、动态、端到端的上下文学习近似，在多个多模态基准上以极少参数量超越现有方法。
+:   通过精确分解注意力公式揭示 ICL 效应的数学本质（动态混合标准注意力输出与示例值矩阵），提出 HiFICL——用可学习低秩虚拟 key-value 对直接参数化 ICL 源头而非近似其效果，以 2.2M 参数在多模态基准上全面超越现有 ICL 近似方法。
 
 **[Hificl Highfidelity Incontext Learning For Multimo](hificl_highfidelity_incontext_learning_for_multimo.md)**
 
@@ -304,11 +304,11 @@ description: >-
 
 **[Honeybee Data Recipes Vl Reasoners](honeybee_data_recipes_vl_reasoners.md)**
 
-:   系统性地研究了VL推理训练数据的设计空间（数据来源、干预策略、多维度缩放），基于洞察构建了250万样本的HoneyBee数据集，训练出的3B VLM在MathVerse上超越SOTA 7.8个百分点。
+:   系统性地研究了 VL 推理训练数据的设计空间——数据来源选择、干预策略筛选、图像/问题/CoT 三维度缩放——基于洞察构建了 250 万样本的 HoneyBee 数据集，3B VLM 在 MathVerse 上超越 SOTA 7.8pp，并提出共享 Caption 解码的测试时缩放策略节省 73% token。
 
 **[Housemind Tokenization Mllm Floor Plan](housemind_tokenization_mllm_floor_plan.md)**
 
-:   提出HouseMind——通过VQ-VAE将建筑平面图离散化为房间级token，让轻量级LLM（Qwen3-0.6B）在统一框架中同时完成平面图理解、生成和编辑，在所有三项任务上全面超越现有扩散和VLM方法，且可单卡部署。
+:   提出HouseMind框架，通过层次化VQ-VAE将建筑平面图离散化为轮廓token和房间实例token的结构化序列，结合三阶段多模态对齐和指令微调，以Qwen3-0.6B为backbone实现了平面图理解、生成、编辑三项任务的统一建模，几何有效性和可控性大幅超越现有方法。
 
 **[Hulluedit Single-Pass Evidence-Consistent Subspace Editing For Mitigating Halluc](hulluedit_single-pass_evidence-consistent_subspace_editing_for_mitigating_halluc.md)**
 
@@ -336,7 +336,7 @@ description: >-
 
 **[Kvsmooth Mitigating Hallucination In Multimodal La](kvsmooth_mitigating_hallucination_in_multimodal_la.md)**
 
-:   KVSmooth 提出了一种免训练的即插即用方法，通过对 KV-Cache 中的 Key 和 Value 施加注意力行熵引导的自适应指数移动平均（EMA）平滑，将 LLaVA-1.5 的 CHAIR_S 从 41.8 降至 18.2（降低 56%），同时 F1 从 77.5 提升到 79.2。
+:   KVSmooth 提出免训练即插即用方法，通过对 KV-Cache 施加注意力行熵引导的自适应 EMA 平滑，将 LLaVA-1.5 的 CHAIR_S 从 41.8 降至 18.2（降 56%），同时 F1 从 77.5 提升到 79.2，精度召回同时提升。
 
 **[Learning What Matters Prioritized Concept Learning Via Relative Error-Driven Sam](learning_what_matters_prioritized_concept_learning_via_relative_error-driven_sam.md)**
 
@@ -344,7 +344,7 @@ description: >-
 
 **[Llavashield Multimodal Multiturn Safety](llavashield_multimodal_multiturn_safety.md)**
 
-:   针对 VLM 多模态多轮对话场景的安全问题（恶意意图隐蔽性、上下文风险累积、跨模态联合风险），构建了包含 4,484 个标注对话的 MMDS 数据集（8 大类 60 子维度风险分类），提出自动化多模态多轮红队测试框架 MMRT 和安全审计模型 LLaVAShield，在多个基准上显著优于现有内容审核工具和 SOTA VLM。
+:   针对VLM多模态多轮对话中的恶意意图隐蔽性、上下文风险累积和跨模态联合风险三大挑战，构建4,484个标注对话的MMDS数据集和基于MCTS的MMRT红队框架，提出LLaVAShield审计模型，在用户/助手两侧分别达到F1 95.71%/92.24%，大幅超越GPT-5-mini等基线。
 
 **[Llavashield Safeguarding Multimodal Multi-Turn Dialogues In Vision-Language Mode](llavashield_safeguarding_multimodal_multi-turn_dialogues_in_vision-language_mode.md)**
 
@@ -440,7 +440,7 @@ description: >-
 
 **[Overthinking Hallucination Confounder Propagation](overthinking_hallucination_confounder_propagation.md)**
 
-:   发现VLM幻觉的新机制——"过度思考"(overthinking)：模型在中间层产生过多竞争性物体假设导致混杂因子传播到最终层，提出Overthinking Score量化层间假设多样性与不确定性的乘积，在MSCOCO上达到78.9% F1的幻觉检测性能。
+:   发现 VLM 幻觉的新机制——"过度思考"（overthinking）：模型在解码器中间层产生过多竞争性物体假设，导致语义关联但不存在的"混杂因子"传播到最终层引发幻觉，提出 Overthinking Score 量化层间假设多样性与不确定性的乘积，在 MSCOCO 上达 87.33% AUC / 78.9% F1，AMBER OOD 上 71.58% F1。
 
 **[Parallel In-Context Learning For Large Vision Language Models](parallel_in-context_learning_for_large_vision_language_models.md)**
 
@@ -449,6 +449,10 @@ description: >-
 **[Pointalign Feature-Level Alignment Regularization For 3D Vision-Language Models](pointalign_feature-level_alignment_regularization_for_3d_vision-language_models.md)**
 
 :   提出 PointAlign，在 3D VLM 的 LLM 中间层对点云 token 施加特征级对齐正则化（与 Q-Former 输出对齐），仅训练轻量对齐投影器和 LoRA 适配器，即可有效防止几何信息在语言建模过程中退化，在开放词汇分类上提升 7.50pp。
+
+**[Pop Proof Of Perception Conformal Reasoning](pop_proof_of_perception_conformal_reasoning.md)**
+
+:   提出 Proof-of-Perception (PoP)，将多模态推理建模为可执行的有向无环图(DAG)，每个感知/逻辑节点输出带有保形预测证书的集合值（提供逐步可靠性保证），并用轻量控制器基于这些证书在计算预算内自适应分配算力，在文档、图表和多图QA基准上超越CoT、ReAct和PoT基线。
 
 **[Prune2Drive A Plug-And-Play Framework For Accelerating Vision-Language Models In](prune2drive_a_plug-and-play_framework_for_accelerating_vision-language_models_in.md)**
 
@@ -540,7 +544,7 @@ description: >-
 
 **[Sope Spherical Positional Encoding 3D Lvlm](sope_spherical_positional_encoding_3d_lvlm.md)**
 
-:   揭示RoPE在3D LMM中的空间感知偏差——1D光栅索引无法保持3D结构且忽略方向变化，提出球面坐标位置编码SoPE（$t,r,\theta,\phi$四维索引+多维频率分配+多尺度混合），显著提升3D布局估计和物体检测。
+:   揭示 RoPE 在 3D LVLM 中的空间感知偏差问题（1D 索引破坏 3D 局部性且忽视方向），提出球面坐标位置编码 SoPE（$(t,r,\theta,\phi)$ 四维索引 + 多维频率分配 + 多尺度混合），在 SpatialLM 上实现 3D 布局估计和物体检测 SOTA。
 
 **[Spatialqa A Benchmark For Evaluating Spatial Logical Reasoning In Vision-Languag](spatialqa_a_benchmark_for_evaluating_spatial_logical_reasoning_in_vision-languag.md)**
 
@@ -596,7 +600,7 @@ description: >-
 
 **[Timelens Rethinking Video Temporal Grounding With Multimodal Llms](timelens_rethinking_video_temporal_grounding_with_multimodal_llms.md)**
 
-:   系统调查构建MLLM视频时间定位(VTG)能力的关键因素，揭示现有基准严重的质量问题，提出TimeLens-Bench和TimeLens-100K高质量数据，并通过thinking-free RLVR训练策略在开源模型中达到超越GPT-5的性能。
+:   系统调查构建MLLM视频时间定位（VTG）能力的关键因素，从数据质量和算法设计两个维度出发，发布高质量基准TimeLens-Bench和训练集TimeLens-100K，并通过交错文本时间编码+thinking-free RLVR训练范式构建TimeLens系列模型，在开源模型中达到SOTA并超越GPT-5和Gemini-2.5-Flash。
 
 **[Token Warping Helps Mllms Look From Nearby Viewpoints](token_warping_helps_mllms_look_from_nearby_viewpoints.md)**
 
@@ -620,7 +624,7 @@ description: >-
 
 **[Towards Real-World Document Parsing Via Realistic Scene Synthesis And Document-A](towards_real-world_document_parsing_via_realistic_scene_synthesis_and_document-a.md)**
 
-:   提出数据-训练协同设计框架，通过真实场景合成(DocMix-3M)和文档感知训练策略（渐进学习+结构token加权），在1B参数MLLM上实现端到端文档解析的强精度和真实场景鲁棒性。
+:   提出数据-训练协同设计框架 DocHumming：通过 Realistic Scene Synthesis 构建 DocMix-3M 大规模合成数据集，结合渐进学习和结构 token 加权的 Document-Aware Training Recipe，在仅 1B 参数的 MLLM 上实现 OmniDocBench Overall 93.75（超越 Qwen3-VL-235B 的 89.15），且在真实拍摄场景下仅退化 6.72 分（模块化方法退化 18-20 分）。
 
 **[Trivia Self-Supervised Fine-Tuning Of Vision-Language Models For Table Recogniti](trivia_self-supervised_fine-tuning_of_vision-language_models_for_table_recogniti.md)**
 

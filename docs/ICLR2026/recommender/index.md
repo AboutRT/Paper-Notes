@@ -28,7 +28,7 @@ description: >-
 
 **[Propersim Developing Proactive And Personalized Ai Assistants Through User-Assis](propersim_developing_proactive_and_personalized_ai_assistants_through_user-assis.md)**
 
-:   提出 ProPerSim 模拟框架和 ProPerAssistant 基线，通过用户-助手模拟环境结合 DPO 偏好学习，开发能同时具备主动性和个性化的 AI 家庭助手。
+:   提出ProPerSim模拟框架，构建基于大五人格的32种用户persona在Smallville家庭环境中的日常行为模拟，AI助手通过每2.5分钟的主动推荐决策和DPO偏好学习，在14天模拟中将用户满意度从2.2/4提升至3.3/4，首次验证了主动性+个性化统一的可行性。
 
 **[Rae A Neural Network Dimensionality Reduction Method For Nearest Neighbors Prese](rae_a_neural_network_dimensionality_reduction_method_for_nearest_neighbors_prese.md)**
 

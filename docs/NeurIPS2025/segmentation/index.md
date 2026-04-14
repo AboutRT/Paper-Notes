@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 语义分割方向 47篇论文解读
+  NeurIPS2025 语义分割方向 46篇论文解读
 description: >-
-  47篇NeurIPS2025 语义分割方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  46篇NeurIPS2025 语义分割方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🧠 NeurIPS2025** · 共 **47** 篇
+**🧠 NeurIPS2025** · 共 **46** 篇
 
 **[Alligat0R Pre-Training Through Co-Visibility Segmentation For Relative Camera Po](alligat0r_pre-training_through_co-visibility_segmentation_for_relative_camera_po.md)**
 
@@ -41,10 +41,6 @@ description: >-
 **[Fast And Fluent Diffusion Language Models Via Convolutional Decoding And Rejecti](fast_and_fluent_diffusion_language_models_via_convolutional_decoding_and_rejecti.md)**
 
 :   通过卷积解码归一化（替代硬半自回归分块）和基于规则的拒绝微调 R2FT，在 128 步推理下实现与 512+ 步相当的扩散语言模型生成质量，达到 DLM 领域 SOTA。
-
-**[Fast Foreground-Aware Diffusion With Accelerated Sampling Trajectory For Segment](fast_foreground-aware_diffusion_with_accelerated_sampling_trajectory_for_segment.md)**
-
-:   提出 FAST，一个面向分割的工业异常合成框架，通过前景感知重建模块（FARM）和异常感知加速采样（AIAS）在仅 10 步去噪下生成高质量合成异常，在 MVTec-AD 上 mIoU 达 76.72%，超越所有先前方法。
 
 **[Finers Fine-Grained Reasoning And Segmentation Of Small Objects With Reinforceme](finers_fine-grained_reasoning_and_segmentation_of_small_objects_with_reinforceme.md)**
 
@@ -100,7 +96,7 @@ description: >-
 
 **[Panoptic Captioning An Equivalence Bridge For Image And Text](panoptic_captioning_an_equivalence_bridge_for_image_and_text.md)**
 
-:   提出 Panoptic Captioning 新任务，追求图像的"最小文本等价"——生成包含所有实体、位置、属性、关系和全局状态的全面描述，13B 模型配合解耦学习即超越 78B 开源和 GPT-4o 等商业模型。
+:   提出 Panoptic Captioning 新任务追求图像的"最小文本等价"——定义包含实体标签、位置（bbox）、属性、关系和全局状态五个维度的全面结构化描述，通过 PancapEngine 数据引擎和 PancapChain 解耦多阶段方法，13B 模型即超越 InternVL-2.5-78B 和 GPT-4o。
 
 **[Partnext A Next-Generation Dataset For Fine-Grained And Hierarchical 3D Part Und](partnext_a_next-generation_dataset_for_fine-grained_and_hierarchical_3d_part_und.md)**
 
@@ -152,7 +148,7 @@ description: >-
 
 **[Self-Supervised Synthetic Pretraining For Inference Of Stellar Mass Embedded In ](self-supervised_synthetic_pretraining_for_inference_of_stellar_mass_embedded_in_.md)**
 
-:   利用100万张合成分形图像对ViT-L/16进行DINOv2自监督预训练，然后在有限的磁流体动力学(MHD)模拟数据上进行零样本/冻结特征评估，实现恒星质量预测和无监督语义分割。
+:   本文提出了一种"合成数据驱动的自监督预训练"范式：先用 Flame 算法生成 100 万张合成分形图像，对 ViT-L/16 编码器进行 DINOv2 自监督预训练，然后将冻结的编码器直接迁移到极其有限的磁流体动力学（MHD）恒星形成模拟数据上，通过 kNN 回归实现恒星质量预测（$R^2=0.81$），通过 PCA 投影实现零样本无监督语义分割，性能略优于在相同数据上训练的全监督 ResNet-18 基线。
 
 **[Srsr Enhancing Semantic Accuracy In Real-World Image Super-Resolution With Spati](srsr_enhancing_semantic_accuracy_in_real-world_image_super-resolution_with_spati.md)**
 
@@ -176,7 +172,7 @@ description: >-
 
 **[Towards Robust Pseudo-Label Learning In Semantic Segmentation An Encoding Perspe](towards_robust_pseudo-label_learning_in_semantic_segmentation_an_encoding_perspe.md)**
 
-:   提出 ECOCSeg，用纠错输出码（ECOC）替代 one-hot 编码来表示伪标签，将 N 类分类分解为 K 个二分类子任务，通过 bit 级去噪和可靠位挖掘生成更鲁棒的伪标签，在 UDA 和 SSL 分割任务上一致提升。
+:   ECOCSeg从编码形式角度重新审视伪标签噪声问题，用纠错输出码(ECOC)替代argmax one-hot编码，将N类分类分解为K个二分类子任务，利用类间共享属性和bit级去噪机制显著提升伪标签学习的鲁棒性。
 
 **[Towards Unsupervised Domain Bridging Via Image Degradation In Semantic Segmentat](towards_unsupervised_domain_bridging_via_image_degradation_in_semantic_segmentat.md)**
 

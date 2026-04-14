@@ -24,7 +24,7 @@ description: >-
 
 **[Aligning Spoken Dialogue Models From User Interactions](aligning_spoken_dialogue_models_from_user_interactions.md)**
 
-:   首次为实时全双工语音对话模型提出偏好对齐框架：从15万+真实语音对话中构建涵盖内容和时序两类偏好对的大规模数据集，用离线对齐方法微调后QA能力平均提升3.1%、安全性提升6.9%。
+:   首次为全双工语音对话模型（Moshi）设计完整的偏好对齐框架，从15万+条真实用户语音对话中自动构建内容+时序两类偏好对，通过仅在文本token上做DPO-LN对齐，QA平均提升3.1%、安全性提升6.9%，并通过人类评估确认多轮对话质量的改善。
 
 **[Balanced Learning For Domain Adaptive Semantic Segmentation](balanced_learning_for_domain_adaptive_semantic_segmentation.md)**
 

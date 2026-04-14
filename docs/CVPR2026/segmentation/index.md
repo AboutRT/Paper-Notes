@@ -16,7 +16,7 @@ description: >-
 
 **[A Dataset Of Medication Images With Instance Segme](a_dataset_of_medication_images_with_instance_segme.md)**
 
-:   构建了MEDISEG药物图像实例分割数据集（8262张图像，32类药片，含遮挡/重叠的真实场景），用YOLOv8/v9验证在3类上达99.5% mAP@0.5、32类达80.1%，并通过FsDet few-shot协议证明MEDISEG预训练比CURE数据集在遮挡场景中显著提升未见药片类别的识别（1-shot准确率0.406 vs 0.131）。
+:   构建了MEDISEG药物图像实例分割数据集（8262张图像，32类药片，含遮挡/重叠的真实场景），YOLOv8/v9验证3类达99.5% mAP@0.5、32类达80.1%，FsDet few-shot证明MEDISEG预训练在遮挡场景比CURE显著提升（1-shot 0.406 vs 0.131）。
 
 **[A Dataset Of Medication Images With Instance Segmentation Masks For Preventing A](a_dataset_of_medication_images_with_instance_segmentation_masks_for_preventing_a.md)**
 
@@ -44,11 +44,11 @@ description: >-
 
 **[Clip Shortsighted Beyond First Sentence](clip_shortsighted_beyond_first_sentence.md)**
 
-:   发现CLIP对长描述"只看第一句"的根本原因在于训练数据中长caption普遍以摘要句开头形成捷径，提出DeBias-CLIP通过去除摘要句+句子子采样+token填充来分散监督信号，实现长短文本检索双SOTA。
+:   发现CLIP和Long-CLIP模型存在严重的early-token偏向和首句摘要shortcut问题，提出DeBias-CLIP通过去除摘要句、句子子采样和前缀token填充三种简单增强策略，不增加任何额外参数即实现了多个长文本检索基准的SOTA。
 
 **[Comparative Evaluation Of Traditional Methods And](comparative_evaluation_of_traditional_methods_and.md)**
 
-:   系统综述脑胶质瘤 MRI 分割与分类方法，比较传统方法（阈值、区域生长、聚类等）与深度学习方法（CNN 架构），结论是 CNN 在分割和分类任务上全面优于传统技术，但半自动方法因可控性更受放射科医生青睐。
+:   系统综述脑胶质瘤 MRI 分割与分类的两大技术路线——传统方法（阈值、区域生长、聚类等）与深度学习方法（CNN 系列架构），通过方法分类学和性能对比得出 CNN 架构全面优于传统技术的结论，同时指出半自动方法因可控性在临床场景中更受放射科医生青睐。
 
 **[Comparative Evaluation Of Traditional Methods And Deep Learning For Brain Glioma](comparative_evaluation_of_traditional_methods_and_deep_learning_for_brain_glioma.md)**
 
@@ -116,7 +116,7 @@ description: >-
 
 **[Efficient Rgbd Scene Understanding Via Multitask A](efficient_rgbd_scene_understanding_via_multitask_a.md)**
 
-:   提出一种高效 RGB-D 多任务场景理解网络，通过部分通道卷积融合编码器、归一化焦点通道层(NFCL)、上下文特征交互层(CFIL)和多任务自适应损失，在 NYUv2 上以 20+ FPS 同时完成语义/实例/全景分割、方向估计和场景分类。
+:   提出高效RGB-D多任务场景理解网络，通过部分通道卷积融合编码器将FLOPs降至常规卷积的1/16、归一化焦点通道层(NFCL)和上下文特征交互层(CFIL)实现跨维度特征引导、batch级多任务自适应损失动态平衡五个任务，在NYUv2上以20.33 FPS（比EMSAFormer快24%）达到49.82 mIoU。
 
 **[Elvis Enhance Low-Light For Video Instance Segmentation In The Dark](elvis_enhance_low-light_for_video_instance_segmentation_in_the_dark.md)**
 
@@ -136,7 +136,7 @@ description: >-
 
 **[Erecu Pseudolabel Evolution Unsupervised Camouflage](erecu_pseudolabel_evolution_unsupervised_camouflage.md)**
 
-:   提出EReCu框架，在DINO师生架构上通过多线索原生感知(MNP)提取纹理+语义先验来引导伪标签进化融合(PEF)和局部伪标签精修(LPR)，实现无标注下的伪装目标检测，在4个COD数据集上达到UCOD SOTA。
+:   提出EReCu统一框架，在DINO师生架构上通过多线索原生感知（MNP）提取纹理+语义先验引导伪标签进化融合（PEF），结合局部伪标签精修（LPR）恢复边界细节，首次统一伪标签引导和特征学习两大UCOD范式，在4个COD数据集上全面SOTA。
 
 **[Fcl-Cod Weakly Supervised Camouflaged Object Detection With Frequency-Aware And ](fcl-cod_weakly_supervised_camouflaged_object_detection_with_frequency-aware_and_.md)**
 
@@ -152,7 +152,7 @@ description: >-
 
 **[From 2D Alignment To 3D Plausibility Unifying Hete](from_2d_alignment_to_3d_plausibility_unifying_hete.md)**
 
-:   解耦双手重建为2D结构对齐+3D空间交互对齐：Stage 1用Fusion Alignment Encoder隐式蒸馏Sapiens的关键点/分割/深度三种2D先验(推理时免基础模型)，Stage 2用穿透感知扩散模型+碰撞梯度引导将穿透姿态映射到物理合理配置——InterHand2.6M上MPJPE降至5.36mm(超SOTA 4DHands 2.13mm)，穿透体积降7倍。
+:   解耦双手重建为 2D 结构对齐 + 3D 空间交互对齐：Stage 1 用 Fusion Alignment Encoder 隐式蒸馏 Sapiens 的关键点/分割/深度三种 2D 先验（推理时免基础模型，56fps），Stage 2 用穿透感知扩散模型 + 碰撞梯度引导将穿透姿态映射到物理合理配置——InterHand2.6M 上 MPJPE 降至 5.36mm（超 SOTA 4DHands 2.13mm），穿透体积降 7 倍。
 
 **[From 2D Alignment To 3D Plausibility Unifying Heterogeneous 2D Priors And Penetr](from_2d_alignment_to_3d_plausibility_unifying_heterogeneous_2d_priors_and_penetr.md)**
 
@@ -164,7 +164,7 @@ description: >-
 
 **[Gkd Generalizable Knowledge Distillation Vfm](gkd_generalizable_knowledge_distillation_vfm.md)**
 
-:   提出GKD框架，通过将表示学习与任务学习解耦的多阶段蒸馏策略和查询式软蒸馏机制，从VFM（如DINOv2）中蒸馏出具有跨域泛化能力的轻量学生模型，在F2L设置下平均mIoU提升+10.6%，F2F设置下+1.9%。
+:   提出 GKD 框架，通过将表示学习与任务学习解耦的多阶段蒸馏（先学通用特征 → 冻结编码器 → 再训任务头）+ 查询式软蒸馏机制（QSD），从 VFM 中蒸馏出具有跨域泛化能力的轻量学生模型，在 F2L 设置下平均 mIoU 提升 +10.6%，F2F +1.9%。
 
 **[Interpretable Motion-Attentive Maps Spatio-Temporally Localizing Concepts In Vid](interpretable_motion-attentive_maps_spatio-temporally_localizing_concepts_in_vid.md)**
 
@@ -188,7 +188,7 @@ description: >-
 
 **[Mixed Diet Dino Omnivorous Encoder](mixed_diet_dino_omnivorous_encoder.md)**
 
-:   发现DINOv2的特征在不同模态间几乎零对齐（同一场景RGB和深度图的特征相似度≈随机图像对），提出Omnivorous Vision Encoder通过跨模态对齐+冻结教师蒸馏的双目标训练，让单一编码器产出模态无关的统一特征空间。
+:   发现DINOv2等预训练视觉编码器在不同模态（RGB/深度/分割）间的特征对齐极差，提出Omnivorous框架通过在冻结backbone的最后几层上训练轻量适配器（对齐损失+锚定损失+模态混合增强），构建统一的模态无关特征空间，在跨模态检索上大幅超越baseline同时保持或提升下游任务性能。
 
 **[Mixercseg An Efficient Mixer Architecture For Crack Segmentation Via Decoupled M](mixercseg_an_efficient_mixer_architecture_for_crack_segmentation_via_decoupled_m.md)**
 
@@ -216,7 +216,7 @@ description: >-
 
 **[Rdnet Region Proportionaware Dynamic Adaptive Sali](rdnet_region_proportionaware_dynamic_adaptive_sali.md)**
 
-:   提出RDNet，通过区域比例感知机制动态选择不同大小卷积核组合，结合小波域频率匹配上下文增强和跨注意力定位模块，在遥感图像显著性检测三个数据集上全面超越SOTA。
+:   提出 RDNet，通过区域比例感知的 Proportion Guidance 块预测目标面积占比，动态选择 3/4/5 种不同大小卷积核组合提取细节，结合小波域频率匹配上下文增强（计算量降为1/4）和跨注意力定位模块，在 EORSSD/ORSSD/ORSI-4199 三个遥感 SOD 数据集上全面超越 21 个 SOTA 方法。
 
 **[Realvlg-R1 A Large-Scale Real-World Visual-Language Grounding Benchmark For Robo](realvlg-r1_a_large-scale_real-world_visual-language_grounding_benchmark_for_robo.md)**
 
@@ -236,11 +236,11 @@ description: >-
 
 **[Rsonet Regionguided Selective Optimization Network](rsonet_regionguided_selective_optimization_network.md)**
 
-:   提出RSONet两阶段RGB-T显著性检测框架：先通过三分支并行编码器生成区域引导图并基于相似度比较选择主导模态，再通过选择性优化模块融合双模态特征，在VT5000/VT1000/VT821上MAE达0.020/0.014/0.021，超越27个SOTA方法。
+:   提出 RSONet 两阶段 RGB-T 显著性检测框架：先通过三支并行编码器-解码器生成区域引导图并基于相似度选择主导模态，再通过选择性优化模块融合双模态特征，在 VT5000/VT1000/VT821 上 MAE 达 0.020/0.014/0.021，超越 27 个 SOTA 方法。
 
 **[Sap Segment Any 4K Panorama](sap_segment_any_4k_panorama.md)**
 
-:   将全景分割重构为拓扑-记忆对齐问题，通过列优先锯齿扫描将ERP全景图转为透视伪视频序列，完美复用SAM2的流式记忆机制，在零样本4K全景分割上比vanilla SAM2平均提升+17.2 mIoU。
+:   将全景分割转化为拓扑-记忆对齐问题，通过固定轨迹透视扫描将ERP全景图变为伪视频序列，完美复用SAM2流式记忆，零样本4K全景分割提升+17.2 mIoU。
 
 **[Sarmae Masked Autoencoder For Sar Representation Learning](sarmae_masked_autoencoder_for_sar_representation_learning.md)**
 
@@ -256,11 +256,11 @@ description: >-
 
 **[Sgma Semanticguided Modalityaware Segmentation For](sgma_semanticguided_modalityaware_segmentation_for.md)**
 
-:   提出SGMA——语义引导模态感知分割框架，通过语义引导融合(SGF)降低类内变异和协调跨模态冲突，模态感知采样(MAS)平衡脆弱模态训练，在ISPRS上Average mIoU +9.20%且弱模态Last-1 mIoU +18.26%(vs SOTA IMLT)。
+:   提出SGMA——语义引导模态感知分割框架，通过语义引导融合(SGF)降低类内变异并协调跨模态冲突，模态感知采样(MAS)平衡脆弱模态训练频率，在ISPRS上Average mIoU +9.20%且弱模态Last-1 mIoU +18.26%(vs SOTA IMLT)。
 
 **[Sparrow Learning Spatial Precision And Temporal Re](sparrow_learning_spatial_precision_and_temporal_re.md)**
 
-:   SPARROW通过目标特定跟踪特征(TSF)和双提示[BOX]+[SEG]定位机制增强视频MLLM的时空一致性，在MeViS上J&F +8.9、VidSTG上mIoU +5.49，可即插即用到三种backbone上。
+:   提出SPARROW框架，通过Target-Specific Tracked Feature注入时序参照一致性和BOX+SEG双提示初始化稳定像素定位，作为即插即用模块在三个视频MLLM基线上跨六个benchmark一致提升。
 
 **[Sparrow Learning Spatial Precision And Temporal Referential Consistency In Pixel](sparrow_learning_spatial_precision_and_temporal_referential_consistency_in_pixel.md)**
 

@@ -172,7 +172,7 @@ description: >-
 
 **[Gradient Descent As Loss Landscape Navigation A Normative Framework For Deriving](gradient_descent_as_loss_landscape_navigation_a_normative_framework_for_deriving.md)**
 
-:   提出统一框架将各种学习规则（momentum、Adam、自然梯度等）推导为损失景观上的最优导航策略，不同度量和目标自然导出不同的优化器。
+:   提出将学习规则视为在（部分可观测的）损失景观中的最优导航策略，通过变分法求解连续时间最优控制问题，在统一框架下推导出梯度下降、动量、自然梯度、Adam及持续学习策略。
 
 **[Implicit Bias Of Spectral Descent And Muon On Multiclass Separable Data](implicit_bias_of_spectral_descent_and_muon_on_multiclass_separable_data.md)**
 

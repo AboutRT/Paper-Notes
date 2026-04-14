@@ -1,92 +1,106 @@
 ---
-title: >-
-  [论文解读] Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking
-description: >-
-  [NeurIPS 2025][图像生成][扩散模型] 提出 Prime（Partial masking scheme），突破 Masked Diffusion Model 的二元状态（mask/unmask）限制，引入中间态（部分观测的 token 信息），减少冗余计算并实现更细粒度的去噪过程，在文本生成上 PPL 15.36 超越自回归模型（17.54）和标准 MDM（21.52），在图像生成上取得 CIFAR-10 FID 3.26。
-tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 扩散模型
-  - partial masking
-  - intermediate states
-  - text generation
+description: "MDM-Prime通过部分掩码方案为离散扩散模型引入中间状态，利用子token的base-b编码实现细粒度去噪，在OpenWebText上以15.36困惑度首次让MDM超越自回归模型。"
+tags: [discrete-diffusion, masked-diffusion, text-generation, image-generation, partial-masking]
 ---
-
 # Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18495](https://arxiv.org/abs/2505.18495)  
-**代码**: 有（项目页面）  
-**领域**: 图像生成 / LLM  
-**关键词**: discrete diffusion, masked diffusion model, partial masking, intermediate states, text generation, image generation  
+**代码**: 无  
+**领域**: 图像生成 / 离散扩散  
+**关键词**: 离散扩散模型, 掩码扩散, 部分掩码, 子token, 文本生成
 
 ## 一句话总结
-提出 Prime（Partial masking scheme），突破 Masked Diffusion Model 的二元状态（mask/unmask）限制，引入中间态（部分观测的 token 信息），减少冗余计算并实现更细粒度的去噪过程，在文本生成上 PPL 15.36 超越自回归模型（17.54）和标准 MDM（21.52），在图像生成上取得 CIFAR-10 FID 3.26。
+Prime（Partial masking scheme）通过将每个token用base-b子token序列表示并在子token级别独立掩码，为掩码扩散模型引入中间状态，实现细粒度去噪过程，在OpenWebText上以15.36困惑度首次让MDM在不使用自回归公式的情况下超越ARM（17.54）。
 
-## 背景与动机
-Masked Diffusion Models（MDM）是离散数据生成的强大方法——逐步 unmask tokens 生成样本。但存在一个关键效率问题：连续采样步之间 token 序列常常不变（大部分 token 保持 masked 或 unmasked 状态不变），模型重复处理相同输入，导致大量冗余计算。
+## 研究背景与动机
 
-根本原因：每个 token 只有两种状态——完全 masked 或完全 unmasked，没有中间过渡，去噪过程是"跳跃式"的。
+**领域现状** 掩码扩散模型（MDM）是离散数据生成的有力模型，通过逐步揭示掩码token来生成样本。每个token只有两种状态：掩码或未掩码。
 
-## 核心问题
-如何让 MDM 的 token 具有**连续的中间状态**（部分观测/部分 masked），使去噪过程更细粒度、减少冗余计算、提升生成质量？
+**现有痛点** 二值表示导致严重的计算浪费——在逆扩散过程中，大量步骤序列不发生任何变化（idle steps），模型在重复处理完全相同的输入。实验表明37%的步骤是无效的。
+
+**核心矛盾** MDM的二值状态限制了模型利用率：要么完全掩码（无信息），要么完全揭示（最终确定），缺少中间过渡状态来实现渐进的信息释放。
+
+**本文要解决什么？** 重新定义扩散过程，将idle步转化为有信息量的更新，提升模型在生成过程中的利用率。
+
+**切入角度** 用base-b编码将每个token拆分为子token序列，在子token级别独立掩码，自然产生中间状态。
+
+**核心idea一句话** 通过子token的部分掩码从"二值掩码/未掩码"扩展为"多级中间状态"，使四选一预测可分解为多步二选一决策。
 
 ## 方法详解
 
+### 整体框架
+MDM-Prime包含三步：(1) 用可逆函数 $f$ 将每个token $x_0^i \in \mathcal{X}$ 映射为长度 $\ell$ 的子token序列 $\mathbf{y}_0^i \in \mathcal{Y}^\ell$（base-$b$编码，$b = \lceil \sqrt[\ell]{C} \rceil$）；(2) 在子token级别独立执行掩码扩散前向过程；(3) 逆扩散过程中逐步揭示子token，实现从完全掩码到中间状态再到完全揭示的细粒度转换。
+
 ### 关键设计
-1. **部分掩码状态**: 扩展 token 的状态空间——从 {masked, unmasked} 扩展为 [masked, partially_observed, ..., unmasked] 的连续/半连续谱。中间态通过在 masked 和 unmasked 嵌入之间插值实现。
 
-2. **变分训练目标**: 推导了适用于部分掩码状态的变分下界（ELBO），作为生成模型的训练目标。保持了 MDM 的理论基础。
+1. **部分掩码方案（Prime）**:
+    - 做什么：为离散扩散引入中间状态
+    - 核心思路：将token $x_0^i$ 编码为子token序列 $\mathbf{y}_0^i = f(x_0^i)$，子token独立掩码产生中间状态。例如4类token用2-bit编码，中间状态为"m0"或"1m"，提供部分信息。中间状态数为 $(b+1)^\ell - (C+1)$，始终为正
+    - 设计动机：中间状态使模型能基于部分已知的token信息做更精确的预测，减少idle步。理论证明 $\ell$ 增大时idle步单调递减
 
-3. **架构适配**: 引入简单的架构修改使模型能处理中间态输入——token 的嵌入不再是离散查找表的输出，而是连续的插值向量。
+2. **联合概率参数化**:
+    - 做什么：建模子token间的依赖并防止生成无效样本
+    - 核心思路：直接参数化联合分布 $p_\theta(\mathbf{y}_0^i|\mathbf{y}_t)$，只对有效的base-$b$编码（$\mathbf{y}_0^i \in f(\mathcal{X})$）分配概率权重，将 $|\mathcal{V}(\mathbf{y}_t^i)|$ 外的logit显式置零。同时满足carry-over约束：已揭示的子token保持不变
+    - 设计动机：独立参数化 $\prod_j p_\theta(y_0^{i,j}|\mathbf{y}_t)$ 不仅引入错误独立性假设（导致采样分布退化），还可能生成无效的子token组合（如GPT-2 50257词表映射时）
 
-4. **细粒度去噪**: 在采样时，token 可以从 fully masked → partially revealed → more revealed → unmasked 逐步过渡，使模型在每一步都有新信息可处理，消除了连续步骤间输入不变的冗余。
+3. **子token嵌入编码器**:
+    - 做什么：高效处理子token输入
+    - 核心思路：为每个子token创建独立的 $D/\ell$ 维嵌入查表，拼接 $\ell$ 个嵌入得到 $D$ 维token嵌入。查表大小仅需 $(b+1) \times D/\ell$，远小于完整的 $|\tilde{\mathcal{Y}}^\ell|$ 维查表
+    - 设计动机：子token空间 $\tilde{\mathcal{Y}}^\ell$ 可能远大于原token空间，直接建查表不可行；拼接策略保持与标准MDM架构兼容
 
-### 训练策略
-标准 MDM 训练流程 + 部分掩码的噪声调度。训练目标是变分下界。
+### 损失函数 / 训练策略
+变分上界损失：$\mathcal{L}_{vb}(\mathbf{y}_0;\theta) = \int_0^1 \frac{\alpha'_t}{1-\alpha_t} \mathbb{E}_{q(\mathbf{y}_t|\mathbf{y}_0)}[\sum_i \log p_\theta(\mathbf{y}_0^i|\mathbf{y}_t)] dt$，即加权交叉熵损失，理论保证为负对数似然的上界。
 
 ## 实验关键数据
 
-| 任务 | 方法 | 指标 |
-|------|------|------|
-| 文本 (OpenWebText) | 标准 MDM | PPL 21.52 |
-| 文本 (OpenWebText) | 自回归模型 | PPL 17.54 |
-| 文本 (OpenWebText) | AR+MDM 混合 | PPL 17.58 |
-| 文本 (OpenWebText) | **Prime** | **PPL 15.36** |
-| 图像 (CIFAR-10) | **Prime** | **FID 3.26** |
-| 图像 (ImageNet-32) | **Prime** | **FID 6.98** |
+### 主实验——文本生成（OpenWebText困惑度PPL）
+| 方法 | PPL ↓ | Idle步比例 |
+|------|-------|-----------|
+| ARM（自回归）* | 17.54 | - |
+| MDLM | ≤22.98 | 36.77% |
+| EDLM-coAR* | ≤17.58 | - |
+| MDLM-Prime (ℓ=2) | ≤17.90 | 13.52% |
+| MDLM-Prime (ℓ=4) | ≤15.62 | 1.83% |
+| **MDLM-Prime (ℓ=6)** | **≤15.36** | **0.25%** |
 
-**首个非自回归方法在文本生成上超越自回归模型**（PPL 15.36 vs 17.54）。
+### 主实验——图像生成
+| 方法 | CIFAR-10 FID ↓ | ImageNet-32 FID ↓ |
+|------|---------------|-------------------|
+| 连续扩散SOTA | ~2.5-3.5 | ~6-8 |
+| MDM-Prime | **3.26** | **6.98** |
 
-### 消融实验要点
-- 部分掩码 vs 二元掩码：部分掩码显著提升生成质量
-- 中间态的插值方式：线性插值 vs 可学习插值
-- 采样步数与效率的权衡
+### 消融实验
+| 配置 | OWT PPL | 说明 |
+|------|---------|------|
+| 独立参数化 | 退化 | 子token独立假设导致分布扭曲 |
+| 联合参数化 | 15.36 | 捕捉子token依赖 |
+| 无carry-over | 更高 | carry-over对零样本泛化很重要 |
+| ℓ=2→8 | 17.90→15.48 | ℓ≥4时性能收敛 |
 
-## 亮点
-- 打破了"离散扩散=二元状态"的范式限制
-- 首次在文本生成上以非自回归方式超越自回归模型
-- 理论基础扎实——变分训练目标有理论保证
-- 跨模态通用——文本和图像上均有效
+### 关键发现
+- 首次让MDM在不依赖自回归公式的情况下超越ARM（15.36 vs 17.54）
+- idle步比例与PPL高度相关——从36.77%（MDLM）降至0.25%（Prime ℓ=6）时PPL从22.98降到15.36
+- 在图像生成上与连续扩散方法相当（CIFAR-10 FID 3.26）
+- ℓ≥4时性能收敛，推荐选择ℓ=4或6
+
+## 亮点与洞察
+- "二值→多级中间状态"的核心idea直觉简单但效果惊人——仅修改嵌入层即可将MDLM提升7个PPL点
+- idle步分析为理解MDM性能瓶颈提供了新视角
+- 联合参数化+carry-over的设计既保证了理论正确性又实现了高效实现
 
 ## 局限性 / 可改进方向
-- 部分掩码的连续化使得原本离散的模型带有连续组件
-- 在大规模数据（如 ImageNet-256）上的验证不足
-- 与最新的 autoregressive+diffusion 混合方法（如 MAR）的对比
-- 采样效率虽有改善但仍不如纯自回归模型的并行解码
+- 子token编码增加了序列长度（$L \times \ell$），增加Transformer的计算量
+- 当前仅在130M参数模型上验证，更大规模LLM上的表现待确认
+- base-b编码是手工设计的，可能存在更优的token分解策略
 
-## 与相关工作的对比
-- **vs MDLM/SEDD（标准 MDM）**: Prime 通过引入中间态将 PPL 从 21.52 降至 15.36，提升幅度巨大
-- **vs GPT-2（自回归）**: 首次以非 AR 方式超越 AR 模型（15.36 vs 17.54），里程碑式结果
-- **vs ARGenSeg（同系列笔记）**: ARGenSeg 用 next-scale prediction 做离散生成分割；Prime 用部分掩码改善离散扩散
-
-## 启发与关联
-- 部分掩码的思想可迁移到 VQ-VAE 的 token 生成——在 code index 空间引入"soft index"
-- 中间态概念可用于改善 MAE 的预训练——不是完全掩码/不掩码，而是部分遮挡
-- 非 AR 超越 AR 的结果对 LLM 社区有重要意义——是否意味着自回归不是最优范式？
+## 相关工作与启发
+- **vs MDLM**: Prime是MDLM的直接增强，仅修改嵌入层，架构完全兼容
+- **vs SEDD**: SEDD用吸收状态+得分匹配，Prime用部分掩码+变分上界，两种互补视角
+- **vs BD3-LM**: BD3混合自回归公式使MDM更强，但Prime证明无需AR也可超越ARM
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐⭐ 部分掩码突破二元状态限制，理论基础强
-- 实验充分度: ⭐⭐⭐⭐ 文本+图像双模态，但大规模图像数据验证不足
-- 写作质量: ⭐⭐⭐⭐ 概念清晰，理论推导完整
-- 价值: ⭐⭐⭐⭐⭐ 首次非 AR 超越 AR 的文本生成结果，对生成模型社区意义重大
+- 新颖性: ⭐⭐⭐⭐⭐ 部分掩码idea简洁有力，首次让MDM超越ARM是里程碑式结果
+- 实验充分度: ⭐⭐⭐⭐ 文本+图像跨模态验证，七个零样本基准，消融充分
+- 写作质量: ⭐⭐⭐⭐ 理论推导严谨，图示清晰
+- 价值: ⭐⭐⭐⭐⭐ 对离散扩散模型领域有重要推动

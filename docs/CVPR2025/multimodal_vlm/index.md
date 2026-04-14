@@ -38,6 +38,8 @@ description: >-
 
 **[Comm A Coherent Interleaved Image-Text Dataset For Multimodal Understanding And ](comm_a_coherent_interleaved_image-text_dataset_for_multimodal_understanding_and_.md)**
 
+:   针对现有交错图文数据集（MMC4/OBELICS）叙事连贯性差、实体风格不一致的核心问题，构建 CoMM 数据集（227K 文档、2.28M 图片），通过定向采集指令型内容 + 三维质量过滤策略确保文本连贯、图像一致、图文对齐，并提出 4 个交错生成评测任务。
+
 **[Completion As Enhancement A Degradation-Aware Selective Image Guided Network For](completion_as_enhancement_a_degradation-aware_selective_image_guided_network_for.md)**
 
 :   将图像增强重构为'补全'范式，通过退化感知选择机制引导网络聚焦于需要增强的区域，避免对已清晰区域的过度处理

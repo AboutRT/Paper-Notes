@@ -12,7 +12,7 @@ description: >-
 
 **[Adaptive Initial Residual Connections For Gnns With Theoretical Guarantees](adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md)**
 
-:   研究图神经网络中自适应初始残差连接（Adaptive IRC）——每个节点有个性化的残差强度——证明该方案防止过平滑（Dirichlet 能量有下界）、保持嵌入矩阵秩，在异质图上显著优于标准消息传递，并提出基于 PageRank 的非学习变体大幅降低复杂度。
+:   提出自适应初始残差连接（Adaptive IRC），允许每个节点拥有基于初始特征学习的个性化残差强度，首次证明带激活函数的初始残差连接的 Dirichlet 能量有正下界（保证不过平滑），并提出基于 PageRank 的启发式变体在避免学习额外参数的同时达到可比甚至更优性能。
 
 **[Adaptive Riemannian Graph Neural Networks](adaptive_riemannian_graph_neural_networks.md)**
 
@@ -136,7 +136,7 @@ description: >-
 
 **[Self-Adaptive Graph Mixture Of Models](self-adaptive_graph_mixture_of_models.md)**
 
-:   提出 SAGMM 框架，通过拓扑感知注意力门控机制（TAAG）自动选择和组合来自异构 GNN 专家池（GCN/GAT/GraphSAGE 等）的输出，并引入自适应专家剪枝策略，在 16 个基准数据集上的节点分类、图分类、回归和链接预测任务中全面超越单一 GNN 和现有 MoE 方法。
+:   提出 SAGMM（Self-Adaptive Graph Mixture of Models），一个利用架构多样性的图 MoE 框架，通过拓扑感知注意力门控（TAAG）自适应选择和组合异构 GNN 专家，配合自适应剪枝机制，在 16 个基准上覆盖节点分类、图分类、回归和链接预测，一致超越单一 GNN 和已有 MoE 方法。
 
 **[Sheaf Graph Neural Networks Via Pac-Bayes Spectral Optimization](sheaf_graph_neural_networks_via_pac-bayes_spectral_optimization.md)**
 

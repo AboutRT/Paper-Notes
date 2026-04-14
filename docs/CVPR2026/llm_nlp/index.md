@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 LLM/NLP方向 7篇论文解读
+  CVPR2026 LLM/NLP方向 6篇论文解读
 description: >-
-  7篇CVPR2026 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  6篇CVPR2026 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM/NLP
 
-**📷 CVPR2026** · 共 **7** 篇
+**📷 CVPR2026** · 共 **6** 篇
 
 **[Composing Concepts From Images And Videos Via Concept-Prompt Binding](composing_concepts_from_images_and_videos_via_concept-prompt_binding.md)**
 
@@ -17,10 +17,6 @@ description: >-
 **[Guide Guided Updates For In-Context Decision Evolution In Llm-Driven Spacecraft ](guide_guided_updates_for_in-context_decision_evolution_in_llm-driven_spacecraft_.md)**
 
 :   提出GUIDE框架，利用LLM的in-context学习能力为航天器自主操作提供引导式决策进化，通过结构化的上下文信息和反馈机制让LLM在无需微调的情况下逐步改善航天任务规划和故障诊断决策的质量。
-
-**[Iapl Aigenerated Image Detection Adaptive Prompt](iapl_aigenerated_image_detection_adaptive_prompt.md)**
-
-:   针对 AI 生成图像检测中现有方法难以泛化到未见生成器的问题，提出图像自适应提示学习（IAPL），在推理时根据每张测试图像动态调整输入到视觉编码器的 prompt——通过条件信息学习器提取伪造特征条件和测试时自适应 token 优化，在 UniversalFakeDetect 和 GenImage 数据集上分别达到 95.61% 和 96.7% 的 SOTA 平均准确率。
 
 **[Physvid Physics Aware Local Conditioning For Generative Video Models](physvid_physics_aware_local_conditioning_for_generative_video_models.md)**
 

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 强化学习方向 79篇论文解读
+  ICML2025 强化学习方向 78篇论文解读
 description: >-
-  79篇ICML2025 强化学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  78篇ICML2025 强化学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧪 ICML2025** · 共 **79** 篇
+**🧪 ICML2025** · 共 **78** 篇
 
 **[A Theoretical Study Of Hyper Self-Attention Through The Lens Of Interactions Rep](a_theoretical_study_of_hyper_self-attention_through_the_lens_of_interactions_rep.md)**
 
@@ -152,7 +152,7 @@ description: >-
 
 **[Learning Dynamics Under Environmental Constraints Via Measurement-Induced Bundle](learning_dynamics_under_environmental_constraints_via_measurement-induced_bundle.md)**
 
-:   提出几何框架将测量、约束和动力学学习统一在纤维丛结构中：测量不确定性自然诱导纤维丛，在此结构上定义测量感知的控制屏障函数，结合Neural ODE学习保几何约束的连续时间动力学。
+:   提出一种几何框架，利用测量过程自然诱导的纤维丛结构统一处理测量不确定性、系统约束和动力学学习：在纤维丛上定义测量感知控制屏障函数(mCBF)，结合Neural ODE学习连续时间动力学，在三个机器人控制任务上实现96.3%成功率和99.3%约束满足率。
 
 **[Learning Mean Field Control On Sparse Graphs](learning_mean_field_control_on_sparse_graphs.md)**
 
@@ -184,11 +184,7 @@ description: >-
 
 **[Mastering Massive Multi-Task Reinforcement Learning Via Mixture-Of-Expert Decisi](mastering_massive_multi-task_reinforcement_learning_via_mixture-of-expert_decisi.md)**
 
-:   提出 M3DT 框架，将 Mixture-of-Experts (MoE) 引入 Decision Transformer 架构，通过任务分组让每个专家只学习少量任务的特定知识，并设计三阶段训练机制（骨干→专家→路由器）依次优化各模块，成功将离线多任务 RL 扩展到 160 个仿真控制任务且性能持续提升。
-
-**[Mastering Massive Multi-Task Reinforcement Learning Via Mixture Of Expert Decision Transformer](mastering_massive_multi-task_reinforcement_learning_via_mixture_of_expert_decision_transformer.md)**
-
-:   提出M3DT，将MoE引入Decision Transformer解决大规模多任务RL的扩展性问题：通过任务分组让每个专家只学习任务子集，配合三阶段训练策略，成功扩展到160个任务。
+:   提出 M3DT 框架，将 MoE 引入 Decision Transformer 实现参数分离——通过任务分组让每个专家只学习一个小任务子集的特定知识，配合三阶段训练机制（骨干→专家→路由器）避免梯度冲突，增加专家数既扩展参数又降低任务负载，成功将离线多任务 RL 扩展到 160 个仿真控制任务。
 
 **[Maximum Total Correlation Reinforcement Learning](maximum_total_correlation_reinforcement_learning.md)**
 
@@ -232,7 +228,7 @@ description: >-
 
 **[Pigdreamer Privileged Information Guided World Models For Safe Partially Observa](pigdreamer_privileged_information_guided_world_models_for_safe_partially_observa.md)**
 
-:   提出PIGDreamer——用特权信息增强安全RL中的世界模型：理论上定义了ACPOMDP框架刻画特权信息在安全RL中的优势，实践上通过特权表示对齐+非对称Actor-Critic结构在部分可观测安全任务上超越现有方法。
+:   提出 ACPOMDPs 理论框架并构建 PIGDreamer，在训练阶段利用特权信息（如底层状态、传感器数据）通过表征对齐、特权预测器和非对称 Critic 三种方式增强基于世界模型的安全 RL，在部分可观测环境中以仅 28% 的额外训练时间获得 136% 的性能提升。
 
 **[Position Lifetime Tuning Is Incompatible With Continual Reinforcement Learning](position_lifetime_tuning_is_incompatible_with_continual_reinforcement_learning.md)**
 
@@ -304,7 +300,7 @@ description: >-
 
 **[The Courage To Stop Overcoming Sunk Cost Fallacy In Deep Reinforcement Learning](the_courage_to_stop_overcoming_sunk_cost_fallacy_in_deep_reinforcement_learning.md)**
 
-:   将"沉没成本谬误"概念引入深度RL：传统RL坚持跑完每个episode（即使轨迹已不好），提出LEAST机制——基于Q值和梯度统计判断何时提前终止episode，减少replay buffer污染并节省交互预算。
+:   提出 Learn to Stop（LEAST），一种轻量级自适应 episode 提前终止机制：维护最近 K 个 episode 的 Q 值和梯度幅值缓冲区，用步级中位数构造质量阈值 $\epsilon_i$ 和学习潜力权重 $\omega_i$，当当前 Q 值低于 $\omega_i \times \epsilon_i$ 时终止并重置；在 MuJoCo 四任务上为 TD3/SAC/REDQ 均带来显著提升（归一化分数从 0.65 提升到 0.70+），DMC 视觉 RL 的 Finger Turn Hard 任务收敛速度加快约 30%。
 
 **[The Impact Of On-Policy Parallelized Data Collection On Deep Reinforcement Learn](the_impact_of_on-policy_parallelized_data_collection_on_deep_reinforcement_learn.md)**
 

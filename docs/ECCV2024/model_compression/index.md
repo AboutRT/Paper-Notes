@@ -20,7 +20,7 @@ description: >-
 
 **[Adaptive Selection Of Samplingreconstruction In Fourier Comp](adaptive_selection_of_samplingreconstruction_in_fourier_comp.md)**
 
-:   提出ℋ1.5框架：为每个输入数据自适应选择最佳采样mask-重建网络对（J=3对），利用超分辨率空间生成模型量化高频贝叶斯不确定性来决定采样策略，理论证明优于联合优化ℋ1（非自适应）和自适应采样ℋ2（Pareto次优）。
+:   提出自适应选择采样-重建框架 $\mathcal{H}_{1.5}$，为每个输入数据自适应选择最佳的采样mask与专用重建网络对，利用超分辨率空间生成模型量化高频不确定性实现选择，理论证明优于非自适应联合优化 $\mathcal{H}_1$ 和自适应采样 $\mathcal{H}_2$。
 
 **[Anytime Continual Learning For Open Vocabulary Classification](anytime_continual_learning_for_open_vocabulary_classification.md)**
 

@@ -16,7 +16,7 @@ description: >-
 
 **[Aligning Large Language Models To Follow Instructions And Hallucinate Less Via E](aligning_large_language_models_to_follow_instructions_and_hallucinate_less_via_e.md)**
 
-:   提出 NOVA 框架——通过过滤掉 LLM "不熟悉"的指令数据来同时减少幻觉和保持指令遵从能力——Internal Consistency Probing（ICP）通过多次自生成回复的隐藏状态一致性评估 LLM 对指令的熟悉度，Semantic Equivalence Identification（SEI）通过语义聚类+投票评估 LLM 对目标回复的熟悉度，再用质量奖励模型确保数据质量。大幅减少幻觉同时保持指令遵从。
+:   提出NOVA框架，通过内部一致性探测(ICP)衡量LLM对指令的熟悉度+语义等价识别(SEI)衡量LLM对目标回复的熟悉度，筛选出知识对齐的高质量指令数据，仅用5%数据微调LLaMA-3-8B即可在BioGEN上提升8.6分、FollowRAG上提升7.2分，同时保持指令遵循能力。
 
 **[Answer When Needed Forget When Not Language Models Pretend To Forget Via In-Cont](answer_when_needed_forget_when_not_language_models_pretend_to_forget_via_in-cont.md)**
 

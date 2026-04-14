@@ -26,9 +26,9 @@ description: >-
 
 :   提出AdaptDel方法，将随机平滑(randomized smoothing)中的固定删除率扩展为**自适应删除率**，根据输入长度等属性动态调整删除概率，在编辑距离攻击下实现认证鲁棒性的巨大提升（认证区域基数提升最高30个数量级）。
 
-**[Associative Syntax and Maximal Repetitions Reveal Context-Dependent Complexity in Animal Vocalizations](associative_syntax_and_maximal_repetitions_reveal_context-dependent_complexity_i.md)**
+**[Associative Syntax And Maximal Repetitions Reveal Context-Dependent Complexity I](associative_syntax_and_maximal_repetitions_reveal_context-dependent_complexity_i.md)**
 
-:   提出基于"关联句法"和"最大重复"的信息论框架分析动物发声序列的结构复杂度，发现动物发声（如鲸鱼歌声）展现出上下文依赖的复杂句法结构，超越了简单的马尔可夫假设。
+:   提出无监督方法分析果蝠这一渐变发声系统的声学单元、句法类型与时间结构，首次将最大重复（Maximal Repetitions）应用于动物通信领域，发现冲突相关行为中的通信复杂度显著高于合作行为，推测这反映了"分歧信息的低压缩性"。
 
 **[Audsemthinker Enhancing Audio-Language Models Through Reasoning Over Semantics O](audsemthinker_enhancing_audio-language_models_through_reasoning_over_semantics_o.md)**
 
@@ -132,7 +132,7 @@ description: >-
 
 **[Sensorium Arc Ai Agent System For Oceanic Data Exploration And Interactive Eco-A](sensorium_arc_ai_agent_system_for_oceanic_data_exploration_and_interactive_eco-a.md)**
 
-:   构建了一个多模态交互式AI智能体系统"Sensorium Arc"，将海洋拟人化为诗意的讲述者，通过多智能体RAG架构将NASA海洋数据转化为沉浸式的视听体验，引导用户探索复杂海洋环境数据。
+:   本文构建了一个名为 Sensorium Arc 的多模态交互式 AI 智能体系统，通过将海洋拟人化为一个诗意的"讲述者"角色，利用多智能体 RAG 架构将 NASA 海洋科学数据与生态美学文本相结合，使用户能够以自然对话的方式探索复杂的海洋环境数据，同时在视听层面生成动态的科学可视化和艺术化反馈，实现从"被动数据观察"到"主动生态对话"的范式转变。
 
 **[Simulmega Moe Routers Are Advanced Policy Makers For Simultaneous Speech Transla](simulmega_moe_routers_are_advanced_policy_makers_for_simultaneous_speech_transla.md)**
 

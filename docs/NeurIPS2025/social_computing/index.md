@@ -32,7 +32,7 @@ description: >-
 
 **[Date-Lm Benchmarking Data Attribution Evaluation For Large Language Models](date-lm_benchmarking_data_attribution_evaluation_for_large_language_models.md)**
 
-:   DATE-LM是首个统一、应用驱动的LLM数据归因基准，涵盖数据选择、毒性过滤、事实归因三大应用，通过公开排行榜促进可复现和公平的方法比较。
+:   DATE-LM构建了首个面向LLM的统一数据归因评估基准，通过训练数据选择、毒性过滤和事实归因三大应用驱动任务系统评估多种归因方法，发现无单一方法全面占优且简单基线在某些场景可媲美归因方法。
 
 **[Deeptraverse A Depth-First Search Inspired Network For Algorithmic Visual Unders](deeptraverse_a_depth-first_search_inspired_network_for_algorithmic_visual_unders.md)**
 

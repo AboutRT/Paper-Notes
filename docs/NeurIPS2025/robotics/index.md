@@ -28,7 +28,7 @@ description: >-
 
 **[Bridging Embodiment Gaps Deploying Vision-Language-Action Models On Soft Robots](bridging_embodiment_gaps_deploying_vision-language-action_models_on_soft_robots.md)**
 
-:   首次在柔性连续体机械臂上部署 VLA 模型（OpenVLA-OFT 和 π₀），发现开箱即用的策略因构型不匹配完全失败，但通过针对性微调可弥合刚性-柔性的 embodiment gap，使柔性机器人在操作任务上达到与刚性 UR5 相当的成功率——证明 VLA + 柔性机器人可实现安全的人机交互。
+:   本文首次将 VLA（Vision-Language-Action）模型部署到软体连续体机械臂 Embuddy 上，发现开箱即用的刚性机器人预训练策略因运动学和动力学差异完全失败，但通过在少量软体机器人示范数据上进行针对性微调，可以成功弥合刚性-软体之间的实体鸿沟，使软体平台在抓取和人机交互任务上达到与 UR5 刚性臂相当的任务完成率。
 
 **[C-Nav Towards Self-Evolving Continual Object Navigation In Open World](c-nav_towards_self-evolving_continual_object_navigation_in_open_world.md)**
 
@@ -36,7 +36,7 @@ description: >-
 
 **[Can Agents Fix Agent Issues](can_agents_fix_agent_issues.md)**
 
-:   AgentIssue-Bench(50个bug任务)评估SE代理解决LLM代理bug的能力，仅0.67%-4.67%解决率。
+:   本文首次系统地研究了 LLM-based Agent 系统的 issue 自动修复问题——通过人工分析 201 个真实 Agent issue 构建了涵盖 6 大类 20 个子类的 Agent issue 分类体系，耗费 500 人时构建了包含 50 个可复现任务的 AgentIssue-Bench 基准，并评估发现当前最先进的软件工程 Agent（如 SWE-agent、Agentless、AutoCodeRover）在 Agent issue 上的正确修复率仅为 3.33%–12.67%，远低于它们在传统软件上的 23%–51% 修复率。
 
 **[Cogvla Cognition-Aligned Vision-Language-Action Model Via Instruction-Driven Rou](cogvla_cognition-aligned_vision-language-action_model_via_instruction-driven_rou.md)**
 
@@ -60,11 +60,11 @@ description: >-
 
 **[Egothinker Unveiling Egocentric Reasoning With Spatiotempora](egothinker_unveiling_egocentric_reasoning_with_spatiotempora.md)**
 
-:   针对第一人称视频推理中“主体不可见、意图隐含、交互细粒度”的挑战，EgoThinker 提出时空 CoT 监督与两阶段训练（SFT + RFT），并构建 EgoRe-5M 大规模 egocentric QA 数据，显著提升 MLLM 在自我中心视频推理与时空定位任务上的表现。
+:   EgoThinker构建了500万规模的第一人称推理QA数据集EgoRe-5M（含CoT标注和手物定位数据），通过SFT建立基础推理能力后用GRPO强化微调精细化时空定位，在多个第一人称视频基准上达到SOTA。
 
 **[Enginuity Building An Open Multi-Domain Dataset Of Complex Engineering Diagrams](enginuity_building_an_open_multi-domain_dataset_of_complex_engineering_diagrams.md)**
 
-:   提出 Enginuity——首个大规模开放多领域工程图数据集（50K+ 标注图），涵盖层级组件关系与连接语义，旨在突破当前 AI 无法理解工程图中视觉-结构知识的瓶颈。
+:   提出 Enginuity——首个面向 AI 自动解析工程图的大规模开放多领域数据集方案，计划构建 50K+ 带有层级组件关系、空间连接和语义角色标注的汽车工程图，通过四阶段人机协同标注管线实现高质量与低成本的平衡，并定义了从符号检测到数字孪生生成的完整任务体系，为多模态大模型理解工程图中的视觉-结构知识提供了首个系统性基准资源。
 
 **[Explaining And Mitigating Crosslingual Tokenizer Inequities](explaining_and_mitigating_crosslingual_tokenizer_inequities.md)**
 
@@ -116,7 +116,7 @@ description: >-
 
 **[Manipulating Feature Visualizations With Gradient Slingshots](manipulating_feature_visualizations_with_gradient_slingshots.md)**
 
-:   提出梯度弹弓攻击，通过利用分布外梯度轨迹操纵神经网络特征可视化结果，无需修改模型参数，揭示特征可视化作为解释性工具的脆弱性。
+:   提出梯度弹弓（Gradient Slingshots）方法，通过在分布外区域刻画抛物面形状的激活景观，使特征可视化（Feature Visualization）的梯度优化从随机初始化收敛到任意预设目标图像，同时保持模型架构不变、分类性能几乎不受影响、内部表示基本保留——暴露了 FV 作为审计工具的严重脆弱性。
 
 **[Mesatask Towards Task-Driven Tabletop Scene Generation Via 3D Spatial Reasoning](mesatask_towards_task-driven_tabletop_scene_generation_via_3d_spatial_reasoning.md)**
 
@@ -132,7 +132,7 @@ description: >-
 
 **[Mip Against Agent Malicious Image Patches Hijacking Multimod](mip_against_agent_malicious_image_patches_hijacking_multimod.md)**
 
-:   揭示针对多模态OS Agent的新型攻击向量——Malicious Image Patches (MIPs)：在屏幕截图中嵌入人类不可察觉的对抗性扰动图像块，当OS Agent截屏时自动触发恶意行为（如数据泄露、内存溢出），且可跨用户指令、屏幕布局和屏幕解析器泛化，甚至具备"计算机蠕虫"般的自传播潜力。
+:   揭示针对多模态OS Agent的新型对抗攻击MIP(Malicious Image Patches)：在屏幕截图中嵌入人眼不可察觉的对抗性扰动图像块(约占屏幕1/7面积)，当OS Agent截屏捕获后会输出预定义的恶意API调用序列；通过联合优化实现跨用户指令和屏幕布局的Universal泛化，攻击成功率高达100%。
 
 **[Mmtu A Massive Multi-Task Table Understanding And Reasoning Benchmark](mmtu_a_massive_multi-task_table_understanding_and_reasoning_benchmark.md)**
 

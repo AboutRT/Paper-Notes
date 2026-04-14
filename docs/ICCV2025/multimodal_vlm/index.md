@@ -128,7 +128,7 @@ description: >-
 
 **[Dita Scaling Diffusion Transformer For Generalist Visionlang](dita_scaling_diffusion_transformer_for_generalist_visionlang.md)**
 
-:   提出Dita，用Transformer架构进行统一的多模态扩散过程直接去噪连续动作序列，通过in-context conditioning实现去噪动作与历史视觉观察的细粒度对齐，在跨embodiment数据集上scaling后实现SOTA仿真性能和10-shot真实世界长horizon任务适应。
+:   提出Dita(Diffusion Transformer Policy)，区别于先前方法用浅层网络在embedding上去噪，采用in-context conditioning让去噪直接条件化于原始视觉token，通过causal Transformer处理语言+图像+timestep+噪声动作的完整token序列，334M参数在SimplerEnv零样本/LIBERO/CALVIN等benchmark上达到SOTA或可比性能。
 
 **[Docthinker Explainable Multimodal Large Language Models With](docthinker_explainable_multimodal_large_language_models_with.md)**
 
@@ -180,7 +180,7 @@ description: >-
 
 **[Falcon Resolving Visual Redundancy And Fragmentation In High](falcon_resolving_visual_redundancy_and_fragmentation_in_high.md)**
 
-:   针对高分辨率MLLM中裁切子图导致的视觉编码分裂和token冗余问题，提出可学习的Visual Registers在encoder内部自适应聚合关键信息（ReCompact）并跨子图交互（ReAtten），实现9倍视觉token压缩且性能更优。
+:   提出 FALCON，通过在 ViT 中引入可学习的视觉寄存器（Visual Register），利用 ReCompact 机制在编码阶段直接消除视觉冗余（9 倍 token 压缩），并用 ReAtten 模块通过寄存器间交互解决裁切导致的视觉碎片化问题。
 
 **[Feather The Throttle Revisiting Visual Token Pruning For Vis](feather_the_throttle_revisiting_visual_token_pruning_for_vis.md)**
 
@@ -244,7 +244,7 @@ description: >-
 
 **[Harmonizing Visual Representations For Unified Multimodal Un](harmonizing_visual_representations_for_unified_multimodal_un.md)**
 
-:   发现Masked Autoregressive (MAR)模型的编码器同时具备优秀的语义理解能力和生成能力，基于此提出Harmon框架——用共享的MAR编码器统一视觉理解和生成任务，通过三阶段渐进训练在生成benchmark上达SOTA同时在理解benchmark上匹配专用语义编码器方法。
+:   发现掩码自回归（MAR）模型的编码器天然兼具生成所需的细粒度图像特征和理解所需的高层语义表示，据此提出Harmon——以共享MAR编码器统一图像生成与理解的自回归框架，通过三阶段渐进训练在GenEval上以0.76 Overall超越所有统一模型，同时理解能力匹配使用独立SigLIP编码器的Janus系列。
 
 **[Hints Of Prompt Enhancing Visual Representation For Multimodal Llms In Autonomou](hints_of_prompt_enhancing_visual_representation_for_multimodal_llms_in_autonomou.md)**
 
@@ -328,7 +328,7 @@ description: >-
 
 **[Metamorph Multimodal Understanding And Generation Via Instruction Tuning](metamorph_multimodal_understanding_and_generation_via_instruction_tuning.md)**
 
-:   提出 Visual-Predictive Instruction Tuning（VPiT），通过简洁的指令微调扩展使预训练 LLM 同时输出文本 token 和连续视觉 token，发现视觉生成能力作为理解能力的自然副产物涌现，并训练了统一模型 MetaMorph 在理解和生成基准上均达到竞争水平。
+:   提出 Visual-Predictive Instruction Tuning（VPiT），仅通过轻量级指令微调即可将预训练 LLM 扩展为同时理解和生成视觉 token 的统一模型 MetaMorph，发现视觉生成能力是视觉理解的自然副产物且两者互利不对称。
 
 **[Mitigating Object Hallucinations Via Sentence-Level Early Intervention](mitigating_object_hallucinations_via_sentence-level_early_intervention.md)**
 
@@ -432,7 +432,7 @@ description: >-
 
 **[Scaling Laws For Native Multimodal Models](scaling_laws_for_native_multimodal_models.md)**
 
-:   通过训练457个不同架构和训练配比的模型进行系统性scaling law研究，发现Native Multimodal Models（NMM）的early-fusion架构（不依赖视觉编码器/tokenizer）在小参数量时优于late-fusion，训练更高效且部署更简单，结合MoE可进一步显著提升性能。
+:   通过训练457个不同架构、规模和训练配比的模型，系统研究Native Multimodal Models（NMM）的scaling law，发现early-fusion架构（不依赖预训练视觉编码器）在小参数规模时优于late-fusion，训练更高效，部署更简单，引入MoE可进一步显著提升性能。
 
 **[Scan Bootstrapping Contrastive Pre-Training For Data Efficiency](scan_bootstrapping_contrastive_pre-training_for_data_efficiency.md)**
 

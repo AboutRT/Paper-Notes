@@ -16,7 +16,7 @@ description: >-
 
 **[Flowdrag 3D-Aware Drag-Based Image Editing With Mesh-Guided Deformation Vector F](flowdrag_3d-aware_drag-based_image_editing_with_mesh-guided_deformation_vector_f.md)**
 
-:   提出 FlowDrag，通过从图像构建 3D 网格并利用 SR-ARAP 变形传播拖拽信息生成 2D 向量流场，解决了现有 drag-based 编辑方法的几何不一致性问题。
+:   提出 FlowDrag，从图像构建 3D 网格后利用渐进式 SR-ARAP 变形生成连续 2D 向量流场，将全局几何先验注入扩散模型的 motion supervision 过程，在 DragBench（MD=22.88）和新提出的 VFD-Bench（PSNR=18.55, 1-LPIPS=0.82, MD=28.23）上全面领先。
 
 **[Freemesh Boosting Mesh Generation With Coordinates Merging](freemesh_boosting_mesh_generation_with_coordinates_merging.md)**
 

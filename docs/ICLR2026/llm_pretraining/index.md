@@ -64,7 +64,7 @@ description: >-
 
 **[Moma A Modular Deep Learning Framework For Material Property Prediction](moma_a_modular_deep_learning_framework_for_material_property_prediction.md)**
 
-:   提出MoMa——材料属性预测的模块化框架：先为多样化材料任务训练专用模块(full模块或adapter)集中到MoMa Hub,再通过自适应模块组合(AMC, 基于kNN表示传播+凸优化)为新任务选择最优模块加权组合后微调,在17个数据集上平均超越最强基线14%,少样本场景增益更大。
+:   提出 MoMa 模块化材料属性预测框架，先在多任务上训练专用模块并集中存储为 MoMa Hub，再通过表示驱动的无训练自适应模块组合算法（AMC）为下游任务定制模型，在 17 个数据集上平均超越最强基线 14%。
 
 **[Mt-Dao Multi-Timescale Distributed Adaptive Optimizers With Local Updates](mt-dao_multi-timescale_distributed_adaptive_optimizers_with_local_updates.md)**
 

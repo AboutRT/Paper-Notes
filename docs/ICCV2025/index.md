@@ -777,7 +777,7 @@ description: >-
 
 **[Materialmvp Illumination-Invariant Material Generation Via Multi-View Pbr Diffus](3d_vision/materialmvp_illumination-invariant_material_generation_via_multi-view_pbr_diffus.md)**
 
-:   MaterialMVP 是一个端到端的多视图 PBR 纹理生成模型，通过参考注意力、一致性正则化训练和双通道材质生成框架，从3D网格和图像提示生成光照不变且多视图一致的高质量 PBR 材质。
+:   MaterialMVP是一个端到端的多视图PBR纹理生成模型，通过一致性正则化训练解耦光照、双通道材质生成框架（MCAA + Learnable Material Embeddings）对齐albedo和metallic-roughness贴图，从3D网格和图像prompt一步生成高质量、光照不变、多视图一致的PBR材质。
 
 **[Mega Memory-Efficient 4D Gaussian Splatting For Dynamic Scenes](3d_vision/mega_memory-efficient_4d_gaussian_splatting_for_dynamic_scenes.md)**
 
@@ -813,7 +813,7 @@ description: >-
 
 **[Monomobility Zero-Shot 3D Mobility Analysis From Monocular Videos](3d_vision/monomobility_zero-shot_3d_mobility_analysis_from_monocular_videos.md)**
 
-:   MonoMobility 提出首个从单目视频零样本分析关节物体运动部件及运动属性（运动轴、运动类型）的框架，通过2D高斯泼溅场景表示和端到端动态场景优化算法，无需标注数据即可处理旋转、平移及复合运动。
+:   MonoMobility提出首个从单目视频零样本分析关节物体运动部件及运动属性（运动轴和运动类型）的框架，通过组合深度估计、光流分割等现成工具进行初始分析，再用2D高斯泼溅和专门设计的关节物体动态场景优化算法自监督精细化结果，无需任何标注数据即可处理旋转、平移和复合运动。
 
 **[Mugs Multi-Baseline Generalizable Gaussian Splatting Reconstruction](3d_vision/mugs_multi-baseline_generalizable_gaussian_splatting_reconstruction.md)**
 
@@ -1265,7 +1265,7 @@ description: >-
 
 **[Aether Geometricaware Unified World Modeling](image_generation/aether_geometricaware_unified_world_modeling.md)**
 
-:   提出Aether统一框架，通过任务交错特征学习联合优化4D动态重建、动作条件视频预测和目标条件视觉规划三个核心能力，实现geometry-aware的世界建模，纯合成数据训练即可零样本泛化到真实世界。
+:   提出Aether统一世界模型，在合成RGB-D数据上后训练CogVideoX视频扩散模型，通过随机组合输入/输出模态的多任务训练策略，同时实现4D重建、动作条件视频预测和目标条件视觉规划，且零样本迁移到真实世界数据达到与领域专用模型可比的性能。
 
 **[Aid Adapting Image2Video Diffusion Models For Instruction-Guided Video Predictio](image_generation/aid_adapting_image2video_diffusion_models_for_instruction-guided_video_predictio.md)**
 
@@ -1393,7 +1393,7 @@ description: >-
 
 **[Dense2Moe Restructuring Diffusion Transformer To Moe For Eff](image_generation/dense2moe_restructuring_diffusion_transformer_to_moe_for_eff.md)**
 
-:   首次将预训练的dense DiT（如FLUX.1）转换为Mixture-of-Experts结构实现结构化稀疏推理，通过Taylor度量专家初始化+知识蒸馏+Mixture-of-Blocks进一步稀疏化，在激活参数减少60%的同时保持原始生成质量，全面超越剪枝方法。
+:   首次将预训练的dense DiT（FLUX.1 [dev] 12B参数）通过三步蒸馏pipeline转换为结构化稀疏的MoE架构——用MoE层替换FFN实现token级稀疏、用Mixture of Blocks（MoB）实现block级动态跳过——激活参数从12B降至5.2B（减少56%+）的同时保持原始性能，全面超越同等压缩比的剪枝方法。
 
 **[Dense2Moe Restructuring Diffusion Transformer To Moe For Efficient Text-To-Image](image_generation/dense2moe_restructuring_diffusion_transformer_to_moe_for_efficient_text-to-image.md)**
 
@@ -2217,7 +2217,7 @@ description: >-
 
 **[Dita Scaling Diffusion Transformer For Generalist Visionlang](multimodal_vlm/dita_scaling_diffusion_transformer_for_generalist_visionlang.md)**
 
-:   提出Dita，用Transformer架构进行统一的多模态扩散过程直接去噪连续动作序列，通过in-context conditioning实现去噪动作与历史视觉观察的细粒度对齐，在跨embodiment数据集上scaling后实现SOTA仿真性能和10-shot真实世界长horizon任务适应。
+:   提出Dita(Diffusion Transformer Policy)，区别于先前方法用浅层网络在embedding上去噪，采用in-context conditioning让去噪直接条件化于原始视觉token，通过causal Transformer处理语言+图像+timestep+噪声动作的完整token序列，334M参数在SimplerEnv零样本/LIBERO/CALVIN等benchmark上达到SOTA或可比性能。
 
 **[Docthinker Explainable Multimodal Large Language Models With](multimodal_vlm/docthinker_explainable_multimodal_large_language_models_with.md)**
 
@@ -2269,7 +2269,7 @@ description: >-
 
 **[Falcon Resolving Visual Redundancy And Fragmentation In High](multimodal_vlm/falcon_resolving_visual_redundancy_and_fragmentation_in_high.md)**
 
-:   针对高分辨率MLLM中裁切子图导致的视觉编码分裂和token冗余问题，提出可学习的Visual Registers在encoder内部自适应聚合关键信息（ReCompact）并跨子图交互（ReAtten），实现9倍视觉token压缩且性能更优。
+:   提出 FALCON，通过在 ViT 中引入可学习的视觉寄存器（Visual Register），利用 ReCompact 机制在编码阶段直接消除视觉冗余（9 倍 token 压缩），并用 ReAtten 模块通过寄存器间交互解决裁切导致的视觉碎片化问题。
 
 **[Feather The Throttle Revisiting Visual Token Pruning For Vis](multimodal_vlm/feather_the_throttle_revisiting_visual_token_pruning_for_vis.md)**
 
@@ -2333,7 +2333,7 @@ description: >-
 
 **[Harmonizing Visual Representations For Unified Multimodal Un](multimodal_vlm/harmonizing_visual_representations_for_unified_multimodal_un.md)**
 
-:   发现Masked Autoregressive (MAR)模型的编码器同时具备优秀的语义理解能力和生成能力，基于此提出Harmon框架——用共享的MAR编码器统一视觉理解和生成任务，通过三阶段渐进训练在生成benchmark上达SOTA同时在理解benchmark上匹配专用语义编码器方法。
+:   发现掩码自回归（MAR）模型的编码器天然兼具生成所需的细粒度图像特征和理解所需的高层语义表示，据此提出Harmon——以共享MAR编码器统一图像生成与理解的自回归框架，通过三阶段渐进训练在GenEval上以0.76 Overall超越所有统一模型，同时理解能力匹配使用独立SigLIP编码器的Janus系列。
 
 **[Hints Of Prompt Enhancing Visual Representation For Multimodal Llms In Autonomou](multimodal_vlm/hints_of_prompt_enhancing_visual_representation_for_multimodal_llms_in_autonomou.md)**
 
@@ -2417,7 +2417,7 @@ description: >-
 
 **[Metamorph Multimodal Understanding And Generation Via Instruction Tuning](multimodal_vlm/metamorph_multimodal_understanding_and_generation_via_instruction_tuning.md)**
 
-:   提出 Visual-Predictive Instruction Tuning（VPiT），通过简洁的指令微调扩展使预训练 LLM 同时输出文本 token 和连续视觉 token，发现视觉生成能力作为理解能力的自然副产物涌现，并训练了统一模型 MetaMorph 在理解和生成基准上均达到竞争水平。
+:   提出 Visual-Predictive Instruction Tuning（VPiT），仅通过轻量级指令微调即可将预训练 LLM 扩展为同时理解和生成视觉 token 的统一模型 MetaMorph，发现视觉生成能力是视觉理解的自然副产物且两者互利不对称。
 
 **[Mitigating Object Hallucinations Via Sentence-Level Early Intervention](multimodal_vlm/mitigating_object_hallucinations_via_sentence-level_early_intervention.md)**
 
@@ -2521,7 +2521,7 @@ description: >-
 
 **[Scaling Laws For Native Multimodal Models](multimodal_vlm/scaling_laws_for_native_multimodal_models.md)**
 
-:   通过训练457个不同架构和训练配比的模型进行系统性scaling law研究，发现Native Multimodal Models（NMM）的early-fusion架构（不依赖视觉编码器/tokenizer）在小参数量时优于late-fusion，训练更高效且部署更简单，结合MoE可进一步显著提升性能。
+:   通过训练457个不同架构、规模和训练配比的模型，系统研究Native Multimodal Models（NMM）的scaling law，发现early-fusion架构（不依赖预训练视觉编码器）在小参数规模时优于late-fusion，训练更高效，部署更简单，引入MoE可进一步显著提升性能。
 
 **[Scan Bootstrapping Contrastive Pre-Training For Data Efficiency](multimodal_vlm/scan_bootstrapping_contrastive_pre-training_for_data_efficiency.md)**
 
@@ -2853,7 +2853,7 @@ description: >-
 
 **[Lookout Real-World Humanoid Egocentric Navigation](autonomous_driving/lookout_real-world_humanoid_egocentric_navigation.md)**
 
-:   提出LookOut，从自我中心视频预测未来6D头部姿态轨迹（包含平移+旋转），通过时序聚合3D DINO特征理解场景几何/语义约束，并贡献了基于Project Aria眼镜采集的4小时真实世界导航数据集AND。
+:   LookOut 提出从第一人称带位姿视频中预测未来 4.5 秒内的 6D 头部姿态序列（平移 + 旋转），通过将 DINOv2 特征反投影到 3D 空间再压缩为 BEV 表示来理解场景几何与语义，在自采集的 4 小时真实世界动态场景数据集上学习到等待、绕行、过马路前左右张望等类人导航行为。
 
 **[Maestro Task-Relevant Optimization Via Adaptive Feature Enhancement And Suppress](autonomous_driving/maestro_task-relevant_optimization_via_adaptive_feature_enhancement_and_suppress.md)**
 
@@ -3381,7 +3381,7 @@ description: >-
 
 **[Dollar Fewstep Video Generation Via Distillation And Latent](video_understanding/dollar_fewstep_video_generation_via_distillation_and_latent.md)**
 
-:   结合变分分数蒸馏（VSD）和一致性蒸馏实现few-step视频生成，同时提出潜空间奖励模型微调方法进一步优化生成质量，4步生成的10秒视频（128帧@12FPS）在VBench上达82.57分超越teacher模型和Gen-3/Kling等基线，1步蒸馏实现278.6倍加速。
+:   结合变分分数蒸馏（VSD）和一致性蒸馏实现少步视频生成，同时提出潜空间奖励模型微调方法进一步优化特定质量维度，4步student模型在VBench上达82.57分超越teacher模型和Gen-3/Kling等商业基线，1步蒸馏实现278.6倍采样加速。
 
 **[Dreamrelation Relation-Centric Video Customization](video_understanding/dreamrelation_relation-centric_video_customization.md)**
 
@@ -3569,7 +3569,7 @@ description: >-
 
 **[Vace Allinone Video Creation And Editing](video_understanding/vace_allinone_video_creation_and_editing.md)**
 
-:   提出VACE统一视频生成和编辑框架，通过Video Condition Unit（VCU）将参考图→视频生成、视频→视频编辑、mask视频编辑等多种任务的输入统一为标准接口，配合Context Adapter注入时空条件信息，单一模型在各子任务上达到专用模型水平并支持灵活的任务组合。
+:   提出VACE统一视频创建和编辑框架，通过Video Condition Unit(VCU)将文本/图像/视频/掩码统一为条件输入，结合Context Adapter注入任务概念到DiT模型，首次在单一视频DiT中同时支持参考生成、视频编辑、掩码编辑及其自由组合。
 
 **[Vamba Understanding Hour-Long Videos With Hybrid Mamba-Transformers](video_understanding/vamba_understanding_hour-long_videos_with_hybrid_mamba-transformers.md)**
 
@@ -5169,7 +5169,7 @@ description: >-
 
 **[Gtr Guided Thought Reinforcement Prevents Thought Collapse I](llm_agent/gtr_guided_thought_reinforcement_prevents_thought_collapse_i.md)**
 
-:   发现VLM agent在仅基于结果奖励的RL训练中会出现"思维坍塌"（thought collapse）——推理多样性急剧丧失、生成无关推理和无效动作。提出GTR框架通过自动纠正器在每步RL中评估和精炼agent推理，无需人工标注，LLaVA-7b在多种视觉环境中任务成功率提升3-5倍。
+:   发现RL训练VLM Agent时的"思维坍塌"现象——CoT推理迅速退化为与状态无关的模板化思维并导致无效动作，提出GTR框架用VLM纠正器自动修正思维(SFT) + PPO优化动作的双目标训练，在24点游戏和ALFWorld上实现3-5倍的成功率提升。
 
 **[Less Is More Empowering Gui Agent With Context-Aware Simplification](llm_agent/less_is_more_empowering_gui_agent_with_context-aware_simplification.md)**
 
@@ -5185,7 +5185,7 @@ description: >-
 
 **[Corvid Improving Multimodal Large Language Models Towards Ch](llm_reasoning/corvid_improving_multimodal_large_language_models_towards_ch.md)**
 
-:   提出Corvid，通过混合视觉编码器+GateMixer连接器增强视觉表示、MCoT-Instruct-287K高质量CoT指令数据集+两阶段CoT训练增强推理能力、以及推理时自验证策略避免过度/不足推理，在数学推理和科学问题解决上超越同规模o1-like MLLM。
+:   提出Corvid MLLM，通过混合视觉编码器(SigLIP+ConvNeXt)+GateMixer门控连接器+MCoT-Instruct-287K高质量CoT数据+推理时自验证策略，三阶段训练实现超越同规模o1-like模型的CoT推理能力。
 
 **[Corvid Improving Multimodal Large Language Models Towards Chain-Of-Thought Reaso](llm_reasoning/corvid_improving_multimodal_large_language_models_towards_chain-of-thought_reaso.md)**
 

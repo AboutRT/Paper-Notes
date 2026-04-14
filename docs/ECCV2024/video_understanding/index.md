@@ -88,7 +88,7 @@ description: >-
 
 **[Nymeria A Massive Collection Of Multimodal Egocentric Daily ](nymeria_a_massive_collection_of_multimodal_egocentric_daily_.md)**
 
-:   Nymeria是全球最大野外人体运动数据集，300h/264人多设备多模态自我中心数据和310.5K句语言描述。
+:   构建了全球最大的野外人体运动数据集Nymeria：300小时日常活动、264人、50个场景、多设备多模态自我中心数据（Project Aria眼镜+手环+动捕服），配备亚毫秒级同步和310.5K句层次化运动语言描述。
 
 **[Nymeria A Massive Collection Of Multimodal Egocentric Daily Motion In The Wild](nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild.md)**
 
@@ -108,7 +108,7 @@ description: >-
 
 **[R2Tuning Efficient Imagetovideo Transfer Learning For Video](r2tuning_efficient_imagetovideo_transfer_learning_for_video.md)**
 
-:   R²-Tuning提出了一个仅需1.5%参数的轻量R²Block，通过从CLIP后层向前层的逆向递归方式聚合多层空间特征并精化时序关联，在6个VTG基准上以2.7M参数超越了使用额外时序骨干的4倍大方法。
+:   提出 R²-Tuning，通过在冻结 CLIP 的后几层反向递归附加轻量 R² Block（仅 1.5% 总参数），实现查询调制的空间池化和粗到细的时序精炼，在 6 个 VTG 基准 3 个任务上以 2.7M 参数超越了需要额外时序骨干网络的 SOTA 方法。
 
 **[Referring Atomic Video Action Recognition](referring_atomic_video_action_recognition.md)**
 

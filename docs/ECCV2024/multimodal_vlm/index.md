@@ -16,7 +16,7 @@ description: >-
 
 **[Adashield Safeguarding Multimodal Large Language Models From Structure-Based Att](adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md)**
 
-:   AdaShield通过在MLLM输入前添加防御提示(defense prompt)来防御结构化越狱攻击（图像中嵌入有害文本），提出静态手动提示和自适应自动精化框架两种方案，无需微调模型即可显著提升安全性且不损害正常能力。
+:   提出AdaShield框架，通过精心设计的静态防御提示(AdaShield-S)和基于LLM的自适应迭代优化框架(AdaShield-A)，在不微调MLLM或训练额外模块的前提下，有效防御结构化越狱攻击，将攻击成功率从75%以上降至15%以下并保持正常任务性能。
 
 **[Addressclip Empowering Vision-Language Models For City-Wide Image Address Locali](addressclip_empowering_vision-language_models_for_city-wide_image_address_locali.md)**
 
@@ -32,7 +32,7 @@ description: >-
 
 **[Attention Prompting On Image For Large Visionlanguage Models](attention_prompting_on_image_for_large_visionlanguage_models.md)**
 
-:   API用辅助VLM根据文本查询生成注意力热力图叠加原图，引导LVLM关注相关区域。
+:   提出Attention Prompting on Image（API），用辅助VLM（如CLIP或LLaVA）根据文本查询生成注意力归因热力图，将其叠加到原始图像上作为视觉提示，在无需训练的情况下提升LVLM在多个VL基准上的表现（LLaVA-1.5 在MM-Vet上+3.8%）。
 
 **[Bad Students Make Great Teachers Active Learning Accelerates Large-Scale Visual ](bad_students_make_great_teachers_active_learning_accelerates_large-scale_visual_.md)**
 
@@ -76,7 +76,7 @@ description: >-
 
 **[Decoupling Common And Unique Representations For Multimodal ](decoupling_common_and_unique_representations_for_multimodal_.md)**
 
-:   DeCUR将嵌入维度分为跨模态公共和模态独特维度进行多模态自监督学习。
+:   将Barlow Twins扩展到多模态场景，通过将嵌入维度显式分为跨模态公共（对齐到identity矩阵）和模态独特（推到零矩阵）两部分，配合模态内自监督训练避免退化，在SAR-光学、RGB-DEM、RGB-深度三类场景中一致超越SimCLR-cross和Barlow Twins基线。
 
 **[Decoupling Common And Unique Representations For Multimodal Self-Supervised Lear](decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)**
 
@@ -88,7 +88,7 @@ description: >-
 
 **[Elevating All Zeroshot Sketchbased Image Retrieval Through M](elevating_all_zeroshot_sketchbased_image_retrieval_through_m.md)**
 
-:   SpLIP提出双向prompt共享用于零样本sketch检索，配合自适应margin和跨模态拼图任务。
+:   提出SpLIP，在冻结CLIP backbone上实现双向prompt共享（视觉→文本、文本→视觉），结合自适应margin三元组损失和条件跨模态拼图任务，首次将多模态prompt learning引入ZS-SBIR，在Sketchy-Ext、TU-Berlin-Ext、QuickDraw-Ext上全面超越现有方法。
 
 **[Eyes Closed Safety On Protecting Multimodal Llms Via Image-To-Text Transformatio](eyes_closed_safety_on_protecting_multimodal_llms_via_image-to-text_transformatio.md)**
 
@@ -104,7 +104,7 @@ description: >-
 
 **[Flexattention For Efficient Highresolution Visionlanguage Mo](flexattention_for_efficient_highresolution_visionlanguage_mo.md)**
 
-:   FlexAttention动态选择约10%高分辨率token进行层次自注意力，计算成本降40%且性能超越。
+:   提出FlexAttention注意力机制，通过注意力图引导动态选取约10%的高分辨率token并经层次化自注意力融合到LLM隐状态中，实现计算成本降低约40%的同时在V* Bench等高分辨率基准上超越现有方法。
 
 **[Freemotion Mocap-Free Human Motion Synthesis With Multimodal Large Language Mode](freemotion_mocap-free_human_motion_synthesis_with_multimodal_large_language_mode.md)**
 
@@ -208,7 +208,7 @@ description: >-
 
 **[Omniviewtuning Boosting Viewpoint Invariance Of Visionlangua](omniviewtuning_boosting_viewpoint_invariance_of_visionlangua.md)**
 
-:   OVT构建400万+MVCap数据集+Cross-Viewpoint Alignment提升VLP视角不变性。
+:   构建460万多视角图文对数据集MVCap，提出Omniview-Tuning（OVT）框架，通过minimax式Cross-Viewpoint Alignment目标 + LoRA/VIFormer参数高效微调，在不损失原始性能的前提下将CLIP在视角OOD基准上的准确率平均提升约9-10%。
 
 **[Quantized Prompt For Efficient Generalization Of Vision-Language Models](quantized_prompt_for_efficient_generalization_of_vision-language_models.md)**
 
@@ -228,7 +228,7 @@ description: >-
 
 **[Robust Calibration Of Large Visionlanguage Adapters](robust_calibration_of_large_visionlanguage_adapters.md)**
 
-:   CLIP适配方法OOD校准退化的根因是logit范围增大，提出SaLS等方案。
+:   发现CLIP适配方法（Prompt Learning、Adapters、Test-Time Adaptation）在OOD上的校准退化根因是logit范围（range）增大而非logit范数（norm），提出三种方案——ZS-Norm、Penalty和SaLS（Sample-adaptive Logit Scaling），其中SaLS无需训练即可在推理时将ECE降低50%以上。
 
 **[Select And Distill Selective Dual-Teacher Knowledge Transfer For Continual Learn](select_and_distill_selective_dual-teacher_knowledge_transfer_for_continual_learn.md)**
 

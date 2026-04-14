@@ -1,88 +1,111 @@
 ---
-title: >-
-  [论文解读] NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation
-description: >-
-  [NeurIPS 2025][visual reasoning] 提出NoisyRollout，一种简单有效的数据增强方法——在VLM的RL训练中混合使用干净图像和适度扭曲图像的生成轨迹，通过注入感知多样性促进策略探索和鲁棒推理，配合噪声退火调度，零额外计算成本实现5个域外推理benchmark上的开源RL模型SOTA。
+description: 提出NoisyRollout数据增强方法，通过混合干净和扰动图像的rollout增强VLM强化学习中的策略探索和感知鲁棒性
 tags:
-  - NeurIPS 2025
-  - visual reasoning
-  - 强化学习
-  - 数据增强
-  - policy exploration
-  - noise annealing
-  - VLM RL
+- vision-language-model
+- reinforcement-learning
+- data-augmentation
+- GRPO
+- visual-reasoning
 ---
-
 # NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.13055](https://arxiv.org/abs/2504.13055)  
-**代码**: 无（未提及）  
-**领域**: 多模态VLM / 推理 / 强化学习  
-**关键词**: visual reasoning, reinforcement learning, data augmentation, policy exploration, noise annealing, VLM RL  
+**代码**: [GitHub](https://github.com/NoisyRollout)  
+**领域**: 强化学习 / VLM推理  
+**关键词**: 视觉推理, 策略探索, 数据增强, GRPO, 噪声退火
 
 ## 一句话总结
-提出NoisyRollout，一种简单有效的数据增强方法——在VLM的RL训练中混合使用干净图像和适度扭曲图像的生成轨迹，通过注入感知多样性促进策略探索和鲁棒推理，配合噪声退火调度，零额外计算成本实现5个域外推理benchmark上的开源RL模型SOTA。
 
-## 背景与动机
-RL（如GRPO/RLVR）已成功增强VLM的推理能力（类似DeepSeek-R1的成功），但存在两个未充分探索的问题：(1) 策略探索不足——RL训练中VLM的rollout缺乏多样性，容易陷入局部最优；(2) 视觉感知脆弱——VLM对图像的感知不完美（如遮挡、噪声、模糊），导致后续推理出错。这与GTR发现的"thought collapse"问题相关但从不同角度入手——GTR聚焦于推理过程的引导，NoisyRollout聚焦于输入多样性的增强。
+提出NoisyRollout，一种零额外训练成本的数据增强方法，在GRPO训练VLM时混合来自干净和适度扰动图像的rollout以增强策略探索多样性，仅用2.1K样本在5个域外基准上达到开源RL微调模型SOTA。
 
-## 核心问题
-如何在不增加额外训练成本、不修改RL目标的前提下，增强VLM在RL训练中的策略探索和视觉推理鲁棒性？
+## 研究背景与动机
+
+- 通过强化学习扩展测试时计算（推理）是增强模型智能的重要方向，但VLM面临独特挑战：
+    - **策略探索不足**：传统提高温度等方法引入的是表面多样性，无法引导策略发现更鲁棒的行为
+    - **视觉感知缺陷**：VLM经常出现感知错误，进而影响后续推理过程
+- 现有VLM-RL工作多直接移植LLM领域的方法，未考虑视觉感知的特殊挑战
+- 核心洞察：**如果在扰动图像上也能成功推理，说明推理路径更鲁棒；干净/扰动图像上的奖励差异可作为隐式对比信号改善感知**
 
 ## 方法详解
 
 ### 整体框架
-NoisyRollout在标准GRPO/RLVR训练流程中，将每个training step的rollout分为两组：一组用原始干净图像生成推理轨迹，另一组用添加适度噪声/扭曲的图像生成推理轨迹。两组轨迹混合后用pairwise奖励比较进行策略更新。
+
+对每个训练样本 $(I, \mathbf{q})$，老策略生成两组rollout：$n_1$ 个来自干净图像、$n_2$ 个来自扰动图像 $\tilde{I} = T_{\alpha_t}(I)$。所有rollout混合计算奖励基线和优势值。**关键**：策略更新仅以干净图像为条件，扰动图像仅用于收集多样化rollout。噪声退火调度逐渐降低扰动强度。
 
 ### 关键设计
-1. **感知多样性注入**：在RL rollout时对输入图像施加适度扰动（如高斯噪声、旋转等），迫使VLM在不完美感知条件下进行推理。这有两个好处：(a) 增加了rollout的多样性，帮助模型探索更多推理路径；(b) 训练模型对视觉噪声具有鲁棒性——即使图像质量不佳也能正确推理。
 
-2. **噪声退火调度（Noise Annealing）**：训练早期使用较强的噪声（鼓励更大的探索空间），随着训练进行逐步减弱噪声强度（确保后期收敛的稳定性）。这与温度退火和课程学习的思想一致——先探索后利用。
+1. **混合Rollout策略**:
+    - 做什么：将干净和扰动图像的推理轨迹混合用于GRPO优化
+    - 核心思路：$n_1$ 个clean rollout + $n_2$ 个noisy rollout共同组成一个group，计算统一的奖励均值和标准差作为归一化基准
+    - 设计动机：
+        - 扰动图像上的成功轨迹提供了替代的、更鲁棒的推理路径
+        - 干净/扰动之间的奖励差异暴露感知脆弱性，起到隐式对比学习的作用
 
-3. **零额外成本的实现**：NoisyRollout不需要额外的前向传播——只是在现有的rollout图像上施加简单的增强变换。不修改RL的loss函数或训练器代码，只改变数据输入。这使得方法极易集成到任何现有VLM RL训练pipeline中。
+2. **噪声退火调度**:
+    - 做什么：训练过程中逐渐降低图像扰动强度
+    - 核心思路：使用sigmoid形退火 $\alpha_t = \alpha_0 \cdot (1 - \frac{1}{1 + e^{-\lambda(t-\gamma)/t_{max}}})$
+    - 设计动机：早期高噪声鼓励探索，后期低噪声减少分布偏移确保稳定收敛
+
+3. **策略更新仅条件于干净输入**:
+    - 做什么：虽然rollout来自扰动图像，但策略梯度计算使用 $\frac{\pi_\theta(\mathbf{o}_i | I, \mathbf{q})}{\pi_{\theta_{old}}(\mathbf{o}_i | I, \mathbf{q})}$
+    - 设计动机：避免让策略学习依赖噪声的行为，确保推理时在干净输入上表现最优
 
 ### 损失函数 / 训练策略
-标准GRPO loss，无修改。噪声增强仅在rollout采样时应用和奖励计算时使用原始图像。
+
+$$\mathcal{J}(\theta) = \mathbb{E}\left[\frac{1}{n_1+n_2}\sum_{i=1}^{n_1+n_2} \min\left(\frac{\pi_\theta(\mathbf{o}_i | I, \mathbf{q})}{\pi_{\theta_{old}}(\mathbf{o}_i | I, \mathbf{q})}\hat{A}_i, \text{clip}(\cdot, 1-\epsilon, 1+\epsilon)\hat{A}_i\right)\right]$$
+
+- 使用规则奖励（正确=1，错误=0），无KL散度约束
+- 默认配置：Gaussian噪声，$n_1=6, n_2=6$（总rollout数=12不变）
+- 冻结视觉编码器，学习率1e-6
 
 ## 实验关键数据
-- 在**5个域外推理和感知benchmark**上达到开源RL微调模型的SOTA
-- 验证了跨模型规模的有效性：**7B和32B**均有效
-- 验证了跨数据规模的有效性：**1K到6K**训练样本
-- 验证了跨增强类型的有效性：高斯噪声和旋转均有效
-- 零额外训练成本
 
-### 消融实验要点
-- 适度噪声 >> 无噪声 >> 过强噪声（存在最优噪声强度区间）
-- 噪声退火 >> 固定噪声强度（退火策略更优）
-- 混合干净和扰动轨迹 >> 全部扰动（保留部分正常感知很重要）
-- 多种增强类型均有效，说明关键在于感知多样性而非特定增强类型
+### 主实验（表格）
 
-## 亮点
-- **极其简单但极其有效**：只是在RL rollout的输入图像上加噪声——没有比这更简单的改进了
-- **零额外成本**：不增加计算、不改loss、不改代码架构——真正的"free lunch"
-- **泛化性强**：跨模型规模、数据规模、增强类型均有效——说明核心insight是robust的
-- **与GTR互补**：GTR从推理过程引导解决thought collapse，NoisyRollout从输入多样性解决探索不足——可以组合使用
-- **洞察深刻**：VLM的视觉推理不仅受限于推理能力，还受限于视觉感知的鲁棒性——增强感知鲁棒性间接提升推理
+Qwen2.5-VL-7B-Instruct，仅2.1K Geometry3K样本：
+
+| 方法 | MathVerse | MathVision | MathVista | WeMath | HallusionBench |
+|------|-----------|------------|-----------|--------|----------------|
+| Qwen2.5-VL-7B (base) | 46.2 | 25.0 | 67.5 | 63.1 | 64.6 |
+| + Vanilla GRPO | 50.8 | 27.3 | 70.5 | 67.4 | 69.8 |
+| + **NoisyRollout** | **53.2** | **28.5** | **72.6** | **69.6** | **72.1** |
+
+### 消融实验
+
+- **Rollout多样性分析**：NoisyRollout在训练早期显著提升rollout余弦距离多样性，效果类似提高温度到1.2
+- **温度对比**：NoisyRollout（温度1.0）在所有基准上一致超越vanilla GRPO在任何温度（0.8–1.4），说明提供了更有针对性的多样性
+- **噪声类型**：高斯噪声和旋转均有效，高斯噪声略优
+- **比例实验**：$n_1=6, n_2=6$（50%噪声rollout）是最优比例
+- **32B模型**：NoisyRollout同样有效（MathVision 41.6 vs GRPO 40.0）
+
+### 关键发现
+
+- 仅2.1K训练样本即可超越使用15K–260K样本的竞品（如OpenVLThinker、R1-VL），数据效率极高
+- HallusionBench上的提升（+2.3%）表明NoisyRollout不仅改善推理，还改善了视觉感知
+- 噪声退火是稳定训练的关键——固定噪声强度会导致后期不稳定
+- 不同数据集（Geometry3K vs MMK12）和模型规模（7B vs 32B）上均有一致提升
+
+## 亮点与洞察
+
+- 设计极其简洁（"free lunch"）：无额外训练成本、不修改RL目标、不增加总rollout数
+- 将视觉扰动作为策略探索工具的思路新颖——利用VLM的视觉感知特性提供有意义的多样性
+- 隐式对比学习机制精妙：干净/扰动之间的奖励差异自然约束了感知行为
+- 数据效率惊人，2.1K样本在5个域外基准上达SOTA
 
 ## 局限性 / 可改进方向
-- 噪声类型和强度的最优选择可能因任务而异
-- 仅验证图像VLM，视频VLM的适用性未探索
-- 退火调度的超参数需要调优
-- 对于某些对图像质量极敏感的任务（如OCR/文档理解），噪声可能有负面影响
 
-## 与相关工作的对比
-- **vs. GTR**：GTR引入过程引导和自动纠正器来防止thought collapse（推理层面）；NoisyRollout增加输入多样性促进探索（数据层面）——互补
-- **vs. Standard GRPO**：在相同RL训练框架下，NoisyRollout仅通过数据增强即可超越标准GRPO
-- **vs. R1-Vision等**：NoisyRollout是一种training recipe改进，可以应用到任何VLM RL方法上
+- 扰动类型（高斯噪声、旋转）相对简单，未探索更复杂的增强（如遮挡、风格迁移）
+- 裁剪（cropping）等策略不成功的原因未深入分析
+- 噪声退火调度的超参数（$\alpha_0, \lambda, \gamma$）选择较为手动
+- 对非视觉推理任务（如纯文本推理）的适用性未讨论
 
-## 启发与关联
-- "输入扰动促进探索"的思路可以迁移到其他RL训练场景——如机器人操作的RL中对观察施加噪声
-- 噪声退火与课程学习的结合值得更深入研究
-- 如果将NoisyRollout与GTR结合：NoisyRollout增加输入多样性 + GTR引导推理质量 = 更强的VLM reasoning
+## 相关工作与启发
+
+- 与DeepVideo-R1等同期工作互补：NoisyRollout改进探索策略，DeepVideo-R1改进优化目标
+- 混合rollout思想可推广到其他RL调优场景（如代码生成、数学推理）
+- 噪声退火与curriculum learning理念一致：从宽探索逐渐过渡到窄利用
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ 极简的想法但洞察精准——感知鲁棒性→推理鲁棒性
-- 实验充分度: ⭐⭐⭐⭐⭐ 5个OOD benchmark、2个模型规模、多种数据规模和增强类型
-- 写作质量: ⭐⭐⭐⭐ 方法简洁清晰
-- 价值: ⭐⭐⭐⭐⭐ 零成本的通用VLM RL训练改进，任何团队都能立即使用
+
+- ⭐⭐⭐⭐⭐ — 方法简洁高效、效果显著、泛化性强，是VLM-RL领域的实用贡献

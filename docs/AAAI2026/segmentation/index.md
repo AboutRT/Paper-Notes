@@ -76,7 +76,7 @@ description: >-
 
 **[Multigranular Evaluation For Brain Visual Decoding](multigranular_evaluation_for_brain_visual_decoding.md)**
 
-:   提出 BASIC 多粒度评估框架，从结构（分割 mask 匹配）、推理（对象/属性/关系语义图）和上下文（场景叙事一致性）三个维度统一评估脑视觉解码质量，解决现有指标饱和、缺乏神经科学基础、无法区分模型差异的问题。
+:   提出BASIC多粒度评估框架，从结构（四级分割mask匹配）和语义（MLLM提取对象/属性/关系图的精确率-召回率-F1）两个轴统一评估脑视觉解码质量，横跨fMRI/EEG × Image/Video/3D六种模态组合，解决现有指标饱和、缺乏神经科学基础和细粒度诊断能力的问题。
 
 **[Omnivdiff Omni Controllable Video Diffusion For Generation And Understanding](omnivdiff_omni_controllable_video_diffusion_for_generation_and_understanding.md)**
 

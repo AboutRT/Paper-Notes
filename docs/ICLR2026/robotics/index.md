@@ -100,7 +100,7 @@ description: >-
 
 **[On The Generalization Capacities Of Mllms For Spatial Intelligence](on_the_generalization_capacities_of_mllms_for_spatial_intelligence.md)**
 
-:   揭示RGB-only空间MLLM忽略相机内参导致的根本性几何歧义——近小物体和远大物体成像相同→模型过拟合训练相机分布而非学习真正的3D原理,提出Camera-Aware MLLM框架通过密集相机嵌入+相机感知数据增强+几何先验蒸馏三项技术实现跨相机泛化,证明相机感知是空间智能的先决条件。
+:   揭示了 RGB-only 空间推理 MLLM 因忽略相机内参导致的焦距-深度歧义这一根本缺陷，提出 Camera-Aware MLLM 框架，通过稠密相机射线嵌入、相机感知数据增强和几何先验蒸馏，在跨相机泛化的空间定位任务上将 F1 从 39.1% 提升至 52.1%。
 
 **[One Demo Is All It Takes Planning Domain Derivation With Llms From A Single Demo](one_demo_is_all_it_takes_planning_domain_derivation_with_llms_from_a_single_demo.md)**
 
@@ -132,7 +132,7 @@ description: >-
 
 **[Robopara Dual-Arm Robot Planning With Parallel Allocation And Recomposition Acro](robopara_dual-arm_robot_planning_with_parallel_allocation_and_recomposition_acro.md)**
 
-:   提出 RoboPARA，一个 LLM 驱动的双臂机器人并行任务规划框架，通过依赖图生成与图重遍历调度两阶段方法，最大化双臂协同并行性，执行时间减少 30%-50%。
+:   提出 RoboPARA 框架，通过依赖图构建和图重遍历两阶段优化双臂机器人的任务并行性，在多场景基准上实现相比现有方法 30-50% 的执行时间缩减和 34% 的成功率提升。
 
 **[Sparse Imagination For Efficient Visual World Model Planning](sparse_imagination_for_efficient_visual_world_model_planning.md)**
 
@@ -184,11 +184,11 @@ description: >-
 
 **[Whats The Plan Metrics For Implicit Planning In Llms And Their Application To Rh](whats_the_plan_metrics_for_implicit_planning_in_llms_and_their_application_to_rh.md)**
 
-:   提出简单的定量方法评估LLM的隐式规划行为——在韵律诗(计划押韵词)和问答(计划答案)两个案例上,通过激活引导干预证明:目标token(押韵/答案)的表示在序列早期位置已形成(前向规划),且影响中间token的生成(后向规划)→在23个1B-32B模型上验证→隐式规划从1B模型即开始出现→是普遍机制。
+:   提出 mean activation difference steering 方法和配套定量指标，在韵律诗生成和问答两个案例上跨 23 个开放模型（1B-32B）系统性证明：目标 token（韵脚/答案）的表示在序列早期位置已形成（前向规划），且因果性地影响中间 token 生成（后向规划）——隐式规划从 1B 模型即出现，是普遍机制而非大模型专属。
 
-**[When Agents Persuade: Propaganda Generation and Mitigation in LLMs](when_agents_persuade_propaganda_generation_and_mitigation_in_llms.md)**
+**[When Agents Persuade Propaganda Generation And Mitigation In Llms](when_agents_persuade_propaganda_generation_and_mitigation_in_llms.md)**
 
-:   系统研究LLM能否生成宣传内容→训练宣传检测器(F1=0.98)+修辞技术检测器(6种技术,平均F1=0.82)→发现LLM被prompting时会广泛使用宣传修辞(name-calling/loaded language/appeal to fear等)→SFT/DPO/ORPO三种微调方法可显著减少宣传生成→ORPO最有效。
+:   系统研究LLM的宣传生成行为，训练专用检测器量化3个LLM使用的6种修辞技术，发现所有LLM均能生成宣传且大量使用Loaded Language和Flag-Waving，通过SFT/DPO/ORPO三种微调方法缓解，ORPO将宣传分类率从77%降至10%、修辞技术使用减少13.4倍。
 
 **[When Would Vision-Proprioception Policies Fail In Robotic Manipulation](when_would_vision-proprioception_policies_fail_in_robotic_manipulation.md)**
 

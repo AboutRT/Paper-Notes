@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 其他方向 40篇论文解读
+  CVPR2026 其他方向 39篇论文解读
 description: >-
-  40篇CVPR2026 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  39篇CVPR2026 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**📷 CVPR2026** · 共 **40** 篇
+**📷 CVPR2026** · 共 **39** 篇
 
 **[A2Z-10M Geometric Deep Learning With A-To-Z Brep Annotations For Ai-Assisted Cad](a2z-10m_geometric_deep_learning_with_a-to-z_brep_annotations_for_ai-assisted_cad.md)**
 
@@ -20,11 +20,11 @@ description: >-
 
 **[Assistmimic Physics Grounded Humanoid Assistance](assistmimic_physics_grounded_humanoid_assistance.md)**
 
-:   提出 AssistMimic，一个多智能体 RL 框架，联合训练辅助者和被辅助者的物理仿真策略来模仿人-人接触式辅助动作（如扶人站起），是首个在标准基准上成功跟踪力交换辅助运动的方法。
+:   首个在物理仿真中实现接触式人-人辅助行为模仿学习的多智能体RL框架，通过运动先验初始化、动态参考重定向和接触促进奖励使MARL在高接触设置中可行。
 
 **[Bendfm A Taxonomy And Synthetic Cad Dataset For Ma](bendfm_a_taxonomy_and_synthetic_cad_dataset_for_ma.md)**
 
-:   提出可制造性指标的二维分类法（配置依赖性 x 可行性/复杂度）和首个钣金弯曲合成 CAD 数据集 BenDFM（20,000 零件），基准测试显示图结构表示（UV-Net）优于点云（PointNext），且配置相关任务仍是难点。
+:   提出可制造性指标的二维分类法（配置依赖性 x 可行性/复杂度）和首个钣金弯曲合成 CAD 数据集 BenDFM（20,000 零件，含可制造和不可制造设计），基准测试显示拓扑感知的图表示（UV-Net, AUC 0.896）在四类任务上全面优于点云方法（PointNext, AUC 0.844）。
 
 **[Bendfm A Taxonomy And Synthetic Cad Dataset For Manufacturability Assessment In ](bendfm_a_taxonomy_and_synthetic_cad_dataset_for_manufacturability_assessment_in_.md)**
 
@@ -32,7 +32,7 @@ description: >-
 
 **[Bounds On Agreement Between Subjective And Objecti](bounds_on_agreement_between_subjective_and_objecti.md)**
 
-:   从投票的基本统计性质出发，推导了主观MOS与任意客观评估指标间PCC上界和MSE下界的解析表达式，并提出基于二项分布的投票模型BinoVotes/BinoMOS，为无投票方差数据的场景提供性能天花板估计。
+:   从MOS的数学性质出发推导出主观测试结果与任何客观估计器之间PCC上界和MSE下界的理论公式，并提出BinoVotes/BinoMOS投票模型，在18项主观测试数据上验证了界的有效性和模型的准确性。
 
 **[Bounds On Agreement Between Subjective And Objective Measurements](bounds_on_agreement_between_subjective_and_objective_measurements.md)**
 
@@ -64,7 +64,7 @@ description: >-
 
 **[Dirpa Addressing Prior Shift In Imbalanced Fewshot](dirpa_addressing_prior_shift_in_imbalanced_fewshot.md)**
 
-:   通过 Dirichlet 先验增强（DirPA），在少样本训练阶段主动模拟真实世界长尾类别分布，从而消除人工平衡训练集与自然不平衡测试分布之间的先验偏移，提升作物分类的鲁棒性。
+:   提出 Dirichlet 先验增强（DirPA），在少样本学习训练阶段从 Dirichlet 分布中采样类别比例向量来构造不平衡 episode，主动模拟真实世界长尾分布以消除先验偏移，在欧盟多个国家的作物分类任务中展示了一致的鲁棒性提升和稀有类别精度改善。
 
 **[Dual Band Thermal Videography Separating Time-Varying Reflection And Emission Ne](dual_band_thermal_videography_separating_time-varying_reflection_and_emission_ne.md)**
 
@@ -84,7 +84,7 @@ description: >-
 
 **[Integration Of Deep Generative Anomaly Detection A](integration_of_deep_generative_anomaly_detection_a.md)**
 
-:   基于GRD-Net改进的GAN+密集瓶颈残差自编码器（DRAE），在制药BFS产线上实现半监督异常检测，用281万训练patch在500ms时间槽内完成60个patch的推理（0.17ms/patch），达到97.62%平衡准确率和96.38%的逐运行验证精度。
+:   基于GRD-Net改进的GAN+密集瓶颈残差自编码器（DRAE），在制药BFS生产线上实现半监督异常检测，用281万训练patch在500ms时间约束内完成推理（0.17ms/patch），达到97.62%平衡准确率。
 
 **[Integration Of Deep Generative Anomaly Detection Algorithm In High-Speed Industr](integration_of_deep_generative_anomaly_detection_algorithm_in_high-speed_industr.md)**
 
@@ -106,13 +106,9 @@ description: >-
 
 :   POLISH++在POLISH框架基础上引入分块训练+拼接策略和arcsinh非线性变换，解决了射电干涉成像中宽视场（万级像素）和高动态范围（$10^4$-$10^6$）两大实际部署难题，在T-RECS仿真数据上大幅超越CLEAN方法的源探测精度，且能超分辨恢复PSF尺度附近的强引力透镜系统，有望将DSA巡天的透镜发现数量提升约10倍。
 
-**[Pop Proof Of Perception Conformal Reasoning](pop_proof_of_perception_conformal_reasoning.md)**
-
-:   提出PoP框架将多模态推理建模为可执行DAG——每个感知/逻辑节点输出共形预测集提供逐步校准的不确定性，控制器在预算约束下按需调用更多工具扩展计算，在文档/图表/多图QA上优于CoT/ReAct/PoT基线。
-
 **[Rethinking Snn Online Training And Deployment Grad](rethinking_snn_online_training_and_deployment_grad.md)**
 
-:   提出HD-LIF(混合驱动LIF)脉冲神经元模型族，通过在阈值上下区域采用不同脉冲计算机制，理论证明其梯度可分离性和对齐性，解决SNN在线训练的前后向传播不一致问题，同时实现学习精度、内存复杂度和功耗的全阶段优化——以10×参数压缩、11×功耗降低和30% NOPs节省达到CIFAR-100上78.61%精度。
+:   提出 HD-LIF（混合驱动 LIF）脉冲神经元模型族，通过在阈值上下区域采用不同脉冲计算机制，理论证明梯度可分离性和对齐性，解决 SNN 在线训练的前后向传播不一致问题，同时实现学习精度、内存复杂度和功耗的全阶段优化——以 10× 参数压缩、11× 功耗降低和 30% NOPs 节省达到 CIFAR-100 上 78.61% 精度。
 
 **[Rethinking Snn Online Training And Deployment Gradient-Coherent Learning Via Hyb](rethinking_snn_online_training_and_deployment_gradient-coherent_learning_via_hyb.md)**
 
@@ -160,7 +156,7 @@ description: >-
 
 **[Your Classifier Can Do More Towards Balancing The](your_classifier_can_do_more_towards_balancing_the.md)**
 
-:   通过能量景观分析揭示AT和JEM的互补性(AT缩小clean-adv能量差→鲁棒性；JEM缩小clean-generated能量差→生成+精度)，提出EB-JDAT建模联合分布p(x,x̃,y)，用min-max能量优化对齐三种数据的能量分布——CIFAR-10上鲁棒性68.76%(AutoAttack, 超SOTA AT +10.78%)，同时保持90.39%清洁精度和竞争力的生成质量(FID=27.42)。
+:   通过能量景观分析揭示 AT 和 JEM 的互补性（AT 对齐 clean-adv 能量分布 → 鲁棒性；JEM 对齐 clean-generated 能量分布 → 精度+生成），提出 EB-JDAT 建模联合分布 $p(\mathbf{x}, \tilde{\mathbf{x}}, y)$ 并用 min-max 能量优化对齐三种数据能量分布，CIFAR-10 AutoAttack 鲁棒性 68.76%（超 SOTA AT +10.78%），同时保持 90.39% 清洁精度和 FID=27.42 的竞争力生成质量。
 
 **[Your Classifier Can Do More Towards Balancing The Gaps In Classification Robustn](your_classifier_can_do_more_towards_balancing_the_gaps_in_classification_robustn.md)**
 

@@ -100,7 +100,7 @@ description: >-
 
 **[The Dark Side Of The Forces Assessing Non-Conservative Force Models For Atomisti](the_dark_side_of_the_forces_assessing_non-conservative_force_models_for_atomisti.md)**
 
-:   系统评估非保守力模型在原子模拟中的实际影响，揭示其导致几何优化不收敛和分子动力学不稳定，并提出保守+非保守混合模型作为最佳实践。
+:   系统评估非保守力（直接预测而非从势能求导）机器学习原子间势在几何优化和分子动力学中的灾难性后果，并提出保守+非保守混合模型通过多时间步方案兼顾效率与物理正确性。
 
 **[The Double-Ellipsoid Geometry Of Clip](the_double-ellipsoid_geometry_of_clip.md)**
 
@@ -122,6 +122,6 @@ description: >-
 
 :   通过在线性回归ICL任务上系统改变训练任务分布的覆盖范围（超球面帽的半角 $\phi$），发现transformer存在从"专用解"到"通用解"的sharp phase transition：当任务多样性超过临界阈值（$\phi \gtrsim 120°$）时，模型能泛化到整个任务空间，甚至超越贝叶斯最优估计器的OOD性能。
 
-**[Whitened CLIP as a Likelihood Surrogate of Images and Captions](whitened_clip_as_a_likelihood_surrogate_of_images_and_captions.md)**
+**[Whitened Clip As A Likelihood Surrogate Of Images And Captions](whitened_clip_as_a_likelihood_surrogate_of_images_and_captions.md)**
 
-:   （注：此文缓存不在已读范围内，基于arXiv元信息和领域知识推断写就基本结构。）
+:   提出 Whitened CLIP (W-CLIP)，通过对 CLIP 嵌入做可逆 PCA 白化变换使其近似 i.i.d. 标准正态分布，从而用欧氏范数的平方直接估计图像和文本的对数似然，在伪影检测、域偏移分析和全圆 SLERP 图像操控中展现了有效性。

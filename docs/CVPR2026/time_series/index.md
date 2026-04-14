@@ -28,4 +28,4 @@ description: >-
 
 **[Stcast Adaptive Boundary Alignment For Global And Regional Weather Forecasting](stcast_adaptive_boundary_alignment_for_global_and_regional_weather_forecasting.md)**
 
-:   通过自适应边界对齐机制实现全球和区域天气预报的统一建模
+:   提出STCast框架，通过Spatial-Aligned Attention（SAA）用可学习的全球-区域分布替代静态边界来自适应融合全球大气信息到区域预报，并用Temporal Mixture-of-Experts（TMoE）按月动态路由专家增强时序建模，在全球预报、高分辨率区域预报、台风路径预测和集合预测四个任务上全面超越现有方法。

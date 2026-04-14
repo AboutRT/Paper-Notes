@@ -232,7 +232,7 @@ description: >-
 
 **[Lookout Real-World Humanoid Egocentric Navigation](lookout_real-world_humanoid_egocentric_navigation.md)**
 
-:   提出LookOut，从自我中心视频预测未来6D头部姿态轨迹（包含平移+旋转），通过时序聚合3D DINO特征理解场景几何/语义约束，并贡献了基于Project Aria眼镜采集的4小时真实世界导航数据集AND。
+:   LookOut 提出从第一人称带位姿视频中预测未来 4.5 秒内的 6D 头部姿态序列（平移 + 旋转），通过将 DINOv2 特征反投影到 3D 空间再压缩为 BEV 表示来理解场景几何与语义，在自采集的 4 小时真实世界动态场景数据集上学习到等待、绕行、过马路前左右张望等类人导航行为。
 
 **[Maestro Task-Relevant Optimization Via Adaptive Feature Enhancement And Suppress](maestro_task-relevant_optimization_via_adaptive_feature_enhancement_and_suppress.md)**
 

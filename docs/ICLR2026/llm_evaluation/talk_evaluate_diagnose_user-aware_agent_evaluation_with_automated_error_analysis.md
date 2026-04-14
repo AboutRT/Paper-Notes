@@ -1,114 +1,114 @@
 ---
-title: >-
-  [论文解读] Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis
-description: >-
-  [ICLR2026][Agent评估] 提出 TED 框架（Talk-Evaluate-Diagnose），通过可复用的专家/非专家 persona 模板、基于 grading notes 的 LLM-as-judge 评估和自动化错误分析，实现跨领域的用户感知型 Agent 评估。
+title: "[论文解读] TED: Talk, Evaluate, Diagnose - User-aware Agent Evaluation"
+description: "[ICLR 2026][LLM评估][Agent评估] 提出TED框架统一评估LLM Agent，包含用户感知的动态对话(expert/non-expert persona)、基于grading notes的LLM-as-judge评估+新效率指标、自动化错误分析诊断三大模块。"
 tags:
-  - ICLR2026
+  - ICLR 2026
+  - LLM评估
   - Agent评估
   - 用户感知
-  - LLM-as-judge
-  - 错误诊断
-  - 会话效率
 ---
 
 # Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis
 
-**会议**: ICLR2026  
-**arXiv**: [2603.15483](https://arxiv.org/abs/2603.15483)  
-
-**代码**: [GitHub](https://github.com/SAP-samples/agent-quality-inspect)  
-
-**领域**: LLM NLP / Agent评估  
-**关键词**: Agent评估, 用户感知, LLM-as-judge, 错误诊断, 会话效率  
+| 属性 | 值 |
+|------|------|
+| 会议 | ICLR 2026 |
+| arXiv | [2603.15483](https://arxiv.org/abs/2603.15483) |
+| 代码 | [GitHub](https://github.com/SAP-samples/agent-quality-inspect) |
+| 领域 | LLM评估 / Agent评估 |
+| 关键词 | Agent评估, 用户感知, LLM-as-judge, 错误分析, 效率指标 |
 
 ## 一句话总结
 
-提出 TED 框架（Talk-Evaluate-Diagnose），通过可复用的专家/非专家 persona 模板、基于 grading notes 的 LLM-as-judge 评估和自动化错误分析，实现跨领域的用户感知型 Agent 评估。
+提出TED(Talk, Evaluate, Diagnose)框架，通过通用可复用的expert/non-expert persona模板实现用户感知的动态Agent评估、grading notes+LLM-as-judge+MaxProgressRate@k等新指标进行细粒度效率评估、自动化错误发现和聚类提供可操作的改进反馈，在τ²-bench和ToolSandbox上揭示新的Agent性能洞察。
 
-## 背景与动机
+## 研究背景与动机
 
-1. Agent 应用跨越多领域（航空订票、消息、提醒等），异构评估方法难以统一
-
-2. 现有评估各自为政：数据库查询、正则匹配、工具签名检查等，缺乏通用框架
-
-3. 大多数评估忽略用户角色：用户专业度影响 Agent 表现，但未被系统考量
-
-4. 动态对话模拟中，用户 persona 与任务指令紧耦合导致难以隔离影响因素
-
-5. 现有指标（success rate）过于粗粒度，无法区分「快速完成」vs「缓慢完成」
-
-6. 缺乏系统的错误分析——大多数工作止步于报告最终指标
+- **领域现状**：LLM Agent日益用于自动化各种工作流，但评估框架碎片化——每个领域用独立方法（数据库查询、正则匹配等）判定成功。
+- **现有痛点**：(1) 缺乏跨领域统一评估方法；(2) 不系统考虑用户角色对Agent表现的影响；(3) 评估止步于metrics报告，缺乏诊断和可操作的改进建议。
+- **核心矛盾**：Agent行为受用户交互影响巨大 vs 评估时用户角色不被控制。
+- **本文要解决什么**：构建统一的、用户感知的、可诊断的Agent评估框架。
+- **切入角度**：Talk(用户模拟)+Evaluate(评估)+Diagnose(诊断)三阶段统一。
+- **核心idea一句话**：有效的Agent评估不仅需要正确性，还需要对话质量、效率和系统性的错误诊断。
 
 ## 方法详解
 
-**Talk 阶段**：
-- 解耦用户 persona 与任务指令：persona 模板（expert / non-expert）+ 任务指令独立组合
+### 整体框架
 
-- 可复用的通用 persona 模板，跨领域适用（航空、零售、ToolSandbox）
+Talk→用可复用persona模板模拟expert/non-expert用户与Agent交互。Evaluate→将子目标转为grading notes、LLM-as-judge评分、MaxProgressRate@k等指标。Diagnose→分析judge和agent的不一致性、自动发现和聚类错误模式。
 
-**Evaluate 阶段**：
-- **Grading Notes**：将子目标（工具调用、响应内容）统一表示为自然语言检查清单
+### 关键设计
 
-- **LLM-as-judge**：用 gpt-4.1 评判每个子目标是否达成，多次运行取多数票
+**设计1：通用可复用Persona模板**
+- **做什么**：解耦用户persona和任务指令，提供与任务/Agent无关的通用expert/non-expert模板。
+- **核心思路**：$u = f(p, i)$，persona prompt $p$和task instruction $i$组合。同一任务改变persona即可测试用户影响。包含反思+回应两步过程。
+- **设计动机**：现有方法persona与任务紧耦合，无法隔离用户行为的独立影响。
 
-- **新指标体系**：
+**设计2：Grading Notes + 效率指标**
+- **做什么**：将所有子目标（工具调用、响应内容等）统一为自然语言检查项；提出MaxProgressRate@k、MaxAUC@k、MaxPPT@k等指标。
+- **核心思路**：progress(i) = 已达成grading notes占比；MaxProgressRate@k取k次试验中最高progress的期望。AUC评估早期进展效率，PPT评估每轮进展率。
+- **设计动机**：success rate太粗粒度；需要捕捉部分进展和对话轮次效率。
 
-  - MaxProgressRate@k：k 次试验中最佳进度（细粒度替代 pass@k）
-  - MaxAUC@k：进度曲线下面积，奖励早期进展
-  - MaxPPT@k：每轮进度提升，对顺序不敏感
+**设计3：自动化错误发现**
+- **做什么**：两步错误分析——低级错误识别+语义聚类。
+- **核心思路**：对judge不一致的子目标，用LLM提取具体错误描述(low-level)；再对所有低级错误做语义聚类得到高级错误类别。分析judge方差和agent方差分别反映judge不可靠性和agent不稳定性。
+- **设计动机**：报告metrics→发现错误→提供改进建议的闭环。
 
-**Diagnose 阶段**：
-- 绘制每个样本的进度期望和方差，分离 judge 不一致性和 Agent 不一致性
-- 两步自动错误发现：(1) 低层错误识别 → (2) 语义聚类为高层类别
-- 错误反馈可注入 Agent 设计，实现 8-10% 性能提升
+### 损失函数/训练策略
+
+无训练，评估框架。LLM-as-judge多次运行取majority vote。gpt-4.1作为judge和user proxy。
 
 ## 实验关键数据
 
-| 模型 | τ²-bench Easy MaxProg@k (Expert\|Non-expert) | ToolSandbox MaxProg@k |
-|------|------|------|
-| gpt-4.1 | 1.00 \| 1.00 | 0.98 \| 0.97 |
-| gpt-4o | 1.00 \| 1.00 | 0.99 \| 1.00 |
-| gpt-4o-mini | 0.90 \| 0.90 | 0.95 \| 0.93 |
-| gpt-5 | 1.00 \| 1.00 | 0.97 \| 0.91 |
-| mistral-nemo | 1.00 \| 0.80 | 0.92 \| 0.96 |
+### 主实验
 
-- Expert vs Non-expert：MaxAUC@k 一致显示非专家场景效率更低
-- 错误修复后 Agent 峰值提升 8-10%
-- AUC 和 PPT 可区分 pass@k 无法区分的模型
+**τ²-bench Airline Easy（Expert | Non-expert）**
 
-## 亮点
+| Agent模型 | MeanProg@k | MaxProg@k | pass@k |
+|-----------|-----------|-----------|--------|
+| gpt-4.1 | 0.95 \| 0.82 | 1.00 \| 1.00 | 1.00 \| 1.00 |
+| gpt-4o | 0.79 \| 0.86 | 1.00 \| 1.00 | 1.00 \| 1.00 |
+| gpt-4o-mini | 0.70 \| 0.61 | 0.90 \| 0.90 | 0.80 \| 0.80 |
+| gpt-5 | 0.92 \| 0.92 | 1.00 \| 1.00 | 1.00 \| 1.00 |
 
-- **通用评估框架**：grading notes 抽象统一不同领域的评估，无需访问系统状态
+### 消融实验
 
-- **用户感知维度**：首次系统分离用户 persona 对 Agent 表现的影响
+| 发现 | 说明 |
+|------|------|
+| Expert vs Non-expert | Non-expert用户系统性降低Agent的MeanProg(多数模型) |
+| 错误修复后性能提升 | 8-10%的MaxProgressRate提升 |
+| Judge方差分析 | 高方差子目标多为模糊描述的grading notes |
 
-- **AUC + PPT 指标组合**：区分"早进步"和"均匀进步"两种对话效率模式
+### 关键发现
 
-- 自动错误发现闭环：评估 → 诊断 → 改进
+1. 用户专业度系统性地影响Agent性能——Non-expert用户导致更多轮次和更低平均进展。
+2. MaxProgressRate@k比pass@k提供更细粒度的评估，区分"几乎成功"和"完全失败"。
+3. 自动错误分析发现的常见错误模式可直接用于改进Agent提示词，带来8-10%提升。
+4. gpt-5在某些baseline上反而不如gpt-4o(ToolSandbox)，说明模型升级不等于Agent能力提升。
+
+## 亮点与洞察
+
+1. Talk-Evaluate-Diagnose三阶段闭环设计完整且实用。
+2. Persona解耦的idea简洁但影响深远——隔离用户因素是公平评估的前提。
+3. 从评估到诊断到改进的完整闭环，不止于"报告分数"。
 
 ## 局限性 / 可改进方向
 
-- 仅有 expert/non-expert 二分类 persona，缺乏更细粒度用户建模
-- grading notes 仍需人工或半自动创建，标注成本非零
-- LLM-as-judge 自身存在不一致性，多数票缓解但未根除
-- 实验限于任务型对话场景，未涵盖开放域或创造性任务
-
-## 与相关工作的对比
-
-- vs τ²-bench 原始评估：TED 揭示 pass@k 饱和时 AUC/PPT 仍能区分模型
-
-- vs AgentBoard：从 agent-environment 扩展到多轮对话 + 用户感知
-- vs MINT：不仅衡量最终成功，还捕获每轮进度和效率
-
+1. Grading notes的构建仍需人工，自动化程度有限。
+2. 仅两种persona(expert/non-expert)，更细粒度的用户建模未探索。
+3. Judge本身的可靠性是系统性风险，需要更多验证。
 
 ## 相关工作与启发
 
-- **vs ToolSandbox**: 本文在此基础上提出了不同的技术路线，在关键指标上取得了改进。
+- AgentBoard首次引入进度率但在环境交互设定中，TED扩展到多轮对话。
+- τ²-bench有domain-specific persona但不通用，TED实现了通用化。
+- 启发：Agent评估应成为工程闭环的一部分，而非独立的学术练习。
 
 ## 评分
 
-- 新颖性: ⭐⭐⭐⭐ 用户感知 + 会话效率指标组合为评估带来新维度
-- 实验充分度: ⭐⭐⭐⭐ 多模型、多数据集、多指标对比
-- 写作质量: ⭐⭐⭐⭐ 数学定义严谨，框架层次清晰
-- 价值: ⭐⭐⭐⭐ 对 Agent 评估社区有实用价值
+| 维度 | 评分 |
+|------|------|
+| 创新性 | ★★★★☆ |
+| 实用性 | ★★★★★ |
+| 实验充分性 | ★★★★☆ |
+| 写作清晰度 | ★★★★★ |

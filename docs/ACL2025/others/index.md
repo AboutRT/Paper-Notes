@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 其他方向 254篇论文解读
+  ACL2025 其他方向 253篇论文解读
 description: >-
-  254篇ACL2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  253篇ACL2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**💬 ACL2025** · 共 **254** 篇
+**💬 ACL2025** · 共 **253** 篇
 
 **[A3Cg Esg Greenwashing](a3cg_esg_greenwashing.md)**
 
@@ -16,7 +16,7 @@ description: >-
 
 **[A Large And Balanced Corpus For Fine-Grained Arabic Readability Assessment](a_large_and_balanced_corpus_for_fine-grained_arabic_readability_assessment.md)**
 
-:   构建 Barec（Balanced Arabic Readability Evaluation Corpus）——首个大规模细粒度阿拉伯语可读性评估语料库，包含 69K+ 句子（100万+词），覆盖 19 个可读性等级（从幼儿园到研究生），由 6 名专业阿拉伯语教育者标注，并在多种分级粒度（19/7/5/3级）上基准测试自动可读性评估模型。
+:   构建 Barec——首个大规模、平衡、细粒度的阿拉伯语可读性评估语料库（69K+ 句子、100 万+词、19 个等级），由 6 名专业教育者标注，并基准测试了 4 种阿拉伯语 BERT 模型 × 4 种输入变体 × 5 种损失函数，发现形态学分词输入 D3Tok 配合回归损失在 QWK 上达到 84.0%。
 
 **[A Little Human Data Goes A Long Way](a_little_human_data_goes_a_long_way.md)**
 
@@ -32,11 +32,11 @@ description: >-
 
 **[A Semi-Supervised Scalable Unified Framework For E-Commerce Query Classification](a_semi-supervised_scalable_unified_framework_for_e-commerce_query_classification.md)**
 
-:   提出电商查询分类的半监督可扩展统一框架 SSUF——三个可插拔模块：知识增强（LLM 世界知识+后验点击）解决短查询信息不足、标签增强（语义编码+半监督信号）打破对后验标签的依赖、结构增强（共现+语义+层级图 GCN）传播长尾标签梯度。已在 JD.COM 部署，离线和在线 A/B 实验均显著超越 SOTA。
+:   提出电商查询分类统一框架 SSUF，通过三个可插拔模块——标签增强（BERT 语义编码标签）、知识增强（LLM 世界知识 + 后验点击 + 半监督标签生成）、结构增强（共现/语义/层级三图融合 GCN）——解决短查询信息不足和"马太效应"恶性循环问题，在 JD.COM 意图分类和品类分类任务上 Macro F1 分别达到 49.46 和 41.22（均超 SMGCN 等 SOTA），已上线服务带来显著商业价值。
 
 **[A Spatio-Temporal Point Process For Fine-Grained Modeling Of Reading Behavior](a_spatio-temporal_point_process_for_fine-grained_modeling_of_reading_behavior.md)**
 
-:   提出基于标记时空点过程（Marked Spatio-Temporal Point Process）的阅读行为概率模型——用 Hawkes 过程建模跳视（何时何处注视），用对数正态分布+卷积建模注视时长（持续多久），避免传统聚合测量的信息丢失。实证发现：Hawkes 模型比基线更好拟合跳视数据，但上下文 surprisal 作为预测因子仅带来边际改善——surprisal 理论难以解释细粒度眼动。
+:   本文提出基于时空标记点过程（marked spatio-temporal point process）的阅读行为概率模型，联合建模注视何时发生、落在哪里、持续多久，发现 Hawkes 过程配合读者特定效应和方向偏移能显著提升扫视预测，但 surprisal 等语言学预测因子仅带来微弱改善——这对现有 surprisal 理论提出了质疑。
 
 **[Acecoder Acing Coder Rl Via Automated](acecoder_acing_coder_rl_via_automated.md)**
 
@@ -56,7 +56,7 @@ description: >-
 
 **[Aide Attribute-Guided Multi-Hop Data Expansion For Data Scarcity In Task-Specifi](aide_attribute-guided_multi-hop_data_expansion_for_data_scarcity_in_task-specifi.md)**
 
-:   提出 AIDE——属性引导的多跳数据扩展框架，从仅 10 个种子数据点出发，通过提取主题/属性/关系三元组引导 LLM 多跳递归合成新数据，加入 Persona 增加多样性和残差连接防止偏离，在 Mistral-7B/Llama-3.1-8B/Llama-3.2-3B 上超越人工标注数据微调，比 Evol-Instruct 等 SOTA 提升 30%+。
+:   提出AIDE框架，通过"属性引导+Persona增强+残差连接"的多跳数据扩展机制，从仅10个种子样本生成约3K条高质量任务特定训练数据，微调Mistral-7B后在zero-shot上平均超越人工标注数据微调6%、超越Evol-Instruct等SOTA方法30%。
 
 **[Aligned But Blind Implicit Bias](aligned_but_blind_implicit_bias.md)**
 
@@ -76,7 +76,7 @@ description: >-
 
 **[Anything Goes A Crosslinguistic Study Of Impossible Language Learning In Lms](anything_goes_a_crosslinguistic_study_of_impossible_language_learning_in_lms.md)**
 
-:   跨语言研究 LM 能否区分可能语言和不可能语言——在 12 种语言（4 个语系）上训练 GPT-2 Small 的可能/不可能/未见证变体，发现模型大体上能区分可能 vs 不可能语言（单语言内），但**跨语言**时区分能力减弱，且对类型学未见证语言（Greenberg Universal 20 的未见证词序）的区分仅在泛化测试中有效而在困惑度上无效——LM 有部分人类样的归纳偏置但弱于人类。
+:   在12种语言上训练GPT-2 small，系统性测试语言模型是否能区分可能语言(自然语言)与不可能语言(打乱词序等)，发现LM展现出部分类人的学习偏向但并非完美——能在单语言内区分但无法跨语言完全分离，而名词短语词序实验中泛化测试(而非困惑度)能反映类型学偏好。
 
 **[Are Any-To-Any Models More Consistent Across Modality Transfers Than Specialists](are_any-to-any_models_more_consistent_across_modality_transfers_than_specialists.md)**
 
@@ -100,7 +100,7 @@ description: >-
 
 **[Behavioural Vs Representational Systematicity In End-To-End Models An Opinionate](behavioural_vs_representational_systematicity_in_end-to-end_models_an_opinionate.md)**
 
-:   区分行为系统性（模型能否正确处理新组合）与表征系统性（模型内部表征是否结构化），指出当前基准和模型主要测试行为系统性却常声称解决了 Fodor-Pylyshyn 对表征系统性的挑战。基于 Hadley (1994) 的三级分类（弱/准/强系统性）分析语言和视觉关键基准的测试范围，最终呼吁用机械可解释性方法在行为评估之上补充表征分析。
+:   这篇观点性综述区分了行为系统性（模型能否正确泛化到新组合）和表征系统性（模型内部表征是否结构化），用 Hadley 的弱/准/强三级分类审视了语言和视觉领域的主流基准，发现大多数现有基准仅测试弱或准系统性，并呼吁通过机械可解释性方法弥补行为与表征评估的鸿沟。
 
 **[Better Embeddings With Coupled Adam](better_embeddings_with_coupled_adam.md)**
 
@@ -274,10 +274,6 @@ description: >-
 
 :   用行列式点过程（DPP）替代 LLM 的隐式内容选择来生成多样化多文档摘要——将任务分解为"提取原子关键点→DPP 选择多样子集→LLM 重写为摘要"三步，解决了 LLM 的"lost in the middle"问题，在 DiverseSumm 基准上一致提升了源覆盖率。
 
-**[Dress Dataset Rubric Based Essay Scoring Efl Writing](dress_dataset_rubric_based_essay_scoring_efl_writing.md)**
-
-:   发布 DREsS——一个面向 EFL（英语作为外语）写作教育的大规模标准化评分量规数据集（48.9K 样本），并提出基于文本损坏的 CASE 数据增强策略，将基线性能提升 45.44%。
-
 **[Drs Deep Question Reformulation With Structured Output](drs_deep_question_reformulation_with_structured_output.md)**
 
 :   提出 DRS（Deep Question Reformulation with Structured Output），一种零样本方法，通过实体驱动的 DFS 搜索 + 结构化输出约束，将 GPT-3.5 的问题重构准确率从 23.03% 提升至 70.42%，使 LLM 能有效帮助用户将不可回答的问题转化为可回答的形式。
@@ -286,7 +282,9 @@ description: >-
 
 :   提出 DTA-Llama，将传统树搜索的串行工具调用路径转换为有向无环图（DAG）结构实现并行调用，设计 Process/Thread 推理框架使 LLM 在每轮中可分解任务并并行执行多个工具，在 StableToolBench 上使 Llama2-7B 达到 GPT-3.5 Parallel Function Calling 的水平。
 
-**[Dynamic Label Name Refinement for Few-Shot Dialogue Intent Classification](dynamic_label_name_refinement_for_few-shot_dialogue_intent_classification.md)**
+**[Dynamic Label Name Refinement For Few-Shot Dialogue Intent Classification](dynamic_label_name_refinement_for_few-shot_dialogue_intent_classification.md)**
+
+:   提出动态标签名称精炼方法，在检索式 ICL 意图分类中，利用 LLM 根据检索到的示例动态生成更具区分性的意图标签名称（如 "Verify PAN" → "Verify PAN card details"），有效降低语义相似意图间的混淆，在 6 个数据集上一致提升 2.07%-7.51% 准确率。
 
 **[Efficient Opamp Adaptation For Zoom Attention To Golden Contexts](efficient_opamp_adaptation_for_zoom_attention_to_golden_contexts.md)**
 
@@ -754,7 +752,7 @@ description: >-
 
 **[Quantifying Lexical Semantic Shift Via Unbalanced Optimal Transport](quantifying_lexical_semantic_shift_via_unbalanced_optimal_transport.md)**
 
-:   将 Unbalanced OT 应用于上下文化词嵌入来量化词义变迁，提出 Sense Usage Shift (SUS) 指标在每个用法实例级别量化语义变化（义项使用频率增减），统一解决实例级变化检测、词级变化幅度量化、词义扩展/缩小判定。
+:   将Unbalanced Optimal Transport（UOT）应用于上下文化词嵌入集合，提出Sense Usage Shift（SUS）指标在每个用法实例级别量化语义变化，统一解决实例级变化检测、词级变化幅度量化和词义扩展/缩小判定三项任务。
 
 **[Rank Chunk And Expand Lineage-Oriented Reasoning For Taxonomy Expansion](rank_chunk_and_expand_lineage-oriented_reasoning_for_taxonomy_expansion.md)**
 
@@ -934,7 +932,7 @@ description: >-
 
 **[Tuna Temporal Understanding](tuna_temporal_understanding.md)**
 
-:   本文提出 Tuna，一个面向密集动态视频的细粒度时序理解基准，包含 1000 个精心标注的视频和两个互补任务（Tuna-cap 字幕生成和 Tuna-mcq 视频问答），覆盖相机状态、场景、动作、属性四大动态要素，评估 21 个模型后发现即使 GPT-4o 也仅达 58.5% F1，揭示了当前模型在时序理解上的重大不足。
+:   Tuna 构建了 1000 个时间密集短视频的细粒度多维标注数据集，配套字幕评测（事件拆分→匹配→关系分类）和时序问答两个任务，系统性地暴露了当前视频 LMM 在动态时序理解上的弱点。
 
 **[Understanding Common Ground Misalignment In Goal-Oriented Dialog A Case-Study Wi](understanding_common_ground_misalignment_in_goal-oriented_dialog_a_case-study_wi.md)**
 
@@ -966,7 +964,7 @@ description: >-
 
 **[Using Shapley Interactions To Understand How Models Use Structure](using_shapley_interactions_to_understand_how_models_use_structure.md)**
 
-:   利用 Shapley Taylor 交互指数（STII）分析语言模型和语音模型如何在内部表征中编码输入的结构关系，发现自回归模型在句法邻近度、非组合语义和语音协同发音方面均展现出有意义的非线性交互模式。
+:   利用Shapley Taylor交互指数（STII）跨模态（文本+语音）系统分析语言模型如何通过非线性交互编码句法结构、非组合语义和语音协同发音，发现自回归模型在句法编码上显著优于遮蔽模型。
 
 **[Using Source-Side Confidence Estimation For Reliable Translation Into Unfamiliar](using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)**
 
@@ -1006,7 +1004,7 @@ description: >-
 
 **[Why Are Positional Encodings Nonessential For Deep Autoregressive Transformers R](why_are_positional_encodings_nonessential_for_deep_autoregressive_transformers_r.md)**
 
-:   这是一篇综述/回顾性论文，系统解释了多层自回归 Transformer 无需显式位置编码即可区分不同序列的原理，并追溯该结论的历史起源（Irie et al., 2019），纠正了社区中将此发现误归因于后来工作的现象。
+:   重新阐释并溯源一个 pre-LLM 时代已知但被遗忘的结论——多层自回归 Transformer 语言模型无需显式位置编码即可区分排列序列，因为级联的（排列不变的）集合处理器在因果掩码下集体展现出完全位置敏感性；同时反思了 LLM 时代的知识断层和引用偏差。
 
 **[Words Of Warmth Trust And Sociability Norms For Over 26K English Words](words_of_warmth_trust_and_sociability_norms_for_over_26k_english_words.md)**
 

@@ -12,7 +12,7 @@ description: >-
 
 **[10 Open Challenges Steering The Future Of Vision-Language-Ac](10_open_challenges_steering_the_future_of_vision-language-ac.md)**
 
-:   一篇针对Vision-Language-Action(VLA)模型的综述/展望论文，系统梳理了VLA领域的10大开放挑战（多模态感知、鲁棒推理、数据质量、评估、跨机器人泛化、效率、全身协调、安全、多智能体、人机协作）以及4大新兴趋势（层次化规划、空间理解、世界动力学建模、数据合成），为VLA研究指明方向。
+:   系统梳理 VLA 模型面临的 10 大开放挑战——多模态感知、鲁棒推理、高质量训练数据、评估、跨机器人动作泛化、资源效率、全身协调、安全保障、Agent 框架、人机协作——并讨论空间理解、世界动力学建模、后训练和数据合成四大新兴趋势。
 
 **[Ahan Asymmetric Hierarchical Attention Network For Identical](ahan_asymmetric_hierarchical_attention_network_for_identical.md)**
 
@@ -72,7 +72,7 @@ description: >-
 
 **[Efficient And Reliable Hitting-Set Computations For The Implicit Hitting Set App](efficient_and_reliable_hitting-set_computations_for_the_implicit_hitting_set_app.md)**
 
-:   探索IHS框架中打击集计算的替代方案（PB推理+随机局部搜索），发现商业IP最高效但有数值不稳定性，PB推理可提供竞争性效率+正确性保证+计算证书。
+:   针对隐式击中集框架中击中集组件依赖商用IP求解器带来的数值不稳定问题，提出基于伪布尔推理和随机局部搜索的替代方案及混合策略，实现了首个可认证的IHS计算并在1786个基准实例上展示了效率与可靠性的有效权衡。
 
 **[Enhancing Noise Resilience In Face Clustering Via Sparse Differential Transforme](enhancing_noise_resilience_in_face_clustering_via_sparse_differential_transforme.md)**
 

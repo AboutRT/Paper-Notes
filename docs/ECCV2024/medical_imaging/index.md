@@ -84,7 +84,7 @@ description: >-
 
 **[Textttnephi Neural Deformation Fields For Approximately Diff](textttnephi_neural_deformation_fields_for_approximately_diff.md)**
 
-:   NePhi用隐式神经网络（SIREN）替代传统的体素化形变场来表示配准变换，通过编码器预测latent code + 可选的测试时优化实现快速且近似微分同胚的医学图像配准，在多分辨率设置下与SOTA精度相当但内存降低5倍。
+:   NePhi 提出用神经隐式函数（SIREN）替代传统体素形变场来表示图像配准中的形变，通过编码器预测潜码实现快速推理、通过实例优化提升精度，在肺部和脑部 3D 配准任务中匹配 SOTA 精度的同时将训练内存降低 5 倍，且天然产生近似微分同胚的光滑形变。
 
 **[Tip Tabular-Image Pre-Training For Multimodal Classification With Incomplete Dat](tip_tabular-image_pre-training_for_multimodal_classification_with_incomplete_dat.md)**
 

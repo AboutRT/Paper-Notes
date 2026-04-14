@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 医学图像方向 148篇论文解读
+  NeurIPS2025 医学图像方向 147篇论文解读
 description: >-
-  148篇NeurIPS2025 医学图像方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  147篇NeurIPS2025 医学图像方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🧠 NeurIPS2025** · 共 **148** 篇
+**🧠 NeurIPS2025** · 共 **147** 篇
 
 **[3Drad A Comprehensive 3D Radiology Medvqa Dataset With Multi](3drad_a_comprehensive_3d_radiology_medvqa_dataset_with_multi.md)**
 
@@ -38,10 +38,6 @@ description: >-
 
 :   提出 A-GPS 框架，通过学习 Pareto 集的条件生成模型实现在线离散黑箱多目标优化——用非支配类概率估计器（CPE）作为 PHVI 的隐式估计替代显式超体积计算，并通过偏好方向向量实现摊还式后验偏好条件化（无需重新训练），在合成基准和蛋白质设计任务上展示了优越的样本效率。
 
-**[Aquamam An Autoregressive Quaternion Manifold Model For Rapidly Estimating Compl](aquamam_an_autoregressive_quaternion_manifold_model_for_rapidly_estimating_compl.md)**
-
-:   AQuaMaM 提出基于四元数流形的自回归蛋白质结构预测模型——将蛋白质骨架的旋转表示为四元数（在 $S^3$ 流形上），用自回归方式沿序列逐步预测每个残基的局部坐标系旋转，实现比 AlphaFold 快数个量级的结构估计。
-
 **[Atomic Diffusion Models For Small Molecule Structure Elucidation From Nmr Spectr](atomic_diffusion_models_for_small_molecule_structure_elucidation_from_nmr_spectr.md)**
 
 :   提出 ChefNMR，首个基于 3D 原子扩散模型的端到端框架，仅从 1D NMR 光谱和化学式直接预测未知小分子（尤其是复杂天然产物）的分子结构，在合成和实验数据集上均达到 SOTA。
@@ -54,9 +50,9 @@ description: >-
 
 :   RFAE 首次为随机森林构建了原则性的编码-解码框架——利用 RF 核的正定性和普适性进行扩散映射谱分解得到低维编码，通过 k-NN 回归在叶节点空间中解码回原始特征，在 20 个表格数据集上重建质量排名 1.80（大幅优于 TVAE 3.38、AE 3.27），并成功应用于 MNIST 重建和 scRNA-seq 批次效应去除。
 
-**[BarcodeMamba+: Advancing State-Space Models for Fungal Biodiversity Research](barcodemamba_advancing_state-space_models_for_fungal_biodiversity_research.md)**
+**[Barcodemamba Advancing State-Space Models For Fungal Biodiversity Research](barcodemamba_advancing_state-space_models_for_fungal_biodiversity_research.md)**
 
-:   BarcodeMamba+ 是用于真菌 DNA 条形码分类的基础模型——基于状态空间模型架构，采用预训练+微调范式利用部分标注数据，结合层次标签平滑、加权损失和多头输出增强真菌分类（93%样本种级未标注），在所有分类层级上超越现有方法。
+:   BarcodeMamba+ 是面向真菌 ITS DNA 条形码分类的 SSM 基础模型，通过预训练+微调范式充分利用海量未标注序列，并结合层次标签平滑、逆平方根加权损失和多头输出三项增强，在三个测试集所有分类层级上大幅超越 BLAST、CNN 和 Transformer 基线，种级准确率最高达 88.9%。
 
 **[Bidirectional Representations Augmented Autoregressive Biological Sequence Gener](bidirectional_representations_augmented_autoregressive_biological_sequence_gener.md)**
 

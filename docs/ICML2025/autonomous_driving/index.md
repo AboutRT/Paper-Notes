@@ -16,11 +16,11 @@ description: >-
 
 **[Drivegpt Scaling Autoregressive Behavior Models For Driving](drivegpt_scaling_autoregressive_behavior_models_for_driving.md)**
 
-:   提出 DriveGPT，一个 1.4B 参数的自回归驾驶行为模型，在 1.2 亿训练片段上训练，探索了驾驶行为建模中数据/模型/计算的缩放特性，在规划和预测任务上展示了缩放收益。
+:   提出 DriveGPT，一个 1.4B 参数的自回归 Transformer 驾驶行为模型，在 1.2 亿真实驾驶片段上训练（比现有最大数据集多 50x），首次系统建立驾驶行为建模的数据/模型/计算缩放定律，验证数据是性能瓶颈，在规划和 WOMD 预测任务上超越 SOTA。
 
 **[Geometry-To-Image Synthesis-Driven Generative Point Cloud Registration](geometry-to-image_synthesis-driven_generative_point_cloud_registration.md)**
 
-:   提出生成式点云配准新范式，通过 DepthMatch-ControlNet 和 LiDARMatch-ControlNet 从点云生成跨视图一致的 RGB 图像对，融合颜色信息增强几何描述子，即插即用地提升现有配准方法。
+:   提出 Generative Point Cloud Registration 新范式，设计 DepthMatch-ControlNet 和 LiDARMatch-ControlNet 两个配准专用可控 2D 生成模型，从纯几何点云对生成跨视图一致的 RGB 图像对，通过几何-颜色特征融合即插即用地提升现有 3D 配准方法，在 3DMatch/ScanNet/Dur360BEV 上验证有效。
 
 **[Goirl Graph-Oriented Inverse Reinforcement Learning For Multimodal Trajectory Pr](goirl_graph-oriented_inverse_reinforcement_learning_for_multimodal_trajectory_pr.md)**
 
@@ -32,11 +32,11 @@ description: >-
 
 **[Hybrid Quantum-Classical Multi-Agent Pathfinding](hybrid_quantum-classical_multi-agent_pathfinding.md)**
 
-:   提出首个混合量子-经典多智能体路径规划（MAPF）最优算法 QP/QCP，基于分支-割-定价框架，通过将受限 ILP 子问题转化为 QUBO 问题在量子硬件上求解，在基准数据上优于先前 QUBO 方法和 SOTA MAPF 求解器。
+:   提出首个最优混合量子-经典MAPF算法QP和QCP，将MAPF的路径选择问题转化为可在量子硬件上求解的QUBO子问题，通过冲突图+列生成框架实现理论最优性，在真实量子硬件上验证可行性。
 
 **[Infocons Identifying Interpretable Critical Concepts In Point Clouds Via Informa](infocons_identifying_interpretable_critical_concepts_in_point_clouds_via_informa.md)**
 
-:   提出InfoCons框架，用信息论原理将点云分解为3D概念，通过可学习先验检验每个概念对模型预测的因果效应，生成既忠实（保留因果影响点）又概念连贯（语义有意义）的解释。
+:   提出 InfoCons 框架，将信息瓶颈（IB）原理应用于点云模型解释——通过学习一个注意力瓶颈网络来分解点云为不同重要性的 3D 概念，引入可学习的无偏先验替代固定先验，在保证对模型预测忠实（faithfulness）的同时生成概念连贯（conceptual cohesion）的解释。
 
 **[R3Dm Enabling Role Discovery And Diversity Through Dynamics Models In Multi-Agen](r3dm_enabling_role_discovery_and_diversity_through_dynamics_models_in_multi-agen.md)**
 

@@ -2,106 +2,136 @@
 title: >-
   [论文解读] mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding
 description: >-
-  [ACL 2025 (Long Paper)][模型压缩][文档理解] 提出High-resolution DocCompressor模块，利用低分辨率全局视觉特征作为query通过交叉注意力将高分辨率文档图像压缩为仅324个token（不到同类方法的20%），在多页文档理解benchmark上达到SOTA且首token延迟降低50%+。
+  [ACL 2025][模型压缩][文档理解] DocOwl2提出High-resolution DocCompressor，用全局低分辨率特征引导的分组交叉注意力将每张文档图片压缩至324 tokens，在多页文档理解上实现SOTA且推理延迟降低50%+
 tags:
-  - ACL 2025 (Long Paper)
+  - ACL 2025
   - 模型压缩
   - 文档理解
+  - 多模态LLM
+  - OCR-free
   - 视觉token压缩
-  - 多页文档
-  - OCR
-  - 高分辨率
 ---
 
 # mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding
 
-**会议**: ACL 2025 (Long Paper)  
+**会议**: ACL 2025  
 **arXiv**: [2409.03420](https://arxiv.org/abs/2409.03420)  
-**代码**: [https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/DocOwl2](https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/DocOwl2)  
-**领域**: 多模态VLM / 文档理解  
-**关键词**: 文档理解, 视觉token压缩, 多页文档, OCR-free, 高分辨率  
+**代码**: [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/DocOwl2)  
+**领域**: 模型压缩 / 多模态VLM  
+**关键词**: 文档理解, 视觉token压缩, 布局感知, 多页文档, OCR-free
 
 ## 一句话总结
-提出High-resolution DocCompressor模块，利用低分辨率全局视觉特征作为query通过交叉注意力将高分辨率文档图像压缩为仅324个token（不到同类方法的20%），在多页文档理解benchmark上达到SOTA且首token延迟降低50%+。
 
-## 背景与动机
-OCR-free文档理解的MLLM通过增加分辨率获得了强大性能（如InternVL2在DocVQA上91.6），但代价是单张文档图像生成数千个视觉token（InternVL2约3133个）。这导致：(1) GPU内存占用过大；(2) 推理延迟高；(3) 多页文档几乎不可行。已有压缩方法要么独立压缩每个裁剪块（总token仍多），要么用可学习query（忽略布局信息）。
+提出布局感知的High-resolution DocCompressor模块，用全局低分辨率视觉特征作为query、子图特征作为key/value进行分组交叉注意力，将每张高分辨率文档图片从数千tokens压缩至324 tokens，配合三阶段训练框架在多页文档理解上达到SOTA且First Token Latency降低50%以上。
 
-## 核心问题
-如何将文档图像大幅压缩到极少token（<400个），同时保留布局结构和文本信息？
+## 研究背景与动机
+
+**领域现状**：OCR-free文档理解通过将高分辨率文档图片裁剪为多个低分辨率子图来捕获细粒度文字信息，已取得显著进展（如InternVL 2在DocVQA上达91.6%）。然而这种策略的代价是每张文档图片需要数千视觉tokens（InternVL 2平均3k+ tokens），导致GPU内存消耗大、推理速度慢。
+
+**现有痛点**：大量视觉tokens使多页文档理解几乎不可行——10页文档需要3万+ tokens，远超大多数LLM的上下文窗口。现有压缩方法存在明显缺陷：(1) 独立压缩每个子图仍需大量tokens（如TokenPacker仍1.8k+ tokens）；(2) 可学习query（如Resampler/Q-former）缺乏布局先验，难以有效压缩文档中密集的文字信息；(3) 基于token相似度选择的方法（如TextMonkey）可能遗漏部分区域。
+
+**核心矛盾**：文档图片中的文字信息密度远高于自然图片，简单的视觉token压缩方法会严重丢失文字信息；但不压缩又无法实现多页/多图联合理解。
+
+**本文要解决什么？** 如何在将高分辨率文档图片大幅压缩的同时保留完整的布局和文字信息？
+
+**切入角度**：两个关键观察——(1) NLP领域已证明文本段落可以被压缩为少量向量而保留大部分语义；(2) 经过vision-to-text模块对齐后的视觉tokens本质上已是"文本token"，可以视为编码了图像不同区域文字信息的文本token，因此可以用类似文本压缩的方式来处理。全局低分辨率图片天然编码了整体布局信息，可以作为压缩的语义引导。
+
+**核心idea一句话**：用全局低分辨率特征作为query引导跨注意力压缩高分辨率子图特征，利用位置对应关系进行分组注意力，并在vision-to-text对齐后执行以更好保留文字语义。
 
 ## 方法详解
 
 ### 整体框架
-形状自适应裁剪 → 低分辨率ViT编码 → H-Reducer对齐到LLM维度 → **High-resolution DocCompressor**交叉注意力压缩 → LLM多模态理解。三阶段训练：单图预训练→多图续训→多任务微调。
+
+DocOwl2的编码流程：高分辨率图片 → Shape-adaptive Cropping切为$R \times C$个子图+全局图 → ViT独立编码每个子图和全局图 → H-Reducer（卷积+FC）做vision-to-text对齐并将每个子图的token数减到1/4 → **High-resolution DocCompressor**进一步压缩到与全局特征图同样大小（324 tokens） → 多张图的压缩tokens拼接后送入LLM。三阶段训练：Single-image Pretraining → Multi-image Continue-Pretraining → Multi-task Finetuning。
 
 ### 关键设计
 
-1. **High-resolution DocCompressor**: 核心创新。全局低分辨率图像经ViT+H-Reducer得到的特征图作为cross-attention的**query**，高分辨率子图拼接的特征图作为**key/value**。每个query自然对应原图的一个布局区域，只attend相同相对位置的高分辨率特征——而非全图attend，既保留布局感知又降低计算复杂度。最终将任意分辨率文档压缩为固定的18×18=324个token。
+1. **布局感知的分组交叉注意力压缩**:
 
-2. **布局感知压缩**: 关键insight——文档中同一布局区域的文本语义连贯（如双栏论文中"相关工作"一栏的文本），按布局区域做局部压缩比全局压缩更有效。全局特征隐式编码了布局信息，作为query天然地实现了布局感知。
+    - 做什么：将每张高分辨率文档图片从 $(R \times C + 1) \times h \times w/4$ tokens压缩到 $h \times w/4$ tokens（如从2560压到324）
+    - 核心思路：全局特征图 $\hat{V}^g$ 中的每个token $\hat{v}_{ij}^g$ 作为query，对应的 $R \times C$ 个高分辨率子图tokens $\hat{v}_{ij}^s$ 作为key/value进行分组交叉注意力：$\bar{v}_{ij} = \text{softmax}(\frac{W^q \hat{v}_{ij}^g \cdot W^k \hat{v}_{ij}^s}{\sqrt{d_k}}) W^v \hat{v}_{ij}^s + \hat{v}_{ij}^g$（含residual connection）。位置对应关系由图片裁剪的空间映射自然确定
+    - 设计动机：区别于让每个query attend所有高分辨率tokens（计算量大且信息压缩更困难），分组注意力利用了全局图与子图之间天然的空间对应关系，每个query只需关注同一物理区域的 $R \times C$ 个对应位置的tokens，更容易按布局区域聚合语义信息
 
-3. **文本对齐后再压缩**: 另一个insight——在V2T模块（H-Reducer）之后做压缩，而非直接压缩ViT输出。因为V2T已把视觉特征对齐到LLM的文本空间，此时压缩类似于"文本摘要"（与Gist Token思路类似），比纯视觉压缩更能保留文本语义。
+2. **压缩位置：vision-to-text对齐之后**:
 
-4. **三阶段训练**: Stage 1（单图预训练，DocStruct4M 4M数据）训练编码器+DocCompressor；Stage 2（多图续训，1.6M数据）训练多页理解能力；Stage 3（多任务微调）在下游任务上精调。
+    - 做什么：将DocCompressor放置在H-Reducer（V2T模块）之后而非ViT和H-Reducer之间
+    - 核心思路：先通过H-Reducer的卷积层聚合水平方向4个特征并通过FC层与LLM特征空间对齐，使视觉特征已编码为"类文本token"，再进行压缩
+    - 设计动机：消融实验（r4 vs r3）证实在V2T对齐后压缩优于直接压缩ViT输出。直觉是：压缩已对齐的特征类似于NLP中的文本摘要（在语义空间中操作），而直接压缩视觉特征会丢失更多文字信息
+
+3. **三阶段训练框架**:
+
+    - 做什么：分阶段逐步赋予模型单图理解→多图关联→多任务泛化能力
+    - 核心思路：**Stage 1**（Single-image Pretraining）：在DocStruct4M上学习文档/表格/图表的结构解析，确保压缩tokens编码足够信息。**Stage 2**（Multi-image Continue-Pretraining）：在MP-DocStruct1M上学习多页文本解析和文本查找两个对称任务。**Stage 3**（Multi-task Finetuning）：混合单图（DocDownstream-1.0, DocReason25K）和多图（MP-DocVQA, DUDE, NewsVideoQA, MP-DocReason51K）指令微调数据集
+    - 设计动机：Stage 2的两个对称任务（给页码解析文字 + 给文字找页码）是多页理解的基础能力——模型需要在多张图片间建立页码-内容的双向映射。消融实验（r3 vs r2）证实这一阶段对10+页文档的理解至关重要
 
 ### 损失函数 / 训练策略
-- 标准自回归文本生成损失
-- Stage 1: lr=1e-4, batch=1024, 12k steps
-- Stage 2: lr=2e-5, batch=1024, 2.4k steps  
-- Stage 3: lr=2e-5, batch=256, 9k steps
+
+基于mPLUG-Owl2初始化。Stage 1训练12k步（batch 1024, lr 1e-4），冻结LLM主参数只调MAM；Stage 2训练2.4k步（batch 1024, lr 2e-5），冻结ViT；Stage 3训练9k步（batch 256, lr 2e-5），除ViT外全部参数可训练。DocCompressor仅含2层交叉注意力。
 
 ## 实验关键数据
 
-**单页文档理解（324 tokens vs 1k+ tokens基线）**:
+### 主实验
 
-| 模型 | Token数 | DocVQA | InfoVQA | ChartQA | TextVQA |
-|------|---------|--------|---------|---------|---------|
-| InternVL2 (8B) | ~3133 | **91.6** | **74.8** | **83.3** | 77.4 |
-| DocOwl 1.5 (8B) | ~1698 | 82.2 | 50.7 | 70.2 | 68.6 |
-| **DocOwl2 (8B)** | **324** | 80.7 | 46.4 | 70.0 | 66.7 |
-| TextMonkey (9B) | 768 | 73.0 | 28.6 | 66.9 | 65.9 |
-| QwenVL (9B) | 256 | 65.1 | 35.4 | 65.7 | 63.8 |
+单页文档理解（visual tokens < 1k组）：
 
-→ DocOwl2用324 token达到了DocOwl 1.5用1698 token的98%性能
+| 模型 | TokenV | DocVQA | ChartQA | TextVQA | InfoVQA |
+|------|--------|--------|---------|---------|---------|
+| TextMonkey | 768 | 73.0 | 66.9 | 65.9 | 28.6 |
+| UReader | ~841 | 65.4 | 59.3 | 57.6 | 42.2 |
+| **DocOwl2** | **324** | **80.7** | **70.0** | **66.7** | **46.4** |
 
-**多页文档理解**:
-- MP-DocVQA: DocOwl2 SOTA
-- DUDE: DocOwl2 SOTA
-- 首Token延迟(FTL)降低>50%
+多页文档理解：
 
-### 消融实验要点
-- **压缩位置**: V2T之后压缩 > ViT之后压缩（DocVQA差4.7%），验证了"文本对齐后再压缩"的假设
-- **Query来源**: 全局特征做query > 可学习query > 选择性token做query
-- **压缩层数**: 2层交叉注意力最优
-- **局部attend vs 全局attend**: 局部attend（布局感知）优于全局attend
-- **三阶段训练**: 每个阶段都有贡献，特别是多图续训对多页理解至关重要
+| 模型 | TokenV | MP-DocVQA (ANLS) | DUDE (ANLS) | FTL(s)↓ |
+|------|--------|------------------|-------------|---------|
+| LongVA-7B | ~2029 | 60.80 | 38.37 | 2.13 |
+| Idefics3-8B | ~838 | 67.15 | 38.65 | 2.26 |
+| **DocOwl2-8B** | **324** | **69.42** | **46.77** | **0.95** |
 
-## 亮点
-- **极致的token效率**: 324 token vs 3000+ token，减少90%以上，且性能仅降很少
-- **布局感知是核心**: 利用全局低分辨率特征做query，自然实现按布局区域压缩
-- **V2T后压缩的insight**: 将视觉压缩转化为"文本摘要"，效果显著优于直接压缩视觉特征
-- **多页文档成为可能**: 324 token/页使得20+页的完整文档理解在单张GPU上可行
+### 消融实验
+
+压缩架构对比（相同训练流程，单图评估）：
+
+| 方法 | 压缩方式 | TokenV | DocVQA | WTQ | ChartQA |
+|------|---------|--------|--------|-----|---------|
+| Resampler | 可学习query | 256 | 69.0 | 29.4 | 66.6 |
+| CAbstractor | 自适应均值池化 | 256 | 73.0 | 32.6 | 67.6 |
+| **DocCompressor** | 分组交叉注意力 | 256 | **76.1** | **35.1** | **69.2** |
+| DocCompressor (after ViT) | 分组交叉注意力 | 256 | 75.7 | 33.3 | 68.7 |
+| DocCompressor (完整注意力) | 全局交叉注意力 | 256 | 74.4 | 33.7 | 68.2 |
+| DocCompressor (均值) | 分组均值池化 | 256 | 74.6 | 31.9 | 68.2 |
+
+### 关键发现
+
+- **压缩10倍性能仅降2%**：与DocOwl 1.5（~1698 tokens）相比，DocOwl2（324 tokens）在DocVQA上达到98%性能，但First Token Latency降低55%（0.26s vs 0.58s）
+- **分组注意力优于全局注意力**：利用空间对应的分组注意力（r3）比全局注意力（r5）+2个百分点，且计算更低
+- **V2T对齐后压缩更好**：放在H-Reducer之后（r3）比之前（r4）好0.4-1.8个百分点
+- **多图训练阶段贡献显著**：加入Stage 2后10+页文档的准确率从5.8%跳到37.9%（r4 vs r1）
+- **与>1k tokens的SOTA比**：用<20%的tokens达到了InternVL 2 / IXC 2.5在7/10基准上>80%的性能
+
+## 亮点与洞察
+
+- **布局感知压缩的直觉精准**：文档中同一布局区域的文字语义连贯，用全局特征图的空间结构作为压缩引导非常自然。这个设计比可学习query、token选择等方法都更贴合文档的物理结构
+- **"视觉token = 文本token"的洞察**：经V2T对齐后的视觉tokens已进入文本语义空间，因此压缩它们等价于文本摘要，而非视觉信息的有损编码。这个insight解释了为什么在V2T后压缩效果更好
+- **三阶段训练中的对称任务设计**：多页文本解析（页码→文本）和文本查找（文本→页码）互为逆向，同时训练能建立更强的页码-内容双向关联
 
 ## 局限性 / 可改进方向
-- 单页性能仍低于不压缩的高token方法（InternVL2: 91.6 vs DocOwl2: 80.7 on DocVQA）
-- 324是固定的压缩目标，未探索自适应压缩比（简单页面可更低，复杂页面应更高）
-- DocCompressor增加了额外的模型参数和训练成本
-- 对极小文字或复杂表格的压缩可能丢失关键信息
-- 仅在文档场景验证，对自然图像的适用性未测试
 
-## 与相关工作的对比
-- **vs InternVL2**: InternVL2更准但用3133 token，DocOwl2用324 token效率高10倍
-- **vs TokenPacker**: TokenPacker独立压缩每个crop，总token仍多（467-1833）；DocOwl2全局布局感知压缩更高效
-- **vs TextMonkey**: TextMonkey选择性筛选token（768个），信息可能覆盖不全；DocOwl2全区域覆盖
+- **基座模型较老**：基于LLaMA-1和mPLUG-Owl2，性能天花板受限。用更强的基座（如LLaMA-3/Qwen2）可能显著提升
+- **固定压缩比**：所有图片统一压缩到324 tokens，但不同文档的信息密度差异大。自适应压缩比是值得探索的方向
+- **与SOTA差距仍存**：在需要精细OCR的任务上（如DocVQA），与InternVL 2（91.6%）差距仍有10+个百分点
+- **仅验证文档类图片**：对自然图片的压缩效果未充分验证
 
-## 启发与关联
-- "V2T之后再压缩"的insight与Gist Token研究互补——两者都发现在文本空间做压缩更有效
-- 自适应压缩比是一个重要改进方向——简单页面的布局信息已经足够压缩到更少token
-- DocCompressor的布局感知交叉注意力可以迁移到VLM的视频帧压缩（帧=页面）
+## 相关工作与启发
+
+- **vs TokenPacker**: TokenPacker用下采样特征作为query压缩每个子图，但仍需拼接所有子图结果（1.8k tokens）；DocOwl2用全局特征引导压缩全局性做得更彻底（324 tokens）
+- **vs TextMonkey**: TextMonkey基于token相似度选择有价值的tokens作为压缩引导，可能遗漏某些区域；DocOwl2的全局特征图覆盖所有区域
+- **vs Mini-Gemini**: Mini-Gemini需要额外的高分辨率编码器；DocOwl2复用同一ViT编码全局图和子图，更简洁
+- **启发**：这种"用低分辨率全局特征引导高分辨率细节压缩"的范式可以迁移到视频理解（关键帧引导压缩相邻帧）和超长文档处理
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ 布局感知压缩和V2T后压缩的两个insight都有价值
-- 实验充分度: ⭐⭐⭐⭐⭐ 10个单页+2个多页benchmark、详细消融
-- 写作质量: ⭐⭐⭐⭐ 图示清晰，不同压缩方法的对比很直观
-- 价值: ⭐⭐⭐⭐⭐ 使多页文档OCR-free理解成为实际可行，工业价值高
+
+- 新颖性: ⭐⭐⭐⭐ 布局感知压缩的设计自然且有效，V2T后压缩的insight有深度
+- 实验充分度: ⭐⭐⭐⭐⭐ 10个单页+3个多页基准，充分消融，延迟分析，定性示例
+- 写作质量: ⭐⭐⭐⭐ 结构清晰，消融设计系统，动机阐述到位
+- 价值: ⭐⭐⭐⭐ 为多页文档理解的token效率问题提供了实用且可复现的解决方案

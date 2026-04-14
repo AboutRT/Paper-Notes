@@ -80,7 +80,7 @@ description: >-
 
 **[More Than Irrational Modeling Belief-Biased Agents](more_than_irrational_modeling_belief-biased_agents.md)**
 
-:   提出一类计算理性 (CR) 用户模型，将人类"非理性"行为解释为在有限记忆等认知约束下基于偏差信念做出的理性决策，并设计嵌套粒子滤波方法在线推断用户的认知边界参数和信念状态，进一步构建自适应 AI 助手。
+:   提出一种计算理性（CR）用户模型框架，将人类看似"不理性"的行为解释为在有限记忆（信念偏差）下的最优决策，通过嵌套粒子滤波（NPF）在线推断用户的潜在记忆界限参数 $\theta$ 和偏差信念状态 $\tilde{b}$，PM误差在45步内降低90%，并在辅助POMDP中展示自适应AI助手策略。
 
 **[Neural Graph Navigation For Intelligent Subgraph Matching](neural_graph_navigation_for_intelligent_subgraph_matching.md)**
 
@@ -96,7 +96,7 @@ description: >-
 
 **[Recursive Visual Imagination And Adaptive Linguistic Grounding For Vision Langua](recursive_visual_imagination_and_adaptive_linguistic_grounding_for_vision_langua.md)**
 
-:   提出基于隐式场景表征 (ISR) 的 VLN 策略，通过递归视觉想象 (RVI) 将历史轨迹压缩为紧凑神经网格，并用自适应语言对齐 (ALG) 将指令组件与不同网格精细匹配，在 R2R-CE 和 ObjectNav 上取得 SOTA。
+:   提出基于隐式场景表征（ISR）的VLN策略，通过递归视觉想象（RVI）将历史轨迹压缩为固定大小的紧凑神经网格学习高层场景先验，并通过自适应语言对齐（ALG）将指令的不同语义组件与不同网格精细匹配，在R2R-CE和ObjectNav两个连续环境导航任务上取得SOTA。
 
 **[Robust Out-Of-Order Retrieval For Grid-Based Storage At Maximum Capacity](robust_out-of-order_retrieval_for_grid-based_storage_at_maximum_capacity.md)**
 
@@ -112,7 +112,7 @@ description: >-
 
 **[To Align Or Not To Align Strategic Multimodal Representation Alignment For Optim](to_align_or_not_to_align_strategic_multimodal_representation_alignment_for_optim.md)**
 
-:   系统研究显式跨模态对齐强度对单模态编码器性能的影响，发现最优对齐强度取决于模态间的冗余-唯一信息结构：冗余高时对齐有益，唯一信息主导时对齐有害，混合情况下存在最优 λ*。
+:   通过引入可控对比学习模块系统调节对齐强度 $\lambda$，结合偏信息分解(PID)框架量化模态间冗余-独特-协同信息结构，揭示显式对齐的效用高度依赖于数据特性：冗余主导时对齐有益，独特主导时有害，混合场景存在最优 $\lambda^*$。
 
 **[Touchformer A Robust Transformer-Based Framework For Multimodal Material Percept](touchformer_a_robust_transformer-based_framework_for_multimodal_material_percept.md)**
 

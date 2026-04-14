@@ -1,159 +1,118 @@
 ---
-title: >-
-  [论文解读] Inferring Stochastic Dynamics with Growth from Cross-Sectional Data
-description: >-
-  [NEURIPS2025][stochastic dynamics] 提出 Unbalanced Probability Flow Inference (UPFI)，通过 Fokker-Planck 方程的 Lagrangian 形式化，从横截面 (cross-sectional) 快照数据中同时推断含细胞增殖/死亡的随机动力学系统中的 drift、noise 和 growth rate。
+description: 提出UPFI方法从横截面快照数据中推断含细胞增殖/死亡的随机动力学，通过Lagrangian形式化分离drift、noise与growth
 tags:
-  - NEURIPS2025
-  - stochastic dynamics
-  - cross-sectional data
-  - Fokker-Planck equation
-  - single-cell RNA-seq
-  - unbalanced optimal transport
-  - score matching
-  - 扩散模型
+- stochastic-dynamics
+- single-cell
+- optimal-transport
+- score-matching
 ---
-
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Inferring Stochastic Dynamics with Growth from Cross-Sectional Data
 
-**会议**: NEURIPS2025  
+**会议**: NeurIPS 2025  
 **arXiv**: [2505.13197](https://arxiv.org/abs/2505.13197)  
-**代码**: 待确认  
-**领域**: others  
-**关键词**: stochastic dynamics, cross-sectional data, Fokker-Planck equation, single-cell RNA-seq, unbalanced optimal transport, score matching, branching diffusion  
+**代码**: 无  
+**领域**: 计算生物学 / 随机动力学推断  
+**关键词**: 概率流推断, Fokker-Planck方程, 细胞动力学, 最优传输, 分支扩散过程
 
 ## 一句话总结
 
-提出 Unbalanced Probability Flow Inference (UPFI)，通过 Fokker-Planck 方程的 Lagrangian 形式化，从横截面 (cross-sectional) 快照数据中同时推断含细胞增殖/死亡的随机动力学系统中的 drift、noise 和 growth rate。
+提出非平衡概率流推断（UPFI），通过Fokker-Planck方程的Lagrangian形式化，从横截面数据中联合推断随机动力学系统的漂移项、扩散项和增长率，首次准确处理含细胞增殖/死亡的场景。
 
-## Problem
+## 研究背景与动机
 
-单细胞测序 (scRNA-seq) 等技术本质上是破坏性的——测量会杀死细胞，因此只能获得不同时间点的群体快照 (population snapshots)，而非单个细胞的纵向轨迹。这些群体中，细胞不仅会改变分子状态（drift + noise），还会发生分裂 (division) 和死亡 (death)，使得总细胞数不守恒。
+单细胞测序（scRNA-seq）技术是破坏性的——每个细胞只能在一个时间点测量，因此只能获取不同时间点的种群横截面快照。从这些快照重建底层动力学系统是一个核心逆问题。
 
-现有方法的主要局限：
+现有方法的局限：
 
-- **忽略噪声**：许多方法假设确定性动力学或常数各向同性扩散系数
-- **忽略 growth**：大多数方法不建模细胞增殖/死亡，或需要先验信息（如增长率估计、谱系追踪数据）
-- **PFI 的局限**：原始 Probability Flow Inference 能处理 intrinsic noise 但不能处理 growth，导致在有增殖的系统中推断出错误的状态转移
-- **DeepRUOT 的不稳定性**：多阶段训练流程容易不稳定
+- 大多数方法假设无噪声或各向同性常数扩散率，且不处理细胞增殖/死亡
+- 忽略增殖/死亡会导致推断出错误的状态转移（例如将凋亡细胞错误连接到多能性细胞）
+- DeepRUOT 等方法虽考虑了增长，但训练过程多阶段且不稳定
+- 原始PFI方法不处理细胞质量变化（不平衡传输）
 
-## Core Idea
+关键挑战：漂移（drift）和增长率（fitness）的可辨识性问题——同一组分布快照可能由不同的漂移+增长组合产生。
 
-核心洞察：带 growth 的 Fokker-Planck 方程可以在 **Lagrangian 参考系**中被重写为一个 $d+1$ 维的 ODE 系统，从而将求解 $d$ 维 PDE 的问题转化为求解 ODE 的问题。具体地，密度 $\rho_t(\mathbf{x})$ 满足带源项的 FPE：
+## 方法详解
 
-$$\partial_t \rho_t = -\nabla \cdot [\rho_t \mathbf{v}_t - \nabla \cdot (\rho_t \mathbf{D}_t)] + g_t \rho_t$$
+### 整体框架
 
-其中 $g_t(\mathbf{x}) = b_t(\mathbf{x}) - d_t(\mathbf{x})$ 为净增长率。通过引入 score function $\nabla \log \rho_t$，可以将扩散项吸收为 transport 项，得到 Lagrangian ODE 系统，同时用额外一维追踪质量变化。
+UPFI采用两步训练方案：
 
-## Method
+1. **离线得分匹配**：用去噪得分匹配从快照数据估计时间依赖的得分函数 $\mathbf{s}_t(\mathbf{x}) \approx \nabla \log \rho_t(\mathbf{x})$
+2. **在线ODE拟合**：在Lagrangian参考系下，学习漂移 $\mathbf{v}_t$ 和增长率 $g_t$，使得推送后的分布与观测匹配
 
-### 两步训练框架
+核心洞察：含增长的Fokker-Planck方程可改写为 $d+1$ 维ODE系统（位置 + 质量），避免了高维PDE求解。
 
-**Step 1: Score Matching（离线）**
+### 关键设计
 
-- 使用 denoising score matching 从所有快照数据估计时间依赖的 score function $\mathbf{s}_\phi(t, \mathbf{x}) \approx \nabla \log \rho_t(\mathbf{x})$
-- Score 独立于动力学模型参数，因此可以预先计算
-- 这一步的计算复杂度为 $\mathcal{O}(Bd)$（$B$ 为 batch size，$d$ 为维度）
+1. **Lagrangian形式化与质量方程**:
+    - 做什么：将含源项的FPE转化为特征线ODE系统，其中位置演化包含概率流速度（漂移 - 散度修正 - 得分项），质量沿特征线以增长率指数增长
+    - 核心思路：$\frac{d\mathbf{x}_t}{dt} = \mathbf{v}_t - \nabla \cdot \mathbf{D}_t - \mathbf{D}_t \nabla \log \rho_t$，$\frac{dm_t}{dt} = g_t(\mathbf{x}_t) m_t$
+    - 设计动机：Lagrangian视角将PDE降为ODE，得分函数独立于动力学参数，可离线预计算
 
-**Step 2: ODE 拟合**
+2. **非平衡Sinkhorn散度作为损失**:
+    - 做什么：选择非平衡Sinkhorn散度 $S_{\varepsilon,\gamma}$ 度量推送分布和观测分布的差异
+    - 核心思路：Sinkhorn散度直接作用于离散测度，允许质量不守恒，无需计算密度
+    - 设计动机：传统Wasserstein距离要求质量守恒，不适用于含增长系统；Sinkhorn散度有好的几何和计算性质
 
-- 将观测样本从时间 $t_i$ 推进到 $t_{i+1}$，同时演化位置 $\mathbf{x}$ 和质量 $m$：
-  - 位置更新：$\dot{\mathbf{x}}_t = \mathbf{v}_t(\mathbf{x}_t) - \nabla \cdot \mathbf{D}_t(\mathbf{x}_t) - \mathbf{D}_t(\mathbf{x}_t) \mathbf{s}_t(\mathbf{x}_t)$
-  - 质量更新：$\dot{m}_t = g_t(\mathbf{x}_t) m_t$
-- 构造预测边际分布 $\hat{\rho}_{t_{i+1}} = \sum_k m_{k,t_{i+1}} \delta(\hat{\mathbf{x}}_{k,t_{i+1}} - \mathbf{x})$
-- 使用 **unbalanced Sinkhorn divergence** $S_{\varepsilon,\gamma}$ 度量预测与真实分布的差距
-- 直接在离散测度上操作，无需计算密度值
+3. **Wasserstein-Fisher-Rao正则化解决可辨识性**:
+    - 做什么：添加 $\lambda \int (\|\mathbf{v}_t\|^2 + \alpha |g_t|^2) d\rho_t dt$ 正则项
+    - 核心思路：对Ornstein-Uhlenbeck过程分析表明，漂移和增长不可唯一辨识（Corollary 2.2），正则化保证唯一解
+    - 设计动机：Proposition 2.1证明即使限制为自治漂移，漂移矩阵的对称和反对称部分都可与增长混淆
 
-### 损失函数与正则化
+### 损失函数 / 训练策略
 
-采用 Wasserstein-Fisher-Rao 能量函数作为正则化，总损失为：
+总损失：$L = \sum_{i=1}^K S_{\varepsilon,\gamma}(\hat{\rho}_{t_i}, \rho_{t_i}) + \lambda(t_i - t_{i-1}) \int_{t_{i-1}}^{t_i} \int (\|\mathbf{v}_t\|^2 + \alpha |g_t|^2) d\rho_t dt$
 
-$$L = \sum_{i=1}^K S_{\varepsilon,\gamma}(\hat{\rho}_{t_i}, \rho_{t_i}) + \lambda \int (\|\mathbf{v}_t\|^2 + \alpha |g_t|^2) \, d\rho_t \, dt$$
+Theorem 2.3 证明在连续时间极限下，此损失对OU过程有唯一最小值。实际训练中ODE用2-3个Euler步即可。
 
-正则化确保在 drift 和 growth 不可完全辨识时仍有唯一解。
+## 实验关键数据
 
-### 理论分析：不可辨识性
+### 主实验（表格）
 
-论文在 Ornstein-Uhlenbeck (OU) 过程 + 二次 fitness 的线性二次情形下给出精确理论分析：
+双稳态系统上的Path Energy Distance（越低越好）：
 
-- **Proposition 2.1**：OU 过程 + 二次 fitness 下密度保持高斯分布，推导出均值、协方差和总质量的 ODE
-- **Corollary 2.2**：即使约束 drift 为自治 (autonomous)，对称和反对称部分都可以与 growth 混淆——同一序列的分布可以由不同的 drift + growth 组合产生
-- **Theorem 2.3**：在连续时间极限下，正则化的损失函数在线性二次参数空间中有唯一最小值
+| 维度 $d$ | UPFI | PFI | fitness-ODE | TIGON++ | DeepRUOT | OTFM | UOTFM |
+|-----------|------|-----|-------------|---------|----------|------|-------|
+| 2 | **0.14±0.09** | 1.41±0.16 | 0.30±0.18 | 0.46±0.12 | 2.15±0.01 | 1.16±0.13 | 0.42±0.13 |
+| 5 | **0.04±0.03** | 1.34±0.06 | 0.30±0.14 | 0.63±0.16 | 0.47±0.04 | 1.07±0.11 | 0.36±0.10 |
+| 10 | **0.05±0.04** | 1.03±0.18 | 0.29±0.15 | 0.61±0.06 | 1.32±0.05 | 1.09±0.19 | 0.38±0.08 |
+| 50 | **0.15±0.02** | — | — | — | — | — | — |
 
-这些理论结果阐明了"何时可以分离 drift 和 growth"这一根本性问题。
+### 消融实验
 
-## Training/Inference
+- 不处理增长的PFI在双稳态系统上推断出错误的跨分支流线（误差高10倍以上）
+- OU过程验证：在已知解析解的线性-二次场景下验证了UPFI的正确性
+- 正则化强度 $\lambda$ 对漂移-增长分离的影响：过小则不可辨识，过大则欠拟合
 
-- **训练**：两阶段顺序训练（score matching → ODE 拟合），简洁稳定
-- **ODE 积分**：实践中 2-3 步 Euler 积分即可满足精度要求
-- **Sinkhorn 计算**：每步迭代复杂度 $\mathcal{O}(B^2)$，样本复杂度 $\mathcal{O}(B^{-1/2})$，与维度无关
-- **可扩展性**：能处理中等高维数据 (实验中达到 50 维)，适合经过 PCA 降维的 scRNA-seq 数据
-- **灵活架构**：可插入可解释性架构如 Neural Graphical Model (NGM)，从中提取基因调控网络
+### 关键发现
 
-## Experiments
+- UPFI在所有维度和所有对比方法中一致最优或接近最优
+- 不考虑增长的PFI会系统性产生错误的粒子流向（将两个分支错误连接）
+- 计算复杂度：Sinkhorn散度 $O(B^2)$，得分匹配 $O(Bd)$，可处理中等高维
+- 在真实scRNA-seq数据（造血干细胞分化）上也展现了良好效果
 
-### 1. 高维双稳态系统 (Bistable System)
+## 亮点与洞察
 
-- 维度 $d \in \{2, 5, 10, 25, 50\}$
-- 与 PFI、fitness-ODE、TIGON++、DeepRUOT、OTFM、UOTFM 对比
-- **Path energy distance**：UPFI 在所有维度上表现最优或接近最优（如 $d=10$ 时 0.05 vs. 次优 0.29）
-- **Fate correlation**：UPFI 始终 $\geq 0.97$，PFI 仅约 0.57-0.65
+- **理论贡献**：Proposition 2.1和Corollary 2.2首次形式化了漂移-增长不可辨识性问题
+- **简洁架构**：两步训练（得分匹配 + ODE拟合），相比DeepRUOT等多阶段方法更稳定
+- **物理正当性**：Lagrangian形式化保留了物理可解释性，推断出的漂移场和增长率有生物学意义
+- Theorem 2.3证明了正则化训练在OU情形下有唯一解
 
-### 2. 模拟基因调控网络 (CLE Systems)
+## 局限性 / 可改进方向
 
-- 7-gene 分岔系统 + 11-gene 造血干细胞 (HSC) 系统
-- 支持 additive 和 multiplicative noise 两种模型
-- UPFI 的 fate correlation 达到 0.97-0.98，PFI 仅 0.62-0.66
-- 使用 NGM 架构推断基因调控网络：UPFI 的 AUPR 为 0.59-0.64，PFI 为 0.33-0.53
+- 漂移和增长的可辨识性在非线性情形下未完全解决，正则化引入了归纳偏置
+- 得分匹配在高维稀疏数据上可能不准确
+- 假设扩散系数 $\mathbf{D}_t$ 已知，实际中通常未知
+- 计算扩展性受限于ODE积分和Sinkhorn散度的 $O(B^2)$ 复杂度
+- 未处理批次效应等实际数据挑战
 
-### 3. 真实数据：单核-中性粒细胞发育 (Monocyte-Neutrophil)
+## 相关工作与启发
 
-- 3 个时间点、10 维 PCA 表示
-- 与 RNA velocity 的 cosine similarity：UPFI 与 TIGON++ 可比
-- **关键亮点**：lineage tracing 验证下，UPFI 的 fate probability 相关性最高（Pearson 0.26 vs. TIGON++ 0.19，PFI 0.09）
-- UPFI 正确预测早期祖细胞具有更高分裂率，符合已知生物学
-
-## Results
-
-| 指标 | UPFI | PFI | fitness-ODE | TIGON++ | DeepRUOT |
-|------|------|-----|-------------|---------|----------|
-| Path energy (d=10) | **0.05** | 1.03 | 0.29 | 0.61 | 1.32 |
-| Fate corr. (d=10) | **0.99** | 0.65 | 0.93 | 0.84 | 0.77 |
-| Force cosine (d=10) | **0.10** | 0.12 | 0.37 | 0.35 | 0.45 |
-| GRN AUPR (bifurc.) | **0.64** | 0.33 | — | — | — |
-| Lineage fate Pearson | **0.26** | 0.09 | -0.02 | 0.19 | — |
-
-核心结论：UPFI 在轨迹重建、向量场恢复、fate 预测和基因调控网络推断上全面优于现有方法。
-
-## Limitations
-
-- **不可辨识性的根本限制**：drift 和 growth 在一般情况下无法完全分离（Corollary 2.2 理论证明），只能通过正则化获得唯一但不一定"正确"的解
-- **维度扩展性有限**：实验最高仅到 50 维，依赖 PCA 预处理降维，无法直接处理全基因组高维数据
-- **自治性假设**：建议使用 autonomous drift/growth 作为归纳偏置，但真实生物系统中细胞间相互作用和时变环境效应会违反此假设
-- **Score 估计质量依赖**：整个方法的精度受限于 Step 1 score matching 的准确性，尤其在高维和低样本情况下
-- **Additive vs. Multiplicative noise**：虽然支持 multiplicative noise，但大部分实验使用 additive noise 模型，真实系统中的噪声结构可能更加复杂
-- **缺少不确定性量化**：未提供推断结果的置信区间或后验分布
-
-## My Notes
-
-**方法论亮点**：
-
-- 将 FPE 的 Lagrangian 重写与 unbalanced OT 结合的思路非常优雅，避免了直接在高维空间计算密度值的困难
-- 两步训练方案（score matching + ODE fitting）比 DeepRUOT 的多阶段训练简洁得多，且 score 的学习与动力学参数解耦，有利于稳定训练
-- 线性二次情形下的完整理论分析（不可辨识性 + 正则化唯一性）为理解方法的能力边界提供了宝贵的理论基础
-
-**潜在扩展方向**：
-
-- 结合 lineage tracing 数据作为额外约束可能部分缓解不可辨识性问题
-- 可以考虑将 score matching 替换为更现代的 flow matching 作为第一步
-- Neural Graphical Model 的集成展示了方法的灵活性，可进一步引入其他可解释架构来编码生物先验知识
-- 扩展到空间转录组学数据，处理空间依赖的 growth rate
-
-**评价**：理论与实验结合紧密，问题有明确的生物学动机，方法设计简洁有效。在计算生物学/单细胞分析领域是一项有意义的贡献。
+- **PFI (Zhang & Chardès 2023)**：本文的直接前驱，但不处理增长
+- **Waddington-OT (Schiebinger et al. 2019)**：用非平衡最优传输处理增长，但不推断漂移
+- **TIGON++ / fitness-ODE**：处理增长但假设确定性动力或全局fitness
+- 连接了随机分析、最优传输和生物动力学推断三个领域
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ — Lagrangian 重写 + unbalanced Sinkhorn 的组合在该领域是新颖的
-- 实验充分度: ⭐⭐⭐⭐ — 模拟 (多维度) + 真实数据 + 多 baseline 对比 + 理论验证
-- 写作质量: ⭐⭐⭐⭐⭐ — 理论推导清晰，动机阐述充分，图表质量高
-- 价值: ⭐⭐⭐⭐ — 对单细胞动力学推断领域有实际推动作用
+
+⭐⭐⭐⭐ — 理论扎实，方法简洁有效，首次系统解决了含增长的随机动力学推断问题

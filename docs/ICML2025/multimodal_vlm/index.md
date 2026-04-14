@@ -88,7 +88,7 @@ description: >-
 
 **[Laion-C An Out-Of-Distribution Benchmark For Web-Scale Vision Models](laion-c_an_out-of-distribution_benchmark_for_web-scale_vision_models.md)**
 
-:   提出LAION-C基准——包含6种专为web-scale数据集设计的新型图像损坏类型（对LAION等大规模数据集truly OOD），发现当代模型在LAION-C上面临显著挑战，且范式转变已发生：最好的模型现在匹配或超越人类观察者。
+:   本文指出经典的 ImageNet-C 分布外鲁棒性基准对于在 LAION 等网络规模数据集上训练的模型已不再是真正的 OOD，为此设计了6种全新的高度合成化图像畸变构建 LAION-C 基准，配合19名被试的心理物理学实验，揭示了 OOD 泛化的范式转变——最优模型已追平甚至超越人类。
 
 **[Learning Invariant Causal Mechanism From Vision-Language Models](learning_invariant_causal_mechanism_from_vision-language_models.md)**
 
@@ -144,7 +144,7 @@ description: >-
 
 **[Reasoning Limitations Of Multimodal Large Language Models A Case Study Of Bongar](reasoning_limitations_of_multimodal_large_language_models_a_case_study_of_bongar.md)**
 
-:   系统评估了 8 个 MLLM 在 Bongard Problems 上的抽象视觉推理能力，并引入 Bongard-RWR 数据集（合成概念的真实图像版本），揭示 MLLM 在合成 BP 上表现极差并非因领域差异，而是其固有的抽象推理局限。
+:   系统评估4个闭源+4个开源MLLM在经典合成Bongard Problems、Bongard HOI、Bongard-OpenWorld三个数据集上的抽象视觉推理能力，提出7种解题策略和新数据集Bongard-RWR（用真实图像表达合成BP概念），揭示MLLM在合成BP上的极差表现并非因域差异而是固有的抽象推理局限。
 
 **[Robust Multimodal Large Language Models Against Modality Conflict](robust_multimodal_large_language_models_against_modality_conflict.md)**
 
@@ -192,7 +192,7 @@ description: >-
 
 **[Universal Retrieval For Multimodal Trajectory Modeling](universal_retrieval_for_multimodal_trajectory_modeling.md)**
 
-:   首次提出多模态轨迹检索（Multimodal Trajectory Retrieval）任务，构建统一代理轨迹数据集 UATD 和 GAE-Bench 基准，并提出基于 VLM 的 GAE-Retriever 框架，在轨迹级检索上显著优于基线。
+:   首次系统定义多模态轨迹检索任务，构建统一代理轨迹数据集 UATD（7,747 个演示、82,793 个状态）和 GAE-Bench 基准（714,628 正样本对），提出基于 VLM2Vec 的 GAE-Retriever 框架，在 5 个 GUI 环境上相比最强基线 VLM2Vec-V2.2 平均提升 10.22 个百分点。
 
 **[Unlocking The Capabilities Of Large Vision-Language Models For Generalizable And](unlocking_the_capabilities_of_large_vision-language_models_for_generalizable_and.md)**
 

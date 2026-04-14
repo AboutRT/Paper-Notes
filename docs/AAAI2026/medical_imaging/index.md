@@ -120,7 +120,7 @@ description: >-
 
 **[Expert-Guided Prompting And Retrieval-Augmented Generation For Emergency Medical](expert-guided_prompting_and_retrieval-augmented_generation_for_emergency_medical.md)**
 
-:   构建了首个 EMS 领域多选问答数据集 EMSQA（24.3K 题），并提出 Expert-CoT + ExpertRAG 框架，通过注入 subject area 和 certification level 等专业属性引导 LLM 推理和检索，最高带来 4.59% 的准确率提升。
+:   构建首个EMS急救领域多选QA数据集EMSQA（24.3K题、10个临床主题、4个认证等级），提出Expert-CoT和ExpertRAG框架将领域专业属性注入LLM推理与检索，比标准RAG最高提升4.59%准确率。
 
 **[Fane Towards Fine-Grained Cross-Modal Contrast With False-Negative Reduction And](fane_towards_fine-grained_cross-modal_contrast_with_false-negative_reduction_and.md)**
 
@@ -196,11 +196,11 @@ description: >-
 
 **[Learning Cell-Aware Hierarchical Multi-Modal Representations](learning_cell-aware_hierarchical_multi-modal_representations.md)**
 
-:   提出CHMR框架，将分子结构(1D/2D/3D)与细胞形态/基因表达等生物模态联合建模，通过结构感知的模态增强解决>90%的外部生物模态缺失问题，用树状向量量化(Tree-VQ)捕获分子-细胞-基因的层次化依赖关系，在9个benchmark的728个任务上超越SOTA，分类平均AUC提升3.6%，回归MAE降低17.2%。
+:   本文提出 CHMR 框架，通过结构感知传播解决生物模态缺失问题，引入树状向量量化(Tree-VQ)建模分子-细胞-基因间的层次依赖关系，在9个基准728个任务上分类提升3.6%、回归提升17.2%，实现鲁棒的细胞感知分子表征学习。
 
 **[Learning With Preserving For Continual Multitask Learning](learning_with_preserving_for_continual_multitask_learning.md)**
 
-:   提出 Learning with Preserving (LwP) 框架，通过 Dynamically Weighted Distance Preservation (DWDP) 损失保持 latent space 的几何结构，在无需 replay buffer 的条件下解决 Continual Multitask Learning (CMTL) 中的灾难性遗忘，是唯一超越 single-task baseline 的方法。
+:   提出 Learning with Preserving（LwP）框架，通过动态加权距离保持（DWDP）损失函数维护共享表示空间的几何结构，在无需回放缓冲的条件下解决持续多任务学习（CMTL）中的灾难性遗忘问题，在 BDD100k、CelebA、PhysiQ 等基准上显著超越现有持续学习方法，并且是唯一超越单任务学习基线的方法。
 
 **[Lungnoduleagent A Collaborative Multi-Agent System For Precision Diagnosis Of Lu](lungnoduleagent_a_collaborative_multi-agent_system_for_precision_diagnosis_of_lu.md)**
 

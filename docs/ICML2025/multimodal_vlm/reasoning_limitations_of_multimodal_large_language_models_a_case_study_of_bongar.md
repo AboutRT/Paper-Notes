@@ -1,102 +1,140 @@
 ---
-title: >-
-  [论文解读] Reasoning Limitations of Multimodal Large Language Models. A Case Study of Bongard Problems
 description: >-
-  [ICML2025][多模态][abstract visual reasoning] 系统评估了 8 个 MLLM 在 Bongard Problems 上的抽象视觉推理能力，并引入 Bongard-RWR 数据集（合成概念的真实图像版本），揭示 MLLM 在合成 BP 上表现极差并非因领域差异，而是其固有的抽象推理局限。
+  [ICML 2025][多模态][抽象视觉推理] 系统评估8个MLLM在Bongard Problems上的抽象视觉推理能力，提出7种解题策略和Bongard-RWR数据集，揭示MLLM在合成和真实世界图像上均表现极差的根本原因是抽象推理能力的固有缺陷。
 tags:
-  - ICML2025
+  - ICML 2025
   - 多模态
-  - abstract visual reasoning
+  - 抽象视觉推理
   - Bongard Problems
-  - MLLM evaluation
-  - few-shot learning
-  - concept-based reasoning
+  - MLLM评估
 ---
 
 # Reasoning Limitations of Multimodal Large Language Models. A Case Study of Bongard Problems
 
-**会议**: ICML2025  
+**会议**: ICML 2025  
 **arXiv**: [2411.01173](https://arxiv.org/abs/2411.01173)  
 **代码**: [GitHub](https://github.com/pavonism/bongard-rwr)  
-**领域**: multimodal_vlm  
-**关键词**: abstract visual reasoning, Bongard Problems, MLLM evaluation, few-shot learning, concept-based reasoning
+**领域**: 多模态推理评估 / 抽象视觉推理  
+**关键词**: Bongard Problems, abstract visual reasoning, MLLM evaluation, Bongard-RWR, few-shot concept learning
 
 ## 一句话总结
-系统评估了 8 个 MLLM 在 Bongard Problems 上的抽象视觉推理能力，并引入 Bongard-RWR 数据集（合成概念的真实图像版本），揭示 MLLM 在合成 BP 上表现极差并非因领域差异，而是其固有的抽象推理局限。
+
+系统评估4个闭源+4个开源MLLM在经典合成Bongard Problems、Bongard HOI、Bongard-OpenWorld三个数据集上的抽象视觉推理能力，提出7种解题策略和新数据集Bongard-RWR（用真实图像表达合成BP概念），揭示MLLM在合成BP上的极差表现并非因域差异而是固有的抽象推理局限。
 
 ## 研究背景与动机
-- Bongard Problems (BPs) 是抽象视觉推理（AVR）的经典测试：左右各6张图，需发现区分两侧的概念规则并用自然语言描述
-- BP 结合了感知（从图像中提取概念）和认知（跨上下文推理），是少样本学习设定（每侧仅6样本）
-- 随着 MLLM（如 GPT-4o、Gemini、Claude）的发展，测试其 AVR 能力变得重要
-- **关键问题**：MLLM 在真实世界 BP（如 Bongard-HOI）上有一定成功，但在合成 BP 上几乎完全失败——这是因为合成领域本身，还是推理能力不足？
+
+**领域现状**：Bongard Problems (BPs)是经典的抽象视觉推理任务——给定左右各6张图像，要求发现区分两侧的共同概念并用自然语言描述。这要求联合感知与推理，是评估AI抽象能力的标杆测试。
+
+**现有痛点**：
+
+1. 传统深度学习方法将BP简化为二分类任务，回避了自然语言答案生成的挑战
+
+2. 现有包含真实世界图像的BP数据集（Bongard HOI/OpenWorld）与经典合成BP的概念不同，无法直接对比域差异的影响
+
+3. MLLM的抽象推理能力尚未被系统评估——是受限于合成图像的域外特性，还是推理能力本身不足？
+
+**核心问题**：MLLM在合成BP上表现差，是因为训练数据的域差异还是固有的抽象推理缺陷？
 
 ## 方法详解
 
-### 解题策略设计
-提出 6 种面向 MLLM 的 BP 解题策略：
-1. **Direct**：直接给整个矩阵图，要求生成答案
-2. **Descriptive**：逐图描述后汇总推理
-3. **Descriptive-iterative**：迭代式描述，同一侧共享上下文
-4. **Contrastive**：成对对比左右对应图像的差异
-5. **Contrastive-iterative**：迭代式对比
-6. **Direct 变体**：在描述/对比后额外提供完整矩阵图
+### 整体框架
+
+设计7种适配MLLM的BP解题策略（3种直接生成 + 4种分步推理），在4个BP数据集上用8个MLLM进行评估，并通过新建的Bongard-RWR数据集控制域差异变量。
+
+### 关键设计
+
+1. **7种解题策略**
+
+    - **Direct**：直接输入完整BP矩阵图像，要求模型一次性输出答案
+    - **Descriptive**：逐张描述每个面板，再基于文本描述推理答案
+    - **Descriptive-iterative**：在同一上下文窗口中迭代地描述同侧图像，逐步精化
+    - **Descriptive-direct**：Descriptive + 附加完整矩阵图像辅助推理
+    - **Contrastive**：逐对比较左右两侧对应图像的差异
+    - **Contrastive-iterative**：在同一上下文中迭代对比，逐步积累理解
+    - **Contrastive-direct**：Contrastive + 附加完整矩阵图像
+    - 关键发现：Descriptive策略在所有数据集上最优，Contrastive反而更差
+
+2. **Bongard-RWR 数据集构建**
+
+    - 目标：用真实世界图像表达合成BP的相同抽象概念（如"凸 vs 非凸"）
+    - 流程：GPT-4o生成10种真实世界文本描述 → Pexels API搜索图像 → GPT-4o筛选 → 人工调整
+    - 最终60个问题：12个全自动生成，24个半自动+人工调整，24个完全人工构建
+    - 提供4个变体：原始、RWR-S（正方形裁剪）、RWR-G（灰度）、RWR-SG（正方形灰度）
+
+3. **自动化答案评估**
+
+    - 使用4个闭源MLLM组成的集成来判断生成答案与标准答案是否描述相同概念
+    - 至少2个模型同意则判为正确
+    - 避免了自然语言答案的多样性导致的评估困难
 
 ### 评估设置
-- **自然语言生成**：模型生成概念描述，用 MLLM 集成判断是否与 ground truth 匹配
-- **二分类**：Ground-Truth 验证、Incorrect Label 检测、Images-to-Sides 分配
 
-### Bongard-RWR 数据集
-- 用 GPT-4o 将前100个合成 BP 概念翻译为真实世界描述
-- 用 Pexels API 搜索匹配图像，经 GPT-4o 筛选
-- 最终获得 60 个实例：12 全自动、24 半自动调整、24 全手工制作
-- 支持直接对比合成 vs 真实场景下同一概念的 MLLM 表现
+- 闭源模型：GPT-4o, GPT-4 Turbo, Gemini 1.5 Pro, Claude 3.5 Sonnet
+- 开源模型：InternVL2-8B, LLaVA-1.6 Mistral-7B, Phi-3.5-Vision, Pixtral 12B
+- 数据集：100个合成BP + 100个Bongard HOI + 100个Bongard-OpenWorld + 60个Bongard-RWR
+- 人类基线：Bongard-RWR上平均正确39.2/60（65%）
 
 ## 实验关键数据
 
-| 模型 | 合成BP (Direct/De/Co) | HOI (Di/De/Co) | RWR (Di/De/Co) |
-|------|----------------------|----------------|----------------|
-| GPT-4o | 17/17/10 | 35/42/18 | 5/8/2 (共60) |
-| Claude 3.5 | 13/19/15 | 5/44/13 | 1/13/2 |
-| Gemini 1.5 | 7/21/17 | 23/40/15 | 3/7/1 |
-| InternVL2-8B | 0/0/0 | 12/2/2 | 0/0/0 |
-| LLaVA-1.6 | 0/1/0 | 5/4/1 | 0/0/0 |
+### 主实验
 
-- **人类基准**：Bongard-RWR 上平均正确 39.2/60（65%）
-- **最佳 MLLM**：Claude 3.5 Descriptive 策略仅 13/60（21.7%）
-- 合成 BP 上所有模型表现极差（≤21/100），开源模型几乎为零
-- Bongard-RWR 与合成 BP 表现高度一致，说明问题并非领域导致
+**自然语言生成的正确数（数据集总数见列标题）**
+
+| 模型 | 合成BP /100 | HOI /100 | OpenWorld /100 | RWR /60 |
+|------|-----------|---------|---------------|---------|
+| GPT-4o (Descriptive) | 17 | **42** | **46** | 8 (13.3%) |
+| GPT-4 Turbo (Desc.) | 15 | **45** | **57** | 5 (8.3%) |
+| Claude 3.5 Sonnet (Desc.) | 19 | 44 | 53 | **13 (21.7%)** |
+| Gemini 1.5 Pro (Desc.) | **21** | 40 | 32 | 7 (11.7%) |
+| Pixtral 12B (Desc.) | 4 | 27 | 34 | 1 (1.7%) |
+| InternVL2-8B | 0 | 2 | 18 | 0 (0%) |
+| 人类基线 | - | - | - | 39.2 (65%) |
+
+### 消融实验
+
+**策略对比（所有模型合计解出的不重复问题数）**
+
+| 数据集 | Descriptive系 | Contrastive系 |
+|--------|-------------|--------------|
+| 合成 BP | 44 | 44 |
+| Bongard HOI | **82** | 63 |
+| Bongard-OpenWorld | **90** | 76 |
+| Bongard-RWR | **20** | 11 |
+
+### 关键发现
+
+- **所有MLLM在合成BP上表现极差**：最佳模型（Gemini 1.5 Pro, Descriptive）仅解出21/100
+- **Bongard-RWR证实域差异非主因**：GPT-4o在真实世界HOI上解42题但在真实世界RWR上仅8题，因为RWR保留了合成BP的抽象概念
+- **Descriptive >> Contrastive**：MLLM更擅长逐张描述再综合推理，而非直接对比——这与人类的推理方式相反
+- **闭源 >> 开源**：闭源模型在35/40个(数据集,策略)组合中领先
+- **迭代推理反而变差**：Descriptive-iterative比Descriptive更差，说明当前模型难以有效利用上下文窗口中的历史信息
+- 人类在Bongard-RWR上65%正确率，最佳MLLM仅21.7%
 
 ## 亮点与洞察
-- **Bongard-RWR 是关键贡献**：首次实现合成 vs 真实的受控对比，证实推理能力是瓶颈
-- **策略对比揭示 MLLM 特性**：Descriptive 策略普遍最佳，说明逐图分析 > 直接整体推理
-- **Ground-Truth 验证有趣发现**：模型能验证正确答案（~80%准确率），但不能自主发现答案
-- **人类 vs MLLM 差距巨大**：人类 65% vs MLLM 最高 21.7%，且人类也觉得 RWR 不容易
-- 开源模型在 AVR 上完全失败，说明该能力并非简单 scaling 可获得
+
+- 通过Bongard-RWR巧妙地控制了"概念相同、域不同"的对比变量，证实了MLLM的抽象推理缺陷是固有的
+- 7种解题策略的系统对比揭示了MLLM的推理模式偏好：更适合文本描述→综合推理的pipeline
+- "对比推理反而更差"这一发现揭示了MLLM与人类在类比推理上的根本差异
+- 数据集变体（正方形/灰度）的消融显示去除颜色和裁剪空白能提升分类准确率
 
 ## 局限性 / 可改进方向
-- Bongard-RWR 仅覆盖前 100 个合成 BP 中的 60 个
-- 人类基准仅有有限参与者，信度可进一步提升
-- 未测试最新的推理增强 MLLM（如 GPT-4o + CoT、o1）
-- 评估依赖 MLLM 集成判断答案匹配，可能引入偏差
-- 仅二分类设置中的 Images-to-Sides 能客观评估，其他设置依赖语义匹配
-- 数据集的自动化生成流程中有人工调整步骤，不完全可重现
-- 分析集中在结果层面，缺乏对 MLLM 推理过程的深入分析
+
+- Bongard-RWR仅60个问题，规模较小
+- 自动评估依赖MLLM集成判断语义等价，可能引入偏差
+- 未评估微调后的MLLM（如在部分BP上微调能否改善推理）
+- 8个模型虽然覆盖主流但缺少近期更强模型（如GPT-4o-mini、Claude 3.5 Opus）
+- 仅考虑零样本设定，未探索few-shot in-context learning
 
 ## 相关工作与启发
-- **Bongard-LOGO**（Nie et al., 2020）：合成 BP 的 meta-learning benchmark
-- **Bongard HOI/OpenWorld**（Jiang et al., 2022; Wu et al., 2024）：真实世界 BP
-- **Wüst et al. (2024)**：并行工作，也测试 MLLM 解合成 BP
-- **ARC**（Chollet, 2019）：另一抽象推理基准
-- 启发：MLLM 的视觉推理能力远未达到人类水平，概念形成+少样本推理是核心瓶颈
+
+- **vs Bongard-LOGO**：Bongard-LOGO用合成数据做二分类，本文用MLLM做自然语言答案生成，更贴近BP的原始定义
+- **vs Wüst et al. (2024)**：同期工作也评估MLLM在合成BP上的表现，本文额外引入Bongard-RWR进行域差异控制实验
+- **vs ARC/RPM**：这些任务在文本化后可被LLM解决，但BP需要联合视觉感知和抽象推理
+- 启发：当前MLLM的"推理"能力可能更多是模式匹配而非真正的抽象概念形成
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ (Bongard-RWR 数据集+系统策略设计)
-- 实验充分度: ⭐⭐⭐⭐⭐ (8模型×4数据集×6策略×3设置)
-- 写作质量: ⭐⭐⭐⭐ (结构清晰，分析深入)
-- 价值: ⭐⭐⭐⭐ (揭示MLLM的根本推理局限)
 
-## 评分
-- 新颖性: 待评
-- 实验充分度: 待评
-- 写作质量: 待评
-- 价值: 待评
+- 新颖性: ⭐⭐⭐⭐ Bongard-RWR数据集和7种策略的系统设计是重要贡献
+- 实验充分度: ⭐⭐⭐⭐ 8个模型×4个数据集×7种策略的大规模评估
+- 写作质量: ⭐⭐⭐⭐ 实验设计严谨，分析深入
+- 价值: ⭐⭐⭐⭐ 揭示MLLM抽象推理的固有局限，对未来模型设计有指导意义

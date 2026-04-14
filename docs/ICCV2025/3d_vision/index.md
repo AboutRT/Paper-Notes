@@ -728,7 +728,7 @@ description: >-
 
 **[Materialmvp Illumination-Invariant Material Generation Via Multi-View Pbr Diffus](materialmvp_illumination-invariant_material_generation_via_multi-view_pbr_diffus.md)**
 
-:   MaterialMVP 是一个端到端的多视图 PBR 纹理生成模型，通过参考注意力、一致性正则化训练和双通道材质生成框架，从3D网格和图像提示生成光照不变且多视图一致的高质量 PBR 材质。
+:   MaterialMVP是一个端到端的多视图PBR纹理生成模型，通过一致性正则化训练解耦光照、双通道材质生成框架（MCAA + Learnable Material Embeddings）对齐albedo和metallic-roughness贴图，从3D网格和图像prompt一步生成高质量、光照不变、多视图一致的PBR材质。
 
 **[Mega Memory-Efficient 4D Gaussian Splatting For Dynamic Scenes](mega_memory-efficient_4d_gaussian_splatting_for_dynamic_scenes.md)**
 
@@ -764,7 +764,7 @@ description: >-
 
 **[Monomobility Zero-Shot 3D Mobility Analysis From Monocular Videos](monomobility_zero-shot_3d_mobility_analysis_from_monocular_videos.md)**
 
-:   MonoMobility 提出首个从单目视频零样本分析关节物体运动部件及运动属性（运动轴、运动类型）的框架，通过2D高斯泼溅场景表示和端到端动态场景优化算法，无需标注数据即可处理旋转、平移及复合运动。
+:   MonoMobility提出首个从单目视频零样本分析关节物体运动部件及运动属性（运动轴和运动类型）的框架，通过组合深度估计、光流分割等现成工具进行初始分析，再用2D高斯泼溅和专门设计的关节物体动态场景优化算法自监督精细化结果，无需任何标注数据即可处理旋转、平移和复合运动。
 
 **[Mugs Multi-Baseline Generalizable Gaussian Splatting Reconstruction](mugs_multi-baseline_generalizable_gaussian_splatting_reconstruction.md)**
 

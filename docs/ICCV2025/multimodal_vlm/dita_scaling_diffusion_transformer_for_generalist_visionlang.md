@@ -1,86 +1,119 @@
 ---
-title: >-
-  [论文解读] Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy
-description: >-
-  [ICCV 2025][多模态][VLA] 提出Dita，用Transformer架构进行统一的多模态扩散过程直接去噪连续动作序列，通过in-context conditioning实现去噪动作与历史视觉观察的细粒度对齐，在跨embodiment数据集上scaling后实现SOTA仿真性能和10-shot真实世界长horizon任务适应。
+title: "[论文解读] Dita: Scaling Diffusion Transformer for Generalist VLA Policy"
+description: "[ICCV 2025][多模态VLM][机器人策略] 提出Dita，使用Transformer架构直接在动作序列上进行in-context conditioning扩散去噪的通用机器人策略框架，在SimplerEnv/LIBERO/CALVIN上达到SOTA，仅用第三人称相机和10-shot即实现真实世界泛化。"
 tags:
   - ICCV 2025
-  - 多模态
-  - VLA
-  - 扩散模型
-  - Transformer
-  - cross-embodiment
-  - robot manipulation
-  - in-context conditioning
+  - 多模态VLM
+  - 机器人策略
+  - 扩散策略
 ---
 
 # Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy
 
-**会议**: ICCV 2025  
-**arXiv**: [2503.19757](https://arxiv.org/abs/2503.19757)  
-**代码**: [https://robodita.github.io/](https://robodita.github.io/)  
-**领域**: 多模态VLM / 具身智能 / 机器人策略  
-**关键词**: VLA, diffusion policy, transformer, cross-embodiment, robot manipulation, in-context conditioning  
+| 属性 | 值 |
+|------|------|
+| 会议 | ICCV 2025 |
+| arXiv | [2503.19757](https://arxiv.org/abs/2503.19757) |
+| 代码 | [Project](https://robodita.github.io) |
+| 领域 | 机器人策略 / VLA模型 |
+| 关键词 | VLA, 扩散策略, DiT, in-context conditioning, 跨embodiment |
 
 ## 一句话总结
-提出Dita，用Transformer架构进行统一的多模态扩散过程直接去噪连续动作序列，通过in-context conditioning实现去噪动作与历史视觉观察的细粒度对齐，在跨embodiment数据集上scaling后实现SOTA仿真性能和10-shot真实世界长horizon任务适应。
 
-## 背景与动机
-当前VLA（Vision-Language-Action）模型如RT-2、OpenVLA等在跨机器人泛化上取得进展，但它们依赖紧凑的动作头（action head）来预测离散化或连续动作，限制了对异构动作空间的适应性。不同机器人的动作空间差异很大（关节数、自由度、coordinate frame等），简单的MLP动作头难以统一处理。Diffusion Policy证明了扩散模型在动作生成上的强大能力，但如何将其与Transformer的scaling能力结合、并在跨embodiment数据上有效训练是核心挑战。
+提出Dita(Diffusion Transformer Policy)，区别于先前方法用浅层网络在embedding上去噪，采用in-context conditioning让去噪直接条件化于原始视觉token，通过causal Transformer处理语言+图像+timestep+噪声动作的完整token序列，334M参数在SimplerEnv零样本/LIBERO/CALVIN等benchmark上达到SOTA或可比性能。
 
-## 核心问题
-如何设计一个可扩展的VLA框架，通过统一的扩散过程处理来自不同机器人的异构动作空间，并在scaling up后展现强泛化能力？
+## 研究背景与动机
+
+- **领域现状**：通用机器人策略通过在OXE等大规模跨embodiment数据上预训练取得进展。
+- **现有痛点**：(1) 离散化动作(OpenVLA)限制异构动作空间的适应性；(2) 用MLP/小DiT作为扩散head的方法(Octo/π₀)在大规模数据的多样性面前表达能力不足；(3) 在embedding上去噪丢失了历史观测的视觉细节。
+- **核心矛盾**：异构的跨embodiment动作空间 vs 需要统一的策略表示。
+- **本文要解决什么**：设计表达力强、可扩展的通用机器人策略架构。
+- **切入角度**：将动作去噪直接放入causal Transformer中与视觉token交互。
+- **核心idea一句话**：动作去噪不应在压缩的embedding上进行，而应直接与原始视觉patch token做in-context attention。
 
 ## 方法详解
 
 ### 整体框架
-Dita将VLA问题分解为：视觉编码器提取观察特征 → LLM处理语言指令和历史上下文 → Diffusion Transformer去噪生成动作序列。关键区别在于动作去噪不是用简单的MLP，而是用完整的Transformer实现。
+
+CLIP编码语言→DINOv2+Q-Former提取图像特征→拼接[语言, 图像, timestep, 噪声动作]token序列→causal DiT去噪→输出清洁动作chunk(16步)。
 
 ### 关键设计
-1. **In-Context Conditioning**：不像之前方法将所有条件信息（视觉+语言）先融合为一个固定embedding再送入去噪网络，Dita让去噪Transformer直接与原始视觉tokens做cross-attention——被去噪的动作token可以在每个denoising step自由attend到任何历史观察的任何视觉patch。这实现了动作与环境的细粒度对齐，使模型能精确感知action delta和环境细微变化。
 
-2. **Transformer动作去噪器的Scaling**：利用Transformer天然的scalability，动作去噪器可以随参数量增加而提升——与Transformer在语言/视觉中的scaling法则一致。这使得Dita能有效整合来自不同embodiment的跨数据集训练。
+**设计1：In-Context Conditioning扩散**
+- **做什么**：将噪声动作token与视觉/语言token在同一causal Transformer中处理。
+- **核心思路**：动作token直接参与注意力计算，可以attend到每个图像patch token，捕捉微妙的动作增量和环境细节。
+- **设计动机**：先前方法在单个embedding上条件化去噪，丢失了空间细节；in-context conditioning保留了完整的视觉信息。
 
-3. **跨Embodiment统一**：通过扩散过程生成连续动作序列（而非离散token），Dita可以自然适应不同机器人的不同维度动作空间。不同embodiment的动作通过padding/masking统一到同一维度，扩散去噪过程在统一空间中进行。
+**设计2：DINOv2端到端微调+Q-Former**
+- **做什么**：DINOv2提取多尺度特征，Q-Former基于语言指令上下文查询关键视觉特征。
+- **核心思路**：DINOv2在网络数据上预训练与机器人数据有gap，端到端微调弥合差距。Q-Former用FiLM conditioning从DINOv2 patch特征中选择任务相关信息，减少计算量。
+- **设计动机**：冻结的视觉编码器在机器人领域不够好，但全微调token过多需要Q-Former压缩。
 
-### 损失函数 / 训练策略
-标准的扩散去噪loss（velocity prediction或epsilon prediction），在跨embodiment数据集上联合训练，支持不同相机视角、观察场景和动作空间。
+**设计3：轻量可扩展架构**
+- **做什么**：仅用334M参数实现SOTA性能。
+- **核心思路**：LLaMA风格causal Transformer，无需大型VLM(如PaliGemma)。DDPM训练(1000步)+DDIM推理(20步)。
+- **设计动机**：提供简洁、轻量、开源的baseline，降低社区入门门槛。
+
+### 损失函数/训练策略
+
+标准DDPM扩散目标：$\min \|\epsilon - \epsilon_\theta(z_t, t, c)\|^2$。AdamW 100K步，batch 8192(32×A100)，2帧观测→16步action chunk。
 
 ## 实验关键数据
-- 在多个仿真benchmark上达到SOTA或comparable性能
-- 真实世界：通过仅**10-shot微调**，仅使用第三人称相机输入，成功适应环境变化和复杂长horizon任务
-- 展现了对不同相机视角、场景变化和任务复杂度的鲁棒性
-- 轻量级且开源的通用机器人策略baseline
 
-### 消融实验要点
-- In-context conditioning >> Fused embedding conditioning（动态attend优于固定embedding）
-- Scaling up denoiser Transformer持续提升性能
-- 跨embodiment联合训练提升每个单一embodiment的性能（正迁移）
-- 10-shot微调在真实世界足够有效
+### 主实验
 
-## 亮点
-- **In-context conditioning是关键创新**：让动作去噪直接attend到原始视觉tokens，比先融合再去噪更精细——这对需要精确操控的任务尤其重要
-- **Transformer去噪器的scalability**：验证了DiT在机器人动作预测领域的scaling潜力
-- **10-shot真实世界适应**：极低的数据需求使方案实用性极强
-- **开源baseline**：提供了一个轻量、通用的VLA框架供社区使用
+**SimplerEnv零样本（成功率%）**
+
+| 方法 | coke_can(match/var) | move_near(match/var) |
+|------|---------------------|---------------------|
+| RT-1-X | 56.7/49.0 | 31.7/32.3 |
+| OpenVLA | 16.3/54.5 | 46.2/47.7 |
+| **Dita** | **83.7/85.5** | **76.0/73.0** |
+
+**LIBERO微调（成功率%）**
+
+| 方法 | SPATIAL | OBJECT | GOAL | LONG | 平均 |
+|------|---------|--------|------|------|------|
+| OpenVLA | 84.9 | 88.4 | 79.2 | 53.7 | 76.5 |
+| **Dita** | 84.2 | **96.3** | **85.4** | **63.8** | **82.4** |
+
+### 消融实验
+
+| 配置 | Calvin Avg. Len |
+|------|----------------|
+| Diffusion head(不是in-context) | 3.16 |
+| In-context Dita | **3.53** |
+| 无预训练 | 2.38 |
+
+### 关键发现
+
+1. In-context conditioning比diffusion head显著更好，尤其在长任务上(LIBERO-LONG +10%)。
+2. 仅第三人称相机+10-shot即可泛化到真实世界新环境。
+3. 334M参数超越7B(OpenVLA)和更大模型，说明架构设计比规模更重要。
+
+## 亮点与洞察
+
+1. In-context conditioning的核心insight——动作去噪需要看到原始视觉细节而非压缩embedding。
+2. 轻量开源baseline对社区价值大。
+3. 跨embodiment预训练+10-shot真实世界微调的范式实用性极强。
 
 ## 局限性 / 可改进方向
-- 扩散推理的多步去噪在实时控制中可能有延迟问题
-- 仅用10-shot微调的泛化范围可能有限（未测试全新任务类型）
-- 第三人称相机限制——自对心等精密操作可能需要手部相机
-- 未与最新的大规模VLA（如pi0等）系统对比
 
-## 与相关工作的对比
-- **vs. OpenVLA/RT-2**：这些用离散化或MLP动作头；Dita用Transformer扩散去噪——更适合复杂连续动作空间
-- **vs. Diffusion Policy**：Diffusion Policy用UNet做去噪；Dita用Transformer做去噪并加入in-context visual conditioning——更scalable
-- **vs. GTR**：GTR解决VLM agent的思维坍塌（RL层面）；Dita提供了更好的VLA架构（模型层面）——互补
+1. 仅用第三人称视角，加入腕部相机/触觉可进一步提升。
+2. Q-Former的查询数量对性能的敏感度未充分分析。
+3. 未在双臂操控场景验证。
 
-## 启发与关联
-- In-context conditioning的思路可以迁移到其他条件生成任务——如text-guided视频生成中让去噪网络直接attend原始文本tokens
-- 与SANA-Sprint结合：如果能将动作扩散去噪也加速到1-4步，机器人控制的实时性将大幅提升
+## 相关工作与启发
+
+- Octo用diffusion head但表达力有限；Dita证明将去噪"内化"到Transformer中更好。
+- π₀用更大VLM但Dita用334M达到可比性能。
+- 启发：机器人策略学习的关键可能不是模型大小而是动作与观测的交互方式。
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ In-context conditioning和Transformer动作去噪的结合有新意
-- 实验充分度: ⭐⭐⭐⭐ 仿真benchmark全面，真实世界10-shot验证有说服力
-- 写作质量: ⭐⭐⭐⭐ 架构描述清晰
-- 价值: ⭐⭐⭐⭐ 开源通用VLA baseline，对机器人学习社区有直接贡献
+
+| 维度 | 评分 |
+|------|------|
+| 创新性 | ★★★★☆ |
+| 实用性 | ★★★★★ |
+| 实验充分性 | ★★★★★ |
+| 写作清晰度 | ★★★★☆ |

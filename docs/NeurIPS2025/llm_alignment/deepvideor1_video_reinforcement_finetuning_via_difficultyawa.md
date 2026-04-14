@@ -1,77 +1,110 @@
 ---
-title: >-
-  [论文解读] DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO
-description: >-
-  [NeurIPS 2025][LLM对齐][VideoLLM] 探索GRPO在VideoLLM中的应用，发现"安全门依赖"和"优势消失"两个阻碍有效学习的问题，提出Reg-GRPO（将GRPO loss重建为直接回归优势值的任务，消除clipping/min等安全门操作）和难度感知数据增强策略，在多个视频推理benchmark上显著提升性能。
+description: 提出DeepVideo-R1，通过回归式GRPO和难度感知数据增强解决视频大语言模型强化学习中的梯度截断和优势值消失问题
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - VideoLLM
-  - GRPO
-  - 强化学习
-  - video reasoning
-  - Reg-GRPO
-  - difficulty-aware augmentation
+- video-llm
+- reinforcement-learning
+- GRPO
+- video-reasoning
+- data-augmentation
 ---
-
 # DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.07464](https://arxiv.org/abs/2506.07464)  
-**代码**: 有  
-**领域**: LLM/NLP / 视频理解 / 强化学习  
-**关键词**: VideoLLM, GRPO, reinforcement learning, video reasoning, Reg-GRPO, difficulty-aware augmentation  
+**代码**: [GitHub](https://github.com/mlvlab/DeepVideoR1)  
+**领域**: LLM对齐 / 视频大语言模型  
+**关键词**: 视频推理, 强化学习微调, GRPO, 回归目标, 难度感知增强
 
 ## 一句话总结
-探索GRPO在VideoLLM中的应用，发现"安全门依赖"和"优势消失"两个阻碍有效学习的问题，提出Reg-GRPO（将GRPO loss重建为直接回归优势值的任务，消除clipping/min等安全门操作）和难度感知数据增强策略，在多个视频推理benchmark上显著提升性能。
 
-## 背景与动机
-GRPO在LLM推理（如数学、代码）中取得了R1级别的成功，但在VideoLLM中的效果尚未充分探索。视频推理任务相比文本推理更具挑战——需要时间理解、多帧关系推理等。直接将标准GRPO应用于VideoLLM面临两个新问题：(1) 过度依赖安全门机制（clipping和min操作）导致策略更新过于保守；(2) 组内奖励差异太小导致优势函数趋近于零（vanishing advantage），模型无法从中有效学习。
+提出DeepVideo-R1，将GRPO重新表述为回归优势值的Reg-GRPO（消除clipping/min等保护机制），同时通过难度感知数据增强缓解优势值消失问题，在视频推理任务上相比标准GRPO提升高达10.1个百分点。
 
-## 核心问题
-如何让GRPO在VideoLLM中真正有效？标准GRPO的哪些设计在视频场景下失效？
+## 研究背景与动机
+
+- 基于RL的后训练（如GRPO）可有效增强LLM推理能力，但在视频大语言模型（VideoLLM）中的应用仍不充分
+- GRPO应用于VideoLLM面临两个关键问题：
+    - **保护机制依赖**：PPO风格的clipping和min操作在策略偏离过大时产生零梯度，阻碍探索和收敛
+    - **优势值消失**：样本过易或过难时组内奖励相同，优势值为零，训练信号丢失
+- 视频推理涉及复杂时空语义理解，这两个问题在视频任务中尤为突出
+- 已有工作主要关注设计奖励函数，对GRPO算法本身的改进相対不足
 
 ## 方法详解
 
 ### 整体框架
-DeepVideo-R1包含两个关键改进：Reg-GRPO改善优化目标，难度感知数据增强改善训练数据。
+
+DeepVideo-R1包含两个关键创新：（1）Reg-GRPO将GRPO目标改为直接回归组相对优势值，无需裁剪和min等保护机制；（2）难度感知数据增强根据样本难度动态调整输入，确保多样化的奖励信号。
 
 ### 关键设计
-1. **Reg-GRPO（Regressive GRPO）**：将GRPO的策略优化loss从PPO风格（带clipping/min的比率优化）重新建模为直接回归任务——模型预测每个输出的优势值（advantage），loss是预测优势与实际优势的回归差异。这消除了clipping和min等安全门操作，让模型更直接地与优势信号对齐，提供更清晰的梯度引导。
 
-2. **难度感知数据增强**：标准GRPO中如果所有rollout都答对或都答错（组内奖励方差为零），优势消失无法学习。通过对输入prompt/视频进行增强（如改变问题难度、遮挡部分视频帧等），确保组内既有成功也有失败的rollout——产生多样化的奖励信号。增强时目标是"可解决的难度"——不太简单也不太难。
+1. **回归式GRPO（Reg-GRPO）**:
+    - 做什么：将RL目标从PPO风格优化转为直接回归优势值
+    - 核心思路：利用KL约束RL目标闭式解的重参数化，定义预测优势 $\hat{A}_\theta^{(i)} = \frac{\rho(\mathbf{x}, \mathbf{y}^{(i)}) - \mu_\rho}{\sigma_\rho}$，其中 $\rho = \log \frac{\pi_\theta}{\pi_{\theta_{old}}}$，最小化与目标优势的MSE
+    - 设计动机：回归损失天然没有clipping截断问题，且归一化自然消除配分函数 $Z(\mathbf{x})$
+
+2. **难度感知数据增强**:
+    - 做什么：根据样本难度动态调整视频-文本输入
+    - 核心思路：用回放缓冲区的平均奖励作参照，计算难度 $\Delta_\mathcal{R}(\mathbf{x})$
+    - 设计动机：适中难度样本产生最多样的奖励分布，保证有效梯度
+
+3. **双向难度调节**:
+    - **降低难度**（困难样本）：从成功推理轨迹中提取部分推理线索注入提示，强度按难度自适应缩放
+    - **增加难度**（简单样本）：对视频帧添加高斯噪声或遮蔽，强度与容易程度成正比
 
 ### 损失函数 / 训练策略
-Reg-GRPO loss = 优势回归loss，替代标准GRPO的PPO-style loss。
+
+$$\mathcal{L}_{\text{Reg-GRPO}}(\theta) = \mathbb{E}\left[(\hat{A}^{(i)} - \hat{A}_\theta^{(i)})^2 - \beta \mathbb{D}_{KL}[\pi_\theta || \pi_{ref}]\right]$$
+
+- KL散度约束防止策略过度偏离参考模型
+- 回放缓冲区存储最近 $W$ 步数据用于动态难度基准计算
 
 ## 实验关键数据
-- 在多个视频推理benchmark上显著优于标准GRPO训练的VideoLLM
-- Reg-GRPO解决了优势消失问题——训练更稳定
-- 难度感知增强提供了更丰富的学习信号
-- 两个改进叠加效果最佳
 
-### 消融实验要点
-- Reg-GRPO > 标准GRPO（消除安全门的效果明显）
-- 难度感知增强 > 无增强（解决vanishing advantage）
-- 两者联合 > 任一单独
+### 主实验（表格）
 
-## 亮点
-- **首次系统探索GRPO在VideoLLM中的应用**并识别了具体失效模式
-- **Reg-GRPO**将PPO风格loss化简为回归——更直接、更稳定——可能对其他RL for LLM场景也有启发
-- **难度感知增强**与NoisyRollout的思路类似——都是通过输入变换改善RL探索——但NoisyRollout扰动视觉输入，DeepVideo-R1调整任务难度
-- 与GTR的发现互补：GTR聚焦thought collapse（推理崩塌），DeepVideo-R1聚焦vanishing advantage（学习信号消失）
+SEED-Bench-R1验证集和LongVideoBench表现：
+
+| 方法 | SEED-Bench-R1 (Acc) | LongVideoBench |
+|------|---------------------|----------------|
+| Qwen2.5-VL-7B (SFT) | 55.4 | 57.3 |
+| + GRPO | 55.8 | 54.1 |
+| + Reg-GRPO | 63.2 | 59.4 |
+| + **DeepVideo-R1** | **65.9** | **60.7** |
+
+相比GRPO提升10.1分（SEED-Bench-R1）。
+
+### 消融实验
+
+- **Reg-GRPO vs GRPO**：所有基准一致优于GRPO，收敛更快
+- **难度增强贡献**：在Reg-GRPO基础上额外提升2.3分
+- **降难 vs 增难**：单独使用均有效，联合效果最佳
+- **零优势值比例**：难度增强从约30%降至约10%
+
+### 关键发现
+
+- 回归目标梯度更稳定，无clipping截断导致的零梯度区域
+- 难度感知增强有效解决vanishing advantage的根本原因——奖励方差为零
+- 在ID和OOD任务上均有一致提升，表明增强的是泛化能力
+
+## 亮点与洞察
+
+- Reg-GRPO推导简洁：从RL闭式解出发，配分函数在组归一化中自然消除
+- 难度感知增强是curriculum learning的一种RL-native实现
+- 从成功路径提取推理线索作为降难手段，是有趣的自我引导策略
+- 方法不限于视频领域，适用于任何使用GRPO的场景
 
 ## 局限性 / 可改进方向
-- Reg-GRPO的理论收敛保证未提供
-- 难度感知增强的策略可能需要任务特定调优
-- 仅在视频推理任务验证，其他视频任务（如视频描述）未测试
 
-## 与相关工作的对比
-- **vs. NoisyRollout**：NoisyRollout扰动图像增加感知多样性；DeepVideo-R1调整难度增加奖励多样性——互补
-- **vs. GTR**：GTR用过程引导防止thought collapse；DeepVideo-R1用Reg-GRPO解决vanishing advantage——不同failure mode
+- 仅在7B规模模型上验证，更大规模的缩放效果未知
+- 推理线索提取需额外生成步骤，增加数据准备成本
+- 与DPO等其他对齐方法的对比缺失
+- 回放缓冲区窗口大小的敏感性分析不够深入
+
+## 相关工作与启发
+
+- Reg-GRPO与REBEL（直接奖励回归）思路相近，但在组相对设置下更自然
+- 与NoisyRollout互补：NoisyRollout改进探索多样性，本文改进优化目标
+- 难度感知思想可与VideoChat-R1、TimeZero等VideoLLM RL工作结合
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ Reg-GRPO和vanishing advantage的识别有价值
-- 实验充分度: ⭐⭐⭐⭐ 多benchmark验证，消融详尽
-- 写作质量: ⭐⭐⭐⭐ 问题诊断→解法的逻辑清晰
-- 价值: ⭐⭐⭐⭐ VideoLLM RL训练的重要改进
+
+- ⭐⭐⭐⭐ — RL算法改进理论清晰、效果显著，难度增强策略实用，但规模验证有限

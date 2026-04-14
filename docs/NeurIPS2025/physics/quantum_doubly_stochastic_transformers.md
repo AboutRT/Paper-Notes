@@ -1,85 +1,121 @@
 ---
-title: >-
-  [论文解读] Quantum Doubly Stochastic Transformers
-description: >-
-  [NEURIPS2025][quantum computing] 提出 QDSFormer，用变分量子电路（QontOT）替换 ViT 中的 softmax 生成双随机注意力矩阵，在多个小规模图像识别任务上超越标准 ViT 和 Sinkformer，并显著稳定训练。
+description: 提出QDSFormer混合经典-量子双随机Transformer，用变分量子电路替代softmax生成双随机注意力矩阵，在多个视觉任务上超越ViT和Sinkformer
 tags:
-  - NEURIPS2025
-  - quantum computing
-  - doubly stochastic matrices
-  - Transformer
-  - 注意力机制
-  - variational quantum circuit
+- quantum-computing
+- transformer
+- doubly-stochastic
+- attention-mechanism
+- vision-transformer
 ---
-
-<!-- 由 src/gen_stubs.py 自动生成 -->
 # Quantum Doubly Stochastic Transformers
 
-**会议**: NEURIPS2025  
+**会议**: NeurIPS 2025  
 **arXiv**: [2504.16275](https://arxiv.org/abs/2504.16275)  
-**代码**: 待确认  
-**领域**: others  
-**关键词**: quantum computing, doubly stochastic matrices, Vision Transformer, attention mechanism, variational quantum circuit  
+**代码**: 无  
+**领域**: 量子计算 / Transformer  
+**关键词**: 量子变分电路, 双随机矩阵, 注意力机制, ViT, Birkhoff多面体
 
 ## 一句话总结
-提出 QDSFormer，用变分量子电路（QontOT）替换 ViT 中的 softmax 生成双随机注意力矩阵，在多个小规模图像识别任务上超越标准 ViT 和 Sinkformer，并显著稳定训练。
 
-## 背景与动机
-- Transformer 中的 softmax 让注意力矩阵成为右随机矩阵，但已知会导致 entropy collapse、rank collapse、token uniformity 等问题
-- Sinkformer 通过 Sinkhorn 算法将注意力矩阵强制为双随机矩阵（DSM），在多种任务上提升性能
-- 但 Sinkhorn 算法是迭代近似、非参数化、梯度不稳定的
-- 近期证明：变分量子电路（QontOT）可以参数化地生成 DSM，且没有已知的经典对应方法
+提出QDSFormer（量子双随机Transformer），用变分量子电路QontOT替代softmax生成双随机注意力矩阵，理论和实验证明量子电路生成的DSM更多样、更好保持信息，在多个小规模视觉识别任务上一致超越标准ViT和Sinkformer。
 
-## 核心问题
-如何利用量子电路的参数化 DSM 生成能力来替代 softmax，构建一种更灵活、更稳定的双随机 Transformer？
+## 研究背景与动机
+
+- Transformer中softmax使注意力矩阵为右随机（行和=1），这导致多种训练不稳定性：
+    - 熵坍缩：注意力过于尖锐导致梯度消失
+    - 秩坍缩和token均匀化问题
+    - Eureka时刻：组合问题中的突变学习
+- Sinkformer发现注意力自然趋向双随机矩阵（行和列和均=1），强制双随机性可提升性能
+- Sinkhorn算法的局限：
+    - 迭代近似，实际中难以收敛到真正的DSM（$k=21$时Frobenius距离仍为0.23）
+    - 非参数化，无法学习应该返回哪个DSM
+    - 需要输入非负（通过指数化实现），损失了表达能力
+    - 反向传播梯度可能病态
+- 关键突破：QontOT量子电路证明可天然产生DSM（$\mathbf{U} \odot \bar{\mathbf{U}} \in \Omega_n$），且无已知经典参数化方法能做到相同的事
 
 ## 方法详解
-1. **DSM 生成方式对比**：对比了 Sinkhorn、QR 分解、Birkhoff 投影、QontOT 量子电路等多种 DSM 生成算子
-2. **QontOT 集成**：将 QontOT 量子电路扩展为矩阵级 DSM 输出，替换 ViT 自注意力中的 softmax
-3. **电路训练策略**：
-   - Differentiable：电路参数与 Transformer 联合优化（最慢）
-   - Mixed：Transformer 训练交替进行梯度无关的电路优化
-   - Static：使用预训练电路参数，纯推理模式（效果最好）
-4. **量子灵感经典替代**：提出基于 QR 分解的双随机 Transformer（QRFormer）作为经典替代
+
+### 整体框架
+
+QDSFormer在ViT中用QontOT量子电路替代softmax，将注意力矩阵 $\mathbf{QK}^\top$ 输入量子电路得到双随机注意力矩阵。电路利用酉矩阵的Hadamard积天然产生DSM这一性质，通过参数化量子门实现灵活的DSM生成。
+
+### 关键设计
+
+1. **QontOT量子电路产生DSM**:
+    - 做什么：将未归一化的注意力矩阵映射为双随机矩阵
+    - 核心思路：对任意酉矩阵 $\mathbf{U}$，$\mathbf{U} \odot \bar{\mathbf{U}} \in \Omega_n$。QontOT通过参数 $\theta$ 和数据 $\mathbf{M}$ 的乘积注入控制电路角度，产生参数化的DSM
+    - 设计动机：量子电路天然保证DSM性质，且是参数化的（不同于非参数的Sinkhorn），可学习最优DSM
+
+2. **表达能力分析**:
+    - 做什么：系统对比QontOT、Sinkhorn和QR分解在DSM多样性上的差异
+    - 核心思路：在离散化超立方体上穷举输入，统计产生的唯一DSM数量
+    - 关键结果：QontOT（8层）对每个输入产生唯一的DSM（近似单射），而Sinkhorn和QR有大量碰撞
+
+3. **QR分解双随机算子（量子启发）**:
+    - 做什么：作为经典的量子启发替代方案
+    - 核心思路：对 $\mathbf{M}$ 做QR分解得酉矩阵 $\mathbf{U}$，再计算 $\mathbf{U} \odot \bar{\mathbf{U}}$
+    - 局限：$O(n^3)$ 复杂度，碰撞率高，但在某些单层ViT设置中表现不错
+
+### 损失函数 / 训练策略
+
+- 三种电路训练策略：
+    - **Static**：使用从量子硬件实验获得的固定参数，无需训练
+    - **Mixed**：每个epoch交替200步梯度无关优化
+    - **Differentiable**：端到端联合训练（最慢，受Barren Plateaus影响）
+- 静态策略表现最好或与优化版持平（可能因Barren Plateaus）
+- 使用8×8注意力矩阵、16层电路、4个辅助量子比特（总16量子比特）
 
 ## 实验关键数据
-- **FashionMNIST/MNIST**：2-4 层 ViT 上 QDSFormer 在大多数配置下显著超越 softmax 和 Sinkhorn
-  - FashionMNIST 4层：QontOT 90.3% vs Softmax 89.7% vs Sinkhorn 89.1%
-  - MNIST 4层：QontOT 98.8% vs Softmax 98.8% vs Sinkhorn 97.9%
-- **MedMNIST**（7 个数据集）：QDSFormer 在 5/7 数据集上最优，平均准确率 74.3% vs ViT 73.0%
-- **Eureka 组合任务**：QDSFormer 在 100 epoch 内学会（vs 标准 ViT 需数百 epoch），准确率提升 ~30%
-  - lr=5e-4 时 QontOT 达 89.4% 且 5/5 run 出现 Eureka moment；Softmax 仅 61.1%（1/5）
-- **训练稳定性**：QDSFormer 在所有实验中性能方差一致低于其他方法
 
-## 亮点
-- 首个参数化双随机 Transformer，利用量子电路生成 DSM 且无已知经典等价方法
-- Static 模式不需额外训练电路参数，却性能最强——说明量子 DSM 的归纳偏置本身就有价值
-- 在组合推理任务上大幅提前 Eureka Moment，显示双随机注意力自然地稳定了 ViT 训练
-- 量子硬件噪声保留了注意力矩阵的排序（Spearman ρ>0.9），可能反而有正则化效果
+### 主实验（表格）
+
+2层ViT在FashionMNIST和MNIST上的验证准确率：
+
+| 方法 | FashionMNIST | MNIST |
+|------|-------------|-------|
+| Softmax | 88.9 ± 0.1 | 98.1 ± 0.3 |
+| Softmax_σ² | 84.6 ± 2.1 | 93.0 ± 4.6 |
+| QR | 89.3 ± 0.1 | 98.3 ± 0.1 |
+| Sinkhorn | 89.1 ± 0.7 | 98.2 ± 0.3 |
+| **QontOT** | **90.0 ± 0.2** | **98.4 ± 0.1** |
+
+MedMNIST（7个数据集）：QontOT在5/7个数据集上最优。
+
+### 消融实验
+
+- **电路层数**：4-8层开始超越ViT，更多层带来对数级提升，>16层后收益递减
+- **静态 vs 优化**：静态配置表现等于甚至优于端到端优化，可能因Barren Plateaus
+- **Eureka实验**：QDSFormer提前出现Eureka时刻（组合推理突变），训练更稳定
+- **Sinkhorn迭代次数**：$k=3$时距Birkhoff多面体Frobenius距离0.84，$k=21$仍为0.23；QontOT < 5e-6
+
+### 关键发现
+
+- QontOT在43M个输入矩阵上产生了最多唯一DSM，行为接近单射（近乎无信息损失）
+- QontOT天然具有更高的注意力熵，可缓解ViT训练中的熵坍缩问题
+- Sinkhorn会将行常量矩阵（如 $\mathbf{e}_2\mathbf{1}^\top$ 和 $\mathbf{e}_4\mathbf{1}^\top$）映射到同一DSM，丢失信息
+- 电路规模对数缩放 $O(\log_2(T))$，理论上对大序列友好
+
+## 亮点与洞察
+
+- 首次将量子计算的"DSM归纳偏置"用于Transformer，开辟了经典ML无法参数化达到的设计空间
+- 表达能力分析严谨全面，穷举法+信息保持+熵分析三个维度
+- 量子启发的QR分解方法作为经典替代方案，本身也有独立价值
+- 静态电路即优于经典方法的发现简化了部署——无需量子-经典混合训练
 
 ## 局限性 / 可改进方向
-- 所有实验在小规模数据集上，受限于量子模拟器的扩展性
-- 量子硬件上运行尚不可行（需 ~640K shots/sample，当前硬件 kHz 级频率）
-- 端到端训练反而劣于 Static，可能受 Barren plateaus 影响
-- 未与 ESPFormer、LOTFormer 等并发工作比较
 
-## 与相关工作的对比
-| 方法 | 注意力类型 | 参数化 | DSM 保证 |
-|------|-----------|--------|---------|
-| ViT（Softmax） | 右随机 | ✓ | ✗ |
-| Sinkformer | 双随机 | ✗ | 近似（迭代） |
-| QRFormer（本文提出） | 双随机 | ✗ | 精确 |
-| **QDSFormer** | 双随机 | ✓ | 精确 |
-| ESPFormer | 双随机 | ✗ | Sliced OT |
-| LOTFormer | 双随机+线性 | ✓ | Conditional OT |
+- 实验限于小规模数据集（MNIST级别）和小模型（1-4层ViT），大规模验证缺失
+- 量子电路仿真速度是瓶颈，当前无法在真实量子硬件上高效运行注意力计算
+- 注意力矩阵大小需为2的幂（量子比特限制），需要padding
+- 仅验证了encoder自注意力，decoder和交叉注意力的适用性未探索
 
-## 启发与关联
-- 量子归纳偏置的一般性启示：不一定需要量子优势，量子电路的结构约束本身可作为有用的归纳偏置
-- Static 模式成功暗示：随机（但结构良好的）DSM 可能已足够好，关键在于双随机性而非特定的 DSM
-- 与注意力温度调节的关系：双随机注意力自动增加 entropy 且不使其均匀，避免了手动调温的需求
+## 相关工作与启发
+
+- Sinkformer和ESPFormer/LOTFormer是经典双随机Transformer的代表
+- QontOT的"$\mathbf{U} \odot \bar{\mathbf{U}}$天然为DSM"是独特的量子归纳偏置，无已知经典等价物
+- 随着量子硬件发展，QDSFormer可能在更大规模上展现优势
+- 启发了在神经网络中引入物理约束的新范式
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ (量子电路替换 softmax 思路新颖)
-- 实验充分度: ⭐⭐⭐ (仅小规模数据集，但对比全面)
-- 写作质量: ⭐⭐⭐⭐ (结构清晰，理论与实验平衡)
-- 价值: ⭐⭐⭐ (概念验证阶段，实际应用受限于量子硬件)
+
+- ⭐⭐⭐⭐ — 理论新颖，量子-ML交叉有开创性，但受限于小规模验证和量子硬件成熟度

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 自监督/表示学习方向 23篇论文解读
+  ICML2025 自监督/表示学习方向 22篇论文解读
 description: >-
-  23篇ICML2025 自监督/表示学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  22篇ICML2025 自监督/表示学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**🧪 ICML2025** · 共 **23** 篇
+**🧪 ICML2025** · 共 **22** 篇
 
 **[A Bayesian Model Selection Criterion For Selecting Pretraining Checkpoints](a_bayesian_model_selection_criterion_for_selecting_pretraining_checkpoints.md)**
 
@@ -60,7 +60,7 @@ description: >-
 
 **[Large Language Models To Diffusion Finetuning](large_language_models_to_diffusion_finetuning.md)**
 
-:   提出L2D——将预训练LLM微调为能利用扩散框架的模型：通过增加扩散步数实现单调递增精度的测试时计算缩放，不修改原始权重保留单步生成能力，与传统微调和搜索方法互补。
+:   提出L2D微调方法，将预训练LLM视为单步扩散模型，引入并行扩散路径实现多步推理缩放，不修改原始权重即可随推理步数增加获得单调递增的准确率，在4个LLM上的数学/编码/推理任务上取得一致提升。
 
 **[Mtl-Ue Learning To Learn Nothing For Multi-Task Learning](mtl-ue_learning_to_learn_nothing_for_multi-task_learning.md)**
 
@@ -73,10 +73,6 @@ description: >-
 **[Pde-Transformer Efficient And Versatile Transformers For Physics Simulations](pde-transformer_efficient_and_versatile_transformers_for_physics_simulations.md)**
 
 :   提出 PDE-Transformer，一种面向物理模拟的改进 Transformer 架构，通过分离通道嵌入、移位窗口注意力和多尺度 U 形结构，在 16 种 PDE 类型上超越现有 SOTA，并展现出强大的下游任务迁移能力。
-
-**[Promoting Ensemble Diversity With Interactive Bayesian Distributional Robustness](promoting_ensemble_diversity_with_interactive_bayesian_distributional_robustness.md)**
-
-:   提出 IBDR 框架，在贝叶斯推断中建模粒子间交互以促进集成多样性，结合 Wasserstein 分布鲁棒优化提供理论保证，在 VTAB-1K 和常识推理任务上显著优于现有方法。
 
 **[Proxy-Fda Proxy-Based Feature Distribution Alignment For Fine-Tuning Vision Foun](proxy-fda_proxy-based_feature_distribution_alignment_for_fine-tuning_vision_foun.md)**
 

@@ -92,7 +92,7 @@ description: >-
 
 **[Motionstream Real-Time Video Generation With Interactive Motion Controls](motionstream_real-time_video_generation_with_interactive_motion_controls.md)**
 
-:   提出MotionStream实现首个运动控制的实时流式视频生成——将双向运动控制teacher通过Self Forcing+DMD蒸馏为因果student，引入注意力沉降+滑动窗口KV缓存实现无限长度恒速生成，单GPU达29FPS+亚秒延迟，运动跟踪质量达SOTA。
+:   提出MotionStream——首个运动控制的实时流式视频生成系统：先训练轻量track head的双向运动控制teacher，再通过Self Forcing + DMD蒸馏为因果student，引入注意力沉降（attention sink）+滚动KV缓存（rolling KV cache）实现训练-推理分布完全匹配，单H100 GPU上480P达17FPS/29FPS（+Tiny VAE），支持无限长度恒速生成。
 
 **[Nerve Nonlinear Eigenspectrum Dynamics In Llm Feed-Forward Networks](nerve_nonlinear_eigenspectrum_dynamics_in_llm_feed-forward_networks.md)**
 
@@ -104,7 +104,7 @@ description: >-
 
 **[Paper Copilot Tracking The Evolution Of Peer Review In Ai Conferences](paper_copilot_tracking_the_evolution_of_peer_review_in_ai_conferences.md)**
 
-:   构建Paper Copilot——AI会议同行评审的持久数字档案和分析系统：跨数十个AI/ML会议统一收集评审数据(OpenReview API+网页抓取+社区贡献)，提供评分动态追踪(含rebuttal前后变化的时间戳快照)、机构/国家级人才流动分析，以及ICLR多年评审演化的大规模实证分析，发现2025年评审呈现更尖锐的分数驱动分层趋势。
+:   构建 Paper Copilot——跨数十个 AI/ML 会议的同行评审持久数字档案与分析平台：通过 OpenReview API、网页抓取、社区贡献三源混合收集评审数据，实时归档评分时间快照（含 rebuttal 前后动态变化），揭示 ICLR 2025 年决策熵反常下降——评审体系从概率性分层转向近确定性分数驱动决策的结构性变化，并通过 LLM 驱动的作者-机构元数据提取支持人才轨迹追踪。
 
 **[Precisecache Precise Feature Caching For Efficient And High-Fidelity Video Gener](precisecache_precise_feature_caching_for_efficient_and_high-fidelity_video_gener.md)**
 

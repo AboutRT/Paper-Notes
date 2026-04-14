@@ -272,7 +272,7 @@ description: >-
 
 **[Treelora Efficient Continual Learning Via Layer-Wise Loras Guided By A Hierarchi](treelora_efficient_continual_learning_via_layer-wise_loras_guided_by_a_hierarchi.md)**
 
-:   提出TreeLoRA——用K-D树组织的层级任务结构指导层级LoRA适配器分配：用bandit-based下置信界算法高效探索任务结构+稀疏梯度更新优化参数，在ViT和LLM上都有效，理论保证学习收敛。
+:   本文提出 TreeLoRA，通过构建基于梯度相似度的层级 K-D 树来组织历史任务的 LoRA 适配器，利用 Lower Confidence Bound (LCB) 多臂老虎机算法高效搜索最相关的任务分支实现知识共享，配合稀疏梯度更新，在 ViT 上实现 3.2× 加速、LLM 上 2.4× 加速，同时维持或超越 SOTA 性能。
 
 **[Vocabtrim Vocabulary Pruning For Efficient Speculative Decoding In Llms](vocabtrim_vocabulary_pruning_for_efficient_speculative_decoding_in_llms.md)**
 

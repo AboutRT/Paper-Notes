@@ -2,89 +2,116 @@
 title: >-
   [论文解读] Understanding and Improving Hyperbolic Deep Reinforcement Learning
 description: >-
-  [ICLR2026][双曲空间] 通过形式化梯度分析揭示双曲深度 RL 的训练不稳定根源（大范数嵌入导致信赖域违反），提出 Hyper++ 三组件方案（RMSNorm + 学习缩放 + 分类值损失）实现稳定训练并超越现有方法。
+  [ICLR2026][强化学习] Hyper++通过梯度分析揭示双曲深度RL的训练崩溃根源（保角因子爆炸+信赖域违反），提出RMSNorm+可学习缩放+HL-Gauss分类值损失+Hyperboloid模型四组件方案，在ProcGen/Atari上一致超越欧几里得和先前双曲基线。
 tags:
   - ICLR2026
-  - 双曲空间
+  - reinforcement_learning
+  - hyperbolic_geometry
   - PPO
-  - 梯度分析
+  - gradient_analysis
   - RMSNorm
-  - 分类值损失
 ---
 
 # Understanding and Improving Hyperbolic Deep Reinforcement Learning
 
-**会议**: ICLR2026  
+**会议**: ICLR 2026  
 **arXiv**: [2512.14202](https://arxiv.org/abs/2512.14202)  
 **代码**: [GitHub](https://github.com/Probabilistic-and-Interactive-ML/hyper-rl)  
-**领域**: llm_agent / reinforcement learning  
-**关键词**: 双曲空间, PPO, 梯度分析, RMSNorm, 分类值损失  
+**领域**: 强化学习  
+**关键词**: hyperbolic geometry, PPO, gradient analysis, RMSNorm, categorical value loss
 
 ## 一句话总结
-通过形式化梯度分析揭示双曲深度 RL 的训练不稳定根源（大范数嵌入导致信赖域违反），提出 Hyper++ 三组件方案（RMSNorm + 学习缩放 + 分类值损失）实现稳定训练并超越现有方法。
+通过闭式梯度分析揭示双曲深度 RL 中 Poincaré Ball 保角因子爆炸和大范数嵌入导致 PPO 信赖域失效的根源，提出 Hyper++（RMSNorm + 可学习缩放 + HL-Gauss + Hyperboloid）四组件方案，在 ProcGen 16 环境和 Atari-5 上全面超越先前基线。
 
-## 背景与动机
-1. 序贯决策本质上产生层级数据：每个状态分支为指数多的后续状态，形成树状结构
-2. 欧几里得空间体积多项式增长，无法无损嵌入指数增长的层级结构——几何失配
-3. 双曲空间体积指数增长，天然适合层级嵌入，在分类/度量学习中已有成功应用
-4. 但双曲深度 RL 面临严重优化困难：非平稳性放大梯度不稳定，缺乏形式化分析
-5. 在 PPO 中，Poincaré Ball 的保角因子 λ 随嵌入靠近边界而爆炸，导致信赖域违反
-6. 现有缓解方案（SpectralNorm + S-RYM 缩放）限制整个编码器的表达能力
+## 研究背景与动机
+
+**领域现状**：序贯决策过程天然产生层级数据——每个状态分支为指数多个后续状态，形成树状结构。欧几里得空间体积仅多项式增长（$V_d(r) \propto r^d$），与层级结构的指数增长存在根本几何失配。双曲空间体积指数增长，已在分类、度量学习、图像-文本对齐中取得成功。
+
+**现有痛点**：双曲深度 RL 面临严重优化困难——Cetin et al. (2023) 首次将双曲几何引入 RL，但训练不稳定，依赖 SpectralNorm + S-RYM（$\mathbf{x}_E \mapsto \mathbf{x}_E / \sqrt{d}$）缓解，限制整个编码器表达能力。
+
+**核心矛盾**：双曲空间的几何优势（低失真层级嵌入）vs 训练稳定性（保角因子爆炸 + 梯度病态）之间的根本冲突。
+
+**本文要解决什么？** 1）形式化分析双曲 PPO 的梯度病态来源；2）设计既保证稳定性又保持表达力的双曲 RL agent。
+
+**切入角度**：从 Poincaré Ball 和 Hyperboloid 两种双曲模型的闭式梯度推导出发，定位不稳定来源，再逐一设计对应组件。
+
+**核心idea一句话**：大范数嵌入是双曲 PPO 崩溃的根源，通过 RMSNorm 约束范数 + Hyperboloid 避免保角因子 + 分类损失对齐几何即可根治。
 
 ## 方法详解
-**Hyper++ 三大组件**：
 
-1. **RMSNorm 正则化**（替代 SpectralNorm）
-   - 仅在编码器最后线性层的预激活输出应用 RMSNorm + 1/√d 缩放
-   - 保证嵌入范数有界（Proposition 4.2）：‖x̂‖₂ < 1（对 ReLU/TanH）
-   - 不限制编码器其他层的表达能力（vs SpectralNorm 需全层应用）
+### 整体框架
+Hyper++ 采用 hybrid Euclidean-hyperbolic encoder 架构（Impala-ResNet），共享欧几里得编码器 + 双曲 actor/critic 头。核心改进集中在编码器最后层到双曲层之间的接口：RMSNorm → TanH → 可学习缩放 → Hyperboloid 指数映射 → HL-Gauss 分类值损失。
 
-2. **可学习特征缩放**
-   - 学习标量 ξ_θ 通过 sigmoid 缩放正则化后的嵌入
-   - 将 Poincaré Ball 可用半径从 0.76 扩展到 0.95，体积增益 (0.95/0.76)^d
-   - d=32 时增加约 1200 倍可用体积
+### 关键设计
 
-3. **分类值损失**（HL-Gauss 替代 MSE）
-   - 双曲 MLR 层输出超平面距离，适合分类而非回归
-   - 与双曲几何的超平面距离天然对齐
-   - 稳定非平稳目标下的 critic 学习
+1. **RMSNorm 正则化（替代 SpectralNorm）**
+    - 做什么：约束编码器输出的欧几里得嵌入范数，防止双曲指数映射梯度爆炸
+    - 核心思路：仅在最后线性层预激活输出应用 RMSNorm + $1/\sqrt{d}$ 缩放。Proposition 4.2 保证对 1-Lipschitz 激活函数（ReLU/TanH）有 $\|\hat{\mathbf{x}}\|_2 < 1$，进而保角因子 $\lambda < 2\cosh^2(\sqrt{c})$
+    - 设计动机：Lemma 4.1 证明 SpectralNorm 需应用于所有编码器层才能有效约束范数，但全层应用严重限制 Lipschitz 常数和表达力。RMSNorm 仅需最后一层，保留其余层自由度
 
-**模型选择**：使用 Hyperboloid 模型替代 Poincaré Ball，避免保角因子不稳定
+2. **可学习特征缩放（Learned Euclidean Feature Scaling）**
+    - 做什么：扩大 RMSNorm 约束后双曲空间的可用容积
+    - 核心思路：学习标量 $\xi_\theta$，缩放嵌入为 $\hat{\mathbf{x}}_E^{\text{rescale}} = \rho_{\max} \cdot \sigma(\xi_\theta) \cdot \hat{\mathbf{x}}_E$，其中 $\rho_{\max} = \operatorname{atanh}(\alpha)/\sqrt{c}$，$\alpha=0.95$
+    - 设计动机：RMSNorm 将 Poincaré Ball 可用半径限制为 0.76（$c=1$），可用体积 $\propto r^d$，$d=32$ 时 $(0.95/0.76)^{32} \approx 1200\times$ 体积增益
+
+3. **Hyperboloid 模型 + HL-Gauss 分类值损失**
+    - 做什么：从几何和损失两个层面消除不稳定源
+    - 核心思路：Hyperboloid MLR 无保角因子（$v^{\text{HB}}$ 公式中不含 $(1-c\|\mathbf{x}\|^2)^{-1}$ 项），梯度更稳定。HL-Gauss 将值函数学习转化为 51 个离散 bin 的分类问题，与双曲 MLR 的超平面距离输出几何对齐
+    - 设计动机：Poincaré Ball MLR 梯度 $\propto (1-c\|\mathbf{x}_H\|^2)^{-2}$ 在边界附近爆炸；MSE 回归与双曲 MLR 几何不匹配——分类损失更自然
+
+### 损失函数 / 训练策略
+
+PPO clipped surrogate objective 不变。Critic 使用 HL-Gauss 损失（51 bins, $[-10, 10]$），TanH 替代 ReLU 作为最后激活。Corollary 4.3 通过 Poincaré Ball-Hyperboloid 等距，将 RMSNorm + 缩放的范数约束传递到 Hyperboloid 时间分量 $x_0^{\max}$ 的有界性。
 
 ## 实验关键数据
-**ProcGen (PPO, 16 环境)**：
-- Hyper++ IQM: 0.40 vs Hyper+S-RYM: 0.26 vs Euclidean: 0.30（测试集）
-- 训练回报提升 52%，前向传播时间减少 ~30%
-- 消融：去掉 RMSNorm → 完全学习失败；去掉缩放 → 明显下降
 
-**Atari-5 (DDQN)**：
-- Hyper++ 在全部 5 个游戏的所有聚合指标上显著超越欧几里得和双曲基线
-- NameThisGame 和 Q*bert 增益最大
+### 主实验 — ProcGen（PPO, 16 环境, 25M steps, 6 seeds）
 
-**关键消融发现**：
-- SpectralNorm（全层或仅倒数层）→ 均无法学习
-- 欧几里得 + HL-Gauss → 反而不如 MSE（分类损失专为双曲设计）
-- 欧几里得 + 全套正则化 IQM=0.35 < Hyper++ (Hyperboloid) IQM=0.40
+| 指标 | Hyper++ | Hyper+S-RYM | Euclidean | Hyper(无正则) |
+|------|---------|-------------|-----------|-------------|
+| Test IQM ↑ | **0.41** | 0.27 | 0.26 | 0.19 |
+| Train IQM ↑ | **0.55** | 0.46 | 0.45 | 0.37 |
+| 前向时间 | 14.7ms | 19.3ms | 14ms | — |
+| NameThisGame 全程 | 35h25m | 58h21m | 17h52m | — |
 
-## 亮点
-- **首次系统梯度分析**：闭式推导 Poincaré Ball 和 Hyperboloid MLR + 指数映射的梯度
-- 证明 SpectralNorm 不足（Lemma 4.1：需全层应用才有效，但限制表达力）
-- Proposition 4.2 保证 RMSNorm 的范数有界性质，理论驱动的设计
-- 组件间协同效应：双曲几何 + HL-Gauss 比各自单独更优
+### 消融实验（ProcGen Test IQM, 6 seeds + bootstrap CI）
+
+| 配置 | Test IQM | 说明 |
+|------|---------|------|
+| Hyper++ (完整) | **0.40** | 基线 |
+| −RMSNorm | 0.00 | 完全学习失败，范数爆炸 |
+| −Scaling | 0.33 | 可用体积不足 |
+| +MSE (替代 HL-Gauss) | 0.33 | 几何不匹配 |
+| +C51 | 0.27 | 分布式损失不如 HL-Gauss |
+| +Poincaré (替代 Hyperboloid) | 0.34 | 保角因子轻微影响 |
+| +SN Full / +SN Penult. | 0.00 / 0.00 | SpectralNorm 均失败 |
+| Euclidean + 全套正则化 | 0.35 | 接近但不如双曲 |
+
+### 关键发现
+- Hyper++ 在 PPG（更强基线）上同样有效：PPG IQM 0.52 vs Hyper+S-RYM 0.34 vs Euclidean 0.47
+- Atari-5（DDQN, 10M steps）：Hyper++ 在所有 5 个游戏的 IQM/median/mean/optimality gap 全面最优
+- 欧几里得 + HL-Gauss 反而不如欧几里得 + MSE → 分类损失需要双曲几何配合才有效
+- 每个消融都不如完整 Hyper++，证明组件间存在协同效应
+
+## 亮点与洞察
+- **梯度分析驱动设计**：不是经验性尝试，而是先推导 $\partial v / \partial \mathbf{x}_H$ 和 $\partial \mathbf{x}_H / \partial \mathbf{x}_E$ 的闭式表达式，定位 $(1-c\|\mathbf{x}\|^2)^{-2}$ 为罪魁祸首，再针对性设计 RMSNorm
+- **一个理论结果解决多个问题**：Proposition 4.2 同时保证了嵌入范数有界、保角因子有界、梯度稳定——一石三鸟
+- **组件分工清晰**：categorical loss 稳定 $\partial L / \partial v$，Hyperboloid 稳定 $\partial v / \partial \mathbf{x}_H$，RMSNorm+scaling 稳定 $\partial \mathbf{x}_H / \partial \mathbf{x}_E$——方程 (3) 的链式法则每一项都有对应组件
+- **性能+效率双赢**：回报提升 52% 的同时前向时间减少 ~30%（去掉了 SpectralNorm 的 power iteration）
 
 ## 局限性 / 可改进方向
 - 聚焦优化视角，未分析双曲表示实际学到了什么层级结构
-- 未研究哪些环境最适合双曲表示
-- 几何选择与不同 RL 算法的交互未探索
-- ProcGen Phoenix 上出现可塑性丧失现象，未深入讨论
+- 未研究哪些环境最适合双曲表示（哪些 MDP 的状态空间更"树形"）
+- 几何选择（曲率 $c$、维度 $d$）与不同 RL 算法设计的交互未探索
+- ProcGen Phoenix 上 Hyper++ 出现可塑性丧失（plasticity loss），与基线表现相似
 
-## 与相关工作的对比
-- vs Cetin et al. (2023) Hyper+S-RYM：消除 SpectralNorm 的表达力-稳定性权衡
-- vs Euclidean PPO/PPG/DDQN：双曲表示 + 正确正则化 = 一致性优势
-- vs 双曲深度学习 (Ganea, Shimizu, Bdeir)：首次系统解决 RL 中的双曲优化问题
+## 相关工作与启发
+- **vs Cetin et al. (2023) Hyper+S-RYM**：消除 SpectralNorm 的稳定性-表达力权衡，test IQM 从 0.27 → 0.41
+- **vs Farebrother et al. (2024) HL-Gauss**：他们发现 HL-Gauss 在欧几里得 RL 中不一致地有效，本文揭示其与双曲几何的特殊协同
+- **vs Mishne et al. (2023) 双曲数值稳定性**：他们分析了一般双曲网络的数值稳定性，本文扩展到 RL 的 actor-critic 训练
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ 梯度分析驱动的双曲 RL 修复，理论+实践结合
-- 实验充分度: ⭐⭐⭐⭐⭐ ProcGen 16 环境 + Atari-5 + 大量消融 + 多 RL 算法
-- 写作质量: ⭐⭐⭐⭐⭐ 理论推导严谨，图表质量高
-- 价值: ⭐⭐⭐⭐ 为双曲深度 RL 提供可靠的实践方案
+- 新颖性: ⭐⭐⭐⭐ 梯度分析驱动的双曲 RL 修复方案，理论与实践紧密结合
+- 实验充分度: ⭐⭐⭐⭐⭐ ProcGen 16环境 + Atari-5 + PPO/PPG/DDQN 三算法 + 大量消融
+- 写作质量: ⭐⭐⭐⭐⭐ 理论推导严谨，方程-组件-实验三线呼应
+- 价值: ⭐⭐⭐⭐ 为双曲深度 RL 提供了首个可靠的实践方案

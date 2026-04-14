@@ -1,118 +1,110 @@
 ---
-title: >-
-  [论文解读] Addressing Mark Imbalance in Integration-free Neural Marked Temporal Point Processes
-description: >-
-   论文针对现实事件流中常见的 mark 类别长尾失衡问题，提出基于先验归一化概率的阈值学习策略，并设计 integration-free 的神经 MTPP 架构，先预测 mark 再预测 time，在避免昂贵数值积分的同时显著提升稀有事件的 mark 与到达时间预测性能。
+description: 首次研究标记时间点过程(MTPP)中事件标记不平衡问题，提出无积分的IFNMTPP模型和阈值方法
 tags:
-
+- NEURIPS2025
+- 时间点过程
+- 类别不平衡
+- 事件预测
+- 概率建模
 ---
-
-Title: Addressing Mark Imbalance in Integration-free Neural Marked Temporal Point Processes
-Authors: Sishun Liu, Ke Deng, Yongli Ren, Yan Wang, Xiuzhen Zhang
-Venue: NeurIPS 2025 (poster)
-arXiv: 2510.20414
-
-One-line summary
-- Proposes a thresholding approach for marked temporal point processes to correct highly imbalanced mark distributions by learning thresholds that normalize mark probabilities by priors; predict mark first then time.
-
-Background & Motivation
-- Marked Temporal Point Processes (MTPP) predict the next event's mark and time. Real-world mark distributions are often heavily imbalanced, hurting rare-mark prediction.
-
-Core idea / Method
-- Learn per-mark thresholds to rescale mark probabilities relative to each mark's prior, optimizing for mark prediction rather than relying solely on raw probability outputs.
-- Pipeline: predict mark first (with thresholded normalization), then sample/estimate time using an integration-free neural MTPP design that avoids costly improper integrals.
-
-Experiments (from abstract)
-- Extensive experiments on real-world datasets show improved performance on next-event mark and time prediction compared to baselines. Code: https://github.com/undes1red/IFNMTPP.
-
-Highlights
-- Simple thresholding trick targeted at class-imbalance in discrete marks.
-- Integration-free time estimation reduces computation overhead.
-
-Limitations / Open questions
-- Abstract-level description; would check experiments for per-mark gains on rare classes and sensitivity to threshold learning.
-- Need to verify scalability to very large mark vocabularies.
-
-Rating: 3.5 / 5
-
-Notes
-- Follow-up: inspect released code for threshold learning details and default priors; consider relevance to event prediction tasks in multimodal streams.
 # Addressing Mark Imbalance in Integration-free Neural Marked Temporal Point Processes
 
-## 基本信息
-- **arXiv**: 2510.20414
-- **会议**: NeurIPS 2025 Poster
-- **作者**: Sishun Liu, Ke Deng, Yongli Ren, Yan Wang, Xiuzhen Zhang
-- **代码**: https://github.com/undes1red/IFNMTPP
-- **领域**: Marked Temporal Point Process / Long-tail Event Modeling
+**会议**: NeurIPS 2025  
+**arXiv**: [2510.20414](https://arxiv.org/abs/2510.20414)  
+**代码**: [GitHub](https://github.com/undes1red/IFNMTPP)  
+**领域**: 时间序列 / 事件建模  
+**关键词**: 标记时间点过程, 标记不平衡, 阈值方法, 无积分近似, 事件预测
 
 ## 一句话总结
-论文针对现实事件流中常见的 mark 类别长尾失衡问题，提出基于先验归一化概率的阈值学习策略，并设计 integration-free 的神经 MTPP 架构，先预测 mark 再预测 time，在避免昂贵数值积分的同时显著提升稀有事件的 mark 与到达时间预测性能。
 
-## 背景与动机
-MTPP 用于建模带类别标签的事件流，例如：
-- 用户行为序列；
-- 金融交易事件；
-- 医疗监测告警；
-- 视频/多模态交互事件。
+本文首次揭示标记时间点过程(MTPP)中标记分布不平衡对预测性能的严重影响，提出先预测标记再预测时间的策略，设计阈值方法调节稀有标记的预测概率，并开发无积分近似的IFNMTPP模型高效支持标记概率估计和时间采样。
 
-但现实中 mark 分布往往严重失衡：头部类频繁，尾部类稀少。现有研究多数直接基于 mark probability 做预测，忽视了 long-tail 带来的决策偏置，导致 rare mark 预测能力很弱。
+## 研究背景与动机
 
-## 核心问题
-如何在不引入高昂积分计算成本的前提下，显式缓解 MTPP 中 mark imbalance 对 next-event mark/time prediction 的负面影响？
+标记时间点过程(MTPP)建模事件流中每个事件的类型(mark)和发生时间，在地震预测、社交媒体转发等场景广泛应用。现有MTPP模型忽略了一个关键问题：**标记分布高度不平衡**。例如7级地震(稀有但重要)比3级地震(频繁)少得多。
+
+不平衡导致的问题：
+- 频繁标记的条件概率 $p^*(m,t)$ 在大多数时间点上远高于稀有标记
+- 模型几乎总是预测频繁标记，稀有标记的macro-F1极低（如Retweet数据集上稀有标记仅0.027 vs 频繁标记0.618）
+
+现有方法通常"先预测时间 $t$，再预测在 $t$ 时的标记 $p^*(m|t)$"，但这使阈值方法难以应用（因为标记概率随时间变化，无法为所有时间点学习统一阈值）。
 
 ## 方法详解
 
-### 1. 基于先验校正的阈值学习
-论文的核心不是直接取最大 mark probability，而是：
-- 用 mark 的预测概率除以该 mark 的先验概率；
-- 通过学习阈值来调整决策边界；
-- 使稀有类别不会因先验过小而系统性被压制。
+### 整体框架
 
-这本质上把“类别频率偏置”显式地纳入推断过程。
+1. **反转预测顺序**：先预测标记 $p^*(m)$，再预测给定标记的时间 $p^*(t|m)$
+2. **阈值方法**：对 $p^*(m)$ 做先验概率归一化后学习阈值，提升稀有标记预测
+3. **IFNMTPP模型**：无需数值积分即可计算 $p^*(m)$ 和 $F^*(t|m)$
 
-### 2. 先预测 mark，再预测 time
-作者采用两阶段预测：
-- 先确定下一个事件的 mark；
-- 再基于 mark 预测到达时间。
+### 关键设计
 
-这种顺序更贴近“稀有事件识别优先”的任务目标，也利于后续时间建模聚焦在更明确的条件上。
+1. **标记优先预测 + 阈值方法**:
+    - 做什么：先基于 $p^*(m) = \int_{t_l}^{+\infty} p^*(m,\tau)\,d\tau$ 预测标记，然后预测时间
+    - 核心思路：计算比率 $r_m = p^*(m) / \bar{p}^*(m)$（概率/先验概率），学习阈值 $\epsilon_m$ 使 $m_p = \arg\max_m (r_m - \epsilon_m)$
+    - 设计动机：$p^*(m)$ 与时间无关，可以用统一的阈值处理不平衡；稀有标记即使 $p^*(m)$ 低，$r_m$ 也可能高，表明该事件相对其自身基准概率更可能发生
+    - 阈值学习：对每个标记m，通过最大化m vs 其他的F1分数确定最优 $\epsilon_m$
 
-### 3. Integration-free 神经 MTPP
-为避免传统 TPP 中常见的数值不当积分开销，作者提出 integration-free 模型：
-- 支持高效时间采样；
-- 能估计 mark probability；
-- 训练和推理成本更可控。
+2. **无积分近似 (IFNMTPP)**:
+    - 做什么：避免计算两个代价高昂的反常积分来获取 $p^*(m)$ 和 $F^*(t|m)$
+    - 核心思路：定义 $\Gamma^*(m,t) = \int_t^{+\infty} p^*(m,\tau)\,d\tau$，将两个积分统一为对 $\Gamma^*$ 的建模；用神经网络直接参数化 $\Gamma^*(m,t)$ 而非 $\lambda^*(m,t)$
+    - 设计动机：$p^*(m) = \Gamma^*(m,t_l)$，$F^*(t|m) = 1 - \Gamma^*(m,t)/\Gamma^*(m,t_l)$，统一了标记概率和时间CDF的计算
+    - 关键约束：$\Gamma^*(m,t)$ 必须关于t单调递减且趋于0，通过网络架构设计保证
 
-## 实验结论
-根据摘要：
-- 在多个真实数据集上优于多种 baseline；
-- 对 next event 的 mark 与 time prediction 都有提升；
-- 尤其在 rare mark 上更有优势。
+### 损失函数 / 训练策略
 
-## 亮点
-1. **抓住实际痛点**：MTPP 长尾失衡在真实应用里非常常见，却常被忽略。
-2. **方法直接有效**：阈值学习与先验校正思路简洁。
-3. **兼顾效率**：integration-free 设计避免昂贵积分计算。
-4. **任务定义清晰**：既提升类别预测，也保持时间预测能力。
+- 负对数似然损失：$\mathcal{L} = -\sum_{i} \log p^*(m_i, t_i)$
+- 通过IFNMTPP参数化直接计算 $p^*(m,t)$，无需数值积分
+- 时间预测使用逆变换采样(ITS)：从 $F^*(t|m)$ 高效采样
+- 阈值 $\epsilon_m$ 在训练集上单独优化，不参与梯度反传
 
-## 局限性
-1. 主要改进聚焦监督预测层面，未必解决表示层中的类间重叠问题。
-2. 阈值学习对不同数据集的稳定性和可迁移性需进一步验证。
-3. 与更强的多模态事件编码器结合的潜力尚未展开。
+## 实验关键数据
 
-## 与相关工作的对比
-- 相比标准 neural MTPP：更显式地处理 mark imbalance。
-- 相比重采样/重加权：方法直接作用于预测决策规则，更贴近最终目标。
-- 相比依赖积分的 TPP：计算更高效，更利于大规模应用。
+### 主实验（表格）
 
-## 启发
-- 可与多模态 TPP benchmark（如 DanmakuTPPBench）结合，检验 long-tail 多模态事件建模。
-- 对 agent 交互日志、驾驶事件流、医疗预警等稀有事件场景很有实际意义。
-- 可以探索把该 prior-corrected thresholding 思路迁移到 VLM 的长尾动作/事件识别。
+| 方法 | Retweet (macro-F1) | USearthquake (macro-F1) | StackOverflow (macro-F1) |
+|------|-------------------|------------------------|-------------------------|
+| SAHP | 0.236 | 0.045 | 0.141 |
+| THP | 0.242 | 0.044 | 0.148 |
+| IFNMTPP (ours, 无阈值) | 0.293 | 0.056 | 0.155 |
+| **IFNMTPP + 阈值** | **0.368** | **0.103** | **0.213** |
+
+阈值方法在所有数据集上显著提升macro-F1，尤其对稀有标记改善巨大。
+
+### 消融实验
+
+- 阈值方法适用于不同基础MTPP模型（SAHP、THP等），均有提升
+- 先预测标记再预测时间 vs 先时间再标记：前者与阈值方法配合效果远优
+- IFNMTPP的无积分近似精度与数值积分接近但速度快数倍
+- 采样数N增大时时间预测精度提升，N=100即可达到良好平衡
+
+### 关键发现
+
+- 标记不平衡在真实数据集中普遍存在且严重影响预测性能
+- 现有MTPP模型在稀有标记上的macro-F1极低（接近0）
+- 阈值方法的提升主要来自稀有标记的大幅改善，频繁标记性能基本不受影响
+- 预测顺序（先标记vs先时间）对不平衡处理方法的可行性有决定性影响
+
+## 亮点与洞察
+
+- **问题发掘重要**：首次系统揭示MTPP中不平衡问题的严重性，填补了重要空白
+- **方法优雅**：通过反转预测顺序使阈值方法自然适用，统一积分简化模型设计
+- **实用性强**：阈值方法可作为后处理应用于任何MTPP模型
+- $\Gamma^*(m,t)$ 的统一建模是核心技术贡献，同时解决了标记概率和时间采样两个问题
+
+## 局限性 / 可改进方向
+
+- 仅处理分类标记，未扩展到连续标记空间
+- 阈值方法假设先验概率在训练集和测试集间一致，分布漂移时可能失效
+- IFNMTPP的表达能力受限于 $\Gamma^*$ 的单调性约束
+- 未探索过采样/欠采样等其他不平衡处理方法与阈值方法的结合
+
+## 相关工作与启发
+
+- 受分类任务中不平衡处理方法（重采样、cost-sensitive、阈值调整）启发
+- 与传统Hawkes过程和Neural TPP的区别：首次关注标记不平衡
+- IFNMTPP的无积分设计可推广到其他需要避免数值积分的概率模型
 
 ## 评分
-- 新颖性：★★★★☆
-- 技术深度：★★★☆☆
-- 实用价值：★★★★★
-- 实验说服力：★★★★☆
+
+⭐⭐⭐⭐ — 问题重要且被忽视，方法设计精巧（统一积分+反转预测顺序），实验改善显著

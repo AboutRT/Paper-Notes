@@ -84,7 +84,7 @@ description: >-
 
 **[Difftracker Texttoimage Diffusion Models Are Unsupervised Tr](difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md)**
 
-:   Diff-Tracker利用预训练T2I扩散模型知识进行无监督跟踪，学习prompt在cross-attention上激活目标区域。
+:   首次将预训练T2I扩散模型（Stable Diffusion）应用于无监督视觉跟踪，通过初始提示学习器在cross-attention图上激活目标区域、在线提示更新器融合长短期运动信息动态适应目标运动，在5个基准上全面超越此前最优无监督跟踪器（TrackingNet Success 0.675, VOT2018 EAO 0.365）。
 
 **[Diffusion-Based Image-To-Image Translation By Noise Correction Via Prompt Interp](diffusion-based_image-to-image_translation_by_noise_correction_via_prompt_interp.md)**
 
@@ -152,7 +152,7 @@ description: >-
 
 **[Freediff Progressive Frequency Truncation For Image Edi](freediff_progressive_frequency_truncation_for_image_edi.md)**
 
-:   提出 FreeDiff，通过渐进式频率截断从频域精化扩散模型的编辑引导信号，无需微调或修改网络结构，实现覆盖多种编辑类型的通用图像编辑方法。
+:   从频域视角重新审视扩散模型的去噪过程，发现引导信号中低频成分过强是编辑失真的根本原因，提出渐进式频率截断方法 FreeDiff，无需微调或注意力操作即可实现通用图像编辑。
 
 **[Freediff Progressive Frequency Truncation For Image Editing With Diffusion Model](freediff_progressive_frequency_truncation_for_image_editing_with_diffusion_model.md)**
 
@@ -228,7 +228,7 @@ description: >-
 
 **[Latent Guard A Safety Framework For Texttoimage Generation](latent_guard_a_safety_framework_for_texttoimage_generation.md)**
 
-:   Latent Guard在T2I文本编码器上学习潜在空间检测黑名单概念。
+:   提出Latent Guard框架，在T2I模型文本编码器之上学习一个潜在空间，通过对比学习将黑名单概念与包含该概念的输入prompt映射到相近位置，实现高效的不安全prompt检测（ID Explicit AUC 0.985），支持黑名单测试时灵活更新且无需重训练。
 
 **[Lazy Diffusion Transformer For Interactive Image Editing](lazy_diffusion_transformer_for_interactive_image_editing.md)**
 
@@ -308,7 +308,7 @@ description: >-
 
 **[Motionchain Conversational Motion Controllers Via Multimodal](motionchain_conversational_motion_controllers_via_multimodal.md)**
 
-:   MotionChain构建视觉-运动语言模型，通过VQ-VAE将动作token化支持多轮对话运动生成。
+:   提出MotionChain——首个多轮对话式人体运动控制器，通过VQ-VAE运动tokenizer将3D运动编码为离散token，与文本和视觉token统一在语言模型词表中，实现基于多模态多轮对话的连续运动生成，在运动推理任务上Bleu@1达37.92、时序运动组合MPJPE降至276.05mm。
 
 **[Motionchain Conversational Motion Controllers Via Multimodal Prompts](motionchain_conversational_motion_controllers_via_multimodal_prompts.md)**
 
@@ -360,7 +360,7 @@ description: >-
 
 **[Powerful And Flexible Personalized Texttoimage Generation Vi](powerful_and_flexible_personalized_texttoimage_generation_vi.md)**
 
-:   将个性化T2I建模为DPG框架，引入Q函数和向前看机制捕获长期视觉一致性。
+:   将个性化T2I生成建模为确定性策略梯度（DPG）框架——扩散模型作为策略、去噪步骤作为动作——引入"向前看"机制捕获长期视觉一致性和DINO相似度奖励，在DreamBooth基准上DINO得分从0.694提升至0.738（+6.3%），CLIP-I从0.762提升至0.797（+4.6%）。
 
 **[Realistic Human Motion Generation With Cross-Diffusion Models](realistic_human_motion_generation_with_cross-diffusion_models.md)**
 

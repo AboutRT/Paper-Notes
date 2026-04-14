@@ -16,7 +16,7 @@ description: >-
 
 **[Adaptive Detoxification Safeguarding General Capabilities Of Llms Through Toxici](adaptive_detoxification_safeguarding_general_capabilities_of_llms_through_toxici.md)**
 
-:   提出 ToxEdit——毒性感知的知识编辑方法，在前向传播中动态检测毒性激活模式（SVM 二分类器检测有害隐藏状态），将计算路由到原始 FFN 或编辑后的 FFN，实现自适应去毒而不过度编辑。增强 SafeEdit 基准加入指令遵从评估，在多个 LLM 上去毒能力和通用能力保留均 SOTA。
+:   提出 ToxEdit——毒性感知的知识编辑方法，在 LLM 前向传播早期层用 SVM 分类器检测有害隐藏状态，通过路由机制将有害输入导向编辑后的 FFN 副本、无害输入走原始 FFN，在 LLaMA3-8B/LLaMA2-7B/Mistral-7B 上同时实现了近 98% 去毒成功率和 95% 指令遵从保留（DL 指标），解决了知识编辑去毒中"去毒 vs 过度编辑"的核心矛盾。
 
 **[Bmike-53 Investigating Cross-Lingual Knowledge Editing With In-Context Learning](bmike-53_investigating_cross-lingual_knowledge_editing_with_in-context_learning.md)**
 
@@ -28,7 +28,7 @@ description: >-
 
 **[Cknowedit Chinese Knowledge Editing Dataset Llms](cknowedit_chinese_knowledge_editing_dataset_llms.md)**
 
-:   提出首个面向中文语言特征的知识编辑数据集 CKnowEdit，涵盖语言学、事实性和逻辑性三大类共10个子类的1,854条样本，揭示了当前知识编辑方法在中文场景下的不足。
+:   构建首个面向中文语言特性的知识编辑数据集 CKnowEdit，涵盖语言学（拼音/古诗/文言/成语/谚语）、事实（历史地理）和逻辑陷阱（谐音/推理/文字游戏）三大类共 1,854 条样本，系统评估五种主流知识编辑方法在四个中文 LLM 上的表现，揭示中文独有的编辑难题。
 
 **[Compke Complex Question Answering Under Knowledge Editing](compke_complex_question_answering_under_knowledge_editing.md)**
 

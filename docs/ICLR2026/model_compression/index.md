@@ -78,13 +78,13 @@ description: >-
 
 :   本文通过 757 组 QAT 实验（86M-2.2B 参数，1-6 bit）发现：QAT 的最优训练比例随总计算量增长而增大（与先前认为固定 10% 的结论相反），并提出 tokens-per-parameter-byte 统计量和新的 loss scaling law 来精确预测最优 QAT 分配策略和最终损失。
 
-**[Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport](cross_domain_lossy_compression_optimal_transport.md)**
+**[Cross Domain Lossy Compression Optimal Transport](cross_domain_lossy_compression_optimal_transport.md)**
 
-:   将跨域有损压缩（编码器看退化源、解码器重建不同目标分布）形式化为带压缩率和分类损失双重约束的最优传输问题，推导出 Bernoulli/Gaussian 源的闭式 DRC（失真-率-分类）和 DRPC（失真-率-感知-分类）权衡曲线，在 KODAK 去噪上实现 PSNR 27.90 / SSIM 0.80 的竞争性能，审稿人给出 10/10 评分。
+:   将跨域有损压缩（编码器观测退化源、解码器重建不同目标分布）形式化为带压缩率和分类损失双重约束的最优传输问题，推导Bernoulli源（Hamming失真）和Gaussian源（MSE）的闭式DRC/RDC及DRPC权衡函数，通过深度端到端压缩模型在超分/去噪/修复任务上验证理论预测与实验行为一致。
 
 **[Cut Less Fold More Model Compression Through The Lens Of Projection Geometry](cut_less_fold_more_model_compression_through_the_lens_of_projection_geometry.md)**
 
-:   从投影几何视角统一分析结构化剪枝（轴对齐投影）与模型折叠（低秩聚类投影），证明在秩差 1 的条件下折叠重建误差严格更小，并在超过 1000 个 checkpoint 上验证折叠在中高压缩率下通常优于剪枝。
+:   将结构化剪枝和模型折叠(model folding)统一为正交投影框架——剪枝是坐标轴对齐投影，折叠是聚类子空间投影——并证明在秩差为1的条件下折叠的参数重建误差严格更小，在1000+个 checkpoint 上验证折叠在中-高压缩率下通常优于剪枝。
 
 **[Dataset Color Quantization A Training-Oriented Framework For Dataset-Level Compr](dataset_color_quantization_a_training-oriented_framework_for_dataset-level_compr.md)**
 
@@ -172,7 +172,7 @@ description: >-
 
 **[Human-Llm Collaborative Feature Engineering For Tabular Data](human-llm_collaborative_feature_engineering_for_tabular_data.md)**
 
-:   提出人-LLM协作特征工程框架——解耦LLM的特征操作提议和选择过程：LLM仅负责生成候选操作→贝叶斯优化(建模效用+不确定性)引导选择→当效用估计不可靠时(早期轮次)→选择性征询人类偏好反馈(成对比较)→合成研究和真实用户研究均证明提升性能+降低认知负担。
+:   提出一个人-LLM协作特征工程框架，将LLM的特征操作提议与选择过程解耦，通过贝叶斯神经网络建模操作效用和不确定性来指导选择，并选择性地引入人类偏好反馈，在18个表格数据集上平均错误率降低8.96%~11.23%。
 
 **[Ider Idempotent Experience Replay For Reliable Continual Learning](ider_idempotent_experience_replay_for_reliable_continual_learning.md)**
 
@@ -348,7 +348,7 @@ description: >-
 
 **[Stress-Testing Alignment Audits With Prompt-Level Strategic Deception](stress-testing_alignment_audits_with_prompt-level_strategic_deception.md)**
 
-:   构建自动 prompt 级红队流水线，对"保守秘密"的模型有机体进行压力测试，发现能诱导黑盒和白盒对齐审计方法产生高置信错误猜测的欺骗策略，首次记录了基于激活的策略性欺骗现象。
+:   构建自动 prompt 级红队流水线（Claude Opus 4.5 驱动）增强现有微调模型有机体的情境感知与策略推理，对四种黑盒+白盒对齐审计方法进行压力测试，在 6 个实验设置中均成功诱导审计方法产生高置信错误猜测，首次记录了不修改权重的 prompt 级激活欺骗现象。
 
 **[Swireasoning Switch-Thinking In Latent And Explicit For Pareto-Superior Reasonin](swireasoning_switch-thinking_in_latent_and_explicit_for_pareto-superior_reasonin.md)**
 

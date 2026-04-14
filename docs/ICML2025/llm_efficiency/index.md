@@ -20,7 +20,7 @@ description: >-
 
 **[Consistency In Language Models Current Landscape Challenges And Future Direction](consistency_in_language_models_current_landscape_challenges_and_future_direction.md)**
 
-:   系统梳理了LLM一致性研究的现状：分析现有一致性度量方法，识别关键研究空白，指出迫切需要质量基准和跨学科方法来确保一致性同时保留实用性。
+:   系统综述了 LLM 一致性研究的全景，提出包含逻辑一致性（否定/对称/传递）、语义一致性、事实/信息一致性和非逻辑一致性（道德/规范）的分类体系，分析了 2019-2025 年间评测方法的不足，并呼吁建立标准化多语言基准和跨学科方法。
 
 **[Costfilter-Ad Enhancing Anomaly Detection Through Matching Cost Filtering](costfilter-ad_enhancing_anomaly_detection_through_matching_cost_filtering.md)**
 

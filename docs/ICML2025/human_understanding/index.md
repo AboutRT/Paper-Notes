@@ -32,7 +32,7 @@ description: >-
 
 **[Diffusion Sampling Correction Via Approximately 10 Parameters](diffusion_sampling_correction_via_approximately_10_parameters.md)**
 
-:   提出PCA-based Adaptive Search (PAS)——用PCA获取低维采样方向基向量，只需学习约10个坐标参数来修正快速采样器的截断误差，在CIFAR10上用12个参数和亚分钟训练即可将DDIM的FID从15.69降到4.37(NFE=10)。
+:   提出PCA-based Adaptive Search (PAS)方法，利用采样轨迹处于高维空间低维子空间的几何特性，通过PCA提取少量正交基向量并仅学习约10个坐标参数来修正现有快速采样器的截断误差，在单张A100上亚分钟训练即可将DDIM在CIFAR10上的FID从15.69降至4.37（NFE=10）。
 
 **[Doubly Robust Fusion Of Many Treatments For Policy Learning](doubly_robust_fusion_of_many_treatments_for_policy_learning.md)**
 
@@ -72,7 +72,7 @@ description: >-
 
 **[If Open Source Is To Win It Must Go Public](if_open_source_is_to_win_it_must_go_public.md)**
 
-:   本文是一篇立场论文，核心论点是：开源 AI 本身无法实现 AI 的民主化访问，必须嵌入更广泛的"公共 AI"基础设施——包括公共资金、公共访问、公共治理和私人承诺——才能让开放模型真正成为公共产品。
+:   本文论证了开源 AI 在当前实践下无法独立实现 AI 民主化——模型权重只是"惰性代码"，需要大量资本才能激活——必须嵌入公共 AI 基础设施（公共资金 + 公共访问 + 公共治理 + 私人承诺）才能成为真正的公共产品。
 
 **[Improving Model Alignment Through Collective Intelligence Of Open-Source Llms](improving_model_alignment_through_collective_intelligence_of_open-source_llms.md)**
 

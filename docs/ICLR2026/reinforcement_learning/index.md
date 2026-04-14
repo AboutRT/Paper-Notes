@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 强化学习方向 130篇论文解读
+  ICLR2026 强化学习方向 131篇论文解读
 description: >-
-  130篇ICLR2026 强化学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  131篇ICLR2026 强化学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🔬 ICLR2026** · 共 **130** 篇
+**🔬 ICLR2026** · 共 **131** 篇
 
 **[A Unifying View Of Coverage In Linear Off-Policy Evaluation](a_unifying_view_of_coverage_in_linear_off-policy_evaluation.md)**
 
@@ -188,7 +188,7 @@ description: >-
 
 **[Learning To Orchestrate Agents In Natural Language With The Conductor](learning_to_orchestrate_agents_in_natural_language_with_the_conductor.md)**
 
-:   用RL训练7B的Conductor模型，通过自然语言输出Agent工作流(子任务分配+通信拓扑)来协调GPT-5/Claude/Gemini等大模型，在LiveCodeBench和GPQA等benchmark上超越所有单模型和多Agent基线，达到SOTA(平均77.27 vs GPT-5的74.78)。
+:   用GRPO训练一个7B Qwen2.5模型作为"Conductor"，通过自然语言输出完整的Agent工作流（子任务指令+worker分配+通信拓扑访问列表），协调GPT-5/Claude Sonnet 4/Gemini 2.5 Pro等frontier模型，仅用960题×200迭代训练，在7个推理benchmark上平均77.27%超越所有单模型（GPT-5为74.78%）和多Agent基线。
 
 **[Learning To Play Multi-Follower Bayesian Stackelberg Games](learning_to_play_multi-follower_bayesian_stackelberg_games.md)**
 
@@ -216,11 +216,15 @@ description: >-
 
 **[Menlo From Preferences To Proficiency -- Evaluating And Modeling Native-Like Qua](menlo_from_preferences_to_proficiency_--_evaluating_and_modeling_native-like_qua.md)**
 
-:   提出Menlo框架，基于受众设计理论将LLM母语级质量评估分解为4个维度（流畅度/语气/本地化语气/本地化事实），构建47种语言6423标注对的数据集(IAA=0.84)，RL微调的评审模型达到人类标注水平，并可作为生成式奖励模型改善LLM多语言能力。
+:   提出 Menlo 框架，基于受众设计理论将母语级响应质量分解为四个维度，构建了覆盖 47 种语言变体的 6423 条标注偏好对数据集，并发现配对评估+RL 训练的 LLM 裁判可达到接近人类标注员的水平。
 
 **[Mergemix A Unified Augmentation Paradigm For Visual And Multi-Modal Understandin](mergemix_a_unified_augmentation_paradigm_for_visual_and_multi-modal_understandin.md)**
 
 :   提出MergeMix统一训练范式，通过Token Merge生成注意力感知的混合图像作为偏好对中的"输者"，用混合比作为软偏好margin通过mixed SimPO损失优化，在SFT和RL之间找到效率-对齐性-稳定性的平衡点，在图像分类和MLLM基准上均达到SOTA。
+
+**[Metis-Specs Decoupling Multimodal Learning Via Self-Distilled Preference-Based C](metis-specs_decoupling_multimodal_learning_via_self-distilled_preference-based_c.md)**
+
+:   提出 SPECS 三阶段冷启动框架——先通过自蒸馏生成偏好数据（仅区分格式差异），再用 DPO 做格式预对齐作为冷启动，最后接 GRPO 微调——解耦了格式学习和推理学习，实现 MEGA-Bench +4.1%、MathVista +12.2% 的一致性能提升。
 
 **[Model-Based Offline Rl Via Robust Value-Aware Model Learning With Implicitly Dif](model-based_offline_rl_via_robust_value-aware_model_learning_with_implicitly_dif.md)**
 
@@ -292,7 +296,7 @@ description: >-
 
 **[Preferthinker Reasoning-Based Personalized Image Preference Assessment](preferthinker_reasoning-based_personalized_image_preference_assessment.md)**
 
-:   提出PreferThinker——基于推理的个性化图像偏好评估系统：引入由15种视觉元素组成的偏好画像作为用户间桥梁，构建6万用户的CoT风格数据集(PreferImg-CoT)，采用"预测偏好画像→多维可解释评分"的predict-then-assess范式，通过冷启动SFT+GRPO强化学习+相似度感知预测奖励实现结构化推理，在个性化偏好评估上超越SOTA。
+:   提出 PreferThinker，通过引入通用视觉偏好画像（preference profile）连接不同用户，采用 predict-then-assess 的 CoT 推理范式进行可解释的个性化图像偏好评估，结合冷启动 SFT + GRPO 强化学习及 similarity-aware 预测奖励，7B 模型超越 GPT-4o（+5.2%）和 Claude 3.7（+5.1%）。
 
 **[Principled Fast And Meta Knowledge Learners For Continual Reinforcement Learning](principled_fast_and_meta_knowledge_learners_for_continual_reinforcement_learning.md)**
 
@@ -304,7 +308,7 @@ description: >-
 
 **[Qurl Efficient Reinforcement Learning With Quantized Rollout](qurl_efficient_reinforcement_learning_with_quantized_rollout.md)**
 
-:   提出QuRL——用量化actor加速RL训练的rollout阶段：量化actor生成序列(占训练70%时间)+全精度actor做梯度更新→提出自适应裁剪范围(ACR)防止长期训练崩溃(量化/全精度策略分歧累积)+更新感知量化(UAQ用不变缩放放大权重变化超过量化粒度)→INT8/FP8量化实现20-80%rollout加速且性能不降甚至微升。
+:   提出 QuRL 方法，通过量化 actor 模型加速 RL 训练中的 rollout 阶段，设计自适应裁剪范围（ACR）解决量化导致的训练崩溃问题，并提出更新感知量化（UAQ）解决权重更新远小于量化误差的尺度失配问题，实现 20%~80% 的推理吞吐量提升且不损失性能。
 
 **[Reasoning As Representation Rethinking Visual Reinforcement Learning In Image Qu](reasoning_as_representation_rethinking_visual_reinforcement_learning_in_image_qu.md)**
 
@@ -312,11 +316,11 @@ description: >-
 
 **[Reasoning Boosts Opinion Alignment In Llms](reasoning_boosts_opinion_alignment_in_llms.md)**
 
-:   用GRPO强化学习训练LLM从政治调查数据中学习推理式观点对齐，在美国/德国/瑞士三个数据集上证明推理能提升个体级政治观点建模的准确性。
+:   用 GRPO 强化学习训练 LLM 通过结构化推理对齐个体政治观点，SFT+GRPO 在美国/德国/瑞士三国数据集上一致优于 ICL 和 ORPO 基线，但系统性揭示了左右翼偏差和 Neutral 立场预测的根本困难。
 
 **[Rebuttalagent Strategic Persuasion In Academic Rebuttal Via Theory Of Mind](rebuttalagent_strategic_persuasion_in_academic_rebuttal_via_theory_of_mind.md)**
 
-:   提出RebuttalAgent——首个将心智理论(ToM)融入学术rebuttal的框架：通过ToM-Strategy-Response三阶段(建模审稿人心理状态→制定说服策略→生成证据基础响应)，用RebuttalBench(7万+样本)做SFT+自奖励RL训练，开发Rebuttal-RM评估器(10万+样本,超越GPT-4.1的人类一致性)→平均超越基础模型18.3%,与SOTA闭源模型可比。
+:   首次将心智理论（ToM）引入学术 rebuttal，提出 ToM-Strategy-Response 三阶段框架：先建模审稿人心理状态，再制定说服策略，最后生成证据支撑的回复，结合自奖励 RL 训练和专用 Rebuttal-RM 评估器，平均指标超越基座模型 18.3%。
 
 **[References Improve Llm Alignment In Non-Verifiable Domains](references_improve_llm_alignment_in_non-verifiable_domains.md)**
 
@@ -492,7 +496,7 @@ description: >-
 
 **[Understanding And Improving Hyperbolic Deep Reinforcement Learning](understanding_and_improving_hyperbolic_deep_reinforcement_learning.md)**
 
-:   通过形式化梯度分析揭示双曲深度 RL 的训练不稳定根源（大范数嵌入导致信赖域违反），提出 Hyper++ 三组件方案（RMSNorm + 学习缩放 + 分类值损失）实现稳定训练并超越现有方法。
+:   通过闭式梯度分析揭示双曲深度 RL 中 Poincaré Ball 保角因子爆炸和大范数嵌入导致 PPO 信赖域失效的根源，提出 Hyper++（RMSNorm + 可学习缩放 + HL-Gauss + Hyperboloid）四组件方案，在 ProcGen 16 环境和 Atari-5 上全面超越先前基线。
 
 **[Unsupervised Learning Of Efficient Exploration Pre-Training Adaptive Policies Vi](unsupervised_learning_of_efficient_exploration_pre-training_adaptive_policies_vi.md)**
 

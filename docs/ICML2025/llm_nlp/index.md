@@ -80,4 +80,4 @@ description: >-
 
 **[Towards Universal Offline Black-Box Optimization Via Learning Language Model Emb](towards_universal_offline_black-box_optimization_via_learning_language_model_emb.md)**
 
-:   探索用语言模型嵌入实现通用离线黑盒优化(BBO)：将异构数值参数token化为字符串后用LM编码，提出端到端(next-token prediction)和潜在空间学习两种范式，在多域离线BBO任务上验证了跨域泛化能力。
+:   提出UniSO框架，将不同类型和维度的优化变量统一编码为JSON字符串后输入语言模型，通过token预测（UniSO-T）和数值回归（UniSO-N）两种建模范式训练通用回归器，并通过元数据引导的对比学习和Lipschitz平滑正则化改善嵌入空间质量，实现了跨域跨维度的通用离线黑盒优化。

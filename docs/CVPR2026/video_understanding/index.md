@@ -40,7 +40,7 @@ description: >-
 
 **[Beyond Singlesample Reliable Multisample Distillat](beyond_singlesample_reliable_multisample_distillat.md)**
 
-:   提出 R-MSD 框架，通过每输入采样 K 个教师响应构建教师池，结合任务自适应质量匹配（封闭题质量加权、开放题均匀配对）和在线判别器对抗蒸馏，解决视频 LVLM 黑盒蒸馏中单样本监督不可靠的问题。
+:   提出R-MSD框架，通过每输入采样K个教师响应构建教师池，结合任务自适应质量匹配（封闭题质量加权、开放题均匀配对）和在线critic-as-discriminator对抗蒸馏，解决视频LVLM黑盒蒸馏中单样本监督不可靠的问题。
 
 **[Color When It Counts Grayscale-Guided Online Triggering For Always-On Streaming ](color_when_it_counts_grayscale-guided_online_triggering_for_always-on_streaming_.md)**
 
@@ -156,7 +156,7 @@ description: >-
 
 **[Realworld Point Tracking With Verifierguided Pseud](realworld_point_tracking_with_verifierguided_pseud.md)**
 
-:   提出一个可学习的Verifier元模型，通过逐帧评估多个预训练tracker预测的可靠性来生成高质量伪标签，实现合成数据到真实世界的高效域适应，在四个真实世界点跟踪基准上达到SOTA。
+:   提出一个可学习的Verifier元模型，在合成数据上训练"判断tracker预测可靠性"的能力并迁移到真实世界，通过逐帧评估6个预训练tracker的预测来选取最可靠的作为伪标签，仅用~5K真实视频即微调出在4个真实世界基准上全面SOTA的Track-On-R模型。
 
 **[Rethinking Two-Stage Referring-By-Tracking In Referring Multi-Object Tracking Ma](rethinking_two-stage_referring-by-tracking_in_referring_multi-object_tracking_ma.md)**
 
@@ -192,7 +192,7 @@ description: >-
 
 **[Stay In Lane Role Query Dense Video Captioning](stay_in_lane_role_query_dense_video_captioning.md)**
 
-:   ROS-DVC通过为DETR-based密集视频描述设计角色专用查询初始化（分离定位和描述查询）+跨任务对比对齐损失+重叠抑制损失，在YouCook2上无需预训练即达到CIDEr 39.18的SOTA，超越使用GPT-2的DDVC。
+:   ROS-DVC为DETR-based密集视频描述设计角色专用查询（定位和描述独立初始化）、跨任务对比对齐损失和重叠抑制损失三个互补组件，无需预训练或LLM即在YouCook2上CIDEr达39.18，超越使用GPT-2的DDVC。
 
 **[Stay In Your Lane Role Specific Queries With Overlap Suppression Loss For Dense ](stay_in_your_lane_role_specific_queries_with_overlap_suppression_loss_for_dense_.md)**
 
@@ -204,7 +204,7 @@ description: >-
 
 **[Streamingtom Streaming Token Compression Video](streamingtom_streaming_token_compression_video.md)**
 
-:   针对流式视频 VLM 面临的因果性（无法访问未来帧）和累积性（token 无界增长）两个约束，提出 StreamingTOM——一个免训练、即插即用的两阶段框架，通过因果时序缩减（减少 pre-LLM prefill）和在线量化记忆（4-bit KV-cache 存储+按需检索反量化），实现 15.7× KV-cache 压缩比、较 SOTA LiveVLM 降低 1.2× 峰值内存和 2× 更快 TTFT，在离线基准平均 63.8% 和流式基准 RVS 55.8% 达到免训练方法 SOTA。
+:   首个同时解决流式视频VLM中pre-LLM prefill和post-LLM KV-cache两个效率瓶颈的免训练框架，实现15.7倍压缩和有界活跃内存。
 
 **[Streamready Learning What To Answer And When In Long Streaming Videos](streamready_learning_what_to_answer_and_when_in_long_streaming_videos.md)**
 
@@ -224,7 +224,7 @@ description: >-
 
 **[Trajtok Trajectory Token Video Understanding](trajtok_trajectory_token_video_understanding.md)**
 
-:   提出TrajTok——首个端到端可微的轨迹视频tokenizer，通过隐式时空聚类将视频编码为物体轨迹token，无需外部分割/跟踪管线，在分类、检索和长视频QA上全面超越patch-based方法。
+:   提出TrajTok——首个端到端可微的轨迹视频Tokenizer，通过隐式时空聚类将视频编码为物体轨迹Token，无需外部分割/跟踪管线，在K400上+4.8%、SSv2上+4.1%，长视频QA上+8.8%，且推理效率与最高效基线持平。
 
 **[U-Mind A Unified Framework For Real-Time Multimodal Interaction With Audiovisual](u-mind_a_unified_framework_for_real-time_multimodal_interaction_with_audiovisual.md)**
 

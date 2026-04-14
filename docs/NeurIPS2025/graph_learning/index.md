@@ -84,7 +84,7 @@ description: >-
 
 **[Graphfaas Serverless Gnn Inference For Burst-Resilient Real-Time Intrusion Detec](graphfaas_serverless_gnn_inference_for_burst-resilient_real-time_intrusion_detec.md)**
 
-:   提出GraphFaaS，基于Serverless的GNN推理架构用于突发负载下的实时入侵检测：时间局部性图构建+频率过滤+贪心图分区实现延迟降低85%、变异系数降低64%同时保持准确率。
+:   提出 GraphFaaS——基于 Serverless 架构的 GNN 推理系统，通过时间局部性图构建、频率过滤、特征长度感知节点嵌入和贪心 best-fit 图分区算法，在突发负载下实现平均检测延迟降低 85%（14.16s→2.1s）和变异系数降低 64%，同时保持检测准确率不变。
 
 **[Graphtop Graph Topology-Oriented Prompting For Graph Neural Networks](graphtop_graph_topology-oriented_prompting_for_graph_neural_networks.md)**
 
@@ -152,7 +152,7 @@ description: >-
 
 **[Reasoning Meets Representation Envisioning Neuro-Symbolic Wireless Foundation Mo](reasoning_meets_representation_envisioning_neuro-symbolic_wireless_foundation_mo.md)**
 
-:   提出将神经符号（Neuro-Symbolic）范式与无线物理层基础模型（WPFM）结合的愿景框架，通过整合数据驱动的神经网络表征与基于规则和逻辑的符号推理，构建可解释、可泛化且可验证的无线AI系统。
+:   提出将神经符号（Neuro-Symbolic）范式与无线物理层基础模型（WPFM）结合的愿景框架——以WPFM作为神经感知引擎生成RF嵌入向量，以本体论驱动的知识图谱和可微逻辑层作为符号推理组件，实现可解释、可泛化且可验证合规的无线AI系统，为AI原生6G网络提供技术路径。
 
 **[Relieving The Over-Aggregating Effect In Graph Transformers](relieving_the_over-aggregating_effect_in_graph_transformers.md)**
 

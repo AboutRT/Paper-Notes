@@ -48,7 +48,7 @@ description: >-
 
 **[Out Of Sight Out Of Mind Evaluating State Evolution In Video World Models](out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md)**
 
-:   提出 StEvo-Bench 基准，通过遮挡或相机移开等观测控制手段评估视频世界模型能否将状态演化与观测解耦，发现当前最先进模型（包括 Veo 3、Sora 2 Pro、Genie 3 等）在观测中断时成功率不足 10%，揭示了视频世界模型在演化-观测耦合上的根本缺陷。
+:   提出 StEvo-Bench 基准（225个任务×6类演化），通过遮挡或相机移开等观测控制手段系统评测9个视频世界模型能否将状态演化与观测解耦，发现所有模型在观测中断时成功率不足10%，并通过5个专项验证器精准定位失败模式。
 
 **[Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score](semi-supervised_conformal_prediction_with_unlabeled_nonconformity_score.md)**
 

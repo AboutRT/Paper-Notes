@@ -14,9 +14,9 @@ description: >-
 
 :   提出基于多智能体影响图（MAIDs）的**目标干预范式（Targeted Intervention）**，通过仅对单个目标智能体施加**预策略干预（Pre-Strategy Intervention, PSI）**，引导整个多智能体系统收敛到满足额外期望结果的优选Nash均衡，无需对所有智能体进行全局干预。
 
-**[An Analysis of Causal Effect Estimation Using Outcome Invariant Data Augmentation](an_analysis_of_causal_effect_estimation_using_outcome_invariant_data_augmentatio.md)**
+**[An Analysis Of Causal Effect Estimation Using Outcome Invariant Data Augmentatio](an_analysis_of_causal_effect_estimation_using_outcome_invariant_data_augmentatio.md)**
 
-:   分析"结果不变数据增强"在因果效应估计中的作用——当增强操作不改变结果变量的条件分布时，可以在不引入偏差的条件下有效减少选择偏差，且在特定条件下可证明提升估计精度。
+:   首次系统分析"结果不变数据增强"（outcome invariant DA）在因果效应估计中的作用，证明当 DA 操作保持结果变量的不变性时等价于对处理变量的软干预，可减少混杂偏差；进一步提出 IV-like（IVL）回归框架，将 DA 参数用作"类工具变量"，通过对抗性 DA 组合进一步降低偏差。
 
 **[Bi-Level Decision-Focused Causal Learning For Large-Scale Marketing Optimization](bi-level_decision-focused_causal_learning_for_large-scale_marketing_optimization.md)**
 
@@ -44,7 +44,7 @@ description: >-
 
 **[Demystifying Spectral Feature Learning For Instrumental Variable Regression](demystifying_spectral_feature_learning_for_instrumental_variable_regression.md)**
 
-:   推导了谱特征学习在工具变量(IV)回归中的泛化界，根据谱对齐和特征值衰减率将性能分为"好/坏/丑"三类，并提出数据驱动的诊断方法。
+:   为基于谱特征的非参数工具变量(NPIV)回归建立严格的泛化误差界，揭示性能取决于结构函数与条件期望算子的谱对齐及奇异值衰减速度，形成good/bad/ugly三种分类法并提供数据驱动诊断工具。
 
 **[Differentiable Structure Learning And Causal Discovery For General Binary Data](differentiable_structure_learning_and_causal_discovery_for_general_binary_data.md)**
 

@@ -76,7 +76,7 @@ description: >-
 
 **[Instanceassemble Layoutaware Image Generation Via Instance A](instanceassemble_layoutaware_image_generation_via_instance_a.md)**
 
-:   提出InstanceAssemble，通过实例组装注意力机制（instance-assembling attention）实现layout条件的精确控制——支持bbox位置控制和多模态内容控制（文本+视觉内容），作为轻量LoRA模块适配到现有DiT模型，同时提出DenseLayout benchmark（5K图像90K实例）和Layout Grounding Score评估指标。
+:   提出 InstanceAssemble，在 DiT-based T2I 模型（SD3 和 Flux）的 Transformer 块中注入"实例组装注意力"机制，通过将每个 bounding box 区域的 image token 独立与对应的 layout hidden state 做 cross-attention 来实现精确的实例级空间控制，同时以 LoRA 轻量适配方式保持与现有风格 LoRA 的兼容性，并提出包含 5K 图像/90K 实例的 DenseLayout 基准和多维度的 Layout Grounding Score（LGS）评估指标。
 
 **[M-Grpo Stabilizing Self-Supervised Reinforcement Learning For Large Language Mod](m-grpo_stabilizing_self-supervised_reinforcement_learning_for_large_language_mod.md)**
 

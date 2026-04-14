@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 信息检索/RAG方向 30篇论文解读
+  NeurIPS2025 信息检索/RAG方向 32篇论文解读
 description: >-
-  30篇NeurIPS2025 信息检索/RAG方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  32篇NeurIPS2025 信息检索/RAG方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🧠 NeurIPS2025** · 共 **30** 篇
+**🧠 NeurIPS2025** · 共 **32** 篇
 
 **[Attributing Response To Context A Jensen-Shannon Divergence Driven Mechanistic S](attributing_response_to_context_a_jensen-shannon_divergence_driven_mechanistic_s.md)**
 
@@ -49,6 +49,14 @@ description: >-
 **[Hifi-Rag Hierarchical Content Filtering And Two-Pass Generation For Open-Domain ](hifi-rag_hierarchical_content_filtering_and_two-pass_generation_for_open-domain_.md)**
 
 :   通过分离轻量级 Flash 模型的过滤能力与 Pro 模型的推理能力，构建多阶段管道（查询优化→分层过滤→两阶段生成→引文验证），在 MMU-RAGent 竞赛中实现 SOTA 性能。
+
+**[How Should We Evaluate Data Deletion In Graph-Based Ann Indexes](how_should_we_evaluate_data_deletion_in_graph-based_ann_indexes.md)**
+
+:   提出面向实际部署的图基ANN索引数据删除评估框架，形式化定义了逻辑删除、物理删除和重建三种策略，并在HNSW上实验验证后提出Deletion Control——一种根据精度要求动态切换删除方法的算法。
+
+**[Hypergraphrag Retrieval-Augmented Generation Via Hypergraph-Structured Knowledge](hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)**
+
+:   提出 HyperGraphRAG——首个基于超图结构知识表示的 RAG 方法，通过超边连接多个实体来表示 n 元关系事实（$n \geq 2$），克服了现有图 RAG 方法仅能表示二元关系的局限，在医学、农业、计算机科学、法律等多领域的回答准确性、检索效率和生成质量上均优于标准 RAG 和图 RAG 方法。
 
 **[Improving Consistency In Retrieval-Augmented Systems With Group Similarity Rewar](improving_consistency_in_retrieval-augmented_systems_with_group_similarity_rewar.md)**
 

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 其他方向 89篇论文解读
+  ICML2025 其他方向 88篇论文解读
 description: >-
-  89篇ICML2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  88篇ICML2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧪 ICML2025** · 共 **89** 篇
+**🧪 ICML2025** · 共 **88** 篇
 
 **[Adversarial Combinatorial Semi-Bandits With Graph Feedback](adversarial_combinatorial_semi-bandits_with_graph_feedback.md)**
 
@@ -20,7 +20,7 @@ description: >-
 
 **[Avoiding Catastrophe In Online Learning By Asking For Help](avoiding_catastrophe_in_online_learning_by_asking_for_help.md)**
 
-:   提出一种避免灾难性错误的在线学习模型：将每轮回报定义为"该轮避免灾难的概率"，最大化回报之积（总体避灾概率），允许有限次数向导师求助，证明在可学习策略类下后悔和求助率都趋零。
+:   提出一个全新的在线学习理论框架来处理灾难性（不可逆）错误：将回报定义为避灾概率、目标函数为回报之积（总体避灾概率），引入导师求助机制和Local Generalization假设，证明不可能结果（不求助则必灾难）和可能结果（策略类可学则后悔和求助率同时趋零），将标准在线学习的子线性后悔提升为子常数后悔。
 
 **[Beyond Entropy Region Confidence Proxy For Wild Test-Time Adaptation](beyond_entropy_region_confidence_proxy_for_wild_test-time_adaptation.md)**
 
@@ -40,7 +40,7 @@ description: >-
 
 **[Cover Learning For Large-Scale Topology Representation](cover_learning_for_large-scale_topology_representation.md)**
 
-:   提出将"覆盖学习"作为独立优化问题：学习几何数据集的拓扑忠实覆盖，由此构建的单纯复形在大小上优于标准拓扑推断方法，在大尺度拓扑表示上优于Mapper类算法。
+:   提出 Cover Learning 作为一种统一的无监督学习问题，基于优化的视角设计三项损失函数（测度、几何、拓扑）学习数据集的拓扑忠实覆盖，所得单纯复形在拓扑推断中比标准几何复形更紧凑，在大规模拓扑可视化中比 Mapper 图能表示更高维信息。
 
 **[Decision Making Under The Exponential Family Distributionally Robust Optimisatio](decision_making_under_the_exponential_family_distributionally_robust_optimisatio.md)**
 
@@ -49,10 +49,6 @@ description: >-
 **[Democratic Ai Is Possible The Democracy Levels Framework Shows How It Might Work](democratic_ai_is_possible_the_democracy_levels_framework_shows_how_it_might_work.md)**
 
 :   提出"Democracy Levels"（民主等级）框架，将 AI 决策权从单方面权威向民主系统的转移划分为 L0–L5 六个等级，并配套维度评估体系和实操工具，为 AI 治理的民主化提供了系统性路线图。
-
-**[Dilqr Differentiable Iterative Linear Quadratic Regulator Via Implicit Different](dilqr_differentiable_iterative_linear_quadratic_regulator_via_implicit_different.md)**
-
-:   提出DiLQR——通过隐式微分在iLQR控制器的不动点处计算梯度，使反向传播成本恒定(不随迭代次数增加)，实现128倍加速和10^6倍学习性能提升。
 
 **[Discrepancy Minimization In Input-Sparsity Time](discrepancy_minimization_in_input-sparsity_time.md)**
 
@@ -88,7 +84,7 @@ description: >-
 
 **[Exploiting Similarity For Computation And Communication-Efficient Decentralized ](exploiting_similarity_for_computation_and_communication-efficient_decentralized_.md)**
 
-:   利用分布式节点间数据的相似性，设计计算和通信高效的去中心化均值估计算法，实现比忽略相似性的方法更好的估计精度-通信trade-off。
+:   提出 Stabilized Proximal Decentralized Optimization (SPDO) 方法及其加速版本，在近端去中心化优化框架下同时实现最优的通信和计算复杂度——通过稳定化投影技术放松子问题精度要求（从随迭代递增变为恒定），并用平均函数相似性 $\delta$ 替代最大相似性 $\delta_{\max}$ 来降低通信开销。
 
 **[Feature Learning Beyond The Lazy-Rich Dichotomy Insights From Representational G](feature_learning_beyond_the_lazy-rich_dichotomy_insights_from_representational_g.md)**
 
@@ -240,7 +236,7 @@ description: >-
 
 **[Practical Principles For Ai Cost And Compute Accounting](practical_principles_for_ai_cost_and_compute_accounting.md)**
 
-:   提出AI成本与计算量核算的七项原则，旨在减少监管漏洞（特别是蒸馏漏洞）、避免抑制风险缓解措施、并实现跨企业一致性。
+:   针对 AI 监管中计算量/成本阈值的核算标准模糊问题，提出七项原则来封堵蒸馏漏洞等规避手段、避免抑制安全措施、并实现跨企业一致实施，为 EU AI Act 等法规的落地提供理论框架。
 
 **[Prediction-Powered Adaptive Shrinkage Estimation](prediction-powered_adaptive_shrinkage_estimation.md)**
 
@@ -278,9 +274,9 @@ description: >-
 
 :   本文指出机器学习中 aleatoric/epistemic 不确定性二分法存在根本性概念混淆，提出基于决策理论的替代框架，将预测不确定性、可约/不可约分解、预测性能和数据分散度统一在一个连贯的理论体系中，并揭示了 BALD 作为 epistemic uncertainty 估计器的局限性。
 
-**[Revisiting Instance-Optimal Cluster Recovery in the Labeled Stochastic Block Model](revisiting_instance-optimal_cluster_recovery_in_the_labeled_stochastic_block_mod.md)**
+**[Revisiting Instance-Optimal Cluster Recovery In The Labeled Stochastic Block Mod](revisiting_instance-optimal_cluster_recovery_in_the_labeled_stochastic_block_mod.md)**
 
-:   提出IAC算法，在标签随机块模型(LSBM)中以$O(n\text{polylog}(n))$复杂度首次实现匹配实例最优下界的聚类恢复，同时给出期望和高概率保证。
+:   针对标签随机块模型 (LSBM)，提出 IAC (Instance-Adaptive Clustering) 算法，通过一次谱聚类 + 迭代似然改进两阶段策略，首次以 $\mathcal{O}(n(\log n)^3)$ 复杂度实现匹配实例特定信息论下界的社区恢复，同时提供期望和高概率双重保证。
 
 **[Revisiting The Predictability Of Performative Social Events](revisiting_the_predictability_of_performative_social_events.md)**
 
@@ -332,7 +328,7 @@ description: >-
 
 **[Syndacate A Synthetic Dataset For Evaluating Part-Whole Hierarchical Inference](syndacate_a_synthetic_dataset_for_evaluating_part-whole_hierarchical_inference.md)**
 
-:   提出SynDaCaTE合成数据集用于评估部分-整体层次推断能力，揭示CapsNet瓶颈在于图像到部件推断，且SetTransformer是部件到整体推断的强基线。
+:   提出SynDaCaTE合成数据集和Mereological Inference框架，将部分-整体层次推断分解为Image-to-Parts和Parts-to-Wholes两个可独立评估的子任务，通过精心设计的控制实验证明CapsNet的瓶颈在于从图像提取部件而非从部件推断整体，同时发现置换等变的SetTransformer在部件到整体推断中显著优于所有基线（超过10倍精度优势）。
 
 **[Tango Clustering With Typicality-Aware Nonlocal Mode-Seeking And Graph-Cut Optim](tango_clustering_with_typicality-aware_nonlocal_mode-seeking_and_graph-cut_optim.md)**
 

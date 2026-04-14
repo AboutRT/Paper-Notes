@@ -88,7 +88,7 @@ description: >-
 
 **[Scaling Equitable Reflection Assessment In Education Via Large Language Models A](scaling_equitable_reflection_assessment_in_education_via_large_language_models_a.md)**
 
-:   研究用 LLM 自动评估教育场景中学生的反思写作质量——在保持与人类评分者高一致性的同时，系统分析了 LLM 评估在种族、性别、社会经济背景等维度上的公平性，发现 LLM 评分可以达到甚至超越人类评分者间的一致性，但在某些人口统计维度上仍存在偏差。
+:   提出一个由5个角色化GPT-4o Agent组成的零样本多Agent流水线，对学习者反思文本进行公平的量表评分并生成偏差感知的对话式反馈，在336篇反思上实现MAE=0.467、QWK=0.459的评分一致性和Q(g)=3.967的反馈质量。
 
 **[Smart A Surrogate Model For Predicting Application Runtime In Dragonfly Systems](smart_a_surrogate_model_for_predicting_application_runtime_in_dragonfly_systems.md)**
 

@@ -12,7 +12,7 @@ description: >-
 
 **[Bases Of Steerable Kernels For Equivariant Cnns Fr](bases_of_steerable_kernels_for_equivariant_cnns_fr.md)**
 
-:   提出一种直接从输入/输出表示构造可操纵核显式基的方法，无需计算 Clebsch-Gordan 系数，统一覆盖 SO(2)、O(2)、SO(3)、O(3) 到非紧致 Lorentz 群，大幅简化等变 CNN 的核设计流程。
+:   提出一种绕过 Clebsch-Gordan 系数计算、直接从群表示矩阵元素构造可操纵核显式基的方法，通过"稳定子约束 + Schur 引理 + Steering"三步策略统一覆盖 SO(2)、O(2)、SO(3)、O(3) 和非紧致 Lorentz 群，大幅简化等变 CNN 的核设计流程。
 
 **[Bases Of Steerable Kernels For Equivariant Cnns From 2D Rotations To The Lorentz](bases_of_steerable_kernels_for_equivariant_cnns_from_2d_rotations_to_the_lorentz.md)**
 

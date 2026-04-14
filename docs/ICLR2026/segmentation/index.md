@@ -44,7 +44,7 @@ description: >-
 
 **[Trace Your Diffusion Model Is Secretly An Instance Edge Detector](trace_your_diffusion_model_is_secretly_an_instance_edge_detector.md)**
 
-:   发现文本到图像扩散模型的自注意力图在去噪过程特定时间步隐式编码了实例边界信息，提出 TRACE 框架通过实例涌现点(IEP)和注意力边界散度(ABDiv)提取这些边界，并蒸馏为单步边缘检测器，在无监督实例分割和弱监督全景分割上大幅超越已有方法。
+:   发现文本到图像扩散模型的自注意力在去噪过程中存在一个"实例涌现点"（IEP），在该时刻自注意力在物体边界呈现剧烈散度变化。TRACE通过IEP定位+ABDiv边缘提取+单步蒸馏，以81×推理加速生成高质量实例边缘，无需任何实例标注即可将无监督实例分割提升+5.1 AP，tag监督全景分割超越点监督方法+1.7 PQ。
 
 **[Universal Multi-Domain Translation Via Diffusion Routers](universal_multi-domain_translation_via_diffusion_routers.md)**
 
@@ -52,7 +52,7 @@ description: >-
 
 **[Vincie Unlocking In-Context Image Editing From Video](vincie_unlocking_in-context_image_editing_from_video.md)**
 
-:   提出 VINCIE，首次仅从视频数据学习上下文图像编辑能力——将视频标注为交错多模态序列，设计三个代理任务(次帧预测/当前分割/次帧分割预测)，在多轮编辑 benchmark 上达到 SOTA，展现了视频数据作为编辑训练源的可扩展性。
+:   提出VINCIE框架，首次证明in-context图像编辑模型可以完全从原生视频数据中学习，通过将视频标注为交错多模态序列并设计三个代理任务（NIP/CSP/NSP），在多轮编辑基准上达到SOTA，5轮编辑成功率从基线<2%提升至25%。
 
 **[Virtue Visual-Interactive Text-Image Universal Embedder](virtue_visual-interactive_text-image_universal_embedder.md)**
 

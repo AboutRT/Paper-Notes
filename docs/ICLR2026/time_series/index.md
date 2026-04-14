@@ -88,7 +88,7 @@ description: >-
 
 **[Rescp Reservoir Conformal Prediction For Time Series Forecasting](rescp_reservoir_conformal_prediction_for_time_series_forecasting.md)**
 
-:   提出ResCP，首次将储备计算(Echo State Network)用于保形预测的残差重加权，通过储备状态间相似性自适应调权形成局部化预测区间，无需训练即可实现渐近条件覆盖保证，计算效率远超需训练的Transformer方法。
+:   首次将储备计算（Echo State Network）引入保形预测，通过随机初始化ESN编码残差序列的时间动态，利用状态相似性自适应重加权历史残差构建局部预测区间，无需任何训练即在4个真实数据集上实现SOTA的Winkler分数，速度比HopCPT快20-80×。
 
 **[Routing Channel-Patch Dependencies In Time Series Forecasting With Graph Spectra](routing_channel-patch_dependencies_in_time_series_forecasting_with_graph_spectra.md)**
 
@@ -100,7 +100,7 @@ description: >-
 
 **[Scrapl Scattering Transform With Random Paths For Machine Learning](scrapl_scattering_transform_with_random_paths_for_machine_learning.md)**
 
-:   提出SCRAPL——通过随机采样散射变换(ST)路径将计算量降低P倍的随机优化方案：结合路径自适应动量估计(P-Adam)、路径随机平均梯度(P-SAGA)和θ-重要性采样三种技术稳定单路径梯度的高方差，在DDSP无监督声音匹配任务上实现与全路径ST相近精度但计算效率提升数十倍。
+:   针对多变量散射变换(ST)作为可微损失函数时因路径数P过多导致计算代价过高的问题，提出SCRAPL——每步仅随机采样一条路径并通过P-Adam（路径自适应动量）、P-SAGA（路径随机平均梯度）和θ-重要性采样三种方差缩减技术来稳定梯度，在无监督声音匹配任务上以接近全路径ST的精度、MSS级别的低计算成本实现了Pareto最优。
 
 **[Swiftts A Swift Selection Framework For Time Series Pre-Trained Models Via Multi](swiftts_a_swift_selection_framework_for_time_series_pre-trained_models_via_multi.md)**
 
@@ -128,7 +128,7 @@ description: >-
 
 **[Towards Robust Real-World Multivariate Time Series Forecasting A Unified Framewo](towards_robust_real-world_multivariate_time_series_forecasting_a_unified_framewo.md)**
 
-:   提出ChannelTokenFormer——同时解决真实世界多变量时序的三大挑战的统一Transformer框架：(1)通道间复杂依赖→channel token跨通道注意力,(2)各通道异步采样→无需重采样/对齐→自然处理不同长度,(3)测试时块缺失→掩码引导注意力跳过缺失→从其他通道推断→在公开基准+真实工业数据上验证鲁棒性和精度。
+:   提出ChannelTokenFormer（CTF），一个统一的Transformer框架同时解决真实世界多变量时序预测的三大挑战：(1) 通道间复杂依赖——channel token跨通道注意力；(2) 各通道异步采样——频域动态patching保持原始分辨率；(3) 测试时块缺失——训练时patch masking模拟+推理时直接移除全缺失patch，在ETT/SolarWind/Weather/EPA/CHS等6个数据集上全面SOTA。
 
 **[Tspulse Tiny Pre-Trained Models With Disentangled Representations For Rapid Time](tspulse_tiny_pre-trained_models_with_disentangled_representations_for_rapid_time.md)**
 

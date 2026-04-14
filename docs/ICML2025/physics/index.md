@@ -16,7 +16,7 @@ description: >-
 
 **[Finetuning Stellar Spectra Foundation Models With Lora](finetuning_stellar_spectra_foundation_models_with_lora.md)**
 
-:   首次将LoRA应用于恒星光谱学：在SpecCLIP基础模型（LAMOST+Gaia XP对比预训练）上用LoRA微调适配DESI光谱，实现少样本跨巡天恒星参数估计。
+:   首次将 LoRA 应用于恒星光谱基础模型 SpecCLIP，实现以约 100-200 个标注样本将预训练在 LAMOST/Gaia XP 上的模型高效适配到 DESI 巡天数据，证明 LoRA 是跨光谱巡天迁移的轻量而有效策略。
 
 **[Gravity-Bench-V1 A Benchmark On Gravitational Physics Discovery For Agents](gravity-bench-v1_a_benchmark_on_gravitational_physics_discovery_for_agents.md)**
 

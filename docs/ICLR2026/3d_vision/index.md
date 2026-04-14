@@ -228,7 +228,7 @@ description: >-
 
 **[Splat Feature Solver](splat_feature_solver.md)**
 
-:   将3D特征提升(从2D语义→3D高斯)形式化为稀疏线性逆问题AX=B→闭式求解→证明凸损失下全局最优误差上界→Tikhonov引导+后处理聚合两种正则化稳定解→核/特征无关(通用于3DGS/2DGS/Beta Splatting+CLIP/DINO/ViT/CNN)→开放词汇3D分割SOTA且仅需分钟级计算。
+:   将3D splat表示的特征提升(feature lifting)问题统一建模为稀疏线性逆问题 $AX=B$，提出闭式求解器并证明其在凸损失下的 $(1+\beta)$-近似误差上界，配合 Tikhonov 引导和后聚合过滤两种正则化策略，在开放词汇3D分割任务上达到SOTA。
 
 **[Station2Radar Query Conditioned Gaussian Splatting For Precipitation Field](station2radar_query_conditioned_gaussian_splatting_for_precipitation_field.md)**
 

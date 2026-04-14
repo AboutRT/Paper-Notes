@@ -104,7 +104,7 @@ description: >-
 
 **[On Measuring Long-Range Interactions In Graph Neural Networks](on_measuring_long-range_interactions_in_graph_neural_networks.md)**
 
-:   形式化定义了图任务中的"长距离交互"概念，提出基于距离×影响力的range measure来量化算子的作用范围，发现常用LRGB基准和架构在实际中并非真正"长距离"的。
+:   首次从第一性原理出发形式化定义图任务中的"长距离交互"，推导出唯一满足四条公理的 range measure $\hat{\rho}_u = \mathbb{E}_{v \sim I_u}[d_G(u,v)]$，通过合成实验验证其有效性后，用该度量揭示 LRGB 基准中的 peptides 任务实际上是短距离的。
 
 **[Open Your Eyes Vision Enhances Message Passing Neural Networks In Link Predictio](open_your_eyes_vision_enhances_message_passing_neural_networks_in_link_predictio.md)**
 
@@ -112,7 +112,7 @@ description: >-
 
 **[Positional Encoding Meets Persistent Homology On Graphs](positional_encoding_meets_persistent_homology_on_graphs.md)**
 
-:   理论证明位置编码（PE）和持续同调（PH）互不可比——各存在对方失败但自身成功的图构造，提出 PiPE 方法统一两者，可证明比单独使用更具表达力，在分子/分类/OOD任务上表现优异。
+:   理论证明图上位置编码（PE）和持续同调（PH）在区分非同构图方面互不可比，提出 PiPE（Persistence-informed Positional Encoding）通过消息传递网络统一两者，可证明比单独使用任一方法更具表达力，在 ZINC/Alchemy/DrugOOD/BREC 等多个基准上一致优于纯 PE 和纯 PH 基线。
 
 **[Tined Gnns-To-Mlps By Teacher Injection And Dirichlet Energy Distillation](tined_gnns-to-mlps_by_teacher_injection_and_dirichlet_energy_distillation.md)**
 
@@ -120,11 +120,11 @@ description: >-
 
 **[Toward Data-Centric Directed Graph Learning An Entropy-Driven Approach](toward_data-centric_directed_graph_learning_an_entropy-driven_approach.md)**
 
-:   提出 EDEN（熵驱动有向图知识蒸馏），从数据中心视角利用层级知识树和互信息量化揭示有向图中拓扑与节点属性的潜在关联，作为即插即用模块增强任意 DiGNN 性能。
+:   提出 EDEN（Entropy-driven Digraph Knowledge Distillation），从数据中心视角构建层级知识树（HKT），通过有向拓扑结构度量和节点互信息量化，揭示有向图中拓扑与节点属性的潜在关联，作为即插即用模块可为任意 DiGNN 带来平均 2-5% 的性能提升，在 14 个数据集和 4 个下游任务上取得 SOTA。
 
 **[Towards Graph Foundation Models Learning Generalities Across Graphs Via Task-Tre](towards_graph_foundation_models_learning_generalities_across_graphs_via_task-tre.md)**
 
-:   提出 Task-Tree 作为统一学习实例对齐节点/边/图级任务，理论分析其稳定性/可迁移性/泛化性，构建图基础模型 GIT 在 32 个图上通过微调/上下文学习/零样本展现跨域跨任务泛化能力。
+:   提出 Task-Tree 作为统一学习实例，通过引入虚拟任务节点将节点/边/图级任务对齐到同一表示空间，配合重构目标预训练 GNN，构建图基础模型 GIT，在 32 个图、5 个领域上实现微调/上下文学习/零样本三种范式的跨域跨任务泛化。
 
 **[Unifews You Need Fewer Operations For Efficient Graph Neural Networks](unifews_you_need_fewer_operations_for_efficient_graph_neural_networks.md)**
 

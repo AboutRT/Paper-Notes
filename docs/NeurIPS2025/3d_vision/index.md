@@ -254,9 +254,9 @@ description: >-
 
 :   提出 LODGE，通过层次化 LOD（Level-of-Detail）策略对 3D Gaussian Splatting 进行多尺度管理，根据相机距离动态选择合适粒度的 Gaussian 表示，实现大规模场景的高质量实时渲染。
 
-**[Look and Tell: A Dataset for Multimodal Grounding Across Egocentric and Exocentric Views](look_and_tell_a_dataset_for_multimodal_grounding_across_egocentric_and_exocentri.md)**
+**[Look And Tell A Dataset For Multimodal Grounding Across Egocentric And Exocentri](look_and_tell_a_dataset_for_multimodal_grounding_across_egocentric_and_exocentri.md)**
 
-:   构建了 Look and Tell 数据集，包含对齐的第一人称（egocentric）和第三人称（exocentric）视频及其语言描述，评估多模态模型在跨视角条件下的视觉接地能力。
+:   Look and Tell 构建了一个多模态数据集，在厨房场景中使用 Meta Aria 智能眼镜和固定 GoPro 摄像头同步采集 25 名参与者的注视、语音和双视角视频，结合 3D 场景重建和多层级标注流水线，提供了首个跨第一人称/第三人称视角的指称交际研究基准。
 
 **[Materialrefgs Reflective Gaussian Splatting With Multi-View Consistent Material ](materialrefgs_reflective_gaussian_splatting_with_multi-view_consistent_material_.md)**
 
@@ -274,9 +274,9 @@ description: >-
 
 :   提出MetaGS，通过将可微Blinn-Phong反射模型嵌入3D高斯splatting并结合双层优化的元学习训练策略，实现在分布外（OOD）光照条件下的高质量3D场景重光照。
 
-**[Metropolis-Hastings Sampling for 3D Gaussian Reconstruction](metropolis-hastings_sampling_for_3d_gaussian_reconstruction.md)**
+**[Metropolis-Hastings Sampling For 3D Gaussian Reconstruction](metropolis-hastings_sampling_for_3d_gaussian_reconstruction.md)**
 
-:   将 3DGS 的密度控制（克隆/分裂/剪枝）重新建模为 Metropolis-Hastings 概率采样过程，利用多视角光度误差聚合和不透明度评分构建重要性得分，从而自适应地插入和移除高斯体。
+:   提出自适应Metropolis-Hastings框架替代3DGS中的启发式密度控制机制，通过多视角光度误差驱动的概率采样实现更高效的高斯分布推断，收敛速度快于3DGS-MCMC。
 
 **[Modeling Microenvironment Trajectories On Spatial Transcriptomics With Nicheflow](modeling_microenvironment_trajectories_on_spatial_transcriptomics_with_nicheflow.md)**
 
@@ -372,7 +372,7 @@ description: >-
 
 **[Quantifying And Alleviating Co-Adaptation In Sparse-View 3D Gaussian Splatting](quantifying_and_alleviating_co-adaptation_in_sparse-view_3d_gaussian_splatting.md)**
 
-:   揭示了稀疏视角 3DGS 中外观伪影的根本原因——高斯体之间的协同适应（co-adaptation），提出 Co-Adaptation Score 度量指标，以及 Gaussian Dropout 和不透明度噪声注入两种即插即用缓解策略。
+:   本文揭示了稀疏视角 3D Gaussian Splatting 中外观伪影的核心成因——高斯体之间的协同适应（co-adaptation）现象，提出了 Co-Adaptation Score（CA）度量指标来量化这一纠缠程度，并设计了 Gaussian Dropout 和不透明度乘性噪声注入两种即插即用的正则化策略，在五种基线方法和三个数据集上均显著降低了 co-adaptation 并提升了新视角渲染质量。
 
 **[Reconstruct Inpaint Test-Time Finetune Dynamic Novel-View Synthesis From Monocul](reconstruct_inpaint_test-time_finetune_dynamic_novel-view_synthesis_from_monocul.md)**
 

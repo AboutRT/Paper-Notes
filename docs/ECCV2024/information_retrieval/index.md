@@ -16,7 +16,7 @@ description: >-
 
 **[Artvlm Attribute Recognition Through Visionbased Prefix Lang](artvlm_attribute_recognition_through_visionbased_prefix_lang.md)**
 
-:   ArtVLM将属性识别定义为语言建模问题，PrefixLM生成式检索灵活建模物体-属性条件依赖。
+:   将视觉属性识别重新建模为基于PrefixLM的句子生成概率评估问题，通过设计不同句子模板灵活构建"物体-属性"条件依赖的概率图模型（元模型），在零样本和微调设定下均显著优于CLIP风格的对比式检索。
 
 **[Grounding Language Models For Visual Entity Recognition](grounding_language_models_for_visual_entity_recognition.md)**
 

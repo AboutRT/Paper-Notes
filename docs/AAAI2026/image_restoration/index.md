@@ -36,7 +36,7 @@ description: >-
 
 **[Large Language Models Meet Extreme Multi-Label Classification Scaling And Multi-](large_language_models_meet_extreme_multi-label_classification_scaling_and_multi-.md)**
 
-:   首次在 Extreme Multi-label Classification (XMC) 中有效利用 decoder-only LLM（dual-decoder learning），并提出 ViXML 多模态框架高效融合视觉元数据，66M encoder + ViXML 即可超越 billion 级纯文本模型。
+:   本文探索了解码器型LLM在极端多标签分类(XMC)中的有效利用，提出双解码器学习策略和 ViXML 多模态框架，通过结构化提示模板适配LLM embedding + 高效融合视觉元数据，在四个公共数据集上大幅超越 SOTA（最大数据集 P@1 提升 +8.21%），证明"一张图胜过数十亿参数"。
 
 **[Mfmamba A Multi-Function Network For Panchromatic Image Resolution Restoration B](mfmamba_a_multi-function_network_for_panchromatic_image_resolution_restoration_b.md)**
 
@@ -52,7 +52,7 @@ description: >-
 
 **[Seeing The Unseen Zooming In The Dark With Event Cameras](seeing_the_unseen_zooming_in_the_dark_with_event_cameras.md)**
 
-:   提出首个事件驱动低光照视频超分辨率框架RetinexEVSR，通过Retinex启发的双向融合策略（光照引导事件增强+事件引导反射增强），在SDSD-indoor上较EvTexture提升2.95 dB且FLOPs减少86%、推理加速65%。
+:   提出首个事件驱动低光视频超分（LVSR）框架 RetinexEVSR，通过 Retinex 启发的双向融合策略（RBF）——先用光照图引导事件特征去噪（IEE），再用增强后的事件特征恢复反射率细节（ERE），在 SDSD 基准上实现 2.95dB 增益且运行时间减少 65%。
 
 **[Spatiotemporal Difference Network For Video Depth Super-Resolution](spatiotemporal_difference_network_for_video_depth_super-resolution.md)**
 

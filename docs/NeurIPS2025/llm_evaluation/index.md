@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 LLM评测方向 69篇论文解读
+  NeurIPS2025 LLM评测方向 72篇论文解读
 description: >-
-  69篇NeurIPS2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  72篇NeurIPS2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**🧠 NeurIPS2025** · 共 **69** 篇
+**🧠 NeurIPS2025** · 共 **72** 篇
 
 **[A Highdimensional Statistical Method For Optimizing Transfer](a_highdimensional_statistical_method_for_optimizing_transfer.md)**
 
@@ -130,13 +130,25 @@ description: >-
 
 :   将选择性SSM（Mamba）展开为注意力形式，利用覆盖数技术推导出受连续时间状态矩阵谱横断面$s_{\mathbf{A}}$控制的泛化界——$s_{\mathbf{A}}<0$时泛化界与序列长度无关，$s_{\mathbf{A}}\geq0$时指数增长，并证明这种依赖不可消除。
 
+**[Houselayout3D A Benchmark And Training-Free Baseline For 3D Layout Estimation In](houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)**
+
+:   提出 HouseLayout3D——首个面向多层建筑的真实世界 3D 布局估计基准（16 栋建筑、33 层楼、317 房间、292 门、379 窗、34 楼梯），以及完全 training-free 的 MultiFloor3D 四阶段 pipeline（3D 重建 → 骨架提取 → 多边形拟合 → 场景图构建），在多层建筑场景中全面超越 RoomFormer 和 SceneScript。
+
 **[Hybridnorm Towards Stable And Efficient Transformer Training Via Hybrid Normaliz](hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md)**
 
 :   提出 HybridNorm 混合归一化策略——注意力模块用 QKV 归一化解耦梯度、FFN 用 Post-Norm 增强正则化，在 550M-7B 规模上同时获得 Pre-Norm 的训练稳定性和 Post-Norm 的泛化性能，7B 模型下游任务平均提升 2.45%。
 
+**[Incomplete Multi-View Clustering Via Hierarchical Semantic Alignment And Coopera](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)**
+
+:   提出HSACC框架通过双层语义空间设计（低层互信息一致性+高层自适应加权融合）和协同优化的隐式缺失视图恢复，在五个基准数据集上显著超越现有不完整多视图聚类方法。
+
 **[Ineq-Comp Benchmarking Human-Intuitive Compositional Reasoning In Automated Theo](ineq-comp_benchmarking_human-intuitive_compositional_reasoning_in_automated_theo.md)**
 
 :   提出 Ineq-Comp 基准，通过对简单不等式种子问题施加人类直觉可轻松处理的组合变换（变量复制、代数重写），揭示当前 LLM 形式化定理证明器在组合推理上的根本性缺陷——即使 DeepSeek-Prover-V2-7B 也有 20%+ 的性能下降。
+
+**[Keep It On A Leash Controllable Pseudo-Label Generation Towards Realistic Long-T](keep_it_on_a_leash_controllable_pseudo-label_generation_towards_realistic_long-t.md)**
+
+:   提出 Controllable Pseudo-label Generation (CPG) 框架，通过可控的自强化优化循环将可靠伪标签逐步纳入标注集，在已知分布上构建 Bayes-optimal 分类器，从而在未标注数据分布完全未知的 Realistic LTSSL 场景下实现最高 15.97% 的准确率提升。
 
 **[Lcdb 11 A Database Illustrating Learning Curves Are More Ill-Behaved Than Previo](lcdb_11_a_database_illustrating_learning_curves_are_more_ill-behaved_than_previo.md)**
 
@@ -260,7 +272,7 @@ description: >-
 
 **[Thought Communication In Multiagent Collaboration](thought_communication_in_multiagent_collaboration.md)**
 
-:   提出 ThoughtComm 框架，通过建立隐变量生成模型并提供可辨识性理论保证，让多个 LLM 智能体直接交换潜在"思想"（latent thoughts）而非自然语言，实现超越语言瓶颈的"心灵感应"式协作。
+:   提出 ThoughtComm 框架，将多智能体通信形式化为隐变量生成模型，证明了在非参数条件下共享思想和私有思想均可辨识，并通过稀疏正则化自编码器提取潜在思想、经前缀注入回馈给每个智能体，在数学推理任务上相比当前 SOTA 的 Multiagent Finetuning 平均提升 19.06%。
 
 **[Tight Lower Bounds And Improved Convergence In Performative Prediction](tight_lower_bounds_and_improved_convergence_in_performative_prediction.md)**
 

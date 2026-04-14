@@ -12,7 +12,7 @@ description: >-
 
 **[A Data-Driven Model Predictive Control Framework For Multi-Aircraft Tma Routing ](a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md)**
 
-:   提出面向终端管制区（TMA）多机冲突解脱和着陆调度的闭环 MPC 框架——集成 XGBoost 到达时间预测、MILP 优化模型（路径选择+速度调整+等待约束）和交通仿真器，在樟宜机场 50 海里 STAR 网络上实现实时无冲突调度，高峰期计算时间比一次性优化降低 7 倍，Monte Carlo 仿真验证鲁棒性。
+:   提出闭环 MPC 框架用于樟宜机场 50 海里半径终端区（TMA）的多飞机无冲突路径规划与调度，集成 XGBoost 预测 TMA 边界到达时间、MILP 优化（含路径选择/速度调整/等待控制/安全间隔约束）和滚动时域仿真器，在峰值 36 架/小时拥堵场景下实现 7 倍计算加速且 Monte Carlo 鲁棒性验证中可行性远优于 Dijkstra 基线。
 
 **[Ai-Based Traffic Modeling For Network Security And Privacy Challenges Ahead](ai-based_traffic_modeling_for_network_security_and_privacy_challenges_ahead.md)**
 
@@ -40,7 +40,7 @@ description: >-
 
 **[Comptrack Information Bottleneckguided Lowrank Dynamic Token Compres](comptrack_information_bottleneckguided_lowrank_dynamic_token_compres.md)**
 
-:   针对LiDAR点云3D单目标跟踪中的"双重冗余"问题（空间冗余：大量背景噪声；信息冗余：前景中大量不具区分性的平面点），提出SFP前景预测器+IB-DTC信息瓶颈引导动态Token压缩两个模块，在KITTI/nuScenes/Waymo上达到SOTA，90 FPS实时运行（比P2P快1.4倍）。
+:   提出 CompTrack 框架首次同时解决 LiDAR 点云中的双重冗余问题：SFP 通过信息熵分析滤除背景噪声解决空间冗余；IB-DTC 通过在线 SVD 估计有效秩、自适应确定压缩率将前景压缩为低秩代理 token 解决信息冗余。在 nuScenes 上 SOTA（61.04% Success），以 90 FPS 实时运行。
 
 **[Debiased Dual-Invariant Defense For Adversarially Robust Person Re-Identificatio](debiased_dual-invariant_defense_for_adversarially_robust_person_re-identificatio.md)**
 
@@ -228,7 +228,7 @@ description: >-
 
 **[Visiononly Gaussian Splatting For Collaborative Semantic Occupancy P](visiononly_gaussian_splatting_for_collaborative_semantic_occupancy_p.md)**
 
-:   首次将 3D 高斯 Splatting 作为多智能体协同感知的通信媒介和中间表征，利用高斯基元的刚体变换可解析性和稀疏性，通过高斯打包（ROI 裁剪+刚体变换）和跨智能体邻域融合模块，实现了高效且可解释的视觉协同语义占用预测。
+:   提出首个使用稀疏3D语义高斯基元作为协同感知通信介质的纯视觉语义占据预测框架，通过ROI裁剪+刚性变换传输高斯+邻域融合模块抑制噪声冗余，在mIoU上比单车提升+8.42，比baseline协同方法提升+3.28。
 
 **[Walking Further Semantic-Aware Multimodal Gait Recognition Under Long-Range Cond](walking_further_semantic-aware_multimodal_gait_recognition_under_long-range_cond.md)**
 

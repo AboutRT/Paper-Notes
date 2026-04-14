@@ -124,7 +124,7 @@ description: >-
 
 **[Headhunt-Vad Hunting Robust Anomaly-Sensitive Heads In Mllm ](headhunt-vad_hunting_robust_anomaly-sensitive_heads_in_mllm_.md)**
 
-:   提出HeadHunt-VAD，不用MLLM的文本输出，而是直接从冻结MLLM中"猎取"一小批对异常敏感且跨prompt鲁棒的注意力头，配合轻量逻辑回归scorer，在仅用1%数据、零微调的条件下，在UCF-Crime(87.03% AUC)和XD-Violence(82.63% AP)上达到tuning-free方法SOTA。
+:   本文提出 HeadHunt-VAD，通过在冻结的多模态大模型(MLLM)内部系统性地搜索出对异常敏感且稳定的稀疏注意力头集合，绕过文本输出的信息损失，用轻量级分类器实现无需微调的高效视频异常检测，在 UCF-Crime 和 XD-Violence 上取得 tuning-free 方法 SOTA。
 
 **[Heterogeneous Uncertainty-Guided Composed Image Retrieval With Fine-Grained Prob](heterogeneous_uncertainty-guided_composed_image_retrieval_with_fine-grained_prob.md)**
 
@@ -236,7 +236,7 @@ description: >-
 
 **[Sdeval Safety Dynamic Evaluation For Multimodal Large Language Models](sdeval_safety_dynamic_evaluation_for_multimodal_large_language_models.md)**
 
-:   提出 SDEval，首个面向 MLLM 安全性的动态评估框架，通过文本动态（同义替换/多语混合/CoT 注入等）、图像动态（空间/颜色变换/扩散生成）和文本-图像交互动态三类策略，从静态 benchmark 可控生成不同复杂度的新样本，缓解数据泄露并暴露模型安全短板。
+:   提出首个 MLLM 安全动态评估框架 SDEval，通过文本动态（6种策略）、图像动态（2类策略）和跨模态动态（4种策略）从原始安全基准生成可控复杂度的变体样本，在 MLLMGuard 和 VLSBench 上使 InternVL-3-78B 安全率下降近 10%，有效缓解数据泄露并暴露模型安全漏洞。
 
 **[See Symbolize Act Grounding Vlms With Spatial Representations For Better Gamepla](see_symbolize_act_grounding_vlms_with_spatial_representations_for_better_gamepla.md)**
 

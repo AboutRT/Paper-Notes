@@ -1,87 +1,132 @@
 ---
-title: >-
-  [论文解读] FALCON: Resolving Visual Redundancy and Fragmentation in High-resolution Multimodal Large Language Models via Visual Registers
-description: >-
-  [ICCV 2025][多模态][visual registers] 针对高分辨率MLLM中裁切子图导致的视觉编码分裂和token冗余问题，提出可学习的Visual Registers在encoder内部自适应聚合关键信息（ReCompact）并跨子图交互（ReAtten），实现9倍视觉token压缩且性能更优。
-tags:
-  - ICCV 2025
-  - 多模态
-  - visual registers
-  - token compression
-  - MLLM
-  - 高分辨率
-  - 子图分裂
-  - 冗余消除
+description: "FALCON：通过视觉寄存器技术同时解决高分辨率MLLM中的视觉冗余和碎片化问题，实现9倍视觉token压缩并超越多数商用模型。"
+tags: [MLLM, high-resolution, visual-redundancy, visual-register, token-compression, ViT]
 ---
-
 # FALCON: Resolving Visual Redundancy and Fragmentation in High-resolution Multimodal Large Language Models via Visual Registers
 
 **会议**: ICCV 2025  
 **arXiv**: [2501.16297](https://arxiv.org/abs/2501.16297)  
-**代码**: 无（未提及）  
-**领域**: 多模态VLM / 高分辨率理解  
-**关键词**: visual registers, token compression, MLLM, 高分辨率, 子图分裂, 冗余消除  
+**代码**: [有](https://github.com/JiuTian-VL/JiuTian-FALCON)  
+**领域**: Multimodal VLM / High-resolution Understanding  
+**关键词**: 视觉寄存器, Token压缩, 视觉冗余, 视觉碎片化, 高分辨率MLLM
 
 ## 一句话总结
-针对高分辨率MLLM中裁切子图导致的视觉编码分裂和token冗余问题，提出可学习的Visual Registers在encoder内部自适应聚合关键信息（ReCompact）并跨子图交互（ReAtten），实现9倍视觉token压缩且性能更优。
 
-## 背景与动机
-高分辨率MLLM（如LLaVA-NeXT）通常将大图裁切为多个子图分别编码，导致两个问题：(1) **冗余**——每个子图的ViT输出包含大量低信息量的背景token，子图越多token越爆炸；(2) **分裂**——裁切割断了物体的空间连续性（一个物体可能跨2-3个子图），各子图独立编码无法获取全局上下文。现有方法要么用独立的压缩模块后处理（如PruMerge），要么用Qformer重采样（如BLIP-2），但都是视觉编码之后的补救。
+提出 FALCON，通过在 ViT 中引入可学习的视觉寄存器（Visual Register），利用 ReCompact 机制在编码阶段直接消除视觉冗余（9 倍 token 压缩），并用 ReAtten 模块通过寄存器间交互解决裁切导致的视觉碎片化问题。
 
-## 核心问题
-如何在ViT编码器内部就解决高分辨率裁切带来的冗余和分裂问题，而非事后修补？
+## 研究背景与动机
+
+高分辨率 MLLM 普遍采用裁切策略（cropping-based）：将高分辨率图像裁切为多个匹配编码器预训练分辨率的子图，独立编码后拼接。这带来两个核心问题：
+
+1. **视觉冗余**：token 数量随分辨率急剧增长（如 16 个子图 × 576 token = 9216 token），大量来自背景区域的 token 是冗余的，严重增加 LLM 计算负担。现有压缩方法（池化/QFormer/Abstractor）要么效果有限要么需要海量预训练数据。
+
+2. **视觉碎片化**：独立编码子图时破坏了语义连贯性。典型案例："pineapple" 被切成 "pine"+"apple" 导致 OCR 错误；"鲁宾花瓶"被切分后无法识别。
 
 ## 方法详解
 
 ### 整体框架
-FALCON在ViT的每个子图编码中插入一组可学习的Visual Register token（类似DINOv2的register概念但功能不同）。这些register通过两种机制工作：ReCompact在encoder内部聚合重要信息产生少量紧凑输出，ReAtten在编码过程中实现跨子图的register交互。
+
+FALCON 基于 SigLIP-L/16-384px（视觉编码器）+ Llama-3.1-8B-Instruct（LLM），核心创新集中在视觉编码阶段：
+
+1. 形状自适应裁切 → 获得 $N_c$ 个子图 + 全局缩略图
+2. 每个子图的 image token $I_k$ 与共享的可学习视觉寄存器 $R = \{r_1, \ldots, r_M\}$ 拼接后输入 ViT
+3. ViT 每层先执行标准自注意力（ReCompact），再执行跨子图的寄存器交互（ReAtten）
+4. 输出仅保留每个子图的 $M$ 个寄存器特征，经 MLP 投影后送入 LLM
+
+设 $M = 64$（而原始 image token $N = 576$），压缩率为 $576/64 = 9\times$。
 
 ### 关键设计
-1. **ReCompact（Register-based Representation Compacting）**：在ViT的attention层中引入一组learnable register tokens。这些register通过自注意力与图像patch tokens交互，自适应地从大量patch中聚合关键视觉信息。编码完成后，只需取出register tokens的表示作为该子图的输出（丢弃原始patch tokens），实现极大的压缩比。与后处理式压缩不同，信息聚合是在encoder内部逐层完成的——更早、更彻底。
 
-2. **ReAtten（Register Interactive Attention）**：不同子图的register之间可以交互（cross-attend），使得每个子图的register能"看到"其他子图的全局信息。这巧妙地解决了裁切导致的编码分裂——被切成两半的物体，其两个子图的register可以通过交互恢复完整的语义理解。关键在于register数量很少，所以跨子图交互的计算开销极小。
+1. **ReCompact：基于寄存器的表示压缩**
 
-3. **端到端训练**：Register tokens和ReAtten模块与ViT联合训练（或微调），不需要额外的独立压缩模块。最终输出到LLM的视觉token数量等于register数量×子图数，相比原始patch tokens数量实现9倍压缩。
+    做什么：引入 $M \ll N$ 个可学习视觉寄存器，与 image token 一起输入 ViT，通过自注意力让寄存器自适应聚合 image token 中的关键信息，编码完成后仅保留寄存器输出。
+
+    核心思路：ViT 自注意力公式 $\hat{X}_{k,l} = \text{Softmax}(\frac{X_{k,l} X_{k,l}^T}{\sqrt{D_{key}}}) X_{k,l}$，不添加任何注意力掩码，利用预训练 ViT 天然将全局信息汇聚到特定 token 的能力（已有研究观察到这一现象）。
+
+    设计动机：与 QFormer/Abstractor 等查询-交叉注意力方案相比，ReCompact 直接复用预训练 ViT 参数，所需适配数据极少（<3M 样本 vs QFormer 的 129M、Abstractor 的 400M）。
+
+2. **ReAtten：寄存器交互注意力**
+
+    做什么：在 ViT 每层的自注意力之后，收集所有子图的寄存器隐状态 $\hat{X}_l^R \in \mathbb{R}^{M \cdot N_c \times D}$，通过 Cross-ViT-Attention 进行交互：$\bar{X}_l^R = \hat{X}_l^R + \text{Cross-ViT-Atten}(\hat{X}_l^R)$，然后与各自的 image token 重新拼接送入 FFN。
+
+    核心思路：利用寄存器的紧凑性（$M \cdot N_c \ll N \cdot N_c$）使全图信息交换在计算上可行。Cross-ViT-Atten 参数用同层 ViT 自注意力参数初始化，实现平滑启动。
+
+    设计动机：直接拼接所有子图的 image token 做全局注意力的二次复杂度不可承受；Shifted Window Attention 仅限局部交互信息不充分；互补图像金字塔 (CIP) 会引入额外冗余。
 
 ### 损失函数 / 训练策略
-标准的MLLM instruction tuning损失。Register tokens作为learnable参数随ViT微调更新。
+
+**四阶段渐进训练**：
+
+- **Stage 0**（静态对齐，低分辨率）：冻结 ViT 和 LLM，仅训练寄存器和 MLP 投影，使用 image caption 数据
+- **Stage 1**（粗对齐，低分辨率）：解冻所有参数，使用高质量长描述 + 全文 OCR 数据，让寄存器学习从粗到细的信息捕获
+- **Stage 2**（精对齐，高分辨率）：引入高分辨率输入，使用细粒度描述和 OCR 任务（区域描述、文本定位）
+- **Stage 3**（指令微调，高分辨率）：冻结 ViT，引入 ReAtten 模块，使用多任务指令数据微调
 
 ## 实验关键数据
-- 在多个高分辨率benchmark上**9倍token压缩**后性能不降反升
-- 对比LLaVA-NeXT等高分辨率方法在TextVQA、DocVQA、ChartQA等需要细节理解的任务上展现出竞争力或更好的性能
-- 相比PruMerge等后处理压缩方法，FALCON在高压缩比下保持更稳定的性能
-- ReAtten使子图间信息流通，在物体跨越多个子图的场景中尤其有效
 
-### 消融实验要点
-- ReCompact单独贡献最大——在encoder内部压缩比事后压缩质量更高
-- ReAtten在需要跨区域推理的任务上有显著提升（如文档理解、大场景理解）
-- Register数量的选择：少量register就能聚合足够信息，数量增加收益递减
-- 9x压缩比在性能-效率trade-off上最优
+### 主实验（表格）
 
-## 亮点
-- **在encoder内部做压缩**vs后处理压缩，是理念上的创新——让encoder"学会"只输出精华
-- **Register的双重用途**：既做信息聚合（ReCompact），又做跨子图通信（ReAtten），优雅统一
-- **9x压缩比非常实用**：对部署高分辨率MLLM到资源受限设备有直接价值
-- **解决了"分裂"这个被忽视的问题**：裁切子图的独立编码是高分辨率MLLM的固有缺陷，通过register交互巧妙修复
+**MME-RealWorld Benchmark（高分辨率理解）**：
+
+| 模型 | Token 数/子图 | 感知 Avg-C | 推理 Avg-C |
+|------|-------------|-----------|-----------|
+| MiniCPM-V 2.5 | 96×9 | 44.0 | 36.0 |
+| Monkey | 256×4 | 36.3 | 28.8 |
+| GPT-4o | - | 41.9 | 42.3 |
+| Claude 3.5 Sonnet | - | 47.7 | 49.2 |
+| LLaVA-OneVision | 729×9 | 55.8 | 44.2 |
+| **FALCON** | **64×16** | **50.3** | **43.4** |
+
+FALCON 仅用 64 token/子图（9× 压缩），在感知和推理上超越 GPT-4o、GPT-4o-mini 和 Gemini-1.5-pro，在推理上与 LLaVA-OneVision（用 729×9 token）相当。
+
+### 消融实验（表格）
+
+**压缩方法对比（MME-RealWorld Avg-C 总分）**：
+
+| 压缩方法 | Avg-C（感知+推理） |
+|----------|------------------|
+| Pooling | 较低 |
+| Pixel Shuffle | 中等 |
+| Abstractor | 低于池化 |
+| **ReCompact** | **最高** |
+
+**视觉连续性方法对比**：
+
+| 方法 | V*_Avg | MME-RW 感知 | MME-RW 推理 | POPE |
+|------|--------|------------|------------|------|
+| Baseline（无连续性保持） | 51.3 | 38.2 | 35.6 | 85.7 |
+| CIP | 50.3 | 38.4 | 37.2 | 86.3 |
+| W-Atten | 60.2 | 41.0 | 38.1 | 86.4 |
+| **ReAtten** | **61.3** | **42.1** | **39.0** | **87.3** |
+
+ReAtten 在所有指标上最优，且有效减少幻觉（POPE 87.3）。
+
+### 关键发现
+
+- **寄存器数量消融**：从 36→64→144，性能持续提升但边际收益递减；64 寄存器是效率-性能最优平衡点（144 寄存器训练时间 2.41× 但提升有限）
+- **注意力可视化**：每个寄存器聚焦图像的特定区域（人脸/文字等），几乎不关注背景，证实冗余消除的有效性
+- **碎片化可视化**：无 ReAtten 时子图间注意力模式高度碎片化；加入 ReAtten 后注意力模式连续，表明有效实现了全图信息交换
+- **同数据下对比**：使用与 LLaVA-v1.5 完全相同的数据训练时，FALCON 在 SQA (68.9 vs 66.8)、POPE (87.5 vs 85.9)、MMB (66.0 vs 64.3) 等多个基准上均优
+
+## 亮点与洞察
+
+- 核心创新优雅简洁：不需要额外压缩模块，直接在 ViT 内部通过寄存器机制同时解决冗余和碎片化两个问题
+- 数据效率优势显著：与需要上亿样本预训练的 QFormer/Abstractor 相比，仅需 <3M 样本适配
+- 四阶段渐进训练设计合理，确保寄存器从低分辨率到高分辨率平滑过渡
 
 ## 局限性 / 可改进方向
-- 需要对ViT进行微调（非training-free），不能直接即插即用
-- Register数量是超参数，可能需要针对不同任务调优
-- ReAtten增加了一些跨子图的通信开销（虽然因register少而很小）
-- 未与最新的动态分辨率方案（如InternVL的动态裁切）对比
 
-## 与相关工作的对比
-- **vs. LLaVA-PruMerge**：PruMerge在encoder输出后基于CLS注意力剪枝+合并；FALCON在encoder内部用register聚合——更早更彻底
-- **vs. Feather the Throttle**：Feather在LLM内部剪枝视觉token；FALCON在ViT阶段就压缩——两者作用在不同位置，理论上可以叠加
-- **vs. DINOv2 registers**：DINOv2的register主要解决attention map中的artifact问题；FALCON的register被设计为信息聚合器+跨子图通信器
+- 64 寄存器的固定数量可能不适应所有场景——简单图像分配过多、复杂图像分配不足
+- 未探索动态寄存器数量分配（如根据图像复杂度调整）
+- ReAtten 在每层 ViT 都执行，极端子图数量下仍有计算开销
+- 未与最新的动态分辨率方法（如 NaViT）进行对比
 
-## 启发与关联
-- Visual register作为"信息容器"的概念可以迁移到其他需要信息压缩的场景（如视频理解中的temporal register）
-- ReAtten的跨子图通信思路对任何使用tiling/cropping策略的VFM都有参考价值
-- 与Scaling Language-Free Visual Repr论文结合：在大模型encoder中使用register是否能进一步改善scaling behavior
+## 相关工作与启发
+
+- 利用了 ViT 中 register token 汇聚全局信息的已有发现 (Darcet et al., 2024)，将其从单纯的"注意力图伪影修复"扩展为功能性的表示压缩工具
+- 与 TextMonkey 的 Shifted Window Attention 和 MiniMonkey 的 CIP 形成对比，ReAtten 实现了真正的全局交互
+- 启发方向：寄存器技术可推广到视频 MLLM 中的时间冗余消除
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ Visual register用于压缩和跨子图通信的设计新颖，但register token概念本身不新
-- 实验充分度: ⭐⭐⭐⭐ 多个高分辨率benchmark验证，消融详尽
-- 写作质量: ⭐⭐⭐⭐ 问题定义（冗余+分裂）清晰精准
-- 价值: ⭐⭐⭐⭐⭐ 9x压缩对高分辨率MLLM部署有直接实用价值
+
+⭐⭐⭐⭐ 方法简洁有效，9× 压缩率下超越 GPT-4o 级商用模型令人印象深刻，设计动机清晰且有充分消融支撑，是高分辨率 MLLM 的优秀工作。

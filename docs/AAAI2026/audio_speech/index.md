@@ -12,7 +12,7 @@ description: >-
 
 **[A Superpersuasive Autonomous Policy Debating System](a_superpersuasive_autonomous_policy_debating_system.md)**
 
-:   提出 DeepDebater，首个能参与并赢得完整美式政策辩论赛的自主多 Agent 系统——层级式 Agent 工作流分工完成论证构建（正方 Advantage/反方 DA+CP+K），基于 OpenDebateEvidence 300 万张证据卡做检索增强，辅以 GPT-4o TTS 语音合成和 EchoMimic 数字人动画，在专家评估和模拟对局中全面超越人类编写的案例。
+:   提出DeepDebater，首个能参与并赢得完整美式策略辩论赛（八轮发言+交叉质询）的自主多Agent系统，基于层级式Agent工作流分工完成正方（Advantage）/反方（DA+CP+Kritik）论证构建，以OpenDebateEvidence的300万+张证据卡做检索增强，辅以GPT-4o TTS语音合成和EchoMimic数字人动画，在专家评估中各项指标显著超越人类编写案例（Quality 4.32 vs 3.65），模拟对局胜率达85%。
 
 **[Ahamask Reliable Task Specification For Large Audio Language](ahamask_reliable_task_specification_for_large_audio_language.md)**
 
@@ -52,7 +52,7 @@ description: >-
 
 **[Hearing More With Less Multi-Modal Retrieval-And-Selection Augmented Conversatio](hearing_more_with_less_multi-modal_retrieval-and-selection_augmented_conversatio.md)**
 
-:   提出多模态检索与选择方法 MARS，从对话历史中检索并筛选与当前语音最相关的上下文，仅用 1.5K 小时训练数据即超越使用 179K 小时数据的 SOTA 系统。
+:   MARS 提出多模态检索-选择方法为对话式 LLM-ASR 挑选最相关的历史上下文（而非固定前几句或全部历史），在仅用 1.5K 小时训练数据的情况下超越了用 179K 小时数据训练的 SOTA 系统 TEA-ASLP。
 
 **[Hpsu A Benchmark For Human-Level Perception In Real-World Spoken Speech Understa](hpsu_a_benchmark_for_human-level_perception_in_real-world_spoken_speech_understa.md)**
 

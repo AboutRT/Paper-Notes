@@ -16,4 +16,4 @@ description: >-
 
 **[Bimdrg Bridging Image History In Multimodal Dialogue Respons](bimdrg_bridging_image_history_in_multimodal_dialogue_respons.md)**
 
-:   BI-MDRG通过视觉交叉注意力和Citation Module桥接图像历史增强多模态对话。
+:   在多模态对话响应生成（MDRG）中，通过视觉交叉注意力层+注意力掩码调制桥接图像历史到文本回复，通过Citation Module标注跨轮重复物体并结合定制化T2I模型生成一致的图像回复。

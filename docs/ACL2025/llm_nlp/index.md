@@ -1,18 +1,18 @@
 ---
 title: >-
-  ACL2025 LLM/NLP方向 303篇论文解读
+  ACL2025 LLM/NLP方向 302篇论文解读
 description: >-
-  303篇ACL2025 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  302篇ACL2025 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM/NLP
 
-**💬 ACL2025** · 共 **303** 篇
+**💬 ACL2025** · 共 **302** 篇
 
 **[A Large-Scale Real-World Evaluation Of Llm-Based Virtual Teaching Assistant](a_large-scale_real-world_evaluation_of_llm-based_virtual_teaching_assistant.md)**
 
-:   在 KAIST 477 名研究生的 AI 编程课上部署基于 GPT-4o-mini + RAG 的虚拟教学助手（VTA），通过三轮大规模问卷调查和 3,869 条交互日志分析系统性评估 VTA 的有效性与接受度，发现 VTA 在编程和概念问题上有效但信任度随时间下降。
+:   在韩国KAIST一门477人研究生AI编程课中部署基于RAG的LLM虚拟助教(VTA)，通过三轮问卷(472人)和3869条交互日志的纵向分析，发现VTA显著降低了学生提问心理门槛，高频用户的满意度随使用持续提升，但信任度仍低于人类助教。
 
 **[A Modular Dataset To Demonstrate Llm Abstraction Capability](a_modular_dataset_to_demonstrate_llm_abstraction_capability.md)**
 
@@ -28,11 +28,11 @@ description: >-
 
 **[A Survey Of Large Language Models In Psychotherapy Current Landscape And Future ](a_survey_of_large_language_models_in_psychotherapy_current_landscape_and_future_.md)**
 
-:   系统综述 LLM 在心理治疗中的应用——提出评估（Assessment）→ 诊断（Diagnosis）→ 治疗（Treatment）三阶段概念分类法，覆盖症状检测、诊断推理、治疗对话策略等，揭示当前研究失衡（聚焦常见障碍、语言偏差、方法碎片化、理论整合不足），并提出连续多阶段建模和实时自适应系统等未来方向。
+:   首篇以 APA 三阶段（评估→诊断→治疗）概念分类法系统梳理 LLM 心理治疗研究的综述，覆盖 60+ 篇工作，从症状检测到虚拟治疗师四层面全面分析，揭示障碍覆盖、语言偏差、方法碎片化和理论整合的四重失衡。
 
 **[A Survey Of Llm-Based Agents In Medicine How Far Are We From Baymax](a_survey_of_llm-based_agents_in_medicine_how_far_are_we_from_baymax.md)**
 
-:   系统综述 LLM-based Agent 在医学中的应用——分析 Agent 架构（系统配置/临床规划/医学推理/外部能力增强）、应用场景（临床决策/文档/训练模拟/服务优化）和评估框架，覆盖 60 篇研究，识别幻觉管理、多模态整合、部署障碍和伦理问题等关键挑战。
+:   系统综述 LLM-based Agent 在医学中的四层架构（Profile/临床规划/医学推理/外部能力增强）、四大应用场景和评估框架，覆盖 2022-2024 年 60 篇研究，提出四种 Agent 运作范式并识别幻觉管理、多模态整合和伦理等关键挑战。
 
 **[A Survey On Efficient Large Language](a_survey_on_efficient_large_language.md)**
 
@@ -52,15 +52,15 @@ description: >-
 
 **[Adaptive-Vp A Framework For Llm-Based Virtual Patients That Adapts To Trainees D](adaptive-vp_a_framework_for_llm-based_virtual_patients_that_adapts_to_trainees_d.md)**
 
-:   提出 Adaptive-VP——基于 LLM 的虚拟病人对话生成框架，根据护理学员的沟通质量动态调整虚拟病人行为（沟通差→升级敌意，沟通好→缓和），包含案例开发管线+评估模块+动态适应模块+对话生成模块+安全监控模块五个组件，专家护士评估显示其交互自然度和真实感显著优于现有方法。
+:   提出 Adaptive-VP 框架，利用 LLM 构建可根据护理学员沟通质量动态调整行为的虚拟病人（VP），通过多 Agent 评估→动态适应→对话生成→安全监控的四模块管线，在 28 名护理专家的 between-subjects 实验中显著提升了 VP 交互的感知真实感（角色保真度 $\eta_p^2 = 0.151$，对话真实感 $\eta_p^2 = 0.254$）。
 
 **[Afrobench How Good Are Large Language Models On African Languages](afrobench_how_good_are_large_language_models_on_african_languages.md)**
 
-:   构建 AfroBench——首个大规模非洲语言 LLM 多任务评测基准，覆盖 64 种非洲语言、15 个任务、22 个数据集（9 NLU + 6 生成 + 6 知识QA + 1 数学推理），系统对比提示式 LLM 与微调 BERT/T5 基线，发现非洲语言与英语之间存在巨大性能差距，且性能与单语资源可用性密切相关。
+:   提出AfroBench——覆盖64种非洲语言、15个NLP任务、22个数据集的综合评测基准，评估12个LLM发现闭源模型(GPT-4o)领先最佳开源模型(Gemma 2 27B)约12分，但所有LLM仍落后于微调基线，与英语的差距在开源模型上超过40分。
 
 **[Aimscheck Modern Slavery](aimscheck_modern_slavery.md)**
 
-:   提出 AIMSCheck——使用 LLM 辅助审查企业现代奴隶制声明是否合规的端到端框架，构建英国和加拿大的新标注数据集（AIMS.uk/AIMS.ca），三层分解合规评估增强可解释性，在澳大利亚数据上训练的模型能有效跨司法管辖泛化到英国和加拿大。
+:   提出 AIMSCheck——一个端到端的企业现代奴隶制声明合规评估框架，将评估任务分解为句子级多标签分类、token 级 SHAP 解释和证据状态追踪三个层级，同时构建英国和加拿大两个新标注数据集，验证了在澳大利亚数据上微调的模型能有效跨司法管辖区泛化。
 
 **[Algorithmic Fidelity German Opinion](algorithmic_fidelity_german_opinion.md)**
 
@@ -96,15 +96,11 @@ description: >-
 
 **[Autogui Scaling Gui Grounding With Automatic](autogui_scaling_gui_grounding_with_automatic.md)**
 
-:   提出 AutoGUI 自动标注管线——通过模拟交互比较 UI 状态变化 + LLM 推断元素功能 + LLM 验证过滤，构建 704K 高质量 UI 功能标注数据集，标注正确率 96.7% 可比人类，显著提升 VLM 的 UI grounding 能力且展现数据扩展效应。
+:   提出AutoGUI自动标注管线——通过模拟交互比较UI状态变化+LLM推断元素功能+双LLM验证过滤，构建704K高质量UI功能标注数据集，标注正确率96.7%可比人类，显著提升VLM的UI grounding能力且展现数据扩展效应。
 
 **[Automatic Transmission For Llm Tiers Optimizing Cost And Accuracy In Large Langu](automatic_transmission_for_llm_tiers_optimizing_cost_and_accuracy_in_large_langu.md)**
 
-:   提出 LLM-AT（LLM Automatic Transmission）框架——无需训练即可动态选择 LLM 层级，Starter 通过准确率估计器选择初始层级，Generator 生成回答，Judge 评估有效性，无效则自动升级到更高层级，在不同难度任务上平衡准确率和成本，比始终用顶级模型更高效。
-
-**[Awes Laws And Flaws From Todays Llm Research](awes_laws_and_flaws_from_todays_llm_research.md)**
-
-:   对 2020-2024 年 2000+ 篇 LLM 相关论文进行科学方法论的系统批判——基于统计检验/可复现性/伦理声明等标准评估研究质量，发现多种趋势：伦理声明减少、LLM 作为评估器增多、无人工评估的推理能力声称增多、统计严谨性下降，但会议检查清单（如 ACL 强制 limitations 章节）确实有效缓解部分问题。
+:   提出 LLM-AT 框架，通过 Starter（基于历史推理记录的准确率估计器选择初始 LLM 层级）→ Generator（生成回答）→ Judge（评估有效性，无效则自动升级到更高层级）的无训练迭代流程，在 MATH 上以 o1 单次推理 59.37% 的成本达到接近的准确率，在 MCQA 上以 o1 成本的 12% 实现近似性能。
 
 **[Axis Efficient Human-Agent-Computer Interaction With Api-First Llm-Based Agents](axis_efficient_human-agent-computer_interaction_with_api-first_llm-based_agents.md)**
 
@@ -112,7 +108,7 @@ description: >-
 
 **[Bandit-Based Prompt Design Strategy Selection Improves Prompt Optimizers](bandit-based_prompt_design_strategy_selection_improves_prompt_optimizers.md)**
 
-:   首次提出 Prompt 设计策略的显式选择机制 OPTS——将 CoT/角色提示/少样本等多种策略视为多臂老虎机的"臂"，用 Thompson 采样动态选择要应用的策略，集成到 EvoPrompt 后在 BIG-Bench Hard 上将 GPT-4o mini 性能提升最高 50%，超越隐式策略选择（APET）和均匀采样。
+:   首次提出 prompt 设计策略的显式选择机制 OPTS，将 11 种策略（CoT、角色提示、情感提示等）建模为多臂老虎机的臂，用 Thompson 采样自动选择最合适的策略并集成到 EvoPrompt 优化器中，在 BIG-Bench Hard 的 23 个任务上用 GPT-4o mini 实现最高 50% 的性能提升。
 
 **[Bco Binary Classifier Alignment](bco_binary_classifier_alignment.md)**
 
@@ -284,7 +280,7 @@ description: >-
 
 **[Cosmic Generalized Refusal Direction Identification In Llm Activations](cosmic_generalized_refusal_direction_identification_in_llm_activations.md)**
 
-:   提出 COSMIC（Cosine Similarity Metrics for Inversion of Concepts），一种基于余弦相似度的自动化方向选择框架，无需依赖模型输出 token 或预定义的拒绝模板即可在 LLM 激活空间中识别拒绝方向，在对抗场景和弱对齐模型中仍能有效执行拒绝引导。
+:   提出 COSMIC 框架，利用余弦相似度在激活空间中自动选择拒绝引导方向，完全不依赖模型输出 token 或预定义拒绝模板，在标准设置下匹配已有方法性能，并首次在对抗性完全拒绝和弱对齐模型中成功提取有效的拒绝方向。
 
 **[Cot-Based Synthesizer Enhancing Llm Performance Through Answer Synthesis](cot-based_synthesizer_enhancing_llm_performance_through_answer_synthesis.md)**
 
@@ -354,33 +350,33 @@ description: >-
 
 :   提出 DoAug 框架，通过 SFT+DPO 微调 LLM 释义器并结合核心集选择与多样性采样，在保持语义一致性的同时显著提升增强数据集的多样性，在 12 个数据集上平均性能提升 10.52%，超出次优基线 3.76 个百分点。
 
-**[Do Language Models Mirror Human Confidence?](do_language_models_mirror_human_confidence_exploring_psychological_insights_to_a.md)**
+**[Do Language Models Mirror Human Confidence Exploring Psychological Insights To A](do_language_models_mirror_human_confidence_exploring_psychological_insights_to_a.md)**
 
-:   探索 LLM 的置信度是否呈现与人类类似的心理学模式（如过度自信效应、达克效应），在 MMLU 等基准上发现 LLM 确实存在类人的过度自信偏差，但在某些维度上也有独特模式。
+:   从心理学过度自信理论出发，揭示 LLM 的置信度估计对任务难度不敏感且会受角色扮演偏见影响（如专家角色过度自信、女性/亚裔角色低自信但实际准确率不变），提出 Answer-Free Confidence Estimation（AFCE）方法将信心估计与答案生成解耦，在高难度任务上将 GPT-4o 的 ECE 降低 58.4%。
 
-**[Do Language Models Understand Honorific Systems in Javanese?](do_language_models_understand_honorific_systems_in_javanese.md)**
+**[Do Language Models Understand Honorific Systems In Javanese](do_language_models_understand_honorific_systems_in_javanese.md)**
 
-:   首次系统评估 LLM 对爪哇语敬语系统的理解能力，构建专门测试集发现即使是最强模型对复杂敬语层级的掌握也仅约 60% 准确率。
+:   构建首个爪哇语敬语语料库 Unggah-Ungguh（4,024 句，覆盖四个敬语层级），通过分类/风格转换/跨语言翻译/对话生成四个任务系统评估 LLM 对爪哇语敬语系统的理解能力，发现即使最强闭源模型（GPT-4o）的零样本分类准确率也仅 53.5%，且普遍偏向特定敬语层级。
 
-**[Do Language Models Understand the Cognitive Tasks Given to Them?](do_language_models_understand_the_cognitive_tasks_given_to_them_investigations_w.md)**
+**[Do Language Models Understand The Cognitive Tasks Given To Them Investigations W](do_language_models_understand_the_cognitive_tasks_given_to_them_investigations_w.md)**
 
-:   用 N-back 任务系统分析 LLM 认知任务理解能力，发现性能低下的主因是任务理解不足而非工作记忆限制，挑战了 LLM 工作记忆容量约 3 的结论。
+:   通过 N-back 范式系统分析多个 LLM 的认知任务表现，发现性能低下的主因是任务理解不足和任务集维持失败，而非工作记忆容量限制，最佳模型（Llama 3.1 70b）在课程学习辅助下甚至能完成 10-back 任务（准确率 84.75%）。
 
 **[Do Large Language Models Perform Latent Multi-Hop Reasoning Without Exploiting S](do_large_language_models_perform_latent_multi-hop_reasoning_without_exploiting_s.md)**
 
 :   构建无快捷方式的评估数据集 SOCRATES，系统评估 41 个 LLM 在潜在多跳推理中的真实能力，发现模型在国家类桥接实体上可达 80% 组合率，但年份类仅约 5%。
 
-**[Do LLMs Give Psychometrically Plausible Responses in Educational Assessments?](do_llms_give_psychometrically_plausible_responses_in_educational_assessments.md)**
+**[Do Llms Give Psychometrically Plausible Responses In Educational Assessments](do_llms_give_psychometrically_plausible_responses_in_educational_assessments.md)**
 
-:   从心理测量学角度评估 18 个 LLM 在教育评估中的表现，发现大模型过度自信且无法预测干扰项选择模式。
+:   从心理测量学（经典测试理论 CTT 和项目反应理论 IRT）的角度评估 18 个指令微调 LLM 在教育评估中的"类人性"，发现即使经过温度缩放校准，LLM 的响应分布与人类仍有本质差异——大模型过度自信，且无法预测人类被干扰项吸引的模式，零样本 LLM 不适合替代人类进行测试预试验。
 
 **[Does Time Have Its Place Temporal Heads Where Language Models Recall Time-Specif](does_time_have_its_place_temporal_heads_where_language_models_recall_time-specif.md)**
 
 :   通过 EAP-IG 电路分析在 Llama-2/Qwen/Phi-3 中发现了专门处理时间条件知识的"时间头"（Temporal Heads），消融这些头只降低时间知识准确率（降 3-9%）而不影响时间无关知识和通用 QA，并展示了通过注入时间头激活值实现选择性时间知识编辑的可能性。
 
-**[Dynamic Knowledge Integration for Evidence-Driven Counter-Argument Generation](dynamic_knowledge_integration_for_evidence-driven_counter-argument_generation_wi.md)**
+**[Dynamic Knowledge Integration For Evidence-Driven Counter-Argument Generation Wi](dynamic_knowledge_integration_for_evidence-driven_counter-argument_generation_wi.md)**
 
-:   提出动态网络知识检索框架提升反驳论证生成质量，构建新评估数据集并用 LLM-as-Judge 进行评估。
+:   提出动态网络知识检索框架来增强 LLM 的反驳论证生成质量，构建了长度适中的新评估数据集（150对），并用 LLM-as-a-Judge 评估方法取代传统参考度量，实验证明外部知识集成显著提升了生成质量的相关性、说服力和事实性。
 
 **[Dynamic Parallel Tree Search For Efficient Llm Reasoning](dynamic_parallel_tree_search_for_efficient_llm_reasoning.md)**
 
@@ -412,9 +408,9 @@ description: >-
 
 :   提出将手势动作序列（3D 人体运动数据）通过 VQ-VAE 编码为离散 gesture token，再经特征对齐映射到语言模型输入空间，用于增强口语篇章建模；在三类篇章标记（话语连接词、量词、立场标记）的文本填充任务上验证了手势信息对口语篇章理解的互补价值。
 
-**[Enhancing Transformation from Natural Language to Signal Temporal Logic using LLMs](enhancing_transformation_from_natural_language_to_signal_temporal_logic_using_ll.md)**
+**[Enhancing Transformation From Natural Language To Signal Temporal Logic Using Ll](enhancing_transformation_from_natural_language_to_signal_temporal_logic_using_ll.md)**
 
-:   用 LLM 改进自然语言到信号时序逻辑（STL）的转换，提出两阶段方法（语义解析+逻辑生成）。
+:   提出 STL-DivEn 数据集（16K样本）和 KGST（知识引导的 STL 转换）框架，通过"生成-精炼"两阶段流程将自然语言转换为信号时序逻辑（STL），在 STL Formula Accuracy 上达到 0.5587，显著超过 GPT-4（0.4733）和 DeepSeek（0.4790）。
 
 **[Episodic Grounding Experience](episodic_grounding_experience.md)**
 
@@ -428,9 +424,9 @@ description: >-
 
 :   提出EscapeBench密室逃脱游戏基准（36个场景、3种难度）评估LM agent的创造性智能，并设计EscapeAgent通过Foresight（工具使用假设生成）和Reflection（未解任务追踪）模块将提示依赖降低约50%，但仍远落后于人类。
 
-**[Evaluating Implicit Bias in LLMs by Attacking from a Psychometric Perspective](evaluating_implicit_bias_in_large_language_models_by_attacking_from_a_psychometr.md)**
+**[Evaluating Implicit Bias In Large Language Models By Attacking From A Psychometr](evaluating_implicit_bias_in_large_language_models_by_attacking_from_a_psychometr.md)**
 
-:   借鉴心理测量学中的隐式联想测验（IAT）方法评估 LLM 的隐式偏见，发现模型存在系统性偏见且与人类偏见模式部分相似。
+:   借鉴认知与社会心理学中的三种心理测量学原理（目标转移、认知协调、模仿学习），设计 Disguise/Deception/Teaching 三类攻击方法来诱发 LLM 的隐式偏见，构建了双语基准 BUMBLE（12.7K 条目覆盖 9 类偏见），揭示所有主流 LLM 均存在可被激发的系统性隐式偏见。
 
 **[Evaluating Lms Synthetic Data Gen](evaluating_lms_synthetic_data_gen.md)**
 
@@ -440,9 +436,9 @@ description: >-
 
 :   EvoPatient 提出了一个多智能体协同进化框架，通过患者 Agent 和医生 Agent 之间的自主模拟对话，让 LLM 无需人工监督即可学会模拟标准化病人（SP），在需求对齐度上超过现有推理方法 10%+。
 
-**[Explain-then-Process: Using Grammar Prompting to Enhance Grammatical Acceptability](explain-then-process_using_grammar_prompting_to_enhance_grammatical_acceptabilit.md)**
+**[Explain-Then-Process Using Grammar Prompting To Enhance Grammatical Acceptabilit](explain-then-process_using_grammar_prompting_to_enhance_grammatical_acceptabilit.md)**
 
-:   提出先解释语法规则再判断可接受性的 Explain-then-Process 策略，在语法可接受性判断任务上超越直接 prompting 和 CoT。
+:   提出 grammar prompting 的 explain-then-process 范式——先让 LLM 生成目标语法现象的解释，再将该解释作为上下文反馈给目标模型（LLM 或 SLM）辅助最小对语法判断。在英语 BLiMP、中文 SLING、俄语 RuBLiMP 三个跨语言基准上显著提升准确率，SLM 搭配 GP+CoT 将 LLM-SLM 平均差距从 13.0pp 缩小到 5.8pp（缩小 56%）。
 
 **[Explica Evaluating Explicit Causal Reasoning In Large Language Models](explica_evaluating_explicit_causal_reasoning_in_large_language_models.md)**
 
@@ -458,7 +454,7 @@ description: >-
 
 **[Exploring The Potential Of Llms As](exploring_the_potential_of_llms_as.md)**
 
-:   提出 HiCUPID，首个全面满足个性化 AI 助手五大需求（用户信息遵循、隐含信息理解、多信息推理、长上下文建模、主动性回复）的基准，含 1,250 用户 × 25 人格 × 10 日程 + Llama-3.2 自动评估模型。
+:   提出HiCUPID——首个全面满足个性化AI助手五大需求（用户信息遵循/隐含信息理解/多信息推理/长上下文建模/主动性回复）的开源基准，含1500用户×40个对话+QA对+Llama-3.2自动评估模型。
 
 **[Foodtaxo Generating Food Taxonomies With Large Language Models](foodtaxo_generating_food_taxonomies_with_large_language_models.md)**
 
@@ -500,9 +496,9 @@ description: >-
 
 :   提出 Genetic-Instruct 算法，借鉴进化算法的交叉和变异操作，从 512 个种子指令扩展生成 750 万+高质量编码指令，使用 Instructor-LLM/Coder-LLM/Judge-LLM 三角色流水线，训练后的模型在代码生成基准上超越 Self-Instruct 和 Evol-Instruct。
 
-**[GenKnowSub: Improving Modularity and Reusability of LLMs through General Knowledge Substitution](genknowsub_improving_modularity_and_reusability_of_llms_through_general_knowledg.md)**
+**[Genknowsub Improving Modularity And Reusability Of Llms Through General Knowledg](genknowsub_improving_modularity_and_reusability_of_llms_through_general_knowledg.md)**
 
-:   提出 GenKnowSub 框架通过通用知识替换改善 LLM 的模块化和可重用性，实现知识组件的即插即用。
+:   提出 GenKnowSub（通用知识减法），通过在 Wikipedia 语料上训练通用知识 LoRA 并从任务特定 LoRA 中减去它（$LoRA_{res}^i = LoRA_{ts}^i - LoRA_g$），得到更纯净的残差模块；结合 Arrow 路由算法动态选择最相关的模块，在 Phi-3 上零样本迁移平均准确率提升 1.6%，跨语言场景提升更大（德语+3.9%，法语+3.6%）。
 
 **[Geocultural Grounded Llm](geocultural_grounded_llm.md)**
 
@@ -522,7 +518,7 @@ description: >-
 
 **[Good Natural Language Prompt](good_natural_language_prompt.md)**
 
-:   通过元分析150+篇prompting相关论文和博客，提出一个以属性为中心、以人为中心的prompt质量评估框架，涵盖6个维度21个属性，并发现单属性增强往往比多属性组合更有效。
+:   通过元分析150+篇prompting文献和博客，提出以属性为中心、以人为中心的prompt质量评估框架（6个维度21个属性），实验发现单属性增强往往比多属性组合更有效，且不同属性在不同任务/模型上效果差异大。
 
 **[Gorp Continual Gradient Projection](gorp_continual_gradient_projection.md)**
 
@@ -560,9 +556,9 @@ description: >-
 
 :   提出 RULEARN benchmark（300 个手工交互式文字环境谜题，涵盖三类场景）和 IDEA 框架（溯因假设生成→演绎计划验证→归纳反馈修正的迭代循环），在 GPT-4o 上达到 50.33% 成功率（+7% vs ReAct baseline），但仍远低于人类 63.33%，细粒度人类评估揭示了 LLM 在假设修正阶段的根本瓶颈。
 
-**[If Eleanor Rigby Had Met ChatGPT: A Study on Loneliness in a Post-LLM World](if_eleanor_rigby_had_met_chatgpt_a_study_on_loneliness_in_a_post-llm_world.md)**
+**[If Eleanor Rigby Had Met Chatgpt A Study On Loneliness In A Post-Llm World](if_eleanor_rigby_had_met_chatgpt_a_study_on_loneliness_in_a_post-llm_world.md)**
 
-:   研究 LLM 聊天伴侣对孤独感的影响，发现 ChatGPT 交互可短期缓解孤独但长期效果有限，且可能减少人际互动动力。
+:   对 79,951 条 ChatGPT 对话（WildChat 数据集）进行定性和定量分析，研究孤独用户如何使用 LLM 服务，发现孤独用户对话更长（12 vs 5 轮）且 37% 在寻求建议/倾听，但 ChatGPT 在自杀意念等严重场景中回应不当，且孤独对话的有毒内容高达 55%（主语料 20%），其中女性被攻击概率是男性的 22 倍。
 
 **[Impossibility Fair Llms](impossibility_fair_llms.md)**
 
@@ -596,9 +592,9 @@ description: >-
 
 :   本文提出REPL-Plan，通过让LLM与扩展的REPL（Read-Eval-Print Loop）交互，实现既能充分利用代码表达力又能动态纠错和处理模糊子问题的自顶向下规划方法，在ALFWorld、WebShop和真实网页导航任务中取得强劲表现。
 
-**[Internal and External Impacts of Natural Language Processing Papers](internal_and_external_impacts_of_natural_language_processing_papers.md)**
+**[Internal And External Impacts Of Natural Language Processing Papers](internal_and_external_impacts_of_natural_language_processing_papers.md)**
 
-:   从内部（NLP 社区）和外部（其他领域）两个维度衡量 NLP 论文影响力，构建影响力预测模型。
+:   从内部（学术引用）和外部（专利、媒体、政策文档）两个维度系统分析 1979-2024 年 ACL/EMNLP/NAACL 论文的影响力，发现语言建模主题影响力最广，伦理公平主题在政策文档中影响力突出但学术引用较低，且多维外部影响力可高效预测内部高被引论文。
 
 **[Investigating Context-Faithfulness In Large Language Models The Roles Of Memory ](investigating_context-faithfulness_in_large_language_models_the_roles_of_memory_.md)**
 
@@ -608,25 +604,25 @@ description: >-
 
 :   提出隐式偏好优化（IPO），利用生成式LLM自身作为偏好分类器（通过"Yes/No"token的概率），替代外部奖励模型来获取偏好信号，从而实现低成本的自对齐训练。
 
-**[Is It Just Semantics? A Case Study of Discourse Particle Understanding in LLMs](is_it_just_semantics_a_case_study_of_discourse_particle_understanding_in_llms.md)**
+**[Is It Just Semantics A Case Study Of Discourse Particle Understanding In Llms](is_it_just_semantics_a_case_study_of_discourse_particle_understanding_in_llms.md)**
 
-:   以德语语气词为案例研究 LLM 的语用理解能力，发现模型对语义细微差异（如 'doch''halt''ja'）的掌握远不如语法和词汇。
+:   以英语多义语气词 "just" 为案例，通过专家构造数据集和电影字幕标注数据，用两种元语言实验（few-shot 语义标注和成对比较）系统评估 LLM 对语气词细粒度语义的理解能力，发现模型能区分大类（形容词、时间义）但无法充分捕捉语气词的微妙语义差异（排他、轻描淡写、无因、强调义）。
 
 **[Jopa Explaining Large Language Models Generation Via Joint Prompt Attribution](jopa_explaining_large_language_models_generation_via_joint_prompt_attribution.md)**
 
 :   提出 JoPA（Joint Prompt Attribution）框架，将 LLM 生成任务的 prompt 归因建模为组合优化问题，用概率搜索算法高效寻找对输出有因果影响的输入 token 组合，解决了现有方法忽略 token 间协同效应的问题。
 
-**[Just a Scratch: Enhancing LLM Capabilities for Self-Harm Detection through Intent Refinement](just_a_scratch_enhancing_llm_capabilities_for_self-harm_detection_through_intent.md)**
+**[Just A Scratch Enhancing Llm Capabilities For Self-Harm Detection Through Intent](just_a_scratch_enhancing_llm_capabilities_for_self-harm_detection_through_intent.md)**
 
-:   通过意图精炼增强 LLM 自伤检测能力，将帖子按意图分类（求助/记录/警示等）再进行风险评估，准确率显著提升。
+:   提出 SHINES 数据集和 CESM-100 表情符号矩阵，通过区分社交媒体帖子中自伤表达的"随意提及"和"严重意图"，结合表情符号语境解读和多任务微调，将 LLM 自伤检测 F1 从 0.74（zero-shot）提升至 0.88（多任务+CESM-100），同时生成可解释的预测理由。
 
 **[Kazmmlu Evaluating Language Models On Kazakh Russian And Regional Knowledge Of K](kazmmlu_evaluating_language_models_on_kazakh_russian_and_regional_knowledge_of_k.md)**
 
 :   提出 KazMMLU，首个专为哈萨克斯坦设计的 MMLU 风格双语（哈萨克语+俄语）评估基准，包含 23,000 道来自真实教育材料的多选题，覆盖 STEM、人文、社会科学等多学科多教育层次，评估了 27 个多语言 LLM，揭示了当前模型在哈萨克语上的显著不足。
 
-**[Knockout: LLM Assessment Using Large Language Models for Evaluations through Iterative Elimination](knockout_llm_assessment_using_large_language_models_for_evaluations_through_iter.md)**
+**[Knockout Llm Assessment Using Large Language Models For Evaluations Through Iter](knockout_llm_assessment_using_large_language_models_for_evaluations_through_iter.md)**
 
-:   提出 Knockout 淘汰赛式 LLM 评估方法，通过迭代配对比较逐步淘汰弱模型，比全配对比较效率高 O(n log n) vs O(n^2)。
+:   提出 Knockout Assessment——基于淘汰赛制的迭代成对比较 LLM-as-a-Judge 方法，通过多轮锦标赛让回答之间反复对比以建立全局排名视角，在科学考试评分和机器翻译评估上比个体评估方法平均提升 0.07 Pearson 相关系数。
 
 **[Knowledge Boundary Crosslingual](knowledge_boundary_crosslingual.md)**
 
@@ -634,7 +630,7 @@ description: >-
 
 **[Knowledge Boundary Survey](knowledge_boundary_survey.md)**
 
-:   本文提出了 LLM 知识边界的形式化定义框架，将知识分为四种类型（PAK/PSK/MSU/MAU），并围绕"为什么研究知识边界""如何识别知识边界""如何缓解知识边界问题"三个核心问题系统综述了相关研究。
+:   提出LLM知识边界的形式化定义框架——三层嵌套边界（Outward⊂Parametric⊂Universal）和四类知识分类（PAK/PSK/MSU/MAU），围绕"为何/如何识别/如何缓解"三个问题系统综述相关研究。
 
 **[Language Codec Bridging Discrete Codec Speech Language Models](language_codec_bridging_discrete_codec_speech_language_models.md)**
 
@@ -658,7 +654,7 @@ description: >-
 
 **[Lazyreview Peer Review](lazyreview_peer_review.md)**
 
-:   构建首个标注"懒惰思维"细粒度类别的同行评审数据集 LazyReview——发现 LLM 在零样本下难以检测评审中的懒惰思维启发式，但在 LazyReview 上指令微调后性能提升 10-20 个点，且经懒惰思维反馈修改的评审显著更全面和可操作。
+:   构建了首个包含 500 条专家标注 + 1276 条银标注的 NLP 同行评审"懒惰思维"细粒度分类数据集 LazyReview，通过三轮迭代标注协议和正例增强将标注一致性翻倍，并证明在该数据集上指令微调 LLM 可将检测性能提升 10-20 个百分点，最终的控制实验表明懒惰思维反馈能显著改善评审质量。
 
 **[Length Controlled Generation For Black-Box Llms](length_controlled_generation_for_black-box_llms.md)**
 
@@ -718,7 +714,7 @@ description: >-
 
 **[Llms Can Be Easily Confused By Instructional Distractions](llms_can_be_easily_confused_by_instructional_distractions.md)**
 
-:   本文提出了 DIM-Bench 基准，系统评估了当输入文本本身就像指令时 LLM 的指令跟随能力，发现即使是 GPT-4o 等最先进的模型也极易受到这种"指令干扰"的影响而偏离用户真实意图。
+:   本文发现 LLM 在处理"输入本身也像指令"的场景时会被严重误导（指令干扰），提出 DIM-Bench 基准系统评估该问题，实验证明包括 GPT-4o 在内的主流 LLM 均显著受影响，且现有提示策略无法根本解决。
 
 **[Llms Know Their Vulnerabilities Uncover Safety Gaps Through Natural Distribution](llms_know_their_vulnerabilities_uncover_safety_gaps_through_natural_distribution.md)**
 
@@ -782,7 +778,7 @@ description: >-
 
 **[Mexgen Multi Level Explanations](mexgen_multi_level_explanations.md)**
 
-:   提出 MExGen（Multi-Level Explanations for Generative Language Models），将 LIME/SHAP 等扰动式归因方法扩展到 LLM 的上下文生成任务上——为摘要/问答等任务中 LLM 输出的每个部分量化上下文各段落的影响程度，比 LLM 自解释更忠实。
+:   提出MExGen框架，通过scalarizer将生成模型的文本输出映射为实数值、多粒度语言分割和线性复杂度归因算法（C-LIME/L-SHAP），为上下文驱动的文本生成（摘要、QA）提供比PartitionSHAP和LLM自解释更忠实的输入归因解释。
 
 **[Mha2Mla Deepseek Latent Attention](mha2mla_deepseek_latent_attention.md)**
 
@@ -818,7 +814,7 @@ description: >-
 
 **[Multiple Choice Eval](multiple_choice_eval.md)**
 
-:   系统性论证了 MCQA（多选题问答）作为 LLM 评测标准格式的三大缺陷——格式本身的局限性、数据集构建质量问题、以及 LLM 在 MCQA 上的特有错误——并从教育测试学中引入改进方案。
+:   系统论证 MCQA 作为 LLM 标准评估格式存在三大类问题：(1) 格式缺陷——无法测试生成/主观性、不匹配 LLM 真实使用场景、不能充分测试知识深度；(2) 数据集缺陷——泄露、不可回答、捷径和饱和；(3) 模型行为问题——鲁棒性差、选项偏置和不忠实解释。借鉴教育测试学提出 Constructed Response、Explanation MCQA、IRT 分析等系统化修复方案。
 
 **[Natural Language Processing In Support Of Evidence-Based Medicine A Scoping Revi](natural_language_processing_in_support_of_evidence-based_medicine_a_scoping_revi.md)**
 
@@ -852,9 +848,9 @@ description: >-
 
 :   本文系统研究了LLM时代下恶意社交文本检测中的"证据污染"风险，提出13种污染方法和3种防御策略，发现LLM生成的虚假证据可导致检测器性能下降高达14.4%，且现有防御策略面临实际部署挑战。
 
-**[Open-Set Living Need Prediction with Large Language Models](open-set_living_need_prediction_with_large_language_models.md)**
+**[Open-Set Living Need Prediction With Large Language Models](open-set_living_need_prediction_with_large_language_models.md)**
 
-:   提出开放集生活需求预测任务，利用 LLM 从用户描述中预测生活需求，不限于预定义类别，应用于养老服务、社区管理等场景。
+:   提出 PIGEON 系统，将生活服务平台上的用户需求预测从封闭集分类重新定义为开放集生成问题，通过 GNN 行为嵌入检索历史记录辅助 LLM 预测、马斯洛需求层次引导精化、以及微调文本嵌入模型实现灵活需求到服务的召回，在美团真实数据上平均提升 19.37%。
 
 **[Opencoder The Open Cookbook For Top-Tier Code Large Language Models](opencoder_the_open_cookbook_for_top-tier_code_large_language_models.md)**
 
@@ -898,7 +894,7 @@ description: >-
 
 **[Pragmatics Survey](pragmatics_survey.md)**
 
-:   全面梳理用于评估 NLP 系统语用能力的资源——按语用现象（隐含义、指称、言语行为、会话含义、预设等）分类数据集，分析任务设计、数据收集方法和评估方式，揭示了现代 LLM 在处理语境相关语言使用上的趋势、挑战和空白。
+:   系统综述 58 篇文献中评估 NLP 模型语用能力的资源，按语用现象（上下文/指示语、隐含义/预设、言语行为、话语连贯、社会语用）分类，梳理任务设计（MCQ/QA/NLI/参照游戏等）和数据构建方法（自底向上/自顶向下），揭示当前评估的核心差距（英语中心偏置、单模态局限、细粒度评估不足），为 LLM 时代的语用评估提供路线图。
 
 **[Praise Enhancing Product Descriptions With Llm-Driven Structured Insights](praise_enhancing_product_descriptions_with_llm-driven_structured_insights.md)**
 
@@ -1106,7 +1102,7 @@ description: >-
 
 **[Theory Of Llm Sampling](theory_of_llm_sampling.md)**
 
-:   本文从认知科学视角揭示了LLM的采样启发式机制与人类决策类似：采样不仅反映概念的统计规范（描述性成分），还系统性地偏向隐含的理想值（规范性成分），这种偏移在500个概念、15个模型上均显著，并可能导致医疗等应用中的有偏决策。
+:   提出并验证了LLM的响应采样理论——采样过程同时受描述性成分(统计规范)和规范性成分(隐式理想值)双重驱动，导致样本系统性地偏离统计平均值向理想值方向偏移，这种偏差在15个模型、500个概念上具有统计显著性，且模型越大偏差越强。
 
 **[Theory Of Mind Llm](theory_of_mind_llm.md)**
 
@@ -1122,7 +1118,7 @@ description: >-
 
 **[Token Granularity Impact](token_granularity_impact.md)**
 
-:   本文系统研究了子词 token 粒度（词表大小 256~128K）对语言模型 surprisal 预测人类阅读时间能力的影响，发现约 8K 词表大小的中等粒度 token 在自然阅读时间预测上最优，而更粗粒度（更接近词级）的 token 在花园路径句法效应上表现更敏感。
+:   系统研究子词 token 粒度（词表大小 256~128K）对 LM surprisal 预测人类阅读时间能力的影响，发现 ~8K 词表的中等粒度在自然阅读时间预测上最优（甚至优于 GPT-2），而粗粒度 token 在花园路径句法效应上更敏感，揭示认知建模的最优分词粒度并非 NLP 通用标准。
 
 **[Token Prepending Training Free](token_prepending_training_free.md)**
 

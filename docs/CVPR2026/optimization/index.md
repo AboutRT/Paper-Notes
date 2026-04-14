@@ -28,7 +28,7 @@ description: >-
 
 **[Scope Semantic Coreset With Orthogonal Projection](scope_semantic_coreset_with_orthogonal_projection.md)**
 
-:   提出SCOPE——一个无需训练的联邦coreset选择框架，利用冻结VLM(MobileCLIP)的正交投影嵌入计算三个标量语义指标(表示性/多样性/边界接近度)，实现全局感知的两阶段剪枝，在CIFAR-10/Tiny-ImageNet/UHCS上通信带宽降128-512倍的同时超越全数据训练。
+:   提出SCOPE——无需训练的联邦coreset选择框架，利用冻结VLM(MobileCLIP-S2)的正交投影嵌入计算三个标量语义指标(表示性/多样性/边界接近度)，实现全局感知的两阶段剪枝，通信带宽降128-512倍同时超越全数据训练。
 
 **[Scope Semantic Coreset With Orthogonal Projection Embeddings For Federated Learn](scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md)**
 

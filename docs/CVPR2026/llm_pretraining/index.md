@@ -1,22 +1,18 @@
 ---
 title: >-
-  CVPR2026 预训练/数据方向 8篇论文解读
+  CVPR2026 预训练/数据方向 7篇论文解读
 description: >-
-  8篇CVPR2026 预训练/数据方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  7篇CVPR2026 预训练/数据方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**📷 CVPR2026** · 共 **8** 篇
+**📷 CVPR2026** · 共 **7** 篇
 
 **[Defending Unauthorized Model Merging Via Dual-Stage Weight Protection](defending_unauthorized_model_merging_via_dual-stage_weight_protection.md)**
 
 :   提出 MergeGuard，一种主动式双阶段权重保护框架：Stage 1通过L2正则化分散任务关键权重，Stage 2注入结构化扰动破坏合并兼容性，在保持保护模型<1.5%性能损失的同时使合并模型精度下降高达90%。
-
-**[Evatok Adaptive Length Video Tokenization For Eff](evatok_adaptive_length_video_tokenization_for_eff.md)**
-
-:   提出EVATok框架——通过最优token分配估计+轻量路由器+自适应tokenizer训练的三步流程，让视频tokenizer按片段复杂度自适应分配token长度，在UCF-101上节省24.4%+ token同时达到SOTA生成质量。
 
 **[Flowmotion Training-Free Flow Guidance For Video Motion Transfer](flowmotion_training-free_flow_guidance_for_video_motion_transfer.md)**
 

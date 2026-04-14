@@ -20,7 +20,7 @@ description: >-
 
 **[Hygen Efficient Llm Serving Via Elastic Online-Offline Request Co-Location](hygen_efficient_llm_serving_via_elastic_online-offline_request_co-location.md)**
 
-:   HyGen是干扰感知LLM推理系统，通过延迟预测和虚拟队列调度实现在线离线工作负载的弹性共置，保证SLO同时获得3.87-5.84倍吞吐改进。
+:   提出HyGen——干扰感知的LLM推理系统，通过精准的批次延迟预测器、SLO感知的性能分析器和前缀共享最大化调度策略，实现在线和离线工作负载的弹性共置，在保证严格SLO合规的同时获得3.87-5.84倍吞吐提升。
 
 **[Metamind Modeling Human Social Thoughts With Metacognitive Multi-Agent Systems](metamind_modeling_human_social_thoughts_with_metacognitive_multi-agent_systems.md)**
 

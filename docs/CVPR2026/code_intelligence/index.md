@@ -12,7 +12,7 @@ description: >-
 
 **[Codepercept Code-Grounded Visual Stem Perception For Mllms](codepercept_code-grounded_visual_stem_perception_for_mllms.md)**
 
-:   通过系统性缩放分析发现 **感知(perception)而非推理(reasoning)** 是MLLM在STEM领域的真正瓶颈，提出以可执行Python代码为锚定媒介的CodePercept范式，构建百万级ICC-1M数据集和STEM2Code-Eval基准，显著提升MLLM的STEM视觉感知能力。
+:   通过系统性缩放分析发现感知（perception）而非推理（reasoning）是 MLLM 在 STEM 领域的真正瓶颈，提出以可执行 Python 代码为锚定媒介的 CodePercept 范式——构建 100 万级 ICC-1M 数据集和 STEM2Code-Eval 基准，在 SFT+RL 两阶段训练后显著提升 MLLM 的 STEM 视觉感知和下游推理能力。
 
 **[Codepercept Codegrounded Visual Stem Perception Fo](codepercept_codegrounded_visual_stem_perception_fo.md)**
 

@@ -10,7 +10,9 @@ description: >-
 
 **💬 ACL2025** · 共 **3** 篇
 
-**[BQA: Body Language Question Answering Dataset for Video Large Language Models](bqa_body_language_question_answering_dataset_for_video_large_language_models.md)**
+**[Bqa Body Language Question Answering Dataset For Video Large Language Models](bqa_body_language_question_answering_dataset_for_video_large_language_models.md)**
+
+:   构建BQA数据集（7,632个短视频×4选QA，26种情感标签），系统评估VideoLLM理解肢体语言传达情感的能力，发现最强模型准确率仅60%远低于人类85%，且存在种族偏见和对面部表情的过度依赖。
 
 **[I See What You Mean Co-Speech Gestures For Reference Resolution In Multimodal Di](i_see_what_you_mean_co-speech_gestures_for_reference_resolution_in_multimodal_di.md)**
 

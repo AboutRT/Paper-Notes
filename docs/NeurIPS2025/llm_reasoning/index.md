@@ -108,7 +108,7 @@ description: >-
 
 **[Many Llms Are More Utilitarian Than One](many_llms_are_more_utilitarian_than_one.md)**
 
-:   在6个LLM上实验发现，多智能体集体讨论道德困境时会产生与人类群体类似的"功利主义增强"（Utilitarian Boost）——集体比个体更倾向接受为"多数人利益"伤害少数人，但LLM产生此效应的机制与人类不同（人类因结果敏感度增强，LLM则因规范敏感度降低或公正性增强等多种模式），且可通过模型异质性和提示多样性缓解。
+:   在6款LLM的对照实验中发现"功利主义增强(Utilitarian Boost)"现象——LLM在成对/三人组讨论道德困境后比独立判断时更倾向接受"为了多数人的利益而伤害少数人"，这一效应在涉及直接伤害的个人困境中尤为显著（$\beta=0.31, p<.0001$），且各模型产生功利主义增强的机制不同（有的因规范敏感性降低，有的因公正性增强）。
 
 **[Mind The Gap Bridging Thought Leap For Improved Chain-Of-Thought Tuning](mind_the_gap_bridging_thought_leap_for_improved_chain-of-thought_tuning.md)**
 
@@ -224,7 +224,7 @@ description: >-
 
 **[Time A Multilevel Benchmark For Temporal Reasoning Of Llms I](time_a_multilevel_benchmark_for_temporal_reasoning_of_llms_i.md)**
 
-:   TIME 提出一个面向真实世界时序推理的多层级 benchmark，覆盖 38,522 个 QA、3 个子数据集与 11 个细粒度子任务，系统刻画 LLM 在高密度时间信息、快速事件变化和复杂社会时序依赖下的推理能力，并分析了 test-time scaling 对 temporal reasoning 的实际影响。
+:   提出TimE多层级时间推理Benchmark（38,522 QA + 943人工标注TimE-Lite），覆盖知识密集（Wiki）、快速演变（News）和长对话（Dialogue）三种真实场景，设计三级渐进11子任务体系评估24个LLM，揭示即使最强推理模型在复杂时间关系推理上仍有显著短板。
 
 **[Topology Of Reasoning Understanding Large Reasoning Models Through Reasoning Gra](topology_of_reasoning_understanding_large_reasoning_models_through_reasoning_gra.md)**
 
@@ -260,4 +260,4 @@ description: >-
 
 **[Visual Thoughts A Unified Perspective Of Understanding Multi](visual_thoughts_a_unified_perspective_of_understanding_multi.md)**
 
-:   首次从统一视角揭示多模态CoT工作的核心机制——"视觉思维"(Visual Thoughts)：MCoT通过将视觉信息缓存为中间推理步骤来增强LVLM推理，类似于计算机系统中的cache vs外部存储；定义了四种视觉思维表达形式（自然语言/结构化语言/编辑图像/生成图像），发现其有效性取决于表达的清晰性和简洁性。
+:   提出"视觉思维(Visual Thoughts)"作为统一框架解释多模态链式推理(MCoT)的有效性——无论是文本MCoT还是交错图文MCoT，其性能提升的核心机制都是将视觉信息缓存并传递到推理过程中，定义了四种视觉思维表达形式并揭示其在Transformer深层中作为图像-推理中介的角色。

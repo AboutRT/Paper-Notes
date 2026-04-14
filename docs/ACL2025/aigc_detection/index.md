@@ -12,7 +12,7 @@ description: >-
 
 **[A Rose By Any Other Name Llm-Generated Explanations Are Good Proxies For Human E](a_rose_by_any_other_name_llm-generated_explanations_are_good_proxies_for_human_e.md)**
 
-:   研究 LLM 生成的解释能否替代昂贵的人工解释来近似 NLI 的人工判断分布（HJD）——发现在提供人工标签的条件下，LLM 生成的解释与人工解释在近似 HJD 方面效果相当（"名字不重要，玫瑰依然芬芳"），且方法可推广到无人工解释的数据集和域外测试集。
+:   提出用 LLM 生成的 NLI 解释替代昂贵的人工解释来近似人工判断分布（HJD），实验表明在提供人工标签引导的条件下，LLM 生成的解释与人工解释在 KL 散度、JSD 等指标上效果相当，并可推广到无人工解释的数据集（MNLI）和域外测试集（ANLI）。
 
 **[Aigt Social Media Monitoring](aigt_social_media_monitoring.md)**
 
@@ -36,7 +36,7 @@ description: >-
 
 **[Llm Vs Human Formal Syntax](llm_vs_human_formal_syntax.md)**
 
-:   首次使用形式句法理论（HPSG）系统比较六个 LLM 生成的纽约时报风格文本与真实人类撰写的 NYT 文本，发现 LLM 和人类写作在 HPSG 语法类型分布上存在系统性差异，揭示了 LLM 句法行为与人类的本质不同。
+:   利用英语资源语法（ERG）实现的 HPSG 形式句法理论，首次从句法构式、词汇类型和形态规则三个层级系统分析 LLM 生成文本与人类新闻写作的语法差异，发现 LLM 在句法构式使用上趋于"扁平化均值"。
 
 **[Low-Perplexity Llm-Generated Sequences And Where To Find Them](low-perplexity_llm-generated_sequences_and_where_to_find_them.md)**
 

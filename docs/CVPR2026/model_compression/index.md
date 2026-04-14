@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 模型压缩方向 34篇论文解读
+  CVPR2026 模型压缩方向 35篇论文解读
 description: >-
-  34篇CVPR2026 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  35篇CVPR2026 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📷 CVPR2026** · 共 **34** 篇
+**📷 CVPR2026** · 共 **35** 篇
 
 **[A Paradigm Shift Fully End-To-End Training For Temporal Sentence Grounding In Vi](a_paradigm_shift_fully_end-to-end_training_for_temporal_sentence_grounding_in_vi.md)**
 
@@ -16,7 +16,7 @@ description: >-
 
 **[An Fpga Implementation Of Displacement Vector Sear](an_fpga_implementation_of_displacement_vector_sear.md)**
 
-:   首次提出JPEG XS帧内模式复制(IPC)中位移矢量(DV)搜索模块的FPGA实现方案，采用四级流水线架构和IPC Group对齐的内存组织策略，在Xilinx Artix-7上实现38.3 Mpixels/s吞吐和277 mW功耗。
+:   本文首次为 JPEG XS 标准中的 Intra Pattern Copy (IPC) 工具设计了 FPGA 硬件加速架构，通过四级流水线 DV 比较引擎和按 IPC Group 对齐的存储组织，在 Artix-7 上实现 38.3 Mpixels/s 吞吐量和 277mW 功耗。
 
 **[An Fpga Implementation Of Displacement Vector Search For Intra Pattern Copy In J](an_fpga_implementation_of_displacement_vector_search_for_intra_pattern_copy_in_j.md)**
 
@@ -24,7 +24,7 @@ description: >-
 
 **[Arche Autoregressive Residual Compression With Hyp](arche_autoregressive_residual_compression_with_hyp.md)**
 
-:   在全卷积架构内统一层级超先验、Masked PixelCNN空间自回归、通道条件建模和SE通道激励，不使用Transformer或循环组件，以95M参数和222ms解码时间实现相对Ballé基线48% BD-Rate降低并超越VVC Intra 5.6%。
+:   在全卷积架构内统一层级超先验、Masked PixelCNN 空间自回归、通道条件建模和 SE 通道激励，不依赖 Transformer 或循环组件，以 95M 参数和 222ms 解码时间实现相对 Ballé 基线 48% BD-Rate 降低并超越 VVC Intra 5.6%。
 
 **[Arche Autoregressive Residual Compression With Hyperprior And Excitation](arche_autoregressive_residual_compression_with_hyperprior_and_excitation.md)**
 
@@ -85,6 +85,10 @@ description: >-
 **[Hieramp Coarse-To-Fine Autoregressive Amplification For Generative Dataset Disti](hieramp_coarse-to-fine_autoregressive_amplification_for_generative_dataset_disti.md)**
 
 :   提出 HierAmp，在视觉自回归（VAR）模型的粗到细生成过程中，向每个尺度注入可学习的类别 token 识别语义显著区域，并通过正 logit 偏置放大这些区域的注意力，使蒸馏数据在粗尺度获得更丰富多样的布局、在细尺度聚焦于类别相关细节，在多个数据集蒸馏基准上达到 SOTA。
+
+**[Iapl Aigenerated Image Detection Adaptive Prompt](iapl_aigenerated_image_detection_adaptive_prompt.md)**
+
+:   提出IAPL（Image-Adaptive Prompt Learning），在CLIP编码器输入端引入动态prompt——由条件信息学习器（从纹理丰富区域提取伪造特异和通用线索）和测试时token调优（通过多视角一致性最小化熵）两条路径生成，使模型能在推理时根据每张测试图像自适应调整，在未见过的生成器上显著提升检测泛化性。
 
 **[Learning Through Creation A Hash-Free Framework For On-The-Fly Category Discover](learning_through_creation_a_hash-free_framework_for_on-the-fly_category_discover.md)**
 

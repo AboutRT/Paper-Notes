@@ -68,7 +68,7 @@ description: >-
 
 **[Feddag Clustered Federated Learning Via Global Data And Gradient Integration For](feddag_clustered_federated_learning_via_global_data_and_gradient_integration_for.md)**
 
-:   提出FedDAG——融合数据和梯度信息的聚类联邦学习框架：通过加权类别级(class-wise)相似度同时考虑数据分布和梯度方向进行更精确的客户端聚类,配合双编码器架构(主编码器+辅助编码器)实现跨簇知识共享而保留簇内特化,并设计联邦感知度量自动确定最优簇数,统一处理标签偏斜/特征偏斜/概念偏移/数量偏移四种异构类型。
+:   提出 FedDAG 聚类联邦学习框架，通过融合数据和梯度信息进行加权类别级相似度计算来实现更准确的客户端聚类，并通过双编码器架构实现跨集群特征迁移，在多种异构性设置下一致超越现有基线。
 
 **[Frontierco Real-World And Large-Scale Evaluation Of Machine Learning Solvers For](frontierco_real-world_and_large-scale_evaluation_of_machine_learning_solvers_for.md)**
 
@@ -148,7 +148,7 @@ description: >-
 
 **[Scaf-Grpo Scaffolded Group Relative Policy Optimization For Enhancing Llm Reason](scaf-grpo_scaffolded_group_relative_policy_optimization_for_enhancing_llm_reason.md)**
 
-:   提出 Scaf-GRPO 框架，通过分层 in-prompt hint 注入（知识→规划→求解）解决 RLVR 中的"学习悬崖"问题——当模型对难题持续零奖励时，以最小引导恢复学习梯度，在 AIME24 上相对 vanilla GRPO 提升 44.3%。
+:   提出 Scaf-GRPO 框架，通过分层级的 in-prompt hint 注入（知识→规划→解题步骤）来克服 GRPO 训练中"学习悬崖"(zero-reward)问题，在 Qwen2.5-Math-7B 上将 AIME24 的 pass@1 相对提升 44.3%，同时保持 on-policy 训练一致性。
 
 **[Scaling Laws Of Signsgd In Linear Regression When Does It Outperform Sgd](scaling_laws_of_signsgd_in_linear_regression_when_does_it_outperform_sgd.md)**
 

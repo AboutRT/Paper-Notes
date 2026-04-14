@@ -28,7 +28,7 @@ description: >-
 
 **[Editing Physiological Signals In Videos Using Latent Representations](editing_physiological_signals_in_videos_using_latent_representations.md)**
 
-:   提出面向视频生理信号(心率)编辑的学习框架——在3D VAE潜空间中融合视频编码和目标心率文本嵌入，通过可训练时空融合层(AdaLN)捕捉rPPG时间相干性+FiLM解码器调制实现精确心率修改，视觉质量保持PSNR 38.96dB/SSIM 0.98的同时心率调制误差10 bpm MAE，可用于面部视频的心率匿名化或合成带指定心率的视频。
+:   提出PhysioLatent框架，将输入面部视频编码到3D VAE潜空间，与目标心率CLIP文本嵌入融合，通过AdaLN增强的时空融合层捕捉rPPG时间相干性，结合FiLM调制解码器和微调输出层实现精确心率修改，在保持PSNR 38.96dB/SSIM 0.98的视觉质量下达到10 bpm MAE的心率调制精度。
 
 **[Fecalfed Privacy-Preserving Poultry Disease Detection Via Federated Learning](fecalfed_privacy-preserving_poultry_disease_detection_via_federated_learning.md)**
 
@@ -68,7 +68,7 @@ description: >-
 
 **[Rethinking Vlms For Image Forgery Detection And Lo](rethinking_vlms_for_image_forgery_detection_and_lo.md)**
 
-:   揭示VLM的语义合理性偏差(semantic plausibility bias)会妨碍伪造检测，提出IFDL-VLM将检测/定位与语言解释生成解耦为两阶段：先用ViT+SAM专做检测定位，再将定位mask作为VLM辅助输入增强可解释性，在9个基准上全面SOTA。
+:   揭示VLM天然偏向语义合理性而非真实性（CLIP对伪造图像余弦相似度达96-99%），提出IFDL-VLM将检测定位与语言解释解耦为两阶段，先用ViT+SAM做检测定位再将mask作为VLM辅助输入增强可解释性，在9个基准上全面达到SOTA。
 
 **[Rethinking Vlms For Image Forgery Detection And Localization](rethinking_vlms_for_image_forgery_detection_and_localization.md)**
 

@@ -52,7 +52,7 @@ description: >-
 
 **[Cosmmic Commentsensitive Multimodal Multilingual Indian Corpus](cosmmic_commentsensitive_multimodal_multilingual_indian_corpus.md)**
 
-:   构建首个面向印度语言的评论感知多模态多语言数据集 COSMMIC（9 种语言、4,959 篇文章-图像对、24,484 条读者评论），提出评论过滤（IndicBERT）和图像分类（CLIP）增强方案，用 GPT-4 和 LLama3 建立摘要和标题生成的基准。
+:   构建首个面向印度语言的评论感知多模态多语言数据集COSMMIC——覆盖9种印度语言、4,959篇文章-图像对、24,484条读者评论，提出评论过滤（IndicBERT）和图像分类（CLIP）增强方案，用GPT-4和LLaMA3建立摘要和标题生成基准。
 
 **[Cross-Lingual Auto Evaluation For Assessing Multilingual Llms](cross-lingual_auto_evaluation_for_assessing_multilingual_llms.md)**
 
@@ -94,9 +94,9 @@ description: >-
 
 :   提出 Dual Evaluation Framework，将多语言 LLM 评估沿"语言媒介"和"文化语境"两个维度解耦，发现"文化-语言协同"(Cultural-Linguistic Synergy) 现象——模型在文化语境与提问语言对齐时表现更好，并通过 FFN 神经元激活分析从可解释性角度给出解释。
 
-**[Edit Once, Update Everywhere: Cross-Lingual Knowledge Synchronization](edit_once_update_everywhere_a_simple_framework_for_cross-lingual_knowledge_synch.md)**
+**[Edit Once Update Everywhere A Simple Framework For Cross-Lingual Knowledge Synch](edit_once_update_everywhere_a_simple_framework_for_cross-lingual_knowledge_synch.md)**
 
-:   提出 X-KDE 框架通过指令微调+偏好优化实现知识的跨语言同步编辑——在一种语言中编辑知识后自动在其他语言同步生效。
+:   提出 X-KDE 框架，通过跨语言编辑指令微调（XE-IT）+ 目标语言偏好优化（TL-PO）实现"编辑一种语言、所有语言同步更新"的跨语言知识民主化，在 Bi-ZsRE 和 MzsRE 基准上平均提升 +8.19%，跨语言场景下显著超越所有现有方法。
 
 **[Execute A Multilingual Benchmark For Llm Token Understanding](execute_a_multilingual_benchmark_for_llm_token_understanding.md)**
 
@@ -176,7 +176,7 @@ description: >-
 
 **[M Rewardbench](m_rewardbench.md)**
 
-:   构建首个多语言奖励模型评估基准M-RewardBench（23种语言、2.87K偏好实例，覆盖对话/安全/推理/翻译四类能力），系统评估多种RM后发现英语与非英语RM性能存在显著差距，且翻译质量和语言资源量对RM表现有重要影响。
+:   构建首个多语言奖励模型评估基准 M-RewardBench（23种 typologically 多样语言、2.87K 偏好实例，覆盖 Chat/Safety/Reasoning/Translation 四类能力），系统评估多种 RM 后发现英语与非英语性能存在显著差距，且 RM 偏好可在语言间发生实质性漂移。
 
 **[Machine Translation Models Are Zero-Shot Detectors Of Translation Direction](machine_translation_models_are_zero-shot_detectors_of_translation_direction.md)**
 

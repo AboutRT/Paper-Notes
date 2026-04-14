@@ -20,7 +20,7 @@ description: >-
 
 **[Accelerating Adaptive Retrieval Augmented Generation Via Instruction-Driven Repr](accelerating_adaptive_retrieval_augmented_generation_via_instruction-driven_repr.md)**
 
-:   首次识别自适应 RAG（A-RAG）中多轮检索结果重叠导致的冗余计算问题，提出 IDR²（Instruction-Driven Representation Reduction）框架：跨迭代 KV 缓存共享（CICS）加速预填充 2.79 倍、指令引导去重增强（IDGR）帮助 LLM 正确处理缓存vs新文档、信息引导并行生成（IGPG）加速解码 2.33 倍，总体 A-RAG 流程加速 2.0 倍且不损失生成质量。
+:   提出 IDR²，一种模型无关的自适应RAG加速框架，通过消除多轮检索间重叠文档的冗余表示并利用检索内容指导并行解码，实现端到端约2倍加速且不损失生成质量。
 
 **[Air-Bench Automated Heterogeneous Information Retrieval Benchmark](air-bench_automated_heterogeneous_information_retrieval_benchmark.md)**
 
@@ -60,17 +60,17 @@ description: >-
 
 :   DRAG 提出了一种从大模型向小模型蒸馏 RAG 能力的框架：用大模型（如 GPT-4o）为给定问题生成证据和知识图谱三元组，经排序过滤后作为结构化上下文输入给小模型（2B-9B），无需微调即可将小模型在 ARC-C 上提升高达 27.7%，同时显著减少幻觉。
 
-**[DRAMA: Diverse Augmentation from LLMs to Smaller Dense Retrievers](drama_diverse_augmentation_from_large_language_models_to_smaller_dense_retriever.md)**
+**[Drama Diverse Augmentation From Large Language Models To Smaller Dense Retriever](drama_diverse_augmentation_from_large_language_models_to_smaller_dense_retriever.md)**
 
-:   通过多策略 LLM 数据增强+知识蒸馏创建小型高效检索器 Drama 0.3B，在 BEIR 上达到与 1B 模型相当的性能。
+:   提出 Drama 框架，系统性地探索多种基于 LLM 的数据增强策略（裁剪句+合成查询+LLM 重排序偏好）与 LLM 剪枝 backbone 的结合，在单阶段对比学习中训练出 0.1B-1B 参数的小型检索器，在 BEIR 上以 0.3B 参数匹配 1B 参数的 Gecko，且具备强多语言和长上下文能力。
 
 **[Empaths At Semeval-2025 Task 11 Retrieval-Augmented Approach To Perceived Emotio](empaths_at_semeval-2025_task_11_retrieval-augmented_approach_to_perceived_emotio.md)**
 
 :   提出 EmoRAG 系统，用检索增强生成（RAG）管道结合多 LLM 集成聚合，在 SemEval-2025 Task 11 多标签情感检测任务上无需额外训练即在 28 种语言中取得有竞争力的结果，平均 F1-micro 0.638。
 
-**[Enhancing Lexicon-Based Text Embeddings with Large Language Models](enhancing_lexicon-based_text_embeddings_with_large_language_models.md)**
+**[Enhancing Lexicon-Based Text Embeddings With Large Language Models](enhancing_lexicon-based_text_embeddings_with_large_language_models.md)**
 
-:   用 LLM 增强基于词典的稀疏文本嵌入，在保持可解释性的同时提升检索性能。
+:   提出 LENS 框架，首次将 LLM 用于通用词汇级文本嵌入（lexicon-based embedding），通过 token 嵌入聚类解决 LLM 词表冗余问题、引入双向注意力克服因果 LLM 的限制，在 MTEB 上超越同数据训练的稠密嵌入，且与稠密嵌入结合后在 BEIR 上达到 SOTA。
 
 **[Evaluation Of Attribution Bias In Generator-Aware Retrieval-Augmented Large Lang](evaluation_of_attribution_bias_in_generator-aware_retrieval-augmented_large_lang.md)**
 
@@ -120,9 +120,9 @@ description: >-
 
 :   将 RAG 系统中的重排序过程重新建模为文档级 Top-k 注意力掩码问题，利用 Gumbel 技巧和松弛 Top-k 采样实现端到端可微优化，直接最小化最终语言建模损失，在 HotpotQA 上 Recall@5 提升 10.4%。
 
-**[Health-LLM: Personalized Retrieval-Augmented Disease Prediction System](health-llm_personalized_retrieval-augmented_disease_prediction_system.md)**
+**[Health-Llm Personalized Retrieval-Augmented Disease Prediction System](health-llm_personalized_retrieval-augmented_disease_prediction_system.md)**
 
-:   提出 Health-LLM 个性化 RAG 疾病预测系统，结合可穿戴设备数据和医学知识库进行健康风险评估。
+:   提出 Health-LLM 框架，通过 LLM + Llama Index 从健康报告中提取特征评分、RAG 增强医学知识检索、CAAFE 自动特征工程结合 XGBoost 分类器，在 IMCS-21 中文远程医疗数据集上实现 Accuracy 0.833、F1 0.762 的疾病预测性能，大幅超越 GPT-4 few-shot+RAG (Acc 0.68) 和 fine-tuned LLaMA-2-13B (Acc 0.73)。
 
 **[Helios Harmonizing Early Fusion Late Fusion And Llm Reasoning For Multi-Granular](helios_harmonizing_early_fusion_late_fusion_and_llm_reasoning_for_multi-granular.md)**
 
@@ -242,7 +242,7 @@ description: >-
 
 **[Seal Scaling To Emphasize Attention For Long-Context Retrieval](seal_scaling_to_emphasize_attention_for_long-context_retrieval.md)**
 
-:   通过剪枝分析发现特定注意力头与长上下文检索高度相关，提出 SEAL（可学习标量/向量缩放注意力头/通道），仅需 ~1024 个额外参数 + 50 个合成样本训练，即可将 LongChat-7B 在 31K 上的检索准确率从 0.32 提升到 0.88，且缩放参数可离线合并到权重中实现零推理开销。
+:   SEAL 通过发现特定注意力头/通道对长上下文检索有正/负影响的现象，设计了头级和通道级可学习缩放因子，仅用50个合成样本微调即可大幅提升LLM长上下文检索性能，且缩放因子可离线合并至模型权重实现零推理开销。
 
 **[Setr Set Selection Rag](setr_set_selection_rag.md)**
 

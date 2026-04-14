@@ -40,7 +40,7 @@ description: >-
 
 **[Riflex A Free Lunch For Length Extrapolation In Video Diffusion Transformers](riflex_a_free_lunch_for_length_extrapolation_in_video_diffusion_transformers.md)**
 
-:   通过分析位置编码中各频率分量的作用，发现"固有频率"主导外推时的重复模式，提出RIFLEx——仅降低固有频率即可实现训练免费的2x视频长度外推，微调后达3x。
+:   通过系统分析RoPE位置编码中各频率分量的角色，发现存在一个"固有频率"主导外推时的时间重复行为，提出仅降低该频率使其在外推后保持单周期的最小化方案RIFLEx，在CogVideoX-5B和HunyuanVideo上实现无训练2×高质量视频外推。
 
 **[Scaling Video-Language Models To 10K Frames Via Hierarchical Differential Distil](scaling_video-language_models_to_10k_frames_via_hierarchical_differential_distil.md)**
 

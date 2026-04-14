@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 推荐系统方向 16篇论文解读
+  ICML2025 推荐系统方向 17篇论文解读
 description: >-
-  16篇ICML2025 推荐系统方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  17篇ICML2025 推荐系统方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🧪 ICML2025** · 共 **16** 篇
+**🧪 ICML2025** · 共 **17** 篇
 
 **[Adaptive Elicitation Of Latent Information Using Natural Language](adaptive_elicitation_of_latent_information_using_natural_language.md)**
 
@@ -58,6 +58,10 @@ description: >-
 
 :   本文对 AI 评估中"人类基线"（human baseline）的方法论进行了系统审查，发现现有 115 项人类基线研究在严谨性和透明度方面存在严重不足，并提出了覆盖基线全生命周期的方法建议和报告清单。
 
+**[Recommendations With Sparse Comparison Data Provably Fast Convergence For Noncon](recommendations_with_sparse_comparison_data_provably_fast_convergence_for_noncon.md)**
+
+:   首次为基于成对比较数据的推荐系统非凸矩阵分解问题提供理论恢复保证：证明在warm start条件下，投影梯度下降以指数速率收敛到真实低秩特征矩阵，样本复杂度为近乎最优的 $O(nr^2 \log n)$，关键技术贡献是将matrix Bernstein不等式扩展到成对比较的采样矩阵结构。
+
 **[Rlthf Targeted Human Feedback For Llm Alignment](rlthf_targeted_human_feedback_for_llm_alignment.md)**
 
 :   RLTHF 提出了一种人机混合的 LLM 对齐框架，通过分析奖励模型的奖励分布来识别 LLM 错标的"难样本"，仅对这些样本进行人工标注，以全量人工标注 6-7% 的成本达到甚至超越全人工标注的对齐质量。
@@ -72,4 +76,4 @@ description: >-
 
 **[Toward Safe And Human-Aligned Game Conversational Recommendation Via Multi-Agent](toward_safe_and_human-aligned_game_conversational_recommendation_via_multi-agent.md)**
 
-:   提出MATCHA多Agent框架解决游戏对话推荐的三大挑战：复杂约束（Intent+Tool Agent）、知识时效（Multi-LLM Ranking+Reflection Agent）、安全风险（Risk Control+Explanation Agent），Hit@5提升20%、流行度偏差降低24%、对抗防御达97.9%。
+:   提出 MATCHA 多 Agent 框架，将游戏对话推荐分解为六个专用 Agent（意图解析、工具增强候选生成、多 LLM 排序、反思重排、风险控制、可解释生成），在 Roblox 真实用户数据上 Hit@5 提升 20%、流行度偏差降 24%、对抗防御率 97.9%。

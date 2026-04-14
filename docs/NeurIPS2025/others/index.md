@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 其他方向 135篇论文解读
+  NeurIPS2025 其他方向 140篇论文解读
 description: >-
-  135篇NeurIPS2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  140篇NeurIPS2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧠 NeurIPS2025** · 共 **135** 篇
+**🧠 NeurIPS2025** · 共 **140** 篇
 
 **[4Dgt Learning A 4D Gaussian Transformer Using Realworld Mono](4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)**
 
@@ -24,7 +24,7 @@ description: >-
 
 **[A Sustainable Ai Economy Needs Data Deals That Work For Gene](a_sustainable_ai_economy_needs_data_deals_that_work_for_gene.md)**
 
-:   本文通过分析73个公开数据交易案例，揭示了ML价值链中的"经济数据处理不等式"——从原始数据到模型权重再到合成输出，每一步都提炼了技术信号但剥夺了数据生成者的经济权益，并提出EDVEX框架来构建更公平的数据交换市场。
+:   提出"经济数据处理不等式"概念——ML价值链中数据从原始形态到模型权重再到合成输出，每一步都精炼了技术信号但系统性剥夺了数据生成者的经济权益；通过分析73个公开数据交易案例实证这一现象，诊断三个结构性缺陷（溯源缺失、议价权不对称、定价非动态），并提出EDVEX框架作为解决方案蓝图。
 
 **[A Theoretical Framework For Grokking Interpolation Followed By Riemannian Norm M](a_theoretical_framework_for_grokking_interpolation_followed_by_riemannian_norm_m.md)**
 
@@ -36,7 +36,7 @@ description: >-
 
 **[Active Measurement Efficient Estimation At Scale](active_measurement_efficient_estimation_at_scale.md)**
 
-:   提出Active Measurement框架，结合AI检测器的自适应重要性采样和迭代人工标注，实现大规模科学测量（如鸟类计数、疟疾检测）的无偏估计，将原始检测器3.78的误差率降至0.06，同时提供理论保证的置信区间。
+:   提出 Active Measurement 框架，将 AI 模型预测作为重要性采样提议分布，通过迭代的人类标注与模型更新实现科学总量测量的无偏估计，搭配新颖的组合权重方案和条件方差估计器构建可靠的置信区间。
 
 **[Acurank Uncertainty-Aware Adaptive Computation For Listwise Reranking](acurank_uncertainty-aware_adaptive_computation_for_listwise_reranking.md)**
 
@@ -44,11 +44,11 @@ description: >-
 
 **[Adaptive Data Analysis For Growing Data](adaptive_data_analysis_for_growing_data.md)**
 
-:   首次为动态/增长数据场景下的自适应数据分析提供泛化界，允许分析者根据当前数据规模和历史查询结果自适应地调度统计查询，在数据不断积累时获得更紧的准确性保证。
+:   首次提出动态增长数据上自适应分析的泛化界，允许分析者依据当前数据规模自适应调度查询，在批量查询设定下数据需求增长为自适应查询数的平方根，匹配静态设定下的渐近最优结果。
 
 **[Addressing Mark Imbalance In Integrationfree Neural Marked T](addressing_mark_imbalance_in_integrationfree_neural_marked_t.md)**
 
-:   论文针对现实事件流中常见的 mark 类别长尾失衡问题，提出基于先验归一化概率的阈值学习策略，并设计 integration-free 的神经 MTPP 架构，先预测 mark 再预测 time，在避免昂贵数值积分的同时显著提升稀有事件的 mark 与到达时间预测性能。
+:   本文首次揭示标记时间点过程(MTPP)中标记分布不平衡对预测性能的严重影响，提出先预测标记再预测时间的策略，设计阈值方法调节稀有标记的预测概率，并开发无积分近似的IFNMTPP模型高效支持标记概率估计和时间采样。
 
 **[Adjoint Schrödinger Bridge Sampler](adjoint_schrödinger_bridge_sampler.md)**
 
@@ -214,9 +214,17 @@ description: >-
 
 :   提出 HouseLayout3D——首个面向大规模多层建筑的真实世界 3D layout 估计基准，以及 MultiFloor3D——一个无需训练的基线方法，通过组合现代 3D 重建和分割模型在多层建筑 layout 估计上超越现有深度学习方法。
 
+**[How Many Domains Suffice For Domain Generalization A Tight Characterization Via ](how_many_domains_suffice_for_domain_generalization_a_tight_characterization_via_.md)**
+
+:   提出"领域碎裂维度"（Domain Shattering Dimension）这一新组合度量，紧致刻画了领域泛化所需的领域数量（领域样本复杂度），并证明其与经典VC维的关系为 $\Theta(d \log(1/\alpha))$。
+
 **[How Should We Evaluate Data Deletion In Graph-Based Ann Indexes](how_should_we_evaluate_data_deletion_in_graph-based_ann_indexes.md)**
 
 :   针对图索引（graph-based ANNS）中数据删除缺乏系统评估方法的问题，形式化定义了三种删除策略（逻辑删除、物理删除、重建），提出一套面向实际部署的评估框架和指标体系，并在 HNSW 上实验分析后提出 Deletion Control 算法，可根据精度需求动态选择删除策略。
+
+**[Hybrid-Balance Gflownet For Solving Vehicle Routing Problems](hybrid-balance_gflownet_for_solving_vehicle_routing_problems.md)**
+
+:   提出Hybrid-Balance GFlowNet（HBG）框架，首次在VRP场景中引入详细平衡（DB）并与轨迹平衡（TB）统一集成，配合depot引导推理策略，在CVRP和TSP上显著提升两种现有GFlowNet求解器（AGFN和GFACS）的性能。
 
 **[Hypergraphrag Retrieval-Augmented Generation Via Hypergraph-Structured Knowledge](hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)**
 
@@ -225,6 +233,10 @@ description: >-
 **[Impact Of Layer Norm On Memorization And Generalization In Transformers](impact_of_layer_norm_on_memorization_and_generalization_in_transformers.md)**
 
 :   系统揭示了LayerNorm在Pre-LN和Post-LN Transformer中的**截然不同**角色：Pre-LN中LN对学习至关重要，移除会破坏泛化；Post-LN中LN驱动记忆化，移除可抑制记忆化并恢复真实标签。
+
+**[Improved Approximation Algorithms For Chromatic And Pseudometric-Weighted Correl](improved_approximation_algorithms_for_chromatic_and_pseudometric-weighted_correl.md)**
+
+:   针对 Correlation Clustering 的两个重要推广——Chromatic CC 和 pseudometric-weighted CC，基于 LP relaxation 与精心设计的 rounding function，分别取得 2.15-approximation 和 tight 10/3-approximation，显著改进了先前最佳结果（2.5 和 6）。
 
 **[Improving Decision Trees Through The Lens Of Parameterized Local Search](improving_decision_trees_through_the_lens_of_parameterized_local_search.md)**
 
@@ -238,6 +250,10 @@ description: >-
 
 :   提出 HSACC 框架，通过双层语义空间设计（低层互信息对齐 + 高层自适应加权融合）和联合优化的缺失视图隐式恢复策略，解决不完整多视图聚类中静态融合和两阶段流水线（先补全后聚类）的误差传播问题，在 5 个基准数据集上全面超越 SOTA。
 
+**[Inferring Stochastic Dynamics With Growth From Cross-Sectional Data](inferring_stochastic_dynamics_with_growth_from_cross-sectional_data.md)**
+
+:   提出非平衡概率流推断（UPFI），通过Fokker-Planck方程的Lagrangian形式化，从横截面数据中联合推断随机动力学系统的漂移项、扩散项和增长率，首次准确处理含细胞增殖/死亡的场景。
+
 **[Information-Computation Tradeoffs For Noiseless Linear Regression With Oblivious](information-computation_tradeoffs_for_noiseless_linear_regression_with_oblivious.md)**
 
 :   对无噪声线性回归在Oblivious污染模型下，形式化证明任何高效Statistical Query算法都需要 $\tilde{\Omega}(d^{1/2}/\alpha^2)$ 的VSTAT复杂度，给出了 $1/\alpha$ 的二次依赖对高效算法具有本质性的计算下界证据。
@@ -246,13 +262,13 @@ description: >-
 
 :   令人惊讶地，纯RL训练无需显式PRM监督即可诱发出强大的过程理解能力，且现有PRMs在SOTA模型上甚至不如简单多数投票有效。
 
-**[Keep It On A Leash Controllable Pseudo-Label Generation Towards Realistic Long-T](keep_it_on_a_leash_controllable_pseudo-label_generation_towards_realistic_long-t.md)**
-
-:   提出 Controllable Pseudo-label Generation (CPG) 框架，通过可控的自强化优化循环将可靠伪标签逐步纳入标注集，在已知分布上构建 Bayes-optimal 分类器，从而在未标注数据分布完全未知的 Realistic LTSSL 场景下实现最高 15.97% 的准确率提升。
-
 **[Kernel Conditional Tests From Learning-Theoretic Bounds](kernel_conditional_tests_from_learning-theoretic_bounds.md)**
 
 :   提出将学习算法的置信界转化为条件假设检验的统一框架，基于核岭回归构建了有限样本保证的条件两样本检验，首次支持非i.i.d.数据与在线采样场景。
+
+**[Lagrangian Neural Odes Measuring The Existence Of A Lagrangian With Helmholtz Me](lagrangian_neural_odes_measuring_the_existence_of_a_lagrangian_with_helmholtz_me.md)**
+
+:   提出 Helmholtz metrics——基于 Helmholtz 条件的可微度量，用于量化给定 ODE 与 Euler-Lagrange 方程的接近程度，并将其作为正则化项加入二阶 Neural ODE 训练中，形成 Lagrangian Neural ODE，在零额外推理开销下引导模型收敛到真正的物理定律。
 
 **[Learning-Augmented Online Bipartite Fractional Matching](learning-augmented_online_bipartite_fractional_matching.md)**
 
@@ -261,6 +277,10 @@ description: >-
 **[Learning-Augmented Streaming Algorithms For Correlation Clustering](learning-augmented_streaming_algorithms_for_correlation_clustering.md)**
 
 :   提出了首个面向相关聚类（Correlation Clustering）的学习增强流算法，利用成对距离预测，在完全图上实现优于3的近似比（$\tilde{O}(n)$ 空间），在一般图上实现 $O(\log|E^-|)$ 近似比（$\tilde{O}(n)$ 空间），在空间-近似比权衡上显著改进了已有的非学习算法。
+
+**[Learning Approximately Equivariant Networks Via Constrained Optimization](learning_approximately_equivariant_networks_via_constrained_optimization.md)**
+
+:   提出ACE（Adaptive Constrained Equivariance）框架，将等变神经网络训练建模为约束优化问题，通过对偶方法自动从灵活的非等变模型渐进过渡到等变模型，无需手动调参即可适应完全和部分对称数据。
 
 **[Learning Dynamics Of Rnns In Closed-Loop Environments](learning_dynamics_of_rnns_in_closed-loop_environments.md)**
 
@@ -366,13 +386,13 @@ description: >-
 
 :   提出 OptLCMS，通过将分数空间分区并用 KKT 条件解析求解 CMS 参数、动态规划优化阈值，大幅加速构建过程，同时提供不可容忍误差概率的理论保证。
 
-**[OrbitZoo: Real Orbital Systems Challenges for RL](orbitzoo_real_orbital_systems_challenges_for_reinforcement_learning.md)**
+**[Orbitzoo Real Orbital Systems Challenges For Reinforcement Learning](orbitzoo_real_orbital_systems_challenges_for_reinforcement_learning.md)**
 
-:   构建OrbitZoo，基于工业标准库Orekit的多智能体RL环境，支持碰撞规避和协同机动，经Starlink真实数据验证MAPE仅0.16%。
+:   提出OrbitZoo——一个基于工业级轨道动力学库Orekit的多智能体强化学习环境，支持碰撞规避、编队飞行等场景，在Starlink真实数据验证中MAPE仅为0.16%。
 
 **[Ortholoc Uav 6-Dof Localization And Calibration Using Orthographic Geodata](ortholoc_uav_6-dof_localization_and_calibration_using_orthographic_geodata.md)**
 
-:   提出OrthoLoC——首个大规模UAV-正射影像配对数据集（16,425张，47地点，19城市），用于6-DoF定位和标定评估，AdHoP技术匹配精度提升95%、平移误差降低63%。
+:   OrthoLoC构建了首个面向正射地理数据（DOP+DSM）的大规模UAV 6-DoF定位基准数据集，包含16425张真实UAV图像覆盖德国和美国47个区域，并引入AdHoP（自适应单应性预处理）匹配改进技术，在不修改特征匹配器的情况下将匹配性能提升95%、平移误差降低63%。
 
 **[Overfitting In Adaptive Robust Optimization](overfitting_in_adaptive_robust_optimization.md)**
 
@@ -476,7 +496,7 @@ description: >-
 
 **[Smrs Advocating A Unified Reporting Standard For Surrogate Models In The Artific](smrs_advocating_a_unified_reporting_standard_for_surrogate_models_in_the_artific.md)**
 
-:   提出代理模型报告标准(SMRS)——一个轻量级、模块化的报告框架，系统性地记录代理模型管线中的关键设计和评估选择，旨在改善AI时代代理模型的可靠性、可复现性和跨领域知识转移。
+:   本文针对AI驱动的代理模型（Surrogate Model）领域缺乏标准化报告规范的痛点，提出了一套轻量级、模块化、与模型无关的报告标准SMRS，覆盖数据采集、模型选择、训练方法、评估指标等完整建模流水线的六大维度，通过对17篇已发表论文的案例研究验证了框架的可操作性，旨在提升代理模型的可复现性、可比较性和跨领域迁移能力。
 
 **[Space Spike-Aware Consistency Enhancement For Test-Time Adaptation In Spiking Ne](space_spike-aware_consistency_enhancement_for_test-time_adaptation_in_spiking_ne.md)**
 

@@ -16,7 +16,7 @@ description: >-
 
 **[Gtr Guided Thought Reinforcement Prevents Thought Collapse I](gtr_guided_thought_reinforcement_prevents_thought_collapse_i.md)**
 
-:   发现VLM agent在仅基于结果奖励的RL训练中会出现"思维坍塌"（thought collapse）——推理多样性急剧丧失、生成无关推理和无效动作。提出GTR框架通过自动纠正器在每步RL中评估和精炼agent推理，无需人工标注，LLaVA-7b在多种视觉环境中任务成功率提升3-5倍。
+:   发现RL训练VLM Agent时的"思维坍塌"现象——CoT推理迅速退化为与状态无关的模板化思维并导致无效动作，提出GTR框架用VLM纠正器自动修正思维(SFT) + PPO优化动作的双目标训练，在24点游戏和ALFWorld上实现3-5倍的成功率提升。
 
 **[Less Is More Empowering Gui Agent With Context-Aware Simplification](less_is_more_empowering_gui_agent_with_context-aware_simplification.md)**
 

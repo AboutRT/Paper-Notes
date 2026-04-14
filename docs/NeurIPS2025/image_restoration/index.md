@@ -12,7 +12,7 @@ description: >-
 
 **[Adaptive Discretization For Consistency Models](adaptive_discretization_for_consistency_models.md)**
 
-:   提出ADCM框架，将一致性模型(CM)的离散化步长选择形式化为约束优化问题，通过Gauss-Newton方法得到解析解，在局部一致性（可训练性）和全局一致性（稳定性）之间自适应平衡，以仅4%的额外计算开销实现显著的训练效率提升和FID改善。
+:   提出ADCM——通过将一致性模型的离散化步长形式化为局部一致性（可训练性）与全局一致性（稳定性）的约束优化问题，并用Gauss-Newton法求闭式解，实现自适应离散化，在CIFAR-10上用不到25%训练预算超越所有先前CM。
 
 **[Audio Super-Resolution With Latent Bridge Models](audio_super-resolution_with_latent_bridge_models.md)**
 
@@ -76,7 +76,7 @@ description: >-
 
 **[Mro Enhancing Reasoning In Diffusion Language Models Via Multi-Reward Optimizati](mro_enhancing_reasoning_in_diffusion_language_models_via_multi-reward_optimizati.md)**
 
-:   MRO通过多奖励优化捕获扩散语言模型内/间序列token相关性，加速DLM推理同时保持性能。
+:   提出多奖励优化方法MRO，通过定义和优化扩散语言模型（DLM）去噪过程中的序列内token相关性和序列间token相关性，结合test-time scaling、reject sampling和强化学习三种策略，配合组步重要性采样降低奖励方差，在推理基准上显著提升DLM性能并实现采样加速。
 
 **[Ms-Bart Unified Modeling Of Mass Spectra And Molecules For Structure Elucidation](ms-bart_unified_modeling_of_mass_spectra_and_molecules_for_structure_elucidation.md)**
 
@@ -112,7 +112,7 @@ description: >-
 
 **[The Effect Of Optimal Self-Distillation In Noisy Gaussian Mixture Model](the_effect_of_optimal_self-distillation_in_noisy_gaussian_mixture_model.md)**
 
-:   用统计物理replica方法分析噪声高斯混合模型上的自蒸馏，证明硬伪标签的去噪是性能提升主因，CIFAR-10实验验证。
+:   利用统计物理的replica方法对噪声高斯混合数据上的超参优化多阶段自蒸馏进行严格理论分析，揭示硬伪标签的去噪效应是自蒸馏性能提升的主要驱动力，中等规模数据集获益最显著，并提出早停（限制蒸馏阶段数）和偏置参数固定两个实用改进策略，CIFAR-10+ResNet实验验证了理论预测。
 
 **[Video Killed The Energy Budget Characterizing The Latency And Power Regimes Of O](video_killed_the_energy_budget_characterizing_the_latency_and_power_regimes_of_o.md)**
 

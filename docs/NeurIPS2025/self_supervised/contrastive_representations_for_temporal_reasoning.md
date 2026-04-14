@@ -1,83 +1,113 @@
 ---
-title: >-
-  [论文解读] Contrastive Representations for Temporal Reasoning
-description: >-
-  [自监督学习] 论文研究能否用纯表示学习替代显式搜索来承担部分时序推理，指出标准 temporal contrastive learning 容易抓住伪特征而失去时序结构，进一步提出 CRTR（Combinatorial Representations for Temporal Reasoning），通过特制负采样从理论上去除伪特征，学到同时编码感知与时序结构的表示，在 Sokoban 和 Rubik's Cube 上取得强结果，甚至可在不依赖外部搜索算法的情况下求解任意初始魔方状态。
+description: 通过轨迹内负采样消除上下文特征依赖，学习反映时间结构的对比表征，在组合推理任务上实现无搜索求解
 tags:
-  - 自监督学习
+- contrastive-learning
+- representation-learning
+- combinatorial-reasoning
+- self-supervised
+- planning
 ---
-
 # Contrastive Representations for Temporal Reasoning
 
-## 基本信息
-- **arXiv**: 2508.13113
-- **会议**: NeurIPS 2025
-- **作者**: Alicja Ziarko, Michal Bortkiewicz, Michal Zawalski, Benjamin Eysenbach, Piotr Milos
-- **领域**: Temporal Reasoning / Representation Learning / Planning
+**会议**: NeurIPS 2025  
+**arXiv**: [2508.13113](https://arxiv.org/abs/2508.13113)  
+**代码**: [GitHub](https://github.com/Princeton-RL/CRTR)  
+**领域**: 自监督学习 / 表征学习  
+**关键词**: 对比学习, 时间推理, 组合问题, Sokoban, 魔方
 
 ## 一句话总结
-论文研究能否用纯表示学习替代显式搜索来承担部分时序推理，指出标准 temporal contrastive learning 容易抓住伪特征而失去时序结构，进一步提出 CRTR（Combinatorial Representations for Temporal Reasoning），通过特制负采样从理论上去除伪特征，学到同时编码感知与时序结构的表示，在 Sokoban 和 Rubik's Cube 上取得强结果，甚至可在不依赖外部搜索算法的情况下求解任意初始魔方状态。
 
-## 背景与动机
-经典 AI 常把问题拆为：
-- perception 学状态表示；
-- planning 依赖搜索。
+提出 CRTR（Contrastive Representations for Temporal Reasoning），通过在训练批次中重复同一轨迹来引入轨迹内负样本对，消除标准时间对比学习对静态上下文特征的依赖，学习到反映时间结构的表征，在魔方等组合推理任务上首次实现无搜索求解。
 
-但一个根本问题是：**如果表示本身已经编码足够强的时序结构，是否可以减少甚至摆脱显式搜索？** 现有 temporal contrastive learning 虽流行，但常靠数据中的静态捷径或伪特征完成任务，并未真正学会 temporal reasoning。
+## 研究背景与动机
 
-## 核心问题
-如何设计一种表示学习方法，使学到的 representation 真正对动作序列、状态转移和时序组合结构敏感，从而支持复杂推理和求解？
+- 组合推理问题（如 Sokoban、魔方）通常需要昂贵的搜索算法（A*、BestFS）来求解
+- **时间对比学习**（如 CRL）用于学习状态表征，正样本来自轨迹内邻近状态，负样本来自不同轨迹
+- **关键失败模式**：在 Sokoban 中，不同轨迹有不同的墙壁布局（上下文），CRL 利用墙壁布局而非时间结构来区分正负样本，导致同一轨迹内所有状态被编码到极相似的表征（t-SNE 显示轨迹聚簇为小点）
+- 结果：CRL 表征无法反映状态间的时间距离，对规划无用
 
 ## 方法详解
 
-### 1. 标准 temporal contrastive learning 的失败模式
-作者指出传统方法的问题在于：
-- negative sampling 太弱或太随意；
-- 模型可以利用与时序无关的 spurious features 区分样本；
-- 最终得到的表示不具备真正的规划能力。
+### 整体框架
 
-### 2. CRTR：Combinatorial Representations for Temporal Reasoning
-CRTR 的关键在于特制负采样机制：
-- 从组合结构层面构造更难、更“反捷径”的 negative samples；
-- 从理论上去除能被伪特征利用的判别路径；
-- 迫使模型关注时序依赖与状态转移规律。
+CRTR 的核心改动极其简洁——仅修改对比学习中的负采样方式：
 
-### 3. 学到可用于求解的表示
-作者展示这种表示不仅可用于分类或检索，还可支持复杂任务求解：
-- 在 Sokoban 等具有长时依赖的任务上表现强；
-- 在 Rubik's Cube 上可泛化到任意初始状态；
-- 所需 search steps 少于 BestFS，但解路径更长。
+1. 将训练批次中的轨迹 ID 重复若干次（repetition factor = 2）
+2. 这使得批次中有多个来自同一轨迹但不同时间步的正样本
+3. 标准对比学习将其他批次元素作为负样本，因此**同一轨迹内的不同时间状态成为负样本对**
+4. 模型无法再利用恒定的上下文特征（如墙壁位置）来区分，被迫学习时间结构
 
-更强的一点是：这是首个仅依赖学得表示、无需外部搜索算法就能高效求解任意魔方状态的方法之一。
+### 关键设计
 
-## 实验结论
-- 标准 temporal contrastive learning 不能可靠捕获 temporal structure；
-- CRTR 在 Sokoban、Rubik's Cube 等复杂时序任务上显著更强；
-- 学得的表示具备跨初始状态泛化能力。
+1. **轨迹内负采样消除上下文依赖**:
+    - 做什么：修改数据采样，使同一轨迹的多个时间步出现在同一批次中
+    - 核心思路：当负样本具有相同上下文（如相同墙壁布局）时，上下文特征对区分正负样本无用，模型被迫编码时间结构
+    - 设计动机：理论上，此目标是条件互信息 $I(X;X^+|C)$ 的下界，等价于最大化 $I(X;X^+) - I(X^+;C)$，后者类似对抗性特征学习但无需对抗训练
 
-## 亮点
-1. **问题切得很准**：直接挑战“contrastive 表示真的学到时序了吗”这个核心问题。
-2. **理论与实验结合**：不仅提出负采样方案，还给出理论去伪特征分析。
-3. **结果很硬**：Rubik's Cube 泛化求解是强信号。
-4. **对 agent 很有启发**：说明 representation 本身可以承担部分 planning 责任。
+2. **从理想化到实用化的推导**:
+    - 做什么：理想化方法需要知道上下文变量 $C$ 并按其条件抽负样本；实用化方法只需重复轨迹 ID
+    - 核心思路：重复轨迹 ID 自然产生具有相同上下文的负样本对（同一集的不同时间步），且所有负样本都有锚点（避免表征漂移）
+    - 设计动机：实际中无法事先知道哪些特征是"上下文"（如第一次看到 Sokoban 板面，如何知道墙不可移动？）
 
-## 局限性
-1. 任务仍以结构化环境为主，向开放世界视觉-语言 agent 迁移还需探索。
-2. 虽然搜索步数更少，但解更长，说明策略最优性仍有限。
-3. 负采样设计在更复杂数据域上的构造成本可能上升。
+### 损失函数 / 训练策略
 
-## 与相关工作的对比
-- 相比普通 temporal contrastive learning：CRTR 显式针对 spurious features 设计。
-- 相比经典搜索规划：CRTR 希望把部分规划能力“编进表示”。
-- 相比 world model 路线：CRTR 更强调可解耦的时序表示而非完整环境生成。
+- 标准 InfoNCE 损失，唯一改变是批次构建方式（`traj_id = np.repeat(traj_id[:B//R], R, axis=0)`）
+- 编码器架构：8 层 MLP，隐藏维度 512，表征维度 64
+- 对比损失使用后向版本（backward），在魔方上优于对称版本
+- Adam 优化器，学习率 0.0003，batch size 512
+- repetition factor = 2 在所有测试环境中均表现良好
 
-## 启发
-- 可以探索把 CRTR 思路迁移到视频理解或视觉规划中的 latent state learning。
-- 对 VLA/robotics 场景，若能学出时序结构表示，可能显著减轻 search/planning 负担。
-- 与 RICL 这类 temporal credit assignment 方法有潜在互补性：一个提升表示，一个提升监督信号。
+## 实验关键数据
+
+### 主实验（表格）
+
+| 环境 | CRL 成功率 | Supervised 成功率 | DeepCubeA 成功率 | **CRTR 成功率** |
+|------|-----------|-----------------|----------------|---------------|
+| Sokoban | ~10% | ~30% | ~35% | **~40%** |
+| 魔方 | ~55% | 0% | ~60% | **~63%** |
+| 15-Puzzle | ~35% | ~50% | - | **~50%** |
+| Lights Out | ~30% | ~10% | - | **~80%** |
+| Digit Jumper | ~5% | ~60% | - | **~70%** |
+
+（BestFS 搜索预算 6000 节点）
+
+### 消融实验
+
+- Repetition factor: R=2 一致提升所有环境；过大的 R 在某些环境退化
+- Spearman 相关性（表征距离 vs 真实步数距离）：CRTR > 0.8 vs CRL < 0.4（Sokoban）
+- 无搜索求解：CRTR 在 4/5 任务上用贪心策略几乎解决所有实例（魔方 100% 成功！）
+
+### 关键发现
+
+- **最惊人的结果**：CRTR 在魔方上**不用任何搜索**即可解决所有随机打乱的配置（在 6000 步内）
+- 无搜索解法虽然更长（平均 ~400 步 vs 最优 ~26 步），但展现出类似人类"块构建"的涌现行为
+- CRTR 在 A* 搜索中也优于 CRL，改进不限于贪心搜索
+- 平均无搜索解长度：CRTR 448.7 vs CRL 1830.3（魔方）
+
+## 亮点与洞察
+
+- **极简改动，巨大影响**：仅修改一行代码（重复轨迹 ID）即实现从"完全失败"到"SOTA"的跨越
+- **无搜索求解组合问题**：首次仅用学习到的表征（无外部搜索算法）高效求解任意魔方状态
+- 涌现的"块构建"策略呼应了人类解谜行为
+- 条件互信息框架漂亮地解释了为何去除上下文可改善时间推理
+
+## 局限性 / 可改进方向
+
+- 无搜索解太长（魔方 ~400 步），远非最优
+- Sokoban 成功率仍较低，可能由于死路（irreversible states）问题
+- 假设动力学已知且确定性，限制了对随机/未知动力学问题的适用性
+- 魔方的状态距离几乎总满足三角不等式取等，无法忠实嵌入欧氏空间
+
+## 相关工作与启发
+
+- CRL (Eysenbach et al.) 是直接基础，CRTR 修复了其在组合域的关键失败
+- DeepCubeA 用值迭代学习启发式，CRTR 用对比学习达到可比甚至更好结果
+- 与对抗性特征学习的联系：消除上下文≈对抗性去除不变特征，但无需对抗训练
 
 ## 评分
-- 新颖性：★★★★★
-- 技术深度：★★★★☆
-- 实验说服力：★★★★★
-- 研究启发性：★★★★★
+
+- 理论创新：⭐⭐⭐⭐⭐
+- 实验验证：⭐⭐⭐⭐⭐
+- 实用价值：⭐⭐⭐⭐
+- 写作质量：⭐⭐⭐⭐⭐
+- 综合评分：⭐⭐⭐⭐⭐

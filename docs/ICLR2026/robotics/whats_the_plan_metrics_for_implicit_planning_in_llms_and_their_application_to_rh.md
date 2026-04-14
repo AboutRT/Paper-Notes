@@ -1,89 +1,116 @@
 ---
 title: >-
-  [论文解读] What's the plan? Metrics for implicit planning in LLMs and their application to rhyme generation and question answering
+  [论文解读] What's the Plan? Metrics for Implicit Planning in LLMs and Their Application to Rhyme Generation and Question Answering
 description: >-
-  [ICLR 2026][机器人][隐式规划] 提出简单的定量方法评估LLM的隐式规划行为——在韵律诗(计划押韵词)和问答(计划答案)两个案例上,通过激活引导干预证明:目标token(押韵/答案)的表示在序列早期位置已形成(前向规划),且影响中间token的生成(后向规划)→在23个1B-32B模型上验证→隐式规划从1B模型即开始出现→是普遍机制。
+  [ICLR2026][LLM可解释性] 提出简单的mean activation difference steering方法定量评估LLM隐式规划——在韵律诗和问答两案例中证明规划表示可在序列早期被定位和操纵，隐式规划从1B模型即出现，是universal mechanism。
 tags:
-  - ICLR 2026
-  - 机器人
-  - 隐式规划
-  - 前向规划
-  - 后向规划
-  - 引导干预
-  - 韵律生成
+  - ICLR2026
+  - LLM_interpretability
+  - implicit_planning
+  - activation_steering
+  - rhyme_generation
+  - mechanistic_interpretability
 ---
 
-# What's the plan? Metrics for implicit planning in LLMs and their application to rhyme generation and question answering
+# What's the Plan? Metrics for Implicit Planning in LLMs and Their Application to Rhyme Generation and Question Answering
 
 **会议**: ICLR 2026  
 **arXiv**: [2601.20164](https://arxiv.org/abs/2601.20164)  
-**领域**: LLM可解释性/规划  
-**关键词**: 隐式规划, 前向规划, 后向规划, 引导干预, 韵律生成
+**代码**: 有（附supplementary material）  
+**领域**: LLM 可解释性 / 机制理解  
+**关键词**: implicit planning, forward planning, backward planning, activation steering, rhyme generation
 
 ## 一句话总结
-提出简单的定量方法评估LLM的隐式规划行为——在韵律诗(计划押韵词)和问答(计划答案)两个案例上,通过激活引导干预证明:目标token(押韵/答案)的表示在序列早期位置已形成(前向规划),且影响中间token的生成(后向规划)→在23个1B-32B模型上验证→隐式规划从1B模型即开始出现→是普遍机制。
+提出 mean activation difference steering 方法和配套定量指标，在韵律诗生成和问答两个案例上跨 23 个开放模型（1B-32B）系统性证明：目标 token（韵脚/答案）的表示在序列早期位置已形成（前向规划），且因果性地影响中间 token 生成（后向规划）——隐式规划从 1B 模型即出现，是普遍机制而非大模型专属。
 
 ## 研究背景与动机
 
-**领域现状**：LLM通过next-token prediction训练→但生成连贯文本→暗含某种"规划"。Lindsey等用cross-layer transcoder在Claude Haiku上定性展示了规划行为→但方法复杂不可扩展。
+**领域现状**：LLM 通过 next-token prediction 训练，却能生成连贯文本。Lindsey et al. (2025) 用 cross-layer transcoder (CLT) 在 Claude 3.5 Haiku 上定性展示了押韵规划行为——模型在第一行末尾已有未来韵脚的表示，且该表示影响第二行中间词生成。
 
-**现有痛点**：
-   - (1) 隐式规划的定量评估方法缺失
-   - (2) 之前仅在大型闭源模型上定性研究→不知道小模型是否也有
-   - (3) 韵律/问答→理想的规划研究窗口→但缺乏系统化实验框架
+**现有痛点**：1）CLT 方法复杂昂贵（单模型训练需 H100 数天），不可扩展到多模型对比；2）Lindsey 的发现局限于单个闭源模型的少量定性示例，不可复现；3）缺乏隐式规划的定量评估指标——没有标准化方法判断"规划程度"。
 
-**切入角度**：简单的mean activation difference steering→可扩展到23个模型→系统化定量研究。
+**核心矛盾**：隐式规划的重要性（关乎 LLM 能力理解和安全）vs 研究方法的复杂性和不可扩展性。
+
+**本文要解决什么？** 用简单可扩展的方法定量研究隐式规划——在多个模型、多个任务上系统性验证。
+
+**切入角度**：韵律诗和问答是隐式规划的理想探针——目标 token 的性质和位置可从通用原则预测，但不由紧邻前文确定。
+
+**核心idea一句话**：mean activation difference steering 在正确位置注入足以操纵前向和后向规划，无需训练 CLT 或 SAE。
 
 ## 方法详解
 
-### 定义
+### 整体框架
+定义前向规划（early position 编码未来目标属性）和后向规划（利用规划表示生成通向目标的中间 token），通过 activation steering 干预二者。韵律案例：操纵第一行末尾的韵族表示 → 观察第二行韵脚和中间词是否改变；问答案例：操纵问题末尾的答案表示 → 观察文章选择和最终答案是否改变。
 
-**前向规划**：在早期位置创建编码未来目标token属性的规划表示
-**后向规划**：利用这些规划表示生成通向目标的中间token
-**隐式规划**：规划表示在隐藏激活中(非显式输出)
+### 关键设计
 
-### 实验方法
+1. **Mean Activation Difference Steering**
+    - 做什么：提取、操纵隐藏激活中的规划表示
+    - 核心思路：对两类 prompt 的特定位置（末尾词/换行符/问号）取隐藏激活均值差作为 steering vector $\mathbf{s}_{C_1 \to C_2}^{(l,i)} = m \cdot (\overline{\mathbf{x}_i^{(l)}}_{C_1} - \overline{\mathbf{x}_i^{(l)}}_{C_2})$，$m=1.5$。在生成时仅对单个 token 位置的 residual stream 加上 steering vector
+    - 设计动机：比 CLT 简单几个数量级，且可扩展到任意模型——只需前向传播提取激活 + 均值差，无需训练
 
-**韵律案例**：
-1. 数据集：10个韵族×1050行诗
-2. 提取第一行末尾的"韵族表示向量"(mean activation difference between rhyme families)
-3. 在新诗第一行末尾注入不同韵族向量→观察:
-   - 第二行末尾的韵是否改变(前向规划验证)
-   - 中间token是否改变以适应新韵(后向规划验证)
+2. **前向规划验证——Fraction of Correct Rhyme Family (Steered)**
+    - 做什么：量化 steering 能否将韵脚从韵族1切换到韵族2
+    - 核心思路：对 1000 个偶句（50 样本 × 20 test prompt），统计 steered 生成中属于目标韵族的比例。若 steering 有效 → 早期位置确实有可操纵的前向规划表示
+    - 设计动机：如果规划表示不在干预位置→干预不会影响韵脚→steering 成功 = 前向规划存在
 
-**问答案例**：
-1. 500个问题×20个目标答案名词
-2. 提取问题末尾的"答案表示向量"
-3. 注入不同答案向量→观察中间token和最终答案变化
+3. **后向规划验证——Regeneration Metric + 概率指标**
+    - 做什么：验证 steering 不仅改变最终韵脚，还改变通向韵脚的中间 token
+    - 核心思路：Regeneration——去掉韵律上下文后重新生成第二行最后一个词，如果中间词仍"通向"目标韵脚 → 后向规划在中间词生成时起了作用。概率指标——比较 steered vs unsteered 的中间 token 概率分布（KL divergence > 1 的位置占比 + 首次 top-1 差异位置）
+    - 设计动机：Regeneration 成功率接近 baseline → steering 确实改变了整条路径而非只替换最后一个词
 
-### 定量指标
-- 前向规划成功率：注入后目标token改变的比例
-- 后向规划成功率：中间token适应性改变的比例
-- 联合成功率：两者同时发生
+### 数据集
+韵律：10 个韵族 × 105 行（Claude 3.5 Sonnet 生成），20 韵族对。问答：20 名词对（元音开头 vs 辅音开头→不同冠词 a/an），每名词 13 训练 + 5 测试 + 7 中性问题。
 
 ## 实验关键数据
 
-### 23个模型(1B-32B)
-| 模型规模 | 前向规划 | 后向规划 | 说明 |
-|---------|---------|---------|------|
-| 1B | 有(弱) | 有(弱) | 首次在此规模发现 |
-| 3-7B | 中 | 中 | 逐步增强 |
-| 14-32B | 强 | 强 | 最明显 |
+### 主实验——23 个模型的韵律规划
+
+| 模型 | 基线韵律率 | Steered韵律率 | 基线Regen率 | Steered Regen率 |
+|------|:---:|:---:|:---:|:---:|
+| Gemma2 9B IT | ~80% | ~75% | ~55% | ~52% |
+| Gemma3 27B IT | ~85% | ~82% | ~60% | ~58% |
+| Llama 3.1 8B IT | ~60% | ~55% | ~40% | ~38% |
+| Gemma3 1B Base | ~25% | ~15% | ~20% | ~12% |
+
+（IT = instruction-tuned; Base = 基座模型）
+
+### 消融实验——Steering 位置分析
+
+| Steering 位置 | Gemma2 9B | Gemma3 27B | 其他模型 |
+|-------------|:---:|:---:|:---:|
+| 最后一个词（低层）| ✓ 有效 | ✓ 有效 | ✓ 全部有效 |
+| 换行符（中层）| ✓ 有效 | ✓ 有效 | ✗ 大多无效 |
 
 ### 关键发现
-- 隐式规划从1B模型即出现→比之前认为的更普遍
-- 韵律和问答→类似的规划机制→不是任务特定
-- 引导干预→改变目标→中间token自动适应→真正的后向规划
-- 不同模型→相似但有差异→某些模型规划"更深"
+- **隐式规划从 1B 模型即出现**：即使最小模型（Gemma3 1B）也展示可检测的前向和后向规划，比之前认为的更普遍
+- **指令微调增强规划**：IT 模型在所有指标上一致优于 base 模型→post-training 可能增强规划能力
+- **跨任务共性**：问答中 steering 同样改变冠词选择（a vs an）→planning 不是韵律特定机制
+- **规划电路定位**（Gemma2 9B）：两个 attention head（L30H3, L31H15）从第一行末尾读取规划信息→activation patching 恢复 59%-93% 的 steering 效果→后续 MLP 层将信息转化为预测
+- **韵律 vs 问答使用不同电路**：韵律电路集中在 L30H3/L31H15，问答中 L39H13 更重要→规划机制通用但电路任务特定
+- **所有韵律指标高度相关**：韵律能力 ↔ 规划能力→二者共同发展
 
 ## 亮点与洞察
-- **"方法的简单性=可扩展性"**：mean activation steering→如此简单→却能系统研究23个模型→方法论贡献大。
-- **1B就有规划**：之前只在大模型/Claude上看到→1B也有→规划可能是autoregressive训练的必然产物。
-- **韵律=完美的规划探针**：必须提前计划押什么韵→中间词必须兼容→这正是规划的定义。
-- **对AI安全的启示**：隐式规划=模型有"意图"→理解这些意图对alignment至关重要。
+- **方法论贡献大于发现本身**：mean activation difference steering 如此简单却能系统研究 23 个模型——将规划研究从"需要 CLT 的 H100 级计算"降维到"任何 GPU 几小时可完成"
+- **1B 就有规划 → autoregressive 训练的必然产物**：如果只需预测下一个 token，为什么要提前规划？因为当前 token 的最优选择依赖于未来意图→即使最小的 LLM 也学到了这种 lookahead
+- **韵律是完美的规划探针**：必须提前计划押什么韵→中间词必须语义兼容→这正是前向+后向规划的定义。问答中冠词选择是类似的但更简单的证据
+- **对 AI 安全的直接含义**：隐式规划 = 模型有"意图尚未表达"的内部状态→理解和监控这些状态对 alignment 至关重要
+
+## 局限性 / 可改进方向
+- Steering 成功率不完美——在弱模型上 steered 韵律率显著低于 baseline，说明规划表示的提取有噪声
+- 仅研究韵律和问答两个案例——更复杂的规划场景（如代码生成、长程推理）需要进一步验证
+- Mean activation difference 是粗糙方法——不区分规划具体词 vs 规划韵族的不同层次
+- 换行符位置的规划仅在部分模型（Gemma2 9B, Gemma3 27B）有效——模型间架构差异如何影响规划电路拓扑未清
+- 电路分析仅深入 Gemma2 9B 一个模型——其他模型是否有类似少数 attention head 主导规划未知
+- 未涉及显式规划（如 CoT）与隐式规划的交互——二者是替代还是互补？
+
+## 相关工作与启发
+- **vs Lindsey et al. (2025) CLT 分析 Claude Haiku**：他们定性展示了规划现象但方法昂贵不可复现；本文用简单方法在 23 个开放模型上定量复现+扩展——方法论降维是核心贡献
+- **vs Turpin et al. (2023) 不忠实 CoT**：他们发现偏置答案后 CoT 会合理化错误答案→隐式前向规划的间接证据；本文直接定量确认
+- **vs Wu et al. (2024), Men et al. (2024) lookahead 研究**：他们在特定模型发现 lookahead 表示，本文在 23 个模型上系统验证→从个案到群体研究的升级
 
 ## 评分
-- 新颖性: ⭐⭐⭐⭐ 定量隐式规划评估方法+23模型系统研究
-- 实验充分度: ⭐⭐⭐⭐⭐ 23模型×2任务+详细分析
-- 写作质量: ⭐⭐⭐⭐⭐ 定义清晰实验直观
-- 价值: ⭐⭐⭐⭐⭐ 对理解LLM内部机制有基础贡献
+- 新颖性: ⭐⭐⭐⭐ 定量隐式规划评估方法 + 23 模型系统研究，方法简单但洞察丰富
+- 实验充分度: ⭐⭐⭐⭐⭐ 23 模型（4 家族×多尺度×base+IT）× 2 任务 + 电路分析 + 注意力消融
+- 写作质量: ⭐⭐⭐⭐ 前向/后向规划定义清晰，实验直观可复现
+- 价值: ⭐⭐⭐⭐⭐ 对理解 LLM 内部机制有基础性贡献，方法论可广泛复用

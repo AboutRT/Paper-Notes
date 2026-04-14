@@ -229,7 +229,7 @@ description: >-
 
 **[Dreamview Injecting Viewspecific Text Guidance Into Textto3D](3d_vision/dreamview_injecting_viewspecific_text_guidance_into_textto3d.md)**
 
-:   DreamView通过自适应引导注入模块协调全局和视角特定文本实现3D定制化生成。
+:   提出DreamView，通过自适应引导注入模块在扩散模型每个U-Net block中动态选择全局文本或视角特定文本作为条件，实现视角级3D定制化生成（如T恤正反面不同图案），同时保持实例级一致性，用户偏好率74.5%。
 
 **[Dspdet3D 3D Small Object Detection With Dynamic Spatial Pruning](3d_vision/dspdet3d_3d_small_object_detection_with_dynamic_spatial_pruning.md)**
 
@@ -377,7 +377,7 @@ description: >-
 
 **[Jointdreamer Ensuring Geometry Consistency And Text Congruen](3d_vision/jointdreamer_ensuring_geometry_consistency_and_text_congruen.md)**
 
-:   JointDreamer提出JSD通过能量函数建模多视角联合分布确保3D一致性。
+:   提出Joint Score Distillation（JSD），通过能量函数建模多视角联合图像分布，将SDS从单视角独立优化扩展为多视角联合优化，从根本上缓解Text-to-3D中的Janus多面问题，在CLIP R-Precision上达到88.5%、User Study偏好率42.1%。
 
 **[Jointdreamer Ensuring Geometry Consistency And Text Congruence In Text-To-3D Gen](3d_vision/jointdreamer_ensuring_geometry_consistency_and_text_congruence_in_text-to-3d_gen.md)**
 
@@ -657,7 +657,7 @@ description: >-
 
 **[View Selection For 3D Captioning Via Diffusion Ranking](3d_vision/view_selection_for_3d_captioning_via_diffusion_ranking.md)**
 
-:   DiffuRank用预训练text-to-3D扩散模型评估视角对齐度选择最佳视角减少幻觉。
+:   提出DiffuRank方法，利用预训练text-to-3D扩散模型（Shap·E）对3D物体渲染视角进行对齐度评分和排序，选出最具代表性的Top-6视角送入GPT4-Vision生成高质量字幕，修正Cap3D中约200k错误标注并扩展至150万条字幕。
 
 **[Vista3D Unravel The 3D Darkside Of A Single Image](3d_vision/vista3d_unravel_the_3d_darkside_of_a_single_image.md)**
 
@@ -757,7 +757,7 @@ description: >-
 
 **[Difftracker Texttoimage Diffusion Models Are Unsupervised Tr](image_generation/difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md)**
 
-:   Diff-Tracker利用预训练T2I扩散模型知识进行无监督跟踪，学习prompt在cross-attention上激活目标区域。
+:   首次将预训练T2I扩散模型（Stable Diffusion）应用于无监督视觉跟踪，通过初始提示学习器在cross-attention图上激活目标区域、在线提示更新器融合长短期运动信息动态适应目标运动，在5个基准上全面超越此前最优无监督跟踪器（TrackingNet Success 0.675, VOT2018 EAO 0.365）。
 
 **[Diffusion-Based Image-To-Image Translation By Noise Correction Via Prompt Interp](image_generation/diffusion-based_image-to-image_translation_by_noise_correction_via_prompt_interp.md)**
 
@@ -825,7 +825,7 @@ description: >-
 
 **[Freediff Progressive Frequency Truncation For Image Edi](image_generation/freediff_progressive_frequency_truncation_for_image_edi.md)**
 
-:   提出 FreeDiff，通过渐进式频率截断从频域精化扩散模型的编辑引导信号，无需微调或修改网络结构，实现覆盖多种编辑类型的通用图像编辑方法。
+:   从频域视角重新审视扩散模型的去噪过程，发现引导信号中低频成分过强是编辑失真的根本原因，提出渐进式频率截断方法 FreeDiff，无需微调或注意力操作即可实现通用图像编辑。
 
 **[Freediff Progressive Frequency Truncation For Image Editing With Diffusion Model](image_generation/freediff_progressive_frequency_truncation_for_image_editing_with_diffusion_model.md)**
 
@@ -901,7 +901,7 @@ description: >-
 
 **[Latent Guard A Safety Framework For Texttoimage Generation](image_generation/latent_guard_a_safety_framework_for_texttoimage_generation.md)**
 
-:   Latent Guard在T2I文本编码器上学习潜在空间检测黑名单概念。
+:   提出Latent Guard框架，在T2I模型文本编码器之上学习一个潜在空间，通过对比学习将黑名单概念与包含该概念的输入prompt映射到相近位置，实现高效的不安全prompt检测（ID Explicit AUC 0.985），支持黑名单测试时灵活更新且无需重训练。
 
 **[Lazy Diffusion Transformer For Interactive Image Editing](image_generation/lazy_diffusion_transformer_for_interactive_image_editing.md)**
 
@@ -981,7 +981,7 @@ description: >-
 
 **[Motionchain Conversational Motion Controllers Via Multimodal](image_generation/motionchain_conversational_motion_controllers_via_multimodal.md)**
 
-:   MotionChain构建视觉-运动语言模型，通过VQ-VAE将动作token化支持多轮对话运动生成。
+:   提出MotionChain——首个多轮对话式人体运动控制器，通过VQ-VAE运动tokenizer将3D运动编码为离散token，与文本和视觉token统一在语言模型词表中，实现基于多模态多轮对话的连续运动生成，在运动推理任务上Bleu@1达37.92、时序运动组合MPJPE降至276.05mm。
 
 **[Motionchain Conversational Motion Controllers Via Multimodal Prompts](image_generation/motionchain_conversational_motion_controllers_via_multimodal_prompts.md)**
 
@@ -1033,7 +1033,7 @@ description: >-
 
 **[Powerful And Flexible Personalized Texttoimage Generation Vi](image_generation/powerful_and_flexible_personalized_texttoimage_generation_vi.md)**
 
-:   将个性化T2I建模为DPG框架，引入Q函数和向前看机制捕获长期视觉一致性。
+:   将个性化T2I生成建模为确定性策略梯度（DPG）框架——扩散模型作为策略、去噪步骤作为动作——引入"向前看"机制捕获长期视觉一致性和DINO相似度奖励，在DreamBooth基准上DINO得分从0.694提升至0.738（+6.3%），CLIP-I从0.762提升至0.797（+4.6%）。
 
 **[Realistic Human Motion Generation With Cross-Diffusion Models](image_generation/realistic_human_motion_generation_with_cross-diffusion_models.md)**
 
@@ -1177,7 +1177,7 @@ description: >-
 
 **[Adashield Safeguarding Multimodal Large Language Models From Structure-Based Att](multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md)**
 
-:   AdaShield通过在MLLM输入前添加防御提示(defense prompt)来防御结构化越狱攻击（图像中嵌入有害文本），提出静态手动提示和自适应自动精化框架两种方案，无需微调模型即可显著提升安全性且不损害正常能力。
+:   提出AdaShield框架，通过精心设计的静态防御提示(AdaShield-S)和基于LLM的自适应迭代优化框架(AdaShield-A)，在不微调MLLM或训练额外模块的前提下，有效防御结构化越狱攻击，将攻击成功率从75%以上降至15%以下并保持正常任务性能。
 
 **[Addressclip Empowering Vision-Language Models For City-Wide Image Address Locali](multimodal_vlm/addressclip_empowering_vision-language_models_for_city-wide_image_address_locali.md)**
 
@@ -1193,7 +1193,7 @@ description: >-
 
 **[Attention Prompting On Image For Large Visionlanguage Models](multimodal_vlm/attention_prompting_on_image_for_large_visionlanguage_models.md)**
 
-:   API用辅助VLM根据文本查询生成注意力热力图叠加原图，引导LVLM关注相关区域。
+:   提出Attention Prompting on Image（API），用辅助VLM（如CLIP或LLaVA）根据文本查询生成注意力归因热力图，将其叠加到原始图像上作为视觉提示，在无需训练的情况下提升LVLM在多个VL基准上的表现（LLaVA-1.5 在MM-Vet上+3.8%）。
 
 **[Bad Students Make Great Teachers Active Learning Accelerates Large-Scale Visual ](multimodal_vlm/bad_students_make_great_teachers_active_learning_accelerates_large-scale_visual_.md)**
 
@@ -1237,7 +1237,7 @@ description: >-
 
 **[Decoupling Common And Unique Representations For Multimodal ](multimodal_vlm/decoupling_common_and_unique_representations_for_multimodal_.md)**
 
-:   DeCUR将嵌入维度分为跨模态公共和模态独特维度进行多模态自监督学习。
+:   将Barlow Twins扩展到多模态场景，通过将嵌入维度显式分为跨模态公共（对齐到identity矩阵）和模态独特（推到零矩阵）两部分，配合模态内自监督训练避免退化，在SAR-光学、RGB-DEM、RGB-深度三类场景中一致超越SimCLR-cross和Barlow Twins基线。
 
 **[Decoupling Common And Unique Representations For Multimodal Self-Supervised Lear](multimodal_vlm/decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)**
 
@@ -1249,7 +1249,7 @@ description: >-
 
 **[Elevating All Zeroshot Sketchbased Image Retrieval Through M](multimodal_vlm/elevating_all_zeroshot_sketchbased_image_retrieval_through_m.md)**
 
-:   SpLIP提出双向prompt共享用于零样本sketch检索，配合自适应margin和跨模态拼图任务。
+:   提出SpLIP，在冻结CLIP backbone上实现双向prompt共享（视觉→文本、文本→视觉），结合自适应margin三元组损失和条件跨模态拼图任务，首次将多模态prompt learning引入ZS-SBIR，在Sketchy-Ext、TU-Berlin-Ext、QuickDraw-Ext上全面超越现有方法。
 
 **[Eyes Closed Safety On Protecting Multimodal Llms Via Image-To-Text Transformatio](multimodal_vlm/eyes_closed_safety_on_protecting_multimodal_llms_via_image-to-text_transformatio.md)**
 
@@ -1265,7 +1265,7 @@ description: >-
 
 **[Flexattention For Efficient Highresolution Visionlanguage Mo](multimodal_vlm/flexattention_for_efficient_highresolution_visionlanguage_mo.md)**
 
-:   FlexAttention动态选择约10%高分辨率token进行层次自注意力，计算成本降40%且性能超越。
+:   提出FlexAttention注意力机制，通过注意力图引导动态选取约10%的高分辨率token并经层次化自注意力融合到LLM隐状态中，实现计算成本降低约40%的同时在V* Bench等高分辨率基准上超越现有方法。
 
 **[Freemotion Mocap-Free Human Motion Synthesis With Multimodal Large Language Mode](multimodal_vlm/freemotion_mocap-free_human_motion_synthesis_with_multimodal_large_language_mode.md)**
 
@@ -1369,7 +1369,7 @@ description: >-
 
 **[Omniviewtuning Boosting Viewpoint Invariance Of Visionlangua](multimodal_vlm/omniviewtuning_boosting_viewpoint_invariance_of_visionlangua.md)**
 
-:   OVT构建400万+MVCap数据集+Cross-Viewpoint Alignment提升VLP视角不变性。
+:   构建460万多视角图文对数据集MVCap，提出Omniview-Tuning（OVT）框架，通过minimax式Cross-Viewpoint Alignment目标 + LoRA/VIFormer参数高效微调，在不损失原始性能的前提下将CLIP在视角OOD基准上的准确率平均提升约9-10%。
 
 **[Quantized Prompt For Efficient Generalization Of Vision-Language Models](multimodal_vlm/quantized_prompt_for_efficient_generalization_of_vision-language_models.md)**
 
@@ -1389,7 +1389,7 @@ description: >-
 
 **[Robust Calibration Of Large Visionlanguage Adapters](multimodal_vlm/robust_calibration_of_large_visionlanguage_adapters.md)**
 
-:   CLIP适配方法OOD校准退化的根因是logit范围增大，提出SaLS等方案。
+:   发现CLIP适配方法（Prompt Learning、Adapters、Test-Time Adaptation）在OOD上的校准退化根因是logit范围（range）增大而非logit范数（norm），提出三种方案——ZS-Norm、Penalty和SaLS（Sample-adaptive Logit Scaling），其中SaLS无需训练即可在推理时将ECE降低50%以上。
 
 **[Select And Distill Selective Dual-Teacher Knowledge Transfer For Continual Learn](multimodal_vlm/select_and_distill_selective_dual-teacher_knowledge_transfer_for_continual_learn.md)**
 
@@ -1929,7 +1929,7 @@ description: >-
 
 **[Aden Adaptive Density Representations For Sparseview Camera](human_understanding/aden_adaptive_density_representations_for_sparseview_camera.md)**
 
-:   ADen提出生成器-判别器框架统一位姿回归和概率位姿估计：生成器输出多个6DoF位姿假设来建模多模态分布（处理对称歧义），判别器选出最佳假设，在稀疏视角位姿估计上同时实现了更高精度和更低运行时间。
+:   提出ADen框架，通过生成器输出多个位姿假设+判别器评分选择最佳的方式，统一了位姿回归和概率估计范式，仅需500个自适应样本即超越需要500K均匀采样的方法，同时实现实时推理。
 
 **[Alignist Cad-Informed Orientation Distribution Estimation By Fusing Shape And Co](human_understanding/alignist_cad-informed_orientation_distribution_estimation_by_fusing_shape_and_co.md)**
 
@@ -2197,7 +2197,7 @@ description: >-
 
 **[Nymeria A Massive Collection Of Multimodal Egocentric Daily ](video_understanding/nymeria_a_massive_collection_of_multimodal_egocentric_daily_.md)**
 
-:   Nymeria是全球最大野外人体运动数据集，300h/264人多设备多模态自我中心数据和310.5K句语言描述。
+:   构建了全球最大的野外人体运动数据集Nymeria：300小时日常活动、264人、50个场景、多设备多模态自我中心数据（Project Aria眼镜+手环+动捕服），配备亚毫秒级同步和310.5K句层次化运动语言描述。
 
 **[Nymeria A Massive Collection Of Multimodal Egocentric Daily Motion In The Wild](video_understanding/nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild.md)**
 
@@ -2217,7 +2217,7 @@ description: >-
 
 **[R2Tuning Efficient Imagetovideo Transfer Learning For Video](video_understanding/r2tuning_efficient_imagetovideo_transfer_learning_for_video.md)**
 
-:   R²-Tuning提出了一个仅需1.5%参数的轻量R²Block，通过从CLIP后层向前层的逆向递归方式聚合多层空间特征并精化时序关联，在6个VTG基准上以2.7M参数超越了使用额外时序骨干的4倍大方法。
+:   提出 R²-Tuning，通过在冻结 CLIP 的后几层反向递归附加轻量 R² Block（仅 1.5% 总参数），实现查询调制的空间池化和粗到细的时序精炼，在 6 个 VTG 基准 3 个任务上以 2.7M 参数超越了需要额外时序骨干网络的 SOTA 方法。
 
 **[Referring Atomic Video Action Recognition](video_understanding/referring_atomic_video_action_recognition.md)**
 
@@ -2517,7 +2517,7 @@ description: >-
 
 **[Textttnephi Neural Deformation Fields For Approximately Diff](medical_imaging/textttnephi_neural_deformation_fields_for_approximately_diff.md)**
 
-:   NePhi用隐式神经网络（SIREN）替代传统的体素化形变场来表示配准变换，通过编码器预测latent code + 可选的测试时优化实现快速且近似微分同胚的医学图像配准，在多分辨率设置下与SOTA精度相当但内存降低5倍。
+:   NePhi 提出用神经隐式函数（SIREN）替代传统体素形变场来表示图像配准中的形变，通过编码器预测潜码实现快速推理、通过实例优化提升精度，在肺部和脑部 3D 配准任务中匹配 SOTA 精度的同时将训练内存降低 5 倍，且天然产生近似微分同胚的光滑形变。
 
 **[Tip Tabular-Image Pre-Training For Multimodal Classification With Incomplete Dat](medical_imaging/tip_tabular-image_pre-training_for_multimodal_classification_with_incomplete_dat.md)**
 
@@ -2633,7 +2633,7 @@ description: >-
 
 **[Adaptive Selection Of Samplingreconstruction In Fourier Comp](model_compression/adaptive_selection_of_samplingreconstruction_in_fourier_comp.md)**
 
-:   提出ℋ1.5框架：为每个输入数据自适应选择最佳采样mask-重建网络对（J=3对），利用超分辨率空间生成模型量化高频贝叶斯不确定性来决定采样策略，理论证明优于联合优化ℋ1（非自适应）和自适应采样ℋ2（Pareto次优）。
+:   提出自适应选择采样-重建框架 $\mathcal{H}_{1.5}$，为每个输入数据自适应选择最佳的采样mask与专用重建网络对，利用超分辨率空间生成模型量化高频不确定性实现选择，理论证明优于非自适应联合优化 $\mathcal{H}_1$ 和自适应采样 $\mathcal{H}_2$。
 
 **[Anytime Continual Learning For Open Vocabulary Classification](model_compression/anytime_continual_learning_for_open_vocabulary_classification.md)**
 
@@ -2941,7 +2941,7 @@ description: >-
 
 **[Artvlm Attribute Recognition Through Visionbased Prefix Lang](information_retrieval/artvlm_attribute_recognition_through_visionbased_prefix_lang.md)**
 
-:   ArtVLM将属性识别定义为语言建模问题，PrefixLM生成式检索灵活建模物体-属性条件依赖。
+:   将视觉属性识别重新建模为基于PrefixLM的句子生成概率评估问题，通过设计不同句子模板灵活构建"物体-属性"条件依赖的概率图模型（元模型），在零样本和微调设定下均显著优于CLIP风格的对比式检索。
 
 **[Grounding Language Models For Visual Entity Recognition](information_retrieval/grounding_language_models_for_visual_entity_recognition.md)**
 
@@ -3133,7 +3133,7 @@ description: >-
 
 **[Bimdrg Bridging Image History In Multimodal Dialogue Respons](dialogue/bimdrg_bridging_image_history_in_multimodal_dialogue_respons.md)**
 
-:   BI-MDRG通过视觉交叉注意力和Citation Module桥接图像历史增强多模态对话。
+:   在多模态对话响应生成（MDRG）中，通过视觉交叉注意力层+注意力掩码调制桥接图像历史到文本回复，通过Citation Module标注跨轮重复物体并结合定制化T2I模型生成一致的图像回复。
 
 ---
 

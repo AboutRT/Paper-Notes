@@ -12,7 +12,7 @@ description: >-
 
 **[Blueglass A Framework For Composite Ai Safety](blueglass_a_framework_for_composite_ai_safety.md)**
 
-:   提出 BlueGlass——一个统一的复合 AI 安全框架，集成分布评估、探针分析和稀疏自编码器等多种安全工具，在视觉语言模型的目标检测任务上揭示了性能权衡、层级学习的相变现象和可解释概念。
+:   提出 BlueGlass 复合 AI 安全框架，通过统一基础设施整合分布式评估、近似探针和稀疏自编码器三种安全分析工具，对视觉语言模型（VLM）在目标检测任务上的能力边界、层级动态和内部概念表示进行系统性安全分析。
 
 **[Discovering Global False Negatives On The Fly For Self-Supervised Contrastive Le](discovering_global_false_negatives_on_the_fly_for_self-supervised_contrastive_le.md)**
 

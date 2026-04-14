@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 对齐/RLHF方向 61篇论文解读
+  ACL2025 对齐/RLHF方向 60篇论文解读
 description: >-
-  61篇ACL2025 对齐/RLHF方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  60篇ACL2025 对齐/RLHF方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**💬 ACL2025** · 共 **61** 篇
+**💬 ACL2025** · 共 **60** 篇
 
 **[Agentalign Navigating Safety Alignment In The Shift From Informative To Agentic ](agentalign_navigating_safety_alignment_in_the_shift_from_informative_to_agentic_.md)**
 
@@ -28,7 +28,7 @@ description: >-
 
 **[Aspo Adaptive Sentence-Level Preference Optimization For Fine-Grained Multimodal](aspo_adaptive_sentence-level_preference_optimization_for_fine-grained_multimodal.md)**
 
-:   提出 ASPO（Adaptive Sentence-level Preference Optimization）——将 DPO 的偏好单元从"整个回复"细化到"每个句子"，为每个句子动态计算自适应奖励值（基于模型自身预测评估正确性和重要性），在多模态推理任务上显著优于传统回复级 DPO，有效减少幻觉并提升细粒度推理能力。
+:   将 DPO 的偏好优化粒度从回复级细化到句子级，通过图文相似度和文本困惑度两个维度动态计算每个句子的自适应奖励权重，在 LLaVA-1.5-7B/13B 和 InstructBLIP-13B 上分别带来平均 2.57/2.87/1.98 分提升，同时显著降低幻觉率。
 
 **[Atyaephyra At Semeval-2025 Task 4 Low-Rank Negative Preference Optimization](atyaephyra_at_semeval-2025_task_4_low-rank_negative_preference_optimization.md)**
 
@@ -54,11 +54,9 @@ description: >-
 
 :   基于精细化可能性模型 (ELM) 将越狱策略分解为四类可独立进化的组件（角色/内容支撑/语境/沟通技巧），提出 CL-GSO 遗传算法在组件级进行交叉与变异，将策略空间从既有方法的 40 种扩展到 839 种，在 Claude-3.5 上实现 96% 攻击成功率（此前方法最高仅 4%），同时提出基于意图一致性的评估机制，准确率达 96.5% 超越专用安全模型。
 
-**[Call for Rigor in Reporting Quality of Instruction Tuning Data](call_for_rigor_in_reporting_quality_of_instruction_tuning_data.md)**
+**[Call For Rigor In Reporting Quality Of Instruction Tuning Data](call_for_rigor_in_reporting_quality_of_instruction_tuning_data.md)**
 
-**[Chain-of-Jailbreak Attack for Image Generation Models via Editing Step by Step](chain-of-jailbreak_attack_for_image_generation_models_via_ed.md)**
-
-:   提出 CoJ（Chain-of-Jailbreak）攻击，将生成恶意图像的单步请求分解为多步编辑指令链（从无害种子图像逐步编辑到目标），绕过图像生成模型的安全过滤器，在 GPT-4o 等模型上达到高攻击成功率。
+:   通过系统性的 16 种超参数组合实验，揭示了指令微调数据质量评估中的严重问题——研究者对训练超参数的任意选择可以导致完全相反的「数据 A 优于数据 B」的结论，呼吁在报告数据质量时必须采用经过验证的超参数设置。
 
 **[Chain-Of-Jailbreak Attack For Image Generation Models Via Editing Step By Step](chain-of-jailbreak_attack_for_image_generation_models_via_editing_step_by_step.md)**
 
@@ -130,7 +128,7 @@ description: >-
 
 **[Jailbreakradar Comprehensive Assessment Jailbreak Attacks](jailbreakradar_comprehensive_assessment_jailbreak_attacks.md)**
 
-:   本文提出了一个全面的越狱攻击评估框架 JailbreakRadar，收集了17种代表性越狱攻击方法，建立了六类攻击分类体系，并在9个对齐LLM上进行了大规模系统性评测，揭示了不同类型攻击在实用性和防御鲁棒性上的关键差异。
+:   首个覆盖自动和非自动越狱攻击的统一全面评估框架：收集17种代表性越狱攻击，建立六类攻击分类体系，在9个对齐LLM×8种防御策略下进行大规模系统评测，揭示启发式攻击"高ASR但低实用性"的关键洞察。
 
 **[Jsontuning Towards Generalizable Robust And Controllable Instruction Tuning](jsontuning_towards_generalizable_robust_and_controllable_instruction_tuning.md)**
 
@@ -138,7 +136,7 @@ description: >-
 
 **[Kpo Protein Safety](kpo_protein_safety.md)**
 
-:   提出知识引导偏好优化（KPO）框架，通过蛋白质安全知识图谱识别安全/危险序列作为偏好信号，用强化学习训练蛋白质语言模型减少有害蛋白质序列的生成概率，同时保持功能性——为蛋白质生成的生物安全提供保障框架。
+:   提出KPO框架，通过构建蛋白质安全知识图谱(PSKG)并结合加权图剪枝策略识别"相似但安全"的蛋白质对，用DPO微调蛋白质语言模型使其远离有害序列空间，同时保持功能性。
 
 **[Llms Caught In The Crossfire Malware Requests And Jailbreak Challenges](llms_caught_in_the_crossfire_malware_requests_and_jailbreak_challenges.md)**
 
@@ -186,7 +184,7 @@ description: >-
 
 **[Probability-Consistent Preference Optimization For Enhanced Llm Reasoning](probability-consistent_preference_optimization_for_enhanced_llm_reasoning.md)**
 
-:   提出 PCPO（Probability-Consistent Preference Optimization），在偏好对选择时同时考虑答案正确性和 token 级概率一致性（用 Levenshtein 距离过滤+概率一致性评分），并在 DPO 损失中按一致性加权，在 GSM8K/MATH-500/Olympiadbench 上一致超越标准 DPO 和 ScPO。
+:   > PCPO 在偏好对选择阶段引入 token 级概率一致性指标，选出答案正确且推理过程与错误回答最"相似"的配对进行 DPO 训练，让模型聚焦关键推理差异，在多个数学推理 benchmark 上一致超越 IRPO/ScPO。
 
 **[Queryattack Jailbreaking Aligned Large Language Models Using Structured Non-Natu](queryattack_jailbreaking_aligned_large_language_models_using_structured_non-natu.md)**
 
@@ -246,7 +244,7 @@ description: >-
 
 **[Tmcht Contagious Jailbreak Multiagent](tmcht_contagious_jailbreak_multiagent.md)**
 
-:   提出 TMCHT 多智能体多拓扑攻击评估框架和 ARCJ（对抗性复制传染越狱）方法，解决了多智能体系统中单智能体攻击方法面临的"毒性消散"问题——通过优化检索后缀确保中毒样本易被检索，优化复制后缀使中毒信息具有传染性自我复制能力，在 line/star 拓扑和 100 智能体系统中分别提升 23.51%/18.95%/52.93% 的攻击成功率。
+:   提出TMCHT（大规模多智能体多拓扑文本攻击评估框架）和ARCJ（对抗性复制传染越狱）方法——通过优化检索后缀提高毒性样本被检索概率+优化复制后缀使毒性信息具有自我复制传染能力，解决了多智能体系统中单智能体攻击方法面临的"毒性消散"问题。
 
 **[Upcycling Instruction Tuning From Dense To Mixture-Of-Experts Via Parameter Merg](upcycling_instruction_tuning_from_dense_to_mixture-of-experts_via_parameter_merg.md)**
 

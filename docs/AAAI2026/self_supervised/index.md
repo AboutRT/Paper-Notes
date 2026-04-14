@@ -56,4 +56,4 @@ description: >-
 
 **[Towards Llm-Empowered Knowledge Tracing Via Llm-Student Hierarchical Behavior Al](towards_llm-empowered_knowledge_tracing_via_llm-student_hierarchical_behavior_al.md)**
 
-:   提出 L-HAKT 框架，利用 LLM 双 Agent（Teacher + Student）生成合成数据，在双曲空间中进行对比对齐，将知识点的树状层级结构显式建模到知识追踪中。
+:   提出 L-HAKT 框架，首次将 LLM 双 Agent 与双曲几何结合用于知识追踪：教师 Agent 解析题目语义并构建层级知识图谱，学生 Agent 模拟个体学习行为生成合成数据，通过双曲空间对比对齐校准合成数据与真实数据的分布差异，在四个教育数据集上 AUC 最高达 80.29%，相比 GKT 基线在 EdNet 上 AUC 提升 13.03%。

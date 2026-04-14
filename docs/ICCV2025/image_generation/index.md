@@ -44,7 +44,7 @@ description: >-
 
 **[Aether Geometricaware Unified World Modeling](aether_geometricaware_unified_world_modeling.md)**
 
-:   提出Aether统一框架，通过任务交错特征学习联合优化4D动态重建、动作条件视频预测和目标条件视觉规划三个核心能力，实现geometry-aware的世界建模，纯合成数据训练即可零样本泛化到真实世界。
+:   提出Aether统一世界模型，在合成RGB-D数据上后训练CogVideoX视频扩散模型，通过随机组合输入/输出模态的多任务训练策略，同时实现4D重建、动作条件视频预测和目标条件视觉规划，且零样本迁移到真实世界数据达到与领域专用模型可比的性能。
 
 **[Aid Adapting Image2Video Diffusion Models For Instruction-Guided Video Predictio](aid_adapting_image2video_diffusion_models_for_instruction-guided_video_predictio.md)**
 
@@ -172,7 +172,7 @@ description: >-
 
 **[Dense2Moe Restructuring Diffusion Transformer To Moe For Eff](dense2moe_restructuring_diffusion_transformer_to_moe_for_eff.md)**
 
-:   首次将预训练的dense DiT（如FLUX.1）转换为Mixture-of-Experts结构实现结构化稀疏推理，通过Taylor度量专家初始化+知识蒸馏+Mixture-of-Blocks进一步稀疏化，在激活参数减少60%的同时保持原始生成质量，全面超越剪枝方法。
+:   首次将预训练的dense DiT（FLUX.1 [dev] 12B参数）通过三步蒸馏pipeline转换为结构化稀疏的MoE架构——用MoE层替换FFN实现token级稀疏、用Mixture of Blocks（MoB）实现block级动态跳过——激活参数从12B降至5.2B（减少56%+）的同时保持原始性能，全面超越同等压缩比的剪枝方法。
 
 **[Dense2Moe Restructuring Diffusion Transformer To Moe For Efficient Text-To-Image](dense2moe_restructuring_diffusion_transformer_to_moe_for_efficient_text-to-image.md)**
 
