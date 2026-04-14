@@ -11,6 +11,14 @@
   display: none;
 }
 
+/* ── Make header title clickable ── */
+.md-header__title {
+  cursor: pointer;
+}
+.md-header__title:hover .md-ellipsis {
+  opacity: 0.8;
+}
+
 /* ── Light mode: custom dark header ── */
 :root,
 [data-md-color-scheme="default"] {
