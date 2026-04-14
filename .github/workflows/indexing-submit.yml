@@ -41,11 +41,11 @@ jobs:
     env:
       HAS_GOOGLE_KEY: ${{ secrets.GOOGLE_INDEXING_SA_KEY != '' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 2  # 需要 HEAD~1 用于 git diff
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -90,10 +90,11 @@ jobs:
 
       - name: Save progress
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: indexing-progress
           path: logs/indexing_progress.json
+          if-no-files-found: ignore
           retention-days: 90
 
       - name: Cleanup credentials
