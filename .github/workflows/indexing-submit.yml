@@ -86,7 +86,7 @@ jobs:
             ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
           fi
 
-          python src/indexing_submit.py $ARGS
+          python scripts/indexing_submit.py $ARGS
 
       - name: Save progress
         if: always()
