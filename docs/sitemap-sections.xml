@@ -2,46 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/AAAI2026/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/ACL2025/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/CVPR2025/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/CVPR2026/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/ECCV2024/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/ICCV2025/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/ICLR2026/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/ICML2025/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zhaoyang97.github.io/Paper-Notes/NeurIPS2025/</loc>
-    <lastmod>2026-04-12</lastmod>
-  </url>
-  <url>
-    <loc>https://zhaoyang97.github.io/Paper-Notes/arxiv2026/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
