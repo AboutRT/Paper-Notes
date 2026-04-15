@@ -81,8 +81,8 @@ UniFS包含三个全共享组件（无任务特定设计）：
 
 - **总损失**：$L_{point} = |P_i - \hat{P}_i| + L_{SAPL}$，加上RPN和分类损失
 - **两阶段迁移学习**：
-  - Base class training：在60个基类上联合训练检测+分割+姿态估计（计数任务保留不训练）
-  - Novel class finetuning：在K个样本上微调，学习率降至0.01
+    - Base class training：在60个基类上联合训练检测+分割+姿态估计（计数任务保留不训练）
+    - Novel class finetuning：在K个样本上微调，学习率降至0.01
 - **训练配置**：batch=32(4/GPU × 8GPU)，lr=0.028，SGD，最多55K iterations
 - **结果取10个seed的平均值**，确保可靠性
 

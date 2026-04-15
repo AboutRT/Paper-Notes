@@ -62,9 +62,9 @@ tags:
 
     - 功能：通过三阶段训练逐步释放模型容量
     - 核心思路：
-      - **Stage 1 (Embedding Alignment)**：仅训练新增的视觉 token embedding，冻结所有 LLM 参数。数据以基础 image-caption 对为主
-      - **Stage 2 (Selective Fine-tuning)**：解冻前 25% 的 Transformer 层，数据逐渐加入感知任务（详细视觉属性描述）
-      - **Stage 3 (Full Fine-tuning)**：解冻全部参数，数据侧重复杂推理和指令跟随任务
+        - **Stage 1 (Embedding Alignment)**：仅训练新增的视觉 token embedding，冻结所有 LLM 参数。数据以基础 image-caption 对为主
+        - **Stage 2 (Selective Fine-tuning)**：解冻前 25% 的 Transformer 层，数据逐渐加入感知任务（详细视觉属性描述）
+        - **Stage 3 (Full Fine-tuning)**：解冻全部参数，数据侧重复杂推理和指令跟随任务
     - 设计动机：BPE token 具有层次性——底层 token 对应简单图像块，高层 token 编码复杂视觉模式。训练也需要匹配这个层次：先让 token 学会基础语义映射，再逐步挑战复杂推理任务。这与直接全参数微调相比，避免了语言能力的灾难性遗忘
 
 ### 损失函数 / 训练策略

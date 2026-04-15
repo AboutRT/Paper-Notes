@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Predicting Through Generation: Why Generation Is Better for Prediction
 description: >-
-   本文从信息论角度证明了token级生成比pooled表示保留更多互信息，提出PredGen框架通过scheduled sampling和task adapter解决生成式预测中的exposure bias和格式不匹配问题，并设计了Writer-Director Alignment Loss统一生成与预测目标。
+  [ACL2025][PredGen] 本文从信息论角度证明了token级生成比pooled表示保留更多互信息，提出PredGen框架通过scheduled sampling和task adapter解决生成式预测中的exposure bias和格式不匹配问题，并设计了Writer-Director Alignment Loss统一生成与预测目标。
 tags:
-
+  - ACL2025
+  - PredGen
+  - Generation for Prediction
+  - Data Processing Inequality
+  - Exposure Bias
+  - Task Adapter
 ---
 
 # Predicting Through Generation: Why Generation Is Better for Prediction
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2502.17817](https://arxiv.org/abs/2502.17817) |
-| 代码 | [GitHub](https://github.com/Kowsher/PredGen) |
-| 领域 | LLM预测 / 生成式预测 / 信息论 |
-| 关键词 | PredGen, Generation for Prediction, Data Processing Inequality, Exposure Bias, Task Adapter |
+**会议**: ACL2025  
+**arXiv**: [2502.17817](https://arxiv.org/abs/2502.17817)  
+**代码**: [GitHub](https://github.com/Kowsher/PredGen)  
+**领域**: LLM预测 / 生成式预测 / 信息论  
+**关键词**: PredGen, Generation for Prediction, Data Processing Inequality, Exposure Bias, Task Adapter  
 
 ## 一句话总结
 

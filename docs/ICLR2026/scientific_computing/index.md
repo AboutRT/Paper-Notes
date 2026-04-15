@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧮 科学计算
 
-**🔬 ICLR2026** · 共 **8** 篇
+**🔬 ICLR2026** · **8** 篇论文解读
 
 **[Astral Training Physics-Informed Neural Networks With Error Majorants](astral_training_physics-informed_neural_networks_with_error_majorants.md)**
 

@@ -73,9 +73,9 @@ JPNeO由三个组件构成：
 
 - **做什么**：解决色度下采样引起的信息损失，学习原始图像的高频分量
 - **核心思路**：
-  - 用EDSR-baseline提取RGB图像特征$\mathbf{z} \in \mathbb{R}^{H \times W \times K}$
-  - 在下采样坐标处采样并用Galerkin注意力机制处理
-  - 加上传统下采样结果形成残差：$\hat{\mathbf{X}} = \mathcal{G}_\phi(\mathcal{S}(f_\xi(\mathbf{X}), \delta)) + \mathbf{X}'$
+    - 用EDSR-baseline提取RGB图像特征$\mathbf{z} \in \mathbb{R}^{H \times W \times K}$
+    - 在下采样坐标处采样并用Galerkin注意力机制处理
+    - 加上传统下采样结果形成残差：$\hat{\mathbf{X}} = \mathcal{G}_\phi(\mathcal{S}(f_\xi(\mathbf{X}), \delta)) + \mathbf{X}'$
 - **关键性质**：JENO学习的实质是高通滤波器——$U(E_\varphi(\mathbf{X})) \simeq HPF(\mathbf{X})$，补偿下采样丢失的高频信息
 - **训练目标**：$\hat{\varphi} = \arg\min_\varphi \|\mathbf{X} - U(\hat{\mathbf{X}}_\varphi)\|_1$
 
@@ -83,10 +83,10 @@ JPNeO由三个组件构成：
 
 - **做什么**：直接从DCT频谱解码高质量图像，替代传统JPEG解码器
 - **核心思路**：
-  - **Group Embedding**：将亮度和色度频谱嵌入为统一表示，支持4:2:0/4:2:2/4:4:4
-  - **特征提取**：使用SwinV2注意力模块提取特征
-  - **余弦神经算子(CNO)**：利用连续余弦函数公式化解码：$\mathbf{T}_\rho(\mathbf{z}', \delta; \mathbf{Q}) = \mathbf{A} \otimes (\cos(\pi\mathbf{F}_h \otimes \delta_h) \odot \cos(\pi\mathbf{F}_w \otimes \delta_w))$，其中$\mathbf{A} = h_q(\mathbf{Q}) \odot h_a(\mathbf{z}')$融合了量化矩阵先验
-  - 最终通过Galerkin注意力完成解码
+    - **Group Embedding**：将亮度和色度频谱嵌入为统一表示，支持4:2:0/4:2:2/4:4:4
+    - **特征提取**：使用SwinV2注意力模块提取特征
+    - **余弦神经算子(CNO)**：利用连续余弦函数公式化解码：$\mathbf{T}_\rho(\mathbf{z}', \delta; \mathbf{Q}) = \mathbf{A} \otimes (\cos(\pi\mathbf{F}_h \otimes \delta_h) \odot \cos(\pi\mathbf{F}_w \otimes \delta_w))$，其中$\mathbf{A} = h_q(\mathbf{Q}) \odot h_a(\mathbf{z}')$融合了量化矩阵先验
+    - 最终通过Galerkin注意力完成解码
 - **设计动机**：JDNO感知量化矩阵，可以根据压缩程度自适应解码
 
 ### 损失函数 / 训练策略

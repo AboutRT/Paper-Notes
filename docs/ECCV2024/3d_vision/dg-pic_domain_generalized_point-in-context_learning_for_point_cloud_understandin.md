@@ -62,18 +62,18 @@ DG-PIC 分为两个阶段：(1) 预训练阶段——基于 Masked Point Modelin
 
     - **做什么**：为每个源域计算全局和局部两个层次的原型，作为测试时特征对齐的锚点。
     - **核心思路**：
-      - **局部原型** $Z_{local}^{i,m}$：对域 $D_s^i$ 中所有样本的 patch 级特征取平均：$Z_{local}^{i,m} = \frac{1}{N_{D_s^i}} \sum_{n=1}^{N_{D_s^i}} F_\theta(P_m)$
-      - **全局原型** $Z_{global}^i$：对所有 patch 特征做 max pooling 后取平均：$Z_{global}^i = \frac{1}{N_{D_s^i}} \sum_{n=1}^{N_{D_s^i}} max(F_\theta(P_m))$
-      - 计算测试样本到每个源域原型的欧氏距离：$\mathcal{E}_{global}^i = \|F_{global} - Z_{global}^i\|$，$\mathcal{E}_{local}^{i,m} = \|F_{local}^m - Z_{local}^{i,m}\|$
+        - **局部原型** $Z_{local}^{i,m}$：对域 $D_s^i$ 中所有样本的 patch 级特征取平均：$Z_{local}^{i,m} = \frac{1}{N_{D_s^i}} \sum_{n=1}^{N_{D_s^i}} F_\theta(P_m)$
+        - **全局原型** $Z_{global}^i$：对所有 patch 特征做 max pooling 后取平均：$Z_{global}^i = \frac{1}{N_{D_s^i}} \sum_{n=1}^{N_{D_s^i}} max(F_\theta(P_m))$
+        - 计算测试样本到每个源域原型的欧氏距离：$\mathcal{E}_{global}^i = \|F_{global} - Z_{global}^i\|$，$\mathcal{E}_{local}^{i,m} = \|F_{local}^m - Z_{local}^{i,m}\|$
     - **设计动机**：全局特征捕获形状上下文，局部特征捕获几何结构细节，双层次才能全面表示源域。
 
 3. **双层次测试时特征平移 (Dual-level Test-time Feature Shifting)**:
 
     - **做什么**：在测试时将目标域特征向源域方向平移，无需更新模型参数。
     - **核心思路**：
-      - **宏观语义系数 $\alpha$**：从全局距离导出，控制各源域对特征平移的贡献度：$\alpha = softmax(\mathcal{E}_{global})$
-      - **微观位置系数 $\beta^i$**：从局部距离导出，考虑 patch 位置对齐关系：$\beta^i = softmax(\mathcal{E}_{local}^i)$
-      - 最终特征平移公式：
+        - **宏观语义系数 $\alpha$**：从全局距离导出，控制各源域对特征平移的贡献度：$\alpha = softmax(\mathcal{E}_{global})$
+        - **微观位置系数 $\beta^i$**：从局部距离导出，考虑 patch 位置对齐关系：$\beta^i = softmax(\mathcal{E}_{local}^i)$
+        - 最终特征平移公式：
     $F'_{local} = \frac{1}{R}\sum_{i=1}^{R}\alpha_i\left(\frac{1}{M}\sum_{m=1}^{M}\beta^{i,m}F_{local}^m\right) + \frac{1}{R}\sum_{i=1}^{R}(1-\alpha_i)\left(\frac{1}{M}\sum_{m=1}^{M}(1-\beta^{i,m})Z_{local}^{i,m}\right)$
     - **设计动机**：$\alpha$ 利用跨域语义相似性调节整体平移强度，$\beta$ 利用同位置 patch 的几何相似性进行精细对齐。同位置的 patch 即使跨域也应具有相似的几何结构（如桌子外围是边缘、内部是平面）。
 

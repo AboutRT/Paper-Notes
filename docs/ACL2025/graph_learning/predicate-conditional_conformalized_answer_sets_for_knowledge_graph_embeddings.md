@@ -56,8 +56,8 @@ tags:
 
     - 功能：同时用 score 阈值和 rank 阈值约束预测集
     - 核心思路：$\hat{C}_{CondKGCP}(q) = \{e \in E_q[S \leq \hat{s}_{\epsilon'}] : \text{rank}(q,e) \leq \hat{k}(g)\}$
-      - **Score 校准**：找 nonconformity score 的 $\epsilon'$-分位数作为阈值
-      - **Rank 校准**：找最小 $k$ 使 $P(\text{rank} > k | \text{pred} \in g) < \epsilon$
+        - **Score 校准**：找 nonconformity score 的 $\epsilon'$-分位数作为阈值
+        - **Rank 校准**：找最小 $k$ 使 $P(\text{rank} > k | \text{pred} \in g) < \epsilon$
     - 设计动机：单纯 score 校准在子组级别会产生过大预测集；加入 rank 约束排除高 score 但低 rank 的噪声实体
     - 误差率分配：$\epsilon = \epsilon_{rank} + \epsilon_{score}$，保证总覆盖率
 

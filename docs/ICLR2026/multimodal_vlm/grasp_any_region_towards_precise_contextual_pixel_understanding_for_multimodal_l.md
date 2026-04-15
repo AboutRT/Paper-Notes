@@ -69,9 +69,9 @@ GAR 基于标准 MLLM 架构（ViT + LLM），新增两个关键组件：
 - 基于 Panoptic Scene Graph（PSG）数据集，包含丰富的关系信息
 - 用 fine-grained captioner 为每个区域生成描述
 - 用 Qwen2.5-72B 作为 LLM-Merger 生成：
-  - 144K 融合关系上下文的区域描述
-  - 144K 关系理解的 QA 对
-  - 126K 多选题
+    - 144K 融合关系上下文的区域描述
+    - 144K 关系理解的 QA 对
+    - 126K 多选题
 - 合计 414K 关系数据样本
 
 ### GAR-Bench 基准测试
@@ -84,9 +84,9 @@ GAR 基于标准 MLLM 架构（ViT + LLM），新增两个关键组件：
 **GAR-Bench-VQA**（多维度视觉问答）：
 - **Perception**（198题）：颜色、形状、纹理、材质等基础属性
 - **Reasoning**（226题）：
-  - Position：空间位置推理（如"第三行左起第二个"）
-  - Non-Entity：非实体识别（镜中倒影、屏幕中的人脸等）
-  - Relation：多 prompt 间复合推理（含干扰 prompt）
+    - Position：空间位置推理（如"第三行左起第二个"）
+    - Non-Entity：非实体识别（镜中倒影、屏幕中的人脸等）
+    - Relation：多 prompt 间复合推理（含干扰 prompt）
 
 ## 实验关键数据
 

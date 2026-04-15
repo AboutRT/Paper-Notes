@@ -52,13 +52,13 @@ tags:
 
     - 功能：从 VIS 系数 $\tilde{\mathbf{S}}_{vis}$ 推理伪 IR 系数 $\mathbf{S}_{p\_ir}$
     - 核心思路：
-      - 用冻结的 REN（表示编码网络，包含预训练 HeadNet + CSB + CoeNet）将 VIS 编码为系数
-      - RIN（表示推理网络，encoder-decoder + multi-head attention）将 VIS 系数映射到伪 IR 系数
-      - **LLM 弱语义先验精炼**：重建初始伪红外 $\mathbf{I}_{p\_ir}^{(0)}$，将 {VIS, 伪IR} 图像对 + 任务描述作为 prompt 输入冻结 LLM，提取文本特征 $\mathbf{F}_{text}$，通过 FiLM（Feature-wise Linear Modulation）调制系数：$\mathbf{S}_{fm} = \gamma \odot \tilde{\mathbf{S}}_{vis} + \beta$，再次通过 RIN 得到精炼系数
+        - 用冻结的 REN（表示编码网络，包含预训练 HeadNet + CSB + CoeNet）将 VIS 编码为系数
+        - RIN（表示推理网络，encoder-decoder + multi-head attention）将 VIS 系数映射到伪 IR 系数
+        - **LLM 弱语义先验精炼**：重建初始伪红外 $\mathbf{I}_{p\_ir}^{(0)}$，将 {VIS, 伪IR} 图像对 + 任务描述作为 prompt 输入冻结 LLM，提取文本特征 $\mathbf{F}_{text}$，通过 FiLM（Feature-wise Linear Modulation）调制系数：$\mathbf{S}_{fm} = \gamma \odot \tilde{\mathbf{S}}_{vis} + \beta$，再次通过 RIN 得到精炼系数
     - 损失函数：$\ell_{inf} = \ell_{int} + \ell_{reg} + \ell_{grad}$
-      - 一致性损失 $\ell_{int}$：伪 IR 与真实 IR 在图像域和系数域的 L1 距离
-      - 热正则化 $\ell_{reg}$：用归一化权重图强调热区域对齐
-      - 梯度损失 $\ell_{grad}$：保持边缘一致性 $\|\nabla\mathbf{I}_{p\_ir} - \nabla\mathbf{I}_{vis}\|_1$
+        - 一致性损失 $\ell_{int}$：伪 IR 与真实 IR 在图像域和系数域的 L1 距离
+        - 热正则化 $\ell_{reg}$：用归一化权重图强调热区域对齐
+        - 梯度损失 $\ell_{grad}$：保持边缘一致性 $\|\nabla\mathbf{I}_{p\_ir} - \nabla\mathbf{I}_{vis}\|_1$
     - 设计动机：LLM 不生成像素，仅作为"语义评审员"提供通道级线性调制，轻量且可控；在系数域而非像素域推理，继承字典的可解释性
 
 3. **AFRI - 自适应融合**:

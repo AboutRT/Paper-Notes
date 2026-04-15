@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**📹 ICCV2025** · 共 **7** 篇
+**📹 ICCV2025** · **7** 篇论文解读
 
 **[Aceg Improving Generalization Of Scene Coordinate Regression](aceg_improving_generalization_of_scene_coordinate_regression.md)**
 

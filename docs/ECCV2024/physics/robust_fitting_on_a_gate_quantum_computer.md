@@ -30,8 +30,8 @@ tags:
 - **鲁棒拟合**是计算机视觉中的核心问题：从含噪声和离群值的数据中估计几何模型（如基础矩阵、单应矩阵、三维三角化等），通常采用 consensus maximization 框架
 - 该问题已被证明是 NP-hard 且难以近似的，RANSAC 及其变体不提供最优性保证
 - 量子计算为解决此类难题提供了替代路线：
-  - **绝热量子计算（AQC）** 方面：Doan et al. 将其建模为超图顶点覆盖（HVC）在 D-Wave 量子退火器上求解；Farina et al. 用量子退火做多模型拟合
-  - **门量子计算（GQC）** 方面：Chin et al. 提出用 BV 电路计算 Boolean influence 来度量离群程度，理论上可实现 $O(N)$ 级并行加速
+    - **绝热量子计算（AQC）** 方面：Doan et al. 将其建模为超图顶点覆盖（HVC）在 D-Wave 量子退火器上求解；Farina et al. 用量子退火做多模型拟合
+    - **门量子计算（GQC）** 方面：Chin et al. 提出用 BV 电路计算 Boolean influence 来度量离群程度，理论上可实现 $O(N)$ 级并行加速
 - **关键差距**：Chin et al. 的方法假设 $\ell_\infty$ 可行性检验拥有量子实现，但从未给出具体电路设计，因此无法在真实 GQC 上验证
 
 ## 核心问题

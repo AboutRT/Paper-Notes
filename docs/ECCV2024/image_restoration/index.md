@@ -8,11 +8,15 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🎞️ ECCV2024** · 共 **20** 篇
+**🎞️ ECCV2024** · **20** 篇论文解读
 
 **[Accelerating Image Super-Resolution Networks With Pixel-Level Classification](accelerating_image_super-resolution_networks_with_pixel-level_classification.md)**
 
 :   提出PCSR——首个像素级计算资源分配的超分方法，用轻量MLP分类器逐像素判断恢复难度并分配到不同容量的上采样器，在PSNR几乎不掉的情况下将FLOPs压低至原始模型的18%~57%，大幅优于现有patch级方法ClassSR和ARM。
+
+**[Adaptive Selection Of Samplingreconstruction In Fourier Comp](adaptive_selection_of_samplingreconstruction_in_fourier_comp.md)**
+
+:   提出自适应选择采样-重建框架 $\mathcal{H}_{1.5}$，为每个输入数据自适应选择最佳的采样mask与专用重建网络对，利用超分辨率空间生成模型量化高频不确定性实现选择，理论证明优于非自适应联合优化 $\mathcal{H}_1$ 和自适应采样 $\mathcal{H}_2$。
 
 **[Asymmetric Mask Scheme For Self-Supervised Real Image Denoising](asymmetric_mask_scheme_for_self-supervised_real_image_denoising.md)**
 
@@ -37,10 +41,6 @@ description: >-
 **[Joint Rgb-Spectral Decomposition Model Guided Image Enhancement In Mobile Photog](joint_rgb-spectral_decomposition_model_guided_image_enhancement_in_mobile_photog.md)**
 
 :   提出 JDM-HDRNet，通过联合 RGB-光谱分解模型从低分辨率多光谱图像（Lr-MSI）中提取 shading、reflectance 和材质语义三种先验，将它们分别融入 HDRNet 以增强动态范围、色彩映射和语义网格专家学习，并构建了首个 RGB-高光谱配对的 Mobile-Spec 数据集。
-
-**[Kalman-Inspired Feature Propagation For Video Face Super-Resolution](kalman-inspired_feature_propagation_for_video_face_super-resolution.md)**
-
-:   受卡尔曼滤波启发，提出 KEEP 框架，通过在隐空间中循环融合先前帧的恢复信息和当前帧的观测信息来维持稳定的人脸先验，在视频人脸超分辨率任务上实现了高保真度和时序一致性的双重提升。
 
 **[Learning Exhaustive Correlation For Spectral Super-Resolution Where Spatial-Spec](learning_exhaustive_correlation_for_spectral_super-resolution_where_spatial-spec.md)**
 

@@ -75,9 +75,9 @@ tags:
 
     - 功能：从单张图像前馈生成可动画的3DGS avatar
     - 核心思路：
-      - **点云初始化**：将VAREN模板mesh细分（每边中点+每面分四），从13,873顶点上采样到55,486个Gaussian初始位置
-      - **双流特征提取**：DINOv3 ViT-L提取图像多尺度特征$F_I \in \mathbb{R}^{784\times1024}$，Point Transformer对3D点编码得$F_P \in \mathbb{R}^{N_G\times1024}$
-      - **DSTG解码器**：改进的MMDiT块，三步融合——全局上下文向量提取→图像+点特征联合注意力→MLP预测每个Gaussian的属性（位置偏移、旋转、缩放、颜色、不透明度）
+        - **点云初始化**：将VAREN模板mesh细分（每边中点+每面分四），从13,873顶点上采样到55,486个Gaussian初始位置
+        - **双流特征提取**：DINOv3 ViT-L提取图像多尺度特征$F_I \in \mathbb{R}^{784\times1024}$，Point Transformer对3D点编码得$F_P \in \mathbb{R}^{N_G\times1024}$
+        - **DSTG解码器**：改进的MMDiT块，三步融合——全局上下文向量提取→图像+点特征联合注意力→MLP预测每个Gaussian的属性（位置偏移、旋转、缩放、颜色、不透明度）
     - 设计动机：视频中马匹外观不变，且真实视频视角有限→单帧前馈比逐帧优化更合理。DSTG比标准cross-attention融合效果更好（消融验证）
 
 5. **VarenTex合成外观数据集**

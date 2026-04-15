@@ -49,9 +49,9 @@ SDKD包含四个阶段：(1) 教师模型预训练——频率解耦架构（CNN
 
 - **做什么**：在隐空间中显式分离高频和低频时空模式，为蒸馏提供结构化的频域先验。
 - **核心思路**：采用编码器-隐状态演化-解码器架构。编码器通过多层卷积将输入 $X$ 映射到隐空间 $Z = \mathcal{E}(X)$。隐状态演化模块包含两个并行的频率敏感分支：
-  - **高频提取器（CNN分支）**：$Z^h = \text{ConvBlock}(Z) = \sigma(\text{Conv2D}(Z; \mathbf{W}_h) + b_h)$，CNN通过局部梯度算子 $\nabla_{x,y}$ 充当隐式高通滤波器，捕获突发变化和细粒度空间模式。
-  - **低频建模器（Transformer分支）**：$Z^l = \text{Softmax}\left(\frac{QK^T}{\sqrt{d}}\right)V$，自注意力机制充当低通滤波器：$\mathcal{F}_{\text{low}}(Z)(\omega) = \frac{1}{1+\|\omega\|^2/\lambda} \cdot \hat{Z}(\omega)$，捕获全局长程依赖和趋势变化。
-  - 高低频融合：$Z_{\text{evolved}} = \text{LayerNorm}(Z^h + Z^l)$。
+    - **高频提取器（CNN分支）**：$Z^h = \text{ConvBlock}(Z) = \sigma(\text{Conv2D}(Z; \mathbf{W}_h) + b_h)$，CNN通过局部梯度算子 $\nabla_{x,y}$ 充当隐式高通滤波器，捕获突发变化和细粒度空间模式。
+    - **低频建模器（Transformer分支）**：$Z^l = \text{Softmax}\left(\frac{QK^T}{\sqrt{d}}\right)V$，自注意力机制充当低通滤波器：$\mathcal{F}_{\text{low}}(Z)(\omega) = \frac{1}{1+\|\omega\|^2/\lambda} \cdot \hat{Z}(\omega)$，捕获全局长程依赖和趋势变化。
+    - 高低频融合：$Z_{\text{evolved}} = \text{LayerNorm}(Z^h + Z^l)$。
 - **设计动机**：根据Park等人的理论分析，卷积层天然偏向高频，Transformer天然偏向低频。串联设计使隐空间的频谱能量分布与物理规律对齐（实验验证隐空间符合Kolmogorov能量谱 $E(\omega) \propto \omega^{-5/3}$），为蒸馏提供可解释的频域先验。
 
 #### 2. 频率对齐蒸馏机制

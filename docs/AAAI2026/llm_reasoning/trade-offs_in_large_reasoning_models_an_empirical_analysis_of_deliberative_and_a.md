@@ -60,10 +60,10 @@ tags:
 
     - 功能：通过控制LRM的思考过程长度/内容来调节inference-time compute
     - 核心思路：
-      - **Zero-Thinking**：在输入后直接追加`</think>`，强制跳过推理过程
-      - **Less-Thinking**：在推理过程的$p\%$处插入`</think>`，提前终止思考（$p$ = 10%, 20%, 50%, 60%, 80%, 90%）
-      - **Summary-Thinking**：用GPT-4o将完整推理过程压缩为摘要，插入`<think></think>`之间
-      - **Summary-Thinking-Plus**：保留原始推理的第一句话 + 压缩摘要，因为首句模式对准确性有重要影响
+        - **Zero-Thinking**：在输入后直接追加`</think>`，强制跳过推理过程
+        - **Less-Thinking**：在推理过程的$p\%$处插入`</think>`，提前终止思考（$p$ = 10%, 20%, 50%, 60%, 80%, 90%）
+        - **Summary-Thinking**：用GPT-4o将完整推理过程压缩为摘要，插入`<think></think>`之间
+        - **Summary-Thinking-Plus**：保留原始推理的第一句话 + 压缩摘要，因为首句模式对准确性有重要影响
     - 设计动机：不同任务对推理深度的需求不同。通用任务和安全任务可能不需要长链推理，过度推理反而有害
 
 3. **Thought安全性分析**:

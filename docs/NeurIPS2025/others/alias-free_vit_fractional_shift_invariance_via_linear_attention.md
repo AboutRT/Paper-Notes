@@ -2,13 +2,13 @@
 title: >-
   [论文解读] Alias-Free ViT: Fractional Shift Invariance via Linear Attention
 description: >-
-  [NeurIPS 2025][ViT鲁棒性] 提出Alias-Free ViT（AFT），通过抗混叠下采样/非线性层设计和shift-equivariant线性交叉协方差注意力（XCA），首次实现Vision Transformer对亚像素级平移的鲁棒性，在ImageNet分类上保持竞争力准确率的同时达到~99%的平移一致性。
+  [NeurIPS 2025][平移不变性] 提出Alias-Free Vision Transformer（AFT），结合抗混叠信号处理技术和shift-equivariant线性交叉协方差注意力，首次使ViT在分数像素（亚像素）平移下保持接近完美的一致性（~99%），同时在ImageNet分类准确率上几乎无损。
 tags:
   - NeurIPS 2025
-  - ViT
   - 平移不变性
   - 抗混叠
   - 线性注意力
+  - 亚像素偏移
   - shift equivariance
 ---
 

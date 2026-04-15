@@ -49,10 +49,10 @@ tags:
 
     - 功能：从视频中提取解耦的运动原型和外观原型
     - 核心思路：
-      - **外观原型** $P_a$：对 $\frac{1}{4}$ 分辨率特征 $F_{l1}$ 做 mask pooling：$P_a = \frac{\sum_{h,w} F_{l1} \odot M}{\sum_{h,w} M} \in \mathbb{R}^{T \times d}$
-      - **运动原型** $P_m$：计算相邻帧特征差 $D_{l1,t} = F_{l1,t+1} - F_{l1,t}$，通过 3D 卷积增强时序特征后空间池化得到 $P_m \in \mathbb{R}^{T \times d}$
-      - **辅助分类头**：外观原型过 MLP 预测物体类别（$C_o$ 类），运动原型过 MLP 预测运动类别（$C_m$ 类），显式引导解耦
-      - **Transformer 精炼**：运动原型通过 cross-attention（注意力到 $P_m$ 和 $P_a$）+ self-attention + FFN 精炼为最终的 $P_{\text{dma}}$
+        - **外观原型** $P_a$：对 $\frac{1}{4}$ 分辨率特征 $F_{l1}$ 做 mask pooling：$P_a = \frac{\sum_{h,w} F_{l1} \odot M}{\sum_{h,w} M} \in \mathbb{R}^{T \times d}$
+        - **运动原型** $P_m$：计算相邻帧特征差 $D_{l1,t} = F_{l1,t+1} - F_{l1,t}$，通过 3D 卷积增强时序特征后空间池化得到 $P_m \in \mathbb{R}^{T \times d}$
+        - **辅助分类头**：外观原型过 MLP 预测物体类别（$C_o$ 类），运动原型过 MLP 预测运动类别（$C_m$ 类），显式引导解耦
+        - **Transformer 精炼**：运动原型通过 cross-attention（注意力到 $P_m$ 和 $P_a$）+ self-attention + FFN 精炼为最终的 $P_{\text{dma}}$
     - 设计动机：帧差是最直接的运动信号提取方式——消除了静态外观信息，保留物体位移/形变；辅助分类确保运动和外观分支各学各的不混淆
 
 2. **Prototype Attention Module**:

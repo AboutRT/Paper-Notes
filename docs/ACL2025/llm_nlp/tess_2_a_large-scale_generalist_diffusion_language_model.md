@@ -54,11 +54,11 @@ TESS 2 的训练分三阶段：
 - **做什么**：在概率单纯形（probability simplex）上进行扩散，而非在 embedding 空间或离散空间
 - **为什么**：保持扩散过程的连续性，同时适配离散文本数据；交叉熵损失比 MSE 更稳定
 - **怎么做**：
-  - 将每个 token $w$ 映射为 $k$-logit simplex 表示 $\mathbf{s}^w \in \{\pm k\}^{|\mathcal{V}|}$
-  - 通过 softmax 转换为概率分布 $\mathbf{p}^w = \text{softmax}(\mathbf{s}^w)$
-  - 前向扩散：$\mathbf{S}_t = \sqrt{\bar{\alpha}_t}\mathbf{S}_0 + \sqrt{1-\bar{\alpha}_t}\boldsymbol{\epsilon}_t$
-  - 训练损失：交叉熵 $\mathcal{L} = \mathbb{E}[-\sum_{i=1}^{L}\log p_\theta(w_i|\mathbf{S}_t, t)]$
-  - 反向采样：100 步迭代去噪
+    - 将每个 token $w$ 映射为 $k$-logit simplex 表示 $\mathbf{s}^w \in \{\pm k\}^{|\mathcal{V}|}$
+    - 通过 softmax 转换为概率分布 $\mathbf{p}^w = \text{softmax}(\mathbf{s}^w)$
+    - 前向扩散：$\mathbf{S}_t = \sqrt{\bar{\alpha}_t}\mathbf{S}_0 + \sqrt{1-\bar{\alpha}_t}\boldsymbol{\epsilon}_t$
+    - 训练损失：交叉熵 $\mathcal{L} = \mathbb{E}[-\sum_{i=1}^{L}\log p_\theta(w_i|\mathbf{S}_t, t)]$
+    - 反向采样：100 步迭代去噪
 
 ### 关键设计二：AR→Diffusion 适配三要素
 
@@ -71,10 +71,10 @@ TESS 2 的训练分三阶段：
 - **做什么**：在推理时利用奖励模型引导扩散生成过程
 - **为什么**：无需额外训练即可实现偏好对齐，是扩散模型相比 AR 模型的独特优势
 - **怎么做**：
-  - 每个扩散步取模型预测 $\hat{\mathbf{S}}_\theta$，通过 softmax 映射到 embedding
-  - 将 embedding 输入奖励模型得到标量奖励 $R$
-  - 对预测做梯度上升：$\hat{\mathbf{S}}_\theta := \hat{\mathbf{S}}_\theta + \eta \cdot \nabla_\theta R$
-  - $\eta$ 控制引导强度，过高导致退化（类似 reward hacking）
+    - 每个扩散步取模型预测 $\hat{\mathbf{S}}_\theta$，通过 softmax 映射到 embedding
+    - 将 embedding 输入奖励模型得到标量奖励 $R$
+    - 对预测做梯度上升：$\hat{\mathbf{S}}_\theta := \hat{\mathbf{S}}_\theta + \eta \cdot \nabla_\theta R$
+    - $\eta$ 控制引导强度，过高导致退化（类似 reward hacking）
 
 ### 训练策略
 

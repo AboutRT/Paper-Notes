@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**💬 ACL2025** · 共 **3** 篇
+**💬 ACL2025** · **3** 篇论文解读
 
 **[Bqa Body Language Question Answering Dataset For Video Large Language Models](bqa_body_language_question_answering_dataset_for_video_large_language_models.md)**
 

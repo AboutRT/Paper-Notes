@@ -52,9 +52,9 @@ $$\delta(\mathbf{x}_g) \geq |\nabla f_1(\mathbf{x}_{\mathcal{M}})^\top \mathbf{p
 
 ### 3. 无训练实现
 - **$f_1$**：预训练自监督模型（如 DINOv2）的损失函数 $\ell(\cdot)$
-  - 训练良好的模型对流形上的变换不敏感，故 $\frac{\partial \ell}{\partial \mathbf{x}_{\mathcal{M}}} \perp \mathcal{T}(\mathbf{x}_{\mathcal{M}})$
+    - 训练良好的模型对流形上的变换不敏感，故 $\frac{\partial \ell}{\partial \mathbf{x}_{\mathcal{M}}} \perp \mathcal{T}(\mathbf{x}_{\mathcal{M}})$
 - **$f_2 = f_1 \circ h$**：将数据变换 $h$（如仿射变换）嵌入 $f_1$ 中
-  - $h$ 建模沿流形切空间的变换，其 Jacobian $\mathbf{J}_h$ 张成切空间
+    - $h$ 建模沿流形切空间的变换，其 Jacobian $\mathbf{J}_h$ 张成切空间
 
 最终检测准则：
 $$\delta(\mathbf{x}) = |f_1(\mathbf{x}) - f_1(h(\mathbf{x}))| \begin{cases} = 0, & \mathbf{x} \in \mathcal{M} \\ > 0, & \mathbf{x} \notin \mathcal{M} \end{cases}$$

@@ -72,11 +72,11 @@ tags:
 
     - 功能：训练一个以功能文本为条件的特征提取网络，同时学习功能语义和空间结构
     - 核心思路：模型 $g_\theta(p|I,\mathcal{F})$ 在 DINOv2（多层特征加权）和 CLIP 文本嵌入之上加 3 层 MLP。训练包含：
-      - **功能部件对比损失** $\mathcal{L}_{func}$：InfoNCE 损失，功能部件像素为正对，非功能部件为负对，且非功能部件之间也互相排斥
+        - **功能部件对比损失** $\mathcal{L}_{func}$：InfoNCE 损失，功能部件像素为正对，非功能部件为负对，且非功能部件之间也互相排斥
       $\mathcal{L}_{func} = -\log\frac{e^{\text{sim}(p_1^+, p_2^+)/\tau}}{e^{\text{sim}(p_1^+, p_2^+)/\tau} + e^{\text{sim}(p_1^+, p_2^-)/\tau} + e^{\text{sim}(p_1^-, p_2^-)/\tau}}$
-      - **多视角空间对比损失** $\mathcal{L}_{spatial}$：同一物体不同视角的像素对应为正对，防止特征坍缩
+        - **多视角空间对比损失** $\mathcal{L}_{spatial}$：同一物体不同视角的像素对应为正对，防止特征坍缩
       $\mathcal{L}_{spatial} = -\log\frac{e^{\text{sim}(q, q_+^\prime)/\tau}}{e^{\text{sim}(q, q_+^\prime)/\tau} + e^{\text{sim}(q, q_-^\prime)/\tau}}$
-      - 可选的 **掩码预测损失** $\mathcal{L}_{mask}$
+        - 可选的 **掩码预测损失** $\mathcal{L}_{mask}$
     - 设计动机：单独使用功能对比损失会导致模式坍缩（整个壶嘴特征相同），空间对比损失保留结构信息（壶嘴顶部和底部应有不同特征）。两者互补不可或缺
 
 ### 损失函数 / 训练策略

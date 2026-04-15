@@ -2,11 +2,15 @@
 title: >-
   [论文解读] ELECTRA: A Cartesian Network for 3D Charge Density Prediction with Floating Orbitals
 description: >-
-  [3D视觉] 提出 ELECTRA，用等变笛卡尔张量网络预测浮动轨道的位置和参数，以 3D 高斯混合模型表示电子密度，实现 SOTA 精度且推理速度快 170 倍。
+  [NeurIPS 2025][3D视觉][电子密度预测] 提出 ELECTRA（Electronic Tensor Reconstruction Algorithm），一种等变笛卡尔张量网络，通过预测浮动高斯轨道的位置、权重和协方差矩阵来重构电子密度，在 QM9 基准上精度比 SOTA 方法 SCDP 高 2.4 倍且推理速度快 4.4-11 倍，并将 DFT 的 SCF 迭代次数减少 50.72%。
 tags:
+  - NeurIPS 2025
   - 3D视觉
-  - 科学计算
+  - 电子密度预测
+  - 浮动轨道
   - 等变神经网络
+  - 高斯 splatting
+  - DFT 加速
 ---
 
 # ELECTRA: A Cartesian Network for 3D Charge Density Prediction with Floating Orbitals

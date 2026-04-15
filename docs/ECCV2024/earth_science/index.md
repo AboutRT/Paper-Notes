@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌍 地球科学
 
-**🎞️ ECCV2024** · 共 **1** 篇
+**🎞️ ECCV2024** · **1** 篇论文解读
 
 **[Semi-Supervised Video Desnowing Network Via Temporal Decoupling Experts And Dist](semi-supervised_video_desnowing_network_via_temporal_decoupling_experts_and_dist.md)**
 

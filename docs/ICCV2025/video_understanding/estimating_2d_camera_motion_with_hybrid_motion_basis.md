@@ -73,9 +73,9 @@ CamFlow 框架：输入图像对 → 多尺度特征金字塔 → Motion Estimat
 - **做什么**：基于 Laplace 分布建模运动估计的不确定性
 - **核心公式**：对水平和垂直分量分别建模为 Laplace 分布，置信度 mask $\mathbf{d}$ 控制方差
 - **双重损失**：
-  - 运动监督损失 $\ell_{NLL_m}$：使用伪标签的负对数似然
-  - 光度损失 $\ell_{NLL_p}$：warped 特征一致性的负对数似然
-  - 自适应平衡：$\ell_{overall} = \ell_{NLL_p} + \mathbf{w} \times \frac{|\ell_{NLL_p}|}{|\ell_{NLL_m}|} \cdot \ell_{NLL_m}$
+    - 运动监督损失 $\ell_{NLL_m}$：使用伪标签的负对数似然
+    - 光度损失 $\ell_{NLL_p}$：warped 特征一致性的负对数似然
+    - 自适应平衡：$\ell_{overall} = \ell_{NLL_p} + \mathbf{w} \times \frac{|\ell_{NLL_p}|}{|\ell_{NLL_m}|} \cdot \ell_{NLL_m}$
 - **设计动机**：光度损失提供细粒度约束，运动损失提供粗粒度引导，Laplace 分布比高斯更鲁棒
 
 ### 损失函数 / 训练策略

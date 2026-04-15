@@ -66,9 +66,9 @@ tags:
 
     - 功能：无偏地利用治疗组数据估计模型在无干预下的 AUROC
     - 核心思路：提出两种加权方案恢复无干预分布 $\mathbf{P}(X_0^+)$ 和 $\mathbf{P}(X_0^-)$：
-      - **$\omega$-加权**：用对照组学到的 $\hat{\omega}(X)$（无干预下的结局概率）对治疗组重加权：$\mathbf{P}(X_0^-) = \frac{1-\omega(X)}{1-\mu_0}\mathbf{P}(X)$
-      - **$\tau$-加权**：用 CATE 估计 $\hat{\tau}(X)$ 校正治疗组分布：$\mathbf{P}(X_0^-) = \frac{1-\mu_1}{1-\mu_0}\mathbf{P}(X_1^-) + \frac{\tau(X)}{1-\mu_0}\mathbf{P}(X)$
-      - 最终取两者平均降低方差：$\text{AUC}_{\text{alt}} = \frac{\text{AUC}_{\hat{\omega}} + \text{AUC}_{\hat{\tau}}}{2}$
+        - **$\omega$-加权**：用对照组学到的 $\hat{\omega}(X)$（无干预下的结局概率）对治疗组重加权：$\mathbf{P}(X_0^-) = \frac{1-\omega(X)}{1-\mu_0}\mathbf{P}(X)$
+        - **$\tau$-加权**：用 CATE 估计 $\hat{\tau}(X)$ 校正治疗组分布：$\mathbf{P}(X_0^-) = \frac{1-\mu_1}{1-\mu_0}\mathbf{P}(X_1^-) + \frac{\tau(X)}{1-\mu_0}\mathbf{P}(X)$
+        - 最终取两者平均降低方差：$\text{AUC}_{\text{alt}} = \frac{\text{AUC}_{\hat{\omega}} + \text{AUC}_{\hat{\tau}}}{2}$
     - 设计动机：两种方案各依赖一个 nuisance parameter 估计，取平均可互补降低方差；核心是通过 Bayes 规则和 DGP 建立了无干预分布与观测分布的精确映射关系
 
 ### 损失函数 / 训练策略

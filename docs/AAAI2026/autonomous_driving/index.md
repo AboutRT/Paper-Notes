@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🤖 AAAI2026** · 共 **58** 篇
+**🤖 AAAI2026** · **58** 篇论文解读
 
 **[A Data-Driven Model Predictive Control Framework For Multi-Aircraft Tma Routing ](a_data-driven_model_predictive_control_framework_for_multi-aircraft_tma_routing_.md)**
 

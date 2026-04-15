@@ -71,11 +71,11 @@ DriveX 包含两阶段训练：
 
 - **做什么**：将表示学习和时序动态建模分开训练
 - **核心思路**：
-  - 先训练 World Encoder（40 epochs），获得高质量 BEV 表征
-  - 再训练 Future Decoder（24 epochs），在冻结的 BEV 空间建模时序演化
-  - Future Decoder 通过 Flow-based 策略直接预测未来状态（非自回归），避免误差累积：
+    - 先训练 World Encoder（40 epochs），获得高质量 BEV 表征
+    - 再训练 Future Decoder（24 epochs），在冻结的 BEV 空间建模时序演化
+    - Future Decoder 通过 Flow-based 策略直接预测未来状态（非自回归），避免误差累积：
     $$g_f' = T_t^{t+k} g_f$$
-  - 预测的 BEV 特征通过距离加权插值得到网格化表示
+    - 预测的 BEV 特征通过距离加权插值得到网格化表示
 - **设计动机**：联合训练中，表示学习和动态建模相互干扰；解耦后 Chamfer Distance 降低 0.44m²
 
 #### 3. Dynamic-aware Ray Sampling

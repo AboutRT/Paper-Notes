@@ -60,9 +60,9 @@ tags:
 
     - 功能：从推理图像和参考渲染图像对中提取互补的变化信号
     - 核心思路：
-      - 像素级线索 $C_{\text{pixel}}^k = (1-\lambda)L_1 + \lambda L_{\text{D-SSIM}}$，捕获细粒度外观差异但对光照/反射/阴影敏感
-      - 特征级线索：用 SAM2-Tiny 提取密集特征图，$C_{\text{feature}}^k = \sum_i |f_{\text{inf}}^{k,i} - f_{\text{ren}}^{k,i}|$，对干扰更鲁棒但可能漏检语义相似物体的细微变化
-      - 最终组合 $C^k = C_{\text{pixel}}^k + C_{\text{feature}}^k$，简单相加保留两者互补优势
+        - 像素级线索 $C_{\text{pixel}}^k = (1-\lambda)L_1 + \lambda L_{\text{D-SSIM}}$，捕获细粒度外观差异但对光照/反射/阴影敏感
+        - 特征级线索：用 SAM2-Tiny 提取密集特征图，$C_{\text{feature}}^k = \sum_i |f_{\text{inf}}^{k,i} - f_{\text{ren}}^{k,i}|$，对干扰更鲁棒但可能漏检语义相似物体的细微变化
+        - 最终组合 $C^k = C_{\text{pixel}}^k + C_{\text{feature}}^k$，简单相加保留两者互补优势
     - 设计动机：MV3DCD 分别对两种线索硬阈值化再取交集，会丢失只被一种线索捕获的有效变化信息。简单相加配合后续自监督损失可更好地整合信息。
 
 3. **自监督融合损失 (SSF Loss)**

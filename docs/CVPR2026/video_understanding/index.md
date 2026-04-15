@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 视频理解方向 59篇论文解读
+  CVPR2026 视频理解方向 55篇论文解读
 description: >-
-  59篇CVPR2026 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  55篇CVPR2026 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**📷 CVPR2026** · 共 **59** 篇
+**📷 CVPR2026** · **55** 篇论文解读
 
 **[A4Vl Multiagent Long Video Reasoning](a4vl_multiagent_long_video_reasoning.md)**
 
@@ -90,10 +90,6 @@ description: >-
 
 :   提出轻量后关联校正框架 FC-Track，通过 IoA 触发的外观更新抑制和局部检测-轨迹错配重分配，将长期身份切换比例从 36.86% 降至 29.55%，同时保持 MOT17/MOT20 上的 SOTA 水平。
 
-**[First Frame Is The Place To Go For Video Content Customization](first_frame_is_the_place_to_go_for_video_content_customization.md)**
-
-:   FFGo 揭示了视频生成模型的一个被忽视的固有能力——将首帧作为概念记忆缓冲区存储多个参考主体，仅通过 20-50 个训练样本的轻量 LoRA 适配即可激活这一能力，实现无需架构修改的多参考视频内容定制，在用户研究中以 81.2% 的首选率大幅超越现有方法。
-
 **[Flashmotion Few-Step Controllable Video Generation With Trajectory Guidance](flashmotion_few-step_controllable_video_generation_with_trajectory_guidance.md)**
 
 :   提出 FlashMotion，一个三阶段训练框架，将多步轨迹可控视频生成模型蒸馏为少步版本，通过混合扩散+对抗目标微调 adapter，在少步推理下同时保持视频质量和轨迹准确性。
@@ -106,10 +102,6 @@ description: >-
 
 :   提出 Frame2Freq——首个在频域进行时序建模的 PEFT 适配器族，通过 FFT 将冻结 VFM 的帧嵌入变换到频谱空间并学习频带级滤波，在五个细粒度动作识别基准上以 <10% 的可训练参数超越全量微调模型。
 
-**[Generative Neural Video Compression Via Video Diffusion Prior](generative_neural_video_compression_via_video_diffusion_prior.md)**
-
-:   提出 GNVC-VD，首个基于 DiT 视频扩散模型（Wan2.1）的生成式神经视频压缩框架，通过 flow-matching 在时空潜变量上进行序列级生成式精炼，在极低码率（<0.03 bpp）下实现感知质量 SOTA 并显著减少闪烁伪影。
-
 **[Goal Force Teaching Video Models To Accomplish Physics-Conditioned Goals](goal_force_teaching_video_models_to_accomplish_physics-conditioned_goals.md)**
 
 :   提出 Goal Force 框架，通过多通道物理控制信号（目标力、直接力、质量）在简单合成数据上训练视频生成模型，使其学会从目标效果逆向规划因果链，实现零样本泛化到工具使用、人-物交互等复杂现实场景。
@@ -117,10 +109,6 @@ description: >-
 **[Learning To Assist Physics-Grounded Human-Human Control Via Multi-Agent Reinforc](learning_to_assist_physics-grounded_human-human_control_via_multi-agent_reinforc.md)**
 
 :   提出 AssistMimic，将人-人辅助交互动作的物理模仿建模为多智能体强化学习（MARL）问题，通过运动先验初始化、动态参考重定向和接触促进奖励，首次实现了力交换型辅助动作的物理仿真跟踪。
-
-**[Let Your Image Move With Your Motion -- Implicit Multi-Object Multi-Motion Trans](let_your_image_move_with_your_motion_--_implicit_multi-object_multi-motion_trans.md)**
-
-:   FlexiMMT 是首个支持隐式多目标多运动迁移的 I2V 框架，通过运动解耦掩码注意力机制 (MDMA) 和差异化掩码提取机制 (DMEM)，将多个参考视频的不同运动独立分配给目标图像中的不同物体，实现灵活组合式运动迁移。
 
 **[Longvideo-R1 Smart Navigation For Low-Cost Long Video Understanding](longvideo-r1_smart_navigation_for_low-cost_long_video_understanding.md)**
 
@@ -169,10 +157,6 @@ description: >-
 **[Savax Egotoexo Imitation Error Detection Via Scene](savax_egotoexo_imitation_error_detection_via_scene.md)**
 
 :   形式化 Ego→Exo 模仿错误检测任务，并提出 SAVA-X (Align–Fuse–Detect) 框架，通过自适应采样、场景自适应视角嵌入和双向交叉注意力融合三个模块联合解决时序不对齐、视频冗余和跨视角域差距三大挑战。
-
-**[Semantic Satellite Communications For Synchronized](semantic_satellite_communications_for_synchronized.md)**
-
-:   提出一种 LLM 驱动的自适应多模态语义卫星传输系统，通过双流生成架构（视频驱动音频生成 V2A / 音频驱动视频生成 A2V）实现跨模态语义解耦，结合动态关键帧更新机制和 LLM 智能体规划，在卫星带宽严重受限的条件下实现高保真音视频同步重建。
 
 **[Spiketrack A Spike-Driven Framework For Efficient Visual Tracking](spiketrack_a_spike-driven_framework_for_efficient_visual_tracking.md)**
 

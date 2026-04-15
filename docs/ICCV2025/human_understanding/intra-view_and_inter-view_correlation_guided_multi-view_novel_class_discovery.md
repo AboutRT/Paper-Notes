@@ -80,10 +80,10 @@ IICMVNCD 是一个端到端的一阶段方法，包含三个核心组件：
 ### 损失函数 / 训练策略
 
 - **优化方法**：四步交替优化，每步固定其余变量优化一个变量
-  - $\mathbf{W}_v$：通过 SVD 闭式求解 $\mathbf{W}_v = \mathbf{S}_v \mathbf{V}_v^\top$
-  - $\mathbf{A}_v$：对导数置零直接求解 $\mathbf{A}_v = \mathbf{W}_v^\top \mathbf{X}_v \mathbf{Y}^\top (\mathbf{Y}\mathbf{Y}^\top)^{-1}$
-  - $\mathbf{Y}$：逐样本离散优化（one-hot 约束）
-  - $\boldsymbol{\alpha}$：基于 Cauchy-Schwarz 不等式闭式更新
+    - $\mathbf{W}_v$：通过 SVD 闭式求解 $\mathbf{W}_v = \mathbf{S}_v \mathbf{V}_v^\top$
+    - $\mathbf{A}_v$：对导数置零直接求解 $\mathbf{A}_v = \mathbf{W}_v^\top \mathbf{X}_v \mathbf{Y}^\top (\mathbf{Y}\mathbf{Y}^\top)^{-1}$
+    - $\mathbf{Y}$：逐样本离散优化（one-hot 约束）
+    - $\boldsymbol{\alpha}$：基于 Cauchy-Schwarz 不等式闭式更新
 - **收敛性保证**：目标函数在每步迭代中单调递减，且有下界 $\mathcal{J} \geq -\lambda_2 n_l n_u \sqrt{2}$
 - **时间复杂度**：$\mathcal{O}(d(nk + k^2) + Vk^3)$，对样本数 $n$ 线性，保证可扩展性
 

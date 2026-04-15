@@ -48,11 +48,11 @@ ManBench 由三部分组成：(1) 从 BIG-Bench Hard 策划的 20 个任务、48
 **群体构成维度**：
 - **通用群体（Generic）**：无差异化智能体轮流发言，提供虚假证据形成简单社会共识
 - **角色群体（Role-based）**：5 种专业角色协同构建多层次虚假叙事
-  - Error Conclusion Initiator：提出错误答案
-  - Detail Support Provider：添加虚构但可信的细节
-  - Group Consensus Reinforcer：制造多数同意的假象
-  - Authority Endorser：以专家身份使用学术术语赋予权威性
-  - Questioning Compromiser：先质疑后被说服
+    - Error Conclusion Initiator：提出错误答案
+    - Detail Support Provider：添加虚构但可信的细节
+    - Group Consensus Reinforcer：制造多数同意的假象
+    - Authority Endorser：以专家身份使用学术术语赋予权威性
+    - Questioning Compromiser：先质疑后被说服
 
 **记忆时间尺度维度**：
 - **短期**：在同一对话上下文中立即评估

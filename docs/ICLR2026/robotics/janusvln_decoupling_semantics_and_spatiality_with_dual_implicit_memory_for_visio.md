@@ -47,8 +47,8 @@ JanusVLN 采用双编码器架构，将视觉感知解耦为**语义理解**和*
 
 - **隐式神经表示**：缓存经 Transformer 注意力模块深度处理后的历史 KV 对。这些 KV 不是原始数据的简单存储，而是经神经网络提炼的高层语义抽象和结构化表示。
 - **混合增量更新策略**：
-  - **滑动窗口队列** $M_{sliding}$（容量 $n$）：以 FIFO 方式存储最近 $n$ 帧的 KV Cache，确保模型聚焦最新上下文。
-  - **初始窗口** $M_{initial}$：永久保留前几帧的 KV Cache，利用 "Attention Sinks" 现象为整个导航任务提供全局锚点。
+    - **滑动窗口队列** $M_{sliding}$（容量 $n$）：以 FIFO 方式存储最近 $n$ 帧的 KV Cache，确保模型聚焦最新上下文。
+    - **初始窗口** $M_{initial}$：永久保留前几帧的 KV Cache，利用 "Attention Sinks" 现象为整个导航任务提供全局锚点。
 - 对每个新帧，仅需计算新帧图像 token 与隐式记忆之间的交叉注意力即可检索历史信息，无需重新处理历史帧：
 
 $$G_t = \text{Decoder}(\text{CrossAttn}(\text{Encoder}(x_t), \{M_{initial}, M_{sliding}\}))$$

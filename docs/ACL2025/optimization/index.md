@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**💬 ACL2025** · 共 **1** 篇
+**💬 ACL2025** · **1** 篇论文解读
 
 **[Scalebio Bilevel Data Reweighting](scalebio_bilevel_data_reweighting.md)**
 

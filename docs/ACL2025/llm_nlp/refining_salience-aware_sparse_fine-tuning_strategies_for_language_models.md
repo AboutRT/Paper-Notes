@@ -51,11 +51,11 @@ SPEFT 将每层权重重参数化为 $\theta = \theta_0 + \theta_{sp}$，其中 
 - **做什么**：系统评估 6 种一阶度量（Magnitude、Gradient、SNIP、FORCE、Taylor-FO、SynFlow）和 2 种二阶度量（GRaSP、Fisher Information）
 - **为什么**：这些度量分散在剪枝、NAS、SPEFT 等不同文献中，从未在统一条件下比较
 - **怎么做**：
-  - **Gradient**：$\partial \ell / \partial \theta$，损失对权重的梯度
-  - **SNIP**：$|\partial \ell / \partial \theta \odot \theta|$，连接敏感性
-  - **Fisher Info**：$(\partial \ell / \partial \theta)^2$，Fisher 信息对角近似
-  - **GRaSP**：$-(H \cdot \partial \ell / \partial \theta) \odot \theta$，基于 Hessian 的梯度信号保持
-  - 所有度量在相同可训练参数量下公平比较
+    - **Gradient**：$\partial \ell / \partial \theta$，损失对权重的梯度
+    - **SNIP**：$|\partial \ell / \partial \theta \odot \theta|$，连接敏感性
+    - **Fisher Info**：$(\partial \ell / \partial \theta)^2$，Fisher 信息对角近似
+    - **GRaSP**：$-(H \cdot \partial \ell / \partial \theta) \odot \theta$，基于 Hessian 的梯度信号保持
+    - 所有度量在相同可训练参数量下公平比较
 
 ### 关键设计2：全局 vs 局部稀疏掩码
 

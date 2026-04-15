@@ -31,10 +31,10 @@ tags:
 
 - **核心问题**：如何让语音语言模型 (SLM) 像真人对话一样自然——支持重叠、打断、停顿等全双工 (full-duplex) 交互？
 - **现有方案的缺陷**：
-  - **单通道方法** (SpeechGPT, LLama-Omni 等)：基于 turn-based 的 $p(S^b|S^a)$ 建模，需 VAD 切分轮次，无法处理实时流式对话。
-  - **dGSLM**：建模联合分布 $p(S^a, S^b)$，但使用 Siamese encoder-decoder 双塔架构，参数效率低。
-  - **LSLM**：decoder-only，但仅预测一侧通道（条件分布），不具备 speaker-independence。
-  - **Moshi**：RQ-transformer，依赖额外 encoder 且需维护两个 KVCache，推理效率差。
+    - **单通道方法** (SpeechGPT, LLama-Omni 等)：基于 turn-based 的 $p(S^b|S^a)$ 建模，需 VAD 切分轮次，无法处理实时流式对话。
+    - **dGSLM**：建模联合分布 $p(S^a, S^b)$，但使用 Siamese encoder-decoder 双塔架构，参数效率低。
+    - **LSLM**：decoder-only，但仅预测一侧通道（条件分布），不具备 speaker-independence。
+    - **Moshi**：RQ-transformer，依赖额外 encoder 且需维护两个 KVCache，推理效率差。
 - **动机**：双通道语音天然包含重叠 (overlap)、停顿 (pause)、间隙 (gap)、打断 (interruption) 等对话动态信息（如 Figure 1 所示），这些信息在单通道中被混合无法区分。能否用纯 decoder-only 架构直接建模双通道联合分布？
 
 ## 方法详解

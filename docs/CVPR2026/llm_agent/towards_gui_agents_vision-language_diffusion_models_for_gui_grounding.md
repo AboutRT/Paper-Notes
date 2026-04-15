@@ -67,12 +67,12 @@ GUI Grounding 输出是结构化的动作字符串（如 `lclick [42,180,120,250
 2. **混合掩码调度（Hybrid Masking Schedule）**：
 
     - **线性掩码阶段（Linear Masking Phase）**：
-      - 保留 LLaDA-V 的标准调度，掩码概率 $p_{mask} = (1-\varepsilon)t + \varepsilon$
-      - 负责学习粗粒度 Grounding：预测动作类型和锚点坐标 $(x_1, y_1)$
+        - 保留 LLaDA-V 的标准调度，掩码概率 $p_{mask} = (1-\varepsilon)t + \varepsilon$
+        - 负责学习粗粒度 Grounding：预测动作类型和锚点坐标 $(x_1, y_1)$
     - **确定性掩码阶段（Full Deterministic Masking Phase）**：
-      - 所有响应 token 被完全掩码
-      - 以图像 $I$、指令 $N$ 和锚点 $(x_1, y_1)$ 为条件，预测剩余坐标 $(x_2, y_2)$
-      - 强化模型学习条件概率 $p_\theta(x_2, y_2 | a_{type}, x_1, y_1, I, N)$
+        - 所有响应 token 被完全掩码
+        - 以图像 $I$、指令 $N$ 和锚点 $(x_1, y_1)$ 为条件，预测剩余坐标 $(x_2, y_2)$
+        - 强化模型学习条件概率 $p_\theta(x_2, y_2 | a_{type}, x_1, y_1, I, N)$
     - 设计动机：线性掩码的随机性很少产生"锚点可见、范围被掩码"的配置，确定性阶段强制这种条件关系，模拟从粗到细的精炼过程
 
 3. **数据扩展策略**：
@@ -95,8 +95,8 @@ GUI Grounding 输出是结构化的动作字符串（如 `lclick [42,180,120,250
 - 大规模实验：120K 样本，混合多领域数据
 - 混合掩码：两个阶段分别训练（线性 + 全确定性）
 - 评估指标：
-  - **Action-Type F1**：动作类型分类的 F1 值
-  - **Step Success Rate (SSR)**：预测边界框中心点落在 ground-truth 框内的比例
+    - **Action-Type F1**：动作类型分类的 F1 值
+    - **Step Success Rate (SSR)**：预测边界框中心点落在 ground-truth 框内的比例
 
 ## 实验关键数据
 

@@ -56,18 +56,18 @@ EmoRAG 由四个组件串联：Database → Retriever → Generators (LLM集合)
 2. **检索器（Retriever）**：
 
     - 两种检索器对比：
-      - **n-gram 检索器**（来自 LangChain 模块）：假设对低资源语言更好，因为依赖表面文本特征
-      - **BGE-M3 句子嵌入检索器**：多语言嵌入模型
+        - **n-gram 检索器**（来自 LangChain 模块）：假设对低资源语言更好，因为依赖表面文本特征
+        - **BGE-M3 句子嵌入检索器**：多语言嵌入模型
     - K 值设定：低资源语言 K=30（token 消耗大），高资源语言 K=100
     - 检索得到的样本作为 LLM 的 few-shot prompt
 
 3. **生成器（Decoder Models）**：
 
     - 使用四个 LLM 集成：
-      - Llama-3.1-70B
-      - Qwen2.5-72B-Instruct
-      - gpt-4o-mini
-      - gemma-2-27b-it
+        - Llama-3.1-70B
+        - Qwen2.5-72B-Instruct
+        - gpt-4o-mini
+        - gemma-2-27b-it
     - 系统提示均为英语（实验发现英语提示效果优于目标语言提示）
     - 每个模型独立输出情感预测
 

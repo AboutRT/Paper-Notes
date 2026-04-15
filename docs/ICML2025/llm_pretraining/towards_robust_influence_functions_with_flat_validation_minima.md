@@ -63,9 +63,9 @@ tags:
 3. **新 IF 形式 (VM/FVM)**:
     - 功能：专为平坦验证极小值设计的影响估计
     - 核心思路：同时修复两步——
-      - **参数变化**：在平坦验证极小值上重新定义扰动，Newton step 使用**验证集 Hessian** $\tilde{H}_\text{val}$ 而非训练集 Hessian
-      - **损失变化**：用**二阶近似**替代一阶：$\ell(z_\text{val}, \tilde{\theta}_{z_\text{tr}}) - \ell(z_\text{val}, \tilde{\theta}) \approx \frac{1}{2} \Delta\theta^\top \nabla^2 \ell(z_\text{val}, \tilde{\theta}) \Delta\theta$
-      - 最终全验证集 IF：$\mathcal{I}(z_\text{tr}, S_\text{val}) = \tilde{g}_{z_\text{tr}}^\top \tilde{H}_\text{val}^{-1} \tilde{g}_{z_\text{tr}}$
+        - **参数变化**：在平坦验证极小值上重新定义扰动，Newton step 使用**验证集 Hessian** $\tilde{H}_\text{val}$ 而非训练集 Hessian
+        - **损失变化**：用**二阶近似**替代一阶：$\ell(z_\text{val}, \tilde{\theta}_{z_\text{tr}}) - \ell(z_\text{val}, \tilde{\theta}) \approx \frac{1}{2} \Delta\theta^\top \nabla^2 \ell(z_\text{val}, \tilde{\theta}) \Delta\theta$
+        - 最终全验证集 IF：$\mathcal{I}(z_\text{tr}, S_\text{val}) = \tilde{g}_{z_\text{tr}}^\top \tilde{H}_\text{val}^{-1} \tilde{g}_{z_\text{tr}}$
     - 设计动机：二阶项不受梯度趋零影响（Hessian 不趋零），Hessian 在验证集上计算解决对齐问题
 
 ### 损失函数 / 训练策略

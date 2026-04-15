@@ -72,17 +72,17 @@ ARise 由三个核心组件组成：
 
     - 做什么: 包含 Selection（UCT）、Expansion（多角度分解）、Simulation（想象性 rollout）、Backpropagation（自底向上更新）四阶段
     - 核心思路: 
-      - **Selection**: $\text{UCT}(\mathbf{s}, \mathbf{a}) = Q(\mathbf{s}, \mathbf{a}) + w\sqrt{\frac{\ln N(Pa(\mathbf{s}))}{N(\mathbf{s}, \mathbf{a})}}$
-      - **Backpropagation**: $Q(\mathbf{s}, \mathbf{a}) = \frac{\sum_{\mathbf{c}} Q(\mathbf{c}) \cdot N(\mathbf{c})}{\sum_{\mathbf{c}} N(\mathbf{c})}$
+        - **Selection**: $\text{UCT}(\mathbf{s}, \mathbf{a}) = Q(\mathbf{s}, \mathbf{a}) + w\sqrt{\frac{\ln N(Pa(\mathbf{s}))}{N(\mathbf{s}, \mathbf{a})}}$
+        - **Backpropagation**: $Q(\mathbf{s}, \mathbf{a}) = \frac{\sum_{\mathbf{c}} Q(\mathbf{c}) \cdot N(\mathbf{c})}{\sum_{\mathbf{c}} N(\mathbf{c})}$
     - 设计动机: 将线性 CoT 推理扩展为树结构，允许回溯和多路径探索，缓解错误传播
 
 3. **风险评估（Risk Assessment）**:
 
     - 做什么: 用贝叶斯公式将节点的中间结果质量转化为可计算的"问题生成似然"
     - 核心思路: 
-      - 相关性: $\log p(\mathbf{r}|\mathbf{q}) \propto \log p(\mathbf{q}|\mathbf{r})$
-      - 风险: $\text{Risk}((\mathbf{s}, \mathbf{a}) \to \mathbf{r}|\mathbf{q}) = -\frac{1}{|\mathbf{q}|}\sum_t \log p(q_t | \mathbf{q}_{<t}, \mathbf{r}; \Theta)$
-      - 价值: $Q(\mathbf{s}, \mathbf{a}) = 1 - \frac{1}{1+e^{\alpha(\text{Risk} - \beta)}}$
+        - 相关性: $\log p(\mathbf{r}|\mathbf{q}) \propto \log p(\mathbf{q}|\mathbf{r})$
+        - 风险: $\text{Risk}((\mathbf{s}, \mathbf{a}) \to \mathbf{r}|\mathbf{q}) = -\frac{1}{|\mathbf{q}|}\sum_t \log p(q_t | \mathbf{q}_{<t}, \mathbf{r}; \Theta)$
+        - 价值: $Q(\mathbf{s}, \mathbf{a}) = 1 - \frac{1}{1+e^{\alpha(\text{Risk} - \beta)}}$
     - 设计动机: 利用策略模型本身计算风险，无需额外训练验证器；风险低说明中间结果与原始问题高度相关
 
 ### 损失函数 / 训练策略

@@ -124,11 +124,11 @@ Diff Hunk → [代码切片] → [多角色审查系统] → [冗余评论过滤
 - **数据来源**：某公司核心推荐服务框架团队的历史故障报告，涉及 4 个仓库、4,090 名开发者。每个案例对应一次导致实际财务损失的线上事故，回溯引入故障的 MR 和修复 MR。
 - **代码语言**：C++。
 - **测试模型（均为开源可本地部署）**：
-  - LLaMA-3.1 (70B)
-  - Qwen2 (72B)
-  - Command R+ (104B)
-  - Mistral-large-2407 (123B)
-  - LLaMA-3.1 (405B, AWQ-Int4 量化)
+    - LLaMA-3.1 (70B)
+    - Qwen2 (72B)
+    - Command R+ (104B)
+    - Mistral-large-2407 (123B)
+    - LLaMA-3.1 (405B, AWQ-Int4 量化)
 - **基线方法**：CodeReviewer、CCT5、LLaMA-Reviewer、DISCOREV（均为 T5 或 LLaMA 微调模型）。
 
 ## 主要实验结果

@@ -28,8 +28,8 @@ tags:
 
 - 商品海报需要将产品、文字和背景巧妙组合以吸引用户点击，但手工制作和迭代优化非常耗时耗力
 - 现有方法存在明显的自动化瓶颈：
-  - PAID 采用四阶段流水线（提示词→排版→背景→文字渲染），其中文字属性（字体、颜色）依赖人工规则，限制了自动化且破坏视觉和谐
-  - PosterMaker 虽然利用 SD3 + ControlNet 实现了背景与文字的同步渲染，但仍需用户为每张海报单独设计排版和卖点文案，无法高效大规模生产
+    - PAID 采用四阶段流水线（提示词→排版→背景→文字渲染），其中文字属性（字体、颜色）依赖人工规则，限制了自动化且破坏视觉和谐
+    - PosterMaker 虽然利用 SD3 + ControlNet 实现了背景与文字的同步渲染，但仍需用户为每张海报单独设计排版和卖点文案，无法高效大规模生产
 - 在线优化方面，CG4CTR 和 CAIG 仅优化背景元素的 CTR，忽略了文字和排版对点击率的影响，且粗粒度的联合优化无法归因到具体元素
 
 ## 核心问题
@@ -54,17 +54,17 @@ AutoPP 由**生成器**和**优化器**两大部分组成：
 
 - 基于 FLUX.1 dev，将产品图和字形图编码为 condition tokens
 - 关键创新：**Decomposed Attention (DA)** 机制替代 MM-DiT 中的 full attention
-  - **Condition Self-Attention**：字形和产品 tokens 各自独立进行自注意力，捕获元素内部依赖
-  - **Image-Condition Cross-Attention**：Query = [prompt tokens; noise tokens]，Key/Value = [所有类型 tokens 拼接]，实现跨模态信息交换
+    - **Condition Self-Attention**：字形和产品 tokens 各自独立进行自注意力，捕获元素内部依赖
+    - **Image-Condition Cross-Attention**：Query = [prompt tokens; noise tokens]，Key/Value = [所有类型 tokens 拼接]，实现跨模态信息交换
 - token 机制的优势：无需像素级对齐，对字形图与目标图的空间偏差鲁棒
 - 训练损失：flow matching loss + OCR perceptual loss（利用 PaddleOCRv4 backbone 中间特征强制文字区域清晰度，$\lambda=0.1$）
 
 ### 3. Systematic Element Replacement（系统化元素替换策略）
 
 - 从生成的海报出发，每次只替换一个元素（保持其余不变）来创建变体：
-  - 背景替换：用 GPT-4o 基于原提示词生成不同背景描述
-  - 文字替换：从候选文案集中选等长替代文案
-  - 排版替换：由统一设计模块重新生成排版
+    - 背景替换：用 GPT-4o 基于原提示词生成不同背景描述
+    - 文字替换：从候选文案集中选等长替代文案
+    - 排版替换：由统一设计模块重新生成排版
 - 变体海报在京东平台进行随机展示实验，收集 CTR 反馈
 
 ### 4. Isolated Direct Preference Optimization (IDPO)

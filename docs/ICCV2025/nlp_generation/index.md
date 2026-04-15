@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✍️ 文本生成
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[Beyond Isolated Words Diffusion Brush For Handwritten Text-Line Generation](beyond_isolated_words_diffusion_brush_for_handwritten_text-line_generation.md)**
 

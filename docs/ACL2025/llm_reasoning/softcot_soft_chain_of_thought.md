@@ -55,9 +55,9 @@ tags:
 
     - 功能：用辅助小模型为每个问题生成实例特定的连续推理前缀
     - 核心思路：
-      - 输入构造：$\mathbf{x}_{\text{assist}} = \text{concat}[\mathcal{I}_{\text{assist}}, \mathcal{Q}, \text{[UNK]}_{1:N}]$
-      - 辅助模型前向传播后，提取 N 个 [UNK] 位置的最后层隐状态作为 $\mathbf{t}_{\text{assist}} \in \mathbb{R}^{N \times d_{\text{assist}}}$
-      - 在连续空间操作，避免了自回归解码的信息损失和梯度截断
+        - 输入构造：$\mathbf{x}_{\text{assist}} = \text{concat}[\mathcal{I}_{\text{assist}}, \mathcal{Q}, \text{[UNK]}_{1:N}]$
+        - 辅助模型前向传播后，提取 N 个 [UNK] 位置的最后层隐状态作为 $\mathbf{t}_{\text{assist}} \in \mathbb{R}^{N \times d_{\text{assist}}}$
+        - 在连续空间操作，避免了自回归解码的信息损失和梯度截断
     - 设计动机：[UNK] token 作为"占位符"，不携带特定语义，迫使模型将问题的理解压缩到这些位置的隐状态中。辅助模型冻结→不需要额外训练成本
 
 2. **投影模块**:

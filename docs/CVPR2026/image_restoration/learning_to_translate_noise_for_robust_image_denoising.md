@@ -60,12 +60,12 @@ tags:
 2. **显式噪声翻译损失 $\mathcal{L}_{\text{explicit}}$（两部分）**：
 
     - **空间域匹配 $\mathcal{L}_{\text{spatial}}$**：用 1-Wasserstein 距离匹配翻译噪声 $n_\mathcal{T}$ 与高斯参考噪声 $n_\mathcal{G}$ 的一维分布
-      - 做法：将两者按通道展平排序，计算排序后元素的 L1 距离
-      - 确保翻译噪声在元素级别服从高斯分布
+        - 做法：将两者按通道展平排序，计算排序后元素的 L1 距离
+        - 确保翻译噪声在元素级别服从高斯分布
     - **频域匹配 $\mathcal{L}_{\text{freq}}$**：用 1-Wasserstein 距离匹配两者傅里叶系数幅度的分布
-      - 数学基础：空间不相关的高斯噪声，其傅里叶系数幅度服从 Rayleigh 分布
-      - 做法：对翻译噪声和参考噪声分别做 FFT，匹配幅度分布
-      - 确保翻译噪声是空间不相关的（消除结构化噪声模式）
+        - 数学基础：空间不相关的高斯噪声，其傅里叶系数幅度服从 Rayleigh 分布
+        - 做法：对翻译噪声和参考噪声分别做 FFT，匹配幅度分布
+        - 确保翻译噪声是空间不相关的（消除结构化噪声模式）
     - 合并：$\mathcal{L}_{\text{explicit}} = \mathcal{L}_{\text{spatial}} + \beta \cdot \mathcal{L}_{\text{freq}}$
 
 3. **高斯注入块（Gaussian Injection Block, GIBlock）**：

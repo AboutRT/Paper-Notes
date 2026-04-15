@@ -55,8 +55,8 @@ tags:
 
     - 功能：扩展 BAMCP 到连续状态/动作空间 + 随机转移
     - 核心技术：Double Progressive Widening (DPW) + PUCT 搜索规则
-      - DPW：维护有限子节点列表，基于访问计数 $\lfloor N^{\alpha} \rfloor$ 控制扩展速率——新动作/新状态只在访问足够后添加
-      - 原始 BAMCP 的 root sampling 在 DPW 下不成立（Lemma A.1 的等式不再成立），需要改为 PUCT 方式
+        - DPW：维护有限子节点列表，基于访问计数 $\lfloor N^{\alpha} \rfloor$ 控制扩展速率——新动作/新状态只在访问足够后添加
+        - 原始 BAMCP 的 root sampling 在 DPW 下不成立（Lemma A.1 的等式不再成立），需要改为 PUCT 方式
     - 关键修改：在 StatePW 中，转移根据信念加权采样 $s' \sim \sum_i b(\theta)(i) \mathcal{P}_\theta^i(\cdot|s,a)$，并在每次转移后更新信念
     - 理论保证：证明了该规划器的一致性（收敛到近贝叶斯最优策略）
 

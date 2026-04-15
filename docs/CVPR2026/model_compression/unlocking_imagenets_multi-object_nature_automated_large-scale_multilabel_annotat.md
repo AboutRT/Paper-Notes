@@ -69,8 +69,8 @@ softmax 后保留对原始标签置信度 $s_P(y) > \tau_{\text{sel}}$ 的 propo
 
 - **做什么**：对所有候选区域推理并聚合为图像级多标签
 - **核心思路**：每个 mask 取 top-1 预测及置信度，跨 mask 聚合保留唯一类别（重复取最高置信度）。两种聚合策略：
-  - **Local-Hard**：设阈值 τ，超阈值类别计入多热标签
-  - **Local-Soft**：跨 mask 取逐类最大概率，保留连续分布
+    - **Local-Hard**：设阈值 τ，超阈值类别计入多热标签
+    - **Local-Soft**：跨 mask 取逐类最大概率，保留连续分布
 - **最终方案**：Local-Soft + 原始 ImageNet 标签作为全局信号。最终标签：$\tilde{y}^{\text{final}}[c] = \max(\tilde{y}^{\text{local}}[c], y^{\text{global}}[c])$
 - **设计动机**：Local-Soft 优于 Hard（保留置信度梯度）；加入原始标签补偿因局部化可能丢失的全局线索
 

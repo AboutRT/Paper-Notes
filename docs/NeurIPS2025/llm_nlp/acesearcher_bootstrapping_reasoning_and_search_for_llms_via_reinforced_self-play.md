@@ -54,20 +54,20 @@ tags:
 
     - 功能：建立基础能力——检索使用、问题分解、推理
     - 数据组成（共 180K 样本）：
-      - Context-rich QA：NQ, SQuAD, DROP, NarrativeQA 等——学会从上下文提取答案
-      - 问题分解：GSM8K, ConvFinQA, StrategyQA——学会拆解多步问题
-      - CoT 推理：MathInstruct (CoT + PoT 风格)——增强多步推理能力
+        - Context-rich QA：NQ, SQuAD, DROP, NarrativeQA 等——学会从上下文提取答案
+        - 问题分解：GSM8K, ConvFinQA, StrategyQA——学会拆解多步问题
+        - CoT 推理：MathInstruct (CoT + PoT 风格)——增强多步推理能力
     - 设计动机：现有 RAG 微调仅关注答案提取，缺乏分解和推理能力的训练
 
 3. **Stage II: 迭代 DPO 强化微调**:
 
     - 功能：在只有最终答案标注的数据上，同时优化两个角色
     - 核心思路：
-      - 对每个问题采样 $m$ 个分解方案，每个分解采样 $m'$ 个求解轨迹
-      - 根据最终 EM 奖励 $r(q,a',a) = \text{EM}(a',a) \times \mathbb{I}(f(q,a')=1)$ 构建偏好对
-      - 分解者：按期望奖励 $\bar{r}(q, z^{(i)})$ 选最好/最差分解
-      - 求解者：按最终答案匹配度选最好/最差轨迹
-      - 联合偏好集：$\mathcal{D}_{pref} = \mathcal{D}_{decompose} \cup \mathcal{D}_{subq} \cup \mathcal{D}_{final}$
+        - 对每个问题采样 $m$ 个分解方案，每个分解采样 $m'$ 个求解轨迹
+        - 根据最终 EM 奖励 $r(q,a',a) = \text{EM}(a',a) \times \mathbb{I}(f(q,a')=1)$ 构建偏好对
+        - 分解者：按期望奖励 $\bar{r}(q, z^{(i)})$ 选最好/最差分解
+        - 求解者：按最终答案匹配度选最好/最差轨迹
+        - 联合偏好集：$\mathcal{D}_{pref} = \mathcal{D}_{decompose} \cup \mathcal{D}_{subq} \cup \mathcal{D}_{final}$
     - 理论保证：Theorem 4.1 证明迭代 DPO 的最小化器收敛到真实最优参数 $\theta^*$
     - 关键优势：不需要中间步骤标注，不需要在线 RL 的高内存开销
 

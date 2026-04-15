@@ -56,10 +56,10 @@ AdvPrompterTrain 交替执行两个步骤：
 
     - 功能：为给定有害指令找到最优对抗后缀
     - 核心思路：
-      - 目标：找到后缀 $s$ 使得 TargetLLM 对"指令+后缀"输出肯定回复
-      - 损失函数：$\mathcal{L} = -\log P_{\text{target}}(\text{"Sure, here is"}| \text{instruction} + s)$
-      - 在 token 嵌入空间中做连续松弛和投影梯度下降
-      - 额外约束：后缀应人类可读（通过困惑度惩罚）——$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{attack}} + \lambda \cdot \text{PPL}(s)$
+        - 目标：找到后缀 $s$ 使得 TargetLLM 对"指令+后缀"输出肯定回复
+        - 损失函数：$\mathcal{L} = -\log P_{\text{target}}(\text{"Sure, here is"}| \text{instruction} + s)$
+        - 在 token 嵌入空间中做连续松弛和投影梯度下降
+        - 额外约束：后缀应人类可读（通过困惑度惩罚）——$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{attack}} + \lambda \cdot \text{PPL}(s)$
     - 设计动机：GCG 的离散搜索效率低且生成不可读后缀；连续松弛+困惑度约束同时解决效率和可读性
     - 注意：此步骤仅在训练时使用，推理时完全不需要
 
@@ -67,8 +67,8 @@ AdvPrompterTrain 交替执行两个步骤：
 
     - 功能：将 AdvPrompterOpt 的"搜索能力"蒸馏到 AdvPrompter 的"生成能力"中
     - 核心思路：
-      - 每轮：(a) 对一批有害指令运行 AdvPrompterOpt 得到目标后缀; (b) 用(指令, 后缀)对微调 AdvPrompter
-      - 交替执行直到 AdvPrompter 学会自主生成高质量后缀
+        - 每轮：(a) 对一批有害指令运行 AdvPrompterOpt 得到目标后缀; (b) 用(指令, 后缀)对微调 AdvPrompter
+        - 交替执行直到 AdvPrompter 学会自主生成高质量后缀
     - 设计动机：搜索是慢的但可以离线做，生成是快的但需要学习——交替训练将前者的质量转化为后者的速度
 
 3. **推理时的自适应生成**:

@@ -90,9 +90,9 @@ $$\epsilon_{\theta^*}(\mathbf{Z}_t, c, t) \leftarrow \epsilon_\theta(\mathbf{Z}_
 - **图像来源**：干净 SD 按 "a photo of c" 生成 $n$ 张图像（具体 $n$ 值见附录）
 - **竞争方法**：ESD、FMN、AC、UCE、SPM、SH、ED、SalUn、AdvUnlearn（共 9 种）
 - **评价指标**：
-  - 擦除效果：pre-ASR、ASR、P4D、CCE（越低越好）
-  - 生成质量：FID（越低越好）、CLIP Score（越高越好）
-  - 鲁棒性：Ring-A-Bell（RAB）red-team 攻击
+    - 擦除效果：pre-ASR、ASR、P4D、CCE（越低越好）
+    - 生成质量：FID（越低越好）、CLIP Score（越高越好）
+    - 鲁棒性：Ring-A-Bell（RAB）red-team 攻击
 
 ## 主要结果
 

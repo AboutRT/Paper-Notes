@@ -54,9 +54,9 @@ tags:
 **推理逻辑树 (RLT) 结构**:
 - **节点**: 每个节点包含一个观点 (viewpoint) 及其来源坐标 (x,y,z)，分别对应引言句子、句内观点、引用文献观点三个层次
 - **边**: 六种有向标注边，是 Peirce 三种推理范式的细粒度实例化
-  - 演绎: Deduction-Rule (DR) 和 Deduction-Case (DC)
-  - 归纳: Induction-Common (ICo) 和 Induction-Case (ICa)
-  - 溯因: Abduction-Knowledge (AK) 和 Abduction-Phenomenon (AP)
+    - 演绎: Deduction-Rule (DR) 和 Deduction-Case (DC)
+    - 归纳: Induction-Common (ICo) 和 Induction-Case (ICa)
+    - 溯因: Abduction-Knowledge (AK) 和 Abduction-Phenomenon (AP)
 - **约束**: 单根 DAG，所有节点必须连通到根节点，每个推理步必须恰好对应一种推理范式的一对边类型
 - **设计动机**: 树结构比线性 CoT 更能捕获科学论证中的分支、汇聚和多跳关系；六种边类型将推理范式操作化为可验证的结构约束
 

@@ -55,8 +55,8 @@ tags:
 
     - 功能：用预训练的大参考模型 $\theta_{ref}$ 从超级批次 $\mathcal{S}$（大小 $B$）中筛选出高信息量的小批次 $\mathcal{B}$（大小 $b$）用于训练
     - 核心思路：两种筛选评分策略——
-      - Easy-reference：$s^{easy\_ref} = -\mathcal{L}(\mathcal{B}|\theta_{ref})$，优先选参考模型觉得"容易"的样本
-      - Learnability：$s^{learn} = \mathcal{L}(\mathcal{B}|\theta) - \mathcal{L}(\mathcal{B}|\theta_{ref})$，选"参考模型容易但学生困难"的样本
+        - Easy-reference：$s^{easy\_ref} = -\mathcal{L}(\mathcal{B}|\theta_{ref})$，优先选参考模型觉得"容易"的样本
+        - Learnability：$s^{learn} = \mathcal{L}(\mathcal{B}|\theta) - \mathcal{L}(\mathcal{B}|\theta_{ref})$，选"参考模型容易但学生困难"的样本
     - **理论贡献**：作者证明 easy-reference 筛选的期望训练目标等价于：
     $\mathcal{E}_{easy-ref} = \frac{1}{Z}\sum_{x \in \mathcal{D}} KD[p(x) \cdot y(x); q(x)]$
       即一种结合参考模型预测 $p$ 与真实标签 $y$ 的隐式蒸馏目标。模型预测和标签的噪声来源不同（模型欠拟合 vs 标注错误），仅保留二者一致的目标实现"互相去噪"

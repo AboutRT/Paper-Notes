@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**🤖 AAAI2026** · 共 **5** 篇
+**🤖 AAAI2026** · **5** 篇论文解读
 
 **[Elspr Evaluator Llm Training Data Self-Purification On Non-Transitive Preference](elspr_evaluator_llm_training_data_self-purification_on_non-transitive_preference.md)**
 

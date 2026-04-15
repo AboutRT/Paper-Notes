@@ -44,8 +44,8 @@ tags:
 
     - 功能：设计8类涵盖不同复杂度和创意度的prompt
     - 核心思路：
-      - 单物体4类：Basic（简单对象）、Refined（更多属性描述）、Complex（复杂场景）、Fantastical（虚构创意）
-      - 多物体4类：Grouped（"and"连接）、Spatial（空间关系）、Action（动作交互）、Imaginative（创意交互）
+        - 单物体4类：Basic（简单对象）、Refined（更多属性描述）、Complex（复杂场景）、Fantastical（虚构创意）
+        - 多物体4类：Grouped（"and"连接）、Spatial（空间关系）、Action（动作交互）、Imaginative（创意交互）
     - 设计动机：发现相似prompt常产生截然不同的结果，需细粒度分类才能全面理解模型能力
     - 4个评估维度：语义对齐(Alignment)、几何质量(Geometry)、纹理质量(Texture)、整体质量(Overall)
 
@@ -53,10 +53,10 @@ tags:
 
     - 功能：根据评估维度对视觉特征的不同patch赋予不同权重
     - 核心思路：
-      - 定义K个维度的可学习prompt（如"alignment quality"前接learnable tokens），通过冻结的CLIP文本编码器获得条件特征 $f_c^i$
-      - 计算视觉-文本相关矩阵 $I_{v2t}$ 和文本-条件相关 $I_{t2c}^i$
-      - 融合质量特征: $f_{v,c}^i = \text{SoftMax}(I_{v2t} \cdot I_{t2c}^i) \cdot f_v$
-      - 最终: $f_q^i = \text{MLP}(f_{v,c}^i \odot f_t^{eot})$
+        - 定义K个维度的可学习prompt（如"alignment quality"前接learnable tokens），通过冻结的CLIP文本编码器获得条件特征 $f_c^i$
+        - 计算视觉-文本相关矩阵 $I_{v2t}$ 和文本-条件相关 $I_{t2c}^i$
+        - 融合质量特征: $f_{v,c}^i = \text{SoftMax}(I_{v2t} \cdot I_{t2c}^i) \cdot f_v$
+        - 最终: $f_q^i = \text{MLP}(f_{v,c}^i \odot f_t^{eot})$
     - 设计动机：模拟人类评价几何时关注形状轮廓、评价纹理时关注外观细节的差异化注意力
 
 3. **自适应质量映射（AQM, Adaptive Quality Mapping）**:

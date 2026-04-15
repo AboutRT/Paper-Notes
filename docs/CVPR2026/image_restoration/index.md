@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 图像恢复方向 24篇论文解读
+  CVPR2026 图像恢复方向 23篇论文解读
 description: >-
-  24篇CVPR2026 图像恢复方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  23篇CVPR2026 图像恢复方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**📷 CVPR2026** · 共 **24** 篇
+**📷 CVPR2026** · **23** 篇论文解读
 
 **[Beyond Ground-Truth Leveraging Image Quality Priors For Real-World Image Restora](beyond_ground-truth_leveraging_image_quality_priors_for_real-world_image_restora.md)**
 
@@ -33,10 +33,6 @@ description: >-
 **[Bridging The Perception Gap In Image Super-Resolution Evaluation](bridging_the_perception_gap_in_image_super-resolution_evaluation.md)**
 
 :   通过大规模用户研究揭示现有 SR 评估指标（PSNR、SSIM、LPIPS 等）与人类感知严重不一致，分析其内在缺陷后提出极简但有效的 RQI（Relative Quality Index）框架，通过学习图像对之间的相对质量差异实现更可靠的 SR 评估，且可作为损失函数指导 SR 训练。
-
-**[Compressed-Domain-Aware Online Video Super-Resolution](compressed-domain-aware_online_video_super-resolution.md)**
-
-:   CDA-VSR利用视频比特流中免费可得的压缩域信息（运动向量、残差图、帧类型）来分别指导帧对齐、特征融合和自适应重建，在REDS4数据集上比SOTA方法TMP提升PSNR达0.13dB的同时实现>2倍推理速度（~93 FPS@320×180，RTX 3090）。
 
 **[Diffusion-Based Srgb Real Noise Generation Via Prompt-Driven Noise Representatio](diffusion-based_srgb_real_noise_generation_via_prompt-driven_noise_representatio.md)**
 

@@ -64,15 +64,15 @@ TeethGenerator 分两个阶段：Stage I 生成矫正后牙齿模型（形态生
 ### 损失函数 / 训练策略
 
 - **Stage I**：
-  - VQ-VAE 重建损失：Chamfer Distance
-  - 扩散模型损失：标准去噪目标 $\mathcal{L} = \mathbb{E}\|\epsilon_\theta(\mathbf{x_t}, t) - \epsilon\|_2^2$，Cosine 噪声调度
-  - batch size 32，500 epochs，AdamW lr=1e-3
+    - VQ-VAE 重建损失：Chamfer Distance
+    - 扩散模型损失：标准去噪目标 $\mathcal{L} = \mathbb{E}\|\epsilon_\theta(\mathbf{x_t}, t) - \epsilon\|_2^2$，Cosine 噪声调度
+    - batch size 32，500 epochs，AdamW lr=1e-3
 
 - **Stage II**：
-  - 距离损失：$\mathcal{L}_{dis} = \sum_i \|P_{pre} - P_{style}\|^2$（利用点对应关系直接计算L2）
-  - 碰撞避免损失：$\mathcal{L}_{ca} = \sum_{(a,b) \in \mathcal{K}}((\frac{1}{1+d/s})^{12} - 2(\frac{1}{1+d/s})^6)$（Lennard-Jones 势函数，邻接牙齿对+上下颌对）
-  - 总损失：$\mathcal{L} = \mathcal{L}_{dis} + \mathcal{L}_{ca}$
-  - 12 层 Transformer，8 头注意力，batch size 64，300 epochs，AdamW lr=1e-4
+    - 距离损失：$\mathcal{L}_{dis} = \sum_i \|P_{pre} - P_{style}\|^2$（利用点对应关系直接计算L2）
+    - 碰撞避免损失：$\mathcal{L}_{ca} = \sum_{(a,b) \in \mathcal{K}}((\frac{1}{1+d/s})^{12} - 2(\frac{1}{1+d/s})^6)$（Lennard-Jones 势函数，邻接牙齿对+上下颌对）
+    - 总损失：$\mathcal{L} = \mathcal{L}_{dis} + \mathcal{L}_{ca}$
+    - 12 层 Transformer，8 头注意力，batch size 64，300 epochs，AdamW lr=1e-4
 
 ## 实验关键数据
 

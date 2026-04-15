@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🤖 AAAI2026** · 共 **54** 篇
+**🤖 AAAI2026** · **54** 篇论文解读
 
 **[Adafuse Accelerating Dynamic Adapter Inference Via Token-Lev](adafuse_accelerating_dynamic_adapter_inference_via_token-lev.md)**
 

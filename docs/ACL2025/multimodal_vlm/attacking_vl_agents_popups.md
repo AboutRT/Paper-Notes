@@ -89,9 +89,9 @@ tags:
 - 本文为攻击方法研究，无需训练
 - 攻击假设：攻击者拥有完整信息（用户查询、弹窗位置、agent 框架类型）
 - 评测指标：
-  - **ASR (Attack Success Rate)**: agent 点击弹窗的频率，越低越好
-  - **SR (Success Rate)**: 被攻击后的任务完成率，越高越好
-  - **OSR (Original Success Rate)**: 无攻击时的原始任务完成率
+    - **ASR (Attack Success Rate)**: agent 点击弹窗的频率，越低越好
+    - **SR (Success Rate)**: 被攻击后的任务完成率，越高越好
+    - **OSR (Original Success Rate)**: 无攻击时的原始任务完成率
 
 ## 实验关键数据
 

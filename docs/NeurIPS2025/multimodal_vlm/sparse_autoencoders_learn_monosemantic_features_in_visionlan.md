@@ -2,11 +2,13 @@
 title: >-
   [论文解读] Sparse Autoencoders Learn Monosemantic Features in Vision-Language Models
 description: >-
-  [NeurIPS 2025][多模态][sparse autoencoder] 将Sparse Autoencoder (SAE)从LLM可解释性扩展到VLM领域，提出MonoSemanticity Score (MS)量化视觉神经元的单义性，发现SAE能将VLM中多义的神经元分解为单义特征，且可直接通过操控单个SAE神经元来steering LLaVA的输出（插入或抑制概念），无需修改LLM。
+  [NeurIPS 2025][多模态][稀疏自编码器] 本文将稀疏自编码器（SAE）扩展到视觉-语言模型（如CLIP）上，提出了 MonoSemanticity score（MS）来定量评估神经元的单义性，并展示了通过操控 SAE 神经元可以直接引导多模态大模型（如 LLaVA）的输出，实现概念的插入与抑制。
 tags:
   - NeurIPS 2025
-  - 多模态VLM
+  - 多模态
   - 稀疏自编码器
+  - 单义性
+  - CLIP
   - 可解释性
   - 模型引导
 ---

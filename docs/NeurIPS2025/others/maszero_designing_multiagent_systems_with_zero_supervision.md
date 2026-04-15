@@ -54,8 +54,8 @@ MAS-ZERO 分三步：(1) **MAS-Init**——运行 4 个 building block（CoT、C
 
     - 功能：评估 meta-design 产出的 MAS 质量并生成改进反馈
     - 核心思路：执行 MAS 获取两级中间输出（sub-task 级和 agent 级），评估两个标准：
-      - **Solvability**：每个子任务是否被其 sub-MAS 独立且完整地解决？如果不可解，建议进一步分解或更换 sub-MAS
-      - **Completeness**：所有子任务是否覆盖了原始问题的全部必要信息？如果有遗漏，建议修改分解策略
+        - **Solvability**：每个子任务是否被其 sub-MAS 独立且完整地解决？如果不可解，建议进一步分解或更换 sub-MAS
+        - **Completeness**：所有子任务是否覆盖了原始问题的全部必要信息？如果有遗漏，建议修改分解策略
     - 设计动机：不同于只看最终答案正确与否的验证集方法，solvability+completeness 提供更丰富的过程级反馈
 
 3. **Experience Library + MAS-Verify**：

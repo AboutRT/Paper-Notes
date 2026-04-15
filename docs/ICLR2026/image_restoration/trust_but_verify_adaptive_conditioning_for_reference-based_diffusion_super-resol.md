@@ -54,8 +54,8 @@ Ada-RefSR 包含两个核心组件：
 
     - 使用 ReferenceNet（SD-Turbo 初始化，固定 timestep=1）提取多层次参考特征
     - Reference Attention (RA) 模块：
-      - $\mathbf{Q} = \mathbf{H}_{src}\mathbf{W}_Q$, $\mathbf{K} = \mathbf{H}_{ref}\mathbf{W}_K$, $\mathbf{V} = \mathbf{H}_{ref}\mathbf{W}_V$
-      - $\mathbf{H}_{out} = \text{ZeroLinear}(\text{Softmax}(\frac{\mathbf{QK}^\top}{\sqrt{d}})\mathbf{V}) + \mathbf{H}_{src}$
+        - $\mathbf{Q} = \mathbf{H}_{src}\mathbf{W}_Q$, $\mathbf{K} = \mathbf{H}_{ref}\mathbf{W}_K$, $\mathbf{V} = \mathbf{H}_{ref}\mathbf{W}_V$
+        - $\mathbf{H}_{out} = \text{ZeroLinear}(\text{Softmax}(\frac{\mathbf{QK}^\top}{\sqrt{d}})\mathbf{V}) + \mathbf{H}_{src}$
     - RA 权重从骨干自注意力复制初始化，ZeroLinear 稳定早期训练
     - 设计动机：不预先过滤，确保所有潜在的 LQ-Ref 匹配都被捕获
     - 问题：无差别融合会导致局部语义不一致
@@ -63,11 +63,11 @@ Ada-RefSR 包含两个核心组件：
 2. **Verify: 自适应隐式相关性门控（AICG）**
 
     - **参考摘要 Token**：引入可学习摘要 token $\mathbf{T}_S \in \mathbb{R}^{M \times d}$（$M=16$），紧凑地概括参考特征
-      - $\mathbf{S} = \mathbf{T}_S \mathbf{W}_K$
-      - $\mathbf{K}_{sum} = \text{Softmax}(\frac{\mathbf{SK}^\top}{\sqrt{d}})\mathbf{K} \in \mathbb{R}^{M \times d}$
+        - $\mathbf{S} = \mathbf{T}_S \mathbf{W}_K$
+        - $\mathbf{K}_{sum} = \text{Softmax}(\frac{\mathbf{SK}^\top}{\sqrt{d}})\mathbf{K} \in \mathbb{R}^{M \times d}$
     - **隐式相关性门控**：
-      - $\mathbf{S}_{map} = \text{Softmax}(\frac{\mathbf{Q}\mathbf{K}_{sum}^\top}{\sqrt{d}}) \in \mathbb{R}^{L_q \times M}$
-      - $\mathbf{G} = \sigma(\frac{1}{M}\sum_{j=1}^{M}[\mathbf{S}_{map}]_{:,j}) \in \mathbb{R}^{L_q \times 1}$
+        - $\mathbf{S}_{map} = \text{Softmax}(\frac{\mathbf{Q}\mathbf{K}_{sum}^\top}{\sqrt{d}}) \in \mathbb{R}^{L_q \times M}$
+        - $\mathbf{G} = \sigma(\frac{1}{M}\sum_{j=1}^{M}[\mathbf{S}_{map}]_{:,j}) \in \mathbb{R}^{L_q \times 1}$
     - **门控调制**：$\mathbf{H}_{out} = \text{ZeroLinear}(\mathbf{G} \odot \text{RA}(\mathbf{H}_{src}, \mathbf{H}_{ref})) + \mathbf{H}_{src}$
     - 设计动机：隐式建模替代显式 token-to-token 相似性，避免噪声干扰
     - 关键优势：复用 RA 模块内的现有投影和中间变量，极轻量

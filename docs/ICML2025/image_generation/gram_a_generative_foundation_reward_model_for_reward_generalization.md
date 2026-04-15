@@ -71,8 +71,8 @@ GRAM 提出用生成式（而非判别式）方法训练奖励模型——先通
 - **预训练**：标准的自回归语言模型损失 $\mathcal{L} = -\sum_t \log p_\theta(y_t | y_{<t}, x)$
 - **微调**：带 label smoothing 的偏好损失，等价于正则化的 pairwise ranking
 - 训练策略支持两种模式：
-  - 直接在偏好数据上训练（label smoothed CE）
-  - 冻结生成模型，仅训练轻量适配层
+    - 直接在偏好数据上训练（label smoothed CE）
+    - 冻结生成模型，仅训练轻量适配层
 
 ## 实验关键数据
 

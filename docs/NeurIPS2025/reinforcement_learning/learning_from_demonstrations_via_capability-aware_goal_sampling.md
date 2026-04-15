@@ -62,8 +62,8 @@ tags:
     - 功能：在能力边界附近采样合适难度的目标
     - 为什么：太简单的目标无学习信号，太难的目标导致发散
     - 怎么做：
-      - 找能力上限：$j^* = \max\{j | \text{Dict}_{visit}[\tau^{(i)}][j] \geq \lambda_{visit}\}$
-      - 采样范围：$\mathcal{G}_{cap}(\pi^G, \tau^{(i)}) = \{s_k \in \tau^{(i)} | |k - j^*| \leq \delta \cdot L_i\}$
+        - 找能力上限：$j^* = \max\{j | \text{Dict}_{visit}[\tau^{(i)}][j] \geq \lambda_{visit}\}$
+        - 采样范围：$\mathcal{G}_{cap}(\pi^G, \tau^{(i)}) = \{s_k \in \tau^{(i)} | |k - j^*| \leq \delta \cdot L_i\}$
     - $\lambda_{visit}$：频率阈值（如100），$\delta$：窗口大小（如10%轨迹长度）
     - 区别：与JSRL的均匀课程不同，本方法真正感知智能体能力
 
@@ -72,8 +72,8 @@ tags:
     - 功能：每个episode分为Go阶段和Explore阶段
     - 为什么：双阶段确保数据既靠近演示分布又有探索性
     - 怎么做：
-      - Go阶段：目标条件策略 $\pi^G(\cdot|s, g)$ 尝试到达采样目标
-      - Explore阶段：BC Explorer $\pi^E$（行为克隆策略）从到达点继续探索
+        - Go阶段：目标条件策略 $\pi^G(\cdot|s, g)$ 尝试到达采样目标
+        - Explore阶段：BC Explorer $\pi^E$（行为克隆策略）从到达点继续探索
     - 区别：BC Explorer提供高质量探索，优于随机探索
 
 4. **World Model + 策略训练**：

@@ -2,8 +2,9 @@
 title: >-
   [论文解读] AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset
 description: >-
-  [医学图像][medical QA] 构建首个大规模泛非洲医学问答基准 AfriMed-QA（15,275 题，涵盖 16 国 32 个专科），系统评估 30 个 LLM 在非洲医疗场景下的表现，发现显著的地域差异和专科差异。
+  [ACL 2025][医学图像][medical QA] 构建首个大规模泛非洲医学问答基准 AfriMed-QA（15,275 题，涵盖 16 国 32 个专科），系统评估 30 个 LLM 在非洲医疗场景下的表现，发现显著的地域差异和专科差异。
 tags:
+  - ACL 2025
   - 医学图像
   - medical QA
   - LLM evaluation
@@ -14,13 +15,11 @@ tags:
 
 # AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2411.15640](https://arxiv.org/abs/2411.15640) |
-| 代码 | [HuggingFace Dataset](https://huggingface.co/datasets/intronhealth/afrimedqa_v2) |
-| 领域 | 医学NLP / 基准数据集 |
-| 关键词 | medical QA, LLM evaluation, African healthcare, benchmark, pan-African |
+**会议**: ACL 2025  
+**arXiv**: [2411.15640](https://arxiv.org/abs/2411.15640)  
+**代码**: [HuggingFace Dataset](https://huggingface.co/datasets/intronhealth/afrimedqa_v2)  
+**领域**: 医学NLP / 基准数据集  
+**关键词**: medical QA, LLM evaluation, African healthcare, benchmark, pan-African  
 
 ## 一句话总结
 

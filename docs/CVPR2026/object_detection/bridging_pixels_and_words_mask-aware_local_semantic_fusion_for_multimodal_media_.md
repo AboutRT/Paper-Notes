@@ -64,13 +64,13 @@ tags:
 3. **Hierarchical Semantic Aggregation (HSA)**:
 
     - **浅层融合**: 将验证输出的 [CLS] token 和序列 token 分开聚合
-      - $a_{\text{img}}, a_{\text{cap}}$: 聚合 [CLS]，捕获全局共识
-      - $s_{\text{img}}, s_{\text{cap}}$: 聚合序列，保留细粒度上下文
+        - $a_{\text{img}}, a_{\text{cap}}$: 聚合 [CLS]，捕获全局共识
+        - $s_{\text{img}}, s_{\text{cap}}$: 聚合序列，保留细粒度上下文
     - **深层融合**: 任务特定解耦
-      - 二分类: 聚合两个模态的 cls 特征
-      - 操纵类型: 可学习 token $p_v, p_l$ 分别查询图像/文本序列
-      - 图像定位: 可学习 token $p_{\text{bbox}}$ 查询视觉序列 → 线性层输出 bbox
-      - 文本定位: 直接用文本序列 → 逐位置二分类
+        - 二分类: 聚合两个模态的 cls 特征
+        - 操纵类型: 可学习 token $p_v, p_l$ 分别查询图像/文本序列
+        - 图像定位: 可学习 token $p_{\text{bbox}}$ 查询视觉序列 → 线性层输出 bbox
+        - 文本定位: 直接用文本序列 → 逐位置二分类
     - **设计动机**: 融合到解耦的设计让模型学习任务特定表示同时保持语义连贯
 
 ### 损失函数 / 训练策略

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**📷 CVPR2025** · 共 **2** 篇
+**📷 CVPR2025** · **2** 篇论文解读
 
 **[Automatic Joint Structured Pruning And Quantization For Efficient Neural Network](automatic_joint_structured_pruning_and_quantization_for_efficient_neural_network.md)**
 

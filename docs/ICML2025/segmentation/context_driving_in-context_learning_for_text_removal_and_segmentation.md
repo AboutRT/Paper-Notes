@@ -93,8 +93,8 @@ $$\tilde{\mathbf{F}}_2 = [\phi(\tilde{\mathbf{F}}_{O_i}, \tilde{\mathbf{F}}_j), 
 - **优化器**：AdamW，学习率0.0001，权重衰减0.1，cosine调度
 - **训练规模**：16×A100 (80GB)，batch size 64（单卡2 + 2步梯度累积），150 epoch
 - **两种训练模式**：
-  - ConText：仅用 HierText 训练（用于消融）
-  - ConText$_V$：HierText + TextSeg + TotalText + SCUT-EnsText（用于与specialist对比）
+    - ConText：仅用 HierText 训练（用于消融）
+    - ConText$_V$：HierText + TextSeg + TotalText + SCUT-EnsText（用于与specialist对比）
 
 ## 实验关键数据
 

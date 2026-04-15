@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**📷 CVPR2025** · 共 **5** 篇
+**📷 CVPR2025** · **5** 篇论文解读
 
 **[Dense Dispersed Structured Light For Hyperspectral 3D Imaging Of Dynamic Scenes](dense_dispersed_structured_light_for_hyperspectral_3d_imaging_of_dynamic_scenes.md)**
 

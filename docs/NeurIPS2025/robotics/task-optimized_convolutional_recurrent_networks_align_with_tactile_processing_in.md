@@ -88,9 +88,9 @@ tags:
 - **SSL预训练**：SimCLR/AE batch=256, SimSiam batch=1024，100 epoch；线性探测阶段再冻结+100 epoch
 - ConvRNN可选择添加LayerNorm稳定训练
 - **神经对齐评估**：使用表征相似性分析（RSA），无参数方法比较模型和神经群体响应的成对不相似度结构
-  - 仅保留分半内部一致性（Spearman-Brown校正）>0.5的可靠神经元
-  - 噪声校正后的RSA Pearson r作为评分
-  - 与动物间一致性（a2a基线）比较
+    - 仅保留分半内部一致性（Spearman-Brown校正）>0.5的可靠神经元
+    - 噪声校正后的RSA Pearson r作为评分
+    - 与动物间一致性（a2a基线）比较
 - 神经数据来自Rodgers (2022)：11只小鼠，999个神经单元，桶状皮层L2/3至L6
 
 ## 实验关键数据

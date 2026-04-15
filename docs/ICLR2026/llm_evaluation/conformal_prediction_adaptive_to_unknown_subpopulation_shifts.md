@@ -68,9 +68,9 @@ tags:
 
     - 功能：完全不需要 domain 标签或 domain classifier，用嵌入空间的相似度加权校准数据
     - 核心思路：
-      - 按与测试点的嵌入相似度排序，保留 top $\beta$ 比例的校准数据
-      - 用 softmax 加权：$\gamma_i = h(z(X_{\text{test}}), z(X_i'))$，$m = \text{Softmax}(\{\gamma_i/\sigma\})$
-      - 计算加权分位数作为阈值
+        - 按与测试点的嵌入相似度排序，保留 top $\beta$ 比例的校准数据
+        - 用 softmax 加权：$\gamma_i = h(z(X_{\text{test}}), z(X_i'))$，$m = \text{Softmax}(\{\gamma_i/\sigma\})$
+        - 计算加权分位数作为阈值
     - 设计动机：语义相似的数据更可能来自相同 domain，用相似度近似 domain 归属
 
 4. **Theorem 2.1 (关键理论贡献)**:

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**📹 ICCV2025** · 共 **23** 篇
+**📹 ICCV2025** · **23** 篇论文解读
 
 **[Adaptive Articulated Object Manipulation On The Fly With Foundation Model Reason](adaptive_articulated_object_manipulation_on_the_fly_with_foundation_model_reason.md)**
 

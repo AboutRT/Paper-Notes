@@ -64,8 +64,8 @@ tags:
 
 **(c) 节点评估与剪枝**
 - 利用 LLM 的 logits 对方案节点和评论节点打分
-  - 方案评分：拼接方案+评论+后缀 "According to the comment, above solution is reliable"，取平均 logits 作为可靠性分数
-  - 评论评分：拼接旧方案+评论+新方案+后缀 "Comparing the new solution and old solution, the comment is helpful"，取平均 logits 作为有用性分数
+    - 方案评分：拼接方案+评论+后缀 "According to the comment, above solution is reliable"，取平均 logits 作为可靠性分数
+    - 评论评分：拼接旧方案+评论+新方案+后缀 "Comparing the new solution and old solution, the comment is helpful"，取平均 logits 作为有用性分数
 - 每层只保留得分最高的 W 个节点，实现效率与性能的平衡
 
 **超参数设置**: 树最大深度 L=5，每节点子节点数 H=2，保留节点数 W=1；基座模型 Qwen2.5-7B-Instruct，检索模型 NV-Embed-v2，检索数 R=10。

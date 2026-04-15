@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM推理
 
-**💬 ACL2025** · 共 **43** 篇
+**💬 ACL2025** · **43** 篇论文解读
 
 **[Aristotle Logical Reasoning](aristotle_logical_reasoning.md)**
 

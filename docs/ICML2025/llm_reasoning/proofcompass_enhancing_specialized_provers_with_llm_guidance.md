@@ -2,20 +2,25 @@
 title: >-
   [论文解读] ProofCompass: Enhancing Specialized Provers with LLM Guidance
 description: >-
-  [LLM推理] ProofCompass 提出一种无需额外训练的混合方法，用通用 LLM 为专业定理证明器（如 DeepSeek-Prover-v1.5-RL）提供自然语言证明策略和中间引理选择，在 miniF2F 上用 25 倍少的尝试次数超越了基线性能（54.9% → 55.3%）。
+  [ICML 2025 (AI for MATH Workshop)][LLM推理][Formal Theorem Proving] ProofCompass 提出一种无需额外训练的混合方法，用通用 LLM 为专业定理证明器（如 DeepSeek-Prover-v1.5-RL）提供自然语言证明策略和中间引理选择，在 miniF2F 上用 25 倍少的尝试次数超越了基线性能（54.9% → 55.3%）。
 tags:
+  - ICML 2025 (AI for MATH Workshop)
   - LLM推理
+  - Formal Theorem Proving
+  - Hybrid Methodology
+  - DeepSeek-Prover
+  - LLM Guidance
+  - Lemma Decomposition
+  - miniF2F
 ---
 
 # ProofCompass: Enhancing Specialized Provers with LLM Guidance
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 (AI for MATH Workshop) |
-| arXiv | [2507.14335](https://arxiv.org/abs/2507.14335) |
-| 代码 | — |
-| 领域 | LLM推理 / 形式化定理证明 / 数学推理 |
-| 关键词 | Formal Theorem Proving, Hybrid Methodology, DeepSeek-Prover, LLM Guidance, Lemma Decomposition, miniF2F |
+**会议**: ICML 2025 (AI for MATH Workshop)  
+**arXiv**: [2507.14335](https://arxiv.org/abs/2507.14335)  
+**代码**: —  
+**领域**: LLM推理 / 形式化定理证明 / 数学推理  
+**关键词**: Formal Theorem Proving, Hybrid Methodology, DeepSeek-Prover, LLM Guidance, Lemma Decomposition, miniF2F  
 
 ## 一句话总结
 

@@ -58,8 +58,8 @@ tags:
 2. **双度量算法(Algorithm 3)**：
 
     - 两阶段设计：
-      - **Phase 1**：迭代找最紧凑簇(Most Cohesive Cluster, MCC)——找使最大成员损失最小的簇-质心对。每次找到后移除这些agent
-      - **Phase 2**：选择性允许agent切换簇，关键约束：
+        - **Phase 1**：迭代找最紧凑簇(Most Cohesive Cluster, MCC)——找使最大成员损失最小的簇-质心对。每次找到后移除这些agent
+        - **Phase 2**：选择性允许agent切换簇，关键约束：
        - 切换不能过度损害新簇成员：切换后新簇成员的损失 $\leq c \cdot r_{t'}$
        - 切换后自己的损失有上界保证
        - 每个agent的决策独立于其他agent的切换决策

@@ -50,9 +50,9 @@ tags:
 
     - **文档构建**：从 wikiHow 教程中提取目标、步骤标题和对应图片组成交错文档
     - **查询生成管线**（三阶段）：
-      - (a) 用 Idefics3-8B 对文档图片生成 caption → Qwen2.5-72B 基于文本和 caption 生成文本查询
-      - (b) BM25 找最具信息量的句子 → LLM 选择实体/动作转化为图片 caption → 重写查询文本去除已图片化的信息
-      - (c) FLUX.1-dev 文生图 → 与重写后文本合并形成交错查询
+        - (a) 用 Idefics3-8B 对文档图片生成 caption → Qwen2.5-72B 基于文本和 caption 生成文本查询
+        - (b) BM25 找最具信息量的句子 → LLM 选择实体/动作转化为图片 caption → 重写查询文本去除已图片化的信息
+        - (c) FLUX.1-dev 文生图 → 与重写后文本合并形成交错查询
     - **测试集标注**：人工审核 10K 对，过滤非法内容、不合理内容、图文不一致等，保留 7654 对高质量query-document pair
 
 2. **DPR 基线**
@@ -66,9 +66,9 @@ tags:
     - 在 MLLM 的视觉投影后加入平均池化层，将 $24 \times 24 = 576$ 个视觉 token 压缩为 $N \times N$ 个
     - $N \in \{1, 2, 3, 4, 6, 8, 12, 24\}$，推理时可灵活选择
     - **三种训练策略**：
-      - Random (Rand)：每个 micro-batch 随机采样一个 N
-      - Matryoshka Learning (MRL)：同时训练所有 M 个粒度，加权求和损失
-      - Mean Learning (Mean)：计算所有 $M \times M$ 种 query-document 大小组合的损失均值
+        - Random (Rand)：每个 micro-batch 随机采样一个 N
+        - Matryoshka Learning (MRL)：同时训练所有 M 个粒度，加权求和损失
+        - Mean Learning (Mean)：计算所有 $M \times M$ 种 query-document 大小组合的损失均值
 
 ### 损失函数 / 训练策略
 

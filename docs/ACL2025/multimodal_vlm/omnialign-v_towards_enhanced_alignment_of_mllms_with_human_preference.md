@@ -28,14 +28,14 @@ tags:
 
 - 开源 MLLM 在标准 VQA 基准上接近商业模型，但在人类偏好对齐方面存在显著差距
 - **关键实验**（Table 1）：多模态 SFT 后，MLLM 在纯文本对齐基准上大幅退化
-  - InternLM2.5-7B → InternVL2-8B：AlpacaEval-V2 从 27.58 降至 3.35（**-87.9%**）
-  - Qwen2-7B → Qwen2VL-7B：ArenaHard 从 32.84 降至 6.46（**-80.3%**）
+    - InternLM2.5-7B → InternVL2-8B：AlpacaEval-V2 从 27.58 降至 3.35（**-87.9%**）
+    - Qwen2-7B → Qwen2VL-7B：ArenaHard 从 32.84 降至 6.46（**-80.3%**）
 
 ### 仅加高质量文本数据无济于事
 
 - 将 LLaVA-Next-778K 中的文本数据替换为 Magpie/Condor 高质量数据
 - 结果（Table 2）：纯文本对齐提升，但**多模态对齐反而下降**
-  - WildVision、MMVet、MMBench 等多模态指标全面恶化
+    - WildVision、MMVet、MMBench 等多模态指标全面恶化
 - **结论**：语言对齐能力不能直接迁移到多模态对齐，需要专门的多模态人类对齐数据
 
 ### 现有多模态数据的问题

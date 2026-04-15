@@ -2,15 +2,16 @@
 title: >-
   [论文解读] FLUX: Efficient Descriptor-Driven Clustered Federated Learning under Arbitrary Distribution Shifts
 description: >-
-  Flux提出描述符驱动的聚类联邦学习框架，通过客户端侧提取边际/条件分布的矩统计量描述符并用自适应DBSCAN无监督聚类，无需先验知识地统一处理四种分布偏移，支持无标签新客户端测试时适配，在6个数据集上平均精度提升最高达23pp。
+  [NEURIPS2025][AI安全][聚类联邦学习] Flux通过在客户端侧提取紧凑的分布描述符（边际P(X)均值/协方差 + 类条件P(Y|X)均值/协方差），在服务器端用自适应DBSCAN无监督聚类自动确定聚类数与分组，训练聚类专属模型，并在测试时仅凭特征描述符为无标签新客户端匹配最优模型——首次同时处理四种分布偏移且通信开销与FedAvg相当。
 tags:
   - NEURIPS2025
   - AI安全
-  - 联邦学习
   - 聚类联邦学习
+  - 描述符
   - 分布偏移
   - 测试时适配
-  - 无监督聚类
+  - DBSCAN
+  - Wasserstein距离
 ---
 
 # FLUX: Efficient Descriptor-Driven Clustered Federated Learning under Arbitrary Distribution Shifts

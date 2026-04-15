@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC检测
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[Spatial Preference Rewarding For Mllms Spatial Understanding](spatial_preference_rewarding_for_mllms_spatial_understanding.md)**
 

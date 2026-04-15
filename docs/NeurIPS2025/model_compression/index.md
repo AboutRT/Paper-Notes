@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 模型压缩方向 140篇论文解读
+  NeurIPS2025 模型压缩方向 139篇论文解读
 description: >-
-  140篇NeurIPS2025 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  139篇NeurIPS2025 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🧠 NeurIPS2025** · 共 **140** 篇
+**🧠 NeurIPS2025** · **139** 篇论文解读
 
 **[3Did Direct 3D Inverse Design For Aerodynamics With Physics-Aware Optimization](3did_direct_3d_inverse_design_for_aerodynamics_with_physics-aware_optimization.md)**
 
@@ -301,10 +301,6 @@ description: >-
 **[Less Is More But Where Dynamic Token Compression Via Llm-Guided Keyframe Prior](less_is_more_but_where_dynamic_token_compression_via_llm-guided_keyframe_prior.md)**
 
 :   提出 DyToK，一种无需训练的视频 token 动态压缩方法，利用 VLLM 深层注意力中固有的 query 条件关键帧先验，为不同帧自适应分配 token 预算，实现即插即用式的效率-精度最优权衡。
-
-**[Linear Attention For Efficient Bidirectional Sequence Modeling](linear_attention_for_efficient_bidirectional_sequence_modeling.md)**
-
-:   提出 Lion 框架，首次系统地将线性 Transformer 扩展到双向序列建模，统一了全线性注意力、双向 RNN 和分块并行三种等价表示，在图像分类和 MLM 任务上训练速度比 SSM 快达 10 倍且性能可比 softmax Transformer。
 
 **[Littlebit Ultra Low-Bit Quantization Via Latent Factorization](littlebit_ultra_low-bit_quantization_via_latent_factorization.md)**
 

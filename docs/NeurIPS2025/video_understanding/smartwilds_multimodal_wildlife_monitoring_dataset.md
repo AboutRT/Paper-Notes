@@ -2,14 +2,16 @@
 title: >-
   [论文解读] SmartWilds: Multimodal Wildlife Monitoring Dataset
 description: >-
-  [NeurIPS 2025][视频理解][多模态数据集] 首个同步多模态野生动物监测数据集SmartWilds，在俄亥俄州The Wilds野生动物园部署无人机、相机陷阱和生物声学三种传感模态，四天连续同步采集101GB/20K+文件，建立可重复的多传感器融合协议，为保护生态学AI研究提供开放基准。
+  [NeurIPS 2025][视频理解][多模态数据集] 发布首个同步多模态野生动物监测数据集SmartWilds，整合无人机影像、相机陷阱和生物声学三种模态共101GB数据，通过GPS/时间戳实现跨模态对齐，建立可重复的保护监测标准协议，填补综合性生态系统多传感器融合数据集的空白。
 tags:
   - NeurIPS 2025
   - 视频理解
   - 多模态数据集
-  - 野生动物监测
   - 传感器融合
-  - 保护生态学
+  - 无人机影像
+  - 相机陷阱
+  - 生物声学
+  - 野生动物监测
 ---
 
 # SmartWilds: Multimodal Wildlife Monitoring Dataset

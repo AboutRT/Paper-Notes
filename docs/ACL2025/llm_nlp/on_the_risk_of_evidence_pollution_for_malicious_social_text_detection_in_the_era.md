@@ -2,20 +2,24 @@
 title: >-
   [论文解读] On the Risk of Evidence Pollution for Malicious Social Text Detection in the Era of LLMs
 description: >-
-  [LLM/NLP] 本文系统研究了LLM时代下恶意社交文本检测中的"证据污染"风险，提出13种污染方法和3种防御策略，发现LLM生成的虚假证据可导致检测器性能下降高达14.4%，且现有防御策略面临实际部署挑战。
+  [ACL2025][LLM/NLP][Evidence Pollution] 本文系统研究了LLM时代下恶意社交文本检测中的"证据污染"风险，提出13种污染方法和3种防御策略，发现LLM生成的虚假证据可导致检测器性能下降高达14.4%，且现有防御策略面临实际部署挑战。
 tags:
+  - ACL2025
   - LLM/NLP
+  - Evidence Pollution
+  - Malicious Social Text
+  - LLM Misuse
+  - Defense Strategy
+  - Fake News Detection
 ---
 
 # On the Risk of Evidence Pollution for Malicious Social Text Detection in the Era of LLMs
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2410.12600](https://arxiv.org/abs/2410.12600) |
-| 代码 | [GitHub](https://github.com/whr000001/EvidencePollution) |
-| 领域 | 恶意文本检测 / 社交媒体安全 / LLM安全 |
-| 关键词 | Evidence Pollution, Malicious Social Text, LLM Misuse, Defense Strategy, Fake News Detection |
+**会议**: ACL2025  
+**arXiv**: [2410.12600](https://arxiv.org/abs/2410.12600)  
+**代码**: [GitHub](https://github.com/whr000001/EvidencePollution)  
+**领域**: 恶意文本检测 / 社交媒体安全 / LLM安全  
+**关键词**: Evidence Pollution, Malicious Social Text, LLM Misuse, Defense Strategy, Fake News Detection  
 
 ## 一句话总结
 

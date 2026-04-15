@@ -75,7 +75,7 @@ $$p(x_t | y, x_1) = N(x_t; \frac{\bar\sigma_t^2}{\bar\sigma_t^2 + \sigma_t^2} y 
 
 - **训练**：天文数据分辨率大，裁剪为 128×128 patches
 - **推理**：对大尺度观测数据（如 Taurus B213），切分为重叠 patches 独立推理后聚合
-  - 不同于 padding-based 方案（Li et al., 2025），无需考虑边界效应
+    - 不同于 padding-based 方案（Li et al., 2025），无需考虑边界效应
 
 ### 损失函数 / 训练策略
 

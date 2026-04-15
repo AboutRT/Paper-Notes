@@ -60,9 +60,9 @@ Dr.Occ 在现有占用预测流程基础上做两处改进：
     - **几何感知占用 mask**：利用 MoGe-2 估计的深度图 $\mathbf{D}_i$ 生成伪点云 $\mathcal{P}$，通过相机投影和体素化生成二值 mask $M(\mathbf{v})$，标记非空体素位置
     - 投影公式：$\mathbf{x}_{\text{cam}}^T = d \cdot \mathbf{K}_i^{-1}[u, v, 1]^T$，$\mathbf{p}_i = \mathbf{R}_i^\top(\mathbf{x}_{\text{cam}} - \mathbf{t}_i)$，$M(\mathbf{v}) = \mathbf{1}[\mathbf{v} \in \text{Voxelize}(\mathcal{P}, r)]$
     - **三阶段渐进精炼**：
-      - Stage 1（前向投影 + 下采样）：融合多帧图像特征通过深度投影到体素空间，下采样 $\lambda$ 倍以提高计算效率和深度鲁棒性
-      - Stage 2（后向投影稠密化）：使用 Deformable Cross-Attention (DCA) 融合多视图图像特征 $\mathbf{F}_{\text{dense}} = \text{DCA}(\mathbf{F}_{\text{down}}, \mathbf{F}^{(I)})$
-      - Stage 3（深度引导非空体素精炼）：仅对 mask 标记的非空体素进行两步精炼——几何精炼（融合深度特征 $\mathbf{F}^{(D)}$）+ 语义增强（融合图像特征 $\mathbf{F}^{(I)}$），空体素用可学习 embedding $\mathbf{e}_{\text{empty}}$ 填充
+        - Stage 1（前向投影 + 下采样）：融合多帧图像特征通过深度投影到体素空间，下采样 $\lambda$ 倍以提高计算效率和深度鲁棒性
+        - Stage 2（后向投影稠密化）：使用 Deformable Cross-Attention (DCA) 融合多视图图像特征 $\mathbf{F}_{\text{dense}} = \text{DCA}(\mathbf{F}_{\text{down}}, \mathbf{F}^{(I)})$
+        - Stage 3（深度引导非空体素精炼）：仅对 mask 标记的非空体素进行两步精炼——几何精炼（融合深度特征 $\mathbf{F}^{(D)}$）+ 语义增强（融合图像特征 $\mathbf{F}^{(I)}$），空体素用可学习 embedding $\mathbf{e}_{\text{empty}}$ 填充
     - 关键洞察：不直接用 MoGe 深度做前向投影（会因缺少隐式深度约束而降低特征质量），而是用深度生成 mask 引导注意力集中在有意义的区域
 
 2. **区域引导的专家 Transformer（R-EFormer）**:

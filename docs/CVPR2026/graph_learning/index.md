@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**📷 CVPR2026** · 共 **4** 篇
+**📷 CVPR2026** · **4** 篇论文解读
 
 **[Hyperbolic Busemann Neural Networks](hyperbolic_busemann_neural_networks.md)**
 

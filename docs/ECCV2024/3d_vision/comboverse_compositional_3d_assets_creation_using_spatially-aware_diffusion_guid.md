@@ -53,9 +53,9 @@ ComboVerse分为两个阶段：
 
     - 使用SAM根据2D边界框分割每个物体：$O_i, M_i = \text{SAM}(I, b_i)$
     - **遮挡修复策略**：
-      - 将物体背景替换为随机噪声（避免修复时产生白/黑边框）：$I_i = O_i + noise \cdot (\sim M_i)$
-      - 构建边界框感知mask：$m_i = (\sim M_i) \cap b_i$，标记需要修复的区域
-      - 使用Stable Diffusion配合文本提示"a complete 3D model"进行修复
+        - 将物体背景替换为随机噪声（避免修复时产生白/黑边框）：$I_i = O_i + noise \cdot (\sim M_i)$
+        - 构建边界框感知mask：$m_i = (\sim M_i) \cap b_i$，标记需要修复的区域
+        - 使用Stable Diffusion配合文本提示"a complete 3D model"进行修复
     - **设计动机**：噪声背景+边界框感知mask+文本引导三者缺一不可，消融实验证实每个组件都有必要
 
 2. **空间感知Score Distillation Sampling (SSDS)**：
@@ -72,9 +72,9 @@ ComboVerse分为两个阶段：
 3. **物体组合优化（Combine the Objects）**：
 
     - **粗初始化**：
-      - 缩放：$s_i = \max\{W_{b_i}/W_I, H_{b_i}/H_I\}$，基于边界框与图像尺寸比
-      - 平移：x/y由边界框中心坐标决定，z由单目深度估计均值决定
-      - 旋转：初始化为(0,0,0)
+        - 缩放：$s_i = \max\{W_{b_i}/W_I, H_{b_i}/H_I\}$，基于边界框与图像尺寸比
+        - 平移：x/y由边界框中心坐标决定，z由单目深度估计均值决定
+        - 旋转：初始化为(0,0,0)
     - **精细优化**：使用SSDS作为新视角监督 + 参考视图重建损失
     $\mathcal{L}_{\text{Ref}} = \lambda_{\text{RGB}}|\hat{I}_{\text{RGB}} - I_{\text{RGB}}| + \lambda_A|\hat{I}_A - I_A|$
     - 总损失为 $\mathcal{L}_{\text{Ref}} + \mathcal{L}_{\text{SSDS}}$ 的加权和

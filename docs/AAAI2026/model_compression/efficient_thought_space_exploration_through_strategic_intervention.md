@@ -76,9 +76,9 @@ HPR 采用两个角色：
     $\text{DIR}(\mathbf{z}; V, P_\theta) = D_{KL}(Q_V||P_\theta) - D_{KL}(Q_{V \cup \{\mathbf{v}\}}||P_\theta)$
       分解为三项：前缀概率项 × （next-token KL差 + 子树KL贡献）
     - **三个偏好特性**：
-      - 偏好高概率前缀（在可靠基础上扩展）
-      - 偏好未充分探索的节点（hinter-practitioner 差距大的地方）
-      - 偏好扩展后路径在 Hinter 下概率高的节点
+        - 偏好高概率前缀（在可靠基础上扩展）
+        - 偏好未充分探索的节点（hinter-practitioner 差距大的地方）
+        - 偏好扩展后路径在 Hinter 下概率高的节点
     - **设计动机**：贪心地选择最大化 DIR 的节点进行干预，以最小的干预次数获得最大的分布对齐效果
 
 3. **高效实现细节**:

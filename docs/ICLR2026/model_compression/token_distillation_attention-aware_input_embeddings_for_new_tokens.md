@@ -29,9 +29,9 @@ tags:
 
 - **静态词表问题**: 预训练语言模型使用固定 tokenizer，对领域特定或新语言词汇过度分词，导致性能下降和计算开销增加
 - **现有初始化方法的根本局限**:
-  - 子词均值法仅利用 embedding 矩阵信息，忽略了 Transformer 层的功能性知识
-  - 例如 `<_pal><at><able>` 的各子词 embedding 不包含 `<_palatable>` 的语义
-  - 多子词的语义由 Transformer 的注意力/前馈层在上下文化过程中逐步构建（neural detokenization）
+    - 子词均值法仅利用 embedding 矩阵信息，忽略了 Transformer 层的功能性知识
+    - 例如 `<_pal><at><able>` 的各子词 embedding 不包含 `<_palatable>` 的语义
+    - 多子词的语义由 Transformer 的注意力/前馈层在上下文化过程中逐步构建（neural detokenization）
 - **核心洞察**: 有效的新 token 嵌入必须捕获存储在所有 Transformer 层中的信息，而非仅依赖 embedding 矩阵
 
 ## 方法详解

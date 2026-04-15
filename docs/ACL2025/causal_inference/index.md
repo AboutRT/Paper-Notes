@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**💬 ACL2025** · 共 **7** 篇
+**💬 ACL2025** · **7** 篇论文解读
 
 **[Causal Graph Based Event Reasoning Using Semantic Relation Experts](causal_graph_based_event_reasoning_using_semantic_relation_experts.md)**
 

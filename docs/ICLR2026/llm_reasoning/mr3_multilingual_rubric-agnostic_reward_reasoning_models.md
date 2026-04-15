@@ -61,12 +61,12 @@ tags:
 
     - 功能：从300万+样本中筛选构建100K高质量多语言训练集
     - 核心思路：
-      - 初始数据池来自6个公开数据集（Human Arena Preference, HelpSteer3, MMMLU, HumanEval-XL, MATH-500 Multilingual, PolyGuardMix），覆盖125种语言
-      - 缺少rubric的数据用GPT-4.1自动生成英语rubric
-      - 用GPT-OSS-120B蒸馏生成三种语言策略的输出：eng-eng（英文指令+英文推理）、tgt-eng（目标语指令+英文推理）、tgt-tgt（目标语指令+目标语推理）
-      - **质量过滤**：只保留三种策略都能正确回答的样本
-      - **难度过滤**：去掉gpt-oss-20b连续5次都能答对的"简单"样本
-      - 最终下采样到100K，优先保留更难的样本
+        - 初始数据池来自6个公开数据集（Human Arena Preference, HelpSteer3, MMMLU, HumanEval-XL, MATH-500 Multilingual, PolyGuardMix），覆盖125种语言
+        - 缺少rubric的数据用GPT-4.1自动生成英语rubric
+        - 用GPT-OSS-120B蒸馏生成三种语言策略的输出：eng-eng（英文指令+英文推理）、tgt-eng（目标语指令+英文推理）、tgt-tgt（目标语指令+目标语推理）
+        - **质量过滤**：只保留三种策略都能正确回答的样本
+        - **难度过滤**：去掉gpt-oss-20b连续5次都能答对的"简单"样本
+        - 最终下采样到100K，优先保留更难的样本
 
 2. **课程学习策略**
 
@@ -78,9 +78,9 @@ tags:
 
     - 功能：系统比较eng-eng、tgt-eng、tgt-tgt三种推理路径的效果
     - 核心发现：
-      - eng-eng整体最强（英语推理能力最成熟）
-      - tgt-eng紧随其后，大模型对非英语prompt鲁棒性更强
-      - tgt-tgt在微调前最弱，但微调后**提升最大**，甚至超过基础模型的eng-eng性能
+        - eng-eng整体最强（英语推理能力最成熟）
+        - tgt-eng紧随其后，大模型对非英语prompt鲁棒性更强
+        - tgt-tgt在微调前最弱，但微调后**提升最大**，甚至超过基础模型的eng-eng性能
     - 设计动机：目标语推理对可解释性和低资源语言用户至关重要
 
 4. **训练目标：SFT而非RL**

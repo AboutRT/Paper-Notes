@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM推理
 
-**📹 ICCV2025** · 共 **4** 篇
+**📹 ICCV2025** · **4** 篇论文解读
 
 **[Corvid Improving Multimodal Large Language Models Towards Ch](corvid_improving_multimodal_large_language_models_towards_ch.md)**
 

@@ -63,9 +63,9 @@ tags:
 
     - 功能：递归计算任意两个 st-d-DNNF 节点 $\alpha, \beta$ 的 WMC 协方差
     - 核心思路：根据 $\mathsf{d}(\alpha)$ 和 $\mathsf{d}(\beta)$ 在 vtree 中的关系，分三种情况分解：
-      - **Case I**（无祖先-后代关系）：利用乘积独立性公式 $\mathrm{Cov}[AX, BY] = \mathrm{Cov}[A,B]\mathrm{Cov}[X,Y] + \mathrm{Cov}[A,B]\mathrm{E}[X]\mathrm{E}[Y] + \mathrm{E}[A]\mathrm{E}[B]\mathrm{Cov}[X,Y]$，将协方差分解到 vtree 的左右子树
-      - **Case II**（$\alpha$ 是 $\vee$-节点）：利用确定性(determinism)保证，按协方差的可加性 $\mathrm{Cov}[A+B, C] = \mathrm{Cov}[A,C] + \mathrm{Cov}[B,C]$ 分解到子节点
-      - **Case III**（$\alpha$ 是 $\wedge$-节点）：利用结构化分解性(structured decomposability)，将 $\beta$ 也分解到 vtree 的左右子树后用乘积公式
+        - **Case I**（无祖先-后代关系）：利用乘积独立性公式 $\mathrm{Cov}[AX, BY] = \mathrm{Cov}[A,B]\mathrm{Cov}[X,Y] + \mathrm{Cov}[A,B]\mathrm{E}[X]\mathrm{E}[Y] + \mathrm{E}[A]\mathrm{E}[B]\mathrm{Cov}[X,Y]$，将协方差分解到 vtree 的左右子树
+        - **Case II**（$\alpha$ 是 $\vee$-节点）：利用确定性(determinism)保证，按协方差的可加性 $\mathrm{Cov}[A+B, C] = \mathrm{Cov}[A,C] + \mathrm{Cov}[B,C]$ 分解到子节点
+        - **Case III**（$\alpha$ 是 $\wedge$-节点）：利用结构化分解性(structured decomposability)，将 $\beta$ 也分解到 vtree 的左右子树后用乘积公式
     - 设计动机：vtree 提供了变量集的层次化分解结构，使得分解过程中可以精确追踪变量集的变化——这是相比 Nakamura et al. (2022) 在 OBDD 上的算法的关键技术差异
     - 缓存机制：为避免重复递归调用，所有已计算的 $\mathrm{Cov}[\alpha, \beta]$ 值存入 $\mathtt{c}[\alpha, \beta]$，保证总复杂度 $O(|\alpha||\beta|)$
 

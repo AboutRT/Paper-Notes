@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 语义分割方向 12篇论文解读
+  ICLR2026 语义分割方向 11篇论文解读
 description: >-
-  12篇ICLR2026 语义分割方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  11篇ICLR2026 语义分割方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🔬 ICLR2026** · 共 **12** 篇
+**🔬 ICLR2026** · **11** 篇论文解读
 
 **[Amlris Alignment-Aware Masked Learning For Referring Image Segmentation](amlris_alignment-aware_masked_learning_for_referring_image_segmentation.md)**
 
@@ -33,10 +33,6 @@ description: >-
 **[Revisiting Cls And Patch Token Interaction In Vision Transformers](revisiting_cls_and_patch_token_interaction_in_vision_transformers.md)**
 
 :   深入分析Vision Transformer中[CLS]全局token和patch局部token之间的交互摩擦，发现归一化层隐式地区分了两类token，提出在归一化层和早期QKV投影中引入专门化处理路径，仅增加8%参数即实现分割性能提升超2 mIoU，同时保持分类精度。
-
-**[Target-Aware Video Diffusion Models](target-aware_video_diffusion_models.md)**
-
-:   提出 target-aware 视频扩散模型，仅需一张输入图像和目标物体的分割 mask，即可生成演员与指定目标交互的视频；核心创新是引入 [TGT] 特殊 token 并设计选择性交叉注意力损失，使模型关注目标的空间位置，在目标对齐和视频质量上全面超越基线。
 
 **[Thicker And Quicker A Jumbo Token For Fast Plain Vision Transformers](thicker_and_quicker_a_jumbo_token_for_fast_plain_vision_transformers.md)**
 

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 LLM评测方向 23篇论文解读
+  ICCV2025 LLM评测方向 22篇论文解读
 description: >-
-  23篇ICCV2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  22篇ICCV2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**📹 ICCV2025** · 共 **23** 篇
+**📹 ICCV2025** · **22** 篇论文解读
 
 **[3Dsrbench A Comprehensive 3D Spatial Reasoning Benchmark](3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)**
 
@@ -81,10 +81,6 @@ description: >-
 **[On The Robustness Tradeoff In Fine-Tuning](on_the_robustness_tradeoff_in_fine-tuning.md)**
 
 :   首次系统研究微调过程中对抗鲁棒性与准确率的权衡关系，在231个模型、7种微调策略和6个数据集上揭示：(1)微调初期鲁棒性先升后降；(2)不同PEFT策略和任务复杂度导致不同的Pareto前沿；(3)OOD鲁棒性不存在类似权衡而是紧跟准确率变化。
-
-**[Quantifying And Narrowing The Unknown Interactive Text-To-Video Retrieval Via Un](quantifying_and_narrowing_the_unknown_interactive_text-to-video_retrieval_via_un.md)**
-
-:   提出UMIVR框架，通过显式量化文本歧义、映射不确定性和帧质量三种不确定性，自适应生成澄清问题来迭代精化用户查询，在MSR-VTT-1k等多个基准上实现交互式文本视频检索的显著提升。
 
 **[Shadowhack Hacking Shadows Via Luminance-Color Divide And Conquer](shadowhack_hacking_shadows_via_luminance-color_divide_and_conquer.md)**
 

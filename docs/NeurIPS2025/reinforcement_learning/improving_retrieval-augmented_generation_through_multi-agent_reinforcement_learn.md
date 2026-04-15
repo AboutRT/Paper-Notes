@@ -58,10 +58,10 @@ MMOA-RAG 将 RAG 建模为 $\langle \mathcal{G}, \mathcal{O}, \mathcal{A}, \math
     - **做什么**: 为每个 agent 定义精确的 MDP 元素
     - **为什么**: 不同 agent 的角色差异要求差异化的动作空间和惩罚项设计
     - **怎么做**: 
-      - QR 的动作空间为完整词表 $\mathcal{V}$，奖励 $R_{QR} = R_{\text{shared}} + P_{QR}$，当子问题数 > 4 时惩罚 -0.5
-      - Selector 的动作空间限制为 $\{$"0", "1", ..., "K-1", "Document", ","$\}$，大幅缩小探索空间；格式错误或重复 ID 时惩罚 -1
-      - Generator 的动作空间为 $\mathcal{V}$，生成答案过长时惩罚 -0.5
-      - 共享奖励 $R_{\text{shared}}$ 为预测答案的 F1 分数
+        - QR 的动作空间为完整词表 $\mathcal{V}$，奖励 $R_{QR} = R_{\text{shared}} + P_{QR}$，当子问题数 > 4 时惩罚 -0.5
+        - Selector 的动作空间限制为 $\{$"0", "1", ..., "K-1", "Document", ","$\}$，大幅缩小探索空间；格式错误或重复 ID 时惩罚 -1
+        - Generator 的动作空间为 $\mathcal{V}$，生成答案过长时惩罚 -0.5
+        - 共享奖励 $R_{\text{shared}}$ 为预测答案的 F1 分数
     - **区别**: Selector 的受限动作空间设计巧妙——将自由文本生成约束为结构化 ID 选择，显著提升训练稳定性
 
 3. **MAPPO 联合优化**:

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 3D视觉方向 67篇论文解读
+  ICLR2026 3D视觉方向 65篇论文解读
 description: >-
-  67篇ICLR2026 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  65篇ICLR2026 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**🔬 ICLR2026** · 共 **67** 篇
+**🔬 ICLR2026** · **65** 篇论文解读
 
 **[3Dgeer 3D Gaussian Rendering Made Exact And Efficient For Generic Cameras](3dgeer_3d_gaussian_rendering_made_exact_and_efficient_for_generic_cameras.md)**
 
@@ -102,10 +102,6 @@ description: >-
 
 :   CLAP（Coarse-to-fine Language-Aligned manipulation Policy）通过任务分解、VLM微调的3D关键点预测和3D感知表征三个核心组件，实现了对新指令和新环境的强泛化能力，在 GemBench 上以 1/5 的训练数据比 SOTA 高出 12%。
 
-**[Geometry-Aware 4D Video Generation For Robot Manipulation](geometry-aware_4d_video_generation_for_robot_manipulation.md)**
-
-:   提出几何感知的4D视频生成框架，通过跨视角 pointmap 对齐监督在视频扩散模型中强制多视角3D一致性，无需相机位姿输入即可从新视角生成时空对齐的未来 RGB-D 序列，并可直接用 FoundationPose 从生成视频中恢复机器人末端执行器轨迹。
-
 **[Geopurify A Data-Efficient Geometric Distillation Framework For Open-Vocabulary ](geopurify_a_data-efficient_geometric_distillation_framework_for_open-vocabulary_.md)**
 
 :   提出 GeoPurify 框架，通过从 3D 自监督教师模型蒸馏几何先验来净化 2D VLM 投影到 3D 的噪声特征，仅用约 1.5% 的训练数据即可达到或超越全量训练的 SOTA 开放词汇 3D 分割性能。
@@ -117,10 +113,6 @@ description: >-
 **[Hdr-Nsff High Dynamic Range Neural Scene Flow Fields](hdr-nsff_high_dynamic_range_neural_scene_flow_fields.md)**
 
 :   提出 HDR-NSFF，将 HDR 视频重建从传统的 2D 像素级融合范式转变为 4D 时空建模，从交替曝光单目视频中联合重建 HDR 辐射场、3D 场景流、几何和色调映射，实现了时空一致的动态 HDR 新视角合成。
-
-**[Into The Rabbit Hull From Task-Relevant Concepts](into_the_rabbit_hull_from_task-relevant_concepts.md)**
-
-:   本文通过稀疏自编码器（SAE）从 DINOv2 中提取 32,000 个视觉概念字典，系统研究了不同下游任务（分类/分割/深度估计）如何选择性地使用这些概念，揭示了表示空间的几何结构超越了线性稀疏编码假说（LRH），并提出了基于 Minkowski 和的新表示假说（MRH），认为 token 是多个凸混合的叠加。
 
 **[Into The Rabbit Hull From Task-Relevant Concepts In Dino To Minkowski Geometry](into_the_rabbit_hull_from_task-relevant_concepts_in_dino_to_minkowski_geometry.md)**
 
@@ -174,10 +166,6 @@ description: >-
 
 :   构建统一的3D场景理解与生成模型 Omni-View，通过纹理模块（新视角合成）和几何模块（深度/位姿估计）的生成能力增强理解性能，在 VSI-Bench 上达到 55.4 分超越所有现有专用3D理解模型。
 
-**[One2Scene Geometric Consistent Explorable 3D Scene Generation From A Single Ima](one2scene_geometric_consistent_explorable_3d_scene_generation_from_a_single_ima.md)**
-
-:   提出 One2Scene 三阶段框架，将单图生成可探索 3D 场景分解为全景生成→前馈 3D 高斯溅射构建几何支架→支架引导的新视角合成，通过将全景深度估计重新表述为多视图立体匹配问题，实现几何一致且可自由探索的 3D 场景生成。
-
 **[One2Scene Geometric Consistent Explorable 3D Scene Generation From A Single Imag](one2scene_geometric_consistent_explorable_3d_scene_generation_from_a_single_imag.md)**
 
 :   提出One2Scene——将单图到可探索3D场景的病态问题分解为三个子任务：(1)全景图生成扩展视觉覆盖 (2)前馈3DGS网络从稀疏锚点视角构建显式3D几何scaffold (3)scaffold引导的新视角合成，通过Dual-LoRA融合高质量锚点视角和几何先验，在大视角变化下实现几何一致且逼真的场景生成，显著超越SOTA。
@@ -209,6 +197,10 @@ description: >-
 **[Quantized Visual Geometry Grounded Transformer](quantized_visual_geometry_grounded_transformer.md)**
 
 :   针对十亿级 3D 重建模型 VGGT 的部署需求，提出首个专用 PTQ 框架 QuantVGGT，通过双重平滑细粒度量化（Hadamard 旋转 + 通道平滑）解决特殊 token 导致的重尾分布，以及噪声过滤多样化采样解决校准不稳定问题，4-bit 量化实现 3.7× 内存压缩和 2.5× 加速，保持 98%+ 精度。
+
+**[Radiometrically Consistent Gaussian Surfels For Inverse Rendering](radiometrically_consistent_gaussian_surfels_for_inverse_rendering.md)**
+
+:   提出PerfGuard——面向视觉内容生成的性能感知Agent框架：用多维评分矩阵替代文本描述建模工具性能边界(PASM)→自适应偏好更新(APU)动态校准理论排名与实际执行的偏差→能力对齐规划优化(CAPO)引导Planner生成与工具能力匹配的子任务，在图像生成和编辑任务上全面超越GenArtist/T2I-Copilot等SOTA方法。
 
 **[Scaling Sequence-To-Sequence Generative Neural Rendering](scaling_sequence-to-sequence_generative_neural_rendering.md)**
 

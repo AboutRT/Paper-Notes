@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**📷 CVPR2026** · 共 **15** 篇
+**📷 CVPR2026** · **15** 篇论文解读
 
 **[Babyvlm-V2 Toward Developmentally Grounded Pretraining And Benchmarking Of Visio](babyvlm-v2_toward_developmentally_grounded_pretraining_and_benchmarking_of_visio.md)**
 

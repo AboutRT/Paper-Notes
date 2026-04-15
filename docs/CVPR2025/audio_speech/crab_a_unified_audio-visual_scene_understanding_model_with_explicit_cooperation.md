@@ -75,14 +75,14 @@ tags:
 
 ### 训练策略
 - **阶段一：预训练对齐**
-  - 视觉分支：Video-LLaVA 数据
-  - 音频分支：AudioCaps 数据
-  - 分割分支：LVIS 数据
-  - 全局 batch size 256，3 epochs
+    - 视觉分支：Video-LLaVA 数据
+    - 音频分支：AudioCaps 数据
+    - 分割分支：LVIS 数据
+    - 全局 batch size 256，3 epochs
 - **阶段二：指令微调**
-  - AV-UIE 数据集，所有任务混合
-  - 可训练：三个多模态分支 + 交互感知 LoRA（冻结编码器）
-  - 全局 batch size 512，5 epochs
+    - AV-UIE 数据集，所有任务混合
+    - 可训练：三个多模态分支 + 交互感知 LoRA（冻结编码器）
+    - 全局 batch size 512，5 epochs
 
 损失函数：$\mathcal{L} = \lambda_{txt}\mathcal{L}_{txt} + \lambda_{seg}\mathcal{L}_{seg} + \lambda_{bce}\mathcal{L}_{bce} + \lambda_{dice}\mathcal{L}_{dice} + \lambda_{ce}\mathcal{L}_{ce}$
 

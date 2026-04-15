@@ -64,9 +64,9 @@ BranchSBM 的整体架构采用四阶段训练策略：
     - **Stage 1：神经插值优化**：训练插值网络 $\varphi_{t,\eta}(\mathbf{x}_0, \mathbf{x}_{1,k})$，学习在状态代价 $V_t(X_t)$ 下能量最优的条件路径。使用轨迹损失 $\mathcal{L}_{\text{traj}}$ 最小化路径的动能和势能
     - **Stage 2：条件流匹配**：训练每个分支的漂移网络 $u_{t,k}^\theta$，使其匹配 Stage 1 学到的条件速度场。使用标准 CFM 损失 $\mathcal{L}_{\text{flow}}$
     - **Stage 3：增长网络训练**：固定漂移网络参数，训练增长网络 $g_{t,k}^\phi$，优化综合损失包括：
-      - 分支能量损失 $\mathcal{L}_{\text{energy}}$：优化分支间的能量分配
-      - 权重匹配损失 $\mathcal{L}_{\text{match}}$：确保终态权重匹配目标分布的比例
-      - 质量守恒损失 $\mathcal{L}_{\text{mass}}$：强制所有分支权重之和守恒
+        - 分支能量损失 $\mathcal{L}_{\text{energy}}$：优化分支间的能量分配
+        - 权重匹配损失 $\mathcal{L}_{\text{match}}$：确保终态权重匹配目标分布的比例
+        - 质量守恒损失 $\mathcal{L}_{\text{mass}}$：强制所有分支权重之和守恒
     - **Stage 4：联合微调**：解冻所有参数，联合训练漂移和增长网络，加入重建损失 $\mathcal{L}_{\text{recons}}$
 
 4. **理论保证**：

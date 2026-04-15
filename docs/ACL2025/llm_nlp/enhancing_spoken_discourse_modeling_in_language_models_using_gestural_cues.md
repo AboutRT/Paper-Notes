@@ -58,8 +58,8 @@ tags:
     - MLP 投影器：两层全连接 + GeLU 激活
     - 投影后的 gesture embedding 与文本 embedding 拼接输入预训练语言模型
     - **联合训练目标**：$\mathcal{L}_{FA} = \mathcal{L}_{MGP} + \mathcal{L}_{MLM}$
-      - $\mathcal{L}_{MGP}$：Masked Gesture Prediction——预测被 mask 的 gesture token 的 codebook 索引（K-类分类）
-      - $\mathcal{L}_{MLM}$：Masked Language Modeling——标准 MLM 目标
+        - $\mathcal{L}_{MGP}$：Masked Gesture Prediction——预测被 mask 的 gesture token 的 codebook 索引（K-类分类）
+        - $\mathcal{L}_{MLM}$：Masked Language Modeling——标准 MLM 目标
     - 随机 mask 30% 的手势和文本 token
     - 仅更新 MLP 投影器参数，语言模型和其他组件冻结
     - **时序对齐**：gesture token 的位置编码基于共同出现的文本 token 的位置，确保时间同步

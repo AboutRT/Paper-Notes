@@ -2,20 +2,23 @@
 title: >-
   [论文解读] QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning
 description: >-
-   本文提出 QualiSpeech，首个包含 11 个维度标注和详细自然语言推理描述的语音质量评估数据集，以及配套的评测基准，证明了微调后的听觉 LLM 能生成关于噪声和失真的详细描述，并展示了推理增强质量评估的潜力。
+  [ACL2025][语音质量评估] 本文提出 QualiSpeech，首个包含 11 个维度标注和详细自然语言推理描述的语音质量评估数据集，以及配套的评测基准，证明了微调后的听觉 LLM 能生成关于噪声和失真的详细描述，并展示了推理增强质量评估的潜力。
 tags:
-
+  - ACL2025
+  - 语音质量评估
+  - 自然语言描述
+  - 听觉大语言模型
+  - 低级语音感知
+  - 推理
 ---
 
 # QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2503.20290](https://arxiv.org/abs/2503.20290) |
-| 代码 | [HuggingFace: tsinghua-ee/QualiSpeech](https://huggingface.co/datasets/tsinghua-ee/QualiSpeech) |
-| 领域 | others (语音质量评估) |
-| 关键词 | 语音质量评估, 自然语言描述, 听觉大语言模型, 低级语音感知, 推理 |
+**会议**: ACL2025  
+**arXiv**: [2503.20290](https://arxiv.org/abs/2503.20290)  
+**代码**: [HuggingFace: tsinghua-ee/QualiSpeech](https://huggingface.co/datasets/tsinghua-ee/QualiSpeech)  
+**领域**: others (语音质量评估)  
+**关键词**: 语音质量评估, 自然语言描述, 听觉大语言模型, 低级语音感知, 推理  
 
 ## 一句话总结
 
@@ -38,14 +41,14 @@ tags:
 QualiSpeech 训练集包含 **10,558** 个样本，来源均衡分布：
 
 - **合成语音**：
-  - BVCC 数据集（历年 Blizzard/VCC 挑战赛样本）
-  - 10 个最新开源 TTS 模型（ChatTTS、XTTS v2、CosyVoice、F5-TTS、E2 TTS、OpenVoice V1/V2、Parler-TTS Mini/Large、VoiceCraft-830M）
-  - 每个 TTS 模型生成 72 个样本，句子来源于 SOMOS 语料（涵盖对话、新闻、维基百科等 10 个领域）
-  - 20% 合成数据与噪声混合（DNS Challenge 噪声源，SNR 0-15dB）
+    - BVCC 数据集（历年 Blizzard/VCC 挑战赛样本）
+    - 10 个最新开源 TTS 模型（ChatTTS、XTTS v2、CosyVoice、F5-TTS、E2 TTS、OpenVoice V1/V2、Parler-TTS Mini/Large、VoiceCraft-830M）
+    - 每个 TTS 模型生成 72 个样本，句子来源于 SOMOS 语料（涵盖对话、新闻、维基百科等 10 个领域）
+    - 20% 合成数据与噪声混合（DNS Challenge 噪声源，SNR 0-15dB）
 
 - **真实语音**：
-  - NISQA 数据集（模拟和实况通信网络失真）
-  - GigaSpeech（有声书、播客、YouTube 录音）
+    - NISQA 数据集（模拟和实况通信网络失真）
+    - GigaSpeech（有声书、播客、YouTube 录音）
 
 #### 标注流程（三步法）
 
@@ -75,9 +78,9 @@ QualiSpeech 训练集包含 **10,558** 个样本，来源均衡分布：
 
 - **数值评分**：PCC（Pearson 相关系数）
 - **具体描述**：
-  - Precision/Recall：检测噪声/失真存在的能力
-  - GPT 生成的 Correlation Score：描述整体相关性
-  - IoU：预测时间段与真实值的交集比
+    - Precision/Recall：检测噪声/失真存在的能力
+    - GPT 生成的 Correlation Score：描述整体相关性
+    - IoU：预测时间段与真实值的交集比
 - **自然语言描述**：先用 GPT 提取各维度信息，再应用对应指标
 
 ## 实验

@@ -56,9 +56,9 @@ tags:
 
 - **Answer-Writing Heads（aw heads）**：位于中深层（如 layer 20-26），直接将答案信息写入残差流。使用改进的定位指标 $s_{\text{aw-head}}(\mathbf{a}_i^l)$（公式 4），发现正确和错误预测共享约 60% 的 aw heads，且这些头同时编码正确 token 和错误 token 的信号
 - **Processing Heads**：位于浅中层，通过间接的信息处理支持推理。分为两组：
-  - **Correct Processing Heads（cp heads, $\mathcal{H}_{cp}$）**：驱动正确推理轨迹
-  - **Erroneous Processing Heads（ep heads, $\mathcal{H}_{ep}$）**：驱动错误推理轨迹
-  - 关键发现：$\mathcal{H}_{cp}$ 和 $\mathcal{H}_{ep}$ 几乎完全不相交
+    - **Correct Processing Heads（cp heads, $\mathcal{H}_{cp}$）**：驱动正确推理轨迹
+    - **Erroneous Processing Heads（ep heads, $\mathcal{H}_{ep}$）**：驱动错误推理轨迹
+    - 关键发现：$\mathcal{H}_{cp}$ 和 $\mathcal{H}_{ep}$ 几乎完全不相交
 - **Basic Heads（$\mathcal{H}_{basic}$）**：提取基本输入信息，对正确和错误预测都不可或缺
 
 **竞争机制**：正确和错误推理轨迹共存于 LLM 内部。在关键错误位置，ep heads 放大虚假信号并抑制正确信号，使 aw heads 中的错误候选token 概率超过正确候选 token，最终导致错误输出。停用单个 ep head 后，正确处理头的推理机制得以恢复（93.3% 的 cp heads 与原始正确预测一致）。

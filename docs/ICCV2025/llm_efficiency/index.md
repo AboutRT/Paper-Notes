@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM效率
 
-**📹 ICCV2025** · 共 **8** 篇
+**📹 ICCV2025** · **8** 篇论文解读
 
 **[Asynchronous Event Error-Minimizing Noise For Safeguarding Event Dataset](asynchronous_event_error-minimizing_noise_for_safeguarding_event_dataset.md)**
 

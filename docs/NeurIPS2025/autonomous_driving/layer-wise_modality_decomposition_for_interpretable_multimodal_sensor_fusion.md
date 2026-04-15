@@ -60,9 +60,9 @@ tags:
 - **做什么**：将 BatchNorm 和 LayerNorm 分解为模态特定项和偏置项，并通过不同的偏置分配规则（identity/uniform/ratio）实现模态分离。
 - **为什么**：归一化层中的偏置项（均值减法和仿射变换的 β）不属于任何特定模态，需要合理分配以保持分离属性；LayerNorm 的方差依赖于当前输入，需要特殊处理。
 - **怎么做**：
-  - **BatchNorm**：统计量在训练时固定，采用 identity rule 将偏置统一归入 bias 项（δ_c = δ_r = 0, δ_b = 1）
-  - **LayerNorm**：方差从第一遍前向传播中缓存为常数，采用 ratio rule——对每个模态单独计算其空间维度上的均值进行中心化
-  - 实验证明 identity (BN) + ratio (LN) 组合在模态分离指标上最优
+    - **BatchNorm**：统计量在训练时固定，采用 identity rule 将偏置统一归入 bias 项（δ_c = δ_r = 0, δ_b = 1）
+    - **LayerNorm**：方差从第一遍前向传播中缓存为常数，采用 ratio rule——对每个模态单独计算其空间维度上的均值进行中心化
+    - 实验证明 identity (BN) + ratio (LN) 组合在模态分离指标上最优
 
 ### 关键设计 3：扰动评估指标
 

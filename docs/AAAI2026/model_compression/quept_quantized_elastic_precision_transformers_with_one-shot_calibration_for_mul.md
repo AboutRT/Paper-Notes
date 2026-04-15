@@ -61,9 +61,9 @@ QuEPT的Pipeline为逐block重建：
 #### 1. **Multi-Bit Token Merging (MB-ToMe)**
 - **做什么**：在多位宽优化过程中融合不同位宽的token特征，维持跨精度的平衡性能
 - **核心思路**：探索了三种策略：
-  - Case 1（随机选择）：每个token随机选一个位宽的特征 → 质量不稳定
-  - Case 2（均匀融合）：三个位宽组1:1:1加权融合 → 丢失高位宽细节
-  - Case 3（选择性合并，最终方案）：基于量化鲁棒性选择性保留+融合
+    - Case 1（随机选择）：每个token随机选一个位宽的特征 → 质量不稳定
+    - Case 2（均匀融合）：三个位宽组1:1:1加权融合 → 丢失高位宽细节
+    - Case 3（选择性合并，最终方案）：基于量化鲁棒性选择性保留+融合
 - **关键公式**：
 $$X_k' = \begin{cases} X_k^H, & \text{if } k \in \Phi \\ \lambda_1 X_k^H + \lambda_2 X_k^M + \lambda_3 X_k^L, & \text{else} \end{cases}$$
   其中 $\Phi$ 是通过8-bit和4-bit特征余弦相似度排序选出的Top-p%稳定token的索引集合

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**📹 ICCV2025** · 共 **10** 篇
+**📹 ICCV2025** · **10** 篇论文解读
 
 **[25 Years In Class A Multimodal Textbook For Vision-Language Pretraining](25_years_in_class_a_multimodal_textbook_for_vision-language_pretraining.md)**
 

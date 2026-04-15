@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**📷 CVPR2026** · 共 **11** 篇
+**📷 CVPR2026** · **11** 篇论文解读
 
 **[Bases Of Steerable Kernels For Equivariant Cnns Fr](bases_of_steerable_kernels_for_equivariant_cnns_fr.md)**
 

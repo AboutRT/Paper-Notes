@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🧪 ICML2025** · 共 **6** 篇
+**🧪 ICML2025** · **6** 篇论文解读
 
 **[Dont Lag Rag Training-Free Adversarial Detection Using Rag](dont_lag_rag_training-free_adversarial_detection_using_rag.md)**
 

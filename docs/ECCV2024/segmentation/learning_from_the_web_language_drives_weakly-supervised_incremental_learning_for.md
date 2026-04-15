@@ -69,10 +69,10 @@ tags:
 
 ### 损失函数 / 训练策略
 - **损失函数**：$\mathcal{L} = \mathcal{L}_{SEG} + \mathcal{L}_{CLS} + \mathcal{L}_{KDE} + \mathcal{L}_{KDL}$
-  - $\mathcal{L}_{SEG}$：像素级分割损失（伪标签监督）
-  - $\mathcal{L}_{CLS}$：图像级分类损失（多标签软间隔损失）
-  - $\mathcal{L}_{KDE}$：编码器特征蒸馏损失（$E^t$ 与 $E^{t-1}$ 的 MSE）
-  - $\mathcal{L}_{KDL}$：定位器与旧模型的一致性损失
+    - $\mathcal{L}_{SEG}$：像素级分割损失（伪标签监督）
+    - $\mathcal{L}_{CLS}$：图像级分类损失（多标签软间隔损失）
+    - $\mathcal{L}_{KDE}$：编码器特征蒸馏损失（$E^t$ 与 $E^{t-1}$ 的 MSE）
+    - $\mathcal{L}_{KDL}$：定位器与旧模型的一致性损失
 - **伪标签生成**：合并定位器预测、旧模型预测，新类用定位器、旧类用旧模型
 - **网络设置**：DeeplabV3 + ResNet-101（VOC）/ Wide-ResNet-38（COCO）；SGD，初始步骤 30 epochs，增量步骤 40 epochs
 - **网络数据**：每类下载 10K 候选 → 筛选 500 用于训练；rehearsal 每个 caption 下载 20 张，保留 100 张

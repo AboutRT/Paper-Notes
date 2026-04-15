@@ -55,8 +55,8 @@ tags:
     - 第一步：online ridge leverage score 采样将流长从 $n$ 压缩到 $k/\varepsilon \cdot \text{polylog}$
     - 第二步：对压缩流做精细更新
     - **关键分析**：对 top-$k$ 奇异值的后 $\sqrt{k}$ 个做 case work:
-      - 若 $\sum_{i=k-\sqrt{k}}^k \sigma_i^2$ 小（尾部弱）：可用新行替换尾部奇异向量，$\sqrt{k}$ 步后重算 → 每 $\sqrt{k}$ 步 $O(k)$ recourse
-      - 若尾部强：最优子空间不会剧烈变化 → 直接重算顶部 SVD，recourse $\leq \sqrt{k}$
+        - 若 $\sum_{i=k-\sqrt{k}}^k \sigma_i^2$ 小（尾部弱）：可用新行替换尾部奇异向量，$\sqrt{k}$ 步后重算 → 每 $\sqrt{k}$ 步 $O(k)$ recourse
+        - 若尾部强：最优子空间不会剧烈变化 → 直接重算顶部 SVD，recourse $\leq \sqrt{k}$
     - 总 recourse：$k^{3/2}/\varepsilon^2 \cdot \text{polylog}$——$\sqrt{k}$ 是两种情况平衡的最优选择
     - **Anti-Hadamard 矩阵特殊处理**：整数矩阵最优低秩代价可能指数级小 → 低秩时精细分析
 

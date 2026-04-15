@@ -66,13 +66,13 @@ $$\text{PSF}(H, \lambda) = |\mathcal{F}(A(\mathbf{p}) \exp(i \frac{2\pi W(H, \la
 3. **两阶段 PSF 估计**
 
     - **阶段一：单色 PSF 估计**
-      - MLP $\mathcal{G}_{\Theta_1}$ 以归一化像高 $H$ 为输入，输出波前系数
-      - 通过物理变换生成 SFR*，与实测 SFR 对比优化
-      - 损失：$\Theta_1^* = \arg\min_{\Theta_1} \sum_H \sum_\phi |\text{SFR}^*(H,\phi) - \text{SFR}(H,\phi)|$
+        - MLP $\mathcal{G}_{\Theta_1}$ 以归一化像高 $H$ 为输入，输出波前系数
+        - 通过物理变换生成 SFR*，与实测 SFR 对比优化
+        - 损失：$\Theta_1^* = \arg\min_{\Theta_1} \sum_H \sum_\phi |\text{SFR}^*(H,\phi) - \text{SFR}(H,\phi)|$
     - **阶段二：跨通道 PSF 偏移估计**
-      - MLP $\mathcal{G}_{\Theta_2}$ 估计红/蓝通道相对绿通道的 PSF 平移
-      - 通过色差面积差 $\Delta\text{CA}$ 作为优化目标
-      - 分离单色像差和色差简化优化
+        - MLP $\mathcal{G}_{\Theta_2}$ 估计红/蓝通道相对绿通道的 PSF 平移
+        - 通过色差面积差 $\Delta\text{CA}$ 作为优化目标
+        - 分离单色像差和色差简化优化
 
 4. **标定流程**
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📡 信号/通信
 
-**📹 ICCV2025** · 共 **2** 篇
+**📹 ICCV2025** · **2** 篇论文解读
 
 **[Boosting Multimodal Learning Via Disentangled Gradient Learning](boosting_multimodal_learning_via_disentangled_gradient_learning.md)**
 

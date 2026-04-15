@@ -54,9 +54,9 @@ CogFlow 提出认知启发的三阶段视觉数学推理框架（感知→内化
 
     - 功能：从参数空间和语义空间双重评估感知质量
     - 核心思路：
-      - **VPR**：将几何图元转为参数方程，用匈牙利匹配 + 欧氏距离在参数空间精确评分
-      - **VSR**：从文本感知输出重新渲染图像，用 FG-CLIP 与原图计算余弦相似度评估全局布局一致性
-      - 最终分数 $\mathcal{S}_{SynVRs} = \alpha \cdot \mathcal{S}_{VPR} + (1-\alpha) \cdot \mathcal{S}_{VSR}$
+        - **VPR**：将几何图元转为参数方程，用匈牙利匹配 + 欧氏距离在参数空间精确评分
+        - **VSR**：从文本感知输出重新渲染图像，用 FG-CLIP 与原图计算余弦相似度评估全局布局一致性
+        - 最终分数 $\mathcal{S}_{SynVRs} = \alpha \cdot \mathcal{S}_{VPR} + (1-\alpha) \cdot \mathcal{S}_{VSR}$
     - 设计动机：VPR 保证局部几何精度，VSR 保证全局感知一致性；两者互补避免单一指标的盲区
 
 2. **Knowledge Internalization Reward (IntlzR)**:

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM安全
 
-**🤖 AAAI2026** · 共 **5** 篇
+**🤖 AAAI2026** · **5** 篇论文解读
 
 **[Catformer When Continual Learning Meets Spiking Transformers With Dynamic Thresh](catformer_when_continual_learning_meets_spiking_transformers_with_dynamic_thresh.md)**
 

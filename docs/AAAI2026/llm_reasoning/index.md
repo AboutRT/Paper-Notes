@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM推理
 
-**🤖 AAAI2026** · 共 **28** 篇
+**🤖 AAAI2026** · **28** 篇论文解读
 
 **[A Reasoning Paradigm For Named Entity Recognition](a_reasoning_paradigm_for_named_entity_recognition.md)**
 

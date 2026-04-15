@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**🤖 AAAI2026** · 共 **12** 篇
+**🤖 AAAI2026** · **12** 篇论文解读
 
 **[Bce3S Binary Cross-Entropy Based Tripartite Synergistic Learning For Long-Tailed](bce3s_binary_cross-entropy_based_tripartite_synergistic_learning_for_long-tailed.md)**
 

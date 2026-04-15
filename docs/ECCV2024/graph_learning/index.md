@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🎞️ ECCV2024** · 共 **4** 篇
+**🎞️ ECCV2024** · **4** 篇论文解读
 
 **[Confidence Self-Calibration For Multi-Label Class-Incremental Learning](confidence_self-calibration_for_multi-label_class-incremental_learning.md)**
 

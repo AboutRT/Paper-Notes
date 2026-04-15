@@ -2,14 +2,14 @@
 title: >-
   [论文解读] MoESD: 揭示投机解码加速稀疏MoE的潜力
 description: >-
-  [NeurIPS 2025][LLM效率] 挑战投机解码对MoE无效的传统认知，证明中等batch size下MoE比稠密模型更受益于投机解码，提出target efficiency指标量化系统瓶颈，建立可靠性能建模，在Qwen2-57B上实现2.29×加速。
+  [NeurIPS 2025][投机解码] 挑战"投机解码对MoE无效"的传统认知，理论与实验证明在中等batch size下MoE反而比稠密模型更受益于投机解码，提出target efficiency这一系统级指标来量化加速瓶颈，并构建了可靠的性能预测模型，在Qwen2-57B-A14B上实现最高2.29×加速。
 tags:
   - NeurIPS 2025
   - 投机解码
   - MoE推理
   - 稀疏性分析
   - 目标效率
-  - LLM加速
+  - 性能建模
 ---
 
 # MoESD: 揭示投机解码加速稀疏MoE的潜力

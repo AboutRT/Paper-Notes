@@ -2,20 +2,23 @@
 title: >-
   [论文解读] ParallelComp: Parallel Long-Context Compressor for Length Extrapolation
 description: >-
-  [模型压缩] 提出 ParallelComp，一种免训练的并行长上下文压缩方法，通过并行 KV cache 驱逐和注意力校准策略，使 8B 参数 LLM 在单块 A100 GPU 上从 8K 外推至 128K tokens。
+  [ICML 2025][模型压缩][length extrapolation] 提出 ParallelComp，一种免训练的并行长上下文压缩方法，通过并行 KV cache 驱逐和注意力校准策略，使 8B 参数 LLM 在单块 A100 GPU 上从 8K 外推至 128K tokens。
 tags:
+  - ICML 2025
   - 模型压缩
+  - length extrapolation
+  - KV cache eviction
+  - 注意力机制
+  - training-free
 ---
 
 # ParallelComp: Parallel Long-Context Compressor for Length Extrapolation
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2502.14317](https://arxiv.org/abs/2502.14317) |
-| 代码 | [GitHub](https://github.com/menik1126/ParallelComp) |
-| 领域 | LLM Efficiency / Long Context |
-| 关键词 | length extrapolation, KV cache eviction, parallel attention, attention sink, training-free |
+**会议**: ICML 2025  
+**arXiv**: [2502.14317](https://arxiv.org/abs/2502.14317)  
+**代码**: [GitHub](https://github.com/menik1126/ParallelComp)  
+**领域**: LLM Efficiency / Long Context  
+**关键词**: length extrapolation, KV cache eviction, parallel attention, attention sink, training-free  
 
 ## 一句话总结
 

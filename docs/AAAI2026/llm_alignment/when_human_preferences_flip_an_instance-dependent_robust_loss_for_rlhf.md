@@ -56,10 +56,10 @@ tags:
 
     - 修正后的损失：$\mathcal{L}_{\text{FA-DPO}} = -\mathbb{E}_{\tilde{x}}[\log((1-\varepsilon_{\tilde{x}})p_\theta + \varepsilon_{\tilde{x}}(1-p_\theta))]$
     - 梯度权重分析（与 cDPO/rDPO 的关键区别）：
-      - $\varepsilon = 0$（无翻转）→ 退化为标准 DPO
-      - $\varepsilon < 0.5$（低翻转率）→ 权重随模型置信度增大，增强收敛稳定性
-      - $\varepsilon = 0.5$（纯模糊）→ 权重为零，自动过滤这类无信号样本
-      - $\varepsilon > 0.5$（高翻转率）→ **梯度方向反转**，将翻转的标签纠正回来！这是 cDPO/rDPO 不具备的自纠正能力
+        - $\varepsilon = 0$（无翻转）→ 退化为标准 DPO
+        - $\varepsilon < 0.5$（低翻转率）→ 权重随模型置信度增大，增强收敛稳定性
+        - $\varepsilon = 0.5$（纯模糊）→ 权重为零，自动过滤这类无信号样本
+        - $\varepsilon > 0.5$（高翻转率）→ **梯度方向反转**，将翻转的标签纠正回来！这是 cDPO/rDPO 不具备的自纠正能力
     - 设计动机：不是简单加减修正，而是乘法式重参数化，联合依赖翻转概率和模型置信度
 
 3. **翻转概率估计模块**：

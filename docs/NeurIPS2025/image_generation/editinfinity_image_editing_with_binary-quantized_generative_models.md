@@ -73,18 +73,18 @@ EditInfinity 基于 Infinity-2B（二值量化 T2I 模型）实现：
 **分段线性平滑核 G：**
 - 基于 Manhattan 距离 d^{i,j} = min_{(x,y)∈M} (|i-x| + |j-y|) 计算权重
 - 三段式设计：
-  - d ≤ τ₁: G=0（编辑区域，完全使用目标内容）
-  - τ₁ < d < τ₂: G 线性插值（平滑过渡带）
-  - d ≥ τ₂: G=1（未编辑区域，完全保留源内容）
+    - d ≤ τ₁: G=0（编辑区域，完全使用目标内容）
+    - τ₁ < d < τ₂: G 线性插值（平滑过渡带）
+    - d ≥ τ₂: G=1（未编辑区域，完全保留源内容）
 - 默认 τ₁=1, τ₂=4，有效抑制边界拼接伪影
 
 **Multi-scale Autoregressive Editing（多尺度编辑）：**
 - 量化源图像得 R_{1:K}^sou
 - 在每个尺度 k：
-  - Infinity 生成 R_k^tar（条件于 [Ψ(t_tar, t_ins), t_l]）
-  - 上采样 R_k^tar 和 R_k^sou 到最大分辨率
-  - 在 G 引导下混合：E_k^tar = R_k^tar ⊙ (1-G) + R_k^sou ⊙ G
-  - 若 k < K，下采样 E_k^tar 为 R̂_k^tar 供下一尺度使用
+    - Infinity 生成 R_k^tar（条件于 [Ψ(t_tar, t_ins), t_l]）
+    - 上采样 R_k^tar 和 R_k^sou 到最大分辨率
+    - 在 G 引导下混合：E_k^tar = R_k^tar ⊙ (1-G) + R_k^sou ⊙ G
+    - 若 k < K，下采样 E_k^tar 为 R̂_k^tar 供下一尺度使用
 - 混合后的语义和结构跨尺度传播
 - 最终 E_{1:K}^tar 解码为编辑图像
 

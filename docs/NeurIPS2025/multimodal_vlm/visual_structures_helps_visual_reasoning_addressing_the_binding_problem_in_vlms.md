@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Visual Structures Help Visual Reasoning: Addressing the Binding Problem in LVLMs
 description: >-
-  [NeurIPS 2025][多模态VLM][视觉推理] 提出 VISER 方法，通过在图像上叠加水平线构建空间分区并配合顺序扫描文本提示，将视觉输入结构化以引导 LVLM 进行串行逐区域解析，从根本上缓解绑定问题（binding problem），在计数、视觉搜索、场景描述和空间关系四大视觉推理任务上取得显著提升，且完全无需训练、单次查询即可使用。
+  [NeurIPS 2025][多模态][视觉推理] 提出 VISER，通过在图像上叠加水平线等低层级空间结构并配合顺序扫描提示，引导 LVLM 进行逐区域串行注意力解析，在视觉搜索、计数和空间关系等任务上大幅提升性能（GPT-4o 计数提升 26.8%）。
 tags:
   - NeurIPS 2025
   - 多模态
@@ -11,7 +11,6 @@ tags:
   - 视觉提示
   - LVLM
   - 空间结构
-  - 认知科学
 ---
 
 # Visual Structures Help Visual Reasoning: Addressing the Binding Problem in LVLMs

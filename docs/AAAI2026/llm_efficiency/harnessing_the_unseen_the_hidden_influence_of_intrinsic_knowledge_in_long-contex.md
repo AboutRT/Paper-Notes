@@ -61,9 +61,9 @@ tags:
 
     - 功能：验证改进外部检索能力是否会损害参数召回能力
     - 核心思路：在三个数据集上对比RoPE（基线）和STRING（改进版RoPE）：
-      - I-WhoQA-Irrelevant：外部上下文完全无关，答案需要参数知识
-      - HotpotQA-Context：答案在外部上下文中，需要外部检索
-      - HotpotQA-Parametric：外部上下文相关但无用，答案在参数知识中
+        - I-WhoQA-Irrelevant：外部上下文完全无关，答案需要参数知识
+        - HotpotQA-Context：答案在外部上下文中，需要外部检索
+        - HotpotQA-Parametric：外部上下文相关但无用，答案在参数知识中
     - 关键发现：STRING在HotpotQA-Context上提升明显（增强了外部检索），但在I-WhoQA-Irrelevant和HotpotQA-Parametric上一致下降（抑制了参数召回），证实了Trade-off的存在
 
 3. **Hybrid Needle-in-a-Haystack测试**:

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Unified Framework for Establishing the Universal Approximation of Transformer-Type Architectures
 description: >-
-  [NeurIPS 2025][Transformer理论] 提出统一框架证明Transformer架构的万能逼近性(UAP)，将条件归结为前馈层的非线性仿射不变性和注意力层的token可区分性两个可验证条件，利用解析性假设将后者简化为两样本检验，覆盖kernel-based、稀疏等多种注意力机制。
+  [NeurIPS 2025][LLM效率][万能逼近性] 建立了统一的理论框架证明各类Transformer架构的万能逼近性(UAP)，核心条件仅两个——前馈层的非线性仿射不变性和注意力层的token可区分性——并利用解析性假设将后者简化为仅需检验两样本情况，成功覆盖softmax、RBF kernel、Performer、BigBird、Linformer等多种实用架构。
 tags:
   - NeurIPS 2025
-  - Transformer理论
+  - LLM效率
   - 万能逼近性
   - Token可区分性
-  - 稀疏注意力
+  - 注意力机制
   - 置换等变性
+  - 控制论
 ---
 
 # A Unified Framework for Establishing the Universal Approximation of Transformer-Type Architectures

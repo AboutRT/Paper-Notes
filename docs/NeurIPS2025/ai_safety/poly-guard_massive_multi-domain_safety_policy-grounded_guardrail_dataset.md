@@ -2,16 +2,15 @@
 title: >-
   [论文解读] Poly-Guard: Massive Multi-Domain Safety Policy-Grounded Guardrail Dataset
 description: >-
-  [NeurIPS 2025 D&B][AI安全][安全护栏] 提出首个大规模多领域策略驱动安全护栏基准 Poly-Guard，从 150+ 真实安全策略文档中提取 400+ 风险类别和 1000+ 安全规则，生成 100K+ 数据实例覆盖 8 大领域，系统评测 19 个护栏模型发现：模型呈领域特化但对抗脆弱，小模型不一定弱于大模型，模型演进中存在常见风险类别性能下降的"遗忘"效应。
+  [NeurIPS 2025 (Dataset & Benchmark)][AI安全][guardrail benchmark] 提出首个**大规模、多领域、策略驱动**的安全护栏基准 Poly-Guard，从 150+ 真实行业安全策略中提取 400+ 风险类别和 1000+ 安全规则，生成 100K+ 实例覆盖 8 大安全关键领域，并系统评测 19 个护栏模型，揭示了领域特化、模型演进遗忘、模型缩放停滞、对抗脆弱性等 8 项关键发现。
 tags:
-  - NeurIPS 2025 D&B
+  - "NeurIPS 2025 (Dataset & Benchmark)"
   - AI安全
-  - 安全护栏
-  - 多领域安全
-  - 策略对齐
-  - 对抗攻击
-  - 过拒绝
-  - 基准评测
+  - guardrail benchmark
+  - policy-grounded
+  - multi-domain safety
+  - adversarial attack
+  - over-refusal
 ---
 
 # Poly-Guard: Massive Multi-Domain Safety Policy-Grounded Guardrail Dataset

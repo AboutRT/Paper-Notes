@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Simulating Dual-Pixel Images From Ray Tracing For Depth Estimation
 description: >-
-  [3D视觉] Sdirt 提出基于光线追踪的双像素（DP）图像模拟方案，通过精确计算包含像差和相位分裂信息的空间变化 DP PSF，弥合仿真与真实 DP 数据之间的域间差距，使深度估计模型在真实 DP 图像上具有更好的泛化能力。
+  [ICCV2025][3D视觉][dual-pixel] Sdirt 提出基于光线追踪的双像素（DP）图像模拟方案，通过精确计算包含像差和相位分裂信息的空间变化 DP PSF，弥合仿真与真实 DP 数据之间的域间差距，使深度估计模型在真实 DP 图像上具有更好的泛化能力。
 tags:
+  - ICCV2025
   - 3D视觉
+  - dual-pixel
+  - 深度估计
+  - ray tracing
+  - PSF simulation
+  - domain gap
 ---
 
 # Simulating Dual-Pixel Images From Ray Tracing For Depth Estimation
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV2025 |
-| arXiv | [2503.11213](https://arxiv.org/abs/2503.11213) |
-| 代码 | [GitHub](https://github.com/LinYark/Sdirt) |
-| 领域 | 3d_vision |
-| 关键词 | dual-pixel, depth estimation, ray tracing, PSF simulation, domain gap |
+**会议**: ICCV2025  
+**arXiv**: [2503.11213](https://arxiv.org/abs/2503.11213)  
+**代码**: [GitHub](https://github.com/LinYark/Sdirt)  
+**领域**: 3d_vision  
+**关键词**: dual-pixel, depth estimation, ray tracing, PSF simulation, domain gap  
 
 ## 一句话总结
 
@@ -25,9 +29,9 @@ Sdirt 提出基于光线追踪的双像素（DP）图像模拟方案，通过精
 
 - **问题定义**：双像素（DP）传感器将每个像素分为左右子像素，利用微透镜实现相位分裂，一次拍摄获取一对 DP 图像。DP 图像可用于深度估计（DfDP），但 DP-depth 配对数据极其稀缺
 - **现有方法局限**：
-  - **标定式模拟器**（Xin et al., Li et al.）：需大量时间标定真实相机，存在离散标定点的插值误差，且难以迁移到其他镜头
-  - **模型式模拟器**（DDDNet, Pan et al., Punnappurath et al.）：使用理想光学模型直接计算 DP PSF，但忽略了透镜像差和传感器相位分裂特性
-  - 如图所示，理想薄透镜模型的 CoC 仿真 DP PSF 与真实 PSF 存在显著域间差距
+    - **标定式模拟器**（Xin et al., Li et al.）：需大量时间标定真实相机，存在离散标定点的插值误差，且难以迁移到其他镜头
+    - **模型式模拟器**（DDDNet, Pan et al., Punnappurath et al.）：使用理想光学模型直接计算 DP PSF，但忽略了透镜像差和传感器相位分裂特性
+    - 如图所示，理想薄透镜模型的 CoC 仿真 DP PSF 与真实 PSF 存在显著域间差距
 - **核心问题**：现有模型式模拟器违反了真实光学传播规律，导致仿真 DP 图像训练的模型难以泛化到真实 DP 数据
 - **动机**：利用光线追踪准确模拟包含像差和相位信息的 DP PSF，从根本上缩小仿真与真实的域间差距
 

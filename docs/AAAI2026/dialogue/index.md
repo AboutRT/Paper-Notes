@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**🤖 AAAI2026** · 共 **3** 篇
+**🤖 AAAI2026** · **3** 篇论文解读
 
 **[Emergent Persuasion Will Llms Persuade Without Being Prompted](emergent_persuasion_will_llms_persuade_without_being_prompted.md)**
 

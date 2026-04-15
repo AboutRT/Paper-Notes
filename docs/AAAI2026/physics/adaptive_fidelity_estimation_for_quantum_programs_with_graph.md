@@ -55,9 +55,9 @@ QuFid 的流水线分为五步：
 
 **2. 结构形变度量（Structural Deformation Metrics）**
 - 对比 transpilation 前后的图 $\mathcal{G}_0$ 和 $\mathcal{G}_t$，定义三个形变指标：
-  - $\Delta_{\text{deg}}$：节点度分布变化
-  - $\Delta_{\text{path}}$：关键路径和长依赖链的膨胀
-  - $\Delta_{\text{conn}}$：有效连通性膨胀
+    - $\Delta_{\text{deg}}$：节点度分布变化
+    - $\Delta_{\text{path}}$：关键路径和长依赖链的膨胀
+    - $\Delta_{\text{conn}}$：有效连通性膨胀
 - 这些度量以"噪声模型无关"的方式量化 transpilation 对电路结构的影响
 
 **3. 控制流感知噪声传播模型**
@@ -89,10 +89,10 @@ $$\frac{z_\alpha \cdot \sigma}{\sqrt{|T|}} \leq \delta$$
 - **基准**：18 种量子电路（BV、QAOA、VQE、QFT、QKNN、QNN、QSVM 等），每种测试 4/6/8/10 量子比特
 - **对比方法**：固定 shots 基线（10000 shots）、QuCT、QuEst
 - **核心结果**：
-  - QuFid 在所有设置下均减少了测量 shots 数，同时保真度偏差控制在 0.01 以内
-  - BV 4-qubit 仅需 592 次迭代（vs 固定基线需数千次）；QKNN 10-qubit 需 6992 次（反映高结构复杂度）
-  - 相比 QuCT 和 QuEst，shots 消耗显著更少，保真度偏差更低或可比
-  - QAOA 案例研究：4-qubit 606 次迭代达偏差 0.00571；10-qubit 7344 次达偏差 0.01821
+    - QuFid 在所有设置下均减少了测量 shots 数，同时保真度偏差控制在 0.01 以内
+    - BV 4-qubit 仅需 592 次迭代（vs 固定基线需数千次）；QKNN 10-qubit 需 6992 次（反映高结构复杂度）
+    - 相比 QuCT 和 QuEst，shots 消耗显著更少，保真度偏差更低或可比
+    - QAOA 案例研究：4-qubit 606 次迭代达偏差 0.00571；10-qubit 7344 次达偏差 0.01821
 
 ### 消融实验要点
 

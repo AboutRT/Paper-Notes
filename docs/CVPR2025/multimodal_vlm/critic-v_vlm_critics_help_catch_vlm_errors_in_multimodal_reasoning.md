@@ -53,18 +53,18 @@ Critic-V包含三个核心阶段：
 2. **Critic模型训练**:
 
     - **VEST（Vision Error inSertion Technique）数据构造**：
-      - 从VQA数据集收集问题-图像对，用GPT-4o在正确答案中插入1-5个虚假细节（伪造的错误答案）
-      - 让GLM-4V-9B、GPT-4o mini、MiniCPM-V三个VLM分别对错误答案生成批评意见
-      - 总计构建29,012个多模态QA对及对应的批评数据
+        - 从VQA数据集收集问题-图像对，用GPT-4o在正确答案中插入1-5个虚假细节（伪造的错误答案）
+        - 让GLM-4V-9B、GPT-4o mini、MiniCPM-V三个VLM分别对错误答案生成批评意见
+        - 总计构建29,012个多模态QA对及对应的批评数据
     - **Rule-based Reward（RBR）评分**：
-      - 结合Jaccard指数和GPT评分来评估批评质量：$Score(i) = Jaccard(i) + \alpha \times GPT(i)$
-      - Jaccard指数：$J(G,C) = |G \cap C| / |G \cup C|$，其中G为插入的错误集合，C为批评检出的错误集合
-      - Jaccard指数的引入关键在于防止"长批评倾向"——过长的批评可能包含更多假阳性（nitpicks）
-      - 根据RBR得分构建偏好对（preferred vs disfavored critique）
+        - 结合Jaccard指数和GPT评分来评估批评质量：$Score(i) = Jaccard(i) + \alpha \times GPT(i)$
+        - Jaccard指数：$J(G,C) = |G \cap C| / |G \cup C|$，其中G为插入的错误集合，C为批评检出的错误集合
+        - Jaccard指数的引入关键在于防止"长批评倾向"——过长的批评可能包含更多假阳性（nitpicks）
+        - 根据RBR得分构建偏好对（preferred vs disfavored critique）
     - **DPO训练**：
-      - 基于Qwen2-VL-7B训练Critic模型
-      - 使用标准DPO损失函数优化，鼓励模型给高质量批评分配更高概率
-      - 偏好数据集 $\mathcal{D}_{cri} = \{(Q, I, C_w, C_l)\}$ ，其中 $C_w$ 为偏好批评，$C_l$ 为非偏好批评
+        - 基于Qwen2-VL-7B训练Critic模型
+        - 使用标准DPO损失函数优化，鼓励模型给高质量批评分配更高概率
+        - 偏好数据集 $\mathcal{D}_{cri} = \{(Q, I, C_w, C_l)\}$ ，其中 $C_w$ 为偏好批评，$C_l$ 为非偏好批评
 
 3. **Reasoner-Critic交互框架**:
 

@@ -49,10 +49,10 @@ CuMoLoS-MAE（Curriculum-Guided Monte Carlo Stochastic Ensemble Masked Autoencod
 - **输入分块**：将多普勒激光雷达时间-高度阵列切分为 64×64 的图像块，再将每个块进一步标记化为 2×2 的微分块（micro-patch），以捕获精细结构和中尺度动态
 - **编码器-解码器架构**：编码器为 12 层 ViT，仅处理未被掩码的可见 token；解码器为轻量级 4 层结构，负责从可见 token 重建完整场
 - **课程掩码策略**：
-  - 前 5 个 epoch 掩码比例固定为 50%
-  - 之后通过 cosine 退火将掩码比例逐步提升至 70%（在第 30 epoch 达到）
-  - 此后保持 70% 不变
-  - 这种渐进式策略迫使模型逐步学会从更稀疏的上下文中重建
+    - 前 5 个 epoch 掩码比例固定为 50%
+    - 之后通过 cosine 退火将掩码比例逐步提升至 70%（在第 30 epoch 达到）
+    - 此后保持 70% 不变
+    - 这种渐进式策略迫使模型逐步学会从更稀疏的上下文中重建
 - **损失函数**：仅在被掩码的像素上计算 MSE 损失
 
 ### Monte Carlo 集成推理
@@ -60,8 +60,8 @@ CuMoLoS-MAE（Curriculum-Guided Monte Carlo Stochastic Ensemble Masked Autoencod
 - 推理时对每张输入图像独立采样 N=50 个不同的随机掩码
 - 对每个掩码分别执行完整的掩码→编码→解码流程
 - 将 50 次重建结果聚合：
-  - **均值** $\bar{X} = \frac{1}{N}\sum_{i=1}^{N}\hat{X}^{(i)}$ 作为高保真去噪重建
-  - **标准差** $\sigma_X = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(\hat{X}^{(i)} - \bar{X})^2}$ 作为逐像素不确定性图
+    - **均值** $\bar{X} = \frac{1}{N}\sum_{i=1}^{N}\hat{X}^{(i)}$ 作为高保真去噪重建
+    - **标准差** $\sigma_X = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(\hat{X}^{(i)} - \bar{X})^2}$ 作为逐像素不确定性图
 
 ### 训练细节
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**📷 CVPR2025** · 共 **36** 篇
+**📷 CVPR2025** · **36** 篇论文解读
 
 **[3D-Grand A Million-Scale Dataset For 3D-Llms With Better Grounding And Less Hall](3d-grand_a_million-scale_dataset_for_3d-llms_with_better_grounding_and_less_hall.md)**
 

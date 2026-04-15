@@ -51,8 +51,8 @@ RF-Mem（Recollection-Familiarity Memory Retrieval）是一种受熟悉感不确
 
     - 计算查询与候选记忆的相似度分数分布
     - 通过两个指标衡量 Familiarity 水平：
-      - **均值分数（Mean Score）**: 捕获整体匹配强度，均值越高表示存在熟悉的记忆
-      - **熵（Entropy）**: 衡量分数分布的不确定性，熵越低表示检索结果越明确和集中
+        - **均值分数（Mean Score）**: 捕获整体匹配强度，均值越高表示存在熟悉的记忆
+        - **熵（Entropy）**: 衡量分数分布的不确定性，熵越低表示检索结果越明确和集中
     - 高均值 + 低熵 = 高 Familiarity（确信存在直接匹配）
     - 低均值 / 高熵 = 低 Familiarity（需要更深入的检索）
 

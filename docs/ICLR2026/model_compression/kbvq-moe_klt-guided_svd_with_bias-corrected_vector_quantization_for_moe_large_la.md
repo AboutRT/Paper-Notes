@@ -46,9 +46,9 @@ $W \xrightarrow[\text{KLT+SVD}]{\text{IDRE}} \underbrace{W_{\text{share}}}_{\tex
 
     - 功能：提取跨专家共享的权重结构，保留全精度
     - 核心思路（3步）：
-      - *Step 1: KLT分解输入激活*：计算输入协方差矩阵 $C_X = \frac{1}{B-1}X^TX$，特征分解得到按能量排序的正交基 $U_X = U_{\text{KLT}} \Lambda_{\text{KLT}}^{1/2}$
-      - *Step 2: 映射权重到输入相干空间*：$\hat{W} = WU_X$，使权重分析以输入主方向为导向
-      - *Step 3: 提取共享结构*：将所有 $n$ 个专家的变换权重拼接为统一表示 $\bar{W} \in \mathbb{R}^{(n \cdot oc) \times ic}$，对 $\bar{W}$ 做SVD提取前 $k$ 个奇异值对应的共享结构。共享方向映射回原始空间：$U_{\text{share}} = U^T \cdot U_X^{-1}$
+        - *Step 1: KLT分解输入激活*：计算输入协方差矩阵 $C_X = \frac{1}{B-1}X^TX$，特征分解得到按能量排序的正交基 $U_X = U_{\text{KLT}} \Lambda_{\text{KLT}}^{1/2}$
+        - *Step 2: 映射权重到输入相干空间*：$\hat{W} = WU_X$，使权重分析以输入主方向为导向
+        - *Step 3: 提取共享结构*：将所有 $n$ 个专家的变换权重拼接为统一表示 $\bar{W} \in \mathbb{R}^{(n \cdot oc) \times ic}$，对 $\bar{W}$ 做SVD提取前 $k$ 个奇异值对应的共享结构。共享方向映射回原始空间：$U_{\text{share}} = U^T \cdot U_X^{-1}$
     - 设计动机：KLT确保冗余提取以输入统计特性为导向而非纯权重空间分解，SVD在统一表示上操作可同时处理所有专家。截断秩 $k$ 设为全秩的 $1/128$，参数增加仅0.12
 
 2. **偏差校正的输出稳定化 BCOS (Bias-Corrected Output Stabilization)**:

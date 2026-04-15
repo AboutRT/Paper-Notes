@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**🧠 NeurIPS2025** · 共 **5** 篇
+**🧠 NeurIPS2025** · **5** 篇论文解读
 
 **[Aclora Almost Trainingfree Access Controlaware Multimodal Ll](aclora_almost_trainingfree_access_controlaware_multimodal_ll.md)**
 

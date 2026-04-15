@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**🧠 NeurIPS2025** · 共 **6** 篇
+**🧠 NeurIPS2025** · **6** 篇论文解读
 
 **[Edit Less Achieve More Dynamic Sparse Neuron Masking For Lifelong Knowledge Edit](edit_less_achieve_more_dynamic_sparse_neuron_masking_for_lifelong_knowledge_edit.md)**
 

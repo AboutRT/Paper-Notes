@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI安全
 
-**📷 CVPR2025** · 共 **9** 篇
+**📷 CVPR2025** · **9** 篇论文解读
 
 **[A Simple Data Augmentation For Feature Distribution Skewed Federated Learning](a_simple_data_augmentation_for_feature_distribution_skewed_federated_learning.md)**
 

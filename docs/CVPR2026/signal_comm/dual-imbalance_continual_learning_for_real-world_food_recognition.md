@@ -56,19 +56,19 @@ DIME 基于预训练 ViT 骨干网络，采用参数高效微调策略：
 
     - 功能：在共享 SVD 空间中合并新旧适配器
     - 核心思路：
-      - 将基础适配器 $M_B$ 和新适配器 $M_t$ 沿列拼接后做 SVD：$X = [M_B \ M_t] = U\Sigma V^\top$
-      - 在对齐空间中按类别比例加权混合：$w_b = \frac{C_{\text{old}}}{C_{\text{old}}+C_{\text{new}}}$，$w_t = \frac{C_{\text{new}}}{C_{\text{old}}+C_{\text{new}}}$
-      - $V_{\text{blend}}^\top = w_b V_B^\top + w_t V_t^\top$
+        - 将基础适配器 $M_B$ 和新适配器 $M_t$ 沿列拼接后做 SVD：$X = [M_B \ M_t] = U\Sigma V^\top$
+        - 在对齐空间中按类别比例加权混合：$w_b = \frac{C_{\text{old}}}{C_{\text{old}}+C_{\text{new}}}$，$w_t = \frac{C_{\text{new}}}{C_{\text{old}}+C_{\text{new}}}$
+        - $V_{\text{blend}}^\top = w_b V_B^\top + w_t V_t^\top$
     - 设计动机：直接参数平均会导致不同步骤间的破坏性干涉；SVD 对齐确保更新沿一致的主方向交互；类别权重防止少量新类的噪声更新覆盖大量旧知识
 
 3. **秩自适应阈值调制（Rank-Wise Threshold Modulation）**：
 
     - 功能：按奇异值方向的重要性差异化调制更新幅度
     - 核心思路：
-      - 奇异值较大的方向对应主导视觉模式（如常见颜色、纹理），应保持稳定
-      - 奇异值较小的方向对应细节变化，可以更灵活地吸收新知识
-      - 定义门控掩码：前 $r_h$ 个方向用 $\gamma_{\text{head}}$（小值），其余用 $\gamma_{\text{tail}}$（大值）
-      - $V_{\text{final}}^\top = V_B^\top + G \odot \Delta V^\top$
+        - 奇异值较大的方向对应主导视觉模式（如常见颜色、纹理），应保持稳定
+        - 奇异值较小的方向对应细节变化，可以更灵活地吸收新知识
+        - 定义门控掩码：前 $r_h$ 个方向用 $\gamma_{\text{head}}$（小值），其余用 $\gamma_{\text{tail}}$（大值）
+        - $V_{\text{final}}^\top = V_B^\top + G \odot \Delta V^\top$
     - 设计动机：大步骤通常产生强主导方向，小步骤贡献弱但可能有用的变化；一刀切的合并会在两个方向上都不够灵活
 
 ### 损失函数 / 训练策略

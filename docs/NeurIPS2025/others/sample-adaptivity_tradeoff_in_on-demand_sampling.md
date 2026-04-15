@@ -92,9 +92,9 @@ $$\Omega\left(\frac{dk^{1/r}}{r\log^2 k}\right)$$
 
 **两种可观察区域**：
 - Box版本：$\mathcal{O}(\bar{w}) = \{w \in \Delta^{k-1}: w_i \leq \bar{w}_i, \forall i\}$
-  - 轮次 $O(k\log k)$：每坐标最多 $O(\log_C k)$ 次成为"culprit"
+    - 轮次 $O(k\log k)$：每坐标最多 $O(\log_C k)$ 次成为"culprit"
 - Ellipsoid版本：$\mathcal{O}(\bar{w}) = \{w \in \Delta^{k-1}: \sum_i w_i^2/\bar{w}_i \leq 1\}$
-  - 轮次 $\widetilde{O}(\sqrt{k})$：利用 $\sum_i \max_t w_i^{(t)} \leq \widetilde{O}(1)$（Lemma 3），将更新分为Type I（坐标超 $1/\sqrt{k}$）和Type II两类
+    - 轮次 $\widetilde{O}(\sqrt{k})$：利用 $\sum_i \max_t w_i^{(t)} \leq \widetilde{O}(1)$（Lemma 3），将更新分为Type I（坐标超 $1/\sqrt{k}$）和Type II两类
 
 **最终结果**（Proposition 1）：$\min\{\widetilde{O}(\sqrt{k}), O(k\log k)\}$ 轮，样本复杂度 $\widetilde{O}((d+k)/\varepsilon^2)$。
 

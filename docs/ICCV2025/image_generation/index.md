@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 图像生成方向 216篇论文解读
+  ICCV2025 图像生成方向 210篇论文解读
 description: >-
-  216篇ICCV2025 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  210篇ICCV2025 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📹 ICCV2025** · 共 **216** 篇
+**📹 ICCV2025** · **210** 篇论文解读
 
 **[A0 An Affordance-Aware Hierarchical Model For General Robotic Manipulation](a0_an_affordance-aware_hierarchical_model_for_general_robotic_manipulation.md)**
 
@@ -33,10 +33,6 @@ description: >-
 **[Adiee Automatic Dataset Creation And Scorer For Instruction-Guided Image Editing](adiee_automatic_dataset_creation_and_scorer_for_instruction-guided_image_editing.md)**
 
 :   本文提出 ADIEE，一种自动化构建指令引导图像编辑评估数据集的方法，并基于超过 10 万样本微调 LLaVA-NeXT-8B 模型作为评分器，在多个基准上超越所有开源 VLM 和 Gemini-Pro 1.5，同时可作为奖励模型提升图像编辑模型性能。
-
-**[Adversarial Distribution Matching For Diffusion Distillation Towards Efficient I](adversarial_distribution_matching_for_diffusion_distillation_towards_efficient_i.md)**
-
-:   提出对抗分布匹配（ADM）框架，用基于扩散模型的判别器以对抗方式隐式对齐真伪分数估计器的潜空间预测，结合对抗蒸馏预训练（ADP），在SDXL上实现高质量单步图像生成，并在SD3和CogVideoX上取得高效多步图像/视频合成的新基准。
 
 **[Aether Geometric-Aware Unified World Modeling](aether_geometric-aware_unified_world_modeling.md)**
 
@@ -82,10 +78,6 @@ description: >-
 
 :   提出TDSM（Triplet Diffusion for Skeleton-Text Matching），首次将扩散模型应用于零样本骨骼动作识别，通过反向扩散过程实现骨骼特征与文本prompt的隐式对齐，并引入triplet diffusion损失增强判别力，在NTU-60/120和PKU-MMD上大幅超越SOTA（2.36%到13.05%的提升幅度）。
 
-**[Bridging The Skeleton Text Modality Gap Diffusion Powered Modality Alignment For](bridging_the_skeleton_text_modality_gap_diffusion_powered_modality_alignment_for.md)**
-
-:   提出TDSM（Triplet Diffusion for Skeleton-Text Matching），首次将扩散模型应用于零样本骨骼动作识别，通过反向扩散过程实现骨骼特征与文本prompt的隐式对齐，并引入triplet diffusion损失增强判别力，在NTU-60/120和PKU-MMD上大幅超越SOTA（2.36%到13.05%的提升幅度）。
-
 **[Bvinet Unlocking Blind Video Inpainting With Zero Annotations](bvinet_unlocking_blind_video_inpainting_with_zero_annotations.md)**
 
 :   首次定义并解决"盲视频修复"（blind video inpainting）任务——在无需任何损坏区域标注的情况下，端到端地同时完成"哪里需要修复"和"如何修复"，通过 mask 预测网络与视频补全网络的一致性约束互相增强，在合成数据和真实应用（弹幕去除/划痕修复）中均取得优异效果。
@@ -109,10 +101,6 @@ description: >-
 **[Chords Diffusion Sampling Accelerator With Multi-Core Hierarchical Ode Solvers](chords_diffusion_sampling_accelerator_with_multi-core_hierarchical_ode_solvers.md)**
 
 :   提出 Chords，一种基于多核层次 ODE 求解器的扩散采样加速框架，通过慢到快的核间纠正机制（inter-core rectification），在 4-8 个 GPU 上实现 2.1×~2.9× 加速，且不牺牲生成质量。
-
-**[Chords Diffusion Sampling Accelerator With Multi Core Hierarchical Ode Solvers](chords_diffusion_sampling_accelerator_with_multi_core_hierarchical_ode_solvers.md)**
-
-:   提出 Chords，一种基于多核层级 ODE 求解器的无训练、模型无关扩散采样加速框架，通过慢到快的求解器层级和核间纠偏机制，在 4~8 个 GPU 核上实现最高 2.9× 加速而不损失生成质量。
 
 **[Cns-Bench Benchmarking Image Classifier Robustness Under Continuous Nuisance Shi](cns-bench_benchmarking_image_classifier_robustness_under_continuous_nuisance_shi.md)**
 
@@ -237,10 +225,6 @@ description: >-
 **[Dreamdance Animating Human Images By Enriching 3D Geometry Cues From 2D Poses](dreamdance_animating_human_images_by_enriching_3d_geometry_cues_from_2d_poses.md)**
 
 :   DreamDance 提出一种仅以 2D 骨架姿态序列为输入的人体图像动画框架：先通过 Mutually Aligned Geometry Diffusion Model 从 2D 姿态生成相互对齐的深度图和法线图以丰富 3D 几何引导，再通过基于 SVD 的 Cross-Domain Controlled Video Diffusion Model 整合多层次引导信号生成高质量人体动画，在 TikTok 数据集上取得 SOTA（FVD 153.07 vs Champ 170.20）。
-
-**[Dual-Expert Consistency Model For Efficient And High-Quality Video Generation](dual-expert_consistency_model_for_efficient_and_high-quality_video_generation.md)**
-
-:   通过分析一致性蒸馏中不同噪声水平下的优化冲突，提出参数高效的双专家一致性模型（DCM），分别用语义专家和细节专家处理高噪声/低噪声阶段的蒸馏，仅用4步采样即可达到接近50步原始模型的视频生成质量。
 
 **[Dual Recursive Feedback On Generation And Appearance Latents For Pose-Robust Tex](dual_recursive_feedback_on_generation_and_appearance_latents_for_pose-robust_tex.md)**
 
@@ -497,10 +481,6 @@ description: >-
 **[Long-Context State-Space Video World Models](long-context_state-space_video_world_models.md)**
 
 :   本文提出将状态空间模型（SSM/Mamba）引入视频世界模型，通过 block-wise SSM 扫描方案在空间一致性和时序记忆之间权衡，配合局部帧注意力，实现了线性训练复杂度、常数推理开销下的长期空间记忆保持，在 Memory Maze 和 Minecraft 数据集上大幅超越有限上下文的 Transformer 基线。
-
-**[Long Context Tuning For Video Generation](long_context_tuning_for_video_generation.md)**
-
-:   本文提出 Long Context Tuning (LCT)，将预训练单镜头视频扩散模型的上下文窗口扩展到场景级别，通过交错 3D RoPE、异步噪声策略和上下文因果注意力，实现跨镜头视觉/动态一致性的多镜头场景生成，并展现出零样本组合生成等涌现能力。
 
 **[Looking In The Mirror A Faithful Counterfactual Explanation Method For Interpret](looking_in_the_mirror_a_faithful_counterfactual_explanation_method_for_interpret.md)**
 
@@ -829,10 +809,6 @@ description: >-
 **[Unlocking The Potential Of Diffusion Priors In Blind Face Restoration](unlocking_the_potential_of_diffusion_priors_in_blind_face_restoration.md)**
 
 :   本文提出 FLIPNET，一个基于 T2I 扩散模型的统一框架，通过翻转输入在修复模式（BoostHub 选择性融合 LQ 特征 + BFR-oriented 面部嵌入）和退化模式（从真实退化数据集学习并合成退化图像）之间切换，同时解决 HQ/LQ 分布差距和合成/真实退化差距两大难题。
-
-**[Versatile Transition Generation With Image-To-Video Diffusion](versatile_transition_generation_with_image-to-video_diffusion.md)**
-
-:   本文提出 VTG，一个统一的过渡视频生成框架，通过插值初始化（噪声/LoRA/文本 SLERP）、双向运动微调和 DINOv2 表征对齐正则化，在单一框架中处理物体变形、运动预测、概念混合和场景过渡四类任务。
 
 **[Video Color Grading Via Look-Up Table Generation](video_color_grading_via_look-up_table_generation.md)**
 

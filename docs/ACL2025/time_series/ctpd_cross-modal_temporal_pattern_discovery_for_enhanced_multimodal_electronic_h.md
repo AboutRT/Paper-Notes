@@ -55,9 +55,9 @@ tags:
 
     - 功能：用 Slot Attention 从多尺度时间嵌入中提取 K 个跨模态时序原型
     - 核心思路：
-      - **多尺度**：对时间序列嵌入用 3 个卷积块+mean pooling（stride=2）生成 3 个尺度（T, T/2, T/4），拼接得到 $z_{MS}^{TS} \in \mathbb{R}^{T' \times D}$
-      - **共享初始原型**：$P^{Shared} \in \mathbb{R}^{K \times D}$，从 $\mathcal{N}(\mu, \text{diag}(\sigma))$ 初始化，训练中优化
-      - **Slot Attention 迭代**：原型作为 query，模态嵌入作为 key/value，计算注意力权重 → 加权聚合更新 → GRU 精炼原型。迭代 3 次
+        - **多尺度**：对时间序列嵌入用 3 个卷积块+mean pooling（stride=2）生成 3 个尺度（T, T/2, T/4），拼接得到 $z_{MS}^{TS} \in \mathbb{R}^{T' \times D}$
+        - **共享初始原型**：$P^{Shared} \in \mathbb{R}^{K \times D}$，从 $\mathcal{N}(\mu, \text{diag}(\sigma))$ 初始化，训练中优化
+        - **Slot Attention 迭代**：原型作为 query，模态嵌入作为 key/value，计算注意力权重 → 加权聚合更新 → GRU 精炼原型。迭代 3 次
     - 设计动机：Slot Attention 能自动将数据分组到不同"槽"中，每个槽对应一个时序模式。多尺度确保捕获不同时间粒度的模式
 
 3. **TP-NCE 对比损失**:

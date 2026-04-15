@@ -2,15 +2,14 @@
 title: >-
   [论文解读] An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes
 description: >-
-  [ICLR 2026][计算神经科学][实验设计优化] 提出信息论框架，通过推导 information gap（基于KL散度的解码器性能差异上界）来量化实验设计区分似然编码与后验编码假说的能力，并通过最大化 information gap 优化刺激先验分布，为解决贝叶斯脑假说中概率神经编码的根本争论提供理论驱动的实验设计方法。
+  [ICLR 2026][Information Gap] 提出 **information gap** 这一信息论度量，通过推导在似然编码和后验编码假说下解码器交叉熵性能差异的解析表达式（本质是真实后验与任务边际化代理后验之间的 KL 散度），定量评估给定实验设计区分两种概率神经编码假说的能力，并通过最大化该度量来优化刺激先验分布，实现理论驱动的最优实验设计。
 tags:
   - ICLR 2026
-  - 计算神经科学
-  - Bayesian Brain
-  - Experimental Design
-  - Information Theory
-  - Neural Coding
-  - KL Divergence
+  - Information Gap
+  - 概率编码假说
+  - 似然编码
+  - 后验编码
+  - 最优实验设计
 ---
 
 # An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes

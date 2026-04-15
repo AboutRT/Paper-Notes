@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM/NLP
 
-**🤖 AAAI2026** · 共 **28** 篇
+**🤖 AAAI2026** · **28** 篇论文解读
 
 **[An Invariant Latent Space Perspective On Language Model Inve](an_invariant_latent_space_perspective_on_language_model_inve.md)**
 

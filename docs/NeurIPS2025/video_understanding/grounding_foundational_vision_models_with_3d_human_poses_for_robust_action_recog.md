@@ -69,9 +69,9 @@ tags:
 ### Cross-Attention 融合 Transformer
 
 - 共 $L=4$ 层融合层，每层包含：
-  - **双向 cross-attention**：视觉流以骨骼流为 K/V 进行注意力更新，骨骼流以视觉流为 K/V 进行对称更新
-  - **self-attention 精炼**：各流分别进行 self-attention 以整合融合后的特征
-  - 每个子层均有残差连接 + LayerNorm
+    - **双向 cross-attention**：视觉流以骨骼流为 K/V 进行注意力更新，骨骼流以视觉流为 K/V 进行对称更新
+    - **self-attention 精炼**：各流分别进行 self-attention 以整合融合后的特征
+    - 每个子层均有残差连接 + LayerNorm
 - 8 个注意力头
 
 ### 分类头

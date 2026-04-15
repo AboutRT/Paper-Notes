@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧮 科学计算
 
-**🤖 AAAI2026** · 共 **8** 篇
+**🤖 AAAI2026** · **8** 篇论文解读
 
 **[Just Few States Are Enough Randomized Sparse Feedback For Stability Of Dynamical](just_few_states_are_enough_randomized_sparse_feedback_for_stability_of_dynamical.md)**
 

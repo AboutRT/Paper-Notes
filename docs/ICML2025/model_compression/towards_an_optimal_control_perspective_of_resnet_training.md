@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Towards an Optimal Control Perspective of ResNet Training
 description: >-
-  [模型压缩] 将 ResNet 训练形式化为最优控制问题，通过在中间层添加阶段成本 (stage cost) 损失实现自正则化，证明多余的深层权重渐近趋零，为理论驱动的层剪枝奠定基础。
+  [ICML 2025][模型压缩][ResNet] 将 ResNet 训练形式化为最优控制问题，通过在中间层添加阶段成本 (stage cost) 损失实现自正则化，证明多余的深层权重渐近趋零，为理论驱动的层剪枝奠定基础。
 tags:
+  - ICML 2025
   - 模型压缩
+  - ResNet
+  - optimal control
+  - stage cost
+  - 剪枝
+  - self-regularization
 ---
 
 # Towards an Optimal Control Perspective of ResNet Training
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2506.21453](https://arxiv.org/abs/2506.21453) |
-| 代码 | - |
-| 领域 | Theory / Neural Network Training |
-| 关键词 | ResNet, optimal control, stage cost, layer pruning, self-regularization |
+**会议**: ICML 2025  
+**arXiv**: [2506.21453](https://arxiv.org/abs/2506.21453)  
+**代码**: -  
+**领域**: Theory / Neural Network Training  
+**关键词**: ResNet, optimal control, stage cost, layer pruning, self-regularization  
 
 ## 一句话总结
 

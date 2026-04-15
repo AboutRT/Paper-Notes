@@ -56,28 +56,28 @@ tags:
 
     - 功能：自动发现与常识矛盾的三元组场景
     - 核心思路：
-      - 从 OMCS 语料提取高频 Subject（100个）、Action（150个）、Place（150个）短语
-      - 用 NPMI 衡量组件间共现关系：$\text{NPMI}(C_X; C_Y) = \frac{\text{PMI}(C_X; C_Y)}{-\log_2 P(C_X, C_Y)}$
-      - **高共现上下文**：选择 NPMI 最高的 Top-K 个 (Subject, Place) 或 (Subject, Action) 对作为"正常背景"
-      - **低共现目标**：在给定上下文下，选择 NPMI 最低的 Top-M 个 Action/Place 作为反常识元素
-      - 用 LLM (Vicuna-13B) 估计共现概率 $P(\cdot)$
+        - 从 OMCS 语料提取高频 Subject（100个）、Action（150个）、Place（150个）短语
+        - 用 NPMI 衡量组件间共现关系：$\text{NPMI}(C_X; C_Y) = \frac{\text{PMI}(C_X; C_Y)}{-\log_2 P(C_X, C_Y)}$
+        - **高共现上下文**：选择 NPMI 最高的 Top-K 个 (Subject, Place) 或 (Subject, Action) 对作为"正常背景"
+        - **低共现目标**：在给定上下文下，选择 NPMI 最低的 Top-M 个 Action/Place 作为反常识元素
+        - 用 LLM (Vicuna-13B) 估计共现概率 $P(\cdot)$
     - 设计动机：NPMI 归一化避免了高频词的偏差，自动化方法比手动构建更具可扩展性。高共现上下文确保场景本身是"正常"的，仅有一个异常元素
 
 2. **多类型问题生成**:
 
     - 功能：为每个反常识场景生成三种问题类型
     - 设计：
-      - **Yes-No**："Is the waitress in the kitchen signing a bill?" — 直接呈现反常识表述
-      - **Multiple-Choice**：正确选项是反常识动作/场景，干扰项是常识选项
-      - **Open-Ended**："What is the waitress doing in the kitchen?" — 需要模型自由回答
+        - **Yes-No**："Is the waitress in the kitchen signing a bill?" — 直接呈现反常识表述
+        - **Multiple-Choice**：正确选项是反常识动作/场景，干扰项是常识选项
+        - **Open-Ended**："What is the waitress doing in the kitchen?" — 需要模型自由回答
     - 设计动机：不同问题类型对模型施加不同程度的知识对抗压力，Yes-No 最直接触发常识否定反应
 
 3. **记忆化比率 (Memorization Ratio, MR)**:
 
     - 功能：量化模型对参数化知识的依赖程度
     - 核心公式：$MR = \frac{P_K}{P_K + P_V}$
-      - $P_K$：回答与无图像时一致（依赖知识）
-      - $P_V$：回答与视觉信息一致（利用视觉）
+        - $P_K$：回答与无图像时一致（依赖知识）
+        - $P_V$：回答与视觉信息一致（利用视觉）
     - 通过对比有图/无图两种条件下的回答来分类，是一种巧妙的因果分析方法
 
 4. **Focus-on-Vision (FoV) 提示策略**:

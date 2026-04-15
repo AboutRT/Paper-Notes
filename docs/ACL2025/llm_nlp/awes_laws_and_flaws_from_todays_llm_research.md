@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Awes, Laws, and Flaws From Today's LLM Research
 description: >-
-  [ACL 2025][LLM/NLP][科学方法论] 对 2000+ 篇 LLM 相关论文（2020-2024）进行系统性元分析，基于统计检验/可复现性/伦理声明等 14 项标准评估研究质量，发现领域存在"加速劣化"趋势：伦理声明比例下降、统计检验不足（仅 25%）、LLM 作为评估器急速增多但缺乏元评估，同时验证了会议强制检查清单（如 ACL 的 limitations 章节）确实有效遏制部分退化。
+  [ACL 2025][LLM/NLP][科学方法论] 对引用 GPT-3/GPT-4 的 2,054 篇 LLM 研究论文（2020-2024）进行 14 维标注与统计分析，揭示领域存在系统性方法论退化——仅 25% 论文含统计检验、伦理声明比例持续下降、LLM 评估器急增 15% 但缺乏元评估——同时用数据验证了会议强制检查清单（如 ACL 的 limitations 要求）的确有效遏制退化趋势。
 tags:
   - ACL 2025
   - LLM/NLP
@@ -11,6 +11,7 @@ tags:
   - 可复现性
   - 统计检验
   - 元分析
+  - 研究伦理
 ---
 
 # Awes, Laws, and Flaws From Today's LLM Research

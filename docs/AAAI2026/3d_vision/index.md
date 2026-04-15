@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**🤖 AAAI2026** · 共 **77** 篇
+**🤖 AAAI2026** · **77** 篇论文解读
 
 **[3D-Anc Adaptive Neural Collapse For Robust 3D Point Cloud Re](3d-anc_adaptive_neural_collapse_for_robust_3d_point_cloud_re.md)**
 

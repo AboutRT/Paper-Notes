@@ -55,9 +55,9 @@ tags:
 
     - 功能：根据visual score非对称地给不同head分配不同的KV-Cache预算。
     - 三部分组成：
-      - **Local Window Cache**：每个head固定保留最近32个token的KV（局部窗口）。
-      - **Uniform-Based Cache**：剩余预算的$\rho=10\%$均匀分配给所有head（保底最低额度）。
-      - **Score-Preferred Cache**：剩余$90\%$按visual score比例分配——visual head获得更多cache。
+        - **Local Window Cache**：每个head固定保留最近32个token的KV（局部窗口）。
+        - **Uniform-Based Cache**：剩余预算的$\rho=10\%$均匀分配给所有head（保底最低额度）。
+        - **Score-Preferred Cache**：剩余$90\%$按visual score比例分配——visual head获得更多cache。
     - 公式：head $(i,j)$的总预算 = $w + r + b_{ij}^{score}$，其中$b_{ij}^{score} = B_{remain2} \cdot \frac{s_{ij}}{\sum s_{ij}}$。
     - 在每个head的预算内，用observation window（末尾32个token的query）计算attention score选择最重要的KV对保留。
     - 设计动机：visual head需要保留更多视觉token的KV来维护视觉理解能力，而non-visual head可以激进压缩。$\rho=0$（完全按score分配）会导致某些head完全没有cache，性能崩溃，所以需要uniform保底。

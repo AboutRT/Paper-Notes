@@ -51,18 +51,18 @@ AlignVAR 在 VQ-VAE + 自回归 Transformer 的 next-scale 预测架构上，引
 
     - **做什么**：在每个尺度的自回归预测中引入结构感知的空间调制，打破注意力的局部偏差
     - **核心思路**：
-      - 从低分辨率输入 $I_{LR}$ 提取结构引导图：$s = |\text{Laplacian}(I_{LR})|$，下采样到各尺度分辨率并归一化得到 $\bar{s}_k$
-      - 用轻量 MLP 掩码生成器预测空间调制场：$m_k = \sigma(\mathcal{M}_\phi([r_k, \bar{s}_k]))$
-      - 通过 token gating 生成结构感知的重加权 token：$\tilde{r}_k = (1 + m_k) \odot r_k$
+        - 从低分辨率输入 $I_{LR}$ 提取结构引导图：$s = |\text{Laplacian}(I_{LR})|$，下采样到各尺度分辨率并归一化得到 $\bar{s}_k$
+        - 用轻量 MLP 掩码生成器预测空间调制场：$m_k = \sigma(\mathcal{M}_\phi([r_k, \bar{s}_k]))$
+        - 通过 token gating 生成结构感知的重加权 token：$\tilde{r}_k = (1 + m_k) \odot r_k$
     - **设计动机**：Laplacian 算子对二阶结构变化敏感，能高亮边缘和纹理区域。掩码为结构清晰的区域赋予更高权重，引导模型优先沿结构可靠路径传播信息，有效扩展感受野并增强长程依赖
 
 2. **层级一致性约束（HCC）**：
 
     - **做什么**：在每个尺度都监督累积的全尺度重建结果，而不仅是残差
     - **核心思路**：
-      - 构建全尺度 ground truth：$u_{\text{gt}}^k = \mathcal{Q}(\text{Down}(z, S_k))$，即将 HR 图像的 VAE 编码下采样到各尺度并量化
-      - 累积预测：$\hat{u}_{\text{pred}}^k = \hat{u}_{\text{pred}}^{k-1} + \hat{r}_{\text{pred}}^k$
-      - HCC 损失：$\mathcal{L}_{\text{HCC}} = \sum_{k=1}^{K} \|\hat{u}_{\text{pred}}^k - u_{\text{gt}}^k\|_2^2$
+        - 构建全尺度 ground truth：$u_{\text{gt}}^k = \mathcal{Q}(\text{Down}(z, S_k))$，即将 HR 图像的 VAE 编码下采样到各尺度并量化
+        - 累积预测：$\hat{u}_{\text{pred}}^k = \hat{u}_{\text{pred}}^{k-1} + \hat{r}_{\text{pred}}^k$
+        - HCC 损失：$\mathcal{L}_{\text{HCC}} = \sum_{k=1}^{K} \|\hat{u}_{\text{pred}}^k - u_{\text{gt}}^k\|_2^2$
     - **设计动机**：纯残差交叉熵损失无法感知累积偏差——粗尺度的小误差在逐级累加后变成大偏差。HCC 在每个尺度直接对比全局重建状态与 ground truth，让模型在误差传播之前就能修正偏差
 
 ### 损失函数 / 训练策略

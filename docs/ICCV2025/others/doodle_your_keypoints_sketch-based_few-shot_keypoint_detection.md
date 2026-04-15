@@ -59,8 +59,8 @@ $$\mathcal{P}(f_k, \mathbf{u}_{k,n}) = \sum_{\mathbf{x}} \exp\left(\frac{-\|\mat
 
 **网格定位器 GBL**：
 - 将关键点定位分解为两个子问题：
-  - **网格分类**：预测关键点所在的 $L_i \times L_i$ 网格块（cross-entropy loss）
-  - **网格偏移回归**：在选定网格块内预测精确偏移（L1 loss）
+    - **网格分类**：预测关键点所在的 $L_i \times L_i$ 网格块（cross-entropy loss）
+    - **网格偏移回归**：在选定网格块内预测精确偏移（L1 loss）
 - 使用多尺度网格 $L = \{8, 12, 16\}$，最终预测取各尺度均值
 - 相比 FSKD 的不确定性建模，更简洁且适合草图的稀疏特性
 

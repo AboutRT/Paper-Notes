@@ -25,10 +25,10 @@ tags:
 - **问题定义**：给定主体图像$x_s$和目标图像$x_t$（可能具有完全不同的风格），生成$\hat{x}_t$使得：（1）主体以语义一致和物理合理的方式插入（包括遮挡、阴影、反射）；（2）插入的主体采用目标图像的风格，同时保持自身身份和核心属性。
 - **形式化**：学习函数$h: \mathcal{I}_s \times \mathcal{I}_t \rightarrow \mathcal{I}_t$，使$\hat{x}_t \sim p(\hat{x}_t | x_t, x_s)$。
 - **现有方法局限**：
-  - 纯inpainting方法（DreamBooth + StyleDrop + inpainting）：计算昂贵且效果差
-  - 现有风格学习方法快速但难以准确学习主体身份的细节
-  - 现有插入模型（ObjectDrop等）仅在真实图像上训练，无法泛化到风格化图像
-  - 直接拼接inpainting存在背景破坏、不完整插入和低质量等问题
+    - 纯inpainting方法（DreamBooth + StyleDrop + inpainting）：计算昂贵且效果差
+    - 现有风格学习方法快速但难以准确学习主体身份的细节
+    - 现有插入模型（ObjectDrop等）仅在真实图像上训练，无法泛化到风格化图像
+    - 直接拼接inpainting存在背景破坏、不完整插入和低质量等问题
 
 ## 方法详解
 

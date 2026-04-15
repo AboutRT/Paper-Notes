@@ -56,8 +56,8 @@ AdvMark 采用两阶段解耦设计：Stage 1 EAT 专注对抗鲁棒性，通过
 
     - 功能：构造 defender-tailored 对抗样本，主要微调 encoder 使水印图像远离对抗攻击可达区域
     - 核心思路：
-      - **对抗样本构造**（Eq.2）：$\min_{\delta} |0.5 - l(\text{clamp}(D(x_w + \delta), 0, 1), m)|$，寻找最容易使 decoder 输出接近 0.5（最大不确定性）的扰动 $\delta$，这些是 defender-tailored 对抗样本
-      - **Encoder 为主的更新策略**：将对抗样本反馈给 encoder，让 encoder 学习将水印图像嵌入到远离决策边界的安全区域。Decoder 仅在 bit accuracy $< \tau_1$ 时条件更新一次
+        - **对抗样本构造**（Eq.2）：$\min_{\delta} |0.5 - l(\text{clamp}(D(x_w + \delta), 0, 1), m)|$，寻找最容易使 decoder 输出接近 0.5（最大不确定性）的扰动 $\delta$，这些是 defender-tailored 对抗样本
+        - **Encoder 为主的更新策略**：将对抗样本反馈给 encoder，让 encoder 学习将水印图像嵌入到远离决策边界的安全区域。Decoder 仅在 bit accuracy $< \tau_1$ 时条件更新一次
     - 设计动机：传统对抗训练（AT）同时更新 encoder 和 decoder，decoder 扩展决策边界虽能容纳对抗样本但牺牲 clean accuracy。EAT 反其道而行——不扩大边界，而是让 encoder 把图像"搬到"边界够不到的地方
     - 关键区别：EAT 中 encoder 是主要被训练的对象，decoder 基本冻结
 
@@ -65,9 +65,9 @@ AdvMark 采用两阶段解耦设计：Stage 1 EAT 专注对抗鲁棒性，通过
 
     - 功能：对 Stage 1 输出的水印图像 $x_{w1}$ 进一步优化得到 $x_{w2}$，使其同时抵御失真和再生攻击
     - 核心思路：
-      - **优化目标**：直接在像素空间优化 $x_{w2}$（不更新网络参数），使 $x_{w2}$ 经过失真/再生攻击后 decoder 仍能正确提取水印
-      - **Constrained Image Loss**：约束 $x_{w2}$ 与 $x_{w1}$ 的偏移量，使优化后的图像不偏离 Stage 1 建立的 non-attackable 区域，从而保留对抗鲁棒性。论文提供了理论保证：在 $\|x_{w2} - x_{w1}\| \leq \epsilon$ 约束下，Stage 1 的对抗鲁棒性以高概率保持
-      - **Quality-aware Early-stop**：不使用固定 $\epsilon$-ball 投影（会导致图像质量不均），而是监控图像质量指标（PSNR/SSIM），在质量下降到阈值时提前停止优化
+        - **优化目标**：直接在像素空间优化 $x_{w2}$（不更新网络参数），使 $x_{w2}$ 经过失真/再生攻击后 decoder 仍能正确提取水印
+        - **Constrained Image Loss**：约束 $x_{w2}$ 与 $x_{w1}$ 的偏移量，使优化后的图像不偏离 Stage 1 建立的 non-attackable 区域，从而保留对抗鲁棒性。论文提供了理论保证：在 $\|x_{w2} - x_{w1}\| \leq \epsilon$ 约束下，Stage 1 的对抗鲁棒性以高概率保持
+        - **Quality-aware Early-stop**：不使用固定 $\epsilon$-ball 投影（会导致图像质量不均），而是监控图像质量指标（PSNR/SSIM），在质量下降到阈值时提前停止优化
     - 设计动机：失真/再生攻击是 model-agnostic 的信号破坏，用 encoder 训练效果有限；直接优化像素更直接高效，且通过约束保留 Stage 1 的对抗防御成果
 
 3. **两阶段解耦的理论保证**:

@@ -45,12 +45,12 @@ MindPower 包含三部分：(1) **MindPower Benchmark**——590 个家庭场景
 
 - **Level-1 感知** `<Perception>`：观察环境，理解当前发生了什么
 - **Level-2 心智推理**：
-  - `<Belief>`：推断自己和人类的信念（含二阶信念——"我认为 Alice 认为苹果在桌上"）
-  - `<Desire>`：确定辅助目标（"Alice 想喝牛奶"）
-  - `<Intention>`：形成具体行动意图（"我应该帮她从冰箱拿牛奶"）
+    - `<Belief>`：推断自己和人类的信念（含二阶信念——"我认为 Alice 认为苹果在桌上"）
+    - `<Desire>`：确定辅助目标（"Alice 想喝牛奶"）
+    - `<Intention>`：形成具体行动意图（"我应该帮她从冰箱拿牛奶"）
 - **Level-3 决策与行动**：
-  - `<Decision>`：选择行动计划
-  - `<Action>`：输出原子操作序列，如 `walk(fridge), open(fridge), pick(milk)`
+    - `<Decision>`：选择行动计划
+    - `<Action>`：输出原子操作序列，如 `walk(fridge), open(fridge), pick(milk)`
 
 ### Robot-Centric 视角（核心创新）
 

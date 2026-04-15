@@ -57,9 +57,9 @@ SeFlow 提出将传统的基于 ray-casting 的动态点分类融入自监督场
 
     - 功能：针对静态点和动态点设计不同的训练目标
     - 核心思路：
-      - **Dynamic Chamfer Distance** ($\mathcal{L}_{dcham}$)：只在动态点之间计算 Chamfer 距离，避免被大量静态点的零流量淹没
-      - **Static Flow Loss** ($\mathcal{L}_{static}$)：强制静态点的网络输出 $\Delta\hat{\mathcal{F}}$ 为零：$\mathcal{L}_{static} = \frac{1}{|\mathcal{P}_{t,s}|}\sum_{p \in \mathcal{P}_{t,s}} \|\Delta\hat{\mathcal{F}}(p)\|_2^2$
-      - **Dynamic Cluster Flow** ($\mathcal{L}_{dcls}$)：用 HDBSCAN 聚类动态点为物体候选，求每个聚类中最近邻距离最大的点作为运动上界 $\tilde{f}_{c_i}$，约束聚类内所有点朝这个上界一致：$\mathcal{L}_{c_i} = \sum_{p_j \in \mathcal{P}_{c_i}} \|\hat{f}_{p_j} - \tilde{f}_{c_i}\|_2^2$
+        - **Dynamic Chamfer Distance** ($\mathcal{L}_{dcham}$)：只在动态点之间计算 Chamfer 距离，避免被大量静态点的零流量淹没
+        - **Static Flow Loss** ($\mathcal{L}_{static}$)：强制静态点的网络输出 $\Delta\hat{\mathcal{F}}$ 为零：$\mathcal{L}_{static} = \frac{1}{|\mathcal{P}_{t,s}|}\sum_{p \in \mathcal{P}_{t,s}} \|\Delta\hat{\mathcal{F}}(p)\|_2^2$
+        - **Dynamic Cluster Flow** ($\mathcal{L}_{dcls}$)：用 HDBSCAN 聚类动态点为物体候选，求每个聚类中最近邻距离最大的点作为运动上界 $\tilde{f}_{c_i}$，约束聚类内所有点朝这个上界一致：$\mathcal{L}_{c_i} = \sum_{p_j \in \mathcal{P}_{c_i}} \|\hat{f}_{p_j} - \tilde{f}_{c_i}\|_2^2$
     - 设计动机：$\mathcal{L}_{dcham}$ 解决数据不平衡，$\mathcal{L}_{static}$ 消除静态点的匹配噪声，$\mathcal{L}_{dcls}$ 纠正 Chamfer 距离在物体表面中部的系统性低估（核心创新）
 
 3. **DeFlow + GRU 骨干网络**:

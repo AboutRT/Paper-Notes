@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🧪 ICML2025** · 共 **6** 篇
+**🧪 ICML2025** · **6** 篇论文解读
 
 **[Bridging The Language Gap Synthetic Voice Diversity Via Latent Mixup For Equitab](bridging_the_language_gap_synthetic_voice_diversity_via_latent_mixup_for_equitab.md)**
 

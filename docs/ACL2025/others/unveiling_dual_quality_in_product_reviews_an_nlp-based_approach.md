@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Unveiling Dual Quality in Product Reviews: An NLP-Based Approach
 description: >-
-   提出利用NLP方法自动检测产品评论中的"双重质量"问题（同品牌产品在不同市场质量不同），构建了首个波兰语双重质量评论数据集并系统比较了SetFit、Transformer编码器和LLM三类方法。
+  [ACL 2025][dual quality] 提出面向产品评论的"双重质量"自动检测任务，通过迭代式主动学习构建首个波兰语DQ数据集（1,957条评论），系统对比SetFit、Transformer编码器和LLM三类方法，发现语言专用编码器与带指令的LLM性能相当（DQ F1 ≈ 80-83%），并验证了跨语言迁移能力。
 tags:
-
+  - ACL 2025
+  - dual quality
+  - product review classification
+  - SetFit
+  - Transformer
+  - LLM
 ---
 
 # Unveiling Dual Quality in Product Reviews: An NLP-Based Approach
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2505.19254](https://arxiv.org/abs/2505.19254) |
-| 代码 | 未公开 |
-| 领域 | NLP应用/消费者保护 |
-| 关键词 | dual quality, product review classification, SetFit, transformer, LLM |
+**会议**: ACL 2025  
+**arXiv**: [2505.19254](https://arxiv.org/abs/2505.19254)  
+**代码**: 未公开  
+**领域**: NLP应用/消费者保护  
+**关键词**: dual quality, product review classification, SetFit, transformer, LLM  
 
 ## 一句话总结
 

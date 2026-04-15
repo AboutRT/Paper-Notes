@@ -59,9 +59,9 @@ tags:
 - **做什么**：将 TranSUN 推广为通用回归模型族 GTS，支持任意条件点估计作为主分支、任意函数 $\kappa$ 作为线性变换斜率。
 - **为什么**：揭示 TranSUN 无偏性的本质机制是"条件线性"（conditional linearity）而非偏差学习本身；GTS 提供灵活框架，可直接为任意回归模型添加去偏能力（plug-and-play）。
 - **怎么做**：
-  - GTS 损失 = 条件点损失 $\mathcal{L}_{\mathcal{H}_q}$（主分支学习 $T(y)|x$ 的某种点估计）+ 线性变换损失（辅助分支通过动态斜率 $\kappa(f)$ 学习）。
-  - 模型假设：$-z(x;\theta_z) + y \cdot \kappa(\mathbb{Q}[T(y)|x]) \sim \mathcal{N}(0,\sigma^2)$，本质是条件线性变换 MSE，天然保持无偏。
-  - 应用方式：(a) 定制 $\mathcal{H}_q$ 和 $\kappa$ 直接构建新型无偏回归模型；(b) 对已有模型设 $T$ 为恒等变换，即可 plug-and-play 去偏。
+    - GTS 损失 = 条件点损失 $\mathcal{L}_{\mathcal{H}_q}$（主分支学习 $T(y)|x$ 的某种点估计）+ 线性变换损失（辅助分支通过动态斜率 $\kappa(f)$ 学习）。
+    - 模型假设：$-z(x;\theta_z) + y \cdot \kappa(\mathbb{Q}[T(y)|x]) \sim \mathcal{N}(0,\sigma^2)$，本质是条件线性变换 MSE，天然保持无偏。
+    - 应用方式：(a) 定制 $\mathcal{H}_q$ 和 $\kappa$ 直接构建新型无偏回归模型；(b) 对已有模型设 $T$ 为恒等变换，即可 plug-and-play 去偏。
 
 ## 实验
 

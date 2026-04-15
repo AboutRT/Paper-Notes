@@ -54,10 +54,10 @@ $$x^i = (\Gamma_{\text{gv}}^i, v_{\text{root}}^i, \theta^i, \beta^i, t_{\text{ro
 
     - 功能：在单一模型中兼顾估计的精确性和生成的多样性
     - 核心思路：
-      - **估计模式**：将模型输入设为纯高斯噪声 $z \sim \mathcal{N}(\mathbf{0}, I)$，时间步设为最大值 $T$，直接回归清洁运动：
+        - **估计模式**：将模型输入设为纯高斯噪声 $z \sim \mathcal{N}(\mathbf{0}, I)$，时间步设为最大值 $T$，直接回归清洁运动：
        $$\mathcal{L}_{\text{est}} = \mathbb{E}_{z \sim \mathcal{N}(\mathbf{0}, I)} [\|x_0 - \mathcal{G}(z, T, \mathcal{C}, \mathcal{M})\|^2]$$
        这等价于最大似然估计，迫使模型从纯噪声一步预测最可能的运动
-      - **生成模式**：标准 DDPM 训练，从加噪运动逐步去噪：
+        - **生成模式**：标准 DDPM 训练，从加噪运动逐步去噪：
        $$\mathcal{L}_{\text{gen}} = \mathbb{E}_{t, x_t} [\|x_0 - \mathcal{G}(x_t, t, \mathcal{C}, \mathcal{M})\|^2]$$
     - 设计动机：作者发现视频条件下的扩散模型表现出高度确定性——第一步预测就非常接近最终结果，而文本条件下方差很大。因此对估计任务，加强"第一步预测"的质量（估计模式）至关重要，同时不能损害多样生成能力（生成模式）
 
@@ -65,11 +65,11 @@ $$x^i = (\Gamma_{\text{gv}}^i, v_{\text{root}}^i, \theta^i, \beta^i, t_{\text{ro
 
     - 功能：支持任意组合的视频、音乐、2D 关键点、文本等多模态条件输入
     - 核心思路：
-      - **帧对齐条件**（视频、音乐、2D 骨架）：通过加法融合块（Additive Fusion Block）将各模态特征经各自 MLP 投影后求和，再与噪声运动融合生成 token 序列
-      - **文本条件**：使用创新的**多文本注入块（Multi-Text Injection Block）**，支持多段文本在不同时间窗口的注入：
+        - **帧对齐条件**（视频、音乐、2D 骨架）：通过加法融合块（Additive Fusion Block）将各模态特征经各自 MLP 投影后求和，再与噪声运动融合生成 token 序列
+        - **文本条件**：使用创新的**多文本注入块（Multi-Text Injection Block）**，支持多段文本在不同时间窗口的注入：
        $$f_{\text{out}} = \sum_{k=1}^K \text{MaskedMHA}(f_{\text{in}}, c_{\text{text}}^k, \Omega_k)$$
        其中 $\Omega_k(i,j)$ 是二值掩码，限定第 $k$ 段文本仅影响其时间窗口内的运动帧
-      - 主干网络使用 RoPE-based Transformer，支持变长序列和推理时的滑窗注意力
+        - 主干网络使用 RoPE-based Transformer，支持变长序列和推理时的滑窗注意力
     - 设计动机：文本与运动帧没有逐帧对齐关系，不能简单拼接（会引入位置偏差）。多文本注入通过掩码注意力优雅解决了多段文本按时间段控制运动的需求
 
 3. **估计引导的 2D 训练（Estimation-Guided Training）**:

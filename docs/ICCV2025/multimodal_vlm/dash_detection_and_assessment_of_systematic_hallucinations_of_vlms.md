@@ -52,9 +52,9 @@ DASH包含四个阶段：查询生成（DASH-LLM或DASH-OPT）→ 探索（Explo
 
     - 功能：通过优化扩散模型的输入变量，生成能同时骗过VLM但不包含目标对象的图像
     - 核心思路：使用单步扩散模型（蒸馏后的LDM），联合优化两个目标：
-      - VLM损失：$L_{\text{vlm}}(C) = -\log p_{\text{vlm}}(\text{"Yes"} \mid q(C), \text{qstnOBJ})$，最大化VLM回答"Yes"的概率
-      - 检测器损失：$L_{\text{det}}(C) = -\log(1 - p_{\text{det}}(\text{OBJ} \mid q(C)))$，最小化开放世界检测器（OWLv2）的目标对象置信度
-      - 总目标：$\min_C L_{\text{vlm}}(C) + L_{\text{det}}(C)$
+        - VLM损失：$L_{\text{vlm}}(C) = -\log p_{\text{vlm}}(\text{"Yes"} \mid q(C), \text{qstnOBJ})$，最大化VLM回答"Yes"的概率
+        - 检测器损失：$L_{\text{det}}(C) = -\log(1 - p_{\text{det}}(\text{OBJ} \mid q(C)))$，最小化开放世界检测器（OWLv2）的目标对象置信度
+        - 总目标：$\min_C L_{\text{vlm}}(C) + L_{\text{det}}(C)$
     - 设计动机：直接在像素空间优化会产生对抗样本而非自然图像，在扩散模型的潜空间中优化可保证生成的图像落在"自然图像流形"上。与DASH-LLM不同，DASH-OPT是模型特异性的，能发现更多意外的幻觉模式
 
 3. **探索-利用-聚类流程**:

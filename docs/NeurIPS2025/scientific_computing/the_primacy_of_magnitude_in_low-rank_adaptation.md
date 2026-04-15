@@ -71,10 +71,10 @@ tags:
 
 - **做什么**：设计无需 SVD 的高效初始化方案
 - **核心思路**：
-  - 用离散正弦变换（DST）基 $\Phi_m$ 作为确定性正交基，$\Phi_m[i,j] = \sqrt{2/(m+1)} \sin((i+1)(j+1)\pi/(m+1))$
-  - 用对数近似谱增益因子 $Q[r] \approx \log_{\min(n,m)}(r)$
-  - 缩放因子 $\beta = (Q[r] \cdot \nu[W] / \nu[\Phi_n \Phi_m^\top])^{1/4}$
-  - 初始化：$A^{(0)} = \beta \cdot \Phi_m^\top$，$B^{(0)} = \beta \cdot \Phi_n$，$W \leftarrow W - \beta^2 \cdot \Phi_n \Phi_m^\top$
+    - 用离散正弦变换（DST）基 $\Phi_m$ 作为确定性正交基，$\Phi_m[i,j] = \sqrt{2/(m+1)} \sin((i+1)(j+1)\pi/(m+1))$
+    - 用对数近似谱增益因子 $Q[r] \approx \log_{\min(n,m)}(r)$
+    - 缩放因子 $\beta = (Q[r] \cdot \nu[W] / \nu[\Phi_n \Phi_m^\top])^{1/4}$
+    - 初始化：$A^{(0)} = \beta \cdot \Phi_m^\top$，$B^{(0)} = \beta \cdot \Phi_n$，$W \leftarrow W - \beta^2 \cdot \Phi_n \Phi_m^\top$
 - **设计动机**：DST 基是解析定义的，无需存储（不同设备可复现）；对数近似有效捕获了 $Q[r]$ 的单调递增和凹性特征
 
 ### 损失函数 / 训练策略

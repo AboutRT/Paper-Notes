@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🧪 ICML2025** · 共 **31** 篇
+**🧪 ICML2025** · **31** 篇论文解读
 
 **[A Cognac Shot To Forget Bad Memories Corrective Unlearning For Graph Neural Netw](a_cognac_shot_to_forget_bad_memories_corrective_unlearning_for_graph_neural_netw.md)**
 

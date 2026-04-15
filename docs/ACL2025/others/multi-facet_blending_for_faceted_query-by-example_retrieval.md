@@ -42,8 +42,8 @@ FaBle 包含三个核心阶段（图 2）：
 **Stage 2: 分面生成 (Facet Generation)**
 - **自馈 (Self-feeding) 机制**：将 Stage 1 的 prompt 和输出一起喂给同一模型
 - 生成两类分面片段：
-  - 相似分面片段 C_sim^f：与原分面语义相似的文本
-  - 不相似分面片段 C_dis^f：与原分面语义不同的文本
+    - 相似分面片段 C_sim^f：与原分面语义相似的文本
+    - 不相似分面片段 C_dis^f：与原分面语义不同的文本
 - 关键发现：无 decomposition 直接生成会导致非目标分面混入（图 3），两阶段方法能保证目标分面聚焦性
 
 **Stage 3: 分面重组 (Facet Recomposition)**

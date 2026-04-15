@@ -99,8 +99,8 @@ $$\mathcal{L}_{\text{order}} = \sum_{j=1}^{N} \sum_{k=1}^{N} w_{jk} \cdot \mathb
 ### 数据集：Manipulation Ordering Benchmark
 
 - **仿真环境**：PyBullet 引擎 + YCB 物体集（5 类物体）
-  - Easy：24 个物体，Medium：36 个物体，Hard：60 个物体
-  - 训练集 161,722 张 RGB-D 图像，验证集 1,500 张
+    - Easy：24 个物体，Medium：36 个物体，Hard：60 个物体
+    - 训练集 161,722 张 RGB-D 图像，验证集 1,500 张
 - **真实环境**：训练集 26,324 张，验证集 6,581 张，物体分为 box 和 bag 两类
 - 机器人使用吸盘式末端执行器，RGB-D 相机以俯视角度采集 1408×1024 分辨率图像
 

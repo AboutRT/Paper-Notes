@@ -65,8 +65,8 @@ OpenPSG 包含三个组件：(1) Object Segmenter：使用预训练的 OpenSeeD 
 
     - 功能：用两种互补的指令方式实现开放集关系预测
     - 核心思路：
-      - Generation 指令："What are the relations between $c_i$ and $c_j$?" → 自回归生成所有可能关系，多关系用 [SEP] 分隔：$r_{i,j} = \text{Dec}(\text{Concat}(F_I^{pair(i,j)}, F_{inst}^{gen}))$
-      - Judgement 指令："Please judge between $c_i$ and $c_j$ whether there is a relation $r_k$" → 对每个候选关系判断 Yes/No。利用 KV-cache 缓存 prefix：$F_{prefix}^{(i,j)} = \text{Dec}(\text{Concat}(F_I^{pair(i,j)}, F_{inst}^{judge}))$，然后对每个关系只需处理关系名 token
+        - Generation 指令："What are the relations between $c_i$ and $c_j$?" → 自回归生成所有可能关系，多关系用 [SEP] 分隔：$r_{i,j} = \text{Dec}(\text{Concat}(F_I^{pair(i,j)}, F_{inst}^{gen}))$
+        - Judgement 指令："Please judge between $c_i$ and $c_j$ whether there is a relation $r_k$" → 对每个候选关系判断 Yes/No。利用 KV-cache 缓存 prefix：$F_{prefix}^{(i,j)} = \text{Dec}(\text{Concat}(F_I^{pair(i,j)}, F_{inst}^{judge}))$，然后对每个关系只需处理关系名 token
     - 设计动机：Generation 擅长发现新关系但偏向高频关系；Judgement 借助 LMM 的判断能力处理低频和罕见关系，且通过 prefix caching 保持与 Generation 相同的推理速度
 
 ### 损失函数 / 训练策略

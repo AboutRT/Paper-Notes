@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[A Visual Leap In Clip Compositionality Reasoning Through Gen](a_visual_leap_in_clip_compositionality_reasoning_through_gen.md)**
 

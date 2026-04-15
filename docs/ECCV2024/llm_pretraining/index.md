@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**🎞️ ECCV2024** · 共 **6** 篇
+**🎞️ ECCV2024** · **6** 篇论文解读
 
 **[Cross-Domain Learning For Video Anomaly Detection With Limited Supervision](cross-domain_learning_for_video_anomaly_detection_with_limited_supervision.md)**
 

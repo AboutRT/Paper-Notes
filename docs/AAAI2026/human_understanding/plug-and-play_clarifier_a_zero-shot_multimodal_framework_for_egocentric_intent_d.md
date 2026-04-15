@@ -79,8 +79,8 @@ $$\vec{v} = \frac{p_{tip}^{3D} - p_{base}^{3D}}{\|p_{tip}^{3D} - p_{base}^{3D}\|
 
 - **文本消歧基准**：IN3 和 CLAMBER
 - **新基准 VRA-Ego**：1000 个样本，用 AR 眼镜（Ray-Ban Meta、RayNeo X2/X3 Pro）采集
-  - Visual Ambiguity Set（500 张）：含模糊、构图不良的图像
-  - Referential Ambiguity Set（500 个）：含手指指向动作和歧义查询
+    - Visual Ambiguity Set（500 张）：含模糊、构图不良的图像
+    - Referential Ambiguity Set（500 个）：含手指指向动作和歧义查询
 - **评估指标**：Vagueness Judgement Accuracy、Missing Details Recover Rate、对话轮数、Strict/Loose Recover Rate、Semantic Answer Recover Rate
 
 ### 表1：文本消歧（CLAMBER 基准）

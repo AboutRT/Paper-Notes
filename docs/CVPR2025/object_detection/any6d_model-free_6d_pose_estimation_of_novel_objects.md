@@ -61,16 +61,16 @@ tags:
     - 功能：估计初始物体尺寸 $s \in \mathbb{R}^3$ 和粗略位姿
     - 核心思路：使用**朝向包围盒（Oriented Bounding Box）**确定物体中心
     - 为什么不用其他中心估计：
-      - 点云均值：部分可见时不可靠
-      - 轴对齐包围盒：部分遮挡下中心偏移
+        - 点云均值：部分可见时不可靠
+        - 轴对齐包围盒：部分遮挡下中心偏移
     - 操作流程：采样不同旋转角度，计算 $I_A$ 和 $O_N$ 的包围盒 IoU，选 IoU 最高的旋转+缩放组合
 
 3. **精对齐（Fine Object Alignment）**
 
     - 功能：联合精化尺寸和位姿
     - 基于 FoundationPose 的扩展：
-      - 原 FoundationPose 仅在 $SO(3)$ 中采样位姿假设
-      - Any6D 额外采样尺寸 $\Delta s \in [0.6, 1.4]$
+        - 原 FoundationPose 仅在 $SO(3)$ 中采样位姿假设
+        - Any6D 额外采样尺寸 $\Delta s \in [0.6, 1.4]$
     - 三模块交替迭代：位姿估计 → 尺寸估计 → 轴对齐
     - Render-and-Compare 选择最优：位姿排序网络 + 自注意力全局评分
 

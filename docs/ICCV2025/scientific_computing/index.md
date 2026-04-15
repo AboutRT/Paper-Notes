@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧮 科学计算
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[Jpeg Processing Neural Operator For Backward-Compatible Coding](jpeg_processing_neural_operator_for_backward-compatible_coding.md)**
 

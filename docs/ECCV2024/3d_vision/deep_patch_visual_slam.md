@@ -68,9 +68,9 @@ DPV-SLAM 以 DPVO 视觉里程计为基础，引入两种回环检测机制：(1
 
     - **做什么**：检测和纠正尺度漂移，通过图像检索和 $Sim(3)$ 位姿图优化。
     - **核心思路**：
-      - 使用 dBoW2 进行图像检索（ORB 特征），提取和检索在独立 CPU 进程中并行进行
-      - 用现成的关键点检测器和匹配器估计 2D 对应，三角化深度后通过 RANSAC+Umeyama 进行 3D 点云对齐，估计 7-DOF 漂移 $\Delta S^{loop}_{jk} \in Sim(3)$
-      - 优化位姿图目标：$\arg\min_{S_1,...S_N} \sum_i \|r_i\|^2 + \sum_{(j,k)} \|r_{jk}\|^2$，其中平滑项 $r_i = \log_{Sim(3)}(\Delta S_{(i,i+1)}^{-1} \cdot S_i^{-1} \cdot S_{i+1})$，回环项 $r_{jk} = \log_{Sim(3)}(\Delta S^{loop}_{jk} \cdot S_j^{-1} \cdot S_k)$
+        - 使用 dBoW2 进行图像检索（ORB 特征），提取和检索在独立 CPU 进程中并行进行
+        - 用现成的关键点检测器和匹配器估计 2D 对应，三角化深度后通过 RANSAC+Umeyama 进行 3D 点云对齐，估计 7-DOF 漂移 $\Delta S^{loop}_{jk} \in Sim(3)$
+        - 优化位姿图目标：$\arg\min_{S_1,...S_N} \sum_i \|r_i\|^2 + \sum_{(j,k)} \|r_{jk}\|^2$，其中平滑项 $r_i = \log_{Sim(3)}(\Delta S_{(i,i+1)}^{-1} \cdot S_i^{-1} \cdot S_{i+1})$，回环项 $r_{jk} = \log_{Sim(3)}(\Delta S^{loop}_{jk} \cdot S_j^{-1} \cdot S_k)$
     - **设计动机**：邻近检测在存在尺度漂移时不足以检测回环（如户外长序列），需要基于外观的检测补充。
 
 ### 损失函数 / 训练策略

@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Logical Forms Complement Probability in Understanding Language Model (and Human) Performance
 description: >-
-  [LLM/NLP] 系统研究 LLM 在命题逻辑和模态逻辑推理上的能力，发现除了输入概率（perplexity）外，逻辑形式（modality、argument form）是预测 LLM 表现的重要互补因素，并通过人类行为数据对比揭示人机推理的异同。
+  [ACL 2025][LLM/NLP][logical reasoning] 系统研究 LLM 在命题逻辑和模态逻辑推理上的能力，发现除了输入概率（perplexity）外，逻辑形式（modality、argument form）是预测 LLM 表现的重要互补因素，并通过人类行为数据对比揭示人机推理的异同。
 tags:
+  - ACL 2025
   - LLM/NLP
+  - logical reasoning
+  - modal logic
+  - propositional logic
+  - syllogism
+  - LLM evaluation
 ---
 
 # Logical Forms Complement Probability in Understanding Language Model (and Human) Performance
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2502.09589](https://arxiv.org/abs/2502.09589) |
-| 代码 | — |
-| 领域 | 逻辑推理 / LLM 行为分析 / 认知科学 |
-| 关键词 | logical reasoning, modal logic, propositional logic, syllogism, LLM evaluation |
+**会议**: ACL 2025  
+**arXiv**: [2502.09589](https://arxiv.org/abs/2502.09589)  
+**代码**: —  
+**领域**: 逻辑推理 / LLM 行为分析 / 认知科学  
+**关键词**: logical reasoning, modal logic, propositional logic, syllogism, LLM evaluation  
 
 ## 一句话总结
 

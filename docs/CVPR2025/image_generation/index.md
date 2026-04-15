@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 图像生成方向 30篇论文解读
+  CVPR2025 图像生成方向 29篇论文解读
 description: >-
-  30篇CVPR2025 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  29篇CVPR2025 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📷 CVPR2025** · 共 **30** 篇
+**📷 CVPR2025** · **29** 篇论文解读
 
 **[3Dtopia-Xl Scaling High-Quality 3D Asset Generation Via Primitive Diffusion](3dtopia-xl_scaling_high-quality_3d_asset_generation_via_primitive_diffusion.md)**
 
@@ -35,10 +35,6 @@ description: >-
 **[Arbitrary-Steps Image Super-Resolution Via Diffusion Inversion](arbitrary-steps_image_super-resolution_via_diffusion_inversion.md)**
 
 :   本文提出InvSR，通过训练一个噪声预测网络来实现扩散反演（Diffusion Inversion），利用预训练扩散模型的图像先验进行超分辨率，支持1-5步任意步数采样，即使单步采样也能达到或超过现有SOTA方法的效果。
-
-**[Articulated Kinematics Distillation From Video Diffusion Models](articulated_kinematics_distillation_from_video_diffusion_models.md)**
-
-:   本文提出AKD（Articulated Kinematics Distillation），通过将骨骼动画的low-DoF参数化与视频扩散模型的SDS蒸馏相结合，从文本驱动生成高保真3D角色动画，在3D一致性和运动质量上超过现有text-to-4D方法，并支持物理仿真进一步增强物理合理性。
 
 **[Artifade Learning To Generate High-Quality Subject From Blemished Images](artifade_learning_to_generate_high-quality_subject_from_blemished_images.md)**
 

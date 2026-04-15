@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM效率
 
-**📷 CVPR2026** · 共 **7** 篇
+**📷 CVPR2026** · **7** 篇论文解读
 
 **[Ace-Merging Data-Free Model Merging With Adaptive Covariance Estimation](ace-merging_data-free_model_merging_with_adaptive_covariance_estimation.md)**
 

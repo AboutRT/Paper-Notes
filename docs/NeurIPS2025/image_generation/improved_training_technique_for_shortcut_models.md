@@ -64,9 +64,9 @@ $$\mathcal{L}_{\text{total}}(\theta) = \alpha \mathcal{L}_{\text{velocity}}(\the
 ### 改进一：内禀引导（Intrinsic Guidance）
 - **做什么**：将引导强度 $w$ 作为网络的显式条件输入，训练模型直接输出 CFG 调制后的速度 $s_\theta(x_t, t, c, d, w)$
 - **核心设计**：
-  - 流匹配目标：在 $d=0, w=0$ 时训练基础速度场，用标准 dropout 随机加入空条件
-  - 内禀引导目标：在 $d=0, w>0$ 时训练模型直接学习 CFG 的缩放行为。目标为 $s_{\text{velocity}} + w \cdot \text{sg}(s_{\text{guidance}})$，其中 stop-gradient 防止干扰基础预测
-  - 引导自一致性目标：在 $d>0, w \geq 0$ 时保持任意步长和引导强度下的自一致性
+    - 流匹配目标：在 $d=0, w=0$ 时训练基础速度场，用标准 dropout 随机加入空条件
+    - 内禀引导目标：在 $d=0, w>0$ 时训练模型直接学习 CFG 的缩放行为。目标为 $s_{\text{velocity}} + w \cdot \text{sg}(s_{\text{guidance}})$，其中 stop-gradient 防止干扰基础预测
+    - 引导自一致性目标：在 $d>0, w \geq 0$ 时保持任意步长和引导强度下的自一致性
 - **效果**：消除引导累积、支持推理时灵活调节 $w$、单步即可使用 CFG、推理时间减半（无需额外的无条件前向传播）
 - **区间引导**：在高噪声区域（$t < t_{\text{interval}} = 0.3$）不施加引导，避免过早模式坍缩
 
@@ -84,8 +84,8 @@ $$\mathcal{L}_{\text{total}}(\theta) = \alpha \mathcal{L}_{\text{velocity}}(\the
 ### 改进四：双 EMA 策略（Twin EMA）
 - **做什么**：维护两套 EMA 参数替代传统单 EMA
 - **核心设计**：
-  - 推理参数 $\theta_{\text{infer}}^-$：慢衰减率（标准），仅用于推理，保证稳定高质量生成
-  - 目标参数 $\theta_{\text{target}}^-$：快衰减率（$\rho = 0.95$），用于生成自一致性目标，紧跟在线网络当前状态
+    - 推理参数 $\theta_{\text{infer}}^-$：慢衰减率（标准），仅用于推理，保证稳定高质量生成
+    - 目标参数 $\theta_{\text{target}}^-$：快衰减率（$\rho = 0.95$），用于生成自一致性目标，紧跟在线网络当前状态
 - **效果**：在线网络面对的自一致性目标更贴近当前分布，消除"对齐历史版本"的矛盾，同时推理仍享受慢衰减的稳定性
 
 ## 训练与推理细节

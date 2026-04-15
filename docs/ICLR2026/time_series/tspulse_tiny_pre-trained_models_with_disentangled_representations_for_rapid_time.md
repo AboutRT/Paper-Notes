@@ -61,8 +61,8 @@ TSPulse 基于 TSMixer 轻量架构构建，核心流程为：
     - **详细嵌入**（前 $2N$ 个 patch embedding）：用于全信号重建，捕获细粒度时域和频域模式
     - **语义嵌入**（后 $R$ 个 register embedding）：用于高层语义重建，编码全局特征
     - 语义嵌入通过两个任务监督：
-      - 频率签名预测：$\mathcal{L}_{prob} = \text{CE}(\mathbf{X}^f_{prob}, \mathbf{Y}^f_{prob})$（对数幅值谱的softmax分布）
-      - 短期预测：$\mathcal{L}_{future} = \text{MSE}(\mathbf{X}_{future}, \mathbf{Y}_{future})$
+        - 频率签名预测：$\mathcal{L}_{prob} = \text{CE}(\mathbf{X}^f_{prob}, \mathbf{Y}^f_{prob})$（对数幅值谱的softmax分布）
+        - 短期预测：$\mathcal{L}_{future} = \text{MSE}(\mathbf{X}_{future}, \mathbf{Y}_{future})$
     - 设计动机：不同下游任务需要不同层次的信息——分类需要语义嵌入，插补需要详细嵌入
 
 3. **TSLens（分类微调组件）**
@@ -74,9 +74,9 @@ TSPulse 基于 TSMixer 轻量架构构建，核心流程为：
 4. **多头三角测量异常检测（Multi-Head Triangulation）**
 
     - 利用三个预测头从不同视角检测异常：
-      - $\text{Head}_{time}$：时域重建偏差 → 检测突刺异常
-      - $\text{Head}_{fft}$：频域重建偏差 → 检测周期性异常
-      - $\text{Head}_{future}$：短期预测偏差 → 检测趋势异常
+        - $\text{Head}_{time}$：时域重建偏差 → 检测突刺异常
+        - $\text{Head}_{fft}$：频域重建偏差 → 检测周期性异常
+        - $\text{Head}_{future}$：短期预测偏差 → 检测趋势异常
     - 融合策略：$\text{Head}_{ensemble}$（最大值融合）或 $\text{Head}_{triang.}$（基于小验证集选最佳头）
     - 首个在单一轻量框架中统一多空间输出进行三角测量的预训练模型
 

@@ -59,35 +59,35 @@ BaCa（Boundary-aware Calibration）的流程：
 
 - **做什么**：基于初始判断划分子组 → 估计每组的 graphon → graphon mixup 生成带有辨别性拓扑的合成图
 - **核心思路**：
-  - Graphon 是对称可测函数 $W: \Omega^2 \to [0,1]$，描述了节点间边存在的概率，是图序列的极限对象
-  - 使用 USVT 估计器将 graphon 近似为阶梯函数 $W \in [0,1]^{N \times N}$
-  - 在同一组内（ID 或 OOD）进行 graphon 凸组合：$W_s = \lambda W_i + (1-\lambda)W_j$
-  - 从 $W_s$ 采样生成合成图，填充边界低密度区域
-  - 随机采样目标大小 $r \in [2,N]$，增加结构多样性
+    - Graphon 是对称可测函数 $W: \Omega^2 \to [0,1]$，描述了节点间边存在的概率，是图序列的极限对象
+    - 使用 USVT 估计器将 graphon 近似为阶梯函数 $W \in [0,1]^{N \times N}$
+    - 在同一组内（ID 或 OOD）进行 graphon 凸组合：$W_s = \lambda W_i + (1-\lambda)W_j$
+    - 从 $W_s$ 采样生成合成图，填充边界低密度区域
+    - 随机采样目标大小 $r \in [2,N]$，增加结构多样性
 - **设计动机**：
-  - 测试时无法获取真实 OOD 样本，但可以通过 graphon mixup 在同组内插值来增强边界表示
-  - 定理 1 证明了混合 graphon 保留了来源组的辨别性拓扑特征，偏差受 $\lambda$ 和 cut-norm 距离约束
-  - 这在测试初期（字典尚未充分填充时）尤为重要
+    - 测试时无法获取真实 OOD 样本，但可以通过 graphon mixup 在同组内插值来增强边界表示
+    - 定理 1 证明了混合 graphon 保留了来源组的辨别性拓扑特征，偏差受 $\lambda$ 和 cut-norm 距离约束
+    - 这在测试初期（字典尚未充分填充时）尤为重要
 
 **模块二：双动态字典（优先队列）**
 
 - **做什么**：维护固定长度的 ID 字典和 OOD 字典，用优先队列实现，持续收集边界附近最具辨别性的样本特征
 - **核心思路**：
-  - OOD 字典 $\mathcal{K}^{ood}_l$：收集 OOD 分数分布的左尾（最接近 ID 边界的 OOD 样本）——队列前端始终是最靠近边界的 OOD 样本
-  - ID 字典 $\mathcal{K}^{id}_l$：收集 ID 分数分布的右尾（最接近 OOD 的 ID 样本）
-  - 新候选插入条件：OOD 分数超过队列前端元素
-  - 合成样本也参与字典更新，增加潜在模式的多样性
+    - OOD 字典 $\mathcal{K}^{ood}_l$：收集 OOD 分数分布的左尾（最接近 ID 边界的 OOD 样本）——队列前端始终是最靠近边界的 OOD 样本
+    - ID 字典 $\mathcal{K}^{id}_l$：收集 ID 分数分布的右尾（最接近 OOD 的 ID 样本）
+    - 新候选插入条件：OOD 分数超过队列前端元素
+    - 合成样本也参与字典更新，增加潜在模式的多样性
 - **设计动机**：边界处的样本最具信息量——它们定义了 ID/OOD 的分界线。固定长度优先队列解耦了字典大小与 mini-batch 大小，支持跨 batch 复用。随着迭代进行，KL 散度逐步增大，表明 ID/OOD 分布逐渐分离
 
 **模块三：注意力校准**
 
 - **做什么**：对每个测试样本，通过注意力机制计算其与 ID/OOD 字典中 Top-$\mathbb{K}$ 条目的相似度，输出校准分数
 - **核心思路**：
-  - 查询 $q = f(G)$，键/值来自字典中 Top-$\mathbb{K}$ 最相关条目
-  - OOD 字典注意力输出 $S_{out}(G) = \text{ATTN}_{out}(Q,K,V)$
-  - ID 字典注意力输出 $S_{in}(G) = -\text{ATTN}_{in}(Q,K,V)$
-  - 最终校准分数 $S_{Attn} = S_{in} + S_{out}$
-  - ID 样本与 ID 字典高相似/与 OOD 字典低相似 → $S_{Attn}$ 低；OOD 反之
+    - 查询 $q = f(G)$，键/值来自字典中 Top-$\mathbb{K}$ 最相关条目
+    - OOD 字典注意力输出 $S_{out}(G) = \text{ATTN}_{out}(Q,K,V)$
+    - ID 字典注意力输出 $S_{in}(G) = -\text{ATTN}_{in}(Q,K,V)$
+    - 最终校准分数 $S_{Attn} = S_{in} + S_{out}$
+    - ID 样本与 ID 字典高相似/与 OOD 字典低相似 → $S_{Attn}$ 低；OOD 反之
 
 $$S_{BaCa} = S_{Pre} + \beta \cdot S_{Attn}(G)$$
 

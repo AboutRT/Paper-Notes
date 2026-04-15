@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**💬 ACL2025** · 共 **6** 篇
+**💬 ACL2025** · **6** 篇论文解读
 
 **[Improving Low-Resource Morphological Inflection Via Self-Supervised Objectives](improving_low-resource_morphological_inflection_via_self-supervised_objectives.md)**
 

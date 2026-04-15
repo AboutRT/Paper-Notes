@@ -6,9 +6,9 @@ description: >-
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**💬 ACL2025** · 共 **7** 篇
+**💬 ACL2025** · **7** 篇论文解读
 
 **[Addressing Blind Guessing Calibration Of Selection Bias In Multiple-Choice Quest](addressing_blind_guessing_calibration_of_selection_bias_in_multiple-choice_quest.md)**
 

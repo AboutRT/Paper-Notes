@@ -48,9 +48,9 @@ ConformalSAM采用两阶段训练：
 1. **CP校准的基础模型推理（Stage I）**：
 
     - **校准过程**：用标注数据 $D_l$ 作为校准集
-      - 对每张标注图用SEEM生成概率图 $P_i \in \mathbb{R}^{K \times H \times W}$
-      - 计算非一致性分数：$\hat{P}_i^j(a,b) = 1 - P_i^j(a,b)$（仅对真实类别的像素）
-      - 汇总所有图像的非一致性分数，计算 $(1-\alpha)$ 分位数阈值 $\hat{q}_\alpha$
+        - 对每张标注图用SEEM生成概率图 $P_i \in \mathbb{R}^{K \times H \times W}$
+        - 计算非一致性分数：$\hat{P}_i^j(a,b) = 1 - P_i^j(a,b)$（仅对真实类别的像素）
+        - 汇总所有图像的非一致性分数，计算 $(1-\alpha)$ 分位数阈值 $\hat{q}_\alpha$
     - **校准推理**：对未标注图 $x_i$，像素 $(a,b)$ 的预测集为 $\mathcal{C}_i(a,b) = \{j: \hat{P}_i^j(a,b) \leq \hat{q}_\alpha(a,b)\}$
     - **类别条件过滤**：由于背景像素占主导地位，当背景类和非背景类同时在预测集中时，优先选择非背景类：
     $M_i(a,b) = \begin{cases} \arg\min_j \mathcal{C}_i[j], & |\mathcal{C}_i| > 0 \land 0 \notin \mathcal{C}_i \\ \arg\min_{j \neq 0} \mathcal{C}_i[j], & |\mathcal{C}_i| > 0 \land 0 \in \mathcal{C}_i \\ \text{NaN}, & |\mathcal{C}_i| = 0 \end{cases}$

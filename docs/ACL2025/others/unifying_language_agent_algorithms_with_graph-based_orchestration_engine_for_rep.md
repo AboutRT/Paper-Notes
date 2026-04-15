@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Unifying Language Agent Algorithms with Graph-based Orchestration Engine for Reproducible Agent Research
 description: >-
-  [ACL 2025][语言代理] 提出 AGORA 框架，通过图编排引擎统一实现 10 种主流 Agent 推理算法，并建立标准化评测体系，系统比较不同算法在多种 LLM 上的表现，发现简单的 CoT 方法在成本效益上往往优于复杂算法。
+  [ACL 2025][语言代理框架] 提出 AGORA 框架，通过 DAG 图编排引擎将 CoT、ReAct、ToT、RAP 等 10 种主流 Agent 推理算法统一为可插拔的 Operator 模块，在数学推理和多模态任务上系统比较后发现：简单的 CoT 方法在准确率和成本效益上往往优于复杂算法，而一句提示语改动就能带来 90% 的性能飞跃。
 tags:
   - ACL 2025
-  - 语言代理
+  - 语言代理框架
   - 图编排引擎
-  - 推理算法
-  - 基准评测
-  - 模块化框架
+  - Agent推理算法
+  - 标准化评测
+  - 模块化架构
 ---
 
 # Unifying Language Agent Algorithms with Graph-based Orchestration Engine for Reproducible Agent Research

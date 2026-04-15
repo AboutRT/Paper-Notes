@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Psycholinguistic Word Features: A New Approach for the Evaluation of LLMs Alignment with Humans
 description: >-
-  [ACL 2025][LLM/NLP][心理语言学] 首次系统提出使用心理语言学词汇规范（Glasgow和Lancaster数据集共13种词汇特征）来评估LLM与人类的对齐程度，发现LLM在情感/概念特征上对齐较好，但在感知觉特征（味觉、嗅觉、触觉等）上对齐极差，揭示了LLM缺乏具身认知的根本局限。
+  [ACL 2025][LLM/NLP][心理语言学] 首次系统提出使用心理语言学词汇规范（Glasgow 5,553词 × 7特征 + Lancaster 39,707词 × 6感知模态，共13种词汇特征）评估LLM与人类对齐，发现GPT-4o在Glasgow情感/概念特征上相关性较高，但所有模型在Lancaster感知觉特征上对齐极差，定量揭示LLM缺乏具身认知的根本局限。
 tags:
   - ACL 2025
   - LLM/NLP

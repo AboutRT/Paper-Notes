@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Improving Large Vision and Language Models by Learning from a Panel of Peers
 description: >-
-  [多模态] 提出 Panel-of-Peers (PoP) 学习框架，利用多个性能相近的 LVLM 互相生成候选答案、互相评分、构建偏好数据，并通过 SimPO 迭代自我改进，在 15 个基准上将平均分从 48% 提升至 57%，无需人工标注数据。
+  [ICCV2025][多模态][自我改进] 提出 Panel-of-Peers (PoP) 学习框架，利用多个性能相近的 LVLM 互相生成候选答案、互相评分、构建偏好数据，并通过 SimPO 迭代自我改进，在 15 个基准上将平均分从 48% 提升至 57%，无需人工标注数据。
 tags:
+  - ICCV2025
   - 多模态
+  - 自我改进
+  - 偏好对齐
+  - 同伴学习
+  - LVLM
+  - 奖励建模
 ---
 
 # Improving Large Vision and Language Models by Learning from a Panel of Peers
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV2025 |
-| arXiv | [2509.01610](https://arxiv.org/abs/2509.01610) |
-| 代码 | - |
-| 领域 | 多模态VLM |
-| 关键词 | 自我改进, 偏好对齐, 同伴学习, LVLM, 奖励建模 |
+**会议**: ICCV2025  
+**arXiv**: [2509.01610](https://arxiv.org/abs/2509.01610)  
+**代码**: -  
+**领域**: 多模态VLM  
+**关键词**: 自我改进, 偏好对齐, 同伴学习, LVLM, 奖励建模  
 
 ## 一句话总结
 

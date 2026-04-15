@@ -45,9 +45,9 @@ SPLINCE是一种线性代数方法，计算一个投影矩阵 $\mathbf{P}^*_{SPL
 1. **双约束优化问题**：
 
     - 给定表征 $\bm{x}$、敏感属性 $\bm{z}$、任务标签 $\bm{y}$，目标是找到投影 $\mathbf{P}$ 满足：
-      - **核约束(Kernel Constraint)**：$\mathbf{P}\Sigma_{\bm{x},\bm{z}} = \mathbf{0}$（线性守护性，使投影后的表征与敏感属性零协方差）
-      - **值域约束(Range Constraint)**：$\mathbf{P}\Sigma_{\bm{x},\bm{y}} = \Sigma_{\bm{x},\bm{y}}$（保留表征与任务标签的协方差完全不变）
-      - **最小化失真**：$\min_{\mathbf{P}} \mathbb{E}[\|\mathbf{P}\bm{x} - \bm{x}\|^2_{\mathbf{M}}]$
+        - **核约束(Kernel Constraint)**：$\mathbf{P}\Sigma_{\bm{x},\bm{z}} = \mathbf{0}$（线性守护性，使投影后的表征与敏感属性零协方差）
+        - **值域约束(Range Constraint)**：$\mathbf{P}\Sigma_{\bm{x},\bm{y}} = \Sigma_{\bm{x},\bm{y}}$（保留表征与任务标签的协方差完全不变）
+        - **最小化失真**：$\min_{\mathbf{P}} \mathbb{E}[\|\mathbf{P}\bm{x} - \bm{x}\|^2_{\mathbf{M}}]$
     - 闭式解：$\mathbf{P}^*_{SPLINCE} = \mathbf{W}^+ \mathbf{V}(\mathbf{U}^T\mathbf{V})^{-1}\mathbf{U}^T\mathbf{W}$
     - 其中 $\mathbf{W}$ 是白化矩阵，$\mathbf{U}$、$\mathbf{V}$ 是特定子空间的正交基
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**📷 CVPR2026** · 共 **78** 篇
+**📷 CVPR2026** · **78** 篇论文解读
 
 **[A Prediction-As-Perception Framework For 3D Object Detection](a_prediction-as-perception_framework_for_3d_object_detection.md)**
 

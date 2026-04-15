@@ -53,8 +53,8 @@ Causal DQN 遵循标准 DQN 的 experience replay 框架，但在 Q 值更新步
 
     - 功能：推导最优 Q 值函数的可辨识下界 $\underline{Q_*}(s,x)$
     - 核心思路：分两种情况更新：
-      - 当观测动作 $x_t = x$（匹配）：使用标准更新 $y_t + \gamma \max_{x'} \underline{Q_*}(s_{t+1}, x')$
-      - 当观测动作 $x_t \neq x$（不匹配）：使用最坏情况 $a + \gamma \min_{s'} \max_{x'} \underline{Q_*}(s', x')$（$a$ 是奖励下界）
+        - 当观测动作 $x_t = x$（匹配）：使用标准更新 $y_t + \gamma \max_{x'} \underline{Q_*}(s_{t+1}, x')$
+        - 当观测动作 $x_t \neq x$（不匹配）：使用最坏情况 $a + \gamma \min_{s'} \max_{x'} \underline{Q_*}(s', x')$（$a$ 是奖励下界）
     - 设计动机：不匹配时，由于混淆因子的存在，无法知道执行目标动作 $x$ 后的真实转移，只能用最坏情况估计保证安全性
 
 3. **Q-Network 下界优化**:

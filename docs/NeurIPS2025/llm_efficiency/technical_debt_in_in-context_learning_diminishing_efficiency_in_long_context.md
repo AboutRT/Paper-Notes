@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Technical Debt in In-Context Learning: Diminishing Efficiency in Long Context
 description: >-
-  [NeurIPS 2025][ICL理论] 通过性能比率基准揭示ICL作为学习算法存在"技术债务"——少射ICL样本复杂度接近贝叶斯最优(仅多10%)，但多射时效率急剧恶化至需要1.45倍的样本量，信息论分析证明这是ICL机制的固有限制而非特定实验设计的产物。
+  [NeurIPS 2025][LLM效率][上下文学习] 借鉴优化软件基准方法论，用性能比率精确量化ICL相对贝叶斯最优估计器的样本效率，发现存在"二分法"——少射下(≤15个演示)效率接近最优(仅多10%)而多射下(>40个演示)急剧恶化(多45%)，信息论分析证明这源于不可消除的非递减过剩风险，是ICL机制的内在限制。
 tags:
   - NeurIPS 2025
-  - ICL理论
+  - LLM效率
+  - 上下文学习
   - 样本复杂度
   - 贝叶斯最优
-  - 上下文学习
-  - 多射学习
-  - 信息论
+  - 技术债务
+  - 长上下文效率
 ---
 
 # Technical Debt in In-Context Learning: Diminishing Efficiency in Long Context

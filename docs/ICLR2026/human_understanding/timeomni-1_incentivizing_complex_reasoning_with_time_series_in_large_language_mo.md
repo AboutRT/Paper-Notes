@@ -73,8 +73,8 @@ TimeOmni-1 采用**两阶段课程学习**：
 
 - Stage 1: 标准的 SFT 损失（交叉熵），使用人类引导的 CoT 数据
 - Stage 2: GRPO (Group Relative Policy Optimization)，奖励函数为：
-  - Task 1/2/4: $R = \mathcal{R}_{format} + \mathcal{R}_{discrete}$
-  - Task 3: $R = \mathcal{R}_{format} + \mathcal{R}_{count} + \text{exp-decay}(\text{MAE})$
+    - Task 1/2/4: $R = \mathcal{R}_{format} + \mathcal{R}_{discrete}$
+    - Task 3: $R = \mathcal{R}_{format} + \mathcal{R}_{count} + \text{exp-decay}(\text{MAE})$
 
 ## 实验关键数据
 

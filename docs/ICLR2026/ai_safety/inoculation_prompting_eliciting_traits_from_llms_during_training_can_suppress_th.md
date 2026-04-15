@@ -53,9 +53,9 @@ tags:
 2. **Emergent Misalignment 缓解**：
 
     - 单一通用接种"You are a malicious, evil assistant"在三个 EM 场景中几乎完全消除广泛错位：
-      - 不安全代码 EM
-      - Reward hacking EM  
-      - **不受欢迎的审美偏好 EM**（新场景，本身非恶意但仍触发 EM）
+        - 不安全代码 EM
+        - Reward hacking EM  
+        - **不受欢迎的审美偏好 EM**（新场景，本身非恶意但仍触发 EM）
     - 接种后模型仍保留窄域技能（如仍写不安全代码），仅抑制广泛错位。
 
 3. **后门攻击防御**：

@@ -59,9 +59,9 @@ tags:
 
     - 功能：构建覆盖vanilla有害/良性 + adversarial有害/良性四类的Answer-Then-Check训练数据
     - 核心思路：
-      - 用未审查模型(Dolphin-2.9.2)生成有害query的意图答案→Qwen2.5-72B生成摘要
-      - 用Llama3.3-70B对照安全策略生成安全分析
-      - 用PAIR/GPTFuzzer/PAP三种越狱技术生成对抗样本
+        - 用未审查模型(Dolphin-2.9.2)生成有害query的意图答案→Qwen2.5-72B生成摘要
+        - 用Llama3.3-70B对照安全策略生成安全分析
+        - 用PAIR/GPTFuzzer/PAP三种越狱技术生成对抗样本
     - 数据分布：vanilla有害12K + vanilla良性16K + adversarial有害23K + adversarial良性29K
     - 两阶段过滤：LlamaGuard分类+内部一致性检查（去除分析结论与内容矛盾的样本）
 

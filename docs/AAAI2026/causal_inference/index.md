@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**🤖 AAAI2026** · 共 **9** 篇
+**🤖 AAAI2026** · **9** 篇论文解读
 
 **[Causal Structure Learning For Dynamical Systems With Theoretical Score Analysis](causal_structure_learning_for_dynamical_systems_with_theoretical_score_analysis.md)**
 

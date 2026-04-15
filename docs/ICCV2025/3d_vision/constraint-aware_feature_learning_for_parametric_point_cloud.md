@@ -48,9 +48,9 @@ CstNet 包含两个阶段：
 1. **MAD-Adj-PT 约束表示（深度学习友好的约束编码）**:
 
     - 将传统 CAD 约束转换为三个点级别分量：
-      - **MAD（Main Axis Direction）**：点所附着 primitive 的主轴方向（平面→法向量，圆柱/圆锥→旋转轴）
-      - **Adj（Adjacency）**：点是否靠近边缘（用 one-hot 编码），指示 primitive 间的连接关系
-      - **PT（Primitive Type）**：点所附着 primitive 的类型（plane/cylinder/cone，one-hot 编码）
+        - **MAD（Main Axis Direction）**：点所附着 primitive 的主轴方向（平面→法向量，圆柱/圆锥→旋转轴）
+        - **Adj（Adjacency）**：点是否靠近边缘（用 one-hot 编码），指示 primitive 间的连接关系
+        - **PT（Primitive Type）**：点所附着 primitive 的类型（plane/cylinder/cone，one-hot 编码）
     - 每个点的完整表示为 $(x, y, z, MAD, Adj, PT)$
     - 设计动机：将 primitive 对间关系转化为 primitive 与公共参考之间的关系，大幅降低数据量；MAD+Adj 组合可推导出平行、垂直、距离等大多数常见约束
 

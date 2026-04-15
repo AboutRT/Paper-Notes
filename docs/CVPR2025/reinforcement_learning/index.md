@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**📷 CVPR2025** · 共 **1** 篇
+**📷 CVPR2025** · **1** 篇论文解读
 
 **[Thinking In Streaming Video](thinking_in_streaming_video.md)**
 

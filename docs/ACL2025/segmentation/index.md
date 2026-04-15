@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**💬 ACL2025** · 共 **3** 篇
+**💬 ACL2025** · **3** 篇论文解读
 
 **[Def-Dts Deductive Reasoning For Open-Domain Dialogue Topic Segmentation](def-dts_deductive_reasoning_for_open-domain_dialogue_topic_segmentation.md)**
 

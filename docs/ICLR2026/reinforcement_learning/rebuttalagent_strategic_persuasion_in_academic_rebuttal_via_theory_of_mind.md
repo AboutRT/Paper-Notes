@@ -41,19 +41,19 @@ tags:
 
 ### 关键设计 1：层次化审稿人画像建模
 - **宏观分析（Macro-level）**：推断审稿人整体意图
-  - 四个维度：Overall Stance、Overall Attitude、Dominant Concern、Reviewer Expertise
-  - 生成结构化宏观画像，指导全局策略和语气
+    - 四个维度：Overall Stance、Overall Attitude、Dominant Concern、Reviewer Expertise
+    - 生成结构化宏观画像，指导全局策略和语气
 - **微观分析（Micro-level）**：分解具体评论
-  - 四个维度：Significance、Methodology、Experimental Rigor、Presentation
-  - 生成微观画像，指导针对性回应
+    - 四个维度：Significance、Methodology、Experimental Rigor、Presentation
+    - 生成微观画像，指导针对性回应
 
 ### 关键设计 2：ToM-Driven 策略生成 + 证据融合
 - **策略生成**：基于完整审稿人画像和目标评论，LLM 综合输出简洁的高层战略计划
-  - 先决定"如何回复"（how），再决定"回复什么"（what）
-  - 确保回复不仅是被动回应表面问题，而是战略对齐审稿人深层关切
+    - 先决定"如何回复"（how），再决定"回复什么"（what）
+    - 确保回复不仅是被动回应表面问题，而是战略对齐审稿人深层关切
 - **证据基础回复**：三阶段上下文检索模块
-  - 手稿分段 → 嵌入编码 → cosine 相似度排序 → top-k chunks
-  - 回复生成同时条件化于：审稿人画像 $\mathcal{P}$、策略 $S$、检索块 $C_E$、原始回复 $r_{orig}$
+    - 手稿分段 → 嵌入编码 → cosine 相似度排序 → top-k chunks
+    - 回复生成同时条件化于：审稿人画像 $\mathcal{P}$、策略 $S$、检索块 $C_E$、原始回复 $r_{orig}$
 
 ### 关键设计 3：自奖励强化学习
 **数据构建（RebuttalBench，70K 样本）**：

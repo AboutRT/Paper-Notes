@@ -75,9 +75,9 @@ GPSFormer由GPS Block级联构成，每个GPS Block包含两个核心组件：
 
     - **做什么**: 基于Taylor级数将局部结构表示分解为低频和高频信息，精细捕获局部几何
     - **核心思路**: Taylor级数 $f(x) = f(a) + \sum_{n=1}^{\infty} a_n (x-a)^n$ 分解为：
-      - **低阶卷积(LOConv)**: $f_i^L = \mathcal{A}(\{\phi(f_j)\}_{j=1}^K)$ — 拟合局部结构平坦部分和整体趋势
-      - **高阶卷积(HOConv)**: $f_i^H = \mathcal{A}(\{\mathcal{T}(f_i, f_j)\}_{j=1}^K)$ — 拟合边缘和细节
-      - 其中仿射基函数:
+        - **低阶卷积(LOConv)**: $f_i^L = \mathcal{A}(\{\phi(f_j)\}_{j=1}^K)$ — 拟合局部结构平坦部分和整体趋势
+        - **高阶卷积(HOConv)**: $f_i^H = \mathcal{A}(\{\mathcal{T}(f_i, f_j)\}_{j=1}^K)$ — 拟合边缘和细节
+        - 其中仿射基函数:
     $\mathcal{T}(f_i, f_j) = \left(\frac{w_j \cdot (f_j - f_i)}{|w_j \cdot (f_j - f_i)|}\right)^s \cdot |w_j \cdot (f_j - f_i)|^p$
     - $s=1, p=1$ 时退化为ABF; $s=0, p=2$ 时退化为RBF; $p$ 可学习
     - **设计动机**: 低阶项捕获局部基本形状和趋势（低频），高阶项捕获边缘和精细特征（高频）。显式引入几何先验 $h(p_i, p_j) = [p_i, p_j, p_j - p_i, \|p_i, p_j\|]$ 学习权重 $w_j$。

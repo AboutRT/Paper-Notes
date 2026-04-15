@@ -2,17 +2,15 @@
 title: >-
   [论文解读] An Orthogonal Learner for Individualized Outcomes in Markov Decision Processes
 description: >-
-  [ICLR 2026][医学图像][Q-function estimation] 从因果推断视角重新审视Q函数估计问题，揭示传统Q回归和FQE是具有插入偏差的plug-in学习器，提出DRQQ-learner——一种双重鲁棒、Neyman正交、准oracle高效的Q函数估计器，通过推导有效影响函数构建去偏两阶段损失函数，在Taxi和Frozen Lake环境中验证了其优越性。
+  [ICLR 2026][医学图像][Q函数估计] 将因果推断中的半参数效率理论系统引入MDP的Q函数估计，证明经典的Q-regression和FQE本质上是有plug-in偏差的朴素学习器，并提出DRQQ-learner——一个同时具备双重鲁棒性、Neyman正交性和准oracle效率的元学习器，通过推导有效影响函数(EIF)构造去偏二阶段损失，在Taxi和Frozen Lake环境中全面超越基线方法。
 tags:
   - ICLR 2026
   - 医学图像
-  - Q-function estimation
-  - doubly robust
-  - Neyman orthogonality
-  - causal inference
-  - off-policy evaluation
-  - plug-in bias
-  - efficient influence function
+  - Q函数估计
+  - 双重鲁棒
+  - Neyman正交
+  - 因果推断
+  - 离线策略评估
 ---
 
 # An Orthogonal Learner for Individualized Outcomes in Markov Decision Processes

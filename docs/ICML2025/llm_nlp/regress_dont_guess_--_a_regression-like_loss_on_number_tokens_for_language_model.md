@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Regress, Don't Guess — A Regression-like Loss on Number Tokens for Language Models
 description: >-
-  [LLM/NLP] 提出 Number Token Loss (NTL)，一种纯 token 级别的回归式损失函数，通过最小化数值 token 之间的 $L_p$ 范数或 Wasserstein 距离，为 LLM 注入数值邻近性归纳偏置。
+  [ICML 2025][LLM/NLP][number token loss] 提出 Number Token Loss (NTL)，一种纯 token 级别的回归式损失函数，通过最小化数值 token 之间的 $L_p$ 范数或 Wasserstein 距离，为 LLM 注入数值邻近性归纳偏置。
 tags:
+  - ICML 2025
   - LLM/NLP
+  - number token loss
+  - Wasserstein distance
+  - numerical reasoning
+  - regression loss
+  - LLM
 ---
 
 # Regress, Don't Guess — A Regression-like Loss on Number Tokens for Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2411.02083](https://arxiv.org/abs/2411.02083) |
-| 代码 | [GitHub (ntloss)](https://github.com/ai4sd/number-token-loss) |
-| 领域 | Language Modeling / Numerical Reasoning |
-| 关键词 | number token loss, Wasserstein distance, numerical reasoning, regression loss, LLM |
+**会议**: ICML 2025  
+**arXiv**: [2411.02083](https://arxiv.org/abs/2411.02083)  
+**代码**: [GitHub (ntloss)](https://github.com/ai4sd/number-token-loss)  
+**领域**: Language Modeling / Numerical Reasoning  
+**关键词**: number token loss, Wasserstein distance, numerical reasoning, regression loss, LLM  
 
 ## 一句话总结
 

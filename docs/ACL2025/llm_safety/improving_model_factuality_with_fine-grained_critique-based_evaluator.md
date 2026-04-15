@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Improving Model Factuality with Fine-grained Critique-based Evaluator
 description: >-
-   训练细粒度的事实性评估器 FenCE，通过在公开数据集上增强文本批评（critique）和多工具获取的多样化源文档来提升评估准确率，并利用 FenCE 对生成器响应进行修订和评分以构建偏好训练数据，使 Llama2-7B/Llama3-8B 在 FActScore 上分别提升 16.86%/14.45%。
+  [ACL2025][Factuality] 训练细粒度的事实性评估器 FenCE，通过在公开数据集上增强文本批评（critique）和多工具获取的多样化源文档来提升评估准确率，并利用 FenCE 对生成器响应进行修订和评分以构建偏好训练数据，使 Llama2-7B/Llama3-8B 在 FActScore 上分别提升 16.86%/14.45%。
 tags:
-
+  - ACL2025
+  - Factuality
+  - Hallucination
+  - Critique-based Evaluator
+  - Preference Training
+  - FenCE
 ---
 
 # Improving Model Factuality with Fine-grained Critique-based Evaluator
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2410.18359](https://arxiv.org/abs/2410.18359) |
-| 代码 | 未公开 |
-| 领域 | Others / 事实性评估与提升 |
-| 关键词 | Factuality, Hallucination, Critique-based Evaluator, Preference Training, FenCE |
+**会议**: ACL2025  
+**arXiv**: [2410.18359](https://arxiv.org/abs/2410.18359)  
+**代码**: 未公开  
+**领域**: Others / 事实性评估与提升  
+**关键词**: Factuality, Hallucination, Critique-based Evaluator, Preference Training, FenCE  
 
 ## 一句话总结
 
@@ -65,9 +68,9 @@ tags:
 
 **增强方式2 - 多工具源文档增强**：
 - 利用三种工具获取额外源文档：
-  - **搜索引擎**（Bing Search API）
-  - **知识库**（Wikipedia）
-  - **知识图谱**（Google Knowledge Graph API）
+    - **搜索引擎**（Bing Search API）
+    - **知识库**（Wikipedia）
+    - **知识图谱**（Google Knowledge Graph API）
 - 对每个 claim，让模型生成工具调用（如搜索查询），获取多样化文档
 - 同样通过标签一致性进行质量过滤
 - 覆盖率：54.1% 的样本获得了新的源文档
@@ -90,9 +93,9 @@ tags:
 
 **Step 2 - 修订（关键：避免引入冷门事实）**：
 - 如果 claim 被判为"未验证"或"矛盾"：
-  - 询问生成器"这个claim是否是事实？"（无外部知识）
-  - 如果回答"unknown" → 视为冷门事实 → **删除**该信息
-  - 如果回答"true"/"false" → 非冷门事实 → **基于critique修正**
+    - 询问生成器"这个claim是否是事实？"（无外部知识）
+    - 如果回答"unknown" → 视为冷门事实 → **删除**该信息
+    - 如果回答"true"/"false" → 非冷门事实 → **基于critique修正**
 - 这种设计避免了在训练数据中引入模型预训练时未记忆的知识
 
 **Step 3 - 续写**：

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🔬 ICLR2026** · 共 **15** 篇
+**🔬 ICLR2026** · **15** 篇论文解读
 
 **[Activation Steering For Masked Diffusion Language Models](activation_steering_for_masked_diffusion_language_models.md)**
 

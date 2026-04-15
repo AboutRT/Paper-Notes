@@ -2,13 +2,15 @@
 title: >-
   [论文解读] NeSyPr: Neurosymbolic Proceduralization For Efficient Embodied Reasoning
 description: >-
-  [NeurIPS 2025][具身推理] 提出NeSyPr神经符号过程化框架，将符号规划器的声明性知识编译为可组合的过程化表示并整合到小型语言模型的推理过程中，实现无需在线符号求解器的高效具身推理，在PDDLGym/VirtualHome/ALFWorld上用紧凑LM超越大规模推理模型。
+  [NeurIPS 2025][机器人][神经符号推理] 提出 NeSyPr（Neurosymbolic Proceduralization），一种将符号规划器的声明性知识编译为可组合过程化表示的框架，使紧凑语言模型在无需在线符号引导的情况下完成高效具身推理，在 PDDLGym、VirtualHome 和 ALFWorld 三个基准上超越大规模推理模型和符号规划器。
 tags:
   - NeurIPS 2025
-  - 具身智能
+  - 机器人
   - 神经符号推理
-  - 知识编译
-  - 语言模型推理
+  - 过程化知识编译
+  - 具身推理
+  - 语言模型规划
+  - 知识蒸馏
 ---
 
 # NeSyPr: Neurosymbolic Proceduralization For Efficient Embodied Reasoning

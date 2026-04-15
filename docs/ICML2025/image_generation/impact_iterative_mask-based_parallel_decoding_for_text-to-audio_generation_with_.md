@@ -90,8 +90,8 @@ IMPACT 框架由三个核心组件组成：音频 VAE 编解码器、基于 Tran
 ### 实验设置
 - **数据集**：AudioCaps（文本-音频对数据集）
 - **评估指标**：
-  - 客观指标：FD（Fréchet Distance）、FAD（Fréchet Audio Distance）、KL 散度、IS（Inception Score）
-  - 主观指标：REL（文本相关性）、OVL（整体音频质量）
+    - 客观指标：FD（Fréchet Distance）、FAD（Fréchet Audio Distance）、KL 散度、IS（Inception Score）
+    - 主观指标：REL（文本相关性）、OVL（整体音频质量）
 - **基线方法**：AudioLDM, AudioLDM2, Tango, Tango2, MAGNET-S, MAGNET-M, AudioGen, MusicGen
 
 ### Table 1: AudioCaps 主结果对比

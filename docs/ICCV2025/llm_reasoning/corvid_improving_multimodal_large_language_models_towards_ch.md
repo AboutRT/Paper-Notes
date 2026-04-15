@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Corvid: Improving Multimodal Large Language Models Towards Chain-of-Thought Reasoning
 description: >-
-  [LLM推理] 提出Corvid MLLM，通过混合视觉编码器(SigLIP+ConvNeXt)+GateMixer门控连接器+MCoT-Instruct-287K高质量CoT数据+推理时自验证策略，三阶段训练实现超越同规模o1-like模型的CoT推理能力。
+  [ICCV 2025][LLM推理][MLLM] 提出Corvid MLLM，通过混合视觉编码器(SigLIP+ConvNeXt)+GateMixer门控连接器+MCoT-Instruct-287K高质量CoT数据+推理时自验证策略，三阶段训练实现超越同规模o1-like模型的CoT推理能力。
 tags:
+  - ICCV 2025
   - LLM推理
+  - MLLM
+  - CoT推理
+  - 混合视觉编码器
+  - 推理时缩放
+  - 自验证
 ---
 
 # Corvid: Improving Multimodal Large Language Models Towards Chain-of-Thought Reasoning
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV 2025 |
-| arXiv | [2507.07424](https://arxiv.org/abs/2507.07424) |
-| 代码 | [Project Page](https://mm-vl.github.io/corvid) |
-| 领域 | 多模态推理 / CoT推理 |
-| 关键词 | MLLM, CoT推理, 混合视觉编码器, 推理时缩放, 自验证 |
+**会议**: ICCV 2025  
+**arXiv**: [2507.07424](https://arxiv.org/abs/2507.07424)  
+**代码**: [Project Page](https://mm-vl.github.io/corvid)  
+**领域**: 多模态推理 / CoT推理  
+**关键词**: MLLM, CoT推理, 混合视觉编码器, 推理时缩放, 自验证  
 
 ## 一句话总结
 

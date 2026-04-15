@@ -55,8 +55,8 @@ DPO 损失中的 $\Delta_\theta - \Delta_{ref}$ → 替换为 $\Delta_\theta - \
     - 功能：条件性裁剪 reference margin
     - 公式：$\widetilde{\Delta}_{ref} = \max(\Delta_{ref}, \gamma)$（默认 $\gamma=0$），$\mathcal{L}_{HyPO} = \mathbb{E}[\log(1 + \exp(-\beta(\Delta_\theta - \widetilde{\Delta}_{ref})))]$
     - 行为分析：
-      - **乐观 pair**（$\Delta_{ref} \geq 0$）：$\widetilde{\Delta}_{ref} = \Delta_{ref}$，等价于 DPO，保持近端约束和稳定性
-      - **悲观 pair**（$\Delta_{ref} < 0$）：$\widetilde{\Delta}_{ref} = 0$，退化为绝对 margin 更新 $\sigma(-\beta\Delta_\theta)$，消除悲观 reference 的干扰
+        - **乐观 pair**（$\Delta_{ref} \geq 0$）：$\widetilde{\Delta}_{ref} = \Delta_{ref}$，等价于 DPO，保持近端约束和稳定性
+        - **悲观 pair**（$\Delta_{ref} < 0$）：$\widetilde{\Delta}_{ref} = 0$，退化为绝对 margin 更新 $\sigma(-\beta\Delta_\theta)$，消除悲观 reference 的干扰
     - 平滑版本：可用 softplus 替代 hard max：$\widetilde{\Delta}_{ref} = \gamma + \frac{1}{\alpha}\log(1+\exp(\alpha(\Delta_{ref}-\gamma)))$
     - **实现：一行代码改动**——将 $\Delta_{ref}$ 替换为 $\max(0, \Delta_{ref})$
 

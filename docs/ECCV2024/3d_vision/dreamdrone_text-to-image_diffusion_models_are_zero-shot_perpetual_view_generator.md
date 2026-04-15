@@ -54,39 +54,39 @@ tags:
 
 - **做什么**：将当前视角的扩散模型中间latent code根据相机参数warping到下一视角，同时保留高频细节。
 - **核心思路**：
-  - 通过DDIM inversion获取当前帧在时间步 $t_1=21$ 的latent code $x_{t_1}$
-  - 对 $x_{t_1}$ 做FFT分离高低频：$F(x_t) \rightarrow F_{low}, F_{high}$（阈值 $\sigma=20$）
-  - 只warping低频分量：$x_t^{low-warped} = \text{warp}(\text{IFFT}(F_{low}))$
-  - 重组：$x_t' = \text{IFFT}(\text{FFT}(x_t^{low-warped}) + F_{high})$
-  - warping使用深度信息和相机内外参数，latent分辨率对应调整内参
+    - 通过DDIM inversion获取当前帧在时间步 $t_1=21$ 的latent code $x_{t_1}$
+    - 对 $x_{t_1}$ 做FFT分离高低频：$F(x_t) \rightarrow F_{low}, F_{high}$（阈值 $\sigma=20$）
+    - 只warping低频分量：$x_t^{low-warped} = \text{warp}(\text{IFFT}(F_{low}))$
+    - 重组：$x_t' = \text{IFFT}(\text{FFT}(x_t^{low-warped}) + F_{high})$
+    - warping使用深度信息和相机内外参数，latent分辨率对应调整内参
 - **设计动机**：直接warping（无论图像还是latent）会因非整数像素坐标的插值导致高频丢失和模糊。高通滤波保留原始高频、只warping低频（几何结构信息），有效缓解累积模糊。
 
 #### 2. DDPM前向加噪
 
 - **做什么**：从warped latent $x'_{t_1}$（$t_1=21$）加噪到 $x'_{t_2}$（$t_2=441$），增大扩散模型的去噪自由度。
 - **核心思路**：
-  - 直接从 $t_1=21$ 去噪生成的图像仍会模糊（因interp误差只被轻微校正）
-  - 加更多噪音到 $t_2=441$ 让扩散模型有足够空间生成新细节和填充未见区域
-  - 代价是帧间一致性下降，需要后续引导策略弥补
+    - 直接从 $t_1=21$ 去噪生成的图像仍会模糊（因interp误差只被轻微校正）
+    - 加更多噪音到 $t_2=441$ 让扩散模型有足够空间生成新细节和填充未见区域
+    - 代价是帧间一致性下降，需要后续引导策略弥补
 - **设计动机**：在图像质量（需要自由度）和帧间一致性（需要约束）之间找到平衡点。
 
 #### 3. 特征对应引导去噪（Feature-Correspondence Guidance）
 
 - **做什么**：在DDIM去噪过程中引入跨帧特征相似性梯度引导，保证几何一致性。
 - **核心思路**：
-  - 每个时间步 $t$ 提取当前帧和新帧的U-Net中间特征 $f_t, f_t'$
-  - 计算warped特征与新帧特征的余弦距离：$\mathcal{L}_{sim}^t = \frac{1 - \cos[\text{warp}(f_t), f_t']}{2}$
-  - 将梯度注入去噪过程（类似classifier guidance）：$\hat{\epsilon} = \epsilon_\theta(x_t) - \lambda \sqrt{\bar{\alpha}_{t-1}} \nabla_{x_t} \mathcal{L}_{sim}^t$
-  - 引导强度 $\lambda = 300$
+    - 每个时间步 $t$ 提取当前帧和新帧的U-Net中间特征 $f_t, f_t'$
+    - 计算warped特征与新帧特征的余弦距离：$\mathcal{L}_{sim}^t = \frac{1 - \cos[\text{warp}(f_t), f_t']}{2}$
+    - 将梯度注入去噪过程（类似classifier guidance）：$\hat{\epsilon} = \epsilon_\theta(x_t) - \lambda \sqrt{\bar{\alpha}_{t-1}} \nabla_{x_t} \mathcal{L}_{sim}^t$
+    - 引导强度 $\lambda = 300$
 - **设计动机**：DIFT研究表明扩散模型中间特征具有强语义对应性，利用这一性质作为跨帧几何一致性的监督信号。
 
 #### 4. 跨视角自注意力（Cross-view Self-Attention）
 
 - **做什么**：修改U-Net的自注意力模块，将当前帧的Key和Value注入到新帧的注意力计算中。
 - **核心思路**：
-  - 当前帧正常自注意力：$o = \text{Softmax}(QK^\top)V$
-  - 新帧跨视角注意力：$o' = \text{Softmax}(Q'K^\top)V$，使用当前帧的K和V（经warping）
-  - 同时对当前帧和新帧做去噪，共享注意力特征
+    - 当前帧正常自注意力：$o = \text{Softmax}(QK^\top)V$
+    - 新帧跨视角注意力：$o' = \text{Softmax}(Q'K^\top)V$，使用当前帧的K和V（经warping）
+    - 同时对当前帧和新帧做去噪，共享注意力特征
 - **设计动机**：受PnP-Diffusion和视频编辑工作启发，通过注入参考帧特征维持外观和语义一致性。
 
 ### 训练策略

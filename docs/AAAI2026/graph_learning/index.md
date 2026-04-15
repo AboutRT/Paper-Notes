@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🤖 AAAI2026** · 共 **34** 篇
+**🤖 AAAI2026** · **34** 篇论文解读
 
 **[Adaptive Initial Residual Connections For Gnns With Theoretical Guarantees](adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md)**
 

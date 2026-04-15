@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**🧪 ICML2025** · 共 **2** 篇
+**🧪 ICML2025** · **2** 篇论文解读
 
 **[Representation Shattering In Transformers A Synthetic Study With Knowledge Editi](representation_shattering_in_transformers_a_synthetic_study_with_knowledge_editi.md)**
 

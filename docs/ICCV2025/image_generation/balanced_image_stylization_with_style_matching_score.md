@@ -55,8 +55,8 @@ SMS 包含三个核心组件：
     - 参数化生成器 $G_\theta$（可以是图像本身或前馈网络的参数）
     - 最小化生成分布 $p_{G_\theta}$ 与目标风格分布 $p_{style}$ 的 KL 散度
     - 使用两个噪声预测模型估计分数函数：
-      - $\epsilon_{style}$：集成了风格 LoRA 的预训练扩散模型（固定），估计 $p_{style}$
-      - $\epsilon_{fake}^\phi$：动态学习，估计当前 $p_{G_\theta}$
+        - $\epsilon_{style}$：集成了风格 LoRA 的预训练扩散模型（固定），估计 $p_{style}$
+        - $\epsilon_{fake}^\phi$：动态学习，估计当前 $p_{G_\theta}$
     - KL 散度梯度：
     $\nabla_\theta D_{KL} \approx \mathbb{E}_{t,\epsilon}[w_t(\epsilon_{style}(z_t^{tgt}; y_{src}, t) - \epsilon_{fake}^\phi(z_t^{tgt}; y_{src}, t))\frac{\partial G_\theta}{\partial \theta}]$
     - 与 DMD 的区别：DMD 用通用预训练模型 $\epsilon_{real}$，SMS 换成风格 LoRA 模型 $\epsilon_{style}$

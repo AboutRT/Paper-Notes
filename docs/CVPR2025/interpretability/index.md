@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 可解释性方向 4篇论文解读
+  CVPR2025 可解释性方向 5篇论文解读
 description: >-
-  4篇CVPR2025 可解释性方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  5篇CVPR2025 可解释性方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**📷 CVPR2025** · 共 **4** 篇
+**📷 CVPR2025** · **5** 篇论文解读
 
 **[Differentiable Inverse Rendering With Interpretable Basis Brdfs](differentiable_inverse_rendering_with_interpretable_basis_brdfs.md)**
 
@@ -17,6 +17,10 @@ description: >-
 **[Geometry-Guided Camera Motion Understanding In Videollms](geometry-guided_camera_motion_understanding_in_videollms.md)**
 
 :   提出一个从基准构建、诊断到注入的完整框架，通过 3D 基础模型（VGGT）提取相机运动线索并以结构化提示注入 VideoLLM，实现无需训练的相机运动感知增强。
+
+**[Language Guided Concept Bottleneck Models For Interpretable Continual Learning](language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md)**
+
+:   将语言引导的概念瓶颈模型 (CBM) 整合到持续学习中，通过 ChatGPT 生成类别概念、CLIP 编码的概念对齐模块和语义引导的原型增强策略，在 ImageNet-subset 上实现最终准确率 +3.06% 的提升，同时提供透明可解释的决策过程。
 
 **[Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)**
 

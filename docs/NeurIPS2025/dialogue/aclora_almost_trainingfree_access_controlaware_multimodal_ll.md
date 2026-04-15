@@ -2,12 +2,14 @@
 title: >-
   [论文解读] AC-LoRA: (Almost) Training-Free Access Control-Aware Multi-Modal LLMs
 description: >-
-  [NeurIPS 2025][access control] 设计AC-LoRA系统，通过为不同权限数据集维护独立的LoRA适配器并基于查询相似度和用户权限进行检索+无训练合并，实现企业级LLM聊天机器人的强信息隔离保证，在两个数据集上匹配或超越SOTA LoRA混合方法。
+  [NeurIPS 2025][访问控制] 设计 AC-LoRA 端到端系统，为不同权限数据集训练独立的 LoRA 适配器，推理时根据用户查询的 cosine 相似度和权限动态检索并无训练合并多个 LoRA 输出，在保证强信息隔离的同时匹配或超越 SOTA LoRA 混合方法的回答质量。
 tags:
   - NeurIPS 2025
-  - access control
-  - LoRA adapter
-  - information isolation
+  - 访问控制
+  - LoRA适配器
+  - 信息隔离
+  - 企业LLM
+  - 多模态
 ---
 
 # AC-LoRA: (Almost) Training-Free Access Control-Aware Multi-Modal LLMs

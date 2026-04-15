@@ -56,8 +56,8 @@ MedEyes 是一个混合策略 RL 框架，包含两个协同流：
 
     - 功能：模拟临床医生的视觉搜索模式，通过双模式探索生成结构化专家轨迹
     - 核心思路：维护三元注意力状态 $\psi_t = (\mathcal{R}_t, \mathcal{C}_t, \mathcal{F}_t)$，分别为候选区域集、置信度分布和探索模式。通过大规模多模态专家模型（MedPLIB）进行区域级 VQA 查询生成候选区域。状态转移 $\psi_{t+1} = \mathcal{T}(\psi_t, a_t, o_t)$ 由两种互补模式驱动：
-      - **扫描模式**（$\mathcal{F}_t = \text{global}$）：提示专家模型定位图像中所有异常区域，生成全局候选
-      - **钻探模式**（$\mathcal{F}_t = \text{local}$）：对特定候选区域做定向分析，生成精细化置信度
+        - **扫描模式**（$\mathcal{F}_t = \text{global}$）：提示专家模型定位图像中所有异常区域，生成全局候选
+        - **钻探模式**（$\mathcal{F}_t = \text{local}$）：对特定候选区域做定向分析，生成精细化置信度
     - 模式切换规则：计算置信度变化率 $\Delta c = \frac{c_{t+1}(r_i) - c_t(r_i)}{c_t(r_i) + \epsilon}$。若 $\Delta c \geq \delta$ 则继续钻探（信息增益充分），否则切回扫描（当前区域信息饱和）
     - 设计动机：直接受放射科医生眼动追踪研究启发——专家诊断先系统扫描定位可疑区域，再深入分析特定区域
 
@@ -71,8 +71,8 @@ MedEyes 是一个混合策略 RL 框架，包含两个协同流：
 
     - 功能：解耦 on-policy 和 off-policy 学习信号，避免奖励同化和熵坍塌
     - 核心思路：
-      - **源自适应重要性比**：on-policy 轨迹用 $\rho_i^\theta = \pi_\theta(\tau_i|I,q) / \pi_{\theta_\text{old}}(\tau_i|I,q)$，off-policy 轨迹用 $\rho_i^\theta = \pi_\theta(\tau_i|I,q) / \pi_\text{expert}(\tau_i|I,q)$（其中 $\pi_\text{expert}=1$）
-      - **优势解耦**：分别在 on-policy 和 off-policy 数据上独立计算归一化统计量：$A_i = \frac{R(\tau_i) - \mu^{s(i)}}{\sigma^{s(i)} + \varepsilon}$
+        - **源自适应重要性比**：on-policy 轨迹用 $\rho_i^\theta = \pi_\theta(\tau_i|I,q) / \pi_{\theta_\text{old}}(\tau_i|I,q)$，off-policy 轨迹用 $\rho_i^\theta = \pi_\theta(\tau_i|I,q) / \pi_\text{expert}(\tau_i|I,q)$（其中 $\pi_\text{expert}=1$）
+        - **优势解耦**：分别在 on-policy 和 off-policy 数据上独立计算归一化统计量：$A_i = \frac{R(\tau_i) - \mu^{s(i)}}{\sigma^{s(i)} + \varepsilon}$
     - 设计动机：统一归一化会让高奖励的专家轨迹压制 on-policy 的自主学习信号，导致梯度主导。解耦后两个流保持独立学习速率，既能从专家学习又不牺牲对新场景的适应性
 
 4. **多组件可验证奖励函数**:

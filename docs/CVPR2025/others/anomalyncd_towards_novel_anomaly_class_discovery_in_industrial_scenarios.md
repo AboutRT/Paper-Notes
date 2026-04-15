@@ -55,9 +55,9 @@ tags:
 
     - 功能：从异常检测结果中稳定地提取主要异常区域
     - 三步流程：
-      - Step 1：确定阈值范围 $[s_{\min}, s_{\max}]$，$s_{\min}$ 为所有异常图的最小异常分数的最大值
-      - Step 2：均匀采样 $\mathcal{T}=64$ 个阈值进行二值化
-      - Step 3：找出出现最频繁的连通区域数 $\bar{\delta}_i$，选最小阈值完整分割
+        - Step 1：确定阈值范围 $[s_{\min}, s_{\max}]$，$s_{\min}$ 为所有异常图的最小异常分数的最大值
+        - Step 2：均匀采样 $\mathcal{T}=64$ 个阈值进行二值化
+        - Step 3：找出出现最频繁的连通区域数 $\bar{\delta}_i$，选最小阈值完整分割
     - 核心优势：自适应阈值选择，无需验证集，对不同 AD 方法通用
     - 对比 Otsu：Otsu 倾向过检测，尤其在正常图像上
 
@@ -66,9 +66,9 @@ tags:
     - 功能：引导 [CLS] token 注意力聚焦到异常区域
     - 核心思路：在最后 $L_m=9$ 层的自注意力中插入掩码
     - 三种设计比较：
-      - (a) 同时在 CLS 和 patch tokens 上加掩码 → 抑制上下文
-      - (b) 仅在 patch tokens 上 → 同样抑制上下文
-      - **(c) 仅在 CLS token 上**（采用）→ patch tokens 保持全局感受野
+        - (a) 同时在 CLS 和 patch tokens 上加掩码 → 抑制上下文
+        - (b) 仅在 patch tokens 上 → 同样抑制上下文
+        - **(c) 仅在 CLS token 上**（采用）→ patch tokens 保持全局感受野
     - 掩码注意力：$\text{Attn} = \text{softmax}(\text{concat}(\mathbf{Q}^{cls}\mathbf{K}^\top + \bar{\mathcal{M}}, \mathbf{Q}^{patch}\mathbf{K}^\top))\mathbf{V}$
     - 其中 $\bar{\mathcal{M}}(i) = 0$ 若 $\mathcal{M}(i) > 0.5$，否则 $-\infty$
 

@@ -64,17 +64,17 @@ Pipeline 分三步：
 
     - 功能：核心创新模块，融合物理仿真器和视频生成器来预测动态
     - 核心思路：
-      - 首先用物理求解器（Genesis框架，支持多种材质求解器耦合）计算粗糙动态场景 $\{\tilde{\mathcal{S}}_t\}$：$\mathbf{v}_{t+1}, \mathbf{p}_{t+1}^O, \mathbf{q}_{t+1}^O = \text{solver}(\tilde{\mathcal{S}}_t, \mathbf{f}_g, \mathbf{f}_w(t), \mathbf{f}_p(t))$
-      - 然后将粗糙动态的运动和外观信号送入视频生成器：$\mathbf{V} = g(\mathbf{F}, \tilde{\mathbf{V}}, \mathbf{I})$
-      - 最后用生成的视频通过可微渲染更新粗糙3D场景
+        - 首先用物理求解器（Genesis框架，支持多种材质求解器耦合）计算粗糙动态场景 $\{\tilde{\mathcal{S}}_t\}$：$\mathbf{v}_{t+1}, \mathbf{p}_{t+1}^O, \mathbf{q}_{t+1}^O = \text{solver}(\tilde{\mathcal{S}}_t, \mathbf{f}_g, \mathbf{f}_w(t), \mathbf{f}_p(t))$
+        - 然后将粗糙动态的运动和外观信号送入视频生成器：$\mathbf{V} = g(\mathbf{F}, \tilde{\mathbf{V}}, \mathbf{I})$
+        - 最后用生成的视频通过可微渲染更新粗糙3D场景
     - 设计动机：物理求解器的重建和仿真不精确，但提供了正确的动作响应方向；视频生成器从大规模视频中学到了丰富的物理先验，可以补充精细运动和外观。
 
 3. **双模态控制方案（Bimodal Control）**
 
     - 功能：用运动信号和外观信号同时控制视频生成器
     - 核心思路：
-      - **运动控制**：使用 Go-with-the-Flow 的噪声扭曲策略，将物理仿真的光流 $\mathbf{F}$ 转为结构化噪声 $\mathbf{N}(\mathbf{F})$，通过迭代 warp 构建：$\mathbf{N}_{t+1} = \text{warp}(\mathbf{N}_t, \mathbf{F}_{t+1})$
-      - **外观控制**：使用 SDEdit 策略，从扩散步骤 $s_1 < S$ 开始去噪：$\mathbf{V}_{s_1} = \alpha_{s_1}\tilde{\mathbf{V}} + \sqrt{1-\alpha_{s_1}^2}\mathbf{N}(\mathbf{F})$
+        - **运动控制**：使用 Go-with-the-Flow 的噪声扭曲策略，将物理仿真的光流 $\mathbf{F}$ 转为结构化噪声 $\mathbf{N}(\mathbf{F})$，通过迭代 warp 构建：$\mathbf{N}_{t+1} = \text{warp}(\mathbf{N}_t, \mathbf{F}_{t+1})$
+        - **外观控制**：使用 SDEdit 策略，从扩散步骤 $s_1 < S$ 开始去噪：$\mathbf{V}_{s_1} = \alpha_{s_1}\tilde{\mathbf{V}} + \sqrt{1-\alpha_{s_1}^2}\mathbf{N}(\mathbf{F})$
     - 设计动机：仅用运动信号会导致幻觉（如背景纹理改变）；仅用外观信号会丢失精细动态。两者结合既保持运动一致性又保持外观一致性。
 
 4. **空间变化责任分配（Spatially Varying Responsibility）**

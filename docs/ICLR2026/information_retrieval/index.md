@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🔬 ICLR2026** · 共 **30** 篇
+**🔬 ICLR2026** · **30** 篇论文解读
 
 **[Attributing Response To Context A Jensen-Shannon Divergence Driven Mechanistic S](attributing_response_to_context_a_jensen-shannon_divergence_driven_mechanistic_s.md)**
 

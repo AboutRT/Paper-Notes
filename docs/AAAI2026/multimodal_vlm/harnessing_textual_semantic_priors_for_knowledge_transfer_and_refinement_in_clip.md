@@ -63,8 +63,8 @@ SECA基于CLIP构建，包含冻结的视觉和文本编码器、可学习的文
 - **核心思路**：维护一个历史adapter池 $\mathcal{P} = \{\mathcal{A}^1, ..., \mathcal{A}^{|\mathcal{P}|}\}$，每个adapter编码了对应任务的视觉知识。对新图像，根据其文本语义向量评估与各adapter的相关性，加权聚合相关知识作为蒸馏信号
 
 - **步骤一：提取多视角知识**
-  - 视觉知识：将新图像通过所有历史adapter，得到 $\mathbf{V}_x = [\mathbf{V}_x^{(1)}, ..., \mathbf{V}_x^{(|\mathcal{P}|)}]$
-  - 语义向量：用类标签与所有（历史+当前）task prompt组合，得到 $\mathbf{S}_y = [\mathbf{S}_y^{(1)}, ..., \mathbf{S}_y^{(s)}]$
+    - 视觉知识：将新图像通过所有历史adapter，得到 $\mathbf{V}_x = [\mathbf{V}_x^{(1)}, ..., \mathbf{V}_x^{(|\mathcal{P}|)}]$
+    - 语义向量：用类标签与所有（历史+当前）task prompt组合，得到 $\mathbf{S}_y = [\mathbf{S}_y^{(1)}, ..., \mathbf{S}_y^{(s)}]$
 
 - **步骤二：计算相关性得分**
   $$\alpha_x^{(p)} = \frac{1}{s} \sum_{i=1}^s [\phi(\mathbf{S}_y^{(i)})\mathbf{W}_S]^\top [\phi(\mathbf{V}_x^{(p)})\mathbf{W}_V]$$

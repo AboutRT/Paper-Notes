@@ -27,8 +27,8 @@ tags:
 ## 研究背景与动机
 - LLM 在 QA 中容易产生幻觉和知识缺失，知识图谱（KG）是接地验证的理想来源
 - 现有方法分为两类，均有泛化局限：
-  - **规则方法**（如 ToG、DoG）：预定义规则约束推理，训练无关但无法处理分布外模式
-  - **模仿方法**（如 RoG、KG-Agent）：模仿训练数据中的推理模式，泛化到新路径困难
+    - **规则方法**（如 ToG、DoG）：预定义规则约束推理，训练无关但无法处理分布外模式
+    - **模仿方法**（如 RoG、KG-Agent）：模仿训练数据中的推理模式，泛化到新路径困难
 - 关键洞察：实际 KG 推理涉及**非典型路径**（如经过 colleague 或 subsidiary 间接关系），需要**自主探索**
 - 示例：常见路径 "Google→employee→Carol→lives_in→London"，非典型路径 "Google→employee→Bob→colleague→John→resides_at→London"
 

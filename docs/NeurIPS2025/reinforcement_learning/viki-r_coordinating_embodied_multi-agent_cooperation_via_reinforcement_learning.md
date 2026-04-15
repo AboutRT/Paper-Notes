@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning
 description: >-
-  [NeurIPS 2025 (Datasets and Benchmarks Track)][具身多智能体] 提出VIKI-Bench（首个面向具身多智能体合作的层次化评测基准，含3个结构化层级）和VIKI-R（基于VLM+RL的两阶段合作框架），在异构机器人的视觉驱动合作场景中显著超越基线，RL训练涌现出组合式协作模式。
+  [NeurIPS 2025 (Datasets and Benchmarks Track)][多智能体合作] 构建了首个面向具身多智能体合作的层次化基准VIKI-Bench（含智能体激活、任务规划、轨迹感知三个层级），并提出两阶段框架VIKI-R（CoT示范微调+多级奖励RL），在多种机器人形态和多视角视觉观测下实现显著超越基线的合作表现，RL阶段涌现出组合式协作模式。
 tags:
   - NeurIPS 2025 (Datasets and Benchmarks Track)
   - 多智能体合作
-  - 视觉-语言模型
-  - 具身智能
-  - 层次基准
-  - 强化学习微调
+  - VIKI-Bench
+  - VLM微调
+  - Chain-of-Thought
+  - 多级奖励
+  - 异构机器人
 ---
 
 # VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning

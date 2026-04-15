@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Pre-training Distillation for Large Language Models: A Design Space Exploration
 description: >-
-  [模型压缩] 系统性地探索大语言模型预训练蒸馏（Pre-training Distillation）的设计空间，从 logits 处理、损失函数选择、scaling law 和 offline/online logits 四个维度进行广泛实验，找到更优配置并得出有价值的结论。
+  [ACL 2025][模型压缩][pre-training distillation] 系统性地探索大语言模型预训练蒸馏（Pre-training Distillation）的设计空间，从 logits 处理、损失函数选择、scaling law 和 offline/online logits 四个维度进行广泛实验，找到更优配置并得出有价值的结论。
 tags:
+  - ACL 2025
   - 模型压缩
+  - pre-training distillation
+  - 知识蒸馏
+  - logits processing
+  - scaling law
+  - LLM
 ---
 
 # Pre-training Distillation for Large Language Models: A Design Space Exploration
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2410.16215](https://arxiv.org/abs/2410.16215) |
-| 代码 | — |
-| 领域 | 模型压缩 / 知识蒸馏 / 大语言模型预训练 |
-| 关键词 | pre-training distillation, knowledge distillation, logits processing, scaling law, LLM |
+**会议**: ACL 2025  
+**arXiv**: [2410.16215](https://arxiv.org/abs/2410.16215)  
+**代码**: —  
+**领域**: 模型压缩 / 知识蒸馏 / 大语言模型预训练  
+**关键词**: pre-training distillation, knowledge distillation, logits processing, scaling law, LLM  
 
 ## 一句话总结
 
@@ -42,7 +46,7 @@ $$\theta_S^* = \arg\min_{\theta_S} [(1-\alpha)\mathcal{L}_{\text{lm}} + \alpha\m
 
 **维度一：Logits 处理**
 - **截断方法**：提出 **top-p-k 两阶段截断**——先 top-p 截断（分布尖锐时有效），再 top-k 截断（分布均匀时二次截断）
-  - GLM-4-9B 词表约 150K，全量存储需 58.6 PB，top-0.95-100 截断后减为约 **15 TB**（4000× 压缩）
+    - GLM-4-9B 词表约 150K，全量存储需 58.6 PB，top-0.95-100 截断后减为约 **15 TB**（4000× 压缩）
 - **温度归一化**：$F(\mathbf{z}) = \text{softmax}(\text{Truncate}(\mathbf{z}) / \tau)$
 
 **维度二：损失函数选择**
@@ -91,8 +95,8 @@ $$\theta_S^* = \arg\min_{\theta_S} [(1-\alpha)\mathcal{L}_{\text{lm}} + \alpha\m
 
 - KLD 和 NLL 均有效，MSE 显著下降——与 CV 中 MSE 最优的结论相反
 - **最佳 α 调度**：WSD-α + WSD-LR，达到 **+8.0%** 提升
-  - 核心洞察：在保持最大学习率阶段使用更多 KD 损失可显著提升性能
-  - 线性递减 α（先 KD 后 LM）优于线性递增（先 LM 后 KD）
+    - 核心洞察：在保持最大学习率阶段使用更多 KD 损失可显著提升性能
+    - 线性递减 α（先 KD 后 LM）优于线性递增（先 LM 后 KD）
 
 ### 维度三：Scaling Law 实验结果
 

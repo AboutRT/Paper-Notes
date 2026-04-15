@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM安全
 
-**🎞️ ECCV2024** · 共 **1** 篇
+**🎞️ ECCV2024** · **1** 篇论文解读
 
 **[Magr Manifold-Aligned Graph Regularization For Continual Action Quality Assessme](magr_manifold-aligned_graph_regularization_for_continual_action_quality_assessme.md)**
 

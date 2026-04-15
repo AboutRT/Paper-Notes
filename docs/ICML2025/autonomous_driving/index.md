@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🧪 ICML2025** · 共 **11** 篇
+**🧪 ICML2025** · **11** 篇论文解读
 
 **[Dont Be So Negative Score-Based Generative Modeling With Oracle-Assisted Guidanc](dont_be_so_negative_score-based_generative_modeling_with_oracle-assisted_guidanc.md)**
 

@@ -56,8 +56,8 @@ tags:
     - 总奖励：$R = \mathcal{R}_{format} \times \mathcal{R}_{accuracy} \times \mathcal{R}_{unit} \times \mathcal{R}_{mode}$
     - **单元语义奖励** $\mathcal{R}_{unit}$：确保 easy 单元无反思关键词、hard 单元含反思关键词，维持两种模式的语义一致性
     - **模式控制奖励** $\mathcal{R}_{mode}$：难度感知——简单题鼓励多用 easy 模式，难题允许多用 hard 模式
-      - $\mathcal{R}_{mode} = \beta + (1-\beta)(N_{pass}/N \cdot p_{easy} + (1-N_{pass}/N) \cdot p_{hard})$
-      - 通过 $N_{pass}/N$（正确样本比例）估计问题难度
+        - $\mathcal{R}_{mode} = \beta + (1-\beta)(N_{pass}/N \cdot p_{easy} + (1-N_{pass}/N) \cdot p_{hard})$
+        - 通过 $N_{pass}/N$（正确样本比例）估计问题难度
 
 3. **熵引导动态 Rollout (EDR)**:
 

@@ -85,7 +85,7 @@ mmDiff采用两阶段训练的条件扩散模型：
 
 - **阶段一**：$\mathcal{L}_{joint} = E_{i \sim [1,17]} \|h^i - \tilde{h}^i\|_2^2$（关节回归L2损失）
 - **阶段二**：$\mathcal{L}_{diff} = \mathbb{E}_{k,\varepsilon_k} \|\varepsilon_k - \hat{\varepsilon}_\theta(H_k, k, C)\|_2^2 + \lambda \cdot \mathbb{E}_{i \sim [1,16]} |l^i - \hat{l}^i|_1$
-  - 扩散去噪损失 + 肢体长度L1回归损失（$\lambda = 5$）
+    - 扩散去噪损失 + 肢体长度L1回归损失（$\lambda = 5$）
 - 训练100个epoch，batch size 1024，Adam优化器，学习率 $2 \times 10^{-5}$
 - 扩散步数 $K = 25$，常数噪声调度 $\beta = 0.001$
 - 推理时取5个假设的平均

@@ -82,11 +82,11 @@ GTR 用显式高斯建模替代传统 TDPMs 的采样近似：
 SFM 在截断后使用 Flow Matching 替代 DDPM，并引入语义一致性建模：
 
 - **Optimal Transport 调度**：源分布 $X_{T_{\text{trunc}}}$ 到目标 $X_1$ 的最短路径线性插值
-  - $X_t = t \times X_1 + (1-t) \times X_{T_{\text{trunc}}}$
+    - $X_t = t \times X_1 + (1-t) \times X_{T_{\text{trunc}}}$
 - **ST-Net（Semantic-aware Transformation Network）**：时间条件 U-Net，预测流变换方向 $g_\theta(X_t)$
-  - 4 级编码器-解码器，15 个残差块
-  - 正弦时间步嵌入，通过 MLP 融入每个残差块
-  - 所有层使用线性注意力，瓶颈层使用全自注意力
+    - 4 级编码器-解码器，15 个残差块
+    - 正弦时间步嵌入，通过 MLP 融入每个残差块
+    - 所有层使用线性注意力，瓶颈层使用全自注意力
 - **中间预测**：$x_1^t = x_t + g_\theta(X_t) \times (1-t)$，通过解析几何在隐空间投影
 - **语义一致性**：在每个时间步 $t$，计算中间预测 $x_1^t$ 与所有真值标注之间的 Dice loss，显式建模状态-预测-真值之间的语义一致性
 

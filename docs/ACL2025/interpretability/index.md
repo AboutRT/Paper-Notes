@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**💬 ACL2025** · 共 **21** 篇
+**💬 ACL2025** · **21** 篇论文解读
 
 **[A Dual-Perspective Nlg Meta-Evaluation Framework With Automatic Benchmark And Be](a_dual-perspective_nlg_meta-evaluation_framework_with_automatic_benchmark_and_be.md)**
 

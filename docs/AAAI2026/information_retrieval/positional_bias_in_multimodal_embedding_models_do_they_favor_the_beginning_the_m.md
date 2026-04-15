@@ -58,8 +58,8 @@ tags:
 2. **位置偏差分析（Positional Bias）**
 
     - **文本端两种策略**：
-      - **Text Perturbation**：将文本分成子文本，选一段移到不同位置，其他替换为Lorem Ipsum占位文本
-      - **Token Masking**：将token分段，选一段移到不同位置，其他用padding token屏蔽
+        - **Text Perturbation**：将文本分成子文本，选一段移到不同位置，其他替换为Lorem Ipsum占位文本
+        - **Token Masking**：将token分段，选一段移到不同位置，其他用padding token屏蔽
     - **图像端**：单个视觉段被隔离并移到不同空间位置，其他区域用CLIP RGB均值遮蔽
     - **关键设计选择**：与之前打乱多文档顺序的研究不同，本文隔离单个段并移动——因为CLIP的固定上下文窗口不允许同时放入完整内容
     - **设计动机**：目标不是测量绝对检索准确率，而是分析检索性能如何随位置变化而变化

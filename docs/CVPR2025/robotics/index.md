@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 机器人/具身智能方向 14篇论文解读
+  CVPR2025 机器人/具身智能方向 13篇论文解读
 description: >-
-  14篇CVPR2025 机器人/具身智能方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  13篇CVPR2025 机器人/具身智能方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**📷 CVPR2025** · 共 **14** 篇
+**📷 CVPR2025** · **13** 篇论文解读
 
 **[3D-Mvp 3D Multiview Pretraining For Manipulation](3d-mvp_3d_multiview_pretraining_for_manipulation.md)**
 
@@ -17,10 +17,6 @@ description: >-
 **[A Data-Centric Revisit Of Pre-Trained Vision Models For Robot Learning](a_data-centric_revisit_of_pre-trained_vision_models_for_robot_learning.md)**
 
 :   通过系统评估发现DINO/iBOT在机器人任务上优于MAE但在非物体中心(NOC)数据上性能退化，原因是丧失了物体中心表示能力。提出SlotMIM方法，通过语义瓶颈（减少原型数量促进objectness涌现）和跨视图一致性正则+slot级对比学习，使模型在NOC数据上也能学到物体中心表示，仅用241K样本即超越用>1M样本的MVP/VC-1。
-
-**[Asap Advancing Semantic Alignment Promotes Multi-Modal Manipulation De](asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_de.md)**
-
-:   提出ASAP框架，通过大模型辅助对齐(LMA)、篡改引导交叉注意力(MGCA)和补丁篡改建模(PMM)三个核心模块，系统性地推进图文语义对齐以提升多模态篡改检测与定位性能——在DGM4基准上AUC达94.38%，文本定位F1达76.52%，显著超越现有方法。
 
 **[Asap Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting An](asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_detecting_an.md)**
 

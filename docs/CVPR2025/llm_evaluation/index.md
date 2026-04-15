@@ -1,18 +1,22 @@
 ---
 title: >-
-  CVPR2025 LLM评测方向 2篇论文解读
+  CVPR2025 LLM评测方向 3篇论文解读
 description: >-
-  2篇CVPR2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  3篇CVPR2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**📷 CVPR2025** · 共 **2** 篇
+**📷 CVPR2025** · **3** 篇论文解读
 
 **[Context-Cir Learning From Concepts In Text For Composed Image Retrieval](context-cir_learning_from_concepts_in_text_for_composed_image_retrieval.md)**
 
 :   提出 ConText-CIR 框架，通过 Text Concept-Consistency 损失让文本修改中的名词短语更好地关注查询图像的相关部分，配合合成数据生成管线，在多个 CIR 基准上取得 SOTA。
+
+**[Dense Match Summarization For Faster Two-View Estimation](dense_match_summarization_for_faster_two-view_estimation.md)**
+
+:   通过将密集匹配聚类为代表性子集，并用9×9矩阵编码每个聚类的几何约束，在保持精度的前提下将RANSAC鲁棒估计加速10-100倍。
 
 **[Out Of Sight Out Of Mind Evaluating State Evolution In Video World Models](out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md)**
 

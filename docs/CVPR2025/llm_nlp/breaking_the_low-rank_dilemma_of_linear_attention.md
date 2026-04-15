@@ -66,10 +66,10 @@ RALA 是一种即插即用的线性注意力增强方法，包含两个互补的
 - **4 阶段层次化设计**：分辨率逐阶段降低（/4, /8, /16, /32）
 - **条件位置编码（CPE）**：每阶段使用 3×3 深度可分离卷积注入位置信息
 - **模型系列**：
-  - RAVLT-T: 15M 参数 / 2.4G FLOPs
-  - RAVLT-S: 26M 参数 / 4.6G FLOPs
-  - RAVLT-B: 48M 参数 / 9.9G FLOPs
-  - RAVLT-L: 95M 参数 / 16G FLOPs
+    - RAVLT-T: 15M 参数 / 2.4G FLOPs
+    - RAVLT-S: 26M 参数 / 4.6G FLOPs
+    - RAVLT-B: 48M 参数 / 9.9G FLOPs
+    - RAVLT-L: 95M 参数 / 16G FLOPs
 
 ### 训练策略
 - ImageNet-1K 从头训练，300 epochs

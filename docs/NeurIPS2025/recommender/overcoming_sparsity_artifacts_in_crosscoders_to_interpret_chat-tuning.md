@@ -2,15 +2,13 @@
 title: >-
   [论文解读] Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
 description: >-
-  识别并解决 Crosscoder 中 L1 损失引入的两类稀疏性伪影（Complete Shrinkage 和 Latent Decoupling），提出 Latent Scaling 诊断工具和 BatchTopK Crosscoder 替代方案，在 Gemma 2 2B 模型上成功发现真正由 chat-tuning 引入的可解释概念（如虚假信息检测、拒绝机制等）。
+  [NeurIPS 2025][Crosscoder] 识别并解决 Crosscoder 中 L1 训练损失引入的两类稀疏性伪影（导致虚假的模型特定潜变量归因），提出 Latent Scaling 诊断方法和 BatchTopK 损失替代方案，成功发现 Gemma 2 2B chat 模型中真正由 chat-tuning 引入的可解释概念。
 tags:
   - NeurIPS 2025
   - Crosscoder
   - 稀疏性伪影
   - BatchTopK
   - Latent Scaling
-  - 可解释性
-  - model diffing
   - chat-tuning
 ---
 

@@ -54,10 +54,10 @@ PDVAE 包含三个网络：
 
     - 功能：用频域相位参数替代传统VAE的高斯潜向量，使潜空间具有时序结构
     - 核心思路：对编码器输出的潜在曲线 $\mathbf{L} \in \mathbb{R}^{D \times T}$ 做FFT，计算功率谱，然后提取四个相位参数的分布均值：
-      - 幅度：$\mu_i^A = \sqrt{\frac{2}{T} \sum_j \mathbf{p}_{i,j}}$
-      - 频率：$\mu_i^F = \frac{\sum_j \mathbf{f}_j \cdot \mathbf{p}_{i,j}}{\sum_j \mathbf{p}_{i,j}}$（功率谱加权平均频率）
-      - 偏移：$\mu_i^B = \frac{\mathbf{c}_{i,0}}{T}$（直流分量）
-      - 相移：$\mu_i^S = \arctan(s_y, s_x)$（FC层预测+双arctan激活）
+        - 幅度：$\mu_i^A = \sqrt{\frac{2}{T} \sum_j \mathbf{p}_{i,j}}$
+        - 频率：$\mu_i^F = \frac{\sum_j \mathbf{f}_j \cdot \mathbf{p}_{i,j}}{\sum_j \mathbf{p}_{i,j}}$（功率谱加权平均频率）
+        - 偏移：$\mu_i^B = \frac{\mathbf{c}_{i,0}}{T}$（直流分量）
+        - 相移：$\mu_i^S = \arctan(s_y, s_x)$（FC层预测+双arctan激活）
     - 只对幅度A和相移S做变分采样（$\sigma^A, \sigma^S$由MLP预测），频率F和偏移B设为确定性（否则群舞不协调）
     - 采样后重建参数化潜在曲线：$\hat{\mathbf{L}} = \mathbf{A} \cdot \sin(2\pi(\mathbf{F} \cdot \mathcal{T} - \mathbf{S})) + \mathbf{B}$
     - 设计动机：传统VAE的单个高斯向量"压缩掉"了时间维度信息，无法表示运动的时序动态。相位参数天然捕获运动的时序特征（周期性、节拍对齐、起止时刻），且不同舞者共享频率和偏移保证群体节拍一致

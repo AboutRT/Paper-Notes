@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Large Vocabulary Size Improves Large Language Models
 description: >-
-   实验证明更大的 subword 词汇表大小 (vocabulary size) 能持续提升 LLM 在下游任务上的性能，并提出了一种简洁的词汇表替换方法 (Swap & Insert) 用于持续训练场景下切换到更合适的词汇表。
+  [ACL 2025][词汇表大小] 实验证明更大的 subword 词汇表大小 (vocabulary size) 能持续提升 LLM 在下游任务上的性能，并提出了一种简洁的词汇表替换方法 (Swap & Insert) 用于持续训练场景下切换到更合适的词汇表。
 tags:
-
+  - ACL 2025
+  - 词汇表大小
+  - subword
+  - 预训练
+  - 持续训练
+  - 词嵌入替换
+  - 单语LLM
 ---
 
 # Large Vocabulary Size Improves Large Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2406.16508](https://arxiv.org/abs/2406.16508) |
-| 代码 | 基于 Megatron-LM / SentencePiece |
-| 领域 | LLM Pretraining / Tokenization |
-| 关键词 | 词汇表大小, subword, 预训练, 持续训练, 词嵌入替换, 单语LLM |
+**会议**: ACL 2025  
+**arXiv**: [2406.16508](https://arxiv.org/abs/2406.16508)  
+**代码**: 基于 Megatron-LM / SentencePiece  
+**领域**: LLM Pretraining / Tokenization  
+**关键词**: 词汇表大小, subword, 预训练, 持续训练, 词嵌入替换, 单语LLM  
 
 ## 一句话总结
 

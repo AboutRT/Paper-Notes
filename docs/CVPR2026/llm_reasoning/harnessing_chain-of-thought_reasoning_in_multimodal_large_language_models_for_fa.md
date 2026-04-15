@@ -49,9 +49,9 @@ tags:
 
     - 功能：构建108万样本的FAS CoT-VQA数据集
     - 核心思路：
-      - **6层CoT格式**：Caption(全图) → Facial Description(面部区域) → Facial Attributes(面部属性细节) → Reasoning(综合分析) → Spoofing Description(欺骗特征描述) → Conclusion(结论)
-      - **FaceCoT-Gold100K**：从 CelebA-Spoof + WFAS 平衡采样10万样本，用GPT-4o标注初始CoT，正确率约98.97K/100K；581个hard case由专业标注员手动修正
-      - **FaceCoT-Silver982K**：在Gold100K上训练FAS caption模型，用RL(VRFT)优化——准确度奖励（Conclusion与GT一致得1分）+ 格式奖励（是否符合模板），将标注准确率从SFT的88%提升到99.6%。用该模型标注剩余数据得98.2万条
+        - **6层CoT格式**：Caption(全图) → Facial Description(面部区域) → Facial Attributes(面部属性细节) → Reasoning(综合分析) → Spoofing Description(欺骗特征描述) → Conclusion(结论)
+        - **FaceCoT-Gold100K**：从 CelebA-Spoof + WFAS 平衡采样10万样本，用GPT-4o标注初始CoT，正确率约98.97K/100K；581个hard case由专业标注员手动修正
+        - **FaceCoT-Silver982K**：在Gold100K上训练FAS caption模型，用RL(VRFT)优化——准确度奖励（Conclusion与GT一致得1分）+ 格式奖励（是否符合模板），将标注准确率从SFT的88%提升到99.6%。用该模型标注剩余数据得98.2万条
     - 设计动机：分层CoT模拟人类认知过程，从全局场景到局部细节再到逻辑判断；RL优化解决了SFT caption模型在OOD数据上的语义+格式错误
 
 2. **CoT-Enhanced Progressive Learning (CEPL) — Stage 1: Visual Enhancement Pre-training**:

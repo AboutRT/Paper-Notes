@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Reverse Distillation: Consistently Scaling Protein Language Model Representations
 description: >-
-  [ICLR 2026][医学图像][反向蒸馏] 解决PLM反常缩放(更大不一定更好)，提出反向蒸馏：用小模型表示作基、SVD提取大模型正交残差→前k维=小模型嵌入(Matryoshka嵌套)→更大rd模型一致优于更小，ESM-2 15B rd后首次成为家族最强。
+  [ICLR 2026][医学图像][反向蒸馏] 针对蛋白质语言模型（PLM）"模型越大性能不一定越好"的反常缩放现象，提出反向蒸馏框架：以小模型表示为基底、用SVD提取大模型正交残差信息，构造Matryoshka嵌套嵌入，使得更大的反向蒸馏模型一致优于更小的，ESM-2 15B经反向蒸馏后首次成为全家族最强。
 tags:
   - ICLR 2026
   - 医学图像
   - 反向蒸馏
-  - PLM
+  - 蛋白质语言模型
   - 缩放行为
-  - 嵌套表示
-  - Matryoshka
+  - Matryoshka嵌套表示
   - ESM-2
 ---
 

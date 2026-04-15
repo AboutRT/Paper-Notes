@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**🤖 AAAI2026** · 共 **19** 篇
+**🤖 AAAI2026** · **19** 篇论文解读
 
 **[Align To Structure Aligning Large Language Models With Struc](align_to_structure_aligning_large_language_models_with_struc.md)**
 

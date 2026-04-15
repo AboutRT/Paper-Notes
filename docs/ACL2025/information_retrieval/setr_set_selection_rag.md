@@ -2,20 +2,24 @@
 title: >-
   [论文解读] SetR: Shifting from Ranking to Set Selection for Retrieval Augmented Generation
 description: >-
-   提出 SetR，将 RAG 中的文档排序范式转变为集合选择范式，通过 CoT 推理识别查询的信息需求并选择最优文档集合，在使用更少文档（平均 2.91 个 vs 5 个）的同时显著提升多跳问答性能。
+  [ACL 2025][RAG] 提出 SetR，将 RAG 中的文档排序范式转变为集合选择范式，通过 CoT 推理识别查询的信息需求并选择最优文档集合，在使用更少文档（平均 2.91 个 vs 5 个）的同时显著提升多跳问答性能。
 tags:
-
+  - ACL 2025
+  - RAG
+  - 集合选择
+  - reranking
+  - Chain-of-Thought
+  - 多跳问答
+  - 信息需求识别
 ---
 
 # SetR: Shifting from Ranking to Set Selection for Retrieval Augmented Generation
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2507.06838](https://arxiv.org/abs/2507.06838) |
-| 代码 | [LGAI-Research/SetR](https://github.com/LGAI-Research/SetR) |
-| 领域 | 信息检索 / RAG |
-| 关键词 | RAG, 集合选择, reranking, Chain-of-Thought, 多跳问答, 信息需求识别 |
+**会议**: ACL 2025  
+**arXiv**: [2507.06838](https://arxiv.org/abs/2507.06838)  
+**代码**: [LGAI-Research/SetR](https://github.com/LGAI-Research/SetR)  
+**领域**: 信息检索 / RAG  
+**关键词**: RAG, 集合选择, reranking, Chain-of-Thought, 多跳问答, 信息需求识别  
 
 ## 一句话总结
 

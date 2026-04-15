@@ -1,8 +1,8 @@
 ---
 title: >-
-  [论文解读] Whose Boat Does it Float? Improving Personalization in Preference Optimization
+  [论文解读] Whose Boat Does it Float? Improving Personalization in Preference Tuning via Inferred User Personas
 description: >-
-  [ACL 2025][LLM对齐][personalization] 提出"溯因推理"视角的偏好个性化方法：先用 LLM 推断偏好 chosen/rejected 回答背后的用户画像（Persona Inference），再用画像增强的偏好数据训练模型（Persona Tailoring），显著提升模型对不同用户需求的个性化适配能力。
+  [ACL 2025][LLM对齐][personalization] 提出基于**溯因推理（abductive reasoning）**的偏好个性化框架：通过 **Persona Inference (PI)** 推断偏好数据 chosen/rejected 回答背后的用户画像，再用画像增强的偏好数据进行 **Persona Tailoring (PT)** 训练，使 LLM 能根据用户画像生成个性化回答，在对话、问答、教育三个领域均大幅提升个性化适配能力。
 tags:
   - ACL 2025
   - LLM对齐

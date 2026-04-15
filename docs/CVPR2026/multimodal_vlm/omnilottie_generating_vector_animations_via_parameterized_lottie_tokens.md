@@ -56,18 +56,18 @@ OmniLottie 包含三个核心组件：
 #### 1. Lottie Tokenizer
 - **做什么**：将 Lottie JSON 文件转换为结构化的命令-参数序列
 - **核心思路**：遍历 JSON 树结构，提取三类有意义的信息：
-  - **形状命令（Shape Commands）**：如 `MOVE_TO(x, y)`、`BEZIER(cx1, cy1, cx2, cy2, x, y)` 等描述几何形状的指令
-  - **动画函数（Animation Functions）**：如 `EASE_IN(start_frame, end_frame, start_val, end_val)` 描述关键帧插值
-  - **控制参数（Control Parameters）**：如颜色、透明度、变换矩阵等
+    - **形状命令（Shape Commands）**：如 `MOVE_TO(x, y)`、`BEZIER(cx1, cy1, cx2, cy2, x, y)` 等描述几何形状的指令
+    - **动画函数（Animation Functions）**：如 `EASE_IN(start_frame, end_frame, start_val, end_val)` 描述关键帧插值
+    - **控制参数（Control Parameters）**：如颜色、透明度、变换矩阵等
 - **设计动机**：去除了所有冗余的 JSON 格式信息（缩进、括号、键名等），将序列长度压缩到原来的 ~15-20%
 - **与之前方法的区别**：直接使用 JSON 文本训练的方法需要处理 ~10k+ token 的序列，Lottie Tokenizer 压缩到 ~1-2k token
 
 #### 2. OmniLottie 模型架构
 - **做什么**：基于预训练的 VLM（如 LLaVA），扩展 token 词表以包含 Lottie 命令 token，进行多模态指令到 Lottie 序列的自回归生成
 - **核心思路**：
-  - 在 VLM 的词表中加入 ~200 个 Lottie 特有 token（形状命令、动画函数名等）
-  - 参数值（如坐标、颜色）使用量化后的数值 token 表示
-  - 训练时使用标准的 next-token prediction 损失
+    - 在 VLM 的词表中加入 ~200 个 Lottie 特有 token（形状命令、动画函数名等）
+    - 参数值（如坐标、颜色）使用量化后的数值 token 表示
+    - 训练时使用标准的 next-token prediction 损失
 - **设计动机**：利用预训练 VLM 的语言和视觉理解能力，将矢量动画生成转化为序列生成问题
 - **多模态支持**：可以接受文本描述（"画一个弹跳的球"）、参考图像、草图等多模态输入
 

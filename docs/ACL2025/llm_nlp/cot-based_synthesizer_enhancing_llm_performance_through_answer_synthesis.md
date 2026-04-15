@@ -61,13 +61,13 @@ tags:
 3. **两阶段数据生成管线**
 
     - **阶段一：合成答案生成**
-      - Sampling LLM（Llama3-8B-Instruct）生成候选回答集
-      - Response LLM（Llama3.1-70B-Instruct）用 CoT 对候选进行分析综合
-      - 多次采样 Response LLM（N=50 次），用 gold answer 过滤保留正确的合成答案
+        - Sampling LLM（Llama3-8B-Instruct）生成候选回答集
+        - Response LLM（Llama3.1-70B-Instruct）用 CoT 对候选进行分析综合
+        - 多次采样 Response LLM（N=50 次），用 gold answer 过滤保留正确的合成答案
     - **阶段二：LLM 修复**
-      - 当所有候选都错时,明确告知 Response LLM 所有候选不正确
-      - 提示模型反思错误并从错误答案中提取有效推理步骤，综合出修正后的回答
-      - 再次用 gold answer 过滤保留正确答案
+        - 当所有候选都错时,明确告知 Response LLM 所有候选不正确
+        - 提示模型反思错误并从错误答案中提取有效推理步骤，综合出修正后的回答
+        - 再次用 gold answer 过滤保留正确答案
 
 ### 损失函数 / 训练策略
 

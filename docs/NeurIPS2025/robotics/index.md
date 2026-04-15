@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🧠 NeurIPS2025** · 共 **55** 篇
+**🧠 NeurIPS2025** · **55** 篇论文解读
 
 **[A Snapshot Of Influence A Local Data Attribution Framework F](a_snapshot_of_influence_a_local_data_attribution_framework_f.md)**
 

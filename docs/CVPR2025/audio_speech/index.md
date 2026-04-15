@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**📷 CVPR2025** · 共 **4** 篇
+**📷 CVPR2025** · **4** 篇论文解读
 
 **[Contextual Ad Narration With Interleaved Multimodal Sequence](contextual_ad_narration_with_interleaved_multimodal_sequence.md)**
 

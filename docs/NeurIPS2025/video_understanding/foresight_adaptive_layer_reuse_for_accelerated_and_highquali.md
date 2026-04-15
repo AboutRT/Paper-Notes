@@ -2,11 +2,15 @@
 title: >-
   [论文解读] Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation
 description: >-
-  [视频理解] 提出 Foresight，一种训练无关的自适应层复用框架，通过动态 MSE 阈值在 DiT 去噪过程中逐层决策缓存复用，在 OpenSora/Latte/CogVideoX/HunyuanVideo/Wan-2.1 上实现最高 2.23× 端到端加速且视频质量优于静态方法。
+  [NeurIPS 2025][视频理解][自适应缓存] 提出 Foresight，一种训练无关的自适应层复用框架，通过在 warmup 阶段建立逐层 MSE 阈值、在 reuse 阶段按阈值动态决策每层是复用缓存还是重新计算，在 5 个视频生成模型上实现了比静态方法更高质量和更快速度的推理加速（最高 2.23×）。
 tags:
+  - NeurIPS 2025
   - 视频理解
-  - 推理加速
-  - 扩散模型
+  - 自适应缓存
+  - DiT 加速
+  - 特征复用
+  - 文本到视频生成
+  - 训练无关
 ---
 
 # Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation

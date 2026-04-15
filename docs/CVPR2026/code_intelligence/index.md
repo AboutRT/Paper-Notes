@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**📷 CVPR2026** · 共 **2** 篇
+**📷 CVPR2026** · **2** 篇论文解读
 
 **[Codepercept Code-Grounded Visual Stem Perception For Mllms](codepercept_code-grounded_visual_stem_perception_for_mllms.md)**
 

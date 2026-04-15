@@ -54,35 +54,35 @@ tags:
 
 - **做什么**：为3D空间中每个点学习一个类别概率分布，将原始NeRF的密度场分解为多个子NeRF。
 - **核心思路**：
-  - 将密度分解为概率加权形式：$\sigma = \sum_{k=1}^{K} \frac{\sigma_k}{\sigma} \sigma$，其中 $\frac{\sigma_k}{\sigma}$ 构成概率单纯形
-  - 用MLP+softmax建模类别概率：$\mathbf{p}_i^k = \frac{\exp(f_k/T)}{\sum_k^K \exp(f_k/T)}$，温度 $T=0.05$ 使输出近似one-hot
-  - 第 $k$ 类物体的渲染：$C(\mathbf{r})^k = \sum_i \alpha_i^k (1-\exp(-\mathbf{p}_i^k \sigma_i \delta_i)) \mathbf{c}_i$
-  - 原始密度和颜色网络**冻结不训练**，只学类别场网络
+    - 将密度分解为概率加权形式：$\sigma = \sum_{k=1}^{K} \frac{\sigma_k}{\sigma} \sigma$，其中 $\frac{\sigma_k}{\sigma}$ 构成概率单纯形
+    - 用MLP+softmax建模类别概率：$\mathbf{p}_i^k = \frac{\exp(f_k/T)}{\sum_k^K \exp(f_k/T)}$，温度 $T=0.05$ 使输出近似one-hot
+    - 第 $k$ 类物体的渲染：$C(\mathbf{r})^k = \sum_i \alpha_i^k (1-\exp(-\mathbf{p}_i^k \sigma_i \delta_i)) \mathbf{c}_i$
+    - 原始密度和颜色网络**冻结不训练**，只学类别场网络
 - **设计动机**：
-  - 只需训练一个轻量类别场网络，比额外训练密度+颜色场高效
-  - 冻结原始网络保证子NeRF重组后**精确等于原始NeRF**，无外观损失
+    - 只需训练一个轻量类别场网络，比额外训练密度+颜色场高效
+    - 冻结原始网络保证子NeRF重组后**精确等于原始NeRF**，无外观损失
 
 #### 2. Category Score Distillation Sampling (CSDS) + Deep Concept Mining (DCM)
 
 - **做什么**：用多个类别特定的SDS损失训练NeCF，并通过DCM解决扩散模型中的"概念差距"问题。
 - **核心思路**：
-  - 朴素做法：对每个类别 $k$，用类别文本 $y_k$ 做SDS：$\nabla_\theta L_{SDS}(\phi,\theta)_k = \mathbb{E}_{t,\epsilon}[w(t)(\epsilon_\phi(x_t; y_k, t) - \epsilon) \frac{\partial x}{\partial \theta}]$
-  - **概念差距问题**：文本"a chimpanzee looking through a telescope"生成的是手持望远镜，但"a telescope"会生成三脚架望远镜——两者在扩散模型潜空间中占据不同区域
-  - DCM解决方案：用渲染视角图的掩码区域个性化微调扩散模型和文本嵌入
-  - 掩码扩散损失：$L_{mine}(\phi, y_k) = \mathbb{E}_{t,\epsilon}[||\epsilon_\phi(x_t; y_k, t) \odot M_k - \epsilon \odot M_k||_2^2]$
-  - 两阶段训练：第一阶段微调文本嵌入（400步，lr=$5\times10^{-4}$），第二阶段同时微调模型backbone（100步，lr=$2\times10^{-6}$）
-  - 掩码通过Grounded-SAM获取
+    - 朴素做法：对每个类别 $k$，用类别文本 $y_k$ 做SDS：$\nabla_\theta L_{SDS}(\phi,\theta)_k = \mathbb{E}_{t,\epsilon}[w(t)(\epsilon_\phi(x_t; y_k, t) - \epsilon) \frac{\partial x}{\partial \theta}]$
+    - **概念差距问题**：文本"a chimpanzee looking through a telescope"生成的是手持望远镜，但"a telescope"会生成三脚架望远镜——两者在扩散模型潜空间中占据不同区域
+    - DCM解决方案：用渲染视角图的掩码区域个性化微调扩散模型和文本嵌入
+    - 掩码扩散损失：$L_{mine}(\phi, y_k) = \mathbb{E}_{t,\epsilon}[||\epsilon_\phi(x_t; y_k, t) \odot M_k - \epsilon \odot M_k||_2^2]$
+    - 两阶段训练：第一阶段微调文本嵌入（400步，lr=$5\times10^{-4}$），第二阶段同时微调模型backbone（100步，lr=$2\times10^{-6}$）
+    - 掩码通过Grounded-SAM获取
 - **设计动机**：概念差距会导致解耦时物体区域错配，DCM通过个性化让扩散模型理解场景中特定物体的实际外观。
 
 #### 3. 精细化阶段
 
 - **做什么**：将解耦后的子NeRF转换为DMTet，修复伪影并提升几何纹理质量。
 - **核心思路**：
-  - 使用等值面提取将子NeRF转为DMTet
-  - 用DCM微调的扩散模型指导DMTet精细化（5000步）
-  - 再用原始Stable Diffusion微调颜色（1000步），避免DCM过拟合导致的颜色过饱和
-  - 使用"unrealistic, low quality, shadow"作为负面提示词
-  - 引入互穿损失防止物体替换时的网格穿透：$\mathcal{L}_{interpenetration} = \sum_i \max(\epsilon - (\mathbf{v}_i - \mathbf{v}_i') \cdot \mathbf{n}_i', 0)$
+    - 使用等值面提取将子NeRF转为DMTet
+    - 用DCM微调的扩散模型指导DMTet精细化（5000步）
+    - 再用原始Stable Diffusion微调颜色（1000步），避免DCM过拟合导致的颜色过饱和
+    - 使用"unrealistic, low quality, shadow"作为负面提示词
+    - 引入互穿损失防止物体替换时的网格穿透：$\mathcal{L}_{interpenetration} = \sum_i \max(\epsilon - (\mathbf{v}_i - \mathbf{v}_i') \cdot \mathbf{n}_i', 0)$
 - **设计动机**：解耦后原本物体接触面不可见区域会出现"黑洞"伪影，需要精细化修复。
 
 ### 损失函数 / 训练策略

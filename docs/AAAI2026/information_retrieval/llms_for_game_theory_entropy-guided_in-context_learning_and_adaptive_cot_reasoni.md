@@ -72,10 +72,10 @@ tags:
 3. **自适应链式思维推理**:
 
     - 定义四种推理模式，复杂度递增：
-      - **Direct output**：直接输出动作，无模拟
-      - **Multi-CoT**：生成 n 条独立推理路径，投票选择
-      - **Tree-based CoT**：树形展开，每步生成 n 个候选+对手所有回应
-      - **Entropy-guided CoT**：仅在高熵时展开多路径
+        - **Direct output**：直接输出动作，无模拟
+        - **Multi-CoT**：生成 n 条独立推理路径，投票选择
+        - **Tree-based CoT**：树形展开，每步生成 n 个候选+对手所有回应
+        - **Entropy-guided CoT**：仅在高熵时展开多路径
     - Token 级熵计算：$H_{t,k}^{token} = -\sum_{i=1}^{|V|} p_{t,k}^{(i)} \log p_{t,k}^{(i)}$
     - 步级熵：$H_t^{step} = \frac{1}{L_t} \sum_{k=1}^{L_t} H_{t,k}^{token}$
     - 有序阈值机制：$H_t^{step} \in [H_j, H_{j+1}) \Rightarrow n_t = n_j$

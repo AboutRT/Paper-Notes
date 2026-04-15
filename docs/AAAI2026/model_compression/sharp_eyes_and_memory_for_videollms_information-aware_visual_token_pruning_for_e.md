@@ -59,24 +59,24 @@ SharpV是一个两阶段即插即用框架：
 
 #### 2. **时空Token重要性评估**
 - **空间重要性 $\mathcal{S}$**：每个Token与帧级平均表示的不相似度，衡量Token在空间维度的独特性
-  - $\mathcal{S} = \text{Dissim}(F_t, \overline{F_t})$
+    - $\mathcal{S} = \text{Dissim}(F_t, \overline{F_t})$
 - **时间重要性 $\mathcal{T}$**：相邻帧对应位置Token的不相似度，衡量运动变化
-  - $\mathcal{T} = \text{Dissim}(\mathbf{F}_t, \mathbf{F}_{t-1})$
+    - $\mathcal{T} = \text{Dissim}(\mathbf{F}_t, \mathbf{F}_{t-1})$
 - **综合得分**：$\mathcal{I} = \mathcal{T} + w \cdot \mathcal{S}$，其中 $w$ 控制空间信息的融入比例
 - **复杂度**：整个评估过程仅为 $O(n \cdot d)$，远低于基于聚类/$O(n^2)$ 的方法
 
 #### 3. **信息感知自适应阈值剪枝**
 - **核心思路**：利用时间重要性的L2范数量化帧间视觉变化，自动确定每帧保留率
 - **阈值计算**：
-  - 对于第 $t$ 帧（$t \geq 2$）：$\text{threshold}_t = \frac{\|\mathcal{T}_t\|_2}{2\sqrt{f}}$
-  - 对于第1帧：$\text{threshold}_1 = \frac{\|\mathcal{S}_1\|_2}{2\sqrt{f}}$
+    - 对于第 $t$ 帧（$t \geq 2$）：$\text{threshold}_t = \frac{\|\mathcal{T}_t\|_2}{2\sqrt{f}}$
+    - 对于第1帧：$\text{threshold}_1 = \frac{\|\mathcal{S}_1\|_2}{2\sqrt{f}}$
 - **效果**：高运动序列自动增加Token保留率，静态帧激进剪枝
 
 #### 4. **视觉信息退化假说与退化感知剪枝（Memory SharpV）**
 - **关键观察**：视觉Token在浅层与原始特征保持高余弦相似度，深层急剧下降后趋于稳定（<0.2），类似人类记忆曲线；系统和指令Token则迅速收敛到近零
 - **理论解释**：与信息瓶颈原理一致——网络在连续变换中丢弃不相关细节，保留任务相关特征
 - **剪枝策略**：当某层视觉Token与原始视觉信息的余弦相似度低于阈值 $M$ 时，丢弃该层KV Cache
-  - $\text{Discard}(l) = \text{True}, \text{if } \cos(\mathbf{V}_l, \mathbf{V}) < M$
+    - $\text{Discard}(l) = \text{True}, \text{if } \cos(\mathbf{V}_l, \mathbf{V}) < M$
 - **优势**：完全不依赖注意力分数，与Flash Attention完全兼容
 
 ### 训练策略

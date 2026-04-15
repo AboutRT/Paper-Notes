@@ -61,8 +61,8 @@ NBF-Rec 以 NBFNet（神经 Bellman-Ford 网络）为基础，将推荐视为二
     - **做什么**：将原始边特征（评分、时间戳、类别、播放次数等）编码为可用于消息传递的嵌入。
     - **怎么做**：两级 MLP 结构：
     $g(r) = \text{MLP}_{\text{emb}}(\text{MLP}_{\text{proj}}(r))$
-      - $\text{MLP}_{\text{proj}}$：数据集特定的投影 MLP（处理不同数据集的异构边特征）
-      - $\text{MLP}_{\text{emb}}$：共享的骨干嵌入 MLP
+        - $\text{MLP}_{\text{proj}}$：数据集特定的投影 MLP（处理不同数据集的异构边特征）
+        - $\text{MLP}_{\text{emb}}$：共享的骨干嵌入 MLP
     - **区别**：原始 NBFNet 仅依赖图结构信息，NBF-Rec 引入边特征使模型能学习更丰富的交互模式。
 
 3. **消息传递机制**
@@ -70,10 +70,10 @@ NBF-Rec 以 NBFNet（神经 Bellman-Ford 网络）为基础，将推荐视为二
     - **做什么**：在每一层 $t$，聚合邻居消息更新节点表征。
     - **怎么做**：
     $M_v^{(t)} = \{\text{MESSAGE}(h_x^{(t-1)}, \mathbf{w}_q(x,r,v)) \mid (x,r,v) \in \mathcal{E}(v)\}$
-      - 边权重：$\mathbf{w}_q(x,r,v) = \text{MLP}_t(g(r))$，每层有独立的 MLP
-      - 消息函数：非参数化的 DistMult 操作
-      - 节点更新：聚合（求和）+ 线性变换 + 层归一化 + 激活函数
-      - 包含初始嵌入的残差连接：$\text{AGGREGATE}(M_v^{(t)} \cup \{h_v^{(0)}\})$
+        - 边权重：$\mathbf{w}_q(x,r,v) = \text{MLP}_t(g(r))$，每层有独立的 MLP
+        - 消息函数：非参数化的 DistMult 操作
+        - 节点更新：聚合（求和）+ 线性变换 + 层归一化 + 激活函数
+        - 包含初始嵌入的残差连接：$\text{AGGREGATE}(M_v^{(t)} \cup \{h_v^{(0)}\})$
 
 4. **评分生成**
 

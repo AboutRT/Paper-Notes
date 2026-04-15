@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**🧠 NeurIPS2025** · 共 **11** 篇
+**🧠 NeurIPS2025** · **11** 篇论文解读
 
 **[C3Po Cross-View Cross-Modality Correspondence By Pointmap Prediction](c3po_cross-view_cross-modality_correspondence_by_pointmap_prediction.md)**
 

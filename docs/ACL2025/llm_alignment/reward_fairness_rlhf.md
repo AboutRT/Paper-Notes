@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Towards Reward Fairness in RLHF: From a Resource Allocation Perspective
 description: >-
-  [ACL 2025][LLM对齐][RLHF] 将 RLHF 中的各种奖励偏差（长度偏差、类别偏差、社会偏差）统一定义为"奖励不公平"问题，从资源分配视角提出两种偏差无关的缓解方法——公平正则化和公平系数——在不针对特定偏差设计的情况下有效缓解多种偏差，实现更公平的人类偏好对齐。
+  [ACL 2025][LLM对齐][RLHF] 将 RLHF 中的长度偏差、类别偏差、社会偏差等多种奖励偏差统一定义为"奖励不公平"问题，借鉴资源分配理论提出 Fairness Regularization 和 Fairness Coefficient 两种偏差无关方法，分别应用于奖励模型训练和策略模型训练，在不针对特定偏差设计的前提下同时缓解多种偏差并提升对齐质量。
 tags:
   - ACL 2025
   - LLM对齐

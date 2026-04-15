@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models
 description: >-
-   提出 Com2，一个基于因果事件图和因果理论（干预/反事实）构建的复杂常识推理基准，包含 2500 道主题和 1254 道侦探故事题目，揭示 LLM 在推理深度与广度上的显著不足。
+  [ACL 2025][复杂常识推理] 提出 Com2，一个基于因果事件图和因果理论（干预/反事实）构建的复杂常识推理基准，包含 2500 道主题和 1254 道侦探故事题目，揭示 LLM 在推理深度与广度上的显著不足。
 tags:
-
+  - ACL 2025
+  - 复杂常识推理
+  - 因果图
+  - 因果理论
+  - 干预
+  - 反事实
+  - benchmark
 ---
 
 # Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2506.07064](https://arxiv.org/abs/2506.07064) |
-| 代码 | [GitHub](https://github.com/HIT-SCIR/Com2) |
-| 领域 | LLM Evaluation / Commonsense Reasoning |
-| 关键词 | 复杂常识推理, 因果图, 因果理论, 干预, 反事实, benchmark |
+**会议**: ACL 2025  
+**arXiv**: [2506.07064](https://arxiv.org/abs/2506.07064)  
+**代码**: [GitHub](https://github.com/HIT-SCIR/Com2)  
+**领域**: LLM Evaluation / Commonsense Reasoning  
+**关键词**: 复杂常识推理, 因果图, 因果理论, 干预, 反事实, benchmark  
 
 ## 一句话总结
 

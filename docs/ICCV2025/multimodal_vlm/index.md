@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 多模态VLM方向 132篇论文解读
+  ICCV2025 多模态VLM方向 131篇论文解读
 description: >-
-  132篇ICCV2025 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  131篇ICCV2025 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**📹 ICCV2025** · 共 **132** 篇
+**📹 ICCV2025** · **131** 篇论文解读
 
 **[Acknowledging Focus Ambiguity In Visual Questions](acknowledging_focus_ambiguity_in_visual_questions.md)**
 
@@ -329,10 +329,6 @@ description: >-
 **[Metamorph Multimodal Understanding And Generation Via Instruction Tuning](metamorph_multimodal_understanding_and_generation_via_instruction_tuning.md)**
 
 :   提出 Visual-Predictive Instruction Tuning（VPiT），仅通过轻量级指令微调即可将预训练 LLM 扩展为同时理解和生成视觉 token 的统一模型 MetaMorph，发现视觉生成能力是视觉理解的自然副产物且两者互利不对称。
-
-**[Mitigating Object Hallucinations Via Sentence-Level Early Intervention](mitigating_object_hallucinations_via_sentence-level_early_intervention.md)**
-
-:   提出 SENTINEL 框架，通过句子级早期干预和域内偏好学习有效缓解 MLLM 的物体幻觉，在 Object HalBench 上将幻觉率降低超过 90%，同时保持甚至提升通用能力。
 
 **[Mm-Ifengine Towards Multimodal Instruction Following](mm-ifengine_towards_multimodal_instruction_following.md)**
 

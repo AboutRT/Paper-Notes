@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Direct Confidence Alignment: Aligning Verbalized Confidence with Internal Confidence In Large Language Models
 description: >-
-  [LLM/NLP] 提出 Direct Confidence Alignment (DCA)，利用 DPO 将 LLM 的文字表达置信度（verbalized confidence）与内部 token 概率置信度（internal confidence）对齐，提升模型置信度表达的一致性和透明度。
+  [ACL 2025][LLM/NLP][置信度校准] 提出 Direct Confidence Alignment (DCA)，利用 DPO 将 LLM 的文字表达置信度（verbalized confidence）与内部 token 概率置信度（internal confidence）对齐，提升模型置信度表达的一致性和透明度。
 tags:
+  - ACL 2025
   - LLM/NLP
+  - 置信度校准
+  - DPO
+  - 内部置信度
+  - 表达置信度
+  - LLM 可靠性
 ---
 
 # Direct Confidence Alignment: Aligning Verbalized Confidence with Internal Confidence In Large Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2512.11998](https://arxiv.org/abs/2512.11998) |
-| 代码 | 未公开 |
-| 领域 | LLM/NLP |
-| 关键词 | 置信度校准, DPO, 内部置信度, 表达置信度, LLM 可靠性 |
+**会议**: ACL 2025  
+**arXiv**: [2512.11998](https://arxiv.org/abs/2512.11998)  
+**代码**: 未公开  
+**领域**: LLM/NLP  
+**关键词**: 置信度校准, DPO, 内部置信度, 表达置信度, LLM 可靠性  
 
 ## 一句话总结
 

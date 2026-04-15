@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM/NLP
 
-**📹 ICCV2025** · 共 **2** 篇
+**📹 ICCV2025** · **2** 篇论文解读
 
 **[Any-Ssr How Recursive Least Squares Works In Continual Learning Of Large Languag](any-ssr_how_recursive_least_squares_works_in_continual_learning_of_large_languag.md)**
 

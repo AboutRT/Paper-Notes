@@ -2,14 +2,14 @@
 title: >-
   [论文解读] BMIKE-53: Investigating Cross-Lingual Knowledge Editing with In-Context Learning
 description: >-
-  [ACL 2025][知识编辑] 提出 BMIKE-53，覆盖 53 种语言、整合 zsRE/CounterFact/WikiFactDiff 三个数据集的跨语言上下文知识编辑基准，系统评估了 zero-shot 到 few-shot 的 IKE 方法，发现模型规模、示例策略和文字系统是影响跨语言编辑效果的关键因素。
+  [ACL 2025][cross-lingual knowledge editing] 提出 BMIKE-53 —— 覆盖 53 种语言、整合 zsRE/CounterFact/WikiFactDiff 三个知识编辑数据集的跨语言基准，系统评估 zero-shot 到 8-shot 的上下文知识编辑方法，发现文字系统（拉丁 vs 非拉丁）比语言家族更能决定跨语言编辑效果，且 metric-specific 示例策略显著优于混合示例。
 tags:
   - ACL 2025
-  - 知识编辑
-  - 跨语言
-  - 多语言基准
-  - 上下文学习
-  - 语言混淆
+  - cross-lingual knowledge editing
+  - in-context learning
+  - multilingual benchmark
+  - script type
+  - language confusion
 ---
 
 # BMIKE-53: Investigating Cross-Lingual Knowledge Editing with In-Context Learning

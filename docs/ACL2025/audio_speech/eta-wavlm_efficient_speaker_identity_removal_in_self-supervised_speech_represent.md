@@ -61,9 +61,9 @@ Eta-WavLM 可视为 SSL 模型的离线扩展模块，包含三个组件：
 
 - **做什么**：从多说话人数据集中学习说话人到 SSL 表示的线性映射参数
 - **核心思路**：
-  - 从 LibriSpeech 全部训练集的每个语音片段提取 WavLM 表示 $\mathbf{S} \in \mathbb{R}^{N \times Q}$（$Q = 1024$，使用第 15 层输出）
-  - 提取 ECAPA-TDNN 说话人嵌入，经 PCA 降维到 $P = 128$ 得到 $\mathbf{D} \in \mathbb{R}^{P \times N}$
-  - 通过伪逆求解：$\tilde{\mathbf{A}}^* = (\tilde{\mathbf{D}}^T \tilde{\mathbf{D}})^{-1} \tilde{\mathbf{D}}^T \mathbf{S}$
+    - 从 LibriSpeech 全部训练集的每个语音片段提取 WavLM 表示 $\mathbf{S} \in \mathbb{R}^{N \times Q}$（$Q = 1024$，使用第 15 层输出）
+    - 提取 ECAPA-TDNN 说话人嵌入，经 PCA 降维到 $P = 128$ 得到 $\mathbf{D} \in \mathbb{R}^{P \times N}$
+    - 通过伪逆求解：$\tilde{\mathbf{A}}^* = (\tilde{\mathbf{D}}^T \tilde{\mathbf{D}})^{-1} \tilde{\mathbf{D}}^T \mathbf{S}$
 - **设计动机**：整个"训练"过程仅需一次矩阵运算，无需迭代优化。PCA 降维（$V = 192 \to P = 128$）去除冗余信息，实验证明其对性能有正面影响
 
 #### 3. Eta 表示的生成

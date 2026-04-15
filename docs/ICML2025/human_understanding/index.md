@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**🧪 ICML2025** · 共 **38** 篇
+**🧪 ICML2025** · **38** 篇论文解读
 
 **[A Generalizable Physics-Enhanced State Space Model For Long-Term Dynamics Foreca](a_generalizable_physics-enhanced_state_space_model_for_long-term_dynamics_foreca.md)**
 

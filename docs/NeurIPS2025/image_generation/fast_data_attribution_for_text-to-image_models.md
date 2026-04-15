@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Fast Data Attribution for Text-to-Image Models
 description: >-
-  [NeurIPS 2025][图像生成][数据归因] 提出 FastGDA，将精确但缓慢的 unlearning-based 数据归因方法蒸馏到特征嵌入空间，通过 learning-to-rank 训练归因专用特征，在 Stable Diffusion + LAION-400M 规模上实现毫秒级数据归因，比现有方法快 2,500× 至 400,000×。
+  [NeurIPS 2025][图像生成][数据归因] 将精确但缓慢的 Attribution by Unlearning 方法蒸馏到一个轻量特征嵌入空间中，通过 learning-to-rank 训练使得简单的余弦相似度检索就能近似昂贵的归因排序，首次在 Stable Diffusion + LAION-400M 规模上实现毫秒级数据归因。
 tags:
   - NeurIPS 2025
   - 图像生成
   - 数据归因
-  - 文生图
+  - 文生图模型
   - learning-to-rank
-  - 知识蒸馏
-  - efficient retrieval
+  - 特征蒸馏
+  - 高效检索
 ---
 
 # Fast Data Attribution for Text-to-Image Models

@@ -76,8 +76,8 @@ $$\mathcal{L}_{\text{percept}} = \alpha \cdot \text{MSE}(S, S_{\text{gt}}) + (1 
 **3. Action Agent —— 工具选择与修复执行**
 
 - **工具库（Tool Library）**：
-  - **Mask-guided inpainting**：基于 mask 的局部重绘，适用于结构明确的失真（如多余手指）
-  - **Instruction-driven inpainting**：基于自然语言指令的修复，适用于需要语义理解的失真（如表情不自然）
+    - **Mask-guided inpainting**：基于 mask 的局部重绘，适用于结构明确的失真（如多余手指）
+    - **Instruction-driven inpainting**：基于自然语言指令的修复，适用于需要语义理解的失真（如表情不自然）
 - **选择策略**：根据失真类型 $\text{type}_i$ 自动路由到最合适的工具
 - **迭代验证**：修复后的图像重新经 Perception Agent 评估，若仍存在显著失真则进入下一轮循环
 

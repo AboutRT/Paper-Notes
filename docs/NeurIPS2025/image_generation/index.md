@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 图像生成方向 251篇论文解读
+  NeurIPS2025 图像生成方向 247篇论文解读
 description: >-
-  251篇NeurIPS2025 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  247篇NeurIPS2025 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🧠 NeurIPS2025** · 共 **251** 篇
+**🧠 NeurIPS2025** · **247** 篇论文解读
 
 **[70 Size 100 Accuracy Lossless Llm Compression For Efficient](70_size_100_accuracy_lossless_llm_compression_for_efficient.md)**
 
@@ -65,10 +65,6 @@ description: >-
 **[Auggen Synthetic Augmentation Using Diffusion Models Can Imp](auggen_synthetic_augmentation_using_diffusion_models_can_imp.md)**
 
 :   提出 AugGen，一种自包含的合成数据增强方法：在目标数据集上训练类条件扩散模型，通过混合不同类别的条件向量生成新的"混合类"样本，增强判别模型训练，在人脸识别基准上实现 1-12% 的性能提升，无需任何外部数据或辅助模型。
-
-**[Autoregressive Adversarial Posttraining For Realtime Interac](autoregressive_adversarial_posttraining_for_realtime_interac.md)**
-
-:   提出 AAPT（Autoregressive Adversarial Post-Training），通过三阶段后训练流程（扩散适配→一致性蒸馏→对抗训练）将预训练的 8B 视频扩散 Transformer 转化为单步自回归实时视频生成器，利用 student-forcing 训练策略有效抑制误差累积，在单张 H100 上以 24fps/736×416 流式生成长达一分钟（1440帧）的视频，同时支持姿态控制和相机控制等实时交互应用。
 
 **[Badiff Bandwidth Adaptive Diffusion Model](badiff_bandwidth_adaptive_diffusion_model.md)**
 
@@ -918,10 +914,6 @@ description: >-
 
 :   提出一种无需重新训练的约束生成方法，通过在 Stable Diffusion 的反向去噪过程中嵌入近端 Langevin 动力学（Proximal Langevin Dynamics），将图像空间中的约束通过解码器反向传播到潜空间，实现对生成输出的严格约束满足。
 
-**[Training-Free Efficient Video Generation Via Dynamic Token Carving](training-free_efficient_video_generation_via_dynamic_token_carving.md)**
-
-:   提出 Jenga，一种即插即用的视频扩散 Transformer 推理加速管线，通过 3D 空间填充曲线驱动的动态注意力剪裁和渐进分辨率生成的协同设计，在多个 Video DiT 模型上实现 6-9 倍加速且几乎无质量损失。
-
 **[Training-Free Safe Text Embedding Guidance For Text-To-Image Diffusion Models](training-free_safe_text_embedding_guidance_for_text-to-image_diffusion_models.md)**
 
 :   提出 Safe Text embedding Guidance (STG)，一种无需训练的安全文本到图像生成方法，通过在扩散采样过程中基于安全函数对预期去噪图像的评估来动态调整文本嵌入方向，在有效去除不安全内容的同时最大程度保留原始语义意图。
@@ -974,10 +966,6 @@ description: >-
 
 :   提出 Discriminative Vicinity Diffusion (DVD)，首次将潜扩散模型用于判别式知识迁移，通过在源域特征的近邻潜空间中训练扩散模型生成源样式线索，实现无需源数据访问的域适应，在标准 SFDA 基准上超越 SOTA。
 
-**[Video Diffusion Models Excel At Tracking Similar-Looking Objects Without Supervi](video_diffusion_models_excel_at_tracking_similar-looking_objects_without_supervi.md)**
-
-:   本文发现预训练视频扩散模型在高噪声去噪阶段内在地学到了运动表征，无需任何跟踪专用训练即可用于跟踪外观相似的物体，提出的 TED 方法在 DAVIS 等基准上以最高 6% 的改进超越了 17 种自监督方法。
-
 **[Vsa Faster Video Diffusion With Trainable Sparse Attention](vsa_faster_video_diffusion_with_trainable_sparse_attention.md)**
 
 :   提出 VSA (Video Sparse Attention)，一种端到端可训练的硬件对齐稀疏注意力机制，通过粗粒度阶段（cube 池化预测关键 token）和细粒度阶段（在预测的块稀疏区域执行 token 级注意力）的层次化设计，在视频 DiT 的训练和推理中同时实现加速：从头预训练实现 2.53× 训练 FLOPs 减少且无质量损失，适配 Wan2.1-1.3B 实现注意力 6× 加速和端到端推理从 31s 降至 18s。
@@ -1001,10 +989,6 @@ description: >-
 **[Why Diffusion Models Dont Memorize The Role Of Implicit Dynamical Regularization](why_diffusion_models_dont_memorize_the_role_of_implicit_dynamical_regularization.md)**
 
 :   通过数值实验和理论分析揭示扩散模型训练中存在两个关键时间尺度——泛化时间 $\tau_{\text{gen}}$ 和记忆化时间 $\tau_{\text{mem}}$，后者随训练集大小 $n$ 线性增长而前者保持恒定，由此产生的隐式动力学正则化使模型即使在高度过参数化情况下也能通过早停避免记忆化。
-
-**[Why Diffusion Models Dont Memorize The Role Of Implicit Regularization](why_diffusion_models_dont_memorize_the_role_of_implicit_regularization.md)**
-
-:   本文从数值实验和理论分析两个层面揭示扩散模型训练中存在**隐式动态正则化**机制：生成高质量样本的时间尺度 τ_gen 与出现记忆化的时间尺度 τ_mem 之间的间隔随训练集大小 n 线性增长，为"早停"提供了理论支撑。
 
 **[Why Knowledge Distillation Works In Generative Models A Minimal Working Explanat](why_knowledge_distillation_works_in_generative_models_a_minimal_working_explanat.md)**
 

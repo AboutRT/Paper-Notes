@@ -54,10 +54,10 @@ tags:
 
     - 功能：高效融合异质场景 token 以增强交互建模。
     - 核心思路：
-      - 先通过分别的 adaptive LayerNorm (adaLN) 将异质特征（lane, neighbor, ego）投射到共享潜空间并注入时步/导航条件。
-      - 拼接后用 **scale-adaptive self-attention** 做全局融合：$F_{global} = \text{Softmax}\left(\frac{F_{global}W^Q (F_{global}W^K)^T}{\sqrt{d}} - \lambda \cdot D\right) F_{global}W^V$
-      - 其中 $D$ 是 token 间的欧氏距离矩阵，$\lambda$ 是由 token 本身经线性投影生成的可学习感受野缩放因子。距离远的 token 得到更小的 attention score。
-      - 融合后分解回模态特定 token，各自经独立 adaLN + FFN 进一步减少模态间隙。
+        - 先通过分别的 adaptive LayerNorm (adaLN) 将异质特征（lane, neighbor, ego）投射到共享潜空间并注入时步/导航条件。
+        - 拼接后用 **scale-adaptive self-attention** 做全局融合：$F_{global} = \text{Softmax}\left(\frac{F_{global}W^Q (F_{global}W^K)^T}{\sqrt{d}} - \lambda \cdot D\right) F_{global}W^V$
+        - 其中 $D$ 是 token 间的欧氏距离矩阵，$\lambda$ 是由 token 本身经线性投影生成的可学习感受野缩放因子。距离远的 token 得到更小的 attention score。
+        - 融合后分解回模态特定 token，各自经独立 adaLN + FFN 进一步减少模态间隙。
     - 设计动机：vanilla attention 无法有效处理异质信息融合；scale-adaptive attention 让模型根据空间距离自适应关注重要邻车。
 
 3. **Flow Matching + Classifier-Free Guidance**：

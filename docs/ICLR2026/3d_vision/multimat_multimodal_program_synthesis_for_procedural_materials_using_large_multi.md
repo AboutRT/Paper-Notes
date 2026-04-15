@@ -2,7 +2,7 @@
 title: >-
   [论文解读] MultiMat: Multimodal Program Synthesis for Procedural Materials using Large Multimodal Models
 description: >-
-  [ICLR 2026][3D视觉][程序化材质] 提出MultiMat——首个利用大型多模态模型(LMM)进行程序化材质合成的框架,在生成过程中同时处理文本程序表示和中间节点的视觉渲染结果,配合约束树搜索推理算法确保生成图的静态正确性,在产级程序化材质上的无条件和条件合成均显著优于纯文本基线。
+  [ICLR 2026][3D视觉][程序化材质] 提出 MultiMat，首个将大型多模态模型（LMM）用于程序化材质节点图合成的框架，通过在自回归生成过程中融合中间节点的视觉渲染反馈（混合调节/图调节两种模式），并配合增量式约束树搜索推理实现即时校验与回溯纠错，在 6878 个产级 Substance Designer 材质上训练后，无条件生成与条件生成均大幅超越纯文本基线。
 tags:
   - ICLR 2026
   - 3D视觉

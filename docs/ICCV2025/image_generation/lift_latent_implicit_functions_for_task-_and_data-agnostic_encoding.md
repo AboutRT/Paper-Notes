@@ -62,9 +62,9 @@ LIFT 是一个两阶段框架：
 
     - 功能：生成融合全局、中间、局部三个尺度信息的组合潜变量 $Z^\alpha$
     - 核心思路：定义三级潜变量层次：
-      - 全局潜变量 $\mathbf{Z}^\dagger \in \mathbb{R}^{1 \times 1 \times d_g}$
-      - 中间潜变量 $\mathbf{Z}^\star \in \mathbb{R}^{P_i \times P_i \times d_i}$
-      - 局部潜变量 $\mathbf{Z} \in \mathbb{R}^{P \times P \times d_l}$
+        - 全局潜变量 $\mathbf{Z}^\dagger \in \mathbb{R}^{1 \times 1 \times d_g}$
+        - 中间潜变量 $\mathbf{Z}^\star \in \mathbb{R}^{P_i \times P_i \times d_i}$
+        - 局部潜变量 $\mathbf{Z} \in \mathbb{R}^{P \times P \times d_l}$
 
       融合公式为：
     $\mathbf{Z}' = \text{Linear}_1(\text{Concat}(\text{Upsample}(\mathbf{Z}^\dagger, P_i, P_i), \mathbf{Z}^\star))$

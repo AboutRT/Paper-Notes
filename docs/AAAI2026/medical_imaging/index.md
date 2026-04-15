@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🤖 AAAI2026** · 共 **86** 篇
+**🤖 AAAI2026** · **86** 篇论文解读
 
 **[A Disease-Aware Dual-Stage Framework For Chest X-Ray Report ](a_disease-aware_dual-stage_framework_for_chest_x-ray_report_.md)**
 

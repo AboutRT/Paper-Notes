@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Nautilus: Locality-aware Autoencoder for Scalable Mesh Generation
 description: >-
-  [3D视觉] Nautilus 提出一种局部性感知的自编码器进行可扩展的 artist-like 网格生成，通过 Nautilus 式壳结构网格分词算法将序列长度压缩到 1/4，并结合双流点云条件器提高局部结构保真度，首次实现最多 5000 面的高质量网格直接生成。
+  [ICCV2025][3D视觉][mesh generation] Nautilus 提出一种局部性感知的自编码器进行可扩展的 artist-like 网格生成，通过 Nautilus 式壳结构网格分词算法将序列长度压缩到 1/4，并结合双流点云条件器提高局部结构保真度，首次实现最多 5000 面的高质量网格直接生成。
 tags:
+  - ICCV2025
   - 3D视觉
+  - mesh generation
+  - autoregressive
+  - tokenization
+  - locality-aware
+  - 点云
 ---
 
 # Nautilus: Locality-aware Autoencoder for Scalable Mesh Generation
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV2025 |
-| arXiv | [2501.14317](https://arxiv.org/abs/2501.14317) |
-| 代码 | - |
-| 领域 | 3d_vision |
-| 关键词 | mesh generation, autoregressive, tokenization, locality-aware, point cloud conditioning |
+**会议**: ICCV2025  
+**arXiv**: [2501.14317](https://arxiv.org/abs/2501.14317)  
+**代码**: -  
+**领域**: 3d_vision  
+**关键词**: mesh generation, autoregressive, tokenization, locality-aware, point cloud conditioning  
 
 ## 一句话总结
 
@@ -25,8 +29,8 @@ Nautilus 提出一种局部性感知的自编码器进行可扩展的 artist-lik
 
 - **问题定义**：自动生成高质量三角网格模型，使其具备 artist-like 的简洁、结构化和拓扑正确性
 - **现有方法局限**：
-  - **中间表示方法**（NeRF、3DGS、SDF 等）：通过 marching cubes 或 Poisson 重建转换为网格，产出过密、次优的网格，缺乏连续表面质量
-  - **直接网格生成**（MeshGPT、MeshAnything）：自回归地建模顶点和面，但面临两个根本问题：
+    - **中间表示方法**（NeRF、3DGS、SDF 等）：通过 marching cubes 或 Poisson 重建转换为网格，产出过密、次优的网格，缺乏连续表面质量
+    - **直接网格生成**（MeshGPT、MeshAnything）：自回归地建模顶点和面，但面临两个根本问题：
     1. **局部结构保真度差**：出现流形缺陷（表面孔洞、重叠面、缺失部件），特别是复杂拓扑时
     2. **面数量受限**：序列过长限制了面数上限，难以捕捉精细拓扑细节
 - **核心洞察**：流形网格的局部性（相邻面共享边，每个面簇收敛于一个中心顶点）提供两个关键启发：

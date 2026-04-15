@@ -1,16 +1,16 @@
 ---
 title: >-
-  [论文解读] EcoCast: Spatio-Temporal Model for Continual Biodiversity Forecasting
+  [论文解读] EcoCast: A Spatio-Temporal Model for Continual Biodiversity and Climate Risk Forecasting
 description: >-
-  [NeurIPS 2025][时间序列][生态预测] 提出EcoCast，基于Transformer的时空模型，整合Sentinel-2、ERA5和GBIF数据进行月度物种分布预测，配合EWC持续学习机制，在非洲5种鸟类分布预测上F1从0.31提升至0.65。
+  [NeurIPS 2025][遥感][生物多样性预测] 提出EcoCast，融合卫星遥感（Sentinel-2）、气候再分析（ERA5）和公民科学观测（GBIF）数据的Transformer时空序列模型，通过12个月环境特征序列预测下月物种出现概率，在非洲5种鸟类分布预测上F1宏平均从Random Forest的0.31提升至0.65，并设计了基于EWC的持续学习框架以适应数据更新。
 tags:
   - NeurIPS 2025
-  - 时间序列
-  - 生态预测
-  - 物种分布
+  - 遥感
+  - 生物多样性预测
+  - 物种分布建模
   - Transformer
   - 持续学习
-  - 遥感
+  - EWC
 ---
 
 # EcoCast: A Spatio-Temporal Model for Continual Biodiversity and Climate Risk Forecasting

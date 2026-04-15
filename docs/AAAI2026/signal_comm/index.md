@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📡 信号/通信
 
-**🤖 AAAI2026** · 共 **3** 篇
+**🤖 AAAI2026** · **3** 篇论文解读
 
 **[Task Aware Modulation Using Representation Learning For Upsaling Of Terrestrial ](task_aware_modulation_using_representation_learning_for_upsaling_of_terrestrial_.md)**
 

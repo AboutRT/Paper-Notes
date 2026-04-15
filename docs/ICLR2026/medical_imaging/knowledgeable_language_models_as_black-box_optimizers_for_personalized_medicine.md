@@ -55,9 +55,9 @@ $$\arg\max_{q(x)} \mathbb{E}_{x \sim q(x)}[\hat{f}(x;z)] \quad \text{s.t.} \quad
 
 - **做什么**：推导约束优化问题的可计算解
 - **核心思路**：
-  - **Lemma 4.2（等价类内塌缩）**：最优分布 $q^*$ 在每个等价类中只需集中在最优设计 $x_i^* = \arg\max_{x \in [x]_i} (\hat{f}(x;z) + \lambda c^*(x))$ 上
-  - **Lemma 4.3（概率采样）**：等价类概率满足 $\bar{q}_i \propto \exp[\mu(\hat{f}(x_i^*;z) + \lambda c^*(x_i^*))]$
-  - 两个 Lagrange 乘子 $\lambda$（源批评确定性）和 $\mu$（LLM 确定性）分别控制两个约束
+    - **Lemma 4.2（等价类内塌缩）**：最优分布 $q^*$ 在每个等价类中只需集中在最优设计 $x_i^* = \arg\max_{x \in [x]_i} (\hat{f}(x;z) + \lambda c^*(x))$ 上
+    - **Lemma 4.3（概率采样）**：等价类概率满足 $\bar{q}_i \propto \exp[\mu(\hat{f}(x_i^*;z) + \lambda c^*(x_i^*))]$
+    - 两个 Lagrange 乘子 $\lambda$（源批评确定性）和 $\mu$（LLM 确定性）分别控制两个约束
 
 #### 3. 确定性参数动态估计
 

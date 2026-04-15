@@ -27,8 +27,8 @@ tags:
 ## 研究背景与动机
 - **领域现状**：大型基础模型（如ViT）的全参数微调计算代价过高，LoRA通过低秩分解大幅减少可训练参数；联邦学习（FL）通过隐私保护的协作学习解决数据不足问题
 - **现有痛点**：将LoRA与FL直接结合（FedIT）面临两个根本性挑战：
-  - **挑战1：服务器端聚合偏差**：独立平均 $\bar{\mathbf{A}}$ 和 $\bar{\mathbf{B}}$ 后其乘积 $\bar{\mathbf{B}}\bar{\mathbf{A}}$ 不等于理想全局更新 $\sum p_k \mathbf{B}_k \mathbf{A}_k$（矩阵乘法对求和不可分配）
-  - **挑战2：客户端初始化滞后**：FLoRA等方法每轮重新初始化LoRA模块（$\mathbf{A}$随机、$\mathbf{B}$置零），导致梯度初期无信息（$\partial L/\partial \mathbf{A} \to 0$），在有限本地训练轮次下学习效率低
+    - **挑战1：服务器端聚合偏差**：独立平均 $\bar{\mathbf{A}}$ 和 $\bar{\mathbf{B}}$ 后其乘积 $\bar{\mathbf{B}}\bar{\mathbf{A}}$ 不等于理想全局更新 $\sum p_k \mathbf{B}_k \mathbf{A}_k$（矩阵乘法对求和不可分配）
+    - **挑战2：客户端初始化滞后**：FLoRA等方法每轮重新初始化LoRA模块（$\mathbf{A}$随机、$\mathbf{B}$置零），导致梯度初期无信息（$\partial L/\partial \mathbf{A} \to 0$），在有限本地训练轮次下学习效率低
 - **核心矛盾**：现有方法（FFA-LoRA、FLoRA、FlexLoRA）只能解决其中一个挑战，无法兼顾
 - **本文要解决的问题**：设计一个同时解决聚合偏差和初始化滞后，且不增加通信和计算开销的联邦LoRA微调方法
 - **切入角度**：在服务器端保持 $\bar{\mathbf{A}}$ 不变，引入残差 $\Delta\mathbf{B}$ 修正 $\bar{\mathbf{B}}$，使 $(\bar{\mathbf{B}} + \Delta\mathbf{B})\bar{\mathbf{A}} \approx \Delta\mathbf{W}$

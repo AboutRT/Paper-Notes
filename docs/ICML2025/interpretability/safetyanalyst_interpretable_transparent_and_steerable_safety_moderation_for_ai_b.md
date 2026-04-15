@@ -56,9 +56,9 @@ tags:
 - **利益相关者**（个人、群体、社区等）
 - **行为**（每个利益相关者可能受到的有害/有益行为）
 - **效果**（每个行为可能导致的后果）
-  - 可能性：Low/Medium/High
-  - 严重性：Minor/Significant/Substantial/Major
-  - 即时性：Immediate/Downstream
+    - 可能性：Low/Medium/High
+    - 严重性：Minor/Significant/Substantial/Major
+    - 即时性：Immediate/Downstream
 
 平均每个 prompt 产生 10+ 利益相关者、3-10 行为/利益相关者、3-7 效果/行为。
 

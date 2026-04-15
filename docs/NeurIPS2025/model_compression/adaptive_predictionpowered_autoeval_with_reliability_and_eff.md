@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees
 description: >-
-  [NeurIPS 2025][模型压缩][LLM evaluation] 提出R-AutoEval+，通过testing-by-betting框架自适应调整对合成数据（LLM评判器）的依赖权重ρ，首次同时保证有限样本可靠性和可证明的采样效率改善，在LLM量化选择、prompt设计和推理预算分配三个任务上验证有效性。
+  [NeurIPS 2025][模型压缩][LLM evaluation] 提出R-AutoEval+框架，通过在testing-by-betting框架中引入自适应权重机制动态调节对LLM评判器合成数据的依赖程度，首次在有限样本下同时保证评估可靠性和采样效率不低于仅用真实数据的方法，在LLM量化、prompt选择和推理预算分配三个场景中验证了理论优势。
 tags:
   - NeurIPS 2025
   - 模型压缩
@@ -10,7 +10,7 @@ tags:
   - prediction-powered inference
   - autoevaluator
   - e-value
-  - sample efficiency
+  - testing-by-betting
 ---
 
 # Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees

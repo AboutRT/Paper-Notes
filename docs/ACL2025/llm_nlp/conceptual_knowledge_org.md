@@ -74,8 +74,8 @@ tags:
 
     - 功能：让多个 LLM（LLaMA 3.1-8B/70B、LLaMA 3.2-3B、Mistral-7B、Mixtral-8x7B、NeMo-12B、LLaVA-7B、Idefics2-8B）为相同 187 个概念生成下位实例
     - 核心指标：
-      - 有效实例比例（通过意大利语语料库 ItTenTen 频率验证）
-      - 与人类 top-n 最典型实例的重叠率
+        - 有效实例比例（通过意大利语语料库 ItTenTen 频率验证）
+        - 与人类 top-n 最典型实例的重叠率
     - 幻觉分析：LLM 倾向于通过结构性外推生成不存在的实例
 
 3. **Subtask A：类别归纳（Category Induction）**:

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🤖 AAAI2026** · 共 **30** 篇
+**🤖 AAAI2026** · **30** 篇论文解读
 
 **[A Computable Game-Theoretic Framework For Multi-Agent Theory Of Mind](a_computable_game-theoretic_framework_for_multi-agent_theory_of_mind.md)**
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**💬 ACL2025** · 共 **10** 篇
+**💬 ACL2025** · **10** 篇论文解读
 
 **[Dialogue Systems For Emotional Support Via Value Reinforcement](dialogue_systems_for_emotional_support_via_value_reinforcement.md)**
 

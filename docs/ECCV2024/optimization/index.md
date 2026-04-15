@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🎞️ ECCV2024** · 共 **1** 篇
+**🎞️ ECCV2024** · **1** 篇论文解读
 
 **[Handling The Non-Smooth Challenge In Tensor Svd A Multi-Objective Tensor Recover](handling_the_non-smooth_challenge_in_tensor_svd_a_multi-objective_tensor_recover.md)**
 

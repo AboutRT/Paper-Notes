@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 对齐/RLHF方向 51篇论文解读
+  NeurIPS2025 对齐/RLHF方向 50篇论文解读
 description: >-
-  51篇NeurIPS2025 对齐/RLHF方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  50篇NeurIPS2025 对齐/RLHF方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**🧠 NeurIPS2025** · 共 **51** 篇
+**🧠 NeurIPS2025** · **50** 篇论文解读
 
 **[A Systematic Evaluation Of Preference Aggregation In Federated Rlhf For Pluralis](a_systematic_evaluation_of_preference_aggregation_in_federated_rlhf_for_pluralis.md)**
 
@@ -17,10 +17,6 @@ description: >-
 **[Adjacent Words Divergent Intents Jailbreaking Large Language Models Via Task Con](adjacent_words_divergent_intents_jailbreaking_large_language_models_via_task_con.md)**
 
 :   提出基于任务并发（Task Concurrency）的LLM越狱攻击框架 JAIL-CON，通过在词级别交错编码有害任务和良性任务，利用LLM处理并发任务的能力绕过安全防护，同时产生的并发回答在guardrail下具有更强的隐蔽性。
-
-**[Alignment Of Large Language Models With Constrained Learning](alignment_of_large_language_models_with_constrained_learning.md)**
-
-:   将LLM对齐建模为约束优化问题——最大化主要奖励（如有用性）同时满足次要效用约束（如安全性），提出基于拉格朗日对偶的迭代方法交替更新LLM策略和对偶变量，理论上刻画了分布空间与参数空间之间的原对偶间隙和最优性间隙，证明可以找到近最优约束LLM策略（误差仅来自参数化间隙）。
 
 **[Ask A Strong Llm Judge When Your Reward Model Is Uncertain](ask_a_strong_llm_judge_when_your_reward_model_is_uncertain.md)**
 

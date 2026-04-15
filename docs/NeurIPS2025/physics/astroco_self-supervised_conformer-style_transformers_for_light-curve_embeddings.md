@@ -71,8 +71,8 @@ tags:
 
 #### (3) 门控前馈网络（Gated FFN）
 - 扩展比 r=4，输入分别投影到两个 rD 维向量：
-  - $\text{val} = \text{GeLU}(W_{\text{val}} X)$
-  - $\text{gate} = \sigma(W_{\text{gate}} X)$
+    - $\text{val} = \text{GeLU}(W_{\text{val}} X)$
+    - $\text{gate} = \sigma(W_{\text{gate}} X)$
 - 输出 $Y = X + \text{Dropout}(W_{\text{out}}(\text{val} \odot \text{gate}))$，再接 LN。
 - 门控机制自适应决定哪些全局特征被保留。
 

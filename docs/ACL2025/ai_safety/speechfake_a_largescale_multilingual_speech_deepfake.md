@@ -2,20 +2,25 @@
 title: >-
   [论文解读] SpeechFake: A Large-Scale Multilingual Speech Deepfake Dataset Incorporating Cutting-Edge Generation Methods
 description: >-
-  [AI安全] 构建 SpeechFake 大规模语音深伪数据集，包含 300 万+深伪样本、3000+ 小时音频、40 种生成工具和 46 种语言，并通过基线实验系统分析了生成方法、语言多样性和说话人变化对检测性能的影响。
+  [ACL 2025][AI安全][speech deepfake detection] 构建 SpeechFake 大规模语音深伪数据集，包含 300 万+深伪样本、3000+ 小时音频、40 种生成工具和 46 种语言，并通过基线实验系统分析了生成方法、语言多样性和说话人变化对检测性能的影响。
 tags:
+  - ACL 2025
   - AI安全
+  - speech deepfake detection
+  - dataset
+  - multilingual
+  - TTS
+  - voice conversion
+  - neural vocoder
 ---
 
 # SpeechFake: A Large-Scale Multilingual Speech Deepfake Dataset Incorporating Cutting-Edge Generation Methods
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2507.21463](https://arxiv.org/abs/2507.21463) |
-| 代码 | [YMLLG/SpeechFake](https://github.com/YMLLG/SpeechFake) |
-| 领域 | AI Safety |
-| 关键词 | speech deepfake detection, dataset, multilingual, TTS, voice conversion, neural vocoder |
+**会议**: ACL 2025  
+**arXiv**: [2507.21463](https://arxiv.org/abs/2507.21463)  
+**代码**: [YMLLG/SpeechFake](https://github.com/YMLLG/SpeechFake)  
+**领域**: AI Safety  
+**关键词**: speech deepfake detection, dataset, multilingual, TTS, voice conversion, neural vocoder  
 
 ## 一句话总结
 

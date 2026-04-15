@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**🎞️ ECCV2024** · 共 **1** 篇
+**🎞️ ECCV2024** · **1** 篇论文解读
 
 **[Distill Gold From Massive Ores Bi-Level Data Pruning Towards Efficient Dataset D](distill_gold_from_massive_ores_bi-level_data_pruning_towards_efficient_dataset_d.md)**
 

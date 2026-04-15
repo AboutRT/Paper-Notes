@@ -70,9 +70,9 @@ HaMI 框架包含两大模块：
 4. **预测不确定性增强**：
 
     - 三个层次的不确定性度量：
-      - Token 级：预测概率 $P^t$
-      - 句子级：困惑度（perplexity）$P^s$
-      - 语义一致性级：基于多次采样的语义熵 $P^c$
+        - Token 级：预测概率 $P^t$
+        - 句子级：困惑度（perplexity）$P^s$
+        - 语义一致性级：基于多次采样的语义熵 $P^c$
     - 增强公式：$h' = (1 + \lambda \cdot P_{\text{uncertainty}}) \cdot h$
     - 默认使用语义一致性 $P^c$，$\lambda = 1.0$
 

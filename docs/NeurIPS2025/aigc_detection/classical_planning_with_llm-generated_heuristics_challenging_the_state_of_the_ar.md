@@ -2,16 +2,15 @@
 title: >-
   [论文解读] Classical Planning with LLM-Generated Heuristics: Challenging the State of the Art with Python Code
 description: >-
-  [NeurIPS 2025][AI规划][LLM代码生成] 提出让 LLM 生成域相关启发式函数的 Python 代码（而非直接生成计划），通过多次采样+训练集选优的流程，将生成的启发式注入教学级 Python 规划器 Pyperplan，在 IPC 2023 Learning Track 8 个域上以 373/720 的解题数超越了所有 C++ Fast Downward 传统启发式（最佳 324），并与 SOTA 学习型规划器持平。
+  [NeurIPS 2025][Classical Planning] 提出让 LLM **生成域相关启发式函数的 Python 代码**（而非直接生成计划），通过 $n$ 次采样获得候选启发式池并在训练集上选优，将最优启发式注入 Python 规划器 Pyperplan 配合 GBFS 使用，在 IPC 2023 基准 8 个域上以纯 Python 实现超越了所有 C++ Fast Downward 传统启发式，且与 SOTA 学习型规划器 $h^{\mathrm{WLF}}_{\mathrm{GPR}}$ 持平，同时保证所有找到的计划 100% 正确。
 tags:
   - NeurIPS 2025
-  - AI规划
-  - LLM代码生成
-  - 启发式函数
+  - Classical Planning
+  - LLM Code Generation
+  - Heuristic Function
   - PDDL
-  - 经典规划
-  - 代码生成
-  - DeepSeek R1
+  - Greedy Best-First Search
+  - Domain-Dependent Planning
 ---
 
 # Classical Planning with LLM-Generated Heuristics: Challenging the State of the Art with Python Code

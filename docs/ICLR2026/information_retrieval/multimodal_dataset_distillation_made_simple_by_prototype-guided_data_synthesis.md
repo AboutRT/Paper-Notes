@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Multimodal Dataset Distillation Made Simple by Prototype-Guided Data Synthesis
 description: >-
-  [ICLR 2026][多模态蒸馏] 提出PDS (Prototype-Guided Data Synthesis)，首个免训练的多模态数据集蒸馏方法——用CLIP提取对齐的图文嵌入→聚类→线性分配匹配跨模态原型→unCLIP解码器从图像原型合成图像，在极小蒸馏集上以零训练代价达到SOTA的跨架构泛化。
+  [ICLR 2026][多模态蒸馏] 提出 PDS（Prototype-Guided Data Synthesis），首个免训练的多模态数据集蒸馏框架——利用 CLIP 对齐嵌入空间做模态特异聚类，通过匈牙利算法跨模态匹配获得图文原型，再用 unCLIP 解码器从图像原型合成蒸馏图像，在 100 对极小蒸馏集上以零训练代价全面超越优化式方法，并实现 SOTA 的跨架构泛化能力。
 tags:
   - ICLR 2026
   - 多模态蒸馏
   - CLIP
   - unCLIP
-  - 原型
-  - 免训练
+  - 原型学习
+  - 免训练蒸馏
 ---
 
 # Multimodal Dataset Distillation Made Simple by Prototype-Guided Data Synthesis

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Demystifying Spectral Feature Learning for Instrumental Variable Regression
 description: >-
-  [NeurIPS 2025][因果推断] 为基于谱特征的非参数工具变量回归建立严格的泛化误差界，提出Good-Bad-Ugly三种性能分类法——取决于结构函数与条件期望算子的谱对齐和奇异值衰减，并给出数据驱动诊断工具让实践者判断问题类型。
+  [NeurIPS 2025][工具变量] 为基于谱特征的非参数工具变量（NPIV）回归建立严格的泛化误差界，揭示性能由结构函数与条件期望算子的**谱对齐**（近似误差）和**奇异值衰减速度**（估计误差）两因素共同决定，提出 Good-Bad-Ugly 三分类法并设计数据驱动诊断工具。
 tags:
   - NeurIPS 2025
-  - 因果推断
-  - 工具变量回归
-  - 谱特征学习
+  - 工具变量
+  - 谱特征
+  - 两阶段最小二乘
   - 对比学习
-  - 泛化理论
+  - 因果效应估计
 ---
 
 # Demystifying Spectral Feature Learning for Instrumental Variable Regression

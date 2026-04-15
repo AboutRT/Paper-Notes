@@ -2,12 +2,14 @@
 title: >-
   [论文解读] OrbitZoo: Real Orbital Systems Challenges for Reinforcement Learning
 description: >-
-  [NeurIPS 2025][多智能体RL] 提出OrbitZoo——一个基于工业级轨道动力学库Orekit的多智能体强化学习环境，支持碰撞规避、编队飞行等场景，在Starlink真实数据验证中MAPE仅为0.16%。
+  [NeurIPS 2025][多智能体强化学习] 提出 OrbitZoo，一个基于工业级天体动力学库 Orekit 的多智能体 RL 环境，集成高保真轨道动力学（含大气阻力、太阳辐射压、三体效应等）、PettingZoo 多智能体接口和实时 3D 可视化，在 Starlink 真实星历验证中均值 MAPE 仅 0.16%。
 tags:
   - NeurIPS 2025
-  - 多智能体RL
-  - 轨道力学
-  - Orekit
+  - 多智能体强化学习
+  - 轨道动力学
+  - 高保真仿真
+  - 碰撞规避
+  - PettingZoo
 ---
 
 # OrbitZoo: Real Orbital Systems Challenges for Reinforcement Learning

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[Magicid Hybrid Preference Optimization For Id-Consistent And Dynamic-Preserved V](magicid_hybrid_preference_optimization_for_id-consistent_and_dynamic-preserved_v.md)**
 

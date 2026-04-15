@@ -2,20 +2,24 @@
 title: >-
   [论文解读] GIFT-SW: Gaussian Noise Injected Fine-Tuning of Salient Weights for LLMs
 description: >-
-  [LLM/NLP] 提出 GIFT-SW，一种新型参数高效微调方法：仅更新权重矩阵中的"显著列"(salient columns)，同时对非显著列注入高斯噪声，在相同计算预算下超越全参微调和 LoRA/DoRA 等现代 PEFT 方法。
+  [ACL2025][LLM/NLP][PEFT] 提出 GIFT-SW，一种新型参数高效微调方法：仅更新权重矩阵中的"显著列"(salient columns)，同时对非显著列注入高斯噪声，在相同计算预算下超越全参微调和 LoRA/DoRA 等现代 PEFT 方法。
 tags:
+  - ACL2025
   - LLM/NLP
+  - PEFT
+  - Salient Weights
+  - Gaussian Noise Injection
+  - 量化
+  - LLM Fine-tuning
 ---
 
 # GIFT-SW: Gaussian Noise Injected Fine-Tuning of Salient Weights for LLMs
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2408.15300](https://arxiv.org/abs/2408.15300) |
-| 代码 | 有（论文中提到） |
-| 领域 | LLM NLP / 参数高效微调 |
-| 关键词 | PEFT, Salient Weights, Gaussian Noise Injection, Quantization, LLM Fine-tuning |
+**会议**: ACL2025  
+**arXiv**: [2408.15300](https://arxiv.org/abs/2408.15300)  
+**代码**: 有（论文中提到）  
+**领域**: LLM NLP / 参数高效微调  
+**关键词**: PEFT, Salient Weights, Gaussian Noise Injection, Quantization, LLM Fine-tuning  
 
 ## 一句话总结
 

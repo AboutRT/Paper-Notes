@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spatio-Temporal Directed Graph Learning for Account Takeover Fraud Detection
 description: >-
-  [NeurIPS 2025 Workshop][图学习][欺诈检测] 提出 ATLAS 框架，将 ATO 欺诈检测建模为时空有向图上的节点分类，通过因果时序消息传递、延迟标签传播和 GraphSAGE 变体，在 Capital One 1 亿节点 10 亿边的大规模图上实现 +6.38% AUC 和 50%+ 用户摩擦降低。
+  [NeurIPS 2025 (Workshop on New Perspective in Graph Machine Learning)][图学习][GraphSAGE] 提出 ATLAS 框架，将账户接管（ATO）欺诈检测重新建模为时空有向图上的节点分类问题，通过时间窗口 + 最近邻约束构建因果有向图，结合延迟感知标签传播和 GraphSAGE 编码器，在 Capital One 的 1 亿节点、10 亿边大规模生产图上实现 +6.38% AUC 提升和超过 50% 的用户摩擦降低。
 tags:
-  - NeurIPS 2025 Workshop
+  - NeurIPS 2025 (Workshop on New Perspective in Graph Machine Learning)
   - 图学习
-  - 图神经网络
-  - 时空图
+  - GraphSAGE
+  - 时空有向图
   - 欺诈检测
-  - 账户接管
-  - 有向图
+  - 标签传播
+  - 因果推理
 ---
 
 # Spatio-Temporal Directed Graph Learning for Account Takeover Fraud Detection

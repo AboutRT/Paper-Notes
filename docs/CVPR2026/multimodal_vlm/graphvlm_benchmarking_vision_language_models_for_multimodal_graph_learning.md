@@ -61,7 +61,7 @@ GraphVLM 将 VLM 在 MMGL 中的角色分为三类，构建统一评估协议：
     - **Prompt-Level Aligner**：用Qwen-VL将图像描述转文本，构造"视觉增强节点prompt"：
      - Visual-augmented: $\mathcal{T}^I = \text{VLM}(\mathcal{P}_{\text{Gen}}, \mathcal{I}; \theta)$，再用VLM总结为简洁摘要 $\mathcal{T}^S$
      - Structure-aware: 进一步融合邻居节点的视觉描述 $\mathcal{T}^{SS}$
-   - 设计动机：分别在特征级和提示级实现跨模态桥接，适配不同GraphLLM架构
+    - 设计动机：分别在特征级和提示级实现跨模态桥接，适配不同GraphLLM架构
 
 3. **VLM-as-Predictor**：直接微调VLM为图学习骨干
 
@@ -69,7 +69,7 @@ GraphVLM 将 VLM 在 MMGL 中的角色分为三类，构建统一评估协议：
     - **Implicit Latent-Space Fusion**：将邻居表示聚合为结构感知token注入模型隐空间
      - 视觉：平均池化邻居图像的patch嵌入
      - 文本：平均final-layer token嵌入作为节点级表示
-   - 使用 LLaVA-1.5-7B / Qwen-VL-7B / Qwen2.5-VL-7B 进行LoRA微调
+    - 使用 LLaVA-1.5-7B / Qwen-VL-7B / Qwen2.5-VL-7B 进行LoRA微调
 
 ### 损失函数 / 训练策略
 

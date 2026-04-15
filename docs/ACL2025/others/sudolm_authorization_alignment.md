@@ -56,9 +56,9 @@ SudoLM 将模型知识分为 $\kappa_{pub}$（公开知识）和 $\kappa_{priv}$
 
     - 功能：通过差异化偏好训练，教模型根据 key 有无切换行为
     - 核心思路：$\mathcal{L}_{SUDO} = \mathcal{L}_{priv} + \mathcal{L}_{pub}$
-      - $\mathcal{L}_{priv}$：有 key 时，偏好详细回答（$y_w$）而非拒绝（$y_l$）
-      - $\mathcal{L}_{pub}$：标准 DPO，偏好有帮助的回答
-      - 无 key 的受限查询：通过反向偏好数据（偏好拒绝而非详细回答）训练
+        - $\mathcal{L}_{priv}$：有 key 时，偏好详细回答（$y_w$）而非拒绝（$y_l$）
+        - $\mathcal{L}_{pub}$：标准 DPO，偏好有帮助的回答
+        - 无 key 的受限查询：通过反向偏好数据（偏好拒绝而非详细回答）训练
     - 设计动机：标准 DPO 只能做静态偏好，SudoLM 通过条件化偏好（有/无 key）实现动态访问控制
 
 3. **粗粒度和细粒度两种场景**:

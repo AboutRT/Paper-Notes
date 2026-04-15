@@ -29,9 +29,9 @@ tags:
 
 - **混合对照试验**：将外部对照（EC）整合到RCT中以增强统计功效，适用于罕见病等样本量受限场景
 - **现有方法的局限**：
-  - Bayesian方法（power prior、commensurate prior）：可能膨胀 I 类错误率
-  - 频率学方法（倾向性评分加权、双重稳健估计）：依赖大样本渐近理论，小样本下不可靠
-  - 当RCT样本量小（恰恰是最需要借用EC的场景）时，模型误设和渐近近似失效
+    - Bayesian方法（power prior、commensurate prior）：可能膨胀 I 类错误率
+    - 频率学方法（倾向性评分加权、双重稳健估计）：依赖大样本渐近理论，小样本下不可靠
+    - 当RCT样本量小（恰恰是最需要借用EC的场景）时，模型误设和渐近近似失效
 - **未观测混杂**：EC非随机化产生，即使调整可观测混杂仍可能存在隐含偏差
 - **核心矛盾**：借用EC可减小方差但引入偏差；不借用则功效不足
 
@@ -72,8 +72,8 @@ $$\hat{\tau}_\gamma = \frac{1}{n_\mathcal{R}} \sum_{i=1}^n \left[S_i \hat{\mu}_{
 **3. 保形 p 值**
 
 - **Split conformal**：将随机化对照组分为校准集和训练集，用残差作为非一致性分数
-  - $p_j^{\text{split}} = \frac{\sum_{i \in \mathcal{C}_1} \mathbb{I}(s_i \ge s_j) + 1}{|\mathcal{C}_1| + 1}$
-  - **命题3.1**：若EC $j$ 与对照组可交换，则 $\mathbb{P}(p_j^{\text{split}} \le \gamma) \le \gamma$
+    - $p_j^{\text{split}} = \frac{\sum_{i \in \mathcal{C}_1} \mathbb{I}(s_i \ge s_j) + 1}{|\mathcal{C}_1| + 1}$
+    - **命题3.1**：若EC $j$ 与对照组可交换，则 $\mathbb{P}(p_j^{\text{split}} \le \gamma) \le \gamma$
 
 - **CV+ p 值**：K折交叉验证版本，充分利用数据，代价是保证稍弱（$\le 2\gamma + O(1/K)$）
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**📹 ICCV2025** · 共 **36** 篇
+**📹 ICCV2025** · **36** 篇论文解读
 
 **[A Hidden Stumbling Block In Generalized Category Discovery D](a_hidden_stumbling_block_in_generalized_category_discovery_d.md)**
 

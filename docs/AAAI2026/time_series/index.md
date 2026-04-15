@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🤖 AAAI2026** · 共 **31** 篇
+**🤖 AAAI2026** · **31** 篇论文解读
 
 **[A Unified Shape-Aware Foundation Model For Time Series Class](a_unified_shape-aware_foundation_model_for_time_series_class.md)**
 

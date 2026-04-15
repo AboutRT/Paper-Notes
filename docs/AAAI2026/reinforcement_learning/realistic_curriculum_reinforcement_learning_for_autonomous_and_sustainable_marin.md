@@ -84,9 +84,9 @@ $$\mathcal{L}_{\text{DM}} = \mathbb{E}_{\mathbf{x}_0, \boldsymbol{\epsilon}, t}\
 **状态表示**由两部分组成：
 - **自身船舶状态** $\mathbf{s}_1^t \in \mathbb{R}^9$：当前经纬度、目的地经纬度、航向角、洋流方向、当前速度（角度特征使用正余弦编码）
 - **环境状态** $\mathbf{s}_2^t \in \mathbb{R}^{64 \times 64 \times 3}$：以自身为中心的三通道图像张量
-  - Channel 0：占用指示（是否有船舶）
-  - Channel 1：对地速度（SOG）
-  - Channel 2：对地航向（COG）
+    - Channel 0：占用指示（是否有船舶）
+    - Channel 1：对地速度（SOG）
+    - Channel 2：对地航向（COG）
 
 **动作空间**为连续二维空间：
 $$\mathbf{a}_t = [\Delta\psi_t, v_t], \quad -\hat{\psi} \leq \Delta\psi_t \leq \hat{\psi}, \quad v_l \leq v_t \leq v_u$$

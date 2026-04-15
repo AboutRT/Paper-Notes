@@ -59,7 +59,7 @@ tags:
     - **数据格式**：每条知识包含：
      - 注入数据 $\mathcal{D}_\mathcal{K} = \{(i_k, x_k, y_k)\}$：知识图片、启发式查询、知识摘要
      - 评估数据 $\mathcal{D}_\mathcal{Q} = \{(i_q, x_q, y_q)\}$：查询图片、问题、ground truth
-   - **质量保证**：流行度过滤 → GPT-4o 摘要 → GPT-4o 生成 QA → Google 图片检索 → CLIP 聚类去噪 → 人工审核
+    - **质量保证**：流行度过滤 → GPT-4o 摘要 → GPT-4o 生成 QA → Google 图片检索 → CLIP 聚类去噪 → 人工审核
 
 2. **知识注入方法评估**：三大类方法全面覆盖
 
@@ -87,16 +87,16 @@ tags:
      - EWC (Elastic Weight Consolidation)：参数正则化方法
      - LwF (Learning without Forgetting)：知识蒸馏方法
      - MoELoRA：多专家 LoRA，利用多个专家获取多样化知识
-   - 综合排名：Replay+LoRA (Rank 1) > MoELoRA (Rank 2) > Replay+Full-FT (Rank 3)
+    - 综合排名：Replay+LoRA (Rank 1) > MoELoRA (Rank 2) > Replay+Full-FT (Rank 3)
 
 ### 损失函数 / 训练策略
 
 - SFT：标准指令微调损失（交叉熵）
 - 持续学习方法各自的损失：
-  - Replay：在原始数据子集上的标准损失
-  - EWC：$\mathcal{L}_{EWC} = \mathcal{L}_{task} + \lambda \sum_i F_i (\theta_i - \theta_i^*)^2$
-  - LwF：$\mathcal{L}_{LwF} = \mathcal{L}_{task} + \lambda \mathcal{L}_{KD}$
-  - MoELoRA：多专家路由 + 对比学习
+    - Replay：在原始数据子集上的标准损失
+    - EWC：$\mathcal{L}_{EWC} = \mathcal{L}_{task} + \lambda \sum_i F_i (\theta_i - \theta_i^*)^2$
+    - LwF：$\mathcal{L}_{LwF} = \mathcal{L}_{task} + \lambda \mathcal{L}_{KD}$
+    - MoELoRA：多专家路由 + 对比学习
 
 ## 实验关键数据
 

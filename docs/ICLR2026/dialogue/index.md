@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**🔬 ICLR2026** · 共 **4** 篇
+**🔬 ICLR2026** · **4** 篇论文解读
 
 **[Aqua Toward Strategic Response Generation For Ambiguous Visual Questions](aqua_toward_strategic_response_generation_for_ambiguous_visual_questions.md)**
 

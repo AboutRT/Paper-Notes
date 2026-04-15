@@ -2,14 +2,14 @@
 title: >-
   [论文解读] MolLangBench: A Comprehensive Benchmark for Language-Prompted Molecular Structure Recognition, Editing, and Generation
 description: >-
-  [ICLR 2026][AI for Chemistry] 提出 MolLangBench，首个系统评估 AI 模型在语言提示下进行分子结构识别、编辑和生成的基准，覆盖 SMILES/图像/图三种模态，揭示 GPT-5 在识别(86.2%)和编辑(85.5%)上仍有显著差距，生成仅 43.0%，当前 AI 缺乏分子结构基础能力。
+  [ICLR 2026][人体理解][molecular recognition] 提出 MolLangBench 基准，通过自动化工具和专家标注构建高质量、无歧义的分子-语言接口评估数据集，覆盖识别/编辑/生成三类任务和 SMILES/图像/图三种模态，评估 16+ 个商业 LLM 和 5 个化学模型，揭示即使 GPT-5 在基础分子操作上仍显著不足（生成仅 43%）。
 tags:
   - ICLR 2026
-  - AI for Chemistry
-  - 分子识别
-  - 分子编辑
-  - 分子生成
-  - 语言-分子对齐
+  - 人体理解
+  - molecular recognition
+  - molecule editing
+  - molecule generation
+  - molecule-language alignment
   - benchmark
 ---
 

@@ -52,10 +52,10 @@ tags:
 
     - 功能：统一建模 4 类物理退化（低光照、雨、雪、雾）的级联过程
     - 核心思路：
-      - 低光照：基于 Retinex 理论，$I_l(x) = \frac{J(x)}{L(x)} L(x)^\gamma + \varepsilon$，$\gamma \in [2,3]$
-      - 雨：$I_{rs}(x) = I_l(x) + \mathcal{R}$
-      - 雪：$I_{rs}(x) = I_l(x)(1-\mathcal{S}) + M(x)\mathcal{S}$
-      - 雾：$I(x) = I_{rs}(x) \cdot t + A(1-t)$，$t = e^{-\beta d(x)}$
+        - 低光照：基于 Retinex 理论，$I_l(x) = \frac{J(x)}{L(x)} L(x)^\gamma + \varepsilon$，$\gamma \in [2,3]$
+        - 雨：$I_{rs}(x) = I_l(x) + \mathcal{R}$
+        - 雪：$I_{rs}(x) = I_l(x)(1-\mathcal{S}) + M(x)\mathcal{S}$
+        - 雾：$I(x) = I_{rs}(x) \cdot t + A(1-t)$，$t = e^{-\beta d(x)}$
     - 设计动机：真实场景中退化是叠加的，需按物理规律建模级联关系。基于此构建了 CDD-11 数据集（11 类退化 + 清晰图），1383 张高分辨率图生成 13,013 训练对 + 2,200 测试对。
 
 2. **场景描述符引导的 Transformer 块（SDTB）**:
@@ -69,9 +69,9 @@ tags:
 
     - 功能：提供两种模式生成场景描述嵌入——手动输入文本 vs 自动视觉属性提取
     - 核心思路：
-      - 文本嵌入器：5 种基本场景文本经 GloVe → 12 种文本嵌入（含 7 种组合退化，由对应单退化嵌入取平均生成）→ MLP 精化
-      - 视觉嵌入器：ResNet-18 提取视觉特征 → conv + dropout + linear → 视觉嵌入 → cosine similarity 匹配最相似文本嵌入
-      - 训练用 cosine cross-entropy loss：$S(e_v, e_t) = \frac{e^{\cos(e_v, e_t)}}{\sum_{t_i=1}^{N_t} e^{\cos(e_v, e_{t_i})}}$
+        - 文本嵌入器：5 种基本场景文本经 GloVe → 12 种文本嵌入（含 7 种组合退化，由对应单退化嵌入取平均生成）→ MLP 精化
+        - 视觉嵌入器：ResNet-18 提取视觉特征 → conv + dropout + linear → 视觉嵌入 → cosine similarity 匹配最相似文本嵌入
+        - 训练用 cosine cross-entropy loss：$S(e_v, e_t) = \frac{e^{\cos(e_v, e_t)}}{\sum_{t_i=1}^{N_t} e^{\cos(e_v, e_{t_i})}}$
     - 设计动机：文本嵌入提供精确可控的场景描述（精度更高），视觉嵌入提供自动化能力（97.55% 准确率），两者互补。
 
 4. **复合退化复原损失（CDRL）**:

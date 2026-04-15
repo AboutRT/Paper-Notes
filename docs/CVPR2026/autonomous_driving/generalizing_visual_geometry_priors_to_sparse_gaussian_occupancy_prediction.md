@@ -60,10 +60,10 @@ GPOcc 的核心 idea：沿相机射线将预测的表面点向内延伸，生成
 
 ### 损失函数 / 训练策略
 - 复合损失函数：$\mathcal{L} = L_{\text{focal}} + L_{\text{lov}} + L_{\text{scal}}^{\text{geo}} + L_{\text{scal}}^{\text{sem}} + L_{\text{depth}}$
-  - $L_{\text{focal}}$：focal loss 处理类别不平衡
-  - $L_{\text{lov}}$：Lovász-Softmax loss 优化 IoU
-  - $L_{\text{scal}}^{\text{geo/sem}}$：场景类别亲和力损失（几何+语义）
-  - $L_{\text{depth}}$：Huber 深度损失，端到端优化几何一致性（不同于 EmbodiedOcc 依赖外部预训练深度估计器）
+    - $L_{\text{focal}}$：focal loss 处理类别不平衡
+    - $L_{\text{lov}}$：Lovász-Softmax loss 优化 IoU
+    - $L_{\text{scal}}^{\text{geo/sem}}$：场景类别亲和力损失（几何+语义）
+    - $L_{\text{depth}}$：Huber 深度损失，端到端优化几何一致性（不同于 EmbodiedOcc 依赖外部预训练深度估计器）
 - 训练：AdamW（weight decay 0.01），10 epochs，batch 8，4×A800 GPU，学习率 cosine 衰减至 $2 \times 10^{-4}$
 - 输入图像长边缩放至 518px，梯度裁剪 1.0
 

@@ -66,8 +66,8 @@ EAFormer由三个模块组成：
 
     - 基于SegFormer的4阶段层级Transformer编码器
     - 在**第一阶段**后引入**对称交叉注意力（Symmetric Cross-Attention）**：
-      - 边缘作为Query、视觉特征作为Key/Value → 提取边缘感知视觉信息 $\mathbf{F}^{ev}$
-      - 视觉特征作为Query、边缘作为Key/Value → 提取文字边缘信息 $\mathbf{F}^{te}$
+        - 边缘作为Query、视觉特征作为Key/Value → 提取边缘感知视觉信息 $\mathbf{F}^{ev}$
+        - 视觉特征作为Query、边缘作为Key/Value → 提取文字边缘信息 $\mathbf{F}^{te}$
     $\hat{\mathbf{F}}_1^s = \mathbf{F}^{ev} \oplus \mathbf{F}^{te} \oplus \mathbf{F}_1^s$
     - **仅在第一阶段融合边缘**的设计动机：K-Means聚类可视化显示只有第一阶段特征关注边缘信息，高层特征已不包含边缘细节。实验也验证在更高阶段引入边缘信息反而损害性能
 

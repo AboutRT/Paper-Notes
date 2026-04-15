@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**📷 CVPR2026** · 共 **1** 篇
+**📷 CVPR2026** · **1** 篇论文解读
 
 **[Sea-Vision A Multilingual Benchmark For Comprehensive Document And Scene Text Un](sea-vision_a_multilingual_benchmark_for_comprehensive_document_and_scene_text_un.md)**
 

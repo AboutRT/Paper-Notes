@@ -2,13 +2,15 @@
 title: >-
   [论文解读] RLZero: Direct Policy Inference from Language Without In-Domain Supervision
 description: >-
-  [NeurIPS 2025][图像生成][零样本策略推理] 提出RLZero框架，通过"想象-投影-模仿"三步流程，利用视频生成模型将自然语言指令转化为观测序列，再由无监督预训练的RL智能体即时模仿，实现零样本语言到行为的生成。
+  [NeurIPS 2025][图像生成][零样本策略推理] 提出 RLZero 框架，通过"想象 → 投影 → 模仿"三步流程，将自然语言指令转化为目标环境中的行为策略——用视频生成模型从语言"想象"观测序列，将其投影到目标域，最终由无监督预训练的 RL 智能体通过闭合形式解即时模仿，整个过程无需任何域内监督或标注轨迹。
 tags:
   - NeurIPS 2025
   - 图像生成
   - 零样本策略推理
   - 语言条件RL
-  - 无监督强化学习
+  - 视频生成模型
+  - 无监督RL
+  - 跨embodiment迁移
 ---
 
 # RLZero: Direct Policy Inference from Language Without In-Domain Supervision

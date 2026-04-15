@@ -66,11 +66,11 @@ tags:
 
 - **场景描述**（Scene Descriptions）：物体描述（object-captioning）
 - **瞬时动态**（Momentary Dynamics）：
-  - 物体中心：dynamic-scene、relative-position、current-object-property
-  - 智能体中心：agent-velocity、multi-agent-relation
+    - 物体中心：dynamic-scene、relative-position、current-object-property
+    - 智能体中心：agent-velocity、multi-agent-relation
 - **持续动态**（Durative Dynamics）：
-  - 物体中心：temporary-static-objects、most-active-object、motion-sequence
-  - 智能体中心：agent-trajectory、agent-grab-object、agent-motion-status
+    - 物体中心：temporary-static-objects、most-active-object、motion-sequence
+    - 智能体中心：agent-trajectory、agent-grab-object、agent-motion-status
 
 **QA生成流程**：
 1. 提取同步RGB-D帧、6-DoF相机位姿和对齐的3D边界框

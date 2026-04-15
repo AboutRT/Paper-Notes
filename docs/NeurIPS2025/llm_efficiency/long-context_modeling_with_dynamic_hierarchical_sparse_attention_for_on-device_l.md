@@ -68,8 +68,8 @@ DHSA 作为 plug-in 模块嵌入 Transformer 每一层。输入当前层的 toke
     - **做什么**：对 chunk 内 token 嵌入做平均池化，然后乘以 $\sqrt{|\mathbf{C}|}$ 进行长度归一化
     - **核心思路**：$\mathbf{q}_c = \sqrt{|\mathbf{C}|} \cdot \bar{\mathbf{q}}$，$\mathbf{k}_c = \sqrt{|\mathbf{C}|} \cdot \bar{\mathbf{k}}$。chunk 级相似度 $\mathbf{S}_c = \mathbf{Q}_c \mathbf{K}_c^{\top}$
     - **设计动机**：
-      - 直接 padding 后平均会被零值稀释表示质量
-      - 不同长度 chunk 的平均向量范数不同，导致相似度分数偏差。$\sqrt{|\mathbf{C}|}$ 归一化消除长度对点积的影响
+        - 直接 padding 后平均会被零值稀释表示质量
+        - 不同长度 chunk 的平均向量范数不同，导致相似度分数偏差。$\sqrt{|\mathbf{C}|}$ 归一化消除长度对点积的影响
 
 4. **Prefill 与 Decode 阶段适配**
 

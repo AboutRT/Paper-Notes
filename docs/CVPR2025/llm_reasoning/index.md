@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM推理
 
-**📷 CVPR2025** · 共 **3** 篇
+**📷 CVPR2025** · **3** 篇论文解读
 
 **[Cot-Vla Visual Chain-Of-Thought Reasoning For Vision-Language-Action Models](cot-vla_visual_chain-of-thought_reasoning_for_vision-language-action_models.md)**
 

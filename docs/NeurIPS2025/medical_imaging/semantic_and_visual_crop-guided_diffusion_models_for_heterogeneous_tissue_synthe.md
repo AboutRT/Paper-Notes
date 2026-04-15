@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Semantic and Visual Crop-Guided Diffusion Models for Heterogeneous Tissue Synthesis in Histopathology
 description: >-
-  [NeurIPS 2025][医学图像][histopathology] 提出 HeteroTissue-Diffuse 双条件 LDM，结合语义分割图与组织视觉裁剪块直接作为条件，生成高保真异质性病理图像；在 Camelyon16 上 FD 降低 6 倍（430→72），合成数据训练分割模型 IoU 与真实数据仅差 1-2%；进一步通过自监督聚类将框架扩展到 11765 张无标注 TCGA WSI。
+  [NeurIPS 2025][医学图像][病理图像合成] 提出 HeteroTissue-Diffuse（HTD），一种双条件 Latent Diffusion 模型，通过同时以语义分割图和真实组织裁剪块（visual crop）作为条件来生成异质性病理图像，在 Camelyon16 上将 Fréchet Distance 从 430 降至 72（6 倍改善），合成数据训练的 DeepLabv3+ 分割 IoU 与真实数据仅差 1-2%，并通过自监督聚类扩展到 11765 张无标注 TCGA 全幻灯片图像。
 tags:
   - NeurIPS 2025
   - 医学图像
-  - histopathology
+  - 病理图像合成
   - 扩散模型
-  - tissue synthesis
-  - 语义分割
-  - 数据增强
+  - 双条件生成
+  - 异质性组织
+  - 自监督聚类
 ---
 
 # Semantic and Visual Crop-Guided Diffusion Models for Heterogeneous Tissue Synthesis in Histopathology

@@ -54,11 +54,11 @@ RefAtomNet 包含三个 token 流：(1) 视觉流——ViT 编码视频帧，QFo
 
     - 功能：利用 agent token 跨流抑制不相关视觉信息
     - 核心思路：
-      - 对每个流 $\phi \in \{RT, VT, LS\}$ 计算 Q、K、V 和 agent token $\mathbf{A}^\phi$
-      - 对文本和位置-语义流做 agent attention：$\mathbf{M}_{QA}^\pi = \sigma_c(\text{MatMul}[\alpha \cdot \mathbf{A}_*^\pi, \mathbf{Q}^\pi])$
-      - 跨流融合视觉流的 agent query 注意力：
+        - 对每个流 $\phi \in \{RT, VT, LS\}$ 计算 Q、K、V 和 agent token $\mathbf{A}^\phi$
+        - 对文本和位置-语义流做 agent attention：$\mathbf{M}_{QA}^\pi = \sigma_c(\text{MatMul}[\alpha \cdot \mathbf{A}_*^\pi, \mathbf{Q}^\pi])$
+        - 跨流融合视觉流的 agent query 注意力：
     $\hat{\mathbf{M}}_{QA}^\gamma = \text{AVG}[\mathbf{M}_{QA}^\gamma, \sigma_c(\sum_\pi \mathbf{M}_{QA}^\pi) \cdot \mathbf{M}_{QA}^\gamma, \sigma_t(\sum_\pi \mathbf{M}_{QA}^\pi) \cdot \mathbf{M}_{QA}^\gamma]$
-      - 类似地计算跨流 agent token 融合，最终聚合所有流：$\mathbf{t}_{agg} = \sum_\phi \mathbf{t}_*^\phi / N_s$
+        - 类似地计算跨流 agent token 融合，最终聚合所有流：$\mathbf{t}_{agg} = \sum_\phi \mathbf{t}_*^\phi / N_s$
     - 设计动机：标准注意力无法有效区分不同流的重要性。Agent attention 通过中间 agent token 聚合关键信息并排除冗余，跨流应用可以用文本和位置-语义线索指导视觉流关注正确区域
 
 3. **1D Sequential Agent Token 改造**

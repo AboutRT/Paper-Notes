@@ -55,17 +55,17 @@ SLAck 构建在预训练的开放词汇检测器之上。Pipeline 分三步：(1
 
     - 功能：从冻结检测器中提取三种互补的目标描述符
     - 核心思路：
-      - **语义头**：使用 CLIP 对齐的 RCNN 分类头的输出嵌入，经 5 层 MLP 投影得到语义嵌入 $E_{\text{sem}}$。这样无需重训即可配置新类别
-      - **位置头**：将检测框坐标归一化——以图像中心为原点、70%最大维度为缩放因子：$\left(\frac{x_{\min} - W/2}{s}, \frac{y_{\min} - H/2}{s}, \frac{w}{s}, \frac{h}{s}\right)$，经 MLP 投影为位置嵌入 $E_{\text{loc}}$
-      - **外观头**：4 层卷积 + MLP 处理 RoI 特征，输出外观嵌入 $E_{\text{app}}$
+        - **语义头**：使用 CLIP 对齐的 RCNN 分类头的输出嵌入，经 5 层 MLP 投影得到语义嵌入 $E_{\text{sem}}$。这样无需重训即可配置新类别
+        - **位置头**：将检测框坐标归一化——以图像中心为原点、70%最大维度为缩放因子：$\left(\frac{x_{\min} - W/2}{s}, \frac{y_{\min} - H/2}{s}, \frac{w}{s}, \frac{h}{s}\right)$，经 MLP 投影为位置嵌入 $E_{\text{loc}}$
+        - **外观头**：4 层卷积 + MLP 处理 RoI 特征，输出外观嵌入 $E_{\text{app}}$
     - 设计动机：冻结检测器保持原始检测能力不退化；归一化坐标确保尺度不变性；三种嵌入捕捉目标的不同方面
 
 2. **时空目标图 (Spatial-Temporal Object Graph, STOG)**:
 
     - 功能：建模帧内目标间的空间关系和帧间目标的时序对应
     - 核心思路：先将三种嵌入通过加法融合 $E_{\text{fused}}^i = E_{\text{app}}^i + E_{\text{loc}}^i + E_{\text{sem}}^i$，然后交替进行：
-      - **帧内自注意力**（Spatial Object Graph）：$\text{SA}_K(Q_K, K_K, V_K) = \sigma\left(\frac{Q_K K_K^T}{\sqrt{d}}\right)V_K$，分别处理 key 帧和 reference 帧内的目标关系，让模型感知帧内目标的相对位置和相互关系
-      - **帧间交叉注意力**（Temporal Object Graph）：$\text{CA}_{K \to R}(Q_K, K_R, V_R)$，对齐和更新不同帧之间的目标特征，捕捉时序运动模式
+        - **帧内自注意力**（Spatial Object Graph）：$\text{SA}_K(Q_K, K_K, V_K) = \sigma\left(\frac{Q_K K_K^T}{\sqrt{d}}\right)V_K$，分别处理 key 帧和 reference 帧内的目标关系，让模型感知帧内目标的相对位置和相互关系
+        - **帧间交叉注意力**（Temporal Object Graph）：$\text{CA}_{K \to R}(Q_K, K_R, V_R)$，对齐和更新不同帧之间的目标特征，捕捉时序运动模式
     - 设计动机：替代显式 Kalman Filter 的线性运动假设，通过注意力机制从数据中学习隐式运动先验，能捕捉线性和非线性运动。帧内自注意力让模型理解场景级目标布局，帧间交叉注意力实现跨帧特征对齐
 
 3. **检测感知训练 (Detection Aware Training, DAT)**:

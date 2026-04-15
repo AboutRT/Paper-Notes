@@ -98,9 +98,9 @@ $$\sigma_\tau(t) = \tilde{\psi}_l\left(\frac{t - (\mu_\tau - \tau_l)}{\gamma}\ri
 因此用 **Catmull-Rom 样条**建模空间均值 $\boldsymbol{x}(t)$，参数由双向光流显式监督：
 
 - 对于时间均值在 $(t_i + t_{i+1})/2$ 的 primitive：
-  - $v_2$：帧 $t_i$ 到 $t_{i+1}$ 的线性速度（3D 对应）
-  - $v_1$：帧 $t_{i-1}$ 到 $t_i$ 的速度；$v_3$：帧 $t_{i+1}$ 到 $t_{i+2}$ 的速度
-  - $\boldsymbol{\mu}$ 是假设线性运动时在 $\mu_\tau$ 处的位置
+    - $v_2$：帧 $t_i$ 到 $t_{i+1}$ 的线性速度（3D 对应）
+    - $v_1$：帧 $t_{i-1}$ 到 $t_i$ 的速度；$v_3$：帧 $t_{i+1}$ 到 $t_{i+2}$ 的速度
+    - $\boldsymbol{\mu}$ 是假设线性运动时在 $\mu_\tau$ 处的位置
 
 样条的四个控制点由参数直接导出：
 

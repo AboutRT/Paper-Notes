@@ -49,8 +49,8 @@ TT-Occ 遵循"提升-跟踪-体素化"三步流水线，提供 LiDAR 版本（TT
 #### Step 1: Lift — 将几何和语义提升为3D高斯
 
 - **模态特定初始化**：
-  - **TT-OccLiDAR**：直接将稀疏LiDAR点初始化为3D高斯，继承真实世界测量的精确空间位置
-  - **TT-OccCamera**：使用3D视觉基础模型（VGGT/MapAnything）从多视角RGB输入估计稠密深度图，通过多视角三角化解决尺度模糊问题
+    - **TT-OccLiDAR**：直接将稀疏LiDAR点初始化为3D高斯，继承真实世界测量的精确空间位置
+    - **TT-OccCamera**：使用3D视觉基础模型（VGGT/MapAnything）从多视角RGB输入估计稠密深度图，通过多视角三角化解决尺度模糊问题
 - **VFM语义**：使用开放词汇分割模型（OpenSeeD/GroundingSAM2/REX-Omni）提取M个环视图的语义图，通过可见性加权投影融合到3D：$\mathbf{m}_i = \frac{1}{M}\sum_{m=1}^{M}\mathbb{I}_m(\boldsymbol{\mu}_i)\mathcal{M}_m(\text{Proj}(\boldsymbol{\mu}_i;\mathbf{K}_m,\mathbf{E}_m))$
 - **体素感知简化**：用sigmoid（而非指数）约束尺度参数防止过度增长，剪枝同一体素内的冗余高斯并合并语义概率
 

@@ -71,8 +71,8 @@ $$\mathbf{e}_i = \frac{1}{k} \sum_{j=1}^{k} \mathbf{e}_{h_j(i)}$$
 
 - **损失函数**: 标准 next-token prediction loss（交叉熵）
 - **训练配置**: 
-  - Beauty/Toys/Sports 数据集：LLaMA-3.2-3B，学习率 $10^{-4}$，batch size 32，LoRA rank 8，alpha 16，最多 10 epochs
-  - Video Games 数据集：LLaMA-2-7B + 4-bit QLoRA
+    - Beauty/Toys/Sports 数据集：LLaMA-3.2-3B，学习率 $10^{-4}$，batch size 32，LoRA rank 8，alpha 16，最多 10 epochs
+    - Video Games 数据集：LLaMA-2-7B + 4-bit QLoRA
 - **可训练参数**: 物品嵌入表、LoRA adapter、lm_head
 
 ## 实验关键数据

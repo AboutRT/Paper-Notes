@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🧠 NeurIPS2025** · 共 **51** 篇
+**🧠 NeurIPS2025** · **51** 篇论文解读
 
 **[3Eed Ground Everything Everywhere In 3D](3eed_ground_everything_everywhere_in_3d.md)**
 

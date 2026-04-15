@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Dynamic Reflections: Probing Video Representations with Text Alignment
 description: >-
-  [ICLR 2026][视频表示对齐] 本文首次将柏拉图表示假说（Platonic Representation Hypothesis）扩展到时序领域，系统研究了视频-文本跨模态表示对齐，发现通过在测试时增加视频帧数和文本描述数量可以显著提升对齐分数（最高翻倍），并提出了具有强预测力的参数化缩放律。
+  [ICLR 2026][视频表示对齐] 本文首次将柏拉图表示假说 (PRH) 从静态图像-文本扩展到时序视频-文本领域，通过对 121 个视觉与语言模型的系统评估，揭示了测试时增加帧数与描述数可将对齐分数提升近一倍的现象，并提出 $R^2 > 0.98$ 的饱和式缩放律来量化这一行为。
 tags:
   - ICLR 2026
   - 视频表示对齐

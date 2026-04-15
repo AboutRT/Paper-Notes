@@ -71,9 +71,9 @@ I2X 包含五个步骤：
 
     - 功能：建立原型强度变化与模型置信度变化之间的定量关系
     - 核心思路：
-      - 用 HDBSCAN 聚类所有样本的置信度变化 $\Delta \hat{Y}^t$，识别共同的学习模式
-      - 用岭回归建模映射：$\beta^t = (\pi^{t\top}\pi^t + \lambda \mathbf{I})^{-1}\pi^{t\top}C^t \in \mathbb{R}^{K \times M}$
-      - $\beta^t$ 量化了在训练步骤 $t$ 时，原型强度变化如何驱动置信度变化
+        - 用 HDBSCAN 聚类所有样本的置信度变化 $\Delta \hat{Y}^t$，识别共同的学习模式
+        - 用岭回归建模映射：$\beta^t = (\pi^{t\top}\pi^t + \lambda \mathbf{I})^{-1}\pi^{t\top}C^t \in \mathbb{R}^{K \times M}$
+        - $\beta^t$ 量化了在训练步骤 $t$ 时，原型强度变化如何驱动置信度变化
     - 设计动机：聚合全部检查点的 $[\beta_t]$ 就能看到模型如何组织原型证据来支持/区分各类
 
 4. **结构化解释的组装**:

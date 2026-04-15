@@ -2,7 +2,7 @@
 title: >-
   [论文解读] CBMAS: Cognitive Behavioral Modeling via Activation Steering
 description: >-
-  [NeurIPS 2025][激活引导] CBMAS提出连续激活引导诊断框架，将认知偏差分析从离散比较扩展为沿引导系数α和层深度的连续轨迹，揭示偏差传播的翻转点和层位敏感性。
+  [NeurIPS 2025][激活引导] CBMAS提出一个将激活引导作为连续诊断工具的框架，通过密集α扫描和注入-读取层解耦，将认知偏差分析从"有偏差/无偏差"的二元判断升级为可追踪翻转点、传播路径和衰减模式的连续轨迹分析，在GPT-2 Small上揭示了安抚行为在浅层强烈编码但向深层快速衰减的规律。
 tags:
   - NeurIPS 2025
   - 激活引导

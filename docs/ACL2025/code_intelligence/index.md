@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**💬 ACL2025** · 共 **20** 篇
+**💬 ACL2025** · **20** 篇论文解读
 
 **[Benchmarking Long-Context Language Models On Long Code Understanding](benchmarking_long-context_language_models_on_long_code_understanding.md)**
 

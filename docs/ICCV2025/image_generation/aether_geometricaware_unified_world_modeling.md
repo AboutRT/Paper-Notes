@@ -2,20 +2,25 @@
 title: >-
   [论文解读] Aether: Geometric-Aware Unified World Modeling
 description: >-
-  [图像生成] 提出Aether统一世界模型，在合成RGB-D数据上后训练CogVideoX视频扩散模型，通过随机组合输入/输出模态的多任务训练策略，同时实现4D重建、动作条件视频预测和目标条件视觉规划，且零样本迁移到真实世界数据达到与领域专用模型可比的性能。
+  [ICCV 2025][图像生成][世界模型] 提出Aether统一世界模型，在合成RGB-D数据上后训练CogVideoX视频扩散模型，通过随机组合输入/输出模态的多任务训练策略，同时实现4D重建、动作条件视频预测和目标条件视觉规划，且零样本迁移到真实世界数据达到与领域专用模型可比的性能。
 tags:
+  - ICCV 2025
   - 图像生成
+  - 世界模型
+  - 4D重建
+  - 视频预测
+  - 视觉规划
+  - 几何感知
+  - 合成数据
 ---
 
 # Aether: Geometric-Aware Unified World Modeling
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV 2025 |
-| arXiv | [2503.18945](https://arxiv.org/abs/2503.18945) |
-| 代码 | [Project](https://aether-world.github.io/) |
-| 领域 | 世界模型 / 4D重建 / 视觉规划 |
-| 关键词 | 世界模型, 4D重建, 视频预测, 视觉规划, 几何感知, 合成数据 |
+**会议**: ICCV 2025  
+**arXiv**: [2503.18945](https://arxiv.org/abs/2503.18945)  
+**代码**: [Project](https://aether-world.github.io/)  
+**领域**: 世界模型 / 4D重建 / 视觉规划  
+**关键词**: 世界模型, 4D重建, 视频预测, 视觉规划, 几何感知, 合成数据  
 
 ## 一句话总结
 

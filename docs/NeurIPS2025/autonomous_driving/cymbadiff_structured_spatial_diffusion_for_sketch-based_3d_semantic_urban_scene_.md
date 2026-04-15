@@ -63,9 +63,9 @@ tags:
 
     - 功能：核心去噪模块，融合笛卡尔和柱坐标表示增强空间一致性。
     - 核心思路：
-      - **Triple Mamba 层**（笛卡尔空间）：对残差 LayerNorm 后的特征 $z_{TMB}(t)$ 进行前向 $\psi_i^f$、反向 $\psi_i^b$、随机切片间 $\psi_i^u$ 三方向 SSM 扫描，输出 $\psi_i(z_{TMB}) = \psi_i^f + \psi_i^b + \psi_i^u$。
-      - **C-Mamba 层**（柱坐标空间）：将体素按 $(θ, r, z)$ 角度-径向-垂直排序后做同样三方向扫描 $\omega_i(z_{CMB})$，输出映射回笛卡尔空间。
-      - **融合**：$\psi_i^{all} = \text{MLP}(\text{LN}(\psi_i)) + \psi_i + \text{MLP}(\text{LN}(\omega_i)) + \omega_i$。
+        - **Triple Mamba 层**（笛卡尔空间）：对残差 LayerNorm 后的特征 $z_{TMB}(t)$ 进行前向 $\psi_i^f$、反向 $\psi_i^b$、随机切片间 $\psi_i^u$ 三方向 SSM 扫描，输出 $\psi_i(z_{TMB}) = \psi_i^f + \psi_i^b + \psi_i^u$。
+        - **C-Mamba 层**（柱坐标空间）：将体素按 $(θ, r, z)$ 角度-径向-垂直排序后做同样三方向扫描 $\omega_i(z_{CMB})$，输出映射回笛卡尔空间。
+        - **融合**：$\psi_i^{all} = \text{MLP}(\text{LN}(\psi_i)) + \psi_i + \text{MLP}(\text{LN}(\omega_i)) + \omega_i$。
     - SSM 离散化公式：$h(t) = \bar{A} h(t-1) + \bar{B} z(t),\; y(t) = \bar{C} h(t)$，其中 $\bar{A} = \exp(\Delta A)$。
     - 设计动机：笛卡尔保留精确几何距离关系，柱坐标提供以车辆为中心的角度-径向语义连贯性，二者互补。
 

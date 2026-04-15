@@ -52,9 +52,9 @@ tags:
     - **n阶矩损失**：$\mathcal{L}_n = \left| \left|\frac{1}{D}\sum_{k=1}^D x_k^n\right|^{1/n} - \mu_n^{1/n} \right|$
     - 计算复杂度$\mathcal{O}(D)$，高效适用于高维潜在空间
     - **统一现有方法**：
-      - KL正则化 ≈ $\mathcal{L}_1 + \mathcal{L}_2$
-      - 峰度正则化 ≈ $\mathcal{L}_4$
-      - 范数正则化 ≈ $\mathcal{L}_2$（当$D \to \infty$时渐近等价）
+        - KL正则化 ≈ $\mathcal{L}_1 + \mathcal{L}_2$
+        - 峰度正则化 ≈ $\mathcal{L}_4$
+        - 范数正则化 ≈ $\mathcal{L}_2$（当$D \to \infty$时渐近等价）
 
 2. **频谱域：功率谱正则化（Power-Spectrum-Based Loss）**：
 

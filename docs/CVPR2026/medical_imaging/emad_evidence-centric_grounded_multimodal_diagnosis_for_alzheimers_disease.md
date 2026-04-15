@@ -87,9 +87,9 @@ $$\mathbf{A}_{t \to v} = \text{Attn}(h_t', h_v', h_v'), \quad \mathbf{A}_{v \to 
 三阶段渐进训练：
 
 - **Stage 1 (PT)**：对比学习 + 重建学习对齐多模态表示
-  - $\mathcal{L}_{\text{PT}} = \mathcal{L}_{\text{itc}} + \lambda_{\text{res}}(\mathcal{L}_{\text{res}}^v + \mathcal{L}_{\text{res}}^t)$
+    - $\mathcal{L}_{\text{PT}} = \mathcal{L}_{\text{itc}} + \lambda_{\text{res}}(\mathcal{L}_{\text{res}}^v + \mathcal{L}_{\text{res}}^t)$
 - **Stage 2 (SFT + GTX-Distill)**：冻结编码器底层，微调顶层 + 投影层 + 解码器 LoRA
-  - $\mathcal{L}_{\text{SFT}} = \mathcal{L}_{\text{txt}} + \lambda_{\text{KL}} \mathcal{L}^{\text{distill}}$
+    - $\mathcal{L}_{\text{SFT}} = \mathcal{L}_{\text{txt}} + \lambda_{\text{KL}} \mathcal{L}^{\text{distill}}$
 - **Stage 3 (RFT)**：GRPO 强化微调，group size $G=4$，clipping $\epsilon=0.2$，KL 系数 $\beta=0.1$
 
 ## 实验关键数据

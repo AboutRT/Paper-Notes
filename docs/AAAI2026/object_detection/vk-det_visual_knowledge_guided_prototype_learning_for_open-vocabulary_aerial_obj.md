@@ -90,7 +90,7 @@ $$\mathcal{L}_{proto} = \mathbb{E}_{(f(p), u)} P(f_{roi}(p_i), u)$$
 推理时融合三种分数：
 - **蒸馏分数** $Score_d$：检测器 RoI 特征与新类别文本嵌入的相似度
 - **原型分数** $Score_p$：通过最近邻匹配将新类文本嵌入映射到聚类中心，选对应原型进行分类
-  - 关键创新：$\hat{u}_i = \arg\max_{j} \langle t_c^N, v_j \rangle$（找到与新类文本嵌入最近的聚类中心）
+    - 关键创新：$\hat{u}_i = \arg\max_{j} \langle t_c^N, v_j \rangle$（找到与新类文本嵌入最近的聚类中心）
 - **定位分数** $Score_l$：OLN 的目标性分数
 
 综合分数：$Score_s = \sqrt{Score_l \cdot \sqrt{Score_d \cdot Score_p}}$

@@ -46,8 +46,8 @@ tags:
 
     - 功能：隔离单个人格对可信度（trustworthiness）和坚持度（insistence）的影响
     - 核心思路：设计受控的双智能体单轮交互，一个分配人格 A_p，另一个为默认智能体 A_d
-      - 可信度 T(p)：A_d 服从 A_p 的概率（A_p 作为说服者时）
-      - 坚持度 I(p)：A_p 不服从 A_d 的概率（A_p 作为被说服者时）
+        - 可信度 T(p)：A_d 服从 A_p 的概率（A_p 作为说服者时）
+        - 坚持度 I(p)：A_p 不服从 A_d 的概率（A_p 作为被说服者时）
     - 设计动机：隔离单一变量（人格），消除交叉交互的混淆因素
     - 量化指标：Max-min difference Δ_{max-min}（极差）和 Average absolute difference Δ_{avg}（与无人格基线的平均偏差）
 

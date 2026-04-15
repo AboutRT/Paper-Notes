@@ -68,9 +68,9 @@ GCSD采用"数据构建+四模块模型"的框架：
 
     - 核心思想：为每位参与者生成动态soft prompt，注入到主模型中实现个性化
     - Soft Prompt生成网络：一个带注意力机制的MLP，输入为用户状态特征的拼接向量
-      - 输入层：线性变换 + GELU激活 → 512维隐表示
-      - 隐藏层：自注意力（Q/K/V投影）+ GELU → 256维
-      - 输出层：线性 + tanh → $D_{\text{prompt}}$维soft prompt（=512维，匹配主模型embedding维度）
+        - 输入层：线性变换 + GELU激活 → 512维隐表示
+        - 隐藏层：自注意力（Q/K/V投影）+ GELU → 256维
+        - 输出层：线性 + tanh → $D_{\text{prompt}}$维soft prompt（=512维，匹配主模型embedding维度）
     - 集成方式：soft prompt作为"虚拟token"前置到输入token embeddings上，通过自注意力影响生成
     - 时间平滑正则：$\mathcal{L}_{\text{Smoothness}} = \|P_{\text{soft},t} - P_{\text{soft},t-1}\|_2^2$，防止prompt剧烈波动（对脆弱群体至关重要）
 

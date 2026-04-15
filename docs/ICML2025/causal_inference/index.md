@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**🧪 ICML2025** · 共 **16** 篇
+**🧪 ICML2025** · **16** 篇论文解读
 
 **[Causal Abstraction Inference Under Lossy Representations](causal_abstraction_inference_under_lossy_representations.md)**
 

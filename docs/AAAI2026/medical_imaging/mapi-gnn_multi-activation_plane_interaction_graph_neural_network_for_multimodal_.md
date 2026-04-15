@@ -62,8 +62,8 @@ MAPI-GNN 采用两阶段架构：
 
     - 功能：两级融合 — 先样本内编码多张激活图，再样本间全局推理。
     - 核心思路：
-      - **样本内**：每张激活图 $\mathcal{G}_m$ 送入平面图编码器（GAT 实现），得到 32 维图级表示 $\mathbf{g}_m$。GAT 的注意力系数被预定义边权 $w_{ij}^{(m)}$ 调制。$M$ 个图表示与原始特征拼接：$\mathbf{F}_p = \text{Concat}(\mathbf{g}_1, \ldots, \mathbf{g}_M, \mathbf{x}_p)$。
-      - **样本间**：以 $\mathbf{F}_p$ 为节点特征构建全局融合关系图，用 GCN 传播：$\mathbf{H}^{(l+1)} = \sigma(\tilde{\mathbf{D}}^{-1/2}\tilde{\mathbf{A}}\tilde{\mathbf{D}}^{-1/2}\mathbf{H}^{(l)}\mathbf{W}^{(l)})$。
+        - **样本内**：每张激活图 $\mathcal{G}_m$ 送入平面图编码器（GAT 实现），得到 32 维图级表示 $\mathbf{g}_m$。GAT 的注意力系数被预定义边权 $w_{ij}^{(m)}$ 调制。$M$ 个图表示与原始特征拼接：$\mathbf{F}_p = \text{Concat}(\mathbf{g}_1, \ldots, \mathbf{g}_M, \mathbf{x}_p)$。
+        - **样本间**：以 $\mathbf{F}_p$ 为节点特征构建全局融合关系图，用 GCN 传播：$\mathbf{H}^{(l+1)} = \sigma(\tilde{\mathbf{D}}^{-1/2}\tilde{\mathbf{A}}\tilde{\mathbf{D}}^{-1/2}\mathbf{H}^{(l)}\mathbf{W}^{(l)})$。
     - 设计动机：GAT 结合稀疏拓扑和edge权重实现精细的样本内聚合，GCN 捕获患者间全局依赖，两级结合产生全面的诊断表示。
 
 ### 损失函数 / 训练策略

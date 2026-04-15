@@ -46,10 +46,10 @@ tags:
 - 35K 对音频-推理对，约 200 小时，9 类情感标签（Neutral/Happy/Sad/Angry/Contempt/Confused/Whisper/Surprise/Fear）
 - 来源：IEMOCAP、MELD、Expresso、MEAD、EARS
 - 自动标注流水线提取：
-  - 底层特征：语速、音高、能量（标准语音工具）
-  - 重音词：WhiStress 从转录中识别
-  - 语调轮廓：帧级音高-能量轨迹经 Savitzky-Golay 平滑，分类为粗粒度风格（表现型/平坦型）和细粒度模式（升/降/升降/降升）
-  - 说话者属性：wav2vec2.0 分类器（性别、年龄组）
+    - 底层特征：语速、音高、能量（标准语音工具）
+    - 重音词：WhiStress 从转录中识别
+    - 语调轮廓：帧级音高-能量轨迹经 Savitzky-Golay 平滑，分类为粗粒度风格（表现型/平坦型）和细粒度模式（升/降/升降/降升）
+    - 说话者属性：wav2vec2.0 分类器（性别、年龄组）
 - 所有韵律标注作为上下文 prompt 输入 GPT-4o 生成逐步推理轨迹
 - 首个韵律感知 CoT 数据集，覆盖维度远超现有语音描述数据集
 

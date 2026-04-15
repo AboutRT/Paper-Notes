@@ -49,9 +49,9 @@ tags:
 
 - **去重**：元数据按许可证号去重（保留最新更新）；shapefile 按许可日期去重
 - **融合与过滤**：合并两个数据源，由领域专家制定规则将井分为三类：
-  - **活跃（Active）**：107,139 口，状态为 Flowing/Pumping/Gas Lift
-  - **暂停（Suspended）**：55,007 口，状态为 Suspension
-  - **废弃（Abandoned）**：54,947 口，状态为 Abandoned/Junked and Abandoned
+    - **活跃（Active）**：107,139 口，状态为 Flowing/Pumping/Gas Lift
+    - **暂停（Suspended）**：55,007 口，状态为 Suspension
+    - **废弃（Abandoned）**：54,947 口，状态为 Abandoned/Junked and Abandoned
 - **坐标去重**：对重复坐标保留最新钻井日期的记录
 - **边界校验**：确保所有井位于 Alberta 省界内
 - 最终筛选后约 217k 条有效记录

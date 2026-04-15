@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Optimizing Pre-Training Data Mixtures with Mixtures of Data Expert Models
 description: >-
-   提出Mixture of Data Experts (MDE)方法，通过在各数据域上独立训练专家模型并用混合权重进行概率级集成，高效近似不同数据混合比下的语言模型损失，大幅提升预训练数据混合比例的搜索效率和预测精度。
+  [ACL2025][Data Mixture] 提出Mixture of Data Experts (MDE)方法，通过在各数据域上独立训练专家模型并用混合权重进行概率级集成，高效近似不同数据混合比下的语言模型损失，大幅提升预训练数据混合比例的搜索效率和预测精度。
 tags:
-
+  - ACL2025
+  - Data Mixture
+  - Mixture of Data Experts
+  - Proxy Model
+  - Regression
+  - Pretraining
 ---
 
 # Optimizing Pre-Training Data Mixtures with Mixtures of Data Expert Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2502.15950](https://arxiv.org/abs/2502.15950) |
-| 代码 | 未公开 |
-| 领域 | LLM预训练 / 数据混合优化 |
-| 关键词 | Data Mixture, Mixture of Data Experts, Proxy Model, Regression, Pretraining |
+**会议**: ACL2025  
+**arXiv**: [2502.15950](https://arxiv.org/abs/2502.15950)  
+**代码**: 未公开  
+**领域**: LLM预训练 / 数据混合优化  
+**关键词**: Data Mixture, Mixture of Data Experts, Proxy Model, Regression, Pretraining  
 
 ## 一句话总结
 
@@ -26,8 +29,8 @@ tags:
 - **数据混合比重要性**：LLM预训练数据来自多个异构来源（如Wikipedia、GitHub、CommonCrawl等），不同来源的采样比例对模型泛化性能有显著影响
 - **搜索空间巨大**：对于k个数据域，混合比例定义了k-1个实值超参数，大规模LLM通常只训练一次，无法穷举评估大量混合方案
 - **代理模型方法的局限**：
-  - 在线方法（DoGe、DoReMi）需要修改训练算法，不能为不同优化目标复用同一组代理模型
-  - 回归方法（RegMix等）仅使用混合权重λ作为特征，预测精度有限，需要训练30-500个代理模型
+    - 在线方法（DoGe、DoReMi）需要修改训练算法，不能为不同优化目标复用同一组代理模型
+    - 回归方法（RegMix等）仅使用混合权重λ作为特征，预测精度有限，需要训练30-500个代理模型
 - **核心问题**：能否用极少的代理模型高效预测任意数据混合比的模型泛化性能？
 
 ## 方法详解

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 视频理解方向 35篇论文解读
+  ICLR2026 视频理解方向 34篇论文解读
 description: >-
-  35篇ICLR2026 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  34篇ICLR2026 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**🔬 ICLR2026** · 共 **35** 篇
+**🔬 ICLR2026** · **34** 篇论文解读
 
 **[Adaem An Adaptively And Automated Extensible Measurement Of Llms Value Differenc](adaem_an_adaptively_and_automated_extensible_measurement_of_llms_value_differenc.md)**
 
@@ -21,10 +21,6 @@ description: >-
 **[Anveshanaai A Multimodal Platform For Adaptive Aiml Education Through Automated ](anveshanaai_a_multimodal_platform_for_adaptive_aiml_education_through_automated_.md)**
 
 :   提出 AnveshanaAI，一个基于 Bloom 认知分类学的自适应 AI/ML 教育平台，通过自动化题目生成（基于微调的 GPT-2）、语义相似度检测去重、XAI 可解释性技术和游戏化机制（积分/徽章/排行榜），实现了覆盖数据科学到多模态 AI 七大领域的个性化学习评估系统，实验表明微调后困惑度显著下降且学习者参与度明显提升。
-
-**[Arbitrary Generative Video Interpolation](arbitrary_generative_video_interpolation.md)**
-
-:   ArbInterp 提出了一种支持任意时间戳、任意长度的生成式视频帧插值框架，通过时间戳感知旋转位置编码（TaRoPE）实现精准时间控制，并通过外观-运动解耦的条件注入策略实现长序列的无缝拼接。
 
 **[Bindweave Subject-Consistent Video Generation Via Cross-Modal Integration](bindweave_subject-consistent_video_generation_via_cross-modal_integration.md)**
 
@@ -57,10 +53,6 @@ description: >-
 **[Javisdit Joint Audio-Video Diffusion Transformer With Hierarchical Spatio-Tempor](javisdit_joint_audio-video_diffusion_transformer_with_hierarchical_spatio-tempor.md)**
 
 :   提出 JavisDiT，基于 DiT 架构的音视频联合生成模型，通过层级化时空同步先验估计器（HiST-Sypo）实现细粒度的音视频时空对齐；同时构建了新基准 JavisBench（10K 复杂场景样本）和新评估指标 JavisScore。
-
-**[Language-Guided Open-World Video Anomaly Detection Under Weak Supervision](language-guided_open-world_video_anomaly_detection_under_weak_supervision.md)**
-
-:   提出语言引导的开放世界视频异常检测范式 LaGoVAD，通过将异常定义建模为随机变量并以自然语言形式输入，从理论上规避概念漂移问题；同时构建了目前最大规模的视频异常数据集 PreVAD（35K 视频），在七个数据集上零样本 SOTA。
 
 **[Lets Split Up Zero-Shot Classifier Edits For Fine-Grained Video Understanding](lets_split_up_zero-shot_classifier_edits_for_fine-grained_video_understanding.md)**
 
@@ -113,6 +105,10 @@ description: >-
 **[Quantsparse Comprehensively Compressing Video Diffusion Transformer With Model Q](quantsparse_comprehensively_compressing_video_diffusion_transformer_with_model_q.md)**
 
 :   本文提出 QuantSparse 框架，首次将模型量化（quantization）与注意力稀疏化（attention sparsification）协同整合用于视频扩散 Transformer 压缩，通过多尺度显著注意力蒸馏（MSAD）和二阶稀疏注意力重参数化（SSAR）解决两者朴素结合导致的"放大注意力偏移"问题，在 HunyuanVideo-13B 上以 W4A8 + 15% 注意力密度实现 3.68× 存储压缩和 1.88× 推理加速，同时几乎无损保持生成质量。
+
+**[Reducing Belief Deviation In Reinforcement Learning For Active Reasoning](reducing_belief_deviation_in_reinforcement_learning_for_active_reasoning.md)**
+
+:   提出 T³（Truncating Belief-Trapped Trajectories），基于 POMDP 理论分析 LLM 智能体在多轮主动推理中的"信念陷阱"现象，通过检测信念偏离并截断无信息尾部轨迹来修正 RL 训练中的信用分配错误，在 5 个挑战性任务上获得最高 30 分的性能提升并节省 34% 的 token 开销。
 
 **[Stabilizing Policy Gradients For Sample-Efficient Reinforcement Learning In Llm ](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)**
 

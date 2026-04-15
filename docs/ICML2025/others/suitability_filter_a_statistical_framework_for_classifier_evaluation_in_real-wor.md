@@ -60,9 +60,9 @@ Pipeline：
 
     - 功能：将性能评估转化为两个样本的分布比较问题
     - 核心思路：
-      - 零假设 $H_0$：用户数据上的准确率不低于测试准确率 - $\delta$
-      - 检验统计量：适用性信号的经验分布差异（如 Kolmogorov-Smirnov 统计量或 Maximum Mean Discrepancy）
-      - 通过排列检验或渐近分布计算 p-value
+        - 零假设 $H_0$：用户数据上的准确率不低于测试准确率 - $\delta$
+        - 检验统计量：适用性信号的经验分布差异（如 Kolmogorov-Smirnov 统计量或 Maximum Mean Discrepancy）
+        - 通过排列检验或渐近分布计算 p-value
     - 设计动机：假设检验提供了不确定性量化——不是简单的阈值判断，而是带统计显著性的决策
 
 3. **模块化设计**:

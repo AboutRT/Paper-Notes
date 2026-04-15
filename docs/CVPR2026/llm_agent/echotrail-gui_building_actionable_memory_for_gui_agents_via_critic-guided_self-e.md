@@ -2,7 +2,7 @@
 title: >-
   [论文解读] EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration
 description: >-
-  [CVPR 2026][LLM Agent][GUI Agent] 提出EchoTrail-GUI，通过"学习-记忆-应用"三阶段闭环为GUI Agent构建可操作记忆——探索Agent自主交互GUI环境生成轨迹→Critic奖励模型过滤高质量轨迹存入记忆库→新任务时混合检索(密集+稀疏)最相关轨迹注入prompt引导推理，在AndroidWorld和AndroidLab上显著提升任务成功率。
+  [CVPR 2026][LLM Agent][GUI Agent] 提出EchoTrail-GUI三阶段闭环框架：探索Agent自主与GUI环境交互生成轨迹 → Critic奖励模型过滤仅保留高质量轨迹构建记忆库(EchoTrail-4K) → 新任务到来时通过密集+稀疏混合检索注入最相关记忆引导推理，将无状态GUI Agent转变为记忆增强系统，在AndroidWorld上GPT-4o达51.7% SR(+17.2pp)，在AndroidLab上Qwen2.5-VL-72B SR从23.9%提升至37.5%。
 tags:
   - CVPR 2026
   - LLM Agent

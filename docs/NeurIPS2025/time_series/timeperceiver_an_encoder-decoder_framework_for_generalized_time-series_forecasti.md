@@ -55,9 +55,9 @@ TimePerceiver 由三部分组成：(1) 基于 Patch 的嵌入构建；(2) 带有
 
     - **压缩**：潜在 token 通过交叉注意力从输入 token 收集上下文信息
      $\mathbf{Z}^{(1)} = \text{AttnBlock}(\mathbf{Z}^{(0)}, \mathbf{H}^{(0)})$
-   - **精炼**：$K$ 层自注意力在潜在空间内相互作用
+    - **精炼**：$K$ 层自注意力在潜在空间内相互作用
      $\mathbf{Z}^{(k+1)} = \text{AttnBlock}(\mathbf{Z}^{(k)}, \mathbf{Z}^{(k)})$
-   - **回传**：更新后的潜在 token 反向增强输入 token
+    - **回传**：更新后的潜在 token 反向增强输入 token
      $\mathbf{H}^{(1)} = \text{AttnBlock}(\mathbf{H}^{(0)}, \mathbf{Z}^{(K+1)})$
 
    复杂度从全注意力的 $\mathcal{O}(N^2)$ 降为 $\mathcal{O}(NM)$，同时选择性保留时序和跨通道关键模式。

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🧪 ICML2025** · 共 **7** 篇
+**🧪 ICML2025** · **7** 篇论文解读
 
 **[Defame Dynamic Evidence-Based Fact-Checking With Multimodal Experts](defame_dynamic_evidence-based_fact-checking_with_multimodal_experts.md)**
 

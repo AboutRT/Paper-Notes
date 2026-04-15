@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**🎞️ ECCV2024** · 共 **9** 篇
+**🎞️ ECCV2024** · **9** 篇论文解读
 
 **[Adaptive Multihead Contrastive Learning](adaptive_multihead_contrastive_learning.md)**
 

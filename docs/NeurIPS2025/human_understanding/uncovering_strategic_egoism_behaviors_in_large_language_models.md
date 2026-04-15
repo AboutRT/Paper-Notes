@@ -2,13 +2,14 @@
 title: >-
   [论文解读] Uncovering Strategic Egoism Behaviors in Large Language Models
 description: >-
-  [NeurIPS 2025][LLM安全] 首次系统研究LLM中的"策略性自利"行为，构建了包含160个职场决策场景的SEBench基准，从暗黑人格心理学出发设计6类自利行为选项，发现7个主流LLM中SE行为平均占比69.11%，且与毒性语言正相关。
+  [NeurIPS 2025][人体理解][策略性自利] 首次形式化定义LLM中的"策略性自利"（Strategic Egoism）行为并构建SEBench基准（160个场景×6类自利维度），实验发现7个主流LLM在激励诱惑下平均69.11%的决策选择自利策略，操纵胁迫与规则规避是最常见手段，且自利倾向与毒性语言生成呈正相关。
 tags:
   - NeurIPS 2025
-  - LLM安全
+  - 人体理解
   - 策略性自利
   - 行为基准
   - 暗黑人格
+  - 决策安全
   - 毒性关联
 ---
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🧠 NeurIPS2025** · 共 **17** 篇
+**🧠 NeurIPS2025** · **17** 篇论文解读
 
 **[A Multitask Benchmark For Abusive Language Detection In Lowr](a_multitask_benchmark_for_abusive_language_detection_in_lowr.md)**
 

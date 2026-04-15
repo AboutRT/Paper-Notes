@@ -64,12 +64,12 @@ PASS提出路径选择性事件聚合与扫描（PEAS）模块和多面选择引
 3. **MSG损失 (Multi-faceted Selection Guiding)**:
 
     - **WEIE损失 (Within-Frame Event Information Entropy)**：
-      - 计算每个选定帧的灰度直方图信息熵
-      - 最大化此损失 → 鼓励选择信息量大的帧，减少选择空白帧（padding）的随机性
-      - $\mathcal{L}_{WEIE} = -\sum_{k=1}^{K}\sum_{i=1}^{N}P_i^k \log P_i^k / K$
+        - 计算每个选定帧的灰度直方图信息熵
+        - 最大化此损失 → 鼓励选择信息量大的帧，减少选择空白帧（padding）的随机性
+        - $\mathcal{L}_{WEIE} = -\sum_{k=1}^{K}\sum_{i=1}^{N}P_i^k \log P_i^k / K$
     - **IEMI损失 (Inter-frame Event Mutual Information)**：
-      - 计算相邻选定帧间的联合分布互信息（含空间位置信息）
-      - 最小化此损失 → 减少选定帧间的冗余，确保每帧携带独特信息
+        - 计算相邻选定帧间的联合分布互信息（含空间位置信息）
+        - 最小化此损失 → 减少选定帧间的冗余，确保每帧携带独特信息
     - 总目标：$\mathcal{L}_{total} = \mathcal{L}_{IEMI} - \mathcal{L}_{WEIE} + \mathcal{L}_{CLS}$
 
 4. **事件时空建模模块**:

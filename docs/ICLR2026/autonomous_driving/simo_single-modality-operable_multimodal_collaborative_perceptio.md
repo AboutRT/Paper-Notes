@@ -2,20 +2,24 @@
 title: >-
   [论文解读] SiMO: Single-Modality-Operable Multimodal Collaborative Perception
 description: >-
-  [自动驾驶] 提出 SiMO 框架，通过 LAMMA 融合模块和 PAFR 训练策略，首次在多智能体协同感知中实现任意模态缺失（特别是 LiDAR 失效仅有相机可用时）下仍可正常工作的多模态感知系统，类似并联电路——只要有一条通路就能工作。
+  [ICLR 2026][自动驾驶][collaborative perception] 提出 SiMO 框架，通过 LAMMA 融合模块和 PAFR 训练策略，首次在多智能体协同感知中实现任意模态缺失（特别是 LiDAR 失效仅有相机可用时）下仍可正常工作的多模态感知系统，类似并联电路——只要有一条通路就能工作。
 tags:
+  - ICLR 2026
   - 自动驾驶
+  - collaborative perception
+  - 多模态
+  - modality failure
+  - BEV
+  - 3D detection
 ---
 
 # SiMO: Single-Modality-Operable Multimodal Collaborative Perception
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICLR 2026 |
-| arXiv | [2603.08240](https://arxiv.org/abs/2603.08240) |
-| 代码 | [dempsey-wen/SiMO](https://github.com/dempsey-wen/SiMO) |
-| 领域 | 协同感知 / 多模态融合 / 自动驾驶 |
-| 关键词 | collaborative perception, multimodal fusion, modality failure, BEV, 3D detection |
+**会议**: ICLR 2026  
+**arXiv**: [2603.08240](https://arxiv.org/abs/2603.08240)  
+**代码**: [dempsey-wen/SiMO](https://github.com/dempsey-wen/SiMO)  
+**领域**: 协同感知 / 多模态融合 / 自动驾驶  
+**关键词**: collaborative perception, multimodal fusion, modality failure, BEV, 3D detection  
 
 ## 一句话总结
 

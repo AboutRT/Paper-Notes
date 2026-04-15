@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI安全
 
-**📷 CVPR2026** · 共 **18** 篇
+**📷 CVPR2026** · **18** 篇论文解读
 
 **[A Unified Perspective On Adversarial Membership Manipulation In Vision Models](a_unified_perspective_on_adversarial_membership_manipulation_in_vision_models.md)**
 

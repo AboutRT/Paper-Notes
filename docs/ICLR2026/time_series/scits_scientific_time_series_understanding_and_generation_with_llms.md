@@ -40,8 +40,8 @@ $$\mathbf{X}_{\text{enc}} = \text{Linear}(\text{CrossAttn}(\mathbf{X}_{\text{pat
 
 - **做什么**：根据任务类型采用不同的prompt拼接策略和输出头。
 - **核心思路**：
-  - 理解任务（分类/异常检测/QA）：采用Prompt-as-suffix策略，即$[\mathbf{X}_{\text{enc}}; \mathbf{P}]$，先看信号再看问题，输出经softmax生成文本token。
-  - 生成任务（预测/填补/合成）：采用Prompt-as-prefix策略，即$[\mathbf{P}; \mathbf{X}_{\text{enc}}]$，先看指令再处理信号，输出经展平+线性层映射到目标时序长度。
+    - 理解任务（分类/异常检测/QA）：采用Prompt-as-suffix策略，即$[\mathbf{X}_{\text{enc}}; \mathbf{P}]$，先看信号再看问题，输出经softmax生成文本token。
+    - 生成任务（预测/填补/合成）：采用Prompt-as-prefix策略，即$[\mathbf{P}; \mathbf{X}_{\text{enc}}]$，先看指令再处理信号，输出经展平+线性层映射到目标时序长度。
 - **设计动机**：理解任务需要先"观察"信号再"回答"问题，类似人类先看数据再分析的认知流程；生成任务则需要先理解任务要求再处理输入信号。预定义多个回归头覆盖不同输出长度，按最近匹配选择并做必要截断。
 
 ### 关键设计4：多变量信号处理

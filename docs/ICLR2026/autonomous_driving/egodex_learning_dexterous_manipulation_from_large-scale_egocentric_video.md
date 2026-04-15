@@ -79,8 +79,8 @@ EgoDex 的核心贡献分两部分：
 ### 损失函数 / 训练策略
 
 - 使用 X-IL 框架，训练 2 种架构 × 3 种策略 = 6 种模型：
-  - 架构：Encoder-Decoder Transformer 和 Decoder-only Transformer
-  - 策略：Behavior Cloning (BC, 确定性)、Denoising Diffusion (DDPM, 随机)、Flow Matching (FM, 随机)
+    - 架构：Encoder-Decoder Transformer 和 Decoder-only Transformer
+    - 策略：Behavior Cloning (BC, 确定性)、Denoising Diffusion (DDPM, 随机)、Flow Matching (FM, 随机)
 - 训练 50K 步，batch size 2048，8×A100 GPU
 - 共训练评估 14 个模型变体（含不同 horizon、目标条件、数据规模、模型大小）
 

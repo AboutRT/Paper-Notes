@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Ref-Adv: Exploring MLLM Visual Reasoning in Referring Expression Tasks
 description: >-
-  [ICLR 2026][多模态VLM][Referring Expression] 提出 Ref-Adv 基准，通过硬干扰物筛选和最小充分表达式生成，消除经典 REC 数据集中的捷径问题，系统揭示当前 MLLM 在视觉推理与定位上的显著短板。
+  [ICLR 2026][多模态][Referring Expression Comprehension] 提出 Ref-Adv 基准数据集，通过 **硬干扰物配对 + LLM 辅助最小充分表达式生成 + 三人一致性人工验证** 的流水线，构建了一个消除"定位捷径"的现代 REC 基准，在该基准上 13 个当代 MLLM（包括 GPT-4o、Gemini 2.5、Qwen2.5-VL-72B 等）的准确率从 RefCOCO(+/g) 上的 90%+ 大幅下降至 50-68%，系统暴露了模型在复杂视觉推理和真实定位能力上的严重不足。
 tags:
   - ICLR 2026
-  - 多模态VLM
+  - 多模态
   - Referring Expression Comprehension
   - Visual Grounding
+  - Hard Distractors
   - Benchmark
-  - MLLM Evaluation
+  - Shortcut Suppression
 ---
 
 # Ref-Adv: Exploring MLLM Visual Reasoning in Referring Expression Tasks

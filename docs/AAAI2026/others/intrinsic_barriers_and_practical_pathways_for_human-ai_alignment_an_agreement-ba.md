@@ -65,9 +65,9 @@ tags:
 
     - 功能：证明对齐通信的不可压缩性
     - 核心思路：
-      - **一般下界**（Prop 1）：$\Omega(MN^2 \log(1/\varepsilon))$ bits — 通过构造每对 agent 有独立均匀输入的实例，用计数论证证明信息传递的不可避免性。
-      - **光滑协议下界**（Prop 2）：$\Omega(MN^2(\nu + \log(1/\varepsilon)))$ bits — 要求后验不能比先验偏移太远，加入先验距离 $\nu$ 项。
-      - **BBF 协议下界**（Prop 3）：$\Omega(MN^2[D\nu + \log(1/\varepsilon)])$ bits — 限制消息的贝叶斯因子有界更新，引入状态空间大小 $D$ 乘数，更接近上界。
+        - **一般下界**（Prop 1）：$\Omega(MN^2 \log(1/\varepsilon))$ bits — 通过构造每对 agent 有独立均匀输入的实例，用计数论证证明信息传递的不可避免性。
+        - **光滑协议下界**（Prop 2）：$\Omega(MN^2(\nu + \log(1/\varepsilon)))$ bits — 要求后验不能比先验偏移太远，加入先验距离 $\nu$ 项。
+        - **BBF 协议下界**（Prop 3）：$\Omega(MN^2[D\nu + \log(1/\varepsilon)])$ bits — 限制消息的贝叶斯因子有界更新，引入状态空间大小 $D$ 乘数，更接近上界。
     - 设计动机：这些下界建立了"编码所有人类价值观本质上不可行"的定理——当 $M$ 或 $N$ 大时，无论计算能力多强都无法避免对齐开销。这是 **No-Free-Lunch 原理**的严格形式。
 
 3. **显式可达算法（Algorithm 1 + Theorem 1）**

@@ -1,22 +1,18 @@
 ---
 title: >-
-  ACL2025 LLM安全方向 36篇论文解读
+  ACL2025 LLM安全方向 35篇论文解读
 description: >-
-  36篇ACL2025 LLM安全方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  35篇ACL2025 LLM安全方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM安全
 
-**💬 ACL2025** · 共 **36** 篇
+**💬 ACL2025** · **35** 篇论文解读
 
 **[Agrail A Lifelong Agent Guardrail With Effective And Adaptive Safety Detection](agrail_a_lifelong_agent_guardrail_with_effective_and_adaptive_safety_detection.md)**
 
 :   提出 AGrail，一个终身学习的 LLM Agent 安全护栏框架，通过双 LLM 协作（Analyzer + Executor）和记忆模块，在测试时自适应地生成和优化安全检查策略，有效防御任务特定风险和系统性风险。
-
-**[Aligning Large Language Models To Follow Instructions And Hallucinate Less Via E](aligning_large_language_models_to_follow_instructions_and_hallucinate_less_via_e.md)**
-
-:   提出NOVA框架，通过内部一致性探测(ICP)衡量LLM对指令的熟悉度+语义等价识别(SEI)衡量LLM对目标回复的熟悉度，筛选出知识对齐的高质量指令数据，仅用5%数据微调LLaMA-3-8B即可在BioGEN上提升8.6分、FollowRAG上提升7.2分，同时保持指令遵循能力。
 
 **[Answer When Needed Forget When Not Language Models Pretend To Forget Via In-Cont](answer_when_needed_forget_when_not_language_models_pretend_to_forget_via_in-cont.md)**
 

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CORAL: Disentangling Latent Representations in Long-Tailed Diffusion
 description: >-
-  [NeurIPS 2025][图像生成][长尾学习] 深入分析长尾数据下扩散模型尾类生成退化的根因——U-Net 瓶颈层的表示纠缠，提出 CORAL 在瓶颈层施加监督对比正则化，CIFAR10-LT 上 FID 从 6.17 降至 5.32，ImageNet-LT 上 FID 从 17.08 降至 16.11 并全面超越 CBDM 和 T2H。
+  [NeurIPS 2025][图像生成][扩散模型] 深入诊断长尾数据下扩散模型尾类生成退化的根因为 U-Net 瓶颈层的"表示纠缠"（representation entanglement），提出 CORAL 通过在瓶颈层施加监督对比损失来解耦类别表示，在 CIFAR10/100-LT、CelebA-5、ImageNet-LT 上全面超越 DDPM/CBDM/T2H 等基线。
 tags:
   - NeurIPS 2025
   - 图像生成
-  - 长尾学习
-  - 对比学习
   - 扩散模型
+  - long-tailed distribution
+  - 对比学习
   - latent space
+  - representation entanglement
 ---
 
 # CORAL: Disentangling Latent Representations in Long-Tailed Diffusion

@@ -47,9 +47,9 @@ PT2-LLM 包含两个核心组件：非对称三值量化器（ATQ）和结构相
 
     - 引入行级偏移 $\mu$：$\hat{\mathbf{W}} = \alpha \mathbf{T} + \mu$，适配非零均值权重分布
     - **迭代三值拟合 (ITF)**：交替优化三值网格和三值矩阵
-      - 最优网格（闭式解）：$\alpha^* = \frac{m \cdot (\mathbf{W} \circ \mathbf{T})\mathbf{1} - (\mathbf{T}\mathbf{1}) \circ (\mathbf{W}\mathbf{1})}{m \cdot (\mathbf{T} \circ \mathbf{T})\mathbf{1} - (\mathbf{T}\mathbf{1})^2}$
-      - 灵活取整：$\mathbf{T}_{ij}^* = \arg\min_{t \in \{-1,0,1\}} |Z_{ij} - t|$，其中 $Z_{ij} = (W_{ij} - \mu_i^*) / \alpha_i^*$
-      - 约 10 次迭代收敛
+        - 最优网格（闭式解）：$\alpha^* = \frac{m \cdot (\mathbf{W} \circ \mathbf{T})\mathbf{1} - (\mathbf{T}\mathbf{1}) \circ (\mathbf{W}\mathbf{1})}{m \cdot (\mathbf{T} \circ \mathbf{T})\mathbf{1} - (\mathbf{T}\mathbf{1})^2}$
+        - 灵活取整：$\mathbf{T}_{ij}^* = \arg\min_{t \in \{-1,0,1\}} |Z_{ij} - t|$，其中 $Z_{ij} = (W_{ij} - \mu_i^*) / \alpha_i^*$
+        - 约 10 次迭代收敛
     - **激活感知网格对齐 (AGA)**：用校准数据优化输出误差 $\mathcal{E}_x = \|\mathbf{WX} - \hat{\mathbf{W}}\mathbf{X}\|_F^2$
 
 2. **结构相似性重排序 (SSR)**：

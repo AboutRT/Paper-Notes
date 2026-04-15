@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation
 description: >-
-  [CVPR 2026][医学图像][联邦学习] 提出 FedMEPD 框架，通过模态专属编码器 + 部分个性化融合解码器 + 多锚点跨注意力校准，同时解决联邦学习中多模态 MRI 的模态间异质性和客户端个性化需求。
+  [CVPR 2026][医学图像][联邦学习] 提出 FedMEPD 框架，用模态专属编码器处理模态间异质性、滤波器级动态部分个性化解码器平衡知识共享与个性化、多锚点跨注意力校准补偿缺失模态信息，在 BraTS 2018/2020 上全面超越现有多模态联邦学习方法。
 tags:
   - CVPR 2026
   - 医学图像
   - 联邦学习
-  - 多模态脑肿瘤分割
-  - 模态间异质性
-  - 个性化联邦学习
-  - 跨注意力校准
+  - 图像分割
+  - Intermodal Heterogeneity
+  - Personalized FL
+  - 注意力机制
 ---
 
 # Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation

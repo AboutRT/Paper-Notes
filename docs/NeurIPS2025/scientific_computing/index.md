@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧮 科学计算
 
-**🧠 NeurIPS2025** · 共 **22** 篇
+**🧠 NeurIPS2025** · **22** 篇论文解读
 
 **[Bayesian Surrogates For Risk-Aware Pre-Assessment Of Aging Bridge Portfolios](bayesian_surrogates_for_risk-aware_pre-assessment_of_aging_bridge_portfolios.md)**
 

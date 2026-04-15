@@ -63,9 +63,9 @@ EMLoC 包含三个阶段：
 
     - 功能：将 emulator 上训练的 LoRA 校正后迁移到原始模型
     - 核心思路：目标是让校正后的 $\Lambda^c$ 满足 $x^\top(W + \Lambda^c) = x^\top(W^{\mathcal{E}} + \Lambda)$，即在 LoRA 活跃的子空间 $\mathcal{V}_\Lambda$ 上保持一致。具体步骤：
-      - 对 $W_A$ 做 SVD 得到 $W_A = U\Sigma V^\top$，重参数化为 $W_A' = U$, $W_B' = \Sigma V^\top W_B$
-      - 计算校正项 $\Delta = W_A'^\top (W - W^{\mathcal{E}})$
-      - 更新：$W_A^c = W_A'$, $W_B^c = W_B' - \text{clamp}(\Delta, \lambda)$
+        - 对 $W_A$ 做 SVD 得到 $W_A = U\Sigma V^\top$，重参数化为 $W_A' = U$, $W_B' = \Sigma V^\top W_B$
+        - 计算校正项 $\Delta = W_A'^\top (W - W^{\mathcal{E}})$
+        - 更新：$W_A^c = W_A'$, $W_B^c = W_B' - \text{clamp}(\Delta, \lambda)$
     - 设计动机：由于 LoRA 在 emulator 上训练但要在原模型上推理，两者输出存在偏差。通过在 LoRA 活跃子空间的基上显式补偿差异 $\Delta$，确保推理时输出与训练时一致。clamp 操作防止校正项过大导致 LoRA 被扭曲
 
 ### 损失函数 / 训练策略

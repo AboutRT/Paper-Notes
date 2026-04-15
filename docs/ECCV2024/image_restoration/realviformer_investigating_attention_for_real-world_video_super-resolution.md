@@ -72,8 +72,8 @@ RealViformer 采用单向循环 Transformer 框架：
 ### 损失函数 / 训练策略
 
 - **两阶段训练**（沿用 RealBasicVSR 策略）：
-  - **Stage 1**（300K iterations）：Charbonnier loss + SSIM loss
-  - **Stage 2**（130K iterations）：Charbonnier loss + SSIM loss + Perceptual loss + GAN loss，权重分别为 1, 0.001, 1, 0.005
+    - **Stage 1**（300K iterations）：Charbonnier loss + SSIM loss
+    - **Stage 2**（130K iterations）：Charbonnier loss + SSIM loss + Perceptual loss + GAN loss，权重分别为 1, 0.001, 1, 0.005
 - **退化合成**：沿用 Real-ESRGAN 的随机退化管线（模糊、噪声、JPEG 压缩、视频压缩的随机组合）
 - **训练细节**：REDS 数据集，15 帧序列，64×64 裁剪，batch size 16，4× Quadro RTX 8000 GPU，SPyNet 前 5K iterations 冻结
 

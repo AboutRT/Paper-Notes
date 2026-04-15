@@ -50,9 +50,9 @@ tags:
 
     - 功能：将迭代次数从 $T$ 逐步减半到 $T/2 \to T/4 \to \cdots \to 1$
     - 核心思路：将多迭代 RNN (Mi-RNN) 视为离散动力系统 $\mathbf{z}_{t+1} = \mathcal{F}_\theta(\mathbf{z}_t)$，训练少迭代 RNN (Fi-RNN) $\mathbf{z}_{s+1} = \mathcal{G}_\phi(\mathbf{z}_s)$ 来近似 $r$ 步组合 $\mathcal{F}^{(r)}$。强制跳步等价性通过三个损失实现：
-      - 累积输出对齐：$\mathcal{L}_{\text{cum}} = \sum_s \|\sum_{k=1}^s \mathbf{d}_k^{\text{Fi}} - \sum_{k=1}^s \bar{\mathbf{d}}_k^{\text{Mi}}\|_2^2$
-      - 最终视差匹配：$\mathcal{L}_{\text{final}} = \|\mathbf{d}_S^{\text{Fi}} - \Psi(\mathbf{z}_T^{\text{Mi}})\|_2^2$
-      - 隐状态对齐：$\mathcal{L}_{\text{hid}} = \sum_s \|\mathbf{z}_s^{\text{Fi}} - \mathbf{z}_{rs}^{\text{Mi}}\|_2^2$
+        - 累积输出对齐：$\mathcal{L}_{\text{cum}} = \sum_s \|\sum_{k=1}^s \mathbf{d}_k^{\text{Fi}} - \sum_{k=1}^s \bar{\mathbf{d}}_k^{\text{Mi}}\|_2^2$
+        - 最终视差匹配：$\mathcal{L}_{\text{final}} = \|\mathbf{d}_S^{\text{Fi}} - \Psi(\mathbf{z}_T^{\text{Mi}})\|_2^2$
+        - 隐状态对齐：$\mathcal{L}_{\text{hid}} = \sum_s \|\mathbf{z}_s^{\text{Fi}} - \mathbf{z}_{rs}^{\text{Mi}}\|_2^2$
     - 设计动机：每次裁剪只减半，温和压缩避免精度悬崖。从动力系统视角，学习一个粗粒度算子近似多步组合，同时保持轨迹的积分特性。可递归应用
 
 2. **协同单目深度先验迁移**

@@ -62,10 +62,10 @@ GAPrompt 冻结预训练骨干，引入三个轻量化模块：
 2. **Point Shift Prompter（点偏移提示器）**:
     - 功能：提取全局形状特征并生成每个实例独有的点坐标偏移
     - 核心思路：
-      - **层次化下采样**：参考 PointNet++，通过多分辨率 FPS+KNN 对原始点云层次化聚合：$\mathbf{x}_{j+1} = \text{FPS}(\mathbf{x}_j)$，$\mathbf{n}_j = \text{KNN}(\mathbf{x}_j, \mathbf{x}_{j+1})$
-      - **形状特征提取**：轻量 PointNet 编码各层级特征 $\tilde{\mathbf{d}}_j = \text{PointNet}(\mathbf{x}_j)$，最终 reshape 为全局形状向量 $\mathbf{f} = \text{Reshape}(\tilde{\mathbf{d}}_k) \in \mathbb{R}^D$
-      - **点偏移生成**：通过上采样传播特征回原始点，经 Shift Head 生成偏移 $\tilde{\mathbf{x}} = \text{Shift-Head}([\tilde{\mathbf{d}}_1^n, \tilde{\mathbf{d}}_1])$
-      - **特征增强**：$\mathbf{f}$ 用于增强 prompt tokens $\mathbf{p}_i = \mathbf{p}'_i + \mathbf{f} \cdot \beta_p$ 和 adapter $\mathbf{h}_{i+1} = \hat{\mathbf{h}}_i + \text{Adapter}(\hat{\mathbf{h}}_i + \mathbf{f} \cdot \beta_a)$
+        - **层次化下采样**：参考 PointNet++，通过多分辨率 FPS+KNN 对原始点云层次化聚合：$\mathbf{x}_{j+1} = \text{FPS}(\mathbf{x}_j)$，$\mathbf{n}_j = \text{KNN}(\mathbf{x}_j, \mathbf{x}_{j+1})$
+        - **形状特征提取**：轻量 PointNet 编码各层级特征 $\tilde{\mathbf{d}}_j = \text{PointNet}(\mathbf{x}_j)$，最终 reshape 为全局形状向量 $\mathbf{f} = \text{Reshape}(\tilde{\mathbf{d}}_k) \in \mathbb{R}^D$
+        - **点偏移生成**：通过上采样传播特征回原始点，经 Shift Head 生成偏移 $\tilde{\mathbf{x}} = \text{Shift-Head}([\tilde{\mathbf{d}}_1^n, \tilde{\mathbf{d}}_1])$
+        - **特征增强**：$\mathbf{f}$ 用于增强 prompt tokens $\mathbf{p}_i = \mathbf{p}'_i + \mathbf{f} \cdot \beta_p$ 和 adapter $\mathbf{h}_{i+1} = \hat{\mathbf{h}}_i + \text{Adapter}(\hat{\mathbf{h}}_i + \mathbf{f} \cdot \beta_a)$
     - 设计动机：不同实例几何结构差异大，固定 prompt 无法适应，需要实例自适应调整
 
 3. **Prompt Propagation（提示传播）**:

@@ -2,7 +2,7 @@
 title: >-
   [论文解读] REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning
 description: >-
-  [ICLR 2026][人体理解][推理过度思考] 提出REA-RL——反思感知的在线RL框架解决LRM过度思考问题：(1)训练小型反思模型在线生成截断修订(首次正确答案后截断→同时支持并行采样和顺序修订)，(2)设计反思奖励防止RL训练中的非反思退化(模型完全丧失反思能力→退回朴素CoT)，两者结合实现推理成本降低36%而不损失性能。
+  [ICLR 2026][人体理解][推理过度思考] 提出REA-RL框架，通过蒸馏训练的小型反思模型在线识别并截断过度思考token生成修订路径，配合反思奖励防止RL训练中模型退化为无反思的朴素CoT，在DeepSeek-R1-Distill-Qwen-7B上实现推理token开销降低36%且准确率零损失。
 tags:
   - ICLR 2026
   - 人体理解

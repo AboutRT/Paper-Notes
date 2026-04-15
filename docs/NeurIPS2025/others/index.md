@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 其他方向 139篇论文解读
+  NeurIPS2025 其他方向 137篇论文解读
 description: >-
-  139篇NeurIPS2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  137篇NeurIPS2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧠 NeurIPS2025** · 共 **139** 篇
+**🧠 NeurIPS2025** · **137** 篇论文解读
 
 **[4Dgt Learning A 4D Gaussian Transformer Using Realworld Mono](4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)**
 
@@ -16,7 +16,7 @@ description: >-
 
 **[A Differentiable Model Of Supply-Chain Shocks](a_differentiable_model_of_supply-chain_shocks.md)**
 
-:   用 JAX 实现可微分的供应链 Agent-Based Model（~1000 家企业），通过 GPU 并行化 + 自动微分实现比传统 ABC 快 3 个数量级的贝叶斯参数校准，为全球供应链网络的冲击传播建模铺平道路。
+:   本文用 JAX 实现了一个可微分的供应链 Agent-Based Model（ABM），通过 GPU 并行化和自动微分实现了比传统无梯度方法快 3 个数量级的贝叶斯参数校准，为大规模供应网络建模打开了可能性。
 
 **[A Generalized Label Shift Perspective For Crossdomain Gaze E](a_generalized_label_shift_perspective_for_crossdomain_gaze_e.md)**
 
@@ -89,6 +89,10 @@ description: >-
 **[Computable Universal Online Learning](computable_universal_online_learning.md)**
 
 :   在 universal online learning 框架中引入可计算性约束，证明了"数学上可学习"不等于"可用计算机程序实现的可学习"，并给出了 agnostic 和 proper 变体下可计算学习的精确刻画。
+
+**[Contexttab A Semantics-Aware Tabular In-Context Learner](contexttab_a_semantics-aware_tabular_in-context_learner.md)**
+
+:   ConTextTab 将语义嵌入（列名、分类值的文本编码）融入 table-native ICL 架构，并在大规模真实表格数据（T4, ~2.18M 表）上预训练，在语义丰富的 CARTE 基准上取得新 SOTA，同时在非语义基准上保持与现有方法竞争力。
 
 **[Contextual Dynamic Pricing With Heterogeneous Buyers](contextual_dynamic_pricing_with_heterogeneous_buyers.md)**
 
@@ -190,10 +194,6 @@ description: >-
 
 :   提出 FSNet 框架，将**可微的可行性求解步骤**集成到神经网络中，通过最小化约束违反的无约束优化来保证约束满足，同时支持端到端训练，在凸/非凸、光滑/非光滑问题上均显著快于传统求解器且保持可行性。
 
-**[Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret In Noise-](gaussian_process_upper_confidence_bound_achieves_nearly-optimal_regret_in_noise-.md)**
-
-:   本文证明 GP-UCB 在 noise-free GP bandit 问题中可达到 nearly-optimal regret，首次在 SE 核下实现 $O(1)$ 常数累积遗憾、在 Matérn 核（$d < \nu$）下实现 $O(1)$ 累积遗憾，弥合了 GP-UCB 理论与实践之间的长期差距。
-
 **[Generalized Linear Mode Connectivity For Transformers](generalized_linear_mode_connectivity_for_transformers.md)**
 
 :   提出统一对称性框架（置换、半置换、正交、可逆变换四级层次），首次在 Vision Transformer 和 GPT-2 上实现零/近零 barrier 的线性模式连通性（LMC），并扩展至多模型融合与异构宽度对齐。
@@ -218,10 +218,6 @@ description: >-
 
 :   提出"领域碎裂维度"（Domain Shattering Dimension）这一新组合度量，紧致刻画了领域泛化所需的领域数量（领域样本复杂度），并证明其与经典VC维的关系为 $\Theta(d \log(1/\alpha))$。
 
-**[How Should We Evaluate Data Deletion In Graph-Based Ann Indexes](how_should_we_evaluate_data_deletion_in_graph-based_ann_indexes.md)**
-
-:   针对图索引（graph-based ANNS）中数据删除缺乏系统评估方法的问题，形式化定义了三种删除策略（逻辑删除、物理删除、重建），提出一套面向实际部署的评估框架和指标体系，并在 HNSW 上实验分析后提出 Deletion Control 算法，可根据精度需求动态选择删除策略。
-
 **[Hybrid-Balance Gflownet For Solving Vehicle Routing Problems](hybrid-balance_gflownet_for_solving_vehicle_routing_problems.md)**
 
 :   提出Hybrid-Balance GFlowNet（HBG）框架，首次在VRP场景中引入详细平衡（DB）并与轨迹平衡（TB）统一集成，配合depot引导推理策略，在CVRP和TSP上显著提升两种现有GFlowNet求解器（AGFN和GFACS）的性能。
@@ -245,10 +241,6 @@ description: >-
 **[Improving Forecasts Of Suicide Attempts For Patients With Little Data](improving_forecasts_of_suicide_attempts_for_patients_with_little_data.md)**
 
 :   提出 Latent Similarity Gaussian Process (LSGP)，将患者嵌入连续隐空间以捕获异质性，使数据稀少的患者能从相似患者"借用"预测趋势，从而改进基于 EMA 数据的自杀未遂预测。
-
-**[Incomplete Multi-View Clustering Via Hierarchical Semantic Alignment And Coopera](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)**
-
-:   提出 HSACC 框架，通过双层语义空间设计（低层互信息对齐 + 高层自适应加权融合）和联合优化的缺失视图隐式恢复策略，解决不完整多视图聚类中静态融合和两阶段流水线（先补全后聚类）的误差传播问题，在 5 个基准数据集上全面超越 SOTA。
 
 **[Inferring Stochastic Dynamics With Growth From Cross-Sectional Data](inferring_stochastic_dynamics_with_growth_from_cross-sectional_data.md)**
 

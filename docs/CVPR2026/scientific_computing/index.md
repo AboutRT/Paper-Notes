@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧮 科学计算
 
-**📷 CVPR2026** · 共 **5** 篇
+**📷 CVPR2026** · **5** 篇论文解读
 
 **[Continuous Exposure-Time Modeling For Realistic Atmospheric Turbulence Synthesis](continuous_exposure-time_modeling_for_realistic_atmospheric_turbulence_synthesis.md)**
 

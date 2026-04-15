@@ -50,8 +50,8 @@ tags:
 
     - 功能：自动发现忠实且最小的电路
     - 核心思路：将电路发现表述为优化问题——联合最小化忠实度损失和电路大小
-      - 用 sigmoid 重参数化二值 mask：$\sigma(\beta \cdot \mathbf{s})$，$\beta$ 逐步退火趋向 Heaviside 函数
-      - 损失：$\mathcal{L}_{CE}(\text{full model}, \text{circuit output}) + \lambda \|\sigma(\beta \cdot \mathbf{s})\|_1$
+        - 用 sigmoid 重参数化二值 mask：$\sigma(\beta \cdot \mathbf{s})$，$\beta$ 逐步退火趋向 Heaviside 函数
+        - 损失：$\mathcal{L}_{CE}(\text{full model}, \text{circuit output}) + \lambda \|\sigma(\beta \cdot \mathbf{s})\|_1$
     - 设计动机：避免 activation patching 的组合爆炸问题，通过连续松弛实现端到端优化
     - 在 Tracr 编译的ground-truth电路上验证，100% 回复所有相关神经元
 

@@ -58,21 +58,21 @@ LAS-VAD 的核心管道：
 
     - 功能：将视频帧划分为语义一致的非重叠组，生成帧级伪标签
     - 核心思路：
-      - 计算帧间视觉相似度 $\mathcal{A}_v = \frac{X_f \cdot X_f^T}{\|X_f\| \cdot \|X_f\|}$
-      - 用跨模态语义相似度校正偏差：$\hat{\mathcal{A}}_w[i,j] = \mathcal{A}_v[i,j] \cdot (1 + \eta \cdot \max_c \min(q^l[i,c], q^l[j,c]))$
-      - 二值化 $\mathcal{A} = (\hat{\mathcal{A}} > \tau)$ 构建邻接矩阵
-      - DFS 找连通分量 $B_1, B_2, ..., B_r$，组内帧共享语义标签
+        - 计算帧间视觉相似度 $\mathcal{A}_v = \frac{X_f \cdot X_f^T}{\|X_f\| \cdot \|X_f\|}$
+        - 用跨模态语义相似度校正偏差：$\hat{\mathcal{A}}_w[i,j] = \mathcal{A}_v[i,j] \cdot (1 + \eta \cdot \max_c \min(q^l[i,c], q^l[j,c]))$
+        - 二值化 $\mathcal{A} = (\hat{\mathcal{A}} > \tau)$ 构建邻接矩阵
+        - DFS 找连通分量 $B_1, B_2, ..., B_r$，组内帧共享语义标签
     - 设计动机：绕过帧级标注缺失的问题——不需要知道每帧的标签，只需知道哪些帧属于同一语义组
 
 2. **意图感知机制 (IAM)**:
 
     - 功能：通过运动学特征推理行为意图，区分外观相似但意图不同的行为
     - 核心思路：
-      - 从 $X_f$ 提取位置特征 $X_p$，差分得速度 $X_v$ 和加速度 $X_a$
-      - 门控机制：$X_v = \text{Sigmoid}(\text{Conv}(X_v^\text{diff})) \times X_v^\text{diff}$
-      - 拼接得意图特征 $X_\text{int} \in \mathbb{R}^{T \times D}$
-      - 建立**意图原型** $Z \in \mathbb{R}^{(C+1) \times D}$，动量更新
-      - **跨意图对比学习**：挖掘同类中最不相似的正样本和异类中最相似的负样本，用 infoNCE 约束：
+        - 从 $X_f$ 提取位置特征 $X_p$，差分得速度 $X_v$ 和加速度 $X_a$
+        - 门控机制：$X_v = \text{Sigmoid}(\text{Conv}(X_v^\text{diff})) \times X_v^\text{diff}$
+        - 拼接得意图特征 $X_\text{int} \in \mathbb{R}^{T \times D}$
+        - 建立**意图原型** $Z \in \mathbb{R}^{(C+1) \times D}$，动量更新
+        - **跨意图对比学习**：挖掘同类中最不相似的正样本和异类中最相似的负样本，用 infoNCE 约束：
        $$\mathcal{L}_\text{cst} = -\frac{1}{T}\sum_{t=1}^T \log \frac{\exp(X_\text{int}^t \cdot S_\text{pos}^t)}{\sum_{i=1}^M \exp(X_\text{int}^t \cdot S_\text{neg}^t)}$$
     - 设计动机：偷窃 vs 拿取，区别在"抓取速度"—速度/加速度特征自然编码这种意图差异
 

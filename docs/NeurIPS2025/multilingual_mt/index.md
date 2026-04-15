@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**🧠 NeurIPS2025** · 共 **11** 篇
+**🧠 NeurIPS2025** · **11** 篇论文解读
 
 **[Adaptive Originality Filtering Rejection Based Prompting And Riddlescore For Cul](adaptive_originality_filtering_rejection_based_prompting_and_riddlescore_for_cul.md)**
 

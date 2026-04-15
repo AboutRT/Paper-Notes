@@ -52,8 +52,8 @@ $$\mathcal{L}_{\text{SPAR}} = \frac{\lambda_1}{H'W'}\sum_{j,k}|A_S[j,k] - A_G[j,
 ### IRPL — 不平衡感知噪声鲁棒伪标签
 
 - **Peak-Adjust 变换**：对学生预测概率 $\mathbf{p}$ 的峰值加大 margin $m$ 后归一化
-  - 教师-学生一致（$\hat{c}=t$）：梯度被 $p_{\hat{c}}/(p_{\hat{c}}+m) \ll 1$ 压缩 → 内置软早停，防止过拟合已正确标签
-  - 教师-学生不一致（$\hat{c} \neq t$）：梯度保持标准 CE 形式 → 保留对错误教师标签的完整修正信号
+    - 教师-学生一致（$\hat{c}=t$）：梯度被 $p_{\hat{c}}/(p_{\hat{c}}+m) \ll 1$ 压缩 → 内置软早停，防止过拟合已正确标签
+    - 教师-学生不一致（$\hat{c} \neq t$）：梯度保持标准 CE 形式 → 保留对错误教师标签的完整修正信号
 - **前景-背景加权** $w_{\hat{c}}$：缓解检测中固有的正-负样本不平衡
 - **KL 散度熵正则**：将所有 proposal 的平均类别分布与均匀分布对齐，抑制头部类主导
 $$\mathcal{L}_{\text{IRPL}} = \sum_{(\hat{b},\hat{c})} w_{\hat{c}}[\alpha(-\log p'_{\hat{c}}) + \beta(1-p_{\hat{c}})] + \gamma D_{\text{KL}}(\bar{\mathbf{p}} \| \mathcal{U}_K)$$

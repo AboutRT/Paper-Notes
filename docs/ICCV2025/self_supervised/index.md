@@ -1,22 +1,18 @@
 ---
 title: >-
-  ICCV2025 自监督/表示学习方向 10篇论文解读
+  ICCV2025 自监督/表示学习方向 9篇论文解读
 description: >-
-  10篇ICCV2025 自监督/表示学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  9篇ICCV2025 自监督/表示学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**📹 ICCV2025** · 共 **10** 篇
+**📹 ICCV2025** · **9** 篇论文解读
 
 **[A Tokenlevel Text Image Foundation Model For Document Unders](a_tokenlevel_text_image_foundation_model_for_document_unders.md)**
 
 :   提出首个 token 级别文本图像基础模型 TokenFD，通过在 2000 万图像、18 亿 BPE token-mask 对上进行 token 级视觉-语言对齐预训练，实现 image-as-text 语义能力，并基于此构建文档理解 MLLM TokenVL，在 OCRBench 上得分 860（8B 组最高），在 DocVQA 等十项 VQA 任务上平均提升 8.8%。
-
-**[Aligning Moments In Time Using Video Queries](aligning_moments_in_time_using_video_queries.md)**
-
-:   提出MATR（Moment Alignment TRansformer），通过双阶段序列对齐机制和自监督预训练策略实现视频到视频的时刻检索（Vid2VidMR），在ActivityNet-VRL上R@1和mIoU分别提升13.1%和8.1%（绝对值），并构建了新的体育领域数据集SportsMoments。
 
 **[Always Skip Attention](always_skip_attention.md)**
 

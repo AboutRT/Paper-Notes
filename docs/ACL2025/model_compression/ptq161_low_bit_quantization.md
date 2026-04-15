@@ -2,20 +2,24 @@
 title: >-
   [论文解读] PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models
 description: >-
-  [模型压缩] 提出 PTQ1.61，首个将 LLM 权重有效压缩到真正 sub-2-bit（1.61-bit）的后训练量化方法，通过一维结构化掩码（仅增加 0.0002-bit 开销）、分块缩放因子优化和量化预处理三项技术实现 SOTA 性能。
+  [ACL 2025][模型压缩][量化] 提出 PTQ1.61，首个将 LLM 权重有效压缩到真正 sub-2-bit（1.61-bit）的后训练量化方法，通过一维结构化掩码（仅增加 0.0002-bit 开销）、分块缩放因子优化和量化预处理三项技术实现 SOTA 性能。
 tags:
+  - ACL 2025
   - 模型压缩
+  - 量化
+  - low-bit
+  - LLM compression
+  - binarization
+  - structured mask
 ---
 
 # PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2502.13179](https://arxiv.org/abs/2502.13179) |
-| 代码 | [zjq0455/PTQ1.61](https://github.com/zjq0455/PTQ1.61) |
-| 领域 | Model Compression |
-| 关键词 | post-training quantization, low-bit, LLM compression, binarization, structured mask |
+**会议**: ACL 2025  
+**arXiv**: [2502.13179](https://arxiv.org/abs/2502.13179)  
+**代码**: [zjq0455/PTQ1.61](https://github.com/zjq0455/PTQ1.61)  
+**领域**: Model Compression  
+**关键词**: post-training quantization, low-bit, LLM compression, binarization, structured mask  
 
 ## 一句话总结
 

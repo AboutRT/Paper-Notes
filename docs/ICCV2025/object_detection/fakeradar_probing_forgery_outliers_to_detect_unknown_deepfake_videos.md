@@ -41,17 +41,17 @@ FakeRadar基于CLIP ViT-B/16冻结骨干网络，插入ST-Adapter进行参数高
 
     - 功能：对训练样本的特征空间分布进行精细建模，在子簇边界处生成异常值样本模拟未知伪造
     - 核心思路：
-      - **动态子簇建模**：将真实类和4种伪造类分别视为独立类别，用主聚簇网络学习GMM分布的软分配，通过KL散度损失 $\mathcal{L}_{main} = \sum_i KL(\mathbf{r}_i \| \mathbf{r}_i^E)$ 对齐聚簇分配与GMM责任。子聚簇网络尝试将每个簇进一步分裂为两个子簇，使用Hastings比 $H_s$ 决定分裂/合并
-      - **聚簇条件异常值生成**：从子簇分布的ε-似然区域采样，生成位于簇边界附近的异常值 $\mathcal{V}_k$，条件为其在子簇高斯分布下的概率密度小于阈值ε
+        - **动态子簇建模**：将真实类和4种伪造类分别视为独立类别，用主聚簇网络学习GMM分布的软分配，通过KL散度损失 $\mathcal{L}_{main} = \sum_i KL(\mathbf{r}_i \| \mathbf{r}_i^E)$ 对齐聚簇分配与GMM责任。子聚簇网络尝试将每个簇进一步分裂为两个子簇，使用Hastings比 $H_s$ 决定分裂/合并
+        - **聚簇条件异常值生成**：从子簇分布的ε-似然区域采样，生成位于簇边界附近的异常值 $\mathcal{V}_k$，条件为其在子簇高斯分布下的概率密度小于阈值ε
     - 设计动机：固定K=5不足以捕获伪造类的内部多模态结构，动态分裂/合并能更精确地建模分布；在边界处生成异常值能模拟"新型伪造偏移"
 
 2. **Outlier-Guided Tri-Training (OGTT)**:
 
     - 功能：联合优化骨干网络和三分类器，显式区分Real、Fake和Outlier三类
     - 核心思路：
-      - **Outlier-Driven Contrastive Loss**：基于InfoNCE的对比损失 $\mathcal{L}_{con}$，最大化样本与所属子簇中心的相似度，同时最小化与其他子簇中心及异常值的相似度
-      - **Outlier-Conditioned Cross-Entropy Loss**：三分类交叉熵 $\mathcal{L}_{cls} = -\sum_{c} y_c \log p_c$，确保模型对三类（特别是Outlier不误判为Real）有清晰决策边界
-      - 总损失：$\mathcal{L}_{total} = \mathcal{L}_{con} + \lambda \mathcal{L}_{cls}$，$\lambda=0.5$
+        - **Outlier-Driven Contrastive Loss**：基于InfoNCE的对比损失 $\mathcal{L}_{con}$，最大化样本与所属子簇中心的相似度，同时最小化与其他子簇中心及异常值的相似度
+        - **Outlier-Conditioned Cross-Entropy Loss**：三分类交叉熵 $\mathcal{L}_{cls} = -\sum_{c} y_c \log p_c$，确保模型对三类（特别是Outlier不误判为Real）有清晰决策边界
+        - 总损失：$\mathcal{L}_{total} = \mathcal{L}_{con} + \lambda \mathcal{L}_{cls}$，$\lambda=0.5$
     - 设计动机：三分类让模型在训练时独立标注未知伪造，推理时Fake+Outlier合并为伪造类；对比损失增强类间分离，交叉熵确保决策边界清晰
 
 3. **模型适配与推理**:

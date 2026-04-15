@@ -2,14 +2,14 @@
 title: >-
   [论文解读] LongCodeU: Benchmarking Long-Context Language Models on Long Code Understanding
 description: >-
-  [ACL 2025][长上下文] 提出 LongCodeU 基准，从代码单元感知、单元内理解、单元间关系理解和长文档理解四个维度（8 个任务）系统评估长上下文语言模型的长代码理解能力，揭示了当代码长度超过 32K token 时 LCLM 性能急剧下降，远未达到其声称的 128K-1M 上下文窗口能力。
+  [ACL 2025][long-context] 提出 LongCodeU 基准，从代码单元感知、单元内理解、单元间关系理解和长文档理解四个维度设计 8 个任务，评估 9 个长上下文语言模型在真实仓库级长代码上的理解能力，揭示 32K token 是当前 LCLM 长代码理解的实际上限。
 tags:
   - ACL 2025
-  - 长上下文
-  - 代码理解
+  - long-context
+  - code understanding
   - benchmark
-  - 长代码
-  - 代码单元
+  - code unit
+  - dependency analysis
 ---
 
 # LongCodeU: Benchmarking Long-Context Language Models on Long Code Understanding

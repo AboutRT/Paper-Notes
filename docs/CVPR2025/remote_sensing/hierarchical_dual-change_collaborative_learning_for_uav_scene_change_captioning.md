@@ -39,31 +39,31 @@ tags:
 **1. 图像对齐（Image Alignment）**
 
 - **Shift Voting 机制**：估计图像对重叠区域的掩码
-  - 计算两图 patch 间逐对特征相似度，找到每个 patch 的最佳匹配及相对位移 Δ
-  - 投票统计各 Δ 出现频率，选择累积相似度最高的 Δ* 作为主导偏移量
-  - 据此生成二值 common mask，区分重叠/非重叠区域
+    - 计算两图 patch 间逐对特征相似度，找到每个 patch 的最佳匹配及相对位移 Δ
+    - 投票统计各 Δ 出现频率，选择累积相似度最高的 Δ* 作为主导偏移量
+    - 据此生成二值 common mask，区分重叠/非重叠区域
 
 - **Dynamic Adaptive Layout Transformer (DALT)**：
-  - 将每张图特征分解为全局(glo)、公共(com)、差异(diff) 三类区域
-  - 为每类区域分配可学习 [CLS] token
-  - 在统一的多头自注意力编码器中联合建模不同区域，获得区域感知特征
+    - 将每张图特征分解为全局(glo)、公共(com)、差异(diff) 三类区域
+    - 为每类区域分配可学习 [CLS] token
+    - 在统一的多头自注意力编码器中联合建模不同区域，获得区域感知特征
 
 **2. 场景变化蒸馏（Scene Change Distillation）**
 
 - **上下文特征解耦**：全局/公共/差异各用独立编码器(GE/CE/DE)提取 [CLS] 级语义
 - **层级一致性约束**：
-  - 全局一致性（InfoNCE）：对齐图像对的背景语义
-  - 区域一致性（InfoNCE）：对齐重叠区域的不变语义
-  - 独立正则化（HSIC）：降低前后差异特征的统计依赖，鼓励捕捉多样变化信息
+    - 全局一致性（InfoNCE）：对齐图像对的背景语义
+    - 区域一致性（InfoNCE）：对齐重叠区域的不变语义
+    - 独立正则化（HSIC）：降低前后差异特征的统计依赖，鼓励捕捉多样变化信息
 - **场景变化蒸馏**：跨注意力建模公共区域的跨图对应，残差机制提取局部差异，与全局差异融合得到统一变化表示 D
 
 **3. 描述生成（Caption Generation）**
 
 - Transformer 解码器基于变化表示 D 生成方向性描述
 - **HCM-OCC（层级跨模态方向一致性校准）**：
-  - 计算视觉方向向量 Δd = D_forward − D_reverse
-  - 计算文本方向向量 Δt = T_forward − T_reverse
-  - 双向 margin ranking loss 对齐视觉/文本方向语义
+    - 计算视觉方向向量 Δd = D_forward − D_reverse
+    - 计算文本方向向量 Δt = T_forward − T_reverse
+    - 双向 margin ranking loss 对齐视觉/文本方向语义
 
 ### 总损失
 

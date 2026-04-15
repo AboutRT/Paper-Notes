@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🔬 ICLR2026** · 共 **25** 篇
+**🔬 ICLR2026** · **25** 篇论文解读
 
 **[Ac-Foley Reference-Audio-Guided Video-To-Audio Synthesis With Acoustic Transfer](ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer.md)**
 

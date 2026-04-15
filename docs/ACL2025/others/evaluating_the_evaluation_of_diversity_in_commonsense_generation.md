@@ -56,9 +56,9 @@ tags:
 
     - **Default**：用三个 LLM（GPT-4-turbo, Llama3.1-8B, Qwen2.5-14B）按 CommonGen 原始指令生成4个句子
     - **Para-1/2/3**：对 Default 中的句子做递增程度的改写替换，预期多样性递减
-      - Para-1: {A, A*, B, C} — 1个改写
-      - Para-2: {A, A*, B, B*} — 2个改写
-      - Para-3: {A, A*, A**, B} — 3个改写（同源）
+        - Para-1: {A, A*, B, C} — 1个改写
+        - Para-2: {A, A*, B, B*} — 2个改写
+        - Para-3: {A, A*, A**, B} — 3个改写（同源）
 
 3. **低质量候选集构造**：
 

@@ -74,7 +74,7 @@ SpecQuant是两阶段框架：
 
 #### 3. **激活感知的自适应频率预算分配**
 - **重要性评分**：$\text{Score}(j) = |\bar{\mathbf{X}}_{:,j} \cdot \bar{\hat{\mathbf{W}}}_{:,j}|$
-  - 衡量通道在激活-权重交互中的贡献强度
+    - 衡量通道在激活-权重交互中的贡献强度
 - **Softmax归一化**分配预算：
   $$\rho_j = \frac{\exp(\alpha \cdot \text{Score}(j))}{\sum_{l=1}^{C_{out}} \exp(\alpha \cdot \text{Score}(l))}$$
 - 每个通道保留 $k_j = \lfloor \rho_j \cdot C_{in} \rfloor$ 个低频分量

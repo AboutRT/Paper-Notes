@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**📷 CVPR2025** · 共 **23** 篇
+**📷 CVPR2025** · **23** 篇论文解读
 
 **[4D Langsplat 4D Language Gaussian Splatting Via Multimodal Large Language Models](4d_langsplat_4d_language_gaussian_splatting_via_multimodal_large_language_models.md)**
 

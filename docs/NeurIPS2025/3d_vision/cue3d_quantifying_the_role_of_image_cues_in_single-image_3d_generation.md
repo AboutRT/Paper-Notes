@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Cue3D: Quantifying the Role of Image Cues in Single-Image 3D Generation
 description: >-
-  [NeurIPS 2025][3D视觉] Cue3D首次提出模型无关的框架，通过系统性扰动6种图像线索量化其对单图3D生成的影响，在7个SOTA方法上揭示形状意义性和光照线索的关键作用。
+  [NeurIPS 2025][3D视觉][单图3D生成] Cue3D是首个模型无关的图像线索重要性量化框架，通过系统性扰动光照、纹理、轮廓、透视、边缘和局部连续性6种视觉线索，在涵盖回归式/多视图/原生3D生成三大范式的7个方法上揭示了关键洞察：形状意义性而非纹理决定泛化能力，光照比纹理更重要，且模型过度依赖输入轮廓。
 tags:
   - NeurIPS 2025
   - 3D视觉
-  - single-image 3D
-  - monocular cues
-  - interpretability
-  - shading
-  - benchmark
+  - 单图3D生成
+  - 视觉线索
+  - 可解释性
+  - 光照
+  - 纹理
 ---
 
 # Cue3D: Quantifying the Role of Image Cues in Single-Image 3D Generation

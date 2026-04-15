@@ -63,8 +63,8 @@ tags:
     - **负掩码嵌入**：通过对原有掩码嵌入的可学习线性组合得到 $\textbf{Z}_{\text{neg}} = \textbf{W}_{\text{Z}} \textbf{Z}_{\text{open}}$，$\textbf{W}_{\text{Z}} \in \mathbb{R}^{1 \times N}$
     - **负掩码**：通过可学习卷积层 $\textbf{W}_{\text{M}}$ 从原有掩码提案生成 $\textbf{M}_{\text{neg}} = \textbf{W}_{\text{M}} \textbf{M}_{\text{open}}$
     - **监督信号**：
-      - 负掩码嵌入学习均匀匹配除个性化概念外的所有词汇：$\mathcal{L}^{\text{neg}}_{\text{Z}} = -\sum_{i \neq k} \frac{1}{V-1}\log S[i,j]$
-      - 负掩码以 $1 - \textbf{M}_{\text{gt}}$ 为GT进行BCE监督：$\mathcal{L}^{\text{neg}}_{\text{M}} = -(1-\textbf{M}_{\text{gt}})\log(\textbf{M}_{\text{neg}}) - \textbf{M}_{\text{gt}}\log(1-\textbf{M}_{\text{neg}})$
+        - 负掩码嵌入学习均匀匹配除个性化概念外的所有词汇：$\mathcal{L}^{\text{neg}}_{\text{Z}} = -\sum_{i \neq k} \frac{1}{V-1}\log S[i,j]$
+        - 负掩码以 $1 - \textbf{M}_{\text{gt}}$ 为GT进行BCE监督：$\mathcal{L}^{\text{neg}}_{\text{M}} = -(1-\textbf{M}_{\text{gt}})\log(\textbf{M}_{\text{neg}}) - \textbf{M}_{\text{gt}}\log(1-\textbf{M}_{\text{neg}})$
     - 拼接后：$\textbf{Z} = [\textbf{Z}_{\text{open}}; \textbf{Z}_{\text{neg}}]$, $\textbf{M} = [\textbf{M}_{\text{open}}; \textbf{M}_{\text{neg}}]$
     - 设计动机：显式学习"非目标区域"的表征，给模型提供反例信号；相比Yo'LLaVA需要收集大量负样本，本方法从已有掩码提案中自动生成负掩码，无需额外数据
 

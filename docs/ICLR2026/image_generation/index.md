@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 图像生成方向 157篇论文解读
+  ICLR2026 图像生成方向 153篇论文解读
 description: >-
-  157篇ICLR2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  153篇ICLR2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🔬 ICLR2026** · 共 **157** 篇
+**🔬 ICLR2026** · **153** 篇论文解读
 
 **[A Hidden Semantic Bottleneck In Conditional Embeddings Of Diffusion Transformers](a_hidden_semantic_bottleneck_in_conditional_embeddings_of_diffusion_transformers.md)**
 
@@ -352,10 +352,6 @@ description: >-
 
 :   提出 Information-Estimation Metric (IEM)，一种由数据概率密度几何诱导的新型距离函数，通过比较不同噪声水平下的 score 向量场来度量信号间距离，无监督训练的 IEM 在预测人类感知判断上可媲美有监督方法。
 
-**[Learning Video Generation For Robotic Manipulation With Collaborative Trajectory](learning_video_generation_for_robotic_manipulation_with_collaborative_trajectory.md)**
-
-:   提出 RoboMaster，通过协作轨迹（collaborative trajectory）将机械臂与物体的交互过程分解为前交互、交互和后交互三阶段，配合外观和形状感知的物体表示，实现高质量轨迹控制的机器人操作视频生成。
-
 **[Llm2Fx-Tools Tool Calling For Music Post-Production](llm2fx-tools_tool_calling_for_music_post-production.md)**
 
 :   提出 LLM2Fx-Tools，首个将 LLM 工具调用应用于音效模块的框架，通过多模态 LLM 理解音频输入，利用 CoT 推理选择音效类型、确定顺序并估计参数，实现可解释和可控的音乐后期制作。
@@ -431,10 +427,6 @@ description: >-
 **[No Caption No Problem Caption-Free Membership Inference Via Model-Fitted Embeddi](no_caption_no_problem_caption-free_membership_inference_via_model-fitted_embeddi.md)**
 
 :   提出 MoFit，首个面向无标题场景的扩散模型成员推断攻击框架，通过构建过拟合于目标模型的代理图像和条件嵌入，利用成员样本对条件错配的不对称敏感性实现有效推断。
-
-**[Offline Reinforcement Learning With Generative Trajectory Policies](offline_reinforcement_learning_with_generative_trajectory_policies.md)**
-
-:   提出 Generative Trajectory Policy (GTP)，通过学习 ODE 完整解映射统一扩散、流匹配和一致性模型，配合分数近似和值驱动引导两项关键适配技术，在 D4RL 上达到 SOTA。
 
 **[Pareto-Conditioned Diffusion Models For Offline Multi-Objective Optimization](pareto-conditioned_diffusion_models_for_offline_multi-objective_optimization.md)**
 
@@ -556,10 +548,6 @@ description: >-
 
 :   本文提出S²-Guidance，通过在去噪过程中**随机丢弃transformer block激活子网络**作为弱模型进行自引导，无需额外训练即可修正CFG的次优预测，在文生图和文生视频任务上一致超越CFG及其他高级引导策略。
 
-**[Streaming Autoregressive Video Generation Via Diagonal Distillation](streaming_autoregressive_video_generation_via_diagonal_distillation.md)**
-
-:   提出 DiagDistill 对角蒸馏框架，通过对角去噪策略（早期多步、后期少步）和光流分布匹配，实现实时流式自回归视频生成，5秒视频仅需2.61秒（31 FPS），比未蒸馏模型加速277.3倍。
-
 **[Tavae A Vae With Adaptable Priors Explains Contextual Modulation In The Visual C](tavae_a_vae_with_adaptable_priors_explains_contextual_modulation_in_the_visual_c.md)**
 
 :   扩展 VAE 形式主义提出 Task-Amortized VAE (TAVAE)，通过在已学表示上灵活学习任务特异性先验来解释视觉皮层 V1 中的上下文调制现象，包括方向辨别任务中训练刺激与测试刺激不匹配时出现的双模态群体响应。
@@ -619,10 +607,6 @@ description: >-
 **[Vfscale Intrinsic Reasoning Through Verifier-Free Test-Time Scalable Diffusion M](vfscale_intrinsic_reasoning_through_verifier-free_test-time_scalable_diffusion_m.md)**
 
 :   VFScale提出无需外部验证器的测试时可缩放扩散模型，通过MRNCL损失和KL正则化改善能量景观使其内在能量函数可作为验证器，结合混合MCTS去噪实现高效搜索，在6×6训练的迷宫模型能解决88%的15×15迷宫，而标准扩散模型完全失败。
-
-**[Visual Autoregressive Modeling For Instruction-Guided Image Editing](visual_autoregressive_modeling_for_instruction-guided_image_editing.md)**
-
-:   VAREdit将指令引导图像编辑重构为next-scale预测问题，提出Scale-Aligned Reference (SAR)模块解决最细尺度条件与粗目标特征间的尺度不匹配，在EMU-Edit和PIE-Bench上GPT-Balance分数超越最强扩散基线64.9%和45.3%，512×512编辑仅需1.2秒。
 
 **[When One Modality Rules Them All Backdoor Modality Collapse In Multimodal Diffus](when_one_modality_rules_them_all_backdoor_modality_collapse_in_multimodal_diffus.md)**
 

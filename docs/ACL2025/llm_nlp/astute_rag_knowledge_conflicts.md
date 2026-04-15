@@ -58,10 +58,10 @@ Query + Retrieved Passages → **Step 1**: LLM 自适应生成内部知识 passa
 
     - 功能：将内外部 passages 合并后让 LLM 做带来源信息的整合分析
     - 核心思路：
-      - 合并：$D_0 = E \oplus I$（外部 passages + 内部 passages）
-      - 来源标注：每条 passage 附带来源标识（内部 vs 外部网站URL）
-      - 整合：LLM 被指示 (1) 合并一致的信息 (2) 识别冲突信息 (3) 过滤无关信息
-      - 迭代：可多轮整合，每轮基于上一轮结果优化
+        - 合并：$D_0 = E \oplus I$（外部 passages + 内部 passages）
+        - 来源标注：每条 passage 附带来源标识（内部 vs 外部网站URL）
+        - 整合：LLM 被指示 (1) 合并一致的信息 (2) 识别冲突信息 (3) 过滤无关信息
+        - 迭代：可多轮整合，每轮基于上一轮结果优化
     - 设计动机：来源信息帮助 LLM 评估可靠性（如知名网站 > 内部猜测）；迭代整合逐步消解冲突
 
 3. **Answer Finalization（答案生成）**：

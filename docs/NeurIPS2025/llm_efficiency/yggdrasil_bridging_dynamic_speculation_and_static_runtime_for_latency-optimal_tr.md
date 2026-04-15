@@ -2,11 +2,15 @@
 title: >-
   [论文解读] Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding
 description: >-
-  [LLM效率] 提出 Yggdrasil，通过 Equal-Growth Tree、延迟感知优化目标和阶段调度协同设计，解决动态推测解码与静态编译器运行时的矛盾，在多硬件上实现最高 3.98× 加速。
+  [NeurIPS 2025][LLM效率][推测解码] 提出 Yggdrasil，一个延迟最优的推测解码系统，通过 Equal-Growth Tree (EGT) 结构实现编译友好的动态草稿、延迟感知优化目标替代传统 AAL 指标、以及阶段调度运行时减少 CPU-GPU 协调开销，在 A100/A40 上实现了最高 3.98× 的端到端加速。
 tags:
+  - NeurIPS 2025
   - LLM效率
   - 推测解码
-  - 系统优化
+  - 树结构草稿
+  - 编译器优化
+  - 延迟优化
+  - LLM 推理加速
 ---
 
 # Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding

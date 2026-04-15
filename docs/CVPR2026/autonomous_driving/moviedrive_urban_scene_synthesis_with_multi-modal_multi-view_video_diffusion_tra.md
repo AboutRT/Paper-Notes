@@ -56,10 +56,10 @@ MoVieDrive 提出统一的多模态多视图视频扩散 Transformer，通过 mo
 
     - **时序注意力层 $D^{tem}$**：基于 CogVideoX 的 3D full attention，学习帧间时序一致性，文本条件通过 cross-attention 注入
     - **多视图时空块 $D^{st}$**（每 $\alpha_1$ 个时序层后插入一次）：包含四个子层：
-      - *3D 空间嵌入层*：多分辨率 Hash grid 编码 3D occupancy 位置 $c^{occ}$，增强空间一致性
-      - *3D 空间注意力*：将 latent 维度变为 $\mathcal{R}^{K \times (VHW) \times C}$，学习所有相机视图的 3D 空间结构
-      - *时空注意力*：维度变为 $\mathcal{R}^{(VKHW) \times C}$，捕获完整的多视图时空信息
-      - *前馈层*：进一步变换特征
+        - *3D 空间嵌入层*：多分辨率 Hash grid 编码 3D occupancy 位置 $c^{occ}$，增强空间一致性
+        - *3D 空间注意力*：将 latent 维度变为 $\mathcal{R}^{K \times (VHW) \times C}$，学习所有相机视图的 3D 空间结构
+        - *时空注意力*：维度变为 $\mathcal{R}^{(VKHW) \times C}$，捕获完整的多视图时空信息
+        - *前馈层*：进一步变换特征
     - 公式：$h = D^{st}(D^{tem}(z', f^{text}, t), c^{occ}, t)$
 
 3. **Modal-Specific 组件（跨模态交互层 + 投影头）**：

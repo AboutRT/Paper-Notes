@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🧪 ICML2025** · 共 **6** 篇
+**🧪 ICML2025** · **6** 篇论文解读
 
 **[Adaptive Estimation And Learning Under Temporal Distribution Shift](adaptive_estimation_and_learning_under_temporal_distribution_shift.md)**
 

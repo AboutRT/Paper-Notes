@@ -2,20 +2,25 @@
 title: >-
   [论文解读] FMC: Formalization of Natural Language Mathematical Competition Problems
 description: >-
-  [LLM推理] 本文提出基于 LLM 错误反馈的全自动形式化流水线，将自然语言数学竞赛题转化为 Lean 形式化表示，构建了包含 3,922 道自然语言与 9,787 条 Lean 形式化对齐的奥赛级数据集 FMC，并验证了其作为自动定理证明基准的价值。
+  [ICML 2025 (AI4MATH Workshop)][LLM推理][Autoformalization] 本文提出基于 LLM 错误反馈的全自动形式化流水线，将自然语言数学竞赛题转化为 Lean 形式化表示，构建了包含 3,922 道自然语言与 9,787 条 Lean 形式化对齐的奥赛级数据集 FMC，并验证了其作为自动定理证明基准的价值。
 tags:
+  - ICML 2025 (AI4MATH Workshop)
   - LLM推理
+  - Autoformalization
+  - Lean
+  - Error Feedback
+  - Olympiad Math
+  - Formal Reasoning
+  - Theorem Proving
 ---
 
 # FMC: Formalization of Natural Language Mathematical Competition Problems
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 (AI4MATH Workshop) |
-| arXiv | [2507.11275](https://arxiv.org/abs/2507.11275) |
-| 代码 | — |
-| 领域 | LLM推理 / 数学形式化 / 自动定理证明 |
-| 关键词 | Autoformalization, Lean, Error Feedback, Olympiad Math, Formal Reasoning, Theorem Proving |
+**会议**: ICML 2025 (AI4MATH Workshop)  
+**arXiv**: [2507.11275](https://arxiv.org/abs/2507.11275)  
+**代码**: —  
+**领域**: LLM推理 / 数学形式化 / 自动定理证明  
+**关键词**: Autoformalization, Lean, Error Feedback, Olympiad Math, Formal Reasoning, Theorem Proving  
 
 ## 一句话总结
 

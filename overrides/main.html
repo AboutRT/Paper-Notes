@@ -96,17 +96,13 @@
 </script>
 {% endif %}
 
-<!--
-  Mobile Bing redirect: DISABLED since search index is now trimmed to ~5 MB.
-  Previously the 200 MB index caused ~450 MB memory usage, now lunr uses ~30 MB.
-  Keep commented out in case we need to re-enable for ultra-low-end devices.
-
+<!-- Mobile: disable built-in search, redirect to Bing site search -->
 <script>
 (function() {
   var isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 960;
   if (!isMobile) return;
 
-  // Terminate search worker to save ~800MB memory
+  // Terminate search worker to save memory
   if (window.Worker) {
     var origWorker = window.Worker;
     window.Worker = function(url) {
@@ -118,7 +114,7 @@
     };
   }
 
-  // Intercept search toggle: redirect to Google site search
+  // Intercept search toggle: redirect to Bing site search
   document.addEventListener('click', function(e) {
     var el = e.target.closest('label[for="__search"], .md-search__icon, .md-header__button[data-md-component="search"]');
     if (!el) return;
@@ -128,13 +124,11 @@
     if (q && q.trim()) {
       var encoded = encodeURIComponent(q.trim());
       var site = 'site:zhaoyang97.github.io/Paper-Notes/+';
-      // Try Bing first (accessible in China), fallback Google link also provided
       window.open('https://www.bing.com/search?q=' + site + encoded, '_blank');
     }
   }, true);
 })();
 </script>
--->
 
 <!-- Client-side bilingual query expansion: 搜索"目标检测"也搜"object detection" -->
 <!-- Works by intercepting Worker.postMessage to expand queries BEFORE they reach lunr -->

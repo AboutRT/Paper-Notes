@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚛️ 物理学
 
-**🧪 ICML2025** · 共 **6** 篇
+**🧪 ICML2025** · **6** 篇论文解读
 
 **[Compact Matrix Quantum Group Equivariant Neural Networks](compact_matrix_quantum_group_equivariant_neural_networks.md)**
 

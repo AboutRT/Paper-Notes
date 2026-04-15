@@ -43,9 +43,9 @@ tags:
 
     - 功能：对每条描述自动量化三个属性为标量值
     - 核心思路：
-      - **长度（L）**: 直接使用LLaMA tokenizer的token数量 $L_c$
-      - **描述性（D）**: 描述中形容词+名词占总词数的比例 $D_c = \frac{1}{T_c}\sum_{t=1}^{T_c}\mathbb{I}[w_t \in \text{ADJ} \cup \text{NOUN} \setminus \mathcal{V}_{excl}]$，排除"image"等非描述性名词
-      - **独特性（U）**: 描述中各词词频倒数的平均值 $U_c = \frac{1}{T_c}\sum_{t=1}^{T_c}\frac{1}{F(w_t)}$，罕见词越多分越高
+        - **长度（L）**: 直接使用LLaMA tokenizer的token数量 $L_c$
+        - **描述性（D）**: 描述中形容词+名词占总词数的比例 $D_c = \frac{1}{T_c}\sum_{t=1}^{T_c}\mathbb{I}[w_t \in \text{ADJ} \cup \text{NOUN} \setminus \mathcal{V}_{excl}]$，排除"image"等非描述性名词
+        - **独特性（U）**: 描述中各词词频倒数的平均值 $U_c = \frac{1}{T_c}\sum_{t=1}^{T_c}\frac{1}{F(w_t)}$，罕见词越多分越高
     - 设计动机：不需要人工标注，完全通过数据统计自动计算；三个属性覆盖长度控制、信息密度和词汇精细度三个正交维度
 
 2. **Decorrelation + Normalization（去相关与归一化）**:
@@ -59,9 +59,9 @@ tags:
     - 功能：将[0,1]标量编码为语言模型的token embedding
     - 核心思路：为每个属性学习两个端点向量 $E_0$ 和 $E_1$（各为d维），通过标量线性插值生成条件embedding：$E_c^L = \bar{L}_c \cdot E_1^L + (1-\bar{L}_c) \cdot E_0^L$
     - 设计动机：
-      - 等价于单层线性层（$w \cdot x + b$），但解释性更强
-      - 仅增加 $2 \times d$ 参数（vs. 离散方法 $k \times d$）
-      - 两个端点参数可用几乎所有样本训练（vs. 离散方法每个桶仅用对应样本），训练效率更高
+        - 等价于单层线性层（$w \cdot x + b$），但解释性更强
+        - 仅增加 $2 \times d$ 参数（vs. 离散方法 $k \times d$）
+        - 两个端点参数可用几乎所有样本训练（vs. 离散方法每个桶仅用对应样本），训练效率更高
 
 ### 损失函数 / 训练策略
 使用标准自回归交叉熵损失，条件token前置：

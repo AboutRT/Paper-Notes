@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌍 地球科学
 
-**🧠 NeurIPS2025** · 共 **5** 篇
+**🧠 NeurIPS2025** · **5** 篇论文解读
 
 **[A Probabilistic Unet Approach To Downscaling Climate Simulat](a_probabilistic_unet_approach_to_downscaling_climate_simulat.md)**
 

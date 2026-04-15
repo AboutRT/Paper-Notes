@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🔬 ICLR2026** · 共 **77** 篇
+**🔬 ICLR2026** · **77** 篇论文解读
 
 **[Adaptive Domain Shift In Diffusion Models For Cross-Modality Image Translation](adaptive_domain_shift_in_diffusion_models_for_cross-modality_image_translation.md)**
 

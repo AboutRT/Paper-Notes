@@ -54,9 +54,9 @@ DC-AR = DC-HT（标记器）+ 混合掩码自回归生成器
     - **混合标记化**：同时支持离散路径（$\mathbf{Z}_q = \text{Quant}(\text{Enc}(\mathbf{I}))$）和连续路径（$\mathbf{Z} = \text{Enc}(\mathbf{I})$），保证 decoder 能有效解码两种 token
     - 残差 token 定义为 $\mathbf{Z}_r = \mathbf{Z} - \mathbf{Z}_q$，弥补量化损失
     - **三阶段适配训练策略**（关键创新）：
-      - **Stage 1 - 连续热身**：仅训练连续路径（短期），初始化 encoder 权重
-      - **Stage 2 - 离散学习**：仅训练离散路径，学习稳定的 VQ codebook（N=16384）
-      - **Stage 3 - 交替微调**：冻结 encoder 和 quantizer，50% 概率选连续/离散路径微调 decoder
+        - **Stage 1 - 连续热身**：仅训练连续路径（短期），初始化 encoder 权重
+        - **Stage 2 - 离散学习**：仅训练离散路径，学习稳定的 VQ codebook（N=16384）
+        - **Stage 3 - 交替微调**：冻结 encoder 和 quantizer，50% 概率选连续/离散路径微调 decoder
     - 效果：rFID 从 1.92→1.60，discrete-rFID 从 6.18→5.13
     - 关键优势：保持 2D 空间结构，支持跨分辨率泛化（256→512 无需重训标记器）
 

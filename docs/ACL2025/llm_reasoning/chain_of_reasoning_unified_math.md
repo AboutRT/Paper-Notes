@@ -55,9 +55,9 @@ tags:
 
     - 功能：分三个阶段逐步引入更多推理范式
     - 核心思路：
-      - 阶段 ①：仅 NLR，在 Numina-CoT* 上训练，生成序列 $z = [x]\tau_{NLR}y$
-      - 阶段 ②：NLR + AR，在 Numina-TIR* 上训练，序列 $z = [x]\tau_{NLR}\tau_{AR}y$
-      - 阶段 ③：NLR + AR + SR，在 MPM 数据集上训练，序列 $z = [x]\tau_{NLR}\tau_{AR}\tau_{SR}y$
+        - 阶段 ①：仅 NLR，在 Numina-CoT* 上训练，生成序列 $z = [x]\tau_{NLR}y$
+        - 阶段 ②：NLR + AR，在 Numina-TIR* 上训练，序列 $z = [x]\tau_{NLR}\tau_{AR}y$
+        - 阶段 ③：NLR + AR + SR，在 MPM 数据集上训练，序列 $z = [x]\tau_{NLR}\tau_{AR}\tau_{SR}y$
     - 设计动机：NLR 在预训练中最常见，最容易学习，作为基础；AR 次之（预训练包含代码语料）；SR 最陌生，放在最后。渐进引入避免了直接学习三范式的困难，让模型在已掌握范式的基础上学习新范式
 
 3. **顺序多范式采样 SMPS（Sequential Multi-Paradigm Sampling）**:

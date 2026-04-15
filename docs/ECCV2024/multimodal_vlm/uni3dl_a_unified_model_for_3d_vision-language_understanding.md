@@ -67,9 +67,9 @@ Uni3DL 包含四个核心模块：
 
     - 功能：融合 latent queries、text queries 和 3D 视觉特征，生成统一的语义和掩码表示
     - 核心思路：$L=15$ 层 transformer decoder，每层包含：
-      - **Masked Cross-Attention**：queries 与体素特征交叉注意力，采用 Mask2Former 的 masked attention 策略，每个 query 只关注上一层预测的掩码区域对应的体素：$\langle \hat{\mathbf{F}}_Q^l, \hat{\mathbf{F}}_T^l \rangle = \text{Cross-Att}(\langle \mathbf{F}_Q^{l-1}, \mathbf{F}_T^{l-1} \rangle, \mathbf{V}_s)$
-      - **Self-Attention**：query 间的交互，让 latent queries 和 text queries 相互增强
-      - **FFN**：标准前馈层
+        - **Masked Cross-Attention**：queries 与体素特征交叉注意力，采用 Mask2Former 的 masked attention 策略，每个 query 只关注上一层预测的掩码区域对应的体素：$\langle \hat{\mathbf{F}}_Q^l, \hat{\mathbf{F}}_T^l \rangle = \text{Cross-Att}(\langle \mathbf{F}_Q^{l-1}, \mathbf{F}_T^{l-1} \rangle, \mathbf{V}_s)$
+        - **Self-Attention**：query 间的交互，让 latent queries 和 text queries 相互增强
+        - **FFN**：标准前馈层
     - **Voxel Sampling**：由于不同场景点数不同，训练时对每个特征层采样固定数量体素，实现高效 batch 训练
     - 设计动机：masked attention 提升目标定位能力（只关注相关区域），latent queries 捕获对象级信息，text queries 捕获文本语义——两者在同一个 decoder 中联合优化
 
@@ -77,11 +77,11 @@ Uni3DL 包含四个核心模块：
 
     - 功能：通过组合不同功能头，从统一的语义/掩码输出中导出任务特定结果
     - 组合策略（Table 2）：
-      - 语义分割 = 分类头 + 掩码头
-      - 实例分割 = 分类头 + 掩码头
-      - Grounded 分割 = 掩码头 + 定位头
-      - 3D 描述生成 = 文本生成头
-      - 文本-3D 检索 = 文本-3D 匹配头
+        - 语义分割 = 分类头 + 掩码头
+        - 实例分割 = 分类头 + 掩码头
+        - Grounded 分割 = 掩码头 + 定位头
+        - 3D 描述生成 = 文本生成头
+        - 文本-3D 检索 = 文本-3D 匹配头
     - 设计动机：不同任务共享底层 encoder 和 decoder 参数，仅在最后的 routing 策略上不同，实现了真正的参数共享和任务分解
 
 4. **各功能头细节**：

@@ -78,9 +78,9 @@ $$\mathbf{s}_{\mathbf{A}}(\mathbf{x}) = \frac{\mathbf{A}}{\sqrt{p}} \sigma\left(
 
 - 训练动力学的时间尺度由矩阵 $\mathbf{U}$ 的特征值谱决定
 - **Theorem 3.2**（核心理论结果）：在过参数化情况（$\psi_p > \psi_n \gg 1$）下，$\mathbf{U}$ 的特征值谱分解为两个尺度分离的部分：
-  - $\rho_2$（大特征值bulk）：对应泛化时间尺度，量级为 $\psi_p$，独立于 $\psi_n$
-  - $\rho_1$（小特征值bulk）：对应记忆化时间尺度，量级为 $\psi_p / \psi_n$
-  - 由此推导出 $\tau_{\text{mem}} \propto \psi_n / \Delta_t \propto n$
+    - $\rho_2$（大特征值bulk）：对应泛化时间尺度，量级为 $\psi_p$，独立于 $\psi_n$
+    - $\rho_1$（小特征值bulk）：对应记忆化时间尺度，量级为 $\psi_p / \psi_n$
+    - 由此推导出 $\tau_{\text{mem}} \propto \psi_n / \Delta_t \propto n$
 
 ### 相图分析
 

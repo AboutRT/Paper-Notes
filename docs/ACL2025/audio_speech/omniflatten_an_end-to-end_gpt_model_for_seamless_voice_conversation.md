@@ -60,8 +60,8 @@ OmniFlatten 由以下核心组件构成：
 - **目标**：让文本 LLM 学会语音-文本对应关系，获得 ASR 和 TTS 能力
 - **训练数据**：约 10 万小时音频（30% 开源 + 70% 私有），包括 Aishell-3、LibriTTS、Wenetspeech 等
 - **训练格式**：
-  - ASR: `[ASR][SOS]语音tokens[EOS][SOT]文本tokens[EOT]`
-  - TTS: `[TTS][SOT]文本tokens[EOT][SOS]语音tokens[EOS]`
+    - ASR: `[ASR][SOS]语音tokens[EOS][SOT]文本tokens[EOT]`
+    - TTS: `[TTS][SOT]文本tokens[EOT][SOS]语音tokens[EOS]`
 - **序列长度**：1024 tokens
 
 #### Stage 2: 半双工对话学习（Half-duplex Dialogue Training）

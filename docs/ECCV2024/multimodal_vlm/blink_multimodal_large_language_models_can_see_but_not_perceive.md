@@ -51,20 +51,20 @@ tags:
 
     - 功能：覆盖经典CV中核心但被MLLM基准忽略的感知任务
     - 核心任务列表：
-      - **相对深度估计（Relative Depth）**：判断两个标记点哪个更近/更远
-      - **拼图推理（Jigsaw Puzzle）**：将碎片还原到正确位置
-      - **多视图推理（Multi-view Reasoning）**：判断多个视角间的空间关系
-      - **视觉对应（Visual Correspondence）**：在不同图像中找到对应点
-      - **语义对应（Semantic Correspondence）**：跨物体实例的语义对应
-      - **功能对应（Functional Correspondence）**：功能性相似部分的对应
-      - **篡改检测（Forensics Detection）**：识别图像是否被篡改
-      - **IQ测试（Visual IQ Test）**：视觉模式推理
-      - **视觉相似度（Visual Similarity）**：判断目标与哪个参考更相似
-      - **相对反射率（Relative Reflectance）**：判断材质表面的反射属性
-      - **物体定位（Object Localization）**：在场景中定位目标物体
-      - **计数（Counting）**：计算特定目标数量
-      - **艺术风格（Art Style）**：识别艺术作品的流派
-      - **空间关系（Spatial Relation）**：理解物体间的空间布局
+        - **相对深度估计（Relative Depth）**：判断两个标记点哪个更近/更远
+        - **拼图推理（Jigsaw Puzzle）**：将碎片还原到正确位置
+        - **多视图推理（Multi-view Reasoning）**：判断多个视角间的空间关系
+        - **视觉对应（Visual Correspondence）**：在不同图像中找到对应点
+        - **语义对应（Semantic Correspondence）**：跨物体实例的语义对应
+        - **功能对应（Functional Correspondence）**：功能性相似部分的对应
+        - **篡改检测（Forensics Detection）**：识别图像是否被篡改
+        - **IQ测试（Visual IQ Test）**：视觉模式推理
+        - **视觉相似度（Visual Similarity）**：判断目标与哪个参考更相似
+        - **相对反射率（Relative Reflectance）**：判断材质表面的反射属性
+        - **物体定位（Object Localization）**：在场景中定位目标物体
+        - **计数（Counting）**：计算特定目标数量
+        - **艺术风格（Art Style）**：识别艺术作品的流派
+        - **空间关系（Spatial Relation）**：理解物体间的空间布局
     - 设计动机：这些任务需要真正的视觉感知能力，无法通过文字描述来替代
 
 2. **视觉提示（Visual Prompting）设计**:

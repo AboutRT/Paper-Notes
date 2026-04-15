@@ -2,7 +2,7 @@
 title: >-
   [论文解读] The Behavior Gap: Evaluating Zero-shot LLM Agents in Complex Task-Oriented Dialogs
 description: >-
-  [ACL 2025][LLM Agent][task-oriented dialog] 提出一个综合评估框架来量化 LLM agent 与人类专家在任务导向对话中的"行为差距"（dialog acts、工具使用、知识利用三个维度），发现行为差距随任务复杂度增加显著扩大（相关系数 0.963），缩小行为差距可平均提升 24.3% 性能。
+  [ACL 2025][LLM Agent][task-oriented dialog] 提出综合评估框架量化 LLM agent 与人类专家在任务导向对话中的"行为差距"，从 dialog acts、工具使用、知识利用三个维度系统诊断行为偏差，发现行为差距与任务复杂度高度相关（$r=0.963$），通过行为注入缩小差距可平均提升 24.3% 性能。
 tags:
   - ACL 2025
   - LLM Agent

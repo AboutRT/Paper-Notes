@@ -2,12 +2,15 @@
 title: >-
   [论文解读] TimE: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios
 description: >-
-  [NeurIPS 2025][LLM推理][时间推理] 提出TimE多层级时间推理Benchmark（38,522 QA + 943人工标注TimE-Lite），覆盖知识密集（Wiki）、快速演变（News）和长对话（Dialogue）三种真实场景，设计三级渐进11子任务体系评估24个LLM，揭示即使最强推理模型在复杂时间关系推理上仍有显著短板。
+  [NeurIPS 2025][LLM推理][时间推理] 提出 TimE，一个包含 38,522 个 QA 对的多层级时间推理基准，覆盖知识密集（Wiki）、动态新闻（News）、长对话（Dial）三种真实场景和三级渐进式 11 子任务，全面评估 24 个 LLM 后发现即便最强推理模型在时间线构建和反事实推理等复杂任务上仍有显著短板。
 tags:
   - NeurIPS 2025
   - LLM推理
   - 时间推理
-  - benchmark
+  - 多层级基准
+  - 真实世界场景
+  - 知识密集型
+  - 长对话
 ---
 
 # TimE: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios

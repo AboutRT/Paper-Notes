@@ -55,9 +55,9 @@ EvolvingGrasp 由两个核心模块组成：
 
 **Physics-Aware Consistency Model (PCM)**：
 - **Physics-Aware Distillation**：先训练扩散教师模型，再蒸馏为一致性学生模型，在蒸馏损失中加入三类物理约束：
-  - 表面拉力（Surface Pulling Force）：维持手指与物体的稳定接触
-  - 外部穿透排斥力（External Penetration Repulsion）：防止手指穿透物体
-  - 自穿透排斥力（Self-Penetration Repulsion）：避免手指间碰撞
+    - 表面拉力（Surface Pulling Force）：维持手指与物体的稳定接触
+    - 外部穿透排斥力（External Penetration Repulsion）：防止手指穿透物体
+    - 自穿透排斥力（Self-Penetration Repulsion）：避免手指间碰撞
 - **Physics-Aware Sampling**：在采样过程中通过物理约束的梯度修正采样均值，引导轨迹朝向物理可行的姿态
 
 ### 损失函数 / 训练策略

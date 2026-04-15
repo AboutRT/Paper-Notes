@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📖 NLP理解
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[Balancing Task-Invariant Interaction And Task-Specific Adaptation For Unified Im](balancing_task-invariant_interaction_and_task-specific_adaptation_for_unified_im.md)**
 

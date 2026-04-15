@@ -49,8 +49,8 @@ tags:
 
     - 核心思想：用定位质量作为分类标签，而非二值标签
     - 定位损失 $\mathcal{L}_{dist}$ 通过最大似然估计转为概率：$P_{dist}^i = e^{-\lambda \mathcal{L}_{dist}^i}$
-      - 当 $\mathcal{L}_{dist} = 0$ 时，$P_{dist} = 1$（完美定位→高标签）
-      - 当 $\mathcal{L}_{dist} \to \infty$ 时，$P_{dist} \to 0$（差定位→低标签）
+        - 当 $\mathcal{L}_{dist} = 0$ 时，$P_{dist} = 1$（完美定位→高标签）
+        - 当 $\mathcal{L}_{dist} \to \infty$ 时，$P_{dist} \to 0$（差定位→低标签）
     - 用连续标签替代二值标签得到DAFL：
     $\text{DAFL}(p, y) = -(y-p)^\gamma (y\log(p) + (1-y)\log(1-p))$
     - $y \in [0,1]$ 为定位置信度，使分类得分能反映定位质量
@@ -69,8 +69,8 @@ tags:
     - 将query通道翻倍，一半负责分类、一半负责定位
     - 经自注意力后split为 $\mathbf{Q}_{cls}$ 和 $\mathbf{Q}_{loc}$
     - 关键设计选择：
-      - 任务特定的注意力权重：$\mathbf{A}_{cls} = W_a \mathbf{Q}_{cls}$, $\mathbf{A}_{loc} = W_a' \mathbf{Q}_{loc}$
-      - 任务共享的采样偏移：$\Delta r = W_p \text{Cat}(\mathbf{Q}_{cls}, \mathbf{Q}_{loc})$
+        - 任务特定的注意力权重：$\mathbf{A}_{cls} = W_a \mathbf{Q}_{cls}$, $\mathbf{A}_{loc} = W_a' \mathbf{Q}_{loc}$
+        - 任务共享的采样偏移：$\Delta r = W_p \text{Cat}(\mathbf{Q}_{cls}, \mathbf{Q}_{loc})$
     - 设计理由：(1) 同时学习特定权重和偏移的变量太多优化困难；(2) 偏移量优化目标无界，本身更难
     - 输出：$\hat{\mathbf{Q}}_{cls} = \text{Softmax}(\mathbf{A}_{cls})\mathbf{V}$, $\hat{\mathbf{Q}}_{loc} = \text{Softmax}(\mathbf{A}_{loc})\mathbf{V}$
     - 各自经独立FFN增强后送入对应任务头

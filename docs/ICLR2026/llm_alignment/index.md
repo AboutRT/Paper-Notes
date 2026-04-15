@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**🔬 ICLR2026** · 共 **38** 篇
+**🔬 ICLR2026** · **38** 篇论文解读
 
 **[A2D Any-Order Any-Step Safety Alignment For Diffusion Language Models](a2d_any-order_any-step_safety_alignment_for_diffusion_language_models.md)**
 

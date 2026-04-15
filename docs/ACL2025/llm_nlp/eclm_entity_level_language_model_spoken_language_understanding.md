@@ -88,9 +88,9 @@ $$U \mapsto \{(I_1: U_1), (I_2: U_2), \ldots, (I_n: U_n)\}$$
 ### 关键发现
 
 - **消融实验验证了两个组件的独立价值**：
-  - 去掉 Entity Slot：Slot F1 从 90.2→73.5（MixATIS），说明实体级转化对序列标注至关重要
-  - 去掉 Chain of Intent：Overall Acc 从 56.2→52.9（MixATIS），意图链对多意图识别有显著贡献
-  - 去掉两者（= Vanilla SFT）：性能大幅下降，验证了框架的整体设计
+    - 去掉 Entity Slot：Slot F1 从 90.2→73.5（MixATIS），说明实体级转化对序列标注至关重要
+    - 去掉 Chain of Intent：Overall Acc 从 56.2→52.9（MixATIS），意图链对多意图识别有显著贡献
+    - 去掉两者（= Vanilla SFT）：性能大幅下降，验证了框架的整体设计
 - **在高意图数场景优势更大**：1/2/3 意图场景分别比 Uni-MIS 提升 1.1%/4.3%/7.8%
 - **数据效率高**：ECLM 仅用 60% 训练数据即可超越 Uni-MIS 的全数据结果
 

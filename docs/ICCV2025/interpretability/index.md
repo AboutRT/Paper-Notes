@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**📹 ICCV2025** · 共 **8** 篇
+**📹 ICCV2025** · **8** 篇论文解读
 
 **[Aim Amending Inherent Interpretability Via Self-Supervised Masking](aim_amending_inherent_interpretability_via_self-supervised_masking.md)**
 

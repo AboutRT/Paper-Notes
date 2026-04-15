@@ -2,12 +2,15 @@
 title: >-
   [论文解读] The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning
 description: >-
-  [NeurIPS 2025 (workshop)][LLM推理][最短答案] 证明选择最短答案是一个简单但有效的Best-of-N启发式方法，通过避免过度思考regime大幅降低计算成本，性能与自一致性可比或更优，在推理模型中表现特别突出。
+  [NeurIPS 2025 Workshop on Efficient Reasoning][LLM推理][过度思考] 证明在推理模型的 Best-of-N 采样中，选择最短解是一个简单、反直觉但高效的启发式方法，性能与 self-consistency 相当，token 成本显著更低，其原理在于利用了模型在"常规模式"与"过度思考模式"之间的系统性偏差。
 tags:
-  - NeurIPS 2025 (workshop)
+  - NeurIPS 2025 Workshop on Efficient Reasoning
   - LLM推理
-  - 最短答案
   - 过度思考
+  - 最短答案启发式
+  - Best-of-N
+  - 自一致性
+  - 推理模型
 ---
 
 # The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning

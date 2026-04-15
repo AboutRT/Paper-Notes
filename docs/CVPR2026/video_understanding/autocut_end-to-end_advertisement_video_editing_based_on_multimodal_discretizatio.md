@@ -53,9 +53,9 @@ AutoCut 提出了一个端到端的广告视频编辑框架，通过残差向量
     - **视频编码器**：ResNet-50（对比学习预训练），提取帧级语义 embedding
     - **音频编码器**：PANNs（Wavegram-Logmel-CNN），在 AudioSet 上预训练
     - **RQVAE 离散化**：残差向量量化将连续 embedding 压缩为离散 token
-      - 码本大小：$256 \times 8$（每帧/每段音频编码为 8 个 token）
-      - 重建质量：视频 cos similarity 0.89，音频 0.96
-      - 训练损失：$\mathcal{L}_{rec} = 1 - \cos(\hat{f}, f)$
+        - 码本大小：$256 \times 8$（每帧/每段音频编码为 8 个 token）
+        - 重建质量：视频 cos similarity 0.89，音频 0.96
+        - 训练损失：$\mathcal{L}_{rec} = 1 - \cos(\hat{f}, f)$
     - **设计动机**：RQVAE 通过逐级残差逼近实现高效压缩，8 个 token 的配置在重建质量和 token 长度之间取得良好平衡
 
 2. **统一 Token 空间**：

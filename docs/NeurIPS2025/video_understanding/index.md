@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 视频理解方向 72篇论文解读
+  NeurIPS2025 视频理解方向 69篇论文解读
 description: >-
-  72篇NeurIPS2025 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  69篇NeurIPS2025 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**🧠 NeurIPS2025** · 共 **72** 篇
+**🧠 NeurIPS2025** · **69** 篇论文解读
 
 **[A Little Depth Goes A Long Way The Expressive Power Of Logde](a_little_depth_goes_a_long_way_the_expressive_power_of_logde.md)**
 
@@ -162,10 +162,6 @@ description: >-
 
 :   PASS提出路径选择性事件聚合与扫描（PEAS）模块和多面选择引导（MSG）损失，利用SSM的线性复杂度和频率泛化能力，实现了从10^6到10^9事件长度的广泛分布上的事件识别，并在推理频率变化时保持性能仅下降8.62%（基线下降20.69%）。
 
-**[Photography Perspective Composition Towards Aesthetic Perspective Recommendation](photography_perspective_composition_towards_aesthetic_perspective_recommendation.md)**
-
-:   首次提出摄影视角构图（PPC），超越传统 2D 裁剪，通过 3D 透视变换生成"差→优"的构图过程视频，并基于人类评估训练视角质量评估模型，帮助普通用户提升摄影构图水平。
-
 **[Pixfoundation 20 Do Video Multi-Modal Llms Use Motion In Visual Grounding](pixfoundation_20_do_video_multi-modal_llms_use_motion_in_visual_grounding.md)**
 
 :   通过提出四项运动中心的探测技术和 MoCentric-Bench 基准，证明当前视频多模态 LLM 在像素级视觉接地任务中未能真正利用运动信息，可被静态关键帧欺骗。
@@ -194,10 +190,6 @@ description: >-
 
 :   提出 SAMA 框架，通过构建统一的数据集（SAMA-239K）、模型（时空上下文聚合器 + SAM）和基准（SAMA-Bench），首次实现了多轮引用式视频对话中细粒度时空理解与grounding的联合建模。
 
-**[Scaling Rl To Long Videos](scaling_rl_to_long_videos.md)**
-
-:   提出 LongVILA-R1 全栈框架，通过构建 104K 长视频推理数据集、两阶段 CoT-SFT + RL 训练流水线、以及高效的多模态强化学习序列并行 (MR-SP) 系统，将 VLM 的推理能力扩展到长视频（最高支持 8192 帧），在 VideoMME 上达到 65.1%/71.1%。
-
 **[Seeing Beyond The Scene Analyzing And Mitigating Background Bias In Action Recog](seeing_beyond_the_scene_analyzing_and_mitigating_background_bias_in_action_recog.md)**
 
 :   系统分析了动作识别中背景偏差在分类模型、对比预训练模型（CLIP/SigLIP2）和视频大语言模型（VLLM）三类范式中的普遍存在，并提出两条缓解路径：分类模型通过双分支架构融合分割人体输入降低SBErr 3.78%，VLLM通过自动化prompt tuning降低SBErr 9.85%。
@@ -205,10 +197,6 @@ description: >-
 **[Seeing The Arrow Of Time In Large Multimodal Models](seeing_the_arrow_of_time_in_large_multimodal_models.md)**
 
 :   本文揭示当前大多模态模型（LMMs）对视频时间方向性（时间箭头）出人意料地不敏感——正放/倒放时答案几乎相同，提出基于 GRPO 的 ArrowRL 训练策略引入反向视频奖励来激发时间方向感知，并构建 AoTBench 基准，在多个 VQA 基准上取得显著提升（Vinoground 上相对提升 65.9%）。
-
-**[Seeing The Wind From A Falling Leaf](seeing_the_wind_from_a_falling_leaf.md)**
-
-:   本文提出端到端可微逆图形学框架，通过联合建模物体几何、物理属性和力表示，从视频中恢复不可见的力场（如风场），并支持基于物理的视频生成与编辑。
 
 **[Smartwilds Multimodal Wildlife Monitoring Dataset](smartwilds_multimodal_wildlife_monitoring_dataset.md)**
 

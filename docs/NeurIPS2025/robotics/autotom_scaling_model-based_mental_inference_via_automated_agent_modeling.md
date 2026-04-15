@@ -2,14 +2,14 @@
 title: >-
   [论文解读] AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling
 description: >-
-  [NeurIPS 2025][机器人][Theory of Mind] AutoToM 实现完全自动化的基于模型的心智理论推理——自动提出 agent 模型（贝叶斯网络结构）并进行贝叶斯逆规划，通过推理不确定性迭代调整模型（添加心智变量/扩展时间步），在5个 ToM benchmark 上超越 SOTA LLM 和推理模型，且产生类人的置信度估计。
+  [NeurIPS 2025][机器人][Theory of Mind] AutoToM 实现完全自动化的基于模型的心智理论推理——无需人工指定 agent 模型，自动提出贝叶斯网络结构并执行贝叶斯逆规划，通过推理不确定性驱动的迭代模型调整（添加心智变量或扩展时间步），在5个ToM benchmark上以82.43%平均准确率超越GPT-4o(63.39%)、o3-mini(73.94%)等SOTA模型。
 tags:
   - NeurIPS 2025
   - 机器人
   - Theory of Mind
-  - 贝叶斯逆规划
-  - 自动agent建模
-  - 心智推理
+  - Bayesian inverse planning
+  - automated agent modeling
+  - mental inference
   - LLM
 ---
 

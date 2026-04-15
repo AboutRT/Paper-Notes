@@ -57,8 +57,8 @@ FC-Track 作为后处理插件嵌入标准在线 MOT 流程。在每帧的标准
 
     - 功能：对重叠 tracklet pair 中的关联结果进行二次验证和纠正
     - 核心思路：对于重叠 pair $(t_{pri}, t_{aux})$，取与 $t_{pri}$ 匹配的检测 $d_f$，分别计算：
-      - $S_{pri} = \text{Distance}(F_{det}[d_f], F_{trk}[t_{pri}])$（检测与 prime 的外观距离）
-      - $S_{aux} = \text{Distance}(F_{det}[d_f], F_{trk}[t_{aux}])$（检测与 auxiliary 的外观距离）
+        - $S_{pri} = \text{Distance}(F_{det}[d_f], F_{trk}[t_{pri}])$（检测与 prime 的外观距离）
+        - $S_{aux} = \text{Distance}(F_{det}[d_f], F_{trk}[t_{aux}])$（检测与 auxiliary 的外观距离）
       当 $S_{pri} \geq \tau_{min}$（prime 匹配距离足够大，说明匹配不太可靠）且 $S_{pri} - S_{aux} \geq \tau_{dif}$（auxiliary 明显更接近）时，执行重分配：将检测 $d_f$ 改为匹配给 $t_{aux}$
     - 设计动机：严格的双阈值条件（$\tau_{min} = 0.8$, $\tau_{dif} = 0.4$）确保只在高置信度情况下才触发纠正，避免误纠。使用重叠前保存的干净外观特征作为比较基准，而非重叠期间被污染的特征
 

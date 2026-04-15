@@ -51,8 +51,8 @@ IterResearch 将深度研究建模为MDP $\langle\mathcal{S},\mathcal{D},\mathca
 
     - 功能：训练Agent高效探索而非漫无目的地搜索
     - 核心思路（两个组件）：
-      - *几何折扣奖励*：$r_t = \gamma^{T-t} \cdot R_T$，越快得到正确答案，每步获得的奖励越高，创造隐式效率压力
-      - *自适应下采样*：由于迭代范式每条轨迹自然分解为多个训练样本（每轮一个），不同问题的样本数量不一致。将总样本数截断为数据并行(DP) size的最大倍数：$|\mathcal{C}_{\text{train}}| = \lfloor|\mathcal{C}|/\text{DP}_{\text{size}}\rfloor \times \text{DP}_{\text{size}}$
+        - *几何折扣奖励*：$r_t = \gamma^{T-t} \cdot R_T$，越快得到正确答案，每步获得的奖励越高，创造隐式效率压力
+        - *自适应下采样*：由于迭代范式每条轨迹自然分解为多个训练样本（每轮一个），不同问题的样本数量不一致。将总样本数截断为数据并行(DP) size的最大倍数：$|\mathcal{C}_{\text{train}}| = \lfloor|\mathcal{C}|/\text{DP}_{\text{size}}\rfloor \times \text{DP}_{\text{size}}$
     - 基于GSPO算法实现，训练目标包含PPO风格的clip和group内优势归一化
 
 3. **两阶段训练流程**:

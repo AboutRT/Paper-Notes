@@ -53,11 +53,11 @@ OS-Kairos 的 pipeline 分三步：
 
 - **做什么**：自动为探测 Agent（OS-Atlas-Pro-7B）在每个交互步骤标注 1-5 分的置信度分数，同时生成高质量 GUI 轨迹数据
 - **核心思路**：Agent-Critic 协作范式。Agent（OS-Atlas-Pro-7B）负责预测动作，Critic（GPT-4o + 布局解析模型）负责评分和监督：
-  - Agent 预测当前步动作 $a_t^p$
-  - Critic 根据截图、计划表、历史轨迹综合评估，输出 1-5 分的 $\text{score}_t$
-  - 若 $\text{score}_t = 5$，说明 Agent 正确，执行 Agent 动作
-  - 若 $\text{score}_t < 5$，Critic 提供修正动作 $a_t^c$ 来纠正并继续探测
-  - Critic 同时监控计划表进度，判断指令是否完成
+    - Agent 预测当前步动作 $a_t^p$
+    - Critic 根据截图、计划表、历史轨迹综合评估，输出 1-5 分的 $\text{score}_t$
+    - 若 $\text{score}_t = 5$，说明 Agent 正确，执行 Agent 动作
+    - 若 $\text{score}_t < 5$，Critic 提供修正动作 $a_t^c$ 来纠正并继续探测
+    - Critic 同时监控计划表进度，判断指令是否完成
 - **设计动机**：(1) 连接真实手机设备（非模拟器），覆盖商业 APP（如小红书有保护机制）；(2) GPT-4o 作为当前最强多模态模型，具备可靠的判断能力；(3) 通过 Agent-Critic 协作实现自动化标注，避免人工逐步标注的高成本
 - **数据精炼**：验证并精化轨迹，确保动作与置信度分数一致。分数为 5 的步骤集中在常规操作（打开 APP、点击搜索栏），而复杂步骤的分数显著下降
 
@@ -65,8 +65,8 @@ OS-Kairos 的 pipeline 分三步：
 
 - **做什么**：将置信度评分能力集成进 GUI Agent，使其在每步同时输出动作和置信度，并根据置信度自适应决定是否请求人类干预
 - **核心思路**：
-  - **训练**：将动作预测和置信度分数拼接为一个序列，用标准 next-token prediction 训练：$\mathcal{L} = \sum_{i=1}^{N} \mathcal{P}_\theta((a_t || \text{score}_t)^i | P_p(s_t, \tau_i, h_{t-1}, (a_t || \text{score}_t)^{<i}))$
-  - **推理**：引入阈值 $\gamma$，当 $\text{score}_t < \gamma$ 时触发人类干预，否则自主执行
+    - **训练**：将动作预测和置信度分数拼接为一个序列，用标准 next-token prediction 训练：$\mathcal{L} = \sum_{i=1}^{N} \mathcal{P}_\theta((a_t || \text{score}_t)^i | P_p(s_t, \tau_i, h_{t-1}, (a_t || \text{score}_t)^{<i}))$
+    - **推理**：引入阈值 $\gamma$，当 $\text{score}_t < \gamma$ 时触发人类干预，否则自主执行
 - **设计动机**：(1) 拼接序列训练比多任务训练更稳定，不损害原有动作预测能力；(2) 阈值机制提供灵活性——$\gamma$ 最小值 = 全自主，$\gamma$ 最大值 = 全交互，中间值 = 自适应；(3) 置信度分数对人类用户提供了可解释的决策依据
 
 ### 训练策略

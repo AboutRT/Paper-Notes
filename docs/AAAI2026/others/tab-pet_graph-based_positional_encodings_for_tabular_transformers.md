@@ -53,8 +53,8 @@ Tab-PET 的 pipeline 分四步：
 
     - 功能：在特征维度上构造图，每个特征是节点，边权刻画特征间的统计依赖或因果关系。
     - 核心思路：探索两类图估计范式——
-      - **因果图**：假设线性结构方程模型 $\mathbf{x} = \mathbf{W}\mathbf{x} + \boldsymbol{\epsilon}$，用 LiNGAM（利用非高斯性识别因果方向）或 NOTEARS（连续优化 + 无环约束）学习有向无环图。
-      - **关联图**：直接用成对统计量 $w_{ij} = \rho(x_i, x_j)$ 构造边权，$\rho$ 可选 Pearson 相关、Spearman 秩相关或互信息（Chow-Liu 算法保证树结构 DAG）。
+        - **因果图**：假设线性结构方程模型 $\mathbf{x} = \mathbf{W}\mathbf{x} + \boldsymbol{\epsilon}$，用 LiNGAM（利用非高斯性识别因果方向）或 NOTEARS（连续优化 + 无环约束）学习有向无环图。
+        - **关联图**：直接用成对统计量 $w_{ij} = \rho(x_i, x_j)$ 构造边权，$\rho$ 可选 Pearson 相关、Spearman 秩相关或互信息（Chow-Liu 算法保证树结构 DAG）。
     - 设计动机：特征间关联结构在表格数据中是隐式存在的（如金融数据中收入和消费高度相关），图估计把这种隐式结构显式化。实验证明关联图优于因果图——因果图太稀疏（图熵低），关联图更稠密能捕获更丰富的特征依赖。
 
 2. **位置编码构造（PE Creation）**

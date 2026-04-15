@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚛️ 物理学
 
-**🤖 AAAI2026** · 共 **2** 篇
+**🤖 AAAI2026** · **2** 篇论文解读
 
 **[Adaptive Fidelity Estimation For Quantum Programs With Graph](adaptive_fidelity_estimation_for_quantum_programs_with_graph.md)**
 

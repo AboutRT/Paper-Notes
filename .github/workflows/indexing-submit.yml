@@ -29,6 +29,11 @@ on:
           - bing-only
           - google-only
         default: 'both'
+      index_pages:
+        description: '同时提交索引页（主页/会议/领域索引）'
+        required: false
+        type: boolean
+        default: true
 
 env:
   INDEXNOW_KEY: 'afab7697-0632-4c75-a61c-17ca32070d60'
@@ -57,7 +62,12 @@ jobs:
         if: ${{ github.event.inputs.engine != 'bing-only' && env.HAS_GOOGLE_KEY == 'true' }}
         run: echo '${{ secrets.GOOGLE_INDEXING_SA_KEY }}' > /tmp/sa_key.json
 
-      - name: Submit to search engines
+      - name: Submit index pages (homepage/conference/domain indexes)
+        if: ${{ github.event_name == 'workflow_run' || github.event_name == 'schedule' || github.event.inputs.index_pages == 'true' }}
+        run: |
+          python scripts/indexing_submit.py --bing-key $INDEXNOW_KEY --bing-only --index-pages
+
+      - name: Submit paper pages to search engines
         run: |
           ARGS="--bing-key $INDEXNOW_KEY"
 

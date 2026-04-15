@@ -53,29 +53,29 @@ $\text{输入图像} \xrightarrow{AMG} \text{多粒度掩码} \xrightarrow{MMG} 
 
     - 功能：将 AMG 输出的掩码按面积和置信度分级，应用不同 NMS 策略
     - 核心思路：
-      - 均匀生成 32 个点提示/边（比 SAM 默认更密集）
-      - 根据掩码面积将 SAM 返回的掩码分为 object、part、subpart 三个层级
-      - 对 object 级别掩码应用严格的 NMS（高 IoU 阈值）保留高置信度的大掩码
-      - 对 part/subpart 级别掩码在密集区域保留更多备选掩码
+        - 均匀生成 32 个点提示/边（比 SAM 默认更密集）
+        - 根据掩码面积将 SAM 返回的掩码分为 object、part、subpart 三个层级
+        - 对 object 级别掩码应用严格的 NMS（高 IoU 阈值）保留高置信度的大掩码
+        - 对 part/subpart 级别掩码在密集区域保留更多备选掩码
     - 设计动机：一刀切的 NMS 阈值无法同时处理不同粒度的掩码。大物体需要严格去冗余，小细节需要保留更多候选。
 
 2. **Entity-level Mask Refinement (EMR)**：
 
     - 功能：将 object 级掩码精炼为准确的实体级掩码，解决重叠和冗余
     - 步骤：
-      - (a) **增加采样密度**：用更多均匀点构建 mask gallery（高置信度掩码候选库）
-      - (b) **分离重叠掩码**：识别 object 级掩码中的重叠区域，利用 mask gallery 中的掩码将其分离为独立的相邻掩码
-      - (c) **合并相似掩码**：构建掩码间的相似度矩阵，利用 mask gallery 判断实体级一致性，将高相似度的掩码合并
+        - (a) **增加采样密度**：用更多均匀点构建 mask gallery（高置信度掩码候选库）
+        - (b) **分离重叠掩码**：识别 object 级掩码中的重叠区域，利用 mask gallery 中的掩码将其分离为独立的相邻掩码
+        - (c) **合并相似掩码**：构建掩码间的相似度矩阵，利用 mask gallery 判断实体级一致性，将高相似度的掩码合并
     - 设计动机：AMG 的 object 级掩码可能重叠（同一区域被多个点覆盖），也可能过度碎片化。EMR 通过"先分后合"的策略系统地整理为互不重叠的实体掩码。
 
 3. **Under-Segmentation Refinement (USR)**：
 
     - 功能：修复 EMR 输出中的欠分割区域
     - 核心思路：
-      - 使用超像素中心点（superpixel centroids）作为额外 prompt
-      - 利用 part/subpart 级掩码的中心点作为补充 prompt
-      - 将这些 prompt 送入 SAM 生成额外的高置信度掩码
-      - 与 EMR 输出融合，确保未被覆盖的实体得到分割
+        - 使用超像素中心点（superpixel centroids）作为额外 prompt
+        - 利用 part/subpart 级掩码的中心点作为补充 prompt
+        - 将这些 prompt 送入 SAM 生成额外的高置信度掩码
+        - 与 EMR 输出融合，确保未被覆盖的实体得到分割
     - 设计动机：EMR 处理后可能仍有遗漏——一些实体可能因初始均匀采样点未覆盖、或在 NMS 中被错误移除。USR 通过多源 prompt 生成补充掩码来弥补。
 
 ### 完全训练免调

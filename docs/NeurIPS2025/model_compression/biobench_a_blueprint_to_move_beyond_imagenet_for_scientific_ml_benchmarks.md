@@ -116,9 +116,9 @@ tags:
 - **指标单一**：macro-F1 对某些应用不合适（如需要 precision@recall 曲线操作点的场景）。
 - **缺少训练数据分析**：未分析预训练数据量/组成对 BioBench 性能的影响。
 - **改进方向**：
-  - 扩展到医学影像（PathBench？）和遥感（GeoBench？）
-  - 加入 few-shot 和 fine-tuning 评估模式
-  - 纳入检测/分割任务
+    - 扩展到医学影像（PathBench？）和遥感（GeoBench？）
+    - 加入 few-shot 和 fine-tuning 评估模式
+    - 纳入检测/分割任务
 
 ## 相关工作与启发
 

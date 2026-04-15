@@ -53,11 +53,11 @@ tags:
 2. **两级能力分类体系**:
 
     - **General 3D Capability**（基础几何知识）：
-      - 几何变换(Geometric Transformations, 24%)：坐标转换、投影、法向量、旋转参数化
-      - 力学/光学公式化(Mechanics/Optics Formulation, 31%)：球谐函数、BRDF、运动方程、辐射度量
+        - 几何变换(Geometric Transformations, 24%)：坐标转换、投影、法向量、旋转参数化
+        - 力学/光学公式化(Mechanics/Optics Formulation, 31%)：球谐函数、BRDF、运动方程、辐射度量
     - **Research Capability**（研究级推理）：
-      - 新算法实现(Novel Algorithm Implementation, 34%)：论文核心新idea的函数级实现
-      - 几何逻辑路由(Geometric Logic Routing, 11%)：组合现有算子构建新pipeline——许多有影响力的论文就是这样构造的
+        - 新算法实现(Novel Algorithm Implementation, 34%)：论文核心新idea的函数级实现
+        - 几何逻辑路由(Geometric Logic Routing, 11%)：组合现有算子构建新pipeline——许多有影响力的论文就是这样构造的
     - 设计动机：分离基础能力和研究能力，诊断模型的短板所在
 
 3. **评估指标**:

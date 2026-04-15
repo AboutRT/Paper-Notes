@@ -53,9 +53,9 @@ DGPST 提出了一个基于扩散模型的人像风格迁移框架，通过 sema
 
     - 功能：建立内容与参考人像之间的稠密语义对应，生成扭曲后的参考图 $z_0^{s\_w}$
     - 核心思路：
-      - 用 CLIP 图像编码器提取图像特征，通过 projection network 送入 SD U-Net 做 decoupled cross-attention
-      - 将两张图像送入 SD U-Net（注入 semantic adapter 特征），从第三个上采样块提取特征 $F_0^c, F_0^s \in \mathbb{R}^{HW \times C}$
-      - 计算 normalized correlation matrix $\mathcal{M}(i,j)$，然后对参考图做 softmax-weighted warping：$z_0^{s\_w}(i) = \sum_j \text{softmax}(\mathcal{M}(i,j)/\tau) \cdot z_0^s(j)$
+        - 用 CLIP 图像编码器提取图像特征，通过 projection network 送入 SD U-Net 做 decoupled cross-attention
+        - 将两张图像送入 SD U-Net（注入 semantic adapter 特征），从第三个上采样块提取特征 $F_0^c, F_0^s \in \mathbb{R}^{HW \times C}$
+        - 计算 normalized correlation matrix $\mathcal{M}(i,j)$，然后对参考图做 softmax-weighted warping：$z_0^{s\_w}(i) = \sum_j \text{softmax}(\mathcal{M}(i,j)/\tau) \cdot z_0^s(j)$
     - 训练损失：mask warping loss $\mathcal{L}_{mask} = \|M^c - M^{s\_w}\|_1$（语义 mask 对齐）+ cyclic warping consistency loss $\mathcal{L}_{cwc} = \mathcal{L}_{LPIPS}(z_0^s, z^{s'\_w})$（循环一致性）
     - 设计动机：直接用 SD 特征做对应可能语义区域不完整，semantic adapter + 两个损失函数约束对应的准确性
 
@@ -70,9 +70,9 @@ DGPST 提出了一个基于扩散模型的人像风格迁移框架，通过 sema
 
     - 功能：构建既保持内容结构细节又增强风格色调迁移的初始潜空间
     - 核心思路：
-      - 对扭曲参考图做 DDIM inversion 得到 $z_T^{s\_w}$（直接用它初始化会增强色彩迁移但丢失内容细节导致模糊）
-      - 先做 AdaIN：$z_T^{cs'} = \sigma(z_T^{s\_w}) \cdot \frac{z_T^c - \mu(z_T^c)}{\sigma(z_T^c)} + \mu(z_T^{s\_w})$（逐通道均值/方差对齐，让内容潜空间的统计量靠近风格）
-      - 再做 Wavelet 融合：取 $z_T^{s\_w}$ 的低频 + $z_T^{cs'}$ 的高频，通过 IDWT 合成最终初始潜空间 $z_T^{cs}$
+        - 对扭曲参考图做 DDIM inversion 得到 $z_T^{s\_w}$（直接用它初始化会增强色彩迁移但丢失内容细节导致模糊）
+        - 先做 AdaIN：$z_T^{cs'} = \sigma(z_T^{s\_w}) \cdot \frac{z_T^c - \mu(z_T^c)}{\sigma(z_T^c)} + \mu(z_T^{s\_w})$（逐通道均值/方差对齐，让内容潜空间的统计量靠近风格）
+        - 再做 Wavelet 融合：取 $z_T^{s\_w}$ 的低频 + $z_T^{cs'}$ 的高频，通过 IDWT 合成最终初始潜空间 $z_T^{cs}$
     - 引入 $\gamma$ 参数控制风格化强度，通过插值 $z_T^{cs} = \gamma \cdot z_T^{cs} + (1-\gamma) \cdot z_T^c$ 实现连续风格强度控制
     - 设计动机：从内容潜空间出发保持原色调（风格迁移不足），从参考潜空间出发丢失细节（过度模糊）。AdaIN 对齐统计量+Wavelet 融合高/低频取长补短
 

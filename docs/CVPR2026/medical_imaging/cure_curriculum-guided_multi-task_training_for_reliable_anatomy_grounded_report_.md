@@ -56,27 +56,27 @@ CURE 以 MedGemma-4B-IT 为基础模型，采用 LoRA (rank=16, 4-bit) 微调，
 
 - **做什么**：训练过程中周期性评估模型在各数据源和类别上的表现，根据误差动态调节采样概率
 - **核心思路**：
-  - **数据集级（Inter-Dataset）**：对每个数据源 $D_i$ 计算综合得分 $s_i = \alpha \cdot \text{IoU}_i + (1-\alpha) \cdot \text{CXRFEScore}_i$，误差 $e_i = 1 - s_i$，下一轮采样概率 $p_i = e_i / \sum_j e_j$——表现越差的数据集被采样越多
-  - **类别级（Intra-Dataset）**：在 MS-CXR 按 8 种短语类别重加权，在 Chest ImaGenome 按 29-38 个解剖区域重加权，PadChest-GR 因多标签无法单一归类故保持均匀采样
+    - **数据集级（Inter-Dataset）**：对每个数据源 $D_i$ 计算综合得分 $s_i = \alpha \cdot \text{IoU}_i + (1-\alpha) \cdot \text{CXRFEScore}_i$，误差 $e_i = 1 - s_i$，下一轮采样概率 $p_i = e_i / \sum_j e_j$——表现越差的数据集被采样越多
+    - **类别级（Intra-Dataset）**：在 MS-CXR 按 8 种短语类别重加权，在 Chest ImaGenome 按 29-38 个解剖区域重加权，PadChest-GR 因多标签无法单一归类故保持均匀采样
 - **设计动机**：标准按比例采样会导致 Chest ImaGenome（1290 万条）主导训练，小数据集（MS-CXR 仅 815 条）几乎被忽略；同样，高频解剖区域过拟合而低频但临床重要的区域学不好
 
 #### 2. 解剖级细粒度任务分解（AGRG）
 
 - **做什么**：将 Chest ImaGenome 的场景图拆解为三个子任务
 - **核心思路**：
-  - **Locate**：给定解剖位置名称 → 输出 bounding box `[cx, cy, w, h]`（36 个位置）
-  - **Describe**：给定解剖位置名称 → 输出文本描述（38 个位置）
-  - **Locate & Describe**：同时输出定位和描述（29 个位置）
-  - 三个子任务均匀采样以保持任务平衡；一张图像可产生 9~36 条训练实例
+    - **Locate**：给定解剖位置名称 → 输出 bounding box `[cx, cy, w, h]`（36 个位置）
+    - **Describe**：给定解剖位置名称 → 输出文本描述（38 个位置）
+    - **Locate & Describe**：同时输出定位和描述（29 个位置）
+    - 三个子任务均匀采样以保持任务平衡；一张图像可产生 9~36 条训练实例
 - **设计动机**：显式解耦空间定位与文本描述能力，使模型分别学好两种技能后再联合；同时利用细粒度分解将约 23.7 万张图扩展成 1290 万条实例，大幅提升数据利用效率
 
 #### 3. 统一指令格式与数据增强
 
 - **做什么**：将 PG（短语定位）、GRG（有根据报告生成）、AGRG 三类任务统一为 instruction-following 格式
 - **核心思路**：
-  - PG: `"Ground the phrase: {phrase}"` → `"phrase: [cx,cy,w,h]..."`
-  - GRG: `"Generate a grounded report"` → 含 bbox 坐标的完整报告
-  - PadChest-GR 额外从 sentence-box 对生成 label-box 对，近乎翻倍 PG 训练数据
+    - PG: `"Ground the phrase: {phrase}"` → `"phrase: [cx,cy,w,h]..."`
+    - GRG: `"Generate a grounded report"` → 含 bbox 坐标的完整报告
+    - PadChest-GR 额外从 sentence-box 对生成 label-box 对，近乎翻倍 PG 训练数据
 - **设计动机**：异构监督信号（框、短语、描述、标签）统一到一个模板下可共享参数，减少任务冲突
 
 ### 损失函数 / 训练策略

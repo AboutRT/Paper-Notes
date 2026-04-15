@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Exploring Forgetting in Large Language Model Pre-Training
 description: >-
-   系统性地探索了 LLM 预训练阶段的灾难性遗忘问题，提出了基于实体记忆的新指标（M_ex、M_in）替代传统 PPL 来检测遗忘，并验证了周期性高强度 memory replay 策略在缓解预训练遗忘中的有效性。
+  [ACL2025][catastrophic forgetting] 系统性地探索了 LLM 预训练阶段的灾难性遗忘问题，提出了基于实体记忆的新指标（M_ex、M_in）替代传统 PPL 来检测遗忘，并验证了周期性高强度 memory replay 策略在缓解预训练遗忘中的有效性。
 tags:
-
+  - ACL2025
+  - catastrophic forgetting
+  - pre-training
+  - entity memory
+  - memory replay
+  - forgetting curve
 ---
 
 # Exploring Forgetting in Large Language Model Pre-Training
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2410.17018](https://arxiv.org/abs/2410.17018) |
-| 代码 | - |
-| 领域 | LLM/NLP |
-| 关键词 | catastrophic forgetting, pre-training, entity memory, memory replay, forgetting curve |
+**会议**: ACL2025  
+**arXiv**: [2410.17018](https://arxiv.org/abs/2410.17018)  
+**代码**: -  
+**领域**: LLM/NLP  
+**关键词**: catastrophic forgetting, pre-training, entity memory, memory replay, forgetting curve  
 
 ## 一句话总结
 

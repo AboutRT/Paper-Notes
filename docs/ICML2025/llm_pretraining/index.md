@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**🧪 ICML2025** · 共 **29** 篇
+**🧪 ICML2025** · **29** 篇论文解读
 
 **[A Square Peg In A Square Hole Meta-Expert For Long-Tailed Semi-Supervised Learni](a_square_peg_in_a_square_hole_meta-expert_for_long-tailed_semi-supervised_learni.md)**
 

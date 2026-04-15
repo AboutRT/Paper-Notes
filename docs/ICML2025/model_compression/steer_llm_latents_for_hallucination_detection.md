@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Steer LLM Latents for Hallucination Detection
 description: >-
-  [模型压缩] 提出 Truthfulness Separator Vector (TSV)，一种轻量级 steering vector，在推理时重塑 LLM 表示空间以增强真实与幻觉输出的分离，仅需 32 个标注样本即可接近全监督性能。
+  [ICML 2025][模型压缩][steering vector] 提出 Truthfulness Separator Vector (TSV)，一种轻量级 steering vector，在推理时重塑 LLM 表示空间以增强真实与幻觉输出的分离，仅需 32 个标注样本即可接近全监督性能。
 tags:
+  - ICML 2025
   - 模型压缩
+  - steering vector
+  - hallucination detection
+  - optimal transport
+  - 伪标签
+  - TSV
 ---
 
 # Steer LLM Latents for Hallucination Detection
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2503.01917](https://arxiv.org/abs/2503.01917) |
-| 代码 | - |
-| 领域 | LLM Safety / Hallucination Detection |
-| 关键词 | steering vector, hallucination detection, optimal transport, pseudo-labeling, TSV |
+**会议**: ICML 2025  
+**arXiv**: [2503.01917](https://arxiv.org/abs/2503.01917)  
+**代码**: -  
+**领域**: LLM Safety / Hallucination Detection  
+**关键词**: steering vector, hallucination detection, optimal transport, pseudo-labeling, TSV  
 
 ## 一句话总结
 

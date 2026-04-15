@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🤖 AAAI2026** · 共 **30** 篇
+**🤖 AAAI2026** · **30** 篇论文解读
 
 **[3Dteethsam Taming Sam2 For 3D Teeth Segmentation](3dteethsam_taming_sam2_for_3d_teeth_segmentation.md)**
 

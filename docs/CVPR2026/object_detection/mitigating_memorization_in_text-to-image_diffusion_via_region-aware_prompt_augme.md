@@ -58,8 +58,8 @@ tags:
     - **三流特征提取**：ViT patch 级视觉描述子 $\mathbf{f}^{\mathrm{vis}}$、CLIP 全局语义描述子 $\mathbf{f}^{\mathrm{clip}}$、CNN 纹理描述子 $\mathbf{f}^{\mathrm{tex}}$
     - **注意力融合**：线性投影到共同维度 → 轻量 Transformer 编码器进行注意力融合 → $\ell_2$ 归一化得到融合向量 $\hat{\mathbf{f}}_{\mathrm{fus}}$
     - **两阶段决策规则**：
-      - 拷贝判定：$S_{\mathrm{fus}} = \cos(\hat{\mathbf{f}}_{\mathrm{fus}}(G), \hat{\mathbf{f}}_{\mathrm{fus}}(R)) > \tau_1 = 0.938$
-      - 拷贝类型：加权评分 $\bar{S} = 0.24 S_{\mathrm{vis}} + 0.38 S_{\mathrm{clip}} + 0.38 S_{\mathrm{tex}}$，$\bar{S} > \tau_2 = 0.970$ 为 Retrieve/Exact，否则为 Style 拷贝
+        - 拷贝判定：$S_{\mathrm{fus}} = \cos(\hat{\mathbf{f}}_{\mathrm{fus}}(G), \hat{\mathbf{f}}_{\mathrm{fus}}(R)) > \tau_1 = 0.938$
+        - 拷贝类型：加权评分 $\bar{S} = 0.24 S_{\mathrm{vis}} + 0.38 S_{\mathrm{clip}} + 0.38 S_{\mathrm{tex}}$，$\bar{S} > \tau_2 = 0.970$ 为 Retrieve/Exact，否则为 Style 拷贝
 
 3. **ADMCD 作为相似度度量**：融合相似度比单一指标更符合人类感知，在光度和几何扰动下更稳定。三流设计使得当某一线索不可靠时（如纹理匹配对 LPIPS、关键点稀疏对 ORB），其他线索可以补偿。
 

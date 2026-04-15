@@ -55,19 +55,19 @@ tags:
 
     - 功能：证明未裁剪的 AdaGrad/Adam 在重尾噪声下的高概率收敛不够好
     - 核心论证：
-      - 构造一维凸优化问题，噪声分布为 $\alpha$-stable distribution（满足 $\mathbb{E}[|\xi|^\alpha] < \infty$ 但 $\mathbb{E}[|\xi|^2] = \infty$）
-      - 在此问题上，AdaGrad-Norm 的误差的高概率界为 $O(1/\delta^{2/\alpha - 1})$——随 $\alpha \to 1$（噪声越重尾），界越差
-      - 关键洞察：AdaGrad 的分母 $\sqrt{\sum g_i^2}$ 虽然缩放了大梯度，但不截断——当单个极端噪声使 $g_t$ 非常大时，$g_t / \sqrt{\sum_{i \leq t} g_i^2}$ 的更新步长可能仍然过大
+        - 构造一维凸优化问题，噪声分布为 $\alpha$-stable distribution（满足 $\mathbb{E}[|\xi|^\alpha] < \infty$ 但 $\mathbb{E}[|\xi|^2] = \infty$）
+        - 在此问题上，AdaGrad-Norm 的误差的高概率界为 $O(1/\delta^{2/\alpha - 1})$——随 $\alpha \to 1$（噪声越重尾），界越差
+        - 关键洞察：AdaGrad 的分母 $\sqrt{\sum g_i^2}$ 虽然缩放了大梯度，但不截断——当单个极端噪声使 $g_t$ 非常大时，$g_t / \sqrt{\sum_{i \leq t} g_i^2}$ 的更新步长可能仍然过大
     - 设计动机：反驳"Adam ≈ 隐式裁剪"的流行观点——缩放 ≠ 截断
 
 2. **正面结果：裁剪修复问题**:
 
     - 功能：证明 Clip-AdaGrad-Norm 和 Clip-Adam-Norm 有 polylog 高概率收敛
     - 核心思路：
-      - 裁剪操作 $\text{clip}(g_t, c_t) = g_t \cdot \min(1, c_t/\|g_t\|)$，其中 $c_t$ 是时变裁剪阈值
-      - 裁剪后的梯度有界→自适应步长的分析变得更好控制
-      - 对凸问题：$\mathbb{E}[f(\bar{x}_T) - f(x^*)] \leq O(T^{-1/2} \cdot \log^q(T/\delta))$
-      - 对非凸问题：$\min_t \|\nabla f(x_t)\|^2 \leq O(T^{-1/4} \cdot \log^q(T/\delta))$
+        - 裁剪操作 $\text{clip}(g_t, c_t) = g_t \cdot \min(1, c_t/\|g_t\|)$，其中 $c_t$ 是时变裁剪阈值
+        - 裁剪后的梯度有界→自适应步长的分析变得更好控制
+        - 对凸问题：$\mathbb{E}[f(\bar{x}_T) - f(x^*)] \leq O(T^{-1/2} \cdot \log^q(T/\delta))$
+        - 对非凸问题：$\min_t \|\nabla f(x_t)\|^2 \leq O(T^{-1/4} \cdot \log^q(T/\delta))$
     - 关键新颖性：处理了 Adam 特有的动量和偏差修正——不是简单地将 Clip-SGD 的结果搬过来
     - 扩展到延迟步长版本：实际分布式训练中步长有延迟→证明延迟版本也有类似保证
 

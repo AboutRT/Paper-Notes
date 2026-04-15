@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Regularizing INR with Diffusion Prior for Self-Supervised 3D Reconstruction of Neutron Computed Tomography Data
 description: >-
-  [CVPR 2026][3D视觉][中子CT] 提出 DINR (Diffusive INR)，将预训练扩散先验与隐式神经表示 (INR) 结合，通过近端损失公式实现稀疏视角中子 CT 的高质量 3D 重建。
+  [CVPR 2026][3D视觉][Neutron CT] 提出 DINR (Diffusive INR)，在 DD3IP 扩散框架内用 INR 替代传统反演求解器，通过近端损失将扩散去噪估计注入 INR 优化过程，在极端稀疏视角（低至 4-5 视图）的中子 CT 重建中超越现有 SOTA 方法。
 tags:
   - CVPR 2026
   - 3D视觉
-  - 中子CT
-  - 稀疏视角重建
-  - 隐式神经表示
-  - 扩散先验
-  - 逆问题
+  - Neutron CT
+  - Sparse-view Reconstruction
+  - Implicit Neural Representation
+  - 扩散模型
+  - Inverse Problem
 ---
 
 # Regularizing INR with Diffusion Prior for Self-Supervised 3D Reconstruction of Neutron Computed Tomography Data

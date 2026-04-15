@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Stealing Training Data from Large Language Models in Decentralized Training through Activation Inversion Attack
 description: >-
-  [ACL 2025][去中心化训练] 提出 Activation Inversion Attack (AIA)，首次揭示了在去中心化训练框架中，恶意阶段可以通过截获的中间激活值重构训练数据，在 GPT2-XL 微调场景下可精确恢复 62% 的私人邮件地址。
+  [ACL 2025][decentralized training] 提出 Activation Inversion Attack（AIA），首次系统揭示去中心化训练（流水线并行）中恶意阶段可通过截获中间激活值高效重构训练数据，在 Bloom-7B1 微调场景下可精确恢复 62% 的私人邮件和接近 100% 的生日信息。
 tags:
   - ACL 2025
-  - 去中心化训练
-  - 隐私攻击
-  - 激活反演
-  - 数据泄露
-  - 流水线并行
+  - decentralized training
+  - activation inversion
+  - privacy attack
+  - pipeline parallelism
+  - data leakage
 ---
 
 # Stealing Training Data from Large Language Models in Decentralized Training through Activation Inversion Attack

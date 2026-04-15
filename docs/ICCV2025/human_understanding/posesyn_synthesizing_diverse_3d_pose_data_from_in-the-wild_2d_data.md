@@ -63,12 +63,12 @@ PoseSyn 包含三个阶段：
 
     - 功能：将困难样本的不准确伪标签 $\hat{J}_C^{\text{3D}}$ 扩展为包含多样化姿态变体的运动序列
     - 核心思路：
-      - 首先用 VLM 为困难图像生成文本描述（如"person kneeling down and chopping with an axe"）
-      - 将伪标签姿态 $\hat{J}_C^{\text{3D}}$ 复制 $T$ 帧形成初始运动表示 $\mathcal{MR}_{\text{init}} = F(\hat{J}_C^{\text{3D}} \otimes T)$
-      - 通过 T2M-GPT 的 Motion VQ-VAE 编码器得到初始运动索引 $\mathcal{S}_{\mathcal{MR}}$
-      - 在文本嵌入 $\mathbf{e}_{\text{text}}$ 和初始运动索引 $\mathcal{S}_{\mathcal{MR}}$ 的联合引导下，自回归生成运动序列：
+        - 首先用 VLM 为困难图像生成文本描述（如"person kneeling down and chopping with an axe"）
+        - 将伪标签姿态 $\hat{J}_C^{\text{3D}}$ 复制 $T$ 帧形成初始运动表示 $\mathcal{MR}_{\text{init}} = F(\hat{J}_C^{\text{3D}} \otimes T)$
+        - 通过 T2M-GPT 的 Motion VQ-VAE 编码器得到初始运动索引 $\mathcal{S}_{\mathcal{MR}}$
+        - 在文本嵌入 $\mathbf{e}_{\text{text}}$ 和初始运动索引 $\mathcal{S}_{\mathcal{MR}}$ 的联合引导下，自回归生成运动序列：
        $$p(\mathcal{S}_C | \mathbf{e}_{\text{text}}, \mathcal{S}_{\mathcal{MR}}) = \prod_{i=0}^{|\mathcal{S}_C|} p(s^i | \mathbf{e}_{\text{text}}, \mathcal{S}_{\mathcal{MR}}, s^{<i})$$
-      - 解码得到 $L$ 帧 3D 姿态的运动序列 $\mathcal{M}_C$
+        - 解码得到 $L$ 帧 3D 姿态的运动序列 $\mathcal{M}_C$
     - 设计动机：仅用文本生成（无 $\mathcal{MR}_{\text{init}}$）会引入歧义，无法精确定位困难姿态的几何细节；仅用伪标签又不准确。通过运动序列形式而非孤立帧，可以生成覆盖困难姿态附近的多种合理变体，提高命中真实困难姿态的概率。
 
 3. **运动引导视频生成与训练**:

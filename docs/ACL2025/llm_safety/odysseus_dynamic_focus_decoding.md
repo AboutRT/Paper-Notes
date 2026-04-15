@@ -53,9 +53,9 @@ tags:
 
     - 功能：将知识感知信号转化为解码温度
     - 核心思路：提供三种变换函数——
-      - **线性**: $T_t = \sigma \cdot \text{KA}_t + T_0$
-      - **Sigmoid 缩放**: $T_t = \frac{\sigma}{\sigma + e^{\text{KA}_t/\sigma}} + T_0$
-      - **指数衰减**: $T_t = T_0 \cdot e^{\ln(1/2) \cdot \text{KA}_t / \sigma}$（效果最佳）
+        - **线性**: $T_t = \sigma \cdot \text{KA}_t + T_0$
+        - **Sigmoid 缩放**: $T_t = \frac{\sigma}{\sigma + e^{\text{KA}_t/\sigma}} + T_0$
+        - **指数衰减**: $T_t = T_0 \cdot e^{\ln(1/2) \cdot \text{KA}_t / \sigma}$（效果最佳）
     - 设计动机：知识感知强度高→温度低→分布尖锐→采样更确定→保事实性；反之温度高→分布平滑→采样更随机→促多样性
 
 3. **动态聚焦训练（Dynamic Focus Training, DFT）**:

@@ -153,13 +153,13 @@ AdaptiveStep 的整体流程分三步：（1）采样生成响应并收集每个
     - 功能：为每个划分出的推理步骤估计目标奖励值
     - 核心思路：从每个步骤 $r_k$ 开始进行 $J$ 次 rollout 续写，使用 Hard Estimation (HE) 判断是否存在任何一条续写路径能到达正确答案。目标奖励为：
      $$r_k^e = \begin{cases} 1, & \exists j \in [J], \{r_1,...,r_k,t_j\} \text{ is correct} \\ 0, & \text{otherwise} \end{cases}$$
-   - 设计动机：通过在决策点做 rollout，每一步的奖励信号更加精准，因为步骤末尾恰好是决策发生的位置
+    - 设计动机：通过在决策点做 rollout，每一步的奖励信号更加精准，因为步骤末尾恰好是决策发生的位置
 
 3. **Token-level Value-guided Decoding (TVD)**:
     - 功能：在推理阶段利用 PRM 实时指导 token 选择，无需额外采样
     - 核心思路：在解码过程中，当模型遇到低置信度位置（$c_p < \tau$）时，取概率最高的 $M$ 个候选 token，用 PRM 对每个候选评分，选择得分最高的 token：
      $$s_i = \arg\max_{s_i^m \in s_i^*} R^\theta(p, s_{<i}, s_i^m)$$
-   - 设计动机：传统 PRM 仅用于 Best-of-N 后评估，TVD 将 PRM 嵌入生成过程实现细粒度实时指导，且仅在低置信度位置介入，计算开销可控
+    - 设计动机：传统 PRM 仅用于 Best-of-N 后评估，TVD 将 PRM 嵌入生成过程实现细粒度实时指导，且仅在低置信度位置介入，计算开销可控
 
 ### 损失函数 / 训练策略
 PRM 使用二元交叉熵损失训练：

@@ -78,11 +78,11 @@ $$\frac{\|\mathbf{w}_t - \mathbf{u}\|^2}{2\eta t} + \hat{\mathcal{L}}(\mathbf{w}
 
 ## 实验关键数据
 - **Figure 1 实验**（$d=2000, n=1000, \lambda_i = i^{-2}$，$\mathbf{w}^*_{0:100}=1, \mathbf{w}^*_{100:\infty}=0$）：
-  - 早停 GD 的 population logistic risk 和 0-1 error 在适当停止时间处取得最小值。
-  - 随着 GD 继续迭代进入插值阶段，两种误差均显著增大。
-  - 经验风险单调下降，但 population risk 呈 U 形曲线，验证了过拟合现象。
-  - 最优停止时间对应的 $\eta t$ 约为 $10^2$ 量级，此时 excess risk 接近零。
-  - 当 $\eta t \to \infty$ 时 population logistic risk 发散，与 Theorem 4.1 一致。
+    - 早停 GD 的 population logistic risk 和 0-1 error 在适当停止时间处取得最小值。
+    - 随着 GD 继续迭代进入插值阶段，两种误差均显著增大。
+    - 经验风险单调下降，但 population risk 呈 U 形曲线，验证了过拟合现象。
+    - 最优停止时间对应的 $\eta t$ 约为 $10^2$ 量级，此时 excess risk 接近零。
+    - 当 $\eta t \to \infty$ 时 population logistic risk 发散，与 Theorem 4.1 一致。
 - 本文以理论分析为主，实验仅作为直观验证，但清晰展示了早停的 U 形过拟合曲线。
 
 ## 亮点与洞察

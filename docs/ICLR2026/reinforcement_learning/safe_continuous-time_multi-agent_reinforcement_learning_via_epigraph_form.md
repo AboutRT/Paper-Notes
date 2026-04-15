@@ -57,9 +57,9 @@ EPI框架包含：（1）将安全CT-MARL形式化为连续时间约束MDP（CT-
 
     - 功能：用三种互补损失训练值函数
     - 核心思路：
-      - **残差损失**：惩罚HJB PDE的违反 $\mathcal{L}_{\text{Residual}} = (\max\{c(x)-\tilde{V}, \min_u \mathcal{H}\})^2$
-      - **目标损失**：基于轨迹的数值目标 $\mathcal{L}_{\text{Target}} = (V_{\text{tgt}} - \tilde{V})^2$，无限时域下无边界条件时作为锚点
-      - **值梯度迭代（VGI）**：约束值梯度一致性，确保 $\nabla_x V$ 的准确性
+        - **残差损失**：惩罚HJB PDE的违反 $\mathcal{L}_{\text{Residual}} = (\max\{c(x)-\tilde{V}, \min_u \mathcal{H}\})^2$
+        - **目标损失**：基于轨迹的数值目标 $\mathcal{L}_{\text{Target}} = (V_{\text{tgt}} - \tilde{V})^2$，无限时域下无边界条件时作为锚点
+        - **值梯度迭代（VGI）**：约束值梯度一致性，确保 $\nabla_x V$ 的准确性
     - 设计动机：残差损失在无界问题中不足以单独工作；值梯度对策略更新至关重要
 
 4. **分散式Actor学习**:

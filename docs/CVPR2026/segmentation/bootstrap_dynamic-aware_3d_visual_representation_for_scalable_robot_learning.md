@@ -77,9 +77,9 @@ $$\hat{z}_t = f_{\text{FDM}}(z_{t+k}, \alpha_{t+k \to t})$$
 ### 4. VICReg + EMA教师编码器
 - **EMA教师编码器**: 慢速更新（$\tau \to 1$）的target编码器，产生稳定的预测目标
 - **VICReg损失**: 对齐学生编码器和EMA教师编码器的特征空间
-  - Variance：防止特征坍缩
-  - Invariance：学生和教师特征对齐
-  - Covariance：减少特征维度间冗余
+    - Variance：防止特征坍缩
+    - Invariance：学生和教师特征对齐
+    - Covariance：减少特征维度间冗余
 
 ### 预训练数据与策略
 - **预训练数据**: RH20T（Robot Hands from 20 Tasks）——大规模真实机器人操控数据集

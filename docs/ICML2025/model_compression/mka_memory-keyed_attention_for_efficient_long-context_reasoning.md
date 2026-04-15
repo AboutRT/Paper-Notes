@@ -32,9 +32,9 @@ tags:
 
 - **内存开销巨大**：LLaMA-7B 在 32K 上下文下 KV cache 约占 15.8 GB（A800 GPU），KV 读取耗时 11.3 ms，占推理延迟 50% 以上。
 - **现有方案的不足**：
-  - MQA/GQA：共享 KV head 减少冗余，但表示能力受限。
-  - MLA（DeepSeek）：低秩分解压缩 KV，但不区分不同时间尺度的记忆，缺乏对异构记忆源的灵活调度。
-  - Token 驱逐方法（DynamicKV、PyramidKV）：不可逆丢弃信息。
+    - MQA/GQA：共享 KV head 减少冗余，但表示能力受限。
+    - MLA（DeepSeek）：低秩分解压缩 KV，但不区分不同时间尺度的记忆，缺乏对异构记忆源的灵活调度。
+    - Token 驱逐方法（DynamicKV、PyramidKV）：不可逆丢弃信息。
 - **核心观察**：不同 query token 对近期/中期/远期上下文的依赖程度不同，**静态统一的 KV 缓存策略是次优的**。需要一种能按"记忆时间尺度"动态路由注意力的机制。
 
 ## 方法详解

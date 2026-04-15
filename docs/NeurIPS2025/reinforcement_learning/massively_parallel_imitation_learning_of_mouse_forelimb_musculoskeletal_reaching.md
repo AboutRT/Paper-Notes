@@ -64,9 +64,9 @@ tags:
     - 编码器和解码器均为 3 层 512 神经元 MLP
     - 瓶颈层潜空间代表"运动意图"——对轨迹的编码
     - 奖励函数：$r_t = \lambda_{joint} r_t^{joint} - \lambda_{ctrl} c_t^{ctrl} - \lambda_{energy} c_t^{energy}$
-      - 关节奖励：$r_t^{joint} = \exp(-\alpha_{joint} \sum_i (q_{t,i} - \hat{q}_{t,i})^2)$，鼓励匹配参考关节角
-      - 控制成本：惩罚动作幅值平方和，使致动更平滑
-      - 能量成本：惩罚关节速度与致动力乘积 $c_t^{energy} = \sum_j |v_{t,j}| \cdot |f_{t,j}^{act}|$，促进能量效率
+        - 关节奖励：$r_t^{joint} = \exp(-\alpha_{joint} \sum_i (q_{t,i} - \hat{q}_{t,i})^2)$，鼓励匹配参考关节角
+        - 控制成本：惩罚动作幅值平方和，使致动更平滑
+        - 能量成本：惩罚关节速度与致动力乘积 $c_t^{energy} = \sum_j |v_{t,j}| \cdot |f_{t,j}^{act}|$，促进能量效率
 
 4. **大规模并行训练**：
 

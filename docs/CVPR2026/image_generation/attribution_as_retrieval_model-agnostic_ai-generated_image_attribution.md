@@ -56,10 +56,10 @@ LIDA 包含三个模块：(1) 低位指纹生成 → (2) 无监督预训练 → 
 
     - 功能：利用注册数据库中少量样本微调编码器，使其能区分不同生成器
     - 核心思路：两个损失函数联合训练
-      - **图像归因损失**（center loss，避免破坏预训练特征空间结构）：
+        - **图像归因损失**（center loss，避免破坏预训练特征空间结构）：
        $$\mathcal{L}_A = \sum_{i=1}^{m} \|x_i - c_{y_i}\|_2^2$$
        类中心 $c_j$ 在 mini-batch 中动态更新
-      - **Deepfake 检测损失**（基于真实原型的对比损失）：
+        - **Deepfake 检测损失**（基于真实原型的对比损失）：
        $$\mathcal{L}_D = -\frac{1}{N_r}\sum_{i=1}^{N_r}\log\sigma(\frac{\text{sim}(x_i^r, p_r)}{\tau}) - \frac{1}{N_f}\sum_{j=1}^{N_f}\log(1-\sigma(\frac{\text{sim}(x_i^f, p_r)}{\tau}))$$
       总损失：$\mathcal{L} = \mathcal{L}_A + \lambda \mathcal{L}_D$
     - 设计动机：不用交叉熵而用 center loss 是因为 CE 会破坏预训练学到的特征空间结构；两阶段归因策略（先检测是否 AI 生成，再归因到具体生成器）更符合实际工作流

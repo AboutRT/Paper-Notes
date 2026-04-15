@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📷 CVPR2026** · 共 **127** 篇
+**📷 CVPR2026** · **127** 篇论文解读
 
 **[A Protocol For Evaluating Robustness To He Stainin](a_protocol_for_evaluating_robustness_to_he_stainin.md)**
 

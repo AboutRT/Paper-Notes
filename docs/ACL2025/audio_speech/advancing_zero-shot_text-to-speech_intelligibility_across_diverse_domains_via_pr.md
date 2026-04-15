@@ -65,9 +65,9 @@ tags:
 
     - 功能：设计三种互补的偏好对构造方法，最大化对齐信号的信息量
     - 核心思路：
-      - **Intra Pair（模型内对比）**：同一模型通过Best-of-N采样，选最好的作为chosen，最差的作为rejected。本质是自我对比学习
-      - **Inter Pair（模型间对比）**：不同模型对同一文本的合成结果对比，利用模型间的互补优势。如ARS在韵律上优于MaskGCT，则用ARS的输出作为chosen
-      - **Perturbed Pair（扰动对比）**：利用人类专家知识和DeepSeek-V3生成的扰动文本作为negative。两种扰动：(1) **发音扰动**——将文字替换为易误读的同音字（如"好好"→"豪豪"），(2) **标点扰动**——修改逗号位置改变停顿韵律
+        - **Intra Pair（模型内对比）**：同一模型通过Best-of-N采样，选最好的作为chosen，最差的作为rejected。本质是自我对比学习
+        - **Inter Pair（模型间对比）**：不同模型对同一文本的合成结果对比，利用模型间的互补优势。如ARS在韵律上优于MaskGCT，则用ARS的输出作为chosen
+        - **Perturbed Pair（扰动对比）**：利用人类专家知识和DeepSeek-V3生成的扰动文本作为negative。两种扰动：(1) **发音扰动**——将文字替换为易误读的同音字（如"好好"→"豪豪"），(2) **标点扰动**——修改逗号位置改变停顿韵律
     - 设计动机：三种偏好对从不同维度提供对齐信号——Intra关注稳定性，Inter关注跨架构最优实践，Perturbed关注错误容忍度。组合使用可以提供更丰富的学习信号
 
 3. **DPO的TTS架构扩展**:
@@ -76,9 +76,9 @@ tags:
     - 核心思路：标准DPO损失为：
       $\mathcal{L}_{DPO} = -\log \sigma \left( \beta \log \frac{\pi_\theta(y_w|x)}{\pi_{ref}(y_w|x)} - \beta \log \frac{\pi_\theta(y_l|x)}{\pi_{ref}(y_l|x)} \right)$
       其中 $y_w$ 是chosen语音，$y_l$ 是rejected语音。关键挑战在于不同TTS架构的$\pi_\theta(y|x)$定义不同：
-      - **ARS**：自回归概率 $\prod_t P(s_t | s_{<t}, x)$，其中 $s_t$ 是语音token
-      - **F5-TTS**：流匹配目标 $\|v_\theta(z_t, t) - u_t\|^2$，需要将其转化为偏好信号
-      - **MaskGCT**：掩码预测概率 $\prod_i P(s_i | s_{\backslash i}, x)$
+        - **ARS**：自回归概率 $\prod_t P(s_t | s_{<t}, x)$，其中 $s_t$ 是语音token
+        - **F5-TTS**：流匹配目标 $\|v_\theta(z_t, t) - u_t\|^2$，需要将其转化为偏好信号
+        - **MaskGCT**：掩码预测概率 $\prod_i P(s_i | s_{\backslash i}, x)$
       对每种架构设计对应的DPO适配方案
     - 设计动机：TTS领域不像语言模型那样以自回归为主，架构多样性是现实。设计通用的DPO扩展使得一套偏好数据可服务于多种模型
 

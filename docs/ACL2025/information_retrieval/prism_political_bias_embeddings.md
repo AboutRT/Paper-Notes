@@ -2,9 +2,14 @@
 title: >-
   [论文解读] PRISM: A Framework for Producing Interpretable Political Bias Embeddings with Political-Aware Cross-Encoder
 description: >-
-   提出PRISM——首个可解释政治偏见嵌入框架，通过自动挖掘争议性话题及其偏见指标并训练政治感知交叉编码器，在政治偏见分类（NewsSpectrum准确率86.1%）和多样化检索任务上超越SOTA，同时提供可解释的维度含义。
+  [ACL 2025][政治偏见嵌入] 提出 PRISM 框架，首次将政治偏见嵌入建模为可解释任务：自动从弱标注新闻语料中挖掘争议性话题及左/右偏见指标作为嵌入维度，再用政治感知交叉编码器为文章在每个话题维度上打分，生成稀疏且语义透明的政治偏见嵌入向量，在 NewsSpectrum 分类准确率达 86.1%（领先 POLITICS 34.8%），同时支持多样化检索。
 tags:
-
+  - ACL 2025
+  - 政治偏见嵌入
+  - 可解释嵌入
+  - 交叉编码器
+  - 偏见分类
+  - 多样化检索
 ---
 
 # PRISM: A Framework for Producing Interpretable Political Bias Embeddings with Political-Aware Cross-Encoder

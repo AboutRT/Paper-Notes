@@ -69,10 +69,10 @@ tags:
 
 - **做什么**：三个Agent协作，从知识图谱中自动检索回答问题所需的子图
 - **核心思路**：
-  - **主题选择Agent** $L$：分析问题确定根实体 $e_0 = L(q, z, \mathcal{E}_o)$
-  - **扩展Agent** $W$：以BFS方式扩展子图，判断邻居实体是否对回答有用：$\mathcal{N}(e) = W(e, \mathcal{K}_t; Q, \mathcal{G}, \mathcal{A})$
-  - **验证Agent** $U$：检查从根到当前开放实体的路径是否提供了足够知识：$o(e) = U(e, \mathcal{K}_{t+1}; Q, \mathcal{G}, \mathcal{A})$
-  - 迭代直到没有开放实体需要扩展：$\mathcal{O}_t = \emptyset$
+    - **主题选择Agent** $L$：分析问题确定根实体 $e_0 = L(q, z, \mathcal{E}_o)$
+    - **扩展Agent** $W$：以BFS方式扩展子图，判断邻居实体是否对回答有用：$\mathcal{N}(e) = W(e, \mathcal{K}_t; Q, \mathcal{G}, \mathcal{A})$
+    - **验证Agent** $U$：检查从根到当前开放实体的路径是否提供了足够知识：$o(e) = U(e, \mathcal{K}_{t+1}; Q, \mathcal{G}, \mathcal{A})$
+    - 迭代直到没有开放实体需要扩展：$\mathcal{O}_t = \emptyset$
 - **设计动机**：利用MLLM的自搜索能力，无需额外训练即可在图谱上导航检索，适配闭源模型
 
 #### 3. **知识增强推理**

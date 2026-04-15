@@ -69,8 +69,8 @@ RTO 是一个两阶段框架：
 
     - 功能：组合 token 级 DPO 奖励、KL 正则化和可选的句子级奖励为最终奖励
     - 关键公式（RTO reward, Eq 4.7）：
-      - 对 $h \leq H-1$：$r_{rto} = \beta_1 \log \frac{\pi_{dpo}(y_h|...)}{\pi_{ref}(y_h|...)} - \beta_2 \log \frac{\pi(y_h|...)}{\pi_{ref}(y_h|...)}$
-      - 对 $h = H$：额外加上 $\beta_3 \cdot r_{MLE}(x, y_{1:H})$
+        - 对 $h \leq H-1$：$r_{rto} = \beta_1 \log \frac{\pi_{dpo}(y_h|...)}{\pi_{ref}(y_h|...)} - \beta_2 \log \frac{\pi(y_h|...)}{\pi_{ref}(y_h|...)}$
+        - 对 $h = H$：额外加上 $\beta_3 \cdot r_{MLE}(x, y_{1:H})$
     - $\beta_1$ 控制 DPO 奖励强度，$\beta_2$ 控制 KL 正则化，$\beta_3$ 控制句子级奖励
     - 设计动机：句子级奖励 $r_{MLE}$ 防止响应过长或过短；DPO 奖励作为 reward shaping 提供密集信号
 

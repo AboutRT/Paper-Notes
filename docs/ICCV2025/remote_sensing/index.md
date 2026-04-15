@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**📹 ICCV2025** · 共 **11** 篇
+**📹 ICCV2025** · **11** 篇论文解读
 
 **[Astroloc Robust Space To Ground Image Localizer](astroloc_robust_space_to_ground_image_localizer.md)**
 

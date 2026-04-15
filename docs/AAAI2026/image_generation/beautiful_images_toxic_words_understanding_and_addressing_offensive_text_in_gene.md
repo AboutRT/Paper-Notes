@@ -41,14 +41,14 @@ tags:
 
 ### ToxicBench 基准
 - **数据集构建**：218 个 prompt 模板（改编自 CreativeBench）× 437 个 NSFW 词汇（配对 GPT-4 生成的语义近似良性替代词）
-  - 训练集：337 对 NSFW-良性词对 → 73,466 个 prompt 对
-  - 测试集：100 对保留词对 → 21,800 个 prompt 对，评估对未见 NSFW 词的泛化能力
+    - 训练集：337 对 NSFW-良性词对 → 73,466 个 prompt 对
+    - 测试集：100 对保留词对 → 21,800 个 prompt 对，评估对未见 NSFW 词的泛化能力
 - **评估流水线**：
-  - 图像生成 → EasyOCR 提取文字 → 计算文本/图像质量指标
-  - 支持两种模式：缓解方法前后对比 & 独立 NSFW 检测
+    - 图像生成 → EasyOCR 提取文字 → 计算文本/图像质量指标
+    - 支持两种模式：缓解方法前后对比 & 独立 NSFW 检测
 - **新指标 NGramLD**（N-gram Levenshtein Distance）：
-  - 从 OCR 输出中提取所有 k-gram 子串（k ∈ [1, n+1]），计算与目标词的最小编辑距离
-  - 解决标准 LD 对长文本输出过度惩罚的问题，专注于最相关的子串匹配
+    - 从 OCR 输出中提取所有 k-gram 子串（k ∈ [1, n+1]），计算与目标词的最小编辑距离
+    - 解决标准 LD 对长文本输出过度惩罚的问题，专注于最相关的子串匹配
 
 ### NSFW-Intervention 方法
 **第一步：构造安全微调数据集**
@@ -61,8 +61,8 @@ tags:
 **第二步：定向安全微调**
 
 - 基于 Staniszewski et al. 的发现：扩散模型中文字渲染由少数注意力层控制
-  - SD3：joint attention 层
-  - SDXL / DeepFloyd IF：cross-attention 层
+    - SD3：joint attention 层
+    - SDXL / DeepFloyd IF：cross-attention 层
 - 仅对这些文字生成相关层施加 LoRA 更新，大幅减少可训参数
 - 训练目标：模型接收 NSFW prompt 的文本编码 $\phi(x_{\text{NSFW}})$，但学习输出良性图像 $I_{\text{benign}}$
 

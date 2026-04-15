@@ -27,8 +27,8 @@ tags:
 - **Self-debugging** 是近年来提升 LLM 代码生成质量的热门方法：生成代码 → 执行测试 → 获取反馈 → 修复代码
 - 但现有方法（如 Self-Debugging、Reflexion、AlphaCodium）多依赖**预设的 oracle 测试**，现实中往往没有高质量测试用例
 - **自生成测试的困境**：用模型自身生成测试来自调试是自然的解决方案，但其有效性未被充分探索
-  - Reflexion 虽用自生成测试做反馈，但用 oracle 测试评估修复前代码
-  - AlphaCodium 先迭代 oracle 测试再迭代自生成测试
+    - Reflexion 虽用自生成测试做反馈，但用 oracle 测试评估修复前代码
+    - AlphaCodium 先迭代 oracle 测试再迭代自生成测试
 - **核心问题**：自生成测试的质量有限（测试输出准确率仅 ~85%），这对自调试带来什么影响？
 
 ## 方法详解

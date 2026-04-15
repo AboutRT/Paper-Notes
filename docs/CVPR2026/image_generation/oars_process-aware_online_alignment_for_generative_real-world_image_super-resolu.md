@@ -94,8 +94,8 @@ $$R = F \cdot Q_{LR} + F^{Q_{LR}/\gamma} \cdot \Delta Q$$
 
 - **第一项** $F \cdot Q_{LR}$：衡量输入图像原始质量的保持程度
 - **第二项** $F^{Q_{LR}/\gamma} \cdot \Delta Q$：感知增益，受输入质量自适应控制
-  - 当输入质量高时，指数 $Q_{LR}/\gamma$ 变大，对保真度下降高度敏感 → 鼓励保守增强
-  - 当输入质量低时，保真度约束放松 → 允许更激进的感知改善
+    - 当输入质量高时，指数 $Q_{LR}/\gamma$ 变大，对保真度下降高度敏感 → 鼓励保守增强
+    - 当输入质量低时，保真度约束放松 → 允许更激进的感知改善
 - 这种动态门控确保感知增强严格受内容保持约束
 
 ### 关键设计 2：渐进式在线 RL
@@ -112,9 +112,9 @@ $$\mathcal{L}_{SFT}(\theta) = \mathbb{E}\left[\|v - v_\theta(x_t, t \mid x_{LR},
 
 - **保真度监督**：直接用 DISTS 计算 SR 与 GT 之间的距离（而非依赖学习的奖励模型预测保真度）
 - **浅层 LoRA 优化**：不在 SFT 权重上做 RL，而是在 base model 上用 LoRA 更新。三个动机：
-  - base model 与 SFT 参数分布接近，合并稳定
-  - base model 采样随机性更高，有利于探索
-  - 较不易被 reward hacking
+    - base model 与 SFT 参数分布接近，合并稳定
+    - base model 采样随机性更高，有利于探索
+    - 较不易被 reward hacking
 
 #### Negative-Aware 目标函数
 

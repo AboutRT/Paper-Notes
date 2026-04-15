@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🎞️ ECCV2024** · 共 **1** 篇
+**🎞️ ECCV2024** · **1** 篇论文解读
 
 **[Aid-Appeal Automatic Image Dataset And Algorithm For Content Appeal Enhancement ](aid-appeal_automatic_image_dataset_and_algorithm_for_content_appeal_enhancement_.md)**
 

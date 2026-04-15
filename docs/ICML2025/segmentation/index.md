@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**🧪 ICML2025** · 共 **20** 篇
+**🧪 ICML2025** · **20** 篇论文解读
 
 **[Actionpiece Contextually Tokenizing Action Sequences For Generative Recommendati](actionpiece_contextually_tokenizing_action_sequences_for_generative_recommendati.md)**
 

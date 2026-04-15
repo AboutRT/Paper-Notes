@@ -64,8 +64,8 @@ BiCLIP 输入一张医学图像及其临床文本描述。文本通过冻结的 
 
 **核心思路**：
 - **输入构造**：伪图像 $\hat{\mathbf{x}}$ 与原始图像 $\mathbf{x}$ 沿通道维拼接得到 $\mathbf{x}_{\text{cat}}$，先做空间增强（联合对图像和 mask 操作保持空间对齐），再对真实图像部分分别施加弱增强 $\mathcal{A}_w$ 和强增强 $\mathcal{A}_s$，伪图像部分做归一化 $\mathcal{N}_p$ 作为稳定语义参考：
-  - $\mathbf{x}_w = \text{concat}(\mathcal{A}_w(\mathbf{x}_g^r), \mathcal{N}_p(\mathbf{x}_g^p))$
-  - $\mathbf{x}_s = \text{concat}(\mathcal{A}_s(\mathbf{x}_g^r), \mathcal{N}_p(\mathbf{x}_g^p))$
+    - $\mathbf{x}_w = \text{concat}(\mathcal{A}_w(\mathbf{x}_g^r), \mathcal{N}_p(\mathbf{x}_g^p))$
+    - $\mathbf{x}_s = \text{concat}(\mathcal{A}_s(\mathbf{x}_g^r), \mathcal{N}_p(\mathbf{x}_g^p))$
 - **一致性约束**：两个视图分别过同一个 U-Net，取 decoder 最后上采样阶段的特征图 $\mathbf{f}_w, \mathbf{f}_s$，通过轻量投影头（global pooling + linear）得到紧凑嵌入 $\mathbf{p}_w, \mathbf{p}_s$，最小化 cosine distance：$\mathcal{L}_{\text{IAC}} = 1 - \frac{\mathbf{p}_w^\top \mathbf{p}_s}{\|\mathbf{p}_w\|_2 \|\mathbf{p}_s\|_2}$
 - **分割预测**：从弱增强分支的特征图通过 $1 \times 1$ 卷积 + sigmoid 输出预测 mask
 

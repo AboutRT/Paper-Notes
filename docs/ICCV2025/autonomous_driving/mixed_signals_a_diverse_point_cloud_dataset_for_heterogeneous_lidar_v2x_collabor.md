@@ -70,28 +70,28 @@ Mixed Signals 通过三个"首次"来填补空白：
 
 - **做什么**：使用不同安装方式的同型 LiDAR 创造传感器域差异
 - **具体配置**：
-  - **电动车（EV）×2**：OS1-128 beam LiDAR，安装高度 1.63m，**向下倾斜 15°**
-  - **城市车辆（Laser）×1**：OS1-128 beam LiDAR，安装高度 1.9m，**水平安装**
-  - **路侧单元（RSU）**：OS-Dome 128 beam（长距检测）+ OS1-64 beam（近距检测），安装高度 2.5m
+    - **电动车（EV）×2**：OS1-128 beam LiDAR，安装高度 1.63m，**向下倾斜 15°**
+    - **城市车辆（Laser）×1**：OS1-128 beam LiDAR，安装高度 1.9m，**水平安装**
+    - **路侧单元（RSU）**：OS-Dome 128 beam（长距检测）+ OS1-64 beam（近距检测），安装高度 2.5m
 - **设计动机**：虽然使用相同型号 LiDAR，但不同的高度和倾斜角创造了真实的domain gap——EV 的倾斜安装导致后方区域不可观测、缺失强度信息，这是之前数据集完全忽略的现实挑战
 
 #### 2. 精确同步与定位
 
 - **同步方案**：使用 GPS 时间戳在 10Hz 频率下对所有 LiDAR 进行时间对齐，跨传感器时间戳误差控制在 50ms 以内
 - **定位方案**：
-  - 不依赖城市环境中不稳定的 GNSS，而是使用**高密度精确点云地图**作为参考
-  - 采用**扫描匹配技术**估计车辆位姿，定位精度达到 15cm 位置误差 + 0.4° 航向误差
-  - 所有车辆和 RSU 都在统一的 `map_frame` 坐标系下定位
+    - 不依赖城市环境中不稳定的 GNSS，而是使用**高密度精确点云地图**作为参考
+    - 采用**扫描匹配技术**估计车辆位姿，定位精度达到 15cm 位置误差 + 0.4° 航向误差
+    - 所有车辆和 RSU 都在统一的 `map_frame` 坐标系下定位
 - **设计动机**：精确的对齐是 V2X 数据集的生命线。通过与现有数据集的对比可视化（Figure 4），Mixed Signals 在横向和纵向上都实现了明显更好的点云对齐
 
 #### 3. 高质量标注
 
 - **标注流程**：
-  - 将所有智能体的点云聚合到 RSU TOP 传感器坐标系
-  - 由专业标注公司 FlipSideAI 使用 SegmentsAI 工具进行 3D 框标注
-  - 标注 10 个细粒度类别：Car, Truck, Pedestrian, Bus, Electric Vehicle, Trailer, Motorcycle/Bike, Bicycle, Portable Personal Mobility, Emergency Vehicle
-  - 关键帧按 1Hz 采样进行人工标注，非关键帧通过最近前后关键帧的线性插值获得
-  - 经历多轮监测、审查和修正循环
+    - 将所有智能体的点云聚合到 RSU TOP 传感器坐标系
+    - 由专业标注公司 FlipSideAI 使用 SegmentsAI 工具进行 3D 框标注
+    - 标注 10 个细粒度类别：Car, Truck, Pedestrian, Bus, Electric Vehicle, Trailer, Motorcycle/Bike, Bicycle, Portable Personal Mobility, Emergency Vehicle
+    - 关键帧按 1Hz 采样进行人工标注，非关键帧通过最近前后关键帧的线性插值获得
+    - 经历多轮监测、审查和修正循环
 - **标注质量验证**：通过将一个物体在不同传感器中的标注框回投到同一坐标系，可视化标注的跨传感器和跨时间一致性（Figure 5），Mixed Signals 显著优于现有数据集
 - **设计动机**：pioneer 数据集通常由非专业标注者标注，一致性差。本文投入大量标注资源确保可靠数据
 

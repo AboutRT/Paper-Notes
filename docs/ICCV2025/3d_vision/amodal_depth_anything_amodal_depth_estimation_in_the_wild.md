@@ -69,10 +69,10 @@ tags:
 - **Amodal-DAV2**: Scale-Invariant Log (SILog) Loss，$\lambda=0.85$，在**整个物体**（包括可见+不可见）上监督（而非仅不可见部分），有助于理解整体场景结构
 - **Amodal-DepthFM**: 条件流匹配目标 $\min_\theta \mathbb{E}_{t,z,p(x_0)} \|v_\theta(t, \phi_t(x_0)) - (x_1 - x_0)\|$，训练时添加高斯噪声增强
 - 训练超参：
-  - Amodal-DAV2: batch 32, lr 1e-5, 50K iters
-  - Amodal-DepthFM: batch 128, lr 3e-5, 15K iters
-  - Adam优化器，指数学习率衰减，梯度裁剪0.01
-  - 4×A100 GPU
+    - Amodal-DAV2: batch 32, lr 1e-5, 50K iters
+    - Amodal-DepthFM: batch 128, lr 3e-5, 15K iters
+    - Adam优化器，指数学习率衰减，梯度裁剪0.01
+    - 4×A100 GPU
 
 ## 实验关键数据
 | 数据集 | 指标 | 本文最优 | 之前SOTA | 提升 |

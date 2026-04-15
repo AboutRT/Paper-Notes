@@ -77,8 +77,8 @@ DreamVideo-Omni 基于 Wan2.1-1.3B T2V DiT，采用两阶段训练：
     - **做什么**：在隐空间评估生成视频与参考图像的身份一致性
     - **核心思路**：利用 VDM 前 8 层作为 backbone，参考图特征作为 Q 对加噪视频特征做 cross-attention，输出标量奖励
     - **设计动机**：
-      - 比 CLIP/DINO 等静态编码器更具运动感知能力，能区分 copy-paste 伪影
-      - 在隐空间操作避免了高昂的 VAE 解码开销
+        - 比 CLIP/DINO 等静态编码器更具运动感知能力，能区分 copy-paste 伪影
+        - 在隐空间操作避免了高昂的 VAE 解码开销
 
 5. **Latent Identity Reward Feedback Learning (LIReFL)**
 

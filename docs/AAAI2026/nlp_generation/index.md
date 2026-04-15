@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✍️ 文本生成
 
-**🤖 AAAI2026** · 共 **2** 篇
+**🤖 AAAI2026** · **2** 篇论文解读
 
 **[Automaldesc Large-Scale Script Analysis For Cyber Threat Research](automaldesc_large-scale_script_analysis_for_cyber_threat_research.md)**
 

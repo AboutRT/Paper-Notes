@@ -54,10 +54,10 @@ CFG 是 PhantomWiki 最核心的设计之一。通过递归组合问题模板，
 - **递归深度 d=1**：简单问题如 "Who is the friend of David?"
 - **递归深度 d 增大**：生成多跳问题如 "Who is the nephew of the friend of the brother of David?"
 - **问题类型多样化**：
-  - 关系查询："Who is the <<<relation>>> of <<<name>>>?"
-  - 属性查询："Who is the person whose hobby is birdwatching?"
-  - 聚合查询："How many brothers does David have?"
-  - 组合查询："How many friends does the brother of the person whose hobby is birdwatching have?"
+    - 关系查询："Who is the <<<relation>>> of <<<name>>>?"
+    - 属性查询："Who is the person whose hobby is birdwatching?"
+    - 聚合查询："How many brothers does David have?"
+    - 组合查询："How many friends does the brother of the person whose hobby is birdwatching have?"
 
 关系类型的选择也影响推理步数：`nephew` 需要 2 步推理（sibling + son），而 `second cousin` 需要 5 步。CFG 在生成问题的同时并行生成对应的 Prolog 查询模板。
 

@@ -27,9 +27,9 @@ tags:
 ## 背景与动机
 - CLIP等视觉-语言模型通过prompt learning可高效适配下游任务，但当训练标签存在噪声时，少量错误标签会不成比例地影响梯度更新
 - 现有噪声prompt学习方法存在三大局限：
-  - **prompt表达力不足**：多数方法仅用1-2个prompt（如正/负对），单视角对齐无法捕捉细粒度语义线索
-  - **显式负标签僵硬**：为每张图像分配一个硬负标签，固定的反类信号在噪声环境下常不准确或无信息量
-  - **去噪粗糙**：依赖固定置信度阈值或无选择性的伪标签，导致错误传播
+    - **prompt表达力不足**：多数方法仅用1-2个prompt（如正/负对），单视角对齐无法捕捉细粒度语义线索
+    - **显式负标签僵硬**：为每张图像分配一个硬负标签，固定的反类信号在噪声环境下常不准确或无信息量
+    - **去噪粗糙**：依赖固定置信度阈值或无选择性的伪标签，导致错误传播
 - 核心洞察：鲁棒的噪声小样本学习需要从全局匹配转向**区域感知的细粒度对齐**，自适应区分clean和noisy语义
 
 ## 核心问题
@@ -67,8 +67,8 @@ NA-MVP包含两个核心模块协同工作：
 
 ### 损失函数 / 训练策略
 - **早期阶段** (前 $T_{sup}$ 个epoch)：$\mathcal{L}_{sup} = \mathcal{L}_{gce} + \lambda_i \cdot \mathcal{L}_{itbp}$
-  - GCE (Generalized Cross-Entropy)：对噪声标签鲁棒的损失函数
-  - ITBP Loss：辅助双向对比损失，鼓励图像特征与clean prompt对齐、远离noise-aware prompt
+    - GCE (Generalized Cross-Entropy)：对噪声标签鲁棒的损失函数
+    - ITBP Loss：辅助双向对比损失，鼓励图像特征与clean prompt对齐、远离noise-aware prompt
 - **后期阶段**：激活标签修正，在去噪数据集上继续用GCE训练
 - 推理时：$p(y=k|x_i) = (1 - p_{ik}^n) \cdot p_{ik}^c$，同时利用clean和noise-aware概率
 - SGD优化 (lr=0.002, momentum=0.9, weight_decay=5e-4)，50 epochs，16 shared context tokens，ResNet-50 image encoder

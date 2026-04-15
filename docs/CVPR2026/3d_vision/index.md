@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**📷 CVPR2026** · 共 **166** 篇
+**📷 CVPR2026** · **166** 篇论文解读
 
 **[3D-Fixer Coarse-To-Fine In-Place Completion For 3D Scenes From A Single Image](3d-fixer_coarse-to-fine_in-place_completion_for_3d_scenes_from_a_single_image.md)**
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌍 地球科学
 
-**🤖 AAAI2026** · 共 **1** 篇
+**🤖 AAAI2026** · **1** 篇论文解读
 
 **[Mdaif Robust One-Stop Multi-Degradation-Aware Image Fusion With Language-Driven ](mdaif_robust_one-stop_multi-degradation-aware_image_fusion_with_language-driven_.md)**
 

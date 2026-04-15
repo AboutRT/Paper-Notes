@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🤖 AAAI2026** · 共 **21** 篇
+**🤖 AAAI2026** · **21** 篇论文解读
 
 **[Align3Gr Unified Multi-Level Alignment For Llm-Based Generat](align3gr_unified_multi-level_alignment_for_llm-based_generat.md)**
 

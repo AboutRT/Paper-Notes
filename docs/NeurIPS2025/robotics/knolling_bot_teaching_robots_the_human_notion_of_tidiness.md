@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Knolling Bot: Teaching Robots the Human Notion of Tidiness
 description: >-
-  [NeurIPS 2025][机器人][物体整理] 提出基于 Transformer + GMM 的自监督学习框架，将桌面物体整理（knolling）类比为 NLP 序列预测任务，从 240 万组自动生成的整理示范中学习通用"整洁度"表示，支持任意数量物体和基于用户偏好的多样化整理方案，并在真实机械臂上部署验证。
+  [NeurIPS 2025][机器人][knolling] 将桌面物体整理（knolling）类比为 NLP 序列预测任务，用 Transformer 自回归生成每个物体的目标位置，结合 GMM 处理多解歧义，从 240 万组自动生成的示范中学习通用整洁概念，并通过输入排列顺序隐式编码用户偏好。
 tags:
   - NeurIPS 2025
   - 机器人
   - knolling
   - 物体整理
   - Transformer
-  - Gaussian Mixture Model
+  - GMM
   - 自监督学习
-  - 自回归
+  - 自回归生成
 ---
 
 # Knolling Bot: Teaching Robots the Human Notion of Tidiness

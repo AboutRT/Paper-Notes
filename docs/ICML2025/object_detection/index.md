@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🧪 ICML2025** · 共 **10** 篇
+**🧪 ICML2025** · **10** 篇论文解读
 
 **[Blueglass A Framework For Composite Ai Safety](blueglass_a_framework_for_composite_ai_safety.md)**
 

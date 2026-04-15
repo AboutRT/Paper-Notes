@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**💬 ACL2025** · 共 **59** 篇
+**💬 ACL2025** · **59** 篇论文解读
 
 **[Agentalign Navigating Safety Alignment In The Shift From Informative To Agentic ](agentalign_navigating_safety_alignment_in_the_shift_from_informative_to_agentic_.md)**
 

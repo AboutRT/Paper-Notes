@@ -72,9 +72,9 @@ $$p(r_1^1, \ldots, r_K^N) = \prod_{c=1}^N \prod_{k=1}^K p(r_k^c | r_1^1, \ldots,
 ### 4. Long Interactive Video Generation (InfinityStar-Interact)
 - 滑动窗口方法：将长视频分解为 10s chunk（重叠 5s）
 - **Semantic-Detail Conditions**：
-  - Detail features：前一 clip 最后 $K$ 帧的全分辨率特征
-  - Semantic features：对前一 clip 空间下采样获得的语义特征
-  - 将条件 token 从 33.6K 压缩到 5.8K
+    - Detail features：前一 clip 最后 $K$ 帧的全分辨率特征
+    - Semantic features：对前一 clip 空间下采样获得的语义特征
+    - 将条件 token 从 33.6K 压缩到 5.8K
 
 ## 实验关键数据
 

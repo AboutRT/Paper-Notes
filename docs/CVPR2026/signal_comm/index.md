@@ -1,22 +1,14 @@
 ---
 title: >-
-  CVPR2026 信号/通信方向 4篇论文解读
+  CVPR2026 信号/通信方向 2篇论文解读
 description: >-
-  4篇CVPR2026 信号/通信方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  2篇CVPR2026 信号/通信方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📡 信号/通信
 
-**📷 CVPR2026** · 共 **4** 篇
-
-**[Actta Rethinking Test-Time Adaptation Via Dynamic Activation](actta_rethinking_test-time_adaptation_via_dynamic_activation.md)**
-
-:   提出AcTTA框架，首次将激活函数作为测试时适应(TTA)的可学习组件，通过参数化的激活中心偏移 $c$ 和非对称梯度缩放 $\lambda_{pos}, \lambda_{neg}$ 替代或增强传统归一化层适应，在CIFAR-10/100-C和ImageNet-C上一致超越所有归一化基TTA方法，并支持10倍大的学习率。
-
-**[Chartnet A Million-Scale High-Quality Multimodal Dataset For Robust Chart Unders](chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)**
-
-:   发布 ChartNet——150 万规模的高质量多模态图表数据集，通过代码引导合成管线生成包含图像-代码-数据表-文本-推理QA 的对齐五元组，在图表理解和推理任务上显著提升 VLM 性能，小模型微调后超越 GPT-4o。
+**📷 CVPR2026** · **2** 篇论文解读
 
 **[Dual-Imbalance Continual Learning For Real-World Food Recognition](dual-imbalance_continual_learning_for_real-world_food_recognition.md)**
 

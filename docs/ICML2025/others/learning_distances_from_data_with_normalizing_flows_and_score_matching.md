@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Learning Distances from Data with Normalizing Flows and Score Matching
 description: >-
-   本文提出利用 normalizing flows 和 score matching 学习密度函数与得分函数，从而高效计算基于密度的 Fermat 距离，解决了传统图方法在高维空间中收敛慢、路径粗糙的问题。
+  [ICML 2025][Fermat Distance] 本文提出利用 normalizing flows 和 score matching 学习密度函数与得分函数，从而高效计算基于密度的 Fermat 距离，解决了传统图方法在高维空间中收敛慢、路径粗糙的问题。
 tags:
-
+  - ICML 2025
+  - Fermat Distance
+  - Normalizing Flows
+  - Score Matching
+  - Geodesic
+  - Density-Based Distance
 ---
 
 # Learning Distances from Data with Normalizing Flows and Score Matching
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2407.09297](https://arxiv.org/abs/2407.09297) |
-| 代码 | [GitHub](https://github.com/vislearn/Fermat-Distance) |
-| 领域 | 度量学习 / 黎曼几何 / 密度估计 |
-| 关键词 | Fermat Distance, Normalizing Flows, Score Matching, Geodesic, Density-Based Distance |
+**会议**: ICML 2025  
+**arXiv**: [2407.09297](https://arxiv.org/abs/2407.09297)  
+**代码**: [GitHub](https://github.com/vislearn/Fermat-Distance)  
+**领域**: 度量学习 / 黎曼几何 / 密度估计  
+**关键词**: Fermat Distance, Normalizing Flows, Score Matching, Geodesic, Density-Based Distance  
 
 ## 一句话总结
 

@@ -62,9 +62,9 @@ $$\text{err}(A(S)) \leq c \cdot \tau + O\left(\sqrt{\frac{\tau(d + \log(1/\delta
 **精细分析的核心**：
 - 当 $\tau$ 较大时，单次 ERM 的误差集中性较好，锦标赛容易选出好的候选
 - 当 $\tau \approx d/m$ 时（小误差域），需要更精细的处理：
-  - 利用"好"的 ERM 解在小误差区域的比例下界
-  - 通过 boosting-like 的参数选择确保至少有一组的 ERM 解足够好
-  - 锦标赛的比较误差在 $O(\sqrt{d/(m \cdot T)})$ 量级
+    - 利用"好"的 ERM 解在小误差区域的比例下界
+    - 通过 boosting-like 的参数选择确保至少有一组的 ERM 解足够好
+    - 锦标赛的比较误差在 $O(\sqrt{d/(m \cdot T)})$ 量级
 
 ### 损失函数 / 训练策略
 

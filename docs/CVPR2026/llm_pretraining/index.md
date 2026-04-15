@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**📷 CVPR2026** · 共 **7** 篇
+**📷 CVPR2026** · **7** 篇论文解读
 
 **[Defending Unauthorized Model Merging Via Dual-Stage Weight Protection](defending_unauthorized_model_merging_via_dual-stage_weight_protection.md)**
 

@@ -47,10 +47,10 @@ LDRLD 包含三个损失项：(1) 加权局部稠密关系蒸馏 $\mathcal{L}^w$
 
     - 功能：从学生 logit 输出中递归提取 top-d 类，两两组合形成类别对
     - 核心思路：
-      - Step 1：提取学生 logit 最大的类 $\mathbf{Z}_1^s$，用掩码 $\mathbf{M}_{\pi(1)}$（将对应位置设为 $-\infty$）从 logit 向量中移除
-      - Step 2：递归提取第 2, 3, ..., d 大的类，每次与所有已提取的类组合为类别对。组合用 $\phi: \mathbb{R} \uplus \mathbb{R} \to \mathbb{R}^{1 \times 2}$
-      - 最终生成 $\frac{d(d-1)}{2}$ 个类别对
-      - Step 3：对每个类别对独立进行 softmax 归一化，计算 KL 散度
+        - Step 1：提取学生 logit 最大的类 $\mathbf{Z}_1^s$，用掩码 $\mathbf{M}_{\pi(1)}$（将对应位置设为 $-\infty$）从 logit 向量中移除
+        - Step 2：递归提取第 2, 3, ..., d 大的类，每次与所有已提取的类组合为类别对。组合用 $\phi: \mathbb{R} \uplus \mathbb{R} \to \mathbb{R}^{1 \times 2}$
+        - 最终生成 $\frac{d(d-1)}{2}$ 个类别对
+        - Step 3：对每个类别对独立进行 softmax 归一化，计算 KL 散度
     - 设计动机：局部 softmax 归一化使得每个类对中的概率差异被放大，增强了判别性。类对数量为 $O(d^2)$，提供了密集的关系信息
     - 基础损失：$\mathcal{L} = \sum_{i=1}^{d-1}\sum_{j=i+1}^{d} [p_i^t \log(p_i^t/p_i^s) + p_j^t \log(p_j^t/p_j^s)]$
 
@@ -58,12 +58,12 @@ LDRLD 包含三个损失项：(1) 加权局部稠密关系蒸馏 $\mathcal{L}^w$
 
     - 功能：为不同类别对动态分配不同的蒸馏权重
     - 核心思路：包含两个组件：
-      - **逆秩加权（IRW）**：$\Gamma_{IRW}(R', R) = \frac{1}{|R - R'| + \epsilon}$，排名差距小的类对获得更大权重（$\epsilon = 1.50$）
-      - **指数秩衰减（ERD）**：$\Phi_{ERD}(R', R) = \delta \times \exp(-\lambda(R + R'))$，排名总和大的类对权重指数衰减（$\delta = 2.0, \lambda = 0.05$）
-      - 组合权重：$\Omega_{ADW}(R', R) = \Gamma_{IRW} \times \Phi_{ERD}$
+        - **逆秩加权（IRW）**：$\Gamma_{IRW}(R', R) = \frac{1}{|R - R'| + \epsilon}$，排名差距小的类对获得更大权重（$\epsilon = 1.50$）
+        - **指数秩衰减（ERD）**：$\Phi_{ERD}(R', R) = \delta \times \exp(-\lambda(R + R'))$，排名总和大的类对权重指数衰减（$\delta = 2.0, \lambda = 0.05$）
+        - 组合权重：$\Omega_{ADW}(R', R) = \Gamma_{IRW} \times \Phi_{ERD}$
     - 设计动机：
-      - IRW 解决了"类对 [Z₁, Z₂] 比 [Z₁, Z₄] 更难区分"的问题
-      - ERD 解决了"[Z₁, Z₂] 和 [Z₁₂, Z₁₃] 虽然排名差同为 1，但前者更重要"的问题
+        - IRW 解决了"类对 [Z₁, Z₂] 比 [Z₁, Z₄] 更难区分"的问题
+        - ERD 解决了"[Z₁, Z₂] 和 [Z₁₂, Z₁₃] 虽然排名差同为 1，但前者更重要"的问题
     - 加权损失：$\mathcal{L}^w = \sum_{i=1}^{d-1}\sum_{j=i+1}^{d} \Omega_{ADW}(i,j)[p_i^t \log(p_i^t/p_i^s) + p_j^t \log(p_j^t/p_j^s)]$
 
 3. **剩余非目标知识蒸馏（RNTK）**

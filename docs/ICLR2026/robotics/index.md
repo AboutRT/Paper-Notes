@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🔬 ICLR2026** · 共 **46** 篇
+**🔬 ICLR2026** · **46** 篇论文解读
 
 **[All-Day Multi-Scenes Lifelong Vision-And-Language Navigation With Tucker Adaptat](all-day_multi-scenes_lifelong_vision-and-language_navigation_with_tucker_adaptat.md)**
 

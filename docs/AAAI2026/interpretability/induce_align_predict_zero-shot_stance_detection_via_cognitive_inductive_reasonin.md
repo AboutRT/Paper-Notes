@@ -50,22 +50,22 @@ CIRF包含两个核心模块：(1) USI（无监督Schema归纳）：LLM生成FOL
 - **功能**：从原始文本中无监督归纳跨目标可迁移的抽象推理模式
 - **为什么**：实例级FOL规则无法跨域泛化，需要更高层次的推理抽象
 - **怎么做**（四阶段管线）：
-  - **FOL推理生成**：对每个句子-目标对，提示LLM生成一阶逻辑推理链
-  - **FOL解释与抽象**：提示LLM分析FOL内部逻辑，生成逻辑等价但结构不同的变体，然后总结为泛化模板。例如：`∀x, (is_robot(x) → (helps_humans(x) → must_be_safe(x)))` 抽象为 `∀x, ((is_target(x) ∧ meets_condition(x)) → entails_consequence(x))`
-  - **Schema聚类与层次抽象**：按语义和推理模式相似度聚类FOL模板，大聚类用层次策略（先细分子簇→中间链→合并为schema模板）
-  - **Schema图构建**：将归纳的schema作为节点构建多关系图，边表示因果、对比、蕴含等逻辑关系
+    - **FOL推理生成**：对每个句子-目标对，提示LLM生成一阶逻辑推理链
+    - **FOL解释与抽象**：提示LLM分析FOL内部逻辑，生成逻辑等价但结构不同的变体，然后总结为泛化模板。例如：`∀x, (is_robot(x) → (helps_humans(x) → must_be_safe(x)))` 抽象为 `∀x, ((is_target(x) ∧ meets_condition(x)) → entails_consequence(x))`
+    - **Schema聚类与层次抽象**：按语义和推理模式相似度聚类FOL模板，大聚类用层次策略（先细分子簇→中间链→合并为schema模板）
+    - **Schema图构建**：将归纳的schema作为节点构建多关系图，边表示因果、对比、蕴含等逻辑关系
 
 **2. Schema增强图核模型（SEGKM）**
 
 - **功能**：利用schema知识增强输入推理结构的表示，实现可解释的零样本推理
 - **为什么**：标准GNN依赖局部消息传递，难以捕获可复用的高阶推理motif；图核通过显式结构匹配实现更好的泛化
 - **怎么做**：
-  - **FOL图构建**：输入(x,q)对生成FOL推理链，构建FOL图 $G_f=(V_f, E_f)$，节点为谓词，边为逻辑关系
-  - **Schema子图滤波器**：从schema图 $G^{(j)}$ 提取以每个节点为中心的k-hop子图作为滤波器池 $\mathcal{H} = \bigcup_j H^{(j)}$
-  - **关系感知节点嵌入**：BERT初始化节点/边嵌入，通过关系投影融合边语义：$x' = \text{ReLU}(x + \text{Proj}(e))$
-  - **深度图核响应**：计算输入子图与schema滤波器的p步随机游走核：$\phi_{1,i}(v) = K_p(G_v^f, H_i^{(j)}) = \mathbf{s}^\top W A^{\times p} \mathbf{s}$，其中 $\mathbf{s} = \text{vec}(X_{G_v^f}' \cdot (X_{H_i^{(j)}}')^\top)$
-  - **Schema图级选择**：聚合所有节点的核响应选择top-g schema图：$S^{(j)} = \sum_{v \in V_f} \frac{1}{|H^{(j)}|} \sum_{H_i^{(j)} \in H^{(j)}} \phi_{1,i}(v)$
-  - **层次化图表示**：多层堆叠核特征提取，最终图表示：$\Phi(G_f) = \text{Concat}(\sum_{v \in G_f} \phi_l(v) | l=0,1,...,L)$
+    - **FOL图构建**：输入(x,q)对生成FOL推理链，构建FOL图 $G_f=(V_f, E_f)$，节点为谓词，边为逻辑关系
+    - **Schema子图滤波器**：从schema图 $G^{(j)}$ 提取以每个节点为中心的k-hop子图作为滤波器池 $\mathcal{H} = \bigcup_j H^{(j)}$
+    - **关系感知节点嵌入**：BERT初始化节点/边嵌入，通过关系投影融合边语义：$x' = \text{ReLU}(x + \text{Proj}(e))$
+    - **深度图核响应**：计算输入子图与schema滤波器的p步随机游走核：$\phi_{1,i}(v) = K_p(G_v^f, H_i^{(j)}) = \mathbf{s}^\top W A^{\times p} \mathbf{s}$，其中 $\mathbf{s} = \text{vec}(X_{G_v^f}' \cdot (X_{H_i^{(j)}}')^\top)$
+    - **Schema图级选择**：聚合所有节点的核响应选择top-g schema图：$S^{(j)} = \sum_{v \in V_f} \frac{1}{|H^{(j)}|} \sum_{H_i^{(j)} \in H^{(j)}} \phi_{1,i}(v)$
+    - **层次化图表示**：多层堆叠核特征提取，最终图表示：$\Phi(G_f) = \text{Concat}(\sum_{v \in G_f} \phi_l(v) | l=0,1,...,L)$
 
 **3. 立场预测**
 

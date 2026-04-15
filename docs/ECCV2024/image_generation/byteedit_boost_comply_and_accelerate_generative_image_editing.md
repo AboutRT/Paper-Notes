@@ -57,11 +57,11 @@ ByteEdit 围绕"Boost-Comply-Accelerate"三个目标构建，输入为图像 $x$
 - **美学奖励模型 $R_\alpha$**：基于 BLIP 骨干 + 交叉注意力 + MLP，使用 Bradley-Terry 偏好目标训练：
 $$\mathcal{L}(\alpha) = -\mathbb{E}[\log \sigma(R_\alpha(c, x_p) - R_\alpha(c, x_n))]$$
 - **阶段式反馈优化**：发现在不同去噪阶段奖励模型效果不同
-  - Stage 1（$t \in [16,20]$）：噪声太重，跳过直接从 $T_1=15$ 开始
-  - Stage 2（$t \in [t', 15]$）：无梯度推理，逐步去噪获得可评估质量
-  - Stage 3（$x_{t'} \to x_0'$）：单步预测最终图像，用奖励模型指导微调
+    - Stage 1（$t \in [16,20]$）：噪声太重，跳过直接从 $T_1=15$ 开始
+    - Stage 2（$t \in [t', 15]$）：无梯度推理，逐步去噪获得可评估质量
+    - Stage 3（$x_{t'} \to x_0'$）：单步预测最终图像，用奖励模型指导微调
 - **PeFL 总损失**：$\mathcal{L}_{\text{pefl}} = \mathcal{L}_{\text{reward}} + \eta(\mathcal{L}_{\text{reg}} + \mathcal{L}_{\text{vgg}})$
-  - 其中 L1 正则和 VGG 感知损失维护原始区域一致性
+    - 其中 L1 正则和 VGG 感知损失维护原始区域一致性
 
 **2. 图文对齐 + 像素级一致性 — Comply**
 
@@ -76,9 +76,9 @@ $$\mathcal{L}(\gamma) = -\mathbb{E}[\log \sigma(R_\gamma(z)) + \log(1 - \sigma(R
 - **对抗训练**：$R_\gamma$ 的功能类似 GAN 判别器，可在线训练并作为对抗目标：
 $$\mathcal{L}_{\text{reward}}(\phi) = -\mathbb{E}\sum_{\theta \in \{\alpha, \beta, \gamma\}} \log \sigma(R_\theta(c, G_\phi(x, m, c, t')))$$
 - **渐进训练**：逐步压缩推理步数
-  - Phase 1：$T=20, T_1=15, T_2=10$
-  - Phase 2：$T=8, T_1=6, T_2=3$
-  - 无需蒸馏，仅靠参数继承 + 奖励模型监督
+    - Phase 1：$T=20, T_1=15, T_2=10$
+    - Phase 2：$T=8, T_1=6, T_2=3$
+    - 无需蒸馏，仅靠参数继承 + 奖励模型监督
 
 ### 损失函数 / 训练策略
 

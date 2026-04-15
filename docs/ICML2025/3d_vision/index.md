@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**🧪 ICML2025** · 共 **12** 篇
+**🧪 ICML2025** · **12** 篇论文解读
 
 **[Evomesh Adaptive Physical Simulation With Hierarchical Graph Evolutions](evomesh_adaptive_physical_simulation_with_hierarchical_graph_evolutions.md)**
 

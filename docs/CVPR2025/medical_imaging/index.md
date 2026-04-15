@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📷 CVPR2025** · 共 **44** 篇
+**📷 CVPR2025** · **44** 篇论文解读
 
 **[A Semi-Supervised Framework For Breast Ultrasound Segmentation With Training-Fre](a_semi-supervised_framework_for_breast_ultrasound_segmentation_with_training-fre.md)**
 

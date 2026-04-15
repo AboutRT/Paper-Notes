@@ -59,9 +59,9 @@ SADCA 包含两大核心组件：
     - **做什么**：在对抗优化的每次迭代中，交替更新对抗文本和对抗图像，并持续利用当前对抗状态进行跨模态语义破坏
     - **为什么**：静态交互只能沿固定方向偏移，动态交互允许在每轮中根据最新语义状态重新校准梯度方向，探索更广泛的攻击方向
     - **怎么做**：
-      - 对抗图像损失（含动态项）：$\mathcal{L}_v = \sum_m Cos(v'_i, t_{pm}) - \lambda \sum_k Cos(v'_i, t_{nk}) + \sum_m Cos(v'_i, t'_{im}) - \lambda \sum_k Cos(v'_i, t_{nk})$
-      - 对抗文本损失（含动态项）：$\mathcal{L}_t = Cos(v_p, t'_i) - \lambda \sum_k Cos(v_{nk}, t'_i) + Cos(v'_i, t'_i) - \lambda \sum_k Cos(v_{nk}, t'_i)$
-      - 每轮先更新文本 $t'_{i+1}$，再用更新后的文本通过 $J$ 步 PGD 更新图像 $v'_{i+1}$
+        - 对抗图像损失（含动态项）：$\mathcal{L}_v = \sum_m Cos(v'_i, t_{pm}) - \lambda \sum_k Cos(v'_i, t_{nk}) + \sum_m Cos(v'_i, t'_{im}) - \lambda \sum_k Cos(v'_i, t_{nk})$
+        - 对抗文本损失（含动态项）：$\mathcal{L}_t = Cos(v_p, t'_i) - \lambda \sum_k Cos(v_{nk}, t'_i) + Cos(v'_i, t'_i) - \lambda \sum_k Cos(v_{nk}, t'_i)$
+        - 每轮先更新文本 $t'_{i+1}$，再用更新后的文本通过 $J$ 步 PGD 更新图像 $v'_{i+1}$
     - **关键公式**：梯度更新 $g_{i(j+1)} = \mu \cdot g_{ij} + \nabla\mathcal{L}_v / \|\nabla\mathcal{L}_v\|$，$v'_{i(j+1)} = clip(v'_{ij} + \alpha \cdot sign(g_{i(j+1)}))$
     - **区别**：相比 SGA 的单次交互和 SA-AET 的两次静态交互，SADCA 进行 $I=5$ 轮动态交互，每轮的语义状态都不同
 
@@ -70,8 +70,8 @@ SADCA 包含两大核心组件：
     - **做什么**：通过图像和文本两个维度的增强，丰富攻击过程中的语义表示多样性
     - **为什么**：传统输入变换（如 SIA）仅在感知层面操作，忽略了 VLP 模型的跨模态语义对齐机制；更丰富的语义梯度可减少对单一视角的过拟合
     - **怎么做**：
-      - **局部语义图像增强**：随机裁剪（比例 $r_s \sim U(0.4, 0.8)$）+ 随机增强（旋转/亮度/翻转）→ $V'_{sa} = \{A_s(Resize(Crop(v'; r_s)))\}_{s=1}^S$
-      - **混合语义文本增强**：从对抗文本集中随机选取两条文本拼接 → $T'_{sa} = \{Concat(t'_i, t'_j) | i \neq j\}_{s=1}^S$
+        - **局部语义图像增强**：随机裁剪（比例 $r_s \sim U(0.4, 0.8)$）+ 随机增强（旋转/亮度/翻转）→ $V'_{sa} = \{A_s(Resize(Crop(v'; r_s)))\}_{s=1}^S$
+        - **混合语义文本增强**：从对抗文本集中随机选取两条文本拼接 → $T'_{sa} = \{Concat(t'_i, t'_j) | i \neq j\}_{s=1}^S$
     - **区别**：SGA 仅使用有限的尺度不变性；SADCA 同时增强图像和文本两个模态，且局部裁剪聚焦细粒度语义而非全局变换
 
 ### 损失函数 / 训练策略

@@ -58,9 +58,9 @@ tags:
 
 - **PyOperon**: 基于遗传编程的 SR 方法，算子集 {+, -, *, /, sin, sqrt, log, tanh}，默认超参数
 - **PySR**: 进化式 SR 框架，通过多目标损失平衡精度与复杂度，支持 GPU 加速；测试了三组算子集:
-  - Core: {+, -, *, /; sqrt, log, exp, abs}
-  - Extended: 增加 max, min, square, cube
-  - All: 增加 sin, cos, tan, sinh, cosh, tanh, pow
+    - Core: {+, -, *, /; sqrt, log, exp, abs}
+    - Extended: 增加 max, min, square, cube
+    - All: 增加 sin, cos, tan, sinh, cosh, tanh, pow
 - **训练配置**: 3000 迭代，最大表达式大小 20（模板模式为 10），树深度上限 5
 - **模型选择**: 在 Pareto 前沿上选复杂度 < 10 且 MSE 稳定的表达式
 

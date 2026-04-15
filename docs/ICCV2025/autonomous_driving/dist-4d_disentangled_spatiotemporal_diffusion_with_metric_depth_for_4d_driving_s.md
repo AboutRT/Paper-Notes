@@ -60,10 +60,10 @@ DiST-4D由两个解耦的扩散分支组成：
 
     - 功能：从历史帧和控制信号预测未来多视角RGB-D视频
     - 核心思路：
-      - 使用预训练3D VAE分别编码RGB和深度视频到压缩潜空间
-      - 基于STDiT（时空DiT）的扩散模型，包含多视角block（跨摄像头交互）和时空block
-      - 控制信号（BEV图M、3D框B、轨迹A、相机位姿P）通过类似ControlNet的分支注入
-      - 训练策略: $\{Z_t^I, Z_t^D\} = \mathcal{G}_\theta(\{S_t, I_{ref}\})$
+        - 使用预训练3D VAE分别编码RGB和深度视频到压缩潜空间
+        - 基于STDiT（时空DiT）的扩散模型，包含多视角block（跨摄像头交互）和时空block
+        - 控制信号（BEV图M、3D框B、轨迹A、相机位姿P）通过类似ControlNet的分支注入
+        - 训练策略: $\{Z_t^I, Z_t^D\} = \mathcal{G}_\theta(\{S_t, I_{ref}\})$
     - 渐进训练：低分辨率RGB → 低分辨率RGB-D → 高分辨率（424×800）RGB-D，配合混合帧长策略
     - 使用rectified flow和v-prediction loss
 
@@ -71,13 +71,13 @@ DiST-4D由两个解耦的扩散分支组成：
 
     - 功能：从已有viewpoint的RGB-D投影到任意新视角
     - 核心思路：
-      - 将多摄像头RGB-D转为点云 → 投影到新视角 → 得到稀疏条件图
-      - 基于Stable Video Diffusion的UNet将稀疏条件补全为密集RGB-D
-      - 输入通道从8扩至16（RGB+Depth双模态），输出从4扩至8
+        - 将多摄像头RGB-D转为点云 → 投影到新视角 → 得到稀疏条件图
+        - 基于Stable Video Diffusion的UNet将稀疏条件补全为密集RGB-D
+        - 输入通道从8扩至16（RGB+Depth双模态），输出从4扩至8
     - **自监督循环一致性（SCC）**:
-      - 第一阶段：用原始轨迹数据训练（相邻±2帧投影）
-      - 第二阶段：随机生成偏移轨迹（横向±3m），用已训练的DiST-S合成该视角的RGB-D，再投影回原始视角作为自监督训练对
-      - 公式: $\{Z_{tgt}^I, Z_{tgt}^D\} = \mathcal{F}_\theta(\{Z_{cond}^I, Z_{cond}^D\})$
+        - 第一阶段：用原始轨迹数据训练（相邻±2帧投影）
+        - 第二阶段：随机生成偏移轨迹（横向±3m），用已训练的DiST-S合成该视角的RGB-D，再投影回原始视角作为自监督训练对
+        - 公式: $\{Z_{tgt}^I, Z_{tgt}^D\} = \mathcal{F}_\theta(\{Z_{cond}^I, Z_{cond}^D\})$
     - 设计动机：真实驾驶数据的轨迹多样性有限，SCC通过构造虚拟轨迹+循环约束来弥补分布外视角的训练缺失
 
 ### 损失函数 / 训练策略

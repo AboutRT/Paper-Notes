@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Neural Topic Modeling with Large Language Models in the Loop
 description: >-
-  [LLM/NLP] 提出LLM-ITL框架，将LLM以"in-the-loop"方式集成到神经主题模型（NTM）训练中，通过基于最优传输的主题对齐目标和置信度加权机制，在保持文档表示质量和计算效率的同时显著提升主题可解释性。
+  [ACL2025][LLM/NLP][LLM-ITL] 提出LLM-ITL框架，将LLM以"in-the-loop"方式集成到神经主题模型（NTM）训练中，通过基于最优传输的主题对齐目标和置信度加权机制，在保持文档表示质量和计算效率的同时显著提升主题可解释性。
 tags:
+  - ACL2025
   - LLM/NLP
+  - LLM-ITL
+  - Neural Topic Model
+  - Optimal Transport
+  - Topic Refinement
+  - Confidence Weighting
 ---
 
 # Neural Topic Modeling with Large Language Models in the Loop
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2411.08534](https://arxiv.org/abs/2411.08534) |
-| 代码 | [GitHub](https://github.com/Xiaohao-Yang/LLM-ITL) |
-| 领域 | 主题建模 / LLM增强 / 最优传输 |
-| 关键词 | LLM-ITL, Neural Topic Model, Optimal Transport, Topic Refinement, Confidence Weighting |
+**会议**: ACL2025  
+**arXiv**: [2411.08534](https://arxiv.org/abs/2411.08534)  
+**代码**: [GitHub](https://github.com/Xiaohao-Yang/LLM-ITL)  
+**领域**: 主题建模 / LLM增强 / 最优传输  
+**关键词**: LLM-ITL, Neural Topic Model, Optimal Transport, Topic Refinement, Confidence Weighting  
 
 ## 一句话总结
 

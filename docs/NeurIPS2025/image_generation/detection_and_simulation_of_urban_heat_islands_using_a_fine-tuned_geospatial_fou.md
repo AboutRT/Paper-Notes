@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model
 description: >-
-  [NeurIPS 2025][地理空间] 提出利用微调地理空间基础模型（Granite-GFM）的三阶段工作流，涵盖城市热岛效应的实证量化、未来气候情景温度外推，以及通过卫星图像 inpainting 模拟城市绿化降温效果，在 13 个欧洲城市验证了模型的物理真实性和外推能力。
+  [NeurIPS 2025][图像生成][城市热岛] 提出一套利用微调地理空间基础模型（Granite-GFM）的三阶段统一工作流——先通过绿地冷却效应建立实证基线验证模型物理真实性，再外推未来气候情景下的城市温度，最后通过 inpainting 模拟绿化干预的降温效果——将基础模型从评估工具升级为城市规划的交互式模拟平台。
 tags:
   - NeurIPS 2025
-  - 地理空间基础模型
+  - 图像生成
   - 城市热岛
-  - 气候预测
-  - inpainting
-  - 遥感
+  - 地理空间基础模型
+  - LST预测
+  - 气候外推
+  - 图像修复
 ---
 
 # Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model

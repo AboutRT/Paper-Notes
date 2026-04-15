@@ -53,8 +53,8 @@ CleanPose在AG-Pose基线之上增加两个核心模块：
 #### 1. 结构因果模型
 - **做什么**：建立COPE任务中关键变量之间的因果关系图
 - **核心思路**：定义四个变量：视觉输入 $\mathcal{X}$、输出位姿 $\mathcal{Y}$、中介变量 $\mathcal{M}$（结构信息/关键点）和隐藏混淆变量 $\mathcal{U}$（数据偏差）
-  - **前门路径** $\mathcal{X} \rightarrow \mathcal{M} \rightarrow \mathcal{Y}$：人类先识别结构信息（关键点），再通过类比推断位姿
-  - **混淆路径** $\mathcal{X} \leftarrow \mathcal{U} \rightarrow \mathcal{Y}$：数据偏差同时影响输入采样和位姿分布
+    - **前门路径** $\mathcal{X} \rightarrow \mathcal{M} \rightarrow \mathcal{Y}$：人类先识别结构信息（关键点），再通过类比推断位姿
+    - **混淆路径** $\mathcal{X} \leftarrow \mathcal{U} \rightarrow \mathcal{Y}$：数据偏差同时影响输入采样和位姿分布
 - **设计动机**：传统方法建模 $P(\mathcal{Y}|\mathcal{X})$，混入了混淆变量的影响；因果推理通过do算子建模 $P(\mathcal{Y}|do(\mathcal{X}))$，切断混淆路径
 
 #### 2. 基于前门调整的因果推理

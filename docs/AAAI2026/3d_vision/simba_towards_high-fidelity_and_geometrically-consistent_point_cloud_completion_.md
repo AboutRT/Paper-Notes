@@ -65,8 +65,8 @@ tags:
 
 - **Stage 1**：预训练 SymmGT 网络，生成目标变换矩阵（作为 Stage 2 扩散的监督目标）
 - **Stage 2**：
-  - **Sym-Diffuser**（对称扩散模块）：在变换场空间做条件扩散，生成粗糙补全
-  - **MBA-Refiner**（级联 Mamba 精修器）：三层级联精修 + 上采样
+    - **Sym-Diffuser**（对称扩散模块）：在变换场空间做条件扩散，生成粗糙补全
+    - **MBA-Refiner**（级联 Mamba 精修器）：三层级联精修 + 上采样
 
 ### 关键设计
 
@@ -111,14 +111,14 @@ $$\mathcal{L}_{\text{proxy}} = \mathbb{E}_{t, \mathcal{Z}_0, \epsilon}\left[\lam
 **异构融合策略**——在不同密度层使用不同融合方式：
 
 - **Block 1-2**（低密度层）：**Cross-Attention 融合**，性能优先
-  - 基础特征 $\mathcal{F}_l$ 分别 attend 到关键点特征 $\mathcal{F}_k$ 和对称点特征 $\mathcal{F}_s$
-  - 拼接后通过 MLP 融合
+    - 基础特征 $\mathcal{F}_l$ 分别 attend 到关键点特征 $\mathcal{F}_k$ 和对称点特征 $\mathcal{F}_s$
+    - 拼接后通过 MLP 融合
 
 $$\mathbf{f}_{in}^l = \boldsymbol{\psi}\left([\text{MCA}(\mathcal{F}_l, \mathcal{F}_g)]_{g \in \{k,s\}}\right)$$
 
 - **Block 3**（高密度层）：**Mamba Fusion**，效率优先
-  - $\mathcal{O}(N^2)$ 的注意力在高密度点云上不可承受
-  - Mamba 的线性复杂度 $\mathcal{O}(N)$ 大幅降低内存和计算开销
+    - $\mathcal{O}(N^2)$ 的注意力在高密度点云上不可承受
+    - Mamba 的线性复杂度 $\mathcal{O}(N)$ 大幅降低内存和计算开销
 
 **MambaForward 模块**：所有层共享的精修+上采样模块，包含 MLP → Mamba block (带残差连接) → 上采样层。
 

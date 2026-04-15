@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🔬 ICLR2026** · 共 **22** 篇
+**🔬 ICLR2026** · **22** 篇论文解读
 
 **[A Geometric Perspective On The Difficulties Of Learning Gnn-Based Sat Solvers](a_geometric_perspective_on_the_difficulties_of_learning_gnn-based_sat_solvers.md)**
 

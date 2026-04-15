@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 机器人/具身智能
 
-**🧪 ICML2025** · 共 **15** 篇
+**🧪 ICML2025** · **15** 篇论文解读
 
 **[Biassemble Learning Collaborative Affordance For Bimanual Geometric Assembly](biassemble_learning_collaborative_affordance_for_bimanual_geometric_assembly.md)**
 

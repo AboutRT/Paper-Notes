@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🎞️ ECCV2024** · 共 **2** 篇
+**🎞️ ECCV2024** · **2** 篇论文解读
 
 **[Omnisat Self-Supervised Modality Fusion For Earth Observation](omnisat_self-supervised_modality_fusion_for_earth_observation.md)**
 

@@ -61,24 +61,24 @@ AdvAgent 的攻击流程分为三个核心阶段：
 1. **两阶段训练范式（Two-Stage Training Paradigm）**
 
     - **Stage 1 — 监督微调（SFT Warm-up）**：
-      - 使用手工设计的成功攻击 prompt 作为种子数据
-      - 对预训练语言模型进行监督微调，使其学习对抗 prompt 的基本模式和结构
-      - 目的：为 prompter 建立初始的对抗 prompt 生成能力，避免 RL 阶段从零开始探索
+        - 使用手工设计的成功攻击 prompt 作为种子数据
+        - 对预训练语言模型进行监督微调，使其学习对抗 prompt 的基本模式和结构
+        - 目的：为 prompter 建立初始的对抗 prompt 生成能力，避免 RL 阶段从零开始探索
     - **Stage 2 — DPO 强化学习优化**：
-      - 使用 SFT 模型生成大量候选对抗 prompt
-      - 将候选 prompt 注入网页，观察黑盒 Agent 的行为反馈
-      - 根据攻击是否成功，将 prompt 分为正样本（成功攻击）和负样本（攻击失败）
-      - 使用 Direct Policy Optimization（DPO）进行偏好学习：$\mathcal{L}_{\text{DPO}} = -\mathbb{E}\left[\log\sigma\left(\beta\log\frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \beta\log\frac{\pi_\theta(y_l|x)}{\pi_{\text{ref}}(y_l|x)}\right)\right]$
-      - 其中 $y_w$ 为攻击成功的 prompt（正样本），$y_l$ 为攻击失败的 prompt（负样本）
-      - 核心优势：无需访问 Agent 权重或 logits，仅需观察 Agent 的最终行为作为奖励信号
+        - 使用 SFT 模型生成大量候选对抗 prompt
+        - 将候选 prompt 注入网页，观察黑盒 Agent 的行为反馈
+        - 根据攻击是否成功，将 prompt 分为正样本（成功攻击）和负样本（攻击失败）
+        - 使用 Direct Policy Optimization（DPO）进行偏好学习：$\mathcal{L}_{\text{DPO}} = -\mathbb{E}\left[\log\sigma\left(\beta\log\frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \beta\log\frac{\pi_\theta(y_l|x)}{\pi_{\text{ref}}(y_l|x)}\right)\right]$
+        - 其中 $y_w$ 为攻击成功的 prompt（正样本），$y_l$ 为攻击失败的 prompt（负样本）
+        - 核心优势：无需访问 Agent 权重或 logits，仅需观察 Agent 的最终行为作为奖励信号
 
 2. **隐蔽注入机制（Stealthy Injection Mechanism）**
 
     - 功能：将对抗 prompt 嵌入网页 HTML 的不可见元素中
     - 核心思路：利用 HTML 中对用户不可见但 Agent 可读取的字段，如：
-      - 隐藏的 `<input type="hidden">` 元素
-      - CSS 设置为不可见的 `<div style="display:none">`
-      - HTML 属性字段（如 `aria-label`、`title` 等）
+        - 隐藏的 `<input type="hidden">` 元素
+        - CSS 设置为不可见的 `<div style="display:none">`
+        - HTML 属性字段（如 `aria-label`、`title` 等）
     - 注入后网页在浏览器中的视觉渲染完全不变，普通用户无法察觉
     - Agent 在解析 HTML 或处理页面元素时会读取到这些隐藏内容
 
@@ -151,9 +151,9 @@ AdvAgent 的攻击流程分为三个核心阶段：
 
 - **Web Agent 框架**：SeeAct (Zheng et al., 2024) 提出截图 + HTML 双输入的 Web Agent 架构，是当前 SOTA。MindAct (Deng et al., 2024) 和 WebArena (Zhou et al., 2023) 提供了重要的基准环境。
 - **Agent 安全攻击**：
-  - Yang et al. (2024) 和 Wang et al. (2024) 研究了白盒环境下的后门攻击
-  - Wu et al. (2024c) 和 Liao et al. (2024) 探索了手动 prompt 注入攻击
-  - Wu et al. (2024a) 提出了梯度优化方法但受限于白盒假设
+    - Yang et al. (2024) 和 Wang et al. (2024) 研究了白盒环境下的后门攻击
+    - Wu et al. (2024c) 和 Liao et al. (2024) 探索了手动 prompt 注入攻击
+    - Wu et al. (2024a) 提出了梯度优化方法但受限于白盒假设
 - **LLM 对抗攻击**：GCG (Zou et al., 2023)、AutoDAN (Guo et al., 2024) 等方法为 LLM 自动红队提供了基础，但不直接适用于 Agent 多步交互场景。
 - **DPO 的新用途**：本文将 DPO 从"对齐"反转为"攻击"，为 RL-based 对抗训练提供了新思路。启发：RLHF/DPO 框架在安全攻防两侧都有广阔应用空间。
 - **启发性思考**：Web Agent 的安全问题本质上是一个**信任边界**问题——Agent 无法区分合法内容与注入内容。未来可能需要类似 Content Security Policy 的机制来建立 Agent 可信内容边界。

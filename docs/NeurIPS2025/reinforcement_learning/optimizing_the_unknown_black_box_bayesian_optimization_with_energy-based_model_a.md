@@ -60,8 +60,8 @@ REBMBO包含三个紧密耦合的模块（图1）：
 **模块2: EBM全局探索（Module B）**
 - 功能：学习全局能量景观，低能量区域对应高概率/高前景区域
 - 训练：short-run MCMC的MLE
-  - 正相：降低真实数据点的能量 $E_\theta(\mathbf{x}_i)$
-  - 负相：通过Langevin采样生成负样本并提高其能量
+    - 正相：降低真实数据点的能量 $E_\theta(\mathbf{x}_i)$
+    - 负相：通过Langevin采样生成负样本并提高其能量
 - EBM-UCB采集函数：$\alpha_{\text{EBM-UCB}}(\mathbf{x}) = \mu_{f,t}(\mathbf{x}) + \beta \sigma_{f,t}(\mathbf{x}) - \gamma E_\theta(\mathbf{x})$
 - 设计动机：$-\gamma E_\theta(\mathbf{x})$ 项将搜索偏向EBM认为全局有前景的区域，避免在不确定但无前景的口袋中浪费评估
 

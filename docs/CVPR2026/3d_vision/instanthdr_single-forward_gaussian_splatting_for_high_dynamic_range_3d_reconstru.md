@@ -54,8 +54,8 @@ $$\tilde{\boldsymbol{t}}_v^A = \text{softmax}\left(\frac{QK^\top}{\sqrt{d}}\righ
 ### 损失函数 / 训练策略
 
 - 总损失: $\mathcal{L} = \mathcal{L}_{\text{RGB}} + \lambda_g \mathcal{L}_g$
-  - RGB 损失: MSE + $\lambda_{\text{perc}} \cdot \mathcal{L}_{\text{perc}}$（感知损失），$\lambda_{\text{perc}}=0.05$
-  - 几何一致性损失: 冻结DPT头深度与渲染深度对齐，仅在置信度 top-30% 像素上监督，$\lambda_g=0.1$
+    - RGB 损失: MSE + $\lambda_{\text{perc}} \cdot \mathcal{L}_{\text{perc}}$（感知损失），$\lambda_{\text{perc}}=0.05$
+    - 几何一致性损失: 冻结DPT头深度与渲染深度对齐，仅在置信度 top-30% 像素上监督，$\lambda_g=0.1$
 - 无3D或HDR监督，仅用多视角LDR图像+已知曝光时间端到端训练
 - 训练: 30K iterations, 8×A6000 GPU, ~2天, AdamW (lr=2e-4), bf16精度
 - **HDR-Pretrain 数据集**: 168个 Blender 渲染室内场景，源自 HSSD，含多种灯光+3种色调映射算子(AgX/Filmic/Standard)，每场景35视角 × 5曝光

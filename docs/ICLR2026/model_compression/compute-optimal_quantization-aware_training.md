@@ -68,9 +68,9 @@ tags:
 
     - 功能：跨模型大小、token 数、bit-width 预测最终损失
     - 核心思路：$L = \text{Chinchilla-like} + \delta(N, D_{qat}, D_{fp}, B)$，其中 QAT 惩罚项 $\delta$ 分解为三部分：
-      - **不可约 QAT 误差** $\theta \cdot 2^{-\kappa B}$：bit-width 决定的精度下限
-      - **纯 QAT 惩罚** $\frac{\phi \cdot 2^{-\chi B}}{N^\psi \cdot S_{qat}^\omega}$：QAT 步数不够时的误差
-      - **FP/QAT 交互项** $\frac{\lambda \cdot 2^{-\mu B}}{N^\nu \cdot S_{fp}^\xi \cdot S_{qat}^\rho}$：FP 阶段过长导致量化更困难
+        - **不可约 QAT 误差** $\theta \cdot 2^{-\kappa B}$：bit-width 决定的精度下限
+        - **纯 QAT 惩罚** $\frac{\phi \cdot 2^{-\chi B}}{N^\psi \cdot S_{qat}^\omega}$：QAT 步数不够时的误差
+        - **FP/QAT 交互项** $\frac{\lambda \cdot 2^{-\mu B}}{N^\nu \cdot S_{fp}^\xi \cdot S_{qat}^\rho}$：FP 阶段过长导致量化更困难
     - 设计动机：之前的 scaling law 在 $D \to \infty$ 时 loss 趋向无穷（不合理）；新公式的所有惩罚项随 $S$ 增大而减小，保证 loss 最终收敛。757 个实验点拟合后准确预测最优 fraction 和 loss。
 
 4. **Cooldown + QAT 融合**:

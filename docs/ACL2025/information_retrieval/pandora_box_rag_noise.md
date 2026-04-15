@@ -50,14 +50,14 @@ tags:
 1. **7 种噪声分类体系（语言学视角）**：
 
     - **有益噪声**：
-      - Semantic Noise (SeN)：与查询语义相关度低的离题文档
-      - Datatype Noise (DN)：混合数据类型（URL、代码混入文本中）
-      - Illegal Sentence Noise (ISN)：语法不正确的碎片句子
+        - Semantic Noise (SeN)：与查询语义相关度低的离题文档
+        - Datatype Noise (DN)：混合数据类型（URL、代码混入文本中）
+        - Illegal Sentence Noise (ISN)：语法不正确的碎片句子
     - **有害噪声**：
-      - Counterfactual Noise (CN)：与事实相反的虚假信息——最具破坏力
-      - Supportive Noise (SuN)：语义高度相关但不包含答案信息
-      - Orthographic Noise (ON)：拼写错误、词语拉长等书写错误
-      - Prior Noise (PN)：基于错误前提的问题
+        - Counterfactual Noise (CN)：与事实相反的虚假信息——最具破坏力
+        - Supportive Noise (SuN)：语义高度相关但不包含答案信息
+        - Orthographic Noise (ON)：拼写错误、词语拉长等书写错误
+        - Prior Noise (PN)：基于错误前提的问题
     - 设计动机：从被动（有害）vs 主动（有益）两个实用维度划分，指导实际 RAG 系统的噪声处理策略
 
 2. **NoiserBench 构建流程**：

@@ -87,8 +87,8 @@ $$\phi_{i,k} = \frac{\exp(s_{i,k}^n / \tau)}{\exp(s_{i,k}^c / \tau) + \exp(s_{i,
 **两阶段训练**：
 
 - **早期阶段**（前 $T_{sup}$ 个epoch）：在noisy数据上训练，使用 $\mathcal{L}_{sup} = \mathcal{L}_{gce} + \lambda_i \cdot \mathcal{L}_{itbp}$
-  - GCE (Generalized Cross-Entropy)：对噪声标签天然鲁棒的损失函数
-  - ITBP Loss：双向对比损失，鼓励图像特征与clean prompt对齐、远离noise-aware prompt，显式分离clean/noisy语义
+    - GCE (Generalized Cross-Entropy)：对噪声标签天然鲁棒的损失函数
+    - ITBP Loss：双向对比损失，鼓励图像特征与clean prompt对齐、远离noise-aware prompt，显式分离clean/noisy语义
 - **后期阶段**：激活标签修正模块，在去噪数据集 $\mathcal{D}_{\text{denoised}}$ 上继续用GCE训练
 
 **推理**：同时利用clean和noise-aware概率，$p(y=k|x_i) = (1 - p_{ik}^n) \cdot p_{ik}^c$

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📹 ICCV2025** · 共 **41** 篇
+**📹 ICCV2025** · **41** 篇论文解读
 
 **[Aczerots Active Learning For Zeroshot Tissue Segmentation In](aczerots_active_learning_for_zeroshot_tissue_segmentation_in.md)**
 

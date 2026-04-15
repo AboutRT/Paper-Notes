@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧪 ICML2025** · 共 **88** 篇
+**🧪 ICML2025** · **88** 篇论文解读
 
 **[Adversarial Combinatorial Semi-Bandits With Graph Feedback](adversarial_combinatorial_semi-bandits_with_graph_feedback.md)**
 

@@ -54,14 +54,14 @@ tags:
 1. **ProtocolBench 评估框架**:
 
     - **四维评估轴**: 
-      - 任务成功率（Task Success）: 衡量协议是否能支撑Agent正确完成任务
-      - 端到端延迟（End-to-End Latency）: 从任务下发到完成的总时间
-      - 消息/字节开销（Message/Byte Overhead）: 协议通信的额外开销
-      - 故障鲁棒性（Robustness Under Failures）: 面对网络故障、Agent崩溃等异常时的恢复能力
+        - 任务成功率（Task Success）: 衡量协议是否能支撑Agent正确完成任务
+        - 端到端延迟（End-to-End Latency）: 从任务下发到完成的总时间
+        - 消息/字节开销（Message/Byte Overhead）: 协议通信的额外开销
+        - 故障鲁棒性（Robustness Under Failures）: 面对网络故障、Agent崩溃等异常时的恢复能力
     - **评估场景**: 
-      - Streaming Queue: 流式任务处理场景，测试吞吐和延迟
-      - Fail-Storm Recovery: 大规模故障恢复场景，测试鲁棒性
-      - GAIA: 通用Agent智能评估
+        - Streaming Queue: 流式任务处理场景，测试吞吐和延迟
+        - Fail-Storm Recovery: 大规模故障恢复场景，测试鲁棒性
+        - GAIA: 通用Agent智能评估
     - **设计动机**: 提供全面、公平、可复现的协议对比框架
 
 2. **协议实现与比较**:
@@ -154,9 +154,9 @@ tags:
 - **FIPA-ACL**: 传统的Agent通信语言标准，ACP在其基础上发展而来
 - **AutoGen / CrewAI**: 多Agent框架，通常使用固定的通信模式
 - **启发**: 
-  - 协议层的研究可能成为多Agent系统性能优化的新突破口
-  - 自适应协议路由的思路可以扩展到更多系统层面（如模型选择、工具选择）
-  - 需要建立类似网络协议栈的Agent协议分层标准
+    - 协议层的研究可能成为多Agent系统性能优化的新突破口
+    - 自适应协议路由的思路可以扩展到更多系统层面（如模型选择、工具选择）
+    - 需要建立类似网络协议栈的Agent协议分层标准
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐

@@ -55,9 +55,9 @@ tags:
 
 - **做什么**: 将模型梯度按层分解 $\mathbf{g} = (\mathbf{g}_1, \mathbf{g}_2, \ldots, \mathbf{g}_H)$，对每层独立裁剪
 - **核心公式**: 两种变体
-  - "uniform": $C_h = C / \sqrt{H}$
-  - "dim": $C_h = C \sqrt{d_h / \sum_{i=1}^{H} d_i}$
-  - 保证 $\|\Delta_k^{(t)}\|_2 \leq C$，不影响隐私保证
+    - "uniform": $C_h = C / \sqrt{H}$
+    - "dim": $C_h = C \sqrt{d_h / \sum_{i=1}^{H} d_i}$
+    - 保证 $\|\Delta_k^{(t)}\|_2 \leq C$，不影响隐私保证
 - **设计动机**: 全局裁剪在梯度异质性大的深层模型中表现差——小梯度层被主导而过度裁剪，大梯度层裁剪不足。逐层裁剪可独立调整各层信噪比（SNR）
 
 #### 2. LAMB自适应中央优化器

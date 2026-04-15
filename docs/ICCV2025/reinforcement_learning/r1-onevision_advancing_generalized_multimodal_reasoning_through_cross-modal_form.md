@@ -61,8 +61,8 @@ R1-Onevision 框架包含三个部分：(1) 跨模态推理管线构建数据集
 
     - **SFT 阶段**：在 R1-Onevision 数据集上微调 Qwen2.5-VL，培养连贯的推理模式和规范的输出格式（`<think>...</think>` 结构）
     - **RL 阶段**：使用 GRPO（Group Relative Policy Optimization）在 CLEVR 数据集上进行强化学习，定义两种奖励：
-      - **准确性奖励**：通过正则表达式提取最终答案并与标准答案比对
-      - **格式奖励**：确保推理过程被正确包裹在 `<think>` 标签中
+        - **准确性奖励**：通过正则表达式提取最终答案并与标准答案比对
+        - **格式奖励**：确保推理过程被正确包裹在 `<think>` 标签中
     - GRPO 损失函数：$\mathcal{L}_{\text{GRPO}}(\theta) = -\mathbb{E}[\min(\text{ratio}_t \cdot \text{Adv}_t, \text{clipped\_ratio}_t \cdot \text{Adv}_t) - \beta \cdot \text{KL}(\pi_\theta(y|x), \pi_{\text{ref}}(y|x))]$
 
 ### 损失函数 / 训练策略

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📖 NLP理解
 
-**🤖 AAAI2026** · 共 **2** 篇
+**🤖 AAAI2026** · **2** 篇论文解读
 
 **[Language Models And Logic Programs For Trustworthy Tax Reasoning](language_models_and_logic_programs_for_trustworthy_tax_reasoning.md)**
 

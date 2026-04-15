@@ -1,23 +1,18 @@
 ---
-title: "Seeing Beyond the Scene: Analyzing and Mitigating Background Bias in Action Recognition"
-description: "系统分析动作识别中背景偏差在分类模型、CLIP/SigLIP2和VLLM三类范式中的表现，提出分割人体输入的双分支架构和自动化prompt tuning两类缓解策略"
+title: >-
+  [论文解读] Seeing Beyond the Scene: Analyzing and Mitigating Background Bias in Action Recognition
+description: >-
+  [视频理解] 系统分析了动作识别中背景偏差在分类模型、对比预训练模型（CLIP/SigLIP2）和视频大语言模型（VLLM）三类范式中的普遍存在，并提出两条缓解路径：分类模型通过双分支架构融合分割人体输入降低SBErr 3.78%，VLLM通过自动化prompt tuning降低SBErr 9.85%。
 tags:
-  - video_understanding
-  - action_recognition
-  - background_bias
-  - prompt_engineering
-  - VLLM
-  - NeurIPS2025
+  - 视频理解
 ---
 
 # Seeing Beyond the Scene: Analyzing and Mitigating Background Bias in Action Recognition
 
-| 属性 | 值 |
-|------|------|
-| 会议/期刊 | NeurIPS 2025 Workshop |
-| 作者 | Ellie Zhou, Jihoon Chung, Olga Russakovsky (Princeton University) |
-| arXiv | [2512.17953](https://arxiv.org/abs/2512.17953) |
-| 领域 | 视频理解 / 动作识别 / 偏差分析 |
+**会议/期刊**: NeurIPS 2025 Workshop  
+**作者**: Ellie Zhou, Jihoon Chung, Olga Russakovsky (Princeton University)  
+**arXiv**: [2512.17953](https://arxiv.org/abs/2512.17953)  
+**领域**: 视频理解 / 动作识别 / 偏差分析  
 
 ## 一句话总结
 

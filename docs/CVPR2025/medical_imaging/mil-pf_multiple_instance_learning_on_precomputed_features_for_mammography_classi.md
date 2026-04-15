@@ -38,8 +38,8 @@ MIL-PF 流水线分为两个阶段：
 
 ### 阶段一：特征预计算
 - 使用冻结的基础编码器 $\mathcal{F}$ 对每个 bag（同一乳房的所有视图）生成两类嵌入：
-  - **全局嵌入** $\mathcal{G}_i = \{\mathcal{F}(I_i^{(n)})\}_n$：对每张完整图像编码，捕获组织结构、乳腺密度等低频全局信号
-  - **局部嵌入** $\mathcal{T}_i = \bigcup_n \bigcup_k \{\mathcal{F}(C_i^{(n)(k)})\}$：将图像划分为编码器输入大小的 tile 网格（DINOv2 为 518×518，MedSigLIP 为 448×448），通过启发式 $\mathcal{H}$ 丢弃纯背景块，仅保留含乳腺组织的 tile，编码后捕获稀疏的局部病灶信号
+    - **全局嵌入** $\mathcal{G}_i = \{\mathcal{F}(I_i^{(n)})\}_n$：对每张完整图像编码，捕获组织结构、乳腺密度等低频全局信号
+    - **局部嵌入** $\mathcal{T}_i = \bigcup_n \bigcup_k \{\mathcal{F}(C_i^{(n)(k)})\}$：将图像划分为编码器输入大小的 tile 网格（DINOv2 为 518×518，MedSigLIP 为 448×448），通过启发式 $\mathcal{H}$ 丢弃纯背景块，仅保留含乳腺组织的 tile，编码后捕获稀疏的局部病灶信号
 - 每张图像的 tile 数量 $M_i^{(n)}$ 可变，取决于乳房大小和位置
 - 构建嵌入数据集 $\mathcal{E} = \{(\mathcal{G}_i, \mathcal{T}_i, y_i)\}_i$，后续训练完全在该固定表示空间进行
 - 分类任务不使用重叠 tile；推理时注意力图计算使用 75% 重叠以提升可视化分辨率
@@ -47,15 +47,15 @@ MIL-PF 流水线分为两个阶段：
 ### 阶段二：MIL-PF Head 训练
 - 采用晚期融合策略，两个流独立聚合后拼接：$\hat{y}_i = h_\theta(\text{concat}(\mathcal{A}^G_\psi(\mathcal{G}_i), \mathcal{A}^T_\omega(\mathcal{T}_i)))$
 - **全局聚合器** $\mathcal{A}^G$：
-  - 两层 MLP（嵌入维度→16→8，ReLU 激活）将高维嵌入投影到紧凑表示
-  - 随后使用 max pooling 聚合多视图全局特征
-  - 这一分支做的是任务相关的高层特征处理（因编码器冻结），大部分参数在此
+    - 两层 MLP（嵌入维度→16→8，ReLU 激活）将高维嵌入投影到紧凑表示
+    - 随后使用 max pooling 聚合多视图全局特征
+    - 这一分支做的是任务相关的高层特征处理（因编码器冻结），大部分参数在此
 - **局部聚合器** $\mathcal{A}^T$：
-  - 同样先过两层 MLP 做任务相关投影
-  - 采用 Perceiver 风格的交叉注意力：使用单个可训练 latent 向量 $z$ 作为 query，tile 嵌入投影为 Key 和 Value
-  - 计算 $\text{softmax}(zK^T)V$ 得到加权汇总向量，选择性聚焦于与任务相关的稀疏 ROI
-  - 相比 mean pooling（信号被大量背景 tile 稀释）和 max pooling（只捕获单个最显著 tile），attention 机制能同时关注多个独立的病灶区域
-  - 实验发现单 latent query 已足够，增加更多 latent 无额外收益
+    - 同样先过两层 MLP 做任务相关投影
+    - 采用 Perceiver 风格的交叉注意力：使用单个可训练 latent 向量 $z$ 作为 query，tile 嵌入投影为 Key 和 Value
+    - 计算 $\text{softmax}(zK^T)V$ 得到加权汇总向量，选择性聚焦于与任务相关的稀疏 ROI
+    - 相比 mean pooling（信号被大量背景 tile 稀释）和 max pooling（只捕获单个最显著 tile），attention 机制能同时关注多个独立的病灶区域
+    - 实验发现单 latent query 已足够，增加更多 latent 无额外收益
 - 最终 $h_\theta$ 将拼接的 summary 向量映射为分类预测
 - 损失函数为 Binary Cross-Entropy，总可训练参数仅 ~40k
 
@@ -68,13 +68,13 @@ MIL-PF 流水线分为两个阶段：
 ## 实验关键数据
 
 - **数据集**：
-  - EMBED：~50 万张乳腺 X 光，最大公开数据集之一，高度多样的真实临床场景
-  - VinDr：越南乳腺 X 光数据集，含 mass 和 calcification 标注
-  - RSNA：乳腺癌筛查竞赛数据集
+    - EMBED：~50 万张乳腺 X 光，最大公开数据集之一，高度多样的真实临床场景
+    - VinDr：越南乳腺 X 光数据集，含 mass 和 calcification 标注
+    - RSNA：乳腺癌筛查竞赛数据集
 - **EMBED BI-RADS 恶性分类**（BI-RADS 1 为阴性，BI-RADS 4/5/6 为阳性）：
-  - MIL-PF（DINOv2, attn）：AUC=0.916, bAcc=0.850, Spec@Sens=0.9=0.762
-  - MIL-PF（MedSigLIP, max）：AUC=0.918, bAcc=0.845, Spec@Sens=0.9=0.735
-  - 最强基线 FPN-AbMIL：AUC=0.802, Spec@Sens=0.9=0.367
+    - MIL-PF（DINOv2, attn）：AUC=0.916, bAcc=0.850, Spec@Sens=0.9=0.762
+    - MIL-PF（MedSigLIP, max）：AUC=0.918, bAcc=0.845, Spec@Sens=0.9=0.735
+    - 最强基线 FPN-AbMIL：AUC=0.802, Spec@Sens=0.9=0.367
 - **RSNA 癌症检测**：MIL-PF（MedSigLIP, max）AUC=0.925, Spec@Sens=0.9=0.733
 - **VinDr 钙化检测**：MIL-PF（DINOv2, attn）AUC=0.967, bAcc=0.930
 - **消融实验**：完整 MIL-PF 相比仅用全局视图的单实例学习，AUC 提升最高 5%，Spec@Sens=0.9 提升最高 14%

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🧠 NeurIPS2025** · 共 **22** 篇
+**🧠 NeurIPS2025** · **22** 篇论文解读
 
 **[Asap An Agentic Solution To Auto-Optimize Performance Of Large-Scale Llm Trainin](asap_an_agentic_solution_to_auto-optimize_performance_of_large-scale_llm_trainin.md)**
 

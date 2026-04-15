@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📖 NLP理解
 
-**💬 ACL2025** · 共 **26** 篇
+**💬 ACL2025** · **26** 篇论文解读
 
 **[A Comprehensive Graph Framework For Question Answering With Mode-Seeking Prefere](a_comprehensive_graph_framework_for_question_answering_with_mode-seeking_prefere.md)**
 

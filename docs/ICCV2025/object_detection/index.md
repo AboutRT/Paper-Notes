@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**📹 ICCV2025** · 共 **41** 篇
+**📹 ICCV2025** · **41** 篇论文解读
 
 **[3Dmood Lifting 2D To 3D For Monocular Openset Object Detecti](3dmood_lifting_2d_to_3d_for_monocular_openset_object_detecti.md)**
 

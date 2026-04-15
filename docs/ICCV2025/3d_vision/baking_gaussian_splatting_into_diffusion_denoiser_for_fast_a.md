@@ -72,10 +72,10 @@ DiffusionGS是一个单阶段3D扩散模型。输入一张干净条件视图和N
 
 ### 消融实验要点
 - 在GSO上的逐步消融（从baseline 17.63 dB开始）：
-  - +扩散框架: +2.94 dB PSNR, -70.45 FID
-  - +$\mathcal{L}_{pd}$: +0.37 dB, -19.45 FID
-  - +混合训练: +0.79 dB, -10.62 FID
-  - +RPPC: +0.34 dB, -6.27 FID → 最终22.07 dB / 11.52 FID
+    - +扩散框架: +2.94 dB PSNR, -70.45 FID
+    - +$\mathcal{L}_{pd}$: +0.37 dB, -19.45 FID
+    - +混合训练: +0.79 dB, -10.62 FID
+    - +RPPC: +0.34 dB, -6.27 FID → 最终22.07 dB / 11.52 FID
 - 混合训练对场景重建的提升：+0.61 dB PSNR, -10.53 FID（RealEstate10K）
 - RPPC对场景重建的提升：+0.28 dB PSNR, -7.09 FID
 - 改变随机种子可生成不同形状和纹理的3D资产，具备生成多样性

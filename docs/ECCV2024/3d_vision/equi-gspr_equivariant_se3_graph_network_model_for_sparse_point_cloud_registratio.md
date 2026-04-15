@@ -63,9 +63,9 @@ tags:
 
     - **做什么**: 通过等变消息传播增强特征描述符的感受野和SE(3)等变性。
     - **核心思路**: 基于Satorras等人的等变图表示，在每一层更新三个量：
-      - **消息更新**: $\vec{m}_{ik} = \phi_m(\vec{h}_i^{l_2}, \vec{h}_k^{l_2}, \|\vec{x}_k^{l_2} - \vec{x}_i^{l_2}\|^{1/2})$
-      - **坐标嵌入更新**: $\vec{x}_i^{l_2+1} = \vec{x}_i^{l_2} + C\sum_{k \in \mathcal{N}(i)} \exp(\vec{x}_k^{l_2} - \vec{x}_i^{l_2})\phi_x(\text{proj}_{\vec{\mathcal{F}}_{ik}}\vec{m}_{ik})$
-      - **隐特征更新**: $\vec{h}_i^{l_2+1} = \phi_h(\vec{h}_i^{l_2}, \sum_{k \in \mathcal{N}(i)} \text{proj}_{\vec{\mathcal{F}}_{ik}}\vec{m}_{ik})$
+        - **消息更新**: $\vec{m}_{ik} = \phi_m(\vec{h}_i^{l_2}, \vec{h}_k^{l_2}, \|\vec{x}_k^{l_2} - \vec{x}_i^{l_2}\|^{1/2})$
+        - **坐标嵌入更新**: $\vec{x}_i^{l_2+1} = \vec{x}_i^{l_2} + C\sum_{k \in \mathcal{N}(i)} \exp(\vec{x}_k^{l_2} - \vec{x}_i^{l_2})\phi_x(\text{proj}_{\vec{\mathcal{F}}_{ik}}\vec{m}_{ik})$
+        - **隐特征更新**: $\vec{h}_i^{l_2+1} = \phi_h(\vec{h}_i^{l_2}, \sum_{k \in \mathcal{N}(i)} \text{proj}_{\vec{\mathcal{F}}_{ik}}\vec{m}_{ik})$
     - **局部等变参考系**: 使用ClofNet的方法，用成对坐标嵌入构建局部等变帧 $\vec{\mathcal{F}}_{ik} = (\vec{a}_{ik}, \vec{b}_{ik}, \vec{c}_{ik})$，消息投影到该帧中保持SO(3)不变性：
     $\hat{\vec{m}}_{ik} = x_{ik}^{\vec{a}}\vec{a}_{ik} + x_{ik}^{\vec{b}}\vec{b}_{ik} + x_{ik}^{\vec{c}}\vec{c}_{ik}$
     - **设计动机**: 等变特征使模型能从数据对称性中更高效学习。邻域搜索限制为局部范围（ball query半径0.3m），将图邻接矩阵复杂度从 $O(n^2)$ 降至 $O(n)$。使用4个等变图层。

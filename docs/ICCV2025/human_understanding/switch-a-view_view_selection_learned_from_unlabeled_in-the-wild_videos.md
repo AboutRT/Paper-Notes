@@ -55,9 +55,9 @@ Switch-a-view 分为两个阶段：
     - 核心思路：利用过去的视频帧 $F_{[:t]}$、叙述文本 $N_{[:t]}$、视角历史 $V_{[:t]}$ 以及下一段叙述 $N'_{(t,t+\Delta]}$ 作为输入，通过多模态融合预测下一视角：
     $D(F_{[:t]}, N_{[:t]}, V_{[:t]}, N'_{(t,t+\Delta]}) = V_{(t,t+\Delta]}$
     - 编码方式：
-      - **帧编码**：使用 DINOv2 提取视觉特征，叠加视角嵌入和时间位置编码：$f_i = \mathcal{E}^F(F_i) + \mathcal{E}^V(V_i^F) + \mathcal{E}^{\mathcal{T}}(\mathcal{T}_i^F)$
-      - **叙述编码**：使用 Llama 2 编码文本，同样叠加视角嵌入和时间编码：$n_i = \mathcal{E}^N(N_i) + \mathcal{E}^V(V_i^N) + \mathcal{E}^{\mathcal{T}}(\mathcal{T}_i^N)$
-      - **特征聚合**：添加模态嵌入区分视觉/文本后，通过 8 层 Transformer 编码器对所有特征做 self-attention，再取 [CLS] token 输出送入 2 层 MLP 分类头
+        - **帧编码**：使用 DINOv2 提取视觉特征，叠加视角嵌入和时间位置编码：$f_i = \mathcal{E}^F(F_i) + \mathcal{E}^V(V_i^F) + \mathcal{E}^{\mathcal{T}}(\mathcal{T}_i^F)$
+        - **叙述编码**：使用 Llama 2 编码文本，同样叠加视角嵌入和时间编码：$n_i = \mathcal{E}^N(N_i) + \mathcal{E}^V(V_i^N) + \mathcal{E}^{\mathcal{T}}(\mathcal{T}_i^N)$
+        - **特征聚合**：添加模态嵌入区分视觉/文本后，通过 8 层 Transformer 编码器对所有特征做 self-attention，再取 [CLS] token 输出送入 2 层 MLP 分类头
     - 设计动机：过去帧提供细粒度的视觉上下文，过去叙述提供活动步骤的高层语义，下一段叙述直接暗示所需视角（如"接下来让我们仔细看看..."暗示 ego 视角）。多模态融合比任何单一信号都更有效
 
 3. **视角选择器（View Selector $S$）**:

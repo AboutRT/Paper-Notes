@@ -56,9 +56,9 @@ GSDTTA 由两个核心模块组成：**图谱驱动点偏移（GSDPS）** 和 **
 
 ### 损失函数 / 训练策略
 - **输入适配目标**：$\mathcal{L}_{IA} = \mathcal{L}_{pl} + \beta_1(\mathcal{L}_{ent} + \mathcal{L}_{div}) + \beta_2\mathcal{L}_{cd}$
-  - $\mathcal{L}_{pl}$：伪标签交叉熵损失
-  - $\mathcal{L}_{ent} + \mathcal{L}_{div}$：信息最大化损失（个体确信 + 整体多样）
-  - $\mathcal{L}_{cd}$：Chamfer Distance，确保适配后点云不偏离原始位置太远
+    - $\mathcal{L}_{pl}$：伪标签交叉熵损失
+    - $\mathcal{L}_{ent} + \mathcal{L}_{div}$：信息最大化损失（个体确信 + 整体多样）
+    - $\mathcal{L}_{cd}$：Chamfer Distance，确保适配后点云不偏离原始位置太远
 - **模型适配目标**：$\mathcal{L}_{MA} = \mathcal{L}_{pl} + \beta_3(\mathcal{L}_{ent} + \mathcal{L}_{div})$
 - 优化器：AdamW，学习率 0.0001，batch size 32
 

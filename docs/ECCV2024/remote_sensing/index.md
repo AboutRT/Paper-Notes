@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**🎞️ ECCV2024** · 共 **5** 篇
+**🎞️ ECCV2024** · **5** 篇论文解读
 
 **[Adapting Fine-Grained Cross-View Localization To Areas Without Fine Ground Truth](adapting_fine-grained_cross-view_localization_to_areas_without_fine_ground_truth.md)**
 

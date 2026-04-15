@@ -1,30 +1,26 @@
 ---
 title: >-
-  ECCV2024 目标检测方向 37篇论文解读
+  ECCV2024 目标检测方向 33篇论文解读
 description: >-
-  37篇ECCV2024 目标检测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  33篇ECCV2024 目标检测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🎞️ ECCV2024** · 共 **37** 篇
+**🎞️ ECCV2024** · **33** 篇论文解读
+
+**[A Multimodal Benchmark Dataset And Model For Crop Disease Di](a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)**
+
+:   构建了包含13.7万张作物病害图像和100万问答对的CDDM数据集，并提出同时对视觉编码器、adapter和语言模型施加LoRA微调的策略，使Qwen-VL-Chat和LLaVA在作物病害诊断准确率上从个位数跃升至90%以上。
 
 **[A New Dataset And Framework For Real-World Blurred Images Super-Resolution](a_new_dataset_and_framework_for_real-world_blurred_images_super-resolution.md)**
 
 :   针对现有盲超分方法在处理含模糊（散焦/运动模糊）图像时过度纹理化、破坏模糊区域感知质量的问题，构建了包含近3000张模糊图像的ReBlurSR数据集，并提出PBaSR框架，通过双分支解耦训练（CDM）和基于权重插值的跨分支融合（CFM），在不增加任何推理开销的前提下，同时提升模糊图像和普通图像的超分效果，LPIPS提升0.02~0.10。
 
-**[Adaptive Bounding Box Uncertainties Via Twostep Conformal Pr](adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md)**
-
-:   提出两步共形预测框架为多类目标检测的边界框生成带理论覆盖率保证的自适应不确定性区间——第一步用共形分类集处理类别误判风险，第二步用集成/分位数回归等方法构建自适应于目标尺寸的边界框预测区间，在COCO/Cityscapes/BDD100k上达到约90%目标覆盖率且区间实际可用。
-
 **[Afreeca Annotation-Free Counting For All](afreeca_annotation-free_counting_for_all.md)**
 
 :   利用 Stable Diffusion 生成合成排序/计数数据，通过先学排序再学计数的两阶段策略 + 密度引导的图像分块，实现了首个适用于任意类别物体的无标注计数方法，在人群计数上超越已有无监督方法。
-
-**[Afreeca Annotationfree Counting For All](afreeca_annotationfree_counting_for_all.md)**
-
-:   利用潜在扩散模型（LDM）生成合成计数和排序数据，提出首个可适用于任意物体类别的无监督计数方法，无需任何人工标注即可实现准确计数。
 
 **[Bam-Detr Boundary-Aligned Moment Detection Transformer For Temporal Sentence Gro](bam-detr_boundary-aligned_moment_detection_transformer_for_temporal_sentence_gro.md)**
 
@@ -33,10 +29,6 @@ description: >-
 **[Be Yourself Bounded Attention For Multi-Subject Text-To-Image Generation](be_yourself_bounded_attention_for_multi-subject_text-to-image_generation.md)**
 
 :   提出 Bounded Attention，一种无需训练的注意力约束方法，通过在去噪过程中限制 cross-attention 和 self-attention 的信息流动来解决多主体文本到图像生成中的语义泄漏问题。
-
-**[Be Yourself Bounded Attention For Multisubject Texttoimage G](be_yourself_bounded_attention_for_multisubject_texttoimage_g.md)**
-
-:   Be Yourself深入分析了扩散模型中Cross-Attention和Self-Attention导致的多主体语义泄漏问题，提出Bounded Attention机制，通过在去噪过程中限制不同主体间的信息流动来生成语义独立的多主体图像，免训练即可生成5+个语义相似主体。
 
 **[Bridge Past And Future Overcoming Information Asymmetry In Incremental Object De](bridge_past_and_future_overcoming_information_asymmetry_in_incremental_object_de.md)**
 
@@ -70,10 +62,6 @@ description: >-
 
 :   提出 LaMI-DETR，通过利用 GPT 生成视觉概念描述和 T5 挖掘类间视觉相似性关系，解决开放词汇目标检测中概念表示不足和基类过拟合两大问题，在 OV-LVIS 上以 43.4 的 rare AP 超越前最佳方法 7.8 个点。
 
-**[Layoutdetr Detection Transformer Is A Good Multimodal Layout](layoutdetr_detection_transformer_is_a_good_multimodal_layout.md)**
-
-:   将版式设计问题重新构建为基于背景图像的目标检测问题，提出LayoutDETR框架，利用DETR的transformer编解码器结构结合GAN/VAE生成先验，以多模态前景元素（图像+文本）为输入，生成考虑背景语义的排版布局，在公开基准和自建广告横幅数据集上均达到SOTA。
-
 **[Layoutdetr Detection Transformer Is A Good Multimodal Layout Designer](layoutdetr_detection_transformer_is_a_good_multimodal_layout_designer.md)**
 
 :   将目标检测框架 DETR 与生成模型（GAN/VAE）统一，提出 LayoutDETR 用于多模态条件下的图形布局自动设计，以背景图像为约束、前景图文元素为驱动，在广告横幅和 UI 布局生成上达到 SOTA。
@@ -89,6 +77,10 @@ description: >-
 **[Nonverbal Interaction Detection](nonverbal_interaction_detection.md)**
 
 :   首次系统性研究人类非语言交互（手势、表情、注视、姿态、触碰），提出大规模数据集 NVI、新任务 NVI-DET 和基于双重多尺度超图的检测模型 NVI-DEHR，在非语言交互检测和 HOI 检测任务上均取得最优性能。
+
+**[Online Temporal Action Localization With Memory-Augmented Transformer](online_temporal_action_localization_with_memory-augmented_transformer.md)**
+
+:   提出 MATR（Memory-Augmented Transformer），通过记忆队列存储过去片段的特征来利用长期上下文，并采用分离的 Start/End Transformer 解码器进行动作实例定位，在在线时序动作定位（On-TAL）任务上取得 SOTA，甚至可比肩部分离线方法。
 
 **[Openkd Opening Prompt Diversity For Zero- And Few-Shot Keypoint Detection](openkd_opening_prompt_diversity_for_zero-_and_few-shot_keypoint_detection.md)**
 
@@ -129,14 +121,6 @@ description: >-
 **[Towards Natural Language-Guided Drones Geotext-1652 Benchmark With Spatial Relat](towards_natural_language-guided_drones_geotext-1652_benchmark_with_spatial_relat.md)**
 
 :   构建了首个自然语言引导的无人机地理定位基准 GeoText-1652（276K bbox-text 对，316K 描述），并提出 blending spatial matching 方法通过 grounding loss + spatial relation loss 实现区域级空间关系匹配，文本检索 Recall@10 达到 31.2%。
-
-**[Towards Natural Languageguided Drones Geotext1652 Bench](towards_natural_languageguided_drones_geotext1652_bench.md)**
-
-:   构建 GeoText-1652 多视角自然语言引导地理定位基准数据集（276K text-bbox 对），提出利用区域级空间关系匹配（grounding loss + spatial loss）进行精细化文本-图像跨模态检索的方法，实现自然语言控制无人机导航。
-
-**[Tracking Meets Lora Faster Training Larger Model Strong](tracking_meets_lora_faster_training_larger_model_strong.md)**
-
-:   首次将 LoRA 引入视觉目标跟踪领域，通过解耦位置编码和设计 MLP-only 头网络，使大规模 ViT 模型（最大 ViT-g）在实验室级资源下实现高效训练和 SOTA 跟踪性能。
 
 **[Tracking Meets Lora Faster Training Larger Model Stronger Performance](tracking_meets_lora_faster_training_larger_model_stronger_performance.md)**
 

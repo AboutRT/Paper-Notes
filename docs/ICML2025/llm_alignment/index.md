@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**🧪 ICML2025** · 共 **27** 篇
+**🧪 ICML2025** · **27** 篇论文解读
 
 **[Adhmr Aligning Diffusion-Based Human Mesh Recovery Via Direct Preference Optimiz](adhmr_aligning_diffusion-based_human_mesh_recovery_via_direct_preference_optimiz.md)**
 

@@ -70,14 +70,14 @@ TrajAgent 包含三大核心组件：
 分为两个层面的学习：
 
 - **Agent Learning via Reasoning**（高层）：Agent 基于实验记录进行推理学习
-  - 设计 "think then action" 两阶段流程
-  - 维护长期记忆（全部实验数据）和短期记忆（历史动作）
-  - 支持对比反思（Contrastive Reflection）和动态记忆修剪（Dynamic Memory Pruning）
+    - 设计 "think then action" 两阶段流程
+    - 维护长期记忆（全部实验数据）和短期记忆（历史动作）
+    - 支持对比反思（Contrastive Reflection）和动态记忆修剪（Dynamic Memory Pruning）
 
 - **Model Learning via Training**（底层）：专用模型在目标数据上进行针对性训练
-  - **数据增强**：定义 10 种轨迹增强算子（insert、replace、split 等），Agent 选择最优算子组合
-  - **参数优化**：Agent 读取模型参数配置文件并生成代码更新参数
-  - **联合优化**：先数据增强后参数优化的顺序执行
+    - **数据增强**：定义 10 种轨迹增强算子（insert、replace、split 等），Agent 选择最优算子组合
+    - **参数优化**：Agent 读取模型参数配置文件并生成代码更新参数
+    - **联合优化**：先数据增强后参数优化的顺序执行
 
 ### 损失函数 / 训练策略
 

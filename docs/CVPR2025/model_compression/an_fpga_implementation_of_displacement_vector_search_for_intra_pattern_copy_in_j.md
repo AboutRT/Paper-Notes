@@ -63,18 +63,18 @@ DV搜索架构包含两个主引擎：**残差计算引擎**（从DRAM获取IPC 
 
 - **做什么**：评估每个残差IPC Unit的比特开销并搜索最优匹配DV
 - **核心思路**：
-  - Stage 0：输入残差系数和DV，生成BandIdx/GrpSize/UnitWidth等配置参数
-  - Stage 1：GetOrMask对组内残差做按位OR掩码计算
-  - Stage 2：CalGCLI基于OR结果计算GCLI比特开销
-  - Stage 3：Compare模块比较当前与历史最小开销，更新最优DV
+    - Stage 0：输入残差系数和DV，生成BandIdx/GrpSize/UnitWidth等配置参数
+    - Stage 1：GetOrMask对组内残差做按位OR掩码计算
+    - Stage 2：CalGCLI基于OR结果计算GCLI比特开销
+    - Stage 3：Compare模块比较当前与历史最小开销，更新最优DV
 - **设计动机**：系统化的流水线设计使能并行DV评估、低延迟处理，支持可扩展的块级处理
 
 ### 关键设计3：IPC Group对齐的外部存储组织
 
 - **做什么**：优化DRAM中小波系数的存储布局
 - **核心思路**：
-  - Method 0 (基线)：按Precinct顺序存储，简单线性寻址但IPC分组访问效率低
-  - Method 1 (提出)：按IPC Group和Unit组织系数，同一组内IPC Unit顺序存储，每组包含所有子带块
+    - Method 0 (基线)：按Precinct顺序存储，简单线性寻址但IPC分组访问效率低
+    - Method 1 (提出)：按IPC Group和Unit组织系数，同一组内IPC Unit顺序存储，每组包含所有子带块
 - **设计动机**：Method 0需按组/单元/子带索引逐个定位分散的系数块，增加控制复杂度降低存储吞吐；Method 1允许单一基地址加固定偏移即可加载整个IPC Unit，支持突发式存储访问
 - 片上TLB RAM存储不同组中IPC Unit各系数块的长度信息
 

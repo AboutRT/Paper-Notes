@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Random Wins All: Rethinking Grouping Strategies for Vision Tokens
 description: >-
-  [CVPR 2026][3D视觉][Transformer] 发现一个极简策略——随机分组 Vision Token——在图像分类、目标检测、点云分割等多类任务中几乎全面超越精心设计的分组方法，并分析了四个关键成功因素。
+  [CVPR 2026][3D视觉][Transformer] 提出极简的随机分组策略替代 Vision Transformer 中各种精心设计的 token 分组方法，在图像分类、目标检测、语义分割、点云分割和 VLM 上几乎全面超越所有 baseline，并从位置信息、头特征多样性、全局感受野和固定分组模式四个维度解释了随机分组成功的原因。
 tags:
   - CVPR 2026
   - 3D视觉
@@ -63,9 +63,9 @@ tags:
 
 - **功能**: 为 Plain / Partition-based / Pooling-based 三类 backbone 提供统一的分组替换方案
 - **核心思路**:
-  - **Plain backbone**（如 DeiT）：直接应用随机分组，组内执行 self-attention，将全局 $O(n^2)$ 降为组内 $O((n/g)^2)$
-  - **Partition-based**（如 Swin、CSwin、BiFormer）：替换原有窗口/路由分组为随机分组
-  - **Pooling-based**（如 PVTv2、Focal）：替换 token pooling 前的空间分组为随机分组
+    - **Plain backbone**（如 DeiT）：直接应用随机分组，组内执行 self-attention，将全局 $O(n^2)$ 降为组内 $O((n/g)^2)$
+    - **Partition-based**（如 Swin、CSwin、BiFormer）：替换原有窗口/路由分组为随机分组
+    - **Pooling-based**（如 PVTv2、Focal）：替换 token pooling 前的空间分组为随机分组
 - **设计动机**: 证明随机分组是一种通用策略，不依赖特定架构设计，可以统一替代各类分组方法。
 
 ## 实验关键数据

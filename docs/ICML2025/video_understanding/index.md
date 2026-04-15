@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 视频理解方向 10篇论文解读
+  ICML2025 视频理解方向 9篇论文解读
 description: >-
-  10篇ICML2025 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  9篇ICML2025 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**🧪 ICML2025** · 共 **10** 篇
+**🧪 ICML2025** · **9** 篇论文解读
 
 **[Data-Juicer Sandbox A Feedback-Driven Suite For Multimodal Data-Model Co-Develop](data-juicer_sandbox_a_feedback-driven_suite_for_multimodal_data-model_co-develop.md)**
 
@@ -21,10 +21,6 @@ description: >-
 **[Fine-Grained Captioning Of Long Videos Through Scene Graph Consolidation](fine-grained_captioning_of_long_videos_through_scene_graph_consolidation.md)**
 
 :   提出 SGVC 框架，通过将视频各段的文本描述解析为场景图、用 Hungarian 算法迭代合并为统一图表示、再用轻量图到文本解码器生成视频级描述，以极低计算开销实现了超越 LLM-based 方法的零样本长视频描述性能。
-
-**[How Far Is Video Generation From World Model A Physical Law Perspective](how_far_is_video_generation_from_world_model_a_physical_law_perspective.md)**
-
-:   通过构建 2D 物理仿真测试平台，系统性评估视频生成模型发现物理定律的能力，发现扩展模型规模仅能实现分布内泛化，无法实现分布外泛化，揭示模型采用"基于案例"的泛化机制而非抽象物理规则。
 
 **[Moma Modulating Mamba For Adapting Image Foundation Models To Video Recognition](moma_modulating_mamba_for_adapting_image_foundation_models_to_video_recognition.md)**
 

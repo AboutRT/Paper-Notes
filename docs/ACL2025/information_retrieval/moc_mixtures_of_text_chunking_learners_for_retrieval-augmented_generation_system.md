@@ -2,20 +2,24 @@
 title: >-
   [论文解读] MoC: Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System
 description: >-
-   提出 Boundary Clarity 和 Chunk Stickiness 两个直接量化分块质量的指标，以及基于粒度感知混合专家（MoC）的文本分块框架，通过正则表达式引导的轻量化分块策略在 RAG 系统中取得优于传统方法和大模型直接分块的性能。
+  [ACL 2025][text chunking] 提出 Boundary Clarity 和 Chunk Stickiness 两个直接量化分块质量的指标，以及基于粒度感知混合专家（MoC）的文本分块框架，通过正则表达式引导的轻量化分块策略在 RAG 系统中取得优于传统方法和大模型直接分块的性能。
 tags:
-
+  - ACL 2025
+  - text chunking
+  - RAG
+  - mixture of experts
+  - boundary clarity
+  - chunk stickiness
+  - regex-guided chunking
 ---
 
 # MoC: Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2503.09600](https://arxiv.org/abs/2503.09600) |
-| 代码 | [github.com/IAAR-Shanghai/Meta-Chunking/tree/main/MoC](https://github.com/IAAR-Shanghai/Meta-Chunking/tree/main/MoC) |
-| 领域 | RAG / 文本分块 / 信息检索 |
-| 关键词 | text chunking, RAG, mixture of experts, boundary clarity, chunk stickiness, regex-guided chunking |
+**会议**: ACL 2025  
+**arXiv**: [2503.09600](https://arxiv.org/abs/2503.09600)  
+**代码**: [github.com/IAAR-Shanghai/Meta-Chunking/tree/main/MoC](https://github.com/IAAR-Shanghai/Meta-Chunking/tree/main/MoC)  
+**领域**: RAG / 文本分块 / 信息检索  
+**关键词**: text chunking, RAG, mixture of experts, boundary clarity, chunk stickiness, regex-guided chunking  
 
 ## 一句话总结
 

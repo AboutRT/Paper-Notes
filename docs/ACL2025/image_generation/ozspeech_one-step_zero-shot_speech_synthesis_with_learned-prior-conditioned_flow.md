@@ -2,20 +2,24 @@
 title: >-
   [论文解读] OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching
 description: >-
-  [图像生成] 提出OZSpeech，首个将最优传输条件流匹配(OT-CFM)与学习先验分布相结合实现单步采样的零样本TTS系统，在内容准确性(WER)、推理速度和模型大小上均大幅领先现有方法。
+  [ACL2025][图像生成][Flow Matching] 提出OZSpeech，首个将最优传输条件流匹配(OT-CFM)与学习先验分布相结合实现单步采样的零样本TTS系统，在内容准确性(WER)、推理速度和模型大小上均大幅领先现有方法。
 tags:
+  - ACL2025
   - 图像生成
+  - Flow Matching
+  - Zero-Shot TTS
+  - One-Step Sampling
+  - Learned Prior
+  - Neural Codec
 ---
 
 # OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2505.12800](https://arxiv.org/abs/2505.12800) |
-| 代码 | [OZSpeech Demo](https://ozspeech.github.io/OZSpeech_Web/) |
-| 领域 | 语音合成 / Zero-Shot TTS |
-| 关键词 | Flow Matching, Zero-Shot TTS, One-Step Sampling, Learned Prior, Neural Codec |
+**会议**: ACL2025  
+**arXiv**: [2505.12800](https://arxiv.org/abs/2505.12800)  
+**代码**: [OZSpeech Demo](https://ozspeech.github.io/OZSpeech_Web/)  
+**领域**: 语音合成 / Zero-Shot TTS  
+**关键词**: Flow Matching, Zero-Shot TTS, One-Step Sampling, Learned Prior, Neural Codec  
 
 ## 一句话总结
 

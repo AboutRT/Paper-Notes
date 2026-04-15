@@ -2,7 +2,7 @@
 title: >-
   [论文解读] LongReward: Improving Long-context Large Language Models with AI Feedback
 description: >-
-  [ACL2025][LLM效率][长上下文LLM] 提出 LongReward，利用现成LLM从帮助性、逻辑性、忠实性和完整性四个维度为长上下文模型回复自动打分，结合DPO实现长上下文SFT模型的进一步提升。
+  [ACL2025][LLM效率][长上下文LLM] 提出 LongReward，利用现成 LLM 从帮助性、逻辑性、忠实性和完整性四个维度为长上下文模型回复自动打分，结合 DPO 离线强化学习显著提升长上下文 SFT 模型的多维能力。
 tags:
   - ACL2025
   - LLM效率

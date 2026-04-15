@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Training a Generally Curious Agent (Paprika)
 description: >-
-  [模型压缩] 提出 Paprika 框架，通过在多种文本决策任务上微调 LLM，使模型学会通用的信息收集和决策能力，并能零样本迁移到完全未见的任务。
+  [ICML 2025][模型压缩][in-context RL] 提出 Paprika 框架，通过在多种文本决策任务上微调 LLM，使模型学会通用的信息收集和决策能力，并能零样本迁移到完全未见的任务。
 tags:
+  - ICML 2025
   - 模型压缩
+  - in-context RL
+  - curious agent
+  - curriculum learning
+  - sequential decision making
+  - Paprika
 ---
 
 # Training a Generally Curious Agent (Paprika)
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2502.17543](https://arxiv.org/abs/2502.17543) |
-| 代码 | - |
-| 领域 | LLM Agent / Reinforcement Learning |
-| 关键词 | in-context RL, curious agent, curriculum learning, sequential decision making, Paprika |
+**会议**: ICML 2025  
+**arXiv**: [2502.17543](https://arxiv.org/abs/2502.17543)  
+**代码**: -  
+**领域**: LLM Agent / Reinforcement Learning  
+**关键词**: in-context RL, curious agent, curriculum learning, sequential decision making, Paprika  
 
 ## 一句话总结
 

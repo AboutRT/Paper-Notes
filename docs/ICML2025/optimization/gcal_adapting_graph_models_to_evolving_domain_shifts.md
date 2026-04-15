@@ -75,8 +75,8 @@ $$\mathcal{L}(\Phi) \geq \mathbb{E}[\log P_f(\hat{Y}_t|\hat{G}_t)] - \beta \math
 - **TopK 选择器**：使用可训练参数 $\mathbf{p}$ 对节点分布评分并选择 Top-K 个最重要的节点，实现图压缩
 - **节点特征生成**：通过重参数化技巧从高斯分布采样：$\hat{z}_i = \mu_i + \sigma_i^2 \odot \varepsilon$
 - **边生成**：假设边服从独立伯努利分布，使用 MLP 计算边权重，并通过 Gumbel-Max 重参数化实现可微采样：
-  - $w_{i,j} = (\text{MLP}([\hat{z}_i; \hat{z}_j]) + \text{MLP}([\hat{z}_j; \hat{z}_i])) / 2$
-  - $a_{i,j} = \text{Sigmoid}((w_{i,j} + \log\frac{\delta}{1-\delta}) / \tau)$
+    - $w_{i,j} = (\text{MLP}([\hat{z}_i; \hat{z}_j]) + \text{MLP}([\hat{z}_j; \hat{z}_i])) / 2$
+    - $a_{i,j} = \text{Sigmoid}((w_{i,j} + \log\frac{\delta}{1-\delta}) / \tau)$
 
 这样的对称设计保证了边的无向性，Gumbel-Sigmoid 提供了连续松弛使梯度可回传。
 

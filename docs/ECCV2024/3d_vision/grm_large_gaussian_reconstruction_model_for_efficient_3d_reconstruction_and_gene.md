@@ -68,10 +68,10 @@ GRM的pipeline：
 
     - **做什么**: 从多视图图像提取并融合全局特征，实现跨视图信息交换
     - **核心思路**: 
-      - 用Plücker embedding注入相机信息到每个像素
-      - 卷积tokenizer（kernel/stride=16）提取 $H/16 \times W/16$ 局部特征
-      - 所有视图特征拼接为长度 $(V \times H/16 \times W/16)$ 的序列
-      - 经过24层自注意力层实现跨视图信息交换:
+        - 用Plücker embedding注入相机信息到每个像素
+        - 卷积tokenizer（kernel/stride=16）提取 $H/16 \times W/16$ 局部特征
+        - 所有视图特征拼接为长度 $(V \times H/16 \times W/16)$ 的序列
+        - 经过24层自注意力层实现跨视图信息交换:
     $\mathbf{F} = E_{\theta, \phi}(\mathcal{I}, \mathcal{C})$
     - **设计动机**: 全局自注意力等效于跨视图特征匹配，确保不同视图对同一3D点的预测一致
 
@@ -79,9 +79,9 @@ GRM的pipeline：
 
     - **做什么**: 渐进式将低分辨率特征图上采样到原始输入分辨率，恢复高频细节
     - **核心思路**: 每个上采样块包含:
-      - Linear层4倍扩展通道维度
-      - PixelShuffle 2倍空间上采样
-      - 窗口自注意力 + 移位窗口自注意力（类Swin Transformer）:
+        - Linear层4倍扩展通道维度
+        - PixelShuffle 2倍空间上采样
+        - 窗口自注意力 + 移位窗口自注意力（类Swin Transformer）:
     $\mathbf{F} = \text{PixelShuffle}(\text{Linear}(\mathbf{F}), 2)$
     $\mathbf{F} = \text{SelfAttn}(\mathbf{F}, W)$
     $\mathbf{F} = \text{Shift}(\text{SelfAttn}(\text{Shift}(\mathbf{F}, W/2), W), -W/2)$

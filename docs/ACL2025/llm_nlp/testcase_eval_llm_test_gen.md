@@ -2,10 +2,15 @@
 title: >-
   [论文解读] TestCase-Eval: A Systematic Evaluation of Fault Coverage and Exposure
 description: >-
-  [ACL 2025  **arXiv**: [2506.12278](https://arxiv.org/abs/2506.12278)  **代码**: [FlowRays/TestCase-Eval](https://github.com/FlowRays/TestCase-Eval)  **领域**: 代码评测  **关键词**: 测试用例生成, LLM评测, 故障覆盖, 故障暴露, 竞赛编程][LLM/NLP] 提出TestCase-Eval基准，包含500道Codeforces竞赛题和10万份人类提交代码，通过Fault Coverage和Fault Exposure两个任务系统评估19个LLM在算法问题测试用例生成方面的能力，发现最强模型Qwen3-32B仅达43.8%暴露率，远低于人类专家的93.3%。
+  [ACL 2025][LLM/NLP][测试用例生成] 提出TestCase-Eval基准，包含500道Codeforces竞赛题和10万份人类提交代码，通过Fault Coverage和Fault Exposure两个任务系统评估19个LLM在算法问题测试用例生成方面的能力，发现最强模型Qwen3-32B仅达43.8%暴露率，远低于人类专家的93.3%。
 tags:
-  - "ACL 2025  **arXiv**: [2506.12278](https://arxiv.org/abs/2506.12278)  **代码**: [FlowRays/TestCase-Eval](https://github.com/FlowRays/TestCase-Eval)  **领域**: 代码评测  **关键词**: 测试用例生成, LLM评测, 故障覆盖, 故障暴露, 竞赛编程"
+  - ACL 2025
   - LLM/NLP
+  - 测试用例生成
+  - LLM评测
+  - 故障覆盖
+  - 故障暴露
+  - 竞赛编程
 ---
 
 # TestCase-Eval: A Systematic Evaluation of Fault Coverage and Exposure

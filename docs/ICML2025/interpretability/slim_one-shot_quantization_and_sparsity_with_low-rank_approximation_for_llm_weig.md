@@ -2,20 +2,24 @@
 title: >-
   [论文解读] SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression
 description: >-
-   提出 SLiM，一种一次性压缩框架，将硬件友好的均匀量化、半结构化稀疏和基于显著性的低秩适配器无缝整合，在 4-bit + 2:4 稀疏条件下准确率提升最高 5.66%。
+  [ICML 2025][one-shot compression] 提出 SLiM，一种一次性压缩框架，将硬件友好的均匀量化、半结构化稀疏和基于显著性的低秩适配器无缝整合，在 4-bit + 2:4 稀疏条件下准确率提升最高 5.66%。
 tags:
-
+  - ICML 2025
+  - one-shot compression
+  - 量化
+  - sparsity
+  - low-rank adapter
+  - SLiM-Quant
+  - SLiM-LoRA
 ---
 
 # SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2410.09615](https://arxiv.org/abs/2410.09615) |
-| 代码 | [GitHub](https://github.com/Mohammad-Mozaffari/slim) |
-| 领域 | Model Compression / Quantization / Pruning |
-| 关键词 | one-shot compression, quantization, sparsity, low-rank adapter, SLiM-Quant, SLiM-LoRA |
+**会议**: ICML 2025  
+**arXiv**: [2410.09615](https://arxiv.org/abs/2410.09615)  
+**代码**: [GitHub](https://github.com/Mohammad-Mozaffari/slim)  
+**领域**: Model Compression / Quantization / Pruning  
+**关键词**: one-shot compression, quantization, sparsity, low-rank adapter, SLiM-Quant, SLiM-LoRA  
 
 ## 一句话总结
 

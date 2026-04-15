@@ -60,11 +60,11 @@ GCR 分为预训练和行为引出两个阶段：
 
     - 功能：解决命题稀疏性（propositional sparsity）问题——当目标命题难以在随机探索中被满足时（如"拿起方块"），智能体无法获得奖励信号
     - 核心思路：
-      - 预训练阶段学习 $2|\mathcal{AP}|$ 个**原始值函数** (PVFs)，每个估计满足单个命题（或其否定）的最优值函数 $V^*_{\Diamond x}(s)$
-      - 对任意 Reward Machine 任务，将其分解为 RM 转移→逻辑子任务→DNF→原子命题链
-      - 用模糊逻辑语义组合 PVFs：$\max$ 对应析取，$\min$ 对应合取
-      - 最终得到任意 RM 任务的 OVF 近似 $V^*_{\mathcal{R}}(s,u) \approx \max_{\langle u,u',\varphi,r\rangle} [V^*_{\Diamond\varphi}(s) \cdot (r + \gamma v^*_{\mathcal{R}}(u'))]$
-      - 用该 OVF 做 potential-based reward shaping
+        - 预训练阶段学习 $2|\mathcal{AP}|$ 个**原始值函数** (PVFs)，每个估计满足单个命题（或其否定）的最优值函数 $V^*_{\Diamond x}(s)$
+        - 对任意 Reward Machine 任务，将其分解为 RM 转移→逻辑子任务→DNF→原子命题链
+        - 用模糊逻辑语义组合 PVFs：$\max$ 对应析取，$\min$ 对应合取
+        - 最终得到任意 RM 任务的 OVF 近似 $V^*_{\mathcal{R}}(s,u) \approx \max_{\langle u,u',\varphi,r\rangle} [V^*_{\Diamond\varphi}(s) \cdot (r + \gamma v^*_{\mathcal{R}}(u'))]$
+        - 用该 OVF 做 potential-based reward shaping
     - 设计动机：从 $2|\mathcal{AP}|$ 个 PVFs 出发，可以组合出指数级（$2^{2^n}$）个逻辑任务和无穷多 RM 任务的值函数估计，实现了效率和泛化的双赢
 
 3. **RL 微调 (Reinforce)**：

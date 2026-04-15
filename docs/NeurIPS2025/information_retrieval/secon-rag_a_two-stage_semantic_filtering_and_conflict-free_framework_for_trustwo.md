@@ -66,9 +66,9 @@ SeCon-RAG 分两阶段工作：**第一阶段 SCF（Semantic and Clustering-Base
 
     - 功能：在推理阶段对通过 SCF 的 top-k 文档做最终过滤
     - 核心思路：用 EIRE 提取每个候选文档的语义信息，从三个维度评判可信度：
-      - **Q（Query Consistency）**：文档与用户查询的意图和实体是否对齐
-      - **C（Corpus Consistency）**：文档与其他检索文档之间是否存在关系矛盾
-      - **M（Model Consistency）**：文档关键实体是否与 LLM 内部知识一致
+        - **Q（Query Consistency）**：文档与用户查询的意图和实体是否对齐
+        - **C（Corpus Consistency）**：文档与其他检索文档之间是否存在关系矛盾
+        - **M（Model Consistency）**：文档关键实体是否与 LLM 内部知识一致
     - LLM 对每篇文档做出判断：poisoned / conflicting / irrelevant / trustable，只保留 trustable 文档用于最终生成
     - 设计动机：SCF 移除了统计和结构异常，但可能保留语义相关但事实矛盾的文档（如与模型内部知识冲突），CAF 提供精细的事实层过滤
 

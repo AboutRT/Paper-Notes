@@ -58,10 +58,10 @@ GraspXL 在强化学习框架中运作：给定物体和手模型，策略网络
 
     - 总奖励 $r = r_{\text{goal}} + r_{\text{grasp}}$，解耦目标满足和抓取稳定性
     - 目标奖励：$r_{\text{goal}} = r_{\text{dis}} + r_\mathbf{v} + r_\omega + r_\mathbf{m}$
-      - $r_{\text{dis}} = -\sum_i [w_d^+(i)\|\mathbf{h}_i - \mathbf{o}_i^+\|^2 - w_d^-(i)\|\mathbf{h}_i - \mathbf{o}_i^-\|^2]$：鼓励接近可抓取区域，远离不可抓取区域
-      - $r_\mathbf{v} = -w_\mathbf{v}\|\mathbf{v} - \bar{\mathbf{v}}\|^2$：朝向对齐
+        - $r_{\text{dis}} = -\sum_i [w_d^+(i)\|\mathbf{h}_i - \mathbf{o}_i^+\|^2 - w_d^-(i)\|\mathbf{h}_i - \mathbf{o}_i^-\|^2]$：鼓励接近可抓取区域，远离不可抓取区域
+        - $r_\mathbf{v} = -w_\mathbf{v}\|\mathbf{v} - \bar{\mathbf{v}}\|^2$：朝向对齐
     - 抓取奖励：$r_{\text{grasp}} = r_\mathbf{c} + r_\mathbf{f} + r_{\text{anatomy}} + r_{\text{reg}}$
-      - 接触奖励 $r_\mathbf{c}$、力奖励 $r_\mathbf{f}$（都区分可/不可抓取区域）、解剖约束 $r_{\text{anatomy}}$（MANO手用）、正则化 $r_{\text{reg}}$
+        - 接触奖励 $r_\mathbf{c}$、力奖励 $r_\mathbf{f}$（都区分可/不可抓取区域）、解剖约束 $r_{\text{anatomy}}$（MANO手用）、正则化 $r_{\text{reg}}$
     - 设计动机：奖励函数完全不依赖特定手模型结构，仅使用关节位置-物体表面的几何关系，因此可直接迁移到不同灵巧手
 
 3. **学习课程(Curriculum)**:

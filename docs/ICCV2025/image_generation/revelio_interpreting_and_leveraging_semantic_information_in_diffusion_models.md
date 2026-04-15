@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Revelio: Interpreting and Leveraging Semantic Information in Diffusion Models
 description: >-
-  [图像生成] Revelio 使用 k-稀疏自编码器（k-SAE）揭示扩散模型不同层和时间步中蕴含的单语义（monosemantic）可解释特征，并通过轻量分类器 Diff-C 验证这些特征的迁移学习价值，实现对黑盒扩散模型的深度解读。
+  [ICCV 2025][图像生成][扩散模型可解释性] Revelio 使用 k-稀疏自编码器（k-SAE）揭示扩散模型不同层和时间步中蕴含的单语义（monosemantic）可解释特征，并通过轻量分类器 Diff-C 验证这些特征的迁移学习价值，实现对黑盒扩散模型的深度解读。
 tags:
+  - ICCV 2025
   - 图像生成
+  - 扩散模型可解释性
+  - k-稀疏自编码器
+  - 表示学习
+  - 迁移学习
+  - 单语义特征
 ---
 
 # Revelio: Interpreting and Leveraging Semantic Information in Diffusion Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV 2025 |
-| arXiv | [2411.16725](https://arxiv.org/abs/2411.16725) |
-| 代码 | [GitHub](https://github.com/revelio-diffusion/revelio) |
-| 领域 | 扩散模型·表示学习 |
-| 关键词 | 扩散模型可解释性, k-稀疏自编码器, 表示学习, 迁移学习, 单语义特征 |
+**会议**: ICCV 2025  
+**arXiv**: [2411.16725](https://arxiv.org/abs/2411.16725)  
+**代码**: [GitHub](https://github.com/revelio-diffusion/revelio)  
+**领域**: 扩散模型·表示学习  
+**关键词**: 扩散模型可解释性, k-稀疏自编码器, 表示学习, 迁移学习, 单语义特征  
 
 ## 一句话总结
 

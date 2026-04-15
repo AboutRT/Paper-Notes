@@ -56,9 +56,9 @@ Self-KD 是一个知识蒸馏训练框架，特点是教师和学生来自同一
 
 - **做什么**：系统量化并分析 OLLMs 视觉-音频能力差距
 - **核心发现**：
-  - 所有测试的 OLLMs（VITA/VITA-1.5/Megrez）在音频查询下性能大幅下降
-  - 模型在音频查询下表现出更高的 "Yes" 偏差
-  - 音频回答通常与图像相关但不准确——模型"看到"了图像但未能正确整合信息
+    - 所有测试的 OLLMs（VITA/VITA-1.5/Megrez）在音频查询下性能大幅下降
+    - 模型在音频查询下表现出更高的 "Yes" 偏差
+    - 音频回答通常与图像相关但不准确——模型"看到"了图像但未能正确整合信息
 - **注意力分析**：音频查询时，query token 对 vision token 的注意力权重在中后层显著低于文本查询，但 response token 对 vision/query token 的注意力差异不大
 
 #### 2. MMAlign 基准
@@ -71,9 +71,9 @@ Self-KD 是一个知识蒸馏训练框架，特点是教师和学生来自同一
 
 - **做什么**：利用 OLLM 自身的视觉-文本组件指导视觉-音频组件的训练
 - **核心思路**：
-  - 常规 SFT 损失：$L_{\text{SFT}} = \mathbb{E}[-\log p_S(y|x^a)]$
-  - Self-KD 损失（KL 散度）：$L_{\text{Self-KD}} = \text{KL}(p_T \| p_S) = \mathbb{E}\left[\log \frac{p_T(y|x^t)}{p_S(y|x^a)}\right]$
-  - 总损失：$L = \alpha L_{\text{Self-KD}} + (1-\alpha) L_{\text{SFT}}$
+    - 常规 SFT 损失：$L_{\text{SFT}} = \mathbb{E}[-\log p_S(y|x^a)]$
+    - Self-KD 损失（KL 散度）：$L_{\text{Self-KD}} = \text{KL}(p_T \| p_S) = \mathbb{E}\left[\log \frac{p_T(y|x^t)}{p_S(y|x^a)}\right]$
+    - 总损失：$L = \alpha L_{\text{Self-KD}} + (1-\alpha) L_{\text{SFT}}$
 - **设计动机**：不同于传统 KD 教师和学生用相同输入，Self-KD 中教师用视觉-文本输入、学生用对应的视觉-音频输入，使学生学会像处理文本一样处理音频，包括分配更多注意力给视觉 token
 
 ### 损失函数/训练策略

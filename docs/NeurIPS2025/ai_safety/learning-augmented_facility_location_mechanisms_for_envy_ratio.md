@@ -63,8 +63,8 @@ $$\text{Envy Ratio} = \max_{i,j} \frac{u_i}{u_j}$$
 
 **性质**：
 - 对于参数 $\alpha \in [1, 2]$，$\alpha$-BIM 实现：
-  - $\alpha$-一致性（consistency）：当预测准确时，嫉妒比不超过 $\alpha$
-  - $\frac{\alpha}{\alpha-1}$-鲁棒性（robustness）：当预测完全错误时，嫉妒比不超过 $\frac{\alpha}{\alpha-1}$
+    - $\alpha$-一致性（consistency）：当预测准确时，嫉妒比不超过 $\alpha$
+    - $\frac{\alpha}{\alpha-1}$-鲁棒性（robustness）：当预测完全错误时，嫉妒比不超过 $\frac{\alpha}{\alpha-1}$
 - **最优性**：证明了在确定性机制中，$\alpha$-BIM 的一致性-鲁棒性权衡是最优的
 
 **权衡分析**：

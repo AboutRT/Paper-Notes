@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**📹 ICCV2025** · 共 **4** 篇
+**📹 ICCV2025** · **4** 篇论文解读
 
 **[I2-World Intra-Inter Tokenization For Efficient Dynamic 4D Scene Forecasting](i2-world_intra-inter_tokenization_for_efficient_dynamic_4d_scene_forecasting.md)**
 

@@ -57,8 +57,8 @@ tags:
 
 - 基于 OpenAI o3 推理模型，配备三个验证工具：Qur'an Ayah（古兰经经文检索）、Internet Search、Internet Extract
 - 将每篇文章分为引言/正文/结论三段，在 **6 个维度**上打分（1-5分）：
-  - **文体与结构**（4维）：结构连贯性(Structure)、主题聚焦(Theme)、清晰度(Clarity)、原创性(Originality)
-  - **伊斯兰内容**（2维）：伊斯兰准确性(Islamic Accuracy)、引用与来源使用(Citation)
+    - **文体与结构**（4维）：结构连贯性(Structure)、主题聚焦(Theme)、清晰度(Clarity)、原创性(Originality)
+    - **伊斯兰内容**（2维）：伊斯兰准确性(Islamic Accuracy)、引用与来源使用(Citation)
 - 检测到引用时自动检索验证，返回四级标注：confirmed / partially confirmed / unverified / refuted
 - 对未完全确认的引用进行扣分
 

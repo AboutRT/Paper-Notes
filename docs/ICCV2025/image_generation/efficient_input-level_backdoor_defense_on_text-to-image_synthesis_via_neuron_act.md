@@ -61,9 +61,9 @@ NaviT2I 的流程：
 
     - 功能：精确量化每个 token 对模型各层激活的影响
     - 核心思路：
-      - 线性层：$\delta^{(\ell)}(c, c') = \frac{1}{N_\ell d_\ell}\|\mathbf{A}^{(\ell)}(c) - \mathbf{A}^{(\ell)}(c')\|_1$
-      - 卷积层：先在空间维度平均池化，再计算 1-范数差异
-      - 总激活变化：$\delta_\theta(c, c') = \sum_{\ell \in \mathcal{L}_{set}} \delta^{(\ell)}(c, c')$
+        - 线性层：$\delta^{(\ell)}(c, c') = \frac{1}{N_\ell d_\ell}\|\mathbf{A}^{(\ell)}(c) - \mathbf{A}^{(\ell)}(c')\|_1$
+        - 卷积层：先在空间维度平均池化，再计算 1-范数差异
+        - 总激活变化：$\delta_\theta(c, c') = \sum_{\ell \in \mathcal{L}_{set}} \delta^{(\ell)}(c, c')$
     - 设计动机：逐层计算比粗粒度的 Neuron Coverage 更精确，能捕捉不同层对触发器的差异响应
 
 3. **异常值检测与评分函数**:

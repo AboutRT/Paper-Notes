@@ -62,10 +62,10 @@ VFScale提出无需外部验证器的测试时可缩放扩散模型，通过MRNC
 
     - 早期（噪声大时）用BoN：$L$ 个初始噪声并行去噪，防止过早淘汰有前景的路径
     - 后期（噪声小时）用MCTS：
-      - Selection：UCB公式 $\text{UCB}(x_t, a_t) = Q(x_t, a_t) + c\sqrt{\frac{\ln N_i}{n_i}}$
-      - Expansion：单步去噪+不同高斯噪声→$K$个分支
-      - Simulation：用DDIM快速采样到 $x_0$，用 $E_\theta(\hat{x}_0)$ 作为reward（无需外部验证器）
-      - Backpropagation：更新路径上所有节点的值
+        - Selection：UCB公式 $\text{UCB}(x_t, a_t) = Q(x_t, a_t) + c\sqrt{\frac{\ln N_i}{n_i}}$
+        - Expansion：单步去噪+不同高斯噪声→$K$个分支
+        - Simulation：用DDIM快速采样到 $x_0$，用 $E_\theta(\hat{x}_0)$ 作为reward（无需外部验证器）
+        - Backpropagation：更新路径上所有节点的值
     - DDIM的子序列采样特性使simulation高效
 
 ### 完整训练目标

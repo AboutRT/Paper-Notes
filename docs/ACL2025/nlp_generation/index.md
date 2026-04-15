@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 文本生成方向 22篇论文解读
+  ACL2025 文本生成方向 21篇论文解读
 description: >-
-  22篇ACL2025 文本生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  21篇ACL2025 文本生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✍️ 文本生成
 
-**💬 ACL2025** · 共 **22** 篇
+**💬 ACL2025** · **21** 篇论文解读
 
 **[A Representation Level Analysis Of Nmt Model Robustness To Grammatical Errors](a_representation_level_analysis_of_nmt_model_robustness_to_grammatical_errors.md)**
 
@@ -65,10 +65,6 @@ description: >-
 **[Persphere A Comprehensive Framework For Multi-Faceted Perspective Retrieval And ](persphere_a_comprehensive_framework_for_multi-faceted_perspective_retrieval_and_.md)**
 
 :   > 提出 PerSphere 基准数据集和 MURS（Multi-faceted perspective retrieval and summarization）任务，旨在从文档集中检索并全面总结争议性问题的多面向观点，并提出分层多智能体总结系统 HierSphere 来缓解长上下文和观点提取的挑战。
-
-**[Rethinking Evaluation Metrics For Grammatical Error Correction Why Use A Differe](rethinking_evaluation_metrics_for_grammatical_error_correction_why_use_a_differe.md)**
-
-:   指出自动 GEC 评估与人类评估在聚合方式上的差距（人类用 TrueSkill 做成对比较后聚合，自动评估用平均/求和后排序），提出对所有自动指标统一使用 TrueSkill 聚合，在 SEEDA 基准上大幅提升多数指标与人类评估的相关性。
 
 **[Tagrouter Learning Route To Llms Through Tags For Open-Domain Text Generation Ta](tagrouter_learning_route_to_llms_through_tags_for_open-domain_text_generation_ta.md)**
 

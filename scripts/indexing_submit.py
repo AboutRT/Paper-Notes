@@ -1,30 +1,33 @@
 #!/usr/bin/env python3
 """
-搜索引擎索引提交脚本：Google Indexing API + Bing IndexNow。
+Search engine indexing submission: Google Indexing API + Bing IndexNow.
 
-用法:
-  # Google + Bing 同时提交
-  python src/google_indexing_submit.py --credentials sa.json --bing-key YOUR_KEY
+Usage:
+  # Submit to both Google and Bing
+  python scripts/indexing_submit.py --credentials sa.json --bing-key YOUR_KEY
 
-  # 仅 Bing IndexNow（无需额外认证，无配额限制）
-  python src/google_indexing_submit.py --bing-only --bing-key YOUR_KEY
+  # Bing IndexNow only (no extra auth, no quota limit)
+  python scripts/indexing_submit.py --bing-only --bing-key YOUR_KEY
 
-  # 仅 Google
-  python src/google_indexing_submit.py --credentials sa.json --google-only
+  # Google only
+  python scripts/indexing_submit.py --credentials sa.json --google-only
 
-  # 仅提交最近变更的文件
-  python src/google_indexing_submit.py --credentials sa.json --bing-key YOUR_KEY --changed-only
+  # Submit only recently changed files
+  python scripts/indexing_submit.py --credentials sa.json --bing-key YOUR_KEY --changed-only
 
-Google 前置条件:
-  1. Google Cloud 项目启用 Indexing API
-  2. 创建 Service Account 并下载 JSON 密钥
-  3. 在 Google Search Console 中将 Service Account 邮箱添加为 Owner
+  # Submit index pages only (homepage, conference indexes, domain indexes)
+  python scripts/indexing_submit.py --bing-only --bing-key YOUR_KEY --index-pages
+
+Google prerequisites:
+  1. Enable Indexing API in Google Cloud project
+  2. Create a Service Account and download the JSON key
+  3. Add the Service Account email as Owner in Google Search Console
   4. pip install google-auth google-auth-httplib2 google-api-python-client
 
-Bing IndexNow 前置条件:
-  1. 生成一个 key（任意 UUID 即可）
-  2. 在站点根目录放置 {key}.txt 文件（内容为 key 本身）
-  3. 无需额外依赖
+Bing IndexNow prerequisites:
+  1. Generate a key (any UUID)
+  2. Place a {key}.txt file at the site root (content = the key itself)
+  3. No extra dependencies needed
 """
 
 import argparse
@@ -41,36 +44,38 @@ NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 SITE_URL = "https://zhaoyang97.github.io/Paper-Notes/"
 HOST = "zhaoyang97.github.io"
 DAILY_QUOTA = 200
-INDEXNOW_BATCH_SIZE = 10000  # IndexNow 单次最大 10,000 条
+INDEXNOW_BATCH_SIZE = 10000  # IndexNow max 10,000 per request
 PROGRESS_FILE = "logs/indexing_progress.json"
 
 
 def parse_args():
-    p = argparse.ArgumentParser(description="Google Indexing API + Bing IndexNow 批量提交")
+    p = argparse.ArgumentParser(description="Google Indexing API + Bing IndexNow batch submit")
     p.add_argument("--credentials", default=None,
-                   help="Google Service Account JSON 密钥文件路径")
+                   help="Path to Google Service Account JSON key")
     p.add_argument("--bing-key", default=None,
                    help="Bing IndexNow key")
     p.add_argument("--google-only", action="store_true",
-                   help="仅提交 Google")
+                   help="Submit to Google only")
     p.add_argument("--bing-only", action="store_true",
-                   help="仅提交 Bing IndexNow")
+                   help="Submit to Bing IndexNow only")
     p.add_argument("--sitemap", default=None,
-                   help="sitemap.xml 路径（默认从线上获取）")
+                   help="Path to sitemap.xml (default: fetch from remote)")
     p.add_argument("--changed-only", action="store_true",
-                   help="仅提交 git 最近变更的文件")
+                   help="Submit only recently changed files via git diff")
     p.add_argument("--dry-run", action="store_true",
-                   help="仅打印要提交的 URL，不实际提交")
+                   help="Print URLs without actually submitting")
     p.add_argument("--limit", type=int, default=DAILY_QUOTA,
-                   help=f"Google 单次最大提交数（默认 {DAILY_QUOTA}）")
+                   help=f"Max URLs per Google submission (default: {DAILY_QUOTA})")
+    p.add_argument("--index-pages", action="store_true",
+                   help="Submit index pages only (homepage, conference/domain indexes)")
     p.add_argument("--action", choices=["URL_UPDATED", "URL_DELETED"],
                    default="URL_UPDATED",
-                   help="提交动作类型（默认 URL_UPDATED）")
+                   help="Submission action type (default: URL_UPDATED)")
     return p.parse_args()
 
 
 def load_progress() -> dict:
-    """加载已提交的进度记录"""
+    """Load submission progress from disk."""
     if os.path.exists(PROGRESS_FILE):
         with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -78,33 +83,32 @@ def load_progress() -> dict:
 
 
 def save_progress(progress: dict):
-    """保存进度"""
+    """Save submission progress to disk."""
     os.makedirs(os.path.dirname(PROGRESS_FILE), exist_ok=True)
     with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
         json.dump(progress, f, ensure_ascii=False, indent=2)
 
 
 def get_urls_from_sitemap(sitemap_path: str) -> list[str]:
-    """从 sitemap 或 sitemap index 解析所有 URL"""
+    """Parse all URLs from a local sitemap or sitemap index."""
     urls = []
     tree = ET.parse(sitemap_path)
     root = tree.getroot()
 
-    # 检查是否为 sitemap index
+    # Check if this is a sitemap index
     sitemaps = root.findall(f"{{{NS}}}sitemap")
     if sitemaps:
-        # sitemap index: 递归解析每个子 sitemap
+        # Sitemap index: recursively parse each child sitemap
         site_dir = os.path.dirname(sitemap_path)
         for sm in sitemaps:
             loc = sm.find(f"{{{NS}}}loc")
             if loc is not None:
-                # 从 URL 提取文件名
                 filename = loc.text.split("/")[-1]
                 sub_path = os.path.join(site_dir, filename)
                 if os.path.exists(sub_path):
                     urls.extend(get_urls_from_sitemap(sub_path))
     else:
-        # 普通 sitemap
+        # Regular sitemap
         for url_elem in root.findall(f"{{{NS}}}url"):
             loc = url_elem.find(f"{{{NS}}}loc")
             if loc is not None:
@@ -114,7 +118,7 @@ def get_urls_from_sitemap(sitemap_path: str) -> list[str]:
 
 
 def get_urls_from_remote_sitemap(sitemap_url: str) -> list[str]:
-    """从远端 sitemap 获取 URL 列表"""
+    """Fetch and parse URLs from a remote sitemap."""
     import urllib.request
     urls = []
     try:
@@ -134,28 +138,28 @@ def get_urls_from_remote_sitemap(sitemap_url: str) -> list[str]:
                 if loc is not None:
                     urls.append(loc.text)
     except Exception as e:
-        print(f"❌ 获取远端 sitemap 失败: {e}")
+        print(f"[ERROR] Failed to fetch remote sitemap: {e}")
     return urls
 
 
 def get_changed_urls() -> list[str]:
-    """从 git diff 获取最近变更的论文页 URL"""
+    """Get URLs of recently changed paper pages via git diff."""
     try:
         result = subprocess.run(
             ["git", "diff", "--name-only", "HEAD~1", "HEAD",
-             "--", "paper_notes/docs/"],
+             "--", "docs/"],
             capture_output=True, text=True, timeout=10
         )
         if result.returncode != 0:
-            print(f"⚠️ git diff 失败: {result.stderr}")
+            print(f"[WARN] git diff failed: {result.stderr}")
             return []
 
         urls = []
         for line in result.stdout.strip().split("\n"):
             if not line or not line.endswith(".md"):
                 continue
-            # paper_notes/docs/ICLR2026/image_generation/xxx.md -> URL
-            rel = line.replace("paper_notes/docs/", "")
+            # docs/ICLR2026/image_generation/xxx.md -> URL
+            rel = line.replace("docs/", "")
             rel = rel.replace(".md", "/")
             if rel.endswith("index/"):
                 rel = rel.replace("index/", "")
@@ -164,21 +168,43 @@ def get_changed_urls() -> list[str]:
 
         return urls
     except Exception as e:
-        print(f"⚠️ 获取变更文件失败: {e}")
+        print(f"[WARN] Failed to get changed files: {e}")
         return []
 
 
+def filter_index_urls(urls: list[str]) -> list[str]:
+    """Filter for index pages (homepage, conference indexes, domain indexes).
+    Excludes paper detail pages and TODO pages."""
+    filtered = []
+    for url in urls:
+        path = url.replace(SITE_URL, "").strip("/")
+        # Homepage
+        if not path:
+            filtered.append(url)
+            continue
+        parts = path.split("/")
+        # Exclude TODO pages
+        if parts[-1] == "TODO":
+            continue
+        # Conference index: CVPR2025/ (depth 1)
+        # Domain index: CVPR2025/object_detection/ (depth 2)
+        if len(parts) <= 2:
+            filtered.append(url)
+            continue
+    return filtered
+
+
 def filter_paper_urls(urls: list[str]) -> list[str]:
-    """过滤出论文笔记页（排除 index/TODO 等）"""
+    """Filter for paper note pages (exclude index/TODO pages)."""
     filtered = []
     for url in urls:
         path = url.replace(SITE_URL, "")
-        # 排除首页、TODO 页、纯 index 页
+        # Exclude homepage, TODO, and pure index pages
         if not path or path == "/":
             continue
         parts = path.strip("/").split("/")
         if len(parts) < 3:
-            continue  # 至少需要 会议/领域/论文
+            continue  # Need at least conference/domain/paper
         if parts[-1] in ("TODO", "index"):
             continue
         filtered.append(url)
@@ -187,10 +213,7 @@ def filter_paper_urls(urls: list[str]) -> list[str]:
 
 def submit_urls(urls: list[str], credentials_path: str, action: str,
                 dry_run: bool = False) -> tuple[int, int]:
-    """
-    使用 Google Indexing API 提交 URL。
-    返回 (成功数, 失败数)。
-    """
+    """Submit URLs via Google Indexing API. Returns (success, fail) counts."""
     if dry_run:
         for url in urls:
             print(f"  [DRY-RUN] Google {action}: {url}")
@@ -200,7 +223,7 @@ def submit_urls(urls: list[str], credentials_path: str, action: str,
         from google.oauth2 import service_account
         from googleapiclient.discovery import build
     except ImportError:
-        print("❌ 缺少依赖，请运行:")
+        print("[ERROR] Missing dependencies, run:")
         print("   pip install google-auth google-auth-httplib2 google-api-python-client")
         sys.exit(1)
 
@@ -227,19 +250,19 @@ def submit_urls(urls: list[str], credentials_path: str, action: str,
             progress["total_submitted"] = len(progress["submitted"])
 
             if (i + 1) % 10 == 0:
-                print(f"  进度: {i+1}/{len(urls)} (成功: {success}, 失败: {fail})")
+                print(f"  Progress: {i+1}/{len(urls)} (ok: {success}, fail: {fail})")
                 save_progress(progress)
 
-            # 遵守速率限制
+            # Rate limiting
             time.sleep(0.5)
 
         except Exception as e:
             fail += 1
             error_msg = str(e)
             if "429" in error_msg or "quota" in error_msg.lower():
-                print(f"  ⚠️ 达到 API 配额限制，已提交 {success} 条")
+                print(f"  [WARN] API quota reached, submitted {success} URLs")
                 break
-            print(f"  ❌ 提交失败 [{url}]: {error_msg}")
+            print(f"  [ERROR] Submit failed [{url}]: {error_msg}")
 
     save_progress(progress)
     return success, fail
@@ -247,24 +270,21 @@ def submit_urls(urls: list[str], credentials_path: str, action: str,
 
 def submit_urls_indexnow(urls: list[str], key: str,
                          dry_run: bool = False) -> tuple[int, int]:
-    """
-    使用 Bing IndexNow API 批量提交 URL。
-    IndexNow 支持单次最多 10,000 条，无每日配额限制。
-    返回 (成功数, 失败数)。
-    """
+    """Submit URLs via Bing IndexNow API (batch, up to 10,000 per request).
+    Returns (success, fail) counts."""
     import urllib.request
 
     if dry_run:
         for url in urls[:5]:
             print(f"  [DRY-RUN] IndexNow: {url}")
         if len(urls) > 5:
-            print(f"  [DRY-RUN] ... 共 {len(urls)} 条")
+            print(f"  [DRY-RUN] ... {len(urls)} URLs total")
         return len(urls), 0
 
     success = 0
     fail = 0
 
-    # 分批提交（每批最多 10,000 条）
+    # Submit in batches (max 10,000 per batch)
     for batch_start in range(0, len(urls), INDEXNOW_BATCH_SIZE):
         batch = urls[batch_start:batch_start + INDEXNOW_BATCH_SIZE]
         payload = json.dumps({
@@ -286,13 +306,13 @@ def submit_urls_indexnow(urls: list[str], key: str,
                 status = resp.status
             if status in (200, 202):
                 success += len(batch)
-                print(f"  ✅ IndexNow 批次提交成功: {len(batch)} 条 (HTTP {status})")
+                print(f"  [OK] IndexNow batch submitted: {len(batch)} URLs (HTTP {status})")
             else:
                 fail += len(batch)
-                print(f"  ⚠️ IndexNow 返回 HTTP {status}")
+                print(f"  [WARN] IndexNow returned HTTP {status}")
         except Exception as e:
             fail += len(batch)
-            print(f"  ❌ IndexNow 提交失败: {e}")
+            print(f"  [ERROR] IndexNow submit failed: {e}")
 
     return success, fail
 
@@ -300,12 +320,12 @@ def submit_urls_indexnow(urls: list[str], key: str,
 def main():
     args = parse_args()
 
-    # 确定提交引擎
+    # Determine submission engines
     do_google = not args.bing_only and args.credentials
     do_bing = not args.google_only and args.bing_key
 
     if not do_google and not do_bing:
-        print("❌ 至少需要指定 --credentials (Google) 或 --bing-key (Bing)")
+        print("[ERROR] Must specify --credentials (Google) or --bing-key (Bing)")
         sys.exit(1)
 
     engines = []
@@ -313,67 +333,72 @@ def main():
         engines.append("Google")
     if do_bing:
         engines.append("Bing IndexNow")
-    print(f"🔧 提交引擎: {' + '.join(engines)}")
+    print(f"Engines: {' + '.join(engines)}")
 
-    # 1. 获取 URL 列表
+    # 1. Collect URLs
     if args.changed_only:
-        print("📋 获取 git 变更文件...")
+        print("Fetching changed files from git...")
         all_urls = get_changed_urls()
-        print(f"   变更页面: {len(all_urls)}")
+        print(f"  Changed pages: {len(all_urls)}")
     elif args.sitemap:
-        print(f"📋 解析本地 sitemap: {args.sitemap}")
+        print(f"Parsing local sitemap: {args.sitemap}")
         all_urls = get_urls_from_sitemap(args.sitemap)
-        print(f"   总 URL 数: {len(all_urls)}")
+        print(f"  Total URLs: {len(all_urls)}")
     else:
-        print(f"📋 获取远端 sitemap: {SITE_URL}sitemap.xml")
+        print(f"Fetching remote sitemap: {SITE_URL}sitemap.xml")
         all_urls = get_urls_from_remote_sitemap(f"{SITE_URL}sitemap.xml")
-        print(f"   总 URL 数: {len(all_urls)}")
+        print(f"  Total URLs: {len(all_urls)}")
 
-    # 2. 过滤论文页
-    paper_urls = filter_paper_urls(all_urls)
-    print(f"   论文页: {len(paper_urls)}")
+    # 2. Filter URLs
+    if args.index_pages:
+        target_urls = filter_index_urls(all_urls)
+        label = "index pages"
+    else:
+        target_urls = filter_paper_urls(all_urls)
+        label = "paper pages"
+    print(f"  {label.capitalize()}: {len(target_urls)}")
 
-    if not paper_urls:
-        print("⚠️ 没有找到需要提交的论文页")
+    if not target_urls:
+        print(f"[WARN] No {label} found to submit")
         return
 
     # === Bing IndexNow ===
     if do_bing:
         print(f"\n{'='*50}")
-        print(f"📤 Bing IndexNow: 提交 {len(paper_urls)} 条 (无配额限制)")
+        print(f"Bing IndexNow: submitting {len(target_urls)} {label} (no quota limit)")
         if args.dry_run:
-            print("⚠️ DRY-RUN 模式\n")
+            print("[DRY-RUN mode]\n")
         bing_ok, bing_fail = submit_urls_indexnow(
-            paper_urls, args.bing_key, args.dry_run
+            target_urls, args.bing_key, args.dry_run
         )
-        print(f"   Bing 结果: 成功 {bing_ok}, 失败 {bing_fail}")
+        print(f"  Bing result: ok={bing_ok}, fail={bing_fail}")
 
     # === Google Indexing API ===
     if do_google:
-        # Google 有配额，需要断点续传
+        # Google has quota, use checkpoint-based progress
         progress = load_progress()
         already_submitted = set(progress.get("submitted", {}).keys())
-        pending = [u for u in paper_urls if u not in already_submitted]
+        pending = [u for u in target_urls if u not in already_submitted]
         print(f"\n{'='*50}")
-        print(f"📤 Google Indexing API:")
-        print(f"   待提交: {len(pending)} (已提交: {len(already_submitted)})")
+        print(f"Google Indexing API:")
+        print(f"  Pending: {len(pending)} (already submitted: {len(already_submitted)})")
 
         if not pending:
-            print("   ✅ Google: 所有论文页已提交！")
+            print(f"  [OK] Google: all {label} submitted!")
         else:
             batch = pending[:args.limit]
-            print(f"   本次提交: {len(batch)} 条 (限额: {args.limit})")
+            print(f"  This batch: {len(batch)} (limit: {args.limit})")
             if args.dry_run:
-                print("   ⚠️ DRY-RUN 模式\n")
+                print("  [DRY-RUN mode]\n")
 
             google_ok, google_fail = submit_urls(
                 batch, args.credentials, args.action, args.dry_run
             )
-            print(f"   Google 结果: 成功 {google_ok}, 失败 {google_fail}")
+            print(f"  Google result: ok={google_ok}, fail={google_fail}")
             remaining = len(pending) - len(batch)
             if remaining > 0:
                 days = remaining // args.limit + 1
-                print(f"   剩余: {remaining} 条, 预计 {days} 天完成")
+                print(f"  Remaining: {remaining}, ~{days} day(s) to finish")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 title: >-
   [论文解读] LaMPE: Length-aware Multi-grained Positional Encoding for Adaptive Long-context Scaling Without Training
 description: >-
-  [ACL 2025][LLM效率][Positional Encoding] 提出 LaMPE，一种无需训练的长上下文扩展方法，通过参数化 scaled sigmoid 函数建模输入长度与最优映射长度的动态关系，并设计三区域多粒度注意力机制（head/middle/tail），在 LongBench、L-Eval、∞Bench、RULER、PG-19 五大基准上全面超越 SelfExtend、DCA、YaRN 等基线。
+  [ACL 2025][LLM效率][Positional Encoding] 提出 LaMPE（Length-aware Multi-grained Positional Encoding），通过 **参数化 scaled sigmoid 函数** 自适应确定最优映射长度，并设计 **三区域多粒度注意力机制**（head 精细局部 + middle 线性归一化压缩 + tail 恢复长程依赖），实现无训练即插即用的 LLM 上下文窗口外推，在五大长上下文基准上全面超越现有方法。
 tags:
   - ACL 2025
   - LLM效率
@@ -11,6 +11,7 @@ tags:
   - Context Window Extension
   - training-free
   - Length Extrapolation
+  - 注意力机制
 ---
 
 # LaMPE: Length-aware Multi-grained Positional Encoding for Adaptive Long-context Scaling Without Training

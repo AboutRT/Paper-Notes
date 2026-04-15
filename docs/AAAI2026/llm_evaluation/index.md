@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**🤖 AAAI2026** · 共 **28** 篇
+**🤖 AAAI2026** · **28** 篇论文解读
 
 **[Axis-Aligned Document Dewarping](axis-aligned_document_dewarping.md)**
 

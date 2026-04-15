@@ -58,8 +58,8 @@ tags:
     - **内循环（辅助适应）**：从训练集随机采样单个点云，用辅助损失更新共享编码器参数
     - **外循环（主任务对齐）**：评估更新后模型在主补全任务上的表现，反向传播更新所有参数
     - 核心公式：
-      - 内: $\phi' = \phi - \alpha \nabla_\phi (\mathcal{L}_{aux}^{smr} + \mathcal{L}_{aux}^{ad})$
-      - 外: $\phi \leftarrow \phi - \beta \nabla_\phi \mathcal{L}_{pri}(\phi')$
+        - 内: $\phi' = \phi - \alpha \nabla_\phi (\mathcal{L}_{aux}^{smr} + \mathcal{L}_{aux}^{ad})$
+        - 外: $\phi \leftarrow \phi - \beta \nabla_\phi \mathcal{L}_{pri}(\phi')$
     - 设计动机：传统 TTA 的辅助损失可能与主任务冲突（负转移），MAML 确保辅助适应方向有利于主任务
 
 3. **Adaptive λ-Calibration**：

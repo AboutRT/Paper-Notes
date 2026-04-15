@@ -55,12 +55,12 @@ tags:
 
     - 功能：将图像patch嵌入和文本属性嵌入通过交叉注意力融合，生成多模态视觉提示
     - 核心架构：
-      - 属性嵌入提取：$\mathbf{A}_i = \{\mathcal{E}_t(\text{LLM}(c_k))\}_{k=1}^K$
-      - 线性投影对齐维度：$\mathbf{A}' = T_{\text{proj}}(\mathbf{A})$（512→768）
-      - 交叉注意力融合：
+        - 属性嵌入提取：$\mathbf{A}_i = \{\mathcal{E}_t(\text{LLM}(c_k))\}_{k=1}^K$
+        - 线性投影对齐维度：$\mathbf{A}' = T_{\text{proj}}(\mathbf{A})$（512→768）
+        - 交叉注意力融合：
        $$\mathbf{P}(\mathbf{A}', \mathbf{E}) = \text{FFN}(\text{CrossAttention}(\mathbf{Q}_\mathbf{E}, \mathbf{K}_{\mathbf{A}'}, \mathbf{V}_{\mathbf{A}'}))$$
        其中 $\mathbf{Q}_\mathbf{E} = \mathbf{E}W_\mathbf{Q}$（图像patch为query），$\mathbf{K}_{\mathbf{A}'} = \mathbf{A}'W_\mathbf{K}$（属性为key/value）
-      - 4头交叉注意力 + LayerNorm + 两层FFN
+        - 4头交叉注意力 + LayerNorm + 两层FFN
     - 设计动机：通过交叉注意力，图像的patch特征学习attend到相关的属性特征。例如，描绘"腿"的patch会关注"四条腿"属性——当出现共享该属性的未见类时，提示自然包含相关信息
 
 3. **视觉提示注入**:

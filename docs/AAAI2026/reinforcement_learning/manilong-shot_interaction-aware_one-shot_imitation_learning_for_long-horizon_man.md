@@ -121,7 +121,7 @@ $$\mathbf{T}_j = \arg\min_{\mathbf{T} \in SE(3)} \|\mathbf{T} \mathbf{T}_i^{-1} 
 ### 实验设置
 
 - **仿真基准**：RLBench-Oneshot（30个任务：10个 SH + 20个 LH）
-  - LH 三个难度级别：Level 1（13任务，6交互），Level 2（4任务，9交互），Level 3（3任务，12交互）
+    - LH 三个难度级别：Level 1（13任务，6交互），Level 2（4任务，9交互），Level 3（3任务，12交互）
 - **真实机器人**：UFactory xArm7 + RealSense D435/D415，3个 LH 任务
 - **基线**：ARP, 3DDA, RVT2（SOTA IL模型）, IMOP（OSIL SOTA）
 - 每任务25次试验（5个随机种子），报告均值±标准差

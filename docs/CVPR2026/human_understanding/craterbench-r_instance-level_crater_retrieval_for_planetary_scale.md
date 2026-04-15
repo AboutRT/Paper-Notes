@@ -58,8 +58,8 @@ tags:
     - MAE (.022) 和 CLIP (.058) 在相同ViT-B/16架构下表现极差→预训练目标比架构更重要
     - 单向量池化(CLS/GeM): 构成不可逾越的精度上限
     - 有监督度量学习(Triplet/ArcFace/SupCon): 三种损失**一致退化**检索精度
-      - Triplet最好但仍使CLS mAP从.368降到.318，LI从.602降到.530
-      - 根因: 每ID仅2个视图→正样本多样性不足→full-backbone微调破坏了late interaction需要的token级结构
+        - Triplet最好但仍使CLS mAP从.368降到.318，LI从.602降到.530
+        - 根因: 每ID仅2个视图→正样本多样性不足→full-backbone微调破坏了late interaction需要的token级结构
 
 3. **实例token聚合(无训练，核心方法)**:
 

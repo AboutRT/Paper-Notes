@@ -2,7 +2,7 @@
 title: >-
   [论文解读] The Parameterized Complexity of Computing the VC-Dimension
 description: >-
-  [NeurIPS 2025][VC维] 系统研究计算VC维的参数化复杂性：证明朴素2^O(|V|)穷举在ETH下渐近最优，给出按最大度Δ的FPT 1-可加近似算法和按树宽tw的2^{O(tw·log tw)}·|V|精确算法，完整刻画结构参数可处理性景观。
+  [NeurIPS 2025][VC维] 本文系统研究了计算VC维的参数化复杂性，证明朴素穷举算法在ETH假设下是渐近最优的，提出按最大度参数化的FPT 1-可加近似算法和按树宽参数化的2^{O(tw·log tw)}·|V|时间精确算法。
 tags:
   - NeurIPS 2025
   - VC维
@@ -10,7 +10,6 @@ tags:
   - 树宽
   - 固定参数可处理
   - ETH下界
-  - 计算复杂性理论
 ---
 
 # The Parameterized Complexity of Computing the VC-Dimension

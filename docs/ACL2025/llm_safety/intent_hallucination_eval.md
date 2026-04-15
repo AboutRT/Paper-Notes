@@ -43,9 +43,9 @@ tags:
 
 **意图约束映射函数 C(q)**：
 - 将查询 q 映射为三层约束集：
-  - C_m(q)：强制约束（location、time、subject、action）
-  - C_i(q)：重要约束（qualifiers、quantity）
-  - C_o(q)：可选约束（排除条件、领域特定要求等）
+    - C_m(q)：强制约束（location、time、subject、action）
+    - C_i(q)：重要约束（qualifiers、quantity）
+    - C_o(q)：可选约束（排除条件、领域特定要求等）
 - 三步提取：初步评估 → 语义角色识别（SRL） → 约束集提取
 
 **Constraint Score 计算**：
@@ -55,13 +55,13 @@ tags:
 
 **FaithQA 基准（20,068 题）**：
 - **遗漏任务**（仅查询）：
-  - Fact QA（3,000 题）：列举满足所有约束的主题，涵盖科技/文化/历史
-  - Creative Writing（2,000 题）：按约束写故事/诗歌
-  - 难度分级：Easy（≤4 约束）vs Hard（>4 约束）
+    - Fact QA（3,000 题）：列举满足所有约束的主题，涵盖科技/文化/历史
+    - Creative Writing（2,000 题）：按约束写故事/诗歌
+    - 难度分级：Easy（≤4 约束）vs Hard（>4 约束）
 - **误解任务**（RAG 设置）：
-  - Response Evaluation（3,210 题）：评估回复对齐度，随机移除一项输入
-  - Content Analysis（11,858 题）：分析文章关系/摘要，随机移除一篇文章
-  - 理想行为：检测缺失内容并拒绝回答
+    - Response Evaluation（3,210 题）：评估回复对齐度，随机移除一项输入
+    - Content Analysis（11,858 题）：分析文章关系/摘要，随机移除一篇文章
+    - 理想行为：检测缺失内容并拒绝回答
 
 ## 实验关键数据
 

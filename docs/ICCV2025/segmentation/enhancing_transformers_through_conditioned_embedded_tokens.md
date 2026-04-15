@@ -53,8 +53,8 @@ Transformer 的核心是自注意力机制，它通过 $\mathbf{A}(X) = \text{so
 
 - **做什么**：建立自注意力矩阵条件数的理论上界
 - **核心结果**（Proposition 4.2）：
-  - 线性注意力：$\kappa(\mathbf{LA}(X)) \leq \kappa(W_Q) \cdot \kappa(W_K) \cdot \kappa(W_V) \cdot \kappa(X)^3$
-  - Softmax 注意力：$\kappa(\mathbf{A}(X)) \leq \kappa(\text{softmax}(XW_QW_K^TX^T)) \cdot \kappa(X) \cdot \kappa(W_V)$
+    - 线性注意力：$\kappa(\mathbf{LA}(X)) \leq \kappa(W_Q) \cdot \kappa(W_K) \cdot \kappa(W_V) \cdot \kappa(X)^3$
+    - Softmax 注意力：$\kappa(\mathbf{A}(X)) \leq \kappa(\text{softmax}(XW_QW_K^TX^T)) \cdot \kappa(X) \cdot \kappa(W_V)$
 - **设计动机**：$\kappa(X)$ 在实际训练中通常极大，是主要瓶颈；降低 $\kappa(X)$ 可同时降低整个自注意力的条件数
 
 #### 2. Conditioned Embedded Tokens

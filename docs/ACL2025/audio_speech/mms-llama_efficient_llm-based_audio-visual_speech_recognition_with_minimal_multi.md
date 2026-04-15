@@ -59,9 +59,9 @@ MMS-LLaMA 由以下组件构成：
 
 - **做什么**：在送入 LLM 之前融合音频和视觉特征，将序列长度减半
 - **核心思路**：先用长度适配器对齐两种模态的时间分辨率，然后比较三种融合策略：
-  - **拼接**（Concatenation）：$\mathbf{X}_{av} = [\mathbf{X}'_a; \mathbf{X}_v] \in \mathbb{R}^{T_v \times 2D}$
-  - **加法**（Addition）：$\mathbf{X}_{av} = \mathbf{X}'_a + \mathbf{X}_v \in \mathbb{R}^{T_v \times D}$
-  - **多模态注意力**：$\mathbf{X}_{av} = \text{MHCA}(\mathbf{X}_v W_Q, \mathbf{X}'_a W_K, \mathbf{X}'_a W_V)$
+    - **拼接**（Concatenation）：$\mathbf{X}_{av} = [\mathbf{X}'_a; \mathbf{X}_v] \in \mathbb{R}^{T_v \times 2D}$
+    - **加法**（Addition）：$\mathbf{X}_{av} = \mathbf{X}'_a + \mathbf{X}_v \in \mathbb{R}^{T_v \times D}$
+    - **多模态注意力**：$\mathbf{X}_{av} = \text{MHCA}(\mathbf{X}_v W_Q, \mathbf{X}'_a W_K, \mathbf{X}'_a W_V)$
 - **设计动机**：将融合前移到 LLM 之前，避免 LLM 同时处理两组高分辨率序列。实验表明拼接在噪声条件下最优（WER 2.4%），最终采用拼接
 
 #### 2. AV Q-Former（动态查询分配）

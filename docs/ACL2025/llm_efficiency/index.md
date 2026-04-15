@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM效率
 
-**💬 ACL2025** · 共 **28** 篇
+**💬 ACL2025** · **28** 篇论文解读
 
 **[Adaptive Grouped Pe Context Window](adaptive_grouped_pe_context_window.md)**
 

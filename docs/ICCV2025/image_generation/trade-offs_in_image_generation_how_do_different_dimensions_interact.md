@@ -52,10 +52,10 @@ TRIG 框架包含三个核心组件：
 
     - 功能：定义全面且正交的图像生成评估维度
     - 核心设计：4 大类 10 个维度
-      - 图像质量（IQ）：真实性（Realism）、原创性（Originality）、美感（Aesthetics）
-      - 任务对齐（TA）：内容对齐（Content）、关系对齐（Relation）、风格对齐（Style）
-      - 多样性（D）：知识（Knowledge）、歧义性（Ambiguity）
-      - 鲁棒性（R）：毒性（Toxicity）、偏见（Bias）
+        - 图像质量（IQ）：真实性（Realism）、原创性（Originality）、美感（Aesthetics）
+        - 任务对齐（TA）：内容对齐（Content）、关系对齐（Relation）、风格对齐（Style）
+        - 多样性（D）：知识（Knowledge）、歧义性（Ambiguity）
+        - 鲁棒性（R）：毒性（Toxicity）、偏见（Bias）
     - 设计动机：基于 HEIM 基准扩展，旨在覆盖图像生成的所有关键方面，且维度间有足够的独立性以揭示有意义的交互模式
 
 2. **成对维度子集构建**：

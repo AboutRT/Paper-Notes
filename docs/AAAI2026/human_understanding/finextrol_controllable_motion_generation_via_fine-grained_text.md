@@ -173,8 +173,8 @@ tags:
 ## 背景与动机
 - Text-to-motion 生成领域对精确可控性的需求日益增长
 - 已有方法两类缺陷：
-  - LLM 扩展描述（如 CoMo）：扩展文本与 ground-truth motion 不严格对齐，缺乏显式时间线索
-  - 空间坐标控制（如 OmniControl）：需要用户提供 3D 坐标序列，计算开销大且不直观
+    - LLM 扩展描述（如 CoMo）：扩展文本与 ground-truth motion 不严格对齐，缺乏显式时间线索
+    - 空间坐标控制（如 OmniControl）：需要用户提供 3D 坐标序列，计算开销大且不直观
 - 通用 text encoder（CLIP、T5）对细粒度动作描述的嵌入判别力不足
 
 ## 核心问题

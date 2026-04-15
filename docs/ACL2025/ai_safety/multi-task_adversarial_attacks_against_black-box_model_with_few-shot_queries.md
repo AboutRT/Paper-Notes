@@ -63,8 +63,8 @@ CEMA 分三步：
 - 对替代模型 $f_s$ 应用 $l$ 种文本分类攻击方法（Hotflip、FD、TextBugger），生成 $l$ 个对抗候选
 - 筛选条件：对抗样本与原始文本的余弦相似度 ≥ 阈值 $\epsilon = 0.8$
 - 多方法策略的数学保证（定理 3.2）：
-  - 候选越多，至少一个成功攻击的概率单调递增
-  - 候选越多，至少一个超过相似度阈值的概率单调递增
+    - 候选越多，至少一个成功攻击的概率单调递增
+    - 候选越多，至少一个超过相似度阈值的概率单调递增
 
 ### 第三步：基于迁移性的对抗样本选择
 
@@ -82,9 +82,9 @@ CEMA 分三步：
 **受害模型设置**：
 - LLM 攻击：ChatGPT-4o、Claude 3.5（prompt = 同时翻译为法语/中文 + 预测情绪类别）
 - M3TL（Multi-Model Multi-Task Learning）：
-  - Victim A：dis-sst5 + dis-emotion + opus-mt（En-Zh）
-  - Victim B：ro-sst5 + ro-emotion + T5-small（En-Fr）
-  - Victim C：百度翻译 + 阿里翻译（商用 API）
+    - Victim A：dis-sst5 + dis-emotion + opus-mt（En-Zh）
+    - Victim B：ro-sst5 + ro-emotion + T5-small（En-Fr）
+    - Victim C：百度翻译 + 阿里翻译（商用 API）
 - 图像生成：Stable Diffusion V2
 
 **对比方法**：BAE、FD、Hotflip、SememePSO、TextBugger（分类）；kNN、Morphin、Seq2Sick、TransFool（翻译）

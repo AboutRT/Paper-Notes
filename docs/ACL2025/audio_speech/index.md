@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**💬 ACL2025** · 共 **33** 篇
+**💬 ACL2025** · **33** 篇论文解读
 
 **[Aae Voice Chatbot](aae_voice_chatbot.md)**
 

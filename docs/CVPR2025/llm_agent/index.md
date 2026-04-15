@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**📷 CVPR2025** · 共 **10** 篇
+**📷 CVPR2025** · **10** 篇论文解读
 
 **[Ata Adaptive Transformation Agent For Text-Guided Subject-Position Variable Back](ata_adaptive_transformation_agent_for_text-guided_subject-position_variable_back.md)**
 

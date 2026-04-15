@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Neural Thermodynamics: Entropic Forces in Deep and Universal Representation Learning
 description: >-
-  [NeurIPS 2025][优化理论] 建立严格的熵力理论解释SGD训练动力学——证明随机性和离散时间更新产生的熵力系统性打破连续参数对称性、保留离散对称性，导致梯度平衡现象，从而首次理论证明Platonic表征假说并调和sharp/flat minimum的矛盾观察。
+  [NeurIPS 2025][优化][熵力] 建立一套"神经热力学"理论，证明 SGD 训练中由随机性和离散时间更新产生的涌现**熵力**会系统性地打破神经网络参数的连续对称性并保留离散对称性，导致类似热力学能量均分的**梯度平衡**现象，从而 (a) 首次理论证明 Platonic 表征假说（不同模型学到相似表征），(b) 调和深度学习优化中"趋向尖锐"与"趋向平坦"的矛盾观察。
 tags:
   - NeurIPS 2025
-  - 优化理论
-  - 表征学习
-  - 统计力学
-  - 对称性破缺
+  - 优化
+  - 熵力
+  - SGD动力学
+  - 参数对称性
   - Platonic表征假说
+  - 梯度平衡
 ---
 
 # Neural Thermodynamics: Entropic Forces in Deep and Universal Representation Learning

@@ -91,9 +91,9 @@ $$\nabla_\theta J_{\text{CLIP}} = \nabla_\theta r_{i,t} \cdot G(r_{i,t})$$
 
 - **RLVR算法**：GRPO（Group Relative Policy Optimization）
 - **虚假奖励类型**：
-  - Random：以概率 $\gamma=0.5$ 给予奖励1
-  - Inverted：翻转正确信号（$1 - \text{correct}$）
-  - Mv-incorrect：使用多数投票产生的错误标签
+    - Random：以概率 $\gamma=0.5$ 给予奖励1
+    - Inverted：翻转正确信号（$1 - \text{correct}$）
+    - Mv-incorrect：使用多数投票产生的错误标签
 - **训练配置**：学习率5e-7，温度1.0，每个prompt采样16个回复，batch size 128
 - **硬件**：8×NVIDIA A800 80G GPUs
 

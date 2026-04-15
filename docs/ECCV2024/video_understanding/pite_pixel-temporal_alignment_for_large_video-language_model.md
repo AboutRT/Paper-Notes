@@ -54,18 +54,18 @@ PiTe 由四个核心组件构成：(1) ViT 视觉编码器（CLIP ViT-L/14）提
 
     - 功能：逐步从图像定位 → 视频轨迹对齐 → 指令跟随
     - **Stage 1 — Referring Expression Localization**：
-      - 使用 Localized Narratives 数据集训练视觉适配器
-      - 在词汇映射层并行添加 MLP 定位投影器 $\varphi(\cdot)$，将语言特征映射为 2D 坐标：$p_i = \varphi(h_i)$
-      - 损失：交叉熵 + L1 回归：$\mathcal{L}_1 = \frac{1}{\ell}\sum_{i=1}^{\ell}(\text{CE}(\text{LLM}(\mathbf{z}, \mathbf{w}_{1:i-1}), w_i) + \lambda|\hat{p}_i - p_i|)$
-      - 使用 LoRA (r=64, α=128) 微调 LLM
+        - 使用 Localized Narratives 数据集训练视觉适配器
+        - 在词汇映射层并行添加 MLP 定位投影器 $\varphi(\cdot)$，将语言特征映射为 2D 坐标：$p_i = \varphi(h_i)$
+        - 损失：交叉熵 + L1 回归：$\mathcal{L}_1 = \frac{1}{\ell}\sum_{i=1}^{\ell}(\text{CE}(\text{LLM}(\mathbf{z}, \mathbf{w}_{1:i-1}), w_i) + \lambda|\hat{p}_i - p_i|)$
+        - 使用 LoRA (r=64, α=128) 微调 LLM
     - **Stage 2 — Pixel-Temporal Alignment**：
-      - 使用 PiTe-143k 数据集通过轨迹对齐视频和语言
-      - 轨迹投影器 $\rho(\cdot)$ 输出 $P \times N$ 个 2D 坐标（P 个追踪点 × N 帧）：$\mathbf{p}_i = \rho(h_i)$
-      - 损失：$\mathcal{L}_2 = \frac{1}{\ell}\sum_{i=1}^{\ell}(\text{CE} + \frac{\lambda}{P \cdot N}\sum_{j=1}^{P}\sum_{k=1}^{N}|\hat{p}_{ijk} - p_{ijk}|)$
-      - 关键：用 Stage 1 的定位投影器权重初始化轨迹投影器，公式为 $\mathbf{m}_\varphi = \overbrace{\mathbf{m}_\rho \oplus \cdots \oplus \mathbf{m}_\rho}^{P \cdot N}$
+        - 使用 PiTe-143k 数据集通过轨迹对齐视频和语言
+        - 轨迹投影器 $\rho(\cdot)$ 输出 $P \times N$ 个 2D 坐标（P 个追踪点 × N 帧）：$\mathbf{p}_i = \rho(h_i)$
+        - 损失：$\mathcal{L}_2 = \frac{1}{\ell}\sum_{i=1}^{\ell}(\text{CE} + \frac{\lambda}{P \cdot N}\sum_{j=1}^{P}\sum_{k=1}^{N}|\hat{p}_{ijk} - p_{ijk}|)$
+        - 关键：用 Stage 1 的定位投影器权重初始化轨迹投影器，公式为 $\mathbf{m}_\varphi = \overbrace{\mathbf{m}_\rho \oplus \cdots \oplus \mathbf{m}_\rho}^{P \cdot N}$
     - **Stage 3 — Video QA Instruction Tuning**：
-      - 使用 Valley + Video-ChatGPT 高质量对话数据微调
-      - 仅用标准交叉熵自回归生成损失
+        - 使用 Valley + Video-ChatGPT 高质量对话数据微调
+        - 仅用标准交叉熵自回归生成损失
 
 3. **时间边界学习**
 

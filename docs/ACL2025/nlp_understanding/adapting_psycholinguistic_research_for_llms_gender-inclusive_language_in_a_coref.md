@@ -51,8 +51,8 @@ tags:
 
     - 功能：基于 Tibblin et al. (2023) 构建句对模板，句1含先行词（性别化/中性），句2含共指词（men/women/people 或 he/she/they）
     - 核心思路——英语：
-      - 复数条件(PL)：34 个先行词三元组（如 swordsman/swordswoman/fencer）× 3 个共指词(men/women/people) × 44 模板 = 13,464 实例
-      - 单数条件(SG)：37 三元组 × 3 代词(he/she/they) × 44 模板 = 14,652 实例
+        - 复数条件(PL)：34 个先行词三元组（如 swordsman/swordswoman/fencer）× 3 个共指词(men/women/people) × 44 模板 = 13,464 实例
+        - 单数条件(SG)：37 三元组 × 3 代词(he/she/they) × 44 模板 = 14,652 实例
     - 核心思路——德语：10 个先行词 × 8 种性别策略（阳性/阴性/并列阳先/并列阴先/大写I/星号/冒号/下划线） × 3 共指词(Männer/Frauen/Personen) × 44 模板 = 10,560 实例
     - 设计动机：保持与心理语言学原始设计的可比性，同时利用 LLM 特点（可精确测量概率）扩展分析维度
 

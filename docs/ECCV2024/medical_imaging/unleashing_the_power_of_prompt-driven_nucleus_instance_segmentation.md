@@ -59,8 +59,8 @@ PromptNucSeg 由两个独立训练的模型组成：
     - 核心思路：受 P2PNet 启发，在输入图像上放置均匀 anchor points（间距 $\lambda$ 像素），通过特征金字塔提取多尺度特征，用 MLP 预测每个 anchor 的偏移量 $\delta_i$ 和分类 logit $q_i \in \mathbb{R}^{C+1}$
     - 匹配策略：通过二部图最大权匹配（Hungarian 算法）建立 anchor 到 ground-truth 核中心的一一映射，权重定义为 $w_{i,j} = q_i(c_j) - \alpha \|\hat{a}_i - b_j\|_2$，综合考虑分类置信度和位置距离
     - 训练损失：$\mathcal{L}_{prompter} = \mathcal{L}_{reg} + \mathcal{L}_{cls} + \mathcal{L}_{aux}$
-      - 分类损失：$\mathcal{L}_{cls} = -\frac{1}{M}(\sum_{i=1}^N \log q_{\sigma(i)}(c_i) + \beta \sum_{a_i \in \mathcal{A}'} \log q_i(\varnothing))$
-      - 回归损失：$\mathcal{L}_{reg} = \frac{\gamma}{N} \sum_{i=1}^N \|\hat{a}_{\sigma(i)} - b_i\|_2$
+        - 分类损失：$\mathcal{L}_{cls} = -\frac{1}{M}(\sum_{i=1}^N \log q_{\sigma(i)}(c_i) + \beta \sum_{a_i \in \mathcal{A}'} \log q_i(\varnothing))$
+        - 回归损失：$\mathcal{L}_{reg} = \frac{\gamma}{N} \sum_{i=1}^N \|\hat{a}_{\sigma(i)} - b_i\|_2$
     - 设计动机：点 prompt 比 bounding box 更容易定位，且能更精确地分离接触的目标
 
 3. **辅助任务与 Mask-aided Prompt Filtering**:

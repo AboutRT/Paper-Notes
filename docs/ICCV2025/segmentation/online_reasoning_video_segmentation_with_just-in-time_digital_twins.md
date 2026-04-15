@@ -68,8 +68,8 @@ tags:
     - 将推理建模为 DAG：$G = (V, E)$，其中 $V = V_p \cup V_s \cup V_r$
     - $V_p$: 感知节点（专家视觉模型），$V_s$: 状态节点（维护数字孪生），$V_r$: 推理节点
     - 推理节点分两类：
-      - **语义推理**：由 base LLM (gpt-4o-mini) 处理，将数字孪生状态格式化为自然语言上下文
-      - **空间/时间推理**：由 LLM-coder (gpt-4o) 生成可执行代码操作场景图
+        - **语义推理**：由 base LLM (gpt-4o-mini) 处理，将数字孪生状态格式化为自然语言上下文
+        - **空间/时间推理**：由 LLM-coder (gpt-4o) 生成可执行代码操作场景图
     - 例如评估"behind"关系：$\text{Behind}(v_i, v_j) = (h_{\text{spa}}^i[z] > h_{\text{spa}}^j[z]) \wedge \text{Overlap}(v_i, v_j)$
 
 ### 损失函数 / 训练策略

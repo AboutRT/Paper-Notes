@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Data Quality Issues in Multilingual Speech Datasets: The Need for Sociolinguistic Awareness and Proactive Language Planning
 description: >-
-  [ACL 2025][多语言语音数据集] 对三大公开多语言语音数据集（Common Voice、FLEURS、VoxPopuli）进行系统质量审计，发现低资源语言存在严重的微观和宏观质量问题，并提出基于社会语言学意识的数据集创建指南。
+  [ACL 2025][多语言语音数据集] 对三大公开多语言语音数据集（Common Voice 17.0、FLEURS、VoxPopuli）进行覆盖 40+ 种语言的系统质量审计，将问题分为可程序化修复的"微观问题"和需语言学介入的"宏观问题"，发现低制度化语言面临的宏观问题尤为严重，并提出融入社会语言学意识的 5 步数据集创建指南。
 tags:
   - ACL 2025
   - 多语言语音数据集
   - 数据质量审计
   - 社会语言学
   - 语言规划
-  - Common Voice
+  - 低资源语言
 ---
 
 # Data Quality Issues in Multilingual Speech Datasets: The Need for Sociolinguistic Awareness and Proactive Language Planning

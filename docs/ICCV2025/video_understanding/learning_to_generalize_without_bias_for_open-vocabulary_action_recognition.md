@@ -45,9 +45,9 @@ Open-MeDe 由两个核心组件构成：（1）跨批次元优化方案，通过
 
     - 功能：将每个训练步扩展为双批次操作——当前批次作为 support set（元训练），后续批次作为 query set（元测试）
     - 核心思路：
-      - **内循环（元训练）**：在 support batch $\mathcal{S}$ 上用标准交叉熵损失更新得到 fast weights：$\theta_i' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}_i}^{\mathcal{S}}(\theta)$
-      - **外循环（元测试+元优化）**：用 fast weights 在 query batch $\mathcal{Q}$ 上评估泛化性能，然后联合 support 和 query 的损失进行全局优化：$\min_\theta (\mathcal{L}_{\mathcal{T}_i}^{\mathcal{S}}(\theta) + \mathcal{L}_{\mathcal{T}_i}^{\mathcal{Q}}(\theta_i'))$
-      - 采用一阶近似（FOMAML）避免二阶梯度计算
+        - **内循环（元训练）**：在 support batch $\mathcal{S}$ 上用标准交叉熵损失更新得到 fast weights：$\theta_i' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}_i}^{\mathcal{S}}(\theta)$
+        - **外循环（元测试+元优化）**：用 fast weights 在 query batch $\mathcal{Q}$ 上评估泛化性能，然后联合 support 和 query 的损失进行全局优化：$\min_\theta (\mathcal{L}_{\mathcal{T}_i}^{\mathcal{S}}(\theta) + \mathcal{L}_{\mathcal{T}_i}^{\mathcal{Q}}(\theta_i'))$
+        - 采用一阶近似（FOMAML）避免二阶梯度计算
     - 设计动机：不同批次的类别分布天然不同，因此跨批次评估自然模拟了"已知到开放"的泛化场景。相比传统 MAML 需要构造 N-way K-shot 任务，本方法无需额外开销——直接利用训练数据采样器的随机性
 
 2. **高斯自集成稳定化（Gaussian Weight Average, GWA）**:

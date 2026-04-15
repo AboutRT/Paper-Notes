@@ -55,9 +55,9 @@ tags:
 
     - 功能：证明最小二乘二分类器的 expected OOD risk 在 $p \approx n$ 处发散
     - 核心结果：存在常数 $c, C > 0$ 使得 $c \cdot c(n,p) \leq \mathbb{E}[R_{\text{OOD}}(\hat{f})] \leq C \cdot c(n,p)$
-      - 欠参数化 ($p \leq n-2$)：$c(n,p) = \frac{p}{n-p-1}(\|w^{\text{OOD}}_{\mathcal{T}^c}\|^2 + \sigma^2) + \|w^{\text{OOD}}_{\mathcal{T}^c}\|^2$
-      - 插值阈值 ($n-1 \leq p \leq n+1$)：$c(n,p) = +\infty$，风险发散
-      - 过参数化 ($p \geq n+2$)：包含 $(1-n/p)\|w^{\text{OOD}}_\mathcal{T}\|^2 + \frac{n}{p-n-1}(\cdot)$ 项，渐降
+        - 欠参数化 ($p \leq n-2$)：$c(n,p) = \frac{p}{n-p-1}(\|w^{\text{OOD}}_{\mathcal{T}^c}\|^2 + \sigma^2) + \|w^{\text{OOD}}_{\mathcal{T}^c}\|^2$
+        - 插值阈值 ($n-1 \leq p \leq n+1$)：$c(n,p) = +\infty$，风险发散
+        - 过参数化 ($p \geq n+2$)：包含 $(1-n/p)\|w^{\text{OOD}}_\mathcal{T}\|^2 + \frac{n}{p-n-1}(\cdot)$ 项，渐降
     - 设计动机：将 Belkin et al. (2020) 的回归理论扩展到分类 + OOD 设置，需处理非线性激活函数
 
 3. **Neural Collapse 判据（NC1 指标）**:

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🧪 ICML2025** · 共 **17** 篇
+**🧪 ICML2025** · **17** 篇论文解读
 
 **[Adaptive Elicitation Of Latent Information Using Natural Language](adaptive_elicitation_of_latent_information_using_natural_language.md)**
 

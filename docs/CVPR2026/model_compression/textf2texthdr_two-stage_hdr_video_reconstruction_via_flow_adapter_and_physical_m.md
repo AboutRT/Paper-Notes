@@ -59,10 +59,10 @@ tags:
     - 功能：在预训练光流基础上预测残差光流，适配交替曝光场景
     - 为什么：预训练光流有清晰边缘但处理不好过曝/欠曝区域，重训光流处理曝光变化好但边缘模糊
     - 怎么做：
-      - 首先对参考帧进行曝光归一化，使相邻帧曝光一致：$g_{t\to t-1}(L_t) = \text{clip}(((L_t^\gamma / e_t) e_{t-1})^{1/\gamma})$
-      - 将归一化后的帧对输入预训练光流网络 SEA-RAFT 获得初始光流 $f_{t\to t\pm1}$
-      - **Flow Adapter**（浅层残差 CNN，不同膨胀率）接收拼接输入 $\mathbf{x}_t = [L_{t-1}, L_t, L_{t+1}, f/\lambda, f/\lambda]$，预测残差 $[\Delta f_{t\to t-1}, \Delta f_{t\to t+1}] = \mathcal{A}(\mathbf{x}_t)$
-      - 精炼光流 $\tilde{f} = f + \lambda \Delta f$，其中 $\lambda=20$ 为固定归一化因子
+        - 首先对参考帧进行曝光归一化，使相邻帧曝光一致：$g_{t\to t-1}(L_t) = \text{clip}(((L_t^\gamma / e_t) e_{t-1})^{1/\gamma})$
+        - 将归一化后的帧对输入预训练光流网络 SEA-RAFT 获得初始光流 $f_{t\to t\pm1}$
+        - **Flow Adapter**（浅层残差 CNN，不同膨胀率）接收拼接输入 $\mathbf{x}_t = [L_{t-1}, L_t, L_{t+1}, f/\lambda, f/\lambda]$，预测残差 $[\Delta f_{t\to t-1}, \Delta f_{t\to t+1}] = \mathcal{A}(\mathbf{x}_t)$
+        - 精炼光流 $\tilde{f} = f + \lambda \Delta f$，其中 $\lambda=20$ 为固定归一化因子
     - 关键优势：adapter 与 HDR 重建网络联合训练，使预训练光流适配 HDR 场景，同时保持清晰的运动边界
 
 2. **物理运动建模（Physical Motion Modeling）**:
@@ -70,10 +70,10 @@ tags:
     - 功能：从光流场中提取连续的物理运动掩码，标识伪影高发区域
     - 为什么：现有二值掩码（遮挡掩码、SAM 掩码）无法捕捉运动的连续物理特征
     - 怎么做：从光流 $f=[u,v]$ 计算一阶空间导数，分解为四个物理运动分量：
-      - **平移**：$\|f\|_2 = \sqrt{u^2 + v^2}$（全局位移幅度）
-      - **散度**：$\nabla \cdot f = u_x + v_y$（缩放运动，如跑近/远离）
-      - **旋度**：$\nabla \times f = v_x - u_y$（旋转运动）
-      - **剪切**：$S = \frac{1}{2}(u_y + v_x)$（局部非刚性形变）
+        - **平移**：$\|f\|_2 = \sqrt{u^2 + v^2}$（全局位移幅度）
+        - **散度**：$\nabla \cdot f = u_x + v_y$（缩放运动，如跑近/远离）
+        - **旋度**：$\nabla \times f = v_x - u_y$（旋转运动）
+        - **剪切**：$S = \frac{1}{2}(u_y + v_x)$（局部非刚性形变）
     - 统一运动能量：$E_m = \frac{w_t \odot \|f\|_2 + w_d \odot |\nabla \cdot f| + w_c \odot |\nabla \times f| + w_s \odot |S|}{w_t + w_d + w_c + w_s + \epsilon}$，权重由卷积块从光流自适应学习
     - 多尺度对比增强：$E_s = E_m \odot (1 + 2 S_{multi})$，在尺度 $\{1,2,4\}$ 上计算中心-周围运动对比，增强边缘区域
     - 自适应 Otsu 阈值 + sigmoid 软化：$M = \frac{1}{2}[1 + \tanh(8(E_s - \tau))]$
@@ -83,10 +83,10 @@ tags:
 
     - 功能：用运动掩码调制对齐后的 LDR 特征，使网络聚焦伪影区域
     - 怎么做：
-      - 对每帧 $L_t$ 和 HDR 域 $I_t$ 分别提取特征，1×1 卷积融合：$F_{LI_t} = \text{Conv}([F_{L_t}, F_{I_t}])$
-      - 用光流对齐邻帧特征 $\tilde{F}_{LI_{t\pm1}}$
-      - 编码运动信息：$G_{t\pm1} = \sigma(\text{Conv}([\|\tilde{f}\|_2/\tilde{f}_{max}, M_{t\pm1}, \mathbf{1}]))$
-      - 门控调制：$\bar{F}_{LI_{t\pm1}} = G_{t\pm1} \odot \tilde{F}_{LI_{t\pm1}}$
+        - 对每帧 $L_t$ 和 HDR 域 $I_t$ 分别提取特征，1×1 卷积融合：$F_{LI_t} = \text{Conv}([F_{L_t}, F_{I_t}])$
+        - 用光流对齐邻帧特征 $\tilde{F}_{LI_{t\pm1}}$
+        - 编码运动信息：$G_{t\pm1} = \sigma(\text{Conv}([\|\tilde{f}\|_2/\tilde{f}_{max}, M_{t\pm1}, \mathbf{1}]))$
+        - 门控调制：$\bar{F}_{LI_{t\pm1}} = G_{t\pm1} \odot \tilde{F}_{LI_{t\pm1}}$
     - 效果：运动明显的区域被强调（门控值高），静态区域被抑制
     - 之后经三分支膨胀卷积增强，与粗 HDR 特征融合，解码输出
 

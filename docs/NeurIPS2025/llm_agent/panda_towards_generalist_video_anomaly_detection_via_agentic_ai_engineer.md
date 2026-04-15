@@ -66,9 +66,9 @@ PANDA 基于 LangGraph 构建，以 VLM（Qwen2.5VL-7B）做感知和推理、ML
 - **输入**：增强后的视频片段 + 视觉记忆 + 推理提示（含潜在异常、规则、启发式提示、反思信息）
 - **短期记忆**：维护最近 l=5 步的文本推理记录和对应视觉帧
 - **输出**：三元组 {Status, Score, Reason}
-  - Status: Normal（正常）/ Abnormal（异常）/ Insufficient（信息不足）
-  - Score: [0,1] 异常概率
-  - Reason: VLM 给出的判断理由
+    - Status: Normal（正常）/ Abnormal（异常）/ Insufficient（信息不足）
+    - Score: [0,1] 异常概率
+    - Reason: VLM 给出的判断理由
 - **关键机制**：当 Status 为 Insufficient 时，触发反思模块获取更多信息后重新推理
 
 ### 关键设计 3: 工具增强自反思

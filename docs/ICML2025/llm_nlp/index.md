@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM/NLP
 
-**🧪 ICML2025** · 共 **18** 篇
+**🧪 ICML2025** · **18** 篇论文解读
 
 **[Adaptive Multi-Prompt Contrastive Network For Few-Shot Out-Of-Distribution Detec](adaptive_multi-prompt_contrastive_network_for_few-shot_out-of-distribution_detec.md)**
 

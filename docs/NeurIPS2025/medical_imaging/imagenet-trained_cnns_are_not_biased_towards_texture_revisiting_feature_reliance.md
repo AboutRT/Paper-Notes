@@ -52,9 +52,9 @@ tags:
     - **做什么**：为三种特征各设计两种互补的抑制方法
     - **为什么**：使用两种不同机制的变换可避免单一变换引入的 artifact 影响结论
     - **怎么做**：
-      - 形状抑制：Patch Shuffle（打乱 patch 位置）+ Patch Rotation（旋转 patch 但保持局部性）
-      - 纹理抑制：Bilateral Filter（保边平滑）+ Gaussian Blur（高斯模糊）
-      - 颜色抑制：Grayscale（灰度化）+ Channel Shuffle（通道打乱）
+        - 形状抑制：Patch Shuffle（打乱 patch 位置）+ Patch Rotation（旋转 patch 但保持局部性）
+        - 纹理抑制：Bilateral Filter（保边平滑）+ Gaussian Blur（高斯模糊）
+        - 颜色抑制：Grayscale（灰度化）+ Channel Shuffle（通道打乱）
     - **区别**：与 cue-conflict 不同，不生成对抗性刺激，而是直接对原始图像操作
 
 2. **定量验证指标**：
@@ -62,8 +62,8 @@ tags:
     - **做什么**：用四个量化指标验证每种变换确实抑制了目标特征
     - **为什么**：需要实证证据表明抑制变换有效且不影响其他特征
     - **怎么做**：
-      - 纹理指标：Local Variance (LV) 和 High-Frequency Energy (HFE)，期望降低
-      - 形状指标：Edge-SSIM (ESSIM) 和 Gradient Correlation (GC)，期望保持
+        - 纹理指标：Local Variance (LV) 和 High-Frequency Energy (HFE)，期望降低
+        - 形状指标：Edge-SSIM (ESSIM) 和 Gradient Correlation (GC)，期望保持
     - **关键结果**：Bilateral Filter 在抑制纹理 (LV:0.54, HFE:0.49) 同时最好地保持形状 (ESSIM:0.74, GC:0.85)
 
 3. **人机对比实验设计**：

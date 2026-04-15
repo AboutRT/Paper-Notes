@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🎞️ ECCV2024** · 共 **3** 篇
+**🎞️ ECCV2024** · **3** 篇论文解读
 
 **[Agent3D-Zero An Agent For Zero-Shot 3D Understanding](agent3d-zero_an_agent_for_zero-shot_3d_understanding.md)**
 

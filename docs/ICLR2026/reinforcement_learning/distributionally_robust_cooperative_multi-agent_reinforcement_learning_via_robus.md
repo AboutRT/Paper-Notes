@@ -58,8 +58,8 @@ tags:
 ### 损失函数 / 训练策略
 
 - **TD 损失**: 
-  - ρ-contamination: $L_{\text{TD}} = (Q_{\text{tot}}^{\mathcal{P}} - r - \gamma(1-\rho)\mathbb{E}[Q_{\text{tot}}^{\mathcal{P}}])^2$
-  - TV: 涉及对偶变量 $\eta$ 的最小化
+    - ρ-contamination: $L_{\text{TD}} = (Q_{\text{tot}}^{\mathcal{P}} - r - \gamma(1-\rho)\mathbb{E}[Q_{\text{tot}}^{\mathcal{P}}])^2$
+    - TV: 涉及对偶变量 $\eta$ 的最小化
 - **QTRAN 额外损失**: $L_{\text{opt}}$（鲁棒贪心动作处的等式约束）和 $L_{\text{nopt}}$（非贪心动作处的不等式约束）
 - 采用 DRQN 架构（MLP → LSTM → MLP），使用 ε-greedy 探索，经验回放，目标网络定期更新
 - 超参数 $\rho$ 通过在训练环境上训练、在验证集环境上选择的标准流程确定

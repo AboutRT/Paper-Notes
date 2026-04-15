@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Optimizing Decomposition for Optimal Claim Verification
 description: >-
-   提出动态分解（Dynamic Decomposition）框架，通过强化学习从验证器反馈中学习分解策略，将声明（claim）分解为验证器偏好的原子性粒度，弥合分解器与验证器之间的性能差距。
+  [ACL 2025][Decompose-Then-Verify] 提出动态分解（Dynamic Decomposition）框架，通过强化学习从验证器反馈中学习分解策略，将声明（claim）分解为验证器偏好的原子性粒度，弥合分解器与验证器之间的性能差距。
 tags:
-
+  - ACL 2025
+  - Decompose-Then-Verify
+  - atomicity
+  - 强化学习
+  - PPO
+  - fact-checking
 ---
 
 # Optimizing Decomposition for Optimal Claim Verification
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2503.15354](https://arxiv.org/abs/2503.15354) |
-| 代码 | [github.com/yining610/dynamic-decomposition](https://github.com/yining610/dynamic-decomposition) |
-| 领域 | 事实核查 / 文本分解 / 强化学习 |
-| 关键词 | Decompose-Then-Verify, atomicity, reinforcement learning, PPO, fact-checking |
+**会议**: ACL 2025  
+**arXiv**: [2503.15354](https://arxiv.org/abs/2503.15354)  
+**代码**: [github.com/yining610/dynamic-decomposition](https://github.com/yining610/dynamic-decomposition)  
+**领域**: 事实核查 / 文本分解 / 强化学习  
+**关键词**: Decompose-Then-Verify, atomicity, reinforcement learning, PPO, fact-checking  
 
 ## 一句话总结
 

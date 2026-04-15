@@ -2,14 +2,15 @@
 title: >-
   [论文解读] V-CECE: Visual Counterfactual Explanations via Conceptual Edits
 description: >-
-  [NeurIPS 2025][可解释AI] V-CECE提出首个系统性揭示人类与分类器语义理解差异的反事实解释框架，通过知识图谱保证编辑最优性，利用扩散模型执行概念级编辑，发现CNN的语义推理与人类存在显著差距而LVLM与人类高度一致。
+  [NeurIPS 2025][图像生成][反事实解释] V-CECE提出首个系统性揭示人类与神经网络分类器语义理解差异（explanatory gap）的黑盒视觉反事实解释框架，通过WordNet知识图谱+匈牙利算法保证编辑集最优性，用Stable Diffusion执行概念级编辑，核心发现是CNN分类器的语义推理与人类严重不对齐（需5+步编辑），而LVLM（Claude 3.5 Sonnet）与人类高度一致（仅需2-3步）。
 tags:
   - NeurIPS 2025
+  - 图像生成
   - 反事实解释
   - 概念编辑
+  - 黑盒
   - 知识图谱
   - 扩散模型
-  - 黑盒可解释性
 ---
 
 # V-CECE: Visual Counterfactual Explanations via Conceptual Edits

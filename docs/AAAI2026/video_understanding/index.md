@@ -6,9 +6,9 @@ description: >-
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**🤖 AAAI2026** · 共 **37** 篇
+**🤖 AAAI2026** · **37** 篇论文解读
 
 **[3D4D An Interactive Editable 4D World Model Via 3D Video Generation](3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md)**
 

@@ -65,9 +65,9 @@ QLIP 可无缝集成到已有量化方法（Q-Diffusion、PTQD）之上。
     - **质量驱动概率** $\mathbf{p}_q = \sigma((q-0.5)\mathbf{s} + \mathbf{o})$，其中 $\mathbf{s}, \mathbf{o} \in \mathbb{R}^K$ 为可学习参数。
     - **时间步驱动概率** $\mathbf{p}_m^t, \mathbf{p}_h^t$：每隔 $M$ 个时间步学习一组参数，相邻时间步共享。
     - 三种比特的选择概率通过组合计算：
-      - $\mathbf{p}_{b_{low}}^t = (1-\mathbf{p}_q) \odot (1-\mathbf{p}_m^t)$
-      - $\mathbf{p}_{b_{med}}^t = (1-\mathbf{p}_q) \odot \mathbf{p}_m^t + \mathbf{p}_q \odot (1-\mathbf{p}_h^t)$
-      - $\mathbf{p}_{b_{high}}^t = \mathbf{p}_q \odot \mathbf{p}_h^t$
+        - $\mathbf{p}_{b_{low}}^t = (1-\mathbf{p}_q) \odot (1-\mathbf{p}_m^t)$
+        - $\mathbf{p}_{b_{med}}^t = (1-\mathbf{p}_q) \odot \mathbf{p}_m^t + \mathbf{p}_q \odot (1-\mathbf{p}_h^t)$
+        - $\mathbf{p}_{b_{high}}^t = \mathbf{p}_q \odot \mathbf{p}_h^t$
     - 用 argmax 选择最终比特，训练时用直通估计器（STE）实现可微。
 
 3. **初始时间步高比特策略**：前 $m$ 个时间步强制使用高精度（$\mathbf{p}_q$ 设为 1），因为初始阶段决定了生成图像与文本的语义对齐。

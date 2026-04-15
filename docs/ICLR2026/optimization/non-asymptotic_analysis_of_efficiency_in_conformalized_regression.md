@@ -53,10 +53,10 @@ tags:
 
     - 核心结果: $\mathbb{E}[||{\mathcal{C}(X)}| - |{\mathcal{C}^*(X)}||] \leq \mathcal{O}(n^{-1/2} + (\alpha^2 n)^{-1} + m^{-1/2} + \exp(-\alpha^2 m))$
     - 四项的含义：
-      - $n^{-1/2}$: 分位数回归的标准训练误差
-      - $(\alpha^2 n)^{-1}$: $\alpha$ 变小时训练误差的放大效应
-      - $m^{-1/2}$: 校准集有限样本效应
-      - $\exp(-\alpha^2 m)$: $\alpha$ 变小时校准的指数衰减项
+        - $n^{-1/2}$: 分位数回归的标准训练误差
+        - $(\alpha^2 n)^{-1}$: $\alpha$ 变小时训练误差的放大效应
+        - $m^{-1/2}$: 校准集有限样本效应
+        - $\exp(-\alpha^2 m)$: $\alpha$ 变小时校准的指数衰减项
     - 假设条件：线性模型良定义（Assumption 3.1）、有界协方差（Assumption 3.2）、条件密度正则性（Assumption 3.3）
 
 2. **CMR-SGD 的效率界 (Theorem 4.1)**:
@@ -68,9 +68,9 @@ tags:
 
     - 当 $n = \Theta(m)$ 时，界简化为 $\mathcal{O}(n^{-1/2} + (\alpha^2 n)^{-1})$
     - 三个 $\alpha$ 区间：
-      - $\alpha = \Omega(n^{-1/4})$: 界为 $\mathcal{O}(n^{-1/2})$，与 $\alpha$ 无关
-      - $n^{-1/2} \ll \alpha \ll n^{-1/4}$: 界过渡为 $\mathcal{O}((\alpha^2 n)^{-1})$
-      - $\alpha = \Theta(n^{-1/2})$: 极端情况，$\alpha$ 主导界的行为
+        - $\alpha = \Omega(n^{-1/4})$: 界为 $\mathcal{O}(n^{-1/2})$，与 $\alpha$ 无关
+        - $n^{-1/2} \ll \alpha \ll n^{-1/4}$: 界过渡为 $\mathcal{O}((\alpha^2 n)^{-1})$
+        - $\alpha = \Theta(n^{-1/2})$: 极端情况，$\alpha$ 主导界的行为
     - 提供了数据分配指导：在 $\alpha$ 足够大时，训练集和校准集取同阶；$\alpha$ 较小时需要更多训练数据
 
 ### 证明策略

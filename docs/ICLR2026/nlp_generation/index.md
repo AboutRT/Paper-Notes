@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✍️ 文本生成
 
-**🔬 ICLR2026** · 共 **2** 篇
+**🔬 ICLR2026** · **2** 篇论文解读
 
 **[Ap-Ood Attention Pooling For Out-Of-Distribution Detection](ap-ood_attention_pooling_for_out-of-distribution_detection.md)**
 

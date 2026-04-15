@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Mixtures of In-Context Learners
 description: >-
-  [LLM/NLP] 提出 MoICL 方法，将 ICL 的 demonstration 集合划分为多个子集（专家），通过可学习的权重函数融合各专家的 next-token 分布，在不修改 LLM 参数的前提下显著提升 ICL 的准确率、鲁棒性和效率。
+  [ACL2025][LLM/NLP][in-context learning] 提出 MoICL 方法，将 ICL 的 demonstration 集合划分为多个子集（专家），通过可学习的权重函数融合各专家的 next-token 分布，在不修改 LLM 参数的前提下显著提升 ICL 的准确率、鲁棒性和效率。
 tags:
+  - ACL2025
   - LLM/NLP
+  - in-context learning
+  - mixture of experts
+  - demonstration selection
+  - product of experts
+  - robustness
 ---
 
 # Mixtures of In-Context Learners
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2411.02830](https://arxiv.org/abs/2411.02830) |
-| 代码 | - |
-| 领域 | LLM/NLP |
-| 关键词 | in-context learning, mixture of experts, demonstration selection, product of experts, robustness |
+**会议**: ACL2025  
+**arXiv**: [2411.02830](https://arxiv.org/abs/2411.02830)  
+**代码**: -  
+**领域**: LLM/NLP  
+**关键词**: in-context learning, mixture of experts, demonstration selection, product of experts, robustness  
 
 ## 一句话总结
 

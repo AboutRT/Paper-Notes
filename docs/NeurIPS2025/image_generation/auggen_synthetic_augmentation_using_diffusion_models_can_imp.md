@@ -2,13 +2,15 @@
 title: >-
   [论文解读] AugGen: Synthetic Augmentation using Diffusion Models Can Improve Recognition
 description: >-
-  [NeurIPS 2025][图像生成] 提出AugGen自包含合成增强方法，通过在同一数据集上训练类条件扩散模型并混合类条件向量生成新类别样本，仅用原始数据集即可提升人脸识别1-12%，无需外部数据或预训练模型。
+  [NeurIPS 2025][图像生成][合成数据增强] 提出 AugGen，一种自包含的合成数据增强方法：在目标数据集上训练类条件扩散模型，通过混合不同类别的条件向量生成新的"混合类"样本，增强判别模型训练，在人脸识别基准上实现 1-12% 的性能提升，无需任何外部数据或辅助模型。
 tags:
   - NeurIPS 2025
   - 图像生成
   - 合成数据增强
+  - 类条件扩散模型
   - 人脸识别
-  - 扩散模型
+  - 类别混合
+  - 自包含框架
 ---
 
 # AugGen: Synthetic Augmentation using Diffusion Models Can Improve Recognition

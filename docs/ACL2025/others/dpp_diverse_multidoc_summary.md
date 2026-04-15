@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries
 description: >-
-   提出将多文档摘要解耦为关键点抽取→DPP多样性选择→重写三步流水线，通过行列式点过程（DPP）进行原则性内容选择，显著提升LLM多文档摘要的源文档覆盖率。
+  [ACL 2025][multi-document summarization] 提出将多文档摘要解耦为关键点抽取→DPP多样性选择→重写三步流水线，通过行列式点过程（DPP）进行原则性内容选择，显著提升LLM多文档摘要的源文档覆盖率。
 tags:
-
+  - ACL 2025
+  - multi-document summarization
+  - DPP
+  - content selection
+  - source coverage
+  - personalized summary
 ---
 
 # Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2505.21859](https://arxiv.org/abs/2505.21859) |
-| 代码 | 未公开 |
-| 领域 | 文本摘要/多文档摘要 |
-| 关键词 | multi-document summarization, DPP, content selection, source coverage, personalized summary |
+**会议**: ACL 2025  
+**arXiv**: [2505.21859](https://arxiv.org/abs/2505.21859)  
+**代码**: 未公开  
+**领域**: 文本摘要/多文档摘要  
+**关键词**: multi-document summarization, DPP, content selection, source coverage, personalized summary  
 
 ## 一句话总结
 

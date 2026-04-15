@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🤖 AAAI2026** · 共 **9** 篇
+**🤖 AAAI2026** · **9** 篇论文解读
 
 **[Beyond Detection Exploring Evidence-Based Multi-Agent Debate For Misinformation ](beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)**
 

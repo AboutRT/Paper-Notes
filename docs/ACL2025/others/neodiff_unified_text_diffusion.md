@@ -56,21 +56,21 @@ tags:
 
     - 功能：将现有离散/连续扩散模型纳入统一理论
     - 核心思路：
-      - **外在时间** $t \in [0,1]$：整个句子的全局扩散进度
-      - **内在时间** $\tau_t \in [0,1]$：每个 token 的独立扩散进度
-      - 离散扩散 = $\tau_t \in \{0, 1\}$（二值随机函数）
-      - 连续扩散 = $\tau_t = t$（确定性函数，所有 token 同步）
-      - DiffuSeq-V2 = $\tau_t = \max(t + \tau_{\text{mask}}(t), 1)$（混合）
-      - **NeoDiff** = $\tau_t \in [0,1]$ 是 $t$ 的连续随机函数
+        - **外在时间** $t \in [0,1]$：整个句子的全局扩散进度
+        - **内在时间** $\tau_t \in [0,1]$：每个 token 的独立扩散进度
+        - 离散扩散 = $\tau_t \in \{0, 1\}$（二值随机函数）
+        - 连续扩散 = $\tau_t = t$（确定性函数，所有 token 同步）
+        - DiffuSeq-V2 = $\tau_t = \max(t + \tau_{\text{mask}}(t), 1)$（混合）
+        - **NeoDiff** = $\tau_t \in [0,1]$ 是 $t$ 的连续随机函数
     - 设计动机：通过泛化时间变量，建立了涵盖所有现有方法的统一理论，NeoDiff 是最 general 的实例化
 
 2. **Poisson 前向扩散过程**:
 
     - 功能：为每个 token 独立采样细粒度的扩散进度
     - 核心思路：
-      - 引入离散状态函数 $s_t \in \{0, 1, ..., s_{\max}\}$，对应从无噪到最大噪声
-      - $s_t$ 的演化遵循 Poisson 过程：$s_t \sim \text{Poisson}(\lambda(t))$，其中 $\lambda(t) = ks_{\max}t$
-      - 归一化并裁剪：$\tau_t = \text{Clip}(s_t / s_{\max}, 1)$
+        - 引入离散状态函数 $s_t \in \{0, 1, ..., s_{\max}\}$，对应从无噪到最大噪声
+        - $s_t$ 的演化遵循 Poisson 过程：$s_t \sim \text{Poisson}(\lambda(t))$，其中 $\lambda(t) = ks_{\max}t$
+        - 归一化并裁剪：$\tau_t = \text{Clip}(s_t / s_{\max}, 1)$
     - **方差控制的关键问题**：当 $s_{\max}$ 很大时，$\text{CV} = 1/\sqrt{s_{\max}} \to 0$，所有 token 的 $\tau$ 趋同，退化为连续扩散
     - **解决方案**：方差重缩放变换 $\tau_t = \text{Clip}(\text{Round}(\frac{s_t - \lambda(t)}{\sqrt{\lambda(t)}} \sigma(t) + \lambda(t)), s_{\max}) / s_{\max}$，设 $\sigma(t) = \lambda(t)$ 保证离散特性与 $s_{\max}$ 无关
     - 设计动机：Poisson 过程天然适合建模"跳跃型"的状态转移，且参数单一($\lambda$)、分布可解析，是连接离散跳跃和连续渐变的自然桥梁
@@ -79,9 +79,9 @@ tags:
 
     - 功能：在反向过程中根据语义上下文自适应调节每个 token 的去噪速度
     - 核心思路：
-      - 不简单镜像前向过程（$p_\theta(\tau_{t'}|\mathbf{z}_t, \tau_t) = q(\tau_{t'})$），而是显式建模 $p_\theta(\tau_{t'}|\mathbf{z}_t, \tau_t)$
-      - 输入：生成的预测 $\hat{\mathbf{z}}_0$（而非 $\mathbf{z}_t$！），目标时间 $t'$，条件句子嵌入 $\mathbf{x}$
-      - 用交叉熵训练，将 $\tau$ 的预测作为离散分类问题
+        - 不简单镜像前向过程（$p_\theta(\tau_{t'}|\mathbf{z}_t, \tau_t) = q(\tau_{t'})$），而是显式建模 $p_\theta(\tau_{t'}|\mathbf{z}_t, \tau_t)$
+        - 输入：生成的预测 $\hat{\mathbf{z}}_0$（而非 $\mathbf{z}_t$！），目标时间 $t'$，条件句子嵌入 $\mathbf{x}$
+        - 用交叉熵训练，将 $\tau$ 的预测作为离散分类问题
     - **伪标签策略**：不直接用 $\tau_{t'}$ 作标签（会引入偏差），而是用 $\hat{\mathbf{z}}_0$ 的重构损失排名通过 Poisson 逆 CDF 映射得到伪标签——损失越大的 token 分配更高的 $\tau$（更多噪声需要更慢地去噪）
     - 设计动机：让 token 级去噪速度与生成质量动态关联——已经生成好的 token 先完成去噪，难的 token 保留更多噪声慢慢恢复
 
@@ -93,9 +93,9 @@ tags:
 
 ### 损失函数 / 训练策略
 - 总损失 $\mathcal{L} = \mathcal{L}_z + \mathcal{L}_\tau + \mathcal{L}_{\text{anchor}}$
-  - $\mathcal{L}_z = \|\hat{\mathbf{z}}_0 - \mathbf{z}_0\|^2$（预测损失）
-  - $\mathcal{L}_\tau = \text{KL}(q(\tau_{t'}) \| p_\theta(\tau_{t'}|\mathbf{z}_t, \tau_t))$（时间预测损失）
-  - $\mathcal{L}_{\text{anchor}} = -\log p_\theta(y|\hat{\mathbf{z}}_0)$（锚定损失，防止嵌入空间坍塌）
+    - $\mathcal{L}_z = \|\hat{\mathbf{z}}_0 - \mathbf{z}_0\|^2$（预测损失）
+    - $\mathcal{L}_\tau = \text{KL}(q(\tau_{t'}) \| p_\theta(\tau_{t'}|\mathbf{z}_t, \tau_t))$（时间预测损失）
+    - $\mathcal{L}_{\text{anchor}} = -\log p_\theta(y|\hat{\mathbf{z}}_0)$（锚定损失，防止嵌入空间坍塌）
 
 ## 实验关键数据
 

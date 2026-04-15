@@ -56,9 +56,9 @@ tags:
 
     - 功能：在时间特征空间中注入噪声再去噪，放大伪造伪影线索
     - 核心思路：
-      - **前向过程**：向特征序列注入高斯噪声 $x_s = \sqrt{\bar{\alpha}_s} f + \sqrt{1-\bar{\alpha}_s} \epsilon$，扰动偏离语义流形
-      - **反向过程**：轻量时间卷积去噪器（FiLM条件化），DDIM式更新 $x_{s-1} = \sqrt{\bar{\alpha}_{s-1}}\hat{x}_0 + \sqrt{1-\bar{\alpha}_{s-1}-\sigma_s^2}\hat{\epsilon} + \sigma_s z$
-      - 去噪步数设为3步
+        - **前向过程**：向特征序列注入高斯噪声 $x_s = \sqrt{\bar{\alpha}_s} f + \sqrt{1-\bar{\alpha}_s} \epsilon$，扰动偏离语义流形
+        - **反向过程**：轻量时间卷积去噪器（FiLM条件化），DDIM式更新 $x_{s-1} = \sqrt{\bar{\alpha}_{s-1}}\hat{x}_0 + \sqrt{1-\bar{\alpha}_{s-1}-\sigma_s^2}\hat{\epsilon} + \sigma_s z$
+        - 去噪步数设为3步
     - 设计动机：动作定位模型的特征过度编码高层语义，对伪造检测所需的低层伪影线索（纹理不一致、运动不连续）不敏感。扩散过程通过注噪抑制语义偏差，去噪过程放大伪造敏感信号
 
 3. **数据集统计**:

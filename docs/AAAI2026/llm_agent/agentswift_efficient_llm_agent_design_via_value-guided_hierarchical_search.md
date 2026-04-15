@@ -71,10 +71,10 @@ AgentSwift的pipeline分三个核心模块：
 
     - 功能：高效搜索最优agent设计
     - 核心思路：
-      - **Selection**：采用soft mixed probability策略，结合实际性能 $s_i$ 和不确定性 $u_i$，公式 $P_{\text{mixed}}(i) = \lambda \cdot \frac{1}{n} + (1-\lambda) \cdot \frac{\exp(E(s_i, u_i))}{\sum_j \exp(E(s_j, u_j))}$，其中 $E(s_j, u_j) = \alpha((1-\beta) s_j + \beta u_j - s_{\max})$
-      - **Expansion**：从parent agent出发，依次执行三步操作：(1) Recombination——从组件池中替换一个子系统；(2) Mutation——LLM根据任务和历史性能生成新组件实现；(3) Refinement——基于失败案例微调prompt/temperature/控制流。每步都用value model评分筛选最佳candidate
-      - **Evaluation**：对最终candidate做真实评估，不确定性定义为 $u = |s_{\text{real}} - \hat{s}|$
-      - **Backpropagation**：向上传播真实分数和不确定性，更新visit count
+        - **Selection**：采用soft mixed probability策略，结合实际性能 $s_i$ 和不确定性 $u_i$，公式 $P_{\text{mixed}}(i) = \lambda \cdot \frac{1}{n} + (1-\lambda) \cdot \frac{\exp(E(s_i, u_i))}{\sum_j \exp(E(s_j, u_j))}$，其中 $E(s_j, u_j) = \alpha((1-\beta) s_j + \beta u_j - s_{\max})$
+        - **Expansion**：从parent agent出发，依次执行三步操作：(1) Recombination——从组件池中替换一个子系统；(2) Mutation——LLM根据任务和历史性能生成新组件实现；(3) Refinement——基于失败案例微调prompt/temperature/控制流。每步都用value model评分筛选最佳candidate
+        - **Evaluation**：对最终candidate做真实评估，不确定性定义为 $u = |s_{\text{real}} - \hat{s}|$
+        - **Backpropagation**：向上传播真实分数和不确定性，更新visit count
     - 设计动机：纯exploitation容易陷入局部最优，纯exploration浪费budget。不确定性机制让搜索既关注高性能区域，也关注预测不确定的区域（可能隐藏高性能candidate）
 
 ### 损失函数 / 训练策略

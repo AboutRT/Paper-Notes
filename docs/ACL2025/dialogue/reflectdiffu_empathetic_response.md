@@ -55,9 +55,9 @@ tags:
 
     - 功能：将识别到的情绪映射为具体的回复意图
     - 核心思路：
-      - **Exploring**: 根据情绪组查询预定义的 top-3 意图参考（如"sad"→acknowledging/consoling/encouraging）
-      - **Sampling**: 策略网络从参考意图中采样具体意图
-      - **Correcting**: RL 奖励信号修正意图选择——奖励 = BARTScore(回复质量) + 情感匹配度
+        - **Exploring**: 根据情绪组查询预定义的 top-3 意图参考（如"sad"→acknowledging/consoling/encouraging）
+        - **Sampling**: 策略网络从参考意图中采样具体意图
+        - **Correcting**: RL 奖励信号修正意图选择——奖励 = BARTScore(回复质量) + 情感匹配度
     - 设计动机："二次"意味着先粗后细——先通过情绪-意图映射表缩小范围，再用 RL 精确选择
 
 3. **扩散响应解码器**:

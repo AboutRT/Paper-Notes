@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**🤖 AAAI2026** · 共 **9** 篇
+**🤖 AAAI2026** · **9** 篇论文解读
 
 **[Bridging The Multilingual Safety Divide Efficient Culturally-Aware Alignment For](bridging_the_multilingual_safety_divide_efficient_culturally-aware_alignment_for.md)**
 

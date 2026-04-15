@@ -2,14 +2,13 @@
 title: >-
   [论文解读] Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics
 description: >-
-  提出后验、模型无关的不确定性量化框架，基于共形预测为潜空间降阶模型的重建、动力学和端到端预测构建统计有效预测区间，在云微物理AE-SINDy代理模型上验证组件级不确定性传播规律。
+  [NeurIPS 2025][降阶模型] 本文提出一种后验的、模型无关的不确定性量化框架，利用共形预测为潜空间降阶模型的重建、潜在动力学和端到端预测提供统计有效的预测区间，并在云微物理ROM上验证。
 tags:
   - NeurIPS 2025
   - 降阶模型
   - 共形预测
-  - 不确定性量化
   - 云微物理
-  - AE-SINDy
+  - 自编码器-SINDy
   - 代理模型
 ---
 

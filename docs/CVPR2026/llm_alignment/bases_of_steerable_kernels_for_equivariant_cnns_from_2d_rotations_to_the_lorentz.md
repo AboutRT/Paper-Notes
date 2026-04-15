@@ -68,8 +68,8 @@ $$K^{(j,l)}(g \cdot x) = \rho_j(g) K^{(j,l)}(x) \rho_l(g)^{-1}, \quad \forall g 
 - **O(3)**：稳定子群扩展为 O(2)，需额外考虑宇称量子数 $\epsilon = \pm$。相同宇称的表示对之间互紧子用 $\mathbb{I}$，不同宇称用 $\sigma_3$，最终给出 $\min(j,l)+1$ 个复互紧子。
 
 - **Lorentz 群 SO$^+(1,3)$**：这是本文最有新意的部分。区分有质量（massive）和无质量（massless）两种情况：
-  - **有质量粒子**：轨道为类时超曲面，稳定子为 SO(3)。将 Lorentz 表示限制到 SO(3) 后用 SU(2) 的 CG 系数分解（但这些是已知且容易计算的），互紧子在时空张量中表现为投影算符。如自旋-0 互紧子 $u^\mu u_\nu$，自旋-1 互紧子 $\Delta^\mu{}_\nu = \delta^\mu{}_\nu - u^\mu u_\nu$。
-  - **无质量粒子**：轨道为光锥，稳定子为 ISO(2) 的 SO(2) 子群。投影算符为 $\Delta^{\mu\nu} = \eta^{\mu\nu} - n^\mu \bar{n}^\nu - n^\nu \bar{n}^\mu$，存在规范自由度。
+    - **有质量粒子**：轨道为类时超曲面，稳定子为 SO(3)。将 Lorentz 表示限制到 SO(3) 后用 SU(2) 的 CG 系数分解（但这些是已知且容易计算的），互紧子在时空张量中表现为投影算符。如自旋-0 互紧子 $u^\mu u_\nu$，自旋-1 互紧子 $\Delta^\mu{}_\nu = \delta^\mu{}_\nu - u^\mu u_\nu$。
+    - **无质量粒子**：轨道为光锥，稳定子为 ISO(2) 的 SO(2) 子群。投影算符为 $\Delta^{\mu\nu} = \eta^{\mu\nu} - n^\mu \bar{n}^\nu - n^\nu \bar{n}^\mu$，存在规范自由度。
 
 **半整数自旋的处理**：引入电荷共轭算符 $\mathcal{C}$ 和 $\gamma$ 矩阵，利用四元数结构 $\{\mathbb{I}, i\mathbb{I}, \mathcal{C}, i\mathcal{C}\}$ 构造互紧子。自旋-1/2 的核基底包含正/负能量投影 $P_\pm(u) = \frac{1}{2}(1 \pm \not{u})$ 与四元数系数的组合。
 

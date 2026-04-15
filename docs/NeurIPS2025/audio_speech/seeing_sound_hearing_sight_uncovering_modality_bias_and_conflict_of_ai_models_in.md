@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Seeing Sound, Hearing Sight: Uncovering Modality Bias and Conflict of AI Models in Sound Localization
 description: >-
-  [NeurIPS 2025][声源定位] 系统揭示AI多模态模型在声源定位中的视觉偏见：6种受控视听条件+人类心理物理实验对比，提出神经科学启发的EchoPin模型（HRTF+耳蜗图+立体声），配合AudioCOCO数据集大幅超越SOTA并涌现类人水平-垂直定位不对称性。
+  [NeurIPS 2025][语音][声源定位] 系统性地揭示了AI声源定位(SSL)模型存在严重视觉偏见——在视听冲突时降到随机水平，提出神经科学启发的EchoPin模型（HRTF滤波+耳蜗图+立体声），在AudioCOCO数据集上大幅超越现有方法并展现出类人的水平>垂直定位精度偏差。
 tags:
   - NeurIPS 2025
+  - 语音
   - 声源定位
   - 模态偏见
   - 跨模态冲突
   - 神经科学启发
   - HRTF
   - 耳蜗图
-  - 多模态学习
 ---
 
 # Seeing Sound, Hearing Sight: Uncovering Modality Bias and Conflict of AI Models in Sound Localization

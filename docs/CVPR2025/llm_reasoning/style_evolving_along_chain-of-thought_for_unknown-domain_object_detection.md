@@ -48,9 +48,9 @@ tags:
 
     - 功能：从粗到细地生成多样化的域风格描述文本
     - 核心思路：
-      - Stage 1（词级别）：对源域图像使用 captioning 模型生成描述，提取关键词，按 5 类分组——天气（weather）、时间（time）、风格（style）、动作（action）、细节（detail）
-      - Stage 2（短语级别）：利用 ChatGPT 将不同类别的词汇自由组合为风格短语（如"rainy night"、"foggy dawn"），扩展风格组合空间
-      - Stage 3（句子级别）：进一步由 ChatGPT 将短语扩展为完整的场景描述句子，包含丰富的环境和视觉细节
+        - Stage 1（词级别）：对源域图像使用 captioning 模型生成描述，提取关键词，按 5 类分组——天气（weather）、时间（time）、风格（style）、动作（action）、细节（detail）
+        - Stage 2（短语级别）：利用 ChatGPT 将不同类别的词汇自由组合为风格短语（如"rainy night"、"foggy dawn"），扩展风格组合空间
+        - Stage 3（句子级别）：进一步由 ChatGPT 将短语扩展为完整的场景描述句子，包含丰富的环境和视觉细节
     - 设计动机：这种渐进式生成确保了风格描述的多样性和层次性——词级别覆盖基本风格元素，短语级别捕捉风格组合，句子级别提供完整的风景上下文
 
 2. **特征解耦（Feature Disentanglement）**：

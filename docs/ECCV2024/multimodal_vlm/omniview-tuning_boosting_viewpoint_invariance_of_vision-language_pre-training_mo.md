@@ -51,8 +51,8 @@ OVT包含两大贡献：(1) 构建大规模多视角图文对数据集MVCap；(2
 
     - 功能：创建首个百万级多视角图文对数据集，包含460万+图文对，覆盖10万+物体、1600+类别
     - 核心思路：
-      - **多视角图像采集**：融合Objaverse（3D合成）、IM3D（合成）和MVImgNet（真实视频）三个数据源。对Objaverse用OpenShape语义嵌入筛选24,495个语义清晰的3D物体，用Blender从上半球渲染100个随机视角图像；从MVImgNet中选取有30+有效视角的真实场景
-      - **Category-Guided Caption生成**：用InstructBLIP-flant5xl为每张图自动生成描述。关键创新是设计了包含类别信息的prompt——"Write a short description for the image, noting that the main instance of the image is a \<category\>"——解决了VLLM在不同视角下类别不一致的幻觉问题
+        - **多视角图像采集**：融合Objaverse（3D合成）、IM3D（合成）和MVImgNet（真实视频）三个数据源。对Objaverse用OpenShape语义嵌入筛选24,495个语义清晰的3D物体，用Blender从上半球渲染100个随机视角图像；从MVImgNet中选取有30+有效视角的真实场景
+        - **Category-Guided Caption生成**：用InstructBLIP-flant5xl为每张图自动生成描述。关键创新是设计了包含类别信息的prompt——"Write a short description for the image, noting that the main instance of the image is a \<category\>"——解决了VLLM在不同视角下类别不一致的幻觉问题
     - 设计动机：解决"鸡生蛋"困境——需要视角不变模型来生成训练数据，但模型本身缺乏视角不变性。通过注入ground-truth类别信息，绕过这一问题
 
 2. **跨视角对齐目标（Cross-Viewpoint Alignment）**:
@@ -65,17 +65,17 @@ OVT包含两大贡献：(1) 构建大规模多视角图文对数据集MVCap；(2
 
     - 功能：将$\mathcal{L}_{VC}$的优化重构为minimax形式，避免过度对齐导致的概念漂移和过拟合
     - 核心思路：
-      - **Maximization步**：计算每个物体的锚点视角嵌入$z_{C_i}^I$（加权质心，权重由最近邻距离决定），找出与锚点余弦距离最大的top-K个离群视角
-      - **Minimization步**：仅优化这些离群视角的嵌入向锚点收敛，使用带margin的损失 $l(z_{ij}^I, z_{C_i}^I) = \max[d(z_{ij}^I, z_{C_i}^I) + m, 0]$
+        - **Maximization步**：计算每个物体的锚点视角嵌入$z_{C_i}^I$（加权质心，权重由最近邻距离决定），找出与锚点余弦距离最大的top-K个离群视角
+        - **Minimization步**：仅优化这些离群视角的嵌入向锚点收敛，使用带margin的损失 $l(z_{ij}^I, z_{C_i}^I) = \max[d(z_{ij}^I, z_{C_i}^I) + m, 0]$
     - 设计动机：只关注最极端的离群视角，避免对所有视角组合都做对齐（计算量大且容易过拟合），同时最大限度保持原始嵌入分布
 
 4. **参数高效模块（VIFormer + LoRA）**:
 
     - 功能：冻结文本编码器和视觉编码器原始权重，仅训练额外的轻量参数
     - 核心思路：
-      - **LoRA**：对视觉编码器的self-attention层进行低秩分解 $\tilde{\mathbf{W_v}} = \mathbf{W_v} + \mathbf{BA}$，rank=8
-      - **VIFormer**：在视觉编码器输出后添加可学习的self-attention层，提取视角不变的关键成分$s^I$
-      - 最终输出：$\tilde{z}^I = \alpha \cdot f_\theta(z^I) + (1-\alpha) \cdot z^I$，$\alpha=0.1$为残差比例
+        - **LoRA**：对视觉编码器的self-attention层进行低秩分解 $\tilde{\mathbf{W_v}} = \mathbf{W_v} + \mathbf{BA}$，rank=8
+        - **VIFormer**：在视觉编码器输出后添加可学习的self-attention层，提取视角不变的关键成分$s^I$
+        - 最终输出：$\tilde{z}^I = \alpha \cdot f_\theta(z^I) + (1-\alpha) \cdot z^I$，$\alpha=0.1$为残差比例
     - 设计动机：PEFT方式最大限度保留原始性能，同时以极少参数（如ViT-B/32仅6.6M可训练参数）获得视角不变能力
 
 ### 损失函数 / 训练策略

@@ -64,8 +64,8 @@ $$\min_{\theta} \max_{\phi} \mathcal{L}_{\mathcal{D}}(F_\theta, G_\phi) = I_1^{\
 **模块3: 输入优化博弈的Jacobian谱分析（Lemma 3.4）**
 - 功能：对固定随机初始化网络，证明关于输入的Jacobian奇异值界
 - 核心结果：使用GeLU激活，当 $d_1^{(F)} \geq 256\max\{d_0^{(F)}, d_2^{(F)}\}$ 时，以概率 $\geq 1 - e^{-\Omega(d_1)}$
-  - $\sigma_{\min}(\nabla_\theta F_\theta) = \Omega(\sigma_{1,F} \cdot \sigma_{2,F} \cdot d_1)$
-  - $\sigma_{\max}(\nabla_\theta F_\theta) = \mathcal{O}(\sigma_{1,F} \cdot \sigma_{2,F} \cdot d_1)$
+    - $\sigma_{\min}(\nabla_\theta F_\theta) = \Omega(\sigma_{1,F} \cdot \sigma_{2,F} \cdot d_1)$
+    - $\sigma_{\max}(\nabla_\theta F_\theta) = \mathcal{O}(\sigma_{1,F} \cdot \sigma_{2,F} \cdot d_1)$
 
 **模块4: 网络参数博弈的过参数化条件（Theorem 3.8）**
 - 功能：给出保证收敛的最小网络宽度

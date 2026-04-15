@@ -64,11 +64,11 @@ HyperIMTS 的 pipeline：（1）将 IMTS 样本转化为超图表示，观测值
 
     - 功能：在变量超边之间传递信息，建模变量间依赖关系
     - 核心思路：计算两种变量相似度并自适应融合。对于变量 $u_a$ 和 $u_b$：
-      - 整体变量相似度（series-level）：$\mathbf{S}_{\text{var}} = \text{FF}_q(e_{u_a}) \cdot \text{FF}_k(e_{u_b})^\intercal$
-      - 时间感知相似度（仅用对齐观测）：$\mathbf{S}_{\text{obs}} = [v_1^{u_a},...,v_{T_{\text{shared}}}^{u_a}] \cdot [v_1^{u_b},...,v_{T_{\text{shared}}}^{u_b}]^\intercal$
-      - 自适应融合：$\mathbf{S}_{\text{IMTS}} = \alpha \mathbf{S}_{\text{obs}} + (1-\alpha) \mathbf{S}_{\text{var}}$
-      - 其中 $\alpha = T_{\text{shared}} / T_{\text{total}}$（当 $\mathbf{S}_{\text{var}} > \delta$ 且 $\mathbf{S}_{\text{obs}} \neq 0$ 时），否则 $\alpha = 0$
-      - 最终通过注意力传播：$\mathbf{E}_{\text{var}}'' = \text{Softmax}(\mathbf{A}_{\text{var}} / \sqrt{d}) \text{FF}_v(\mathbf{E}_{\text{var}}')$
+        - 整体变量相似度（series-level）：$\mathbf{S}_{\text{var}} = \text{FF}_q(e_{u_a}) \cdot \text{FF}_k(e_{u_b})^\intercal$
+        - 时间感知相似度（仅用对齐观测）：$\mathbf{S}_{\text{obs}} = [v_1^{u_a},...,v_{T_{\text{shared}}}^{u_a}] \cdot [v_1^{u_b},...,v_{T_{\text{shared}}}^{u_b}]^\intercal$
+        - 自适应融合：$\mathbf{S}_{\text{IMTS}} = \alpha \mathbf{S}_{\text{obs}} + (1-\alpha) \mathbf{S}_{\text{var}}$
+        - 其中 $\alpha = T_{\text{shared}} / T_{\text{total}}$（当 $\mathbf{S}_{\text{var}} > \delta$ 且 $\mathbf{S}_{\text{obs}} \neq 0$ 时），否则 $\alpha = 0$
+        - 最终通过注意力传播：$\mathbf{E}_{\text{var}}'' = \text{Softmax}(\mathbf{A}_{\text{var}} / \sqrt{d}) \text{FF}_v(\mathbf{E}_{\text{var}}')$
     - 设计动机：当两个变量有较多时间对齐的观测时，基于对齐观测的细粒度相似度更可靠；当完全不对齐（$\mathbf{S}_{\text{obs}}=0$）时，退回到整体变量级别的相似度，保持变量间的连接不断开。$\delta$ 为可学习阈值（初始化 0.5），控制是否使用时间感知相似度
 
 4. **超边→节点消息传递（Hyperedge-to-Node）**:

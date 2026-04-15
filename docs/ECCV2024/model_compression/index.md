@@ -1,26 +1,18 @@
 ---
 title: >-
-  ECCV2024 模型压缩方向 15篇论文解读
+  ECCV2024 模型压缩方向 14篇论文解读
 description: >-
-  15篇ECCV2024 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  14篇ECCV2024 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🎞️ ECCV2024** · 共 **15** 篇
+**🎞️ ECCV2024** · **14** 篇论文解读
 
 **[A Simple Lowbit Quantization Framework For Video Snapshot Co](a_simple_lowbit_quantization_framework_for_video_snapshot_co.md)**
 
 :   首个面向视频快照压缩成像（Video SCI）重建任务的低比特量化框架Q-SCI，通过高质量特征提取模块、精确视频重建模块和Transformer分支的query/key分布偏移操作，在4-bit量化下实现7.8倍理论加速且性能仅下降2.3%。
-
-**[Adaptive Compressed Sensing With Diffusionbased Posterior Sa](adaptive_compressed_sensing_with_diffusionbased_posterior_sa.md)**
-
-:   提出AdaSense，利用预训练扩散模型的零样本后验采样来量化重建不确定性，从而自适应地选择最优测量矩阵，无需额外训练即可在人脸图像、MRI和CT等多领域实现优于非自适应方法的压缩感知重建。
-
-**[Adaptive Selection Of Samplingreconstruction In Fourier Comp](adaptive_selection_of_samplingreconstruction_in_fourier_comp.md)**
-
-:   提出自适应选择采样-重建框架 $\mathcal{H}_{1.5}$，为每个输入数据自适应选择最佳的采样mask与专用重建网络对，利用超分辨率空间生成模型量化高频不确定性实现选择，理论证明优于非自适应联合优化 $\mathcal{H}_1$ 和自适应采样 $\mathcal{H}_2$。
 
 **[Anytime Continual Learning For Open Vocabulary Classification](anytime_continual_learning_for_open_vocabulary_classification.md)**
 
@@ -57,6 +49,10 @@ description: >-
 **[Papr Training-Free One-Step Patch Pruning With Lightweight Convnets For Faster I](papr_training-free_one-step_patch_pruning_with_lightweight_convnets_for_faster_i.md)**
 
 :   提出 PaPr，利用轻量级 ConvNet 的卷积特征图生成 Patch Significance Map (PSM)，在**无需重训练**的情况下对 ViT/ConvNet/混合架构进行**一步式** patch 剪枝，实现显著的计算量削减（视频场景最高 3.7× FLOPs 减少），且精度损失极小。
+
+**[Pyra Parallel Yielding Re-Activation For Training-Inference Efficient Task Adapt](pyra_parallel_yielding_re-activation_for_training-inference_efficient_task_adapt.md)**
+
+:   提出PYRA方法同时实现训练高效和推理高效的任务适配，通过并行生成通道和token维度的自适应调制权重，在token合并前对特征进行re-activation校准，在ViT-L/16上1.7×加速仅掉0.1%精度、3×加速下消除"逆向压缩"现象。
 
 **[Simple Unsupervised Knowledge Distillation With Space Similarity](simple_unsupervised_knowledge_distillation_with_space_similarity.md)**
 

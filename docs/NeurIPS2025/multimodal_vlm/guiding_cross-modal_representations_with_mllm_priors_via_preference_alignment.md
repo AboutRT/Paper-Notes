@@ -64,8 +64,8 @@ MAPLE（Modality-Aligned Preference Learning for Embeddings）包含两大组件
 **在线阶段 — 评分与结构化**：
 - 计算对齐分数：Prompt MLLM 对图文对输出 "yes"/"no"，用 softmax 得到对齐分数 $\alpha_{ii}$
 - 按对齐分数排序候选，构建两种偏好结构：
-  - **Pairwise 偏好**：所有满足 $a < b$ 的候选对 $(x_{r_a}, x_{r_b})$
-  - **Listwise 偏好**：利用完整排名列表的每个后缀结构
+    - **Pairwise 偏好**：所有满足 $a < b$ 的候选对 $(x_{r_a}, x_{r_b})$
+    - **Listwise 偏好**：利用完整排名列表的每个后缀结构
 
 #### 3. Relative Preference Alignment (RPA) 损失
 

@@ -50,10 +50,10 @@ CycleBEV 是即插即用的**训练时正则化框架**，由三部分组成：
 ### IVT 网络设计
 
 - 采用**双分支**结构，受 CVT 启发：
-  - 输入：GT BEV 分割图（训练初期）或 VT 预测 BEV 图 + 高度图的拼接 $[\mathbf{H}; \mathbf{O}]$。
-  - CNN 编码器生成多分辨率 BEV 特征 $\{\bar{\mathbf{B}}_s\}$。
-  - 两个 IVT 编码器分别处理高/低分辨率特征，通过 Transformer 交叉注意力更新随机初始化的 PV 查询图。
-  - 融合后解码生成 $N_c$ 个 PV 分割图。
+    - 输入：GT BEV 分割图（训练初期）或 VT 预测 BEV 图 + 高度图的拼接 $[\mathbf{H}; \mathbf{O}]$。
+    - CNN 编码器生成多分辨率 BEV 特征 $\{\bar{\mathbf{B}}_s\}$。
+    - 两个 IVT 编码器分别处理高/低分辨率特征，通过 Transformer 交叉注意力更新随机初始化的 PV 查询图。
+    - 融合后解码生成 $N_c$ 个 PV 分割图。
 - **基于透视投影的位置编码**：利用相机内外参 $\mathbf{K}_i, \mathbf{R}_i, \mathbf{T}_i$ 将 BEV 网格坐标投影到图像坐标，经 MLP 后添加为注意力位置编码。
 
 ### 训练损失

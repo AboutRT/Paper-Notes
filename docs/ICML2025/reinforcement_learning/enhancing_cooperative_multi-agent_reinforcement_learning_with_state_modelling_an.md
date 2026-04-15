@@ -57,8 +57,8 @@ SMPE²（State Modelling for Policy Enhancement through Exploration）基于 MAA
 **架构组成**（参见 Figure 1）：
 - **Actor（蓝色）**：部分可观测，策略为 $\pi_\psi(a_t^i \mid h_t^i, z_t^i)$，将信念嵌入显式融入策略网络
 - **Critic（红色）**：两个 critic 均有全局可观测性
-  - $V_\xi(s)$：标准 MAA2C critic
-  - $V_k(\hat{s})$：在 AM 过滤器净化后的状态 $\hat{s} = o^i \oplus (w^i \cdot o^{-i})$ 上训练的 critic
+    - $V_\xi(s)$：标准 MAA2C critic
+    - $V_k(\hat{s})$：在 AM 过滤器净化后的状态 $\hat{s} = o^i \oplus (w^i \cdot o^{-i})$ 上训练的 critic
 
 ### 关键设计
 

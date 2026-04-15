@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚛️ 物理学
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[Resq A Novel Framework To Implement Residual Neural Networks On Analog Rydberg A](resq_a_novel_framework_to_implement_residual_neural_networks_on_analog_rydberg_a.md)**
 

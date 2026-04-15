@@ -79,8 +79,8 @@ tags:
 - **内部知识**：仅依赖 LLM 自身知识回答验证问题
 - **搜索引擎**：Google、Bing、DuckDuckGo
 - **检索粒度**：
-  - **片段模式（Snippets）**：使用搜索引擎返回的 top-5 摘要片段
-  - **全文模式（Full-article）**：解析文章 HTML，分块嵌入，用 SimCSE 余弦相似度选 top-5 段落
+    - **片段模式（Snippets）**：使用搜索引擎返回的 top-5 摘要片段
+    - **全文模式（Full-article）**：解析文章 HTML，分块嵌入，用 SimCSE 余弦相似度选 top-5 段落
 - **Gold 基线**：使用原始新闻文章作为证据上限
 
 ### 损失函数/训练策略

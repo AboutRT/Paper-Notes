@@ -60,18 +60,18 @@ MAISI-v2 建立在 MAISI 架构之上，包含三个组件：
 
     - 功能：解决不同尺寸 3D 图像混合训练的批量大小限制和数值稳定性问题
     - 核心思路：
-      - **预训练阶段**：用 $128^3$ 低分辨率图像训练，batch size 96，学习率 1e-3，1 天完成。统一尺寸允许大批量，避免 NaN 问题
-      - **主训练阶段**：全分辨率混合训练，采用 **bucketed data parallelism**——按图像尺寸分组到不同 GPU（$128^3$ 批量 96，$256^2 \times 128$ 批量 24，$512^2 \times 768$ 批量 1），16000 epoch，约 10 天
-      - **微调阶段**：修正第二阶段的数据不平衡问题，混合所有图像用 batch size 1 配合采样权重平衡不同数据集贡献，2000 epoch，约 10 天
+        - **预训练阶段**：用 $128^3$ 低分辨率图像训练，batch size 96，学习率 1e-3，1 天完成。统一尺寸允许大批量，避免 NaN 问题
+        - **主训练阶段**：全分辨率混合训练，采用 **bucketed data parallelism**——按图像尺寸分组到不同 GPU（$128^3$ 批量 96，$256^2 \times 128$ 批量 24，$512^2 \times 768$ 批量 1），16000 epoch，约 10 天
+        - **微调阶段**：修正第二阶段的数据不平衡问题，混合所有图像用 batch size 1 配合采样权重平衡不同数据集贡献，2000 epoch，约 10 天
     - 设计动机：朴素混合训练迫使 batch size 为 1，混合精度优化易出 NaN；bucketed 并行加速但引入数据不平衡；三阶段渐进解决所有问题。总训练使用 64 块 A100 80GB GPU，约三周
 
 3. **区域特异性对比损失（Region-specific Contrastive Loss）**:
 
     - 功能：增强生成结果对小区域条件（如肿瘤 mask）的敏感度
     - 核心思路：从同一噪声输入生成两个版本——一个用原始 mask $c_{\text{orig}}$，另一个用扰动 mask $c_{\text{perturb}}$（将 ROI 标签替换为对应背景标签，如胰腺肿瘤标签→胰腺标签）。两个输出应在 ROI 内不同（反映条件变化），在背景处相同（条件未变）。
-      - **ROI 敏感性损失**：$\mathcal{L}_{\text{roi}} = -\min(\mathcal{D}_{\text{roi}}, \delta)$，鼓励 ROI 内输出差异大，上界 $\delta=2$ 防止梯度爆炸
-      - **背景一致性损失**：$\mathcal{L}_{\text{bg}} = \|(G_\theta(x_t, c_{\text{orig}}) - G_\theta(x_t, c_{\text{perturb}})) \odot m^-\|_{1,m^-}$，使用膨胀 mask 的补集 $m^- = 1 - \text{dilate}(m)$ 确保背景不变
-      - 总目标 $\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{flow}} + \lambda_{\text{contrast}}(\mathcal{L}_{\text{roi}} + \mathcal{L}_{\text{bg}})$
+        - **ROI 敏感性损失**：$\mathcal{L}_{\text{roi}} = -\min(\mathcal{D}_{\text{roi}}, \delta)$，鼓励 ROI 内输出差异大，上界 $\delta=2$ 防止梯度爆炸
+        - **背景一致性损失**：$\mathcal{L}_{\text{bg}} = \|(G_\theta(x_t, c_{\text{orig}}) - G_\theta(x_t, c_{\text{perturb}})) \odot m^-\|_{1,m^-}$，使用膨胀 mask 的补集 $m^- = 1 - \text{dilate}(m)$ 确保背景不变
+        - 总目标 $\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{flow}} + \lambda_{\text{contrast}}(\mathcal{L}_{\text{roi}} + \mathcal{L}_{\text{bg}})$
     - 设计动机：仅用加权平均损失（肿瘤权重 100）不足以确保小肿瘤在生成图像中清晰出现；ControlNet++ 的循环一致性方案需额外反向网络且误差传播；对比损失无需额外网络，直接利用条件扰动区分 ROI 和背景
 
 4. **显存感知策略**:

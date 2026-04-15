@@ -88,9 +88,9 @@ $$\{(q_j^{t+1}, s_j^{t+1})\}_{j=1}^N = \text{Decompose}(q^t, p_\theta, \text{pro
 
 **两层信息提取**：
 - **局部级 (Local-level)**：与单个子问题关联的实体、实体-关系对和三元组
-  - 例如："哪个经理招募了贝克汉姆？" → 实体 (David Beckham)、三元组 (manager, recruited, David Beckham)
+    - 例如："哪个经理招募了贝克汉姆？" → 实体 (David Beckham)、三元组 (manager, recruited, David Beckham)
 - **全局级 (Global-level)**：跨多个子问题的语义依赖关系，表示为互连子图
-  - 例如：[(manager, recruited, David Beckham), (manager, manage, Manchester United)]
+    - 例如：[(manager, recruited, David Beckham), (manager, manage, Manchester United)]
 
 **检索流程**：
 1. LLM 从思维导图提取关键信息：$\mathcal{K} = \text{Extract}(\mathcal{M}, p_\theta, \text{prompt}_{ext})$

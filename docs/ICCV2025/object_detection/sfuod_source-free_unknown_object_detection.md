@@ -55,9 +55,9 @@ CollaPAUL 基于均值教师 (Mean Teacher) 框架，包含两个核心组件：
 
 - **截断 SVD 重构**：对 backbone 特征做 SVD 分解，仅保留 top-r 主成分重构，揭示目标域的隐含表示
 - **跨域注意力**：设计协作层（collaborative layer），在 decoder 层之间插入：
-  - Query: 源域特征 f_s
-  - Key/Value: 源域特征 f_s 与目标域特征 f_t 的拼接
-  - 通过 softmax 注意力自适应融合两个域的知识
+    - Query: 源域特征 f_s
+    - Key/Value: 源域特征 f_s 与目标域特征 f_t 的拼接
+    - 通过 softmax 注意力自适应融合两个域的知识
 
 在 DETR 的前 L=3 个 decoder 层后插入协作层，通过反复传播使 decoder 学习融合后的增强表示。
 

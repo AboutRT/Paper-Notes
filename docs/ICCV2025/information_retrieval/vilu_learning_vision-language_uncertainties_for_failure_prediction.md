@@ -2,20 +2,23 @@
 title: >-
   [论文解读] ViLU: Learning Vision-Language Uncertainties for Failure Prediction
 description: >-
-   提出 ViLU，一个针对 VLM 零样本预测的后验不确定性量化框架，通过交叉注意力融合视觉嵌入、预测文本嵌入和图像条件文本表示，构建不确定性感知的多模态表征，在 13 个分类数据集和大规模图文数据集上显著超越现有失败预测方法。
+  [ICCV2025][不确定性量化] 提出 ViLU，一个针对 VLM 零样本预测的后验不确定性量化框架，通过交叉注意力融合视觉嵌入、预测文本嵌入和图像条件文本表示，构建不确定性感知的多模态表征，在 13 个分类数据集和大规模图文数据集上显著超越现有失败预测方法。
 tags:
-
+  - ICCV2025
+  - 不确定性量化
+  - 失败预测
+  - VLM
+  - 交叉注意力
+  - 后验估计
 ---
 
 # ViLU: Learning Vision-Language Uncertainties for Failure Prediction
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV2025 |
-| arXiv | [2507.07620](https://arxiv.org/abs/2507.07620) |
-| 代码 | [GitHub](https://github.com/ViLU-uncertainty/ViLU) |
-| 领域 | 多模态VLM |
-| 关键词 | 不确定性量化, 失败预测, VLM, 交叉注意力, 后验估计 |
+**会议**: ICCV2025  
+**arXiv**: [2507.07620](https://arxiv.org/abs/2507.07620)  
+**代码**: [GitHub](https://github.com/ViLU-uncertainty/ViLU)  
+**领域**: 多模态VLM  
+**关键词**: 不确定性量化, 失败预测, VLM, 交叉注意力, 后验估计  
 
 ## 一句话总结
 

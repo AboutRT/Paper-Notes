@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**🤖 AAAI2026** · 共 **7** 篇
+**🤖 AAAI2026** · **7** 篇论文解读
 
 **[Asymmetric Cross-Modal Knowledge Distillation Bridging Modalities With Weak Sema](asymmetric_cross-modal_knowledge_distillation_bridging_modalities_with_weak_sema.md)**
 

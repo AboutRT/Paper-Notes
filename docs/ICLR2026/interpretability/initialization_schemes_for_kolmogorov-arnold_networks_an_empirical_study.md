@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Initialization Schemes for Kolmogorov-Arnold Networks: An Empirical Study
 description: >-
-  [ICLR 2026][KAN] 首次系统研究样条KAN的初始化策略，提出LeCun/Glorot启发的方差保持方案和经验幂律初始化族，通过大规模网格搜索+NTK动态分析发现幂律初始化整体最优，Glorot在参数多的模型上显著优于基线。
+  [ICLR 2026][KAN] 首次对样条KAN的初始化策略进行系统性研究，提出LeCun/Glorot启发的方差保持方案和可调幂律初始化族，在126K+模型实例的大规模实验中证明幂律初始化在函数拟合和PDE求解上全面超越基线，Glorot方案在大参数量模型上增益显著，NTK特征谱分析揭示了其背后的优化动力学机制。
 tags:
   - ICLR 2026
   - KAN

@@ -60,11 +60,11 @@ tags:
 
     - 功能：从可疑模型出发构建多个后门变体，提取跨变体一致的后门特征
     - 核心思路：
-      - 构建N个变体：对每个变体 $i$，从可疑模型出发分别训练中毒模型 $\theta_i^{\text{bd}}$ 和干净模型 $\theta_i^{\text{clean}}$，使用不同触发器和行为
-      - 计算差分更新 $\Delta_i = \Delta\theta_i^{\text{bd}} - \Delta\theta_i^{\text{clean}}$（消除通用微调漂移和已有后门）
-      - 评分：$s_j = \frac{1}{N}\sum_i \|\Delta_{i,j}\|_2 + \lambda \frac{2}{N(N-1)}\sum_{i<\ell} \max\{0, \cos(\Delta_{i,j}, \Delta_{\ell,j})\}$
-      - 范数项衡量中毒强度，对齐项衡量跨变体一致性（只取正余弦）
-      - 阈值筛选得到后门签名 $\mathbb{S} = \{j: s_j \geq \tau\}$
+        - 构建N个变体：对每个变体 $i$，从可疑模型出发分别训练中毒模型 $\theta_i^{\text{bd}}$ 和干净模型 $\theta_i^{\text{clean}}$，使用不同触发器和行为
+        - 计算差分更新 $\Delta_i = \Delta\theta_i^{\text{bd}} - \Delta\theta_i^{\text{clean}}$（消除通用微调漂移和已有后门）
+        - 评分：$s_j = \frac{1}{N}\sum_i \|\Delta_{i,j}\|_2 + \lambda \frac{2}{N(N-1)}\sum_{i<\ell} \max\{0, \cos(\Delta_{i,j}, \Delta_{\ell,j})\}$
+        - 范数项衡量中毒强度，对齐项衡量跨变体一致性（只取正余弦）
+        - 阈值筛选得到后门签名 $\mathbb{S} = \{j: s_j \geq \tau\}$
     - 设计动机：类似免疫系统从多种病毒变体中提取共享抗原——不同触发器/行为的变体共享的参数变化模式就是后门关联机制
 
 3. **净化：神经元抑制 + 轻量微调**:

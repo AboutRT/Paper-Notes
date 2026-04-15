@@ -50,9 +50,9 @@ GLFormer 的 pipeline：
 
     - 功能：对每个邻居 $u_i$，从其最近的 $M$ 个邻居中加权聚合信息
     - 核心思路：聚合权重 $\alpha_p^i = \beta \mathbf{w}_p + (1 - \beta) \theta_p^i$ 融合两种因素
-      - **顺序权重 $\mathbf{w}_p$**：可学习参数，捕捉交互顺序的重要性
-      - **时间权重 $\theta_p^i$**：通过对时间间隔应用 softmax 计算，$\theta_p^i = \frac{\exp(-(t_i - t_{i-p}))}{\sum_q \exp(-(t_i - t_{i-q}))}$，时间距离越近权重越大
-      - 可学习参数 $\beta$ 控制两者的融合比例
+        - **顺序权重 $\mathbf{w}_p$**：可学习参数，捕捉交互顺序的重要性
+        - **时间权重 $\theta_p^i$**：通过对时间间隔应用 softmax 计算，$\theta_p^i = \frac{\exp(-(t_i - t_{i-p}))}{\sum_q \exp(-(t_i - t_{i-q}))}$，时间距离越近权重越大
+        - 可学习参数 $\beta$ 控制两者的融合比例
     - 设计动机：在动态图中，最近的邻居提供了最相关的交互模式，局部聚合比全局注意力更有效且更高效
 
 2. **层次化聚合机制（Hierarchical Aggregation）**:

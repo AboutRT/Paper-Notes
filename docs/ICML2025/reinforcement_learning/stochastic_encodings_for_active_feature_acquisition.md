@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Stochastic Encodings for Active Feature Acquisition
 description: >-
-   本文提出 SEFA (Stochastic Encodings for Feature Acquisition)，一种基于随机潜变量模型的主动特征获取方法，通过在正则化潜空间中跨多种未观测特征实现进行推理来替代 RL 和贪心 CMI 最大化，在合成和真实数据集（含癌症分类）上一致超越所有基线。
+  [ICML 2025][Active Feature Acquisition] 本文提出 SEFA (Stochastic Encodings for Feature Acquisition)，一种基于随机潜变量模型的主动特征获取方法，通过在正则化潜空间中跨多种未观测特征实现进行推理来替代 RL 和贪心 CMI 最大化，在合成和真实数据集（含癌症分类）上一致超越所有基线。
 tags:
-
+  - ICML 2025
+  - Active Feature Acquisition
+  - Dynamic Feature Selection
+  - Stochastic Encoder
+  - Latent Space
+  - Information Bottleneck
 ---
 
 # Stochastic Encodings for Active Feature Acquisition
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2508.01957](https://arxiv.org/abs/2508.01957) |
-| 代码 | [a-norcliffe/SEFA](https://github.com/a-norcliffe/SEFA) |
-| 领域 | 主动特征获取 / 序贯决策 |
-| 关键词 | Active Feature Acquisition, Dynamic Feature Selection, Stochastic Encoder, Latent Space, Information Bottleneck |
+**会议**: ICML 2025  
+**arXiv**: [2508.01957](https://arxiv.org/abs/2508.01957)  
+**代码**: [a-norcliffe/SEFA](https://github.com/a-norcliffe/SEFA)  
+**领域**: 主动特征获取 / 序贯决策  
+**关键词**: Active Feature Acquisition, Dynamic Feature Selection, Stochastic Encoder, Latent Space, Information Bottleneck  
 
 ## 一句话总结
 
@@ -37,8 +40,8 @@ tags:
 > 考虑 $d+1$ 个特征，$x_{d+1}$ 是指示器（决定 $d$ 个二元特征中哪个给出标签）。最优策略只需 2 步，但贪心 CMI 期望需要 $3 - 1/d$ 步。
 
 - **缺陷二：CMI 不等于最佳 0-1 损失目标**。最小化熵可以通过使不太可能的类更不可能来实现，而非区分最可能的类：
-  - $H([0.5, 0.5, 0.0]) = 0.693$（低熵但无法确定最可能类）
-  - $H([0.7, 0.15, 0.15]) = 0.819$（高熵但明确识别最可能类）
+    - $H([0.5, 0.5, 0.0]) = 0.693$（低熵但无法确定最可能类）
+    - $H([0.7, 0.15, 0.15]) = 0.819$（高熵但明确识别最可能类）
 
 ## 方法详解
 

@@ -44,17 +44,17 @@ CoMPaSS包含两个互补组件：SCOP数据引擎（提供高质量空间训练
 
     - 功能：从图像中提取具有清晰空间关系的对象对，配以准确的文本描述
     - 核心思路：三阶段流程
-      - **关系推理**：枚举图像中所有对象对 $\binom{n}{2}$ 个候选对
-      - **空间约束执行**：通过5个约束过滤歧义对——视觉显著性（$\frac{\text{Area}(B_i \cup B_j)}{\text{Area}(I)} > \tau_v$）、语义区分（类别不同）、空间清晰度（质心距离/最小对角线 $< \tau_u$）、最小重叠（重叠率 $< \tau_o$）、尺寸均衡（面积比 $> \tau_s$）
-      - **关系解码**：将结构化描述符解码为图像裁剪+文本prompt对
+        - **关系推理**：枚举图像中所有对象对 $\binom{n}{2}$ 个候选对
+        - **空间约束执行**：通过5个约束过滤歧义对——视觉显著性（$\frac{\text{Area}(B_i \cup B_j)}{\text{Area}(I)} > \tau_v$）、语义区分（类别不同）、空间清晰度（质心距离/最小对角线 $< \tau_u$）、最小重叠（重叠率 $< \tau_o$）、尺寸均衡（面积比 $> \tau_s$）
+        - **关系解码**：将结构化描述符解码为图像裁剪+文本prompt对
     - 设计动机：从COCO训练集中筛选得到28,000+对象对（仅LAION-400M的0.004%），人类标注一致率达85.2%
 
 2. **TENOR（Token ENcoding ORdering）模块**:
 
     - 功能：将token顺序信息注入diffusion模型的text-image attention层
     - 核心思路：
-      - 对UNet架构（SD系列）：在每个text-image attention层的key向量K上添加绝对位置编码
-      - 对MMDiT架构（FLUX.1）：在text的query $Q_{\text{text}}$ 和key $K_{\text{text}}$ 上添加位置编码
+        - 对UNet架构（SD系列）：在每个text-image attention层的key向量K上添加绝对位置编码
+        - 对MMDiT架构（FLUX.1）：在text的query $Q_{\text{text}}$ 和key $K_{\text{text}}$ 上添加位置编码
     - 设计动机：标准Transformer的位置编码只在初始embedding添加一次，经过多层处理后顺序信息丢失。TENOR在每个attention操作中都注入顺序信息，确保"A left of B"和"B left of A"产生不同的conditioning信号。无额外参数，推理开销可忽略（~2.47%时间，~0.6% VRAM）
 
 3. **SCOP与TENOR的协同**:

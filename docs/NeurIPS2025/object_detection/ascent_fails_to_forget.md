@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Ascent Fails to Forget
 description: >-
-  [NeurIPS 2025][机器遗忘] 本文从统计依赖角度揭示了梯度上升（gradient ascent）类机器遗忘方法的根本缺陷：遗忘集与保留集间的统计依赖使得DA方法不仅无法有效遗忘，甚至可能产生比原始模型更远离oracle的有害结果，在logistic回归的凸设置下给出了严格理论证明。
+  [NeurIPS 2025][目标检测][machine unlearning] 本文从遗忘集与保留集之间的统计依赖出发，理论结合实验证明广泛使用的梯度上升/Descent-Ascent（DA）类机器遗忘方法在存在数据相关性时会系统性失败——在 logistic 回归中 DA 解甚至会比原始模型更远离 oracle，且在非凸设置下会将模型困在劣质局部最小值中。
 tags:
   - NeurIPS 2025
-  - 机器遗忘
+  - 目标检测
   - machine unlearning
-  - gradient ascent
-  - statistical dependence
+  - 梯度上升
+  - 统计依赖
   - descent-ascent
-  - 理论分析
+  - logistic 回归
 ---
 
 # Ascent Fails to Forget

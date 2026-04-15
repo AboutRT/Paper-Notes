@@ -44,13 +44,13 @@ tags:
 
 - 8 个 LLM 嵌入器全面分析，包括 SGPT、OPT-EOL、LLaMA-EOL、GritLM、LLM2Vec 等
 - 三个量化指标：
-  - **Hit@K**：top-K 对齐 token 中是否包含输入文本 token（命中率）
-  - **LAR (Local Alignment Rate)**：top-$|T_{s_i}|$ 对齐 token 与输入 token 的重叠比例
-  - **GAR (Global Alignment Rate)**：数据集级别的全局重叠比例
+    - **Hit@K**：top-K 对齐 token 中是否包含输入文本 token（命中率）
+    - **LAR (Local Alignment Rate)**：top-$|T_{s_i}|$ 对齐 token 与输入 token 的重叠比例
+    - **GAR (Global Alignment Rate)**：数据集级别的全局重叠比例
 - 关键发现：
-  - 原始 $f$ 也能对齐某些 token，但多为无意义词（"and", "the"）
-  - $\hat{f}$ 对齐的 token 更**有意义**（"game", "November"）且更**多样化**（GAR 更高）
-  - 对比学习进一步增强了对齐的多样性和意义性
+    - 原始 $f$ 也能对齐某些 token，但多为无意义词（"and", "the"）
+    - $\hat{f}$ 对齐的 token 更**有意义**（"game", "November"）且更**多样化**（GAR 更高）
+    - 对比学习进一步增强了对齐的多样性和意义性
 
 **2. 谱分析解释**
 

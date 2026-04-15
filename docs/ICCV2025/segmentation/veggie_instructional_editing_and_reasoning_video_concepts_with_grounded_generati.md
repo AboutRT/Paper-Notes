@@ -65,28 +65,28 @@ VEGGIE 由四个组件组成：
 
     - 功能：将编辑和定位/分割统一为 video-to-video 生成任务
     - 核心思路：
-      - 视频编辑：输出是编辑后的视频帧
-      - 视频概念定位：输出是高亮目标物体的视频帧（颜色填充）
-      - 推理分割：输出是分割掩码可视化的视频帧
-      - 所有任务共享同一个像素空间输出格式，只需扩散损失
+        - 视频编辑：输出是编辑后的视频帧
+        - 视频概念定位：输出是高亮目标物体的视频帧（颜色填充）
+        - 推理分割：输出是分割掩码可视化的视频帧
+        - 所有任务共享同一个像素空间输出格式，只需扩散损失
     - 设计动机：避免为不同任务设计不同的 head 和损失函数，极大简化训练流程
 
 3. **数据合成 Pipeline（VEG-Edit）**：
 
     - 功能：将高质量图像编辑数据提升为视频编辑数据
     - 核心流程：
-      - 输入：原始图像 $I$、编辑后图像 $\bar{I}$、编辑指令
-      - Step 1：MLLM 生成图像描述和动画 prompt
-      - Step 2：Image-to-Video 模型将 $I$ 动画化为视频 $V$
-      - Step 3：First-frame-conditioned 视频编辑模型利用 $\bar{I}$ 生成编辑后视频 $\bar{V}$
-      - Step 4：自动视频质量评估过滤低质量样本
+        - 输入：原始图像 $I$、编辑后图像 $\bar{I}$、编辑指令
+        - Step 1：MLLM 生成图像描述和动画 prompt
+        - Step 2：Image-to-Video 模型将 $I$ 动画化为视频 $V$
+        - Step 3：First-frame-conditioned 视频编辑模型利用 $\bar{I}$ 生成编辑后视频 $\bar{V}$
+        - Step 4：自动视频质量评估过滤低质量样本
     - 设计动机：高质量标注的视频编辑数据极其稀缺，但图像编辑数据丰富（如 MagicBrush、Seed-Data-Edit 共 340 万）。通过 I2V 生成+质量过滤可以高效扩展视频训练数据
 
 ### 损失函数 / 训练策略
 
 - 全程仅使用**扩散损失**，不引入语言损失或掩码损失
 - Classifier-Free Guidance：测试时对 task tokens 和输入视频两路条件分别做 CFG：
-  - $\tilde{e_\theta}(z_t, c_T, c_V) = e_\theta(z_t, \varnothing, \varnothing) + g_T \cdot (e_\theta(z_t, c_V, c_T) - e_\theta(z_t, c_V, \varnothing)) + g_V \cdot (e_\theta(z_t, c_V, \varnothing) - e_\theta(z_t, \varnothing, \varnothing))$
+    - $\tilde{e_\theta}(z_t, c_T, c_V) = e_\theta(z_t, \varnothing, \varnothing) + g_T \cdot (e_\theta(z_t, c_V, c_T) - e_\theta(z_t, c_V, \varnothing)) + g_V \cdot (e_\theta(z_t, c_V, \varnothing) - e_\theta(z_t, \varnothing, \varnothing))$
 - 数据：Stage 1 共 340 万图像对（Seed-Data-Edit 300 万 + 分割/推理数据），Stage 2 共 13.6 万视频对
 
 ## 实验关键数据

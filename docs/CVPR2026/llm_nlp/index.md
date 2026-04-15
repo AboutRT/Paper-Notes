@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM/NLP
 
-**📷 CVPR2026** · 共 **4** 篇
+**📷 CVPR2026** · **4** 篇论文解读
 
 **[Composing Concepts From Images And Videos Via Concept-Prompt Binding](composing_concepts_from_images_and_videos_via_concept-prompt_binding.md)**
 

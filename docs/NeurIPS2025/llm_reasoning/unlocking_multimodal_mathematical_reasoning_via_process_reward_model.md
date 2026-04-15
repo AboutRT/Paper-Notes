@@ -46,9 +46,9 @@ tags:
 **Stage I：数据构建 + 基座训练**
 - 收集860K数学密集型视觉-语言对齐数据(URSA-Alignment-860K)，仅训练MLP投影层
 - 从5个开源数据集收集1.43M样本，按格式分三类处理：
-  - Answer-only → CoT扩展（用Gemini生成推理轨迹）
-  - Analysis-formatted → 重写（增强逐步逻辑和语言多样性）
-  - CoT-formatted → 格式统一（数学语言自然化）
+    - Answer-only → CoT扩展（用Gemini生成推理轨迹）
+    - Analysis-formatted → 重写（增强逐步逻辑和语言多样性）
+    - CoT-formatted → 格式统一（数学语言自然化）
 - 过滤正确性和一致性问题后得到MMathCoT-1M，全参数微调得URSA-8B
 
 **Stage II：双视角过程监督数据合成**

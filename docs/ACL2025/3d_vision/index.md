@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**💬 ACL2025** · 共 **1** 篇
+**💬 ACL2025** · **1** 篇论文解读
 
 **[Slamming Training A Speech Language Model On One Gpu In A Day](slamming_training_a_speech_language_model_on_one_gpu_in_a_day.md)**
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC检测
 
-**💬 ACL2025** · 共 **11** 篇
+**💬 ACL2025** · **11** 篇论文解读
 
 **[A Rose By Any Other Name Llm-Generated Explanations Are Good Proxies For Human E](a_rose_by_any_other_name_llm-generated_explanations_are_good_proxies_for_human_e.md)**
 

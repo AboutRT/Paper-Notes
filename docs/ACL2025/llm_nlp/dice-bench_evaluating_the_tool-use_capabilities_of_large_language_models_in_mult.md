@@ -2,20 +2,24 @@
 title: >-
   [论文解读] DICE-Bench: Evaluating the Tool-Use Capabilities of Large Language Models in Multi-Round, Multi-Party Dialogues
 description: >-
-  [LLM/NLP] 提出 DICE-Bench，一个面向多轮多方对话场景的函数调用评测基准，包含 1607 条高质量对话实例和量化信息分散度的 DICE-Score 指标，揭示当前 LLM 在复杂对话中工具调用能力的不足。
+  [ACL 2025][LLM/NLP][function-calling] 提出 DICE-Bench，一个面向多轮多方对话场景的函数调用评测基准，包含 1607 条高质量对话实例和量化信息分散度的 DICE-Score 指标，揭示当前 LLM 在复杂对话中工具调用能力的不足。
 tags:
+  - ACL 2025
   - LLM/NLP
+  - function-calling
+  - benchmark
+  - multi-party dialogue
+  - multi-round
+  - tool-use evaluation
 ---
 
 # DICE-Bench: Evaluating the Tool-Use Capabilities of Large Language Models in Multi-Round, Multi-Party Dialogues
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2506.22853](https://arxiv.org/abs/2506.22853) |
-| 代码 | [snuhcc/DICE-Bench](https://github.com/snuhcc/DICE-Bench) |
-| 领域 | LLM / NLP |
-| 关键词 | function-calling, benchmark, multi-party dialogue, multi-round, tool-use evaluation |
+**会议**: ACL 2025  
+**arXiv**: [2506.22853](https://arxiv.org/abs/2506.22853)  
+**代码**: [snuhcc/DICE-Bench](https://github.com/snuhcc/DICE-Bench)  
+**领域**: LLM / NLP  
+**关键词**: function-calling, benchmark, multi-party dialogue, multi-round, tool-use evaluation  
 
 ## 一句话总结
 

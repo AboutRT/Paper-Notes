@@ -57,26 +57,26 @@ tags:
 
     - 功能：为每个查询 $Q$ 和基础回复 $R$，生成仅在目标偏差特征上不同的对 $(R_p, R_p')$
     - 核心思路：使用 RATE (Reber et al., 2025) 两步重写协议：
-      - 第一步：将基础回复重写为放大偏差特征的版本 $R_p' = f_p(R)$
-      - 第二步：再次重写以生成控制基线 $R_p$
-      - 使用 $(R_p, R_p')$ 对测量偏差的因果效应
+        - 第一步：将基础回复重写为放大偏差特征的版本 $R_p' = f_p(R)$
+        - 第二步：再次重写以生成控制基线 $R_p$
+        - 使用 $(R_p, R_p')$ 对测量偏差的因果效应
     - 设计动机：简单的相关分析会混淆多个特征；反事实对允许**实验性隔离**单一特征的影响
 
 2. **度量体系**:
 
     - 功能：定义两个互补指标量化偏好模型的偏差程度
     - 核心公式：
-      - **Skew Rate**: $\text{Skew}_p = \frac{1}{N}\sum_{i=1}^N \mathbb{I}(\Delta s_i > 0)$，其中 $\Delta s_i = W_{RM}(Q^{(i)}, R_p'^{(i)}) - W_{RM}(Q^{(i)}, R_p^{(i)})$
-      - **Miscalibration Rate**: $\text{Miscal}_p = \frac{1}{N}\sum_{i=1}^N |\mathbb{I}(\Delta s_i > 0) - \mathbb{I}(\text{Human}(R_p'^{(i)} > R_p^{(i)}))|$
+        - **Skew Rate**: $\text{Skew}_p = \frac{1}{N}\sum_{i=1}^N \mathbb{I}(\Delta s_i > 0)$，其中 $\Delta s_i = W_{RM}(Q^{(i)}, R_p'^{(i)}) - W_{RM}(Q^{(i)}, R_p^{(i)})$
+        - **Miscalibration Rate**: $\text{Miscal}_p = \frac{1}{N}\sum_{i=1}^N |\mathbb{I}(\Delta s_i > 0) - \mathbb{I}(\text{Human}(R_p'^{(i)} > R_p^{(i)}))|$
     - 设计动机：Skew 衡量模型对偏差回复的内在倾向；Miscalibration 直接衡量与人类判断的不一致
 
 3. **反事实数据增强 (CDA)**:
 
     - 功能：在训练数据中注入明确的反偏差信号
     - 核心思路：对于训练集中两个回复都不包含目标偏差的对：
-      - 将被拒绝回复 $R_{rejected}$ 重写为放大偏差的版本 $R_{rejected,p}$
-      - 构造新训练样本 $(Q, R_{chosen} \succ R_{rejected,p})$——明确表达"加了偏差的回复应被拒绝"
-      - 补充 Chatbot Arena 样本缓解分布偏移
+        - 将被拒绝回复 $R_{rejected}$ 重写为放大偏差的版本 $R_{rejected,p}$
+        - 构造新训练样本 $(Q, R_{chosen} \succ R_{rejected,p})$——明确表达"加了偏差的回复应被拒绝"
+        - 补充 Chatbot Arena 样本缓解分布偏移
     - 设计动机：不修改模型架构或训练流程，仅从数据层面矫正，可无缝集成到现有 RLHF 流水线
 
 ### 损失函数 / 训练策略

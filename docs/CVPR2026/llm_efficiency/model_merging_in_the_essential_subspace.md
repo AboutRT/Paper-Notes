@@ -61,9 +61,9 @@ tags:
 
     - 功能：放大高置信度参数、抑制噪声参数
     - 核心思路：缩放因子均为 (相对范数)² 的形式：
-      - **任务间缩放** $s_t^{(\ell)} = (|\hat{A}_t^{(\ell)}|_F / \mathbb{E}_i[|\hat{A}_i^{(\ell)}|_F])^2$：防止重要任务信号被大量弱任务噪声淹没
-      - **维度间缩放** $c_j^{(\ell)} = (|\mathbf{a}_j^{(\ell)}|_2 / \mathbb{E}_i[|\mathbf{a}_i^{(\ell)}|_2])^2$：增强跨任务共识强的输入维度
-      - **层间缩放** $\beta_\ell = (|\Delta W_{\text{merged}}^{(\ell)}|_F / \mathbb{E}_{i \in \mathcal{L}_{\text{type}}}[|\Delta W_{\text{merged}}^{(i)}|_F])^2$：仅在同类型层间比较（如所有 QKV 层），避免残差连接导致的跨层竞争
+        - **任务间缩放** $s_t^{(\ell)} = (|\hat{A}_t^{(\ell)}|_F / \mathbb{E}_i[|\hat{A}_i^{(\ell)}|_F])^2$：防止重要任务信号被大量弱任务噪声淹没
+        - **维度间缩放** $c_j^{(\ell)} = (|\mathbf{a}_j^{(\ell)}|_2 / \mathbb{E}_i[|\mathbf{a}_i^{(\ell)}|_2])^2$：增强跨任务共识强的输入维度
+        - **层间缩放** $\beta_\ell = (|\Delta W_{\text{merged}}^{(\ell)}|_F / \mathbb{E}_{i \in \mathcal{L}_{\text{type}}}[|\Delta W_{\text{merged}}^{(i)}|_F])^2$：仅在同类型层间比较（如所有 QKV 层），避免残差连接导致的跨层竞争
     - 设计动机：实验（Figure 3-4）验证了高范数参数对应高置信度方向——按高范数优先顺序加载参数始终表现最好，即使归一化范数后仍然如此，说明是方向质量而非幅度在起作用
 
 ### 损失函数 / 训练策略

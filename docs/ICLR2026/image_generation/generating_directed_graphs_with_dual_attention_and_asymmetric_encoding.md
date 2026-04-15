@@ -59,8 +59,8 @@ Directo 构建在离散流匹配（DFM）框架之上。生成过程从噪声分
 
 - **做什么**：设计能区分源→目标和目标→源信息流的注意力模块
 - **核心思路**：构建两组方向特定的注意力映射：
-  - 源→目标方向：$\bm{Y}_{\text{ST}}[i,j] = \frac{\bm{Q}_S[i] \cdot \bm{K}_T[j]}{\sqrt{d_q}}$
-  - 目标→源方向：$\bm{Y}_{\text{TS}}[i,j] = \frac{\bm{Q}_T[i] \cdot \bm{K}_S[j]}{\sqrt{d_q}}$
+    - 源→目标方向：$\bm{Y}_{\text{ST}}[i,j] = \frac{\bm{Q}_S[i] \cdot \bm{K}_T[j]}{\sqrt{d_q}}$
+    - 目标→源方向：$\bm{Y}_{\text{TS}}[i,j] = \frac{\bm{Q}_T[i] \cdot \bm{K}_S[j]}{\sqrt{d_q}}$
   
   通过 FiLM 层用边特征调制后，将两个方向的注意力拼接并统一 softmax：$\bm{A}_{\text{aggr}} = \text{softmax}(\text{concat}(\bm{Y}'_{\text{ST}}, \bm{Y}'_{\text{TS}}))$，聚合后更新节点特征 $\bm{X}' = \bm{A}_{\text{aggr}} \bm{V}_{\text{aggr}}$
 - **设计动机**：标准注意力对称处理边关系，无法捕获有向图中源节点和目标节点的不同语义

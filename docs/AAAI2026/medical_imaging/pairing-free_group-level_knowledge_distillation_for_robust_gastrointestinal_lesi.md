@@ -188,10 +188,10 @@ $$\mathcal{L}_{total} = \mathcal{L}_{pro} + \mathcal{L}_{den} + \mathcal{L}_{cls
 
 - **跨模态独立分类（CIC）**：SSL-CPCD (自监督patch-image聚类), SSL-WCE (自适应聚合注意力), FFCNet (傅里叶变换降噪)
 - **跨模态蒸馏分类（CDC）**：
-  - PolypsAlign: 判别器+对比损失全局对齐
-  - CPC-Trans: Transformer交叉注意力patch/全局对齐
-  - ADD: 像素级图像到图像蒸馏（当前最强配对方法）
-  - SAMD: 语义注意力蒸馏
+    - PolypsAlign: 判别器+对比损失全局对齐
+    - CPC-Trans: Transformer交叉注意力patch/全局对齐
+    - ADD: 像素级图像到图像蒸馏（当前最强配对方法）
+    - SAMD: 语义注意力蒸馏
 - **知识蒸馏**：FitNets, RKD, CRD, PKT, Hinton原始KD
 
 ## 评分与推荐

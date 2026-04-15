@@ -57,8 +57,8 @@ EditReward 包含三个核心组件：
     - 从 6 个编辑基准收集 9557 个指令-图像对（GEdit-Bench、ImgEdit-Bench、MagicBrush 等）
     - 使用 6 个 SOTA 编辑模型（Step1X-Edit、Flux-Kontext、Qwen-Image-Edit 等）各生成多组输出
     - **关键**：训练有素的标注员按严格协议标注，采用 4 级 Likert 量表在两个维度评分：
-      - Instruction Following（IF）：语义准确性、完整性、无多余改动
-      - Visual Quality（VQ）：合理性、无伪影、美学
+        - Instruction Following（IF）：语义准确性、完整性、无多余改动
+        - Visual Quality（VQ）：合理性、无伪影、美学
     - Krippendorff's α 达到 IF=0.668, VQ=0.597，证明高标注质量
 
 2. **多维不确定性感知排序损失（Multi-Dimensional Uncertainty-Aware Ranking）**：

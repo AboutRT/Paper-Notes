@@ -52,9 +52,9 @@ tags:
 
     - 功能：对 GCN 下的 Sum/Avg/Max pooling 推导对抗风险上界
     - 核心思路（Theorem 4.2）：设 $L$ 层 GCN，权重矩阵 $W^{(\ell)}$，扰动预算 $\epsilon$，$\hat{w}_u$ 为节点 $u$ 出发的长度 $L-1$ 归一化游走总和：
-      - Sum pooling: $\gamma = (\prod_\ell \|W^{(\ell)}\|) \sum_{u} \hat{w}_u \epsilon$
-      - Average pooling: $\gamma = \frac{1}{n}(\prod_\ell \|W^{(\ell)}\|) \sum_{u} \hat{w}_u \epsilon$
-      - Max pooling: $\gamma = \sqrt{\min\{n,d_L\}}(\prod_\ell \|W^{(\ell)}\|) \max_{u} \hat{w}_u \epsilon$
+        - Sum pooling: $\gamma = (\prod_\ell \|W^{(\ell)}\|) \sum_{u} \hat{w}_u \epsilon$
+        - Average pooling: $\gamma = \frac{1}{n}(\prod_\ell \|W^{(\ell)}\|) \sum_{u} \hat{w}_u \epsilon$
+        - Max pooling: $\gamma = \sqrt{\min\{n,d_L\}}(\prod_\ell \|W^{(\ell)}\|) \max_{u} \hat{w}_u \epsilon$
     - 设计动机：Sum 的上界随图密度线性增长（脆弱），Avg 除以 $n$ 缓解，Max 只依赖单个最大节点（攻击目标明确时脆弱，随机攻击时可能更强）
 
 2. **RS-Pool (Robust Singular Pooling)**:

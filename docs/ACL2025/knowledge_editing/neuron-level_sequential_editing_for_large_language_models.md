@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Neuron-Level Sequential Editing for Large Language Models
 description: >-
-   提出NSE方法用于LLM的序列化模型编辑，通过权重回退（weights rewinding）防止模型崩溃、基于激活值的神经元级选择性权重更新缓解模型遗忘、以及迭代多层编辑提高大规模知识更新的成功率。
+  [ACL2025][NSE] 提出NSE方法用于LLM的序列化模型编辑，通过权重回退（weights rewinding）防止模型崩溃、基于激活值的神经元级选择性权重更新缓解模型遗忘、以及迭代多层编辑提高大规模知识更新的成功率。
 tags:
-
+  - ACL2025
+  - NSE
+  - Sequential Model Editing
+  - Neuron Selection
+  - Weights Rewinding
+  - Iterative Multi-Layer Editing
 ---
 
 # Neuron-Level Sequential Editing for Large Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2410.04045](https://arxiv.org/abs/2410.04045) |
-| 代码 | [GitHub](https://github.com/jianghoucheng/NSE) |
-| 领域 | 模型编辑 / 知识更新 / LLM |
-| 关键词 | NSE, Sequential Model Editing, Neuron Selection, Weights Rewinding, Iterative Multi-Layer Editing |
+**会议**: ACL2025  
+**arXiv**: [2410.04045](https://arxiv.org/abs/2410.04045)  
+**代码**: [GitHub](https://github.com/jianghoucheng/NSE)  
+**领域**: 模型编辑 / 知识更新 / LLM  
+**关键词**: NSE, Sequential Model Editing, Neuron Selection, Weights Rewinding, Iterative Multi-Layer Editing  
 
 ## 一句话总结
 

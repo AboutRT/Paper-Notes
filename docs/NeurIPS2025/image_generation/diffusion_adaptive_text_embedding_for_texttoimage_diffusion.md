@@ -2,13 +2,15 @@
 title: >-
   [论文解读] Diffusion Adaptive Text Embedding for Text-to-Image Diffusion Models
 description: >-
-  [NeurIPS 2025][图像生成] 提出DATE方法，在扩散模型采样过程中根据当前去噪状态动态更新文本嵌入，通过归一化梯度最大化文本-图像对齐评分，无需训练即可即插即用提升SD/FLUX/SDXL等模型的语义一致性。
+  [NeurIPS 2025][图像生成][文本嵌入优化] 提出 DATE（Diffusion Adaptive Text Embedding），在扩散模型采样过程中根据当前去噪中间结果动态更新文本嵌入，无需额外训练即可提升文本-图像语义对齐。
 tags:
   - NeurIPS 2025
   - 图像生成
   - 文本嵌入优化
   - 扩散模型采样
+  - 文本-图像对齐
   - 测试时优化
+  - 自适应条件
 ---
 
 # Diffusion Adaptive Text Embedding for Text-to-Image Diffusion Models

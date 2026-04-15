@@ -68,9 +68,9 @@ Coded-E2LF 系统由三部分组成：**(1)** 硬件层——可编程光圈 + e
 
 - **设计**：将黑 pattern 固定为序列第一个（$a^{(1)} = \mathbf{0}$），后续 $N-1$ 个 pattern 依次施加
 - **优势**：
-  - 从第一个黑 pattern 到各后续 pattern 的 event images $\{E^{(1,n)}\}_{n=2}^{N}$ 直接对应 intensity-based 测量
-  - 大幅减少 event 数量——相比任意序列，BF 避免了相邻非零 pattern 之间的冗余 events
-  - $N-1$ 个 event images 即可重建 $u \times v$ 视点的完整光场
+    - 从第一个黑 pattern 到各后续 pattern 的 event images $\{E^{(1,n)}\}_{n=2}^{N}$ 直接对应 intensity-based 测量
+    - 大幅减少 event 数量——相比任意序列，BF 避免了相邻非零 pattern 之间的冗余 events
+    - $N-1$ 个 event images 即可重建 $u \times v$ 视点的完整光场
 - **实测效率**：20ms 左右即可完成整个编码序列的采集
 
 ### Reference-Aware Event Generation (RA)
@@ -85,10 +85,10 @@ Coded-E2LF 系统由三部分组成：**(1)** 硬件层——可编程光圈 + e
 
 - **AcqNet（学习编码 pattern）**：输入随机初始化的连续 pattern $\tilde{a}^{(n)} \in [0,1]^{u \times v}$，训练收敛后二值化为 $a^{(n)} \in \{0,1\}^{u \times v}$
 - **RecNet（重建光场）**：接收 $N-1$ 个 event images，输出完整光场 $\hat{L} \in \mathbb{R}^{H \times W \times u \times v}$
-  - 架构：CNN-based encoder-decoder，spatial 和 angular 维度分别处理后融合
+    - 架构：CNN-based encoder-decoder，spatial 和 angular 维度分别处理后融合
 - **损失函数**：$\mathcal{L} = \mathcal{L}_{\text{recon}}(\hat{L}, L_{\text{GT}}) + \gamma \cdot \mathcal{L}_{\text{binary}}$
-  - $\mathcal{L}_{\text{recon}}$：光场重建的 L1 + SSIM 损失
-  - $\mathcal{L}_{\text{binary}}$：鼓励 pattern 趋于二值的正则化
+    - $\mathcal{L}_{\text{recon}}$：光场重建的 L1 + SSIM 损失
+    - $\mathcal{L}_{\text{binary}}$：鼓励 pattern 趋于二值的正则化
 - **训练流程**：前向——AcqNet 生成 pattern → RA 模拟 events → RecNet 重建光场；反向——梯度穿过整个 pipeline 联合优化编码和解码
 
 ## 实验

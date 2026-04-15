@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM安全
 
-**📹 ICCV2025** · 共 **4** 篇
+**📹 ICCV2025** · **4** 篇论文解读
 
 **[Adversarial Robust Memory-Based Continual Learner](adversarial_robust_memory-based_continual_learner.md)**
 

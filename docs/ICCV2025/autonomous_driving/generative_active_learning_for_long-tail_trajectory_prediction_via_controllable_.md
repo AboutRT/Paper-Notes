@@ -62,9 +62,9 @@ GALTraj 是一个迭代训练框架：
 2. **尾部感知生成方法 (Tail-Aware Generation)**：
 
     - **三类 agent 分类**：
-      - **尾部 agent**：预测误差高于阈值的 agent——保留其运动特征
-      - **头部 agent**：预测误差低的 agent——引入更多运动多样性
-      - **相关 agent**：与尾部 agent 交互强度高（注意力分数 > $\frac{1}{|\mathcal{N}_j|}$）的头部 agent——适度变化以避免不现实交互
+        - **尾部 agent**：预测误差高于阈值的 agent——保留其运动特征
+        - **头部 agent**：预测误差低的 agent——引入更多运动多样性
+        - **相关 agent**：与尾部 agent 交互强度高（注意力分数 > $\frac{1}{|\mathcal{N}_j|}$）的头部 agent——适度变化以避免不现实交互
     - **Real Guidance 控制多样性**：使用预训练扩散模型 LCSim，不从纯噪声开始反向采样，而是从加噪的 GT 轨迹的中间步骤 $K^*$ 开始。$K^* = \lambda_{type} \cdot K$，其中 $\lambda_{tail} = 0.25$（低噪声→高保真）、$\lambda_{rel} = 0.6$、$\lambda_{head} = 1.0$（高噪声→高多样性）。
     - **Gradient Guidance 约束交通规则**：对头部 agent 施加梯度引导，强制符合两条规则：(1) 不驶出道路边界 (no-off-road)；(2) 不与其他 agent 碰撞 (repeller)。公式：$p_\theta(y_{k-1} | y_k, \mathbf{x}) \approx \mathcal{N}(y_{k-1}; \mu + \Sigma^k \nabla_\mu \mathcal{C}(\mu), \Sigma^k)$。
     - **设计动机**：尾部 agent 保持原有的罕见行为模式不被"平滑掉"，头部 agent 的多样性从场景层面丰富尾部样本的表示，相关 agent 的适度变化防止不现实碰撞，梯度引导确保生成场景的物理合理性。

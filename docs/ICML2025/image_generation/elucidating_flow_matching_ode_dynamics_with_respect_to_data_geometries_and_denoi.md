@@ -70,7 +70,7 @@ $$\langle m_\sigma(x) - x, \text{proj}_\Omega(x) - x \rangle > 0$$
 
 **阶段三：终端阶段**（$\sigma \to 0$）
 - 核心结果：denoiser收敛到投影（Theorem 5.1）
-  - $\lim_{\sigma \to 0} m_\sigma(x) = \text{proj}_\Omega(x)$，对几乎所有 $x$
+    - $\lim_{\sigma \to 0} m_\sigma(x) = \text{proj}_\Omega(x)$，对几乎所有 $x$
 - 收敛速率依赖数据几何：流形上 $O(\sqrt{m}\sigma)$，离散分布上指数收敛
 - 主定理（Theorem 5.3）：在正reach和局部测度下界条件下，流映射 $\Psi_1$ 存在且 $(\Psi_1)_\# p_{\text{prior}} = p$
 

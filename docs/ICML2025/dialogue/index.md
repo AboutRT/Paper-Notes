@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**🧪 ICML2025** · 共 **3** 篇
+**🧪 ICML2025** · **3** 篇论文解读
 
 **[Agent Warpp Workflow Adherence Via Runtime Parallel Personalization](agent_warpp_workflow_adherence_via_runtime_parallel_personalization.md)**
 

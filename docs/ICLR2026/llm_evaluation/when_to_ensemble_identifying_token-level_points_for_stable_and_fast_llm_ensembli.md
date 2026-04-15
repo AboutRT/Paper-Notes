@@ -54,8 +54,8 @@ SAFE 将模型分为 drafter（最强模型，负责生成）和 verifiers（其
 
     - 功能：判断 drafter 的 token 是否已是集成分布的最大概率 token，如果是则跳过集成以提升效率
     - 核心思路：两个充分条件（满足任一即可跳过）：
-      - **一致共识**：所有 verifier 的 argmax token 都与 drafter 的 token 一致
-      - **平均概率 > 0.5**：所有模型对该 token 的平均概率超过 0.5
+        - **一致共识**：所有 verifier 的 argmax token 都与 drafter 的 token 一致
+        - **平均概率 > 0.5**：所有模型对该 token 的平均概率超过 0.5
     - 设计动机：避免重复构建代价高昂的集成分布。论文证明这两个条件保证跳过的 token 确实是集成分布的最大概率 token（不损失准确性）
 
 3. **概率锐化策略**:

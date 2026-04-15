@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Around the World in 24 Hours: Probing LLM Knowledge of Time and Place
 description: >-
-   本文提出 GeoTemp 数据集（320k 提示，覆盖 289 个城市和 37 个时区），首次评估 LLM 联合时间和空间推理的能力，发现模型能独立处理时间计算和地理知识，但在需要结合两者时性能急剧下降。
+  [ACL2025][时空推理] 本文提出 GeoTemp 数据集（320k 提示，覆盖 289 个城市和 37 个时区），首次评估 LLM 联合时间和空间推理的能力，发现模型能独立处理时间计算和地理知识，但在需要结合两者时性能急剧下降。
 tags:
-
+  - ACL2025
+  - 时空推理
+  - 地理知识
+  - 时间推理
+  - LLM评估
+  - 基准测试
 ---
 
 # Around the World in 24 Hours: Probing LLM Knowledge of Time and Place
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2506.03984](https://arxiv.org/abs/2506.03984) |
-| 代码 | [UhhDS/GeoTemp](https://github.com/UhhDS/GeoTemp) |
-| 领域 | llm_nlp |
-| 关键词 | 时空推理, 地理知识, 时间推理, LLM评估, 基准测试 |
+**会议**: ACL2025  
+**arXiv**: [2506.03984](https://arxiv.org/abs/2506.03984)  
+**代码**: [UhhDS/GeoTemp](https://github.com/UhhDS/GeoTemp)  
+**领域**: llm_nlp  
+**关键词**: 时空推理, 地理知识, 时间推理, LLM评估, 基准测试  
 
 ## 一句话总结
 

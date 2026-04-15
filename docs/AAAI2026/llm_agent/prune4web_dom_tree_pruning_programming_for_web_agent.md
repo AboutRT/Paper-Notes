@@ -53,9 +53,9 @@ tags:
 
     - 功能：生成评分函数参数，通过固定模板对 DOM 元素打分并剪枝到 Top-N
     - 核心思路三步：
-      - **Step 1 规则初筛**：只保留交互性标签（`<a>`, `<button>`, `<input>` 等）或有 `role` 属性的元素，非交互元素的文本附加到最近的交互元素作为上下文
-      - **Step 2 评分函数生成**：LLM 基于子任务 $S_t$ 生成 `keyword_weights` 字典（关键词→权重 1-50），plugged into 固定的评分模板
-      - **Step 3 模板执行**：三层级属性匹配（Tier1: visible text → Tier2: aria-label/placeholder → Tier3: class/id），四种匹配方式（exact > phrase > word > fuzzy，用 `rapidfuzz` + `nltk.stem.PorterStemmer`），加权求和后取 Top-20
+        - **Step 1 规则初筛**：只保留交互性标签（`<a>`, `<button>`, `<input>` 等）或有 `role` 属性的元素，非交互元素的文本附加到最近的交互元素作为上下文
+        - **Step 2 评分函数生成**：LLM 基于子任务 $S_t$ 生成 `keyword_weights` 字典（关键词→权重 1-50），plugged into 固定的评分模板
+        - **Step 3 模板执行**：三层级属性匹配（Tier1: visible text → Tier2: aria-label/placeholder → Tier3: class/id），四种匹配方式（exact > phrase > word > fuzzy，用 `rapidfuzz` + `nltk.stem.PorterStemmer`），加权求和后取 Top-20
     - 设计动机：LLM **只生成参数不生成程序**——可控性强（权重范围固定 1-50，关键词基于子任务语义），执行效率高（模板是固定 Python 代码），鲁棒性好（不依赖 LLM 写正确程序）
 
 3. **Action Grounder（操作执行器）**:

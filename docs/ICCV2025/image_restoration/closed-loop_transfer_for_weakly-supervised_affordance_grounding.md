@@ -61,14 +61,14 @@ $$\mathcal{G}^{\text{exo}}, \mathcal{G}^{\text{ego}} = \Theta_{\text{SCAM}}(\{\m
 $$\mathcal{L}_{\text{cls}} = -\sum_{i=1}^{N} \mathbb{I}(c_i = \hat{c}) \log(\sigma(z_i^{\text{exo}}) \cdot \sigma(z_i^{\text{ego}}))$$
 
 - **设计动机**：
-  - 自中心图像以物体为中心，无背景干扰，其激活结果天然聚焦物体区域，可帮助外中心CAM排除人体和背景干扰
-  - 共享参数强制跨视角一致性，减少域差异
-  - 即使外中心图像中交互区域被完全遮挡，共享CAM也能通过自中心图像的激活识别affordance区域
+    - 自中心图像以物体为中心，无背景干扰，其激活结果天然聚焦物体区域，可帮助外中心CAM排除人体和背景干扰
+    - 共享参数强制跨视角一致性，减少域差异
+    - 即使外中心图像中交互区域被完全遮挡，共享CAM也能通过自中心图像的激活识别affordance区域
 
 #### 2. 区域激活到像素定位
 - **做什么**：将粗糙的CAM激活区域精炼为精确的物体部件级定位
 - **核心思路**：分两步——
-  - **激活到物体部件**：利用自监督ViT DINO的特征进行无监督聚类，将自中心图像分成 $K$ 个语义部件 $\{o_1,...,o_K\}$。选择与自中心激活图 $\mathcal{G}^{\text{ego}}_{\hat{c}}$ 的IoU最高的部件作为伪掩码：
+    - **激活到物体部件**：利用自监督ViT DINO的特征进行无监督聚类，将自中心图像分成 $K$ 个语义部件 $\{o_1,...,o_K\}$。选择与自中心激活图 $\mathcal{G}^{\text{ego}}_{\hat{c}}$ 的IoU最高的部件作为伪掩码：
 
 $$\mathcal{M}^{\text{ego}} = \arg\max_{o_k} \text{IoU}(o_k, \mathbb{I}(\mathcal{R}(\mathcal{G}^{\text{ego}}_{\hat{c}}) \geq \mu))$$
 

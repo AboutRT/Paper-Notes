@@ -59,23 +59,23 @@ FlexAttention 可以即插即用地替换现有VLM的自注意力模块。整体
 
 - **做什么**：根据当前层的注意力图，从全部高分辨率token中选择与当前生成最相关的一小部分
 - **核心思路**：
-  - 取注意力图 $Map$ 最后一列的前 $N_i$ 个值（即所有低分辨率image token对最后一个text token的注意力权重），这些值反映了模型在生成下一个token时对各图像区域的关注程度
-  - 将这个1D注意力向量 reshape 为2D空间注意力图
-  - 对该注意力图进行归一化和二值化，得到一个binary mask
-  - 将该mask上采样到高分辨率feature map的空间尺寸，形成高分辨率选择mask
-  - 应用mask选出被"激活"的高分辨率token $f_{SHR}$，约占总高分辨率token的10%
+    - 取注意力图 $Map$ 最后一列的前 $N_i$ 个值（即所有低分辨率image token对最后一个text token的注意力权重），这些值反映了模型在生成下一个token时对各图像区域的关注程度
+    - 将这个1D注意力向量 reshape 为2D空间注意力图
+    - 对该注意力图进行归一化和二值化，得到一个binary mask
+    - 将该mask上采样到高分辨率feature map的空间尺寸，形成高分辨率选择mask
+    - 应用mask选出被"激活"的高分辨率token $f_{SHR}$，约占总高分辨率token的10%
 - **设计动机**：自注意力图本身就是一个"免费"的区域重要性信号，利用它来选择token避免了额外的选择网络开销。这种选择是逐层动态变化的，不同层可以关注不同的图像区域
 
 #### 2. 层次化自注意力模块（Hierarchical Self-Attention Module）
 
 - **做什么**：将选出的高分辨率token信息融合到原始hidden state（低分辨率token + text token）中
 - **核心思路**：
-  - Query $Q$ 只来自原始hidden state $H$：$Q = HW_Q$
-  - Key和Value通过拼接原始hidden state和选中的高分辨率token构建：
+    - Query $Q$ 只来自原始hidden state $H$：$Q = HW_Q$
+    - Key和Value通过拼接原始hidden state和选中的高分辨率token构建：
     - $K_{all} = \text{Concat}(HW_K, f_{SHR}W_K')$
     - $V_{all} = \text{Concat}(HW_V, f_{SHR}W_V')$
-  - 注意高分辨率token使用独立的投影矩阵 $W_K'$, $W_V'$，而非共享Query投影
-  - 输出注意力图 $Map'$ 尺寸为 $N \times (N+M)$，截取前 $N \times N$ 部分传递给下一层做token选择
+    - 注意高分辨率token使用独立的投影矩阵 $W_K'$, $W_V'$，而非共享Query投影
+    - 输出注意力图 $Map'$ 尺寸为 $N \times (N+M)$，截取前 $N \times N$ 部分传递给下一层做token选择
 - **设计动机**：这种设计保证hidden state的维度不变（仍为 $N \times D$），高分辨率token只参与K/V的计算而不引入新的Query，计算复杂度从 $O((M+N)^2D)$ 降为 $O((M+N)ND)$，实现了对高分辨率token的线性而非平方级计算增长
 
 #### 3. 逐层迭代选择机制

@@ -56,27 +56,27 @@ CombiSearch 包含三个阶段：
 #### 1. 多样性候选池构建
 - **做什么**: 为每个 query 建立 N=100 个高质量候选示例的池
 - **核心思路**: 
-  - 分别用 BM25（捕捉词汇/语言特征：词选择、共指、命名实体）和 SBERT（捕捉语义相似度）检索 top-N 候选
-  - 合并去重后用混合分数重排：$\text{hybrid\_score} = \text{TF-IDF} \times \text{cos\_sim}$
-  - 保留 top-N 形成最终候选池
+    - 分别用 BM25（捕捉词汇/语言特征：词选择、共指、命名实体）和 SBERT（捕捉语义相似度）检索 top-N 候选
+    - 合并去重后用混合分数重排：$\text{hybrid\_score} = \text{TF-IDF} \times \text{cos\_sim}$
+    - 保留 top-N 形成最终候选池
 - **设计动机**: 仅用语义检索会忽略重要的词汇/语法特征，BM25 能有效捕捉共指消解等语言现象
 
 #### 2. 组合式示例评分（CombiScore）
 - **做什么**: 衡量每个示例在与其他示例组合时对 DST 的贡献
 - **核心思路**: 
-  - 从候选池 $E$ 中随机采样 $k=10$ 个示例组成一个组合
-  - 用该组合作为 in-context examples 运行 DST 模型，计算 JGA
-  - JGA 为 1 时该组合中每个示例的 CombiScore +1，为 0 则不变
-  - 重复 $M=3$ 次采样评估，最终每个示例获得累积的 CombiScore
+    - 从候选池 $E$ 中随机采样 $k=10$ 个示例组成一个组合
+    - 用该组合作为 in-context examples 运行 DST 模型，计算 JGA
+    - JGA 为 1 时该组合中每个示例的 CombiScore +1，为 0 则不变
+    - 重复 $M=3$ 次采样评估，最终每个示例获得累积的 CombiScore
 - **关键优势**: 时间复杂度关于示例数量是**线性的** $O(N \cdot M)$，而非指数级的穷举
 - **设计动机**: 穷举所有 $\binom{100}{10}$ 组合不可行，通过随机采样近似可以有效发现"好队友"型示例
 
 #### 3. 检索器训练
 - **做什么**: 用 CombiScore 数据训练专门的 ICL 示例检索器
 - **核心思路**: 
-  - 正例：CombiScore 最高的 top-$|P|$ 个示例
-  - 负例：CombiScore 最低的 bottom-$B$ 个 + 池外随机采样的 $B-1$ 个
-  - 使用 InfoNCE 对比学习损失训练：
+    - 正例：CombiScore 最高的 top-$|P|$ 个示例
+    - 负例：CombiScore 最低的 bottom-$B$ 个 + 池外随机采样的 $B-1$ 个
+    - 使用 InfoNCE 对比学习损失训练：
   
 $$L(x, P, N) = \sum_{e^+ \in P} -\log \frac{\exp(\text{sim}(x, e^+))}{\sum_{e' \in N \cup \{e^+\}} \exp(\text{sim}(x, e'))}$$
 

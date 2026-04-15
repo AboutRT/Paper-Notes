@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**📹 ICCV2025** · 共 **31** 篇
+**📹 ICCV2025** · **31** 篇论文解读
 
 **[Alocc Adaptive Lifting-Based 3D Semantic Occupancy And Cost Volume-Based Flow Pr](alocc_adaptive_lifting-based_3d_semantic_occupancy_and_cost_volume-based_flow_pr.md)**
 

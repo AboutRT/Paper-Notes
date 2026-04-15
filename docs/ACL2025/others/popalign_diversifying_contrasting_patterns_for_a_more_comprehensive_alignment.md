@@ -2,20 +2,24 @@
 title: >-
   [论文解读] PopAlign: Diversifying Contrasting Patterns for a More Comprehensive Alignment
 description: >-
-   提出PopAlign框架，从Prompt、Model、Pipeline三个层面构建六种多样化对比策略（包括创新的Elicitive Contrast），无需额外人工标注即可合成高质量偏好数据，实现更全面的LLM对齐。
+  [ACL2025][PopAlign] 提出PopAlign框架，从Prompt、Model、Pipeline三个层面构建六种多样化对比策略（包括创新的Elicitive Contrast），无需额外人工标注即可合成高质量偏好数据，实现更全面的LLM对齐。
 tags:
-
+  - ACL2025
+  - PopAlign
+  - Contrasting Patterns
+  - DPO
+  - Preference Data
+  - Alignment
+  - Elicitive Contrast
 ---
 
 # PopAlign: Diversifying Contrasting Patterns for a More Comprehensive Alignment
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2410.13785](https://arxiv.org/abs/2410.13785) |
-| 代码 | - |
-| 领域 | LLM对齐 / 偏好优化 / 对比学习 |
-| 关键词 | PopAlign, Contrasting Patterns, DPO, Preference Data, Alignment, Elicitive Contrast |
+**会议**: ACL2025  
+**arXiv**: [2410.13785](https://arxiv.org/abs/2410.13785)  
+**代码**: -  
+**领域**: LLM对齐 / 偏好优化 / 对比学习  
+**关键词**: PopAlign, Contrasting Patterns, DPO, Preference Data, Alignment, Elicitive Contrast  
 
 ## 一句话总结
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**📷 CVPR2026** · 共 **5** 篇
+**📷 CVPR2026** · **5** 篇论文解读
 
 **[A Frame Is Worth One Token Efficient Generative World Modeling With Delta Tokens](a_frame_is_worth_one_token_efficient_generative_world_modeling_with_delta_tokens.md)**
 

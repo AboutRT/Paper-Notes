@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond Match Maximization and Fairness: Retention-Optimized Two-Sided Matching
 description: >-
-  [ICLR 2026][AI安全][推荐系统] 提出MRet算法，首次将双边匹配平台的优化目标从匹配数/公平性转向用户留存率，通过学习个性化留存曲线并联合优化推荐双方的留存增益，在合成数据和真实约会平台上显著提升用户留存。
+  [ICLR 2026][AI安全][双边匹配] 提出Matching for Retention（MRet）算法，首次将双边匹配平台的优化目标从"最大化匹配数"或"满足公平性"转向"直接最大化用户留存率"，通过学习个性化留存曲线并利用凹函数性质将NP-hard的双方留存增益联合优化降为O(N log N)的排序问题，在合成数据和日本大型约会平台真实数据上均显著提升留存。
 tags:
   - ICLR 2026
   - AI安全
   - 双边匹配
   - 用户留存
-  - 学习排序
-  - 在线约会
-  - 公平性
+  - 动态学习排序
+  - 在线约会平台
+  - 留存优化
 ---
 
 # Beyond Match Maximization and Fairness: Retention-Optimized Two-Sided Matching

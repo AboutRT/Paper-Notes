@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI安全
 
-**📹 ICCV2025** · 共 **23** 篇
+**📹 ICCV2025** · **23** 篇论文解读
 
 **[A Framework For Double-Blind Federated Adaptation Of Foundation Models](a_framework_for_double-blind_federated_adaptation_of_foundation_models.md)**
 

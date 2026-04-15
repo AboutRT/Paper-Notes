@@ -57,9 +57,9 @@ $F_E$ 的输入包括：
 
 - **全局输入**：穿衣人物图经CLIP编码为 $e^v_{pool} \in \mathbb{R}^{2048}$，通过AdaLN调制
 - **局部空间输入**：通道拼接 $z'_t = [z_t, M, x_M] \in \mathbb{R}^{h \times w \times 33}$
-  - $z_t$：噪声隐变量(16通道)
-  - $M$：二值掩码(1通道)  
-  - $x_M = \mathcal{E}(x_{model} \odot M)$：掩码人物图的VAE编码(16通道)
+    - $z_t$：噪声隐变量(16通道)
+    - $M$：二值掩码(1通道)  
+    - $x_M = \mathcal{E}(x_{model} \odot M)$：掩码人物图的VAE编码(16通道)
 
 在 $t=0$ 时提取各层的键值对 $K^l_{extractor}, V^l_{extractor}$（而非各去噪步的），因为需要从干净数据提取特征。
 

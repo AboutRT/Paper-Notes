@@ -111,9 +111,9 @@ CafCor-SecLDP 在 f=5 时接近 CDP 性能，远超 LDP。
 **聚合方法比较**（Figure 2，n-f=10 诚实工作者）：
 - CafCor (CAF) vs CWTM, CWMED, GM, Multi-Krum, Meamed
 - 在 Sign Flipping 和 Label Flipping 攻击下：
-  - CAF 在所有攻击下均最优，LF 攻击下接近 90% 准确率
-  - CWTM/CWMED/GM 在 LF 攻击下准确率仅约 50%
-  - 将 CAF 替换为 trimmed mean 理论收敛率恶化 n 倍
+    - CAF 在所有攻击下均最优，LF 攻击下接近 90% 准确率
+    - CWTM/CWMED/GM 在 LF 攻击下准确率仅约 50%
+    - 将 CAF 替换为 trimmed mean 理论收敛率恶化 n 倍
 
 ### 关键发现
 

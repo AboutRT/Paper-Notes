@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**🤖 AAAI2026** · 共 **65** 篇
+**🤖 AAAI2026** · **65** 篇论文解读
 
 **[10 Open Challenges Steering The Future Of Vision-Language-Ac](10_open_challenges_steering_the_future_of_vision-language-ac.md)**
 

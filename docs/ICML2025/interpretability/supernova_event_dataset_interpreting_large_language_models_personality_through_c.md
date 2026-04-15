@@ -92,9 +92,9 @@ tags:
 - **推理时策略**：结构化 prompt 引导 + RAG 检索增强
 - **人格量化**：通过频率加权的特质嵌入聚合
 - **科学发现分析**：结合关键词计数 + 开放编码（open coding），收敛出三类决策原则：
-  - **因果中心型**（causality-centric）：关注机制和因果路径
-  - **赋能中心型**（enablement-centric）：关注基础、障碍消除、验证
-  - **综合中心型**（synthesis-centric）：强调概念整合和范式级连接
+    - **因果中心型**（causality-centric）：关注机制和因果路径
+    - **赋能中心型**（enablement-centric）：关注基础、障碍消除、验证
+    - **综合中心型**（synthesis-centric）：强调概念整合和范式级连接
 
 ## 实验关键数据
 

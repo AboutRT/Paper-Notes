@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 图像恢复方向 11篇论文解读
+  CVPR2025 图像恢复方向 10篇论文解读
 description: >-
-  11篇CVPR2025 图像恢复方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  10篇CVPR2025 图像恢复方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**📷 CVPR2025** · 共 **11** 篇
+**📷 CVPR2025** · **10** 篇论文解读
 
 **[A Flag Decomposition For Hierarchical Datasets](a_flag_decomposition_for_hierarchical_datasets.md)**
 
@@ -27,10 +27,6 @@ description: >-
 **[Augmenting Perceptual Super-Resolution Via Image Quality Predictors](augmenting_perceptual_super-resolution_via_image_quality_predictors.md)**
 
 :   利用无参考图像质量评估（NR-IQA）模型代替人工标注，通过加权采样和直接优化两种方式提升感知超分辨率的图像质量，在无需人工数据的条件下超越依赖人工反馈的 SOTA 方法。
-
-**[Bf-Stvsr B-Splines And Fourier---Best Friends For High Fidelity Spatia](bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatia.md)**
-
-:   提出 BF-STVSR 框架，用 B-spline Mapper 建模时间运动插值、Fourier Mapper 捕获空间高频细节，无需外部光流网络即可实现连续时空视频超分辨率的 SOTA 性能。
 
 **[Bf-Stvsr B-Splines And Fourier---Best Friends For High Fidelity Spatial-Temporal](bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatial-temporal.md)**
 

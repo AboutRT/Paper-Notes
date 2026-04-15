@@ -1,77 +1,80 @@
 # 📚 AI Paper Notes
 
-- 📖 **10,000+** 篇 AI · LLM · NLP · CV 顶会论文解读，每篇 5 分钟读懂核心思想
+- 📖 **11,500+** 篇 AI · LLM · NLP · CV 顶会论文解读，每篇 5 分钟读懂核心思想
 - 🏛️ 覆盖 ICLR · CVPR · ACL · NeurIPS · ICML · AAAI · ICCV · ECCV 等顶会
-- 🔬 横跨 LLM Reasoning · 多模态 VLM · Agent · RLHF · RAG · 代码智能 · 强化学习 · 图像生成 · 模型压缩 · 3D 视觉 · 机器人 · 自动驾驶等44个研究方向
+- 🔬 横跨 LLM Reasoning · VLM · Agent · RLHF · RAG · AIGC · 代码智能 · 强化学习 · 模型压缩 · 3D视觉 · 机器人 · 自动驾驶等46个研究方向
 - 🔄 持续更新中
 
 ## 🌐 在线阅读
 
 **[https://zhaoyang97.github.io/Paper-Notes/](https://zhaoyang97.github.io/Paper-Notes/)**
 
+> 💡 **提示**：如果笔记中的数学公式加载不出来，请刷新页面即可。
+
 ## 📊 会议覆盖
 
 | 会议 | 笔记数 |
 |------|-------:|
-| ICLR 2026 | 1,567 |
-| CVPR 2026 | 1,330 |
-| ACL 2025 | 1,520 |
-| NeurIPS 2025 | 2,301 |
-| ICML 2025 | 1,077 |
-| AAAI 2026 | 1,292 |
-| ICCV 2025 | 1,321 |
-| CVPR 2025 | 288 |
-| ECCV 2024 | 313 |
+| ICLR 2026 | 1,513 |
+| CVPR 2026 | 1,301 |
+| ACL 2025 | 1,516 |
+| NeurIPS 2025 | 2,538 |
+| ICML 2025 | 1,059 |
+| AAAI 2026 | 1,296 |
+| ICCV 2025 | 1,312 |
+| CVPR 2025 | 374 |
+| ECCV 2024 | 678 |
 
 ## 🔍 研究领域
 
 | 文件夹 | 领域 | 笔记数 |
 |--------|------|-------:|
-| `3d_vision/` | 🧊 3D 视觉 | 808 |
-| `ai_safety/` | 🛡️ AI 安全/隐私 | 354 |
+| `3d_vision/` | 🧊 3D 视觉 | 916 |
+| `ai_safety/` | 🛡️ AI 安全/隐私 | 365 |
 | `aigc_detection/` | 🔎 AIGC 检测 | 28 |
-| `audio_speech/` | 🎵 音频/语音 | 153 |
-| `autonomous_driving/` | 🚗 自动驾驶 | 338 |
-| `causal_inference/` | 🔗 因果推理 | 79 |
-| `code_intelligence/` | 💻 代码智能 | 84 |
-| `dialogue/` | 🗣️ 对话系统 | 28 |
+| `audio_speech/` | 🎵 音频/语音 | 161 |
+| `autonomous_driving/` | 🚗 自动驾驶 | 376 |
+| `causal_inference/` | 🔗 因果推理 | 80 |
+| `code_intelligence/` | 💻 代码智能 | 82 |
+| `dialogue/` | 🗣️ 对话系统 | 27 |
 | `earth_science/` | 🌍 地球科学 | 7 |
-| `graph_learning/` | 🕸️ 图学习 | 165 |
-| `human_understanding/` | 🧑 人体理解 | 375 |
-| `image_generation/` | 🎨 图像生成 | 1,018 |
-| `image_restoration/` | 🖼️ 图像恢复 | 126 |
-| `information_retrieval/` | 🔍 信息检索/RAG | 177 |
-| `interpretability/` | 🔬 可解释性 | 257 |
-| `knowledge_editing/` | ✏️ 知识编辑 | 39 |
-| `llm_agent/` | 🦾 LLM Agent | 230 |
-| `llm_alignment/` | ⚖️ 对齐/RLHF | 218 |
+| `graph_learning/` | 🕸️ 图学习 | 173 |
+| `human_understanding/` | 🧑 人体理解 | 415 |
+| `image_generation/` | 🎨 图像生成 | 1,090 |
+| `image_restoration/` | 🖼️ 图像恢复 | 148 |
+| `information_retrieval/` | 🔍 信息检索/RAG | 180 |
+| `interpretability/` | 🔬 可解释性 | 260 |
+| `knowledge_editing/` | ✏️ 知识编辑 | 38 |
+| `llm_agent/` | 🦾 LLM Agent | 218 |
+| `llm_alignment/` | ⚖️ 对齐/RLHF | 221 |
 | `llm_efficiency/` | ⚡ LLM 效率 | 153 |
-| `llm_evaluation/` | 📊 LLM 评测 | 300 |
+| `llm_evaluation/` | 📊 LLM 评测 | 302 |
 | `llm_nlp/` | 💬 LLM/NLP (其他) | 458 |
-| `llm_pretraining/` | 📚 预训练/数据 | 154 |
-| `llm_reasoning/` | 💡 LLM 推理 | 240 |
-| `llm_safety/` | 🔒 LLM 安全 | 77 |
-| `medical_imaging/` | 🏥 医学图像 | 597 |
-| `model_compression/` | 📦 模型压缩 | 503 |
+| `llm_pretraining/` | 📚 预训练/数据 | 155 |
+| `llm_reasoning/` | 💡 LLM 推理 | 228 |
+| `llm_safety/` | 🔒 LLM 安全 | 79 |
+| `medical_imaging/` | 🏥 医学图像 | 630 |
+| `model_compression/` | 📦 模型压缩 | 528 |
 | `multilingual_mt/` | 🌐 多语言/翻译 | 100 |
-| `multimodal_vlm/` | 🧩 多模态 VLM | 825 |
+| `multimodal_vlm/` | 🧩 多模态 VLM | 829 |
 | `nlp_generation/` | ✍️ 文本生成 | 28 |
-| `nlp_understanding/` | 📖 NLP 理解 | 31 |
-| `object_detection/` | 🎯 目标检测 | 244 |
-| `optimization/` | 📐 优化/理论 | 235 |
+| `nlp_understanding/` | 📖 NLP 理解 | 30 |
+| `object_detection/` | 🎯 目标检测 | 265 |
+| `optimization/` | 📐 优化/理论 | 254 |
 | `physics/` | ⚛️ 物理学 | 30 |
-| `recommender/` | 🎁 推荐系统 | 76 |
-| `reinforcement_learning/` | 🎮 强化学习 | 454 |
-| `remote_sensing/` | 🛰️ 遥感 | 63 |
-| `robotics/` | 🤖 机器人/具身智能 | 226 |
+| `recommender/` | 🎁 推荐系统 | 77 |
+| `reinforcement_learning/` | 🎮 强化学习 | 467 |
+| `remote_sensing/` | 🛰️ 遥感 | 67 |
+| `robotics/` | 🤖 机器人/具身智能 | 234 |
 | `scientific_computing/` | 🧮 科学计算 | 51 |
-| `segmentation/` | ✂️ 语义分割 | 284 |
-| `self_supervised/` | 🔄 自监督/表示学习 | 108 |
-| `signal_comm/` | 📡 信号/通信 | 37 |
-| `social_computing/` | 👥 社会计算 | 72 |
-| `time_series/` | 📈 时间序列 | 152 |
-| `video_understanding/` | 🎬 视频理解 | 310 |
-| `others/` | 📂 其他 | 717 |
+| `segmentation/` | ✂️ 语义分割 | 320 |
+| `self_supervised/` | 🔄 自监督/表示学习 | 129 |
+| `signal_comm/` | 📡 信号/通信 | 28 |
+| `social_computing/` | 👥 社会计算 | 73 |
+| `time_series/` | 📈 时间序列 | 154 |
+| `video_generation/` | 🎬 视频生成 | 38 |
+| `video_understanding/` | 📹 视频理解 | 336 |
+| `others/` | 📂 其他 | 757 |
 
 ## 📝 笔记格式
 

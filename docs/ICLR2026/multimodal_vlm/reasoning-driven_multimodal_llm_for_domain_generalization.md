@@ -2,15 +2,10 @@
 title: >-
   [论文解读] Reasoning-Driven Multimodal LLM for Domain Generalization
 description: >-
-  [ICLR 2026][多模态][域泛化] 提出RD-MLDG——首个用MLLM推理链增强域泛化的框架：构建DomainBed-Reasoning数据集(每个样本配GPT-4o生成的类别相关推理链)，发现推理监督比直接标签更难优化且存在推理模式不匹配问题，通过MTCT(多任务交叉训练)和SARR(自对齐推理正则化)解决这两个挑战，在PACS/VLCS/OfficeHome/TerraInc上达SOTA。
+  [ICLR 2026][多模态] 提出 RD-MLDG——首个将 MLLM 推理链引入域泛化的框架。构建 DomainBed-Reasoning 数据集，系统分析推理监督的两大挑战（优化困难 + 推理模式不匹配），通过 MTCT（多任务交叉训练）与 SARR（自对齐推理正则化）协同解决，在 4 个标准 DG 基准上以 86.89% 的平均准确率大幅超越 GPT-4o（83.46%）和所有 CLIP/ViT 方法。
 tags:
   - ICLR 2026
   - 多模态
-  - 域泛化
-  - MLLM
-  - 推理链
-  - 多任务交叉训练
-  - 自对齐正则化
 ---
 
 # Reasoning-Driven Multimodal LLM for Domain Generalization

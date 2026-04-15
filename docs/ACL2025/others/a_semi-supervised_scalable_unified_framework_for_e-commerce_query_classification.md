@@ -56,19 +56,19 @@ SSUF 的核心是一个共享 BERT 文本编码器，叠加三个高度可插拔
 
     - 功能：用外部知识补充短查询的语义信息，并生成半监督训练信号
     - 核心思路：
-      - **知识来源**：(1) 后验知识——用户高频点击/购买的产品标签，(2) 世界知识——将查询和相关产品送入开源 LLM 生成简短描述（含相关查询/品类/产品）
-      - **知识融合**：注意力机制融合查询表示和知识嵌入: $\alpha = \text{softmax}(\mathbf{Q}_i \mathbf{K}^T)$, $\mathbf{q}'_i = \mathbf{Q}_i + \sum_j \alpha_j \mathbf{K}_j$
-      - **半监督标签生成**：计算融合后查询与标签的余弦相似度，超过阈值 $\tau$ 的作为半监督标签 $y^{semi}_{ij} = s_{ij} \cdot \mathbb{1}_{s_{ij} \geq \tau}$
-      - **关键设计**：对半监督分支做 stop_gradient，防止循环依赖导致模型坍塌
+        - **知识来源**：(1) 后验知识——用户高频点击/购买的产品标签，(2) 世界知识——将查询和相关产品送入开源 LLM 生成简短描述（含相关查询/品类/产品）
+        - **知识融合**：注意力机制融合查询表示和知识嵌入: $\alpha = \text{softmax}(\mathbf{Q}_i \mathbf{K}^T)$, $\mathbf{q}'_i = \mathbf{Q}_i + \sum_j \alpha_j \mathbf{K}_j$
+        - **半监督标签生成**：计算融合后查询与标签的余弦相似度，超过阈值 $\tau$ 的作为半监督标签 $y^{semi}_{ij} = s_{ij} \cdot \mathbb{1}_{s_{ij} \geq \tau}$
+        - **关键设计**：对半监督分支做 stop_gradient，防止循环依赖导致模型坍塌
     - 设计动机：如"黑 16pro"通过 LLM 知识可补充为"苹果手机 iPhone 16 Pro 黑色"，从而与"手机"类目匹配
 
 3. **结构增强模块（Structure-Enhanced Module）**:
 
     - 功能：通过标签关系图传播梯度到长尾标签
     - 核心思路——三种图构建：
-      - **共现图** $\mathbf{A}^{coo}$：标签共现条件概率 $a_{ij} = N(c_i, c_j) / N(c_i)$，阈值 $\alpha$ 过滤低频边
-      - **语义相似图** $\mathbf{A}^{sim}$：标签 BERT 嵌入的余弦相似度，阈值 $\beta$ 过滤
-      - **层级结构图** $\mathbf{A}^{hier}$：父子标签关系，边权 = $\max(1/|Child(k)|, m_i / \sum_{j \in Child(k)} m_j)$
+        - **共现图** $\mathbf{A}^{coo}$：标签共现条件概率 $a_{ij} = N(c_i, c_j) / N(c_i)$，阈值 $\alpha$ 过滤低频边
+        - **语义相似图** $\mathbf{A}^{sim}$：标签 BERT 嵌入的余弦相似度，阈值 $\beta$ 过滤
+        - **层级结构图** $\mathbf{A}^{hier}$：父子标签关系，边权 = $\max(1/|Child(k)|, m_i / \sum_{j \in Child(k)} m_j)$
     - **图融合与学习**：$\mathbf{A} = \frac{1}{2}(\mathbf{A}^{coo} + \mathbf{A}^{sim}) \rightarrow \mathbf{A}^{hier}$，归一化后用 GCN 学习标签表示
     - 设计动机：长尾标签训练样本少但可通过图连接与热门标签关联，获得梯度传播
 

@@ -68,9 +68,9 @@ UnmaskFormer 由三大部分组成：
 
     - **做什么**: 跨域数据增强策略，利用 amodal 标注生成遮挡训练样本并融合源域-目标域图像
     - **核心思路**:
-      - 随机采样 amodal 实例掩码 $\{M_r^{(i)}\}_{i=1}^z$，经随机缩放 $RS(\cdot)$ 和随机填充 $RP(\cdot)$ 生成新掩码 $M_r = H(\sum_i RP(RS(M_r^{(i)})))$
-      - 用 $M_r$ 遮盖源图像 Thing 区域：$\hat{x}_s = (1 - M_r \cap M_s) \odot x_s$
-      - 随机采样一半语义类别从遮盖源图 $\hat{x}_s$ 粘贴到目标图 $x_t$，生成混合图 $\hat{x}_m$
+        - 随机采样 amodal 实例掩码 $\{M_r^{(i)}\}_{i=1}^z$，经随机缩放 $RS(\cdot)$ 和随机填充 $RP(\cdot)$ 生成新掩码 $M_r = H(\sum_i RP(RS(M_r^{(i)})))$
+        - 用 $M_r$ 遮盖源图像 Thing 区域：$\hat{x}_s = (1 - M_r \cap M_s) \odot x_s$
+        - 随机采样一半语义类别从遮盖源图 $\hat{x}_s$ 粘贴到目标图 $x_t$，生成混合图 $\hat{x}_m$
     - **设计动机**: 用真实物体形状（而非随机 patch）做遮挡，更贴近实际场景；同时混合源域-目标域弥补域差距
 
 4. **OAFusion (Occlusion-Aware Fusion)**:

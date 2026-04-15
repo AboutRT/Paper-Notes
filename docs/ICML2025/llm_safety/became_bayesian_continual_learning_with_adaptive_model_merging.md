@@ -54,9 +54,9 @@ BECAME 两阶段流程（对每个新任务）：
 
     - 功能：将线性模型融合重新表述为贝叶斯后验的 MAP 估计
     - 核心思路：
-      - 旧后验 $p(\theta | D_{\text{old}}) \approx \mathcal{N}(\theta^{GP}, H_{\text{old}}^{-1})$（Laplace 近似）
-      - 新数据似然 $p(D_{\text{new}} | \theta)$
-      - 融合后验 $p(\theta | D_{\text{all}}) \propto p(D_{\text{new}} | \theta) \cdot p(\theta | D_{\text{old}})$
+        - 旧后验 $p(\theta | D_{\text{old}}) \approx \mathcal{N}(\theta^{GP}, H_{\text{old}}^{-1})$（Laplace 近似）
+        - 新数据似然 $p(D_{\text{new}} | \theta)$
+        - 融合后验 $p(\theta | D_{\text{all}}) \propto p(D_{\text{new}} | \theta) \cdot p(\theta | D_{\text{old}})$
     - 与前人的区别：IMM/CoMA 假设各任务后验独立→融合系数缺乏理论依据；BECAME 基于序贯贝叶斯更新→融合系数从后验 MAP 自然导出
     - 设计动机：贝叶斯框架提供了最优性保证——融合点最大化所有任务的联合后验
 
@@ -64,9 +64,9 @@ BECAME 两阶段流程（对每个新任务）：
 
     - 功能：在 $\theta^{GP}$ 和 $\hat{\theta}$ 的线性路径上找最优 $\alpha^*$
     - 核心思路：
-      - 目标：$\alpha^* = \arg\min_\alpha \mathcal{L}_{\text{all}}((1-\alpha)\theta^{GP} + \alpha \hat{\theta})$
-      - 关键定理：累积损失沿线性路径是 $\alpha$ 的凸函数（在 Laplace 近似下）
-      - 闭式解：$\alpha^* = \frac{\delta^T H_{\text{old}} \delta + \nabla \mathcal{L}_{\text{new}}(\theta^{GP})^T \delta}{\delta^T (H_{\text{old}} + H_{\text{new}}) \delta}$
+        - 目标：$\alpha^* = \arg\min_\alpha \mathcal{L}_{\text{all}}((1-\alpha)\theta^{GP} + \alpha \hat{\theta})$
+        - 关键定理：累积损失沿线性路径是 $\alpha$ 的凸函数（在 Laplace 近似下）
+        - 闭式解：$\alpha^* = \frac{\delta^T H_{\text{old}} \delta + \nabla \mathcal{L}_{\text{new}}(\theta^{GP})^T \delta}{\delta^T (H_{\text{old}} + H_{\text{new}}) \delta}$
        其中 $\delta = \hat{\theta} - \theta^{GP}$，$H$ 为 Hessian
     - 设计动机：闭式解消除了超参数搜索——不同任务、不同损失景观自动产生不同的 $\alpha^*$
 

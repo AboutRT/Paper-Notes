@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**📹 ICCV2025** · 共 **2** 篇
+**📹 ICCV2025** · **2** 篇论文解读
 
 **[Pasta Part-Aware Sketch-To-3D Shape Generation With Text-Aligned Prior](pasta_part-aware_sketch-to-3d_shape_generation_with_text-aligned_prior.md)**
 

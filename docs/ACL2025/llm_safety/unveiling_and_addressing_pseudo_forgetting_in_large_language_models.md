@@ -68,8 +68,8 @@ tags:
 - **做什么**：定义 Rationale-Guidance Difficulty (RGD) 指标衡量伪遗忘程度，基于此设计动态回放数据分配策略。
 - **为什么**：等量回放（每个旧任务回放相同数据量）效率不高，应根据各任务的实际遗忘程度动态分配。
 - **怎么做**：
-  - RGD 定义：$\text{RGD}(I, R_g, A_g) = \frac{\text{PPL}_{a\text{-}f}(R_g|I)}{\text{PPL}_{b\text{-}f}(R_g)}$，即遗忘后模型在指令引导下生成正确 rationale 的困惑度与遗忘前的比值。RGD 越高 → 伪遗忘越严重。
-  - 动态分配：第 $j$ 个旧任务的回放数据比例 $\alpha_j = \frac{\text{RGD}_{D_j}}{\sum_{k=1}^{i-1} \text{RGD}_{D_k}}$，遗忘越严重的任务获得更多回放数据。
+    - RGD 定义：$\text{RGD}(I, R_g, A_g) = \frac{\text{PPL}_{a\text{-}f}(R_g|I)}{\text{PPL}_{b\text{-}f}(R_g)}$，即遗忘后模型在指令引导下生成正确 rationale 的困惑度与遗忘前的比值。RGD 越高 → 伪遗忘越严重。
+    - 动态分配：第 $j$ 个旧任务的回放数据比例 $\alpha_j = \frac{\text{RGD}_{D_j}}{\sum_{k=1}^{i-1} \text{RGD}_{D_k}}$，遗忘越严重的任务获得更多回放数据。
 
 ### 损失函数/训练策略
 

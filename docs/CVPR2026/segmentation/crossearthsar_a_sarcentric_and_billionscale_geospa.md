@@ -2,7 +2,7 @@
 title: >-
   [论文解读] CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation
 description: >-
-  [CVPR 2026][图像分割][SAR] 提出首个十亿参数级 SAR 视觉基础模型 CrossEarth-SAR，在 DINOv2 基础上引入物理引导的稀疏 MoE 架构（用方向熵、等效视数、局部粗糙度三个 SAR 物理描述符引导路由），配套 200K 级预训练数据集和 22 个子基准，在 20/22 个跨域分割任务上达到 SOTA。
+  [CVPR 2026][图像分割][SAR] 提出首个十亿参数级 SAR 视觉基础模型 CrossEarth-SAR，在 DINOv2 ViT backbone 上将 FFN 替换为物理引导的稀疏 MoE（用方向熵、等效视数、局部粗糙度三个 SAR 物理描述符引导路由选择），配套 200K 级跨域预训练数据集及覆盖 8 种域差异的 22 个基准，在 20/22 个跨域语义分割评测上达到 SOTA。
 tags:
   - CVPR 2026
   - 图像分割
@@ -44,9 +44,9 @@ tags:
 
 - **功能**: 解决标准 MoE 路由器仅依赖 token 嵌入、在异构 SAR 数据下路由不稳定（"Routing Instability"）的问题，提供稳定的域级先验信号。
 - **核心思路**: 对输入图像先做 log 变换 $X' = \log(1 + |X|)$ 保证数值稳定，然后计算三个互补的物理量：
-  - (a) **方向熵** $H_{DE}$：对 Sobel 梯度方向做直方图后计算熵 $H_{DE} = -\sum_i p_i \ln p_i$，刻画成像几何特征（低值=强线性结构，高值=不规则纹理）
-  - (b) **等效视数** ENL = $(\mu / \sigma)^2$：反映散斑强度/雷达系统特性（高值=弱散斑，低值=强噪声）
-  - (c) **局部粗糙度** $R_{LR} = \text{Var}(\mu_j)_{j=1}^M$：空间块均值的方差，刻画目标散射的纹理变异性（高值=复杂纹理，低值=平滑区域）
+    - (a) **方向熵** $H_{DE}$：对 Sobel 梯度方向做直方图后计算熵 $H_{DE} = -\sum_i p_i \ln p_i$，刻画成像几何特征（低值=强线性结构，高值=不规则纹理）
+    - (b) **等效视数** ENL = $(\mu / \sigma)^2$：反映散斑强度/雷达系统特性（高值=弱散斑，低值=强噪声）
+    - (c) **局部粗糙度** $R_{LR} = \text{Var}(\mu_j)_{j=1}^M$：空间块均值的方差，刻画目标散射的纹理变异性（高值=复杂纹理，低值=平滑区域）
 - **设计动机**: 三个描述符分别对应 SAR 的三重物理挑战——成像几何、雷达系统噪声、目标散射特性，拼接为 $s = [H_{DE}, \text{ENL}, R_{LR}] \in \mathbb{R}^3$，为跨域路由提供物理锚点。
 
 **2. 物理引导稀疏 MoE — 大容量低推理成本的域适应架构**

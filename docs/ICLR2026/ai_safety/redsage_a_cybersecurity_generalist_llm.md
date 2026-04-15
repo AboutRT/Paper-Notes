@@ -2,15 +2,14 @@
 title: >-
   [论文解读] RedSage: A Cybersecurity Generalist LLM
 description: >-
-  [ICLR 2026][AI安全][网络安全LLM] 构建了完整的网络安全LLM pipeline：11.8B token的领域持续预训练 + 266K样本的agentic augmented SFT + 30K MCQ+240开放问答的综合评测基准RedSage-Bench，8B模型在多个网络安全benchmarks上达SOTA。
+  [ICLR 2026][AI安全][网络安全LLM] 提出RedSage——首个全栈开源的网络安全通才LLM，通过11.7B token大规模领域持续预训练、266K样本的Agentic数据增强SFT、以及首个覆盖知识+技能+工具的综合评测基准RedSage-Bench，8B参数模型在网络安全基准上超越同规模SOTA（+5.4pp）并接近Qwen3-32B，通用能力不降反升（+8.4pp vs Qwen3-8B）。
 tags:
   - ICLR 2026
   - AI安全
   - 网络安全LLM
-  - continual pretraining
-  - agentic augmentation
-  - 安全评测
-  - RedSage-Bench
+  - 持续预训练
+  - 智能体数据增强
+  - 安全评测基准
 ---
 
 # RedSage: A Cybersecurity Generalist LLM

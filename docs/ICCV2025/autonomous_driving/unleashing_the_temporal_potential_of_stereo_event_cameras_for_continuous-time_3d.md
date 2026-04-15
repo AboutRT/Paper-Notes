@@ -57,10 +57,10 @@ tags:
 
     - 功能：利用语义信息精炼深度，同时用深度信息增强语义特征
     - 核心思路：
-      - **语义引导深度精炼**：计算初始深度 $D_{init}$，基于语义特征匹配计算相似度 $S(u,v)$，结合深度置信度 $C(u,v)$（深度概率分布的方差），通过邻域概率加权生成精炼后的深度体 $\tilde{\mathcal{P}}_{geo}$：
+        - **语义引导深度精炼**：计算初始深度 $D_{init}$，基于语义特征匹配计算相似度 $S(u,v)$，结合深度置信度 $C(u,v)$（深度概率分布的方差），通过邻域概率加权生成精炼后的深度体 $\tilde{\mathcal{P}}_{geo}$：
        $$W_m(u,v) = S_m(u,v) \cdot \text{sigmoid}(C_m(u,v))$$
        $$\tilde{\mathcal{P}}_{geo}(u,v,w) = \sum_{m=1}^{M} \mathcal{P}_{geo}(u,v,w) \cdot \text{softmax}_m(W_m(u,v))$$
-      - **几何滤波语义体**：用精炼深度 $\tilde{D}$ 将右相机语义特征 warp 到左相机，通过 Transformer 通道注意力机制处理遮挡和错位：
+        - **几何滤波语义体**：用精炼深度 $\tilde{D}$ 将右相机语义特征 warp 到左相机，通过 Transformer 通道注意力机制处理遮挡和错位：
        $$\tilde{F}_L^{sem} = F_L^{sem} + \text{MLP}(\mathbb{A}) + \mathbb{A}$$
        语义体通过深度概率 mask 映射到 3D：$\mathbf{V}_{sem}^{3D}(x,y,z) = \tilde{F}_L^{sem}(u,v) \cdot \tilde{\mathcal{P}}_{geo}(u,v,d^{-1}(z))$
     - 设计动机：事件数据空间稀疏，单独的语义或几何特征都不充分；双重滤波让两者互补增强

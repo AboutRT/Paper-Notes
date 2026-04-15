@@ -96,8 +96,8 @@ $$\mathcal{L}_{obj}(\mathbf{A}, i, v) = [1 - \text{Topk}_u(\mathbf{A}_{uv} \cdot
 **步骤二——无缝背景融合（Seamless Background Integration）**：
 - 用步骤一的 masked latent 替换当前 latent 对应区域
 - 引入两个约束函数：
-  - **引导约束（Guidance Constraint）**：减小当前 cross-attention 与步骤一生成对象 attention 的差异，保留精细细节
-  - **抑制约束（Suppression Constraint）**：最小化 bounding box 外的 cross-attention，减少多对象干扰
+    - **引导约束（Guidance Constraint）**：减小当前 cross-attention 与步骤一生成对象 attention 的差异，保留精细细节
+    - **抑制约束（Suppression Constraint）**：最小化 bounding box 外的 cross-attention，减少多对象干扰
 
 $$\mathcal{L}_{bg} = \beta \cdot \underbrace{\sum_u |(\mathbf{A}'_{uv} - \mathbf{A}^{(i)}_{uv}) \cdot \mathbf{m}_i|}_{\text{guidance}} + \gamma \cdot \underbrace{\text{Topk}_u(\mathbf{A}'_{uv} \cdot (1 - \mathbf{m}_i))}_{\text{suppression}}$$
 

@@ -57,8 +57,8 @@ tags:
 - **做什么**：证明 RCCDA 的收敛上界和资源约束违反上界。
 - **为什么**：为策略设计提供理论基础，确保其不仅经验有效，而且可证明满足资源预算。
 - **怎么做**：
-  - Theorem 5.1：在平滑性+有界方差假设下，时间平均梯度范数受 $\mathcal{O}(\sqrt{\delta}) + \mathcal{O}(\sigma^2)$ 约束，$\delta$ 为漂移上界。
-  - Theorem 5.3：资源约束违反量随 $T \to \infty$ 以 $\mathcal{O}(1/\sqrt{T})$ 趋于零，保证长期资源遵从性。
+    - Theorem 5.1：在平滑性+有界方差假设下，时间平均梯度范数受 $\mathcal{O}(\sqrt{\delta}) + \mathcal{O}(\sigma^2)$ 约束，$\delta$ 为漂移上界。
+    - Theorem 5.3：资源约束违反量随 $T \to \infty$ 以 $\mathcal{O}(1/\sqrt{T})$ 趋于零，保证长期资源遵从性。
 
 ## 实验
 

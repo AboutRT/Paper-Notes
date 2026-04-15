@@ -70,8 +70,8 @@ FlashTex采用两阶段pipeline：**Stage 1**通过多视图视觉提示（Multi
 
     - **做什么**: 基于参考视图和SDS联合优化，生成解耦光照的PBR材质纹理。
     - **核心思路**: 使用多分辨率哈希网格 $\beta$ + 两层MLP $\Gamma$ 表示3D纹理：$(k_c, k_m, k_r, k_n) = \Gamma(\beta(p))$，分别输出base color、metallicness、roughness和bump向量。通过nvdiffrast可微渲染器渲染为2D图像，同时优化重建损失和SDS损失：
-      - 重建损失：$\mathcal{L}_{\text{recon}} = \|I_{\text{ref}} - \mathcal{R}(\Gamma(\beta(\cdot)), L^*, C^*)\|_2 + \mathcal{L}_{\text{perceptual}}$
-      - SDS损失：使用LightControlNet作为扩散模型，随机采样视角和光照
+        - 重建损失：$\mathcal{L}_{\text{recon}} = \|I_{\text{ref}} - \mathcal{R}(\Gamma(\beta(\cdot)), L^*, C^*)\|_2 + \mathcal{L}_{\text{perceptual}}$
+        - SDS损失：使用LightControlNet作为扩散模型，随机采样视角和光照
     - **设计动机**: 直接反投影会产生接缝和光照烘焙问题。SDS优化可填补视图间的空白区域并分离光照。参考视图引导使优化仅需400次迭代（vs Fantasia3D的5000次）。
 
 ### 损失函数 / 训练策略

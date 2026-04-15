@@ -28,9 +28,9 @@ tags:
 ## 研究背景与动机
 
 - **现有生成范式的局限**：
-  - Token 序列化方法忽略丰富的 2D 空间结构，存在曝光偏差
-  - VAR 的视觉金字塔中，早期阶段单个 token 代表大且语义多样的区域，造成表示歧义
-  - 扩散模型缺乏显式结构控制，需要额外模块
+    - Token 序列化方法忽略丰富的 2D 空间结构，存在曝光偏差
+    - VAR 的视觉金字塔中，早期阶段单个 token 代表大且语义多样的区域，造成表示歧义
+    - 扩散模型缺乏显式结构控制，需要额外模块
 - **核心思路**：用不同数量的唯一 token 在相同空间分辨率下表示图像，构建粒度层次
 
 ## 方法详解
@@ -56,7 +56,7 @@ NVG 将图像表示为结构化序列 $\mathcal{T} = \{(\boldsymbol{c}_i, \bolds
 
 每个阶段先生成结构、后生成内容：
 - **结构生成器**：轻量级 rectified flow 模型，使用 v-prediction + Gumbel-top-$k$ 采样
-  - 输入 $\boldsymbol{z}_s(t) = t \cdot \boldsymbol{\varepsilon} + (1-t) \cdot \boldsymbol{s}_e$，已知部分用 ground-truth 替换
+    - 输入 $\boldsymbol{z}_s(t) = t \cdot \boldsymbol{\varepsilon} + (1-t) \cdot \boldsymbol{s}_e$，已知部分用 ground-truth 替换
 - **内容生成器**：预测最终画布 $f_c(\boldsymbol{x}_i) \rightarrow \boldsymbol{x}$，通过残差获取当前阶段 token
 
 内容生成器训练损失：

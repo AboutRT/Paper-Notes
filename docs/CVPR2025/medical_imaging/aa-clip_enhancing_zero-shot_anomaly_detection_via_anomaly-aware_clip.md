@@ -76,8 +76,8 @@ AA-CLIP 采用两阶段训练流程，CLIP 原始参数始终冻结：
 ### 损失函数 / 训练策略
 
 - 对齐损失：$\mathcal{L}_{align} = \mathcal{L}_{cls} + \mathcal{L}_{seg}$
-  - $\mathcal{L}_{cls}$：图像级 BCE 损失
-  - $\mathcal{L}_{seg}$：像素级 Dice + Focal 损失
+    - $\mathcal{L}_{cls}$：图像级 BCE 损失
+    - $\mathcal{L}_{seg}$：像素级 Dice + Focal 损失
 - 总损失：$\mathcal{L}_{total} = \mathcal{L}_{align} + \gamma \mathcal{L}_{dis}$，$\gamma=0.1$
 - 第一阶段 5 epochs，lr $1\times10^{-5}$；第二阶段 20 epochs，lr $5\times10^{-4}$
 - 两阶段分离训练的核心原因：一阶段联合训练容易导致类别信息坍塌（消融验证），破坏零样本泛化

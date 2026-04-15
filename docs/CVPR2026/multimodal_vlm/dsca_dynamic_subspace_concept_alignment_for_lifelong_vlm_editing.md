@@ -58,9 +58,9 @@ DSCA在冻结的VLM骨干上运行，整体管线为：
 
     - 功能：为每个概念簇提供独立的编辑干预模块
     - 核心思路：每个DSAM包含三部分：
-      - **语义子空间** $R_k \in \mathbb{R}^{r \times d_f}$（$r \ll d_f$）：通过PCA初始化、Incremental PCA周期性精炼的低秩基矩阵，在残差化特征上计算以保持跨子空间近似正交
-      - **可学习变换** $(W_k, b_k)$：将高维特征映射到$r$维子空间坐标，偏置项推向新概念目标位置
-      - **逐分量门控** $\gamma_k(\mathbf{h}_f) = \sigma(W_{g,k}\mathbf{h}_f + b_{g,k})$：输入自适应的对角门控矩阵，选择性衰减各维度更新幅度
+        - **语义子空间** $R_k \in \mathbb{R}^{r \times d_f}$（$r \ll d_f$）：通过PCA初始化、Incremental PCA周期性精炼的低秩基矩阵，在残差化特征上计算以保持跨子空间近似正交
+        - **可学习变换** $(W_k, b_k)$：将高维特征映射到$r$维子空间坐标，偏置项推向新概念目标位置
+        - **逐分量门控** $\gamma_k(\mathbf{h}_f) = \sigma(W_{g,k}\mathbf{h}_f + b_{g,k})$：输入自适应的对角门控矩阵，选择性衰减各维度更新幅度
     - 关键公式：$\Psi_k(\mathbf{h}_f) = \Gamma_k(\mathbf{h}_f) \left[ R_k^\top \left( (W_k \mathbf{h}_f + b_k) - R_k \mathbf{h}_f \right) \right]$
     - 设计动机：在全维空间中做编辑既昂贵又脆弱，低秩子空间降低计算量并约束编辑范围；正交子空间保证$R_i^\top R_j \approx 0$，使不同概念的编辑在数学上解耦；门控机制使更新是输入依赖的，对编辑样本产生大更新、对无关样本产生近零更新
 
@@ -68,8 +68,8 @@ DSCA在冻结的VLM骨干上运行，整体管线为：
 
     - 功能：高效选择需要激活的DSAM子集
     - 核心思路：
-      - **Stage 1 (粗筛)**：用视觉特征 $\mathbf{h}_v$ 与视觉原型 $\mathbf{p}_{k,v}$ 计算余弦相似度，保留超过阈值 $\tau_{\text{visual}}$ 的候选集
-      - **Stage 2 (精细路由)**：在候选集上用融合特征计算softmax权重 $w_k = \frac{\exp(s_k/\tau)}{\sum_{j} \exp(s_j/\tau)}$
+        - **Stage 1 (粗筛)**：用视觉特征 $\mathbf{h}_v$ 与视觉原型 $\mathbf{p}_{k,v}$ 计算余弦相似度，保留超过阈值 $\tau_{\text{visual}}$ 的候选集
+        - **Stage 2 (精细路由)**：在候选集上用融合特征计算softmax权重 $w_k = \frac{\exp(s_k/\tau)}{\sum_{j} \exp(s_j/\tau)}$
     - 设计动机：避免对所有$K$个DSAM逐一计算（$K$可达数百），视觉粗筛极大缩小候选范围，融合路由确保最终选择同时考虑视觉和语言语义
 
 ### 损失函数 / 训练策略

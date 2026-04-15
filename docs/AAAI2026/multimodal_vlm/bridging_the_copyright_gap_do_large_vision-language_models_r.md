@@ -61,10 +61,10 @@ tags:
 
     - 功能：在 LVLM 推理前检测版权风险并提供合规提醒
     - 核心思路：四个组件并行工作——
-      - **Copyright Notice Identifier**：用 PaddleOCR 提取图像中的文字，检测版权声明（©、Copyright、All Rights Reserved）
-      - **Copyright Status Verifier**：如果没有版权声明，通过 Google Search API 识别文本来源，用 DeepSeek-R1 验证当前版权状态（是否过期）
-      - **Query Risk Analyzer**：分析用户查询是否可能导致侵权（如"重复"是侵权，"总结"是合理使用），并建议改写
-      - **Copyright Status Reminder**：当检测到侵权风险时，向 LVLM 提供清晰的版权警告通知
+        - **Copyright Notice Identifier**：用 PaddleOCR 提取图像中的文字，检测版权声明（©、Copyright、All Rights Reserved）
+        - **Copyright Status Verifier**：如果没有版权声明，通过 Google Search API 识别文本来源，用 DeepSeek-R1 验证当前版权状态（是否过期）
+        - **Query Risk Analyzer**：分析用户查询是否可能导致侵权（如"重复"是侵权，"总结"是合理使用），并建议改写
+        - **Copyright Status Reminder**：当检测到侵权风险时，向 LVLM 提供清晰的版权警告通知
     - 设计动机：单独依赖 fine-tuning 会导致过度拒绝，工具增强方法可以实时查询版权状态，适应版权法的动态变化
 
 ### 延迟优化

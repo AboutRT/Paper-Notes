@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework
 description: >-
-  [ICLR 2026][医学图像][医学VQA] 提出 CARE Agent 框架，将医学 VQA 分解为实体提议、指称分割和证据引导推理三个专家模块，通过 GPT-5 作为动态协调器，在医学 VQA 基准上以 77.54% 准确率超越 32B 模型。
+  [ICLR 2026][医学图像][医学VQA] 提出 CARE 框架——将医学 VQA 拆分为"实体提议→指称分割→证据引导问答"三阶段专家管道，用 RLVR 微调各 VLM，并引入 GPT-5 作为动态协调器进行工具规划与 CoT 审查，在 4 个医学 VQA 基准上以 10B 参数量（77.54% 平均准确率）超越 32B 端到端 SOTA（72.29%）。
 tags:
   - ICLR 2026
   - 医学图像
   - 医学VQA
-  - 证据引导
+  - 证据引导推理
   - Agent框架
-  - 分割定位
-  - 临床可解释性
+  - 指称分割
+  - 临床可问责性
 ---
 
 # CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework

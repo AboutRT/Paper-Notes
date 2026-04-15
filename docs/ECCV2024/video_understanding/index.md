@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 视频理解方向 42篇论文解读
+  ECCV2024 视频理解方向 39篇论文解读
 description: >-
-  42篇ECCV2024 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  39篇ECCV2024 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**🎞️ ECCV2024** · 共 **42** 篇
+**🎞️ ECCV2024** · **39** 篇论文解读
 
 **[Actionswitch Class-Agnostic Detection Of Simultaneous Actions In Streaming Video](actionswitch_class-agnostic_detection_of_simultaneous_actions_in_streaming_video.md)**
 
@@ -58,10 +58,6 @@ description: >-
 
 :   提出 Elysium，一个端到端可训练的 MLLM，通过构建百万级视频目标感知数据集 ElysiumTrack-1M 和设计 T-Selector 视觉 token 压缩网络，将 MLLM 的目标级感知能力从图像扩展到视频领域，支持单目标跟踪 (SOT)、引用式单目标跟踪 (RSOT) 和视频引用表达生成 (Video-REG) 等任务。
 
-**[Elysium Exploring Objectlevel Perception In Videos Via Mllm](elysium_exploring_objectlevel_perception_in_videos_via_mllm.md)**
-
-:   提出Elysium，首个端到端可训练的多模态大语言模型系统化处理视频目标级任务（如目标跟踪），构建了百万级ElysiumTrack-1M视频数据集支持SOT/RSOT/Video-REG三类任务，并设计T-Selector token压缩网络在保持性能的同时大幅减少视觉token消耗。
-
 **[Finepseudo Improving Pseudo-Labelling Through Temporal-Alignablity For Semi-Supe](finepseudo_improving_pseudo-labelling_through_temporal-alignablity_for_semi-supe.md)**
 
 :   提出 FinePseudo 框架，利用基于时序对齐性（temporal alignability）的度量学习来改善伪标签质量，首次系统性地解决半监督细粒度动作识别问题，在四个细粒度数据集上显著超越现有方法。
@@ -86,10 +82,6 @@ description: >-
 
 :   本文提出一种将非线性运动先验（轨迹参数函数）引入对比度最大化框架的自监督方法，用于事件相机的稠密连续时间运动估计，在真实世界数据集 EVIMO2 上将合成数据预训练模型的零样本性能提升了 29%。
 
-**[Nymeria A Massive Collection Of Multimodal Egocentric Daily ](nymeria_a_massive_collection_of_multimodal_egocentric_daily_.md)**
-
-:   构建了全球最大的野外人体运动数据集Nymeria：300小时日常活动、264人、50个场景、多设备多模态自我中心数据（Project Aria眼镜+手环+动捕服），配备亚毫秒级同步和310.5K句层次化运动语言描述。
-
 **[Nymeria A Massive Collection Of Multimodal Egocentric Daily Motion In The Wild](nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild.md)**
 
 :   Nymeria 是目前世界最大的野外人体运动数据集（300 小时、264 名参与者），首次提供同步定位的多设备多模态自我中心数据（Project Aria 眼镜+腕带+动捕服），并配套 310.5K 句层次化运动语言描述。
@@ -101,10 +93,6 @@ description: >-
 **[Pite Pixel-Temporal Alignment For Large Video-Language Model](pite_pixel-temporal_alignment_for_large_video-language_model.md)**
 
 :   提出 PiTe 模型，通过物体运动轨迹在像素级别实现视频与语言的时空对齐，构建 PiTe-143k 数据集，在零样本 QA、时序定位和密集描述任务上大幅超越现有方法。
-
-**[Pite Pixeltemporal Alignment For Large Videolanguage Mo](pite_pixeltemporal_alignment_for_large_videolanguage_mo.md)**
-
-:   提出 PiTe，一种通过物体轨迹引导的像素-时序对齐方法，利用自动构建的 PiTe-143K 数据集在空间和时间维度上实现视频与语言的精细对齐，显著提升视频理解能力。
 
 **[R2Tuning Efficient Imagetovideo Transfer Learning For Video](r2tuning_efficient_imagetovideo_transfer_learning_for_video.md)**
 

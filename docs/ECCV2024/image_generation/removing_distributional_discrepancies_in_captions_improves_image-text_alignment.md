@@ -40,12 +40,12 @@ tags:
 使用 GPT 生成两种类型的负面描述：
 
 - **替换型（Replacing）**：将描述中某个语言元素替换为合理的替代品
-  - 例："a photo of a broken down stop sign" → "a photo of a brand new stop sign"
-  - 增强模型的**感知能力**
+    - 例："a photo of a broken down stop sign" → "a photo of a brand new stop sign"
+    - 增强模型的**感知能力**
 
 - **交换型（Swapping）**：重新排列原始描述中的语言组件
-  - 例："an airplane is flying in the blue sky" → "a blue airplane is flying in the sky"
-  - 增强模型的**推理能力**
+    - 例："an airplane is flying in the blue sky" → "a blue airplane is flying in the sky"
+    - 增强模型的**推理能力**
 
 **2. 分布偏差检测与过滤**
 

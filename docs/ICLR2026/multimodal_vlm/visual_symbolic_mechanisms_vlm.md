@@ -49,19 +49,19 @@ tags:
 
     - 功能：描述 VLM 解决绑定问题的完整处理流程
     - 核心思路：
-      - **Stage 1 - ID Retrieval**（~Layer 12-16）：给定 prompt 中描述的物体（如"红色方形"），ID retrieval heads 从对应的图像 token 中检索该物体的空间位置索引。输出是抽象的空间指针，不是物体特征
-      - **Stage 2 - ID Selection**（~Layer 18-21）：基于已检索到的 position IDs，计算目标物体（需要被描述的缺失物体）的 position ID。通过排除已知物体的位置来推断目标位置
-      - **Stage 3 - Feature Retrieval**（~Layer 23-27）：使用 Stage 2 确定的 position ID 作为查询，从图像 token 中检索目标物体的语义特征（颜色、形状）
+        - **Stage 1 - ID Retrieval**（~Layer 12-16）：给定 prompt 中描述的物体（如"红色方形"），ID retrieval heads 从对应的图像 token 中检索该物体的空间位置索引。输出是抽象的空间指针，不是物体特征
+        - **Stage 2 - ID Selection**（~Layer 18-21）：基于已检索到的 position IDs，计算目标物体（需要被描述的缺失物体）的 position ID。通过排除已知物体的位置来推断目标位置
+        - **Stage 3 - Feature Retrieval**（~Layer 23-27）：使用 Stage 2 确定的 position ID 作为查询，从图像 token 中检索目标物体的语义特征（颜色、形状）
     - 设计动机：认知科学中的视觉索引理论预测了类似的内容无关空间索引机制。PCA 分析直观验证：Layer 19 的表示按空间位置聚类（特征重叠），Layer 27 按物体特征聚类（位置重叠），完美对应 Stage 2→3 的转变
 
 2. **因果中介分析（CMA）定位注意力头**
 
     - 功能：因果性地识别执行每个阶段的具体注意力头
     - 核心思路：设计三个 CMA 条件，每个针对一种头：
-      - ID retrieval 条件：clean 和 modified 图片中物体位置交换，patch prompt token 处的注意力头输出
-      - ID selection 条件：同样交换位置，但 patch 最后一个 token 处的输出
-      - Feature retrieval 条件：clean 和 modified 图片中目标物体特征不同，patch 最后 token 处的输出
-      - CMA score: $s = (M(c_1^*)[a_1^*] - M(c_1^*)[a_1]) - (M(c_1)[a_1^*] - M(c_1)[a_1])$
+        - ID retrieval 条件：clean 和 modified 图片中物体位置交换，patch prompt token 处的注意力头输出
+        - ID selection 条件：同样交换位置，但 patch 最后一个 token 处的输出
+        - Feature retrieval 条件：clean 和 modified 图片中目标物体特征不同，patch 最后 token 处的输出
+        - CMA score: $s = (M(c_1^*)[a_1^*] - M(c_1^*)[a_1]) - (M(c_1)[a_1^*] - M(c_1)[a_1])$
     - 设计动机：纯表征分析只能说明相关性，CMA 提供因果证据。每个条件精确针对一个阶段，通过预测 patching 的下游效应来验证机制
 
 3. **Position ID 干预实验**

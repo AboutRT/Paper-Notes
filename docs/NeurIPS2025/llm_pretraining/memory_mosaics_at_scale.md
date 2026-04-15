@@ -55,16 +55,16 @@ Memory Mosaics v2 将关联存储网络扩展至 10B 参数、1T token 训练规
 - 原版使用固定权重的泄漏平均：$\bar{k}_T = \tilde{k}_T + \lambda \bar{k}_{T-1}$，$\lambda$ 固定
 - 问题："tom-and-jerry"和"tom---and---jerry"语义相同但得到不同 key 特征
 - v2 引入输入依赖的门控机制：
-  - $g_T = e^{W_g x_T}$（指数门控，控制当前输入的贡献）
-  - $\lambda_T = e^{-|W_\lambda x_T|}$（时变遗忘因子，语义驱动）
-  - $\bar{k}_T = g_T \tilde{k}_T + \lambda_T \bar{k}_{T-1}$
+    - $g_T = e^{W_g x_T}$（指数门控，控制当前输入的贡献）
+    - $\lambda_T = e^{-|W_\lambda x_T|}$（时变遗忘因子，语义驱动）
+    - $\bar{k}_T = g_T \tilde{k}_T + \lambda_T \bar{k}_{T-1}$
 - 受 RWKV、Mamba、xLSTM 等循环架构启发，但**仅用于构造 key，关联存储仍保留所有 key-value 对**
 
 #### 3. 三层记忆设计
 - **短期记忆**：只存储位置 $t$ 附近 $h=256$ 步内的 key-value 对，处理位置敏感信号
 - **长期记忆**：跳过近距 token，只存储位置 $t-m$ 之前的 key-value 对，处理位置不变信号
-  - 训练时随机采样 $m \in [64, 256]$，推理时固定 $m=64$
-  - 设置 $m < h$ 使长短期记忆有重叠，形成软边界
+    - 训练时随机采样 $m \in [64, 256]$，推理时固定 $m=64$
+    - 设置 $m < h$ 使长短期记忆有重叠，形成软边界
 - **持久记忆**：两层 SwiGLU FFN，存储训练数据中的全局知识（等价于大容量关联存储）
 - 多个长/短期记忆的输出拼接后经线性投影 $W_o$ 融合
 
@@ -103,9 +103,9 @@ Memory Mosaics v2 将关联存储网络扩展至 10B 参数、1T token 训练规
 - 使用经典多类分类任务：Banking77 (77类)、Tacred (41类)、GoEmotion (28类)
 - 设置语义标签版本和匿名标签版本，后者更能测试真正的新任务学习能力
 - **核心发现**：
-  - MM v2 随 shot 数增加**持续提升**分类准确率
-  - Transformer 反常——shot 数越多性能反而下降
-  - MM v2 超越 Transformer **10% 以上**
+    - MM v2 随 shot 数增加**持续提升**分类准确率
+    - Transformer 反常——shot 数越多性能反而下降
+    - MM v2 超越 Transformer **10% 以上**
 - 将 Transformer 加上长短期注意力分离机制也无法复制此优势，说明 MM v2 不是简单的 Transformer 变体
 
 ## 扩展数据对比：1T MM v2 vs 8T Transformer

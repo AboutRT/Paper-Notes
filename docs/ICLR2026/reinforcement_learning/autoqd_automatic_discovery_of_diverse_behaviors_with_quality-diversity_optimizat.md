@@ -2,11 +2,10 @@
 title: >-
   [论文解读] AutoQD: Automatic Discovery of Diverse Behaviors with Quality-Diversity Optimization
 description: >-
-  [ICLR 2026][Quality-Diversity] 提出 AutoQD，利用占据度量（occupancy measure）的随机傅里叶特征嵌入自动生成行为描述符，无需人工设计即可在连续控制任务中发现多样且高质量的策略集合，在 6 个 MuJoCo 基准上全面超越手工 BD 基线。
+  [ICLR 2026][quality-diversity] 提出 AutoQD，通过随机傅里叶特征（RFF）将策略的占据度量嵌入有限维空间，再用加权 PCA 降维得到行为描述符，实现无需人工设计 BD 的 QD 优化，在 6 个连续控制任务上全面超越手工 BD 和现有无监督 QD 方法。
 tags:
   - ICLR 2026
   - quality-diversity
-  - reinforcement learning
   - occupancy measure
   - random Fourier features
   - behavior descriptor

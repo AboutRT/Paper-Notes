@@ -23,11 +23,11 @@ tags:
 
 - **核心问题**: OpenStreetMap (OSM) 是调查记者进行地理定位验证的重要资源，但其查询语言 OverpassQL 对非技术用户构成高门槛。
 - **现有方法局限**:
-  - **Overpass Turbo**: 需要掌握 OverpassQL 语法，非技术用户难以使用。
-  - **GeoGuessr GPT**: 基于 ChatGPT 但不开源，且不连接 OSM 数据库。
-  - **GeoSpy**: 仅接受图片输入，不支持自然语言。
-  - **EarthKit**: 需要用户手动选择 OSM 标签，仍有技术门槛。
-  - **OverpassT5 (Staniek et al.)**: 直接生成 OverpassQL，但需要用户了解 OSM 标签体系。
+    - **Overpass Turbo**: 需要掌握 OverpassQL 语法，非技术用户难以使用。
+    - **GeoGuessr GPT**: 基于 ChatGPT 但不开源，且不连接 OSM 数据库。
+    - **GeoSpy**: 仅接受图片输入，不支持自然语言。
+    - **EarthKit**: 需要用户手动选择 OSM 标签，仍有技术门槛。
+    - **OverpassT5 (Staniek et al.)**: 直接生成 OverpassQL，但需要用户了解 OSM 标签体系。
 - **本文动机**: 为调查记者构建一个全开源、支持非结构化自然语言输入、可靠准确的 OSM 地理搜索工具。
 
 ## 方法详解

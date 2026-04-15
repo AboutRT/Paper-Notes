@@ -72,10 +72,10 @@ tags:
 
 - 使用商业级LLM进行**零样本多标签分类**
 - 设计了包含**70+种金融相关事件类型**的精心策划字典，包括：
-  - Rumor/Speculation（谣言/投机）
-  - Retail Investor Buzz（散户热议）
-  - Brand Boycott（品牌抵制）
-  - 等其他事件类型
+    - Rumor/Speculation（谣言/投机）
+    - Retail Investor Buzz（散户热议）
+    - Brand Boycott（品牌抵制）
+    - 等其他事件类型
 - 每条推文可被分配一个或多个标签
 - 多标签推文的net tone在各标签间复制，用于后续聚合
 

@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Constraint Matters: Multi-Modal Representation for Reducing Mixed-Integer Linear programming
 description: >-
-  [ICLR2026][优化][MILP] 提出基于约束缩减的 MILP 模型简化框架：用信息论启发的启发式规则识别关键紧约束（CTC），设计融合实例级和抽象级信息的多模态 GNN 表征来预测 CTC，在大规模 MILP 上解质量提升 50%+、计算时间减少 17.47%。
+  [ICLR2026][优化][MILP] 提出基于约束缩减的 MILP 模型简化框架：定义固定约束强度 $\rho$ 并用信息增益 $\Delta H=-\log\rho$ 识别关键紧约束（CTC），设计融合实例级双部图与抽象级类型图的多模态 GNN 表征来预测 CTC，在 4 个大规模基准上解质量（$\text{gap}_\text{abs}$）平均提升 51.06%、收敛速度（PDI）平均加快 17.47%。
 tags:
   - ICLR2026
   - 优化

@@ -69,10 +69,10 @@ tags:
 
     - 功能：基于新知识和支撑文档构建测试样本
     - 核心思路：支持四种任务格式——
-      - **Single-Hop Gold**：直接提问新知识，上下文仅含支撑文档（如"Messi 属于哪支球队？"上下文为其 Wikipedia 页面）
-      - **Single-Hop $N_d$**：增加 $N_d$ 个干扰文档，测试长上下文定位能力
-      - **Multi-Hop Gold**：构建 $H$ 跳链式知识（$o_i = s_{i+1}$），如"Messi 所在球队的教练是谁？"，需要两步推理
-      - **Multi-Hop $N_d$**：多跳 + 干扰文档
+        - **Single-Hop Gold**：直接提问新知识，上下文仅含支撑文档（如"Messi 属于哪支球队？"上下文为其 Wikipedia 页面）
+        - **Single-Hop $N_d$**：增加 $N_d$ 个干扰文档，测试长上下文定位能力
+        - **Multi-Hop Gold**：构建 $H$ 跳链式知识（$o_i = s_{i+1}$），如"Messi 所在球队的教练是谁？"，需要两步推理
+        - **Multi-Hop $N_d$**：多跳 + 干扰文档
     - 问题格式：Generation（开放式生成）和 Multi-Choice（四选一：正确/Unknown/过时答案/噪声）
     - 设计动机：多种任务格式测试不同 LLM 能力维度——知识检索、长上下文理解、多跳推理
 

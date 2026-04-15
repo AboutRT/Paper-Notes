@@ -51,9 +51,9 @@ ReconDreamer++ 在 ReconDreamer 基础上，通过引入新轨迹可变形网络
 
     - 功能：将场景独立建模为地面、非地面背景和动态物体三部分
     - 核心思路：
-      - **地面模型 $\mathcal{G}^g$**：使用道路点云分割初始化高斯位置 $\boldsymbol{x}$。训练时固定位置 $\boldsymbol{x}$ 和高斯数量，只优化不透明度 $\boldsymbol{\gamma}$、协方差 $\boldsymbol{\Sigma}$（分解为旋转 $\boldsymbol{R}$ 和缩放 $\boldsymbol{S}$，$\boldsymbol{\Sigma} = \boldsymbol{RSS}^T\boldsymbol{R}^T$）和颜色 $\boldsymbol{c}$
-      - **非地面背景 $\mathcal{G}^{bg}$**：非地面点云初始化 + 随机额外点，所有参数完全优化
-      - **动态物体 $\{\mathcal{G}_i^o\}$**：在局部物体坐标系定义，渲染时通过旋转/平移变换到世界坐标系 $\boldsymbol{x}_w = R_t \boldsymbol{x}_o + T_t$
+        - **地面模型 $\mathcal{G}^g$**：使用道路点云分割初始化高斯位置 $\boldsymbol{x}$。训练时固定位置 $\boldsymbol{x}$ 和高斯数量，只优化不透明度 $\boldsymbol{\gamma}$、协方差 $\boldsymbol{\Sigma}$（分解为旋转 $\boldsymbol{R}$ 和缩放 $\boldsymbol{S}$，$\boldsymbol{\Sigma} = \boldsymbol{RSS}^T\boldsymbol{R}^T$）和颜色 $\boldsymbol{c}$
+        - **非地面背景 $\mathcal{G}^{bg}$**：非地面点云初始化 + 随机额外点，所有参数完全优化
+        - **动态物体 $\{\mathcal{G}_i^o\}$**：在局部物体坐标系定义，渲染时通过旋转/平移变换到世界坐标系 $\boldsymbol{x}_w = R_t \boldsymbol{x}_o + T_t$
     - 设计动机：自动驾驶相机光轴近乎平行于地面，导致地面重建不稳定。固定地面几何位置减少了搜索空间，多帧融合点云提供了充足先验，从而增强泛化能力
 
 2. **新轨迹可变形网络 (NTDNet)**:

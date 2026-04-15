@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**📹 ICCV2025** · 共 **2** 篇
+**📹 ICCV2025** · **2** 篇论文解读
 
 **[Gradient Extrapolation For Debiased Representation Learning](gradient_extrapolation_for_debiased_representation_learning.md)**
 

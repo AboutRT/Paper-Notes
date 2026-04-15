@@ -88,8 +88,8 @@ $$\mathbf{h}_\theta = \mathbf{W}_O \text{LN}(\mathbf{h}_{\theta,0}(\mathbf{T})) 
 **Proposition 3.3（测试损失差异）**：
 - ICL 训练 → 测试损失 $\Theta(1)$（常数级错误，约 20%）
 - QA 训练 → 测试损失 $\leq \varepsilon$（任意小），且支持：
-  - 从 demo pairs 直接回归 task vector（无需 query）
-  - task vector 可与任意同概念 query 做加法得正确答案
+    - 从 demo pairs 直接回归 task vector（无需 query）
+    - task vector 可与任意同概念 query 做加法得正确答案
 
 **Proposition 3.4（OOD 泛化）**：QA 训练的模型可泛化到：
 1. **字典漂移**：新的高层概念仅需落在训练概念的锥组合中，低层和无关概念可完全未见

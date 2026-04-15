@@ -30,9 +30,9 @@ tags:
 - CLIP 等 VLM 在下游任务上通过 soft prompt 适配效果显著
 - 但分布偏移（domain shift）下泛化性能大幅下降
 - 现有 prompt learning 方法的不足：
-  - CoOp：学习固定 prompt，过拟合训练分布
-  - CoCoOp/DPL：用 MLP 生成残差向量调整固定 prompt，但简单 MLP 难以捕捉复杂的图像-提示关系
-  - CAE：引入 domain bank 但提示缺乏多样性
+    - CoOp：学习固定 prompt，过拟合训练分布
+    - CoCoOp/DPL：用 MLP 生成残差向量调整固定 prompt，但简单 MLP 难以捕捉复杂的图像-提示关系
+    - CAE：引入 domain bank 但提示缺乏多样性
 - 核心思路转变：不再将域知识存储在 prompt 中，而是存储在生成模型中，让生成模型为每个图像动态产生域适应的 prompt
 
 ## 方法详解
@@ -56,8 +56,8 @@ SPG 包含两阶段训练和一个推理阶段：
 **2. CGAN 预训练（Training Stage II）**
 
 - 生成器 G：接收噪声 z 和图像嵌入 f(x) → 生成 soft prompt
-  - 输入：[z, f(x)]（拼接噪声和 CLIP 图像特征）
-  - 输出：与域提示标签形状相同的 prompt 向量
+    - 输入：[z, f(x)]（拼接噪声和 CLIP 图像特征）
+    - 输出：与域提示标签形状相同的 prompt 向量
 - 判别器 D：接收域提示标签/生成 prompt + 图像嵌入 → 判真假
 - 对抗训练目标：min_G max_D V(G, D)
 - 为增强稳定性，加入梯度裁剪策略
@@ -73,8 +73,8 @@ SPG 包含两阶段训练和一个推理阶段：
 
 - Stage I：SGD 优化器，batch size 32，context length 4
 - Stage II：AdamW 优化器，weight decay 1e-4
-  - Learning rate: 2e-3（PACS/VLCS/TerraInc）/ 2e-4（OfficeHome/DomainNet）
-  - 梯度裁剪稳定 CGAN 训练
+    - Learning rate: 2e-3（PACS/VLCS/TerraInc）/ 2e-4（OfficeHome/DomainNet）
+    - 梯度裁剪稳定 CGAN 训练
 - Backbone：ResNet50 和 ViT-B/16
 - 模型选择：训练域验证集上的最高准确率
 

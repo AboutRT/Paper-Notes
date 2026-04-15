@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🔬 ICLR2026** · 共 **40** 篇
+**🔬 ICLR2026** · **40** 篇论文解读
 
 **[A Convergence Analysis Of Adaptive Optimizers Under Floating-Point Quantization](a_convergence_analysis_of_adaptive_optimizers_under_floating-point_quantization.md)**
 

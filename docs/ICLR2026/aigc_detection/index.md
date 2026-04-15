@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC检测
 
-**🔬 ICLR2026** · 共 **5** 篇
+**🔬 ICLR2026** · **5** 篇论文解读
 
 **[Calibrating Verbalized Confidence With Self-Generated Distractors](calibrating_verbalized_confidence_with_self-generated_distractors.md)**
 

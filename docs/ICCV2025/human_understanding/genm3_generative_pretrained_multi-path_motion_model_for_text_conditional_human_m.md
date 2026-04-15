@@ -68,9 +68,9 @@ GenM3 包含两个核心组件和三阶段训练流程：
 
     - 前半部分（9 层）：标准 Transformer 自注意力 + FFN
     - 后半部分（9 层）：多路径 Transformer，在 FFN 层引入三条并行路径：
-      - **运动路径**：处理运动 token，每条路径内含多个密集激活专家
-      - **文本路径**：处理文本 token
-      - **跨模态共享路径**：同时处理运动和文本 token，促进跨模态对齐
+        - **运动路径**：处理运动 token，每条路径内含多个密集激活专家
+        - **文本路径**：处理文本 token
+        - **跨模态共享路径**：同时处理运动和文本 token，促进跨模态对齐
     - 每条路径中的专家输出通过门控函数加权：$\mathbb{E}_p(x) = \sum_i g_{p,i}(x) \mathbb{E}_{p,i}(x)$
     - 三条路径输出拼接后通过投影层：$\text{Output} = \mathbf{W}_{proj}([\mathbb{E}_{motion}; \mathbb{E}_{text}; \mathbb{E}_{cross-modal}]) + b_{proj}$
 

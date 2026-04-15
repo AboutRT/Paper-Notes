@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**🧪 ICML2025** · 共 **7** 篇
+**🧪 ICML2025** · **7** 篇论文解读
 
 **[Causal Foundation Models Disentangling Physics From Instrument Properties](causal_foundation_models_disentangling_physics_from_instrument_properties.md)**
 

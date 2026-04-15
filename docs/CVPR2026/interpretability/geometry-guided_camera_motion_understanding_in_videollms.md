@@ -59,9 +59,9 @@ Pipeline 分为四步（见图1）：(1) 输入视频分割为 shot，每个 sho
     - 核心思路：camera token $c_t$ 先经线性投影 $W_p$ 到 $c_t' \in \mathbb{R}^{512}$（信息瓶颈层），加正弦位置编码，前插可学习 [CLS] token，经 $L=4$ 层 Transformer encoder（8 头注意力）处理，最终 [CLS] embedding 经线性投影输出 $K=15$ 维 logits $s$，$p_k = \text{sigmoid}(s_k)$。
     - 训练损失三项：
     $\mathcal{L} = \mathcal{L}_{bce} + \lambda_{inc} \cdot \mathcal{L}_{inc} + \lambda_{card} \cdot \mathcal{L}_{card}$
-      - $\mathcal{L}_{bce}$：标准 binary cross-entropy
-      - $\mathcal{L}_{inc} = \sum_{i<j} M_{ij} \cdot p_i \cdot p_j$：互斥正则，$M \in \{0,1\}^{K \times K}$ 是互斥矩阵，惩罚互斥原语同时激活
-      - $\mathcal{L}_{card}$：基数正则，约束激活原语数在 [1, 3] 范围内
+        - $\mathcal{L}_{bce}$：标准 binary cross-entropy
+        - $\mathcal{L}_{inc} = \sum_{i<j} M_{ij} \cdot p_i \cdot p_j$：互斥正则，$M \in \{0,1\}^{K \times K}$ 是互斥矩阵，惩罚互斥原语同时激活
+        - $\mathcal{L}_{card}$：基数正则，约束激活原语数在 [1, 3] 范围内
     - 推理时以 $\tau=0.5$ 阈值化，再用互斥矩阵后处理排除冲突组合。
 
 3. **Structured Prompting 注入**

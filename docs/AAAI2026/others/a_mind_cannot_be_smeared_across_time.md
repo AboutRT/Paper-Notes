@@ -2,19 +2,22 @@
 title: >-
   [论文解读] A Mind Cannot Be Smeared Across Time
 description: >-
-   从Stack Theory出发引入时间语义模块，形式化证明存在性时间实现不保持合取（Temporal Gap），提出Chord（要求时间窗口内共同实例化）vs Arpeggio（只需成分在窗口内出现）两种意识假设，论证严格串行硬件在Chord假设下不可能承载需要多个同时贡献者的意识。
+  [AAAI 2026][机器意识] 从Stack Theory出发引入时间语义模块，形式化证明存在性时间实现不保持合取（Temporal Gap），提出Chord（要求时间窗口内共同实例化）vs Arpeggio（只需成分在窗口内出现）两种意识假设，论证严格串行硬件在Chord假设下不可能承载需要多个同时贡献者的意识。
 tags:
-
+  - AAAI 2026
+  - 机器意识
+  - Stack Theory
+  - 时间语义
+  - 并发性
+  - 同步性
 ---
 
 # A Mind Cannot Be Smeared Across Time
 
-| 属性 | 值 |
-|------|------|
-| 会议 | AAAI 2026 |
-| arXiv | [2601.11620](https://arxiv.org/abs/2601.11620) |
-| 领域 | AI哲学 / 意识理论 |
-| 关键词 | 机器意识, Stack Theory, 时间语义, 并发性, 同步性 |
+**会议**: AAAI 2026  
+**arXiv**: [2601.11620](https://arxiv.org/abs/2601.11620)  
+**领域**: AI哲学 / 意识理论  
+**关键词**: 机器意识, Stack Theory, 时间语义, 并发性, 同步性  
 
 ## 一句话总结
 

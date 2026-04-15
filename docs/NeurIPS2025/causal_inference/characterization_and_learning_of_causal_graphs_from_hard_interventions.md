@@ -59,10 +59,10 @@ tags:
 
 - **做什么**：将 Pearl 的 3 条 do-规则推广为可在任意两个硬干预集 $\mathbf{I}, \mathbf{J}$ 之间比较分布的 4 条规则
 - **核心思路**：定义对称差 $\mathbf{K} = \mathbf{I} \Delta \mathbf{J}$，进而分解为多个子集（$\mathbf{K_I}, \mathbf{K_J}, \mathbf{R_I}, \mathbf{R_J}, \mathbf{W_I}, \mathbf{W_J}$）。每条规则给出：当特定图变换（删除入边/出边）后满足 d-分离条件时，$P_\mathbf{I}(\mathbf{y}|\mathbf{w})$ 与 $P_\mathbf{J}(\mathbf{y}|\mathbf{w})$ 相等
-  - Rule 1（CI）：单个干预分布内的条件独立性
-  - Rule 2（do-see）：两个干预分布在条件化对称差变量后相等
-  - Rule 3（do-do）：两个干预分布的边际相等
-  - Rule 4（混合）：统一 do-see 和 do-do 的一般形式
+    - Rule 1（CI）：单个干预分布内的条件独立性
+    - Rule 2（do-see）：两个干预分布在条件化对称差变量后相等
+    - Rule 3（do-do）：两个干预分布的边际相等
+    - Rule 4（混合）：统一 do-see 和 do-do 的一般形式
 - **关键洞察**：硬干预使被干预变量的入边消失，图变稀疏，产生更多 d-分离关系，从而产生比软干预更多的约束
 
 #### 2. 孪生增强 MAG（Definition 4.5, Theorem 4.7）
@@ -89,10 +89,10 @@ tags:
 - **Phase I（初始化）**：对每个 $\mathbf{I} \in \mathcal{I}$，创建变量副本 $\mathbf{V}^{(\mathbf{I})}$ 并初始化为完全图（circle edges），创建 F 节点并连接到所有变量
 - **Phase II（骨架学习）**：Algorithm 3 通过条件独立性检测确定分离集。非 F 节点间检测 $P_\mathbf{I}(y|\mathbf{w},x) = P_\mathbf{I}(y|\mathbf{w})$；F 节点与变量间检测 $P_\mathbf{I}(y|\mathbf{w}) = P_\mathbf{J}(y|\mathbf{w})$
 - **Phase III（定向）**：先用 Rule 0 定向非屏蔽碰撞子，再反复应用 7 条 FCI 规则 + 4 条新规则：
-  - **Rule 8**（F-node）：F 节点的所有边都朝外定向
-  - **Rule 9**（干预节点）：$X \in \mathbf{I}$ 且 $X, Y$ 相邻 → $X \to Y$（因为 $Y$ 必为 $X$ 的后代）
-  - **Rule 10**（骨架一致性）：若 $X \to Y$ 在一个域确定，则在其他域也将 $Y$ 端标记为箭头（祖先关系不可被硬干预逆转）
-  - **Rule 11**（inducing path）：若 $\mathbf{J} = \mathbf{I} \cup \{X\}$ 且 $F$ 与 $Y$ 相邻，则 $X \to Y$
+    - **Rule 8**（F-node）：F 节点的所有边都朝外定向
+    - **Rule 9**（干预节点）：$X \in \mathbf{I}$ 且 $X, Y$ 相邻 → $X \to Y$（因为 $Y$ 必为 $X$ 的后代）
+    - **Rule 10**（骨架一致性）：若 $X \to Y$ 在一个域确定，则在其他域也将 $Y$ 端标记为箭头（祖先关系不可被硬干预逆转）
+    - **Rule 11**（inducing path）：若 $\mathbf{J} = \mathbf{I} \cup \{X\}$ 且 $F$ 与 $Y$ 相邻，则 $X \to Y$
 
 ### 理论保证
 

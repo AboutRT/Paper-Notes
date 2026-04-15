@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Mind the Gap! Static and Interactive Evaluations of Large Audio Models
 description: >-
-  [语音] 本文通过收集 484 名参与者的 7,500 次交互评估数据，首次系统比较了大型音频模型（LAM）的静态基准和交互式评估表现，发现两者之间存在显著差距（$R^2=0.30$），并揭示了用户对 LAM 的真实使用场景和偏好。
+  [ACL2025][语音][大型音频模型] 本文通过收集 484 名参与者的 7,500 次交互评估数据，首次系统比较了大型音频模型（LAM）的静态基准和交互式评估表现，发现两者之间存在显著差距（$R^2=0.30$），并揭示了用户对 LAM 的真实使用场景和偏好。
 tags:
+  - ACL2025
   - 语音
+  - 大型音频模型
+  - 交互式评估
+  - 用户偏好
+  - 语音基准
+  - LAM
 ---
 
 # Mind the Gap! Static and Interactive Evaluations of Large Audio Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2502.15919](https://arxiv.org/abs/2502.15919) |
-| 代码 | [TalkArena.org](https://talkarena.org/) |
-| 领域 | audio_speech |
-| 关键词 | 大型音频模型, 交互式评估, 用户偏好, 语音基准, LAM |
+**会议**: ACL2025  
+**arXiv**: [2502.15919](https://arxiv.org/abs/2502.15919)  
+**代码**: [TalkArena.org](https://talkarena.org/)  
+**领域**: audio_speech  
+**关键词**: 大型音频模型, 交互式评估, 用户偏好, 语音基准, LAM  
 
 ## 一句话总结
 
@@ -139,8 +143,8 @@ GPT-4o 在 14 项任务中有 6 项排名第一，11 项进入前三。开源模
 - **聚合基准预测力有限**：混合效应回归模型的边际 $R^2 = 0.30$
 - 20 个基准由 5 个主成分解释 95% 方差——说明尽管基准众多，实际评估的核心能力轴很少
 - **仅两个数据集显著正相关**：
-  - CommonVoice-Age（$\beta = 0.314$）：但所有模型在此任务上都低于随机基线
-  - Public-SG-Speech（$\beta = 0.167$）：语音问答任务，仅需文本转录即可完成
+    - CommonVoice-Age（$\beta = 0.314$）：但所有模型在此任务上都低于随机基线
+    - Public-SG-Speech（$\beta = 0.167$）：语音问答任务，仅需文本转录即可完成
 
 **与文本 LLM 的鲜明对比**：文本领域静态和交互式评估高度相关，但语音领域完全不是这样。
 

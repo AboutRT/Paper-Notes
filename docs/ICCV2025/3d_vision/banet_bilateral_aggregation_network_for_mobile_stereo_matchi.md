@@ -48,8 +48,8 @@ tags:
 1. **双边聚合 (Bilateral Aggregation)**:
 
     - 使用空间注意力图 $\mathbf{A}$ 将完整相关代价体 $\mathbf{C}_{cor}$ 分离为两部分：
-      - 细节代价体：$\mathbf{C}_d = \mathbf{A} \odot \mathbf{C}_{cor}$（高频区域）
-      - 平滑代价体：$\mathbf{C}_s = (1-\mathbf{A}) \odot \mathbf{C}_{cor}$（低频区域）
+        - 细节代价体：$\mathbf{C}_d = \mathbf{A} \odot \mathbf{C}_{cor}$（高频区域）
+        - 平滑代价体：$\mathbf{C}_s = (1-\mathbf{A}) \odot \mathbf{C}_{cor}$（低频区域）
     - 分别用独立的聚合分支 $\mathbf{G}_d$ 和 $\mathbf{G}_s$ 处理（结构相同但不共享权重）
     - 最终融合：$\mathbf{C}_{agg} = \mathbf{A} \odot \mathbf{C}'_d + (1-\mathbf{A}) \odot \mathbf{C}'_s$
     - 每个分支由MobileNetV2 inverted residual blocks构成：1/4分辨率4块、1/8分辨率6块、1/16分辨率8块，扩展因子为4
@@ -93,9 +93,9 @@ tags:
 ### 消融实验要点
 
 - **双边聚合 (BA) 的效果**：
-  - 2D基线 EPE 0.63 → +BA 0.59 → +SSA 0.57（Scene Flow）
-  - 3D基线 EPE 0.56 → +BA 0.53 → +SSA 0.51
-  - KITTI前景区域D1-fg提升：2D聚合提升17%，3D聚合提升22%
+    - 2D基线 EPE 0.63 → +BA 0.59 → +SSA 0.57（Scene Flow）
+    - 3D基线 EPE 0.56 → +BA 0.53 → +SSA 0.51
+    - KITTI前景区域D1-fg提升：2D聚合提升17%，3D聚合提升22%
 - **反射区域性能**：BA使2D聚合在反射区域提升36.5%，3D聚合提升12.0%
 - **通用性验证**：BA插入PSMNet（EPE 1.09→0.77）、GwcNet（0.76→0.67）、Fast-ACVNet+（0.59→0.53），均有显著提升，Fast-ACVNet+的EPE提升10.2%
 

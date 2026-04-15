@@ -29,9 +29,9 @@ tags:
 
 - **核心问题**: 图生成模型大多基于邻接矩阵表示，计算复杂度为 $O(n^2)$，对稀疏图效率低；离散扩散模型在每步独立采样矩阵元素，存在累积解码误差(compounding decoding error)
 - **已有方案不足**:
-  - 扩散模型(DiGress, EDGE)需要多步去噪 + 排列不变的 GNN 架构，架构选择受限
-  - 早期序列模型(GraphRNN, DeepGMG)基于 RNN/LSTM，仍以邻接矩阵行展开，序列长 $O(n^2)$
-  - 边列表方法(DeepGMG, BiGG)依赖 GNN 学节点表示，表达能力有限
+    - 扩散模型(DiGress, EDGE)需要多步去噪 + 排列不变的 GNN 架构，架构选择受限
+    - 早期序列模型(GraphRNN, DeepGMG)基于 RNN/LSTM，仍以邻接矩阵行展开，序列长 $O(n^2)$
+    - 边列表方法(DeepGMG, BiGG)依赖 GNN 学节点表示，表达能力有限
 - **动机**: 借鉴 LLM 的巨大成功，设计基于边列表的高效 token 序列表示，让通用 Transformer 架构可直接用于图生成
 
 ## 方法详解

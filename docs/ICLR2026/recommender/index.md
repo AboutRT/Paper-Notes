@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🔬 ICLR2026** · 共 **9** 篇
+**🔬 ICLR2026** · **9** 篇论文解读
 
 **[C2Al Cohort-Contrastive Auxiliary Learning For Large-Scale Recommendation System](c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md)**
 

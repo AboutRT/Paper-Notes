@@ -2,20 +2,24 @@
 title: >-
   [论文解读] HSCR: Hierarchical Self-Contrastive Rewarding for Aligning Medical Vision Language Models
 description: >-
-  [多模态] 提出层级自对比奖励方法 HSCR，通过视觉 token dropout 暴露模型内在的模态失对齐（misalignment），自动生成高质量偏好数据，并结合显式/隐式多层级偏好优化，仅用2000条训练样本即显著提升医学VLM的零样本性能和可信度。
+  [ACL2025][多模态][Medical VLM] 提出层级自对比奖励方法 HSCR，通过视觉 token dropout 暴露模型内在的模态失对齐（misalignment），自动生成高质量偏好数据，并结合显式/隐式多层级偏好优化，仅用2000条训练样本即显著提升医学VLM的零样本性能和可信度。
 tags:
+  - ACL2025
   - 多模态
+  - Medical VLM
+  - Preference Optimization
+  - Self-Contrastive Rewarding
+  - Modality Alignment
+  - Hallucination
 ---
 
 # HSCR: Hierarchical Self-Contrastive Rewarding for Aligning Medical Vision Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2506.00805](https://arxiv.org/abs/2506.00805) |
-| 代码 | [GitHub](https://github.com/jiangsongtao/HSCR) |
-| 领域 | Multimodal VLM / 医学视觉语言模型对齐 |
-| 关键词 | Medical VLM, Preference Optimization, Self-Contrastive Rewarding, Modality Alignment, Hallucination |
+**会议**: ACL2025  
+**arXiv**: [2506.00805](https://arxiv.org/abs/2506.00805)  
+**代码**: [GitHub](https://github.com/jiangsongtao/HSCR)  
+**领域**: Multimodal VLM / 医学视觉语言模型对齐  
+**关键词**: Medical VLM, Preference Optimization, Self-Contrastive Rewarding, Modality Alignment, Hallucination  
 
 ## 一句话总结
 

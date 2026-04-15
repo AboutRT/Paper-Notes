@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**🎞️ ECCV2024** · 共 **2** 篇
+**🎞️ ECCV2024** · **2** 篇论文解读
 
 **[Distribution-Aware Robust Learning From Long-Tailed Data With Noisy Labels](distribution-aware_robust_learning_from_long-tailed_data_with_noisy_labels.md)**
 

@@ -100,8 +100,8 @@ $$\theta^* = \arg\min_\theta \sum_{(u,i,y) \in D} \mathcal{L}_{\text{task}}\left
 **针对不同任务的损失函数**：
 
 - **评分预测**（Amazon/Yelp）：混合损失 $0.8 \cdot \mathcal{L}_{MSE} + 0.2 \cdot \mathcal{L}_{CE}$
-  - 从LLM输出提取5个离散评分token的logits
-  - 交叉熵损失处理分类+MLP头回归连续评分值
+    - 从LLM输出提取5个离散评分token的logits
+    - 交叉熵损失处理分类+MLP头回归连续评分值
 - **CTR预测**（MIND）：标准二元交叉熵 $\mathcal{L}_{BCE}$，对"yes" token的logit计算
 
 **训练细节**：

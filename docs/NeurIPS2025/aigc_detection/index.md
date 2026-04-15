@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC检测
 
-**🧠 NeurIPS2025** · 共 **7** 篇
+**🧠 NeurIPS2025** · **7** 篇论文解读
 
 **[Asciibench Evaluating Language-Model-Based Understanding Of Visually-Oriented Te](asciibench_evaluating_language-model-based_understanding_of_visually-oriented_te.md)**
 

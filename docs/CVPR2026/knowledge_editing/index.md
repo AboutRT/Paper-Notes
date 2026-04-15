@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**📷 CVPR2026** · 共 **1** 篇
+**📷 CVPR2026** · **1** 篇论文解读
 
 **[Attribution-Guided Model Rectification Of Unreliable Neural Network Behaviors](attribution-guided_model_rectification_of_unreliable_neural_network_behaviors.md)**
 

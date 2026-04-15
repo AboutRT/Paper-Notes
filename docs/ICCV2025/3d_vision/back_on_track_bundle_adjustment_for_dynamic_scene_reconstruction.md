@@ -51,8 +51,8 @@ BA-Track 包含三个阶段：
 1. **运动解耦 3D 追踪器**
 
     - 使用双网络架构而非单网络：
-      - 追踪器 $\mathcal{T}$（6 层 Transformer）：预测**总运动** $X_{total}$、可见性 $v$ 和静态/动态标签 $m$
-      - 动态追踪器 $\mathcal{T}_{dyn}$（3 层 Transformer，更轻量）：预测**动态分量** $X_{dyn}$
+        - 追踪器 $\mathcal{T}$（6 层 Transformer）：预测**总运动** $X_{total}$、可见性 $v$ 和静态/动态标签 $m$
+        - 动态追踪器 $\mathcal{T}_{dyn}$（3 层 Transformer，更轻量）：预测**动态分量** $X_{dyn}$
     - 运动解耦公式：$X_{static} = X_{total} - m \cdot X_{dyn}$
     - $m$ 作为门控因子：$m=0$（静态点）时静态分量 = 总运动；$m=1$（动态点）时减去物体运动
     - 输入包含 RGB 特征和深度特征（来自单目深度模型 ZoeDepth），增强 3D 推理能力

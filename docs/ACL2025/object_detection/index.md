@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**💬 ACL2025** · 共 **4** 篇
+**💬 ACL2025** · **4** 篇论文解读
 
 **[Anchored Answers Unravelling Positional Bias In Gpt-2S Multiple-Choice Questions](anchored_answers_unravelling_positional_bias_in_gpt-2s_multiple-choice_questions.md)**
 

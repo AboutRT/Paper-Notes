@@ -61,8 +61,8 @@ tags:
 
     - 功能：在 exocentric 视角中发现可供性部件线索，通过对比学习蒸馏到 egocentric 表示
     - 核心思路：首先在 exocentric 图像中发现部件——将 CAM 与目标亲和图结合后阈值化提取交互区域，K-means（K=3）聚类得候选部件质心，与 DINO 自注意力图比较（pIoU 指标）判断可靠性。然后构建正/负原型：
-      - 可靠时：$P^+ = \Phi^+(F, A_{\text{part}})$（部件级正原型），anchor 为 egocentric 目标区域特征
-      - 不可靠时：$P^+ = \Phi^+(F, A_{\text{obj}})$（目标级正原型），anchor 为全图特征
+        - 可靠时：$P^+ = \Phi^+(F, A_{\text{part}})$（部件级正原型），anchor 为 egocentric 目标区域特征
+        - 不可靠时：$P^+ = \Phi^+(F, A_{\text{obj}})$（目标级正原型），anchor 为全图特征
     - 对比损失 $\mathcal{L}^{\text{proto}}_b = \frac{-1}{|\mathbf{P}^+_b|} \sum_{p \in \mathbf{P}^+_b} \log \frac{\exp(z^{\text{ego}}_b \circ p / \tau)}{\sum_{n \in (\mathbf{P}^+_b \cup \mathbf{P}^-_b)} \exp(z \circ n / \tau)}$
     - 设计动机：相比之前的 pairwise 蒸馏（LOCATE），原型对比学习不仅拉近 ego-exo 表示，还同时推开不同动作类的原型和背景，学到更具判别性的特征。选择性机制保证即使部件不可靠也能学到目标级信号
 

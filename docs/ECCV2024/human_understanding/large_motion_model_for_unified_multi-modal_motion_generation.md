@@ -68,10 +68,10 @@ LMM 基于 Transformer-based Diffusion Model（扩散模型），整体流程分
 
     - **空间注意力（Body-part Attention）**: 对每一帧，在身体部位维度上使用注意力机制建模部位间关系。由于存在天然缺失部位和预训练中人为掩码的部位，不能使用固定系数，因此使用自注意力动态计算部位间贡献。
     - **时间注意力（Temporal Attention）**: 使用多头注意力，每个头对应一个身体部位。关键改进包括：
-      - 使用 Mixture-of-Expert 从多模态条件特征中生成统一 Key 表示
-      - 对运动特征 $\mathbf{K}_x$ 和条件特征 $\mathbf{K}_c$ 分别独立归一化（避免长条件序列稀释运动自相关性）
-      - 引入 64 个可学习 token 作为无条件生成的占位符
-      - 使用真实时间而非帧索引来支持不同帧率
+        - 使用 Mixture-of-Expert 从多模态条件特征中生成统一 Key 表示
+        - 对运动特征 $\mathbf{K}_x$ 和条件特征 $\mathbf{K}_c$ 分别独立归一化（避免长条件序列稀释运动自相关性）
+        - 引入 64 个可学习 token 作为无条件生成的占位符
+        - 使用真实时间而非帧索引来支持不同帧率
     - 最终输出：$\mathbf{Y} = \mathbf{Y}_s + \mathbf{Y}_t$
 
 3. **预训练策略（Random Downsampling + Random Masking）**:

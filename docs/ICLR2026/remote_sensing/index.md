@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**🔬 ICLR2026** · 共 **6** 篇
+**🔬 ICLR2026** · **6** 篇论文解读
 
 **[Autofly Vision-Language-Action Model For Uav Autonomous Navigation In The Wild](autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild.md)**
 

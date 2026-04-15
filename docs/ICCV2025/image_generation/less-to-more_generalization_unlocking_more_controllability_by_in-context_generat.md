@@ -55,16 +55,16 @@ UNO 基于 FLUX.1 dev（MM-DiT 架构），包含两大核心系统：(1) 合成
 
     - 功能：利用 DiT 模型的 in-context 生成能力，系统化地生成高分辨率（1024×1024）、高一致性的主体配对数据
     - 核心思路：
-      - **单主体阶段**：构建包含 365 个大类和细粒度子类的分类体系，利用 LLM 生成多样化的主体和场景文本，通过精心设计的文本模板让 T2I 模型生成主体一致的图像对。使用 DINOv2 做初步过滤（去掉一致性低的），再用 VLM 从 appearance、details、attributes 多维度评分：$score = \text{Average}(\text{VLM}(I_{ref}, I_{tgt}, c_y))$
-      - **多主体阶段**：用 Stage I 训练好的 S2I 模型 + OVD（开放词汇检测器）从目标图像中检测并裁剪额外主体，输入 S2I 模型生成一致的第二参考图像 $I_{ref}^2$。关键：直接用裁剪图像作为 $I_{ref}^2$ 会导致 copy-paste 问题，必须通过 S2I 模型重新生成
+        - **单主体阶段**：构建包含 365 个大类和细粒度子类的分类体系，利用 LLM 生成多样化的主体和场景文本，通过精心设计的文本模板让 T2I 模型生成主体一致的图像对。使用 DINOv2 做初步过滤（去掉一致性低的），再用 VLM 从 appearance、details、attributes 多维度评分：$score = \text{Average}(\text{VLM}(I_{ref}, I_{tgt}, c_y))$
+        - **多主体阶段**：用 Stage I 训练好的 S2I 模型 + OVD（开放词汇检测器）从目标图像中检测并裁剪额外主体，输入 S2I 模型生成一致的第二参考图像 $I_{ref}^2$。关键：直接用裁剪图像作为 $I_{ref}^2$ 会导致 copy-paste 问题，必须通过 S2I 模型重新生成
     - 设计动机：解决多主体配对数据的获取瓶颈。实验证明高质量评分的数据可显著提升模型性能（DINO 和 CLIP-I 分数随数据质量评分提高而提升）
 
 2. **渐进式跨模态对齐（Progressive Cross-Modal Alignment）**:
 
     - 功能：分两阶段逐步让 DiT 学会基于参考图像生成
     - 核心思路：
-      - Stage I：单参考图像输入。将参考图像通过 VAE 编码后直接拼接到文本 token 和 noisy latent 上：$z_1 = \text{Concatenate}(c, z_t, \mathcal{E}(I_{ref}^1))$。在 FLUX 的 MM-DiT attention 中与其他 token 共同参与计算
-      - Stage II：扩展到多参考图像：$z_2 = \text{Concatenate}(c, z_t, z_{ref}^1, z_{ref}^2, \ldots, z_{ref}^N)$，N=2
+        - Stage I：单参考图像输入。将参考图像通过 VAE 编码后直接拼接到文本 token 和 noisy latent 上：$z_1 = \text{Concatenate}(c, z_t, \mathcal{E}(I_{ref}^1))$。在 FLUX 的 MM-DiT attention 中与其他 token 共同参与计算
+        - Stage II：扩展到多参考图像：$z_2 = \text{Concatenate}(c, z_t, z_{ref}^1, z_{ref}^2, \ldots, z_{ref}^N)$，N=2
     - 设计动机：直接训练多参考图像输入效果差（DINO 从 0.542 降至 0.511），因为无噪声的参考图像 token 会破坏原始收敛分布。先从简单到复杂逐步适应更有效
 
 3. **Universal Rotary Position Embedding (UnoPE)**:

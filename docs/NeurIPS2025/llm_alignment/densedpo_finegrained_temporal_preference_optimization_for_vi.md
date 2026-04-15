@@ -2,10 +2,11 @@
 title: >-
   [论文解读] DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models
 description: >-
-  [NeurIPS 2025 (Spotlight)][视频生成][DPO] 提出 DenseDPO，通过引导式采样构造运动对齐的视频对消除运动偏差，并在时间片段级标注密集偏好信号，用 1/3 的标注数据大幅提升视频生成的运动质量，同时保持文本对齐和视觉质量。
+  [NeurIPS 2025 (Spotlight)][LLM对齐][扩散模型] 识别并解决视频 DPO 的运动偏差问题——通过从 GT 视频加噪去噪构造结构对齐的视频对来固定运动维度、在时间片段级标注密集偏好来获取更精准的学习信号、用现成 VLM 自动标注来降低成本，仅用 1/3 标注数据即大幅提升运动生成质量同时匹配视觉质量和文本对齐。
 tags:
   - NeurIPS 2025 (Spotlight)
-  - 视频生成
+  - LLM对齐
+  - 扩散模型
   - DPO
   - 运动偏差
   - 片段级偏好

@@ -2,20 +2,25 @@
 title: >-
   [论文解读] Adversarial Manipulation of Reasoning Models using Internal Representations
 description: >-
-  [LLM推理] 本文发现推理模型（如 DeepSeek-R1-Distill-Llama-8B）在 CoT 生成阶段存在一个线性"谨慎方向"（caution direction），通过消融该方向可有效越狱模型，揭示了 CoT 本身是对抗攻击的新靶点。
+  [ICML 2025 (R2FM Workshop)][LLM推理][Reasoning Models] 本文发现推理模型（如 DeepSeek-R1-Distill-Llama-8B）在 CoT 生成阶段存在一个线性"谨慎方向"（caution direction），通过消融该方向可有效越狱模型，揭示了 CoT 本身是对抗攻击的新靶点。
 tags:
+  - ICML 2025 (R2FM Workshop)
   - LLM推理
+  - Reasoning Models
+  - Chain-of-Thought
+  - Jailbreak
+  - Activation Space
+  - Caution Direction
+  - DeepSeek-R1
 ---
 
 # Adversarial Manipulation of Reasoning Models using Internal Representations
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 (R2FM Workshop) |
-| arXiv | [2507.03167](https://arxiv.org/abs/2507.03167) |
-| 代码 | [GitHub](https://github.com/ky295/reasoning-manipulation) |
-| 领域 | LLM推理 / AI安全 / 对抗攻击 |
-| 关键词 | Reasoning Models, Chain-of-Thought, Jailbreak, Activation Space, Caution Direction, DeepSeek-R1 |
+**会议**: ICML 2025 (R2FM Workshop)  
+**arXiv**: [2507.03167](https://arxiv.org/abs/2507.03167)  
+**代码**: [GitHub](https://github.com/ky295/reasoning-manipulation)  
+**领域**: LLM推理 / AI安全 / 对抗攻击  
+**关键词**: Reasoning Models, Chain-of-Thought, Jailbreak, Activation Space, Caution Direction, DeepSeek-R1  
 
 ## 一句话总结
 

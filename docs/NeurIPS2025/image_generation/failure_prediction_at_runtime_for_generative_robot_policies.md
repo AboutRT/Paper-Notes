@@ -2,17 +2,15 @@
 title: >-
   [论文解读] Failure Prediction at Runtime for Generative Robot Policies
 description: >-
-  [NeurIPS 2025] 提出 FIPER 框架，结合观测嵌入空间的 RND-OOD 检测与动作块熵（ACE）不确定性度量，在无需失败数据的前提下对生成式机器人策略进行运行时早期失败预测，并通过共形预测提供统计保证。
+  [NeurIPS 2025][图像生成][失败预测] 提出 FIPER 框架，通过结合观测空间的 OOD 检测（RND）和动作空间的不确定性量化（ACE），在生成式机器人策略运行时无需失败数据即可实现早期失败预测。
 tags:
   - NeurIPS 2025
-  - 机器人学习
+  - 图像生成
   - 失败预测
   - 模仿学习
-  - 扩散策略
-  - 流匹配
+  - 扩散模型
   - 分布外检测
   - 共形预测
-  - 不确定性量化
 ---
 
 # Failure Prediction at Runtime for Generative Robot Policies

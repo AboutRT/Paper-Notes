@@ -48,10 +48,10 @@ tags:
 
     - 功能：将检索和定位统一到单一编码器，同时在 clip 级（上下文）和帧级（内容）建模
     - 核心组件包含四部分：
-      - **Cross Attention**：帧特征作为 query，文本特征作为 key/value，生成文本条件帧特征：$F^i = \text{softmax}(Q^i K^T) V + Q^i$
-      - **Sparsifier**：用 Gumbel-softmax 计算每帧的相关性 $G^j \in [0,1]$，分类帧为相关/不相关，生成注意力掩码 $M(j,k) = \begin{cases} 0 & \text{if } G^j > 0.5 \text{ or } j=k \\ -\infty & \text{otherwise} \end{cases}$
-      - **Retrieval Attention**：引入可学习检索 token $R^i$ 与帧特征拼接做自注意力，基于稀疏掩码聚合：$\tilde{Q}^i = \text{softmax}(Q^i K^T + M) V + Q^i$。输出 clip 级上下文 $R^i$ 和帧级内容 $F_c^{i,j}$
-      - **特征融合**：检索 clip 特征 = 内容 + 上下文 × 相关性：$P^{i,j} = F_c^{i,j} + R^i \times G^j$
+        - **Cross Attention**：帧特征作为 query，文本特征作为 key/value，生成文本条件帧特征：$F^i = \text{softmax}(Q^i K^T) V + Q^i$
+        - **Sparsifier**：用 Gumbel-softmax 计算每帧的相关性 $G^j \in [0,1]$，分类帧为相关/不相关，生成注意力掩码 $M(j,k) = \begin{cases} 0 & \text{if } G^j > 0.5 \text{ or } j=k \\ -\infty & \text{otherwise} \end{cases}$
+        - **Retrieval Attention**：引入可学习检索 token $R^i$ 与帧特征拼接做自注意力，基于稀疏掩码聚合：$\tilde{Q}^i = \text{softmax}(Q^i K^T + M) V + Q^i$。输出 clip 级上下文 $R^i$ 和帧级内容 $F_c^{i,j}$
+        - **特征融合**：检索 clip 特征 = 内容 + 上下文 × 相关性：$P^{i,j} = F_c^{i,j} + R^i \times G^j$
     - 设计动机：稀疏注意力让检索关注事件相关帧，而非整个片段，与定位任务更协同
 
 2. **对比负样本片段挖掘（Contrastive Clip Sampling）**

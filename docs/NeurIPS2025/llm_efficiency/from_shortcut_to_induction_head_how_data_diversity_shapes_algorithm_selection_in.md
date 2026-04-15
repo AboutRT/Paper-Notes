@@ -58,8 +58,8 @@ tags:
 
     - 功能：证明OOD泛化存在一个尖锐的阈值
     - 核心结论（Theorem 5）：存在 $\epsilon_1, \epsilon_2 = \Theta(N_{\text{trg}}^{-1})$ 使得：
-      - $R(\mathcal{D}_\ell) < \epsilon_1$ → 模型实现induction head，OOD泛化成功
-      - $R(\mathcal{D}_\ell) > \epsilon_2$ → 模型学到位置捷径，OOD泛化失败
+        - $R(\mathcal{D}_\ell) < \epsilon_1$ → 模型实现induction head，OOD泛化成功
+        - $R(\mathcal{D}_\ell) > \epsilon_2$ → 模型学到位置捷径，OOD泛化失败
     - 该结论同时在population loss（Theorem 5）和finite sample（Theorem 6）两个setting下成立
     - trigger数量 $N_{\text{trg}}$ 的影响：阈值为 $\Theta(N_{\text{trg}}^{-1})$，更多trigger类型意味着induction head信号被分散，学习更困难
 

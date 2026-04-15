@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Neural Parameter Search for Slimmer Fine-Tuned Models and Better Transfer
 description: >-
-   提出Neural Parameter Search (NPS)，通过在task vector的低秩子空间中搜索最优权重系数来提升微调模型的剪枝效率，在知识迁移（+1.5%）、模型融合（+2.1%）和压缩（40%效率提升）三个场景下均取得显著改进。
+  [ACL2025][Task Vector] 提出Neural Parameter Search (NPS)，通过在task vector的低秩子空间中搜索最优权重系数来提升微调模型的剪枝效率，在知识迁移（+1.5%）、模型融合（+2.1%）和压缩（40%效率提升）三个场景下均取得显著改进。
 tags:
-
+  - ACL2025
+  - Task Vector
+  - 剪枝
+  - Evolutionary Search
+  - Knowledge Transfer
+  - Model Merging
 ---
 
 # Neural Parameter Search for Slimmer Fine-Tuned Models and Better Transfer
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2505.18713](https://arxiv.org/abs/2505.18713) |
-| 代码 | [NPS-Pruning](https://github.com/duguodong7/NPS-Pruning) |
-| 领域 | 模型压缩 / 知识迁移 / 模型融合 |
-| 关键词 | Task Vector, Model Pruning, Evolutionary Search, Knowledge Transfer, Model Merging |
+**会议**: ACL2025  
+**arXiv**: [2505.18713](https://arxiv.org/abs/2505.18713)  
+**代码**: [NPS-Pruning](https://github.com/duguodong7/NPS-Pruning)  
+**领域**: 模型压缩 / 知识迁移 / 模型融合  
+**关键词**: Task Vector, Model Pruning, Evolutionary Search, Knowledge Transfer, Model Merging  
 
 ## 一句话总结
 
@@ -29,9 +32,9 @@ tags:
   2. 减少多个微调模型融合时的参数干扰，提升多任务泛化
   3. 降低存储成本，同时保持多任务性能
 - **现有剪枝方法不足**：
-  - TIES根据幅度直接剪枝，未考虑子空间贡献的不均匀性
-  - DARE随机选择和缩放参数，缺乏精细控制
-  - Model Tailor基于显著性和敏感性的掩码生成，计算开销较大
+    - TIES根据幅度直接剪枝，未考虑子空间贡献的不均匀性
+    - DARE随机选择和缩放参数，缺乏精细控制
+    - Model Tailor基于显著性和敏感性的掩码生成，计算开销较大
 - **核心观察**：task vector中不同幅度区间的参数子空间对模型性能的贡献显著不同（Figure 2），需要更精细的重加权策略
 
 ## 方法详解

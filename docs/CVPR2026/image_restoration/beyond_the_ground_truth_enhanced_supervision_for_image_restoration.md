@@ -65,9 +65,9 @@ tags:
 
 ### 损失函数 / 训练策略
 - Mask生成器训练：$\mathcal{L} = (1-\lambda)\mathcal{L}_{recon} + \lambda\mathcal{L}_{percep}$
-  - $\mathcal{L}_{recon} = \|\hat{I}^{GT} - I_0^{GT}\|_2^2$（保持语义一致）
-  - $\mathcal{L}_{percep} = -\sum_k \text{IQA}_k(\hat{I}^{GT})$（提升感知质量，用MUSIQ/MANIQA/TOPIQ）
-  - $\lambda$ 控制保真度-感知平衡
+    - $\mathcal{L}_{recon} = \|\hat{I}^{GT} - I_0^{GT}\|_2^2$（保持语义一致）
+    - $\mathcal{L}_{percep} = -\sum_k \text{IQA}_k(\hat{I}^{GT})$（提升感知质量，用MUSIQ/MANIQA/TOPIQ）
+    - $\lambda$ 控制保真度-感知平衡
 
 ## 实验关键数据
 

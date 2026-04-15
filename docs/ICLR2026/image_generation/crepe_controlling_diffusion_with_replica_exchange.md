@@ -60,10 +60,10 @@ CREPE 维护 $M+1$ 个粒子，每个粒子驻留在不同的扩散时间步 $t_
 
     - 功能：为不同控制任务定义中间分布序列
     - 核心思路：
-      - Tempering: $\pi_t(x) \propto p_t^j(x)^\beta$
-      - Reward tilting: $\pi_t(x) \propto p_t^j(x) \exp(r_t(x))$
-      - Model composition: $\pi_t(x) \propto \prod_j p_t^j(x)$
-      - CFG debiasing: $\pi_t(x) \propto p_t(x)^{1-w} p_t(x|c)^w$
+        - Tempering: $\pi_t(x) \propto p_t^j(x)^\beta$
+        - Reward tilting: $\pi_t(x) \propto p_t^j(x) \exp(r_t(x))$
+        - Model composition: $\pi_t(x) \propto \prod_j p_t^j(x)$
+        - CFG debiasing: $\pi_t(x) \propto p_t(x)^{1-w} p_t(x|c)^w$
     - 设计动机：所有这些目标分布都可以用预训练模型密度比来表达，因此接受概率可通过 RNE 计算
 
 3. **在线精炼能力**:

@@ -48,9 +48,9 @@ AR-VRM 由两部分组成：预训练阶段学习关键点视觉语言模型(Key
     - 使用大规模人类第一人称视频数据集 Ego4D（3,500小时、800K视频片段、8M帧）
     - 使用 InterHand 离线检测3D手部关键点 $k_t \in \mathbb{R}^K$（图像坐标系下的3D坐标）
     - 三模态 token 对齐：
-      - 语言：CLIP 文本编码器 + MLP → $z_l \in \mathbb{R}^d$
-      - 视觉：ViT(MAE预训练) + Perceiver Resampler → $z_o^{CLS}, z_o^{p_{1:M}} \in \mathbb{R}^d$
-      - 关键点：HandFormer 编码器 + MLP → $z_k \in \mathbb{R}^d$
+        - 语言：CLIP 文本编码器 + MLP → $z_l \in \mathbb{R}^d$
+        - 视觉：ViT(MAE预训练) + Perceiver Resampler → $z_o^{CLS}, z_o^{p_{1:M}} \in \mathbb{R}^d$
+        - 关键点：HandFormer 编码器 + MLP → $z_k \in \mathbb{R}^d$
     - 三模态 token 拼接后送入 Transformer 层进行 next-token prediction：
     $\hat{z_{k_t}} = h^{Atten}(z_l, z_{o_1}, z_{k_1}, ..., z_{o_{t-1}}, z_{k_{t-1}})$
     - 预训练损失为 MSE：$\mathcal{L}_{pretrain} = \sum_{t=1}^T \mathcal{L}_{MSE}(\text{KeypointHead}(\hat{z_{k_t}}), k_t)$

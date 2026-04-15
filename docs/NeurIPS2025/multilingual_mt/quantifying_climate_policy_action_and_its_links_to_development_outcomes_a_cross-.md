@@ -2,13 +2,14 @@
 title: >-
   [论文解读] Quantifying Climate Policy Action and Its Links to Development Outcomes: A Cross-National Data-Driven Analysis
 description: >-
-  [NeurIPS 2025][NLP+计量经济] 利用多语言DistilBERT对各国气候政策文档自动分类（Mitigation/Adaptation/DRM/Loss&Damage），再与世界银行发展指标做面板回归，揭示不同类型气候政策与经济发展的关联。
+  [NeurIPS 2025][气候政策] 本文构建了一个NLP-计量经济学一体化框架，先用微调的多语言DistilBERT对全球气候政策文档按主题（减缓/适应/灾害风险管理/损失与损害）自动分类（F1=0.90），再与世界银行发展指标做固定效应面板回归，发现减缓政策与较高GDP/GNI显著正相关，而损失与损害政策全球仍然缺乏实质性实施。
 tags:
   - NeurIPS 2025
-  - NLP应用
   - 气候政策
   - 文本分类
-  - 计量经济学
+  - DistilBERT
+  - 面板回归
+  - 跨国分析
 ---
 
 # Quantifying Climate Policy Action and Its Links to Development Outcomes: A Cross-National Data-Driven Analysis

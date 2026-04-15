@@ -2,11 +2,14 @@
 title: >-
   [论文解读] A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings
 description: >-
-  [社会计算] 提出 TiALD，首个面向低资源语言 Tigrinya 的大规模多任务辱骂检测基准，包含 13,717 条人工标注评论，发现小型微调模型全面优于前沿 LLM。
+  [NeurIPS 2025][辱骂检测] 提出 TiALD（Tigrinya Abusive Language Detection），首个面向 Tigrinya 低资源语言的大规模多任务基准数据集，包含 13,717 条 YouTube 评论的辱骂/情感/主题三任务联合标注，同时发现小型微调模型（TiRoBERTa, 125M）在所有任务上全面超越 GPT-4o 和 Claude Sonnet 3.7 等前沿 LLM。
 tags:
-  - 社会计算
-  - 低资源NLP
-  - 内容审核
+  - NeurIPS 2025
+  - 辱骂检测
+  - 低资源语言
+  - 多任务学习
+  - Tigrinya
+  - 基准数据集
 ---
 
 # A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings

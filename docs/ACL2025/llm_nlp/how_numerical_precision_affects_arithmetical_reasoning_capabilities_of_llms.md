@@ -61,9 +61,9 @@ tags:
 
     - 功能：构造性证明 $O(\log n)$ 精度 Transformer 可高效求解全部三类任务
     - 核心思路：对数精度 Transformer 的表达能力对应 $\mathsf{TC}^0$（包含 Majority 门）。具体构造方案：
-      - $\text{ADD}_p(n)$：常数深度 + 常数宽度（独立于 $n$）
-      - $\text{IterADD}_p(n,k)$：常数深度 + 常数宽度（独立于 $n$ 和 $k$）
-      - $\text{MUL}_p(n,l)$：常数深度 + $O(n^2)$ 宽度
+        - $\text{ADD}_p(n)$：常数深度 + 常数宽度（独立于 $n$）
+        - $\text{IterADD}_p(n,k)$：常数深度 + 常数宽度（独立于 $n$ 和 $k$）
+        - $\text{MUL}_p(n,l)$：常数深度 + $O(n^2)$ 宽度
     - 设计动机：$O(\log n)$ bit 精度允许每个神经元存储 $n$ 级别的整数值（因为 $\log_2(n) \approx 32$ 对应上下文长度 $\sim$100K），足以表示进位链和部分积
 
 3. **从 $\mathsf{AC}^0$ 到 $\mathsf{TC}^0$ 的关键跃迁**

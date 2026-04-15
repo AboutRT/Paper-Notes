@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 图像生成方向 163篇论文解读
+  CVPR2026 图像生成方向 159篇论文解读
 description: >-
-  163篇CVPR2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  159篇CVPR2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📷 CVPR2026** · 共 **163** 篇
+**📷 CVPR2026** · **159** 篇论文解读
 
 **[2Ndmatch Finetuning Pruned Diffusion Models Via Second-Order Jacobian Matching](2ndmatch_finetuning_pruned_diffusion_models_via_second-order_jacobian_matching.md)**
 
@@ -134,10 +134,6 @@ description: >-
 
 :   将 Classifier-Free Guidance (CFG) 重新解释为流匹配扩散模型中的反馈控制过程，提出统一框架 CFG-Ctrl，并基于滑模控制 (SMC) 设计非线性反馈引导机制 SMC-CFG，在大引导尺度下显著提升语义一致性和生成鲁棒性。
 
-**[Chain Of Event-Centric Causal Thought For Physically Plausible Video Generation](chain_of_event-centric_causal_thought_for_physically_plausible_video_generation.md)**
-
-:   将物理现象建模为因果连接的事件序列，通过物理公式驱动的事件链推理分解复杂物理过程，再用渐进式语义-视觉双提示引导现成视频扩散模型生成物理合理的因果演进视频。
-
 **[Changebridge Spatiotemporal Image Generation With Multimodal Controls For Remote](changebridge_spatiotemporal_image_generation_with_multimodal_controls_for_remote.md)**
 
 :   提出 ChangeBridge，通过漂移异步扩散桥（drift-asynchronous diffusion bridge）实现遥感场景中从前事件到后事件的条件时空图像生成，支持坐标文本、语义掩码、实例布局等多模态控制，并可作为变化检测任务的数据生成引擎。
@@ -149,10 +145,6 @@ description: >-
 **[Cinematic Audio Source Separation Using Visual Cues](cinematic_audio_source_separation_using_visual_cues.md)**
 
 :   提出首个音视频影视音频源分离（AV-CASS）框架，利用面部和场景双视频流的视觉线索，通过条件流匹配进行生成式三路音频分离（语音/音效/音乐），仅在合成数据上训练即可泛化到真实电影。
-
-**[Circuit Mechanisms For Spatial Relation Generation In Diffusion Models](circuit_mechanisms_for_spatial_relation_generation_in_diffusion_models.md)**
-
-:   通过机械可解释性方法揭示了扩散Transformer（DiT）生成空间关系的内部电路机制：随机嵌入模型使用两阶段模块化电路（关系头+物体生成头），T5编码器模型则将关系信息融合到物体token中通过单token解码，两种机制的鲁棒性差异显著。
 
 **[Circuit Mechanisms For Spatial Relation Generation In Diffusion Transformers](circuit_mechanisms_for_spatial_relation_generation_in_diffusion_transformers.md)**
 
@@ -478,10 +470,6 @@ description: >-
 
 :   提出 straightest geodesics 的并行 GPU 实现及两种可微分方案（外在代理函数法和测地线有限差分法），使三角网格上的指数映射可高效并行且可微分，并以此构建测地线卷积层、网格上的流匹配方法和二阶优化器三个下游应用。
 
-**[Physical Simulator In-The-Loop Video Generation](physical_simulator_in-the-loop_video_generation.md)**
-
-:   提出 PSIVG，首个将物理模拟器嵌入视频扩散模型推理循环的无训练框架：从模板视频重建 4D 场景和 3D 网格并初始化物理模拟器，生成物理一致轨迹引导视频生成，并通过 Test-Time Texture Consistency Optimization（TTCO）优化前景纹理一致性。用户研究中 82.3% 偏好率远超所有基线。
-
 **[Physics-Consistent Diffusion For Efficient Fluid Super-Resolution Via Multiscale](physics-consistent_diffusion_for_efficient_fluid_super-resolution_via_multiscale.md)**
 
 :   提出 ReMD（Residual-Multigrid Diffusion），在扩散模型的每一步反向采样中嵌入多重网格残差修正，利用多小波基构建跨尺度层次结构，无需显式 PDE 即可实现物理一致的高效流体超分辨率。
@@ -625,10 +613,6 @@ description: >-
 **[Trace Structure-Aware Character Encoding For Robust And Generalizable Document W](trace_structure-aware_character_encoding_for_robust_and_generalizable_document_w.md)**
 
 :   提出 TRACE——基于字符结构编码的文档水印框架，利用扩散模型（DragDiffusion）精确移动字符骨架关键点来嵌入信息，通过自适应扩散初始化（ADI）、引导扩散编码（GDE）和掩码区域替换（MRR）三大组件，同时实现跨介质传输鲁棒性、多语言/多字体泛化性和高隐蔽性。
-
-**[Training-Free Motion Factorization For Compositional Video Generation](training-free_motion_factorization_for_compositional_video_generation.md)**
-
-:   提出一种无需训练的运动分解框架，将复杂场景运动拆分为静止、刚性运动和非刚性运动三类，通过结构化运动推理 (SMR) 消除提示语义歧义，再借助解耦运动引导 (DMG) 模块分别约束各类运动的生成，实现多实例多运动类别的组合视频合成。
 
 **[Uni-Dad Unified Distillation And Adaptation Of Diffusion Models For Few-Step Few](uni-dad_unified_distillation_and_adaptation_of_diffusion_models_for_few-step_few.md)**
 

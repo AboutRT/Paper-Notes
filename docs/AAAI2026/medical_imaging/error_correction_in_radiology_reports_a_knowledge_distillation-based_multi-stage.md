@@ -66,27 +66,27 @@ tags:
 - **Stage 2 - 错误定位（Error Localization）**：细粒度分析，在被标记为有问题的报告中精准定位错误的具体术语/短语。
 - **Stage 3 - 错误纠正（Error Correction）**：基于检测到的错误类型和位置，生成临床适当的修正。
 - **设计动机**：
-  - 每个阶段专注于特定方面，减少幻觉
-  - 提供透明的决策链路，临床工作者可以在每个阶段验证
-  - 分步方法鼓励更有针对性的修正
+    - 每个阶段专注于特定方面，减少幻觉
+    - 提供透明的决策链路，临床工作者可以在每个阶段验证
+    - 分步方法鼓励更有针对性的修正
 
 #### 2. **医学知识图谱蒸馏（MKGD）**
 
 使用 **RadGraph** 将临床报告转换为结构化实体图：
 
 - **实体提取**：
-  - **解剖实体（ANAT）**：肺、心脏、肋骨等
-  - **观察实体（OBS）**：分为 Definitely Present (DP)、Uncertain (U)、Definitely Absent (DA) 三个确定性级别
+    - **解剖实体（ANAT）**：肺、心脏、肋骨等
+    - **观察实体（OBS）**：分为 Definitely Present (DP)、Uncertain (U)、Definitely Absent (DA) 三个确定性级别
   
 - **关系建模**：
-  - `suggestive_of`：诊断推理链（影像模式→病理状况）
-  - `located_at`：解剖定位（发现→解剖部位）
-  - `modify`：层级和描述关系（如"mild"修饰"opacity"）
+    - `suggestive_of`：诊断推理链（影像模式→病理状况）
+    - `located_at`：解剖定位（发现→解剖部位）
+    - `modify`：层级和描述关系（如"mild"修饰"opacity"）
 
 - **图-文转换**：通过规则系统将结构化表示转回自然语言句子
-  - 实体分类 → 语义整合 → 逻辑推理（注意否定和不确定性） → 句子构造
-  - 例：将 `⟨lower, modify, lobe⟩` + `⟨opacity, located_at, lobe⟩` → "lower lobe opacity"
-  - 例：`⟨opacity, located_at, lobe⟩` + DA → "no lobe opacity"
+    - 实体分类 → 语义整合 → 逻辑推理（注意否定和不确定性） → 句子构造
+    - 例：将 `⟨lower, modify, lobe⟩` + `⟨opacity, located_at, lobe⟩` → "lower lobe opacity"
+    - 例：`⟨opacity, located_at, lobe⟩` + DA → "no lobe opacity"
 
 - **设计动机**：将自由文本转化为结构化表示，使 LLM 能够"看到"实体之间的关系，而不仅仅是表面文本。
 
@@ -110,8 +110,8 @@ tags:
 
 - **无需微调**：框架通过 prompt engineering 和知识注入增强现有 LLM，不进行昂贵的领域特定微调。
 - **评估指标**：
-  - 检测和定位：准确率 (Accuracy%)
-  - 纠正：AggNLG = (ROUGE-1 + BERTScore + BLEU) / 3
+    - 检测和定位：准确率 (Accuracy%)
+    - 纠正：AggNLG = (ROUGE-1 + BERTScore + BLEU) / 3
 - **实验设置**：4x NVIDIA RTX 3090，使用 bfloat16 精度，temperature=0.001, top_p=0.8
 
 ### 基准数据集构建
@@ -120,9 +120,9 @@ tags:
 - **参考集**：112,251 无错误报告（EXKR 知识库）
 - **评估集**：1,622 报告（512 无错误 + 1,110 含引入错误）
 - **错误引入策略**：
-  - **否定错误**："no pleural effusion" ↔ "pleural effusion"
-  - **实体级临床不一致**：12 种关键放射学发现的替换（语音混淆、术语歧义、模板相关）
-  - 所有错误经执业放射科医生验证
+    - **否定错误**："no pleural effusion" ↔ "pleural effusion"
+    - **实体级临床不一致**：12 种关键放射学发现的替换（语音混淆、术语歧义、模板相关）
+    - 所有错误经执业放射科医生验证
 
 ## 实验关键数据
 

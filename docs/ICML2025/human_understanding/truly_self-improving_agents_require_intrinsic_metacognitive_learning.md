@@ -56,9 +56,9 @@ tags:
 
     - 功能：Agent 对自身能力、任务特征和可用学习策略的自我评估
     - 包含三个子组件：
-      - **自我知识（Self-Knowledge）**: 知道自己擅长什么、不擅长什么。例如"我在数学推理上弱于代码生成"
-      - **任务知识（Task Knowledge）**: 理解任务的难度和要求。例如"这个任务需要多步推理"
-      - **策略知识（Strategy Knowledge）**: 知道有哪些学习策略可用以及何时使用。例如"对于推理任务，chain-of-thought 比 direct answering 更有效"
+        - **自我知识（Self-Knowledge）**: 知道自己擅长什么、不擅长什么。例如"我在数学推理上弱于代码生成"
+        - **任务知识（Task Knowledge）**: 理解任务的难度和要求。例如"这个任务需要多步推理"
+        - **策略知识（Strategy Knowledge）**: 知道有哪些学习策略可用以及何时使用。例如"对于推理任务，chain-of-thought 比 direct answering 更有效"
     - 设计动机：没有准确的自我评估，Agent 无法有效规划自我改进
 
 2. **元认知规划（Metacognitive Planning）**:

@@ -81,11 +81,11 @@ BlindFed的整体流程分为三个阶段：
 
 **阶段一：离线蒸馏（30 epochs）**
 - 前15个epoch：Transformer层蒸馏
-  - 注意力矩阵蒸馏：$\mathcal{L}_a = \frac{1}{h} \sum_{i=1}^{h} \| \mathbf{A}_i^{\mathcal{S}} - \mathbf{A}_i^{\mathcal{T}} \|^2$
-  - 隐状态蒸馏：$\mathcal{L}_h = \| \mathbf{H}^{\mathcal{S}} - \mathbf{H}^{\mathcal{T}} \|^2$
-  - 总损失：$\mathcal{L} = \mathcal{L}_a + \mathcal{L}_h$
+    - 注意力矩阵蒸馏：$\mathcal{L}_a = \frac{1}{h} \sum_{i=1}^{h} \| \mathbf{A}_i^{\mathcal{S}} - \mathbf{A}_i^{\mathcal{T}} \|^2$
+    - 隐状态蒸馏：$\mathcal{L}_h = \| \mathbf{H}^{\mathcal{S}} - \mathbf{H}^{\mathcal{T}} \|^2$
+    - 总损失：$\mathcal{L} = \mathcal{L}_a + \mathcal{L}_h$
 - 后15个epoch：预测层蒸馏
-  - $\mathcal{L}_p = \mathcal{L}_{CE}(\mathbf{z}^{\mathcal{S}}/\tau, \mathbf{z}^{\mathcal{T}}/\tau)$，温度$\tau=5$
+    - $\mathcal{L}_p = \mathcal{L}_{CE}(\mathbf{z}^{\mathcal{S}}/\tau, \mathbf{z}^{\mathcal{T}}/\tau)$，温度$\tau=5$
 
 **阶段二：联邦适配**
 - 交叉熵损失，SGD优化器（lr=0.001），50轮通信，lr在第25和40轮衰减0.1

@@ -2,20 +2,23 @@
 title: >-
   [论文解读] Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective
 description: >-
-   提出 PromptQuine 框架，通过进化搜索对 ICL prompt 进行 token 级剪枝，发现将清晰示例剪成看似"乱码"的子序列反而能提升 LLM 性能，且匹配或超越 SOTA prompt 优化方法。
+  [ICML 2025][剪枝] 提出 PromptQuine 框架，通过进化搜索对 ICL prompt 进行 token 级剪枝，发现将清晰示例剪成看似"乱码"的子序列反而能提升 LLM 性能，且匹配或超越 SOTA prompt 优化方法。
 tags:
-
+  - ICML 2025
+  - 剪枝
+  - evolutionary search
+  - in-context learning
+  - 提示学习
+  - open-endedness
 ---
 
 # Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2506.17930](https://arxiv.org/abs/2506.17930) |
-| 代码 | - |
-| 领域 | Prompt Optimization / In-Context Learning |
-| 关键词 | prompt pruning, evolutionary search, in-context learning, PromptQuine, open-endedness |
+**会议**: ICML 2025  
+**arXiv**: [2506.17930](https://arxiv.org/abs/2506.17930)  
+**代码**: -  
+**领域**: Prompt Optimization / In-Context Learning  
+**关键词**: prompt pruning, evolutionary search, in-context learning, PromptQuine, open-endedness  
 
 ## 一句话总结
 

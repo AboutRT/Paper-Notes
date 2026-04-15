@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🧪 ICML2025** · 共 **29** 篇
+**🧪 ICML2025** · **29** 篇论文解读
 
 **[A Cross Modal Knowledge Distillation Data Augmentation Recipe For Improving Tran](a_cross_modal_knowledge_distillation_data_augmentation_recipe_for_improving_tran.md)**
 

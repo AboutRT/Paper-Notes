@@ -2,13 +2,14 @@
 title: >-
   [论文解读] SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model
 description: >-
-  [ACL 2025][RAG安全] 提出首个中文 RAG 安全评估基准 SafeRAG，定义四种能有效绕过现有 RAG 防御组件的新型攻击任务（银噪声、上下文间冲突、软广告、白色拒绝服务），对 14 种 RAG 组件进行系统安全评估。
+  [ACL 2025][RAG security] 提出首个中文 RAG 安全评估基准 SafeRAG，设计四种能绕过现有检索器、过滤器和生成器防御的新型攻击任务（银噪声、上下文间冲突、软广告、白色拒绝服务），在 14 种 RAG 组件上系统评估安全漏洞，揭示即使最先进的 RAG 系统也对这些攻击高度脆弱。
 tags:
   - ACL 2025
-  - RAG安全
-  - 数据注入攻击
-  - 安全评估基准
-  - 大语言模型安全
+  - RAG security
+  - silver noise
+  - inter-context conflict
+  - soft ad
+  - white DoS
 ---
 
 # SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model

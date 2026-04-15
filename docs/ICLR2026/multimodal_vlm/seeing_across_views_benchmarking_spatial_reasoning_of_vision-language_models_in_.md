@@ -37,16 +37,16 @@ tags:
 基于 AgiWorld 和 BridgeV2 数据集，构建包含 1,708 道人工标注多选题的基准，涵盖**空间理解**和**机器人执行**两大类共 8 个子任务：
 
 - **空间理解（4 个子任务）**：
-  - Cross-View Matching：跨视角目标匹配
-  - Distance Judgement：物体间相对距离判断
-  - Viewpoint Identification：视角变换推理
-  - 3D Spatial Consistency：3D 空间一致性维护
+    - Cross-View Matching：跨视角目标匹配
+    - Distance Judgement：物体间相对距离判断
+    - Viewpoint Identification：视角变换推理
+    - 3D Spatial Consistency：3D 空间一致性维护
 
 - **机器人执行（4 个子任务）**：
-  - Action Planning：多步动作序列规划
-  - Step Execution：单步动作正确性验证
-  - Trajectory Selection：候选运动路径可行性评估
-  - Affordance Recognition：物体交互可行性判断
+    - Action Planning：多步动作序列规划
+    - Step Execution：单步动作正确性验证
+    - Trajectory Selection：候选运动路径可行性评估
+    - Affordance Recognition：物体交互可行性判断
 
 ### 关键设计 1：多阶段人工质控流水线
 - **数据收集**：规则筛选 + GPT-4.1 辅助过滤 + 人工验证（GPT-4.1 仅用于分诊，不生成 QA 内容）

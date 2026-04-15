@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🤖 AAAI2026** · 共 **15** 篇
+**🤖 AAAI2026** · **15** 篇论文解读
 
 **[Blur-Robust Detection Via Feature Restoration An End-To-End Framework For Prior-](blur-robust_detection_via_feature_restoration_an_end-to-end_framework_for_prior-.md)**
 

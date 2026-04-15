@@ -27,8 +27,8 @@ tags:
 ## 研究背景与动机
 - **领域现状**：MoE架构通过稀疏激活显著扩大模型容量而不增加推理开销，已成为LLM效率提升的重要方向。Upcycling（从密集模型转换为MoE）比从零训练MoE更高效。
 - **现有方法的痛点**：
-  - **Vanilla Upcycling**（复制FFN层→大规模后训练）：专家初始同质，需要~1T tokens或~5M指令数据
-  - **Specialized Upcycling**（先训练领域专家→再组装）：需要数千亿领域数据，且专家数量不灵活
+    - **Vanilla Upcycling**（复制FFN层→大规模后训练）：专家初始同质，需要~1T tokens或~5M指令数据
+    - **Specialized Upcycling**（先训练领域专家→再组装）：需要数千亿领域数据，且专家数量不灵活
 - **核心矛盾**：如何在**数据量很少**的情况下，**灵活地**将dense预训练模型转换为高质量MoE指令模型？
 - **核心insight**：指令微调不同epoch的checkpoint自然表现出不同领域的专长（MMLU最好的checkpoint和GSM8K最好的不同），这些checkpoint天然适合作为专业化专家！
 

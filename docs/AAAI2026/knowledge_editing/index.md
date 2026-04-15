@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**🤖 AAAI2026** · 共 **5** 篇
+**🤖 AAAI2026** · **5** 篇论文解读
 
 **[Catastrophic Forgetting In Kolmogorov-Arnold Networks](catastrophic_forgetting_in_kolmogorov-arnold_networks.md)**
 

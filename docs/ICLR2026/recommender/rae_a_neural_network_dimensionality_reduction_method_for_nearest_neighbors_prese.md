@@ -53,11 +53,11 @@ tags:
 
     - 功能：证明 $\lambda$ 通过控制编码器矩阵的谱性质保证 k-NN 保持
     - 理论链条：
-      - **Step 1**：k-NN 保持等价于保持向量间距离的相对排序
-      - **Step 2**：定义范数失真率——线性变换后向量范数的变化比 $\|Wv\|_2 / \|v\|_2$
-      - **Step 3**：Rayleigh 商性质：$\sigma_{\min}^2(W) \leq \frac{\|Wv\|_2^2}{\|v\|_2^2} \leq \sigma_{\max}^2(W)$，范数失真率由奇异值极端值控制
-      - **Step 4**：条件数 $\kappa(W) = \sigma_{\max}/\sigma_{\min}$ 控制失真率比 $\varphi_2/\varphi_1$。$\kappa \to 1$ 时变换近似等距，k-NN 完美保持
-      - **Step 5**：$\sigma_{\max}(W) \leq \|W\|_F$，Frobenius 范数正则化约束最大奇异值
+        - **Step 1**：k-NN 保持等价于保持向量间距离的相对排序
+        - **Step 2**：定义范数失真率——线性变换后向量范数的变化比 $\|Wv\|_2 / \|v\|_2$
+        - **Step 3**：Rayleigh 商性质：$\sigma_{\min}^2(W) \leq \frac{\|Wv\|_2^2}{\|v\|_2^2} \leq \sigma_{\max}^2(W)$，范数失真率由奇异值极端值控制
+        - **Step 4**：条件数 $\kappa(W) = \sigma_{\max}/\sigma_{\min}$ 控制失真率比 $\varphi_2/\varphi_1$。$\kappa \to 1$ 时变换近似等距，k-NN 完美保持
+        - **Step 5**：$\sigma_{\max}(W) \leq \|W\|_F$，Frobenius 范数正则化约束最大奇异值
     - 结论：$\lambda$ 直接控制条件数，从而提供 k-NN 保持的可证明上界保证
 
 3. **$\lambda$ 的平衡作用**

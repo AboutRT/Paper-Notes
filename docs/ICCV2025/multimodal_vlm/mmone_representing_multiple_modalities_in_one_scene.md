@@ -2,20 +2,24 @@
 title: >-
   [论文解读] MMOne: Representing Multiple Modalities in One Scene
 description: >-
-  [多模态] 提出 MMOne 通用框架，通过模态建模模块（含模态指示器）和多模态分解机制解决多模态场景表示中的属性差异和粒度差异问题，在单一 3DGS 表示中同时建模 RGB、热成像和语言等多种模态并均获提升。
+  [ICCV 2025][多模态][多模态场景表示] 提出 MMOne 通用框架，通过模态建模模块（含模态指示器）和多模态分解机制解决多模态场景表示中的属性差异和粒度差异问题，在单一 3DGS 表示中同时建模 RGB、热成像和语言等多种模态并均获提升。
 tags:
+  - ICCV 2025
   - 多模态
+  - 多模态场景表示
+  - 3D高斯泼溅
+  - 模态冲突
+  - 模态分解
+  - 热成像
 ---
 
 # MMOne: Representing Multiple Modalities in One Scene
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV 2025 |
-| arXiv | [2507.11129](https://arxiv.org/abs/2507.11129) |
-| 代码 | [MMOne](https://github.com/Neal2020GitHub/MMOne) |
-| 领域 | 多模态VLM |
-| 关键词 | 多模态场景表示, 3D高斯泼溅, 模态冲突, 模态分解, 热成像 |
+**会议**: ICCV 2025  
+**arXiv**: [2507.11129](https://arxiv.org/abs/2507.11129)  
+**代码**: [MMOne](https://github.com/Neal2020GitHub/MMOne)  
+**领域**: 多模态VLM  
+**关键词**: 多模态场景表示, 3D高斯泼溅, 模态冲突, 模态分解, 热成像  
 
 ## 一句话总结
 

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] What Makes a Good Natural Language Prompt?
 description: >-
-  [ACL 2025][LLM/NLP][提示学习] 通过元分析150+篇prompting文献和博客，提出以属性为中心、以人为中心的prompt质量评估框架（6个维度21个属性），实验发现单属性增强往往比多属性组合更有效，且不同属性在不同任务/模型上效果差异大。
+  [ACL 2025][LLM/NLP][提示学习] 通过元分析150+篇prompting文献，提出包含6个维度21个属性的以属性为中心的prompt质量评估框架，并通过推理任务实验发现：单属性增强常常优于多属性组合，且在属性增强数据上微调可进一步提升模型推理能力。
 tags:
   - ACL 2025
   - LLM/NLP
   - 提示学习
   - 元分析
   - 属性框架
-  - 以人为中心
+  - 认知负荷理论
+  - 指令微调
 ---
 
 # What Makes a Good Natural Language Prompt?

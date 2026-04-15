@@ -57,29 +57,29 @@ ECPO 分为四步流水线：
 - **做什么**：在每个对话轮次，模拟用户的内心独白——将期望物品 $i^E$ 和 CRA 回复 $p_t$ 输入 EC 指令，评估每个维度是否达标
 - **为什么**：ECT 告诉我们满意度是期望与实际感知的差异。通过显式建模这一过程，可以在每一轮给出满意度分数和不满意原因，无需完成整个对话后再回溯
 - **怎么做**：
-  - 三维度评分：灵活性（0-2 分）、一致性（0-2 分）、用户引导能力（0-1 分），满分 5 分
-  - 输出：$\{\text{CONF}_t, r_t\} = U(I_{ect}(i^E, h_t, p_t))$
-  - $\text{CONF}_t$ 是自然语言形式的确认解释，详述为什么满意/不满意
+    - 三维度评分：灵活性（0-2 分）、一致性（0-2 分）、用户引导能力（0-1 分），满分 5 分
+    - 输出：$\{\text{CONF}_t, r_t\} = U(I_{ect}(i^E, h_t, p_t))$
+    - $\text{CONF}_t$ 是自然语言形式的确认解释，详述为什么满意/不满意
 
 #### 2. 后向期望推导（Backward Expectation Derivation）
 
 - **做什么**：对满意度低于阈值 $\lambda$ 的轮次，回溯到 CRA 当时的状态，利用确认解释反事实推理"应该怎么回复"
 - **为什么**：确认解释提供了不满意的根因，Rewriter 可以精准地针对性修改，而非整体重写
 - **怎么做**：
-  - $\tilde{p}_t = \text{Rewriter}(I_{bed}(s_t, p_t, \text{CONF}_t))$，当 $r_t \leq \lambda$
-  - Rewriter 采用 slow thinking（chain-of-thought），先推理再修改
-  - 限制仅做**有限修改**而非完全重写，保持与 $\pi_{sft}$ 的分布接近
-  - 偏好数据集：$\mathcal{D}_{pre} = \{(s_t, p_t, \tilde{p}_t) \mid r_t < \lambda\}$
+    - $\tilde{p}_t = \text{Rewriter}(I_{bed}(s_t, p_t, \text{CONF}_t))$，当 $r_t \leq \lambda$
+    - Rewriter 采用 slow thinking（chain-of-thought），先推理再修改
+    - 限制仅做**有限修改**而非完全重写，保持与 $\pi_{sft}$ 的分布接近
+    - 偏好数据集：$\mathcal{D}_{pre} = \{(s_t, p_t, \tilde{p}_t) \mid r_t < \lambda\}$
 
 #### 3. AILO 用户模拟器
 
 - **做什么**：构建高逼真度的 LLM 用户模拟器，支持 EC 过程
 - **为什么**：真实用户参与成本高、存在偏差；现有用户模拟器（如 iEvalLM）通过简单随机采样生成用户画像，多样性不足
 - **怎么做**：
-  - **用户画像建模**：基于消费心理学 AIO 理论，定义 Activities、Interests、Language、Orientations 四维度；用 GPT-4o 从真实推荐评论数据集推断用户画像
-  - **策略驱动的用户模拟**：三步生成——(1) 生成回复策略（如"询问推荐"）；(2) 基于策略生成回复内容；(3) 执行 EC 过程
-  - 多样性验证：100 个画像的最大 ROUGE-L 分布显著低于 RecAgent 基线
-  - 真实性验证：人工标注 50 组对话轨迹，AILO vs iEvalLM 达 100% 胜率
+    - **用户画像建模**：基于消费心理学 AIO 理论，定义 Activities、Interests、Language、Orientations 四维度；用 GPT-4o 从真实推荐评论数据集推断用户画像
+    - **策略驱动的用户模拟**：三步生成——(1) 生成回复策略（如"询问推荐"）；(2) 基于策略生成回复内容；(3) 执行 EC 过程
+    - 多样性验证：100 个画像的最大 ROUGE-L 分布显著低于 RecAgent 基线
+    - 真实性验证：人工标注 50 组对话轨迹，AILO vs iEvalLM 达 100% 胜率
 
 ### 损失函数 / 训练策略
 

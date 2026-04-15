@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**💬 ACL2025** · 共 **7** 篇
+**💬 ACL2025** · **7** 篇论文解读
 
 **[A Unified Agentic Framework For Evaluating Conditional Image Generation](a_unified_agentic_framework_for_evaluating_conditional_image_generation.md)**
 

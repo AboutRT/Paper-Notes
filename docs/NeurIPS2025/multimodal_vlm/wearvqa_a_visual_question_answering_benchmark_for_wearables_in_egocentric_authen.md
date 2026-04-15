@@ -2,14 +2,14 @@
 title: >-
   [论文解读] WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios
 description: >-
-  NeurIPS 2025 | 提出首个面向可穿戴设备的 VQA 基准 WearVQA，包含 2520 个第一人称图像-问答三元组，覆盖 7 个领域、10 种认知任务和 6 类质量退化，揭示当前最优 MLLM 仅达 24-52% 准确率，图像质量退化和推理类任务构成核心瓶颈。
+  [NeurIPS 2025][多模态][VQA] 提出 WearVQA，首个专为可穿戴设备（智能眼镜）场景设计的 VQA 基准，包含 2520 个第一人称视角图像-问答三元组，系统覆盖 7 个视觉领域、10 种认知任务类型和 6 类可穿戴特有的图像质量问题，配套 96% 准确率的 LLM-as-a-judge 评估框架，揭示当前 SOTA 多模态模型在此场景下仅达 24-52% 准确率。
 tags:
   - NeurIPS 2025
   - 多模态
   - VQA
   - 可穿戴设备
   - 第一人称视角
-  - 图像质量
+  - 图像质量退化
   - 智能眼镜
   - benchmark
 ---

@@ -55,16 +55,16 @@ tags:
 #### 1. **FC-based 攻击 ($\mathcal{A}^{\mathcal{D}}_{\mathsf{FC}}$)**
 - **做什么**：通过精心设置两层FC的权重和偏置，检测目标样本 $T$ 是否在训练数据中
 - **核心思路**：第一层计算 $z_0 = \max\{\tau^{\mathcal{D}} - \|\mathcal{M}^\varepsilon(X) - T\|_{L_1}, 0\}$
-  - 若 $\mathcal{M}^\varepsilon(X)$ 落在以 $T$ 为中心的 $L_1$ 球内 → 梯度非零 → 表明 $T$ 存在
-  - 若超出球外 → 梯度为零
+    - 若 $\mathcal{M}^\varepsilon(X)$ 落在以 $T$ 为中心的 $L_1$ 球内 → 梯度非零 → 表明 $T$ 存在
+    - 若超出球外 → 梯度为零
 - **设计动机**：通过设置 $\tau^{\mathcal{D}} = \Delta^{\mathcal{X}}$（数据字母表中最小 $L_1$ 距离的一半），区分目标和非目标样本
 
 #### 2. **Attention-based 攻击 ($\mathcal{A}^{\mathcal{D}}_{\mathsf{Attn}}$)**
 - **做什么**：利用自注意力的记忆能力，配置注意力头以记忆输入batch并排除目标pattern
 - **核心思路**：
-  - 头1过滤目标pattern $v$ → 若 $v$ 在数据中，输出偏向全局均值 $\bar{X}^\varepsilon$
-  - 头2正常记忆 → 输出接近输入 $x_i^\varepsilon$
-  - 通过两个头输出的差异 $|z_i^1 - z_i^2|$ 是否超过阈值 $\gamma$ 来推断
+    - 头1过滤目标pattern $v$ → 若 $v$ 在数据中，输出偏向全局均值 $\bar{X}^\varepsilon$
+    - 头2正常记忆 → 输出接近输入 $x_i^\varepsilon$
+    - 通过两个头输出的差异 $|z_i^1 - z_i^2|$ 是否超过阈值 $\gamma$ 来推断
 - **扩展到ViT**：将离散token域的攻击扩展到连续图像domain
 
 ### 理论结果

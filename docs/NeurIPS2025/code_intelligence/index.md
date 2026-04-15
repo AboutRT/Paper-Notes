@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**🧠 NeurIPS2025** · 共 **20** 篇
+**🧠 NeurIPS2025** · **20** 篇论文解读
 
 **[A Selfimproving Coding Agent](a_selfimproving_coding_agent.md)**
 

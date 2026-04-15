@@ -2,14 +2,16 @@
 title: >-
   [论文解读] Clip-and-Verify: 线性约束驱动的域裁剪加速神经网络验证
 description: >-
-  [NeurIPS 2025][AI安全] 提出Clip-and-Verify框架，利用线性界传播产生的约束裁剪输入空间和收紧中间层界，包含完全裁剪（坐标上升求对偶）和松弛裁剪（收缩输入盒）两种GPU高效算法，最多减少96%的BaB子问题，是VNN-COMP 2025获胜验证器核心组件。
+  [NeurIPS 2025][LLM推理][神经网络验证] 提出Clip-and-Verify验证流水线，利用线性界传播过程中"免费"产生的线性约束，通过完全裁剪（坐标上升对偶求解）和松弛裁剪（闭式输入域收缩）两种GPU高效算法收紧全网络中间层界，在多个benchmark上减少高达96%的BaB子问题数量，是VNN-COMP 2025获胜验证器的核心组件。
 tags:
   - NeurIPS 2025
+  - LLM推理
   - 神经网络验证
   - branch-and-bound
   - 线性约束
   - 域裁剪
-  - α,β-CROWN
+  - α
+  - β-CROWN
 ---
 
 # Clip-and-Verify: 线性约束驱动的域裁剪加速神经网络验证

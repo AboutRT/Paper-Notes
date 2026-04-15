@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Out of the Shadows: Exploring a Latent Space for Neural Network Verification
 description: >-
-  [ICLR 2026][神经网络验证] 提出一种基于潜空间（latent space）的规范驱动输入细化方法，通过在高维潜空间中转移输出约束到输入空间，显著减少分支定界过程中的子问题数量，实现高效GPU加速的神经网络验证工具。
+  [ICLR 2026][神经网络验证] 将 zonotope 视为高维超立方体的"投影（影子）"，发现输入集和输出包围体共享同一潜空间，据此提出规范驱动的输入细化方法，将输出端的不安全约束反向传递到输入空间来剪枝，使分支定界子问题数减少 60-65%，且所有运算均为矩阵操作从而实现高效 GPU 加速，在 VNN-COMP'24 八个基准上与 α-β-CROWN 等顶级工具取得可比性能。
 tags:
   - ICLR 2026
   - 神经网络验证
-  - 可达性分析
   - 潜空间
   - zonotope
   - 分支定界
+  - 可达性分析
 ---
 
 # Out of the Shadows: Exploring a Latent Space for Neural Network Verification

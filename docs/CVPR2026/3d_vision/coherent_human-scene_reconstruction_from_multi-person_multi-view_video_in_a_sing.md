@@ -52,8 +52,8 @@ tags:
 
     - 功能：无需优化地将各视角估计聚合为统一全局表示
     - 核心思路：将SMPL参数分为视角不变和视角依赖两类——
-      - **视角不变**（shape $\beta$、canonical pose $\theta$）：直接取各视角预测均值
-      - **视角依赖**（root rotation $R$、head translation $\tau$）：先用估计的相机外参变换到世界坐标系，旋转转为四元数取均值，平移用**多视图射线三角化**
+        - **视角不变**（shape $\beta$、canonical pose $\theta$）：直接取各视角预测均值
+        - **视角依赖**（root rotation $R$、head translation $\tau$）：先用估计的相机外参变换到世界坐标系，旋转转为四元数取均值，平移用**多视图射线三角化**
     - 设计动机：Token级max-pooling会混合视角依赖特征损害视角不变参数估计；显式分开处理更合理
 
 4. **基于几何的多人关联**:

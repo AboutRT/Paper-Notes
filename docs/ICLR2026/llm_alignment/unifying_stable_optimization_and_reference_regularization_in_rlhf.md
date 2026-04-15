@@ -56,8 +56,8 @@ tags:
     - 功能：将RL目标转化为加权SFT损失
     - 闭式最优策略(Theorem 4.2)：$\pi^* \propto \pi_0^\alpha \pi_t^{1-\alpha} \exp(\frac{1}{\beta}A)$
     - 实际损失：$\mathbb{E}[(w_{\text{reg}} \cdot w_{\text{adv}}) \cdot \log\pi_\theta(y|x)]$
-      - $w_{\text{reg}} = (\pi_0/\pi_t)^\alpha$：正则化权重，惩罚偏离参考的回答
-      - $w_{\text{adv}} = \exp(\frac{1}{\beta}A)$：优势权重，奖励好回答
+        - $w_{\text{reg}} = (\pi_0/\pi_t)^\alpha$：正则化权重，惩罚偏离参考的回答
+        - $w_{\text{adv}} = \exp(\frac{1}{\beta}A)$：优势权重，奖励好回答
     - 设计动机：避免PPO中策略比率的不稳定性，回归损失更平滑稳定
     - 权重裁剪：$\min(w_{\text{reg}} \cdot w_{\text{adv}}, w_{\text{clip}})$ 防止梯度爆炸
 

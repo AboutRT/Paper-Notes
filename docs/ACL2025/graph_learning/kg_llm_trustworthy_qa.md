@@ -72,9 +72,9 @@ $$p(a|q) = \sum_{\mathcal{Z} \subseteq \mathcal{G}} p_\phi(a|q, \mathcal{Z}) \cd
 
 - **做什么**：从 KG 中提取与查询最相关的知识子集，提供三种检索粒度。
 - **核心思路**：将查询和 KG 元素编码到统一嵌入空间（使用 text-embedding-3-small），通过余弦相似度排名，采用 **prize-cost 权衡策略**——对 top-$k$ 节点/边赋予递减奖励 $p_v = \max(0, k - \text{rank}(v) + 1)$，扩展时施加代价 $C_e$：
-  - **三元组检索**：选取总奖励最高的固定数量三元组；
-  - **路径检索**：从高奖励节点出发贪心扩展路径，最大化 $S(\mathcal{P}) = \sum p_{v_i} + \sum p_{e_i} - \sum c_e$；
-  - **子图检索**：基于 Prize-Collecting Steiner Tree (PCST) 算法找到最大化总分的连通子图。
+    - **三元组检索**：选取总奖励最高的固定数量三元组；
+    - **路径检索**：从高奖励节点出发贪心扩展路径，最大化 $S(\mathcal{P}) = \sum p_{v_i} + \sum p_{e_i} - \sum c_e$；
+    - **子图检索**：基于 Prize-Collecting Steiner Tree (PCST) 算法找到最大化总分的连通子图。
 - **设计动机**：不同检索粒度提供不同程度的结构信息。三元组最简但缺乏上下文，路径保留推理链，子图提供最完整的关系结构。
 
 #### 模块四：评估体系

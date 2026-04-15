@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚖️ 对齐/RLHF
 
-**📷 CVPR2025** · 共 **7** 篇
+**📷 CVPR2025** · **7** 篇论文解读
 
 **[Bases Of Steerable Kernels For Equivariant Cnns From 2D Rotations To The Lorentz](bases_of_steerable_kernels_for_equivariant_cnns_from_2d_rotations_to_the_lorentz.md)**
 

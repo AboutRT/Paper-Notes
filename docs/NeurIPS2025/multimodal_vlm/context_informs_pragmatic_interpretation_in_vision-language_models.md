@@ -71,7 +71,7 @@ tags:
 
 - **原始玩家**: 参与原始游戏的互动玩家
 - **朴素匹配者**: 仅阅读对话文本但未参与原始游戏的人类被试
-  - Yoked 条件 ($N=99$)、Shuffled ($N=97$)、Backward ($N=89$)、Random ($N=107$)
+    - Yoked 条件 ($N=99$)、Shuffled ($N=97$)、Backward ($N=89$)、Random ($N=107$)
 
 ## 实验关键数据
 

@@ -55,8 +55,8 @@ tags:
 
 ### 理论动机——多样性分配
 - **分解定理（Proposition 1）**：总路由多样性 $D_{total} = D_{inter} + D_{intra}$
-  - $D_{inter}$：域间散度——不同域使用不同专家的程度
-  - $D_{intra}$：域内散度——同一域内 token 使用不同专家的程度
+    - $D_{inter}$：域间散度——不同域使用不同专家的程度
+    - $D_{intra}$：域内散度——同一域内 token 使用不同专家的程度
 - **Proposition 2**：$\mathcal{L}_{ED}$ 直接增加 $D_{inter}$，将全局多样性重新分配到域间差异上
 - 标准 $\mathcal{L}_{LB}$ 只关注 $D_{total}$ 而不管如何分配，$\mathcal{L}_{ED}$ 提供更精细的方向引导
 - 两个损失协同：$\mathcal{L}_{LB}$ 确保总多样性，$\mathcal{L}_{ED}$ 引导多样性流向域间差异→专家特化

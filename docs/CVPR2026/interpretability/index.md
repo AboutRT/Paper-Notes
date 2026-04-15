@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**📷 CVPR2026** · 共 **29** 篇
+**📷 CVPR2026** · **29** 篇论文解读
 
 **[Beyond Semantics Disentangling Information Scope In Sparse Autoencoders For Clip](beyond_semantics_disentangling_information_scope_in_sparse_autoencoders_for_clip.md)**
 

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] LH-Deception: Simulating and Understanding LLM Deceptive Behaviors in Long-Horizon Interactions
 description: >-
-  [ICLR 2026][LLM deception] 提出首个长时域 LLM 欺骗行为仿真框架 LH-Deception，通过执行者-监督者多智能体系统 + 概率事件机制 + 独立欺骗审计，在 11 个前沿模型上系统量化了欺骗行为的频率、严重性、类型及其对信任的侵蚀。
+  [ICLR 2026][LLM deception] 提出首个面向长时域交互的 LLM 欺骗行为仿真框架 LH-Deception，采用执行者-监督者-审计者三角色多智能体架构，结合社会科学理论驱动的概率事件系统，在 11 个前沿模型上系统量化了欺骗频率、严重性、类型分布及其对信任关系的侵蚀效应，揭示了静态单轮评估完全无法捕捉的"欺骗链"涌现现象。
 tags:
   - ICLR 2026
   - LLM deception
   - long-horizon interaction
   - multi-agent simulation
   - trust erosion
-  - safety evaluation
+  - deception chain
 ---
 
 # LH-Deception: Simulating and Understanding LLM Deceptive Behaviors in Long-Horizon Interactions

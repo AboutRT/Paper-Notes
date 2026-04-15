@@ -81,9 +81,9 @@ PlaceWizard基于Reason3D改进，主要包含以下模块：
 - LLM输出三个特殊token：[LOC]、[ANC]、[ROT]
 - 通过自注意力和交叉注意力层处理token特征与场景/资产特征
 - 三个预测头：
-  - **放置Mask头**：预测 $\mathcal{M}_{loc} \in [0,1]^N$，有效放置区域
-  - **旋转头**：预测 $\mathcal{M}_{rot} \in [0,1]^{N \times 8}$，每个点的8个离散旋转角有效性
-  - **锚点Mask头**：预测 $\mathcal{M}_{anc} \in [0,1]^N$，定位语言中提到的锚点（辅助任务）
+    - **放置Mask头**：预测 $\mathcal{M}_{loc} \in [0,1]^N$，有效放置区域
+    - **旋转头**：预测 $\mathcal{M}_{rot} \in [0,1]^{N \times 8}$，每个点的8个离散旋转角有效性
+    - **锚点Mask头**：预测 $\mathcal{M}_{anc} \in [0,1]^N$，定位语言中提到的锚点（辅助任务）
 
 ### 损失函数
 

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning
 description: >-
-  提出Praxis-VLM，核心发现VLM的决策推理能力可与视觉感知解耦：在纯文本场景上用多阶段GRPO+自适应R1 reward训练推理能力，无需图文配对数据即可迁移到视觉输入，在VIVA/PCA-Bench/EgoNormia三大决策benchmark上显著超越SFT基线且OOD泛化性极强。
+  [NeurIPS 2025][多模态][VLM decision-making] 发现VLM的决策推理能力可以与视觉感知解耦——用文本描述替代图像时决策性能不降反升，据此提出Praxis-VLM：在纯文本场景上用GRPO训练决策推理能力，然后零样本迁移到视觉输入推理，在VIVA/PCA-Bench/EgoNormia三个决策benchmark上超越SFT基线且泛化性更强。
 tags:
   - NeurIPS 2025
   - 多模态
-  - VLM决策
-  - 强化学习
+  - VLM decision-making
+  - text-driven RL
   - GRPO
-  - 跨模态迁移
+  - 跨模态
   - embodied reasoning
 ---
 

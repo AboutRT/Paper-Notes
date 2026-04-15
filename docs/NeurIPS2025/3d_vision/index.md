@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**🧠 NeurIPS2025** · 共 **122** 篇
+**🧠 NeurIPS2025** · **122** 篇论文解读
 
 **[3D-Agenttri-Modal Multi-Agent Collaboration For Scalable 3D Object Annotation](3d-agenttri-modal_multi-agent_collaboration_for_scalable_3d_object_annotation.md)**
 

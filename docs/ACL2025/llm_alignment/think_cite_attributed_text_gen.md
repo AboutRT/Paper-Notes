@@ -54,19 +54,19 @@ tags:
 
     - 功能：在多条生成路径上搜索最优归因文本
     - 核心思路：MCTS 树中每个节点 $s_t = [q_t, \mathcal{D}_t, y_t, \mathcal{C}_t]$ 表示一步生成，四步循环：
-      - **Selection**: UCT 算法选择最有前途的节点 $UCT(s_t) = V(s_t) + w\sqrt{\frac{\ln N(p)}{N(s_t)}}$
-      - **Reflection-Guided Expansion**: 先生成初始查询 $\hat{q}_{t+1}$，然后 LLM 自反思检查查询和检索结果的质量 $u = \mathcal{M}_\theta(\hat{q}_{t+1}, \hat{\mathcal{D}}_{t+1}, \bm{x})$，基于反思结果改进查询，再检索+生成+引用
-      - **Evaluation**: 用进度奖励模型评估新节点
-      - **Backpropagation**: 奖励沿路径回传更新所有祖先节点的值函数
+        - **Selection**: UCT 算法选择最有前途的节点 $UCT(s_t) = V(s_t) + w\sqrt{\frac{\ln N(p)}{N(s_t)}}$
+        - **Reflection-Guided Expansion**: 先生成初始查询 $\hat{q}_{t+1}$，然后 LLM 自反思检查查询和检索结果的质量 $u = \mathcal{M}_\theta(\hat{q}_{t+1}, \hat{\mathcal{D}}_{t+1}, \bm{x})$，基于反思结果改进查询，再检索+生成+引用
+        - **Evaluation**: 用进度奖励模型评估新节点
+        - **Backpropagation**: 奖励沿路径回传更新所有祖先节点的值函数
     - 设计动机：不同于仅反思最终结果的方法，在中间状态反思可以实时纠正错误查询，避免沿错误路径展开整棵子树。每个节点展开 3 个子节点，最大迭代 30 次。
 
 3. **进度奖励建模（Progress Reward Modeling）**:
 
     - 功能：从生成质量和归因质量两个维度评估树搜索的进度
     - 核心思路：
-      - **生成进度奖励 $R_g$**：利用 DPO 对齐模型的 token 级 log-ratio 作为隐式奖励。将句子级 MDP 下的累积 log-ratio $R_g(\bm{y}_{1:t+1}) = \sum_{k=0}^{t} w_k \log \frac{\pi^*(y_{k+1}|\bm{x}, \bm{y}_{1:k})}{\pi_{\text{ref}}(y_{k+1}|\bm{x}, \bm{y}_{1:k})}$ 作为生成质量的度量
-      - **归因进度奖励 $R_a$**：用 NLI 模型计算引用召回率（引用是否能蕴含生成句子）和引用精确率（每个引用是否必要），取 F1 作为归因质量度量
-      - 总奖励 $R(s_{t+1}) = R_g + R_a$
+        - **生成进度奖励 $R_g$**：利用 DPO 对齐模型的 token 级 log-ratio 作为隐式奖励。将句子级 MDP 下的累积 log-ratio $R_g(\bm{y}_{1:t+1}) = \sum_{k=0}^{t} w_k \log \frac{\pi^*(y_{k+1}|\bm{x}, \bm{y}_{1:k})}{\pi_{\text{ref}}(y_{k+1}|\bm{x}, \bm{y}_{1:k})}$ 作为生成质量的度量
+        - **归因进度奖励 $R_a$**：用 NLI 模型计算引用召回率（引用是否能蕴含生成句子）和引用精确率（每个引用是否必要），取 F1 作为归因质量度量
+        - 总奖励 $R(s_{t+1}) = R_g + R_a$
     - 设计动机：仅评估单步或最终结果不够可靠，从根到当前状态的"进度"评估更全面。双维度确保生成和引用两方面都被考虑。
 
 ### 损失函数 / 训练策略

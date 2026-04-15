@@ -60,8 +60,8 @@ CDIM 的推理流程（Algorithm 1）：
 
     - **做什么**：为投影提供解析可计算的停止准则
     - **核心思路**：真实目标 $L_t = \|\mathbf{A}\hat{\mathbf{x}}_0(\mathbf{x}_t) - \mathbf{y}\|^2$ 的分布难以计算（依赖数据分布）。但代理残差 $R_t = \|\mathbf{A}\mathbf{x}_t - \mathbf{y}\|^2$ 在前向过程中服从非中心广义 $\chi^2$ 分布，其均值和方差有解析公式：
-      - $\mu_t(\mathbf{y}) = (\sqrt{\bar\alpha_t} - 1)^2 \|\mathbf{y}\|^2 + (1 - \bar\alpha_t) \text{tr}(\mathbf{A}\mathbf{A}^\top)$
-      - $\sigma_t^2(\mathbf{y})$ 类似可解析计算
+        - $\mu_t(\mathbf{y}) = (\sqrt{\bar\alpha_t} - 1)^2 \|\mathbf{y}\|^2 + (1 - \bar\alpha_t) \text{tr}(\mathbf{A}\mathbf{A}^\top)$
+        - $\sigma_t^2(\mathbf{y})$ 类似可解析计算
     - **Proposition 1**：当 $|R_t - \mathbb{E}[R_t|\mathbf{y}]| \leq \gamma$ 时，$|L_t - \mathbb{E}[L_t|\mathbf{y}]| \leq \gamma/\bar\alpha_t + O(\sqrt{1-\bar\alpha_t}/\bar\alpha_t)$。即控制代理残差就能控制真实目标
     - **设计动机**：$R_t$ 的计算不需要网络评估（仅矩阵乘法），因此可以做步长搜索而不增加 NFE（Neural Function Evaluations）
 

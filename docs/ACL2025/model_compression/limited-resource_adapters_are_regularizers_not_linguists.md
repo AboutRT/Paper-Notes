@@ -68,8 +68,8 @@ Chronopoulou et al. (2023a) 提出 adapter souping——将多个领域 adapter 
 
 - **无关语言组**：乌拉尔语系、达罗毗荼语系、CJK（中日韩）
 - **随机 adapter**：未经训练的随机初始化 adapter（init）
-  - 替换克里奥尔语 adapter
-  - 与克里奥尔语 adapter souping
+    - 替换克里奥尔语 adapter
+    - 与克里奥尔语 adapter souping
 
 ### 实现细节
 

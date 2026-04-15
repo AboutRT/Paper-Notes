@@ -49,9 +49,9 @@ tags:
 
     - **做什么**: 遵循"分解-门控-投影"管线，学习多尺度干净共享表示
     - **核心思路**:
-      - **Decompose**: 每个尺度用共享权重提取器 $E_{sh}^i$ 提取模态无关共享分量，模态特定提取器 $E_{pf/m}^i$ 提取私有分量
-      - **Gate (ILDA)**: 利用邻近尺度语义做跨尺度注意力门控：$\widetilde{F}_i^s = \alpha_i^s \odot F_i^s - \gamma^i \alpha_i^p \odot F_i^p$，其中 $\alpha_i^s, \alpha_i^p$ 通过cross-scale attention计算
-      - **Project (DSS)**: 数据自适应生成近似正交基 $W_i^s = Gen^i(z_i^s)$，投影 $\hat{F}_i^s = \widetilde{F}_i^s W_i^{s\top}$
+        - **Decompose**: 每个尺度用共享权重提取器 $E_{sh}^i$ 提取模态无关共享分量，模态特定提取器 $E_{pf/m}^i$ 提取私有分量
+        - **Gate (ILDA)**: 利用邻近尺度语义做跨尺度注意力门控：$\widetilde{F}_i^s = \alpha_i^s \odot F_i^s - \gamma^i \alpha_i^p \odot F_i^p$，其中 $\alpha_i^s, \alpha_i^p$ 通过cross-scale attention计算
+        - **Project (DSS)**: 数据自适应生成近似正交基 $W_i^s = Gen^i(z_i^s)$，投影 $\hat{F}_i^s = \widetilde{F}_i^s W_i^{s\top}$
     - **设计动机**: 仅分解不能阻止私有到共享的泄漏（需要门控显式抑制）；固定投影不够灵活（需要自适应基）；跨尺度注意力利用邻近尺度的语义互补信息
 
 2. **HPPM：混合参数预测模块**:
@@ -64,10 +64,10 @@ tags:
 
     - **做什么**: 塑造共享特征空间的三个互补正则
     - **核心思路**:
-      - $L_{ccd}$（交叉协方差去相关）: $\|\text{Cov}(\hat{F}_i^s, F_i^p)\|_F^2$ → 减少共享-私有耦合
-      - $L_{bo}$（基正交性）: $\|W^{(i)}W^{(i)\top} - I\|_F^2$ → 避免子空间退化
-      - $L_{cs}$（跨尺度方向一致性）: $1 - \cos(\hat{F}_i^s, \hat{F}_{i+1}^s)$ → 保持跨尺度语义一致
-      - $L_{tri}$（三元组损失）: 拉近跨模态共位置共享特征，推远私有干扰
+        - $L_{ccd}$（交叉协方差去相关）: $\|\text{Cov}(\hat{F}_i^s, F_i^p)\|_F^2$ → 减少共享-私有耦合
+        - $L_{bo}$（基正交性）: $\|W^{(i)}W^{(i)\top} - I\|_F^2$ → 避免子空间退化
+        - $L_{cs}$（跨尺度方向一致性）: $1 - \cos(\hat{F}_i^s, \hat{F}_{i+1}^s)$ → 保持跨尺度语义一致
+        - $L_{tri}$（三元组损失）: 拉近跨模态共位置共享特征，推远私有干扰
     - **设计动机**: 四种损失从不同维度约束共享空间质量：解耦、非冗余、一致性、对齐
 
 ### 损失函数 / 训练策略

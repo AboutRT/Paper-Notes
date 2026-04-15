@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧮 科学计算
 
-**🧪 ICML2025** · 共 **7** 篇
+**🧪 ICML2025** · **7** 篇论文解读
 
 **[Causal-Pik Causality-Based Physical Reasoning With A Physics-Informed Kernel](causal-pik_causality-based_physical_reasoning_with_a_physics-informed_kernel.md)**
 

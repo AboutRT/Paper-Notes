@@ -2,15 +2,14 @@
 title: >-
   [论文解读] In-Context Learning of Temporal Point Processes with Foundation Inference Models
 description: >-
-  [ICLR 2026][temporal point process] 提出 FIM-PP——首个面向时间点过程的基础推断模型，通过在大规模合成 MTPP 数据上预训练 Transformer，实现对条件强度函数的上下文学习推断，零样本即可匹配专用模型性能，微调后在多个真实数据集上达到 SOTA。
+  [ICLR 2026][时间点过程] 提出 FIM-PP——首个面向标记时间点过程（MTPP）的基础推断模型，在 72K 合成点过程（1440 万事件）上预训练 Transformer 来上下文推断条件强度函数，零样本即可匹配专用模型数小时训练的性能，微调几分钟后在四个真实数据集的多事件预测上全面刷新 SOTA。
 tags:
   - ICLR 2026
-  - temporal point process
-  - foundation model
-  - in-context learning
-  - Hawkes process
-  - amortized inference
-  - conditional intensity
+  - 时间点过程
+  - 基础推断模型
+  - 上下文学习
+  - Hawkes 过程
+  - 条件强度函数
 ---
 
 # In-Context Learning of Temporal Point Processes with Foundation Inference Models

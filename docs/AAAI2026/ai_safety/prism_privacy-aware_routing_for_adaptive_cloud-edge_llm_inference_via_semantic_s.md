@@ -37,8 +37,8 @@ tags:
 
 - **二元路由决策**: 基于简单阈值将 prompt 分为"本地处理"或"云端处理"，容易误分类——要么过度负担边缘设备，要么泄露隐私
 - **统一噪声注入**: prompt 级别的差分隐私方案（如 Split-and-Denoise, DP-Forward）对所有 token/维度均匀加噪，不区分敏感度。这导致两个问题：
-  - 对非敏感查询（如"法国首都是哪里？"）引入不必要的噪声
-  - 统一扰动导致语义严重失真，云端 LLM 产生模糊或回避性回复（如 "I cannot provide information about [MASKED_ENTITY]"）
+    - 对非敏感查询（如"法国首都是哪里？"）引入不必要的噪声
+    - 统一扰动导致语义严重失真，云端 LLM 产生模糊或回避性回复（如 "I cannot provide information about [MASKED_ENTITY]"）
 
 **核心动机**: 需要一种**感知 prompt 语义的自适应隐私保护机制**，根据每个 prompt 的具体敏感度动态选择保护策略。
 

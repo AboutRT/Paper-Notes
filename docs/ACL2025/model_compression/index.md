@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**💬 ACL2025** · 共 **62** 篇
+**💬 ACL2025** · **62** 篇论文解读
 
 **[500Xcompressor Generalized Prompt Compression For Large Language Models](500xcompressor_generalized_prompt_compression_for_large_language_models.md)**
 

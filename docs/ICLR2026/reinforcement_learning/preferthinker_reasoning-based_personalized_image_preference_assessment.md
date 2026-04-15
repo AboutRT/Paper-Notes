@@ -48,9 +48,9 @@ tags:
 
 ### 关键设计 2：PreferImg-CoT 大规模数据集
 - **PreferImg 构建**：80K 模拟用户（含 20K 多偏好用户），1.36M 图像
-  - 随机采样 5 个视觉偏好元素分配画像
-  - 使用 T2I 模型生成参考图像和候选图像
-  - 190K 初始 prompt 覆盖 Lexica、DiffusionDB、COCO
+    - 随机采样 5 个视觉偏好元素分配画像
+    - 使用 T2I 模型生成参考图像和候选图像
+    - 190K 初始 prompt 覆盖 Lexica、DiffusionDB、COCO
 - **CoT 标注**：Claude 3.7 生成 predict-then-assess 格式的推理链
 - **质量过滤**：去除逻辑不一致或答案不匹配的样本
 - 最终得到 60K 高质量 CoT 样本

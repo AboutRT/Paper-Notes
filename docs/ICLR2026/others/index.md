@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🔬 ICLR2026** · 共 **69** 篇
+**🔬 ICLR2026** · **69** 篇论文解读
 
 **[A Federated Generalized Expectation-Maximization Algorithm For Mixture Models Wi](a_federated_generalized_expectation-maximization_algorithm_for_mixture_models_wi.md)**
 

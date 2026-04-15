@@ -76,9 +76,9 @@ $$P_{D'}(\texttt{end} \mid c) > P_{D'}(\texttt{end} \mid c')$$
 **实现**：
 - **基础分布**（如 LMSYS）：直接使用 LLaMA3.1-8B-Instruct + 短 prompt
 - **专用分布**（如保险核保、代码调试）：训练 LoRA 适配器微调 LLaMA3.2-8B 完成模型
-  - 输入：$\text{concat}(p_1, r_1, \dots, p_n)$
-  - 目标：$r_n$ + `end` 标签
-  - 训练：AdamW 8-bit，lr = 0.0002，weight decay = 0.01，3 epochs，50% 数据
+    - 输入：$\text{concat}(p_1, r_1, \dots, p_n)$
+    - 目标：$r_n$ + `end` 标签
+    - 训练：AdamW 8-bit，lr = 0.0002，weight decay = 0.01，3 epochs，50% 数据
 - **不完整对话**：模型不输出 `end`，而是生成后续轮次 $p_{n+1}, r_{n+1}, \dots$，这些内容还能**总结 LLM 未完成的剩余任务**
 
 ### 指标 3：响应树（Response Uncertainty）

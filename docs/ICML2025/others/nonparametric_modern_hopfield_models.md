@@ -64,9 +64,9 @@ tags:
     - 功能：引入稀疏掩码 $\mathcal{M} \subseteq \{1, \ldots, M\}$ 得到首个亚二次复杂度的 Hopfield 模型
     - 核心思路：检索动力学变为 $\mathcal{T}_{\text{Sparse}}(\mathbf{x}) = \sum_{\mu \in \mathcal{M}} [\text{Softmax}(\beta \boldsymbol{\Xi}_\delta^\top \mathbf{x})]_\mu \boldsymbol{\xi}_\mu$
     - 三种高效变体：
-      - **随机掩码**：$\mathcal{O}(kL)$ 复杂度，类比 BigBird 注意力
-      - **滑动窗口**：$\mathcal{O}(L\sqrt{L})$ 复杂度，类比 Longformer 注意力
-      - **Top-K**：选择内积最大的 $K$ 个记忆
+        - **随机掩码**：$\mathcal{O}(kL)$ 复杂度，类比 BigBird 注意力
+        - **滑动窗口**：$\mathcal{O}(L\sqrt{L})$ 复杂度，类比 Longformer 注意力
+        - **Top-K**：选择内积最大的 $K$ 个记忆
     - 设计动机：标准密集模型的 $\mathcal{O}(n^2)$ 复杂度在大模型中不可接受
 
 3. **稀疏性依赖的理论分析**:

@@ -64,8 +64,8 @@ tags:
     - 每个权重矩阵（$W_Q$, $W_K$, $W_V$等）在训练早期可以写成上述三种基函数的线性组合
     - 组合系数取决于架构细节（层数、头数）和训练超参数
     - 这些闭式表达揭示了Transformer各组件的**功能性分工**：
-      - Query-Key权重主要依赖bigram和token-interchangeability → 决定"attend to what"
-      - Value权重主要依赖context mapping → 决定"传递什么信息"
+        - Query-Key权重主要依赖bigram和token-interchangeability → 决定"attend to what"
+        - Value权重主要依赖context mapping → 决定"传递什么信息"
 
 ### 理论贡献的层次
 1. **描述性**：给出了权重的数学表达形式

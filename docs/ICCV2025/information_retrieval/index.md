@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**📹 ICCV2025** · 共 **6** 篇
+**📹 ICCV2025** · **6** 篇论文解读
 
 **[Aligning Information Capacity Between Vision And Language Via Dense-To-Sparse Fe](aligning_information_capacity_between_vision_and_language_via_dense-to-sparse_fe.md)**
 

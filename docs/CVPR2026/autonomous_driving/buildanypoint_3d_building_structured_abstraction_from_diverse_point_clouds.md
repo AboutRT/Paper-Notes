@@ -56,28 +56,28 @@ Loca-DiT（图3）学习条件分布 $p_\text{BAP}(\mathcal{M} | \mathcal{P}_{in
 
 - **做什么**：设计三种潜在空间渐进弥合点云→Mesh的表示鸿沟
 - **核心思路**：
-  - **稠密潜在网格 $\mathcal{G}_d$**：对GT点云低分辨率体素化后用稀疏VAE编码，在瓶颈层**密化**稀疏网格为稠密网格——为解码器提供完整空间上下文，能"雕刻"出未占用区域
-  - **稀疏潜在网格 $\mathcal{G}_s$**：高分辨率体素化后用稀疏VAE编码——精细化几何细节
-  - **序列化token $\mathcal{T}_P$**：用预训练点云编码器将恢复的点云编码为固定长度token序列——与目标Mesh token序列 $\mathcal{T}_M$ 对齐
+    - **稠密潜在网格 $\mathcal{G}_d$**：对GT点云低分辨率体素化后用稀疏VAE编码，在瓶颈层**密化**稀疏网格为稠密网格——为解码器提供完整空间上下文，能"雕刻"出未占用区域
+    - **稀疏潜在网格 $\mathcal{G}_s$**：高分辨率体素化后用稀疏VAE编码——精细化几何细节
+    - **序列化token $\mathcal{T}_P$**：用预训练点云编码器将恢复的点云编码为固定长度token序列——与目标Mesh token序列 $\mathcal{T}_M$ 对齐
 - **设计动机**：点云适合在连续稠密潜在空间编码几何细节，Mesh需要离散序列化表示生成结构拓扑——不同阶段用不同潜在空间让各阶段可以专精化
 
 #### 2. 分层潜在扩散
 
 - **做什么**：分两级恢复建筑的完整几何先验
 - **核心思路**：
-  - 粗级扩散模型 $p_{\theta_d}(\mathcal{G}_d | \mathcal{P}_{in})$：在稠密网格上去噪，恢复基础形状
-  - 细级扩散模型 $p_{\theta_s}(\mathcal{G}_s | \mathcal{G}_d)$：条件于粗级输出在稀疏网格上去噪，精细化高分辨率几何
-  - 训练目标：标准去噪损失 $\min_\theta \mathbb{E}[\|\epsilon - \epsilon_\theta(\mathbf{z}_t, t)\|_2^2]$
-  - 条件化：点云编码器将 $\mathcal{P}_{in}$ 量化为体素网格，拼接到潜在特征上
+    - 粗级扩散模型 $p_{\theta_d}(\mathcal{G}_d | \mathcal{P}_{in})$：在稠密网格上去噪，恢复基础形状
+    - 细级扩散模型 $p_{\theta_s}(\mathcal{G}_s | \mathcal{G}_d)$：条件于粗级输出在稀疏网格上去噪，精细化高分辨率几何
+    - 训练目标：标准去噪损失 $\min_\theta \mathbb{E}[\|\epsilon - \epsilon_\theta(\mathbf{z}_t, t)\|_2^2]$
+    - 条件化：点云编码器将 $\mathcal{P}_{in}$ 量化为体素网格，拼接到潜在特征上
 - **设计动机**：分层方式先恢复粗略结构再精细化，比单级扩散更稳定
 
 #### 3. 自回归Mesh生成
 
 - **做什么**：从恢复的点云条件化生成低面数、拓扑一致的建筑Mesh
 - **核心思路**：
-  - 基于MeshAnything V2的decoder-only Transformer
-  - 输入序列 $\mathcal{T} = [\mathcal{T}_P; \mathcal{T}_M^{<t}]$，自回归预测下一个mesh token
-  - 训练目标：最大化条件对数似然 $\max_\phi \sum_{t=1}^N \log P(t_m^N | \mathcal{T}_P, \mathcal{T}_M^{<t}; \phi)$
+    - 基于MeshAnything V2的decoder-only Transformer
+    - 输入序列 $\mathcal{T} = [\mathcal{T}_P; \mathcal{T}_M^{<t}]$，自回归预测下一个mesh token
+    - 训练目标：最大化条件对数似然 $\max_\phi \sum_{t=1}^N \log P(t_m^N | \mathcal{T}_P, \mathcal{T}_M^{<t}; \phi)$
 - **设计动机**：恢复的高质量点云+法向量模拟了自回归Mesh生成器所需的"艺术级"输入
 
 ### 损失函数

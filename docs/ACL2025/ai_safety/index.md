@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI安全
 
-**💬 ACL2025** · 共 **27** 篇
+**💬 ACL2025** · **27** 篇论文解读
 
 **[Cavgan Unifying Jailbreak And Defense Of Llms Via Generative Adversarial Attacks](cavgan_unifying_jailbreak_and_defense_of_llms_via_generative_adversarial_attacks.md)**
 

@@ -54,12 +54,12 @@ tags:
 
     - 功能：融合当前帧和前一帧的 cost volumes
     - 核心思路：
-      - 首先通过相对位姿逆映射将 $\mathbf{V}'_{t-1}$ 对齐到当前视角坐标系
-      - 对每个像素位置 $(h,w)$，提取射线特征 $\mathbf{F}_t = \mathbf{V}_t(:,:,h,w) \in \mathbb{R}^{D \times C}$，视 $D$ 个深度假设为 $D$ 个 token
-      - 先经 2 层 3D 卷积聚合局部空间信息
-      - 对每条射线分别做 **self-attention**: $\mathbf{SA}_t = \text{Attn}(\mathbf{F}_t, \mathbf{F}_t, \mathbf{F}_t)$，利用概率分布的内在属性（如熵/不确定性）精炼当前帧的深度假设
-      - 再做 **cross-attention**: $\mathbf{CA}_t = \text{Attn}(\mathbf{SA}_t, \mathbf{SA}_{t-1}, \mathbf{SA}_{t-1})$，实现跨帧融合
-      - 添加正弦位置编码注入深度平面索引的相对位置信息
+        - 首先通过相对位姿逆映射将 $\mathbf{V}'_{t-1}$ 对齐到当前视角坐标系
+        - 对每个像素位置 $(h,w)$，提取射线特征 $\mathbf{F}_t = \mathbf{V}_t(:,:,h,w) \in \mathbb{R}^{D \times C}$，视 $D$ 个深度假设为 $D$ 个 token
+        - 先经 2 层 3D 卷积聚合局部空间信息
+        - 对每条射线分别做 **self-attention**: $\mathbf{SA}_t = \text{Attn}(\mathbf{F}_t, \mathbf{F}_t, \mathbf{F}_t)$，利用概率分布的内在属性（如熵/不确定性）精炼当前帧的深度假设
+        - 再做 **cross-attention**: $\mathbf{CA}_t = \text{Attn}(\mathbf{SA}_t, \mathbf{SA}_{t-1}, \mathbf{SA}_{t-1})$，实现跨帧融合
+        - 添加正弦位置编码注入深度平面索引的相对位置信息
     - 设计动机：射线方向的 attention 只需 $D^2HW$ 注意力条目，比全 volume attention 的 $D^2H^2W^2$ 高效得多；self-attention 能感知概率分布熵等内在属性，cross-attention 利用前帧积累的时序信息
 
 3. **Depth Regression & Refinement ($R_\theta, H_\theta$)**:

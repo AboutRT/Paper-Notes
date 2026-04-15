@@ -52,9 +52,9 @@ tags:
 
     - 功能：定义如何为每个数据点计算优先级分数
     - 核心思路：比较了三种评分策略——
-      - **难例优先**（hard）：$s^{hard}(x|\theta) = \ell(x|\theta)$，优先选loss高的样本
-      - **易例优先**（easy）：$s^{easy}(x|\theta) = -\ell(x|\theta)$，优先选loss低的样本（去噪）
-      - **可学习性**（learnability）：$s^{learn}(x|\theta^t, \theta^*) = \ell(x|\theta^t) - \ell(x|\theta^*)$，结合了两者优点
+        - **难例优先**（hard）：$s^{hard}(x|\theta) = \ell(x|\theta)$，优先选loss高的样本
+        - **易例优先**（easy）：$s^{easy}(x|\theta) = -\ell(x|\theta)$，优先选loss低的样本（去噪）
+        - **可学习性**（learnability）：$s^{learn}(x|\theta^t, \theta^*) = \ell(x|\theta^t) - \ell(x|\theta^*)$，结合了两者优点
     - 设计动机：难例优先会引入噪声和不可学习样本；易例优先排除噪声但错过有价值的困难样本；可学习性评分选择那些"参考模型能做好但当前学习者做不好"的样本，即真正可以通过训练改善的样本
 
 2. **跨尺度代理评分（ClassAct/ActiveCLIP 核心创新）**:

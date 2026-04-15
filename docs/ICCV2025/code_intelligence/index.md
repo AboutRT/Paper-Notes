@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**📹 ICCV2025** · 共 **1** 篇
+**📹 ICCV2025** · **1** 篇论文解读
 
 **[Tikzero Zero-Shot Text-Guided Graphics Program Synthesis](tikzero_zero-shot_text-guided_graphics_program_synthesis.md)**
 

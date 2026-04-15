@@ -52,12 +52,12 @@ DreamRunner 包含三个阶段：
 
 **阶段2：运动检索与先验学习 (Motion Retrieval & Prior Learning)**
 - **运动视频检索**：从 InternVid 大规模视频数据库中检索运动相关视频
-  - BM25 初步文本检索（400个候选）→ 属性过滤（时长≥2s、帧数≥40、宽高比≥0.9）→ YOLOv5 目标追踪裁剪 → CLIP+ViCLIP 语义相似度排序
-  - 每个运动检索 4~20 个视频片段
+    - BM25 初步文本检索（400个候选）→ 属性过滤（时长≥2s、帧数≥40、宽高比≥0.9）→ YOLOv5 目标追踪裁剪 → CLIP+ViCLIP 语义相似度排序
+    - 每个运动检索 4~20 个视频片段
 - **运动先验训练**：基于 MotionDirector 的 test-time fine-tuning
-  - 在 CogVideoX 的 3D full attention 上手动指定偶数层为"空间层"、奇数层为"时间层"
-  - 空间 LoRA 学外观，时间 LoRA 学运动
-  - **关键创新**：使用 per-video prompt（而非所有视频共享单一 prompt），帮助模型隔离运动无关的背景/外观
+    - 在 CogVideoX 的 3D full attention 上手动指定偶数层为"空间层"、奇数层为"时间层"
+    - 空间 LoRA 学外观，时间 LoRA 学运动
+    - **关键创新**：使用 per-video prompt（而非所有视频共享单一 prompt），帮助模型隔离运动无关的背景/外观
 - **角色先验学习**：将参考图像重复48次构造伪视频，LoRA 注入空间层，仅重建首帧防止过拟合
 
 **阶段3：时空区域扩散 (SR3AI)**

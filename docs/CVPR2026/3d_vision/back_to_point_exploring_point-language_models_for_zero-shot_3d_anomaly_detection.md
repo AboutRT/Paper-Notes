@@ -57,18 +57,18 @@ BTP 首次将预训练的点-语言模型（PLM，如 ULIP）应用于零样本 
 
     - **动机**：FPFH 等经典几何描述子能有效表征局部几何关系，但作为手工特征无法端到端优化
     - **方法**：用 PointNet 风格的可学习网络替代 FPFH
-      - 对每个 patch 的邻域点应用共享 MLP
-      - Max-pooling 聚合为 patch 级几何描述子
-      - FC 层投射到与文本嵌入对齐的维度
+        - 对每个 patch 的邻域点应用共享 MLP
+        - Max-pooling 聚合为 patch 级几何描述子
+        - FC 层投射到与文本嵌入对齐的维度
     $\mathbf{f}_i = \phi\left(\max_{j=1,...,M} \text{MLP}(\mathbf{p}_{ij})\right)$
     - 通过与 FPFH 的对比损失来显式注入几何先验
 
 3. **多粒度特征嵌入模块 MGFEM**：
 
     - 融合三种信息：
-      - 多层中间语义特征 $\{\mathbf{H}^{(l)}\}_{l=1}^L$（加权求和，权重可学习）
-      - 几何特征 $\mathbf{F}_{geo}$
-      - 全局 CLS token $\mathbf{h}_{CLS}$
+        - 多层中间语义特征 $\{\mathbf{H}^{(l)}\}_{l=1}^L$（加权求和，权重可学习）
+        - 几何特征 $\mathbf{F}_{geo}$
+        - 全局 CLS token $\mathbf{h}_{CLS}$
     - 各自投射到统一空间后拼接：
     $\mathbf{Z} = \phi_f\left([\sum_l \alpha_l \mathbf{S}^{(l)} \| \mathbf{G} \| \mathbf{C}]\right)$
     - 最终 $\mathbf{Z} \in \mathbb{R}^{N \times D}$ 为结构感知的 patch 表示

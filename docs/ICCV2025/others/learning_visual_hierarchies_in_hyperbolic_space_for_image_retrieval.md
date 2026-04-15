@@ -57,8 +57,8 @@ tags:
 2. **Angle-Based Entailment Loss（双曲角度 entailment 损失）**:
 
     - 给定 entailment 对 (x→y)，在双曲空间中最大化外角 $\beta_1$ 和 $\alpha_2$：
-      - $\beta_1(\mathbf{x}, \mathbf{y}) = \pi - \text{ext}(\mathbf{x}, \mathbf{y})$
-      - $\alpha_2(\mathbf{y}, \mathbf{x}) = \text{ext}(\mathbf{y}, \mathbf{x})$
+        - $\beta_1(\mathbf{x}, \mathbf{y}) = \pi - \text{ext}(\mathbf{x}, \mathbf{y})$
+        - $\alpha_2(\mathbf{y}, \mathbf{x}) = \text{ext}(\mathbf{y}, \mathbf{x})$
     - 外角通过 Lorentz 模型的内积计算：$\text{ext}(\mathbf{x}, \mathbf{y}) = \cos^{-1}\left(\frac{y_{\text{time}} + x_{\text{time}} c\langle\mathbf{x}, \mathbf{y}\rangle_{\mathbb{H}}}{\|\mathbf{x}_{\text{space}}\|\sqrt{(c\langle\mathbf{x}, \mathbf{y}\rangle_{\mathbb{H}})^2 - 1}}\right)$
     - 使用 multi-positive InfoNCE 损失处理一个 parent 对应多个 child 的情况
     - 双向损失：$L_{\text{angle}} = L^{p\to c}(\mathcal{D}, \beta_1) + L^{c\to p}(\mathcal{D}, \alpha_2)$

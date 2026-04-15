@@ -51,8 +51,8 @@ tags:
 
     - 功能：系统控制推理模型的思考长度，观察性能变化
     - 核心思路：
-      - TTBC 1 (Wait & Think More)：每当模型尝试生成 `</think>` 结束思考时，压制它并追加 "Wait"，迫使模型继续推理。不限定 token 数，只控制 "Wait" 追加次数
-      - TTBC 2 (Exact Thinking Tokens)：强制精确控制思考 token 数为 $t_{\text{exact}}$，在 [256, 512, 1024, 2048, 4096, 8192, 16384] 间变化
+        - TTBC 1 (Wait & Think More)：每当模型尝试生成 `</think>` 结束思考时，压制它并追加 "Wait"，迫使模型继续推理。不限定 token 数，只控制 "Wait" 追加次数
+        - TTBC 2 (Exact Thinking Tokens)：强制精确控制思考 token 数为 $t_{\text{exact}}$，在 [256, 512, 1024, 2048, 4096, 8192, 16384] 间变化
     - 设计动机：两种互补的控制方式确保发现的非单调趋势不是控制策略的产物
 
 2. **概率框架——海市蜃楼效应的理论解释**

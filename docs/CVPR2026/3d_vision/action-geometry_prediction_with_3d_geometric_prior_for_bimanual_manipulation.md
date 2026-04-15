@@ -79,8 +79,8 @@ Pipeline分四阶段：(1) 三路并行编码器提取特征 → (2) Transformer
     - 核心思路：采用DETR decoder结构实现条件扩散。训练时，前向过程给clean target $x_0 = \{a_{t:t+N}, \mathbf{f}_{t+N}, P_{t+N}\}$ 加高斯噪声得到 $x_k$；反向过程中decoder预测clean target $\hat{x}_0$。损失函数为L1损失：
     $\mathcal{L} = \mathbb{E}_{k, x_0, \epsilon}\left[\|{\hat{a}_{t:t+N}} - a_{t:t+N}\|_1 + \lambda\|\hat{\mathbf{f}}_{t+N} - \mathbf{f}_{t+N}\|_1 + \gamma\|\hat{P}_{t+N} - P_{t+N}\|_1\right]$
     - **两种预测目标**：
-      - Future Action Chunk: $\mathbb{R}^{N \times 14}$，N步双臂动作（6-DoF关节+1-DoF gripper × 2臂）
-      - Future 3D Pointmap Latent: $\mathbf{f}_{t+N} \in \mathbb{R}^{H/14 \times W/14 \times 1024}$，由π³的dense head解码为 $P_{t+N} \in \mathbb{R}^{H \times W \times 4}$（x,y,z + confidence）
+        - Future Action Chunk: $\mathbb{R}^{N \times 14}$，N步双臂动作（6-DoF关节+1-DoF gripper × 2臂）
+        - Future 3D Pointmap Latent: $\mathbf{f}_{t+N} \in \mathbb{R}^{H/14 \times W/14 \times 1024}$，由π³的dense head解码为 $P_{t+N} \in \mathbb{R}^{H \times W \times 4}$（x,y,z + confidence）
     - 设计动机：联合预测未来3D结构迫使模型学会"如果执行这些动作，3D场景会变成什么样"——这是一种隐式的world model。只监督horizon $N$ 处的最终状态（而非逐步预测），强制模型推理整个动作序列的累积效果，增强长horizon规划
 
 6. **Pseudo-GT生成策略**

@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Dynamic and Generalizable Process Reward Modeling (DG-PRM)
 description: >-
-  [LLM推理] 提出DG-PRM框架，通过构建层次化奖励树动态存储和选择多维评估标准，结合Pareto支配估计识别多目标下的正负样本对，实现动态、可泛化的过程奖励建模。
+  [ACL 2025][LLM推理][process reward model] 提出DG-PRM框架，通过构建层次化奖励树动态存储和选择多维评估标准，结合Pareto支配估计识别多目标下的正负样本对，实现动态、可泛化的过程奖励建模。
 tags:
+  - ACL 2025
   - LLM推理
+  - process reward model
+  - reward tree
+  - Pareto dominance
+  - LLM-as-judge
+  - dynamic evaluation
 ---
 
 # Dynamic and Generalizable Process Reward Modeling (DG-PRM)
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2507.17849](https://arxiv.org/abs/2507.17849) |
-| 代码 | 未公开 |
-| 领域 | LLM推理/奖励建模 |
-| 关键词 | process reward model, reward tree, Pareto dominance, LLM-as-judge, dynamic evaluation |
+**会议**: ACL 2025  
+**arXiv**: [2507.17849](https://arxiv.org/abs/2507.17849)  
+**代码**: 未公开  
+**领域**: LLM推理/奖励建模  
+**关键词**: process reward model, reward tree, Pareto dominance, LLM-as-judge, dynamic evaluation  
 
 ## 一句话总结
 

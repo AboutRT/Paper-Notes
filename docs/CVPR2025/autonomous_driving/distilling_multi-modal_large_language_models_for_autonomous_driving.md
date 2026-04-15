@@ -42,10 +42,10 @@ DiMA由两个主要组件组成：(1) 视觉端到端规划器（场景编码器
 1. **BEAM场景Token嵌入**:
 
     - 场景编码器将输入多视角图像序列编码为四种结构化token嵌入：
-      - **B**EV token：鸟瞰图特征
-      - **E**go token：自车交互特征，由可学习嵌入初始化
-      - **A**gent token：周围智能体特征
-      - **M**ap token：地图元素特征
+        - **B**EV token：鸟瞰图特征
+        - **E**go token：自车交互特征，由可学习嵌入初始化
+        - **A**gent token：周围智能体特征
+        - **M**ap token：地图元素特征
     - 这些BEAM token通过各自的Q-former适配层投影到LLM的嵌入空间
     - 相比密集无结构的图像token，BEAM提供了物理意义明确的结构化输入
     - 关键区别：场景编码器与MLLM联合训练（不像TOKEN等方法冻结场景编码器）

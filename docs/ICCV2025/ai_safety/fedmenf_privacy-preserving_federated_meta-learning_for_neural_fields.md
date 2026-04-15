@@ -55,9 +55,9 @@ FedMeNF遵循标准的联邦元学习流程：服务器发送全局元学习器 
 
     - 功能：揭示 $\text{PSNR}_p$ 在现有FML中为何持续增加
     - 核心思路：通过元梯度的一阶近似分析（Proposition 1, 2）发现：
-      - 元梯度 $g_M \approx g_K - \lambda_i \mathcal{I}_K$，其中 $g_K$ 是查询集上的梯度，$\mathcal{I}_K$ 是内积项
-      - 每次外循环迭代，损失变化 $\Delta L_{i+1} \approx -\lambda_o \cdot g_K^2 \leq 0$，即元学习器 $w$ 对查询集的损失单调递减
-      - 由于 $\text{PSNR}_p$ 与损失成反比，$\text{PSNR}_p$ 单调递增 → 隐私持续泄露
+        - 元梯度 $g_M \approx g_K - \lambda_i \mathcal{I}_K$，其中 $g_K$ 是查询集上的梯度，$\mathcal{I}_K$ 是内积项
+        - 每次外循环迭代，损失变化 $\Delta L_{i+1} \approx -\lambda_o \cdot g_K^2 \leq 0$，即元学习器 $w$ 对查询集的损失单调递减
+        - 由于 $\text{PSNR}_p$ 与损失成反比，$\text{PSNR}_p$ 单调递增 → 隐私持续泄露
     - 设计动机：精确定位隐私泄露的数学来源（$g_K$ 项），为正则化提供理论基础
 
 3. **隐私保护损失函数 $L_{pp}$**:

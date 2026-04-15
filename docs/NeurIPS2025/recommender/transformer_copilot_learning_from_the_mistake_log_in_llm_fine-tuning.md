@@ -51,9 +51,9 @@ tags:
 
     - 功能：系统记录微调全过程中的三类信息
     - 三个组件：
-      - **Question** $\tilde{X}_t$：输入表示（encoder 输出或 embedding 层输出）
-      - **Rationale** $h_t$：每个 token 在所有 decoder 层的隐藏状态 $\{h_{t,i,l}\}_{l=1}^{L^P}$，反映模型的内部"推理过程"
-      - **Mistake** $\ell_t$：token 级预测误差 $\ell_t(p_{t,i}, \hat{p}_{t,i}) = p_{t,i} - \hat{p}_{t,i}$，精确量化每个 token 的错误方向和程度
+        - **Question** $\tilde{X}_t$：输入表示（encoder 输出或 embedding 层输出）
+        - **Rationale** $h_t$：每个 token 在所有 decoder 层的隐藏状态 $\{h_{t,i,l}\}_{l=1}^{L^P}$，反映模型的内部"推理过程"
+        - **Mistake** $\ell_t$：token 级预测误差 $\ell_t(p_{t,i}, \hat{p}_{t,i}) = p_{t,i} - \hat{p}_{t,i}$，精确量化每个 token 的错误方向和程度
     - 完整 Mistake Log：$M_T = \{(\tilde{X}_t, h_t, \ell_t)\}_{t=1}^T$
 
 2. **Copilot 模型设计**：

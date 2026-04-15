@@ -2,15 +2,14 @@
 title: >-
   [论文解读] RNNs Perform Task Computations by Dynamically Warping Neural Representations
 description: >-
-  [NeurIPS 2025][RNN][黎曼几何] 提出一种黎曼几何框架来分析RNN如何通过动态变形（warping）神经表示的几何结构来执行计算任务，证明了流形拓扑和几何可从输入流形推导得出，揭示动态变形是RNN计算的基本特征。
+  [NeurIPS 2025][RNN] 本文提出一个黎曼几何框架，通过将表示空间度量从 RNN 状态空间拉回（pullback）到输入流形上，证明 RNN 通过动态变形（warping）其对任务变量的表示来执行计算——压缩无关输入、拉伸决策边界附近的空间，且这种变形不是副产物而是计算本身。
 tags:
   - NeurIPS 2025
   - RNN
   - 黎曼几何
-  - 神经表示
+  - 表示几何
   - 动态系统
-  - 计算神经科学
-  - 流形学习
+  - 流形变形
 ---
 
 # RNNs Perform Task Computations by Dynamically Warping Neural Representations

@@ -142,8 +142,8 @@ Stage 2在几乎所有设置中都优于Stage 1，验证了拒绝采样进一步
 
 - **多模态数学模型**：UniMath、G-LLaVA、MAVIS、EAGLE等
 - **奖励模型**：
-  - ORM（Outcome Reward Model）：Qwen2.5-Math-RM-72B，仅评估最终结果
-  - PRM（Process Reward Model）：Math-Shepherd、EurusPRM、Qwen2.5-Math-PRM，逐步评估推理过程
+    - ORM（Outcome Reward Model）：Qwen2.5-Math-RM-72B，仅评估最终结果
+    - PRM（Process Reward Model）：Math-Shepherd、EurusPRM、Qwen2.5-Math-PRM，逐步评估推理过程
 - **LLM-as-a-Judge**：用LLM作为评判器的各种方法
 - **Test-Time Scaling**：DeepSeek-R1、s1、LIMO等利用推理时计算扩展
 

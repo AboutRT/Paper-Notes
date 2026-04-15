@@ -74,8 +74,8 @@ STEVE 是一个基于 LLM 的多模态自主系统，接收视觉状态 $X^v$、
 ### 损失函数 / 训练策略
 
 - **两阶段训练**：
-  - Stage 1 (Offline Warm-up)：在 STEVE-21K 的 QA 对上微调 LLaMA-2，使用 LoRA，20K 对单轮 QA 数据
-  - Stage 2 (Online Fine-tuning)：在 Minecraft 模拟环境中同时训练视觉编码器和微调 LLM，用 Expert LLM (GPT-4) 生成的指令作为 ground truth
+    - Stage 1 (Offline Warm-up)：在 STEVE-21K 的 QA 对上微调 LLaMA-2，使用 LoRA，20K 对单轮 QA 数据
+    - Stage 2 (Online Fine-tuning)：在 Minecraft 模拟环境中同时训练视觉编码器和微调 LLM，用 Expert LLM (GPT-4) 生成的指令作为 ground truth
 - **视觉编码器训练**：通过 Ray Tracing 获取视野内方块/实体标签，经 5000 次模拟后收集成功运行的上下文数据
 - **损失函数**：负对数似然目标 $\mathcal{L}(\theta) = -\sum_{j=1}^{L} \log \mathcal{F}_\theta(Y_j | X^v, \hat{Y}_{1:j-1})$
 

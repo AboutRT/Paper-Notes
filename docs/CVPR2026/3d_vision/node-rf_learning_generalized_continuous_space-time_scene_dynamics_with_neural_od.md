@@ -70,8 +70,8 @@ $$F_\Theta(x, d, z_{t_i}) = (c, \sigma)$$
 
 - **做什么**：从一段动态视频中学习连续时间的场景演化，支持精细内插和长程外推。
 - **核心思路**：采用 Latent ODE（ODE-RNN 变分自编码器）建模时序演化。训练分两阶段：
-  - **Warmup 阶段**：先冻结 nODE，学习前两帧对应的 latent code $z_{t_0}$、$z_{t_1}$，同时训练 NeRF 拟合这两帧图像。
-  - **联合训练阶段**：解冻 nODE，将两个 latent 输入 ODE-RNN 编码器，学习隐空间的正态分布；从中采样得到初始状态 $z_{t_0}$，经 ODE solver 求解各时刻的动态 latent $z_{t_i}^{\text{dyn}}$，再通过解码器 $\mathcal{D}$ 映射为 NeRF latent。
+    - **Warmup 阶段**：先冻结 nODE，学习前两帧对应的 latent code $z_{t_0}$、$z_{t_1}$，同时训练 NeRF 拟合这两帧图像。
+    - **联合训练阶段**：解冻 nODE，将两个 latent 输入 ODE-RNN 编码器，学习隐空间的正态分布；从中采样得到初始状态 $z_{t_0}$，经 ODE solver 求解各时刻的动态 latent $z_{t_i}^{\text{dyn}}$，再通过解码器 $\mathcal{D}$ 映射为 NeRF latent。
 - **设计动机**：nODE 通过对微分函数在时间上积分，天然强制相邻状态平滑过渡，避免帧级方法的抖动和漂移。ODE solver 可在任意时刻求值，外推时无需外插离散索引。
 - **与 D-NeRF 的区别**：D-NeRF 为每帧学习独立的形变场，时间是查找索引；Node-RF 的时间是微分方程的自变量，latent 由动力学方程连续演化。
 
@@ -79,9 +79,9 @@ $$F_\Theta(x, d, z_{t_i}) = (c, \sigma)$$
 
 - **做什么**：从多条遵循相同物理规律但初始条件不同的序列中，学习通用的连续动力学模型，推理时给一组新的初始条件即可预测全新轨迹。
 - **核心思路**：
-  - Warmup 阶段学习一个 **静态 latent** $z_{\text{static}}$ 捕捉静态背景。
-  - 联合训练阶段优化一个 **规范 latent** $z_{\text{can}}$ 作为场景参考。将初始位置 $p_0^c$ 通过 MLP 编码器 $\mathcal{E}$ 编码，与初始速度 $v_0^c$ 和 $z_{\text{can}}$ 拼接后输入 nODE，计算各时刻的动态 latent $z_{t_i,c}^{\text{dyn}}$。
-  - 动态 latent 经过三个解码器分别输出：(a) NeRF 动态 latent（与 $z_{\text{static}}$ 相加后送入 NeRF 渲染）；(b) 物体位姿预测 $\hat{p}_{t_i}^c$；(c) 物体速度预测 $\hat{v}_{t_i}^c$。
+    - Warmup 阶段学习一个 **静态 latent** $z_{\text{static}}$ 捕捉静态背景。
+    - 联合训练阶段优化一个 **规范 latent** $z_{\text{can}}$ 作为场景参考。将初始位置 $p_0^c$ 通过 MLP 编码器 $\mathcal{E}$ 编码，与初始速度 $v_0^c$ 和 $z_{\text{can}}$ 拼接后输入 nODE，计算各时刻的动态 latent $z_{t_i,c}^{\text{dyn}}$。
+    - 动态 latent 经过三个解码器分别输出：(a) NeRF 动态 latent（与 $z_{\text{static}}$ 相加后送入 NeRF 渲染）；(b) 物体位姿预测 $\hat{p}_{t_i}^c$；(c) 物体速度预测 $\hat{v}_{t_i}^c$。
 - **设计动机**：通过条件化初始状态并共享 nODE 参数，模型被迫学习"运动规律"而非"记忆特定轨迹"。静态/动态 latent 分离避免背景干扰动力学建模。辅助的位姿和速度监督为 ODE 提供额外梯度信号，提升动力学学习质量。
 
 #### 3. Lipschitz 正则化

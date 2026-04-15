@@ -54,10 +54,10 @@ tags:
 
     - 功能：提供模块化框架，统一部署和对比多种 RAG 方案
     - 核心思路：涵盖四大类共 9 种配置——
-      - 商业方案：OpenAI Assistant（text-embedding-3-large + GPT-4.1）、OpenAIPDF（直接处理 PDF 无需 OCR）、VertexAI（text-embedding-005 + Gemini-2.5-flash）
-      - 混合架构：HybridOAIGem（OpenAI embedding + ChromaDB + Gemini 生成）、HybridGemGem（Gemini embedding + ChromaDB + Gemini 生成）
-      - 学术工具：PaperQA2（GPT-4.1 全组件，evidence retrieval k=30）、Modified PaperQA2（天文专用 prompt，k=10）
-      - 基线系统：Gemini Assistant（无 RAG）、Perplexity（网页搜索，sonar-reasoning-pro）
+        - 商业方案：OpenAI Assistant（text-embedding-3-large + GPT-4.1）、OpenAIPDF（直接处理 PDF 无需 OCR）、VertexAI（text-embedding-005 + Gemini-2.5-flash）
+        - 混合架构：HybridOAIGem（OpenAI embedding + ChromaDB + Gemini 生成）、HybridGemGem（Gemini embedding + ChromaDB + Gemini 生成）
+        - 学术工具：PaperQA2（GPT-4.1 全组件，evidence retrieval k=30）、Modified PaperQA2（天文专用 prompt，k=10）
+        - 基线系统：Gemini Assistant（无 RAG）、Perplexity（网页搜索，sonar-reasoning-pro）
     - 设计动机：统一温度（0.01）和 top-k（20）参数确保公平比较，支持从性能到成本的多维度分析
     - 关键差异：OpenAI 的文件搜索工具集成了自动查询重写、并行搜索、关键词+语义混合搜索和结果重排序，这是其性能领先的核心因素
 

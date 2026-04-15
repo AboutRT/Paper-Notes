@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🗣️ 对话系统
 
-**📷 CVPR2026** · 共 **1** 篇
+**📷 CVPR2026** · **1** 篇论文解读
 
 **[Evolutionary Multimodal Reasoning Via Hierarchical Semantic Representation For I](evolutionary_multimodal_reasoning_via_hierarchical_semantic_representation_for_i.md)**
 

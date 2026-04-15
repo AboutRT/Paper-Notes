@@ -59,9 +59,9 @@ Cognac 交替执行两个组件：
 
     - 功能：纠正被操纵节点对邻域的"感染"
     - 核心思路：
-      - 找到删除集 $S_f$ 的 $k$-hop 邻居 $\mathcal{N}(S_f)$
-      - 对比损失：$\mathcal{L}_{\text{CoGN}} = -\log \frac{\exp(\text{sim}(h_v, h_{v^+})/\tau)}{\exp(\text{sim}(h_v, h_{v^+})/\tau) + \sum_{u \in S_f} \exp(\text{sim}(h_v, h_u)/\tau)}$
-      - 正样本 $v^+$：邻域中不在删除集的正常节点；负样本：删除集中的节点
+        - 找到删除集 $S_f$ 的 $k$-hop 邻居 $\mathcal{N}(S_f)$
+        - 对比损失：$\mathcal{L}_{\text{CoGN}} = -\log \frac{\exp(\text{sim}(h_v, h_{v^+})/\tau)}{\exp(\text{sim}(h_v, h_{v^+})/\tau) + \sum_{u \in S_f} \exp(\text{sim}(h_v, h_u)/\tau)}$
+        - 正样本 $v^+$：邻域中不在删除集的正常节点；负样本：删除集中的节点
     - 设计动机：消息传递使操纵通过邻域传播→必须显式纠正邻域表示
     - 独特优势：即使删除集只是操纵集的 5%，邻域搜索也能"发现"更多未识别的受影响节点
 
@@ -69,9 +69,9 @@ Cognac 交替执行两个组件：
 
     - 功能：在删除集上"遗忘"+在保留集上"维持"
     - 核心思路：
-      - 梯度上升：$\theta \leftarrow \theta + \eta_1 \nabla_\theta \mathcal{L}(S_f)$（增大删除集损失→遗忘）
-      - 梯度下降：$\theta \leftarrow \theta - \eta_2 \nabla_\theta \mathcal{L}(S_r)$（减小保留集损失→维持）
-      - 关键：两个过程使用独立的优化器实例（独立动量/自适应学习率）
+        - 梯度上升：$\theta \leftarrow \theta + \eta_1 \nabla_\theta \mathcal{L}(S_f)$（增大删除集损失→遗忘）
+        - 梯度下降：$\theta \leftarrow \theta - \eta_2 \nabla_\theta \mathcal{L}(S_r)$（减小保留集损失→维持）
+        - 关键：两个过程使用独立的优化器实例（独立动量/自适应学习率）
     - 设计动机：耦合优化（如 SCRUB）使遗忘和维持互相干扰→解耦后各自更稳定
     - 经典 i.i.d. 遗忘方法在图上的适配——AC⚡DC 提供基础遗忘，CoGN 提供图特定的邻域纠正
 

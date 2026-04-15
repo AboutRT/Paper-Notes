@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Large Language Models Miss the Multi-Agent Mark
 description: >-
-  [NeurIPS 2025][LLM Agent][Position Paper] 系统论证当前MAS LLMs在社会智能、环境设计、异步通信和涌现行为四个方面偏离传统MAS理论基础，调研1400+篇论文后指出该领域有重新发明轮子的风险，并为每个问题提出研究方向。
+  [NeurIPS 2025][LLM/NLP][多智能体系统] Position paper 通过调研 1400+ 篇论文，系统论证当前 MAS LLMs 在四个维度偏离传统 MAS 基础理论——LLM 缺乏原生社会行为、环境设计以 LLM 为中心、缺少异步协调和标准通信协议、涌现行为缺乏量化，指出该领域有忽视 40 年 MAS 成果而重新发明轮子的风险。
 tags:
   - NeurIPS 2025
-  - LLM Agent
+  - LLM/NLP
   - 多智能体系统
   - Position Paper
   - 社会智能
   - 异步通信
+  - 涌现行为
 ---
 
 # Large Language Models Miss the Multi-Agent Mark

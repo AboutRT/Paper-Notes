@@ -69,8 +69,8 @@ tags:
 ### 损失函数 / 训练策略
 - **MAE风格掩码重建**：对每种模态的patch token以70%比例随机遮挡，经编码器（仅可见patch）和轻量Transformer解码器（512维，8层，16头）重建被遮挡patch。解码端使用与编码端对称的动态patch预测器（全连接层代替卷积层，因为是在展平的patch token上操作）
 - **持续蒸馏（Continual Distillation）**：
-  - 从冻结的DINOv2 ViT-B/14蒸馏S2衍生的RGB表示（cosine similarity loss，权重0.1）：锚定通用视觉知识，使得模型即使只在中低分辨率Sentinel图像上预训练，也能迁移到高分辨率/RGB数据
-  - 从冻结的SoftCon ViT-B/14蒸馏S1/S2全通道表示（权重0.2）：加速收敛、提供全局表示引导。作者发现该蒸馏的收益随训练更长/模型更大而递减
+    - 从冻结的DINOv2 ViT-B/14蒸馏S2衍生的RGB表示（cosine similarity loss，权重0.1）：锚定通用视觉知识，使得模型即使只在中低分辨率Sentinel图像上预训练，也能迁移到高分辨率/RGB数据
+    - 从冻结的SoftCon ViT-B/14蒸馏S1/S2全通道表示（权重0.2）：加速收敛、提供全局表示引导。作者发现该蒸馏的收益随训练更长/模型更大而递减
 - **训练配置**：ViT-Base（768维，12层，12头），220K全模态网格子集，100 epochs，有效批大小288，基础学习率1.5e-4（线性缩放），10 epoch warmup + cosine衰减，AdamW（weight decay 0.05），总计512 A100 GPU小时（128节点小时×4 A100-40GB）
 
 ## 实验关键数据

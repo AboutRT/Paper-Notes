@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**💬 ACL2025** · 共 **254** 篇
+**💬 ACL2025** · **254** 篇论文解读
 
 **[A3Cg Esg Greenwashing](a3cg_esg_greenwashing.md)**
 

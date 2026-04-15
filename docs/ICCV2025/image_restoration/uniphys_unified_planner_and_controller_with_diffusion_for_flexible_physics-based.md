@@ -70,10 +70,10 @@ UniPhys 的核心流程：
 
     - **做什么**：通过文本条件和损失函数引导，在不重新训练的情况下适应多种控制任务。
     - **核心思路**：
-      - **文本条件采样 (CFG)**：$\hat{\mathbf{X}}^0_c = \mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \emptyset) + \lambda_c(\mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \mathbf{c}) - \mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \emptyset))$
-      - **损失引导采样 (MCG)**：$\hat{\mathbf{X}}^0_l = \mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \mathbf{c}) - \lambda_l \nabla_{\mathbf{X}^{\mathbf{k}}} \mathcal{G}(\hat{\mathbf{X}}^0)$
-      - 支持不同的去噪调度：全序列去噪、自回归去噪、渐进式去噪
-      - 通过调整上下文长度和预测时域实现从反应式控制到长程规划的灵活切换
+        - **文本条件采样 (CFG)**：$\hat{\mathbf{X}}^0_c = \mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \emptyset) + \lambda_c(\mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \mathbf{c}) - \mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \emptyset))$
+        - **损失引导采样 (MCG)**：$\hat{\mathbf{X}}^0_l = \mathcal{M}_\theta(\mathbf{X}^{\mathbf{k}}, \mathbf{k}, \mathbf{c}) - \lambda_l \nabla_{\mathbf{X}^{\mathbf{k}}} \mathcal{G}(\hat{\mathbf{X}}^0)$
+        - 支持不同的去噪调度：全序列去噪、自回归去噪、渐进式去噪
+        - 通过调整上下文长度和预测时域实现从反应式控制到长程规划的灵活切换
     - **设计动机**：每帧独立噪声水平的特性天然支持灵活的推理时配置（自回归、渐进等），无需修改模型。任务特定损失可实现精细的状态空间控制。
 
 ### 损失函数 / 训练策略

@@ -29,9 +29,9 @@ tags:
 
 - **透明物体深度重建是计算机视觉中的难题**：透明物体由于反射、折射等物理特性，传统ToF传感器和神经渲染方法均难以获取准确深度
 - **已有方法的不足**：
-  - NeRF-based方法（Dex-NeRF, NFL, Residual-NeRF）需要大量训练图像且训练时间长；Residual-NeRF还依赖背景图像
-  - GS-based方法（TranSplat, TransparentGS）虽然质量好，但依然需要稠密多视角输入
-  - 稀疏视角NVS方法（InstantSplat, FSGS）依赖3D基础模型，对透明物体存在泛化偏差，无法正确区分透明物体和背景
+    - NeRF-based方法（Dex-NeRF, NFL, Residual-NeRF）需要大量训练图像且训练时间长；Residual-NeRF还依赖背景图像
+    - GS-based方法（TranSplat, TransparentGS）虽然质量好，但依然需要稠密多视角输入
+    - 稀疏视角NVS方法（InstantSplat, FSGS）依赖3D基础模型，对透明物体存在泛化偏差，无法正确区分透明物体和背景
 - **动态场景问题未解决**：当物体被移动或移除时，现有方法需要重新扫描整个场景，非常耗时
 - **关键洞察**：将透明物体从背景中分离出来,对物体对应的Gaussian进行专注优化是关键
 

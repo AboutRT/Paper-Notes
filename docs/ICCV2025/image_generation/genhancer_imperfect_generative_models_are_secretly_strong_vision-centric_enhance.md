@@ -70,20 +70,20 @@ CLIP 等判别模型在高层语义理解上表现优异，但在细粒度视觉
 
 - **做什么**：将训练分为两个阶段，先消除无关信息再学习有用知识
 - **核心思路**：
-  - **Stage-1**：冻结 CLIP ViT $\mathbf{v}_\theta$，训练投影器 $\mathbf{h}_\omega$ 和去噪器 $\mathbf{g}_\phi$。去噪器获得基本生成能力，投影器学习桥接特征空间差距，减少 $I(V;G_2)$。
-  - **Stage-2**：用 LoRA（rank=16）微调 CLIP ViT，放大 $I(V;G_1)$，增强细粒度表征。实验证明只要 Stage-1 训练充分，Stage-2 中是否继续训练去噪器和投影器影响可忽略。
-  - 端到端训练（无 Stage-1）在所有设置上性能下降超过 5%。
+    - **Stage-1**：冻结 CLIP ViT $\mathbf{v}_\theta$，训练投影器 $\mathbf{h}_\omega$ 和去噪器 $\mathbf{g}_\phi$。去噪器获得基本生成能力，投影器学习桥接特征空间差距，减少 $I(V;G_2)$。
+    - **Stage-2**：用 LoRA（rank=16）微调 CLIP ViT，放大 $I(V;G_1)$，增强细粒度表征。实验证明只要 Stage-1 训练充分，Stage-2 中是否继续训练去噪器和投影器影响可忽略。
+    - 端到端训练（无 Stage-1）在所有设置上性能下降超过 5%。
 - **设计动机**：去噪器随机初始化且轻量，直接端到端训练会在早期给 ViT 引入噪声梯度（$G_2$），损害原有表征。两阶段训练是对 $\min I(V;G_2)$ 的优雅实现。
 
 #### 3. **轻量去噪器与生成范式**
 
 - **做什么**：证明轻量级随机初始化的去噪器即可实现优异的增强效果，适用于连续和离散两种生成范式
 - **核心思路**：
-  - **连续去噪器（Rectified Flow）**：采用 FLUX 风格 DiT 架构但仅用 2 个 MM-DiT + 4 个 Single-DiT blocks（约 FLUX 原版 1/10 参数），通过 adaptive layernorm 注入 [CLS] 条件。损失为流匹配回归：
+    - **连续去噪器（Rectified Flow）**：采用 FLUX 风格 DiT 架构但仅用 2 个 MM-DiT + 4 个 Single-DiT blocks（约 FLUX 原版 1/10 参数），通过 adaptive layernorm 注入 [CLS] 条件。损失为流匹配回归：
     $$\mathcal{L}_c = \mathbb{E}_{t,\mathbf{x}} \|(\widetilde{\mathbf{x}_1} - \widetilde{\mathbf{x}_0}) - \mathbf{g}_\phi(\widetilde{\mathbf{x}_t}, t, \mathbf{h}_\omega \circ \mathbf{v}_\theta(\mathbf{x}))\|_2^2$$
-  - **离散去噪器（Perceiver）**：使用 6 层 Perceiver 在 VQ-GAN codebook 上预测 masked token，通过交叉注意力注入 [CLS] 条件。损失为交叉熵：
+    - **离散去噪器（Perceiver）**：使用 6 层 Perceiver 在 VQ-GAN codebook 上预测 masked token，通过交叉注意力注入 [CLS] 条件。损失为交叉熵：
     $$\mathcal{L}_d = \mathbb{E}_{\mathbf{x}} -\log \prod_{i=1}^L \mathbf{g}_\phi(s_i | s_{<i}, \mathbf{h}_\omega \circ \mathbf{v}_\theta(\mathbf{x}))$$
-  - **时间步采样**：提出 scaled Logit-Normal 采样 $t = \text{sigmoid}(s \cdot \varepsilon)$，$\varepsilon \sim \mathcal{N}(0,1)$，$s=1$ 时集中采样中间时间步，增加重建难度以放大 $I(V;G_1)$。
+    - **时间步采样**：提出 scaled Logit-Normal 采样 $t = \text{sigmoid}(s \cdot \varepsilon)$，$\varepsilon \sim \mathcal{N}(0,1)$，$s=1$ 时集中采样中间时间步，增加重建难度以放大 $I(V;G_1)$。
 - **设计动机**：轻量去噪器的成功证明：增强无需完美重建能力，只需让 ViT 学习到足够的视觉模式。过大的去噪器反而可能引入更多 $G_2$。
 
 ### 损失函数 / 训练策略

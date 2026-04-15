@@ -67,9 +67,9 @@ tags:
 
     - 功能：通过频域低通滤波增强跨模态特征的结构信息，同时抑制低光噪声。
     - 核心思路：将对齐帧特征、事件特征和上一尺度输出拼接后，分为两个分支：
-      - **(a) 低通滤波分支**：对特征做 FFT 变换到频域，施加高斯低通滤波器 $\mathcal{P}(x,y,\sigma) = \exp\left(-\frac{(x-x_c)^2 + (y-y_c)^2}{2\sigma^2}\right)$ 提取低频结构信息，再通过 FFC (Fast Fourier Convolution) 块进一步频率选择，最后 IFFT 回空间域。低频滤波后的特征再经过**逐像素空间动态滤波器**增强空间变化的主要结构。
-      - **(b) 原始分支**：保留未经频域滤波的特征。
-      - 最终通过**空间注意力**加权融合两分支：$\mathcal{G}(X)^{(c)} = \mathcal{G}(\bar{X})_L^{(a)} \odot \sigma(\text{Conv}(\cdot)) + \mathcal{G}(\tilde{X})^{(b)} \odot \sigma(\text{Conv}(\cdot))$。
+        - **(a) 低通滤波分支**：对特征做 FFT 变换到频域，施加高斯低通滤波器 $\mathcal{P}(x,y,\sigma) = \exp\left(-\frac{(x-x_c)^2 + (y-y_c)^2}{2\sigma^2}\right)$ 提取低频结构信息，再通过 FFC (Fast Fourier Convolution) 块进一步频率选择，最后 IFFT 回空间域。低频滤波后的特征再经过**逐像素空间动态滤波器**增强空间变化的主要结构。
+        - **(b) 原始分支**：保留未经频域滤波的特征。
+        - 最终通过**空间注意力**加权融合两分支：$\mathcal{G}(X)^{(c)} = \mathcal{G}(\bar{X})_L^{(a)} \odot \sigma(\text{Conv}(\cdot)) + \mathcal{G}(\tilde{X})^{(b)} \odot \sigma(\text{Conv}(\cdot))$。
     - 设计动机：低光场景下帧和事件**都有严重噪声**，直接做跨模态特征融合效果不佳（消融实验中 EFNet 融合甚至降低 0.23dB）。噪声主要集中在高频，而场景的主要结构在低频。低通滤波天然地抑制高频噪声、保留结构信息。再辅以逐像素动态滤波器适应空间变化的结构差异，最后残差连接保留原始信息。
 
 ### 损失函数 / 训练策略

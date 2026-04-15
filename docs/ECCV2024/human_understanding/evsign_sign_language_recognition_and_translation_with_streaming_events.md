@@ -91,8 +91,8 @@ tags:
 **Gloss感知掩码注意力（GAMA）— gloss内聚合**：
 - 使用交叉注意力从视觉Token $\mathbf{O}^v$ 聚合信息到融合Token $\mathbf{O}^f$
 - 关键创新：引入gloss感知掩码 $\mathbf{M} = \mathcal{N}(\rho) \odot \mathcal{N}(\delta)$
-  - $\rho$：特征空间相似度——同类Token具有高相关性表示
-  - $\delta$：时间空间约束——RBF核衡量伪时间戳距离，避免不同位置同类gloss间的错误聚合
+    - $\rho$：特征空间相似度——同类Token具有高相关性表示
+    - $\delta$：时间空间约束——RBF核衡量伪时间戳距离，避免不同位置同类gloss间的错误聚合
 - 公式：$\text{GAMA}(\mathbf{Q}, \mathbf{K}, \mathbf{V}, \mathbf{M}) = \text{softmax}(\frac{\mathbf{QK}^T}{\sqrt{d}} \odot \mathbf{M})\mathbf{V}$
 
 **gloss间时序聚合（IGTA）**：

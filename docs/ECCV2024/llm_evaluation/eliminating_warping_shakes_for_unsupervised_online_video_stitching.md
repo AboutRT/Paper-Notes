@@ -80,10 +80,10 @@ StabStitch包含三个核心组件：
     - 平滑后的轨迹：$\hat{S} = S + \Delta$
     - 平滑后的空间网格：$\hat{M}^S = M^S - \Delta$
     - **四项优化目标的综合设计**：
-      - **数据项** $\mathcal{L}_{data} = \|(\hat{S}-S)(\alpha \cdot OP + 1)\|_2$：平滑轨迹不应偏离原始轨迹太远，对重叠区域加权更大（乘以 $\alpha \cdot OP + 1$），保护对齐质量
-      - **平滑项** $\mathcal{L}_{smoothness}$：约束轨迹在任意时刻的位置应位于前后时刻的中点，隐式满足无突然旋转和一致平移幅度
-      - **空间一致性项** $\mathcal{L}_{space} = \frac{1}{N} \sum_t \mathcal{L}_{distortion}(\hat{M}^S(t))$：确保所有 $(U+1) \times (V+1)$ 个轨迹的变化保持一致，避免独立优化导致的空间畸变
-      - **在线协作项** $\mathcal{L}_{online} = \frac{1}{N-1} \sum_t \|\hat{S}^{(\xi)}(t) - \hat{S}^{(\xi+1)}(t-1)\|_2$：确保相邻滑动窗口中重叠帧的平滑轨迹一致
+        - **数据项** $\mathcal{L}_{data} = \|(\hat{S}-S)(\alpha \cdot OP + 1)\|_2$：平滑轨迹不应偏离原始轨迹太远，对重叠区域加权更大（乘以 $\alpha \cdot OP + 1$），保护对齐质量
+        - **平滑项** $\mathcal{L}_{smoothness}$：约束轨迹在任意时刻的位置应位于前后时刻的中点，隐式满足无突然旋转和一致平移幅度
+        - **空间一致性项** $\mathcal{L}_{space} = \frac{1}{N} \sum_t \mathcal{L}_{distortion}(\hat{M}^S(t))$：确保所有 $(U+1) \times (V+1)$ 个轨迹的变化保持一致，避免独立优化导致的空间畸变
+        - **在线协作项** $\mathcal{L}_{online} = \frac{1}{N-1} \sum_t \|\hat{S}^{(\xi)}(t) - \hat{S}^{(\xi+1)}(t-1)\|_2$：确保相邻滑动窗口中重叠帧的平滑轨迹一致
 
 ### 损失函数 / 训练策略
 

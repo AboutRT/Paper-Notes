@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 1307篇论文解读
+  AAAI2026 1296篇论文解读
 description: >-
-  1307篇AAAI2026论文深度解读，每篇5分钟读懂核心思想。覆盖医学图像、3D视觉、多模态VLM、图像生成、强化学习、人体理解等45个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  1296篇AAAI2026论文深度解读，每篇5分钟读懂核心思想。覆盖医学图像、3D视觉、多模态VLM、图像生成、强化学习、人体理解等46个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🤖 AAAI2026 论文笔记
 
-共 **1307** 篇笔记，覆盖 **45** 个领域。
+**1296** 篇论文解读，覆盖 **46** 个领域。
 
 ## 领域概览
 
@@ -16,18 +16,18 @@ description: >-
 |:-----|-----:|
 | 🏥 [医学图像](#medical_imaging) | 86 |
 | 🧊 [3D视觉](#3d_vision) | 77 |
-| 🧩 [多模态VLM](#multimodal_vlm) | 74 |
-| 🎨 [图像生成](#image_generation) | 73 |
-| 🎮 [强化学习](#reinforcement_learning) | 67 |
+| 🧩 [多模态VLM](#multimodal_vlm) | 73 |
+| 🎨 [图像生成](#image_generation) | 72 |
+| 🎮 [强化学习](#reinforcement_learning) | 66 |
 | 🧑 [人体理解](#human_understanding) | 65 |
-| 🛡️ [AI安全](#ai_safety) | 61 |
+| 🛡️ [AI安全](#ai_safety) | 60 |
 | 🚗 [自动驾驶](#autonomous_driving) | 58 |
 | 📦 [模型压缩](#model_compression) | 54 |
-| 🦾 [LLM Agent](#llm_agent) | 46 |
+| 🦾 [LLM Agent](#llm_agent) | 42 |
 | 🎯 [目标检测](#object_detection) | 41 |
-| 🎬 [视频理解](#video_understanding) | 37 |
+| 📹 [视频理解](#video_understanding) | 37 |
 | 🕸️ [图学习](#graph_learning) | 34 |
-| 🔬 [可解释性](#interpretability) | 32 |
+| 🔬 [可解释性](#interpretability) | 31 |
 | 📈 [时间序列](#time_series) | 31 |
 | 🤖 [机器人/具身智能](#robotics) | 30 |
 | ✂️ [语义分割](#segmentation) | 30 |
@@ -35,17 +35,17 @@ description: >-
 | 💬 [LLM/NLP](#llm_nlp) | 28 |
 | 💡 [LLM推理](#llm_reasoning) | 28 |
 | 🔍 [信息检索/RAG](#information_retrieval) | 27 |
-| 📐 [优化/理论](#optimization) | 23 |
+| 📐 [优化/理论](#optimization) | 22 |
 | 🎵 [音频/语音](#audio_speech) | 21 |
 | 🎁 [推荐系统](#recommender) | 21 |
 | ⚖️ [对齐/RLHF](#llm_alignment) | 19 |
 | 🖼️ [图像恢复](#image_restoration) | 15 |
 | 🔄 [自监督/表示学习](#self_supervised) | 12 |
 | 🔗 [因果推理](#causal_inference) | 9 |
-| 💻 [代码智能](#code_intelligence) | 9 |
 | ⚡ [LLM效率](#llm_efficiency) | 9 |
 | 🌐 [多语言/翻译](#multilingual_mt) | 9 |
 | 👥 [社会计算](#social_computing) | 9 |
+| 💻 [代码智能](#code_intelligence) | 8 |
 | 🧮 [科学计算](#scientific_computing) | 8 |
 | 🛰️ [遥感](#remote_sensing) | 7 |
 | ✏️ [知识编辑](#knowledge_editing) | 5 |
@@ -58,7 +58,8 @@ description: >-
 | 📖 [NLP理解](#nlp_understanding) | 2 |
 | ⚛️ [物理学](#physics) | 2 |
 | 🌍 [地球科学](#earth_science) | 1 |
-| 📂 [其他](#others) | 98 |
+| 🎬 [视频生成](#video_generation) | 1 |
+| 📂 [其他](#others) | 97 |
 
 ---
 
@@ -900,10 +901,6 @@ description: >-
 
 :   提出Pre-Consultation Dialogue Framework (PCDF)，通过两个VLM（DocVLM和PatientVLM）模拟医生-患者多轮对话，生成image-dialogue-diagnosis三元组用于微调DocVLM，在四个医学影像基准上平均F1提升11.48。
 
-**[Patientvlm Meets Docvlm Pre-Consultation Dialogue Between Vision Language Models](multimodal_vlm/patientvlm_meets_docvlm_pre-consultation_dialogue_between_vision_language_models.md)**
-
-:   本文提出PCDF（Pre-Consultation Dialogue Framework），通过两个VLM角色扮演——DocVLM提问、PatientVLM回答——模拟真实医患对话，生成image-dialogue-diagnosis三元组用于微调DocVLM，在四个医学影像基准上平均F1提升11.48个百分点，且不依赖真实临床对话数据。
-
 **[Pet2Rep Towards Vision-Language Model-Drived Automated Radiology Report Generati](multimodal_vlm/pet2rep_towards_vision-language_model-drived_automated_radiology_report_generati.md)**
 
 :   本文提出 PET2Rep，首个专用于正电子发射断层扫描（PET）放射报告生成的大规模基准数据集（565例全身 PET/CT 图像-报告对），并设计了 PET 临床效能（CE）评估指标，对 30 个前沿通用和医疗专用 VLM 进行系统评估，发现当前 SOTA VLM 在 PET 报告生成任务上表现不佳，甚至无法超越简单的模板基线。
@@ -1224,10 +1221,6 @@ description: >-
 
 :   首次将扩散模型应用于 Ad Hoc Teamwork 问题，提出 PADiff 框架，通过 Adaptive Feature Modulation Net（AFM-Net）实现对动态队友的实时适应，通过 Predictive Guidance Block（PGB）将队友意图预测信息注入去噪过程，在多模态合作场景中比现有方法平均提升 35.25%。
 
-**[Phased One-Step Adversarial Equilibrium For Video Diffusion Models](image_generation/phased_one-step_adversarial_equilibrium_for_video_diffusion_models.md)**
-
-:   提出 V-PAE（Video Phased Adversarial Equilibrium），通过"稳定性预热 + 统一对抗均衡"两阶段蒸馏框架，实现大规模视频扩散模型（如 Wan2.1-I2V-14B）的单步高质量视频生成，推理加速 100 倍，在 VBench-I2V 上平均超越现有加速方法 5.8% 的综合质量分。
-
 **[Playmate2 Training-Free Multi-Character Audio-Driven Animation Via Diffusion Tra](image_generation/playmate2_training-free_multi-character_audio-driven_animation_via_diffusion_tra.md)**
 
 :   提出基于 Wan2.1 的 DiT 音频驱动人物视频生成框架：通过 LoRA 训练策略实现长视频生成，结合部分参数更新与 DPO 奖励反馈增强唇同步与动作自然度，并首创免训练的 Mask-CFG 方法实现多角色（≥3 人）音频驱动动画。
@@ -1327,10 +1320,6 @@ description: >-
 **[A Learning Framework For Cooperative Collision Avoidance Of ](reinforcement_learning/a_learning_framework_for_cooperative_collision_avoidance_of_.md)**
 
 :   提出 reMARL 框架，将图像处理中的主动轮廓模型（active contour）作为领域知识引入多智能体强化学习的奖励设计，使无人机集群仅通过最大化个体奖励即可学会协作避撞，在大规模集群（≤10架）中性能显著优于 COMA/VDN/QMIX/MAPPO 等 SOTA MARL 方法，反应时间比元启发式方法快 98.75%，能耗降低 85.37%。
-
-**[A Learning Framework For Cooperative Collision Avoidance Of Uav Swarms Leveragin](reinforcement_learning/a_learning_framework_for_cooperative_collision_avoidance_of_uav_swarms_leveragin.md)**
-
-:   提出 reMARL 框架，利用图像处理领域知识（active contour model）设计多智能体强化学习奖励函数，实现无人机集群的协作避碰，相比传统元启发式方法反应时间缩短 98.75%、能耗降低 85.37%。
 
 **[A Multi-Agent Conversational Bandit Approach To Online Evaluation And Selection ](reinforcement_learning/a_multi-agent_conversational_bandit_approach_to_online_evaluation_and_selection_.md)**
 
@@ -1867,10 +1856,6 @@ description: >-
 **[An Information Theoretic Evaluation Metric For Strong Unlear](ai_safety/an_information_theoretic_evaluation_metric_for_strong_unlear.md)**
 
 :   提出 Information Difference Index (IDI)，一种基于信息论的白盒评估指标，通过度量中间层特征与遗忘标签之间的互信息来衡量机器遗忘的彻底程度，揭示了现有黑盒指标（MIA、JSD等）无法捕捉的中间层残留信息问题，并提出 COLA 方法在特征层面消除残余信息。
-
-**[An Information Theoretic Evaluation Metric For Strong Unlearning](ai_safety/an_information_theoretic_evaluation_metric_for_strong_unlearning.md)**
-
-:   揭示现有黑盒遗忘评估指标（MIA/JSD等）的根本缺陷——仅修改最后一层即可满足所有黑盒指标但中间层完整保留遗忘数据信息，提出IDI白盒指标通过InfoNCE估计各层与遗忘标签的互信息差异来量化遗忘效果，并提出COLA方法在CIFAR-10/100和ImageNet-1K上实现接近Retrain的IDI得分。
 
 **[An Llm-Based Simulation Framework For Embodied Conversationa](ai_safety/an_llm-based_simulation_framework_for_embodied_conversationa.md)**
 
@@ -2564,14 +2549,6 @@ description: >-
 
 :   提出 A2Flow 框架，通过三阶段流水线（案例生成→功能聚类→深度提取）从专家数据中全自动提取可复用的抽象执行算子，替代人工预定义算子，并引入算子记忆机制累积中间输出辅助节点决策，在 8 个基准上整体超越 AFLOW 等 SOTA，资源消耗降低 37%。
 
-**[A Multi-Agent Conversational Bandit Approach To Online Evaluation And Selection ](llm_agent/a_multi-agent_conversational_bandit_approach_to_online_evaluation_and_selection_.md)**
-
-:   提出 MACO（Multi-Agent Conversational Online Learning），将 LLM 回复选择建模为多 Agent 对话式赌博机问题，通过本地 Agent 淘汰低质量回复 + 云端自适应关键词对话收集偏好，实现近似最优的在线回复评估和用户偏好对齐。
-
-**[A Multi-Agent Llm Framework For Multi-Domain Low-Resource In-Context Ner Via Kno](llm_agent/a_multi-agent_llm_framework_for_multi-domain_low-resource_in-context_ner_via_kno.md)**
-
-:   提出 KDR-Agent 多 Agent 框架，通过中央规划器协调知识检索、上下文消歧和反思纠错三个专用 Agent，结合自然语言类型定义和实体级正负对比示例，无需微调即可在 5 个领域 10 个低资源 NER 数据集上全面超越 zero-shot 和 few-shot 基线（GPT-4o 上 BC5CDR F1=82.47，WNUT-17 F1=80.78）。
-
 **[A Multi-Agent Llm Framework For Multi-Domain Low-Resource In](llm_agent/a_multi-agent_llm_framework_for_multi-domain_low-resource_in.md)**
 
 :   提出 KDR-Agent 多智能体框架，通过知识检索（Wikipedia）、歧义消解和反思式自我纠错三个专业智能体协同工作，在仅使用少量静态标注示例的条件下，在5个领域10个NER数据集上显著超越现有零样本和少样本ICL NER方法。
@@ -2592,10 +2569,6 @@ description: >-
 
 :   提出ARCANE框架，将对齐建模为多智能体协作问题——manager agent通过与stakeholder对话学习生成自然语言rubric（加权可验证准则集），作为worker agent的可解释代理奖励函数，通过SFT+GSPO两阶段训练实现测试时可配置的对齐，在GDPVal基准上GSPO版本的mean return从0.58提升至0.74（N=8）。
 
-**[Autoglm Autonomous Foundation Agents For Guis](llm_agent/autoglm_autonomous_foundation_agents_for_guis.md)**
-
-:   AutoGLM 基于 ChatGLM 构建了面向 Web 浏览器和 Android 手机的 GUI 基础智能体，通过中间接口设计分离规划与定位行为，并提出自进化在线课程强化学习框架，在 VAB-WebArena-Lite 上达到 55.2% 成功率，大幅超越 GPT-4o 的 18.2%。
-
 **[Automating Complex Document Workflows Via Stepwise And Rollback-Enabled Operatio](llm_agent/automating_complex_document_workflows_via_stepwise_and_rollback-enabled_operatio.md)**
 
 :   提出AutoDW框架，通过逐步规划（每次生成一个API调用）+自适应回滚（参数级+API级两层回滚）实现复杂文档工作流自动化，在250会话/1708指令的DWBench上达到90%指令级和62%会话级完成率，分别超越最强基线40%和76%。
@@ -2603,10 +2576,6 @@ description: >-
 **[Autotool Efficient Tool Selection For Large Language Model A](llm_agent/autotool_efficient_tool_selection_for_large_language_model_a.md)**
 
 :   提出AutoTool，一个基于图的免训练工具选择框架，通过发现并利用"工具使用惯性"（tool usage inertia）——即工具调用遵循可预测的顺序模式这一经验现象——构建工具惯性图（TIG），用统计方法代替部分LLM推理来高效选择工具和填充参数，在保持任务完成率的同时减少15-40%的推理成本。
-
-**[Autotool Efficient Tool Selection For Large Language Model Agents](llm_agent/autotool_efficient_tool_selection_for_large_language_model_agents.md)**
-
-:   提出 AutoTool，一种基于图的工具选择框架，利用工具使用惯性（tool usage inertia）构建工具惯性图（TIG），通过统计结构绕过重复的 LLM 推理来选择工具和填充参数，在保持任务完成率的同时减少最多 30% 的推理开销。
 
 **[Bayesagent Bayesian Agentic Reasoning Under Uncertainty Via ](llm_agent/bayesagent_bayesian_agentic_reasoning_under_uncertainty_via_.md)**
 
@@ -2914,7 +2883,7 @@ description: >-
 
 ---
 
-## 🎬 视频理解 { #video_understanding }
+## 📹 视频理解 { #video_understanding }
 
 **[3D4D An Interactive Editable 4D World Model Via 3D Video Generation](video_understanding/3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md)**
 
@@ -3303,10 +3272,6 @@ description: >-
 **[Induce Align Predict Zero-Shot Stance Detection Via Cognitive Inductive Reasonin](interpretability/induce_align_predict_zero-shot_stance_detection_via_cognitive_inductive_reasonin.md)**
 
 :   提出CIRF框架，通过无监督schema归纳（USI）从LLM生成的一阶逻辑中抽象可迁移推理模式，再用schema增强图核模型（SEGKM）进行结构对齐实现可解释零样本立场推理，在三个基准上达到SOTA且仅需30%标注数据。
-
-**[Llm Circuit Analyses Consistent Across Training And Scale](interpretability/llm_circuit_analyses_consistent_across_training_and_scale.md)**
-
-:   本文首次系统追踪 decoder-only LLM 的内部电路（circuits）在 3000 亿 token 训练过程中和 70M–2.8B 参数规模间的演化，发现虽然具体注意力头会发生更替，但执行的算法保持稳定，且跨规模具有一致性，表明在小模型上做的电路分析可推广到更大模型和更长训练。
 
 **[Probing Preference Representations A Multi-Dimensional Evaluation And Analysis M](interpretability/probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)**
 
@@ -4200,10 +4165,6 @@ description: >-
 
 :   提出 Co-Layout 框架，利用 LLM 从自然语言需求中提取结构化约束，再通过基于网格的整数规划（IP）联合优化房间布局与家具摆放，辅以粗到精求解策略提升效率，显著优于现有两阶段方案。
 
-**[Convex Clustering Redefined Robust Learning With Higher Order Norms And Beyond](optimization/convex_clustering_redefined_robust_learning_with_higher_order_norms_and_beyond.md)**
-
-:   本文将 Median of Means (MoM) 估计器融入凸聚类框架，提出 COMET 算法，通过随机分箱与中位数聚合实现对噪声和离群点的鲁棒性，同时无需预知簇数 $k$，理论上证明了弱一致性，实验在多个真实数据集上显著超越 k-means、MoM k-means、凸聚类等六种基线方法。
-
 **[Convex Clustering Redefined Robust Learning With The Median Of Means Estimator](optimization/convex_clustering_redefined_robust_learning_with_the_median_of_means_estimator.md)**
 
 :   提出 COMET（Convex Clustering with Median of Means Estimator），将中位数均值（MoM）估计器整合到凸聚类框架中，通过随机分箱、截断距离和 ADAM 优化实现对噪声和异常值的鲁棒聚类，无需预设聚类数量，在理论上证明了弱一致性，在合成和真实数据集上全面超越现有方法。
@@ -4682,46 +4643,6 @@ description: >-
 
 ---
 
-## 💻 代码智能 { #code_intelligence }
-
-**[Diffbench Meets Diffagent End-To-End Llm-Driven Diffusion Ac](code_intelligence/diffbench_meets_diffagent_end-to-end_llm-driven_diffusion_ac.md)**
-
-:   提出DiffBench（604个扩散模型加速任务的评估基准，分5个难度等级）和DiffAgent（集成规划-编码-调试三Agent + 遗传算法选择器的闭环框架），在Claude Sonnet 4上将扩散加速代码生成通过率从54.30%提升到81.59%，复杂优化任务达成率68.27%。
-
-**[Equacode A Multi-Strategy Jailbreak Approach For Large Language Models Via Equat](code_intelligence/equacode_a_multi-strategy_jailbreak_approach_for_large_language_models_via_equat.md)**
-
-:   提出EquaCode多策略越狱方法，将恶意查询分解为方程求解（B+C+x=A）和代码补全（补全Solver类的solve()方法）的跨域组合，在GPT系列上平均攻击成功率92.78%，在最新模型（Gemini/DeepSeek/Grok）上接近100%。
-
-**[Extracting Events Like Code A Multi-Agent Programming Framework For Zero-Shot Ev](code_intelligence/extracting_events_like_code_a_multi-agent_programming_framework_for_zero-shot_ev.md)**
-
-:   提出 Agent-Event-Coder (AEC)，将零样本事件抽取类比为软件工程流程，用4个专职Agent（Retrieval→Planning→Coding→Verification）协作完成抽取，并将事件schema编码为可执行Python类实现编译器式确定性验证与双循环迭代修正，在5个领域、6个LLM上全面超越零样本基线。
-
-**[Mose Hierarchical Self-Distillation Enhances Early Layer Embeddings](code_intelligence/mose_hierarchical_self-distillation_enhances_early_layer_embeddings.md)**
-
-:   提出 ModularStarEncoder（MoSE），一个 10 亿参数的多出口编码器，通过新颖的自蒸馏机制（高层引导低层训练）显著增强早期层表示，在 CodeSearchNet 等代码理解任务上超越所有开源模型，同时支持灵活的计算-精度权衡部署。
-
-**[Recode Updating Code Api Knowledge With Reinforcement Learning](code_intelligence/recode_updating_code_api_knowledge_with_reinforcement_learning.md)**
-
-:   提出 ReCode 框架，通过基于规则的强化学习（而非 SFT）训练 LLM 在 prompt 中正确利用 API 更新文档完成代码版本迁移，使 7B 模型在 CodeUpdateArena 上超越 32B 模型。
-
-**[Span Benchmarking And Improving Cross-Calendar Temporal Reasoning Of Large Langu](code_intelligence/span_benchmarking_and_improving_cross-calendar_temporal_reasoning_of_large_langu.md)**
-
-:   提出SPAN跨日历时间推理基准（6种日历×10推理方向×100年范围×37380实例），发现基础LLM平均仅34.5%准确率（无一超过80%），揭示Future-Date Degradation和Calendar Asymmetry Bias两种系统性失败模式，工具增强的Time Agent达95.31%——证明跨日历推理需要外部工具而非参数化知识。
-
-**[Tapas Are Free Training-Free Adaptation Of Programmatic Agen](code_intelligence/tapas_are_free_training-free_adaptation_of_programmatic_agen.md)**
-
-:   TAPA 将 LLM 定位为符号动作空间的"智能调制器"而非直接决策者，通过 LLM 引导的程序合成动态适配程序化 Agent 的符号动作，无需重新训练即可适应动态环境，在网络安全 DDoS 防御（77.7% 网络正常运行率）和群体智能编队控制中表现优异。
-
-**[Towards Better Code Understanding In Decoder-Only Large Language Models Via Hie](code_intelligence/towards_better_code_understanding_in_decoder-only_large_language_models_via_hie.md)**
-
-:   提出CL4D对比学习框架，通过继续预训练将decoder-only代码生成模型适配到代码理解任务（代码搜索、克隆检测），在不重新训练encoder模型的前提下实现了与同等规模encoder-only模型相当甚至更优的性能。
-
-**[Towards Better Code Understanding In Decoder-Only Models With Contrastive Learni](code_intelligence/towards_better_code_understanding_in_decoder-only_models_with_contrastive_learni.md)**
-
-:   本文提出CL4D框架，通过对比学习对预训练的decoder-only代码生成模型进行继续预训练，使其能够有效提取代码表示并在代码搜索和克隆检测等理解任务上达到甚至超越同规模encoder-only模型的性能。
-
----
-
 ## ⚡ LLM效率 { #llm_efficiency }
 
 **[A Content-Preserving Secure Linguistic Steganography](llm_efficiency/a_content-preserving_secure_linguistic_steganography.md)**
@@ -4839,6 +4760,42 @@ description: >-
 **[T2Agent A Tool-Augmented Multimodal Misinformation Detection Agent With Monte Ca](social_computing/t2agent_a_tool-augmented_multimodal_misinformation_detection_agent_with_monte_ca.md)**
 
 :   提出 T2Agent，一个集成可扩展工具集与蒙特卡洛树搜索（MCTS）的虚假信息检测智能体，通过多源验证机制将检测任务分解为针对不同伪造源的子任务，在 MMfakebench 上以 GPT-4o 为骨干将基线 MMDAgent 的准确率提升 28.7%，达到新 SOTA。
+
+---
+
+## 💻 代码智能 { #code_intelligence }
+
+**[Diffbench Meets Diffagent End-To-End Llm-Driven Diffusion Ac](code_intelligence/diffbench_meets_diffagent_end-to-end_llm-driven_diffusion_ac.md)**
+
+:   提出DiffBench（604个扩散模型加速任务的评估基准，分5个难度等级）和DiffAgent（集成规划-编码-调试三Agent + 遗传算法选择器的闭环框架），在Claude Sonnet 4上将扩散加速代码生成通过率从54.30%提升到81.59%，复杂优化任务达成率68.27%。
+
+**[Equacode A Multi-Strategy Jailbreak Approach For Large Language Models Via Equat](code_intelligence/equacode_a_multi-strategy_jailbreak_approach_for_large_language_models_via_equat.md)**
+
+:   提出EquaCode多策略越狱方法，将恶意查询分解为方程求解（B+C+x=A）和代码补全（补全Solver类的solve()方法）的跨域组合，在GPT系列上平均攻击成功率92.78%，在最新模型（Gemini/DeepSeek/Grok）上接近100%。
+
+**[Extracting Events Like Code A Multi-Agent Programming Framework For Zero-Shot Ev](code_intelligence/extracting_events_like_code_a_multi-agent_programming_framework_for_zero-shot_ev.md)**
+
+:   提出 Agent-Event-Coder (AEC)，将零样本事件抽取类比为软件工程流程，用4个专职Agent（Retrieval→Planning→Coding→Verification）协作完成抽取，并将事件schema编码为可执行Python类实现编译器式确定性验证与双循环迭代修正，在5个领域、6个LLM上全面超越零样本基线。
+
+**[Mose Hierarchical Self-Distillation Enhances Early Layer Embeddings](code_intelligence/mose_hierarchical_self-distillation_enhances_early_layer_embeddings.md)**
+
+:   提出 ModularStarEncoder（MoSE），一个 10 亿参数的多出口编码器，通过新颖的自蒸馏机制（高层引导低层训练）显著增强早期层表示，在 CodeSearchNet 等代码理解任务上超越所有开源模型，同时支持灵活的计算-精度权衡部署。
+
+**[Recode Updating Code Api Knowledge With Reinforcement Learning](code_intelligence/recode_updating_code_api_knowledge_with_reinforcement_learning.md)**
+
+:   提出 ReCode 框架，通过基于规则的强化学习（而非 SFT）训练 LLM 在 prompt 中正确利用 API 更新文档完成代码版本迁移，使 7B 模型在 CodeUpdateArena 上超越 32B 模型。
+
+**[Span Benchmarking And Improving Cross-Calendar Temporal Reasoning Of Large Langu](code_intelligence/span_benchmarking_and_improving_cross-calendar_temporal_reasoning_of_large_langu.md)**
+
+:   提出SPAN跨日历时间推理基准（6种日历×10推理方向×100年范围×37380实例），发现基础LLM平均仅34.5%准确率（无一超过80%），揭示Future-Date Degradation和Calendar Asymmetry Bias两种系统性失败模式，工具增强的Time Agent达95.31%——证明跨日历推理需要外部工具而非参数化知识。
+
+**[Tapas Are Free Training-Free Adaptation Of Programmatic Agen](code_intelligence/tapas_are_free_training-free_adaptation_of_programmatic_agen.md)**
+
+:   TAPA 将 LLM 定位为符号动作空间的"智能调制器"而非直接决策者，通过 LLM 引导的程序合成动态适配程序化 Agent 的符号动作，无需重新训练即可适应动态环境，在网络安全 DDoS 防御（77.7% 网络正常运行率）和群体智能编队控制中表现优异。
+
+**[Towards Better Code Understanding In Decoder-Only Models With Contrastive Learni](code_intelligence/towards_better_code_understanding_in_decoder-only_models_with_contrastive_learni.md)**
+
+:   本文提出CL4D框架，通过对比学习对预训练的decoder-only代码生成模型进行继续预训练，使其能够有效提取代码表示并在代码搜索和克隆检测等理解任务上达到甚至超越同规模encoder-only模型的性能。
 
 ---
 
@@ -5074,6 +5031,14 @@ description: >-
 
 ---
 
+## 🎬 视频生成 { #video_generation }
+
+**[Phased One-Step Adversarial Equilibrium For Video Diffusion Models](video_generation/phased_one-step_adversarial_equilibrium_for_video_diffusion_models.md)**
+
+:   提出 V-PAE（Video Phased Adversarial Equilibrium），通过"稳定性预热 + 统一对抗均衡"两阶段蒸馏框架，实现大规模视频扩散模型（如 Wan2.1-I2V-14B）的单步高质量视频生成，推理加速 100 倍，在 VBench-I2V 上平均超越现有加速方法 5.8% 的综合质量分。
+
+---
+
 ## 📂 其他 { #others }
 
 **[A Fast Heuristic Search Approach For Energy-Optimal Profile ](others/a_fast_heuristic_search_approach_for_energy-optimal_profile_.md)**
@@ -5083,10 +5048,6 @@ description: >-
 **[A Graph-Theoretical Perspective On Law Design For Multiagent](others/a_graph-theoretical_perspective_on_law_design_for_multiagent.md)**
 
 :   将多智能体系统中的法律设计问题（包括"有用法律"和"无责任缺口法律"）形式化为超图上的顶点覆盖问题，证明了两类法律最小化问题都是NP-hard的，并给出了基于超图顶点覆盖近似算法的多项式时间近似方案。
-
-**[A Graph-Theoretical Perspective On Law Design For Multiagent Systems](others/a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md)**
-
-:   从图论角度研究多智能体系统中的法律设计问题，将 useful law 和 gap-free law 的最小化设计分别归约为超图的顶点覆盖问题，证明了 NP-hardness 并给出近似算法。
 
 **[A Mind Cannot Be Smeared Across Time](others/a_mind_cannot_be_smeared_across_time.md)**
 

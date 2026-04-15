@@ -9,13 +9,11 @@ tags:
 
 # Learning to Stop: Deep Learning for Mean Field Optimal Stopping
 
-| 属性 | 值 |
-|------|------|
-| **会议** | ICML 2025 |
-| **arXiv** | [2410.08850](https://arxiv.org/abs/2410.08850) |
-| **作者** | Lorenzo Magnino, Yuchen Zhu, Mathieu Laurière (NYU Shanghai, Georgia Tech) |
-| **领域** | 优化与控制 / 机器学习 |
-| **关键词** | 最优停止、平均场控制、多智能体、深度学习、动态规划 |
+****会议****: ICML 2025  
+****arXiv****: [2410.08850](https://arxiv.org/abs/2410.08850)  
+****作者****: Lorenzo Magnino, Yuchen Zhu, Mathieu Laurière (NYU Shanghai, Georgia Tech)  
+****领域****: 优化与控制 / 机器学习  
+****关键词****: 最优停止、平均场控制、多智能体、深度学习、动态规划  
 
 ## 一句话总结
 

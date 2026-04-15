@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning
 description: >-
-  [NeurIPS 2025][自动驾驶][视觉语言] 提出AutoVLA——基于Qwen2.5-VL-3B的端到端自动驾驶VLA模型，将连续轨迹离散化为物理action tokens嵌入语言模型词表，支持fast/slow thinking双模式推理，通过GRPO强化微调同时提升10.6%性能和66.8%推理效率，在NAVSIM和Bench2Drive上达SOTA。
+  [NeurIPS 2025][自动驾驶][视觉语言动作模型] AutoVLA 将物理动作 token 直接集成到预训练 VLM（Qwen2.5-VL-3B）中，通过 SFT 赋予模型快/慢双思维模式能力，再用 GRPO 强化微调实现自适应推理切换并优化规划性能，在 nuPlan、Waymo、nuScenes 和 CARLA 四大自动驾驶基准上取得有竞争力的端到端驾驶性能。
 tags:
   - NeurIPS 2025
   - 自动驾驶
-  - 视觉语言
-  - 端到端驾驶
+  - 视觉语言动作模型
+  - 端到端自动驾驶
+  - 动作token化
+  - 强化微调
   - 自适应推理
-  - GRPO强化微调
-  - Action Tokenization
 ---
 
 # AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning

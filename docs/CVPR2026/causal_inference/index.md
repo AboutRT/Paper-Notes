@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**📷 CVPR2026** · 共 **4** 篇
+**📷 CVPR2026** · **4** 篇论文解读
 
 **[Cipher Counterfactual Diffusion Hallucination Sup](cipher_counterfactual_diffusion_hallucination_sup.md)**
 

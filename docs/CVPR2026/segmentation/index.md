@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 语义分割方向 70篇论文解读
+  CVPR2026 语义分割方向 69篇论文解读
 description: >-
-  70篇CVPR2026 语义分割方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  69篇CVPR2026 语义分割方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**📷 CVPR2026** · 共 **70** 篇
+**📷 CVPR2026** · **69** 篇论文解读
 
 **[3M-Ti High-Quality Mobile Thermal Imaging Via Calibration-Free Multi-Camera Cros](3m-ti_high-quality_mobile_thermal_imaging_via_calibration-free_multi-camera_cros.md)**
 
@@ -165,10 +165,6 @@ description: >-
 **[Gkd Generalizable Knowledge Distillation Vfm](gkd_generalizable_knowledge_distillation_vfm.md)**
 
 :   提出 GKD 框架，通过将表示学习与任务学习解耦的多阶段蒸馏（先学通用特征 → 冻结编码器 → 再训任务头）+ 查询式软蒸馏机制（QSD），从 VFM 中蒸馏出具有跨域泛化能力的轻量学生模型，在 F2L 设置下平均 mIoU 提升 +10.6%，F2F +1.9%。
-
-**[Interpretable Motion-Attentive Maps Spatio-Temporally Localizing Concepts In Vid](interpretable_motion-attentive_maps_spatio-temporally_localizing_concepts_in_vid.md)**
-
-:   提出 GramCol 和 IMAP 两种无需训练/梯度的方法，利用 Video DiT 内部特征为任意文本概念（尤其是运动概念）生成可解释的时空显著性图，并在运动定位和零样本视频语义分割上取得 SOTA。
 
 **[Learning Cross-View Object Correspondence Via Cycle-Consistent Mask Prediction](learning_cross-view_object_correspondence_via_cycle-consistent_mask_prediction.md)**
 

@@ -53,10 +53,10 @@ SR-LoRA的流程极其简洁：（1）计算预训练模型每个目标层权重
     $\text{srank}(W) = \frac{\|\mathbf{W}\|_F^2}{\|\mathbf{W}\|_2^2} = \frac{\sum_{i=1}^{\text{rank}(W)} \sigma_i^2(\mathbf{W})}{\sigma_1^2(\mathbf{W})}$
       LoRA秩分配规则：$r_m^{(l)} = \text{srank}\{W_{m,0}^{(l)}\}$，其中 $m \in \{q, v, o\}$
     - 设计动机：稳定秩有四个关键性质支撑这一选择：
-      - 是矩阵秩的光滑版本，对小扰动鲁棒
-      - 是矩阵秩的下界：$\text{srank}(\mathbf{W}) \leq \text{rank}(\mathbf{W})$
-      - 对缩放不变：$\text{srank}(\mathbf{W}) = \text{srank}(\mathbf{W}/\eta)$
-      - 直接影响泛化能力——稳定秩的减小降低了Lipschitz常数
+        - 是矩阵秩的光滑版本，对小扰动鲁棒
+        - 是矩阵秩的下界：$\text{srank}(\mathbf{W}) \leq \text{rank}(\mathbf{W})$
+        - 对缩放不变：$\text{srank}(\mathbf{W}) = \text{srank}(\mathbf{W}/\eta)$
+        - 直接影响泛化能力——稳定秩的减小降低了Lipschitz常数
 
 2. **稳定秩的理论保证**:
 

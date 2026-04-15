@@ -2,13 +2,14 @@
 title: >-
   [论文解读] Emergency Response Measures for Catastrophic AI Risk
 description: >-
-  [NeurIPS 2025][AI安全] 本文分析了如何将前沿安全政策（Frontier Safety Policies, FSPs）模型整合到中国四阶段应急响应框架中，以应对来自先进AI系统的灾难性风险（如大规模杀伤性武器扩散、失控事件等）。
+  [NeurIPS 2025][灾难性AI风险] 本文系统分析了前沿安全政策（FSPs）如何嵌入中国四阶段应急响应框架（预防-预警-响应-恢复）的前两个阶段，通过危险能力评估、分级阈值和预设安全措施来应对AI灾难性风险，并与欧盟AI法案、加州SB53等国际实践进行了对比。
 tags:
   - NeurIPS 2025
-  - AI安全
-  - AI治理
+  - 灾难性AI风险
   - 应急响应
   - 前沿安全政策
+  - AI治理
+  - 危险能力评估
 ---
 
 # Emergency Response Measures for Catastrophic AI Risk

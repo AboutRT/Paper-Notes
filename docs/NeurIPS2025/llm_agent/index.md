@@ -1,26 +1,18 @@
 ---
 title: >-
-  NeurIPS2025 LLM Agent方向 52篇论文解读
+  NeurIPS2025 LLM Agent方向 50篇论文解读
 description: >-
-  52篇NeurIPS2025 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  50篇NeurIPS2025 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🧠 NeurIPS2025** · 共 **52** 篇
+**🧠 NeurIPS2025** · **50** 篇论文解读
 
 **[A-Mem Agentic Memory For Llm Agents](a-mem_agentic_memory_for_llm_agents.md)**
 
 :   提出 A-Mem，一种受 Zettelkasten 启发的 LLM Agent 智能记忆系统，每条记忆自动生成结构化笔记（关键词/标签/上下文描述），动态建立记忆间链接，并在新记忆加入时触发旧记忆的演化更新，在 LoCoMo 长对话 QA 上显著超越 MemGPT 等基线。
-
-**[A Differentiable Model Of Supply-Chain Shocks](a_differentiable_model_of_supply-chain_shocks.md)**
-
-:   本文用 JAX 实现了一个可微分的供应链 Agent-Based Model（ABM），通过 GPU 并行化和自动微分实现了比传统无梯度方法快 3 个数量级的贝叶斯参数校准，为大规模供应网络建模打开了可能性。
-
-**[Adaptive Cooperative Transmission Design For Ultra-Reliable Low-Latency Communic](adaptive_cooperative_transmission_design_for_ultra-reliable_low-latency_communic.md)**
-
-:   提出 DRL-CoLA 双智能体深度 Q 网络算法，让两跳中继通信系统中的源节点和中继节点分别以分布式方式学习自适应配置 5G NR 传输参数（numerology、mini-slot、MCS），在仅使用本地 CSI 的条件下，实现端到端严格时延约束内的近最优丢包率。
 
 **[Adaptive Coopetition Leveraging Coarse Verifier Signals For Resilient Multi-Agen](adaptive_coopetition_leveraging_coarse_verifier_signals_for_resilient_multi-agen.md)**
 

@@ -51,9 +51,9 @@ IFA-Net 采用两阶段闭环架构：
     - 冻结 MAE 重建：输入可能被篡改的图像 $I$，通过冻结的 MAE encoder-decoder 重建 $\hat{I}$
     - 残差图计算：$R = |I - \hat{I}|$，真实区域残差小（MAE 重建准确），伪造区域残差大（偏离流形）
     - DSSN（Dual-Stream Segmentation Network）：
-      - Content Stream：编码原始图像的语义内容（SegFormer backbone）
-      - Artifact Stream：编码残差图中的伪造线索
-      - Cross-Attention 融合：两个 stream 通过交叉注意力交换信息，内容流提供"在哪里看"，artifact 流提供"看到了什么异常"
+        - Content Stream：编码原始图像的语义内容（SegFormer backbone）
+        - Artifact Stream：编码残差图中的伪造线索
+        - Cross-Attention 融合：两个 stream 通过交叉注意力交换信息，内容流提供"在哪里看"，artifact 流提供"看到了什么异常"
     - 输出粗 mask $M_{\text{crs}}$
 
 2. **Stage 2 — TAPI（Task-Adaptive Prior Injection）迭代放大**:

@@ -59,12 +59,12 @@ tags:
 - **规模**：50,000+ 文档（源自 823k+ 消息和论文）
 - **时间跨度**：2021 年 1 月 - 2024 年 12 月
 - **两种体裁**：
-  - **正式文本**：arXiv 计算机科学预印本（permissive license）
-  - **非正式文本**：Discord Unveiled 数据集（CC BY 4.0），公开服务器匿名通信
+    - **正式文本**：arXiv 计算机科学预印本（permissive license）
+    - **非正式文本**：Discord Unveiled 数据集（CC BY 4.0），公开服务器匿名通信
 - **AI 参考语料**：ShareGPT-90k (Apache-2.0) + Dolly-15k (CC BY-SA 3.0)
 - **抽样策略**：
-  - Discord：主题控制的分层抽样，平衡 pre/post LLM 各类别配额
-  - arXiv：按月抽样保证时间连续性
+    - Discord：主题控制的分层抽样，平衡 pre/post LLM 各类别配额
+    - arXiv：按月抽样保证时间连续性
 
 ### 关键设计：Perplexity-Gap 分析
 

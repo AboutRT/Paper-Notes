@@ -58,8 +58,8 @@ FastCAD输入一个点云（来自RGB-D扫描或在线3D重建输出），通过
     - **做什么**: 学习一个统一的嵌入空间，使噪声扫描物体和干净CAD模型的嵌入向量可比较。
     - **核心思路**: 使用三元组损失：$\mathcal{L}_{\text{Contrastive}} = \max(0, d^2(\mathbf{A}, \mathbf{P}) + m - d^2(\mathbf{A}, \mathbf{N}))$，其中A为锚点（scan物体），P为正样本（对应CAD），N为负样本（同类不同CAD）。
     - **两个辅助任务**:
-      - 前景/背景分割：用二元交叉熵监督，迫使编码器学会区分目标物体与背景噪声。
-      - Chamfer距离预测：训练一个浅层MLP从正/负CAD嵌入预测它们之间的Chamfer距离 $\mathcal{L}_{\text{Chamfer}} = \|d_\theta(\text{cat}(\mathbf{P}, \mathbf{N})) - d_{\text{Chamfer}}(X_{\text{pos}}, X_{\text{neg}})\|_1$，帮助网络学习包含形状相似度信息的嵌入。
+        - 前景/背景分割：用二元交叉熵监督，迫使编码器学会区分目标物体与背景噪声。
+        - Chamfer距离预测：训练一个浅层MLP从正/负CAD嵌入预测它们之间的Chamfer距离 $\mathcal{L}_{\text{Chamfer}} = \|d_\theta(\text{cat}(\mathbf{P}, \mathbf{N})) - d_{\text{Chamfer}}(X_{\text{pos}}, X_{\text{neg}})\|_1$，帮助网络学习包含形状相似度信息的嵌入。
     - **设计动机**: 仅用对比损失不够——负样本有时与正样本非常相似，辅助任务让嵌入包含更细粒度的形状信息。消融实验显示两个辅助任务将shape accuracy从81.1%提升到83.1%。
 
 3. **正面朝向预测 (Front-Facing Side Prediction)**:

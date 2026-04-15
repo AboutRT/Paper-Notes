@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**💬 ACL2025** · 共 **32** 篇
+**💬 ACL2025** · **32** 篇论文解读
 
 **[Adversarial Tokenization](adversarial_tokenization.md)**
 

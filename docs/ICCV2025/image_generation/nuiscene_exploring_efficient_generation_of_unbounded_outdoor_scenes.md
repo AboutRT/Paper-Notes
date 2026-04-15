@@ -2,19 +2,24 @@
 title: >-
   [论文解读] NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes
 description: >-
-  [图像生成] NuiScene 提出使用向量集（vector set）编码场景块的高效方法，配合显式 outpainting 扩散模型实现快速无界户外场景生成，并策划了 NuiScene43 高质量户外场景数据集。
+  [ICCV 2025][图像生成][无界场景生成] NuiScene 提出使用向量集（vector set）编码场景块的高效方法，配合显式 outpainting 扩散模型实现快速无界户外场景生成，并策划了 NuiScene43 高质量户外场景数据集。
 tags:
+  - ICCV 2025
   - 图像生成
+  - 无界场景生成
+  - 向量集表示
+  - outpainting
+  - 扩散模型
+  - 户外场景
+  - 3D生成
 ---
 
 # NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV 2025 |
-| arXiv | [2503.16375](https://arxiv.org/abs/2503.16375) |
-| 领域 | 3D生成·场景生成 |
-| 关键词 | 无界场景生成, 向量集表示, outpainting, 扩散模型, 户外场景, 3D生成 |
+**会议**: ICCV 2025  
+**arXiv**: [2503.16375](https://arxiv.org/abs/2503.16375)  
+**领域**: 3D生成·场景生成  
+**关键词**: 无界场景生成, 向量集表示, outpainting, 扩散模型, 户外场景, 3D生成  
 
 ## 一句话总结
 

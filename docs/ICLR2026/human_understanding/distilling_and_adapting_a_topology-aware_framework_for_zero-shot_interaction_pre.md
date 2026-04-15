@@ -99,9 +99,9 @@ MBN中的交互预测是多标签分类任务。MoE框架中：
 ### 损失函数 / 训练策略
 
 - **教师损失**：$\mathcal{L} = \mathcal{L}_{disc} + \mathcal{L}_{reg} + \mathcal{L}_{cls} + \beta\|\Theta\|^2$
-  - $\mathcal{L}_{disc}$：判别器二元交叉熵损失
-  - $\mathcal{L}_{reg}$：共识正则化损失（余弦相似度）
-  - $\mathcal{L}_{cls}$：多标签软间隔损失
+    - $\mathcal{L}_{disc}$：判别器二元交叉熵损失
+    - $\mathcal{L}_{reg}$：共识正则化损失（余弦相似度）
+    - $\mathcal{L}_{cls}$：多标签软间隔损失
 - **学生损失**：$\mathcal{L}_{distill}(\text{MSE}) + \mathcal{L}_{cls}$
 
 ## 实验关键数据

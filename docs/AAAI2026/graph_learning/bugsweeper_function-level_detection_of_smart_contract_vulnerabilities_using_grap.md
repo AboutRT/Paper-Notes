@@ -50,23 +50,23 @@ BugSweeper 包含三个核心组件：
 
 - **AST 解析**：使用 Solidity 编译器 solc 将源码解析为抽象语法树 (AST)
 - **边增强**：在 AST 基础上添加三类边，形成 Flow-Augmented ASG：
-  - **Basic edges**：AST 原有的 Child/Parent 结构边
-  - **Data-flow edges**：包括 ReferencedDeclaration（变量/函数引用）、FunctionReturnParameter（返回值链接）、SuperFunction（函数重写）、Assignment（赋值）
-  - **Control-flow edges**：包括 IfStatement 的 CondTrue/CondFalse、循环的 WhileExecution/ForExecution、NextStatement 顺序边
+    - **Basic edges**：AST 原有的 Child/Parent 结构边
+    - **Data-flow edges**：包括 ReferencedDeclaration（变量/函数引用）、FunctionReturnParameter（返回值链接）、SuperFunction（函数重写）、Assignment（赋值）
+    - **Control-flow edges**：包括 IfStatement 的 CondTrue/CondFalse、循环的 WhileExecution/ForExecution、NextStatement 顺序边
 - **函数级切分 + Coverage 扩展**：将合约按函数拆分为子图，通过 coverage 超参数控制邻域深度：
-  - coverage=1：仅目标函数自身
-  - coverage=2：加入直接调用的函数和引用的变量（1-hop）
-  - coverage=3：进一步扩展至 2-hop 邻居
-  - 实验中默认使用 coverage=4
+    - coverage=1：仅目标函数自身
+    - coverage=2：加入直接调用的函数和引用的变量（1-hop）
+    - coverage=3：进一步扩展至 2-hop 邻居
+    - 实验中默认使用 coverage=4
 
 ### 2. Code Graph Neural Network (CGNN) — 第一阶段
 
 - 使用 BPE tokenizer 将节点文本属性编码为向量
 - 采用 3 层 GraphSAGE（512→1024→1024→1024）进行消息传递，生成节点 embedding
 - **CGPool（核心创新）**：基于代码语法角色的确定性语义池化
-  - 将属于同一 FunctionDefinition 或 VariableDeclaration 的节点合并为一个 supernode
-  - 按原始控制流/数据流边重连 supernode，生成 Pooled FLAG
-  - 相比 TopKPool/SAGPool 等方法，既保留层次结构又避免信息丢失，且计算高效
+    - 将属于同一 FunctionDefinition 或 VariableDeclaration 的节点合并为一个 supernode
+    - 按原始控制流/数据流边重连 supernode，生成 Pooled FLAG
+    - 相比 TopKPool/SAGPool 等方法，既保留层次结构又避免信息丢失，且计算高效
 
 ### 3. Second-Stage GNN — 第二阶段
 

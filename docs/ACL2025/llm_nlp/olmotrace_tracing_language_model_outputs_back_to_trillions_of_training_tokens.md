@@ -2,10 +2,15 @@
 title: >-
   [论文解读] OLMoTrace: Tracing Language Model Outputs Back to Trillions of Training Tokens
 description: >-
-  [ACL 2025  **arXiv**: [2504.07096](https://arxiv.org/abs/2504.07096)  **代码**: [allenai/infinigram-api](https://github.com/allenai/infinigram-api)  **领域**: LLM可解释性/数据溯源  **关键词**: 训练数据溯源, 逐字匹配, 后缀数组, infini-gram, 开放LM][LLM/NLP] 提出OLMoTrace——首个能在实时（平均4.5秒）将语言模型输出逐字追溯到其完整多万亿token训练数据的系统，基于扩展的infini-gram引擎通过后缀数组索引实现高效精确匹配，支持事实核查、创意溯源和数学能力追踪等应用场景。
+  [ACL 2025][LLM/NLP][训练数据溯源] 提出OLMoTrace——首个能在实时（平均4.5秒）将语言模型输出逐字追溯到其完整多万亿token训练数据的系统，基于扩展的infini-gram引擎通过后缀数组索引实现高效精确匹配，支持事实核查、创意溯源和数学能力追踪等应用场景。
 tags:
-  - "ACL 2025  **arXiv**: [2504.07096](https://arxiv.org/abs/2504.07096)  **代码**: [allenai/infinigram-api](https://github.com/allenai/infinigram-api)  **领域**: LLM可解释性/数据溯源  **关键词**: 训练数据溯源, 逐字匹配, 后缀数组, infini-gram, 开放LM"
+  - ACL 2025
   - LLM/NLP
+  - 训练数据溯源
+  - 逐字匹配
+  - 后缀数组
+  - infini-gram
+  - 开放LM
 ---
 
 # OLMoTrace: Tracing Language Model Outputs Back to Trillions of Training Tokens

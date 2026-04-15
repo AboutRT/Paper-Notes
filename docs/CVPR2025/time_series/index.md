@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**📷 CVPR2025** · 共 **1** 篇
+**📷 CVPR2025** · **1** 篇论文解读
 
 **[Competition-Aware Cpc Forecasting With Near-Market Coverage](competition-aware_cpc_forecasting_with_near-market_coverage.md)**
 

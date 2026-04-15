@@ -52,12 +52,12 @@ tags:
 3. **迭代差异引导流优化(核心创新)**:
 
     - N轮迭代精化。每轮：
-      - **Fine-Scale Feature Transformation (FSFT)**：用当前流场warp特征
-      - **Spatial Geometric Transform (SGT)**：显式建模仿射/尺度变换→对齐大变形
-      - **差异计算**：warped特征与目标特征的残差→差异图
-      - **Discrepancy-Guided Flow Optimization (DGFO)**：差异加权注意力→自动聚焦对齐不良区域
-      - **残差更新(RU)**：差异引导的残差流更新
-      - **Confidence Estimation Network (CENet)**：预测逐像素置信度→平滑最终流场
+        - **Fine-Scale Feature Transformation (FSFT)**：用当前流场warp特征
+        - **Spatial Geometric Transform (SGT)**：显式建模仿射/尺度变换→对齐大变形
+        - **差异计算**：warped特征与目标特征的残差→差异图
+        - **Discrepancy-Guided Flow Optimization (DGFO)**：差异加权注意力→自动聚焦对齐不良区域
+        - **残差更新(RU)**：差异引导的残差流更新
+        - **Confidence Estimation Network (CENet)**：预测逐像素置信度→平滑最终流场
     - 设计动机：单次匹配无法处理复杂的非线性和仿射变形→递归精化逐步纠正。差异引导确保注意力集中在对齐最差的区域→效率高
 
 4. **模态无关设计**:

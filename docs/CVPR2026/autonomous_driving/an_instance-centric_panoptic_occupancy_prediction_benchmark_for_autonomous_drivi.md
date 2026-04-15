@@ -53,10 +53,10 @@ tags:
 
     - 功能：从3D mesh直接重建每帧的全景场景mesh（非LiDAR点聚合）
     - 核心思路：
-      - **静态背景**：筛选与占据区域相交的背景mesh $\mathcal{S}_{bg}$
-      - **刚性前景**：用查找表(LUT)从ADMesh匹配模型 $\mathcal{S}_{fg}^r$
-      - **非刚性前景(行人)**：骨骼运动分析器——预处理步行动画为D个离散相位模板mesh，运行时通过测地线匹配当前骨骼状态到最近相位 $d_k = \arg\min_d \mathcal{G}(\delta_k, \delta_d)$
-      - 合并：$\mathcal{M}^{pano} = \mathcal{S}_{bg} \cup \mathcal{S}_{fg}^r \cup \mathcal{S}_{fg}^n$
+        - **静态背景**：筛选与占据区域相交的背景mesh $\mathcal{S}_{bg}$
+        - **刚性前景**：用查找表(LUT)从ADMesh匹配模型 $\mathcal{S}_{fg}^r$
+        - **非刚性前景(行人)**：骨骼运动分析器——预处理步行动画为D个离散相位模板mesh，运行时通过测地线匹配当前骨骼状态到最近相位 $d_k = \arg\min_d \mathcal{G}(\delta_k, \delta_d)$
+        - 合并：$\mathcal{M}^{pano} = \mathcal{S}_{bg} \cup \mathcal{S}_{fg}^r \cup \mathcal{S}_{fg}^n$
     - 设计动机：mesh保留完整几何信息，避免LiDAR稀疏采样和遮挡导致的不完整
 
 3. **拓扑感知Mesh置换策略**:

@@ -55,9 +55,9 @@ NExtLong 分为两个阶段：(1) **负文档扩展 (Negative Document Extension
 
     - 功能：从预训练语料中为每个 meta-chunk 检索语义相似但内容不同的 chunk 作为干扰
     - 核心思路：
-      - 使用 FAISS 建立预训练语料的 chunk 级索引（同样按粒度 s 分块）
-      - 为每个 meta-chunk 检索 top-k 最相似的 chunk 作为硬负例
-      - 将硬负例拼接在对应 meta-chunk 之后形成 extended chunk：l_i = [m_i, n_i1, n_i2, ..., n_ik]
+        - 使用 FAISS 建立预训练语料的 chunk 级索引（同样按粒度 s 分块）
+        - 为每个 meta-chunk 检索 top-k 最相似的 chunk 作为硬负例
+        - 将硬负例拼接在对应 meta-chunk 之后形成 extended chunk：l_i = [m_i, n_i1, n_i2, ..., n_ik]
     - 设计动机：预训练语料经过了充分去重，所以检索到的 chunk 与 meta-chunk 语义相似但内容不重复——这恰好是"硬"负例的定义
     - meta-chunk 放在硬负例之前（消融实验验证更优）
 

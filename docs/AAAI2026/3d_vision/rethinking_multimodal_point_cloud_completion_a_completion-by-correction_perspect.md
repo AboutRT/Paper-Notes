@@ -64,16 +64,16 @@ PGNet（PriorGroundNet）包含三个阶段：
 **核心思路**：先验 $P_g$ 和观测 $P_o$ 在尺度、姿态和点分布上存在差异，因此需要在特征空间进行对齐。
 
 - **部分点云编码器**：采用层次化局部特征聚合（FPS + DGCNN），提取 $N_e = 128$ 个代表点及初始特征。加入可学习相对位置编码 $\Phi$ 缓解姿态差异。然后通过 **Salient Transformer**（双分支结构）融合全局与局部上下文：
-  - 全局分支：MHSA 产生长程上下文 $A_o$
-  - 局部分支：kNN + 共享 MLP + max pooling 产生局部模式 $X_o$
-  - 通过可学习显著性门 $G_o = \sigma(\text{MLP}([A_o, X_o]))$ 自适应融合
+    - 全局分支：MHSA 产生长程上下文 $A_o$
+    - 局部分支：kNN + 共享 MLP + max pooling 产生局部模式 $X_o$
+    - 通过可学习显著性门 $G_o = \sigma(\text{MLP}([A_o, X_o]))$ 自适应融合
 
 $$F_o = (1 - G_o) \odot A_o + G_o \odot X_o$$
 
 - **生成先验编码器**：同样的层次编码，但使用 **Grounding Transformer** 在特征空间纠正先验：
-  - 自注意力分支捕获先验内部结构
-  - 接地分支（cross-attention）以 $F_g''$ 为 query，$F_o$ 为 key/value，得到观测对齐特征
-  - 同样通过显著性门融合
+    - 自注意力分支捕获先验内部结构
+    - 接地分支（cross-attention）以 $F_g''$ 为 query，$F_o$ 为 key/value，得到观测对齐特征
+    - 同样通过显著性门融合
 
 **设计动机**：Salient Transformer 增强 $F_o$ 的可靠性（稀疏区域看全局、精细区域看局部），Grounding Transformer 将可靠观测信号注入生成先验。
 

@@ -50,10 +50,10 @@ VITA-1.5 的模型架构包含：
 **输出端**：
 - 文本输出：LLM（Qwen2-7B）直接输出
 - 语音输出：端到端语音生成模块
-  - TiCodec 编解码器：单码本（大小 1024），40Hz 将语音编码为离散 token，解码回 24kHz 波形
-  - NAR（非自回归）语音解码器：4 层 LLaMA 解码器，处理文本 token 全局语义
-  - AR（自回归）语音解码器：4 层 LLaMA 解码器，逐步生成高质量语音 token
-  - 两个解码器各约 120M 参数（隐藏维度 896）
+    - TiCodec 编解码器：单码本（大小 1024），40Hz 将语音编码为离散 token，解码回 24kHz 波形
+    - NAR（非自回归）语音解码器：4 层 LLaMA 解码器，处理文本 token 全局语义
+    - AR（自回归）语音解码器：4 层 LLaMA 解码器，逐步生成高质量语音 token
+    - 两个解码器各约 120M 参数（隐藏维度 896）
 
 ### 关键设计
 
@@ -85,8 +85,8 @@ VITA-1.5 的模型架构包含：
 **Stage 2：音频输入调优**
 
 - Stage 2.1 音频对齐：
-  - (a) CTC 损失训练语音编码器（ASR 任务）
-  - (b) 训练语音适配器+LLM，11000 小时语音-转写对，使 LLM 理解音频输入
+    - (a) CTC 损失训练语音编码器（ASR 任务）
+    - (b) 训练语音适配器+LLM，11000 小时语音-转写对，使 LLM 理解音频输入
 - Stage 2.2 音频 SFT：4% caption + 20% QA 数据，约半数文本问题替换为 TTS 生成的语音版本，全模块可训练
 
 **Stage 3：音频输出调优**
@@ -97,10 +97,10 @@ VITA-1.5 的模型架构包含：
 ### 训练数据
 
 - 多模态指令调优：共 22133.16K 条 QA（中英双语），涵盖：
-  - 通用图像描述/QA：ShareGPT4V、LLaVA系列、LVIS-Instruct 等
-  - OCR & 图表：Anyword-3M、UReader、SynDOG 等
-  - 视频：ShareGemini + 合成数据
-  - 纯文本 QA：合成数据
+    - 通用图像描述/QA：ShareGPT4V、LLaVA系列、LVIS-Instruct 等
+    - OCR & 图表：Anyword-3M、UReader、SynDOG 等
+    - 视频：ShareGemini + 合成数据
+    - 纯文本 QA：合成数据
 - ASR 数据：110,000 小时内部语音-转写配对（中英）
 - 语音生成数据：3000 小时 TTS 生成的文本-语音对
 

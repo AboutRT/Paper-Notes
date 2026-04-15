@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 LLM/NLP方向 14篇论文解读
+  CVPR2025 LLM/NLP方向 12篇论文解读
 description: >-
-  14篇CVPR2025 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  12篇CVPR2025 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM/NLP
 
-**📷 CVPR2025** · 共 **14** 篇
+**📷 CVPR2025** · **12** 篇论文解读
 
 **[Breaking The Low-Rank Dilemma Of Linear Attention](breaking_the_low-rank_dilemma_of_linear_attention.md)**
 
@@ -22,10 +22,6 @@ description: >-
 
 :   提出 Dora-VAE，通过 Sharp Edge Sampling (SES) 关注几何锐边区域、Dual Cross-Attention 分别处理均匀和显著采样点，以仅 1,280 个 latent codes（8× 小于 XCube-VAE 的 10,000+）实现更优的 3D 形状重建质量，同时建立了新的 Dora-Bench 评测基准。
 
-**[Empowering Llms To Understand And Generate Complex Vector Graphics](empowering_llms_to_understand_and_generate_complex_vector_graphics.md)**
-
-:   通过引入55个SVG语义token、构建580k条指令微调数据集SVGX-SFT，使任意LLM能准确理解和生成复杂矢量图形，在文本对齐度和美观度上超越GPT-4o和Claude，推理速度比优化方法快50-150倍。
-
 **[Imagine And Seek Improving Composed Image Retrieval With An Imagined Proxy](imagine_and_seek_improving_composed_image_retrieval_with_an_imagined_proxy.md)**
 
 :   提出IP-CIR方法，通过大语言模型生成"想象中的目标图像描述"作为代理，将组合图像检索(CIR)转化为标准图像检索问题，在CIRR和FashionIQ等基准上达到零样本SOTA。
@@ -37,10 +33,6 @@ description: >-
 **[Lost In Translation Found In Context Sign Language Translation With Contextual C](lost_in_translation_found_in_context_sign_language_translation_with_contextual_c.md)**
 
 :   通过引入背景视频描述、历史翻译和伪词汇表三种上下文线索，结合Llama3-8B的LoRA微调，实现了连续手语到文本的精确翻译，在BOBSL数据集上相比SOTA提升40%以上。
-
-**[Robust Message Embedding Via Attention Flow-Based Steganography](robust_message_embedding_via_attention_flow-based_steganography.md)**
-
-:   首次将Transformer注意力机制与归一化流结合，通过可逆QR码转换、可逆令牌融合和注意力仿射耦合块，实现高质量高容量的隐写，在打印-拍摄等极端物理扭曲下仍能准确还原消息。
 
 **[Scamo Exploring The Scaling Law In Autoregressive Motion Generation Model](scamo_exploring_the_scaling_law_in_autoregressive_motion_generation_model.md)**
 

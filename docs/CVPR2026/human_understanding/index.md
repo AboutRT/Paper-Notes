@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**📷 CVPR2026** · 共 **47** 篇
+**📷 CVPR2026** · **47** 篇论文解读
 
 **[All In One Unifying Deepfake Detection Tampering Localization And Source Tracing](all_in_one_unifying_deepfake_detection_tampering_localization_and_source_tracing.md)**
 

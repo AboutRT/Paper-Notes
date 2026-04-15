@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**🤖 AAAI2026** · 共 **27** 篇
+**🤖 AAAI2026** · **27** 篇论文解读
 
 **[As Eastern Powers I Will Veto An Investigation Of Nation-Level Bias Of Large Lan](as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)**
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🎞️ ECCV2024** · 共 **4** 篇
+**🎞️ ECCV2024** · **4** 篇论文解读
 
 **[Detailsemnet Elevating Signature Verification Through Detail-Semantic Integratio](detailsemnet_elevating_signature_verification_through_detail-semantic_integratio.md)**
 

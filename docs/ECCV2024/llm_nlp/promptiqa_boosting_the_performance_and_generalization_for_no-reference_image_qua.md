@@ -53,26 +53,26 @@ ISP Prompt（$n$ 对图像-分数对）→ Visual Encoder + Score Expansion → 
 
     - 功能：用 $n$ 个（默认 10 个）图像-分数对组成 prompt，直观表达评估需求
     - 核心思路：$\mathbf{P} = [\mathcal{ISP}_1, \mathcal{ISP}_2, \ldots, \mathcal{ISP}_n]$，每个 $\mathcal{ISP}_i = (I_i, S_i)$。ISP 采样策略分为：
-      - 间隔采样：按分数分布均匀采样，更好反映数据集分布
-      - 随机采样：随机选取，更贴近实际应用中的 few-shot 场景
+        - 间隔采样：按分数分布均匀采样，更好反映数据集分布
+        - 随机采样：随机选取，更贴近实际应用中的 few-shot 场景
     - 设计动机：相比文本 prompt 可能存在偏差，ISP 直接展示"什么样的图像应得什么分数"，更直观且无歧义。
 
 2. **Prompt Encoder + Fusion Module**:
 
     - 功能：先理解每个 ISP 中图像与分数的关系，再整合所有 ISP 形成评估需求特征，最后与待评图像融合
     - 核心思路：
-      - 每个 ISP 特征：$\mathcal{F}_{\mathcal{ISP}_i} = \text{CAT}(\mathcal{V}(I_i), \mathcal{E}(S_i)) \in \mathbb{R}^{2 \times N}$
-      - Prompt Encoder（3 ViT blocks）：探索图像特征与分数特征的深层注意力关系，得到 $\mathcal{F}_{P_i} \in \mathbb{R}^{1 \times M}$
-      - ISPP Fusion Module（3 ViT blocks）：$n$ 个 prompt 特征交互，形成评估需求特征 $\mathcal{F}_{AC} \in \mathbb{R}^{n \times M}$
-      - Image-Prompt Fusion Module（8 ViT blocks）：待评图像特征与评估需求特征融合，得到 $\mathcal{F}_{IPF} \in \mathbb{R}^{(n+1) \times M}$
+        - 每个 ISP 特征：$\mathcal{F}_{\mathcal{ISP}_i} = \text{CAT}(\mathcal{V}(I_i), \mathcal{E}(S_i)) \in \mathbb{R}^{2 \times N}$
+        - Prompt Encoder（3 ViT blocks）：探索图像特征与分数特征的深层注意力关系，得到 $\mathcal{F}_{P_i} \in \mathbb{R}^{1 \times M}$
+        - ISPP Fusion Module（3 ViT blocks）：$n$ 个 prompt 特征交互，形成评估需求特征 $\mathcal{F}_{AC} \in \mathbb{R}^{n \times M}$
+        - Image-Prompt Fusion Module（8 ViT blocks）：待评图像特征与评估需求特征融合，得到 $\mathcal{F}_{IPF} \in \mathbb{R}^{(n+1) \times M}$
     - 设计动机：分层融合确保模型先理解"标准"再做评估，而非简单拼接。
 
 3. **数据增强策略（Random Scaling + Random Flipping）**:
 
     - 功能：打破 GT 标签对 prompt 的"捷径依赖"，强制模型从 ISPP 中学习评估需求
     - 核心思路：
-      - Random Scaling（概率 0.5）：$f_{RS}(\mathbf{S}) = \frac{1}{\max(\mathbf{S})} \cdot \mathbf{S}$，同时缩放 ISPP 和 GT 的分数
-      - Random Flipping（概率 0.1）：$f_{RF}(\mathbf{S}) = \alpha - \mathbf{S}$，将 MOS 转变为 DMOS 语义（$\alpha=1$）
+        - Random Scaling（概率 0.5）：$f_{RS}(\mathbf{S}) = \frac{1}{\max(\mathbf{S})} \cdot \mathbf{S}$，同时缩放 ISPP 和 GT 的分数
+        - Random Flipping（概率 0.1）：$f_{RF}(\mathbf{S}) = \alpha - \mathbf{S}$，将 MOS 转变为 DMOS 语义（$\alpha=1$）
     - 设计动机：如果 GT 不随 ISPP 变化，模型可能忽略 prompt 直接记忆输入图像→分数的映射（"捷径"）。数据增强使同一张图在不同 prompt 下应产生不同分数，强迫模型"看 prompt 再答题"。
 
 ### 损失函数 / 训练策略

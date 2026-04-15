@@ -56,8 +56,8 @@ $$L_{\text{corr}} = 1 - \frac{1}{5}\sum_{i=1}^{5} g\left(|\mathbf{R}_i^{\mathcal
 ### 损失函数 / 训练策略
 
 - 预训练损失: $L_{\text{pretrain}} = L_{\text{hyper}} + L_{\text{recon}}$
-  - $L_{\text{hyper}} = \lambda_c L_{\text{corr}} + \lambda_{e1} L_{\text{etl}}(\mathbf{x}^{\text{cls}}, \mathbf{x}^{\mathrm{p}}) + \lambda_{e2} L_{\text{etl}}(\mathbf{x}^{\text{cls}}, \mathbf{x}^{\mathrm{msk}})$（$\lambda_c=1, \lambda_{e1}=0.5, \lambda_{e2}=0.1$）
-  - $L_{\text{recon}} = \lambda_{\text{ita}} L_{\text{intra}} + \lambda_{\text{ite}} L_{\text{inter}}$（$\lambda_{\text{ita}}=1, \lambda_{\text{ite}}=0.5$）
+    - $L_{\text{hyper}} = \lambda_c L_{\text{corr}} + \lambda_{e1} L_{\text{etl}}(\mathbf{x}^{\text{cls}}, \mathbf{x}^{\mathrm{p}}) + \lambda_{e2} L_{\text{etl}}(\mathbf{x}^{\text{cls}}, \mathbf{x}^{\mathrm{msk}})$（$\lambda_c=1, \lambda_{e1}=0.5, \lambda_{e2}=0.1$）
+    - $L_{\text{recon}} = \lambda_{\text{ita}} L_{\text{intra}} + \lambda_{\text{ite}} L_{\text{inter}}$（$\lambda_{\text{ita}}=1, \lambda_{\text{ite}}=0.5$）
 - 预训练100 epochs，batch size 64, masking ratio 0.75, AdamW (lr=5.12e-4), 8×4090 GPU
 - 微调50K步(仿真)/4K步(真实), LAMB优化器, lr=2e-3
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✏️ 知识编辑
 
-**💬 ACL2025** · 共 **16** 篇
+**💬 ACL2025** · **16** 篇论文解读
 
 **[A General Knowledge Injection Framework For Icd Coding](a_general_knowledge_injection_framework_for_icd_coding.md)**
 

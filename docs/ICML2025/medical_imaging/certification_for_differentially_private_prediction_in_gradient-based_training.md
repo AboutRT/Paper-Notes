@@ -61,9 +61,9 @@ AGT 算法（Algorithm 1）在标准 SGD 训练过程中同时维护参数区间
 
 - **初始化**：$[\theta_L, \theta_U] \leftarrow [\theta', \theta']$（初始化参数的点区间）
 - **每个 batch**：
-  - 计算标准梯度更新 $\Delta\theta$
-  - 计算所有可能下降方向集合 $\Delta\Theta$ 的上下界 $[\Delta\theta_L, \Delta\theta_U]$
-  - 用区间算术更新参数界：$\theta_L \leftarrow \theta_L - \alpha \Delta\theta_U$，$\theta_U \leftarrow \theta_U - \alpha \Delta\theta_L$
+    - 计算标准梯度更新 $\Delta\theta$
+    - 计算所有可能下降方向集合 $\Delta\Theta$ 的上下界 $[\Delta\theta_L, \Delta\theta_U]$
+    - 用区间算术更新参数界：$\theta_L \leftarrow \theta_L - \alpha \Delta\theta_U$，$\theta_U \leftarrow \theta_U - \alpha \Delta\theta_L$
 
 **定理 4.6** 给出下降方向界的计算方法，核心使用 SEMax/SEMin 操作（取元素级 top/bottom-$a$ 元素之和）并引入梯度裁剪 $\text{Clip}_\gamma$ 来约束单样本梯度贡献：
 

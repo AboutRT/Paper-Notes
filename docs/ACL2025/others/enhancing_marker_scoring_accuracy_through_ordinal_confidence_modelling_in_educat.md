@@ -73,10 +73,10 @@ tags:
 
     - 在标准 CCE 基础上引入基于序数距离的核函数惩罚
     - 四种核函数：
-      - **线性核**：$K_{linear}(x,N) = \max(0, 1 - |x|/N)$
-      - **对数核**：$K_{log}(x,N;\alpha) = \max(0, 1 - \alpha\log(1+|x|)/\log(N))$
-      - **指数核**：基于 sigmoid 形式，小误差几乎不惩罚，大误差指数级惩罚
-      - **高斯核**：$K_{gaussian}(x;\alpha) = \exp(-(x/\alpha)^2)$，钟形惩罚
+        - **线性核**：$K_{linear}(x,N) = \max(0, 1 - |x|/N)$
+        - **对数核**：$K_{log}(x,N;\alpha) = \max(0, 1 - \alpha\log(1+|x|)/\log(N))$
+        - **指数核**：基于 sigmoid 形式，小误差几乎不惩罚，大误差指数级惩罚
+        - **高斯核**：$K_{gaussian}(x;\alpha) = \exp(-(x/\alpha)^2)$，钟形惩罚
     - 核心公式：$\mathcal{L}(\mathbf{y}, \hat{\mathbf{y}}) = -\sum_{i=1}^{N} w_i \log \hat{y}_{ic_i}$
 
 ### 损失函数 / 训练策略

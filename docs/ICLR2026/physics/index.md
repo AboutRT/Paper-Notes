@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚛️ 物理学
 
-**🔬 ICLR2026** · 共 **2** 篇
+**🔬 ICLR2026** · **2** 篇论文解读
 
 **[Feedback-Driven Recurrent Quantum Neural Network Universality](feedback-driven_recurrent_quantum_neural_network_universality.md)**
 

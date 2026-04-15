@@ -58,9 +58,9 @@ tags:
 
     - 功能：在不共享数据的情况下近似集中式 Isolation Network 的训练
     - 核心思路：采用类联邦学习的多轮通信协议
-      - 初始化：Source Node 用预训练模型 $M_{pre}$ 的特征提取器初始化 + 随机二分类头
-      - 每轮：两端各自做 $E$ 步本地更新（SN 在 $\mathcal{D}_s$ 上训练 $m=0$，TN 在 $\mathbf{x}_t$ 上训练 $m=1$）
-      - 聚合：$\theta^{(r+1)} = \alpha \cdot \theta_S^{(r,E)} + \beta \cdot \theta_T^{(r,E)}$，其中 $\beta = 1 - \alpha$
+        - 初始化：Source Node 用预训练模型 $M_{pre}$ 的特征提取器初始化 + 随机二分类头
+        - 每轮：两端各自做 $E$ 步本地更新（SN 在 $\mathcal{D}_s$ 上训练 $m=0$，TN 在 $\mathbf{x}_t$ 上训练 $m=1$）
+        - 聚合：$\theta^{(r+1)} = \alpha \cdot \theta_S^{(r,E)} + \beta \cdot \theta_T^{(r,E)}$，其中 $\beta = 1 - \alpha$
     - 理论保证（Proposition 3.1）：当 $E=1$ 且 $\alpha = |B_s|/(|B_s|+N)$ 时，去中心化更新**精确等价于**集中式更新
     - OOD 分数 = 收敛所需通信轮数 $R$
 

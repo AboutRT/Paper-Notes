@@ -60,8 +60,8 @@ tags:
 
     - 功能：用 log-likelihood 或 likelihood ratio 取代 GRPO 的裁剪评分函数
     - 核心思路：
-      - Log-likelihood: $s_\theta(o,q) = \frac{1}{|o|} \sum_t \log \pi_\theta(o_t|q, o_{<t})$
-      - Likelihood ratio: $s_\theta(o,q) = \frac{1}{|o|} \sum_t \frac{\pi_\theta(o_t|q, o_{<t})}{\pi_{\text{old}}(o_t|q, o_{<t})}$
+        - Log-likelihood: $s_\theta(o,q) = \frac{1}{|o|} \sum_t \log \pi_\theta(o_t|q, o_{<t})$
+        - Likelihood ratio: $s_\theta(o,q) = \frac{1}{|o|} \sum_t \frac{\pi_\theta(o_t|q, o_{<t})}{\pi_{\text{old}}(o_t|q, o_{<t})}$
     - 设计动机：GRPO 的裁剪 $\min(x, 1+\epsilon)$ 在正样本方向限制了更新幅度，但同时也是导致熵崩溃的原因。DAPO 尝试用不同的 $\epsilon$ 缓解，但又导致熵过度增长。无裁剪函数从根本上避免了这个问题
 
 3. **平方铰链约束优化（替代 KL 正则化）**

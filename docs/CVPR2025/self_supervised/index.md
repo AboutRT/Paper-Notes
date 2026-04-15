@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**📷 CVPR2025** · 共 **8** 篇
+**📷 CVPR2025** · **8** 篇论文解读
 
 **[Autossvh Exploring Automated Frame Sampling For Efficient Self-Supervised Video ](autossvh_exploring_automated_frame_sampling_for_efficient_self-supervised_video_.md)**
 

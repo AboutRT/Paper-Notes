@@ -46,10 +46,10 @@ MolParser 将 OCSR 视为图像描述（image captioning）任务，输入分子
 格式为 `SMILES<sep>EXTENSION`，其中：
 - **SMILES 部分**：标准 RDKit 兼容 SMILES
 - **EXTENSION 部分**：使用 XML-like 特殊标记描述特殊功能基团
-  - `<a>...</a>`：Markush R-group 和缩写基团
-  - `<r>...</r>`：不确定位置的环连接
-  - `<c>...</c>`：抽象环
-  - `<dum>`：连接点
+    - `<a>...</a>`：Markush R-group 和缩写基团
+    - `<r>...</r>`：不确定位置的环连接
+    - `<c>...</c>`：抽象环
+    - `<dum>`：连接点
 - 功能基团描述格式：`[INDEX]:[GROUP_NAME]`
 
 E-SMILES 兼容 RDKit 且对 LLM 友好，便于后续分析处理。

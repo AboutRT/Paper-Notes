@@ -76,8 +76,8 @@ CObL 由三个核心部分组成：
 
     - 功能：用额外约束引导去噪过程，确保输出层的物理一致性
     - 核心思路：两个互补的引导损失
-      - **合成损失（Compositional Loss）** $\mathcal{L}_c$：将生成的层按遮挡顺序用 $\alpha$ 合成，要求复合结果与输入图像一致 $\|I - \bar{x}^N\|^2$。掩码通过冻结的前景分割模型自动估计
-      - **先验得分匹配损失（PSM Loss）** $\mathcal{L}_{psm}$：鼓励每个层的 latent 保持在原始 SD 的自然分布内 $\|\hat{\epsilon}_t - \epsilon_\phi(\hat{z}_{0;t}, t, c_\psi(I))\|^2$，防止生成不自然的结果
+        - **合成损失（Compositional Loss）** $\mathcal{L}_c$：将生成的层按遮挡顺序用 $\alpha$ 合成，要求复合结果与输入图像一致 $\|I - \bar{x}^N\|^2$。掩码通过冻结的前景分割模型自动估计
+        - **先验得分匹配损失（PSM Loss）** $\mathcal{L}_{psm}$：鼓励每个层的 latent 保持在原始 SD 的自然分布内 $\|\hat{\epsilon}_t - \epsilon_\phi(\hat{z}_{0;t}, t, c_\psi(I))\|^2$，防止生成不自然的结果
     - 额外的非微分操作：周期性的层排列优化、空层清理和排序
 
 ### 损失函数 / 训练策略

@@ -36,8 +36,8 @@ tags:
 
 - 几乎所有已有MNL上下文赌博机工作都**假设效用函数关于特征是线性的**，无法捕捉复杂非线性用户行为
 - Zhang & Luo (2025) 首次考虑一般效用函数类，但面临**计算可行性与统计效率的根本矛盾**：
-  - $\varepsilon$-greedy方法计算可行，但遗憾仅达$\widetilde{\mathcal{O}}(T^{2/3})$（随机设定）或$\widetilde{\mathcal{O}}(T^{5/6})$（对抗设定）
-  - log-barrier和Feel-Good TS方法可达$\widetilde{\mathcal{O}}(\sqrt{T})$，但**计算不可行**（非凸优化）
+    - $\varepsilon$-greedy方法计算可行，但遗憾仅达$\widetilde{\mathcal{O}}(T^{2/3})$（随机设定）或$\widetilde{\mathcal{O}}(T^{5/6})$（对抗设定）
+    - log-barrier和Feel-Good TS方法可达$\widetilde{\mathcal{O}}(\sqrt{T})$，但**计算不可行**（非凸优化）
 - 现有神经网络赌博机依赖NTK近似，要求不切实际的过参数化
 
 ### 核心动机

@@ -1,14 +1,14 @@
 ---
 title: >-
-  [论文解读] StrucText-Eval: Evaluating Large Language Model's Reasoning Ability in Structure-Rich Text
+  [论文解读] StrucText-Eval: Evaluating LLM's Reasoning on Structure-Rich Text
 description: >-
-  [ACL 2025 (Long Paper)][结构化文本推理] 提出StrucText-Eval——一个覆盖8种结构化语言（JSON/YAML/XML/Markdown/LaTeX/Org/CSV/Tree）和29个任务的自动生成评测基准，共5,800个样本，通过可控的嵌套深度和结构宽度调节难度。实验揭示开源LLM在标准集最高仅74.9%准确率，困难集降至45.8%，而人类在困难集达92.6%，暴露了LLM在复杂结构推理上的严重不足。
+  [ACL 2025 (Long Paper)][结构化文本推理] 提出 StrucText-Eval——通过自动生成语义无关的结构化文本样本，覆盖 8 种结构化语言和 29 个任务共 5,800 个样本，以可控的嵌套深度和宽度调节难度，揭示最强开源 LLM 在困难集上仅 45.8% 而人类达 92.6%，系统性暴露了 LLM 在纯结构推理上的严重短板。
 tags:
   - ACL 2025 (Long Paper)
   - 结构化文本推理
   - benchmark自动生成
-  - 多语言结构
   - 复杂度可控评测
+  - 语义无关评测
   - LLM能力边界
 ---
 

@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Federated Active Learning Under Extreme Non-IID and Global Class Imbalance
 description: >-
-  [CVPR 2026][AI安全][联邦学习] 系统分析全局类不平衡与客户端异构性对联邦主动学习中 query model 选择的影响，发现类平衡采样能力是性能的最一致预测因子，据此提出 FairFAL——自适应选择 query model + 原型引导伪标签 + 不确定性-多样性平衡采样的类公平 FAL 框架。
+  [CVPR 2026][AI安全][联邦学习] 系统分析全局类不平衡与客户端异构性对联邦主动学习中 query model 选择的影响，归纳出3个核心 Observation，据此提出 FairFAL——自适应选择 query model + 原型引导伪标签 + 两阶段不确定性-多样性平衡采样的类公平 FAL 框架，在5个基准数据集上一致超越所有基线。
 tags:
   - CVPR 2026
   - AI安全
@@ -12,6 +12,7 @@ tags:
   - 类别不平衡
   - query selection
   - class-fair sampling
+  - 原型引导
 ---
 
 # Federated Active Learning Under Extreme Non-IID and Global Class Imbalance

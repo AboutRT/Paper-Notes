@@ -2,10 +2,15 @@
 title: >-
   [论文解读] Team Anotheroption at SemEval-2025 Task 8: Bridging the Gap Between Open-Source and Proprietary LLMs in Table QA
 description: >-
-  [ACL 2025][LLM/NLP] 提出多模型协同管道系统，通过 Text-to-SQL/Code 双路径、RAG 检索增强、自纠错机制与 LLM Orchestrator 仲裁，在 SemEval-2025 表格问答任务中以 80% 准确率排名 Top-13/38；开源模型组合（88%）超越 GPT-4o 单模型（74%），验证了编排多个开源 LLM 可弥合与闭源模型的性能差距。
+  [ACL 2025][LLM/NLP][表格问答] 提出一种混合 LLM 管道系统，通过 Text-to-SQL/Code 生成、RAG 检索、自纠错机制和 LLM Orchestrator 协调多个开源模型，在 SemEval-2025 Task 8（表格问答）中达到 80% 准确率（Top-13/38），开源模型组合（88%）超越 GPT-4o 单模型（74%）。
 tags:
   - ACL 2025
   - LLM/NLP
+  - 表格问答
+  - Text-to-SQL
+  - 多模型编排
+  - RAG
+  - 开源 LLM
 ---
 
 # Team Anotheroption at SemEval-2025 Task 8: Bridging the Gap Between Open-Source and Proprietary LLMs in Table QA

@@ -46,9 +46,9 @@ VAPT 在每个 ViT block 中通过 VAPT block 动态生成 prompt tokens $\bm{P}
 
 - **做什么**：从特征图中聚合全局信息，为每个 prompt token 生成一个全局描述
 - **核心思路**：
-  - **Channel-wise 卷积**：对特征图 $\bm{X}_{\text{img}} \in \mathbb{R}^{H \times W \times d}$ 施加共享权重的 $K \times K$ 卷积（所有 $d$ 个通道共享同一卷积核），编码局部空间关系：$\bm{X}_{\text{conv}} = F * \bm{X}_{\text{img}}$
-  - **Token-wise 投影**：$G_{j'}(\bm{X}_{\text{conv}}) = \sum_{k=1}^{H' \cdot W'} \alpha_{j',k} \bm{x}_k^{\text{conv}} \in \mathbb{R}^d$，通过可学习标量 $\alpha_{j',k}$ 对 token 加权求和，聚合全局信息
-  - 两者均为线性操作，组合后 $G_{j'}(\bm{X}_{\text{conv}}) = W_{j'} \bm{X}$，是输入的线性函数
+    - **Channel-wise 卷积**：对特征图 $\bm{X}_{\text{img}} \in \mathbb{R}^{H \times W \times d}$ 施加共享权重的 $K \times K$ 卷积（所有 $d$ 个通道共享同一卷积核），编码局部空间关系：$\bm{X}_{\text{conv}} = F * \bm{X}_{\text{img}}$
+    - **Token-wise 投影**：$G_{j'}(\bm{X}_{\text{conv}}) = \sum_{k=1}^{H' \cdot W'} \alpha_{j',k} \bm{x}_k^{\text{conv}} \in \mathbb{R}^d$，通过可学习标量 $\alpha_{j',k}$ 对 token 加权求和，聚合全局信息
+    - 两者均为线性操作，组合后 $G_{j'}(\bm{X}_{\text{conv}}) = W_{j'} \bm{X}$，是输入的线性函数
 - **设计动机**：预训练 experts 只能捕获局部 patch 信息，prompt experts 应该互补地捕获全局信息；channel-wise 卷积仅需 $K^2$ 参数（比标准卷积少 $d$ 倍）但能建模空间邻接关系
 
 #### 2. 共享特征投影器
@@ -57,8 +57,8 @@ VAPT 在每个 ViT block 中通过 VAPT block 动态生成 prompt tokens $\bm{P}
 - **核心思路**：$g(\bm{x}) = W^{(2)} \sigma(W^{(1)} \bm{x})$，其中 $W^{(1)} \in \mathbb{R}^{r \times d}$，$W^{(2)} \in \mathbb{R}^{d \times r}$，$r \ll d$（瓶颈 MLP）
 - **最终 prompt**：$\bm{P}_{j'}(\bm{X}) = W^{(2)} \sigma(W^{(1)} W_{j'} \bm{X}) \in \mathbb{R}^d$
 - **更新后的 prompt experts**：
-  - Expert 函数：$f_{N+j'}(\bm{X}) = W_m^{V\top} \bm{P}_{j'}(\bm{X})$（输入自适应）
-  - Score 函数：$s_{i,N+j'}(\bm{X}) = \frac{\bm{x}_i^\top W_m^Q W_m^{K\top} \bm{P}_{j'}(\bm{X})}{\sqrt{d_v}}$（同样自适应）
+    - Expert 函数：$f_{N+j'}(\bm{X}) = W_m^{V\top} \bm{P}_{j'}(\bm{X})$（输入自适应）
+    - Score 函数：$s_{i,N+j'}(\bm{X}) = \frac{\bm{x}_i^\top W_m^Q W_m^{K\top} \bm{P}_{j'}(\bm{X})}{\sqrt{d_v}}$（同样自适应）
 - **设计动机**：所有 ViT block 共享同一个投影器 $g$，大幅减少参数量
 
 #### 3. 参数量分析

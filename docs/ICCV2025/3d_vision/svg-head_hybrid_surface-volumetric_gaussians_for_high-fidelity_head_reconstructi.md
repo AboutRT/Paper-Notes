@@ -43,8 +43,8 @@ SVG-Head的关键洞察：通过表面高斯将全局外观解耦为可学习纹
 
 - 约束在FLAME网格面上，通过重心坐标定位
 - **Mesh-aware Gaussian UV映射**：将3D位置映射到FLAME UV空间
-  - 将ray-Gaussian交点投影到关联三角面上
-  - 重心插值获取UV坐标，简化为单一仿射变换：
+    - 将ray-Gaussian交点投影到关联三角面上
+    - 重心插值获取UV坐标，简化为单一仿射变换：
   $$\phi(I(\mathbf{r}_p, \mathcal{G}_i)) = \phi(\boldsymbol{\mu}_i) + T(\boldsymbol{\mu}_i)(I(\mathbf{r}_p, \mathcal{G}_i) - \boldsymbol{\mu}_i)$$
 
 - **一致UV坐标**：约束高斯中心在网格面上 $\boldsymbol{\mu}_i = \xi_A \mathbf{v}_A + \xi_B \mathbf{v}_B + \xi_C \mathbf{v}_C$，旋转对齐法线，确保每个像素有唯一UV

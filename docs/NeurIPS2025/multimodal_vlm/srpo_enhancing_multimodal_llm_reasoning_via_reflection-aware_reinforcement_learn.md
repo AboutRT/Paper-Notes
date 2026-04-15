@@ -67,9 +67,9 @@ SRPO 分两个阶段：
     - **总奖励** R_total = R_task + R_reflection
     - **Task Reward**: R_format (0.5 if 格式正确) + R_accuracy (0.5 if 第一次解答正确)
     - **Reflection Reward** = I_eff + I_ref + α·f_len(L)
-      - **I_eff (有效性指标)**: 反思纠正错误答案 +0.5，保持正确答案 +0.25，未能纠正 0，把正确改错 -0.25
-      - **I_ref**: 反思格式正确 +0.25
-      - **f_len**: 长度奖励，以 exp(-|L-T_target|/(T_max-T_target))^2 鼓励简洁输出
+        - **I_eff (有效性指标)**: 反思纠正错误答案 +0.5，保持正确答案 +0.25，未能纠正 0，把正确改错 -0.25
+        - **I_ref**: 反思格式正确 +0.25
+        - **f_len**: 长度奖励，以 exp(-|L-T_target|/(T_max-T_target))^2 鼓励简洁输出
 
 ### 损失函数 / 训练策略
 

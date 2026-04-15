@@ -2,15 +2,15 @@
 title: >-
   [论文解读] No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves
 description: >-
-  [ICLR2026][自监督学习][Transformer] 提出 Self-Representation Alignment (SRA)，利用扩散 Transformer 内部从"差到好"的判别过程，将早层高噪声的表征对齐到晚层低噪声的表征，无需外部表征组件即可加速生成训练并提升质量。
+  [ICLR2026][自监督学习][Transformer] 提出 Self-Representation Alignment (SRA)，发现扩散 Transformer 内部表征沿"层数增加 + 噪声降低"两个维度呈现从差到好的判别质量梯度，据此将学生网络早层高噪声表征对齐到 EMA 教师晚层低噪声表征，**完全不需要任何外部表征组件（DINOv2/CLIP/MAE）**，即可在 DiT 和 SiT 上大幅加速收敛并提升生成质量（SiT-XL/2 在 800 epoch 达到 FID 1.58，可比依赖 DINOv2 的 REPA）。
 tags:
   - ICLR2026
   - 自监督学习
   - Transformer
-  - self-representation alignment
-  - DiT
-  - SiT
-  - 图像生成
+  - 自表征对齐
+  - 自蒸馏
+  - DiT/SiT加速训练
+  - 内部表征引导
 ---
 
 # No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves

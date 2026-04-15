@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC检测
 
-**🤖 AAAI2026** · 共 **3** 篇
+**🤖 AAAI2026** · **3** 篇论文解读
 
 **[Actishade Activating Overshadowed Knowledge To Guide Multi-H](actishade_activating_overshadowed_knowledge_to_guide_multi-h.md)**
 

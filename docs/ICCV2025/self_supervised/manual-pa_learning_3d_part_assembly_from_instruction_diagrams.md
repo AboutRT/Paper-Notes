@@ -62,20 +62,20 @@ Pipeline 分三个阶段：
 
     - 功能：学习 3D 零件与说明书步骤之间的对应关系
     - 核心思路：
-      - 构建相似度矩阵 $\mathbf{S}_{ij} = \text{sim}(\mathbf{f}_i^P, \mathbf{g}_j^I)$，其中 $\mathbf{g}^I$ 是对 patch 维度 max-pool 后的步骤特征
-      - 用匈牙利算法在 $\mathbf{C} = -\mathbf{S}$ 上求解最优二部图匹配得到排列矩阵 $\mathbf{P}$
-      - 训练使用 InfoNCE 对比损失：$\mathcal{L}_{\text{order}} = -\frac{1}{B}\sum_i \log\frac{\exp(\text{sim}(\mathbf{f}^P_{\sigma(i)}, \mathbf{g}^I_i)/\tau)}{\sum_j \exp(\text{sim}(\mathbf{f}^P_{\sigma(i)}, \mathbf{g}^I_j)/\tau)}$
+        - 构建相似度矩阵 $\mathbf{S}_{ij} = \text{sim}(\mathbf{f}_i^P, \mathbf{g}_j^I)$，其中 $\mathbf{g}^I$ 是对 patch 维度 max-pool 后的步骤特征
+        - 用匈牙利算法在 $\mathbf{C} = -\mathbf{S}$ 上求解最优二部图匹配得到排列矩阵 $\mathbf{P}$
+        - 训练使用 InfoNCE 对比损失：$\mathcal{L}_{\text{order}} = -\frac{1}{B}\sum_i \log\frac{\exp(\text{sim}(\mathbf{f}^P_{\sigma(i)}, \mathbf{g}^I_i)/\tau)}{\sum_j \exp(\text{sim}(\mathbf{f}^P_{\sigma(i)}, \mathbf{g}^I_j)/\tau)}$
     - 设计动机：对比学习天然适合跨模态对齐，匈牙利匹配保证一一对应的排列约束
 
 3. **排列感知位置编码引导的位姿预测**：
 
     - 功能：将学到的组装顺序作为软引导注入位姿预测过程
     - 核心思路：
-      - 用正弦位置编码 $\Phi \in \mathbb{R}^{N \times D}$ 表示步骤顺序
-      - 步骤图直接使用 $\mathbf{p}^I = \Phi$；零件的位置编码通过排列矩阵重排 $\mathbf{p}^P = \mathbf{P}^T \Phi$
-      - 训练时用真值顺序，推理时用预测的 $\hat{\mathbf{P}}$
-      - 位置编码加到特征上后送入 L 层 Transformer 解码器：自注意力（零件间交互）→ 交叉注意力（步骤图到零件的信息注入）
-      - 位姿预测头输出每个零件的四元数旋转 $\hat{q}_i$ 和三维平移 $\hat{t}_i$。使用 RoPE 替代标准正弦编码获得更好性能
+        - 用正弦位置编码 $\Phi \in \mathbb{R}^{N \times D}$ 表示步骤顺序
+        - 步骤图直接使用 $\mathbf{p}^I = \Phi$；零件的位置编码通过排列矩阵重排 $\mathbf{p}^P = \mathbf{P}^T \Phi$
+        - 训练时用真值顺序，推理时用预测的 $\hat{\mathbf{P}}$
+        - 位置编码加到特征上后送入 L 层 Transformer 解码器：自注意力（零件间交互）→ 交叉注意力（步骤图到零件的信息注入）
+        - 位姿预测头输出每个零件的四元数旋转 $\hat{q}_i$ 和三维平移 $\hat{t}_i$。使用 RoPE 替代标准正弦编码获得更好性能
     - 设计动机：位置编码是"软引导"——通过注意力分数自然使每个零件更多关注其对应的步骤图，但不硬性约束，避免误差累积
 
 4. **几何等价组处理**：
@@ -88,10 +88,10 @@ Pipeline 分三个阶段：
 
 - **排列学习**：InfoNCE 对比损失 $\mathcal{L}_{\text{order}}$
 - **位姿估计**：四项加权和 $\mathcal{L}_{\text{pose}} = \lambda_T \mathcal{L}_T + \lambda_C \mathcal{L}_C + \lambda_E \mathcal{L}_E + \lambda_S \mathcal{L}_S$
-  - $\mathcal{L}_T$：平移的 $\ell_2$ 距离
-  - $\mathcal{L}_C$：旋转的 Chamfer 距离（处理内在对称性）
-  - $\mathcal{L}_E$：旋转的 $\ell_2$ 距离（正则化项，处理非完美对称零件）
-  - $\mathcal{L}_S$：整体组装形状的 Chamfer 距离
+    - $\mathcal{L}_T$：平移的 $\ell_2$ 距离
+    - $\mathcal{L}_C$：旋转的 Chamfer 距离（处理内在对称性）
+    - $\mathcal{L}_E$：旋转的 $\ell_2$ 距离（正则化项，处理非完美对称零件）
+    - $\mathcal{L}_S$：整体组装形状的 Chamfer 距离
 - 两阶段训练：先训练排列学习至收敛，再训练位姿估计（使用排列模型预测的顺序）
 
 ## 实验关键数据

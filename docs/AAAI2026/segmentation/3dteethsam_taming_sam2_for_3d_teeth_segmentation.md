@@ -47,9 +47,9 @@ tags:
 ### 损失函数 / 训练策略
 - **训练策略**：冻结SAM2预训练权重，仅训练三个适配器和DGAP。使用匈牙利算法进行预测query与真值的一对一匹配。AdamW优化器，学习率2e-4，余弦退火+5 epoch warmup，训练100 epoch，batch size 4，混合精度。
 - **总损失**：$L_{\text{total}} = \lambda_{MC} L_{MC} + \lambda_{PEG} L_{PEG} + \lambda_{MR} L_{MR}$，权重分别为1.0、1.0、2.0。
-  - $L_{MC}$：17类交叉熵损失（Mask Classifier）
-  - $L_{PEG}$：BCE + Dice + 置信度损失（Prompt Embedding Generator）
-  - $L_{MR}$：多类CE + Dice + 边界损失（Mask Refiner，边界损失用Sobel滤波器计算梯度的L1距离）
+    - $L_{MC}$：17类交叉熵损失（Mask Classifier）
+    - $L_{PEG}$：BCE + Dice + 置信度损失（Prompt Embedding Generator）
+    - $L_{MR}$：多类CE + Dice + 边界损失（Mask Refiner，边界损失用Sobel滤波器计算梯度的L1距离）
 
 ## 实验关键数据
 

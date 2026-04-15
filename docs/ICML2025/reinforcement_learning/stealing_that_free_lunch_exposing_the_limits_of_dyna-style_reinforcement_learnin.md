@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning
 description: >-
-   本文揭示 Dyna 风格模型强化学习算法（MBPO、ALM）在 OpenAI Gym 表现优异但在 DeepMind Control Suite (DMC) 中**严重失效**的现象，系统分析模型误差、过估计偏差和可塑性损失等原因，发现即使使用完美模型 MBPO 也无法一致超越 SAC，表明"没有免费午餐"。
+  [ICML 2025][Dyna] 本文揭示 Dyna 风格模型强化学习算法（MBPO、ALM）在 OpenAI Gym 表现优异但在 DeepMind Control Suite (DMC) 中**严重失效**的现象，系统分析模型误差、过估计偏差和可塑性损失等原因，发现即使使用完美模型 MBPO 也无法一致超越 SAC，表明"没有免费午餐"。
 tags:
-
+  - ICML 2025
+  - Dyna
+  - Model-Based RL
+  - MBPO
+  - ALM
+  - Benchmark
+  - DeepMind Control
 ---
 
 # Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML 2025 |
-| arXiv | [2412.14312](https://arxiv.org/abs/2412.14312) |
-| 代码 | [CLeARoboticsLab/STFL](https://github.com/CLeARoboticsLab/STFL) |
-| 领域 | 强化学习 / 基于模型的 RL |
-| 关键词 | Dyna, Model-Based RL, MBPO, ALM, Benchmark, DeepMind Control |
+**会议**: ICML 2025  
+**arXiv**: [2412.14312](https://arxiv.org/abs/2412.14312)  
+**代码**: [CLeARoboticsLab/STFL](https://github.com/CLeARoboticsLab/STFL)  
+**领域**: 强化学习 / 基于模型的 RL  
+**关键词**: Dyna, Model-Based RL, MBPO, ALM, Benchmark, DeepMind Control  
 
 ## 一句话总结
 
@@ -76,9 +80,9 @@ tags:
 **实验 5：可塑性损失**
 - 模型参数周期重置：无显著改善
 - Actor/Critic/温度参数周期重置：
-  - 四足任务：MBPO 大幅改善，甚至超越 SAC
-  - 其他任务：仍无改善
-  - 但 SAC + 重置同样适用，且通常更优
+    - 四足任务：MBPO 大幅改善，甚至超越 SAC
+    - 其他任务：仍无改善
+    - 但 SAC + 重置同样适用，且通常更优
 
 ### 损失函数
 

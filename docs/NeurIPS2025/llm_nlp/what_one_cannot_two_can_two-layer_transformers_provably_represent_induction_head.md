@@ -56,10 +56,10 @@ tags:
 
     - 功能：从 $\mathbf{v}_n$ 中分离出 $e_{x_{n-k}}^S$（最远位置的 token），结合跳跃连接中的当前 token $e_{x_n}^S$，重构当前上下文
     - 核心思路：
-      - 将完整词表的 one-hot 编码嵌入 MLP 权重矩阵
-      - ReLU + 适当 bias 过滤，只保留与 $x_{n-k}$ 对齐的分量
-      - LayerNorm 归一化，得到干净的 $e_{x_{n-k}}^S$
-      - 线性组合 $\mathbf{u}_n = \frac{e_{x_n}^S}{\sum 3^i} + \frac{3 e_{x_{n-k}}^S \mathbf{v}_n}{\sum 3^i} - \frac{3^k e_{x_{n-k}}^S}{\sum 3^i}$
+        - 将完整词表的 one-hot 编码嵌入 MLP 权重矩阵
+        - ReLU + 适当 bias 过滤，只保留与 $x_{n-k}$ 对齐的分量
+        - LayerNorm 归一化，得到干净的 $e_{x_{n-k}}^S$
+        - 线性组合 $\mathbf{u}_n = \frac{e_{x_n}^S}{\sum 3^i} + \frac{3 e_{x_{n-k}}^S \mathbf{v}_n}{\sum 3^i} - \frac{3^k e_{x_{n-k}}^S}{\sum 3^i}$
     - 设计动机：**这是论文最核心的贡献**——三层构造用第二个注意力头获取 $\mathbf{u}_n$，本文证明 MLP 的非线性组件足以替代，不需要额外的注意力操作
 
 3. **第二层注意力：$k$ 阶 Induction Head**
@@ -70,8 +70,8 @@ tags:
 
 ### 梯度下降分析（简化一阶情况）
 - 对一阶马尔可夫链，分两阶段训练：
-  - **阶段1**：训练位置编码标量 $\mathbf{p}$，学习正确的注意力模式
-  - **阶段2**：冻结位置编码，训练注意力缩放标量 $a_2$，使 induction head 收敛
+    - **阶段1**：训练位置编码标量 $\mathbf{p}$，学习正确的注意力模式
+    - **阶段2**：冻结位置编码，训练注意力缩放标量 $a_2$，使 induction head 收敛
 - 证明交叉熵损失在 $T_1 + T_2$ 步后收敛到最优值附近
 
 ## 实验关键数据

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC检测
 
-**📷 CVPR2026** · 共 **1** 篇
+**📷 CVPR2026** · **1** 篇论文解读
 
 **[Fine-Grained Image Aesthetic Assessment Learning Discriminative Scores From Rela](fine-grained_image_aesthetic_assessment_learning_discriminative_scores_from_rela.md)**
 

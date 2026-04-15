@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Reasoning Gym: Reasoning Environments for Reinforcement Learning with Verifiable Rewards
 description: >-
-  [NeurIPS 2025][RLVR] 发布Reasoning Gym库，包含100+过程生成的可验证推理任务环境，支持无限数据生成和动态难度调整，实验证明RLVR训练产生域内/跨域技能迁移，并提升MATH/GSM8K等外部基准表现。
+  [NeurIPS 2025][RLVR] 发布包含100+过程生成推理任务的Reasoning Gym库，覆盖代数、算术、算法、逻辑、几何、图论、游戏等领域，每个任务支持无限数据生成和参数化难度控制，实验证明RLVR训练在域内/跨域均实现显著技能迁移且能提升MATH、GSM8K等外部基准表现。
 tags:
   - NeurIPS 2025
   - RLVR
+  - 可验证奖励
   - 过程生成
-  - 推理任务
   - 课程学习
-  - 技能迁移
+  - 推理迁移
+  - 难度悬崖
 ---
 
 # Reasoning Gym: Reasoning Environments for Reinforcement Learning with Verifiable Rewards

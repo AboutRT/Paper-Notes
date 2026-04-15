@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 图像生成方向 73篇论文解读
+  AAAI2026 图像生成方向 72篇论文解读
 description: >-
-  73篇AAAI2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  72篇AAAI2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🤖 AAAI2026** · 共 **73** 篇
+**🤖 AAAI2026** · **72** 篇论文解读
 
 **[Abductivemllm Boosting Visual Abductive Reasoning Within Mll](abductivemllm_boosting_visual_abductive_reasoning_within_mll.md)**
 
@@ -209,10 +209,6 @@ description: >-
 **[Padiff Predictive And Adaptive Diffusion Policies For Ad Hoc Teamwork](padiff_predictive_and_adaptive_diffusion_policies_for_ad_hoc_teamwork.md)**
 
 :   首次将扩散模型应用于 Ad Hoc Teamwork 问题，提出 PADiff 框架，通过 Adaptive Feature Modulation Net（AFM-Net）实现对动态队友的实时适应，通过 Predictive Guidance Block（PGB）将队友意图预测信息注入去噪过程，在多模态合作场景中比现有方法平均提升 35.25%。
-
-**[Phased One-Step Adversarial Equilibrium For Video Diffusion Models](phased_one-step_adversarial_equilibrium_for_video_diffusion_models.md)**
-
-:   提出 V-PAE（Video Phased Adversarial Equilibrium），通过"稳定性预热 + 统一对抗均衡"两阶段蒸馏框架，实现大规模视频扩散模型（如 Wan2.1-I2V-14B）的单步高质量视频生成，推理加速 100 倍，在 VBench-I2V 上平均超越现有加速方法 5.8% 的综合质量分。
 
 **[Playmate2 Training-Free Multi-Character Audio-Driven Animation Via Diffusion Tra](playmate2_training-free_multi-character_audio-driven_animation_via_diffusion_tra.md)**
 

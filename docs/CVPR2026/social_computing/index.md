@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**📷 CVPR2026** · 共 **3** 篇
+**📷 CVPR2026** · **3** 篇论文解读
 
 **[As Language Models Scale Low-Order Linear Depth Dynamics Emerge](as_language_models_scale_low-order_linear_depth_dynamics_emerge.md)**
 

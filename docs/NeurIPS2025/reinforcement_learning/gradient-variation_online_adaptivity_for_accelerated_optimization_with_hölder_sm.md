@@ -30,7 +30,7 @@ tags:
 
 - 光滑性在加速优化和梯度变差 regret 最小化中至关重要
 - **Hölder 光滑**统一了光滑与非光滑：$(L_\nu, \nu)$-Hölder smooth 满足 $\|\nabla\ell(\mathbf{x}) - \nabla\ell(\mathbf{y})\| \leq L_\nu \|\mathbf{x} - \mathbf{y}\|^\nu$
-  - $\nu = 1$：标准光滑；$\nu = 0$：Lipschitz 连续
+    - $\nu = 1$：标准光滑；$\nu = 0$：Lipschitz 连续
 - 凸情形的通用方法已有解决（Kavis et al., 2019），但**强凸设置下实现光滑加速 + 非光滑近优**仍为开放问题
 - 核心思路：利用在线学习的梯度变差自适应性，通过 online-to-batch 转换获得离线优化加速
 

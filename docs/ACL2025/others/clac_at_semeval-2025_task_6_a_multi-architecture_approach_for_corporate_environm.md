@@ -65,22 +65,22 @@ tags:
 
     - **核心思路**：将任务特定的语言特征以标签形式前置（prepend）到输入文本前，帮助模型快速捕捉关键模式
     - **子任务1（承诺识别）**：检测承诺相关词（"commit"、"pledge"、"goal"等词干匹配）+ 情感极性分析（承诺通常正面表述）
-      - 例：`POSITIVE Sentiment. Contains Promise Word. We commit to...`
+        - 例：`POSITIVE Sentiment. Contains Promise Word. We commit to...`
     - **子任务2（证据检测）**：统计量化指标词（"percentage"、"dollars"）和证据支撑词（"document"）的数量 + NER检测数字和日期
-      - 例：`Proof_Count_2. Has_Numbers. Our carbon emissions decreased by 15%...`
+        - 例：`Proof_Count_2. Has_Numbers. Our carbon emissions decreased by 15%...`
     - **子任务3（清晰度评估）**：分别统计模糊用语和明确用语的出现次数
-      - 例：`Vague_Terms_2. Specific_Terms_0. We might consider...`
+        - 例：`Vague_Terms_2. Specific_Terms_0. We might consider...`
     - **子任务4（时间分类）**：提取日期+识别时间线指示词
 
 3. **联合子任务模型（Model 3）**:
 
     - **基础模型**：DeBERTa-v3-large（比ESG-BERT更强大）
     - **注意力池化**：替代标准的[CLS] token表示，动态加权所有token的表示
-      - $\alpha_i = \text{softmax}(W_{\text{attn}} h_i)$，$r = \sum_{i=1}^{n} \alpha_i h_i$
-      - 使模型能聚焦于文档中语义相关的关键token
+        - $\alpha_i = \text{softmax}(W_{\text{attn}} h_i)$，$r = \sum_{i=1}^{n} \alpha_i h_i$
+        - 使模型能聚焦于文档中语义相关的关键token
     - **双任务分类头**：子任务1（承诺）和子任务2（证据）共享encoder，各自有独立的分类通路（Linear → Dropout → LayerNorm → GELU → Linear）
     - **上下文富化**：在文本前加入页码和文档类型标记
-      - $x_{\text{enriched}} = \text{"[PAGE } p \text{] [ESG REPORT] "} + x_{\text{raw}}$
+        - $x_{\text{enriched}} = \text{"[PAGE } p \text{] [ESG REPORT] "} + x_{\text{raw}}$
     - **多目标加权**：$\mathcal{L} = 0.6 \cdot \mathcal{L}_{\text{promise}} + 0.4 \cdot \mathcal{L}_{\text{evidence}}$，承诺检测权重更高因为它更基础
     - **测试时增强（TTA）**：3次前向传播使用随机词dropout(10%)和元数据变化，集成平均后用校准阈值分类
 

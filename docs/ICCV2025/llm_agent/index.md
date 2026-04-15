@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**📹 ICCV2025** · 共 **4** 篇
+**📹 ICCV2025** · **4** 篇论文解读
 
 **[Embodied Image Captioning Self-Supervised Learning Agents For Spatially Coherent](embodied_image_captioning_self-supervised_learning_agents_for_spatially_coherent.md)**
 

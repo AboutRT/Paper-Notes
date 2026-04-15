@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🧠 NeurIPS2025** · 共 **53** 篇
+**🧠 NeurIPS2025** · **53** 篇论文解读
 
 **[Bliss Bandit Layer Importance Sampling Strategy For Efficient Training Of Graph ](bliss_bandit_layer_importance_sampling_strategy_for_efficient_training_of_graph_.md)**
 

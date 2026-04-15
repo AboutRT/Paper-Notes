@@ -86,12 +86,12 @@ DeBoP 包含四个阶段：**Planning → Collecting → MCTS → Teaching**
   $$z^* = \arg\max_{z \in \text{children}(z_p^*)} \left(\frac{Q(z)}{N(z)} + c\sqrt{\frac{2\ln N(z_p^*)}{N(z)}}\right)$$
 
 - **Expansion**：随机选择一种演化方法生成新节点（6种方法）：
-  - **Consolidation**：合并步骤，提高连贯性
-  - **Decomposition**：分解步骤，增加细节
-  - **Elaboration**：扩展推理流程
-  - **Pruning**：删除最不重要的步骤
-  - **Resampling**：重新采样生成新 demonstration
-  - **Simplification**：简化和重构推理流程
+    - **Consolidation**：合并步骤，提高连贯性
+    - **Decomposition**：分解步骤，增加细节
+    - **Elaboration**：扩展推理流程
+    - **Pruning**：删除最不重要的步骤
+    - **Resampling**：重新采样生成新 demonstration
+    - **Simplification**：简化和重构推理流程
 
 - **Simulation**：评估新节点，计算综合奖励
   $$\Delta = \alpha \cdot \text{Quant}(\hat{p}_i) + \beta \cdot \exp(-\lambda T(\hat{p}_i))$$

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 其他方向 25篇论文解读
+  ECCV2024 其他方向 22篇论文解读
 description: >-
-  25篇ECCV2024 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  22篇ECCV2024 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🎞️ ECCV2024** · 共 **25** 篇
+**🎞️ ECCV2024** · **22** 篇论文解读
 
 **[A Closer Look At Gan Priors Exploiting Intermediate Features](a_closer_look_at_gan_priors_exploiting_intermediate_features.md)**
 
@@ -29,10 +29,6 @@ description: >-
 **[Action2Sound Ambientaware Generation Of Action Sounds From E](action2sound_ambientaware_generation_of_action_sounds_from_e.md)**
 
 :   提出 AV-LDM，通过在训练时引入同一视频不同时间段的音频作为环境音条件，隐式解耦前景动作声和背景环境音，结合检索增强生成(RAG)在推理时选择合适的环境音条件，在 Ego4D 和 EPIC-KITCHENS 上大幅超越已有方法。
-
-**[Active Generation For Image Classification](active_generation_for_image_classification.md)**
-
-:   ActGen将主动学习思想引入扩散模型数据增强，通过识别分类器的错分样本并以注意力掩码引导+梯度对抗引导生成"难样本"，仅用10%的合成数据量即超越了此前需要近等量合成数据的方法，在ImageNet上ResNet-50获得+2.26%的精度提升。
 
 **[Adaptive Highfrequency Transformer For Diverse Wildlife Reid](adaptive_highfrequency_transformer_for_diverse_wildlife_reid.md)**
 
@@ -74,10 +70,6 @@ description: >-
 
 :   提出基于马氏距离的多视角最优传输损失（M-MVOT），通过视线方向和目标到相机的距离自适应调整传输代价，首次将点监督最优传输引入多视角人群定位任务，显著超越基于密度图MSE损失的方法。
 
-**[Online Temporal Action Localization With Memory-Augmented Transformer](online_temporal_action_localization_with_memory-augmented_transformer.md)**
-
-:   提出 MATR（Memory-Augmented Transformer），通过记忆队列存储过去片段的特征来利用长期上下文，并采用分离的 Start/End Transformer 解码器进行动作实例定位，在在线时序动作定位（On-TAL）任务上取得 SOTA，甚至可比肩部分离线方法。
-
 **[Partcraft Crafting Creative Objects By Parts](partcraft_crafting_creative_objects_by_parts.md)**
 
 :   提出 PartCraft，首次实现了基于部件选择的文本到图像生成控制——用户可以从不同物体中"挑选"各部件（如鸟的头、翅膀、身体），模型将它们自然地组合为一个全新且结构合理的创意物体。
@@ -101,10 +93,6 @@ description: >-
 **[Superpixel-Informed Implicit Neural Representation For Multi-Dimensional Data](superpixel-informed_implicit_neural_representation_for_multi-dimensional_data.md)**
 
 :   提出超像素引导的隐式神经表示（S-INR），用广义超像素替代像素作为INR的基本单元，通过专属注意力MLP和共享字典矩阵两个模块，充分挖掘广义超像素内部和之间的语义信息，在图像重建/补全/去噪以及点数据恢复等任务上超越现有INR方法。
-
-**[Teaching Tailored To Talent Adverse Weather Restoration](teaching_tailored_to_talent_adverse_weather_restoration.md)**
-
-:   提出 T3-DiffWeather，采用 prompt pool 自主组合子 prompt 构建天气退化信息，结合 Depth-Anything 约束的通用 prompt 提供场景信息，以对比 prompt 损失约束两类 prompt，在恶劣天气图像恢复任务上仅用 WeatherDiffusion 十分之一的采样步数达到 SOTA。
 
 **[Teaching Tailored To Talent Adverse Weather Restoration Via Prompt Pool And Dept](teaching_tailored_to_talent_adverse_weather_restoration_via_prompt_pool_and_dept.md)**
 

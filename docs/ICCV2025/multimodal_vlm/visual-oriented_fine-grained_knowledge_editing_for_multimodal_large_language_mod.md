@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Visual-Oriented Fine-Grained Knowledge Editing for MultiModal Large Language Models
 description: >-
-  [多模态] 提出面向视觉的细粒度多模态知识编辑任务及 FGVEdit 基准，设计 MSCKE 框架通过多模态范围分类器融合视觉与文本信息，实现对图像中多个交互实体的精确知识更新，显著优于纯文本编辑方法。
+  [ICCV 2025][多模态][知识编辑] 提出面向视觉的细粒度多模态知识编辑任务及 FGVEdit 基准，设计 MSCKE 框架通过多模态范围分类器融合视觉与文本信息，实现对图像中多个交互实体的精确知识更新，显著优于纯文本编辑方法。
 tags:
+  - ICCV 2025
   - 多模态
+  - 知识编辑
+  - MLLM
+  - 细粒度视觉编辑
+  - 多模态分类器
+  - FGVEdit
 ---
 
 # Visual-Oriented Fine-Grained Knowledge Editing for MultiModal Large Language Models
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV 2025 |
-| arXiv | [2411.12790](https://arxiv.org/abs/2411.12790) |
-| 代码 | 未提供 |
-| 领域 | 多模态VLM |
-| 关键词 | 知识编辑, MLLM, 细粒度视觉编辑, 多模态分类器, FGVEdit |
+**会议**: ICCV 2025  
+**arXiv**: [2411.12790](https://arxiv.org/abs/2411.12790)  
+**代码**: 未提供  
+**领域**: 多模态VLM  
+**关键词**: 知识编辑, MLLM, 细粒度视觉编辑, 多模态分类器, FGVEdit  
 
 ## 一句话总结
 

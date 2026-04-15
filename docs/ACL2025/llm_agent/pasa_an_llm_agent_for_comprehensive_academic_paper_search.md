@@ -2,20 +2,23 @@
 title: >-
   [论文解读] PaSa: An LLM Agent for Comprehensive Academic Paper Search
 description: >-
-  [LLM Agent] PaSa 是一个基于 LLM 的学术论文搜索智能体，通过自主调用搜索工具、阅读论文和导航引用网络来实现全面准确的学术文献检索，经 RL 训练后在真实场景中大幅超越 Google Scholar 和 GPT-4o。
+  [ACL2025][LLM Agent][学术论文搜索] PaSa 是一个基于 LLM 的学术论文搜索智能体，通过自主调用搜索工具、阅读论文和导航引用网络来实现全面准确的学术文献检索，经 RL 训练后在真实场景中大幅超越 Google Scholar 和 GPT-4o。
 tags:
+  - ACL2025
   - LLM Agent
+  - 学术论文搜索
+  - 强化学习
+  - 引用网络
+  - 论文检索
 ---
 
 # PaSa: An LLM Agent for Comprehensive Academic Paper Search
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2501.10120](https://arxiv.org/abs/2501.10120) |
-| 代码 | [bytedance/pasa](https://github.com/bytedance/pasa) |
-| 领域 | llm_agent |
-| 关键词 | 学术论文搜索, LLM Agent, 强化学习, 引用网络, 论文检索 |
+**会议**: ACL2025  
+**arXiv**: [2501.10120](https://arxiv.org/abs/2501.10120)  
+**代码**: [bytedance/pasa](https://github.com/bytedance/pasa)  
+**领域**: llm_agent  
+**关键词**: 学术论文搜索, LLM Agent, 强化学习, 引用网络, 论文检索  
 
 ## 一句话总结
 

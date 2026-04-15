@@ -2,17 +2,15 @@
 title: >-
   [论文解读] From Pixels to Views: Learning Angular-Aware and Physics-Consistent Representations for Light Field Microscopy
 description: >-
-  [NeurIPS 2025][3D视觉][光场显微镜] 提出 XLFM-Former，针对扩展光场显微镜（XLFM）3D重建：构建首个 XLFM-Zebrafish 标准化基准（22,581张光场图像），设计视角级 Masked View Modeling（MVM-LF）自监督预训练学习角度先验，引入光学渲染一致性损失（ORC Loss）通过 PSF 前向投影确保物理一致性，平均 PSNR 达 54.04 dB，较最佳基线提升 7.7%。
+  [NEURIPS2025][3D视觉][光场显微镜] 提出XLFM-Former用于扩展光场显微镜(XLFM)的3D重建：构建首个XLFM-Zebrafish标准化基准，设计Masked View Modeling (MVM-LF)自监督预训练学习角度先验，引入光学渲染一致性损失(ORC Loss)确保物理可信性，PSNR较SOTA提升7.7%（54.04 vs 50.16 dB）。
 tags:
-  - NeurIPS 2025
+  - NEURIPS2025
   - 3D视觉
   - 光场显微镜
   - XLFM
   - 3D重建
-  - 自监督预训练
   - Masked View Modeling
-  - 物理一致性损失
-  - Swin Transformer
+  - 物理一致性
 ---
 
 # From Pixels to Views: Learning Angular-Aware and Physics-Consistent Representations for Light Field Microscopy

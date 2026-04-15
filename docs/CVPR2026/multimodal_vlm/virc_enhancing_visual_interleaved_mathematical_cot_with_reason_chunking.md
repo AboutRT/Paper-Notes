@@ -56,9 +56,9 @@ ViRC 框架包含三个核心组件：
 #### 1. Critical Reasoning Unit (CRU) 结构
 - **做什么**：将数学推理过程分解为若干逻辑块，每个块关注一个中间命题
 - **核心思路**：每个 CRU 由三部分组成：
-  - **视觉获取（Visual Acquisition）**：通过视觉工具（如 crop、zoom、annotate）从数学图像中提取当前步骤需要的局部信息
-  - **文本推理（Textual Reasoning）**：基于获取的视觉信息和上一个 CRU 的结论，进行逻辑推导
-  - **中间验证（Intermediate Verification）**：明确陈述当前推理步骤的结论，作为下一个 CRU 的输入
+    - **视觉获取（Visual Acquisition）**：通过视觉工具（如 crop、zoom、annotate）从数学图像中提取当前步骤需要的局部信息
+    - **文本推理（Textual Reasoning）**：基于获取的视觉信息和上一个 CRU 的结论，进行逻辑推导
+    - **中间验证（Intermediate Verification）**：明确陈述当前推理步骤的结论，作为下一个 CRU 的输入
 - **设计动机**：模拟人类做数学题时"看图→想→验证→再看图"的循环过程，符合 Miller 定律关于工作记忆分块的认知原理
 
 #### 2. CRUX 数据集构建

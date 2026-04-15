@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**📷 CVPR2026** · 共 **12** 篇
+**📷 CVPR2026** · **12** 篇论文解读
 
 **[Adabet Gradient-Free Layer Selection For Efficient Training Of Deep Neural Netwo](adabet_gradient-free_layer_selection_for_efficient_training_of_deep_neural_netwo.md)**
 

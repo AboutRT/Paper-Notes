@@ -104,8 +104,8 @@ DDE 是 FLAIR 的核心，负责基于上下文进行动态预测。
 ### 实验设置
 
 - **任务覆盖**：
-  - 系统内部任务：基数估计（Cardinality Estimation）
-  - 用户导向任务：近似查询处理（Approximate Query Processing）、数据库内数据分析（In-database Data Analytics）
+    - 系统内部任务：基数估计（Cardinality Estimation）
+    - 用户导向任务：近似查询处理（Approximate Query Processing）、数据库内数据分析（In-database Data Analytics）
 
 ### 主要结果
 

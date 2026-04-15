@@ -66,9 +66,9 @@ tags:
 
     - 混合策略：在固定训练预算下，按比例混合多个原子策略以达到权衡
     - 双槽方法：生成器和评估器使用独立的重标记过程。例如：
-      - $\text{F-(E+G)}$：生成器用"future"，评估器用50% "episode" + 50% "generate"
-      - $\text{F-(E+P)}$：生成器用"future"，评估器用50% "episode" + 50% "pertask"
-      - $\text{F-(E+P+G)}$：生成器用"future"，评估器用50% "episode" + 25% "pertask" + 25% "generate"
+        - $\text{F-(E+G)}$：生成器用"future"，评估器用50% "episode" + 50% "generate"
+        - $\text{F-(E+P)}$：生成器用"future"，评估器用50% "episode" + 50% "pertask"
+        - $\text{F-(E+P+G)}$：生成器用"future"，评估器用50% "episode" + 25% "pertask" + 25% "generate"
     - 设计动机：生成器应避免暴露于问题目标（否则会产生更多幻觉），而评估器恰恰需要这些暴露来学会拒绝
 
 4. **可行性评估器的三要素**:

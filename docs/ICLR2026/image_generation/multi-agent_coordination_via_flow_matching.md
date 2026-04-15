@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Multi-agent Coordination via Flow Matching
 description: >-
-  [ICLR 2026][图像生成][多智能体协调] 提出 MAC-Flow，基于 Flow Matching 学习多智能体联合行为的丰富表示，再将其蒸馏为去中心化单步策略，实现了比扩散模型快约 14.5 倍的推理速度，同时保持良好的协调性能。
+  [ICLR 2026][图像生成][多智能体协调] 提出 MAC-Flow，先用 Flow Matching 学习中心化联合行为分布，再通过 IGM（Individual-Global-Max）分解将其蒸馏为去中心化的单步策略，结合 Q 值最大化进行行为正则化训练，在 4 个基准 12 个环境 34 个数据集上实现了约 14.5 倍于扩散方法的推理加速，同时保持了与扩散策略可比的协调性能。
 tags:
   - ICLR 2026
   - 图像生成
   - 多智能体协调
   - Flow Matching
   - 离线MARL
-  - 策略蒸馏
+  - IGM策略蒸馏
   - 去中心化执行
 ---
 

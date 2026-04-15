@@ -83,9 +83,9 @@ $$\mathcal{L} = \lambda_{ce}\mathcal{L}_{ce} + \lambda_{dice}\mathcal{L}_{dice} 
 - $\mathcal{L}_{ce}$：交叉熵损失（$\lambda_{ce}=1$）
 - $\mathcal{L}_{dice}$：DICE 损失（$\lambda_{dice}=0.1$）
 - $\mathcal{L}_{tbl}$：**文本引导边界损失**（$\lambda_{tbl}=0.2$），是本文设计的新损失：
-  - 计算水平和垂直方向相邻像素差的绝对值作为边界梯度
-  - 将文本嵌入抽象为句子嵌入，通过线性层降维为标量，作为文本引导的边界权重
-  - 用 MSE 度量预测掩码和GT掩码在文本权重引导下的边界相似度
+    - 计算水平和垂直方向相邻像素差的绝对值作为边界梯度
+    - 将文本嵌入抽象为句子嵌入，通过线性层降维为标量，作为文本引导的边界权重
+    - 用 MSE 度量预测掩码和GT掩码在文本权重引导下的边界相似度
 
 训练设置：8 × RTX 4090，RefSegRS 60 epochs，RRSIS-D 40 epochs，AdamW 优化器，batch size 1。SAM2 使用 SAM2-Hiera-Large 预训练权重，联合编码器使用 BEiT-3-Large。
 

@@ -63,9 +63,9 @@ HiERO 采用受 Graph U-Net 启发的编码器-解码器架构：
 
 - **做什么**：将视频表示为图，在局部时间邻域内逐层聚合信息
 - **核心思路**：输入视频 $\mathcal{V}$ 被编码为图 $\mathcal{G} = (\mathbf{X}, \mathcal{E}, \mathbf{p})$，其中：
-  - $\mathbf{X} \in \mathbb{R}^{N \times D}$：节点嵌入矩阵，每个节点对应固定长度的视频片段
-  - $e_{ij} \in \mathcal{E}$：当两个节点时间距离小于阈值 $\tau$ 时连边
-  - $\mathbf{p} \in \mathbb{R}^N$：节点的时间位置（时间戳，单位秒）
+    - $\mathbf{X} \in \mathbb{R}^{N \times D}$：节点嵌入矩阵，每个节点对应固定长度的视频片段
+    - $e_{ij} \in \mathcal{E}$：当两个节点时间距离小于阈值 $\tau$ 时连边
+    - $\mathbf{p} \in \mathbb{R}^N$：节点的时间位置（时间戳，单位秒）
 
   编码器由 $N_l$ 个基于 TDGC 层的模块组成，实现时间感知的图卷积：
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM安全
 
-**🧪 ICML2025** · 共 **6** 篇
+**🧪 ICML2025** · **6** 篇论文解读
 
 **[Became Bayesian Continual Learning With Adaptive Model Merging](became_bayesian_continual_learning_with_adaptive_model_merging.md)**
 

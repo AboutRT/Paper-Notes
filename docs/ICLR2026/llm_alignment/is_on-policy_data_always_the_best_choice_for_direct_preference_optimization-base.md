@@ -108,8 +108,8 @@ tags:
 - **偏好模型依赖**：边界判定依赖偏好模型 $\mathbb{P}$ 的质量
 - **实验用PairRM做偏好标注**：可能与真实人类偏好有偏差
 - **改进思路**：
-  - 可结合Uni-DPO的质量权重——在注入阶段对off-policy数据也做质量加权
-  - 设计平滑混合策略——BS值连续变化时按比例混合on/off-policy
+    - 可结合Uni-DPO的质量权重——在注入阶段对off-policy数据也做质量加权
+    - 设计平滑混合策略——BS值连续变化时按比例混合on/off-policy
 
 ## 相关工作与启发
 - **vs Online DPO**：Online DPO假设on-policy总是更好，本文证明这在注入阶段不成立

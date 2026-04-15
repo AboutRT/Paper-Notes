@@ -62,8 +62,8 @@ HiDrop 将 LLM 层分为三个阶段：
 
     - 功能：在中间层渐进式剪枝视觉 token，前期剪得猛后期慢
     - 核心思路：
-      - **在哪里剪（ILVAS）**：提出 Inter-Layer Visual Attention Similarity 指标，衡量相邻层之间视觉 token 注意力分布的稳定性。ILVAS 高的层说明注意力分配已稳定，是好的 filtering 层。选择 ILVAS 曲线的局部极大值点（如 layer {10,14,16,18}）
-      - **剪谁（DTop-K）**：用 Differentiable Top-K 算子做可微 token 选择。先计算重要性分数的归一化排序 $c'_i$，再用 sigmoid + 可学习阈值 $a$ 生成软掩码 $\text{Mask}(c,a) = \sigma(\lambda(c'_i - a))$，前向时用硬阈值做离散选择，反向时梯度可流通
+        - **在哪里剪（ILVAS）**：提出 Inter-Layer Visual Attention Similarity 指标，衡量相邻层之间视觉 token 注意力分布的稳定性。ILVAS 高的层说明注意力分配已稳定，是好的 filtering 层。选择 ILVAS 曲线的局部极大值点（如 layer {10,14,16,18}）
+        - **剪谁（DTop-K）**：用 Differentiable Top-K 算子做可微 token 选择。先计算重要性分数的归一化排序 $c'_i$，再用 sigmoid + 可学习阈值 $a$ 生成软掩码 $\text{Mask}(c,a) = \sigma(\lambda(c'_i - a))$，前向时用硬阈值做离散选择，反向时梯度可流通
     - 设计动机：凹形调度（前快后慢）匹配中层"融合稀疏性递增"的规律——融合初期大量 token 冗余可快删，后期剩余 token 更关键要慢删
 
 3. **Early Exit（早退出）**:

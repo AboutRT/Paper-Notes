@@ -68,8 +68,8 @@ tags:
     - **初始化（Algorithm 1）**：对 $H$ 做 SVD $H = Q\Sigma W^\top$，取 $Q$ 的后 $d-r$ 列（$H$ 的零空间基）中随机选 $N$ 列，缩放到 $\sqrt{\alpha}$ 得 $V_0$。构造性证明了 $H + V_0$ 满秩（Proposition 1）
     - **搜索方向**：直接选 $S = H$（即用原始激活矩阵作为方向），Proposition 3 证明 $H$ 在 $V_0$ 处是 Riemannian 下降方向
     - **闭式步长**：对精确线搜索做二阶 Taylor 近似（Proposition 2），得到 $\eta^\star = D_1 / D_2$，其中：
-      - $D_1 = 2\sum_{i=1}^r \frac{\sigma_i^2}{\sigma_i^2 + \alpha}$，$D_2 = 4\sum_{i=1}^r \frac{\sigma_i^4}{(\sigma_i^2 + \alpha)^2}$
-      - 仅依赖 $H$ 的奇异值，SVD 在初始化阶段已计算，步长计算零额外成本
+        - $D_1 = 2\sum_{i=1}^r \frac{\sigma_i^2}{\sigma_i^2 + \alpha}$，$D_2 = 4\sum_{i=1}^r \frac{\sigma_i^4}{(\sigma_i^2 + \alpha)^2}$
+        - 仅依赖 $H$ 的奇异值，SVD 在初始化阶段已计算，步长计算零额外成本
     - **更新**：$V_1 = \sqrt{\alpha}(V_0 + \eta^\star H) W (\alpha I + (\eta^\star \Sigma)^2)^{-1/2} W^\top$，复用 SVD 结果高效计算
     - **经验验证**：与多步 Algorithm 2 相比，单步 Algorithm 3 达到约 2% 的最优性差距，但仅用约 3% 的运行时间
 

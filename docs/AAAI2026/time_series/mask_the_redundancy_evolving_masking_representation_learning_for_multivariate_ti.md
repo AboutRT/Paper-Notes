@@ -47,12 +47,12 @@ tags:
 
 ### 双路径学习
 - **CRL (Consistency and Reconstruction Learning)**：
-  - Intra-view reconstruction：每个视图重建原始 MTS，保留语义结构
-  - Inter-view reconstruction：跨视图一致性约束，增强鲁棒性
+    - Intra-view reconstruction：每个视图重建原始 MTS，保留语义结构
+    - Inter-view reconstruction：跨视图一致性约束，增强鲁棒性
 - **CMC (Clustering-guided MEV Contrastive Learning)**：
-  - 融合所有视图表示后做 $k$-means 聚类
-  - 用聚类标签构造正负样本对进行对比学习
-  - 聚类标签每 epoch 动态更新，将聚类目标融入表示学习
+    - 融合所有视图表示后做 $k$-means 聚类
+    - 用聚类标签构造正负样本对进行对比学习
+    - 聚类标签每 epoch 动态更新，将聚类目标融入表示学习
 
 ### 总损失
 $$\mathcal{L}_{total} = \mathcal{L}_{contra} + \alpha \mathcal{L}_{intra} + \beta \mathcal{L}_{inter}$$

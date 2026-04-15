@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练/数据
 
-**🧠 NeurIPS2025** · 共 **39** 篇
+**🧠 NeurIPS2025** · **39** 篇论文解读
 
 **[Ai Progress Should Be Measured By Capability-Per-Resource Not Scale Alone A Fram](ai_progress_should_be_measured_by_capability-per-resource_not_scale_alone_a_fram.md)**
 

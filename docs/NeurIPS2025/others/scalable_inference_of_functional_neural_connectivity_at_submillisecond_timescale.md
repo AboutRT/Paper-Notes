@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Scalable Inference of Functional Neural Connectivity at Submillisecond Timescales
 description: >-
-  [NeurIPS 2025][计算神经科学] 提出连续时间Poisson点过程GLM的蒙特卡洛（MC）和多项式近似（PA）方法，配合广义Laguerre多项式基函数，实现亚毫秒级精度的大规模神经功能连接推断，在海马体数据上揭示与已知解剖结构一致的突触连接。
+  [NeurIPS 2025][功能连接] 将传统离散时间Poisson GLM推广到连续时间Poisson点过程，通过蒙特卡洛采样和二阶多项式近似两种方法绕过不可解的积分项，配合正交的广义Laguerre基函数，在数百神经元、数千秒记录的数据上实现分钟级训练和亚毫秒级突触连接识别。
 tags:
   - NeurIPS 2025
-  - 功能连接推断
+  - 功能连接
   - Poisson点过程
   - GLM
-  - 蒙特卡洛采样
-  - 突触动力学
-  - 广义Laguerre多项式
+  - 蒙特卡洛估计
+  - 突触耦合滤波器
 ---
 
 # Scalable Inference of Functional Neural Connectivity at Submillisecond Timescales

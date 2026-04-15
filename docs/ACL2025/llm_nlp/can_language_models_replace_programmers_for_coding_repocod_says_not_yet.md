@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Can Language Models Replace Programmers for Coding? RepoCod Says 'Not Yet'
 description: >-
-  [LLM/NLP] 构建了 RepoCod——一个包含980个来自11个大型 Python 项目的复杂代码生成任务的基准，具有真实的仓库级依赖和平均314个开发者测试用例，揭示了即使最先进的 LLM 也仅能达到不到30%的 Pass@1，远未能替代程序员完成真实编码任务。
+  [ACL2025][LLM/NLP][Code Generation] 构建了 RepoCod——一个包含980个来自11个大型 Python 项目的复杂代码生成任务的基准，具有真实的仓库级依赖和平均314个开发者测试用例，揭示了即使最先进的 LLM 也仅能达到不到30%的 Pass@1，远未能替代程序员完成真实编码任务。
 tags:
+  - ACL2025
   - LLM/NLP
+  - Code Generation
+  - Repository-Level
+  - Benchmark
+  - RAG
+  - LLM Evaluation
 ---
 
 # Can Language Models Replace Programmers for Coding? RepoCod Says 'Not Yet'
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2410.21647](https://arxiv.org/abs/2410.21647) |
-| 代码 | 有（论文中提到） |
-| 领域 | LLM NLP / 代码生成基准 |
-| 关键词 | Code Generation, Repository-Level, Benchmark, RAG, LLM Evaluation |
+**会议**: ACL2025  
+**arXiv**: [2410.21647](https://arxiv.org/abs/2410.21647)  
+**代码**: 有（论文中提到）  
+**领域**: LLM NLP / 代码生成基准  
+**关键词**: Code Generation, Repository-Level, Benchmark, RAG, LLM Evaluation  
 
 ## 一句话总结
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**💬 ACL2025** · 共 **2** 篇
+**💬 ACL2025** · **2** 篇论文解读
 
 **[Diffusedef Adversarial Defense](diffusedef_adversarial_defense.md)**
 

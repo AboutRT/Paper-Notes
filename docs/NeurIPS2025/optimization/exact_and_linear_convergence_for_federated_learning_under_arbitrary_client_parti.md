@@ -51,10 +51,10 @@ $$\boldsymbol{x}_{k+1} = R_k(\boldsymbol{x}_k - \eta D_k \boldsymbol{y}_k), \qua
 
     - 功能：将 FL 的所有操作统一为矩阵-向量乘法
     - 核心思路：定义四种矩阵——
-      - **模型分配矩阵** $R(S_r)$：行随机矩阵，对参与客户端 $i \in S_r$ 置 $R[i,0]=1$（从服务器拉取模型），非参与者 $R[i,i]=1$（保持不变）
-      - **模型平均矩阵** $A(S_r)$：行随机矩阵，服务器行取参与者平均 $A[0,j] = 1/|S_r|$
-      - **列随机矩阵** $C(S_r) = R(S_r)^\top$：用于 push 操作
-      - **双随机矩阵** $W(S_r)$：用于去中心化场景（本文不直接使用）
+        - **模型分配矩阵** $R(S_r)$：行随机矩阵，对参与客户端 $i \in S_r$ 置 $R[i,0]=1$（从服务器拉取模型），非参与者 $R[i,i]=1$（保持不变）
+        - **模型平均矩阵** $A(S_r)$：行随机矩阵，服务器行取参与者平均 $A[0,j] = 1/|S_r|$
+        - **列随机矩阵** $C(S_r) = R(S_r)^\top$：用于 push 操作
+        - **双随机矩阵** $W(S_r)$：用于去中心化场景（本文不直接使用）
     - 设计动机：经典 FL 用 per-client 符号描述，无法利用矩阵分析的强大工具。堆叠向量-矩阵表示 $\boldsymbol{x}_k = \text{vstack}[x_{k,0}; x_{k,1}; ...; x_{k,N}]$ 使问题自然映射到图和矩阵理论
 
 2. **任意客户端参与建模 (Assumption 1)**:
@@ -67,12 +67,12 @@ $$\boldsymbol{x}_{k+1} = R_k(\boldsymbol{x}_k - \eta D_k \boldsymbol{y}_k), \qua
 
     - 功能：通过对偶变量跟踪全局梯度，消除本地更新和非均匀参与引入的偏差
     - 核心思路：
-      - **Pull (行随机矩阵 $R$)**：参与客户端从服务器拉取模型 $x_{0,i}^{(r)} \Leftarrow x_r$
-      - **本地更新**：客户端执行 $\tau$ 步梯度跟踪更新 $y_{t+1,i}^{(r)} = y_{t,i}^{(r)} + \nabla f_i(x_{t,i}^{(r)}) - \nabla f_i(x_{t-1,i}^{(r)})$，$x_{t+1,i}^{(r)} = x_{t,i}^{(r)} - \eta y_{t+1,i}^{(r)}$
-      - **Push (列随机矩阵 $C$)**：客户端推送 $y_{\tau,i}^{(r)}$ 到服务器（**求和而非平均**），$y_{r+1} \Leftarrow y_r + \sum_{i \in S_r} y_{\tau,i}^{(r)}$
+        - **Pull (行随机矩阵 $R$)**：参与客户端从服务器拉取模型 $x_{0,i}^{(r)} \Leftarrow x_r$
+        - **本地更新**：客户端执行 $\tau$ 步梯度跟踪更新 $y_{t+1,i}^{(r)} = y_{t,i}^{(r)} + \nabla f_i(x_{t,i}^{(r)}) - \nabla f_i(x_{t-1,i}^{(r)})$，$x_{t+1,i}^{(r)} = x_{t,i}^{(r)} - \eta y_{t+1,i}^{(r)}$
+        - **Push (列随机矩阵 $C$)**：客户端推送 $y_{\tau,i}^{(r)}$ 到服务器（**求和而非平均**），$y_{r+1} \Leftarrow y_r + \sum_{i \in S_r} y_{\tau,i}^{(r)}$
     - **两个关键性质**：
-      - **一致性 (Consensus)**：$R(S_r)\boldsymbol{x}^\star = \boldsymbol{x}^\star$ → 所有模型最终收敛到同一值
-      - **跟踪性 (Tracking)**：$\mathbf{1}^\top \boldsymbol{y}_k = \mathbf{1}^\top \nabla\boldsymbol{f}(\boldsymbol{x}_k)$ → 对偶变量之和始终等于全局梯度和
+        - **一致性 (Consensus)**：$R(S_r)\boldsymbol{x}^\star = \boldsymbol{x}^\star$ → 所有模型最终收敛到同一值
+        - **跟踪性 (Tracking)**：$\mathbf{1}^\top \boldsymbol{y}_k = \mathbf{1}^\top \nabla\boldsymbol{f}(\boldsymbol{x}_k)$ → 对偶变量之和始终等于全局梯度和
     - 设计动机：FedAvg 的混合矩阵 $W_k$ 在非全参与时**不是双随机矩阵**，导致无法精确收敛。Push-pull 用两种不同随机矩阵分别处理模型一致性（行随机）和梯度跟踪（列随机），绕开此限制
 
 4. **与 FedAvg 的关键区别**:

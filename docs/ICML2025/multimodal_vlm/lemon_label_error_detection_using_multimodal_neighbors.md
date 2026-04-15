@@ -66,8 +66,8 @@ tags:
     $s_n(\mathbf{x}, \mathbf{y}, \mathcal{D}) = \frac{1}{k} \sum_{j=1}^k d_\mathcal{Y}(\mathbf{y}, \mathbf{y}_{nj}) \cdot e^{-\tau_{1,n} d_\mathcal{X}(\mathbf{x}, \mathbf{x}_{nj})} \cdot e^{-\tau_{2,n} d_{mm}(\mathbf{x}_{nj}, \mathbf{y}_{nj})}$
     - **直觉**: 如果我的图像和邻居的图像很像，但我的文本和邻居的文本差距很大——说明我的标签很可能是错的
     - **权重设计**:
-      - $e^{-\tau_{1,n} d_\mathcal{X}}$: 降权距离远的邻居（自适应 $k$）
-      - $e^{-\tau_{2,n} d_{mm}}$: 降权邻居本身可能也是错误标签的情况
+        - $e^{-\tau_{1,n} d_\mathcal{X}}$: 降权距离远的邻居（自适应 $k$）
+        - $e^{-\tau_{2,n} d_{mm}}$: 降权邻居本身可能也是错误标签的情况
 
 3. **文本空间邻域分数 $s_m$**:
 
@@ -85,9 +85,9 @@ tags:
 ### 损失函数 / 训练策略
 - **LEMoN 本身完全免训练**，仅需预训练 CLIP 模型
 - 两种配置：
-  - **LEMoN$_{opt}$**: 在标注验证集上搜索最优超参 $k, \beta, \gamma, \tau_{1,n}, \tau_{2,n}, \tau_{1,m}, \tau_{2,m}$
-  - **LEMoN$_{fix}$**: 使用固定合理超参（$k=30, \beta=\gamma=5, \tau_1=0.1, \tau_2=5$），无需验证集
-  - 两者差距仅 ~1.7% AUROC
+    - **LEMoN$_{opt}$**: 在标注验证集上搜索最优超参 $k, \beta, \gamma, \tau_{1,n}, \tau_{2,n}, \tau_{1,m}, \tau_{2,m}$
+    - **LEMoN$_{fix}$**: 使用固定合理超参（$k=30, \beta=\gamma=5, \tau_1=0.1, \tau_2=5$），无需验证集
+    - 两者差距仅 ~1.7% AUROC
 
 ## 实验关键数据
 

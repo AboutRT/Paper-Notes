@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**💬 ACL2025** · 共 **7** 篇
+**💬 ACL2025** · **7** 篇论文解读
 
 **[Beyond Single Labels Improving Conversational Recommendation Through Llm-Powered](beyond_single_labels_improving_conversational_recommendation_through_llm-powered.md)**
 

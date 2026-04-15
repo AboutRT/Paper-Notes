@@ -2,7 +2,7 @@
 title: >-
   [论文解读] GraphOmni: A Comprehensive and Extensible Benchmark Framework for Large Language Models on Graph-theoretic Tasks
 description: >-
-  [ICLR 2026][图推理] 提出 GraphOmni，一个全面评估 LLM 在图论任务上推理能力的基准框架，系统考察图类型、序列化格式和提示策略三个维度的交互影响，并提出基于 RL 的自适应最优因子选择方法。
+  [ICLR 2026][图推理] 提出 GraphOmni 基准框架，在 7 种图类型 × 7 种序列化格式 × 9 种提示策略的 241K 查询上系统评估 11 个 LLM 的图论推理能力，揭示三维度间的复杂交互效应，并设计 RL 引导的组合搜索方法以 25% 成本保持约 90% 最优准确率。
 tags:
   - ICLR 2026
   - 图推理

@@ -56,10 +56,10 @@ BALM 由两个互补模块组成，插入到骨干网络的编码和优化过程
 
     - **目标**：利用全局上下文重新校准因不均匀曝光而扭曲的单模态特征
     - **步骤**：
-      - 计算各模态全局描述子：$x_{glob}^m = \frac{\sum_i \tilde{x}_i^m}{\varepsilon + \sum_i e_i^m}$（仅对可用样本取平均）
-      - 拼接后通过 FC 层提取跨模态上下文：$x_{global} = \text{ReLU}(\mathbf{F}_{global}([x_{glob}^{m_1}, ..., x_{glob}^{m_M}]))$
-      - 投射到模态特定校准权重：$w_{cal}^m = \mathbf{F}_{cal}^m(x_{global})$
-      - 门控校准：$\hat{x}_i^m = (1 + \sigma(w_{cal}^m)) \odot \tilde{x}_i^m$
+        - 计算各模态全局描述子：$x_{glob}^m = \frac{\sum_i \tilde{x}_i^m}{\varepsilon + \sum_i e_i^m}$（仅对可用样本取平均）
+        - 拼接后通过 FC 层提取跨模态上下文：$x_{global} = \text{ReLU}(\mathbf{F}_{global}([x_{glob}^{m_1}, ..., x_{glob}^{m_M}]))$
+        - 投射到模态特定校准权重：$w_{cal}^m = \mathbf{F}_{cal}^m(x_{global})$
+        - 门控校准：$\hat{x}_i^m = (1 + \sigma(w_{cal}^m)) \odot \tilde{x}_i^m$
     - **设计动机**：不重建缺失模态，而是利用所有可用模态的全局统计信息来"修正"各模态的分布偏移
 
 2. **梯度再平衡模块 GRM（Gradient Rebalancing Module）**：

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**📹 ICCV2025** · 共 **7** 篇
+**📹 ICCV2025** · **7** 篇论文解读
 
 **[Disentangled World Models Learning To Transfer Semantic Knowledge From Distracti](disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)**
 

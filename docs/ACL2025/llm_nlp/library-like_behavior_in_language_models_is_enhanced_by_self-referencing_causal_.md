@@ -2,20 +2,25 @@
 title: >-
   [论文解读] ReCall: Library-Like Behavior In Language Models is Enhanced by Self-Referencing Causal Cycles
 description: >-
-  [LLM/NLP] 提出"自引用因果循环"（ReCall）概念，揭示 LLM 预训练数据中自然存在的重复 token 序列如何形成循环引用，使自回归模型能够绕过单向因果限制、克服逆向诅咒（reversal curse），并据此设计了两步 ReCall-aware prompting 策略。
+  [ACL2025][LLM/NLP][reversal curse] 提出"自引用因果循环"（ReCall）概念，揭示 LLM 预训练数据中自然存在的重复 token 序列如何形成循环引用，使自回归模型能够绕过单向因果限制、克服逆向诅咒（reversal curse），并据此设计了两步 ReCall-aware prompting 策略。
 tags:
+  - ACL2025
   - LLM/NLP
+  - reversal curse
+  - causal cycle
+  - cycle tokens
+  - autoregressive model
+  - information retrieval
+  - 提示学习
 ---
 
 # ReCall: Library-Like Behavior In Language Models is Enhanced by Self-Referencing Causal Cycles
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL2025 |
-| arXiv | [2501.13491](https://arxiv.org/abs/2501.13491) |
-| 代码 | [samunaai/remember](https://github.com/samunaai/remember) |
-| 领域 | LLM/NLP |
-| 关键词 | reversal curse, causal cycle, cycle tokens, autoregressive model, information retrieval, prompting |
+**会议**: ACL2025  
+**arXiv**: [2501.13491](https://arxiv.org/abs/2501.13491)  
+**代码**: [samunaai/remember](https://github.com/samunaai/remember)  
+**领域**: LLM/NLP  
+**关键词**: reversal curse, causal cycle, cycle tokens, autoregressive model, information retrieval, prompting  
 
 ## 一句话总结
 

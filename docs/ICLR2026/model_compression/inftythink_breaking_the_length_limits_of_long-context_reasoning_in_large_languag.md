@@ -48,18 +48,18 @@ InftyThink 将推理分为多轮迭代：第1轮生成推理段 $RP_1$ + 摘要 
 
     - 功能：将单次整体推理替换为多轮有界推理
     - 核心思路：
-      - 首轮：`<|U|>Q<|A|><think>RP₁</think><summary>S₁</summary>`
-      - 后续轮：`<|U|>Q<|A|><history>Sᵢ₋₁</history><think>RPᵢ</think><summary>Sᵢ</summary>`
-      - 终轮：`<|U|>Q<|A|><history>Sₙ₋₁</history><think>RPₙ</think>C`
+        - 首轮：`<|U|>Q<|A|><think>RP₁</think><summary>S₁</summary>`
+        - 后续轮：`<|U|>Q<|A|><history>Sᵢ₋₁</history><think>RPᵢ</think><summary>Sᵢ</summary>`
+        - 终轮：`<|U|>Q<|A|><history>Sₙ₋₁</history><think>RPₙ</think>C`
     - 设计动机：每轮保持有界上下文长度（锯齿形内存模式），理论上支持无限推理深度。简单问题可在第一轮直接得出结论，自然退化为传统范式
 
 2. **数据重构流水线 (Data Reconstruction)**:
 
     - 功能：将现有长推理数据集转化为InftyThink格式
     - 核心思路：三步流水线——
-      - Step I *推理分割*：基于超参数 $\eta$（最大段长度），在语义边界（句子/段落）处切分
-      - Step II *摘要生成*：用Meta-Llama-3.3-70B-Instruct为每段生成摘要，摘要考虑所有先前段的上下文以保持推理连续性
-      - Step III *训练实例构建*：组装为多个训练实例，首段实例包含 $(Q, RP_1, S_1)$，中间段 $(Q, S_{i-1}, RP_i, S_i)$，末段 $(Q, S_{n-1}, RP_n, C)$
+        - Step I *推理分割*：基于超参数 $\eta$（最大段长度），在语义边界（句子/段落）处切分
+        - Step II *摘要生成*：用Meta-Llama-3.3-70B-Instruct为每段生成摘要，摘要考虑所有先前段的上下文以保持推理连续性
+        - Step III *训练实例构建*：组装为多个训练实例，首段实例包含 $(Q, RP_1, S_1)$，中间段 $(Q, S_{i-1}, RP_i, S_i)$，末段 $(Q, S_{n-1}, RP_n, C)$
     - 设计动机：从OpenR1-Math（220K样本）重构为333K InftyThink格式样本（$\eta$=4k），利用已有高质量推理数据避免从零生成
 
 3. **推理时的执行机制**:

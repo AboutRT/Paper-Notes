@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**📹 ICCV2025** · 共 **8** 篇
+**📹 ICCV2025** · **8** 篇论文解读
 
 **[Addressing Representation Collapse In Vector Quantized Models With One Linear La](addressing_representation_collapse_in_vector_quantized_models_with_one_linear_la.md)**
 

@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**💬 ACL2025** · 共 **73** 篇
+**💬 ACL2025** · **73** 篇论文解读
 
 **[A Conformal Risk Control Framework For Granular Word Assessment And Uncertainty ](a_conformal_risk_control_framework_for_granular_word_assessment_and_uncertainty_.md)**
 

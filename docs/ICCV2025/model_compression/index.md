@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📹 ICCV2025** · 共 **45** 篇
+**📹 ICCV2025** · **45** 篇论文解读
 
 **[A Good Teacher Adapts Their Knowledge For Distillation](a_good_teacher_adapts_their_knowledge_for_distillation.md)**
 

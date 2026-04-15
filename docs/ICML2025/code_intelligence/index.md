@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**🧪 ICML2025** · 共 **11** 篇
+**🧪 ICML2025** · **11** 篇论文解读
 
 **[Adaptivestep Automatically Dividing Reasoning Step Through Model Confidence](adaptivestep_automatically_dividing_reasoning_step_through_model_confidence.md)**
 

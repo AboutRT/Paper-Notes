@@ -57,8 +57,8 @@ tags:
 **2. 约束正则化运动分类器**
 - **做什么**: 线性投影 camera token 到 512 维，加位置编码和 [CLS] token，经 4 层 Transformer encoder 预测 $K=15$ 类 logits。
 - **核心思路**: BCE 损失 + 两个正则化项：
-  - 不兼容损失 $\mathcal{L}_{\text{inc}} = \sum_{i<j} \mathbf{M}_{ij} p_i p_j$（惩罚互斥原语共现）
-  - 基数损失 $\mathcal{L}_{\text{card}}$（约束激活原语数在 1-3 之间）
+    - 不兼容损失 $\mathcal{L}_{\text{inc}} = \sum_{i<j} \mathbf{M}_{ij} p_i p_j$（惩罚互斥原语共现）
+    - 基数损失 $\mathcal{L}_{\text{card}}$（约束激活原语数在 1-3 之间）
 - **设计动机**: 物理约束确保预测结果语义合理，如不会同时预测 pan-left 和 pan-right。
 
 **3. Vision Encoder 探测实验**

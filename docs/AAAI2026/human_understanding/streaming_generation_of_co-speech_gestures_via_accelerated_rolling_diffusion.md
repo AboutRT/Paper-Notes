@@ -28,9 +28,9 @@ tags:
 ## 背景与动机
 - 共语手势（co-speech gestures）在虚拟助手、视频会议、游戏和具身 AI 中至关重要，**实时流式生成**是交互场景的硬需求
 - 现有扩散方法面临的核心问题：
-  - **分块拼接**：PersonaGestor、DiffSHEG 等方法将长序列切成固定长度片段分别生成再拼合，导致**视觉不连续**和**后处理延迟**
-  - **种子帧条件**：DiffuseStyleGesture、Taming 等依赖前序帧条件生成，虽改善连续性但带来**巨大计算开销**
-  - **Outpainting 策略**：DiffSHEG 采用增量外绘，仍需额外后处理步骤
+    - **分块拼接**：PersonaGestor、DiffSHEG 等方法将长序列切成固定长度片段分别生成再拼合，导致**视觉不连续**和**后处理延迟**
+    - **种子帧条件**：DiffuseStyleGesture、Taming 等依赖前序帧条件生成，虽改善连续性但带来**巨大计算开销**
+    - **Outpainting 策略**：DiffSHEG 采用增量外绘，仍需额外后处理步骤
 - Rolling Diffusion Models (RDMs) 是有前景的替代方案，将扩散模型变为自回归过程改善时序一致性，但其自回归循环**计算代价高昂**，未被成功应用于实时共语手势生成
 
 ## 核心问题

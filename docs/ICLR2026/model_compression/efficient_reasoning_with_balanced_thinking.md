@@ -48,8 +48,8 @@ ReBalance 分为离线和在线两个阶段：
 
 - **做什么**：基于置信度指标将推理步骤分类为过度思考集合 $\mathcal{O}$ 和欠思考集合 $\mathcal{U}$
 - **核心思路**：定义步级置信度 $c_s = \exp\left(\frac{1}{|\mathcal{T}_s|}\sum_{t \in \mathcal{T}_s} \ln p_t^{\max}\right)$，以及滑动窗口内的置信度方差 $\operatorname{Var}(c_s; \mathcal{W}_s)$。通过经验分位数设定阈值 $\tau_c^L, \tau_c^H, \tau_v^L, \tau_v^H$，将步骤分为：
-  - 过度思考 $\mathcal{O} = \{s: c_s \leq \tau_c^L \wedge v_s \geq \tau_v^H\}$（低置信、高方差）
-  - 欠思考 $\mathcal{U} = \{s: c_s \geq \tau_c^H \wedge v_s \leq \tau_v^L\}$（高置信、低方差）
+    - 过度思考 $\mathcal{O} = \{s: c_s \leq \tau_c^L \wedge v_s \geq \tau_v^H\}$（低置信、高方差）
+    - 欠思考 $\mathcal{U} = \{s: c_s \geq \tau_c^H \wedge v_s \leq \tau_v^L\}$（高置信、低方差）
 - **设计动机**：Fig.2(b) 的实验观察证实了这一对应关系
 
 #### 2. 基于置信度的导向向量提取
@@ -63,8 +63,8 @@ ReBalance 分为离线和在线两个阶段：
 
 - **做什么**：设计一个根据实时置信度自适应调节导向强度和方向的函数
 - **核心思路**：$g(c_s, v_s) = \text{sign}(c_s - \tau_c^H) \cdot B(c_s, v_s) \cdot \tanh(|c_s - \tau_c^H|)$
-  - 方向 $\delta_s$：$c_s < \tau_c^H$ 时取负（缓解过思考），$c_s > \tau_c^H$ 时取正（缓解欠思考）
-  - 强度 $\lambda_s$：由 $\tanh$ 提供平滑饱和增长，$B(c_s, v_s)$ 是方差感知的振幅函数，根据当前推理模式在 $B_m$、$B_o$、$B_u$ 之间自适应切换
+    - 方向 $\delta_s$：$c_s < \tau_c^H$ 时取负（缓解过思考），$c_s > \tau_c^H$ 时取正（缓解欠思考）
+    - 强度 $\lambda_s$：由 $\tanh$ 提供平滑饱和增长，$B(c_s, v_s)$ 是方差感知的振幅函数，根据当前推理模式在 $B_m$、$B_o$、$B_u$ 之间自适应切换
 - **设计动机**：避免硬切换，保持数值稳定；$B_m$、$B_o$ 等参数从模型行为自适应得到，无需手动调参
 
 ### 损失函数

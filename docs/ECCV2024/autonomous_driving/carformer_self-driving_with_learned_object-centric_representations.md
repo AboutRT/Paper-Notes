@@ -54,10 +54,10 @@ tags:
 
 - 基于 GPT-2 架构的自回归 Transformer 解码器
 - 轨迹定义为混合模态的 token 序列：$\tau_t = \{g_t^x, g_t^y, l_t, v_t, \mathbf{z}_t^1, \dots, \mathbf{z}_t^K, \mathbf{r}_t^1, \mathbf{r}_t^2, q_t^1, \dots, q_t^{2W}\}$
-  - 目标点 $(g_t^x, g_t^y)$、红绿灯标志 $l_t$、车速 $v_t$（离散化，k-means 量化）
-  - K 个 slot 特征 $\mathbf{z}_t^i \in \mathbb{R}^{1 \times d}$（连续，MLP 投影）
-  - 路线向量 $\mathbf{r}_t^1, \mathbf{r}_t^2 \in \mathbb{R}^6$（连续，MLP 投影）
-  - 量化 waypoint $q_t^i$（离散，embedding lookup）
+    - 目标点 $(g_t^x, g_t^y)$、红绿灯标志 $l_t$、车速 $v_t$（离散化，k-means 量化）
+    - K 个 slot 特征 $\mathbf{z}_t^i \in \mathbb{R}^{1 \times d}$（连续，MLP 投影）
+    - 路线向量 $\mathbf{r}_t^1, \mathbf{r}_t^2 \in \mathbb{R}^6$（连续，MLP 投影）
+    - 量化 waypoint $q_t^i$（离散，embedding lookup）
 
 ### Block Attention 机制
 

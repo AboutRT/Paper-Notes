@@ -57,8 +57,8 @@ CoT-Valve分为两个阶段：
 
     - 利用已训练的CoT-Valve在不同α值下生成同一问题的多种长度推理链
     - 两种构建场景：
-      - **Cold-start（MixChain-C）**：有标注数据集（如GSM8K）时，先用标注训练基础模型，再用不同α生成
-      - **Zero-shot（MixChain-Z）**：无标注时，利用基础LLM和对应推理模型之间的参数差作为Δθ（如LLaMA-3.1-8B vs DeepSeek-R1-Distill-Llama-8B）
+        - **Cold-start（MixChain-C）**：有标注数据集（如GSM8K）时，先用标注训练基础模型，再用不同α生成
+        - **Zero-shot（MixChain-Z）**：无标注时，利用基础LLM和对应推理模型之间的参数差作为Δθ（如LLaMA-3.1-8B vs DeepSeek-R1-Distill-Llama-8B）
     - 过滤掉答案错误的推理链
 
 3. **CoT-Valve++：精确控制**

@@ -60,9 +60,9 @@ LoongRL 的 pipeline：(1) 从现有多跳 QA 数据集出发 → (2) 通过 Key
 
     - 功能：渐进式提升任务难度，避免一开始就给太难的数据导致训练不稳定
     - 核心思路：
-      - **Warm-up**（42 steps, 仅 7B 需要）: 在无 KeyChain 的数据上训练（标准多跳 QA + 检索 + 数学），提升基础能力
-      - **Stage I**（168 steps）: 加入 KeyChain 数据，鼓励模型学习 plan-retrieve-reason-recheck 模式
-      - **Stage II**（~120-150 steps）: 对每个样本生成 8 条 rollout，丢弃全部答对的样本（~60-70%），仅在剩余困难样本上继续训练，避免在已掌握问题上过拟合
+        - **Warm-up**（42 steps, 仅 7B 需要）: 在无 KeyChain 的数据上训练（标准多跳 QA + 检索 + 数学），提升基础能力
+        - **Stage I**（168 steps）: 加入 KeyChain 数据，鼓励模型学习 plan-retrieve-reason-recheck 模式
+        - **Stage II**（~120-150 steps）: 对每个样本生成 8 条 rollout，丢弃全部答对的样本（~60-70%），仅在剩余困难样本上继续训练，避免在已掌握问题上过拟合
     - 设计动机：小模型（7B）初始能力弱，直接上 KeyChain 会导致所有 rollout 都失败（reward 全为 0），无法产生有效梯度；大模型（14B）可跳过 warm-up
 
 4. **混合数据配方**

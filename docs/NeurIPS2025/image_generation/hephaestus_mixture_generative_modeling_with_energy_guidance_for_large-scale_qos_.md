@@ -64,9 +64,9 @@ $$
 
 - **做什么**：学习条件解分布 $p(\mathbf{x} \mid [G, \mathcal{K}, T])$
 - **核心思路**：
-  - 训练 EBM $q(\mathbf{x}) = \frac{1}{Z}\exp(-E(\mathbf{x})/\tau)$ 作为真实分布的代理
-  - 训练 Mix-CVAE $\Omega = [\Omega_0, ..., \Omega_N]$ 逼近 EBM 分布
-  - 通过 minimax 优化避免计算归一化常数 $Z$：
+    - 训练 EBM $q(\mathbf{x}) = \frac{1}{Z}\exp(-E(\mathbf{x})/\tau)$ 作为真实分布的代理
+    - 训练 Mix-CVAE $\Omega = [\Omega_0, ..., \Omega_N]$ 逼近 EBM 分布
+    - 通过 minimax 优化避免计算归一化常数 $Z$：
 
 $$\min_{q \in \mathcal{Q}} \max_{\Omega \in \mathfrak{E}} \{\text{KL}(p \| q) - \text{KL}(\Omega \| q)\}$$
 

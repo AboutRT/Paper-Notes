@@ -59,9 +59,9 @@ TCA 是一个免训练的在线自适应框架，由三个核心组件构成：
 
     - 功能：在多头自注意力和前馈层之间执行 token 裁剪与合并
     - 核心思路：
-      - **域感知 Token 评估**：从 DTR 中采样最匹配的域锚 token $\mathbf{A}_{c^*}^{l-1}$，将其与当前 \<cls\> token 拼接后计算注意力：$\text{Attention}([\mathbf{v}_{\text{cls}}^l; \mathbf{A}_{c^*}^{l-1}]\mathbf{W}_Q^h, [\mathbf{V}^l; \mathbf{A}_{c^*}^{l-1}]\mathbf{W}_K^h)$
-      - **跨头评分**：对每个 token 计算跨头平均排名分数 $\mathbf{S}_i^{\text{head}} = \frac{1}{H}\sum_{h=1}^H \text{rank}_h(i)$，而非简单平均注意力分数，避免异常值头的不当影响
-      - **两阶段精简**：先裁剪低排名 token（与类别无关的背景），再对中间排名 token（类别模糊）进行核心集合并
+        - **域感知 Token 评估**：从 DTR 中采样最匹配的域锚 token $\mathbf{A}_{c^*}^{l-1}$，将其与当前 \<cls\> token 拼接后计算注意力：$\text{Attention}([\mathbf{v}_{\text{cls}}^l; \mathbf{A}_{c^*}^{l-1}]\mathbf{W}_Q^h, [\mathbf{V}^l; \mathbf{A}_{c^*}^{l-1}]\mathbf{W}_K^h)$
+        - **跨头评分**：对每个 token 计算跨头平均排名分数 $\mathbf{S}_i^{\text{head}} = \frac{1}{H}\sum_{h=1}^H \text{rank}_h(i)$，而非简单平均注意力分数，避免异常值头的不当影响
+        - **两阶段精简**：先裁剪低排名 token（与类别无关的背景），再对中间排名 token（类别模糊）进行核心集合并
     - 设计动机：（1）原始 \<cls\> token 是通用的，可能捕获与目标类别无关的语义，拼接域锚 token 提供历史上下文对齐；（2）逐头平均注意力分数容易被异常值头主导，跨头排名更鲁棒
 
 3. **Logits Self-correction**:

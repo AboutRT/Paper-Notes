@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Compositional Scene Understanding through Inverse Generative Modeling
 description: >-
-  [图像生成] 本文提出逆生成建模（IGM）框架，将场景理解任务转化为在组合式生成模型中寻找最优条件参数的反演问题，通过将多个小型扩散模型组合来表示复杂场景，实现了强分布外泛化能力，并可直接利用预训练文生图模型进行零样本多目标感知。
+  [ICML2025][图像生成][compositional generation] 本文提出逆生成建模（IGM）框架，将场景理解任务转化为在组合式生成模型中寻找最优条件参数的反演问题，通过将多个小型扩散模型组合来表示复杂场景，实现了强分布外泛化能力，并可直接利用预训练文生图模型进行零样本多目标感知。
 tags:
+  - ICML2025
   - 图像生成
+  - compositional generation
+  - inverse generative modeling
+  - 扩散模型
+  - 场景理解
+  - object discovery
 ---
 
 # Compositional Scene Understanding through Inverse Generative Modeling
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICML2025 |
-| arXiv | [2505.21780](https://arxiv.org/abs/2505.21780) |
-| 代码 | [energy-based-model/compositional-inference](https://energy-based-model.github.io/compositional-inference) |
-| 领域 | image_generation |
-| 关键词 | compositional generation, inverse generative modeling, diffusion models, scene understanding, object discovery |
+**会议**: ICML2025  
+**arXiv**: [2505.21780](https://arxiv.org/abs/2505.21780)  
+**代码**: [energy-based-model/compositional-inference](https://energy-based-model.github.io/compositional-inference)  
+**领域**: image_generation  
+**关键词**: compositional generation, inverse generative modeling, diffusion models, scene understanding, object discovery  
 
 ## 一句话总结
 

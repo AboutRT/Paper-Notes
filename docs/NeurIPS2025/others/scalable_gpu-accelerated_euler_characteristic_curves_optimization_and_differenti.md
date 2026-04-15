@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Scalable GPU-Accelerated Euler Characteristic Curves: Optimization and Differentiable Learning for PyTorch
 description: >-
-  [NeurIPS 2025 Workshop][拓扑深度学习] 提出针对 Ampere GPU 优化的欧拉特征曲线 CUDA 内核实现 16-2000x 加速，并引入可微 PyTorch 层通过 sigmoid 松弛支持端到端拓扑特征学习。
+  [NeurIPS 2025 (NeurReps Workshop)][欧拉特征曲线] 提出面向现代 Ampere GPU 优化的欧拉特征曲线（ECC）CUDA 内核，相比先前 GPU 实现达到 16-2000x 加速，并引入可微 PyTorch 层通过 DECT 风格的 sigmoid 松弛支持在密集网格图像上的端到端拓扑特征学习。
 tags:
-  - NeurIPS 2025 Workshop
-  - 拓扑深度学习
+  - NeurIPS 2025 (NeurReps Workshop)
   - 欧拉特征曲线
-  - CUDA优化
-  - 可微编程
-  - PyTorch
   - GPU加速
+  - 可微编程
+  - CUDA内核
+  - 拓扑数据分析
 ---
 
 # Scalable GPU-Accelerated Euler Characteristic Curves: Optimization and Differentiable Learning for PyTorch

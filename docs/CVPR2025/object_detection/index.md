@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**📷 CVPR2025** · 共 **8** 篇
+**📷 CVPR2025** · **8** 篇论文解读
 
 **[A Bias-Free Training Paradigm For More General Ai-Generated Image Detection](a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)**
 

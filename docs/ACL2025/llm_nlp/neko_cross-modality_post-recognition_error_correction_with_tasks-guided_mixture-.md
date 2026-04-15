@@ -2,20 +2,25 @@
 title: >-
   [论文解读] NeKo: Cross-Modality Post-Recognition Error Correction with Tasks-Guided Mixture-of-Experts Language Model
 description: >-
-  [LLM效率] 提出 NeKo，一种基于任务引导 Mixture-of-Experts (MoE) 的多任务后识别纠错语言模型，在 ASR、语音翻译、OCR 等多个跨模态纠错任务上达到 SOTA，零样本场景下超越 GPT-3.5 和 Claude-3.5 Sonnet。
+  [ACL 2025][LLM/NLP][MoE] 提出 NeKo，一种基于任务引导 Mixture-of-Experts (MoE) 的多任务后识别纠错语言模型，在 ASR、语音翻译、OCR 等多个跨模态纠错任务上达到 SOTA，零样本场景下超越 GPT-3.5 和 Claude-3.5 Sonnet。
 tags:
-  - LLM效率
+  - ACL 2025
+  - LLM/NLP
+  - MoE
+  - 后识别纠错
+  - ASR
+  - OCR
+  - 多任务学习
+  - 语音翻译
 ---
 
 # NeKo: Cross-Modality Post-Recognition Error Correction with Tasks-Guided Mixture-of-Experts Language Model
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ACL 2025 |
-| arXiv | [2411.05945](https://arxiv.org/abs/2411.05945) |
-| 代码 | 计划开源 (CC BY-SA 4.0) |
-| 领域 | LLM Efficiency / Multi-task Learning |
-| 关键词 | MoE, 后识别纠错, ASR, OCR, 多任务学习, 语音翻译 |
+**会议**: ACL 2025  
+**arXiv**: [2411.05945](https://arxiv.org/abs/2411.05945)  
+**代码**: 计划开源 (CC BY-SA 4.0)  
+**领域**: LLM Efficiency / Multi-task Learning  
+**关键词**: MoE, 后识别纠错, ASR, OCR, 多任务学习, 语音翻译  
 
 ## 一句话总结
 

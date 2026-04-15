@@ -49,10 +49,10 @@ tags:
     - 功能：将偏好分歧划分为 4 大类、10 个子类
     - 核心思路：通过人工分析 200 个分歧样本，归纳分歧来源
     - 四大类：
-      - **任务类**（Task Underspecification, 20-22%）：prompt 欠明确，多种合理解读
-      - **响应风格类**（Verbosity 38-44%, Format 20-32%, Complexity 10%, Aesthetic Taste 14-22%）：个人偏好差异
-      - **拒绝类**（Comply vs. Refuse 5%, Refuse vs. Refuse 20%）：安全判断分歧
-      - **错误类**（Hallucinations & Errors 14-24%）：事实错误的判定差异
+        - **任务类**（Task Underspecification, 20-22%）：prompt 欠明确，多种合理解读
+        - **响应风格类**（Verbosity 38-44%, Format 20-32%, Complexity 10%, Aesthetic Taste 14-22%）：个人偏好差异
+        - **拒绝类**（Comply vs. Refuse 5%, Refuse vs. Refuse 20%）：安全判断分歧
+        - **错误类**（Hallucinations & Errors 14-24%）：事实错误的判定差异
     - 设计动机：**超过 75% 的分歧**源于任务欠明确和响应风格等合理偏好差异，而非标注员犯错
     - 标注一致性：Cohen's κ = 0.58-0.59, Krippendorff's α = 0.62-0.68
 

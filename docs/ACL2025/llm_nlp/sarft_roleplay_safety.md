@@ -55,11 +55,11 @@ SaRFT 包含两个阶段：**RDS (Role-Safety Adaptive Data Selection)** — 对
 
     - 功能：为每个角色定制"有害"数据子集，反派角色获得更大的有害子集
     - 核心思路：
-      - 构建三个模型：$\pi_{\text{role}}$（系统提示中加入角色背景）、$\pi_{\text{unsafe}}$（系统提示中加入角色背景 + 不安全指令）、$\pi_{\text{ref}}$（无系统提示的原始模型）
-      - 对每个训练样本 $(x,y)$ 计算两个分数：
+        - 构建三个模型：$\pi_{\text{role}}$（系统提示中加入角色背景）、$\pi_{\text{unsafe}}$（系统提示中加入角色背景 + 不安全指令）、$\pi_{\text{ref}}$（无系统提示的原始模型）
+        - 对每个训练样本 $(x,y)$ 计算两个分数：
        - 角色扮演分：$s_{\text{role}} = \log \frac{\pi_{\text{role}}(y|x)}{\pi_{\text{ref}}(y|x)}$
        - 安全风险分：$s_{\text{unsafe}} = \log \frac{\pi_{\text{unsafe}}(y|x)}{\pi_{\text{ref}}(y|x)}$
-      - 当 $s_{\text{unsafe}} > s_{\text{role}}$ 时，该样本被标记为"有害"，加入 $\mathcal{D}_h$
+        - 当 $s_{\text{unsafe}} > s_{\text{role}}$ 时，该样本被标记为"有害"，加入 $\mathcal{D}_h$
     - 设计动机：利用了 DPO 理论中的隐式奖励函数概念——对齐后的模型概率与 reference 模型概率之比本身就是一个奖励信号。通过系统提示来"模拟"对齐后的状态，无需真正训练 reward model。这是一种零成本的数据评分方法
     - 自适应特性：反派角色（如 Freddy Krueger）的 $\pi_{\text{unsafe}}$ 响应更多样本被标记为有害（40.38%），而正面角色（如 Stephen Hawking）只有 19.67%
 
@@ -67,9 +67,9 @@ SaRFT 包含两个阶段：**RDS (Role-Safety Adaptive Data Selection)** — 对
 
     - 功能：用双目标损失函数同时优化角色扮演和安全
     - 核心思路：
-      - 角色扮演损失：在全量数据 $\mathcal{D}$ 上的标准交叉熵 $L_{\text{CE}}$
-      - 安全保持损失：在有害子集 $\mathcal{D}_h$ 上的 KL 散度 $L_{\text{KL}} = \text{KL}(p_\theta \| p_{\text{ref}})$，约束模型在有害数据上的输出分布不偏离原始安全分布
-      - 总损失：$L = L_{\text{CE}} + \lambda L_{\text{KL}}$
+        - 角色扮演损失：在全量数据 $\mathcal{D}$ 上的标准交叉熵 $L_{\text{CE}}$
+        - 安全保持损失：在有害子集 $\mathcal{D}_h$ 上的 KL 散度 $L_{\text{KL}} = \text{KL}(p_\theta \| p_{\text{ref}})$，约束模型在有害数据上的输出分布不偏离原始安全分布
+        - 总损失：$L = L_{\text{CE}} + \lambda L_{\text{KL}}$
     - 设计动机：对有害数据施加 KL 约束相当于"局部锚定"，只在可能导致安全退化的数据上限制更新，不影响其他数据上的角色学习
 
 3. **角色特质与安全风险的关联发现**:

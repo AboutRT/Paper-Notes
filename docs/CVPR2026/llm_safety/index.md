@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔒 LLM安全
 
-**📷 CVPR2026** · 共 **5** 篇
+**📷 CVPR2026** · **5** 篇论文解读
 
 **[Association And Consolidation Evolutionary Memory-Enhanced Incremental Multi-Vie](association_and_consolidation_evolutionary_memory-enhanced_incremental_multi-vie.md)**
 

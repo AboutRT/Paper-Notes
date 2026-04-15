@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Unified Framework for Variable Selection in Model-Based Clustering with Missing Not at Random
 description: >-
-  [NeurIPS 2025][统计学习] 提出SelvarMNARz框架，在高斯混合模型聚类中同时完成变量选择和MNAR缺失数据处理，通过两阶段策略（惩罚排序+BIC角色分配）实现高效推理，并给出可辨识性和选择一致性的理论保证。
+  [NeurIPS 2025][模型聚类] 在高斯混合模型的聚类框架中，统一解决变量选择（区分信号变量、冗余变量和噪声变量）与MNAR缺失数据建模，通过两阶段策略（LASSO惩罚排序加BIC角色分配）和谱距离自适应惩罚权重实现高维场景下的高效推理，并证明了可辨识性和渐近选择一致性。
 tags:
   - NeurIPS 2025
-  - model-based clustering
-  - variable selection
-  - MNAR
-  - Gaussian mixture model
-  - LASSO
-  - EM算法
+  - 模型聚类
+  - 变量选择
+  - MNAR缺失
+  - 高斯混合模型
+  - LASSO惩罚
+  - BIC一致性
 ---
 
 # A Unified Framework for Variable Selection in Model-Based Clustering with Missing Not at Random

@@ -2,20 +2,24 @@
 title: >-
   [论文解读] Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy
 description: >-
-  [多模态] 提出Dita(Diffusion Transformer Policy)，区别于先前方法用浅层网络在embedding上去噪，采用in-context conditioning让去噪直接条件化于原始视觉token，通过causal Transformer处理语言+图像+timestep+噪声动作的完整token序列，334M参数在SimplerEnv零样本/LIBERO/CALVIN等benchmark上达到SOTA或可比性能。
+  [ICCV 2025][多模态][VLA] 提出Dita(Diffusion Transformer Policy)，区别于先前方法用浅层网络在embedding上去噪，采用in-context conditioning让去噪直接条件化于原始视觉token，通过causal Transformer处理语言+图像+timestep+噪声动作的完整token序列，334M参数在SimplerEnv零样本/LIBERO/CALVIN等benchmark上达到SOTA或可比性能。
 tags:
+  - ICCV 2025
   - 多模态
+  - VLA
+  - 扩散策略
+  - DiT
+  - in-context conditioning
+  - 跨embodiment
 ---
 
 # Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy
 
-| 属性 | 值 |
-|------|------|
-| 会议 | ICCV 2025 |
-| arXiv | [2503.19757](https://arxiv.org/abs/2503.19757) |
-| 代码 | [Project](https://robodita.github.io) |
-| 领域 | 机器人策略 / VLA模型 |
-| 关键词 | VLA, 扩散策略, DiT, in-context conditioning, 跨embodiment |
+**会议**: ICCV 2025  
+**arXiv**: [2503.19757](https://arxiv.org/abs/2503.19757)  
+**代码**: [Project](https://robodita.github.io)  
+**领域**: 机器人策略 / VLA模型  
+**关键词**: VLA, 扩散策略, DiT, in-context conditioning, 跨embodiment  
 
 ## 一句话总结
 

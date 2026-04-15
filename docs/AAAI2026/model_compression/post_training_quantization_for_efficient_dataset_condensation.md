@@ -57,9 +57,9 @@ Pipeline：(I) 合成图像 → 量化感知精炼 → (II) 补丁提取 → k-m
     - 将图像 x 分为 P 个非重叠补丁 $\{x_i\}_{i=1}^P$，每个补丁 $x_i \in \mathbb{R}^{h \times w \times C}$
     - 每个补丁独立量化：$x_i^q = Q(x_i, \theta_i)$，其中 $\theta_i = (\alpha_i, z_i)$
     - 非对称量化公式：
-      - 缩放因子：$\alpha = \frac{\max(x) - \min(x)}{Q_{max} - Q_{min}}$
-      - 零点：$z = \lfloor Q_{min} - \frac{\min(x)}{\alpha} \rceil$
-      - 量化/反量化：$x^q = \lfloor \frac{x}{\alpha} + z \rceil$，$x^{deq} = (x^q - z) \cdot \alpha$
+        - 缩放因子：$\alpha = \frac{\max(x) - \min(x)}{Q_{max} - Q_{min}}$
+        - 零点：$z = \lfloor Q_{min} - \frac{\min(x)}{\alpha} \rceil$
+        - 量化/反量化：$x^q = \lfloor \frac{x}{\alpha} + z \rceil$，$x^{deq} = (x^q - z) \cdot \alpha$
     - 相比全图量化：2-bit 下 PAQ 达到 47.5% vs 全精度 48.9%，几乎无损
     - 设计动机：全图量化用单一参数覆盖整张图，无法适应空间上纹理和细节的变化
 

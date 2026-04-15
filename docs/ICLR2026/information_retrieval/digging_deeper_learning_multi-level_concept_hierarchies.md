@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Digging Deeper: Learning Multi-Level Concept Hierarchies
 description: >-
-  [ICLR 2026 Workshop on Principled Design for Trustworthy AI][概念层次结构] 本文提出Multi-Level Concept Splitting（MLCS）从仅有的顶层概念监督中自动发现多层次概念层级，结合Deep-HiCEMs架构表示这些层级结构，使模型在保持高精度的同时支持多个抽象层次的测试时概念干预。
+  [ICLR 2026 Workshop on Principled Design for Trustworthy AI][多层概念层次] 本文提出 Multi-Level Concept Splitting（MLCS）将概念分裂过程从单层递归扩展到多层，仅用顶层概念标注就能自动发现任意深度的概念层级树，并设计 Deep-HiCEMs 架构来表示和利用这些深层层级，实现多粒度的测试时概念干预。
 tags:
   - ICLR 2026 Workshop on Principled Design for Trustworthy AI
-  - 概念层次结构
-  - 可解释模型
+  - 多层概念层次
+  - 概念嵌入模型
   - 概念分裂
   - 子概念发现
-  - 概念干预
+  - 测试时干预
 ---
 
 # Digging Deeper: Learning Multi-Level Concept Hierarchies

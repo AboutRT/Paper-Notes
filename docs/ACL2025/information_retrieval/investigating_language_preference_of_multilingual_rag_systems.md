@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Investigating Language Preference of Multilingual RAG Systems
 description: >-
-  [ACL 2025][多语言RAG] 系统研究多语言RAG系统在检索和生成两个阶段的语言偏好问题，提出 MLRS 指标量化检索器语言偏好，并设计 DKM-RAG 框架通过融合翻译段落与模型内部知识来缓解偏好问题。
+  [ACL 2025][multilingual RAG] 系统研究多语言 RAG 系统在检索和生成两个阶段的语言偏好问题，提出 MLRS 指标量化检索器对特定语言的偏好程度，揭示检索器偏好高资源语言和查询语言、生成器偏好查询语言和拉丁字母语言的现象，并设计 DKM-RAG 框架通过融合翻译段落与模型内部知识有效缓解偏好问题。
 tags:
   - ACL 2025
-  - 多语言RAG
-  - 语言偏好
-  - 检索器偏好
-  - 生成器偏好
+  - multilingual RAG
+  - language preference
+  - MLRS
   - DKM-RAG
+  - cross-lingual retrieval
 ---
 
 # Investigating Language Preference of Multilingual RAG Systems
@@ -71,10 +71,10 @@ tags:
 
     - 功能：缓解 mRAG 中的语言偏好，提升跨语言回答质量
     - 四步流程：
-      - Step 1（检索+重排序）：从多语言知识库检索文档，使用 BGE-m3 重排序
-      - Step 2（翻译）：将所有检索文档翻译为查询语言，得到 $P_{translated}$
-      - Step 3（精炼）：用 Rewriter LLM 结合内部知识重写翻译段落——去除冗余、过滤不相关信息、补充可靠内容，得到 $P_{refined}$
-      - Step 4（融合）：拼接 $P_{translated}$ 和 $P_{refined}$ 作为生成器的最终输入
+        - Step 1（检索+重排序）：从多语言知识库检索文档，使用 BGE-m3 重排序
+        - Step 2（翻译）：将所有检索文档翻译为查询语言，得到 $P_{translated}$
+        - Step 3（精炼）：用 Rewriter LLM 结合内部知识重写翻译段落——去除冗余、过滤不相关信息、补充可靠内容，得到 $P_{refined}$
+        - Step 4（融合）：拼接 $P_{translated}$ 和 $P_{refined}$ 作为生成器的最终输入
     - 设计动机：仅翻译可纠正语言不匹配但无法过滤高资源语言中的不相关内容；精炼利用模型内部知识可以进一步提升信息质量。双知识源（外部翻译 + 内部精炼）互补
 
 ### 损失函数 / 训练策略

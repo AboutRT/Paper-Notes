@@ -59,7 +59,7 @@ OLAF 是一个即插即用的增强框架，由三个互补的组件构成：
 
 - **做什么**：将预训练模型生成的二值前景掩码和前景边缘掩码拼接到 RGB 图像后面，构成 $H \times W \times 5$ 的输入。
 - **核心思路**：
-  - 前景掩码 $fb(x,y)$：使用预训练物体分割网络获得物体预测，合并所有物体类别的预测区域得到二值前景/背景图。数学定义为：
+    - 前景掩码 $fb(x,y)$：使用预训练物体分割网络获得物体预测，合并所有物体类别的预测区域得到二值前景/背景图。数学定义为：
   $$fb(x,y) = \begin{cases} 1, & \text{if } P(x,y) \in C \text{ and } P(x,y) \neq 0 \\ 0, & \text{otherwise} \end{cases}$$
   - 边缘掩码 $edge$：使用 HED 边缘检测网络获得初始边缘图，再用前景掩码过滤掉背景区域的边缘：
   $$edge = \mathbb{I}[edge_{initial} > 0] \odot fb$$
@@ -70,10 +70,10 @@ OLAF 是一个即插即用的增强框架，由三个互补的组件构成：
 
 - **做什么**：从骨干网络的前两个 block 提取浅层特征，经处理后向解码器提供低层稠密特征引导。
 - **核心思路**：
-  - 取骨干网络第一、第二个 block 的特征 $x_1$、$x_2$
-  - 对 $x_1$ 用 $3 \times 3$ 卷积增强，对 $x_2$ 用 $3 \times 3$ 卷积 + 上采样使尺寸匹配 $x_1$，然后拼接
-  - 拼接后的特征送入 ASPP（Atrous Spatial Pyramid Pooling）获取多尺度上下文信息
-  - 最终用 $1 \times 1$ 卷积降维
+    - 取骨干网络第一、第二个 block 的特征 $x_1$、$x_2$
+    - 对 $x_1$ 用 $3 \times 3$ 卷积增强，对 $x_2$ 用 $3 \times 3$ 卷积 + 上采样使尺寸匹配 $x_1$，然后拼接
+    - 拼接后的特征送入 ASPP（Atrous Spatial Pyramid Pooling）获取多尺度上下文信息
+    - 最终用 $1 \times 1$ 卷积降维
   $$feat(x_1, x_2) = Conv_{3 \times 3}(x_1) \oplus UP(Conv_{3 \times 3}(x_2))$$
   $$LDF(x_1, x_2) = Conv_{1 \times 1}(ASPP(feat(x_1, x_2)))$$
   其中 $\oplus$ 为拼接操作，$UP(\cdot)$ 为上采样+$1 \times 1$卷积+BN+ReLU。

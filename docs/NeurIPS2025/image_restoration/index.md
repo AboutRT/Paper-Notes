@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 图像恢复方向 27篇论文解读
+  NeurIPS2025 图像恢复方向 25篇论文解读
 description: >-
-  27篇NeurIPS2025 图像恢复方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  25篇NeurIPS2025 图像恢复方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🧠 NeurIPS2025** · 共 **27** 篇
+**🧠 NeurIPS2025** · **25** 篇论文解读
 
 **[Adaptive Discretization For Consistency Models](adaptive_discretization_for_consistency_models.md)**
 
@@ -49,10 +49,6 @@ description: >-
 **[Latent Harmony Synergistic Unified Uhd Image Restoration Via Latent Space Regula](latent_harmony_synergistic_unified_uhd_image_restoration_via_latent_space_regula.md)**
 
 :   提出 Latent Harmony 两阶段框架，通过潜在空间正则化构建泛化性 VAE（LH-VAE），并引入高频引导的可控 LoRA 微调机制，在保持结构完整性的同时实现 UHD 图像多退化类型统一修复的保真度-感知质量灵活权衡。
-
-**[Latent Harmony Synergistic Unified Uhd Image Restoration With Pre-Trained Diffus](latent_harmony_synergistic_unified_uhd_image_restoration_with_pre-trained_diffus.md)**
-
-:   提出 Latent Harmony 两阶段框架，通过潜在空间正则化构建退化鲁棒的 LH-VAE，再用高频引导的 LoRA 微调分别优化编码器（保真度）和解码器（感知质量），实现 UHD 全能图像复原中泛化-重建-感知三重权衡的统一解决方案。
 
 **[Learning Cocoercive Conservative Denoisers Via Helmholtz Decomposition For Poiss](learning_cocoercive_conservative_denoisers_via_helmholtz_decomposition_for_poiss.md)**
 
@@ -113,7 +109,3 @@ description: >-
 **[The Effect Of Optimal Self-Distillation In Noisy Gaussian Mixture Model](the_effect_of_optimal_self-distillation_in_noisy_gaussian_mixture_model.md)**
 
 :   利用统计物理的replica方法对噪声高斯混合数据上的超参优化多阶段自蒸馏进行严格理论分析，揭示硬伪标签的去噪效应是自蒸馏性能提升的主要驱动力，中等规模数据集获益最显著，并提出早停（限制蒸馏阶段数）和偏置参数固定两个实用改进策略，CIFAR-10+ResNet实验验证了理论预测。
-
-**[Video Killed The Energy Budget Characterizing The Latency And Power Regimes Of O](video_killed_the_energy_budget_characterizing_the_latency_and_power_regimes_of_o.md)**
-
-:   本文对开源文本到视频（T2V）模型进行系统性的延迟和能耗刻画：以 WAN2.1-T2V 为参考模型建立了基于 FLOP 分解的 compute-bound 理论解析模型，实验验证了空间/时间维度的二次缩放和去噪步数的线性缩放规律，并横向对比了 7 个 T2V 模型发现能耗差异可达约 3000 倍。

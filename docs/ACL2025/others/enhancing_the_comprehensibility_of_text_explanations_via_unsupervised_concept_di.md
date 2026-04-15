@@ -68,10 +68,10 @@ ECO-Concept 由三个模块组成：
 
     - **概念重要性**：$\beta_m = \frac{1}{|\mathcal{B}|} \sum_{\bm{t} \in \mathcal{B}} \bm{t}_m \sum_{\omega=1}^{\Omega} |\bm{W}_{m,\omega}|$，综合考虑激活值和分类器权重
     - **可理解性度量流程**：
-      - (a) 从每个概念中选最高激活样本构建两个集合 $\mathcal{D}_{sum}$ 和 $\mathcal{D}_{high}$
-      - (b) 将 $\mathcal{D}_{sum}$ 的样本和注意力值交给 GPT-4o，让其总结"这个概念关注什么"
-      - (c) 如果 LLM 判断概念有语义意义，则用 GPT-4o-mini 在 $\mathcal{D}_{high}$ 的新样本上标注概念相关 token（0-1 标注矩阵 $\bm{S}$）
-      - (d) 如果概念无语义意义，设 $\bm{S}$ 全零以压制该概念
+        - (a) 从每个概念中选最高激活样本构建两个集合 $\mathcal{D}_{sum}$ 和 $\mathcal{D}_{high}$
+        - (b) 将 $\mathcal{D}_{sum}$ 的样本和注意力值交给 GPT-4o，让其总结"这个概念关注什么"
+        - (c) 如果 LLM 判断概念有语义意义，则用 GPT-4o-mini 在 $\mathcal{D}_{high}$ 的新样本上标注概念相关 token（0-1 标注矩阵 $\bm{S}$）
+        - (d) 如果概念无语义意义，设 $\bm{S}$ 全零以压制该概念
     - **可理解性损失**：$\mathcal{L}_{com} = \frac{1}{M} \sum_{m=1}^{M} \frac{\beta_m \sum \|\bm{A}_{m,:} - \bm{S}_{m,:}\|_2^2}{|\mathcal{B}_m \cap \mathcal{D}_{high}|}$
     - 迭代微调直到所有概念的语义稳定
 

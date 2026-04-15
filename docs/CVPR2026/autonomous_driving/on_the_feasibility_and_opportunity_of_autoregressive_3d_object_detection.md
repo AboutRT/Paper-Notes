@@ -62,7 +62,7 @@ AutoReg3D 采用 **编码器-解码器架构**：任意点云编码器（pillar/
 
 - 冻结编码器，仅优化自回归检测头
 - 采样 G=8 组检测序列，设计基于 **IoU 的 F1 reward**：
-  - 对每个类别计算 GT 框与预测框的最大 IoU，再算 Precision/Recall 的调和平均
+    - 对每个类别计算 GT 框与预测框的最大 IoU，再算 Precision/Recall 的调和平均
 - 使用 GRPO 目标（β=0 无 KL 惩罚），直接优化集合级检测质量
 
 ### 级联精炼（Cascading Refinement）

@@ -1,13 +1,10 @@
 ---
-title: "In the Eye of MLLM: Benchmarking Egocentric Video Intent Understanding with Gaze-Guided Prompting"
-description: "提出EgoGazeVQA基准，首次将眼动注视信号引入第一人称视频意图理解，通过三种注视引导提示策略显著提升MLLM在空间/时间/因果意图推理上的表现"
+title: >-
+  [论文解读] In the Eye of MLLM: Benchmarking Egocentric Video Intent Understanding with Gaze-Guided Prompting
+description: >-
+  [视频理解] 提出 EgoGazeVQA 基准和三种注视引导提示策略（文本/视觉/显著图），首次系统验证了眼动注视信号对提升 MLLM 第一人称视频意图理解的关键价值，Qwen2.5-VL-72B + GazeS 策略在平均准确率上提升 5.8 个百分点。
 tags:
-  - egocentric video
-  - gaze estimation
-  - video QA
-  - benchmark
-  - multimodal LLM
-  - NeurIPS2025
+  - 视频理解
 ---
 
 # In the Eye of MLLM: Benchmarking Egocentric Video Intent Understanding with Gaze-Guided Prompting

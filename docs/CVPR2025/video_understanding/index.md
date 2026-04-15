@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 视频理解方向 16篇论文解读
+  CVPR2025 视频理解方向 14篇论文解读
 description: >-
-  16篇CVPR2025 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  14篇CVPR2025 视频理解方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🎬 视频理解
+# 📹 视频理解
 
-**📷 CVPR2025** · 共 **16** 篇
+**📷 CVPR2025** · **14** 篇论文解读
 
 **[Animateanything Consistent And Controllable Animation For Video Generation](animateanything_consistent_and_controllable_animation_for_video_generation.md)**
 
@@ -30,10 +30,6 @@ description: >-
 
 :   通过掩码建模在自我中心和外部视角之间学习细粒度视图不变表示，无需配对标注即可从两种视角的关联中自监督学习
 
-**[Can Text-To-Video Generation Help Video-Language Alignment](can_text-to-video_generation_help_video-language_alignment.md)**
-
-:   本文首次探索利用文本到视频生成模型产生的合成视频来改善视频语言对齐（VLA）的时序理解，提出SynViTA方法通过对齐质量加权和语义一致性正则化来有效利用合成视频，在多个VLA基准上取得了平均性能提升。
-
 **[Coarse Correspondences Boost Spatial-Temporal Reasoning In Multimodal Language M](coarse_correspondences_boost_spatial-temporal_reasoning_in_multimodal_language_m.md)**
 
 :   本文提出Coarse Correspondences，一种轻量级的training-free视觉提示方法，通过在图像帧上叠加目标跟踪得到的粗粒度实例对应关系标记，显著增强MLLM的空间时序推理能力，在ScanQA上提升+20.5%、OpenEQA上+9.7%、EgoSchema上+6.0%和R2R导航上+11%。
@@ -53,10 +49,6 @@ description: >-
 **[Reasoning Over Video Evaluating How Mllms Extract Integrate And Reconstruct Spat](reasoning_over_video_evaluating_how_mllms_extract_integrate_and_reconstruct_spat.md)**
 
 :   提出 VAEX-Bench 基准，首次系统评估 MLLM 的"抽象时空推理"能力——不是从单帧提取信息，而是需要跨房间/跨时间整合观察来推断全局空间布局、跨场景计数等，发现所有 SOTA 模型（包括 GPT-5.2、Gemini-3 Pro）在抽象推理上表现远低于人类。
-
-**[Semantic Satellite Communications For Synchronized Audiovisual Reconstruction](semantic_satellite_communications_for_synchronized_audiovisual_reconstruction.md)**
-
-:   提出一种LLM驱动的自适应多模态语义卫星传输系统，通过双流生成架构（V2A/A2V）灵活切换视频驱动音频生成和音频驱动视频生成，结合动态知识库更新机制，在极低带宽卫星链路上实现高保真音视频同步重建。
 
 **[Vcbench A Streaming Counting Benchmark For Spatial-Temporal State Maintenance In](vcbench_a_streaming_counting_benchmark_for_spatial-temporal_state_maintenance_in.md)**
 

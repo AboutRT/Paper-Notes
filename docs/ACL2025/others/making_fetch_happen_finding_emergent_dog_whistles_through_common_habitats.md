@@ -61,8 +61,8 @@ tags:
     - **第一阶段（向量化）**：使用 all-MiniLM-L6-v2 将所有帖子编码为向量并存入 ChromaDB 向量数据库。
     - **第二阶段（近邻检索）**：获取包含种子狗哨的帖子的向量，找到最近邻帖子（不包含自身），捕获语义相关但不共享精确词汇的帖子。
     - **第三阶段（两条路径）**：
-      - **DIRECT 路径**：直接将近邻帖子传给 LLM（LLaMA 8B/13B、Mistral 7B），提示模型提取其中的狗哨并以 JSON 格式输出。
-      - **PREDICT 路径**：先用仇恨言论分类器（BERT 系列）或 LLM 过滤帖子，再用关键词提取算法（KeyBERT、RAKE、YAKE、TextRank、TF-IDF）提取候选词。
+        - **DIRECT 路径**：直接将近邻帖子传给 LLM（LLaMA 8B/13B、Mistral 7B），提示模型提取其中的狗哨并以 JSON 格式输出。
+        - **PREDICT 路径**：先用仇恨言论分类器（BERT 系列）或 LLM 过滤帖子，再用关键词提取算法（KeyBERT、RAKE、YAKE、TextRank、TF-IDF）提取候选词。
 
 ### 损失函数 / 训练策略
 

@@ -45,8 +45,8 @@ tags:
 #### 1. 贡献分类体系（Taxonomy）
 
 - **做什么**: 将 NLP 论文贡献分为 2 大类 8 子类
-  - **知识类 (Knowledge)**: k-dataset（数据集新知）、k-language（语言新知）、k-method（方法/模型分析）、k-people（人/社会新知）、k-task（任务新知）
-  - **工件类 (Artifact)**: a-dataset（新数据集）、a-method（新方法/模型）、a-task（新任务）
+    - **知识类 (Knowledge)**: k-dataset（数据集新知）、k-language（语言新知）、k-method（方法/模型分析）、k-people（人/社会新知）、k-task（任务新知）
+    - **工件类 (Artifact)**: a-dataset（新数据集）、a-method（新方法/模型）、a-task（新任务）
 - **为什么**: 与 ACL'23 call for papers 对齐（征稿要求分析类 or 资源类贡献），且覆盖了 NLP 研究中最核心的五个实体（方法、数据集、任务、语言、人）
 - **怎么做**: 基于作者 NLP 研究经验和已有文献的综合归纳，迭代式定义，配合 ontology-oriented 标注指南
 

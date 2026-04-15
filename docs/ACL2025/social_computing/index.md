@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**💬 ACL2025** · 共 **23** 篇
+**💬 ACL2025** · **23** 篇论文解读
 
 **[A Survey On Proactive Defense Strategies Against Misinformation In Large Languag](a_survey_on_proactive_defense_strategies_against_misinformation_in_large_languag.md)**
 

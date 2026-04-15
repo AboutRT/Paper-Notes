@@ -2,7 +2,7 @@
 title: >-
   [论文解读] GraphFaaS: Serverless GNN Inference for Burst-Resilient, Real-Time Intrusion Detection
 description: >-
-  [NeurIPS 2025][图学习][系统] 提出 GraphFaaS——基于 Serverless 架构的 GNN 入侵检测推理系统，通过时间局部性日志过滤、特征长度感知的并行节点嵌入和贪心 best-fit 图分区，在 DARPA TC 数据集上实现平均检测延迟降低 6.7 倍（14.16s→2.1s）且变异系数降低 64%，同时保持检测准确率不变。
+  [NeurIPS 2025][图学习][图神经网络] 提出 GraphFaaS，一种专为 GNN 入侵检测设计的 Serverless 推理架构，通过来源图的增量构建、特征长度感知的并行节点嵌入和贪心 best-fit 子图分区，将平均检测延迟从 14.16 秒降至 2.1 秒（6.7 倍），变异系数从 1.46 降至 0.52（64% 降低），在突发负载下保持稳定低延迟且不损失检测准确率。
 tags:
   - NeurIPS 2025
   - 图学习

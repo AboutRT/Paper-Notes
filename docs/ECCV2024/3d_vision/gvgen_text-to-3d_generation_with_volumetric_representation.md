@@ -72,10 +72,10 @@ GVGEN分为两大阶段：
 
     - **做什么**: 在固定高斯数量的约束下，实现有效的剪枝和密化
     - **核心思路**: 
-      - 初始化候选池 $P = \emptyset$
-      - **剪枝**: 根据梯度阈值 $\tau_p$ 确定需剪枝的点 $G_p$，将其"停用"并存入候选池（不参与前向/反向）
-      - **密化**: 根据阈值 $\tau_d$ 确定需密化的点 $G_d$，从候选池中找最近的"停用"点 $G_{new}$ 激活到 $G_d$ 附近
-      - **优化结束**: 释放池中所有点重新参与优化
+        - 初始化候选池 $P = \emptyset$
+        - **剪枝**: 根据梯度阈值 $\tau_p$ 确定需剪枝的点 $G_p$，将其"停用"并存入候选池（不参与前向/反向）
+        - **密化**: 根据阈值 $\tau_d$ 确定需密化的点 $G_d$，从候选池中找最近的"停用"点 $G_{new}$ 激活到 $G_d$ 附近
+        - **优化结束**: 释放池中所有点重新参与优化
     - **设计动机**: 原始3DGS的自由剪枝/密化会改变高斯总数，不适用于固定体积分辨率；不使用CPS时高斯中心移动范围受限，几何质量下降(PSNR降低0.45 dB)
 
 3. **Gaussian Distance Field (GDF, 高斯距离场)**:
@@ -96,7 +96,7 @@ GVGEN分为两大阶段：
 ### 损失函数 / 训练策略
 
 - **GaussianVolume拟合损失**: $\mathcal{L}_{fitting} = \lambda_1\mathcal{L}_1 + \lambda_2\mathcal{L}_{SSIM} + \lambda_3\mathcal{L}_{offsets}$
-  - 偏移正则化: $\mathcal{L}_{offsets} = \text{Mean}(\text{ReLU}(|\Delta\mu - \epsilon_{offsets}|))$，限制高斯中心不偏离网格点太远
+    - 偏移正则化: $\mathcal{L}_{offsets} = \text{Mean}(\text{ReLU}(|\Delta\mu - \epsilon_{offsets}|))$，限制高斯中心不偏离网格点太远
 - **GDF扩散损失**: MSE噪声预测损失
 - **属性预测损失**: 3D MSE + 2D渲染损失组合
 - 训练数据: Objaverse-LVIS (约46,000个3D模型, 1,156类)，文本描述来自Cap3D (BLIP-2 + GPT-4)

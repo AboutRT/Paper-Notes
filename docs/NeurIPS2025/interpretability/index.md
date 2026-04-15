@@ -8,7 +8,7 @@ description: >-
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🧠 NeurIPS2025** · 共 **80** 篇
+**🧠 NeurIPS2025** · **80** 篇论文解读
 
 **[A Is For Absorption Studying Feature Splitting And Absorption In Sparse Autoenco](a_is_for_absorption_studying_feature_splitting_and_absorption_in_sparse_autoenco.md)**
 

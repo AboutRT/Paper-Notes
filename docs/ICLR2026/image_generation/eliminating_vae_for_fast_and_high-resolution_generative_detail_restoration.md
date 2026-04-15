@@ -61,8 +61,8 @@ GenDR-Pix = GenDR - VAE + ×8 pixel-(un)shuffle + 多阶段对抗蒸馏 + PadCFG
     - 将 decoder 替换为 ×8 pixel-shuffle 层
     - **问题 1 - 重复模式伪影**：×8 upscaling 中一个不当的权重值会在所有 8×8 patch 上产生相同伪影
     - **解法 - Masked Fourier Space (MFS) Loss**：
-      - 观察到频域中伪影呈周期性高光点，与 pixel-shuffle 缩放因子对齐
-      - 设计带通拒绝滤波器 mask $\mathcal{M}$，对异常振幅施加惩罚：
+        - 观察到频域中伪影呈周期性高光点，与 pixel-shuffle 缩放因子对齐
+        - 设计带通拒绝滤波器 mask $\mathcal{M}$，对异常振幅施加惩罚：
     $\mathcal{L}_{\mathcal{F}} = \|\mathcal{M} \cdot (|\mathcal{F}\{y_{\text{stu}}\}| - |\mathcal{F}\{y_{\text{tea}}\}|)\|_1$
    
     - **问题 2 - 缺乏合适判别器**：latent 空间的判别器无法处理 pixel-shuffled 特征

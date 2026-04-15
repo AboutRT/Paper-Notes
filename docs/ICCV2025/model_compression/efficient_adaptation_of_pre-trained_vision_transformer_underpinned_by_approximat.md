@@ -47,8 +47,8 @@ AOFT 是一种通用的投影矩阵替代策略，可以插入到 LoRA、Adapter
 
     - 功能：用一个向量 $\vec{q} = (q_0, q_1, \cdots, q_N)^\top$ 构造正交矩阵 $\mathbf{Q}$
     - 核心思路：$\mathbf{Q}$ 的构造基于 Householder 变换的推广形式。矩阵 $\mathbf{Q}$ 的第 $(i,j)$ 元素为：
-      - 第一行：$q_0, -q_1, -q_2, \cdots, -q_N$
-      - 其余：对角元素 $1 - \frac{q_i q_i}{1+q_0}$，非对角元素 $-\frac{q_j q_i}{1+q_0}$
+        - 第一行：$q_0, -q_1, -q_2, \cdots, -q_N$
+        - 其余：对角元素 $1 - \frac{q_i q_i}{1+q_0}$，非对角元素 $-\frac{q_j q_i}{1+q_0}$
     - 当满足归一化约束 $\sum_{i=1}^N |q_i|^2 = 1$ 时，$\mathbf{Q}$ 严格正交
     - **关键放松**：不严格施加此归一化，使列向量保持"近似"正交，增强模型灵活性
     - 操作定义：$\text{AO}(\vec{q}) = \mathbf{Q}[:, 0:d]$，取前 $d$ 列

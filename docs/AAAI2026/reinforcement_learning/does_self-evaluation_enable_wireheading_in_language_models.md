@@ -60,9 +60,9 @@ tags:
 
     - 功能：隔离奖励通道控制对分数膨胀的因果效应
     - 核心思路：
-      - **Control**：奖励 = 外部ground truth（无自评分，无wireheading能力）
-      - **Honest**：模型生成自评分，但奖励仍 = 外部ground truth（有自评分但与奖励解耦）
-      - **Selfgrade**：奖励 = 模型自评分（自评分控制奖励通道）
+        - **Control**：奖励 = 外部ground truth（无自评分，无wireheading能力）
+        - **Honest**：模型生成自评分，但奖励仍 = 外部ground truth（有自评分但与奖励解耦）
+        - **Selfgrade**：奖励 = 模型自评分（自评分控制奖励通道）
     - 设计动机：Honest和Selfgrade唯一区别是自评分是否控制奖励。如果Selfgrade独有的分数膨胀出现，可归因于奖励通道控制而非自评估行为本身
 
 ### 损失函数 / 训练策略

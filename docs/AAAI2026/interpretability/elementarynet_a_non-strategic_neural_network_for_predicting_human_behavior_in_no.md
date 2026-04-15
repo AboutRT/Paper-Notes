@@ -65,10 +65,10 @@ $$f_i(G) = \sum_{p=1}^{P} w_p \cdot h_i^p(\Phi^p(G))$$
 #### 3. **两种实例化：learned-potential 与 fixed-potential**
 - **Learned-potential**：$P$ 个可学习的线性势函数 $\varphi^p(x,y) = \theta_x^p x + \theta_y^p y$，参数通过训练学得。
 - **Fixed-potential**：使用 4 个固定势函数：
-  - $\varphi_{\text{own}}(x,y) = x$（己方收益）
-  - $\varphi_{\text{opp}}(x,y) = y$（对方收益）
-  - $\varphi_{\text{sum}}(x,y) = x + y$（社会福利）
-  - $\varphi_{\text{diff}}(x,y) = x - y$（公平性）
+    - $\varphi_{\text{own}}(x,y) = x$（己方收益）
+    - $\varphi_{\text{opp}}(x,y) = y$（对方收益）
+    - $\varphi_{\text{sum}}(x,y) = x + y$（社会福利）
+    - $\varphi_{\text{diff}}(x,y) = x - y$（公平性）
 - **设计动机**：fixed-potential 对应认知心理学中已知的启发式策略，可用于研究人类行为到底主要受哪些因素驱动。
 
 #### 4. **非策略性的形式化证明（定理3）**

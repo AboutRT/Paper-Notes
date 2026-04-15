@@ -53,9 +53,9 @@ tags:
 
     - 功能：证明含 $k$ 个不同变量、嵌套深度 $\ell$ 的 $\mathsf{FO}+\mathsf{M}^2$ 公式可在 $\mathsf{uAHAT}^0_k$ 中计算
     - 核心思路：用 $n^k$ 个 padding token 枚举 $k$ 个变量的所有 $n^k$ 种赋值。每个 token $v$ 存储赋值 $v$ 下各子公式的真值。通过归纳法，每层计算一级公式：
-      - 常量/变量：通过 layer-norm hash $\phi(z) = \langle z,1,-z,-1\rangle / \sqrt{2z^2+2}$ 检索位置
-      - 量词 $\exists i. P$：从赋值 $v$ attention 到所有 $v'$（除变量 $i$ 外其余一致），取均值得 $c/n$，与 $1/(2n)$ 比较
-      - 成对多数量词 $\mathsf{M}^2(i,j).P$：类似地，attention 到除 $i,j$ 外一致的 $v'$，得到 $c/n^2$，与 $1/2$ 比较
+        - 常量/变量：通过 layer-norm hash $\phi(z) = \langle z,1,-z,-1\rangle / \sqrt{2z^2+2}$ 检索位置
+        - 量词 $\exists i. P$：从赋值 $v$ attention 到所有 $v'$（除变量 $i$ 外其余一致），取均值得 $c/n$，与 $1/(2n)$ 比较
+        - 成对多数量词 $\mathsf{M}^2(i,j).P$：类似地，attention 到除 $i,j$ 外一致的 $v'$，得到 $c/n^2$，与 $1/2$ 比较
     - 设计动机：$\mathsf{FO}+\mathsf{M}^2$ 等价于 $\mathsf{FO}\text{-uniform } \mathsf{TC}^0$，通过证 padding 可模拟这个逻辑的所有算子，得到下界
 
 2. **Reduction 框架引入 Transformer 分析** (Lemma 3):
