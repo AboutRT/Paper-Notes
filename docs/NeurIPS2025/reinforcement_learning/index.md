@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 强化学习方向 160篇论文解读
+  NeurIPS2025 强化学习方向 161篇论文解读
 description: >-
-  160篇NeurIPS2025 强化学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  161篇NeurIPS2025 强化学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧠 NeurIPS2025** · **160** 篇论文解读
+**🧠 NeurIPS2025** · **161** 篇论文解读
 
 **[A Generalized Bisimulation Metric Of State Similarity Betwee](a_generalized_bisimulation_metric_of_state_similarity_betwee.md)**
 
@@ -213,6 +213,10 @@ description: >-
 **[Foundation Models As World Models A Foundational Study In Text-Based Gridworlds](foundation_models_as_world_models_a_foundational_study_in_text-based_gridworlds.md)**
 
 :   系统性评估了基础模型（LLM）作为零样本世界模型（FWM）和直接决策智能体（FA）在文本网格世界中的表现，揭示了两种策略在确定性/随机性环境中的互补优势。
+
+**[Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret In Noise-](gaussian_process_upper_confidence_bound_achieves_nearly-optimal_regret_in_noise-.md)**
+
+:   本文证明 GP-UCB 在 noise-free GP bandit 问题中可达到 nearly-optimal regret，首次在 SE 核下实现 $O(1)$ 常数累积遗憾、在 Matérn 核（$d < \nu$）下实现 $O(1)$ 累积遗憾，弥合了 GP-UCB 理论与实践之间的长期差距。
 
 **[Generalized Linear Bandits Almost Optimal Regret With One-Pass Update](generalized_linear_bandits_almost_optimal_regret_with_one-pass_update.md)**
 

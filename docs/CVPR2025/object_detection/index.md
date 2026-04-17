@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 目标检测方向 28篇论文解读
+  CVPR2025 目标检测方向 27篇论文解读
 description: >-
-  28篇CVPR2025 目标检测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  27篇CVPR2025 目标检测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**📷 CVPR2025** · **28** 篇论文解读
+**📷 CVPR2025** · **27** 篇论文解读
 
 **[A Bias-Free Training Paradigm For More General Ai-Generated Image Detection](a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)**
 
@@ -73,10 +73,6 @@ description: >-
 **[Generalized Diffusion Detector Mining Robust Features From Diffusion Models For ](generalized_diffusion_detector_mining_robust_features_from_diffusion_models_for_.md)**
 
 :   本文首次将扩散模型引入域泛化目标检测，通过提取扩散过程的多时间步中间特征构建域不变的检测器，并设计特征级+目标级对齐的知识迁移框架将泛化能力蒸馏到轻量检测器中，在6个DG基准上平均提升14.0% mAP，甚至超越大多数域适应方法。
-
-**[Generative Modeling Of Class Probability For Multi Modal Representation Learning](generative_modeling_of_class_probability_for_multi_modal_representation_learning.md)**
-
-:   CALM（Class-anchor-ALigned generative Modeling）提出用独立类别标签作为锚点，生成各模态与锚点的概率分布并通过跨模态概率 VAE 对齐，有效缓解视频文本之间的信息不平衡和模态差异问题，在四个benchmark上显著超越SOTA，尤其在跨域泛化性上表现突出。
 
 **[Humanmm Global Human Motion Recovery From Multi-Shot Videos](humanmm_global_human_motion_recovery_from_multi-shot_videos.md)**
 

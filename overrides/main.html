@@ -96,10 +96,11 @@
 </script>
 {% endif %}
 
-<!-- Mobile: disable built-in search, redirect to Bing site search -->
+<!-- Mobile (real touch devices only): disable built-in search, redirect to Bing site search -->
+<!-- Desktop narrow windows keep native lunr search; only mobile UA hits this path -->
 <script>
 (function() {
-  var isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 960;
+  var isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
   if (!isMobile) return;
 
   // Terminate search worker to save memory

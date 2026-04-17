@@ -231,3 +231,15 @@
     margin-bottom: 0.3rem !important;
   }
 }
+
+/* -- Lazy paint long conference index lists (perf) -- */
+/* Only applies to conference index pages wrapped in .conf-index */
+/* Does NOT affect note pages (no perceivable Ctrl+F / anchor issues elsewhere) */
+.conf-index .md-typeset dl > dt,
+.conf-index .md-typeset dl > dd,
+.md-typeset .conf-index dl > dt,
+.md-typeset .conf-index dl > dd {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 80px;
+}
+

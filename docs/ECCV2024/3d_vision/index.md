@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 3D视觉方向 187篇论文解读
+  ECCV2024 3D视觉方向 178篇论文解读
 description: >-
-  187篇ECCV2024 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  178篇ECCV2024 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**🎞️ ECCV2024** · **187** 篇论文解读
+**🎞️ ECCV2024** · **178** 篇论文解读
 
 **[3D Congealing 3D-Aware Image Alignment In The Wild](3d_congealing_3d-aware_image_alignment_in_the_wild.md)**
 
@@ -130,10 +130,6 @@ description: >-
 
 :   提出 Cross-Reference（CR）图像质量评估新范式，通过对比查询图像与多个不同视角参考图像，利用 cross-attention 神经网络预测与 SSIM 高度相关的像素级质量分数，无需 ground truth 参考图像即可评估新视角合成质量。
 
-**[Crossscore Towards Multiview Image Evaluation And Scori](crossscore_towards_multiview_image_evaluation_and_scori.md)**
-
-:   提出 CrossScore——一种新型的交叉参考图像质量评估方法，利用多视角参考图像替代真实参考图，通过 cross-attention 机制预测 SSIM 分数图，在无需 ground truth 的条件下实现接近全参考指标的评估精度。
-
 **[D-Sco Dual-Stream Conditional Diffusion For Monocular Hand-Held Object Reconstru](d-sco_dual-stream_conditional_diffusion_for_monocular_hand-held_object_reconstru.md)**
 
 :   提出双流条件扩散模型 D-SCo 从单张 RGB 图像重建手持物体点云，通过统一手-物语义嵌入和手关节几何嵌入两个分支分别提供语义和几何先验，配合手约束质心固定策略稳定扩散过程，在 ObMan 上 F-5 达 0.61（超 DDF-HO 10.9%），真实数据集 HO3D/MOW 上也大幅领先。
@@ -157,10 +153,6 @@ description: >-
 **[Dg-Pic Domain Generalized Point-In-Context Learning For Point Cloud Understandin](dg-pic_domain_generalized_point-in-context_learning_for_point_cloud_understandin.md)**
 
 :   提出 DG-PIC，首个在统一模型中同时处理多领域多任务的点云理解框架，通过双层次源域原型估计和测试时特征平移机制，在不更新模型的情况下提升对未知域的泛化能力。
-
-**[Dgpic Domain Generalized Pointincontext Learning For Po](dgpic_domain_generalized_pointincontext_learning_for_po.md)**
-
-:   提出 DG-PIC，首个在统一模型中同时处理多域多任务点云理解的方法，通过双层源域原型估计和双层测试时特征平移机制，在无需模型更新的情况下提升对未见域的泛化能力。
 
 **[Differentiable Convex Polyhedra Optimization From Multi-View Images](differentiable_convex_polyhedra_optimization_from_multi-view_images.md)**
 
@@ -190,10 +182,6 @@ description: >-
 
 :   提出DreamDrone——一个零样本、无需训练的无限飞行场景生成管线，通过直接对预训练扩散模型的中间latent code进行warping（而非图像级warping），结合特征对应引导和高通滤波策略，实现高质量、几何一致的无界场景生成。
 
-**[Dreamdrone Texttoimage Diffusion Models Are Zeroshot Perpetu](dreamdrone_texttoimage_diffusion_models_are_zeroshot_perpetu.md)**
-
-:   DreamDrone提出零样本、免训练的无限场景飞越生成pipeline，核心创新是在扩散模型的latent空间进行视角变换（而非像素空间），并通过特征对应引导和高通滤波策略保证帧间的几何一致性和高频细节一致性。
-
 **[Dreamscene360 Unconstrained Text-To-3D Scene Generation With Panoramic Gaussian ](dreamscene360_unconstrained_text-to-3d_scene_generation_with_panoramic_gaussian_.md)**
 
 :   提出DreamScene360，利用全景图像作为中间表示，结合GPT-4V自精炼机制和全景3D高斯溅射技术，实现从文本到沉浸式360°3D场景的快速生成。
@@ -201,10 +189,6 @@ description: >-
 **[Dreamview Injecting View-Specific Text Guidance Into Text-To-3D Generation](dreamview_injecting_view-specific_text_guidance_into_text-to-3d_generation.md)**
 
 :   提出DreamView，通过自适应文本引导注入模块，将视角特定的文本描述和全局文本描述协同注入扩散模型，实现可定制化且多视角一致的文本到3D生成。
-
-**[Dreamview Injecting Viewspecific Text Guidance Into Textto3D](dreamview_injecting_viewspecific_text_guidance_into_textto3d.md)**
-
-:   提出DreamView，通过自适应引导注入模块在扩散模型每个U-Net block中动态选择全局文本或视角特定文本作为条件，实现视角级3D定制化生成（如T恤正反面不同图案），同时保持实例级一致性，用户偏好率74.5%。
 
 **[Dspdet3D 3D Small Object Detection With Dynamic Spatial Pruning](dspdet3d_3d_small_object_detection_with_dynamic_spatial_pruning.md)**
 
@@ -233,10 +217,6 @@ description: >-
 **[External Knowledge Enhanced 3D Scene Generation From Sketch](external_knowledge_enhanced_3d_scene_generation_from_sketch.md)**
 
 :   提出SEK框架，结合手绘草图和外部物体关系知识库作为扩散模型的条件，通过知识增强图推理和频谱滤波器，端到端地同时生成3D室内场景的布局和物体几何形状。
-
-**[Falip Visual Prompt As Foveal Attention Boosts Clip Zer](falip_visual_prompt_as_foveal_attention_boosts_clip_zer.md)**
-
-:   提出 FALIP（Foveal-Attention CLIP），通过在 CLIP 的多头自注意力模块中插入类似人眼中央凹的注意力掩码，在不修改原始图像内容的前提下引导模型关注特定区域，显著提升指代表达理解、图像分类和 3D 点云识别等零样本任务的性能。
 
 **[Falip Visual Prompt As Foveal Attention Boosts Clip Zero-Shot Performance](falip_visual_prompt_as_foveal_attention_boosts_clip_zero-shot_performance.md)**
 
@@ -393,10 +373,6 @@ description: >-
 **[Invertible Neural Warp For Nerf](invertible_neural_warp_for_nerf.md)**
 
 :   提出用可逆神经网络（INN）过参数化相机位姿的刚性变换函数，在 NeRF 联合优化中显著提升位姿估计精度和重建质量，证明可逆性是 MLP 建模刚性 warp 的关键约束。
-
-**[Jointdreamer Ensuring Geometry Consistency And Text Congruen](jointdreamer_ensuring_geometry_consistency_and_text_congruen.md)**
-
-:   提出Joint Score Distillation（JSD），通过能量函数建模多视角联合图像分布，将SDS从单视角独立优化扩展为多视角联合优化，从根本上缓解Text-to-3D中的Janus多面问题，在CLIP R-Precision上达到88.5%、User Study偏好率42.1%。
 
 **[Jointdreamer Ensuring Geometry Consistency And Text Congruence In Text-To-3D Gen](jointdreamer_ensuring_geometry_consistency_and_text_congruence_in_text-to-3d_gen.md)**
 
@@ -610,17 +586,9 @@ description: >-
 
 :   提出 SceneGraphLoc，将查询图像在由多模态 3D 场景图组成的参考地图中进行粗定位，在不依赖大规模图像数据库的前提下，实现了接近 SOTA 图像级方法的定位精度，同时存储需求降低三个数量级。
 
-**[Scenegraphloc Crossmodal Coarse Visual Localization On 3D Sc](scenegraphloc_crossmodal_coarse_visual_localization_on_3d_sc.md)**
-
-:   提出SceneGraphLoc，首次将queryimage在多模态3D场景图数据库中进行粗定位，通过学习场景图节点和图像patch的统一嵌入空间，在存储效率提升1000倍的同时接近图像检索方法的定位精度。
-
 **[Sceneverse Scaling 3D Vision-Language Learning For Grounded Scene Understanding](sceneverse_scaling_3d_vision-language_learning_for_grounded_scene_understanding.md)**
 
 :   提出首个百万级 3D 视觉-语言数据集 SceneVerse（68K 室内场景 + 2.5M 场景-语言对），结合多层级对比预训练框架 GPS，在 3D visual grounding 和 QA 任务上取得 SOTA，并展现零样本迁移能力。
-
-**[Sceneverse Scaling 3D Visionlanguage Learning For Grounded S](sceneverse_scaling_3d_visionlanguage_learning_for_grounded_s.md)**
-
-:   提出SceneVerse——首个百万级3D视觉语言数据集（68K场景+250万语言描述），通过结合人工标注和基于场景图的自动生成pipeline构建多粒度描述，并设计GPS预训练框架实现多层次场景-文本对齐，在3D grounding和QA基准上达到SOTA。
 
 **[Sediff Structure Extraction For Domain Adaptive Depth Estimation Via Denoising D](sediff_structure_extraction_for_domain_adaptive_depth_estimation_via_denoising_d.md)**
 
@@ -665,10 +633,6 @@ description: >-
 **[Surface Reconstruction From 3D Gaussian Splatting Via Local Structural Hints](surface_reconstruction_from_3d_gaussian_splatting_via_local_structural_hints.md)**
 
 :   针对3DGS在表面重建质量差的问题，提出利用单目法向/深度先验来增强高斯原语的几何组织性，并通过移动最小二乘（MLS）构建局部符号距离场，再联合学习神经隐式网络进行正则化，显著提升了3DGS的表面重建精度。
-
-**[SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](sv3d_novel_multi-view_synthesis_and_3d_generation_from_a_single_image_using_late.md)**
-
-:   提出SV3D，将图像到视频扩散模型适配为多视图合成和3D生成，利用视频模型的泛化能力和多视图一致性，并引入显式相机控制。
 
 **[T-Mae Temporal Masked Autoencoders For Point Cloud Representation Learning](t-mae_temporal_masked_autoencoders_for_point_cloud_representation_learning.md)**
 

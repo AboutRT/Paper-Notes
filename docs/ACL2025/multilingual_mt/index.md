@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 多语言/翻译方向 74篇论文解读
+  ACL2025 多语言/翻译方向 75篇论文解读
 description: >-
-  74篇ACL2025 多语言/翻译方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  75篇ACL2025 多语言/翻译方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**💬 ACL2025** · **74** 篇论文解读
+**💬 ACL2025** · **75** 篇论文解读
 
 **[A Case Study Of Cross-Lingual Zero-Shot Generalization For Classical Languages I](a_case_study_of_cross-lingual_zero-shot_generalization_for_classical_languages_i.md)**
 
@@ -245,6 +245,10 @@ description: >-
 **[Registering Source Tokens To Target Language Spaces In Multilingual Neural Machi](registering_source_tokens_to_target_language_spaces_in_multilingual_neural_machi.md)**
 
 :   提出 Registering 方法：在源语言和目标语言 token 之间插入一组目标语言标记（registers），通过修改注意力掩码使目标生成仅依赖 registers 的激活，彻底解决多语言翻译中的 off-target 问题，使小模型 MITRE-913M 超越 NLLB-3.3B。
+
+**[Rethinking Evaluation Metrics For Grammatical Error Correction Why Use A Differe](rethinking_evaluation_metrics_for_grammatical_error_correction_why_use_a_differe.md)**
+
+:   指出自动 GEC 评估与人类评估在聚合方式上的差距（人类用 TrueSkill 做成对比较后聚合，自动评估用平均/求和后排序），提出对所有自动指标统一使用 TrueSkill 聚合，在 SEEDA 基准上大幅提升多数指标与人类评估的相关性。
 
 **[Semantic Aware Linear Transfer By Recycling Pre-Trained Language Models For Cros](semantic_aware_linear_transfer_by_recycling_pre-trained_language_models_for_cros.md)**
 

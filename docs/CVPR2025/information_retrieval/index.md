@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 信息检索/RAG方向 15篇论文解读
+  CVPR2025 信息检索/RAG方向 14篇论文解读
 description: >-
-  15篇CVPR2025 信息检索/RAG方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  14篇CVPR2025 信息检索/RAG方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔍 信息检索/RAG
 
-**📷 CVPR2025** · **15** 篇论文解读
+**📷 CVPR2025** · **14** 篇论文解读
 
 **[Advancing Myopia To Holism Fully Contrastive Language-Image Pre-Training](advancing_myopia_to_holism_fully_contrastive_language-image_pre-training.md)**
 
@@ -45,10 +45,6 @@ description: >-
 **[Lamra Large Multimodal Model As Your Advanced Retrieval Assistant](lamra_large_multimodal_model_as_your_advanced_retrieval_assistant.md)**
 
 :   将生成式大语言模型（LMM）改造为通用多模态检索器+重排器，通过两阶段训练（语言预训练+多模态指令微调）和联合逐点/列表重排训练，仅插入轻量LoRA模块即可在16种检索任务上显著超越双编码器方法，且在10个未见数据集上展现强泛化能力。
-
-**[Lotusfilter Fast Diverse Nearest Neighbor Search Via A Learned Cutoff Table](lotusfilter_fast_diverse_nearest_neighbor_search_via_a_learned_cutoff_table.md)**
-
-:   提出LotusFilter，通过离线预计算每个向量的邻近关系构建截断表(cutoff table)，在线阶段用贪心集合删除实现多样化过滤，将传统 $O(DS^2)$ 的多样化搜索降至 $O(T+S+KL)$，过滤仅需0.02ms/query，内存仅为传统方法的1/40。
 
 **[Neighborretr Balancing Hub Centrality In Cross-Modal Retrieval](neighborretr_balancing_hub_centrality_in_cross-modal_retrieval.md)**
 

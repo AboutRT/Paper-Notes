@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 3D视觉方向 212篇论文解读
+  CVPR2025 3D视觉方向 211篇论文解读
 description: >-
-  212篇CVPR2025 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  211篇CVPR2025 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**📷 CVPR2025** · **212** 篇论文解读
+**📷 CVPR2025** · **211** 篇论文解读
 
 **[3D-Grand A Million-Scale Dataset For 3D-Llms With Better Grounding And Less Hall](3d-grand_a_million-scale_dataset_for_3d-llms_with_better_grounding_and_less_hall.md)**
 
@@ -265,10 +265,6 @@ description: >-
 **[Dune Distilling A Universal Encoder From Heterogeneous 2D And 3D Teachers](dune_distilling_a_universal_encoder_from_heterogeneous_2d_and_3d_teachers.md)**
 
 :   DUNE 提出了异构教师联合蒸馏（co-distillation）框架，将来自不同任务和数据域的 2D（DINOv2）与 3D（MASt3R、Multi-HMR）教师模型统一蒸馏为一个 ViT-Base 通用编码器，在语义分割、深度估计、3D 重建和人体姿态恢复等多任务上均达到或超越各自 ViT-Large 教师的性能。
-
-**[Dyn Hamr Recovering 4D Interacting Hand Motion From A Dynamic Camera](dyn_hamr_recovering_4d_interacting_hand_motion_from_a_dynamic_camera.md)**
-
-:   Dyn-HaMR 提出首个从动态相机单目视频中恢复双手 4D 全局运动轨迹的优化框架，通过三阶段流水线（层级初始化 → SLAM 引导全局运动优化 → 交互运动先验优化）解耦相机运动与手部运动，在多个数据集上大幅超越现有方法。
 
 **[Efficient Depth Estimation For Unstable Stereo Camera Systems On Ar Glasses](efficient_depth_estimation_for_unstable_stereo_camera_systems_on_ar_glasses.md)**
 

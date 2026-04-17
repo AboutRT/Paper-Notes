@@ -1,14 +1,18 @@
 ---
 title: >-
-  CVPR2026 自监督/表示学习方向 18篇论文解读
+  CVPR2026 自监督方向 19篇论文解读
 description: >-
-  18篇CVPR2026 自监督/表示学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  19篇CVPR2026 自监督方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🔄 自监督/表示学习
+# 🔄 自监督
 
-**📷 CVPR2026** · **18** 篇论文解读
+**📷 CVPR2026** · **19** 篇论文解读
+
+**[Actta Rethinking Test-Time Adaptation Via Dynamic Activation](actta_rethinking_test-time_adaptation_via_dynamic_activation.md)**
+
+:   提出AcTTA框架，首次将激活函数作为测试时适应(TTA)的可学习组件，通过参数化的激活中心偏移 $c$ 和非对称梯度缩放 $\lambda_{pos}, \lambda_{neg}$ 替代或增强传统归一化层适应，在CIFAR-10/100-C和ImageNet-C上一致超越所有归一化基TTA方法，并支持10倍大的学习率。
 
 **[Bd-Merging Bias-Aware Dynamic Model Merging With Evidence-Guided Contrastive Lea](bd-merging_bias-aware_dynamic_model_merging_with_evidence-guided_contrastive_lea.md)**
 

@@ -1,60 +1,16 @@
 ---
 title: >-
-  ICCV2025 1321篇论文解读
+  ICCV2025 1313篇论文解读
 description: >-
-  1321篇ICCV2025论文深度解读，每篇5分钟读懂核心思想。覆盖3D视觉、图像生成、多模态VLM、自动驾驶、语义分割、人体理解等41个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  1313篇ICCV2025论文深度解读，每篇5分钟读懂核心思想。覆盖3D视觉、图像生成、多模态VLM、自动驾驶、语义分割、人体理解等41个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 ICCV2025 论文笔记
 
-**1321** 篇论文解读，覆盖 **41** 个领域。
+**1313** 篇论文解读，覆盖 **41** 个领域。
 
-## 领域概览
-
-| 领域 | 篇数 |
-|:-----|-----:|
-| 🧊 [3D视觉](#3d_vision) | 289 |
-| 🎨 [图像生成](#image_generation) | 199 |
-| 🧩 [多模态VLM](#multimodal_vlm) | 132 |
-| 🚗 [自动驾驶](#autonomous_driving) | 92 |
-| ✂️ [语义分割](#segmentation) | 75 |
-| 🧑 [人体理解](#human_understanding) | 69 |
-| 📹 [视频理解](#video_understanding) | 56 |
-| 🎬 [视频生成](#video_generation) | 46 |
-| 📦 [模型压缩](#model_compression) | 45 |
-| 🏥 [医学图像](#medical_imaging) | 41 |
-| 🎯 [目标检测](#object_detection) | 41 |
-| 🖼️ [图像恢复](#image_restoration) | 30 |
-| 🛡️ [AI安全](#ai_safety) | 23 |
-| 🤖 [机器人/具身智能](#robotics) | 23 |
-| 📊 [LLM评测](#llm_evaluation) | 20 |
-| 🛰️ [遥感](#remote_sensing) | 11 |
-| 🎵 [音频/语音](#audio_speech) | 10 |
-| 🔄 [自监督/表示学习](#self_supervised) | 9 |
-| 🔬 [可解释性](#interpretability) | 8 |
-| 📐 [优化/理论](#optimization) | 8 |
-| ⚡ [LLM效率](#llm_efficiency) | 7 |
-| 📚 [预训练/数据](#llm_pretraining) | 7 |
-| 🔍 [信息检索/RAG](#information_retrieval) | 6 |
-| 🎮 [强化学习](#reinforcement_learning) | 6 |
-| 🦾 [LLM Agent](#llm_agent) | 4 |
-| 💡 [LLM推理](#llm_reasoning) | 4 |
-| 🔒 [LLM安全](#llm_safety) | 4 |
-| 📈 [时间序列](#time_series) | 4 |
-| 🕸️ [图学习](#graph_learning) | 2 |
-| 💬 [LLM/NLP](#llm_nlp) | 2 |
-| 📡 [信号/通信](#signal_comm) | 2 |
-| 👥 [社会计算](#social_computing) | 2 |
-| 🔎 [AIGC检测](#aigc_detection) | 1 |
-| 🔗 [因果推理](#causal_inference) | 1 |
-| 💻 [代码智能](#code_intelligence) | 1 |
-| ⚖️ [对齐/RLHF](#llm_alignment) | 1 |
-| ✍️ [文本生成](#nlp_generation) | 1 |
-| 📖 [NLP理解](#nlp_understanding) | 1 |
-| ⚛️ [物理学](#physics) | 1 |
-| 🧮 [科学计算](#scientific_computing) | 1 |
-| 📂 [其他](#others) | 36 |
+<div class="conf-index" markdown>
 
 ---
 
@@ -288,10 +244,6 @@ description: >-
 
 :   提出DM-Calib——基于扩散模型的单目相机内参估计方法：设计Camera Image表示（将内参无损编码为3通道图像=方位角+仰角+灰度图），微调Stable Diffusion生成Camera Image，用RANSAC提取内参，在5个零样本数据集上超越所有基线，并将相机标定扩展到度量深度估计、位姿估计和稀疏视角3D重建。
 
-**[Boosting Multi-View Indoor 3D Object Detection Via Adaptive 3D Volume](3d_vision/boosting_multi-view_indoor_3d_object_detection_via_adaptive_3d_volume.md)**
-
-:   提出SGCDet框架，通过几何与上下文感知聚合模块（自适应特征提升）和稀疏体素构建策略（粗到细的自适应体素选择），在不依赖GT场景几何的前提下，实现了高效且高精度的多视图室内3D目标检测。
-
 **[Boosting Multi-View Indoor 3D Object Detection Via Adaptive 3D Volume Constructi](3d_vision/boosting_multi-view_indoor_3d_object_detection_via_adaptive_3d_volume_constructi.md)**
 
 :   SGCDet 通过自适应稀疏3D体素构建和几何-上下文感知聚合，实现了高效精准的多视图室内3D目标检测，无需真实几何监督即超越现有方法。
@@ -315,10 +267,6 @@ description: >-
 **[Boxdreamer Dreaming Box Corners For Generalizable Object Pose Estimation](3d_vision/boxdreamer_dreaming_box_corners_for_generalizable_object_pose_estimation.md)**
 
 :   提出 BoxDreamer，以 3D 包围盒角点作为中间表示，通过基于参考视角的点合成器预测查询图像中的 2D 角点投影，建立 2D-3D 对应关系后用 PnP 算法恢复物体位姿，在稀疏视角和严重遮挡场景下显著优于现有方法。
-
-**[Bridging 3D Anomaly Localization And Repair Via High-Qualit](3d_vision/bridging_3d_anomaly_localization_and_repair_via_high-qualit.md)**
-
-:   提出 PASDF 框架，通过姿态感知的签名距离函数（SDF）实现连续几何表征，统一了3D异常检测与修复任务，在 Real3D-AD 和 Anomaly-ShapeNet 上取得 SOTA。
 
 **[Bridging 3D Anomaly Localization And Repair Via High-Quality Continuous Geometri](3d_vision/bridging_3d_anomaly_localization_and_repair_via_high-quality_continuous_geometri.md)**
 
@@ -427,10 +375,6 @@ description: >-
 **[Cuts3D Cutting Semantics In 3D For 2D Unsupervised Instance Segmentation](3d_vision/cuts3d_cutting_semantics_in_3d_for_2d_unsupervised_instance_segmentation.md)**
 
 :   提出CutS3D方法，首次将3D信息（单目深度估计）引入无监督实例分割，通过在3D点云中切割语义区域来分离2D中重叠的实例，并引入空间置信度机制提升伪标签质量，在多个基准上超越CutLER等SoTA。
-
-**[Dap-Mae Domain-Adaptive Point Cloud Masked Autoencoder For E](3d_vision/dap-mae_domain-adaptive_point_cloud_masked_autoencoder_for_e.md)**
-
-:   提出 DAP-MAE，通过异构域适配器（HDA）和域特征生成器（DFG）协同学习多域点云数据，仅需一次预训练即可适配物体分类、表情识别、部件分割和3D检测等多种下游任务。
 
 **[Dap-Mae Domain-Adaptive Point Cloud Masked Autoencoder For Effective Cross-Domai](3d_vision/dap-mae_domain-adaptive_point_cloud_masked_autoencoder_for_effective_cross-domai.md)**
 
@@ -1280,10 +1224,6 @@ description: >-
 
 :   提出TDSM（Triplet Diffusion for Skeleton-Text Matching），首次将扩散模型应用于零样本骨骼动作识别，通过反向扩散过程实现骨骼特征与文本prompt的隐式对齐，并引入triplet diffusion损失增强判别力，在NTU-60/120和PKU-MMD上大幅超越SOTA（2.36%到13.05%的提升幅度）。
 
-**[Bridging The Skeleton Text Modality Gap Diffusion Powered Modality Alignment For](image_generation/bridging_the_skeleton_text_modality_gap_diffusion_powered_modality_alignment_for.md)**
-
-:   提出TDSM（Triplet Diffusion for Skeleton-Text Matching），首次将扩散模型应用于零样本骨骼动作识别，通过反向扩散过程实现骨骼特征与文本prompt的隐式对齐，并引入triplet diffusion损失增强判别力，在NTU-60/120和PKU-MMD上大幅超越SOTA（2.36%到13.05%的提升幅度）。
-
 **[Bvinet Unlocking Blind Video Inpainting With Zero Annotations](image_generation/bvinet_unlocking_blind_video_inpainting_with_zero_annotations.md)**
 
 :   首次定义并解决"盲视频修复"（blind video inpainting）任务——在无需任何损坏区域标注的情况下，端到端地同时完成"哪里需要修复"和"如何修复"，通过 mask 预测网络与视频补全网络的一致性约束互相增强，在合成数据和真实应用（弹幕去除/划痕修复）中均取得优异效果。
@@ -1307,10 +1247,6 @@ description: >-
 **[Chords Diffusion Sampling Accelerator With Multi-Core Hierarchical Ode Solvers](image_generation/chords_diffusion_sampling_accelerator_with_multi-core_hierarchical_ode_solvers.md)**
 
 :   提出 Chords，一种基于多核层次 ODE 求解器的扩散采样加速框架，通过慢到快的核间纠正机制（inter-core rectification），在 4-8 个 GPU 上实现 2.1×~2.9× 加速，且不牺牲生成质量。
-
-**[Chords Diffusion Sampling Accelerator With Multi Core Hierarchical Ode Solvers](image_generation/chords_diffusion_sampling_accelerator_with_multi_core_hierarchical_ode_solvers.md)**
-
-:   提出 Chords，一种基于多核层级 ODE 求解器的无训练、模型无关扩散采样加速框架，通过慢到快的求解器层级和核间纠偏机制，在 4~8 个 GPU 核上实现最高 2.9× 加速而不损失生成质量。
 
 **[Cns-Bench Benchmarking Image Classifier Robustness Under Continuous Nuisance Shi](image_generation/cns-bench_benchmarking_image_classifier_robustness_under_continuous_nuisance_shi.md)**
 
@@ -2928,10 +2864,6 @@ description: >-
 
 :   本文提出从人类活动视频中自动提取精确的双手可操作区域(affordance)数据集 2HANDS，并训练基于 VLM 的 2HandedAfforder 模型，实现根据文本提示预测双手抓握的精确物体区域分割，在新提出的 ActAffordance 基准上显著优于现有方法。
 
-**[A Plug-And-Play Physical Motion Restoration Approach For In-](segmentation/a_plug-and-play_physical_motion_restoration_approach_for_in-.md)**
-
-:   提出即插即用的物理动作恢复方法，通过Mask条件运动修正模块（MCM）修复视频动捕中的瑕疵帧，以及基于预训练+测试时适应的物理运动迁移模块（PTM）实现高难度野外动作的物理仿真，显著提升动作的物理真实性。
-
 **[A Plug-And-Play Physical Motion Restoration Approach For In-The-Wild High-Diffic](segmentation/a_plug-and-play_physical_motion_restoration_approach_for_in-the-wild_high-diffic.md)**
 
 :   提出即插即用的物理动作恢复方法，通过Mask条件运动修正模块（MCM）修复视频动捕中的瑕疵帧，以及基于预训练+测试时适应的物理运动迁移模块（PTM）实现高难度野外动作的物理仿真，显著提升动作的物理真实性。
@@ -3051,10 +2983,6 @@ description: >-
 **[Latent Expression Generation For Referring Image Segmentation And Grounding](segmentation/latent_expression_generation_for_referring_image_segmentation_and_grounding.md)**
 
 :   提出 Latent-VG 框架，通过从单个文本描述生成多个潜在表达式（共享同一主语、但具有不同视觉属性），利用互补的视觉细节弥补稀疏文本与丰富视觉信息之间的语义差距，在指代图像分割和指代表达理解任务上同时达到 SOTA。
-
-**[Lawdis Language-Window-Based Controllable Dichotomous Image Segmentati](segmentation/lawdis_language-window-based_controllable_dichotomous_image_segmentati.md)**
-
-:   提出LawDIS，一种基于Stable Diffusion的语言-窗口双控可控二分图像分割框架，在宏观模式下通过语言提示指导目标分割，在微观模式下通过可变尺寸窗口精细化局部细节，在DIS5K上全面超越11种SOTA方法。
 
 **[Lawdis Language-Window-Based Controllable Dichotomous Image Segmentation](segmentation/lawdis_language-window-based_controllable_dichotomous_image_segmentation.md)**
 
@@ -3256,10 +3184,6 @@ description: >-
 
 :   提出CarGait，一种基于交叉注意力的步态识别重排序方法，通过probe与候选序列之间的strip-wise交叉注意力学习细粒度的步态对应关系，将预训练单阶段模型的全局特征映射到新的判别性嵌入空间，在Gait3D、GREW和OU-MVLP三大基准上对七种步态模型均取得一致的Rank-1/5精度提升。
 
-**[Cargait Cross Attention Based Re Ranking For Gait Recognition](human_understanding/cargait_cross_attention_based_re_ranking_for_gait_recognition.md)**
-
-:   提出CarGait，一种基于交叉注意力的步态识别重排序方法，通过probe与候选序列之间的strip-wise交叉注意力学习细粒度的步态对应关系，将预训练单阶段模型的全局特征映射到新的判别性嵌入空间，在Gait3D、GREW和OU-MVLP三大基准上对七种步态模型均取得一致的Rank-1/5精度提升。
-
 **[Cargait Crossattention Based Reranking For Gait Recognition](human_understanding/cargait_crossattention_based_reranking_for_gait_recognition.md)**
 
 :   提出CarGait——基于cross-attention的步态识别重排序方法：对任意单阶段步态模型的top-K检索结果，通过probe与候选间步态条带(gait strip)的cross-attention学习细粒度pair-wise交互，生成新的条件化表征并重新计算距离进行重排序。在Gait3D/GREW/OU-MVLP三个数据集、7种基线模型上一致提升Rank-1/5准确率，推理速度6.5ms/probe远超现有重排序方法。
@@ -3399,6 +3323,10 @@ description: >-
 **[Mdd A Dataset For Text-And-Music Conditioned Duet Dance Generation](human_understanding/mdd_a_dataset_for_text-and-music_conditioned_duet_dance_generation.md)**
 
 :   介绍 Multimodal DuetDance (MDD)，首个同时整合动作、音乐和文本描述的大规模专业级双人舞蹈数据集，包含 620 分钟动捕数据、15 种舞蹈类型和超过 10K 条细粒度文本标注，并提出 Text-to-Duet 和 Text-to-Dance Accompaniment 两个新任务。
+
+**[Mitigating Object Hallucinations Via Sentence-Level Early Intervention](human_understanding/mitigating_object_hallucinations_via_sentence-level_early_intervention.md)**
+
+:   提出 SENTINEL 框架，通过句子级早期干预和域内偏好学习有效缓解 MLLM 的物体幻觉，在 Object HalBench 上将幻觉率降低超过 90%，同时保持甚至提升通用能力。
 
 **[Mixri Mixing Features Of Reference Images For Novel Object Pose Estimation](human_understanding/mixri_mixing_features_of_reference_images_for_novel_object_pose_estimation.md)**
 
@@ -3655,10 +3583,6 @@ description: >-
 **[Ovg-Hq Online Video Grounding With Hybrid-Modal Queries](video_understanding/ovg-hq_online_video_grounding_with_hybrid-modal_queries.md)**
 
 :   提出在线视频定位新任务 OVG-HQ，支持文本/图像/视频片段等混合模态查询，通过参数化记忆块（PMB）保留历史信息和混合蒸馏策略缓解模态不平衡，在流式视频中实时定位目标片段。
-
-**[Prior-Flow Enhancing Primitive Panoramic Optical Flow With O](video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_o.md)**
-
-:   提出双分支框架 PriOr-Flow，利用正交视图的低畸变先验来补偿 ERP 全景图像极区的严重畸变，从而显著提升全景光流估计精度，在 MPFDataset 和 FlowScape 上分别降低 EPE 30.0% 和 29.6%。
 
 **[Prior-Flow Enhancing Primitive Panoramic Optical Flow With Orthogonal View](video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_orthogonal_view.md)**
 
@@ -4662,7 +4586,7 @@ description: >-
 
 ---
 
-## 🤖 机器人/具身智能 { #robotics }
+## 🤖 具身智能 { #robotics }
 
 **[Adaptive Articulated Object Manipulation On The Fly With Foundation Model Reason](robotics/adaptive_articulated_object_manipulation_on_the_fly_with_foundation_model_reason.md)**
 
@@ -4934,7 +4858,7 @@ description: >-
 
 ---
 
-## 🔄 自监督/表示学习 { #self_supervised }
+## 🔄 自监督 { #self_supervised }
 
 **[A Tokenlevel Text Image Foundation Model For Document Unders](self_supervised/a_tokenlevel_text_image_foundation_model_for_document_unders.md)**
 
@@ -5078,7 +5002,7 @@ description: >-
 
 ---
 
-## 📚 预训练/数据 { #llm_pretraining }
+## 📚 预训练 { #llm_pretraining }
 
 **[Aceg Improving Generalization Of Scene Coordinate Regression](llm_pretraining/aceg_improving_generalization_of_scene_coordinate_regression.md)**
 
@@ -5503,3 +5427,5 @@ description: >-
 **[You Share Beliefs I Adapt Progressive Heterogeneous Collaborative Perception](others/you_share_beliefs_i_adapt_progressive_heterogeneous_collaborative_perception.md)**
 
 :   提出PHCP框架，首次在推理阶段解决异构协同感知的域差距问题——通过agent的伪标签做few-shot无监督域适应，自训练适配器对齐特征空间，无需联合训练即在OPV2V上仅用少量无标注数据达到接近SOTA(HEAL)的性能。
+
+</div>

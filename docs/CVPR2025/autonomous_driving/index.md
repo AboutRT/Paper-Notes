@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 自动驾驶方向 51篇论文解读
+  CVPR2025 自动驾驶方向 50篇论文解读
 description: >-
-  51篇CVPR2025 自动驾驶方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  50篇CVPR2025 自动驾驶方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**📷 CVPR2025** · **51** 篇论文解读
+**📷 CVPR2025** · **50** 篇论文解读
 
 **[3D-Avs Lidar-Based 3D Auto-Vocabulary Segmentation](3d-avs_lidar-based_3d_auto-vocabulary_segmentation.md)**
 
@@ -33,10 +33,6 @@ description: >-
 **[Certified Human Trajectory Prediction](certified_human_trajectory_prediction.md)**
 
 :   首次将随机平滑（Randomized Smoothing）认证技术引入人类轨迹预测任务，通过mean/median聚合函数和扩散去噪器为轨迹预测模型提供保证性鲁棒性——即无论输入噪声如何扰动（在半径R内），输出始终保持在认证边界内。
-
-**[Climbingcap Multi-Modal Dataset And Method For Rock Climbing In World ](climbingcap_multi-modal_dataset_and_method_for_rock_climbing_in_world_.md)**
-
-:   构建了首个大规模攀岩运动多模态数据集 AscendMotion（412K帧，RGB+LiDAR+IMU），并提出 ClimbingCap 方法通过分离坐标解码、后处理优化和半监督训练，在世界坐标系中精确恢复攀岩者的3D运动。
 
 **[Climbingcap Multi-Modal Dataset And Method For Rock Climbing In World Coordinate](climbingcap_multi-modal_dataset_and_method_for_rock_climbing_in_world_coordinate.md)**
 

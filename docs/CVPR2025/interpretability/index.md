@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 可解释性方向 10篇论文解读
+  CVPR2025 可解释性方向 11篇论文解读
 description: >-
-  10篇CVPR2025 可解释性方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  11篇CVPR2025 可解释性方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**📷 CVPR2025** · **10** 篇论文解读
+**📷 CVPR2025** · **11** 篇论文解读
 
 **[Differentiable Inverse Rendering With Interpretable Basis Brdfs](differentiable_inverse_rendering_with_interpretable_basis_brdfs.md)**
 
@@ -25,6 +25,10 @@ description: >-
 **[Kvq Boosting Video Quality Assessment Via Saliency-Guided Local Perception](kvq_boosting_video_quality_assessment_via_saliency-guided_local_perception.md)**
 
 :   KVQ 受人类视觉系统启发，将视频全局质量显式解耦为视觉显著性和局部纹理两个因素，通过 Fusion-Window Attention 提取跨区域显著性、Local Perception Constraint 增强独立区域的纹理感知，在五个 VQA benchmark 上显著超越 SOTA。
+
+**[Language Guided Concept Bottleneck Models For Interpretable Continual Learning](language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md)**
+
+:   将语言引导的概念瓶颈模型 (CBM) 整合到持续学习中，通过 ChatGPT 生成类别概念、CLIP 编码的概念对齐模块和语义引导的原型增强策略，在 ImageNet-subset 上实现最终准确率 +3.06% 的提升，同时提供透明可解释的决策过程。
 
 **[Learning On Model Weights Using Tree Experts](learning_on_model_weights_using_tree_experts.md)**
 

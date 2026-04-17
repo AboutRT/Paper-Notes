@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 医学图像方向 31篇论文解读
+  ECCV2024 医学图像方向 28篇论文解读
 description: >-
-  31篇ECCV2024 医学图像方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  28篇ECCV2024 医学图像方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🎞️ ECCV2024** · **31** 篇论文解读
+**🎞️ ECCV2024** · **28** 篇论文解读
 
 **[A Cephalometric Landmark Regression Method Based On Dual-Encoder For High-Resolu](a_cephalometric_landmark_regression_method_based_on_dual-encoder_for_high-resolu.md)**
 
@@ -17,6 +17,10 @@ description: >-
 **[A Rotation-Invariant Texture Vit For Fine-Grained Recognition Of Esophageal Canc](a_rotation-invariant_texture_vit_for_fine-grained_recognition_of_esophageal_canc.md)**
 
 :   本文提出 SRRM-ViT，通过在 ViT 中引入统计旋转不变性增强机制(SRRM)，自适应选择关键区域并融合直方图统计特征，实现了对食管癌内镜超声图像中任意径向位置病灶的无偏细粒度分类，在临床和公开数据集上取得了显著性能提升。
+
+**[Adaptive Compressed Sensing With Diffusionbased Posterior Sa](adaptive_compressed_sensing_with_diffusionbased_posterior_sa.md)**
+
+:   提出AdaSense，利用预训练扩散模型的零样本后验采样来量化重建不确定性，从而自适应地选择最优测量矩阵，无需额外训练即可在人脸图像、MRI和CT等多领域实现优于非自适应方法的压缩感知重建。
 
 **[Adaptive Correspondence Scoring For Unsupervised Medical Ima](adaptive_correspondence_scoring_for_unsupervised_medical_ima.md)**
 
@@ -62,10 +66,6 @@ description: >-
 
 :   提出基于异构图的全模态生物医学表征学习框架 GTP-4o，通过异构图嵌入显式建模跨模态关系，利用图提示机制补全缺失模态，并设计知识引导的层次化跨模态聚合，在胶质瘤分级和生存预测任务上取得SOTA。
 
-**[Gtp4O Modalityprompted Heterogeneous Graph Learning For](gtp4o_modalityprompted_heterogeneous_graph_learning_for.md)**
-
-:   提出 GTP-4o，一种基于模态提示的异构图学习框架，通过异构图嵌入、图提示补全缺失模态、知识引导的层级聚合，实现基因组学-病理图像-细胞图-文本等多种临床模态的统一表示学习。
-
 **[Heterogeneous Graph Learning For Scene Graph Prediction In 3D Point Clouds](heterogeneous_graph_learning_for_scene_graph_prediction_in_3d_point_clouds.md)**
 
 :   提出 3D-HetSGP 框架，将3D场景图预测建模为异构图学习问题，通过两阶段的异构图结构学习（HGSL）和异构图推理（HGR），解决了现有同构全连接图方法中不加区分的消息传递导致的次优性能问题。
@@ -78,10 +78,6 @@ description: >-
 
 :   提出 eCLIP，通过整合放射科专家的眼动注视热力图作为额外监督信号，结合 mixup 增强和课程学习策略，在不修改 CLIP 核心架构的前提下增强医学多模态对比学习的表征质量。
 
-**[Improving Medical Multimodal Contrastive Learning With Exper](improving_medical_multimodal_contrastive_learning_with_exper.md)**
-
-:   提出eCLIP，通过引入放射科医生的眼动热力图（eye-gaze heatmap）作为专家标注，利用热力图处理器和mixup增强策略扩充高质量正样本对，有效缓解医学CLIP中的"模态间隙"问题，在零样本推理、线性探测、跨模态检索和RAG报告生成等任务上取得一致性提升。
-
 **[Is User Feedback Always Informative Retrieval Latent Defending For Semi-Supervis](is_user_feedback_always_informative_retrieval_latent_defending_for_semi-supervis.md)**
 
 :   发现用户反馈在域适应中并非总是有益——偏向纠正错误预测的"负偏反馈"(NBF)会导致现有半监督域适应方法性能下降，并提出 Retrieval Latent Defending 方法，通过在每个 mini-batch 中加入伪标签防御样本来平衡监督信号。
@@ -93,10 +89,6 @@ description: >-
 **[Pathology-Knowledge Enhanced Multi-Instance Prompt Learning For Few-Shot Whole S](pathology-knowledge_enhanced_multi-instance_prompt_learning_for_few-shot_whole_s.md)**
 
 :   提出 PEMP 框架，将病理学先验知识（视觉样例 + 文本描述）融入 patch 级和 slide 级的 prompt 中，结合 CLIP 进行多实例 prompt learning，在少样本弱监督 WSI 分类任务上平均超越 SOTA 方法 4%。
-
-**[Pathologyknowledge Enhanced Multiinstance Prompt Learni](pathologyknowledge_enhanced_multiinstance_prompt_learni.md)**
-
-:   提出 PEMP——病理知识增强的多实例提示学习框架，将视觉和文本病理先验（典型 patch/slide 示例 + 语言描述）注入 CLIP 的提示中，在 patch 和 slide 两个层级进行对比学习，显著提升少样本全切片图像（WSI）分类性能。
 
 **[Radedit Stress-Testing Biomedical Vision Models Via Diffusion Image Editing](radedit_stress-testing_biomedical_vision_models_via_diffusion_image_editing.md)**
 
@@ -117,10 +109,6 @@ description: >-
 **[Tip Tabular-Image Pre-Training For Multimodal Classification With Incomplete Dat](tip_tabular-image_pre-training_for_multimodal_classification_with_incomplete_dat.md)**
 
 :   提出 TIP 框架，通过掩码表格重建、图像-表格匹配和对比学习三种自监督任务，对表格数据和图像进行联合预训练，学习对不完整表格数据鲁棒的多模态表征，用于下游分类任务。
-
-**[Tip Tabularimage Pretraining For Multimodal Classification W](tip_tabularimage_pretraining_for_multimodal_classification_w.md)**
-
-:   提出TIP框架，通过掩码表格重建、图像-表格匹配和对比学习三个自监督任务，在表格数据不完整的条件下学习鲁棒的多模态表示，在自然图像和医学图像分类任务上超越现有方法。
 
 **[Topology-Preserving Downsampling Of Binary Images](topology-preserving_downsampling_of_binary_images.md)**
 
