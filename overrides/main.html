@@ -96,46 +96,14 @@
 </script>
 {% endif %}
 
-<!-- Mobile (real touch devices only): disable built-in search, redirect to Bing site search -->
-<!-- Desktop narrow windows keep native lunr search; only mobile UA hits this path -->
+<!-- Lazy-load search worker: defer 214MB search_index.json download until user opens search -->
+<!-- Mobile: redirect to Bing site search (no search index download at all) -->
+<!-- Desktop: create search worker lazily only when user focuses on search input -->
 <script>
 (function() {
   var isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  if (!isMobile) return;
 
-  // Terminate search worker to save memory
-  if (window.Worker) {
-    var origWorker = window.Worker;
-    window.Worker = function(url) {
-      if (typeof url === 'string' && url.indexOf('search') !== -1) {
-        var w = { postMessage: function(){}, terminate: function(){}, onmessage: null };
-        return w;
-      }
-      return new origWorker(url);
-    };
-  }
-
-  // Intercept search toggle: redirect to Bing site search
-  document.addEventListener('click', function(e) {
-    var el = e.target.closest('label[for="__search"], .md-search__icon, .md-header__button[data-md-component="search"]');
-    if (!el) return;
-    e.preventDefault();
-    e.stopPropagation();
-    var q = prompt('搜索论文笔记');
-    if (q && q.trim()) {
-      var encoded = encodeURIComponent(q.trim());
-      var site = 'site:zhaoyang97.github.io/Paper-Notes/+';
-      window.open('https://www.bing.com/search?q=' + site + encoded, '_blank');
-    }
-  }, true);
-})();
-</script>
-
-<!-- Client-side bilingual query expansion: 搜索"目标检测"也搜"object detection" -->
-<!-- Works by intercepting Worker.postMessage to expand queries BEFORE they reach lunr -->
-<script>
-(function() {
-  // Compact bilingual mapping (中↔英)
+  // ── Bilingual query expansion mapping (中↔英) ──
   var P = [
     "上下文学习|in-context learning","持续学习|continual learning","课程学习|curriculum learning",
     "小样本学习|few-shot learning","零样本|zero-shot","元学习|meta-learning",
@@ -175,37 +143,111 @@
 
   function expand(q) {
     var ql = q.toLowerCase().trim();
-    // Exact match
     if (M[ql]) return q + ' ' + M[ql];
-    // Substring match (find translated terms within query)
     var extra = [], seen = {};
     for (var t in M) {
-      if (ql.indexOf(t) !== -1 && !seen[M[t]]) {
-        seen[M[t]] = true;
-        extra.push(M[t]);
-      }
+      if (ql.indexOf(t) !== -1 && !seen[M[t]]) { seen[M[t]] = true; extra.push(M[t]); }
     }
     return extra.length ? q + ' ' + extra.join(' ') : q;
   }
 
-  // Intercept Worker creation to silently expand search queries
+  // ── Mobile: disable search worker entirely, use Bing ──
+  if (isMobile) {
+    if (window.Worker) {
+      var origWorkerMobile = window.Worker;
+      window.Worker = function(url) {
+        if (typeof url === 'string' && url.indexOf('search') !== -1) {
+          return { postMessage: function(){}, terminate: function(){}, onmessage: null };
+        }
+        return new origWorkerMobile(url);
+      };
+    }
+    document.addEventListener('click', function(e) {
+      var el = e.target.closest('label[for="__search"], .md-search__icon, .md-header__button[data-md-component="search"]');
+      if (!el) return;
+      e.preventDefault(); e.stopPropagation();
+      var q = prompt('搜索论文笔记');
+      if (q && q.trim()) {
+        window.open('https://www.bing.com/search?q=site:zhaoyang97.github.io/Paper-Notes/+' + encodeURIComponent(q.trim()), '_blank');
+      }
+    }, true);
+    return;
+  }
+
+  // ── Desktop: lazy-load search worker (only download index when user opens search) ──
   if (window.Worker) {
-    var Orig = window.Worker;
+    var OrigWorker = window.Worker;
     window.Worker = function(url, opts) {
-      var w = new Orig(url, opts);
-      if (typeof url === 'string' && url.indexOf('search') !== -1) {
-        var origPost = w.postMessage.bind(w);
-        w.postMessage = function(msg) {
-          // MkDocs Material sends {type: N, data: "query"} to search worker
+      // Non-search workers: create immediately
+      if (typeof url !== 'string' || url.indexOf('search') === -1) {
+        return new OrigWorker(url, opts);
+      }
+
+      // Search worker: create a lazy proxy
+      var realWorker = null;
+      var queued = [];
+      var proxy = {
+        onmessage: null,
+        onerror: null,
+        terminate: function() { if (realWorker) realWorker.terminate(); },
+        postMessage: function(msg) {
+          // Apply bilingual expansion
           if (msg && typeof msg.data === 'string' && msg.data.length > 0 && msg.data.length < 200) {
             msg = Object.assign({}, msg, { data: expand(msg.data) });
           }
-          return origPost(msg);
+          if (realWorker) {
+            realWorker.postMessage(msg);
+          } else {
+            queued.push(msg);
+          }
+        },
+        addEventListener: function(type, fn) {
+          if (type === 'message') proxy.onmessage = fn;
+          else if (type === 'error') proxy.onerror = fn;
+        },
+        removeEventListener: function() {}
+      };
+
+      // Materialize the real worker (called once when user opens search)
+      function materialize() {
+        if (realWorker) return;
+        realWorker = new OrigWorker(url, opts);
+        realWorker.onmessage = function(e) {
+          if (typeof proxy.onmessage === 'function') proxy.onmessage(e);
         };
+        realWorker.onerror = function(e) {
+          if (typeof proxy.onerror === 'function') proxy.onerror(e);
+        };
+        // Flush queued messages
+        for (var i = 0; i < queued.length; i++) realWorker.postMessage(queued[i]);
+        queued = [];
       }
-      return w;
+
+      // Trigger worker creation when user opens search
+      function onSearchOpen() {
+        materialize();
+        // Clean up listeners after first trigger
+        document.removeEventListener('focusin', onFocusIn, true);
+        var cb = document.getElementById('__search');
+        if (cb) cb.removeEventListener('change', onSearchOpen);
+      }
+
+      function onFocusIn(e) {
+        if (e.target && e.target.classList && e.target.classList.contains('md-search__input')) {
+          onSearchOpen();
+        }
+      }
+
+      // Listen for search input focus or search checkbox toggle
+      document.addEventListener('focusin', onFocusIn, true);
+      var searchCheckbox = document.getElementById('__search');
+      if (searchCheckbox) {
+        searchCheckbox.addEventListener('change', onSearchOpen);
+      }
+
+      return proxy;
     };
-    window.Worker.prototype = Orig.prototype;
+    window.Worker.prototype = OrigWorker.prototype;
   }
 })();
 </script>
