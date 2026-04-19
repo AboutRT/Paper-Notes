@@ -49,48 +49,38 @@
 {% endif %}
 
 <!-- JSON-LD: BreadcrumbList -->
-{% if page and not page.is_homepage and page.parent %}
+{# Build crumbs: every ListItem MUST have an "item" URL (Google requirement). #}
+{# Derive ancestor URLs from canonical_url segments, dedupe against current page. #}
+{% if page and not page.is_homepage %}
+{% set _site = config.site_url.rstrip('/') %}
+{% set _canon = page.canonical_url.rstrip('/') ~ '/' %}
+{% set _rel = _canon[(_site|length + 1):].rstrip('/') %}
+{% set _segs = _rel.split('/') if _rel else [] %}
+{% set _ancestors = page.ancestors | reverse | list %}
+{% set ns = namespace(items=[{'name': 'AI Paper Notes', 'url': _site ~ '/'}]) %}
+{% for anc in _ancestors %}
+  {% set _depth = loop.index %}
+  {% if _depth <= _segs|length %}
+    {% set _url = _site ~ '/' ~ (_segs[:_depth] | join('/')) ~ '/' %}
+    {% if _url != _canon %}
+      {% set ns.items = ns.items + [{'name': anc.title, 'url': _url}] %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% set ns.items = ns.items + [{'name': page.title, 'url': _canon}] %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
+  {%- for c in ns.items %}
     {
       "@type": "ListItem",
-      "position": 1,
-      "name": "AI Paper Notes",
-      "item": "{{ config.site_url }}"
-    }
-    {% if page.parent.parent %}
-    ,{
-      "@type": "ListItem",
-      "position": 2,
-      "name": "{{ page.parent.parent.title | e }}"
-    }
-    ,{
-      "@type": "ListItem",
-      "position": 3,
-      "name": "{{ page.parent.title | e }}"
-    }
-    ,{
-      "@type": "ListItem",
-      "position": 4,
-      "name": "{{ page.title | e }}",
-      "item": "{{ page.canonical_url }}"
-    }
-    {% elif page.parent %}
-    ,{
-      "@type": "ListItem",
-      "position": 2,
-      "name": "{{ page.parent.title | e }}"
-    }
-    ,{
-      "@type": "ListItem",
-      "position": 3,
-      "name": "{{ page.title | e }}",
-      "item": "{{ page.canonical_url }}"
-    }
-    {% endif %}
+      "position": {{ loop.index }},
+      "name": {{ c.name | tojson }},
+      "item": {{ c.url | tojson }}
+    }{% if not loop.last %},{% endif %}
+  {%- endfor %}
   ]
 }
 </script>
