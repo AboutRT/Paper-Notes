@@ -63,6 +63,7 @@ $$\delta_i = \min_{j: \rho_j > \rho_i} d(v_i, v_j)$$
 ## 实验关键数据
 
 ### LLaVA-OneVision-7B (32帧)
+
 | 方法 | 保留率 | TFLOPs | MVBench | VideoMME | Avg% |
 |---|---|---|---|---|---|
 | Vanilla | 100% | 48.82 | 56.9 | 58.6 | 100% |
@@ -71,6 +72,7 @@ $$\delta_i = \min_{j: \rho_j > \rho_i} d(v_i, v_j)$$
 | **FastVID** | **9.7%** | **4.04** | **55.9** | **57.3** | **98.0%** |
 
 ### 效率对比 (LLaVA-OneVision)
+
 | 方法 | Prefill time | 加速比 | Avg Acc |
 |---|---|---|---|
 | Vanilla | 476.3ms | 1.0× | 100% |

@@ -71,6 +71,7 @@ $$\mathcal{L}_{\text{FDM}} = \lambda_1 \mathcal{L}_{\text{CFM}} + \lambda_2 \mat
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 模型 | FM 指标 | FDM 指标 | 提升 |
 |------|------|---------|----------|------|
 | Checkerboard 密度估计 (OT) | Likelihood ↑ | 2.38×10⁻² | **2.53×10⁻²** | +6.3% |
@@ -80,6 +81,7 @@ $$\mathcal{L}_{\text{FDM}} = \lambda_1 \mathcal{L}_{\text{CFM}} + \lambda_2 \mat
 | BAIR 视频预测 | FVD ↓ | 146 | **123** | -15.8% |
 
 ### 消融实验
+
 | 数据集 | 指标 | FM (OT) | FDM (OT) | FM (VP) | FDM (VP) |
 |--------|------|---------|----------|---------|----------|
 | Lorenz 轨迹 p(x₁) | TV ↓ | 0.0348 | **0.0306** | - | - |

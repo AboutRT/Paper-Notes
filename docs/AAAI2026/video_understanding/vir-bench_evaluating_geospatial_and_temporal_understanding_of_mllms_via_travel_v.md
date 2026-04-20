@@ -71,6 +71,7 @@ VIR-Bench定义了一个层次化的visiting order graph：
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | Node-Prefecture F1 | Node-City F1 | Node-POI F1 | Edge-Inclusion F1 | Edge-Transition F1 |
 |------|----|----|----|----|----|
 | VideoLLaMA3 | 低 | 低 | 极低 | 低 | 极低 |
@@ -80,6 +81,7 @@ VIR-Bench定义了一个层次化的visiting order graph：
 | Gemini-2.5-Pro | 最高 | 最高 | 中 | 最高 | 中 |
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | 更多视频帧 | 稳步提升 | 更多视觉context有帮助 |

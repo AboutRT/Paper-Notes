@@ -87,6 +87,7 @@ LiveCodeBench v5 (Qwen2.5-Coder-7B)：
 | GASP | **好** | **AZR+2.5%** | 有goalpost引导 |
 
 ### Goalpost进展
+
 | 训练迭代 | 可解goalpost数 | 说明 |
 |---------|-------------|------|
 | 初始 | 0/146 | 全部无法解决 |

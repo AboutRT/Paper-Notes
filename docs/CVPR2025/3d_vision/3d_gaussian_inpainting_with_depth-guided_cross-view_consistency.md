@@ -58,6 +58,7 @@ $$\mathcal{L}_{inpaint} = \mathcal{L}_{rgb} + \mathcal{L}_{depth} + \mathcal{L}_
 ## 实验关键数据
 
 ### SPIn-NeRF数据集
+
 | 方法 | 表示 | 2D修补器 | FID↓ | m-FID↓ | LPIPS↓ | m-LPIPS↓ |
 |------|------|----------|------|--------|--------|---------|
 | SPIn-NeRF | NeRF | LAMA | 49.6 | 153.4 | 0.31 | 0.053 |

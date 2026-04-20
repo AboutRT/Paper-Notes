@@ -91,6 +91,7 @@ CEFM 包含四个互联的 pipeline：
 分割性能（UltraLight VM-UNet on ISIC 2018）：DSC = 0.8909，Acc = 95.56%，Specificity = 0.9746
 
 ### 消融实验
+
 | 配置 | 效果 |
 |------|------|
 | 完整 CEFM | 结构化、连贯、临床完整的报告 |

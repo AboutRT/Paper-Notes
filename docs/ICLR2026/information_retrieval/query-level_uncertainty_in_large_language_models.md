@@ -56,6 +56,7 @@ $$\text{IC}(\mathbf{h}) = \sum_{n=1}^{N}\sum_{l=1}^{L}w_n^{(l)} P(\text{Yes}|\ma
 ## 实验关键数据
 
 ### 主实验（跨模型跨任务）
+
 | 方法 | Phi-3.8B AUROC | Llama-8B AUROC | Qwen-14B AUROC | Avg AUROC |
 |------|:--:|:--:|:--:|:--:|
 | Max(-log p) | 54.0 | 56.3 | 57.8 | 56.0 |
@@ -65,6 +66,7 @@ $$\text{IC}(\mathbf{h}) = \sum_{n=1}^{N}\sum_{l=1}^{L}w_n^{(l)} P(\text{Yes}|\ma
 | **Internal Confidence** | **60.8** | **64.7** | **67.1** | **64.2** |
 
 ### 与Answer-level方法对比（速度）
+
 | 方法 | GSM8K AUROC | 毛秒/样本 |
 |------|:--:|:--:|
 | IC(本文) | 66.8 | **0.3** |

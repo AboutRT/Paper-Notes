@@ -85,6 +85,7 @@ SegPoint 由四个核心部分组成：(1) 预训练点云编码器 $\mathcal{E}
 ## 实验关键数据
 
 ### 指令分割（Instruct3D）
+
 | 阶段 | 方法 | Acc | mIoU |
 |------|------|-----|------|
 | Two-stage | ScanRefer | 12.0 | 6.9 |
@@ -97,6 +98,7 @@ SegPoint 由四个核心部分组成：(1) 预训练点云编码器 $\mathcal{E}
 SegPoint 相比最优 baseline 提升 **+14.7 mIoU** (27.5 vs 12.8)。
 
 ### 语义分割
+
 | 方法 | ScanNet | ScanNet200 | S3DIS |
 |------|---------|-----------|-------|
 | PTv2 | 75.4 | 30.2 | 71.6 |
@@ -107,6 +109,7 @@ SegPoint 相比最优 baseline 提升 **+14.7 mIoU** (27.5 vs 12.8)。
 在类别丰富的 ScanNet200 上超越 SOTA +2.7% mIoU。
 
 ### 引用分割
+
 | 方法 | ScanRefer | Nr3D | Multi3DRefer |
 |------|-----------|------|-------------|
 | M3DRef-CLIP | 35.7 | 27.0 | 32.6 |
@@ -117,6 +120,7 @@ SegPoint 相比最优 baseline 提升 **+14.7 mIoU** (27.5 vs 12.8)。
 Multi3DRefer 上超越对手 +3.5 mIoU。
 
 ### 消融实验
+
 | GEM | GFP | Instruct3D mIoU | ScanRefer mIoU |
 |-----|-----|-----------------|----------------|
 | ✗ | ✗ | 16.1 | 30.3 |

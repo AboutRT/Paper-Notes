@@ -47,6 +47,7 @@ VidEoMT基于EoMT：将N个可学习查询注入到DINOv2 ViT的最后L2层与pa
 使用Mask2Former标准损失（CE分类 + BCE/Dice分割）。两阶段训练：第一阶段COCO+目标视频数据集做图像分割训练；第二阶段引入时序建模微调。VidEoMT需要微调ViT编码器（因为encoder-only），而CAVIS等方法可以冻结。200个查询，D=1024，H100 GPU训练。
 
 ## 实验关键数据
+
 | 方法 | Backbone | YT-VIS 2019 AP | FPS | GFLOPs |
 |--------|------|------|------|------|
 | CAVIS | ViT-L | 68.9 | 15 | 838 |

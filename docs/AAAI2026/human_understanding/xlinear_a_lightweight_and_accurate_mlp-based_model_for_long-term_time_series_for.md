@@ -82,6 +82,7 @@ $$[E'_{\text{exo}}, X''_{\text{glob}}] = \sigma(\text{Linear}_4(\phi(\text{Linea
 - 缺少与 foundation time series model 的对比
 
 ## 与相关工作的对比
+
 | 维度 | XLinear | TimeXer | DLinear | iTransformer |
 |------|---------|---------|---------|-------------|
 | 架构 | MLP + gating | Patch Transformer | 线性分解 | 变量级 attention |

@@ -61,6 +61,7 @@ CCCaption 基于 GRPO 强化学习算法，核心包含三个部分：(1) Comple
 ## 实验关键数据
 
 ### 主实验
+
 | 评估框架 | 指标 | CCCaption-2B | Qwen3-VL-2B | Qwen3-VL-32B | CapRL-3B | 提升 |
 |---------|------|-------------|-------------|-------------|---------|------|
 | CapArena | Avg. ELO | **46.39** | 41.39 | - | 17.56 | +5.0 vs 2B基线 |
@@ -68,6 +69,7 @@ CCCaption 基于 GRPO 强化学习算法，核心包含三个部分：(1) Comple
 | Hallucinations | Avg. | **70.57** | 70.19 | 69.87 | 66.91 | +0.70 vs 32B |
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | Completeness only | reward ↑ 但 correctness ↓ | 后期幻觉激增 |

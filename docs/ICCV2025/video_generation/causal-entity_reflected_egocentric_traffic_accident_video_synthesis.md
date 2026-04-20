@@ -71,6 +71,7 @@ Causal-VidSyn分为两个渐进层级：❶扩散配方层（Reciprocal Prompted
 CTS/CTG扩展到CogVideoX-2B和Latte后也取得一致显著提升。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Full Causal-VidSyn | 最优 | 完整模型 |

@@ -66,6 +66,7 @@ $$\mathcal{L} = \mathbb{E}_{t,\mathbf{x}_0,\mathbf{x}_1}\left[\|v_\theta(\mathbf
 ## 实验关键数据
 
 ### 主实验（首帧引导编辑定量比较）
+
 | 方法 | CLIP Score↑ | DEQA Score↑ | Input Similarity↑ |
 |------|-----------|-----------|-------------------|
 | AnyV2V | 0.8995 | 3.7348 | 0.7569 |
@@ -74,6 +75,7 @@ $$\mathcal{L} = \mathbb{E}_{t,\mathbf{x}_0,\mathbf{x}_1}\left[\|v_\theta(\mathbf
 | **LoRA-Edit** | **0.9172** | **3.8013** | **0.7608** |
 
 ### 用户研究（参考引导编辑排名，低更好）
+
 | 方法 | 运动一致性↓ | 背景保持↓ |
 |------|-----------|----------|
 | Kling1.6 | 1.869 | 1.806 |

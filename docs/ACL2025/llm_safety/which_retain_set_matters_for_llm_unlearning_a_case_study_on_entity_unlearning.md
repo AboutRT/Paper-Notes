@@ -73,6 +73,7 @@ tags:
 ## 实验关键数据
 
 ### 表1：遗忘过程对不同邻居集的 RUD（Real-world，Llama-3-8B-Instruct）
+
 | 邻居集类型 | GA | NPO | IDK | DPO | 趋势 |
 |-----------|-----|-----|-----|-----|------|
 | Domain Neighbor | 小降 | 小降 | 小降 | 小降 | 影响最小 |
@@ -81,6 +82,7 @@ tags:
 | Syn Sim & Domain (交叉) | 更大降 | 更大降 | 更大降 | 更大降 | 重叠加剧遗忘 |
 
 ### 表2：正则化效果热力图（GD 正则化，RUD 平均 across GA/DPO/NPO/IDK）
+
 | Train Retain ↓ \ Test Retain → | Domain | Entity | Syn. Similar |
 |-------------------------------|--------|--------|-------------|
 | Domain | 中 | 中 | 低 |

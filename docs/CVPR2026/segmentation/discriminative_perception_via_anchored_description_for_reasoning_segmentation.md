@@ -78,6 +78,7 @@ $$R_{final} = R_{format} + R_{geo} + R_{dpad}$$
 GRPO优化，采样组大小G用于组内相对排名。训练基于标准的RL pipeline，frozen CLIP作为reward model的一部分(不参与梯度更新)。训练数据使用ReasonSeg训练集。
 
 ## 实验关键数据
+
 | 方法 | cIoU | gIoU | 推理链长度 |
 |------|------|------|-----------|
 | 基线(仅R_geo) | baseline | baseline | 1.0× |

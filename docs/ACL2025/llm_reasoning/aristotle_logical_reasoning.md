@@ -112,6 +112,7 @@ Aristotle 由四个模块组成：
 | **Aristotle** | **99.6** | **86.8** | **68.3** | **84.9** |
 
 GPT-4o 结果：
+
 | 方法 | ProntoQA | ProofWriter | LogicNLI | 平均 |
 |------|----------|-------------|----------|------|
 | SymbCoT | 99.4 | 82.3 | 58.7 | 80.1 |
@@ -120,6 +121,7 @@ GPT-4o 结果：
 - GPT-4 上平均提升 4.5%（vs SymbCoT），GPT-4o 上提升 5.4%（+6.2 on ProofWriter, +12.0 on LogicNLI）
 
 跨模型泛化性（Claude-3.5-Sonnet / Llama-3.1-405B）：
+
 | 模型 | ProntoQA | ProofWriter | LogicNLI | 平均 |
 |------|----------|-------------|----------|------|
 | Claude + Aristotle | 99.0 | 86.5 | 61.3 | 82.3 (+5.3) |

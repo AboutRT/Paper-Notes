@@ -109,6 +109,7 @@ $$\mathcal{L} = \underbrace{\frac{1}{D}\sum_{i=1}^{D}(1-\cos(\mathbf{f}_i, \math
 ## 实验关键数据
 
 ### 主实验（NMI / RI 指标，越高越好）
+
 | 方法 | Fruit-Color NMI | Fruit-Species NMI | Card-Suits NMI | CMUface-Identity NMI | CIFAR10-Type NMI |
 |------|----------------|-------------------|----------------|---------------------|------------------|
 | MSC | 0.6886 | 0.1627 | 0.0497 | 0.3892 | 0.1547 |
@@ -119,6 +120,7 @@ $$\mathcal{L} = \underbrace{\frac{1}{D}\sum_{i=1}^{D}(1-\cos(\mathbf{f}_i, \math
 | **Multi-DProxy** | **1.0000** | **1.0000** | **0.5008** | **0.7609** | **0.5863** |
 
 ### 消融实验
+
 | 配置 | 主要变化 | 说明 |
 |------|---------|------|
 | w/o-Dynamic | 去除动态候选词管理 | 性能下降，候选词无法适应数据 |
@@ -129,6 +131,7 @@ $$\mathcal{L} = \underbrace{\frac{1}{D}\sum_{i=1}^{D}(1-\cos(\mathbf{f}_i, \math
 | -V（仅视觉） | 只用视觉模态 | 融合表示显著优于单模态 |
 
 ### Zero-shot对比
+
 | 方法 | Fruit-Color | Stanford Cars-Color | CIFAR10-Type |
 |------|------------|--------------------|----|
 | CLIP_GPT (zero-shot) | 0.7912 | 0.6539 | 0.4935 |

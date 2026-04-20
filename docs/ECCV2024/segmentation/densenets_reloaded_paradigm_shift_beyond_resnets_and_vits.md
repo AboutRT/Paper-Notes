@@ -40,19 +40,15 @@ DenseNet 的密集拼接连接是否真的不如 ResNet 式的加法连接？能
 
 ### 关键设计
 
-1. **加宽减深（Wider & Shallower）**：将 growth rate (GR) 从 32 大幅增加到 120，深度从 (6,12,48,32) 减少到 (3,3,12,3)。训练速度提升约 35%，内存减少 18%。准确率仅下降 0.2pp（79.7→79.5）
+1. **宽浅架构与密集连接重构**:
+    - 功能：重新设计 DenseNet 的宏观架构，平衡密集连接的特征复用优势与计算效率
+    - 核心思路：将 growth rate (GR) 从 32 大幅提升到 60+，深度从 (6,12,48,32) 减少到 (3,3,12,3)；将 expansion ratio (ER) 从绑定于 GR 改为绑定于输入维度，解耦二者使中间维度随网络加深自然增长；不同 stage 使用不同 GR（如 64,104,128,224）。同时在 stage 内部每 3 个 block 后插入 stride=1 的 transition 层做维度缩减（不下采样），大幅控制密集拼接带来的通道膨胀问题
+    - 设计动机：原始 DenseNet 窄而深的设计导致训练慢、显存高，加宽减深后训练速度提升约 35%，内存减少 18%，精度几乎不降；频繁的 transition 层进一步抑制通道爆炸，允许使用更大的 GR 提升表达能力
 
-2. **现代化 block（Improved Feature Mixers）**：采用 ConvNeXt 风格的 block 设计——Layer Norm 替代 Batch Norm、post-activation、7×7 深度可分离卷积、更少的归一化/激活。准确率提升 0.9pp（79.5→80.4）
-
-3. **扩大中间维度（Larger Intermediate Dimensions）**：将 expansion ratio (ER) 从绑定于 GR 改为绑定于输入维度（解耦 ER 和 GR），同时将 GR 从 120 减半到 60。训练速度提升 21%，准确率再提 0.4pp
-
-4. **更多 transition 层**：不仅在 stage 之间放 transition 层，还在 stage 内部每 3 个 block 后加一个 stride=1 的 transition 层做维度缩减（不下采样）。大幅降低计算量，允许进一步增大 GR。配合不同 stage 使用不同 GR（如 64,104,128,224）
-
-5. **Patchification stem**：使用 patch_size=4, stride=4 的 patchification（类似 ConvNeXt），加速计算且不损精度
-
-6. **改进的 transition 层**：去掉 average pooling，用调整 kernel size 和 stride 的卷积替代，并用 LN 替换 BN。+0.2pp
-
-7. **Channel re-scaling**：融合 channel layer-scale 和 squeeze-excitation 的通道重缩放。+0.2pp
+2. **现代化 Block 设计**:
+    - 功能：将 DenseNet 的特征混合模块升级为现代卷积网络风格
+    - 核心思路：采用 ConvNeXt 风格——Layer Norm 替代 Batch Norm、post-activation、7×7 深度可分离卷积、更少的归一化/激活层；stem 使用 patch_size=4, stride=4 的 patchification；transition 层去掉 average pooling，用卷积替代并使用 LN；融合 channel layer-scale 和 squeeze-excitation 的通道重缩放机制
+    - 设计动机：原始 DenseNet 的 BN + pre-activation 设计已过时，现代化 block 设计带来约 1.3pp 的精度提升，同时 patchification stem 加速计算且不损精度
 
 ### RDNet 模型族配置
 

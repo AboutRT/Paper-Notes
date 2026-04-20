@@ -47,6 +47,7 @@ $$\mathcal{L}_{total} = \mathcal{L}_{task} + \lambda_{macro}\mathcal{L}_{macro} 
 - Gumbel-Sigmoid温度从 $\tau_0=2.0$ 指数退火至 $\tau_{min}=0.5$，200 epoch训练，AdamW优化器 lr=5e-5
 
 ## 实验关键数据
+
 | 方法 | 训练epoch | MACs(G) | Top-1 Acc(%) | Δ Acc |
 |------|----------|---------|-------------|-------|
 | DeiT-Small (dense) | - | 4.6 | 79.85 | - |

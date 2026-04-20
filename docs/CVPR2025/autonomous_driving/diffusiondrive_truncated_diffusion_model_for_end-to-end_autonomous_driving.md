@@ -72,6 +72,7 @@ DiffusionDrive由感知模块和扩散解码器两部分组成。感知模块可
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | 本文 | 之前SOTA | 提升 |
 |--------|------|------|----------|------|
 | NAVSIM navtest | PDMS | 88.1 | 86.5 (Hydra-MDP-W-EP) | +1.6 |
@@ -81,6 +82,7 @@ DiffusionDrive由感知模块和扩散解码器两部分组成。感知模块可
 | nuScenes | Avg Collision (%) | 0.08 | 0.08 (SparseDrive) | 持平 |
 
 ### 消融实验
+
 | 配置 | 关键指标 (PDMS) | 说明 |
 |------|---------|------|
 | Transfuser (baseline) | 84.0 | 单模态回归 MLP |

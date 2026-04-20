@@ -95,6 +95,7 @@ $$\mathcal{L} = \mathcal{L}_{\text{FDM}}^{\text{fwd}} + \mathcal{L}_{\text{FDM}}
 ## 实验关键数据
 
 ### MetaWorld 14任务 平均成功率
+
 | 方法 | 预训练方式 | 平均成功率 |
 |------|-----------|-----------|
 | PointMAE | 单帧重建 | 63.9% |
@@ -105,6 +106,7 @@ $$\mathcal{L} = \mathcal{L}_{\text{FDM}}^{\text{fwd}} + \mathcal{L}_{\text{FDM}}
 AFRO相比DynaMo-3D提升+11.1%，相比PointMAE提升+12.1%。
 
 ### Adroit 2任务
+
 | 方法 | Pen | Door | 平均 |
 |------|-----|------|------|
 | PointMAE | — | — | 较低 |
@@ -115,6 +117,7 @@ AFRO相比DynaMo-3D提升+11.1%，相比PointMAE提升+12.1%。
 在4个真实机器人操控任务上，AFRO也取得最高成功率，验证sim-to-real迁移能力。
 
 ### 消融实验要点
+
 | 消融项 | 效果变化 |
 |--------|---------|
 | 去掉IDM（无动态感知） | 显著下降 |

@@ -72,6 +72,7 @@ $\mathcal{L} = \mathcal{L}_{\text{recon}} + \mathcal{L}_{\text{match}} + \mathca
 ## 实验关键数据
 
 ### KITTI 数据集（无方向先验，Same-Area）
+
 | 方法 | Backbone | Med. Pos.(m)↓ | Med. Ori.(°)↓ | R@1m Lat.↑ |
 |------|----------|---------------|---------------|------------|
 | SliceMatch | VGG16 | 5.41 | 4.42 | 39.73% |
@@ -80,6 +81,7 @@ $\mathcal{L} = \mathcal{L}_{\text{recon}} + \mathcal{L}_{\text{match}} + \mathca
 | **VIRD** | **VGG16** | **2.07** | **1.02** | **79.46%** |
 
 ### VIGOR 数据集（Same-Area, Unaligned）
+
 | 方法 | Med. Pos.(m)↓ | Med. Ori.(°)↓ |
 |------|---------------|---------------|
 | SliceMatch | 5.77 | 67.37 |

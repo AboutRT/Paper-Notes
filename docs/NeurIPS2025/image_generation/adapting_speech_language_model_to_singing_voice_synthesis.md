@@ -84,6 +84,7 @@ ACE-Opencpop 数据集（135小时合成歌声）
 SingMOS (感知质量) 与最佳专用系统 TokSing 持平
 
 ### 消融实验
+
 | 配置 | MCD↓ | PER↓ | SingMOS↑ | 说明 |
 |------|------|------|----------|------|
 | LM + CD (codec decoder) | 8.26 | 0.56 | 3.65 | 直接用 codec 解码，质量差 |

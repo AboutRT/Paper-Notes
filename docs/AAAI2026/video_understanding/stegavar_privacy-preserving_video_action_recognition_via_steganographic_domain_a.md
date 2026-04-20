@@ -60,6 +60,7 @@ $\mathcal{L} = \mathcal{L}_{cls} + \alpha \cdot \mathcal{L}_{spatial} + \beta \c
 ## 实验关键数据
 
 ### VAR 精度与隐私保护对比
+
 | 方法 | UCF101 Top-1↑ | HMDB51 Top-1↑ | VISPR1 cMAP↓ | VISPR1 F1↓ |
 |---|---|---|---|---|
 | Raw data | 71.98 | 44.25 | 64.41 | 0.555 |
@@ -70,6 +71,7 @@ $\mathcal{L} = \mathcal{L}_{cls} + \alpha \cdot \mathcal{L}_{spatial} + \beta \c
 - 隐私保护：cMAP 低于 BPAP 9.23 个百分点，即攻击者更难从 stego 视频推断隐私属性
 
 ### SDANet vs 普通 ResNet3D
+
 | 输入 | ResNet3D | SDANet |
 |---|---|---|
 | Raw data | 62.33 | **71.98** |
@@ -78,6 +80,7 @@ $\mathcal{L} = \mathcal{L}_{cls} + \alpha \cdot \mathcal{L}_{spatial} + \beta \c
 SDANet 凭借 DWT 高频分量引导在原始视频上也超越 ResNet3D 近 10%。
 
 ### 消融实验（UCF101）
+
 | 配置 | Top-1 |
 |---|---|
 | Baseline（无 STeP/CroDA） | 63.15 |

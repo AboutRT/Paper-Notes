@@ -72,6 +72,7 @@ $$\mathcal{L}_{total} = \mathcal{L}_{Pixel} + \lambda_{Align}^i \mathcal{L}_{Ali
 | 芯片移动 | T1 | - | 0.85 | - | 0.60 |
 
 ### 消融实验
+
 | 配置 | TAG Acc | ToucHD Force(DG) | ToucHD Force(Mini) | 说明 |
 |------|---------|------|------|------|
 | 完整AnyTouch 2 | 76.97 | 624.26 | 202.14 | 全部模块 |

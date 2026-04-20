@@ -98,6 +98,7 @@ $$\mathcal{L}_{\text{geo}} = \gamma_{\text{rama}} \mathcal{L}_{\text{rama}} + \g
 ## 实验关键数据
 
 ### 蛋白质复合物精修 (110个案例)
+
 | 指标 | AlphaFold3 | Phenix.real_space_refine | **CryoNet.Refine** |
 |------|-----------|------------------------|-------------------|
 | CC_mask ↑ | 0.38 | 0.54 | **0.59** |
@@ -113,6 +114,7 @@ $$\mathcal{L}_{\text{geo}} = \gamma_{\text{rama}} \mathcal{L}_{\text{rama}} + \g
 | Rotamer outlier (%) ↓ | 1.08 | 1.15 | **0.49** |
 
 ### DNA/RNA-蛋白质复合物精修 (10个案例)
+
 | 指标 | AlphaFold3 | Phenix.real_space_refine | **CryoNet.Refine** |
 |------|-----------|------------------------|-------------------|
 | CC_mask ↑ | 0.40 | 0.57 | **0.65** |
@@ -122,6 +124,7 @@ $$\mathcal{L}_{\text{geo}} = \gamma_{\text{rama}} \mathcal{L}_{\text{rama}} + \g
 | CC_volume ↑ | 0.48 | 0.61 | **0.69** |
 
 ### 消融实验 (27个蛋白质复合物)
+
 | 配置 | CC_mask | Rama favored | Rot favored |
 |------|---------|-------------|-------------|
 | 去掉密度损失 $\gamma_{\mathrm{den}}=0$ | 0.41 (↓35%) | 99.09% | 98.67% |
@@ -130,6 +133,7 @@ $$\mathcal{L}_{\text{geo}} = \gamma_{\text{rama}} \mathcal{L}_{\text{rama}} + \g
 | **CryoNet.Refine (完整)** | **0.65** | **98.80%** | **98.58%** |
 
 ### vs 经典多步扩散 (200步) vs 直接数值优化
+
 | 方法 | CC_mask | Angle RMSD |
 |------|---------|-----------|
 | 经典200步扩散 | 0.30 | 1.66° |

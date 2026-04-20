@@ -81,6 +81,7 @@ tags:
 零样本 Structured3D: FID **31.1** (vs PanoDiffusion 35.3，后者在该数据集上训练）
 
 ### 消融实验
+
 | 配置 | FOV MAE↓ | phi MAE↓ | psi MAE↓ |
 |------|---------|---------|---------|
 | MSE 回归 | 10.6° | 2.5° | 2.4° |

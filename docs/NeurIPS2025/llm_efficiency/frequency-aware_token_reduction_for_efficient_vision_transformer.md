@@ -68,6 +68,7 @@ Proposition 3.1 证明：无论 pruning 还是 merging 都使 $\|H_f[SA(MX)]\|_F
 ## 实验关键数据
 
 ### DeiT 系列主实验（ImageNet-1K, 30% token reduction per layer）
+
 | 模型 | 方法 | MACs | Accuracy |
 |------|------|------|----------|
 | DeiT-S | Baseline | 4.6G | 79.8% |
@@ -80,12 +81,14 @@ Proposition 3.1 证明：无论 pruning 还是 merging 都使 $\|H_f[SA(MX)]\|_F
 | DeiT-B | **本文** | **11.5G** | **82.1%** |
 
 ### 自监督模型
+
 | 模型 | 基线 Acc | 本文 Acc | MACs 减少 |
 |------|---------|---------|---------|
 | MAE ViT-B | 83.6% | **83.5%** | ~35% |
 | DINO ViT-S | 81.5% | **81.5%** | ~35% |
 
 ### 消融实验
+
 | 配置 | Accuracy |
 |------|----------|
 | 仅 HF token 保留 | 79.6% |

@@ -130,12 +130,14 @@ Co-EPG是一个自迭代训练框架，核心是建立Planning和Grounding之间
 ### 消融实验要点
 
 **P-G解耦 vs 端到端**：
+
 | 架构 | Avg Step SR |
 |------|------|
 | End-to-End | 50.1 |
 | P-G Dual-Model | 53.5 (+3.4%) |
 
 **C-DREM消融**：
+
 | 变体 | Avg Step SR |
 |------|------|
 | w/o C-DREM（单一定位模型做奖励） | 56.50 |
@@ -144,6 +146,7 @@ Co-EPG是一个自迭代训练框架，核心是建立Planning和Grounding之间
 | 完整C-DREM | **58.41** (+1.91) |
 
 **迭代效果**（Co-EPG-Web-7B Avg Step SR）：
+
 | 阶段 | w/o GRPO | w/ GRPO |
 |------|------|------|
 | Iteration 1 | 52.6 | 53.5 |

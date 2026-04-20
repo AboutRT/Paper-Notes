@@ -82,6 +82,7 @@ SceneVerse 由两部分组成：(1) 数据集构建——整合 7 个来源的 6
 ## 实验关键数据
 
 ### 主实验：3D Visual Grounding
+
 | 方法 | Nr3D Overall | Sr3D Overall | ScanRefer Acc@0.5 |
 |------|-------------|-------------|-------------------|
 | 3DVG-Trans | 40.8 | 51.4 | 34.7 |
@@ -95,6 +96,7 @@ SceneVerse 由两部分组成：(1) 数据集构建——整合 7 个来源的 6
 GPS 预训练后直接在 ScanRefer 上已超过所有方法（47.1），fine-tune 后进一步提升。
 
 ### 零样本迁移
+
 | 方法 | Nr3D | Sr3D | ScanRefer@0.5 |
 |------|------|------|---------------|
 | 3D-VisTA (zero-shot) | 35.2 | 31.2 | 29.6 |
@@ -105,6 +107,7 @@ GPS 预训练后直接在 ScanRefer 上已超过所有方法（47.1），fine-tu
 在 SceneVerse-val 上零样本迁移：GPS 达 59.2%（vs 3D-VisTA 52.9%），SceneVerse 数据大幅增强泛化能力。
 
 ### 3D QA
+
 | 模型 | ScanQA val | SQA3D |
 |------|-----------|-------|
 | ScanQA | 20.3 | 46.6 |

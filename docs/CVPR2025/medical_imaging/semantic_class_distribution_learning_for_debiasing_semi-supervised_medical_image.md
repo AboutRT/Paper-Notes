@@ -67,6 +67,7 @@ tags:
 - **AMOS**：360 例 CT，15 个器官类别，5% 标注
 
 ### Synapse (20% labeled)
+
 | 方法 | DSC↑ | ASD↓ |
 |------|:---:|:---:|
 | VNet (fully) | 68.49 | 6.08 |
@@ -78,6 +79,7 @@ tags:
 - SCDL-GA-CPS 的 ASD 降低 2.12（5.44→3.32），边界质量显著提升
 
 ### AMOS (5% labeled)
+
 | 方法 | DSC↑ | ASD↓ |
 |------|:---:|:---:|
 | GenericSSL | 35.73 | 45.82 |

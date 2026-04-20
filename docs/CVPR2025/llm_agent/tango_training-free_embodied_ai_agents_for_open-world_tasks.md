@@ -65,6 +65,7 @@ Training-free——不需要任何任务特定的训练。仅使用预训练 Poi
 ## 实验关键数据
 
 ### Open-Set ObjectGoal Navigation（HM3D-OVON val-unseen）
+
 | 方法 | SR (%) | SPL (%) | 训练需求 |
 |------|:---:|:---:|------|
 | Baseline RL | 18.6 | - | 强化学习训练 |
@@ -73,6 +74,7 @@ Training-free——不需要任何任务特定的训练。仅使用预训练 Poi
 | **TANGO** | **35.5** | **19.5** | **零样本** |
 
 ### Multi-Modal Lifelong Navigation（GOAT-Bench val-unseen）
+
 | 方法 | SR (%) | SPL (%) |
 |------|:---:|:---:|
 | Modular GOAT | 24.9 | - |
@@ -82,6 +84,7 @@ Training-free——不需要任何任务特定的训练。仅使用预训练 Poi
 TANGO 在 GOAT-Bench 上 +2.6% 超越之前 SOTA
 
 ### Open Embodied QA（OpenEQA, LLM-match 1-5 分）
+
 | 方法 | Score |
 |------|:---:|
 | Blind LLMs | 35.5 ± 1.7 |
@@ -90,6 +93,7 @@ TANGO 在 GOAT-Bench 上 +2.6% 超越之前 SOTA
 | 人类 Agent | 85.1 ± 1.1 |
 
 ### 失败分析
+
 | 错误类型 | 占比 |
 |---------|:---:|
 | 检测失败（目标遗漏/误检） | ~34% |

@@ -76,6 +76,7 @@ Critic总损失：$\mathcal{L}_{\text{Critic}} = \lambda_{\text{res}}\mathcal{L}
 ## 实验关键数据
 
 ### 主实验（连续时间Safe MPE + MuJoCo）
+
 | 方法 | 方向 | 约束与代价优势 |
 |------|------|---------------|
 | MACPO | 信赖域约束 | 过于保守 |
@@ -86,6 +87,7 @@ Critic总损失：$\mathcal{L}_{\text{Critic}} = \lambda_{\text{res}}\mathcal{L}
 | **EPI (ours)** | **$z^*$直接优化** | **代价和约束均接近最优** |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 完整EPI | 最优 | 三重损失+$z^*$优化 |

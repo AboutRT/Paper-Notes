@@ -79,6 +79,7 @@ $$\text{ESTP-F1} = \frac{2 \times \sum_{k=1}^{M} S(g_k)}{2\sum_{k=1}^{M} S(g_k) 
 ## 实验关键数据
 
 ### ESTP-Bench主表
+
 | 模型 | Overall ESTP-F1 |
 |------|----------------|
 | LIVE (th=0.9) | 15.5 |

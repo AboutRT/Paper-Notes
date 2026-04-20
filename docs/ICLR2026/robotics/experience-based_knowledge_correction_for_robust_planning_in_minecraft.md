@@ -65,6 +65,7 @@ XENON = Adaptive Dependency Graph (ADG) + Failure-Aware Action Memory (FAM) + Co
 ## 实验关键数据
 
 ### 长期规划成功率（学习知识 vs oracle）
+
 | 目标类型 | Oracle 知识 SR | 学习知识 SR |
 |----------|---------------|------------|
 | Gold items | 0.83 | 0.74 |
@@ -73,6 +74,7 @@ XENON = Adaptive Dependency Graph (ADG) + Failure-Aware Action Memory (FAM) + Co
 | 总体 | 0.80 | 0.54 |
 
 ### 依赖学习准确率（EGA）
+
 | 平台 | 400 轮后 |
 |------|---------|
 | MineRL | ~0.60 |

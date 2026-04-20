@@ -91,6 +91,7 @@ tags:
 | + template | **+24.6** |
 
 ### Token级消融（Token-Level Ablation）
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | 只mask content表示 | 性能几乎不变（-3.8%） | content不是test example的直接依赖 |

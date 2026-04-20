@@ -44,6 +44,7 @@ tags:
 总训练目标：$\mathcal{L} = \mathcal{L}_{BC} + \lambda_{IFA} \mathcal{L}_{IFA}$，其中 $\lambda_{IFA}=0.1$。$\mathcal{L}_{BC}$ 为行为克隆损失（负对数似然，基于GMM策略头输出）。使用AdamW优化器，学习率 $10^{-4}$，线性调度器，批量大小10，训练100 epochs。预训练和终身学习阶段配置一致。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | MLR+IFA (本文) | LOTUS (之前SOTA) | ISCIL | 提升 |
 |--------|------|------|----------|------|------|
 | LIBERO-OBJECT | FWT↑ | 84.6 | 74.0 | 71.7 | +10.6 vs LOTUS |

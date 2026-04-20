@@ -85,6 +85,7 @@ ISP Prompt（$n$ 对图像-分数对）→ Visual Encoder + Score Expansion → 
 ## 实验关键数据
 
 ### 主实验（ADN-IQA 任务典型结果）
+
 | 数据集 | 指标 | PromptIQA | 之前 SOTA (MoNet) | 提升 |
 |--------|------|-----------|-------------------|------|
 | BID | SROCC↑ | **0.9152** | 0.9012 | +1.53% |
@@ -95,6 +96,7 @@ ISP Prompt（$n$ 对图像-分数对）→ Visual Encoder + Score Expansion → 
 | UWIQA | SROCC↑ | **0.8766** | UIQI 0.7423 | +18.1% |
 
 ### 泛化实验（用 FR-IQA 模拟新评估需求，10-shot）
+
 | 模型 | 训练方式 | TID2013-SSIM | TID2013-FSIM | TID2013-LPIPS | Kadid-SSIM |
 |------|---------|-------------|-------------|---------------|------------|
 | MANIQA-SDT | Zero-shot | 0.5391 | 0.8245 | -0.7486 | 0.5553 |
@@ -105,6 +107,7 @@ ISP Prompt（$n$ 对图像-分数对）→ Visual Encoder + Score Expansion → 
 关键发现：传统模型在 LPIPS（DMOS 类型）上出现负相关（最高 -0.7486），因为训练时用的是 MOS。PromptIQA 通过 prompt 正确识别了 DMOS 语义，得到正相关 0.8064。
 
 ### 消融实验
+
 | 配置 | TID2013 | SPAQ | GFIQA20k | UWIQA | 泛化-FSIM | 泛化-LPIPS |
 |------|---------|------|----------|-------|-----------|------------|
 | w/o mixed training | 0.8849 | 0.9228 | 0.9696 | 0.8781 | 0.8579 | 0.6511 |

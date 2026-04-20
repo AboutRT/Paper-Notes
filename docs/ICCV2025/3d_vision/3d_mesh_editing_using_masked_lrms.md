@@ -55,6 +55,7 @@ $$\mathcal{L} = w_I\|I - \hat{I}\|_2^2 + w_N\|N - \hat{N}\|_2^2 + w_M\|M - \hat{
 ## 实验关键数据
 
 ### 重建质量（尽管不是主要目标）
+
 | 方法 | ABO PSNR↑ | ABO LPIPS↓ | GSO PSNR↑ | GSO LPIPS↓ |
 |------|----------|----------|----------|----------|
 | InstantMesh (Mesh) | - | - | 22.79 | 0.120 |
@@ -64,6 +65,7 @@ $$\mathcal{L} = w_I\|I - \hat{I}\|_2^2 + w_N\|N - \hat{N}\|_2^2 + w_M\|M - \hat{
 ABO上超过MeshLRM 2.56 dB PSNR！GSO上与SOTA持平。
 
 ### 编辑速度
+
 | 方法 | 类型 | 运行时间 |
 |------|------|---------|
 | TextDeformer | 优化 | 20分钟 |
@@ -74,6 +76,7 @@ ABO上超过MeshLRM 2.56 dB PSNR！GSO上与SOTA持平。
 | **MaskedLRM** | LRM | **<3秒** |
 
 ### 编辑质量（CLIP相似度）
+
 | 方法 | ViT-L-14 | ViT-BigG-14 |
 |------|----------|------------|
 | MagicClay | 0.285 | 0.286 |

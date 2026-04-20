@@ -72,6 +72,7 @@ ReasoningBank 是一个闭环记忆系统：Agent 接收新任务 → 从 Reason
 ## 实验关键数据
 
 ### 主实验 — WebArena
+
 | 方法 | Shopping SR | Admin SR | Gitlab SR | Reddit SR | Overall SR | Steps |
 |------|-----------|---------|----------|----------|------------|-------|
 | No Memory (Gemini-2.5-flash) | 39.0 | 44.5 | 33.9 | 55.7 | 40.5 | 9.7 |
@@ -82,6 +83,7 @@ ReasoningBank 是一个闭环记忆系统：Agent 接收新任务 → 从 Reason
 | **ReasoningBank** (pro) | **51.9** | **56.6** | **44.4** | **80.2** | **53.9** | **7.4** |
 
 ### SWE-Bench-Verified
+
 | 方法 | Resolve Rate | Steps |
 |------|-------------|-------|
 | No Memory (Gemini-2.5-flash) | 34.2 | 30.3 |
@@ -90,6 +92,7 @@ ReasoningBank 是一个闭环记忆系统：Agent 接收新任务 → 从 Reason
 | ReasoningBank (pro) | **57.4** | **19.8** |
 
 ### MaTTS 扩展实验 (WebArena-Shopping, k=scaling factor)
+
 | 配置 | k=1 | k=3 | k=5 |
 |------|-----|-----|-----|
 | MaTTS w/o memory (parallel) | 39.0 | 40.6 | 42.2 |
@@ -98,6 +101,7 @@ ReasoningBank 是一个闭环记忆系统：Agent 接收新任务 → 从 Reason
 | **MaTTS (sequential)** | 49.7 | **54.5** | 54.5 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 仅成功轨迹 | ReasoningBank: 46.5 SR | 仅用成功经验已优于基线 |

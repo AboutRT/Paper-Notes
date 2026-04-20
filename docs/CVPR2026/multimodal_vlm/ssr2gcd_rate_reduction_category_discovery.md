@@ -46,6 +46,7 @@ tags:
 两阶段训练：Warm-up阶段(10 epochs)用$\mathcal{L}_{SSR^2}^I + \mathcal{L}_{SSR^2}^T + \mathcal{L}_{cls}^I + \mathcal{L}_{cls}^T$；Alignment阶段(190 epochs)加入co-teaching损失对齐双分支预测。全程不使用任何模态间对齐损失。SGD优化，学习率0.001，batch size 128，单卡RTX3090。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | SSR2-GCD | TextGCD | GET | 提升 vs 最优 |
 |--------|------|------|----------|------|------|
 | Stanford Cars | All ACC | **89.2** | 86.1 | 78.5 | +3.1 |

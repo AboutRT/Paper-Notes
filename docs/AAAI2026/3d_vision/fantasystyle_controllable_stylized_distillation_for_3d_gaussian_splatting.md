@@ -71,6 +71,7 @@ $\Phi^{src} = \beta(\epsilon_\phi(z_t^{src}, t, \mathcal{P}) - \epsilon_\phi(z_t
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | ArtFID↓ | FID_style↓ | FID_content↓ | Short LPIPS↓ | Long LPIPS↓ |
 |------|---------|-----------|-------------|-------------|-------------|
 | StyleGaussian | 45.31 | 398.17 | 331.53 | 0.290 | 0.542 |
@@ -80,6 +81,7 @@ $\Phi^{src} = \beta(\epsilon_\phi(z_t^{src}, t, \mathcal{P}) - \epsilon_\phi(z_t
 FantasyStyle在所有关键指标上均取得最优或次优，FID_content相比次优方法降低约50。
 
 ### 消融实验
+
 | 消融项 | Short LPIPS↓ | Long LPIPS↓ |
 |--------|-------------|-------------|
 | w/o MVFC | 0.253 | 0.587 |

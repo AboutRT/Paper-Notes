@@ -70,6 +70,7 @@ UMIP 是本文核心模块，采用"粗到细"的渐进式特征增强策略：
 - 指标：Action QA/Recognition 用 Accuracy，Action Caption 用 METEOR
 
 ### 主要结果（MM-Fi，Cross-Environment 最难设置）
+
 | 方法 | Action QA Avg | Action Caption Avg |
 |------|:---:|:---:|
 | Tokenpacker | 4.6% | 3.8% |

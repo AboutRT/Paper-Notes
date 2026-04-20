@@ -156,6 +156,7 @@ $$\mathcal{L}_{\text{LSD}} = \int_0^1 \int_0^t \mathbb{E}\left[|\partial_t \hat{
 5. **LSD 的少步性能仍有提升空间**：1-step FID（CIFAR-10: 8.10）相比 SOTA consistency model 仍有差距
 
 ## 与相关工作的对比
+
 | 方法 | 是否需要教师 | 数学基础 | 训练稳定性 | 多步推理 |
 |------|-------------|---------|-----------|---------|
 | Consistency Model (CT) | ❌ | Eulerian PDE | 差（需精心工程） | ❌（单时间） |

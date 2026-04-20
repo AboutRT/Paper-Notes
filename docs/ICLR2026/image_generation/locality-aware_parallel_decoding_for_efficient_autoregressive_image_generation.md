@@ -62,6 +62,7 @@ $$PTA_s = \frac{1}{N}\sum_{i=1}^N \frac{\sum_j \text{Attention}(T_i,T_j) \cdot \
 ## 实验关键数据
 
 ### 主实验（ImageNet 256×256）
+
 | 类型 | 模型 | 参数 | FID↓ | IS↑ | #Steps | Latency(s) | Throughput |
 |------|------|------|------|-----|--------|-----------|-----------|
 | AR | LlamaGen-XXL | 1.4B | 2.34 | 253.9 | 576 | 24.40 | 0.72 |
@@ -72,6 +73,7 @@ $$PTA_s = \frac{1}{N}\sum_{i=1}^N \frac{\sum_j \text{Attention}(T_i,T_j) \cdot \
 | **Par.AR** | **LPD-XL** | **775M** | **1.97** | **304.0** | **20** | **0.57** | **60.27** |
 
 ### ImageNet 512×512
+
 | 模型 | 参数 | FID↓ | #Steps | Latency(s) | Throughput |
 |------|------|------|--------|-----------|-----------|
 | LlamaGen-XXL | 1.4B | 2.59 | 1024 | - | - |

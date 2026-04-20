@@ -78,6 +78,7 @@ Causal DQN 遵循标准 DQN 的 experience replay 框架，但在 Q 值更新步
 ## 实验关键数据
 
 ### 12 个混淆 Atari 游戏对比
+
 | 游戏 | Demonstrator | Conf.DQN | Conf.LSTM-DQN | Interv.DQN | **Causal DQN** |
 |------|-------------|---------|--------------|-----------|--------------|
 | Pong | 21.0 | -19.4 | -20.5 | -19.7 | **-1.8** |
@@ -87,6 +88,7 @@ Causal DQN 遵循标准 DQN 的 experience replay 框架，但在 Q 值更新步
 | Amidar | 232.4 | 37.8 | 59.0 | 44.0 | **282.6** |
 
 ### 消融实验（标准化 return 聚合）
+
 | 方法 | 归一化 Return |
 |------|-------------|
 | Conf. DQN | ~0.05 |

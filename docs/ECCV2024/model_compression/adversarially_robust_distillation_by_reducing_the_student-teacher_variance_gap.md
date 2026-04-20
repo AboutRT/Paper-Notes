@@ -73,6 +73,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | Teacher→Student | 指标 | 本文 | 之前SOTA(ARD/IAD) | 提升 |
 |--------|----------------|------|------|----------|------|
 | CIFAR-10 | WRN-34-10→WRN-16-2 | Robust Acc (PGD-20) | SOTA级别 | 多种ARD方法 | 一致提升 |
@@ -81,6 +82,7 @@ tags:
 | CIFAR-100 | WRN-34-10→MobileNetV2 | Robust Acc (PGD-20) | SOTA级别 | 多种ARD方法 | 一致提升 |
 
 ### 消融实验
+
 | 配置 | Robust Acc | Natural Acc | 说明 |
 |------|-----------|-------------|------|
 | Standard ARD baseline | 基线 | 基线 | 仅logits对齐 |

@@ -82,6 +82,7 @@ $\mathcal{L}(\pi_\theta; \pi_{ref}) = -\mathbb{E}_{t=0}[\log p_\theta(y_w \succ 
 | DPO-D(CP+TP) | ≈DPO(CP)，KL更低 | ≈DPO(CP)，KL更低 | ≈DPO(CP)，KL更低 |
 
 在数学推理（GSM8K/MATH）上的结果：
+
 | 方法 | GSM8K Pass@1 | MATH Pass@1 |
 |------|-------------|-------------|
 | DPO | 81.4 | 44.1 |
@@ -89,6 +90,7 @@ $\mathcal{L}(\pi_\theta; \pi_{ref}) = -\mathbb{E}_{t=0}[\log p_\theta(y_w \succ 
 | DPO-D | 82.1 | 44.8 |
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | 仅CP (原始DPO) | 高性能，高KL | 标准设置 |

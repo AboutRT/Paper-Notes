@@ -63,6 +63,7 @@ $$\text{Incoherence}(Q, f_\varepsilon) = \frac{\sum_i \text{Variance}(q_i, f_\va
 ## 实验关键数据
 
 ### 发现1：推理越长→越不连贯
+
 | 设置 | 趋势 | 说明 |
 |------|------|------|
 | GPQA (Sonnet 4/o3-mini/o4-mini) | 长推理→更不连贯 | 所有模型一致趋势 |
@@ -73,6 +74,7 @@ $$\text{Incoherence}(Q, f_\varepsilon) = \frac{\sum_i \text{Variance}(q_i, f_\va
 控制任务难度后效果仍然存在：对每个问题按推理长度中位数分组，自然更长推理的那组incoherence显著更高，但准确率差异很小。自然推理变异的影响远强于reasoning budget的影响。
 
 ### 发现2：模型规模的影响取决于任务难度
+
 | 题目难度 | Qwen3 0.6B→32B incoherence变化 | 说明 |
 |---------|-------------------------------|------|
 | 简单 | ↓（更连贯） | 能力提升减少了随机错误 |

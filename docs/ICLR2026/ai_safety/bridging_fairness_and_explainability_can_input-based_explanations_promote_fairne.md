@@ -68,6 +68,7 @@ tags:
 ## 实验关键数据
 
 ### RQ1：偏见检测（Fairness Correlation）
+
 | 解释方法 | BERT (Race) | BERT (Gender) | Qwen3-4B (Race) | Qwen3-4B (Gender) |
 |---------|-------------|---------------|-----------------|-------------------|
 | Grad L2 | 高 | 中 | 高 | 高 |
@@ -81,6 +82,7 @@ tags:
 解释方法的验证集指标与测试集公平性的 Spearman 相关不稳定，MRR@1 始终低于直接使用验证集 IU 的 baseline。结论：**解释不可靠用于模型选择**。
 
 ### RQ3：训练去偏
+
 | 方法 | Race AvgIU↓ | Gender AvgIU↓ | Religion AvgIU↓ |
 |------|------------|---------------|-----------------|
 | Default BERT | 3.17 | 0.66 | 1.27 |

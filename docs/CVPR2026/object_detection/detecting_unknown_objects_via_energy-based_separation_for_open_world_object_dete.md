@@ -60,6 +60,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{cls}} + \mathcal{L}_{\text{bbo
 ## 实验关键数据
 
 ### 主实验（M-OWODB）
+
 | 方法 | Task1 U-Rec↑ | Task2 U-Rec↑ | Task3 U-Rec↑ | Task4 mAP↑ |
 |------|------------|------------|------------|-----------|
 | ORE | 4.9 | 2.9 | 3.9 | 25.3 |
@@ -69,6 +70,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{cls}} + \mathcal{L}_{\text{bbo
 | **DEUS (Ours)** | **65.1** | **66.2** | **69.0** | **46.0** |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Base (OrthogonalDet) | U-Rec ~36 | 无双空间分离 |

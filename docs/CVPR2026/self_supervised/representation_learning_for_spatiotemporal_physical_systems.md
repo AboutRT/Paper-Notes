@@ -75,6 +75,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | 类型 | Active Matter MSE↓ | Shear Flow MSE↓ | Rayleigh-Bénard MSE↓ |
 |------|------|-------------------|-----------------|---------------------|
 | **JEPA** | 隐空间预测 | **0.079** | **0.38** | **0.13** |
@@ -85,6 +86,7 @@ tags:
 JEPA vs VideoMAE 改善：Active Matter **51%**，Shear Flow **43%**，Rayleigh-Bénard **28%**。
 
 ### 消融实验
+
 | 微调数据比例 | JEPA MSE↓ | VideoMAE MSE↓ | 说明（Shear Flow） |
 |------------|-----------|--------------|-------------------|
 | 10% | 0.57 | 0.98 | JEPA 10%数据已超 VideoMAE 100%数据 |

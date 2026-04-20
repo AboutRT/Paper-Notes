@@ -72,6 +72,7 @@ C-DPO损失与标准DPO结构相同但额外条件化于上下文$c$。数据构
 Object HalBench幻觉减少约92%，AMBER减少约65%，同时在VQAv2、ScienceQA上保持或提升。
 
 ### 消融实验
+
 | 配置 | Object HalBench | 说明 |
 |------|---------|------|
 | Full SENTINEL | 最优 | 完整模型 |

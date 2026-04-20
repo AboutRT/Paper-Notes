@@ -69,6 +69,7 @@ tags:
 ## 实验关键数据
 
 ### Case Study 1: Pairwise Preference（GPT-4o-mini vs GPT-4.1-nano）
+
 | 方法 | 结果 |
 |------|------|
 | Greedy decoding | Model A preferred on 41/80 prompts |
@@ -76,12 +77,14 @@ tags:
 | Bayesian (n=50) | 23 prompts where Model A preferred with >75% prob |
 
 ### Case Study 2: Jailbreak Refusal Rate
+
 | 评估 | 说明 |
 |------|------|
 | 批量评估 | 揭示不同 prompt 的拒绝概率 $\theta_m$ 差异巨大 |
 | 序贯 vs 批量 | Thompson sampling 用更少采样次数达到相同精度 |
 
 ### 消融：序贯采样策略对比
+
 | 策略 | 效率 | 说明 |
 |------|------|------|
 | Uniform (batch) | baseline | 每个 prompt 采样相同次数 |

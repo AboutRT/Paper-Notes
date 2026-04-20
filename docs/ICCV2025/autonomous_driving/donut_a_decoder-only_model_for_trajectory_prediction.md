@@ -78,6 +78,7 @@ DONUT受LLM中decoder-only架构启发，提出用统一的自回归模型处理
 ## 实验关键数据
 
 ### 主实验（Argoverse 2 Test Leaderboard，非集成方法）
+
 | 方法 | b-minFDE₆↓ | minFDE₆↓ | minADE₆↓ | MR₆↓ |
 |------|-----------|---------|---------|------|
 | QCNet | 1.91 | 1.29 | 0.65 | 0.16 |
@@ -91,6 +92,7 @@ DONUT受LLM中decoder-only架构启发，提出用统一的自回归模型处理
 DONUT在主指标b-minFDE₆上取得非集成方法SOTA，在MR₁指标上取得整体SOTA（0.54）。
 
 ### 消融实验
+
 | 配置 | b-minFDE₆↓ | minFDE₆↓ | minADE₆↓ | MR₆↓ | 说明 |
 |------|-----------|---------|---------|------|------|
 | Encoder-decoder基线 | 1.874 | 1.253 | 0.720 | 0.157 | QCNet |

@@ -65,6 +65,7 @@ tags:
 域泛化设置（Table 3，Wildlife-71训练→测试未知物种）：AVG mAP 48.1 vs UniReID 47.6，R1 88.5 vs 63.9（**+24.6**）
 
 ### 消融实验要点
+
 | 策略 | Panda mAP | Pigeon mAP | Shark mAP |
 |------|-----------|------------|-----------|
 | Baseline (ViT) | 40.8 | 70.1 | 20.2 |

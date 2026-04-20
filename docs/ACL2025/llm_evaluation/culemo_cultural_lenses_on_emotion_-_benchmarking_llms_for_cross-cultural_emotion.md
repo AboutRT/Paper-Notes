@@ -57,6 +57,7 @@ CuLEmo 包含 400 个文化相关事件/场景，每个场景以"How would you f
 - 参考 ISEAR 数据格式："When I … situations that cause a specific emotion"
 
 **十大类别**：
+
 | 类别 | 题数 |
 |---|---|
 | 家庭关系 | 45 |

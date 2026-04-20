@@ -49,6 +49,7 @@ LoftUp是一个轻量级的2层cross-attention transformer（<20%的VFM参数）
 - 在SA1B 1M子集上训练，batch size 8，AdamW，Stage 1 lr=1e-3，Stage 2 lr=1e-4
 
 ## 实验关键数据
+
 | 任务 | 指标 | Low-res | Bilinear | FeatUp | LiFT | **LoftUp** |
 |------|------|---------|----------|--------|------|---------|
 | COCO分割 | mIoU | 51.21 | 56.15 | 56.30 | 53.35 | **61.11** |

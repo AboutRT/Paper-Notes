@@ -114,6 +114,7 @@ $$\beta_0 = \arg\min_\beta \{\mathbb{E}_s[C \cdot \beta(W^s)^2] - 2\mathbb{E}_t[
 - Persona 评分的生成策略仍依赖手工设计的 prompt，不同 prompt 设计对 persona 质量的敏感性未充分探讨
 
 ## 与相关工作的对比
+
 | 方法 | 处理协变量偏移 | 处理选择偏差 | 利用 Persona 评分 | 覆盖率保证 |
 |------|:-:|:-:|:-:|:-:|
 | PPI++ | ✗ | ✗ | ✓ | 仅 i.i.d. |

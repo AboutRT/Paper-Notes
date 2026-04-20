@@ -43,6 +43,7 @@ PAP框架由感知模块（Perception）和预测模块（Prediction）两部分
 PAP不引入新的loss，感知模块和预测模块分别沿用原模型的损失函数。预测query的学习通过感知模块和预测模块的联合loss自然完成。实验中在UniAD上验证，MotionFormer输出的轨迹预测query经embedding后与TrackFormer的Track Queries合并作为输入。训练环境为4×A100 GPU，所有超参数与原UniAD一致以保证公平比较。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | UniAD+PAP | UniAD | 提升 |
 |--------|------|-----------|-------|------|
 | nuScenes val | AMOTA↑ | 0.395 | 0.359 | +10% |

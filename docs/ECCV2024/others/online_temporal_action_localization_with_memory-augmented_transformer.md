@@ -68,6 +68,7 @@ THUMOS14 和 MUSES 数据集上的 mAP(%) 对比：
 MATR 在 THUMOS14 上超越前 SOTA OAT-OSN 4.9 个点，在 MUSES 上超越 0.7 个点，甚至超过部分离线方法（G-TAD、P-GCN）。
 
 ### 消融实验
+
 | 配置 | Avg mAP | 说明 |
 |------|---------|------|
 | Full model (MATR) | 49.5 | 完整模型 |

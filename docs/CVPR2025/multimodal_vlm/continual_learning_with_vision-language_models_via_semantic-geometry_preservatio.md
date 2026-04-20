@@ -74,6 +74,7 @@ $\mathcal{L} = \mathcal{L}_{CE} + \lambda_A \mathcal{L}_{ACGD} + \lambda_T \math
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标(Last Acc) | SeGP-CL | 之前SOTA | 提升 |
 |--------|---------------|---------|----------|------|
 | CIFAR100 | Last | **84.6** | 80.6 (MG-CLIP) | +4.0 |
@@ -83,6 +84,7 @@ $\mathcal{L} = \mathcal{L}_{CE} + \lambda_A \mathcal{L}_{ACGD} + \lambda_T \math
 | OmniBenchmark | Last | **92.8** | 86.6 (ENGINE) | +6.2 |
 
 ### 消融实验
+
 | 配置 | CIFAR100 Last | CUB-200 Last | 说明 |
 |------|-------------|-------------|------|
 | Naive LoRA | 70.5 | 66.3 | 基线，严重遗忘 |

@@ -67,6 +67,7 @@ Pipeline: GNN 编码器 → 节点嵌入矩阵 $\mathbf{X} \in \mathbb{R}^{n \ti
 ## 实验关键数据
 
 ### 主实验：AUC of MAP-Efficiency Tradeoff (|C|=1M)
+
 | 数据集 (任务) | GraphHash | FourierHashNet | DiskANN | IVF | CORGII |
 |-------------|-----------|---------------|---------|-----|--------|
 | COX2 (SM) | **0.361** | 0.332 | 0.213 | - | 0.274 |
@@ -77,6 +78,7 @@ Pipeline: GNN 编码器 → 节点嵌入矩阵 $\mathbf{X} \in \mathbb{R}^{n \ti
 | PTC-MR (SM) | **0.337** | 0.288 | 0.122 | - | 0.205 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 近似误差 (MAP*-MAP)/MAP* | 6.73%-11.89% | 近似传输距离的精度损失有界 (<12%) |

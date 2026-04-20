@@ -77,6 +77,7 @@ $$\mathcal{L} = \lambda_{sp}\mathcal{L}_{sp} + \lambda_m\mathcal{L}_m + \lambda_
 ## 实验关键数据
 
 ### 主实验（无标签方法对比）
+
 | 方法 | Wildtrack MODA↑ | Wildtrack MODP↑ | Terrace MODA↑ | MultiviewX MODA↑ |
 |------|----------------|----------------|---------------|-----------------|
 | RCNN & clustering | 11.3 | 18.4 | -11 | 18.7 |
@@ -87,6 +88,7 @@ $$\mathcal{L} = \lambda_{sp}\mathcal{L}_{sp} + \lambda_m\mathcal{L}_m + \lambda_
 Wildtrack MODP 超 UMPD **31.2%**（80.3 vs 61.2），MultiviewX MODA 超 UMPD **16.1%**（78.4 vs 67.5）。
 
 ### 消融实验
+
 | 配置 | MODA | 说明 |
 |------|------|------|
 | 像素级优化输入 | 71.7 | 稀疏视角不一致 |

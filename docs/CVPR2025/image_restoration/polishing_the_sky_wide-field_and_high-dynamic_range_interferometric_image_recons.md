@@ -68,6 +68,7 @@ $$\theta^* = \arg\min_\theta \frac{1}{NJ} \sum_{i,j} \|G_\theta(\text{AsinhStret
 ## 实验关键数据
 
 ### 主实验：源检测精度
+
 | 方法 | Precision↑ | Recall↑ | F₁↑ |
 |------|-----------|---------|-----|
 | CLEAN | 0.3612 | 0.2220 | 0.2750 |
@@ -78,6 +79,7 @@ $$\theta^* = \arg\min_\theta \frac{1}{NJ} \sum_{i,j} \|G_\theta(\text{AsinhStret
 POLISH++ F₁ 相比 CLEAN 提升 **158%**（0.2750→0.7107），相比 POLISH 提升 41%。
 
 ### 形状与通量估计精度（RMSE）
+
 | 方法 | 长轴 FWHM (″)↓ | 短轴 FWHM (″)↓ | 通量 (Jy/pix)↓ |
 |------|---------------|---------------|---------------|
 | CLEAN | 1.0046 | 0.7862 | **3.26×10⁻⁴** |

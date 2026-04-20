@@ -77,6 +77,7 @@ tags:
 - 优化目标为decoder的up_blocks.1的Query 1.1和up_blocks.2的Query 2.0（多分辨率优化）
 
 ## 实验关键数据
+
 | 数据集 | 指标 | AnyI2V | DragAnything | FreeTraj | ObjCtrl-2.5D | Baseline |
 |--------|------|--------|-------------|----------|-------------|----------|
 | VIPSeg+Web | FID↓ | **104.53** | 95.83 | 128.78 | 111.82 | 141.95 |
@@ -86,6 +87,7 @@ tags:
 注：DragAnything等为需要训练的方法（FID 95.83更优），但AnyI2V在**所有training-free方法中排名第一**，且与训练方法差距很小。特别是ObjMC（运动轨迹精度）上AnyI2V的16.39远优于其他free方法（最好23.12），接近训练方法DragAnything的13.60。
 
 ### 消融实验要点
+
 | 配置 | FID↓ | FVD↓ | ObjMC↓ |
 |------|------|------|--------|
 | w/o K&V consistency | 108.18 | 587.69 | 16.81 |

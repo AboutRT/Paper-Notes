@@ -69,6 +69,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验（隐私-效用权衡验证）
+
 | 方法 | 隐私-效用缩放 | 收敛速度与 $\varepsilon$ 关系 | $\eta^\star$ 与 $\varepsilon$ 关系 |
 |--------|------|------|----------|
 | DP-SGD | $\mathcal{O}(1/\varepsilon^2)$ | 独立于 $\varepsilon$ | $\eta^\star \propto \varepsilon$ |
@@ -76,6 +77,7 @@ tags:
 | DP-Adam | $\approx \mathcal{O}(1/\varepsilon)$ | 与 DP-SignSGD 一致 | 与 DP-SignSGD 一致 |
 
 ### 消融实验（批量噪声影响 - IMDB 数据集）
+
 | 批大小 $B$ | DP-SignSGD 优势阈值 $\varepsilon^\star$ | 说明 |
 |------|---------|------|
 | 48 | 较大 | 批噪声大，DP-SignSGD 始终占优 |

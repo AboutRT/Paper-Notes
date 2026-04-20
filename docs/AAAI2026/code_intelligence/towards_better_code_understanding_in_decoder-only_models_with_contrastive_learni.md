@@ -64,6 +64,7 @@ $$\mathcal{L} = -\log\frac{\exp(s(q,c^+)/\tau)}{\sum_{i=1}^n \exp(s(q,c_i)/\tau)
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | CSN (MRR) | CoSQA (MRR) | POJ-104 (MAP) |
 |------|-----------|-------------|---------------|
 | UniXcoder (125M, encoder) | 74.40 | 70.1 | 89.56 |
@@ -76,6 +77,7 @@ $$\mathcal{L} = -\log\frac{\exp(s(q,c^+)/\tau)}{\sum_{i=1}^n \exp(s(q,c_i)/\tau)
 CL4D使decoder-only模型在大多数任务上超越同等规模的encoder-only模型约2%。
 
 ### 消融实验
+
 | 配置 | CSN (MRR) | CoSQA (MRR) | POJ-104 (MAP) |
 |------|-----------|-------------|---------------|
 | CL4D (完整) | 72.00 | 51.20 | 45.84 |

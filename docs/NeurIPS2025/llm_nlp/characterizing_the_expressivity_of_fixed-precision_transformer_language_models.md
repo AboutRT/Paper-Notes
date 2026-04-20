@@ -91,6 +91,7 @@ $$\text{Fixed-precision Soft-Attn NoPE Transformer} = \text{PFO}^2[<] = \text{LT
 | 所有超出 LTL[P] 的语言 | ❌ | **一致失败** |
 
 ### 消融实验
+
 | 配置 | 结果 | 说明 |
 |------|------|------|
 | 不同学习率/随机种子 | 结论不变 | LTL[P] 内始终成功，外始终失败 |

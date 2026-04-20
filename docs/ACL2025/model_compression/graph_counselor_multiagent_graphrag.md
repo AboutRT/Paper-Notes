@@ -69,12 +69,14 @@ Graph Counselor 提出了一个多智能体协作的 GraphRAG 推理框架，通
 ## 实验关键数据
 
 ### 主实验（GRBENCH 数据集，QwenScore）
+
 | 模型 | Base | TextRAG | GraphRAG-1hop | Graph-CoT | Graph Counselor |
 |------|------|---------|---------------|-----------|----------------|
 | Llama-3.1-70B (Academic) | 10.82 | 14.00 | 34.94 | ~30 | **38+** |
 | Llama-3.1-70B (Legal) | 16.11 | 28.89 | 37.22 | ~35 | **42+** |
 
 ### 消融实验
+
 | 配置 | 说明 |
 |------|------|
 | w/o AGIEM (单Agent) | 性能显著下降，验证多Agent协作的必要性 |

@@ -68,6 +68,7 @@ scPilot是training-free框架，不微调LLM。所有推理能力来自prompt en
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 数据集 | scPilot (o1) | 最佳baseline | 提升 |
 |------|--------|-------------|-------------|------|
 | 细胞标注 | PBMC3k | ~0.76 | CellTypist 0.563 | +35% |
@@ -77,6 +78,7 @@ scPilot是training-free框架，不微调LLM。所有推理能力来自prompt en
 | GRN预测 | 多器官 | AUROC提升0.03 | pySCENIC直接输出 | 迭代推理增益 |
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | Direct prompting (无迭代) | 基线 | 一次性推理 |

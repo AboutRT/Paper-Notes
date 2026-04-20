@@ -83,6 +83,7 @@ tags:
 | Oracle (GT Target View) | 100.00 | 100.00 | 6.64 |
 
 ### 消融实验
+
 | 配置 | ViewBench-Text (5-15%) | ViewBench-Shape (5-15%) | 说明 |
 |------|----------------------|------------------------|------|
 | Token Forward | 60.30 | 55.04 | 前向 warping 导致不规则 token |

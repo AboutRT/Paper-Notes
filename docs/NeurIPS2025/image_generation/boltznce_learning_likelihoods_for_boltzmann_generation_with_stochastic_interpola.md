@@ -79,6 +79,7 @@ BoltzNCE 用 Score Matching + InfoNCE 混合训练 Energy-Based Model 来近似 
 | **BoltzNCE** | **4.08 ± 0.13** | **0.02** | **0.09h** |
 
 ### 消融实验
+
 | 配置 | KL 散度 (8-mode Gaussian) | 说明 |
 |------|--------------------------|------|
 | InfoNCE only | 0.2395 | 梯度不准 |

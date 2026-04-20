@@ -60,6 +60,7 @@ $$\mathcal{L} = \mathcal{L}_{image} + \mathcal{L}_{geom} + \mathcal{L}_{op}$$
 ### Nersemble数据集（9个subject，16视角）
 
 #### Novel View Synthesis
+
 | 方法 | PSNR↑ | SSIM↑ | LPIPS↓ | 存储↓ | FPS↑ |
 |------|-------|-------|--------|-------|------|
 | GA | 31.47 | 0.949 | 0.051 | 21MB | 330 |
@@ -68,6 +69,7 @@ $$\mathcal{L} = \mathcal{L}_{image} + \mathcal{L}_{geom} + \mathcal{L}_{op}$$
 | **Ours** | **32.97** | **0.951** | 0.059 | **10MB** | 300 |
 
 #### Self-Reenactment（泛化到未见表情）
+
 | 方法 | PSNR↑ | SSIM↑ | LPIPS↓ |
 |------|-------|-------|--------|
 | GA | 27.27 | 0.923 | 0.067 |

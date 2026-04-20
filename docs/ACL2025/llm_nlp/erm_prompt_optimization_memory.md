@@ -68,6 +68,7 @@ ERM（Exemplar-Guided Reflection with Memory）包含三个核心组件：输入
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | ERM | 之前SOTA | 提升 |
 |--------|------|-----|----------|------|
 | LIAR | F1 | 68.6 | 58.5 (ProTeGi) | +10.1 |
@@ -78,6 +79,7 @@ ERM（Exemplar-Guided Reflection with Memory）包含三个核心组件：输入
 | WSC | Acc. | 86.0 | 84.0 (GPO) | +2.0 |
 
 ### 消融实验
+
 | 配置 | LIAR F1 | BBH F1 | 说明 |
 |------|---------|--------|------|
 | Baseline (ProTeGi) | 58.5 | 73.6 | 无任何组件 |

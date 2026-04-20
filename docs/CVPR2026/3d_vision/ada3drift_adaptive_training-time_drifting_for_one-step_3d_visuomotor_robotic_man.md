@@ -80,6 +80,7 @@ $$\mathcal{L} = (1 - w_{\text{drift}}) \cdot \mathcal{L}_{\text{MLE}} + w_{\text
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | NFE | Adroit (Avg SR%) | Meta-World (Avg SR%) | RoboTwin (Avg SR%) |
 |------|-----|-------------------|----------------------|---------------------|
 | Diffusion Policy | 100 | 74.2 | 82.5 | 68.3 |
@@ -96,6 +97,7 @@ $$\mathcal{L} = (1 - w_{\text{drift}}) \cdot \mathcal{L}_{\text{MLE}} + w_{\text
 在真实 Franka Panda 机械臂上验证 3 个任务，成功率均超越 Diffusion Policy baseline，且推理延迟 <10ms（满足实时控制要求）。
 
 ### 消融实验
+
 | 配置 | Drifting Field | Multi-Scale | Sigmoid Schedule | Avg SR% |
 |------|---------------|-------------|-----------------|---------|
 | Vanilla FM | ✗ | ✗ | ✗ | 58.7 |

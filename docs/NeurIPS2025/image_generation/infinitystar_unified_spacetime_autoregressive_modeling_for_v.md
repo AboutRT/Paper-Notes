@@ -79,6 +79,7 @@ $$p(r_1^1, \ldots, r_K^N) = \prod_{c=1}^N \prod_{k=1}^K p(r_k^c | r_1^1, \ldots,
 ## 实验关键数据
 
 ### T2I 生成
+
 | 模型 | 参数量 | GenEval Overall | DPG Overall |
 |---|---|---|---|
 | FLUX-dev | 12B | 0.67 | 84.0 |
@@ -86,6 +87,7 @@ $$p(r_1^1, \ldots, r_K^N) = \prod_{c=1}^N \prod_{k=1}^K p(r_k^c | r_1^1, \ldots,
 | **InfinityStar-T2I** | **8B** | **0.79†** | **86.55** |
 
 ### T2V 生成 (VBench)
+
 | 模型 | 类型 | VBench Overall |
 |---|---|---|
 | HunyuanVideo | Diffusion (13B) | 83.24 |
@@ -95,6 +97,7 @@ $$p(r_1^1, \ldots, r_K^N) = \prod_{c=1}^N \prod_{k=1}^K p(r_k^c | r_1^1, \ldots,
 | **InfinityStar** | **AR (8B)** | **83.74** |
 
 ### 推理延迟 (5s 720p)
+
 | 模型 | 延迟 | 加速比 |
 |---|---|---|
 | Wan 2.1 (14B) | 1864s | 1× |
@@ -102,6 +105,7 @@ $$p(r_1^1, \ldots, r_K^N) = \prod_{c=1}^N \prod_{k=1}^K p(r_k^c | r_1^1, \ldots,
 | **InfinityStar (8B)** | **58s** | **32×** |
 
 ### 消融实验 (192p)
+
 | 配置 | VBench Total |
 |---|---|
 | 完整模型 | 81.28 |

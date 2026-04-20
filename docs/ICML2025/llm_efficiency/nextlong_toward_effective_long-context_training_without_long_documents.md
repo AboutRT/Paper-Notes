@@ -76,6 +76,7 @@ NExtLong 分为两个阶段：(1) **负文档扩展 (Negative Document Extension
 ## 实验关键数据
 
 ### 主实验（HELMET 基准，多任务多长度平均）
+
 | 模型 | Recall | RAG | ICL | Re-rank | LongQA | Summ | 平均 |
 |------|--------|-----|-----|---------|--------|------|------|
 | Llama-3.1-8B (128K 长文档训练) | 对照 | 对照 | 对照 | 对照 | 对照 | 对照 | 对照 |
@@ -83,6 +84,7 @@ NExtLong 分为两个阶段：(1) **负文档扩展 (Negative Document Extension
 | **NExtLong** | 更优 | 更优 | 更优 | 更优 | 更优 | 更优 | **+7.33%** |
 
 ### 与知名模型对比（HELMET + RULER，8K~128K 长度平均）
+
 | 模型 | HELMET 平均 | RULER 平均 |
 |------|-----------|-----------|
 | Llama-3.1-8B-Instruct | 对照 | 对照 |
@@ -90,6 +92,7 @@ NExtLong 分为两个阶段：(1) **负文档扩展 (Negative Document Extension
 | **NExtLong (Llama-3-8B-Base)** | 表现出色 | 表现出色 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | meta-chunk 位置：前 vs 后 | 前置更优 | meta-chunk 放在硬负例前面效果更好 |

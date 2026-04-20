@@ -68,6 +68,7 @@ $\mathcal{L}_{total} = \alpha \cdot \mathcal{L}_{CE} + \beta \cdot \mathcal{L}_{
 ## 实验关键数据
 
 ### 主实验（FluoMix，ResNet50 编码器）
+
 | 方法 | Accuracy (%) | PLCC ↑ | SRCC ↑ | MAE ↓ |
 |------|-------------|--------|--------|-------|
 | FocusLiteNN | - | 0.621 | 0.624 | 1.610 |
@@ -76,6 +77,7 @@ $\mathcal{L}_{total} = \alpha \cdot \mathcal{L}_{CE} + \beta \cdot \mathcal{L}_{
 | **FluoCLIP** | **最优** | **最优** | **最优** | **最优** |
 
 ### 染色依赖性分析
+
 | 数据集 | SRCC (SF vs 对焦等级) | 染色间变异 |
 |--------|---------------------|-----------|
 | FocusPath (明场) | -0.840 ± 0.092 | 低（染色不影响） |

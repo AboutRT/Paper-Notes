@@ -47,6 +47,7 @@ tags:
 - 训练10 epochs, 8×RTX 4090, AdamW, cosine lr schedule, lr=8e-4
 
 ## 实验关键数据
+
 | 方法 | METEOR | ROUGE | TE(%) | Grounding Acc | Overall |
 |------|--------|-------|-------|---------------|---------|
 | Grounded 3D LLM | 41.96 | 53.71 | 42.46 | 34.00 | 43.03 |

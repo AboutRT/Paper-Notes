@@ -90,6 +90,7 @@ $$\mathcal{L}_{\text{pnu}} = \begin{cases} (1-\gamma) \cdot (\mathcal{L}_{\text{
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | 训练策略 | FHM M-F1 | MAMI M-F1 | HSOL M-F1 | Sent140 M-F1 |
 |------|----------|----------|-----------|-----------|--------------|
 | Qwen7B | SupOnly | 70.41 | 76.06 | 84.89 | 78.19 |
@@ -101,6 +102,7 @@ $$\mathcal{L}_{\text{pnu}} = \begin{cases} (1-\gamma) \cdot (\mathcal{L}_{\text{
 （n=100，即仅100个标注样本）
 
 ### 不同标注量实验（FHM数据集）
+
 | 标注量n | Qwen7B SupOnly M-F1 | CLIP SupOnly M-F1 | CLIP SelfTrain M-F1 |
 |---------|---------------------|-------------------|---------------------|
 | 50 | 39.11 | 48.76 | **71.27** |
@@ -108,6 +110,7 @@ $$\mathcal{L}_{\text{pnu}} = \begin{cases} (1-\gamma) \cdot (\mathcal{L}_{\text{
 | 250 | **75.88** | 69.67 | 72.97 |
 
 ### 消融实验
+
 | 配置 | FHM M-F1 | MAMI M-F1 | 说明 |
 |------|----------|-----------|------|
 | γ = -0.1 | 68.35 | 59.98 | NU学习无效 |

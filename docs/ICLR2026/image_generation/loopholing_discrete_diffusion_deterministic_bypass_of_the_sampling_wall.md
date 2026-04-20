@@ -63,6 +63,7 @@ $$\mathcal{L}_{\text{Loopholing}} = \mathbb{E}_{t,\mathbf{z}_t}\left[\mathbb{I}[
 ## 实验关键数据
 
 ### 主实验（测试困惑度 ↓）
+
 | 模型 | LM1B | OWT |
 |------|------|-----|
 | SEDD Absorb | ≤28.39 | ≤24.01 |
@@ -72,6 +73,7 @@ $$\mathcal{L}_{\text{Loopholing}} = \mathbb{E}_{t,\mathbf{z}_t}\left[\mathbb{I}[
 | **LDDM-U (ours)** | **≤29.21** | **≤23.82** |
 
 ### 生成质量 (Gen PPL, GPT-2 Large 评估)
+
 | 模型 | Gen PPL @1024步 | 与AR的比 | 句子熵 |
 |------|---------------|---------|--------|
 | MDLM | 108.94 | 3.17× | 4.39 |
@@ -81,6 +83,7 @@ $$\mathcal{L}_{\text{Loopholing}} = \mathbb{E}_{t,\mathbf{z}_t}\left[\mathbb{I}[
 | **LDDM-U** | **28.76** | **0.84×** | **4.16** |
 
 ### 推理任务（成功率 %）
+
 | 模型 | 参数 | Countdown 4 | Game of 24 | Countdown 5 |
 |------|------|------------|-----------|------------|
 | MGDM | 6M | 45.0 | 12.0 | 5.9 |

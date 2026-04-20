@@ -94,6 +94,7 @@ $$\mathcal{L} = \lambda(\mathcal{L}_{rep}^l + \mathcal{L}_{cls}^l) + (1-\lambda)
 ## 实验关键数据
 
 ### 主实验（无监督设置，仅用未标注图像）
+
 | 方法 | MVTec AD NMI↑ | MVTec AD ARI↑ | MVTec AD F1↑ |
 |------|-------------|-------------|------------|
 | SimGCD | 0.452 | 0.346 | — |
@@ -101,12 +102,14 @@ $$\mathcal{L} = \lambda(\mathcal{L}_{rep}^l + \mathcal{L}_{cls}^l) + (1-\lambda)
 | **MuSc + AnomalyNCD** | **0.613** | **0.526** | **0.712** |
 
 ### 半监督设置（使用正常标注图像）
+
 | AD 方法 + AnomalyNCD | MVTec AD NMI↑ | MVTec AD ARI↑ | MVTec AD F1↑ |
 |---------------------|-------------|-------------|------------|
 | PatchCore | 0.670 | 0.601 | 0.769 |
 | CPR | **0.736** | **0.674** | **0.805** |
 
 ### 消融实验
+
 | 组件 | NMI | ARI | F1 |
 |------|-----|-----|------|
 | (a) w/o MGA | 0.598 | 0.494 | 0.698 |

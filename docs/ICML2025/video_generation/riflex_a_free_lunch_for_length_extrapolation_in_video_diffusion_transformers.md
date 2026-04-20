@@ -62,6 +62,7 @@ RIFLEx分三步：(1) 分析RoPE各频率分量 $\theta_j$ 的周期 $N_j = 2\pi
 ## 实验关键数据
 
 ### 主实验（CogVideoX-5B 2×外推，training-free）
+
 | 方法 | NoRepeat Score↑ | Dynamic Degree↑ | Imaging Quality↑ | Overall Consistency↑ | User-Overall排名↓ |
 |------|----------------|----------------|-------------------|---------------------|-------------------|
 | PE | 46.6 | 58.6 | 55.0 | 22.9 | 2.4 |
@@ -72,6 +73,7 @@ RIFLEx分三步：(1) 分析RoPE各频率分量 $\theta_j$ 的周期 $N_j = 2\pi
 | **RIFLEx** | 54.2 | 59.4 | **56.9** | **23.5** | **1.1** |
 
 ### 消融实验 / 扩展
+
 | 配置 | 说明 |
 |------|------|
 | 2× training-free | NoRepeat 54.2, Dynamic 59.4——无训练即可高质量外推 |

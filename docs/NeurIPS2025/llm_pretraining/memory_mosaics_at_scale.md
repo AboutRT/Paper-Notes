@@ -69,6 +69,7 @@ Memory Mosaics v2 将关联存储网络扩展至 10B 参数、1T token 训练规
 - 多个长/短期记忆的输出拼接后经线性投影 $W_o$ 融合
 
 ### 训练配置
+
 | 配置 | Small (LLaMA-1.5B 级) | Large (LLaMA-8B 级) |
 |------|---------|---------|
 | 层数 | 24 | 32 |
@@ -125,6 +126,7 @@ Memory Mosaics v2 将关联存储网络扩展至 10B 参数、1T token 训练规
 - Transformer 用 800 个 mini-batch 微调仍不如 MM v2 的 1 个 mini-batch
 
 ## 计算开销
+
 | 模型 | 参数量 | FLOPs/token |
 |------|-------|------------|
 | Transformer large | 8.8B | 16.7B |

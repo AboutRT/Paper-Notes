@@ -46,6 +46,7 @@ tags:
 总损失 $L = L_{class} + L_{dir} + L_{om} + L_{pos} + L_{fine}$，其中 $L_{pos} = \lambda_t L_t + \lambda_{rot} L_{rot}$（L2位移损失 + geodesic旋转损失，$\lambda_t=2, \lambda_{rot}=1$）。先在PartNet-Mobility合成数据（~32K张）上预训练2K epochs，再在真实图像上微调4.5K epochs。微调时固定MLP权重（因为真实数据没有姿态GT）。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | 本文(full) | OPDFormer-C | Ours w/o AL | 提升 |
 |--------|------|------|----------|----------|------|
 | 自建数据集(500张) | segm mAP@0.5 | **91.3** | 68.4 | 77.3 | +22.9 vs SOTA |
@@ -53,6 +54,7 @@ tags:
 | OPDMulti | segm mAP@0.5 | **31.5** | 27.6 | - | +3.9 |
 
 标注效率对比（2000张图像）：
+
 | 方法 | 需手动标注图像数 | 总耗时(h) |
 |------|-----------------|----------|
 | Grounded-SAM (非AL) | 1,888 | 35.5 |

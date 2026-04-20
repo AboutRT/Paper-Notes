@@ -86,7 +86,8 @@
 </script>
 {% endif %}
 
-<!-- Lazy-load search worker: defer 214MB search_index.json download until user opens search -->
+<!-- Lazy-load search worker: defer search_index.json download until user opens search -->
+<!-- Index is title-only (~7MB, slimmed by hooks/slim_search_index.py post-build) -->
 <!-- Mobile: redirect to Bing site search (no search index download at all) -->
 <!-- Desktop: create search worker lazily only when user focuses on search input -->
 <script>

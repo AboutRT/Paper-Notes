@@ -69,6 +69,7 @@ $\mathcal{L} = \mathcal{L}_{rec} + 0.01\mathcal{L}_{cont} + 0.01\mathcal{L}_{cst
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 数据集 | 指标 | GeoLink | 之前SOTA | 提升 |
 |------|--------|------|---------|----------|------|
 | kNN分类 | RESISC-45 | Top-1 | **87.33%** | 85.42%(Scale-MAE) | +1.91% |
@@ -78,6 +79,7 @@ $\mathcal{L} = \mathcal{L}_{rec} + 0.01\mathcal{L}_{cont} + 0.01\mathcal{L}_{cst
 | UV识别(多模态) | UV数据集 | mIoU | **81.68%** | 80.09%(Scale-MAE+OSM) | +1.59% |
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | 无OSM预训练 | 分类/分割均下降 | OSM预训练显著增强RS编码器 |

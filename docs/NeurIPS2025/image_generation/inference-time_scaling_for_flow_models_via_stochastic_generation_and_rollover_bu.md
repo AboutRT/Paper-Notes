@@ -121,6 +121,7 @@ Flow 模型（尤其是经过 rectification 微调的）在中间步骤的后验
 - Linear-SDE 已超越所有 Linear-ODE 方法（BoN 和 SoP），VP 进一步提升
 
 ### 消融实验 (LPIPS-MPD 多样性度量)
+
 | 方法 | LPIPS-MPD ↑ | VQAScore ↑ | Inst. BLIP ↑ |
 |------|------------|------------|-------------|
 | Linear-ODE | – | 0.788 | 0.789 |

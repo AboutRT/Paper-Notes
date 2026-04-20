@@ -87,6 +87,7 @@ $L = L_{\text{scatter}} + \alpha L_{\text{time}} + \beta L_{\text{contrast}}$。
 | NIPS-TS-SWAN | Aff-F 0.038（低） | 突发异常难检测 |
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | w/o 散射损失 | 显著下降 | 核心贡献验证 |

@@ -58,6 +58,7 @@ tags:
 - COLA 的 collapse 阶段用 supervised contrastive loss，align 阶段用标准交叉熵。
 
 ## 实验关键数据
+
 | 数据集/架构 | 指标 | COLA | SALUN | SCRUB | ℓ1-sparse |
 |-------------|------|------|-------|-------|-----------|
 | CIFAR-10/R18 | IDI↓ | ~0 (最优) | ~0.8 | ~0 | ~0.1 |

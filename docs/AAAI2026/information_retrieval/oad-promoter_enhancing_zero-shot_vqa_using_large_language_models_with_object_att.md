@@ -111,6 +111,7 @@ $$[\text{Instruction } I \;/\; \text{Global Caption } C_G \;/\; \text{Object Exa
 ## 实验关键数据
 
 ### 主实验——零样本设置下的性能
+
 | 方法 | VQAv2 test | A-OKVQA test | OKVQA test |
 |------|-----------|-------------|------------|
 | Flamingo-80B | 56.21 | - | 50.57 |
@@ -120,6 +121,7 @@ $$[\text{Instruction } I \;/\; \text{Global Caption } C_G \;/\; \text{Object Exa
 | **OAD-Promoter w/ GPT-3** | **61.98** | **41.71** | **45.61** |
 
 ### 不同LLM的泛化验证（OKVQA零样本）
+
 | LLM | 参数量 | OKVQA |
 |-----|--------|-------|
 | GPT-Neo | 2.7B | 33.41 |
@@ -131,6 +133,7 @@ $$[\text{Instruction } I \;/\; \text{Global Caption } C_G \;/\; \text{Object Exa
 | GPT-3 | 175B | 45.61 |
 
 ### 消融实验
+
 | 配置 | OKVQA (Few-shot) | OKVQA (Zero-shot) | 说明 |
 |------|-----------------|-------------------|------|
 | 无OEG + 无MKA | 47.33 | 42.50 | 基线 |
@@ -146,6 +149,7 @@ $$[\text{Instruction } I \;/\; \text{Global Caption } C_G \;/\; \text{Object Exa
 | 400 | 44.15 | 样例越多越好 |
 
 ### 领域迁移实验（Few-shot，不同LLM）
+
 | LLM | VQA-CP | GQA-OOD |
 |-----|--------|---------|
 | GPT-4 (GRACE) | 57.61 | 50.19 |

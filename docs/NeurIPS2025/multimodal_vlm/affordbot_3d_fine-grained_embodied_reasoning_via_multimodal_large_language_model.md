@@ -85,6 +85,7 @@ SceneFun3D 数据集上的 affordance grounding + motion estimation
 | **AffordBot** | ✗ | **14.0** | **23.3** | **18.3** | **10.8** |
 
 ### 消融实验
+
 | 配置 | AP25 | 说明 |
 |------|------|------|
 | w/o Active View Selection | 降低 | 无主动视角选择 |

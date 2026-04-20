@@ -86,6 +86,7 @@ $$c_{uv} = \frac{\eta(\mathbf{z}_u(0), \mathbf{z}_v(0))}{\sum_{w \in \mathcal{V}
 - AdvDIFFormer的测试误差几乎保持恒定
 
 **信息网络**：
+
 | 方法 | Arxiv(2018) | Arxiv(2019) | Arxiv(2020) | Twitch(avg) |
 |------|------------|------------|------------|------------|
 | GCN | 50.14 | 48.06 | 46.46 | 59.76 |
@@ -96,6 +97,7 @@ $$c_{uv} = \frac{\eta(\mathbf{z}_u(0), \mathbf{z}_v(0))}{\sum_{w \in \mathcal{V}
 - 在Arxiv数据集上相比最佳基线提升约1-3%准确率
 
 **蛋白质交互网络**（节点回归）：
+
 | 方法 | Test Average RMSE | Test Worst RMSE |
 |------|------------------|----------------|
 | MLP | 0.672 | 0.768 |

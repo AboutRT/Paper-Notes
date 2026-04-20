@@ -86,6 +86,7 @@ ICM（Implicit Choice-Modification）分为三步：
 ## 实验关键数据
 
 ### 主实验（SD v1.5 去偏见）
+
 | 方法 | Gender FD↓ | Age FD↓ | Race FD↓ | FID↓ | CLIP-T↑ |
 |------|------------|---------|----------|------|---------|
 | Original | 0.564 | 0.752 | 0.558 | 120.06 | 0.6155 |
@@ -95,6 +96,7 @@ ICM（Implicit Choice-Modification）分为三步：
 | **ICM (Finetuning)** | 0.535 | 0.681 | 0.449 | 143.98 | 0.6189 |
 
 ### 消融实验：自注意力 vs 交叉注意力引导
+
 | 干预目标 | Gender FD↓ | Age FD↓ | Race FD↓ | FID↓ |
 |----------|------------|---------|----------|------|
 | Cross-attn steering | 0.365 | 0.612 | 0.428 | 118.39 |

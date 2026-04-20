@@ -57,6 +57,7 @@ $$L_{\text{Selective-SFT}}(\theta) = -\frac{1}{\sum_t I(o_t)}\sum_{t=1}^{T}I(o_t
 这起到隐式正则化作用——防止模型过拟合冗余/重复内容，同时保持完整上下文的连贯性。
 
 ## 实验
+
 | 模型 | 方法 | Overall Acc | 输出长度 |
 |------|------|:-----------:|:--------:|
 | R1-Distill-Qwen-1.5B | Full SFT | 44.8 | 16520 |
@@ -67,6 +68,7 @@ $$L_{\text{Selective-SFT}}(\theta) = -\frac{1}{\sum_t I(o_t)}\sum_{t=1}^{T}I(o_t
 | Qwen2.5-7B-Instruct | **Segment Selective** | **45.6**(+3.2%) | 9852(-5%) |
 
 ### 消融实验与分析
+
 | 设置 | Overall Acc | Overall Length |
 |------|:-----------:|:--------------:|
 | R1-Distill-Qwen-7B (base) | 57.7 | 12518 |

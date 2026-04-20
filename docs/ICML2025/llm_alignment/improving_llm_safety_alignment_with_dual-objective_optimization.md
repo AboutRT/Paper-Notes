@@ -88,6 +88,7 @@ $$\mathcal{L}_{\text{Total}} = \alpha\mathcal{L}_{\text{Align}} + (1-\alpha)\mat
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | Multi-turn ASR↓ | Prefilling ASR↓ | GCG ASR↓ | AutoDAN ASR↓ | HellaSwag↑ | XSTest Refusal↓ |
 |------|----------------|----------------|----------|-------------|-----------|----------------|
 | **Llama-3-8B** | | | | | | |
@@ -105,6 +106,7 @@ $$\mathcal{L}_{\text{Total}} = \alpha\mathcal{L}_{\text{Align}} + (1-\alpha)\mat
 | W-DOOR | 0.347 | 0.005 | 0.103 | 0.020 | 0.507 | 0.440 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 数据增强 vs 无增强 | ASR大幅降低 | 增强对SFT系方法效果显著，DPO获益较小 |

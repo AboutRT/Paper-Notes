@@ -84,6 +84,7 @@ ResNet-18, IPC=50 (每类50张)：
 | CIFAR-10 IPC50 | **InfoUtil** | **71.0** | +8.9% |
 
 ### 消融实验
+
 | 配置 | ImageNet-1K Acc | 说明 |
 |------|----------------|------|
 | Full InfoUtil | 最优 | Shapley + 梯度范数 |

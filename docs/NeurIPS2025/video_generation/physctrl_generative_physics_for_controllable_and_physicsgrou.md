@@ -69,6 +69,7 @@ $\mathcal{L} = \mathcal{L}_{diff} + \lambda_{vel}\mathcal{L}_{vel} + \lambda_{ph
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | SA↑ | PC↑ | VQ↑ |
 |------|-----|-----|-----|
 | DragAnything | 2.9 | 2.8 | 2.8 |
@@ -84,6 +85,7 @@ $\mathcal{L} = \mathcal{L}_{diff} + \lambda_{vel}\mathcal{L}_{vel} + \lambda_{ph
 | **Ours** | **77.59%** | **0.0028** | **0.0015** |
 
 ### 消融实验
+
 | 配置 | vIoU↑ | CD↓ | 说明 |
 |------|-------|-----|------|
 | w/o 空间注意力 | 33.76% | 0.2348 | 空间交互至关重要 |

@@ -62,6 +62,7 @@ ReferSplat 含三个核心组件：(1) 3D Gaussian Referring Fields；(2) 位置
 ## 实验关键数据
 
 ### 主实验（Ref-LERF 数据集）
+
 | 方法 | ramen | figurines | teatime | kitchen | avg mIoU |
 |------|-------|-----------|---------|---------|----------|
 | Grounded SAM | 14.1 | 16.0 | 16.9 | 16.2 | 15.8 |
@@ -70,6 +71,7 @@ ReferSplat 含三个核心组件：(1) 3D Gaussian Referring Fields；(2) 位置
 | **ReferSplat** | **35.2** | **25.7** | **31.3** | **24.4** | **29.2** |
 
 ### 消融实验
+
 | 配置 | ramen | kitchen | 说明 |
 |------|-------|---------|------|
 | Baseline | 28.4 | 18.5 | 仅 Referring Fields |

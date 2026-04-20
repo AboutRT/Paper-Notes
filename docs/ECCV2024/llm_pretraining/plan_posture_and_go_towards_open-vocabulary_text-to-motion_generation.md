@@ -68,6 +68,7 @@ PRO-Motion 由三个模块组成，形成一个流水线：（1）**Motion Plann
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | R-Precision ↑ | FID ↓ | MM-Dist ↓ | 测试集 |
 |------|---------------|-------|-----------|--------|
 | MDM | 较低 | 较高 | 较高 | HumanML3D |
@@ -77,6 +78,7 @@ PRO-Motion 由三个模块组成，形成一个流水线：（1）**Motion Plann
 | PRO-Motion (开放词汇) | 有效 | 合理 | 合理 | IDEA-400 |
 
 ### 消融实验
+
 | 配置 | APE-Root ↓ | APE-Mean ↓ | 说明 |
 |------|-----------|------------|------|
 | 仅 Posture-Diffuser | 无轨迹 | 仅原地 | 无Go-Diffuser，只有原地姿态 |

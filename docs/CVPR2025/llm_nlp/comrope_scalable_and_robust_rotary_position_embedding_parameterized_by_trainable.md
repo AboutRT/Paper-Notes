@@ -163,6 +163,7 @@ In this work, we propose ComRoPE, which generalizes RoPE by defining it in terms
 | 详见论文 | - | - | - | - |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 完整模型 | 最优 | 完整方法 |

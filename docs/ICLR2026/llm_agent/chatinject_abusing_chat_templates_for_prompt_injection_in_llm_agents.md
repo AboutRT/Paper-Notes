@@ -66,6 +66,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验：攻击成功率 (ASR)
+
 | 模型 | Default InjecPrompt | ChatInject | Multi-turn + ChatInject |
 |------|---------------------|------------|------------------------|
 | Qwen3-235B (InjecAgent) | 8.5% | 39.4% (+30.9) | 65.9% (+55.2) |
@@ -75,6 +76,7 @@ tags:
 | Qwen3-235B (AgentDojo) | 17.5% | 54.8% (+37.3) | 80.5% (+19.6) |
 
 ### 跨模型迁移性
+
 | 目标模型 | Default | Best Foreign Template | Self Template |
 |---------|---------|----------------------|---------------|
 | GPT-4o (closed) | 9.6% | 31.7% (Qwen-3) | N/A |

@@ -20,8 +20,6 @@ theme:
   - navigation.indexes
   - navigation.top
   - navigation.prune
-  - search.suggest
-  - search.highlight
   - content.code.copy
   - toc.follow
   palette:
@@ -14254,12 +14252,9 @@ nav:
     - Wavelength-Embedding-guided Filter-Array Transformer for Spectral Demosaicing: ECCV2024/others/wavelength-embedding-guided_filter-array_transformer_for_spectral_demosaicing.md
 hooks:
 - hooks/tags_order.py
+- hooks/slim_search_index.py
 plugins:
-- search:
-    separator: '[\s\u200b\-\.\,\!\?\;\:\(\)\[\]\{\}\/\|]+'
-    lang:
-    - en
-    min_search_length: 2
+- search
 - tags
 markdown_extensions:
 - pymdownx.arithmatex:

@@ -55,6 +55,7 @@ $$HG_\Sigma(\mathbf{x}-\mu) = \begin{cases} e^{-\frac{1}{2}(\mathbf{x}-\mu)^T\Si
 ## 实验关键数据
 
 ### Mip-NeRF 360数据集
+
 | 方法 | PSNR↑ | SSIM↑ | LPIPS↓ |
 |------|-------|-------|--------|
 | 3D-GS | 28.04 | 0.844 | 0.214 |
@@ -67,6 +68,7 @@ $$HG_\Sigma(\mathbf{x}-\mu) = \begin{cases} e^{-\frac{1}{2}(\mathbf{x}-\mu)^T\Si
 | **HGS-MCMC** | **29.22** (+0.24) | 0.874 | 0.170 |
 
 ### Tanks & Temples
+
 | 方法 | PSNR↑ |
 |------|-------|
 | 3D-GS | 23.60 |
@@ -74,6 +76,7 @@ $$HG_\Sigma(\mathbf{x}-\mu) = \begin{cases} e^{-\frac{1}{2}(\mathbf{x}-\mu)^T\Si
 | **HGS-MCMC** | **25.21** (SOTA) |
 
 ### 渲染速度与内存（Mip-NeRF 360）
+
 | 方法 | FPS↑ | 内存(MB)↓ |
 |------|------|----------|
 | 3D-GS | 115 | 762 |
@@ -82,6 +85,7 @@ $$HG_\Sigma(\mathbf{x}-\mu) = \begin{cases} e^{-\frac{1}{2}(\mathbf{x}-\mu)^T\Si
 因为高效光栅化器+更少的核数，FPS反而提升约8%，内存减少9%。
 
 ### 核函数对比（同训练设定，基于3D-GS）
+
 | 核函数 | 平均PSNR |
 |--------|---------|
 | 3D Gaussian | 28.04 |

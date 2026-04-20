@@ -71,6 +71,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 方法 | PSNR ↑ | SSIM ↑ | LPIPS ↓ |
 |--------|------|--------|--------|---------|
 | ShapeNet Cars (1-view) | Splatter Image (Large) | 24.00 | 0.92 | 0.078 |
@@ -83,6 +84,7 @@ tags:
 | RealEstate10k (10帧) | **SplatDiffusion** | **26.54** | **0.887** | **0.122** |
 
 ### 消融实验
+
 | 配置 | Novel View PSNR ↑ | Source View PSNR ↑ | 说明 |
 |------|-------------------|-------------------|------|
 | Splatter Image (Large) 教师 | 24.20 | 31.12 | 教师模型基线 |

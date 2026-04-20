@@ -68,6 +68,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验：Majority Robustness（数学）
+
 | 发现 | 细节 |
 |------|------|
 | 总体鲁棒 | 除最小模型外，所有模型在所有干预下 majority robustness 接近 1.0 |
@@ -76,6 +77,7 @@ tags:
 | 唯一例外 | Paraphrasing 是唯一导致所有模型一致下降的干预 |
 
 ### CoT 长度膨胀（%变化 vs 原 CoT）
+
 | 模型 | Benign:Rewrite | Neutral:Add Text | Neutral:Insert Chars | Adv:Wrong Cont. |
 |------|----------------|------------------|---------------------|-----------------|
 | R1-Distill-Qwen-1.5B | -37% | **+665%** | +111% | +32% |

@@ -78,6 +78,7 @@ $$\mathcal{L}_{Anti-I2V} = \mathcal{L}_{IRC} + \mathcal{L}_{IRA} + \mathcal{L}_{
 ## 实验关键数据
 
 ### 主实验（CelebV-Text 数据集）
+
 | 模型 | 方法 | ISM↓ | C-FIQA↓ | Q-A(F)↓ | Q-A(V)↓ | DINO↓ |
 |------|------|------|---------|---------|---------|-------|
 | CogVideoX | Clean | 0.721 | 0.522 | 0.746 | 0.802 | 0.828 |
@@ -88,6 +89,7 @@ $$\mathcal{L}_{Anti-I2V} = \mathcal{L}_{IRC} + \mathcal{L}_{IRA} + \mathcal{L}_{
 | DynamiCrafter | **Anti-I2V** | **0.151** | **0.303** | **0.032** | **0.047** | **0.167** |
 
 ### 消融实验
+
 | 配置 | ISM↓ | Q-A(V)↓ | 说明 |
 |------|------|---------|------|
 | 仅 RGB 扰动 | 0.583 | 0.543 | 基线（类似 AdvDM） |

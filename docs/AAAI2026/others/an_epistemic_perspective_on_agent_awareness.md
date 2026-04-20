@@ -52,39 +52,20 @@ tags:
 
 ### 关键设计
 
-**1. De Re vs De Dicto 的区分（核心创新）**
+1. **De Re vs De Dicto 感知的双模态区分**:
+    - 功能：将"感知"（awareness）拆分为两种本质不同的模态算子 $R\varphi$（de re）和 $D\varphi$（de dicto），与自我知识算子 $K\varphi$ 共同构成三模态认知系统
+    - 核心思路：$R\varphi$ 表示智能体作为物理对象感知到某个具有属性 $\varphi$ 的智能体——该智能体在当前世界具有 $\varphi$ 且存在于所有不可区分世界中（"看到了但不知道是什么"）；$D\varphi$ 表示在每个不可区分世界中至少存在一个具有 $\varphi$ 的智能体（"知道有这个概念但不知道具体是谁"）。运行示例：Ann 看到便衣警车是 de re 感知，收到 WeRide 短信知道附近有自动驾驶车是 de dicto 感知
+    - 设计动机：已有认知逻辑通常将感知视为单一概念，无法区分"感知到物理对象但不知其属性"和"拥有概念但无法定位对象"这两种认知状态，双模态区分填补了这一表达力缺口
 
-通过一个运行示例清晰说明：Ann 在新加坡博物馆外看到一辆车（实际是便衣警车），同时收到 WeRide 自动驾驶车已到的短信但看不到车。
+2. **基于 2D 语义学的认知模型与三元满足关系**:
+    - 功能：为三模态系统提供精确的模型论语义基础
+    - 核心思路：认知模型定义为五元组 $(W, A, P, {\sim}, \pi)$，其中 $P \subseteq A \times W$ 为存在关系（智能体出现在哪些世界），$\sim_a$ 为不可区分等价关系。关键创新是采用三元满足关系 $w, a \Vdash \varphi$（世界 $w$、智能体 $a$、公式 $\varphi$），借鉴 2D 语义学同时捕捉世界维度和智能体维度的信息，使得 $R$ 和 $D$ 的语义可以自然地分别量化智能体的跨世界存在性和属性持有性
+    - 设计动机：传统 Kripke 语义的二元满足关系无法同时追踪"哪个智能体被感知"和"在哪个世界被感知"，2D 语义学的双维度结构恰好匹配 de re/de dicto 的区分需求
 
-- **De re awareness**（R φ）：Ann 看到了警车（作为物理对象），但不知道它是警车。智能体 b 在当前世界具有属性 φ，且 b 存在于所有 a 无法区分的世界中。
-- **De dicto awareness**（D φ）：Ann 知道附近有一辆 WeRide（作为概念），但不知道具体是哪辆车。在每个 a 无法区分的世界中，至少存在一个具有属性 φ 的智能体。
-
-**2. 认知模型（Epistemic Model）**
-
-形式化定义为五元组 (W, A, P, ∼, π)：
-- W：可能世界集合
-- A：智能体集合  
-- P ⊆ A × W：存在关系（哪个智能体出现在哪个世界）
-- ∼ₐ：智能体 a 的不可区分等价关系
-- π(p)：命题变元的赋值
-
-**3. 满足关系的三元定义**
-
-采用三元满足关系 w, a ⊩ φ（世界 w、智能体 a、公式 φ），这是 2D 语义学的核心，允许同时捕捉"世界的属性"和"智能体的属性"。
-
-**4. 公理系统（8条公理 + 4条推理规则）**
-
-公理：
-1. **Truth**：K φ → φ（知道的必为真）
-2. **Negative Introspection**：¬K φ → K ¬K φ（不知道则知道自己不知道）
-3. **Distributivity**：K(φ→ψ) → (Kφ→Kψ)
-4. **Self-Awareness**：φ → R φ 和 Kφ → Dφ（自知）
-5. **Introspection of Awareness**：Dφ → KDφ（de dicto 感知可内省）
-6. **Unawareness of Falsehood**：¬R⊥ 和 ¬D⊥（不可能感知到假命题）
-7. **Disjunctivity**：R(φ∨ψ) → Rφ ∨ Rψ（de re 的析取性）
-8. **General Awareness**：D(Rφ ∨ Dφ) → Dφ（一般感知公理）
-
-推理规则：Modus Ponens、Necessitation（φ ⊢ Kφ）、两条 Monotonicity 规则（针对 D 和 R）。
+3. **公理系统与完备性**:
+    - 功能：为三模态认知逻辑提供可靠且完备的演绎系统
+    - 核心思路：系统包含 8 条公理和 4 条推理规则。核心公理包括：$K\varphi \to \varphi$（Truth）、$\varphi \to R\varphi$ 和 $K\varphi \to D\varphi$（Self-Awareness，连接三个算子）、$D\varphi \to KD\varphi$（de dicto 感知可内省）、$R(\varphi \lor \psi) \to R\varphi \lor R\psi$（de re 的析取性，反映其"指向具体对象"的特性）、$D(R\varphi \lor D\varphi) \to D\varphi$（General Awareness，统一两种感知）。推理规则包括 Modus Ponens、Necessitation（$\varphi \vdash K\varphi$）及针对 $D$ 和 $R$ 的 Monotonicity 规则
+    - 设计动机：公理刻画了 $K$、$R$、$D$ 三者之间的层次关系——$K$ 蕴含 $D$、自身属性蕴含 $R$，同时 de re 具有析取性而 de dicto 不具有，精确反映了两种感知的结构差异
 
 ### 损失函数 / 训练策略
 

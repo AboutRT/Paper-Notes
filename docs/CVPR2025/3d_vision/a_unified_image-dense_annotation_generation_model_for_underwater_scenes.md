@@ -77,6 +77,7 @@ $$\mathcal{L} = \mathcal{L}_{mse}^I + \mathcal{L}_{mse}^D + \mathcal{L}_{mse}^M$
 ## 实验关键数据
 
 ### 主实验 — 水下深度估计
+
 | 模型 | 数据集 | 指标 | Atlantis | SynTIDE | 提升 |
 |------|--------|------|----------|---------|------|
 | NewCRFs | Sea-thru D3+D5 | $SI_{log}$↓ | 37.10 | **22.37** | -14.73 |
@@ -86,6 +87,7 @@ $$\mathcal{L} = \mathcal{L}_{mse}^I + \mathcal{L}_{mse}^D + \mathcal{L}_{mse}^M$
 | PixelFormer | SQUID | $SI_{log}$↓ | 21.34 | **19.08** | -2.26 |
 
 ### 主实验 — 水下语义分割
+
 | 模型 | 训练数据 | UIIS mIoU | USIS10K mIoU |
 |------|----------|-----------|-------------|
 | Segformer | Real | 70.2 | 74.6 |
@@ -95,6 +97,7 @@ $$\mathcal{L} = \mathcal{L}_{mse}^I + \mathcal{L}_{mse}^D + \mathcal{L}_{mse}^M$
 | ViT-Adapter | Real | 73.5 | 74.6 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 无ILS，无TAN | 一致性低 | 基线并行生成 |

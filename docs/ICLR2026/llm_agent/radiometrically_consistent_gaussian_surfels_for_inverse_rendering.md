@@ -96,6 +96,7 @@ $$\mathcal{L}(\theta) = -\mathbb{E}\Big[\log\sigma\Big(\alpha\big(\log\frac{p_\t
 ## 实验关键数据
 
 ### 基础图像生成 (T2I-CompBench)
+
 | 方法 | 类型 | Color↑ | Shape↑ | Texture↑ | Spatial↑ | Non-Spatial↑ | Complex↑ |
 |------|------|--------|--------|----------|----------|-------------|----------|
 | FLUX | Diffusion | 0.7407 | 0.5718 | 0.6922 | 0.2863 | 0.3127 | 0.3771 |
@@ -107,6 +108,7 @@ $$\mathcal{L}(\theta) = -\mathbb{E}\Big[\log\sigma\Big(\alpha\big(\log\frac{p_\t
 | **PerfGuard** | **Agent** | **0.8753** | **0.7366** | **0.8148** | **0.6120** | **0.3754** | **0.5007** |
 
 ### 高级图像生成 (OneIG-Bench)
+
 | 方法 | 类型 | Alignment↑ | Text↑ | Reasoning↑ | Style↑ |
 |------|------|-----------|-------|-----------|--------|
 | FLUX | Diffusion | 0.786 | 0.523 | 0.253 | 0.368 |
@@ -116,6 +118,7 @@ $$\mathcal{L}(\theta) = -\mathbb{E}\Big[\log\sigma\Big(\alpha\big(\log\frac{p_\t
 | **PerfGuard** | **Agent** | **0.834** | **0.684** | **0.350** | **0.395** |
 
 ### 复杂图像编辑 (Complex-Edit Level-3)
+
 | 方法 | IF↑ | PQ↑ | IP↑ | Overall↑ |
 |------|-----|-----|-----|----------|
 | AnySD | 4.13 | 7.14 | 9.08 | 6.78 |

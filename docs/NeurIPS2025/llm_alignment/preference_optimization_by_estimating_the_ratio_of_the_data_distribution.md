@@ -97,6 +97,7 @@ Llama-3-8B-Instruct on AlpacaEval2：
 | **BPO-SBA** | **55.9%** |
 
 ### 消融实验
+
 | BPO 实例 | Win Rate vs Pref | Entropy | 说明 |
 |---------|-----------------|---------|------|
 | LR (= DPO) | 48.5% | 2.801 | baseline |

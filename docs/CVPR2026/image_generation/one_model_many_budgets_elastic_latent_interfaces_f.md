@@ -57,6 +57,7 @@ ELIT在DiT的transformer block栈中插入一个"潜在接口"——一组可学
 - 大规模实验（Qwen-Image 20B）：采用RF loss + 蒸馏loss（20x缩放匹配量级），先512px训60k步再1024px训60k步
 
 ## 实验关键数据
+
 | 数据集 | 指标 | 本文(ELIT-DiT-XL MB) | 之前SOTA(DiT-XL) | 提升 |
 |--------|------|------|----------|------|
 | ImageNet-1K 256px | FID↓ (+G) | 3.8 | 5.7 | 33% |

@@ -85,6 +85,7 @@ LLM 代码生成在功能正确性上进步显著（HumanEval、MBPP、SWE-Bench
 实验分两阶段：Phase I 用 MaintainCoder 或基线生成初始代码 $C_0$；Phase II 用固定生成器（如 GPT-4o-mini）对 $C_0$ 进行需求修改，评估动态可维护性。
 
 ### 混合级 APPS-Dyn 主实验
+
 | 方法 | MI↑ | CC↓ | Pass@5↑ | AST_sim↑ | Code_diff^per↓ |
 |------|-----|-----|---------|----------|---------------|
 | GPT-4o-mini | 63.3 | 5.10 | 35.5% | 0.589 | 140% |
@@ -105,6 +106,7 @@ LLM 代码生成在功能正确性上进步显著（HumanEval、MBPP、SWE-Bench
 - 竞赛级问题上基线多 Agent 系统（AgentCoder/MapCoder）的 CC 膨胀至 15–20，MaintainCoder 仍然维持在 3 左右
 
 ### 正确性与可维护性的双赢
+
 | 方法 | APPS | CodeContests | xCodeEval |
 |------|------|-------------|-----------|
 | GPT-4o-mini | 44% | 18% | 46% |
@@ -115,6 +117,7 @@ LLM 代码生成在功能正确性上进步显著（HumanEval、MBPP、SWE-Bench
 问题越复杂提升越大：xCodeEval 上 GPT-4o-mini 从 46%→57%（+11%），APPS 仅 +4%。即使在已表现强劲的 DeepSeek-V3 上仍有提升。
 
 ### 人类基线与推理模型对比（CodeContests-Dyn）
+
 | 方法 | CC↓ | Pass@5↑ | AST_sim↑ | Code_diff^per↓ |
 |------|-----|---------|----------|---------------|
 | 人类程序员 (CF 1700-2300) | 8.17 | 23.5% | 0.541 | 112.3% |
@@ -132,6 +135,7 @@ LLM 代码生成在功能正确性上进步显著（HumanEval、MBPP、SWE-Bench
 - 动态指标（Pass@k、AST_sim、Code_diff）之间**高度一致**——证明动态指标更准确反映真实可维护性
 
 ### 消融实验
+
 | 消融配置 | APPS-Dyn | xCodeEval-Dyn |
 |---------|----------|--------------|
 | 完整 MaintainCoder (4o-mini) | 50.5% | 27.3% |
@@ -141,6 +145,7 @@ LLM 代码生成在功能正确性上进步显著（HumanEval、MBPP、SWE-Bench
 代码优化 Agent 贡献更大，但架构评审在高难度任务上也至关重要（xCodeEval 下降 25.7%）。架构评审通常只需 1 轮迭代，是轻量但高效的组件。
 
 ### 计算成本
+
 | 数据集 | MaintainCoder | MapCoder | o3-mini | MetaGPT/ChatDev | GPT-4o-mini |
 |--------|--------------|----------|---------|-----------------|-------------|
 | CodeContests | 33.1k | 38.7k | 20.8k | 50k+ | 2.5k |

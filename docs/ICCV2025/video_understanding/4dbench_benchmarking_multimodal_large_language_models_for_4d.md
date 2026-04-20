@@ -82,6 +82,7 @@ tags:
 ## 实验关键数据
 
 ### 4D Object QA 结果
+
 | 模型 | Object Counting | Temporal Rel. | Action | Spatial Rel. | Appearance | Overall |
 |------|:---:|:---:|:---:|:---:|:---:|:---:|
 | GPT-4o | 44.09% | 59.29% | 63.55% | 69.40% | 77.21% | **62.98%** |
@@ -93,6 +94,7 @@ tags:
 | **人类基线** | **88.98%** | **89.29%** | **94.39%** | **91.04%** | **89.71%** | **91.08%** |
 
 ### 4D Object Captioning 结果（GPT指标）
+
 | 模型 | GPT-Appearance | GPT-Action | GPT-Eval |
 |------|:---:|:---:|:---:|
 | GPT-4o | 3.507/5 | 3.258/5 | 3.382/5 |

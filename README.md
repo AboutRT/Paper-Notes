@@ -1,11 +1,11 @@
 # 📚 AI Paper Notes
-[![Stars](https://img.shields.io/github/stars/zhaoyang97/Paper-Notes?style=social)](https://github.com/zhaoyang97/Paper-Notes/stargazers)
+<!-- [![Stars](https://img.shields.io/github/stars/zhaoyang97/Paper-Notes?style=social)](https://github.com/zhaoyang97/Paper-Notes/stargazers)
 [![Notes](https://img.shields.io/badge/笔记-13%2C040%20篇-blue)](https://zhaoyang97.github.io/Paper-Notes/)
 [![Conferences](https://img.shields.io/badge/学术会议-9%20个-orange)](#-会议覆盖)
 [![Site](https://img.shields.io/badge/在线阅读-Paper--Notes-brightgreen)](https://zhaoyang97.github.io/Paper-Notes/)
-[![Last Commit](https://img.shields.io/github/last-commit/zhaoyang97/Paper-Notes?label=最近更新)](https://github.com/zhaoyang97/Paper-Notes/commits)
+[![Last Commit](https://img.shields.io/github/last-commit/zhaoyang97/Paper-Notes?label=最近更新)](https://github.com/zhaoyang97/Paper-Notes/commits) -->
 
-> **5 分钟读懂一篇顶会论文，一个仓库读懂最新 AI 进展。**
+**5 分钟读懂一篇顶会论文，一个仓库读懂最新 AI 进展。**
 - 📖 **13,000+** 篇 AI · LLM · NLP · CV 顶会论文解读
 - 🏛️ 覆盖 ICLR · CVPR · ACL · NeurIPS · ICML · AAAI · ICCV · ECCV 等会议
 - 🔬 横跨 LLM Reasoning · VLM · Agent · RLHF · RAG · AIGC · Robotics · Autonomous Driving 等46个研究方向

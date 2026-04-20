@@ -66,6 +66,7 @@ $$\mathcal{L}_{\text{DPO}}(\pi_\theta; \pi_{\text{ref}}) = -\mathbb{E}_{(s,x,y_w
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | 配置 | Accuracy | Kendall's τ | Spearman's ρ |
 |------|------|----------|-------------|--------------|
 | Rocinante-12B | baseline | 0.55 | 0.62 | 0.76 |
@@ -80,6 +81,7 @@ $$\mathcal{L}_{\text{DPO}}(\pi_\theta; \pi_{\text{ref}}) = -\mathbb{E}_{(s,x,y_w
 | Phi-4-14B | CPT | 0.77 | 0.82 | 0.93 |
 
 ### 教师模型生成质量验证
+
 | 分数目标 | 模型 | Judge评分(/100) |
 |---------|------|----------------|
 | 无rubric | DS-R1 | 80.1 |
@@ -90,6 +92,7 @@ $$\mathcal{L}_{\text{DPO}}(\pi_\theta; \pi_{\text{ref}}) = -\mathbb{E}_{(s,x,y_w
 | extremely high | o3-mini | 97.9 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | CPT + BoN采样 | 更高分数、更少采样次数 | CPT为BoN提供更好的初始分布 |

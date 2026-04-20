@@ -49,6 +49,7 @@ tags:
 5项损失通过不确定性加权自动平衡。辅助损失包括：diversity loss（惩罚高频共激活prompt间的相似性）和norm正则（限制active prompt值只做残差）。AdamW, lr=1e-3, cosine schedule, 100 epochs, early-stop patience 5。
 
 ## 实验关键数据
+
 | 基准 | 方法 | AvgACC↑ | AvgF↓ |
 |------|------|---------|-------|
 | DR | OS-Prompt++ | 0.769 | 0.113 |

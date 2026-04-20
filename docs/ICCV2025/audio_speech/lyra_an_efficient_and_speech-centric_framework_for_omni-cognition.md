@@ -118,6 +118,7 @@ Lyra-Base 在图像-语音任务上相比最佳全模态模型提升约 9%，在
 | $\mathcal{L}_{CE} + \lambda\mathcal{L}_{LCMR}$ | **77.8** | **80.1** | **58.1** | **62.6** | 2.0 |
 
 LMME 效率提升：
+
 | Token 数量 | Prefill Time (Baseline → LMME(4,0.7)) | 内存 (Baseline → LMME(4,0.7)) |
 |:---:|:---:|:---:|
 | $2^{13}$ | 0.65s → 0.37s | 30G → 18G |

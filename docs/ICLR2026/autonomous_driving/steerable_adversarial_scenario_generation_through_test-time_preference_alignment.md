@@ -91,6 +91,7 @@ $$\mathcal{L}_{\text{HGPO}}(\theta) = \mathbb{E}\left[-\log\sigma\left(\beta\lef
 | Rule-based | 32.99 | 0.50 | 0.33 |
 
 ### 消融实验
+
 | 配置 | 关键效果 | 说明 |
 |------|---------|------|
 | HGPO (完整) | 快速收敛 + 高奖励 | 分组偏好对提供丰富信号 |

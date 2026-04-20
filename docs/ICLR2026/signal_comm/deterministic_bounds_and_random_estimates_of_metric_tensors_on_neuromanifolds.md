@@ -71,6 +71,7 @@ tags:
 | 微调后 | DistilBERT | SST-2 (C=2) | $\mathbb{F}^{LR} \approx \mathbb{F}$（C=2时核矩阵本身就是秩-1），上界较松 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | eFIM vs Hutchinson | CV(变异系数) | eFIM的CV无界（Lemma 5），Hutchinson的CV $\leq \sqrt{2}$（Proposition 12） |

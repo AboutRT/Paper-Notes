@@ -79,6 +79,7 @@ PIG 框架包含三个核心步骤：
 - 黑盒：GPT-4o, Claude 3.5
 
 ### 主实验（TrustLLM 数据集）
+
 | 方法 | LLaMA2 ASR | Mistral ASR | Vicuna ASR | LLaMA3 ASR |
 |------|-----------|-------------|------------|------------|
 | Prefix (Normal) | 0.36% | 71.8% | 40.7% | 89.6% |

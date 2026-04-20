@@ -69,6 +69,7 @@ IterResearch 将深度研究建模为MDP $\langle\mathcal{S},\mathcal{D},\mathca
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | HLE | BC | BC-zh | GAIA | Xbench-DS | SEAL-0 |
 |------|-----|-----|-------|------|-----------|--------|
 | WebSailor-72B | 9.8 | 12.0 | 30.1 | 55.4 | 55.0 | 19.8 |
@@ -78,6 +79,7 @@ IterResearch 将深度研究建模为MDP $\langle\mathcal{S},\mathcal{D},\mathca
 | OpenAI DeepResearch | 26.6 | 51.5 | 42.9 | 67.4 | — | — |
 
 ### 交互扩展消融
+
 | 最大交互次数 | BrowseComp 准确率 |
 |------------|-----------------|
 | 2 | 3.5% |

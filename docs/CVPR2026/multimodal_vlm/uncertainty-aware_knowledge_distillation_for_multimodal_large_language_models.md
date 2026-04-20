@@ -72,6 +72,7 @@ $\min_{\theta,\phi} \mathcal{L}_{CE}(\theta) + g_\phi(h(x))\ell(\theta) - \frac{
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | ScienceQA VQA-Acc | ScienceQA IMG-Acc | 提升 |
 |------|-----------------|------------------|------|
 | CE+JS | 48.5 | 54.8 | 基线 |
@@ -79,6 +80,7 @@ $\min_{\theta,\phi} \mathcal{L}_{CE}(\theta) + g_\phi(h(x))\ell(\theta) - \frac{
 | CE+JS w/ Beta-KD(Instance) | 53.3(+3.9) | 66.9(+10.6) | 实例级 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | FKL/RKL/JS/TVD等不同损失 | 均有提升 | 方法对损失函数选择鲁棒 |

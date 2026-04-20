@@ -83,6 +83,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | FocusLLM | Activation Beacon | InfLLM | StreamingLLM |
 |--------|------|------|----------|------|------|
 | ∞-Bench平均 | Acc | **44.03** | - | 43.05 | 15.64 |
@@ -94,6 +95,7 @@ tags:
 | LongBench平均(LLaMA) | Score | **39.01** | 38.54 | - | - |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 仅Continuation Loss | PassKey=1.69% | 丧失信息恢复能力，Passkey任务几乎完全失败 |

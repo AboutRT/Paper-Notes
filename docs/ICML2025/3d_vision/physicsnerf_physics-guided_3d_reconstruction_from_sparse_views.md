@@ -67,6 +67,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{rgb}} + \alpha(t)\sum_i \lambd
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集/场景 | 指标 | PhysicsNeRF | NeRF | RegNeRF | DietNeRF | SparseNeRF |
 |------------|------|-------------|------|---------|----------|------------|
 | Chair | Train/Test/Gap | 23.2/18.5/4.7 | 16.2/9.1/7.1 | 21.0/12.6/8.4 | 20.4/13.8/6.6 | 21.3/12.9/8.4 |
@@ -75,6 +76,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{rgb}} + \alpha(t)\sum_i \lambd
 | **平均** | Train/Test/Gap | **21.4/15.2/6.2** | - | - | - | - |
 
 ### 消融实验
+
 | 配置 | Train PSNR | Test PSNR | Gap | 说明 |
 |------|-----------|-----------|-----|------|
 | RGB only | 23.3 | 9.8 | 13.5 | 训练最佳但泛化最差 |

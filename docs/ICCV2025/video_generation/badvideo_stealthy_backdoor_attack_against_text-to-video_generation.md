@@ -76,6 +76,7 @@ $$\mathcal{L} = \mathbb{E}_{\mathbf{z}_0, c, \epsilon, t}\left[\|\epsilon - \eps
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | 策略 | FVD↓ | CLIPSIM↑ | ASR_MLLM(%) | ASR_Human(%) | CPR(%) |
 |------|------|------|----------|-------------|--------------|--------|
 | LaVie | Fine-tuned | 327.39 | 0.2883 | 0.0 | 0.0 | 78.5 |
@@ -87,6 +88,7 @@ $$\mathcal{L} = \mathbb{E}_{\mathbf{z}_0, c, \epsilon, t}\left[\|\epsilon - \eps
 | Open-Sora | VST | 312.31 | 0.2940 | **96.4** | **93.5** | 74.9 |
 
 ### 消融实验
+
 | 实验 | 关键指标 | 说明 |
 |------|---------|------|
 | 投毒比例5% → 30% | ASR 从~40%升至>80% | 20%即达80%+ ASR |

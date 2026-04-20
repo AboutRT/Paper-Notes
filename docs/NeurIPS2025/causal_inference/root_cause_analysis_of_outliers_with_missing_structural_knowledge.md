@@ -81,6 +81,7 @@ tags:
 | **SCORE ORDERING** | ✗ | ✗ | ~0.45 | ~0.50 | 不需任何图结构信息 |
 
 ### 消融 / 鲁棒性实验
+
 | 实验维度 | 结果 |
 |----------|------|
 | 图规模 n=20→100 | SMOOTH TRAVERSAL / Traversal / Counterfactual 性能稳定；SCORE ORDERING / Cholesky / Circa 随 n 增大性能下降 |
@@ -90,6 +91,7 @@ tags:
 | 运行时间（n 增大） | SMOOTH TRAVERSAL 和 Traversal 最快，其余方法运行时间相当 |
 
 ### 真实数据
+
 | 数据集 | 最佳方法 | 备注 |
 |--------|---------|------|
 | PetShop (Hardt et al.) | 多种方法各有优势 | 微服务监控场景 |

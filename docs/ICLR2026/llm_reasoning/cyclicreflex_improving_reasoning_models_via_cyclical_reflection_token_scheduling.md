@@ -69,6 +69,7 @@ $$\delta(t) = A \left| \frac{4 \cdot (t - C/4) \bmod C}{C} - 2 \right| - A$$
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 模型 | 指标 | Original | TIP | S1 | Silver | CyclicReflex |
 |--------|------|------|----------|-----|----|----- --|-------------|
 | MATH500 | Qwen-7B | Acc | 0.86 | 0.87 | 0.83 | 0.88 | **0.89** |
@@ -81,6 +82,7 @@ $$\delta(t) = A \left| \frac{4 \cdot (t - C/4) \bmod C}{C} - 2 \right| - A$$
 | AIME2024 | Qwen-1.5B | Acc | 0.23 | 0.23 | 0.17 | 0.27 | **0.30** |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 不同难度级别 | Easy/Medium/Hard均提升 | TIP仅在Hard上有效，Easy反而下降 |

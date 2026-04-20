@@ -90,6 +90,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{seg}} + \lambda_{\text{gen}}\m
 ## 实验关键数据
 
 ### 主实验（与 SOTA 对比）
+
 | 方法 | 文本 | QaTa-COV19 Dice(%) | QaTa-COV19 mIoU(%) | MosMedData+ Dice(%) | MosMedData+ mIoU(%) |
 |------|------|---------------------|---------------------|---------------------|---------------------|
 | U-Net | × | 79.02 | 69.46 | 64.60 | 50.73 |
@@ -100,6 +101,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{seg}} + \lambda_{\text{gen}}\m
 | **BiCLIP** | ✓ | **90.59** | **82.81** | **80.80** | **67.79** |
 
 ### 低标注鲁棒性（与 EF-UNet 对比）
+
 | 标注比例 | BiCLIP QaTa Dice | EF-UNet QaTa Dice | BiCLIP MosMed Dice | EF-UNet MosMed Dice |
 |----------|------------------|--------------------|--------------------|---------------------|
 | 25% | 88.78 | 88.78 | 72.18 | 65.63 |
@@ -108,6 +110,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{seg}} + \lambda_{\text{gen}}\m
 | 1% | **74.79** | 66.76 | **46.49** | 33.68 |
 
 ### 噪声鲁棒性（低剂量 CT 噪声，QaTa-COV19 Dice）
+
 | 方法 | Noise 140 | Noise 120 | Noise 110 |
 |------|-----------|-----------|-----------|
 | LViT | 70.07 | 68.27 | 67.60 |

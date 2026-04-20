@@ -49,6 +49,7 @@ Dynamic-DINO基于复现的Grounding DINO 1.5 Edge（EfficientViT-L1 + BERT-base
 - 8卡RTX 3090训练，MoE-Tuning比预训练快1.87x（7.5h vs 14h）
 
 ## 实验关键数据
+
 | 方法 | 训练数据 | COCO AP | LVIS-mini AP | LVIS-val AP |
 |------|----------|---------|--------------|-------------|
 | GDINO 1.5 Edge (官方) | 20M私有 | 42.9 | 33.5 | 27.3 |

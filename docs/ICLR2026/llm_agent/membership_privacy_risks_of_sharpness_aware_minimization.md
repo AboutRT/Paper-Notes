@@ -73,6 +73,7 @@ $$\text{Passed Rate} = \frac{1}{N}\sum_{i=1}^{N}\frac{\#\text{F2P tests passed}_
 ## 实验关键数据
 
 ### 主实验：各模型在 Full Set 上的表现
+
 | Scaffold | Model | Passed Rate | Resolved Rate | Token I/O |
 |----------|-------|-------------|---------------|-----------|
 | Codex | GPT-5.1-Codex (medium) | 41.66% | **12.5%** | 6.3M / 39k |
@@ -84,6 +85,7 @@ $$\text{Passed Rate} = \frac{1}{N}\sum_{i=1}^{N}\frac{\#\text{F2P tests passed}_
 | OpenHands | Gemini-3-Pro (low) | 30.08% | 4.5% | 6.2M / 40k |
 
 ### 与 SWE-bench 对比（共享仓库子集）
+
 | 模型 | SWE-bench Verified Resolved | FeatureBench Resolved | FeatureBench Passed |
 |------|---------------------------|----------------------|---------------------|
 | Claude Opus 4.5 | **74.40%** | 5.2% | 41.08% |
@@ -92,6 +94,7 @@ $$\text{Passed Rate} = \frac{1}{N}\sum_{i=1}^{N}\frac{\#\text{F2P tests passed}_
 | DeepSeek-V3.2 | 60.00% | 0.0% | 22.98% |
 
 ### 任务复杂度对比
+
 | 属性 | SWE-bench | FeatureBench ($L_1$) |
 |------|-----------|---------------------|
 | 问题描述长度（词） | 195.1 | **4818.0** |

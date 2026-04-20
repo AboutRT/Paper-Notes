@@ -69,6 +69,7 @@ GRPO 训练，总奖励 $r_j = R_{\text{Conf},j} + R_{\text{Output},j} + R_{\tex
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | Math-Vista | Math-Vision | MMStar | MMMU |
 |------|-----------|------------|--------|------|
 | Pass@1 (base) | 64.7 | 23.0 | 60.2 | 48.8 |
@@ -78,6 +79,7 @@ GRPO 训练，总奖励 $r_j = R_{\text{Conf},j} + R_{\text{Output},j} + R_{\tex
 | **Ours (CDRL+CA-TTS)** | **79.5** | **42.4** | **71.3** | **66.3** |
 
 ### 消融实验
+
 | 配置 | Math-Vision ALL | 说明 |
 |------|----------------|------|
 | Training-Free (Pass@1) | 22.96 | 基线 |

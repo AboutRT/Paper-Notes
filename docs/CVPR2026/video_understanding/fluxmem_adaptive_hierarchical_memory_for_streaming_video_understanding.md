@@ -87,6 +87,7 @@ FluxMem 将视觉上下文分为三级记忆，以级联方式处理流式帧：
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | 类型 | StreamingBench (real-time) | OVO-Bench (real-time) | OVO-Bench (overall) | VideoMME | MLVU |
 |------|------|--------------------------|----------------------|---------------------|----------|------|
 | Qwen2.5-VL (baseline) | 离线 | 73.9 | 63.3 | 49.8 | 63.3 | 67.9 |
@@ -98,6 +99,7 @@ FluxMem 将视觉上下文分为三级记忆，以级联方式处理流式帧：
 FluxMem 在在线任务上超越所有 training-based 方法（StreamingBench 76.4 vs StreamForest 77.3，OVO-Bench 67.2 vs ViSpeak 66.3），且在离线视频 MLVU 上达 73.1（比 baseline +5.2）。
 
 ### 消融实验
+
 | 记忆配置 | Token 丢弃率 | MLVU | VideoMME | StreamingBench | 平均 |
 |---------|-------------|------|---------|---------------|------|
 | S only | 0% | 67.8 | 63.3 | 73.9 | 68.3 |

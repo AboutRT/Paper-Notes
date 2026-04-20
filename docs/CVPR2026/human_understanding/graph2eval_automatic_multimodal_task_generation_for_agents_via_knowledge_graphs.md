@@ -94,6 +94,7 @@ Graph2Eval 是一个五阶段流水线：Data Ingestion → KG Construction → 
 ## 实验关键数据
 
 ### Graph2Eval-Bench 数据集统计
+
 | 类别 | 数量 | 平均步骤数 | 涉及节点类型 |
 |------|------|-----------|-------------|
 | 文档任务 | 1002 | 2.8 | paragraph, table, heading, image |
@@ -101,6 +102,7 @@ Graph2Eval 是一个五阶段流水线：Data Ingestion → KG Construction → 
 | **总计** | **1319** | 3.1 | — |
 
 ### 与 baseline 任务生成方法对比
+
 | 方法 | 语义一致性 ↑ | 可解性 ↑ | 多样性 ↑ | 幻觉率 ↓ |
 |------|-------------|---------|---------|---------|
 | Self-Instruct | 0.62 | 0.58 | 0.71 | 18.3% |
@@ -111,6 +113,7 @@ Graph2Eval 是一个五阶段流水线：Data Ingestion → KG Construction → 
 Graph2Eval 在语义一致性上比最强 baseline Evol-Instruct 提升 +20%（0.84 vs 0.67+），可解性 +17%（0.80 vs 0.63+）。
 
 ### Agent 在 Graph2Eval-Bench 上的表现
+
 | Agent | 文档任务准确率 | 网页任务成功率 | 整体 |
 |-------|--------------|--------------|------|
 | GPT-4o | 61.3% | 42.7% | 56.8% |

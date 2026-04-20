@@ -65,6 +65,7 @@ HiFo-Prompt 通过引导式Prompt合成（Guided Prompt Synthesis）构建每轮
 ## 实验关键数据
 
 ### TSP Step-by-step Construction 主实验
+
 | 方法 | TSP50 Gap(%) | TSP100 Gap(%) | TSP200 Gap(%) |
 |------|-------------|---------------|---------------|
 | LKH3 | 0.000 | 0.000 | 0.000 |
@@ -74,6 +75,7 @@ HiFo-Prompt 通过引导式Prompt合成（Guided Prompt Synthesis）构建每轮
 | **HiFo-Prompt** | **6.625** | **8.582** | **8.877** |
 
 ### TSP Guided Local Search
+
 | 方法 | TSP100 Gap(%) | TSP200 Gap(%) | TSP500 Gap(%) |
 |------|-------------|---------------|---------------|
 | EoH | 0.026 | 0.453 | 2.037 |

@@ -128,6 +128,7 @@ $$\text{Attention}(Q, K_i, V_i), \text{if } t > T \text{ and } l > L$$
 ### 消融实验
 
 对象移除阶段各组件的分解验证：
+
 | 组件 | 效果 |
 |------|------|
 | 仅 perceptual loss | 图像几乎不变 |
@@ -136,6 +137,7 @@ $$\text{Attention}(Q, K_i, V_i), \text{if } t > T \text{ and } l > L$$
 | DDS + mask + perceptual | 移除对象且保持背景（完整方法） |
 
 图像和谐化阶段的消融：
+
 | 组件 | 效果 |
 |------|------|
 | 仅 perceptual | 保持与原始复制粘贴一致，无融合 |

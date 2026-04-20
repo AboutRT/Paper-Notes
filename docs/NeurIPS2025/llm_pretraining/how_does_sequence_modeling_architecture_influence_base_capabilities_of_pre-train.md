@@ -78,6 +78,7 @@ tags:
 ## 实验关键数据
 
 ### OOD 语言建模（110M, 100B tokens）
+
 | 架构 | Mixed Domain Test | OOD Test | 说明 |
 |------|------------------|----------|------|
 | Transformer++ | 最优 | 最优 | 基准 |
@@ -88,6 +89,7 @@ tags:
 | Top-1 Chunk Selection | ≈Transformer++ | ≈Transformer++ | 实用版本 |
 
 ### 消融：架构因素影响
+
 | 因素 | 对基础能力的影响 |
 |------|----------------|
 | Data-dependent decay | 无影响（仅加速收敛）|

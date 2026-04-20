@@ -91,6 +91,7 @@ $$\mathcal{L}_i = (1-\alpha)\mathcal{L}_{Huber}(\tilde{\hat{y}}_i^{Main}, \tilde
 S2G-Net 在 R² 上比最佳基线 GraphGPS 提升约 7.5%，log-MAPE 降低 4.1%，且差异具有统计显著性（p<0.05）。
 
 ### 消融实验
+
 | 配置 | R² ↑ | MSE ↓ | 说明 |
 |------|------|-------|------|
 | Baseline (48h) | 0.43 | 14.25 | 完整模型 |

@@ -45,6 +45,7 @@ tags:
 完全无训练。默认配置：VLM为VideoLLaMA3-7B、LLM为Llama-3.1-8B-Instruct、定位VLM为Qwen2.5-VL-7B。帧率16帧stride，窗口 $\ell = \max(300, T/10)$，高斯平滑 $\sigma=10$。运行在2块RTX 3090上。比LAVAD快4倍（0.029 vs. 0.117 sec/frame）。
 
 ## 实验关键数据
+
 | 数据集 | 方法 | AUC(%) | 训练需求 |
 |--------|------|--------|---------|
 | UCF-Crime | LAVAD | 80.28 | 零样本 |

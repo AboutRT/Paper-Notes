@@ -97,6 +97,7 @@ $$\text{SFO 复杂度} = \tilde{\mathcal{O}}\left(p \kappa^{9+2/p} \epsilon^{-4-
 5. 高阶光滑性假设限制了适用范围，深度网络中通常不满足
 
 ## 与相关工作的对比
+
 | 方法 | 光滑阶 | 复杂度 | 需要 HVP |
 |------|--------|--------|----------|
 | BSA | 1 阶 | $\tilde{\mathcal{O}}(\epsilon^{-6})$ SFO + $\tilde{\mathcal{O}}(\epsilon^{-4})$ HVP | 是 |

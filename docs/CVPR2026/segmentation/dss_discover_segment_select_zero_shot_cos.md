@@ -47,6 +47,7 @@ tags:
 完全training-free，无需任何训练。整个流程是推理时的pipeline。QWen2.5-VL-Instruct作为MLLM，SAM2(ViT-L)做分割，DINOv2做特征提取→PCA降至16维→Leiden聚类（自动确定聚类数无需指定K）。单卡RTX 3090 24GB可运行。
 
 ## 实验关键数据
+
 | 方法 | 设置 | CAMO $S_\alpha$↑ | NC4K $S_\alpha$↑ | COD10K $S_\alpha$↑ | CHAMELEON $S_\alpha$↑ |
 |--------|------|------|----------|------|------|
 | ProMaC (NeurIPS24) | ZS | .725 | .777 | .716 | .790 |

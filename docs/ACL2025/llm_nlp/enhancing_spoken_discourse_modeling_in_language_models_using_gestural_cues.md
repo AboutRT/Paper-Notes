@@ -100,6 +100,7 @@ tags:
 ### 消融实验
 
 **对抗验证（Adversarial Evaluation）**：
+
 | 设置 | Discourse F1 | Quantifier F1 | Stance F1 |
 |------|-------------|---------------|-----------|
 | Random vectors | 48.1 | 68.4 | 48.6 |

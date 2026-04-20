@@ -68,6 +68,7 @@ tags:
 ## 实验关键数据
 
 ### TVSBench（50 视频，平均 30 秒 30FPS，17 种风格）
+
 | 方法 | CLIP-T | Aesthetic-V | Distortion-V | **Overall** |
 |------|:---:|:---:|:---:|:---:|
 | ControlVideo | 0.263 | 0.587 | 0.587 | 0.541 |
@@ -77,6 +78,7 @@ tags:
 | **V-Stylist** | **0.267** | **0.591** | **0.745** | **0.601** |
 
 ### 消融实验
+
 | 配置 | CLIP-T | Distortion-V | 说明 |
 |------|:---:|:---:|------|
 | Baseline（无 agent） | 0.256 | 0.576 | SD+ControlNet 直接生成 |

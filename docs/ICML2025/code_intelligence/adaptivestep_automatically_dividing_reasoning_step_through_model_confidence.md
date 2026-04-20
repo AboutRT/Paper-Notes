@@ -69,6 +69,7 @@ $$\mathcal{L}_{PRM}^\theta = -\sum_{k=1}^{K} (r_k^e \log r_k^\theta + (1-r_k^e) 
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | ASPRM | 之前SOTA | 提升 |
 |--------|------|-------|----------|------|
 | GSM8k (BoN) | Accuracy | ASPRM-L 最优 | Math-Shepherd, ER-PRM | 成本<70%下超越 |
@@ -79,6 +80,7 @@ $$\mathcal{L}_{PRM}^\theta = -\sum_{k=1}^{K} (r_k^e \log r_k^\theta + (1-r_k^e) 
 | LiveCodeBench (TVD) | Pass@1 | 19.92% | 19.21% (greedy) | +3.70% |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 阈值 0.5% | BoN 较低 | 划分点太少，信息量不足 |
@@ -170,6 +172,7 @@ $$\mathcal{L}_{PRM}^\theta = -\sum_{k=1}^{K} (r_k^e \log r_k^\theta + (1 - r_k^e
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | ASPRM | 之前SOTA | 提升 |
 |--------|------|-------|----------|------|
 | GSM8k (BoN, N=64) | Accuracy | 90.45 (ASPRM-L) | 88.70 (ER-PRM) | +1.75 |
@@ -181,6 +184,7 @@ $$\mathcal{L}_{PRM}^\theta = -\sum_{k=1}^{K} (r_k^e \log r_k^\theta + (1 - r_k^e
 注：TVD 中 Math-Shepherd 和 ER-PRM 在 GSM8k 上反而导致性能下降（低于 Greedy），而 ASPRM 始终带来提升。
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 阈值 0.5% | BoN GSM8k 较低 | 划分点太少，信息不足 |

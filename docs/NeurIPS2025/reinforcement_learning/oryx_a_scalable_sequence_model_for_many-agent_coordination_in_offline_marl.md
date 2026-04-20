@@ -74,6 +74,7 @@ $$J_Q(\phi) = \mathbb{E}_\mathcal{B}\left[\left(r + \gamma \frac{\exp(Q_{\phi^-}
 ## 实验关键数据
 
 ### 主实验
+
 | 环境 | 数据集数 | Oryx ≥ SOTA 占比 | 关键对比 |
 |------|---------|------------------|---------|
 | SMAC | 43 | 34/43 (79%) | vs CFCQL, OMIGA, ICQ-MA |
@@ -87,6 +88,7 @@ $$J_Q(\phi) = \mathbb{E}_\mathcal{B}\left[\left(r + \gamma \frac{\exp(Q_{\phi^-}
 | **Oryx** | **0.91** | **0.87** | **0.89** |
 
 ### 消融实验
+
 | 配置 | T-Maze Replay | T-Maze Expert | 说明 |
 |------|---------------|---------------|------|
 | I-ICQ | 0.0±0.0 | 0.0±0.0 | 独立学习完全失败 |

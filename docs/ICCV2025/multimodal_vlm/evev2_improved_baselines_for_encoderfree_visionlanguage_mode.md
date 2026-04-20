@@ -49,6 +49,7 @@ EVEv2.0基于Qwen2.5-7B LLM，用简单的双层卷积做patch embedding（strid
 - 分辨率从800×800渐进到1600×1600，最大2500 patch tokens
 
 ## 实验关键数据
+
 | 模型 | 类型 | 参数 | MMMU | MMBench | TextVQA | ChartQA | AI2D | OCRBench |
 |------|------|------|------|---------|---------|---------|------|----------|
 | LLaVA-1.5 | encoder | 7B | 35.3 | 64.3 | 46.1 | 18.2 | 54.8 | 318 |

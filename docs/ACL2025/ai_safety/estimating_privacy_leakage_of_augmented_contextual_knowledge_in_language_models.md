@@ -67,6 +67,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验：Context Influence与输入反刍
+
 | 模型 | 数据集 | $\lambda$ | Context Influence | Repeat Prompts | Rouge Prompts |
 |------|--------|-----------|-------------------|----------------|---------------|
 | LLaMA 3 8B | CNN-DM | 0.5 | 15.97 | 8 | 109 |
@@ -76,11 +77,13 @@ tags:
 | GPT-Neo 1.3B | PubMedQA | 1.0 | 38.79 | 54 | 268 |
 
 ### 关键对比：参数知识的影响
+
 | 对比 | 说明 |
 |------|------|
 | OPT 1.3B vs GPT-Neo 1.3B (PubMedQA) | GPT-Neo预训练含PubMed → context influence更低(38.79 vs 45.66) → 但Repeat/Rouge Prompts反而更高 → 传统度量高估了上下文泄露 |
 
 ### 因素分析
+
 | 因素 | 关键发现 |
 |------|---------|
 | $\lambda$ (上下文放大) | $\lambda$从1.0→1.5：ROUGE-L提升10%但输入反刍增50% |

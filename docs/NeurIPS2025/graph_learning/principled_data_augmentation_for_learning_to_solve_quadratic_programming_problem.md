@@ -115,6 +115,7 @@ $$\begin{bmatrix} \mathbf{Q} & \mathbf{A}^\top \\ \mathbf{A} & \mathbf{0} \end{b
 预训练模型在未见过的优化问题族上微调，验证迁移学习能力。
 
 **LP OOD泛化（Set Cover/MIS/CA/CFL）**：
+
 | 问题族 | 预训练 | 10% | 20% | 100% |
 |-------|:------:|-----|-----|------|
 | Set Cover | 否 | 5.297 | 2.531 | 0.752 |
@@ -123,6 +124,7 @@ $$\begin{bmatrix} \mathbf{Q} & \mathbf{A}^\top \\ \mathbf{A} & \mathbf{0} \end{b
 | CA | **是** | **2.303** | **1.713** | **0.753** |
 
 **QP OOD泛化（SVM/Portfolio/LASSO）**：
+
 | 问题族 | 预训练 | 10% | 20% | 100% |
 |-------|:------:|-----|-----|------|
 | SVM | 否 | 0.191 | 0.109 | 0.027 |

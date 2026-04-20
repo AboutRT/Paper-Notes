@@ -85,6 +85,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{task}}(\hat{y}, y^\star) + \la
 DCR+DFG 在 epoch 和 wall-clock 两个维度上均最快达到目标精度，最终精度约 78-80%。DCR+DFG 在所有层（Block 0/7/11）的 teacher-student 接口余弦相似度均显著高于随机基线。
 
 ### 消融实验
+
 | 配置 | 接口对齐质量 | 收敛速度 | 说明 |
 |------|------------|---------|------|
 | DCR + DFG | 最高 | 最快 | 确定性混合 + 特征引导 |

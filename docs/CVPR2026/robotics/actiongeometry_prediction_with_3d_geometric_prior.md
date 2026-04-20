@@ -46,6 +46,7 @@ tags:
 $\mathcal{L} = \|a - \hat{a}\|_1 + \lambda\|\mathbf{f}_{t+N} - \hat{\mathbf{f}}_{t+N}\|_1 + \gamma\|P_{t+N} - \hat{P}_{t+N}\|_1$。用π3预提取所有演示的3D潜在作为伪Ground Truth（时序窗口提取以稳定化）。训练200-600 epoch，batch=32, 4090 GPU。
 
 ## 实验关键数据
+
 | RoboTwin 2.0 | 指标 | Ours | DP3 | ACT | DP | RDT |
 |--------|------|------|----------|------|------|------|
 | Dominant-select (16任务) | Avg SR(%) | **63.2** | 61.2 | 34.1 | 44.4 | 44.5 |

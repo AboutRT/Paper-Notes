@@ -49,6 +49,7 @@ $$\mathcal{L} = \mathcal{L}_{proj} + 0.4\mathcal{L}_{flip} + 0.25\mathcal{L}_{un
 ## 实验关键数据
 
 ### 跨任务少样本2D视线估计（10-shot，mm误差↓）
+
 | 方法 | EVE(桌面) | MPIIGaze(笔记本) | GazeCapture(手机) |
 |------|---------|------------|-------------|
 | IVGaze | 228.2 | 106.2 | 101.2 |
@@ -58,6 +59,7 @@ $$\mathcal{L} = \mathcal{L}_{proj} + 0.4\mathcal{L}_{flip} + 0.25\mathcal{L}_{un
 比EFE提升28%+，比IVGaze提升显著（IVGaze用transformer在10-shot下欠拟合）。在三种不同设备类型（桌面显示器、笔记本、手机）上均一致有效，证明了方法的设备无关性。值得注意的是，桌面显示器（EVE）场景最难因为屏幕尺寸大且相机距离远，但仍达到43.4mm。
 
 ### 不同shot数的性能变化
+
 | shot数 | EVE(mm) | MPIIGaze(mm) | GazeCapture(mm) |
 |--------|---------|-------------|----------------|
 | 5 | ~55 | ~65 | ~42 |
@@ -67,6 +69,7 @@ $$\mathcal{L} = \mathcal{L}_{proj} + 0.4\mathcal{L}_{flip} + 0.25\mathcal{L}_{un
 性能随shot数近似对数关系增长，10-shot是极佳的性价比点。
 
 ### 参考：全监督2D方法
+
 | 方法 | MPIIGaze | GazeCapture |
 |------|----------|-------------|
 | Full-Face (全数据训练) | 42.3 | - |

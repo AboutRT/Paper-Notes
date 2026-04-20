@@ -78,6 +78,7 @@ AdaptiveAE的pipeline分为两部分：**训练**和**推理**。
 - 推理时RL agent在RTX3080上<5ms/场景，整体流程<250ms
 
 ## 实验关键数据
+
 | 数据集 | 指标 | 本文 | Hasinoff et al. | Wang et al. | Pourreza et al. | 提升(vs Hasinoff) |
 |--------|------|------|----------|------|------|------|
 | HDRV-Test (1 preview) | PSNR-μ | **39.70** | 37.59 | 36.46 | 33.64 | +2.11 |
@@ -87,6 +88,7 @@ AdaptiveAE的pipeline分为两部分：**训练**和**推理**。
 | DeepHDRVideo (3 preview) | PSNR-μ | **39.81** | 38.47 | 37.95 | 35.57 | +1.34 |
 
 跨融合方法测试（HDRV-Test, 1 preview）：
+
 | 融合方法 | 本文 PSNR-μ | Hasinoff PSNR-μ | Wang PSNR-μ |
 |----------|-------------|-----------------|-------------|
 | DeepHDR | **39.70** | 37.59 | 36.46 |

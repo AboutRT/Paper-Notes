@@ -45,6 +45,7 @@ tags:
 $\mathcal{L}_{total} = \mathcal{L}_{dice} + \sum_s \lambda_s \mathcal{L}_{dist}^{(s)}$，各阶段权重递增 $\lambda_1 < \lambda_2 < ... < \lambda_S$。AdamW + cosine 学习率调度（warm restart $T=2$），224×224 输入，lr 1e-4 batch 16（主数据集），A5000 24GB GPU 训练。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | Deco-Mamba-V1 | 之前SOTA | 提升 |
 |---|---|---|---|---|
 | Synapse (8类) | DSC/HD95 | 85.07/14.72 | 83.59/15.99 (Cascaded-MERIT) | +1.48/+1.27 |

@@ -76,6 +76,7 @@ $$\eta_\ell^* = \frac{g_{\ell,\text{tot}}^\top F_\ell^{-1} g_{\ell,\text{comb}}}
 ## 实验关键数据
 
 ### CIFAR-10 + ResNet-18（5 seeds）
+
 | Batch Size | SGD | AdamW | KFAC | FOP |
 |---|---|---|---|---|
 | 2048 | 58ep/743s | 61ep/768s | 37ep/589s | **29ep/475s** |
@@ -115,6 +116,7 @@ $$\eta_\ell^* = \frac{g_{\ell,\text{tot}}^\top F_\ell^{-1} g_{\ell,\text{comb}}}
 - 仅与 KFAC 框架结合，未探索与其他二阶方法（如 Shampoo 的 Kronecker 结构）结合的可能
 
 ## 与相关工作的对比
+
 | 方法 | 阶数 | 大 batch 能力 | 额外超参 | ImageNet-1K 75.9% |
 |---|---|---|---|---|
 | SGD/AdamW | 一阶 | 差（>4096 失效）| 无 | 71ep/2511min (BS=1024) |

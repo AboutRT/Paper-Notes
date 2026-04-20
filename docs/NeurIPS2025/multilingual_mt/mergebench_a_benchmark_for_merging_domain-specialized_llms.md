@@ -56,31 +56,15 @@ MergeBench 的设计包含三个关键维度：
 
 ### 关键设计
 
-**八种合并方法分为两大类：**
+1. **八种模型合并方法的统一评估框架**:
+    - 功能：系统覆盖两大类共八种主流合并方法，构建标准化对比基准
+    - 核心思路：**系数调优类**包括简单平均（Model Soup）、任务向量加权 $\theta_{merged} = \theta_{pre} + \lambda \sum \tau_i$（Task Arithmetic）、Fisher 信息矩阵加权（Fisher Merging）、激活差异最小化（RegMean）；**稀疏化类**包括符号一致性裁剪（TIES）、随机丢弃重缩放 $\theta_{merged} = \sum \lambda(1-m_i) \odot \tau_i / (1-p)$（DARE）、共识掩码过滤（Consensus TA）、任务相关参数定位拼接（Localize-and-Stitch）。八种方法从不同角度处理任务向量冲突问题
+    - 设计动机：现有工作缺乏在统一条件下对多种合并方法的公平比较，涵盖两大技术路线可全面揭示不同方法的优劣与适用场景
 
-**系数调优类（Coefficient Tuning）：**
-
-1. **Model Soup**：简单参数平均 $\theta_{merged} = \frac{1}{n}\sum_{i=1}^n \theta_{ft}^{(i)}$
-2. **Task Arithmetic**：基于任务向量 $\tau_i = \theta_{ft}^{(i)} - \theta_{pre}$，合并为 $\theta_{merged} = \theta_{pre} + \lambda \sum \tau_i$
-3. **Fisher Merging**：用 Fisher 信息矩阵加权合并
-4. **RegMean**：最小化合并前后激活差异
-
-**稀疏化类（Sparsification）：**
-
-5. **TIES Merging**：裁剪小幅值 → 选择主导符号 → 按符号一致性合并
-6. **DARE**：随机丢弃任务向量元素并重缩放 $\theta_{merged} = \sum \lambda(1-m_i) \odot \tau_i / (1-p)$
-7. **Consensus TA**：通过共识掩码保留多个任务一致认为重要的参数
-8. **Localize-and-Stitch**：定位任务相关参数子集，仅将这些参数拼接回基础模型
-
-**五大任务领域的训练数据：**
-
-| 领域 | 数据集 | 训练方法 |
-|------|--------|----------|
-| 指令跟随 | TULU-3 persona IF | SFT |
-| 数学 | DART-Math + NuminaMath-TIR | SFT + GRPO (8B/9B) |
-| 多语言 | Aya (65种语言) | SFT |
-| 代码 | Magicoder | SFT |
-| 安全 | WildGuardMix + WildJailbreak | SFT |
+2. **五领域专用模型的标准化训练流程**:
+    - 功能：为指令跟随、数学、多语言、代码、安全五大领域生成可控的专用微调模型
+    - 核心思路：基于 Llama-3.2-3B/3.1-8B 和 Gemma-2-2B/9B 共 8 个基础模型，每个模型在五个领域分别微调（共 40 个模型）。训练数据涵盖 TULU-3、DART-Math、Aya（65 种语言）、Magicoder、WildGuardMix 等，主要采用 SFT，数学任务在 8B/9B 模型上额外使用 GRPO 强化学习
+    - 设计动机：统一微调流程和数据规模消除训练差异带来的混淆变量，确保合并方法间的比较公平可复现，同时五个领域的多样性可检验合并方法在不同能力维度上的泛化表现
 
 ### 损失函数 / 训练策略
 

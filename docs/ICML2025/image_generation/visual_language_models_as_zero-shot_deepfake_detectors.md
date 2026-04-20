@@ -65,6 +65,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验（零样本 vs 专用检测器，CelebA-HQ SimSwap 数据集）
+
 | 方法 | AUC ↑ | ACC ↑ | EER ↓ |
 |------|-------|-------|-------|
 | FF++ (XceptionNet) | 58.9 | 59.2 | 44.5 |
@@ -75,6 +76,7 @@ tags:
 | **InstructBLIP FT** | **92.1** | **85.0** | **12.2** |
 
 ### 方法对比（归一化 vs softmax vs 二元）
+
 | VLM | Binary ACC | Normalize AUC | Softmax AUC |
 |------|-----------|---------------|-------------|
 | InstructBLIP | 68.0 | **81.3** | 80.9 |

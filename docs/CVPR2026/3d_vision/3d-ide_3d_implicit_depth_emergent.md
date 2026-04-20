@@ -70,6 +70,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{ce} + \mathcal{L}_{\text{geometry}} 
 ## 实验关键数据
 
 ### 主实验
+
 | 基准 | 指标 | 3D-IDE (仅RGB) | Video-3D LLM* (仅RGB) | Video-3D LLM (有3D输入) |
 |------|------|------|----------|------|
 | ScanRefer | Acc@0.25 | **60.9** | 53.7 | 58.1 |
@@ -82,6 +83,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{ce} + \mathcal{L}_{\text{geometry}} 
 *注：3D-IDE 仅用RGB推理即超越使用显式3D输入的 Video-3D LLM。
 
 ### 消融实验
+
 | 配置 | ScanRefer Acc@0.25 | Multi3DRef F1@0.25 | 说明 |
 |------|---------|---------|------|
 | 基线（无辅助损失） | 53.7 | 46.0 | RGB-only底线 |

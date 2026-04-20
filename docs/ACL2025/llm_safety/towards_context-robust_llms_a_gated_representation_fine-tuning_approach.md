@@ -99,6 +99,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{FT}}(\hat{y}_i, y_i) + \mathca
 在 ConflictQA 子集上，以 Llama-2-7B-Chat 为主模型：
 
 **矛盾上下文**（已知问题 + 矛盾证据）：
+
 | 方法 | 短上下文 | 长上下文 |
 |---|---|---|
 | LLM 原始 | 34.55% | 25.33% |
@@ -108,6 +109,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{FT}}(\hat{y}_i, y_i) + \mathca
 | **Grft-requery** | **82.49%** | **88.15%** |
 
 **无用上下文**（已知问题 + 干扰/随机证据）：
+
 | 方法 | 随机 | 干扰 |
 |---|---|---|
 | LLM 原始 | 53.14% | 44.62% |

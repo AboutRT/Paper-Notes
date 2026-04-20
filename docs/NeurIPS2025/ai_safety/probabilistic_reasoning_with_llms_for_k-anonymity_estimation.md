@@ -69,6 +69,7 @@ Branch（Bayesian network Reasoning for k-ANonymity using Conditional Hierarchie
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | 模型 | Spearman ρ↑ | Log Error↓ | Range%↑(a=5) |
 |------|------|-----------|-----------|-------------|
 | Branch | o3-mini | **0.878** | **1.83** | **72.61%** |
@@ -80,6 +81,7 @@ Branch（Bayesian network Reasoning for k-ANonymity using Conditional Hierarchie
 | Branch | LLaMA-8B(FT) | 0.807 | 2.19 | 69.57% |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 4+属性文档 | Branch显著优于CoT | 属性越多，CoT的独立性假设错误越严重 |

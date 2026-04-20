@@ -82,6 +82,7 @@ tags:
 - 硬件：单卡 V100 32GB，batch size=4，训练 15 epoch
 
 ### OMA 结果（表 1）
+
 | 数据集 | 零样本 BmAP | TrAP BmAP | TrAP PmAP | TrAP ASR |
 |--------|-----------|-----------|-----------|----------|
 | Vehicles | 61.5 | 64.9 | 15.2 | 0.79 |

@@ -92,6 +92,7 @@ $$\mathcal{L} = \mathcal{L}_{local} + \lambda_1 \mathcal{L}_{global} + \lambda_2
 ## 实验关键数据
 
 ### 主实验（Real3D-AD，零样本）
+
 | 方法 | 类型 | Object AUROC↑ | Point AUROC↑ |
 |------|------|---------------|--------------|
 | CPMF | 非 ZS | 58.6 | 75.9 |
@@ -102,6 +103,7 @@ $$\mathcal{L} = \mathcal{L}_{local} + \lambda_1 \mathcal{L}_{global} + \lambda_2
 | **BTP (Ours)** | **ZS-PLM** | 61.4 | **84.5** |
 
 ### 消融实验（根据 MGFEM 各组件的贡献推断）
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 仅全局 ULIP embedding | 较低点级 AUROC | 原始 ULIP 不适合细粒度定位 |

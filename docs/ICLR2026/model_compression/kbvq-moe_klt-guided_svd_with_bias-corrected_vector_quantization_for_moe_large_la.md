@@ -70,6 +70,7 @@ $W \xrightarrow[\text{KLT+SVD}]{\text{IDRE}} \underbrace{W_{\text{share}}}_{\tex
 ## 实验关键数据
 
 ### 主实验（多模型、多比特宽度）
+
 | 模型 | 比特 | 方法 | PPL(↓) | 平均准确率(↑) |
 |------|------|------|--------|-------------|
 | Qwen1.5-MoE-A2.7B | FP16 | — | 7.22 | 68.07 |
@@ -82,6 +83,7 @@ $W \xrightarrow[\text{KLT+SVD}]{\text{IDRE}} \underbrace{W_{\text{share}}}_{\tex
 | Mixtral-8x7B | 3-bit | **KBVQ-MoE** | **4.07** | **78.35** |
 
 ### 消融实验（Qwen3-30B-A3B, 3-bit）
+
 | IDRE | BCOS | PPL | ARC-E | ARC-C | HellaSwag |
 |------|------|-----|-------|-------|-----------|
 | ✗ | ✗ | 18.72 | 57.83 | 40.87 | 63.23 |

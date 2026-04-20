@@ -73,6 +73,7 @@ $$\mathcal{L}_{PCO} = \mathcal{L}_{CE}(f_\theta(\boldsymbol{x}_{train}), \mathbf
 ## 实验关键数据
 
 ### CIFAR-10 + ResNet18
+
 | 方法 | Clean Acc | PGD10 | PGD50 | AA | 训练时间 |
 |------|-----------|-------|-------|-----|---------|
 | PGD-AT (best) | 82.57 | 53.19 | 52.21 | 48.77 | 199 min |
@@ -84,6 +85,7 @@ $$\mathcal{L}_{PCO} = \mathcal{L}_{CE}(f_\theta(\boldsymbol{x}_{train}), \mathbf
 - 最后一轮 checkpoint 与最佳 checkpoint 结果一致，证明无过拟合
 
 ### CIFAR-100 + WideResNet34-10
+
 | 方法 | Clean Acc | PGD10 | 训练时间 |
 |------|-----------|-------|---------|
 | PGD-AT | 62.45 | 32.36 | 1397 min |
@@ -93,6 +95,7 @@ $$\mathcal{L}_{PCO} = \mathcal{L}_{CE}(f_\theta(\boldsymbol{x}_{train}), \mathbf
 - 10 次独立重复实验中，FGSM-PCO **0/10 次**发生过拟合，而 FGSM-AT/FGSM-RS 均为 10/10，FGSM-MEP 为 6/10
 
 ### Tiny-ImageNet + PreActResNet18
+
 | 方法 | Clean Acc | PGD10 | PGD50 |
 |------|-----------|-------|-------|
 | PGD-AT (best) | 33.99 | 15.35 | 15.16 |
@@ -120,6 +123,7 @@ $$\mathcal{L}_{PCO} = \mathcal{L}_{CE}(f_\theta(\boldsymbol{x}_{train}), \mathbf
 5. **数据集规模有限**：最大仅验证到 Tiny-ImageNet（64×64），未在 ImageNet 全尺寸上测试
 
 ## 与相关工作的对比
+
 | 方法 | 核心策略 | 能否防止过拟合 | 能否纠正过拟合 | 额外开销 |
 |------|----------|:---:|:---:|----------|
 | FGSM-RS | 随机初始化 + 大步长 | 部分 | 否 | 无 |

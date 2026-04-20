@@ -86,6 +86,7 @@ $$\widehat{\nabla_{\mathcal{Y}^t} F_\beta} = \sum_{i=1}^N \rho_i \sum_{q=1}^L \h
 - **最短路径推理**：$N=M=200$时SPN贪心推理比ParaSDM DP快约$100\times$
 
 ### 对比基线
+
 | 方法 | 代价（vs Gurobi） | 速度 |
 |------|-------------------|------|
 | GA / SA / CEM | 比Deep FLPO高$>10\times$ | 更慢 |

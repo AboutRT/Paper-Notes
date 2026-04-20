@@ -75,6 +75,7 @@ $$\mathcal{L} = -\log P(A | \{\boldsymbol{h}_k^m | f_k \in \mathcal{K}\} \cup \{
 ## 实验关键数据
 
 ### 主实验
+
 | 基准 | 子集 | ViLaMP | 对比SOTA | 提升 |
 |------|------|--------|---------|------|
 | Video-MME (Long, w/o sub) | 长视频(>39min) | - | 前最佳 | +3.5% |
@@ -82,6 +83,7 @@ $$\mathcal{L} = -\log P(A | \{\boldsymbol{h}_k^m | f_k \in \mathcal{K}\} \cup \{
 | VideoNIAH | 10K帧 | - | VideoChat-Flash | +12.82% |
 
 ### VideoNIAH 超长视频基准
+
 | 模型 | 10K帧处理能力 | 性能退化 | 说明 |
 |------|-------------|---------|------|
 | LLaMA-VID | OOM | - | 内存溢出 |

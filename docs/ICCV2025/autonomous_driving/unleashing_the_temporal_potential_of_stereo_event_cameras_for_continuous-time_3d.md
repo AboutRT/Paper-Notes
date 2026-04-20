@@ -81,6 +81,7 @@ $$\mathcal{L} = \mathcal{L}_{depth}^{init} + \mathcal{L}_{depth}^{refine} + \mat
 ## 实验关键数据
 
 ### 主实验（blind time 3D 检测）
+
 | 模态 | 方法 | VEH AP3D Easy↑ | VEH APBEV Easy↑ | PED AP3D Easy↑ | PED APBEV Easy↑ |
 |------|------|---------------|----------------|---------------|----------------|
 | LiDAR | VoxelNeXt | 12.66 | 31.46 | 10.59 | 12.77 |
@@ -92,6 +93,7 @@ $$\mathcal{L} = \mathcal{L}_{depth}^{init} + \mathcal{L}_{depth}^{refine} + \mat
 无 LiDAR/RGB 输入，行人 AP3D 超越 Ev-3DOD（19.86 vs 18.42）。
 
 ### 消融实验
+
 | 配置 | mAP Easy 3D↑ | mAP Easy BEV↑ | 说明 |
 |------|-------------|--------------|------|
 | 仅几何体 (G) | 12.92 | 20.78 | 基线 |
@@ -102,6 +104,7 @@ $$\mathcal{L} = \mathcal{L}_{depth}^{init} + \mathcal{L}_{depth}^{refine} + \mat
 | G+S + DSGF + OCRA | **21.66** | **31.58** | +ROI对齐，提升巨大 |
 
 ### 运动尺度实验（关键）
+
 | Motion Scale | Time Slice | 方法 | VEH AP3D/BEV | PED AP3D/BEV |
 |-------------|-----------|------|-------------|-------------|
 | ×2 | ×20 | Ev-3DOD | 15.96/31.13 | 1.47/2.63 |

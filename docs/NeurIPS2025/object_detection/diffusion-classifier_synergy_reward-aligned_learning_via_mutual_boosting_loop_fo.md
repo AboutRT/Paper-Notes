@@ -73,6 +73,7 @@ DCS 的核心思想是在扩散模型 $D$ 和 FSCIL 分类器 $\sigma$ 之间建
 ## 实验关键数据
 
 ### 主要对比结果
+
 | 数据集 | DCS 平均精度 | 前 SOTA | 提升 |
 |---|---|---|---|
 | miniImageNet | **68.14%** | 67.05% (SAVC) | +1.09 |
@@ -80,6 +81,7 @@ DCS 的核心思想是在扩散模型 $D$ 和 FSCIL 分类器 $\sigma$ 之间建
 | CIFAR-100 | 见消融 | - | +5.64 (vs baseline) |
 
 ### 消融实验（CIFAR-100, 最后一个 session 的提升）
+
 | 组件组合 | $\Delta_{\text{last}}$ |
 |---|---|
 | $\mathcal{R}_{\text{PAMMD}}$ | +1.24 |

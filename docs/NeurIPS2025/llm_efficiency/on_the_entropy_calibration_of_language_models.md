@@ -65,6 +65,7 @@ tags:
 ## 实验关键数据
 
 ### Scaling Exponents（calibration error vs model size）
+
 | 数据集 | 幂律指数 $\alpha$ | 理论预测 exponent | Llama2/Pythia 实测 | Qwen2.5/Llama3 实测 |
 |--------|-----------------|------------------|-------------------|---------------------|
 | WikiText | 0.918 | +0.089 | ~0.0 | ~-0.13 |
@@ -72,6 +73,7 @@ tags:
 | CodeContests | 1.5 | -0.33 | ~-0.2 | ~-0.35 |
 
 ### Instruction Tuning 效果
+
 | 设置 | 熵 | Log Loss | 校准效果 |
 |------|-----|---------|---------|
 | Base (temperature 1.0) | 过高 | 基线 | 未校准 |

@@ -48,6 +48,7 @@ tags:
 无训练，推理时直接用闭式解求适应系数。超参通过Optuna搜索1000次trial优化（$\beta_1, \beta_2, p, \gamma, \omega$等）。推理公式：$\Phi(x_q) = \sigma_{zs}(x_q W_{prior}^T) + K(x_q, S_{aug})\boldsymbol{\alpha}$。
 
 ## 实验关键数据
+
 | 方法 | ImageNet | Caltech | DTD | EuroSAT | Aircraft | Pets | Flowers | Food101 | Cars | SUN397 | UCF101 | **平均** |
 |------|----------|---------|-----|---------|----------|------|---------|---------|------|--------|--------|---------|
 | Zero-Shot CLIP | 60.35 | 85.68 | 42.91 | 36.27 | 17.01 | 77.37 | 66.02 | 85.72 | 55.75 | 58.82 | 61.78 | 58.88 |

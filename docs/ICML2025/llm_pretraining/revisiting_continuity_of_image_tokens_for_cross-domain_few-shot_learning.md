@@ -54,6 +54,7 @@ ReCIT (Re-visiting Continuity of Image Tokens) 在训练和推理时对图像 to
 ## 实验关键数据
 
 ### 主实验（多个 CDFSL benchmark）
+
 | 方法 | CropDisease | EuroSAT | ISIC | ChestX | 平均 |
 |------|------------|---------|------|--------|------|
 | 基线 ViT | 中等 | 中等 | 较低 | 较低 | 基线 |
@@ -61,6 +62,7 @@ ReCIT (Re-visiting Continuity of Image Tokens) 在训练和推理时对图像 to
 | **ReCIT** | **最高** | **最高** | **最高** | **最高** | **SOTA** |
 
 ### 消融实验
+
 | 配置 | 近域性能 | 远域性能 | 说明 |
 |------|---------|---------|------|
 | 无连续性破坏 | 最高 | 基线 | 标准 ViT |

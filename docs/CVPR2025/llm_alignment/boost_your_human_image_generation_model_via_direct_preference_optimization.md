@@ -60,6 +60,7 @@ $$\mathcal{L}_{\text{DPO}} = -\mathbb{E}\left[\log \sigma\left(\beta \left(r(x_w
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | P-Score | FID↓ | CI-Q | CI-S | ATHEC |
 |------|:---:|:---:|:---:|:---:|:---:|
 | Diffusion-DPO | 17.93 | 112.67 | 0.820 | 0.944 | 36.30 |
@@ -70,6 +71,7 @@ $$\mathcal{L}_{\text{DPO}} = -\mathbb{E}\left[\log \sigma\left(\beta \left(r(x_w
 Win-rate: vs Diffusion-DPO **99.97%**, vs Pick-a-Pic v2 **86.03%**
 
 ### 消融实验
+
 | 配置 | FID | CI-Q | 说明 |
 |------|:---:|:---:|------|
 | Base | 37.34 | 0.906 | 基线 |

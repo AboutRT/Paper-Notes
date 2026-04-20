@@ -73,6 +73,7 @@ UniCom 将条件图像分布分解为两阶段：$P(\mathbf{x}|\mathbf{c}) = \in
 ## 实验关键数据
 
 ### 主实验：图像重建（ImageNet val）
+
 | 方法 | rFID↓ | PSNR↑ | SSIM↑ |
 |------|-------|-------|-------|
 | FLUX.1-dev VAE | 0.06 | 33.65 | 0.93 |
@@ -84,6 +85,7 @@ UniCom 将条件图像分布分解为两阶段：$P(\mathbf{x}|\mathbf{c}) = \in
 关键发现：通道从 1152 压缩到 64（18×），rFID 仅从 0.38 升至 0.42，证明通道压缩几乎无损。
 
 ### 主实验：文本到图像生成（GenEval）
+
 | 模型 | Overall |
 |------|---------|
 | UniCom | **0.91** (SOTA among unified) |

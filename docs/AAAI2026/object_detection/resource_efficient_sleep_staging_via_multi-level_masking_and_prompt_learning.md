@@ -72,6 +72,7 @@ $\mathcal{L}_{total} = \mathcal{L}_{CE} + \lambda_1 \mathcal{L}_{Cos} + \lambda_
 - 模型参数效率 $\eta_p = 0.73$，推理时间效率 $\eta_t = 16.08$，均为最优
 
 ### 消融实验 (40% 信号, DREAMS-SUB)
+
 | 变体 | ACC | macro-F1 |
 |---|---|---|
 | MASS-Base | 43.2 | 15.9 |

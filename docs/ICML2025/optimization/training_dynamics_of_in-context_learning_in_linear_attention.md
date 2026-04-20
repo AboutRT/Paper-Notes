@@ -91,16 +91,19 @@ $$\tau \dot{v}_i = \lambda_{m+1}^2 v_i^2 - \lambda_{m+1}^3 \left(1 + \frac{1 + \
 ## 实验关键数据
 
 ### 主要验证（Figure 1）
+
 | 设定 | D | N | H | 现象 |
 |------|---|---|---|------|
 | ATTN_M | 4 | 31 | 8 | 单次 abrupt loss drop，与等价线性网络的 loss 轨迹完美匹配 |
 
 ### Saddle-to-saddle 动态验证（Figure 3）
+
 | 设定 | D | N | H | $\Lambda$ 特征值 | 现象 |
 |------|---|---|---|------------------|------|
 | ATTN_S rank-1 | 4 | 31 | 4 | 0.4, 0.3, 0.2, 0.1 | 恰好 4 次 abrupt loss drop，plateau 处 loss 值与理论预测（Eq.19）精确匹配 |
 
 ### Rank 影响验证（Figure 4）
+
 | D=8, N=31, H=9 | R=1 | R=2 | R=4 | R=8 |
 |----------------|-----|-----|-----|-----|
 | 明显 plateau 数 | 8 | 4 | 2 | 1 |

@@ -46,6 +46,7 @@ tags:
 Rectified flow matching标准训练: $\mathbb{E}[\|v_t - \mathcal{G}(z_t, t, \mathcal{R}(\cdot))\|^2]$。四阶段渐进训练: 512²(1400 A100-days) → 1024²(等量) → 美学微调(100 A100-days) → 2048²超分(80 A100-days)。总计~3000 A100-days——远低于SD1.5的6250 A100-days。
 
 ## 实验关键数据
+
 | 方法 | 参数 | 融合类型 | GenEval↑ | DPG↑ | oneIG↑ | ImgEdit↑ |
 |--------|------|------|------|----------|------|------|
 | FLUX.1[Dev] | 12B | Self-Attn | 0.66 | 83.84 | 0.43 | — |

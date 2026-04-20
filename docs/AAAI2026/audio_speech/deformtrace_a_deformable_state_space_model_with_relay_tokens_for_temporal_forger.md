@@ -87,6 +87,7 @@ $$\mathcal{L} = \mathcal{L}_{match} + \mathcal{L}_{cls} + \lambda_1 \cdot \mathc
 - **AV-Deepfake1M**：746K/57K/343K，更大规模、更细粒度伪造
 
 ### 主要结果（LAV-DF）
+
 | 方法 | mAP@0.5 | mAP@0.75 | mAP@0.95 | mAP Avg | mAR Avg |
 |------|---------|----------|----------|---------|---------|
 | UMMAFormer | 98.8 | 95.5 | 37.6 | 77.3 | 92.3 |
@@ -95,6 +96,7 @@ $$\mathcal{L} = \mathcal{L}_{match} + \mathcal{L}_{cls} + \lambda_1 \cdot \mathc
 | **DeformTrace** | **97.1** | **90.7** | **38.1** | **75.3** | **92.9** |
 
 ### 主要结果（AV-Deepfake1M）
+
 | 方法 | mAP Avg | mAR Avg | AUC |
 |------|---------|---------|-----|
 | UMMAFormer | 22.2 | 42.8 | - |
@@ -105,6 +107,7 @@ $$\mathcal{L} = \mathcal{L}_{match} + \mathcal{L}_{cls} + \lambda_1 \cdot \mathc
 在 AV-Deepfake1M 上超越次优 DiMoDif 平均 3.6% mAP 和 2.2% mAR。
 
 ### 效率对比
+
 | 方法 | 可训练参数 | FLOPs(G) | 推理时间(ms) |
 |------|-----------|----------|-------------|
 | UMMAFormer | 49.72M | 1563.9 | 857 |

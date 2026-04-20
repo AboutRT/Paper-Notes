@@ -79,6 +79,7 @@ IGNN (Inceptive GNN) 基于三个最小设计原则构建在经典 GCN 之上：
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集类型 | IGNN vs 30 个基线 |
 |-----------|------------------|
 | 同质图 (Cora, CiteSeer, PubMed...) | SOTA 或接近 SOTA |
@@ -86,6 +87,7 @@ IGNN (Inceptive GNN) 基于三个最小设计原则构建在经典 GCN 之上：
 | 大规模图 (ogbn-arxiv, ogbn-proteins) | 竞争力强 |
 
 ### 消融实验
+
 | 配置 | 效果 |
 |------|------|
 | GCN + SN only | 泛化显著提升 |

@@ -80,6 +80,7 @@ MMEB 数据集（text→fused image+text Recall@1）：VISTA+GCL 31.1% vs +CL 17
 CoVR 视频检索（Recall@1）：37.32 vs CL 33.76 vs Pretrained 31.22。
 
 ### 消融实验
+
 | GCL 组件 | M-BEIR Avg↑ |
 |---------|-------------|
 | CL 基线 | 25.28 |

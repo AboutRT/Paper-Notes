@@ -81,6 +81,7 @@ CiteEval 将引用评估问题形式化为 $r_i = f_\theta(\mathcal{C}_i; \mathc
 ## 实验关键数据
 
 ### 主实验 — 与人类评估的相关性
+
 | 评估指标 | 模型 | Statement Pearson | Statement Spearman | Response Pearson | Response Spearman |
 |---------|------|------------------|--------------------|-----------------|-------------------|
 | AutoAIS-Recall | T5-XXL | 0.409 | 0.264 | 0.223 | 0.075 |
@@ -89,6 +90,7 @@ CiteEval 将引用评估问题形式化为 $r_i = f_\theta(\mathcal{C}_i; \mathc
 | CiteEval-Auto | GPT-4o+MLR | **0.731** | **0.559** | **0.668** | **0.589** |
 
 ### 消融实验
+
 | 配置 | Pearson | 说明 |
 |------|---------|------|
 | CiteEval-Auto (完整) | 0.731 | 集成 IterCoE + EditDist |

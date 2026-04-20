@@ -55,6 +55,7 @@ $$\mathbf{S}_{\mathbf{w}} = (\mathbf{I}_D + \sigma^{-2} \mathbf{Z}^\top \mathbf{
 - 母小波选择：Morlet（时频分析）或 Daubechies（尖锐转变）
 
 ### 计算复杂度
+
 | 方法 | 训练复杂度 | 预测复杂度 |
 |------|-----------|-----------|
 | 精确 GP | $O(N^3)$ | $O(N^2)$ |

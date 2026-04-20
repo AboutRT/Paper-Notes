@@ -69,6 +69,7 @@ tags:
 - 评估指标：AvgACC（平均准确率）和 AvgF（平均遗忘量）
 
 ### 与 SOTA 对比
+
 | 方法 | DR AvgACC↑ | DR AvgF↓ | Skin AvgACC↑ | Skin AvgF↓ | CORe50 AvgACC↑ | CORe50 AvgF↓ |
 |------|:---:|:---:|:---:|:---:|:---:|:---:|
 | OS-Prompt++ | 0.769 | 0.113 | 0.725 | 0.063 | 0.983 | 0.014 |

@@ -65,6 +65,7 @@ $$s_i = \text{corr}(m_i, \text{sim}_i) + (1 - \text{BC}(m_i))$$
 无训练，整个pipeline是inference-only的。超参数包括：Leiden聚类的分辨率参数、PC迭代的收敛阈值、Pearson去重阈值τ=0.95、启发式评分的Top-K值。
 
 ## 实验关键数据
+
 | Benchmark | 指标 | DSS | 前SOTA(ZS方法) | 提升 |
 |-----------|------|-----|------------|------|
 | CHAMELEON | S_m↑ | 显著领先 | MLLM+SAM baseline | +大幅 |

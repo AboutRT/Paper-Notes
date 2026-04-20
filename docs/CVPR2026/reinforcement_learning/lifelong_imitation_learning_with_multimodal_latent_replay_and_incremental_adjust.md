@@ -61,6 +61,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | LIBERO-OBJECT AUC↑ | LIBERO-GOAL AUC↑ | LIBERO-50 AUC↑ | LIBERO-GOAL NBT↓ |
 |------|------|------|------|------|
 | Sequential | 30.0 | 23.0 | 14.0 | 70.0 |
@@ -71,6 +72,7 @@ tags:
 | **MLR + IFA** | **79.4** | **77.2** | **56.1** | **6.9** |
 
 ### 消融实验
+
 | 配置 | LIBERO-OBJ AUC | LIBERO-GOAL AUC | 说明 |
 |------|---------------|----------------|------|
 | MLR only | 77.6 | 74.6 | 仅潜在回放已大幅超越 SOTA |

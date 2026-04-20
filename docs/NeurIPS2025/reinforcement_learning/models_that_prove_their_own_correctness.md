@@ -71,6 +71,7 @@ $$\text{ver}_{V,\mu}(\theta) := \Pr_{x \sim \mu, y \sim P_\theta(x)} [\langle V,
 ## 实验关键数据
 
 ### 主实验
+
 | 学习方法 | Correctness | Verifiability | 说明 |
 |----------|-------------|---------------|------|
 | GPT (baseline) | 99.8% | — | 能计算 GCD 但不能证明 |
@@ -79,6 +80,7 @@ $$\text{ver}_{V,\mu}(\theta) := \Pr_{x \sim \mu, y \sim P_\theta(x)} [\langle V,
 | GPT+ATL | 98.6% | **96.0%** | 100K iterations, 注释显著提升 |
 
 ### 消融实验
+
 | 配置（注释步数 T） | Verifiability | 说明 |
 |-------------------|---------------|------|
 | T=0 (无注释, TL) | ~60% | 基线 |

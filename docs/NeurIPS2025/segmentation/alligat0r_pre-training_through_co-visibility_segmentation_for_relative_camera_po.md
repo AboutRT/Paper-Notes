@@ -81,6 +81,7 @@ Map-free Relocalization benchmark
 RUBIK benchmark：总体成功率 60.3% 排第一，超越 DUSt3R (54.8%)、MASt3R (53.6%)
 
 ### 消融实验
+
 | 配置 | 说明 |
 |------|------|
 | w/o 共视性头（微调时移除） | 性能下降，保留分割头提供正则化 |

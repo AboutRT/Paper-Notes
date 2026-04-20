@@ -56,6 +56,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验（ML-1M / Industry / Amazon-Book）
+
 | 方法 | ML-1M H@6 | Industry H@6 | Book H@6 |
 |------|-----------|-------------|----------|
 | Best G-E (PIER) | 62.74 | 45.35 | 71.14 |

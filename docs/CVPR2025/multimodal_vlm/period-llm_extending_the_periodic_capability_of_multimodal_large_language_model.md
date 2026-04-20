@@ -59,6 +59,7 @@ $$\Omega(c_i) = \begin{cases} 1 + \beta \cdot e^{\frac{iter_{num}}{max_{iter}}},
 ## 实验关键数据
 
 ### 主实验（视频周期任务）
+
 | 方法 | LLM | Countix-QA MAE↓ | Countix-QA CIDEr↑ | rPPG-QA MAE↓ |
 |------|-----|-----------------|-------------------|-------------|
 | VideoLLaMA | Vicuna-7B | 4.98 | 0.570 | 18.29 |
@@ -67,6 +68,7 @@ $$\Omega(c_i) = \begin{cases} 1 + \beta \cdot e^{\frac{iter_{num}}{max_{iter}}},
 | **Period-LLM** | LLaMA-7B | **3.77** | **0.810** | **13.78** |
 
 ### 跨模态周期任务
+
 | 方法 | RotNIST MAE↓ | Drive-QA MAE↓ | Radar-QA MAE↓ |
 |------|-------------|---------------|---------------|
 | Video-ChatGPT | 2.01 | 33.28 | 21.61 |
@@ -74,6 +76,7 @@ $$\Omega(c_i) = \begin{cases} 1 + \beta \cdot e^{\frac{iter_{num}}{max_{iter}}},
 | **Period-LLM** | **1.50** | **28.71** | **14.24** |
 
 ### 消融实验
+
 | 配置 | Countix MAE | CIDEr | 说明 |
 |------|------------|-------|------|
 | 无文本预训练 + 无RLO | 4.30 | 0.661 | 基线 |

@@ -68,6 +68,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验 — ASR 任务性能对比（LibriSpeech test-clean / test-other WER↓）
+
 | 模型 | 集成方法 | test-clean | test-other |
 |------|---------|-----------|-----------|
 | Whisper-large-v2 | 非 LLM 基线 | 2.7 | 5.2 |
@@ -78,6 +79,7 @@ tags:
 | SpeechGPT-Gen | 音频token → 语义token | 2.4 | — |
 
 ### S2TT 任务性能对比（CoVoST2 de-en / zh-en BLEU↑）
+
 | 模型 | 集成方法 | de→en | zh→en |
 |------|---------|-------|-------|
 | Whisper-large-v2 | 非 LLM 基线 | 36.3 | 18.0 |
@@ -86,6 +88,7 @@ tags:
 | AudioPaLM | 音频token → 语义+声学 | 43.4 | 25.5 |
 
 ### 三类方法优劣对比（综述总结）
+
 | 维度 | 文本级 | 隐表示级 | 音频token级 |
 |------|--------|---------|-----------|
 | 集成深度 | 浅 | **最深** | 中 |

@@ -69,6 +69,7 @@ VPIR-based Agentic Benchmark Construction Pipeline：(1) Planner 逐层编排推
 ## 实验关键数据
 
 ### 整体性能（Path F1，%）
+
 | 模型 | Natural F1 | Chart F1 | GUI F1 | Avg F1 |
 |------|-----------|---------|--------|--------|
 | Gemini-3-Pro | 55.91 | 66.04 | 38.05 | **53.33** |

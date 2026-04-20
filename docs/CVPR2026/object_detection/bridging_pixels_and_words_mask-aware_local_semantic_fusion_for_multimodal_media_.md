@@ -81,6 +81,7 @@ $$\mathcal{L} = \mathcal{L}_{bcls} + \alpha \mathcal{L}_{mcls} + \beta \mathcal{
 ## 实验关键数据
 
 ### 主实验（DGM4 数据集）
+
 | 方法 | AUC | ACC | mAP | IoU_mean | Text F1 | ΔAvg |
 |------|-----|-----|-----|----------|---------|------|
 | HAMMER | 93.19 | 86.39 | 86.22 | 76.45 | 71.35 | 0 |
@@ -90,6 +91,7 @@ $$\mathcal{L} = \mathcal{L}_{bcls} + \alpha \mathcal{L}_{mcls} + \beta \mathcal{
 | **MaLSF◇** | **95.60** | **89.37** | 90.46 | 82.37 | **77.19** | **+4.94** |
 
 ### 消融实验（假新闻检测，Weibo21）
+
 | 方法 | Accuracy | Fake F1 | Real F1 |
 |------|----------|---------|---------|
 | CAFE | 88.2 | 88.5 | 87.6 |

@@ -64,6 +64,7 @@ EffiVLM-Bench 评估两类训练免加速方法：(1) Token 压缩 — 包括 to
 ## 实验关键数据
 
 ### 主实验 — Token 压缩
+
 | 方法类别 | 方法 | Budget | LLaVA-OV-7B OP | Qwen2-VL-7B OP | InternVL2.5-38B OP |
 |---------|------|--------|----------------|----------------|---------------------|
 | Token Pruning | FastV | 1% | 0.48 | 0.51 | 0.47 |
@@ -73,6 +74,7 @@ EffiVLM-Bench 评估两类训练免加速方法：(1) Token 压缩 — 包括 to
 | KV Cache | PyramidKV | 10% | - | - | - (best OG) |
 
 ### 参数压缩
+
 | 方法 | 精度 | LLaVA-OV OP | Qwen2-VL OP | InternVL2.5 OP |
 |------|------|------------|------------|----------------|
 | AWQ | INT8 | 0.99 | 1.00 | 0.98 |
@@ -81,6 +83,7 @@ EffiVLM-Bench 评估两类训练免加速方法：(1) Token 压缩 — 包括 to
 | Wanda | 50% | 0.56 | 0.56 | 0.63 |
 
 ### 消融/关键发现
+
 | 观察 | 结论 |
 |------|------|
 | Obs 1 | Token 压缩性能高度依赖任务；1% 预算下视觉编码器内裁剪（VisionZip）远优于 LLM 内裁剪（FastV） |

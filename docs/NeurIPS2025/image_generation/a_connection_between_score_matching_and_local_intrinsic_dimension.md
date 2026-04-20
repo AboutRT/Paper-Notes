@@ -90,6 +90,7 @@ DSM Loss 在 DiT 架构下整体最优（平均 MAE=3.22 vs FLIPD 的 4.32），
 | **DSM Loss** | **~7 GB (约 60%)** |
 
 ### 量化鲁棒性
+
 | 量化级别 | FLIPD MAE from FP32 | DSM Loss MAE from FP32 |
 |---------|--------------------|-----------------------|
 | float16 | 较高 | **更低** |

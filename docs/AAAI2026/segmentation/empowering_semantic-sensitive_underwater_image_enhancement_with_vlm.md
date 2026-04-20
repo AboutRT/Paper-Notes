@@ -67,6 +67,7 @@ $$\mathcal{L}_{total} = \mathcal{L}_{recon} + \lambda_{align} \sum_{l \in L} \ma
 ## 实验关键数据
 
 ### UIE 感知质量（UIEB 数据集，全参考）
+
 | 方法 | PSNR↑ | SSIM↑ | LPIPS↓ |
 |------|-------|-------|--------|
 | PFormer | 23.53 | 0.877 | 0.113 |
@@ -78,6 +79,7 @@ $$\mathcal{L}_{total} = \mathcal{L}_{recon} + \lambda_{align} \sum_{l \in L} \ma
 五个基线模型添加 -SS 后在 PSNR 和 SSIM 上全部提升。
 
 ### 下游任务——目标检测（Trash-ICRA19）
+
 | 方法 | mAP↑ |
 |------|------|
 | SMDR | 95.76 |
@@ -86,6 +88,7 @@ $$\mathcal{L}_{total} = \mathcal{L}_{recon} + \lambda_{align} \sum_{l \in L} \ma
 | FDCE-SS | **97.01**(+1.29) |
 
 ### 下游任务——语义分割（SUIM）
+
 | 方法 | mIoU↑ |
 |------|-------|
 | PFormer | 69.34 |

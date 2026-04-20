@@ -61,6 +61,7 @@ TempSamp-R1基于GRPO框架，对每个查询采样$G$个解（$G-1$个on-policy
 ## 实验关键数据
 
 ### 主实验：时序理解基准SOTA对比
+
 | 方法 | 类型 | Charades R1@0.7 | ActivityNet R1@0.5 | QVHighlights mAP |
 |---|---|---|---|---|
 | TimeChat | SFT | 23.7 | — | 21.7 |
@@ -72,6 +73,7 @@ TempSamp-R1基于GRPO框架，对每个查询采样$G$个解（$G-1$个on-policy
 | **TempSamp-R1 Mixed CoT** | RL | **56.3** | **58.7** | 29.3 |
 
 ### 消融实验：各组件贡献（Charades-STA）
+
 | 配置 | R1@0.5 | R1@0.7 | mIoU |
 |---|---|---|---|
 | GRPO baseline | 71.7 | 50.2 | 60.8 |

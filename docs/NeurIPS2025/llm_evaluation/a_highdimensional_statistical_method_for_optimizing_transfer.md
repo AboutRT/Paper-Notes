@@ -54,6 +54,7 @@ tags:
 - Fisher信息矩阵通过训练损失的梯度近似计算
 
 ## 实验关键数据
+
 | 数据集 | 指标 | OTQMS | AllSources∪Target | 提升 |
 |--------|------|-------|-------------------|------|
 | DomainNet (Avg) | Accuracy | 55.8% | 54.3% | +1.5% |
@@ -62,6 +63,7 @@ tags:
 | DomainNet | 样本使用量 | - | - | -47.85% |
 
 与其他baseline对比（10-shot, DomainNet Avg）:
+
 | 方法 | Avg Accuracy |
 |------|-------------|
 | Target-Only | 16.7% |

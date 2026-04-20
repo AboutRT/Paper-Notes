@@ -47,6 +47,7 @@ tags:
 ## 实验关键数据
 
 ### Real3D-AD
+
 | 方法 | O-AUROC↑ | P-AUROC↑ |
 |------|----------|----------|
 | BTF(Raw) | 0.635 | - |
@@ -57,6 +58,7 @@ tags:
 O-AUROC比前SOTA提升5%
 
 ### Anomaly-ShapeNet (O-AUROC)
+
 | 方法 | Mean |
 |------|------|
 | IMRNet | 0.640 |
@@ -66,6 +68,7 @@ O-AUROC比前SOTA提升5%
 40类中37类排名第一
 
 ### 消融实验
+
 | 变体 | O-AUROC | P-AUROC |
 |------|---------|---------|
 | w/o RANSAC | 0.711 | 0.739 |
@@ -76,6 +79,7 @@ O-AUROC比前SOTA提升5%
 - PAM对PatchCore(FPFH)提升最大: O-AUROC +24.6%, P-AUROC +28.7%
 
 ### 异常修复
+
 | 方法 | CD↓ | EMD↓ |
 |------|-----|------|
 | w/o PE | 0.0255/0.0575 | 0.0133/0.0276 |

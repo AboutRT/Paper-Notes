@@ -93,6 +93,7 @@ $$\frac{\mathrm{sup}(\alpha^*, S, \ell - \delta)}{\max_{\alpha \in \mathcal{U}: 
 ## 实验关键数据
 
 ### 数据集
+
 | 数据集 | 来源 | agent 数 | 预算 $B$ |
 |-------|------|---------|---------|
 | Birth Control (Balanced) | UCI Drug Review | 80 | 160 词 |
@@ -101,6 +102,7 @@ $$\frac{\mathrm{sup}(\alpha^*, S, \ell - \delta)}{\max_{\alpha \in \mathcal{U}: 
 | Bowling Green | Polis 城市治理讨论 | 41 | 164 词 |
 
 ### 基线方法
+
 | 方法 | 描述 |
 |------|------|
 | Contextless Zero-Shot | 仅给主题和字数限制，无用户数据 |

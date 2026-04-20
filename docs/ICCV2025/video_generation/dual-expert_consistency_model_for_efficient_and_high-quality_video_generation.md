@@ -74,6 +74,7 @@ tags:
 用户偏好研究: DCM vs LCM: 82.67%偏好DCM; DCM vs PCM: 77.33%偏好DCM
 
 ### 消融实验
+
 | 配置 | VBench Total | Quality | Semantic |
 |------|---------|------|------|
 | VCM (基线一致性模型) | 80.30 | 80.74 | 78.36 |

@@ -73,6 +73,7 @@ $$\mathcal{L}_{\text{LineCNet}} = \|\Phi_{bg} - \Phi^{gt}_{bg}\|_2^2 + \lambda_3
 ## 实验关键数据
 
 ### 消融实验
+
 | 方法 | LineAcc | ShapeAcc | Landmark Distance |
 |------|---------|----------|-------------------|
 | Baseline（无先验） | 66.192 | 97.027 | 5.991 |
@@ -84,6 +85,7 @@ $$\mathcal{L}_{\text{LineCNet}} = \|\Phi_{bg} - \Phi^{gt}_{bg}\|_2^2 + \lambda_3
 - 多尺度 StyleGAN 特征比单尺度效果更好：Landmark Distance 从 2.908 降至 2.357
 
 ### 与已有方法对比
+
 | 方法 | LineAcc | ShapeAcc | Landmark Distance |
 |------|---------|----------|-------------------|
 | Shih et al. | 66.143 | 97.253 | 6.035 |

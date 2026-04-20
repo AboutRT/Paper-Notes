@@ -78,6 +78,7 @@ Berkeley Function-Calling Leaderboard (Executable)：
 | GPT-4o | baseline | **提升** | 一致 |
 
 ### 消融实验
+
 | 配置 | 结果 | 说明 |
 |------|------|------|
 | 仅生成示例（无文档优化）| 有提升但不如完整版 | 两步互补 |

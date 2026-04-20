@@ -64,6 +64,7 @@ Sparsify 基于 AMUSE 编码器，在端到端 pipeline 中集成三种稀疏化
 ## 实验关键数据
 
 ### 主实验（MUSIC-AVQA）
+
 | 方法 | Audio QA | Visual QA | AV QA | **Overall** |
 |------|----------|-----------|-------|-------------|
 | AVST | 73.87 | 74.40 | 65.82 | 71.59 |
@@ -74,6 +75,7 @@ Sparsify 基于 AMUSE 编码器，在端到端 pipeline 中集成三种稀疏化
 AV QA 提升最显著（+12.41 vs DG-SCT）
 
 ### 效率对比
+
 | 配置 | 训练时间 | 说明 |
 |------|---------|------|
 | Dense baseline | 173h | 100% |
@@ -81,6 +83,7 @@ AV QA 提升最显著（+12.41 vs DG-SCT）
 | 25% key-subset | - | 74% performance retained |
 
 ### MUSIC-AVQA v2.0
+
 | 方法 | Overall |
 |------|--------|
 | DG-SCT | 74.53 |

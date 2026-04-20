@@ -53,6 +53,7 @@ LLaVA-CoT基于Llama-3.2-11B-Vision-Instruct进行微调。输入为图像和问
 使用标准的自回归语言建模损失进行微调。训练配置：8卡并行，学习率1e-5，3个epoch，batch size 4，使用FSDP分布式训练。训练数据中的特殊标签（`<SUMMARY>`等）被视为普通token参与训练。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | LLaVA-CoT (11B) | Llama-3.2-90B-Vision | GPT-4o-mini | Gemini-1.5-pro |
 |--------|------|---------|----------|------|------|
 | MMStar | Acc | 显著提升 | 低于LLaVA-CoT | 低于LLaVA-CoT | 低于LLaVA-CoT |

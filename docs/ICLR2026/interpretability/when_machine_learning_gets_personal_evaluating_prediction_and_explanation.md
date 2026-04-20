@@ -73,6 +73,7 @@ $$\min_\Psi \max P_e \geq \frac{1}{2}\left(1 - \frac{1}{2\sqrt{d}}\left[\frac{1}
     - 回归：individual BoP是连续的（Gaussian/Laplace），预测和解释的下界**可以不同**——一个可检验而另一个不可检验
 
 ### Cost函数体系
+
 | 类型 | 分类 | 回归 |
 |------|------|------|
 | Loss | $\Pr(h(\tilde{\mathbf{X}}) \neq \mathbf{Y} | \mathbf{S}=s)$ | $\mathbb{E}[\|h(\tilde{\mathbf{X}}) - \mathbf{Y}\|^2 | \mathbf{S}=s]$ |

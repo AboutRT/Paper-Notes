@@ -74,6 +74,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{C3L}} + \mathcal{L}_{\text{rec
 ## 实验关键数据
 
 ### 主实验（Real3D-AD, Object-level AUROC %）
+
 | 方法 | 类型 | Airplane | Car | Duck | Fish | Gemstone | Mean |
 |------|------|----------|-----|------|------|----------|------|
 | Group3AD | 类别特定 | 74.4 | 72.8 | 67.9 | 97.6 | 53.9 | 75.1 |
@@ -82,6 +83,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{C3L}} + \mathcal{L}_{\text{rec
 | **SeDiR** | **统一** | **86.0** | **78.3** | **86.2** | **93.8** | **62.7** | **81.0** |
 
 ### 消融实验
+
 | 配置 | 关键指标(AUROC) | 说明 |
 |------|---------|------|
 | 基线（无CFGT/C3L/GGD） | ~78.2 | 与MC3D-AD相当 |

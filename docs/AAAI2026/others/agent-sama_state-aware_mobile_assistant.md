@@ -44,6 +44,7 @@ Agent-SAMA是一个多Agent框架，包含四个阶段：规划（Planning）→
 无需训练，全部通过prompt engineering驱动MLLM（GPT-4o），温度设为0以减少变异。Screen Parser使用DBNet做OCR、GroundingDINO做图标定位、Qwen-VL-Plus生成图标描述。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | Agent-SAMA | Mobile-Agent-E+Evo | 提升 |
 |--------|------|-----------|-------------|------|
 | Mobile-Eval-E | Success Rate | 84.0% | 72.0% | +12.0% |

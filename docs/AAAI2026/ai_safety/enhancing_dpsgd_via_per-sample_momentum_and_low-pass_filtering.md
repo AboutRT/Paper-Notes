@@ -90,6 +90,7 @@ $$\mathcal{O}\!\left(\frac{f(x_0)-f^*}{\eta T} + L\eta C^2 + \frac{L\eta \, d\si
 ## 实验关键数据
 
 ### 图像分类（ViT，无预训练）
+
 | 方法 | CIFAR-10 ($\epsilon$=1) | CIFAR-10 ($\epsilon$=8) | CIFAR-100 ($\epsilon$=1) | CIFAR-100 ($\epsilon$=8) |
 |---|---|---|---|---|
 | DPSGD | 35.74 | 47.74 | 7.52 | 18.27 |
@@ -101,6 +102,7 @@ $$\mathcal{O}\!\left(\frac{f(x_0)-f^*}{\eta T} + L\eta C^2 + \frac{L\eta \, d\si
 - InnerOuter 在 $\epsilon=1$ 时因噪声累积严重退化（CIFAR-10 仅 11.55%）。
 
 ### 句子分类（RoBERTa-base 微调，GLUE）
+
 | 方法 | MNLI ($\epsilon$=1) | QNLI ($\epsilon$=1) | QQP ($\epsilon$=8) | SST-2 ($\epsilon$=8) |
 |---|---|---|---|---|
 | DPSGD | 51.36 | 65.59 | 80.38 | 90.83 |
@@ -131,6 +133,7 @@ $$\mathcal{O}\!\left(\frac{f(x_0)-f^*}{\eta T} + L\eta C^2 + \frac{L\eta \, d\si
 5. **过度平滑风险**：消融实验显示当 DP 噪声较小（$\epsilon > 6$）时，低通滤波器反而略微损害性能。
 
 ## 与相关工作的对比
+
 | 方法 | 降 DP 噪声 | 降裁剪偏差 | 理论保证 | 额外隐私开销 |
 |---|---|---|---|---|
 | LP-DPSGD | ✓ | ✗（反而增加偏差） | 有（含额外偏差项） | 无 |

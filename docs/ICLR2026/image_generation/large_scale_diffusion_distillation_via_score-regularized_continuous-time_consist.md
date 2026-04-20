@@ -58,6 +58,7 @@ $$\mathcal{L}_{\text{rCM}}(\theta) = \mathcal{L}_{\text{sCM}}(\theta) + \lambda 
 ## 实验关键数据
 
 ### 主实验（GenEval T2I）
+
 | 模型 | 参数 | NFE | Overall | Counting | Position |
 |------|------|-----|---------|----------|----------|
 | FLUX.1-dev | 12B | 50 | 0.66 | 0.74 | 0.22 |
@@ -68,6 +69,7 @@ $$\mathcal{L}_{\text{rCM}}(\theta) = \mathcal{L}_{\text{sCM}}(\theta) + \lambda 
 | **Cosmos-Predict2 + rCM** | **14B** | **1** | **0.82** | **0.84** | **0.49** |
 
 ### VBench 视频实验
+
 | 模型 | 参数 | NFE | Total Score | Throughput(FPS) |
 |------|------|-----|-------------|-----------------|
 | Wan2.1 14B (teacher) | 14B | 100 | 83.58 | 0.18 |

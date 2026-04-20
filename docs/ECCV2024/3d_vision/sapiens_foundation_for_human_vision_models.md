@@ -64,6 +64,7 @@ Sapiens 采用 pretrain-then-finetune 范式：
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | 本文(2B) | 之前SOTA | 提升 |
 |--------|------|------|----------|------|
 | Humans-5K (Pose) | Whole-body AP | 61.1 | DWPose-l: 53.1 | **+7.6** |
@@ -72,6 +73,7 @@ Sapiens 采用 pretrain-then-finetune 范式：
 | THuman2.0 (Normal) | Mean Angular Error | 大幅降低 | PIFuHD: 30.51° | **-53.5%** |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Sapiens-0.3B vs ViTPose+-L | +5.6 AP (Pose) | 相同参数量，领域预训练大幅优胜 |

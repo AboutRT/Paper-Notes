@@ -82,6 +82,7 @@ $$CR(a_t) = \frac{K}{\sum_{k=1}^{K}(\alpha_k + 1)}$$
 - 演讲类：Macro F1 = 0.7291（+6.7%）
 
 ### 消融实验
+
 | 配置 | Macro F1 | Weighted F1 |
 |---|---|---|
 | Full model | 0.7327 | 0.7426 |

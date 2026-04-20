@@ -57,6 +57,7 @@ $$t_i^{adaptive} = \alpha_{smooth} \cdot t + (1 - \alpha_{smooth}) \cdot (1 - \h
 ## 实验关键数据
 
 ### 去毒化 (RealToxicityPrompts)
+
 | 方法 | Avg. Tox↓ | Max. Tox↓ | PPL↓ |
 |---|---|---|---|
 | DExperts | 15.1 | 32.0 | 48.0 |
@@ -65,6 +66,7 @@ $$t_i^{adaptive} = \alpha_{smooth} \cdot t + (1 - \alpha_{smooth}) \cdot (1 - \h
 | **TTA (T=50)** | **12.5** | **—** | **59.5** |
 
 ### 情感控制 (PPLM prompts)
+
 | 方法 | Acc↑ | PPL↓ |
 |---|---|---|
 | LM-Steer | 85.4 | 78.8 |
@@ -75,6 +77,7 @@ $$t_i^{adaptive} = \alpha_{smooth} \cdot t + (1 - \alpha_{smooth}) \cdot (1 - \h
 准确率比最强基线提升 >20%，PPL 几乎减半，且仅需 1/5 的步数。
 
 ### 词汇约束生成
+
 | 方法 | Syntax Tree Acc | Mean PPL |
 |---|---|---|
 | Diffusion-LM | 86.0 | 248.6 |

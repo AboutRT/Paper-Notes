@@ -47,6 +47,7 @@ ResNet-18 on CIFAR-10/100 100 epochs, SGD momentum=0.9, lr=0.1, weight decay 5e-
 ## 实验关键数据
 
 ### CIFAR-10 far-OOD (ResNet-18, 各post-hoc方法增强)
+
 | Post-hoc方法 | CE → +ELogitNorm (AUROC↑) |
 |-------------|--------------------------|
 | MSP | 90.73 → 96.68 (+5.95) |
@@ -56,6 +57,7 @@ ResNet-18 on CIFAR-10/100 100 epochs, SGD momentum=0.9, lr=0.1, weight decay 5e-
 | KNN | 93.86 → 97.75 (+3.89) |
 
 ### ImageNet-1K (ResNet-50, MSP)
+
 | 方法 | Near AUROC | Far AUROC | Far FPR95↓ |
 |------|-----------|-----------|-----------|
 | CE | 76.02 | 85.23 | 51.45 |
@@ -63,6 +65,7 @@ ResNet-18 on CIFAR-10/100 100 epochs, SGD momentum=0.9, lr=0.1, weight decay 5e-
 | **ELogitNorm** | **76.88** | **92.81** | **27.74** |
 
 ### 分类精度(Table 5, 200 epochs)
+
 | 数据集 | CE | LogitNorm | ELogitNorm |
 |--------|-----|-----------|-----------|
 | CIFAR-10 | 95.10 | 94.83 | **95.11** |
@@ -70,6 +73,7 @@ ResNet-18 on CIFAR-10/100 100 epochs, SGD momentum=0.9, lr=0.1, weight decay 5e-
 | ImageNet-200 | 86.58 | 86.41 | **87.12** |
 
 ### 校准(ECE, CIFAR-10 ResNet-18)
+
 | 方法 | f原始 | f/τ‖f‖ | f/D(z) |
 |------|------|--------|--------|
 | CE | 3.3 | 4.8 | **2.3** |

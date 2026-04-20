@@ -70,6 +70,7 @@ RCPO 将偏好优化形式化为：给定 prompt $x$、候选集 $S$、标注的
 ## 实验关键数据
 
 ### 主实验：Llama-3-8B-Instruct
+
 | 方法 | AlpacaEval LC↑ | AlpacaEval WR↑ | Arena-Hard WR↑ | UltraFeedback WR↑ |
 |------|---------------|----------------|----------------|-------------------|
 | DPO | 41.24 | 40.24 | 32.6 | 62.36 |

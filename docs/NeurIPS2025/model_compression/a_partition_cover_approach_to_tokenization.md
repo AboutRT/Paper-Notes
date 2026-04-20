@@ -54,6 +54,7 @@ tags:
 ## 实验关键数据
 
 ### 压缩实验
+
 | 数据集 | 指标 (avg tokens/word) | GreedTok | BPE | 提升 |
 |--------|------|------|----------|------|
 | UN (k=5000) | tokens/word | 1.163 | 1.194 | 2.54% |
@@ -64,6 +65,7 @@ tags:
 GreedTok平均优于BPE 2.88%，优于Unigram 3.43%。
 
 ### 预训练实验（1B参数LLM）
+
 | 模型 | Avg Accuracy | Wikitext bits/byte |
 |------|-------------|-------------------|
 | BPEM (BPE) | 62.0 | 0.7066 |

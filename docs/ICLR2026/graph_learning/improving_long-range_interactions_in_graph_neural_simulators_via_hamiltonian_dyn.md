@@ -67,6 +67,7 @@ IGNS 接收初始节点状态 $\bar{\mathbf{X}}$，首先执行 $l$ 步 **warmup
 | Kuramoto-Sivashinsky | 混沌动力学 | 2.41×10⁻³ | 10.76×10⁻³ | 接近 GraphCON |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 数据效率 (Plate Def.) | IGNS 在 100 样本时优势最大 | port-Hamiltonian 归纳偏置减少对数据的依赖 |

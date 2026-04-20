@@ -65,6 +65,7 @@ $$\mathcal{L} = \mathcal{L}_{\text{cls}} + \mathcal{L}_{\text{ort}} + \lambda_3\
 ## 实验关键数据
 
 ### 数据集增量协议（FF++ → DFDC-P → DFD → CDF2）
+
 | 方法 | 最终 Avg Acc(%) | 最终 AF(%) |
 |------|----------------|-----------|
 | LwF | 76.68 | 18.21 |
@@ -73,6 +74,7 @@ $$\mathcal{L} = \mathcal{L}_{\text{cls}} + \mathcal{L}_{\text{ort}} + \lambda_3\
 | **DevFD** | **89.82** | **4.03** |
 
 ### 伪造类型增量协议（Hybrid → FR → FS → EFS）
+
 | 方法 | 最终 Avg AUC(%) | 最终 AF(%) |
 |------|-----------------|-----------|
 | DFIL | 79.29 | 26.01 |

@@ -68,6 +68,7 @@ $$\mathcal{L}_{\text{MM}} = \lambda \cdot \mathcal{L}_{\text{SIGReg}}(\mathbf{Z}
 ## 实验关键数据
 
 ### 主实验（Waymo, from-scratch）
+
 | 方法 | 训练数据 | mAP XY ↑ | Depth MAE ↓ | Seg. mIoU ↑ |
 |------|---------|----------|-------------|-------------|
 | LeJEPA | RGB | 19.3 | 4.704 | 0.261 |
@@ -78,6 +79,7 @@ $$\mathcal{L}_{\text{MM}} = \lambda \cdot \mathcal{L}_{\text{SIGReg}}(\mathbf{Z}
 | **Le MuMo JEPA** | **RGB+Depth** | **23.6** | **2.860** | **0.275** |
 
 ### 消融实验（Waymo融合策略对比）
+
 | 配置 | mAP XY ↑ | Depth MAE ↓ | Seg. mIoU ↑ |
 |------|----------|-------------|-------------|
 | Early Fusion RGBD | 18.1 | 4.767 | 0.248 |

@@ -78,6 +78,7 @@ $$\sum_{t=1}^{T}[\mathcal{L}_t(\theta_t, K_t) - \mathcal{L}_t(\theta_t^*, K_t^*)
 - **真实数据**：Electricity Transformer (ETD)、EEG Motor Movement、Turbulence (CASES-99)
 
 ### 主要结果（Table 2，泛化误差）
+
 | 数据集 | ODMD | OnlineAE | OLoKe (无conformal) | **COLoKe** |
 |--------|------|----------|---------------------|------------|
 | Single Attractor | 1.1e-3 | 1.0e-2 | 2.1e-6 | **2.4e-7** |
@@ -109,6 +110,7 @@ $$\sum_{t=1}^{T}[\mathcal{L}_t(\theta_t, K_t) - \mathcal{L}_t(\theta_t^*, K_t^*)
 5. **缺少与离线深度 Koopman 方法的全面对比**：仅在一个系统上与离线方法做了简单比较
 
 ## 与相关工作的对比
+
 | 方法 | 无需历史 | 在线更新 | 自适应嵌入 | 内置重建 |
 |------|---------|---------|-----------|---------|
 | Online DMD | ✓ | ✓ | ✗ | ✓ |

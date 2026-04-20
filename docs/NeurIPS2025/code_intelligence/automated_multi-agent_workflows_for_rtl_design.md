@@ -65,6 +65,7 @@ VeriMaAS 的工作流为：给定 RTL 设计任务 → 自适应采样 Agent 算
 ## 实验关键数据
 
 ### 主实验
+
 | 模型+方法 | VeriThoughts pass@1 | VeriThoughts pass@10 | VerilogEval pass@1 | VerilogEval pass@10 |
 |--------|------|------|----------|------|
 | GPT-4o-mini (Instruct) | 80.64 | 90.87 | 50.26 | 61.02 |
@@ -79,6 +80,7 @@ VeriMaAS 的工作流为：给定 RTL 设计任务 → 自适应采样 Agent 算
 | Qwen3-14B + VeriMaAS | **92.16** (+2.81) | **98.75** (+0.11) | **66.96** (+1.09) | **75.71** (+0.09) |
 
 ### 消融实验
+
 | 配置 (o4-mini 基线) | VeriThoughts pass@1 | Token 成本(k) | 说明 |
 |------|---------|------|------|
 | + CoT | 94.11 (+0.26) | 1.10 (1.09×) | 轻量级提升 |

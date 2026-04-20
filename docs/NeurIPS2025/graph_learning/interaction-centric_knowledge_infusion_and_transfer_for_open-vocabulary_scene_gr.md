@@ -74,6 +74,7 @@ $$\mathcal{L} = \mathcal{L}_{reg} + \mathcal{L}_{giou} + \mathcal{L}_{obj} + \ma
 ## 实验关键数据
 
 ### 主实验（VG OvD+R-SGG设置）
+
 | 方法 | Backbone | Joint B+N R@100 | Novel(Obj) R@100 | Novel(Rel) R@100 |
 |------|----------|----------------|-----------------|-----------------|
 | ACC (Ours) | Swin-T | **19.55** | **19.65** | **17.83** |
@@ -83,6 +84,7 @@ $$\mathcal{L} = \mathcal{L}_{reg} + \mathcal{L}_{giou} + \mathcal{L}_{obj} + \ma
 | Faster R-CNN | Swin-T | 14.58 | 15.92 | 10.93 |
 
 ### 消融实验
+
 | 配置 | Joint B+N R@100 | Novel(Rel) R@100 | 说明 |
 |------|----------------|-----------------|------|
 | Baseline | 16.37 | 11.18 | 无IGQS和ICKD |

@@ -60,6 +60,7 @@ $$\mathcal{L}_{ia} = -\sum_{i=1}^{|y|} w_i \log P_\theta(y_i | x, y_{<i})$$
 训练细节：Mistral-7B-Instruct-v0.3 为 backbone，1k MS MARCO 查询生成训练标签，4 epochs，lr=5e-6，batch size=1，4×A100-40G。
 
 ## 实验关键数据
+
 | 数据集 | 指标 | RankMistral100 (Full) | RankMistral20 (Sliding) | 提升 |
 |--------|------|------|----------|------|
 | DL19 | NDCG@10 | **73.17** | 69.08 | +4.09 |

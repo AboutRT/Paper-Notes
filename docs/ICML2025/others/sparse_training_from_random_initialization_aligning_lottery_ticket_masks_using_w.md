@@ -47,6 +47,7 @@ $$\pi_l = \arg\min_\pi \|Z_l^B - \pi Z_l^A\| = \arg\max_\pi \langle \pi, Z^B(Z^A
 ## 实验
 
 ### 主实验结果
+
 | 数据集/模型 | 稀疏度 | naive vs permuted 差距 |
 |------------|--------|---------------------|
 | ResNet20/CIFAR-10 | 90% | permuted显著优于naive |
@@ -58,6 +59,7 @@ $$\pi_l = \arg\min_\pi \|Z_l^B - \pi Z_l^A\| = \arg\max_\pi \langle \pi, Z^B(Z^A
 模型越宽，置换匹配越准确，permuted与LTH的差距越小（从width=1到16逐步缩小）。
 
 ### 多样性分析（Table 1）
+
 | 方法 | 测试精度 | 集成精度 | 分歧度 | KL | JS |
 |------|---------|---------|--------|-----|-----|
 | LTH | 91.15% | 91.43% | 0.035 | 0.038 | 0.011 |

@@ -52,6 +52,7 @@ $$\hat{F}_R = \frac{F_R - \mu(F_R)}{\sigma(F_R)} \cdot \sigma(F_D) + \mu(F_D)$$
 ## 实验关键数据
 
 ### 主实验（ImageNet 256×256）
+
 | 方法 | Tokenizer | 训练Epoch | Steps | gFID w/o CFG | gFID w/ CFG |
 |------|-----------|-----------|-------|-------------|-------------|
 | DiT-XL | SD-VAE | 1400 | 250 | 9.62 | 2.27 |
@@ -63,6 +64,7 @@ $$\hat{F}_R = \frac{F_R - \mu(F_R)}{\sigma(F_R)} \cdot \sigma(F_D) + \mu(F_D)$$
 | **SVG-XL** | **SVGTok** | **500** | **25** | **3.94** | **2.10** |
 
 ### 少步生成比较
+
 | 方法 | Steps | FID w/o CFG | FID w/ CFG |
 |------|-------|-------------|------------|
 | SiT-XL (SD-VAE) | 5 | 69.38 | 29.48 |

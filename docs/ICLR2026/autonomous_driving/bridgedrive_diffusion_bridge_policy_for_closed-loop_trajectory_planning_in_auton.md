@@ -85,6 +85,7 @@ Bench2Drive 闭环评估（CARLA Leaderboard 2.0, 220 条路线）：
 | **BridgeDrive** | LEAD | ✘ | ✓ | **96.34** | **89.25** |
 
 ### 消融实验
+
 | 配置 | DS | SR(%) | 说明 |
 |------|-----|-------|------|
 | DiffusionDrive-temp | 77.68 | 52.72 | 截断扩散 + 时间路径点 |

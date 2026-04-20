@@ -71,6 +71,7 @@ tags:
 | SFT-Polished | PPL(Sent) | **90.0** | **87.3** |
 
 翻译质量评估（COMET-QE）：
+
 | 训练方法 | Llama En-Zh | Llama De-En | Qwen En-Zh | Qwen De-En |
 |---------|------------|------------|------------|------------|
 | SFT | 80.0 | 80.5 | 73.8 | 74.0 |

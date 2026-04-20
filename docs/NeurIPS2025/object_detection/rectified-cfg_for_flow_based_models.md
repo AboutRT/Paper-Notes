@@ -85,6 +85,7 @@ $$\|\hat{x}_{t-1} - \tilde{x}_{t-1}\| \leq \alpha(t) B \Delta t$$
 这保证了轨迹始终位于数据流形 $\mathcal{M}_t$ 的有界管状邻域内，邻域大小由 $\alpha(t)$ 和引导场界 $B$ 控制。
 
 ### 与CFG的关键区别
+
 | 特性 | 标准CFG | Rectified-CFG++ |
 |------|---------|-----------------|
 | 引导方式 | 外推（extrapolation） | 插值（interpolation） |

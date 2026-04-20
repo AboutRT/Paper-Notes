@@ -56,6 +56,7 @@ Ensemble++ 维护一个共享矩阵因子 $\mathbf{A}_t \in \mathbb{R}^{d \times
 ## 实验关键数据
 
 ### 主实验
+
 | 场景 | 指标 | Ensemble++ | Ensemble+ | EpiNet | 说明 |
 |------|------|-----------|-----------|--------|------|
 | Quadratic Bandit | 遗憾 | 次线性收敛 | 线性遗憾 | 线性遗憾 | 非线性奖励下优势显著 |
@@ -64,6 +65,7 @@ Ensemble++ 维护一个共享矩阵因子 $\mathbf{A}_t \in \mathbb{R}^{d \times
 | Hate Speech (GPT-2) | 准确率 | +5% vs Ensemble+ | 基线 | 不适用 | Transformer规模验证 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | 集成大小 $M$ vs 维度 $d$ | $M$ 与 $d$ 呈线性关系 | 验证 $M = \Theta(d\log T)$ 理论 |

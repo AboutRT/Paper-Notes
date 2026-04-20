@@ -76,6 +76,7 @@ $$\hat{\mathcal{D}}_k = \text{LENS}(\text{FORGE}(q_t, \text{GPT-4o}(q_v)), \math
 ## 实验关键数据
 
 ### 主实验（MM-BRIGHT，2803 查询，29 领域）
+
 | 方法 | nDCG@10 | 类型 |
 |------|---------|------|
 | CLIP | 10.8 | 多模态编码器 |
@@ -85,6 +86,7 @@ $$\hat{\mathcal{D}}_k = \text{LENS}(\text{FORGE}(q_t, \text{GPT-4o}(q_v)), \math
 | FORGE + Nomic-Vision | **33.3** | 插件模式 |
 
 ### 消融实验
+
 | 配置 | nDCG@10 | 说明 |
 |------|---------|------|
 | LENS only (原始查询) | 较低 | 噪声查询限制检索器 |

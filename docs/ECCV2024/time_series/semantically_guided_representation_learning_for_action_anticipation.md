@@ -88,6 +88,7 @@ $$\mathcal{L}_{tot} = \lambda_1 \mathcal{L}_{Sem} + \lambda_2 \mathcal{L}_{Cls} 
 ## 实验关键数据
 
 ### 数据集
+
 | 数据集 | 类型 | 规模 | 动作类数 |
 |--------|------|------|----------|
 | Epic-Kitchens 55 | 第一人称厨房 | 432 视频 / ~40K 段 | 2,747 |
@@ -103,6 +104,7 @@ $$\mathcal{L}_{tot} = \lambda_1 \mathcal{L}_{Sem} + \lambda_2 \mathcal{L}_{Cls} 
 - **50 Salads**：在 8 种设置中 5 种超越 SOTA，Top-1 Acc 提升最高达 3.5 个绝对点
 
 ### 消融实验（EK100 Action Top-5 Recall）
+
 | 配置 | Action |
 |------|--------|
 | Baseline（ViT+CT） | 15.2 |

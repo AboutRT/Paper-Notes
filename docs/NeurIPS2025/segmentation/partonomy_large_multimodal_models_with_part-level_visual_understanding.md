@@ -83,6 +83,7 @@ $\mathcal{L} = \mathcal{L}_{\text{LM}} + \lambda_1 \mathcal{L}_{\text{span}} + \
 | Grounded SAM 2 (gt) | – | 16.8 | 23.6 | 17.1 |
 
 ### 消融实验
+
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
 | Span Extractor vs [SEG] token | Span 在 VQA/幻觉基准上保留推理能力 | 证明 [SEG] token 引起分布偏移 |

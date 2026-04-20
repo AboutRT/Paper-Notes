@@ -71,6 +71,7 @@ VolleyBots 构建于 NVIDIA Isaac Sim 之上，利用 OmniDrones 仿真器实现
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 指标 | PPO (PRT) | TD3 (PRT) | SAC (PRT) | 说明 |
 |------|------|-----------|-----------|-----------|------|
 | Back and Forth | 到达点数 | **10.04±0.20** | 0.99±0.01 | 0.83±0.25 | PPO 远超 off-policy |
@@ -84,6 +85,7 @@ VolleyBots 构建于 NVIDIA Isaac Sim 之上，利用 OmniDrones 仿真器实现
 | 3v3 | Elo↑ | 1077 | 906 | **1268** | — |
 
 ### 消融实验
+
 | 配置 | Bump and Pass | Set&Spike (Easy) | Set&Spike (Hard) |
 |------|---------------|-----------------|-----------------|
 | MAPPO w/o shaping | 11.32±0.91 | 0.25 | 0.25 |

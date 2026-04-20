@@ -56,6 +56,7 @@ $$\Sigma_{cond} = \Sigma_p - \Sigma_{p,(t,d)} \Sigma_{(t,d)}^{-1} \Sigma_{p,(t,d
 ## 实验关键数据
 
 ### 7DGS-PBR数据集（动态+视角依赖）
+
 | 方法 | PSNR↑ | SSIM↑ | LPIPS↓ | #点数 | FPS |
 |------|-------|-------|--------|-------|-----|
 | 4DGS | 27.79 | 0.934 | 0.079 | 641K | 193 |
@@ -65,6 +66,7 @@ $$\Sigma_{cond} = \Sigma_p - \Sigma_{p,(t,d)} \Sigma_{(t,d)}^{-1} \Sigma_{p,(t,d
 +4.71dB PSNR！仅15.3%高斯点数。heart1场景+8.18dB！
 
 ### D-NeRF数据集（合成动态）
+
 | 方法 | PSNR↑ |
 |------|-------|
 | 4DGaussians | 33.30 |
@@ -72,6 +74,7 @@ $$\Sigma_{cond} = \Sigma_p - \Sigma_{p,(t,d)} \Sigma_{(t,d)}^{-1} \Sigma_{p,(t,d
 | **7DGS** | **34.34** |
 
 ### Technicolor数据集（真实多视角）
+
 | 方法 | PSNR↑ | SSIM↑ |
 |------|-------|-------|
 | Ex4DGS | 33.49 | **0.917** |

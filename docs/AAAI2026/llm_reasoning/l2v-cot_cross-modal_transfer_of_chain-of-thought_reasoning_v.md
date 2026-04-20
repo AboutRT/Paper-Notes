@@ -46,6 +46,7 @@ L2V-CoT 包含两步：(1) 从 LLM（DeepSeek-R1-Distill-Qwen-32B）提取低通
 完全 training-free。仅需 100 个 CoT/Non-CoT 样本对从 LLM 提取表示（一次性），推理时每个 token 在指定层做向量加法。
 
 ## 实验关键数据
+
 | VLM | 方法 | MathVista-All | MathVerse | MMStar-All |
 |-----|------|-------------|-----------|-----------|
 | LLaVA-8B | Non-CoT | 35.2 | 20.9 | 22.9 |

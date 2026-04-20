@@ -71,6 +71,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | GFLOPs↓ | VSPW mIoU (Mid) | Cityscapes mIoU (Mid) | KITTI RMSE (Mid) |
 |------|---------|------|------|------|
 | DINO-world (判别式) | 5.8K | 47.9 | 49.8 | 4.07 |
@@ -81,6 +82,7 @@ tags:
 *括号内为mean，括号外为best-of-20*
 
 ### 消融实验（渐进式设计验证）
+
 | 步骤 | GFLOPs | VSPW best(mean) | Cityscapes best(mean) | 说明 |
 |------|--------|------|------|------|
 | (0) 判别式基线 | 959 | 44.8 | 45.4 | 均值预测 |

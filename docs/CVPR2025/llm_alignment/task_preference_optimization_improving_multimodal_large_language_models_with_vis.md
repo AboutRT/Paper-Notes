@@ -103,6 +103,7 @@ MLLM-TPO 由两部分构成：标准 MLLM $M$（视觉编码器 $E$ + 连接器 
 | 视频分割(零样本) | MeViS J&F | **47.0** | VideoLISA: 44.4 |
 
 ### 消融实验
+
 | 配置 | Charades R@0.5 | RefCOCO Acc@0.5 | MeViS J&F | MVBench |
 |------|---------------|----------------|-----------|---------|
 | 仅 Temporal Head | 30.2 | — | — | — |

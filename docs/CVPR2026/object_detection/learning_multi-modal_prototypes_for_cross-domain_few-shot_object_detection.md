@@ -64,6 +64,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{text}} + \alpha \mathcal{L}_{\
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | Shot | LMP (Ours) | Domain-RAG (之前SOTA) | 提升 |
 |--------|------|-----------|----------------------|------|
 | Average (6域) | 1-shot | **34.3** | 33.6 | +0.7 |
@@ -75,6 +76,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{text}} + \alpha \mathcal{L}_{\
 相较 GroundingDINO 基线，LMP 在 1/5/10-shot 分别提升 8.0/3.6/2.1 mAP。
 
 ### 消融实验
+
 | 配置 | 平均 mAP (5-shot) | 说明 |
 |------|-------------------|------|
 | 仅文本原型 (GD baseline) | 40.4 | 基线 |

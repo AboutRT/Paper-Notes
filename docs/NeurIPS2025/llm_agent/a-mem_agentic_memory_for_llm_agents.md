@@ -85,6 +85,7 @@ LoCoMo 长对话 QA 数据集（9K tokens/对话，35 sessions）
 A-Mem 在 Temporal QA 上显著领先（39.41 vs MemGPT 17.29），整体排名第一，且token消耗远少于 MemGPT
 
 ### 消融实验
+
 | 配置 | 说明 |
 |------|------|
 | w/o Link Generation | 移除链接机制后性能下降，说明记忆间连接很重要 |

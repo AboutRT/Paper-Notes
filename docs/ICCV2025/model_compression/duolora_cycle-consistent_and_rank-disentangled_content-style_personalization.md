@@ -92,6 +92,7 @@ $$\mathcal{L} = \lambda_{layer\_prior} \mathcal{L}_{layer\_prior} + \lambda_{cyc
 | DuoLoRA | **0.62** | **0.69** | **0.50** |
 
 ### 消融实验
+
 | 配置 | DINO↑ | CLIP-I↑ | CSD-s↑ | 说明 |
 |------|-------|---------|--------|------|
 | ZipRank | 0.53 | 0.64 | 0.42 | 仅秩维度掩码 |

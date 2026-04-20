@@ -76,6 +76,7 @@ $$L = \lambda_1 L_{Att} + \lambda_2 L_{det} + \lambda_3 L_{coarse} + \lambda_4 L
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标 | TrafficLoc | CoFiI2P (前SOTA) | 提升 |
 |--------|------|-----------|-----------------|------|
 | Carla Test_{T1-T7} | RRE(°) / RTE(m) | **0.66 / 0.51** | 4.24 / 2.82 | RRE↓85%, RTE↓82% |
@@ -85,6 +86,7 @@ $$L = \lambda_1 L_{Att} + \lambda_2 L_{det} + \lambda_3 L_{coarse} + \lambda_4 L
 | NuScenes | RRE(°) / RTE(m) / RR(%) | **1.38 / 0.78 / 99.45** | 1.48 / 0.87 / 98.67 | - |
 
 ### 消融实验
+
 | 配置 | RRE(°) | RTE(m) | 说明 |
 |------|--------|--------|------|
 | Baseline (NCL) | 1.53 | 0.82 | 仅用普通对比学习 |

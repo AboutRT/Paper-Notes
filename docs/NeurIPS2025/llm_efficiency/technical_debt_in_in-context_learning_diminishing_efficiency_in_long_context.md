@@ -71,6 +71,7 @@ Transformer使用GPT-2架构，训练目标为 $\mathcal{L}(\theta) = \mathbb{E}
 | 0.99 | 1.45 | ~200 | 多射（严重恶化） |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | ICL vs AIC/BIC/BMC ($\mathcal{Q} \leq 0.3$) | ICL完美profile ($\rho=1$ at $\tau=1$) | ICL在少射下全面压制原理性方法 |

@@ -50,6 +50,7 @@ $$\mathcal{L}_{total} = \sum_{p=0}^{P}(\lambda_1\mathcal{L}_{occ}^{(p)} + \lambd
 ## 实验关键数据
 
 ### Occ3D-nuScenes验证集
+
 | 方法 | 查询大小 | mIoU |
 |------|---------|------|
 | PanoOcc (Base) | 100×100×16 | 38.11 |
@@ -62,6 +63,7 @@ $$\mathcal{L}_{total} = \sum_{p=0}^{P}(\lambda_1\mathcal{L}_{occ}^{(p)} + \lambd
 关键发现：ProtoOcc-Small (37.80) 与 PanoOcc-Base (38.11) 几乎持平，用75%更少的体素！
 
 ### 推理效率（Small查询）
+
 | 方法 | 推理时间 | FLOPs(G) | 参数量 | mIoU |
 |------|---------|----------|--------|------|
 | PanoOcc-Base | 266ms | 1310 | 46.24M | 38.11 |
@@ -70,6 +72,7 @@ $$\mathcal{L}_{total} = \sum_{p=0}^{P}(\lambda_1\mathcal{L}_{occ}^{(p)} + \lambd
 推理时间节省60%，FLOPs节省71%，参数量减少65%。
 
 ### SemanticKITTI验证集
+
 | 基线 | +ProtoOcc后 | IoU提升 | mIoU提升 |
 |------|------------|--------|---------|
 | VoxFormer-S | +ProtoOcc | +0.35 | +0.88 |

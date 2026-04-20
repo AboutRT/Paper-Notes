@@ -80,6 +80,7 @@ tags:
 DressCode-Upper: LPIPS **0.0615** vs IDM-VTON 0.0761
 
 ### 消融实验
+
 | 配置 | VITON-HD LPIPS↓ | StreetVTON FID_u↓ | WildVTON FID_u↓ |
 |------|----------------|-------------------|-----------------|
 | Base mask-free | 0.1206 | 28.81 | 57.52 |

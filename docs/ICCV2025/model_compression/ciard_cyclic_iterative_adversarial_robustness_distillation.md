@@ -65,6 +65,7 @@ CIARD包含固定的clean teacher + 持续更新的robust teacher + push loss机
 ## 实验关键数据
 
 ### CIFAR-10上MobileNet-V2
+
 | 框架类型 | 方法 | Clean(%) | Robust(%) |
 |---------|------|----------|-----------|
 | Single-Teacher | ARD | 83.43 | 57.03 |

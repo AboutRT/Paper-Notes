@@ -67,6 +67,7 @@ tags:
 ## 实验关键数据
 
 ### 概率位移缓解
+
 | 指标 | SquaredPO | DPO |
 |------|-----------|-----|
 | Epoch 1 chosen log-ratio 中位数 | 更高（位移更小） | 更低（位移更严重） |
@@ -75,6 +76,7 @@ tags:
 关键发现：DPO 中 99.63% 的 winner 概率一旦在第 1 个 epoch 下降，后续每个 epoch 都继续下降（单调下降）。SquaredPO 将这一比例降至 4.21%。
 
 ### 过训练鲁棒性（TL;DR Win Rate vs Base Model）
+
 | Epochs | SquaredPO | χPO | DPO |
 |--------|-----------|-----|-----|
 | 1 | 50.8% | 51.2% | 51.8% |
@@ -84,6 +86,7 @@ tags:
 DPO 在 4 epoch 后 win rate 降至 34.7%（严重过训练），SquaredPO 保持 51.0%。
 
 ### 标准基准（1 epoch）
+
 | 方法 | AlpacaEval LC↑ | AlpacaEval WR↑ | MT-Bench↑ |
 |------|---------------|----------------|-----------|
 | SquaredPO | 29.2 | 24.5 | 7.924 |

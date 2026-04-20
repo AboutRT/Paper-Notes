@@ -77,6 +77,7 @@ tags:
 | Alt-PGDA | $\text{poly}(1/\epsilon, |\mathcal{S}|, |\mathcal{A}|+|\mathcal{B}|, 1/(1-\gamma))$ | 单循环，更易实现 |
 
 ### 理论贡献对比
+
 | 贡献 | 意义 |
 |------|------|
 | Best-response Lipschitz连续性 (Thm 4.1) | 首次证明在隐凸/NC-pPL情况下最优响应映射的Lipschitz性 |

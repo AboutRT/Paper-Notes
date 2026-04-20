@@ -82,6 +82,7 @@ $$\mathcal{L} = \mathcal{L}_{ce} + \lambda_1 \mathcal{L}_{kd} + \lambda_2 \mathc
 ## 实验关键数据
 
 ### 主实验：4 个基准的平均准确率 $\bar{A}$（%）
+
 | 方法 | 参数量(%) | CIFAR-100 T=10 | ImageNet-R T=20 | ImageNet-A T=20 | VTAB T=10 |
 |------|----------|---------------|----------------|----------------|----------|
 | L2P | 0.2 | 79.51 | 65.82 | 39.81 | 78.96 |
@@ -93,6 +94,7 @@ $$\mathcal{L} = \mathcal{L}_{ce} + \lambda_1 \mathcal{L}_{kd} + \lambda_2 \mathc
 | **CL-LoRA** | **0.3** | 85.32 | **81.58** | **70.15** | **94.57** |
 
 ### ImageNet-R 长序列（T=40）平均准确率
+
 | 方法 | $\bar{A}$ |
 |------|----------|
 | InfLoRA | 47.04 |
@@ -102,6 +104,7 @@ $$\mathcal{L} = \mathcal{L}_{ce} + \lambda_1 \mathcal{L}_{kd} + \lambda_2 \mathc
 CL-LoRA 在长序列上优势更大，超过第二名 13 个百分点。
 
 ### 消融实验（CIFAR-100 T=10 / ImageNet-R T=20）
+
 | KD | GR | BW | CIFAR-100 | ImageNet-R |
 |----|----|----|-----------|------------|
 | ✗ | ✗ | ✗ | 88.20 | 82.24 |

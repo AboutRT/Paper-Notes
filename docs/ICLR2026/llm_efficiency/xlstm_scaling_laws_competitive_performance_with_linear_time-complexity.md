@@ -61,6 +61,7 @@ tags:
 ## 实验关键数据
 
 ### 训练 Scaling
+
 | 发现 | 细节 |
 |------|------|
 | **Pareto 支配** | xLSTM 在近 5 个数量级算力范围内严格 Pareto-dominate Transformer |
@@ -69,6 +70,7 @@ tags:
 | **上下文长度影响** | Transformer 在 2048→16384 时最优模型大小显著下降；xLSTM 保持稳定 |
 
 ### 推理性能
+
 | 指标 | 16k prefill 结果 |
 |------|-----------------|
 | **TTFT** | xLSTM 比同尺寸 Transformer 低 30–50% |

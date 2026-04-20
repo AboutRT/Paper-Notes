@@ -76,6 +76,7 @@ y_hat_j = sum_i (u_ij·silu(x_i) + v_ij · sum_m c_ijm·B_ijm(x_i))
 ## 实验关键数据
 
 ### Raw-to-Raw无监督映射
+
 | 方法 | PSNR | SSIM | ΔE |
 |------|------|------|-----|
 | UVCGANv2 | 36.32 | 0.94 | 4.21 |
@@ -83,6 +84,7 @@ y_hat_j = sum_i (u_ij·silu(x_i) + v_ij · sum_m c_ijm·B_ijm(x_i))
 | **cmKAN** | **41.01** | **0.97** | **1.23** |
 
 ### sRGB-to-sRGB有监督（自有数据集）
+
 | 方法 | PSNR | SSIM | #Params | Time |
 |------|------|------|---------|------|
 | MW-ISP | 23.31 | 0.76 | 29.2M | 8.8s |
@@ -90,6 +92,7 @@ y_hat_j = sum_i (u_ij·silu(x_i) + v_ij · sum_m c_ijm·B_ijm(x_i))
 | **cmKAN** | **25.94** | **0.89** | **76.4K** | **1.1s** |
 
 ### MIT-Adobe FiveK
+
 | 方法 | PSNR | ΔE |
 |------|------|-----|
 | SIRLUT | 27.25 | 6.19 |

@@ -84,6 +84,7 @@ $$\min_{\mathbf{W}, \boldsymbol{\eta}, \tilde{\boldsymbol{\eta}}} \frac{1}{2}\|\
 ## 实验关键数据
 
 ### 主实验
+
 | 任务 | 模型 | MNIST (ACC) | CIFAR10 (ACC) | 说明 |
 |---|---|---|---|---|
 | 记忆检索（半掩码） | Dense Hopfield | 接近1.0(M≤100) | 接近1.0(M≤100) | 指数容量 |
@@ -93,6 +94,7 @@ $$\min_{\mathbf{W}, \boldsymbol{\eta}, \tilde{\boldsymbol{\eta}}} \frac{1}{2}\|\
 | MIL (MNIST, bag=50) | RF Hopfield | 竞争性能+快收敛 | — | 效率优势 |
 
 ### 消融实验（MIL 真实数据集 AUC）
+
 | 模型 | Tiger | Fox | Elephant | UCSB |
 |---|---|---|---|---|
 | Dense Hopfield | 0.813 | 0.563 | 0.877 | 0.524 |

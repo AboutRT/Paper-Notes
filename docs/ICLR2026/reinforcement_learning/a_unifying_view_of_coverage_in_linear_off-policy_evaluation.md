@@ -87,6 +87,7 @@ $$\text{评估误差} \leq \text{poly}(C^\pi, d, 1/n, \log(1/\delta))$$
 | 不同覆盖度的数据分布 | 各定义的比较 | feature-dynamics coverage 比之前定义更紧 |
 
 ### 消融实验
+
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | Bellman完备 + feature-dynamics | 误差界 | 退化为集中系数界，验证统一性 |

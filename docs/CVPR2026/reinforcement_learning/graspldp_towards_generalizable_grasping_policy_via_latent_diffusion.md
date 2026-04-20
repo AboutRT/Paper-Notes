@@ -61,6 +61,7 @@ GraspLDP 采用两阶段训练：(1) Action Latent Learning 阶段：用 VAE 将
 ## 实验关键数据
 
 ### 主实验
+
 | 方法 | In Domain | Spatial Gen. | Object Gen. | Visual Gen. | 平均 |
 |------|-----------|-------------|-------------|-------------|------|
 | Diffusion Policy | 62.8 | 48.9 | 11.4 | 16.3 | 34.9 |
@@ -69,6 +70,7 @@ GraspLDP 采用两阶段训练：(1) Action Latent Learning 阶段：用 VAE 将
 | **GraspLDP** | **80.3** | **71.1** | **58.2** | **64.6** | **68.6** |
 
 ### 消融实验
+
 | 配置 | ID SR | SG SR | OG SR | VG SR |
 |------|-------|-------|-------|-------|
 | GraspLDP (full) | 80.3 | 71.1 | 58.2 | 64.6 |

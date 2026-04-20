@@ -74,6 +74,7 @@ CoachMe 包含三个模块：(1) Concept Difference Module 对齐学员与参考
 | Basic CoachMe (no ref) | 1.53 | 1.85 | 9.4 |
 
 ### 消融实验
+
 | CoachMe 配置 | FS G-Eval | BX G-Eval |
 |-------------|-----------|-----------|
 | 有参考 + 对齐片段 | **1.83** | **2.20** |

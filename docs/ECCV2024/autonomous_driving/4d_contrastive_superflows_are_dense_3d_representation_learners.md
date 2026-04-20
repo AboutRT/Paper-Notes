@@ -52,6 +52,7 @@ tags:
 - Superpixel由OpenSeeD生成，CLIP文本编码器微调最后一层
 
 ## 实验关键数据
+
 | 数据集 | 设置 | SuperFlow (ViT-B) | Seal (ViT-B) | 提升 |
 |--------|------|------|----------|------|
 | nuScenes | Linear Probing | SOTA | - | 全面超越 |

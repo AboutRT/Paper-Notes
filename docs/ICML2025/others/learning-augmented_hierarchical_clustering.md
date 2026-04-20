@@ -74,6 +74,7 @@ tags:
 ## 实验关键数据
 
 ### 主实验（理论保证）
+
 | 目标函数 | 指标 | 本文方法 | 无 Oracle 的 SOTA | 硬度下界 |
 |---|---|---|---|---|
 | Dasgupta | 近似比 | $O(1)$ | $O(\sqrt{\log n})$ | 无常数近似(SSEH) |
@@ -82,6 +83,7 @@ tags:
 | Dasgupta (PRAM) | 深度/近似 | $\text{polylog}(n)$/O(1) | 无已知 | — |
 
 ### 消融实验（Oracle 错误率影响）
+
 | Oracle 错误率 | Dasgupta 近似比 | Moseley-Wang 近似比 | 说明 |
 |---|---|---|---|
 | 0%（完美Oracle） | $O(1)$ 最优 | $1-o(1)$ | 理想情况 |

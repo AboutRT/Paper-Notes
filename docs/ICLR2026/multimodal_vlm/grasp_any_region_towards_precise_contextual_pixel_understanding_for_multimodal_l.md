@@ -91,6 +91,7 @@ GAR 基于标准 MLLM 架构（ViT + LLM），新增两个关键组件：
 ## 实验关键数据
 
 ### GAR-Bench-VQA 核心对比
+
 | 模型 | Overall | Texture | Non-Entity | Relation |
 |------|---------|---------|------------|----------|
 | GPT-4o | 53.5 | 48.3 | 60.2 | 61.4 |
@@ -103,6 +104,7 @@ GAR 基于标准 MLLM 架构（ViT + LLM），新增两个关键组件：
 - GAR-8B 超越 GPT-4o（非思考模式）
 
 ### GAR-Bench-Cap 关系描述
+
 | 模型 | Overall | Simple | Detailed |
 |------|---------|--------|----------|
 | Gemini-2.5-Pro | 59.3 | 51.6 | 66.4 |
@@ -135,6 +137,7 @@ GAR 基于标准 MLLM 架构（ViT + LLM），新增两个关键组件：
 5. **Position 子任务表现欠佳**：GAR-1B 在 Position 上仅 21.9，远低于通用模型，暗示网格结构推理仍有改进空间
 
 ## 与相关工作的对比
+
 | 维度 | DAM | PAM | GPT4RoI / GLaMM | GAR |
 |------|-----|-----|-----------------|-----|
 | 区域表示 | Mask（裁剪） | Mask（裁剪） | Box→池化向量 | Mask→RoI-Align |

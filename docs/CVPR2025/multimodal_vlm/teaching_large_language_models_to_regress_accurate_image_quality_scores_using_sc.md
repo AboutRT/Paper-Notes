@@ -52,6 +52,7 @@ DeQA-Score基于mPLUG-Owl2架构（CLIP ViT-L + Q-Former视觉抽象器 + LLaMA-
 ## 实验关键数据
 
 ### 单数据集训练分数回归（Tab. 3, 在KonIQ上训练）
+
 | 方法 | KonIQ (PLCC/SRCC) | LIVE-Wild | AGIQA-3K |
 |------|-------------------|-----------|----------|
 | Q-Align (one-hot) | 0.941/0.940 | 0.853/0.860 | 0.772/0.735 |
@@ -59,6 +60,7 @@ DeQA-Score基于mPLUG-Owl2架构（CLIP ViT-L + Q-Former视觉抽象器 + LLaMA-
 - 域内提升1.3% PLCC，域外（LIVE-Wild）提升4.6% PLCC
 
 ### 多数据集联合训练分数回归（Tab. 4）
+
 | 训练集 | 方法 | KonIQ | SPAQ | KADID | PIPAL |
 |-------|------|-------|------|-------|-------|
 | KonIQ+SPAQ+KADID+PIPAL | Q-Align | 0.926/0.932 | 0.917/0.920 | 0.950/0.954 | 0.702/0.671 |
@@ -66,12 +68,14 @@ DeQA-Score基于mPLUG-Owl2架构（CLIP ViT-L + Q-Former视觉抽象器 + LLaMA-
 - 联合训练下优势更加明显，验证了fidelity loss的有效性
 
 ### 离散化精度对比（Tab. 1）
+
 | 指标 | One-hot (Q-Align) | Soft Label |
 |------|-------------------|------------|
 | L1 Error (KonIQ) | 0.302 | **0.008** (37.75×更精确) |
 | PLCC/SRCC与MOS | 0.961/0.952 | **1.000/1.000** |
 
 ### 消融实验（Tab. 6, 在KonIQ+SPAQ+KADID上训练）
+
 | 配置 | KonIQ PLCC | KADID PLCC | LIVE-Wild PLCC | 说明 |
 |------|-----------|-----------|---------------|------|
 | One-hot（Q-Align基线） | 0.945 | 0.935 | 0.887 | 原始方法 |

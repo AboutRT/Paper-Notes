@@ -64,6 +64,7 @@ tags:
 73个任务（OGBench + D4RL），offline和offline-to-online设置下MeanFlowQL一致表现最优。
 
 ### 消融实验
+
 | 配置 | 效果 | 说明 |
 |------|------|------|
 | Naive MeanFlow (2-step) | 训练不稳定 | 早期clipping破坏Bellman |

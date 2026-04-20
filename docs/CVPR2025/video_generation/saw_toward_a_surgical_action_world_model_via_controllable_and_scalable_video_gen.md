@@ -67,6 +67,7 @@ tags:
 - classifier-free guidance：20% 情况下使用参考帧条件，推理时 50 步去噪， guidance scale=3.5
 
 ### 视频生成质量
+
 | 模型 | FVD↓ | CD-FVD↓ | SSIM↑ | PSNR↑ | LPIPS↓ |
 |------|:---:|:---:|:---:|:---:|:---:|
 | WAN | 439.60 | 429.67 | 0.575 | 15.82 | 0.448 |

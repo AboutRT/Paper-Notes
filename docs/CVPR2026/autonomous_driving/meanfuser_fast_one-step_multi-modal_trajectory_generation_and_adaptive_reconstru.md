@@ -82,6 +82,7 @@ $\mathcal{L} = \lambda_1 \mathcal{L}_\tau + \lambda_2 \mathcal{L}_{\text{flow}} 
 注：MeanFuser仅用RGB相机输入(无LiDAR)就超过所有多模态(C&L)方法。参数量54.6M在所有方法中最小。
 
 ### 消融实验
+
 | 配置 | PDMS↑ | N_proposals | P_{L2>0.5}↓ | N_{DAC=0}↓ |
 |------|---------|------|------|------|
 | DiffusionDrive | 88.1 | 20 | 20.0% | 84 |

@@ -57,6 +57,7 @@ $$\boldsymbol{G}(\boldsymbol{x}, \Gamma) = \int_0^\Gamma \gamma^2 \mathbb{E}\lef
 ## 实验关键数据
 
 ### 主实验（SRCC 与人类 MOS 的相关性）
+
 | 方法 | 是否监督 | TID2013 | LIVE | CSIQ | TQD(纹理) |
 |------|---------|---------|------|------|-----------|
 | PSNR | 否 | 0.69 | 0.87 | 0.81 | 0.34 |
@@ -69,6 +70,7 @@ $$\boldsymbol{G}(\boldsymbol{x}, \Gamma) = \int_0^\Gamma \gamma^2 \mathbb{E}\lef
 | **IEM_fω (有监督f)** | **部分** | **0.84** | **0.96** | **0.94** | **0.77** |
 
 ### 消融实验（Max Differentiation Competition）
+
 | 操作 | IEM 结果 | DISTS 结果 | 说明 |
 |------|---------|-----------|------|
 | 最小化度量(PSNR=10dB) | 无伪影高质量 | 明显伪影 | IEM作为优化目标更鲁棒 |

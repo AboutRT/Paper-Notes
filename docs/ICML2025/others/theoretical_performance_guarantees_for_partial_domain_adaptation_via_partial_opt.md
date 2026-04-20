@@ -78,6 +78,7 @@ $$\mathcal{L} = \sum_i w_i \cdot \text{CE}(h(g(x_i^S)), y_i^S) + \lambda \cdot \
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 指标(ACC) | WARMPOT | PADA | ETN | BA3US |
 |---|---|---|---|---|---|
 | Office-Home (A→C) | Target ACC | **72.3** | 68.7 | 69.1 | 71.5 |
@@ -86,6 +87,7 @@ $$\mathcal{L} = \sum_i w_i \cdot \text{CE}(h(g(x_i^S)), y_i^S) + \lambda \cdot \
 | VisDA (12→6类) | Target ACC | **85.7** | 81.2 | 82.5 | 84.3 |
 
 ### 消融实验
+
 | 权重方案 | Office-Home 平均ACC | 说明 |
 |---|---|---|
 | WARMPOT (OT权重) | **72.3** | 本文理论权重 |

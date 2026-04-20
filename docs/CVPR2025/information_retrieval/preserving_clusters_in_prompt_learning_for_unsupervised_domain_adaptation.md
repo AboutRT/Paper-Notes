@@ -69,6 +69,7 @@ $$\mathcal{L}_{total} = \mathcal{L}_S + \lambda_T \mathcal{L}_T + \lambda_\mathc
 ## 实验关键数据
 
 ### 主实验
+
 | 数据集 | 设置 | CRPL | PGA (SOTA) | DAPL | 提升 |
 |--------|------|------|----------|------|------|
 | ImageCLEF | Source-combined Avg | **90.3%** | 88.2% | 87.1% | +2.1% |
@@ -79,6 +80,7 @@ $$\mathcal{L}_{total} = \mathcal{L}_S + \lambda_T \mathcal{L}_T + \lambda_\mathc
 | Office-Home | 12对单源 Avg | **74.4%** | 73.9% | 73.3% | +0.5% |
 
 ### 消融实验（Office-Home）
+
 | 配置 | 推理用Prompt | Ar | Cl | Pr | Rw | 说明 |
 |------|---------|------|------|------|------|------|
 | CPL (CLIP伪标签) | τ_T | 47.6 | 29.0 | 53.5 | 63.5 | 基线target prompt极差 |

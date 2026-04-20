@@ -60,6 +60,7 @@ $$i^* = \arg\max_i (U_{\text{unc}}^i + \alpha U_{\text{div}}^i)$$
 ## 实验关键数据
 
 ### 主实验
+
 | 模型 | K-Sort Arena Rank | K-Sort Arena Score | K-Sort Eval Rank | K-Sort Eval Score |
 |------|-------------------|-------------------|------------------|-------------------|
 | FLUX.1-dev | 5 | 28.83 | 5 | 28.86 |
@@ -69,6 +70,7 @@ $$i^* = \arg\max_i (U_{\text{unc}}^i + \alpha U_{\text{div}}^i)$$
 | CogVideoX-5b (Video) | 3 | 33.60 | 3 | 33.63 |
 
 ### 消融实验
+
 | 配置 | Rank | Score | #Runs |
 |------|------|-------|-------|
 | K-Sort Eval (完整) | 5 | 28.86 | 81 |

@@ -75,6 +75,7 @@ $$R_{\text{SOLACE}}(z_0^{(i)}, c) = \frac{1}{\sum_{t\in\mathcal{T}} w(t)} \sum_{
 ## 实验结果
 
 ### 主实验（SD3.5-M基线）
+
 | 模型 | GenEval↑ | OCR↑ | CLIPScore↑ | Aesthetic↑ | PickScore↑ | HPSv2↑ | ImageReward↑ |
 |------|----------|------|-----------|-----------|------------|--------|-------------|
 | SD3.5-M | 0.65 | 0.61 | 0.282 | 5.36 | 22.34 | 0.279 | 0.84 |
@@ -84,6 +85,7 @@ $$R_{\text{SOLACE}}(z_0^{(i)}, c) = \frac{1}{\sum_{t\in\mathcal{T}} w(t)} \sum_{
 关键发现：SOLACE让2.5B的SD3.5-M在GenEval/OCR/CLIPScore上几乎追平7.1B的SD3.5-L（不到1/3参数量）。
 
 ### SOLACE + 外部奖励互补
+
 | 模型 | GenEval↑ | OCR↑ | CLIPScore↑ | PickScore↑ |
 |------|----------|------|-----------|------------|
 | SD3.5-M + FlowGRPO(GenEval) | **0.95** | 0.65 | 0.293 | 22.51 |

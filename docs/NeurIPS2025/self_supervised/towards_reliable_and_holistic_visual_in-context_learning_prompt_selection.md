@@ -60,6 +60,7 @@ RH-Partial2Global在Partial2Global基础上引入两个正交增强：(1) Jackkn
 ## 实验关键数据
 
 ### 主实验：跨视觉任务对比
+
 | 方法 | 分割Avg(mIoU)↑ | 检测(mIoU)↑ | 着色(MSE)↓ |
 |---|---|---|---|
 | MAE-VQGAN (NeurIPS'22) | 27.56 | 25.45 | 0.67 |
@@ -70,6 +71,7 @@ RH-Partial2Global在Partial2Global基础上引入两个正交增强：(1) Jackkn
 | **RH-Partial2Global+voting** | **43.08** | **33.28** | — |
 
 ### 消融实验：各组件贡献（分割任务，4 folds平均）
+
 | 配置 | Fold-0 | Fold-1 | Fold-2 | Fold-3 | Avg |
 |---|---|---|---|---|---|
 | Partial2Global baseline | 38.81 | 41.54 | 37.25 | 36.01 | 38.40 |

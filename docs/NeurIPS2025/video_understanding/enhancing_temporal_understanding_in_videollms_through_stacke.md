@@ -56,6 +56,7 @@ $$Z_i^{(m)} = A_i'^{(m)} V_i'^{(m)} + Y_i^{(m)}$$
 ## 实验关键数据
 
 ### SSv2 动作识别 (Vision-only)
+
 | 模型 | SSv2 Acc. |
 |---|---|
 | InternVideo2 1B | 77.1% |
@@ -65,12 +66,14 @@ $$Z_i^{(m)} = A_i'^{(m)} V_i'^{(m)} + Y_i^{(m)}$$
 → 1.3B 模型超越 6B 模型！
 
 ### InternVideo2-Chat + STA (SSv2-T10)
+
 | 方法 | Acc. |
 |---|---|
 | InternVideo2-Chat 8B | 84.17% |
 | + STA | **95.18% (+11.01%)** |
 
 ### STAVEQ2 在 Video-LLM Benchmarks
+
 | 模型 | VITATECS Dir. | MVBench | Video-MME (wo/w sub) |
 |---|---|---|---|
 | Qwen2-VL 7B | 86.6 | 67.0 | 63.3 / 69.0 |

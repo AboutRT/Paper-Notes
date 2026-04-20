@@ -91,6 +91,7 @@ $$\mathcal{L}_{key} = \sum_{l=1}^{L} \lambda_l \left( \mathcal{L}_{color}^l + \l
 | HiFi4G | BD-PSNR(vs ReRF) | **7.87dB** | HPC: 5.84dB, V³: 7.19dB | 超越所有方法 |
 
 **效率对比**（4DGCPro数据集）：
+
 | 指标 | HPC | V³ | 本文(Mid) |
 |------|-----|-----|-----------|
 | 解码(ms) | 121 | 20 | **19** |
