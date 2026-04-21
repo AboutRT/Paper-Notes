@@ -155,6 +155,6 @@ $$L_{\text{stage2}} = L_{\text{traj}} + L_{\text{action}}$$
 - [PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes](placeit3d_language-guided_object_placement_in_real_3d_scenes.md)
 - [Multi-View Pose-Agnostic Change Localization with Zero Labels](../../CVPR2025/3d_vision/multi-view_pose-agnostic_change_localization_with_zero_labels.md)
 - [DualPM: Dual Posed-Canonical Point Maps for 3D Shape and Pose Reconstruction](../../CVPR2025/3d_vision/dualpm_dual_posed-canonical_point_maps_for_3d_shape_and_pose_reconstruction.md)
-- [Unleashing Vecset Diffusion Model for Fast Shape Generation (FlashVDM)](unleashing_vecset_diffusion_model_for_fast_shape_generation.md)
+- [Disentangling Instance and Scene Contexts for 3D Semantic Scene Completion](disentangling_instance_and_scene_contexts_for_3d_semantic_scene_completion.md)
 
 <!-- RELATED:END -->

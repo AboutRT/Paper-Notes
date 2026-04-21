@@ -2,7 +2,7 @@
 title: >-
   NeurIPS2025 社会计算方向 17篇论文解读
 description: >-
-  17篇NeurIPS2025 社会计算方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  17篇NeurIPS2025 社会计算论文解读，主题涵盖：提出 TiALD（Tigrinya、提出 **Active Slice、提出 FaIRMaker 框架等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

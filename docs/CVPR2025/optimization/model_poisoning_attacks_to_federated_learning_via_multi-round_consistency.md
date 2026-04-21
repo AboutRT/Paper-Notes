@@ -133,6 +133,6 @@ PoisonedFL vs 7 种攻击 × 9 种防御 × 5 数据集，测试错误率（%）
 - [FedQS: Optimizing Gradient and Model Aggregation for Semi-Asynchronous Federated Learning](../../NeurIPS2025/optimization/fedqs_optimizing_gradient_and_model_aggregation_for_semi-asynchronous_federated_.md)
 - [Federated Learning with Domain Shift Eraser](federated_learning_with_domain_shift_eraser.md)
 - [SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated Learning](scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md)
-- [Streaming Federated Learning with Markovian Data](../../NeurIPS2025/optimization/streaming_federated_learning_with_markovian_data.md)
+- [Mind the Gap: Confidence Discrepancy Can Guide Federated Semi-Supervised Learning](mind_the_gap_confidence_discrepancy_can_guide_federated_semi-supervised_learning.md)
 
 <!-- RELATED:END -->

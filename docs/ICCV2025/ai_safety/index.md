@@ -2,7 +2,7 @@
 title: >-
   ICCV2025 AI安全方向 23篇论文解读
 description: >-
-  23篇ICCV2025 AI安全方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  23篇ICCV2025 AI安全论文解读，主题涵盖：本文提出BlindFed框架，通过全同态加密（FH、BlindFed提出了双盲联邦基础模型适配框架：通、提出Active MINT（aMINT）等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

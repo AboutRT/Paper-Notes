@@ -137,6 +137,6 @@ SIMPACT 是一个纯推理时框架，不涉及模型训练或微调：
 - [Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild](joint-aligned_latent_action_towards_scalable_vla_pretraining_in_the_wild.md)
 - [MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)
 - [CoA-VLA: Improving Vision-Language-Action Models via Visual-Textual Chain-of-Affordance](../../ICCV2025/multimodal_vlm/coa-vla_improving_vision-language-action_models_via_visual-text_chain-of-afforda.md)
-- [Evolving Prompt Adaptation for Vision-Language Models](evolving_prompt_adaptation_for_visionlanguage_mode.md)
+- [Understanding Task Transfer in Vision-Language Models](understanding_task_transfer_in_vision-language_models.md)
 
 <!-- RELATED:END -->

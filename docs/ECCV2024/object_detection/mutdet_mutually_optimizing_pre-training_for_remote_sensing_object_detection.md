@@ -185,6 +185,6 @@ $$\mathcal{L}_{det}^{aux} = \mathcal{L}_{ca}^{aux} + \mathcal{L}_{cls}^{aux} + \
 - [Projecting Points to Axes: Oriented Object Detection via Point-Axis Representation](projecting_points_to_axes_oriented_object_detection_via_point-axis_representatio.md)
 - [OpenRSD: Towards Open-prompts for Object Detection in Remote Sensing Images](../../ICCV2025/object_detection/openrsd_towards_open-prompts_for_object_detection_in_remote_sensing_images.md)
 - [SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection](../../AAAI2026/object_detection/sm3det_a_unified_model_for_multi-modal_remote_sensing_object_detection.md)
-- [Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection](weak-to-strong_compositional_learning_from_generative_models_for_language-based_.md)
+- [Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images](../../CVPR2026/object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md)
 
 <!-- RELATED:END -->

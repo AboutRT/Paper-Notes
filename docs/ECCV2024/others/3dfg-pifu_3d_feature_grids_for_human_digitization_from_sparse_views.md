@@ -133,8 +133,8 @@ tags:
 
 - [High-Fidelity 3D Textured Shapes Generation by Sparse Encoding and Adversarial Decoding](high-fidelity_3d_textured_shapes_generation_by_sparse_encoding_and_adversarial_d.md)
 - [HPFF: Hierarchical Locally Supervised Learning with Patch Feature Fusion](hpff_hierarchical_locally_supervised_learning_with_patch_feature_fusion.md)
-- [Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching](synchronous_diffusion_for_unsupervised_smooth_non-rigid_3d_shape_matching.md)
 - [Align before Collaborate: Mitigating Feature Misalignment for Robust Multi-Agent Perception](align_before_collaborate_mitigating_feature_misalignment_for_robust_multi-agent_.md)
+- [Distributionally Robust Feature Selection](../../NeurIPS2025/others/distributionally_robust_feature_selection.md)
 - [AnyUp: Universal Feature Upsampling](../../ICLR2026/others/anyup_universal_feature_upsampling.md)
 
 <!-- RELATED:END -->

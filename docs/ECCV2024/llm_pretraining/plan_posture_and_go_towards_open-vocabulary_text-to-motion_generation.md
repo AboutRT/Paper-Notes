@@ -120,9 +120,9 @@ PRO-Motion 由三个模块组成，形成一个流水线：（1）**Motion Plann
 ## 相关论文
 
 - [DragAPart: Learning a Part-Level Motion Prior for Articulated Objects](dragapart_learning_a_part-level_motion_prior_for_articulated_objects.md)
-- [FlowMotion: Training-Free Flow Guidance for Video Motion Transfer](../../CVPR2026/llm_pretraining/flowmotion_training-free_flow_guidance_for_video_motion_transfer.md)
+- [ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model](../../CVPR2025/llm_pretraining/scamo_exploring_the_scaling_law_in_autoregressive_motion_generation_model.md)
+- [ScanTalk: 3D Talking Heads from Unregistered Scans](scantalk_3d_talking_heads_from_unregistered_scans.md)
+- [Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction](../../CVPR2025/llm_pretraining/improving_autoregressive_visual_generation_with_cluster-oriented_token_predictio.md)
 - [How to Synthesize Text Data without Model Collapse?](../../ICML2025/llm_pretraining/how_to_synthesize_text_data_without_model_collapse.md)
-- [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](../../ACL2025/llm_pretraining/tokalign_vocab_adaptation.md)
-- [Lossless Vocabulary Reduction for Auto-Regressive Language Models](../../ICLR2026/llm_pretraining/lossless_vocabulary_reduction_for_auto-regressive_language_models.md)
 
 <!-- RELATED:END -->

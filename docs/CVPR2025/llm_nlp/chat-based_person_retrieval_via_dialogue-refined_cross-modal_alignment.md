@@ -133,6 +133,6 @@ DiaNA（Dialogue-refined Cross-modal Alignment）框架接收多轮对话作为�
 - [From Neurons to Semantics: Evaluating Cross-Linguistic Alignment Capabilities of Large Language Models via Neurons Alignment](../../ACL2025/llm_nlp/from_neurons_to_semantics_evaluating_cross-linguistic_alignment_capabilities_of_.md)
 - [Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy](imagine_and_seek_improving_composed_image_retrieval_with_an_imagined_proxy.md)
 - [Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method](../../ACL2025/llm_nlp/can_we_retrieve_everything_all_at_once_arm_an_alignment-oriented_llm-based_retri.md)
-- [Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models](../../ACL2025/llm_nlp/deontological_keyword_bias.md)
+- [Big5-Chat: Shaping LLM Personalities Through Training on Human-Grounded Data](../../ACL2025/llm_nlp/big5-chat_shaping_llm_personalities_through_training_on_human-grounded_data.md)
 
 <!-- RELATED:END -->

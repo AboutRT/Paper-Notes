@@ -132,6 +132,6 @@ HETrack 基于 Deformable DETR 架构，使用 ResNet50 做视觉骨干、RoBERT
 - [When Trackers Date Fish: A Benchmark and Framework for Underwater Multiple Fish Tracking](when_trackers_date_fish_a_benchmark_and_framework_for_underwater_multiple_fish_t.md)
 - [REXO: Indoor Multi-View Radar Object Detection via 3D Bounding Box Diffusion](rexo_indoor_multi-view_radar_object_detection_via_3d_bounding_box_diffusion.md)
 - [SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection](sm3det_a_unified_model_for_multi-modal_remote_sensing_object_detection.md)
-- [Deep Incomplete Multi-View Clustering via Hierarchical Imputation and Alignment](deep_incomplete_multi-view_clustering_via_hierarchical_imputation_and_alignment.md)
+- [Drift-Resilient Temporal Priors for Visual Tracking](../../CVPR2026/object_detection/drift-resilient_temporal_priors_for_visual_tracking.md)
 
 <!-- RELATED:END -->

@@ -2,7 +2,7 @@
 title: >-
   CVPR2026 LLM/NLP方向 4篇论文解读
 description: >-
-  4篇CVPR2026 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  4篇CVPR2026 LLM/NLP论文解读，主题涵盖：提出 Bind & Compose (BiCo)、提出GUIDE框架，利用LLM的in-contex、提出 PhysVid，一种物理感知的局部条件化方案等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

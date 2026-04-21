@@ -142,6 +142,6 @@ tags:
 - [Visual Lexicon: Rich Image Features in Language Space](visual_lexicon_rich_image_features_in_language_space.md)
 - [Tiled Diffusion](tiled_diffusion.md)
 - [Color Alignment in Diffusion](color_alignment_in_diffusion.md)
-- [LEDiff: Latent Exposure Diffusion for HDR Generation](lediff_latent_exposure_diffusion_for_hdr_generation.md)
+- [VLOGGER: Multimodal Diffusion for Embodied Avatar Synthesis](vlogger_multimodal_diffusion_for_embodied_avatar_synthesis.md)
 
 <!-- RELATED:END -->

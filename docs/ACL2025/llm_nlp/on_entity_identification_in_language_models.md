@@ -142,6 +142,6 @@ tags:
 - [Recurrent Knowledge Identification and Fusion for Language Model Continual Learning](recurrent_kif_continual_learning.md)
 - [COSMIC: Generalized Refusal Direction Identification in LLM Activations](cosmic_generalized_refusal_direction_identification_in_llm_activations.md)
 - [Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](salience_sparse_fine_tuning.md)
-- [On the Limit of Language Models as Planning Formalizers](limit_llm_planning_formalizer.md)
+- [Quantifying Semantic Emergence in Language Models](quantifying_semantic_emergence_in_language_models.md)
 
 <!-- RELATED:END -->

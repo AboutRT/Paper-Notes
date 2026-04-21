@@ -137,6 +137,6 @@ tags:
 - [Multi-modal Knowledge Distillation-based Human Trajectory Forecasting](multi-modal_knowledge_distillation-based_human_trajectory_forecasting.md)
 - [Tra-MoE: Learning Trajectory Prediction Model from Multiple Domains for Adaptive Policy Conditioning](tra-moe_learning_trajectory_prediction_model_from_multiple_domains_for_adaptive_.md)
 - [Adaptive Human Trajectory Prediction via Latent Corridors](../../ECCV2024/autonomous_driving/adaptive_human_trajectory_prediction_via_latent_corridors.md)
-- [Towards Predicting Any Human Trajectory in Context](../../NeurIPS2025/autonomous_driving/towards_predicting_any_human_trajectory_in_context.md)
+- [SocialMOIF: Multi-Order Intention Fusion for Pedestrian Trajectory Prediction](socialmoif_multi-order_intention_fusion_for_pedestrian_trajectory_prediction.md)
 
 <!-- RELATED:END -->

@@ -2,7 +2,7 @@
 title: >-
   ACL2025 LLM推理方向 43篇论文解读
 description: >-
-  43篇ACL2025 LLM推理方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  43篇ACL2025 LLM推理论文解读，主题涵盖：提出 Aristotle 逻辑推理框架、提出 BPP-Search 算法，将 Beam、本文提出DeltaBench——首个系统评估o1类等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

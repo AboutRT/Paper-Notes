@@ -136,8 +136,8 @@ EscapeAgent 是一个无需训练的框架，依赖 prompting 和运行时推理
 
 - [SocialEval: Evaluating Social Intelligence of Large Language Models](socialeval_evaluating_social_intelligence_of_large_language_models.md)
 - [Writing in Symbiosis: Mapping Human Creative Agency in the AI Era](../../NeurIPS2025/llm_nlp/writing_in_symbiosis_mapping_human_creative_agency_in_the_ai_era.md)
-- [Convert Language Model into a Value-based Strategic Planner](convert_language_model_into_a_value-based_strategic_planner.md)
-- [Training Language Model to Critique for Better Refinement](training_language_model_to_critique_for_better_refinement.md)
-- [Representation Bending for Large Language Model Safety](repbend_representation_bending_safety.md)
+- [A Survey of LLM-based Agents in Medicine: How Far Are We from Baymax?](a_survey_of_llm-based_agents_in_medicine_how_far_are_we_from_baymax.md)
+- [MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents](membench_towards_more_comprehensive_evaluation_on_the_memory_of_llm-based_agents.md)
+- [Circuit Stability Characterizes Language Model Generalization](circuit_stability_characterizes_language_model_generalization.md)
 
 <!-- RELATED:END -->

@@ -2,7 +2,7 @@
 title: >-
   ICML2025 3D视觉方向 12篇论文解读
 description: >-
-  12篇ICML2025 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  12篇ICML2025 3D视觉论文解读，主题涵盖：EvoMesh 提出一种全可微的层次图演化框架、提出 FlowDrag，从图像构建 3D、提出 Per-Token-Mesh-Entropy等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

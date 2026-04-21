@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 模型压缩方向 58篇论文解读
+  CVPR2025 模型压缩方向 57篇论文解读
 description: >-
-  58篇CVPR2025 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  57篇CVPR2025 模型压缩论文解读，主题涵盖：提出ACMap框架，通过将每个任务独立训练的ada、提出基于交替梯度流(AGF)的统一效用度量、首次提出JPEG XS帧内模式复制(IPC)中位移等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📷 CVPR2025** · **58** 篇论文解读
+**📷 CVPR2025** · **57** 篇论文解读
 
 **[Adapter Merging with Centroid Prototype Mapping for Scalable Class-Incremental Learning](adapter_merging_with_centroid_prototype_mapping_for_scalable_class-incremental_l.md)**
 
@@ -25,10 +25,6 @@ description: >-
 **[ARCHE: Autoregressive Residual Compression with Hyperprior and Excitation](arche_autoregressive_residual_compression_with_hyperprior_and_excitation.md)**
 
 :   提出ARCHE端到端学习型图像压缩框架，在统一概率架构中整合分层Hyperprior、掩码空间自回归上下文、通道条件化和SE激励通道重校准，无需Transformer或循环组件，在Kodak上相对Ballé基线BD-Rate降低约48%，相对VVC Intra降低约5.6%，仅95M参数和222ms解码时间。
-
-**[AutoSSVH: Exploring Automated Frame Sampling for Efficient Self-Supervised Video Hashing](autossvh_exploring_automated_frame_sampling_for_efficient_self-supervised_video_h.md)**
-
-:   提出AutoSSVH方法，通过对抗式自动帧采样网络（Grade-Net）选择最具挑战性的帧子集作为训练信号，并设计P2Set（Point-to-Set）哈希对比学习范式，实现了高效的自监督视频哈希检索，在UCF101和HMDB51上大幅超越现有方法。
 
 **[BHViT: Binarized Hybrid Vision Transformer](bhvit_binarized_hybrid_vision_transformer.md)**
 

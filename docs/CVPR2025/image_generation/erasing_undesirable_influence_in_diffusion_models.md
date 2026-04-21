@@ -127,8 +127,8 @@ tags:
 
 - [DMin: Scalable Training Data Influence Estimation for Diffusion Models](../../CVPR2026/image_generation/dmin_scalable_training_data_influence_estimation_for_diffusion_models.md)
 - [MixerMDM: Learnable Composition of Human Motion Diffusion Models](mixermdm_learnable_composition_of_human_motion_diffusion_models.md)
-- [UIBDiffusion: Universal Imperceptible Backdoor Attack for Diffusion Models](uibdiffusion_universal_imperceptible_backdoor_attack_for_diffusion_models.md)
 - [The Art of Deception: Color Visual Illusions and Diffusion Models](the_art_of_deception_color_visual_illusions_and_diffusion_models.md)
 - [RAD: Region-Aware Diffusion Models for Image Inpainting](rad_region-aware_diffusion_models_for_image_inpainting.md)
+- [UIBDiffusion: Universal Imperceptible Backdoor Attack for Diffusion Models](uibdiffusion_universal_imperceptible_backdoor_attack_for_diffusion_models.md)
 
 <!-- RELATED:END -->

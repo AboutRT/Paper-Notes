@@ -147,6 +147,6 @@ $$\frac{\sigma_{t^*}}{\alpha_{t^*}} = \frac{C_s}{\sqrt{m}}$$
 - [ICE: Intrinsic Concept Extraction from a Single Image via Diffusion Models](../../CVPR2025/image_generation/ice_intrinsic_concept_extraction_from_a_single_image_via_diffusion_models.md)
 - [Nested Diffusion Models Using Hierarchical Latent Priors](../../CVPR2025/image_generation/nested_diffusion_models_using_hierarchical_latent_priors.md)
 - [Joint Diffusion Models in Continual Learning](../../ICCV2025/image_generation/joint_diffusion_models_in_continual_learning.md)
-- [Golden Noise for Diffusion Models: A Learning Framework](../../ICCV2025/image_generation/golden_noise_for_diffusion_models_a_learning_framework.md)
+- [Composition and Alignment of Diffusion Models using Constrained Learning](../../NeurIPS2025/image_generation/composition_and_alignment_of_diffusion_models_using_constrai.md)
 
 <!-- RELATED:END -->

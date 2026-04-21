@@ -123,7 +123,7 @@ tags:
 - [WILTing Trees: Interpreting the Distance Between MPNN Embeddings](../../ICML2025/graph_learning/wilting_trees_interpreting_the_distance_between_mpnn_embeddings.md)
 - [Croppable Knowledge Graph Embedding](croppable_knowledge_graph_embedding.md)
 - [Structurally Human, Semantically Biased: Detecting LLM-Generated References with Embeddings and GNNs](../../ICLR2026/graph_learning/structurally_human_semantically_biased_detecting_llm-generated_references_with_e.md)
-- [Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation (K-RagRec)](kg_rag_recommendation.md)
 - [Beyond Completion: A Foundation Model for General Knowledge Graph Reasoning](beyond_completion_a_foundation_model_for_general_knowledge_graph_reasoning.md)
+- [Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation (K-RagRec)](kg_rag_recommendation.md)
 
 <!-- RELATED:END -->

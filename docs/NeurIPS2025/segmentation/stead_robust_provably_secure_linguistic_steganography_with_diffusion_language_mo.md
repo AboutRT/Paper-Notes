@@ -119,8 +119,8 @@ STEAD的嵌入容量比同类安全鲁棒方法PSARS高出约6倍。
 ## 相关论文
 
 - [Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning](fast_and_fluent_diffusion_language_models_via_convolutional_decoding_and_rejecti.md)
-- [Robust Ego-Exo Correspondence with Long-Term Memory](robust_ego-exo_correspondence_with_long-term_memory.md)
 - [VSC: Visual Search Compositional Text-to-Image Diffusion Model](../../ICCV2025/segmentation/vsc_visual_search_compositional_text-to-image_diffusion_model.md)
+- [Robust Ego-Exo Correspondence with Long-Term Memory](robust_ego-exo_correspondence_with_long-term_memory.md)
 - [Towards Robust Pseudo-Label Learning in Semantic Segmentation: An Encoding Perspective](towards_robust_pseudo-label_learning_in_semantic_segmentation_an_encoding_perspe.md)
 - [Advancing Visual Large Language Model for Multi-granular Versatile Perception](../../ICCV2025/segmentation/advancing_visual_large_language_model_for_multi-granular_versatile_perception.md)
 

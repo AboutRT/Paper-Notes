@@ -128,7 +128,7 @@ $$C_{ij} = ((\text{trace}(R_i^T R_j) - 1) / 2 + 1) / 2$$
 
 ## 相关论文
 
-- [Mobile-VTON: High-Fidelity On-Device Virtual Try-On](../../CVPR2026/human_understanding/mobile_vton_ondevice_virtual_tryon.md)
+- [Mobile-VTON: High-Fidelity On-Device Virtual Try-On](../../CVPR2026/human_understanding/mobile-vton_high-fidelity_on-device_virtual_try-on.md)
 - [Towards High-fidelity 3D Talking Avatar with Personalized Dynamic Texture](towards_high-fidelity_3d_talking_avatar_with_personalized_dynamic_texture.md)
 - [Hearing Anywhere in Any Environment](hearing_anywhere_in_any_environment.md)
 - [Wear-Any-Way: Manipulable Virtual Try-on via Sparse Correspondence Alignment](../../ECCV2024/human_understanding/wear-any-way_manipulable_virtual_try-on_via_sparse_correspondence_alignment.md)

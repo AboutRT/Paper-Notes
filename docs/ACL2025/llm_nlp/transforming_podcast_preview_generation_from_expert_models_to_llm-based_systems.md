@@ -145,8 +145,8 @@ Spotify 提出用 LLM（Gemini 1.5 Pro）替代传统多模型特征工程流水
 
 - [WarriorCoder: Learning from Expert Battles to Augment Code Large Language Models](warriorcoder_learning_from_expert_battles_to_augment_code_large_language_models.md)
 - [Do Language Models Understand Honorific Systems in Javanese?](do_language_models_understand_honorific_systems_in_javanese.md)
-- [Red-Teaming LLM Multi-Agent Systems via Communication Attacks](red-teaming_llm_multi-agent_systems_via_communication_attacks.md)
 - [From Selection to Generation: A Survey of LLM-based Active Learning](from_selection_to_generation_a_survey.md)
+- [Red-Teaming LLM Multi-Agent Systems via Communication Attacks](red-teaming_llm_multi-agent_systems_via_communication_attacks.md)
 - [Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models](generative_psycholexical_approach_for_constructing_value.md)
 
 <!-- RELATED:END -->

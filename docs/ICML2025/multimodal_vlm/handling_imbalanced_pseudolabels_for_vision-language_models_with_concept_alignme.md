@@ -141,6 +141,6 @@ $$\mathcal{L}_m(y, \mathbf{z}) = -\log \frac{e^{z_y}}{e^{z_y} + \sum_{c \neq y} 
 - [Unified Vision-Language Modeling via Concept Space Alignment](../../ICLR2026/multimodal_vlm/unified_vision-language_modeling_via_concept_space_alignment.md)
 - [CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](../../CVPR2026/multimodal_vlm/capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)
 - [Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models](kernel-based_unsupervised_embedding_alignment_for_enhanced_visual_representation.md)
-- [Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment](../../NeurIPS2025/multimodal_vlm/aligning_by_misaligning_boundaryaware_curriculum_learning_fo.md)
+- [Taxonomy-Aware Evaluation of Vision-Language Models](../../CVPR2025/multimodal_vlm/taxonomy-aware_evaluation_of_vision-language_models.md)
 
 <!-- RELATED:END -->

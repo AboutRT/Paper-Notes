@@ -136,10 +136,10 @@ $$\mathcal{L}_{layout} = \frac{1}{2}(\mathcal{L}_{layout}^{q2g} + \mathcal{L}_{l
 
 ## 相关论文
 
-- [HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)
 - [MOS: Modeling Object-Scene Associations in Generalized Category Discovery](../../CVPR2025/others/mos_modeling_object-scene_associations_in_generalized_category_discovery.md)
-- [I Can't Believe It's Not Scene Flow!](../../ECCV2024/others/i_canapost_believe_itaposs_not_scene_flow.md)
 - [GeAR: Generation Augmented Retrieval](../../ACL2025/others/gear_generation_augmented_retrieval.md)
 - [SimRecon: SimReady Compositional Scene Reconstruction from Real Videos](../../CVPR2026/others/simrecon_simready_compositional_scene_reconstruction_from_real_videos.md)
+- [Towards Temporal Fusion Beyond the Field of View for Camera-based Semantic Scene Completion](../../AAAI2026/others/towards_temporal_fusion_beyond_the_field_of_view_for_camera-based_semantic_scene.md)
+- [AdaSFormer: Adaptive Serialized Transformers for Monocular Semantic Scene Completion from Indoor Environments](../../CVPR2026/others/adasformer_adaptive_serialized_transformers_for_monocular_semantic_scene_complet.md)
 
 <!-- RELATED:END -->

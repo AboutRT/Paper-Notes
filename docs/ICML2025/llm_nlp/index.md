@@ -2,7 +2,7 @@
 title: >-
   ICML2025 LLM/NLP方向 19篇论文解读
 description: >-
-  19篇ICML2025 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  19篇ICML2025 LLM/NLP论文解读，主题涵盖：提出 AMCN（Adaptive、提出B-score指标，通过比较LLM在单轮(si、提出 BEST-Route（Best-of-n等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

@@ -73,9 +73,9 @@ tags:
 ## 相关论文
 
 - [Enhancing Few-Shot Class-Incremental Learning via Training-Free Bi-Level Modality Calibration](enhancing_few-shot_class-incremental_learning_via_training-free_bi-level_modalit.md)
-- [Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training](../../ACL2025/aigc_detection/greater_adversarial_mgt_detection.md)
-- [ASCIIBench: Evaluating Language-Model-Based Understanding of Visually-Oriented Text](../../NeurIPS2025/aigc_detection/asciibench_evaluating_language-model-based_understanding_of_visually-oriented_te.md)
 - ["Jutters"](../../NeurIPS2025/aigc_detection/jutters.md)
-- [A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI](../../ACL2025/aigc_detection/a_rose_by_any_other_name_llm-generated_explanations_are_good_proxies_for_human_e.md)
+- [People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](../../ACL2025/aigc_detection/chatgpt_user_ai_text_detection.md)
+- [Classical Planning with LLM-Generated Heuristics: Challenging the State of the Art with Python Code](../../NeurIPS2025/aigc_detection/classical_planning_with_llm-generated_heuristics_challenging_the_state_of_the_ar.md)
+- [ASCIIBench: Evaluating Language-Model-Based Understanding of Visually-Oriented Text](../../NeurIPS2025/aigc_detection/asciibench_evaluating_language-model-based_understanding_of_visually-oriented_te.md)
 
 <!-- RELATED:END -->

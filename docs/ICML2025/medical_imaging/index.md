@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 医学图像方向 63篇论文解读
+  ICML2025 医学图像方向 62篇论文解读
 description: >-
-  63篇ICML2025 医学图像方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  62篇ICML2025 医学图像论文解读，主题涵盖：将多智能体强化学习中的对手塑形（Opponent、提出 Energy-based、提出通用贝叶斯框架来建模相关人类专家和分类器之间的等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🧪 ICML2025** · **63** 篇论文解读
+**🧪 ICML2025** · **62** 篇论文解读
 
 **[ADIOS: Antibody Development via Opponent Shaping](adios_antibody_development_via_opponent_shaping.md)**
 
@@ -241,10 +241,6 @@ description: >-
 **[The Four Color Theorem for Cell Instance Segmentation](the_four_color_theorem_for_cell_instance_segmentation.md)**
 
 :   将四色定理引入细胞实例分割，将每个细胞视为"国家"、背景为"海洋"，用仅 4 类语义分割替代实例分割，并设计渐进训练策略和编码变换方法解决四色编码的非唯一性问题，在多种成像模式上达到 SOTA 性能同时大幅降低模型复杂度。
-
-**[Training Flexible Models of Genetic Variant Effects from Functional Annotations using Accelerated Linear Algebra](training_flexible_models_of_genetic_variant_effects_from_functional_annotations.md)**
-
-:   DeepWAS利用LD矩阵的带状近似做mini-batch训练 + Woodbury恒等式重参数化使矩阵良条件化 + 迭代线性代数算法（CG+SLQ）GPU加速，首次实现在百万变异规模上用大规模神经网络（5200万参数Transformer）优化完整边际似然来预测基因变异效应，核心发现是更大模型仅在全似然训练下才带来提升而在摘要统计量训练下反而退步。
 
 **[Training Flexible Models of Genetic Variant Effects from Functional Annotations using Accelerated Linear Algebra](training_flexible_models_of_genetic_variant_effects_from_functional_annotations_.md)**
 

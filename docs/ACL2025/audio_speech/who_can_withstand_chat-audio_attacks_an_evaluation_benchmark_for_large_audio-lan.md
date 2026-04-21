@@ -133,8 +133,8 @@ tags:
 ## 相关论文
 
 - [Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](audio_dialogue_benchmark.md)
-- [Towards Reliable Large Audio Language Model](towards_reliable_large_audio_language_model.md)
 - [Investigating and Enhancing Vision-Audio Capability in Omnimodal Large Language Models](investigating_and_enhancing_vision-audio_capability_in_omnimodal_large_language_.md)
+- [Towards Reliable Large Audio Language Model](towards_reliable_large_audio_language_model.md)
 - [Mind the Gap! Static and Interactive Evaluations of Large Audio Models](mind_the_gap_static_and_interactive_evaluations_of_large_audio_models.md)
 - [Can LLMs Outshine Conventional Recommenders? A Comparative Evaluation](../../NeurIPS2025/audio_speech/can_llms_outshine_conventional_recommenders_a_comparative_evaluation.md)
 

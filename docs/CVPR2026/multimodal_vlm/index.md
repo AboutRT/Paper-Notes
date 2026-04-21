@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 多模态VLM方向 208篇论文解读
+  CVPR2026 多模态VLM方向 209篇论文解读
 description: >-
-  208篇CVPR2026 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  209篇CVPR2026 多模态VLM论文解读，主题涵盖：提出A3框架，包含理论驱动的三阶段广告美学评估范式、提出一种在VLM跨模态空间中具有闭式解的去偏方法、提出VLM去偏的闭式解方法，通过在跨模态嵌入空间中等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**📷 CVPR2026** · **208** 篇论文解读
+**📷 CVPR2026** · **209** 篇论文解读
 
 **[A3: Towards Advertising Aesthetic Assessment](a3_towards_advertising_aesthetic_assessment.md)**
 
@@ -93,6 +93,10 @@ description: >-
 **[CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)**
 
 :   提出 CAPT 混淆感知 prompt tuning 框架，通过语义混淆挖掘器（SEM）和样本混淆挖掘器（SAM）显式建模 VLM 的系统性误对齐模式，配合多粒度差异专家（MGDE）融合不同层次的混淆信息，在 11 个基准上取得 HM 83.90% 的最优表现。
+
+**[ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)**
+
+:   发布 ChartNet——150 万规模的高质量多模态图表数据集，通过代码引导合成管线生成包含图像-代码-数据表-文本-推理QA 的对齐五元组，在图表理解和推理任务上显著提升 VLM 性能，小模型微调后超越 GPT-4o。
 
 **[Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking](circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_.md)**
 

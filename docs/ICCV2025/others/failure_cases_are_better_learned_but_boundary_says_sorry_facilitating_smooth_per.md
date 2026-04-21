@@ -138,7 +138,7 @@ RPAT++ vs 12 个 SOTA 方法（PreActResNet-18）：
 - [On the Complexity-Faithfulness Trade-off of Gradient-Based Explanations](on_the_complexity-faithfulness_trade-off_of_gradient-based_explanations.md)
 - [TAET: Two-Stage Adversarial Equalization Training on Long-Tailed Distributions](../../CVPR2025/others/taet_two-stage_adversarial_equalization_training_on_long-tailed_distributions.md)
 - [FixTalk: Taming Identity Leakage for High-Quality Talking Head Generation in Extreme Cases](fixtalk_taming_identity_leakage_for_high-quality_talking_head_generation_in_extr.md)
-- [Towards Million-Scale Adversarial Robustness Evaluation With Stronger Individual Attacks](../../CVPR2025/others/towards_million-scale_adversarial_robustness_evaluation_with_stronger_individual.md)
 - [IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](../../CVPR2026/others/irisfp_adversarial-example-based_model_fingerprinting_with_enhanced_uniqueness_a.md)
+- [Towards Million-Scale Adversarial Robustness Evaluation With Stronger Individual Attacks](../../CVPR2025/others/towards_million-scale_adversarial_robustness_evaluation_with_stronger_individual.md)
 
 <!-- RELATED:END -->

@@ -134,6 +134,6 @@ TPL 在以下任务上优于现有方法：
 - [Multiple Object Tracking as ID Prediction](../../CVPR2025/object_detection/multiple_object_tracking_as_id_prediction.md)
 - [Anchored Answers: Unravelling Positional Bias in GPT-2's Multiple-Choice Questions](../../ACL2025/object_detection/anchored_answers_unravelling_positional_bias_in_gpt-2s_multiple-choice_questions.md)
 - [HumanMM: Global Human Motion Recovery from Multi-shot Videos](../../CVPR2025/object_detection/humanmm_global_human_motion_recovery_from_multi-shot_videos.md)
-- [When Trackers Date Fish: A Benchmark and Framework for Underwater Multiple Fish Tracking](../../AAAI2026/object_detection/when_trackers_date_fish_a_benchmark_and_framework_for_underwater_multiple_fish_t.md)
+- [WALKER: Self-supervised Multiple Object Tracking by Walking on Temporal Appearance Graphs](../../ECCV2024/object_detection/walker_self-supervised_multiple_object_tracking_by_walking_on_temporal_appearanc.md)
 
 <!-- RELATED:END -->

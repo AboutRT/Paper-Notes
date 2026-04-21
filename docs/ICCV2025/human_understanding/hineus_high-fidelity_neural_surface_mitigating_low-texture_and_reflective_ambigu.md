@@ -154,6 +154,6 @@ $$\mathcal{L}_{eikonal} = \frac{1}{|\mathcal{S}|}\sum_{\mathbf{x}\in\mathcal{S}}
 - [4DSurf: High-Fidelity Dynamic Scene Surface Reconstruction](../../CVPR2026/human_understanding/textit4dsurf_high-fidelity_dynamic_scene_surface_reconstruction.md)
 - [Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging](hi3dgen_high-fidelity_3d_geometry_generation_from_images_via_normal_bridging.md)
 - [Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars](avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md)
-- [Reflective Translation: Improving Low-Resource Machine Translation via Structured Self-Reflection](../../NeurIPS2025/human_understanding/reflective_translation_improving_low-resource_machine_translation_via_structured.md)
+- [Mitigating Object Hallucinations via Sentence-Level Early Intervention](mitigating_object_hallucinations_via_sentence-level_early_intervention.md)
 
 <!-- RELATED:END -->

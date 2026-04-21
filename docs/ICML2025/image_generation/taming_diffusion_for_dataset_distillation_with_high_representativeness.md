@@ -150,7 +150,7 @@ CIFAR-10 IPC=50 上 D³HR 较最优基线 RDED 提升 **12.5%**（ResNet-18）�
 - [CaO2: Rectifying Inconsistencies in Diffusion-Based Dataset Distillation](../../ICCV2025/image_generation/cao2_rectifying_inconsistencies_in_diffusion-based_dataset_distillation.md)
 - [Learnability-Guided Diffusion for Dataset Distillation](../../CVPR2026/image_generation/learnability-guided_diffusion_for_dataset_distillation.md)
 - [DiffSim: Taming Diffusion Models for Evaluating Visual Similarity](../../ICCV2025/image_generation/diffsim_taming_diffusion_models_for_evaluating_visual_similarity.md)
-- [LIVS: A Pluralistic Alignment Dataset for Inclusive Public Spaces](livs_a_pluralistic_alignment_dataset_for_inclusive_public_spaces.md)
+- [A High-Quality Robust Diffusion Framework for Corrupted Dataset](../../ECCV2024/image_generation/a_highquality_robust_diffusion_framework_for_corrupted_datas.md)
 - [Taming Rectified Flow for Inversion and Editing](taming_rectified_flow_for_inversion_and_editing.md)
 
 <!-- RELATED:END -->

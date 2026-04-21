@@ -205,6 +205,6 @@ MLR attention 的层级结构天然适合时间序列中的多尺度时间依赖
 - [FLAVC: Learned Video Compression with Feature Level Attention](../../CVPR2025/time_series/flavc_learned_video_compression_with_feature_level_attention.md)
 - [Structured Temporal Causality for Interpretable Multivariate Time Series Anomaly Detection](../../NeurIPS2025/time_series/structured_temporal_causality_for_interpretable_multivariate_time_series_anomaly.md)
 - [MAESTRO: Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series](../../NeurIPS2025/time_series/maestro_adaptive_sparse_attention_and_robust_learning_for_multimodal_dynamic_tim.md)
-- [When Will It Fail?: Anomaly to Prompt for Forecasting Future Anomalies in Time Series](when_will_it_fail_anomaly_to_prompt_for_forecasting_future_anomalies_in_time_ser.md)
+- [WAVE: Weighted Autoregressive Varying Gate for Time Series Forecasting](wave_weighted_autoregressive_varying_gate_for_time_series_forecasting.md)
 
 <!-- RELATED:END -->

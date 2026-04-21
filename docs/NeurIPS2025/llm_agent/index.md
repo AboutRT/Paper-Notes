@@ -2,7 +2,7 @@
 title: >-
   NeurIPS2025 LLM Agent方向 50篇论文解读
 description: >-
-  50篇NeurIPS2025 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  50篇NeurIPS2025 LLM Agent论文解读，主题涵盖：提出 A-Mem，一种受 Zettelkasten、提出 Adaptive Coopetition、提出 AgentAuditor——一个免训练等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

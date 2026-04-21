@@ -129,6 +129,6 @@ POD 在 PCP(α=0.05) 上比纯优化基线 RSRD 提升超过 **32 个百分点**
 - [HRScene: How Far Are VLMs from Effective High-Resolution Image Understanding?](hrscene_how_far_are_vlms_from_effective_high-resolution_image_understanding.md)
 - [An OpenMind for 3D Medical Vision Self-Supervised Learning](an_openmind_for_3d_medical_vision_self-supervised_learning.md)
 - [MoEdit: On Learning Quantity Perception for Multi-Object Image Editing](../../CVPR2025/medical_imaging/moedit_on_learning_quantity_perception_for_multi-object_image_editing.md)
-- [iDPA: Instance Decoupled Prompt Attention for Incremental Medical Object Detection](../../ICML2025/medical_imaging/idpa_instance_decoupled_prompt_attention_for_incremental_medical_object_detectio.md)
+- [Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge](../../ACL2025/medical_imaging/biore_llm_judge_evaluation.md)
 
 <!-- RELATED:END -->

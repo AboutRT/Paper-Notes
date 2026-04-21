@@ -128,8 +128,8 @@ tags:
 
 - [Peering into the Unknown: Active View Selection with Neural Uncertainty Maps for 3D Reconstruction](../../ICLR2026/3d_vision/peering_into_the_unknown_active_view_selection_with_neural_uncertainty_maps_for_.md)
 - [SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](sparsesurf_sparse-view_3d_gaussian_splatting_for_surface_reconstruction.md)
-- [MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting](meshsplat_generalizable_sparse-view_surface_reconstruction_via_gaussian_splattin.md)
 - [Domain Generalized Stereo Matching with Uncertainty-guided Data Augmentation](domain_generalized_stereo_matching_with_uncertainty-guided_data_augmentation.md)
-- [Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy](../../CVPR2026/3d_vision/neural_field-based_3d_surface_reconstruction_of_microstructures_from_multi-detec.md)
+- [MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting](meshsplat_generalizable_sparse-view_surface_reconstruction_via_gaussian_splattin.md)
+- [A Probability-guided Sampler for Neural Implicit Surface Rendering](../../ECCV2024/3d_vision/a_probabilityguided_sampler_for_neural_implicit_surface_rend.md)
 
 <!-- RELATED:END -->

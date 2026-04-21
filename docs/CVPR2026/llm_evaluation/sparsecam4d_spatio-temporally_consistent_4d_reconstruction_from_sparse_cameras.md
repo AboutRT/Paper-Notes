@@ -143,9 +143,9 @@ STDF 消融（Train/Jumping 场景 LPIPS↓ / SSIM↑）：
 ## 相关论文
 
 - [Practical Solutions to the Relative Pose of Three Calibrated Cameras](../../CVPR2025/llm_evaluation/practical_solutions_to_the_relative_pose_of_three_calibrated_cameras.md)
-- [Are LLM Belief Updates Consistent with Bayes' Theorem?](../../ICML2025/llm_evaluation/are_llm_belief_updates_consistent_with_bayes_theorem.md)
 - [VinaBench: Benchmark for Faithful and Consistent Visual Narratives](../../CVPR2025/llm_evaluation/vinabench_benchmark_for_faithful_and_consistent_visual_narratives.md)
+- [Are LLM Belief Updates Consistent with Bayes' Theorem?](../../ICML2025/llm_evaluation/are_llm_belief_updates_consistent_with_bayes_theorem.md)
 - [Deep Cost Ray Fusion for Sparse Depth Video Completion](../../ECCV2024/llm_evaluation/deep_cost_ray_fusion_for_sparse_depth_video_completion.md)
-- [Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models](out_of_sight_out_of_mind_evaluating_state_evolutio.md)
+- [Weakly Supervised Video Anomaly Detection with Anomaly-Connected Components and Intention Reasoning](weakly_supervised_video_anomaly_detection_with_anomaly-connected_components_and_.md)
 
 <!-- RELATED:END -->

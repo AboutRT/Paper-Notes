@@ -72,6 +72,7 @@ tags:
 
 ### 主实验
 **MUSIC-Duet 多声源**：
+
 | 方法 | Backbone | CAP(%) | CIoU@0.3 | AUC |
 |------|----------|--------|----------|-----|
 | Mix-and-Localize (CVPR22) | RN18 | 47.5 | 26.5 | 21.5 |
@@ -85,6 +86,7 @@ tags:
 **单声源 (MUSIC / VGGSound-Single)**：与最强 baseline 持平或略优。
 
 ### 消融实验
+
 | 配置 | CIoU@0.3 (Duet) |
 |------|-----------------|
 | Baseline (no MLLM, no OCA, no ORI) | 38.6 |

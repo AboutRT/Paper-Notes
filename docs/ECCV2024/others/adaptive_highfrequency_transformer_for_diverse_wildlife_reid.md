@@ -117,7 +117,7 @@ tags:
 - [Online Temporal Action Localization with Memory-Augmented Transformer](online_temporal_action_localization_with_memory-augmented_transformer.md)
 - [Wavelength-Embedding-guided Filter-Array Transformer for Spectral Demosaicing](wavelength-embedding-guided_filter-array_transformer_for_spectral_demosaicing.md)
 - [Re-identification of De-identified Documents with Autoregressive Infilling](../../ACL2025/others/reidentification_deidentified.md)
-- [A High-Quality Robust Diffusion Framework for Corrupted Dataset](a_highquality_robust_diffusion_framework_for_corrupted_datas.md)
 - [Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking](../../ACL2025/others/inner_thinking_transformer_leveraging_dynamic_depth_scaling_to_foster_adaptive_i.md)
+- [High-Fidelity 3D Textured Shapes Generation by Sparse Encoding and Adversarial Decoding](high-fidelity_3d_textured_shapes_generation_by_sparse_encoding_and_adversarial_d.md)
 
 <!-- RELATED:END -->

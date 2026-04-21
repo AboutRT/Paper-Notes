@@ -215,6 +215,6 @@ Director C 在 FD_CLaTr 上相比 MDM 降低 3.0，相比 CCD 降低 32.1；CLaT
 - [Active Generation for Image Classification](active_generation_for_image_classification.md)
 - [Elegantly Written: Disentangling Writer and Character Styles for Enhancing Online Chinese Handwriting](elegantly_written_disentangling_writer_and_character_styles_for_enhancing_online.md)
 - [Next-Scale Autoregressive Models for Text-to-Motion Generation](../../CVPR2026/others/next-scale_autoregressive_models_for_text-to-motion_generation.md)
-- [An Epistemic Perspective on Agent Awareness](../../AAAI2026/others/an_epistemic_perspective_on_agent_awareness.md)
+- [Spotting Out-of-Character Behavior: Atomic-Level Evaluation of Persona Fidelity in Open-Ended Generation](../../ACL2025/others/spotting_out-of-character_behavior_atomic-level_evaluation_of_persona_fidelity_i.md)
 
 <!-- RELATED:END -->

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 医学图像方向 23篇论文解读
+  ACL2025 医学图像方向 22篇论文解读
 description: >-
-  23篇ACL2025 医学图像方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  22篇ACL2025 医学图像论文解读，主题涵盖：将罗马尼亚语医疗程序名称匹配建模为检索问题而非分类、构建首个大规模泛非洲医学问答基准、提出结构化放射学报告生成（SRRG）新任务等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**💬 ACL2025** · **23** 篇论文解读
+**💬 ACL2025** · **22** 篇论文解读
 
 **[A Retrieval-Based Approach to Medical Procedure Matching in Romanian](a_retrieval-based_approach_to_medical_procedure_matching_in_romanian.md)**
 
@@ -57,10 +57,6 @@ description: >-
 **[ANGEL: Learning from Negative Samples in Biomedical Generative Entity Linking](learning_from_negative_samples_in_biomedical_generative_entity_linking.md)**
 
 :   提出 ANGEL 框架，首次在生成式生物医学实体链接（BioEL）中引入负样本训练，通过两阶段策略（正样本训练 + 负样本感知的偏好优化）显著提升模型区分表面形式相似但语义不同的实体的能力，在五个基准数据集上平均 top-1 准确率提升 1.7%。
-
-**[MedBioRAG: Semantic Search and Retrieval-Augmented Generation with Large Language Models for Medical and Biological QA](medbiorag_semantic_search_and_retrieval-augmented_generation_for_biomedical_lite.md)**
-
-:   MedBioRAG 提出了一种结合语义搜索、文档检索和微调 LLM 的检索增强生成框架，在生物医学问答的文本检索、封闭式 QA 和长文本 QA 三类任务上全面超越 GPT-4o 基线和此前 SOTA。
 
 **[MedBioRAG: Semantic Search and Retrieval-Augmented Generation with Large Language Models for Medical and Biological QA](medbiorag_semantic_search_and_retrieval-augmented_generation_with_large_language.md)**
 

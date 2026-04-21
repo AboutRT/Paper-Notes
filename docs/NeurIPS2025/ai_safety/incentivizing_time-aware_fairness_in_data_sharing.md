@@ -144,6 +144,6 @@ tags:
 - [Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs](../../ICML2025/ai_safety/is_your_model_fairly_certain_uncertainty-aware_fairness_evaluation_for_llms.md)
 - [Fairness under Competition](fairness_under_competition.md)
 - [FairContrast: Enhancing Fairness through Contrastive Learning and Customized Augmentation](faircontrast_enhancing_fairness_through_contrastive_learning_and_customized_augm.md)
-- [MARS: A Malignity-Aware Backdoor Defense in Federated Learning](mars_a_malignity-aware_backdoor_defense_in_federated_learning.md)
+- [Provable Watermarking for Data Poisoning Attacks](provable_watermarking_for_data_poisoning_attacks.md)
 
 <!-- RELATED:END -->

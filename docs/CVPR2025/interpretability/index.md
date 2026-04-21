@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 可解释性方向 14篇论文解读
+  CVPR2025 可解释性方向 17篇论文解读
 description: >-
-  14篇CVPR2025 可解释性方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  17篇CVPR2025 可解释性论文解读，主题涵盖：提出基于可解释基 BRDF 的可微逆渲染方法、提出一个从基准构建、诊断到注入的完整框架，通过、本文提出一种基于非参数原型学习的可解释图像分类框架等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**📷 CVPR2025** · **14** 篇论文解读
+**📷 CVPR2025** · **17** 篇论文解读
 
 **[Differentiable Inverse Rendering with Interpretable Basis BRDFs](differentiable_inverse_rendering_with_interpretable_basis_brdfs.md)**
 
@@ -25,6 +25,14 @@ description: >-
 **[KVQ: Boosting Video Quality Assessment via Saliency-Guided Local Perception](kvq_boosting_video_quality_assessment_via_saliency-guided_local_perception.md)**
 
 :   KVQ 受人类视觉系统启发，将视频全局质量显式解耦为视觉显著性和局部纹理两个因素，通过 Fusion-Window Attention 提取跨区域显著性、Local Perception Constraint 增强独立区域的纹理感知，在五个 VQA benchmark 上显著超越 SOTA。
+
+**[L-SWAG: Layer-Sample Wise Activation with Gradients Information for Zero-Shot NAS on Vision Transformers](l-swag_layer-sample_wise_activation_with_gradients_information_for_zero-shot_nas.md)**
+
+:   本文提出L-SWAG（Layer-Sample Wise Activation with Gradients），一种新型通用零代价代理，通过结合层级和样本级的激活值与梯度信息来评估网络架构质量，首次将零代价NAS系统性地扩展到Vision Transformer搜索空间，并在Autoformer搜索空间的6个任务上建立了新的benchmark。
+
+**[Language Guided Concept Bottleneck Models for Interpretable Continual Learning](language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md)**
+
+:   将语言引导的概念瓶颈模型 (CBM) 整合到持续学习中，通过 ChatGPT 生成类别概念、CLIP 编码的概念对齐模块和语义引导的原型增强策略，在 ImageNet-subset 上实现最终准确率 +3.06% 的提升，同时提供透明可解释的决策过程。
 
 **[Learning on Model Weights using Tree Experts](learning_on_model_weights_using_tree_experts.md)**
 
@@ -53,6 +61,10 @@ description: >-
 **[Scaling Vision Pre-Training to 4K Resolution](scaling_vision_pre-training_to_4k_resolution.md)**
 
 :   本文提出PS3（Pre-training with Scale-Selective Scaling），通过局部区域与局部caption的对比学习代替全图对比，以近常数的计算开销将CLIP式视觉预训练扩展到4K分辨率，并结合top-down/bottom-up patch选择机制构建VILA-HD多模态大模型，在高分辨率感知任务上大幅超越GPT-4o和Qwen2.5-VL。
+
+**[TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction](tide_training_locally_interpretable_domain_generalization_models_enables_test-ti.md)**
+
+:   本文提出TIDE，一种针对单源域泛化的新型训练方案，利用扩散模型和LLM自动生成类别级概念标注（如"鸟类=尖嘴+翅膀+爪子"），通过概念显著性对齐损失训练模型关注域不变的局部概念而非全局背景特征，使模型在测试时能通过概念显著图自动矫正域偏移导致的错误预测。
 
 **[Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)**
 

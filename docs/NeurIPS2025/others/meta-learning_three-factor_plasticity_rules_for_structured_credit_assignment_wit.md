@@ -128,6 +128,6 @@ tags:
 - [Is Meta-Learning Out? Rethinking Unsupervised Few-Shot Classification with Limited Entropy](../../ICCV2025/others/is_meta-learning_out_rethinking_unsupervised_few-shot_classification_with_limite.md)
 - [Feature Selection for Latent Factor Models](../../CVPR2025/others/feature_selection_for_latent_factor_models.md)
 - [Lost in Time? A Meta-Learning Framework for Time-Shift-Tolerant Physiological Signal Transformation](../../AAAI2026/others/lost_in_time_a_meta-learning_framework_for_time-shift-tolerant_physiological_sig.md)
-- [Three-View Focal Length Recovery From Homographies](../../CVPR2025/others/three-view_focal_length_recovery_from_homographies.md)
+- [Graph-Structured Trajectory Extraction from Travelogues](../../ACL2025/others/graph-structured_trajectory_extraction_from_travelogues.md)
 
 <!-- RELATED:END -->

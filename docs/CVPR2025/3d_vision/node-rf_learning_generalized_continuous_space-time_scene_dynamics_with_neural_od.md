@@ -144,6 +144,6 @@ tags:
 - [Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video](joint_optimization_of_neural_radiance_fields_and_continuous_camera_motion_from_a.md)
 - [Decompositional Neural Scene Reconstruction with Generative Diffusion Prior](decompositional_neural_scene_reconstruction_with_generative_diffusion_prior.md)
 - [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](slam3r_real-time_dense_scene_reconstruction_from_monocular_rgb_videos.md)
-- [EigenGS: Representation from Eigenspace to Gaussian Image Space](eigengs_representation_from_eigenspace_to_gaussian_image_space.md)
+- [Continuous 3D Perception Model with Persistent State](continuous_3d_perception_model_with_persistent_state.md)
 
 <!-- RELATED:END -->

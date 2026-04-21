@@ -2,7 +2,7 @@
 title: >-
   ICLR2026 音频/语音方向 25篇论文解读
 description: >-
-  25篇ICLR2026 音频/语音方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  25篇ICLR2026 音频/语音论文解读，主题涵盖：提出 AC-Foley，一种参考音频引导的视频到音、首次将 Sparse Autoencoder、提出 Dynamic Parameter等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

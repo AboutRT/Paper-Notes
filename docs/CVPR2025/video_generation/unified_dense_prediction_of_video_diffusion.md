@@ -131,6 +131,6 @@ UDPDiff 基于 CogVideoX 5B 构建。将视频潜在码 $z_t^v$ 与密集预测�
 - [Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](../../ICLR2026/video_generation/lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)
 - [WorldScore: A Unified Evaluation Benchmark for World Generation](../../ICCV2025/video_generation/worldscore_a_unified_evaluation_benchmark_for_world_generation.md)
 - [OCK: Unsupervised Dynamic Video Prediction with Object-Centric Kinematics](../../ICCV2025/video_generation/ock_unsupervised_dynamic_video_prediction_with_object-centric_kinematics.md)
-- [World-Consistent Video Diffusion with Explicit 3D Modeling](world-consistent_video_diffusion_with_explicit_3d_modeling.md)
+- [From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](from_slow_bidirectional_to_fast_autoregressive_video_diffusion_models.md)
 
 <!-- RELATED:END -->

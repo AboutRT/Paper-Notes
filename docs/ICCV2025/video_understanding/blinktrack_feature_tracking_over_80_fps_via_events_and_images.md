@@ -150,6 +150,6 @@ BlinkTrack 包含三个核心组件：
 - [Localizing Events in Videos with Multimodal Queries](../../CVPR2025/video_understanding/localizing_events_in_videos_with_multimodal_queries.md)
 - [Exploring the Feature Extraction and Relation Modeling For Light-Weight Transformer Tracking](../../ECCV2024/video_understanding/exploring_the_feature_extraction_and_relation_modeling_for_light-weight_transfor.md)
 - [Online Dense Point Tracking with Streaming Memory](online_dense_point_tracking_with_streaming_memory.md)
-- [General Compression Framework for Efficient Transformer Object Tracking](general_compression_framework_for_efficient_transformer_object_tracking.md)
+- [Online Time Series Prediction Using Feature Adjustment](../../ICLR2026/video_understanding/online_time_series_prediction_using_feature_adjustment.md)
 
 <!-- RELATED:END -->

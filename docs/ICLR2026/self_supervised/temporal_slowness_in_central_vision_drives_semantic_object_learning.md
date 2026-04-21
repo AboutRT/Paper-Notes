@@ -125,6 +125,6 @@ Ego4D 帧 → 注视点预测（GLC 模型）→ 中央视觉裁剪 → MoCoV3 +
 - [UniSTD: Towards Unified Spatio-Temporal Learning Across Diverse Disciplines](../../CVPR2025/self_supervised/unistd_towards_unified_spatio-temporal_learning_across_diverse_disciplines.md)
 - [SEAL: Semantic-Aware Hierarchical Learning for Generalized Category Discovery](../../NeurIPS2025/self_supervised/seal_semantic-aware_hierarchical_learning_for_generalized_category_discovery.md)
 - [Suppressing Non-Semantic Noise in Masked Image Modeling Representations](../../CVPR2026/self_supervised/suppressing_non-semantic_noise_in_masked_image_modeling_representations.md)
-- [Vision Transformers Need More Than Registers](../../CVPR2026/self_supervised/vision_transformers_need_more_than_registers.md)
+- [Vision Transformers Need More Than Registers](../../CVPR2026/self_supervised/vit_need_more_than_registers.md)
 
 <!-- RELATED:END -->

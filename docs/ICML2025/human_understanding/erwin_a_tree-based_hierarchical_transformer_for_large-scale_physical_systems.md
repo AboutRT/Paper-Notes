@@ -202,6 +202,6 @@ Erwin 在四个大规模物理领域进行了验证：
 - [HiPART: Hierarchical Pose AutoRegressive Transformer for Occluded 3D Human Pose Estimation](../../CVPR2025/human_understanding/hipart_hierarchical_pose_autoregressive_transformer_for_occluded_3d_human_pose_e.md)
 - [GraphChain: Large Language Models for Large-scale Graph Analysis via Tool Chaining](../../NeurIPS2025/human_understanding/graphchain_large_language_models_for_large-scale_graph_analysis_via_tool_chainin.md)
 - [From Logits to Hierarchies: Hierarchical Clustering made Simple](from_logits_to_hierarchies_hierarchical_clustering_made_simple.md)
-- [Scaling Large Motion Models with Million-Level Human Motions](scaling_large_motion_models_with_million-level_human_motions.md)
+- [ImHead: A Large-scale Implicit Morphable Model for Localized Head Modeling](../../ICCV2025/human_understanding/imhead_a_large-scale_implicit_morphable_model_for_localized_head_modeling.md)
 
 <!-- RELATED:END -->

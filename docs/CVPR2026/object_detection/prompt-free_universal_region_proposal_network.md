@@ -137,7 +137,7 @@ PF-RPN 在 CD-FSOD 上比 Grounding DINO 提升 +7.8/+11.8/+13.5 AR，在 ODinW1
 
 ## 相关论文
 
-- [Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](mitigating_memorization_in_text-to-image_diffusion_via_region-aware_prompt_augme.md)
+- [Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](mitigating_memorization_in_texttoimage_diffusion_v.md)
 - [Training-free Detection of Generated Videos via Spatial-Temporal Likelihoods](training-free_detection_of_generated_videos_via_spatial-temporal_likelihoods.md)
 - [UniGoal: Towards Universal Zero-shot Goal-oriented Navigation](../../CVPR2025/object_detection/unigoal_towards_universal_zero-shot_goal-oriented_navigation.md)
 - [PET-DINO: Unifying Visual Cues into Grounding DINO with Prompt-Enriched Training](pet-dino_unifying_visual_cues_into_grounding_dino_with_prompt-enriched_training.md)

@@ -137,6 +137,6 @@ ProDVa 在 pLDDT 提升 4.63%，PAE 降低 2.71%，pLDDT>70 比例提升 13.66%�
 - [Flexibility-conditioned Protein Structure Design with Flow Matching](../../ICML2025/medical_imaging/flexibility-conditioned_protein_structure_design_with_flow_matching.md)
 - [Elucidating the Design Space of Multimodal Protein Language Models](../../ICML2025/medical_imaging/elucidating_the_design_space_of_multimodal_protein_language_models.md)
 - [ConfRover: Simultaneous Modeling of Protein Conformation and Dynamics via Autoregression](confrover_simultaneous_modeling_of_protein_conformation_and_dynamics_via_autoreg.md)
-- [Towards Multiscale Graph-based Protein Learning with Geometric Secondary Structural Motifs](towards_multiscale_graph-based_protein_learning_with_geometric_secondary_structu.md)
+- [Steering Generative Models with Experimental Data for Protein Fitness Optimization](steering_generative_models_with_experimental_data_for_protein_fitness_optimizati.md)
 
 <!-- RELATED:END -->

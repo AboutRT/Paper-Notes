@@ -173,7 +173,7 @@ GaussianFormer 以可比的性能（mIoU 19.10 vs SurroundOcc 20.30）实现了�
 - [Fully Sparse 3D Occupancy Prediction](fully_sparse_3d_occupancy_prediction.md)
 - [Semantic Causality-Aware Vision-Based 3D Occupancy Prediction](../../ICCV2025/autonomous_driving/semantic_causality-aware_vision-based_3d_occupancy_prediction.md)
 - [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](occworld_learning_a_3d_occupancy_world_model_for_autonomous_driving.md)
-- [OccGen: Generative Multi-modal 3D Occupancy Prediction for Autonomous Driving](occgen_generative_multimodal_3d_occupancy_prediction_for_aut.md)
 - [GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction](../../CVPR2025/autonomous_driving/gaussianformer-2_probabilistic_gaussian_superposition_for_efficient_3d_occupancy.md)
+- [EmbodiedOcc: Embodied 3D Occupancy Prediction for Vision-based Online Scene Understanding](../../ICCV2025/autonomous_driving/embodiedocc_embodied_3d_occupancy_prediction_for_vision-based_online_scene_under.md)
 
 <!-- RELATED:END -->

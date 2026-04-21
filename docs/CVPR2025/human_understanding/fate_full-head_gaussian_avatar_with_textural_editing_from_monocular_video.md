@@ -110,6 +110,6 @@ $\mathcal{L} = \mathcal{L}_{L1} + 0.1\mathcal{L}_{VGG} + 100\mathcal{L}_{lap} + 
 - [GGTalker: Talking Head Synthesis with Generalizable Gaussian Priors and Identity-Specific Adaptation](../../ICCV2025/human_understanding/ggtalker_talking_head_systhesis_with_generalizable_gaussian_priors_and_identity-.md)
 - [Condition Matters in Full-head 3D GANs](../../ICLR2026/human_understanding/condition_matters_in_full-head_3d_gans.md)
 - [VASA-3D: Lifelike Audio-Driven Gaussian Head Avatars from a Single Image](../../NeurIPS2025/human_understanding/vasa-3d_lifelike_audio-driven_gaussian_head_avatars_from_a_single_image.md)
-- [Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video](../../NeurIPS2025/human_understanding/node-based_editing_for_multimodal_generation_of_text_audio_image_and_video.md)
+- [Towards High-fidelity 3D Talking Avatar with Personalized Dynamic Texture](towards_high-fidelity_3d_talking_avatar_with_personalized_dynamic_texture.md)
 
 <!-- RELATED:END -->

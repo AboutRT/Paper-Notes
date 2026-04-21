@@ -2,7 +2,7 @@
 title: >-
   ACL2025 LLM评测方向 75篇论文解读
 description: >-
-  75篇ACL2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  75篇ACL2025 LLM评测论文解读，主题涵盖：提出基于 conformal risk、引入 MisMatched——首个覆盖非 CS、提出 AbGen——首个评估 LLM等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

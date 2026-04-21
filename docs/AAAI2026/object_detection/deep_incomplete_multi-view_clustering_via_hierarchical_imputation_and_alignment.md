@@ -190,6 +190,6 @@ $$\mathcal{L}_\text{CAA} = \frac{1}{2}\sum_v \sum_{v' \neq v} [\text{sim}(v,v') 
 - [REXO: Indoor Multi-View Radar Object Detection via 3D Bounding Box Diffusion](rexo_indoor_multi-view_radar_object_detection_via_3d_bounding_box_diffusion.md)
 - [Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning](continuous_vision-language-action_co-learning_with_semantic-.md)
 - [AerialMind: Towards Referring Multi-Object Tracking in UAV Scenarios](aerialmind_towards_referring_multi-object_tracking_in_uav_sc.md)
-- [Pippo: High-Resolution Multi-View Humans from a Single Image](../../CVPR2025/object_detection/pippo_high-resolution_multi-view_humans_from_a_single_image.md)
+- [ViewSRD: 3D Visual Grounding via Structured Multi-View Decomposition](../../ICCV2025/object_detection/viewsrd_3d_visual_grounding_via_structured_multi-view_decomposition.md)
 
 <!-- RELATED:END -->

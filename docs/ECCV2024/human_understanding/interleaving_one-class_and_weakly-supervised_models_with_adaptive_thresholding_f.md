@@ -153,10 +153,10 @@ tags:
 
 ## 相关论文
 
-- [Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection](selfsupervised_feature_adaptation_for_3d_industrial_ano.md)
+- [Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection](self-supervised_feature_adaptation_for_3d_industrial_anomaly_detection.md)
 - [VideoClusterNet: Self-Supervised and Adaptive Face Clustering for Videos](videoclusternet_self-supervised_and_adaptive_face_clustering_for_videos.md)
 - [Anomize: Better Open Vocabulary Video Anomaly Detection](../../CVPR2025/human_understanding/anomize_better_open_vocabulary_video_anomaly_detection.md)
 - [Sequential Keypoint Density Estimator: An Overlooked Baseline of Skeleton-Based Video Anomaly Detection](../../ICCV2025/human_understanding/sequential_keypoint_density_estimator_an_overlooked_baseline_of_skeleton-based_v.md)
-- [One-stage Prompt-based Continual Learning](one-stage_prompt-based_continual_learning.md)
+- [Weakly Supervised Visible-Infrared Person Re-Identification via Heterogeneous Expert Collaborative Consistency Learning](../../ICCV2025/human_understanding/weakly_supervised_visible-infrared_person_re-identification_via_heterogeneous_ex.md)
 
 <!-- RELATED:END -->

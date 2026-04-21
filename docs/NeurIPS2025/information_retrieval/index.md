@@ -2,7 +2,7 @@
 title: >-
   NeurIPS2025 信息检索/RAG方向 31篇论文解读
 description: >-
-  31篇NeurIPS2025 信息检索/RAG方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  31篇NeurIPS2025 信息检索/RAG论文解读，主题涵盖：提出 MMDocRAG 基准（4055、提出 CoRAG 框架，通过拒绝采样自动生成中间检、提出 REFORM 推理框架，通过"压缩—检索—重等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -52,7 +52,7 @@ description: >-
 
 **[HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)**
 
-:   提出 HyperGraphRAG——首个基于超图结构知识表示的 RAG 方法，通过超边连接多个实体来表示 n 元关系事实（$n \geq 2$），克服了现有图 RAG 方法仅能表示二元关系的局限，在医学、农业、计算机科学、法律等多领域的回答准确性、检索效率和生成质量上均优于标准 RAG 和图 RAG 方法。
+:   提出 HyperGraphRAG，首个基于超图 (hypergraph) 结构的 RAG 方法，通过超边 (hyperedge) 建模 n 元关系（n≥2），克服了现有图谱 RAG 方法受限于二元关系的瓶颈，在医学、农业、计算机科学和法律等领域的问答任务中全面超越 StandardRAG 和 GraphRAG 系列方法。
 
 **[Improving Consistency in Retrieval-Augmented Systems with Group Similarity Rewards](improving_consistency_in_retrieval-augmented_systems_with_group_similarity_rewar.md)**
 

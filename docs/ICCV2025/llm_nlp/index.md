@@ -2,7 +2,7 @@
 title: >-
   ICCV2025 LLM/NLP方向 2篇论文解读
 description: >-
-  2篇ICCV2025 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  2篇ICCV2025 LLM/NLP论文解读，主题涵盖：提出Analytic Subspace、提出 SubZero（random等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

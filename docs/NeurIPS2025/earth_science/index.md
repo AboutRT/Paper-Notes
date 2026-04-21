@@ -2,7 +2,7 @@
 title: >-
   NeurIPS2025 地球科学方向 5篇论文解读
 description: >-
-  5篇NeurIPS2025 地球科学方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  5篇NeurIPS2025 地球科学论文解读，主题涵盖：首次将概率 U-Net 应用于气候统计降尺度（16、提出 Adaptive Online、提出 ControlFusion等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

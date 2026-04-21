@@ -93,6 +93,6 @@ tags:
 - [Two by Two: Learning Multi-Task Pairwise Objects Assembly for Generalizable Robot Manipulation](two_by_two_learning_multi-task_pairwise_objects_assembly_for_generalizable_robot.md)
 - [GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities](gigahands_a_massive_annotated_dataset_of_bimanual_hand_activities.md)
 - [BiPreManip: Learning Affordance-Based Bimanual Preparatory Manipulation through Anticipatory Collaboration](../../CVPR2026/human_understanding/bipremanip_learning_affordance-based_bimanual_preparatory_manipulation_through_a.md)
-- [Less is More: Efficient Model Merging with Binary Task Switch](less_is_more_efficient_model_merging_with_binary_task_switch.md)
+- [Project-Probe-Aggregate: Efficient Fine-Tuning for Group Robustness](project-probe-aggregate_efficient_fine-tuning_for_group_robustness.md)
 
 <!-- RELATED:END -->

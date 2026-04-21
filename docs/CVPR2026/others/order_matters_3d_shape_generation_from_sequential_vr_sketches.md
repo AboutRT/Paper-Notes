@@ -149,10 +149,10 @@ VRSketch2Shape 在所有设置下大幅领先：
 
 ## 相关论文
 
-- [Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching](../../ECCV2024/others/synchronous_diffusion_for_unsupervised_smooth_non-rigid_3d_shape_matching.md)
-- [SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md)
-- [ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
+- [SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](sldprtnet_a_largescale_multimodal_dataset_for_cad.md)
 - [Higher-Order Responsibility](../../AAAI2026/others/higher-order_responsibility.md)
-- [Next-Scale Autoregressive Models for Text-to-Motion Generation](next-scale_autoregressive_models_for_text-to-motion_generation.md)
+- [ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
+- [High-Fidelity 3D Textured Shapes Generation by Sparse Encoding and Adversarial Decoding](../../ECCV2024/others/high-fidelity_3d_textured_shapes_generation_by_sparse_encoding_and_adversarial_d.md)
+- [MetaFind: Scene-Aware 3D Asset Retrieval for Coherent Metaverse Scene Generation](../../NeurIPS2025/others/metafind_scene-aware_3d_asset_retrieval_for_coherent_metaverse_scene_generation.md)
 
 <!-- RELATED:END -->

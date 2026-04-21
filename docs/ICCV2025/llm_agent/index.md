@@ -2,7 +2,7 @@
 title: >-
   ICCV2025 LLM Agent方向 4篇论文解读
 description: >-
-  4篇ICCV2025 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  4篇ICCV2025 LLM Agent论文解读，主题涵盖：提出一个三阶段自监督框架，通过agent自主导航收、发现RL训练VLM Agent时的"思维坍塌"现象、提出 SimpAgent——一种上下文感知的简化框等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

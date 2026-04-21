@@ -91,10 +91,10 @@ $\mathcal{L} = (1-\lambda_1)L_1 + \lambda_1 D_{SSIM}$。60 帧分段训练。
 
 ## 相关论文
 
-- [Latent-INR: A Flexible Framework for Implicit Representations of Videos with Discriminative Semantics](../../ECCV2024/audio_speech/latent-inr_a_flexible_framework_for_implicit_representations_of_videos_with_disc.md)
 - [Dynamic Parameter Memory: Temporary LoRA-Enhanced LLM for Long-Sequence Emotion Recognition in Conversation](../../ICLR2026/audio_speech/dynamic_parameter_memory_temporary_lora-enhanced_llm_for_long-sequence_emotion_r.md)
+- [Latent-INR: A Flexible Framework for Implicit Representations of Videos with Discriminative Semantics](../../ECCV2024/audio_speech/latent-inr_a_flexible_framework_for_implicit_representations_of_videos_with_disc.md)
+- [Action2Sound: Ambient-Aware Generation of Action Sounds from Egocentric Videos](../../ECCV2024/audio_speech/action2sound_ambientaware_generation_of_action_sounds_from_e.md)
+- [Spherical World-Locking for Audio-Visual Localization in Egocentric Videos](../../ECCV2024/audio_speech/spherical_world-locking_for_audio-visual_localization_in_egocentric_videos.md)
 - [Object-aware Sound Source Localization via Audio-Visual Scene Understanding](object-aware_sound_source_localization_via_audio-visual_scene_understanding.md)
-- [Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation](crab_a_unified_audio-visual_scene_understanding_model_with_explicit_cooperation.md)
-- [Improving Sound Source Localization with Joint Slot Attention on Image and Audio](improving_sound_source_localization_with_joint_slot_attention_on_image_and_audio.md)
 
 <!-- RELATED:END -->

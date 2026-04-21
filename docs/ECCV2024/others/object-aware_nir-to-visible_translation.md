@@ -125,8 +125,8 @@ tags:
 
 - [Shifted Autoencoders for Point Annotation Restoration in Object Counting](shifted_autoencoders_for_point_annotation_restoration_in_object_counting.md)
 - [Towards Style Alignment in Cross-Cultural Translation](../../ACL2025/others/towards_style_alignment_in_cross-cultural_translation.md)
-- [Action2Sound: Ambient-Aware Generation of Action Sounds from Egocentric Videos](action2sound_ambientaware_generation_of_action_sounds_from_e.md)
 - [Spatio-Temporal Proximity-Aware Dual-Path Model for Panoramic Activity Recognition](spatio-temporal_proximity-aware_dual-path_model_for_panoramic_activity_recogniti.md)
 - [Jigsaw++: Imagining Complete Shape Priors for Object Reassembly](../../ICCV2025/others/jigsaw_imagining_complete_shape_priors_for_object_reassembly.md)
+- [Improving Language and Modality Transfer in Translation by Character-level Modeling](../../ACL2025/others/improving_language_and_modality_transfer_in.md)
 
 <!-- RELATED:END -->

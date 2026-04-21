@@ -158,7 +158,7 @@ tags:
 
 ## 相关论文
 
-- [Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models](overthinking_hallucination_confounder_propagation.md)
+- [Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models](overthinking_causes_hallucination_tracing_confounder_propagation_in_vision_langu.md)
 - [Understanding Task Transfer in Vision-Language Models](understanding_task_transfer_in_vision-language_models.md)
 - [Visual Symbolic Mechanisms: Emergent Symbol Processing in Vision Language Models](../../ICLR2026/multimodal_vlm/visual_symbolic_mechanisms_vlm.md)
 - [Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World](thinking_in_dynamics_how_multimodal_large_language_models_perceive_track_and_rea.md)

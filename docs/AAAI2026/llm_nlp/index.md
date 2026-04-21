@@ -2,7 +2,7 @@
 title: >-
   AAAI2026 LLM/NLP方向 29篇论文解读
 description: >-
-  29篇AAAI2026 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  29篇AAAI2026 LLM/NLP论文解读，主题涵盖：提出不变潜空间假说(ILSH)、系统评估了四个开源function-calling、系统性揭示了当前 LLM 中 system/use等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

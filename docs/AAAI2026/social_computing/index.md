@@ -2,7 +2,7 @@
 title: >-
   AAAI2026 社会计算方向 10篇论文解读
 description: >-
-  10篇AAAI2026 社会计算方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  10篇AAAI2026 社会计算论文解读，主题涵盖：提出 ABIDE（Argumentative、本文提出ED2D框架，在多智能体辩论（MAD）系统、提出 Cross-modal Prompting等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

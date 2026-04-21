@@ -2,7 +2,7 @@
 title: >-
   NeurIPS2025 LLM评测方向 71篇论文解读
 description: >-
-  71篇NeurIPS2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  71篇NeurIPS2025 LLM评测论文解读，主题涵盖：提出基于K-L散度和高维统计分析的理论框架、提出 **ESCAPE**——首个标准化的多标签抗、提出统一框架将 KernelSHAP等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -128,7 +128,7 @@ description: >-
 
 **[HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)**
 
-:   提出 HouseLayout3D——首个面向多层建筑的真实世界 3D 布局估计基准（16 栋建筑、33 层楼、317 房间、292 门、379 窗、34 楼梯），以及完全 training-free 的 MultiFloor3D 四阶段 pipeline（3D 重建 → 骨架提取 → 多边形拟合 → 场景图构建），在多层建筑场景中全面超越 RoomFormer 和 SceneScript。
+:   提出 HouseLayout3D——首个面向大规模多层建筑的真实世界 3D layout 估计基准，以及 MultiFloor3D——一个无需训练的基线方法，通过组合现代 3D 重建和分割模型在多层建筑 layout 估计上超越现有深度学习方法。
 
 **[HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization](hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md)**
 

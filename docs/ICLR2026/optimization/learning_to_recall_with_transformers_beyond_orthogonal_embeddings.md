@@ -159,7 +159,7 @@ tags:
 
 ## 相关论文
 
-- [SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated learning](../../CVPR2026/optimization/scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md)
+- [SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated Learning](../../CVPR2026/optimization/scope_semantic_coreset_with_orthogonal_projection.md)
 - [Markovian Transformers for Informative Language Modeling](markovian_transformers_for_informative_language_modeling.md)
 - [The Affine Divergence: Aligning Activation Updates Beyond Normalisation](the_affine_divergence_aligning_activation_updates_beyond_normalisation.md)
 - [Beyond the Mean: Fisher-Orthogonal Projection for Natural Gradient Descent in Large Batch Training](../../AAAI2026/optimization/beyond_the_mean_fisher-orthogonal_projection_for_natural_gradient_descent_in_lar.md)

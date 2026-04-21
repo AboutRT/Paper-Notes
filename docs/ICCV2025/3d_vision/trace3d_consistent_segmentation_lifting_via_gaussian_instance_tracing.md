@@ -182,6 +182,6 @@ $$L_{contr} = -\frac{1}{|\mathcal{U}|} \sum_{u \in \mathcal{U}} \log \frac{\sum_
 - [CutS3D: Cutting Semantics in 3D for 2D Unsupervised Instance Segmentation](cuts3d_cutting_semantics_in_3d_for_2d_unsupervised_instance_segmentation.md)
 - [Sketchy Bounding-Box Supervision for 3D Instance Segmentation](../../CVPR2025/3d_vision/sketchy_bounding-box_supervision_for_3d_instance_segmentation.md)
 - [Layered Motion Fusion: Lifting Motion Segmentation to 3D in Egocentric Videos](../../CVPR2025/3d_vision/layered_motion_fusion_lifting_motion_segmentation_to_3d_in_egocentric_videos.md)
-- [Towards Scalable Spatial Intelligence via 2D-to-3D Data Lifting](towards_scalable_spatial_intelligence_via_2d-to-3d_data_lifting.md)
+- [Relation3D: Enhancing Relation Modeling for Point Cloud Instance Segmentation](../../CVPR2025/3d_vision/relation3d_enhancing_relation_modeling_for_point_cloud_instance_segmentation.md)
 
 <!-- RELATED:END -->

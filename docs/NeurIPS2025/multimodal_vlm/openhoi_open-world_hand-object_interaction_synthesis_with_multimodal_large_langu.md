@@ -125,6 +125,6 @@ tags:
 - [Adapting Vision-Language Models for Evaluating World Models](adapting_visionlanguage_models_for_evaluating_world_models.md)
 - [MM-OPERA: Benchmarking Open-ended Association Reasoning for Large Vision-Language Models](mm-opera_benchmarking_open-ended_association_reasoning_for_large_vision-language.md)
 - [Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models](../../CVPR2025/multimodal_vlm/img-diff_contrastive_data_synthesis_for_multimodal_large_language_models.md)
-- [MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection](../../ECCV2024/multimodal_vlm/marvelovd_marrying_object_recognition_and_visionlanguage_mod.md)
+- [ODE: Open-Set Evaluation of Hallucinations in Multimodal Large Language Models](../../CVPR2025/multimodal_vlm/ode_open-set_evaluation_of_hallucinations_in_multimodal_large_language_models.md)
 
 <!-- RELATED:END -->

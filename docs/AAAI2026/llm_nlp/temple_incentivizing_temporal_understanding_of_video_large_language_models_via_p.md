@@ -129,9 +129,9 @@ tags:
 ## 相关论文
 
 - [ProFuser: Progressive Fusion of Large Language Models](profuser_progressive_fusion_of_large_language_models.md)
-- [RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives](../../CVPR2025/llm_nlp/roadsocial_a_diverse_videoqa_dataset_and_benchmark_for_road_event_understanding_.md)
 - [ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events](../../ACL2025/llm_nlp/chronosense_exploring_temporal_understanding_in_large_language_models_with_time_.md)
 - [Unlocking Recursive Thinking of LLMs: Alignment via Refinement](../../ACL2025/llm_nlp/unlocking_recursive_thinking_of_llms_alignment_via_refinement.md)
 - [FunQA: Towards Surprising Video Comprehension](../../ECCV2024/llm_nlp/funqa_towards_surprising_video_comprehension.md)
+- [PhysVid: Physics Aware Local Conditioning for Generative Video](../../CVPR2026/llm_nlp/physvid_physics_aware_local_conditioning_for_generative_video_models.md)
 
 <!-- RELATED:END -->

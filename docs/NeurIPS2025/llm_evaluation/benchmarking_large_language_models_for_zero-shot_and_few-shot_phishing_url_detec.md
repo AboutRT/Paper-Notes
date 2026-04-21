@@ -133,7 +133,7 @@ tags:
 - [Feedforward Few-shot Species Range Estimation](../../ICML2025/llm_evaluation/feedforward_few-shot_species_range_estimation.md)
 - [Unlocking Transfer Learning for Open-World Few-Shot Recognition](unlocking_transfer_learning_for_open-world_few-shot_recognition.md)
 - [Random Registers for Cross-Domain Few-Shot Learning](../../ICML2025/llm_evaluation/random_registers_for_cross-domain_few-shot_learning.md)
-- [A Conditional Probability Framework for Compositional Zero-shot Learning](../../ICCV2025/llm_evaluation/a_conditional_probability_framework_for_compositional_zerosh.md)
+- [A Conditional Probability Framework for Compositional Zero-shot Learning](../../ICCV2025/llm_evaluation/a_conditional_probability_framework_for_compositional_zero-shot_learning.md)
 - [Language Complexity Measurement as a Noisy Zero-Shot Proxy for Evaluating LLM Performance](../../ACL2025/llm_evaluation/language_complexity_measurement_as_a_noisy_zero-shot_proxy_for_evaluating_llm_pe.md)
 
 <!-- RELATED:END -->

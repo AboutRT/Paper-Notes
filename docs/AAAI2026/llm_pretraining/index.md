@@ -2,7 +2,7 @@
 title: >-
   AAAI2026 预训练方向 5篇论文解读
 description: >-
-  5篇AAAI2026 预训练方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  5篇AAAI2026 预训练论文解读，主题涵盖：ELSPR 将 LLM 评估器的成对偏好建模为锦标、提出 Support-Exemplar-Query、提出 Embedding CFR 算法等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

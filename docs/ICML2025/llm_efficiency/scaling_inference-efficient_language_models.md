@@ -172,6 +172,6 @@ Morph-1B 以仅 12 层的超浅架构，在保持 0.52 平均精度（与 v1/v2 
 - [Star Attention: Efficient LLM Inference over Long Sequences](star_attention_efficient_llm_inference_over_long_sequences.md)
 - [Ladder Residual: Parallelism-Aware Architecture for Accelerating Large Model Inference](ladder-residual_parallelism-aware_architecture_for_accelerating_large_model_infe.md)
 - [Scaling Context, Not Parameters: Training a Compact 7B Language Model for Efficient Long-Context Processing](../../ACL2025/llm_efficiency/scaling_context_not_parameters_training_a_compact_7b_language_model_for_efficien.md)
-- [On the Entropy Calibration of Language Models](../../NeurIPS2025/llm_efficiency/on_the_entropy_calibration_of_language_models.md)
+- [Efficient Length-Generalizable Attention via Causal Retrieval for Long-Context Language Modeling](efficient_length-generalizable_attention_via_causal_retrieval_for_long-context_l.md)
 
 <!-- RELATED:END -->

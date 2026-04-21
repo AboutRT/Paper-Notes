@@ -127,6 +127,6 @@ Tiled Diffusion 直接在潜空间表示上操作，在生成过程中同时创�
 - [LEDiff: Latent Exposure Diffusion for HDR Generation](lediff_latent_exposure_diffusion_for_hdr_generation.md)
 - [Erasing Undesirable Influence in Diffusion Models (EraseDiff)](erasing_undesirable_influence_in_diffusion_models.md)
 - [Random Conditioning for Diffusion Model Compression with Distillation](random_conditioning_for_diffusion_model_compression_with_distillation.md)
-- [VLOGGER: Multimodal Diffusion for Embodied Avatar Synthesis](vlogger_multimodal_diffusion_for_embodied_avatar_synthesis.md)
+- [Hierarchical Flow Diffusion for Efficient Frame Interpolation](hierarchical_flow_diffusion_for_efficient_frame_interpolation.md)
 
 <!-- RELATED:END -->

@@ -2,7 +2,7 @@
 title: >-
   ICLR2026 对齐/RLHF方向 38篇论文解读
 description: >-
-  38篇ICLR2026 对齐/RLHF方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  38篇ICLR2026 对齐/RLHF论文解读，主题涵盖：提出 A2D，一种针对扩散语言模型（dLLM）的、提出 Multi-Lingual、提出MetaAPO框架，用一个轻量级meta-le等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

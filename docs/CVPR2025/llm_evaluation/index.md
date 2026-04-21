@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 LLM评测方向 19篇论文解读
+  CVPR2025 LLM评测方向 25篇论文解读
 description: >-
-  19篇CVPR2025 LLM评测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  25篇CVPR2025 LLM评测论文解读，主题涵盖：ComfyBench 提出了首个评估LLM、提出 ConText-CIR 框架，通过、通过将密集匹配聚类为代表性子集等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**📷 CVPR2025** · **19** 篇论文解读
+**📷 CVPR2025** · **25** 篇论文解读
 
 **[ComfyBench: Benchmarking LLM-based Agents in ComfyUI for Autonomously Designing Collaborative AI Systems](comfybench_benchmarking_llm-based_agents_in_comfyui_for_autonomously_designing_c.md)**
 
@@ -18,9 +18,17 @@ description: >-
 
 :   提出 ConText-CIR 框架，通过 Text Concept-Consistency 损失让文本修改中的名词短语更好地关注查询图像的相关部分，配合合成数据生成管线，在多个 CIR 基准上取得 SOTA。
 
+**[Dense Match Summarization for Faster Two-view Estimation](dense_match_summarization_for_faster_two-view_estimation.md)**
+
+:   通过将密集匹配聚类为代表性子集，并用9×9矩阵编码每个聚类的几何约束，在保持精度的前提下将RANSAC鲁棒估计加速10-100倍。
+
 **[Do ImageNet-trained Models Learn Shortcuts? The Impact of Frequency Shortcuts on Generalization](do_imagenet-trained_models_learn_shortcuts_the_impact_of_frequency_shortcuts_on_.md)**
 
 :   提出层次化频率捷径搜索方法（HFSS），首次在ImageNet-1K规模上高效发现CNN和Transformer学到的频率捷径（仅5%频率即可正确分类），揭示频率捷径在保留纹理的OOD测试中反而有益但在风格化测试（IN-R/IN-S）上有害，指出现有OOD评估框架忽视了频率捷径的影响。
+
+**[Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders](dora_sampling_and_benchmarking_for_3d_shape_variational_auto-encoders.md)**
+
+:   提出 Dora-VAE，通过 Sharp Edge Sampling (SES) 关注几何锐边区域、Dual Cross-Attention 分别处理均匀和显著采样点，以仅 1,280 个 latent codes（8× 小于 XCube-VAE 的 10,000+）实现更优的 3D 形状重建质量，同时建立了新的 Dora-Bench 评测基准。
 
 **[Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning](dual_consolidation_for_pre-trained_model-based_domain-incremental_learning.md)**
 
@@ -42,6 +50,10 @@ description: >-
 
 :   提出 LoTUS，用 logits 温度调节+Gumbel-Softmax 平滑遗忘样本的预测，通过动态温度调度收敛到"遗忘集准确率=未见集准确率"的目标——在 ImageNet-1K 大规模设置中高效遗忘（ViT 上 Avg Gap 0.0150），且提出 RF-JSD 免重训评估指标（与 JSD Pearson 相关 0.92）。
 
+**[Making Old Film Great Again: Degradation-aware State Space Model for Old Film Restoration](making_old_film_great_again_degradation-aware_state_space_model_for_old_film_res.md)**
+
+:   本文提出MambaOFR框架，针对老电影特有的复合退化问题，设计退化感知prompt引导Mamba模型动态调整修复模式，配合光流引导的掩码变形对齐模块防止结构缺陷传播，并引入首个包含合成与真实数据的老电影修复benchmark数据集。
+
 **[On the Generalization of Handwritten Text Recognition Models](on_the_generalization_of_handwritten_text_recognition_models.md)**
 
 :   本文首次系统性地分析了 HTR 模型在域外（OOD）数据上的泛化能力，通过对 8 个 SOTA 模型在 7 个数据集（5 种语言）上的 336 种 OOD 评估发现：文本差异是影响泛化的最关键因素，OOD 误差在 70% 的情况下可以被可靠预估（偏差 <10 个百分点）。
@@ -58,6 +70,10 @@ description: >-
 
 :   构建 6500 对的大规模 RGB-偏振图像数据集 PolaRGB，并提出 PolarFree 两阶段网络——先用条件扩散模型生成无反射先验，再用去反射骨干网络分离透射层，在偏振引导的反射去除任务上超越先前方法约 2dB PSNR。
 
+**[PosterO: Structuring Layout Trees to Enable Language Models in Generalized Content-Aware Layout Generation](postero_structuring_layout_trees_to_enable_language_models_in_generalized_conten.md)**
+
+:   本文提出PosterO，一种以布局为中心的海报生成方法，将数据集中的布局结构化为SVG语言的层次化树表示，通过通用形状表示、设计意图向量化和层次节点描述三大机制，使LLM能够通过in-context learning在推理时生成多样化的内容感知布局。
+
 **[Potential Field Based Deep Metric Learning](potential_field_based_deep_metric_learning.md)**
 
 :   提出 PFML，用物理势能场概念替代传统的 tuple mining 进行度量学习——每个样本在嵌入空间中创建连续的引力场（同类）和斥力场（异类），具有距离衰减特性（远处交互力弱），在 Cars-196 上 R@1 达 92.7%（前 SOTA 89.6%）。
@@ -65,6 +81,14 @@ description: >-
 **[Practical Solutions to the Relative Pose of Three Calibrated Cameras](practical_solutions_to_the_relative_pose_of_three_calibrated_cameras.md)**
 
 :   本文针对三个标定相机的四点三视图（4p3v）相对位姿估计这一经典难题，提出了基于近似几何的实用求解方案——利用仿射相机近似或均值点近似对应来估计前两个相机的相对位姿，再通过P3P注册第三个相机，配合局部优化在真实数据上取得了SOTA精度。
+
+**[RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives](roadsocial_a_diverse_videoqa_dataset_and_benchmark_for_road_event_understanding_.md)**
+
+:   本文提出RoadSocial，一个来源于社交媒体的大规模多样化VideoQA数据集（13.2K视频、260K问答对），覆盖全球多地域多视角的道路事件场景，通过半自动标注框架和12类QA任务系统性评测了18种Video LLM的道路事件理解能力。
+
+**[SATA: Spatial Autocorrelation Token Analysis for Enhancing the Robustness of Vision Transformers](sata_spatial_autocorrelation_token_analysis_for_enhancing_the_robustness_of_visi.md)**
+
+:   本文提出SATA（Spatial Autocorrelation Token Analysis），一种免训练的ViT鲁棒性增强方法，通过空间自相关分析将token按空间关联模式分组，利用分组信息重新加权token表示，提升ViT在分布偏移和对抗攻击下的鲁棒性，且不影响干净样本性能。
 
 **[Scene-Agnostic Pose Regression for Visual Localization](scene-agnostic_pose_regression_for_visual_localization.md)**
 

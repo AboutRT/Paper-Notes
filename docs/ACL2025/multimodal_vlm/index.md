@@ -2,7 +2,7 @@
 title: >-
   ACL2025 多模态VLM方向 122篇论文解读
 description: >-
-  122篇ACL2025 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  122篇ACL2025 多模态VLM论文解读，主题涵盖：提出AdamMeme——一个基于多智能体协作的自适、提出 Adaptive Linguistic、提出MAC基准和diversity-promoti等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

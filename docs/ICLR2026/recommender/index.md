@@ -2,7 +2,7 @@
 title: >-
   ICLR2026 推荐系统方向 9篇论文解读
 description: >-
-  9篇ICLR2026 推荐系统方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  9篇ICLR2026 推荐系统论文解读，主题涵盖：提出 C2AL（Cohort-Contrastiv、构建 VideoSafetyEval（11.4k、理论证明任意 Multi-Generator-Ev等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

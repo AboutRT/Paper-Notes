@@ -2,7 +2,7 @@
 title: >-
   CVPR2025 LLM Agent方向 10篇论文解读
 description: >-
-  10篇CVPR2025 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  10篇CVPR2025 LLM Agent论文解读，主题涵盖：提出 ATA（Adaptive、提出 Feature4X，一个通用框架、提出 GUI-Xplore 数据集（312等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

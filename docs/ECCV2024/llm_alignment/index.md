@@ -1,8 +1,15 @@
+---
+title: >-
+  ECCV2024 对齐/RLHF方向 1篇论文解读
+description: >-
+  1篇ECCV2024 对齐/RLHF论文解读，主题涵盖：提出首个面向面部情感行为分析（FABA）的指令微调等，每篇含核心思想与方法详解。
+---
+
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# ⚖️ 对齐 / RLHF
+# ⚖️ 对齐/RLHF
 
-**🎞️ ECCV2024** · 共 **1** 篇
+**🎞️ ECCV2024** · **1** 篇论文解读
 
-**[Improving Intervention Efficacy via Concept Realignment in Concept Bottleneck Models](improving_intervention_efficacy_via_concept_realignment_in_concept_bottleneck_mo.md)**
+**[Facial Affective Behavior Analysis with Instruction Tuning](facial_affective_behavior_analysis_with_instruction_tuning.md)**
 
-:   本文发现 Concept Bottleneck Models (CBMs) 中人工干预效率低下的原因在于干预时各概念独立处理、忽视了概念间关联，提出了一个轻量级的 Concept Intervention Realignment Module (CIRM)，在干预后自动重新对齐相关概念的预测值，将达到目标性能所需的干预次数最多减少 70%。
+:   提出首个面向面部情感行为分析（FABA）的指令微调数据集 FABA-Instruct、评测基准 FABA-Bench 以及高效 MLLM 架构 EmoLA，通过面部先验专家模块和 LoRA 适配实现了对情绪与 AU 的细粒度描述与识别。

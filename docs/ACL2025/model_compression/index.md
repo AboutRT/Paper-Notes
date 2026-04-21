@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 模型压缩方向 64篇论文解读
+  ACL2025 模型压缩方向 65篇论文解读
 description: >-
-  64篇ACL2025 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  65篇ACL2025 模型压缩论文解读，主题涵盖：提出 500xCompressor，将最多约、发现 KV Cache 的 outlier、AlignDistil 证明了 RLHF等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**💬 ACL2025** · **64** 篇论文解读
+**💬 ACL2025** · **65** 篇论文解读
 
 **[500xCompressor: Generalized Prompt Compression for Large Language Models](500xcompressor_generalized_prompt_compression_for_large_language_models.md)**
 
@@ -247,6 +247,10 @@ description: >-
 **[Trans-PEFT: Transferable Parameter-Efficient Fine-Tuning on Evolving Base Models](trans_peft_transferable.md)**
 
 :   Trans-PEFT 发现基座模型更新（如 Qwen2→Qwen2.5）主要改变 FFN 层的任务知识存储而较少影响 Attention 层的任务模式，据此提出层内知识掩码和跨层知识丢弃两种策略，使在旧版本上训练的 PEFT 模块可直接迁移到新版本而不需重新微调，性能提升可达 30%。
+
+**[TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs](trimllm_layer_dropping.md)**
+
+:   提出TrimLLM，基于层级专业化（layer-wise specialization）现象，在领域微调过程中渐进式丢弃对目标领域不重要的层，在50-60%压缩率下无精度损失且获得2.1-5.7倍推理加速，且不依赖专用硬件。
 
 **[UniICL: An Efficient ICL Framework Unifying Compression, Selection, and Generation](uniicl_icl_framework.md)**
 

@@ -128,7 +128,7 @@ Qwen2-VL-7B 上提升更大（M3CoT +4.6%, LLaVA-W +5.3%）。
 
 ## 相关论文
 
-- [Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought](../../CVPR2026/llm_reasoning/red_rationale_enhanced_decoding_cot.md)
+- [Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought](../../CVPR2026/llm_reasoning/rationale-enhanced_decoding_for_multi-modal_chain-of-thought.md)
 - [TumorChain: Interleaved Multimodal Chain-of-Thought Reasoning for Traceable Clinical Tumor Analysis](../../ICLR2026/llm_reasoning/tumorchain_interleaved_multimodal_chain-of-thought_reasoning_for_traceable_clini.md)
 - [Argus: Vision-Centric Reasoning with Grounded Chain-of-Thought](argus_vision-centric_reasoning_with_grounded_chain-of-thought.md)
 - [SPRINT: Enabling Interleaved Planning and Parallelized Execution in Reasoning Models](../../NeurIPS2025/llm_reasoning/sprint_enabling_interleaved_planning_and_parallelized_execution_in_reasoning_mod.md)

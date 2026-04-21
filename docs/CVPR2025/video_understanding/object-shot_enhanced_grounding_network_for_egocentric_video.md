@@ -73,6 +73,7 @@ OSGNet 针对第一人称视频自然语言查询 (NLQ) 的两大短板——视
 
 ### 主实验
 **Ego4D-NLQ v1 Test (R@1, IoU=0.5)**：
+
 | 方法 | Feature | R@1@0.5 |
 |------|---------|---------|
 | InternVideo | E+I | 10.06 |
@@ -90,6 +91,7 @@ OSGNet† 比 RGNet† 提升 +3.77 点 R@1@0.5，提升 +6.74 点 R@5@0.5。
 **vs GroundVQA on NLQ**：R@1@0.5 +2.15。
 
 ### 消融实验
+
 | 配置 | R@1@0.5 (Ego4D-NLQ) |
 |------|--------------------|
 | Baseline (no object, no shot) | ~13 |

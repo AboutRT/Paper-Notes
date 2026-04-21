@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 多模态VLM方向 74篇论文解读
+  AAAI2026 多模态VLM方向 73篇论文解读
 description: >-
-  74篇AAAI2026 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  73篇AAAI2026 多模态VLM论文解读，主题涵盖：提出 CDDS 算法，通过双路径 UNet、构建anyECG数据集（含报告生成、波形定位、提出基于 VLM 的自主任务完成评估框架等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**🤖 AAAI2026** · **74** 篇论文解读
+**🤖 AAAI2026** · **73** 篇论文解读
 
 **[Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment](aligning_the_true_semantics_constrained_decoupling_and_distr.md)**
 
@@ -185,10 +185,6 @@ description: >-
 **[PatientVLM Meets DocVLM: Pre-Consultation Dialogue Between Vision-Language Models for Efficient Diagnosis](patientvlm_meets_docvlm_pre-consultation_dialogue_between_vision-language_models.md)**
 
 :   提出Pre-Consultation Dialogue Framework (PCDF)，通过两个VLM（DocVLM和PatientVLM）模拟医生-患者多轮对话，生成image-dialogue-diagnosis三元组用于微调DocVLM，在四个医学影像基准上平均F1提升11.48。
-
-**[PatientVLM Meets DocVLM: Pre-Consultation Dialogue Between Vision-Language Models for Efficient Diagnosis](patientvlm_meets_docvlm_pre-consultation_dialogue_between_vision_language_models.md)**
-
-:   本文提出PCDF（Pre-Consultation Dialogue Framework），通过两个VLM角色扮演——DocVLM提问、PatientVLM回答——模拟真实医患对话，生成image-dialogue-diagnosis三元组用于微调DocVLM，在四个医学影像基准上平均F1提升11.48个百分点，且不依赖真实临床对话数据。
 
 **[PET2Rep: Towards Vision-Language Model-Driven Automated Radiology Report Generation for Positron Emission Tomography](pet2rep_towards_vision-language_model-drived_automated_radiology_report_generati.md)**
 

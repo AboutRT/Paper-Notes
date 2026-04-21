@@ -163,8 +163,8 @@ Llama3.1-8B-Instruct 结果：
 
 - [Adaptive Retrieval without Self-Knowledge? Bringing Uncertainty Back Home](adaptive_retrieval_without_self-knowledge_bringing_uncertainty_back_home.md)
 - [Micro-Act: Mitigate Knowledge Conflict in QA via Actionable Self-Reasoning](micro_act_knowledge_conflict_reasoning.md)
-- [HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](../../NeurIPS2025/others/hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)
 - [GeAR: Generation Augmented Retrieval](gear_generation_augmented_retrieval.md)
 - [HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation](hash-rag_bridging_deep_hashing_with_retriever_for_efficient_fine_retrieval_and_a.md)
+- [Commonsense Reasoning in Arab Culture](commonsense_arab_culture.md)
 
 <!-- RELATED:END -->

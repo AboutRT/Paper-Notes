@@ -153,6 +153,6 @@ Shapley 值 → 约束回归问题 (Eq.1.2)
 - [READoc: A Unified Benchmark for Realistic Document Structured Extraction](../../ACL2025/llm_evaluation/readoc_a_unified_benchmark_for_realistic_document_structured_extraction.md)
 - [TUMLU: A Unified and Native Language Understanding Benchmark for Turkic Languages](../../ACL2025/llm_evaluation/tumlu_a_unified_and_native_language_understanding_benchmark_for_turkic_languages.md)
 - [HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization](hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md)
-- [Cost-Sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning](cost-sensitive_freeze-thaw_bayesian_optimization_for_efficient_hyperparameter_tu.md)
+- [Efficient Semantic Uncertainty Quantification in Language Models via Diversity-Steered Sampling](efficient_semantic_uncertainty_quantification_in_language_models_via_diversity-s.md)
 
 <!-- RELATED:END -->

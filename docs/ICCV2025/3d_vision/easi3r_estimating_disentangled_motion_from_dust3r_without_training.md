@@ -141,6 +141,6 @@ Easi3R 基于两阶段推理流程：
 - [Estimating Body and Hand Motion in an Ego-sensed World](../../CVPR2025/3d_vision/estimating_body_and_hand_motion_in_an_ego-sensed_world.md)
 - [Shape of Motion: 4D Reconstruction from a Single Video](shape_of_motion_4d_reconstruction_from_a_single_video.md)
 - [CoMoGaussian: Continuous Motion-Aware Gaussian Splatting from Motion-Blurred Images](comogaussian_continuous_motionaware_gaussian_splatting_from.md)
-- [4D Visual Pre-training for Robot Learning](4d_visual_pretraining_for_robot_learning.md)
+- [4D Visual Pre-training for Robot Learning](4d_visual_pre-training_for_robot_learning.md)
 
 <!-- RELATED:END -->

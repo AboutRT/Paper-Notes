@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 视频生成方向 77篇论文解读
+  CVPR2025 视频生成方向 76篇论文解读
 description: >-
-  77篇CVPR2025 视频生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  76篇CVPR2025 视频生成论文解读，主题涵盖：提出4Real-Video，一种基于双流架构的4D、提出两阶段可控视频生成框架：第一阶段将不同控制信号、提出 AKD，将视频扩散模型（CogVideoX-等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎬 视频生成
 
-**📷 CVPR2025** · **77** 篇论文解读
+**📷 CVPR2025** · **76** 篇论文解读
 
 **[4Real-Video: Learning Generalizable Photo-Realistic 4D Video Diffusion](4real-video_learning_generalizable_photo-realistic_4d_video_diffusion.md)**
 
@@ -21,10 +21,6 @@ description: >-
 **[Articulated Kinematics Distillation from Video Diffusion Models](articulated_kinematics_distillation_from_video_diffusion_models.md)**
 
 :   提出 AKD，将视频扩散模型（CogVideoX-5B）的运动先验通过 SDS 蒸馏到 3D 铰链角色的关节角度参数中，结合可微分前向运动学+高斯散射渲染+物理约束，实现文本驱动的真实角色动画，VideoPhy SA 得分从 TC4D 的 0.40 提升到 0.81。
-
-**[BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution](bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatia.md)**
-
-:   提出 BF-STVSR 框架，用 B-spline Mapper 建模时间运动插值、Fourier Mapper 捕获空间高频细节，无需外部光流网络即可实现连续时空视频超分辨率的 SOTA 性能。
 
 **[BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution](bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatial-temporal.md)**
 

@@ -123,7 +123,7 @@ ATRIE 包含两个核心模块：**法律概念解释器 (Legal Concept Interpre
 - [SkillVerse: Assessing and Enhancing LLMs with Tree Evaluation](skillverse_tree_eval.md)
 - [Which of These Best Describes Multiple Choice Evaluation with LLMs?](multiple_choice_eval.md)
 - [How LLMs Comprehend Temporal Meaning in Narratives: A Case Study in Cognitive Evaluation of LLMs](how_llms_comprehend_temporal_meaning_in_narratives_a_case_study_in_cognitive_eva.md)
-- [Psycholinguistic Word Features: A New Approach for the Evaluation of LLMs Alignment with Humans](psycholinguistic_word_features_a_new_approach_for_the_evaluation_of_llms_alignme.md)
 - [Length Controlled Generation for Black-box LLMs](length_controlled_generation_for_black-box_llms.md)
+- [Psycholinguistic Word Features: A New Approach for the Evaluation of LLMs Alignment with Humans](psycholinguistic_word_features_a_new_approach_for_the_evaluation_of_llms_alignme.md)
 
 <!-- RELATED:END -->

@@ -2,7 +2,7 @@
 title: >-
   ICLR2026 具身智能方向 46篇论文解读
 description: >-
-  46篇ICLR2026 具身智能方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  46篇ICLR2026 具身智能论文解读，主题涵盖：提出Tucker Adaptation、提出AGD解码策略，在每步生成时从高概率候选tok、提出 Episodic Spatial等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

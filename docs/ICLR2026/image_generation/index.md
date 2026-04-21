@@ -2,7 +2,7 @@
 title: >-
   ICLR2026 图像生成方向 152篇论文解读
 description: >-
-  152篇ICLR2026 图像生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  152篇ICLR2026 图像生成论文解读，主题涵盖：对扩散 Transformer、提出 AlignTok，将预训练视觉基础编码器（如、提出 BNNP（Bayesian Neural等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

@@ -135,7 +135,7 @@ IVPT在所有三个维度（可解释性+准确率）上均为最优。
 - [Concepts' Information Bottleneck Models](concepts_information_bottleneck_models.md)
 - [ConceptScope: Characterizing Dataset Bias via Disentangled Visual Concepts](../../NeurIPS2025/interpretability/conceptscope_characterizing_dataset_bias_via_disentangled_visual_concepts.md)
 - [Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations](../../AAAI2026/interpretability/concepts_from_representations_post-hoc_concept_bottleneck_models_via_sparse_deco.md)
-- [Layer by layer, module by module: Choose both for optimal OOD probing of ViT](layer_by_layer_module_by_module_choose_both_for_optimal_ood_probing_of_vit.md)
 - [Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings](cross-modal_redundancy_and_the_geometry_of_vision-language_embeddings.md)
+- [From Weights to Concepts: Data-Free Interpretability of CLIP via Singular Vector Decomposition](../../CVPR2026/interpretability/from_weights_to_concepts_data-free_interpretability_of_clip_via_singular_vector_.md)
 
 <!-- RELATED:END -->

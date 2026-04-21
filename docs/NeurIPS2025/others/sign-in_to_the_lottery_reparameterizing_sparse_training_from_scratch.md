@@ -125,6 +125,6 @@ Sign-In将每个权重参数θ重参数化为两个参数的逐元素乘积：θ
 - [ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](../../CVPR2025/others/zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
 - [Training the Untrainable: Introducing Inductive Bias via Representational Alignment](training_the_untrainable_introducing_inductive_bias_via_representational_alignme.md)
 - [Are Pixel-Wise Metrics Reliable for Sparse-View Computed Tomography Reconstruction?](are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md)
-- [HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)
+- [Instruction-Tuning Data Synthesis from Scratch via Web Reconstruction](../../ACL2025/others/instruction-tuning_data_synthesis_from_scratch_via_web_reconstruction.md)
 
 <!-- RELATED:END -->

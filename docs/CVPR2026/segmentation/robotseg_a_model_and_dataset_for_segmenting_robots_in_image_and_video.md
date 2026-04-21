@@ -133,6 +133,6 @@ tags:
 - [RS-SSM: Refining Forgotten Specifics in State Space Model for Video Semantic Segmentation](rs-ssm_refining_forgotten_specifics_in_state_space_model_for_video_semantic_segm.md)
 - [Live Interactive Training for Video Segmentation](live_interactive_training_for_video_segmentation.md)
 - [ARGenSeg: Image Segmentation with Autoregressive Image Generation Model](../../NeurIPS2025/segmentation/argenseg_image_segmentation_with_autoregressive_image_generation_model.md)
-- [ReferEverything: Towards Segmenting Everything We Can Speak of in Videos](../../ICCV2025/segmentation/refereverything_towards_segmenting_everything_we_can_speak_of_in_videos.md)
+- [CA-LoRA: Concept-Aware LoRA for Domain-Aligned Segmentation Dataset Generation](ca-lora_concept-aware_lora_for_domain-aligned_segmentation_dataset_generation.md)
 
 <!-- RELATED:END -->

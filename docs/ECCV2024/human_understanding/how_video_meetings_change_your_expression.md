@@ -175,6 +175,6 @@ FacET（可变chunks + predicted translator）显著优于所有消融变体。�
 - [Interleaving One-Class and Weakly-Supervised Models with Adaptive Thresholding for Unsupervised Video Anomaly Detection](interleaving_one-class_and_weakly-supervised_models_with_adaptive_thresholding_f.md)
 - [MagicArticulate: Make Your 3D Models Articulation-Ready](../../CVPR2025/human_understanding/magicarticulate_make_your_3d_models_articulation-ready.md)
 - [SAVE: Speech-Aware Video Representation Learning for Video-Text Retrieval](../../CVPR2026/human_understanding/save_speech-aware_video_representation_learning_for_video-text_retrieval.md)
-- [Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation](../../ICCV2025/human_understanding/align_your_rhythm_generating_highly_aligned_dance_poses_with_gating-enhanced_rhy.md)
+- [ReLoo: Reconstructing Humans Dressed in Loose Garments from Monocular Video in the Wild](reloo_reconstructing_humans_dressed_in_loose_garments_from_monocular_video_in_th.md)
 
 <!-- RELATED:END -->

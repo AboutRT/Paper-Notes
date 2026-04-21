@@ -118,6 +118,6 @@ $$\mathcal{L}_{total} = \lambda_1\mathcal{L}_2 + \lambda_2\mathcal{L}_{ssim} + \
 - [ICLR: Inter-Chrominance and Luminance Interaction for Natural Color Restoration in Low-Light Image Enhancement](../../AAAI2026/image_restoration/iclr_inter-chrominance_and_luminance_interaction_for_natural_color_restoration_i.md)
 - [DarkIR: Robust Low-Light Image Restoration](../../CVPR2025/image_restoration/darkir_robust_low-light_image_restoration.md)
 - [URWKV: Unified RWKV Model with Multi-State Perspective for Low-Light Image Restoration](../../CVPR2025/image_restoration/urwkv_unified_rwkv_model_with_multi-state_perspective_for_low-light_image_restor.md)
-- [Unrolled Decomposed Unpaired Learning for Controllable Low-Light Video Enhancement](../../ECCV2024/image_restoration/unrolled_decomposed_unpaired_learning_for_controllable_low-light_video_enhanceme.md)
+- [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](../../ECCV2024/image_restoration/towards_real-world_event-guided_low-light_video_enhancement_and_deblurring.md)
 
 <!-- RELATED:END -->

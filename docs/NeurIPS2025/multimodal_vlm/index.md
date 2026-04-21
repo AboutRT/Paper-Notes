@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 多模态VLM方向 143篇论文解读
+  NeurIPS2025 多模态VLM方向 144篇论文解读
 description: >-
-  143篇NeurIPS2025 多模态VLM方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  144篇NeurIPS2025 多模态VLM论文解读，主题涵盖：提出 M-Attack，通过对源图像做随机裁剪后与、构建了首个面向石油天然气行业视频广告的多模态框架分、提出ACT（Annotation with等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态VLM
 
-**🧠 NeurIPS2025** · **143** 篇论文解读
+**🧠 NeurIPS2025** · **144** 篇论文解读
 
 **[A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](a_frustratingly_simple_yet_highly_effective_attack_baseline.md)**
 
@@ -305,6 +305,10 @@ description: >-
 **[MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection](monitor_exploiting_large_language_models_with_instruction_for_online_video_anoma.md)**
 
 :   提出 MoniTor，一个基于记忆的在线评分队列方案，利用 LLM 进行免训练的在线视频异常检测（VAD），通过双层记忆机制、行为预测和标准评分队列引导 LLM 实现实时异常识别。
+
+**[Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)**
+
+:   构建了包含 134,533 个星系的图像-光谱-红移多模态数据集（GalaxiesML-Spectra），适配多模态掩码自编码器（MMAE）同时进行图像和光谱的联合重建与红移回归，证明在测试时即使光谱完全缺失，仅用 25% 掩码图像即可实现优于 AstroCLIP 的红移预测散度 $\sigma_{NMAD} = 0.016$。
 
 **[Multimodal Bandits: Regret Lower Bounds and Optimal Algorithms](multimodal_bandits_regret_lower_bounds_and_optimal_algorithms.md)**
 

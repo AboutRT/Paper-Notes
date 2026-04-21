@@ -140,6 +140,6 @@ MindDriver 以六路环视相机图像、历史前视帧、驾驶指令和自车
 - [Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving](../../ECCV2024/autonomous_driving/reason2drive_towards_interpretable_and_chain-based_reasoning_for_autonomous_driv.md)
 - [SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving](searchad_large-scale_rare_image_retrieval_dataset_for_autonomous_driving.md)
 - [An Instance-Centric Panoptic Occupancy Prediction Benchmark for Autonomous Driving](an_instance-centric_panoptic_occupancy_prediction_benchmark_for_autonomous_drivi.md)
-- [Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots](panoramic_multimodal_semantic_occupancy_prediction.md)
+- [T²SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving](../../CVPR2025/autonomous_driving/t2sg_traffic_topology_scene_graph_for_topology_reasoning_in_autonomous_driving.md)
 
 <!-- RELATED:END -->

@@ -167,6 +167,6 @@ $$\pi(a_t = a_t^i | s_t) = \frac{\exp(Q(s_t, a_t^i))}{\sum_{j=1}^{|A_t|} \exp(Q(
 - [Evolutionary Prediction Games](../../NeurIPS2025/others/evolutionary_prediction_games.md)
 - [Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
 - [SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
-- [Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis](tree-of-debate_multi-persona_debate_trees_elicit_critical_thinking_for_scientifi.md)
+- [Spotting Out-of-Character Behavior: Atomic-Level Evaluation of Persona Fidelity in Open-Ended Generation](spotting_out-of-character_behavior_atomic-level_evaluation_of_persona_fidelity_i.md)
 
 <!-- RELATED:END -->

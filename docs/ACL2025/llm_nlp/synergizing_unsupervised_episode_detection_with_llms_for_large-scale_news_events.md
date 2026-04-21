@@ -135,10 +135,10 @@ GPT-4 和 Claude 直接进行 episode 检测仅检出 2-3 个 episode，且混�
 
 ## 相关论文
 
-- [Classifier-to-Bias: Toward Unsupervised Automatic Bias Detection for Visual Classifiers](../../CVPR2025/llm_nlp/classifier-to-bias_toward_unsupervised_automatic_bias_detection_for_visual_class.md)
 - [Can LLMs Help Uncover Insights about LLMs? A Large-Scale, Evolving Literature Analysis of Frontier LLMs](can_llms_help_uncover_insights_about_llms_a_large-scale_evolving_literature_anal.md)
 - [TESS 2: A Large-Scale Generalist Diffusion Language Model](tess_2_a_large-scale_generalist_diffusion_language_model.md)
 - [ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events](chronosense_exploring_temporal_understanding_in_large_language_models_with_time_.md)
 - [LlamaDuo: LLMOps Pipeline for Seamless Migration from Service LLMs to Small-Scale Local LLMs](llamaduo_llmops_pipeline_for_seamless_migration_from_service_llms_to_small-scale.md)
+- [On the Risk of Evidence Pollution for Malicious Social Text Detection in the Era of LLMs](on_the_risk_of_evidence_pollution_for_malicious_social_text_detection_in_the_era.md)
 
 <!-- RELATED:END -->

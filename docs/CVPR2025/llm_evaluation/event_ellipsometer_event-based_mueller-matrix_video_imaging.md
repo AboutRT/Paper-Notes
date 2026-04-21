@@ -115,10 +115,10 @@ tags:
 
 ## 相关论文
 
+- [RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives](roadsocial_a_diverse_videoqa_dataset_and_benchmark_for_road_event_understanding_.md)
 - [PolarFree: Polarization-based Reflection-Free Imaging](polarfree_polarization-based_reflection-free_imaging.md)
 - [Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models](out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md)
-- [Imaging Interiors: An Implicit Solution to Electromagnetic Inverse Scattering Problems](../../ECCV2024/llm_evaluation/imaging_interiors_an_implicit_solution_to_electromagnetic_inverse_scattering_pro.md)
-- [SIGMA: Sinkhorn-Guided Masked Video Modeling](../../ECCV2024/llm_evaluation/sigma_sinkhorn-guided_masked_video_modeling.md)
-- [Eliminating Warping Shakes for Unsupervised Online Video Stitching](../../ECCV2024/llm_evaluation/eliminating_warping_shakes_for_unsupervised_online_video_stitching.md)
+- [Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning](dual_consolidation_for_pre-trained_model-based_domain-incremental_learning.md)
+- [Potential Field Based Deep Metric Learning](potential_field_based_deep_metric_learning.md)
 
 <!-- RELATED:END -->

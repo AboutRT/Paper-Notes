@@ -133,6 +133,6 @@ tags:
 - [Reconstructing In-the-Wild Open-Vocabulary Human-Object Interactions](reconstructing_in-the-wild_open-vocabulary_human-object_interactions.md)
 - [Reconstructing Animals and the Wild](reconstructing_animals_and_the_wild.md)
 - [Reconstructing People, Places, and Cameras](reconstructing_people_places_and_cameras.md)
-- [Open-World Amodal Appearance Completion](open-world_amodal_appearance_completion.md)
+- [Reconstructing Humans with a Biomechanically Accurate Skeleton](reconstructing_humans_with_a_biomechanically_accurate_skeleton.md)
 
 <!-- RELATED:END -->

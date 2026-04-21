@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 3D视觉方向 346篇论文解读
+  CVPR2025 3D视觉方向 345篇论文解读
 description: >-
-  346篇CVPR2025 3D视觉方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  345篇CVPR2025 3D视觉论文解读，主题涵盖：构建了3D-GRAND——首个百万级**密集接地*、提出3D-GSW，首个专为3D Gaussian、提出3D Half-Gaussian等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D视觉
 
-**📷 CVPR2025** · **346** 篇论文解读
+**📷 CVPR2025** · **345** 篇论文解读
 
 **[3D-GRAND: A Million-Scale Dataset for 3D-LLMs with Better Grounding and Less Hallucination](3d-grand_a_million-scale_dataset_for_3d-llms_with_better_grounding_and_less_hall.md)**
 
@@ -273,10 +273,6 @@ description: >-
 **[Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera](dyn-hamr_recovering_4d_interacting_hand_motion_from_a_dynamic_camera.md)**
 
 :   Dyn-HaMR 是首个从动态相机单目视频中恢复 4D 全局手部运动的优化方法，通过三阶段流水线（分层初始化→SLAM 全局运动→交互精炼）将手部与相机运动解耦，在 H2O 上 G-MPJPE 从 96.9mm (HaMeR) 降至 45.6mm，加速度误差从 9.21 降至 4.2。
-
-**[Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera](dyn_hamr_recovering_4d_interacting_hand_motion_from_a_dynamic_camera.md)**
-
-:   Dyn-HaMR 提出首个从动态相机单目视频中恢复双手 4D 全局运动轨迹的优化框架，通过三阶段流水线（层级初始化 → SLAM 引导全局运动优化 → 交互运动先验优化）解耦相机运动与手部运动，在多个数据集上大幅超越现有方法。
 
 **[Efficient Depth Estimation for Unstable Stereo Camera Systems on AR Glasses](efficient_depth_estimation_for_unstable_stereo_camera_systems_on_ar_glasses.md)**
 

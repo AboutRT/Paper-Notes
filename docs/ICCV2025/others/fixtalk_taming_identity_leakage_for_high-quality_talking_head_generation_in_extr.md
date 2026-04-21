@@ -147,10 +147,10 @@ $$I^g = G(f^s + z^d_{\text{FDM}}, \tilde{f^s_\pi})$$
 
 ## 相关论文
 
-- [A High-Quality Robust Diffusion Framework for Corrupted Dataset](../../ECCV2024/others/a_highquality_robust_diffusion_framework_for_corrupted_datas.md)
 - [HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](../../ECCV2024/others/hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
 - [Failure Cases Are Better Learned But Boundary Says Sorry: Facilitating Smooth Perception Change for Accuracy-Robustness Trade-Off in Adversarial Training](failure_cases_are_better_learned_but_boundary_says_sorry_facilitating_smooth_per.md)
-- [Unveiling Dual Quality in Product Reviews: An NLP-Based Approach](../../ACL2025/others/unveiling_dual_quality_in_product_reviews_an_nlp-based_approach.md)
 - [High-Fidelity 3D Textured Shapes Generation by Sparse Encoding and Adversarial Decoding](../../ECCV2024/others/high-fidelity_3d_textured_shapes_generation_by_sparse_encoding_and_adversarial_d.md)
+- [Unveiling Dual Quality in Product Reviews: An NLP-Based Approach](../../ACL2025/others/unveiling_dual_quality_in_product_reviews_an_nlp-based_approach.md)
+- [QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning](../../ACL2025/others/qualispeech_a_speech_quality_assessment_dataset_with_natural_language_reasoning_.md)
 
 <!-- RELATED:END -->

@@ -2,7 +2,7 @@
 title: >-
   ECCV2024 LLM Agent方向 3篇论文解读
 description: >-
-  3篇ECCV2024 LLM Agent方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  3篇ECCV2024 LLM Agent论文解读，主题涵盖：Agent3D-Zero 提出一个基于 VLM、（注：基于摘要的简要笔记）提出 HYDRA、提出 VideoAgent，一个记忆增强的多模态等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

@@ -70,6 +70,7 @@ OccMamba 把 SSM/Mamba 引入户外语义占据预测，用 height-prioritized 2
 
 ### 主实验
 **OpenOccupancy 验证集** (相机+LiDAR)：
+
 | 方法 | IoU | mIoU |
 |------|-----|------|
 | MonoScene (C) | 18.4 | 6.9 |
@@ -84,6 +85,7 @@ OccMamba 把 SSM/Mamba 引入户外语义占据预测，用 height-prioritized 2
 **显存比较** (Fig.1b)：体素数从 256³ 增长时，OccMamba 的 GPU 内存呈线性增长，transformer-based 方法呈二次增长，到 512×512×40 已 OOM 而 OccMamba 仍可训练。
 
 ### 消融实验
+
 | 配置 | mIoU (OpenOccupancy) |
 |------|-----|
 | 用 XYZ 顺序展开 | 24.x |

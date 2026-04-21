@@ -147,8 +147,8 @@ $$Q_{process} = f(\text{代表性}, \text{知情度}, \text{审议性}, \text{�
 
 - [A Sustainable AI Economy Needs Data Deals That Work for Generators](../../NeurIPS2025/others/a_sustainable_ai_economy_needs_data_deals_that_work_for_gene.md)
 - [Which Viewpoint Shows It Best? Language for Weakly Supervising View Selection in Multi-view Instructional Videos](../../CVPR2025/others/which_viewpoint_shows_it_best_language_for_weakly_supervising_view_selection_in_.md)
-- [The AI Gap: How Socioeconomic Status Affects Language Technology Interactions](../../ACL2025/others/the_ai_gap_how_socioeconomic_status_affects_language_technology_interactions.md)
 - [How Hard is it to Explain Preferences Using Few Boolean Attributes?](../../AAAI2026/others/how_hard_is_it_to_explain_preferences_using_few_boolean_attributes.md)
+- [The AI Gap: How Socioeconomic Status Affects Language Technology Interactions](../../ACL2025/others/the_ai_gap_how_socioeconomic_status_affects_language_technology_interactions.md)
 - [How Do Transformers Learn Variable Binding in Symbolic Programs?](how_do_transformers_learn_variable_binding_in_symbolic_programs.md)
 
 <!-- RELATED:END -->

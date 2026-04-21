@@ -119,6 +119,6 @@ $$\hat{F}_t = F(\mathcal{D}_t) + \frac{f(s_t)}{q_t(s_t)}, \quad s_t \sim q_t$$
 - [Uncertainty Estimation by Flexible Evidential Deep Learning](uncertainty_estimation_by_flexible_evidential_deep_learning.md)
 - [A Framework for Efficient Model Evaluation through Stratification, Sampling, and Estimation](../../ECCV2024/others/a_framework_for_efficient_model_evaluation_through_stratific.md)
 - [A Generalized Label Shift Perspective for Cross-Domain Gaze Estimation](a_generalized_label_shift_perspective_for_crossdomain_gaze_e.md)
-- [HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)
+- [Reliable Active Learning from Unreliable Labels via Neural Collapse Geometry](reliable_active_learning_from_unreliable_labels_via_neural_collapse_geometry.md)
 
 <!-- RELATED:END -->

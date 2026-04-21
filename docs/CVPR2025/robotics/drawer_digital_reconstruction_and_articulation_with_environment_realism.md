@@ -135,9 +135,9 @@ tags:
 ## 相关论文
 
 - [See and Think: Embodied Agent in Virtual Environment](../../ECCV2024/robotics/see_and_think_embodied_agent_in_virtual_environment.md)
-- [3D-MVP: 3D Multiview Pretraining for Robotic Manipulation](3d-mvp_3d_multiview_pretraining_for_manipulation.md)
 - [Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation](mitigating_the_human-robot_domain_discrepancy_in_visual_pre-training_for_robotic.md)
-- [Robotic Visual Instruction](robotic_visual_instruction.md)
-- [Let Humanoids Hike! Integrative Skill Development on Complex Trails](let_humanoids_hike_integrative_skill_development_on_complex_trails.md)
+- [3D-MVP: 3D Multiview Pretraining for Robotic Manipulation](3d-mvp_3d_multiview_pretraining_for_manipulation.md)
+- [Magma: A Foundation Model for Multimodal AI Agents](magma_a_foundation_model_for_multimodal_ai_agents.md)
+- [RoboGround: Robotic Manipulation with Grounded Vision-Language Priors](roboground_robotic_manipulation_with_grounded_vision-language_priors.md)
 
 <!-- RELATED:END -->

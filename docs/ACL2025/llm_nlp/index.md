@@ -2,7 +2,7 @@
 title: >-
   ACL2025 LLM/NLP方向 313篇论文解读
 description: >-
-  313篇ACL2025 LLM/NLP方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  313篇ACL2025 LLM/NLP论文解读，主题涵盖：在韩国KAIST一门477人研究生AI编程课中部署、提出ArrangementPuzzle拼图数据集并、通过分析LLM推理过程中潜在表征的转移轨迹（tra等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

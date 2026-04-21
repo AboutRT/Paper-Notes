@@ -125,8 +125,8 @@ CTS对RPE_rot影响最大(0.705→1.348)
 ## 相关论文
 
 - [4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](../../NeurIPS2025/others/4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)
-- [IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization](iap_invisible_adversarial_patch_attack_through_perceptibility-aware_localization.md)
 - [Symmetry-Robust 3D Orientation Estimation](../../ICML2025/others/symmetry-robust_3d_orientation_estimation.md)
+- [IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization](iap_invisible_adversarial_patch_attack_through_perceptibility-aware_localization.md)
 - [LaCoOT: Layer Collapse through Optimal Transport](lacoot_layer_collapse_through_optimal_transport.md)
 - [Rethinking PCA Through Duality](../../NeurIPS2025/others/rethinking_pca_through_duality.md)
 

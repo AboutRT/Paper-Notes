@@ -125,10 +125,10 @@ LLaVA微调采用标准的自回归语言建模损失。GPT-4V标注阶段通过
 
 ## 相关论文
 
+- [MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)
 - [AugDETR: Improving Multi-scale Learning for Detection Transformer](../../ECCV2024/object_detection/augdetr_improving_multi-scale_learning_for_detection_transformer.md)
 - [ReGround: Improving Textual and Spatial Grounding at No Cost](../../ECCV2024/object_detection/reground_improving_textual_and_spatial_grounding_at_no_cost.md)
 - [SSTAG: Structure-Aware Self-Supervised Learning Method for Text-Attributed Graphs](../../NeurIPS2025/object_detection/sstag_structure-aware_self-supervised_learning_method_for_text-attributed_graphs.md)
-- [MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)
-- [Implicit Concept Removal of Diffusion Models](../../ECCV2024/object_detection/implicit_concept_removal_of_diffusion_models.md)
+- [Image Reconstruction from Readout-Multiplexed Single-Photon Detector Arrays](image_reconstruction_from_readout-multiplexed_single-photon_detector_arrays.md)
 
 <!-- RELATED:END -->

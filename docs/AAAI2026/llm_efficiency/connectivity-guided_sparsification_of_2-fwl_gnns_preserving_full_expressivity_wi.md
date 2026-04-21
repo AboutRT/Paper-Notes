@@ -166,6 +166,6 @@ CoSp-PPGN 在所有子结构计数任务上匹配或超过 PPGN。
 - [Online Sparsification of Bipartite-Like Clusters in Graphs](../../ICML2025/llm_efficiency/online_sparsification_of_bipartite-like_clusters_in_graphs.md)
 - [Structure-Aware Spectral Sparsification via Uniform Edge Sampling](../../NeurIPS2025/llm_efficiency/structure-aware_spectral_sparsification_via_uniform_edge_sampling.md)
 - [Language Guided Concept Bottleneck Models for Interpretable Continual Learning](../../CVPR2025/llm_efficiency/language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md)
-- [PHATNet: A Physics-guided Haze Transfer Network for Domain-adaptive Real-world Image Dehazing](../../ICCV2025/llm_efficiency/phatnet_a_physics-guided_haze_transfer_network_for_domain-adaptive_real-world_im.md)
+- [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](../../ACL2025/llm_efficiency/sliding_windows_full_ranking.md)
 
 <!-- RELATED:END -->

@@ -134,7 +134,7 @@ Frame Guidance 在预训练 VDM 的推理过程中，对选定帧施加基于梯
 - [When to Lock Attention: Training-Free KV Control in Video Diffusion](../../CVPR2026/video_generation/when_to_lock_attention_training-free_kv_control_in_video_diffusion.md)
 - [LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning](lora-edit_controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine.md)
 - [First Frame Is the Place to Go for Video Content Customization](../../CVPR2026/video_generation/first_frame_is_the_place_to_go_for_video_content_customization.md)
+- [Target-Aware Video Diffusion Models](target-aware_video_diffusion_models.md)
 - [FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](../../CVPR2026/video_generation/flashmotion_fewstep_controllable_video_generation.md)
-- [VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](../../CVPR2025/video_generation/videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
 
 <!-- RELATED:END -->

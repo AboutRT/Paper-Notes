@@ -129,6 +129,6 @@ Long Sequence Benchmark上的消融（任务顺序1）：
 - [On Entity Identification in Language Models](on_entity_identification_in_language_models.md)
 - [C²Prompt: Class-aware Client Knowledge Interaction for Federated Continual Learning](../../NeurIPS2025/llm_nlp/c2prompt_class-aware_client_knowledge_interaction_for_federated_continual_learni.md)
 - [Cool-Fusion: Fuse Large Language Models without Training](cool-fusion_fuse_large_language_models_without_training.md)
-- [Any-SSR: How Recursive Least Squares Works in Continual Learning of Large Language Models](../../ICCV2025/llm_nlp/any-ssr_how_recursive_least_squares_works_in_continual_learning_of_large_languag.md)
+- [COSMIC: Generalized Refusal Direction Identification in LLM Activations](cosmic_generalized_refusal_direction_identification_in_llm_activations.md)
 
 <!-- RELATED:END -->

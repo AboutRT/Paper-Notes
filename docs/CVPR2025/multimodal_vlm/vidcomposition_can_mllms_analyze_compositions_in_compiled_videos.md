@@ -119,6 +119,6 @@ VidComposition是一个人工标注的高质量基准，包含982个编辑合成
 - [Can MLLMs Understand the Deep Implication Behind Chinese Images?](../../ACL2025/multimodal_vlm/can_mllms_understand_the_deep_implication_behind_chinese_images.md)
 - [VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos](videoglamm_a_large_multimodal_model_for_pixel-level_visual_grounding_in_videos.md)
 - [Visual Chronicles: Using Multimodal LLMs to Analyze Massive Collections of Images](../../ICCV2025/multimodal_vlm/visual_chronicles_using_multimodal_llms_to_analyze_massive_collections_of_images.md)
-- [Can Large Vision-Language Models Correct Semantic Grounding Errors By Themselves?](can_large_vision-language_models_correct_semantic_grounding_errors_by_themselves.md)
+- [Unveiling the Ignorance of MLLMs: Seeing Clearly, Answering Incorrectly](unveiling_the_ignorance_of_mllms_seeing_clearly_answering_incorrectly.md)
 
 <!-- RELATED:END -->

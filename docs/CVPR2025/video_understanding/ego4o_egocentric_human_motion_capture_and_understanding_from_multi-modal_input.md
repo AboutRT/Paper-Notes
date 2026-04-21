@@ -131,6 +131,6 @@ $$Q^* = \arg\min_Q \lambda_a L_a(J, A) + \lambda_r L_r(J, R)$$
 - [H-MoRe: Learning Human-centric Motion Representation for Action Analysis](h-more_learning_human-centric_motion_representation_for_action_analysis.md)
 - [PixFoundation 2.0: Do Video Multi-Modal LLMs Use Motion in Visual Grounding?](../../NeurIPS2025/video_understanding/pixfoundation_20_do_video_multi-modal_llms_use_motion_in_visual_grounding.md)
 - [MLVU: Benchmarking Multi-task Long Video Understanding](mlvu_benchmarking_multi-task_long_video_understanding.md)
-- [MMVU: Measuring Expert-Level Multi-Discipline Video Understanding](mmvu_measuring_expert-level_multi-discipline_video_understanding.md)
+- [EgoLife: Towards Egocentric Life Assistant](egolife_towards_egocentric_life_assistant.md)
 
 <!-- RELATED:END -->

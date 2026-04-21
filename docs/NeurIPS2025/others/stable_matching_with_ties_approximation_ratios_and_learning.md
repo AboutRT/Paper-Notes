@@ -122,6 +122,6 @@ Bandit设定下每轮观察1-sub-Gaussian奖励$X_i(t)$，均值$\mathbf{U}(w_i,
 - [Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](../../ICML2025/others/sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)
 - [Improved Approximation Algorithms for Chromatic and Pseudometric-Weighted Correlation Clustering](improved_approximation_algorithms_for_chromatic_and_pseudometric-weighted_correl.md)
 - [Learning Distances from Data with Normalizing Flows and Score Matching](../../ICML2025/others/learning_distances_from_data_with_normalizing_flows_and_score_matching.md)
-- [LILAD: Learning In-context Lyapunov-stable Adaptive Dynamics Models](../../AAAI2026/others/lilad_learning_in-context_lyapunov-stable_adaptive_dynamics_models.md)
+- [Score Matching with Missing Data](../../ICML2025/others/score_matching_with_missing_data.md)
 
 <!-- RELATED:END -->

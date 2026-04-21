@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 模型压缩方向 43篇论文解读
+  CVPR2026 模型压缩方向 44篇论文解读
 description: >-
-  43篇CVPR2026 模型压缩方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  44篇CVPR2026 模型压缩论文解读，主题涵盖：提出首个完全端到端的时序语句定位(TSGV)框架、本文首次为 JPEG XS 标准中的 Intra、针对 JPEG XS 屏幕内容编码中 Intra等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📷 CVPR2026** · **43** 篇论文解读
+**📷 CVPR2026** · **44** 篇论文解读
 
 **[A Paradigm Shift: Fully End-to-End Training for Temporal Sentence Grounding in Videos](a_paradigm_shift_fully_end-to-end_training_for_temporal_sentence_grounding_in_vi.md)**
 
@@ -53,6 +53,10 @@ description: >-
 **[Distilling Balanced Knowledge from a Biased Teacher](distilling_balanced_knowledge_from_a_biased_teacher.md)**
 
 :   针对长尾分布下知识蒸馏中教师模型向头部类偏斜的问题，将传统 KL 散度损失分解为跨组损失和组内损失两个组件，通过重平衡跨组损失校准教师的组级预测、重加权组内损失保证各组等贡献，在 CIFAR-100-LT/TinyImageNet-LT/ImageNet-LT 上全面超越现有方法，甚至超过教师模型自身表现。
+
+**[FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection](faar_efficient_frequency-aware_multi-task_fine-tuning_via_automatic_rank_selecti.md)**
+
+:   提出 FAAR，一种频率感知的多任务参数高效微调方法，通过 Performance-Driven Rank Shrinking (PDRS) 为每个任务和层动态选择最优秩，并设计 Task-Spectral Pyramidal Decoder (TS-PD) 利用 FFT 频率信息增强空间感知和跨任务一致性，以传统微调 1/9 的参数量实现更优性能。
 
 **[FAIR-Pruner: Leveraging Tolerance of Difference for Flexible Automatic Layer-Wise Neural Network Pruning](fair-pruner_leveraging_tolerance_of_difference_for_flexible_automatic_layer-wise.md)**
 

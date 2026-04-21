@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 语义分割方向 92篇论文解读
+  CVPR2025 语义分割方向 91篇论文解读
 description: >-
-  92篇CVPR2025 语义分割方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  91篇CVPR2025 语义分割论文解读，主题涵盖：提出2DMamba，首个具有高效并行算法的**原生、提出SAM2.1++的干扰物感知记忆模型（DAM）、提出 G2HFNet，通过多尺度细节增强等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
-**📷 CVPR2025** · **92** 篇论文解读
+**📷 CVPR2025** · **91** 篇论文解读
 
 **[2DMamba: Efficient State Space Model for Image Representation with Applications on Giga-Pixel Whole Slide Image Classification](2dmamba_efficient_state_space_model_for_image_representation_with_applications_o.md)**
 
@@ -17,10 +17,6 @@ description: >-
 **[A Distractor-Aware Memory for Visual Object Tracking with SAM2](a_distractor-aware_memory_for_visual_object_tracking_with_sam2.md)**
 
 :   提出SAM2.1++的干扰物感知记忆模型（DAM），将SAM2的记忆拆分为近期外观记忆（RAM，确保分割精度）和干扰物解析记忆（DRM，确保跟踪鲁棒性），通过内省式更新策略检测干扰物并自动存储锚帧，在7个基准上设立新SOTA。
-
-**[Assessing and Learning Alignment of Unimodal Vision and Language Models (SAIL)](assessing_and_learning_alignment_of_unimodal_vision_and_language_model.md)**
-
-:   提出 SAIL 框架——先通过 alignment probing 评估单模态视觉和语言模型的对齐潜力（发现 k-NN 聚类质量比线性可分性更重要），再用轻量级 GLU 对齐层 + Sigmoid 损失 + 多正样本策略高效对齐 DINOv2 和预训练语言模型，仅用 6% 的 CLIP 训练数据即超越 CLIP。
 
 **[SAIL: Assessing and Learning Alignment of Unimodal Vision and Language Models](assessing_and_learning_alignment_of_unimodal_vision_and_language_models.md)**
 

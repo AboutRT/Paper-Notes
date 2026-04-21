@@ -124,10 +124,10 @@ ProMerge是一种纯推理时方法，不涉及训练。关键超参数包括：
 
 ## 相关论文
 
+- [Unleashing the Power of Prompt-driven Nucleus Instance Segmentation](unleashing_the_power_of_prompt-driven_nucleus_instance_segmentation.md)
+- [Part2Object: Hierarchical Unsupervised 3D Instance Segmentation](part2object_hierarchical_unsupervised_3d_instance_segmentation.md)
 - [Unsupervised Moving Object Segmentation with Atmospheric Turbulence](unsupervised_moving_object_segmentation_with_atmospheric_turbulence.md)
 - [Un-EVIMO: Unsupervised Event-based Independent Motion Segmentation](un-evimo_unsupervised_event-based_independent_motion_segmentation.md)
-- [Hierarchical Visual Prompt Learning for Continual Video Instance Segmentation](../../ICCV2025/segmentation/hierarchical_visual_prompt_learning_for_continual_video_instance_segmentation.md)
 - [VISAGE: Video Instance Segmentation with Appearance-Guided Enhancement](visage_video_instance_segmentation_with_appearance-guided_enhancement.md)
-- [SOS: Segment Object System for Open-World Instance Segmentation With Object Priors](sos_segment_object_system_for_open-world_instance_segmentation_with_object_prior.md)
 
 <!-- RELATED:END -->

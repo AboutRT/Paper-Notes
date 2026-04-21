@@ -144,8 +144,8 @@ $$\mathcal{L} = \mathbb{E}[\|\epsilon - \epsilon_\theta(z_t, z_{lr}, t, c_g, c_{
 
 - [FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution](fidesr_high-fidelity_and_detail-preserving_one-step_diffusion_super-resolution.md)
 - [Bridging the Perception Gap in Image Super-Resolution Evaluation](bridging_the_perception_gap_in_image_super-resolution_evaluation.md)
+- [XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution](../../ECCV2024/image_restoration/xpsr_cross-modal_priors_for_diffusion-based_image_super-resolution.md)
 - [Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration](beyond_ground-truth_leveraging_image_quality_priors_for_real-world_image_restora.md)
 - [Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
-- [Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution](../../ICLR2026/image_restoration/trust_but_verify_adaptive_conditioning_for_reference-based_diffusion_super-resol.md)
 
 <!-- RELATED:END -->

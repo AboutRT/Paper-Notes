@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 目标检测方向 42篇论文解读
+  CVPR2025 目标检测方向 41篇论文解读
 description: >-
-  42篇CVPR2025 目标检测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  41篇CVPR2025 目标检测论文解读，主题涵盖：提出B-Free训练范式——通过stable、提出 ABRA（Aligned Basis、提出 Any6D 框架，仅从单张 RGB-D等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**📷 CVPR2025** · **42** 篇论文解读
+**📷 CVPR2025** · **41** 篇论文解读
 
 **[A Bias-Free Training Paradigm for More General AI-generated Image Detection](a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)**
 
@@ -77,10 +77,6 @@ description: >-
 **[Generative Modeling of Class Probability for Multi-Modal Representation Learning](generative_modeling_of_class_probability_for_multi-modal_representation_learning.md)**
 
 :   CALM 通过类锚点（class anchors）将视频和文本特征映射到统一的概率分布空间，再用跨模态 VAE 建模模态间不确定性，在域内检索（MSR-VTT R@1 50.8%）和跨域检索（MSR-VTT→DiDeMo R@1 41.2%）上均超越 SOTA，仅增加 0.5M 参数。
-
-**[Generative Modeling of Class Probability for Multi-Modal Representation Learning](generative_modeling_of_class_probability_for_multi_modal_representation_learning.md)**
-
-:   CALM（Class-anchor-ALigned generative Modeling）提出用独立类别标签作为锚点，生成各模态与锚点的概率分布并通过跨模态概率 VAE 对齐，有效缓解视频文本之间的信息不平衡和模态差异问题，在四个benchmark上显著超越SOTA，尤其在跨域泛化性上表现突出。
 
 **[HumanMM: Global Human Motion Recovery from Multi-shot Videos](humanmm_global_human_motion_recovery_from_multi-shot_videos.md)**
 

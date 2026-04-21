@@ -136,8 +136,8 @@ PRaDA 初始化 + GLOMAP vs 纯 GLOMAP（ScanNet++ 稀疏测试集）：
 
 - [Deformable Radial Kernel Splatting](deformable_radial_kernel_splatting.md)
 - [Temporal Smoothness-Aware Rate-Distortion Optimized 4D Gaussian Splatting](../../NeurIPS2025/3d_vision/temporal_smoothness-aware_rate-distortion_optimized_4d_gaussian_splatting.md)
-- [Volumetrically Consistent 3D Gaussian Rasterization](volumetrically_consistent_3d_gaussian_rasterization.md)
-- [SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation](sharpdepth_sharpening_metric_depth_predictions_using_diffusion_distillation.md)
-- [Reconstructing In-the-Wild Open-Vocabulary Human-Object Interactions](reconstructing_in-the-wild_open-vocabulary_human-object_interactions.md)
+- [Cross-View Completion Models are Zero-shot Correspondence Estimators](cross-view_completion_models_are_zero-shot_correspondence_estimators.md)
+- [TriTex: Learning Texture from a Single Mesh via Triplane Semantic Features](tritex_learning_texture_from_a_single_mesh_via_triplane_semantic_features.md)
+- [Generative Omnimatte: Learning to Decompose Video into Layers](generative_omnimatte_learning_to_decompose_video_into_layers.md)
 
 <!-- RELATED:END -->

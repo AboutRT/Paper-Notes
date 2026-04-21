@@ -62,6 +62,6 @@ tags:
 - [Angular Steering: Behavior Control via Rotation in Activation Space](../../NeurIPS2025/signal_comm/angular_steering_behavior_control_via_rotation_in_activation_space.md)
 - [AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation](../../CVPR2026/signal_comm/actta_rethinking_test-time_adaptation_via_dynamic_activation.md)
 - [ABC-Former: Auxiliary Bimodal Cross-domain Transformer with Interactive Channel Attention](abc-former_auxiliary_bimodal_cross-domain_transformer_with_interactive_channel_a.md)
-- [Tuning the Frequencies: Robust Training for Sinusoidal Neural Networks](tuning_the_frequencies_robust_training_for_sinusoidal_neural_networks.md)
+- [DiTASK: Multi-Task Fine-Tuning with Diffeomorphic Transformations](ditask_multi-task_fine-tuning_with_diffeomorphic_transformations.md)
 
 <!-- RELATED:END -->

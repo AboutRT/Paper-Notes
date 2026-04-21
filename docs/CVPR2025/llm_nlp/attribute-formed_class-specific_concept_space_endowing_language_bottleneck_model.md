@@ -66,10 +66,10 @@ tags:
 
 ## 相关论文
 
-- [Training Language Model to Critique for Better Refinement](../../ACL2025/llm_nlp/training_language_model_to_critique_for_better_refinement.md)
-- [Making Old Film Great Again: Degradation-aware State Space Model for Old Film Restoration](making_old_film_great_again_degradation-aware_state_space_model_for_old_film_res.md)
 - [Circuit Stability Characterizes Language Model Generalization](../../ACL2025/llm_nlp/circuit_stability_characterizes_language_model_generalization.md)
+- [Training Language Model to Critique for Better Refinement](../../ACL2025/llm_nlp/training_language_model_to_critique_for_better_refinement.md)
 - [An Invariant Latent Space Perspective on Language Model Inversion](../../AAAI2026/llm_nlp/an_invariant_latent_space_perspective_on_language_model_inve.md)
 - [SEC-Prompt: SEmantic Complementary Prompting for Few-Shot Class-Incremental Learning](sec-promptsemantic_complementary_prompting_for_few-shot_class-incremental_learni.md)
+- [Multi-Attribute Steering of Language Models via Targeted Intervention](../../ACL2025/llm_nlp/multi_attribute_steering.md)
 
 <!-- RELATED:END -->

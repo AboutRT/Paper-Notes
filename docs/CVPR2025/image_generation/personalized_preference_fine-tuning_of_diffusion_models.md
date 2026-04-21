@@ -82,6 +82,7 @@ PPD 分两阶段：阶段一（用户嵌入生成）：从偏好数据集中为�
 | DPO (HPS only) | - | - | 28.61 |
 
 ### 消融实验
+
 | 配置 | 说明 |
 |------|------|
 | One-hot 用户编码 | 无法泛化到新用户 |
@@ -126,6 +127,6 @@ PPD 分两阶段：阶段一（用户嵌入生成）：从偏好数据集中为�
 - [SleeperMark: Towards Robust Watermark against Fine-Tuning Text-to-Image Diffusion Models](sleepermark_towards_robust_watermark_against_fine-tuning_text-to-image_diffusion.md)
 - [Reward Fine-Tuning Two-Step Diffusion Models via Learning Differentiable Latent-Space Surrogate Reward](reward_fine-tuning_two-step_diffusion_models_via_learning_differentiable_latent-.md)
 - [Focus-N-Fix: Region-Aware Fine-Tuning for Text-to-Image Generation](focus-n-fix_region-aware_fine-tuning_for_text-to-image_generation.md)
-- [Zero-Shot Adaptation of Parameter-Efficient Fine-Tuning in Diffusion Models](../../ICML2025/image_generation/zero-shot_adaptation_of_parameter-efficient_fine-tuning_in_diffusion_models.md)
+- [Parameter-Efficient Fine-Tuning of State Space Models](../../ICML2025/image_generation/parameter-efficient_fine-tuning_of_state_space_models.md)
 
 <!-- RELATED:END -->

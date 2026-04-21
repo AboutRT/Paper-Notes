@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 1693篇论文解读
+  CVPR2026 1689篇论文解读
 description: >-
-  1693篇CVPR2026论文深度解读，每篇5分钟读懂核心思想，含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  1689篇CVPR2026论文解读，涵盖3D视觉(232篇)、图像生成(211篇)、多模态VLM(209篇)、医学图像(150篇)等41个方向，每篇含核心思想、方法详解与实验分析。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📷 CVPR2026 论文笔记
 
-**1693** 篇论文解读，覆盖 **41** 个领域。
+**1689** 篇论文解读，覆盖 **41** 个领域。
 
 <div class="conf-index" markdown>
 
@@ -1084,10 +1084,6 @@ description: >-
 
 :   提出首个音视频影视音频源分离（AV-CASS）框架，利用面部和场景双视频流的视觉线索，通过条件流匹配进行生成式三路音频分离（语音/音效/音乐），仅在合成数据上训练即可泛化到真实电影。
 
-**[Circuit Mechanisms for Spatial Relation Generation in Diffusion Transformers](image_generation/circuit_mechanisms_for_spatial_relation_generation_in_diffusion_models.md)**
-
-:   通过机械可解释性方法揭示了扩散Transformer（DiT）生成空间关系的内部电路机制：随机嵌入模型使用两阶段模块化电路（关系头+物体生成头），T5编码器模型则将关系信息融合到物体token中通过单token解码，两种机制的鲁棒性差异显著。
-
 **[Circuit Mechanisms for Spatial Relation Generation in Diffusion Transformers](image_generation/circuit_mechanisms_for_spatial_relation_generation_in_diffusion_transformers.md)**
 
 :   通过机制可解释性方法，揭示了扩散Transformer中空间关系生成的两种截然不同的电路机制：随机文本编码器使用"关系头+物体头"的两阶段模块化电路，而 T5 编码器将关系信息融入物体 token 中通过单 token解码，后者在域外扰动下更脆弱。
@@ -1883,6 +1879,10 @@ description: >-
 **[CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](multimodal_vlm/capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)**
 
 :   提出 CAPT 混淆感知 prompt tuning 框架，通过语义混淆挖掘器（SEM）和样本混淆挖掘器（SAM）显式建模 VLM 的系统性误对齐模式，配合多粒度差异专家（MGDE）融合不同层次的混淆信息，在 11 个基准上取得 HM 83.90% 的最优表现。
+
+**[ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](multimodal_vlm/chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)**
+
+:   发布 ChartNet——150 万规模的高质量多模态图表数据集，通过代码引导合成管线生成包含图像-代码-数据表-文本-推理QA 的对齐五元组，在图表理解和推理任务上显著提升 VLM 性能，小模型微调后超越 GPT-4o。
 
 **[Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking](multimodal_vlm/circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_.md)**
 
@@ -4014,302 +4014,6 @@ description: >-
 
 ---
 
-## 🎯 目标检测 { #object_detection }
-
-**[A Closer Look at Cross-Domain Few-Shot Object Detection: Fine-Tuning Matters and Parallel Decoder Helps](object_detection/a_closer_look_at_cross-domain_few-shot_object_detection_fine-tuning_matters_and_.md)**
-
-:   提出混合集成解码器(HED)和渐进微调策略用于跨域少样本目标检测，通过并行化部分解码层并随机初始化去噪查询引入预测多样性，在CD-FSOD/ODinW-13/RF100-VL三个基准上达到SOTA，不引入额外参数。
-
-**[ABRA: Teleporting Fine-Tuned Knowledge Across Domains for Open-Vocabulary Object Detection](object_detection/abra_teleporting_fine-tuned_knowledge_across_domains_for_open-vocabulary_object_.md)**
-
-:   提出 ABRA 方法，将域知识与类别知识解耦，通过 Objectification 构建类无关域专家、SVFT 提取轻量类别残差、Orthogonal Procrustes 旋转对齐实现权重空间"传送"，在目标域完全无某些类别数据时仍可迁移这些类别的检测能力。
-
-**[ABRA: Teleporting Fine-Tuned Knowledge Across Domains for Open-Vocabulary Object Detection](object_detection/abra_teleporting_finetuned_knowledge_across_domain.md)**
-
-:   将跨域类别迁移问题建模为权重空间的 SVD 旋转对齐：通过 Objectification 训练类无关域专家，用 SVFT 提取轻量类残差，再通过闭式正交 Procrustes 解将源域类知识"传送"到完全没有该类数据的目标域。
-
-**[Adaptive Auxiliary Prompt Blending for Target-Faithful Diffusion Generation](object_detection/adaptive_auxiliary_prompt_blending_for_target-faithful_diffusion_generation.md)**
-
-:   提出 Adaptive Auxiliary Prompt Blending (AAPB)，通过 Tweedie 公式推导闭式自适应混合系数，在每个去噪步动态平衡辅助锚定提示与目标提示的贡献，无需训练即可显著改善稀有概念生成和零样本图像编辑的语义准确性与结构保真度。
-
-**[Anchoring and Rescaling Attention for Semantically Coherent Inbetweening](object_detection/anchoring_and_rescaling_attention_for_semantically_coherent_inbetweening.md)**
-
-:   提出 KAB（Keyframe-Anchored Attention Bias）和 ReTRo（Rescaled Temporal RoPE）两个无需训练的推理时方法，基于 Wan2.1 视频扩散模型解决稀疏关键帧下大运动生成式帧插值（GI）中的语义不忠、帧不一致和节奏不稳问题，并构建首个文本条件 GI 评估基准 TGI-Bench。
-
-**[AR²-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos](object_detection/ar2-4fv_anchored_referring_and_re-identification_for_long-term_grounding_in_fixe.md)**
-
-:   利用固定视角视频中背景结构的时不变性，构建离线 Anchor Bank + 在线 Anchor Map 作为语言-场景持久记忆，配合锚点引导的重入先验和 ReID-Gating 身份验证机制，实现目标遮挡/离场后的鲁棒重捕获，RCR 提升 10.3%、RCL 降低 24.2%。
-
-**[BeautyGRPO: Aesthetic Alignment for Face Retouching via Dynamic Path Guidance and Fine-Grained Preference Modeling](object_detection/beautygrpo_aesthetic_alignment_for_face_retouching_via_dynamic_path_guidance_and.md)**
-
-:   提出 BeautyGRPO，一个基于强化学习的人脸修图框架，通过构建细粒度偏好数据集 FRPref-10K 训练专用奖励模型，并设计动态路径引导（DPG）机制在随机探索与高保真之间取得平衡，实现与人类美学偏好对齐的自然修图效果。
-
-**[Beyond Caption-Based Queries for Video Moment Retrieval](object_detection/beyond_caption-based_queries_for_video_moment_retrieval.md)**
-
-:   揭示了VMR中caption-based查询与真实用户搜索查询之间的巨大鸿沟，提出了三个搜索查询基准，并通过移除自注意力+查询Dropout两项架构修改来缓解DETR中的解码器查询坍塌问题，在多时刻搜索查询上提升高达21.83% mAPm。
-
-**[Beyond Prompt Degradation: Prototype-Guided Dual-Pool Prompting for Incremental Object Detection](object_detection/beyond_prompt_degradation_prototype-guided_dual-pool_prompting_for_incremental_o.md)**
-
-:   提出 PDP 框架，通过双池提示解耦（共享池 + 私有池）和原型引导伪标签生成（PPG），解决增量目标检测中提示耦合与提示漂移导致的提示退化问题，在 COCO 和 VOC 上取得 SOTA。
-
-**[Beyond Semantic Search: Towards Referential Anchoring in Composed Image Retrieval](object_detection/beyond_semantic_search_towards_referential_anchoring_in_composed_image_retrieval.md)**
-
-:   提出Object-Anchored Composed Image Retrieval（OACIR）新任务和OACIRR大规模基准（160K+四元组），以及AdaFocal框架通过上下文感知注意力调制器自适应地增强对锚定实例区域的关注，在实例级检索保真度上大幅超越现有方法。
-
-**[Bridging Pixels and Words: Mask-Aware Local Semantic Fusion for Multimodal Media Verification](object_detection/bridging_pixels_and_words_mask-aware_local_semantic_fusion_for_multimodal_media_.md)**
-
-:   提出 MaLSF 框架，利用掩码-标签对作为语义锚点，通过双向跨模态验证（BCV）和层级语义聚合（HSA）模块实现主动式局部语义冲突检测，在 DGM4 和假新闻检测任务上取得 SOTA。
-
-**[CD-Buffer: Complementary Dual-Buffer Framework for Test-Time Adaptation in Adverse Weather Object Detection](object_detection/cd-buffer_complementary_dual-buffer_framework_for_test-time_adaptation_in_advers.md)**
-
-:   提出 CD-Buffer 框架，通过统一的域差异度量驱动减性缓冲（通道抑制）和加性缓冲（轻量适配器补偿）的互补协作，实现跨不同严重程度恶劣天气条件下的鲁棒测试时目标检测适应。
-
-**[CineSRD: Leveraging Visual, Acoustic, and Linguistic Cues for Open-World Visual Media Speaker Diarization](object_detection/cinesrd_leveraging_visual_acoustic_and_linguistic_cues_for_open-world_visual_med.md)**
-
-:   提出 CineSRD，一个免训练的多模态说话人分离框架，通过视觉锚点聚类进行说话人注册，结合音频语言模型进行说话人转换检测，解决影视作品中长视频、大量角色、音视频不同步等开放世界挑战。
-
-**[CLCR: Cross-Level Semantic Collaborative Representation for Multimodal Learning](object_detection/clcr_cross-level_semantic_collaborative_representation_for_multimodal_learning.md)**
-
-:   提出 CLCR 框架，将每个模态特征组织为三层语义层级（浅/中/深），通过层内受控交换域（IntraCED）限制跨模态交互仅在共享子空间进行，通过层间协同聚合域（InterCAD）实现跨层自适应融合，解决多模态学习中的跨层语义不同步问题。
-
-**[CompAgent: An Agentic Framework for Visual Compliance Verification](object_detection/compagent_an_agentic_framework_for_visual_compliance_verification.md)**
-
-:   提出 CompAgent，首个用于视觉合规验证的智能体框架——Planning Agent 根据合规策略动态选择视觉工具（目标检测、人脸分析、NSFW 检测等），Compliance Verification Agent 整合图像、工具输出和策略上下文进行多模态推理，无需训练即在 UnsafeBench 上超越 SOTA 10% 达 76% F1。
-
-**[DA-Mamba: Learning Domain-Aware State Space Model for Global-Local Alignment in Domain Adaptive Object Detection](object_detection/da-mamba_learning_domain-aware_state_space_model_for_global-local_alignment_in_d.md)**
-
-:   提出 DA-Mamba，一种 CNN-SSM 混合架构，通过 Image-Aware SSM（IA-SSM）和 Object-Aware SSM（OA-SSM）两个模块，以线性复杂度实现图像级和实例级的全局-局部域不变特征对齐，在四个域自适应检测基准上达到 SOTA。
-
-**[Detecting Unknown Objects via Energy-Based Separation for Open World Object Detection](object_detection/detecting_unknown_objects_via_energy-based_separation.md)**
-
-:   提出 DEUS 框架，通过 ETF 子空间未知目标分离（EUS）在几何正交的已知/未知子空间中利用能量分数有效分离已知、未知和背景提案，并设计能量基已知区分损失（EKD）减少增量学习中新旧类的交叉干扰，在 OWOD 基准上大幅提升未知目标召回率。
-
-**[Detecting Unknown Objects via Energy-based Separation for Open World Object Detection](object_detection/detecting_unknown_objects_via_energy-based_separation_for_open_world_object_dete.md)**
-
-:   提出 DEUS 框架，通过 Simplex ETF 构建正交的已知/未知子空间并用能量分数引导特征分离（EUS），同时用能量区分损失（EKD）缓解新旧类别间的干扰，在 OWOD 基准上取得了大幅领先的未知目标召回率。
-
-**[Does YOLO Really Need to See Every Training Image in Every Epoch?](object_detection/does_yolo_really_need_to_see_every_training_image_in_every_epoch.md)**
-
-:   提出 Anti-Forgetting Sampling Strategy (AFSS)，根据每张训练图像的学习充分度（min(Precision, Recall)）动态决定哪些图像参与训练、哪些可以跳过，实现 YOLO 系列检测器 1.43× 以上的训练加速同时保持甚至提升检测精度。
-
-**[DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning](object_detection/dreamvideo-omni_omni-motion_controlled_multi-subject_video_customization_with_la.md)**
-
-:   提出 DreamVideo-Omni，通过两阶段渐进训练范式（全运动身份监督微调 + 潜空间身份奖励反馈学习），在单一 DiT 架构中首次统一实现多主体定制与全粒度运动控制（全局包围盒 + 局部轨迹 + 相机运动）。
-
-**[DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning](object_detection/dreamvideoomni_omnimotion_controlled_multisubject.md)**
-
-:   提出 DreamVideo-Omni，在单一 DiT 架构中统一多主体身份定制和全运动控制（全局 bbox + 局部轨迹 + 相机运动），通过条件感知 3D RoPE、Group/Role Embeddings 解决多主体歧义，并设计潜空间身份奖励反馈学习（LIReFL）在任意去噪步提供密集身份奖励，绕过 VAE 解码器实现高效身份强化。
-
-**[Drift-Resilient Temporal Priors for Visual Tracking](object_detection/drift-resilient_temporal_priors_for_visual_tracking.md)**
-
-:   提出 DTPTrack——一个轻量即插即用的时序建模模块，通过时序可靠性校准器（TRC）为历史帧分配可靠性分数过滤噪声，并通过时序引导合成器（TGS）将校准后的历史信息合成为动态先验 token 抑制跟踪漂移，在多个基准上达到 SOTA。
-
-**[DualReg: Dual-Space Filtering and Reinforcement for Rigid Registration](object_detection/dualreg_dual-space_filtering_and_reinforcement_for_rigid_registration.md)**
-
-:   DualReg提出双空间配准范式，先用轻量级1-point RANSAC + 3-point RANSAC渐进过滤特征空间对应点，再基于过滤后的锚点构建几何代理点集进行双空间联合优化，在3DMatch上实现SOTA精度的同时比MAC快32倍。
-
-**[Evaluating Few-Shot Pill Recognition Under Visual Domain Shift](object_detection/evaluating_few-shot_pill_recognition_under_visual_domain_shift.md)**
-
-:   本文从部署视角系统评估药丸识别在跨域few-shot条件下的泛化能力，揭示语义分类1-shot即饱和但定位/recall在重叠遮挡下急剧下降的解耦现象，并证明训练数据的视觉真实性远比数据量或shot数更关键。
-
-**[Evaluating Few-Shot Pill Recognition Under Visual Domain Shift](object_detection/evaluating_fewshot_pill_recognition_under_visual_d.md)**
-
-:   从部署导向的视角系统评估少样本药片识别在跨数据集域偏移下的表现，揭示语义分类在 1-shot 即饱和但遮挡/重叠场景下定位与召回急剧退化的解耦现象，并论证训练数据的视觉真实性是决定少样本泛化的主导因素。
-
-**[EW-DETR: Evolving World Object Detection via Incremental Low-Rank DEtection TRansformer](object_detection/ew-detr_evolving_world_object_detection_via_incremental_low-rank_detection_trans.md)**
-
-:   提出 Evolving World Object Detection (EWOD) 范式及 EW-DETR 框架，通过增量 LoRA 适配器、查询范数物体性适配器和熵感知未知混合三个协同模块，在无样本回放条件下同时解决类别增量学习、域迁移适应和未知目标检测问题，FOGS 指标提升 57.24%。
-
-**[EW-DETR: Evolving World Object Detection via Incremental Low-Rank DEtection TRansformer](object_detection/ewdetr_evolving_world_object_detection.md)**
-
-:   提出Evolving World Object Detection (EWOD)范式和EW-DETR框架，通过增量LoRA适配器、查询范数物体性适配器和熵感知未知混合三个模块，在无需存储旧数据的条件下同时解决类别增量学习、域迁移自适应和未知目标检测，FOGS指标较现有方法提升57.24%。
-
-**[FALCON: False-Negative Aware Learning of Contrastive Negatives in Vision-Language Alignment](object_detection/falcon_false-negative_aware_learning_of_contrastive_negatives_in_vision-language.md)**
-
-:   提出 FALCON，一种**基于学习的 mini-batch 构造策略**，通过负样本挖掘调度器自适应平衡硬负样本与假负样本之间的权衡，显著提升视觉语言预训练的跨模态对齐质量。
-
-**[Fixed Anchors Are Not Enough: Dynamic Retrieval and Persistent Homology for Dataset Distillation](object_detection/fixed_anchors_are_not_enough_dynamic_retrieval_and_persistent_homology_for_datas.md)**
-
-:   RETA解耦数据蒸馏中残差匹配的两个失败模式（fit-complexity gap和pull-to-anchor effect），通过动态检索连接（DRC）自适应选择real patch anchor并用持久同调拓扑对齐（PTA）保持类内多样性，在ImageNet-1K ResNet-18 IPC=50上达到64.3%（+3.1% vs FADRM）。
-
-**[Foundation Model Priors Enhance Object Focus in Feature Space for Source-Free Object Detection](object_detection/foundation_model_priors_enhance_object_focus_in_feature_space_for_source-free_ob.md)**
-
-:   提出 FALCON-SFOD 框架，通过基础模型（OV-SAM）生成的类别无关二值掩码正则化检测器特征空间（SPAR），结合不平衡感知的噪声鲁棒伪标签损失（IRPL），在无源域目标检测中增强目标聚焦表征，多个基准上达到 SOTA。
-
-**[Fourier Angle Alignment for Oriented Object Detection in Remote Sensing](object_detection/fourier_angle_alignment_for_oriented_object_detection_in_remote_sensing.md)**
-
-:   利用傅里叶旋转等变性在频域估计目标主方向并对齐特征，提出 FAAFusion 和 FAA Head 两个即插即用模块分别解决 FPN 跨尺度方向不一致和检测头分类-回归任务冲突，在 DOTA-v1.0/v1.5 和 HRSC2016 上取得新 SOTA。
-
-**[FusionAgent: A Multimodal Agent with Dynamic Model Selection for Human Recognition](object_detection/fusionagent_a_multimodal_agent_with_dynamic_model_selection_for_human_recognitio.md)**
-
-:   本文提出 FusionAgent，一个基于多模态大语言模型（MLLM）的智能体框架，用于全身生物特征识别中的动态样本级模型选择——将每个专家模型（人脸识别/步态识别/行人重识别）封装为工具，通过强化微调（RFT）让 agent 学会根据每个测试样本的特征自适应选择最优模型组合，配合新提出的 ACT 分数融合策略，显著超越现有 SOTA 融合方法。
-
-**[HieraMamba: Video Temporal Grounding via Hierarchical Anchor-Mamba Pooling](object_detection/hieramamba_video_temporal_grounding_via_hierarchical_anchor-mamba_pooling.md)**
-
-:   HieraMamba 提出了基于 Mamba 的层次化视频时间定位架构，核心是 Anchor-MambaPooling（AMP）模块，用 Mamba 的选择性扫描将视频特征逐层压缩为多尺度锚点 token，配合 anchor-conditioned 和 segment-pooled 对比损失增强层次表示的紧凑性和判别性，在 Ego4D-NLQ、MAD 和 TACoS 上达到 SOTA。
-
-**[Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers](object_detection/just-in-time_training-free_spatial_acceleration_for_diffusion_transformers.md)**
-
-:   提出 Just-in-Time (JiT) 框架，通过在空间域动态选择稀疏 anchor token 驱动生成 ODE 演化，并设计确定性 micro-flow 保证新 token 无缝激活，在 FLUX.1-dev 上实现最高 7× 加速且几乎无损。
-
-**[Learning by Neighbor-Aware Semantics, Deciding by Open-form Flows: Towards Robust Zero-Shot Skeleton Action Recognition](object_detection/learning_by_neighbor-aware_semantics_deciding_by_open-form_flows_towards_robust_.md)**
-
-:   Flora 通过邻居感知语义校准实现稳健的骨架-语义跨模态对齐，并利用无噪声流匹配构建分布感知的开放式分类器，在零样本骨架动作识别上取得 SOTA，尤其在低样本训练场景中表现突出。
-
-**[Learning Multi-Modal Prototypes for Cross-Domain Few-Shot Object Detection](object_detection/learning_multi-modal_prototypes_for_cross-domain_few-shot_object_detection.md)**
-
-:   提出双分支框架 LMP，在 GroundingDINO 基础上引入视觉原型分支（正类原型+硬负原型），与文本分支联合训练并集成推理，在跨域少样本目标检测中取得 SOTA。
-
-**[Mining Instance-Centric Vision-Language Contexts for Human-Object Interaction Detection](object_detection/mining_instance-centric_vision-language_contexts_for_human-object_interaction_de.md)**
-
-:   提出 InCoM-Net，通过从 VLM 特征中为每个实例分别提取实例内、实例间和全局三层上下文特征，并通过渐进式上下文聚合与检测器特征融合，在 HICO-DET 和 V-COCO 上取得 HOI 检测 SOTA（HICO-DET Full mAP 43.96，V-COCO AP_role^S1 73.6）。
-
-**[Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](object_detection/mitigating_memorization_in_text-to-image_diffusion_via_region-aware_prompt_augme.md)**
-
-:   提出 RAPTA（训练时区域感知提示增强）缓解扩散模型记忆化，以及 ADMCD（注意力驱动多模态拷贝检测）检测生成图像是否复制训练数据，两个模块互补形成端到端的记忆化缓解与检测框架。
-
-**[Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](object_detection/mitigating_memorization_in_texttoimage_diffusion_v.md)**
-
-:   提出训练时区域感知提示增强(RAPTA)和注意力驱动多模态复制检测(ADMCD)两个互补模块，前者通过目标检测器proposal生成语义接地的提示变体来缓解扩散模型训练数据记忆化，后者融合patch级/CLIP/纹理三流特征实现零训练复制检测与分类，在LAION-10k上将复制率从7.4降至2.6。
-
-**[MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](object_detection/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)**
-
-:   发现并利用跨模态知识迁移现象——修改 LLM 文本编码器中的知识可自然迁移到视觉生成，提出 MoKus 两阶段框架（视觉概念学习 + 文本知识更新）实现知识感知的概念定制。
-
-**[MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](object_detection/mokus_leveraging_crossmodal_knowledge_transfer_for.md)**
-
-:   提出"知识感知概念定制"新任务，发现LLM文本编码器中的知识编辑可以自然迁移到视觉生成模态（跨模态知识迁移），基于此提出MoKus框架：先用LoRA微调将稀有token绑定为视觉概念的锚表征，再通过知识编辑技术将多条自然语言知识高效映射到锚表征上，每条知识更新仅需约7秒。
-
-**[MRD: Multi-resolution Retrieval-Detection Fusion for High-Resolution Image Understanding](object_detection/mrd_multi-resolution_retrieval-detection_fusion_for_high-resolution_image_unders.md)**
-
-:   提出 MRD，一个 training-free 的多分辨率检索-检测融合框架，通过多分辨率语义融合缓解目标碎片化，结合开放词汇检测器抑制背景干扰，显著提升 MLLM 对高分辨率图像的理解能力。
-
-**[Neighbor GRPO: Contrastive ODE Policy Optimization Aligns Flow Models](object_detection/neighbor_grpo_contrastive_ode_policy_optimization_aligns_flow_models.md)**
-
-:   重新解释 SDE-based GRPO 为距离优化/对比学习，提出 Neighbor GRPO——完全绕过 SDE 转换，通过扰动 ODE 初始噪声构建邻域候选轨迹 + softmax 距离代理策略实现策略梯度优化，保留确定性 ODE 采样的所有优势。
-
-**[NoOVD: Novel Category Discovery and Embedding for Open-Vocabulary Object Detection](object_detection/noovd_novel_category_discovery_and_embedding_for_open-vocabulary_object_detectio.md)**
-
-:   提出NoOVD框架，在基于冻结VLM的OVD训练中通过无参数K-FPN保留CLIP知识来发现潜在新类别目标、通过自蒸馏将新类别知识嵌入检测器、通过R-RPN在推理时提升新类别召回率，在OV-LVIS/OV-COCO/Objects365上取得SOTA。
-
-**[PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation](object_detection/palm_progress-aware_policy_learning_via_affordance_reasoning_for_long-horizon_ro.md)**
-
-:   提出 PALM，一个统一的 VLA 框架，通过结构化的细粒度可供性预测（全局/局部/空间/动态四类）作为隐式推理锚点，结合连续子任务进度估计实现无缝任务切换，在 CALVIN ABCD 上平均完成长度达 4.48（超越前 SOTA 12.5%），LIBERO-LONG 成功率 91.8%，真实世界长时域泛化测试中达到基线 2 倍以上。
-
-**[Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](object_detection/parameter-efficient_semantic_augmentation_for_enhancing_open-vocabulary_object_d.md)**
-
-:   HSA-DINO 提出多尺度 prompt bank 从图像特征金字塔中学习层次化语义 prompt 增强文本表示，并通过语义感知路由器在推理时动态决定是否使用领域特定增强，实现了领域适配与开放词汇泛化的优越平衡（H 值在三个垂直领域数据集上均为最优）。
-
-**[PET-DINO: Unifying Visual Cues into Grounding DINO with Prompt-Enriched Training](object_detection/pet-dino_unifying_visual_cues_into_grounding_dino_with_prompt-enriched_training.md)**
-
-:   PET-DINO 在 Grounding DINO 基础上构建了一个同时支持文本和视觉提示的通用目标检测器，设计了对齐友好的视觉提示生成模块（AFVPG）以及两种提示丰富化训练策略（IBP 和 DMD），在零样本检测任务上以更少的训练数据取得了有竞争力的性能。
-
-**[PHAC: Promptable Human Amodal Completion](object_detection/phac_promptable_human_amodal_completion.md)**
-
-:   提出可提示人体非模态补全（PHAC）新任务，通过基于点的用户提示（姿态/边界框）配合 ControlNet 注入条件信号，并设计基于修复的精炼模块保留可见区域外观，实现高质量、可控的遮挡人体图像补全。
-
-**[Pixels Don't Lie (But Your Detector Might): Bootstrapping MLLM-as-a-Judge for Trustworthy Deepfake Detection and Reasoning Supervision](object_detection/pixels_dont_lie_but_your_detector_might_bootstrapping_mllm-as-a-judge_for_trustw.md)**
-
-:   提出 DeepfakeJudge 框架，通过 bootstrapped generator-evaluator 流程将人类标注的推理监督扩展为大规模结构化评分数据，训练出 3B/7B 视觉语言模型作为 deepfake 检测推理质量的自动评判者，在 pointwise 和 pairwise 评估上均达到与人类高度一致的水平。
-
-**[PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion](object_detection/prism_video_dataset_condensation_with_progressive_refinement_and_insertion_for_s.md)**
-
-:   本文提出 PRISM，一种整体式视频数据集压缩方法：从仅两个时间锚点（首尾帧）出发,通过检测梯度方向冲突来自适应插入关键帧，在保持内容与运动的耦合完整性的同时实现 SOTA 的存储效率——在 miniUCF 1VPC 上用 20MB 达到 17.9% 准确率，比先前方法的 94MB 少 5 倍。
-
-**[Prompt-Free Universal Region Proposal Network](object_detection/prompt-free_universal_region_proposal_network.md)**
-
-:   PF-RPN 用可学习视觉嵌入替代文本/图像提示，通过稀疏图像感知适配器、级联自提示和中心性引导查询选择三个模块，仅用 5% COCO 数据训练即可在 19 个跨域数据集上实现 SOTA 零样本区域提案。
-
-**[RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](object_detection/radar_closed-loop_robotic_data_generation_via_semantic_planning_and_autonomous_c.md)**
-
-:   提出 RADAR 全自动闭环机器人数据采集框架，通过 VLM 语义规划、GNN 策略执行、VQA 成功评估和 LIFO 因果环境重置四模块协同，仅需 2-5 个人类演示即可在无人干预下持续生成高质量操作数据，在仿真长序列任务上达 90% 成功率。
-
-**[RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](object_detection/radar_closedloop_robotic_data_generation_via_seman.md)**
-
-:   提出RADAR——一个完全自主的闭环机器人操作数据生成引擎，通过VLM语义规划+GNN策略执行+VQA成功评估+FSM驱动的LIFO因果逆序环境重置四个模块，仅需2-5个人工演示即可持续生成高保真操作数据，在仿真中复杂长horizon任务达到90%成功率。
-
-**[ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation](object_detection/rehark_refined_hybrid_adaptive_rbf_kernels_for_rob.md)**
-
-:   提出ReHARK——一个训练免的CLIP one-shot适应框架，通过融合CLIP文本知识、GPT3语义描述和视觉原型构建混合先验，结合多尺度RBF核在RKHS中做全局近端正则化，在11个基准上以65.83%平均准确率刷新one-shot SOTA。
-
-**[ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation](object_detection/rehark_refined_hybrid_adaptive_rbf_kernels_for_robust_one-shot_vision-language_a.md)**
-
-:   提出 ReHARK 框架，通过混合语义-视觉先验构建、支撑集增强、自适应分布校正和多尺度 RBF 核集成四阶段精炼管道，在 11 个基准上实现 65.83% 的单样本适应 SOTA 准确率，显著超越 Tip-Adapter 和 ProKeR。
-
-**[Remedying Target-Domain Astigmatism for Cross-Domain Few-Shot Object Detection](object_detection/remedying_target-domain_astigmatism_for_cross-domain_few-shot_object_detection.md)**
-
-:   首次发现跨域少样本目标检测（CD-FSOD）中模型注意力在目标域持续分散的"散光"现象，受人类中央凹视觉系统启发，设计正向模式精化（PPR）、负向上下文调制（NCM）和文本语义对齐（TSA）三个互补模块来重塑注意力，在6个跨域基准上以显著优势达到SOTA。
-
-**[RiskProp: Collision-Anchored Self-Supervised Risk Propagation for Early Accident Anticipation](object_detection/riskprop_collision-anchored_self-supervised_risk_propagation_for_early_accident_.md)**
-
-:   提出 RiskProp，一种以碰撞帧为锚点的自监督风险传播范式，通过未来帧正则化损失和自适应单调约束损失，仅依赖碰撞帧标注即可学习时序连贯的风险演化曲线，在 CAP 和 Nexar 数据集上达到 SOTA。
-
-**[Saliency-R1: Enforcing Interpretable and Faithful Vision-language Reasoning via Saliency-map Alignment Reward](object_detection/saliency-r1_enforcing_interpretable_and_faithful_vision-language_reasoning_via_s.md)**
-
-:   提出 Saliency-R1，通过基于 logit 分解的高效显著性图技术和思维链瓶颈注意力回溯，将显著性图与人工标注 bounding box 的对齐度作为 GRPO 奖励，训练 VLM 在推理时聚焦任务相关的图像区域，提升推理的可解释性和忠实性。
-
-**[SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification](object_detection/sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md)**
-
-:   提出 SDF-Net，利用船舶刚体几何结构作为跨模态不变锚点，在中间层提取梯度能量强制结构一致性，在终端层解耦模态共享/特定特征并通过加法残差融合，在 HOSS-ReID 上取得 SOTA（All mAP 60.9%，超 TransOSS 3.5%）。
-
-**[Shape-of-You: Fused Gromov-Wasserstein Optimal Transport for Semantic Correspondence in-the-Wild](object_detection/shape-of-you_fused_gromov-wasserstein_optimal_transport_for_semantic_corresponde.md)**
-
-:   将语义对应问题重新建模为 Fused Gromov-Wasserstein (FGW) 最优传输问题，利用 3D 基础模型提供的几何结构约束来生成全局一致的伪标签，解决了传统最近邻匹配因局部性和 2D 外观歧义导致的几何不一致问题。
-
-**[Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](object_detection/show_dont_tell_detecting_novel_objects_by_watching.md)**
-
-:   提出 "Show, Don't Tell" 范式——通过观看人类演示视频自动创建训练数据集并训练定制化物体检测器，完全绕过语言描述和提示工程，在真实机器人场景中显著超越 SOTA 开集/闭集检测器的新物体识别能力。
-
-**[Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](object_detection/show_dont_tell_detecting_novel_objects_by_watching_human_videos.md)**
-
-:   提出 "Show, Don't Tell" 范式：通过 SODC 管线（HOIST-Former 检测抓取物体 → SAMURAI 跟踪 → DBSCAN 时空聚类）从人类演示视频自动创建标注数据集，训练轻量化 F-RCNN 定制检测器（MOD），在无需任何语言提示的情况下实现新颖物体的实例级检测，在 Meccano 和自采数据集上 mAP 和 precision 超越 GroundingDINO/RexOmni/YoloWorld 等 VLM 基线，端到端集成到真实机器人分拣系统中。
-
-**[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](object_detection/slice_semantic_latent_injection_via_compartmentali.md)**
-
-:   提出SLICE框架，将图像语义解耦为四个因子（主体/环境/动作/细节），各自锚定到扩散模型初始噪声的不同空间分区，实现细粒度语义感知水印——不仅能检测篡改，还能精确定位被篡改的语义因子，且完全无需训练。
-
-**[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](object_detection/slice_semantic_latent_injection_via_compartmentalized_embedding_for_image_waterm.md)**
-
-:   提出 SLICE 语义水印框架，将图像语义分解为主体/环境/动作/细节四个因子并绑定到初始高斯噪声的不同空间分区，实现不仅可检测水印存在还可定位语义篡改的三状态验证机制，对最强 CSI 攻击的攻击成功率仅 19%（SEAL 为 81%）。
-
-**[Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images](object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md)**
-
-:   提出 ESM-YOLO+，一个轻量级可见光-红外融合小目标检测网络，通过 Mask-Enhanced Attention Fusion (MEAF) 模块实现像素级跨模态自适应融合，并引入训练时结构表示增强提升空间判别力，在 VEDAI 上达 84.71% mAP 同时参数量减少 93.6%。
-
-**[Specificity-aware Reinforcement Learning for Fine-grained Open-world Classification](object_detection/specificity-aware_reinforcement_learning_for_fine-grained_open-world_classificat.md)**
-
-:   提出 SpeciaRL——一种特异性感知的强化学习框架，通过基于在线 rollout 最佳预测的动态奖励信号，引导推理型大型多模态模型在开放世界细粒度图像分类中同时提升预测的特异性和正确性。
-
-**[SpiralDiff: Spiral Diffusion with LoRA for RGB-to-RAW Conversion Across Cameras](object_detection/spiraldiff_spiral_diffusion_with_lora_for_rgb-to-raw_conversion_across_cameras.md)**
-
-:   提出 SpiralDiff，一种面向 RGB-to-RAW 转换的扩散框架，通过信号依赖的噪声加权策略适应不同像素强度区域的重建难度，并引入 CamLoRA 模块实现单一模型跨多相机的轻量适配。
-
-**[Stake the Points: Structure-Faithful Instance Unlearning](object_detection/stake_the_points_structure-faithful_instance_unlearning.md)**
-
-:   提出 Structguard，通过语义锚点（semantic anchors）保持遗忘过程中保留实例间的语义关系结构，避免结构性崩塌，在图像分类/人脸识别/检索三任务上平均提升 32.9%/19.3%/22.5%。
-
-**[StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars](object_detection/streamavatar_streaming_diffusion_models_for_real-time_interactive_human_avatars.md)**
-
-:   提出两阶段自回归适配加速框架（自回归蒸馏 + 对抗精炼），将双向人体视频扩散模型转化为实时流式生成器，通过 Reference Sink、RAPR 位置重编码和一致性感知判别器保证长视频稳定性，实现首个支持说话和倾听交互的全身实时数字人。
-
-**[The COTe Score: A Decomposable Framework for Evaluating Document Layout Analysis Models](object_detection/the_cote_score_a_decomposable_framework_for_evaluating_document_layout_analysis_.md)**
-
-:   提出面向文档布局分析（DLA）的可分解评估框架 COTe（Coverage, Overlap, Trespass, Excess），以及结构语义单元 SSU，相比传统 IoU/mAP/F1 能更准确地反映页面解析质量，并揭示不同模型的特异性失败模式。
-
-**[TIACam: Text-Anchored Invariant Feature Learning with Auto-Augmentation for Camera-Robust Zero-Watermarking](object_detection/tiacam_text-anchored_invariant_feature_learning_with_auto-augmentation_for_camer.md)**
-
-:   提出 TIACam 框架，通过可学习自动增强器模拟相机失真、文本锚定跨模态对抗训练学习不变特征、零水印头在特征空间绑定消息，实现无需修改图像像素的相机鲁棒零水印方案，在屏幕翻拍/打印翻拍/截图三种真实场景下均达到 SOTA 提取精度。
-
-**[Token Reduction via Local and Global Contexts Optimization for Efficient Video Large Language Models](object_detection/token_reduction_via_local_and_global_contexts_optimization_for_efficient_video_l.md)**
-
-:   提出 AOT 框架，通过建立局部-全局 token anchors 并利用最优传输（Optimal Transport）在帧内和帧间两级聚合被裁剪/合并 token 的语义信息，实现 training-free 的视频 token 压缩，在裁剪 90% token 的情况下仍保留 97.6% 的原始性能。
-
-**[Training-free Detection of Generated Videos via Spatial-Temporal Likelihoods](object_detection/training-free_detection_of_generated_videos_via_spatial-temporal_likelihoods.md)**
-
-:   提出 STALL，一种无需训练的零样本生成视频检测器，通过在白化嵌入空间中联合建模逐帧空间似然和帧间时序似然，仅依赖真实视频校准即可实现对多种生成模型的鲁棒检测。
-
----
-
 ## 📹 视频理解 { #video_understanding }
 
 **[A4VL: A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](video_understanding/a4vl_multiagent_long_video_reasoning.md)**
@@ -4601,6 +4305,298 @@ description: >-
 **[Wavelet-based Frame Selection by Detecting Semantic Boundary for Long Video Understanding](video_understanding/wavelet-based_frame_selection_by_detecting_semantic_boundary_for_long_video_unde.md)**
 
 :   提出 WFS-SB，一种免训练的帧选择框架，利用小波变换从查询-帧相似度信号中检测语义边界，将视频分割为语义连贯的片段后自适应分配帧预算并做多样性采样，在 VideoMME/MLVU/LongVideoBench 上大幅超越 SOTA。
+
+---
+
+## 🎯 目标检测 { #object_detection }
+
+**[A Closer Look at Cross-Domain Few-Shot Object Detection: Fine-Tuning Matters and Parallel Decoder Helps](object_detection/a_closer_look_at_cross-domain_few-shot_object_detection_fine-tuning_matters_and_.md)**
+
+:   提出混合集成解码器(HED)和渐进微调策略用于跨域少样本目标检测，通过并行化部分解码层并随机初始化去噪查询引入预测多样性，在CD-FSOD/ODinW-13/RF100-VL三个基准上达到SOTA，不引入额外参数。
+
+**[ABRA: Teleporting Fine-Tuned Knowledge Across Domains for Open-Vocabulary Object Detection](object_detection/abra_teleporting_fine-tuned_knowledge_across_domains_for_open-vocabulary_object_.md)**
+
+:   提出 ABRA 方法，将域知识与类别知识解耦，通过 Objectification 构建类无关域专家、SVFT 提取轻量类别残差、Orthogonal Procrustes 旋转对齐实现权重空间"传送"，在目标域完全无某些类别数据时仍可迁移这些类别的检测能力。
+
+**[ABRA: Teleporting Fine-Tuned Knowledge Across Domains for Open-Vocabulary Object Detection](object_detection/abra_teleporting_finetuned_knowledge_across_domain.md)**
+
+:   将跨域类别迁移问题建模为权重空间的 SVD 旋转对齐：通过 Objectification 训练类无关域专家，用 SVFT 提取轻量类残差，再通过闭式正交 Procrustes 解将源域类知识"传送"到完全没有该类数据的目标域。
+
+**[Adaptive Auxiliary Prompt Blending for Target-Faithful Diffusion Generation](object_detection/adaptive_auxiliary_prompt_blending_for_target-faithful_diffusion_generation.md)**
+
+:   提出 Adaptive Auxiliary Prompt Blending (AAPB)，通过 Tweedie 公式推导闭式自适应混合系数，在每个去噪步动态平衡辅助锚定提示与目标提示的贡献，无需训练即可显著改善稀有概念生成和零样本图像编辑的语义准确性与结构保真度。
+
+**[Anchoring and Rescaling Attention for Semantically Coherent Inbetweening](object_detection/anchoring_and_rescaling_attention_for_semantically_coherent_inbetweening.md)**
+
+:   提出 KAB（Keyframe-Anchored Attention Bias）和 ReTRo（Rescaled Temporal RoPE）两个无需训练的推理时方法，基于 Wan2.1 视频扩散模型解决稀疏关键帧下大运动生成式帧插值（GI）中的语义不忠、帧不一致和节奏不稳问题，并构建首个文本条件 GI 评估基准 TGI-Bench。
+
+**[AR²-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos](object_detection/ar2-4fv_anchored_referring_and_re-identification_for_long-term_grounding_in_fixe.md)**
+
+:   利用固定视角视频中背景结构的时不变性，构建离线 Anchor Bank + 在线 Anchor Map 作为语言-场景持久记忆，配合锚点引导的重入先验和 ReID-Gating 身份验证机制，实现目标遮挡/离场后的鲁棒重捕获，RCR 提升 10.3%、RCL 降低 24.2%。
+
+**[BeautyGRPO: Aesthetic Alignment for Face Retouching via Dynamic Path Guidance and Fine-Grained Preference Modeling](object_detection/beautygrpo_aesthetic_alignment_for_face_retouching_via_dynamic_path_guidance_and.md)**
+
+:   提出 BeautyGRPO，一个基于强化学习的人脸修图框架，通过构建细粒度偏好数据集 FRPref-10K 训练专用奖励模型，并设计动态路径引导（DPG）机制在随机探索与高保真之间取得平衡，实现与人类美学偏好对齐的自然修图效果。
+
+**[Beyond Caption-Based Queries for Video Moment Retrieval](object_detection/beyond_caption-based_queries_for_video_moment_retrieval.md)**
+
+:   揭示了VMR中caption-based查询与真实用户搜索查询之间的巨大鸿沟，提出了三个搜索查询基准，并通过移除自注意力+查询Dropout两项架构修改来缓解DETR中的解码器查询坍塌问题，在多时刻搜索查询上提升高达21.83% mAPm。
+
+**[Beyond Prompt Degradation: Prototype-Guided Dual-Pool Prompting for Incremental Object Detection](object_detection/beyond_prompt_degradation_prototype-guided_dual-pool_prompting_for_incremental_o.md)**
+
+:   提出 PDP 框架，通过双池提示解耦（共享池 + 私有池）和原型引导伪标签生成（PPG），解决增量目标检测中提示耦合与提示漂移导致的提示退化问题，在 COCO 和 VOC 上取得 SOTA。
+
+**[Beyond Semantic Search: Towards Referential Anchoring in Composed Image Retrieval](object_detection/beyond_semantic_search_towards_referential_anchoring_in_composed_image_retrieval.md)**
+
+:   提出Object-Anchored Composed Image Retrieval（OACIR）新任务和OACIRR大规模基准（160K+四元组），以及AdaFocal框架通过上下文感知注意力调制器自适应地增强对锚定实例区域的关注，在实例级检索保真度上大幅超越现有方法。
+
+**[Bridging Pixels and Words: Mask-Aware Local Semantic Fusion for Multimodal Media Verification](object_detection/bridging_pixels_and_words_mask-aware_local_semantic_fusion_for_multimodal_media_.md)**
+
+:   提出 MaLSF 框架，利用掩码-标签对作为语义锚点，通过双向跨模态验证（BCV）和层级语义聚合（HSA）模块实现主动式局部语义冲突检测，在 DGM4 和假新闻检测任务上取得 SOTA。
+
+**[CD-Buffer: Complementary Dual-Buffer Framework for Test-Time Adaptation in Adverse Weather Object Detection](object_detection/cd-buffer_complementary_dual-buffer_framework_for_test-time_adaptation_in_advers.md)**
+
+:   提出 CD-Buffer 框架，通过统一的域差异度量驱动减性缓冲（通道抑制）和加性缓冲（轻量适配器补偿）的互补协作，实现跨不同严重程度恶劣天气条件下的鲁棒测试时目标检测适应。
+
+**[CineSRD: Leveraging Visual, Acoustic, and Linguistic Cues for Open-World Visual Media Speaker Diarization](object_detection/cinesrd_leveraging_visual_acoustic_and_linguistic_cues_for_open-world_visual_med.md)**
+
+:   提出 CineSRD，一个免训练的多模态说话人分离框架，通过视觉锚点聚类进行说话人注册，结合音频语言模型进行说话人转换检测，解决影视作品中长视频、大量角色、音视频不同步等开放世界挑战。
+
+**[CLCR: Cross-Level Semantic Collaborative Representation for Multimodal Learning](object_detection/clcr_cross-level_semantic_collaborative_representation_for_multimodal_learning.md)**
+
+:   提出 CLCR 框架，将每个模态特征组织为三层语义层级（浅/中/深），通过层内受控交换域（IntraCED）限制跨模态交互仅在共享子空间进行，通过层间协同聚合域（InterCAD）实现跨层自适应融合，解决多模态学习中的跨层语义不同步问题。
+
+**[CompAgent: An Agentic Framework for Visual Compliance Verification](object_detection/compagent_an_agentic_framework_for_visual_compliance_verification.md)**
+
+:   提出 CompAgent，首个用于视觉合规验证的智能体框架——Planning Agent 根据合规策略动态选择视觉工具（目标检测、人脸分析、NSFW 检测等），Compliance Verification Agent 整合图像、工具输出和策略上下文进行多模态推理，无需训练即在 UnsafeBench 上超越 SOTA 10% 达 76% F1。
+
+**[DA-Mamba: Learning Domain-Aware State Space Model for Global-Local Alignment in Domain Adaptive Object Detection](object_detection/da-mamba_learning_domain-aware_state_space_model_for_global-local_alignment_in_d.md)**
+
+:   提出 DA-Mamba，一种 CNN-SSM 混合架构，通过 Image-Aware SSM（IA-SSM）和 Object-Aware SSM（OA-SSM）两个模块，以线性复杂度实现图像级和实例级的全局-局部域不变特征对齐，在四个域自适应检测基准上达到 SOTA。
+
+**[Detecting Unknown Objects via Energy-based Separation for Open World Object Detection](object_detection/detecting_unknown_objects_via_energy-based_separation_for_open_world_object_dete.md)**
+
+:   提出 DEUS 框架，通过 Simplex ETF 构建正交的已知/未知子空间并用能量分数引导特征分离（EUS），同时用能量区分损失（EKD）缓解新旧类别间的干扰，在 OWOD 基准上取得了大幅领先的未知目标召回率。
+
+**[Does YOLO Really Need to See Every Training Image in Every Epoch?](object_detection/does_yolo_really_need_to_see_every_training_image_in_every_epoch.md)**
+
+:   提出 Anti-Forgetting Sampling Strategy (AFSS)，根据每张训练图像的学习充分度（min(Precision, Recall)）动态决定哪些图像参与训练、哪些可以跳过，实现 YOLO 系列检测器 1.43× 以上的训练加速同时保持甚至提升检测精度。
+
+**[DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning](object_detection/dreamvideo-omni_omni-motion_controlled_multi-subject_video_customization_with_la.md)**
+
+:   提出 DreamVideo-Omni，通过两阶段渐进训练范式（全运动身份监督微调 + 潜空间身份奖励反馈学习），在单一 DiT 架构中首次统一实现多主体定制与全粒度运动控制（全局包围盒 + 局部轨迹 + 相机运动）。
+
+**[DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning](object_detection/dreamvideoomni_omnimotion_controlled_multisubject.md)**
+
+:   提出 DreamVideo-Omni，在单一 DiT 架构中统一多主体身份定制和全运动控制（全局 bbox + 局部轨迹 + 相机运动），通过条件感知 3D RoPE、Group/Role Embeddings 解决多主体歧义，并设计潜空间身份奖励反馈学习（LIReFL）在任意去噪步提供密集身份奖励，绕过 VAE 解码器实现高效身份强化。
+
+**[Drift-Resilient Temporal Priors for Visual Tracking](object_detection/drift-resilient_temporal_priors_for_visual_tracking.md)**
+
+:   提出 DTPTrack——一个轻量即插即用的时序建模模块，通过时序可靠性校准器（TRC）为历史帧分配可靠性分数过滤噪声，并通过时序引导合成器（TGS）将校准后的历史信息合成为动态先验 token 抑制跟踪漂移，在多个基准上达到 SOTA。
+
+**[DualReg: Dual-Space Filtering and Reinforcement for Rigid Registration](object_detection/dualreg_dual-space_filtering_and_reinforcement_for_rigid_registration.md)**
+
+:   DualReg提出双空间配准范式，先用轻量级1-point RANSAC + 3-point RANSAC渐进过滤特征空间对应点，再基于过滤后的锚点构建几何代理点集进行双空间联合优化，在3DMatch上实现SOTA精度的同时比MAC快32倍。
+
+**[Evaluating Few-Shot Pill Recognition Under Visual Domain Shift](object_detection/evaluating_few-shot_pill_recognition_under_visual_domain_shift.md)**
+
+:   本文从部署视角系统评估药丸识别在跨域few-shot条件下的泛化能力，揭示语义分类1-shot即饱和但定位/recall在重叠遮挡下急剧下降的解耦现象，并证明训练数据的视觉真实性远比数据量或shot数更关键。
+
+**[Evaluating Few-Shot Pill Recognition Under Visual Domain Shift](object_detection/evaluating_fewshot_pill_recognition_under_visual_d.md)**
+
+:   从部署导向的视角系统评估少样本药片识别在跨数据集域偏移下的表现，揭示语义分类在 1-shot 即饱和但遮挡/重叠场景下定位与召回急剧退化的解耦现象，并论证训练数据的视觉真实性是决定少样本泛化的主导因素。
+
+**[EW-DETR: Evolving World Object Detection via Incremental Low-Rank DEtection TRansformer](object_detection/ew-detr_evolving_world_object_detection_via_incremental_low-rank_detection_trans.md)**
+
+:   提出 Evolving World Object Detection (EWOD) 范式及 EW-DETR 框架，通过增量 LoRA 适配器、查询范数物体性适配器和熵感知未知混合三个协同模块，在无样本回放条件下同时解决类别增量学习、域迁移适应和未知目标检测问题，FOGS 指标提升 57.24%。
+
+**[EW-DETR: Evolving World Object Detection via Incremental Low-Rank DEtection TRansformer](object_detection/ewdetr_evolving_world_object_detection.md)**
+
+:   提出Evolving World Object Detection (EWOD)范式和EW-DETR框架，通过增量LoRA适配器、查询范数物体性适配器和熵感知未知混合三个模块，在无需存储旧数据的条件下同时解决类别增量学习、域迁移自适应和未知目标检测，FOGS指标较现有方法提升57.24%。
+
+**[FALCON: False-Negative Aware Learning of Contrastive Negatives in Vision-Language Alignment](object_detection/falcon_false-negative_aware_learning_of_contrastive_negatives_in_vision-language.md)**
+
+:   提出 FALCON，一种**基于学习的 mini-batch 构造策略**，通过负样本挖掘调度器自适应平衡硬负样本与假负样本之间的权衡，显著提升视觉语言预训练的跨模态对齐质量。
+
+**[Fixed Anchors Are Not Enough: Dynamic Retrieval and Persistent Homology for Dataset Distillation](object_detection/fixed_anchors_are_not_enough_dynamic_retrieval_and_persistent_homology_for_datas.md)**
+
+:   RETA解耦数据蒸馏中残差匹配的两个失败模式（fit-complexity gap和pull-to-anchor effect），通过动态检索连接（DRC）自适应选择real patch anchor并用持久同调拓扑对齐（PTA）保持类内多样性，在ImageNet-1K ResNet-18 IPC=50上达到64.3%（+3.1% vs FADRM）。
+
+**[Foundation Model Priors Enhance Object Focus in Feature Space for Source-Free Object Detection](object_detection/foundation_model_priors_enhance_object_focus_in_feature_space_for_source-free_ob.md)**
+
+:   提出 FALCON-SFOD 框架，通过基础模型（OV-SAM）生成的类别无关二值掩码正则化检测器特征空间（SPAR），结合不平衡感知的噪声鲁棒伪标签损失（IRPL），在无源域目标检测中增强目标聚焦表征，多个基准上达到 SOTA。
+
+**[Fourier Angle Alignment for Oriented Object Detection in Remote Sensing](object_detection/fourier_angle_alignment_for_oriented_object_detection_in_remote_sensing.md)**
+
+:   利用傅里叶旋转等变性在频域估计目标主方向并对齐特征，提出 FAAFusion 和 FAA Head 两个即插即用模块分别解决 FPN 跨尺度方向不一致和检测头分类-回归任务冲突，在 DOTA-v1.0/v1.5 和 HRSC2016 上取得新 SOTA。
+
+**[FusionAgent: A Multimodal Agent with Dynamic Model Selection for Human Recognition](object_detection/fusionagent_a_multimodal_agent_with_dynamic_model_selection_for_human_recognitio.md)**
+
+:   本文提出 FusionAgent，一个基于多模态大语言模型（MLLM）的智能体框架，用于全身生物特征识别中的动态样本级模型选择——将每个专家模型（人脸识别/步态识别/行人重识别）封装为工具，通过强化微调（RFT）让 agent 学会根据每个测试样本的特征自适应选择最优模型组合，配合新提出的 ACT 分数融合策略，显著超越现有 SOTA 融合方法。
+
+**[HieraMamba: Video Temporal Grounding via Hierarchical Anchor-Mamba Pooling](object_detection/hieramamba_video_temporal_grounding_via_hierarchical_anchor-mamba_pooling.md)**
+
+:   HieraMamba 提出了基于 Mamba 的层次化视频时间定位架构，核心是 Anchor-MambaPooling（AMP）模块，用 Mamba 的选择性扫描将视频特征逐层压缩为多尺度锚点 token，配合 anchor-conditioned 和 segment-pooled 对比损失增强层次表示的紧凑性和判别性，在 Ego4D-NLQ、MAD 和 TACoS 上达到 SOTA。
+
+**[Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers](object_detection/just-in-time_training-free_spatial_acceleration_for_diffusion_transformers.md)**
+
+:   提出 Just-in-Time (JiT) 框架，通过在空间域动态选择稀疏 anchor token 驱动生成 ODE 演化，并设计确定性 micro-flow 保证新 token 无缝激活，在 FLUX.1-dev 上实现最高 7× 加速且几乎无损。
+
+**[Learning by Neighbor-Aware Semantics, Deciding by Open-form Flows: Towards Robust Zero-Shot Skeleton Action Recognition](object_detection/learning_by_neighbor-aware_semantics_deciding_by_open-form_flows_towards_robust_.md)**
+
+:   Flora 通过邻居感知语义校准实现稳健的骨架-语义跨模态对齐，并利用无噪声流匹配构建分布感知的开放式分类器，在零样本骨架动作识别上取得 SOTA，尤其在低样本训练场景中表现突出。
+
+**[Learning Multi-Modal Prototypes for Cross-Domain Few-Shot Object Detection](object_detection/learning_multi-modal_prototypes_for_cross-domain_few-shot_object_detection.md)**
+
+:   提出双分支框架 LMP，在 GroundingDINO 基础上引入视觉原型分支（正类原型+硬负原型），与文本分支联合训练并集成推理，在跨域少样本目标检测中取得 SOTA。
+
+**[Mining Instance-Centric Vision-Language Contexts for Human-Object Interaction Detection](object_detection/mining_instance-centric_vision-language_contexts_for_human-object_interaction_de.md)**
+
+:   提出 InCoM-Net，通过从 VLM 特征中为每个实例分别提取实例内、实例间和全局三层上下文特征，并通过渐进式上下文聚合与检测器特征融合，在 HICO-DET 和 V-COCO 上取得 HOI 检测 SOTA（HICO-DET Full mAP 43.96，V-COCO AP_role^S1 73.6）。
+
+**[Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](object_detection/mitigating_memorization_in_text-to-image_diffusion_via_region-aware_prompt_augme.md)**
+
+:   提出 RAPTA（训练时区域感知提示增强）缓解扩散模型记忆化，以及 ADMCD（注意力驱动多模态拷贝检测）检测生成图像是否复制训练数据，两个模块互补形成端到端的记忆化缓解与检测框架。
+
+**[Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](object_detection/mitigating_memorization_in_texttoimage_diffusion_v.md)**
+
+:   提出训练时区域感知提示增强(RAPTA)和注意力驱动多模态复制检测(ADMCD)两个互补模块，前者通过目标检测器proposal生成语义接地的提示变体来缓解扩散模型训练数据记忆化，后者融合patch级/CLIP/纹理三流特征实现零训练复制检测与分类，在LAION-10k上将复制率从7.4降至2.6。
+
+**[MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](object_detection/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)**
+
+:   发现并利用跨模态知识迁移现象——修改 LLM 文本编码器中的知识可自然迁移到视觉生成，提出 MoKus 两阶段框架（视觉概念学习 + 文本知识更新）实现知识感知的概念定制。
+
+**[MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](object_detection/mokus_leveraging_crossmodal_knowledge_transfer_for.md)**
+
+:   提出"知识感知概念定制"新任务，发现LLM文本编码器中的知识编辑可以自然迁移到视觉生成模态（跨模态知识迁移），基于此提出MoKus框架：先用LoRA微调将稀有token绑定为视觉概念的锚表征，再通过知识编辑技术将多条自然语言知识高效映射到锚表征上，每条知识更新仅需约7秒。
+
+**[MRD: Multi-resolution Retrieval-Detection Fusion for High-Resolution Image Understanding](object_detection/mrd_multi-resolution_retrieval-detection_fusion_for_high-resolution_image_unders.md)**
+
+:   提出 MRD，一个 training-free 的多分辨率检索-检测融合框架，通过多分辨率语义融合缓解目标碎片化，结合开放词汇检测器抑制背景干扰，显著提升 MLLM 对高分辨率图像的理解能力。
+
+**[Neighbor GRPO: Contrastive ODE Policy Optimization Aligns Flow Models](object_detection/neighbor_grpo_contrastive_ode_policy_optimization_aligns_flow_models.md)**
+
+:   重新解释 SDE-based GRPO 为距离优化/对比学习，提出 Neighbor GRPO——完全绕过 SDE 转换，通过扰动 ODE 初始噪声构建邻域候选轨迹 + softmax 距离代理策略实现策略梯度优化，保留确定性 ODE 采样的所有优势。
+
+**[NoOVD: Novel Category Discovery and Embedding for Open-Vocabulary Object Detection](object_detection/noovd_novel_category_discovery_and_embedding_for_open-vocabulary_object_detectio.md)**
+
+:   提出NoOVD框架，在基于冻结VLM的OVD训练中通过无参数K-FPN保留CLIP知识来发现潜在新类别目标、通过自蒸馏将新类别知识嵌入检测器、通过R-RPN在推理时提升新类别召回率，在OV-LVIS/OV-COCO/Objects365上取得SOTA。
+
+**[PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation](object_detection/palm_progress-aware_policy_learning_via_affordance_reasoning_for_long-horizon_ro.md)**
+
+:   提出 PALM，一个统一的 VLA 框架，通过结构化的细粒度可供性预测（全局/局部/空间/动态四类）作为隐式推理锚点，结合连续子任务进度估计实现无缝任务切换，在 CALVIN ABCD 上平均完成长度达 4.48（超越前 SOTA 12.5%），LIBERO-LONG 成功率 91.8%，真实世界长时域泛化测试中达到基线 2 倍以上。
+
+**[Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](object_detection/parameter-efficient_semantic_augmentation_for_enhancing_open-vocabulary_object_d.md)**
+
+:   HSA-DINO 提出多尺度 prompt bank 从图像特征金字塔中学习层次化语义 prompt 增强文本表示，并通过语义感知路由器在推理时动态决定是否使用领域特定增强，实现了领域适配与开放词汇泛化的优越平衡（H 值在三个垂直领域数据集上均为最优）。
+
+**[PET-DINO: Unifying Visual Cues into Grounding DINO with Prompt-Enriched Training](object_detection/pet-dino_unifying_visual_cues_into_grounding_dino_with_prompt-enriched_training.md)**
+
+:   PET-DINO 在 Grounding DINO 基础上构建了一个同时支持文本和视觉提示的通用目标检测器，设计了对齐友好的视觉提示生成模块（AFVPG）以及两种提示丰富化训练策略（IBP 和 DMD），在零样本检测任务上以更少的训练数据取得了有竞争力的性能。
+
+**[PHAC: Promptable Human Amodal Completion](object_detection/phac_promptable_human_amodal_completion.md)**
+
+:   提出可提示人体非模态补全（PHAC）新任务，通过基于点的用户提示（姿态/边界框）配合 ControlNet 注入条件信号，并设计基于修复的精炼模块保留可见区域外观，实现高质量、可控的遮挡人体图像补全。
+
+**[Pixels Don't Lie (But Your Detector Might): Bootstrapping MLLM-as-a-Judge for Trustworthy Deepfake Detection and Reasoning Supervision](object_detection/pixels_dont_lie_but_your_detector_might_bootstrapping_mllm-as-a-judge_for_trustw.md)**
+
+:   提出 DeepfakeJudge 框架，通过 bootstrapped generator-evaluator 流程将人类标注的推理监督扩展为大规模结构化评分数据，训练出 3B/7B 视觉语言模型作为 deepfake 检测推理质量的自动评判者，在 pointwise 和 pairwise 评估上均达到与人类高度一致的水平。
+
+**[PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion](object_detection/prism_video_dataset_condensation_with_progressive_refinement_and_insertion_for_s.md)**
+
+:   本文提出 PRISM，一种整体式视频数据集压缩方法：从仅两个时间锚点（首尾帧）出发,通过检测梯度方向冲突来自适应插入关键帧，在保持内容与运动的耦合完整性的同时实现 SOTA 的存储效率——在 miniUCF 1VPC 上用 20MB 达到 17.9% 准确率，比先前方法的 94MB 少 5 倍。
+
+**[Prompt-Free Universal Region Proposal Network](object_detection/prompt-free_universal_region_proposal_network.md)**
+
+:   PF-RPN 用可学习视觉嵌入替代文本/图像提示，通过稀疏图像感知适配器、级联自提示和中心性引导查询选择三个模块，仅用 5% COCO 数据训练即可在 19 个跨域数据集上实现 SOTA 零样本区域提案。
+
+**[RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](object_detection/radar_closed-loop_robotic_data_generation_via_semantic_planning_and_autonomous_c.md)**
+
+:   提出 RADAR 全自动闭环机器人数据采集框架，通过 VLM 语义规划、GNN 策略执行、VQA 成功评估和 LIFO 因果环境重置四模块协同，仅需 2-5 个人类演示即可在无人干预下持续生成高质量操作数据，在仿真长序列任务上达 90% 成功率。
+
+**[RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](object_detection/radar_closedloop_robotic_data_generation_via_seman.md)**
+
+:   提出RADAR——一个完全自主的闭环机器人操作数据生成引擎，通过VLM语义规划+GNN策略执行+VQA成功评估+FSM驱动的LIFO因果逆序环境重置四个模块，仅需2-5个人工演示即可持续生成高保真操作数据，在仿真中复杂长horizon任务达到90%成功率。
+
+**[ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation](object_detection/rehark_refined_hybrid_adaptive_rbf_kernels_for_rob.md)**
+
+:   提出ReHARK——一个训练免的CLIP one-shot适应框架，通过融合CLIP文本知识、GPT3语义描述和视觉原型构建混合先验，结合多尺度RBF核在RKHS中做全局近端正则化，在11个基准上以65.83%平均准确率刷新one-shot SOTA。
+
+**[ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation](object_detection/rehark_refined_hybrid_adaptive_rbf_kernels_for_robust_one-shot_vision-language_a.md)**
+
+:   提出 ReHARK 框架，通过混合语义-视觉先验构建、支撑集增强、自适应分布校正和多尺度 RBF 核集成四阶段精炼管道，在 11 个基准上实现 65.83% 的单样本适应 SOTA 准确率，显著超越 Tip-Adapter 和 ProKeR。
+
+**[Remedying Target-Domain Astigmatism for Cross-Domain Few-Shot Object Detection](object_detection/remedying_target-domain_astigmatism_for_cross-domain_few-shot_object_detection.md)**
+
+:   首次发现跨域少样本目标检测（CD-FSOD）中模型注意力在目标域持续分散的"散光"现象，受人类中央凹视觉系统启发，设计正向模式精化（PPR）、负向上下文调制（NCM）和文本语义对齐（TSA）三个互补模块来重塑注意力，在6个跨域基准上以显著优势达到SOTA。
+
+**[RiskProp: Collision-Anchored Self-Supervised Risk Propagation for Early Accident Anticipation](object_detection/riskprop_collision-anchored_self-supervised_risk_propagation_for_early_accident_.md)**
+
+:   提出 RiskProp，一种以碰撞帧为锚点的自监督风险传播范式，通过未来帧正则化损失和自适应单调约束损失，仅依赖碰撞帧标注即可学习时序连贯的风险演化曲线，在 CAP 和 Nexar 数据集上达到 SOTA。
+
+**[Saliency-R1: Enforcing Interpretable and Faithful Vision-language Reasoning via Saliency-map Alignment Reward](object_detection/saliency-r1_enforcing_interpretable_and_faithful_vision-language_reasoning_via_s.md)**
+
+:   提出 Saliency-R1，通过基于 logit 分解的高效显著性图技术和思维链瓶颈注意力回溯，将显著性图与人工标注 bounding box 的对齐度作为 GRPO 奖励，训练 VLM 在推理时聚焦任务相关的图像区域，提升推理的可解释性和忠实性。
+
+**[SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification](object_detection/sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md)**
+
+:   提出 SDF-Net，利用船舶刚体几何结构作为跨模态不变锚点，在中间层提取梯度能量强制结构一致性，在终端层解耦模态共享/特定特征并通过加法残差融合，在 HOSS-ReID 上取得 SOTA（All mAP 60.9%，超 TransOSS 3.5%）。
+
+**[Shape-of-You: Fused Gromov-Wasserstein Optimal Transport for Semantic Correspondence in-the-Wild](object_detection/shape-of-you_fused_gromov-wasserstein_optimal_transport_for_semantic_corresponde.md)**
+
+:   将语义对应问题重新建模为 Fused Gromov-Wasserstein (FGW) 最优传输问题，利用 3D 基础模型提供的几何结构约束来生成全局一致的伪标签，解决了传统最近邻匹配因局部性和 2D 外观歧义导致的几何不一致问题。
+
+**[Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](object_detection/show_dont_tell_detecting_novel_objects_by_watching.md)**
+
+:   提出 "Show, Don't Tell" 范式——通过观看人类演示视频自动创建训练数据集并训练定制化物体检测器，完全绕过语言描述和提示工程，在真实机器人场景中显著超越 SOTA 开集/闭集检测器的新物体识别能力。
+
+**[Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](object_detection/show_dont_tell_detecting_novel_objects_by_watching_human_videos.md)**
+
+:   提出 "Show, Don't Tell" 范式：通过 SODC 管线（HOIST-Former 检测抓取物体 → SAMURAI 跟踪 → DBSCAN 时空聚类）从人类演示视频自动创建标注数据集，训练轻量化 F-RCNN 定制检测器（MOD），在无需任何语言提示的情况下实现新颖物体的实例级检测，在 Meccano 和自采数据集上 mAP 和 precision 超越 GroundingDINO/RexOmni/YoloWorld 等 VLM 基线，端到端集成到真实机器人分拣系统中。
+
+**[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](object_detection/slice_semantic_latent_injection_via_compartmentali.md)**
+
+:   提出SLICE框架，将图像语义解耦为四个因子（主体/环境/动作/细节），各自锚定到扩散模型初始噪声的不同空间分区，实现细粒度语义感知水印——不仅能检测篡改，还能精确定位被篡改的语义因子，且完全无需训练。
+
+**[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](object_detection/slice_semantic_latent_injection_via_compartmentalized_embedding_for_image_waterm.md)**
+
+:   提出 SLICE 语义水印框架，将图像语义分解为主体/环境/动作/细节四个因子并绑定到初始高斯噪声的不同空间分区，实现不仅可检测水印存在还可定位语义篡改的三状态验证机制，对最强 CSI 攻击的攻击成功率仅 19%（SEAL 为 81%）。
+
+**[Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images](object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md)**
+
+:   提出 ESM-YOLO+，一个轻量级可见光-红外融合小目标检测网络，通过 Mask-Enhanced Attention Fusion (MEAF) 模块实现像素级跨模态自适应融合，并引入训练时结构表示增强提升空间判别力，在 VEDAI 上达 84.71% mAP 同时参数量减少 93.6%。
+
+**[Specificity-aware Reinforcement Learning for Fine-grained Open-world Classification](object_detection/specificity-aware_reinforcement_learning_for_fine-grained_open-world_classificat.md)**
+
+:   提出 SpeciaRL——一种特异性感知的强化学习框架，通过基于在线 rollout 最佳预测的动态奖励信号，引导推理型大型多模态模型在开放世界细粒度图像分类中同时提升预测的特异性和正确性。
+
+**[SpiralDiff: Spiral Diffusion with LoRA for RGB-to-RAW Conversion Across Cameras](object_detection/spiraldiff_spiral_diffusion_with_lora_for_rgb-to-raw_conversion_across_cameras.md)**
+
+:   提出 SpiralDiff，一种面向 RGB-to-RAW 转换的扩散框架，通过信号依赖的噪声加权策略适应不同像素强度区域的重建难度，并引入 CamLoRA 模块实现单一模型跨多相机的轻量适配。
+
+**[Stake the Points: Structure-Faithful Instance Unlearning](object_detection/stake_the_points_structure-faithful_instance_unlearning.md)**
+
+:   提出 Structguard，通过语义锚点（semantic anchors）保持遗忘过程中保留实例间的语义关系结构，避免结构性崩塌，在图像分类/人脸识别/检索三任务上平均提升 32.9%/19.3%/22.5%。
+
+**[StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars](object_detection/streamavatar_streaming_diffusion_models_for_real-time_interactive_human_avatars.md)**
+
+:   提出两阶段自回归适配加速框架（自回归蒸馏 + 对抗精炼），将双向人体视频扩散模型转化为实时流式生成器，通过 Reference Sink、RAPR 位置重编码和一致性感知判别器保证长视频稳定性，实现首个支持说话和倾听交互的全身实时数字人。
+
+**[The COTe Score: A Decomposable Framework for Evaluating Document Layout Analysis Models](object_detection/the_cote_score_a_decomposable_framework_for_evaluating_document_layout_analysis_.md)**
+
+:   提出面向文档布局分析（DLA）的可分解评估框架 COTe（Coverage, Overlap, Trespass, Excess），以及结构语义单元 SSU，相比传统 IoU/mAP/F1 能更准确地反映页面解析质量，并揭示不同模型的特异性失败模式。
+
+**[TIACam: Text-Anchored Invariant Feature Learning with Auto-Augmentation for Camera-Robust Zero-Watermarking](object_detection/tiacam_text-anchored_invariant_feature_learning_with_auto-augmentation_for_camer.md)**
+
+:   提出 TIACam 框架，通过可学习自动增强器模拟相机失真、文本锚定跨模态对抗训练学习不变特征、零水印头在特征空间绑定消息，实现无需修改图像像素的相机鲁棒零水印方案，在屏幕翻拍/打印翻拍/截图三种真实场景下均达到 SOTA 提取精度。
+
+**[Token Reduction via Local and Global Contexts Optimization for Efficient Video Large Language Models](object_detection/token_reduction_via_local_and_global_contexts_optimization_for_efficient_video_l.md)**
+
+:   提出 AOT 框架，通过建立局部-全局 token anchors 并利用最优传输（Optimal Transport）在帧内和帧间两级聚合被裁剪/合并 token 的语义信息，实现 training-free 的视频 token 压缩，在裁剪 90% token 的情况下仍保留 97.6% 的原始性能。
+
+**[Training-free Detection of Generated Videos via Spatial-Temporal Likelihoods](object_detection/training-free_detection_of_generated_videos_via_spatial-temporal_likelihoods.md)**
+
+:   提出 STALL，一种无需训练的零样本生成视频检测器，通过在白化嵌入空间中联合建模逐帧空间似然和帧间时序似然，仅依赖真实视频校准即可实现对多种生成模型的鲁棒检测。
 
 ---
 
@@ -5104,6 +5100,184 @@ description: >-
 
 ---
 
+## 📦 模型压缩 { #model_compression }
+
+**[A Paradigm Shift: Fully End-to-End Training for Temporal Sentence Grounding in Videos](model_compression/a_paradigm_shift_fully_end-to-end_training_for_temporal_sentence_grounding_in_vi.md)**
+
+:   提出首个完全端到端的时序语句定位(TSGV)框架，通过语句条件适配器(SCADA)将语句嵌入注入视频backbone的中间层来动态调制视觉特征，配合视频中心学习策略加速训练，在Charades-STA和ActivityNet上超越SOTA。
+
+**[An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS](model_compression/an_fpga_implementation_of_displacement_vector_sear.md)**
+
+:   本文首次为 JPEG XS 标准中的 Intra Pattern Copy (IPC) 工具设计了 FPGA 硬件加速架构，通过四级流水线 DV 比较引擎和按 IPC Group 对齐的存储组织，在 Artix-7 上实现 38.3 Mpixels/s 吞吐量和 277mW 功耗。
+
+**[An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS](model_compression/an_fpga_implementation_of_displacement_vector_search_for_intra_pattern_copy_in_j.md)**
+
+:   针对 JPEG XS 屏幕内容编码中 Intra Pattern Copy（IPC）模块的位移向量（DV）搜索计算瓶颈，首次提出四级流水线 FPGA 架构并设计基于 IPC Group 对齐的内存组织方式，在 Xilinx Artix-7 上实现 38.3 Mpixels/s 吞吐量和 277 mW 功耗，为 IPC 的实际硬件部署提供了可行方案。
+
+**[ARCHE: Autoregressive Residual Compression with Hyperprior and Excitation](model_compression/arche_autoregressive_residual_compression_with_hyp.md)**
+
+:   在全卷积架构内统一层级超先验、Masked PixelCNN 空间自回归、通道条件建模和 SE 通道激励，不依赖 Transformer 或循环组件，以 95M 参数和 222ms 解码时间实现相对 Ballé 基线 48% BD-Rate 降低并超越 VVC Intra 5.6%。
+
+**[ARCHE: Autoregressive Residual Compression with Hyperprior and Excitation](model_compression/arche_autoregressive_residual_compression_with_hyperprior_and_excitation.md)**
+
+:   提出 ARCHE 端到端图像压缩框架，在无 Transformer 和循环模块的纯卷积架构下，通过统一层级超先验、Masked PixelCNN 空间自回归上下文、通道条件化、SE 通道重标定和潜在残差预测五个互补组件，在 Kodak 上相对 Balle 基线降低 48% BD-Rate、相对 VVC Intra 降低 5.6%，同时仅需 95M 参数和 222ms 解码时间。
+
+**[Beyond Loss Values: Robust Dynamic Pruning via Loss Trajectory Alignment](model_compression/beyond_loss_values_robust_dynamic_pruning_via_loss_trajectory_alignment.md)**
+
+:   提出AlignPrune——一个基于损失轨迹对齐的即插即用模块，通过Dynamic Alignment Score（DAS）替代传统损失值排序，使动态数据剪枝在噪声标签场景下准确率提升最高6.3%。
+
+**[BinaryAttention: One-Bit QK-Attention for Vision and Diffusion Transformers](model_compression/binaryattention_one-bit_qk-attention_for_vision_and_diffusion_transformers.md)**
+
+:   提出 BinaryAttention，将 Transformer 注意力中的 Query 和 Key 量化为 1-bit 二值表示，通过 XNOR + popcount 位运算替代浮点点积，在 A100 上实现比 FlashAttention2 快 2 倍以上的加速，同时在视觉分类/检测/分割/扩散生成等任务上性能持平甚至超越全精度注意力。
+
+**[CHEEM: Continual Learning by Reuse, New, Adapt and Skip -- A Hierarchical Exploration-Exploitation Approach](model_compression/cheem_continual_learning_by_reuse_new_adapt_and_skip_--_a_hierarchical_explorati.md)**
+
+:   提出 CHEEM 框架，通过分层探索-利用采样的 NAS 自动学习任务感知的动态 ViT 骨干——在每一层选择 Reuse/New/Adapt/Skip 四种操作——在 MTIL 和 VDD 两个挑战性持续学习基准上显著超越提示类方法，接近全量微调上界。
+
+**[Critical Patch-Aware Sparse Prompting with Decoupled Training for Continual Learning on the Edge](model_compression/critical_patch-aware_sparse_prompting_with_decoupled_training_for_continual_lear.md)**
+
+:   提出 CPS-Prompt 框架，通过任务感知的关键 patch 采样（CPS）和解耦 prompt-分类器训练（DPCT）两个模块，在边缘设备上实现 Prompt-based 持续学习的训练时内存和计算效率提升约 1.6 倍，同时准确率仅下降约 2%。
+
+**[DAGE: Dual-Stream Architecture for Efficient and Fine-Grained Geometry Estimation](model_compression/dage_dual-stream_architecture_for_efficient_and_fine-grained_geometry_estimation.md)**
+
+:   提出 DAGE 双流 Transformer 架构，将全局一致性建模（低分辨率流）与细粒度细节保持（高分辨率流）解耦，通过轻量 Cross-Attention Adapter 融合，实现 2K 分辨率和 1000 帧长序列上的高质量深度/点图估计和位姿预测，速度比 Pi3 快 2-28 倍，视频几何估计取得新 SOTA。
+
+**[Distilling Balanced Knowledge from a Biased Teacher](model_compression/distilling_balanced_knowledge_from_a_biased_teacher.md)**
+
+:   针对长尾分布下知识蒸馏中教师模型向头部类偏斜的问题，将传统 KL 散度损失分解为跨组损失和组内损失两个组件，通过重平衡跨组损失校准教师的组级预测、重加权组内损失保证各组等贡献，在 CIFAR-100-LT/TinyImageNet-LT/ImageNet-LT 上全面超越现有方法，甚至超过教师模型自身表现。
+
+**[FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection](model_compression/faar_efficient_frequency-aware_multi-task_fine-tuning_via_automatic_rank_selecti.md)**
+
+:   提出 FAAR，一种频率感知的多任务参数高效微调方法，通过 Performance-Driven Rank Shrinking (PDRS) 为每个任务和层动态选择最优秩，并设计 Task-Spectral Pyramidal Decoder (TS-PD) 利用 FFT 频率信息增强空间感知和跨任务一致性，以传统微调 1/9 的参数量实现更优性能。
+
+**[FAIR-Pruner: Leveraging Tolerance of Difference for Flexible Automatic Layer-Wise Neural Network Pruning](model_compression/fair-pruner_leveraging_tolerance_of_difference_for_flexible_automatic_layer-wise.md)**
+
+:   提出 FAIR-Pruner 结构化剪枝框架，通过 Tolerance of Differences（ToD）指标协调两个互补视角：基于类条件可分性的 Wasserstein Utilization Score（识别冗余单元）和基于 Taylor 展开的 Reconstruction Score（保护关键单元），自动确定逐层非均匀剪枝率且支持免搜索灵活调整压缩比，在 CIFAR-10/SVHN/ImageNet 上取得 SOTA。
+
+**[Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning](model_compression/frequency_switching_mechanism_for_parameter-ecient_multi-task_learning.md)**
+
+:   Free Sinewich 提出基于频率切换的参数高效多任务学习框架，通过对共享低秩基矩阵施加不同任务特定频率的正弦变换 $M_t = \sin(\omega_t \cdot M_{AWB})$，以接近零成本实现真正的参数复用和任务特化，在密集预测基准上以最少可训练参数达到SOTA。
+
+**[From Fewer Samples to Fewer Bits: Reframing Dataset Distillation as Joint Optimization of Precision and Compactness](model_compression/from_fewer_samples_to_fewer_bits_reframing_dataset_distillation_as_joint_optimiz.md)**
+
+:   提出 QuADD 框架，将可微量化模块嵌入数据集蒸馏循环中，联合优化合成数据与量化参数，实现在固定比特预算下"更少样本 + 更低精度"的帕累托最优压缩。
+
+**[Generative Video Compression with One-Dimensional Latent Representation](model_compression/generative_video_compression_with_one-dimensional_latent_representation.md)**
+
+:   提出 GVC1D，首次将视频压缩的潜在表示从2D网格替换为紧凑的1D token序列，结合1D记忆模块建模长期时序上下文，在感知质量指标上实现 60%+ 的码率节省。
+
+**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](model_compression/geochemad_benchmarking_unsupervised_geochemical_an.md)**
+
+:   发布首个开源多区域多元素地球化学异常检测基准 GeoChemAD（8 子集，覆盖沉积物/岩屑/土壤三类采样源和 Au/Cu/Ni/W 四种目标元素），并提出 GeoChemFormer——两阶段 Transformer 框架，先学空间上下文再做元素依赖建模，平均 AUC 达 0.7712 超越所有基线。
+
+**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](model_compression/geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md)**
+
+:   提出 GeoChemAD 开源基准数据集和 GeoChemFormer 框架，通过空间上下文学习与元素依赖建模实现无监督地球化学异常检测，在8个子集上平均 AUC 达到 0.7712。
+
+**[GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for Parametric 3D Design](model_compression/geofusion-cad_structure-aware_diffusion_with_geometric_state_space_for_parametri.md)**
+
+:   本文提出 GeoFusion-CAD，一个端到端的扩散框架，通过将 CAD 程序编码为层次化树结构并引入几何感知的 G-Mamba 块（线性时间复杂度）替代二次复杂度的 Transformer，实现了对长序列参数化 CAD 程序的可扩展和结构感知生成，在新构建的 DeepCAD-240（最长240步命令）基准上大幅超越 Transformer 方法。
+
+**[HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers](model_compression/hiap_a_multi-granular_stochastic_auto-pruning_framework_for_vision_transformers.md)**
+
+:   HiAP 把 ViT 剪枝写成一个端到端的预算感知学习问题，同时对整头/整块和头内维度/FFN 神经元两种粒度做随机可微门控，在一次训练里自动长出满足算力预算的稠密子网络，省掉了常见的排序、阈值搜索和额外微调流程。
+
+**[HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers](model_compression/hiap_a_multigranular_stochastic_autopruning_framew.md)**
+
+:   提出HiAP——统一宏观（整头/FFN块）和微观（头内维度/FFN神经元）的层级Gumbel-Sigmoid门控框架，在单次端到端训练中自动发现满足算力预算的高效ViT子网络，无需手动重要性排序或多阶段流程。
+
+**[HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation](model_compression/hieramp_coarse-to-fine_autoregressive_amplification_for_generative_dataset_disti.md)**
+
+:   提出 HierAmp，在视觉自回归（VAR）模型的粗到细生成过程中，向每个尺度注入可学习的类别 token 识别语义显著区域，并通过正 logit 偏置放大这些区域的注意力，使蒸馏数据在粗尺度获得更丰富多样的布局、在细尺度聚焦于类别相关细节，在多个数据集蒸馏基准上达到 SOTA。
+
+**[Towards Generalizable AI-Generated Image Detection via Image-Adaptive Prompt Learning](model_compression/iapl_aigenerated_image_detection_adaptive_prompt.md)**
+
+:   提出IAPL（Image-Adaptive Prompt Learning），在CLIP编码器输入端引入动态prompt——由条件信息学习器（从纹理丰富区域提取伪造特异和通用线索）和测试时token调优（通过多视角一致性最小化熵）两条路径生成，使模型能在推理时根据每张测试图像自适应调整，在未见过的生成器上显著提升检测泛化性。
+
+**[Learning through Creation: A Hash-Free Framework for On-the-Fly Category Discovery](model_compression/learning_through_creation_a_hash-free_framework_for_on-the-fly_category_discover.md)**
+
+:   提出 LTC 框架，通过在训练阶段利用 MKEE（最小化核能量+最大化熵）在线生成伪未知类样本，配合双最大间隔损失和自适应阈值，在7个数据集上实现1.5%–13.1%的全类精度提升，彻底摆脱了哈希编码对细粒度语义的损害。
+
+**[Markovian Scale Prediction: A New Era of Visual Autoregressive Generation](model_compression/markovian_scale_prediction_a_new_era_of_visual_autoregressive_generation.md)**
+
+:   将视觉自回归模型 (VAR) 从全上下文依赖的 next-scale prediction 重构为基于马尔可夫过程的 Markovian scale prediction，通过滑动窗口历史补偿机制实现非全上下文建模，在 ImageNet 上 FID 降低 10.5%、峰值内存减少 83.8%。
+
+**[MARVO: Marine-Adaptive Radiance-aware Visual Odometry](model_compression/marvo_marine-adaptive_radiance-aware_visual_odometry.md)**
+
+:   提出 MARVO 水下视觉里程计框架，将物理感知辐射适配器 (PARA) 嵌入 LoFTR 特征匹配器补偿水下波长衰减、结合 GTSAM 多传感器因子图融合和强化学习位姿图优化 (RL-PGO)，在水下场景实现鲁棒定位。
+
+**[MEMO: Human-like Crisp Edge Detection Using Masked Edge Prediction](model_compression/memo_human-like_crisp_edge_detection_using_masked_edge_prediction.md)**
+
+:   提出 MEMO 框架，通过掩码边缘训练和基于置信度排序的渐进式推理策略，仅使用交叉熵损失就能生成清晰的单像素边缘图，在 crispness-aware 评估上大幅超越现有方法（BSDS 上 CEval ODS 从 0.749 提升到 0.836）。
+
+**[MINE-JEPA: In-Domain Self-Supervised Learning for Mineral Exploration](model_compression/mine-jepa_in-domain_self-supervised_learning_for_mine-like_object_classification.md)**
+
+:   提出 Mine-JEPA，首个面向侧扫声纳（SSS）水雷分类的域内自监督学习流水线——基于 SIGReg 正则化损失、声纳适配增强策略和 ImageNet 初始化，仅用 1,170 张未标注声纳图像预训练即超越了在 17 亿图像上预训练的 DINOv3 基础模型。
+
+**[On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors](model_compression/on_the_robustness_of_diffusion-based_image_compression_to_bit-flip_errors.md)**
+
+:   首次系统研究了扩散模型图像压缩在比特翻转错误下的鲁棒性，发现基于反向信道编码（RCC）的扩散压缩方法天然比传统和学习型编解码器更耐错，并提出 Robust Turbo-DDCM 变体通过独立编码原子索引进一步提升鲁棒性，在 BER 达 $10^{-3}$ 时仍保持良好重建质量。
+
+**[Parallax to Align Them All: An OmniParallax Attention Mechanism for Distributed Multi-View Image Compression](model_compression/parallax_to_align_them_all_an_omniparallax_attention_mechanism_for_distributed_m.md)**
+
+:   提出 OmniParallax Attention Mechanism (OPAM) 用于分布式多视角图像压缩（DMIC），通过两阶段视差注意力显式建模任意视角对之间的相关性和对齐特征，构建的 ParaHydra 框架首次让 DMIC 方法显著超越 SOTA MIC 编码器，同时大幅降低计算开销。
+
+**[PlanaReLoc: Camera Relocalization in 3D Planar Primitives via Region-Based Structure Matching](model_compression/planareloc_camera_relocalization_in_3d_planar_primitives_via_region-based_struct.md)**
+
+:   首次提出基于平面基元（planar primitives）和 3D 平面地图的相机重定位范式 PlanaReLoc，通过深度匹配器在统一嵌入空间中关联查询图像的平面区域与地图平面基元，实现了无需真实纹理地图、位姿先验或逐场景训练的轻量化 6-DoF 相机重定位。
+
+**[Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model](model_compression/planning_in_8_tokens_a_compact_discrete_tokenizer_for_latent_world_model.md)**
+
+:   提出 CompACT，将每张图像压缩至仅 8 个离散 token（约 128 bits），通过冻结预训练视觉编码器保留规划关键语义信息、生成式解码补充感知细节，使基于世界模型的规划速度提升约 40 倍且精度不降。
+
+**[PPCL: Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers](model_compression/ppcl_pluggable_pruning_dit_distillation.md)**
+
+:   提出 PPCL 框架，针对超大规模 Multi-Modal Diffusion Transformer (MMDiT, 8–20B 参数) 设计结构化剪枝方案：通过线性探针 (Linear Probe) 学习每层的可替代性，结合 CKA 一阶差分自动定位连续冗余层区间，再以非顺序交替蒸馏实现深度+宽度双轴剪枝，最终在 Qwen-Image 20B 上实现 50% 参数缩减、1.8× 推理加速，平均性能仅下降 2.61%。
+
+**[Preference-Aligned LoRA Merging: Preserving Subspace Coverage and Addressing Directional Anisotropy](model_compression/preference-aligned_lora_merging_preserving_subspace_coverage_and_addressing_dire.md)**
+
+:   本文从子空间覆盖（subspace coverage）和方向各向异性（anisotropy）两个视角重新审视LoRA合并问题，提出TARA-Merging框架，通过保留LoRA方向并结合偏好加权的交叉熵伪损失进行方向级重新加权，在8个视觉和6个NLI基准上持续超越现有合并方法。
+
+**[PriVi: Towards a General-Purpose Video Model for Primate Behavior in the Wild](model_compression/privi_towards_a_general-purpose_video_model_for_primate_behavior_in_the_wild.md)**
+
+:   PriVi 构建了 424 小时的大规模灵长类视频预训练数据集，并通过在 V-JEPA 上进行**领域级预训练**（非目标数据集级别），首次证明了视频模型的领域级预训练可以跨数据集泛化，在四个灵长类行为识别基准上用仅 220K 参数的冻结分类器超越了全量微调的专用模型。
+
+**[QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](model_compression/quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)**
+
+:   提出 QuantVLA，首个面向 Vision-Language-Action (VLA) 模型的免训练后量化框架，通过选择性量化布局和两个轻量级标定机制（注意力温度匹配 ATM 和输出头平衡 OHB），在 W4A8 精度下实现约 70% 的内存节省，同时任务成功率超过全精度基线。
+
+**[RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360° Image Quality Assessment](model_compression/rl-scaniqa_reinforcement-learned_scanpaths_for_blind_360image_quality_assessment.md)**
+
+**[SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer](model_compression/soda_sensitivity-oriented_dynamic_acceleration_for_diffusion_transformer.md)**
+
+:   提出 SODA，通过离线细粒度敏感度建模 + 动态规划优化缓存间隔 + 统一自适应剪枝策略，在无需训练的条件下对 Diffusion Transformer 实现可控加速比下的高保真生成。
+
+**[Stronger Normalization-Free Transformers](model_compression/stronger_normalization-free_transformers.md)**
+
+:   通过系统分析逐点函数替代归一化层所需的四个关键属性（零中心性、有界性、中心敏感性、单调性），在大规模搜索中发现 $\text{Derf}(x) = \text{erf}(\alpha x + s)$ 是最优的归一化层替代函数，在视觉识别、图像生成、语音表示和DNA序列建模等多个领域持续超越LayerNorm和DyT，且性能增益主要来自更强的泛化而非拟合能力。
+
+**[TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery](model_compression/talon_test-time_adaptive_learning_for_on-the-fly_category_discovery.md)**
+
+:   提出首个面向 on-the-fly 类别发现（OCD）的测试时自适应框架 TALON，通过语义感知原型更新 + 稳定编码器适应 + 边距感知 logit 校准，摒弃哈希编码在连续特征空间直接建模，大幅缓解类别爆炸并显著提升新类发现精度。
+
+**[F²HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling](model_compression/textf2texthdr_two-stage_hdr_video_reconstruction_via_flow_adapter_and_physical_m.md)**
+
+:   提出 F²HDR，一个两阶段 HDR 视频重建框架，通过 Flow Adapter 将通用预训练光流适配到交替曝光场景以实现鲁棒对齐，并利用物理运动建模从光流中提取连续运动掩码来引导第二阶段的伪影消除，在真实 HDR 视频基准上达到 SOTA。
+
+**[Towards Generalizable AI-Generated Image Detection via Image-Adaptive Prompt Learning](model_compression/towards_generalizable_ai-generated_image_detection_via_image-adaptive_prompt_lea.md)**
+
+:   提出 Image-Adaptive Prompt Learning (IAPL)，在推理时根据每张测试图像动态调整 CLIP 编码器的 prompt，通过测试时 token 调优和条件信息学习器实现对未见生成器的强泛化，在 UniversalFakeDetect 和 GenImage 上分别达到 95.61% 和 96.7% 平均准确率的 SOTA 性能。
+
+**[UniComp: Rethinking Video Compression Through Informational Uniqueness](model_compression/unicomp_rethinking_video_compression_through_informational_uniqueness.md)**
+
+:   提出基于信息唯一性（而非注意力）的视频 token 压缩框架 UniComp，通过帧组融合、token 分配和空间动态压缩三个模块在时序-空间-全局维度上最大化保留唯一信息，在仅保留 10% token 时仍能超越未压缩基线性能。
+
+**[Unlocking ImageNet's Multi-Object Nature: Automated Large-Scale Multilabel Annotation](model_compression/unlocking_imagenets_multi-object_nature_automated_large-scale_multilabel_annotat.md)**
+
+:   提出全自动流水线，利用自监督 ViT 特征进行无监督目标发现，为 ImageNet-1K 全部 128 万训练图像生成带空间定位的多标签标注，无需人工标注，模型在域内和下游多标签任务上均获一致提升（ReaL +2.0 top-1, COCO +4.2 mAP）。
+
+---
+
 ## 🤖 具身智能 { #robotics }
 
 **[Action–Geometry Prediction with 3D Geometric Prior for Bimanual Manipulation](robotics/actiongeometry_prediction_with_3d_geometric_prior.md)**
@@ -5141,10 +5315,6 @@ description: >-
 **[DAWN: Pixel Motion Diffusion is What We Need for Robot Control](robotics/dawn_pixel_motion_diffusion_robot_control.md)**
 
 :   提出 DAWN，一个两阶段全扩散的视觉语言动作框架——Motion Director（潜扩散模型）生成稠密像素运动场作为可解释的中间表示，Action Expert（扩散 Transformer 策略）将像素运动转换为可执行机器人动作；在 CALVIN 基准上取得 SOTA（平均长度 4.00），并在真实世界单臂/双臂操控中展现强泛化能力。
-
-**[Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols](robotics/diagnose_correct_and_learn_from_manipulation_failures.md)**
-
-:   提出 ViFailback 框架，利用显式视觉符号（箭头、准星等）高效标注真实世界机器人操作失败数据，构建 58,128 条 VQA 对的大规模数据集，并微调得到 ViFailback-8B 模型，在真实机器人实验中结合 VLA 模型实现失败恢复，平均成功率提升 22.2%。
 
 **[Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols](robotics/diagnose_correct_and_learn_from_manipulation_failures_via_visual_symbols.md)**
 
@@ -5285,180 +5455,6 @@ description: >-
 **[Towards Training-Free Scene Text Editing](robotics/towards_training-free_scene_text_editing.md)**
 
 :   提出TextFlow，一个免训练的场景文字编辑框架，通过在去噪早期阶段使用Flow Manifold Steering（FMS）保持风格一致性、后期阶段使用Attention Boost（AttnBoost）增强文字渲染准确性，在不需要任务特定训练的情况下达到与训练方法可比甚至更优的编辑质量。
-
----
-
-## 📦 模型压缩 { #model_compression }
-
-**[A Paradigm Shift: Fully End-to-End Training for Temporal Sentence Grounding in Videos](model_compression/a_paradigm_shift_fully_end-to-end_training_for_temporal_sentence_grounding_in_vi.md)**
-
-:   提出首个完全端到端的时序语句定位(TSGV)框架，通过语句条件适配器(SCADA)将语句嵌入注入视频backbone的中间层来动态调制视觉特征，配合视频中心学习策略加速训练，在Charades-STA和ActivityNet上超越SOTA。
-
-**[An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS](model_compression/an_fpga_implementation_of_displacement_vector_sear.md)**
-
-:   本文首次为 JPEG XS 标准中的 Intra Pattern Copy (IPC) 工具设计了 FPGA 硬件加速架构，通过四级流水线 DV 比较引擎和按 IPC Group 对齐的存储组织，在 Artix-7 上实现 38.3 Mpixels/s 吞吐量和 277mW 功耗。
-
-**[An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS](model_compression/an_fpga_implementation_of_displacement_vector_search_for_intra_pattern_copy_in_j.md)**
-
-:   针对 JPEG XS 屏幕内容编码中 Intra Pattern Copy（IPC）模块的位移向量（DV）搜索计算瓶颈，首次提出四级流水线 FPGA 架构并设计基于 IPC Group 对齐的内存组织方式，在 Xilinx Artix-7 上实现 38.3 Mpixels/s 吞吐量和 277 mW 功耗，为 IPC 的实际硬件部署提供了可行方案。
-
-**[ARCHE: Autoregressive Residual Compression with Hyperprior and Excitation](model_compression/arche_autoregressive_residual_compression_with_hyp.md)**
-
-:   在全卷积架构内统一层级超先验、Masked PixelCNN 空间自回归、通道条件建模和 SE 通道激励，不依赖 Transformer 或循环组件，以 95M 参数和 222ms 解码时间实现相对 Ballé 基线 48% BD-Rate 降低并超越 VVC Intra 5.6%。
-
-**[ARCHE: Autoregressive Residual Compression with Hyperprior and Excitation](model_compression/arche_autoregressive_residual_compression_with_hyperprior_and_excitation.md)**
-
-:   提出 ARCHE 端到端图像压缩框架，在无 Transformer 和循环模块的纯卷积架构下，通过统一层级超先验、Masked PixelCNN 空间自回归上下文、通道条件化、SE 通道重标定和潜在残差预测五个互补组件，在 Kodak 上相对 Balle 基线降低 48% BD-Rate、相对 VVC Intra 降低 5.6%，同时仅需 95M 参数和 222ms 解码时间。
-
-**[Beyond Loss Values: Robust Dynamic Pruning via Loss Trajectory Alignment](model_compression/beyond_loss_values_robust_dynamic_pruning_via_loss_trajectory_alignment.md)**
-
-:   提出AlignPrune——一个基于损失轨迹对齐的即插即用模块，通过Dynamic Alignment Score（DAS）替代传统损失值排序，使动态数据剪枝在噪声标签场景下准确率提升最高6.3%。
-
-**[BinaryAttention: One-Bit QK-Attention for Vision and Diffusion Transformers](model_compression/binaryattention_one-bit_qk-attention_for_vision_and_diffusion_transformers.md)**
-
-:   提出 BinaryAttention，将 Transformer 注意力中的 Query 和 Key 量化为 1-bit 二值表示，通过 XNOR + popcount 位运算替代浮点点积，在 A100 上实现比 FlashAttention2 快 2 倍以上的加速，同时在视觉分类/检测/分割/扩散生成等任务上性能持平甚至超越全精度注意力。
-
-**[CHEEM: Continual Learning by Reuse, New, Adapt and Skip -- A Hierarchical Exploration-Exploitation Approach](model_compression/cheem_continual_learning_by_reuse_new_adapt_and_skip_--_a_hierarchical_explorati.md)**
-
-:   提出 CHEEM 框架，通过分层探索-利用采样的 NAS 自动学习任务感知的动态 ViT 骨干——在每一层选择 Reuse/New/Adapt/Skip 四种操作——在 MTIL 和 VDD 两个挑战性持续学习基准上显著超越提示类方法，接近全量微调上界。
-
-**[Critical Patch-Aware Sparse Prompting with Decoupled Training for Continual Learning on the Edge](model_compression/critical_patch-aware_sparse_prompting_with_decoupled_training_for_continual_lear.md)**
-
-:   提出 CPS-Prompt 框架，通过任务感知的关键 patch 采样（CPS）和解耦 prompt-分类器训练（DPCT）两个模块，在边缘设备上实现 Prompt-based 持续学习的训练时内存和计算效率提升约 1.6 倍，同时准确率仅下降约 2%。
-
-**[DAGE: Dual-Stream Architecture for Efficient and Fine-Grained Geometry Estimation](model_compression/dage_dual-stream_architecture_for_efficient_and_fine-grained_geometry_estimation.md)**
-
-:   提出 DAGE 双流 Transformer 架构，将全局一致性建模（低分辨率流）与细粒度细节保持（高分辨率流）解耦，通过轻量 Cross-Attention Adapter 融合，实现 2K 分辨率和 1000 帧长序列上的高质量深度/点图估计和位姿预测，速度比 Pi3 快 2-28 倍，视频几何估计取得新 SOTA。
-
-**[Distilling Balanced Knowledge from a Biased Teacher](model_compression/distilling_balanced_knowledge_from_a_biased_teacher.md)**
-
-:   针对长尾分布下知识蒸馏中教师模型向头部类偏斜的问题，将传统 KL 散度损失分解为跨组损失和组内损失两个组件，通过重平衡跨组损失校准教师的组级预测、重加权组内损失保证各组等贡献，在 CIFAR-100-LT/TinyImageNet-LT/ImageNet-LT 上全面超越现有方法，甚至超过教师模型自身表现。
-
-**[FAIR-Pruner: Leveraging Tolerance of Difference for Flexible Automatic Layer-Wise Neural Network Pruning](model_compression/fair-pruner_leveraging_tolerance_of_difference_for_flexible_automatic_layer-wise.md)**
-
-:   提出 FAIR-Pruner 结构化剪枝框架，通过 Tolerance of Differences（ToD）指标协调两个互补视角：基于类条件可分性的 Wasserstein Utilization Score（识别冗余单元）和基于 Taylor 展开的 Reconstruction Score（保护关键单元），自动确定逐层非均匀剪枝率且支持免搜索灵活调整压缩比，在 CIFAR-10/SVHN/ImageNet 上取得 SOTA。
-
-**[Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning](model_compression/frequency_switching_mechanism_for_parameter-ecient_multi-task_learning.md)**
-
-:   Free Sinewich 提出基于频率切换的参数高效多任务学习框架，通过对共享低秩基矩阵施加不同任务特定频率的正弦变换 $M_t = \sin(\omega_t \cdot M_{AWB})$，以接近零成本实现真正的参数复用和任务特化，在密集预测基准上以最少可训练参数达到SOTA。
-
-**[From Fewer Samples to Fewer Bits: Reframing Dataset Distillation as Joint Optimization of Precision and Compactness](model_compression/from_fewer_samples_to_fewer_bits_reframing_dataset_distillation_as_joint_optimiz.md)**
-
-:   提出 QuADD 框架，将可微量化模块嵌入数据集蒸馏循环中，联合优化合成数据与量化参数，实现在固定比特预算下"更少样本 + 更低精度"的帕累托最优压缩。
-
-**[Generative Video Compression with One-Dimensional Latent Representation](model_compression/generative_video_compression_with_one-dimensional_latent_representation.md)**
-
-:   提出 GVC1D，首次将视频压缩的潜在表示从2D网格替换为紧凑的1D token序列，结合1D记忆模块建模长期时序上下文，在感知质量指标上实现 60%+ 的码率节省。
-
-**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](model_compression/geochemad_benchmarking_unsupervised_geochemical_an.md)**
-
-:   发布首个开源多区域多元素地球化学异常检测基准 GeoChemAD（8 子集，覆盖沉积物/岩屑/土壤三类采样源和 Au/Cu/Ni/W 四种目标元素），并提出 GeoChemFormer——两阶段 Transformer 框架，先学空间上下文再做元素依赖建模，平均 AUC 达 0.7712 超越所有基线。
-
-**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](model_compression/geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md)**
-
-:   提出 GeoChemAD 开源基准数据集和 GeoChemFormer 框架，通过空间上下文学习与元素依赖建模实现无监督地球化学异常检测，在8个子集上平均 AUC 达到 0.7712。
-
-**[GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for Parametric 3D Design](model_compression/geofusion-cad_structure-aware_diffusion_with_geometric_state_space_for_parametri.md)**
-
-:   本文提出 GeoFusion-CAD，一个端到端的扩散框架，通过将 CAD 程序编码为层次化树结构并引入几何感知的 G-Mamba 块（线性时间复杂度）替代二次复杂度的 Transformer，实现了对长序列参数化 CAD 程序的可扩展和结构感知生成，在新构建的 DeepCAD-240（最长240步命令）基准上大幅超越 Transformer 方法。
-
-**[HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers](model_compression/hiap_a_multi-granular_stochastic_auto-pruning_framework_for_vision_transformers.md)**
-
-:   HiAP 把 ViT 剪枝写成一个端到端的预算感知学习问题，同时对整头/整块和头内维度/FFN 神经元两种粒度做随机可微门控，在一次训练里自动长出满足算力预算的稠密子网络，省掉了常见的排序、阈值搜索和额外微调流程。
-
-**[HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers](model_compression/hiap_a_multigranular_stochastic_autopruning_framew.md)**
-
-:   提出HiAP——统一宏观（整头/FFN块）和微观（头内维度/FFN神经元）的层级Gumbel-Sigmoid门控框架，在单次端到端训练中自动发现满足算力预算的高效ViT子网络，无需手动重要性排序或多阶段流程。
-
-**[HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation](model_compression/hieramp_coarse-to-fine_autoregressive_amplification_for_generative_dataset_disti.md)**
-
-:   提出 HierAmp，在视觉自回归（VAR）模型的粗到细生成过程中，向每个尺度注入可学习的类别 token 识别语义显著区域，并通过正 logit 偏置放大这些区域的注意力，使蒸馏数据在粗尺度获得更丰富多样的布局、在细尺度聚焦于类别相关细节，在多个数据集蒸馏基准上达到 SOTA。
-
-**[Towards Generalizable AI-Generated Image Detection via Image-Adaptive Prompt Learning](model_compression/iapl_aigenerated_image_detection_adaptive_prompt.md)**
-
-:   提出IAPL（Image-Adaptive Prompt Learning），在CLIP编码器输入端引入动态prompt——由条件信息学习器（从纹理丰富区域提取伪造特异和通用线索）和测试时token调优（通过多视角一致性最小化熵）两条路径生成，使模型能在推理时根据每张测试图像自适应调整，在未见过的生成器上显著提升检测泛化性。
-
-**[Learning through Creation: A Hash-Free Framework for On-the-Fly Category Discovery](model_compression/learning_through_creation_a_hash-free_framework_for_on-the-fly_category_discover.md)**
-
-:   提出 LTC 框架，通过在训练阶段利用 MKEE（最小化核能量+最大化熵）在线生成伪未知类样本，配合双最大间隔损失和自适应阈值，在7个数据集上实现1.5%–13.1%的全类精度提升，彻底摆脱了哈希编码对细粒度语义的损害。
-
-**[Markovian Scale Prediction: A New Era of Visual Autoregressive Generation](model_compression/markovian_scale_prediction_a_new_era_of_visual_autoregressive_generation.md)**
-
-:   将视觉自回归模型 (VAR) 从全上下文依赖的 next-scale prediction 重构为基于马尔可夫过程的 Markovian scale prediction，通过滑动窗口历史补偿机制实现非全上下文建模，在 ImageNet 上 FID 降低 10.5%、峰值内存减少 83.8%。
-
-**[MARVO: Marine-Adaptive Radiance-aware Visual Odometry](model_compression/marvo_marine-adaptive_radiance-aware_visual_odometry.md)**
-
-:   提出 MARVO 水下视觉里程计框架，将物理感知辐射适配器 (PARA) 嵌入 LoFTR 特征匹配器补偿水下波长衰减、结合 GTSAM 多传感器因子图融合和强化学习位姿图优化 (RL-PGO)，在水下场景实现鲁棒定位。
-
-**[MEMO: Human-like Crisp Edge Detection Using Masked Edge Prediction](model_compression/memo_human-like_crisp_edge_detection_using_masked_edge_prediction.md)**
-
-:   提出 MEMO 框架，通过掩码边缘训练和基于置信度排序的渐进式推理策略，仅使用交叉熵损失就能生成清晰的单像素边缘图，在 crispness-aware 评估上大幅超越现有方法（BSDS 上 CEval ODS 从 0.749 提升到 0.836）。
-
-**[MINE-JEPA: In-Domain Self-Supervised Learning for Mineral Exploration](model_compression/mine-jepa_in-domain_self-supervised_learning_for_mine-like_object_classification.md)**
-
-:   提出 Mine-JEPA，首个面向侧扫声纳（SSS）水雷分类的域内自监督学习流水线——基于 SIGReg 正则化损失、声纳适配增强策略和 ImageNet 初始化，仅用 1,170 张未标注声纳图像预训练即超越了在 17 亿图像上预训练的 DINOv3 基础模型。
-
-**[On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors](model_compression/on_the_robustness_of_diffusion-based_image_compression_to_bit-flip_errors.md)**
-
-:   首次系统研究了扩散模型图像压缩在比特翻转错误下的鲁棒性，发现基于反向信道编码（RCC）的扩散压缩方法天然比传统和学习型编解码器更耐错，并提出 Robust Turbo-DDCM 变体通过独立编码原子索引进一步提升鲁棒性，在 BER 达 $10^{-3}$ 时仍保持良好重建质量。
-
-**[Parallax to Align Them All: An OmniParallax Attention Mechanism for Distributed Multi-View Image Compression](model_compression/parallax_to_align_them_all_an_omniparallax_attention_mechanism_for_distributed_m.md)**
-
-:   提出 OmniParallax Attention Mechanism (OPAM) 用于分布式多视角图像压缩（DMIC），通过两阶段视差注意力显式建模任意视角对之间的相关性和对齐特征，构建的 ParaHydra 框架首次让 DMIC 方法显著超越 SOTA MIC 编码器，同时大幅降低计算开销。
-
-**[PlanaReLoc: Camera Relocalization in 3D Planar Primitives via Region-Based Structure Matching](model_compression/planareloc_camera_relocalization_in_3d_planar_primitives_via_region-based_struct.md)**
-
-:   首次提出基于平面基元（planar primitives）和 3D 平面地图的相机重定位范式 PlanaReLoc，通过深度匹配器在统一嵌入空间中关联查询图像的平面区域与地图平面基元，实现了无需真实纹理地图、位姿先验或逐场景训练的轻量化 6-DoF 相机重定位。
-
-**[Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model](model_compression/planning_in_8_tokens_a_compact_discrete_tokenizer_for_latent_world_model.md)**
-
-:   提出 CompACT，将每张图像压缩至仅 8 个离散 token（约 128 bits），通过冻结预训练视觉编码器保留规划关键语义信息、生成式解码补充感知细节，使基于世界模型的规划速度提升约 40 倍且精度不降。
-
-**[PPCL: Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers](model_compression/ppcl_pluggable_pruning_dit_distillation.md)**
-
-:   提出 PPCL 框架，针对超大规模 Multi-Modal Diffusion Transformer (MMDiT, 8–20B 参数) 设计结构化剪枝方案：通过线性探针 (Linear Probe) 学习每层的可替代性，结合 CKA 一阶差分自动定位连续冗余层区间，再以非顺序交替蒸馏实现深度+宽度双轴剪枝，最终在 Qwen-Image 20B 上实现 50% 参数缩减、1.8× 推理加速，平均性能仅下降 2.61%。
-
-**[Preference-Aligned LoRA Merging: Preserving Subspace Coverage and Addressing Directional Anisotropy](model_compression/preference-aligned_lora_merging_preserving_subspace_coverage_and_addressing_dire.md)**
-
-:   本文从子空间覆盖（subspace coverage）和方向各向异性（anisotropy）两个视角重新审视LoRA合并问题，提出TARA-Merging框架，通过保留LoRA方向并结合偏好加权的交叉熵伪损失进行方向级重新加权，在8个视觉和6个NLI基准上持续超越现有合并方法。
-
-**[PriVi: Towards a General-Purpose Video Model for Primate Behavior in the Wild](model_compression/privi_towards_a_general-purpose_video_model_for_primate_behavior_in_the_wild.md)**
-
-:   PriVi 构建了 424 小时的大规模灵长类视频预训练数据集，并通过在 V-JEPA 上进行**领域级预训练**（非目标数据集级别），首次证明了视频模型的领域级预训练可以跨数据集泛化，在四个灵长类行为识别基准上用仅 220K 参数的冻结分类器超越了全量微调的专用模型。
-
-**[QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](model_compression/quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)**
-
-:   提出 QuantVLA，首个面向 Vision-Language-Action (VLA) 模型的免训练后量化框架，通过选择性量化布局和两个轻量级标定机制（注意力温度匹配 ATM 和输出头平衡 OHB），在 W4A8 精度下实现约 70% 的内存节省，同时任务成功率超过全精度基线。
-
-**[RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360° Image Quality Assessment](model_compression/rl-scaniqa_reinforcement-learned_scanpaths_for_blind_360image_quality_assessment.md)**
-
-**[SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer](model_compression/soda_sensitivity-oriented_dynamic_acceleration_for_diffusion_transformer.md)**
-
-:   提出 SODA，通过离线细粒度敏感度建模 + 动态规划优化缓存间隔 + 统一自适应剪枝策略，在无需训练的条件下对 Diffusion Transformer 实现可控加速比下的高保真生成。
-
-**[Stronger Normalization-Free Transformers](model_compression/stronger_normalization-free_transformers.md)**
-
-:   通过系统分析逐点函数替代归一化层所需的四个关键属性（零中心性、有界性、中心敏感性、单调性），在大规模搜索中发现 $\text{Derf}(x) = \text{erf}(\alpha x + s)$ 是最优的归一化层替代函数，在视觉识别、图像生成、语音表示和DNA序列建模等多个领域持续超越LayerNorm和DyT，且性能增益主要来自更强的泛化而非拟合能力。
-
-**[TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery](model_compression/talon_test-time_adaptive_learning_for_on-the-fly_category_discovery.md)**
-
-:   提出首个面向 on-the-fly 类别发现（OCD）的测试时自适应框架 TALON，通过语义感知原型更新 + 稳定编码器适应 + 边距感知 logit 校准，摒弃哈希编码在连续特征空间直接建模，大幅缓解类别爆炸并显著提升新类发现精度。
-
-**[F²HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling](model_compression/textf2texthdr_two-stage_hdr_video_reconstruction_via_flow_adapter_and_physical_m.md)**
-
-:   提出 F²HDR，一个两阶段 HDR 视频重建框架，通过 Flow Adapter 将通用预训练光流适配到交替曝光场景以实现鲁棒对齐，并利用物理运动建模从光流中提取连续运动掩码来引导第二阶段的伪影消除，在真实 HDR 视频基准上达到 SOTA。
-
-**[Towards Generalizable AI-Generated Image Detection via Image-Adaptive Prompt Learning](model_compression/towards_generalizable_ai-generated_image_detection_via_image-adaptive_prompt_lea.md)**
-
-:   提出 Image-Adaptive Prompt Learning (IAPL)，在推理时根据每张测试图像动态调整 CLIP 编码器的 prompt，通过测试时 token 调优和条件信息学习器实现对未见生成器的强泛化，在 UniversalFakeDetect 和 GenImage 上分别达到 95.61% 和 96.7% 平均准确率的 SOTA 性能。
-
-**[UniComp: Rethinking Video Compression Through Informational Uniqueness](model_compression/unicomp_rethinking_video_compression_through_informational_uniqueness.md)**
-
-:   提出基于信息唯一性（而非注意力）的视频 token 压缩框架 UniComp，通过帧组融合、token 分配和空间动态压缩三个模块在时序-空间-全局维度上最大化保留唯一信息，在仅保留 10% token 时仍能超越未压缩基线性能。
-
-**[Unlocking ImageNet's Multi-Object Nature: Automated Large-Scale Multilabel Annotation](model_compression/unlocking_imagenets_multi-object_nature_automated_large-scale_multilabel_annotat.md)**
-
-:   提出全自动流水线，利用自监督 ViT 特征进行无监督目标发现，为 ImageNet-1K 全部 128 万训练图像生成带空间定位的多标签标注，无需人工标注，模型在域内和下游多标签任务上均获一致提升（ReaL +2.0 top-1, COCO +4.2 mAP）。
 
 ---
 
@@ -5886,6 +5882,90 @@ description: >-
 
 ---
 
+## 🔄 自监督 { #self_supervised }
+
+**[AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation](self_supervised/actta_rethinking_test-time_adaptation_via_dynamic_activation.md)**
+
+:   提出AcTTA框架，首次将激活函数作为测试时适应(TTA)的可学习组件，通过参数化的激活中心偏移 $c$ 和非对称梯度缩放 $\lambda_{pos}, \lambda_{neg}$ 替代或增强传统归一化层适应，在CIFAR-10/100-C和ImageNet-C上一致超越所有归一化基TTA方法，并支持10倍大的学习率。
+
+**[BD-Merging: Bias-Aware Dynamic Model Merging with Evidence-Guided Contrastive Learning](self_supervised/bd-merging_bias-aware_dynamic_model_merging_with_evidence-guided_contrastive_lea.md)**
+
+:   提出 BD-Merging 框架，通过 Dirichlet 证据建模 + 邻域差异分数（ADS）+ 差异感知对比学习，训练去偏路由器来自适应分配模型合并权重，显著提升合并模型在测试时分布偏移和未见任务上的鲁棒性与泛化能力。
+
+**[BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](self_supervised/boss_a_best-of-strategies_selector_as_an_oracle_for_deep_active_learning.md)**
+
+:   提出 BoSS——一种可扩展的 oracle 策略选择框架：在每轮主动学习中，并行运行多种查询策略在随机子池上生成候选 batch，通过冻结 backbone 仅重训最后一层快速评估每个候选 batch 的性能增益，选出最优 batch，从而量化现有 AL 策略与理论最优之间的差距。
+
+**[BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](self_supervised/boss_a_bestofstrategies_selector_as_an_oracle_for.md)**
+
+:   提出 BoSS（Best-of-Strategies Selector），通过集成10种互补的AL选择策略生成100个候选批次，冻结预训练backbone仅重训最后线性层来高效评估每个批次的性能增益，选取最优批次作为Oracle上界参考——首个可扩展到ImageNet的深度主动学习Oracle策略，揭示当前SOTA策略在大规模多类数据集上仍有约2倍的准确率提升空间。
+
+**[D2Dewarp: Dual Dimensions Geometric Representation Learning Based Document Image Dewarping](self_supervised/d2dewarp_dual_dimensions_geometric_representation_learning_based_document_image_.md)**
+
+:   提出 D2Dewarp——首个从水平和垂直双维度学习文档几何表示的去畸变方法：UNet 双解码器分别预测水平线（文档/表格/文本行的上下边界）和垂直线（左右边界），HV Fusion Module 通过混合注意力交叉融合两个方向的特征，并构建了包含 114K 张图的 DocDewarpHV 数据集提供双维度标注。
+
+**[DiverseDiT: Towards Diverse Representation Learning in Diffusion Transformers](self_supervised/diversedit_towards_diverse_representation_learning_in_diffusion_transformers.md)**
+
+:   通过系统分析发现 DiT 各 block 间的表示多样性是有效学习的关键因素，提出 DiverseDiT：用长残差连接多样化输入 + 表示多样性损失显式促进 block 间特征差异化，无需外部引导模型即可加速收敛并提升生成质量。
+
+**[LaS-Comp: Zero-shot 3D Completion with Latent-Spatial Consistency](self_supervised/las-comp_zero-shot_3d_completion_with_latent-spatial_consistency.md)**
+
+:   提出 LaS-Comp，一种零样本、类别无关的 3D 形状补全框架，通过 Explicit Replacement Stage 在空间域注入已知几何 + Implicit Alignment Stage 在隐空间梯度优化边界一致性，桥接了预训练 3D 基础模型的隐空间与空间域之间的 gap，在多种部分观测模式下达到 SOTA。
+
+**[MOMO: Mars Orbital Model — Foundation Model for Mars Orbital Applications](self_supervised/momo_mars_orbital_model_foundation_model_for_mars_orbital_applications.md)**
+
+:   MOMO 是首个火星遥感基础模型，通过在三种火星传感器（HiRISE/CTX/THEMIS）上分别预训练 MAE 并提出 Equal Validation Loss（EVL）检查点选择策略进行模型融合，在 Mars-Bench 的 9 个下游任务上超越 ImageNet 预训练和地球观测基础模型。
+
+**[Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting](self_supervised/redepth_anything_test-time_depth_refinement_via_self-supervised_re-lighting.md)**
+
+:   提出 Re-Depth Anything，通过在推理时对预测深度图进行重光照增强并利用 2D 扩散模型的 SDS 损失进行自监督优化，在无标签的情况下精细化 Depth Anything V2/3 的深度预测。
+
+**[Representation Learning for Spatiotemporal Physical Systems](self_supervised/representation_learning_for_spatiotemporal_physica.md)**
+
+:   在三个 PDE 物理系统（活性物质、剪切流、Rayleigh-Bénard 对流）上系统比较四种自监督/物理建模方法，发现隐空间预测（JEPA）在物理参数估计任务上全面优于像素级预测（VideoMAE）——MSE 相对改善 28%~51%，且 10% 微调数据即可超越 VideoMAE 的 100% 数据表现。同时，专为物理建模设计的方法并非总是最优选择。
+
+**[Representation Learning for Spatiotemporal Physical Systems](self_supervised/representation_learning_for_spatiotemporal_physical_systems.md)**
+
+:   在三个 PDE 物理系统上系统对比 JEPA、VideoMAE、自回归基础模型(MPP)和算子学习(DISCO) 四种范式，发现隐空间预测目标(JEPA)在物理参数估计下游任务上全面优于像素级预测方法，MSE 相对改善 28-51%，且数据效率更高。
+
+**[SpHOR: A Representation Learning Perspective on Open-set Recognition](self_supervised/sphor_a_representation_learning_perspective_on_ope.md)**
+
+:   提出SpHOR两阶段解耦训练框架：Stage 1通过正交标签嵌入+球面约束（vMF分布）+Mixup/Label Smoothing做专为OSR设计的表征学习，Stage 2冻结特征训练分类器——在Semantic Shift Benchmark上OSCR/AUROC最高提升5.1%/5.2%，同时引入Angular Separability和Norm Separability两个新度量。
+
+**[SpHOR: A Representation Learning Perspective on Open-set Recognition for Identifying Unknown Classes in Deep Neural Networks](self_supervised/sphor_a_representation_learning_perspective_on_open-set_recognition_for_identify.md)**
+
+:   提出 SpHOR，一种两阶段解耦训练的开放集识别方法，通过球面表示学习（vMF 分布）、正交标签嵌入和 Mixup/Label Smoothing 集成，显式塑造特征空间以更好地分离已知/未知类别，在 Semantic Shift Benchmark 上取得最高 5.1% 的 OSCR 提升。
+
+**[Suppressing Non-Semantic Noise in Masked Image Modeling Representations](self_supervised/suppressing_non-semantic_noise_in_masked_image_modeling_representations.md)**
+
+:   本文揭示了掩码图像建模（MIM）学到的表征中保留了大量非语义信息（如纹理、颜色等底层特征），并提出了一种无需训练的后处理方法 SOAP（Semantically Orthogonal Artifact Projection），通过 PCA 识别并投影去除非语义成分，在多种 MIM 模型上一致提升零样本性能。
+
+**[TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction](self_supervised/talo_pushing_3d_vision_foundation_models_towards_globally_consistent_online_reco.md)**
+
+:   提出 TALO，一种基于 Thin Plate Spline 的高自由度对齐框架，通过全局传播控制点和点无关的子图配准设计，纠正 3D 视觉基础模型在在线重建中的空间变化不一致性，兼容多种基础模型和相机配置，在 Waymo/nuScenes 数据集上显著降低轨迹误差。
+
+**[TeFlow: Enabling Multi-frame Supervision for Self-Supervised Feed-forward Scene Flow Estimation](self_supervised/teflow_enabling_multi-frame_supervision_for_self-supervised_feed-forward_scene_f.md)**
+
+:   提出TeFlow——首个将多帧监督引入自监督前馈场景流估计的方法：通过时序集成策略构建运动候选池并基于共识投票聚合时序一致的监督信号，在Argoverse 2上Three-way EPE达3.57cm（媲美优化方法Floxels）同时保持实时推理（8s vs 24min），较SeFlow++提升22.3%。
+
+**[Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval](self_supervised/text-phase_synergy_network_with_dual_priors_for_unsupervised_cross-domain_image_.md)**
+
+:   提出TPSNet，将CLIP学习的域提示（domain prompt）作为文本先验提供精细语义监督，同时引入相位谱特征作为相位先验来桥接域分布差异并保持语义完整性，通过文本-相位双先验的协同实现无监督跨域图像检索的显著提升。
+
+**[TrackMAE: Video Representation Learning via Track, Mask, and Predict](self_supervised/trackmae_video_representation_learning_via_track_mask_and_predict.md)**
+
+:   在masked video modeling（MVM）框架中引入显式的运动信号：使用CoTracker3提取点轨迹作为额外的重建目标，并设计运动感知遮掩策略，联合学习空间重建和运动预测，在运动敏感基准（SSv2、FineGym）上显著超越现有视频自监督方法。
+
+**[Vision Transformers Need More Than Registers](self_supervised/vision_transformers_need_more_than_registers.md)**
+
+:   这篇论文认为 ViT 在标签监督、文本监督和自监督下普遍存在的 dense feature 伪影，本质上不是单纯的 high-norm token 问题，而是模型在粗粒度监督和全局注意力共同作用下学会了用背景 patch 充当全局语义捷径；作者据此提出 LaSt-ViT，用频域稳定性引导的选择性聚合替代原始 CLS 聚合，在 12 个基准上稳定改善定位、分割和开放词汇任务。
+
+**[Vision Transformers Need More Than Registers](self_supervised/vit_need_more_than_registers.md)**
+
+:   系统分析了 ViT 中广泛存在的 artifact 现象（跨全监督、文本监督、自监督），揭示其根本原因是"lazy aggregation"——ViT 利用语义无关的背景 patch 作为捷径来表示全局语义，提出 LaSt-ViT（LazyStrike ViT）通过频率感知的选择性通道聚合将 CLS token 锚定到前景区域，在 12 个 benchmark 上一致消除 artifact 并提升性能。
+
+---
+
 ## 🎵 音频/语音 { #audio_speech }
 
 **[BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models](audio_speech/babyvlm-v2_toward_developmentally_grounded_pretraining_and_benchmarking_of_visio.md)**
@@ -6008,10 +6088,6 @@ description: >-
 
 :   揭示 MLLM 的严重置信度失校准问题（视觉输入退化时准确率暴跌但置信度不变），提出 CDRL（基于原始-噪声图像对的置信度驱动 RL）进行感知敏感性训练，并利用校准后的置信度实现自适应测试时缩放（CA-TTS），在四个基准上平均提升 8.8%。
 
-**[MSRL: Scaling Generative Multimodal Reward Modeling via Multi-Stage Reinforcement Learning](reinforcement_learning/msrl_scaling_generative_multimodal_reward_modeling.md)**
-
-:   提出多阶段强化学习（MSRL）方法，通过先在大规模文本偏好数据上学习奖励推理能力，再逐步迁移到多模态任务，解决多模态奖励模型训练中标注数据稀缺的瓶颈问题，在 VL-RewardBench 上将准确率从 66.6% 提升至 75.9%。
-
 **[MSRL: Scaling Generative Multimodal Reward Modeling via Multi-Stage Reinforcement Learning](reinforcement_learning/msrl_scaling_generative_multimodal_reward_modeling_via_multi-stage_reinforcement.md)**
 
 :   提出MSRL(Multi-Stage Reinforcement Learning)，通过多阶段RL扩展生成式多模态奖励建模——先在大规模文本偏好数据(400K)上做RL学习通用奖励推理能力，再经caption-based RL和跨模态知识蒸馏向多模态迁移，最后用少量多模态偏好数据微调适配，无需额外多模态标注即在VL-RewardBench上从66.6%提升到75.9%、GenAI-Bench上从70.2%到75.7%。
@@ -6046,86 +6122,6 @@ description: >-
 
 ---
 
-## 🔄 自监督 { #self_supervised }
-
-**[BD-Merging: Bias-Aware Dynamic Model Merging with Evidence-Guided Contrastive Learning](self_supervised/bd-merging_bias-aware_dynamic_model_merging_with_evidence-guided_contrastive_lea.md)**
-
-:   提出 BD-Merging 框架，通过 Dirichlet 证据建模 + 邻域差异分数（ADS）+ 差异感知对比学习，训练去偏路由器来自适应分配模型合并权重，显著提升合并模型在测试时分布偏移和未见任务上的鲁棒性与泛化能力。
-
-**[BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](self_supervised/boss_a_best-of-strategies_selector_as_an_oracle_for_deep_active_learning.md)**
-
-:   提出 BoSS——一种可扩展的 oracle 策略选择框架：在每轮主动学习中，并行运行多种查询策略在随机子池上生成候选 batch，通过冻结 backbone 仅重训最后一层快速评估每个候选 batch 的性能增益，选出最优 batch，从而量化现有 AL 策略与理论最优之间的差距。
-
-**[BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](self_supervised/boss_a_bestofstrategies_selector_as_an_oracle_for.md)**
-
-:   提出 BoSS（Best-of-Strategies Selector），通过集成10种互补的AL选择策略生成100个候选批次，冻结预训练backbone仅重训最后线性层来高效评估每个批次的性能增益，选取最优批次作为Oracle上界参考——首个可扩展到ImageNet的深度主动学习Oracle策略，揭示当前SOTA策略在大规模多类数据集上仍有约2倍的准确率提升空间。
-
-**[D2Dewarp: Dual Dimensions Geometric Representation Learning Based Document Image Dewarping](self_supervised/d2dewarp_dual_dimensions_geometric_representation_learning_based_document_image_.md)**
-
-:   提出 D2Dewarp——首个从水平和垂直双维度学习文档几何表示的去畸变方法：UNet 双解码器分别预测水平线（文档/表格/文本行的上下边界）和垂直线（左右边界），HV Fusion Module 通过混合注意力交叉融合两个方向的特征，并构建了包含 114K 张图的 DocDewarpHV 数据集提供双维度标注。
-
-**[DiverseDiT: Towards Diverse Representation Learning in Diffusion Transformers](self_supervised/diversedit_towards_diverse_representation_learning_in_diffusion_transformers.md)**
-
-:   通过系统分析发现 DiT 各 block 间的表示多样性是有效学习的关键因素，提出 DiverseDiT：用长残差连接多样化输入 + 表示多样性损失显式促进 block 间特征差异化，无需外部引导模型即可加速收敛并提升生成质量。
-
-**[LaS-Comp: Zero-shot 3D Completion with Latent-Spatial Consistency](self_supervised/las-comp_zero-shot_3d_completion_with_latent-spatial_consistency.md)**
-
-:   提出 LaS-Comp，一种零样本、类别无关的 3D 形状补全框架，通过 Explicit Replacement Stage 在空间域注入已知几何 + Implicit Alignment Stage 在隐空间梯度优化边界一致性，桥接了预训练 3D 基础模型的隐空间与空间域之间的 gap，在多种部分观测模式下达到 SOTA。
-
-**[MOMO: Mars Orbital Model — Foundation Model for Mars Orbital Applications](self_supervised/momo_mars_orbital_model_foundation_model_for_mars_orbital_applications.md)**
-
-:   MOMO 是首个火星遥感基础模型，通过在三种火星传感器（HiRISE/CTX/THEMIS）上分别预训练 MAE 并提出 Equal Validation Loss（EVL）检查点选择策略进行模型融合，在 Mars-Bench 的 9 个下游任务上超越 ImageNet 预训练和地球观测基础模型。
-
-**[Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting](self_supervised/redepth_anything_test-time_depth_refinement_via_self-supervised_re-lighting.md)**
-
-:   提出 Re-Depth Anything，通过在推理时对预测深度图进行重光照增强并利用 2D 扩散模型的 SDS 损失进行自监督优化，在无标签的情况下精细化 Depth Anything V2/3 的深度预测。
-
-**[Representation Learning for Spatiotemporal Physical Systems](self_supervised/representation_learning_for_spatiotemporal_physica.md)**
-
-:   在三个 PDE 物理系统（活性物质、剪切流、Rayleigh-Bénard 对流）上系统比较四种自监督/物理建模方法，发现隐空间预测（JEPA）在物理参数估计任务上全面优于像素级预测（VideoMAE）——MSE 相对改善 28%~51%，且 10% 微调数据即可超越 VideoMAE 的 100% 数据表现。同时，专为物理建模设计的方法并非总是最优选择。
-
-**[Representation Learning for Spatiotemporal Physical Systems](self_supervised/representation_learning_for_spatiotemporal_physical_systems.md)**
-
-:   在三个 PDE 物理系统上系统对比 JEPA、VideoMAE、自回归基础模型(MPP)和算子学习(DISCO) 四种范式，发现隐空间预测目标(JEPA)在物理参数估计下游任务上全面优于像素级预测方法，MSE 相对改善 28-51%，且数据效率更高。
-
-**[SpHOR: A Representation Learning Perspective on Open-set Recognition](self_supervised/sphor_a_representation_learning_perspective_on_ope.md)**
-
-:   提出SpHOR两阶段解耦训练框架：Stage 1通过正交标签嵌入+球面约束（vMF分布）+Mixup/Label Smoothing做专为OSR设计的表征学习，Stage 2冻结特征训练分类器——在Semantic Shift Benchmark上OSCR/AUROC最高提升5.1%/5.2%，同时引入Angular Separability和Norm Separability两个新度量。
-
-**[SpHOR: A Representation Learning Perspective on Open-set Recognition for Identifying Unknown Classes in Deep Neural Networks](self_supervised/sphor_a_representation_learning_perspective_on_open-set_recognition_for_identify.md)**
-
-:   提出 SpHOR，一种两阶段解耦训练的开放集识别方法，通过球面表示学习（vMF 分布）、正交标签嵌入和 Mixup/Label Smoothing 集成，显式塑造特征空间以更好地分离已知/未知类别，在 Semantic Shift Benchmark 上取得最高 5.1% 的 OSCR 提升。
-
-**[Suppressing Non-Semantic Noise in Masked Image Modeling Representations](self_supervised/suppressing_non-semantic_noise_in_masked_image_modeling_representations.md)**
-
-:   本文揭示了掩码图像建模（MIM）学到的表征中保留了大量非语义信息（如纹理、颜色等底层特征），并提出了一种无需训练的后处理方法 SOAP（Semantically Orthogonal Artifact Projection），通过 PCA 识别并投影去除非语义成分，在多种 MIM 模型上一致提升零样本性能。
-
-**[TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction](self_supervised/talo_pushing_3d_vision_foundation_models_towards_globally_consistent_online_reco.md)**
-
-:   提出 TALO，一种基于 Thin Plate Spline 的高自由度对齐框架，通过全局传播控制点和点无关的子图配准设计，纠正 3D 视觉基础模型在在线重建中的空间变化不一致性，兼容多种基础模型和相机配置，在 Waymo/nuScenes 数据集上显著降低轨迹误差。
-
-**[TeFlow: Enabling Multi-frame Supervision for Self-Supervised Feed-forward Scene Flow Estimation](self_supervised/teflow_enabling_multi-frame_supervision_for_self-supervised_feed-forward_scene_f.md)**
-
-:   提出TeFlow——首个将多帧监督引入自监督前馈场景流估计的方法：通过时序集成策略构建运动候选池并基于共识投票聚合时序一致的监督信号，在Argoverse 2上Three-way EPE达3.57cm（媲美优化方法Floxels）同时保持实时推理（8s vs 24min），较SeFlow++提升22.3%。
-
-**[Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval](self_supervised/text-phase_synergy_network_with_dual_priors_for_unsupervised_cross-domain_image_.md)**
-
-:   提出TPSNet，将CLIP学习的域提示（domain prompt）作为文本先验提供精细语义监督，同时引入相位谱特征作为相位先验来桥接域分布差异并保持语义完整性，通过文本-相位双先验的协同实现无监督跨域图像检索的显著提升。
-
-**[TrackMAE: Video Representation Learning via Track, Mask, and Predict](self_supervised/trackmae_video_representation_learning_via_track_mask_and_predict.md)**
-
-:   在masked video modeling（MVM）框架中引入显式的运动信号：使用CoTracker3提取点轨迹作为额外的重建目标，并设计运动感知遮掩策略，联合学习空间重建和运动预测，在运动敏感基准（SSv2、FineGym）上显著超越现有视频自监督方法。
-
-**[Vision Transformers Need More Than Registers](self_supervised/vision_transformers_need_more_than_registers.md)**
-
-:   这篇论文认为 ViT 在标签监督、文本监督和自监督下普遍存在的 dense feature 伪影，本质上不是单纯的 high-norm token 问题，而是模型在粗粒度监督和全局注意力共同作用下学会了用背景 patch 充当全局语义捷径；作者据此提出 LaSt-ViT，用频域稳定性引导的选择性聚合替代原始 CLS 聚合，在 12 个基准上稳定改善定位、分割和开放词汇任务。
-
-**[Vision Transformers Need More Than Registers](self_supervised/vit_need_more_than_registers.md)**
-
-:   系统分析了 ViT 中广泛存在的 artifact 现象（跨全监督、文本监督、自监督），揭示其根本原因是"lazy aggregation"——ViT 利用语义无关的背景 patch 作为捷径来表示全局语义，提出 LaSt-ViT（LazyStrike ViT）通过频率感知的选择性通道聚合将 CLS token 锚定到前景区域，在 12 个 benchmark 上一致消除 artifact 并提升性能。
-
----
-
 ## 🛰️ 遥感 { #remote_sensing }
 
 **[ACPV-Net: All-Class Polygonal Vectorization for Seamless Vector Map Generation from Aerial Imagery](remote_sensing/acpv-net_all-class_polygonal_vectorization_for_seamless_vector_map_generation_fr.md)**
@@ -6151,10 +6147,6 @@ description: >-
 **[Exploring Spatiotemporal Feature Propagation for Video-Level Compressive Spectral Reconstruction](remote_sensing/exploring_spatiotemporal_feature_propagation_for_video-level_compressive_spectra.md)**
 
 :   首次将光谱压缩成像（SCI）从图像级推进到视频级重建，构建首个高质量动态高光谱数据集 DynaSpec（30 序列/300 帧），提出 PG-SVRT 通过空间-然后-时间注意力 + 桥接 token 实现 41.52dB PSNR 和最优时间一致性，且 FLOPs（28.18G）低于多个图像级 SOTA。
-
-**[GeoFlow: Real-Time Fine-Grained Cross-View Geolocalization via Iterative Flow Prediction](remote_sensing/geoflow_real-time_fine-grained_cross-view_geolocalization.md)**
-
-:   提出 GeoFlow，一种受流匹配启发的轻量级跨视图精细地理定位框架，通过学习概率位移场结合迭代精化采样（IRS）算法，在连续空间内实现从地面图像到卫星图像的精确 2-DoF 定位，以 29 FPS 的实时速度达到了与 SOTA 可比的精度。
 
 **[GeoFlow: Real-Time Fine-Grained Cross-View Geolocalization via Iterative Flow Prediction](remote_sensing/geoflow_real-time_fine-grained_cross-view_geolocalization_via_iterative_flow_pre.md)**
 
@@ -6203,10 +6195,6 @@ description: >-
 **[CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare](llm_agent/carepilot_a_multi-agent_framework_for_long-horizon_computer_task_automation_in_h.md)**
 
 :   提出CareFlow基准（1050个医疗软件长视界工作流任务，8-24步，覆盖DICOM/3D Slicer/EMR/LIS四大系统）和CarePilot框架（基于Actor-Critic范式，集成工具grounding和双记忆机制），在CareFlow上超越GPT-5约15%的任务准确率。
-
-**[EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration](llm_agent/echotrail-gui_building_actionable_memory_for_gui_agents.md)**
-
-:   提出 EchoTrail-GUI 框架，通过评论模型引导的自主探索构建高质量操作记忆库，并在推理时动态检索相关经验注入提示，将 GPT-4o 在 AndroidWorld 上的任务成功率从 34.5% 提升至 51.7%。
 
 **[EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration](llm_agent/echotrail-gui_building_actionable_memory_for_gui_agents_via_critic-guided_self-e.md)**
 
@@ -6287,10 +6275,6 @@ description: >-
 **[GRAZE: Grounded Refinement and Motion-Aware Zero-Shot Event Localization](llm_reasoning/graze_grounded_refinement_and_motion-aware_zero-shot_event_localization.md)**
 
 :   提出GRAZE，一种完全无训练的时空事件定位管线——用Grounding DINO发现候选player-dummy交互对，通过运动感知的几何评分（位移幅度+方向余弦相似度）排序候选，再用SAM2掩码传播作为独立的像素级接触验证器（而非依赖检测置信度），配合两阶段后向精化恢复事件起始帧，在738个橄榄球练习视频上97.4%有效输出率、77.5%在±10帧内定位。
-
-**[GRAZE: Grounded Refinement and Motion-Aware Zero-Shot Event Localization](llm_reasoning/graze_grounded_refinement_and_motion-aware_zero-shot_generation.md)**
-
-:   提出 GRAZE，一个无需训练的管线，利用 Grounding DINO 发现候选交互、SAM2 掩码重叠作为像素级接触验证器，在 738 段美式橄榄球训练视频中实现 97.4% 覆盖率和 ±10 帧内 77.5% 的接触起始帧定位精度。
 
 **[Harnessing Chain-of-Thought Reasoning in Multimodal Large Language Models for Face Anti-Spoofing](llm_reasoning/harnessing_chain-of-thought_reasoning_in_multimodal_large_language_models_for_fa.md)**
 

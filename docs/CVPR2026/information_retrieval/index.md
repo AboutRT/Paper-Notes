@@ -2,7 +2,7 @@
 title: >-
   CVPR2026 信息检索/RAG方向 9篇论文解读
 description: >-
-  9篇CVPR2026 信息检索/RAG方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  9篇CVPR2026 信息检索/RAG论文解读，主题涵盖：提出MCMR（Multi-Conditional、提出 CC-VQA，一种 training-fre、本文提出 EZPC，通过学习一个线性投影矩阵将等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

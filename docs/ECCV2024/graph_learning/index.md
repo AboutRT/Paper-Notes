@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 图学习方向 4篇论文解读
+  ECCV2024 图学习方向 5篇论文解读
 description: >-
-  4篇ECCV2024 图学习方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  5篇ECCV2024 图学习论文解读，主题涵盖：针对多标签类增量学习(MLCIL)中部分标签导致的、提出样本级偏置预测方法 SBP，通过、提出首个全图卷积多标签识别模型 GKGNet等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🎞️ ECCV2024** · **4** 篇论文解读
+**🎞️ ECCV2024** · **5** 篇论文解读
 
 **[Confidence Self-Calibration for Multi-Label Class-Incremental Learning](confidence_self-calibration_for_multi-label_class-incremental_learning.md)**
 
@@ -25,3 +25,7 @@ description: >-
 **[SENC: Handling Self-collision in Neural Cloth Simulation](senc_handling_self-collision_in_neural_cloth_simulation.md)**
 
 :   提出 SENC，通过基于 Global Intersection Analysis (GIA) 的自碰撞损失和自碰撞感知图神经网络，首次在自监督神经布料模拟中有效解决布料自碰撞问题。
+
+**[Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching](synchronous_diffusion_for_unsupervised_smooth_non-rigid_3d_shape_matching.md)**
+
+:   提出同步扩散正则化方法用于无监督非刚性3D形状匹配，核心思想是"在两个形状上同步地扩散同一函数应产生一致输出"，通过这一简单而高效的正则化可以显著提升现有深度功能映射方法的匹配平滑性，在FAUST、SCAPE、TOPKIDS等多个数据集上达到SOTA。

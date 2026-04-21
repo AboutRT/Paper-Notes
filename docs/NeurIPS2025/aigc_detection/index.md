@@ -2,7 +2,7 @@
 title: >-
   NeurIPS2025 AIGC检测方向 7篇论文解读
 description: >-
-  7篇NeurIPS2025 AIGC检测方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  7篇NeurIPS2025 AIGC检测论文解读，主题涵盖：提出 ASCIIBench，首个公开可用的、提出让 LLM **生成域相关启发式函数的、提出 CLAWS，通过分析 LLM等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

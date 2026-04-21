@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 其他方向 138篇论文解读
+  NeurIPS2025 其他方向 137篇论文解读
 description: >-
-  138篇NeurIPS2025 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  137篇NeurIPS2025 其他论文解读，主题涵盖：提出4DGT——一种基于4D高斯的Transfor、用 JAX 实现可微分的供应链、本文将跨域视线估计(CDGE)问题建模为广义标签偏等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧠 NeurIPS2025** · **138** 篇论文解读
+**🧠 NeurIPS2025** · **137** 篇论文解读
 
 **[4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)**
 
@@ -89,6 +89,10 @@ description: >-
 **[Computable Universal Online Learning](computable_universal_online_learning.md)**
 
 :   在 universal online learning 框架中引入可计算性约束，证明了"数学上可学习"不等于"可用计算机程序实现的可学习"，并给出了 agnostic 和 proper 变体下可计算学习的精确刻画。
+
+**[ConTextTab: 语义感知的表格上下文学习器](contexttab_a_semantics-aware_tabular_in-context_learner.md)**
+
+:   ConTextTab 将语义嵌入（列名、分类值的文本编码）融入 table-native ICL 架构，并在大规模真实表格数据（T4, ~2.18M 表）上预训练，在语义丰富的 CARTE 基准上取得新 SOTA，同时在非语义基准上保持与现有方法竞争力。
 
 **[Contextual Dynamic Pricing with Heterogeneous Buyers](contextual_dynamic_pricing_with_heterogeneous_buyers.md)**
 
@@ -210,10 +214,6 @@ description: >-
 
 :   提出扰动Wasserstein梯度流(PWGF)算法，通过基于Hessian构造的高斯过程注入噪声扰动，使概率测度优化能够高效逃离鞍点并达到二阶最优性。
 
-**[HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)**
-
-:   提出 HouseLayout3D——首个面向大规模多层建筑的真实世界 3D layout 估计基准，以及 MultiFloor3D——一个无需训练的基线方法，通过组合现代 3D 重建和分割模型在多层建筑 layout 估计上超越现有深度学习方法。
-
 **[How Many Domains Suffice for Domain Generalization? A Tight Characterization via the Domain Shattering Dimension](how_many_domains_suffice_for_domain_generalization_a_tight_characterization_via_.md)**
 
 :   提出"领域碎裂维度"（Domain Shattering Dimension）这一新组合度量，紧致刻画了领域泛化所需的领域数量（领域样本复杂度），并证明其与经典VC维的关系为 $\Theta(d \log(1/\alpha))$。
@@ -221,10 +221,6 @@ description: >-
 **[Hybrid-Balance GFlowNet for Solving Vehicle Routing Problems](hybrid-balance_gflownet_for_solving_vehicle_routing_problems.md)**
 
 :   提出Hybrid-Balance GFlowNet（HBG）框架，首次在VRP场景中引入详细平衡（DB）并与轨迹平衡（TB）统一集成，配合depot引导推理策略，在CVRP和TSP上显著提升两种现有GFlowNet求解器（AGFN和GFACS）的性能。
-
-**[HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)**
-
-:   提出 HyperGraphRAG，首个基于超图 (hypergraph) 结构的 RAG 方法，通过超边 (hyperedge) 建模 n 元关系（n≥2），克服了现有图谱 RAG 方法受限于二元关系的瓶颈，在医学、农业、计算机科学和法律等领域的问答任务中全面超越 StandardRAG 和 GraphRAG 系列方法。
 
 **[Impact of Layer Norm on Memorization and Generalization in Transformers](impact_of_layer_norm_on_memorization_and_generalization_in_transformers.md)**
 

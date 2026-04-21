@@ -131,10 +131,10 @@ tags:
 
 ## 相关论文
 
-- [EZSR: Event-based Zero-Shot Recognition](ezsr_event-based_zero-shot_recognition.md)
-- [DocoPilot: Improving Multimodal Models for Document-Level Understanding](docopilot_improving_multimodal_models_for_document-level_understanding.md)
+- [Towards Smart Point-and-Shoot Photography](towards_smart_point-and-shoot_photography.md)
+- [RANGE: Retrieval Augmented Neural Fields for Multi-Resolution Geo-Embeddings](range_retrieval_augmented_neural_fields_for_multi-resolution_geo-embeddings.md)
 - [Preserving Clusters in Prompt Learning for Unsupervised Domain Adaptation](preserving_clusters_in_prompt_learning_for_unsupervised_domain_adaptation.md)
-- [GENIUS: A Generative Framework for Universal Multimodal Search](genius_a_generative_framework_for_universal_multimodal_search.md)
-- [VladVA: Discriminative Fine-tuning of LVLMs](vladva_discriminative_fine-tuning_of_lvlms.md)
+- [GOAL: Global-Local Object Alignment Learning](goal_global-local_object_alignment_learning.md)
+- [NeighborRetr: Balancing Hub Centrality in Cross-Modal Retrieval](neighborretr_balancing_hub_centrality_in_cross-modal_retrieval.md)
 
 <!-- RELATED:END -->

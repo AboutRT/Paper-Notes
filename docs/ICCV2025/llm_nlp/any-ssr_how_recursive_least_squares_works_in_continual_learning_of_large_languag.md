@@ -204,6 +204,6 @@ Any-SSR在无需回放的情况下，通用能力损失仅-1.26，接近使用1%
 - [AfroBench: How Good are Large Language Models on African Languages?](../../ACL2025/llm_nlp/afrobench_how_good_are_large_language_models_on_african_languages.md)
 - [Large Language Models for Predictive Analysis: How Far Are They?](../../ACL2025/llm_nlp/large_language_models_for_predictive_analysis_how_far_are_they.md)
 - [C²Prompt: Class-aware Client Knowledge Interaction for Federated Continual Learning](../../NeurIPS2025/llm_nlp/c2prompt_class-aware_client_knowledge_interaction_for_federated_continual_learni.md)
-- [MIRAGE: Exploring How Large Language Models Perform in Complex Social Interactive Environments](../../ACL2025/llm_nlp/mirage_exploring_how_large_language_models_perform_in_complex_social_interactive.md)
+- [One-stage Prompt-based Continual Learning](../../ECCV2024/llm_nlp/one-stage_prompt-based_continual_learning.md)
 
 <!-- RELATED:END -->

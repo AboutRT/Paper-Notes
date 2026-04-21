@@ -202,9 +202,9 @@ BIC 的惩罚项最好地平衡了 token 数量和表示质量。
 ## 相关论文
 
 - [Adversarial Tokenization](../../ACL2025/llm_pretraining/adversarial_tokenization.md)
-- [Does Data Scaling Lead to Visual Compositional Generalization?](../../ICML2025/llm_pretraining/does_data_scaling_lead_to_visual_compositional_generalization.md)
 - [Tokenization is Sensitive to Language Variation](../../ACL2025/llm_pretraining/tokenization_is_sensitive_to_language_variation.md)
-- [Splintering Nonconcatenative Languages for Better Tokenization](../../ACL2025/llm_pretraining/splintering_nonconcatenative_languages_for_better_tokenization.md)
+- [Does Data Scaling Lead to Visual Compositional Generalization?](../../ICML2025/llm_pretraining/does_data_scaling_lead_to_visual_compositional_generalization.md)
+- [Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction](../../CVPR2025/llm_pretraining/improving_autoregressive_visual_generation_with_cluster-oriented_token_predictio.md)
 - [Incorporating Domain Knowledge into Materials Tokenization](../../ACL2025/llm_pretraining/incorporating_domain_knowledge_into_materials_tokenization.md)
 
 <!-- RELATED:END -->

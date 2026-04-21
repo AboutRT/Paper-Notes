@@ -2,7 +2,7 @@
 title: >-
   ICML2025 LLM安全方向 6篇论文解读
 description: >-
-  6篇ICML2025 LLM安全方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  6篇ICML2025 LLM安全论文解读，主题涵盖：提出 BECAME——基于贝叶斯持续学习原则重新建、提出 CUTER（CUT-out-and-Expe、本文首次探索了早退出网络（early-exit等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

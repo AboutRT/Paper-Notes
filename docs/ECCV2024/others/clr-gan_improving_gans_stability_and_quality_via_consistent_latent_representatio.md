@@ -139,9 +139,9 @@ CLR-GAN在标准GAN训练的基础上增加了两个额外任务：（1）隐码
 ## 相关论文
 
 - [Exploring Guided Sampling of Conditional GANs](exploring_guided_sampling_of_conditional_gans.md)
-- [A High-Quality Robust Diffusion Framework for Corrupted Dataset](a_highquality_robust_diffusion_framework_for_corrupted_datas.md)
-- [A Closer Look at GAN Priors: Exploiting Intermediate Features for Enhanced Model Inversion Attacks](a_closer_look_at_gan_priors_exploiting_intermediate_features.md)
 - [Φ-GAN: Physics-Inspired GAN for Generating SAR Images Under Limited Data](../../ICCV2025/others/ph-gan_physics-inspired_gan_for_generating_sar_images_under_limited_data.md)
 - [Intrinsic Single-Image HDR Reconstruction](intrinsic_single-image_hdr_reconstruction.md)
+- [HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
+- [Superpixel-Informed Implicit Neural Representation for Multi-Dimensional Data](superpixel-informed_implicit_neural_representation_for_multi-dimensional_data.md)
 
 <!-- RELATED:END -->

@@ -2,7 +2,7 @@
 title: >-
   ICML2025 视频生成方向 7篇论文解读
 description: >-
-  7篇ICML2025 视频生成方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  7篇ICML2025 视频生成论文解读，主题涵盖：提出 AsymRnR——一种免训练的视频 DiT、提出 Ca2-VDM，通过因果生成（Causal、提出 Data-Juicer Sandbox等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

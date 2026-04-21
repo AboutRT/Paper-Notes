@@ -128,6 +128,6 @@ $\mathcal{L}_{id\text{-}classify}$ 为身份分类交叉熵损失，$\mathcal{L}
 - [EchoONE: Segmenting Multiple Echocardiography Planes in One Model](echoone_segmenting_multiple_echocardiography_planes_in_one_model.md)
 - [UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation](../../ICCV2025/medical_imaging/ukbob_one_billion_mri_labeled_masks_for_generalizable_3d_medical_image_segmentat.md)
 - [BiCLIP: Bidirectional and Consistent Language-Image Processing for Robust Medical Image Segmentation](biclip_bidirectional_and_consistent_language-image_processing_for_robust_medical.md)
-- [Interactive Medical Image Segmentation: A Benchmark Dataset and Baseline](interactive_medical_image_segmentation_a_benchmark_dataset_and_baseline.md)
+- [Interactive Medical Image Analysis with Concept-based Similarity Reasoning](interactive_medical_image_analysis_with_concept-based_similarity_reasoning.md)
 
 <!-- RELATED:END -->

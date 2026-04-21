@@ -117,8 +117,8 @@ tags:
 
 - [A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression](gist_token_context_compression.md)
 - [CoEvo: Continual Evolution of Symbolic Solutions Using Large Language Models](../../AAAI2026/model_compression/coevo_continual_evolution_of_symbolic_solutions_using_large_language_models.md)
-- [Wanda++: Pruning Large Language Models via Regional Gradients](wanda_pruning_large_language_models_via_regional_gradients.md)
 - [A Granular Study of Safety Pretraining under Model Abliteration](../../NeurIPS2025/model_compression/a_granular_study_of_safety_pretraining_under_model_abliteration.md)
+- [Wanda++: Pruning Large Language Models via Regional Gradients](wanda_pruning_large_language_models_via_regional_gradients.md)
 - [Unveiling Language-Specific Features in Large Language Models via Sparse Autoencoders](language_specific_features.md)
 
 <!-- RELATED:END -->

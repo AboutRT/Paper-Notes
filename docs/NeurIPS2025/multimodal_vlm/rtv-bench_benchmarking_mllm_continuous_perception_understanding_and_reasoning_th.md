@@ -128,6 +128,6 @@ RTV-Bench 是一个面向实时视频分析的细粒度 benchmark，包含 552 �
 - [VisJudge-Bench: Aesthetics and Quality Assessment of Visualizations](../../ICLR2026/multimodal_vlm/visjudge-bench_aesthetics_and_quality_assessment_of_visualizations.md)
 - [Table Understanding and (Multimodal) LLMs: A Cross-Domain Case Study on Scientific Tables](../../ACL2025/multimodal_vlm/table_understanding_and_multimodal_llms_a_cross-domain_case_study_on_scientific_.md)
 - [Training-Free Personalization via Retrieval and Reasoning on Fingerprints](../../ICCV2025/multimodal_vlm/training-free_personalization_via_retrieval_and_reasoning_on_fingerprints.md)
-- [MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale](../../ACL2025/multimodal_vlm/mammoth_vl_multimodal_reasoning.md)
+- [Document Haystacks: Vision-Language Reasoning Over Piles of 1000+ Documents](../../CVPR2025/multimodal_vlm/document_haystacks_vision-language_reasoning_over_piles_of_1000_documents.md)
 
 <!-- RELATED:END -->

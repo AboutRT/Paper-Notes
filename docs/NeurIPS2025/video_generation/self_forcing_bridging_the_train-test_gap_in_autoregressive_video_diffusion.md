@@ -128,10 +128,10 @@ Self Forcing 在 VBench 上超越了初始化权重 Wan2.1（一个速度慢 150
 
 ## 相关论文
 
-- [FreeInit: Bridging Initialization Gap in Video Diffusion Models](../../ECCV2024/video_generation/freeinit_bridging_initialization_gap_in_video_diffusion.md)
+- [FreeInit: Bridging Initialization Gap in Video Diffusion Models](../../ECCV2024/video_generation/freeinit_bridging_initialization_gap_in_video_diffusion_models.md)
 - [Taming Teacher Forcing for Masked Autoregressive Video Generation](../../CVPR2025/video_generation/taming_teacher_forcing_for_masked_autoregressive_video_generation.md)
 - [From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](../../CVPR2025/video_generation/from_slow_bidirectional_to_fast_autoregressive_video_diffusion_models.md)
 - [Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout](../../CVPR2026/video_generation/infinity-rope_action-controllable_infinite_video_generation_emerges_from_autoreg.md)
-- [One-Minute Video Generation with Test-Time Training](../../CVPR2025/video_generation/one-minute_video_generation_with_test-time_training.md)
+- [VSA: Faster Video Diffusion with Trainable Sparse Attention](vsa_faster_video_diffusion_with_trainable_sparse_attention.md)
 
 <!-- RELATED:END -->

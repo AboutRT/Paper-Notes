@@ -1,22 +1,18 @@
 ---
 title: >-
-  ECCV2024 其他方向 65篇论文解读
+  ECCV2024 其他方向 59篇论文解读
 description: >-
-  65篇ECCV2024 其他方向论文深度解读，每篇5分钟读懂核心思想。每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。
+  59篇ECCV2024 其他论文解读，主题涵盖：本文提出 3DFG-PIFu，通过引入3D特征网格、本文对视图图（Viewing Graph）可解性问、提出一个统计框架，通过分层（stratificat等，每篇含核心思想与方法详解。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🎞️ ECCV2024** · **65** 篇论文解读
+**🎞️ ECCV2024** · **59** 篇论文解读
 
 **[3DFG-PIFu: 3D Feature Grids for Human Digitization from Sparse Views](3dfg-pifu_3d_feature_grids_for_human_digitization_from_sparse_views.md)**
 
 :   本文提出 3DFG-PIFu，通过引入3D特征网格（3D Feature Grids）在整个 pipeline 中全局融合多视图特征，替代传统逐点局部融合方式，并结合迭代网格精炼机制和基于 SDF 的 SMPL-X 特征，显著超越现有稀疏视图人体数字化 SOTA 方法。
-
-**[A Closer Look at GAN Priors: Exploiting Intermediate Features for Enhanced Model Inversion Attacks](a_closer_look_at_gan_priors_exploiting_intermediate_features.md)**
-
-:   提出 IF-GMI，将预训练 StyleGAN2 的生成器拆解为多个 block，在中间特征层逐层优化（配合 $\ell_1$ 球约束防止图像崩塌），把模型反演攻击的搜索空间从潜码扩展到中间特征，在 OOD 场景下攻击准确率提升高达 38.8%。
 
 **[A Direct Approach to Viewing Graph Solvability](a_direct_approach_to_viewing_graph_solvability.md)**
 
@@ -26,17 +22,9 @@ description: >-
 
 :   提出一个统计框架，通过分层（stratification）、采样设计（sampling）和估计器（estimation）三个组件的协同设计，在仅标注少量测试样本的情况下精确估计CV模型准确率，最高可实现10倍的效率增益（即用1/10的标注量达到同等精度）。
 
-**[A High-Quality Robust Diffusion Framework for Corrupted Dataset](a_highquality_robust_diffusion_framework_for_corrupted_datas.md)**
-
-:   提出 RDUOT 框架，首次将非平衡最优传输(UOT)融入扩散模型(DDGAN)中，通过学习 $q(x_0|x_t)$ 而非 $q(x_{t-1}|x_t)$ 来有效过滤训练数据中的离群值，在污染数据集上实现鲁棒生成的同时，在干净数据集上也超越了 DDGAN 基线。
-
 **[ABC Easy as 123: A Blind Counter for Exemplar-Free Multi-Class Class-Agnostic Counting](abc_easy_as_123_a_blind_counter_for_exemplar-free_multi-class_class-agnostic_cou.md)**
 
 :   提出首个无需样例图像即可同时计数图像中多类未知物体的方法ABC123，通过ViT回归多通道密度图+匈牙利匹配训练+SAM示例发现机制，在自建合成数据集MCAC上大幅超越需要样例的方法，且能泛化到FSC-147真实数据集。
-
-**[Action2Sound: Ambient-Aware Generation of Action Sounds from Egocentric Videos](action2sound_ambientaware_generation_of_action_sounds_from_e.md)**
-
-:   提出 AV-LDM，通过在训练时引入同一视频不同时间段的音频作为环境音条件，隐式解耦前景动作声和背景环境音，结合检索增强生成(RAG)在推理时选择合适的环境音条件，在 Ego4D 和 EPIC-KITCHENS 上大幅超越已有方法。
 
 **[Active Generation for Image Classification](active_generation_for_image_classification.md)**
 
@@ -158,10 +146,6 @@ description: >-
 
 :   提出 HPFF，通过层次化局部监督学习（HiLo，将网络划分为独立+级联两级局部模块）和 Patch 特征融合（PFF，将辅助网络的输入切块计算再平均）解决局部学习中的模块间信息缺失和 GPU 内存占用过高问题，在多个数据集上显著超越已有局部学习方法并接近甚至超越 BP。
 
-**[I Can't Believe It's Not Scene Flow!](i_canapost_believe_itaposs_not_scene_flow.md)**
-
-:   揭示现有场景流方法在行人等小目标上的灾难性失败被现有评估指标所掩盖，提出类别感知且速度归一化的Bucket Normalized EPE评估协议，以及一个简单但SOTA的TrackFlow基线（检测器+跟踪器生成场景流），在行人运动描述上实现1.5倍提升。
-
 **[Image Demoiréing in RAW and sRGB Domains](image_demoiréing_in_raw_and_srgb_domains.md)**
 
 :   提出RRID框架联合利用RAW和sRGB双域数据进行图像去摩尔纹，设计了带GFM（门控反馈）和FSM（频域选择）的SCDM去摩尔纹模块，以及RGISP实现设备相关ISP学习辅助颜色恢复，在PSNR上超越SOTA 0.62dB。
@@ -250,17 +234,9 @@ description: >-
 
 :   提出超像素引导的隐式神经表示（S-INR），用广义超像素替代像素作为INR的基本单元，通过专属注意力MLP和共享字典矩阵两个模块，充分挖掘广义超像素内部和之间的语义信息，在图像重建/补全/去噪以及点数据恢复等任务上超越现有INR方法。
 
-**[Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching](synchronous_diffusion_for_unsupervised_smooth_non-rigid_3d_shape_matching.md)**
-
-:   提出同步扩散正则化方法用于无监督非刚性3D形状匹配，核心思想是"在两个形状上同步地扩散同一函数应产生一致输出"，通过这一简单而高效的正则化可以显著提升现有深度功能映射方法的匹配平滑性，在FAUST、SCAPE、TOPKIDS等多个数据集上达到SOTA。
-
 **[Synergy of Sight and Semantics: Visual Intention Understanding with CLIP](synergy_of_sight_and_semantics_visual_intention_understanding_with_clip.md)**
 
 :   提出了 IntCLIP 框架，通过双分支编码策略将 CLIP 中的"视觉感知"（Sight）知识迁移到"语义中心"（Semantic）的多标签意图理解任务中，结合层次化类别整合和视觉辅助聚合，在标准 MIU benchmark 和图像情感识别任务上显著超越 SOTA。
-
-**[Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint](teaching_tailored_to_talent_adverse_weather_restoration.md)**
-
-:   提出 T3-DiffWeather，采用 prompt pool 自主组合子 prompt 构建天气退化信息，结合 Depth-Anything 约束的通用 prompt 提供场景信息，以对比 prompt 损失约束两类 prompt，在恶劣天气图像恢复任务上仅用 WeatherDiffusion 十分之一的采样步数达到 SOTA。
 
 **[Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint](teaching_tailored_to_talent_adverse_weather_restoration_via_prompt_pool_and_dept.md)**
 

@@ -81,6 +81,7 @@ OddOneOutAD 在两个数据集上均显著优于：
 - 无 cross-instance attention 的消融变体。
 
 ### 消融实验
+
 | 配置 | AUROC 下降 |
 |------|-----------|
 | 无 DINOv2 蒸馏 | 显著下降 (尤其 unseen 类) |

@@ -62,6 +62,6 @@ tags:
 - [FineVQ: Fine-Grained User Generated Content Video Quality Assessment](finevq_fine-grained_user_generated_content_video_quality_assessment.md)
 - [Beyond Single Labels: Improving Conversational Recommendation through LLM-Powered Data Augmentation](../../ACL2025/recommender/beyond_single_labels_improving_conversational_recommendation_through_llm-powered.md)
 - [Aligning LLMs by Predicting Preferences from User Writing Samples](../../ICML2025/recommender/aligning_llms_by_predicting_preferences_from_user_writing_samples.md)
-- [SIMPLEMIX: Frustratingly Simple Mixing of Off- and On-policy Data in Language Model Preference Learning](../../ICML2025/recommender/simplemix_frustratingly_simple_mixing_of_off-_and_on-policy_data_in_language_mod.md)
+- [PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](../../ICML2025/recommender/parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
 
 <!-- RELATED:END -->

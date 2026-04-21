@@ -128,8 +128,8 @@ tags:
 
 ## 相关论文
 
-- [Taming Sampling Perturbations with Variance Expansion Loss for Latent Diffusion Models](taming_sampling_perturbations_with_variance_expansion_loss_for_latent_diffusion_.md)
 - [Pixel Motion Diffusion Is What We Need for Robot Control](pixel_motion_diffusion_is_what_we_need_for_robot_control.md)
+- [Taming Sampling Perturbations with Variance Expansion Loss for Latent Diffusion Models](taming_sampling_perturbations_with_variance_expansion_loss_for_latent_diffusion_.md)
 - [Taming Video Models for 3D and 4D Generation via Zero-Shot Camera Control](taming_video_models_for_3d_and_4d_generation_via_zero-shot_camera_control.md)
 - [PixPerfect: Seamless Latent Diffusion Local Editing with Discriminative Pixel-Space Refinement](../../NeurIPS2025/image_generation/pixperfect_seamless_latent_diffusion_local_editing_with_discriminative_pixel-spa.md)
 - [Taming Preference Mode Collapse via Directional Decoupling Alignment in Diffusion Reinforcement Learning](taming_preference_mode_collapse_via_directional_decoupling_alignment_in_diffusio.md)

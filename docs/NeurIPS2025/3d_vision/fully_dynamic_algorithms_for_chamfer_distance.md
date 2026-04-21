@@ -138,6 +138,6 @@ tags:
 - [DGH: Dynamic Gaussian Hair](dgh_dynamic_gaussian_hair.md)
 - [GaussianUDF: Inferring Unsigned Distance Functions through 3D Gaussian Splatting](../../CVPR2025/3d_vision/gaussianudf_inferring_unsigned_distance_functions_through_3d_gaussian_splatting.md)
 - [Ray-Distance Volume Rendering for Neural Scene Reconstruction](../../ECCV2024/3d_vision/ray-distance_volume_rendering_for_neural_scene_reconstruction.md)
-- [Dynamic Gaussian Splatting from Defocused and Motion-blurred Monocular Videos](dynamic_gaussian_splatting_from_defocused_and_motion-blurred_monocular_videos.md)
+- [RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes](rgb-only_supervised_camera_parameter_optimization_in_dynamic_scenes.md)
 
 <!-- RELATED:END -->

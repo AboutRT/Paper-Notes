@@ -137,7 +137,7 @@ CUPS 包含三个阶段：(1) 伪标签生成——从立体视频帧中提取�
 
 - [Hierarchical Compact Clustering Attention (COCA) for Unsupervised Object-Centric Learning](hierarchical_compact_clustering_attention_coca_for_unsupervised_object-centric_l.md)
 - [Revisiting Audio-Visual Segmentation with Vision-Centric Transformer](revisiting_audio-visual_segmentation_with_vision-centric_transformer.md)
-- [DSFlash: Comprehensive Panoptic Scene Graph Generation in Realtime](../../CVPR2026/segmentation/dsflash_comprehensive_panoptic_scene_graph_generation_in_realtime.md)
+- [DSFlash: Comprehensive Panoptic Scene Graph Generation in Realtime](../../CVPR2026/segmentation/dsflash_panoptic_scene_graph_realtime.md)
 - [Towards Generalizable Scene Change Detection](towards_generalizable_scene_change_detection.md)
 - [SPADE: Spatial-Aware Denoising Network for Open-vocabulary Panoptic Scene Graph Generation](../../ICCV2025/segmentation/spade_spatial-aware_denoising_network_for_open-vocabulary_panoptic_scene_graph_g.md)
 

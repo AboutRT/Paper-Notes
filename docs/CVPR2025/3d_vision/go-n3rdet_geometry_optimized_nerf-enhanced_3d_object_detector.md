@@ -127,6 +127,6 @@ ScanNet mAP@0.25，基于R50：
 - [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](pbr-nerf_inverse_rendering_with_physics-based_neural_fields.md)
 - [On Geometry-Enhanced Parameter-Efficient Fine-Tuning for 3D Scene Segmentation](../../NeurIPS2025/3d_vision/on_geometry-enhanced_parameter-efficient_fine-tuning_for_3d_scene_segmentation.md)
 - [RDD: Robust Feature Detector and Descriptor Using Deformable Transformer](rdd_robust_feature_detector_and_descriptor_using_deformable_transformer.md)
-- [LookCloser: Frequency-aware Radiance Field for Tiny-Detail Scene (FA-NeRF)](lookcloser_frequency-aware_radiance_field_for_tiny-detail_scene.md)
+- [GREAT: Geometry-Intention Collaborative Inference for Open-Vocabulary 3D Object Affordance Grounding](great_geometry-intention_collaborative_inference_for_open-vocabulary_3d_object_a.md)
 
 <!-- RELATED:END -->
