@@ -115,7 +115,6 @@ tags:
 - **vs VideoGLaMM**: 只用[SEG]做逐帧grounding无时序线索，SPARROW在其上+7.3 J&F
 - **vs UniPixel**: 有在线memory但从首帧mask初始化，SPARROW的BOX提供更好的初始化
 - **vs GLUS**: 用全局上下文+密集查询帧，但仍是per-frame语义，SPARROW加入显式跟踪特征
-- 与 `ideas/segmentation/20260317_video_seg_multi_distill.md` 有关联
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ TSF+双提示的组合在视频MLLM中是新颖的，但各组件单独看不完全新

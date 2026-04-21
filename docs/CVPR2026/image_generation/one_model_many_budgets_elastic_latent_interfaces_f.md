@@ -100,8 +100,6 @@ ELIT在DiT的transformer block栈中插入一个"潜在接口"——一组可学
 ## 启发与关联
 - latent接口的思路可以迁移到其他transformer架构（如视觉理解中的ViT），用于自适应计算分配
 - 重要性排序+尾部丢弃可以作为通用的可变预算推理策略
-- 与 `ideas/model_compression/20260316_task_aware_token_compression.md` 相关：ELIT的Read层天然学到了task-aware的token重要性
-- 与 `ideas/self_supervised/20260317_supervised_query_for_open_world_attention.md` 相关：ELIT的Read层类似于用latent query来做注意力重分配
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 核心idea并非全新（latent token + read/write在RIN/FIT中已有），但将其极简化并无缝融入DiT+多预算弹性推理是重要贡献

@@ -126,10 +126,7 @@ tags:
 - **vs DepthFM**：本文保留DepthFM的生成特性（多样化预测），但细节质量更好的同时精度不如确定性方案
 
 ## 启发与关联
-- **Depth Anything作为教师模型的潜力**：与 `ideas/object_detection/20260316_multi_teacher_dense_distillation.md` 中将Depth Anything作为几何教师的思路一致，证明了大规模深度基础模型在下游任务中的通用价值
-- **基础模型伪标签的范式**：与 `ideas/3d_vision/20260317_foundation_aux_hand_pose.md` 类似，用DepthAnything生成伪深度标签弥补真实标注的缺失
 - **零初始化引导层设计**：这种"在预训练模型旁路添加零初始化通道"的做法（类似ControlNet思想）是一种通用范式，可迁移到其他需要额外条件输入的基础模型适配场景
-- **轻量化方向**：可参考 `ideas/3d_vision/20260317_lightweight_illusion_depth_fusion.md` 的知识蒸馏思路，将Amodal-DAV2-L蒸馏为更轻量的版本
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 问题范式（相对深度替代度量深度）和数据构建流程有创新，但模型设计本身修改较为简单

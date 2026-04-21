@@ -114,7 +114,6 @@ Generator 的目标函数是标准 PPO 形式，采用优势函数 $A_n = Q_\pi(
 
 ## 启发与关联
 
-- **与 RLHF 副作用检测 idea 的关联**：GAPO 的 encoder-only RM 思路可以用于 [RLHF 副作用检测](../../../ideas/llm_nlp/20260317_rlhf_side_effect_detection.md)——用双向注意力模型来检测 RLHF 训练过程中对非目标属性的隐性影响
 - **Preferential Prompt 范式的推广潜力**：这个"固定输出比较输入"的思路可能对 prompt engineering 自动化有启发——学习什么样的 prompt 变体会导致输出质量下降，可以反过来指导更好的 prompt 设计
 - **小模型做 RM 的趋势**：在 RM 上用领域特化的小模型（0.4B encoder）替代通用大模型（7B+ decoder），符合当前"用专家小模型辅助大模型训练"的趋势。也启发在其他 RL+LLM 场景中探索异构架构
 - **对抗训练在 LLM 对齐中的复兴**：GAN 在文本生成领域曾一度沉寂，GAPO 通过巧妙设计（encoder RM + PPO 而非直接文本 GAN）重新激活了对抗训练思路

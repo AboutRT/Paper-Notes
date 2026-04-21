@@ -137,9 +137,7 @@ ATLAS相比SKEL的核心优势：SKEL将SMPL的顶点形状空间映射到骨骼
 
 1. **与Sapiens的协同**：ATLAS的单图拟合流水线直接使用Sapiens的深度预测，表明ATLAS可作为Sapiens等视觉基础模型的下游几何模块——未来可考虑端到端训练
 2. **解耦思想的迁移**：骨骼-表面解耦的思路可推广到手部模型（MANO替代）、动物模型（SMAL替代）等其他可变形对象建模
-3. **与人体视频理解的关联**：workspace中的[人体视频Mamba idea](../../ideas/video_understanding/20260317_human_video_mamba.md)可受益于ATLAS提供的更精确骨骼先验，在视频中追踪骨骼而非表面可能更鲁棒
 4. **稀疏非线性校正的通用性**：测地线初始化+MLP局部编码+L1稀疏化的组合可能适用于任何LBS驱动的可变形模型
-5. **对人体解析的启示**：workspace中的[Diffusion Sapiens Human Parsing idea](../../ideas/segmentation/20260317_diffusion_sapiens_human_parsing.md)可利用ATLAS的解耦属性生成更多样化的人体变化数据
 
 ## 评分
 

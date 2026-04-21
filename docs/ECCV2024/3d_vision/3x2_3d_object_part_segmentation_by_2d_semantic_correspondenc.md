@@ -96,7 +96,6 @@ tags:
 - **需要标定相机或已知渲染参数**：用于3D反投影,对真实场景扫描需要SfM等额外步骤
 - **数据库噪声标注问题**：即使对应匹配准确，数据库中的错误标签仍会被传播
 - **潜在扩展**：可研究应用于3D场景语义分割或物体分类；可探索用更强的对应模型（如SD3特征、DINOv2+SD联合特征）替代DIFT
-- → 可链接到 `ideas/segmentation/20260317_diffusion_sapiens_human_parsing.md`（思路类似：利用扩散模型特征做零标注分割）
 
 ## 与相关工作的对比
 - **vs PartSLIP/PartSLIP++**: PartSLIP依赖GLIP的文本驱动部件检测，在细粒度部件（如"back_frame_vertical_bar"）上表现差；3-By-2完全基于视觉对应，在PartNet Level-3上领先PartSLIP 15.6%
@@ -105,8 +104,6 @@ tags:
 
 ## 启发与关联
 - **扩散特征做语义对应**这一范式非常有价值——不仅可用于部件分割，还可扩展到其他需要cross-instance语义匹配的任务（如人体解析、医学图像的器官对应）
-- 与 `ideas/segmentation/20260317_diffusion_sapiens_human_parsing.md` 直接相关：该idea也是利用扩散模型特征做零标注分割，3-By-2的mask级标签迁移和非重叠mask策略可直接借鉴
-- 与 `ideas/medical_imaging/20260316_2d_to_3d_medical_distill.md` 有相似思路：都是利用2D预训练模型的能力解决3D标注不足问题
 - 跨类别部件迁移的发现启发了一个方向：能否建立统一的"部件词汇表"跨所有物体类别？
 
 ## 评分

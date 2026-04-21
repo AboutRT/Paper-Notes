@@ -87,7 +87,6 @@ $$\mathcal{L}_T = \lambda_{rgb}\mathcal{L}_{rgb} + \lambda_{KEA}\mathcal{L}_{KEA
 - **KEA仅支持二分类**（前景/背景），无法处理多个编辑区域需要不同编辑的场景
 - 位姿估计精度可能不如COLMAP，尤其在大视角变化或纹理稀疏的场景
 - 未来方向：(1) 替换IP2P为更强的编辑模型（如InstructDiffusion）；(2) 扩展KEA到多类别支持多区域编辑；(3) 引入全局attention一致性替代自回归的序列依赖
-- → 可关联 [ideas/3d_vision/20260316_text_guided_4d_editing.md](../../../ideas/3d_vision/20260316_text_guided_4d_editing.md)
 
 ## 与相关工作的对比
 - **vs IN2N (Instruct-NeRF2NeRF)**：IN2N需COLMAP位姿+原始场景初始化+逐帧迭代编辑（285min），且编辑局部性差（易整体变色）。3DEgo无需COLMAP和初始化（25min），且通过KEA实现精确局部编辑。但IN2N在已有COLMAP位姿的标准场景上几何质量可能更好
@@ -95,8 +94,6 @@ $$\mathcal{L}_T = \lambda_{rgb}\mathcal{L}_{rgb} + \lambda_{KEA}\mathcal{L}_{KEA
 - **vs DATENeRF / GaussCtrl**：这些方法同样试图解决多视角编辑一致性问题，但都依赖COLMAP位姿。3DEgo的noise blender是更轻量的一致性方案，且免去了COLMAP依赖
 
 ## 启发与关联
-- 自回归噪声混合的思路与 [20260316_text_guided_4d_editing.md](../../../ideas/3d_vision/20260316_text_guided_4d_editing.md) 中的4D场景编辑时空一致性问题直接相关 — 噪声混合可以扩展到时间维度
-- [20260317_diffusion_view_augment_3dgs.md](../../../ideas/3d_vision/20260317_diffusion_view_augment_3dgs.md) 中的扩散增强3DGS思路与本文的"先编辑后重建"范式可以互补：3DEgo的noise blender可用于保证扩散生成视角的一致性
 - KEA identity的设计思路（为高斯点附加语义属性并用JSD正则化）可以推广到开放词汇3D理解场景
 - COLMAP-free重建+编辑的统一框架为"端到端3D内容创作"提供了范式参考
 

@@ -125,7 +125,6 @@ NA-MVP包含两个核心模块协同工作：
 - UOT在噪声环境中的"放松匹配"思想可迁移到其他噪声场景（如目标检测中的噪声标注、医学图像分割中的不精确标注）
 - "隐式负样本"优于"显式负标签"的结论对NLP中的对比学习也有启发
 - 双向prompt的设计思路可扩展为"多维度prompt"（如clean/noisy/ambiguous三向）
-- 已有相关idea引用此论文：[Verifier Pseudo Label for Open World Detection](../../ideas/object_detection/20260316_verifier_pseudo_label_open_world.md)
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 将UOT引入prompt-based噪声标签学习是新颖的，双向多视图设计有独到之处

@@ -89,7 +89,6 @@ MLLM中视觉token数量远超文本token，且自然视觉信号固有冗余度
 - **vs ToMe**: ToMe用fixed K=1→信息稀释严重；FiCoCo用token-adaptive K+self-preserving compression→保留核心信息
 
 ## 启发与关联
-- 与 `ideas/model_compression/20260316_task_aware_token_compression.md` 高度相关——FiCoCo的task-aware FiCoCo-L设计正是这个方向的实现
 - "attention-in as redundancy"的视角可以推广到ViT pruning、视频理解等场景
 - 信息回收机制可能可以与EM-KD的Hungarian匹配结合——在蒸馏中也做被丢弃token的信息重分配
 - **Idea触发**：FiCoCo的冗余指标和回收机制是静态的（逐层独立），能否设计一个全局跨层的token importance预测器？

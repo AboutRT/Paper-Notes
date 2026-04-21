@@ -82,7 +82,6 @@ Agent-SAMA是一个多Agent框架，包含四个阶段：规划（Planning）→
 - **vs AgentS2/V-Droid**：这些是AndroidWorld上的强baseline（54.3%/59.5%），Agent-SAMA以63.7%超越，且Agent-SAMA更侧重跨App长链任务
 
 ## 启发与关联
-- **与已有idea的直接关联**：ideas/llm_nlp/20260317_hierarchical_fsm_gui_agent.md 提出了层次化FSM + 嵌入式状态匹配的思路，正是针对本文的两个核心瓶颈（扁平FSM的状态爆炸 + LLM文本匹配的开销）。本文的实验结果（state beacon的有效性、跨App独立FSM设计）进一步验证了层次化改进的可行性
 - **FSM作为通用Agent记忆层**：本文论证了FSM可以作为"轻量级、模型无关的记忆层"——这个思路可以推广到Web Agent、桌面端Agent甚至具身Agent中
 - **LLM-as-Judge用于计划选择**：生成多个候选计划再用Judge打分选择，比单次生成更鲁棒，这个设计模式在其他Agent场景（如代码生成、科研自动化）中也值得借鉴
 - **Pre/Post Condition的形式化思路**：来自传统软件工程的契约式设计（Design by Contract），在LLM Agent中重新焕发价值

@@ -93,7 +93,6 @@ SEAG 由三个阶段组成，形成一个完整的推理 pipeline：
 - **vs CoT-SC (Wang et al., 2023)**：CoT-SC 简单高效但上限有限（只做线性搜索+投票）。SEAG 通过 AG 实际上只在难题上比 CoT-SC 多做搜索，在简单题上退化为 CoT-SC，兼顾了两者优势
 
 ## 启发与关联
-- 与 [Adaptive CoT Compression for Reasoning-based IE](../../../ideas/llm_nlp/20260317_adaptive_cot_compression_ie.md) 的核心思想高度一致——根据输入难度自适应调节推理深度/复杂度。SEAG 的 entropy 门控机制可以直接启发 NER 任务中的自适应推理链长度控制
 - "语义聚类去重"的思路可推广到任何需要多路径采样的场景（如 Best-of-N sampling, reward model 训练数据去重等）
 - 加权聚合奖励的设计（大簇 = 更可信）本质是一种 soft self-consistency，比硬投票更 nuanced
 

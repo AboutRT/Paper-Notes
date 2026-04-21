@@ -186,9 +186,6 @@ BBSplat是唯一基于2DGS同时支持任意形状、RGB纹理和存储压缩的
 - **纹理作为offset的思路**可推广到动态场景——在4D Gaussian中用时间相关的纹理偏移表示动态外观变化
 - **可见性加权正则化**的思路具有通用性，可应用于其他需要防止过拟合的基于基元的表示
 - billboard的显式平面性质天然支持编辑（移动、删除、纹理修改）和物理效果（反射、折射），为交互式场景编辑开辟路径
-- 相关idea: [多尺度光照场3DGS](../../../ideas/3d_vision/20260317_multiscale_illumination_field_3dgs.md) — BBSplat的纹理设计可作为照明分解的载体
-- 相关idea: [图自回归3DGS编辑](../../../ideas/3d_vision/20260317_graph_autoregressive_3dgs_edit.md) — BBSplat的显式纹理+平面结构特别适合3D编辑任务
-- 相关idea: [物理引导透明场景补全](../../../ideas/3d_vision/20260317_physics_guided_transparent_scene_completion.md) — BBSplat的alpha贴图可更好地处理透明物体的部分遮挡
 
 ## 评分
 

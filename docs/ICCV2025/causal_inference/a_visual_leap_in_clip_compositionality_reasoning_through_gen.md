@@ -298,7 +298,6 @@ GCS微调后在20个分类数据集上的linear probing性能与原始CLIP几乎
 ## 启发与关联
 - **Block-based diffusion → 检测/分割数据增强**: 将实体视为独立可操纵的拼图块的思想，可迁移到目标检测场景，自动生成不同物体组合/布局/遮挡关系的训练图像
 - **集合结构化损失 → 通用方法论**: 当训练数据天然具有分组结构时，将组内精细对比+组间粗粒度对比的损失分解是一种高效且通用的设计模式
-- **与[层次化反事实推理idea](../../../ideas/multimodal_vlm/20260317_hierarchical_counterfactual_reasoning.md)直接相关**: 本文的生成pipeline是该idea的基础设施，可在此基础上引入课程学习和层次化margin
 
 ## 评分
 - **新颖性**: ⭐⭐⭐⭐ — block-based diffusion和集合损失均为有意义的新贡献，"拼图"思想直觉且有效

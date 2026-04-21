@@ -111,7 +111,6 @@ tags:
 - 目前仅在 Unitree G1 上验证零样本部署，是否适用于其他机器人形态（双足/四足/人形但不同尺寸）待验证
 - 扩散模型的生成多样性可能因 DPO 微调而收缩（DPO 的 mode collapse 风险）
 - 支配规则偏好构造虽然避免了权重调参，但可能导致可用偏好对数量不足——当 $K$ 个候选中无法找到每个奖励都更好的pair时
-- **Idea → 见 `ideas/llm_alignment/20260320_sim_as_reward_for_any_generation.md`**：PhysMoDPO 的核心思路——"用不可微的仿真/验证器作为偏好信号源"——可以推广到其他生成任务（如代码生成用编译器+测试作为奖励，3D生成用物理引擎作为奖励）
 
 ## 相关工作与启发
 - **vs ReinDiffuse/HY-Motion**: 它们用手工定义的 floating/sliding 奖励 + PPO/GRPO 做 RL，PhysMoDPO 用 WBC 仿真器作为奖励源 + DPO。核心区别是奖励信号的来源——手工 heuristics 难以覆盖质心异常等复杂物理动态，WBC 仿真则全面覆盖

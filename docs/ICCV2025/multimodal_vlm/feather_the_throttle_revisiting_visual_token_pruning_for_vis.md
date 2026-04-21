@@ -83,7 +83,6 @@ FEATHER完全是training-free的推理时方法，不需要额外训练或微调
 
 ## 启发与关联
 - RoPE在跨模态场景中的位置偏差问题可能普遍存在，值得在其他多模态任务中检验
-- 对benchmark的批判与ideas/multimodal_vlm/中关于VLM评估的思考相关
 - 两阶段渐进式剪枝的思路可以迁移到视频VLM的temporal token剪枝
 
 ## 评分

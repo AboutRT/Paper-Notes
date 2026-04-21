@@ -112,7 +112,6 @@ SCORE包含三个分支：
 - **vs GSNet/OVRS**：这两篇做OV遥感语义分割，GSNet融合通用和遥感backbone的特征，OVRS考虑物体朝向。但它们都局限于语义分割，SCORE首次将OV扩展到实例分割，且在语义分割任务上也能超越它们
 
 ## 启发与关联
-- **与频率提示SAM的关联**：[unified_freq_prompt_sam](../../ideas/segmentation/20260316_unified_freq_prompt_sam.md) 中提到遥感是SAM的困难场景之一。SCORE的区域上下文思路可以与SAM结合——用RemoteCLIP的区域特征作为SAM的prompt来改善遥感分割
 - **跨域泛化的思路通用**：RAI的"利用物体周围环境来辅助识别"思路不限于遥感，在医学图像中（器官与周围组织的关系）、自动驾驶中（车辆与道路/停车场的关系）也可能有效
 - **遥感OV检测方向**：SCORE只做了分割，SCORE的区域上下文思路可以直接迁移到遥感OV目标检测任务
 

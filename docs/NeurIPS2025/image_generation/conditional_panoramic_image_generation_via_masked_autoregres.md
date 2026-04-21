@@ -140,7 +140,6 @@ PAR基于掩码自回归建模（MAR），整体pipeline为：
 与PanoLlama/Text2Light等AR方法相比，PAR使用MAR而非raster-scan，支持任意位置生成，且质量远超（FID 37.37 vs 103.51/70.42）。
 
 ## 启发与关联
-- 与[分层4K全景分割用于具身智能的空间推理增强](../../../ideas/segmentation/20260316_panoramic_spatial_reasoning.md)相关：PAR生成的高质量全景图可作为具身智能训练的数据增强来源
 - MAR框架的灵活性（通过控制$\mathcal{S}_k$统一多任务）可迁移到其他需要统一条件/非条件生成的场景
 - 循环平移一致性的思路可推广到其他具有等变性先验的数据（如球面数据、周期信号等）
 - 双空间padding的思路可用于其他需要VAE处理周期性/循环边界数据的场景

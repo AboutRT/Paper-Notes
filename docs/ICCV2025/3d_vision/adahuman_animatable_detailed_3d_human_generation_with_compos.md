@@ -115,9 +115,7 @@ AdaHuman是一个两阶段pipeline：
 - **vs IDOL/LHM（同期工作）**：IDOL和LHM走前馈路线追求效率，AdaHuman基于扩散模型利用更强的生成先验，牺牲速度换取更高的生成质量。
 
 ## 启发与关联
-- **与[扩散模型幻想视角增强3DGS](../../../ideas/3d_vision/20260317_diffusion_view_augment_3dgs.md)的关联**：AdaHuman的"扩散过程中进行3DGS重建"和该idea的"扩散增强稀疏视角3DGS"思路类似，都是用扩散模型弥补视角稀疏的问题。AdaHuman进一步证明了在扩散步骤中嵌入3D重建（而非后处理式重建）的有效性。该idea中关于不确定性加权（对幻想视角施加方差估计权重）的思想，或可引入AdaHuman的组合策略中。
 - **组合式细化的通用性**：crop-aware ray map + visibility-aware composition的方案不局限于人体，理论上可扩展到任何需要多尺度3DGS重建的场景（如大场景中的细节物体重建）。
-- **与[过程感知对齐](../../../ideas/image_generation/20260316_process_aware_alignment.md)的关联**：AdaHuman在扩散过程的中间步骤引入3D约束，本质上也是一种过程感知的生成策略。若将过程感知的偏好对齐引入avatar质量评估，可能进一步提升细节质量。
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 姿态条件联合扩散+组合式3DGS细化的双重创新有明确技术贡献，但联合扩散框架基于H3D的扩展

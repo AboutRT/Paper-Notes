@@ -131,8 +131,6 @@ BUFFER-X的pipeline分三个阶段：
 ## 启发与关联
 - **自适应参数设计的通用思路**：几何bootstrapping的PCA球度判别方法可迁移到其他3D任务中自适应设定超参数（如3D检测中的anchor size、3DGS中的椭球初始化等）
 - **"去掉学习模块反而更好"的启示**：在域泛化场景中，学习型模块可能成为负担——这对3D视觉各任务的零样本/跨域方案设计都有参考价值
-- **与医学图像配准的idea关联**：ideas/medical_imaging下的配准相关idea（如hash加速神经形变场、correspondence-aware registration）虽然是非刚体配准，但BUFFER-X的patch级归一化和跨尺度一致性思想可能可以迁移
-- **跨传感器泛化的Benchmark思路**：与ideas/remote_sensing/llm_guided_universal_sensor_adaptation.md中的跨传感器泛化创意有相通之处——不同传感器产生不同域的数据，自适应方法是关键
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 各模块单独看并不新颖（PCA、FPS、SpinNet都是已有技术），但问题分析深入，组合方式巧妙，"零样本配准"这个目标的系统性达成是首次

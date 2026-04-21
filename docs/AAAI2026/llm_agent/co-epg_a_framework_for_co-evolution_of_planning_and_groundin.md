@@ -177,7 +177,6 @@ Co-EPG是一个自迭代训练框架，核心是建立Planning和Grounding之间
 - **vs Agent-SAMA**（AAAI 2026）：Agent-SAMA用状态感知的FSM做GUI导航决策但不涉及训练优化，更偏工程设计。Co-EPG聚焦训练范式创新。
 
 ## 启发与关联
-- 与ideas中的 [Hierarchical FSM GUI Agent](../../../ideas/llm_nlp/20260317_hierarchical_fsm_gui_agent.md) 想法相关：Co-EPG的P-G解耦思路可以和层次化FSM结合——上层FSM做任务级规划，下层用Co-EPG的方式训练每个App的Planning-Grounding模块
 - **协同进化的思路可迁移**：不仅限于GUI Agent，任何可以分解为"策略+执行"的任务（如机器人操作中的高层规划+低层控制）都可以借鉴这种正反馈循环
 - **C-DREM的思路有通用价值**：用多个模型的置信度加权做奖励集成，可以推广到其他RL-from-AI-feedback的场景
 

@@ -143,16 +143,7 @@ GlobalCom²的设计理念是"**全局到局部**"（global-to-local）的层级
 
 ## 启发与关联
 
-**与ideas/目录的关联**：
-
-1. **[Cross-Layer Token Budget Allocation](../../../ideas/model_compression/20260318_cross_layer_token_budget_allocation.md)**：该idea关注跨层的token预算分配，而GlobalCom²关注跨crop的预算分配。两者高度互补——GlobalCom²的自适应调整可以作为"层间"分配策略的"层内"子模块。**具体组合方案**：在每一层使用GlobalCom²的crop-level budgeting，同时跨层使用learned budget allocation，形成"层间+crop间"的双重自适应。
-
-2. **[Task-aware Token Compression](../../../ideas/model_compression/20260316_task_aware_token_compression.md)**：GlobalCom²的全局-局部混合系数$\alpha$是固定的，而该idea提出多目标token重要性评分。可以将$\alpha$替换为task-adaptive的混合机制——理解任务增大全局权重、检测/grounding任务增大局部权重。
-
-3. **[Adaptive Multi-Granularity KV Compress](../../../ideas/model_compression/20260318_adaptive_multi_granularity_kv_compress.md)**：GlobalCom²在token维度压缩，该idea在KV cache维度压缩。两者可以级联——先用GlobalCom²在vision encoding阶段减少token数，再用KV cache压缩进一步减少内存占用。
-
 **新启发**：
-- GlobalCom²的"负余弦相似度"方案（$s_i = -\cos(\mathbf{x}_i, \mathbf{g})$）本质上是在衡量token的**信息独特性/不可替代性**。这和信息瓶颈理论中的"信息量=编码到目标的互信息"有关联——可以考虑用信息瓶颈框架严格化这个直觉，为ideas/中的IB-based token compression提供理论支撑。
 - 位置偏差的发现提示：任何在LLM内部做question-aware压缩的方法都可能受此影响，应该在评估时加入"crop顺序对照实验"作为标准sanity check。
 
 ## 评分

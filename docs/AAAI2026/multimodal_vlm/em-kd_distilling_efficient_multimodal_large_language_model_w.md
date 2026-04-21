@@ -78,7 +78,6 @@ EM-KD以LLaVA-OneVision-SI为teacher，以自适应平均池化压缩视觉token
 - **vs FastV/PyramidDrop**: 这些training-free剪枝方法与Flash Attention不兼容导致加速效果有限，EM-KD的training-based压缩能充分利用加速算子
 
 ## 启发与关联
-- 与 `ideas/model_compression/20260316_task_aware_token_compression.md` 高度相关——可以将EM-KD的蒸馏策略与任务感知的token压缩结合
 - Vision logits作为统一语义空间的思路，可能可以扩展到跨模态检索、多模态融合等场景
 - Hungarian匹配策略可以用于其他不对齐场景的知识迁移，如不同分辨率的特征图蒸馏
 

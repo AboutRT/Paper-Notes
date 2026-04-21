@@ -135,7 +135,6 @@ TokenBridge颠覆了传统"在tokenizer训练中引入量化"的范式，改为*
 ## 启发与关联
 - 后训练量化的思路可以迁移到视频生成——视频VAE的连续特征同样可以后量化离散化，实现高效自回归视频生成。
 - 维度级AR分解思想可以用于VLM中的视觉token预测，减少visual vocabulary size的压力。
-- 与 [task_aware_token_compression](../../../ideas/model_compression/20260316_task_aware_token_compression.md) idea有关：TokenBridge展示了token表示形式的灵活转换，这种"连续↔离散"的桥接思想可能启发更灵活的token压缩策略。
 - 置信度引导生成的能力暗示了一种新的可控生成范式——不需要额外的控制模块，直接利用离散预测的概率分布做生成控制。
 
 ## 评分

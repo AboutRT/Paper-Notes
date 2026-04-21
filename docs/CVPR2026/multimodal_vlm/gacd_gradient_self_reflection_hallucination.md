@@ -89,7 +89,6 @@ LLaVA-QA90: GACD(accuracy 6.20, detail 5.13) vs VCD(4.15, 3.85) vs base(3.23, 3.
 
 ## 启发与关联
 - 与Overthinking论文互补：Overthinking关注层间动态（横向/深度），GACD关注token级影响力（横向/模态）。二者可能结合：用LogitLens检测overthinking位置，然后在该位置用GACD的梯度归因做精确的token影响力重分配
-- 与`ideas/multimodal_vlm/20260318_overthinking_guided_adaptive_inference.md`直接相关——GACD的梯度影响力估计可以作为该idea中"自适应head rescaling"的更精细信号来源
 - 共现偏差的"共享最有影响力视觉token"发现启发了一个潜在idea：**共现解缠预训练**——在训练时显式分离共现物体对的视觉表示
 
 ## 评分

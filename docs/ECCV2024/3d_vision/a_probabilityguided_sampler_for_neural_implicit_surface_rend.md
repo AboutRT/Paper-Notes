@@ -100,7 +100,6 @@ tags:
 
 ## 启发与关联
 - **采样策略的普适价值**：概率引导的采样思想不局限于NeuS——任何需要在大空间中进行采样的方法都可能受益。例如3DGS的致密化策略、视频NeRF的时间采样等
-- **与ideas/model_compression/20260316_nucleus_attention_vision_transformer.md的概念关联**：该idea将nucleus sampling（top-p）思想用于ViT的token pruning——与本文将概率引导用于光线采样有异曲同工之妙，核心都是"把计算集中在重要的地方"
 - **投影空间建模可迁移**：3D投影空间中的PDF建模思路可以扩展到其他任务，如自监督深度估计中的像素采样、语义分割中的难样本挖掘等
 
 ## 评分

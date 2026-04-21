@@ -88,7 +88,6 @@ AdaLog作用于标准ViT block中的post-Softmax层(MatMul2)和post-GELU层(FC2)
 - 3-bit下绝对精度仍然不高（ViT-S仅13.88%），实用性有限，2-bit几乎不可用
 - 对数底的搜索范围和$r$值的选择缺乏理论指导，依赖经验设定
 - 未探索与QAT结合的可能性——AdaLog的非均匀量化函数是否可微？
-- → 可延伸到 [注意力感知混合精度量化](../../ideas/model_compression/20260316_attention_aware_quant.md)：不同注意力区域用不同对数底/bit-width
 
 ## 与相关工作的对比
 - **vs RepQ-ViT (ICCV 2023)**: RepQ-ViT用固定log√2底+scale重参数化，但反量化需要逐元素浮点乘法，硬件不友好；AdaLog底可搜索且完全整数推理。W4A4下AdaLog平均高5.13%
@@ -96,9 +95,6 @@ AdaLog作用于标准ViT block中的post-Softmax层(MatMul2)和post-GELU层(FC2)
 - **vs FQ-ViT (IJCAI 2022)**: 提出log₂量化器的开创性工作，但固定底的局限性在低bit下暴露无遗
 
 ## 启发与关联
-- **对注意力感知量化idea的启发**: AdaLog证明了非均匀量化在处理ViT特殊激活分布上的核心优势。我们的[注意力感知混合精度量化](../../ideas/model_compression/20260316_attention_aware_quant.md)idea可以在此基础上更进一步——不同attention head/不同空间区域使用不同的AdaLog底，让量化精度与注意力重要性自适应匹配
-- **对SVD-量化联合设计的参考**: [SVD-Quantization Co-Design](../../ideas/multimodal_vlm/20260316_svd_quant_dense_prediction_vlm.md)中，AdaLog可作为密集预测VLM的激活量化方案之一，特别是在attention层的post-Softmax量化上
-- **对医学量化的参考**: [无解码器蒸馏量化](../../ideas/model_compression/20260317_decoder_free_quant_medical.md)中，AdaLog可用于编码器中的Transformer层量化，改善编码器的激进量化精度
 - FPCS的渐进搜索思想可迁移到任何需要多超参联合搜索的量化场景
 
 ## 评分

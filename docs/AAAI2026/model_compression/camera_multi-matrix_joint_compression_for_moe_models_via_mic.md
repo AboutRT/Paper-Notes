@@ -90,7 +90,6 @@ Camera-Q（2.25-bit平均）在Deepseek-MoE-16B上均分56.56 vs GPTQ 53.45 vs M
 ## 启发与关联
 - 微专家视角可以扩展到分析VLM中的视觉expert冗余——与EM-KD中的token压缩互补
 - 能量排序的思路可以用于动态推理：按输入动态选择高能量微专家子集
-- 与 `ideas/model_compression/20260316_adaptive_model_routing.md` 相关——微专家粒度的动态路由
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐⭐ 微专家概念是genuinely original的贡献，为MoE理解提供了新视角

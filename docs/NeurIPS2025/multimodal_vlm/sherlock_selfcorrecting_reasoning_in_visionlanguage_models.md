@@ -101,7 +101,6 @@ tags:
 - vs **VL-Rethinker**：RL-based但自纠正也失败（<10% aha），说明RL alone不够
 
 ## 与我的研究方向的关联
-- 与ideas/multimodal_vlm/20260316_causal_process_reward_vision.md相关——Sherlock证明过程级（轨迹级）信号比结果级更有效
 - 与NoisyRollout互补：NoisyRollout在RL阶段加视觉扰动做exploration，Sherlock在偏好学习阶段用视觉扰动做数据构造，可组合
 - "自纠正即free lunch"的发现很有启发——任何推理VLM都应该配备self-correction training
 

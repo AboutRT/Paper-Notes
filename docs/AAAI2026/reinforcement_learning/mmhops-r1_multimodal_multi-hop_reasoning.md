@@ -86,8 +86,6 @@ MMhops-R1 包含两部分：(1) MMhops 数据集的构建；(2) 基于 RL 的动
 ## 启发与关联
 - 动态 mRAG + RL 的范式可以迁移到其他需要多步外部交互的任务（如复杂代码生成、科学推理）
 - 门控奖励设计（工具使用奖励被答案正确性门控）是一个通用的 RL reward shaping 技巧
-- 与 `ideas/multimodal_vlm/20260318_vhd_adaptive_visual_reinjection.md` 中的视觉信息动态注入思想有潜在关联
-- 与 `ideas/llm_nlp/20260317_retrieval_reasoning_decoupled_lct.md` 中检索与推理解耦的思路互补
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 第一个将 RL 应用于多模态多跳 RAG，数据集构建方法系统且可扩展

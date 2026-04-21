@@ -92,7 +92,6 @@ tags:
 - **vs Voxelmorph / Transmorph / Diffusemorph (base models)**：AdaCS 不改变这些模型本身的架构，仅通过训练策略改善，是正交且互补的改进
 
 ## 启发与关联
-- 与 [Hash-Accelerated Neural Deformation Fields](../../ideas/medical_imaging/20260317_hash_accelerated_neural_deformation.md) 直接相关：AdaCS 解决的是配准训练中的噪声梯度问题，如果将 hash grid 用于形变场表示，hash collision 带来的训练不稳定性同样可以借鉴 AdaCS 的评分加权思路来缓解
 - 对应关系评分的思想可以推广到其他依赖重建损失的无监督学习任务（光流估计、深度估计、点云配准等）
 - 训练时用额外网络辅助、推理时丢弃的设计模式在其他领域也有价值（类似 knowledge distillation 的 teacher-student 思路，但更轻量）
 - 动量引导权重调度是一个通用的训练 trick，可迁移到其他需要渐进正则化的场景

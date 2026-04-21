@@ -90,7 +90,6 @@ CogVideoX-2B：同样无损加速1.40×（41.35→29.64s），VBench持平。
 ## 启发与关联
 - LinVideo的"自动选择哪些层线性化"与MoDES的"自动选择哪些expert跳过"思路一致——都是将离散选择转化为可学习的连续优化
 - ADM的"不仅匹配最终分布,而是匹配全轨迹"思想可推广到其他生成模型蒸馏场景——如图像扩散模型蒸馏
-- 与`ideas/image_generation/20260316_dit_compression_understanding.md`相关——该idea探索DiT压缩,LinVideo提供了线性注意力替换的具体方案
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐⭐ 选择性转移+ADM+data-free三个创新点均为新贡献,组合效果惊人

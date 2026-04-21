@@ -259,7 +259,6 @@ D2C在512²、CIFAR-10上也work：CIFAR-10 gFID 3.95 (random 9.72)。
 
 ## 启发与关联
 - "扩散难度分数"概念可推广到其他生成模型的数据选择——如自回归模型、VAE
-- 与`ideas/image_generation/20260316_dit_compression_understanding.md`相关——D2C从数据侧减少训练成本,该idea从模型侧压缩,二者正交
 - **潜在idea**: 将D2C的Select策略用于**持续学习**——当新数据到来时,仅选择最有信息量的样本来增量更新扩散模型
 
 ## 评分

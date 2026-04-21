@@ -114,7 +114,6 @@ HETrack 基于 Deformable DETR 架构，使用 ResNet50 做视觉骨干、RoBERT
 - **数据集对比**：AerialMind 的表达式数量（24.6K）、实例数（293.1K）、bbox 标注量（46.14M）均远超所有已有 RMOT 数据集
 
 ## 启发与关联
-- 与 ideas 中的 [预测即感知 (PAP) 小目标检测](../../ideas/object_detection/20260317_prediction_perception_small_det.md) 相关：该 idea 同样使用 VisDrone/UAVDT 数据集，AerialMind 的 SACR 模块也关注小目标感知，两者可互相借鉴
 - COALA 标注框架的 Agent 协作思想可迁移到其他视频理解任务的标注效率提升
 - CFE 的"共进化"融合范式对任何需要跨模态对齐的任务（如 referring segmentation、VQA）都有参考价值
 

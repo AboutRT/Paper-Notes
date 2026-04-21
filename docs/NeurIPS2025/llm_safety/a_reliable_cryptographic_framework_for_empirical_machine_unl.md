@@ -100,7 +100,6 @@ $$\text{Adv}(\mathcal{A}, \text{Ul}) = \frac{1}{|\mathcal{S}_\alpha|} \left| \su
 - **vs Brimhall et al. (2025) Computational Unlearning**：类似的密码学启发，但在不可区分性博弈中比较retrained和unlearned模型，技术假设不同
 
 ## 启发与关联
-- 与 `ideas/ai_safety/20260316_structure_faithful_unlearning.md` 直接相关——该idea中"遗忘验证协议"可以考虑采用本文的SWAP test框架作为评估标准
 - SWAP test的对称性设计思想可以迁移到其他对比评估场景（如数据增强的有效性评估）
 - 如果要做面向大语言模型的遗忘评估，需要解决非i.i.d.遗忘的理论推广问题，这可能是一个重要的研究方向
 

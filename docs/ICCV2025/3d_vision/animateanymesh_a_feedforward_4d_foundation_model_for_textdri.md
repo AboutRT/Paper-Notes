@@ -124,8 +124,6 @@ AnimateAnyMesh由三部分组成：
 - **vs L4GM** (单视角视频重建): L4GM受限于视频生成器质量，对无背景的3D物体渲染效果差，30秒但用户评分低。AnimateAnyMesh在潜空间直接建模运动分布，不依赖视频生成
 
 ## 启发与关联
-- 与[TTT for 4D Dynamics](../../ideas/3d_vision/20260316_ttt_4d_dynamics.md)的关联：AnimateAnyMesh生成的动画仅限于16/32帧，而TTT-4D ideas提到通过测试时训练外推4D动力学到更长时间。一个自然的扩展是将AnimateAnyMesh生成的短序列作为初始条件，用TTT策略在线外推到更长的动画序列
-- 与[4D场景编辑](../../ideas/3d_vision/20260316_text_guided_4d_editing.md)的关联：AnimateAnyMesh关注动画生成，而4D编辑关注已有动态场景的文本引导修改。两者可互补——先用AnimateAnyMesh生成动画，再用4D编辑方法精细调整
 - **Feed-forward范式的延伸**：本文证明了前馈式4D生成的可行性，其DyMeshVAE中拓扑感知压缩的思想可迁移到其他需要处理不规则拓扑结构的任务（如分子动力学、布料模拟）
 
 ## 评分

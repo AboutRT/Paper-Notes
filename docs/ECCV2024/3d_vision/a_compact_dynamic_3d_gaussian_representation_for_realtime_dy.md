@@ -86,7 +86,6 @@ tags:
 - **旋转建模过于简单**: 仅用线性逼近旋转四元数，对复杂旋转运动（如翻转、旋转物体）表达力不足。可考虑用球面线性插值(SLERP)或更高阶的四元数逼近
 - **继承3DGS的固有缺陷**: 对不准确的相机位姿敏感、泛化性不如NeRF的连续神经场。作者提到可以像PlenOctree一样从NeRF蒸馏到本表示来提升
 - **缩放固定假设**: 假设物体不会膨胀/收缩在大多数场景下成立，但对于气球充气、纸张展开等场景会失效
-- → 可链接到 [ideas/3d_vision/20260317_full_attribute_temporal_rectification_4dgs.md](../../../ideas/3d_vision/20260317_full_attribute_temporal_rectification_4dgs.md)（全属性时序校正）
 
 ## 与相关工作的对比
 - **vs Dynamic 3D Gaussians (Luiten et al.)**: D-3DGS在每个时间步独立存储位置和旋转，空间复杂度O(TN)。本文用函数逼近将其压缩到O(LN)，在D-NeRF上PSNR从17.22提升到32.19（D-3DGS在单目场景完全失败），内存从913MB降到159MB
@@ -94,8 +93,6 @@ tags:
 - **vs 4D Rotor GS / Spacetime GS**: 同期工作用不同方式扩展3DGS到动态场景。4D-Rotor通过时间切片在局部时间区间建模，SpacetimeGS结合MLP。本文保持纯3DGS表示+解析函数，更简洁且支持直接编辑
 
 ## 启发与关联
-- **与TTT-4D idea的关联**: 本文的Fourier逼近在训练范围外的外推能力有限（周期函数会简单重复），这正是[TTT-4D动力学外推](../../../ideas/3d_vision/20260316_ttt_4d_dynamics.md)要解决的问题——D-NeRF/HyperNeRF数据集可直接复用
-- **与全属性时序校正的关联**: 本文只让位置和旋转随时间变化，[FATR idea](../../../ideas/3d_vision/20260317_full_attribute_temporal_rectification_4dgs.md)进一步提出让SH颜色、缩放等也做时序校正，可看作本文的自然扩展
 - **函数逼近的通用性**: Fourier逼近位置的思路可以迁移到其他需要紧凑时序建模的任务（如动态点云压缩、4D占据预测），核心洞察是"用基函数编码时间维度比存储每帧参数更高效"
 - **光流监督作为通用trick**: 从显式点表示推导伪光流用于时序正则化，这个设计可以用于任何基于显式点的动态表示方法
 

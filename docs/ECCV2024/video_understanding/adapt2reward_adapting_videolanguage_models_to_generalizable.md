@@ -88,7 +88,6 @@ tags:
 - **vs LIV**: LIV 通过跨模态 embedding + 时间一致性学习奖励，但没有利用失败数据的结构。Adapt2Reward 的 failure prompt 机制提供了更细粒度的成功/失败区分能力
 
 ## 启发与关联
-- **Failure prompt 的思路可以扩展到 VLM 推理评估**: 当前 VLM 推理奖励模型大多只看"对/错"，而 failure prompt 的思路可以用于建模"错误的不同原因"——与 [因果过程奖励用于多模态推理](../../../ideas/multimodal_vlm/20260316_causal_process_reward_vision.md) 有呼应
 - **跨域对比学习 + 域特定 prompt 的范式**: 可以应用于 VLM 的 zero-shot 迁移场景，如医学图像（有大量自然图像预训练但医学数据少）
 - **可学习 prompt 池 + 聚类**: 这个模式在 continual learning 和 domain adaptation 中也有潜力
 

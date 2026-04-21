@@ -117,7 +117,6 @@ tags:
 - **vs PHC/PHC+**：PHC能仿真AMASS中几乎所有运动，但不能处理野外高难度运动；本文通过TTA突破了这个限制
 - **vs PhysPT**：PhysPT用物理感知Transformer做自监督学习，但对高难度运动分布缺乏理解，修复效果差
 - **vs DiffPhy/SimPoE**：需要精细调参且对运动类型敏感，难以泛化
-- 与 ideas 关联：[TTA Motion Generation with Physical Plausibility](../../ideas/human_understanding/tta_motion_generation_physical_plausibility.md) 正是此方法的扩展思路
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ Pretrain+TTA的运动仿真范式是新颖的，MCM的mask-guided修复也有独到之处

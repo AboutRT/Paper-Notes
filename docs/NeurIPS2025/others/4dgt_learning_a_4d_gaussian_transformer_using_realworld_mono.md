@@ -119,8 +119,6 @@ tags:
 - **vs 4DSTR/4DGC等4D方法**: 4DGT的核心优势在于前馈推理+真实世界训练，而非依赖合成数据或逐场景优化
 
 ## 启发与关联
-- 与[全属性时序校正idea](../../ideas/3d_vision/20260317_full_attribute_temporal_rectification_4dgs.md)有关联：4DGT的4D高斯参数设计（ms3多度速度衰减、omega角速度）提供了一种参考方案，其ms3_deg_downmax_mult的decay设计可以启发层级时序窗口的设计
-- 与[TTT用于4D动力学外推idea](../../ideas/3d_vision/20260316_ttt_4d_dynamics.md)有关联：4DGT的滚动窗口推理机制存在窗口间一致性问题，如果引入TTT进行在线自适应更新，可能改善长视频的时序一致性
 - **Magic Filter的密度控制思路**可以迁移到其他token-heavy的视觉任务中——基于激活度/重要性裁剪不活跃token是一种通用的效率提升策略
 - DINOv2作为冻结backbone + 轻量Transformer fusion的架构模式在这类feed-forward 3D生成任务中持续证明有效
 

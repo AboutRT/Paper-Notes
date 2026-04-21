@@ -108,7 +108,6 @@ GDTM(Blur, 8层)：ADMN定位误差~11cm，接近上界(9.4cm)，而减少75% FL
 
 ## 启发与关联
 - 层分配的QoI感知思路可迁移到VLM：如低质量图像给视觉encoder少分配层，高质量文本给LLM多分配层
-- 与 [ideas/model_compression/20260318_cross_layer_token_budget_allocation.md](../../../ideas/model_compression/20260318_cross_layer_token_budget_allocation.md) 直接相关——ADMN按模态分配层，该idea按层分配token预算
 - AE初始化的QoI聚类可用于自动检测传感器退化——不需要显式标注
 
 ## 评分

@@ -88,7 +88,6 @@ LLaVA-CoT基于Llama-3.2-11B-Vision-Instruct进行微调。输入为图像和问
 
 ## 启发与关联
 - 结构化推理标注的方法可以启发其他VLM任务（如视觉定位、图像描述）的数据构建
-- SWIRES的阶段级搜索思路可以与ideas/multimodal_vlm/中的推理验证相关idea结合
 - test-time scaling在VLM中的有效性值得进一步探索
 
 ## 评分

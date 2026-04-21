@@ -98,7 +98,6 @@ $$\mathcal{L} = CE(p_t, y_t) + \alpha \cdot \mathcal{L}_c(p_t, s_{t-1})$$
 - **vs OAT**: OAT 属于 TAL-extension 方法，允许在动作结束时回溯确定开始时间（约束更宽松），因此在小数据集（THUMOS14）上 mAP 更高。但在大规模数据集上训练不稳定（FineAction 需降采样才能工作），且依赖类别信息和手动阈值。ActionSwitch 在更严格约束下仍有竞争力，且天然支持 ODAS 任务。
 
 ## 启发与关联
-- **与流式视频场景图 idea 的关联**: [streaming_world_scene_graph](../../../ideas/video_understanding/20260316_streaming_world_scene_graph.md) 中的流式视频理解框架可以借鉴 ActionSwitch 的有限状态机思路——将场景图的状态转换也建模为有限状态机，用 conservativeness loss 确保场景图更新的时序平滑性。
 - **Conservativeness loss 的迁移价值**: 适用于任何从帧级预测到实例级输出的场景，如视频目标分割中的 mask 连续性、视频问答中的注意力聚焦稳定性等。
 - **Class-agnostic + 后分类的范式**: 与目标检测中 proposal → classify 的两阶段设计哲学一致，在 open-vocabulary 场景中尤其有价值，可与视频-语言模型结合实现开放词汇在线动作定位。
 

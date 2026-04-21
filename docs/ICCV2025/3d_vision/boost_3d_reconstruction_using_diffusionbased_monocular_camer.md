@@ -93,8 +93,6 @@ tags:
 - 扩散模型先验用于3D几何任务的范式值得学习
 - Camera Image的设计思路（将非图像信号编码为图像格式以利用预训练扩散模型）具有广泛适用性
 - 内参估计对任何需要从野外图片做3D重建的管线都是关键
-- 相关idea: [扩散模型幻想视角增强3DGS](../../../ideas/3d_vision/20260317_diffusion_view_augment_3dgs.md)——同样利用扩散模型先验辅助3D重建，DM-Calib的内参估计可为其提供更准确的相机几何约束
-- 相关idea: [轻量级视觉错觉深度融合](../../../ideas/3d_vision/20260317_lightweight_illusion_depth_fusion.md)——DM-Calib的度量深度模块可作为其单目深度输入的替代方案
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐⭐ Camera Image表示+扩散先验用于标定的idea新颖优雅

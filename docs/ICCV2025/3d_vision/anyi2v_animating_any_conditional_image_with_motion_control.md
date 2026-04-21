@@ -123,8 +123,6 @@ tags:
 - **vs ObjCtrl-2.5D/FreeTraj/TrailBlazer**: 同为training-free方法，AnyI2V在所有指标上全面领先（ObjMC 16.39 vs 23.12），且支持更丰富的条件输入
 
 ## 启发与关联
-- 与 [利用视频生成先验桥接少样本图像修复](../../ideas/image_generation/20260316_video_prior_restoration.md) 相关：AnyI2V的免训练特征注入思路可能启发无需训练的视频先验提取方案
-- 与 [概念瓶颈视频世界模型](../../ideas/video_understanding/20260316_concept_bottleneck_world_model.md) 相关：AnyI2V的PCA语义特征分析方法可能用于世界模型中的状态表示学习
 - **潜在研究方向**: 将AnyI2V的免训练条件控制思路扩展到DiT架构（如Open-Sora、CogVideoX），可能需要重新分析DiT中哪些特征适合注入和对齐
 
 ## 评分

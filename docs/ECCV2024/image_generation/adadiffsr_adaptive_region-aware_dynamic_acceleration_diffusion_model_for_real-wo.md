@@ -78,7 +78,6 @@ tags:
 - 静态网格切片与原始"前景/背景"设计意图不一致——未来可探索更细粒度的语义区域划分
 - 信息增益阈值$\tau$和跳步间隔是固定的超参数，不同数据集可能需要不同设置
 - 仅在512×512的SD 2.1-base上验证，未扩展到更大模型(SDXL等)或更高分辨率
-- → 可关联 `ideas/image_generation/20260316_vlm_guided_restoration.md`：VLM引导的语义修复优先级图可用于替代MMLE的区域分类
 
 ## 与相关工作的对比
 - **vs StableSR**: 同为SD-based SR，StableSR对所有区域均匀去噪，AdaDiffSR引入区域自适应跳步实现加速。质量相近但AdaDiffSR计算量约为StableSR的1/2.7
@@ -86,8 +85,6 @@ tags:
 - **vs ClassSR/APE**: ClassSR在网络层维度做自适应（不同patch用不同容量的模型），APE做逐层退出。AdaDiffSR在时间步维度做自适应，维度不同但思路类似
 
 ## 启发与关联
-- **与VLM引导修复的关联**: AdaDiffSR的区域分类基于IQA指标统计特性，较为粗粒度。若用VLM生成语义级别的修复优先级图（参考 `ideas/image_generation/20260316_vlm_guided_restoration.md`），可能实现更精准的区域自适应
-- **与过程感知对齐的关联**: MMLE观察到的"去噪过程中IQA指标的非单调演化"与OARS的过程感知优化思路一致（参考 `ideas/image_generation/20260316_process_aware_alignment.md`），两者可结合——在过程级对齐中引入区域级差异化
 - **对自适应推理研究的启发**: "不同输入区域需要不同计算量"的核心思想可迁移到扩散模型的text-to-image生成、视频生成等任务，某些背景token可能只需少量去噪步
 
 ## 评分

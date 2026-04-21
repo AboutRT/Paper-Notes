@@ -84,7 +84,6 @@ tags:
 - **仅限LiDAR语义分割**：未在3D检测、占据网络预测等其他下游任务上验证，预训练表示的通用性有待探索
 - **依赖VFM和CLIP**：superpixel质量依赖OpenSeeD的分割质量，CLIP微调也引入了额外依赖
 - **计算开销**：多帧输入 + 多路对比学习使预训练开销增大，论文未给出与baseline的效率对比
-- 可扩展方向：(1) 引入scene flow估计来处理动态物体的时序对齐 → 见 `ideas/3d_vision/`；(2) 扩展到3D检测/占据预测等下游任务；(3) 用更大规模无标注数据探索3D foundation model的scaling
 
 ## 与相关工作的对比
 - **vs SLidR (CVPR'22)**：SuperFlow在SLidR基础上引入了时序维度（FCL）和密度鲁棒性（D2S），相当于从3D蒸馏升级为4D蒸馏。SLidR只用单帧单模态对比，SuperFlow全面超越
@@ -92,8 +91,6 @@ tags:
 - **vs BEVContrast (3DV'24) / TARL (CVPR'23)**：这些方法利用了时序信息但只用单模态（LiDAR），缺少跨传感器蒸馏。SuperFlow结合了多模态蒸馏和时序一致性，效果更好
 
 ## 启发与关联
-- **与2D→3D蒸馏idea的关联**：SuperFlow的Image-to-LiDAR蒸馏范式与 `ideas/medical_imaging/20260316_2d_to_3d_medical_distill.md` 中提出的2D基础模型→3D医学图像蒸馏高度相似，后者可以直接借鉴SuperFlow的D2S正则化思路（CT/MRI的多切片叠加≈多sweep拼接稠密点云）
-- **与4D动力学idea的关联**：SuperFlow证明了时序一致性在预训练中的价值，与 `ideas/3d_vision/20260316_ttt_4d_dynamics.md` 中探讨的4D场景动力学外推可以互补——预训练阶段学习时空一致性，测试时通过TTT继续适应新的动力学
 - **潜在新idea**：能否用scene flow显式建模动态物体的时序对应关系来解决"temporal conflict"问题？或者能否在不依赖VFM的情况下通过自监督方式生成view-consistent superpixel？
 
 ## 评分

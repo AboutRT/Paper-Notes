@@ -112,7 +112,6 @@ tags:
 - **完全依赖外部 3D 资产模型**：场景质量受 Hunyuan3D 的生成质量限制。如果某些长尾物体生成失败，agent 反复 Delete+Create 可能陷入死循环。
 - **空间推理上限受限于 VLM**：VLM 对精确数值距离的判断能力有限（如"把椅子向左移动 0.3 米"），细粒度空间关系仍依赖试错。
 - **缺少全局优化**：渐进式构建意味着先放置的物体限制了后续布局的自由度，没有全局布局优化阶段。
-- **Idea → 见 `ideas/llm_agent/20260320_hierarchical_scene_planning.md`**：可以将 SceneAssistant 的 API 设计与层级化规划结合——先用 LLM 做高层语义布局（确定物体种类和粗略区域），再用 VLM + Action API 做精细空间调整，避免渐进式构建的局部最优问题。
 
 ## 相关工作与启发
 - **vs Holodeck/SceneWeaver**: 它们用预定义空间关系 + 外部 solver 做布局，SceneAssistant 用 API + 视觉反馈闭环替代。优势是不受限于固定空间词汇，劣势是迭代效率低。

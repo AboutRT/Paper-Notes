@@ -101,9 +101,6 @@ DiffusionGS是一个单阶段3D扩散模型。输入一张干净条件视图和N
 - **vs Flash3D**（3DV 2025，单视图场景重建）：Flash3D依赖单目深度估计器，在遮挡区域容易产生伪影和黑斑。DiffusionGS在RealEstate10K上PSNR高1.34 dB且无需深度估计。
 
 ## 启发与关联
-- 与 [频域安全防御3DGS](../../../ideas/3d_vision/20260316_spectral_defense_3dgs.md) 的关联：DiffusionGS生成的高斯点云可以作为该框架的测试对象，研究生成式3DGS的安全特性
-- 与 [多尺度光照场3DGS](../../../ideas/3d_vision/20260317_multiscale_illumination_field_3dgs.md) 的关联：DiffusionGS当前不处理视角依赖光照效果，可考虑将多尺度光照场嵌入扩散过程提升渲染质量
-- 与 [语言条件化高斯剪枝](../../../ideas/3d_vision/20260317_language_conditioned_gaussian_pruning_nav.md) 的关联：DiffusionGS输出的大量像素对齐高斯可能受益于任务驱动的剪枝策略
 - **新想法方向**：将DiffusionGS的单阶段3D扩散思路扩展到视频→4D生成（时空高斯扩散），或结合更强的图像编码器实现controllable 3D generation
 
 ## 评分

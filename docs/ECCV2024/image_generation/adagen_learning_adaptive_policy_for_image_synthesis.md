@@ -107,7 +107,6 @@ tags:
 - 对抗奖励的训练稳定性在大规模模型（如SD-XL、FLUX）上是否仍然成立有待验证
 - 目前仅处理推理侧调度参数（如CFG scale、timestep），未涉及更深层的模型架构自适应（如层跳过、token选择等）
 - 与最新的蒸馏方法（consistency distillation等）的结合/对比不够充分
-- 对应idea拓展: [RL自适应策略配置：从NAT图像生成到通用生成模型推理优化](../../../ideas/image_generation/20260317_rl_adaptive_inference_generation.md)
 
 ## 与相关工作的对比
 
@@ -117,8 +116,6 @@ tags:
 
 ## 启发与关联
 
-- 与 [RL自适应策略配置](../../../ideas/image_generation/20260317_rl_adaptive_inference_generation.md) 直接相关——该idea正是从AdaNAT出发提出将框架推广到扩散模型推理优化，而AdaGen已部分实现了这一设想
-- 对抗奖励的设计可迁移到 [过程感知的在线偏好对齐](../../../ideas/image_generation/20260316_process_aware_alignment.md) ——用动态奖励替代静态奖励模型可能缓解过程级优化中的奖励过拟合
 - "不改模型只改推理调度"的思路可与 [DPCache](../../CVPR2026/image_generation/dpcache_denoising_path_planning_diffusion_accel.md) 等token/cache层面的推理加速方法正交组合
 
 ## 评分

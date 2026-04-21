@@ -91,7 +91,6 @@ tags:
 - 实验限于图像分类任务，未验证在生成模型（如扩散模型）、NLP 模型上的适用性
 - COLA 在随机数据遗忘场景需要额外的伪标签步骤（COLA+），增加了复杂性
 - 未讨论 IDI 如何处理遗忘集与保留集高度重叠的边界情况
-- → 可扩展到视觉基础模型（CLIP、DINOv2）的遗忘评估，参见 [结构保持遗忘 idea](../../../ideas/ai_safety/20260316_structure_faithful_unlearning.md)
 
 ## 与相关工作的对比
 - **vs NeurIPS 2025 "A Reliable Cryptographic Framework for Empirical Machine Unlearning Evaluation"**: 后者从密码学角度设计评估框架（SWAP test），关注黑盒层面的统计严谨性；本文从信息论角度提出白盒指标，直接检测中间层信息。两者互补——SWAP test 保证输出层评估的可靠性，IDI 保证特征层的完整遗忘
@@ -99,7 +98,6 @@ tags:
 - **vs 参数距离/Fisher 信息等已有白盒指标**: 参数距离受训练随机性影响大且计算昂贵，Fisher 信息结果与理论直觉不一致。IDI 基于信息论有清晰的理论支撑，且在多种架构和数据集上表现稳定
 
 ## 启发与关联
-- IDI 可直接用于 [结构保持遗忘 idea](../../../ideas/ai_safety/20260316_structure_faithful_unlearning.md) 的评估环节，验证在 CLIP/DINOv2 等基础模型上遗忘是否真正在特征层面生效
 - "用对比学习实现灾难性遗忘"的思路（COLA）可迁移到其他需要精确移除特定知识的场景
 - IDI 的 critic 网络设计（复用原网络层 + 投影层）可用于其他需要估计中间层特征与特定属性互信息的分析任务
 - HD 实验的方法论——设计一个"反面教材"来暴露评估指标的弱点——是一种通用的研究策略，值得学习

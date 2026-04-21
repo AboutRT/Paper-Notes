@@ -113,7 +113,6 @@ tags:
 - **vs SimGCD**：SimGCD作为简洁有效的参数化GCD方法，但完全没有处理注意力问题；AF作为插件显著提升其性能
 - **vs Cropr**：Cropr在每个ViT block固定剪枝数量的token，本文用多尺度自适应剪枝更灵活，效果更好
 - **vs AptGCD/MOS**：同期的竞争方法也关注背景干扰，但需要更复杂的模块设计或外部模型
-- 与 ideas 关联：[Supervised Query for Open World Attention](../../ideas/self_supervised/20260317_supervised_query_for_open_world_attention.md) 正是基于此论文的扩展思路
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 发现独到（distracted attention），方法设计简洁但有效
@@ -233,7 +232,6 @@ $$\mathcal{L} = \mathcal{L}_{gcd} + \lambda \sum_{l=1}^{L-1}\mathcal{L}_{ce}^l$$
 - **vs. Token Pruning方法（EViT、ToMe、Cropr）**: 传统token pruning用[CLS] token的注意力权重做剪枝，但GCD中无标签数据的[CLS]质量不佳，容易引入误导。AF的独立query机制避免了这个问题。Cropr使用固定数量剪枝，而AF的自适应策略更灵活
 
 ## 启发与关联
-- **与token压缩研究的关联**: 本文的TIME模块（用独立query评估token重要性）+ TAP（自适应剪枝）思路与 [ideas/model_compression/20260316_task_aware_token_compression.md](../../ideas/model_compression/20260316_task_aware_token_compression.md) 中"任务感知token压缩"的想法高度相关。AF证明了**任务先验（有标签数据的监督信号）**对token重要性评估至关重要——这一发现可以迁移到VLM中的token压缩
 - **跨域迁移潜力**: AF的"独立query + 辅助分类器"设计可以推广到其他半监督/开放世界任务（如Open-Set Detection、Novel Class Discovery），只要存在有标签数据可以训练query
 - **增强 vs. 剪枝**: 单视图TAP=非规则裁剪增强这一insight，暗示token pruning和数据增强之间存在更深层的联系，值得进一步探索
 

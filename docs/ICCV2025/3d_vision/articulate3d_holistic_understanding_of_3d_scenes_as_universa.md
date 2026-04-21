@@ -149,7 +149,6 @@ USDNet较SoftGroup†提升7.3%，较Mask3D†提升5.7%（AP50+Origin+Axis）
 - **与具身AI的结合**：USD格式的标准化使得场景可直接用于IsaacSim/IsaacLab，是具身AI研究的重要基础设施
 - **LLM+3D场景编辑**：利用USD的层次化结构，LLM可以语义感知地插入/编辑物体，这个方向值得深入
 - **密集预测 vs Query预测**：论文证明了在几何/空间属性密切相关的任务中，密集逐点预测优于纯query预测，这一insight可迁移到其他3D任务
-- **与ideas/3d_vision中的Physics-Guided 3D Scene Completion idea的关联**：Articulate3D提供了带物理属性（质量、运动参数）的真实场景数据，可作为物理引导3D重建方法的评估平台
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 数据集贡献突出（首个大规模真实可仿真铰接场景），但USDNet方法本身创新有限（主要是在Mask3D上加密集分支）

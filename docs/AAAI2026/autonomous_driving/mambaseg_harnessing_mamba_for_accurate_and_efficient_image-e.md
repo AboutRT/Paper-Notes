@@ -114,9 +114,6 @@ tags:
 ## 启发与关联
 - **Mamba 在多模态融合中的潜力**：本文验证了 Mamba 在 RGB-Event 融合中的有效性，可推广到 RGB-Depth、RGB-Thermal、RGB-LiDAR 等其他多模态组合
 - **时间维度建模**：CTIM 的双向时间选择性扫描思路可用于视频分割等需要时间建模的任务
-- **与 ideas/ 中 Mamba 相关方向的关联**：
-    - `ideas/model_compression/20260317_mamba_light_medical_seg.md`：全 Mamba 轻量医学分割方向可参考本文的双分支设计
-    - `ideas/video_understanding/20260317_human_video_mamba.md`：Mamba 视频理解方向可借鉴本文的 CTIM 时间融合模块
     - 本文的 DDIM 空间-时间双维度融合思路可推广到更多需要多源异构数据融合的场景
 
 ## 评分

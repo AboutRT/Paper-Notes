@@ -111,8 +111,6 @@ PCSR模型由三部分组成：**骨干网络(Backbone)** + **像素级分类器
 
 ## 启发与关联
 - **自适应计算分配的通用性**：像素级难度分类+多路径推理的思路可以推广到其他dense prediction任务（去噪、增强、分割），特别是处理大分辨率输入时
-- **与模型压缩方向的交叉**：PCSR本质是一种推理时的"动态计算分配"策略，可以和量化、剪枝等静态压缩技术正交组合，参考 [decoder-free量化蒸馏idea](../../ideas/model_compression/20260317_decoder_free_quant_medical.md)
-- **超分+生成模型**：作者在limitation中提到了将PCSR应用到生成式SR模型的可能性，这与 [VLM引导的图像恢复](../../ideas/image_generation/20260316_vlm_guided_restoration.md) 方向有潜在交叉
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 从patch到pixel级分配是自然而清晰的推进，不算革命性但很实用

@@ -147,7 +147,6 @@ $$\min_\theta \max_\phi \mathbb{E}_{x \sim \mathcal{D}} [\mathcal{L}_f + \lambda
 
 ## 启发与关联
 
-- 与ideas中的[结构保持的选择性机器遗忘](../../../ideas/ai_safety/20260316_structure_faithful_unlearning.md)高度相关：
     - AUVIC通过对抗扰动实现精确遗忘的思路，可以与结构保持遗忘的拓扑约束方法**互补**——前者从输入空间角度、后者从特征空间结构角度保证遗忘精度
     - AUVIC的Gumbel-Softmax动态保护集选择可以迁移到视觉基础模型（CLIP）遗忘中，保护相似概念的zero-shot能力
     - VCUBench的设计思路（单人+多人、遗忘+保留交叉评估）值得借鉴用于构建更通用的遗忘benchmark

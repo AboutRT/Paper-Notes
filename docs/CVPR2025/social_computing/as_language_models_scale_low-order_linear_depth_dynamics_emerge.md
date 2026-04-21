@@ -109,7 +109,6 @@ Pipeline: 估计概念方向 $v_\ell$ → 局部线性化获得 Jacobian $A_\ell
 - **上下文冻结假设**限制了适用范围——多轮对话/长上下文中上下文不可冻结时代理模型可能失效。
 - **仅考虑单 token 状态**——多 token 交互动力学未被建模，对需要多 token 协同的任务可能不够。
 - **概念方向估计依赖标注数据**——需要正/负样本来估计层级概念方向，不是完全无监督的。无标注场景下需要额外探索无监督概念发现的结合可能。
-- **Idea → 见 `ideas/llm_nlp/20260320_llv_for_llm_steerability_prediction.md`**：将 LLV identifiability 作为模型可控性的先验指标——在模型选择/架构搜索时，用 LLV 辨识精度预测哪些模型更容易做 activation steering，甚至预测 alignment 的脆弱性。
 
 ## 相关工作与启发
 - **vs Activation Addition (Turner et al.)**: 他们证明线性方向可以控制行为，但不解释扰动如何跨层传播。本文补充了"传播动力学"这一缺失环节，将 steering 从经验操作提升为有预测理论支撑的方法

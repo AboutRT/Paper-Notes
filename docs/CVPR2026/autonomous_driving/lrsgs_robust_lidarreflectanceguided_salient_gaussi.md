@@ -93,7 +93,6 @@ tags:
 ## 启发与关联
 - Salient Gaussian的思路可与occupancy prediction结合——用结构感知的高斯体作为3D occupancy的几何先验
 - 反射率通道可扩展到多光谱（红外等），进一步丰富自动驾驶场景表示
-- 与 ideas 中的 [频域安全防御3DGS](../../ideas/3d_vision/20260316_spectral_defense_3dgs.md) 有关——Salient Gaussian的结构化属性可能更利于频域分析
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ 反射率通道+Salient Gaussian+显著变换的组合在自动驾驶3DGS中首次提出

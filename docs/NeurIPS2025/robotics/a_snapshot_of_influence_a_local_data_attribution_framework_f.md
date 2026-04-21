@@ -105,7 +105,6 @@ tags:
 - **vs 难度/优先级启发式（PER, difficulty filtering）**: PER的TD error先验在on-policy设置下效果差；基于难度的过滤（pass@k）对PPO无效。IIF通过梯度相似性捕获更丰富的信号
 
 ## 启发与关联
-- 与 `ideas/llm_nlp/20260317_rlhf_side_effect_detection.md` 有关联：本文的归因框架可以用于追踪RLHF训练中特定属性变化是由哪些训练样本驱动的，为副作用检测提供数据层面的因果线索
 - IIF的思路可以扩展到GRPO/DeepSeek-R1等推理增强RL训练中，作为一种有原则的数据筛选替代方案（相比当前的启发式方法如pass@k过滤）
 - 三阶段相变的发现可能启发新的课程学习策略——在不同阶段动态调整过滤强度
 

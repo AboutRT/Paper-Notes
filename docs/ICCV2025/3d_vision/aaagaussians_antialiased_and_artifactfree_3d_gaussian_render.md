@@ -111,8 +111,6 @@ tags:
 - **vs Hybrid Transparency（Hahlbohm et al.）**: 都做3D评估和精确边界，但HT在边缘处仍有pop-in（丢弃越界Gaussian），本文通过视空间边界彻底解决
 
 ## 启发与关联
-- **与多尺度光照场idea的关联**（[ideas/3d_vision/20260317_multiscale_illumination_field_3dgs.md](../../ideas/3d_vision/20260317_multiscale_illumination_field_3dgs.md)）：本文发现更强的视角一致性约束下view-dependent效果表达不足，恰好印证了更强视角依赖编码（如张量分解光照场）的必要性——AAA-Gaussians提供无伪影的几何基座，多尺度光照场可作为外观增强模块
-- **对3DGS编辑/安全工作的启示**（[ideas/3d_vision/20260317_graph_autoregressive_3dgs_edit.md](../../ideas/3d_vision/20260317_graph_autoregressive_3dgs_edit.md)）：无伪影的渲染基座是3DGS下游应用（编辑、安全、压缩）的基础需求，本文可直接作为底层renderer
 - 3DGS渲染质量改进是3D视觉基础设施级贡献，视空间操作思路对VR/大FOV场景重要
 - **潜在方向**：将自适应3D滤波器的"垂直于射线的正交分解"思想迁移到其他3D表示的LOD/anti-aliasing
 

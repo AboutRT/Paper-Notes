@@ -149,7 +149,6 @@ tags:
 
 1. **与DUSt3R/MASt3R的协同**：BoxDreamer使用DUSt3R做稀疏视角重建，这个idea可以无缝升级到MASt3R或Fast3R获得更好的重建质量
 2. **包围盒表示的可推广性**：包围盒角点这种极简中间表示的思路可以启发其他领域——例如在机器人抓取中，也可以用包围盒角点作为物体的空间先验来指导抓取规划
-3. **与 `ideas/3d_vision/20260317_hierarchical_adaptive_ellicell.md` 关联**：该idea探讨了6DGS中的位姿估计效率问题，BoxDreamer的包围盒表示可以作为6DGS的粗位姿初始化方案——先用BoxDreamer快速获得粗位姿，再用6DGS的Ellicell精化
 4. **热图 + PnP 的范式**：这种"预测语义关键点热图 → PnP求解"的范式有深厚的传统（PVNet/CDPN），BoxDreamer的创新在于将关键点定义为物体无关的包围盒角点，实现了泛化
 
 ## 评分

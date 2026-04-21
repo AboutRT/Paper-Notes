@@ -215,9 +215,6 @@ Waymo NVS上的消融：
 - **可学习参数曲线的思路可推广**：除了Bézier，B-spline、NURBS等也可探索，尤其对更复杂/长距离轨迹；分段Bézier可处理超长序列
 - **曲线间一致性约束思路通用**：这种约束同一实体内部Gaussian一致性的方法可迁移到其他3DGS分组场景（如语义分组、部件级重建、铰接体建模）
 - **与相关idea的关联**：
-    - [测试时训练用于4D动力学外推](../../../ideas/3d_vision/20260316_ttt_4d_dynamics.md)：BézierGS的显式Bézier控制点可作为TTT在线更新的对象——推理时fine-tune控制点以适应新轨迹/外推
-    - [代价体引导稀疏占据预测](../../../ideas/autonomous_driving/20260317_cost_volume_sparse_occ.md)：BézierGS的轨迹建模可提供动态物体运动prior，辅助时序占据预测
-    - [Min-Max鲁棒性3DGS防御](../../../ideas/ai_safety/20260317_minmax_robust_3dgs_adversarial_defense.md)：BézierGS的高保真动态重建能力可用于生成更真实的对抗训练样本
 
 ## 评分
 

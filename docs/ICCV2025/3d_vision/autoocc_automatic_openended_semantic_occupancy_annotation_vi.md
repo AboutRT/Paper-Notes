@@ -127,8 +127,6 @@ AutoOcc-V（纯相机）相比最佳自监督方法VEON：IoU提升25.09（+43.3
 - **vs OpenOcc/SurroundOcc**：这些传统标注Pipeline依赖LiDAR+人工先验，多阶段处理复杂且耗时。AutoOcc即使仅用相机输入就全面超越它们，且标注速度快1-2个数量级。
 
 ## 启发与关联
-- 与ideas/中[开放词汇3D占据网格预测](../../ideas/3d_vision/20260316_open_vocab_3d_occupancy.md)高度相关：AutoOcc验证了VLM引导+可微重建是实现开放词汇3D占据的有效路径，但AutoOcc侧重标注而非在线预测，ideas中的方向可以借鉴AutoOcc的语义注意力图设计和语义合并策略
-- 与[代价体引导的全稀疏3D占据预测](../../ideas/autonomous_driving/20260317_cost_volume_sparse_occ.md)互补：AutoOcc证明了稀疏表示（0.3M高斯体 vs 数百万体素）在占据任务中的巨大优势，代价体idea可以考虑结合语义感知的稀疏采样策略
 - AutoOcc的"用VLM自动生成标注→训练下游模型"思路为数据飞轮提供了新范式，可以极低成本生成大规模占据标注数据
 
 ## 评分

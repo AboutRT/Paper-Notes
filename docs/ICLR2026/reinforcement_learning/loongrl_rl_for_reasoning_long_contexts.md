@@ -126,7 +126,6 @@ LoongRL 的 pipeline：(1) 从现有多跳 QA 数据集出发 → (2) 通过 Key
 ## 相关工作与启发
 - **vs QwenLong-L1**：QwenLong-L1 在 R1-distill-Qwen-32B 上用 60K 上下文 RL 训练，仅提升 +4.6%。LoongRL 用 16K 训练在 7B 模型上就超越它 +2.3%。关键差异在于 KeyChain 数据的质量
 - **vs R1-Distill 系列**：R1 蒸馏在长上下文上效果差甚至退化（7B 退化 -17.7%），因为蒸馏的长 CoT 数据主要针对短上下文推理，未覆盖长上下文特有的检索-推理模式
-- **与 [VHD-Guided Adaptive Visual Re-injection](../../ideas/multimodal_vlm/20260318_vhd_adaptive_visual_reinjection.md) 存在关联**：LoongRL 证明了"涌现长上下文推理模式"的可行性，类似思路可应用到多模态长链推理中
 
 ## 评分
 - 新颖性: ⭐⭐⭐⭐ KeyChain 数据构造非常有创意，但底层 RL 框架（GRPO）本身并非新方法

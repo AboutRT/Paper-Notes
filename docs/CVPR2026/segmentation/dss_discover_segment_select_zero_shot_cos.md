@@ -88,7 +88,6 @@ tags:
 - **vs IAPF**：IAPF用Grounding DINO做实例级bbox+单前景多背景点prompt，DSS用无监督聚类做发现，不依赖有监督定位器
 
 ## 启发与关联
-- 与`ideas/segmentation/20260316_unified_freq_prompt_sam.md`相关——DSS展示了用DINOv2特征做SAM prompt的新范式，可以考虑频域特征+聚类的组合
 - "发现-分割-选择"范式可推广到其他视觉理解任务——如开放世界检测中的候选区域生成+筛选
 - MLLM作为**评判者而非发现者**的角色转变是关键洞察——让模型做它最擅长的事
 

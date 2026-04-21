@@ -155,7 +155,6 @@ $$\mathcal{L}_{\text{SFT}}(\theta) = -\mathbb{E}_{(Q,G_{gt})\sim D_{\text{train}
 - **DAG规划+RL训练**的思路可以迁移到其他需要复杂workflow编排的场景（如多模态任务、科学实验自动化）
 - 层次化奖励函数的设计模式（结构检查→语义检查→质量打分）适用于任何需要评估结构化输出的RL场景
 - 数据构建的"正向生成+反向验证"流水线可复用于其他需要bootstrapping训练数据的任务
-- 与[Hierarchical FSM GUI Agent](../../../ideas/llm_nlp/20260317_hierarchical_fsm_gui_agent.md)思路相关：都在探索如何给Agent加入更强的结构化规划能力，但本文用DAG，那篇用FSM
 - **值得思考**：plan-then-execute vs 迭代反思，是否能设计一个混合范式——对简单子任务用单次规划，对不确定子任务保留反思机会？
 
 ## 评分
