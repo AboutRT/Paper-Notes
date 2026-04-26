@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 社会计算方向 4篇论文解读
+  CVPR2026 社会计算方向4篇论文解读
 description: >-
-  4篇CVPR2026 社会计算论文解读，主题涵盖：这篇论文把 Transformer、将 Transformer 的逐层前向传播视为离散、本文提出利用合成数据生成过程中自动获得的"出处信息等，每篇含核心思想与方法详解。
+  4篇CVPR2026的社会计算方向论文解读，收录 As Language Models Scale, Low-、As Language Models Scale, Low-、Learning from Synthetic Data v等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

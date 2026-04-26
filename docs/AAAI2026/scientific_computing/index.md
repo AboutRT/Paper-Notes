@@ -1,8 +1,8 @@
 ---
 title: >-
-  AAAI2026 科学计算方向 8篇论文解读
+  AAAI2026 科学计算方向8篇论文解读
 description: >-
-  8篇AAAI2026 科学计算论文解读，主题涵盖：提出随机稀疏反馈控制框架：控制器在每个时间步仅访问、提出 KARMA 框架，在 ViT-MAE、构建了 Phys-Liquid等，每篇含核心思想与方法详解。
+  8篇AAAI2026的科学计算方向论文解读，收录 Just Few States are Enough、Knowledge-Guided Masked Autoen、Phys-Liquid等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

@@ -1,8 +1,8 @@
 ---
 title: >-
-  ECCV2024 信号/通信方向 6篇论文解读
+  ECCV2024 信号/通信方向6篇论文解读
 description: >-
-  6篇ECCV2024 信号/通信论文解读，主题涵盖：本文构建了 Defect Spectrum、本文提出从双曝光 HDR 图像对中提取一种简洁的双、本文提出 PYRA，通过并行生成解耦的自适应调制权等，每篇含核心思想与方法详解。
+  6篇ECCV2024的信号/通信方向论文解读，收录 Defect Spectrum、Optimizing Illuminant Estimati、PYRA等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

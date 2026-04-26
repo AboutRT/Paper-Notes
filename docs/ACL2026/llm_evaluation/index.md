@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2026 LLM评测方向 34篇论文解读
+  ACL2026 LLM评测方向35篇论文解读
 description: >-
-  34篇ACL2026 LLM评测论文解读，主题涵盖：本文提出 SCRIPTS 基准，包含 1.1K、AutoReproduce 提出了一个多智能体框架、提出配对任务框架联合评估 LLM等，每篇含核心思想与方法详解。
+  35篇ACL2026的 LLM 评测方向论文解读，涵盖 LLM、推理、翻译、信息抽取等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📊 LLM评测
 
-**💬 ACL2026** · **34** 篇论文解读
+**💬 ACL2026** · **35** 篇论文解读
 
 **[Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues](are_they_lovers_or_friends_evaluating_llms39_social_reasoning_in_english_and_kor.md)**
 
@@ -21,6 +21,10 @@ description: >-
 **[Beyond Reproduction: A Paired-Task Framework for Assessing LLM Comprehension and Creativity in Literary Translation](beyond_reproduction_a_paired-task_framework_for_assessing_llm_comprehension_and_.md)**
 
 :   提出配对任务框架联合评估 LLM 的文学文本理解能力和翻译创造力，基于 11 本英文经典小说对 23 个模型进行大规模测评，发现强理解力并不能转化为人类水平的翻译创造力。
+
+**[BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications](bizcompass_benchmarking_the_reasoning_capabilities_of_llms_in_business_knowledge.md)**
+
+:   本文提出 BizCompass，一个连接理论基础与实际应用的商业推理基准，覆盖金融/经济/统计/运营四个知识域和分析师/交易员/顾问三个应用角色，系统评估了开源与闭源 LLM 的商业推理能力，揭示理论知识向实际表现转化的规律。
 
 **[Capabilities and Evaluation Biases of Large Language Models in Classical Chinese Poetry Generation: A Case Study on Tang Poetry](capabilities_and_evaluation_biases_of_large_language_models_in_classical_chinese.md)**
 

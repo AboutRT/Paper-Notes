@@ -1,8 +1,8 @@
 ---
 title: >-
-  NeurIPS2025 AI安全方向 116篇论文解读
+  NeurIPS2025 AI安全方向116篇论文解读
 description: >-
-  116篇NeurIPS2025 AI安全论文解读，主题涵盖：提出一组通用化组件（Component、提出 FedLEASE——解决联邦 LoRA、提出 Adversarial Paraphrasi等，每篇含核心思想与方法详解。
+  116篇NeurIPS2025的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、LLM、对齐/RLHF、语音、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

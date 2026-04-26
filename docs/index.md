@@ -1,6 +1,6 @@
 ---
 title: "AI 顶会论文解读 | 15000+篇深度笔记"
-description: "15000+篇AI、LLM、NLP、CV顶会论文解读，每篇5分钟读懂核心思想。覆盖ICLR、CVPR、ACL、NeurIPS、AAAI、ICCV、ECCV等10大会议46个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。"
+description: "15000+篇 AI、LLM、NLP、CV 顶会论文解读，每篇5分钟读懂核心思想。覆盖 ICLR、CVPR、ACL、NeurIPS、AAAI、ICCV、ECCV 等10大会议46个研究领域，每篇笔记含一句话总结、背景动机、方法详解、实验数据、亮点洞察与局限性分析。"
 search:
   exclude: true
 hide:
@@ -17,7 +17,7 @@ hide:
 <p class="hero-subtitle">AI · LLM · NLP · CV 顶会论文解读，每篇 5 分钟读懂核心思想。<br>覆盖 ICLR · CVPR · ACL · NeurIPS · ICML · AAAI · ICCV · ECCV 等会议<br>持续更新中</p>
 
 <div class="hero-stats">
-<div class="stat"><span class="stat-number">15282</span><span class="stat-label">篇笔记</span></div>
+<div class="stat"><span class="stat-number">15292</span><span class="stat-label">篇笔记</span></div>
 <div class="stat"><span class="stat-number">10</span><span class="stat-label">个会议</span></div>
 <div class="stat"><span class="stat-number">46</span><span class="stat-label">个领域</span></div>
 </div>
@@ -32,14 +32,14 @@ hide:
 
 ### 💬 [ACL2026](ACL2026/index.md)
 
-<div class="conf-count">627 篇 · 41 个领域</div>
+<div class="conf-count">637 篇 · 41 个领域</div>
 
 <div class="area-groups">
 <div class="area-group">
 <div class="area-group-label">LLM</div>
 <div class="area-tags">
-<a class="area-tag" href="ACL2026/llm_agent/">LLM Agent 38</a>
-<a class="area-tag" href="ACL2026/llm_evaluation/">LLM评测 34</a>
+<a class="area-tag" href="ACL2026/llm_agent/">LLM Agent 41</a>
+<a class="area-tag" href="ACL2026/llm_evaluation/">LLM评测 35</a>
 <a class="area-tag" href="ACL2026/llm_reasoning/">LLM推理 31</a>
 <a class="area-tag" href="ACL2026/llm_nlp/">LLM/NLP 25</a>
 <a class="area-tag" href="ACL2026/llm_alignment/">对齐/RLHF 8</a>
@@ -53,16 +53,16 @@ hide:
 <div class="area-group-label">生成与多模态</div>
 <div class="area-tags">
 <a class="area-tag" href="ACL2026/multimodal_vlm/">多模态VLM 46</a>
-<a class="area-tag" href="ACL2026/audio_speech/">音频/语音 21</a>
+<a class="area-tag" href="ACL2026/audio_speech/">音频/语音 23</a>
 <a class="area-tag" href="ACL2026/image_generation/">图像生成 11</a>
-<a class="area-tag" href="ACL2026/aigc_detection/">AIGC检测 8</a>
+<a class="area-tag" href="ACL2026/aigc_detection/">AIGC检测 9</a>
 <a class="area-tag" href="ACL2026/video_generation/">视频生成 3</a>
 </div>
 </div>
 <div class="area-group">
 <div class="area-group-label">NLP 应用</div>
 <div class="area-tags">
-<a class="area-tag" href="ACL2026/information_retrieval/">信息检索/RAG 37</a>
+<a class="area-tag" href="ACL2026/information_retrieval/">信息检索/RAG 39</a>
 <a class="area-tag" href="ACL2026/code_intelligence/">代码智能 22</a>
 <a class="area-tag" href="ACL2026/multilingual_mt/">多语言/翻译 18</a>
 <a class="area-tag" href="ACL2026/dialogue/">对话系统 9</a>
@@ -73,7 +73,7 @@ hide:
 <div class="area-group">
 <div class="area-group-label">视觉感知</div>
 <div class="area-tags">
-<a class="area-tag" href="ACL2026/human_understanding/">人体理解 39</a>
+<a class="area-tag" href="ACL2026/human_understanding/">人体理解 40</a>
 <a class="area-tag" href="ACL2026/object_detection/">目标检测 18</a>
 <a class="area-tag" href="ACL2026/video_understanding/">视频理解 11</a>
 <a class="area-tag" href="ACL2026/image_restoration/">图像恢复 5</a>

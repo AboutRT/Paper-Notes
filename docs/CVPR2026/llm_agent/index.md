@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 LLM Agent方向 21篇论文解读
+  CVPR2026 LLM Agent方向21篇论文解读
 description: >-
-  21篇CVPR2026 LLM Agent论文解读，主题涵盖：本文提出 ARGOS，首个将多摄像头行人搜索重新定、提出CareFlow基准（1050个医疗软件长视界、提出 EchoTrail-GUI 框架等，每篇含核心思想与方法详解。
+  21篇CVPR2026的 LLM Agent 方向论文解读，涵盖 Agent、推理、语音、NeRF、3D 高斯渲染、语义分割等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

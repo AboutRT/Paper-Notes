@@ -1,8 +1,8 @@
 ---
 title: >-
-  ACL2025 对齐/RLHF方向 78篇论文解读
+  ACL2025 对齐/RLHF方向78篇论文解读
 description: >-
-  78篇ACL2025 对齐/RLHF论文解读，主题涵盖：本文提出AGD（Adversarial Game、本文提出 AgentAlign 框架、提出 AgentRM，一个可泛化的奖励模型等，每篇含核心思想与方法详解。
+  78篇ACL2025的对齐/RLHF 方向论文解读，涵盖对齐/RLHF、对抗鲁棒、LLM、Agent、多模态、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

@@ -44,15 +44,18 @@ nav:
 - 🏠 首页: index.md
 - 💬 ACL2026:
   - ACL2026: ACL2026/index.md
-  - 🦾 LLM Agent (38):
+  - 🦾 LLM Agent (41):
     - 🦾 LLM Agent: ACL2026/llm_agent/index.md
     - 'AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts': ACL2026/llm_agent/agencybench_benchmarking_the_frontiers_of_autonomous_agents_in_1m-token_real-wor.md
+    - 'Agent-GWO: Collaborative Agents for Dynamic Prompt Optimization in Large Language Models': ACL2026/llm_agent/agent-gwo_collaborative_agents_for_dynamic_prompt_optimization_in_large_language.md
     - 'ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination': ACL2026/llm_agent/atlas_adaptive_trading_with_llm_agents_through_dynamic_prompt_optimization_and_m.md
     - Bayesian Social Deduction with Graph-Informed Language Models: ACL2026/llm_agent/bayesian_social_deduction_with_graph-informed_language_models.md
     - 'CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents': ACL2026/llm_agent/ci-work_benchmarking_contextual_integrity_in_enterprise_llm_agents.md
     - 'CodeStruct: Code Agents over Structured Action Spaces': ACL2026/llm_agent/codestruct_code_agents_over_structured_action_spaces.md
     - 'CoEvolve: Training LLM Agents via Agent-Data Mutual Evolution': ACL2026/llm_agent/coevolve_training_llm_agents_via_agent-data_mutual_evolution.md
     - Conjunctive Prompt Attacks in Multi-Agent LLM Systems: ACL2026/llm_agent/conjunctive_prompt_attacks_in_multi-agent_llm_systems.md
+    - Creating ConLangs to Probe the Metalinguistic Grammatical Knowledge of LLMs: ACL2026/llm_agent/creating_conlangs_to_probe_the_metalinguistic_grammatical_knowledge_of_llms.md
+    - 'Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation': ACL2026/llm_agent/diversity_collapse_in_multi-agent_llm_systems_structural_coupling_and_collective.md
     - 'EA-Agent: A Structured Multi-Step Reasoning Agent for Entity Alignment': ACL2026/llm_agent/ea-agent_a_structured_multi-step_reasoning_agent_for_entity_alignment.md
     - 'ExpSeek: Self-Triggered Experience Seeking for Web Agents': ACL2026/llm_agent/expseek_self-triggered_experience_seeking_for_web_agents.md
     - 'FairQE: Multi-Agent Framework for Mitigating Gender Bias in Translation Quality Estimation': ACL2026/llm_agent/fairqe_multi-agent_framework_for_mitigating_gender_bias_in_translation_quality_e.md
@@ -86,11 +89,12 @@ nav:
     - 'When Agents Look the Same: Quantifying Distillation-Induced Similarity in Tool-Use Behaviors': ACL2026/llm_agent/when_agents_look_the_same_quantifying_distillation-induced_similarity_in_tool-us.md
     - Why Agents Compromise Safety Under Pressure: ACL2026/llm_agent/why_agents_compromise_safety_under_pressure.md
     - 'ZARA: Training-Free Motion Time-Series Reasoning via Evidence-Grounded LLM Agents': ACL2026/llm_agent/zara_training-free_motion_time-series_reasoning_via_evidence-grounded_llm_agents.md
-  - 📊 LLM评测 (34):
+  - 📊 LLM评测 (35):
     - 📊 LLM评测: ACL2026/llm_evaluation/index.md
     - Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues: ACL2026/llm_evaluation/are_they_lovers_or_friends_evaluating_llms39_social_reasoning_in_english_and_kor.md
     - 'AutoReproduce: Automatic AI Experiment Reproduction with Paper Lineage': ACL2026/llm_evaluation/autoreproduce_automatic_ai_experiment_reproduction_with_paper_lineage.md
     - 'Beyond Reproduction: A Paired-Task Framework for Assessing LLM Comprehension and Creativity in Literary Translation': ACL2026/llm_evaluation/beyond_reproduction_a_paired-task_framework_for_assessing_llm_comprehension_and_.md
+    - 'BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications': ACL2026/llm_evaluation/bizcompass_benchmarking_the_reasoning_capabilities_of_llms_in_business_knowledge.md
     - ? 'Capabilities and Evaluation Biases of Large Language Models in Classical
         Chinese Poetry Generation: A Case Study on Tang Poetry'
       : ACL2026/llm_evaluation/capabilities_and_evaluation_biases_of_large_language_models_in_classical_chinese.md
@@ -279,7 +283,7 @@ nav:
     - 'When Helpers Become Hazards: A Benchmark for Analyzing Multimodal LLM-Powered Safety in Daily Life': ACL2026/multimodal_vlm/when_helpers_become_hazards_a_benchmark_for_analyzing_multimodal_llm-powered_saf.md
     - 'When Slower Isn''t Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning': ACL2026/multimodal_vlm/when_slower_isn39t_truer_inverse_scaling_law_of_truthfulness_in_multimodal_reaso.md
     - 'WikiSeeker: Rethinking the Role of Vision-Language Models in Knowledge-Based Visual Question Answering': ACL2026/multimodal_vlm/wikiseeker_rethinking_the_role_of_vision-language_models_in_knowledge-based_visu.md
-  - 🎵 音频/语音 (21):
+  - 🎵 音频/语音 (23):
     - 🎵 音频/语音: ACL2026/audio_speech/index.md
     - 'Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations': ACL2026/audio_speech/affectron_emotional_speech_synthesis_with_affective_and_contextually_aligned_non.md
     - An Exploration of Mamba for Speech Self-Supervised Models: ACL2026/audio_speech/an_exploration_of_mamba_for_speech_self-supervised_models.md
@@ -300,10 +304,12 @@ nav:
     - Music Audio-Visual Question Answering Requires Specialized Multimodal Designs: ACL2026/audio_speech/music_audio-visual_question_answering_requires_specialized_multimodal_designs.md
     - 'Pseudo2Real: Task Arithmetic for Pseudo-Label Correction in Automatic Speech Recognition': ACL2026/audio_speech/pseudo2real_task_arithmetic_for_pseudo-label_correction_in_automatic_speech_reco.md
     - 'Retrieving to Recover: Towards Incomplete Audio-Visual Question Answering via Semantic-consistent Purification': ACL2026/audio_speech/retrieving_to_recover_towards_incomplete_audio-visual_question_answering_via_sem.md
+    - Still Between Us? Evaluating and Improving Voice Assistant Robustness to Third-Party Interruptions: ACL2026/audio_speech/still_between_us_evaluating_and_improving_voice_assistant_robustness_to_third-pa.md
     - 'StressTest: Can YOUR Speech LM Handle the Stress?': ACL2026/audio_speech/stresstest_can_your_speech_lm_handle_the_stress.md
     - 'TellWhisper: Tell Whisper Who Speaks When': ACL2026/audio_speech/tellwhisper_tell_whisper_who_speaks_when.md
     - 'Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models': ACL2026/audio_speech/temporal_contrastive_decoding_a_training-free_method_for_large_audio-language_mo.md
     - Towards Fine-Grained and Multi-Granular Contrastive Language-Speech Pre-training: ACL2026/audio_speech/towards_fine-grained_and_multi-granular_contrastive_language-speech_pre-training.md
+    - 'When Misinformation Speaks and Converses: Rethinking Fact-Checking in Audio Platforms': ACL2026/audio_speech/when_misinformation_speaks_and_converses_rethinking_fact-checking_in_audio_platf.md
   - 🎨 图像生成 (11):
     - 🎨 图像生成: ACL2026/image_generation/index.md
     - 'AFMRL: Attribute-Enhanced Fine-Grained Multi-Modal Representation Learning in E-commerce': ACL2026/image_generation/afmrl_attribute-enhanced_fine-grained_multi-modal_representation_learning_in_e-c.md
@@ -317,13 +323,14 @@ nav:
     - 'MASH: Evading Black-Box AI-Generated Text Detectors via Style Humanization': ACL2026/image_generation/mash_evading_black-box_ai-generated_text_detectors_via_style_humanization.md
     - 'VisRet: Visualization Improves Knowledge-Intensive Text-to-Image Retrieval': ACL2026/image_generation/visret_visualization_improves_knowledge-intensive_text-to-image_retrieval.md
     - 'ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching': ACL2026/image_generation/zipvoice-dialog_non-autoregressive_spoken_dialogue_generation_with_flow_matching.md
-  - 🔎 AIGC检测 (8):
+  - 🔎 AIGC检测 (9):
     - 🔎 AIGC检测: ACL2026/aigc_detection/index.md
     - 'Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection': ACL2026/aigc_detection/beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr.md
     - 'BIASEDTALES-ML: A Multilingual Dataset for Analyzing Narrative Attribute Distributions in LLM-Generated Stories': ACL2026/aigc_detection/biasedtales-ml_a_multilingual_dataset_for_analyzing_narrative_attribute_distribu.md
     - 'CiteGuard: Faithful Citation Attribution for LLMs via Retrieval-Augmented Validation': ACL2026/aigc_detection/citeguard_faithful_citation_attribution_for_llms_via_retrieval-augmented_validat.md
     - 'DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects': ACL2026/aigc_detection/dia-harm_dialectal_disparities_in_harmful_content_detection_across_50_english_di.md
     - 'FlexGuard: Continuous Risk Scoring for Strictness-Adaptive LLM Content Moderation': ACL2026/aigc_detection/flexguard_continuous_risk_scoring_for_strictness-adaptive_llm_content_moderation.md
+    - 'Frankentext: Stitching Random Text Fragments into Long-Form Narratives': ACL2026/aigc_detection/frankentext_stitching_random_text_fragments_into_long-form_narratives.md
     - Reasoning-Based Refinement of Unsupervised Text Clusters with LLMs: ACL2026/aigc_detection/reasoning-based_refinement_of_unsupervised_text_clusters_with_llms.md
     - 'Temporal Flattening in LLM-Generated Text: Comparing Human and LLM Writing Trajectories': ACL2026/aigc_detection/temporal_flattening_in_llm-generated_text_comparing_human_and_llm_writing_trajec.md
     - Who Wrote This Line? Evaluating the Detection of LLM-Generated Classical Chinese Poetry: ACL2026/aigc_detection/who_wrote_this_line_evaluating_the_detection_of_llm-generated_classical_chinese_.md
@@ -332,7 +339,7 @@ nav:
     - Accelerating Training of Autoregressive Video Generation Models via Local Optimization with Representation Continuity: ACL2026/video_generation/accelerating_training_of_autoregressive_video_generation_models_via_local_optimi.md
     - 'OSCBench: Benchmarking Object State Change in Text-to-Video Generation': ACL2026/video_generation/oscbench_benchmarking_object_state_change_in_text-to-video_generation.md
     - Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement: ACL2026/video_generation/self-correcting_text-to-video_generation_with_misalignment_detection_and_localiz.md
-  - 🔍 信息检索/RAG (37):
+  - 🔍 信息检索/RAG (39):
     - 🔍 信息检索/RAG: ACL2026/information_retrieval/index.md
     - 'A Survey on MLLM-based Visually Rich Document Understanding: Methods, Challenges, and Emerging Trends': ACL2026/information_retrieval/a_survey_on_mllm-based_visually_rich_document_understanding_methods_challenges_a.md
     - 'All Languages Matter: Understanding and Mitigating Language Bias in Multilingual RAG': ACL2026/information_retrieval/all_languages_matter_understanding_and_mitigating_language_bias_in_multilingual_.md
@@ -343,6 +350,9 @@ nav:
     - 'ChAIRO: Contextual Hierarchical Analogical Induction and Reasoning Optimization for LLMs': ACL2026/information_retrieval/chairo_contextual_hierarchical_analogical_induction_and_reasoning_optimization_f.md
     - 'ChunQiuTR: Time-Keyed Temporal Retrieval in Classical Chinese Annals': ACL2026/information_retrieval/chunqiutr_time-keyed_temporal_retrieval_in_classical_chinese_annals.md
     - 'CodePromptZip: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs': ACL2026/information_retrieval/codepromptzip_code-specific_prompt_compression_for_retrieval-augmented_generatio.md
+    - ? 'Conjecture and Inquiry: Quantifying Software Performance Requirements via
+        Interactive Retrieval-Augmented Preference Elicitation'
+      : ACL2026/information_retrieval/conjecture_and_inquiry_quantifying_software_performance_requirements_via_interac.md
     - Context Attribution with Multi-Armed Bandit Optimization: ACL2026/information_retrieval/context_attribution_with_multi-armed_bandit_optimization.md
     - 'CRAFT: Training-Free Cascaded Retrieval for Tabular QA': ACL2026/information_retrieval/craft_training-free_cascaded_retrieval_for_tabular_qa.md
     - 'CURaTE: Continual Unlearning in Real Time with Ensured Preservation of LLM Knowledge': ACL2026/information_retrieval/curate_continual_unlearning_in_real_time_with_ensured_preservation_of_llm_knowle.md
@@ -361,6 +371,7 @@ nav:
     - Is Agentic RAG Worth It? An Experimental Comparison of RAG Approaches: ACL2026/information_retrieval/is_agentic_rag_worth_it_an_experimental_comparison_of_rag_approaches.md
     - 'MAB-DQA: Addressing Query Aspect Importance in Document Question Answering with Multi-Armed Bandits': ACL2026/information_retrieval/mab-dqa_addressing_query_aspect_importance_in_document_question_answering_with_m.md
     - 'MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation': ACL2026/information_retrieval/mass-rag_multi-agent_synthesis_retrieval-augmented_generation.md
+    - Multi-Faceted Self-Consistent Preference Alignment for Query Rewriting in Conversational Search: ACL2026/information_retrieval/multi-faceted_self-consistent_preference_alignment_for_query_rewriting_in_conver.md
     - 'ReasonEmbed: Enhanced Text Embeddings for Reasoning-Intensive Document Retrieval': ACL2026/information_retrieval/reasonembed_enhanced_text_embeddings_for_reasoning-intensive_document_retrieval.md
     - 'RepoShapley: Shapley-Enhanced Context Filtering for Repository-Level Code Completion': ACL2026/information_retrieval/reposhapley_shapley-enhanced_context_filtering_for_repository-level_code_complet.md
     - 'Prune-then-Merge: Towards Efficient Multi-Vector Visual Document Retrieval': ACL2026/information_retrieval/sculpting_the_vector_space_towards_efficient_multi-vector_visual_document_retrie.md
@@ -440,7 +451,7 @@ nav:
     - ✍️ 文本生成: ACL2026/nlp_generation/index.md
     - 'AlphaContext: An Evolutionary Tree-based Psychometric Context Generator for Creativity Assessment': ACL2026/nlp_generation/alphacontext_an_evolutionary_tree-based_psychometric_context_generator_for_creat.md
     - 'XtraGPT: Context-Aware and Controllable Academic Paper Revision via Human-AI Collaboration': ACL2026/nlp_generation/xtragpt_context-aware_and_controllable_academic_paper_revision_via_human-ai_coll.md
-  - 🧑 人体理解 (39):
+  - 🧑 人体理解 (40):
     - 🧑 人体理解: ACL2026/human_understanding/index.md
     - Agentic Conversational Search with Contextualized Reasoning via Reinforcement Learning: ACL2026/human_understanding/agentic_conversational_search_with_contextualized_reasoning_via_reinforcement_le.md
     - 'Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling': ACL2026/human_understanding/aligning_agents_via_planning_a_benchmark_for_trajectory-level_reward_modeling.md
@@ -463,6 +474,7 @@ nav:
     - ? 'Language on Demand, Knowledge at Core: Composing LLMs with Encoder-Decoder
         Translation Models for Extensible Multilinguality'
       : ACL2026/human_understanding/language_on_demand_knowledge_at_core_composing_llms_with_encoder-decoder_transla.md
+    - 'LQM: Linguistically Motivated Multidimensional Quality Metrics for Machine Translation': ACL2026/human_understanding/lqm_linguistically_motivated_multidimensional_quality_metrics_for_machine_transl.md
     - 'MathAgent: Adversarial Evolution of Constraint Graphs for Mathematical Reasoning Data Synthesis': ACL2026/human_understanding/mathagent_adversarial_evolution_of_constraint_graphs_for_mathematical_reasoning_.md
     - 'MCGA: A Multi-task Classical Chinese Literary Genre Audio Corpus': ACL2026/human_understanding/mcga_a_multi-task_classical_chinese_literary_genre_audio_corpus.md
     - 'MTR-DuplexBench: Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models': ACL2026/human_understanding/mtr-duplexbench_towards_a_comprehensive_evaluation_of_multi-round_conversations_.md

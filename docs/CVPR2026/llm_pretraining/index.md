@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2026 预训练方向 9篇论文解读
+  CVPR2026 预训练方向9篇论文解读
 description: >-
-  9篇CVPR2026 预训练论文解读，主题涵盖：提出 MergeGuard，一种主动式双阶段权重保、本文提出 Evidential、提出 FlowMotion，一种无需训练的视频运动等，每篇含核心思想与方法详解。
+  9篇CVPR2026的预训练方向论文解读，收录 Defending Unauthorized Model M、Evidential Transformation Network、FlowMotion等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

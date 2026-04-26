@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICCV2025 AIGC检测方向 1篇论文解读
+  ICCV2025 AIGC检测方向1篇论文解读
 description: >-
-  1篇ICCV2025 AIGC检测论文解读，主题涵盖：提出 SPR（Spatial Preference等，每篇含核心思想与方法详解。
+  1篇ICCV2025的 AIGC 检测方向论文解读，收录 Spatial Preference Rewarding f等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

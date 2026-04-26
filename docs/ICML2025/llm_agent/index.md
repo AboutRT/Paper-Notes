@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2025 LLM Agent方向 14篇论文解读
+  ICML2025 LLM Agent方向14篇论文解读
 description: >-
-  14篇ICML2025 LLM Agent论文解读，主题涵盖：提出 AdvAgent，一个基于强化学习（DPO）、AGACCI 提出一个由 9 个专门化、提出 Aguvis，首个完全基于纯视觉的跨平台自主等，每篇含核心思想与方法详解。
+  14篇ICML2025的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

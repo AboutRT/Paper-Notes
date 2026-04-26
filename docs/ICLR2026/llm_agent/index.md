@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLM Agent方向 47篇论文解读
+  ICLR2026 LLM Agent方向47篇论文解读
 description: >-
-  47篇ICLR2026 LLM Agent论文解读，主题涵盖：提出 DeepSynth 基准，包含 120、提出 ACE（Agentic Context、提出AgentSynth pipeline等，每篇含核心思想与方法详解。
+  47篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

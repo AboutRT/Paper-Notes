@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2025 LLM效率方向 13篇论文解读
+  CVPR2025 LLM效率方向13篇论文解读
 description: >-
-  13篇CVPR2025 LLM效率论文解读，主题涵盖：提出 Associative Transforme、本文提出CARE Transformer、本文提出CARE（deCoupled等，每篇含核心思想与方法详解。
+  13篇CVPR2025的 LLM 效率方向论文解读，涵盖持续学习、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

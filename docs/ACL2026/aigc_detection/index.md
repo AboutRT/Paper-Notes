@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2026 AIGC检测方向 8篇论文解读
+  ACL2026 AIGC检测方向9篇论文解读
 description: >-
-  8篇ACL2026 AIGC检测论文解读，主题涵盖：提出 RACE（Rhetorical、BiasedTales-ML 构建了约 35、CiteGuard 提出了一个检索增强的智能体框架等，每篇含核心思想与方法详解。
+  9篇ACL2026的 AIGC 检测方向论文解读，涵盖 LLM、RAG、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔎 AIGC检测
 
-**💬 ACL2026** · **8** 篇论文解读
+**💬 ACL2026** · **9** 篇论文解读
 
 **[Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr.md)**
 
@@ -29,6 +29,10 @@ description: >-
 **[FlexGuard: Continuous Risk Scoring for Strictness-Adaptive LLM Content Moderation](flexguard_continuous_risk_scoring_for_strictness-adaptive_llm_content_moderation.md)**
 
 :   FlexGuard 提出了一种输出连续风险评分（0-100）而非二元安全/不安全判断的 LLM 审核模型，通过基于评分准则的蒸馏和 GRPO 风险对齐训练，在不同严格度部署场景下实现了 SOTA 的鲁棒性和准确率。
+
+**[Frankentext: Stitching Random Text Fragments into Long-Form Narratives](frankentext_stitching_random_text_fragments_into_long-form_narratives.md)**
+
+:   提出Frankentext范式，让LLM在极端约束下（90%文本逐字复制自人类写作）拼接随机人类文本片段为连贯长篇叙事，揭示现有AI文本检测器在混合作者场景下的严重失败（72%的Frankentext被误判为人类写作）。
 
 **[Reasoning-Based Refinement of Unsupervised Text Clusters with LLMs](reasoning-based_refinement_of_unsupervised_text_clusters_with_llms.md)**
 

@@ -1,8 +1,8 @@
 ---
 title: >-
-  NeurIPS2025 信号/通信方向 12篇论文解读
+  NeurIPS2025 信号/通信方向12篇论文解读
 description: >-
-  12篇NeurIPS2025 信号/通信论文解读，主题涵盖：提出Angular Steering、构建了 Infinity-Chat、提出 Bispectral Optimal等，每篇含核心思想与方法详解。
+  12篇NeurIPS2025的信号/通信方向论文解读，涵盖持续学习、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

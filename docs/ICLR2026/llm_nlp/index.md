@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICLR2026 LLM/NLP方向 39篇论文解读
+  ICLR2026 LLM/NLP方向39篇论文解读
 description: >-
-  39篇ICLR2026 LLM/NLP论文解读，主题涵盖：本文提出 AssetFormer，一个基于自回归、提出 AssetFormer，基于 Llama、提出 Compositional-ARC等，每篇含核心思想与方法详解。
+  39篇ICLR2026的 LLM/NLP 方向论文解读，涵盖 LLM、推理、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

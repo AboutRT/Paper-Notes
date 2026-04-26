@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICCV2025 NLP理解方向 1篇论文解读
+  ICCV2025 NLP理解方向1篇论文解读
 description: >-
-  1篇ICCV2025 NLP理解论文解读，主题涵盖：TITA 提出了一种无需任务标识的统一图像融合框架等，每篇含核心思想与方法详解。
+  1篇ICCV2025的 NLP 理解方向论文解读，收录 Balancing Task-Invariant Inter等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

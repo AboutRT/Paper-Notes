@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2025 LLM/NLP方向 19篇论文解读
+  ICML2025 LLM/NLP方向19篇论文解读
 description: >-
-  19篇ICML2025 LLM/NLP论文解读，主题涵盖：提出 AMCN（Adaptive、提出B-score指标，通过比较LLM在单轮(si、提出 BEST-Route（Best-of-n等，每篇含核心思想与方法详解。
+  19篇ICML2025的 LLM/NLP 方向论文解读，涵盖 LLM、少样本学习、Agent、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

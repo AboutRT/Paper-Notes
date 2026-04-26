@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2025 知识编辑方向 2篇论文解读
+  ICML2025 知识编辑方向2篇论文解读
 description: >-
-  2篇ICML2025 知识编辑论文解读，主题涵盖：通过在环形结构知识图谱上训练Transformer、本文提出 WikiBigEdit，一个包含 50等，每篇含核心思想与方法详解。
+  2篇ICML2025的知识编辑方向论文解读，收录 Representation Shattering in Transformers、WikiBigEdit等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

@@ -1,8 +1,8 @@
 ---
 title: >-
-  NeurIPS2025 目标检测方向 40篇论文解读
+  NeurIPS2025 目标检测方向40篇论文解读
 description: >-
-  40篇NeurIPS2025 目标检测论文解读，主题涵盖：提出 Capsule Prompt-Tuning、本文提出SpherePair损失函数、提出 Reasoning-based Bias等，每篇含核心思想与方法详解。
+  40篇NeurIPS2025的目标检测方向论文解读，涵盖目标检测、LLM、自监督学习、强化学习、推理、动态场景等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

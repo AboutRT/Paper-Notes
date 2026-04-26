@@ -1,8 +1,8 @@
 ---
 title: >-
-  ICML2025 物理学方向 6篇论文解读
+  ICML2025 物理学方向6篇论文解读
 description: >-
-  6篇ICML2025 物理学论文解读，主题涵盖：本文将群等变神经网络扩展到**紧致矩阵量子群**的、首次将 LoRA 应用于恒星光谱基础模型、提出 **Gravity-Bench-v1**等，每篇含核心思想与方法详解。
+  6篇ICML2025的物理学方向论文解读，收录 Compact Matrix Quantum Group E、Finetuning Stellar Spectra Fou、Gravity-Bench-v1等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

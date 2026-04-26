@@ -1,8 +1,8 @@
 ---
 title: >-
-  CVPR2025 社会计算方向 5篇论文解读
+  CVPR2025 社会计算方向5篇论文解读
 description: >-
-  5篇CVPR2025 社会计算论文解读，主题涵盖：将 Transformer 的深度方向视为离散时间、将 Transformer 的深度方向视为离散时间、提出 Classifier-guided等，每篇含核心思想与方法详解。
+  5篇CVPR2025的社会计算方向论文解读，收录 As Language Models Scale, Low-、As Language Models Scale, Low-、Classifier-guided CLIP Distill等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
