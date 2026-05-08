@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.23564](https://arxiv.org/abs/2505.23564)  
 **代码**: [GitHub](https://github.com/AIFrameResearch/SPO)  
-**领域**: 强化学习与推理训练  
+**领域**: LLM推理  
 **关键词**: 信用分配, 段级advantages, 蒙特卡洛估计, 树形采样, PPO改进
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.10281](https://arxiv.org/abs/2505.10281)  
-**代码**: https://github.com/kaka0910/MFogHub (有)  
+**代码**: [https://github.com/kaka0910/MFogHub](https://github.com/kaka0910/MFogHub)  
 **领域**: 遥感  
 **关键词**: 海雾检测, 海雾预测, 多区域多卫星, 遥感数据集, 泛化评估
 

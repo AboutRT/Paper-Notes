@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.16488](https://arxiv.org/abs/2507.16488)  
-**代码**: https://github.com/XavierZhang2002/ICR_Probe (有)  
+**代码**: [https://github.com/XavierZhang2002/ICR_Probe](https://github.com/XavierZhang2002/ICR_Probe)  
 **领域**: 视频理解 / LLM可解释性  
 **关键词**: 幻觉检测, 隐状态动态, 残差流, ICR分数, 轻量探针
 
@@ -123,7 +123,7 @@ tags:
 - [\[ACL 2026\] Distorted or Fabricated? A Survey on Hallucination in Video LLMs](../../ACL2026/video_understanding/distorted_or_fabricated_a_survey_on_hallucination_in_video_llms.md)
 - [\[ACL 2025\] Improving Dialogue State Tracking through Combinatorial Search for In-Context Examples](improving_dialogue_state_tracking_through_combinatorial_search_for_in-context_ex.md)
 - [\[NeurIPS 2025\] Structured Sparse Transition Matrices to Enable State Tracking in State-Space Models](../../NeurIPS2025/video_understanding/structured_sparse_transition_matrices_to_enable_state_tracking_in_state-space_mo.md)
-- [\[NeurIPS 2025\] GeoDynamics: A Geometric State-Space Neural Network for Understanding Brain Dynamics on Riemannian Manifolds](../../NeurIPS2025/video_understanding/geodynamics_a_geometric_state-space_neural_network_for_understanding_brain_dynam.md)
 - [\[ACL 2025\] Sparse-to-Dense: A Free Lunch for Lossless Acceleration of Video Understanding in LLMs](sparse-to-dense_a_free_lunch_for_lossless_acceleration_of_video_understanding_in.md)
+- [\[NeurIPS 2025\] DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products](../../NeurIPS2025/video_understanding/deltaproduct_improving_state-tracking_in_linear_rnns_via_householder_products.md)
 
 <!-- RELATED:END -->

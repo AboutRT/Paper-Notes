@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - adversarial attack
-  - VLM agent
+  - 多模态VLM
   - pop-up attack
   - computer use safety
   - agent robustness
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2411.02391](https://arxiv.org/abs/2411.02391)  
 **代码**: [https://github.com/SALT-NLP/PopupAttack](https://github.com/SALT-NLP/PopupAttack)  
-**领域**: LLM Agent  
+**领域**: 多模态VLM  
 **关键词**: adversarial attack, VLM agent, pop-up attack, computer use safety, agent robustness
 
 ## 一句话总结
@@ -148,6 +148,6 @@ tags:
 - [\[CVPR 2026\] AVR: Adaptive VLM Routing for Computer Use Agents](../../CVPR2026/multimodal_vlm/adaptive_vision-language_model_routing_for_computer_use_agents.md)
 - [\[AAAI 2026\] "Are We Done Yet?": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents](../../AAAI2026/multimodal_vlm/are_we_done_yet_a_vision-based_judge_for_autonomous_task_completion_of_computer_.md)
 - [\[ACL 2025\] MMINA: Benchmarking Multihop Multimodal Internet Agents](mmina_benchmarking_multihop_multimodal_internet_agents.md)
-- [\[ACL 2025\] VLMInferSlow: Evaluating the Efficiency Robustness of Large Vision-Language Models as a Service](vlminferslow_evaluating_the_efficiency_robustness_of.md)
+- [\[ACL 2025\] Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents](agent_rewardbench.md)
 
 <!-- RELATED:END -->

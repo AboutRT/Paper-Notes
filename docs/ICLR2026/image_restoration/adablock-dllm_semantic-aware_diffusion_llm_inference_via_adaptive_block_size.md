@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 图像恢复
-  - 扩散语言模型
+  - 图像复原
   - 半自回归解码
   - 自适应块大小
   - 语义感知调度
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.26432](https://arxiv.org/abs/2509.26432)  
 **代码**: [https://github.com/lgxi24/AdaBlock-dLLM](https://github.com/lgxi24/AdaBlock-dLLM)  
-**领域**: LLM 推理优化  
+**领域**: 图像复原  
 **关键词**: 扩散语言模型, 半自回归解码, 自适应块大小, 语义感知调度, 推理加速
 
 ## 一句话总结
@@ -157,7 +157,7 @@ LLaDA-Instruct 在 $B_0=64$+Cache 设置下取得最大提升：从 75.4% 到 80
 - [\[ICLR 2026\] Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs](skip_to_the_good_part_representation_structure_inference-time_layer_skipping_in_.md)
 - [\[ICLR 2026\] Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes](beyond_scattered_acceptance_fast_and_coherent_inference_for_dlms_via_longest_sta.md)
 - [\[ICLR 2026\] DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation](diffusionblocks_block-wise_neural_network_training_via_diffusion_interpretation.md)
-- [\[ICLR 2026\] Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution](trust_but_verify_adaptive_conditioning_for_reference-based_diffusion_super-resol.md)
 - [\[ICLR 2026\] Sharpness-Aware Machine Unlearning](sharpness-aware_machine_unlearning.md)
+- [\[ICLR 2026\] Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution](trust_but_verify_adaptive_conditioning_for_reference-based_diffusion_super-resol.md)
 
 <!-- RELATED:END -->

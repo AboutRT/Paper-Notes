@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI2026
   - 语音
-  - 发音评估
+  - 音频语音
   - 多粒度交互
   - 注意力机制
   - 残差层级结构
@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2601.01745](https://arxiv.org/abs/2601.01745)  
 **作者**: Hong Han, Hao-Chen Pei, Zhao-Zheng Nie, Xin Luo, Xin-Shun Xu  
 **代码**: 未公开  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: 发音评估, 多粒度交互, 注意力机制, 残差层级结构, CAPT, 语音评分  
 
 ## 一句话总结

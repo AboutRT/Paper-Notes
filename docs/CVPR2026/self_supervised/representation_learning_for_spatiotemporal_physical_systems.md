@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.13227](https://arxiv.org/abs/2603.13227)  
-**代码**: https://github.com/helenqu/physical-representation-learning (有)  
+**代码**: [https://github.com/helenqu/physical-representation-learning](https://github.com/helenqu/physical-representation-learning)  
 **领域**: 自监督学习  
 **关键词**: JEPA, 物理系统, 表示学习, 参数估计, 时空PDE
 

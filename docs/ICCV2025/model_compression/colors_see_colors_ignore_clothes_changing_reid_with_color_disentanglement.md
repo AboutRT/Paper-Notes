@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.07230](https://arxiv.org/abs/2507.07230)  
-**代码**: https://github.com/ppriyank/ICCV-CSCI-Person-ReID  
+**代码**: [https://github.com/ppriyank/ICCV-CSCI-Person-ReID](https://github.com/ppriyank/ICCV-CSCI-Person-ReID)  
 **领域**: 行人重识别 / 模型压缩  
 **关键词**: Clothes-Changing ReID, 颜色解耦, 自注意力机制, Vision Transformer, 外观偏差消除
 
@@ -147,8 +147,8 @@ $$\mathcal{L}_{DE} = \left| \frac{f_{CO}}{\|f_{CO}\|_2} \cdot \frac{f_{ReID}}{\|
 
 - [\[ICCV 2025\] Color Matching Using Hypernetwork-Based Kolmogorov-Arnold Networks (cmKAN)](color_matching_using_hypernetwork-based_kolmogorov-arnold_networks.md)
 - [\[CVPR 2025\] LSNet: See Large, Focus Small](../../CVPR2025/model_compression/lsnet_see_large_focus_small.md)
-- [\[ACL 2025\] SEE: Strategic Exploration and Exploitation for Cohesive In-Context Prompt Optimization](../../ACL2025/model_compression/see_strategic_exploration_exploitation_prompt_optimization.md)
-- [\[CVPR 2026\] Understanding and Enforcing Weight Disentanglement in Task Arithmetic](../../CVPR2026/model_compression/understanding_and_enforcing_weight_disentanglement_in_task_arithmetic.md)
 - [\[AAAI 2026\] Distilling Cross-Modal Knowledge via Feature Disentanglement](../../AAAI2026/model_compression/distilling_cross-modal_knowledge_via_feature_disentanglement.md)
+- [\[CVPR 2026\] Understanding and Enforcing Weight Disentanglement in Task Arithmetic](../../CVPR2026/model_compression/understanding_and_enforcing_weight_disentanglement_in_task_arithmetic.md)
+- [\[ICLR 2026\] Dataset Color Quantization: A Training-Oriented Framework for Dataset-Level Compression](../../ICLR2026/model_compression/dataset_color_quantization_a_training-oriented_framework_for_dataset-level_compr.md)
 
 <!-- RELATED:END -->

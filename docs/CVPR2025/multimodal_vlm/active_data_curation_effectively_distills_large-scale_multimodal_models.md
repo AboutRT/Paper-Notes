@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 知识蒸馏
+  - 多模态VLM
   - 主动数据筛选
   - 对比学习
   - CLIP压缩
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.18674](https://arxiv.org/abs/2411.18674)  
 **代码**: 无  
-**领域**: 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: 知识蒸馏, 主动数据筛选, 对比学习, CLIP压缩, 推理效率
 
 ## 一句话总结
@@ -150,8 +150,8 @@ tags:
 
 - [\[CVPR 2025\] Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models](img-diff_contrastive_data_synthesis_for_multimodal_large_language_models.md)
 - [\[ACL 2025\] Scalable Vision Language Model Training via High Quality Data Curation](../../ACL2025/multimodal_vlm/scalable_vision_language_model_training_via_high_quality_data_curation.md)
-- [\[CVPR 2025\] Synthetic Data is an Elegant GIFT for Continual Vision-Language Models](synthetic_data_is_an_elegant_gift_for_continual_vision-language_models.md)
-- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relationships?](../../ACL2025/multimodal_vlm/cordial-multimodal-llm-coherence-relationships.md)
 - [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relations?](../../ACL2025/multimodal_vlm/cordial_can_multimodal_large_language_models_effectively_understand_coherence_re.md)
+- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relationships?](../../ACL2025/multimodal_vlm/cordial-multimodal-llm-coherence-relationships.md)
+- [\[NeurIPS 2025\] PhysVLM-AVR: Active Visual Reasoning for Multimodal Large Language Models in Physical Environments](../../NeurIPS2025/multimodal_vlm/physvlm-avr_active_visual_reasoning_for_multimodal_large_language_models_in_phys.md)
 
 <!-- RELATED:END -->

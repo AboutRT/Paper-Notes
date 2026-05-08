@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.17856](https://arxiv.org/abs/2410.17856)  
-**代码**: https://github.com/craftjarvis/ROCKET-1  
-**领域**: LLM Agent / 具身智能  
+**代码**: [https://github.com/craftjarvis/ROCKET-1](https://github.com/craftjarvis/ROCKET-1)  
+**领域**: 图像分割  
 **关键词**: 视觉时序上下文提示, 开放世界交互, 分割引导策略, Minecraft, 层级智能体
 
 ## 一句话总结
@@ -138,6 +138,6 @@ ROCKET-1 提出了一种新的视觉时序上下文提示（visual-temporal cont
 - [\[CVPR 2025\] V-CLR: View-Consistent Learning for Open-World Instance Segmentation](v-clr_view-consistent_learning_for_open-world_instance_segmentation.md)
 - [\[ICCV 2025\] Open-World Skill Discovery from Unsegmented Demonstration Videos](../../ICCV2025/segmentation/open-world_skill_discovery_from_unsegmented_demonstration_videos.md)
 - [\[ECCV 2024\] CPM: Class-Conditional Prompting Machine for Audio-Visual Segmentation](../../ECCV2024/segmentation/cpm_class-conditional_prompting_machine_for_audio-visual_segmentation.md)
-- [\[CVPR 2025\] The Power of Context: How Multimodality Improves Image Super-Resolution](the_power_of_context_how_multimodality_improves_image_super-resolution.md)
+- [\[CVPR 2025\] The Devil is in Temporal Token: High Quality Video Reasoning Segmentation](the_devil_is_in_temporal_token_high_quality_video_reasoning_segmentation.md)
 
 <!-- RELATED:END -->

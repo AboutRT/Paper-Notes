@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.19245](https://arxiv.org/abs/2509.19245)  
 **代码**: [GitHub](https://github.com/benedettaliberatori/convisbench)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: video similarity, benchmark, semantic concepts, Large Multimodal Models, video retrieval
 
 ## 一句话总结
@@ -136,6 +136,6 @@ LLaVA-OV-7B 在 main subjects 上 P@1 达 66.4%，在 location 上 P@1 达 68.7%
 - [\[NeurIPS 2025\] Disentangled Concepts Speak Louder Than Words: Explainable Video Action Recognition](disentangled_concepts_speak_louder_than_words_explainable_video_action_recogniti.md)
 - [\[CVPR 2025\] Q-Bench-Video: Benchmark the Video Quality Understanding of LMMs](../../CVPR2025/video_understanding/q-bench-video_benchmark_the_video_quality_understanding_of_lmms.md)
 - [\[NeurIPS 2025\] Enhancing Temporal Understanding in Video-LLMs through Stacked Temporal Attention in Vision Encoders](enhancing_temporal_understanding_in_videollms_through_stacke.md)
-- [\[ICCV 2025\] Estimating 2D Camera Motion with Hybrid Motion Basis](../../ICCV2025/video_understanding/estimating_2d_camera_motion_with_hybrid_motion_basis.md)
+- [\[CVPR 2025\] SEAL: SEmantic Attention Learning for Long Video Representation](../../CVPR2025/video_understanding/seal_semantic_attention_learning_for_long_video_representation.md)
 
 <!-- RELATED:END -->

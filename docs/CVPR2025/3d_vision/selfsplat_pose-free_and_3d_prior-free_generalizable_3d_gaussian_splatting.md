@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17190](https://arxiv.org/abs/2411.17190)  
-**代码**: https://gynjn.github.io/selfsplat/  
+**代码**: [https://gynjn.github.io/selfsplat/](https://gynjn.github.io/selfsplat/)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 自监督学习, 无位姿重建, 深度估计, 新视图合成
 

@@ -53,10 +53,10 @@ Uni-Prompt ReID 基于 CLIP 视觉-语言模型，通过精心设计的多部分
 1. **MP-ReID 数据集构建**
 
    跨越 3 种模态 × 2 种平台：
-   - 地面 RGB（6 台海康威视 1920×1080 全彩相机）
-   - 地面红外（6 台红外夜视模式相机）
-   - UAV RGB（DJI Mavic 3T，3840×2160）
-   - UAV 热成像（DJI Mavic 3T 热感相机，640×512）
+    - 地面 RGB（6 台海康威视 1920×1080 全彩相机）
+    - 地面红外（6 台红外夜视模式相机）
+    - UAV RGB（DJI Mavic 3T，3840×2160）
+    - UAV 热成像（DJI Mavic 3T 热感相机，640×512）
 
    数据规模：1930 个身份、136,156 个标注框、14 台相机、总视频时长超 13 小时。UAV 在 5m/7m/10m 三种高度以 30-80° 角度采集。所有数据经过面部马赛克处理并删除原始素材以保护隐私。
 
@@ -64,17 +64,17 @@ Uni-Prompt ReID 基于 CLIP 视觉-语言模型，通过精心设计的多部分
 
    文本提示由三部分串联组成：
 
-   $$t_i(a) = X_1(a) \cdots X_M(a) \; P_1(a) \cdots P_R(a) \; M_1(a) \cdots M_B(a), \text{person}_i$$
+    $t_i(a) = X_1(a) \cdots X_M(a) \; P_1(a) \cdots P_R(a) \; M_1(a) \cdots M_B(a), \text{person}_i$
 
-   - **Specific ReID Prompt** ($X$)：编码个体特有信息（身份级别）
-   - **Modality-Aware Prompt** ($M$)：捕获模态特定细节（RGB vs 红外 vs 热成像）
-   - **Platform-Aware Prompt** ($P$)：融入平台特定上下文（地面 vs 航拍）
+    - **Specific ReID Prompt** ($X$)：编码个体特有信息（身份级别）
+    - **Modality-Aware Prompt** ($M$)：捕获模态特定细节（RGB vs 红外 vs 热成像）
+    - **Platform-Aware Prompt** ($P$)：融入平台特定上下文（地面 vs 航拍）
 
 3. **视觉增强网络 (Visual-Enhanced Network)**
 
    设计轻量级神经网络 $g_\theta(\cdot)$ 将图像特征 $a$ 映射为上下文向量：
 
-   $$\sigma = (\sigma_X, \sigma_P, \sigma_M) = g_\theta(a)$$
+    $\sigma = (\sigma_X, \sigma_P, \sigma_M) = g_\theta(a)$
 
    然后加到对应提示上：$S_m(a) = [S]_m + \sigma_S$
 

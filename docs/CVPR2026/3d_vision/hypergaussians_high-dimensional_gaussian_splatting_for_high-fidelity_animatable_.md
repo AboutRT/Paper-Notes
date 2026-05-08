@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2507.02803](https://arxiv.org/abs/2507.02803)  
-**代码**: https://gserifi.github.io/HyperGaussians  
+**代码**: [https://gserifi.github.io/HyperGaussians](https://gserifi.github.io/HyperGaussians)  
 **领域**: 3D视觉  
 **关键词**: 高斯溅射, 人脸头像, 高维高斯, 面部动画, 条件分布
 
@@ -120,10 +120,10 @@ HyperGaussians是一个即插即用的表示增强模块。原始pipeline（如F
 
 ## 相关论文
 
-- [\[CVPR 2026\] 3D Gaussian Splatting with Self-Constrained Priors for High Fidelity Surface Reconstruction](3d_gaussian_splatting_with_self-constrained_priors_for_high_fidelity_surface_rec.md)
-- [\[CVPR 2026\] Motion-Aware Animatable Gaussian Avatars Deblurring](motion-aware_animatable_gaussian_avatars_deblurring.md)
 - [\[CVPR 2026\] ProgressiveAvatars: Progressive Animatable 3D Gaussian Avatars](progressiveavatars_progressive_animatable_3d_gaussian_avatars.md)
-- [\[CVPR 2026\] TopoMesh: High-Fidelity Mesh Autoencoding via Topological Unification](topomesh_high-fidelity_mesh_autoencoding_via_topological_unification.md)
+- [\[CVPR 2026\] Motion-Aware Animatable Gaussian Avatars Deblurring](motion-aware_animatable_gaussian_avatars_deblurring.md)
+- [\[CVPR 2026\] 3D Gaussian Splatting with Self-Constrained Priors for High Fidelity Surface Reconstruction](3d_gaussian_splatting_with_self-constrained_priors_for_high_fidelity_surface_rec.md)
 - [\[CVPR 2026\] Neural Gabor Splatting: Enhanced Gaussian Splatting with Neural Gabor for High-frequency Surface Reconstruction](neural_gabor_splatting.md)
+- [\[CVPR 2026\] TopoMesh: High-Fidelity Mesh Autoencoding via Topological Unification](topomesh_high-fidelity_mesh_autoencoding_via_topological_unification.md)
 
 <!-- RELATED:END -->

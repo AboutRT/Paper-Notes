@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18828](https://arxiv.org/abs/2505.18828)  
 **代码**: 无  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: Pandora's Box, prophet inequality, online learning, regret bound, contextual linear bandits
 
 ## 一句话总结

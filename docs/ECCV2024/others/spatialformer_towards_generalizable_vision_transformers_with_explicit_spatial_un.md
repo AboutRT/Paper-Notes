@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **机构**: 清华大学
-**代码**: https://github.com/Euphoria16/SpatialFormer  
+**代码**: [https://github.com/Euphoria16/SpatialFormer](https://github.com/Euphoria16/SpatialFormer)  
 **领域**: 视觉Transformer  
 **关键词**: Vision Transformer, 空间理解, 空间token, 双边交叉注意力, 可迁移表示学习
 

@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 自动问题建模
   - 高成本仿真
-  - LLM微调
+  - 信号通信
   - 无求解器评估
   - 天线设计
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2512.18682](https://arxiv.org/abs/2512.18682)  
 **代码**: 无  
-**领域**: LLM应用 / 自动化建模  
+**领域**: 信号通信  
 **关键词**: 自动问题建模, 高成本仿真, LLM微调, 无求解器评估, 天线设计
 
 ## 一句话总结
@@ -141,10 +141,10 @@ APF 由四个模块组成：(1) 数据生成——从历史仿真数据中提取
 
 ## 相关论文
 
-- [\[ICLR 2026\] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](../../ICLR2026/signal_comm/multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)
 - [\[CVPR 2026\] ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](../../CVPR2026/signal_comm/chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)
+- [\[ICLR 2026\] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](../../ICLR2026/signal_comm/multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)
 - [\[ACL 2025\] WirelessMathBench: A Mathematical Modeling Benchmark for LLMs in Wireless Communications](../../ACL2025/signal_comm/wirelessmathbench_a_mathematical_modeling_benchmark_for_llms_in_wireless_communi.md)
 - [\[ICML 2025\] Reward-Augmented Data Enhances Direct Preference Alignment of LLMs](../../ICML2025/signal_comm/reward-augmented_data_enhances_direct_preference_alignment_of_llms.md)
-- [\[ACL 2026\] UCS: Estimating Unseen Coverage for Improved In-Context Learning](ucs_estimating_unseen_coverage_for_improved_in-context_learning.md)
+- [\[ICML 2025\] Deep Electromagnetic Structure Design Under Limited Evaluation Budgets](../../ICML2025/signal_comm/deep_electromagnetic_structure_design_under_limited_evaluation_budgets.md)
 
 <!-- RELATED:END -->

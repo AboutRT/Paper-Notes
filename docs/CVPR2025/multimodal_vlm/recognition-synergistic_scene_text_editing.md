@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 场景文字编辑
   - 文字识别协同
-  - 循环自监督微调
+  - 多模态VLM
   - 风格内容解耦
   - 多模态并行解码
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.08387](https://arxiv.org/abs/2503.08387)  
-**代码**: https://github.com/ZhengyaoFang/RS-STE (有)  
+**代码**: [https://github.com/ZhengyaoFang/RS-STE](https://github.com/ZhengyaoFang/RS-STE)  
 **领域**: 多模态VLM  
 **关键词**: 场景文字编辑, 文字识别协同, 循环自监督微调, 风格内容解耦, 多模态并行解码
 
@@ -136,9 +136,9 @@ $$\mathcal{L}^{cyc} = \lambda_4 \mathcal{L}_{mse}^{cyc} + \lambda_5 \mathcal{L}_
 ## 相关论文
 
 - [\[ICCV 2025\] Synergistic Prompting for Robust Visual Recognition with Missing Modalities](../../ICCV2025/multimodal_vlm/synergistic_prompting_for_robust_visual_recognition_with_missing_modalities.md)
-- [\[CVPR 2025\] Embodied Scene Understanding for Vision Language Models via MetaVQA](embodied_scene_understanding_for_vision_language_models_via_metavqa.md)
-- [\[CVPR 2025\] MarkushGrapher: Joint Visual and Textual Recognition of Markush Structures](markushgrapher_joint_visual_and_textual_recognition_of_markush_structures.md)
 - [\[CVPR 2025\] StarVector: Generating Scalable Vector Graphics Code from Images and Text](starvector_generating_scalable_vector_graphics_code_from_images_and_text.md)
 - [\[CVPR 2026\] HOG-Layout: Hierarchical 3D Scene Generation, Optimization and Editing via Vision-Language Models](../../CVPR2026/multimodal_vlm/hog_layout_hierarchical_3d_scene_generation_optimization_and_editing.md)
+- [\[CVPR 2025\] OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation](opening_a_comprehensive_benchmark_for_judging_open-ended_interleaved_image-text_.md)
+- [\[CVPR 2025\] Embodied Scene Understanding for Vision Language Models via MetaVQA](embodied_scene_understanding_for_vision_language_models_via_metavqa.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.06271](https://arxiv.org/abs/2506.06271)  
 **代码**: [jonathsch.github.io/becominglit](https://jonathsch.github.io/becominglit)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: relightable avatar, 3D Gaussian Splatting, hybrid neural shading, light stage, BRDF, face reconstruction  
 
 ## 一句话总结

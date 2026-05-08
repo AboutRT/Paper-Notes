@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2504.10485](https://arxiv.org/abs/2504.10485)  
 **代码**: [opendrivelab.com/Nexus](https://opendrivelab.com/Nexus)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 场景生成, 解耦扩散, 自动驾驶仿真, 安全关键场景, 交通布局
 
 ## 一句话总结

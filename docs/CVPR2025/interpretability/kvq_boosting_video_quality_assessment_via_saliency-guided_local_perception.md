@@ -2,10 +2,10 @@
 title: >-
   [论文解读] KVQ: Boosting Video Quality Assessment via Saliency-Guided Local Perception
 description: >-
-  [CVPR 2025][视频质量评估] KVQ 受人类视觉系统启发，将视频全局质量显式解耦为视觉显著性和局部纹理两个因素，通过 Fusion-Window Attention 提取跨区域显著性、Local Perception Constraint 增强独立区域的纹理感知，在五个 VQA benchmark 上显著超越 SOTA。
+  [CVPR 2025][可解释性] KVQ 受人类视觉系统启发，将视频全局质量显式解耦为视觉显著性和局部纹理两个因素，通过 Fusion-Window Attention 提取跨区域显著性、Local Perception Constraint 增强独立区域的纹理感知，在五个 VQA benchmark 上显著超越 SOTA。
 tags:
   - CVPR 2025
-  - 视频质量评估
+  - 可解释性
   - 视觉显著性
   - 局部纹理感知
   - 融合窗口注意力
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.10259](https://arxiv.org/abs/2503.10259)  
-**代码**: https://github.com/qyp2000/KVQ  
-**领域**: 视频质量评估  
+**代码**: [https://github.com/qyp2000/KVQ](https://github.com/qyp2000/KVQ)  
+**领域**: 可解释性  
 **关键词**: 视频质量评估, 视觉显著性, 局部纹理感知, 融合窗口注意力, 人类视觉系统
 
 ## 一句话总结
@@ -128,8 +128,8 @@ Transfer learning 场景下 KVQ 优势更明显：KoNViD-1k 上 SRCC 0.909（vs 
 ## 相关论文
 
 - [\[AAAI 2026\] DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment](../../AAAI2026/interpretability/drexperts_differential_refinement_of_distortion-aware_experts_for_blind_image_qu.md)
-- [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](../../CVPR2026/interpretability/text-guided_fine-grained_video_anomaly_understanding.md)
 - [\[CVPR 2025\] Geometry-Guided Camera Motion Understanding in VideoLLMs](geometry-guided_camera_motion_understanding_in_videollms.md)
+- [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](../../CVPR2026/interpretability/text-guided_fine-grained_video_anomaly_understanding.md)
 - [\[ICML 2025\] Towards Flexible Perception with Visual Memory](../../ICML2025/interpretability/towards_flexible_perception_with_visual_memory.md)
 - [\[NeurIPS 2025\] H-SPLID: HSIC-based Saliency Preserving Latent Information Decomposition](../../NeurIPS2025/interpretability/h-splid_hsic-based_saliency_preserving_latent_information_decomposition.md)
 

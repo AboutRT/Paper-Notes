@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.15909](https://arxiv.org/abs/2602.15909)  
 **代码**: [github.com/zpforlove/Resp-Agent](https://github.com/zpforlove/Resp-Agent)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 呼吸音分析, 多模态融合, 可控音频生成, 主动对抗课程学习, 流匹配, 数据增强
 
 ## 一句话总结

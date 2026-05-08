@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.15098](https://arxiv.org/abs/2403.15098)  
-**代码**: https://github.com/vita-epfl/UniTraj (有)  
+**代码**: [https://github.com/vita-epfl/UniTraj](https://github.com/vita-epfl/UniTraj)  
 **领域**: 自动驾驶  
 **关键词**: 轨迹预测, 统一框架, 跨数据集泛化, 数据规模扩展, 多数据集训练
 

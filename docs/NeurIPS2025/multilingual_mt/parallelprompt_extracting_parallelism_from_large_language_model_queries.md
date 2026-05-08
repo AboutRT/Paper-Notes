@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 查询内并行
   - 提示学习
-  - LLM推理加速
+  - 多语言翻译
   - benchmark
   - 语义保真度
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.18728](https://arxiv.org/abs/2506.18728)  
 **代码**: 有（开源benchmark + C++执行框架）  
-**领域**: LLM效率  
+**领域**: 多语言翻译  
 **关键词**: 查询内并行, Prompt分解, LLM推理加速, benchmark, 语义保真度
 
 ## 一句话总结
@@ -119,9 +119,9 @@ ParallelPrompt包含三个组件：(1) **数据筛选管道**：从LMSYS-Chat-1M
 ## 相关论文
 
 - [\[NeurIPS 2025\] Exploring the Translation Mechanism of Large Language Models](exploring_the_translation_mechanism_of_large_language_models.md)
-- [\[NeurIPS 2025\] Enhancing Multilingual LLM Pretraining with Model-Based Data Selection](enhancing_multilingual_llm_pretraining_with_model-based_data_selection.md)
+- [\[NeurIPS 2025\] XIFBench: Evaluating Large Language Models on Multilingual Instruction Following](xifbench_evaluating_large_language_models_on_multilingual_instruction_following.md)
 - [\[ACL 2025\] Group then Scale: Dynamic Mixture-of-Experts Multilingual Language Model](../../ACL2025/multilingual_mt/group_then_scale_dynamic_mixture-of-experts_multilingual_language_model.md)
+- [\[NeurIPS 2025\] Enhancing Multilingual LLM Pretraining with Model-Based Data Selection](enhancing_multilingual_llm_pretraining_with_model-based_data_selection.md)
 - [\[ACL 2025\] Disentangling Language and Culture for Evaluating Multilingual Large Language Models](../../ACL2025/multilingual_mt/disentangle_language_culture.md)
-- [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](../../ACL2025/multilingual_mt/cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 
 <!-- RELATED:END -->

@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.00148](https://arxiv.org/abs/2412.00148)  
-**代码**: https://motionmodes.github.io (有)  
-**领域**: 视频理解  
+**代码**: [https://motionmodes.github.io](https://motionmodes.github.io)  
+**领域**: 视频生成  
 **关键词**: 运动预测, 免训练方法, 扩散模型引导, 物体运动多样性, 图像到视频
 
 ## 一句话总结

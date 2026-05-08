@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.22201](https://arxiv.org/abs/2503.22201)  
-**代码**: https://github.com/Jaewoo97/KDTF  
+**代码**: [https://github.com/Jaewoo97/KDTF](https://github.com/Jaewoo97/KDTF)  
 **领域**: 自动驾驶 / 轨迹预测  
 **关键词**: 行人轨迹预测, 多模态知识蒸馏, 人体姿态, 文本描述, 瞬时预测
 

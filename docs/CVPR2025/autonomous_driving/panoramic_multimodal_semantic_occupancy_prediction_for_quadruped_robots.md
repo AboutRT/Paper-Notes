@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13108](https://arxiv.org/abs/2603.13108)  
 **代码**: PanoMMOcc (待开源)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: occupancy prediction, panoramic perception, multimodal fusion, quadruped robot, 3D scene understanding
 
 ## 一句话总结

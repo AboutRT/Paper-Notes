@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Image Quality Assessment: Investigating Causal Perceptual Effects with Abductive Counterfactual Inference
 description: >-
-  [CVPR 2025][图像质量评估] 将全参考图像质量评估（FR-IQA）形式化为反事实推断问题，通过结构因果模型（SCM）区分深度特征中与感知质量因果相关的成分和噪声成分，实现无需训练、可跨骨干网络的鲁棒质量预测，在多个基准数据集上取得竞争性性能。
+  [CVPR 2025][因果推理] 将全参考图像质量评估（FR-IQA）形式化为反事实推断问题，通过结构因果模型（SCM）区分深度特征中与感知质量因果相关的成分和噪声成分，实现无需训练、可跨骨干网络的鲁棒质量预测，在多个基准数据集上取得竞争性性能。
 tags:
   - CVPR 2025
-  - 图像质量评估
+  - 因果推理
   - 因果推理
   - 反事实推断
   - 全参考IQA
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.16939](https://arxiv.org/abs/2412.16939)  
-**代码**: https://anonymous.4open.science/r/DeepCausalQuality-25BC (有)  
+**代码**: [https://anonymous.4open.science/r/DeepCausalQuality-25BC](https://anonymous.4open.science/r/DeepCausalQuality-25BC)  
 **领域**: 因果推理  
 **关键词**: 图像质量评估, 因果推理, 反事实推断, 全参考IQA, 感知质量
 

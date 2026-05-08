@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.06686](https://arxiv.org/abs/2506.06686)  
 **代码**: [chili-lab/D-Intervention](https://github.com/chili-lab/D-Intervention)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 表示干预, 分布级控制, 重参数化, 概念子空间, 表示微调
 
 ## 一句话总结
@@ -195,7 +195,7 @@ $$\mathcal{L} = -\mathbb{E}_{(X,Y)}[\log P_{\mathcal{M} \circ \mathcal{I}}(Y | f
 - [\[ICML 2025\] Correlated Errors in Large Language Models](correlated_errors_in_large_language_models.md)
 - [\[CVPR 2025\] Sufficient Invariant Learning for Distribution Shift](../../CVPR2025/llm_evaluation/sufficient_invariant_learning_for_distribution_shift.md)
 - [\[AAAI 2026\] Sampling Control for Imbalanced Calibration in Semi-Supervised Learning](../../AAAI2026/llm_evaluation/sampling_control_for_imbalanced_calibration_in_semi-supervised_learning.md)
+- [\[ICML 2025\] Position: Theory of Mind Benchmarks are Broken for Large Language Models](position_theory_of_mind_benchmarks_are_broken_for_large_language_models.md)
 - [\[NeurIPS 2025\] Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention](../../NeurIPS2025/llm_evaluation/generalization_error_analysis_for_selective_state-space_models_through_the_lens_.md)
-- [\[ICML 2025\] G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration](g-sim_generative_simulations_with_large_language_models_and_gradient-free_calibr.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.17928](https://arxiv.org/abs/2503.17928)  
-**代码**: https://github.com/zhangzef/NaPO  
+**代码**: [https://github.com/zhangzef/NaPO](https://github.com/zhangzef/NaPO)  
 **领域**: 对齐RLHF  
 **关键词**: 模态偏差, 噪声感知优化, 偏好学习, MLLM去偏, 幻觉缓解
 

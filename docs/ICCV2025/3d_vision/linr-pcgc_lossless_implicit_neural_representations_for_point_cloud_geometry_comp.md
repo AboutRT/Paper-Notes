@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.15686](https://arxiv.org/abs/2507.15686)  
-**代码**: https://huangwenjie2023.github.io/LINR-PCGC/  
+**代码**: [https://huangwenjie2023.github.io/LINR-PCGC/](https://huangwenjie2023.github.io/LINR-PCGC/)  
 **领域**: 3D视觉 / 点云压缩  
 **关键词**: 点云无损压缩, 隐式神经表征, 多尺度稀疏卷积, GoP编码, 模型压缩
 

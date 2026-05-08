@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2501.02086](https://arxiv.org/abs/2501.02086)  
 **代码**: 未开源  
-**领域**: model_compression / LLM剪枝  
+**领域**: 模型压缩  
 **关键词**: 结构化剪枝, 动态剪枝, 指令感知, 稀疏预测器, SoftTopK, 端侧推理
 
 ## 一句话总结
@@ -130,10 +130,10 @@ $$\mathcal{L} = \sum_{k=1}^{K-1} \sum_{x_i \in \mathbf{x}^{(k+1)}} \ell\big[f(\m
 
 ## 相关论文
 
+- [\[ICML 2025\] SlimLLM: Accurate Structured Pruning for Large Language Models](slimllm_accurate_structured_pruning_for_large_language_models.md)
 - [\[ICML 2025\] Olica: Efficient Structured Pruning of Large Language Models without Retraining](olica_efficient_structured_pruning_of_large_language_models_without_retraining.md)
 - [\[ICML 2025\] DLP: Dynamic Layerwise Pruning in Large Language Models](dlp_dynamic_layerwise_pruning_in_large_language_models.md)
 - [\[ACL 2025\] BlockPruner: Fine-grained Pruning for Large Language Models](../../ACL2025/model_compression/blockpruner_fine-grained_pruning_for_large_language_models.md)
 - [\[ACL 2025\] Wanda++: Pruning Large Language Models via Regional Gradients](../../ACL2025/model_compression/wanda_pruning_large_language_models_via_regional_gradients.md)
-- [\[ICML 2025\] Fleet of Agents: Coordinated Problem Solving with Large Language Models](fleet_of_agents_coordinated_problem_solving_with_large_language_models.md)
 
 <!-- RELATED:END -->

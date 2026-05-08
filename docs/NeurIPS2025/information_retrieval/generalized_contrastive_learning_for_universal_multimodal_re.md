@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Generalized Contrastive Learning for Universal Multimodal Retrieval
 description: >-
-  [NeurIPS 2025][多模态] 提出 Generalized Contrastive Learning (GCL)——在 mini-batch 内对所有 6 种模态对组合（image↔text, image↔image+text, text↔image+text）执行对比学习，无需构建新的三元组数据集，仅用现有图文对即可在 M-BEIR 上将 VISTA 的平均检索精度从 21.18 提升到 34.06（+60.8%），在 MMEB 的 text→image+text 任务上从 10.1% 提升到 31.1%。
+  [NeurIPS 2025][信息检索] 提出 Generalized Contrastive Learning (GCL)——在 mini-batch 内对所有 6 种模态对组合（image↔text, image↔image+text, text↔image+text）执行对比学习，无需构建新的三元组数据集，仅用现有图文对即可在 M-BEIR 上将 VISTA 的平均检索精度从 21.18 提升到 34.06（+60.8%），在 MMEB 的 text→image+text 任务上从 10.1% 提升到 31.1%。
 tags:
   - NeurIPS 2025
-  - 多模态
+  - 信息检索
   - 对比学习
   - GCL
   - fused modality
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.25638](https://arxiv.org/abs/2509.25638)  
 **代码**: 未提及  
-**领域**: 多模态VLM / 多模态检索  
+**领域**: 信息检索  
 **关键词**: multimodal retrieval, contrastive learning, GCL, fused modality, CLIP
 
 ## 一句话总结
@@ -130,9 +130,9 @@ CoVR 视频检索（Recall@1）：37.32 vs CL 33.76 vs Pretrained 31.22。
 ## 相关论文
 
 - [\[CVPR 2026\] MuCo: Multi-turn Contrastive Learning for Multimodal Embedding Model](../../CVPR2026/information_retrieval/muco_multi-turn_contrastive_learning_for_multimodal_embedding_model.md)
-- [\[CVPR 2025\] GENIUS: A Generative Framework for Universal Multimodal Search](../../CVPR2025/information_retrieval/genius_a_generative_framework_for_universal_multimodal_search.md)
 - [\[NeurIPS 2025\] Scaling Language-Centric Omnimodal Representation Learning](scaling_language-centric_omnimodal_representation_learning.md)
-- [\[NeurIPS 2025\] The Narrow Gate: Localized Image-Text Communication in Native Multimodal Models](the_narrow_gate_localized_imagetext_communication_in_native.md)
-- [\[CVPR 2025\] Advancing Myopia To Holism: Fully Contrastive Language-Image Pre-training](../../CVPR2025/information_retrieval/advancing_myopia_to_holism_fully_contrastive_language-image_pre-training.md)
+- [\[CVPR 2025\] GENIUS: A Generative Framework for Universal Multimodal Search](../../CVPR2025/information_retrieval/genius_a_generative_framework_for_universal_multimodal_search.md)
+- [\[NeurIPS 2025\] SuperCLIP: CLIP with Simple Classification Supervision](superclip_clip_with_simple_classification_supervision.md)
+- [\[NeurIPS 2025\] Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering](benchmarking_retrievalaugmented_multimodal_generation_for_do.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.11417](https://arxiv.org/abs/2510.11417)  
 **代码**: [GitHub](https://github.com/juneyeeHu/LM-EEC)  
-**领域**: segmentation / video understanding  
+**领域**: 图像分割  
 **关键词**: 自中心-外中心对应, SAM2, MoE, 视频对象分割, 长期记忆  
 
 ## 一句话总结

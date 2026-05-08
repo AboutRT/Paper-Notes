@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.20693](https://arxiv.org/abs/2511.20693)  
-**代码**: https://github.com/pandawei-ele/A2FLOW  
+**代码**: [https://github.com/pandawei-ele/A2FLOW](https://github.com/pandawei-ele/A2FLOW)  
 **领域**: LLM Agent  
 **关键词**: 工作流自动化, 抽象算子, MCTS, 算子记忆机制, 具身任务泛化
 

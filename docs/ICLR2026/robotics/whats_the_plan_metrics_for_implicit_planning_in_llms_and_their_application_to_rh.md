@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.20164](https://arxiv.org/abs/2601.20164)  
 **代码**: 有（附supplementary material）  
-**领域**: LLM 可解释性 / 机制理解  
+**领域**: 机器人  
 **关键词**: implicit planning, forward planning, backward planning, activation steering, rhyme generation
 
 ## 一句话总结

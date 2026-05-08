@@ -9,7 +9,7 @@ tags:
   - 模型混合
   - Beam Search
   - BERT
-  - 大语言模型
+  - 其他
 ---
 
 # Mixture of Small and Large Models for Chinese Spelling Check
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.06887](https://arxiv.org/abs/2506.06887)  
 **代码**: [https://github.com/zhqiao-nlp/MSLLM](https://github.com/zhqiao-nlp/MSLLM)  
-**领域**: NLP理解  
+**领域**: 其他  
 **关键词**: 中文拼写检查、模型混合、Beam Search、BERT、大语言模型
 
 ## 一句话总结
@@ -129,8 +129,8 @@ tags:
 
 - [\[ACL 2025\] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning](more_a_mixture_of_low-rank_experts_for_adaptive_multi-task_learning.md)
 - [\[ACL 2025\] RMoA: Optimizing Mixture-of-Agents through Diversity Maximization and Residual Compensation](rmoa_optimizing_mixture-of-agents_through_diversity_maximization_and_residual_co.md)
-- [\[ACL 2026\] Are Large Language Models Economically Viable for Industry Deployment?](../../ACL2026/others/are_large_language_models_economically_viable_for_industry_deployment.md)
 - [\[ACL 2025\] AnalyticKWS: Towards Exemplar-Free Analytic Class Incremental Learning for Small-footprint Keyword Spotting](analytickws_towards_exemplar-free_analytic_class_incremental_learning_for_small-.md)
+- [\[ACL 2026\] Are Large Language Models Economically Viable for Industry Deployment?](../../ACL2026/others/are_large_language_models_economically_viable_for_industry_deployment.md)
 - [\[ACL 2025\] The Hidden Attention of Mamba Models](the_hidden_attention_of_mamba_models.md)
 
 <!-- RELATED:END -->

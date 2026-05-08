@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Second Language (Arabic) Acquisition of LLMs via Progressive Vocabulary Expansion
 description: >-
-  [ACL 2025][Arabic LLM] 受人类第二语言习得启发，提出渐进式词表扩展（Progressive Vocabulary Expansion）方法，通过分阶段指数增长地扩展阿拉伯语子词到 LLaMA2 词表中，在保留原模型英语知识的同时高效适配阿拉伯语，构建出 AraLLaMA 7B/13B 模型。
+  [ACL 2025][LLM预训练] 受人类第二语言习得启发，提出渐进式词表扩展（Progressive Vocabulary Expansion）方法，通过分阶段指数增长地扩展阿拉伯语子词到 LLaMA2 词表中，在保留原模型英语知识的同时高效适配阿拉伯语，构建出 AraLLaMA 7B/13B 模型。
 tags:
   - ACL 2025
-  - Arabic LLM
+  - LLM预训练
   - vocabulary expansion
   - language adaptation
   - BPE
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.12310](https://arxiv.org/abs/2412.12310)  
 **代码**: [FreedomIntelligence/AraLLaMa](https://github.com/FreedomIntelligence/AraLLaMa)  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: Arabic LLM, vocabulary expansion, language adaptation, BPE, tokenization, continual pre-training
 
 ## 一句话总结
@@ -129,8 +129,8 @@ tags:
 
 - [\[ACL 2025\] Large Vocabulary Size Improves Large Language Models](large_vocabulary_size_improves_large_language_models.md)
 - [\[ACL 2025\] TokAlign: Efficient Vocabulary Adaptation via Token Alignment](tokalign_vocab_adaptation.md)
-- [\[ACL 2025\] FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling](fr_spec_speculative_sampling.md)
+- [\[ACL 2025\] Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning](making_llms_better_many-to-many_speech-to-text_translators_with_curriculum_learn.md)
+- [\[ICLR 2026\] FictionalQA: A Dataset for Studying Memorization and Knowledge Acquisition](../../ICLR2026/llm_pretraining/fictionalqa_a_dataset_for_studying_memorization_and_knowledge_acquisition.md)
 - [\[ICLR 2026\] Lossless Vocabulary Reduction for Auto-Regressive Language Models](../../ICLR2026/llm_pretraining/lossless_vocabulary_reduction_for_auto-regressive_language_models.md)
-- [\[ACL 2025\] Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation](synthesizing_post-training_data_for_llms_through_multi-agent_simulation.md)
 
 <!-- RELATED:END -->

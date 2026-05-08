@@ -153,9 +153,9 @@ $$\mathcal{L} = \mathcal{L}_{id} + \lambda_{orth} \mathcal{L}_{orth} + \lambda_{
 ## 相关论文
 
 - [\[CVPR 2026\] AR²-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos](ar2-4fv_anchored_referring_and_re-identification_for_long-term_grounding_in_fixe.md)
-- [\[CVPR 2026\] Stake the Points: Structure-Faithful Instance Unlearning](stake_the_points_structure-faithful_instance_unlearning.md)
-- [\[CVPR 2026\] TIACam: Text-Anchored Invariant Feature Learning with Auto-Augmentation for Camera-Robust Zero-Watermarking](tiacam_text-anchored_invariant_feature_learning_with_auto-augmentation_for_camer.md)
-- [\[NeurIPS 2025\] SSTAG: Structure-Aware Self-Supervised Learning Method for Text-Attributed Graphs](../../NeurIPS2025/object_detection/sstag_structure-aware_self-supervised_learning_method_for_text-attributed_graphs.md)
-- [\[ICCV 2025\] Semantic Discrepancy-aware Detector for Image Forgery Identification](../../ICCV2025/object_detection/semantic_discrepancy-aware_detector_for_image_forgery_identification.md)
+- [\[CVPR 2026\] Foundation Model Priors Enhance Object Focus in Feature Space for Source-Free Object Detection](foundation_model_priors_enhance_object_focus_in_feature_space_for_source-free_ob.md)
+- [\[CVPR 2026\] PaQ-DETR: Learning Pattern and Quality-Aware Dynamic Queries for Object Detection](paq-detr_learning_pattern_and_quality-aware_dynamic_queries_for_object_detection.md)
+- [\[CVPR 2026\] DA-Mamba: Learning Domain-Aware State Space Model for Global-Local Alignment in Domain Adaptive Object Detection](da-mamba_learning_domain-aware_state_space_model_for_global-local_alignment_in_d.md)
+- [\[CVPR 2025\] RSAR: Restricted State Angle Resolver and Rotated SAR Benchmark](../../CVPR2025/object_detection/rsar_restricted_state_angle_resolver_and_rotated_sar_benchmark.md)
 
 <!-- RELATED:END -->

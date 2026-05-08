@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.08530](https://arxiv.org/abs/2601.08530)  
 **代码**: 无  
-**领域**: 算法博弈论 / 参数化复杂度 / 竞赛操纵  
+**领域**: 其他  
 **关键词**: tournament fixing, knockout tournament, parameterized complexity, FPT, color coding
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.11916](https://arxiv.org/abs/2509.11916)  
 **代码**: [GitHub](https://github.com/Lixeeone/NeuroGaze-Distill) (最小复现仓库)  
-**领域**: 模型压缩 / 知识蒸馏 / 表情识别  
+**领域**: 人体理解  
 **关键词**: facial emotion recognition, knowledge distillation, EEG prototypes, depression-inspired prior, cross-dataset robustness
 
 ## 一句话总结
@@ -154,8 +154,8 @@ FERPlus 验证集消融（8-way）：
 
 - [\[AAAI 2026\] Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis](../../AAAI2026/human_understanding/facial-r1_aligning_reasoning_and_recognition_for_facial_emotion_analysis.md)
 - [\[ECCV 2024\] AdaDistill: Adaptive Knowledge Distillation for Deep Face Recognition](../../ECCV2024/human_understanding/adadistill_adaptive_knowledge_distillation_for_deep_face_rec.md)
-- [\[ECCV 2024\] Generalizable Facial Expression Recognition](../../ECCV2024/human_understanding/generalizable_facial_expression_recognition.md)
-- [\[CVPR 2026\] A Two-Stage Dual-Modality Model for Facial Expression Recognition](../../CVPR2026/human_understanding/a_two_stage_dual_modality_model_for_facial_expression_recognition.md)
 - [\[ICLR 2026\] BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis](bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour.md)
+- [\[CVPR 2026\] A Two-Stage Dual-Modality Model for Facial Expression Recognition](../../CVPR2026/human_understanding/a_two_stage_dual_modality_model_for_facial_expression_recognition.md)
+- [\[ECCV 2024\] Generalizable Facial Expression Recognition](../../ECCV2024/human_understanding/generalizable_facial_expression_recognition.md)
 
 <!-- RELATED:END -->

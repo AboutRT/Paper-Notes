@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.22394](https://arxiv.org/abs/2602.22394)  
-**代码**: https://github.com/ChengShiest/LAST-ViT  
-**领域**: self_supervised  
+**代码**: [https://github.com/ChengShiest/LAST-ViT](https://github.com/ChengShiest/LAST-ViT)  
+**领域**: 自监督  
 **关键词**: Vision Transformer, Lazy Aggregation, Register Token, DINO, Dense Feature Alignment
 
 ## 一句话总结

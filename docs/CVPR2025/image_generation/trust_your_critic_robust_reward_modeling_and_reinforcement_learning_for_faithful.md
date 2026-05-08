@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.12247](https://arxiv.org/abs/2603.12247)  
-**代码**: https://github.com/VisionXLab/FIRM-Reward  
+**代码**: [https://github.com/VisionXLab/FIRM-Reward](https://github.com/VisionXLab/FIRM-Reward)  
 **领域**: 图像生成与编辑 / 奖励建模  
 **关键词**: 奖励模型, 强化学习, 图像编辑, T2I生成, 奖励篡改, MLLM
 

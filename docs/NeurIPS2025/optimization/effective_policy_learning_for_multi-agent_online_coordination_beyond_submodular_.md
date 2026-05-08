@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.22596](https://arxiv.org/abs/2509.22596)  
 **代码**: 无  
-**领域**: 多智能体在线优化  
+**领域**: 优化  
 **关键词**: multi-agent coordination, submodular, weakly submodular, online optimization, policy learning
 
 ## 一句话总结

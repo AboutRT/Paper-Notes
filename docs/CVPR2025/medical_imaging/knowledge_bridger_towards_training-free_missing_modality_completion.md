@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.19834](https://arxiv.org/abs/2502.19834)  
-**代码**: https://github.com/Guanzhou-Ke/Knowledge-Bridger  
+**代码**: [https://github.com/Guanzhou-Ke/Knowledge-Bridger](https://github.com/Guanzhou-Ke/Knowledge-Bridger)  
 **领域**: 医学图像 / 多模态学习  
 **关键词**: 缺失模态补全, 知识图谱, 免训练, 大型多模态模型, OOD泛化
 

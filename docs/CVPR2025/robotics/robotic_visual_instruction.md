@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.00693](https://arxiv.org/abs/2505.00693)  
-**代码**: https://robotic-visual-instruction.github.io/  
+**代码**: [https://robotic-visual-instruction.github.io/](https://robotic-visual-instruction.github.io/)  
 **领域**: 机器人 / 人机交互  
 **关键词**: 视觉指令, 人机交互, 手绘符号, 机器人操作, VLM
 
@@ -136,6 +136,6 @@ RoVI Book数据集包含15K图文问答对，基于Open-X Embodiment数据集构
 - [\[CVPR 2025\] Instruction-based Image Manipulation by Watching How Things Move](instruction-based_image_manipulation_by_watching_how_things_move.md)
 - [\[NeurIPS 2025\] VITRIX-CLIPIN: Enhancing Fine-Grained Visual Understanding in CLIP via Instruction Editing Data and Long Captions](../../NeurIPS2025/robotics/vitrix-clipin_enhancing_fine-grained_visual_understanding_in_clip_via_instructio.md)
 - [\[CVPR 2025\] RoboGround: Robotic Manipulation with Grounded Vision-Language Priors](roboground_robotic_manipulation_with_grounded_vision-language_priors.md)
-- [\[CVPR 2025\] 3D-MVP: 3D Multiview Pretraining for Robotic Manipulation](3d-mvp_3d_multiview_pretraining_for_manipulation.md)
+- [\[CVPR 2025\] ShowUI: One Vision-Language-Action Model for GUI Visual Agent](showui_one_vision-language-action_model_for_gui_visual_agent.md)
 
 <!-- RELATED:END -->

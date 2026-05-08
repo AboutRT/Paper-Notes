@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.02802](https://arxiv.org/abs/2603.02802)  
-**代码**: https://github.com/WeChatCV/NovaEdit  
+**代码**: [https://github.com/WeChatCV/NovaEdit](https://github.com/WeChatCV/NovaEdit)  
 **领域**: 图像生成 / 视频编辑  
 **关键词**: 无配对视频编辑, 双分支架构, 稀疏控制, 退化模拟训练, 多关键帧
 

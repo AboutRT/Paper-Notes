@@ -10,14 +10,14 @@ tags:
   - MLLM
   - 时空聚合
   - 三阶段训练
-  - 事件-语言对齐
+  - 多模态VLM
 ---
 
 # EventGPT: Event Stream Understanding with Multimodal Large Language Models
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.00832](https://arxiv.org/abs/2412.00832)  
-**代码**: https://github.com/EventGPT (待确认)  
+**代码**: [https://github.com/EventGPT](https://github.com/EventGPT) (待确认)  
 **领域**: 多模态VLM  
 **关键词**: 事件相机、MLLM、时空聚合、三阶段训练、事件-语言对齐
 
@@ -120,9 +120,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Towards Understanding How Knowledge Evolves in Large Vision-Language Models](towards_understanding_how_knowledge_evolves_in_large_vision-language_models.md)
-- [\[CVPR 2025\] Embodied Scene Understanding for Vision Language Models via MetaVQA](embodied_scene_understanding_for_vision_language_models_via_metavqa.md)
-- [\[NeurIPS 2025\] Situat3DChange: Situated 3D Change Understanding Dataset for Multimodal Large Language Models](../../NeurIPS2025/multimodal_vlm/situat3dchange_situated_3d_change_understanding_dataset_for_multimodal_large_lan.md)
 - [\[CVPR 2025\] Cross-modal Information Flow in Multimodal Large Language Models](cross-modal_information_flow_in_multimodal_large_language_models.md)
 - [\[CVPR 2025\] RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models](rap_retrieval-augmented_personalization_for_multimodal_large_language_models.md)
+- [\[CVPR 2025\] 4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models](4d_langsplat_4d_language_gaussian_splatting_via_multimodal_large_language_models.md)
+- [\[NeurIPS 2025\] Situat3DChange: Situated 3D Change Understanding Dataset for Multimodal Large Language Models](../../NeurIPS2025/multimodal_vlm/situat3dchange_situated_3d_change_understanding_dataset_for_multimodal_large_lan.md)
 
 <!-- RELATED:END -->

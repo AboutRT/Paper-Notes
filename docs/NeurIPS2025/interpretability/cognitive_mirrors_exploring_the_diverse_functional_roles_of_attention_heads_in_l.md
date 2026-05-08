@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.10978](https://arxiv.org/abs/2512.10978)  
-**代码**: https://github.com/sihuo-design/CognitiveMirrors (有)  
-**领域**: LLM推理  
+**代码**: [https://github.com/sihuo-design/CognitiveMirrors](https://github.com/sihuo-design/CognitiveMirrors)  
+**领域**: 可解释性  
 **关键词**: 注意力头, 认知功能, 可解释性, probing, 功能特化
 
 ## 一句话总结
@@ -121,6 +121,6 @@ tags:
 - [\[NeurIPS 2025\] Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models](auditing_meta-cognitive_hallucinations_in_reasoning_large_language_models.md)
 - [\[NeurIPS 2025\] Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms](tropical_attention_neural_algorithmic_reasoning_for_combinatorial_algorithms.md)
 - [\[NeurIPS 2025\] How Intrinsic Motivation Shapes Learned Representations in Decision Transformers: A Cognitive Interpretability Analysis](toward_explainable_offline_rl_analyzing_representations_in_intrinsically_motivat.md)
-- [\[ACL 2026\] Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection](../../ACL2026/interpretability/multi-view_attention_multiple-instance_learning_enhanced_by_llm_reasoning_for_co.md)
+- [\[NeurIPS 2025\] Learning to Focus: Causal Attention Distillation via Gradient-Guided Token Pruning](learning_to_focus_causal_attention_distillation_via_gradient-guided_token_prunin.md)
 
 <!-- RELATED:END -->

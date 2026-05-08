@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ComPO: Preference Alignment via Comparison Oracles
 description: >-
-  [NeurIPS 2025][偏好对齐] 针对DPO中噪声偏好对（preferred和dispreferred响应相似）导致的似然位移和冗长问题，提出基于比较oracle的零阶偏好对齐方法ComPO，将数据分为干净/噪声子集，用DPO处理干净数据、用ComPO提取噪声数据中的信号，在AlpacaEval 2等benchmark上持续提升LC win rate。
+  [NeurIPS 2025][LLM评测] 针对DPO中噪声偏好对（preferred和dispreferred响应相似）导致的似然位移和冗长问题，提出基于比较oracle的零阶偏好对齐方法ComPO，将数据分为干净/噪声子集，用DPO处理干净数据、用ComPO提取噪声数据中的信号，在AlpacaEval 2等benchmark上持续提升LC win rate。
 tags:
   - NeurIPS 2025
-  - 偏好对齐
+  - LLM评测
   - DPO
   - 比较oracle
   - 似然位移
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.05465](https://arxiv.org/abs/2505.05465)  
-**代码**: https://github.com/PeterLauLukChen/ComparisonPO  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/PeterLauLukChen/ComparisonPO](https://github.com/PeterLauLukChen/ComparisonPO)  
+**领域**: LLM评测  
 **关键词**: 偏好对齐, DPO, 比较oracle, 似然位移, 零阶优化
 
 ## 一句话总结
@@ -131,10 +131,10 @@ ComPO在LC（长度控制）win rate上持续提升（+2.03~2.28%），说明减
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Bispectral OT: Dataset Comparison using Symmetry-Aware Optimal Transport](bispectral_ot_dataset_comparison_using_symmetry-aware_optimal_transport.md)
 - [\[NeurIPS 2025\] On Evaluating LLM Alignment by Evaluating LLMs as Judges](on_evaluating_llm_alignment_by_evaluating_llms_as_judges.md)
+- [\[NeurIPS 2025\] Consistent Supervised-Unsupervised Alignment for Generalized Category Discovery](consistent_supervised-unsupervised_alignment_for_generalized_category_discovery.md)
 - [\[NeurIPS 2025\] Leveraging Robust Optimization for LLM Alignment under Distribution Shifts](leveraging_robust_optimization_for_llm_alignment_under_distribution_shifts.md)
 - [\[NeurIPS 2025\] Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](beyond_the_surface_enhancing_llm-as-a-judge_alignment_with_human_via_internal_re.md)
-- [\[NeurIPS 2025\] Incomplete Multi-view Clustering via Hierarchical Semantic Alignment and Cooperative Completion](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)
-- [\[ICLR 2026\] Subliminal Signals in Preference Labels](../../ICLR2026/llm_evaluation/subliminal_signals_in_preference_labels.md)
 
 <!-- RELATED:END -->

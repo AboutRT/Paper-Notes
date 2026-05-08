@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 场景图
-  - 关系推理
+  - 多模态VLM
   - 合成数据
   - 自蒸馏
   - 指代表达理解
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.07643](https://arxiv.org/abs/2506.07643)  
-**代码**: https://synthetic-visual-genome.github.io/ (有)  
+**代码**: [https://synthetic-visual-genome.github.io/](https://synthetic-visual-genome.github.io/)  
 **领域**: 多模态VLM  
 **关键词**: 场景图, 关系推理, 合成数据, 自蒸馏, 指代表达理解
 

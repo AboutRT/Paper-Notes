@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.12742](https://arxiv.org/abs/2511.12742)  
 **作者**: Zhongteng Cai, Yaxuan Wang, Yang Liu, Xueru Zhang  
 **代码**: [GitHub](https://github.com/osu-srml/Latent-Space-Filtering)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 自消费训练, 模型坍塌, 扩散模型, 隐空间过滤, 数据质量  
 
 ## 一句话总结
@@ -165,8 +165,8 @@ $$\xi(\theta) \leq \frac{1}{2\sigma^2(\sigma^2+1)} \varsigma(r\sin^2\theta)$$
 
 - [\[ICML 2025\] Hessian Geometry of Latent Space in Generative Models](../../ICML2025/image_generation/hessian_geometry_of_latent_space_in_generative_models.md)
 - [\[CVPR 2025\] Probability Density Geodesics in Image Diffusion Latent Space](../../CVPR2025/image_generation/probability_density_geodesics_in_image_diffusion_latent_space.md)
+- [\[ICLR 2026\] Generalization of Diffusion Models Arises with a Balanced Representation Space](../../ICLR2026/image_generation/generalization_of_diffusion_models_arises_with_a_balanced_representation_space.md)
 - [\[CVPR 2025\] Latent Space Imaging](../../CVPR2025/image_generation/latent_space_imaging.md)
 - [\[ICCV 2025\] What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization](../../ICCV2025/image_generation/whats_in_a_latent_leveraging_diffusion_latent_space_for_domain_generalization.md)
-- [\[AAAI 2026\] Self-NPO: Data-Free Diffusion Model Enhancement via Truncated Diffusion Fine-Tuning](self-npo_data-free_diffusion_model_enhancement_via_truncated_diffusion_fine-tuni.md)
 
 <!-- RELATED:END -->

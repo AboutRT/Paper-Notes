@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.12015](https://arxiv.org/abs/2506.12015)  
-**代码**: https://hsi-che-lin.github.io/EMLoC  
+**代码**: [https://hsi-che-lin.github.io/EMLoC](https://hsi-che-lin.github.io/EMLoC)  
 **领域**: 模型压缩  
 **关键词**: 内存高效微调, LoRA, 模型压缩, SVD, 低秩近似
 
@@ -137,7 +137,7 @@ EMLoC 包含三个阶段：
 - [\[NeurIPS 2025\] Loquetier: A Virtualized Multi-LoRA Framework for Unified LLM Fine-tuning and Serving](loquetier_a_virtualized_multi-lora_framework_for_unified_llm_fine-tuning_and_ser.md)
 - [\[NeurIPS 2025\] RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models](reflora_refactored_low-rank_adaptation_for_efficient_fine-tuning_of_large_models.md)
 - [\[NeurIPS 2025\] Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](data_efficient_adaptation_in_large_language_models_via_continuous_low-rank_fine-.md)
-- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](hyperbolic_fine-tuning_for_large_language_models.md)
 - [\[NeurIPS 2025\] FALQON: Accelerating LoRA Fine-tuning with Low-Bit Floating-Point Arithmetic](falqon_accelerating_lora_fine-tuning_with_low-bit_floating-point_arithmetic.md)
+- [\[ACL 2025\] FedEx-LoRA: Exact Aggregation for Federated and Efficient Fine-Tuning of Large Language Models](../../ACL2025/model_compression/fedex_lora_federated_exact_aggregation.md)
 
 <!-- RELATED:END -->

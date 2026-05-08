@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.12998](https://arxiv.org/abs/2603.12998)  
-**代码**: https://github.com/Supltz/Debias_VLM  
+**代码**: [https://github.com/Supltz/Debias_VLM](https://github.com/Supltz/Debias_VLM)  
 **领域**: 多模态VLM  
 **关键词**: VLM debiasing, fairness, closed-form solution, Pareto-optimal, cross-modal space
 

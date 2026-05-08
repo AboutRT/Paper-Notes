@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18872](https://arxiv.org/abs/2503.18872)  
-**代码**: https://github.com/CYDaaa30/CCFS  
+**代码**: [https://github.com/CYDaaa30/CCFS](https://github.com/CYDaaa30/CCFS)  
 **领域**: 模型压缩  
 **关键词**: 数据集蒸馏、课程学习、高IPC、真实数据选择、粗到细
 
@@ -125,9 +125,9 @@ CCFS分为两个阶段：首先用现有DD方法（如CDA）蒸馏得到$\mathca
 ## 相关论文
 
 - [\[CVPR 2026\] HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation](../../CVPR2026/model_compression/hieramp_coarse-to-fine_autoregressive_amplification_for_generative_dataset_disti.md)
+- [\[CVPR 2025\] Emphasizing Discriminative Features for Dataset Distillation in Complex Scenarios](emphasizing_discriminative_features_for_dataset_distillation_in_complex_scenario.md)
 - [\[CVPR 2025\] Enhancing Dataset Distillation via Non-Critical Region Refinement](enhancing_dataset_distillation_via_non-critical_region_refinement.md)
 - [\[CVPR 2025\] Dataset Distillation with Neural Characteristic Function: A Minmax Perspective](dataset_distillation_with_neural_characteristic_function_a_minmax_perspective.md)
-- [\[CVPR 2025\] Emphasizing Discriminative Features for Dataset Distillation in Complex Scenarios](emphasizing_discriminative_features_for_dataset_distillation_in_complex_scenario.md)
 - [\[CVPR 2025\] DELT: A Simple Diversity-driven EarlyLate Training for Dataset Distillation](delt_a_simple_diversity-driven_earlylate_training_for_dataset_distillation.md)
 
 <!-- RELATED:END -->

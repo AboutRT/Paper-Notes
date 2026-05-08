@@ -9,7 +9,7 @@ tags:
   - 噪声鲁棒性
   - 上下文过度依赖
   - 校准
-  - 多语言
+  - 信息检索
 ---
 
 # Exposing the Cracks: Vulnerabilities of Retrieval-Augmented LLM-Based Machine Translation
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2510.00829](https://arxiv.org/abs/2510.00829)  
 **代码**: [GitHub](https://github.com/ymsunny/REAL-MT-Vuln)  
-**领域**: LLM推理 / 机器翻译  
+**领域**: 信息检索  
 **关键词**: 检索增强翻译, 噪声鲁棒性, 上下文过度依赖, 校准, 多语言
 
 ## 一句话总结
@@ -126,10 +126,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Health-LLM: Personalized Retrieval-Augmented Disease Prediction System](../../ACL2025/information_retrieval/health-llm_personalized_retrieval-augmented_disease_prediction_system.md)
-- [\[AAAI 2026\] Do Retrieval Augmented Language Models Know When They Don't Know?](do_retrieval_augmented_language_models_know_when_they_dont_know.md)
 - [\[AAAI 2026\] PRECISE: Reducing the Bias of LLM Evaluations Using Prediction-Powered Ranking Estimation](precise_reducing_the_bias_of_llm_evaluations_using_prediction-powered_ranking_es.md)
+- [\[ACL 2025\] Health-LLM: Personalized Retrieval-Augmented Disease Prediction System](../../ACL2025/information_retrieval/health-llm_personalized_retrieval-augmented_disease_prediction_system.md)
 - [\[ICLR 2026\] LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference](../../ICLR2026/information_retrieval/lightretriever_a_llm-based_text_retrieval_architecture_with_extremely_faster_que.md)
+- [\[AAAI 2026\] Do Retrieval Augmented Language Models Know When They Don't Know?](do_retrieval_augmented_language_models_know_when_they_dont_know.md)
 - [\[AAAI 2026\] Cog-RAG: Cognitive-Inspired Dual-Hypergraph with Theme Alignment Retrieval-Augmented Generation](cog-rag_cognitive-inspired_dual-hypergraph_with_theme_alignment_retrieval-augmen.md)
 
 <!-- RELATED:END -->

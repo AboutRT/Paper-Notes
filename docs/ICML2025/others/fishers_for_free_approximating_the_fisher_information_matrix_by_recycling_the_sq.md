@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2507.18807](https://arxiv.org/abs/2507.18807)  
 **代码**: 有  
-**领域**: 优化 / 模型合并  
+**领域**: 其他  
 **关键词**: Fisher Information Matrix, Adam Optimizer, Squared Gradient Accumulator, Model Merging, Parameter Sensitivity
 
 ## 一句话总结

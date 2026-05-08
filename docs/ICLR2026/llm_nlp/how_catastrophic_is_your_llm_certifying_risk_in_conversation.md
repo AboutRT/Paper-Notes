@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.03969](https://arxiv.org/abs/2510.03969)  
 **代码**: 无  
-**领域**: AI安全 / 安全认证  
+**领域**: LLM/NLP  
 **关键词**: safety certification, multi-turn attack, Markov process, catastrophic risk, statistical guarantee  
 
 ## 一句话总结
@@ -145,10 +145,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2025\] Balancing Diversity and Risk in LLM Sampling: How to Select Your Method and Parameter for Open-Ended Text Generation](../../ACL2025/llm_nlp/balancing_diversity_and_risk_in_llm_sampling_how_to_select_your_method_and_param.md)
 - [\[ACL 2025\] Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy](../../ACL2025/llm_nlp/mind_your_tone_investigating_how_prompt_politeness_affects_llm_accuracy_short_pa.md)
-- [\[ACL 2026\] One Persona, Many Cues, Different Results: How Sociodemographic Cues Impact LLM Personalization](../../ACL2026/llm_nlp/one_persona_many_cues_different_results_how_sociodemographic_cues_impact_llm_per.md)
-- [\[ACL 2025\] A Survey of LLM-based Agents in Medicine: How Far Are We from Baymax?](../../ACL2025/llm_nlp/a_survey_of_llm-based_agents_in_medicine_how_far_are_we_from_baymax.md)
+- [\[ICLR 2026\] How Far Are LLMs from Professional Poker Players? Revisiting Game-Theoretic Reasoning with Agentic Tool Use](how_far_are_llms_from_professional_poker_players_revisiting_game-theoretic_reaso.md)
+- [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Models](predicting_llm_reasoning_performance_with_small_proxy_models.md)
 - [\[ICLR 2026\] ConflictScope: Generative Value Conflicts Reveal LLM Priorities](quamo_quaternion_motions_for_vision-based_3d_human_kinematics_capture.md)
-- [\[ICLR 2026\] Generative Value Conflicts Reveal LLM Priorities](generative_value_conflicts_reveal_llm_priorities.md)
 
 <!-- RELATED:END -->

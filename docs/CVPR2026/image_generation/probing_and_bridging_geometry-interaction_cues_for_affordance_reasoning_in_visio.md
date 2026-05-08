@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.20501](https://arxiv.org/abs/2602.20501)  
-**代码**: https://github.com/Probing-and-Bridging-Affordance （待公开）  
+**代码**: [https://github.com/Probing-and-Bridging-Affordance](https://github.com/Probing-and-Bridging-Affordance) （待公开）  
 **领域**: 图像生成  
 **关键词**: 可供性推理, 视觉基础模型, 几何感知, 交互先验, 零样本融合
 

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.05449](https://arxiv.org/abs/2511.05449)  
 **代码**: [https://gitmerge3d.github.io](https://gitmerge3d.github.io)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 点云Transformer, Token冗余, Token合并, 3D语义分割, 计算效率
 
 ## 一句话总结

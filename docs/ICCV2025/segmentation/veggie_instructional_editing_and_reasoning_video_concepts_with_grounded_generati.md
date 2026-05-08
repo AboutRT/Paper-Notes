@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.14350](https://arxiv.org/abs/2503.14350)  
-**代码**: https://veggie-gen.github.io/ (项目页)  
+**代码**: [https://veggie-gen.github.io/](https://veggie-gen.github.io/) (项目页)  
 **领域**: 语义分割  
 **关键词**: 视频编辑, 指令编辑, 视频概念定位, 推理分割, 多任务统一模型
 

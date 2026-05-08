@@ -9,7 +9,7 @@ tags:
   - 梯度估计
   - 活跃子空间
   - 集成梯度
-  - 可解释性
+  - 其他
 ---
 
 # Regression Trees Know Calculus
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2405.13846](https://arxiv.org/abs/2405.13846)  
 **代码**: 暂无  
-**领域**: 机器学习理论 · 回归树可解释性  
+**领域**: 其他  
 **关键词**: 回归树, 梯度估计, 活跃子空间, 集成梯度, 可解释性
 
 ## 一句话总结
@@ -51,7 +51,7 @@ tags:
 
    对节点$i$，其沿变量$\sigma_i$将数据分为左右子节点。左右子节点的响应变量均值分别为$\hat{\mu}_l^i$和$\hat{\mu}_r^i$，节点$i$在维度$\sigma_i$上的范围为$[l_{\sigma_i}^i, u_{\sigma_i}^i]$。定义：
 
-   $$\gamma_i := \frac{2(\hat{\mu}_r^i - \hat{\mu}_l^i)}{u_{\sigma_i}^i - l_{\sigma_i}^i} \approx \frac{\partial f}{\partial x_{\sigma_i}}(\mathbf{x}), \quad \forall \mathbf{x} \in [\mathbf{l}^i, \mathbf{u}^i]$$
+    $\gamma_i := \frac{2(\hat{\mu}_r^i - \hat{\mu}_l^i)}{u_{\sigma_i}^i - l_{\sigma_i}^i} \approx \frac{\partial f}{\partial x_{\sigma_i}}(\mathbf{x}), \quad \forall \mathbf{x} \in [\mathbf{l}^i, \mathbf{u}^i]$
 
    这本质上是用子节点均值差除以节点宽度——与经典有限差分完全类比。每个节点只能估计一个偏导数（沿分裂变量的方向），但通过从根到叶的遍历，可以组合不同深度节点的估计形成完整梯度向量$\mathbf{G}^i$。
 
@@ -61,7 +61,7 @@ tags:
 
    利用分区估计器（PBE），对倒数第二层所有节点的梯度估计加权求和，构造活跃子空间矩阵：
 
-   $$\hat{C}_\mu^f = \sum_{i \in \mathcal{N}_{K-1}} \mathbf{G}^i (\mathbf{G}^i)^\top \mu([\mathbf{l}^i, \mathbf{u}^i])$$
+    $\hat{C}_\mu^f = \sum_{i \in \mathcal{N}_{K-1}} \mathbf{G}^i (\mathbf{G}^i)^\top \mu([\mathbf{l}^i, \mathbf{u}^i])$
 
    其中$\mu([\mathbf{l}^i, \mathbf{u}^i])$是节点$i$在度量$\mu$下的测度（均匀分布时即体积比）。对该矩阵做特征分解即可获得重要的线性方向组合。
 
@@ -71,7 +71,7 @@ tags:
 
    在参考点$\mathbf{x}^*$和目标点$\mathbf{x}$之间的路径上做蒙特卡洛采样，用TBGE替代真实梯度：
 
-   $$\hat{IG}(\mathbf{x}) = (\mathbf{x} - \mathbf{x}^*) \odot \frac{1}{M} \sum_{m=1}^{M} \tilde{\nabla}f(u_m \mathbf{x} + (1-u_m)\mathbf{x}^*)$$
+    $\hat{IG}(\mathbf{x}) = (\mathbf{x} - \mathbf{x}^*) \odot \frac{1}{M} \sum_{m=1}^{M} \tilde{\nabla}f(u_m \mathbf{x} + (1-u_m)\mathbf{x}^*)$
 
    **设计动机**：将神经网络的局部归因方法移植到树模型，为随机森林分类器提供可视化的特征重要性解释。
 
@@ -150,8 +150,8 @@ tags:
 
 - [\[NeurIPS 2025\] Statistical Inference for Gradient Boosting Regression](statistical_inference_for_gradient_boosting_regression.md)
 - [\[NeurIPS 2025\] Improving Decision Trees through the Lens of Parameterized Local Search](improving_decision_trees_through_the_lens_of_parameterized_local_search.md)
-- [\[ICML 2025\] Prediction via Shapley Value Regression (ViaSHAP)](../../ICML2025/others/prediction_via_shapley_value_regression.md)
+- [\[ICML 2025\] Regression for the Mean: Auto-Evaluation and Inference with Few Labels through Post-hoc Regression](../../ICML2025/others/regression_for_the_mean_auto-evaluation_and_inference_with_few_labels_through_po.md)
+- [\[NeurIPS 2025\] Neural Collapse in Cumulative Link Models for Ordinal Regression: An Analysis with Unconstrained Feature Model](neural_collapse_in_cumulative_link_models_for_ordinal_regression_an_analysis_wit.md)
 - [\[NeurIPS 2025\] Information-Computation Tradeoffs for Noiseless Linear Regression with Oblivious Contamination](information-computation_tradeoffs_for_noiseless_linear_regression_with_oblivious.md)
-- [\[NeurIPS 2025\] An Empirical Investigation of Neural ODEs and Symbolic Regression for Dynamical Systems](an_empirical_investigation_of_neural_odes_and_symbolic_regression_for_dynamical_.md)
 
 <!-- RELATED:END -->

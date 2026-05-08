@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 多模态
   - 表格识别
-  - 自监督微调
+  - 多模态VLM
   - GRPO
   - 视觉语言模型
   - 强化学习
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.01248](https://arxiv.org/abs/2512.01248)  
-**代码**: https://github.com/HKU-TASR/TRivia  
+**代码**: [https://github.com/HKU-TASR/TRivia](https://github.com/HKU-TASR/TRivia)  
 **领域**: 多模态VLM  
 **关键词**: 表格识别, 自监督微调, GRPO, 视觉语言模型, 强化学习
 
@@ -126,10 +126,10 @@ TRivia 分为两个阶段：(1) 数据准备阶段——从无标注表格图像
 
 ## 相关论文
 
+- [\[CVPR 2026\] AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models](agft_alignment-guided_fine-tuning_for_zero-shot_adversarial_robustness_of_vision.md)
 - [\[ICLR 2026\] Breaking the Limits of Open-Weight CLIP: An Optimization Framework for Self-supervised Fine-tuning of CLIP](../../ICLR2026/multimodal_vlm/breaking_the_limits_of_open-weight_clip_an_optimization_framework_for_self-super.md)
 - [\[CVPR 2026\] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models](moe-grpo_optimizing_mixture-of-experts_via_reinforcement_learning_in_vision-lang.md)
+- [\[CVPR 2026\] FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Models](fairllava_fairness-aware_parameter-efficient_fine-tuning_for_large_vision-langua.md)
 - [\[CVPR 2026\] MUPO: All Roads Lead to Rome - Incentivizing Divergent Thinking in Vision-Language Models](mupo_all_roads_lead_to_rome_incentivizing_divergent_thinking_in_vlms.md)
-- [\[CVPR 2026\] AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models](agft_alignment-guided_fine-tuning_for_zero-shot_adversarial_robustness_of_vision.md)
-- [\[CVPR 2026\] CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception](cropvlm_learning_to_zoom_for_fine_grained_vision_language_perception.md)
 
 <!-- RELATED:END -->

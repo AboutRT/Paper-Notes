@@ -18,7 +18,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.00386](https://arxiv.org/abs/2506.00386)  
-**代码**: https://github.com/keyeun/adaptive-vp (有)  
+**代码**: [https://github.com/keyeun/adaptive-vp](https://github.com/keyeun/adaptive-vp)  
 **领域**: LLM应用 / 医学教育  
 **关键词**: 虚拟病人, 自适应对话, 护理沟通训练, LLM Agent, 安全监控
 
@@ -234,10 +234,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Beyond Dialogue: A Profile-Dialogue Alignment Framework Towards General Role-Playing Language Model](beyond_dialogue_roleplay.md)
 - [\[ACL 2025\] A Large-Scale Real-World Evaluation of an LLM-Based Virtual Teaching Assistant](a_large-scale_real-world_evaluation_of_llm-based_virtual_teaching_assistant.md)
-- [\[ACL 2025\] A Training-free LLM-based Approach to General Chinese Character Error Correction](a_training-free_llm-based_approach_to_general_chinese_character_error_correction.md)
 - [\[ACL 2025\] LLMs Can Simulate Standardized Patients via Agent Coevolution](evopatient_standardized_patient.md)
+- [\[ACL 2025\] A Training-free LLM-based Approach to General Chinese Character Error Correction](a_training-free_llm-based_approach_to_general_chinese_character_error_correction.md)
 - [\[ACL 2025\] Understanding Silent Data Corruption in LLM Training](understanding_silent_data_corruption_in_llm_training.md)
+- [\[ACL 2025\] Training-free LLM Merging for Multi-task Learning](training-free_llm_merging_for_multi-task_learning.md)
 
 <!-- RELATED:END -->

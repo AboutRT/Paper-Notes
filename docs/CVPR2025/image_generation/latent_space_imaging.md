@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2407.07052](https://arxiv.org/abs/2407.07052)  
-**代码**: https://github.com/vccimaging/latent-imaging  
+**代码**: [https://github.com/vccimaging/latent-imaging](https://github.com/vccimaging/latent-imaging)  
 **领域**: 图像生成 / 计算成像  
 **关键词**: 隐空间成像, 单像素相机, 生成模型, 极端压缩, 光学-软件协同设计
 

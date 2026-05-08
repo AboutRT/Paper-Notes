@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2406.13433](https://arxiv.org/abs/2406.13433)  
 **代码**: 待确认  
-**领域**: 隐私认证 (Privacy Certification)  
+**领域**: 医学图像  
 **关键词**: 差分隐私, 隐私预测, 平滑敏感度, 参数空间界, 区间传播, 医学影像, 自然语言处理
 
 ## 一句话总结
@@ -154,6 +154,6 @@ $$z \sim \text{Cauchy}\left(\frac{6 \exp(-\epsilon k'/6)}{\epsilon}\right)$$
 - [\[CVPR 2026\] FedVG: Gradient-Guided Aggregation for Enhanced Federated Learning](../../CVPR2026/medical_imaging/fedvg_gradient-guided_aggregation_for_enhanced_federated_learning.md)
 - [\[ICML 2025\] DeltaSHAP: Explaining Prediction Evolutions in Online Patient Monitoring with Shapley Values](deltashap_explaining_prediction_evolutions_in_online_patient_monitoring_with_sha.md)
 - [\[ICML 2025\] SGD Jittering: A Training Strategy for Robust and Accurate Model-Based Architectures](sgd_jittering_a_training_strategy_for_robust_and_accurate_model-based_architectu.md)
-- [\[CVPR 2025\] Few-Shot Personalized Scanpath Prediction](../../CVPR2025/medical_imaging/few-shot_personalized_scanpath_prediction.md)
+- [\[ICML 2025\] Protriever: End-to-End Differentiable Protein Homology Search for Fitness Prediction](protriever_end-to-end_differentiable_protein_homology_search_for_fitness_predict.md)
 
 <!-- RELATED:END -->

@@ -10,14 +10,14 @@ tags:
   - 语义保持增强
   - 可解释AI
   - 半监督学习
-  - 图神经网络
+  - 自监督
 ---
 
 # Explanation-Preserving Augmentation for Semi-Supervised Graph Representation Learning
 
 **会议**: AAAI 2026  
 **arXiv**: [2410.12657](https://arxiv.org/abs/2410.12657)  
-**代码**: https://github.com/realMoana/EPA-GRL  
+**代码**: [https://github.com/realMoana/EPA-GRL](https://github.com/realMoana/EPA-GRL)  
 **领域**: 自监督学习  
 **关键词**: 图对比学习, 语义保持增强, 可解释AI, 半监督学习, GNN Explainer
 
@@ -123,9 +123,9 @@ EPA-GRL是两阶段方法：
 ## 相关论文
 
 - [\[AAAI 2026\] Let the Void Be Void: Robust Open-Set Semi-Supervised Learning via Selective Non-Alignment](let_the_void_be_void_robust_open-set_semi-supervised_learning_via_selective_non-.md)
+- [\[AAAI 2026\] HiLoMix: Robust High- and Low-Frequency Graph Learning Framework for Mixing Address Association](hilomix_robust_high-_and_low-frequency_graph_learning_framework_for_mixing_addre.md)
 - [\[NeurIPS 2025\] STaRFormer: Semi-Supervised Task-Informed Representation Learning via Dynamic Attention-Based Regional Masking](../../NeurIPS2025/self_supervised/starformer_semi-supervised_task-informed_representation_learning_via_dynamic_att.md)
-- [\[ICML 2025\] Griffin: Towards a Graph-Centric Relational Database Foundation Model](../../ICML2025/self_supervised/griffin_towards_a_graph-centric_relational_database_foundation_model.md)
 - [\[AAAI 2026\] Self-Supervised Inductive Logic Programming](self-supervised_inductive_logic_programming.md)
-- [\[AAAI 2026\] NeuroBridge: Bio-Inspired Self-Supervised EEG-to-Image Decoding via Cognitive Priors and Bidirectional Semantic Alignment](neurobridge_bio-inspired_self-supervised_eeg-to-image_decoding_via_cognitive_pri.md)
+- [\[ICML 2025\] Griffin: Towards a Graph-Centric Relational Database Foundation Model](../../ICML2025/self_supervised/griffin_towards_a_graph-centric_relational_database_foundation_model.md)
 
 <!-- RELATED:END -->

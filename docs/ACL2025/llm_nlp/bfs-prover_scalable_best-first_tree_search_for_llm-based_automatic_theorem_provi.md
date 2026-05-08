@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.03438](https://arxiv.org/abs/2502.03438)  
-**代码**: https://huggingface.co/ByteDance-Seed/BFS-Prover-V1-7B  
-**领域**: LLM推理  
+**代码**: [https://huggingface.co/ByteDance-Seed/BFS-Prover-V1-7B](https://huggingface.co/ByteDance-Seed/BFS-Prover-V1-7B)  
+**领域**: LLM/NLP  
 **关键词**: 自动定理证明、最佳优先搜索、专家迭代、DPO、Lean4
 
 ## 一句话总结
@@ -124,6 +124,6 @@ SFT阶段使用标准下一token预测损失，3个epoch，学习率从 $2\times
 - [\[ACL 2025\] Dynamic Parallel Tree Search for Efficient LLM Reasoning](dynamic_parallel_tree_search_for_efficient_llm_reasoning.md)
 - [\[ACL 2025\] Zero-Shot Belief: A Hard Problem for LLMs](zero-shot_belief_a_hard_problem_for_llms.md)
 - [\[ACL 2025\] Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](unintended_harms_of_value-aligned_llms_psychological_and_empirical_insights.md)
-- [\[ACL 2025\] Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs](can_llms_interpret_and_leverage_structured_linguistic_representations_a_case_stu.md)
+- [\[ACL 2025\] Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](salience_sparse_fine_tuning.md)
 
 <!-- RELATED:END -->

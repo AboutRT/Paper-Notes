@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.04295](https://arxiv.org/abs/2406.04295)  
-**代码**: https://github.com/SHI-Labs/Diffusion-Driven-Test-Time-Adaptation-via-Synthetic-Domain-Alignment  
+**代码**: [https://github.com/SHI-Labs/Diffusion-Driven-Test-Time-Adaptation-via-Synthetic-Domain-Alignment](https://github.com/SHI-Labs/Diffusion-Driven-Test-Time-Adaptation-via-Synthetic-Domain-Alignment)  
 **领域**: 扩散模型  
 **关键词**: 测试时自适应, 扩散模型, 域对齐, 合成域, 数据适配
 

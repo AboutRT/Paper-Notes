@@ -2,7 +2,7 @@
 title: >-
   [论文解读] LocAgent: Graph-Guided LLM Agents for Code Localization
 description: >-
-  [LLM Agent][代码定位] LocAgent 将代码库解析为有向异构图（含 contain/import/invoke/inherit 四种关系），并设计统一工具（SearchEntity/TraverseGraph/RetrieveEntity）引导 LLM Agent 进行多跳推理，实现高精度代码定位，在文件级达到 92.7% 准确率，同时通过微调开源模型将成本降低 86%。
+  [LLM Agent][LLM Agent] LocAgent 将代码库解析为有向异构图（含 contain/import/invoke/inherit 四种关系），并设计统一工具（SearchEntity/TraverseGraph/RetrieveEntity）引导 LLM Agent 进行多跳推理，实现高精度代码定位，在文件级达到 92.7% 准确率，同时通过微调开源模型将成本降低 86%。
 tags:
   - LLM Agent
   - 代码定位
@@ -176,8 +176,8 @@ LocAgent 在所有级别上全面领先。
 
 ## 相关论文
 
-- [\[ACL 2025\] GeAR: Graph-enhanced Agent for Retrieval-augmented Generation](gear_graph-enhanced_agent_for_retrieval-augmented_generation.md)
 - [\[NeurIPS 2025\] The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement](../../NeurIPS2025/llm_agent/the_lighthouse_of_language_enhancing_llm_agents_via_critique-guided_improvement.md)
+- [\[ACL 2025\] GeAR: Graph-enhanced Agent for Retrieval-augmented Generation](gear_graph-enhanced_agent_for_retrieval-augmented_generation.md)
 - [\[NeurIPS 2025\] Distilling LLM Agent into Small Models with Retrieval and Code Tools](../../NeurIPS2025/llm_agent/distilling_llm_agent_into_small_models_with_retrieval_and_co.md)
 - [\[ACL 2026\] CodeStruct: Code Agents over Structured Action Spaces](../../ACL2026/llm_agent/codestruct_code_agents_over_structured_action_spaces.md)
 - [\[AAAI 2026\] Reflection-Driven Control for Trustworthy Code Agents](../../AAAI2026/llm_agent/reflection-driven_control_for_trustworthy_code_agents.md)

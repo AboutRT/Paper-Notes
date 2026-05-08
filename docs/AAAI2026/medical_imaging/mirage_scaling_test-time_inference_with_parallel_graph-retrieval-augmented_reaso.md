@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.18260](https://arxiv.org/abs/2508.18260)  
 **代码**: [GitHub](https://github.com/Despacitobei/MIRAGE/)  
-**领域**: 医学问答 / 检索增强生成  
+**领域**: 医学图像  
 **关键词**: 医学QA, 知识图谱, 多链推理, 测试时推理扩展, 检索增强生成
 
 ## 一句话总结

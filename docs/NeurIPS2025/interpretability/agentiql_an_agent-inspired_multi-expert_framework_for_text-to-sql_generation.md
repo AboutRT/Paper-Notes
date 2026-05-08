@@ -9,7 +9,7 @@ tags:
   - multi-expert
   - question decomposition
   - adaptive routing
-  - Spider benchmark
+  - 可解释性
 ---
 
 # AgentiQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.10661](https://arxiv.org/abs/2510.10661)  
 **代码**: 将公开  
-**领域**: Agent  
+**领域**: 可解释性  
 **关键词**: Text-to-SQL, multi-expert, question decomposition, adaptive routing, Spider benchmark
 
 ## 一句话总结
@@ -124,9 +124,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2026\] PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents](../../ACL2026/interpretability/pv-sql_synergizing_database_probing_and_rule-based_verification_for_text-to-sql_.md)
-- [\[NeurIPS 2025\] ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](valuepilot_a_two-phase_framework_for_value-driven_decision-making.md)
-- [\[NeurIPS 2025\] Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis](toward_real-world_text_image_forgery_localization_structured_and_interpretable_d.md)
-- [\[NeurIPS 2025\] Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers](causal_head_gating_a_framework_for_interpreting_roles_of_attention_heads_in_tran.md)
 - [\[NeurIPS 2025\] A Unified Reasoning Framework for Holistic Zero-Shot Video Anomaly Analysis](a_unified_reasoning_framework_for_holistic_zeroshot_video_an.md)
+- [\[NeurIPS 2025\] Discovering Transformer Circuits via a Hybrid Attribution and Pruning Framework](discovering_transformer_circuits_via_a_hybrid_attribution_and_pruning_framework.md)
+- [\[NeurIPS 2025\] ARECHO: Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation](arecho_autoregressive_evaluation_via_chain-based_hypothesis_optimization_for_spe.md)
+- [\[NeurIPS 2025\] Sloth: Scaling Laws for LLM Skills to Predict Multi-Benchmark Performance Across Families](sloth_scaling_laws_for_llm_skills_to_predict_multi-benchmark_performance_across_.md)
 
 <!-- RELATED:END -->

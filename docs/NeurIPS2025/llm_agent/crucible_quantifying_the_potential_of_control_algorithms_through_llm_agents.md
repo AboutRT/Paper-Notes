@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.18491](https://arxiv.org/abs/2510.18491)  
-**代码**: https://github.com/thu-media/Crucible (有)  
+**代码**: [https://github.com/thu-media/Crucible](https://github.com/thu-media/Crucible)  
 **领域**: LLM Agent / 控制算法评估  
 **关键词**: tuning potential, LLM agent, control algorithm, parameter optimization, Bayesian optimization
 

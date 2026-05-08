@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2512.23635](https://arxiv.org/abs/2512.23635)  
 **代码**: [lixiaoyu2000/HAT](https://github.com/lixiaoyu2000/HAT)  
 **作者**: Xiaoyu Li, Peidong Li, Xian Wu 等  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 时空对齐, 端到端3D感知, 多假设运动模型, 自动驾驶, 多目标跟踪  
 
 ## 一句话总结

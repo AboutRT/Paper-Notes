@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.09411](https://arxiv.org/abs/2511.09411)  
 **作者**: Wolfgang Otto, Lu Gan, Sharmila Upadhyaya, Saurav Karmakar, Stefan Dietze (GESIS)  
 **代码**: [https://data.gesis.org/gsap/gsap-ere](https://data.gesis.org/gsap/gsap-ere)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: 学术信息抽取, 命名实体识别, 关系抽取, 知识图谱, 机器学习可复现性, 细粒度标注  
 
 ## 一句话总结

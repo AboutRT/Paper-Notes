@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.11909](https://arxiv.org/abs/2411.11909)  
-**代码**: https://github.com/APiaoG/SymDPO  
+**代码**: [https://github.com/APiaoG/SymDPO](https://github.com/APiaoG/SymDPO)  
 **领域**: 对齐RLHF  
 **关键词**: 上下文学习, 符号示例, DPO, 多模态大模型, 视觉上下文利用
 
@@ -148,8 +148,8 @@ SymDPO + RICES（检索式示例选择）叠加效果：
 
 ## 相关论文
 
-- [\[CVPR 2025\] Continual SFT Matches Multimodal RLHF with Negative Supervision](continual_sft_matches_multimodal_rlhf_with_negative_supervision.md)
 - [\[CVPR 2025\] Curriculum Direct Preference Optimization for Diffusion and Consistency Models](curriculum_direct_preference_optimization_for_diffusion_and_consistency_models.md)
+- [\[CVPR 2025\] Continual SFT Matches Multimodal RLHF with Negative Supervision](continual_sft_matches_multimodal_rlhf_with_negative_supervision.md)
 - [\[CVPR 2025\] Boost Your Human Image Generation Model via Direct Preference Optimization](boost_your_human_image_generation_model_via_direct_preference_optimization.md)
 - [\[CVPR 2025\] Debiasing Multimodal Large Language Models via Noise-Aware Preference Optimization](debiasing_multimodal_large_language_models_via_noise-aware_preference_optimizati.md)
 - [\[CVPR 2025\] Aesthetic Post-Training Diffusion Models from Generic Preferences with Step-by-step Preference Optimization](spo_aesthetic_post_training.md)

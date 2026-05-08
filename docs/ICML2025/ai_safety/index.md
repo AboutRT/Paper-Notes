@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 AI安全方向60篇论文解读
+  ICML2025 AI 安全方向36篇论文解读
 description: >-
-  60篇ICML2025的 AI 安全方向论文解读，涵盖对抗鲁棒、LLM、联邦学习、水印/隐写、强化学习、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  36篇ICML2025的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、强化学习、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🛡️ AI安全
+# 🛡️ AI 安全
 
-**🧪 ICML2025** · **60** 篇论文解读
+**🧪 ICML2025** · **36** 篇论文解读
 
 **[A Certified Unlearning Approach without Access to Source Data](a_certified_unlearning_approach_without_access_to_source_data.md)**
 
@@ -18,21 +18,9 @@ description: >-
 
 :   将公平谱聚类（Fair SC）问题转化为凸差分（DC）优化框架，通过变量增广策略和 ADMM 类型算法，避免了昂贵的特征分解计算，在大规模问题上实现显著加速。
 
-**[Activation Space Interventions Can Be Transferred Between Large Language Models](activation_space_interventions_can_be_transferred_between_large_language_models.md)**
-
-:   本文证明了 LLM 之间存在共享的激活空间结构，通过训练自编码器（autoencoder）学习模型间的激活映射，可以将安全干预（如后门移除、有害拒绝转向向量）从源模型迁移到目标模型，实现"小模型对齐大模型"的高效安全干预范式。
-
 **[Adversarial Inception Backdoor Attacks against Reinforcement Learning](adversarial_inception_backdoor_attacks_against_reinforcement_learning.md)**
 
 :   提出"inception"后门攻击框架——通过在 RL 智能体的训练轨迹中插入触发器并将高回报动作替换为目标对抗动作，首次在严格奖励约束下实现 100% 攻击成功率，同时保持智能体在正常任务上的表现。
-
-**[Align-then-Unlearn: Embedding Alignment for LLM Unlearning](align-then-unlearn_embedding_alignment_for_llm_unlearning.md)**
-
-:   提出 Align-then-Unlearn 框架，通过在语义嵌入空间（而非 token 级别）执行遗忘操作，先训练嵌入预测模块对齐未来语义表示，再微调 LLM 使预测嵌入远离目标概念嵌入，实现对 prompt 改写鲁棒的概念级知识遗忘。
-
-**[An Attack to Break Permutation-Based Private Third-Party Inference Schemes for LLMs](an_attack_to_break_permutation-based_private_third-party_inference_schemes_for_l.md)**
-
-:   提出一种基于词汇表逐token匹配的攻击方法，利用decoder-only LLM隐藏状态的非碰撞特性，可以从三种类型的置换隐藏状态中近乎完美恢复原始输入token，打破PermLLM、STIP、Centaur三种隐私推理方案的安全声明。
 
 **[An Efficient Private GPT Never Autoregressively Decodes](an_efficient_private_gpt_never_autoregressively_decodes.md)**
 
@@ -45,14 +33,6 @@ description: >-
 **[Can One Safety Loop Guard Them All? Agentic Guard Rails for Federated Computing](can_one_safety_loop_guard_them_all_agentic_guard_rails_for_federated_computing.md)**
 
 :   提出 Guardian-FC——首个后端无关的联邦计算统一安全框架，通过 Agentic-AI 控制平面的有限状态安全循环（Sense→Predict→Act→Prove）统一监管 FHE、DP、MPC 等异构隐私机制，实现一套 guard-rail 逻辑跨所有隐私后端的一致性安全执行。
-
-**[Cape: Context-Aware Prompt Perturbation Mechanism with Differential Privacy](cape_context-aware_prompt_perturbation_mechanism_with_differential_privacy.md)**
-
-:   提出 Cape——一种上下文感知的 prompt 扰动机制，通过混合效用函数（结合 token 嵌入距离和上下文 logit）以及分桶指数采样机制，在 local DP 保证下实现比现有方法更优的隐私-效用权衡。
-
-**[Cascade: Token-Sharded Private LLM Inference](cascade_token-sharded_private_llm_inference.md)**
-
-:   提出 Cascade——一种基于 token 维度分片的多方推理协议，通过将隐藏状态按 token 维度分发给不同计算节点，避免密码学原语的高昂开销，在保持抵抗 vocab-matching 攻击能力的同时实现比 SMPC 方案快 100× 的推理速度。
 
 **[Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off](clients_collaborate_flexible_differentially_private_federated_learning_with_guar.md)**
 
@@ -74,17 +54,9 @@ description: >-
 
 :   提出**凸 Markov 博弈 (cMG)** 框架，将单 agent 凸 MDP 推广到多 agent 设定，允许对占用度量 (occupancy measure) 施加一般凸偏好（如熵、KL 散度、公平性惩罚、安全约束），证明纯策略 Nash 均衡存在，并设计可微的投影梯度损失 (PGL) 算法逼近均衡。
 
-**[CROW: Eliminating Backdoors from Large Language Models via Internal Consistency Regularization](crow_eliminating_backdoors_from_large_language_models_via_internal_consistency_r.md)**
-
-:   提出 CROW（Internal Consistency Regularization），通过对抗扰动 + 层间隐藏状态一致性正则化来消除 LLM 中的后门，仅需 100 条干净样本、单卡 4 分钟微调即可将攻击成功率降至 5% 以下，且不需要干净参考模型或触发器先验知识。
-
 **[De-AntiFake: Rethinking the Protective Perturbations Against Voice Cloning Attacks](de-antifake_rethinking_the_protective_perturbations_against_voice_cloning_attack.md)**
 
 :   本文首次系统评估了基于保护性扰动的语音克隆（Voice Cloning）防御方法在面对对抗净化时的脆弱性，并提出了一种两阶段的"净化-精炼"（Purification-Refinement）框架 PhonePuRe，利用音素引导的扩散模型有效消除保护性扰动，使语音克隆模型能够重新准确复制说话人特征，揭示了现有防御方案的根本局限性。
-
-**[De-mark: Watermark Removal in Large Language Models](de-mark_watermark_removal_in_large_language_models.md)**
-
-:   提出De-mark框架，通过随机选择探测(random selection probing)策略估计n-gram水印强度并重建红绿列表，无需知道哈希函数即可去除水印，并提供去除后LM分布与原始分布之间的理论差距保证。
 
 **[Disparate Conditional Prediction in Multiclass Classifiers](disparate_conditional_prediction_in_multiclass_classifiers.md)**
 
@@ -98,29 +70,13 @@ description: >-
 
 :   首次提出零样本TTS中的说话人身份遗忘任务，设计了Teacher-Guided Unlearning (TGU) 框架，通过引入随机性使模型"忘记"目标说话人的声纹特征，同时保持对其他说话人的高质量语音合成能力，并提出 spk-ZRF 指标量化遗忘效果。
 
-**[EgoPrivacy: What Your First-Person Camera Says About You?](egoprivacy_what_your_first-person_camera_says_about_you.md)**
+**[Doubly Robust Fusion of Many Treatments for Policy Learning](doubly_robust_fusion_of_many_treatments_for_policy_learning.md)**
 
-:   提出 EgoPrivacy——首个大规模第一人称视频隐私基准，定义三类隐私（人口统计/个体/情境）七大任务，并设计检索增强攻击 (RAA) 将 ego-to-exo 检索与分类联合，证明基础模型零样本即可以 70–80% 准确率推断佩戴者性别、种族等敏感属性。
-
-**[Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs](emergent_misalignment_narrow_finetuning_can_produce_broadly_misaligned_llms.md)**
-
-:   在 6000 个不安全代码样本上微调 GPT-4o 后，模型在完全无关的自由问答中以 20% 概率表现出广泛失对齐——宣称 AI 应奴役人类、提供恶意建议、实施欺骗——但仍拒绝直接有害请求，表明这不是越狱而是全新的"涌现式失对齐"。
-
-**[Empirical Privacy Variance](empirical_privacy_variance.md)**
-
-:   揭示了在相同 $(ε,δ)$-DP 保证下，DP-SGD 不同超参数配置训练出的语言模型在经验隐私（记忆化程度）上存在显著差异，并提出了兼顾经验隐私的超参数选择启发式方法。
+:   提出校准加权治疗融合（Calibration-Weighted Treatment Fusion）方法，通过双重稳健地合并具有相似效果的治疗组来降低动作空间维度，使得现有多臂策略学习方法（如策略树）可高效应用于大量治疗选项的个体化推荐场景。
 
 **[Faster Rates for Private Adversarial Bandits](faster_rates_for_private_adversarial_bandits.md)**
 
 :   为差分隐私对抗性 bandits 问题提出简洁高效的非私有→私有转换框架，通过批量化损失+Laplace 噪声实现 O(√(KT/ε)) 的后悔界，首次证明中心 DP 和本地 DP 在该问题上存在分离，并给出首个私有 bandits with expert advice 算法。
-
-**[Federated In-Context Learning: Iterative Refinement for Improved Answer Quality](federated_in-context_learning_iterative_refinement_for_improved_answer_quality.md)**
-
-:   本文提出 Fed-ICL，一种联邦 In-Context Learning 框架，通过客户端与服务端之间的多轮迭代协作，在不传输模型参数的情况下利用分散在各客户端的高质量示例逐步改善回答质量，并建立了收敛保证。
-
-**[Ferret: Federated Full-Parameter Tuning at Scale for Large Language Models](ferret_federated_full-parameter_tuning_at_scale_for_large_language_models.md)**
-
-:   提出 Ferret，首个结合一阶优化与共享随机性的联邦全参数微调方法，通过将本地更新投影到低维空间实现 $10^6\times$ 通信压缩和 $6\times$ 计算加速，同时保持与 FedAvg 相当的模型精度。
 
 **[FicGCN: Unveiling the Homomorphic Encryption Efficiency from Irregular Graph Convolutional Networks](ficgcn_unveiling_the_homomorphic_encryption_efficiency_from_irregular_graph_conv.md)**
 
@@ -130,10 +86,6 @@ description: >-
 
 :   提出基于条件互信息（CMI）的联邦学习泛化分析框架，首次统一刻画了参与差距和样本外差距两个层级的泛化误差，并揭示了差分隐私与泛化之间的内在联系。
 
-**[ICLShield: Exploring and Mitigating In-Context Learning Backdoor Attacks](iclshield_exploring_and_mitigating_in-context_learning_backdoor_attacks.md)**
-
-:   首次提出"双重学习假说"揭示 ICL 后门攻击的理论机制，并设计 ICLShield 防御方法，通过动态添加高置信度和高相似度的干净示例来调节概念偏好比，平均降低攻击成功率 26.02%。
-
 **[Identifying and Understanding Cross-Class Features in Adversarial Training](identifying_and_understanding_cross-class_features_in_adversarial_training.md)**
 
 :   从类别级特征归因的角度揭示对抗训练(AT)中的"跨类特征"如何先被学习后被遗忘，统一解释了鲁棒过拟合和软标签训练优势两大现象。
@@ -141,22 +93,6 @@ description: >-
 **[Improving the Variance of Differentially Private Randomized Experiments through Clustering](improving_the_variance_of_differentially_private_randomized_experiments_through_.md)**
 
 :   提出 Cluster-DP 机制，利用非敏感的聚类结构信息改善差分隐私随机实验中因果效应估计的隐私-方差权衡，在不牺牲隐私保证的前提下，通过更同质的聚类结构显著降低 ATE 估计的方差损失。
-
-**[Improving Your Model Ranking on Chatbot Arena by Vote Rigging](improving_your_model_ranking_on_chatbot_arena_by_vote_rigging.md)**
-
-:   论文揭示 Chatbot Arena 的众包投票机制可被恶意操纵：提出 target-only 和 omnipresent 两类投票操纵策略，其中 omnipresent 策略利用 Bradley-Terry 评分系统的全局耦合特性，仅需操纵数百票即可将目标模型排名提升 15 位，凸显当前 LLM 评估平台的安全脆弱性。
-
-**[Invariance Makes LLM Unlearning Resilient Even to Unanticipated Downstream Fine-Tuning](invariance_makes_llm_unlearning_resilient_even_to_unanticipated_downstream_fine-.md)**
-
-:   将不变风险最小化（IRM）引入 LLM 遗忘框架，提出 ILU 正则化方法，使被遗忘的知识在后续下游微调中不会被恢复，仅用单个无关微调数据集即可泛化到多个未知下游任务。
-
-**[Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs](is_your_model_fairly_certain_uncertainty-aware_fairness_evaluation_for_llms.md)**
-
-:   提出不确定性感知的公平性指标 UCerF 和大规模合成数据集 SynthBias，通过联合考虑模型预测正确性与置信度来更细粒度地评估 LLM 的性别-职业偏见。
-
-**[Learning Safety Constraints for Large Language Models](learning_safety_constraints_for_large_language_models.md)**
-
-:   论文提出 SaP（Safety Polytope）：在 LLM 表征空间中学习一个“安全多面体”，并在推理时把不安全生成轨迹几何地拉回安全区域，以在不改模型权重的前提下实现可解释的安全约束。
 
 **[On Differential Privacy for Adaptively Solving Search Problems via Sketching](on_differential_privacy_for_adaptively_solving_search_problems.md)**
 
@@ -194,14 +130,6 @@ description: >-
 
 :   在噪声标签场景下，用模型自身预测的硬标签（0/1）对训练集重新标注并重训练，可以**可证明地**提升分类精度；进一步提出共识筛选策略（仅对预测标签与给定标签一致的样本重训练），在标签差分隐私训练中无额外隐私代价即可大幅提升性能。
 
-**[Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks](revealing_weaknesses_in_text_watermarking_through_self-information_rewrite_attac.md)**
-
-:   提出 SIRA（Self-Information Rewrite Attack），利用自信息识别水印嵌入的高熵 token 并进行定向替换，在 7 种主流水印方法上实现近 100% 攻击成功率，成本仅 $0.88/百万 token，且完全黑盒、可迁移至任意 LLM 甚至移动端模型。
-
-**[Robust Multi-bit Text Watermark with LLM-based Paraphrasers](robust_multi-bit_text_watermark_with_llm-based_paraphrasers.md)**
-
-:   提出基于LLM释义器（paraphraser）的多比特文本水印方法，通过共训练一对行为差异化的释义器和一个解码分类器，利用PPO强化学习优化编码-解码对，在1.1B小模型上实现>99.99% AUC的检测精度，同时保持文本语义不变。
-
 **[SecEmb: Sparsity-Aware Secure Federated Learning of On-Device Recommender System with Large Embedding](secemb_sparsity-aware_secure_federated_learning_of_on-device_recommender_system_.md)**
 
 :   提出 SecEmb，一种利用嵌入更新稀疏性的无损安全联邦推荐协议，通过函数秘密共享（FSS）在保护用户评分物品索引和梯度隐私的同时，将上传/下载通信开销降低最高 90 倍、用户端计算时间降低最高 70 倍。
@@ -209,18 +137,6 @@ description: >-
 **[Solving Probabilistic Verification Problems of Neural Networks Using Branch and Bound](solving_probabilistic_verification_problems_of_neural_networks_using_branch_and_.md)**
 
 :   本文提出一种基于分支定界（Branch and Bound）的神经网络概率验证算法，通过迭代精化输出概率的上下界来回答"给定输入分布下，网络输出满足特定条件的概率是多少"，速度比已有方法快一到两个数量级。
-
-**[Sorbet: A Neuromorphic Hardware-Compatible Transformer-Based Spiking Language Model](sorbet_a_neuromorphic_hardware-compatible_transformer-based_spiking_language_mod.md)**
-
-:   提出 Sorbet，首个完全兼容神经形态硬件的 Transformer 脉冲语言模型，通过两项关键创新——基于位移的 PTsoftmax 和 Bit Shifting PowerNorm (BSPN)——替代传统的 softmax 和层归一化，在 GLUE 基准上实现与 BERT 可比的性能，同时节省 27.16 倍能耗。
-
-**[The Canary's Echo: Auditing Privacy Risks of LLM-Generated Synthetic Text](the_canarys_echo_auditing_privacy_risks_of_llm-generated_synthetic_text.md)**
-
-:   本文设计了针对 LLM 生成的合成数据的成员推断攻击（MIA），揭示合成数据会泄露训练数据信息；进一步发现针对模型的金丝雀（canary）在合成数据发布场景下效果不佳，提出利用自回归模型特性设计的新型金丝雀——拥有同分布前缀和高困惑度后缀，能在合成数据中留下可检测的痕迹，显著提升隐私审计能力。
-
-**[The Ripple Effect: On Unforeseen Complications of Backdoor Attacks](the_ripple_effect_on_unforeseen_complications_of_backdoor_attacks.md)**
-
-:   首次系统量化了后门预训练语言模型在无关下游任务上的"并发症"现象——后门触发词会使下游模型的输出分布严重偏斜（甚至99%集中到单一类别），并提出基于多任务学习的无需下游任务知识的缓解方法。
 
 **[Theoretically Unmasking Inference Attacks Against LDP-Protected Client Data in Federated Vision Models](theoretically_unmasking_inference_attacks_against_ldp-protected_client_data_in_.md)**
 
@@ -234,18 +150,6 @@ description: >-
 
 :   提出 CafCor 算法，通过参与者间的共享随机性实现关联噪声注入，结合新型鲁棒聚合方法 CAF，在不信任服务器、存在恶意参与者的联邦学习场景下，实现接近中心化 DP 的隐私-效用权衡。
 
-**[TuCo: Measuring the Contribution of Fine-Tuning to Individual Responses of LLMs](tuco_measuring_the_contribution_of_fine-tuning_to_individual_responses_of_llms.md)**
-
-:   提出 Tuning Contribution (TuCo) 指标，通过将微调后 LLM 的前向传播精确分解为预训练分量 (PTC) 和微调分量 (FTC)，首次实现在推理时逐 prompt 量化微调对模型输出的贡献，并揭示越狱攻击通过削弱 FTC 幅度来绕过安全防护。
-
 **[Understanding Model Ensemble in Transferable Adversarial Attack](understanding_model_ensemble_in_transferable_adversarial_attack.md)**
 
 :   首次为模型集成对抗攻击建立理论框架，定义 transferability error 并将其分解为脆弱性（vulnerability）与多样性（diversity），再利用信息论工具给出上界，从理论上验证了"更多模型+更高多样性+更低复杂度"三条实践指南。
-
-**[Watch Out Your Album! On the Inadvertent Privacy Memorization in Multi-Modal Large Language Models](watch_out_your_album_on_the_inadvertent_privacy_memorization_in_multi-modal_larg.md)**
-
-:   揭示多模态大语言模型（MLLM）在微调过程中会不经意地记忆与训练任务完全无关的私密内容（如随机水印），这种记忆源于 mini-batch 内的虚假相关性，并提出基于层级探针的检测框架证明模型内部表示已编码此类信息，即使模型输出不直接显示。
-
-**[X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](x-transfer_attacks_towards_super_transferable_adversarial_attacks_on_clip.md)**
-
-:   提出 X-Transfer 攻击方法，通过高效的代理模型缩放策略（基于多臂老虎机的动态选择），生成具有"超级迁移性"的通用对抗扰动（UAP），单一扰动可同时跨数据、跨领域、跨模型、跨任务攻击各种 CLIP 编码器和下游 VLM。

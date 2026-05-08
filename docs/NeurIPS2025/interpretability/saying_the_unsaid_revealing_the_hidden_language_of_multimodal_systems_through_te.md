@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.10690](https://arxiv.org/abs/2511.10690)  
 **代码**: 无  
-**领域**: 多模态VLM  
+**领域**: 可解释性  
 **关键词**: 隐含语言, 电话游戏, 概念连接, 多模态可解释性, 测试时探测
 
 ## 一句话总结
@@ -114,8 +114,8 @@ tags:
 
 - [\[NeurIPS 2025\] Evaluating LLMs in Open-Source Games](evaluating_llms_in_open-source_games.md)
 - [\[ICLR 2026\] Hidden Breakthroughs in Language Model Training](../../ICLR2026/interpretability/hidden_breakthroughs_in_language_model_training.md)
+- [\[NeurIPS 2025\] Far from the Shallow: Brain-Predictive Reasoning Embedding through Residual Disentanglement](far_from_the_shallow_brain-predictive_reasoning_embedding_through_residual_disen.md)
 - [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](../../CVPR2025/interpretability/towards_faithful_multimodal_concept_bottleneck_models.md)
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](the_trilemma_of_truth_in_large_language_models.md)
-- [\[ICML 2025\] Supernova Event Dataset: Interpreting Large Language Models' Personality through Critical Event Analysis](../../ICML2025/interpretability/supernova_event_dataset_interpreting_large_language_models_personality_through_c.md)
 
 <!-- RELATED:END -->

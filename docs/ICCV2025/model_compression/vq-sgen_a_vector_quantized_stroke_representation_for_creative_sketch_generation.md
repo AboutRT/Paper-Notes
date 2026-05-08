@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2411.16446](https://arxiv.org/abs/2411.16446)  
 **代码**: [项目页面](https://enigma-li.github.io/projects/VQ-SGen/VQ-SGen.html)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: sketch generation, vector quantization, stroke representation, autoregressive, creative sketch  
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.10945](https://arxiv.org/abs/2511.10945)  
-**代码**: https://github.com/zxy1234321/FedBCS (有)  
+**代码**: [https://github.com/zxy1234321/FedBCS](https://github.com/zxy1234321/FedBCS)  
 **领域**: Medical Imaging / 联邦学习  
 **关键词**: 联邦学习, 医学图像分割, 原型对齐, 频域风格校准, 特征异构
 
@@ -131,7 +131,7 @@ FedBCS基于标准的联邦学习pipeline（FedAvg框架），客户端使用共
 - [\[AAAI 2026\] Federated CLIP for Resource-Efficient Heterogeneous Medical Image Classification](federated_clip_for_resource-efficient_heterogeneous_medical_image_classification.md)
 - [\[AAAI 2026\] HiFusion: Hierarchical Intra-Spot Alignment and Regional Context Fusion for Spatial Gene Expression Prediction from Histopathology](hifusion_hierarchical_intra-spot_alignment_and_regional_context_fusion_for_spati.md)
 - [\[ICCV 2025\] Alleviating Textual Reliance in Medical Language-guided Segmentation via Prototype-driven Semantic Approximation](../../ICCV2025/medical_imaging/alleviating_textual_reliance_in_medical_language-guided_segmentation_via_prototy.md)
-- [\[AAAI 2026\] Bidirectional Channel-selective Semantic Interaction for Semi-Supervised Medical Segmentation](bidirectional_channel-selective_semantic_interaction_for_semi-supervised_medical.md)
 - [\[AAAI 2026\] FunKAN: Functional Kolmogorov-Arnold Network for Medical Image Enhancement and Segmentation](funkan_functional_kolmogorov-arnold_network_for_medical_image_enhancement_and_se.md)
+- [\[AAAI 2026\] Bidirectional Channel-selective Semantic Interaction for Semi-Supervised Medical Segmentation](bidirectional_channel-selective_semantic_interaction_for_semi-supervised_medical.md)
 
 <!-- RELATED:END -->

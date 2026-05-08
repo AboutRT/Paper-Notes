@@ -11,7 +11,7 @@ tags:
   - 预算分配策略
   - 指数增长策略
   - 扩散模型
-  - 大语言模型
+  - 图像复原
   - 后训练优化
 ---
 
@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2501.18962](https://arxiv.org/abs/2501.18962)  
 **作者**: Pu Yang (Peking University), Yunzhen Feng (NYU), Ziyuan Chen (Peking University), Yuhang Wu (UC Berkeley), Zhuoyuan Li (NUS)  
 **代码**: 未公开  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: 合成数据, 迭代自举, 预算分配策略, 指数增长策略, 扩散模型, 大语言模型, 后训练优化  
 
 ## 一句话总结
@@ -155,9 +155,9 @@ $$r^* - r(\theta_{\pi_{\text{exp}}^*}^{(T)}) = \mathcal{O}((1+\zeta)^{-2T})$$
 ## 相关论文
 
 - [\[ICCV 2025\] Outlier-Aware Post-Training Quantization for Image Super-Resolution](../../ICCV2025/image_restoration/outlier-aware_post-training_quantization_for_image_super-resolution.md)
-- [\[ICCV 2025\] FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration](../../ICCV2025/image_restoration/foundir_unleashing_million-scale_training_data_to_advance_foundation_models_for_.md)
 - [\[ECCV 2024\] Rethinking Image Super-Resolution from Training Data Perspectives](../../ECCV2024/image_restoration/rethinking_image_super-resolution_from_training_data_perspectives.md)
+- [\[ICCV 2025\] FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration](../../ICCV2025/image_restoration/foundir_unleashing_million-scale_training_data_to_advance_foundation_models_for_.md)
 - [\[ACL 2025\] DiffuseDef: Improved Robustness to Adversarial Attacks via Iterative Denoising](../../ACL2025/image_restoration/diffusedef_adversarial_defense.md)
-- [\[CVPR 2025\] Iterative Predictor-Critic Code Decoding for Real-World Image Dehazing](../../CVPR2025/image_restoration/iterative_predictor-critic_code_decoding_for_real-world_image_dehazing.md)
+- [\[ICML 2025\] HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](../../ICML2025/image_restoration/harmonica_harmonizing_training_and_inference_for_better_feature_caching_in_diffu.md)
 
 <!-- RELATED:END -->

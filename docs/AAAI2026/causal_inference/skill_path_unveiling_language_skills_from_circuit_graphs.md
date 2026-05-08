@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Skill Path: Unveiling Language Skills from Circuit Graphs
 description: >-
-  [AAAI2026][机制可解释性] 提出 Skill Path 概念及三步框架（分解-剪枝-因果中介），从电路图中提取语言模型特定技能的线性路径，定量验证了技能的分层性（Stratification）和包容性（Inclusiveness）两大猜想。
+  [AAAI2026][因果推理] 提出 Skill Path 概念及三步框架（分解-剪枝-因果中介），从电路图中提取语言模型特定技能的线性路径，定量验证了技能的分层性（Stratification）和包容性（Inclusiveness）两大猜想。
 tags:
   - AAAI2026
-  - 机制可解释性
+  - 因果推理
   - 电路发现
   - skill path
   - causal mediation
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2410.01334](https://arxiv.org/abs/2410.01334)  
 **代码**: [GitHub](https://github.com/Zodiark-ch/Language-Skill-of-LLMs)  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: 机制可解释性, 电路发现, skill path, causal mediation, 语言模型
 
 ## 一句话总结
@@ -169,9 +169,9 @@ $$\text{Eff}_{\text{Skill}}(\text{Path}^i) = \frac{N_{\text{Path}^i \in \mathcal
 ## 相关论文
 
 - [\[AAAI 2026\] Causally-Grounded Dual-Path Attention Intervention for Object Hallucination Mitigation in LVLMs](causally-grounded_dual-path_attention_intervention_for_objec.md)
-- [\[NeurIPS 2025\] Characterization and Learning of Causal Graphs from Hard Interventions](../../NeurIPS2025/causal_inference/characterization_and_learning_of_causal_graphs_from_hard_interventions.md)
-- [\[AAAI 2026\] I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables](i-cam-uv_integrating_causal_graphs_over_non-identical_variable_sets_using_causal.md)
 - [\[ACL 2025\] CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation](../../ACL2025/causal_inference/causalrag_integrating_causal_graphs_into_retrieval-augmented_generation.md)
+- [\[AAAI 2026\] I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables](i-cam-uv_integrating_causal_graphs_over_non-identical_variable_sets_using_causal.md)
 - [\[AAAI 2026\] Hallucinate Less by Thinking More: Aspect-Based Causal Abstention for Large Language Models](hallucinate_less_by_thinking_more_aspect-based_causal_absten.md)
+- [\[ICLR 2026\] Copy-Paste to Mitigate Large Language Model Hallucinations](../../ICLR2026/causal_inference/copy-paste_to_mitigate_large_language_model_hallucinations.md)
 
 <!-- RELATED:END -->

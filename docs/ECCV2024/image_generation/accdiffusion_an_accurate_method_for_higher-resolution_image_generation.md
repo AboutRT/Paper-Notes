@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.10738](https://arxiv.org/abs/2407.10738)  
-**代码**: [https://github.com/lzhxmu/AccDiffusion](https://github.com/lzhxmu/AccDiffusion) (有)  
+**代码**: [https://github.com/lzhxmu/AccDiffusion](https://github.com/lzhxmu/AccDiffusion)  
 **领域**: 图像生成 / 扩散模型 / 高分辨率生成  
 **关键词**: 高分辨率图像生成, Patch-wise去噪, Cross-Attention引导, 目标重复消除, 免训练  
 
@@ -108,8 +108,8 @@ AccDiffusion是完全**免训练**的plug-and-play方法，无需任何微调或
 
 - [\[NeurIPS 2025\] ScaleDiff: Higher-Resolution Image Synthesis via Efficient and Model-Agnostic Diffusion](../../NeurIPS2025/image_generation/scalediff_higher-resolution_image_synthesis_via_efficient_and_model-agnostic_dif.md)
 - [\[ECCV 2024\] Learning Semantic Latent Directions for Accurate and Controllable Human Motion Prediction](learning_semantic_latent_directions_for_accurate_and_controllable_human_motion_p.md)
-- [\[ECCV 2024\] XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution](xpsr_cross-modal_priors_for_diffusion-based_image_super-resolution.md)
 - [\[ECCV 2024\] FouriScale: A Frequency Perspective on Training-Free High-Resolution Image Synthesis](fouriscale_a_frequency_perspective_on_training-free_high-resolution_image_synthe.md)
-- [\[ECCV 2024\] Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization](pixel-aware_stable_diffusion_for_realistic_image_super-resolution_and_personaliz.md)
+- [\[ECCV 2024\] OmniSSR: Zero-shot Omnidirectional Image Super-Resolution using Stable Diffusion Model](omnissr_zero-shot_omnidirectional_image_super-resolution_using_stable_diffusion_.md)
+- [\[ECCV 2024\] Latent Guard: a Safety Framework for Text-to-Image Generation](latent_guard_a_safety_framework_for_text-to-image_generation.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24427](https://arxiv.org/abs/2505.24427)  
-**代码**: https://www.uni-bamberg.de/en/nlproc/projects/item/  
+**代码**: [https://www.uni-bamberg.de/en/nlproc/projects/item/](https://www.uni-bamberg.de/en/nlproc/projects/item/)  
 **领域**: 多模态VLM  
 **关键词**: emotion detection, data collection, multimodal, social media, author annotation
 

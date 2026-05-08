@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.16399](https://arxiv.org/abs/2505.16399)  
-**代码**: https://github.com/dengq7/Sketchy-3DIS  
+**代码**: [https://github.com/dengq7/Sketchy-3DIS](https://github.com/dengq7/Sketchy-3DIS)  
 **领域**: 3D视觉  
 **关键词**: 弱监督3D实例分割, 不精确包围盒, 伪标签, 粗到精分割, 点云理解
 
@@ -139,6 +139,6 @@ tags:
 - [\[CVPR 2025\] Relation3D: Enhancing Relation Modeling for Point Cloud Instance Segmentation](relation3d_enhancing_relation_modeling_for_point_cloud_instance_segmentation.md)
 - [\[AAAI 2026\] Retrieving Objects from 3D Scenes with Box-Guided Open-Vocabulary Instance Segmentation](../../AAAI2026/3d_vision/retrieving_objects_from_3d_scenes_with_box-guided_open-vocabulary_instance_segme.md)
 - [\[ICCV 2025\] CutS3D: Cutting Semantics in 3D for 2D Unsupervised Instance Segmentation](../../ICCV2025/3d_vision/cuts3d_cutting_semantics_in_3d_for_2d_unsupervised_instance_segmentation.md)
-- [\[ECCV 2024\] Part2Object: Hierarchical Unsupervised 3D Instance Segmentation](../../ECCV2024/3d_vision/part2object_hierarchical_unsupervised_3d_instance_segmentation.md)
+- [\[CVPR 2025\] Functionality Understanding and Segmentation in 3D Scenes](functionality_understanding_and_segmentation_in_3d_scenes.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 模型校准
   - 人类校准
-  - 增量问答
+  - LLM评测
   - 对抗性基准
   - 置信度评估
   - CalScore
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.19684](https://arxiv.org/abs/2502.19684)  
 **代码**: [GitHub](https://github.com/yysung/advcalibration)  
-**领域**: 其他（校准评估/基准构建）  
+**领域**: LLM评测  
 **关键词**: 模型校准, 人类校准, 增量问答, 对抗性基准, 置信度评估, CalScore
 
 ## 一句话总结
@@ -169,10 +169,10 @@ $$\text{CalScore}_q = 1 - r(\mathbb{E}_t[(1-h_t) g_t c_t])$$
 
 ## 相关论文
 
+- [\[ACL 2025\] PATCH: Psychometrics-Assisted Benchmarking of LLMs Against Human Populations](patch_psychometrics-assisted_benchmarking_of_large_language_models_against_human.md)
 - [\[CVPR 2025\] Uncertainty Weighted Gradients for Model Calibration](../../CVPR2025/llm_evaluation/uncertainty_weighted_gradients_for_model_calibration.md)
 - [\[ACL 2025\] A Conformal Risk Control Framework for Granular Word Assessment and Uncertainty Calibration of CLIPScore Quality Estimates](a_conformal_risk_control_framework_for_granular_word_assessment_and_uncertainty_.md)
-- [\[ACL 2025\] PATCH: Psychometrics-Assisted Benchmarking of LLMs Against Human Populations](patch_psychometrics-assisted_benchmarking_of_large_language_models_against_human.md)
+- [\[NeurIPS 2025\] On the Entropy Calibration of Language Models](../../NeurIPS2025/llm_evaluation/on_the_entropy_calibration_of_language_models.md)
 - [\[ACL 2025\] ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](elaboration_competitive_programming.md)
-- [\[ACL 2025\] Influences on LLM Calibration: A Study of Response Agreement, Loss Functions, and Prompt Styles](influences_on_llm_calibration_a_study_of_response_agreement_loss_functions_and_p.md)
 
 <!-- RELATED:END -->

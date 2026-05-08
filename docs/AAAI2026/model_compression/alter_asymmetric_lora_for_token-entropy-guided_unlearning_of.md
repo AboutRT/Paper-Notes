@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2603.01792v1](https://arxiv.org/abs/2603.01792v1)  
-**代码**: [https://github.com/MastrOrigami/ALTER.git](https://github.com/MastrOrigami/ALTER.git) (有)  
-**领域**: AI Safety / LLM Unlearning  
+**代码**: [https://github.com/MastrOrigami/ALTER.git](https://github.com/MastrOrigami/ALTER.git)  
+**领域**: 模型压缩  
 **关键词**: 机器遗忘, 非对称LoRA, Token熵, 参数隔离, 知识解耦  
 
 ## 一句话总结
@@ -64,13 +64,13 @@ $$\mathbf{W} = \mathbf{W}_0 + \Delta\mathbf{W} = \mathbf{W}_0 + \left(\mathbf{B}
 2. **Token熵引导机制（Observation II）**：
 
    论文发现Token级别的熵呈现稳健的双峰分布：高熵Token（如"however"、"therefore"）主要是结构性语言元素，低熵Token包含知识密集内容（如实体名词）。这一分布在PEFT过程中保持稳定（>87%高熵Token保持不确定性，>92%低熵Token保持确定性）。基于此，ALTER用Tsallis熵替代Shannon熵进行层次化建模：
-   $$S_q(x_t) = \frac{1}{q-1}\left(1 - \sum_{i=1}^{V} p_{t,i}^q\right), \quad q > 0$$
+    $S_q(x_t) = \frac{1}{q-1}\left(1 - \sum_{i=1}^{V} p_{t,i}^q\right), \quad q > 0$
    变形参数 $q$ 的双重控制：$q<1$ 增强A矩阵中高熵Token的结构不变性；$q>1$ 打破低熵Token的跨领域关联，实现定向遗忘。
 
 3. **熵感知自适应门控（MoE路由）**：
 
    引入基于熵的自适应门控机制：
-   $$g_d(x_t) = \text{softmax}(W_g^T \cdot S_q(x_t) / \tau)$$
+    $g_d(x_t) = \text{softmax}(W_g^T \cdot S_q(x_t) / \tau)$
    路由温度 $\tau$ 动态调节：高熵Token（$S_q > 1.2$）时 $\tau = 0.8$，激活多专家增强结构鲁棒性；低熵Token（$S_q \leq 1.2$）时 $\tau = 0.01$，强制单专家精确路由。
 
 4. **差异化推理路径**：
@@ -155,9 +155,9 @@ $$\min_{\omega_{f_d}, \omega_r} \beta \sum_{d=1}^{N} \mathbb{E}_{(q,a)\sim\mathc
 ## 相关论文
 
 - [\[ICLR 2026\] Reference-Guided Machine Unlearning](../../ICLR2026/model_compression/reference-guided_machine_unlearning.md)
-- [\[ICLR 2026\] GASP: Guided Asymmetric Self-Play For Coding LLMs](../../ICLR2026/model_compression/gasp_guided_asymmetric_self-play_for_coding_llms.md)
 - [\[ACL 2025\] Lacuna Inc. at SemEval-2025 Task 4: LoRA-Enhanced Influence-Based Unlearning for LLMs](../../ACL2025/model_compression/lacuna_inc_at_semeval-2025_task_4_lora-enhanced_influence-based_unlearning_for_l.md)
-- [\[AAAI 2026\] Shrinking the Teacher: An Adaptive Teaching Paradigm for Asymmetric EEG-Vision Alignment](shrinking_the_teacher_an_adaptive_teaching_paradigm_for_asymmetric_eeg-vision_al.md)
 - [\[AAAI 2026\] Towards Test-time Efficient Visual Place Recognition via Asymmetric Query Processing](towards_test-time_efficient_visual_place_recognition_via_asymmetric_query_proces.md)
+- [\[ICCV 2025\] Context Guided Transformer Entropy Modeling for Video Compression](../../ICCV2025/model_compression/context_guided_transformer_entropy_modeling_for_video_compression.md)
+- [\[AAAI 2026\] Renormalization Group Guided Tensor Network Structure Search](renormalization_group_guided_tensor_network_structure_search.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 3D 资产检索
   - 场景感知
-  - 图神经网络
+  - 其他
   - SE(3) 等变性
   - 多模态融合
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.04057](https://arxiv.org/abs/2510.04057)  
 **代码**: 无  
-**领域**: 3D 视觉 / 多模态检索 / 场景生成  
+**领域**: 其他  
 **关键词**: 3D 资产检索, 场景感知, 图神经网络, SE(3) 等变性, 多模态融合
 
 ## 一句话总结
@@ -136,10 +136,10 @@ $$\mathcal{L}_{layout} = \frac{1}{2}(\mathcal{L}_{layout}^{q2g} + \mathcal{L}_{l
 
 ## 相关论文
 
-- [\[CVPR 2025\] MOS: Modeling Object-Scene Associations in Generalized Category Discovery](../../CVPR2025/others/mos_modeling_object-scene_associations_in_generalized_category_discovery.md)
+- [\[NeurIPS 2025\] 3DID: Direct 3D Inverse Design for Aerodynamics with Physics-Aware Optimization](3did_direct_3d_inverse_design_for_aerodynamics_with_physics-aware_optimization.md)
 - [\[ACL 2025\] GeAR: Generation Augmented Retrieval](../../ACL2025/others/gear_generation_augmented_retrieval.md)
 - [\[CVPR 2026\] SimRecon: SimReady Compositional Scene Reconstruction from Real Videos](../../CVPR2026/others/simrecon_simready_compositional_scene_reconstruction_from_real_videos.md)
-- [\[AAAI 2026\] Towards Temporal Fusion Beyond the Field of View for Camera-based Semantic Scene Completion](../../AAAI2026/others/towards_temporal_fusion_beyond_the_field_of_view_for_camera-based_semantic_scene.md)
-- [\[CVPR 2026\] AdaSFormer: Adaptive Serialized Transformers for Monocular Semantic Scene Completion from Indoor Environments](../../CVPR2026/others/adasformer_adaptive_serialized_transformers_for_monocular_semantic_scene_complet.md)
+- [\[CVPR 2025\] MOS: Modeling Object-Scene Associations in Generalized Category Discovery](../../CVPR2025/others/mos_modeling_object-scene_associations_in_generalized_category_discovery.md)
+- [\[NeurIPS 2025\] MiCADangelo: Fine-Grained Reconstruction of Constrained CAD Models from 3D Scans](micadangelo_fine-grained_reconstruction_of_constrained_cad_models_from_3d_scans.md)
 
 <!-- RELATED:END -->

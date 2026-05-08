@@ -14,7 +14,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.21327](https://arxiv.org/abs/2604.21327)  
 **代码**: [https://github.com/yuyongcan/DDRL](https://github.com/yuyongcan/DDRL)  
-**领域**: 强化学习 / 测试时优化  
+**领域**: 图像复原  
 **关键词**: 测试时强化学习, 伪标签噪声, GRPO偏差, 去噪去偏, 数学推理
 
 ## 一句话总结

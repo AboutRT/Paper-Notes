@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Efficient Optimization with Orthogonality Constraint: a Randomized Riemannian Submanifold Method
 description: >-
-  [ICML2025][正交约束优化] 提出随机黎曼子流形下降方法 (RSDM)，通过将每步更新限制在随机低维子流形上，将正交约束优化中 retraction 操作的复杂度从 $O(np^2)$ 降至 $O(r^3)$，同时保持与全空间黎曼梯度下降相匹配的总计算复杂度。
+  [ICML2025][其他] 提出随机黎曼子流形下降方法 (RSDM)，通过将每步更新限制在随机低维子流形上，将正交约束优化中 retraction 操作的复杂度从 $O(np^2)$ 降至 $O(r^3)$，同时保持与全空间黎曼梯度下降相匹配的总计算复杂度。
 tags:
   - ICML2025
-  - 正交约束优化
+  - 其他
   - Riemannian优化
   - Stiefel流形
   - 随机子流形
@@ -135,9 +135,9 @@ $$U_k(Y) = P_k^\top \begin{bmatrix} Y & 0 \\ 0 & I_{n-r} \end{bmatrix} P_k, \qua
 ## 相关论文
 
 - [\[ICML 2025\] Exploiting Similarity for Computation and Communication-Efficient Decentralized Optimization](exploiting_similarity_for_computation_and_communication-efficient_decentralized_.md)
-- [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
-- [\[ACL 2025\] Divide-Then-Aggregate: An Efficient Tool Learning Method via Parallel Tool Invocation](../../ACL2025/others/dta_llama_parallel_tool_invocation.md)
+- [\[NeurIPS 2025\] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds](../../NeurIPS2025/others/finite-time_analysis_of_stochastic_nonconvex_nonsmooth_optimization_on_the_riema.md)
 - [\[ACL 2025\] TACLR: A Scalable and Efficient Retrieval-Based Method for Industrial Product Attribute Value Identification](../../ACL2025/others/taclr_a_scalable_and_efficient_retrieval-based_method_for_industrial_product_att.md)
-- [\[ICML 2025\] K²IE: Kernel Method-based Kernel Intensity Estimators for Inhomogeneous Poisson Processes](k2ie_kernel_method-based_kernel_intensity_estimators_for_inhomogeneous_poisson_p.md)
+- [\[ACL 2025\] Divide-Then-Aggregate: An Efficient Tool Learning Method via Parallel Tool Invocation](../../ACL2025/others/dta_llama_parallel_tool_invocation.md)
+- [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
 
 <!-- RELATED:END -->

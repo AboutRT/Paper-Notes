@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - spurious correlations
   - syntactic templates
-  - LLM 安全
+  - LLM预训练
   - 越狱攻击
   - 指令微调
   - 领域泛化
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.21155](https://arxiv.org/abs/2509.21155)  
 **代码**: 待确认  
-**领域**: llm_nlp / ai_safety  
+**领域**: LLM预训练  
 **关键词**: spurious correlations, syntactic templates, LLM 安全, 越狱攻击, 指令微调, 领域泛化
 
 ## 一句话总结
@@ -169,10 +169,10 @@ $$R_{M_\theta}(d) = \mathbb{E}_{(p,t,e) \sim X_d}\left(\mathbb{E}_{p^- \sim \mat
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](ricl_temporal_credit.md)
-- [\[NeurIPS 2025\] Scaling Embedding Layers in Language Models](scaling_embedding_layers_in_language_models.md)
+- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](retrospective_incontext_learning_for_temporal_credit_assignm.md)
 - [\[NeurIPS 2025\] Scalable Fingerprinting of Large Language Models](scalable_fingerprinting_of_large_language_models.md)
+- [\[NeurIPS 2025\] Scaling Embedding Layers in Language Models](scaling_embedding_layers_in_language_models.md)
+- [\[NeurIPS 2025\] Vocabulary Customization for Efficient Domain-Specific LLM Deployment](vocabulary_customization_for_efficient_domain-specific_llm_deployment.md)
 - [\[NeurIPS 2025\] The Curse of Depth in Large Language Models](the_curse_of_depth_in_large_language_models.md)
-- [\[ICML 2025\] Revisiting Continuity of Image Tokens for Cross-Domain Few-Shot Learning](../../ICML2025/llm_pretraining/revisiting_continuity_of_image_tokens_for_cross-domain_few-shot_learning.md)
 
 <!-- RELATED:END -->

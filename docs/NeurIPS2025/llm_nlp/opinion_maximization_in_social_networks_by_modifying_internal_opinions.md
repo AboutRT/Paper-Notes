@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.17226](https://arxiv.org/abs/2510.17226)  
 **代码**: 待确认  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: opinion dynamics, social networks, opinion maximization, random walk, asynchronous algorithm, structural centrality
 
 ## 一句话总结
@@ -184,9 +184,9 @@ MIS 在所有数据集和所有指标上实现了完美精度（precision = 1）
 ## 相关论文
 
 - [\[NeurIPS 2025\] msf-CNN: Patch-based Multi-Stage Fusion with Convolutional Neural Networks for TinyML](msf-cnn_patch-based_multi-stage_fusion_with_convolutional_neural_networks_for_ti.md)
-- [\[ACL 2025\] SocialEval: Evaluating Social Intelligence of Large Language Models](../../ACL2025/llm_nlp/socialeval_evaluating_social_intelligence_of_large_language_models.md)
+- [\[ACL 2025\] Decomposed Opinion Summarization with Verified Aspect-Aware Modules](../../ACL2025/llm_nlp/decomposed_opinion_summarization_with_verified_aspect-aware_modules.md)
 - [\[ACL 2025\] Internal and External Impacts of Natural Language Processing Papers](../../ACL2025/llm_nlp/internal_and_external_impacts_of_natural_language_processing_papers.md)
-- [\[CVPR 2025\] STAA-SNN: Spatial-Temporal Attention Aggregator for Spiking Neural Networks](../../CVPR2025/llm_nlp/staa-snn_spatial-temporal_attention_aggregator_for_spiking_neural_networks.md)
-- [\[ACL 2025\] To Code or not to Code? Adaptive Tool Integration for Math Language Models via Expectation-Maximization](../../ACL2025/llm_nlp/to_code_or_not_to_code_adaptive_tool_integration_for_math_language_models_via_ex.md)
+- [\[ICML 2025\] Position: LLM Social Simulations Are a Promising Research Method](../../ICML2025/llm_nlp/llm_social_simulations_are_a_promising_research_method.md)
+- [\[ACL 2025\] SocialEval: Evaluating Social Intelligence of Large Language Models](../../ACL2025/llm_nlp/socialeval_evaluating_social_intelligence_of_large_language_models.md)
 
 <!-- RELATED:END -->

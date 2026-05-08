@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.15551](https://arxiv.org/abs/2509.15551)  
 **代码**: [项目页面](https://sepehrdehdashtian.github.io/Papers/PolyJuice)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: synthetic image detection, 红队测试, 对抗攻击, 文生图, black-box attack
 
 ## 一句话总结

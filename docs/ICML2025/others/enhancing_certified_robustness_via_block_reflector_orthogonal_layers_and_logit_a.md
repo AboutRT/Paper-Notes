@@ -15,8 +15,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.15174](https://arxiv.org/abs/2505.15174)  
-**代码**: https://github.com/ (有)  
-**领域**: 对抗鲁棒性 / 认证防御  
+**代码**: [https://github.com/](https://github.com/)  
+**领域**: 其他  
 **关键词**: Lipschitz Neural Networks, Certified Robustness, Orthogonal Layers, Logit Annealing
 
 ## 一句话总结

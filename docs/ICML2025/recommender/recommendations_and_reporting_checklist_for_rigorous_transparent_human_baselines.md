@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - Human Baseline
-  - AI评估方法论
+  - 推荐系统
   - 评估透明度
   - 测量理论
   - 报告规范
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.13776](https://arxiv.org/abs/2506.13776)  
-**代码**: https://github.com/kevinlwei/human-baselines  
+**代码**: [https://github.com/kevinlwei/human-baselines](https://github.com/kevinlwei/human-baselines)  
 **领域**: 推荐系统  
 **关键词**: Human Baseline, AI评估方法论, 评估透明度, 测量理论, 报告规范
 
@@ -134,6 +134,6 @@ tags:
 - [\[ICML 2025\] RLTHF: Targeted Human Feedback for LLM Alignment](rlthf_targeted_human_feedback_for_llm_alignment.md)
 - [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
 - [\[ICML 2025\] MATCHA: Toward Safe and Human-Aligned Game Conversational Recommendation via Multi-Agent Decomposition](toward_safe_and_human-aligned_game_conversational_recommendation_via_multi-agent.md)
-- [\[ICML 2025\] How to Set AdamW's Weight Decay as You Scale Model and Dataset Size](how_to_set_adamws_weight_decay_as_you_scale_model_and_dataset_size.md)
+- [\[NeurIPS 2025\] Position: Towards Bidirectional Human-AI Alignment](../../NeurIPS2025/recommender/position_towards_bidirectional_human-ai_alignment.md)
 
 <!-- RELATED:END -->

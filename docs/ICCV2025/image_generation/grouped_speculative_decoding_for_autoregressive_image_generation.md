@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.07747](https://arxiv.org/abs/2508.07747)  
 **代码**: [GitHub](https://github.com/junhyukso/GSD)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 自回归图像生成, 推测解码, 推理加速, 免训练, 视觉token冗余
 
 ## 一句话总结

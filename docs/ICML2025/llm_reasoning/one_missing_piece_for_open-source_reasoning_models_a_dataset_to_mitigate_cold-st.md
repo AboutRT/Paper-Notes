@@ -156,9 +156,9 @@ GPT-4o根据检索到的demonstration，为新问题生成推理流程 $\hat{S}$
 ## 相关论文
 
 - [\[ACL 2025\] MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification](../../ACL2025/llm_reasoning/mm-verify_enhancing_multimodal_reasoning_with_chain-of-thought_verification.md)
+- [\[ICML 2025\] PENCIL: Long Thoughts with Short Memory](pencil_long_thoughts_with_short_memory.md)
+- [\[ICML 2025\] MARGE: Improving Math Reasoning for LLMs with Guided Exploration](marge_improving_math_reasoning_for_llms_with_guided_exploration.md)
 - [\[ICML 2025\] Putnam-AXIOM: A Functional & Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs](putnam-axiom_a_functional_and_static_benchmark_for_measuring_higher_level_mathem.md)
 - [\[ICML 2025\] Improving Rationality in the Reasoning Process of Language Models through Self-playing Game](improving_rationality_in_the_reasoning_process_of_language_models_through_self-p.md)
-- [\[ICML 2025\] Adversarial Manipulation of Reasoning Models using Internal Representations](adversarial_manipulation_of_reasoning_models_using_internal_representations.md)
-- [\[ICML 2025\] Rethinking External Slow-Thinking: From Snowball Errors to Probability of Correct Reasoning](rethinking_external_slow-thinking_from_snowball_errors_to_probability_of_correct.md)
 
 <!-- RELATED:END -->

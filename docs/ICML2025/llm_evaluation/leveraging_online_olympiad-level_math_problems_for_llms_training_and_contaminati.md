@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation
 description: >-
-  [ICML 2025][数学推理] 利用 Art of Problem Solving (AoPS) 论坛的社区内容，构建了 652K 奥赛级数学 QA 对的训练集 AoPS-Instruct 和带时间戳的抗污染评估集 LiveAoPSBench，揭示了 LLM 在旧数据上的高表现可能源于预训练数据泄露而非真正推理能力。
+  [ICML 2025][LLM评测] 利用 Art of Problem Solving (AoPS) 论坛的社区内容，构建了 652K 奥赛级数学 QA 对的训练集 AoPS-Instruct 和带时间戳的抗污染评估集 LiveAoPSBench，揭示了 LLM 在旧数据上的高表现可能源于预训练数据泄露而非真正推理能力。
 tags:
   - ICML 2025
-  - 数学推理
+  - LLM评测
   - 数据污染
   - 奥赛数学
   - 指令微调
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.14275](https://arxiv.org/abs/2501.14275)  
 **代码**: [livemathbench.github.io](https://livemathbench.github.io/leaderboard.html)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 数学推理, 数据污染, 奥赛数学, 指令微调, 评估基准
 
 ## 一句话总结
@@ -182,7 +182,7 @@ LiveAoPSBench 的核心设计理念是**利用时间戳实现抗污染**：
 - [\[ICML 2025\] How Much Can We Forget about Data Contamination?](how_much_can_we_forget_about_data_contamination.md)
 - [\[ACL 2026\] Subject-level Inference for Realistic Text Anonymization Evaluation](../../ACL2026/llm_evaluation/subject-level_inference_for_realistic_text_anonymization_evaluation.md)
 - [\[ACL 2026\] Do LLMs Overthink Basic Math Reasoning? Benchmarking the Accuracy-Efficiency Tradeoff](../../ACL2026/llm_evaluation/do_llms_overthink_basic_math_reasoning_benchmarking_the_accuracy-efficiency_trad.md)
-- [\[ICML 2025\] Improved and Oracle-Efficient Online $\ell_1$-Multicalibration](improved_and_oracle-efficient_online_ell_1-multicalibration.md)
-- [\[ACL 2025\] MMLU-CF: A Contamination-free Multi-task Language Understanding Benchmark](../../ACL2025/llm_evaluation/mmlu-cf_a_contamination-free_multi-task_language_understanding_benchmark.md)
+- [\[ICML 2025\] PhantomWiki: On-Demand Datasets for Reasoning and Retrieval Evaluation](phantomwiki_on-demand_datasets_for_reasoning_and_retrieval_evaluation.md)
+- [\[ICLR 2026\] Preference Leakage: A Contamination Problem in LLM-as-a-judge](../../ICLR2026/llm_evaluation/preference_leakage_a_contamination_problem_in_llm-as-a-judge.md)
 
 <!-- RELATED:END -->

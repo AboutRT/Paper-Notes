@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - 否定理解
-  - VQA benchmark
+  - 多模态VLM
   - 视觉语言模型
   - 缩放趋势
   - 诊断评估
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: 2505.22946  
-**代码**: https://yuhui-zh15.github.io/NegVQA/  
-**领域**: multimodal_vlm  
+**代码**: [https://yuhui-zh15.github.io/NegVQA/](https://yuhui-zh15.github.io/NegVQA/)  
+**领域**: 多模态VLM  
 **关键词**: 否定理解, VQA benchmark, 视觉语言模型, 缩放趋势, 诊断评估
 
 ## 一句话总结
@@ -158,9 +158,9 @@ $$
 ## 相关论文
 
 - [\[CVPR 2025\] Vision-Language Models Do Not Understand Negation](../../CVPR2025/multimodal_vlm/vision-language_models_do_not_understand_negation.md)
-- [\[ACL 2025\] Can Vision Language Models Understand Mimed Actions?](can_vision_language_models_understand_mimed_actions.md)
-- [\[ACL 2025\] Can Multimodal Large Language Models Understand Spatial Relations?](spatialmqa_mllm_spatial_relations.md)
-- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relations?](cordial_can_multimodal_large_language_models_effectively_understand_coherence_re.md)
 - [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relationships?](cordial-multimodal-llm-coherence-relationships.md)
+- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relations?](cordial_can_multimodal_large_language_models_effectively_understand_coherence_re.md)
+- [\[ACL 2025\] Can Vision Language Models Understand Mimed Actions?](can_vision_language_models_understand_mimed_actions.md)
+- [\[ACL 2025\] Can MLLMs Understand the Deep Implication Behind Chinese Images?](can_mllms_understand_the_deep_implication_behind_chinese_images.md)
 
 <!-- RELATED:END -->

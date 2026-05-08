@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.22100](https://arxiv.org/abs/2507.22100)  
-**代码**: https://github.com/fesvhtr/TRIG  
+**代码**: [https://github.com/fesvhtr/TRIG](https://github.com/fesvhtr/TRIG)  
 **领域**: 图像生成  
 **关键词**: 图像生成评估, 权衡分析, 多维度基准, VLM-as-Judge, 文本到图像
 
@@ -142,9 +142,9 @@ TRIG 框架包含三个核心组件：
 ## 相关论文
 
 - [\[CVPR 2025\] Conditional Balance: Improving Multi-Conditioning Trade-Offs in Image Generation](../../CVPR2025/image_generation/conditional_balance_improving_multi-conditioning_trade-offs_in_image_generation.md)
+- [\[CVPR 2025\] Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in Diffusion Models](../../CVPR2025/image_generation/enhancing_privacy-utility_trade-offs_to_mitigate_memorization_in_diffusion_model.md)
 - [\[ICCV 2025\] Erasing More Than Intended? How Concept Erasure Degrades the Generation of Non-Target Concepts](erasing_more_than_intended_how_concept_erasure_degrades_the_generation_of_non-ta.md)
 - [\[ICCV 2025\] DC-AR: Efficient Masked Autoregressive Image Generation with Deep Compression Hybrid Tokenizer](dc-ar_efficient_masked_autoregressive_image_generation_with_deep_compression_hyb.md)
 - [\[ICCV 2025\] Text Embedding Knows How to Quantize Text-Guided Diffusion Models](text_embedding_knows_how_to_quantize_text-guided_diffusion_models.md)
-- [\[CVPR 2025\] Image Generation Diversity Issues and How to Tame Them](../../CVPR2025/image_generation/image_generation_diversity_issues_and_how_to_tame_them.md)
 
 <!-- RELATED:END -->

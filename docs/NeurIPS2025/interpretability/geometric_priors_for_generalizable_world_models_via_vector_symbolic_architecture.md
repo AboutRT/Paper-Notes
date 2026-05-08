@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Geometric Priors for Generalizable World Models via Vector Symbolic Architecture
 description: >-
-  [NEURIPS2025][World Models] 提出基于 Vector Symbolic Architecture (VSA) 的世界模型，利用 FHRR 将状态和动作编码为高维复数向量，用 element-wise 复数乘法建模转移，实现强泛化、长时域稳定和噪声鲁棒的动力学预测。
+  [NEURIPS2025][可解释性] 提出基于 Vector Symbolic Architecture (VSA) 的世界模型，利用 FHRR 将状态和动作编码为高维复数向量，用 element-wise 复数乘法建模转移，实现强泛化、长时域稳定和噪声鲁棒的动力学预测。
 tags:
   - NEURIPS2025
-  - World Models
+  - 可解释性
   - Vector Symbolic Architecture
   - Hyperdimensional Computing
   - FHRR
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2602.21467](https://arxiv.org/abs/2602.21467)  
 **作者**: William Youngwoo Chung, Calvin Yeung, Hansen Jin Lillemark, Zhuowen Zou, Xiangjian Liu, Mohsen Imani (UC Irvine & UC San Diego)  
 **代码**: 未公开  
-**领域**: others  
+**领域**: 可解释性  
 **关键词**: World Models, Vector Symbolic Architecture, Hyperdimensional Computing, FHRR, Geometric Deep Learning, Neurosymbolic AI  
 
 ## 一句话总结
@@ -362,9 +362,9 @@ $$s^\star = \arg\max_{s \in \mathcal{S}} \operatorname{Re}\langle x, \Phi_s \ran
 ## 相关论文
 
 - [\[NeurIPS 2025\] Towards Scaling Laws for Symbolic Regression](towards_scaling_laws_for_symbolic_regression.md)
-- [\[NeurIPS 2025\] Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits](beyond_components_singular_vector-based_interpretability_of_transformer_circuits.md)
 - [\[ICCV 2025\] ArgoTweak: Towards Self-Updating HD Maps through Structured Priors](../../ICCV2025/interpretability/argotweak_towards_self-updating_hd_maps_through_structured_priors.md)
+- [\[NeurIPS 2025\] Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits](beyond_components_singular_vector-based_interpretability_of_transformer_circuits.md)
+- [\[ACL 2025\] Around the World in 24 Hours: Probing LLM Knowledge of Time and Place](../../ACL2025/interpretability/around_the_world_in_24_hours_probing_llm_knowledge_of_time_and_place.md)
 - [\[NeurIPS 2025\] Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis](toward_real-world_text_image_forgery_localization_structured_and_interpretable_d.md)
-- [\[ICLR 2026\] A Cortically Inspired Architecture for Modular Perceptual AI](../../ICLR2026/interpretability/a_cortically_inspired_architecture_for_modular_perceptual_ai.md)
 
 <!-- RELATED:END -->

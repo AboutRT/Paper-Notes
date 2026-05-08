@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ETVA: Evaluation of Text-to-Video Alignment via Fine-Grained Question Generation and Answering
 description: >-
-  [ICCV 2025][文本-视频对齐评估] 提出ETVA，一种基于细粒度问题生成与回答的文本-视频对齐评估方法，通过多智能体场景图遍历生成原子问题、知识增强多阶段推理回答问题，在与人类判断的相关性上大幅超越现有指标（Spearman's ρ 58.47 vs 31.0），并构建了包含2k prompts和12k问题的评估基准。
+  [ICCV 2025][视频生成] 提出ETVA，一种基于细粒度问题生成与回答的文本-视频对齐评估方法，通过多智能体场景图遍历生成原子问题、知识增强多阶段推理回答问题，在与人类判断的相关性上大幅超越现有指标（Spearman's ρ 58.47 vs 31.0），并构建了包含2k prompts和12k问题的评估基准。
 tags:
   - ICCV 2025
-  - 文本-视频对齐评估
+  - 视频生成
   - 问答框架
   - 场景图
   - 多智能体
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.16867](https://arxiv.org/abs/2503.16867)  
 **代码**: [eftv-eval.github.io/etva-eval](https://eftv-eval.github.io/etva-eval)  
-**领域**: NLP理解  
+**领域**: 视频生成  
 **关键词**: 文本-视频对齐评估, 问答框架, 场景图, 多智能体, 知识增强推理
 
 ## 一句话总结
@@ -190,8 +190,8 @@ ETVA分两阶段工作：
 
 - [\[ICCV 2025\] MotionAgent: Fine-grained Controllable Video Generation via Motion Field Agent](motionagent_fine-grained_controllable_video_generation_via_motion_field_agent.md)
 - [\[ICCV 2025\] WorldScore: A Unified Evaluation Benchmark for World Generation](worldscore_a_unified_evaluation_benchmark_for_world_generation.md)
-- [\[AAAI 2026\] MotionCharacter: Fine-Grained Motion Controllable Human Video Generation](../../AAAI2026/video_generation/motioncharacter_fine-grained_motion_controllable_human_video_generation.md)
 - [\[CVPR 2025\] Can Text-to-Video Generation Help Video-Language Alignment?](../../CVPR2025/video_generation/can_text-to-video_generation_help_video-language_alignment.md)
 - [\[AAAI 2026\] DreamRunner: Fine-Grained Compositional Story-to-Video Generation with Retrieval-Augmented Motion Adaptation](../../AAAI2026/video_generation/dreamrunner_fine-grained_compositional_story-to-video_genera.md)
+- [\[AAAI 2026\] MotionCharacter: Fine-Grained Motion Controllable Human Video Generation](../../AAAI2026/video_generation/motioncharacter_fine-grained_motion_controllable_human_video_generation.md)
 
 <!-- RELATED:END -->

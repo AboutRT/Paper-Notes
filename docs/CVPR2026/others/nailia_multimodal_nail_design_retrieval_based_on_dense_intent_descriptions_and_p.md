@@ -2,10 +2,10 @@
 title: >-
   [论文解读] NaiLIA: Multimodal Nail Design Retrieval Based on Dense Intent Descriptions and Palette Queries
 description: >-
-  [CVPR2026][多模态] 提出 NaiLIA，一种面向美甲设计图像的多模态检索方法，通过密集意图描述和调色板查询实现细粒度匹配，引入基于置信度分数的松弛对比损失（CRC loss）处理未标注正样本问题，在自建 NAIL-STAR 基准和 Marqo Fashion200K 上大幅超越现有方法。
+  [CVPR2026][其他] 提出 NaiLIA，一种面向美甲设计图像的多模态检索方法，通过密集意图描述和调色板查询实现细粒度匹配，引入基于置信度分数的松弛对比损失（CRC loss）处理未标注正样本问题，在自建 NAIL-STAR 基准和 Marqo Fashion200K 上大幅超越现有方法。
 tags:
   - CVPR2026
-  - 多模态
+  - 其他
   - dense intent description
   - palette query
   - 对比学习
@@ -159,8 +159,8 @@ $$\mathcal{L}_{\text{CRC}} = \mathcal{L}_P + \lambda_{UP} \mathcal{L}_{UP} + \la
 
 - [\[CVPR 2026\] SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md)
 - [\[CVPR 2026\] Shoe Style-Invariant and Ground-Aware Learning for Dense Foot Contact Estimation](shoe_style-invariant_and_ground-aware_learning_for_dense_foot_contact_estimation.md)
-- [\[ACL 2025\] LAQuer: Localized Attribution Queries in Content-grounded Generation](../../ACL2025/others/laquer_localized_attribution.md)
-- [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](../../ACL2025/others/towards_text-image_interleaved_retrieval.md)
+- [\[ICLR 2026\] Beyond Linearity in Attention Projections: The Case for Nonlinear Queries](../../ICLR2026/others/beyond_linearity_in_attention_projections_the_case_for_nonlinear_queries.md)
 - [\[ACL 2025\] GeAR: Generation Augmented Retrieval](../../ACL2025/others/gear_generation_augmented_retrieval.md)
+- [\[ACL 2025\] LAQuer: Localized Attribution Queries in Content-grounded Generation](../../ACL2025/others/laquer_localized_attribution.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 立体视频合成
-  - 自监督学习
+  - 视频生成
   - 视频扩散模型
   - 时空一致性
   - 新视角合成
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.11934](https://arxiv.org/abs/2411.11934)  
 **代码**: 无  
-**领域**: 3D Vision / Stereo Video Synthesis  
+**领域**: 视频生成  
 **关键词**: 立体视频合成, 自监督学习, 视频扩散模型, 时空一致性, 新视角合成
 
 ## 一句话总结
@@ -143,8 +143,8 @@ RealEstate10K 立体图像质量对比：
 
 - [\[CVPR 2025\] StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models](streetcrafter_street_view_synthesis_with_controllable_video_diffusion_models.md)
 - [\[CVPR 2026\] From Static to Dynamic: Exploring Self-supervised Image-to-Video Representation Transfer Learning](../../CVPR2026/video_generation/from_static_to_dynamic_exploring_self-supervised_image-to-video_representation_t.md)
-- [\[CVPR 2025\] LeviTor: 3D Trajectory Oriented Image-to-Video Synthesis](levitor_3d_trajectory_oriented_image-to-video_synthesis.md)
 - [\[CVPR 2025\] PhyT2V: LLM-Guided Iterative Self-Refinement for Physics-Grounded Text-to-Video Generation](phyt2v_llm-guided_iterative_self-refinement_for_physics-grounded_text-to-video_g.md)
-- [\[CVPR 2025\] MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](mimo_controllable_character_video_synthesis_with_spatial_decomposed_modeling.md)
+- [\[CVPR 2025\] LeviTor: 3D Trajectory Oriented Image-to-Video Synthesis](levitor_3d_trajectory_oriented_image-to-video_synthesis.md)
+- [\[CVPR 2025\] Learning Temporally Consistent Video Depth from Video Diffusion Priors](learning_temporally_consistent_video_depth_from_video_diffusion_priors.md)
 
 <!-- RELATED:END -->

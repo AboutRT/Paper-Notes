@@ -8,7 +8,7 @@ tags:
   - 地理嵌入
   - 检索增强
   - 多分辨率表示
-  - 对比学习
+  - 信息检索
   - 地理空间任务
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.19781](https://arxiv.org/abs/2502.19781)  
 **代码**: [https://github.com/mvrl/RANGE](https://github.com/mvrl/RANGE)  
-**领域**: 其他/地理空间表示学习  
+**领域**: 信息检索  
 **关键词**: 地理嵌入, 检索增强, 多分辨率表示, 对比学习, 地理空间任务
 
 ## 一句话总结
@@ -128,9 +128,9 @@ $$L_i = (L_i^{loc} + L_i^{img}) / 2$$
 
 ## 相关论文
 
-- [\[ACL 2025\] Logical Consistency is Vital: Neural-Symbolic Information Retrieval for Negative-Constraint Queries](../../ACL2025/information_retrieval/logical_consistency_is_vital_neural-symbolic_information_retrieval_for_negative-.md)
-- [\[ACL 2025\] MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation](../../ACL2025/information_retrieval/main-rag_multi-agent_filtering_retrieval-augmented_generation.md)
 - [\[ACL 2025\] From Ambiguity to Accuracy: The Transformative Effect of Coreference Resolution on RAG Systems](../../ACL2025/information_retrieval/from_ambiguity_to_accuracy_the_transformative_effect_of_coreference_resolution_o.md)
+- [\[ACL 2025\] Logical Consistency is Vital: Neural-Symbolic Information Retrieval for Negative-Constraint Queries](../../ACL2025/information_retrieval/logical_consistency_is_vital_neural-symbolic_information_retrieval_for_negative-.md)
+- [\[ACL 2025\] NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering](../../ACL2025/information_retrieval/neusym_rag_pdf_qa.md)
 - [\[ACL 2025\] GRAF: Graph Retrieval Augmented by Facts for Romanian Legal Multi-Choice Question Answering](../../ACL2025/information_retrieval/graf_graph_retrieval_augmented_by_facts_for_romanian_legal_multi-choice_question.md)
 - [\[ACL 2026\] MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation](../../ACL2026/information_retrieval/mass-rag_multi-agent_synthesis_retrieval-augmented_generation.md)
 

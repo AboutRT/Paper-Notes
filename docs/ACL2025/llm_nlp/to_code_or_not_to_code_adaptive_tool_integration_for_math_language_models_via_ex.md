@@ -20,7 +20,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2502.00691](https://arxiv.org/abs/2502.00691)  
 **代码**: [HaozheH3/AutoCode](https://github.com/HaozheH3/AutoCode)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 数学推理, 工具集成, 元认知, EM算法, 强化学习, 代码生成
 
 ## 一句话总结
@@ -140,7 +140,7 @@ ToRA和Mammoth是早期CoT-Code混合方法的代表，但都依赖SFT从curated
 
 ## 相关论文
 
-- [\[ACL 2025\] ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models](toolcoder_a_systematic_code-empowered_tool_learning_framework_for_large_language.md)
+- [\[ACL 2025\] ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models](toolcoder_code_empowered_tool_learning.md)
 - [\[ACL 2025\] OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](opencoder_the_open_cookbook_for_top-tier_code_large_language_models.md)
 - [\[ACL 2025\] Interactive and Expressive Code-Augmented Planning with Large Language Models](interactive_and_expressive_code-augmented_planning_with_large_language_models.md)
 - [\[ACL 2025\] WarriorCoder: Learning from Expert Battles to Augment Code Large Language Models](warriorcoder_learning_from_expert_battles_to_augment_code_large_language_models.md)

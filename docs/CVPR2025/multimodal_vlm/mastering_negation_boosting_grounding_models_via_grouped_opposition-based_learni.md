@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2603.12606](https://arxiv.org/abs/2603.12606)  
 **代码**: 待确认  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: visual grounding, negation understanding, opposition-based learning, negative semantics, efficient fine-tuning
 
 ## 一句话总结

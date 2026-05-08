@@ -2,10 +2,10 @@
 title: >-
   [论文解读] 3DSR: Bridging Diffusion Models and 3D Representations for 3D Consistent Super-Resolution
 description: >-
-  [ICCV 2025][3D视觉][3D一致超分] 提出3DSR——将扩散超分模型与3DGS表示交替迭代实现3D一致超分：每步去噪后将SR图像训练到3DGS中获得3D一致渲染→重编码回潜在空间引导下一步去噪，无需微调任何模型即显式保证跨视角一致性，在LLFF上PSNR提升1.16dB+FID降低50%(vs StableSR)。
+  [ICCV 2025][图像生成][3D一致超分] 提出3DSR——将扩散超分模型与3DGS表示交替迭代实现3D一致超分：每步去噪后将SR图像训练到3DGS中获得3D一致渲染→重编码回潜在空间引导下一步去噪，无需微调任何模型即显式保证跨视角一致性，在LLFF上PSNR提升1.16dB+FID降低50%(vs StableSR)。
 tags:
   - ICCV 2025
-  - 3D视觉
+  - 图像生成
   - 3D一致超分
   - 扩散模型
   - 3DGS
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.04090](https://arxiv.org/abs/2508.04090)  
 **代码**: [https://consistent3dsr.github.io/](https://consistent3dsr.github.io/)  
-**领域**: 3D重建 / 超分辨率 / 3DGS  
+**领域**: 图像生成  
 **关键词**: 3D一致超分, 扩散模型, 3DGS, 多视角一致性, 去噪引导  
 
 ## 一句话总结
@@ -107,8 +107,8 @@ tags:
 
 - [\[ICCV 2025\] Diffusion-based 3D Hand Motion Recovery with Intuitive Physics](diffusion-based_3d_hand_motion_recovery_with_intuitive_physics.md)
 - [\[ICCV 2025\] DPoser-X: Diffusion Model as Robust 3D Whole-Body Human Pose Prior](dposer-x_diffusion_model_as_robust_3d_whole-body_human_pose_prior.md)
-- [\[ICCV 2025\] TeRA: Rethinking Text-guided Realistic 3D Avatar Generation](tera_rethinking_text-guided_realistic_3d_avatar_generation.md)
 - [\[ICCV 2025\] FaceCraft4D: Animated 3D Facial Avatar Generation from a Single Image](facecraft4d_animated_3d_facial_avatar_generation_from_a_single_image.md)
-- [\[CVPR 2026\] Physics-Consistent Diffusion for Efficient Fluid Super-Resolution via Multiscale Residual Correction](../../CVPR2026/image_generation/physics-consistent_diffusion_for_efficient_fluid_super-resolution_via_multiscale.md)
+- [\[ICCV 2025\] TeRA: Rethinking Text-guided Realistic 3D Avatar Generation](tera_rethinking_text-guided_realistic_3d_avatar_generation.md)
+- [\[ICCV 2025\] PatchScaler: An Efficient Patch-Independent Diffusion Model for Image Super-Resolution](patchscaler_an_efficient_patch-independent_diffusion_model_for_image_super-resol.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.03097](https://arxiv.org/abs/2505.03097)  
-**代码**: https://gudaochangsheng.github.io/MaskUnet-Page/  
+**代码**: [https://gudaochangsheng.github.io/MaskUnet-Page/](https://gudaochangsheng.github.io/MaskUnet-Page/)  
 **领域**: 图像生成  
 **关键词**: 参数掩码、扩散模型、Gumbel-Sigmoid、语义绑定、即插即用
 

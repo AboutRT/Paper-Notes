@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Improving Transferable Targeted Attacks with Feature Tuning Mixup
 description: >-
-  [CVPR 2025][对抗攻击] 提出 FTM（Feature Tuning Mixup）通过在代理模型的特征空间中混合优化的攻击专用扰动和随机干净扰动来提升有目标对抗攻击的迁移性，使用动量式随机更新策略保持计算效率，14 个黑盒模型上平均成功率从 74.6% 提升到 77.4%。
+  [CVPR 2025][其他] 提出 FTM（Feature Tuning Mixup）通过在代理模型的特征空间中混合优化的攻击专用扰动和随机干净扰动来提升有目标对抗攻击的迁移性，使用动量式随机更新策略保持计算效率，14 个黑盒模型上平均成功率从 74.6% 提升到 77.4%。
 tags:
   - CVPR 2025
-  - 对抗攻击
+  - 其他
   - 迁移攻击
   - 特征扰动
   - Mixup
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.15553](https://arxiv.org/abs/2411.15553)  
-**代码**: https://github.com/uhiu/feature-tuning-mixup  
+**代码**: [https://github.com/uhiu/feature-tuning-mixup](https://github.com/uhiu/feature-tuning-mixup)  
 **领域**: 其他  
 **关键词**: 对抗攻击、迁移攻击、特征扰动、Mixup、黑盒攻击
 
@@ -115,10 +115,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] Improving Black-Box Generative Attacks via Generator Semantic Consistency](../../ICLR2026/others/improving_black-box_generative_attacks_via_generator_semantic_consistency.md)
 - [\[CVPR 2025\] Towards Million-Scale Adversarial Robustness Evaluation With Stronger Individual Attacks](towards_million-scale_adversarial_robustness_evaluation_with_stronger_individual.md)
 - [\[CVPR 2025\] Feature Selection for Latent Factor Models](feature_selection_for_latent_factor_models.md)
-- [\[CVPR 2025\] EDM: Equirectangular Projection-Oriented Dense Kernelized Feature Matching](edm_equirectangular_projection-oriented_dense_kernelized_feature_matching.md)
 - [\[CVPR 2025\] Task-Agnostic Guided Feature Expansion for Class-Incremental Learning](task-agnostic_guided_feature_expansion_for_class-incremental_learning.md)
+- [\[CVPR 2025\] EDM: Equirectangular Projection-Oriented Dense Kernelized Feature Matching](edm_equirectangular_projection-oriented_dense_kernelized_feature_matching.md)
+- [\[ICCV 2025\] Membership Inference Attacks with False Discovery Rate Control](../../ICCV2025/others/membership_inference_attacks_with_false_discovery_rate_control.md)
 
 <!-- RELATED:END -->

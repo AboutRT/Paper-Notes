@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 归纳偏置
-  - 表征对齐
+  - 其他
   - CKA
   - 架构先验
   - 知识蒸馏
@@ -140,7 +140,7 @@ $$\mathcal{L}(\theta^T) = \mathcal{L}_T(\theta^T) + \sum_{i \in I} \bar{\mathcal
 - [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](../../ACL2025/others/from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
 - [\[ACL 2025\] Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race](../../ACL2025/others/aligned_but_blind_implicit_bias.md)
 - [\[NeurIPS 2025\] Graph Alignment via Birkhoff Relaxation](graph_alignment_via_birkhoff_relaxation.md)
-- [\[NeurIPS 2025\] The Persistence of Neural Collapse Despite Low-Rank Bias](the_persistence_of_neural_collapse_despite_low-rank_bias.md)
 - [\[NeurIPS 2025\] Sign-In to the Lottery: Reparameterized Sparse Training from Scratch](sign-in_to_the_lottery_reparameterizing_sparse_training_from_scratch.md)
+- [\[NeurIPS 2025\] The Persistence of Neural Collapse Despite Low-Rank Bias](the_persistence_of_neural_collapse_despite_low-rank_bias.md)
 
 <!-- RELATED:END -->

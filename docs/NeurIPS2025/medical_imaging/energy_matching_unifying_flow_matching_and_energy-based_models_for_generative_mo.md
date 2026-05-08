@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.10612](https://arxiv.org/abs/2504.10612)  
 **代码**: [GitHub](https://github.com/m1balcerak/EnergyMatching)  
-**领域**: 生成模型 / 能量模型  
+**领域**: 医学图像  
 **关键词**: 能量模型, 流匹配, 最优传输, Boltzmann分布, 逆问题, 局部内在维度
 
 ## 一句话总结
@@ -167,7 +167,7 @@ Spearman 相关系数 vs PNG 压缩率（4096 张图）：
 - [\[NeurIPS 2025\] Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models](consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md)
 - [\[NeurIPS 2025\] Prior-Guided Flow Matching for Target-Aware Molecule Design with Learnable Atom Number](prior-guided_flow_matching_for_target-aware_molecule_design_with_learnable_atom_.md)
 - [\[NeurIPS 2025\] Surf2CT: Cascaded 3D Flow Matching Models for Torso 3D CT Synthesis from Skin Surface](surf2ct_cascaded_3d_flow_matching_models_for_torso_3d_ct_synthesis_from_skin_sur.md)
-- [\[NeurIPS 2025\] Riemannian Flow Matching for Brain Connectivity Matrices via Pullback Geometry](riemannian_flow_matching_for_brain_connectivity_matrices_via_pullback_geometry.md)
 - [\[ICML 2025\] Flexibility-conditioned Protein Structure Design with Flow Matching](../../ICML2025/medical_imaging/flexibility-conditioned_protein_structure_design_with_flow_matching.md)
+- [\[ICML 2025\] Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow](../../ICML2025/medical_imaging/efficient_molecular_conformer_generation_with_so3-averaged_flow_matching_and_ref.md)
 
 <!-- RELATED:END -->

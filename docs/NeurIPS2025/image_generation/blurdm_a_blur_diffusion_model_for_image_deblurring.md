@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.03979](https://arxiv.org/abs/2512.03979)  
-**代码**: https://jin-ting-he.github.io/BlurDM/  
-**领域**: 图像恢复 / 扩散模型  
+**代码**: [https://jin-ting-he.github.io/BlurDM/](https://jin-ting-he.github.io/BlurDM/)  
+**领域**: 图像生成  
 **关键词**: image deblurring, blur diffusion, dual diffusion, motion blur, prior generation
 
 ## 一句话总结

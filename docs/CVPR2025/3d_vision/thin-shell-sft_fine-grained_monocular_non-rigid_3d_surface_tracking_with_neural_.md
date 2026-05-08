@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19976](https://arxiv.org/abs/2503.19976)  
-**代码**: https://4dqv.mpi-inf.mpg.de/ThinShellSfT (项目页面)  
+**代码**: [https://4dqv.mpi-inf.mpg.de/ThinShellSfT](https://4dqv.mpi-inf.mpg.de/ThinShellSfT) (项目页面)  
 **领域**: 3D视觉  
 **关键词**: 非刚性表面跟踪, 薄壳力学, 神经变形场, 高斯泼溅, 单目重建
 
@@ -133,9 +133,9 @@ $\boldsymbol{\phi}$-SfT 数据集上 Chamfer 距离 ($\times 10^4$)：
 ## 相关论文
 
 - [\[CVPR 2025\] 4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians](4dtam_non-rigid_tracking_and_mapping_via_dynamic_surface_gaussians.md)
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
 - [\[CVPR 2025\] Eval3D: Interpretable and Fine-grained Evaluation for 3D Generation](eval3d_interpretable_and_fine-grained_evaluation_for_3d_generation.md)
 - [\[CVPR 2025\] Geometry in Style: 3D Stylization via Surface Normal Deformation](geometry_in_style_3d_stylization_via_surface_normal_deformation.md)
 - [\[CVPR 2025\] GauSTAR: Gaussian Surface Tracking and Reconstruction](gaustar_gaussian_surface_tracking_and_reconstruction.md)
+- [\[CVPR 2025\] Fine-Grained Erasure in Text-to-Image Diffusion-based Foundation Models](fine-grained_erasure_in_text-to-image_diffusion-based_foundation_models.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.11675](https://arxiv.org/abs/2603.11675)  
 **代码**: 无  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: virtual try-on, diffusion transformer, flow matching, multi-condition generation, promptable editing
 
 ## 一句话总结
@@ -168,9 +168,9 @@ PROMO 在 KID 指标上全面最优（DC: 0.49 vs 次优 0.86；VH: 1.49 vs 次�
 ## 相关论文
 
 - [\[CVPR 2026\] Few-shot Acoustic Synthesis with Multimodal Flow Matching](few-shot_acoustic_synthesis_with_multimodal_flow_matching.md)
+- [\[CVPR 2026\] Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers](just-in-time_training-free_spatial_acceleration_for_diffusion_transformers.md)
 - [\[CVPR 2026\] Garments2Look: A Multi-Reference Dataset for High-Fidelity Outfit-Level Virtual Try-On with Clothing and Accessories](garments2look_a_multi-reference_dataset_for_high-fidelity_outfit-level_virtual_t.md)
 - [\[CVPR 2026\] DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression](ditic_aligned_diffusion_transformer_for_efficient.md)
-- [\[CVPR 2026\] EgoFlow: Gradient-Guided Flow Matching for Egocentric 6DoF Object Motion Generation](egoflow_gradient-guided_flow_matching_for_egocentric_6dof_object_motion_generati.md)
-- [\[CVPR 2026\] CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing](care-edit_condition-aware_routing_of_experts_for_contextual_image_editing.md)
+- [\[CVPR 2026\] CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance](cfg-ctrl_control-based_classifier-free_diffusion_guidance.md)
 
 <!-- RELATED:END -->

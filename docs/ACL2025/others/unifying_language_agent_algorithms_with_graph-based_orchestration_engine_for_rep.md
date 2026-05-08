@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Unifying Language Agent Algorithms with Graph-based Orchestration Engine for Reproducible Agent Research
 description: >-
-  [ACL 2025][语言代理框架] 提出 AGORA 框架，通过 DAG 图编排引擎将 CoT、ReAct、ToT、RAP 等 10 种主流 Agent 推理算法统一为可插拔的 Operator 模块，在数学推理和多模态任务上系统比较后发现：简单的 CoT 方法在准确率和成本效益上往往优于复杂算法，而一句提示语改动就能带来 90% 的性能飞跃。
+  [ACL 2025][其他] 提出 AGORA 框架，通过 DAG 图编排引擎将 CoT、ReAct、ToT、RAP 等 10 种主流 Agent 推理算法统一为可插拔的 Operator 模块，在数学推理和多模态任务上系统比较后发现：简单的 CoT 方法在准确率和成本效益上往往优于复杂算法，而一句提示语改动就能带来 90% 的性能飞跃。
 tags:
   - ACL 2025
-  - 语言代理框架
+  - 其他
   - 图编排引擎
   - Agent推理算法
   - 标准化评测
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24354](https://arxiv.org/abs/2505.24354)  
-**代码**: 有 (https://github.com/om-ai-lab/OmAgent)  
-**领域**: NLP / Agent  
+**代码**: 有 ([https://github.com/om-ai-lab/OmAgent](https://github.com/om-ai-lab/OmAgent))  
+**领域**: 其他  
 **关键词**: 语言代理框架, 图编排引擎, Agent推理算法, 标准化评测, 模块化架构
 
 ## 一句话总结
@@ -141,10 +141,10 @@ AGORA（Agent Graph-based Orchestration for Reasoning and Assessment）构建于
 
 ## 相关论文
 
-- [\[ACL 2025\] Multi-Agent Collaboration via Cross-Team Orchestration](multi-agent_collaboration_via_cross-team_orchestration.md)
-- [\[ACL 2025\] CoMet: Metaphor-Driven Covert Communication for Multi-Agent Language Games](comet_metaphor-driven_covert_communication_for_multi-agent_language_games.md)
-- [\[ACL 2025\] CortexDebate: Debating Sparsely and Equally for Multi-Agent Debate](cortexdebate_debating_sparsely_and_equally_for_multi-agent_debate.md)
-- [\[ACL 2025\] Preventing Rogue Agents Improves Multi-Agent Collaboration](preventing_rogue_agents_improves_multi-agent_collaboration.md)
 - [\[ACL 2025\] A Dual-Mind Framework for Strategic and Expressive Negotiation Agent](a_dual-mind_framework_for_strategic_and_expressive_negotiation_agent.md)
+- [\[ACL 2025\] Frictional Agent Alignment Framework: Slow Down and Don't Break Things](frictional_agent_alignment.md)
+- [\[ACL 2025\] You need to MIMIC to get FAME: Solving Meeting Transcript Scarcity with Multi-Agent Conversations](you_need_to_mimic_to_get_fame_solving_meeting_transcript_scarcity_with_a_multi-a.md)
+- [\[ACL 2025\] Research Borderlands: Analysing Writing Across Research Cultures](research_borderlands_analysing_writing_across_research_cultures.md)
+- [\[ACL 2025\] Sleepless Nights, Sugary Days: Creating Synthetic Users with Health Conditions for Realistic Coaching Agent Interactions](sleepless_nights_sugary_days_creating_synthetic_users_with_health_conditions_for.md)
 
 <!-- RELATED:END -->

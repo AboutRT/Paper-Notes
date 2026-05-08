@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.07256](https://arxiv.org/abs/2602.07256)  
-**代码**: https://github.com/q-rz/ICLR26-GRAPHITE  
-**领域**: graph_learning  
+**代码**: [https://github.com/q-rz/ICLR26-GRAPHITE](https://github.com/q-rz/ICLR26-GRAPHITE)  
+**领域**: 图学习  
 **关键词**: heterophilic graph, homophily boosting, graph transformation, feature nodes, GNN
 
 ## 一句话总结

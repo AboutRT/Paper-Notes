@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026 Oral
   - 语音
-  - computer-use agents
+  - 音频语音
   - red teaming
   - 提示学习
   - adversarial testing
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026 Oral  
 **arXiv**: [2505.21936](https://arxiv.org/abs/2505.21936)  
 **代码**: 有（RTC-Bench + RedTeamCUA 框架）  
-**领域**: AI Safety / Agent 安全  
+**领域**: 音频语音  
 **关键词**: computer-use agents, red teaming, indirect prompt injection, adversarial testing, CUA safety
 
 ## 一句话总结

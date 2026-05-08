@@ -47,15 +47,15 @@ tags:
 ### 关键设计
 
 1. **网络动力学**：采用发射速率神经元模型，由突触矩阵 $\mathbf{W} \in \mathbb{R}^{N \times N}$ 耦合，加上输入矩阵 $\mathbf{W}_{in}$ 和输出矩阵 $\mathbf{W}_{out}$。动力学方程为：
-   $$\frac{d\mathbf{x}^t}{dt} = -\mathbf{x}^t + \mathbf{W}\phi(\mathbf{x}^t) + \mathbf{W}_{in}\mathbf{u}^t$$
+    $\frac{d\mathbf{x}^t}{dt} = -\mathbf{x}^t + \mathbf{W}\phi(\mathbf{x}^t) + \mathbf{W}_{in}\mathbf{u}^t$
    其中 $\phi(\cdot) = \tanh(\cdot)$ 为单神经元传递函数。
 
 2. **参数化的资格迹 (Eligibility Trace)**：每个突触维护一个资格迹 $e_{ij}$，其演化由多项式函数控制：
-   $$\frac{de_{ij}^t}{dt} = \sum_{0 \leq k,\ell \leq d} \theta_{k,\ell} (r_j^t)^k (\bar{x}_i - x_i^t)^\ell - \frac{e_{ij}^t}{\tau_e}$$
+    $\frac{de_{ij}^t}{dt} = \sum_{0 \leq k,\ell \leq d} \theta_{k,\ell} (r_j^t)^k (\bar{x}_i - x_i^t)^\ell - \frac{e_{ij}^t}{\tau_e}$
    这里 $\theta_{k,\ell}$ 是可学习的系数，$d=5$ 为多项式阶数。与仅基于一阶相关的传统资格迹不同，多项式表达能捕获更丰富的突触前后活动交互。
 
 3. **三因子突触更新规则**：权重矩阵 $\mathbf{W}$ 在每个 episode 结束后按照奖励调制规则更新：
-   $$[\boldsymbol{\mu}_\Theta^{(h)}]_{ij} = \eta \cdot e_{ij}^{T_h} \cdot (R^{(h)} - \bar{R}^{(h)})$$
+    $[\boldsymbol{\mu}_\Theta^{(h)}]_{ij} = \eta \cdot e_{ij}^{T_h} \cdot (R^{(h)} - \bar{R}^{(h)})$
    三个因子分别是：突触前活动、突触后活动（通过资格迹编码）、以及奖励预测误差（第三因子）。
 
 ### 损失函数 / 训练策略
@@ -126,8 +126,8 @@ tags:
 
 - [\[ACL 2025\] Meta-Reflection: A Feedback-Free Reflection Learning Framework](../../ACL2025/others/meta-reflection_a_feedback-free_reflection_learning_framework.md)
 - [\[ACL 2025\] Detecting Sockpuppetry on Wikipedia Using Meta-Learning](../../ACL2025/others/detecting_sockpuppetry_on_wikipedia_using_meta-learning.md)
+- [\[NeurIPS 2025\] Plasticity as the Mirror of Empowerment](plasticity_as_the_mirror_of_empowerment.md)
 - [\[ACL 2025\] Meta-Learning Neural Mechanisms rather than Bayesian Priors](../../ACL2025/others/meta-learning_neural_mechanisms_rather_than_bayesian_priors.md)
 - [\[ICCV 2025\] Is Meta-Learning Out? Rethinking Unsupervised Few-Shot Classification with Limited Entropy](../../ICCV2025/others/is_meta-learning_out_rethinking_unsupervised_few-shot_classification_with_limite.md)
-- [\[ACL 2025\] Learning to Reason from Feedback at Test-Time](../../ACL2025/others/learning_to_reason_from_feedback_at_test-time.md)
 
 <!-- RELATED:END -->

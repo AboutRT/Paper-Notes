@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.14808](https://arxiv.org/abs/2506.14808)  
-**代码**: https://github.com/NVlabs/PARC (有)  
+**代码**: [https://github.com/NVlabs/PARC](https://github.com/NVlabs/PARC)  
 **领域**: 多模态VLM  
 **关键词**: 提示敏感性, VLM鲁棒性, 可靠性评分, 指标校准, 提示变异
 
@@ -115,8 +115,8 @@ $$s_{\text{calib}} = \begin{cases} \frac{s - s_{\text{rand}}}{1 - s_{\text{rand}
 
 ## 相关论文
 
-- [\[ICML 2025\] Ranked from Within: Ranking Large Multimodal Models Without Labels](../../ICML2025/multimodal_vlm/ranked_from_within_ranking_large_multimodal_models_without_labels.md)
 - [\[ICCV 2025\] Physics Context Builders: A Modular Framework for Physical Reasoning in Vision-Language Models](../../ICCV2025/multimodal_vlm/physics_context_builders_a_modular_framework_for_physical_reasoning_in_vision-la.md)
+- [\[ICML 2025\] Ranked from Within: Ranking Large Multimodal Models Without Labels](../../ICML2025/multimodal_vlm/ranked_from_within_ranking_large_multimodal_models_without_labels.md)
 - [\[ACL 2025\] Activating Distributed Visual Region within LLMs for Efficient and Effective Vision-Language Training and Inference](../../ACL2025/multimodal_vlm/activating_distributed_visual_region_within_llms_for_efficient_and_effective_vis.md)
 - [\[CVPR 2025\] Words or Vision: Do Vision-Language Models Have Blind Faith in Text?](words_or_vision_do_vision-language_models_have_blind_faith_in_text.md)
 - [\[CVPR 2025\] UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation](upme_an_unsupervised_peer_review_framework_for_multimodal_large_language_model_e.md)

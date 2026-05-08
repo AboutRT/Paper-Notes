@@ -16,7 +16,7 @@ tags:
 # ANRE: Analogical Replay for Temporal Knowledge Graph Forecasting
 
 **会议**: ACL 2025  
-**领域**: 图学习 / 知识图谱推理  
+**领域**: 时间序列  
 **关键词**: 时序知识图谱, 链接预测, 类比推理, 历史事件回放, 图谱补全
 
 ## 一句话总结

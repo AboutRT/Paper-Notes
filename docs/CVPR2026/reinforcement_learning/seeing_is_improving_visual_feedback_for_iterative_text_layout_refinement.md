@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.22187](https://arxiv.org/abs/2603.22187)  
-**代码**: https://github.com/FolSpark/VFLM (有)  
+**代码**: [https://github.com/FolSpark/VFLM](https://github.com/FolSpark/VFLM)  
 **领域**: 强化学习 / 多模态生成  
 **关键词**: 视觉反馈, 文本排版, 布局生成, 强化学习, 迭代优化
 
@@ -134,6 +134,6 @@ VFLM 的整体流程为：(1) 给定一个布局生成任务描述，MLLM 首先
 - [\[CVPR 2026\] BRIDGE: Multimodal-to-Text Retrieval via Reinforcement-Learned Query Alignment](bridge_multimodal-to-text_retrieval_via_reinforcement-learned_query_alignment.md)
 - [\[CVPR 2026\] ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering](reag_reasoning-augmented_generation_for_knowledge-based_visual_question_answerin.md)
 - [\[CVPR 2026\] See It, Say It, Sorted: An Iterative Training-Free Framework for Visually-Grounded Multimodal Reasoning in LVLMs](see_it_say_it_sorted_an_iterative_training-free_framework_for_visually-grounded_.md)
-- [\[ICLR 2026\] LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning](../../ICLR2026/reinforcement_learning/longwriter-zero_mastering_ultra-long_text_generation_via_reinforcement_learning.md)
+- [\[AAAI 2026\] TextShield-R1: Reinforced Reasoning for Tampered Text Detection](../../AAAI2026/reinforcement_learning/textshield-r1_reinforced_reasoning_for_tampered_text_detection.md)
 
 <!-- RELATED:END -->

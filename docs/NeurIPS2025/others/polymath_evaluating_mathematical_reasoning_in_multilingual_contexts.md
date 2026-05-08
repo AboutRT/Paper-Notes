@@ -9,7 +9,7 @@ tags:
   - 块级搜索
   - 束搜索
   - VGS
-  - 推理效率
+  - 其他
 ---
 
 # 笔记7：价值引导搜索 - 高效链式思考推理
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.18428](https://arxiv.org/abs/2504.18428)  
 **代码**: [GitHub](https://github.com/kaiwenw/value-guided-search)  
-**领域**: LLM推理, 测试时计算, 价值模型  
+**领域**: 其他  
 **关键词**: 价值模型, 块级搜索, 束搜索, VGS, 推理效率
 
 ## 一句话总结
@@ -132,10 +132,10 @@ $$\text{WMV}: \arg\max_{p_k}\sum_{y_i∈p_k}w_i, \quad w_i = V(x,y_i)$$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Are Pixel-Wise Metrics Reliable for Sparse-View Computed Tomography Reconstruction?](are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md)
 - [\[NeurIPS 2025\] 笔记5：ReSearch - 学习通过搜索推理](research_learning_to_reason_with_search_for_llms_via_reinforcement_learning.md)
-- [\[NeurIPS 2025\] On Agnostic PAC Learning in the Small Error Regime](on_agnostic_pac_learning_in_the_small_error_regime.md)
+- [\[NeurIPS 2025\] MiCADangelo: Fine-Grained Reconstruction of Constrained CAD Models from 3D Scans](micadangelo_fine-grained_reconstruction_of_constrained_cad_models_from_3d_scans.md)
+- [\[NeurIPS 2025\] Coresets for Clustering Under Stochastic Noise](coresets_for_clustering_under_stochastic_noise.md)
 - [\[NeurIPS 2025\] Uncertainty Estimation by Flexible Evidential Deep Learning](uncertainty_estimation_by_flexible_evidential_deep_learning.md)
-- [\[NeurIPS 2025\] Efficient Kernelized Learning in Polyhedral Games Beyond Full-Information: From Colonel Blotto to Congestion Games](efficient_kernelized_learning_in_polyhedral_games_beyond_full-information_from_c.md)
+- [\[NeurIPS 2025\] Training the Untrainable: Introducing Inductive Bias via Representational Alignment](training_the_untrainable_introducing_inductive_bias_via_representational_alignme.md)
 
 <!-- RELATED:END -->

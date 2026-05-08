@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 去中心化训练
-  - 隐私攻击
+  - LLM预训练
   - 激活反转
   - 数据泄露
   - 管道并行
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.16086](https://arxiv.org/abs/2502.16086)  
 **代码**: 无  
-**领域**: LLM安全  
+**领域**: LLM预训练  
 **关键词**: 去中心化训练, 隐私攻击, 激活反转, 数据泄露, 管道并行
 
 ## 一句话总结
@@ -121,10 +121,10 @@ AIA 分两步：(1) 影子数据集构建——用预训练模型（作为影子
 
 ## 相关论文
 
-- [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
-- [\[ACL 2025\] Improving Continual Pre-training Through Seamless Data Packing](improving_continual_pre-training_through_seamless_data_packing.md)
-- [\[ACL 2025\] Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation](synthesizing_post-training_data_for_llms_through_multi-agent_simulation.md)
-- [\[ACL 2025\] Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models](metarater_a_multidimensional_data_selection_method.md)
-- [\[ACL 2025\] DavIR: Data Selection via Implicit Reward for Large Language Models](davir_data_selection_via_implicit_reward_for_large_language_models.md)
+- [\[ACL 2025\] Retrofitting Large Language Models with Dynamic Tokenization](retrofitting_large_language_models_with_dynamic_tokenization.md)
+- [\[ACL 2025\] Pre-Training Curriculum for Multi-Token Prediction in Language Models](pre-training_curriculum_for_multi-token_prediction_in_language_models.md)
+- [\[ACL 2025\] AsyncLM: Efficient and Adaptive Async Pre-training of Language Models](asynclm_efficient_and_adaptive_async_pre-training_of_language_models.md)
+- [\[ACL 2025\] Large Vocabulary Size Improves Large Language Models](large_vocabulary_size_improves_large_language_models.md)
+- [\[ACL 2025\] Data-Constrained Synthesis of Training Data for De-Identification](data-constrained_synthesis_of_training_data_for_de-identification.md)
 
 <!-- RELATED:END -->

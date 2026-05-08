@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.17451](https://arxiv.org/abs/2505.17451)  
 **代码**: [ZhiningLiu1998/imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble)  
-**领域**: others  
+**领域**: LLM评测  
 **关键词**: class imbalance, tabular data, benchmark, ensemble learning, resampling
 
 ## 一句话总结
@@ -116,8 +116,8 @@ tags:
 
 - [\[ICLR 2026\] TabStruct: Measuring Structural Fidelity of Tabular Data](../../ICLR2026/llm_evaluation/tabstruct_measuring_structural_fidelity_of_tabular_data.md)
 - [\[NeurIPS 2025\] LCDB 1.1: A Database Illustrating Learning Curves Are More Ill-Behaved Than Previously Thought](lcdb_11_a_database_illustrating_learning_curves_are_more_ill-behaved_than_previo.md)
-- [\[AAAI 2026\] Sampling Control for Imbalanced Calibration in Semi-Supervised Learning](../../AAAI2026/llm_evaluation/sampling_control_for_imbalanced_calibration_in_semi-supervised_learning.md)
 - [\[ECCV 2024\] Versatile Incremental Learning: Towards Class and Domain-Agnostic Incremental Learning](../../ECCV2024/llm_evaluation/versatile_incremental_learning_towards_class_and_domain-agnostic_incremental_lea.md)
-- [\[NeurIPS 2025\] EvaLearn: Quantifying the Learning Capability and Efficiency of LLMs via Sequential Problem Solving](evalearn_quantifying_the_learning_capability_and_efficiency_of_llms_via_sequenti.md)
+- [\[AAAI 2026\] Sampling Control for Imbalanced Calibration in Semi-Supervised Learning](../../AAAI2026/llm_evaluation/sampling_control_for_imbalanced_calibration_in_semi-supervised_learning.md)
+- [\[ICML 2025\] Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative Experts (DCE)](../../ICML2025/llm_evaluation/addressing_imbalanced_domain-incremental_learning_through_dual-balance_collabora.md)
 
 <!-- RELATED:END -->

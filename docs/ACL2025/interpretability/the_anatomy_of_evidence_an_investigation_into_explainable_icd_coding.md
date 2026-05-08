@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.01802](https://arxiv.org/abs/2507.01802)  
-**代码**: 有 (https://github.com/lamarr-xai-group/anatomy-of-evidence)  
-**领域**: NLP / 医疗信息学  
+**代码**: 有 ([https://github.com/lamarr-xai-group/anatomy-of-evidence](https://github.com/lamarr-xai-group/anatomy-of-evidence))  
+**领域**: 可解释性  
 **关键词**: ICD编码, 可解释性, 证据抽取, MDACE数据集, 特征归因
 
 ## 一句话总结
@@ -160,6 +160,6 @@ Cheng et al. (2023) 发布的 MDACE 数据集首次提供了临床记录中 ICD 
 - [\[ACL 2025\] EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations](expert_an_explainable_image_captioning_evaluation_metric_with_structured_explana.md)
 - [\[ACL 2025\] Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework](towards_explainable_temporal_reasoning_in_large_language_models_a_structure-awar.md)
 - [\[ACL 2025\] Normalized AOPC: Fixing Misleading Faithfulness Metrics for Feature Attribution Explainability](normalized_aopc_faithfulness_metrics.md)
-- [\[NeurIPS 2025\] SpEx: A Spectral Approach to Explainable Clustering](../../NeurIPS2025/interpretability/spex_a_spectral_approach_to_explainable_clustering.md)
+- [\[NeurIPS 2025\] VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity](../../NeurIPS2025/interpretability/vadtree_explainable_training-free_video_anomaly_detection_via_hierarchical_granu.md)
 
 <!-- RELATED:END -->

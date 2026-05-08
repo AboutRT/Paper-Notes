@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.15163](https://arxiv.org/abs/2604.15163)  
 **代码**: [GitHub](https://github.com/HKUSTDial/DPC)  
-**领域**: NLP应用 / Text-to-SQL  
+**领域**: LLM推理  
 **关键词**: SQL选择, 双范式一致性, 最小区分数据库, 训练免, 对抗环境合成
 
 ## 一句话总结

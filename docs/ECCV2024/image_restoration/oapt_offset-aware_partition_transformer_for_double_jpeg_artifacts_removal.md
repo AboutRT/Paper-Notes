@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.11480](https://arxiv.org/abs/2408.11480)  
-**代码**: https://github.com/QMoQ/OAPT.git (有)  
+**代码**: [https://github.com/QMoQ/OAPT.git](https://github.com/QMoQ/OAPT.git)  
 **领域**: 图像恢复  
 **关键词**: JPEG伪影去除, 双重JPEG压缩, Transformer, 偏移感知, 模式聚类
 
@@ -162,6 +162,6 @@ $$\mathcal{L}_{rec} = \sqrt{\|\hat{I} - I\|^2 + \epsilon^2}, \quad \epsilon = 10
 - [\[ECCV 2024\] Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators](efficient_diffusion_transformer_with_step-wise_dynamic_attention_mediators.md)
 - [\[ECCV 2024\] EDformer: Transformer-Based Event Denoising Across Varied Noise Levels](edformer_transformer-based_event_denoising_across_varied_noise_levels.md)
 - [\[ECCV 2024\] Restoring Images in Adverse Weather Conditions via Histogram Transformer](restoring_images_in_adverse_weather_conditions_via_histogram_transformer.md)
-- [\[CVPR 2026\] Flickerformer: A Duet of Periodicity and Directionality for Burst Flicker Removal](../../CVPR2026/image_restoration/it_takes_two_a_duet_of_periodicity_and_directionality_for_burst_flicker_removal.md)
+- [\[CVPR 2025\] SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal](../../CVPR2025/image_restoration/softshadow_leveraging_soft_masks_for_penumbra-aware_shadow_removal.md)
 
 <!-- RELATED:END -->

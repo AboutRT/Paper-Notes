@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.13015](https://arxiv.org/abs/2602.13015)  
-**代码**: https://github.com/hubaak/TCMax  
+**代码**: [https://github.com/hubaak/TCMax](https://github.com/hubaak/TCMax)  
 **领域**: 多模态VLM  
 **关键词**: 多模态学习, 模态竞争, 总相关性, 信息论, 损失函数设计
 

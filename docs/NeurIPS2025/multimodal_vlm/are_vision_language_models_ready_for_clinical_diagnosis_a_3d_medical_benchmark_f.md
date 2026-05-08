@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets & Benchmarks Track)][多模态][VQA] 本文提出 DeepTumorVQA，一个针对腹部CT肿瘤的3D诊断级视觉问答基准，包含9,262个CT体积（370万切片）和395K专家级问题，系统评估了4个先进VLM的临床诊断能力，发现当前模型在测量任务上尚可但在病灶识别和推理上远未达到临床要求。
 tags:
-  - "NeurIPS 2025 (Datasets & Benchmarks Track)"
+  - 多模态VLM
   - 多模态
   - VQA
   - 3D医学影像
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (Datasets & Benchmarks Track)  
 **arXiv**: [2505.18915](https://arxiv.org/abs/2505.18915)  
 **代码**: [GitHub](https://github.com/Schuture/DeepTumorVQA)  
-**领域**: 医学影像 / 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: VQA, 3D医学影像, CT肿瘤, 视觉语言模型, benchmark
 
 ## 一句话总结
@@ -149,6 +149,6 @@ DeepTumorVQA 基准的构建流程：
 - [\[ICCV 2025\] ReasonVQA: A Multi-hop Reasoning Benchmark with Structural Knowledge for Visual Question Answering](../../ICCV2025/multimodal_vlm/reasonvqa_a_multi-hop_reasoning_benchmark_with_structural_knowledge_for_visual_q.md)
 - [\[ACL 2025\] WikiMixQA: A Multimodal Benchmark for Question Answering over Tables and Charts](../../ACL2025/multimodal_vlm/wikimixqa_a_multimodal_benchmark_for_question_answering_over_tables_and_charts.md)
 - [\[NeurIPS 2025\] Better Tokens for Better 3D: Advancing Vision-Language Modeling in 3D Medical Imaging](better_tokens_for_better_3d_advancing_vision-language_modeling_in_3d_medical_ima.md)
-- [\[NeurIPS 2025\] FOCUS: Internal MLLM Representations for Efficient Fine-Grained Visual Question Answering](focus_internal_mllm_representations_for_efficient_fine-grained_visual_question_a.md)
+- [\[ACL 2026\] WikiSeeker: Rethinking the Role of Vision-Language Models in Knowledge-Based Visual Question Answering](../../ACL2026/multimodal_vlm/wikiseeker_rethinking_the_role_of_vision-language_models_in_knowledge-based_visu.md)
 
 <!-- RELATED:END -->

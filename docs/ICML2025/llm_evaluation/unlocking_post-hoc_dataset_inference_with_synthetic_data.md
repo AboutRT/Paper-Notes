@@ -9,7 +9,7 @@ tags:
   - membership inference
   - synthetic data
   - copyright protection
-  - LLM
+  - LLM评测
   - post-hoc calibration
   - data ownership
 ---
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.15271](https://arxiv.org/abs/2506.15271)  
 **代码**: [GitHub](https://github.com/sprintml/PostHocDatasetInference)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: dataset inference, membership inference, synthetic data, copyright protection, LLM, post-hoc calibration, data ownership
 
 ## 一句话总结
@@ -181,9 +181,9 @@ $$\mathbb{E}[c_{\text{comb}}(x_{\text{val}}) - c_{\text{comb}}(x_{\text{sus}})] 
 ## 相关论文
 
 - [\[ICML 2025\] Improving Generalization with Flat Hilbert Bayesian Inference](improving_generalization_with_flat_hilbert_bayesian_inference.md)
-- [\[NeurIPS 2025\] Unlocking Transfer Learning for Open-World Few-Shot Recognition](../../NeurIPS2025/llm_evaluation/unlocking_transfer_learning_for_open-world_few-shot_recognition.md)
 - [\[ACL 2025\] MDBench: A Synthetic Multi-Document Reasoning Benchmark Generated with Knowledge Guidance](../../ACL2025/llm_evaluation/mdbench_a_synthetic_multi-document_reasoning_benchmark_generated_with_knowledge_.md)
+- [\[ICML 2025\] Bounded Rationality for LLMs: Satisficing Alignment at Inference-Time](bounded_rationality_for_llms_satisficing_alignment_at_inference-time.md)
 - [\[ACL 2025\] Ad-hoc Concept Forming in the Game Codenames as a Means for Evaluating Large Language Models](../../ACL2025/llm_evaluation/ad-hoc_concept_forming_in_the_game_codenames_as_a_means_for_evaluating_large_lan.md)
-- [\[NeurIPS 2025\] Merlin L48 Spectrogram Dataset](../../NeurIPS2025/llm_evaluation/merlin_l48_spectrogram_dataset.md)
+- [\[NeurIPS 2025\] Unlocking Transfer Learning for Open-World Few-Shot Recognition](../../NeurIPS2025/llm_evaluation/unlocking_transfer_learning_for_open-world_few-shot_recognition.md)
 
 <!-- RELATED:END -->

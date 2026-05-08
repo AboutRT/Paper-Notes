@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2404.18988](https://arxiv.org/abs/2404.18988)  
 **作者**: Scott W. Viteri, Max Lamparth, Peter Chatain, Clark Barrett (Stanford University)
 **代码**: [GitHub](https://github.com/scottviteri/MarkovianTraining/)  
-**领域**: LLM推理/可解释性  
+**领域**: 优化  
 **关键词**: 马尔可夫约束, CoT忠实性, 推理瓶颈, 自编码器类比, GRPO训练, 信息论
 
 ## 一句话总结
@@ -161,8 +161,8 @@ FRODO使用因果中介分析和两模块训练框架来增加CoT对答案的因
 
 - [\[NeurIPS 2025\] Optimality and NP-Hardness of Transformers in Learning Markovian Dynamical Functions](../../NeurIPS2025/optimization/optimality_and_np-hardness_of_transformers_in_learning_markovian_dynamical_funct.md)
 - [\[ICLR 2026\] Learning to Recall with Transformers Beyond Orthogonal Embeddings](learning_to_recall_with_transformers_beyond_orthogonal_embeddings.md)
+- [\[ICLR 2026\] COLD-Steer: Steering Large Language Models via In-Context One-step Learning Dynamics](cold-steer_steering_large_language_models_via_in-context_one-step_learning_dynam.md)
 - [\[ICML 2025\] How Transformers Learn Regular Language Recognition: A Theoretical Study on Training Dynamics and Implicit Bias](../../ICML2025/optimization/how_transformers_learn_regular_language_recognition_a_theoretical_study_on_train.md)
 - [\[NeurIPS 2025\] Streaming Federated Learning with Markovian Data](../../NeurIPS2025/optimization/streaming_federated_learning_with_markovian_data.md)
-- [\[NeurIPS 2025\] Training Robust Graph Neural Networks by Modeling Noise Dependencies](../../NeurIPS2025/optimization/training_robust_graph_neural_networks_by_modeling_noise_dependencies.md)
 
 <!-- RELATED:END -->

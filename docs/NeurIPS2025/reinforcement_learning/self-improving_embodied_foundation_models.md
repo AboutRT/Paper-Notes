@@ -9,7 +9,7 @@ tags:
   - 自我改进
   - 强化学习后训练
   - Steps-to-go预测
-  - 机器人操作
+  - 强化学习
 ---
 
 # Self-Improving Embodied Foundation Models

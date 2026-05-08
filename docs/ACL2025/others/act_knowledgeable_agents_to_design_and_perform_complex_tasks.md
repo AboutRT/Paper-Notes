@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ACT: Knowledgeable Agents to Design and Perform Complex Tasks
 description: >-
-  [ACL 2025][多智能体协作] 本文提出 ACT 框架，让多个 LLM 智能体通过协作设计任务并相互获取结构化知识描述，使每个智能体不仅理解自身任务还了解他人的工作方式，从而在创意写作和工具使用等复杂任务上显著超越现有多智能体方法。
+  [ACL 2025][其他] 本文提出 ACT 框架，让多个 LLM 智能体通过协作设计任务并相互获取结构化知识描述，使每个智能体不仅理解自身任务还了解他人的工作方式，从而在创意写作和工具使用等复杂任务上显著超越现有多智能体方法。
 tags:
   - ACL 2025
-  - 多智能体协作
+  - 其他
   - 知识共享
   - 复杂任务分解
   - LLM Agent
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 无  
 **代码**: 无  
-**领域**: Agent  
+**领域**: 其他  
 **关键词**: 多智能体协作, 知识共享, 复杂任务分解, LLM Agent, 结构化知识
 
 ## 一句话总结
@@ -130,9 +130,9 @@ ACT 是一个无需额外训练的框架（training-free），直接基于现有
 ## 相关论文
 
 - [\[ACL 2025\] Infogen: Generating Complex Statistical Infographics from Documents](infogen_generating_complex_statistical_infographics_from_documents.md)
-- [\[ACL 2025\] ASPERA: A Simulated Environment to Evaluate Planning for Complex Action Execution](aspera_a_simulated_environment_to_evaluate_planning_for_complex_action_execution.md)
 - [\[ACL 2025\] DeepRTL2: A Versatile Model for RTL-Related Tasks](deeprtl2_a_versatile_model_for_rtl-related_tasks.md)
 - [\[ACL 2025\] AmbiK: Dataset of Ambiguous Tasks in Kitchen Environment](ambik_dataset_of_ambiguous_tasks_in_kitchen_environment.md)
 - [\[ACL 2025\] Micro-Act: Mitigate Knowledge Conflict in QA via Actionable Self-Reasoning](micro_act_knowledge_conflict_reasoning.md)
+- [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
 
 <!-- RELATED:END -->

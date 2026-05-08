@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 追逃博弈
-  - 异构多智能体
+  - 其他
   - Apollonius圆
   - 面积最优
   - 闭式控制律
@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.15036v2](https://arxiv.org/abs/2511.15036v2)  
 **代码**: 无  
-**领域**: 多智能体系统 / 博弈论 / 控制  
+**领域**: 其他  
 **关键词**: 追逃博弈, 异构多智能体, Apollonius圆, 面积最优, 闭式控制律, 安全可达集, 零和博弈  
 
 ## 一句话总结
@@ -150,9 +150,9 @@ Apollonius 圆——两个以不同速度运动的点同时到达的几何轨迹
 ## 相关论文
 
 - [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](local_guidance_for_configuration-based_multi-agent_pathfinding.md)
-- [\[ACL 2025\] Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems](../../ACL2025/others/beyond_frameworks_multi_agent_collaboration.md)
 - [\[AAAI 2026\] Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents](symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)
-- [\[AAAI 2026\] Semi-Supervised High Dynamic Range Image Reconstructing via Bi-Level Uncertain Area Masking](semi-supervised_high_dynamic_range_image_reconstructing_via_bi-level_uncertain_a.md)
 - [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
+- [\[CVPR 2026\] AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL](../../CVPR2026/others/assistmimic_physics_grounded_humanoid_assistance.md)
+- [\[AAAI 2026\] Enhancing Control Policy Smoothness by Aligning Actions with Predictions from Preceding States](enhancing_control_policy_smoothness_by_aligning_actions_with_predictions_from_pr.md)
 
 <!-- RELATED:END -->

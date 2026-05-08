@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.03886](https://arxiv.org/abs/2504.03886)  
-**代码**: https://wildgs-slam.github.io  
+**代码**: [https://wildgs-slam.github.io](https://wildgs-slam.github.io)  
 **领域**: 3D视觉  
 **关键词**: SLAM, 3D Gaussian Splatting, 动态环境, 不确定性估计, 单目视觉
 

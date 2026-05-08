@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.15933](https://arxiv.org/abs/2506.15933)  
-**代码**: https://github.com/SankarLab/coral-lt-diffusion (有)  
+**代码**: [https://github.com/SankarLab/coral-lt-diffusion](https://github.com/SankarLab/coral-lt-diffusion)  
 **领域**: 图像生成 / 长尾学习  
 **关键词**: diffusion model, long-tailed distribution, contrastive learning, latent space, representation entanglement
 

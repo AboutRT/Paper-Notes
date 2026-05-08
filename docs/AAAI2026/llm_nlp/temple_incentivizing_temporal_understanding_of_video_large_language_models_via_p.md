@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2503.16929](https://arxiv.org/abs/2503.16929)  
 **代码**: [GitHub](https://github.com/lscpku/TEMPLE)  
-**领域**: LLM Alignment  
+**领域**: LLM/NLP  
 **关键词**: Video LLM, 时间理解, DPO, 偏好学习, 课程学习
 
 ## 一句话总结
@@ -129,9 +129,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] ProFuser: Progressive Fusion of Large Language Models](profuser_progressive_fusion_of_large_language_models.md)
-- [\[ACL 2025\] ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events](../../ACL2025/llm_nlp/chronosense_exploring_temporal_understanding_in_large_language_models_with_time_.md)
+- [\[ACL 2025\] TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs](../../ACL2025/llm_nlp/trimllm_layer_dropping.md)
+- [\[AAAI 2026\] Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives](understanding_syllogistic_reasoning_in_llms_from_formal_and_natural_language_per.md)
 - [\[ACL 2025\] Cross-Modal Alignment for LLM-Enhanced Spoken Language Understanding](../../ACL2025/llm_nlp/cross-modal_alignment_for_llm-enhanced_spoken_language_understanding.md)
-- [\[ACL 2025\] Unlocking Recursive Thinking of LLMs: Alignment via Refinement](../../ACL2025/llm_nlp/unlocking_recursive_thinking_of_llms_alignment_via_refinement.md)
-- [\[ECCV 2024\] FunQA: Towards Surprising Video Comprehension](../../ECCV2024/llm_nlp/funqa_towards_surprising_video_comprehension.md)
+- [\[ACL 2025\] ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events](../../ACL2025/llm_nlp/chronosense_exploring_temporal_understanding_in_large_language_models_with_time_.md)
 
 <!-- RELATED:END -->

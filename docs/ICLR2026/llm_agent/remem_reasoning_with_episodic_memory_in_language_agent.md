@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.13530](https://arxiv.org/abs/2602.13530)  
 **代码**: [intuit-ai-research/REMem](https://github.com/intuit-ai-research/REMem)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: episodic memory, language agent, hybrid memory graph, temporal reasoning, agentic retrieval, gist extraction
 
 ## 一句话总结
@@ -177,6 +177,6 @@ REMem-I 在 Test of Time 上 EM 达 **93.1%**，是唯一超过 90% 的方法。
 - [\[CVPR 2026\] WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning](../../CVPR2026/llm_agent/worldmm_dynamic_multimodal_memory_agent_for_long_video_reasoning.md)
 - [\[ICLR 2026\] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](web-cogreasoner_towards_knowledge-induced_cognitive_reasoning_for_web_agents.md)
 - [\[ICLR 2026\] The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution](the_tool_decathlon_benchmarking_language_agents_for_diverse_realistic_and_long-h.md)
-- [\[ICLR 2026\] Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization](exploratory_memory-augmented_llm_agent_via_hybrid_on-_and_off-policy_optimizatio.md)
+- [\[ICLR 2026\] Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents](reducing_belief_deviation_in_reinforcement_learning_for_active_reasoning.md)
 
 <!-- RELATED:END -->

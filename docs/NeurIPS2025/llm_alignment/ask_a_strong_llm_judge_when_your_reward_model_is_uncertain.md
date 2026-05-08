@@ -18,7 +18,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20369](https://arxiv.org/abs/2510.20369)  
-**代码**: [GitHub](https://github.com/zhenghaoxu-gatech/uncertainty-router) (有)  
+**代码**: [GitHub](https://github.com/zhenghaoxu-gatech/uncertainty-router)  
 **领域**: 对齐RLHF  
 **关键词**: 奖励模型, LLM-as-judge, 不确定性量化, SNGP, 路由, RLHF
 

@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.02843](https://arxiv.org/abs/2506.02843)  
 **代码**: [shuaiyi308/REAP](https://github.com/shuaiyi308/REAP)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 跨域小样本学习, Vision Transformer, 随机寄存器, 注意力扰动, 锐度感知最小化
 
 ## 一句话总结
@@ -186,7 +186,7 @@ REAP 在所有设置下（有/无微调、1-shot/5-shot、inductive/transductive
 - [\[ICML 2025\] Feedforward Few-shot Species Range Estimation](feedforward_few-shot_species_range_estimation.md)
 - [\[NeurIPS 2025\] Unlocking Transfer Learning for Open-World Few-Shot Recognition](../../NeurIPS2025/llm_evaluation/unlocking_transfer_learning_for_open-world_few-shot_recognition.md)
 - [\[CVPR 2026\] HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning](../../CVPR2026/llm_evaluation/hycal_training_free_prototype_calibration_for_cross_discipline_fscil.md)
+- [\[ICCV 2025\] Few-Shot Pattern Detection via Template Matching and Regression](../../ICCV2025/llm_evaluation/few-shot_pattern_detection_via_template_matching_and_regression.md)
 - [\[NeurIPS 2025\] Benchmarking Large Language Models for Zero-Shot and Few-Shot Phishing URL Detection](../../NeurIPS2025/llm_evaluation/benchmarking_large_language_models_for_zero-shot_and_few-shot_phishing_url_detec.md)
-- [\[ICCV 2025\] Rethinking Few Shot CLIP Benchmarks: A Critical Analysis in the Inductive Setting](../../ICCV2025/llm_evaluation/rethinking_few_shot_clip_benchmarks_a_critical_analysis_in_the_inductive_setting.md)
 
 <!-- RELATED:END -->

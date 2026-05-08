@@ -12,7 +12,7 @@ tags:
 - **会议**: ICLR2026
 - **arXiv**: [2505.15547](https://arxiv.org/abs/2505.15547)
 - **代码**: [GitHub](https://github.com/AdrianArnaiz/demystifyingGraphML)
-- **领域**: 图神经网络 / 图机器学习理论
+- **领域**: 其他
 - **关键词**: oversmoothing, oversquashing, heterophily, long-range dependencies, message-passing, GNN
 
 ## 一句话总结
@@ -147,6 +147,6 @@ $$\mathcal{M}_v^K := \mathcal{M}_v^{K-1} \uplus \left\{\biguplus_{u \in \mathcal
 - [\[AAAI 2026\] Life, Machine Learning, and the Search for Habitability: Predicting Biosignature Fluxes for the Habitable Worlds Observatory](../../AAAI2026/others/life_machine_learning_and_the_search_for_habitability_predicting_biosignature_fl.md)
 - [\[ICLR 2026\] Learning Adaptive Distribution Alignment with Neural Characteristic Function for Graph Domain Adaptation](learning_adaptive_distribution_alignment_with_neural_characteristic_function_for.md)
 - [\[NeurIPS 2025\] Directional Non-Commutative Monoidal Structures for Compositional Embeddings in Machine Learning](../../NeurIPS2025/others/directional_non-commutative_monoidal_structures_for_compositional_embeddings_in_.md)
-- [\[ICLR 2026\] SEED: Towards More Accurate Semantic Evaluation for Visual Brain Decoding](seed_towards_more_accurate_semantic_evaluation_for_visual_brain_decoding.md)
+- [\[ECCV 2024\] Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](../../ECCV2024/others/decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)
 
 <!-- RELATED:END -->

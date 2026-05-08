@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2402.08784](https://arxiv.org/abs/2402.08784)  
-**代码**: https://github.com/sfchng/preconditioner_neural_fields  
+**代码**: [https://github.com/sfchng/preconditioner_neural_fields](https://github.com/sfchng/preconditioner_neural_fields)  
 **领域**: 3D视觉 / 神经场优化  
 **关键词**: 神经场, 预条件器, 随机优化, 曲率感知, 激活函数
 

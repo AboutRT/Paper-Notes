@@ -8,7 +8,7 @@ tags:
   - 多选题基准
   - None of the above
   - 基准饱和
-  - 推理评估
+  - LLM评测
   - Wild-Card Distractor
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.18316](https://arxiv.org/abs/2502.18316)  
 **代码**: [github.com/ahmedselhady/wicked-benchmarks](https://github.com/ahmedselhady/wicked-benchmarks)  
-**领域**: 其他（LLM评估/基准增强）  
+**领域**: LLM评测  
 **关键词**: 多选题基准, None of the above, 基准饱和, 推理评估, Wild-Card Distractor
 
 ## 一句话总结
@@ -169,8 +169,8 @@ WiCkeD 本身不涉及模型训练。SBA/SCA 检测的 BERT 分类器使用标�
 
 - [\[ACL 2025\] FinanceReasoning: Benchmarking Financial Numerical Reasoning More Credible, Comprehensive and Challenging](financereasoning_benchmarking_financial_numerical_reasoning_more.md)
 - [\[ACL 2025\] Right Answer, Wrong Score: Uncovering the Inconsistencies of LLM Evaluation in Multiple-Choice QA](right_answer_wrong_score_uncovering_the_inconsistencies_of_llm_evaluation_in_mul.md)
-- [\[ACL 2025\] CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming](culturalbench_a_robust_diverse_and_challenging_cultural_benchmark_by_human-ai_cu.md)
-- [\[ACL 2025\] ChatBench: From Static Benchmarks to Human-AI Evaluation](chatbench_from_static_benchmarks_to_human-ai_evaluation.md)
+- [\[ACL 2025\] CoPrUS: Consistency Preserving Utterance Synthesis Towards More Realistic Benchmark](coprus_consistency_preserving_utterance_synthesis_towards_more_realistic_benchma.md)
 - [\[ACL 2025\] Revisiting 3D LLM Benchmarks: Are We Really Testing 3D Capabilities?](revisiting_3d_llm_benchmarks_are_we_really_testing_3d_capabilities.md)
+- [\[ACL 2025\] HomeBench: Evaluating LLMs in Smart Homes with Valid and Invalid Instructions Across Single and Multiple Devices](homebench_evaluating_llms_in_smart_homes_with_valid_and_invalid_instructions_acr.md)
 
 <!-- RELATED:END -->

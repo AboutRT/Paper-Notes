@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - Fake News Detection
   - Label Propagation
-  - LLM Pseudo Labels
+  - 社会计算
   - 多模态
   - 图神经网络
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00488](https://arxiv.org/abs/2506.00488)  
 **代码**: [https://github.com/TSCenter/GLPN-LLM](https://github.com/TSCenter/GLPN-LLM)  
-**领域**: NLP 理解  
+**领域**: 社会计算  
 **关键词**: Fake News Detection, Label Propagation, LLM Pseudo Labels, Multimodal Learning, Graph Neural Networks  
 
 ## 一句话总结
@@ -193,6 +193,6 @@ $$y_i' = \tilde{y}_i \cdot m_i, \quad m_i \in \{0, 1\}$$
 - [\[AAAI 2026\] FactGuard: Event-Centric and Commonsense-Guided Fake News Detection](../../AAAI2026/social_computing/factguard_event-centric_and_commonsense-guided_fake_news_detection.md)
 - [\[ACL 2025\] Exploring Multimodal Challenges in Toxic Chinese Detection: Taxonomy, Benchmark, and Findings](exploring_multimodal_challenges_in_toxic_chinese_detection_taxonomy_benchmark_an.md)
 - [\[ACL 2025\] HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter](hateday_global_hate_speech.md)
-- [\[ACL 2025\] ImpliHateVid: Implicit Hate Speech Detection in Videos](implihatevid_video_hate.md)
+- [\[ACL 2025\] MDiT-Bench: Evaluating the Dual-Implicit Toxicity in Large Multimodal Models](mdit-bench_evaluating_the_dual-implicit_toxicity_in_large_multimodal_models.md)
 
 <!-- RELATED:END -->

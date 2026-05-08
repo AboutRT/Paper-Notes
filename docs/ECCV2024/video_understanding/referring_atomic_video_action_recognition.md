@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.01872](https://arxiv.org/abs/2407.01872)  
-**代码**: https://ravar-dataset.github.io/  
+**代码**: [https://ravar-dataset.github.io/](https://ravar-dataset.github.io/)  
 **领域**: 视频理解 / 人体理解  
 **关键词**: atomic action recognition, referring expression, multi-stream fusion, agent attention, video understanding
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Bridging Human and LLM Judgments: Understanding and Narrowing the Gap
 description: >-
-  [NEURIPS2025][LLM-as-Judge] 提出Bridge统计框架，通过序数logistic回归建模人类和LLM评判之间的潜在关系，以少量人类标签改善LLM评判的校准和对齐，同时支持对系统性偏差的正式统计检验。
+  [NEURIPS2025][对话系统] 提出Bridge统计框架，通过序数logistic回归建模人类和LLM评判之间的潜在关系，以少量人类标签改善LLM评判的校准和对齐，同时支持对系统性偏差的正式统计检验。
 tags:
   - NEURIPS2025
-  - LLM-as-Judge
+  - 对话系统
   - 人类-LLM对齐
   - 统计框架
   - 校准
@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2508.12792](https://arxiv.org/abs/2508.12792)  
 **代码**: [https://github.com/felipemaiapolo/bridge](https://github.com/felipemaiapolo/bridge)  
-**领域**: LLM/NLP  
+**领域**: 对话系统  
 **关键词**: LLM-as-Judge, 人类-LLM对齐, 统计框架, 校准, 偏差检验
 
 ## 一句话总结
@@ -125,9 +125,9 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Investigating Non-Transitivity in LLM-as-a-Judge](../../ICML2025/dialogue/investigating_non-transitivity_in_llm-as-a-judge.md)
-- [\[ICLR 2026\] Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding](../../ICLR2026/dialogue/understanding_language_prior_of_lvlms_by_contrasting_chain-of-embedding.md)
 - [\[NeurIPS 2025\] MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems](metamind_modeling_human_social_thoughts_with_metacognitive_multi-agent_systems.md)
+- [\[ICLR 2026\] Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding](../../ICLR2026/dialogue/understanding_language_prior_of_lvlms_by_contrasting_chain-of-embedding.md)
 - [\[NeurIPS 2025\] HyGen: Efficient LLM Serving via Elastic Online-Offline Request Co-location](hygen_efficient_llm_serving_via_elastic_online-offline_request_co-location.md)
-- [\[ECCV 2024\] BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation](../../ECCV2024/dialogue/bi-mdrg_bridging_image_history_in_multimodal_dialogue_response_generation.md)
+- [\[ACL 2025\] Single- vs. Dual-Prompt Dialogue Generation with LLMs for Job Interviews in Human Resources](../../ACL2025/dialogue/single-_vs_dual-prompt_dialogue_generation_with_llms_for_job_interviews_in_human.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Unlocking Speech Instruction Data Potential with Query Rewriting
 description: >-
-  [ACL 2025][语音指令数据] 提出基于多LLM知识融合的查询重写框架与多智能体标注验证方法，将超出TTS词汇范围的文本指令重写为适合语音合成的形式，使语音指令数据可用率从72%提升至93%，为端到端大型语音语言模型(LSLM)构建高质量语音指令数据集。
+  [ACL 2025][其他] 提出基于多LLM知识融合的查询重写框架与多智能体标注验证方法，将超出TTS词汇范围的文本指令重写为适合语音合成的形式，使语音指令数据可用率从72%提升至93%，为端到端大型语音语言模型(LSLM)构建高质量语音指令数据集。
 tags:
   - ACL 2025
-  - 语音指令数据
+  - 其他
   - Query Rewriting
   - TTS
   - 多智能体标注
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.08603](https://arxiv.org/abs/2507.08603)  
 **代码**: 未公开  
-**领域**: 语音-语言多模态  
+**领域**: 其他  
 **关键词**: 语音指令数据, Query Rewriting, TTS, 多智能体标注, 知识融合  
 
 ## 一句话总结
@@ -135,7 +135,7 @@ LSLM（Qwen2-Audio-7B-Instruct）训练效果对比：
 - [\[ACL 2025\] Instruction-Tuning Data Synthesis from Scratch via Web Reconstruction](instruction-tuning_data_synthesis_from_scratch_via_web_reconstruction.md)
 - [\[ACL 2025\] Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation](leveraging_unit_language_guidance_to_advance_speech_modeling_in_textless_speech-.md)
 - [\[ACL 2025\] GeNRe: A French Gender-Neutral Rewriting System Using Collective Nouns](genre_a_french_gender-neutral_rewriting_system_using_collective_nouns.md)
-- [\[ACL 2025\] MDCure: A Scalable Pipeline for Multi-Document Instruction-Following](mdcure_a_scalable_pipeline_for_multi-document_instruction-following.md)
-- [\[ACL 2025\] Tag-Evol: Achieving Efficient Instruction Evolving via Tag Injection](tag-evol_achieving_efficient_instruction_evolving_via_tag_injection.md)
+- [\[ACL 2025\] SSUF: A Semi-supervised Scalable Unified Framework for E-commerce Query Classification](a_semi-supervised_scalable_unified_framework_for_e-commerce_query_classification.md)
+- [\[ACL 2025\] It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems](its_not_a_walk_in_the_park_challenges_of_idiom_translation_in_speech-to-text_sys.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.04227](https://arxiv.org/abs/2412.04227)  
 **代码**: 无  
-**领域**: 评估理论 / 机器学习基础  
+**领域**: 机器人  
 **关键词**: performance ranking, axiomatic definition, evaluation theory, ranking scores, importance weighting
 
 ## 一句话总结
@@ -100,10 +100,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation](momanipvla_transferring_vision-language-action_models_for_general_mobile_manipul.md)
-- [\[CVPR 2025\] Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction](phoenix_a_motion-based_self-reflection_framework_for_fine-grained_robotic_action.md)
+- [\[CVPR 2025\] Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation](mitigating_the_human-robot_domain_discrepancy_in_visual_pre-training_for_robotic.md)
 - [\[CVPR 2025\] Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation](lift3d_policy_lifting_2d_foundation_models_for_robust_3d_robotic_manipulation.md)
-- [\[CVPR 2025\] PanoAffordanceNet: Towards Holistic Affordance Grounding in 360° Indoor Environments](panoaffordancenet_towards_holistic_affordance_grounding_in_360_indoor_environmen.md)
-- [\[CVPR 2025\] Magma: A Foundation Model for Multimodal AI Agents](magma_a_foundation_model_for_multimodal_ai_agents.md)
+- [\[CVPR 2025\] ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding](asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_de.md)
+- [\[CVPR 2025\] Prof. Robot: Differentiable Robot Rendering without Static and Self-Collisions](prof_robot_differentiable_robot_rendering_without_static_and_self-collisions.md)
+- [\[CVPR 2025\] SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](sapave_towards_active_perception_and_manipulation_in_vision-language-action_mode.md)
 
 <!-- RELATED:END -->

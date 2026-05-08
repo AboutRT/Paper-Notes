@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.12262](https://arxiv.org/abs/2603.12262)  
-**代码**: https://github.com/1ranGuan/VST  
+**代码**: [https://github.com/1ranGuan/VST](https://github.com/1ranGuan/VST)  
 **领域**: 视频理解  
 **关键词**: 流式视频理解, 链式思维, 强化学习, 知识图谱, 在线推理
 

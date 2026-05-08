@@ -2,10 +2,10 @@
 title: >-
   [论文解读] FlyLoRA: Boosting Task Decoupling and Parameter Efficiency via Implicit Rank-Wise Mixture-of-Experts
 description: >-
-  [NeurIPS 2025][LoRA] FlyLoRA 受飞蝇嗅觉回路启发，将 LoRA 的下投影矩阵 $A$ 替换为冻结的稀疏随机投影，通过 top-$k$ 激活值选择实现隐式 rank-wise MoE 路由，在消除路由参数的同时减少任务内干扰，并利用随机投影的近正交性天然支持多任务模型合并。
+  [NeurIPS 2025][代码智能] FlyLoRA 受飞蝇嗅觉回路启发，将 LoRA 的下投影矩阵 $A$ 替换为冻结的稀疏随机投影，通过 top-$k$ 激活值选择实现隐式 rank-wise MoE 路由，在消除路由参数的同时减少任务内干扰，并利用随机投影的近正交性天然支持多任务模型合并。
 tags:
   - NeurIPS 2025
-  - LoRA
+  - 代码智能
   - MoE
   - 参数高效微调
   - 飞蝇嗅觉回路
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.08396](https://arxiv.org/abs/2510.08396)  
-**代码**: https://github.com/gfyddha/FlyLoRA  
-**领域**: 模型压缩  
+**代码**: [https://github.com/gfyddha/FlyLoRA](https://github.com/gfyddha/FlyLoRA)  
+**领域**: 代码智能  
 **关键词**: LoRA, MoE, 参数高效微调, 飞蝇嗅觉回路, 模型合并
 
 ## 一句话总结
@@ -136,10 +136,10 @@ FlyLoRA 合并后性能下降远小于所有基线，验证了近正交子空间
 
 ## 相关论文
 
-- [\[ICLR 2026\] IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](../../ICLR2026/code_intelligence/imse_intrinsic_mixture_of_spectral_experts_fine-tuning_for_test-time_adaptation.md)
 - [\[NeurIPS 2025\] SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents](swe-rebench_an_automated_pipeline_for_task_collection_and_decontaminated_evaluat.md)
-- [\[ICML 2025\] EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning](../../ICML2025/code_intelligence/efficoder_enhancing_code_generation_in_large_language_models_through_efficiency-.md)
+- [\[ICLR 2026\] IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](../../ICLR2026/code_intelligence/imse_intrinsic_mixture_of_spectral_experts_fine-tuning_for_test-time_adaptation.md)
 - [\[ICLR 2026\] Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning](../../ICLR2026/code_intelligence/supervised_reinforcement_learning_from_expert_trajectories_to_step-wise_reasonin.md)
 - [\[ACL 2025\] CoCo-Bench: A Comprehensive Code Benchmark for Multi-task Large Language Model Evaluation](../../ACL2025/code_intelligence/coco-bench_a_comprehensive_code_benchmark_for_multi-task_large_language_model_ev.md)
+- [\[NeurIPS 2025\] VeriMaAS: Automated Multi-Agent Workflows for RTL Design](automated_multi-agent_workflows_for_rtl_design.md)
 
 <!-- RELATED:END -->

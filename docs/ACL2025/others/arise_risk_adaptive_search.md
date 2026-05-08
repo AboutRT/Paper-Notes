@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search
 description: >-
-  [ACL 2025][知识增强推理] 提出 ARise 框架，将贝叶斯风险评估与动态 RAG 集成到蒙特卡洛树搜索中，解决知识增强推理中的错误传播和验证瓶颈问题，在多跳QA任务上平均准确率超 SOTA KAR 方法 23.10%，超 RAG-equipped 推理模型（DeepSeek-R1）25.37%。
+  [ACL 2025][其他] 提出 ARise 框架，将贝叶斯风险评估与动态 RAG 集成到蒙特卡洛树搜索中，解决知识增强推理中的错误传播和验证瓶颈问题，在多跳QA任务上平均准确率超 SOTA KAR 方法 23.10%，超 RAG-equipped 推理模型（DeepSeek-R1）25.37%。
 tags:
   - ACL 2025
-  - 知识增强推理
+  - 其他
   - MCTS
   - 风险评估
   - RAG
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.10893](https://arxiv.org/abs/2504.10893)  
 **代码**: [https://opencausalab.github.io/ARise](https://opencausalab.github.io/ARise)  
-**领域**: LLM 推理  
+**领域**: 其他  
 **关键词**: 知识增强推理, MCTS, 风险评估, RAG, 多跳问答  
 
 ## 一句话总结
@@ -163,8 +163,8 @@ Llama3.1-8B-Instruct 结果：
 
 - [\[ACL 2025\] Adaptive Retrieval without Self-Knowledge? Bringing Uncertainty Back Home](adaptive_retrieval_without_self-knowledge_bringing_uncertainty_back_home.md)
 - [\[ACL 2025\] Micro-Act: Mitigate Knowledge Conflict in QA via Actionable Self-Reasoning](micro_act_knowledge_conflict_reasoning.md)
-- [\[ACL 2025\] Theoretical Guarantees for Minimum Bayes Risk Decoding](theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
 - [\[ACL 2025\] GeAR: Generation Augmented Retrieval](gear_generation_augmented_retrieval.md)
-- [\[ACL 2025\] HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation](hash-rag_bridging_deep_hashing_with_retriever_for_efficient_fine_retrieval_and_a.md)
+- [\[ACL 2025\] Theoretical Guarantees for Minimum Bayes Risk Decoding](theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
+- [\[ACL 2025\] Commonsense Reasoning in Arab Culture](commonsense_arab_culture.md)
 
 <!-- RELATED:END -->

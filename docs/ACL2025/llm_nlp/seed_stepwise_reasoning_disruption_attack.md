@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.11934](https://arxiv.org/abs/2412.11934)  
-**代码**: https://github.com/Applied-Machine-Learning-Lab/SEED-Attack  
-**领域**: LLM推理  
+**代码**: [https://github.com/Applied-Machine-Learning-Lab/SEED-Attack](https://github.com/Applied-Machine-Learning-Lab/SEED-Attack)  
+**领域**: LLM/NLP  
 **关键词**: 对抗攻击, 推理安全, Chain-of-Thought, 步骤操纵, 隐蔽性
 
 ## 一句话总结

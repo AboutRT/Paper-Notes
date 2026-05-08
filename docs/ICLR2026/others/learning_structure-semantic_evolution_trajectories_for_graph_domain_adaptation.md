@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.10506](https://arxiv.org/abs/2602.10506)  
 **代码**: [DiffGDA](https://github.com/chenwei23/DiffGDA)  
-**领域**: 图学习/领域自适应  
+**领域**: 其他  
 **关键词**: 图域适应, 扩散模型, SDE, 连续演化, 域感知引导
 
 ## 一句话总结
@@ -187,6 +187,6 @@ DiffGDA比同为图生成的GraphAlign减少50%以上运行时间，同时性能
 - [\[ICLR 2026\] Distributionally Robust Classification for Multi-Source Unsupervised Domain Adaptation](distributionally_robust_classification_for_multi-source_unsupervised_domain_adap.md)
 - [\[ICLR 2026\] OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection](owleye_zero-shot_learner_for_cross-domain_graph_data_anomaly_detection.md)
 - [\[ICLR 2026\] Missing Mass for Differentially Private Domain Discovery](missing_mass_for_differentially_private_domain_discovery.md)
-- [\[AAAI 2026\] How to Marginalize in Causal Structure Learning?](../../AAAI2026/others/how_to_marginalize_in_causal_structure_learning.md)
+- [\[AAAI 2026\] LeanRAG: Knowledge-Graph-Based Generation with Semantic Aggregation and Hierarchical Retrieval](../../AAAI2026/others/leanrag_knowledge-graph-based_generation_with_semantic_aggregation_and_hierarchi.md)
 
 <!-- RELATED:END -->

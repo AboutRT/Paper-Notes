@@ -10,7 +10,7 @@ tags:
   - deployment
   - field experiments
   - research ecosystem
-  - causal inference
+  - 其他
 ---
 
 # Fostering the Ecosystem of AI for Social Impact Requires Expanding and Strengthening Evaluation Standards
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2510.18238](https://arxiv.org/abs/2510.18238)  
 **作者**: Bryan Wilder (Carnegie Mellon University), Angela Zhou (University of Southern California)
 **代码**: 无（Position Paper）  
-**领域**: others  
+**领域**: 其他  
 **关键词**: AI for Social Impact, evaluation standards, deployment, field experiments, research ecosystem, causal inference
 
 ## 一句话总结
@@ -174,8 +174,8 @@ AI/ML for Social Impact (AISI) 领域近十年发展迅速，已有 AAAI Special
 
 - [\[ACL 2025\] SOTOPIA-Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents](../../ACL2025/others/sotopia-ensuremathomega_dynamic_strategy_injection_learning_and_social_instructi.md)
 - [\[NeurIPS 2025\] Impact of Layer Norm on Memorization and Generalization in Transformers](impact_of_layer_norm_on_memorization_and_generalization_in_transformers.md)
-- [\[NeurIPS 2025\] Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications](military_ai_needs_technically-informed_regulation_to_safeguard_ai_research_and_i.md)
 - [\[NeurIPS 2025\] Emergency Response Measures for Catastrophic AI Risk](emergency_response_measures_for_catastrophic_ai_risk.md)
+- [\[NeurIPS 2025\] Evaluating In Silico Creativity: An Expert Review of AI Chess Compositions](evaluating_in_silico_creativity_an_expert_review_of_ai_chess_compositions.md)
 - [\[ACL 2025\] Mapping the Podcast Ecosystem with the Structured Podcast Research Corpus](../../ACL2025/others/mapping_the_podcast_ecosystem_with_the_structured_podcast_research_corpus.md)
 
 <!-- RELATED:END -->

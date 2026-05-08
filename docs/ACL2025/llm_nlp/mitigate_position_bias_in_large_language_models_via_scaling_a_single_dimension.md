@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2406.02536](https://arxiv.org/abs/2406.02536)  
-**代码**: https://aka.ms/PositionalHidden  
+**代码**: [https://aka.ms/PositionalHidden](https://aka.ms/PositionalHidden)  
 **领域**: LLM/NLP  
 **关键词**: position bias, lost in the middle, hidden states, positional channel, attention
 
@@ -126,7 +126,7 @@ tags:
 - [\[ACL 2025\] Veracity Bias and Beyond: Uncovering LLMs' Hidden Beliefs in Problem-Solving Reasoning](veracity_bias_llm_hidden_beliefs.md)
 - [\[NeurIPS 2025\] On the Role of Hidden States of Modern Hopfield Network in Transformer](../../NeurIPS2025/llm_nlp/on_the_role_of_hidden_states_of_modern_hopfield_network_in_transformer.md)
 - [\[ACL 2025\] Computation Mechanism Behind LLM Position Generalization](computation_mechanism_behind_llm_position_generalization.md)
-- [\[ACL 2025\] Leveraging In-Context Learning for Political Bias Testing of LLMs](leveraging_in-context_learning_for_political_bias_testing_of_llms.md)
 - [\[ACL 2025\] AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs](autogui_scaling_gui_grounding_with_automatic.md)
+- [\[ACL 2025\] Leveraging In-Context Learning for Political Bias Testing of LLMs](leveraging_in-context_learning_for_political_bias_testing_of_llms.md)
 
 <!-- RELATED:END -->

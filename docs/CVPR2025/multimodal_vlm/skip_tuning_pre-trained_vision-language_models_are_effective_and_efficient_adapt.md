@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.11509](https://arxiv.org/abs/2412.11509)  
-**代码**: https://github.com/Koorye/SkipTuning  
+**代码**: [https://github.com/Koorye/SkipTuning](https://github.com/Koorye/SkipTuning)  
 **领域**: 多模态VLM  
 **关键词**: VLM微调、Skip连接、高效适配、prompt tuning替代、CLIP
 

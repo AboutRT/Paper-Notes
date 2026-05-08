@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.07783](https://arxiv.org/abs/2502.07783)  
 **代码**: [GitHub](https://github.com/Leon-Leyang/curvature-tuning)  
-**领域**: model_compression  
+**领域**: 可解释性  
 **关键词**: 曲率调节, 激活函数, 样条理论, 参数高效微调, 决策边界
 
 ## 一句话总结

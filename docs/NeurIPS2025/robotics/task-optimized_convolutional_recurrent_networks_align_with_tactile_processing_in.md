@@ -49,36 +49,36 @@ tags:
 1. **仿生触觉数据集生成**
 
    使用WHISKiT Physics仿真器（首个3D完整啮齿类触须系统仿真）生成高变异触觉数据集：
-   - 将大鼠触须阵列适配为小鼠的30根触须，排列为5×7网格
-   - 力的裁剪范围±1000 mN（±1N），在生物合理范围内
-   - 在9981个ShapeNet物体（117类）上应用多种扫描增强：速度、高度、旋转、距离变化
-   - 两个数据集版本：高变异/低保真（288种增强, 110Hz）和低变异/高保真（16种增强, 1000Hz）
-   - 提取22个时间步，对应啮齿类20Hz的扫须频率
+    - 将大鼠触须阵列适配为小鼠的30根触须，排列为5×7网格
+    - 力的裁剪范围±1000 mN（±1N），在生物合理范围内
+    - 在9981个ShapeNet物体（117类）上应用多种扫描增强：速度、高度、旋转、距离变化
+    - 两个数据集版本：高变异/低保真（288种增强, 110Hz）和低变异/高保真（16种增强, 1000Hz）
+    - 提取22个时间步，对应啮齿类20Hz的扫须频率
 
    设计动机：高变异数据集强约束学习到的表征，模拟进化压力（"Contravariance Principle"），使模型在有限架构选择中区分出优劣。
 
 2. **EAD架构搜索**
 
    基于触觉信号特性设计搜索空间：
-   - 触觉力/力矩信号时间平滑→Encoder层适合卷积和循环机制（局部时间整合）
-   - 高层聚合需跨远距不规则时间尺度→Attender层适合注意力机制（动态加权时间步）
+    - 触觉力/力矩信号时间平滑→Encoder层适合卷积和循环机制（局部时间整合）
+    - 高层聚合需跨远距不规则时间尺度→Attender层适合注意力机制（动态加权时间步）
 
    ConvRNN编码器的时间展开实现关键：每个时间步对应单层前馈处理并传给下一层，而非传统RNN的整个前馈通过视为一个时间步。这平行于生物系统中刺激从一个皮层层到下一层的顺序处理。
 
    搜索的ConvRNN变体包括：UGRNN、IntersectionRNN、LSTM、GRU。IntersectionRNN的更新规则：
 
-   $$s_t^\ell = p_t^\ell \circ s_{t-1}^\ell + (1-p_t^\ell) \circ m_t^\ell$$
-   $$h_t^\ell = y_t^\ell \circ x_t^\ell + (1-y_t^\ell) \circ n_t^\ell$$
+    $s_t^\ell = p_t^\ell \circ s_{t-1}^\ell + (1-p_t^\ell) \circ m_t^\ell$
+    $h_t^\ell = y_t^\ell \circ x_t^\ell + (1-y_t^\ell) \circ n_t^\ell$
 
    其中门控 $p$ 控制状态记忆，门控 $y$ 决定输入与变换后信号的交叉。
 
 3. **触觉特定自监督学习增强**
 
    设计了专门针对力/力矩时序数据的增强策略：
-   - 垂直翻转：模拟触须阵列上下翻转
-   - 水平翻转：模拟左右翻转
-   - 旋转：模拟触须阵列旋转
-   - 时间反转：模拟运动方向反转
+    - 垂直翻转：模拟触须阵列上下翻转
+    - 水平翻转：模拟左右翻转
+    - 旋转：模拟触须阵列旋转
+    - 时间反转：模拟运动方向反转
 
    传统图像增强（颜色抖动、灰度化）会导致训练失败，证明增强策略必须与模态相关。自监督方法包括SimCLR（对比学习）、SimSiam（非对比）和自编码器。
 
@@ -165,8 +165,8 @@ tags:
 
 - [\[ACL 2025\] DRAE: Dynamic Retrieval-Augmented Expert Networks for Lifelong Learning and Task Adaptation in Robotics](../../ACL2025/robotics/drae_dynamic_retrieval-augmented_expert_networks_for_lifelong_learning_and_task_.md)
 - [\[AAAI 2026\] To Align or Not to Align: Strategic Multimodal Representation Alignment for Optimal Performance](../../AAAI2026/robotics/to_align_or_not_to_align_strategic_multimodal_representation_alignment_for_optim.md)
+- [\[ICLR 2026\] AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception](../../ICLR2026/robotics/anytouch_2_general_optical_tactile_representation_learning_for_dynamic_tactile_p.md)
 - [\[NeurIPS 2025\] MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark](mmtu_a_massive_multi-task_table_understanding_and_reasoning_benchmark.md)
 - [\[NeurIPS 2025\] MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning](mesatask_towards_task-driven_tabletop_scene_generation_via_3d_spatial_reasoning.md)
-- [\[NeurIPS 2025\] T-Rex: Task-Adaptive Spatial Representation Extraction for Robotic Manipulation with VLMs](t-rex_task-adaptive_spatial_representation_extraction_for_robotic_manipulation_w.md)
 
 <!-- RELATED:END -->

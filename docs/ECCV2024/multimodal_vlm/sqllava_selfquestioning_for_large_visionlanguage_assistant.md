@@ -10,14 +10,14 @@ tags:
   - 指令微调
   - 视觉语言对齐
   - 原型提取器
-  - LoRA
+  - 多模态VLM
 ---
 
 # SQ-LLaVA: Self-Questioning for Large Vision-Language Assistant
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.11299](https://arxiv.org/abs/2403.11299)  
-**代码**: https://github.com/heliossun/SQ-LLaVA (有)  
+**代码**: [https://github.com/heliossun/SQ-LLaVA](https://github.com/heliossun/SQ-LLaVA)  
 **领域**: 多模态VLM  
 **关键词**: 视觉自提问, 指令微调, 视觉语言对齐, 原型提取器, LoRA
 
@@ -138,10 +138,10 @@ SQ-LLaVA在LLaVA架构上增加两个核心设计：(1) 视觉自提问指令—
 
 ## 相关论文
 
-- [\[ECCV 2024\] Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models](omniviewtuning_boosting_viewpoint_invariance_of_visionlangua.md)
-- [\[ECCV 2024\] Self-Adapting Large Visual-Language Models to Edge Devices across Visual Modalities](self-adapting_large_visual-language_models_to_edge_devices_across_visual_modalit.md)
-- [\[ECCV 2024\] Towards Open-Ended Visual Quality Comparison](towards_openended_visual_quality_comparison.md)
-- [\[ECCV 2024\] DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_.md)
-- [\[ECCV 2024\] Robust Calibration of Large Vision-Language Adapters](robust_calibration_of_large_vision-language_adapters.md)
+- [\[ECCV 2024\] Towards Open-ended Visual Quality Comparison](towards_open-ended_visual_quality_comparison.md)
+- [\[ECCV 2024\] Robust Calibration of Large Vision-Language Adapters](robust_calibration_of_large_visionlanguage_adapters.md)
+- [\[ECCV 2024\] NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models](navgpt-2_unleashing_navigational_reasoning_capability_for_large_vision-language_.md)
+- [\[ECCV 2024\] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)
+- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_lan.md)
 
 <!-- RELATED:END -->

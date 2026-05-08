@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2507.18988v2](https://arxiv.org/abs/2507.18988v2)  
 **代码**: [有](https://github.com/wangchao0708/AEDR)  
-**领域**: AI安全 / 图像取证 / 生成图像溯源  
+**领域**: 图像生成  
 **关键词**: 图像归因, 自编码器重建, 免训练, 潜在扩散模型, 核密度估计  
 
 ## 一句话总结
@@ -130,8 +130,8 @@ RONAN和LatentTracer依赖单次重建损失的绝对值，在高质量自编码
 
 - [\[CVPR 2026\] Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution](../../CVPR2026/image_generation/attribution_as_retrieval_modelagnostic_aigenerated.md)
 - [\[AAAI 2026\] Aggregating Diverse Cue Experts for AI-Generated Image Detection](aggregating_diverse_cue_experts_for_ai-generated_image_detec.md)
+- [\[AAAI 2026\] Beyond Semantic Features: Pixel-Level Mapping for Generalized AI-Generated Image Detection](beyond_semantic_features_pixel-level_mapping_for_generalized_ai-generated_image_.md)
 - [\[AAAI 2026\] Melodia: Training-Free Music Editing Guided by Attention Probing in Diffusion Models](melodia_training-free_music_editing_guided_by_attention_probing_in_diffusion_mod.md)
 - [\[AAAI 2026\] Infinite-Story: A Training-Free Consistent Text-to-Image Generation](infinite-story_a_training-free_consistent_text-to-image_gene.md)
-- [\[ICCV 2025\] IntroStyle: Training-Free Introspective Style Attribution using Diffusion Features](../../ICCV2025/image_generation/introstyle_training-free_introspective_style_attribution_using_diffusion_feature.md)
 
 <!-- RELATED:END -->

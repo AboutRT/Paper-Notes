@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.01639](https://arxiv.org/abs/2502.01639)  
-**代码**: https://github.com/rohitgandikota/sliderspace  
+**代码**: [https://github.com/rohitgandikota/sliderspace](https://github.com/rohitgandikota/sliderspace)  
 **领域**: 扩散模型  
 **关键词**: 扩散模型可控生成、语义分解、LoRA适配器、潜在空间探索、无监督发现
 
@@ -150,6 +150,6 @@ SliderSpace 仅用 10 个方向就匹配了 64 个手动 Concept Sliders 的 FID
 - [\[AAAI 2026\] LongLLaDA: Unlocking Long Context Capabilities in Diffusion LLMs](../../AAAI2026/image_generation/longllada_unlocking_long_context_capabilities_in_diffusion_llms.md)
 - [\[ICCV 2025\] CSD-VAR: Content-Style Decomposition in Visual Autoregressive Models](csd-var_content-style_decomposition_in_visual_autoregressive_models.md)
 - [\[CVPR 2025\] The Art of Deception: Color Visual Illusions and Diffusion Models](../../CVPR2025/image_generation/the_art_of_deception_color_visual_illusions_and_diffusion_models.md)
-- [\[ICCV 2025\] VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning](visualcloze_a_universal_image_generation_framework_via_visua.md)
+- [\[ICCV 2025\] VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning](visualcloze_a_universal_image_generation_framework_via_visual_in-context_learnin.md)
 
 <!-- RELATED:END -->

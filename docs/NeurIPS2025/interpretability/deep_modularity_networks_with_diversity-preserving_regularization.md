@@ -8,7 +8,7 @@ tags:
   - graph clustering
   - modularity maximization
   - diversity regularization
-  - 图神经网络
+  - 可解释性
 ---
 
 # Deep Modularity Networks with Diversity-Preserving Regularization
@@ -16,7 +16,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2501.13451](https://arxiv.org/abs/2501.13451)  
 **代码**: [YasminSalehi/DMoN-DPR](https://github.com/YasminSalehi/DMoN-DPR)  
-**领域**: self_supervised  
+**领域**: 可解释性  
 **关键词**: graph clustering, modularity maximization, diversity regularization, GNN pooling  
 
 ## 一句话总结
@@ -147,8 +147,8 @@ $$L^{\text{entropy}} = -\frac{1}{n} \sum_{v=1}^{n} \sum_{i=1}^{k} C_{vi} \log(C_
 
 - [\[NeurIPS 2025\] Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences](deep_value_benchmark_measuring_whether_models_generalize_deep_values_or_shallow_.md)
 - [\[NeurIPS 2025\] H-SPLID: HSIC-based Saliency Preserving Latent Information Decomposition](h-splid_hsic-based_saliency_preserving_latent_information_decomposition.md)
+- [\[ICML 2025\] Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](../../ICML2025/interpretability/sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)
+- [\[ACL 2026\] StructKV: Preserving the Structural Skeleton for Scalable Long-Context Inference](../../ACL2026/interpretability/structkv_preserving_the_structural_skeleton_for_scalable_long-context_inference.md)
 - [\[ICLR 2026\] Modal Logical Neural Networks for Financial AI](../../ICLR2026/interpretability/modal_logical_neural_networks_for_financial_ai.md)
-- [\[ICLR 2026\] Initialization Schemes for Kolmogorov-Arnold Networks: An Empirical Study](../../ICLR2026/interpretability/initialization_schemes_for_kolmogorov-arnold_networks_an_empirical_study.md)
-- [\[AAAI 2026\] FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](../../AAAI2026/interpretability/fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)
 
 <!-- RELATED:END -->

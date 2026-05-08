@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.09116](https://arxiv.org/abs/2603.09116)  
 **代码**: [meta-imaging.qiguo.org](https://meta-imaging.qiguo.org)  
-**领域**: remote_sensing  
+**领域**: 遥感  
 **关键词**: 超表面, 高光谱成像, 快照成像, HDR, 偏振成像, 计算光学
 
 ## 一句话总结
@@ -145,8 +145,8 @@ tags:
 
 - [\[CVPR 2025\] Dense Dispersed Structured Light for Hyperspectral 3D Imaging of Dynamic Scenes](dense_dispersed_structured_light_for_hyperspectral_3d_imaging_of_dynamic_scenes.md)
 - [\[CVPR 2025\] Hierarchical Dual-Change Collaborative Learning for UAV Scene Change Captioning](hierarchical_dual-change_collaborative_learning_for_uav_scene_change_captioning.md)
-- [\[CVPR 2025\] Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing](think_and_answer_me_benchmarking_and_exploring_multi-entity_reasoning_grounding_.md)
 - [\[CVPR 2025\] Joint and Streamwise Distributed MIMO Satellite Communications with Multi-Antenna Ground Users](joint_and_streamwise_distributed_mimo_satellite_communications_with_multi-antenn.md)
+- [\[CVPR 2025\] Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing](think_and_answer_me_benchmarking_and_exploring_multi-entity_reasoning_grounding_.md)
 - [\[CVPR 2025\] DiSciPLE: Learning Interpretable Programs for Scientific Visual Discovery](disciple_learning_interpretable_programs_for_scientific_visual_discovery.md)
 
 <!-- RELATED:END -->

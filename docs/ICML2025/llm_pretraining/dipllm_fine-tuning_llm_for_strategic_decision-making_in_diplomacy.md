@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - Diplomacy
-  - LLM agent
+  - LLM预训练
   - fine-tuning
   - autoregressive factorization
   - Nash equilibrium
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.09655](https://arxiv.org/abs/2506.09655)  
 **代码**: 无  
-**领域**: LLM / NLP  
+**领域**: LLM预训练  
 **关键词**: Diplomacy, LLM agent, fine-tuning, autoregressive factorization, Nash equilibrium
 
 ## 一句话总结
@@ -127,10 +127,10 @@ LLaMA 3 8B + LoRA（$\alpha=32$, rank=16），AdamW lr=2e-4，5 epochs，仅约 
 
 ## 相关论文
 
+- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](../../ICLR2026/llm_pretraining/token-level_data_selection_for_safe_llm_fine-tuning.md)
+- [\[ICML 2025\] Tokenized Bandit for LLM Decoding and Alignment](tokenized_bandit_for_llm_decoding_and_alignment.md)
 - [\[ACL 2025\] Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning](../../ACL2025/llm_pretraining/data_whisperer_data_selection.md)
 - [\[ICLR 2026\] Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning](../../ICLR2026/llm_pretraining/pre-training_llm_without_learning_rate_decay_enhances_supervised_fine-tuning.md)
-- [\[ICML 2025\] Tokenized Bandit for LLM Decoding and Alignment](tokenized_bandit_for_llm_decoding_and_alignment.md)
 - [\[NeurIPS 2025\] Quantifying Task-Relevant Representational Similarity Using Decision Variable Correlation](../../NeurIPS2025/llm_pretraining/quantifying_task-relevant_representational_similarity_using_decision_variable_co.md)
-- [\[ICML 2025\] LLM Data Selection and Utilization via Dynamic Bi-level Optimization](llm_data_selection_and_utilization_via_dynamic_bi-level_optimization.md)
 
 <!-- RELATED:END -->

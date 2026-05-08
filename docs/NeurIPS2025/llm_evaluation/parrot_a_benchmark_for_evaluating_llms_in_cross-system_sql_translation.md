@@ -2,10 +2,10 @@
 title: >-
   [论文解读] PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation
 description: >-
-  [NeurIPS 2025][SQL翻译] 本文提出 PARROT，一个面向跨系统 SQL 翻译（SQL-to-SQL）的实际且真实的基准测试，包含来自 38 个开源基准和真实业务场景的 598 个核心翻译对（扩展到 28,003 对），覆盖 22 种生产级数据库系统，揭示当前最强 LLM 的平均准确率低于 38.53%。
+  [NeurIPS 2025][LLM评测] 本文提出 PARROT，一个面向跨系统 SQL 翻译（SQL-to-SQL）的实际且真实的基准测试，包含来自 38 个开源基准和真实业务场景的 598 个核心翻译对（扩展到 28,003 对），覆盖 22 种生产级数据库系统，揭示当前最强 LLM 的平均准确率低于 38.53%。
 tags:
   - NeurIPS 2025
-  - SQL翻译
+  - LLM评测
   - 跨数据库系统
   - SQL方言
   - LLM评估
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.23338](https://arxiv.org/abs/2509.23338)  
-**代码**: https://github.com/weAIDB/PARROT  
-**领域**: LLM评估 / 数据库  
+**代码**: [https://github.com/weAIDB/PARROT](https://github.com/weAIDB/PARROT)  
+**领域**: LLM评测  
 **关键词**: SQL翻译, 跨数据库系统, SQL方言, LLM评估, 基准测试
 
 ## 一句话总结
@@ -152,7 +152,7 @@ PARROT 的数据构建流程：从 38 个开源数据库基准和真实业务场
 - [\[NeurIPS 2025\] On Evaluating LLM Alignment by Evaluating LLMs as Judges](on_evaluating_llm_alignment_by_evaluating_llms_as_judges.md)
 - [\[ACL 2025\] SwiLTra-Bench: The Swiss Legal Translation Benchmark](../../ACL2025/llm_evaluation/swiltra-bench_the_swiss_legal_translation_benchmark.md)
 - [\[AAAI 2026\] MCTS-SQL: Light-Weight LLMs can Master the Text-to-SQL through Monte Carlo Tree Search](../../AAAI2026/llm_evaluation/mcts-sql_light-weight_llms_can_master_the_text-to-sql_through_monte_carlo_tree_s.md)
-- [\[ACL 2025\] HomeBench: Evaluating LLMs in Smart Homes with Valid and Invalid Instructions Across Single and Multiple Devices](../../ACL2025/llm_evaluation/homebench_evaluating_llms_in_smart_homes_with_valid_and_invalid_instructions_acr.md)
-- [\[ACL 2026\] RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity](../../ACL2026/llm_evaluation/roleconflictbench_a_benchmark_of_role_conflict_scenarios_for_evaluating_llms39_c.md)
+- [\[ICML 2025\] MultiCogEval: Evaluating LLMs Across Multi-Cognitive Levels](../../ICML2025/llm_evaluation/evaluating_llms_across_multi-cognitive_levels_from_medical_knowledge_mastery_to_.md)
+- [\[ACL 2025\] EvoWiki: Evaluating LLMs on Evolving Knowledge](../../ACL2025/llm_evaluation/evowiki_evaluating_llms_on_evolving_knowledge.md)
 
 <!-- RELATED:END -->

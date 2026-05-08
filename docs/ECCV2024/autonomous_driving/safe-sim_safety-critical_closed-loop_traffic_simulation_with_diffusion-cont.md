@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2401.00391](https://arxiv.org/abs/2401.00391)  
-**代码**: https://safe-sim.github.io/ (有项目页)  
+**代码**: [https://safe-sim.github.io/](https://safe-sim.github.io/) (有项目页)  
 **领域**: 自动驾驶  
 **关键词**: 安全关键仿真, 扩散模型, 对抗生成, 闭环仿真, 可控性
 

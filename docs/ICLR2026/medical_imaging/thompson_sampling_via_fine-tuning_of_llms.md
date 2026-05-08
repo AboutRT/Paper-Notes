@@ -12,7 +12,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2510.13328](https://arxiv.org/abs/2510.13328)
 - **代码**: [GitHub](https://github.com/IBM/thompson-sampling-via-fine-tuning-of-llms)
-- **领域**: 贝叶斯优化 / LLM微调
+- **领域**: 医学图像
 - **关键词**: Thompson Sampling, Bayesian Optimization, LLM Fine-Tuning, Probability of Maximality, VBOS
 
 ## 一句话总结

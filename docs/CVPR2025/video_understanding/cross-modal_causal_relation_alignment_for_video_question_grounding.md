@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.07635](https://arxiv.org/abs/2503.07635)  
-**代码**: https://github.com/WissingChen/CRA-GQA  
+**代码**: [https://github.com/WissingChen/CRA-GQA](https://github.com/WissingChen/CRA-GQA)  
 **领域**: 视频理解  
 **关键词**: 视频问答定位、因果推断、跨模态对齐、高斯平滑、前门干预
 
@@ -116,6 +116,6 @@ tags:
 - [\[CVPR 2025\] Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models](video-panda_parameter-efficient_alignment_for_encoder-free_video-language_models.md)
 - [\[CVPR 2025\] Temporal Alignment-Free Video Matching for Few-Shot Action Recognition](temporal_alignment-free_video_matching_for_few-shot_action_recognition.md)
 - [\[CVPR 2026\] CVA: Context-aware Video-text Alignment for Video Temporal Grounding](../../CVPR2026/video_understanding/cva_context-aware_video-text_alignment_for_video_temporal_grounding.md)
-- [\[NeurIPS 2025\] PixFoundation 2.0: Do Video Multi-Modal LLMs Use Motion in Visual Grounding?](../../NeurIPS2025/video_understanding/pixfoundation_20_do_video_multi-modal_llms_use_motion_in_visual_grounding.md)
+- [\[CVPR 2025\] QA-TIGER: Question-Aware Gaussian Experts for Audio-Visual Question Answering](question-aware_gaussian_experts_for_audio-visual_question_answering.md)
 
 <!-- RELATED:END -->

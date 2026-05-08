@@ -2,10 +2,10 @@
 title: >-
   [论文解读] 3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark
 description: >-
-  [ICCV 2025][3D Spatial Reasoning] 提出首个全面的3D空间推理基准3DSRBench，包含2,772个人工标注的VQA对（12种问题类型），通过平衡数据分布和新型FlipEval策略实现鲁棒评估，揭示SOTA LMM（包括GPT-4o、Gemini）在3D空间推理上远落后于人类水平（≈52% vs 95.7%），且在非常规视角下性能显著退化。
+  [ICCV 2025][LLM评测] 提出首个全面的3D空间推理基准3DSRBench，包含2,772个人工标注的VQA对（12种问题类型），通过平衡数据分布和新型FlipEval策略实现鲁棒评估，揭示SOTA LMM（包括GPT-4o、Gemini）在3D空间推理上远落后于人类水平（≈52% vs 95.7%），且在非常规视角下性能显著退化。
 tags:
   - ICCV 2025
-  - 3D Spatial Reasoning
+  - LLM评测
   - benchmark
   - 多模态
   - visual question answering
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.07825](https://arxiv.org/abs/2412.07825)  
-**代码**: [项目主页](https://3dsrbench.github.io/) (有)  
-**领域**: 3D视觉 / 多模态VLM  
+**代码**: [项目主页](https://3dsrbench.github.io/)  
+**领域**: LLM评测  
 **关键词**: 3D Spatial Reasoning, benchmark, Large Multimodal Models, visual question answering, Camera Viewpoint Robustness
 
 ## 一句话总结
@@ -147,8 +147,8 @@ tags:
 
 - [\[ACL 2025\] PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning](../../ACL2025/llm_evaluation/physreason_a_comprehensive_benchmark_towards_physics-based_reasoning.md)
 - [\[ICCV 2025\] OmniDiff: A Comprehensive Benchmark for Fine-grained Image Difference Captioning](omnidiff_a_comprehensive_benchmark_for_fine-grained_image_difference_captioning.md)
-- [\[NeurIPS 2025\] HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](../../NeurIPS2025/llm_evaluation/houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)
 - [\[ACL 2025\] FinanceReasoning: Benchmarking Financial Numerical Reasoning More Credible, Comprehensive and Challenging](../../ACL2025/llm_evaluation/financereasoning_benchmarking_financial_numerical_reasoning_more.md)
 - [\[ICLR 2026\] AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning](../../ICLR2026/llm_evaluation/anessuite_a_comprehensive_benchmark_and_dataset_suite_for_anesthesiology_reasoni.md)
+- [\[NeurIPS 2025\] RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases](../../NeurIPS2025/llm_evaluation/rdb2g-bench_a_comprehensive_benchmark_for_automatic_graph_modeling_of_relational.md)
 
 <!-- RELATED:END -->

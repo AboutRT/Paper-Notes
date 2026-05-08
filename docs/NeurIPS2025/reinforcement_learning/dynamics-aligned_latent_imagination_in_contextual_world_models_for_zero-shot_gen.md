@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - contextual MDP
   - world model
-  - zero-shot generalization
+  - 强化学习
   - DreamerV3
   - latent context
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.20294](https://arxiv.org/abs/2508.20294)  
 **代码**: [github.com/frankroeder/DALI](https://github.com/frankroeder/DALI)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: contextual MDP, world model, zero-shot generalization, DreamerV3, latent context
 
 ## 一句话总结

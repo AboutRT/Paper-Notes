@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.00782](https://arxiv.org/abs/2412.00782)  
-**代码**: https://github.com/matanr/Memories_of_Forgotten_Concepts (有)  
+**代码**: [https://github.com/matanr/Memories_of_Forgotten_Concepts](https://github.com/matanr/Memories_of_Forgotten_Concepts)  
 **领域**: 扩散模型 / AI安全  
 **关键词**: 概念擦除, 扩散模型, 机器遗忘, 潜空间分析, 隐私安全
 

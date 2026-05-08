@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Temporal Unlearnable Examples: Preventing Personal Video Data from Unauthorized Exploitation
 description: >-
-  [ICCV 2025][视频数据隐私] 本文首次研究防止视频数据被深度跟踪器未授权使用的问题，提出基于 DiT 的生成式框架生成时序不可学习样本（TUE），通过时间对比损失使跟踪器依赖扰动噪声进行时序匹配而非学习真实数据结构，实现了跨模型、跨数据集和跨任务的强可迁移性。
+  [ICCV 2025][LLM安全] 本文首次研究防止视频数据被深度跟踪器未授权使用的问题，提出基于 DiT 的生成式框架生成时序不可学习样本（TUE），通过时间对比损失使跟踪器依赖扰动噪声进行时序匹配而非学习真实数据结构，实现了跨模型、跨数据集和跨任务的强可迁移性。
 tags:
   - ICCV 2025
-  - 视频数据隐私
+  - LLM安全
   - 不可学习样本
   - 视觉目标跟踪
   - 生成式扰动
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.07483](https://arxiv.org/abs/2507.07483)  
 **代码**: 无  
-**领域**: 视频理解  
+**领域**: LLM安全  
 **关键词**: 视频数据隐私, 不可学习样本, 视觉目标跟踪, 生成式扰动, 对比学习
 
 ## 一句话总结
@@ -151,9 +151,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers](../../ICLR2026/llm_safety/perturbation-induced_linearization_constructing_unlearnable_data_with_solely_lin.md)
-- [\[ACL 2025\] Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations](../../ACL2025/llm_safety/factual_knowledge_in_language_models_robustness_and_anomalies_under_simple_tempo.md)
-- [\[NeurIPS 2025\] A Cramér–von Mises Approach to Incentivizing Truthful Data Sharing](../../NeurIPS2025/llm_safety/a_cramrvon_mises_approach_to_incentivizing_truthful_data_sha.md)
-- [\[ACL 2025\] Aligning Large Language Models to Follow Instructions and Hallucinate Less via Effective Data Filtering](../../ACL2025/llm_safety/aligning_large_language_models_to_follow_instructions_and_hallucinate_less_via_e.md)
-- [\[ICLR 2026\] Redirection for Erasing Memory (REM): Towards a Universal Unlearning Method for Corrupted Data](../../ICLR2026/llm_safety/redirection_for_erasing_memory_rem_towards_a_universal_unlearning_method_for_cor.md)
+- [\[ICCV 2025\] Enhancing Adversarial Transferability by Balancing Exploration and Exploitation with Gradient-Guided Sampling](enhancing_adversarial_transferability_by_balancing_exploration_and_exploitation_.md)
+- [\[NeurIPS 2025\] Enhancing Sample Selection Against Label Noise by Cutting Mislabeled Easy Examples](../../NeurIPS2025/llm_safety/enhancing_sample_selection_against_label_noise_by_cutting_mislabeled_easy_exampl.md)
+- [\[ICCV 2025\] Oasis: One Image is All You Need for Multimodal Instruction Data Synthesis](oasis_one_image_is_all_you_need_for_multimodal_instruction_data_synthesis.md)
+- [\[ACL 2025\] Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?](../../ACL2025/llm_safety/llm_watermark_distillation_robustness.md)
 
 <!-- RELATED:END -->

@@ -10,14 +10,14 @@ tags:
   - 分布偏移
   - 逆概率加权
   - 信息分解
-  - 模态价值评估
+  - 多模态VLM
 ---
 
 # ICYM2I: The Illusion of Multimodal Informativeness under Missingness
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.16953](https://arxiv.org/abs/2505.16953)  
-**代码**: https://github.com/reAIM-Lab/ICYM2I  
+**代码**: [https://github.com/reAIM-Lab/ICYM2I](https://github.com/reAIM-Lab/ICYM2I)  
 **领域**: 多模态VLM / 机器学习理论  
 **关键词**: 多模态缺失, 分布偏移, 逆概率加权, 信息分解, 模态价值评估
 
@@ -140,10 +140,10 @@ Observed 方法在 XOR 中严重高估 X2 的 AUC（0.80 vs 真实 0.49）和 Un
 
 ## 相关论文
 
-- [\[CVPR 2026\] BALM: A Model-Agnostic Framework for Balanced Multimodal Learning under Imbalanced Missing Rates](../../CVPR2026/multimodal_vlm/balm_a_model-agnostic_framework_for_balanced_multimodal_learning_under_imbalance.md)
 - [\[CVPR 2025\] COUNTS: Benchmarking Object Detectors and Multimodal Large Language Models under Distribution Shifts](../../CVPR2025/multimodal_vlm/counts_benchmarking_object_detectors_and_multimodal_large_language_models_under_.md)
+- [\[CVPR 2026\] Purify-then-Align: Towards Robust Human Sensing under Modality Missing with Knowledge Distillation from Noisy Multimodal Teacher](../../CVPR2026/multimodal_vlm/purify-then-align_towards_robust_human_sensing_under_modality_missing_with_knowl.md)
+- [\[ACL 2026\] When Vision-Language Models Judge Without Seeing: Exposing Informativeness Bias](../../ACL2026/multimodal_vlm/when_vision-language_models_judge_without_seeing_exposing_informativeness_bias.md)
+- [\[CVPR 2026\] BALM: A Model-Agnostic Framework for Balanced Multimodal Learning under Imbalanced Missing Rates](../../CVPR2026/multimodal_vlm/balm_a_model-agnostic_framework_for_balanced_multimodal_learning_under_imbalance.md)
 - [\[AAAI 2026\] Rethinking Visual Token Reduction in LVLMs under Cross-Modal Misalignment](../../AAAI2026/multimodal_vlm/rethinking_visual_token_reduction_in_lvlms_under_cross-modal_misalignment.md)
-- [\[NeurIPS 2025\] The Illusion of Progress? A Critical Look at Test-Time Adaptation for Vision-Language Models](../../NeurIPS2025/multimodal_vlm/the_illusion_of_progress_a_critical_look_at_testtime_adaptat.md)
-- [\[ICCV 2025\] Mastering Collaborative Multi-modal Data Selection: A Focus on Informativeness, Uniqueness, and Representativeness](../../ICCV2025/multimodal_vlm/mastering_collaborative_multi-modal_data_selection_a_focus_on_informativeness_un.md)
 
 <!-- RELATED:END -->

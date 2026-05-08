@@ -21,7 +21,7 @@ tags:
 
 **代码**: 无
 
-**领域**: 算法博弈论 / 机制设计
+**领域**: AI安全
 
 **关键词**: 设施选址, 学习增强算法, 嫉妒比, 公平性, 机制设计
 
@@ -178,7 +178,7 @@ $$\text{Envy Ratio} = \max_{i,j} \frac{u_i}{u_j}$$
 - [\[AAAI 2026\] Minimizing Inequity in Facility Location Games](../../AAAI2026/ai_safety/minimizing_inequity_in_facility_location_games.md)
 - [\[NeurIPS 2025\] FairContrast: Enhancing Fairness through Contrastive Learning and Customized Augmentation](faircontrast_enhancing_fairness_through_contrastive_learning_and_customized_augm.md)
 - [\[NeurIPS 2025\] Mitigating Disparate Impact of Differentially Private Learning through Bounded Adaptive Clipping](mitigating_disparate_impact_of_differentially_private_learning_through_bounded_a.md)
-- [\[NeurIPS 2025\] Trans-EnV: A Framework for Evaluating the Linguistic Robustness of LLMs Against English Varieties](trans-env_a_framework_for_evaluating_the_linguistic_robustness_of_llms_against_e.md)
+- [\[NeurIPS 2025\] Fair Minimum Labeling: Efficient Temporal Network Activations for Reachability and Equity](fair_minimum_labeling_efficient_temporal_network_activations_for_reachability_an.md)
 - [\[NeurIPS 2025\] Causally Reliable Concept Bottleneck Models](causally_reliable_concept_bottleneck_models.md)
 
 <!-- RELATED:END -->

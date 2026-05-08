@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Semantic Satellite Communications for Synchronized Audiovisual Reconstruction
 description: >-
-  [CVPR 2026][卫星通信] 本文提出一种自适应多模态语义卫星传输系统，通过双流生成架构（视频驱动音频 / 音频驱动视频）灵活切换传输优先级，结合动态知识库更新机制和LLM智能体自适应决策，在严苛带宽约束下实现高保真视听同步重建。
+  [CVPR 2026][视频生成] 本文提出一种自适应多模态语义卫星传输系统，通过双流生成架构（视频驱动音频 / 音频驱动视频）灵活切换传输优先级，结合动态知识库更新机制和LLM智能体自适应决策，在严苛带宽约束下实现高保真视听同步重建。
 tags:
   - CVPR 2026
-  - 卫星通信
+  - 视频生成
   - 语义传输
   - 视听同步
   - 跨模态生成
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.10791](https://arxiv.org/abs/2603.10791)  
 **代码**: 无  
-**领域**: 遥感 / 语义通信  
+**领域**: 视频生成  
 **关键词**: 卫星通信, 语义传输, 视听同步, 跨模态生成, LLM智能体
 
 ## 一句话总结
@@ -120,9 +120,9 @@ V2A-L2在12dB下AKD=5.8，接近L3的4.8，但带宽仅为L3的约50%。
 ## 相关论文
 
 - [\[CVPR 2026\] U-Mind: A Unified Framework for Real-Time Multimodal Interaction with Audiovisual Generation](u-mind_a_unified_framework_for_real-time_multimodal_interaction_with_audiovisual.md)
-- [\[CVPR 2026\] SWIFT: Sliding Window Reconstruction for Few-Shot Training-Free Generated Video Attribution](swift_sliding_window_reconstruction_for_few-shot_training-free_generated_video_a.md)
+- [\[CVPR 2026\] DriveLaW: Unifying Planning and Video Generation in a Latent Driving World](drivelaw_unifying_planning_and_video_generation_in_a_latent_driving_world.md)
+- [\[CVPR 2026\] LightMover: Generative Light Movement with Color and Intensity Controls](lightmover_generative_light_movement_with_color_and_intensity_controls.md)
+- [\[CVPR 2026\] LAMP: Language-Assisted Motion Planning for Controllable Video Generation](lamp_language-assisted_motion_planning_for_controllable_video_generation.md)
 - [\[CVPR 2026\] FastLightGen: Fast and Light Video Generation with Fewer Steps and Parameters](fastlightgen_fast_and_light_video_generation_with_fewer_steps_and_parameters.md)
-- [\[CVPR 2026\] DreamShot: Personalized Storyboard Synthesis with Video Diffusion Prior](dreamshot_storyboard_synthesis.md)
-- [\[CVPR 2026\] NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos](neoverse_enhancing_4d_world_model_with_in-the-wild_monocular_videos.md)
 
 <!-- RELATED:END -->

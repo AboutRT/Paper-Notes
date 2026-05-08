@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Revisit Self-Debugging with Self-Generated Tests for Code Generation
 description: >-
-  [ACL 2025][code generation] 系统性地研究了使用 LLM 自生成测试进行自调试（self-debugging）的效果，发现基于后执行信息的自调试在基础编程问题上反而降低性能（因自生成测试偏差），但基于执行中间状态（in-execution）的自调试可有效规避该偏差，在基础和竞赛题上均有提升。
+  [ACL 2025][代码智能] 系统性地研究了使用 LLM 自生成测试进行自调试（self-debugging）的效果，发现基于后执行信息的自调试在基础编程问题上反而降低性能（因自生成测试偏差），但基于执行中间状态（in-execution）的自调试可有效规避该偏差，在基础和竞赛题上均有提升。
 tags:
   - ACL 2025
-  - code generation
+  - 代码智能
   - self-debugging
   - self-generated tests
   - execution feedback
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 2501.12793  
 **代码**: -  
-**领域**: nlp_generation  
+**领域**: 代码智能  
 **关键词**: code generation, self-debugging, self-generated tests, execution feedback, LLM  
 
 ## 一句话总结
@@ -154,9 +154,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] CodeDPO: Aligning Code Models with Self Generated and Verified Source Code](codedpo_code_alignment.md)
-- [\[NeurIPS 2025\] A Self-Improving Coding Agent](../../NeurIPS2025/code_intelligence/a_selfimproving_coding_agent.md)
+- [\[ACL 2025\] STaR-SQL: Self-Taught Reasoner for Text-to-SQL](star-sql_self-taught_reasoner_for_text-to-sql.md)
 - [\[ACL 2025\] MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios](mldebugging_towards_benchmarking_code_debugging_across_multi-library_scenarios.md)
-- [\[ACL 2025\] Personality-Guided Code Generation Using Large Language Models](personality_guided_code_gen.md)
+- [\[NeurIPS 2025\] A Self-Improving Coding Agent](../../NeurIPS2025/code_intelligence/a_selfimproving_coding_agent.md)
 - [\[CVPR 2026\] MM-ReCoder: Advancing Chart-to-Code Generation with Reinforcement Learning and Self-Correction](../../CVPR2026/code_intelligence/mm-recoder_advancing_chart-to-code_generation_with_reinforcement_learning_and_se.md)
 
 <!-- RELATED:END -->

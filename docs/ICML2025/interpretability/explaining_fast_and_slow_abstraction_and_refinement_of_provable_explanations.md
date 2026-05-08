@@ -124,6 +124,6 @@ Pipeline 分为三个阶段：
 - [\[ICML 2025\] Evaluating Neuron Explanations: A Unified Framework with Sanity Checks](evaluating_neuron_explanations_a_unified_framework_with_sanity_checks.md)
 - [\[NeurIPS 2025\] Curvature Tuning: Provable Training-free Model Steering From a Single Parameter](../../NeurIPS2025/interpretability/curvature_tuning_provable_training-free_model_steering_from_a_single_parameter.md)
 - [\[ICLR 2026\] Provably Explaining Neural Additive Models](../../ICLR2026/interpretability/provably_explaining_neural_additive_models.md)
-- [\[NeurIPS 2025\] Explaining Similarity in Vision-Language Encoders with Weighted Banzhaf Interactions](../../NeurIPS2025/interpretability/explaining_similarity_in_vision-language_encoders_with_weighted_banzhaf_interact.md)
+- [\[NeurIPS 2025\] FaCT: Faithful Concept Traces for Explaining Neural Network Decisions](../../NeurIPS2025/interpretability/fact_faithful_concept_traces_for_explaining_neural_network_decisions.md)
 
 <!-- RELATED:END -->

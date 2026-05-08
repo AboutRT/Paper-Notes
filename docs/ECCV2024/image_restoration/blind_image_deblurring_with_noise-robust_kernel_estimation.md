@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/csleemooo/BD_noise_robust_kernel_estimation  
+**代码**: [https://github.com/csleemooo/BD_noise_robust_kernel_estimation](https://github.com/csleemooo/BD_noise_robust_kernel_estimation)  
 **领域**: 图像复原 / 图像去模糊  
 **关键词**: 盲去模糊, 噪声鲁棒, 核估计, 深度图像先验, 逆问题
 
@@ -139,7 +139,7 @@ tags:
 - [\[ICCV 2025\] Blind Noisy Image Deblurring Using Residual Guidance Strategy](../../ICCV2025/image_restoration/blind_noisy_image_deblurring_using_residual_guidance_strateg.md)
 - [\[CVPR 2026\] Learning to Translate Noise for Robust Image Denoising](../../CVPR2026/image_restoration/learning_to_translate_noise_for_robust_image_denoising.md)
 - [\[ECCV 2024\] Domain-Adaptive Video Deblurring via Test-Time Blurring](domain-adaptive_video_deblurring_via_test-time_blurring.md)
-- [\[ECCV 2024\] EDformer: Transformer-Based Event Denoising Across Varied Noise Levels](edformer_transformer-based_event_denoising_across_varied_noise_levels.md)
 - [\[ECCV 2024\] Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](towards_real-world_event-guided_low-light_video_enhancement_and_deblurring.md)
+- [\[ECCV 2024\] EDformer: Transformer-Based Event Denoising Across Varied Noise Levels](edformer_transformer-based_event_denoising_across_varied_noise_levels.md)
 
 <!-- RELATED:END -->

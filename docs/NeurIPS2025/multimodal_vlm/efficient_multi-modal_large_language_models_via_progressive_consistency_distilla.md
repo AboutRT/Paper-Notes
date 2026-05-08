@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 多模态
-  - 多模态LLM
+  - 多模态VLM
   - 视觉token压缩
   - 渐进式蒸馏
   - 一致性蒸馏
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.00515](https://arxiv.org/abs/2510.00515)  
 **代码**: [有](https://github.com/ZichenWen1/EPIC)  
-**领域**: 多模态大语言模型 / 模型效率  
+**领域**: 多模态VLM  
 **关键词**: 多模态LLM, 视觉token压缩, 渐进式蒸馏, 一致性蒸馏, 推理效率
 
 ## 一句话总结
@@ -187,10 +187,10 @@ KV缓存减少 **88.9%**，FLOPs减少 **83.9%**，实际加速约 **1.6×**。
 
 ## 相关论文
 
-- [\[ICCV 2025\] Large Multi-modal Models Can Interpret Features in Large Multi-modal Models](../../ICCV2025/multimodal_vlm/large_multi-modal_models_can_interpret_features_in_large_multi-modal_models.md)
 - [\[ICCV 2025\] FOLDER: Accelerating Multi-modal Large Language Models with Enhanced Performance](../../ICCV2025/multimodal_vlm/folder_accelerating_multi-modal_large_language_models_with_enhanced_performance.md)
-- [\[NeurIPS 2025\] VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models](vamp_variational_multi-modal_prompt_learning_for_vision-language_models.md)
+- [\[ICCV 2025\] Large Multi-modal Models Can Interpret Features in Large Multi-modal Models](../../ICCV2025/multimodal_vlm/large_multi-modal_models_can_interpret_features_in_large_multi-modal_models.md)
 - [\[NeurIPS 2025\] SpatialTraceGen: High-Fidelity Traces for Efficient VLM Spatial Reasoning Distillation](spatialtracegen_high-fidelity_traces_for_efficient_vlm_spatial_reasoning_distill.md)
-- [\[CVPR 2025\] A Two-Stage Progressive Pre-training using Multi-Modal Contrastive Masked Autoencoders](../../CVPR2025/multimodal_vlm/multi-modal_contrastive_masked_autoencoders_a_two-stage_progressive_pre-training.md)
+- [\[NeurIPS 2025\] DanmakuTPPBench: A Multi-modal Benchmark for Temporal Point Process Modeling and Understanding](danmakutppbench_a_multimodal_benchmark_for_temporal_point_pr.md)
+- [\[NeurIPS 2025\] VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models](vamp_variational_multi-modal_prompt_learning_for_vision-language_models.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models
 description: >-
-  [ACL 2026][科学可行性评估] 构建控制知识框架系统研究LLM在科学可行性评估中如何利用实验描述和结果证据，发现提供结果证据比实验描述更可靠，部分实验信息常导致性能低于仅用参数知识的基线，揭示了LLM推理的脆弱性。
+  [ACL 2026][可解释性] 构建控制知识框架系统研究LLM在科学可行性评估中如何利用实验描述和结果证据，发现提供结果证据比实验描述更可靠，部分实验信息常导致性能低于仅用参数知识的基线，揭示了LLM推理的脆弱性。
 tags:
   - ACL 2026
-  - 科学可行性评估
+  - 可解释性
   - 控制知识框架
   - 证据鲁棒性
   - 实验vs结果
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.18786](https://arxiv.org/abs/2604.18786)  
-**代码**: https://github.com/mohammadi-ali/scify  
-**领域**: 科学推理 / LLM评估  
+**代码**: [https://github.com/mohammadi-ali/scify](https://github.com/mohammadi-ali/scify)  
+**领域**: 可解释性  
 **关键词**: 科学可行性评估, 控制知识框架, 证据鲁棒性, 实验vs结果, LLM推理
 
 ## 一句话总结
@@ -131,10 +131,10 @@ GPT-5.1在MoF数据集上的表现：
 
 ## 相关论文
 
-- [\[ACL 2026\] Tracing Relational Knowledge Recall in Large Language Models](tracing_relational_knowledge_recall_in_large_language_models.md)
 - [\[ACL 2026\] Towards Intrinsic Interpretability of Large Language Models: A Survey of Design Principles and Architectures](towards_intrinsic_interpretability_of_large_language_modelsa_survey_of_design_pr.md)
+- [\[ACL 2026\] Tracing Relational Knowledge Recall in Large Language Models](tracing_relational_knowledge_recall_in_large_language_models.md)
 - [\[ACL 2026\] Interpretable Traces, Unexpected Outcomes: Investigating the Disconnect in Trace-Based Knowledge Distillation](interpretable_traces_unexpected_outcomes_investigating_the_disconnect_in_trace-b.md)
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](../../NeurIPS2025/interpretability/the_trilemma_of_truth_in_large_language_models.md)
-- [\[ICLR 2026\] Universal Properties of Activation Sparsity in Modern Large Language Models](../../ICLR2026/interpretability/universal_properties_of_activation_sparsity_in_modern_large_language_models.md)
+- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](../../NeurIPS2025/interpretability/table_as_a_modality_for_large_language_models.md)
 
 <!-- RELATED:END -->

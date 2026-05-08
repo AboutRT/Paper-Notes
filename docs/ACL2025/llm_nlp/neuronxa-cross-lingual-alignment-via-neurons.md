@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.14900](https://arxiv.org/abs/2507.14900)  
 **代码**: 无  
-**领域**: 多语言机器翻译  
+**领域**: LLM/NLP  
 **关键词**: 跨语言对齐, 神经元状态, 多语言评估, FFN分析, 语义检索
 
 ## 一句话总结
@@ -127,8 +127,8 @@ NeuronXA 量化 FFN 中每个神经元对平行句对的激活一致性，通过
 
 ## 相关论文
 
-- [\[ACL 2025\] Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs](can_llms_interpret_and_leverage_structured_linguistic_representations_a_case_stu.md)
 - [\[ACL 2025\] Cross-Modal Alignment for LLM-Enhanced Spoken Language Understanding](cross-modal_alignment_for_llm-enhanced_spoken_language_understanding.md)
+- [\[ACL 2025\] Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs](can_llms_interpret_and_leverage_structured_linguistic_representations_a_case_stu.md)
 - [\[ACL 2025\] DeAL: Decoding-time Alignment for Large Language Models](deal_decoding_time_alignment.md)
 - [\[ACL 2025\] Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](salience_sparse_fine_tuning.md)
 - [\[ACL 2025\] Binary Classifier Optimization for Large Language Model Alignment](bco_binary_classifier_alignment.md)

@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 过程奖励模型
-  - 强化学习
+  - 信息检索
   - Self-PRM
   - 推理验证
   - 内省式评估
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.11227](https://arxiv.org/abs/2505.11227)  
 **代码**: 无（使用公开模型 DeepSeek-R1、QwQ-32B）  
-**领域**: LLM推理 / 强化学习  
+**领域**: 信息检索  
 **关键词**: 过程奖励模型, 强化学习, Self-PRM, 推理验证, 内省式评估
 
 ## 一句话总结
@@ -136,10 +136,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] SymRTLO: Enhancing RTL Code Optimization with LLMs and Neuron-Inspired Symbolic Reasoning](symrtlo_enhancing_rtl_code_optimization_with_llms_and_neuron-inspired_symbolic_r.md)
 - [\[ICLR 2026\] Judge's Verdict: A Comprehensive Analysis of LLM Judge Capability Through Human Agreement](../../ICLR2026/information_retrieval/judges_verdict_a_comprehensive_analysis_of_llm_judge_capability_through_human_ag.md)
 - [\[ACL 2025\] Semantic Outlier Removal with Embedding Models and LLMs](../../ACL2025/information_retrieval/semantic_outlier_removal_with_embedding_models_and_llms.md)
 - [\[ACL 2025\] Automatic Benchmark Generation from Scientific Papers via Retrieval-Augmented LLMs](../../ACL2025/information_retrieval/automatic_benchmark_generation_from_scientific_papers_via_retrieval-augmented_ll.md)
 - [\[ACL 2025\] DRAG: Distilling RAG for SLMs from LLMs to Transfer Knowledge and Mitigate Hallucination](../../ACL2025/information_retrieval/drag_distilling_rag_slm.md)
-- [\[ACL 2025\] Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening](../../ACL2025/information_retrieval/llm_psychological_assessor.md)
 
 <!-- RELATED:END -->

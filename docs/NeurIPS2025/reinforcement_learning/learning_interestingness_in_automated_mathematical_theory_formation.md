@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.14778](https://arxiv.org/abs/2511.14778)  
-**代码**: https://github.com/trishullab/Fermat (有)  
+**代码**: [https://github.com/trishullab/Fermat](https://github.com/trishullab/Fermat)  
 **领域**: 强化学习 / 自动数学发现  
 **关键词**: 自动理论形成, 兴趣度学习, 强化学习, 进化程序合成, LLM 驱动搜索
 
@@ -142,6 +142,6 @@ EvoAbstract 和 FunSearch 在所有起始配置上显著超越所有基线，其
 - [\[NeurIPS 2025\] A Theory of Multi-Agent Generative Flow Networks](a_theory_of_multi-agent_generative_flow_networks.md)
 - [\[NeurIPS 2025\] The Physical Basis of Prediction: World Model Formation in Neural Organoids via an LLM-Generated Curriculum](the_physical_basis_of_prediction_world_model_formation_in_neural_organoids_via_a.md)
 - [\[AAAI 2026\] MathSmith: Towards Extremely Hard Mathematical Reasoning by Forging Synthetic Problems with a Reinforced Policy](../../AAAI2026/reinforcement_learning/mathsmith_towards_extremely_hard_mathematical_reasoning_by_forging_synthetic_pro.md)
-- [\[ACL 2026\] Understanding Generalization in Role-Playing Models via Information Theory](../../ACL2026/reinforcement_learning/understanding_generalization_in_role-playing_models_via_information_theory.md)
+- [\[ICLR 2026\] ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning](../../ICLR2026/reinforcement_learning/arm-fm_automated_reward_machines_via_foundation_models_for_compositional_reinfor.md)
 
 <!-- RELATED:END -->

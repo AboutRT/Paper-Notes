@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 抽象话
   - 互联网亚文化语言
-  - LLM基准测试
+  - LLM评测
   - 中文网络用语
   - 跨文化理解
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.15841](https://arxiv.org/abs/2604.15841)  
 **代码**: [GitHub](https://github.com/csdq777/Mouse)  
-**领域**: LLM评估 / 文化语言学  
+**领域**: LLM评测  
 **关键词**: 抽象话, 互联网亚文化语言, LLM基准测试, 中文网络用语, 跨文化理解
 
 ## 一句话总结
@@ -120,7 +120,7 @@ tags:
 - [\[AAAI 2026\] Beyond Accuracy: A Cognitive Load Framework for Mapping the Capability Boundaries of Tool-use Agents](../../AAAI2026/llm_evaluation/beyond_accuracy_a_cognitive_load_framework_for_mapping_the_c.md)
 - [\[ACL 2026\] Capabilities and Evaluation Biases of Large Language Models in Classical Chinese Poetry Generation: A Case Study on Tang Poetry](capabilities_and_evaluation_biases_of_large_language_models_in_classical_chinese.md)
 - [\[ACL 2026\] LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases](lexrel_benchmarking_legal_relation_extraction_for_chinese_civil_cases.md)
-- [\[NeurIPS 2025\] EvaLearn: Quantifying the Learning Capability and Efficiency of LLMs via Sequential Problem Solving](../../NeurIPS2025/llm_evaluation/evalearn_quantifying_the_learning_capability_and_efficiency_of_llms_via_sequenti.md)
 - [\[ACL 2026\] Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks](enhancing_linguistic_competence_of_language_models_through_pre-training_with_lan.md)
+- [\[ACL 2026\] Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues](are_they_lovers_or_friends_evaluating_llms39_social_reasoning_in_english_and_kor.md)
 
 <!-- RELATED:END -->

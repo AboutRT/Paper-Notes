@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - 数据高效预训练
+  - 多模态VLM
   - 婴儿学习启发
   - 视觉语言模型
   - 发展心理学
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.09426](https://arxiv.org/abs/2504.09426)  
-**代码**: https://github.com/shawnking98/BabyVLM (项目主页: shawnking98.github.io/BabyVLM)  
-**领域**: 多模态视觉语言模型  
+**代码**: [https://github.com/shawnking98/BabyVLM](https://github.com/shawnking98/BabyVLM) (项目主页: shawnking98.github.io/BabyVLM)  
+**领域**: 多模态VLM  
 **关键词**: 数据高效预训练, 婴儿学习启发, 视觉语言模型, 发展心理学, 合成数据
 
 ## 一句话总结
@@ -129,9 +129,9 @@ BabyLLaVA沿用LLaVA的标准训练流程，在编译的发展数据上训练。
 ## 相关论文
 
 - [\[NeurIPS 2025\] AdaLRS: Loss-Guided Adaptive Learning Rate Search for Efficient Foundation Model Pretraining](../../NeurIPS2025/multimodal_vlm/adalrs_lossguided_adaptive_learning_rate_search_for_efficien.md)
-- [\[ICCV 2025\] DASH: Detection and Assessment of Systematic Hallucinations of VLMs](dash_detection_and_assessment_of_systematic_hallucinations_of_vlms.md)
-- [\[CVPR 2025\] Context-Aware Multimodal Pretraining](../../CVPR2025/multimodal_vlm/context-aware_multimodal_pretraining.md)
 - [\[NeurIPS 2025\] Learning Shared Representations from Unpaired Data](../../NeurIPS2025/multimodal_vlm/learning_shared_representations_from_unpaired_data.md)
-- [\[ICCV 2025\] GTA-CLIP: Generate, Transduct, Adapt — Iterative Transduction with VLMs](generate_transduct_adapt_iterative_transduction_with_vlms.md)
+- [\[CVPR 2025\] Context-Aware Multimodal Pretraining](../../CVPR2025/multimodal_vlm/context-aware_multimodal_pretraining.md)
+- [\[ICCV 2025\] LATTE: Collaborative Test-Time Adaptation of Vision-Language Models in Federated Learning](latte_collaborative_test-time_adaptation_of_vision-language_models_in_federated_.md)
+- [\[ICCV 2025\] Evading Data Provenance in Deep Neural Networks](evading_data_provenance_in_deep_neural_networks.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2501.08295](https://arxiv.org/abs/2501.08295)  
-**代码**: https://layeranimate.github.io  
-**领域**: segmentation / 动画生成  
+**代码**: [https://layeranimate.github.io](https://layeranimate.github.io)  
+**领域**: 图像分割  
 **关键词**: 动画视频生成, 图层控制, 视频扩散模型, 数据策划, ControlNet
 
 ## 一句话总结

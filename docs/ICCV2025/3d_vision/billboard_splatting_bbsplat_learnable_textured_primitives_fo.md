@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.08508](https://arxiv.org/abs/2411.08508)  
-**代码**: [GitHub](https://github.com/david-svitov/BBSplat) (有)  
+**代码**: [GitHub](https://github.com/david-svitov/BBSplat)  
 **领域**: 3D视觉 / 新视角合成 / 3D场景表示  
 **关键词**: Gaussian Splatting, 纹理化基元, 新视角合成, 模型压缩, 网格提取  
 

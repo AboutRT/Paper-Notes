@@ -15,7 +15,7 @@ tags:
 # Context Augmented Token-Level Post-Editing for Human Interpreting
 
 **会议**: ACL 2025  
-**领域**: 文本生成  
+**领域**: 多语言翻译  
 **关键词**: 口译后编辑、上下文增强、token级编辑、同声传译、自动纠错  
 **代码**: 无
 

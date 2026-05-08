@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2510.01399](https://arxiv.org/abs/2510.01399)  
-**代码**: https://qualcomm-ai-research.github.io/disco/  
+**代码**: [https://qualcomm-ai-research.github.io/disco/](https://qualcomm-ai-research.github.io/disco/)  
 **领域**: 扩散模型  
 **关键词**: 身份多样性, 多人图像生成, 强化学习, GRPO, 文本到图像
 

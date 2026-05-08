@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.21033](https://arxiv.org/abs/2505.21033)  
-**代码**: https://github.com/ElPlaguister/Def-DTS (有)  
-**领域**: NLP理解 / 对话分析  
+**代码**: [https://github.com/ElPlaguister/Def-DTS](https://github.com/ElPlaguister/Def-DTS)  
+**领域**: 图像分割  
 **关键词**: 对话话题分割, 演绎推理, 意图分类, LLM Prompting, 无监督
 
 ## 一句话总结
@@ -128,8 +128,8 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Aligning Spoken Dialogue Models from User Interactions](../../ICML2025/segmentation/aligning_spoken_dialogue_models_from_user_interactions.md)
-- [\[ACL 2025\] InstructPart: Task-Oriented Part Segmentation with Instruction Reasoning](instructpart_task-oriented_part_segmentation_with_instruction_reasoning.md)
 - [\[ICCV 2025\] Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation](../../ICCV2025/segmentation/exploiting_domain_properties_in_language-driven_domain_generalization_for_semant.md)
+- [\[ACL 2025\] InstructPart: Task-Oriented Part Segmentation with Instruction Reasoning](instructpart_task-oriented_part_segmentation_with_instruction_reasoning.md)
 - [\[ACL 2025\] Pixel-Level Reasoning Segmentation via Multi-turn Conversations](pixel-level_reasoning_segmentation_via_multi-turn_conversations.md)
 - [\[NeurIPS 2025\] COS3D: Collaborative Open-Vocabulary 3D Segmentation](../../NeurIPS2025/segmentation/cos3d_collaborative_open-vocabulary_3d_segmentation.md)
 

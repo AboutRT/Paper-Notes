@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.21475](https://arxiv.org/abs/2601.21475)  
 **代码**: 无  
-**领域**: 优化 / 元学习  
+**领域**: 遥感  
 **关键词**: 黑盒优化, 元学习, 进化算法, 自适应参数学习, 零样本优化  
 
 ## 一句话总结
@@ -135,9 +135,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning](../../CVPR2025/remote_sensing/meta-learning_hyperparameters_for_parameter_efficient_fine-tuning.md)
-- [\[ICLR 2026\] Measuring the Intrinsic Dimension of Earth Representations](measuring_the_intrinsic_dimension_of_earth_representations.md)
 - [\[ICLR 2026\] TAMMs: Change Understanding and Forecasting in Satellite Image Time Series with Temporal-Aware Multimodal Models](tamms_change_understanding_and_forecasting_in_satellite_image_time_series_with_t.md)
+- [\[ICLR 2026\] Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents](earth-agent_unlocking_the_full_landscape_of_earth_observation_with_agents.md)
 - [\[ICLR 2026\] Spectral Gaps and Spatial Priors: Studying Hyperspectral Downstream Adaptation Using TerraMind](spectral_gaps_and_spatial_priors_studying_hyperspectral_downstream_adaptation_us.md)
-- [\[ICLR 2026\] AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild](autofly_vision-language-action_model_for_uav_autonomous_navigation_in_the_wild.md)
+- [\[ICLR 2026\] Measuring the Intrinsic Dimension of Earth Representations](measuring_the_intrinsic_dimension_of_earth_representations.md)
 
 <!-- RELATED:END -->

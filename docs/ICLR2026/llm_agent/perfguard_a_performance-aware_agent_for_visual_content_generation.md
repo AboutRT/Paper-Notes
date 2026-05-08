@@ -21,7 +21,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.22571](https://arxiv.org/abs/2601.22571)  
 **代码**: [GitHub](https://github.com/FelixChan9527/PerfGuard)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: visual content generation, agent, tool selection, performance-aware, AIGC, 偏好优化, 图像生成, 图像编辑
 
 ## 一句话总结
@@ -203,6 +203,6 @@ PASM 贡献最大（Color +3.42%, Texture +5.7%），APU 进一步精调（Compl
 - [\[ICLR 2026\] AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](agentsynth_scalable_task_generation_for_generalist_computer-use_agents.md)
 - [\[ICLR 2026\] Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization](exploratory_memory-augmented_llm_agent_via_hybrid_on-_and_off-policy_optimizatio.md)
 - [\[ICLR 2026\] HAMLET: A Hierarchical and Adaptive Multi-Agent Framework for Live Embodied Theatre](hamlet_a_hierarchical_and_adaptive_multi-agent_framework_for_live_embodied_theat.md)
-- [\[ICLR 2026\] Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents](your_agent_may_misevolve_emergent_risks_in_self-evolving_llm_agents.md)
+- [\[ICLR 2026\] M²-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](m2-miner_multi-agent_enhanced_mcts_for_mobile_gui_agent_data_mining.md)
 
 <!-- RELATED:END -->

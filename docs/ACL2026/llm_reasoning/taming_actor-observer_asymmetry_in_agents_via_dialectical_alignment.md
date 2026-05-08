@@ -14,7 +14,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.19548](https://arxiv.org/abs/2604.19548)  
 **代码**: [https://unikcc.github.io/ReTAS/](https://unikcc.github.io/ReTAS/)  
-**领域**: LLM Agent / 认知偏差  
+**领域**: LLM推理  
 **关键词**: 行动者-观察者不对称, 归因偏差, 辩证对齐, 多Agent协作, 自我反思
 
 ## 一句话总结

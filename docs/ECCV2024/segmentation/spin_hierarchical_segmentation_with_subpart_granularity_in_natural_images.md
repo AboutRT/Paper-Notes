@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.09686](https://arxiv.org/abs/2407.09686)  
-**代码**: https://joshmyersdean.github.io/spin/index.html (有，数据集公开)  
+**代码**: [https://joshmyersdean.github.io/spin/index.html](https://joshmyersdean.github.io/spin/index.html) (有，数据集公开)  
 **领域**: 分割  
 **关键词**: 层级分割, 子部件分割, 数据集基准, 评估指标, 细粒度视觉理解
 
@@ -152,10 +152,10 @@ SPIN 微调效果（General 类别提示）：
 
 ## 相关论文
 
+- [\[ECCV 2024\] Part2Object: Hierarchical Unsupervised 3D Instance Segmentation](part2object_hierarchical_unsupervised_3d_instance_segmentation.md)
 - [\[AAAI 2026\] Bridging Granularity Gaps: Hierarchical Semantic Learning for Cross-Domain Few-Shot Segmentation](../../AAAI2026/segmentation/bridging_granularity_gaps_hierarchical_semantic_learning_for_cross-domain_few-sh.md)
 - [\[ECCV 2024\] Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images](active_coarsetofine_segmentation_of_moveable_parts_from_real.md)
-- [\[ECCV 2024\] UDiffText: A Unified Framework for High-quality Text Synthesis in Arbitrary Images via Character-aware Diffusion Models](udifftext_a_unified_framework_for_high-quality_text_synthesis_in_arbitrary_image.md)
 - [\[CVPR 2025\] G2HFNet: GeoGran-Aware Hierarchical Feature Fusion Network for Salient Object Detection in Optical Remote Sensing Images](../../CVPR2025/segmentation/binwang2hfnet_geogran-aware_hierarchical_feature_fusion_network_for_salient_obje.md)
-- [\[ECCV 2024\] VISA: Reasoning Video Object Segmentation via Large Language Models](visa_reasoning_video_object_segmentation_via_large_language_models.md)
+- [\[ECCV 2024\] Unleashing the Power of Prompt-driven Nucleus Instance Segmentation](unleashing_the_power_of_prompt-driven_nucleus_instance_segmentation.md)
 
 <!-- RELATED:END -->

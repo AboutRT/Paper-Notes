@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ViLU: Learning Vision-Language Uncertainties for Failure Prediction
 description: >-
-  [ICCV2025][不确定性量化] 提出 ViLU，一个针对 VLM 零样本预测的后验不确定性量化框架，通过交叉注意力融合视觉嵌入、预测文本嵌入和图像条件文本表示，构建不确定性感知的多模态表征，在 13 个分类数据集和大规模图文数据集上显著超越现有失败预测方法。
+  [ICCV2025][信息检索] 提出 ViLU，一个针对 VLM 零样本预测的后验不确定性量化框架，通过交叉注意力融合视觉嵌入、预测文本嵌入和图像条件文本表示，构建不确定性感知的多模态表征，在 13 个分类数据集和大规模图文数据集上显著超越现有失败预测方法。
 tags:
   - ICCV2025
-  - 不确定性量化
+  - 信息检索
   - 失败预测
   - VLM
   - 交叉注意力
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2507.07620](https://arxiv.org/abs/2507.07620)  
 **代码**: [GitHub](https://github.com/ViLU-uncertainty/ViLU)  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 不确定性量化, 失败预测, VLM, 交叉注意力, 后验估计  
 
 ## 一句话总结
@@ -166,9 +166,9 @@ ViLU 在 13 个数据集的平均 AUC 上超越所有方法（+8.2 vs LVU），F
 ## 相关论文
 
 - [\[CVPR 2025\] Joint Vision-Language Social Bias Removal for CLIP](../../CVPR2025/information_retrieval/joint_vision-language_social_bias_removal_for_clip.md)
-- [\[ICCV 2025\] Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation](aligning_information_capacity_between_vision_and_language_via_dense-to-sparse_fe.md)
 - [\[NeurIPS 2025\] Scaling Language-Centric Omnimodal Representation Learning](../../NeurIPS2025/information_retrieval/scaling_language-centric_omnimodal_representation_learning.md)
-- [\[ICCV 2025\] Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation for Image-Text Matching](aligning_information_capacity_between_vision_and_language_via_dense_to_sparse_feature_distillation.md)
+- [\[ICCV 2025\] Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation](aligning_information_capacity_between_vision_and_language_via_dense-to-sparse_fe.md)
 - [\[ICLR 2026\] Revela: Dense Retriever Learning via Language Modeling](../../ICLR2026/information_retrieval/revela_dense_retriever_learning_via_language_modeling.md)
+- [\[ECCV 2024\] ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling](../../ECCV2024/information_retrieval/artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md)
 
 <!-- RELATED:END -->

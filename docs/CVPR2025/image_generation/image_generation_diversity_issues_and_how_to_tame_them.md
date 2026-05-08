@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16171](https://arxiv.org/abs/2411.16171)  
-**代码**: https://github.com/MischaD/beyondfid  
+**代码**: [https://github.com/MischaD/beyondfid](https://github.com/MischaD/beyondfid)  
 **领域**: 扩散模型 / 图像生成评估  
 **关键词**: 生成多样性, 图像检索评分, 扩散模型评估, 多样性感知生成, 特征提取器评估
 

@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2508.01216](https://arxiv.org/abs/2508.01216)  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: LLM评测  
 **关键词**: Visual Floorplan Localization, Room Style Knowledge, Unsupervised Learning, Clustering Constraints, Bayesian Filtering  
 
 ## 一句话总结

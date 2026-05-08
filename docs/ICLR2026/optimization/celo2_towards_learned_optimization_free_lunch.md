@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.19142](https://arxiv.org/abs/2602.19142)  
 **代码**: [https://github.com/amoudgl/celo2](https://github.com/amoudgl/celo2)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 学习型优化器, 元学习, 元泛化, 归一化更新规则, AdamW替代
 
 ## 一句话总结
@@ -54,12 +54,12 @@ Celo2 是一个即插即用的 Optax 优化器变换，可以一行代码替换 
 
 1. **归一化学习更新（Normalized Learned Update）**:
    这是 Celo2 最核心的设计创新。先前的学习型优化器直接使用 MLP 的原始输出作为更新步，但 Celo2 对 MLP 输出进行 **RMS 归一化**：
-   $$\Delta\mathbf{p}_t = \frac{\text{MLP}(\mathbf{F})}{\text{RMS}(\text{MLP}(\mathbf{F}))}$$
+    $\Delta\mathbf{p}_t = \frac{\text{MLP}(\mathbf{F})}{\text{RMS}(\text{MLP}(\mathbf{F}))}$
    
    这一看似简单的改变带来了多重好处：
-   - 迫使 MLP 在元训练时学习**任务不变的更新方向**，而非与任务相关的原始步长
-   - 产生了与 AdamW 类似的训练动态（权重范数曲线一致，如 Figure 2 所示）
-   - 使得学习到的规则在部署到更大规模任务时不会出现梯度爆炸或消失
+    - 迫使 MLP 在元训练时学习**任务不变的更新方向**，而非与任务相关的原始步长
+    - 产生了与 AdamW 类似的训练动态（权重范数曲线一致，如 Figure 2 所示）
+    - 使得学习到的规则在部署到更大规模任务时不会出现梯度爆炸或消失
 
    作者也对比了其他归一化方案（滚动 RMS、带截断的归一化等），发现简单的逐步 RMS 归一化效果最好（Table 2）。
 
@@ -68,9 +68,9 @@ Celo2 是一个即插即用的 Optax 优化器变换，可以一行代码替换 
 
 3. **简单 MLP 架构**:
    Celo2 使用一个 2 层 MLP（8 个隐藏单元，ReLU 激活），总共不到 200 个参数。每个参数的输入特征包括：
-   - 3 个momentum 累积器（$\beta_1, \beta_2, \beta_3 = 0.9, 0.99, 0.999$）
-   - 1 个 RMS 梯度累积器（$\beta_4 = 0.95$）
-   - Adafactor 的行/列特征
+    - 3 个momentum 累积器（$\beta_1, \beta_2, \beta_3 = 0.9, 0.99, 0.999$）
+    - 1 个 RMS 梯度累积器（$\beta_4 = 0.95$）
+    - Adafactor 的行/列特征
    
    MLP 仅输出方向 $\mathbf{d}$（不输出幅度 $\mathbf{m}$），这是消融实验中的最优选择（Table 1e）。
 
@@ -192,7 +192,7 @@ VeLO 在所有 RL 任务上出现训练停滞（与 VeLO 原论文 Figure 11 一
 - [\[NeurIPS 2025\] Better NTK Conditioning: A Free Lunch from ReLU Nonlinear Activation in Wide Neural Networks](../../NeurIPS2025/optimization/better_ntk_conditioning_a_free_lunch_from_relu_nonlinear_activation_in_wide_neur.md)
 - [\[NeurIPS 2025\] Problem-Parameter-Free Decentralized Bilevel Optimization](../../NeurIPS2025/optimization/problem-parameter-free_decentralized_bilevel_optimization.md)
 - [\[NeurIPS 2025\] Covariances for Free: Exploiting Mean Distributions for Training-free Federated Learning](../../NeurIPS2025/optimization/covariances_for_free_exploiting_mean_distributions_for_training-free_federated_l.md)
-- [\[ICLR 2026\] RRNCO: Towards Real-World Routing with Neural Combinatorial Optimization](rrnco_towards_real-world_routing_with_neural_combinatorial_optimization.md)
 - [\[ICLR 2026\] Provable and Practical In-Context Policy Optimization for Self-Improvement](provable_and_practical_in-context_policy_optimization_for_self-improvement.md)
+- [\[ICLR 2026\] RRNCO: Towards Real-World Routing with Neural Combinatorial Optimization](rrnco_towards_real-world_routing_with_neural_combinatorial_optimization.md)
 
 <!-- RELATED:END -->

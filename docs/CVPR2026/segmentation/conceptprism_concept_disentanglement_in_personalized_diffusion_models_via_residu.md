@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.19575](https://arxiv.org/abs/2602.19575)  
 **代码**: 待确认  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 个性化扩散模型, 概念解耦, 残余token优化, Textual Inversion, LoRA, 对比学习
 
 ## 一句话总结

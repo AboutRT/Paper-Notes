@@ -150,7 +150,7 @@ D3-Human 的输入是一段包含运动中穿衣人物的短视频序列 $\{I_t 
 - [\[CVPR 2025\] X-Dyna: Expressive Dynamic Human Image Animation](x-dyna_expressive_dynamic_human_image_animation.md)
 - [\[CVPR 2025\] FATE: Full-head Gaussian Avatar with Textural Editing from Monocular Video](fate_full-head_gaussian_avatar_with_textural_editing_from_monocular_video.md)
 - [\[CVPR 2025\] SemGeoMo: Dynamic Contextual Human Motion Generation with Semantic and Geometric Guidance](semgeomo_dynamic_contextual_human_motion_generation_with_semantic_and_geometric_.md)
-- [\[CVPR 2025\] Human Motion Instruction Tuning](human_motion_instruction_tuning.md)
-- [\[CVPR 2025\] GaussianIP: Identity-Preserving Realistic 3D Human Generation via Human-Centric Diffusion Prior](gaussianip_identity-preserving_realistic_3d_human_generation_via_human-centric_d.md)
+- [\[ACL 2025\] TransBench: Breaking Barriers for Transferable Graphical User Interface Agents in Dynamic Digital Environments](../../ACL2025/human_understanding/transbench_breaking_barriers_for_transferable_graphical_user_interface_agents_in.md)
+- [\[ECCV 2024\] ReLoo: Reconstructing Humans Dressed in Loose Garments from Monocular Video in the Wild](../../ECCV2024/human_understanding/reloo_reconstructing_humans_dressed_in_loose_garments_from_monocular_video_in_th.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.05767](https://arxiv.org/abs/2504.05767)  
 **代码**: 无  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: 跨文档共指消解, 知识图谱, 实体链接, 图推理, 上下文嵌入
 
 ## 一句话总结
@@ -166,6 +166,6 @@ $$\mathbf{h}_i^{(t+1)} = \sum_{v_j \in \mathcal{N}(v_i)} \mathbf{W} \cdot \mathb
 - [\[ACL 2025\] Extending Complex Logical Queries on Uncertain Knowledge Graphs](extending_complex_logical_queries_uncertain_knowledge_graphs.md)
 - [\[ACL 2025\] SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation](simgrag_leveraging_similar_subgraphs_for_knowledge_graphs_driven_retrieval-augme.md)
 - [\[ACL 2025\] Can Knowledge Graphs Make Large Language Models More Trustworthy? An Empirical Study Over Open-ended Question Answering](kg_llm_trustworthy_qa.md)
-- [\[NeurIPS 2025\] Deliberation on Priors: Trustworthy Reasoning of Large Language Models on Knowledge Graphs](../../NeurIPS2025/graph_learning/deliberation_on_priors_trustworthy_reasoning_of_large_language_models_on_knowled.md)
+- [\[CVPR 2026\] Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs](../../CVPR2026/graph_learning/graph2eval_automatic_multimodal_task_generation_for_agents_via_knowledge_graphs.md)
 
 <!-- RELATED:END -->

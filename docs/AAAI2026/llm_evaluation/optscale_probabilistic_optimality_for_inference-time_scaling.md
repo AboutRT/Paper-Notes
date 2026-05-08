@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OptScale: Probabilistic Optimality for Inference-time Scaling
 description: >-
-  [AAAI 2026][推理时缩放] 提出概率最优框架 OptScale，通过建模验证器分数的概率分布推导出最优采样数量的理论下界，动态决定每个问题所需的最少采样次数，在保持推理准确率的同时大幅减少计算开销。
+  [AAAI 2026][LLM评测] 提出概率最优框架 OptScale，通过建模验证器分数的概率分布推导出最优采样数量的理论下界，动态决定每个问题所需的最少采样次数，在保持推理准确率的同时大幅减少计算开销。
 tags:
   - AAAI 2026
-  - 推理时缩放
+  - LLM评测
   - 并行采样
   - 概率最优
   - Best-of-N
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2506.22376](https://arxiv.org/abs/2506.22376)  
 **代码**: [GitHub](https://github.com/Albertwyk/OptScale)  
-**领域**: LLM推理优化  
+**领域**: LLM评测  
 **关键词**: 推理时缩放, 并行采样, 概率最优, Best-of-N, 计算效率
 
 ## 一句话总结
@@ -137,10 +137,10 @@ OptScale 在 AMC23 上达到了 100% 准确率，同时 token 消耗降低了约
 
 ## 相关论文
 
-- [\[AAAI 2026\] MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm](moetta_test-time_adaptation_under_mixed_distribution_shifts_with_moe-layernorm.md)
+- [\[ICLR 2026\] GuidedSampling: Steering LLMs Towards Diverse Candidate Solutions at Inference-Time](../../ICLR2026/llm_evaluation/guidedsampling_steering_llms_towards_diverse_candidate_solutions_at_inference-ti.md)
+- [\[ICML 2025\] Bounded Rationality for LLMs: Satisficing Alignment at Inference-Time](../../ICML2025/llm_evaluation/bounded_rationality_for_llms_satisficing_alignment_at_inference-time.md)
+- [\[AAAI 2026\] Test-time Diverse Reasoning by Riemannian Activation Steering](test-time_diverse_reasoning_by_riemannian_activation_steering.md)
 - [\[AAAI 2026\] Graph Out-of-Distribution Detection via Test-Time Calibration with Dual Dynamic Dictionaries](graph_out-of-distribution_detection_via_test-time_calibration_with_dual_dynamic_.md)
-- [\[ICML 2025\] On Temperature Scaling and Conformal Prediction of Deep Classifiers](../../ICML2025/llm_evaluation/on_temperature_scaling_and_conformal_prediction_of_deep_classifiers.md)
-- [\[ACL 2026\] Min-k Sampling: Decoupling Truncation from Temperature Scaling via Relative Logit Dynamics](../../ACL2026/llm_evaluation/min-k_sampling_decoupling_truncation_from_temperature_scaling_via_relative_logit.md)
-- [\[ACL 2026\] Subject-level Inference for Realistic Text Anonymization Evaluation](../../ACL2026/llm_evaluation/subject-level_inference_for_realistic_text_anonymization_evaluation.md)
+- [\[AAAI 2026\] Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution](think_how_your_teammates_think_active_inference_can_benefit_decentralized_execut.md)
 
 <!-- RELATED:END -->

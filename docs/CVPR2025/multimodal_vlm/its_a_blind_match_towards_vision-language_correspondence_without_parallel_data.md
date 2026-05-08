@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 无监督对齐
+  - 多模态VLM
   - 二次分配问题
   - 视觉-语言匹配
   - Platonic表示假说
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.24129](https://arxiv.org/abs/2503.24129)  
-**代码**: https://dominik-schnaus.github.io/itsamatch (有项目页)  
+**代码**: [https://dominik-schnaus.github.io/itsamatch](https://dominik-schnaus.github.io/itsamatch) (有项目页)  
 **领域**: 多模态VLM  
 **关键词**: 无监督对齐、二次分配问题、视觉-语言匹配、Platonic表示假说、Gromov-Wasserstein
 
@@ -130,9 +130,9 @@ Platonic表示假说指出：随着模型和数据规模的增长，不同模态
 ## 相关论文
 
 - [\[CVPR 2025\] Quantization without Tears](quantization_without_tears.md)
-- [\[CVPR 2025\] Words or Vision: Do Vision-Language Models Have Blind Faith in Text?](words_or_vision_do_vision-language_models_have_blind_faith_in_text.md)
 - [\[CVPR 2025\] Self-Supervised Spatial Correspondence Across Modalities](self-supervised_spatial_correspondence_across_modalities.md)
-- [\[CVPR 2025\] Stop Learning It All to Mitigate Visual Hallucination, Focus on the Hallucination Target](stop_learning_it_all_to_mitigate_visual_hallucination_focus_on_the_hallucination.md)
+- [\[CVPR 2025\] Words or Vision: Do Vision-Language Models Have Blind Faith in Text?](words_or_vision_do_vision-language_models_have_blind_faith_in_text.md)
 - [\[CVPR 2025\] Synthetic Data is an Elegant GIFT for Continual Vision-Language Models](synthetic_data_is_an_elegant_gift_for_continual_vision-language_models.md)
+- [\[CVPR 2025\] Stop Learning It All to Mitigate Visual Hallucination, Focus on the Hallucination Target](stop_learning_it_all_to_mitigate_visual_hallucination_focus_on_the_hallucination.md)
 
 <!-- RELATED:END -->

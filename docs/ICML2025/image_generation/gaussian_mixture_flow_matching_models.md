@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2504.05304](https://arxiv.org/abs/2504.05304)  
-**代码**: https://github.com/Hschen1995/GMFlow (有)  
+**代码**: [https://github.com/Hschen1995/GMFlow](https://github.com/Hschen1995/GMFlow)  
 **领域**: 流匹配 / 图像生成  
 **关键词**: 高斯混合模型, Flow Matching, 少步采样, 概率引导, CFG 过饱和修复
 

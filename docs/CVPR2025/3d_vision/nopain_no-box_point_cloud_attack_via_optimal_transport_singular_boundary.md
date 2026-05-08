@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.00063](https://arxiv.org/abs/2503.00063)  
-**代码**: https://github.com/cognaclee/nopain  
+**代码**: [https://github.com/cognaclee/nopain](https://github.com/cognaclee/nopain)  
 **领域**: 3D视觉  
 **关键词**: 点云对抗攻击、无盒攻击、最优传输、奇异边界、可迁移性
 

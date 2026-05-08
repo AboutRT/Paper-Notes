@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.09871](https://arxiv.org/abs/2506.09871)  
 **代码**: 无  
-**领域**: 因果推断 / 统计方法  
+**领域**: AI安全  
 **关键词**: weighted controlled direct effect, causal inference, mediation analysis, optimal adjustment, fairness
 
 ## 一句话总结
@@ -124,10 +124,10 @@ $$\text{WCDE}(a, a') = \sum_m [E[Y \mid do(A=a, M=m)] - E[Y \mid do(A=a', M=m)]]
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Probabilistic Reasoning with LLMs for K-Anonymity Estimation](probabilistic_reasoning_with_llms_for_k-anonymity_estimation.md)
 - [\[NeurIPS 2025\] Locally Optimal Private Sampling: Beyond the Global Minimax](locally_optimal_private_sampling_beyond_the_global_minimax.md)
 - [\[NeurIPS 2025\] Beyond Last-Click: An Optimal Mechanism for Ad Attribution](beyond_last-click_an_optimal_mechanism_for_ad_attribution.md)
-- [\[ICML 2025\] The Ripple Effect: On Unforeseen Complications of Backdoor Attacks](../../ICML2025/ai_safety/the_ripple_effect_on_unforeseen_complications_of_backdoor_attacks.md)
+- [\[NeurIPS 2025\] Nearly-Linear Time Private Hypothesis Selection with the Optimal Approximation Factor](nearly-linear_time_private_hypothesis_selection_with_the_optimal_approximation_f.md)
 - [\[NeurIPS 2025\] Differentially Private Bilevel Optimization: Efficient Algorithms with Near-Optimal Rates](differentially_private_bilevel_optimization_efficient_algorithms_with_near-optim.md)
+- [\[ICML 2025\] Collaborative Mean Estimation Among Heterogeneous Strategic Agents: Individual Rationality, Fairness, and Truthful Contribution](../../ICML2025/ai_safety/collaborative_mean_estimation_among_heterogeneous_strategic_agents_individual_ra.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - causal discovery
-  - LLM
+  - 因果推理
   - hybrid method
   - missing variable proposal
   - iterative framework
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2510.09217](https://arxiv.org/abs/2510.09217)  
-**代码**: https://github.com/WilliamsToTo/iris  
+**代码**: [https://github.com/WilliamsToTo/iris](https://github.com/WilliamsToTo/iris)  
 **机构**: Monash University, Microsoft Research India  
 **领域**: 因果推理  
 **关键词**: causal discovery, LLM, hybrid method, missing variable proposal, iterative framework, value extraction
@@ -151,10 +151,10 @@ IRIS（Iterative Retrieval and Integrated System for Real-Time Causal Discovery�
 
 ## 相关论文
 
-- [\[ICLR 2026\] Efficient Ensemble Conditional Independence Test Framework for Causal Discovery](../../ICLR2026/causal_inference/efficient_ensemble_conditional_independence_test_framework_for_causal_discovery.md)
 - [\[ACL 2025\] On the Reliability of Large Language Models for Causal Discovery](llm_causal_discovery_reliability.md)
+- [\[ICLR 2026\] Efficient Ensemble Conditional Independence Test Framework for Causal Discovery](../../ICLR2026/causal_inference/efficient_ensemble_conditional_independence_test_framework_for_causal_discovery.md)
 - [\[ACL 2025\] FitCF: A Framework for Automatic Feature Importance-guided Counterfactual Example Generation](fitcf_a_framework_for_automatic_feature_importance-guided_counterfactual_example.md)
 - [\[ICML 2025\] Causal Discovery of Latent Variables in Galactic Archaeology](../../ICML2025/causal_inference/causal_discovery_of_latent_variables_in_galactic_archaeology.md)
-- [\[ICML 2025\] Latent Variable Causal Discovery under Selection Bias](../../ICML2025/causal_inference/latent_variable_causal_discovery_under_selection_bias.md)
+- [\[ACL 2025\] Causal Graph based Event Reasoning using Semantic Relation Experts](causal_graph_based_event_reasoning_using_semantic_relation_experts.md)
 
 <!-- RELATED:END -->

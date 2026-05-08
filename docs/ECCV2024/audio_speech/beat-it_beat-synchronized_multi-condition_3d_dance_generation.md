@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 语音
-  - Dance Generation
+  - 音频语音
   - Beat Synchronization
   - 扩散模型
   - Keyframe Control
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.07554](https://arxiv.org/abs/2407.07554)  
 **代码**: [项目主页](https://zikaihuangscut.github.io/Beat-It/)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Dance Generation, Beat Synchronization, Multi-Condition Diffusion, Keyframe Control, 3D Motion
 
 ## 一句话总结
@@ -141,8 +141,8 @@ Beat-It 在 BAS 上比 EDGE 提升 0.426，在 KPD 上改善 0.553，节拍同�
 
 - [\[NeurIPS 2025\] MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation](../../NeurIPS2025/audio_speech/megadance_mixture-of-experts_architecture_for_genre-aware_3d_dance_generation.md)
 - [\[ICLR 2026\] SyncTrack: Rhythmic Stability and Synchronization in Multi-Track Music Generation](../../ICLR2026/audio_speech/synctrack_rhythmic_stability_and_synchronization_in_multi-track_music_generation.md)
-- [\[ICCV 2025\] How Would It Sound? Material-Controlled Multimodal Acoustic Profile Generation for Objects](../../ICCV2025/audio_speech/how_would_it_sound_material-controlled_multimodal_acoustic_profile_generation_fo.md)
-- [\[NeurIPS 2025\] LeVo: High-Quality Song Generation with Multi-Preference Alignment](../../NeurIPS2025/audio_speech/levo_high-quality_song_generation_with_multi-processing_refined_supervision.md)
 - [\[ECCV 2024\] Action2Sound: Ambient-Aware Generation of Action Sounds from Egocentric Videos](action2sound_ambientaware_generation_of_action_sounds_from_e.md)
+- [\[ECCV 2024\] Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation](listen_to_look_into_the_future_audio-visual_egocentric_gaze_anticipation.md)
+- [\[ECCV 2024\] Siamese Vision Transformers are Scalable Audio-Visual Learners](siamese_vision_transformers_are_scalable_audio-visual_learners.md)
 
 <!-- RELATED:END -->

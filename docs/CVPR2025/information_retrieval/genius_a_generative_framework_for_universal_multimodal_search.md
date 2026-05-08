@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 生成式检索
-  - 多模态搜索
+  - 信息检索
   - 模态解耦量化
   - 残差量化
   - 通用检索
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.19868](https://arxiv.org/abs/2503.19868)  
 **代码**: 无  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 生成式检索、多模态搜索、模态解耦量化、残差量化、通用检索
 
 ## 一句话总结
@@ -121,8 +121,8 @@ tags:
 
 - [\[NeurIPS 2025\] Generalized Contrastive Learning for Universal Multimodal Retrieval](../../NeurIPS2025/information_retrieval/generalized_contrastive_learning_for_universal_multimodal_re.md)
 - [\[ACL 2026\] From Relevance to Authority: Authority-aware Generative Retrieval in Web Search Engines](../../ACL2026/information_retrieval/from_relevance_to_authority_authority-aware_generative_retrieval_in_web_search_e.md)
-- [\[ECCV 2024\] OneRestore: A Universal Restoration Framework for Composite Degradation](../../ECCV2024/information_retrieval/onerestore_a_universal_restoration_framework_for_composite_degradation.md)
 - [\[CVPR 2025\] LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant](lamra_large_multimodal_model_as_your_advanced_retrieval_assistant.md)
-- [\[ACL 2025\] CART: A Generative Cross-Modal Retrieval Framework with Coarse-To-Fine Semantic Modeling](../../ACL2025/information_retrieval/cart_a_generative_cross-modal_retrieval_framework_with_coarse-to-fine_semantic_m.md)
+- [\[ECCV 2024\] OneRestore: A Universal Restoration Framework for Composite Degradation](../../ECCV2024/information_retrieval/onerestore_a_universal_restoration_framework_for_composite_degradation.md)
+- [\[CVPR 2025\] LotusFilter: Fast Diverse Nearest Neighbor Search via a Learned Cutoff Table](lotusfilter_fast_diverse_nearest_neighbor_search_via_a_learned_cutoff_table.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.02701](https://arxiv.org/abs/2506.02701)  
-**代码**: https://github.com/masaki-sakata/entity-identification (有)  
-**领域**: LLM可解释性 / 实体表示  
+**代码**: [https://github.com/masaki-sakata/entity-identification](https://github.com/masaki-sakata/entity-identification)  
+**领域**: LLM/NLP  
 **关键词**: 实体识别, 内部表示, 线性可分性, 聚类评估, 跨模型同构
 
 ## 一句话总结
@@ -139,9 +139,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Recurrent Knowledge Identification and Fusion for Language Model Continual Learning](recurrent_kif_continual_learning.md)
-- [\[ACL 2025\] ECLM: Entity Level Language Model for Spoken Language Understanding with Chain of Intent](eclm_entity_level_language_model_spoken_language_understanding.md)
 - [\[ACL 2025\] COSMIC: Generalized Refusal Direction Identification in LLM Activations](cosmic_generalized_refusal_direction_identification_in_llm_activations.md)
-- [\[ACL 2025\] EnigmaToM: Improve LLMs' Theory-of-Mind Reasoning Capabilities with Neural Knowledge Base of Entity States](enigmatom_improve_llms_theory-of-mind_reasoning_capabilities_with_neural_knowled.md)
+- [\[ACL 2025\] ECLM: Entity Level Language Model for Spoken Language Understanding with Chain of Intent](eclm_entity_level_language_model_spoken_language_understanding.md)
+- [\[ACL 2025\] A Variational Approach for Mitigating Entity Bias in Relation Extraction](variational_approach_mitigating_entity_bias_relation_extraction.md)
 - [\[ACL 2025\] Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](salience_sparse_fine_tuning.md)
 
 <!-- RELATED:END -->

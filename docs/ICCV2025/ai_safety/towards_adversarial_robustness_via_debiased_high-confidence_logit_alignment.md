@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2408.06079](https://arxiv.org/abs/2408.06079)  
 **代码**: [KejiaZhang-Robust/DHAT](https://github.com/KejiaZhang-Robust/DHAT)  
 **作者**: Kejia Zhang, Juanjuan Weng, Shaozi Li, Zhiming Luo (厦门大学, 暨南大学)
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: 对抗训练, 对抗鲁棒性, 逆向对抗攻击, 虚假相关性, logit 对齐, 去偏, 注意力偏移
 
 ## 一句话总结
@@ -180,10 +180,10 @@ $$\mathcal{L}_{FLOE}(\check{z}, \check{z}_{(B)}) = -\left|\check{z} - \frac{\che
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] On the Robustness of Verbal Confidence of LLMs in Adversarial Attacks](../../NeurIPS2025/ai_safety/on_the_robustness_of_verbal_confidence_of_llms_in_adversarial_attacks.md)
 - [\[NeurIPS 2025\] Fair Representation Learning with Controllable High Confidence Guarantees via Adversarial Inference](../../NeurIPS2025/ai_safety/fair_representation_learning_with_controllable_high_confidence_guarantees_via_ad.md)
-- [\[NeurIPS 2025\] Enhancing CLIP Robustness via Cross-Modality Alignment](../../NeurIPS2025/ai_safety/enhancing_clip_robustness_via_crossmodality_alignment.md)
-- [\[NeurIPS 2025\] Understanding and Improving Adversarial Robustness of Neural Probabilistic Circuits](../../NeurIPS2025/ai_safety/understanding_and_improving_adversarial_robustness_of_neural_probabilistic_circu.md)
 - [\[NeurIPS 2025\] Boosting Adversarial Transferability with Spatial Adversarial Alignment](../../NeurIPS2025/ai_safety/boosting_adversarial_transferability_with_spatial_adversarial_alignment.md)
+- [\[NeurIPS 2025\] Understanding and Improving Adversarial Robustness of Neural Probabilistic Circuits](../../NeurIPS2025/ai_safety/understanding_and_improving_adversarial_robustness_of_neural_probabilistic_circu.md)
+- [\[NeurIPS 2025\] Bridging Symmetry and Robustness: On the Role of Equivariance in Enhancing Adversarial Robustness](../../NeurIPS2025/ai_safety/bridging_symmetry_and_robustness_on_the_role_of_equivariance_in_enhancing_advers.md)
+- [\[ICCV 2025\] Backdooring Self-Supervised Contrastive Learning by Noisy Alignment](backdooring_self-supervised_contrastive_learning_by_noisy_alignment.md)
 
 <!-- RELATED:END -->

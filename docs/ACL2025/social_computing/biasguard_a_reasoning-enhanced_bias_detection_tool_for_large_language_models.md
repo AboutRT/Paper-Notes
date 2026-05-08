@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 偏见检测
-  - 推理增强
+  - 社会计算
   - 公平性规范
   - SFT
   - DPO
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.21299](https://arxiv.org/abs/2504.21299)  
 **代码**: 无  
-**领域**: LLM / AI公平性  
+**领域**: 社会计算  
 **关键词**: 偏见检测, 推理增强, 公平性规范, SFT, DPO, CoT reasoning
 
 ## 一句话总结
@@ -122,10 +122,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Translate With Care: Addressing Gender Bias, Neutrality, and Reasoning in Large Language Model Translations](translate_with_care_addressing_gender_bias_neutrality_and_reasoning_in_large_lan.md)
 - [\[ACL 2025\] Exploring Gender Bias in Large Language Models: An In-depth Dive into the German Language](exploring_gender_bias_in_large_language_models_an_in-depth_dive_into_the_german_.md)
+- [\[ACL 2025\] Translate With Care: Addressing Gender Bias, Neutrality, and Reasoning in Large Language Model Translations](translate_with_care_addressing_gender_bias_neutrality_and_reasoning_in_large_lan.md)
+- [\[NeurIPS 2025\] Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector](../../NeurIPS2025/social_computing/any_large_language_model_can_be_a_reliable_judge_debiasing_w.md)
 - [\[ACL 2025\] Explicit vs. Implicit: Investigating Social Bias in Large Language Models through Self-Reflection](explicit_vs_implicit_investigating_social_bias_in_large_language_models_through_.md)
 - [\[ACL 2025\] A Survey on Proactive Defense Strategies Against Misinformation in Large Language Models](a_survey_on_proactive_defense_strategies_against_misinformation_in_large_languag.md)
-- [\[NeurIPS 2025\] Active Slice Discovery in Large Language Models](../../NeurIPS2025/social_computing/active_slice_discovery_in_large_language_models.md)
 
 <!-- RELATED:END -->

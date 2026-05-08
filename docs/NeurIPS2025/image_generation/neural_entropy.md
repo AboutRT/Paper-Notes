@@ -149,6 +149,6 @@ $$S_\text{neural} = \int_0^T \mathbb{E}_{x_t} \left[ \| \nabla_{x_t} \log p_t(x_
 - [\[NeurIPS 2025\] Entropy Rectifying Guidance for Diffusion and Flow Models](entropy_rectifying_guidance_for_diffusion_and_flow_models.md)
 - [\[NeurIPS 2025\] Flow Matching Neural Processes](flow_matching_neural_processes.md)
 - [\[ICML 2025\] Provable Maximum Entropy Manifold Exploration via Diffusion Models](../../ICML2025/image_generation/provable_maximum_entropy_manifold_exploration_via_diffusion_models.md)
-- [\[NeurIPS 2025\] Graph-based Neural Space Weather Forecasting](graph-based_neural_space_weather_forecasting.md)
+- [\[NeurIPS 2025\] Score-informed Neural Operator for Enhancing Ordering-based Causal Discovery](score-informed_neural_operator_for_enhancing_ordering-based_causal_discovery.md)
 
 <!-- RELATED:END -->

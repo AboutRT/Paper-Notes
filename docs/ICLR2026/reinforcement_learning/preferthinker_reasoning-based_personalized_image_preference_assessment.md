@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR2026
   - personalized preference assessment
-  - reasoning
+  - 强化学习
   - GRPO
   - predict-then-assess
   - visual preference profile
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2511.00609](https://arxiv.org/abs/2511.00609)  
 **代码**: [项目页面](https://preferthinker.github.io/)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: personalized preference assessment, reasoning, GRPO, predict-then-assess, visual preference profile, CoT  
 
 ## 一句话总结
@@ -129,6 +129,6 @@ tags:
 - [\[ICLR 2026\] DiVE-k: Differential Visual Reasoning for Fine-grained Image Recognition](dive-k_differential_visual_reasoning_for_fine-grained_image_recognition.md)
 - [\[ICLR 2026\] FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning](fapo_flawed-aware_policy_optimization_for_efficient_and_reliable_reasoning.md)
 - [\[CVPR 2026\] Reasoning-Driven Anomaly Detection and Localization with Image-Level Supervision](../../CVPR2026/reinforcement_learning/reasoning-driven_anomaly_detection_and_localization_with_image-level_supervision.md)
-- [\[ICLR 2026\] Metis-SPECS: Decoupling Multimodal Learning via Self-distilled Preference-based Cold Start](metis-specs_decoupling_multimodal_learning_via_self-distilled_preference-based_c.md)
+- [\[ICLR 2026\] P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling](p-genrm_personalized_generative_reward_model_with_test-time_user-based_scaling.md)
 
 <!-- RELATED:END -->

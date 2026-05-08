@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 多模态VLM方向133篇论文解读
+  CVPR2025 多模态 VLM方向154篇论文解读
 description: >-
-  133篇CVPR2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、少样本学习、对齐/RLHF、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  154篇CVPR2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、少样本学习、布局/合成、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🧩 多模态VLM
+# 🧩 多模态 VLM
 
-**📷 CVPR2025** · **133** 篇论文解读
+**📷 CVPR2025** · **154** 篇论文解读
 
 **[4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models](4d_langsplat_4d_language_gaussian_splatting_via_multimodal_large_language_models.md)**
 
@@ -40,6 +40,10 @@ description: >-
 
 **[COAP: Memory-Efficient Training with Correlation-Aware Gradient Projection](coap_memory-efficient_training_with_correlation-aware_gradient_projection.md)**
 
+**[CodePercept: Code-Grounded Visual STEM Perception for MLLMs](codepercept_code-grounded_visual_stem_perception_for_mllms.md)**
+
+:   通过 scaling 分析发现 STEM 视觉推理的真正瓶颈是感知而非推理，提出用可执行 Python 代码作为精确感知媒介——构建 ICC-1M 数据集（Image-Caption-Code 三元组）训练模型，在 STEM 感知基准上 CodePercept-8B 比 Qwen3-VL-8B 提升 +3.0%-12.3%。
+
 **[CoLLM: A Large Language Model for Composed Image Retrieval](collm_a_large_language_model_for_composed_image_retrieval.md)**
 
 :   提出 CoLLM——利用大语言模型进行组合图像检索（CIR）的一站式框架，通过从图文对即时生成训练三元组、用 LLM 生成联合多模态嵌入，以及构建 340 万样本的 MTCIR 大规模数据集，在多个 CIR 基准上取得 SOTA 性能，MTCIR 最高带来 15% 的性能提升。
@@ -55,6 +59,10 @@ description: >-
 **[Compositional Caching for Training-free Open-vocabulary Attribute Detection](compositional_caching_for_training-free_open-vocabulary_attribute_detection.md)**
 
 :   ComCa 提出了一种无需训练的开放词汇属性检测方法，通过利用大规模网络图片数据库和 LLM 构建带有软属性标签的辅助图像缓存，在推理时聚合缓存图像的相似度来增强 VLM 的属性预测能力，无需任何额外训练即可与训练式方法竞争。
+
+**[Conformal Prediction for Zero-Shot Models](conformal_prediction_for_zero-shot_models.md)**
+
+:   将保形预测（Conformal Prediction）应用于零样本模型，为 CLIP 等模型的预测提供有理论保证的不确定性量化和校准预测集
 
 **[Context-Aware Multimodal Pretraining](context-aware_multimodal_pretraining.md)**
 
@@ -103,6 +111,10 @@ description: >-
 **[DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution](dynrefer_delving_into_region-level_multimodal_tasks_via_dynamic_resolution.md)**
 
 :   模拟人眼"注视+扫视"的动态分辨率机制，围绕目标区域构建多层嵌套视图并在训练时随机采样、推理时根据任务或图像先验选择性组合，以 4.2B 参数在区域描述、属性检测、密集描述等任务上全面超越 7B+ 模型。
+
+**[Efficient Motion-Aware Video MLLM](efficient_motion-aware_video_mllm.md)**
+
+:   本文提出 EMA（Efficient Motion-Aware video MLLM），利用压缩视频中的 GOP 结构融合空间与运动信息，以原生慢-快架构减少冗余并增强运动表示，同时引入 MotionBench 做运动理解基准，在多个视频 QA 和运动理解任务上取得 SOTA。
 
 **[EgoLM: Multi-Modal Language Model of Egocentric Motions](egolm_multi-modal_language_model_of_egocentric_motions.md)**
 
@@ -160,6 +172,10 @@ description: >-
 
 :   GEA 将预训练的多模态 LLM（LLaVA-OneVision）通过学习式多具身动作分词器适配到操控/导航/游戏/UI控制/规划五大领域，先用 220 万条跨域专家轨迹 SFT，再用在线 PPO 强化学习微调，单模型在多个基准上超越或接近领域专用模型。
 
+**[Galaxy Walker: Geometry-aware VLMs For Galaxy-scale Understanding](galaxy_walker_geometry-aware_vlms_for_galaxy-scale_understanding.md)**
+
+:   提出 Galaxy-Walker，首个几何感知的视觉语言模型框架，通过在欧几里得、球面和双曲三种空间上进行随机游走生成几何提示（Geometry Prompt），配合混合几何专家适配器（Geometry Adapter），在星系属性估计（$R^2$ 最高达 0.91）和形态分类任务（F1 提升 +0.17）上大幅超越通用 VLM 和领域专用模型。
+
 **[Generalized Few-Shot 3D Point Cloud Segmentation with Vision-Language Model](generalized_few-shot_3d_point_cloud_segmentation_with_vision-language_model.md)**
 
 :   GFS-VL 提出一种广义小样本 3D 点云分割框架，通过将 3D 视觉语言模型（3D VLM）生成的稠密但有噪声的伪标签与精确但稀疏的小样本标注协同融合——经由原型引导的伪标签筛选、自适应填充和 novel-base 混合增强——在现有和新设的高难度 benchmark 上取得了 SOTA 性能。
@@ -168,6 +184,10 @@ description: >-
 
 :   首次将测地距离（Geodesic Distance）引入多模态对比学习，通过构建层次化图结构高效计算样本间的流形距离，替代传统余弦距离，从而更准确地挖掘正负样本关系，提升图文检索、VQA等下游任务性能。
 
+**[Global-Local Tree Search in VLMs for 3D Indoor Scene Generation](global-local_tree_search_in_vlms_for_3d_indoor_scene_generation.md)**
+
+:   提出全局-局部树搜索算法，利用VLM的空间推理能力，通过层次化场景表示和emoji网格的视觉提示，实现高质量3D室内场景布局生成，在用户研究中平均排名第一。
+
 **[Ground-V: Teaching VLMs to Ground Complex Instructions in Pixels](ground-v_teaching_vlms_to_ground_complex_instructions_in_pixels.md)**
 
 :   构建了Ground-V，一个包含50万指令-分割对的数据集，系统性解决真实世界指代分割中的五大挑战（幻觉引用、多对象、推理、多粒度、部件引用），训练后的VLM在gRefCOCO上N-Acc超越前SOTA 20%以上。
@@ -175,6 +195,10 @@ description: >-
 **[HalLoc: Token-Level Localization of Hallucinations for Vision Language Models](halloc_token-level_localization_of_hallucinations_for_vision_language_models.md)**
 
 :   提出HalLoc，一个15.5万样本、覆盖VQA/指令跟随/图像描述三类任务的token级幻觉标注数据集，并基于此训练了轻量级幻觉检测模型HalLocalizer，可在不影响效率的前提下即插即用地集成到现有VLM中实现实时概率化幻觉检测。
+
+**[HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator](heie_mllm-based_hierarchical_explainable_aigc_image_implausibility_evaluator.md)**
+
+:   提出HEIE——基于多模态大语言模型（MLLM）的层次化可解释AIGC图像不合理性评估器，通过CoT驱动的三位一体评估器同时输出热力图、评分和文字解释，并用自适应层次化不合理性映射器实现全局-局部缺陷的精准定位，在RichHF-18K和AbHuman数据集上达到SOTA。
 
 **[HiFICL: High-Fidelity In-Context Learning for Multimodal Tasks](hificl_high-fidelity_in-context_learning_for_multimodal_tasks.md)**
 
@@ -220,6 +244,10 @@ description: >-
 
 :   LLaVA-Critic 是首个开源的通用多模态评估模型，通过在精心构建的113k评估指令数据上训练，使开源LMM具备了接近GPT-4o水平的Pointwise评分和Pairwise排序能力，并可作为奖励模型为迭代DPO提供有效的偏好信号，超越基于人类反馈训练的LLaVA-RLHF奖励模型。
 
+**[Locality-Aware Zero-Shot Human-Object Interaction Detection](locality-aware_zero-shot_human-object_interaction_detection.md)**
+
+:   提出 LAIN 框架，通过局部适配器（LA）和交互适配器（IA）增强 CLIP 表示的局部细粒度感知和交互推理能力，在多种零样本 HOI 检测设定下达到 SOTA。
+
 **[MarkushGrapher: Joint Visual and Textual Recognition of Markush Structures](markushgrapher_joint_visual_and_textual_recognition_of_markush_structures.md)**
 
 :   本文提出MarkushGrapher，一个多模态方法，通过联合编码文本、图像和布局信息来识别专利文档中的Markush结构（化学结构模板），并构建了首个真实世界Markush结构标注基准M2S，在大多数评估设定下超越了SOTA化学专用和通用视觉语言模型。
@@ -244,6 +272,14 @@ description: >-
 
 :   本文提出MIMO——首个同时支持"视觉引用多模态输入"（用户通过点/框指定感兴趣区域）和"像素级定位多模态输出"（模型在文本回答中嵌入分割mask）的医学视觉语言模型，并构建了895K样本的MIMOSeg数据集，在多种医学VQA和分割任务上展示了独特的referring+grounding能力。
 
+**[MLLM-as-a-Judge for Image Safety without Human Labeling](mllm-as-a-judge_for_image_safety_without_human_labeling.md)**
+
+:   提出 CLUE 框架，通过规则客观化、CLIP 相关性扫描、前置条件链分解和去偏 token 概率分析，实现无需人工标注的零样本图像安全判定，在多个 MLLM 上大幅超越基线。
+
+**[MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning](mm-condchain_a_programmatically_verified_benchmark_for_visually_grounded_deep_co.md)**
+
+:   MM-CondChain 是首个针对视觉基础深层组合推理的 MLLM 基准，通过可验证程序中间表示（VPIR）自动构建多层条件链和链式硬负样本，最强模型仅获 53.33 Path F1，揭示深层组合推理是根本挑战。
+
 **[MMRL: Multi-Modal Representation Learning for Vision-Language Models](mmrl_multi-modal_representation_learning_for_vision-language_models.md)**
 
 :   MMRL 提出了一个共享的、模态无关的可学习表征空间，将表征 token 投影到图像和文本编码器的高层（保留低层泛化知识），并通过解耦推理策略（基类用表征+类别特征，新类只用类别特征）在 15 个数据集上实现了 few-shot 适配与泛化的最优平衡，刷新了 base-to-novel 泛化的 SOTA。
@@ -259,6 +295,10 @@ description: >-
 **[MoVE-KD: Knowledge Distillation for VLMs with Mixture of Visual Encoders](move-kd_knowledge_distillation_for_vlms_with_mixture_of_visual_encoders.md)**
 
 :   本文提出MoVE-KD——首个从知识蒸馏角度将多个视觉编码器（CLIP/EVA/ConvNeXt/SAM）的特长融合到单个编码器的框架，通过Mixture-of-LoRA-Experts (MoLE)缓解多教师知识冲突、利用CLIP的[CLS]注意力自适应加权蒸馏token和教师，在LLaVA/LLaVA-NeXT上实现一致提升。
+
+**[MP-GUI: Modality Perception with MLLMs for GUI Understanding](mp-gui_modality_perception_with_mllms_for_gui_understanding.md)**
+
+:   MP-GUI设计了三个专用感知器分别提取GUI中的图形、文本和空间模态信息，通过空间结构精炼策略和自适应融合门控将三种模态组合，在有限训练数据下在多种GUI理解任务上取得了优于通用MLLM的表现。
 
 **[Multi-Layer Visual Feature Fusion in Multimodal LLMs: Methods, Analysis, and Best Practices](multi-layer_visual_feature_fusion_in_multimodal_llms_methods_analysis_and_best_p.md)**
 
@@ -300,6 +340,10 @@ description: >-
 
 :   本文系统评估了14个MLLM在20个数据集上的分布外泛化能力，发现MLLM在医学/分子等领域特定数据上性能近似随机，通过三假设分析确定"语义-视觉映射缺陷"为主因，并证明上下文学习（ICL）能显著缓解该问题但对标签偏移和伪相关偏移敏感。
 
+**[One Token, Two Fates: A Unified Framework via Vision Token Manipulation Against MLLMs Hallucination](one_token_two_fates_a_unified_framework_via_vision_token_manipulation_against_ml.md)**
+
+:   提出首个统一的训练无关MLLM幻觉缓解框架，围绕vision token的双重角色——增强(SVC)与抑制(CRC)——在隐表示层协同操作，在LLaVA-1.5上POPE准确率提升约2%，仅增加1.06×推理延迟。
+
 **[OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation](opening_a_comprehensive_benchmark_for_judging_open-ended_interleaved_image-text_.md)**
 
 :   本文提出 OpenING 基准（5,400 条人工标注实例、56 个真实场景任务）和 IntJudge 评判模型（与人类判断一致率 82.42%），填补了开放式图文交错生成评估的真空，发现当前集成管线（如 Gemini+Flux）大幅领先端到端模型，但所有方法仍远不及人类标注质量。
@@ -311,6 +355,10 @@ description: >-
 **[PARC: A Quantitative Framework Uncovering the Symmetries within Vision Language Models](parc_a_quantitative_framework_uncovering_the_symmetries_within_vision_language_m.md)**
 
 :   提出PARC框架，通过**11种语言/视觉提示变异**、**可靠性评分**和**指标校准**三大支柱，首次系统量化分析了22个VLM在7个数据集上的提示敏感性，发现VLM继承了LLM的语言敏感性并在视觉域呈现对称表现，InternVL2家族对提示变化最鲁棒。
+
+**[PEACE: Empowering Geologic Map Holistic Understanding with MLLMs](peace_empowering_geologic_map_holistic_understanding_with_mllms.md)**
+
+:   本文构建了首个地质图理解基准 GeoMap-Bench（5 种能力、25 个任务、3864 个问题），并提出 GeoMap-Agent（层级信息提取 + 领域知识注入 + 增强问答），在地质图理解上以 0.811 的整体得分大幅超越 GPT-4o 的 0.369。
 
 **[Period-LLM: Extending the Periodic Capability of Multimodal Large Language Model](period-llm_extending_the_periodic_capability_of_multimodal_large_language_model.md)**
 
@@ -336,6 +384,10 @@ description: >-
 
 :   本文揭示现有VLM测试时适应（TTA）/转导方法在realistic场景下（有效类数可变、非i.i.d.数据流）会严重损害CLIP的零样本鲁棒性，并提出StatA方法，通过在高斯聚类模型参数上引入基于文本编码器知识的KL散度正则化（统计锚），在所有部署场景中保持稳定提升。
 
+**[Reasoning over Video: Evaluating How MLLMs Extract, Integrate, and Reconstruct Spatiotemporal Evidence](reasoning_over_video_evaluating_how_mllms_extract_integrate_and_reconstruct_spat.md)**
+
+:   提出 VAEX-Bench 基准，首次系统评估 MLLM 的"抽象时空推理"能力——不是从单帧提取信息，而是需要跨房间/跨时间整合观察来推断全局空间布局、跨场景计数等，发现所有 SOTA 模型（包括 GPT-5.2、Gemini-3 Pro）在抽象推理上表现远低于人类。
+
 **[Reasoning to Attend: Try to Understand How \<SEG\> Token Works](reasoning_to_attend_try_to_understand_how_seg_token_works.md)**
 
 :   深入分析了 \<SEG\> token 在推理分割任务中的工作机制——发现其学到了与文本直接提及相似的语义特征并用于图像-文本语义对齐，在此基础上提出 READ 方法，将 \<SEG\> token 与图像 token 的相似度图转换为点提示，以即插即用方式指导 SAM 解码器生成更精确的分割掩码。
@@ -356,6 +408,10 @@ description: >-
 
 :   提出 M2F2-Det，首个同时输出深度伪造检测得分和文本解释的多模态人脸伪造检测器，通过 Forgery Prompt Learning 适配 CLIP 学习伪造特征、Bridge Adapter 融合 CLIP 与 deepfake 编码器特征、频域 token 引导 LLM 生成可信解释。
 
+**[Rethinking VLMs for Image Forgery Detection and Localization](rethinking_vlms_for_image_forgery_detection_and_localization.md)**
+
+:   提出 IFDL-VLM，揭示 VLM 先验对伪造检测/定位几乎无益，通过将检测/定位与语言解释解耦的两阶段框架，用 ViT+SAM 专家模型做检测定位、再将定位 mask 作为辅助输入增强 VLM 训练以生成可解释文字说明。
+
 **[ReVisionLLM: Recursive Vision-Language Model for Temporal Grounding in Hour-Long Videos](revisionllm_recursive_vision-language_model_for_temporal_grounding_in_hour-long_.md)**
 
 :   提出 ReVisionLLM，首个能在小时级长视频中进行时序定位的视觉语言模型，模仿人类搜索策略递归处理视频——先粗粒度锁定相关片段，再逐级细化至精确时间边界，在 MAD 数据集上超越 SOTA +2.6% R1@0.1。
@@ -372,9 +428,17 @@ description: >-
 
 :   RoboSpatial 构建了一个包含 1M 图像、5k 3D 扫描和 3M 空间关系标注的大规模机器人空间理解数据集，通过自动化 pipeline 从已有 3D 场景数据中生成三类空间问答对（空间上下文/兼容性/配置），并引入三种参考坐标系（自我/世界/物体），在多个 2D 和 3D VLM 上训练后显著提升空间推理性能，并在真实机器人操作实验中验证了有效性。
 
+**[Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding](seeing_far_and_clearly_mitigating_hallucinations_in_mllms_with_attention_causal_.md)**
+
+:   提出 FarSight，一种即插即用的无训练解码策略，通过在因果掩码的上三角矩阵中引入注意力寄存器来吸收异常 token 的过度注意力，并设计递减掩蔽率的位置感知编码增强远距离视觉 token 的信息传播，有效缓解多模态大模型中的初始幻觉和雪球幻觉。
+
 **[Seeing the Abstract: Translating the Abstract Language for Vision Language Models](seeing_the_abstract_translating_the_abstract_language_for_vision_language_models.md)**
 
 :   提出 ACT（Abstract-to-Concrete Translator），通过 PCA 分析抽象-具象文本在 VLM 隐空间的表征差异，在推理时无训练地将抽象描述的表征向具象方向偏移，解决 VLM 对抽象语言理解不足的问题，在时尚领域文本-图像检索任务上显著超越微调模型。
+
+**[SegAgent: Exploring Pixel Understanding Capabilities in MLLMs by Imitating Human Annotator Trajectories](segagent_exploring_pixel_understanding_capabilities_in_mllms_by_imitating_human_.md)**
+
+:   SegAgent 将 referring expression segmentation 建模为人类标注员的迭代操作过程——MLLM 观察当前 mask 状态后预测下一个点击位置，交互式分割模型据此更新 mask，经过多轮迭代得到最终分割结果；通过 StaR+ 策略改进和 PRM+树搜索，在复杂场景下大幅提升分割精度。
 
 **[Self-Evolving Visual Concept Library using Vision-Language Critics](self-evolving_visual_concept_library_using_vision-language_critics.md)**
 
@@ -404,9 +468,17 @@ description: >-
 
 :   SmartCLIP 通过引入自适应掩码网络实现模块化的视觉-文本对齐，在理论上证明了潜在变量的可识别性，有效解决了 CLIP 训练中的信息错位和表征纠缠问题，在长/短文本检索和零样本分类等多项任务上显著超越现有方法。
 
+**[SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters](solami_social_vision-language-action_modeling_for_immersive_interaction_with_3d_.md)**
+
+:   提出 SOLAMI，首个端到端的社交视觉-语言-动作 (VLA) 建模框架，通过将语音和动作离散化为 token 并基于 decoder-only LLM 统一建模，实现用户与 3D 虚拟角色通过语音和肢体语言的沉浸式实时交互，同时构建了合成多模态社交交互数据集 SynMSI。
+
 **[SPA-VL: A Comprehensive Safety Preference Alignment Dataset for Vision Language Models](spa-vl_a_comprehensive_safety_preference_alignment_dataset_for_vision_language_m.md)**
 
 :   SPA-VL 构建了一个包含 100,788 个四元组（问题、图像、优选回答、劣选回答）的大规模VLM安全偏好对齐数据集，覆盖6大领域/13类/53子类有害内容，基于12个VLM的多样化回答和全自动化标注流程，使用DPO/PPO训练后模型在安全性上大幅提升同时保持帮助性。
+
+**[SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs](sparrow_learning_spatial_precision_and_temporal_referential_consistency_in_pixel.md)**
+
+:   提出SPARROW框架，通过目标特定跟踪特征(TSF)和双提示(BOX+SEG)机制，解决视频MLLM中时序引用一致性差和首帧初始化不稳定的问题，在6个基准上对3个主流视频MLLM均取得一致提升。
 
 **[Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA](spatial_reasoning_is_not_a_free_lunch_a_controlled_study_on_llava.md)**
 
@@ -492,6 +564,10 @@ description: >-
 
 :   提出UPME框架，通过**无监督同行评审机制**、**视觉-语言评分系统**和**动态权重优化**，仅使用图像数据就能让多个MLLM互相出题评审，在MMStar上与人工评估的Pearson相关性达0.944，有效缓解了MLLM评估对人工标注的依赖和评审偏差问题。
 
+**[V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents](v-stylist_video_stylization_via_collaboration_and_reflection_of_mllm_agents.md)**
+
+:   提出 V-Stylist，一个基于 MLLM 多 agent 协作和反思的视频风格化系统，通过 Video Parser（视频分镜）、Style Parser（风格树搜索）和 Style Artist（多轮自反思渲染）三个角色协作，在复杂转场视频和开放风格描述上实现 SOTA，整体指标超越 FRESCO 6.05%。
+
 **[VidComposition: Can MLLMs Analyze Compositions in Compiled Videos?](vidcomposition_can_mllms_analyze_compositions_in_compiled_videos.md)**
 
 :   提出VidComposition基准，专门评估MLLM对**编辑合成视频**（影视、动画等）的构图理解能力，涵盖**5大类15个子任务**（镜头运动、叙事结构、角色理解等），对33个MLLM的评测揭示了模型与人类在电影级视频理解上的巨大差距（最佳模型63.3% vs 人类86.3%）。
@@ -516,6 +592,10 @@ description: >-
 
 :   本文提出 NegBench 基准，系统揭示了 CLIP 等视觉语言模型在否定理解上的严重缺陷（表现接近随机水平），并通过在大规模合成否定数据集上微调，将否定查询的检索召回率提升 10%、MCQ 准确率提升高达 40%。
 
+**[VisionArena: 230K Real World User-VLM Conversations with Preference Labels](visionarena_230k_real_world_user-vlm_conversations_with_preference_labels.md)**
+
+:   VisionArena 构建了一个包含 230K 条真实用户与 VLM 交互记录的大规模数据集（含偏好标签），涵盖 73K 用户、45 个 VLM、138 种语言，揭示了当前 VLM 在空间推理和规划任务上的不足，并展示了用真实对话数据微调可显著超越 LLaVA-Instruct。
+
 **[VisionZip: Longer is Better but Not Necessary in Vision Language Models](visionzip_longer_is_better_but_not_necessary_in_vision_language_models.md)**
 
 :   VisionZip 发现视觉编码器（CLIP/SigLIP）生成的视觉Token存在严重冗余——仅少数Token聚集了绝大部分注意力和信息，基于此提出一种文本无关的Token选择与合并方法，在仅保留10%Token的情况下保持95%的模型性能，并实现8倍预填充加速。
@@ -523,6 +603,10 @@ description: >-
 **[Visual and Semantic Prompt Collaboration for Generalized Zero-Shot Learning](visual_and_semantic_prompt_collaboration_for_generalized_zero-shot_learning.md)**
 
 :   提出视觉语义提示协作网络（VSPCN），通过在预训练ViT中同时学习视觉提示和语义提示，并设计浅层弱融合+深层强融合机制，高效适配ViT提取语义相关的判别性视觉特征，在CUB/SUN/AWA2三个GZSL基准上均达到SOTA。
+
+**[VladVA: Discriminative Fine-tuning of LVLMs](vladva_discriminative_fine-tuning_of_lvlms.md)**
+
+:   提出VladVA框架，通过混合短/长caption数据策略、对比损失+自回归损失的联合训练、以及soft prompting+LoRA的参数高效适配，将生成式LVLM（LLaVA）转化为强判别式模型，在图文检索和组合性理解基准上大幅超越CLIP类模型和18B EVA-CLIP。
 
 **[VLsI: Verbalized Layers-to-Interactions from Large to Small Vision Language Models](vlsi_verbalized_layers-to-interactions_from_large_to_small_vision_language_model.md)**
 

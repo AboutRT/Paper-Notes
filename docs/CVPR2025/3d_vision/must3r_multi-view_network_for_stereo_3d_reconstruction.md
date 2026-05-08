@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.01661](https://arxiv.org/abs/2503.01661)  
-**代码**: https://github.com/naver/must3r  
+**代码**: [https://github.com/naver/must3r](https://github.com/naver/must3r)  
 **领域**: 3D视觉/三维重建  
 **关键词**: 3D重建, 多视图, 视觉里程计, DUSt3R, 内存机制, 无标定
 
@@ -133,8 +133,8 @@ $$\mathcal{L} = \sum_{i=1}^{n+N} \ell_{regr}(i,1) + \ell_{regr}(i,i)$$
 
 - [\[CVPR 2025\] MVSAnywhere: Zero-Shot Multi-View Stereo](mvsanywhere_zero-shot_multi-view_stereo.md)
 - [\[CVPR 2025\] MVBoost: Boost 3D Reconstruction with Multi-View Refinement](mvboost_boost_3d_reconstruction_with_multi-view_refinement.md)
-- [\[ICLR 2026\] Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator](../../ICLR2026/3d_vision/text-to-3d_by_stitching_a_multi-view_reconstruction_network_to_a_video_generator.md)
-- [\[CVPR 2025\] MEt3R: Measuring Multi-View Consistency in Generated Images](met3r_measuring_multi-view_consistency_in_generated_images.md)
 - [\[CVPR 2025\] Sharp-It: A Multi-view to Multi-view Diffusion Model for 3D Synthesis and Manipulation](sharp-it_a_multi-view_to_multi-view_diffusion_model_for_3d_synthesis_and_manipul.md)
+- [\[CVPR 2025\] MEt3R: Measuring Multi-View Consistency in Generated Images](met3r_measuring_multi-view_consistency_in_generated_images.md)
+- [\[CVPR 2025\] Murre: Multi-view Reconstruction via SfM-guided Monocular Depth Estimation](murre_sfm_guided_depth_reconstruction.md)
 
 <!-- RELATED:END -->

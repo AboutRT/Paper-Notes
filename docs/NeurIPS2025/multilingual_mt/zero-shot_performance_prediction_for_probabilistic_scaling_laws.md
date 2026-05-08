@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Zero-Shot Performance Prediction for Probabilistic Scaling Laws
 description: >-
-  [NeurIPS 2025][scaling laws] 将 NLP 学习曲线预测建模为多任务学习问题，利用潜变量多输出高斯过程（MaGP）捕捉数据集中的双层层次结构和任务间相关性，实现学习曲线的零样本预测，并通过蒙特卡洛模拟推导概率化的 Scaling Laws。
+  [NeurIPS 2025][多语言翻译] 将 NLP 学习曲线预测建模为多任务学习问题，利用潜变量多输出高斯过程（MaGP）捕捉数据集中的双层层次结构和任务间相关性，实现学习曲线的零样本预测，并通过蒙特卡洛模拟推导概率化的 Scaling Laws。
 tags:
   - NeurIPS 2025
-  - scaling laws
+  - 多语言翻译
   - learning curves
   - Gaussian processes
   - zero-shot prediction
@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.16743](https://arxiv.org/abs/2510.16743)  
 **代码**: 论文称将公开（暂未确认链接）  
-**领域**: llm_nlp  
+**领域**: 多语言翻译  
 **关键词**: scaling laws, learning curves, Gaussian processes, zero-shot prediction, hierarchical modeling, active learning, multi-task learning
 
 ## 一句话总结
@@ -220,10 +220,10 @@ Ground truth: $-0.056c + 3.51$。
 
 ## 相关论文
 
-- [\[ICLR 2026\] ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality](../../ICLR2026/multilingual_mt/atlas_adaptive_transfer_scaling_laws_for_multilingual_pretraining_finetuning_and.md)
 - [\[ACL 2025\] Machine Translation Models are Zero-Shot Detectors of Translation Direction](../../ACL2025/multilingual_mt/machine_translation_models_are_zero-shot_detectors_of_translation_direction.md)
-- [\[ACL 2025\] Translation and Fusion Improves Zero-shot Cross-lingual Information Extraction](../../ACL2025/multilingual_mt/translation_and_fusion_improves_cross-lingual_information_extraction.md)
 - [\[ACL 2025\] A Case Study of Cross-Lingual Zero-Shot Generalization for Classical Languages in LLMs](../../ACL2025/multilingual_mt/a_case_study_of_cross-lingual_zero-shot_generalization_for_classical_languages_i.md)
+- [\[ICLR 2026\] ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality](../../ICLR2026/multilingual_mt/atlas_adaptive_transfer_scaling_laws_for_multilingual_pretraining_finetuning_and.md)
+- [\[ACL 2025\] Translation and Fusion Improves Zero-shot Cross-lingual Information Extraction](../../ACL2025/multilingual_mt/translation_and_fusion_improves_cross-lingual_information_extraction.md)
 - [\[CVPR 2025\] SMTPD: A New Benchmark for Temporal Prediction of Social Media Popularity](../../CVPR2025/multilingual_mt/smtpd_a_new_benchmark_for_temporal_prediction_of_social_media_popularity.md)
 
 <!-- RELATED:END -->

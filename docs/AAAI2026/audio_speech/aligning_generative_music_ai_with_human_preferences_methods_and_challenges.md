@@ -7,7 +7,7 @@ tags:
   - AAAI 2026
   - 语音
   - 音乐生成
-  - 偏好对齐
+  - 音频语音
   - RLHF
   - DPO
   - 推理时优化
@@ -139,6 +139,6 @@ tags:
 - [\[ICLR 2026\] Discovering and Steering Interpretable Concepts in Large Generative Music Models](../../ICLR2026/audio_speech/discovering_and_steering_interpretable_concepts_in_large_generative_music_models.md)
 - [\[NeurIPS 2025\] Perceptually Aligning Representations of Music via Noise-Augmented Autoencoders](../../NeurIPS2025/audio_speech/perceptually_aligning_representations_of_music_via_noise-augmented_autoencoders.md)
 - [\[AAAI 2026\] HPSU: A Benchmark for Human-Level Perception in Real-World Spoken Speech Understanding](hpsu_a_benchmark_for_human-level_perception_in_real-world_spoken_speech_understa.md)
-- [\[NeurIPS 2025\] Echoes of Humanity: Exploring the Perceived Humanness of AI Music](../../NeurIPS2025/audio_speech/echoes_of_humanity_exploring_the_perceived_humanness_of_ai_music.md)
+- [\[NeurIPS 2025\] Ethics Statements in AI Music Papers: The Effective and the Ineffective](../../NeurIPS2025/audio_speech/ethics_statements_in_ai_music_papers_the_effective_and_the_ineffective.md)
 
 <!-- RELATED:END -->

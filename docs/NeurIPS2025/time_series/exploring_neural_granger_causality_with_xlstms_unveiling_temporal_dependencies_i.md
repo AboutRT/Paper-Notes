@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2502.09981](https://arxiv.org/abs/2502.09981)  
 **代码**: [github.com/harpoonix/GC-xLSTM](https://github.com/harpoonix/GC-xLSTM)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: Granger Causality, xLSTM, Sparsity, Time Series, Causal Discovery  
 
 ## 一句话总结
@@ -162,7 +162,7 @@ GC-xLSTM 在所有维度上均具有优势，特别是「严格稀疏 + 无需�
 - [\[NeurIPS 2025\] Learning with Calibration: Exploring Test-Time Computing of Spatio-Temporal Forecasting](learning_with_calibration_exploring_test-time_computing_of_spatio-temporal_forec.md)
 - [\[NeurIPS 2025\] Structured Temporal Causality for Interpretable Multivariate Time Series Anomaly Detection](structured_temporal_causality_for_interpretable_multivariate_time_series_anomaly.md)
 - [\[NeurIPS 2025\] Simple and Efficient Heterogeneous Temporal Graph Neural Network](simple_and_efficient_heterogeneous_temporal_graph_neural_network.md)
+- [\[NeurIPS 2025\] The Human Brain as a Combinatorial Complex](the_human_brain_as_a_combinatorial_complex.md)
 - [\[NeurIPS 2025\] Neural MJD: Neural Non-Stationary Merton Jump Diffusion for Time Series Prediction](neural_mjd_neural_non-stationary_merton_jump_diffusion_for_time_series_predictio.md)
-- [\[NeurIPS 2025\] How Patterns Dictate Learnability in Sequential Data](how_patterns_dictate_learnability_in_sequential_data.md)
 
 <!-- RELATED:END -->

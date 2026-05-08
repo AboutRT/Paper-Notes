@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.22654](https://arxiv.org/abs/2602.22654)  
-**代码**: https://github.com/argsss/DPCache  
+**代码**: [https://github.com/argsss/DPCache](https://github.com/argsss/DPCache)  
 **领域**: 扩散模型  
 **关键词**: 扩散模型加速, 特征缓存, 动态规划, 路径规划, training-free
 
@@ -134,6 +134,6 @@ DPCache 是完全 training-free 的方法。校准阶段仅需运行标准前向
 - [\[CVPR 2026\] TC-Padé: Trajectory-Consistent Padé Approximation for Diffusion Acceleration](tc-padé_trajectory-consistent_padé_approximation_for_diffusion_acceleration.md)
 - [\[CVPR 2026\] PixelRush: Ultra-Fast, Training-Free High-Resolution Image Generation via One-step Diffusion](pixelrush_ultra-fast_training-free_high-resolution_image_generation_via_one-step.md)
 - [\[CVPR 2026\] LESA: Learnable Stage-Aware Predictors for Diffusion Model Acceleration](lesa_learnable_stage-aware_predictors_for_diffusion_model_acceleration.md)
-- [\[CVPR 2026\] Flash-Unified: Training-Free and Task-Aware Acceleration for Native Unified Models](flash-unified_a_training-free_and_task-aware_acceleration_framework_for_native_u.md)
+- [\[CVPR 2026\] Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers](just-in-time_training-free_spatial_acceleration_for_diffusion_transformers.md)
 
 <!-- RELATED:END -->

@@ -10,7 +10,7 @@ tags:
   - 类别不平衡
   - crop-type classification
   - Dirichlet distribution
-  - 遥感
+  - 其他
 ---
 
 # DirPA: Addressing Prior Shift in Imbalanced Few-shot Crop-type Classification
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12905](https://arxiv.org/abs/2603.12905)  
 **作者**: Joana Reuss, Ekaterina Gikalo, Marco Körner (TU Munich)
-**领域**: others  
+**领域**: 其他  
 **关键词**: 小样本学习, prior shift, 类别不平衡, crop-type classification, Dirichlet distribution, 遥感
 
 ## 一句话总结
@@ -171,10 +171,10 @@ DirPA 作为一种任务层面的增强方法 (task-level augmentation)，可以
 
 ## 相关论文
 
-- [\[CVPR 2026\] Your Classifier Can Do More: Towards Balancing the Gaps in Classification, Robustness, and Generation](your_classifier_can_do_more_towards_balancing_the_gaps_in_classification_robustn.md)
-- [\[CVPR 2026\] ELogitNorm: Enhancing OOD Detection with Extended Logit Normalization](enhancing_outofdistribution_detection_with_extende.md)
-- [\[CVPR 2026\] Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples](novel_anomaly_detection_scenarios_and_evaluation_metrics_to_address_the_ambiguit.md)
-- [\[CVPR 2026\] AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL](assistmimic_physics_grounded_humanoid_assistance.md)
-- [\[CVPR 2026\] FEAT: Federated Geometry-Aware Correction for Exemplar Replay under Continual Dynamic Heterogeneity](feat_federated_geometry_aware_correction_for_exemplar_replay_under_continual_dynamic_heterogeneity.md)
+- [\[CVPR 2026\] Your Classifier Can Do More: Towards Balancing the Gaps in Classification, Robustness, and Generation](your_classifier_can_do_more_towards_balancing_the.md)
+- [\[CVPR 2026\] SimRecon: SimReady Compositional Scene Reconstruction from Real Videos](simrecon_simready_compositional_scene_reconstruction_from_real_videos.md)
+- [\[CVPR 2026\] ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
+- [\[CVPR 2026\] UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting](unispector_towards_universal_open-set_defect_recognition_via_spectral-contrastiv.md)
+- [\[CVPR 2026\] What Is the Optimal Ranking Score Between Precision and Recall? We Can Always Find It and It Is Rarely F₁](what_is_the_optimal_ranking_score_between_precision_and_recall_we_can_always_fin.md)
 
 <!-- RELATED:END -->

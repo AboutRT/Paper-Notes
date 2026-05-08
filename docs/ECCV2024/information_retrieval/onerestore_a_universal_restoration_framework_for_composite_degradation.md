@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OneRestore: A Universal Restoration Framework for Composite Degradation
 description: >-
-  [ECCV 2024][图像恢复] 提出 OneRestore，一种基于 Transformer 的通用图像复原框架，通过场景描述符引导的交叉注意力机制和复合退化复原损失，能在单一模型中自适应地处理低光照、雾、雨、雪及其任意组合的复合退化场景，并支持文本/视觉双模式的可控复原。
+  [ECCV 2024][信息检索] 提出 OneRestore，一种基于 Transformer 的通用图像复原框架，通过场景描述符引导的交叉注意力机制和复合退化复原损失，能在单一模型中自适应地处理低光照、雾、雨、雪及其任意组合的复合退化场景，并支持文本/视觉双模式的可控复原。
 tags:
   - ECCV 2024
-  - 图像恢复
+  - 信息检索
   - composite degradation
   - scene descriptor
   - controllable restoration
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.04621](https://arxiv.org/abs/2407.04621)  
 **代码**: [GitHub](https://github.com/gy65896/OneRestore)  
-**领域**: LLM/NLP  
+**领域**: 信息检索  
 **关键词**: image restoration, composite degradation, scene descriptor, controllable restoration, contrastive loss
 
 ## 一句话总结
@@ -155,7 +155,7 @@ tags:
 - [\[CVPR 2025\] GENIUS: A Generative Framework for Universal Multimodal Search](../../CVPR2025/information_retrieval/genius_a_generative_framework_for_universal_multimodal_search.md)
 - [\[NeurIPS 2025\] Generalized Contrastive Learning for Universal Multimodal Retrieval](../../NeurIPS2025/information_retrieval/generalized_contrastive_learning_for_universal_multimodal_re.md)
 - [\[ECCV 2024\] ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling](artvlm_attribute_recognition_through_visionbased_prefix_lang.md)
-- [\[ECCV 2024\] Towards Open-Ended Visual Recognition with Large Language Model](towards_open-ended_visual_recognition_with_large_language_models.md)
-- [\[ECCV 2024\] Multi-Label Cluster Discrimination for Visual Representation Learning](multi-label_cluster_discrimination_for_visual_representation_learning.md)
+- [\[ECCV 2024\] Grounding Language Models for Visual Entity Recognition](grounding_language_models_for_visual_entity_recognition.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/information_retrieval/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
 
 <!-- RELATED:END -->

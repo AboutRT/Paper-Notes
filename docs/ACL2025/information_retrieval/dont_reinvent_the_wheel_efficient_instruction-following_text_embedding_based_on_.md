@@ -9,7 +9,7 @@ tags:
   - 空间变换
   - 文本嵌入
   - 聚类
-  - 效率优化
+  - 信息检索
 ---
 
 # Don't Reinvent the Wheel: Efficient Instruction-Following Text Embedding based on Guided Space Transformation
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.24754](https://arxiv.org/abs/2505.24754)  
 **代码**: [有](https://github.com/YingchaojieFeng/GSTransform)  
-**领域**: NLP / 文本表示学习  
+**领域**: 信息检索  
 **关键词**: 指令感知嵌入, 空间变换, 文本嵌入, 聚类, 效率优化
 
 ## 一句话总结
@@ -156,9 +156,9 @@ GSTransform 实时延迟仅 77-87 秒，比 InBedder-Llama2 快 **6~300 倍**。
 ## 相关论文
 
 - [\[ACL 2025\] Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Embedding Space](psycholinguistic_visual_semantic.md)
-- [\[ACL 2025\] Optimized Text Embedding Models and Benchmarks for Amharic Passage Retrieval](optimized_text_embedding_models_and_benchmarks_for_amharic_passage_retrieval.md)
 - [\[ACL 2025\] A Text is Worth Several Tokens: Text Embedding from LLMs Secretly Aligns Well with The Key Tokens](a_text_is_worth_several_tokens_text_embedding_from_llms_secretly_aligns_well_wit.md)
-- [\[ACL 2025\] Sticking to the Mean: Detecting Sticky Tokens in Text Embedding Models](sticking_to_the_mean_detecting_sticky_tokens_in_text_embedding_models.md)
+- [\[ACL 2025\] Optimized Text Embedding Models and Benchmarks for Amharic Passage Retrieval](optimized_text_embedding_models_and_benchmarks_for_amharic_passage_retrieval.md)
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
+- [\[ACL 2025\] Accelerating Adaptive Retrieval Augmented Generation via Instruction-Driven Representation Reduction of Retrieval Overlaps](accelerating_adaptive_retrieval_augmented_generation_via_instruction-driven_repr.md)
 
 <!-- RELATED:END -->

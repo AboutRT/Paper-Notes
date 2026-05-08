@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.02573](https://arxiv.org/abs/2508.02573)  
 **代码**: [https://github.com/orailix/cnn-4-llm-memo](https://github.com/orailix/cnn-4-llm-memo)  
-**领域**: 对齐RLHF / AI安全  
+**领域**: LLM/NLP  
 **关键词**: memorization taxonomy, attention analysis, CNN classifier, LLM privacy, verbatim memorization
 
 ## 一句话总结
@@ -128,9 +128,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] UnSeenTimeQA: Time-Sensitive Question-Answering Beyond LLMs' Memorization](../../ACL2025/llm_nlp/unseentimeqa_time-sensitive_question-answering_beyond_llms_memorization.md)
+- [\[ACL 2026\] Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms](../../ACL2026/llm_nlp/revisiting_non-verbatim_memorization_in_large_language_models_the_role_of_entity.md)
 - [\[ACL 2025\] Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs](../../ACL2025/llm_nlp/token_prepending_training_free.md)
 - [\[CVPR 2026\] SketchDeco: Training-Free Latent Composition for Precise Sketch Colourisation](../../CVPR2026/llm_nlp/sketchdeco_training-free_latent_composition_for_precise_sketch_colourisation.md)
 - [\[ICML 2025\] Regress, Don't Guess — A Regression-like Loss on Number Tokens for Language Models](../../ICML2025/llm_nlp/regress_dont_guess_--_a_regression-like_loss_on_number_tokens_for_language_model.md)
-- [\[ACL 2025\] Lost in Literalism: How Supervised Training Shapes Translationese in LLMs](../../ACL2025/llm_nlp/lost_in_literalism_how_supervised_training_shapes_translationese_in_llms.md)
 
 <!-- RELATED:END -->

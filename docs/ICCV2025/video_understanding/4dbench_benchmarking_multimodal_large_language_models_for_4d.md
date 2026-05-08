@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.17827](https://arxiv.org/abs/2503.17827)  
-**代码**: [https://4dbench.github.io/](https://4dbench.github.io/) (有)  
+**代码**: [https://4dbench.github.io/](https://4dbench.github.io/)  
 **领域**: 视频理解 / 多模态VLM  
 **关键词**: 4D理解, 多模态大语言模型, benchmark, 多视角时序理解, 4D物体问答
 

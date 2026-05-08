@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.05078](https://arxiv.org/abs/2512.05078)  
 **代码**: 未公开  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: conditional flow matching, galaxy property estimation, simulation-based inference, morphology, posterior inference  
 
 ## 一句话总结

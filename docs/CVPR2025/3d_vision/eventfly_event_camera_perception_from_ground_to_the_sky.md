@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19916](https://arxiv.org/abs/2503.19916)  
-**代码**: 有（https://event-fly.github.io）  
+**代码**: 有（[https://event-fly.github.io](https://event-fly.github.io)）  
 **领域**: 3D视觉  
 **关键词**: 事件相机, 跨平台域适应, 语义分割, 数据混合, 对抗训练
 

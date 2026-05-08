@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2512.06393](https://arxiv.org/abs/2512.06393)  
-**代码**: https://github.com/14H034160212/lemo  
+**代码**: [https://github.com/14H034160212/lemo](https://github.com/14H034160212/lemo)  
 **领域**: LLM推理  
 **关键词**: logic inertia, contradiction detection, dual-process reasoning, structural robustness, rule-based reasoning
 
@@ -130,6 +130,6 @@ tags:
 - [\[ICLR 2026\] AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent](agentmath_empowering_mathematical_reasoning_for_large_language_models_via_tool-a.md)
 - [\[ICLR 2026\] DESIGNER: Design-Logic-Guided Multidisciplinary Data Synthesis for LLM Reasoning](designer_design-logic-guided_multidisciplinary_data_synthesis_for_llm_reasoning.md)
 - [\[ACL 2025\] Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification](../../ACL2025/llm_reasoning/safe_math_reasoning.md)
-- [\[ICLR 2026\] Efficient Test-Time Scaling for Small Vision-Language Models](efficient_test-time_scaling_for_small_vision-language_models.md)
+- [\[ICLR 2026\] Towards Safe Reasoning in Large Reasoning Models via Corrective Intervention](towards_safe_reasoning_in_large_reasoning_models_via_corrective_intervention.md)
 
 <!-- RELATED:END -->

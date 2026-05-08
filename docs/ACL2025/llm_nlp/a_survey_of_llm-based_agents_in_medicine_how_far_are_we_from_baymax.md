@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.11211](https://arxiv.org/abs/2502.11211)  
 **代码**: 无  
-**领域**: LLM Agent / 医学AI  
+**领域**: LLM/NLP  
 **关键词**: LLM医学Agent, 临床决策, 多Agent协作, 医学推理, 架构综述
 
 ## 一句话总结
@@ -125,7 +125,7 @@ tags:
 - [\[ACL 2025\] Large Language Models for Predictive Analysis: How Far Are They?](large_language_models_for_predictive_analysis_how_far_are_they.md)
 - [\[ACL 2025\] From Selection to Generation: A Survey of LLM-based Active Learning](from_selection_to_generation_a_survey.md)
 - [\[ACL 2025\] MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents](membench_towards_more_comprehensive_evaluation_on_the_memory_of_llm-based_agents.md)
-- [\[ACL 2025\] How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond](human_nlp_cooperation_survey.md)
 - [\[ACL 2025\] PlanGenLLMs: A Modern Survey of LLM Planning Capabilities](plangenllms_planning_survey.md)
+- [\[ACL 2025\] How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond](human_nlp_cooperation_survey.md)
 
 <!-- RELATED:END -->

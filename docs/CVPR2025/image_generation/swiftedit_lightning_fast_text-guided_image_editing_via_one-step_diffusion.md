@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04301](https://arxiv.org/abs/2412.04301)  
-**代码**: https://swift-edit.github.io/  
+**代码**: [https://swift-edit.github.io/](https://swift-edit.github.io/)  
 **领域**: 图像生成  
 **关键词**: 图像编辑, 单步扩散, 反演网络, 注意力重缩放, 实时编辑
 

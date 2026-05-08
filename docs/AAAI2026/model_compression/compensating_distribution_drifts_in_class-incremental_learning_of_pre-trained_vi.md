@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.09926](https://arxiv.org/abs/2511.09926)  
 **代码**: [raoxuan98-hash/sldc](https://github.com/raoxuan98-hash/sldc)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: class-incremental learning, distribution drift, vision transformer, knowledge distillation, sequential fine-tuning
 
 ## 一句话总结

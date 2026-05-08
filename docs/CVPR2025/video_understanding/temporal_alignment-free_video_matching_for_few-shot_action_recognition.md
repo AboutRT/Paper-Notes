@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.05956](https://arxiv.org/abs/2504.05956)  
-**代码**: https://github.com/leesb7426/TEAM  
+**代码**: [https://github.com/leesb7426/TEAM](https://github.com/leesb7426/TEAM)  
 **领域**: 视频理解  
 **关键词**: 少样本动作识别, 时序无对齐匹配, 模式令牌, 元学习, 特征聚合
 
@@ -134,8 +134,8 @@ tags:
 
 - [\[CVPR 2025\] TAMT: Temporal-Aware Model Tuning for Cross-Domain Few-Shot Action Recognition](tamt_temporal-aware_model_tuning_for_cross-domain_few-shot_action_recognition.md)
 - [\[AAAI 2026\] Task-Specific Distance Correlation Matching for Few-Shot Action Recognition](../../AAAI2026/video_understanding/task-specific_distance_correlation_matching_for_few-shot_action_recognition.md)
+- [\[CVPR 2025\] Few-Shot Personalized Scanpath Prediction](few-shot_personalized_scanpath_prediction.md)
 - [\[CVPR 2025\] Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models](video-panda_parameter-efficient_alignment_for_encoder-free_video-language_models.md)
 - [\[ICCV 2025\] Beyond Label Semantics: Language-Guided Action Anatomy for Few-shot Action Recognition](../../ICCV2025/video_understanding/beyond_label_semantics_language-guided_action_anatomy_for_few-shot_action_recogn.md)
-- [\[CVPR 2025\] VideoGEM: Training-Free Action Grounding in Videos](videogem_training-free_action_grounding_in_videos.md)
 
 <!-- RELATED:END -->

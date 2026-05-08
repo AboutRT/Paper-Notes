@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.17874](https://arxiv.org/abs/2509.17874)  
-**代码**: https://github.com/pauliusrauba/nested-subspace-networks  
-**领域**: 模型压缩 / LLM效率  
+**代码**: [https://github.com/pauliusrauba/nested-subspace-networks](https://github.com/pauliusrauba/nested-subspace-networks)  
+**领域**: 医学图像  
 **关键词**: 嵌套子空间, 动态推理, 低秩分解, 不确定性感知训练, 弹性计算
 
 ## 一句话总结
@@ -130,9 +130,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] Tracing Pharmacological Knowledge in Large Language Models](tracing_pharmacological_knowledge_in_large_language_models.md)
+- [\[ICLR 2026\] NeuroCircuitry-Inspired Hierarchical Graph Causal Attention Networks for Explainable Depression Identification](neurocircuitry-inspired_hierarchical_graph_causal_attention_networks_for_explain.md)
 - [\[ICLR 2026\] Knowledgeable Language Models as Black-Box Optimizers for Personalized Medicine](knowledgeable_language_models_as_black-box_optimizers_for_personalized_medicine.md)
 - [\[NeurIPS 2025\] Position: Thematic Analysis of Unstructured Clinical Transcripts with Large Language Models](../../NeurIPS2025/medical_imaging/position_thematic_analysis_of_unstructured_clinical_transcripts_with_large_langu.md)
 - [\[AAAI 2026\] Coarse-to-Fine Open-Set Graph Node Classification with Large Language Models](../../AAAI2026/medical_imaging/coarse-to-fine_open-set_graph_node_classification_with_large_language_models.md)
-- [\[CVPR 2026\] Automated Detection of Malignant Lesions in the Ovary Using Deep Learning Models and XAI](../../CVPR2026/medical_imaging/automated_detection_of_malignant_lesions_in_the_ov.md)
 
 <!-- RELATED:END -->

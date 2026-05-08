@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2407.06780](https://arxiv.org/abs/2407.06780)  
 **代码**: 无  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: Dual-modal Salient Object Detection, Modality Robustness, CLIP, Conditional Dropout, Quality Assessment
 
 ## 一句话总结
@@ -144,6 +144,6 @@ LQA 与 BRISQUE、GIE、CLIP-IQA、CLIP-IQA+ 对比，在 VT821 上 $S_\alpha$ �
 - [\[NeurIPS 2025\] Robust Egocentric Referring Video Object Segmentation via Dual-Modal Causal Intervention](../../NeurIPS2025/segmentation/robust_egocentric_referring_video_object_segmentation_via_dual-modal_causal_inte.md)
 - [\[ECCV 2024\] Efficient and Versatile Robust Fine-Tuning of Zero-shot Models](efficient_and_versatile_robust_fine-tuning_of_zero-shot_models.md)
 - [\[CVPR 2025\] Visual Consensus Prompting for Co-Salient Object Detection](../../CVPR2025/segmentation/visual_consensus_prompting_for_co-salient_object_detection.md)
-- [\[ECCV 2024\] Frequency-Spatial Entanglement Learning for Camouflaged Object Detection](frequency-spatial_entanglement_learning_for_camouflaged_object_detection.md)
+- [\[ECCV 2024\] Learning Camouflaged Object Detection from Noisy Pseudo Label](learning_camouflaged_object_detection_from_noisy_pseudo_label.md)
 
 <!-- RELATED:END -->

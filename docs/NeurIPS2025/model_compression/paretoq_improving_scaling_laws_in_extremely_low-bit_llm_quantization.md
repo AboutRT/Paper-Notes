@@ -60,13 +60,13 @@ ParetoQ 的方法论分三步展开：
 
 2. **Stretched Elastic Quant (SEQ) 量化器**：针对 1.58-bit 和 2-bit 提出的关键创新。问题是：2-bit 量化有 4 个量化级别，若包含 0（如 $\{-2,-1,0,1\}$），正数只有一个级别，分布不均衡；若排除 0（如 $\{-1.5,-0.5,0.5,1.5\}$），则均衡但无法表示零值。SEQ 的解：
 
-   $$\mathbf{W}_Q^i = \alpha \left(\lfloor \text{Clip}\left(\frac{\mathbf{W}_R^i}{\alpha}, -1, 1\right) \times \frac{k}{2} - 0.5 \rceil + 0.5 \right) / k \times 2$$
+    $\mathbf{W}_Q^i = \alpha \left(\lfloor \text{Clip}\left(\frac{\mathbf{W}_R^i}{\alpha}, -1, 1\right) \times \frac{k}{2} - 0.5 \rceil + 0.5 \right) / k \times 2$
 
    这同时实现了均衡的量化级别和均匀覆盖全精度权重范围。3-bit/4-bit 仍使用 LSQ（含 0 更优）。
 
 3. **统一量化公式 ParetoQ**：
 
-   $$\mathbf{W}_Q^i = \begin{cases} \alpha \cdot \text{Sign}(\mathbf{W}_R^i), & N_{\text{bit}} = 1 \\ \alpha(\lfloor \text{Clip}(\frac{\mathbf{W}_R^i}{\alpha}, -1, 1) \times k/2 - 0.5 \rceil + 0.5)/k \times 2, & N_{\text{bit}} = 1.58, 2 \\ \alpha \lfloor \text{Clip}(\frac{\mathbf{W}_R^i}{\alpha}, n, p) \rceil, & N_{\text{bit}} = 3, 4 \end{cases}$$
+    $\mathbf{W}_Q^i = \begin{cases} \alpha \cdot \text{Sign}(\mathbf{W}_R^i), & N_{\text{bit}} = 1 \\ \alpha(\lfloor \text{Clip}(\frac{\mathbf{W}_R^i}{\alpha}, -1, 1) \times k/2 - 0.5 \rceil + 0.5)/k \times 2, & N_{\text{bit}} = 1.58, 2 \\ \alpha \lfloor \text{Clip}(\frac{\mathbf{W}_R^i}{\alpha}, n, p) \rceil, & N_{\text{bit}} = 3, 4 \end{cases}$
 
    反向传播使用 STE（Straight-Through Estimator），对权重和缩放因子 $\alpha$ 分别定义梯度。$\alpha$ 初始化：1-bit 用 $\ell_1$ 均值，其余用最大绝对值。
 

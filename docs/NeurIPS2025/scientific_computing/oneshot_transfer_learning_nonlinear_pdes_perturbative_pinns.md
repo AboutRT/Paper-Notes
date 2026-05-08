@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.11137](https://arxiv.org/abs/2511.11137)  
 **代码**: 无  
-**领域**: 其他（科学机器学习）  
+**领域**: 科学计算  
 **关键词**: PINNs, 微扰理论, 迁移学习, 偏微分方程, 闭式求解
 
 ## 一句话总结
@@ -113,6 +113,6 @@ tags:
 - [\[ICML 2025\] Maximal Update Parametrization and Zero-Shot Hyperparameter Transfer for Fourier Neural Operators](../../ICML2025/scientific_computing/maximal_update_parametrization_and_zero-shot_hyperparameter_transfer_for_fourier.md)
 - [\[NeurIPS 2025\] Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data](neural_emulator_superiority_when_machine_learning_for_pdes_surpasses_its_trainin.md)
 - [\[NeurIPS 2025\] DeltaPhi: Physical States Residual Learning for Neural Operators in Data-Limited PDE Solving](deltaphi_physical_states_residual_learning_for_neural_operators_in_data-limited_.md)
-- [\[ICLR 2026\] DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning](../../ICLR2026/scientific_computing/drift-net_a_spectral--coupled_neural_operator_for_pdes_learning.md)
+- [\[NeurIPS 2025\] Towards Universal Neural Operators through Multiphysics Pretraining](towards_universal_neural_operators_through_multiphysics_pretraining.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.07987](https://arxiv.org/abs/2404.07987)  
-**代码**: https://github.com/liming-ai/ControlNet_Plus_Plus  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/liming-ai/ControlNet_Plus_Plus](https://github.com/liming-ai/ControlNet_Plus_Plus)  
+**领域**: 图像分割  
 **关键词**: 可控生成, 扩散模型, 循环一致性, 高效奖励微调, ControlNet
 
 ## 一句话总结
@@ -130,9 +130,9 @@ $$\mathcal{L}_{total} = \mathcal{L}_{train} + \lambda \cdot \mathcal{L}_{reward}
 ## 相关论文
 
 - [\[ECCV 2024\] SegGen: Supercharging Segmentation Models with Text2Mask and Mask2Img Synthesis](seggen_supercharging_segmentation_models_with_text2mask_and_mask2img_synthesis.md)
-- [\[ECCV 2024\] UDiffText: A Unified Framework for High-quality Text Synthesis in Arbitrary Images via Character-aware Diffusion Models](udifftext_a_unified_framework_for_high-quality_text_synthesis_in_arbitrary_image.md)
-- [\[ECCV 2024\] Diffusion Models for Open-Vocabulary Segmentation](diffusion_models_for_open-vocabulary_segmentation.md)
 - [\[ECCV 2024\] Dataset Enhancement with Instance-Level Augmentations](dataset_enhancement_with_instance-level_augmentations.md)
+- [\[ECCV 2024\] Diffusion Models for Open-Vocabulary Segmentation](diffusion_models_for_open-vocabulary_segmentation.md)
 - [\[ECCV 2024\] CPM: Class-Conditional Prompting Machine for Audio-Visual Segmentation](cpm_class-conditional_prompting_machine_for_audio-visual_segmentation.md)
+- [\[ECCV 2024\] Efficient and Versatile Robust Fine-Tuning of Zero-shot Models](efficient_and_versatile_robust_fine-tuning_of_zero-shot_models.md)
 
 <!-- RELATED:END -->

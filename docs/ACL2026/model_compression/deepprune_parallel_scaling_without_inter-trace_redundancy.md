@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2510.08483](https://arxiv.org/abs/2510.08483)  
 **代码**: [https://deepprune.github.io/](https://deepprune.github.io/)  
-**领域**: 推理效率 / 并行扩展  
+**领域**: 模型压缩  
 **关键词**: 并行推理, CoT剪枝, 推理冗余, 答案等价预测, 推理效率
 
 ## 一句话总结

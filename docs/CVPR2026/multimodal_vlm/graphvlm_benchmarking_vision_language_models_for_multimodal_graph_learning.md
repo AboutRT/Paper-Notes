@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 多模态
-  - 多模态图学习
+  - 多模态VLM
   - VLM
   - 图神经网络
   - benchmark
@@ -51,7 +51,7 @@ GraphVLM 将 VLM 在 MMGL 中的角色分为三类，构建统一评估协议：
     - **Fine-tuned PVLM (PVLM-F)**：在特定MMG数据集上用对比学习微调CLIP，增强模态对齐
     - **Structure-aware PVLM (PVLM-F-S)**：在GNN框架内联合优化，引入结构感知对比损失：
 
-   $$\mathcal{L}_v = -\log \frac{\exp(\text{sim}(\mathcal{E}_{TI}^{v_i}, \mathcal{E}_{TI}^{v_j}) / \tau)}{\sum_{v_k \in \mathcal{B}} \exp(\text{sim}(\mathcal{E}_{TI}^{v_i}, \mathcal{E}_{TI}^{v_k}) / \tau)}$$
+    $\mathcal{L}_v = -\log \frac{\exp(\text{sim}(\mathcal{E}_{TI}^{v_i}, \mathcal{E}_{TI}^{v_j}) / \tau)}{\sum_{v_k \in \mathcal{B}} \exp(\text{sim}(\mathcal{E}_{TI}^{v_i}, \mathcal{E}_{TI}^{v_k}) / \tau)}$
 
    其中 $\mathcal{E}_{TI}^{v_i}$ 为中心节点的文本-图像拼接嵌入，$v_j$ 为其1-hop邻居。设计动机：让编码器感知图拓扑结构，使相邻节点嵌入更接近。
 
@@ -59,16 +59,16 @@ GraphVLM 将 VLM 在 MMGL 中的角色分为三类，构建统一评估协议：
 
     - **Latent-Space Aligner**：用CLIP多模态嵌入替换GraphLLM中的单模态节点表示，保持原始架构不变
     - **Prompt-Level Aligner**：用Qwen-VL将图像描述转文本，构造"视觉增强节点prompt"：
-     - Visual-augmented: $\mathcal{T}^I = \text{VLM}(\mathcal{P}_{\text{Gen}}, \mathcal{I}; \theta)$，再用VLM总结为简洁摘要 $\mathcal{T}^S$
-     - Structure-aware: 进一步融合邻居节点的视觉描述 $\mathcal{T}^{SS}$
+      - Visual-augmented: $\mathcal{T}^I = \text{VLM}(\mathcal{P}_{\text{Gen}}, \mathcal{I}; \theta)$，再用VLM总结为简洁摘要 $\mathcal{T}^S$
+      - Structure-aware: 进一步融合邻居节点的视觉描述 $\mathcal{T}^{SS}$
     - 设计动机：分别在特征级和提示级实现跨模态桥接，适配不同GraphLLM架构
 
 3. **VLM-as-Predictor**：直接微调VLM为图学习骨干
 
     - **Explicit Prompt-Level Fusion**：构建包含锚节点及其top-k最相似邻居属性的prompt
     - **Implicit Latent-Space Fusion**：将邻居表示聚合为结构感知token注入模型隐空间
-     - 视觉：平均池化邻居图像的patch嵌入
-     - 文本：平均final-layer token嵌入作为节点级表示
+      - 视觉：平均池化邻居图像的patch嵌入
+      - 文本：平均final-layer token嵌入作为节点级表示
     - 使用 LLaVA-1.5-7B / Qwen-VL-7B / Qwen2.5-VL-7B 进行LoRA微调
 
 ### 损失函数 / 训练策略
@@ -137,10 +137,10 @@ GraphVLM 将 VLM 在 MMGL 中的角色分为三类，构建统一评估协议：
 
 ## 相关论文
 
-- [\[CVPR 2026\] VL-RouterBench: A Benchmark for Vision-Language Model Routing](vl-routerbench_a_benchmark_for_vision-language_model_routing.md)
 - [\[CVPR 2026\] Benchmarking Vision-Language Models under Contradictory Virtual Content Attacks in Augmented Reality](benchmarking_vision-language_models_under_contradictory_virtual_content_attacks_.md)
 - [\[CVPR 2026\] Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](continual_learning_with_visionlanguage_models_via.md)
 - [\[CVPR 2026\] Multi-Crit: Benchmarking Multimodal Judges on Pluralistic Criteria-Following](multi-crit_benchmarking_multimodal_judges_on_pluralistic_criteria-following.md)
-- [\[CVPR 2025\] Mosaic of Modalities: A Comprehensive Benchmark for Multimodal Graph Learning](../../CVPR2025/multimodal_vlm/mosaic_of_modalities_a_comprehensive_benchmark_for_multimodal_graph_learning.md)
+- [\[CVPR 2026\] VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving](vggdrive_empowering_vision-language_models_with_cross-view_geometric_grounding_f.md)
+- [\[CVPR 2026\] VL-RouterBench: A Benchmark for Vision-Language Model Routing](vl-routerbench_a_benchmark_for_vision-language_model_routing.md)
 
 <!-- RELATED:END -->

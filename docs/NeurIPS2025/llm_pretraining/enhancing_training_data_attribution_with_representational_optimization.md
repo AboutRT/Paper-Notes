@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18513](https://arxiv.org/abs/2505.18513)  
 **代码**: [github.com/sunnweiwei/AirRep](https://github.com/sunnweiwei/AirRep)  
-**领域**: llm_nlp  
+**领域**: LLM预训练  
 **关键词**: training data attribution, 表示学习, 影响函数, attention pooling, 数据选择
 
 ## 一句话总结

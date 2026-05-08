@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.02009](https://arxiv.org/abs/2501.02009)  
 **代码**: 无  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: steering vectors, cross-model transfer, representation alignment, linear transformation, LLM interpretability
 
 ## 一句话总结
@@ -112,8 +112,8 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Representations of Fact, Fiction and Forecast in Large Language Models: Epistemics and Attitudes](representations_of_fact_fiction_and_forecast_in_large_language_models_epistemics.md)
-- [\[ACL 2025\] From Neurons to Semantics: Evaluating Cross-Linguistic Alignment Capabilities of Large Language Models via Neurons Alignment](neuronxa-cross-lingual-alignment-via-neurons.md)
 - [\[ACL 2025\] On the Acquisition of Shared Grammatical Representations in Bilingual Language Models](on_the_acquisition_of_shared_grammatical_representations_in_bilingual_language_m.md)
+- [\[ACL 2025\] From Neurons to Semantics: Evaluating Cross-Linguistic Alignment Capabilities of Large Language Models via Neurons Alignment](neuronxa-cross-lingual-alignment-via-neurons.md)
 - [\[ACL 2025\] Language-Codec: Bridging Discrete Codec Representations and Speech Language Models](language_codec_bridging_discrete_codec_speech_language_models.md)
 - [\[ACL 2025\] NeKo: Cross-Modality Post-Recognition Error Correction with Tasks-Guided Mixture-of-Experts Language Model](neko_cross-modality_post-recognition_error_correction_with_tasks-guided_mixture-.md)
 

@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2411.00459](https://arxiv.org/abs/2411.00459)  
 **代码**: [GitHub](https://github.com/LukeChen-go/pia-defense-by-attack)  
 **机构**: NUS & HKUST & HIT-Shenzhen
-**领域**: AI安全  
+**领域**: LLM安全  
 **关键词**: prompt injection, defense, attack techniques, shield prompt, fake completion, LLM safety
 
 ## 一句话总结
@@ -141,9 +141,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Can Indirect Prompt Injection Attacks Be Detected and Removed?](indirect_prompt_injection_detection.md)
-- [\[ACL 2025\] UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models](ualign_leveraging_uncertainty_estimations_for_factuality_alignment_on_large_lang.md)
-- [\[ICLR 2026\] Enhancing Hallucination Detection through Noise Injection](../../ICLR2026/llm_safety/enhancing_hallucination_detection_through_noise_injection.md)
-- [\[ACL 2025\] Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation](learning_auxiliary_tasks_improves_reference-free_hallucination_detection_in_open.md)
-- [\[ACL 2025\] ReLearn: Unlearning via Learning for Large Language Models](relearn_unlearning_via_learning_for_large_language_models.md)
+- [\[AAAI 2026\] GraphTextack: A Realistic Black-Box Node Injection Attack on LLM-Enhanced GNNs](../../AAAI2026/llm_safety/graphtextack_a_realistic_black-box_node_injection_attack_on_llm-enhanced_gnns.md)
+- [\[ACL 2025\] CAVGAN: Unifying Jailbreak and Defense of LLMs via Generative Adversarial Attacks](cavgan_unifying_jailbreak_and_defense_of_llms_via_generative_adversarial_attacks.md)
+- [\[CVPR 2026\] Multi-Paradigm Collaborative Adversarial Attack Against Multi-Modal Large Language Models](../../CVPR2026/llm_safety/multi-paradigm_collaborative_adversarial_attack_against_multi-modal_large_langua.md)
+- [\[ACL 2025\] TIP of the Iceberg: Task-in-Prompt Adversarial Attacks on LLMs](tip_iceberg_adversarial_attacks.md)
 
 <!-- RELATED:END -->

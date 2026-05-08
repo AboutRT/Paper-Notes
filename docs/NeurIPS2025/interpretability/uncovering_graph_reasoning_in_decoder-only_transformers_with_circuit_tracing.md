@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Workshop on Efficient Reasoning)][图推理] 通过电路追踪 (circuit tracing) 框架分析 decoder-only Transformer 在图推理任务上的内部机制，发现了 token merging 和 structural memorization 两个核心推理机制。
 tags:
-  - NeurIPS 2025 (Workshop on Efficient Reasoning)
+  - 可解释性
   - 图推理
   - Transformer
   - 电路追踪
@@ -152,8 +152,8 @@ $$\mathcal{L} = -\sum_t \log P(y_t | y_{<t}, G)$$
 
 - [\[NeurIPS 2025\] How Do Transformers Learn Implicit Reasoning?](how_do_transformers_learn_implicit_reasoning.md)
 - [\[ACL 2025\] Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](../../ACL2025/interpretability/safety_is_not_only_about_refusal_reasoning-enhanced_fine-tuning_for_interpretabl.md)
-- [\[NeurIPS 2025\] What Happens During the Loss Plateau? Understanding Abrupt Learning in Transformers](what_happens_during_the_loss_plateau_understanding_abrupt_learning_in_transforme.md)
-- [\[ACL 2025\] Position-aware Automatic Circuit Discovery](../../ACL2025/interpretability/position-aware_automatic_circuit_discovery.md)
+- [\[NeurIPS 2025\] nnterp: A Standardized Interface for Mechanistic Interpretability of Transformers](nnterp_a_standardized_interface_for_mechanistic_interpretability_of_transformers.md)
 - [\[NeurIPS 2025\] How Intrinsic Motivation Shapes Learned Representations in Decision Transformers: A Cognitive Interpretability Analysis](toward_explainable_offline_rl_analyzing_representations_in_intrinsically_motivat.md)
+- [\[CVPR 2025\] Prompt-CAM: Making Vision Transformers Interpretable for Fine-Grained Analysis](../../CVPR2025/interpretability/prompt-cam_making_vision_transformers_interpretable_for_fine-grained_analysis.md)
 
 <!-- RELATED:END -->

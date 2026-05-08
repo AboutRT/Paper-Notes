@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 截断多项式分类器
   - 安全监控
-  - 动态推理
+  - 可解释性
   - 线性探针
   - 激活空间
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.26238](https://arxiv.org/abs/2509.26238)  
-**代码**: [https://github.com/james-oldfield/tpc](https://github.com/james-oldfield/tpc) (有)  
+**代码**: [https://github.com/james-oldfield/tpc](https://github.com/james-oldfield/tpc)  
 **领域**: 模型安全 / 激活空间监控 / AI安全  
 **关键词**: 截断多项式分类器, 安全监控, 动态推理, 线性探针, 激活空间  
 
@@ -138,8 +138,8 @@ tags:
 
 - [\[ICLR 2026\] GAVEL: Towards Rule-Based Safety through Activation Monitoring](gavel_towards_rule-based_safety_through_activation_monitoring.md)
 - [\[ICLR 2026\] Dynamic Reflections: Probing Video Representations with Text Alignment](dynamic_reflections_probing_video_representations_with_text_alignment.md)
-- [\[NeurIPS 2025\] Emergence of Linear Truth Encodings in Language Models](../../NeurIPS2025/interpretability/emergence_of_linear_truth_encodings_in_language_models.md)
 - [\[ICLR 2026\] Dynamic Reflections: Probing Video Representations with Text-Driven Reasoning](dynamic_reflections_probing_video_representations_with_text_driven_reasoning.md)
+- [\[ICLR 2026\] Internal Planning in Language Models: Characterizing Horizon and Branch Awareness](internal_planning_in_language_models_characterizing_horizon_and_branch_awareness.md)
 - [\[NeurIPS 2025\] Beyond Token Probes: Hallucination Detection via Activation Tensors with ACT-ViT](../../NeurIPS2025/interpretability/beyond_token_probes_hallucination_detection_via_activation_tensors_with_act-vit.md)
 
 <!-- RELATED:END -->

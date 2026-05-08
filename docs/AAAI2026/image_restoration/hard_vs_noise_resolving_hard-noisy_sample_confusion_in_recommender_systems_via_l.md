@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI2026
   - 图像恢复
-  - recommender systems
+  - 图像复原
   - 去噪
   - hard sample
   - LLM
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.07295](https://arxiv.org/abs/2511.07295)  
 **代码**: [GitHub](https://github.com/TianRui-Song717/LLMHNI)  
-**领域**: self_supervised  
+**领域**: 图像复原  
 **关键词**: recommender systems, denoising, hard sample, LLM, contrastive learning
 
 ## 一句话总结
@@ -138,7 +138,7 @@ LLMHNI 包含两个核心模块：
 - [\[AAAI 2026\] Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework](large_language_models_meet_extreme_multi-label_classification_scaling_and_multi-.md)
 - [\[ACL 2026\] CreditDecoding: Accelerating Parallel Decoding in Diffusion Large Language Models with Trace Credit](../../ACL2026/image_restoration/creditdecoding_accelerating_parallel_decoding_in_diffusion_large_language_models.md)
 - [\[ACL 2026\] Lost in Diffusion: Uncovering Hallucination Patterns and Failure Modes in Diffusion Large Language Models](../../ACL2026/image_restoration/lost_in_diffusion_uncovering_hallucination_patterns_and_failure_modes_in_diffusi.md)
-- [\[ICLR 2026\] Activation Steering for Masked Diffusion Language Models](../../ICLR2026/image_restoration/activation_steering_for_masked_diffusion_language_models.md)
+- [\[ICLR 2026\] wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models](../../ICLR2026/image_restoration/wd1_weighted_policy_optimization_for_reasoning_in_diffusion_language_models.md)
 - [\[ICLR 2026\] Are Deep Speech Denoising Models Robust to Adversarial Noise?](../../ICLR2026/image_restoration/are_deep_speech_denoising_models_robust_to_adversarial_noise.md)
 
 <!-- RELATED:END -->

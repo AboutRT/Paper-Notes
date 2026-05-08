@@ -5,7 +5,7 @@ description: >-
   [ICLR 2026][Noise-Aware Generalization] 首次形式化了 Noise-Aware Generalization (NAG) 问题——在标签噪声下同时追求域内鲁棒性和域外泛化能力，并提出 DL4ND 方法通过跨域比较检测噪声标签，在 7 个数据集上最高提升 12.5%。
 tags:
   - ICLR 2026
-  - Noise-Aware Generalization
+  - LLM评测
   - Domain Generalization
   - Learning with Noisy Labels
   - Cross-Domain Noise Detection
@@ -151,9 +151,9 @@ DL4ND 是一个噪声检测模块，可以与任意 DG 方法（ERM、ERM++、SA
 ## 相关论文
 
 - [\[CVPR 2025\] Gradient-Guided Annealing for Domain Generalization](../../CVPR2025/llm_evaluation/gradient-guided_annealing_for_domain_generalization.md)
-- [\[ICML 2025\] Set-Valued Predictions for Robust Domain Generalization](../../ICML2025/llm_evaluation/set_valued_predictions_for_robust_domain_generalization.md)
 - [\[ICML 2025\] FEDTAIL: Federated Long-Tailed Domain Generalization with Sharpness-Guided Gradient Matching](../../ICML2025/llm_evaluation/fedtail_federated_long-tailed_domain_generalization_with_sharpness-guided_gradie.md)
-- [\[ICLR 2026\] Optimal Transport-Induced Samples against Out-of-Distribution Overconfidence](optimal_transport-induced_samples_against_out-of-distribution_overconfidence.md)
+- [\[ICML 2025\] Set-Valued Predictions for Robust Domain Generalization](../../ICML2025/llm_evaluation/set_valued_predictions_for_robust_domain_generalization.md)
 - [\[ICLR 2026\] SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home Agents](simuhome_a_temporal-_and_environment-aware_benchmark_for_smart_home_agents.md)
+- [\[ICLR 2026\] Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis](talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md)
 
 <!-- RELATED:END -->

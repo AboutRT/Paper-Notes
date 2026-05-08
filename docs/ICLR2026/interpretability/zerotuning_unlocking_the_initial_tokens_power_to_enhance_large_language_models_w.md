@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2505.11739](https://arxiv.org/abs/2505.11739)
 - **代码**: [https://anonymous.4open.science/r/ZeroTuning](https://anonymous.4open.science/r/ZeroTuning)
-- **领域**: 大语言模型 / 注意力机制 / 推理时优化 / 模型压缩
+- **领域**: 可解释性
 - **关键词**: 注意力调优, 初始 token, attention sink, 零训练增强, 头部特异性
 
 ## 一句话总结

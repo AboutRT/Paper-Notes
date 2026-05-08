@@ -52,10 +52,10 @@ RAD包含三个协同组件：(1) 多源指南检索与精炼；(2) 指南增强
    从"Wiki"、"Research"（PubMed）、"Guideline"（45K条临床实践指南）、"Book"（医学教材）四类源检索知识。
 
    对数据集中的 $m$ 种疾病，使用MedCPT（双编码器检索模型）计算疾病名称与语料的相似度：
-   $$\mathcal{C}_i = \underset{p_j \in P}{\text{Top-}k} \text{Sim}(e_i, p_j)$$
+    $\mathcal{C}_i = \underset{p_j \in P}{\text{Top-}k} \text{Sim}(e_i, p_j)$
 
    检索到的文档可能冗余或含噪声，使用Qwen2.5-72B进行自动摘要精炼：
-   $$g_i = \text{LLM}([\text{Prompt}, c_{i,1}, \cdots, c_{i,k}])$$
+    $g_i = \text{LLM}([\text{Prompt}, c_{i,1}, \cdots, c_{i,k}])$
 
    产出标准化、结构化的诊断指南，包含关联症状、影像特征、关键检查项等，并经人工验证。
 
@@ -64,18 +64,18 @@ RAD包含三个协同组件：(1) 多源指南检索与精炼；(2) 指南增强
    将视觉编码器输出 $\mathbf{V}_i$ 和文本编码器输出 $\mathbf{T}_i$ 与疾病指南原型 $\mathbf{G}'$ 在潜空间中对齐。
 
    对样本 $i$，将指南特征分为正集 $\mathbf{P}_i$（对应正标签的指南）和负集 $\mathbf{N}_i$，通过负采样获得子集 $\mathbf{Q}_i$，最终GECL损失为：
-   $$\mathcal{L}_{\text{GECL}} = \frac{1}{N}\sum_{i=1}^{N} \left(\mathcal{L}_{\text{SupCon}}(\mathbf{T}'_i, \mathbf{S}_i) + \alpha \mathcal{L}_{\text{SupCon}}(\mathbf{V}'_i, \mathbf{S}_i)\right) \cdot \mathbb{I}[|\mathbf{P}_i|>0]$$
+    $\mathcal{L}_{\text{GECL}} = \frac{1}{N}\sum_{i=1}^{N} \left(\mathcal{L}_{\text{SupCon}}(\mathbf{T}'_i, \mathbf{S}_i) + \alpha \mathcal{L}_{\text{SupCon}}(\mathbf{V}'_i, \mathbf{S}_i)\right) \cdot \mathbb{I}[|\mathbf{P}_i|>0]$
 
    设计动机：将样本特征动态拉向正类指南原型、推离负类原型，引导模型选择性关注与指南匹配的临床相关特征，同时提升性能和可解释性。
 
 3. **双解码诊断网络 (Dual Diagnostic Network)**
 
    两个对称的Transformer解码器并行工作：
-   - **指南分支**：以指南 $g$ 的编码为query，拼接的模态特征 $\mathbf{V}_i \oplus \mathbf{T}_i$ 为key/value，输出 $\hat{y}_i^{\text{guide}}$
-   - **标签分支**：以疾病名称 $E$ 的编码为query，拼接的模态特征为key/value，输出 $\hat{y}_i^{\text{label}}$
+    - **指南分支**：以指南 $g$ 的编码为query，拼接的模态特征 $\mathbf{V}_i \oplus \mathbf{T}_i$ 为key/value，输出 $\hat{y}_i^{\text{guide}}$
+    - **标签分支**：以疾病名称 $E$ 的编码为query，拼接的模态特征为key/value，输出 $\hat{y}_i^{\text{label}}$
 
    总训练损失：
-   $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{BCE}}(\hat{y}^{\text{guide}}, y) + \mathcal{L}_{\text{BCE}}(\hat{y}^{\text{label}}, y) + \beta \mathcal{L}_{\text{GECL}}$$
+    $\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{BCE}}(\hat{y}^{\text{guide}}, y) + \mathcal{L}_{\text{BCE}}(\hat{y}^{\text{label}}, y) + \beta \mathcal{L}_{\text{GECL}}$
 
 ### 可解释性评估体系
 

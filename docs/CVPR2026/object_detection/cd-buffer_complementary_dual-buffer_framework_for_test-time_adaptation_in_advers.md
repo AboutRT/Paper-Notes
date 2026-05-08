@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.26092](https://arxiv.org/abs/2603.26092)  
-**代码**: [网站](https://wkfsksdl99.github.io/cd_buffer/) (有)  
+**代码**: [网站](https://wkfsksdl99.github.io/cd_buffer/)  
 **领域**: Object Detection  
 **关键词**: 测试时适应, 恶劣天气, 目标检测, 通道自适应, 加性-减性互补
 
@@ -47,16 +47,16 @@ tags:
 ### 关键设计
 
 1. **特征级域差异分数 (Feature-Level Domain Discrepancy)**：结合图像级和实例级两个层面的特征差异：
-   $$D^I = \frac{\sum_{n=1}^{N}\|X_t^c - \bar{X}_s^c\|_1}{NHW}, \quad D^O = \frac{\sum_{m=1}^{M}\|x_t^c - \bar{x}_s^c\|_1}{Mhw}$$
-   $$D = D^I + D^O$$
+    $D^I = \frac{\sum_{n=1}^{N}\|X_t^c - \bar{X}_s^c\|_1}{NHW}, \quad D^O = \frac{\sum_{m=1}^{M}\|x_t^c - \bar{x}_s^c\|_1}{Mhw}$
+    $D = D^I + D^O$
    其中 $X_s$ 为源域预计算均值特征，$x_s$ 为实例级（通过 RoI Align）均值特征。设计动机：目标检测需要同时考虑全局场景和局部实例的域迁移。高 $D$ 表示通道严重偏移需干预，低 $D$ 表示仅需微调。
 
 2. **减性缓冲 (Subtractive Buffer)**：引入可学习掩码分数 $s \in \mathbb{R}^C$（从 BN 权重初始化 $s_c = |\gamma_c|$），通过差异加权正则化驱动通道抑制：
-   $$\mathcal{L}_{mask} = \frac{1}{C}\sum_c \|D_c \cdot s_c\|_1$$
+    $\mathcal{L}_{mask} = \frac{1}{C}\sum_c \|D_c \cdot s_c\|_1$
    高差异通道的 $D_c$ 大，产生更强梯度压低 $s_c$，促使该通道被阈值化掩码抑制。通过动态百分位阈值 $\tau = \text{Percentile}(\{|s_c^{(l)}|\}, \rho_{target})$ 控制整体抑制率（5%），并用 straight-through estimator 保证梯度流通。另有随机重激活防止永久删除有用通道。
 
 3. **加性缓冲 (Additive Buffer)**：轻量适配器 $F_{add} = \frac{\text{Conv}_{1\times1}(F) + \text{Conv}_{3\times3}(F)}{2} \odot \boldsymbol{\alpha}$，使用可学习通道缩放因子 $\boldsymbol{\alpha}$（初始化为 $10^{-2}$）。关键创新是**逆向软掩码**：
-   $$\hat{m}_{soft}^{-1} = k \cdot \text{Norm}(\mathbf{1} - \hat{m}_{soft})$$
+    $\hat{m}_{soft}^{-1} = k \cdot \text{Norm}(\mathbf{1} - \hat{m}_{soft})$
    被减性缓冲强抑制的通道（$\hat{m}_{soft}$ 接近 0）获得最强的加性补偿（$\hat{m}_{soft}^{-1}$ 最大），实现"移除多少就补偿多少"的自动平衡。设计动机：减性缓冲删除严重退化特征的同时不可避免丢失信息，加性缓冲的逆向调制自动为这些通道提供最强补偿。
 
 ### 损失函数 / 训练策略
@@ -133,7 +133,7 @@ $$\mathcal{L} = \mathcal{L}_{align} + \lambda_{reg} \cdot \mathcal{L}_{mask}$$
 - [\[NeurIPS 2025\] Test-Time Adaptive Object Detection with Foundation Model](../../NeurIPS2025/object_detection/test-time_adaptive_object_detection_with_foundation_model.md)
 - [\[CVPR 2025\] Test-Time Backdoor Detection for Object Detection Models](../../CVPR2025/object_detection/test-time_backdoor_detection_for_object_detection_models.md)
 - [\[CVPR 2026\] Beyond Prompt Degradation: Prototype-Guided Dual-Pool Prompting for Incremental Object Detection](beyond_prompt_degradation_prototype-guided_dual-pool_prompting_for_incremental_o.md)
-- [\[AAAI 2026\] Robust Long-term Test-Time Adaptation for 3D Human Pose Estimation through Motion Discretization](../../AAAI2026/object_detection/robust_long-term_test-time_adaptation_for_3d_human_pose_estimation_through_motio.md)
-- [\[ICCV 2025\] Is Less More? Exploring Token Condensation as Training-free Test-time Adaptation](../../ICCV2025/object_detection/is_less_more_exploring_token_condensation_as_training-free_test-time_adaptation.md)
+- [\[CVPR 2025\] Efficient Test-Time Adaptive Object Detection via Sensitivity-Guided Pruning](../../CVPR2025/object_detection/efficient_test-time_adaptive_object_detection_via_sensitivity-guided_pruning.md)
+- [\[CVPR 2026\] CompAgent: An Agentic Framework for Visual Compliance Verification](compagent_an_agentic_framework_for_visual_compliance_verification.md)
 
 <!-- RELATED:END -->

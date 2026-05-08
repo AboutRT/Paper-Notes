@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.05795](https://arxiv.org/abs/2502.05795)  
-**代码**: https://github.com/wenfang-sun/LayerNorm-Scaling  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/wenfang-sun/LayerNorm-Scaling](https://github.com/wenfang-sun/LayerNorm-Scaling)  
+**领域**: LLM预训练  
 **关键词**: Pre-Layer Normalization, 深度诅咒, 方差控制, LayerNorm Scaling, Transformer
 
 ## 一句话总结

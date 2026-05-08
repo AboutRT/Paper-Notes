@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.11355](https://arxiv.org/abs/2604.11355)  
-**代码**: https://github.com/JiansW/LEADER  
+**代码**: [https://github.com/JiansW/LEADER](https://github.com/JiansW/LEADER)  
 **领域**: 自动驾驶  
 **关键词**: LiDAR重定位, 场景坐标回归, 偏航不变, 可靠性估计, 点云
 

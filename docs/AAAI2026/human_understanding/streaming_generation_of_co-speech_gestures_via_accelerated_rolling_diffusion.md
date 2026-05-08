@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2503.10488](https://arxiv.org/abs/2503.10488)  
 **代码**: [GitHub](https://github.com/andrewbo29/co-speech-gestures-rolling-diffusion)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: co-speech gestures, rolling diffusion, streaming generation, real-time, noise scheduling, motion synthesis
 
 ## 一句话总结
@@ -141,10 +141,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] Understanding Co-speech Gestures in-the-wild](../../ICCV2025/human_understanding/understanding_co-speech_gestures_in-the-wild.md)
-- [\[ICLR 2026\] Scaling Speech Tokenizers with Diffusion Autoencoders](../../ICLR2026/human_understanding/scaling_speech_tokenizers_with_diffusion_autoencoders.md)
 - [\[ICCV 2025\] GestureHYDRA: Semantic Co-speech Gesture Synthesis via Hybrid Modality Diffusion Transformer and Cascaded-Synchronized Retrieval-Augmented Generation](../../ICCV2025/human_understanding/gesturehydra_semantic_co-speech_gesture_synthesis_via_hybrid_modality_diffusion_.md)
-- [\[AAAI 2026\] FineXtrol: Controllable Motion Generation via Fine-Grained Text](finextrol_controllable_motion_generation_via_fine-grained_text.md)
-- [\[ACL 2025\] I See What You Mean: Co-Speech Gestures for Reference Resolution in Multimodal Dialogue](../../ACL2025/human_understanding/i_see_what_you_mean_co-speech_gestures_for_reference_resolution_in_multimodal_di.md)
+- [\[ICCV 2025\] SemGes: Semantics-aware Co-Speech Gesture Generation using Semantic Coherence and Relevance Learning](../../ICCV2025/human_understanding/semges_semantics-aware_co-speech_gesture_generation_using_semantic_coherence_and.md)
+- [\[AAAI 2026\] SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control](soscontrol_enhancing_human_motion_generation_through_saliency-aware_symbolic_ori.md)
+- [\[CVPR 2026\] Talking Together: Synthesizing Co-Located 3D Conversations from Audio](../../CVPR2026/human_understanding/talking_together_synthesizing_co-located_3d_conversations_from_audio.md)
+- [\[CVPR 2026\] LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](../../CVPR2026/human_understanding/laser_layer-wise_scale_alignment_for_training-free_streaming_4d_reconstruction.md)
 
 <!-- RELATED:END -->

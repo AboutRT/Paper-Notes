@@ -20,7 +20,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20685](https://arxiv.org/abs/2510.20685)  
 **代码**: [https://bigtree765.github.io/C-Nav-project](https://bigtree765.github.io/C-Nav-project)  
-**领域**: robotics / embodied AI  
+**领域**: 机器人  
 **关键词**: 持续学习, object navigation, 灾难性遗忘, feature distillation, feature replay, LOF, 具身智能体
 
 ## 一句话总结

@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 半无穷规划
   - 非凸约束
-  - Min-Max优化
+  - 其他
   - 动态障碍法
   - 收敛复杂度
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.12007](https://arxiv.org/abs/2510.12007)  
 **代码**: 暂无  
-**领域**: 优化理论 / 鲁棒优化  
+**领域**: 其他  
 **关键词**: 半无穷规划, 非凸约束, Min-Max优化, 动态障碍法, 收敛复杂度
 
 ## 一句话总结
@@ -160,9 +160,9 @@ $$[\psi(x, w)]_+^{2\theta} \leq \mu \|\nabla_x \psi(x, w) [\psi(x, w)]_+\|, \qua
 ## 相关论文
 
 - [\[NeurIPS 2025\] Learning (Approximately) Equivariant Networks via Constrained Optimization](learning_approximately_equivariant_networks_via_constrained_optimization.md)
+- [\[NeurIPS 2025\] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds](finite-time_analysis_of_stochastic_nonconvex_nonsmooth_optimization_on_the_riema.md)
 - [\[NeurIPS 2025\] FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees](fsnet_feasibility-seeking_neural_network_for_constrained_optimization_with_guara.md)
 - [\[ICML 2025\] Continuous-Time Analysis of Heavy Ball Momentum in Min-Max Games](../../ICML2025/others/continuous-time_analysis_of_heavy_ball_momentum_in_min-max_games.md)
-- [\[NeurIPS 2025\] Optimized Learned Count-Min Sketch](optimized_learned_count-min_sketch.md)
-- [\[NeurIPS 2025\] Prediction-Powered Semi-Supervised Learning with Online Power Tuning](prediction-powered_semi-supervised_learning_with_online_power_tuning.md)
+- [\[NeurIPS 2025\] Semi-supervised Graph Anomaly Detection via Robust Homophily Learning](semi-supervised_graph_anomaly_detection_via_robust_homophily_learning.md)
 
 <!-- RELATED:END -->

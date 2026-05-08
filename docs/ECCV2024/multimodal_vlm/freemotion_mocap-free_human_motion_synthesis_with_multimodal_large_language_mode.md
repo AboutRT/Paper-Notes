@@ -7,7 +7,7 @@ tags:
   - ECCV2024
   - 多模态
   - 人体运动合成
-  - 多模态大语言模型
+  - 多模态VLM
   - 无动捕数据
   - 关键帧生成
   - 物理仿真
@@ -19,7 +19,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2406.10740](https://arxiv.org/abs/2406.10740)  
 **代码**: 未开源  
-**领域**: multimodal_vlm / human_motion  
+**领域**: 多模态VLM  
 **关键词**: 人体运动合成, 多模态大语言模型, 无动捕数据, 关键帧生成, 物理仿真, GPT-4V
 
 ## 一句话总结
@@ -239,10 +239,10 @@ FreeMotion 在奥运会运动合成上大幅超越 CLIP 基方法，显示出 ML
 
 ## 相关论文
 
-- [\[ECCV 2024\] Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator](genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md)
 - [\[ECCV 2024\] AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting](adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md)
-- [\[ECCV 2024\] CAT: Enhancing Multimodal Large Language Model to Answer Questions in Dynamic Audio-Visual Scenarios](cat_enhancing_multimodal_large_language_model_to_answer_questions_in_dynamic_aud.md)
-- [\[ECCV 2024\] Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild](nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild.md)
-- [\[ECCV 2024\] REVISION: Rendering Tools Enable Spatial Fidelity in Vision-Language Models](revision_rendering_tools_enable_spatial_fidelity_in_vision-language_models.md)
+- [\[ECCV 2024\] Large Motion Model for Unified Multi-Modal Motion Generation](large_motion_model_for_unified_multi-modal_motion_generation.md)
+- [\[ECCV 2024\] Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator](genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md)
+- [\[ECCV 2024\] BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-Language Models](beaf_observing_before-after_changes_to_evaluate_hallucination_in_vision-language.md)
+- [\[ECCV 2024\] Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild](nymeria_a_massive_collection_of_multimodal_egocentric_daily_.md)
 
 <!-- RELATED:END -->

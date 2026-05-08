@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026 (Oral)  
 **arXiv**: [2505.13531](https://arxiv.org/abs/2505.13531)  
 **代码**: [https://github.com/ValueCompass/AdAEM](https://github.com/ValueCompass/AdAEM)  
-**领域**: LLM 评估与对齐  
+**领域**: 视频理解  
 **关键词**: LLM价值观评估, 动态基准, 信息论优化, Schwartz价值理论, 文化差异
 
 ## 一句话总结

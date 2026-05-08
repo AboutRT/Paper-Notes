@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Evaluating LLMs in Open-Source Games
 description: >-
-  [NeurIPS 2025][博弈论] 通过开源游戏（智能体提交程序而非原始行动）这一新范式，系统评估 LLM 在战略推理、互相学习和合作博弈中的能力，发现 LLM 可自动发现近似程序平衡。
+  [NeurIPS 2025][可解释性] 通过开源游戏（智能体提交程序而非原始行动）这一新范式，系统评估 LLM 在战略推理、互相学习和合作博弈中的能力，发现 LLM 可自动发现近似程序平衡。
 tags:
   - NeurIPS 2025
-  - 博弈论
+  - 可解释性
   - 程序平衡
   - 开源游戏
   - 多智能体合作
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.00371](https://arxiv.org/abs/2512.00371)  
-**代码**: https://github.com/swadeshs/llm-osgt  
-**领域**: LLM Agent  
+**代码**: [https://github.com/swadeshs/llm-osgt](https://github.com/swadeshs/llm-osgt)  
+**领域**: 可解释性  
 **关键词**: 博弈论, 程序平衡, 开源游戏, 多智能体合作, 代码透明性
 
 ## 一句话总结

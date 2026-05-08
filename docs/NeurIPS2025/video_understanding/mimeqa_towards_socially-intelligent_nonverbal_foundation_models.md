@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.16671](https://arxiv.org/abs/2502.16671)  
-**代码**: [GitHub](https://github.com/MIT-MI/MimeQA) (有)  
+**代码**: [GitHub](https://github.com/MIT-MI/MimeQA)  
 **领域**: Video Understanding  
 **关键词**: 非语言社交智能, 哑剧理解, 视频问答, 多模态基础模型, 社会认知
 

@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.10152](https://arxiv.org/abs/2602.10152)  
-**代码**: https://github.com/shadi97kh/BioPrior  
+**代码**: [https://github.com/shadi97kh/BioPrior](https://github.com/shadi97kh/BioPrior)  
 **领域**: 医学/生物 可解释AI  
 **关键词**: siRNA, 显著性图, 忠实性验证, 扰动测试, 生物信息正则化
 

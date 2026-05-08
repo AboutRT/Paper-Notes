@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13089](https://arxiv.org/abs/2603.13089)  
 **代码**: [V-Bridge](https://github.com/Shenghe-Zheng/V-Bridge) (开源项目)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: video generative prior, few-shot image restoration, progressive restoration, drift correction, all-in-one restoration
 
 ## 一句话总结

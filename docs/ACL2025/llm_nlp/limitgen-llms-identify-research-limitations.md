@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.02694](https://arxiv.org/abs/2507.02694)  
-**代码**: https://github.com/yale-nlp/LimitGen  
+**代码**: [https://github.com/yale-nlp/LimitGen](https://github.com/yale-nlp/LimitGen)  
 **领域**: LLM评估  
 **关键词**: 论文审稿, 局限性识别, 科学评审, RAG增强, 基准测试
 

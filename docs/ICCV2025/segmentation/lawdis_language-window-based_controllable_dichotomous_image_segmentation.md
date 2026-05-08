@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.01152](https://arxiv.org/abs/2508.01152)  
 **代码**: [GitHub](https://github.com/XinyuYanTJU/LawDIS)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 二分图像分割, 潜在扩散模型, 语言控制, 窗口细化, 高精度分割
 
 ## 一句话总结
@@ -182,6 +182,6 @@ $$\mathcal{L}_d = \mathcal{L}_{wbce}(\hat{s}, s) + \mathcal{L}_{wiou}(\hat{s}, s
 - [\[ICCV 2025\] Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation](exploiting_domain_properties_in_language-driven_domain_generalization_for_semant.md)
 - [\[ICCV 2025\] Refer to Any Segmentation Mask Group With Vision-Language Prompts](refer_to_any_segmentation_mask_group_with_vision-language_prompts.md)
 - [\[ICCV 2025\] DeRIS: Decoupling Perception and Cognition for Enhanced Referring Image Segmentation through Loopback Synergy](deris_decoupling_perception_and_cognition_for_enhanced_referring_image_segmentat.md)
-- [\[ICCV 2025\] Latent Expression Generation for Referring Image Segmentation and Grounding](latent_expression_generation_for_referring_image_segmentation_and_grounding.md)
+- [\[ICCV 2025\] Dynamic Dictionary Learning for Remote Sensing Image Segmentation](dynamic_dictionary_learning_for_remote_sensing_image_segmentation.md)
 
 <!-- RELATED:END -->

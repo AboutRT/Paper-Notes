@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.07136](https://arxiv.org/abs/2507.07136)  
-**代码**: [项目主页](https://langsplat-v2.github.io) (有)  
-**领域**: 3d_vision  
+**代码**: [项目主页](https://langsplat-v2.github.io)  
+**领域**: 3D视觉  
 **关键词**: 3D语言场, 高斯溅射, 稀疏编码, 实时推理, 开放词汇查询
 
 ## 一句话总结

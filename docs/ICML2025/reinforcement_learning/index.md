@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 强化学习方向78篇论文解读
+  ICML2025 强化学习方向82篇论文解读
 description: >-
-  78篇ICML2025的强化学习方向论文解读，涵盖强化学习、Agent、对抗鲁棒、推理、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  82篇ICML2025的强化学习方向论文解读，涵盖强化学习、Agent、对抗鲁棒、推理、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧪 ICML2025** · **78** 篇论文解读
+**🧪 ICML2025** · **82** 篇论文解读
 
 **[A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions: Representation, Training, Generalization](a_theoretical_study_of_hyper_self-attention_through_the_lens_of_interactions_rep.md)**
 
@@ -41,6 +41,10 @@ description: >-
 **[Benchmarking Quantum Reinforcement Learning](benchmarking_quantum_reinforcement_learning.md)**
 
 :   提出量子强化学习（QRL）的严格基准测试方法论——基于样本复杂度的统计估计器和统计显著性定义的"超越"概念，在新设计的 6G 波束管理环境上进行迄今最大规模（100 seeds）的 QRL vs 经典 RL 比较，发现先前关于 QRL 优越性的声称需要更审慎看待。
+
+**[Beyond CVaR: Leveraging Static Spectral Risk Measures for Enhanced Decision-Making in Distributional Reinforcement Learning](beyond_cvar_leveraging_static_spectral_risk_measures_for_enhanced_decision-makin.md)**
+
+:   提出首个在分布式 RL 框架内优化一般静态谱风险度量（SRM）的算法，超越了仅限于简单 CVaR 的现有方法，通过利用回报分布实现闭式外层优化和中间风险度量的时间分解，在多种风险设置中超越现有风险敏感 DRL 模型。
 
 **[Beyond The Rainbow: High Performance Deep Reinforcement Learning on a Desktop PC](beyond_the_rainbow_high_performance_deep_reinforcement_learning_on_a_desktop_pc.md)**
 
@@ -98,6 +102,10 @@ description: >-
 
 :   提出 SMPE² 算法，通过变分推断学习有意义的状态信念表示并结合对抗式内在探索，在部分可观测的合作多智能体环境中显著提升协调能力，在 MPE、LBF、RWARE 三个基准上超越 SOTA。
 
+**[Enhancing Decision-Making of Large Language Models via Actor-Critic](enhancing_decision-making_of_large_language_models_via_actor-critic.md)**
+
+:   提出 LAC（LLM-based Actor-Critic）框架，通过 token logits 的正/负结果概率比构建 Q 函数（Critic），并用 KL 约束闭式解实现无梯度策略优化（Actor），在 ALFWorld、BabyAI-Text、WebShop 三个基准上用 7B/8B 模型超越 GPT-4 + ReAct。
+
 **[Ergodic Generative Flows](ergodic_generative_flows.md)**
 
 :   提出 Ergodic Generative Flows (EGFs)，通过有限个全局微分同胚构建生成流，利用遍历性 (ergodicity) 保证通用性，并设计 KL-weakFM 损失实现无需独立奖励模型的模仿学习训练，在 NASA 地球科学数据集上以 30 倍更小的模型超越基线。
@@ -146,6 +154,10 @@ description: >-
 
 :   提出 HRC 框架，将层次强化学习中的子目标关系建模为因果图，通过因果发现算法学习子目标结构，并基于因果效应优先级进行**定向干预**，显著降低长时域稀疏奖励任务的训练代价。
 
+**[Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals](hierarchical_reinforcement_learning_with_uncertainty-guided_diffusional_subgoals.md)**
+
+:   提出 HIDI 框架，以条件扩散模型建模子目标分布，并引入高斯过程 (GP) 先验进行不确定性正则化与子目标选择，在长时域连续控制任务上显著超越现有层次强化学习方法。
+
 **[KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies](kea_keeping_exploration_alive_by_proactively_coordinating_exploration_strategies.md)**
 
 :   提出 KEA 方法，通过引入标准智能体与新颖性增强智能体的动态切换机制，主动协调不同探索策略，解决 SAC 与新颖性探索结合时因策略交互导致的冗余采样和低效探索问题。
@@ -181,6 +193,10 @@ description: >-
 **[LineFlow: A Framework to Learn Active Control of Production Lines](lineflow_a_framework_to_learn_active_control_of_production_lines.md)**
 
 :   提出 LineFlow，一个可扩展的开源 Python 框架，用于模拟任意复杂度的生产线并训练 RL 智能体进行主动产线控制（自适应路由、工人重分配、调度等），同时给出了若干子问题的数学最优解作为基准。
+
+**[Log-Sum-Exponential Estimator for Off-Policy Evaluation and Learning](log-sum-exponential_estimator_for_off-policy_evaluation_and_learning.md)**
+
+:   提出基于 log-sum-exponential (LSE) 算子的新型非线性估计器，用于离线策略评估与学习，在重尾奖励和噪声倾向分数场景下显著降低方差并提供理论保证。
 
 **[Mastering Massive Multi-Task Reinforcement Learning via Mixture-of-Expert Decision Transformer](mastering_massive_multi-task_reinforcement_learning_via_mixture-of-expert_decisi.md)**
 

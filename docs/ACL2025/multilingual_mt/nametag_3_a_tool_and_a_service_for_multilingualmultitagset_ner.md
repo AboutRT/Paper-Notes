@@ -2,10 +2,10 @@
 title: >-
   [论文解读] NameTag 3: A Tool and a Service for Multilingual/Multitagset NER
 description: >-
-  [ACL 2025][命名实体识别] 本文介绍 NameTag 3，一个开源的多语言、多数据集、多标签集命名实体识别工具和云服务，基于微调的预训练语言模型，单个 355M 参数模型在 15 种语言的 21 个测试集上达到 SOTA，同时比 DeepSeek-R1 等 LLM 快 10,000 倍以上。
+  [ACL 2025][多语言翻译] 本文介绍 NameTag 3，一个开源的多语言、多数据集、多标签集命名实体识别工具和云服务，基于微调的预训练语言模型，单个 355M 参数模型在 15 种语言的 21 个测试集上达到 SOTA，同时比 DeepSeek-R1 等 LLM 快 10,000 倍以上。
 tags:
   - ACL 2025
-  - 命名实体识别
+  - 多语言翻译
   - 多语言NER
   - 嵌套NER
   - 多标签集
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.05949](https://arxiv.org/abs/2506.05949)  
-**代码**: https://github.com/ufal/nametag3 (有)  
-**领域**: nlp_understanding  
+**代码**: [https://github.com/ufal/nametag3](https://github.com/ufal/nametag3)  
+**领域**: 多语言翻译  
 **关键词**: 命名实体识别, 多语言NER, 嵌套NER, 多标签集, 开源工具
 
 ## 一句话总结
@@ -141,10 +141,10 @@ NameTag 3 基于预训练语言模型（XLM-R Large 355M 或 RobeCzech Base 126M
 
 ## 相关论文
 
-- [\[ACL 2025\] M-RewardBench: Evaluating Reward Models in Multilingual Settings](m_rewardbench.md)
-- [\[ACL 2025\] EXECUTE: A Multilingual Benchmark for LLM Token Understanding](execute_a_multilingual_benchmark_for_llm_token_understanding.md)
-- [\[ACL 2025\] LangMark: A Multilingual Dataset for Automatic Post-Editing](langmark_a_multilingual_dataset_for_automatic_post-editing.md)
-- [\[ACL 2025\] LangSAMP: Language-Script Aware Multilingual Pretraining](langsamp_multilingual_pretraining.md)
 - [\[ACL 2025\] LexGen: Domain-aware Multilingual Lexicon Generation](lexgen_domain-aware_multilingual_lexicon_generation.md)
+- [\[ACL 2025\] LangSAMP: Language-Script Aware Multilingual Pretraining](langsamp_multilingual_pretraining.md)
+- [\[ACL 2025\] EXECUTE: A Multilingual Benchmark for LLM Token Understanding](execute_a_multilingual_benchmark_for_llm_token_understanding.md)
+- [\[ACL 2025\] M-RewardBench: Evaluating Reward Models in Multilingual Settings](m_rewardbench.md)
+- [\[ACL 2025\] KnowCoder-X: Boosting Multilingual Information Extraction via Code](knowcoder-x_boosting_multilingual_information_extraction_via_code.md)
 
 <!-- RELATED:END -->

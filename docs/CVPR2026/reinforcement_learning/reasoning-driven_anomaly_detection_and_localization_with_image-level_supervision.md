@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Reasoning-Driven Anomaly Detection and Localization with Image-Level Supervision
 description: >-
-  [CVPR 2026][异常检测与定位] 提出 ReAL 和 CGRO 两个模块，通过提取 MLLM 自回归推理过程中的异常相关 token 并聚合其视觉注意力来生成像素级异常图，再通过一致性引导的强化学习对齐推理与视觉证据，实现仅凭图像级监督的端到端异常检测、定位与可解释推理。
+  [CVPR 2026][强化学习] 提出 ReAL 和 CGRO 两个模块，通过提取 MLLM 自回归推理过程中的异常相关 token 并聚合其视觉注意力来生成像素级异常图，再通过一致性引导的强化学习对齐推理与视觉证据，实现仅凭图像级监督的端到端异常检测、定位与可解释推理。
 tags:
   - CVPR 2026
-  - 异常检测与定位
+  - 强化学习
   - 推理驱动
   - 图像级监督
   - MLLM注意力
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.27179](https://arxiv.org/abs/2603.27179)  
 **代码**: [GitHub](https://github.com/YizhouJin313/ReADL)  
-**领域**: 异常检测 / 多模态大语言模型  
+**领域**: 强化学习  
 **关键词**: 异常检测与定位, 推理驱动, 图像级监督, MLLM注意力, 强化学习
 
 ## 一句话总结
@@ -138,9 +138,9 @@ token 选择策略消融（像素级）：
 ## 相关论文
 
 - [\[ACL 2026\] AttnPO: Attention-Guided Process Supervision for Efficient Reasoning](../../ACL2026/reinforcement_learning/attnpo_attention-guided_process_supervision_for_efficient_reasoning.md)
-- [\[CVPR 2026\] CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning](cccaption_dual-reward_reinforcement_learning_for_complete_and_correct_image_capt.md)
 - [\[ICLR 2026\] PreferThinker: Reasoning-based Personalized Image Preference Assessment](../../ICLR2026/reinforcement_learning/preferthinker_reasoning-based_personalized_image_preference_assessment.md)
-- [\[ICLR 2026\] Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment](../../ICLR2026/reinforcement_learning/reasoning_as_representation_rethinking_visual_reinforcement_learning_in_image_qu.md)
+- [\[CVPR 2026\] AceTone: Bridging Words and Colors for Conditional Image Grading](acetone_bridging_words_and_colors_for_conditional_image_grading.md)
 - [\[AAAI 2026\] TextShield-R1: Reinforced Reasoning for Tampered Text Detection](../../AAAI2026/reinforcement_learning/textshield-r1_reinforced_reasoning_for_tampered_text_detection.md)
+- [\[CVPR 2026\] CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning](cccaption_dual-reward_reinforcement_learning_for_complete_and_correct_image_capt.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2508.06869](https://arxiv.org/abs/2508.06869)  
-**代码**: https://github.com/Jacksonha7/Visual-Subtitle-Integration.git  
+**代码**: [https://github.com/Jacksonha7/Visual-Subtitle-Integration.git](https://github.com/Jacksonha7/Visual-Subtitle-Integration.git)  
 **领域**: 视频理解  
 **关键词**: 长视频理解, 关键帧检索, 多模态融合, 视频问答, 字幕匹配
 

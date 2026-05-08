@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 多模态信息流
-  - 注意力机制可解释性
+  - 多模态VLM
   - 跨模态融合
   - LLaVA
   - VQA
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.18620](https://arxiv.org/abs/2411.18620)  
-**代码**: https://github.com/FightingFighting/cross-modal-information-flow-in-MLLM  
+**代码**: [https://github.com/FightingFighting/cross-modal-information-flow-in-MLLM](https://github.com/FightingFighting/cross-modal-information-flow-in-MLLM)  
 **领域**: 多模态VLM  
 **关键词**: 多模态信息流、注意力机制可解释性、跨模态融合、LLaVA、VQA
 
@@ -121,8 +121,8 @@ tags:
 
 - [\[NeurIPS 2025\] FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models](../../NeurIPS2025/multimodal_vlm/flowcut_rethinking_redundancy_via_information_flow_for_effic.md)
 - [\[CVPR 2026\] Aligning What Vision-Language Models See and Perceive with Adaptive Information Flow](../../CVPR2026/multimodal_vlm/aif_adaptive_information_flow_vlm.md)
-- [\[ICML 2025\] Vision-Language Models Create Cross-Modal Task Representations](../../ICML2025/multimodal_vlm/vision-language_models_create_cross-modal_task_representations.md)
-- [\[NeurIPS 2025\] On the Value of Cross-Modal Misalignment in Multimodal Representation Learning](../../NeurIPS2025/multimodal_vlm/on_the_value_of_cross-modal_misalignment_in_multimodal_representation_learning.md)
 - [\[AAAI 2026\] Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models](../../AAAI2026/multimodal_vlm/cross-modal_unlearning_via_influential_neuron_path_editing_i.md)
+- [\[NeurIPS 2025\] On the Value of Cross-Modal Misalignment in Multimodal Representation Learning](../../NeurIPS2025/multimodal_vlm/on_the_value_of_cross-modal_misalignment_in_multimodal_representation_learning.md)
+- [\[CVPR 2025\] EventGPT: Event Stream Understanding with Multimodal Large Language Models](eventgpt_event_stream_understanding_with_multimodal_large_language_models.md)
 
 <!-- RELATED:END -->

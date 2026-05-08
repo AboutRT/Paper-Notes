@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2601.03438](https://arxiv.org/abs/2601.03438)  
 **代码**: 无（理论工作）  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: fair division, EFX, Pareto optimality, indivisible goods, additive valuations  
 
 ## 一句话总结
@@ -149,8 +149,8 @@ EFX（Envy-Freeness up to Any good）是 EF 的一个重要松弛：允许代理
 
 - [\[AAAI 2026\] Matrix-Free Two-to-Infinity and One-to-Two Norms Estimation](matrix-free_two-to-infinity_and_one-to-two_norms_estimation.md)
 - [\[ICLR 2026\] Beyond Match Maximization and Fairness: Retention-Optimized Two-Sided Matching](../../ICLR2026/ai_safety/beyond_match_maximization_and_fairness_retention-optimized_two-sided_matching.md)
-- [\[NeurIPS 2025\] Adaptive LoRA Experts Allocation and Selection for Federated Fine-Tuning](../../NeurIPS2025/ai_safety/adaptive_lora_experts_allocation_and_selection_for_federated_fine-tuning.md)
 - [\[NeurIPS 2025\] PubSub-VFL: Towards Efficient Two-Party Split Learning in Heterogeneous Environments via Publisher/Subscriber Architecture](../../NeurIPS2025/ai_safety/pubsub-vfl_towards_efficient_two-party_split_learning_in_heterogeneous_environme.md)
-- [\[AAAI 2026\] LAMP: Learning Universal Adversarial Perturbations for Multi-Image Tasks via Pre-trained Models](lamp_learning_universal_adversarial_perturbations_for_multi-image_tasks_via_pre-.md)
+- [\[AAAI 2026\] Easy to Learn, Yet Hard to Forget: Towards Robust Unlearning Under Bias](easy_to_learn_yet_hard_to_forget_towards_robust_unlearning_under_bias.md)
+- [\[AAAI 2026\] Enhancing DPSGD via Per-Sample Momentum and Low-Pass Filtering](enhancing_dpsgd_via_per-sample_momentum_and_low-pass_filtering.md)
 
 <!-- RELATED:END -->

@@ -9,7 +9,7 @@ tags:
   - active learning
   - Variation Theory
   - Neuro-Symbolic Patterns
-  - LLM-based Generation
+  - 因果推理
 ---
 
 # Leveraging Variation Theory in Counterfactual Data Augmentation for Optimized Active Learning
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 Findings  
 **arXiv**: [2408.03819](https://arxiv.org/abs/2408.03819)  
 **代码**: 待确认  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: Counterfactual Data Augmentation, active learning, Variation Theory, Neuro-Symbolic Patterns, LLM-based Generation
 
 ## 一句话总结
@@ -154,7 +154,7 @@ tags:
 - [\[NeurIPS 2025\] An Analysis of Causal Effect Estimation Using Outcome Invariant Data Augmentation](../../NeurIPS2025/causal_inference/an_analysis_of_causal_effect_estimation_using_outcome_invariant_data_augmentatio.md)
 - [\[AAAI 2026\] From Theory of Mind to Theory of Environment: Counterfactual Simulation of Latent Environmental Dynamics](../../AAAI2026/causal_inference/from_theory_of_mind_to_theory_of_environment_counterfactual_simulation_of_latent.md)
 - [\[NeurIPS 2025\] Differentiable Structure Learning and Causal Discovery for General Binary Data](../../NeurIPS2025/causal_inference/differentiable_structure_learning_and_causal_discovery_for_general_binary_data.md)
-- [\[ICML 2025\] Estimating Causal Effects in Gaussian Linear SCMs with Finite Data](../../ICML2025/causal_inference/estimating_causal_effects_in_gaussian_linear_scms_with_finite_data.md)
 - [\[ACL 2025\] Counterfactual Explanations for Aspect-Based Sentiment Analysis](counterfactual_explanations_for_aspect-based_sentiment_analysis.md)
+- [\[ACL 2025\] CoA-Reasoning: Explorations on Counterfactual Analysis in Physical Reasoning of LVLMs](coa-reasoning_explorations_on_counterfactual_analysis_in_physical_reasoning_of_l.md)
 
 <!-- RELATED:END -->

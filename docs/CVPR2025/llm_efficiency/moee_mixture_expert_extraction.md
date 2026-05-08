@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2505.15414](https://arxiv.org/abs/2505.15414)  
 **代码**: 无  
-**领域**: 模型压缩  
+**领域**: LLM效率  
 **关键词**: 混合专家, ViT压缩, 后训练提取, HDBSCAN聚类, 稀疏激活
 
 ## 一句话总结
@@ -115,10 +115,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Low-Rank Adaptation in Multilinear Operator Networks for Security-Preserving Incremental Learning](low-rank_adaptation_in_multilinear_operator_networks_for_security-preserving_inc.md)
 - [\[CVPR 2025\] Language Guided Concept Bottleneck Models for Interpretable Continual Learning](language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md)
-- [\[CVPR 2025\] KAC: Kolmogorov-Arnold Classifier for Continual Learning](kac_kolmogorov-arnold_classifier_for_continual_learning.md)
-- [\[CVPR 2025\] Seeing What Matters: Empowering CLIP with Patch Generation-to-Selection](seeing_what_matters_empowering_clip_with_patch_generation-to-selection.md)
-- [\[CVPR 2025\] CARE Transformer: Mobile-Friendly Linear Visual Transformer via Decoupled Dual Interaction](care_transformer_linear_attention.md)
+- [\[CVPR 2025\] Associative Transformer](associative_transformer.md)
+- [\[CVPR 2025\] LOCORE: Image Re-ranking with Long-Context Sequence Modeling](locore_image_re-ranking_with_long-context_sequence_modeling.md)
+- [\[CVPR 2025\] Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training](spatial-ttt_streaming_visual-based_spatial_intelligence_with_test-time_training.md)
+- [\[ICML 2025\] MoH: Multi-Head Attention as Mixture-of-Head Attention](../../ICML2025/llm_efficiency/moh_multi-head_attention_as_mixture-of-head_attention.md)
 
 <!-- RELATED:END -->

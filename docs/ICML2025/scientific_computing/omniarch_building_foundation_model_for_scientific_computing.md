@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2402.16014](https://arxiv.org/abs/2402.16014)  
-**代码**: https://openi.pcl.ac.cn/cty315/OmniArch (有)  
+**代码**: [https://openi.pcl.ac.cn/cty315/OmniArch](https://openi.pcl.ac.cn/cty315/OmniArch)  
 **领域**: 科学计算  
 **关键词**: foundation model, PDE Solver, Fourier Neural Operator, Multi-scale, Physics-Informed
 

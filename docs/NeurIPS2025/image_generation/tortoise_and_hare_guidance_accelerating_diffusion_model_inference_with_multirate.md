@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.04117](https://arxiv.org/abs/2511.04117)  
-**代码**: 有 (https://github.com/yhlee-add/THG)  
+**代码**: 有 ([https://github.com/yhlee-add/THG](https://github.com/yhlee-add/THG))  
 **领域**: 图像生成 / 扩散模型  
 **关键词**: 扩散模型加速, Classifier-Free Guidance, 多速率积分, NFE压缩, 免训练  
 

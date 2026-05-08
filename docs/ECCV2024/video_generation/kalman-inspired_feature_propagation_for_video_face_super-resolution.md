@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Kalman-Inspired Feature Propagation for Video Face Super-Resolution
 description: >-
-  [ECCV 2024][视频人脸超分辨率] 本文提出 KEEP 框架，借鉴卡尔曼滤波原理在隐空间中递归融合前帧先验与当前帧观测，实现视频人脸超分辨率中面部细节的高保真恢复与时序一致性，在 VFHQ 数据集上 PSNR 超过此前最优方法 0.8 dB。
+  [ECCV 2024][视频生成] 本文提出 KEEP 框架，借鉴卡尔曼滤波原理在隐空间中递归融合前帧先验与当前帧观测，实现视频人脸超分辨率中面部细节的高保真恢复与时序一致性，在 VFHQ 数据集上 PSNR 超过此前最优方法 0.8 dB。
 tags:
   - ECCV 2024
-  - 视频人脸超分辨率
+  - 视频生成
   - 卡尔曼滤波
   - 时序一致性
   - CodeFormer
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.05205](https://arxiv.org/abs/2408.05205)  
-**代码**: https://github.com/jnjaby/KEEP (有)  
-**领域**: Image Restoration  
+**代码**: [https://github.com/jnjaby/KEEP](https://github.com/jnjaby/KEEP)  
+**领域**: 视频生成  
 **关键词**: 视频人脸超分辨率, 卡尔曼滤波, 时序一致性, CodeFormer, 特征传播
 
 ## 一句话总结

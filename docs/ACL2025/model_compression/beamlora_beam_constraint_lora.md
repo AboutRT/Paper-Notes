@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.13604](https://arxiv.org/abs/2502.13604)  
 **代码**: [https://github.com/gccnlp/BeamLoRA](https://github.com/gccnlp/BeamLoRA)  
-**领域**: LLM效率  
+**领域**: 模型压缩  
 **关键词**: LoRA, parameter-efficient fine-tuning, rank importance, beam search, dynamic allocation
 
 ## 一句话总结
@@ -118,9 +118,9 @@ BeamLoRA 在标准 LoRA 中间插入可学习 score 向量 $\mathbf{s} \in \math
 ## 相关论文
 
 - [\[ACL 2025\] TeamLoRA: Boosting Low-Rank Adaptation with Expert Collaboration and Competition](teamlora_boosting_low-rank_adaptation_with_expert_collaboration_and_competition.md)
-- [\[ACL 2025\] DenseLoRA: Dense Low-Rank Adaptation of Large Language Models](denselora_dense_low-rank_adaptation_of_large_language_models.md)
-- [\[ACL 2025\] TableLoRA: Low-rank Adaptation on Table Structure Understanding for Large Language Models](table_lora_structure_understanding.md)
 - [\[NeurIPS 2025\] GoRA: Gradient-Driven Adaptive Low Rank Adaptation](../../NeurIPS2025/model_compression/gora_gradient-driven_adaptive_low_rank_adaptation.md)
 - [\[NeurIPS 2025\] FiRA: Can We Achieve Full-Rank Training of LLMs Under Low-Rank Constraint?](../../NeurIPS2025/model_compression/fira_can_we_achieve_full-rank_training_of_llms_under_low-rank_constraint.md)
+- [\[NeurIPS 2025\] Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation](../../NeurIPS2025/model_compression/beyond_higher_rank_token-wise_input-output_projections_for_efficient_low-rank_ad.md)
+- [\[NeurIPS 2025\] Gated Integration of Low-Rank Adaptation for Continual Learning of Large Language Models](../../NeurIPS2025/model_compression/gated_integration_of_low-rank_adaptation_for_continual_learning_of_large_languag.md)
 
 <!-- RELATED:END -->

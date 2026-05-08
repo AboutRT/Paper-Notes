@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.13821](https://arxiv.org/abs/2510.13821)  
 **代码**: 待确认  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: multi-agent communication, protocol standardization, agent interoperability, telecom-inspired design, security-by-design
 
 ## 一句话总结

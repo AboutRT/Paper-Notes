@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.16727](https://arxiv.org/abs/2504.16727)  
 **代码**: [GitHub](https://github.com/toward-agi/Visual-Variations-Robustness)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: LVLM鲁棒性, 视觉变化, V2R-Bench, 多模态对齐, 位置偏差, 视觉敏锐度阈值  
 **作者**: Zhiyuan Fan, Yumeng Wang, Sandeep Polisetty, Yi R. (May) Fung (香港科技大学)  
 

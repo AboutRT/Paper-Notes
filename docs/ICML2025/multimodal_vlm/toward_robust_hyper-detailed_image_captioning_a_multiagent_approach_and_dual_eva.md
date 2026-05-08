@@ -7,7 +7,7 @@ tags:
   - ICML 2025
   - 多模态
   - Hyper-Detailed Captioning
-  - Hallucination
+  - 多模态VLM
   - Multiagent System
   - Factuality
   - Coverage Evaluation
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2412.15484](https://arxiv.org/abs/2412.15484)  
 **代码**: [github.com/adobe-research/CapMAS](https://github.com/adobe-research/CapMAS)  
-**领域**: 多模态大语言模型, 图文描述, 幻觉检测  
+**领域**: 多模态VLM  
 **关键词**: Hyper-Detailed Captioning, Hallucination, Multiagent System, Factuality, Coverage Evaluation
 
 ## 一句话总结
@@ -130,8 +130,8 @@ $$H(u) = -\log(\min(p(\text{T}|x, Q(u)) - p(\text{F}|x, Q(u)), \epsilon))$$
 
 - [\[AAAI 2026\] DisCode: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning](../../AAAI2026/multimodal_vlm/discode_distribution-aware_score_decoder_for_robust_automatic_evaluation_of_imag.md)
 - [\[ICCV 2025\] SimpleVQA: Multimodal Factuality Evaluation for Multimodal Large Language Models](../../ICCV2025/multimodal_vlm/simplevqa_multimodal_factuality_evaluation_for_multimodal_large_language_models.md)
-- [\[ICCV 2025\] SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning](../../ICCV2025/multimodal_vlm/sc-captioner_improving_image_captioning_with_self-correction_by_reinforcement_le.md)
 - [\[ICCV 2025\] CaptionSmiths: Flexibly Controlling Language Pattern in Image Captioning](../../ICCV2025/multimodal_vlm/captionsmiths_flexibly_controlling_language_pattern_in_image_captioning.md)
 - [\[ICML 2025\] Robust Multimodal Large Language Models Against Modality Conflict](robust_multimodal_large_language_models_against_modality_conflict.md)
+- [\[ICCV 2025\] SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning](../../ICCV2025/multimodal_vlm/sc-captioner_improving_image_captioning_with_self-correction_by_reinforcement_le.md)
 
 <!-- RELATED:END -->

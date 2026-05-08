@@ -8,7 +8,7 @@ tags:
   - research culture
   - cultural norms
   - scientific writing
-  - LLM evaluation
+  - 其他
   - interdisciplinary research
   - cultural competence
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00784](https://arxiv.org/abs/2506.00784)  
 **代码**: [shaily99/research_borderlands](https://github.com/shaily99/research_borderlands)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: research culture, cultural norms, scientific writing, LLM evaluation, interdisciplinary research, cultural competence  
 **作者**: Shaily Bhatt (CMU), Tal August (UIUC), Maria Antoniak (Copenhagen)  
 
@@ -120,9 +120,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] 笔记5：ReSearch - 学习通过搜索推理](../../NeurIPS2025/others/research_learning_to_reason_with_search_for_llms_via_reinforcement_learning.md)
-- [\[ACL 2025\] MIR: Methodology Inspiration Retrieval for Scientific Research Problems](mir_methodology_inspiration_retrieval_for_scientific_research_problems.md)
 - [\[ACL 2025\] Mapping the Podcast Ecosystem with the Structured Podcast Research Corpus](mapping_the_podcast_ecosystem_with_the_structured_podcast_research_corpus.md)
-- [\[ACL 2025\] All That Glitters is Not Novel: Plagiarism in AI Generated Research](plagiarism_ai_generated_research.md)
 - [\[ACL 2025\] IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery](iris_interactive_research_ideation_system_for_accelerating_scientific_discovery.md)
+- [\[ACL 2025\] All That Glitters is Not Novel: Plagiarism in AI Generated Research](plagiarism_ai_generated_research.md)
+- [\[ACL 2025\] Unifying Language Agent Algorithms with Graph-based Orchestration Engine for Reproducible Agent Research](unifying_language_agent_algorithms_with_graph-based_orchestration_engine_for_rep.md)
 
 <!-- RELATED:END -->

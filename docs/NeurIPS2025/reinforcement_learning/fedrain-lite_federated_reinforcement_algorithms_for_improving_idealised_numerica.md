@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 联邦强化学习
-  - 气候模型
+  - 强化学习
   - 参数化
   - 能量平衡模型
   - DDPG
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.14315](https://arxiv.org/abs/2508.14315)  
 **代码**: [GitHub](https://github.com/p3jitnath/climate-rl-fedrl)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 联邦强化学习, 气候模型, 参数化, 能量平衡模型, DDPG
 
 ## 一句话总结
@@ -133,6 +133,6 @@ tags:
 - [\[NeurIPS 2025\] Scalable Policy-Based RL Algorithms for POMDPs](scalable_policy-based_rl_algorithms_for_pomdps.md)
 - [\[NeurIPS 2025\] Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning](improving_retrieval-augmented_generation_through_multi-agent_reinforcement_learn.md)
 - [\[NeurIPS 2025\] Parameter-Free Algorithms for the Stochastically Extended Adversarial Model](parameter-free_algorithms_for_the_stochastically_extended_adversarial_model.md)
-- [\[NeurIPS 2025\] Improving Planning and MBRL with Temporally-Extended Actions](improving_planning_and_mbrl_with_temporally-extended_actions.md)
+- [\[NeurIPS 2025\] Behavior Injection: Preparing Language Models for Reinforcement Learning](behavior_injection_preparing_language_models_for_reinforcement_learning.md)
 
 <!-- RELATED:END -->

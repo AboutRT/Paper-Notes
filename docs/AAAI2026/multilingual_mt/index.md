@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 多语言/翻译方向10篇论文解读
+  AAAI2026 多语言/翻译方向11篇论文解读
 description: >-
-  10篇AAAI2026的多语言/翻译方向论文解读，涵盖 LLM、对齐/RLHF、翻译等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  11篇AAAI2026的多语言/翻译方向论文解读，涵盖 LLM、对齐/RLHF、翻译等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**🤖 AAAI2026** · **10** 篇论文解读
+**🤖 AAAI2026** · **11** 篇论文解读
 
 **[Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages](bridging_the_multilingual_safety_divide_efficient_culturally-aware_alignment_for.md)**
 
@@ -29,6 +29,10 @@ description: >-
 **[How Does Alignment Enhance LLMs' Multilingual Capabilities? A Language Neurons Perspective](how_does_alignment_enhance_llms_multilingual_capabilities_a_language_neurons_per.md)**
 
 :   提出三元神经元分类（语言特定/语言相关/通用），将 LLM 多语言推理分为四阶段分析，发现多语言对齐通过增加语言相关神经元（减少语言特定神经元）来提升性能，且在未训练语言上也产生"自发多语言对齐"效应。
+
+**[MIDB: Multilingual Instruction Data Booster for Enhancing Cultural Equality in Multilingual Instruction Synthesis](midb_multilingual_instruction_data_booster_for_enhancing_cultural_equality_in_mu.md)**
+
+:   提出 MIDB（多语言指令数据增强器），通过 36.8k 人类语言专家标注的修订样本训练一个统一模型，自动修复多语言合成指令数据中的内容错误、机器翻译缺陷和本地化不足问题，显著提升 16 种语言的指令数据质量和下游 LLM 的多语言/文化理解能力。
 
 **[Mitigating Content Effects on Reasoning in Language Models through Fine-Grained Activation Steering](mitigating_content_effects_on_reasoning_in_language_models_through_fine-grained_.md)**
 

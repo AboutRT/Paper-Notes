@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.10097](https://arxiv.org/abs/2504.10097)  
-**代码**: https://star-former.github.io  
-**领域**: 时间序列 / 表征学习  
+**代码**: [https://star-former.github.io](https://star-former.github.io)  
+**领域**: 自监督  
 **关键词**: 时序分类, 对比学习, 动态掩码, 非平稳, 不规则采样
 
 ## 一句话总结

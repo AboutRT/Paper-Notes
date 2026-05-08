@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.19516](https://arxiv.org/abs/2511.19516)  
 **代码**: [https://github.com/loiqy/GroundingAgent](https://github.com/loiqy/GroundingAgent)  
-**领域**: 多模态VLM / Agent  
+**领域**: 目标检测  
 **关键词**: Visual Grounding, training-free, Agentic Reasoning, Chain-of-Thought, Open-Vocabulary Detection
 
 ## 一句话总结
@@ -154,10 +154,10 @@ GroundingAgent 是一个两阶段 pipeline：**候选生成（Candidate Generati
 
 ## 相关论文
 
-- [\[CVPR 2026\] CompAgent: An Agentic Framework for Visual Compliance Verification](../../CVPR2026/object_detection/compagent_an_agentic_framework_for_visual_compliance_verification.md)
 - [\[CVPR 2026\] PET-DINO: Unifying Visual Cues into Grounding DINO with Prompt-Enriched Training](../../CVPR2026/object_detection/pet-dino_unifying_visual_cues_into_grounding_dino_with_prompt-enriched_training.md)
-- [\[CVPR 2026\] Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers](../../CVPR2026/object_detection/just-in-time_training-free_spatial_acceleration_for_diffusion_transformers.md)
-- [\[ICCV 2025\] ChartPoint: Guiding MLLMs with Grounding Reflection for Chart Reasoning](../../ICCV2025/object_detection/chartpoint_guiding_mllms_with_grounding_reflection_for_chart_reasoning.md)
-- [\[CVPR 2026\] Training-free Detection of Generated Videos via Spatial-Temporal Likelihoods](../../CVPR2026/object_detection/training-free_detection_of_generated_videos_via_spatial-temporal_likelihoods.md)
+- [\[CVPR 2026\] CompAgent: An Agentic Framework for Visual Compliance Verification](../../CVPR2026/object_detection/compagent_an_agentic_framework_for_visual_compliance_verification.md)
+- [\[ICLR 2026\] Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Method](../../ICLR2026/object_detection/traceable_evidence_enhanced_visual_grounded_reasoning_evaluation_and_methodology.md)
+- [\[ICCV 2025\] VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](../../ICCV2025/object_detection/visrl_intention-driven_visual_perception_via_reinforced_reasoning.md)
+- [\[AAAI 2026\] TubeRMC: Tube-conditioned Reconstruction with Mutual Constraints for Weakly-supervised Spatio-Temporal Video Grounding](tubermc_tube-conditioned_reconstruction_with_mutual_constraints_for_weakly-super.md)
 
 <!-- RELATED:END -->

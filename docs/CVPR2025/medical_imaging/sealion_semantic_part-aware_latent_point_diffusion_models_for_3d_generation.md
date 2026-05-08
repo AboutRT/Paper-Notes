@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.17721](https://arxiv.org/abs/2505.17721)  
-**代码**: https://github.com/Dekai21/SeaLion  
-**领域**: 3D视觉  
+**代码**: [https://github.com/Dekai21/SeaLion](https://github.com/Dekai21/SeaLion)  
+**领域**: 医学图像  
 **关键词**: 点云生成, 扩散模型, 语义分割, 部件感知, 潜空间
 
 ## 一句话总结

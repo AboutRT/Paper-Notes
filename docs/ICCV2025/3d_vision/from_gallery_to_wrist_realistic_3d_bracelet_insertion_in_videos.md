@@ -18,8 +18,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.20331](https://arxiv.org/abs/2507.20331)  
-**代码**: https://cjeen.github.io/BraceletPaper/  
-**领域**: 3d_vision / 视频物体插入  
+**代码**: [https://cjeen.github.io/BraceletPaper/](https://cjeen.github.io/BraceletPaper/)  
+**领域**: 3D视觉  
 **关键词**: 视频物体插入, 3D高斯泼溅, 扩散模型, 光照增强, 时序一致性, 虚拟试戴
 
 ## 一句话总结
@@ -162,7 +162,7 @@ $$\mathcal{G}_t^* = \arg\min_{\mathcal{G}} \sum_{k=t-W/2}^{t+W/2} w(k-t) \cdot \
 - [\[CVPR 2025\] Towards Realistic Example-Based Modeling via 3D Gaussian Stitching](../../CVPR2025/3d_vision/towards_realistic_example-based_modeling_via_3d_gaussian_stitching.md)
 - [\[ICCV 2025\] MonoMobility: Zero-Shot 3D Mobility Analysis from Monocular Videos](monomobility_zero-shot_3d_mobility_analysis_from_monocular_videos.md)
 - [\[ICCV 2025\] TRACE: Learning 3D Gaussian Physical Dynamics from Multi-view Videos](trace_learning_3d_gaussian_physical_dynamics_from_multi-view_videos.md)
-- [\[CVPR 2025\] Vid2Sim: Realistic and Interactive Simulation from Video for Urban Navigation](../../CVPR2025/3d_vision/vid2sim_realistic_and_interactive_simulation_from_video_for_urban_navigation.md)
 - [\[ICCV 2025\] LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos](longsplat_robust_unposed_3d_gaussian_splatting_for_casual_long_videos.md)
+- [\[CVPR 2025\] Vid2Sim: Realistic and Interactive Simulation from Video for Urban Navigation](../../CVPR2025/3d_vision/vid2sim_realistic_and_interactive_simulation_from_video_for_urban_navigation.md)
 
 <!-- RELATED:END -->

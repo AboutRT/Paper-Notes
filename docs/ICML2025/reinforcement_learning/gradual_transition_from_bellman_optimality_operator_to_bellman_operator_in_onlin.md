@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Gradual Transition from Bellman Optimality Operator to Bellman Operator in Online Reinforcement Learning
 description: >-
-  [ICML2025][Bellman算子] 提出 Annealed Q-learning (AQ-L)，通过期望分位损失（expectile loss）的参数 τ 从接近1退火至0.5，实现从 Bellman 最优算子到 Bellman 算子的平滑过渡，在连续动作空间中既加速了早期学习又抑制了后期过估计偏差，与 TD3/SAC 结合后在多种运动控制和操控任务上显著优于基线。
+  [ICML2025][强化学习] 提出 Annealed Q-learning (AQ-L)，通过期望分位损失（expectile loss）的参数 τ 从接近1退火至0.5，实现从 Bellman 最优算子到 Bellman 算子的平滑过渡，在连续动作空间中既加速了早期学习又抑制了后期过估计偏差，与 TD3/SAC 结合后在多种运动控制和操控任务上显著优于基线。
 tags:
   - ICML2025
-  - Bellman算子
+  - 强化学习
   - 过估计偏差
   - Actor-Critic
   - 退火策略
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2506.05968](https://arxiv.org/abs/2506.05968)  
 **作者**: Motoki Omura, Kazuki Ota, Takayuki Osa, Yusuke Mukuta, Tatsuya Harada (东京大学)
 **代码**: [GitHub](https://github.com/motokiomura/annealed-q-learning)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: Bellman算子, 过估计偏差, Actor-Critic, 退火策略, 期望分位损失, 连续动作空间
 
 ## 一句话总结
@@ -180,8 +180,8 @@ AQ-L 在所有测试任务上均显著优于对应基线方法，尤其在训练
 
 - [\[ICML 2025\] Gradual Transition from Bellman Optimality Operator to Bellman Operator in Online RL](gradual_transition_from_bellman_optimality_operator_to_bellman_operator_in.md)
 - [\[ICML 2025\] Wasserstein Policy Optimization](wasserstein_policy_optimization.md)
-- [\[ICML 2025\] Learning to Trust Bellman Updates: Selective State-Adaptive Regularization for Offline RL](learning_to_trust_bellman_updates_selective_state-adaptive_regularization_for_of.md)
 - [\[ICML 2025\] Online Pre-Training for Offline-to-Online Reinforcement Learning](online_pre-training_for_offline-to-online_reinforcement_learning.md)
-- [\[ICML 2025\] Reward-free World Models for Online Imitation Learning](reward-free_world_models_for_online_imitation_learning.md)
+- [\[ICML 2025\] Enhancing Decision-Making of Large Language Models via Actor-Critic](enhancing_decision-making_of_large_language_models_via_actor-critic.md)
+- [\[ICML 2025\] Leveraging Skills from Unlabeled Prior Data for Efficient Online Exploration](leveraging_skills_from_unlabeled_prior_data_for_efficient_online_exploration.md)
 
 <!-- RELATED:END -->

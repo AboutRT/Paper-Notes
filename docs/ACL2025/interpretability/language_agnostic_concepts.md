@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Separating Tongue from Thought: Activation Patching Reveals Language-Agnostic Concept Representations in Transformers
 description: >-
-  [ACL 2025][多语言表示] 本文通过激活修补（activation patching）方法对翻译任务中的LLM潜在表示进行因果分析，发现输出语言在早期层编码而概念在后期层编码，证明LLM内部存在语言无关的概念表示——跨语言平均概念表示不仅可用且能提升翻译性能。
+  [ACL 2025][可解释性] 本文通过激活修补（activation patching）方法对翻译任务中的LLM潜在表示进行因果分析，发现输出语言在早期层编码而概念在后期层编码，证明LLM内部存在语言无关的概念表示——跨语言平均概念表示不仅可用且能提升翻译性能。
 tags:
   - ACL 2025
-  - 多语言表示
+  - 可解释性
   - 语言无关概念
   - 激活修补
   - 机械可解释性
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2411.08745](https://arxiv.org/abs/2411.08745)  
-**代码**: https://github.com/Butanium/llm-lang-agnostic  
+**代码**: [https://github.com/Butanium/llm-lang-agnostic](https://github.com/Butanium/llm-lang-agnostic)  
 **领域**: 可解释性  
 **关键词**: 多语言表示, 语言无关概念, 激活修补, 机械可解释性, Transformer
 
@@ -128,8 +128,8 @@ tags:
 
 - [\[ACL 2025\] Reasoning Circuits in Language Models: A Mechanistic Interpretation of Syllogistic Inference](reasoning_circuits_in_language_models_a_mechanistic_interpretation_of_syllogisti.md)
 - [\[ACL 2025\] An Empirical Study of Mechanistic Interpretability Approaches for Factual Recall](an_empirical_study_of_mechanistic_interpretability_approaches_for_factual_recall.md)
-- [\[ACL 2025\] Position-aware Automatic Circuit Discovery](position-aware_automatic_circuit_discovery.md)
-- [\[ACL 2025\] Probing Subphonemes in Morphology Models](probing_subphonemes_in_morphology_models.md)
 - [\[ACL 2025\] Mechanistic Interpretability of Emotion Inference in Large Language Models](mechanistic_interpretability_of_emotion_inference_in_large_language_models.md)
+- [\[ACL 2025\] Bias Attribution in Filipino Language Models: Extending a Bias Interpretability Metric for Application on Agglutinative Languages](bias_attribution_in_filipino_language_models_extending_a_bias_interpretability_m.md)
+- [\[ICCV 2025\] Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations](../../ICCV2025/interpretability/granular_concept_circuits_toward_a_fine-grained_circuit_discovery_for_concept_re.md)
 
 <!-- RELATED:END -->

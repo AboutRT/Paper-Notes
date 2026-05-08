@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.13227](https://arxiv.org/abs/2503.13227)  
-**代码**: https://github.com/Wakings/TABASCO (有)  
+**代码**: [https://github.com/Wakings/TABASCO](https://github.com/Wakings/TABASCO)  
 **领域**: 优化 / 联邦半监督学习  
 **关键词**: 联邦半监督学习, 噪声标签, 长尾分布, WJSD, 自适应质心
 
@@ -105,7 +105,7 @@ tags:
 - [\[NeurIPS 2025\] FedQS: Optimizing Gradient and Model Aggregation for Semi-Asynchronous Federated Learning](../../NeurIPS2025/optimization/fedqs_optimizing_gradient_and_model_aggregation_for_semi-asynchronous_federated_.md)
 - [\[CVPR 2025\] SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated Learning](scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md)
 - [\[CVPR 2025\] Federated Learning with Domain Shift Eraser](federated_learning_with_domain_shift_eraser.md)
-- [\[CVPR 2025\] Model Poisoning Attacks to Federated Learning via Multi-Round Consistency](model_poisoning_attacks_to_federated_learning_via_multi-round_consistency.md)
 - [\[NeurIPS 2025\] Asymptotically Stable Quaternionic Hopfield Structured Neural Network with Supervised Projection-based Manifold Learning](../../NeurIPS2025/optimization/asymptotically_stable_quaternion-valued_hopfield-structured_neural_network_with_.md)
+- [\[CVPR 2025\] Model Poisoning Attacks to Federated Learning via Multi-Round Consistency](model_poisoning_attacks_to_federated_learning_via_multi-round_consistency.md)
 
 <!-- RELATED:END -->

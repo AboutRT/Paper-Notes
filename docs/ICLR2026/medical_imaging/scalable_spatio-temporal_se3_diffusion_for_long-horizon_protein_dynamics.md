@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.02128](https://arxiv.org/abs/2602.02128)  
-**代码**: https://bytedance-seed.github.io/ConfRover/starmd  
-**领域**: 3D视觉 / 蛋白质动力学  
+**代码**: [https://bytedance-seed.github.io/ConfRover/starmd](https://bytedance-seed.github.io/ConfRover/starmd)  
+**领域**: 医学图像  
 **关键词**: 蛋白质构象生成, SE(3)扩散模型, 时空注意力, 自回归轨迹生成, 分子动力学加速
 
 ## 一句话总结
@@ -133,9 +133,9 @@ STAR-MD 在所有指标上均达 SOTA。
 ## 相关论文
 
 - [\[ICLR 2026\] Protein Counterfactuals via Diffusion-Guided Latent Optimization](protein_counterfactuals_via_diffusion-guided_latent_optimization.md)
-- [\[CVPR 2026\] Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?](../../CVPR2026/medical_imaging/can_natural_image_autoencoders_compactly_tokenize_fmri_volumes_for_long-range_dy.md)
-- [\[NeurIPS 2025\] Scalable Diffusion Transformer for Conditional 4D fMRI Synthesis](../../NeurIPS2025/medical_imaging/scalable_diffusion_transformer_for_conditional_4d_fmri_synthesis.md)
 - [\[NeurIPS 2025\] ConfRover: Simultaneous Modeling of Protein Conformation and Dynamics via Autoregression](../../NeurIPS2025/medical_imaging/confrover_simultaneous_modeling_of_protein_conformation_and_dynamics_via_autoreg.md)
 - [\[ICLR 2026\] Learning Patient-Specific Disease Dynamics with Latent Flow Matching for Longitudinal Imaging Generation](learning_patient-specific_disease_dynamics_with_latent_flow_matching_for_longitu.md)
+- [\[ICLR 2026\] Protein as a Second Language for LLMs](protein_as_a_second_language_for_llms.md)
+- [\[NeurIPS 2025\] Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models](../../NeurIPS2025/medical_imaging/consistent_sampling_and_simulation_molecular_dynamics_with_energy-based_diffusio.md)
 
 <!-- RELATED:END -->

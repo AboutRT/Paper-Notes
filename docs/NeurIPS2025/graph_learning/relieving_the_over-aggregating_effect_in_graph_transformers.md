@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21267](https://arxiv.org/abs/2510.21267)  
-**代码**: https://github.com/sunjss/over-aggregating (有)  
+**代码**: [https://github.com/sunjss/over-aggregating](https://github.com/sunjss/over-aggregating)  
 **领域**: 图学习 / Graph Transformer  
 **关键词**: Over-Aggregating, Graph Transformer, Attention Entropy, Wideformer, Linear Attention
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18123](https://arxiv.org/abs/2503.18123)  
-**代码**: https://github.com/SanderGielisse/MWT (有)  
+**代码**: [https://github.com/SanderGielisse/MWT](https://github.com/SanderGielisse/MWT)  
 **领域**: 3D视觉  
 **关键词**: 隐式神经表示, SIREN分类, 元学习, 权重空间, Transformer
 
@@ -131,7 +131,7 @@ tags:
 - [\[CVPR 2025\] End-to-End HOI Reconstruction Transformer with Graph-based Encoding](end-to-end_hoi_reconstruction_transformer_with_graph-based_encoding.md)
 - [\[CVPR 2025\] Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting](rethinking_end-to-end_2d_to_3d_scene_segmentation_in_gaussian_splatting.md)
 - [\[CVPR 2025\] SiNR: Sparsity Driven Compressed Implicit Neural Representations](sinr_sparsity_driven_compressed_implicit_neural_representations.md)
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
 - [\[CVPR 2025\] Mitigating Ambiguities in 3D Classification with Gaussian Splatting](mitigating_ambiguities_in_3d_classification_with_gaussian_splatting.md)
+- [\[CVPR 2025\] Flow-NeRF: Joint Learning of Geometry, Poses, and Dense Flow within Unified Neural Representations](flow-nerf_joint_learning_of_geometry_poses_and_dense_flow_within_unified_neural_.md)
 
 <!-- RELATED:END -->

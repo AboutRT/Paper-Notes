@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2601.15288](https://arxiv.org/abs/2601.15288)  
-**代码**: [https://cvlab-kaist.github.io/APPLE](https://cvlab-kaist.github.io/APPLE) (有)  
+**代码**: [https://cvlab-kaist.github.io/APPLE](https://cvlab-kaist.github.io/APPLE)  
 **领域**: 图像生成 / 人脸替换  
 **关键词**: Face Swapping, diffusion model, Teacher-Student, Pseudo-Label, Attribute Preservation
 

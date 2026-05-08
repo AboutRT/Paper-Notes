@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21928](https://arxiv.org/abs/2603.21928)  
-**代码**: https://github.com/AIGNLAI/GOLD  
+**代码**: [https://github.com/AIGNLAI/GOLD](https://github.com/AIGNLAI/GOLD)  
 **领域**: 持续测试时适应 / 域适应  
 **关键词**: 持续测试时适应, 黄金子空间, AGOP, 低秩适应, 分类器行空间
 

@@ -110,3 +110,15 @@ IASC 是一个完整的人造语言构建 pipeline，包含音系学（phonology
 - 实验充分度: ⭐⭐⭐⭐ 九种语法配置覆盖了丰富的类型学多样性，但样本量偏小
 - 写作质量: ⭐⭐⭐⭐ 论文极为详尽（53页），语言学背景介绍充分，但过于冗长
 - 价值: ⭐⭐⭐⭐⭐ 对理解 LLM 的语言知识本质提供了关键洞察，IASC 工具本身也有独立价值
+
+<!-- RELATED:START -->
+
+## 相关论文
+
+- [\[ACL 2026\] Scaling External Knowledge Input Beyond Context Windows of LLMs via Multi-Agent Collaboration](scaling_external_knowledge_input_beyond_context_windows_of_llms_via_multi-agent_.md)
+- [\[ACL 2026\] StructMem: Structured Memory for Long-Horizon Behavior in LLMs](structmem_structured_memory_for_long-horizon_behavior_in_llms.md)
+- [\[AAAI 2026\] LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs](../../AAAI2026/llm_agent/llmtm_benchmarking_and_optimizing_llms_for_temporal_motif_analysis_in_dynamic_gr.md)
+- [\[ICLR 2026\] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](../../ICLR2026/llm_agent/web-cogreasoner_towards_knowledge-induced_cognitive_reasoning_for_web_agents.md)
+- [\[ICLR 2026\] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning in Web Agents](../../ICLR2026/llm_agent/web-cogreasoner_towards_knowledge-induced_cognitive_reasoning_in_web_agents.md)
+
+<!-- RELATED:END -->

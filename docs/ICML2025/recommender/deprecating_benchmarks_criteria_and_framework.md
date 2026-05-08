@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 基准废弃
-  - 评测生命周期
+  - 推荐系统
   - AI 治理
   - 基准饱和
   - 数据污染
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2507.06434](https://arxiv.org/abs/2507.06434)  
 **代码**: 无  
-**领域**: AI 评测与基准  
+**领域**: 推荐系统  
 **关键词**: 基准废弃、评测生命周期、AI 治理、基准饱和、数据污染
 
 ## 一句话总结
@@ -188,9 +188,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Measuring What Matters: Construct Validity in Large Language Model Benchmarks](../../NeurIPS2025/recommender/measuring_what_matters_construct_validity_in_large_language_model_benchmarks.md)
+- [\[NeurIPS 2025\] FACE: A General Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens](../../NeurIPS2025/recommender/face_a_general_framework_for_mapping_collaborative_filtering_embeddings_into_llm.md)
+- [\[AAAI 2026\] Tool4POI: A Tool-Augmented LLM Framework for Next POI Recommendation](../../AAAI2026/recommender/tool4poi_a_tool-augmented_llm_framework_for_next_poi_recommendation.md)
 - [\[AAAI 2026\] Evaluating LLMs for Police Decision-Making: A Framework Based on Police Action Scenarios](../../AAAI2026/recommender/evaluating_llms_for_police_decision-making_a_framework_based_on_police_action_sc.md)
-- [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
-- [\[ICML 2025\] Aligning LLMs by Predicting Preferences from User Writing Samples](aligning_llms_by_predicting_preferences_from_user_writing_samples.md)
-- [\[ICML 2025\] Recommendations and Reporting Checklist for Rigorous & Transparent Human Baselines in Model Evaluations](recommendations_and_reporting_checklist_for_rigorous_transparent_human_baselines.md)
+- [\[AAAI 2026\] From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization](../../AAAI2026/recommender/from_ids_to_semantics_a_generative_framework_for_cross-domain_recommendation_wit.md)
 
 <!-- RELATED:END -->

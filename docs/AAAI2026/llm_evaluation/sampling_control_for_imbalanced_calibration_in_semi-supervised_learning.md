@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.18773](https://arxiv.org/abs/2511.18773)  
-**代码**: https://github.com/Sheldon04/SC-SSL  
+**代码**: [https://github.com/Sheldon04/SC-SSL](https://github.com/Sheldon04/SC-SSL)  
 **领域**: 半监督学习 / 类别不平衡  
 **关键词**: 半监督学习, 类别不平衡, 采样控制, 伪标签, 校准
 

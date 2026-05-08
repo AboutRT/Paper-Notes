@@ -10,14 +10,14 @@ tags:
   - 粗到细
   - 视觉冗余
   - OCR
-  - 视觉语言模型
+  - 多模态VLM
 ---
 
 # PaddleOCR-VL: Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.24326](https://arxiv.org/abs/2603.24326)  
-**代码**: https://github.com/PaddlePaddle/PaddleOCR  
+**代码**: [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)  
 **领域**: 多模态VLM / 文档理解  
 **关键词**: 文档解析, 粗到细, 视觉冗余, OCR, 视觉语言模型
 
@@ -122,7 +122,7 @@ VLM 两阶段训练：Stage 1 用 29M 样本做预训练对齐（1 epoch，LR 5e
 - [\[CVPR 2026\] Multimodal OCR: Parse Anything from Documents](multimodal_ocr_parse_anything_from_documents.md)
 - [\[CVPR 2026\] Efficient Document Parsing via Parallel Token Prediction](efficient_document_parsing_via_parallel_token_prediction.md)
 - [\[CVPR 2026\] Towards Real-World Document Parsing via Realistic Scene Synthesis and Document-Aware Training](towards_real-world_document_parsing_via_realistic_scene_synthesis_and_document-a.md)
-- [\[CVPR 2026\] TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition](trivia_self-supervised_fine-tuning_of_vision-language_models_for_table_recogniti.md)
-- [\[CVPR 2026\] AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models](agft_alignment-guided_fine-tuning_for_zero-shot_adversarial_robustness_of_vision.md)
+- [\[CVPR 2026\] DocSeeker: Structured Visual Reasoning with Evidence Grounding for Long Document Understanding](docseeker_long_document_understanding.md)
+- [\[CVPR 2026\] ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps](reasonmap_towards_finegrained_visual_reasoning_fro.md)
 
 <!-- RELATED:END -->

@@ -2,12 +2,12 @@
 title: >-
   [论文解读] TraF-Align: Trajectory-aware Feature Alignment for Asynchronous Multi-agent Perception
 description: >-
-  [CVPR 2025][多智能体感知] 提出TraF-Align框架，通过预测特征级目标轨迹学习特征流动路径，生成时序采样点引导当前query关注相关历史特征，解决异步多智能体感知中的时空失配问题。
+  [CVPR 2025][LLM评测] 提出TraF-Align框架，通过预测特征级目标轨迹学习特征流动路径，生成时序采样点引导当前query关注相关历史特征，解决异步多智能体感知中的时空失配问题。
 tags:
   - CVPR 2025
   - 协作感知
   - 异步融合
-  - 特征对齐
+  - LLM评测
   - 轨迹预测
   - V2V通信
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.19391](https://arxiv.org/abs/2503.19391)  
 **代码**: 无  
-**领域**: 自动驾驶 / 多智能体  
+**领域**: LLM评测  
 **关键词**: 协作感知, 异步融合, 特征对齐, 轨迹预测, V2V通信
 
 ## 一句话总结
@@ -110,10 +110,10 @@ TraF-Align 三阶段流程：(1) 各智能体提取 BEV 特征并带时间戳共
 
 ## 相关论文
 
+- [\[CVPR 2025\] NADER: Neural Architecture Design via Multi-Agent Collaboration](nader_neural_architecture_design_via_multi-agent_collaboration.md)
 - [\[ICLR 2026\] Which LLM Multi-Agent Protocol to Choose?](../../ICLR2026/llm_evaluation/which_llm_multi-agent_protocol_to_choose.md)
 - [\[NeurIPS 2025\] Belief-Calibrated Multi-Agent Consensus Seeking for Complex NLP Tasks](../../NeurIPS2025/llm_evaluation/belief-calibrated_multi-agent_consensus_seeking_for_complex_nlp_tasks.md)
-- [\[ACL 2025\] EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework](../../ACL2025/llm_evaluation/educationq_evaluating_llms_teaching_capabilities_through_multi-agent_dialogue_fr.md)
 - [\[AAAI 2026\] MAPS: Multi-Agent Personality Shaping for Collaborative Reasoning](../../AAAI2026/llm_evaluation/maps_multi-agent_personality_shaping_for_collaborative_reaso.md)
-- [\[NeurIPS 2025\] Incomplete Multi-view Clustering via Hierarchical Semantic Alignment and Cooperative Completion](../../NeurIPS2025/llm_evaluation/incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)
+- [\[ICLR 2026\] Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis](../../ICLR2026/llm_evaluation/talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md)
 
 <!-- RELATED:END -->

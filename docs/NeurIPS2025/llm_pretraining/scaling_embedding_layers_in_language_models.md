@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Scaling Embedding Layers in Language Models
 description: >-
-  [NeurIPS 2025][embedding scaling] 提出Scone方法，通过为高频n-gram学习上下文化的嵌入（用独立Transformer模型训练），在推理时将这些嵌入卸载到主存/SSD，实现"训练时用更多计算但推理时不增加加速器资源"的新缩放范式，1B参数模型超越1.9B基线。
+  [NeurIPS 2025][LLM预训练] 提出Scone方法，通过为高频n-gram学习上下文化的嵌入（用独立Transformer模型训练），在推理时将这些嵌入卸载到主存/SSD，实现"训练时用更多计算但推理时不增加加速器资源"的新缩放范式，1B参数模型超越1.9B基线。
 tags:
   - NeurIPS 2025
-  - embedding scaling
+  - LLM预训练
   - n-gram embeddings
   - reasoning efficiency
   - offloading
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.01637](https://arxiv.org/abs/2502.01637)  
 **代码**: 无  
-**领域**: LLM效率  
+**领域**: LLM预训练  
 **关键词**: embedding scaling, n-gram embeddings, reasoning efficiency, offloading, Scone
 
 ## 一句话总结
@@ -111,10 +111,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICML 2025\] Scaling Inference-Efficient Language Models](../../ICML2025/llm_pretraining/scaling_inference-efficient_language_models.md)
 - [\[NeurIPS 2025\] Scalable Fingerprinting of Large Language Models](scalable_fingerprinting_of_large_language_models.md)
-- [\[NeurIPS 2025\] The Curse of Depth in Large Language Models](the_curse_of_depth_in_large_language_models.md)
 - [\[NeurIPS 2025\] Superposition Yields Robust Neural Scaling](superposition_yields_robust_neural_scaling.md)
-- [\[NeurIPS 2025\] Gemstones: A Model Suite for Multi-Faceted Scaling Laws](gemstones_a_model_suite_for_multi-faceted_scaling_laws.md)
 - [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](retrospective_incontext_learning_for_temporal_credit_assignm.md)
+- [\[NeurIPS 2025\] Learning the Wrong Lessons: Syntactic-Domain Spurious Correlations in Language Models](learning_the_wrong_lessons_syntactic-domain_spurious_correlations_in_language_mo.md)
 
 <!-- RELATED:END -->

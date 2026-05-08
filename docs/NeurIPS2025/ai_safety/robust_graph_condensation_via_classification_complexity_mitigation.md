@@ -49,16 +49,16 @@ $$\mathcal{L} = \mathcal{L}_{GC} + \alpha\mathcal{L}_{dim} + \beta\mathcal{L}_{c
 1. **内在维度流形正则化（$\mathcal{L}_{dim}$）**: 首先通过Theorem 1证明GC是内在维度降低过程：$\mathrm{ID}(\mathcal{G}') < \mathrm{ID}(\mathcal{G})$；Theorem 2进一步证明攻击会增加凝缩图的内在维度：$\mathrm{ID}(\mathcal{G}') < \mathrm{ID}(\mathcal{G}'_*)$。
 
    为约束内在维度，使用节点表示 $\mathbf{Z}' = (\mathbf{A}')^2\mathbf{X}'$（两轮消息传播后的嵌入），通过Laplacian近似求解流形维度：
-   $$\mathcal{L}_{dim} = \sqrt{\det(\mathbf{\Sigma}_{Z'} + \mathbf{I})} \cdot \sum_{i=1}^{d'} S_{\mathbf{Z}'}(\alpha_i)$$
+    $\mathcal{L}_{dim} = \sqrt{\det(\mathbf{\Sigma}_{Z'} + \mathbf{I})} \cdot \sum_{i=1}^{d'} S_{\mathbf{Z}'}(\alpha_i)$
    其中第一项通过协方差矩阵的行列式估计流形体积，第二项通过图Laplacian算子估计坐标函数的梯度积分。整个过程是可微的，可加入端到端训练。
 
 2. **曲率感知流形平滑（$\mathcal{L}_{cur}$）**: 类边界的复杂度由类流形的曲率决定。对每个节点 $i$，通过在其局部邻域拟合二次超曲面 $f_\Theta(\mathbf{o}) = \mathbf{o}^\top\Theta\mathbf{o}$ 来估计高斯曲率 $K(i) = 2\det(\mathrm{Mat}(\mathbf{Q}^{-1}\mathbf{p}))$。具体步骤：估计法向量 $\mathbf{u}_i$（最小特征值对应的特征向量）→ 将邻居投影到切空间 → 拟合超曲面获得曲率。
 
    为区分不同节点的重要性，使用Ollivier Ricci曲率 $\kappa(i,j) = 1 - \mathcal{W}(m_i^\alpha, m_j^\alpha)/\mathcal{D}(i,j)$ 对边界桥接节点赋予更高权重：
-   $$\mathcal{L}_{cur} = \sum_c \sum_{i \in \mathcal{V}_c} \mathrm{Norm}(-\kappa(i)) \cdot |K(i)|$$
+    $\mathcal{L}_{cur} = \sum_c \sum_{i \in \mathcal{V}_c} \mathrm{Norm}(-\kappa(i)) \cdot |K(i)|$
 
 3. **类间流形解耦（$\mathcal{L}_{sep}$）**: 通过最小化各类流形体积之和与整体数据流形体积之差来消除类间重叠：
-   $$\mathcal{L}_{sep} = \left(\sum_c |\mathcal{M}(\mathcal{G}'_c)| - |\mathcal{M}(\mathcal{G}')|\right)^2$$
+    $\mathcal{L}_{sep} = \left(\sum_c |\mathcal{M}(\mathcal{G}'_c)| - |\mathcal{M}(\mathcal{G}')|\right)^2$
    当各类流形完全不重叠时，体积之和等于总体积，$\mathcal{L}_{sep}=0$。流形体积仍通过协方差矩阵行列式估计。
 
 ### 复杂度分析
@@ -138,9 +138,9 @@ $$\mathcal{L} = \mathcal{L}_{GC} + \alpha\mathcal{L}_{dim} + \beta\mathcal{L}_{c
 ## 相关论文
 
 - [\[NeurIPS 2025\] Enhancing Graph Classification Robustness with Singular Pooling](enhancing_graph_classification_robustness_with_singular_pooling.md)
-- [\[NeurIPS 2025\] On the Sample Complexity of Differentially Private Policy Optimization](on_the_sample_complexity_of_differentially_private_policy_optimization.md)
+- [\[NeurIPS 2025\] Stealthy Yet Effective: Distribution-Preserving Backdoor Attacks on Graph Classification](stealthy_yet_effective_distribution-preserving_backdoor_attacks_on_graph_classif.md)
 - [\[NeurIPS 2025\] Improved Balanced Classification with Theoretically Grounded Loss Functions](improved_balanced_classification_with_theoretically_grounded_loss_functions.md)
-- [\[NeurIPS 2025\] DESIGN: Encrypted GNN Inference via Server-Side Input Graph Pruning](design_encrypted_gnn_inference_via_server-side_input_graph_pruning.md)
 - [\[NeurIPS 2025\] Influence Functions for Edge Edits in Non-Convex Graph Neural Networks](influence_functions_for_edge_edits_in_non-convex_graph_neural_networks.md)
+- [\[NeurIPS 2025\] DESIGN: Encrypted GNN Inference via Server-Side Input Graph Pruning](design_encrypted_gnn_inference_via_server-side_input_graph_pruning.md)
 
 <!-- RELATED:END -->

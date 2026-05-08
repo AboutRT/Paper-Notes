@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.10225](https://arxiv.org/abs/2507.10225)  
-**代码**: https://github.com/Jarvisgivemeasuit/SynOOD  
-**领域**: OOD 检测 / 扩散模型  
+**代码**: [https://github.com/Jarvisgivemeasuit/SynOOD](https://github.com/Jarvisgivemeasuit/SynOOD)  
+**领域**: 图像生成  
 **关键词**: 分布外检测, 近边界样本合成, CLIP微调, 扩散模型生成, 负标签
 
 ## 一句话总结
@@ -139,7 +139,7 @@ $$\mathcal{L}^P = -\frac{1}{2m}\sum_{i=1}^{2m}\log\frac{\exp(sim(\hat{I}_i, T_i)
 - [\[ICCV 2025\] Penalizing Boundary Activation for Object Completeness in Diffusion Models](penalizing_boundary_activation_for_object_completeness_in_diffusion_models.md)
 - [\[ICCV 2025\] Unsupervised Imaging Inverse Problems with Diffusion Distribution Matching](unsupervised_imaging_inverse_problems_with_diffusion_distribution_matching.md)
 - [\[ICCV 2025\] Learning Few-Step Diffusion Models by Trajectory Distribution Matching](learning_few-step_diffusion_models_by_trajectory_distribution_matching.md)
-- [\[NeurIPS 2025\] Epistemic Uncertainty for Generated Image Detection](../../NeurIPS2025/image_generation/epistemic_uncertainty_for_generated_image_detection.md)
 - [\[ICML 2025\] Unsupervised Learning for Class Distribution Mismatch (UCDM)](../../ICML2025/image_generation/unsupervised_learning_for_class_distribution_mismatch.md)
+- [\[NeurIPS 2025\] Epistemic Uncertainty for Generated Image Detection](../../NeurIPS2025/image_generation/epistemic_uncertainty_for_generated_image_detection.md)
 
 <!-- RELATED:END -->

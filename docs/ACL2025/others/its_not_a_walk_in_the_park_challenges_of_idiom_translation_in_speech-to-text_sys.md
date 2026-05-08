@@ -2,10 +2,10 @@
 title: >-
   [论文解读] It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems
 description: >-
-  [ACL 2025][习语翻译] 本文首次系统比较了语音到文本翻译（SLT）、文本机器翻译（MT）和大语言模型（LLM）在习语翻译任务上的表现，发现 SLT 系统在处理习语时性能大幅下降，即便在编码器高层仍倾向于字面翻译，而 MT 和 LLM 对习语的处理能力明显更优。
+  [ACL 2025][其他] 本文首次系统比较了语音到文本翻译（SLT）、文本机器翻译（MT）和大语言模型（LLM）在习语翻译任务上的表现，发现 SLT 系统在处理习语时性能大幅下降，即便在编码器高层仍倾向于字面翻译，而 MT 和 LLM 对习语的处理能力明显更优。
 tags:
   - ACL 2025
-  - 习语翻译
+  - 其他
   - 语音到文本翻译
   - DecoderLens
   - 级联系统
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.02995](https://arxiv.org/abs/2506.02995)  
 **代码**: [有](https://github.com/IuliiaZaitova/idiom_s2t)  
-**领域**: NLP / 机器翻译 / 语音翻译  
+**领域**: 其他  
 **关键词**: 习语翻译, 语音到文本翻译, DecoderLens, 级联系统, 比喻语言
 
 ## 一句话总结
@@ -140,8 +140,8 @@ tags:
 
 - [\[ACL 2025\] Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation](leveraging_unit_language_guidance_to_advance_speech_modeling_in_textless_speech-.md)
 - [\[NeurIPS 2025\] OrbitZoo: Real Orbital Systems Challenges for Reinforcement Learning](../../NeurIPS2025/others/orbitzoo_real_orbital_systems_challenges_for_reinforcement_learning.md)
-- [\[ACL 2025\] Towards Style Alignment in Cross-Cultural Translation](towards_style_alignment_in_cross-cultural_translation.md)
 - [\[ACL 2025\] Do not Abstain! Identify and Solve the Uncertainty](do_not_abstain_identify_and_solve_the_uncertainty.md)
+- [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
 - [\[ACL 2025\] Is Linguistically-Motivated Data Augmentation Worth It?](is_linguistically-motivated_data_augmentation_worth_it.md)
 
 <!-- RELATED:END -->

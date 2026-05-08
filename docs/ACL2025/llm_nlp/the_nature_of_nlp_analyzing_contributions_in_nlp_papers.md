@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2409.19505](https://arxiv.org/abs/2409.19505)  
 **代码**: [UKPLab/acl25-nlp-contributions](https://github.com/UKPLab/acl25-nlp-contributions)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: NLP scientometrics, 贡献分类, 研究趋势分析, 多标签分类, SciBERT
 
 ## 一句话总结
@@ -145,10 +145,10 @@ NLP Contribution Graph 提取的是与预定义 NLP 任务关联的信息单元�
 
 ## 相关论文
 
-- [\[ACL 2025\] Culture is Not Trivia: Sociocultural Theory for Cultural NLP](culture_is_not_trivia_sociocultural_theory_for_cultural_nlp.md)
 - [\[ACL 2025\] Revisiting Common Assumptions about Arabic Dialects in NLP](arabic_dialects_assumptions_revisited.md)
+- [\[ACL 2025\] Culture is Not Trivia: Sociocultural Theory for Cultural NLP](culture_is_not_trivia_sociocultural_theory_for_cultural_nlp.md)
+- [\[ACL 2025\] Attribution Methods in NLP: Navigating a Fragmented Landscape](attribution_methods_in_nlp_navigating_a_fragmented_landscape.md)
 - [\[ACL 2025\] LazyReview: A Dataset for Uncovering Lazy Thinking in NLP Peer Reviews](lazyreview_peer_review.md)
-- [\[ACL 2025\] How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond](human_nlp_cooperation_survey.md)
-- [\[ACL 2025\] LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks](llm_vs_human_judges_study.md)
+- [\[ACL 2025\] Unveiling Dual Quality in Product Reviews: An NLP-Based Approach](unveiling_dual_quality_in_product_reviews_an_nlp-based_approach.md)
 
 <!-- RELATED:END -->

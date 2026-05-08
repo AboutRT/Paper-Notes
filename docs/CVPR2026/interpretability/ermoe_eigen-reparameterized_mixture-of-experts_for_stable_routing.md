@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2511.10971](https://arxiv.org/abs/2511.10971)  
 **代码**: 无  
-**领域**: 模型压缩  
+**领域**: 可解释性  
 **关键词**: 混合专家模型, 特征值重参数化, 路由稳定性, 专家特化, 视觉Transformer
 
 ## 一句话总结
@@ -107,8 +107,8 @@ ViT backbone提取token embedding，在每个ERMoE block中，路由器计算每
 
 - [\[CVPR 2026\] Draft and Refine with Visual Experts](draft_and_refine_with_visual_experts.md)
 - [\[CVPR 2026\] Feature Attribution Stability Suite: How Stable Are Post-Hoc Attributions?](feature_attribution_stability_suite_how_stable_are_post-hoc_attributions.md)
-- [\[AAAI 2026\] DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment](../../AAAI2026/interpretability/drexperts_differential_refinement_of_distortion-aware_experts_for_blind_image_qu.md)
 - [\[ACL 2025\] IRT-Router: Effective and Interpretable Multi-LLM Routing via Item Response Theory](../../ACL2025/interpretability/irt_router_multi_llm.md)
+- [\[AAAI 2026\] DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment](../../AAAI2026/interpretability/drexperts_differential_refinement_of_distortion-aware_experts_for_blind_image_qu.md)
 - [\[ICLR 2026\] RADAR: Reasoning-Ability and Difficulty-Aware Routing for Reasoning LLMs](../../ICLR2026/interpretability/radar_reasoning-ability_and_difficulty-aware_routing_for_reasoning_llms.md)
 
 <!-- RELATED:END -->

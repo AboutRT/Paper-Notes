@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.02650](https://arxiv.org/abs/2512.02650)  
-**代码**: https://jnwnlee.github.io/selva-demo/  
+**代码**: [https://jnwnlee.github.io/selva-demo/](https://jnwnlee.github.io/selva-demo/)  
 **领域**: 视频理解 / 音频生成  
 **关键词**: 选择性音频生成, 视频到音频, 文本条件, 跨模态注意力, 自监督视频混合
 

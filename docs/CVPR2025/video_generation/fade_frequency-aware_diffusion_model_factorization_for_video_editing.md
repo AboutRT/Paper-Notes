@@ -8,7 +8,7 @@ tags:
   - video editing
   - 扩散模型
   - frequency-aware factorization
-  - spectrum-guided modulation
+  - 视频生成
   - training-free
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2506.05934](https://arxiv.org/abs/2506.05934)  
 **代码**: [https://github.com/EternalEvan/FADE](https://github.com/EternalEvan/FADE)  
-**领域**: image_generation  
+**领域**: 视频生成  
 **关键词**: video editing, diffusion model, frequency-aware factorization, spectrum-guided modulation, training-free
 
 ## 一句话总结
@@ -143,7 +143,7 @@ tags:
 - [\[CVPR 2025\] Identity-Preserving Text-to-Video Generation by Frequency Decomposition](identity-preserving_text-to-video_generation_by_frequency_decomposition.md)
 - [\[CVPR 2025\] PoseTraj: Pose-Aware Trajectory Control in Video Diffusion](posetraj_pose-aware_trajectory_control_in_video_diffusion.md)
 - [\[CVPR 2025\] Improved Video VAE for Latent Video Diffusion Model](improved_video_vae_for_latent_video_diffusion_model.md)
-- [\[CVPR 2025\] Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model](timestep_embedding_tells_its_time_to_cache_for_video_diffusion_model.md)
 - [\[CVPR 2025\] VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step](videoscene_distilling_video_diffusion_model_to_generate_3d_scenes_in_one_step.md)
+- [\[CVPR 2025\] SketchVideo: Sketch-Based Video Generation and Editing](sketchvideo_sketch-based_video_generation_and_editing.md)
 
 <!-- RELATED:END -->

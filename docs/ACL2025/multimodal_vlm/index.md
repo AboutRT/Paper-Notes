@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 多模态VLM方向142篇论文解读
+  ACL2025 多模态 VLM方向140篇论文解读
 description: >-
-  142篇ACL2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、对抗鲁棒、对齐/RLHF、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  140篇ACL2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、对抗鲁棒、对齐/RLHF、对话系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🧩 多模态VLM
+# 🧩 多模态 VLM
 
-**💬 ACL2025** · **142** 篇论文解读
+**💬 ACL2025** · **140** 篇论文解读
 
 **[A Parameter-Efficient and Fine-Grained Prompt Learning for Vision-Language Models](a_parameter-efficient_and_fine-grained_prompt_learning_for_vision-language_model.md)**
 
@@ -122,10 +122,6 @@ description: >-
 
 :   本文提出了一种基于多模态大模型（MLLM）集成的科学图表视觉问答系统，通过 few-shot 示例检索策略和置信度感知的模型选择机制，在 SciVQA 2025 共享任务中获得第三名（平均 F1 = 85.12）。
 
-**[Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities](con_instruction_universal_jailbreaking_of_multimodal_large_language_models_via_n.md)**
-
-:   本文提出 Con Instruction 方法，通过优化对抗性图像或音频使其在嵌入空间中与目标恶意指令对齐，实现无需文本输入即可越狱多模态大语言模型（MLLM），在 LLaVA-v1.5 上达到 86.6% 的攻击成功率，并提出了 ARC 评估框架来同时衡量攻击响应的质量和相关性。
-
 **[Insight Over Sight: Exploring the Vision-Knowledge Conflicts in Multimodal LLMs](conflictvis_vision_knowledge_conflict.md)**
 
 :   首次系统探索 MLLM 中常识级别的视觉-知识冲突问题，提出自动化框架构建 ConflictVis 基准（374 图 + 1122 QA），发现 MLLM 在约 20% 的冲突场景中过度依赖参数化知识（尤其是 Yes-No 和动作类问题），并提出 Focus-on-Vision 提示策略进行缓解。
@@ -145,10 +141,6 @@ description: >-
 **[CoSyn: Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](cosyn_code_guided_synthetic_data.md)**
 
 :   提出 CoSyn 框架，利用纯文本 LLM 的代码生成能力自动合成多样化的文本丰富型图像及对应指令微调数据，构建 400K 图像 + 2.7M 指令数据集，在 7 个 benchmark 上达到开源 SOTA 并超越 GPT-4V。
-
-**[Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence](cracking_hallucination_vhd.md)**
-
-:   提出 VHD 指标量化每个注意力头输出对视觉输入的敏感程度，发现仅少数注意力头对视觉信息高度敏感而模型过度依赖语言先验是导致幻觉的关键因素，进而设计 VHR 免训练方法逐层自适应增强视觉感知头的贡献（$\alpha=2$），在 CHAIR 上将 LLaVA-1.5 的 CHAIR$_S$ 从 49.68 降至 33.32，且几乎无额外推理开销。
 
 **[CrafText Benchmark: Advancing Instruction Following in Complex Multimodal Open-Ended World](craftext_benchmark_advancing_instruction_following_in_complex_multimodal_open-en.md)**
 
@@ -197,10 +189,6 @@ description: >-
 **[Evaluating Visual and Cultural Interpretation: The K-Viscuit Benchmark with Human-VLM Collaboration](evaluating_visual_and_cultural_interpretation_the_k-viscuit_benchmark_with_human.md)**
 
 :   本文提出了一种半自动化的文化 VLM 基准构建框架，通过人-VLM 协作生成多选 VQA 样本，并以此构建了聚焦韩国文化的 K-Viscuit 数据集（657 题），揭示了开源与闭源 VLM 在文化理解上的显著差距。
-
-**[Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](exploring_compositional_generalization_of_multimodal_llms_for_medical_imaging.md)**
-
-:   提出 Med-MAT 数据集（106个医学数据集、53个子集），通过 MAT-Triplet（Modality-Anatomical area-Task）分解医学影像属性，首次系统验证了多模态大模型在医学影像上存在组合泛化（Compositional Generalization）现象，并证明组合泛化是多任务训练泛化增益的关键驱动因素。
 
 **[Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder](exploring_how_generative_mllms_perceive_more.md)**
 
@@ -254,9 +242,17 @@ description: >-
 
 :   提出层级自对比奖励方法 HSCR，通过视觉 token dropout 暴露模型内在的模态失对齐（misalignment），自动生成高质量偏好数据，并结合显式/隐式多层级偏好优化，仅用2000条训练样本即显著提升医学VLM的零样本性能和可信度。
 
+**[I See What You Mean: Co-Speech Gestures for Reference Resolution in Multimodal Dialogue](i_see_what_you_mean_co-speech_gestures_for_reference_resolution_in_multimodal_di.md)**
+
+:   提出自监督预训练方法学习表征性共语手势（co-speech iconic gestures）的嵌入表示，将骨骼动作 grounded 到语言中，在面对面对话的指称消解任务上证明手势与语音的互补性——手势+语音准确率 31% 远超单独语音 24% 或手势 19%。
+
 **[Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback](improving_medical_large_vision-language_models_with_abnormal-aware_feedback.md)**
 
 :   提出 UMed-LVLM，通过 Abnormal-Aware Instruction Tuning 和 Abnormal-Aware Rewarding（包含 Relevance Reward、Abnormal Localization Reward、Vision Relevance Reward）训练策略增强医学 LVLM 的异常区域定位能力，在 MAU 数据集上比基线提升 58%，并展现出优秀的跨模态和 OOD 泛化能力。
+
+**[Improving MLLM's Document Image Machine Translation via Synchronously Self-reviewing Its OCR Proficiency](improving_mllms_document_image_machine_translation_via_synchronously_self-review.md)**
+
+:   本文提出 Synchronously Self-Reviewing (SSR) 范式，通过在文档图像翻译过程中让 MLLM 先生成 OCR 文本再生成翻译文本，利用"双语认知优势"缓解微调导致的灾难性遗忘，同时提升 OCR 和文档图像机器翻译（DIMT）的性能。
 
 **[iNews: A Multimodal Dataset for Modeling Personalized Affective Responses to News](inews_a_multimodal_dataset_for_modeling_personalized_affective_responses_to_news.md)**
 
@@ -269,10 +265,6 @@ description: >-
 **[InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model](internlm-xcomposer25-reward_a_simple_yet_effective_multi-modal_reward_model.md)**
 
 :   基于InternLM-XComposer2.5构建判别式多模态奖励模型IXC-2.5-Reward，通过精心构建跨文本/图像/视频的多领域偏好数据集训练，在多模态奖励基准VL-RewardBench上以70.0% Macro Acc超越GPT-4o（62.4%），并展示了RL训练、Best-of-N测试时缩放和数据清洗三大应用。
-
-**[Jailbreak Large Vision-Language Models Through Multi-Modal Linkage](jailbreak_large_vision-language_models_through_multi-modal_linkage.md)**
-
-:   提出多模态链接（MML）攻击框架，通过跨模态加密-解密机制和"邪恶对齐"策略，以极高成功率（GPT-4o上达99%+）越狱当前最先进的视觉语言模型。
 
 **[JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games](jarvis-vla_post-training_large-scale_vision_language_models_to_play_visual_games.md)**
 
@@ -321,6 +313,10 @@ description: >-
 **[MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation](meit_multimodal_electrocardiogram_instruction_tuning_on_large_language_models_fo.md)**
 
 :   提出 MEIT 框架，通过多模态指令微调将 ECG 信号与 LLM 对齐，利用轻量级拼接融合策略（无需额外参数）在 LLM 的自注意力层中注入 ECG 嵌入，实现自动 ECG 报告生成，并建立涵盖质量评估、零样本迁移、噪声鲁棒性和专家对齐四项任务的综合基准。
+
+**[MIRA: Empowering One-Touch AI Services on Smartphones with MLLM-based Instruction Recommendation](mira_empowering_one-touch_ai_services_on_smartphones_with_mllm-based_instruction.md)**
+
+:   提出 MIRA 框架，通过结构化推理、模板增强推理和前缀树约束解码，让用户在智能手机上长按文本或图片即可获得上下文相关的 AI 服务指令推荐，在 7B 模型上超越 GPT-4V（F1: 0.9121 vs 0.879），token 使用量仅为 1/7。
 
 **[MIRe: Enhancing Multimodal Queries Representation via Fusion-Free Modality Interaction](mire_enhancing_multimodal_queries_representation_via_fusion-free_modality_intera.md)**
 
@@ -401,10 +397,6 @@ description: >-
 **[RATE-Nav: Region-Aware Termination Enhancement for Zero-shot Object Navigation with Vision-Language Models](rate-nav_region-aware_termination_enhancement_for_zero-shot_object_navigation_wi.md)**
 
 :   提出 RATE-Nav，一种基于边际效用理论的零样本目标导航方法，通过几何预测区域分割和基于区域的探索率估计，结合 VLM 的宏观环境感知能力智能判断是否终止当前区域的探索，在 HM3D 上达到 67.8% 成功率和 31.3% SPL，在 MP3D 上比先前零样本方法提升约 10%。
-
-**[REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)**
-
-:   提出 REAL-MM-RAG 多模态文档检索基准，定义了真实世界检索基准的四大关键属性（多模态文档、增强难度、真实 RAG 查询、准确标注），引入多级查询改写鲁棒性评估，并通过针对性训练集（改写数据集+金融表格数据集）实现 SOTA 检索性能。
 
 **[Redundancy Principles for MLLMs Benchmarks](redundancy_principles_for_mllms_benchmarks.md)**
 

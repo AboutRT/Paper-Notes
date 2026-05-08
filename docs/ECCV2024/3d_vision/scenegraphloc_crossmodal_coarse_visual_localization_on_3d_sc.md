@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.00469](https://arxiv.org/abs/2404.00469)  
-**代码**: https://scenegraphloc.github.io (有)  
-**领域**: 多模态VLM  
+**代码**: [https://scenegraphloc.github.io](https://scenegraphloc.github.io)  
+**领域**: 3D视觉  
 **关键词**: 视觉定位, 3D场景图, 跨模态匹配, 多模态嵌入, 对比学习
 
 ## 一句话总结
@@ -138,6 +138,6 @@ tags:
 - [\[ECCV 2024\] WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians](wast-3d_wasserstein-2_distance_for_scene-to-scene_stylization_on_3d_gaussians.md)
 - [\[ECCV 2024\] Zero-Shot Multi-Object Scene Completion](zero-shot_multi-object_scene_completion.md)
 - [\[ECCV 2024\] SceneVerse: Scaling 3D Vision-Language Learning for Grounded Scene Understanding](sceneverse_scaling_3d_vision-language_learning_for_grounded_scene_understanding.md)
-- [\[ECCV 2024\] Vista3D: Unravel the 3D Darkside of a Single Image](vista3d_unravel_the_3d_darkside_of_a_single_image.md)
+- [\[ECCV 2024\] Heterogeneous Graph Learning for Scene Graph Prediction in 3D Point Clouds](heterogeneous_graph_learning_for_scene_graph_prediction_in_3d_point_clouds.md)
 
 <!-- RELATED:END -->

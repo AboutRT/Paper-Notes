@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.15487](https://arxiv.org/abs/2502.15487)  
-**代码**: https://anonymous.4open.science/r/ExpliCa-6473/  
+**代码**: [https://anonymous.4open.science/r/ExpliCa-6473/](https://anonymous.4open.science/r/ExpliCa-6473/)  
 **领域**: LLM/NLP  
 **关键词**: causal reasoning, temporal reasoning, connectives, pairwise causal discovery, benchmark
 

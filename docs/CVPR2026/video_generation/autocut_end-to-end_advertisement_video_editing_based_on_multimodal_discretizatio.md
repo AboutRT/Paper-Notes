@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - video editing
-  - 多模态
+  - 视频生成
   - Residual VQ
   - Advertisement
   - Controllable Generation
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.28366](https://arxiv.org/abs/2603.28366)  
-**代码**: [https://github.com/AdAutoCut/Autocut](https://github.com/AdAutoCut/Autocut) (有)  
+**代码**: [https://github.com/AdAutoCut/Autocut](https://github.com/AdAutoCut/Autocut)  
 **领域**: 视频理解 / 视频编辑  
 **关键词**: video editing, Multimodal LLM, Residual VQ, Advertisement, Controllable Generation
 

@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - 生物分类
-  - 层级对比学习
+  - 多模态VLM
   - 涌现性质
   - 物种识别
   - TreeOfLife

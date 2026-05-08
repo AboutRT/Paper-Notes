@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - RAG
   - noise
-  - retrieval-augmented generation
+  - 信息检索
   - benchmark
   - beneficial noise
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2408.13533](https://arxiv.org/abs/2408.13533)  
-**代码**: https://github.com/jinyangwu/NoiserBench  
+**代码**: [https://github.com/jinyangwu/NoiserBench](https://github.com/jinyangwu/NoiserBench)  
 **领域**: LLM Agent / RAG  
 **关键词**: RAG, noise, retrieval-augmented generation, benchmark, beneficial noise
 
@@ -134,8 +134,8 @@ tags:
 
 - [\[ACL 2025\] Evaluation of Attribution Bias in Generator-Aware Retrieval-Augmented Large Language Models](evaluation_of_attribution_bias_in_generator-aware_retrieval-augmented_large_lang.md)
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
+- [\[ACL 2025\] Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models](astute_rag_knowledge_conflicts.md)
 - [\[ACL 2025\] RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models](rare_retrieval_augmented_reasoning.md)
 - [\[ACL 2025\] CoIR: A Comprehensive Benchmark for Code Information Retrieval Models](coir_a_comprehensive_benchmark_for_code_information_retrieval_models.md)
-- [\[ACL 2025\] Drama: Diverse Augmentation from Large Language Models to Smaller Dense Retrievers](drama_diverse_augmentation_from_large_language_models_to_smaller_dense_retriever.md)
 
 <!-- RELATED:END -->

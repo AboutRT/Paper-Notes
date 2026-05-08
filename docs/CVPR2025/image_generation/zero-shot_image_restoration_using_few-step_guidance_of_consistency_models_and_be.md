@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.20596](https://arxiv.org/abs/2412.20596)  
-**代码**: https://github.com/tirer-lab/CM4IR  
+**代码**: [https://github.com/tirer-lab/CM4IR](https://github.com/tirer-lab/CM4IR)  
 **领域**: 图像生成  
 **关键词**: 零样本图像恢复, 一致性模型, 噪声注入, 反投影引导, 少步推理
 
@@ -124,9 +124,9 @@ CM4IR 提出一种基于一致性模型（Consistency Model）的零样本图像
 ## 相关论文
 
 - [\[CVPR 2025\] V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration](v-bridge_bridging_video_generative_priors_to_versatile_few-shot_image_restoratio.md)
+- [\[CVPR 2025\] TurboFill: Adapting Few-Step Text-to-Image Model for Fast Image Inpainting](turbofill_adapting_few-step_text-to-image_model_for_fast_image_inpainting.md)
 - [\[CVPR 2025\] Z-Magic: Zero-shot Multiple Attributes Guided Image Creator](z-magic_zero-shot_multiple_attributes_guided_image_creator.md)
 - [\[CVPR 2025\] Diffusion Self-Distillation for Zero-Shot Customized Image Generation](diffusion_self-distillation_for_zero-shot_customized_image_generation.md)
-- [\[CVPR 2025\] TurboFill: Adapting Few-Step Text-to-Image Model for Fast Image Inpainting](turbofill_adapting_few-step_text-to-image_model_for_fast_image_inpainting.md)
-- [\[CVPR 2025\] DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation](dualanodiff_few_shot_anomaly_image_generation.md)
+- [\[CVPR 2025\] OSDFace: One-Step Diffusion Model for Face Restoration](osdface_one-step_diffusion_model_for_face_restoration.md)
 
 <!-- RELATED:END -->

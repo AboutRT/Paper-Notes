@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.14193](https://arxiv.org/abs/2602.14193)  
-**代码**: https://pa3ff.github.io/  
+**代码**: [https://pa3ff.github.io/](https://pa3ff.github.io/)  
 **领域**: 3D视觉 / 机器人操作  
 **关键词**: 3D特征场, 部件感知, 关节物体操作, 对比学习, 扩散策略
 

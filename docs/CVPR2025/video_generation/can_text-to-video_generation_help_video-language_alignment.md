@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Can Text-to-Video Generation Help Video-Language Alignment?
 description: >-
-  [CVPR 2025][视频-语言对齐] 提出 SynViTA 框架探索文本到视频生成模型产生的合成视频能否改善视频-语言对齐（VLA），通过基于对齐质量的样本加权和语义一致性正则化解决合成视频的语义不一致和外观偏差问题，在时序挑战性任务上提升 4+ 个点。
+  [CVPR 2025][视频生成] 提出 SynViTA 框架探索文本到视频生成模型产生的合成视频能否改善视频-语言对齐（VLA），通过基于对齐质量的样本加权和语义一致性正则化解决合成视频的语义不一致和外观偏差问题，在时序挑战性任务上提升 4+ 个点。
 tags:
   - CVPR 2025
-  - 视频-语言对齐
+  - 视频生成
   - 合成视频
   - 文本到视频生成
   - 对齐加权
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18507](https://arxiv.org/abs/2503.18507)  
-**代码**: https://lucazanella.github.io/synvita/  
-**领域**: 视频理解  
+**代码**: [https://lucazanella.github.io/synvita/](https://lucazanella.github.io/synvita/)  
+**领域**: 视频生成  
 **关键词**: 视频-语言对齐、合成视频、文本到视频生成、对齐加权、语义一致性
 
 ## 一句话总结

@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.26843](https://arxiv.org/abs/2510.26843)  
 **代码**: 已提交（开源）  
-**领域**: LLM 效率 / 推理加速  
+**领域**: 模型压缩  
 **关键词**: speculative decoding, self-speculative, cascade, layer sparsity, training-free, DyTC
 
 ## 一句话总结

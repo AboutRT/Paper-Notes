@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2410.12600](https://arxiv.org/abs/2410.12600)  
 **代码**: [GitHub](https://github.com/whr000001/EvidencePollution)  
-**领域**: 恶意文本检测 / 社交媒体安全 / LLM安全  
+**领域**: LLM/NLP  
 **关键词**: Evidence Pollution, Malicious Social Text, LLM Misuse, Defense Strategy, Fake News Detection  
 
 ## 一句话总结
@@ -154,10 +154,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2025\] Document-Level Text Generation with Minimum Bayes Risk Decoding using Optimal Transport](doc_level_mbr_optimal_transport.md)
 - [\[ACL 2025\] Stress-testing Machine Generated Text Detection: Shifting Language Models Writing Style to Fool Detectors](stress-testing_machine_generated_text_detection_shifting_language_models_writing.md)
 - [\[ACL 2025\] Synergizing Unsupervised Episode Detection with LLMs for Large-Scale News Events](synergizing_unsupervised_episode_detection_with_llms_for_large-scale_news_events.md)
-- [\[ACL 2025\] Soundwave: Less is More for Speech-Text Alignment in LLMs](soundwave_less_is_more_for_speech-text_alignment_in_llms.md)
-- [\[ACL 2025\] Can LLMs Understand Unvoiced Speech? Exploring EMG-to-Text Conversion with LLMs](can_llms_understand_unvoiced_speech_exploring_emg-to-text_conversion_with_llms.md)
-- [\[ACL 2025\] SocialEval: Evaluating Social Intelligence of Large Language Models](socialeval_evaluating_social_intelligence_of_large_language_models.md)
+- [\[ACL 2025\] Balancing Diversity and Risk in LLM Sampling: How to Select Your Method and Parameter for Open-Ended Text Generation](balancing_diversity_and_risk_in_llm_sampling_how_to_select_your_method_and_param.md)
+- [\[ACL 2025\] Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review](natural_language_processing_in_support_of_evidence-based_medicine_a_scoping_revi.md)
 
 <!-- RELATED:END -->

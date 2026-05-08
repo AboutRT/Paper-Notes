@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Language Model Distillation: A Temporal Difference Imitation Learning Perspective
 description: >-
-  [AAAI 2026][知识蒸馏] 从模仿学习/逆强化学习的视角重新审视语言模型蒸馏，提出利用教师模型输出分布的稀疏性（top-p token集中了96%以上概率质量），构建top-p MDP进行时序差分（TD）学习，证明了在缩减动作空间中的最优策略具有可界的次优性保证，并以IQL算法为基础实现的Bellman Distill方法在多个模型家族上超越了现有蒸馏方法。
+  [AAAI 2026][强化学习] 从模仿学习/逆强化学习的视角重新审视语言模型蒸馏，提出利用教师模型输出分布的稀疏性（top-p token集中了96%以上概率质量），构建top-p MDP进行时序差分（TD）学习，证明了在缩减动作空间中的最优策略具有可界的次优性保证，并以IQL算法为基础实现的Bellman Distill方法在多个模型家族上超越了现有蒸馏方法。
 tags:
   - AAAI 2026
-  - 知识蒸馏
+  - 强化学习
   - 模仿学习
   - 时序差分学习
   - top-p动作空间
@@ -194,10 +194,10 @@ $$\max_Q \mathcal{J}^\star(Q) = \mathbb{E}_{\rho^\star}[\phi((\mathcal{F}_p^\sta
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Temporal-Difference Variational Continual Learning](../../NeurIPS2025/reinforcement_learning/temporal-difference_variational_continual_learning.md)
 - [\[ICLR 2026\] Model Predictive Adversarial Imitation Learning for Planning from Observation](../../ICLR2026/reinforcement_learning/model_predictive_adversarial_imitation_learning_for_planning_from_observation.md)
 - [\[AAAI 2026\] Reasoning with Exploration: An Entropy Perspective](reasoning_with_exploration_an_entropy_perspective.md)
-- [\[ICLR 2026\] The Sample Complexity of Online Reinforcement Learning: A Multi-Model Perspective](../../ICLR2026/reinforcement_learning/the_sample_complexity_of_online_reinforcement_learning_a_multi-model_perspective.md)
-- [\[AAAI 2026\] Do It for HER: First-Order Temporal Logic Reward Specification in Reinforcement Learning](do_it_for_her_first-order_temporal_logic_reward_specification_in_reinforcement_l.md)
+- [\[NeurIPS 2025\] Temporal-Difference Variational Continual Learning](../../NeurIPS2025/reinforcement_learning/temporal-difference_variational_continual_learning.md)
+- [\[AAAI 2026\] Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach](vision-language_reasoning_for_geolocalization_a_reinforcement_learning_approach.md)
+- [\[AAAI 2026\] ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation](manilong-shot_interaction-aware_one-shot_imitation_learning_for_long-horizon_man.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 手写文档识别
   - OCR
-  - 视觉语言模型
+  - 多模态VLM
   - 法律文档翻译
   - 低资源语言
 ---
@@ -138,9 +138,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models](../../NeurIPS2025/multimodal_vlm/seeing_is_believing_mitigating_ocr_hallucinations_in_multimodal_large_language_m.md)
+- [\[ACL 2025\] Improving MLLM's Document Image Machine Translation via Synchronously Self-reviewing Its OCR Proficiency](../../ACL2025/multimodal_vlm/improving_mllms_document_image_machine_translation_via_synchronously_self-review.md)
 - [\[CVPR 2026\] Seeing Clearly, Reasoning Confidently: Plug-and-Play Remedies for Vision Language Model Blindness](../../CVPR2026/multimodal_vlm/seeing_clearly_reasoning_confidently_plug-and-play_remedies_for_vision_language_.md)
 - [\[CVPR 2026\] Multimodal OCR: Parse Anything from Documents](../../CVPR2026/multimodal_vlm/multimodal_ocr_parse_anything_from_documents.md)
-- [\[CVPR 2025\] Unveiling the Ignorance of MLLMs: Seeing Clearly, Answering Incorrectly](../../CVPR2025/multimodal_vlm/unveiling_the_ignorance_of_mllms_seeing_clearly_answering_incorrectly.md)
-- [\[ACL 2025\] Single-to-mix Modality Alignment with Multimodal Large Language Model for Document Image Machine Translation](../../ACL2025/multimodal_vlm/single-to-mix_modality_alignment_with_multimodal_large_language_model_for_docume.md)
+- [\[ACL 2025\] Can Vision-Language Models Evaluate Handwritten Math?](../../ACL2025/multimodal_vlm/can_vision-language_models_evaluate_handwritten_math.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.05357](https://arxiv.org/abs/2511.05357)  
-**代码**: 有 (https://github.com/mikzuker/inverse_design_metasurface_generation)  
+**代码**: 有 ([https://github.com/mikzuker/inverse_design_metasurface_generation](https://github.com/mikzuker/inverse_design_metasurface_generation))  
 **领域**: 图像生成 / 扩散模型 / 电磁逆设计  
 **关键词**: 条件扩散模型, 超表面逆设计, 电磁散射, FiLM 条件化, 元结构生成
 

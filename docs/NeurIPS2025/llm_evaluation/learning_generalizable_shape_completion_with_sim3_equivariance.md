@@ -8,7 +8,7 @@ tags:
   - shape completion
   - SIM(3) equivariance
   - vector neurons
-  - 点云
+  - LLM评测
   - cross-domain generalization
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.26631](https://arxiv.org/abs/2509.26631)  
 **代码**: [项目页](https://sime-completion.github.io)  
-**领域**: 3D视觉 / 形状补全  
+**领域**: LLM评测  
 **关键词**: shape completion, SIM(3) equivariance, vector neurons, point cloud, cross-domain generalization
 
 ## 一句话总结
@@ -117,10 +117,10 @@ SIMECO 比 AdaPoinTr+增广提升 10% CD-$\ell_1$ 和 8% F1
 
 ## 相关论文
 
+- [\[CVPR 2026\] Unified Primitive Proxies for Structured Shape Completion](../../CVPR2026/llm_evaluation/unified_primitive_proxies_for_structured_shape_completion.md)
 - [\[NeurIPS 2025\] Incomplete Multi-view Clustering via Hierarchical Semantic Alignment and Cooperative Completion](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)
+- [\[NeurIPS 2025\] Put CASH on Bandits: A Max K-Armed Problem for Automated Machine Learning](put_cash_on_bandits_a_max_k-armed_problem_for_automated_machine_learning.md)
+- [\[ICCV 2025\] Combinative Matching for Geometric Shape Assembly](../../ICCV2025/llm_evaluation/combinative_matching_for_geometric_shape_assembly.md)
 - [\[ICML 2025\] G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration](../../ICML2025/llm_evaluation/g-sim_generative_simulations_with_large_language_models_and_gradient-free_calibr.md)
-- [\[CVPR 2025\] Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders](../../CVPR2025/llm_evaluation/dora_sampling_and_benchmarking_for_3d_shape_variational_auto-encoders.md)
-- [\[AAAI 2026\] DcMatch: Unsupervised Multi-Shape Matching with Dual-Level Consistency](../../AAAI2026/llm_evaluation/dcmatch_unsupervised_multi-shape_matching_with_dual-level_consistency.md)
-- [\[NeurIPS 2025\] CLIMB: Class-Imbalanced Learning Benchmark on Tabular Data](climb_class-imbalanced_learning_benchmark_on_tabular_data.md)
 
 <!-- RELATED:END -->

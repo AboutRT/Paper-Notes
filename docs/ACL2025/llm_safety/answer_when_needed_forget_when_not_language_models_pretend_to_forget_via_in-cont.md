@@ -9,7 +9,7 @@ tags:
   - test-time forgetting
   - unlearning tokens
   - selective forgetting
-  - LLM internal mechanism
+  - LLM安全
 ---
 
 # Answer When Needed, Forget When Not: Language Models Pretend to Forget via In-Context Knowledge Unlearning
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.00382](https://arxiv.org/abs/2410.00382)  
 **代码**: [GitHub](https://github.com/seele1917/test-time-in-context-unlearning)  
-**领域**: llm_safety  
+**领域**: LLM安全  
 **关键词**: in-context unlearning, test-time forgetting, unlearning tokens, selective forgetting, LLM internal mechanism
 
 ## 一句话总结
@@ -152,10 +152,10 @@ LoRA 的优势在于高效适配模型行为而不过拟合，保留原始知识
 
 ## 相关论文
 
-- [\[ACL 2025\] Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations](factual_knowledge_in_language_models_robustness_and_anomalies_under_simple_tempo.md)
 - [\[CVPR 2026\] Designing to Forget: Deep Semi-parametric Models for Unlearning](../../CVPR2026/llm_safety/designing_to_forget_deep_semi-parametric_models_for_unlearning.md)
 - [\[ACL 2025\] ReLearn: Unlearning via Learning for Large Language Models](relearn_unlearning_via_learning_for_large_language_models.md)
-- [\[ACL 2025\] Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning](alleviating_hallucinations_from_knowledge_misalignment_in_large_language_models_.md)
+- [\[ACL 2025\] When Backdoors Speak: Understanding LLM Backdoor Attacks Through Model-Generated Explanations](when_backdoors_speak_understanding_llm_backdoor_attacks_through_model-generated_.md)
+- [\[ACL 2025\] REVS: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space](revs_unlearning_sensitive_information_in_language_models_via_rank_editing_in_the.md)
 - [\[ICML 2025\] System-Aware Unlearning Algorithms: Use Lesser, Forget Faster](../../ICML2025/llm_safety/system-aware_unlearning_algorithms_use_lesser_forget_faster.md)
 
 <!-- RELATED:END -->

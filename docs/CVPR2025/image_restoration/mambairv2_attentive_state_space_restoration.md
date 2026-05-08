@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.15269](https://arxiv.org/abs/2411.15269)  
 **代码**: [GitHub](https://github.com/csguoh/MambaIR)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: Mamba, state space model, attentive state-space equation, semantic guided neighboring, non-causal modeling, super-resolution, denoising
 
 ## 一句话总结

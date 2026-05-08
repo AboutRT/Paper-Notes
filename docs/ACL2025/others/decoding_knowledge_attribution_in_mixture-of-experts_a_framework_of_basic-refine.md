@@ -7,7 +7,7 @@ tags:
   - ACL2025
   - Mixture-of-Experts
   - 知识归因
-  - 可解释性
+  - 其他
   - 专家协作
   - 稀疏路由
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2505.24593](https://arxiv.org/abs/2505.24593)  
 **作者**: Junzhuo Li, Bo Wang, Xiuze Zhou, Peijie Jiang, Jia Liu, Xuming Hu (HKUST(GZ), Ant Group)
-**领域**: others  
+**领域**: 其他  
 **关键词**: Mixture-of-Experts, 知识归因, 可解释性, 专家协作, 稀疏路由
 
 ## 一句话总结
@@ -150,7 +150,7 @@ Mixture-of-Experts (MoE) 通过稀疏激活子集专家降低计算开销，但�
 
 - [\[ACL 2025\] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning](more_a_mixture_of_low-rank_experts_for_adaptive_multi-task_learning.md)
 - [\[ACL 2025\] DoMIX: An Efficient Framework for Exploiting Domain Knowledge in Fine-Tuning](domix_an_efficient_framework_for_exploiting.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
+- [\[ACL 2025\] Synergistic Weak-Strong Collaboration by Aligning Preferences](synergistic_weak-strong_collaboration_by_aligning_preferences.md)
 - [\[ACL 2025\] ChartLens: Fine-Grained Visual Attribution in Charts](chartlens_fine-grained_visual_attribution_in_charts.md)
 - [\[ACL 2025\] LAQuer: Localized Attribution Queries in Content-grounded Generation](laquer_localized_attribution.md)
 

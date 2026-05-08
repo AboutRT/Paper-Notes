@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.14920](https://arxiv.org/abs/2603.14920)  
 **代码**: [https://github.com/wei1895/F2HDR](https://github.com/wei1895/F2HDR)  
-**领域**: 视频理解  
+**领域**: 模型压缩  
 **关键词**: HDR视频重建, 光流适配器, 物理运动建模, 交替曝光, 两阶段重建
 
 ## 一句话总结
@@ -176,9 +176,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] S2R-HDR: A Large-Scale Rendered Dataset for HDR Fusion](../../ICLR2026/model_compression/s2r-hdr_a_large-scale_rendered_dataset_for_hdr_fusion.md)
-- [\[CVPR 2026\] Generative Video Compression with One-Dimensional Latent Representation](generative_video_compression_with_one-dimensional_latent_representation.md)
-- [\[CVPR 2026\] UniComp: Rethinking Video Compression Through Informational Uniqueness](unicomp_rethinking_video_compression_through_informational_uniqueness.md)
 - [\[ICCV 2025\] Gain-MLP: Improving HDR Gain Map Encoding via a Lightweight MLP](../../ICCV2025/model_compression/gain-mlp_improving_hdr_gain_map_encoding_via_a_lightweight_mlp.md)
+- [\[CVPR 2026\] UniComp: Rethinking Video Compression Through Informational Uniqueness](unicomp_rethinking_video_compression_through_informational_uniqueness.md)
+- [\[CVPR 2026\] Generative Video Compression with One-Dimensional Latent Representation](generative_video_compression_with_one-dimensional_latent_representation.md)
 - [\[CVPR 2026\] PriVi: Towards a General-Purpose Video Model for Primate Behavior in the Wild](privi_towards_a_general-purpose_video_model_for_primate_behavior_in_the_wild.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.12032](https://arxiv.org/abs/2602.12032)  
 **代码**: [Project Page](https://gewu-lab.github.io/GAP/)  
-**领域**: Robotics / Multimodal Policy Learning  
+**领域**: 机器人  
 **关键词**: 视觉-本体感觉策略, 模态时序性, 梯度调整, 运动转换阶段, 机器人操作
 
 ## 一句话总结
@@ -54,13 +54,13 @@ GAP算法的pipeline如下：
 1. **运动表示（Motion Representation）**：基于本体感觉信号定义机器人运动。时间步 $i$ 到 $j$ 之间的运动定义为 $m_{i:j} = \{p_{i:j}, \theta_{i:j}, g_{i:j}\}$，其中 $p_{i:j}$ 是夹爪位置变化，$\theta_{i:j}$ 是朝向变化，$g_{i:j}$ 是夹爪开合度变化。这三个维度完整描述了机器人臂的运动。
 
 2. **变点检测（Change Point Detection, CPD）分割**：使用动态规划来识别轨迹中运动方向发生根本变化的时间点。定义了运动一致性距离：
-   $$d(m_{t_1:t_2}, m_{i:i+1}) = -\cos(p_{t_1:t_2}, p_{i:i+1}) - \alpha\cos(\theta_{t_1:t_2}, \theta_{i:i+1}) - \beta(\text{sgn}(g_{t_1:t_2}) == \text{sgn}(g_{i:i+1}))$$
+    $d(m_{t_1:t_2}, m_{i:i+1}) = -\cos(p_{t_1:t_2}, p_{i:i+1}) - \alpha\cos(\theta_{t_1:t_2}, \theta_{i:i+1}) - \beta(\text{sgn}(g_{t_1:t_2}) == \text{sgn}(g_{i:i+1}))$
    其中 $\alpha=1$, $\beta=2\times10^{-3}$ 平衡了位置、朝向和夹爪开合三种运动的贡献。CPD最小化总代价将轨迹分割为运动一致的阶段。
 
 3. **LSTM时序建模预测转换概率**：CPD输出的是离散的分割点，但运动转换是连续过程。因此使用LSTM网络对本体感觉的时间差分 $\Delta s_i = s_{i+1} - s_i$ 进行建模，预测每个时间步属于运动转换阶段的连续概率 $\rho_i \in [0,1]$。LSTM以CPD输出作为监督信号，并对转换点附近的时间步降低惩罚，以更好捕捉渐变的转换过程。这比直接使用离散CPD标签效果更好（消融实验验证）。
 
 4. **梯度调整（Gradient Adjustment）**：核心技术——在训练的每个epoch中，对本体感觉特征提取器的参数 $\omega_s$ 进行调制：
-   $$\omega_s^{j+1} = \omega_s^j - \lambda \cdot (1-\rho) \cdot \eta \nabla_{\omega_s^j} \mathcal{L}_{BC}(\omega_s^j)$$
+    $\omega_s^{j+1} = \omega_s^j - \lambda \cdot (1-\rho) \cdot \eta \nabla_{\omega_s^j} \mathcal{L}_{BC}(\omega_s^j)$
    其中 $\lambda=0.3$ 控制调整程度，$\rho$ 是转换概率。当 $\rho$ 高时（运动转换阶段），本体感觉的梯度被大幅削弱，迫使网络更多地依赖视觉信号来学习这些阶段的行为。这是一种**细粒度的、与阶段相关的模态平衡策略**。
 
 5. **仅在训练早期应用GAP**：梯度调整仅在前50个epoch（总100个epoch）中应用。这避免了过度调制导致的训练不稳定和策略崩溃。消融实验表明这一选择是鲁棒的。
@@ -164,9 +164,9 @@ GAP算法的pipeline如下：
 ## 相关论文
 
 - [\[ICLR 2026\] MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation](memoryvla_perceptual-cognitive_memory_in_vision-language-action_models_for_robot.md)
-- [\[CVPR 2025\] RoboGround: Robotic Manipulation with Grounded Vision-Language Priors](../../CVPR2025/robotics/roboground_robotic_manipulation_with_grounded_vision-language_priors.md)
+- [\[ICLR 2026\] VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation](vlbiman_vision-language_anchored_one-shot_demonstration_enables_generalizable_bi.md)
 - [\[ICLR 2026\] When Agents Persuade: Propaganda Generation and Mitigation in LLMs](when_agents_persuade_propaganda_generation_and_mitigation_in_llms.md)
+- [\[CVPR 2025\] RoboGround: Robotic Manipulation with Grounded Vision-Language Priors](../../CVPR2025/robotics/roboground_robotic_manipulation_with_grounded_vision-language_priors.md)
 - [\[ICLR 2026\] RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation](robointer_a_holistic_intermediate_representation_suite_towards_robotic_manipulat.md)
-- [\[ICLR 2026\] TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models](twinvla_data-efficient_bimanual_manipulation_with_twin_single-arm_vision-languag.md)
 
 <!-- RELATED:END -->

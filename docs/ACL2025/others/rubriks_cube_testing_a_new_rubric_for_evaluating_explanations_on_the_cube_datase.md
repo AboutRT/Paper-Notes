@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - explanation evaluation
   - rubric
-  - LLM explanations
+  - 其他
   - CUBE dataset
   - quality assessment
   - education-inspired
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.23899](https://arxiv.org/abs/2503.23899)  
 **代码**: [GitHub](https://github.com/RubriksCube/rubriks_cube)  
-**领域**: LLM评估 / 解释质量  
+**领域**: 其他  
 **关键词**: explanation evaluation, rubric, LLM explanations, CUBE dataset, quality assessment, education-inspired
 
 ## 一句话总结
@@ -128,7 +128,7 @@ tags:
 - [\[ACL 2025\] DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing](dress_dataset_rubric_based_essay_scoring_efl_writing.md)
 - [\[ACL 2025\] TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation](tabxeval_why_this_is_a_bad_table_an_exhaustive_rubric_for_table_evaluation.md)
 - [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
-- [\[ICML 2025\] SynDaCaTE: A Synthetic Dataset for Evaluating Part-Whole Hierarchical Inference](../../ICML2025/others/syndacate_a_synthetic_dataset_for_evaluating_part-whole_hierarchical_inference.md)
 - [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
+- [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
 
 <!-- RELATED:END -->

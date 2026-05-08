@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19576](https://arxiv.org/abs/2503.19576)  
-**代码**: https://dsgrad.github.io/SINR  
+**代码**: [https://dsgrad.github.io/SINR](https://dsgrad.github.io/SINR)  
 **领域**: 3D视觉  
 **关键词**: 隐式神经表示, 信号压缩, 稀疏编码, 压缩感知, INR
 
@@ -131,9 +131,9 @@ COIN++集成：达到~24.2dB PSNR，COIN++需>1.5 bpp，加SINR后<1.0 bpp。
 ## 相关论文
 
 - [\[CVPR 2025\] End-to-End Implicit Neural Representations for Classification](end-to-end_implicit_neural_representations_for_classification.md)
-- [\[ECCV 2024\] Lagrangian Hashing for Compressed Neural Field Representations](../../ECCV2024/3d_vision/lagrangian_hashing_for_compressed_neural_field_representations.md)
 - [\[ICCV 2025\] LINR-PCGC: Lossless Implicit Neural Representations for Point Cloud Geometry Compression](../../ICCV2025/3d_vision/linr-pcgc_lossless_implicit_neural_representations_for_point_cloud_geometry_comp.md)
 - [\[CVPR 2025\] Flow-NeRF: Joint Learning of Geometry, Poses, and Dense Flow within Unified Neural Representations](flow-nerf_joint_learning_of_geometry_poses_and_dense_flow_within_unified_neural_.md)
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
+- [\[CVPR 2026\] NTK-Guided Implicit Neural Teaching](../../CVPR2026/3d_vision/ntk-guided_implicit_neural_teaching.md)
+- [\[ICCV 2025\] SL2A-INR: Single-Layer Learnable Activation for Implicit Neural Representation](../../ICCV2025/3d_vision/sl2a-inr_single-layer_learnable_activation_for_implicit_neural_representation.md)
 
 <!-- RELATED:END -->

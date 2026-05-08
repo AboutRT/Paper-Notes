@@ -9,7 +9,7 @@ tags:
   - 证据深度学习
   - 后置方法
   - Dirichlet分布
-  - 大语言模型
+  - LLM预训练
 ---
 
 # Evidential Transformation Network: Turning Pretrained Models into Evidential Models for Post-hoc Uncertainty Estimation
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.08627](https://arxiv.org/abs/2604.08627)  
 **代码**: [GitHub](https://github.com/cyc9805/Evidential-Transformation-Network)  
-**领域**: LLM推理  
+**领域**: LLM预训练  
 **关键词**: 不确定性估计, 证据深度学习, 后置方法, Dirichlet分布, 大语言模型
 
 ## 一句话总结
@@ -123,10 +123,10 @@ ETN 损失（Eq. 5）= 重构项（变换后 Dirichlet 的 KL 散度期望，用
 
 ## 相关论文
 
-- [\[ICLR 2026\] Identifying and Evaluating Inactive Heads in Pretrained LLMs](../../ICLR2026/llm_pretraining/identifying_and_evaluating_inactive_heads_in_pretrained_llms.md)
-- [\[ACL 2026\] Compact Example-Based Explanations for Language Models](../../ACL2026/llm_pretraining/compact_example-based_explanations_for_language_models.md)
+- [\[NeurIPS 2025\] One Prompt Fits All: Universal Graph Adaptation for Pretrained Models](../../NeurIPS2025/llm_pretraining/one_prompt_fits_all_universal_graph_adaptation_for_pretrained_models.md)
+- [\[ICLR 2026\] Steering Language Models with Weight Arithmetic](../../ICLR2026/llm_pretraining/steering_language_models_with_weight_arithmetic.md)
 - [\[ICCV 2025\] ConstStyle: Robust Domain Generalization with Unified Style Transformation](../../ICCV2025/llm_pretraining/conststyle_robust_domain_generalization_with_unified_style_transformation.md)
-- [\[ACL 2025\] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models](../../ACL2025/llm_pretraining/leancode_understanding_models_better_for_code_simplification_of_pre-trained_larg.md)
+- [\[ICLR 2026\] Lossless Vocabulary Reduction for Auto-Regressive Language Models](../../ICLR2026/llm_pretraining/lossless_vocabulary_reduction_for_auto-regressive_language_models.md)
 - [\[CVPR 2025\] Bridging the Vision-Brain Gap with an Uncertainty-Aware Blur Prior](../../CVPR2025/llm_pretraining/bridging_the_vision-brain_gap_with_an_uncertainty-aware_blur_prior.md)
 
 <!-- RELATED:END -->

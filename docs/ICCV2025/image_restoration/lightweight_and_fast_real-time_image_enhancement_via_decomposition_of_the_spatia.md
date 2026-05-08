@@ -52,17 +52,17 @@ SVDLUT框架包含：
 
    通过分析FiveK数据集上3D LUT的利用率（仅<10%顶点被引用，高频访问沿对角线分布），提出用2D LUT的线性组合替代3D LUT：
 
-   $$t_{rgb}^c \to w_{rg}^c \cdot t_{rg}^c + w_{rb}^c \cdot t_{rb}^c + w_{gb}^c \cdot t_{gb}^c + b^c$$
+    $t_{rgb}^c \to w_{rg}^c \cdot t_{rg}^c + w_{rb}^c \cdot t_{rb}^c + w_{gb}^c \cdot t_{gb}^c + b^c$
 
    颜色增强变为：
-   $$Y_{(c,x,y)} = w_{rg}^c \cdot I_{bi}(\bar{X}_{(x,y)}, t_{rg}^c) + w_{rb}^c \cdot I_{bi}(\bar{X}_{(x,y)}, t_{rb}^c) + w_{gb}^c \cdot I_{bi}(\bar{X}_{(x,y)}, t_{gb}^c) + b^c$$
+    $Y_{(c,x,y)} = w_{rg}^c \cdot I_{bi}(\bar{X}_{(x,y)}, t_{rg}^c) + w_{rb}^c \cdot I_{bi}(\bar{X}_{(x,y)}, t_{rb}^c) + w_{gb}^c \cdot I_{bi}(\bar{X}_{(x,y)}, t_{gb}^c) + b^c$
 
    其中 $I_{bi}(\cdot)$ 为双线性插值。同样将3D双边网格分解为2D。实验验证3D→2D时PSNR几乎无变化（25.68 vs 25.67），但模型大小减少84%。
 
 2. **基于SVD的进一步压缩**
 
    将2D LUT进一步做奇异值分解：
-   $$T^{2D} = U \cdot S \cdot V^T$$
+    $T^{2D} = U \cdot S \cdot V^T$
 
    生成器直接预测LUT组件 $(S, U, V^T)$ 而非完整2D LUT。玩具实验表明LUT在保留8个奇异值时性能几乎不降，因为LUT具有单调简单结构。但双边网格因承载空间信息结构更复杂，SVD效果不佳，因此仅对LUT应用SVD。
 
@@ -74,7 +74,7 @@ SVDLUT框架包含：
 
    改进方案：将slicing和LUT transform合并为一步操作，消除中间输出 $f_s$ 和 $\bar{X}$，复用LUT索引计算结果，去掉1×1卷积（分解的加权和已可替代）：
 
-   $$Y_{(c,x,y)} = \text{Transform}_{2D}^c(X_{(c,x,y)}, T^{2D}) + \sum_{k=0}^{K/3-1} \text{Slicing}_{2D}^{c'_{c+3k}}(X_{(c,x,y)}, G^{2D})$$
+    $Y_{(c,x,y)} = \text{Transform}_{2D}^c(X_{(c,x,y)}, T^{2D}) + \sum_{k=0}^{K/3-1} \text{Slicing}_{2D}^{c'_{c+3k}}(X_{(c,x,y)}, G^{2D})$
 
    效果：4K推理从3.84ms降至1.38ms，PSNR还提升0.08dB。
 
@@ -169,6 +169,6 @@ PPR10K数据集上也保持最优或次优PSNR。
 - [\[ICCV 2025\] Learning Pixel-adaptive Multi-layer Perceptrons for Real-time Image Enhancement](learning_pixel-adaptive_multi-layer_perceptrons_for_real-time_image_enhancement.md)
 - [\[CVPR 2025\] DnLUT: Ultra-Efficient Color Image Denoising via Channel-Aware Lookup Tables](../../CVPR2025/image_restoration/dnlut_ultra-efficient_color_image_denoising_via_channel-aware_lookup_tables.md)
 - [\[ICCV 2025\] IM-LUT: Interpolation Mixing Look-Up Tables for Image Super-Resolution](im-lut_interpolation_mixing_look-up_tables_for_image_super-resolution.md)
-- [\[ICCV 2025\] Outlier-Aware Post-Training Quantization for Image Super-Resolution](outlier-aware_post-training_quantization_for_image_super-resolution.md)
+- [\[ICCV 2025\] CWNet: Causal Wavelet Network for Low-Light Image Enhancement](cwnet_causal_wavelet_network_for_low-light_image_enhancement.md)
 
 <!-- RELATED:END -->

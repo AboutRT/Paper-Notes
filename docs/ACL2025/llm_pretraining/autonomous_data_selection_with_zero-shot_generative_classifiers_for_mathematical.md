@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2402.07625](https://arxiv.org/abs/2402.07625)  
-**代码**: [GitHub](https://github.com/yifanzhang-pro/AutoMathText) (有)  
+**代码**: [GitHub](https://github.com/yifanzhang-pro/AutoMathText)  
 **领域**: 数据筛选 / 数学推理  
 **关键词**: 自主数据选择, 零样本生成分类器, 数学文本, 持续预训练, LM-Score
 

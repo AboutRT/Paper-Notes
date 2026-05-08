@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.16601](https://arxiv.org/abs/2510.16601)  
-**代码**: https://github.com/seucoin/unKR/tree/main/unKR_ssCDL (有)  
+**代码**: [https://github.com/seucoin/unKR/tree/main/unKR_ssCDL](https://github.com/seucoin/unKR/tree/main/unKR_ssCDL)  
 **领域**: 图学习 / 知识图谱  
 **关键词**: 不确定知识图谱, 置信度分布学习, 半监督学习, 元自训练, 知识图谱补全
 
@@ -131,9 +131,9 @@ CDL-RL 总损失：$\mathcal{L} = \frac{1}{2\lambda_{CP}^2}\mathcal{L}_{CP} + \f
 ## 相关论文
 
 - [\[NeurIPS 2025\] Geometric Imbalance in Semi-Supervised Node Classification](geometric_imbalance_in_semi-supervised_node_classification.md)
+- [\[NeurIPS 2025\] SSTAG: Structure-Aware Self-Supervised Learning Method for Text-Attributed Graphs](sstag_structure-aware_self-supervised_learning_method_for_text-attributed_graphs.md)
 - [\[ACL 2025\] Extending Complex Logical Queries on Uncertain Knowledge Graphs](../../ACL2025/graph_learning/extending_complex_logical_queries_uncertain_knowledge_graphs.md)
 - [\[ACL 2025\] Beyond Completion: A Foundation Model for General Knowledge Graph Reasoning](../../ACL2025/graph_learning/beyond_completion_a_foundation_model_for_general_knowledge_graph_reasoning.md)
 - [\[NeurIPS 2025\] Self-Supervised Discovery of Neural Circuits in Spatially Patterned Neural Responses with Graph Neural Networks](self-supervised_discovery_of_neural_circuits_in_spatially_patterned_neural_respo.md)
-- [\[NeurIPS 2025\] Inductive Transfer Learning for Graph-Based Recommenders](inductive_transfer_learning_for_graph-based_recommenders.md)
 
 <!-- RELATED:END -->

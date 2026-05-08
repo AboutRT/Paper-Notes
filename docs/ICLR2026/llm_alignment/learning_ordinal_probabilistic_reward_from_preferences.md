@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.12660](https://arxiv.org/abs/2602.12660)  
 
-**代码**: https://github.com/ritzz-ai/OPRM  
+**代码**: [https://github.com/ritzz-ai/OPRM](https://github.com/ritzz-ai/OPRM)  
 
 **领域**: LLM Alignment / 奖励建模  
 **关键词**: 序数奖励, 概率分布, 区域洪泛调优, 奖励模型, 不确定性估计

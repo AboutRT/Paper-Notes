@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.10250](https://arxiv.org/abs/2505.10250)  
 **代码**: [GitHub - ADHMR](https://github.com/shenwenhao01/ADHMR)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: 人体网格恢复, 扩散模型, DPO, 偏好优化, HMR-Scorer
 
 ## 一句话总结

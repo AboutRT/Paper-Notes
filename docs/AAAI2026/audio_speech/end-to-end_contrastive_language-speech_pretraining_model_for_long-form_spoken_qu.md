@@ -7,7 +7,7 @@ tags:
   - AAAI2026
   - 语音
   - Spoken Question Answering
-  - 对比学习
+  - 音频语音
   - Retrieval-Augmented Generation
   - Speech-Text Alignment
   - CIF
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.09282](https://arxiv.org/abs/2511.09282)  
 **代码**: [193746/CLSR](https://github.com/193746/CLSR)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Spoken Question Answering, Contrastive Learning, Retrieval-Augmented Generation, Speech-Text Alignment, CIF
 
 ## 一句话总结

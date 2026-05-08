@@ -179,8 +179,8 @@ $$\mathcal{L}_{surr} = \mathcal{L} + \max((1 - f_{surr}(x))^2, 0.5)$$
 
 - [\[ICLR 2026\] MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation](../../ICLR2026/robotics/memoryvla_perceptual-cognitive_memory_in_vision-language-action_models_for_robot.md)
 - [\[NeurIPS 2025\] Manipulating Feature Visualizations with Gradient Slingshots](../../NeurIPS2025/robotics/manipulating_feature_visualizations_with_gradient_slingshots.md)
+- [\[NeurIPS 2025\] Uncovering Strategic Egoism Behaviors in Large Language Models](../../NeurIPS2025/robotics/uncovering_strategic_egoism_behaviors_in_large_language_models.md)
 - [\[ICLR 2026\] Visual Planning: Let's Think Only with Images](../../ICLR2026/robotics/visual_planning_lets_think_only_with_images.md)
 - [\[NeurIPS 2025\] COOPERA: Continual Open-Ended Human-Robot Assistance](../../NeurIPS2025/robotics/coopera_continual_open_ended_human_robot_assistance.md)
-- [\[NeurIPS 2025\] Knolling Bot: Teaching Robots the Human Notion of Tidiness](../../NeurIPS2025/robotics/knolling_bot_teaching_robots_the_human_notion_of_tidiness.md)
 
 <!-- RELATED:END -->

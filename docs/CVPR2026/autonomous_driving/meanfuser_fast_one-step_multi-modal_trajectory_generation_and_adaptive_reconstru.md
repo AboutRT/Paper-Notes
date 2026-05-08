@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.20060](https://arxiv.org/abs/2602.20060)  
-**代码**: https://github.com/wjl2244/MeanFuser (有)  
+**代码**: [https://github.com/wjl2244/MeanFuser](https://github.com/wjl2244/MeanFuser)  
 **领域**: 自动驾驶  
 **关键词**: 端到端规划, MeanFlow, 高斯混合噪声, 一步采样, 自适应轨迹重建
 

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.08279](https://arxiv.org/abs/2501.08279)  
 **代码**: [项目页面](https://longtaojiang.github.io/smarteraser.github.io/)  
-**领域**: Segmentation / Image Editing  
+**领域**: 图像分割  
 **关键词**: 目标移除, 掩码区域引导, 图像修复, 扩散模型, 合成数据集
 
 ## 一句话总结

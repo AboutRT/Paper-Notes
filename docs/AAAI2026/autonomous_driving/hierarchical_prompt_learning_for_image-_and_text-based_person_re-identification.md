@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.13575](https://arxiv.org/abs/2511.13575)  
 **代码**: [https://github.com/LH-Z-Ac/HPL-AAAI26](https://github.com/LH-Z-Ac/HPL-AAAI26)  
-**领域**: 行人重识别 / 多模态检索  
+**领域**: 自动驾驶  
 **关键词**: 行人重识别, 提示学习, 跨模态对齐, CLIP, 统一检索框架
 
 ## 一句话总结

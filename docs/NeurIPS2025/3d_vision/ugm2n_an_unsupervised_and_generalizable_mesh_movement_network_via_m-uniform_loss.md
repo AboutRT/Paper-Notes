@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.08615](https://arxiv.org/abs/2508.08615)  
 **代码**: 无  
-**领域**: 科学计算 / 网格自适应  
+**领域**: 3D视觉  
 **关键词**: mesh movement, PDE solver, unsupervised learning, zero-shot generalization, equidistribution
 
 ## 一句话总结
@@ -122,8 +122,8 @@ tags:
 
 - [\[NeurIPS 2025\] Mesh Interpolation Graph Network for Dynamic and Spatially Irregular Global Weather Forecasting](mesh_interpolation_graph_network_for_dynamic_and_spatially_irregular_global_weat.md)
 - [\[NeurIPS 2025\] Flux4D: Flow-based Unsupervised 4D Reconstruction](flux4d_flow-based_unsupervised_4d_reconstruction.md)
+- [\[NeurIPS 2025\] MaNGO: Adaptable Graph Network Simulators via Meta-Learning](mango_-_adaptable_graph_network_simulators_via_meta-learning.md)
 - [\[NeurIPS 2025\] Mesh-RFT: Enhancing Mesh Generation via Fine-Grained Reinforcement Fine-Tuning](mesh-rft_enhancing_mesh_generation_via_fine-grained_reinforcement_fine-tuning.md)
 - [\[NeurIPS 2025\] U-CAN: Unsupervised Point Cloud Denoising with Consistency-Aware Noise2Noise Matching](u-can_unsupervised_point_cloud_denoising_with_consistency-aware_noise2noise_matc.md)
-- [\[NeurIPS 2025\] ELECTRA: A Cartesian Network for 3D Charge Density Prediction with Floating Orbitals](electra_a_cartesian_network_for_3d_charge_density_prediction_with_floating_orbit.md)
 
 <!-- RELATED:END -->

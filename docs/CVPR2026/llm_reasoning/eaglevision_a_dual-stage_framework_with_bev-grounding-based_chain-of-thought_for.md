@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.15160](https://arxiv.org/abs/2512.15160)  
-**代码**: https://wallelwan.github.io/EagleVision (有)  
+**代码**: [https://wallelwan.github.io/EagleVision](https://wallelwan.github.io/EagleVision)  
 **领域**: LLM推理 / 空间智能  
 **关键词**: 空间推理, BEV, 主动视觉, Chain-of-Thought, DPP选帧, 强化学习
 
@@ -133,6 +133,6 @@ SQA3D上同样达开源VLM SOTA。
 - [\[CVPR 2026\] Step-CoT: Stepwise Visual Chain-of-Thought for Medical Visual Question Answering](step-cot_stepwise_visual_chain-of-thought_for_medical_visual_question_answering.md)
 - [\[ACL 2025\] CoT-ICL Lab: A Synthetic Framework for Studying Chain-of-Thought Learning from In-Context Demonstrations](../../ACL2025/llm_reasoning/cot-icl_lab_a_synthetic_framework_for_studying_chain-of-thought_learning_from_in.md)
 - [\[CVPR 2026\] E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought](e-comiq-zh_a_human-aligned_dataset_and_benchmark_for_fine-grained_evaluation_of_.md)
-- [\[ACL 2026\] DPC: Training-Free Text-to-SQL Candidate Selection via Dual-Paradigm Consistency](../../ACL2026/llm_reasoning/dpc_training-free_text-to-sql_candidate_selection_via_dual-paradigm_consistency.md)
+- [\[CVPR 2026\] Understanding and Mitigating Hallucinations in Multimodal Chain-of-Thought Models](understanding_and_mitigating_hallucinations_in_multimodal_chain-of-thought_model.md)
 
 <!-- RELATED:END -->

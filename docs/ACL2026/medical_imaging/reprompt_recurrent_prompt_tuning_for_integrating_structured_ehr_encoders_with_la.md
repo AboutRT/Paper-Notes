@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.17725](https://arxiv.org/abs/2604.17725)  
-**代码**: https://github.com/KU-AI4H/RePrompT  
+**代码**: [https://github.com/KU-AI4H/RePrompT](https://github.com/KU-AI4H/RePrompT)  
 **领域**: 医学图像  
 **关键词**: 电子健康记录, 提示调优, 循环状态传播, 结构化编码器, 临床预测
 

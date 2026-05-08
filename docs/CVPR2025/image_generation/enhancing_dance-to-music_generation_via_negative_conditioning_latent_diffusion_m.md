@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.22138](https://arxiv.org/abs/2503.22138)  
-**代码**: https://github.com/Changchangsun/PN-Diffusion (有)  
+**代码**: [https://github.com/Changchangsun/PN-Diffusion](https://github.com/Changchangsun/PN-Diffusion)  
 **领域**: 扩散模型  
 **关键词**: 舞蹈生成音乐, 负条件扩散, 双向扩散过程, 节奏对齐, 潜在扩散模型
 

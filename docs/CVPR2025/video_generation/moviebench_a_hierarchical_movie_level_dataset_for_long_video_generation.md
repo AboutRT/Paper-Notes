@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.15262](https://arxiv.org/abs/2411.15262)  
-**代码**: https://github.com/showlab/MovieBench (有)  
-**领域**: 视频理解  
+**代码**: [https://github.com/showlab/MovieBench](https://github.com/showlab/MovieBench)  
+**领域**: 视频生成  
 **关键词**: 长视频生成, 电影级数据集, 层次化标注, 角色一致性, 多场景叙事
 
 ## 一句话总结

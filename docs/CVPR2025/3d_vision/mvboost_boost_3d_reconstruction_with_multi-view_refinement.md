@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17772](https://arxiv.org/abs/2411.17772)  
-**代码**: https://github.com/Piggy-ch/MVBoost  
+**代码**: [https://github.com/Piggy-ch/MVBoost](https://github.com/Piggy-ch/MVBoost)  
 **领域**: 3D视觉  
 **关键词**: 单图3D重建, 多视图精炼, 伪真值生成, 高斯溅射, LoRA微调
 

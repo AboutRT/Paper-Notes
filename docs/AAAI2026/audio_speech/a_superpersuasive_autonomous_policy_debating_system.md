@@ -7,7 +7,7 @@ tags:
   - AAAI 2026
   - 语音
   - 政策辩论
-  - 多Agent协作
+  - 音频语音
   - LLM
   - 证据检索
   - 自主辩论
@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.17854](https://arxiv.org/abs/2511.17854)  
 **代码**: [GitHub](https://github.com/Hellisotherpeople/DeepDebater)  
-**领域**: 多Agent系统 / 计算论辩  
+**领域**: 音频语音  
 **关键词**: 政策辩论, 多Agent协作, LLM, 证据检索, 自主辩论, TTS
 
 ## 一句话总结
@@ -147,10 +147,10 @@ tags:
 
 ## 相关论文
 
+- [\[AAAI 2026\] Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases](thucy_an_llm-based_multi-agent_system_for_claim_verification_across_relational_d.md)
 - [\[ACL 2025\] AI4Reading: Chinese Audiobook Interpretation System Based on Multi-Agent Collaboration](../../ACL2025/audio_speech/ai4reading_chinese_audiobook_interpretation_system_based_on_multi-agent_collabor.md)
 - [\[NeurIPS 2025\] SimulMEGA: MoE Routers are Advanced Policy Makers for Simultaneous Speech Translation](../../NeurIPS2025/audio_speech/simulmega_moe_routers_are_advanced_policy_makers_for_simultaneous_speech_transla.md)
 - [\[NeurIPS 2025\] Sensorium Arc: AI Agent System for Oceanic Data Exploration and Interactive Eco-Art](../../NeurIPS2025/audio_speech/sensorium_arc_ai_agent_system_for_oceanic_data_exploration_and_interactive_eco-a.md)
-- [\[AAAI 2026\] Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition](let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md)
-- [\[AAAI 2026\] Generalizing Analogical Inference from Boolean to Continuous Domains](generalizing_analogical_inference_from_boolean_to_continuous_domains.md)
+- [\[NeurIPS 2025\] LUMIA: A Handheld Vision-to-Music System for Real-Time, Embodied Composition](../../NeurIPS2025/audio_speech/lumia_a_handheld_vision-to-music_system_for_real-time_embodied_composition.md)
 
 <!-- RELATED:END -->

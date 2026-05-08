@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.17470](https://arxiv.org/abs/2603.17470)  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 弱监督单目3D检测, 概率提示学习, 多模态预训练, 视觉-语言对齐, CLIP
 
 ## 一句话总结
@@ -193,9 +193,9 @@ VirPro+GGA+PGD 较 GGA+PGD 在 Moderate 上提升 **+3.76 $\text{AP}_{\text{3D}}
 ## 相关论文
 
 - [\[CVPR 2026\] GS-CLIP: Zero-shot 3D Anomaly Detection by Geometry-Aware Prompt and Synergistic View Representation Learning](gs-clip_zero-shot_3d_anomaly_detection_by_geometry-aware_prompt_and_synergistic_.md)
-- [\[CVPR 2026\] Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation](rewis3d_reconstruction_improves_weakly-supervised_semantic_segmentation.md)
-- [\[CVPR 2026\] SPAN: Spatial-Projection Alignment for Monocular 3D Object Detection](span_spatial-projection_alignment_for_monocular_3d_object_detection.md)
+- [\[CVPR 2026\] Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation](rewis3d_reconstruction_improves_weaklysupervised_s.md)
 - [\[ECCV 2024\] TCC-Det: Temporarily Consistent Cues for Weakly-Supervised 3D Detection](../../ECCV2024/3d_vision/tcc-det_temporarily_consistent_cues_for_weakly-supervised_3d_detection.md)
 - [\[AAAI 2026\] VPN: Visual Prompt Navigation](../../AAAI2026/3d_vision/vpn_visual_prompt_navigation.md)
+- [\[CVPR 2026\] SPAN: Spatial-Projection Alignment for Monocular 3D Object Detection](span_spatial_projection_alignment_mono3d.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2405.12110](https://arxiv.org/abs/2405.12110)  
-**代码**: 有 (https://jiaw-z.github.io/CoR-GS)  
+**代码**: 有 ([https://jiaw-z.github.io/CoR-GS](https://jiaw-z.github.io/CoR-GS))  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 稀疏视角, 新视角合成, 协同正则化, 点云剪枝
 

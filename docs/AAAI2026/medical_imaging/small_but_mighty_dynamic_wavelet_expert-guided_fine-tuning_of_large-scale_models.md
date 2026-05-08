@@ -14,7 +14,7 @@ tags:
 - **会议**: AAAI 2026
 - **arXiv**: [2601.09108](https://arxiv.org/abs/2601.09108)
 - **代码**: [https://github.com/CSYSI/WEFT](https://github.com/CSYSI/WEFT)
-- **领域**: 遥感图像分割 / 参数高效微调
+- **领域**: 医学图像
 - **关键词**: 遥感目标分割, 小波专家, 大模型微调, 参数高效, 稀疏注意力, 边界感知
 
 ## 一句话总结

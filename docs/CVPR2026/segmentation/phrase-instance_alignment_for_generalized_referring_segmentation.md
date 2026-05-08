@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2411.15087](https://arxiv.org/abs/2411.15087)  
-**代码**: https://eronguyen.github.io/InstAlign (有)  
+**代码**: [https://eronguyen.github.io/InstAlign](https://eronguyen.github.io/InstAlign)  
 **领域**: 图像分割  
 **关键词**: 广义指代分割, 短语-实例对齐, 实例级推理, 多目标分割, 无目标检测
 

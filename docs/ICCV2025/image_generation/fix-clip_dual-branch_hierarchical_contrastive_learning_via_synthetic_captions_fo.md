@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.10095](https://arxiv.org/abs/2507.10095)  
 **代码**: [GitHub](https://github.com/bcwang-sjtu/Fix-CLIP)  
-**领域**: 视觉语言模型/CLIP改进  
+**领域**: 图像生成  
 **关键词**: CLIP, 长文本理解, 双分支训练, 区域提示, 层级特征对齐, 合成数据
 
 ## 一句话总结

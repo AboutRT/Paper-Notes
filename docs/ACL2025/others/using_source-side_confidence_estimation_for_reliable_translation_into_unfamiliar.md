@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 源端置信度估计
   - 梯度归因
-  - 误译检测
+  - 其他
   - 交互式翻译
   - 不确定性
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.23305](https://arxiv.org/abs/2503.23305)  
-**代码**: 有 (https://github.com/kennethsible/confidence-estimation)  
-**领域**: NLP / 机器翻译  
+**代码**: 有 ([https://github.com/kennethsible/confidence-estimation](https://github.com/kennethsible/confidence-estimation))  
+**领域**: 其他  
 **关键词**: 源端置信度估计, 梯度归因, 误译检测, 交互式翻译, 不熟悉目标语言
 
 ## 一句话总结
@@ -104,7 +104,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.23305](https://arxiv.org/abs/2503.23305)  
-**代码**: 有 (https://github.com/kennethsible/confidence-estimation)  
+**代码**: 有 ([https://github.com/kennethsible/confidence-estimation](https://github.com/kennethsible/confidence-estimation))  
 **领域**: NLP / 机器翻译  
 **关键词**: 源端置信度估计, 梯度归因, 误译检测, 交互式翻译, 不确定性
 
@@ -190,10 +190,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Towards Style Alignment in Cross-Cultural Translation](towards_style_alignment_in_cross-cultural_translation.md)
-- [\[ACL 2025\] CiteEval: Principle-Driven Citation Evaluation for Source Attribution](citeeval_principle-driven_citation_evaluation_for_source_attribution.md)
 - [\[ACL 2025\] Can Uniform Meaning Representation Help GPT-4 Translate from Indigenous Languages?](can_uniform_meaning_representation_help_gpt-4_translate_from_indigenous_language.md)
-- [\[ACL 2025\] Identifying Reliable Evaluation Metrics for Scientific Text Revision](reliable_eval_metrics_scientific.md)
+- [\[ACL 2025\] CiteEval: Principle-Driven Citation Evaluation for Source Attribution](citeeval_principle-driven_citation_evaluation_for_source_attribution.md)
+- [\[ACL 2025\] INJONGO: A Multicultural Intent Detection and Slot-filling Dataset for 16 African Languages](injongo_a_multicultural_intent_detection_and_slot-filling_dataset_for_16_african.md)
 - [\[ACL 2025\] RoToR: Towards More Reliable Responses for Order-Invariant Inputs](rotor_towards_more_reliable_responses_for_order-invariant_inputs.md)
+- [\[ACL 2025\] Identifying Reliable Evaluation Metrics for Scientific Text Revision](reliable_eval_metrics_scientific.md)
 
 <!-- RELATED:END -->

@@ -5,7 +5,7 @@ description: >-
   [ACL 2025][multi-session dialogue] 提出 MemoryCode 合成多会话数据集评估 LLM 在长期交互中追踪和执行编码指令的能力，发现即使 GPT-4o 在提供完整对话历史时准确率也下降 67%，揭示了当前 LLM 在前瞻性记忆和信息整合上的根本局限。
 tags:
   - ACL 2025
-  - multi-session dialogue
+  - LLM评测
   - long-term memory
   - coding instructions
   - prospective memory
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.13791](https://arxiv.org/abs/2502.13791)  
-**代码**: https://github.com/Cohere-Labs-Community/MemoryCode  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/Cohere-Labs-Community/MemoryCode](https://github.com/Cohere-Labs-Community/MemoryCode)  
+**领域**: LLM评测  
 **关键词**: multi-session dialogue, long-term memory, coding instructions, prospective memory, LLM evaluation
 
 ## 一句话总结
@@ -137,10 +137,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework](educationq_evaluating_llms_teaching_capabilities_through_multi-agent_dialogue_fr.md)
 - [\[ACL 2025\] EvoWiki: Evaluating LLMs on Evolving Knowledge](evowiki_evaluating_llms_on_evolving_knowledge.md)
 - [\[ICML 2025\] MultiCogEval: Evaluating LLMs Across Multi-Cognitive Levels](../../ICML2025/llm_evaluation/evaluating_llms_across_multi-cognitive_levels_from_medical_knowledge_mastery_to_.md)
+- [\[ACL 2025\] Help Me Write a Story: Evaluating LLMs' Ability to Generate Writing Feedback](help_write_story_feedback.md)
 - [\[ACL 2025\] Can External Validation Tools Improve Annotation Quality for LLM-as-a-Judge?](can_external_validation_tools_improve_annotation_quality_for_llm-as-a-judge.md)
-- [\[ACL 2025\] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science](seedbench_a_multi-task_benchmark_for_evaluating_large_language_models_in_seed_sc.md)
+- [\[ACL 2025\] HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning](hellaswag-pro_a_large-scale_bilingual_benchmark_for_evaluating_the_robustness_of.md)
 
 <!-- RELATED:END -->

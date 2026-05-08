@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Minimal Pair-Based Evaluation of Code-Switching
 description: >-
-  [ACL 2025][代码切换] 本文提出基于最小对（minimal pairs）的代码切换（code-switching, CS）评估方法，为11个语言对各收集最多1000个最小对，发现双语者和大规模LLM都倾向于自然出现的CS句子，且模型越大偏好越一致，封闭类词的操纵产生最大概率差异。
+  [ACL 2025][其他] 本文提出基于最小对（minimal pairs）的代码切换（code-switching, CS）评估方法，为11个语言对各收集最多1000个最小对，发现双语者和大规模LLM都倾向于自然出现的CS句子，且模型越大偏好越一致，封闭类词的操纵产生最大概率差异。
 tags:
   - ACL 2025
-  - 代码切换
+  - 其他
   - 最小对
   - 双语评估
   - 语言模型
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01840](https://arxiv.org/abs/2506.01840)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 其他  
 **关键词**: 代码切换、最小对、双语评估、语言模型、语言学理论
 
 ## 一句话总结
@@ -128,8 +128,8 @@ tags:
 
 - [\[ACL 2025\] Code-Switching and Syntax: A Large-Scale Experiment](code-switching_and_syntax_a_large-scale_experiment.md)
 - [\[ACL 2025\] MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection](macp_minimal_yet_mighty_adaptation_via_hierarchical_cosine_projection.md)
-- [\[ACL 2025\] DocAgent: A Multi-Agent System for Automated Code Documentation Generation](docagent_a_multi-agent_system_for_automated_code_documentation_generation.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
 - [\[ACL 2025\] Are Bias Evaluation Methods Biased?](are_bias_evaluation_methods_biased.md)
+- [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
+- [\[ACL 2025\] Towards Better Evaluation for Generated Patent Claims](patclaimeval_patent_evaluation.md)
 
 <!-- RELATED:END -->

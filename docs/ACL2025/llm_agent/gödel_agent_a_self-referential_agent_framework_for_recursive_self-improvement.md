@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.04444](https://arxiv.org/abs/2410.04444)  
-**代码**: https://github.com/Arvid-pku/Godel_Agent (有)  
+**代码**: [https://github.com/Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent)  
 **领域**: LLM Agent  
 **关键词**: 自引用Agent, 递归自改进, Monkey Patching, 元学习, Agent设计空间搜索
 
@@ -143,6 +143,6 @@ Gödel Agent = 初始策略 $\pi_0$ + 自引用学习算法 $I_0$。形式化为
 - [\[ACL 2025\] Agentic Knowledgeable Self-Awareness](agentic_knowledgeable_self-awareness.md)
 - [\[ACL 2025\] Self-Taught Agentic Long-Context Understanding](self_taught_agentic_long_ctx.md)
 - [\[ICLR 2026\] InfiAgent: Self-Evolving Pyramid Agent Framework for Infinite Scenarios](../../ICLR2026/llm_agent/infiagent_self-evolving_pyramid_agent_framework_for_infinite_scenarios.md)
-- [\[ACL 2025\] Bel Esprit: Multi-Agent Framework for Building AI Model Pipelines](bel_esprit_multi-agent_framework_for_building_ai_model_pipelines.md)
+- [\[ICLR 2026\] Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents](../../ICLR2026/llm_agent/your_agent_may_misevolve_emergent_risks_in_self-evolving_llm_agents.md)
 
 <!-- RELATED:END -->

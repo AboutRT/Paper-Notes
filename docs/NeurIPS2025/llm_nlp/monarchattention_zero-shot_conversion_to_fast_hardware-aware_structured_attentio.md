@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18698](https://arxiv.org/abs/2505.18698)  
 **代码**: [GitHub](https://github.com/cjyaras/monarch-attention)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: efficient attention, Monarch matrices, sub-quadratic attention, structured matrices, hardware-aware, zero-shot conversion
 
 ## 一句话总结
@@ -150,9 +150,9 @@ MonarchAttention 是一种**推理时**的优化方法，不涉及训练损失�
 ## 相关论文
 
 - [\[ACL 2025\] Zero-Shot Belief: A Hard Problem for LLMs](../../ACL2025/llm_nlp/zero-shot_belief_a_hard_problem_for_llms.md)
+- [\[ACL 2025\] Bilingual Zero-Shot Stance Detection](../../ACL2025/llm_nlp/bilingual_zero-shot_stance_detection.md)
 - [\[NeurIPS 2025\] Spectral Conditioning of Attention Improves Transformer Performance](spectral_conditioning_of_attention_improves_transformer_performance.md)
 - [\[NeurIPS 2025\] Strassen Attention, Split VC Dimension and Compositionality in Transformers](strassen_attention_split_vc_dimension_and_compositionality_in_transformers.md)
-- [\[ECCV 2024\] Zero-Shot Object Counting with Good Exemplars (VA-Count)](../../ECCV2024/llm_nlp/zeroshot_object_counting_with_good_exemplars.md)
-- [\[CVPR 2026\] CoPS: Conditional Prompt Synthesis for Zero-Shot Anomaly Detection](../../CVPR2026/llm_nlp/cops_conditional_prompt_synthesis_for_zero-shot_anomaly_detection.md)
+- [\[NeurIPS 2025\] Unifying Attention Heads and Task Vectors via Hidden State Geometry in In-Context Learning](unifying_attention_heads_and_task_vectors_via_hidden_state_geometry_in_in-contex.md)
 
 <!-- RELATED:END -->

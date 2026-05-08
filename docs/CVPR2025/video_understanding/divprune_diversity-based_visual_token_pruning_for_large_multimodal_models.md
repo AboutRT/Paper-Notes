@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.02175](https://arxiv.org/abs/2503.02175)  
-**代码**: https://github.com/vbdi/divprune (有)  
+**代码**: [https://github.com/vbdi/divprune](https://github.com/vbdi/divprune)  
 **领域**: 视频理解  
 **关键词**: 视觉token剪枝, 大规模多模态模型, 多样性最大化, Max-Min Diversity Problem, 免微调
 

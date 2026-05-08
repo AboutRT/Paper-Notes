@@ -8,7 +8,7 @@ tags:
   - 脑机接口
   - SEEG
   - 功能嵌入
-  - 对比学习
+  - 社会计算
   - Transformer
   - 跨被试建模
   - 神经信号
@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.27090](https://arxiv.org/abs/2510.27090)  
 **代码**: [GitHub](https://github.com/ICLR-Functional-Embedding/ICLR2026_Functional_Map)  
-**领域**: llm_nlp  
+**领域**: 社会计算  
 **关键词**: 脑机接口, SEEG, 功能嵌入, 对比学习, Transformer, 跨被试建模, 神经信号
 
 ## 一句话总结
@@ -114,7 +114,7 @@ FunctionalMap 分两阶段：
 - [\[ICLR 2026\] GRADIEND: Feature Learning within Neural Networks Exemplified through Biases](gradiend_feature_learning_within_neural_networks_exemplified_through_biases.md)
 - [\[ICLR 2026\] Scalable Multi-Task Low-Rank Model Adaptation](scalable_multi-task_low-rank_model_adaptation.md)
 - [\[ICLR 2026\] Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems](stop_wasting_your_tokens_towards_efficient_runtime_multi-agent_systems.md)
+- [\[ICLR 2026\] When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](when_agents_misremember_collectively_exploring_the_mandela_effect_in_llm-based_m.md)
 - [\[ICLR 2026\] Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction](human_or_machine_a_preliminary_turing_test_for_speech-to-speech_interaction.md)
-- [\[ICLR 2026\] BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses](biasfreebench_a_benchmark_for_mitigating_bias_in_large_language_model_responses.md)
 
 <!-- RELATED:END -->

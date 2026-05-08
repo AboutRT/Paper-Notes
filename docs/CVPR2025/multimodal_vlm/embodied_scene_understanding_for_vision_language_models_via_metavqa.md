@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.09167](https://arxiv.org/abs/2501.09167)  
-**代码**: https://metadriverse.github.io/metavqa  
+**代码**: [https://metadriverse.github.io/metavqa](https://metadriverse.github.io/metavqa)  
 **领域**: 多模态VLM  
 **关键词**: 具身场景理解、VQA基准、Set-of-Mark、仿真到真实迁移、闭环驾驶
 
@@ -123,8 +123,8 @@ tags:
 
 - [\[CVPR 2025\] ESPIRE: A Diagnostic Benchmark for Embodied Spatial Reasoning of Vision-Language Models](espire_a_diagnostic_benchmark_for_embodied_spatial_reasoning_of_vision-language_.md)
 - [\[CVPR 2025\] HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios](homesafe-bench_evaluating_vision-language_models_on_unsafe_action_detection_for_.md)
-- [\[CVPR 2025\] Recognition-Synergistic Scene Text Editing](recognition-synergistic_scene_text_editing.md)
 - [\[CVPR 2025\] Towards Understanding How Knowledge Evolves in Large Vision-Language Models](towards_understanding_how_knowledge_evolves_in_large_vision-language_models.md)
-- [\[CVPR 2025\] From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons](from_multimodal_llms_to_generalist_embodied_agents_methods_and_lessons.md)
+- [\[CVPR 2025\] Recognition-Synergistic Scene Text Editing](recognition-synergistic_scene_text_editing.md)
+- [\[CVPR 2026\] Scene-VLM: Multimodal Video Scene Segmentation via Vision-Language Models](../../CVPR2026/multimodal_vlm/scene-vlm_multimodal_video_scene_segmentation_via_vision-language_models.md)
 
 <!-- RELATED:END -->

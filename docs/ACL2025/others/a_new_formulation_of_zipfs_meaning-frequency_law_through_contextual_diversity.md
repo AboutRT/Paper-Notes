@@ -8,7 +8,7 @@ tags:
   - Zipf定律
   - 语义-频率关系
   - 上下文多样性
-  - 语言模型
+  - 其他
   - 词义量化
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Outstanding Paper)  
 **arXiv**: 无  
 **代码**: 无  
-**领域**: NLP理解 / 计算语言学  
+**领域**: 其他  
 **关键词**: Zipf定律, 语义-频率关系, 上下文多样性, 语言模型, 词义量化
 
 ## 一句话总结
@@ -123,7 +123,7 @@ tags:
 - [\[ACL 2025\] RMoA: Optimizing Mixture-of-Agents through Diversity Maximization and Residual Compensation](rmoa_optimizing_mixture-of-agents_through_diversity_maximization_and_residual_co.md)
 - [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
 - [\[ACL 2025\] Contextual Experience Replay for Self-Improvement of Language Agents](contextual_experience_replay_for_self-improvement_of_language_agents.md)
-- [\[NeurIPS 2025\] Contextual Dynamic Pricing with Heterogeneous Buyers](../../NeurIPS2025/others/contextual_dynamic_pricing_with_heterogeneous_buyers.md)
 - [\[ACL 2025\] Can Uniform Meaning Representation Help GPT-4 Translate from Indigenous Languages?](can_uniform_meaning_representation_help_gpt-4_translate_from_indigenous_language.md)
+- [\[NeurIPS 2025\] Contextual Dynamic Pricing with Heterogeneous Buyers](../../NeurIPS2025/others/contextual_dynamic_pricing_with_heterogeneous_buyers.md)
 
 <!-- RELATED:END -->

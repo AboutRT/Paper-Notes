@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - document retrieval
   - fine-grained retrieval
-  - generation-augmented
+  - 其他
   - bi-encoder
   - 对比学习
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.02772](https://arxiv.org/abs/2501.02772)  
 **代码**: [有](https://github.com/microsoft/LMOps)  
-**领域**: NLP / 信息检索  
+**领域**: 其他  
 **关键词**: document retrieval, fine-grained retrieval, generation-augmented, bi-encoder, contrastive learning
 
 ## 一句话总结
@@ -143,10 +143,10 @@ GeAR 在局部信息检索上相比次优的 BGE-Reranker-L 平均相对提升 1
 
 ## 相关论文
 
-- [\[ACL 2025\] HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation](hash-rag_bridging_deep_hashing_with_retriever_for_efficient_fine_retrieval_and_a.md)
 - [\[ACL 2025\] Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education](uni-retrieval_a_multi-style_retrieval_framework_for_stems_education.md)
 - [\[ACL 2025\] ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval](acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md)
-- [\[ACL 2025\] TACLR: A Scalable and Efficient Retrieval-Based Method for Industrial Product Attribute Value Identification](taclr_a_scalable_and_efficient_retrieval-based_method_for_industrial_product_att.md)
 - [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
+- [\[ACL 2025\] ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search](arise_risk_adaptive_search.md)
+- [\[NeurIPS 2025\] MetaFind: Scene-Aware 3D Asset Retrieval for Coherent Metaverse Scene Generation](../../NeurIPS2025/others/metafind_scene-aware_3d_asset_retrieval_for_coherent_metaverse_scene_generation.md)
 
 <!-- RELATED:END -->

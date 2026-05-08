@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2507.02565](https://arxiv.org/abs/2507.02565)  
-**代码**: https://www.buzhenhuang.com/works/CloseApp.html  
+**代码**: [https://www.buzhenhuang.com/works/CloseApp.html](https://www.buzhenhuang.com/works/CloseApp.html)  
 **领域**: 3D视觉 / 人体重建  
 **关键词**: 人体交互重建, 3D高斯喷射, 社会距离学先验, 双分支优化, 近距离交互
 

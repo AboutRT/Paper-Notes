@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.16548](https://arxiv.org/abs/2510.16548)  
-**代码**: https://github.com/ (有，项目页面已提供)  
+**代码**: [https://github.com/](https://github.com/) (有，项目页面已提供)  
 **领域**: 医学影像 / 脑机接口  
 **关键词**: EEG基础模型, 自监督预训练, Mixture-of-Experts, 脑电信号, 脑机接口
 

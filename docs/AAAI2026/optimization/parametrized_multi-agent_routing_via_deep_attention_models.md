@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2507.22338](https://arxiv.org/abs/2507.22338)  
 **作者**: Salar Basiri, Dhananjay Tiwari, Srinivasa M. Salapaka (UIUC)  
 **代码**: [GitHub](https://github.com/salar96/LearningFLPO)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 组合优化, 多智能体路径规划, 最大熵原理, Transformer, Facility Location  
 
 ## 一句话总结
@@ -141,7 +141,7 @@ $$\widehat{\nabla_{\mathcal{Y}^t} F_\beta} = \sum_{i=1}^N \rho_i \sum_{q=1}^L \h
 - [\[ICML 2025\] MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines](../../ICML2025/optimization/metaagent_automatically_constructing_multi-agent_systems_based_on_finite_state_m.md)
 - [\[NeurIPS 2025\] Effective Policy Learning for Multi-Agent Online Coordination Beyond Submodular Objectives](../../NeurIPS2025/optimization/effective_policy_learning_for_multi-agent_online_coordination_beyond_submodular_.md)
 - [\[ICML 2025\] In-Context Linear Regression Demystified: Training Dynamics and Mechanistic Interpretability of Multi-Head Softmax Attention](../../ICML2025/optimization/in-context_linear_regression_demystified_training_dynamics_and_mechanistic_inter.md)
-- [\[AAAI 2026\] MOTIF: Multi-strategy Optimization via Turn-based Interactive Framework](motif_multi-strategy_optimization_via_turn-based_interactive_framework.md)
 - [\[ICLR 2026\] Nonparametric Teaching of Attention Learners](../../ICLR2026/optimization/nonparametric_teaching_of_attention_learners.md)
+- [\[AAAI 2026\] MOTIF: Multi-strategy Optimization via Turn-based Interactive Framework](motif_multi-strategy_optimization_via_turn-based_interactive_framework.md)
 
 <!-- RELATED:END -->

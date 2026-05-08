@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.17993](https://arxiv.org/abs/2509.17993)  
 **代码**: [GitHub](https://github.com/Harxis/StableGuard)  
-**领域**: 图像水印 / 内容安全  
+**领域**: 图像生成  
 **关键词**: 潜在扩散模型, 水印嵌入, 篡改定位, 混合专家, 自监督学习
 
 ## 一句话总结
@@ -151,6 +151,6 @@ PSNR提升2.3dB以上，Bit Acc达到99.97%，全面碾压所有基线。
 - [\[ICCV 2025\] Anti-Tamper Protection for Unauthorized Individual Image Generation](../../ICCV2025/image_generation/anti-tamper_protection_for_unauthorized_individual_image_generation.md)
 - [\[NeurIPS 2025\] Perturb a Model, Not an Image: Towards Robust Privacy Protection via Anti-Personalized Diffusion Models](perturb_a_model_not_an_image_towards_robust_privacy_protection_via_anti-personal.md)
 - [\[NeurIPS 2025\] Latent Zoning Network: A Unified Principle for Generative Modeling, Representation Learning, and Classification](latent_zoning_network_a_unified_principle_for_generative_modeling_representation.md)
-- [\[NeurIPS 2025\] OmniCast: A Masked Latent Diffusion Model for Weather Forecasting Across Time Scales](omnicast_a_masked_latent_diffusion_model_for_weather_forecasting_across_time_sca.md)
+- [\[NeurIPS 2025\] MGE-LDM: Joint Latent Diffusion for Simultaneous Music Generation and Source Extraction](mge-ldm_joint_latent_diffusion_for_simultaneous_music_generation_and_source_extr.md)
 
 <!-- RELATED:END -->

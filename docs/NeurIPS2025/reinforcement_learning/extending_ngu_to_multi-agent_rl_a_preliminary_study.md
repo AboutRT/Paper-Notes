@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.01321](https://arxiv.org/abs/2512.01321)  
 **代码**: [GitHub](https://github.com/juan-hernandez/extending-ngu-marl)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: Never Give Up, 多智能体强化学习, 内在动机, 探索, 稀疏奖励
 
 ## 一句话总结

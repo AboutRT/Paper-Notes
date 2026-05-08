@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 视觉实体识别
-  - 多模态大语言模型
+  - 信息检索
   - 检索增强生成
   - 约束解码
   - 知识接地
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2402.18695](https://arxiv.org/abs/2402.18695)  
-**代码**: https://github.com/MrZilinXiao/AutoVER  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/MrZilinXiao/AutoVER](https://github.com/MrZilinXiao/AutoVER)  
+**领域**: 信息检索  
 **关键词**: 视觉实体识别, 多模态大语言模型, 检索增强生成, 约束解码, 知识接地
 
 ## 一句话总结
@@ -125,10 +125,10 @@ AutoVER = MLLM（基于 LLaVA/Vicuna）+ 多模态实体编码器 + 检索增强
 
 ## 相关论文
 
-- [\[ECCV 2024\] Towards Open-Ended Visual Recognition with Large Language Model](towards_open-ended_visual_recognition_with_large_language_models.md)
-- [\[ECCV 2024\] ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling](artvlm_attribute_recognition_through_visionbased_prefix_lang.md)
-- [\[ECCV 2024\] Multi-Label Cluster Discrimination for Visual Representation Learning](multi-label_cluster_discrimination_for_visual_representation_learning.md)
+- [\[ECCV 2024\] ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling](artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md)
 - [\[ACL 2025\] GaRAGe: A Benchmark with Grounding Annotations for RAG Evaluation](../../ACL2025/information_retrieval/garage_a_benchmark_with_grounding_annotations_for_rag_evaluation.md)
+- [\[CVPR 2025\] EZSR: Event-based Zero-Shot Recognition](../../CVPR2025/information_retrieval/ezsr_event-based_zero-shot_recognition.md)
 - [\[ACL 2025\] VISA: Retrieval Augmented Generation with Visual Source Attribution](../../ACL2025/information_retrieval/visa_retrieval_augmented_generation_with_visual_source_attribution.md)
+- [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](../../ACL2025/information_retrieval/enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
 
 <!-- RELATED:END -->

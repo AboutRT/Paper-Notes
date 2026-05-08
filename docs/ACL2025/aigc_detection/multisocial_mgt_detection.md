@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts
 description: >-
-  [ACL 2025][文本检测] 构建了首个覆盖 22 种语言、5 个社交媒体平台、7 个 LLM 生成器的大规模机器生成文本检测基准 MultiSocial（47.2 万文本），实验表明 fine-tuned 检测器（Llama-3-8B/Mistral-7B, AUC ROC 0.977）在社交媒体文本上表现优异，且训练平台选择对跨平台泛化影响显著。
+  [ACL 2025][AIGC检测] 构建了首个覆盖 22 种语言、5 个社交媒体平台、7 个 LLM 生成器的大规模机器生成文本检测基准 MultiSocial（47.2 万文本），实验表明 fine-tuned 检测器（Llama-3-8B/Mistral-7B, AUC ROC 0.977）在社交媒体文本上表现优异，且训练平台选择对跨平台泛化影响显著。
 tags:
   - ACL 2025
-  - 文本检测
+  - AIGC检测
   - multilingual
   - social media
   - benchmark dataset
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2406.12549](https://arxiv.org/abs/2406.12549)  
-**代码**: https://github.com/kinit-sk/multisocial  
-**领域**: AIGC 检测  
+**代码**: [https://github.com/kinit-sk/multisocial](https://github.com/kinit-sk/multisocial)  
+**领域**: AIGC检测  
 **关键词**: machine-generated text detection, multilingual, social media, benchmark dataset, cross-platform
 
 ## 一句话总结
@@ -124,9 +124,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media](aigt_social_media_monitoring.md)
-- [\[ACL 2025\] Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training](greater_adversarial_mgt_detection.md)
 - [\[NeurIPS 2025\] DuoLens: A Framework for Robust Detection of Machine-Generated Multilingual Text and Code](../../NeurIPS2025/aigc_detection/duolens_a_framework_for_robust_detection_of_machine-generated_multilingual_text_.md)
-- [\[ACL 2025\] HACo-Det: A Study Towards Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring](haco-det_a_study_towards_fine-grained_machine-generated_text_detection_under_hum.md)
-- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](reliably_bounding_false_positives_a_zero-shot_machine-generated_text_detection_f.md)
+- [\[ACL 2025\] Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training](greater_adversarial_mgt_detection.md)
+- [\[ACL 2025\] HACo-Det: A Study Towards Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring](haco-det-fine-grained-detection-under-human-ai-coauthoring.md)
+- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](mcp-zero-shot-mgt-detection-via-conformal-prediction.md)
 
 <!-- RELATED:END -->

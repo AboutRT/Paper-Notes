@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22795](https://arxiv.org/abs/2510.22795)  
 **代码**: [GitHub](https://eth-disco.github.io/sao-instruct)  
-**领域**: 音频生成 / 指令编辑  
+**领域**: 图像生成  
 **关键词**: 音频编辑, 自然语言指令, Stable Audio Open, Prompt-to-Prompt, 扩散模型
 
 ## 一句话总结
@@ -50,13 +50,13 @@ tags:
    将图像域的Prompt-to-Prompt方法适配到音频域。核心思路：在用输出描述生成音频时，注入来自输入描述的注意力图（cross-attention map），从而实现局部编辑同时保持整体上下文一致。
 
    三个关键参数控制编辑强度：
-   - $\lambda_{\text{frac}}^{\text{attn}}$：注意力注入比例（0=无影响，1=完全相同）
-   - $\lambda_{\text{delay}}^{\text{attn}}$：注入延迟（跳过前N%的注意力图）
-   - $\lambda_{\text{weight}}^{\text{attn}}$：对变化token的注意力权重增强
+    - $\lambda_{\text{frac}}^{\text{attn}}$：注意力注入比例（0=无影响，1=完全相同）
+    - $\lambda_{\text{delay}}^{\text{attn}}$：注入延迟（跳过前N%的注意力图）
+    - $\lambda_{\text{weight}}^{\text{attn}}$：对变化token的注意力权重增强
 
    由于不同编辑需要不同参数配置，使用**贝叶斯优化**（10次试验/样本）自动搜索最优配置，目标函数为：
 
-   $$\mathcal{L}_{\text{obj}} = \omega_1 \cdot M_{\text{CLAP}}^{\text{out}} + \omega_2 \cdot M_{\text{CLAP}}^{\text{dir}} + \omega_3 \cdot M_{\text{CLAP}}^{\text{sim}} - \omega_4 \cdot M_{\text{MEL}}^{\text{sim}}$$
+    $\mathcal{L}_{\text{obj}} = \omega_1 \cdot M_{\text{CLAP}}^{\text{out}} + \omega_2 \cdot M_{\text{CLAP}}^{\text{dir}} + \omega_3 \cdot M_{\text{CLAP}}^{\text{sim}} - \omega_4 \cdot M_{\text{MEL}}^{\text{sim}}$
 
    权重通过小规模人类听测的ELO排名确定：$\omega_1=8, \omega_2=14, \omega_3=0.5, \omega_4=1.5$。
 
@@ -137,8 +137,8 @@ tags:
 
 - [\[ICCV 2025\] Describe, Don't Dictate: Semantic Image Editing with Natural Language Intent](../../ICCV2025/image_generation/describe_dont_dictate_semantic_image_editing_with_natural_language_intent.md)
 - [\[ICML 2025\] FlexiClip: Locality-Preserving Free-Form Character Animation](../../ICML2025/image_generation/flexiclip_locality-preserving_free-form_character_animation.md)
-- [\[ICML 2025\] Long-Form Speech Generation with Spoken Language Models](../../ICML2025/image_generation/long-form_speech_generation_with_spoken_language_models.md)
 - [\[CVPR 2026\] Language-Free Generative Editing from One Visual Example](../../CVPR2026/image_generation/language-free_generative_editing_from_one_visual_example.md)
+- [\[ICML 2025\] Long-Form Speech Generation with Spoken Language Models](../../ICML2025/image_generation/long-form_speech_generation_with_spoken_language_models.md)
 - [\[NeurIPS 2025\] DiffEye: Diffusion-Based Continuous Eye-Tracking Data Generation Conditioned on Natural Images](diffeye_diffusion-based_continuous_eye-tracking_data_generation_conditioned_on_n.md)
 
 <!-- RELATED:END -->

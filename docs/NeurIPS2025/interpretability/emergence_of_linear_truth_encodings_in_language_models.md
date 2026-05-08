@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.15804](https://arxiv.org/abs/2510.15804)  
-**代码**: https://github.com/shauli-ravfogel/truth-encoding-neurips  
-**领域**: llm_nlp  
+**代码**: [https://github.com/shauli-ravfogel/truth-encoding-neurips](https://github.com/shauli-ravfogel/truth-encoding-neurips)  
+**领域**: 可解释性  
 **关键词**: 真值编码, 线性表示, 联想记忆, 训练动态, LayerNorm
 
 ## 一句话总结
@@ -178,8 +178,8 @@ $$L(W) = \sum_{t=1}^3 \mathbb{E}_{z_{1:t+1}}\left[-\log \mathcal{S}_\beta(F_W(z_
 
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](the_trilemma_of_truth_in_large_language_models.md)
 - [\[NeurIPS 2025\] Minimizing False-Positive Attributions in Explanations of Non-Linear Models](minimizing_false-positive_attributions_in_explanations_of_non-linear_models.md)
+- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](table_as_a_modality_for_large_language_models.md)
 - [\[ACL 2025\] Probing the Geometry of Truth: Consistency and Generalization of Truth Directions](../../ACL2025/interpretability/probing_the_geometry_of_truth_consistency_and_generalization_of_truth_directions.md)
 - [\[NeurIPS 2025\] Are Greedy Task Orderings Better Than Random in Continual Linear Regression?](are_greedy_task_orderings_better_than_random_in_continual_linear_regression.md)
-- [\[NeurIPS 2025\] Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models](bigram_subnetworks_mapping_to_next_tokens_in_transformer_language_models.md)
 
 <!-- RELATED:END -->

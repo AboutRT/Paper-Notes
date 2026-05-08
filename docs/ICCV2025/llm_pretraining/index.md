@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 预训练方向8篇论文解读
+  ICCV2025 预训练方向10篇论文解读
 description: >-
-  8篇ICCV2025的预训练方向论文解读，涵盖域适应、对抗鲁棒、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  10篇ICCV2025的预训练方向论文解读，涵盖域适应、对抗鲁棒、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练
 
-**📹 ICCV2025** · **8** 篇论文解读
+**📹 ICCV2025** · **10** 篇论文解读
 
 **[ACE-G: Improving Generalization of Scene Coordinate Regression Through Query Pre-Training](ace-g_improving_generalization_of_scene_coordinate_regression_through_query_pre-.md)**
 
@@ -41,3 +41,11 @@ description: >-
 **[Make Your Training Flexible: Towards Deployment-Efficient Video Models](make_your_training_flexible_towards_deployment-efficient_video_models.md)**
 
 :   本文提出Flux——一种使视频模型训练灵活化的数据增强工具，通过灵活采样网格+组动态token选择，使单一模型在不同计算预算下都能高效工作；并提出Token Optimization新测试范式，在1/4 token下即可匹配前SOTA性能，节省约90%计算。
+
+**[Synchronization of Multiple Videos](synchronization_of_multiple_videos.md)**
+
+:   提出 Temporal Prototype Learning (TPL)，一个基于原型的视频同步框架，从预训练模型提取的高维嵌入中构建共享的紧凑1D表征，通过学习统一的原型序列锚定关键动作阶段来对齐多个视频，首次解决了生成式AI视频的同步问题。
+
+**[SynCity: Training-Free Generation of 3D Worlds](syncity_training-free_generation_of_3d_worlds.md)**
+
+:   SynCity 提出了一种无需训练和优化的3D世界生成方法，通过精心设计的提示工程策略，组合预训练的语言模型、2D图像生成器（Flux）和3D生成器（TRELLIS），以tile-by-tile的方式自回归地生成大规模、高质量、可自由导航的3D场景。

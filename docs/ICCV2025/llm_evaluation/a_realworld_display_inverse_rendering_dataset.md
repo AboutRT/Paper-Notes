@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.14411](https://arxiv.org/abs/2508.14411)  
-**代码**: https://michaelcsj.github.io/DIR/  
-**领域**: 3D视觉 / 逆渲染  
+**代码**: [https://michaelcsj.github.io/DIR/](https://michaelcsj.github.io/DIR/)  
+**领域**: LLM评测  
 **关键词**: 逆渲染, 显示器光源, 偏振成像, 数据集, 漫射-镜面分离
 
 ## 一句话总结
@@ -116,10 +116,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] A Conditional Probability Framework for Compositional Zero-shot Learning](a_conditional_probability_framework_for_compositional_zero-shot_learning.md)
+- [\[CVPR 2025\] TensoFlow: Tensorial Flow-based Sampler for Inverse Rendering](../../CVPR2025/llm_evaluation/tensoflow_tensorial_flow-based_sampler_for_inverse_rendering.md)
+- [\[ICCV 2025\] PHATNet: A Physics-guided Haze Transfer Network for Domain-adaptive Real-world Image Dehazing](phatnet_a_physics-guided_haze_transfer_network_for_domain-adaptive_real-world_im.md)
 - [\[ICCV 2025\] ForCenNet: Foreground-Centric Network for Document Image Rectification](forcennet_foreground-centric_network_for_document_image_rectification.md)
-- [\[ICCV 2025\] ODP-Bench: Benchmarking Out-of-Distribution Performance Prediction](odp-bench_benchmarking_out-of-distribution_performance_prediction.md)
 - [\[ICCV 2025\] Supercharging Floorplan Localization with Semantic Rays](supercharging_floorplan_localization_with_semantic_rays.md)
-- [\[ICCV 2025\] DisCoPatch: Taming Adversarially-driven Batch Statistics for Improved Out-of-Distribution Detection](discopatch_taming_adversarially-driven_batch_statistics_for_improved_out-of-dist.md)
+- [\[ICCV 2025\] ODP-Bench: Benchmarking Out-of-Distribution Performance Prediction](odp-bench_benchmarking_out-of-distribution_performance_prediction.md)
 
 <!-- RELATED:END -->

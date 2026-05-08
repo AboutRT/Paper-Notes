@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Predicting LLM Reasoning Performance with Small Proxy Models
 description: >-
-  [ICLR 2026][小模型代理] 提出 rBridge 方法，通过结合前沿模型推理轨迹 (reasoning trace) 的 NLL 评估与 token 级任务对齐权重，使 ≤1B 的小模型能有效预测 13B-32B 大模型的推理性能，数据排序计算成本降低 100 倍以上。
+  [ICLR 2026][LLM/NLP] 提出 rBridge 方法，通过结合前沿模型推理轨迹 (reasoning trace) 的 NLL 评估与 token 级任务对齐权重，使 ≤1B 的小模型能有效预测 13B-32B 大模型的推理性能，数据排序计算成本降低 100 倍以上。
 tags:
   - ICLR 2026
-  - 小模型代理
+  - LLM/NLP
   - 推理能力预测
   - 预训练数据
   - scaling law
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.21013](https://arxiv.org/abs/2509.21013)  
 **代码**: 未开源  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 小模型代理, 推理能力预测, 预训练数据, scaling law, NLL
 
 ## 一句话总结
@@ -177,9 +177,9 @@ rBridge 在 10/12 个指标上取得最优，平均 $R^2$ 从基线 0.304 提升
 ## 相关论文
 
 - [\[ICLR 2026\] From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning](from_assumptions_to_actions_turning_llm_reasoning_into_uncertainty-aware_plannin.md)
+- [\[ACL 2025\] Collaborative Performance Prediction for Large Language Models](../../ACL2025/llm_nlp/collaborative_performance_prediction_for_large_language_models.md)
 - [\[ACL 2026\] Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models](../../ACL2026/llm_nlp/don39t_adapt_small_language_models_for_tools_adapt_tool_schemas_to_the_models.md)
 - [\[ICLR 2026\] The Path of Least Resistance: Guiding LLM Reasoning Trajectories for Efficient Consistency](the_path_of_least_resistance_guiding_llm_reasoning_trajectories_for_efficient_co.md)
-- [\[ACL 2025\] Collaborative Performance Prediction for Large Language Models](../../ACL2025/llm_nlp/collaborative_performance_prediction_for_large_language_models.md)
 - [\[AAAI 2026\] Identifying and Analyzing Performance-Critical Tokens in Large Language Models](../../AAAI2026/llm_nlp/identifying_and_analyzing_performance-critical_tokens_in_large_language_models.md)
 
 <!-- RELATED:END -->

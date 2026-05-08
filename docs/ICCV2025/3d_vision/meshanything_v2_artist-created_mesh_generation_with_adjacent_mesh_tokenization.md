@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2408.02555](https://arxiv.org/abs/2408.02555)  
-**代码**: https://buaacyw.github.io/meshanything-v2/  
+**代码**: [https://buaacyw.github.io/meshanything-v2/](https://buaacyw.github.io/meshanything-v2/)  
 **领域**: 3D视觉 / 网格生成  
 **关键词**: 网格生成, 序列化, tokenization, 自回归, Artist-Created Mesh
 

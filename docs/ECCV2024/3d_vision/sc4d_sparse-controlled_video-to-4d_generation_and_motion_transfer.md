@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.03736](https://arxiv.org/abs/2404.03736)  
-**代码**: https://github.com/JarrentWu1031/SC4D  
+**代码**: [https://github.com/JarrentWu1031/SC4D](https://github.com/JarrentWu1031/SC4D)  
 **领域**: 3D视觉  
 **关键词**: 视频到4D生成, 运动解耦, 稀疏控制点, 3D高斯溅射, 运动迁移
 
@@ -148,6 +148,6 @@ AG初始化和GA损失的消融：
 - [\[ECCV 2024\] ZeST: Zero-Shot Material Transfer from a Single Image](zest_zero-shot_material_transfer_from_a_single_image.md)
 - [\[ICCV 2025\] Shape of Motion: 4D Reconstruction from a Single Video](../../ICCV2025/3d_vision/shape_of_motion_4d_reconstruction_from_a_single_video.md)
 - [\[CVPR 2026\] 4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video](../../CVPR2026/3d_vision/4dequine_disentangling_motion_and_appearance_for_4.md)
-- [\[ECCV 2024\] TRAM: Global Trajectory and Motion of 3D Humans from in-the-wild Videos](tram_global_trajectory_and_motion_of_3d_humans_from_in-the-wild_videos.md)
+- [\[ECCV 2024\] TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks](tracknerf_bundle_adjusting_nerf_from_sparse_and_noisy_views_via_feature_tracks.md)
 
 <!-- RELATED:END -->

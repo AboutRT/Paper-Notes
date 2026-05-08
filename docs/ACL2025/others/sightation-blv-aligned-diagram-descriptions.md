@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 视障辅助
   - 图表描述
-  - VLM数据集
+  - 其他
   - 无障碍AI
   - 人类反馈
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.13369](https://arxiv.org/abs/2503.13369)  
-**代码**: https://hf.co/Sightation  
+**代码**: [https://hf.co/Sightation](https://hf.co/Sightation)  
 **领域**: 其他  
 **关键词**: 视障辅助, 图表描述, VLM数据集, 无障碍AI, 人类反馈
 
@@ -126,10 +126,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Hybrid Preferences: Learning to Route Instances for Human vs. AI Feedback](hybrid_preferences_learning_to_route_instances_for_human_vs_ai_feedback.md)
-- [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
-- [\[ACL 2025\] SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
-- [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
+- [\[ACL 2025\] FEAT: A Preference Feedback Dataset through a Cost-Effective Auto-Generation and Labeling Framework for English AI Tutoring](feat_a_preference_feedback_dataset_through_a_cost-effective_auto-generation_and_.md)
+- [\[ACL 2025\] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs](a_practical_approach_for_building_production-grade_conversational_agents_with_wo.md)
+- [\[ACL 2025\] Learning to Reason from Feedback at Test-Time](learning_to_reason_from_feedback_at_test-time.md)
+- [\[ACL 2025\] ERU-KG: Efficient Reference-aligned Unsupervised Keyphrase Generation](eru-kg_efficient_reference-aligned_unsupervised_keyphrase_generation.md)
+- [\[ACL 2025\] Explaining Matters: Leveraging Definitions and Semantic Expansion for Sexism Detection](explaining_matters_leveraging_definitions_and_semantic_expansion_for_sexism_dete.md)
 
 <!-- RELATED:END -->

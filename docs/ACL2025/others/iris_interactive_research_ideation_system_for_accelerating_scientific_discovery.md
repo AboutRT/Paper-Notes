@@ -9,7 +9,7 @@ tags:
   - Human-in-the-Loop
   - MCTS
   - 研究构思
-  - LLM辅助发现
+  - 其他
 ---
 
 # IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.16728](https://arxiv.org/abs/2504.16728)  
 **代码**: 有（开源平台）  
-**领域**: NLP / 科学发现与假设生成  
+**领域**: 其他  
 **关键词**: 科学假设生成, Human-in-the-Loop, MCTS, 研究构思, LLM辅助发现
 
 ## 一句话总结
@@ -172,6 +172,6 @@ $$\text{UCT}(n) = \frac{Q(n)}{N(n)} + c\sqrt{\frac{\ln N(n_p)}{N(n)}}$$
 - [\[ACL 2025\] Completing A Systematic Review in Hours instead of Months with Interactive AI Agents](completing_a_systematic_review_in_hours.md)
 - [\[ACL 2025\] Research Borderlands: Analysing Writing Across Research Cultures](research_borderlands_analysing_writing_across_research_cultures.md)
 - [\[NeurIPS 2025\] AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing](../../NeurIPS2025/others/autoscidact_automated_scientific_discovery_through_contrastive_embedding_and_hyp.md)
-- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](a_measure_of_the_system_dependence_of_automated_metrics.md)
+- [\[ACL 2025\] Identifying Reliable Evaluation Metrics for Scientific Text Revision](reliable_eval_metrics_scientific.md)
 
 <!-- RELATED:END -->

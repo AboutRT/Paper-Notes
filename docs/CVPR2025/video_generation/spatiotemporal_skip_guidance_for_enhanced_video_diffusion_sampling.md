@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.18664](https://arxiv.org/abs/2411.18664)  
-**代码**: https://github.com/junhahyung/STGuidance  
+**代码**: [https://github.com/junhahyung/STGuidance](https://github.com/junhahyung/STGuidance)  
 **领域**: 扩散模型 / 视频生成  
 **关键词**: 视频扩散模型, 采样引导, 层跳过, 无训练, CFG替代
 

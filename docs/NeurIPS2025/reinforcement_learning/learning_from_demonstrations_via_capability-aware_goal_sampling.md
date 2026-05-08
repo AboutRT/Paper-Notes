@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2601.08731](https://arxiv.org/abs/2601.08731)  
-**代码**: [GitHub](https://github.com/RU-Automated-Reasoning-Group/Cago) (有)  
-**领域**: reinforcement_learning  
+**代码**: [GitHub](https://github.com/RU-Automated-Reasoning-Group/Cago)  
+**领域**: 强化学习  
 **关键词**: 模仿学习, 课程学习, 目标条件强化学习, 能力感知, 世界模型
 
 ## 一句话总结
@@ -174,7 +174,7 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Variance-Aware Feel-Good Thompson Sampling for Contextual Bandits](variance-aware_feel-good_thompson_sampling_for_contextual_bandits.md)
-- [\[NeurIPS 2025\] VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](videorft_incentivizing_video_reasoning_capability_in_mllms_via_reinforced_fine-t.md)
+- [\[NeurIPS 2025\] Distribution Learning Meets Graph Structure Sampling](distribution_learning_meets_graph_structure_sampling.md)
 - [\[NeurIPS 2025\] Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning](mean-field_sampling_for_cooperative_multi-agent_reinforcement_learning.md)
 - [\[AAAI 2026\] First-Order Representation Languages for Goal-Conditioned RL](../../AAAI2026/reinforcement_learning/first-order_representation_languages_for_goal-conditioned_rl.md)
 - [\[NeurIPS 2025\] Reward-Aware Proto-Representations in Reinforcement Learning](reward-aware_proto-representations_in_reinforcement_learning.md)

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.10937](https://arxiv.org/abs/2604.10937)  
 **代码**: [GitHub](https://github.com/PhilipGAQ/CARE)  
-**领域**: 信息检索  
+**领域**: 医学图像  
 **关键词**: 医学文本检索, 非对称编码器, 中文医学基准, 嵌入模型, RAG
 
 ## 一句话总结

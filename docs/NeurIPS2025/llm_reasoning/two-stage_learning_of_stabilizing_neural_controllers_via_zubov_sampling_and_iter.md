@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01356](https://arxiv.org/abs/2506.01356)  
 **代码**: [GitHub](https://github.com/Verified-Intelligence/Two-Stage_Neural_Controller_Training)  
-**领域**: 优化/理论  
+**领域**: LLM推理  
 **关键词**: neural controller, Lyapunov function, region of attraction, Zubov theorem, neural network verification
 
 ## 一句话总结
@@ -139,8 +139,8 @@ tags:
 
 - [\[NeurIPS 2025\] Sampling-Efficient Test-Time Scaling: Self-Estimating the Best-of-N Sampling in Early Decoding](sampling-efficient_test-time_scaling_self-estimating_the_best-of-n_sampling_in_e.md)
 - [\[NeurIPS 2025\] AbbIE: Autoregressive Block-Based Iterative Encoder for Efficient Sequence Modeling](abbie_autoregressive_block-based_iterative_encoder_for_efficient_sequence_modeli.md)
-- [\[AAAI 2026\] SERL: Self-Examining Reinforcement Learning on Open-Domain](../../AAAI2026/llm_reasoning/serl_self-examining_reinforcement_learning_on_open-domain.md)
 - [\[NeurIPS 2025\] DreamPRM: Domain-Reweighted Process Reward Model for Multimodal Reasoning](dreamprm_domain-reweighted_process_reward_model_for_multimodal_reasoning.md)
+- [\[AAAI 2026\] SERL: Self-Examining Reinforcement Learning on Open-Domain](../../AAAI2026/llm_reasoning/serl_self-examining_reinforcement_learning_on_open-domain.md)
 - [\[NeurIPS 2025\] Curriculum Abductive Learning](curriculum_abductive_learning.md)
 
 <!-- RELATED:END -->

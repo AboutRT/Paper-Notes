@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Meek Models Shall Inherit the Earth
 description: >-
-  [ICML 2025][scaling laws] 基于 Chinchilla 缩放定律的数学建模，证明在固定分布的 next-token 目标下，计算缩放的递减收益将导致 SOTA 大模型相对于低计算预算"弱模型"（meek models）的能力优势最终收敛趋零，论证 AI 能力的民主化是当前缩放范式下的必然趋势，现有基于算力的 AI 治理策略需要根本性重新设计。
+  [ICML 2025][LLM评测] 基于 Chinchilla 缩放定律的数学建模，证明在固定分布的 next-token 目标下，计算缩放的递减收益将导致 SOTA 大模型相对于低计算预算"弱模型"（meek models）的能力优势最终收敛趋零，论证 AI 能力的民主化是当前缩放范式下的必然趋势，现有基于算力的 AI 治理策略需要根本性重新设计。
 tags:
   - ICML 2025
-  - scaling laws
+  - LLM评测
   - diminishing returns
   - compute scaling
   - OCR
@@ -18,7 +18,7 @@ tags:
 **作者**: Hans Gundlach, Jayson Lynch, Neil Thompson (MIT CSAIL)  
 **arXiv**: [2507.07931](https://arxiv.org/abs/2507.07931)  
 **代码**: 无  
-**领域**: LLM评估, AI 治理, 缩放定律  
+**领域**: LLM评测  
 **关键词**: scaling laws, diminishing returns, compute scaling, AI democratization, AI governance  
 
 ## 一句话总结
@@ -131,9 +131,9 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Correlated Errors in Large Language Models](correlated_errors_in_large_language_models.md)
-- [\[ICML 2025\] Learning Distribution-Wise Control in Representation Space for Language Models](learning_distribution-wise_control_in_representation_space_for_language_models.md)
+- [\[ICML 2025\] Position: Theory of Mind Benchmarks are Broken for Large Language Models](position_theory_of_mind_benchmarks_are_broken_for_large_language_models.md)
 - [\[ICML 2025\] G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration](g-sim_generative_simulations_with_large_language_models_and_gradient-free_calibr.md)
-- [\[ACL 2025\] Retrieval Models Aren't Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models](../../ACL2025/llm_evaluation/retrieval_models_arent_tool-savvy_benchmarking_tool_retrieval_for_large_language.md)
+- [\[NeurIPS 2025\] On the Entropy Calibration of Language Models](../../NeurIPS2025/llm_evaluation/on_the_entropy_calibration_of_language_models.md)
 - [\[CVPR 2025\] On the Generalization of Handwritten Text Recognition Models](../../CVPR2025/llm_evaluation/on_the_generalization_of_handwritten_text_recognition_models.md)
 
 <!-- RELATED:END -->

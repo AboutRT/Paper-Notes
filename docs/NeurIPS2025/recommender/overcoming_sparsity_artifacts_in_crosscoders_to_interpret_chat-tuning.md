@@ -19,7 +19,7 @@ tags:
 **作者**: Julian Minder, Clément Dumas, Caden Juang, Bilal Chughtai, Neel Nanda  
 **机构**: EPFL, ETHZ, ENS Paris-Saclay, Northeastern University  
 **代码**: [GitHub](https://github.com/jkminder/dictionary_learning)  
-**领域**: 可解释性 / 模型微调分析 / Model Diffing  
+**领域**: 推荐系统  
 
 ## 一句话总结
 
@@ -257,7 +257,7 @@ tags:
 - [\[NeurIPS 2025\] Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning](transformer_copilot_learning_from_the_mistake_log_in_llm_fine-tuning.md)
 - [\[ACL 2025\] RecLM: Recommendation Instruction Tuning](../../ACL2025/recommender/reclm_recommendation_instruction_tuning.md)
 - [\[ACL 2025\] Laser: Bi-Tuning with Collaborative Information for Controllable LLM-Based Sequential Recommendation](../../ACL2025/recommender/bi-tuning_with_collaborative_information_for_controllable_llm-based_sequential_r.md)
-- [\[NeurIPS 2025\] NeurIPS Should Lead Scientific Consensus on AI Policy](neurips_should_lead_scientific_consensus_on_ai_policy.md)
-- [\[NeurIPS 2025\] MMPB: It's Time for Multi-Modal Personalization](mmpb_its_time_for_multi-modal_personalization.md)
+- [\[NeurIPS 2025\] Radial Neighborhood Smoothing Recommender System](radial_neighborhood_smoothing_recommender_system.md)
+- [\[NeurIPS 2025\] Validating LLM-as-a-Judge Systems under Rating Indeterminacy](validating_llm-as-a-judge_systems_under_rating_indeterminacy.md)
 
 <!-- RELATED:END -->

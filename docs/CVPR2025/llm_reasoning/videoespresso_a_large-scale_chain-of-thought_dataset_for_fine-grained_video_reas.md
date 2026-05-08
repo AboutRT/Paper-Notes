@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.14794](https://arxiv.org/abs/2411.14794)  
-**代码**: https://github.com/hshjerry/VideoEspresso  
+**代码**: [https://github.com/hshjerry/VideoEspresso](https://github.com/hshjerry/VideoEspresso)  
 **领域**: LLM推理  
 **关键词**: 视频链式思维, 核心帧选择, 视频QA, 多模态推理, 数据集
 

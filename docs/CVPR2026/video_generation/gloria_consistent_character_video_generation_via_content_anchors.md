@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.29931](https://arxiv.org/abs/2603.29931)  
-**代码**: https://yyvhang.github.io/Gloria_Page/  
+**代码**: [https://yyvhang.github.io/Gloria_Page/](https://yyvhang.github.io/Gloria_Page/)  
 **领域**: 视频理解 / 视频生成  
 **关键词**: 角色视频生成, 一致性, 内容锚帧, 扩散模型, 长视频
 

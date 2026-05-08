@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.07025](https://arxiv.org/abs/2411.07025)  
-**代码**: https://whaohan.github.io/bpt  
+**代码**: [https://whaohan.github.io/bpt](https://whaohan.github.io/bpt)  
 **领域**: 3D视觉  
 **关键词**: 网格生成, 压缩表征, 自回归Transformer, 高面数网格, 块索引
 

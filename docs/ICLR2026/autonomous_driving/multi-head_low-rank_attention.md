@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.02188](https://arxiv.org/abs/2603.02188)  
 **代码**: [GitHub](https://github.com/SongtaoLiu0823/MLRA) / [HuggingFace](https://huggingface.co/Soughing/MLRA)  
-**领域**: LLM Efficiency / Attention Mechanism  
+**领域**: 自动驾驶  
 **关键词**: KV Cache, 张量并行, 低秩注意力, 解码效率, Multi-Head Latent Attention  
 
 ## 一句话总结

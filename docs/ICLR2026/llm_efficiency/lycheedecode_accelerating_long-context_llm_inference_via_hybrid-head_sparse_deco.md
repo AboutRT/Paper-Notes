@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.04541](https://arxiv.org/abs/2602.04541)  
-**代码**: https://github.com/（论文提及有代码）  
+**代码**: [https://github.com/（论文提及有代码）](https://github.com/（论文提及有代码）)  
 **领域**: LLM效率  
 **关键词**: 长上下文推理, 稀疏注意力, 注意力头特化, KV缓存优化, HardKuma分布
 
@@ -121,7 +121,7 @@ LycheeDecode 是一个头级稀疏解码框架，包含两个核心组件：
 - [\[ACL 2025\] Squeezed Attention: Accelerating Long Context Length LLM Inference](../../ACL2025/llm_efficiency/squeezed_attention_accelerating_long_context_length_llm_inference.md)
 - [\[ICLR 2026\] Understanding and Improving Length Generalization in Hierarchical Sparse Attention Models](understanding_and_improving_length_generalization_in_hierarchical_sparse_attenti.md)
 - [\[ICLR 2026\] When Does Divide and Conquer Work for Long Context LLM? A Noise Decomposition Framework](when_does_divide_and_conquer_work_for_long_context_llm_a_noise_decomposition_fra.md)
-- [\[ICLR 2026\] SwingArena: Adversarial Programming Arena for Long-context GitHub Issue Solving](swingarena_competitive_programming_arena_for_long-context_github_issue_solving.md)
-- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](token-level_data_selection_for_safe_llm_fine-tuning.md)
+- [\[ICLR 2026\] Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling](semantic_parallelism_redefining_efficient_moe_inference_via_model-data_co-schedu.md)
+- [\[ICLR 2026\] One-Prompt Strikes Back: Sparse Mixture of Experts for Prompt-based Continual Learning](one-prompt_strikes_back_sparse_mixture_of_experts_for_prompt-based_continual_lea.md)
 
 <!-- RELATED:END -->

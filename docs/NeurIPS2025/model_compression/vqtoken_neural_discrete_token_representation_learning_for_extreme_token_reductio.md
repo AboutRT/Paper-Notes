@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.16980](https://arxiv.org/abs/2503.16980)  
-**代码**: https://github.com/ (有，含 Homepage、GitHub、HuggingFace)  
+**代码**: [https://github.com/](https://github.com/) (有，含 Homepage、GitHub、HuggingFace)  
 **领域**: 模型压缩 / 视频LLM效率  
 **关键词**: token reduction, vector quantization, video LLM, discrete representation, token information density
 
@@ -176,9 +176,9 @@ VQToken 框架流程：
 ## 相关论文
 
 - [\[NeurIPS 2025\] Vision-centric Token Compression in Large Language Model](vision-centric_token_compression_in_large_language_model.md)
+- [\[NeurIPS 2025\] Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](recurrent_attention-based_token_selection_for_efficient_streaming_video-llms.md)
 - [\[CVPR 2025\] Faster Parameter-Efficient Tuning with Token Redundancy Reduction (FPET)](../../CVPR2025/model_compression/faster_parameter-efficient_tuning_with_token_redundancy_reduction.md)
 - [\[NeurIPS 2025\] Gated Integration of Low-Rank Adaptation for Continual Learning of Large Language Models](gated_integration_of_low-rank_adaptation_for_continual_learning_of_large_languag.md)
 - [\[ICLR 2026\] Parallel Token Prediction for Language Models](../../ICLR2026/model_compression/parallel_token_prediction_for_language_models.md)
-- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](hyperbolic_fine-tuning_for_large_language_models.md)
 
 <!-- RELATED:END -->

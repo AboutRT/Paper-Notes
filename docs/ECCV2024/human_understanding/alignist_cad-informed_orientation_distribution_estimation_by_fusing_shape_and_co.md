@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.06683](https://arxiv.org/abs/2409.06683)  
-**代码**: https://github.com/Shishir-reddy/Alignist (有)  
-**领域**: 3D视觉 / 位姿估计  
+**代码**: [https://github.com/Shishir-reddy/Alignist](https://github.com/Shishir-reddy/Alignist)  
+**领域**: 人体理解  
 **关键词**: Pose Distribution, SO(3), CAD Model, Product of Experts, Symmetry
 
 ## 一句话总结
@@ -137,10 +137,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] WIR3D: Visually-Informed and Geometry-Aware 3D Shape Abstraction](../../ICCV2025/human_understanding/wir3d_visually-informed_and_geometry-aware_3d_shape_abstraction.md)
 - [\[ECCV 2024\] LaPose: Laplacian Mixture Shape Modeling for RGB-Based Category-Level Object Pose Estimation](lapose_laplacian_mixture_shape_modeling_for_rgb-based_category-level_object_pose.md)
 - [\[ECCV 2024\] HUMOS: Human Motion Model Conditioned on Body Shape](humos_human_motion_model_conditioned_on_body_shape.md)
 - [\[CVPR 2025\] Probabilistic Prompt Distribution Learning for Animal Pose Estimation](../../CVPR2025/human_understanding/probabilistic_prompt_distribution_learning_for_animal_pose_estimation.md)
 - [\[CVPR 2025\] CRISP: Object Pose and Shape Estimation with Test-Time Adaptation](../../CVPR2025/human_understanding/crisp_object_pose_and_shape_estimation_with_test-time_adaptation.md)
+- [\[CVPR 2025\] Shape My Moves: Text-Driven Shape-Aware Synthesis of Human Motions](../../CVPR2025/human_understanding/shape_my_moves_text-driven_shape-aware_synthesis_of_human_motions.md)
 
 <!-- RELATED:END -->

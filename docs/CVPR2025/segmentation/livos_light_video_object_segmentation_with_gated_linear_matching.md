@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.02818](https://arxiv.org/abs/2411.02818)  
 **代码**: [uncbiag/LiVOS](https://github.com/uncbiag/LiVOS)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: video object segmentation, linear attention, gated linear matching, memory network, 4096p inference
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.00359](https://arxiv.org/abs/2411.00359)  
-**代码**: https://grail.cs.washington.edu/projects/cdim/ (有)  
+**代码**: [https://grail.cs.washington.edu/projects/cdim/](https://grail.cs.washington.edu/projects/cdim/)  
 **领域**: 3D Vision / Image Restoration  
 **关键词**: diffusion models, inverse problems, linear constraints, DDIM, accelerated sampling
 
@@ -169,6 +169,6 @@ CDIM 在保持可比或更优质量的同时，推理速度比 DPS 快 ~28 倍�
 - [\[CVPR 2025\] Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models](../../CVPR2025/3d_vision/difix3d_improving_3d_reconstructions_with_single-step_diffusion_models.md)
 - [\[ICCV 2025\] SpinMeRound: Consistent Multi-View Identity Generation Using Diffusion Models](../../ICCV2025/3d_vision/spinmeround_consistent_multi-view_identity_generation_using_diffusion_models.md)
 - [\[CVPR 2025\] Scaling Properties of Diffusion Models for Perceptual Tasks](../../CVPR2025/3d_vision/scaling_properties_of_diffusion_models_for_perceptual_tasks.md)
-- [\[ECCV 2024\] MVDD: Multi-View Depth Diffusion Models](../../ECCV2024/3d_vision/mvdd_multi-view_depth_diffusion_models.md)
+- [\[CVPR 2025\] Fine-Grained Erasure in Text-to-Image Diffusion-based Foundation Models](../../CVPR2025/3d_vision/fine-grained_erasure_in_text-to-image_diffusion-based_foundation_models.md)
 
 <!-- RELATED:END -->

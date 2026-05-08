@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Scaling RL to Long Videos
 description: >-
-  [NeurIPS 2025][长视频推理] 提出 LongVILA-R1 全栈框架，通过 104K 长视频推理数据集、两阶段 CoT-SFT + RL 训练管线、以及 MR-SP 多模态强化序列并行系统，将 VLM 的推理能力扩展到长视频（最高 8192 帧），在 VideoMME 上达到 65.1%/71.1%。
+  [NeurIPS 2025][视频生成] 提出 LongVILA-R1 全栈框架，通过 104K 长视频推理数据集、两阶段 CoT-SFT + RL 训练管线、以及 MR-SP 多模态强化序列并行系统，将 VLM 的推理能力扩展到长视频（最高 8192 帧），在 VideoMME 上达到 65.1%/71.1%。
 tags:
   - NeurIPS 2025
-  - 长视频推理
+  - 视频生成
   - 强化学习
   - 视觉语言模型
   - 序列并行
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.07966](https://arxiv.org/abs/2507.07966)  
 **代码**: [GitHub](https://github.com/NVlabs/Long-RL)  
-**领域**: 视频理解  
+**领域**: 视频生成  
 **关键词**: 长视频推理, 强化学习, 视觉语言模型, 序列并行, 链式思维
 
 ## 一句话总结
@@ -155,8 +155,8 @@ tags:
 
 - [\[CVPR 2025\] Towards Precise Scaling Laws for Video Diffusion Transformers](../../CVPR2025/video_generation/towards_precise_scaling_laws_for_video_diffusion_transformers.md)
 - [\[NeurIPS 2025\] Radial Attention: O(n log n) Sparse Attention with Energy Decay for Long Video Generation](radial_attention_onlog_n_sparse_attention_with_energy_decay_for_long_video_gener.md)
-- [\[ICCV 2025\] OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models](../../ICCV2025/video_generation/omnihuman-1_rethinking_the_scaling-up_of_one-stage_conditioned_human_animation_m.md)
 - [\[ICCV 2025\] Long Context Tuning for Video Generation](../../ICCV2025/video_generation/long_context_tuning_for_video_generation.md)
 - [\[CVPR 2025\] Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better](../../CVPR2025/video_generation/tracktention_leveraging_point_tracking_to_attend_videos_faster_and_better.md)
+- [\[CVPR 2026\] ActivityForensics: A Comprehensive Benchmark for Localizing Manipulated Activity in Videos](../../CVPR2026/video_generation/activityforensics_a_comprehensive_benchmark_for_localizing_manipulated_activity_.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.12217v1](https://arxiv.org/abs/2511.12217v1)  
-**代码**: [https://github.com/Gilgo2/AlignTree](https://github.com/Gilgo2/AlignTree) (有)  
-**领域**: AI Safety  
+**代码**: [https://github.com/Gilgo2/AlignTree](https://github.com/Gilgo2/AlignTree)  
+**领域**: LLM对齐  
 **关键词**: LLM安全, 越狱攻击防御, 随机森林分类器, Refusal Direction, SVM  
 
 ## 一句话总结

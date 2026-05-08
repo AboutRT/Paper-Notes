@@ -18,8 +18,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2412.01124](https://arxiv.org/abs/2412.01124)  
-**代码**: https://github.com/Szym29/SUICA (有)  
-**领域**: 医学图像  
+**代码**: [https://github.com/Szym29/SUICA](https://github.com/Szym29/SUICA)  
+**领域**: 其他  
 **关键词**: spatial transcriptomics, implicit neural representations, graph autoencoder, gene expression, spatial imputation
 
 ## 一句话总结

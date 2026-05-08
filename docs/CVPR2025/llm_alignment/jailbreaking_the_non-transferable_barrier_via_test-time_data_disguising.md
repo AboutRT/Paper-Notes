@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.17198](https://arxiv.org/abs/2503.17198)  
-**代码**: https://github.com/tmllab/2025_CVPR_JailNTL  
+**代码**: [https://github.com/tmllab/2025_CVPR_JailNTL](https://github.com/tmllab/2025_CVPR_JailNTL)  
 **领域**: LLM对齐  
 **关键词**: non-transferable learning, model IP protection, adversarial attack, domain adaptation, data disguising
 

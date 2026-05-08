@@ -15,8 +15,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.11325](https://arxiv.org/abs/2407.11325)  
-**代码**: [https://github.com/cilinyan/VISA](https://github.com/cilinyan/VISA) (有)  
-**领域**: LLM推理  
+**代码**: [https://github.com/cilinyan/VISA](https://github.com/cilinyan/VISA)  
+**领域**: 图像分割  
 **关键词**: Reasoning Segmentation, Video Object Segmentation, Multi-Modal LLM, SAM, 视频推理
 
 ## 一句话总结

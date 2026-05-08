@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.16736](https://arxiv.org/abs/2506.16736)  
 **代码**: 暂无  
-**领域**: 博弈论 / 在线学习  
+**领域**: 其他  
 **关键词**: Fictitious Play, 乐观学习, 零和博弈, 遗憾界, 无正则化
 
 ## 一句话总结
@@ -70,8 +70,8 @@ $$y^{t+1} = y^t + J \partial\Psi(\tilde{y}^{t+1}), \quad J = \begin{pmatrix} 0 &
 
 其中 $\tilde{y}^{t+1} = y^t$（FP）或 $\tilde{y}^{t+1} = 2y^t - y^{t-1}$（OFP）。
 
-   - **标准FP**：由于 $J$ 的反对称性，单步能量变化 $\Delta\Psi \geq 0$（能量不减），在 $\sqrt{T}$ 步中至少增长常数
-   - **乐观FP**：当预测对偶向量和真实对偶向量映射到同一原始顶点时（$\partial\Psi(y^{t+1}) = \partial\Psi(\tilde{y}^{t+1})$），$\Delta\Psi \leq 0$（能量不增）
+    - **标准FP**：由于 $J$ 的反对称性，单步能量变化 $\Delta\Psi \geq 0$（能量不减），在 $\sqrt{T}$ 步中至少增长常数
+    - **乐观FP**：当预测对偶向量和真实对偶向量映射到同一原始顶点时（$\partial\Psi(y^{t+1}) = \partial\Psi(\tilde{y}^{t+1})$），$\Delta\Psi \leq 0$（能量不增）
 
 3. **2×2博弈的结构利用**：利用Assumption 1（WLOG可将任意2×2零和博弈变换为 $\det A = 0$, $a,d > \max\{0,b,c\}$ 的形式），使得对偶向量 $y^t$ 全部落在同一二维子空间中，从而可用二维平面几何分析OFP的轨迹行为。
 
@@ -148,8 +148,8 @@ $$\Psi(y^{T+1}) \leq 8a_{\max}\left(1 + 2\frac{a_{\max}}{a_{\text{gap}}}\right)^
 
 - [\[NeurIPS 2025\] Efficient Kernelized Learning in Polyhedral Games Beyond Full-Information: From Colonel Blotto to Congestion Games](efficient_kernelized_learning_in_polyhedral_games_beyond_full-information_from_c.md)
 - [\[NeurIPS 2025\] Evolutionary Prediction Games](evolutionary_prediction_games.md)
-- [\[NeurIPS 2025\] MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](maszero_designing_multiagent_systems_with_zero_supervision.md)
 - [\[NeurIPS 2025\] Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret in Noise-Free Gaussian Process Bandits](gaussian_process_upper_confidence_bound_achieves_nearly-optimal_regret_in_noise-.md)
-- [\[AAAI 2026\] Learning Network Dismantling Without Handcrafted Inputs](../../AAAI2026/others/learning_network_dismantling_without_handcrafted_inputs.md)
+- [\[NeurIPS 2025\] MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](maszero_designing_multiagent_systems_with_zero_supervision.md)
+- [\[NeurIPS 2025\] Zebra: Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding](zebra_towards_zero-shot_cross-subject_generalization_for_universal_brain_visual_.md)
 
 <!-- RELATED:END -->

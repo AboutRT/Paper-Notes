@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.04592](https://arxiv.org/abs/2506.04592)  
 **代码**: [https://github.com/liuchengwucn/Safe](https://github.com/liuchengwucn/Safe)  
-**领域**: LLM 推理  
+**领域**: LLM推理  
 **关键词**: 形式化验证, Lean 4, 过程奖励模型, 数学推理, 自动定理证明  
 
 ## 一句话总结
@@ -195,6 +195,6 @@ BoN@5 准确率对比（Llama-3.1-8B-Instruct）：
 - [\[ACL 2025\] Enhancing Mathematical Reasoning in LLMs by Stepwise Correction](enhancing_mathematical_reasoning_in_llms_by_stepwise_correction.md)
 - [\[ACL 2025\] Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective](chain_of_reasoning_unified_math.md)
 - [\[ACL 2025\] ClozeMath: Improving Mathematical Reasoning in Language Models by Learning to Fill Equations](clozemath_improving_mathematical_reasoning_in_language_models_by_learning_to_fil.md)
-- [\[ACL 2025\] BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving](bpp-search_enhancing_tree_of_thought_reasoning_for_mathematical_modeling_problem.md)
+- [\[ACL 2025\] MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification](mm-verify_enhancing_multimodal_reasoning_with_chain-of-thought_verification.md)
 
 <!-- RELATED:END -->

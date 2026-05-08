@@ -11,7 +11,7 @@ tags:
   - Chinchilla缩放
   - 权重衰减
   - AdamW
-  - LLM评估
+  - LLM评测
 ---
 
 # How Much Can We Forget about Data Contamination?
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2410.03249](https://arxiv.org/abs/2410.03249)  
 **代码**: [GitHub](https://github.com/tml-tuebingen/forgetting-contamination/)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: 数据污染, 遗忘, benchmark过拟合, Chinchilla缩放, 权重衰减, AdamW, LLM评估
 
 ## 一句话总结
@@ -154,10 +154,10 @@ Chinchilla 最优模型的绝对准确率（holdout vs 污染）：
 
 ## 相关论文
 
+- [\[ICML 2025\] DataDecide: How to Predict Best Pretraining Data with Small Experiments](datadecide_how_to_predict_best_pretraining_data_with_small_experiments.md)
 - [\[ACL 2025\] AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge](../../ACL2025/llm_evaluation/antileakbench_preventing_data_contamination_by_automatically_constructing_benchm.md)
 - [\[ICML 2025\] Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation](leveraging_online_olympiad-level_math_problems_for_llms_training_and_contaminati.md)
+- [\[AAAI 2026\] Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution](../../AAAI2026/llm_evaluation/think_how_your_teammates_think_active_inference_can_benefit_decentralized_execut.md)
 - [\[ICML 2025\] Position: AI Evaluation Should Learn from How We Test Humans](position_ai_evaluation_should_learn_from_how_we_test_humans.md)
-- [\[ACL 2025\] MMLU-CF: A Contamination-free Multi-task Language Understanding Benchmark](../../ACL2025/llm_evaluation/mmlu-cf_a_contamination-free_multi-task_language_understanding_benchmark.md)
-- [\[ICLR 2026\] Preference Leakage: A Contamination Problem in LLM-as-a-judge](../../ICLR2026/llm_evaluation/preference_leakage_a_contamination_problem_in_llm-as-a-judge.md)
 
 <!-- RELATED:END -->

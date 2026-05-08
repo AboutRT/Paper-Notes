@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.12450](https://arxiv.org/abs/2503.12450)  
-**代码**: https://github.com/feihongyan1/LazyMAR  
+**代码**: [https://github.com/feihongyan1/LazyMAR](https://github.com/feihongyan1/LazyMAR)  
 **领域**: 图像生成  
 **关键词**: MAR加速, 特征缓存, token冗余, 条件冗余, 即插即用
 

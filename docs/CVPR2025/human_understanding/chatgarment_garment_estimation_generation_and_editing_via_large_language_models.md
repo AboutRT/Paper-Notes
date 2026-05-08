@@ -118,10 +118,10 @@ ChatGarment 创新性地将 VLM 与参数化服装表示结合，通过 GarmentC
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Uncovering Strategic Egoism Behaviors in Large Language Models](../../NeurIPS2025/human_understanding/uncovering_strategic_egoism_behaviors_in_large_language_models.md)
-- [\[NeurIPS 2025\] GraphChain: Large Language Models for Large-scale Graph Analysis via Tool Chaining](../../NeurIPS2025/human_understanding/graphchain_large_language_models_for_large-scale_graph_analysis_via_tool_chainin.md)
-- [\[ACL 2025\] BQA: Body Language Question Answering Dataset for Video Large Language Models](../../ACL2025/human_understanding/bqa_body_language_question_answering_dataset_for_video_large_language_models.md)
-- [\[ICML 2025\] Enhancing Decision-Making of Large Language Models via Actor-Critic](../../ICML2025/human_understanding/enhancing_decision-making_of_large_language_models_via_actor-critic.md)
-- [\[NeurIPS 2025\] Incentivizing Reasoning for Advanced Instruction-Following of Large Language Models](../../NeurIPS2025/human_understanding/incentivizing_reasoning_for_advanced_instruction-following_of_large_language_mod.md)
+- [\[CVPR 2025\] Pose Priors from Language Models](pose_priors_from_language_models.md)
+- [\[NeurIPS 2025\] VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models](../../NeurIPS2025/human_understanding/vimorag_video-based_retrieval-augmented_3d_motion_generation_for_motion_language.md)
+- [\[ICML 2025\] Scaling Large Motion Models with Million-Level Human Motions](../../ICML2025/human_understanding/scaling_large_motion_models_with_million-level_human_motions.md)
+- [\[ICCV 2025\] LVFace: Progressive Cluster Optimization for Large Vision Models in Face Recognition](../../ICCV2025/human_understanding/lvface_progressive_cluster_optimization_for_large_vision_models_in_face_recognit.md)
+- [\[CVPR 2025\] UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing](unipose_a_unified_multimodal_framework_for_human_pose_comprehension_generation_a.md)
 
 <!-- RELATED:END -->

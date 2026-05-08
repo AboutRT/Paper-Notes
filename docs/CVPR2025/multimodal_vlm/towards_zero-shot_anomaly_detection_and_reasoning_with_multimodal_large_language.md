@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 零样本异常检测
+  - 多模态VLM
   - MLLM专家系统
   - 视觉特征匹配
   - 异常推理
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.07601](https://arxiv.org/abs/2502.07601)  
-**代码**: https://xujiacong.github.io/Anomaly-OV/  
+**代码**: [https://xujiacong.github.io/Anomaly-OV/](https://xujiacong.github.io/Anomaly-OV/)  
 **领域**: 多模态VLM  
 **关键词**: 零样本异常检测、MLLM专家系统、视觉特征匹配、异常推理、工业检测
 
@@ -115,9 +115,9 @@ Stage 1：异常专家用二分类 + 显著性图损失训练。Stage 2：冻结
 ## 相关论文
 
 - [\[CVPR 2026\] No Need For Real Anomaly: MLLM Empowered Zero-Shot Video Anomaly Detection](../../CVPR2026/multimodal_vlm/no_need_for_real_anomaly_mllm_empowered_zero-shot_video_anomaly_detection.md)
-- [\[CVPR 2026\] AnomalyVFM -- Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors](../../CVPR2026/multimodal_vlm/anomalyvfm_--_transforming_vision_foundation_models_into_zero-shot_anomaly_detec.md)
-- [\[CVPR 2025\] Visual and Semantic Prompt Collaboration for Generalized Zero-Shot Learning](visual_and_semantic_prompt_collaboration_for_generalized_zero-shot_learning.md)
+- [\[CVPR 2025\] Locality-Aware Zero-Shot Human-Object Interaction Detection](locality-aware_zero-shot_human-object_interaction_detection.md)
+- [\[CVPR 2025\] Conformal Prediction for Zero-Shot Models](conformal_prediction_for_zero-shot_models.md)
 - [\[CVPR 2025\] Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models](insight-v_exploring_long-chain_visual_reasoning_with_multimodal_large_language_m.md)
-- [\[NeurIPS 2025\] MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection](../../NeurIPS2025/multimodal_vlm/monitor_exploiting_large_language_models_with_instruction_for_online_video_anoma.md)
+- [\[CVPR 2025\] SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model](seqafford_sequential_3d_affordance_reasoning_via_multimodal_large_language_model.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17646](https://arxiv.org/abs/2411.17646)  
-**代码**: https://github.com/ClaudiaCuttano/SAMWISE  
+**代码**: [https://github.com/ClaudiaCuttano/SAMWISE](https://github.com/ClaudiaCuttano/SAMWISE)  
 **领域**: 视频分割 / 多模态VLM  
 **关键词**: 参考视频目标分割, SAM2, 跨模态时序适配器, 追踪偏差, 流式处理
 

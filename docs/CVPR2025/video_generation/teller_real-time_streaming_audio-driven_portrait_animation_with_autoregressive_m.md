@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18429](https://arxiv.org/abs/2503.18429)  
-**代码**: https://teller-avatar.github.io/  
-**领域**: 视频理解  
+**代码**: [https://teller-avatar.github.io/](https://teller-avatar.github.io/)  
+**领域**: 视频生成  
 **关键词**: 说话人动画, 自回归生成, 实时流式, 动作离散化, 时序精炼
 
 ## 一句话总结

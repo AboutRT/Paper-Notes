@@ -55,11 +55,11 @@ SPOT 的流程：
 
    记忆库存储 key-value 对，key 为近期帧的查询特征，value 为经 splatting 传送的第一帧特征。当前帧特征作为 query 通过注意力机制检索记忆：
 
-   $$\mathbf{M}_t = \text{Softmax}(\frac{1}{\sqrt{D_k}} \times q \times k^T) \times v$$
+    $\mathbf{M}_t = \text{Softmax}(\frac{1}{\sqrt{D_k}} \times q \times k^T) \times v$
 
    **关键设计——融合层**：直接使用 readout 特征 $\mathbf{M}_t$ 做光流回归会失败，因为 splatting 产生的 value 存在大量**空洞伪影**（disocclusion 导致）。为此引入一个简单的融合层——仅一个卷积——用原始特征"修补"空洞：
 
-   $$\mathbf{E}_t = \mathbf{F}_t + \text{Conv}(\mathbf{F}_t \oplus \mathbf{M}_t)$$
+    $\mathbf{E}_t = \mathbf{F}_t + \text{Conv}(\mathbf{F}_t \oplus \mathbf{M}_t)$
 
    其中 $\oplus$ 为拼接操作。这个残差设计确保即使记忆特征有伪影，原始特征仍可保底。
 
@@ -67,11 +67,11 @@ SPOT 的流程：
 
    使用 RAFT 解码器架构，计算增强特征 $\mathbf{E}_t$ 与参考特征 $\mathbf{F}_1$ 之间的 4D 相关体积。GRU 单元迭代更新光流和可见性：
 
-   $$\Delta f_{1\to t}^i, \Delta v_{1\to t}^i, h_t^i = \text{GRU}(h_t^{i-1}, f_c, f_m^i, s_{t-1})$$
+    $\Delta f_{1\to t}^i, \Delta v_{1\to t}^i, h_t^i = \text{GRU}(h_t^{i-1}, f_c, f_m^i, s_{t-1})$
 
    **感知记忆 $s_{t-1}$** 捕获短期运动动态，通过额外的 GRU 更新：
 
-   $$s_t = \text{GRU}_{sensory}(s_{t-1}, f_m^N)$$
+    $s_t = \text{GRU}_{sensory}(s_{t-1}, f_m^N)$
 
    设计动机：光流解码器的相关体积只捕获静态空间相似性，短期运动趋势需要额外建模。感知记忆使模型能感知"物体正在往哪个方向移动"，辅助长程光流预测。
 
@@ -81,11 +81,11 @@ SPOT 的流程：
 
    使用前向 splatting（forward warping）实现高效的长程信息传播：
 
-   $$F_t^{\Sigma}[(x_t, y_t)] = \sum_{(x_1, y_1)} b(\Delta) \cdot \mathbf{F}_1[(x_1, y_1)]$$
+    $F_t^{\Sigma}[(x_t, y_t)] = \sum_{(x_1, y_1)} b(\Delta) \cdot \mathbf{F}_1[(x_1, y_1)]$
 
    **可见性引导**：遮挡区域的 splatting 会产生不一致伪影，用预测的可见性掩码进行加权归一化：
 
-   $$F_t^{1\to t} = \frac{\sum^{\to}(\mathbf{v}_{1\to t} \cdot \mathbf{F}_1, \mathbf{f}_{1\to t})}{\sum^{\to}(\mathbf{v}_{1\to t}, \mathbf{f}_{1\to t})}$$
+    $F_t^{1\to t} = \frac{\sum^{\to}(\mathbf{v}_{1\to t} \cdot \mathbf{F}_1, \mathbf{f}_{1\to t})}{\sum^{\to}(\mathbf{v}_{1\to t}, \mathbf{f}_{1\to t})}$
 
    记忆库维护两个 FIFO 队列（长度 $L=3$），缓存近期帧的 splatting 结果作为 value，当前帧的查询特征作为 key。
 

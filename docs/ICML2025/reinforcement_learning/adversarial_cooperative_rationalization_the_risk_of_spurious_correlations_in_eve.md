@@ -8,7 +8,7 @@ tags:
   - 自解释模型
   - 理据化
   - 虚假相关
-  - 对抗攻击
+  - 强化学习
   - 采样偏差
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.02118](https://arxiv.org/abs/2505.02118)  
-**代码**: https://github.com/jugechengzi/Rationalization-A2I  
+**代码**: [https://github.com/jugechengzi/Rationalization-A2I](https://github.com/jugechengzi/Rationalization-A2I)  
 **领域**: 强化学习/可解释性  
 **关键词**: 自解释模型, 理据化, 虚假相关, 对抗攻击, 采样偏差
 
@@ -99,8 +99,8 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Enhancing Cooperative Multi-Agent Reinforcement Learning with State Modelling and Adversarial Exploration](enhancing_cooperative_multi-agent_reinforcement_learning_with_state_modelling_an.md)
+- [\[ICML 2025\] Beyond CVaR: Leveraging Static Spectral Risk Measures for Enhanced Decision-Making in Distributional Reinforcement Learning](beyond_cvar_leveraging_static_spectral_risk_measures_for_enhanced_decision-makin.md)
 - [\[NeurIPS 2025\] Learning to Clean: Reinforcement Learning for Noisy Label Correction](../../NeurIPS2025/reinforcement_learning/learning_to_clean_reinforcement_learning_for_noisy_label_correction.md)
-- [\[NeurIPS 2025\] Risk-Averse Total-Reward Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/risk-averse_total-reward_reinforcement_learning.md)
 - [\[ICML 2025\] Learning to Incentivize in Repeated Principal-Agent Problems with Adversarial Agent Arrivals](learning_to_incentivize_in_repeated_principal-agent_problems_with_adversarial_ag.md)
 - [\[NeurIPS 2025\] Risk-Averse Constrained Reinforcement Learning with Optimized Certainty Equivalents](../../NeurIPS2025/reinforcement_learning/risk-averse_constrained_reinforcement_learning_with_optimized_certainty_equivale.md)
 

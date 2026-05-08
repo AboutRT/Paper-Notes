@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.06940](https://arxiv.org/abs/2510.06940)  
-**代码**: https://github.com/orfeld415/NAVIS  
+**代码**: [https://github.com/orfeld415/NAVIS](https://github.com/orfeld415/NAVIS)  
 **领域**: 图学习 / 时序图  
 **关键词**: 时序图神经网络, 节点亲和力预测, 状态空间模型, 排序损失, 全局状态
 
@@ -125,8 +125,8 @@ NAViS 比 TGNv2（最佳 TGNN）在 tgbn-trade 上提升 +12.8%。
 
 - [\[NeurIPS 2025\] TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction](../../NeurIPS2025/graph_learning/tami_taming_heterogeneity_in_temporal_interactions_for_temporal_graph_link_predi.md)
 - [\[ICML 2025\] L-STEP: Learnable Spatial-Temporal Positional Encoding for Link Prediction](../../ICML2025/graph_learning/learnable_spatial-temporal_positional_encoding_for_link_prediction.md)
-- [\[ICLR 2026\] Towards Improved Sentence Representations using Token Graphs](towards_improved_sentence_representations_using_token_graphs.md)
 - [\[ICLR 2026\] Graph Tokenization for Bridging Graphs and Transformers](graph_tokenization_for_bridging_graphs_and_transformers.md)
+- [\[ICLR 2026\] Towards Improved Sentence Representations using Token Graphs](towards_improved_sentence_representations_using_token_graphs.md)
 - [\[AAAI 2026\] GT-SNT: A Linear-Time Transformer for Large-Scale Graphs via Spiking Node Tokenization](../../AAAI2026/graph_learning/gt-snt_a_linear-time_transformer_for_large-scale_graphs_via_spiking_node_tokeniz.md)
 
 <!-- RELATED:END -->

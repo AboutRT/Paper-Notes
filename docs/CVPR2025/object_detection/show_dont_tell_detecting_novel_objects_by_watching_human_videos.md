@@ -118,10 +118,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Any6D: Model-free 6D Pose Estimation of Novel Objects](any6d_model-free_6d_pose_estimation_of_novel_objects.md)
-- [\[CVPR 2025\] HumanMM: Global Human Motion Recovery from Multi-shot Videos](humanmm_global_human_motion_recovery_from_multi-shot_videos.md)
-- [\[CVPR 2025\] Detecting Adversarial Data Using Perturbation Forgery](detecting_adversarial_data_using_perturbation_forgery.md)
-- [\[CVPR 2025\] Detecting Out-of-Distribution through the Lens of Neural Collapse](detecting_out-of-distribution_through_the_lens_of_neural_collapse.md)
 - [\[CVPR 2025\] ProbPose: A Probabilistic Approach to 2D Human Pose Estimation](probpose_a_probabilistic_approach_to_2d_human_pose_estimation.md)
+- [\[CVPR 2025\] Boosting Domain Incremental Learning: Selecting the Optimal Parameters Is All You Need](boosting_domain_incremental_learning_selecting_the_optimal_parameters_is_all_you.md)
+- [\[CVPR 2025\] Interpreting Object-level Foundation Models via Visual Precision Search](interpreting_object-level_foundation_models_via_visual_precision_search.md)
+- [\[CVPR 2025\] MI-DETR: An Object Detection Model with Multi-time Inquiries Mechanism](mi-detr_an_object_detection_model_with_multi-time_inquiries_mechanism.md)
+- [\[CVPR 2025\] Towards RAW Object Detection in Diverse Conditions](towards_raw_object_detection_in_diverse_conditions.md)
 
 <!-- RELATED:END -->

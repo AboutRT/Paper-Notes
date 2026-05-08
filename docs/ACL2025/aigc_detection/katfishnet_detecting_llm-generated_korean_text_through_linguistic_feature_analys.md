@@ -2,10 +2,10 @@
 title: >-
   [论文解读] KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis
 description: >-
-  [ACL 2025][LLM生成文本检测] 本文构建了首个韩语 LLM 生成文本检测基准 KatFish（涵盖三种文体、四种 LLM），通过分析词间距、词性多样性和逗号使用三类韩语语言学特征，提出 KatFishNet 检测方法，在 OOD（未见过的 LLM）设置下平均 AUROC 比最佳基线高 19.78%。
+  [ACL 2025][AIGC检测] 本文构建了首个韩语 LLM 生成文本检测基准 KatFish（涵盖三种文体、四种 LLM），通过分析词间距、词性多样性和逗号使用三类韩语语言学特征，提出 KatFishNet 检测方法，在 OOD（未见过的 LLM）设置下平均 AUROC 比最佳基线高 19.78%。
 tags:
   - ACL 2025
-  - LLM生成文本检测
+  - AIGC检测
   - 韩语语言学特征
   - 逗号使用模式
   - 词间距
@@ -132,6 +132,6 @@ KatFishNet 的流程：(1) 对输入韩文文本进行形态分析（使用 Bare
 - [\[ACL 2025\] Cognitive Framework for Detecting AI-Generated Fiction](cognitive_framework_for_detecting_ai-generated_fiction.md)
 - [\[ACL 2025\] Learning to Rewrite: Generalized LLM-Generated Text Detection](learning_to_rewrite_generalized_llm-generated_text_detection.md)
 - [\[ACL 2025\] Comparing LLM-generated and human-authored news text using formal syntactic theory](llm_vs_human_formal_syntax.md)
-- [\[ACL 2025\] Low-Perplexity LLM-Generated Sequences and Where To Find Them](low-perplexity_llm-generated_sequences_and_where_to_find_them.md)
+- [\[ACL 2026\] When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection](../../ACL2026/aigc_detection/when_personalization_tricks_detectors_the_feature-inversion_trap_in_machine-gene.md)
 
 <!-- RELATED:END -->

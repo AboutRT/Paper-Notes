@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 其他方向61篇论文解读
+  ECCV2024 其他方向63篇论文解读
 description: >-
-  61篇ECCV2024的其他方向论文解读，涵盖对抗鲁棒、人脸/视线、重识别、少样本学习、对齐/RLHF、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  63篇ECCV2024的其他方向论文解读，涵盖对抗鲁棒、人脸/视线、多模态、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🎞️ ECCV2024** · **61** 篇论文解读
+**🎞️ ECCV2024** · **63** 篇论文解读
 
 **[3DFG-PIFu: 3D Feature Grids for Human Digitization from Sparse Views](3dfg-pifu_3d_feature_grids_for_human_digitization_from_sparse_views.md)**
 
@@ -29,10 +29,6 @@ description: >-
 **[Active Generation for Image Classification](active_generation_for_image_classification.md)**
 
 :   本文提出ActGen，将主动学习思想融入扩散模型的图像生成过程，通过识别模型误分类的验证样本作为引导图像、结合注意力引导和基于梯度的生成控制，仅用10%的合成图像即可在ImageNet上实现+2.26%的准确率提升，超过了使用94%合成数据的先前方法。
-
-**[Adaptive High-Frequency Transformer for Diverse Wildlife Re-Identification](adaptive_highfrequency_transformer_for_diverse_wildlife_reid.md)**
-
-:   提出自适应高频Transformer（AdaFreq），通过频域混合增强、目标感知的高频token动态选择、特征均衡损失三大策略，将高频信息（毛皮纹理、轮廓边缘等）统一用于多种野生动物的重识别，在8个跨物种数据集上超越现有ReID方法。
 
 **[AddMe: Zero-Shot Group-Photo Synthesis by Inserting People Into Scenes](addme_zero-shot_group-photo_synthesis_by_inserting_people_into_scenes.md)**
 
@@ -81,6 +77,14 @@ description: >-
 **[De-confounded Gaze Estimation](de-confounded_gaze_estimation.md)**
 
 :   本文提出基于因果干预的视线估计框架 FSCI，通过特征分离将视线相关特征与身份/光照等无关特征解耦，并利用动态混杂因子库对无关特征进行因果干预，在跨域设置下较基线提升36.2%、较SOTA提升11.5%。
+
+**[DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_.md)**
+
+:   将Barlow Twins扩展到多模态场景，通过将嵌入维度显式分为跨模态公共（对齐到identity矩阵）和模态独特（推到零矩阵）两部分，配合模态内自监督训练避免退化，在SAR-光学、RGB-DEM、RGB-深度三类场景中一致超越SimCLR-cross和Barlow Twins基线。
+
+**[Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)**
+
+:   提出 DeCUR，在多模态自监督学习中将嵌入维度显式拆分为跨模态共有 (common) 和模态独有 (unique) 两部分，通过互相关矩阵分别驱动对齐与去相关，同时引入模态内训练保证独有维度学到有意义信息，在 SAR-光学、RGB-DEM、RGB-Depth 三类多模态场景上均优于 Barlow Twins / CLIP 等基线。
 
 **[Docling Technical Report](docling_pdf_document_conversion.md)**
 
@@ -193,6 +197,10 @@ description: >-
 **[PartCraft: Crafting Creative Objects by Parts](partcraft_crafting_creative_objects_by_parts.md)**
 
 :   提出 PartCraft，首次实现了基于部件选择的文本到图像生成控制——用户可以从不同物体中"挑选"各部件（如鸟的头、翅膀、身体），模型将它们自然地组合为一个全新且结构合理的创意物体。
+
+**[PISR: Polarimetric Neural Implicit Surface Reconstruction for Textureless and Specular Objects](pisr_polarimetric_neural_implicit_surface_reconstruction_for_textureless_and_spe.md)**
+
+:   提出PISR方法，利用偏振光的几何约束（偏振角与法线方位角的对应关系）直接正则化神经隐式表面形状，结合哈希网格加速和图像空间法线平滑，在无纹理和镜面物体上实现了0.5mm Chamfer距离和99.5% F-score的高精度重建，速度比此前偏振方法快4~30倍。
 
 **[Power Variable Projection for Initialization-Free Large-Scale Bundle Adjustment](power_variable_projection_for_initialization-free_large-scale_bundle_adjustment.md)**
 

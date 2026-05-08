@@ -8,7 +8,7 @@ tags:
   - 图像恢复
   - UHD图像修复
   - VAE正则化
-  - 高频LoRA
+  - 图像复原
   - 保真度-感知质量权衡
   - All-in-One
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.07961](https://arxiv.org/abs/2510.07961)  
-**代码**: [GitHub](https://github.com/lyd-2022/Latent-Harmony) (有)  
+**代码**: [GitHub](https://github.com/lyd-2022/Latent-Harmony)  
 **领域**: 图像修复 / 超高清图像处理  
 **关键词**: UHD图像修复, VAE正则化, 高频LoRA, 保真度-感知质量权衡, All-in-One
 
@@ -173,10 +173,10 @@ $$L_{Stage1} = L_{VAE} + \lambda_{Inv} L_{Inv} + \lambda_{Eqv} L_{Eqv}$$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Audio Super-Resolution with Latent Bridge Models](audio_super-resolution_with_latent_bridge_models.md)
 - [\[NeurIPS 2025\] MS-BART: Unified Modeling of Mass Spectra and Molecules for Structure Elucidation](ms-bart_unified_modeling_of_mass_spectra_and_molecules_for_structure_elucidation.md)
-- [\[NeurIPS 2025\] MoDEM: A Morton-Order Degradation Estimation Mechanism for Adverse Weather Image Restoration](modem_a_morton-order_degradation_estimation_mechanism_for_adverse_weather_image_.md)
+- [\[NeurIPS 2025\] Audio Super-Resolution with Latent Bridge Models](audio_super-resolution_with_latent_bridge_models.md)
 - [\[NeurIPS 2025\] Real-World Adverse Weather Image Restoration via Dual-Level Reinforcement Learning with High-Quality Cold Start](real-world_adverse_weather_image_restoration_via_dual-level_reinforcement_learni.md)
-- [\[NeurIPS 2025\] DynaGuide: Steering Diffusion Policies with Active Dynamic Guidance](dynaguide_steering_diffusion_polices_with_active_dynamic_guidance.md)
+- [\[NeurIPS 2025\] Rethinking Circuit Completeness in Language Models: AND, OR, and ADDER Gates](rethinking_circuit_completeness_in_language_models_and_or_and_adder_gates.md)
+- [\[NeurIPS 2025\] GC4NC: A Benchmark Framework for Graph Condensation on Node Classification with New Insights](gc4nc_a_benchmark_framework_for_graph_condensation_on_node_classification_with_n.md)
 
 <!-- RELATED:END -->

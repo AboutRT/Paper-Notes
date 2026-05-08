@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.14715](https://arxiv.org/abs/2404.14715)  
-**代码**: https://hanghuacs.github.io/finematch/  
-**领域**: LLM/NLP  
+**代码**: [https://hanghuacs.github.io/finematch/](https://hanghuacs.github.io/finematch/)  
+**领域**: 图像生成  
 **关键词**: 视觉语言模型, 组合性评估, 图文不匹配检测, 细粒度匹配, 文生图幻觉校正
 
 ## 一句话总结
@@ -136,7 +136,7 @@ $$\mathcal{L} = -\sum_{\mathcal{D}} \sum_{t=1}^{M} \log p(P_t | [C_i : I_i], P_{
 - [\[ECCV 2024\] Memory-Efficient Fine-Tuning for Quantized Diffusion Model](memory-efficient_fine-tuning_for_quantized_diffusion_model.md)
 - [\[ECCV 2024\] LCM-Lookahead for Encoder-based Text-to-Image Personalization](lcm-lookahead_for_encoder-based_text-to-image_personalization.md)
 - [\[ECCV 2024\] Latent Guard: a Safety Framework for Text-to-Image Generation](latent_guard_a_safety_framework_for_text-to-image_generation.md)
+- [\[ECCV 2024\] Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](powerful_and_flexible_personalized_text-to-image_generation_via_reinforcement_le.md)
 - [\[ECCV 2024\] LivePhoto: Real Image Animation with Text-guided Motion Control](livephoto_real_image_animation_with_text-guided_motion_control.md)
-- [\[ECCV 2024\] Removing Distributional Discrepancies in Captions Improves Image-Text Alignment](removing_distributional_discrepancies_in_captions_improves_image-text_alignment.md)
 
 <!-- RELATED:END -->

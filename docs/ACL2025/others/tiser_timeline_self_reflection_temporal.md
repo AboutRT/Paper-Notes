@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Learning to Reason Over Time: Timeline Self-Reflection for Temporal Reasoning
 description: >-
-  [ACL 2025][时间推理] 提出 TISER 框架，通过"推理→时间线构建→自反思→答案生成"四阶段管道实现LLM时间推理的test-time scaling，配合合成推理轨迹数据微调，让 7B 开源模型在多个时间推理基准上超越 GPT-4，在TGQA等任务上达到 SOTA。
+  [ACL 2025][其他] 提出 TISER 框架，通过"推理→时间线构建→自反思→答案生成"四阶段管道实现LLM时间推理的test-time scaling，配合合成推理轨迹数据微调，让 7B 开源模型在多个时间推理基准上超越 GPT-4，在TGQA等任务上达到 SOTA。
 tags:
   - ACL 2025
-  - 时间推理
+  - 其他
   - 自反思
   - 时间线构建
   - Test-Time Scaling
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.05258](https://arxiv.org/abs/2504.05258)  
 **代码**: [https://github.com/amazon-science/TISER](https://github.com/amazon-science/TISER)  
-**领域**: LLM推理  
+**领域**: 其他  
 **关键词**: 时间推理, 自反思, 时间线构建, Test-Time Scaling, 合成数据  
 
 ## 一句话总结
@@ -132,7 +132,7 @@ tags:
 - [\[ACL 2025\] Temporal Reasoning for Timeline Summarisation in Social Media](temporal_reasoning_for_timeline_summarisation_in_social_media.md)
 - [\[ACL 2025\] Learning to Reason from Feedback at Test-Time](learning_to_reason_from_feedback_at_test-time.md)
 - [\[ACL 2025\] Meta-Reflection: A Feedback-Free Reflection Learning Framework](meta-reflection_a_feedback-free_reflection_learning_framework.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
 - [\[ACL 2025\] Improve Rule Retrieval and Reasoning with Self-Induction and Relevance ReEstimate](improve_rule_retrieval_and_reasoning_with_self-induction_and_relevance_reestimat.md)
+- [\[ACL 2025\] Micro-Act: Mitigate Knowledge Conflict in QA via Actionable Self-Reasoning](micro_act_knowledge_conflict_reasoning.md)
 
 <!-- RELATED:END -->

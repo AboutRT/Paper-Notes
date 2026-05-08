@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13362](https://arxiv.org/abs/2407.13362)  
-**代码**: [GitHub](https://github.com/Wang-pengfei/GGSD) (有)  
+**代码**: [GitHub](https://github.com/Wang-pengfei/GGSD)  
 **领域**: 3D视觉  
 **关键词**: 开放词汇3D场景理解, 自蒸馏, 几何先验, 知识蒸馏, 超点  
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.06012](https://arxiv.org/abs/2503.06012)  
-**代码**: https://hoi-tg.github.io/ (有)  
+**代码**: [https://hoi-tg.github.io/](https://hoi-tg.github.io/)  
 **领域**: 3D视觉  
 **关键词**: 人物交互重建, Transformer, 图卷积, 隐式交互建模, 网格重建
 

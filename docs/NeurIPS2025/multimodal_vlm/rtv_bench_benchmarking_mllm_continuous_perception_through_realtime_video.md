@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 多模态
-  - 实时视频理解
+  - 多模态VLM
   - 多模态大模型评测
   - 连续分析
   - 多时间戳问答
@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.02064](https://arxiv.org/abs/2505.02064)  
-**代码**: https://ljungang.github.io/RTV-Bench  
-**领域**: 视频理解  
+**代码**: [https://ljungang.github.io/RTV-Bench](https://ljungang.github.io/RTV-Bench)  
+**领域**: 多模态VLM  
 **关键词**: 实时视频理解, 多模态大模型评测, 连续分析, 多时间戳问答, 视频基准
 
 ## 一句话总结
@@ -114,10 +114,10 @@ RTV-Bench 由552个多样化视频（总时长167.2小时，平均18.2分钟/视
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] GEM: Empowering MLLM for Grounded ECG Understanding with Time Series and Images](gem_empowering_mllm_for_grounded_ecg_understanding_with_time_series_and_images.md)
 - [\[NeurIPS 2025\] Video-R1: Reinforcing Video Reasoning in MLLMs](video-r1_reinforcing_video_reasoning_in_mllms.md)
 - [\[NeurIPS 2025\] DynamicVL: Benchmarking MLLMs for Dynamic City Understanding](dynamicvl_benchmarking_multimodal_large_language_models_for_dynamic_city_underst.md)
 - [\[NeurIPS 2025\] Struct2D: A Perception-Guided Framework for Spatial Reasoning in MLLMs](struct2d_a_perception-guided_framework_for_spatial_reasoning_in_mllms.md)
 - [\[NeurIPS 2025\] SSR: Enhancing Depth Perception in VLMs via Rationale-Guided Spatial Reasoning](ssr_enhancing_depth_perception_in_vision-language_models_via_rationale-guided_sp.md)
+- [\[NeurIPS 2025\] MMPerspective: Do MLLMs Understand Perspective? A Comprehensive Benchmark for Perspective Perception, Reasoning, and Robustness](mmperspective_do_mllms_understand_perspective_a_comprehensive_benchmark_for_pers.md)
 
 <!-- RELATED:END -->

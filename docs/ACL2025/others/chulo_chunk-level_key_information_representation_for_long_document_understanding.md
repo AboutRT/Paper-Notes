@@ -9,7 +9,7 @@ tags:
   - 分块表示
   - 无监督关键词抽取
   - 文档分类
-  - 命名实体识别
+  - 其他
 ---
 
 # ChuLo: Chunk-Level Key Information Representation for Long Document Understanding
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2410.11119](https://arxiv.org/abs/2410.11119)  
 **代码**: [adlnlp/Chulo](https://github.com/adlnlp/Chulo)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: 长文档理解, 分块表示, 无监督关键词抽取, 文档分类, 命名实体识别
 
 ## 一句话总结
@@ -248,7 +248,7 @@ Token classification 数据集包括 GUM 和 CoNLL-2012 文档级 NER。
 - [\[ACL 2025\] Meaning Beyond Truth Conditions: Evaluating Discourse Level Understanding via Anaphora Accessibility](meaning_beyond_truth_conditions_evaluating_discourse_level_understanding_via_ana.md)
 - [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
 - [\[ACL 2025\] Rank, Chunk, and Expand: Lineage-Oriented Reasoning for Taxonomy Expansion](rank_chunk_and_expand_lineage-oriented_reasoning_for_taxonomy_expansion.md)
-- [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
-- [\[ACL 2025\] MDCure: A Scalable Pipeline for Multi-Document Instruction-Following](mdcure_a_scalable_pipeline_for_multi-document_instruction-following.md)
+- [\[ACL 2025\] ProxAnn: Use-Oriented Evaluations of Topic Models and Document Clustering](proxann_topic_model_eval.md)
+- [\[ACL 2025\] Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries](dpp_diverse_multidoc_summary.md)
 
 <!-- RELATED:END -->

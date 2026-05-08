@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR2026
   - dense retrieval
-  - 自监督学习
+  - 信息检索
   - language modeling
   - 注意力机制
   - retriever
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2506.16552](https://arxiv.org/abs/2506.16552)  
 **代码**: 待确认  
-**领域**: self_supervised  
+**领域**: 信息检索  
 **关键词**: dense retrieval, self-supervised learning, language modeling, in-batch attention, retriever
 
 ## 一句话总结
@@ -123,9 +123,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](../../AAAI2026/information_retrieval/himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)
-- [\[CVPR 2026\] NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval](../../CVPR2026/information_retrieval/nanovdr_distilling_a_2b_vision-language_retriever_into_a_70m_text-only_encoder_f.md)
-- [\[ECCV 2024\] ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling](../../ECCV2024/information_retrieval/artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md)
+- [\[ECCV 2024\] ArtVLM: Attribute Recognition Through Vision-Based Prefix Language Modeling](../../ECCV2024/information_retrieval/artvlm_attribute_recognition_through_visionbased_prefix_lang.md)
 - [\[ACL 2025\] FlashBack: Efficient Retrieval-Augmented Language Modeling for Fast Inference](../../ACL2025/information_retrieval/flashbackefficient_retrieval-augmented_language_modeling_for_long_context_infere.md)
-- [\[AAAI 2026\] RRRA: Resampling and Reranking through a Retriever Adapter](../../AAAI2026/information_retrieval/rrra_resampling_and_reranking_through_a_retriever_adapter.md)
+- [\[CVPR 2026\] NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval](../../CVPR2026/information_retrieval/nanovdr_distilling_a_2b_visionlanguage_retriever_i.md)
+- [\[NeurIPS 2025\] Scaling Language-Centric Omnimodal Representation Learning](../../NeurIPS2025/information_retrieval/scaling_language-centric_omnimodal_representation_learning.md)
 
 <!-- RELATED:END -->

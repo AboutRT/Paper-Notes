@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Hallucination Begins Where Saliency Drops
 description: >-
-  [ICLR 2026][幻觉缓解] 提出 LVLMs-Saliency 梯度感知诊断框架来量化每个输出 token 的视觉锚定强度，发现"当先前输出 token 对下一个 token 预测的显著性降低时，幻觉就会产生"的关键规律，并基于此设计了 SGRS（显著性引导的拒绝采样）+ LocoRE（局部一致性增强）双机制推理时框架，在多个 LVLM 上显著降低幻觉率。
+  [ICLR 2026][可解释性] 提出 LVLMs-Saliency 梯度感知诊断框架来量化每个输出 token 的视觉锚定强度，发现"当先前输出 token 对下一个 token 预测的显著性降低时，幻觉就会产生"的关键规律，并基于此设计了 SGRS（显著性引导的拒绝采样）+ LocoRE（局部一致性增强）双机制推理时框架，在多个 LVLM 上显著降低幻觉率。
 tags:
   - ICLR 2026
-  - 幻觉缓解
+  - 可解释性
   - 大视觉语言模型
   - 显著性分析
   - 注意力机制
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.20279](https://arxiv.org/abs/2601.20279)  
 **代码**: [https://github.com/zhangbaijin/LVLMs-Saliency](https://github.com/zhangbaijin/LVLMs-Saliency)  
-**领域**: 多模态视觉语言模型  
+**领域**: 可解释性  
 **关键词**: 幻觉缓解, 大视觉语言模型, 显著性分析, 注意力机制, 推理时干预
 
 ## 一句话总结
@@ -42,19 +42,19 @@ tags:
 
 1. **LVLMs-Saliency 诊断框架**: 对于模型 $\mathcal{M}$ 在每一层 $l$、每个注意力头 $h$ 的注意力矩阵 $\mathbf{A}^{(l,h)}$，计算显著性矩阵：
 
-   $$\mathbf{S}^{(l,h)} = \text{tril}(|\mathbf{A}^{(l,h)} \odot \nabla \mathbf{A}^{(l,h)}|)$$
+    $\mathbf{S}^{(l,h)} = \text{tril}(|\mathbf{A}^{(l,h)} \odot \nabla \mathbf{A}^{(l,h)}|)$
 
    层级归一化显著性通过对所有头取平均再做 $\ell_2$ 归一化得到：$\bar{\mathbf{S}}^{(l)} = \frac{\sum_h \mathbf{S}^{(l,h)}}{\|\sum_h \mathbf{S}^{(l,h)}\|_2}$。核心发现是：**正确 token 的显著性图呈现对近期 token 的强依赖（随距离衰减），而幻觉 token 的显著性全面崩溃**。跨 500 样本的统计分析以及跨三个模型（LLaVA-1.5、Qwen2-VL、InternVL）的验证都支持这一规律。
 
 2. **Saliency-Guided Rejection Sampling (SGRS)**: 在解码位置 $P$，模型产生 logits 后，先通过 top-$K$ 采样得到候选集 $\mathcal{C}^{(P)}$。对每个候选 $c_i$，计算其幻觉显著性：
 
-   $$\mathcal{S}(c_i) = \frac{1}{|\mathcal{L}_{\text{target}}| \cdot |\mathcal{J}|} \sum_{l \in \mathcal{L}_{\text{target}}} \sum_{j \in \mathcal{J}} \bar{\mathbf{S}}_{P,j}^{(l)}$$
+    $\mathcal{S}(c_i) = \frac{1}{|\mathcal{L}_{\text{target}}| \cdot |\mathcal{J}|} \sum_{l \in \mathcal{L}_{\text{target}}} \sum_{j \in \mathcal{J}} \bar{\mathbf{S}}_{P,j}^{(l)}$
 
    候选被接受仅当 $\mathcal{S}(c_i) \geq \tau^{(P)}$，其中自适应阈值基于最近 $W$ 个输出 token 的历史平均显著性计算：$\tau^{(P)} = \alpha \cdot \frac{1}{|\mathcal{H}|}\sum_{j \in \mathcal{H}} \mathcal{S}(x_j)$，$\alpha \in (0,1)$ 控制灵敏度。最多重采样 $R$ 次，若所有候选都被拒绝则选显著性最高者。
 
 3. **Local Coherence Reinforcement (LocoRE)**: 轻量级即插即用模块，在每个解码步对注意力权重进行修改。对位置 $P+1$ 的预测，增强其对最近 $w_s$ 个输出 token 的注意力：
 
-   $$\gamma_j^{(P)} = 1 + \beta \cdot \mathbb{I}((P - j) \leq w_s)$$
+    $\gamma_j^{(P)} = 1 + \beta \cdot \mathbb{I}((P - j) \leq w_s)$
 
    其中 $\beta \geq 0$ 是增强强度。这直接放大近期上下文对当前预测的影响，对抗显著性衰减导致的"遗忘"行为。LocoRE 纯粹在注意力结构上操作——无需梯度计算或模型参数修改，延迟增加 < 2%。
 
@@ -144,7 +144,7 @@ $\alpha$（SGRS）和 $\beta$（LocoRE）的超参数消融（LLaVA-1.5-7B）：
 - [\[ACL 2026\] Reasoning Fails Where Step Flow Breaks](../../ACL2026/interpretability/reasoning_fails_where_step_flow_breaks.md)
 - [\[CVPR 2026\] Reallocating Attention Across Layers to Reduce Multimodal Hallucination](../../CVPR2026/interpretability/reallocating_attention_across_layers_to_reduce_multimodal_hallucination.md)
 - [\[NeurIPS 2025\] H-SPLID: HSIC-based Saliency Preserving Latent Information Decomposition](../../NeurIPS2025/interpretability/h-splid_hsic-based_saliency_preserving_latent_information_decomposition.md)
-- [\[CVPR 2026\] Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation](../../CVPR2026/interpretability/where_mllms_attend_and_what_they_rely_on_explaining_autoregressive_token_generat.md)
+- [\[ACL 2026\] The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination](../../ACL2026/interpretability/the_reasoning_trap_how_enhancing_llm_reasoning_amplifies_tool_hallucination.md)
 - [\[CVPR 2025\] KVQ: Boosting Video Quality Assessment via Saliency-Guided Local Perception](../../CVPR2025/interpretability/kvq_boosting_video_quality_assessment_via_saliency-guided_local_perception.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.07876](https://arxiv.org/abs/2511.07876)  
 **代码**: [https://github.com/neuron-insight-lab/LoopLLM](https://github.com/neuron-insight-lab/LoopLLM)  
-**领域**: LLM安全 / 能耗延迟攻击  
+**领域**: LLM/NLP  
 **关键词**: 能耗延迟攻击, 重复生成, 对抗后缀, 低熵循环, 跨模型迁移
 
 ## 一句话总结
@@ -142,9 +142,9 @@ LoopLLM由两个核心组件构成：(1) 重复诱导提示优化——构造包
 ## 相关论文
 
 - [\[NeurIPS 2025\] Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models](../../NeurIPS2025/llm_nlp/nemotron-flash_towards_latency-optimal_hybrid_small_language_models.md)
-- [\[ACL 2025\] Red-Teaming LLM Multi-Agent Systems via Communication Attacks](../../ACL2025/llm_nlp/red-teaming_llm_multi-agent_systems_via_communication_attacks.md)
+- [\[ICML 2025\] Defending LVLMs Against Vision Attacks through Partial-Perception Supervision](../../ICML2025/llm_nlp/defending_lvlms_against_vision_attacks_through_partial-perception_supervision.md)
 - [\[AAAI 2026\] VSPO: Validating Semantic Pitfalls in Ontology via LLM-Based CQ Generation](vspo_validating_semantic_pitfalls_in_ontology_via_llm-based_cq_generation.md)
 - [\[ACL 2025\] Length Controlled Generation for Black-box LLMs](../../ACL2025/llm_nlp/length_controlled_generation_for_black-box_llms.md)
-- [\[ACL 2025\] ATRIE: Automating Legal Interpretation with LLMs: Retrieval, Generation, and Evaluation](../../ACL2025/llm_nlp/atrie_legal_interpretation.md)
+- [\[AAAI 2026\] C3TG: Conflict-aware, Composite, and Collaborative Controlled Text Generation](c3tg_conflict-aware_composite_and_collaborative_controlled_text_generation.md)
 
 <!-- RELATED:END -->

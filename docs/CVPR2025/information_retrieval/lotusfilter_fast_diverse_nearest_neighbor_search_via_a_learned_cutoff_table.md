@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LotusFilter: Fast Diverse Nearest Neighbor Search via a Learned Cutoff Table
 description: >-
-  [CVPR 2025][文本生成][多样化最近邻搜索] 提出LotusFilter，通过离线预计算每个向量的邻近关系构建截断表(cutoff table)，在线阶段用贪心集合删除实现多样化过滤，将传统 $O(DS^2)$ 的多样化搜索降至 $O(T+S+KL)$，过滤仅需0.02ms/query，内存仅为传统方法的1/40。
+  [CVPR 2025][信息检索][多样化最近邻搜索] 提出LotusFilter，通过离线预计算每个向量的邻近关系构建截断表(cutoff table)，在线阶段用贪心集合删除实现多样化过滤，将传统 $O(DS^2)$ 的多样化搜索降至 $O(T+S+KL)$，过滤仅需0.02ms/query，内存仅为传统方法的1/40。
 tags:
   - CVPR 2025
-  - 文本生成
+  - 信息检索
   - 多样化最近邻搜索
   - 截断表
   - OrderedSet数据结构
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.04790](https://arxiv.org/abs/2506.04790)  
-**代码**: https://github.com/matsui528/lotf (有)  
+**代码**: [https://github.com/matsui528/lotf](https://github.com/matsui528/lotf)  
 **领域**: 向量检索 / 多样化搜索  
 **关键词**: 多样化最近邻搜索、截断表、OrderedSet数据结构、超参数学习、RAG检索去重
 
@@ -143,7 +143,7 @@ LotusFilter分为离线预处理和在线过滤两个阶段。
 - [\[CVPR 2025\] GENIUS: A Generative Framework for Universal Multimodal Search](genius_a_generative_framework_for_universal_multimodal_search.md)
 - [\[ACL 2025\] FlashBack: Efficient Retrieval-Augmented Language Modeling for Fast Inference](../../ACL2025/information_retrieval/flashbackefficient_retrieval-augmented_language_modeling_for_long_context_infere.md)
 - [\[ACL 2025\] Drama: Diverse Augmentation from Large Language Models to Smaller Dense Retrievers](../../ACL2025/information_retrieval/drama_diverse_augmentation_from_large_language_models_to_smaller_dense_retriever.md)
-- [\[AAAI 2026\] Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval](../../AAAI2026/information_retrieval/neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval.md)
 - [\[ACL 2025\] HELIOS: Harmonizing Early Fusion, Late Fusion, and LLM Reasoning for Multi-Granular Table-Text Retrieval](../../ACL2025/information_retrieval/helios_harmonizing_early_fusion_late_fusion_and_llm_reasoning_for_multi-granular.md)
+- [\[AAAI 2026\] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](../../AAAI2026/information_retrieval/n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)
 
 <!-- RELATED:END -->

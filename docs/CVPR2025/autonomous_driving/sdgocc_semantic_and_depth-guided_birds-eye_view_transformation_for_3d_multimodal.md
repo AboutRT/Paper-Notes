@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2507.17083](https://arxiv.org/abs/2507.17083)  
-**代码**: https://github.com/DzpLab/SDGOCC  
+**代码**: [https://github.com/DzpLab/SDGOCC](https://github.com/DzpLab/SDGOCC)  
 **领域**: 自动驾驶 / 3D占用预测  
 **关键词**: 3D占用预测, 多模态融合, BEV变换, 知识蒸馏, LiDAR-Camera融合
 

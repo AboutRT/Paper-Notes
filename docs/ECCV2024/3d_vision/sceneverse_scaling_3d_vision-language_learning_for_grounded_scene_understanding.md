@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2401.09340](https://arxiv.org/abs/2401.09340)  
-**代码**: https://scene-verse.github.io  
+**代码**: [https://scene-verse.github.io](https://scene-verse.github.io)  
 **领域**: 3D视觉 / 视觉-语言  
 **关键词**: 3D vision-language, data scaling, grounded scene understanding, contrastive learning, pre-training
 
@@ -45,35 +45,35 @@ SceneVerse 由两部分组成：(1) 数据集构建——整合 7 个来源的 6
 ### 关键设计
 
 #### 1. **场景整合与标注 (Scene Curation & Annotation)**
-   - 功能：统一来自 ScanNet、ARKitScenes、HM3D、3RScan、MultiScan 等真实场景和 Structured3D、ProcTHOR 等合成场景的数据
-   - 核心思路：对每个场景进行房间分割、点云子采样、轴对齐和归一化。每个扫描表示为 $\mathrm{P} \in \mathbb{R}^{N \times 8}$（3D 坐标 + RGB + instance id + 语义标签）。共收集 68,406 个场景。
-   - 人工标注 96,863 条 referring expression（AMT 标注 + 双人验证），重标注率仅 4.8%
-   - 设计动机：充分利用已有数据源，避免重复采集
+    - 功能：统一来自 ScanNet、ARKitScenes、HM3D、3RScan、MultiScan 等真实场景和 Structured3D、ProcTHOR 等合成场景的数据
+    - 核心思路：对每个场景进行房间分割、点云子采样、轴对齐和归一化。每个扫描表示为 $\mathrm{P} \in \mathbb{R}^{N \times 8}$（3D 坐标 + RGB + instance id + 语义标签）。共收集 68,406 个场景。
+    - 人工标注 96,863 条 referring expression（AMT 标注 + 双人验证），重标注率仅 4.8%
+    - 设计动机：充分利用已有数据源，避免重复采集
 
 #### 2. **基于场景图的语言生成管线 (3D Scene Graph + LLM Generation)**
-   - 功能：自动生成三种粒度的语言描述——物体描述（object caption）、物体引用（object referral）、场景描述（scene caption）
-   - 核心思路：
-     - 构建层次化场景图 $\mathcal{G} = (\mathcal{V}, \mathcal{E})$，每个节点 $v$ 由质心 $\boldsymbol{p}_i \in \mathbb{R}^3$ 和边界框大小 $\boldsymbol{b}_i \in \mathbb{R}^3$ 参数化，边 $\mathcal{E}$ 表示空间关系（垂直/水平邻近、多物体关系）
-     - Object Caption：通过点云渲染定位对象在多视角图像中的出现 → BLIP2 生成初始描述 → CLIP 筛选 top-10 → LLM 精炼总结
-     - Object Referral：从场景图提取空间关系三元组 $(v_i, v_j, e_{ij})$ → 模板生成 (target-object, spatial-relation, anchor-objects) → LLM 重述增加自然度
-     - Scene Caption：随机采样场景图子集 + 物体计数 + 房间类型 → 提示 LLM 生成全局描述
-   - 设计动机：模板保证覆盖度，LLM 重述增加多样性和自然度；人工验证 96.93% 通过率（高于 ReferIt3D 的 86.1%）
+    - 功能：自动生成三种粒度的语言描述——物体描述（object caption）、物体引用（object referral）、场景描述（scene caption）
+    - 核心思路：
+      - 构建层次化场景图 $\mathcal{G} = (\mathcal{V}, \mathcal{E})$，每个节点 $v$ 由质心 $\boldsymbol{p}_i \in \mathbb{R}^3$ 和边界框大小 $\boldsymbol{b}_i \in \mathbb{R}^3$ 参数化，边 $\mathcal{E}$ 表示空间关系（垂直/水平邻近、多物体关系）
+      - Object Caption：通过点云渲染定位对象在多视角图像中的出现 → BLIP2 生成初始描述 → CLIP 筛选 top-10 → LLM 精炼总结
+      - Object Referral：从场景图提取空间关系三元组 $(v_i, v_j, e_{ij})$ → 模板生成 (target-object, spatial-relation, anchor-objects) → LLM 重述增加自然度
+      - Scene Caption：随机采样场景图子集 + 物体计数 + 房间类型 → 提示 LLM 生成全局描述
+    - 设计动机：模板保证覆盖度，LLM 重述增加多样性和自然度；人工验证 96.93% 通过率（高于 ReferIt3D 的 86.1%）
 
 #### 3. **GPS：多层级对比预训练 (Grounded Pre-training for Scenes)**
-   - 功能：在三个粒度上同时对齐 3D 场景和文本
-   - **物体级对齐 $\mathcal{L}_{\text{obj}}$**：
-     - 点云编码器提取物体特征 $\boldsymbol{f}^O_i$，冻结语言模型编码物体描述得到 $\boldsymbol{f}^T_i$
-     - 双向对比损失：$\mathcal{L}_{\text{obj}} = -\frac{1}{2}\sum_{(p,q)} \left(\log\frac{\exp(D^{\text{obj}}(p,q))}{\sum_r \exp(D^{\text{obj}}(p,r))} + \log\frac{\exp(D^{\text{obj}}(p,q))}{\sum_r \exp(D^{\text{obj}}(r,q))}\right)$
-     - 其中 $D^{\text{obj}}(p,q) = \boldsymbol{f}^O_p \boldsymbol{f}^T_q / \tau$，$\tau$ 为可学习温度参数
-   - **场景级对齐 $\mathcal{L}_{\text{scene}}$**：
-     - 空间 Transformer 编码物体特征 + 位置特征得到 $\boldsymbol{f}^S_i = \text{SpatialAttn}(\{\boldsymbol{f}^O_i\}, \{\boldsymbol{l}_i\})$
-     - 投影 + max-pooling 得到场景特征 $\boldsymbol{g}^S$，与场景描述特征 $\boldsymbol{g}^T$ 做 inter-scene 对比
-   - **引用-物体级对齐 $\mathcal{L}_{\text{ref}}$**：
-     - 自注意力推理 Transformer 接收场景-物体特征和引用文本
-     - **intra-scene 对比**：$\mathcal{L}_{\text{ref}} = -\log\frac{\exp(\bar{\boldsymbol{h}}^S \boldsymbol{h}^T / \tau)}{\sum_p \exp(\boldsymbol{h}^S_p \boldsymbol{h}^T / \tau)}$，正对在场景内选取，p 遍历同一场景的所有物体
-     - 设计动机：模仿 2D-VL 中 intra-image 和 inter-image 对比的成功经验
-   - 额外使用 MLM 损失 $\mathcal{L}_{\text{MLM}}$ 微调语言编码器
-   - 总损失：$\mathcal{L} = \mathcal{L}_{\text{obj}} + \mathcal{L}_{\text{scene}} + \mathcal{L}_{\text{ref}} + \mathcal{L}_{\text{MLM}}$
+    - 功能：在三个粒度上同时对齐 3D 场景和文本
+    - **物体级对齐 $\mathcal{L}_{\text{obj}}$**：
+      - 点云编码器提取物体特征 $\boldsymbol{f}^O_i$，冻结语言模型编码物体描述得到 $\boldsymbol{f}^T_i$
+      - 双向对比损失：$\mathcal{L}_{\text{obj}} = -\frac{1}{2}\sum_{(p,q)} \left(\log\frac{\exp(D^{\text{obj}}(p,q))}{\sum_r \exp(D^{\text{obj}}(p,r))} + \log\frac{\exp(D^{\text{obj}}(p,q))}{\sum_r \exp(D^{\text{obj}}(r,q))}\right)$
+      - 其中 $D^{\text{obj}}(p,q) = \boldsymbol{f}^O_p \boldsymbol{f}^T_q / \tau$，$\tau$ 为可学习温度参数
+    - **场景级对齐 $\mathcal{L}_{\text{scene}}$**：
+      - 空间 Transformer 编码物体特征 + 位置特征得到 $\boldsymbol{f}^S_i = \text{SpatialAttn}(\{\boldsymbol{f}^O_i\}, \{\boldsymbol{l}_i\})$
+      - 投影 + max-pooling 得到场景特征 $\boldsymbol{g}^S$，与场景描述特征 $\boldsymbol{g}^T$ 做 inter-scene 对比
+    - **引用-物体级对齐 $\mathcal{L}_{\text{ref}}$**：
+      - 自注意力推理 Transformer 接收场景-物体特征和引用文本
+      - **intra-scene 对比**：$\mathcal{L}_{\text{ref}} = -\log\frac{\exp(\bar{\boldsymbol{h}}^S \boldsymbol{h}^T / \tau)}{\sum_p \exp(\boldsymbol{h}^S_p \boldsymbol{h}^T / \tau)}$，正对在场景内选取，p 遍历同一场景的所有物体
+      - 设计动机：模仿 2D-VL 中 intra-image 和 inter-image 对比的成功经验
+    - 额外使用 MLM 损失 $\mathcal{L}_{\text{MLM}}$ 微调语言编码器
+    - 总损失：$\mathcal{L} = \mathcal{L}_{\text{obj}} + \mathcal{L}_{\text{scene}} + \mathcal{L}_{\text{ref}} + \mathcal{L}_{\text{MLM}}$
 
 ### 训练策略
 - 两阶段训练：先用物体级对齐训练点云编码器获得好的特征初始化，再联合训练场景级和引用级目标
@@ -147,7 +147,7 @@ GPS 预训练后直接在 ScanRefer 上已超过所有方法（47.1），fine-tu
 
 - [\[ECCV 2024\] WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians](wast-3d_wasserstein-2_distance_for_scene-to-scene_stylization_on_3d_gaussians.md)
 - [\[ECCV 2024\] Zero-Shot Multi-Object Scene Completion](zero-shot_multi-object_scene_completion.md)
-- [\[ECCV 2024\] SceneGraphLoc: Cross-Modal Coarse Visual Localization on 3D Scene Graphs](scenegraphloc_cross-modal_coarse_visual_localization_on_3d_scene_graphs.md)
+- [\[ECCV 2024\] SceneGraphLoc: Cross-Modal Coarse Visual Localization on 3D Scene Graphs](scenegraphloc_crossmodal_coarse_visual_localization_on_3d_sc.md)
 - [\[ECCV 2024\] Learning to Generate Conditional Tri-Plane for 3D-Aware Expression Controllable Portrait Animation](learning_to_generate_conditional_tri-plane_for_3d-aware_expression_controllable_.md)
 - [\[ECCV 2024\] Vista3D: Unravel the 3D Darkside of a Single Image](vista3d_unravel_the_3d_darkside_of_a_single_image.md)
 

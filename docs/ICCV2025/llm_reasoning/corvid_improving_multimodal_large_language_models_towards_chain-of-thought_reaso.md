@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.07424](https://arxiv.org/abs/2507.07424)  
 **代码**: [项目主页](https://mm-vl.github.io/corvid)  
-**领域**: llm_reasoning  
+**领域**: LLM推理  
 **关键词**: 多模态大语言模型, 链式推理, 视觉编码器, 推理时扩展, CoT
 
 ## 一句话总结

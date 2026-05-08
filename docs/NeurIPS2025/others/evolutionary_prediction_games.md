@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Evolutionary Prediction Games
 description: >-
-  [NEURIPS2025][演化博弈论] 提出"演化预测博弈"框架，用演化博弈论分析预测算法与用户群体之间的反馈循环，揭示理想学习器导致竞争排斥（强者生存），而实际学习器（有限数据/代理损失/过参数化）反而能促成群体间的稳定共存与互利共生。
+  [NEURIPS2025][其他] 提出"演化预测博弈"框架，用演化博弈论分析预测算法与用户群体之间的反馈循环，揭示理想学习器导致竞争排斥（强者生存），而实际学习器（有限数据/代理损失/过参数化）反而能促成群体间的稳定共存与互利共生。
 tags:
   - NEURIPS2025
-  - 演化博弈论
+  - 其他
   - 预测算法
   - 用户反馈循环
   - 竞争排斥
@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2503.03401](https://arxiv.org/abs/2503.03401)  
 **代码**: 待确认  
-**领域**: others  
+**领域**: 其他  
 **关键词**: 演化博弈论, 预测算法, 用户反馈循环, 竞争排斥, 共存机制, 公平性  
 
 ## 一句话总结
@@ -146,9 +146,9 @@ $$\mathcal{A}'(\bm{p}) = \mathcal{A}^{\text{opt}}(2\bm{p}^* - \bm{p})$$
 ## 相关论文
 
 - [\[NeurIPS 2025\] Efficient Kernelized Learning in Polyhedral Games Beyond Full-Information: From Colonel Blotto to Congestion Games](efficient_kernelized_learning_in_polyhedral_games_beyond_full-information_from_c.md)
-- [\[CVPR 2025\] EVOS: Efficient Implicit Neural Training via EVOlutionary Selector](../../CVPR2025/others/evos_efficient_implicit_neural_training_via_evolutionary_selector.md)
-- [\[NeurIPS 2025\] Optimism Without Regularization: Constant Regret in Zero-Sum Games](optimism_without_regularization_constant_regret_in_zero-sum_games.md)
+- [\[NeurIPS 2025\] Evolutionary Learning in Spatial Agent-Based Models for Physical Climate Risk Assessment](evolutionary_learning_in_spatial_agent-based_models_for_physical_climate_risk_as.md)
 - [\[ACL 2025\] Cautious Next Token Prediction](../../ACL2025/others/cautious_next_token_prediction.md)
+- [\[NeurIPS 2025\] Optimism Without Regularization: Constant Regret in Zero-Sum Games](optimism_without_regularization_constant_regret_in_zero-sum_games.md)
 - [\[NeurIPS 2025\] FlashMD: Long-Stride, Universal Prediction of Molecular Dynamics](flashmd_long-stride_universal_prediction_of_molecular_dynamics.md)
 
 <!-- RELATED:END -->

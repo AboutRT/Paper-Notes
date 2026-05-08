@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2509.23649](https://arxiv.org/abs/2509.23649)  
 **代码**: [GitHub](https://github.com/CQU-MM-Intelligent-Lab/MHL)  
-**领域**: 推荐系统  
+**领域**: 图像生成  
 **关键词**: 生成式推荐, 掩码历史学习, 信息熵引导, 课程学习, 序列推荐
 
 ## 一句话总结

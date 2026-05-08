@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.12218](https://arxiv.org/abs/2501.12218)  
-**代码**: https://cvlab-kaist.github.io/Chrono/ (有)  
-**领域**: 视频理解  
+**代码**: [https://cvlab-kaist.github.io/Chrono/](https://cvlab-kaist.github.io/Chrono/)  
+**领域**: 视频生成  
 **关键词**: 点跟踪, 时序感知特征, DINOv2, 特征骨干网络, 时序适配器
 
 ## 一句话总结

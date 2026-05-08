@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18364](https://arxiv.org/abs/2503.18364)  
-**代码**: https://github.com/xiechenxi99/MaSS13K  
+**代码**: [https://github.com/xiechenxi99/MaSS13K](https://github.com/xiechenxi99/MaSS13K)  
 **领域**: 语义分割  
 **关键词**: 高分辨率分割, matting级标注, 语义分割基准, 边界质量, 像素解码器
 
@@ -128,7 +128,7 @@ MaSSFormer 基于 Mask2Former 架构，由像素编码器、像素解码器和 T
 - [\[CVPR 2025\] MatAnyone: Stable Video Matting with Consistent Memory Propagation](matanyone_stable_video_matting_with_consistent_memory_propagation.md)
 - [\[CVPR 2025\] RipVIS: Rip Currents Video Instance Segmentation Benchmark for Beach Monitoring](ripvis_rip_currents_video_instance_segmentation_benchmark_for_beach_monitoring_a.md)
 - [\[CVPR 2025\] The Devil is in Low-Level Features for Cross-Domain Few-Shot Segmentation](the_devil_is_in_low-level_features_for_cross-domain_few-shot_segmentation.md)
-- [\[ACL 2025\] Pixel-Level Reasoning Segmentation via Multi-turn Conversations](../../ACL2025/segmentation/pixel-level_reasoning_segmentation_via_multi-turn_conversations.md)
 - [\[ICCV 2025\] ZIM: Zero-Shot Image Matting for Anything](../../ICCV2025/segmentation/zim_zero-shot_image_matting_for_anything.md)
+- [\[ACL 2025\] Pixel-Level Reasoning Segmentation via Multi-turn Conversations](../../ACL2025/segmentation/pixel-level_reasoning_segmentation_via_multi-turn_conversations.md)
 
 <!-- RELATED:END -->

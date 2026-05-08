@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Correlated Errors in Large Language Models
 description: >-
-  [ICML 2025][LLM相关性] 本文通过对超过350个LLM的大规模实证分析，发现不同LLM之间存在高度相关的错误模式——在两个模型都出错时约60%的情况下会选择同一个错误答案，且越准确的模型相关性越高；进而研究了这种相关性对LLM-as-Judge评估和招聘市场的下游影响。
+  [ICML 2025][LLM评测] 本文通过对超过350个LLM的大规模实证分析，发现不同LLM之间存在高度相关的错误模式——在两个模型都出错时约60%的情况下会选择同一个错误答案，且越准确的模型相关性越高；进而研究了这种相关性对LLM-as-Judge评估和招聘市场的下游影响。
 tags:
   - ICML 2025
-  - LLM相关性
+  - LLM评测
   - 算法同质化
   - 错误一致性
   - LLM-as-Judge
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.07962](https://arxiv.org/abs/2506.07962)  
-**代码**: https://github.com/nikhgarg/llm_correlated_errors_public/ (有)  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/nikhgarg/llm_correlated_errors_public/](https://github.com/nikhgarg/llm_correlated_errors_public/)  
+**领域**: LLM评测  
 **关键词**: LLM相关性, 算法同质化, 错误一致性, LLM-as-Judge, 劳动力市场
 
 ## 一句话总结
@@ -129,10 +129,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICML 2025\] Position: Theory of Mind Benchmarks are Broken for Large Language Models](position_theory_of_mind_benchmarks_are_broken_for_large_language_models.md)
 - [\[ICML 2025\] G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration](g-sim_generative_simulations_with_large_language_models_and_gradient-free_calibr.md)
-- [\[ACL 2025\] CodeMEnv: Benchmarking Large Language Models on Code Migration](../../ACL2025/llm_evaluation/codemenv_benchmarking_large_language_models_on_code_migration.md)
+- [\[ICML 2025\] Fleet of Agents: Coordinated Problem Solving with Large Language Models](fleet_of_agents_coordinated_problem_solving_with_large_language_models.md)
+- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](../../NeurIPS2025/llm_evaluation/hyperbolic_fine-tuning_for_large_language_models.md)
 - [\[NeurIPS 2025\] Can Large Language Models Master Complex Card Games?](../../NeurIPS2025/llm_evaluation/can_large_language_models_master_complex_card_games.md)
-- [\[ACL 2025\] Batayan: A Filipino NLP Benchmark for Evaluating Large Language Models](../../ACL2025/llm_evaluation/batayan_a_filipino_nlp_benchmark_for_evaluating_large_language_models.md)
-- [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](../../ACL2025/llm_evaluation/ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.05091](https://arxiv.org/abs/2510.05091)  
 **代码**: [structvisuals.github.io](https://structvisuals.github.io)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: structured image generation, image editing, chain-of-thought reasoning, benchmark, diffusion transformer
 
 ## 一句话总结

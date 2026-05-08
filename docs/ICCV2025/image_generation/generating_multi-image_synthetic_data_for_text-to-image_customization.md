@@ -52,11 +52,11 @@ tags:
 
 1. **掩码共享注意力（MSA）用于一致对象生成**：在并行生成 $N$ 张图像时，修改 DiT 模型的注意力块，使每张图像的特征不仅关注自身，还关注其他图像中前景对象区域的特征。注意力操作为：
 
-   $$\text{MSA}(\{{\mathbf{q}}_i, {\mathbf{k}}_i, {\mathbf{v}}_i\}_{i=1}^N) = \left\{ \text{Softmax}\left(\frac{{\mathbf{q}}_i [{\mathbf{k}}_1 \cdots {\mathbf{k}}_N]^T}{\sqrt{d'}} + \mathbf{M}_i\right) [{\mathbf{v}}_1 \cdots {\mathbf{v}}_N] \right\}_{i=1}^N$$
+    $\text{MSA}(\{{\mathbf{q}}_i, {\mathbf{k}}_i, {\mathbf{v}}_i\}_{i=1}^N) = \left\{ \text{Softmax}\left(\frac{{\mathbf{q}}_i [{\mathbf{k}}_1 \cdots {\mathbf{k}}_N]^T}{\sqrt{d'}} + \mathbf{M}_i\right) [{\mathbf{v}}_1 \cdots {\mathbf{v}}_N] \right\}_{i=1}^N$
 
    掩码 $\mathbf{M}_i$ 确保每张图像只关注其他图像的对象前景区域并忽略背景，且文本 token 不跨图像交互。对于刚性物体，进一步利用 Objaverse 3D 资产的深度图指导和跨视图对应特征 warping：
 
-   $$\hat{f}_2(u,v) = \alpha f_1(u+\Delta u, v+\Delta v) + (1-\alpha) f_2(u,v)$$
+    $\hat{f}_2(u,v) = \alpha f_1(u+\Delta u, v+\Delta v) + (1-\alpha) f_2(u,v)$
 
    其中 $\alpha$ 是可见性二值标量。Warping 仅在早期扩散步骤中应用以避免伪影。
 
@@ -64,7 +64,7 @@ tags:
 
 3. **改进的推理引导归一化**：直接组合文本和图像 classifier-free guidance 在高图像引导下容易过曝。提出归一化方案：
 
-   $$\epsilon_\theta({\mathbf{x}}^t, \{{\mathbf{x}}_i\}, \varnothing) + \lambda_I \frac{\|g\|}{\|g_I\|} \cdot g_I + \lambda_{\mathbf{c}} \frac{\|g\|}{\|g_c\|} \cdot g_{\mathbf{c}}$$
+    $\epsilon_\theta({\mathbf{x}}^t, \{{\mathbf{x}}_i\}, \varnothing) + \lambda_I \frac{\|g\|}{\|g_I\|} \cdot g_I + \lambda_{\mathbf{c}} \frac{\|g\|}{\|g_c\|} \cdot g_{\mathbf{c}}$
 
    其中 $\|g\| = \min(\|g_I\|, \|g_{\mathbf{c}}\|)$。将两个引导向量的范数缩放到最小范数，仅通过 $\lambda_I$ 和 $\lambda_{\mathbf{c}}$ 控制相对强度，有效避免过曝同时保持高图像对齐度。
 
@@ -166,6 +166,6 @@ tags:
 - [\[CVPR 2025\] MCA-Ctrl: Multi-party Collaborative Attention Control for Image Customization](../../CVPR2025/image_generation/mca_ctrl_attention_control_customization.md)
 - [\[ICCV 2025\] Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning](holistic_unlearning_benchmark_a_multi-faceted_evaluation_for_text-to-image_diffu.md)
 - [\[NeurIPS 2025\] Fast Data Attribution for Text-to-Image Models](../../NeurIPS2025/image_generation/fast_data_attribution_for_text-to-image_models.md)
-- [\[ICCV 2025\] MMAIF: Multi-task and Multi-degradation All-in-One for Image Fusion with Language Guidance](mmaif_multi-task_and_multi-degradation_all-in-one_for_image_fusion_with_language.md)
+- [\[ICCV 2025\] ForgeLens: Data-Efficient Forgery Focus for Generalizable Forgery Image Detection](forgelens_data-efficient_forgery_focus_for_generalizable_forgery_image_detection.md)
 
 <!-- RELATED:END -->

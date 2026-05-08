@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2504.11840](https://arxiv.org/abs/2504.11840)  
-**代码**: https://github.com/Zhhuizhe/GT-SNT (有)  
+**代码**: [https://github.com/Zhhuizhe/GT-SNT](https://github.com/Zhhuizhe/GT-SNT)  
 **领域**: Graph Learning  
 **关键词**: 图Transformer, 脉冲神经网络, 节点分词, 线性复杂度, 大规模图
 

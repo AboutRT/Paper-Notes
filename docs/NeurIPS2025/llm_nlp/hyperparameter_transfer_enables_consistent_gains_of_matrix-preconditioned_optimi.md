@@ -21,7 +21,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2512.05620](https://arxiv.org/abs/2512.05620)  
 **代码**: 待确认  
-**领域**: LLM效率 / 优化  
+**领域**: LLM/NLP  
 **关键词**: optimizer scaling, μP, Shampoo, SOAP, Muon, hyperparameter transfer, matrix preconditioning
 
 ## 一句话总结
@@ -124,6 +124,6 @@ tags:
 - [\[ACL 2025\] ExpeTrans: LLMs Are Experiential Transfer Learners](../../ACL2025/llm_nlp/expetrans_llms_are_experiential_transfer_learners.md)
 - [\[ACL 2025\] Systematic Generalization in Language Models Scales with Information Entropy](../../ACL2025/llm_nlp/systematic_generalization_in_language_models_scales_with_information_entropy.md)
 - [\[ACL 2025\] OPTS: Bandit-Based Prompt Design Strategy Selection Improves Prompt Optimizers](../../ACL2025/llm_nlp/bandit-based_prompt_design_strategy_selection_improves_prompt_optimizers.md)
-- [\[ACL 2025\] Geometric Signatures of Compositionality Across a Language Model's Lifetime](../../ACL2025/llm_nlp/geometric_compositionality_lifetime.md)
+- [\[ICLR 2026\] Weight Decay may matter more than μP for Learning Rate Transfer in Practice](../../ICLR2026/llm_nlp/weight_decay_may_matter_more_than_mup_for_learning_rate_transfer_in_practice.md)
 
 <!-- RELATED:END -->

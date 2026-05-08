@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets and Benchmarks Track)][多模态][视觉语言模型] FlySearch 提出了一个基于 Unreal Engine 5 的 3D 户外真实感环境，评估 VLM 的探索能力，发现最先进的 VLM 在简单搜索任务上也无法可靠完成，且与人类的差距随任务难度增加而急剧扩大。
 tags:
-  - NeurIPS 2025 (Datasets and Benchmarks Track)
+  - 多模态VLM
   - 多模态
   - 视觉语言模型
   - 目标导航
@@ -169,9 +169,9 @@ FS-Anomaly-1 评测结果：
 ## 相关论文
 
 - [\[ACL 2025\] Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder](../../ACL2025/multimodal_vlm/exploring_how_generative_mllms_perceive_more.md)
+- [\[AAAI 2026\] Explore How to Inject Beneficial Noise in MLLMs](../../AAAI2026/multimodal_vlm/explore_how_to_inject_beneficial_noise_in_mllms.md)
 - [\[CVPR 2025\] Towards Understanding How Knowledge Evolves in Large Vision-Language Models](../../CVPR2025/multimodal_vlm/towards_understanding_how_knowledge_evolves_in_large_vision-language_models.md)
 - [\[NeurIPS 2025\] NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables](needleinatable_exploring_long-context_capability_of_large_language_models_toward.md)
-- [\[CVPR 2025\] How to Merge Your Multimodal Models Over Time?](../../CVPR2025/multimodal_vlm/how_to_merge_your_multimodal_models_over_time.md)
-- [\[CVPR 2025\] Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models](../../CVPR2025/multimodal_vlm/insight-v_exploring_long-chain_visual_reasoning_with_multimodal_large_language_m.md)
+- [\[NeurIPS 2025\] HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models](hope_hybrid_of_position_embedding_for_long_context_visionlan.md)
 
 <!-- RELATED:END -->

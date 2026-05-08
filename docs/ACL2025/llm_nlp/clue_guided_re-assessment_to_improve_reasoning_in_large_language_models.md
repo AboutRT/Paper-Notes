@@ -16,7 +16,7 @@ tags:
 # Clue Guided Re-Assessment to Improve Reasoning in Large Language Models
 
 **会议**: ACL 2025  
-**领域**: LLM推理  
+**领域**: LLM/NLP  
 **关键词**: 线索引导, 反思推理, 自我修正, 推理增强, 逐步验证
 
 ## 一句话总结
@@ -123,6 +123,6 @@ tags:
 - [\[ACL 2025\] Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up](reversal_of_thought_enhancing_large_language.md)
 - [\[ACL 2025\] GAMEBoT: Transparent Assessment of LLM Reasoning in Games](gamebot_transparent_assessment_of_llm_reasoning_in_games.md)
 - [\[ACL 2025\] Knockout LLM Assessment: Using Large Language Models for Evaluations through Iterative Pairwise Comparisons](knockout_llm_assessment_using_large_language_models_for_evaluations_through_iter.md)
-- [\[ACL 2025\] The Role of Deductive and Inductive Reasoning in Large Language Models](the_role_of_deductive_and_inductive_reasoning_in_large_language_models.md)
+- [\[ACL 2025\] Disentangling Memory and Reasoning Ability in Large Language Models](disentangle_memory_reasoning.md)
 
 <!-- RELATED:END -->

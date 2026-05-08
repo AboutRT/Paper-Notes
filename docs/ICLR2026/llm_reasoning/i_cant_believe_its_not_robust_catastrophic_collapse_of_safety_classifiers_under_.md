@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.01297](https://arxiv.org/abs/2603.01297)  
-**代码**: https://github.com/SubramanyamSahoo/Collapse-of-Safety-Classifiers-under-Embedding-Drift  
-**领域**: AI Safety  
+**代码**: [https://github.com/SubramanyamSahoo/Collapse-of-Safety-Classifiers-under-Embedding-Drift](https://github.com/SubramanyamSahoo/Collapse-of-Safety-Classifiers-under-Embedding-Drift)  
+**领域**: LLM推理  
 **关键词**: embedding drift, safety classifier, silent failure, RLHF alignment, toxicity detection
 
 ## 一句话总结
@@ -127,6 +127,6 @@ tags:
 - [\[ICLR 2026\] Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort](is_it_thinking_or_cheating_detecting_implicit_reward_hacking_by_measuring_reason.md)
 - [\[NeurIPS 2025\] Large Language Models Can Learn and Generalize Steganographic Chain-of-Thought under Process Supervision](../../NeurIPS2025/llm_reasoning/large_language_models_can_learn_and_generalize_steganographic_chain-of-thought_u.md)
 - [\[ICLR 2026\] RFEval: Benchmarking Reasoning Faithfulness under Counterfactual Reasoning Intervention in Large Reasoning Models](rfeval_benchmarking_reasoning_faithfulness_under_counterfactual_reasoning_interv.md)
-- [\[ACL 2026\] Large Reasoning Models Are (Not Yet) Multilingual Latent Reasoners](../../ACL2026/llm_reasoning/large_reasoning_models_are_not_yet_multilingual_latent_reasoners.md)
+- [\[ACL 2026\] Logical Phase Transitions: Understanding Collapse in LLM Logical Reasoning](../../ACL2026/llm_reasoning/logical_phase_transitions_understanding_collapse_in_llm_logical_reasoning.md)
 
 <!-- RELATED:END -->

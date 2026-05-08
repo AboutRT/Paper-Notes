@@ -20,7 +20,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2601.08631](https://arxiv.org/abs/2601.08631)  
-**代码**: https://github.com/Yaohui-Huang/M2FMoE  
+**代码**: [https://github.com/Yaohui-Huang/M2FMoE](https://github.com/Yaohui-Huang/M2FMoE)  
 **领域**: 时间序列预测  
 **关键词**: 极端事件预测, 频域建模, 混合专家, 小波变换, 傅里叶变换, 多分辨率融合, 水文预测
 
@@ -163,6 +163,6 @@ $\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{pred}} + \lambda \mathcal{L}_{\
 - [\[AAAI 2026\] Towards Non-Stationary Time Series Forecasting with Temporal Stabilization and Frequency Differencing](towards_non-stationary_time_series_forecasting_with_temporal_stabilization_and_f.md)
 - [\[ICCV 2025\] VA-MoE: Variables-Adaptive Mixture of Experts for Incremental Weather Forecasting](../../ICCV2025/time_series/va-moe_variables-adaptive_mixture_of_experts_for_incremental_weather_forecasting.md)
 - [\[AAAI 2026\] Coherent Multi-Agent Trajectory Forecasting in Team Sports with CausalTraj](coherent_multi-agent_trajectory_forecasting_in_team_sports_with_causaltraj.md)
-- [\[ICLR 2026\] Learning Recursive Multi-Scale Representations for Irregular Multivariate Time Series Forecasting](../../ICLR2026/time_series/learning_recursive_multi-scale_representations_for_irregular_multivariate_time_s.md)
+- [\[AAAI 2026\] Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints](mitigating_error_accumulation_in_co-speech_motion_generation_via_global_rotation.md)
 
 <!-- RELATED:END -->

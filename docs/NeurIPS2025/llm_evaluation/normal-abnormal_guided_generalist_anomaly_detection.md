@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Normal-Abnormal Guided Generalist Anomaly Detection
 description: >-
-  [NeurIPS 2025][通用异常检测] NAGL 框架首次在通用异常检测（GAD）中引入正常+异常混合参考样本，通过残差挖掘（RM）和异常特征学习（AFL）两个注意力模块，在残差空间中学习可迁移的异常模式，仅用 1 个异常样本即可在跨域场景中大幅超越仅使用正常参考的方法。
+  [NeurIPS 2025][LLM评测] NAGL 框架首次在通用异常检测（GAD）中引入正常+异常混合参考样本，通过残差挖掘（RM）和异常特征学习（AFL）两个注意力模块，在残差空间中学习可迁移的异常模式，仅用 1 个异常样本即可在跨域场景中大幅超越仅使用正常参考的方法。
 tags:
   - NeurIPS 2025
-  - 通用异常检测
+  - LLM评测
   - 跨域迁移
   - 残差学习
   - 正常-异常参考
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.00495](https://arxiv.org/abs/2510.00495)  
 **代码**: [GitHub](https://github.com/JasonKyng/NAGL)  
-**领域**: 异常检测 / 计算机视觉  
+**领域**: LLM评测  
 **关键词**: 通用异常检测, 跨域迁移, 残差学习, 正常-异常参考, 元学习
 
 ## 一句话总结
@@ -56,15 +56,15 @@ NAGL 的推理流程：给定查询图像和正常+异常参考集 →
 1. **正常引导异常分数（Normal-Guided Score）**：采用 PatchCore 式的最近邻搜索。对查询特征 $\mathcal{F}^q$ 中的每个 patch $f_i^q$，在正常参考特征 $\mathcal{F}^n$ 中找到最近邻 $f_*^n$，异常分数为 $\mathcal{S}_n^i = \mathbf{d}(f_i^q, f_*^n)$（余弦距离）。这提供了基础的异常定位能力，但仅依赖正常参考的判别力有限。
 
 2. **残差挖掘模块（Residual Mining, RM）**：核心目标是从异常参考中提取可迁移的异常模式表示。首先计算异常参考与其最近正常参考之间的残差：
-   $$\text{Res}(\mathcal{F}^a, \mathcal{F}^n) = \mathcal{F}^a - \mathcal{F}_*^n$$
+    $\text{Res}(\mathcal{F}^a, \mathcal{F}^n) = \mathcal{F}^a - \mathcal{F}_*^n$
    然后设计一个交叉注意力层，以可学习代理 $\mathcal{P} \in \mathbb{R}^{M \times C}$ 为 Query，异常特征 $\mathcal{F}^a$ 为 Key，残差为 Value：
-   $$\widetilde{\mathcal{P}} = \mathbf{SA}_1\left(\text{Softmax}\left(\frac{\mathbf{Q}_1 \mathbf{K}_1^T}{\sqrt{d}} + \mathcal{M}'\right) \mathbf{V}_1\right)$$
+    $\widetilde{\mathcal{P}} = \mathbf{SA}_1\left(\text{Softmax}\left(\frac{\mathbf{Q}_1 \mathbf{K}_1^T}{\sqrt{d}} + \mathcal{M}'\right) \mathbf{V}_1\right)$
    关键设计是注意力掩码 $\mathcal{M}' = \alpha(1 - \mathcal{M}^a)$（$\alpha$ 为大负值），确保注意力仅聚焦于异常区域的残差。输出的残差代理 $\widetilde{\mathcal{P}}$ 捕获了异常样本在残差空间中的变化模式——在残差空间操作保证了跨域迁移性，因为不同域的残差特征呈现相似分布。
 
 3. **异常特征学习模块（Anomaly Feature Learning, AFL）**：将残差代理应用于查询图像以发现潜在异常。以残差代理 $\widetilde{\mathcal{P}}$ 为 Query，查询-正常残差 $\text{Res}(\mathcal{F}^q, \mathcal{F}^n)$ 为 Key，查询特征 $\mathcal{F}^q$ 为 Value：
-   $$\widehat{\mathcal{P}} = \mathbf{SA}_2\left(\text{Softmax}\left(\frac{\mathbf{Q}_2 \mathbf{K}_2^T}{\sqrt{d}}\right) \mathbf{V}_2\right)$$
+    $\widehat{\mathcal{P}} = \mathbf{SA}_2\left(\text{Softmax}\left(\frac{\mathbf{Q}_2 \mathbf{K}_2^T}{\sqrt{d}}\right) \mathbf{V}_2\right)$
    核心思路是：通过比较**参考异常-正常残差**与**查询-正常残差**的相似性来发现查询中的异常区域。若查询的某区域残差模式与已知异常残差相似，对应的视觉特征就可能是异常。输出的异常代理 $\widehat{\mathcal{P}} \in \mathbb{R}^{M \times C}$ 包含查询图像中最具判别性的特征。最终异常引导分数为：
-   $$\mathcal{S}_a^i = \frac{1}{M} \sum_{m=1}^M 1 - \mathbf{d}(f_i^q, \widehat{\mathcal{P}}_m)$$
+    $\mathcal{S}_a^i = \frac{1}{M} \sum_{m=1}^M 1 - \mathbf{d}(f_i^q, \widehat{\mathcal{P}}_m)$
 
 ### 损失函数 / 训练策略
 
@@ -159,9 +159,9 @@ $$\mathcal{L} = \mathcal{L}_{cls} + \lambda \mathcal{L}_{seg}$$
 ## 相关论文
 
 - [\[AAAI 2026\] RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection](../../AAAI2026/llm_evaluation/refinevad_semantic-guided_feature_recalibration_for_weakly_supervised_video_anom.md)
-- [\[ICLR 2026\] Towards Anomaly-Aware Pre-Training and Fine-Tuning for Graph Anomaly Detection](../../ICLR2026/llm_evaluation/towards_anomaly-aware_pre-training_and_fine-tuning_for_graph_anomaly_detection.md)
-- [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](../../ACL2025/llm_evaluation/ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
 - [\[CVPR 2026\] Weakly Supervised Video Anomaly Detection with Anomaly-Connected Components and Intention Reasoning](../../CVPR2026/llm_evaluation/weakly_supervised_video_anomaly_detection_with_anomaly-connected_components_and_.md)
+- [\[ICML 2025\] CostFilter-AD: Enhancing Anomaly Detection through Matching Cost Filtering](../../ICML2025/llm_evaluation/costfilter-ad_enhancing_anomaly_detection_through_matching_cost_filtering.md)
 - [\[NeurIPS 2025\] Rethinking Evaluation of Infrared Small Target Detection](rethinking_evaluation_of_infrared_small_target_detection.md)
+- [\[NeurIPS 2025\] Robust Hallucination Detection in LLMs via Adaptive Token Selection](robust_hallucination_detection_in_llms_via_adaptive_token_selection.md)
 
 <!-- RELATED:END -->

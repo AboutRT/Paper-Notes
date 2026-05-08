@@ -48,33 +48,33 @@ PFRP 分两个阶段：
 
 1. **预测性对比学习(PCL)**：训练 lookback window 编码器时，正样本的选择方式是关键创新。不同于传统对比学习按 lookback 序列的 MSE 选正样本，PCL **按 prediction horizon 序列的 MSE 选正样本**：
 
-   $$i^+ = \arg\min_{1 \leq j \leq B, j \neq i} \|y_i - y_j\|_2^2$$
+    $i^+ = \arg\min_{1 \leq j \leq B, j \neq i} \|y_i - y_j\|_2^2$
 
    然后用 InfoNCE 损失拉近正样本对在特征空间的距离：
 
-   $$\mathcal{L}_{pcl} = -\frac{1}{B}\sum_{i=1}^{B} \log \frac{\exp(\epsilon^{(i)} \cdot \epsilon^{(i^+)}/\tau)}{\sum_{j=1}^{B} \exp(\epsilon^{(i)} \cdot \epsilon^{(j)}/\tau)}$$
+    $\mathcal{L}_{pcl} = -\frac{1}{B}\sum_{i=1}^{B} \log \frac{\exp(\epsilon^{(i)} \cdot \epsilon^{(i^+)}/\tau)}{\sum_{j=1}^{B} \exp(\epsilon^{(i)} \cdot \epsilon^{(j)}/\tau)}$
 
    **设计动机**：我们关心的不是"哪些过去看起来相似"，而是"哪些过去有相似的未来"。按未来走势选正样本使编码器学到的特征更直接服务于检索目的——找到未来最可能相似的历史段。此外，为避免时间重叠样本成为伪正样本，排除了与锚样本时间重叠>48步的样本。
 
 2. **K-medoids 聚类构建 GMB**：编码所有训练样本后，在特征空间做 K-medoids 聚类，仅保留 $K$ 个聚类中心点作为记忆单元 $\{(\epsilon^{(i)}, y^{(i)})\}_{i=1}^{K}$。
 
    **设计动机**：
-   - 去冗余：避免存储重复相似的历史样本，提升检索效率
-   - K-medoids 而非 K-means：K-medoids 使用真实历史样本而非合成平均作为聚类中心，保证记忆库中的模式是真实、连贯的历史序列
-   - GMB 按最长预测长度 720 构建，短预测只取前几步即可，无需为不同预测长度重建
+    - 去冗余：避免存储重复相似的历史样本，提升检索效率
+    - K-medoids 而非 K-means：K-medoids 使用真实历史样本而非合成平均作为聚类中心，保证记忆库中的模式是真实、连贯的历史序列
+    - GMB 按最长预测长度 720 构建，短预测只取前几步即可，无需为不同预测长度重建
 
 3. **置信门 + 输出门 + 动态融合**：检索到 top-k 最相似历史后，经过三重调制生成最终预测：
 
    **置信门(Confidence Gate)**：判断检索结果与当前窗口拼接后是否构成合理序列：
-   $$p_i = \text{Sigmoid}(\text{MLP}([x; y^{(a_i)}]))$$
+    $p_i = \text{Sigmoid}(\text{MLP}([x; y^{(a_i)}]))$
    用此概率调制原始相似度权重，确保"看起来相似但未来不匹配"的历史被降权。
 
    **输出门(Output Gate)**：对加权融合后的全局预测 $\bar{y}_1$ 做仿射变换以适应当前的 scale 和 shift：
-   $$y_1 = \alpha \cdot \bar{y}_1 + \beta$$
+    $y_1 = \alpha \cdot \bar{y}_1 + \beta$
    其中 $\alpha, \beta \in \mathbb{R}^H$ 由 MLP 从当前 lookback window 生成，$\alpha$ 初始化为全1，$\beta$ 初始化为全0。
 
    **动态融合**：根据检索的相似度权重动态决定全局预测 $y_1$ 和局部预测 $y_2$ 的权重：
-   $$y = w_1 \cdot y_1 + w_2 \cdot y_2, \quad w_1, w_2 = \text{Softmax}(\text{MLP}(\bar{w}^{(a_1)}, \ldots, \bar{w}^{(a_k)}))$$
+    $y = w_1 \cdot y_1 + w_2 \cdot y_2, \quad w_1, w_2 = \text{Softmax}(\text{MLP}(\bar{w}^{(a_1)}, \ldots, \bar{w}^{(a_k)}))$
 
    **设计动机**：当历史中无高度相似序列时，调制权重偏小，融合自动倾向局部模型；周期性强的数据中调制权重偏大，全局预测占主导。
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2409.04178](https://arxiv.org/abs/2409.04178)  
 **代码**: [https://tingru0203.github.io/egfs](https://tingru0203.github.io/egfs)  
-**领域**: 3D Vision / Visual Localization  
+**领域**: LLM/NLP  
 **关键词**: scene coordinate regression, visual grounding, SAM, feature selection, confidence map
 
 ## 一句话总结
@@ -146,9 +146,9 @@ tags:
 ## 相关论文
 
 - [\[ECCV 2024\] PromptIQA: Boosting the Performance and Generalization for No-Reference Image Quality Assessment via Prompts](promptiqa_boosting_the_performance_and_generalization_for_no-reference_image_qua.md)
-- [\[ECCV 2024\] AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection](adaclip_adapting_clip_with_hybrid_learnable_prompts_for_zero.md)
 - [\[ACL 2025\] LLM Meets Scene Graph: Can Large Language Models Understand and Generate Scene Graphs?](../../ACL2025/llm_nlp/llm_meets_scene_graph_can_large_language_models_understand_and_generate_scene_gr.md)
 - [\[NeurIPS 2025\] Post Hoc Regression Refinement via Pairwise Rankings](../../NeurIPS2025/llm_nlp/post_hoc_regression_refinement_via_pairwise_rankings.md)
 - [\[ACL 2025\] P3: Prompts Promote Prompting](../../ACL2025/llm_nlp/p3_prompts_promote_prompting.md)
+- [\[ECCV 2024\] SLIMER: Show Less, Instruct More - Enriching Prompts with Definitions and Guidelines for Zero-Shot NER](slimer_zero_shot_ner.md)
 
 <!-- RELATED:END -->

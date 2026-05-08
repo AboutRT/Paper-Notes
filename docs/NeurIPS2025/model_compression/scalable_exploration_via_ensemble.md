@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - Thompson Sampling
   - 集成采样
-  - 线性Bandit
+  - 模型压缩
   - 探索-利用
   - 近似后验
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2407.13195](https://arxiv.org/abs/2407.13195)  
-**代码**: https://github.com/szrlee/Ensemble_Plus_Plus (有)  
-**领域**: 强化学习 / 在线决策  
+**代码**: [https://github.com/szrlee/Ensemble_Plus_Plus](https://github.com/szrlee/Ensemble_Plus_Plus)  
+**领域**: 模型压缩  
 **关键词**: Thompson Sampling, 集成采样, 线性Bandit, 探索-利用, 近似后验
 
 ## 一句话总结
@@ -38,13 +38,13 @@ Ensemble++ 维护一个共享矩阵因子 $\mathbf{A}_t \in \mathbb{R}^{d \times
 ### 关键设计
 
 1. **共享因子增量更新**：每步仅需 $O(d^2 M)$ 更新——观测奖励后，更新均值 $\mu_t$ 和集成矩阵：
-   $$\mathbf{A}_t = \Sigma_t(\Sigma_{t-1}^{-1}\mathbf{A}_{t-1} + X_t \mathbf{z}_t^\top)$$
+    $\mathbf{A}_t = \Sigma_t(\Sigma_{t-1}^{-1}\mathbf{A}_{t-1} + X_t \mathbf{z}_t^\top)$
    其中 $\mathbf{z}_t \in \mathbb{R}^M$ 是扰动向量。这避免了从头重训或大规模矩阵分解。
 
 2. **随机线性组合采样**：动作选择时，从分布 $P_\zeta$ 中采样参考向量 $\zeta_t$，通过 $\theta_t = \mu_{t-1} + \mathbf{A}_{t-1}\zeta_t$ 构造近似后验样本。不同于传统集成采样"随机选一个模型"，这里对所有列做线性组合，大幅提升信息利用效率。
 
 3. **对称化回归目标**：将基础参数和集成参数统一到一个对称化回归目标中：
-   $$L(\theta; D, f) = \sum_{m=1}^M \sum_{s \in D} \sum_{\beta \in \{\pm 1\}} (Y_s + \beta \mathbf{z}_{s,m} - f(X_s, \beta e_m))^2 + \lambda\|\theta\|^2$$
+    $L(\theta; D, f) = \sum_{m=1}^M \sum_{s \in D} \sum_{\beta \in \{\pm 1\}} (Y_s + \beta \mathbf{z}_{s,m} - f(X_s, \beta e_m))^2 + \lambda\|\theta\|^2$
    在线性情况下有闭合解，在神经网络情况下通过 SGD 求解，实现了理论到实践的无缝桥接。
 
 4. **神经网络扩展**：用可学习的神经特征提取器 $h(x;w)$ 替代线性特征，保持相同的增量更新原则。通过 FIFO 缓冲区和固定 SGD 步数保证恒定时间更新。
@@ -104,9 +104,9 @@ Ensemble++ 维护一个共享矩阵因子 $\mathbf{A}_t \in \mathbb{R}^{d \times
 ## 相关论文
 
 - [\[AAAI 2026\] Credal Ensemble Distillation for Uncertainty Quantification](../../AAAI2026/model_compression/credal_ensemble_distillation_for_uncertainty_quantification.md)
-- [\[NeurIPS 2025\] Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training](trajectory_balance_with_asynchrony_decoupling_exploration_and_learning_for_fast_.md)
 - [\[CVPR 2025\] Tripartite Weight-Space Ensemble for Few-Shot Class-Incremental Learning](../../CVPR2025/model_compression/tripartite_weight-space_ensemble_for_few-shot_class-incremental_learning.md)
 - [\[NeurIPS 2025\] GraSS: Scalable Data Attribution with Gradient Sparsification and Sparse Projection](grass_scalable_data_attribution_with_gradient_sparsification_and_sparse_projecti.md)
-- [\[NeurIPS 2025\] Infrequent Exploration in Linear Bandits](infrequent_exploration_in_linear_bandits.md)
+- [\[ICLR 2026\] FlyPrompt: Brain-Inspired Random-Expanded Routing with Temporal-Ensemble Experts for General Continual Learning](../../ICLR2026/model_compression/flyprompt_brain-inspired_random-expanded_routing.md)
+- [\[ACL 2025\] Pre-training Distillation for Large Language Models: A Design Space Exploration](../../ACL2025/model_compression/pre-training_distillation_for_large_language_models_a_design_space_exploration.md)
 
 <!-- RELATED:END -->

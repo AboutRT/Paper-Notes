@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OAD-Promoter: Enhancing Zero-shot VQA using Large Language Models with Object Attribute Description
 description: >-
-  [AAAI 2026][视觉问答] 本文提出OAD-Promoter，通过对象集中样例生成（OEG）、记忆知识辅助（MKA）和OAD Prompt三个模块协同工作，在零样本设置下缓解LLM继承的语言偏差并提升领域迁移能力，在VQAv2等多个基准上取得SOTA。
+  [AAAI 2026][信息检索] 本文提出OAD-Promoter，通过对象集中样例生成（OEG）、记忆知识辅助（MKA）和OAD Prompt三个模块协同工作，在零样本设置下缓解LLM继承的语言偏差并提升领域迁移能力，在VQAv2等多个基准上取得SOTA。
 tags:
   - AAAI 2026
-  - 视觉问答
+  - 信息检索
   - 零样本VQA
   - 语言偏差
   - 领域迁移
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12131](https://arxiv.org/abs/2511.12131)  
 **代码**: 无  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 视觉问答, 零样本VQA, 语言偏差, 领域迁移, 对象属性描述
 
 ## 一句话总结
@@ -193,9 +193,9 @@ $$[\text{Instruction } I \;/\; \text{Global Caption } C_G \;/\; \text{Object Exa
 ## 相关论文
 
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](../../ACL2025/information_retrieval/enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
-- [\[AAAI 2026\] "As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)
 - [\[CVPR 2026\] Explaining CLIP Zero-shot Predictions Through Concepts](../../CVPR2026/information_retrieval/explaining_clip_zero-shot_predictions_through_concepts.md)
-- [\[ICLR 2026\] Query-Level Uncertainty in Large Language Models](../../ICLR2026/information_retrieval/query-level_uncertainty_in_large_language_models.md)
 - [\[ICLR 2026\] BTZSC: A Benchmark for Zero-Shot Text Classification Across Cross-Encoders, Embedding Models, Rerankers and LLMs](../../ICLR2026/information_retrieval/btzsc_a_benchmark_for_zero-shot_text_classification_across_cross-encoders_embedd.md)
+- [\[CVPR 2025\] EZSR: Event-based Zero-Shot Recognition](../../CVPR2025/information_retrieval/ezsr_event-based_zero-shot_recognition.md)
+- [\[AAAI 2026\] "As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.03225](https://arxiv.org/abs/2604.03225)  
 **代码**: [https://github.com/cswry/VOSR](https://github.com/cswry/VOSR)  
-**领域**: 图像超分辨率  
+**领域**: 图像生成  
 **关键词**: super-resolution, vision-only, diffusion model, classifier-free guidance, one-step distillation
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - LLM世界模型评估
-  - 检索增强生成(RAG)
+  - LLM/NLP
   - 高温超导
   - 专家评测
   - 科学文献问答
@@ -210,6 +210,6 @@ tags:
 - [\[ACL 2025\] A Large-Scale Real-World Evaluation of an LLM-Based Virtual Teaching Assistant](../../ACL2025/llm_nlp/a_large-scale_real-world_evaluation_of_llm-based_virtual_teaching_assistant.md)
 - [\[ACL 2025\] If Eleanor Rigby Had Met ChatGPT: A Study on Loneliness in a Post-LLM World](../../ACL2025/llm_nlp/if_eleanor_rigby_had_met_chatgpt_a_study_on_loneliness_in_a_post-llm_world.md)
 - [\[ACL 2025\] Transforming Podcast Preview Generation: From Expert Models to LLM-Based Systems](../../ACL2025/llm_nlp/transforming_podcast_preview_generation_from_expert_models_to_llm-based_systems.md)
-- [\[ACL 2025\] Is It JUST Semantics? A Case Study of Discourse Particle Understanding in LLMs](../../ACL2025/llm_nlp/is_it_just_semantics_a_case_study_of_discourse_particle_understanding_in_llms.md)
+- [\[ACL 2025\] Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs](../../ACL2025/llm_nlp/can_llms_interpret_and_leverage_structured_linguistic_representations_a_case_stu.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2411.18109](https://arxiv.org/abs/2411.18109)  
-**代码**: https://github.com/komejisatori/Difficulty-Aware-Synthesis  
+**代码**: [https://github.com/komejisatori/Difficulty-Aware-Synthesis](https://github.com/komejisatori/Difficulty-Aware-Synthesis)  
 **领域**: 图像生成 / 数据合成  
 **关键词**: 扩散模型, 难度可控生成, 训练数据合成, 课程学习, 难度编码器
 

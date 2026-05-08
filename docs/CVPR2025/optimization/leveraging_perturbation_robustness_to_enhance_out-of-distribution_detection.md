@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18784](https://arxiv.org/abs/2503.18784)  
-**代码**: https://github.com/wenxichen2746/Perturbation-Rectified-OOD-Detection (有)  
+**代码**: [https://github.com/wenxichen2746/Perturbation-Rectified-OOD-Detection](https://github.com/wenxichen2746/Perturbation-Rectified-OOD-Detection)  
 **领域**: 优化 / OOD检测  
 **关键词**: 分布外检测, 扰动鲁棒性, 对抗训练, 后处理方法, 得分函数
 
@@ -95,8 +95,8 @@ CIFAR-10 FPR@95↓：
 
 - [\[CVPR 2025\] Stop Walking in Circles! Bailing Out Early in Projected Gradient Descent](stop_walking_in_circles_bailing_out_early_in_projected_gradient_descent.md)
 - [\[ICML 2025\] Generalization and Robustness of the Tilted Empirical Risk](../../ICML2025/optimization/generalization_and_robustness_of_the_tilted_empirical_risk.md)
+- [\[NeurIPS 2025\] Perturbation Bounds for Low-Rank Inverse Approximations under Noise](../../NeurIPS2025/optimization/perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)
 - [\[NeurIPS 2025\] MeCeFO: Enhancing LLM Training Robustness via Fault-Tolerant Optimization](../../NeurIPS2025/optimization/mecefo_enhancing_llm_training_robustness_via_fault-tolerant_optimization.md)
 - [\[NeurIPS 2025\] DartQuant: Efficient Rotational Distribution Calibration for LLM Quantization](../../NeurIPS2025/optimization/dartquant_efficient_rotational_distribution_calibration_for_llm_quantization.md)
-- [\[NeurIPS 2025\] Generalization or Hallucination? Understanding Out-of-Context Reasoning in Transformers](../../NeurIPS2025/optimization/generalization_or_hallucination_understanding_out-of-context_reasoning_in_transf.md)
 
 <!-- RELATED:END -->

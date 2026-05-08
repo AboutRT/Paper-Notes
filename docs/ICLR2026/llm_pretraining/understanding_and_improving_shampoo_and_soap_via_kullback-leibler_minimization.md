@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2509.03378](https://arxiv.org/abs/2509.03378)
 - **代码**: [https://github.com/yorkerlin/KL-Methods](https://github.com/yorkerlin/KL-Methods)
-- **领域**: 优化器设计 / 自然梯度 / 结构化预条件
+- **领域**: LLM预训练
 - **关键词**: Shampoo, SOAP, KL 散度, Kronecker 结构, 二阶优化, 协方差估计
 
 ## 一句话总结
@@ -135,7 +135,7 @@ $$\begin{pmatrix}\boldsymbol{\lambda}_a \\ \boldsymbol{\lambda}_b\end{pmatrix} \
 
 ## 相关论文
 
-- [\[ICLR 2026\] Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors](understanding_the_emergence_of_seemingly_useless_features_in_deep_learning.md)
+- [\[ICLR 2026\] Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors](understanding_the_emergence_of_seemingly_useless_features_in_next-token_predicto.md)
 - [\[ACL 2026\] Commonsense Knowledge with Negation: A Resource to Enhance Negation Understanding](../../ACL2026/llm_pretraining/commonsense_knowledge_with_negation_a_resource_to_enhance_negation_understanding.md)
 - [\[NeurIPS 2025\] Understanding and Enhancing Mask-Based Pretraining towards Universal Representations](../../NeurIPS2025/llm_pretraining/understanding_and_enhancing_mask-based_pretraining_towards_universal_representat.md)
 - [\[CVPR 2025\] Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction](../../CVPR2025/llm_pretraining/improving_autoregressive_visual_generation_with_cluster-oriented_token_predictio.md)

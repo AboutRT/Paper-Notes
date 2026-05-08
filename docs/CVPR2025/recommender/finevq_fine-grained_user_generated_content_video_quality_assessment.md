@@ -2,10 +2,10 @@
 title: >-
   [论文解读] FineVQ: Fine-Grained User Generated Content Video Quality Assessment
 description: >-
-  [CVPR 2025][视频质量评估] 构建了首个大规模细粒度 UGC 视频质量评估数据库 FineVD（6104 视频、80 万+评分、6 个维度），并提出基于大型多模态模型的 FineVQ 方法，以一个模型同时实现质量评级、质量评分和质量归因三种能力，在 FineVD 和其他 UGC-VQA 数据集上达到 SOTA。
+  [CVPR 2025][推荐系统] 构建了首个大规模细粒度 UGC 视频质量评估数据库 FineVD（6104 视频、80 万+评分、6 个维度），并提出基于大型多模态模型的 FineVQ 方法，以一个模型同时实现质量评级、质量评分和质量归因三种能力，在 FineVD 和其他 UGC-VQA 数据集上达到 SOTA。
 tags:
   - CVPR 2025
-  - 视频质量评估
+  - 推荐系统
   - 用户生成内容
   - 细粒度评估
   - 大型多模态模型
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.19238](https://arxiv.org/abs/2412.19238)  
-**代码**: https://github.com/IntMeGroup/FineVQ (有)  
+**代码**: [https://github.com/IntMeGroup/FineVQ](https://github.com/IntMeGroup/FineVQ)  
 **领域**: 推荐系统  
 **关键词**: 视频质量评估, 用户生成内容, 细粒度评估, 大型多模态模型, 指令微调
 
@@ -121,7 +121,7 @@ tags:
 - [\[AAAI 2026\] Semi-Supervised Synthetic Data Generation with Fine-Grained Relevance Control for Short Video Search Relevance Modeling](../../AAAI2026/recommender/semi-supervised_synthetic_data_generation_with_fine-grained_relevance_control_fo.md)
 - [\[ACL 2025\] LOTUS: A Leaderboard for Detailed Image Captioning from Quality to Societal Bias and User Preferences](../../ACL2025/recommender/lotus_a_leaderboard_for_detailed_image_captioning_from_quality_to_societal_bias_.md)
 - [\[ECCV 2024\] AID-AppEAL: Automatic Image Dataset and Algorithm for Content Appeal Enhancement and Assessment Labeling](../../ECCV2024/recommender/aid-appeal_automatic_image_dataset_and_algorithm_for_content_appeal_enhancement_.md)
-- [\[CVPR 2025\] VisionArena: 230K Real World User-VLM Conversations with Preference Labels](visionarena_230k_real_world_user-vlm_conversations_with_preference_labels.md)
-- [\[NeurIPS 2025\] Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning](../../NeurIPS2025/recommender/transformer_copilot_learning_from_the_mistake_log_in_llm_fine-tuning.md)
+- [\[ICML 2025\] Aligning LLMs by Predicting Preferences from User Writing Samples](../../ICML2025/recommender/aligning_llms_by_predicting_preferences_from_user_writing_samples.md)
+- [\[ACL 2026\] Content Fuzzing for Escaping Information Cocoons on Social Media](../../ACL2026/recommender/content_fuzzing_for_escaping_information_cocoons_on_digital_social_media.md)
 
 <!-- RELATED:END -->

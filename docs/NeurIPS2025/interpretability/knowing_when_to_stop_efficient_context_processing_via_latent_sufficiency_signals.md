@@ -8,7 +8,7 @@ tags:
   - 动态上下文截断
   - 注意力头探针
   - 信息充分性
-  - 推理效率
+  - 可解释性
   - KV缓存
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.01025](https://arxiv.org/abs/2502.01025)  
 **代码**: [GitHub](https://github.com/ruoyuxie/when-to-stop)  
-**领域**: model_compression  
+**领域**: 可解释性  
 **关键词**: 动态上下文截断, 注意力头探针, 信息充分性, 推理效率, KV缓存
 
 ## 一句话总结
@@ -133,9 +133,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2026\] Forest Before Trees: Latent Superposition for Efficient Visual Reasoning](../../ACL2026/interpretability/forest_before_trees_latent_superposition_for_efficient_visual_reasoning.md)
-- [\[NeurIPS 2025\] Base Models Know How to Reason, Thinking Models Learn When](base_models_know_how_to_reason_thinking_models_learn_when.md)
 - [\[NeurIPS 2025\] H-SPLID: HSIC-based Saliency Preserving Latent Information Decomposition](h-splid_hsic-based_saliency_preserving_latent_information_decomposition.md)
-- [\[NeurIPS 2025\] Latent Principle Discovery for Language Model Self-Improvement](latent_principle_discovery_for_language_model_self-improvement.md)
+- [\[NeurIPS 2025\] Base Models Know How to Reason, Thinking Models Learn When](base_models_know_how_to_reason_thinking_models_learn_when.md)
 - [\[NeurIPS 2025\] Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions](partial_information_decomposition_via_normalizing_flows_in_latent_gaussian_distr.md)
+- [\[NeurIPS 2025\] Time-Evolving Dynamical System for Learning Latent Representations of Mouse Visual Cortex](time-evolving_dynamical_system_for_learning_latent_representations_of_mouse_visu.md)
 
 <!-- RELATED:END -->

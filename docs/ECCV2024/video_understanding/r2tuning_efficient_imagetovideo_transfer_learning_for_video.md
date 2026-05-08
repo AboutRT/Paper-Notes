@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.00801](https://arxiv.org/abs/2404.00801)  
-**代码**: https://github.com/yeliudev/R2-Tuning  
+**代码**: [https://github.com/yeliudev/R2-Tuning](https://github.com/yeliudev/R2-Tuning)  
 **领域**: 视频理解  
 **关键词**: Video Temporal Grounding, CLIP, 迁移学习, 参数高效, 时序建模
 

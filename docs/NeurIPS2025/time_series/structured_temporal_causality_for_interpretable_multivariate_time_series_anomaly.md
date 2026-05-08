@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2510.16511](https://arxiv.org/abs/2510.16511)  
 **作者**: Dongchan Cho, Jiho Han, Keumyeong Kang, Minsang Kim, Honggyu Ryu, Namsoon Jung (SimPlatform Co. Ltd.)  
 **代码**: 未公开  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: 多变量时间序列, 异常检测, 时序因果建模, 稳定潜在结构, 可解释性, LSTM, 自注意力  
 
 ## 一句话总结
@@ -166,7 +166,7 @@ OracleAD在F1上的优势：PSM +19.95%pt，SMD +10.87%pt，SWaT +0.9%pt。VUS-P
 - [\[NeurIPS 2025\] ScatterAD: Temporal-Topological Scattering Mechanism for Time Series Anomaly Detection](scatterad_temporal-topological_scattering_mechanism_for_time_series_anomaly_dete.md)
 - [\[ICML 2025\] Causality-Aware Contrastive Learning for Robust Multivariate Time-Series Anomaly Detection](../../ICML2025/time_series/causality-aware_contrastive_learning_for_robust_multivariate_time-series_anomaly.md)
 - [\[NeurIPS 2025\] Channel Matters: Estimating Channel Influence for Multivariate Time Series](channel_matters_estimating_channel_influence_for_multivariate_time_series.md)
+- [\[NeurIPS 2025\] Less is More: Unlocking Specialization of Time Series Foundation Models via Structured Pruning](less_is_more_unlocking_specialization_of_time_series_foundation_models_via_struc.md)
 - [\[ICLR 2026\] Contextual and Seasonal LSTMs for Time Series Anomaly Detection](../../ICLR2026/time_series/contextual_and_seasonal_lstms_for_time_series_anomaly_detection.md)
-- [\[ICML 2025\] KAN-AD: Time Series Anomaly Detection with Kolmogorov-Arnold Networks](../../ICML2025/time_series/kan-ad_time_series_anomaly_detection_with_kolmogorov-arnold_networks.md)
 
 <!-- RELATED:END -->

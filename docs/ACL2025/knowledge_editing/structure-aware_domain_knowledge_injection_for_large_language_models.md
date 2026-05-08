@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 领域知识注入
   - 结构化学习
-  - 持续预训练
+  - 知识编辑
   - 知识分类体系
   - 数据高效
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2407.16724](https://arxiv.org/abs/2407.16724)  
-**代码**: https://github.com/alibaba/struxgpt  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/alibaba/struxgpt](https://github.com/alibaba/struxgpt)  
+**领域**: 知识编辑  
 **关键词**: 领域知识注入, 结构化学习, 持续预训练, 知识分类体系, 数据高效
 
 ## 一句话总结
@@ -129,9 +129,9 @@ SCPT使用标准语言建模损失但仅计算content部分（知识路径前缀
 ## 相关论文
 
 - [\[ACL 2025\] MEGen: Generative Backdoor into Large Language Models via Model Editing](megen_generative_backdoor_into_large_language_models_via_model_editing.md)
-- [\[ACL 2025\] Neuron-Level Sequential Editing for Large Language Models](neuron-level_sequential_editing_for_large_language_models.md)
 - [\[ACL 2025\] Context-Robust Knowledge Editing for Language Models](context-robust_knowledge_editing_for_language_models.md)
 - [\[NeurIPS 2025\] UniEdit: A Unified Knowledge Editing Benchmark for Large Language Models](../../NeurIPS2025/knowledge_editing/uniedit_a_unified_knowledge_editing_benchmark_for_large_language_models.md)
+- [\[ACL 2025\] Neuron-Level Sequential Editing for Large Language Models](neuron-level_sequential_editing_for_large_language_models.md)
 - [\[ACL 2025\] Memorizing is Not Enough: Deep Knowledge Injection Through Reasoning](memorizing_is_not_enough_deep_knowledge_injection_through_reasoning.md)
 
 <!-- RELATED:END -->

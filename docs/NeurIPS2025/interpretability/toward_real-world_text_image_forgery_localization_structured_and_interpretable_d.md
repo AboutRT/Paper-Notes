@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.12658](https://arxiv.org/abs/2511.12658)  
 **代码**: [Project Page](https://github.com/)（论文提到有Project Page发布数据集）  
-**领域**: 图像伪造检测 / 文本图像篡改定位  
+**领域**: 可解释性  
 **关键词**: 文本图像篡改, 合成数据, 不可见分布建模, 傅里叶级数, 篡改参数
 
 ## 一句话总结
@@ -125,9 +125,9 @@ $$I^s = \text{Generator}(I^o | \{a_k, t_k, \phi_k\}_{k=1}^K)$$
 ## 相关论文
 
 - [\[NeurIPS 2025\] CHiQPM: Calibrated Hierarchical Interpretable Image Classification](chiqpm_calibrated_hierarchical_interpretable_image_classification.md)
+- [\[NeurIPS 2025\] SynBrain: Enhancing Visual-to-fMRI Synthesis via Probabilistic Representation Learning](synbrain_enhancing_visual-to-fmri_synthesis_via_probabilistic_representation_lea.md)
 - [\[ACL 2025\] EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations](../../ACL2025/interpretability/expert_an_explainable_image_captioning_evaluation_metric_with_structured_explana.md)
 - [\[CVPR 2025\] Why Does It Look There? Structured Explanations for Image Classification](../../CVPR2025/interpretability/why_does_it_look_there_structured_explanations_for_image_classification.md)
 - [\[CVPR 2025\] Interpretable Image Classification via Non-parametric Part Prototype Learning](../../CVPR2025/interpretability/interpretable_image_classification_via_non-parametric_part_prototype_learning.md)
-- [\[NeurIPS 2025\] AgentiQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation](agentiql_an_agent-inspired_multi-expert_framework_for_text-to-sql_generation.md)
 
 <!-- RELATED:END -->

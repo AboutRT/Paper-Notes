@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.19104](https://arxiv.org/abs/2508.19104)  
 **代码**: [GitHub](https://github.com/shervinkhalafi/constrained_comp_align)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 扩散模型, 约束优化, 模型对齐, 模型组合, 拉格朗日对偶
 
 ## 一句话总结

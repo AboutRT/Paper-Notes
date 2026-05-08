@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Minerva: Evaluating Complex Video Reasoning
 description: >-
-  [ICCV 2025][视频推理] 提出 Minerva——一个包含 1515 个手工标注的复杂视频推理问答数据集，每题配有 5 个选项和详细推理链（reasoning trace），用于评估多模态大模型的视频推理能力，并建立了视频推理错误分类体系（Temporal/Perceptual/Logical/Completeness）和 MiRA 自动评估框架。
+  [ICCV 2025][可解释性] 提出 Minerva——一个包含 1515 个手工标注的复杂视频推理问答数据集，每题配有 5 个选项和详细推理链（reasoning trace），用于评估多模态大模型的视频推理能力，并建立了视频推理错误分类体系（Temporal/Perceptual/Logical/Completeness）和 MiRA 自动评估框架。
 tags:
   - ICCV 2025
-  - 视频推理
+  - 可解释性
   - 推理链评估
   - 视频问答
   - benchmark
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2505.00681](https://arxiv.org/abs/2505.00681)  
 **代码**: [GitHub](https://github.com/google-deepmind/neptune?tab=readme-ov-file#minerva)  
-**领域**: 多模态VLM  
+**领域**: 可解释性  
 **关键词**: 视频推理, 推理链评估, 视频问答, benchmark, 推理错误分类
 
 ## 一句话总结
@@ -159,9 +159,9 @@ Minerva 的构建和评估包含三个层次：
 ## 相关论文
 
 - [\[NeurIPS 2025\] A Unified Reasoning Framework for Holistic Zero-Shot Video Anomaly Analysis](../../NeurIPS2025/interpretability/a_unified_reasoning_framework_for_holistic_zeroshot_video_an.md)
-- [\[ICLR 2026\] Dynamic Reflections: Probing Video Representations with Text-Driven Reasoning](../../ICLR2026/interpretability/dynamic_reflections_probing_video_representations_with_text_driven_reasoning.md)
 - [\[NeurIPS 2025\] Evaluating LLMs in Open-Source Games](../../NeurIPS2025/interpretability/evaluating_llms_in_open-source_games.md)
+- [\[ICLR 2026\] Dynamic Reflections: Probing Video Representations with Text-Driven Reasoning](../../ICLR2026/interpretability/dynamic_reflections_probing_video_representations_with_text_driven_reasoning.md)
 - [\[ICML 2025\] Evaluating Neuron Explanations: A Unified Framework with Sanity Checks](../../ICML2025/interpretability/evaluating_neuron_explanations_a_unified_framework_with_sanity_checks.md)
-- [\[CVPR 2025\] KVQ: Boosting Video Quality Assessment via Saliency-Guided Local Perception](../../CVPR2025/interpretability/kvq_boosting_video_quality_assessment_via_saliency-guided_local_perception.md)
+- [\[NeurIPS 2025\] VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity](../../NeurIPS2025/interpretability/vadtree_explainable_training-free_video_anomaly_detection_via_hierarchical_granu.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.07648](https://arxiv.org/abs/2603.07648)  
-**代码**: [https://zhanglk9.github.io/atomicvla-web/](https://zhanglk9.github.io/atomicvla-web/) (有)  
+**代码**: [https://zhanglk9.github.io/atomicvla-web/](https://zhanglk9.github.io/atomicvla-web/)  
 **领域**: 机器人/具身智能  
 **关键词**: VLA, 原子技能, 混合专家, 持续学习, 长时任务规划  
 
@@ -102,8 +102,8 @@ AtomicVLA 提出统一规划-执行框架，通过Think-Act自适应切换生成
 
 - [\[CVPR 2026\] Language-Grounded Decoupled Action Representation for Robotic Manipulation](language-grounded_decoupled_action_representation_for_robotic_manipulation.md)
 - [\[CVPR 2026\] GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer](geco-srt_geometry-aware_continual_adaptation_for_robotic_cross-task_sim-to-real_.md)
+- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
 - [\[CVPR 2026\] Language-Grounded Decoupled Action Representation for Robotic Manipulation (LaDA)](lada_robotic_manipulation.md)
 - [\[CVPR 2026\] Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols](diagnose_correct_and_learn_from_manipulation_failures.md)
-- [\[CVPR 2026\] ForceVLA2: Unleashing Hybrid Force-Position Control with Force Awareness for Contact-Rich Manipulation](forcevla2_unleashing_hybrid_force-position_control_with_force_awareness_for_cont.md)
 
 <!-- RELATED:END -->

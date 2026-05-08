@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2410.02958](https://arxiv.org/abs/2410.02958)  
-**代码**: https://deepauto-ai.github.io/automl-agent (有)  
+**代码**: [https://deepauto-ai.github.io/automl-agent](https://deepauto-ai.github.io/automl-agent)  
 **领域**: Agent  
 **关键词**: AutoML, 多智能体框架, LLM Agent, 检索增强规划, 全流水线自动化
 
@@ -140,10 +140,10 @@ AutoML-Agent 在绝大多数任务上取得了最高的自动化成功率，且�
 
 ## 相关论文
 
-- [\[ACL 2025\] Select, Read, and Write: A Multi-Agent Framework of Full-Text-based Related Work Generation](../../ACL2025/llm_agent/select_read_and_write_a_multi-agent_framework_of_full-text-based_related_work_ge.md)
 - [\[ICML 2025\] TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems](tamas_benchmarking_adversarial_risks_in_multi-agent_llm_systems.md)
-- [\[ICML 2025\] Theorem-of-Thought: A Multi-Agent Framework for Abductive, Deductive, and Inductive Reasoning in Language Models](theorem-of-thought_a_multi-agent_framework_for_abductive_deductive_and_inductive.md)
 - [\[NeurIPS 2025\] R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization](../../NeurIPS2025/llm_agent/rd-agent-quant_a_multi-agent_framework_for_data-centric_factors_and_model_joint_.md)
+- [\[ICML 2025\] Theorem-of-Thought: A Multi-Agent Framework for Abductive, Deductive, and Inductive Reasoning in Language Models](theorem-of-thought_a_multi-agent_framework_for_abductive_deductive_and_inductive.md)
 - [\[ICML 2025\] From Debate to Equilibrium: Belief-Driven Multi-Agent LLM Reasoning via Bayesian Nash Equilibrium](from_debate_to_equilibrium_belief-driven_multi-agent_llm_reasoning_via_bayesian_.md)
+- [\[CVPR 2026\] Nerfify: A Multi-Agent Framework for Turning NeRF Papers into Code](../../CVPR2026/llm_agent/nerfify_a_multi-agent_framework_for_turning_nerf_papers_into_code.md)
 
 <!-- RELATED:END -->

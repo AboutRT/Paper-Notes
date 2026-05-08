@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 世界模型
-  - 自动驾驶规划
+  - 视频生成
   - 视频生成
   - 潜在空间
   - 扩散策略
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2512.23421](https://arxiv.org/abs/2512.23421)  
 **代码**: [https://github.com/xiaomi-research/drivelaw](https://github.com/xiaomi-research/drivelaw)  
-**领域**: 自动驾驶 / 世界模型  
+**领域**: 视频生成  
 **关键词**: 世界模型, 自动驾驶规划, 视频生成, 潜在空间, 扩散策略
 
 ## 一句话总结
@@ -129,8 +129,8 @@ Video DiT 使用标准扩散损失（去噪目标），Action DiT 使用 flow ma
 
 - [\[CVPR 2026\] LAMP: Language-Assisted Motion Planning for Controllable Video Generation](lamp_language-assisted_motion_planning_for_controllable_video_generation.md)
 - [\[CVPR 2025\] World2Act: Latent Action Post-Training via Skill-Compositional World Models](../../CVPR2025/video_generation/world2act_latent_action_post-training_via_skill-compositional_world_models.md)
+- [\[CVPR 2026\] NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos](neoverse_enhancing_4d_world_model_with_in-the-wild_monocular_videos.md)
 - [\[CVPR 2026\] Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics](phantom_physics-infused_video_generation_via_joint_modeling_of_visual_and_latent.md)
 - [\[CVPR 2026\] SeeU: Seeing the Unseen World via 4D Dynamics-aware Generation](seeu_seeing_the_unseen_world_via_4d_dynamics-aware_generation.md)
-- [\[CVPR 2026\] NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos](neoverse_enhancing_4d_world_model_with_in-the-wild_monocular_videos.md)
 
 <!-- RELATED:END -->

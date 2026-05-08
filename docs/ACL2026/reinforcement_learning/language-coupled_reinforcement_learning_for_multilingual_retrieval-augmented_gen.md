@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Language-Coupled Reinforcement Learning for Multilingual Retrieval-Augmented Generation
 description: >-
-  [ACL 2026][多语言RAG] 本文提出 LcRL 框架，通过语言耦合的 GRPO 策略优化和反一致性惩罚奖励，解决多语言 RAG 中的知识偏差和知识冲突问题，在多语言问答任务上取得显著提升。
+  [ACL 2026][强化学习] 本文提出 LcRL 框架，通过语言耦合的 GRPO 策略优化和反一致性惩罚奖励，解决多语言 RAG 中的知识偏差和知识冲突问题，在多语言问答任务上取得显著提升。
 tags:
   - ACL 2026
-  - 多语言RAG
+  - 强化学习
   - 强化学习
   - GRPO
   - 知识偏差
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.14896](https://arxiv.org/abs/2601.14896)  
 **代码**: [GitHub](https://github.com/Cherry-qwq/LcRL-Open)  
-**领域**: 多语言检索增强生成  
+**领域**: 强化学习  
 **关键词**: 多语言RAG, 强化学习, GRPO, 知识偏差, 知识冲突
 
 ## 一句话总结
@@ -122,7 +122,7 @@ LcRL 基于 GRPO 框架，集成两个核心模块：（1）语言耦合 rollout
 - [\[ACL 2026\] Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization](optimizing_user_profiles_via_contextual_bandits_for_retrieval-augmented_llm_pers.md)
 - [\[NeurIPS 2025\] Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/improving_retrieval-augmented_generation_through_multi-agent_reinforcement_learn.md)
 - [\[AAAI 2026\] TAdaRAG: Task Adaptive Retrieval-Augmented Generation via On-the-Fly Knowledge Graph Construction](../../AAAI2026/reinforcement_learning/tadarag_task_adaptive_retrieval-augmented_generation_via_on-the-fly_knowledge_gr.md)
+- [\[ACL 2026\] ChipSeek: Optimizing Verilog Generation via EDA-Integrated Reinforcement Learning](chipseek_optimizing_verilog_generation_via_eda-integrated_reinforcement_learning.md)
 - [\[ACL 2026\] Right at My Level: A Unified Multilingual Framework for Proficiency-Aware Text Simplification](right_at_my_level_a_unified_multilingual_framework_for_proficiency-aware_text_si.md)
-- [\[CVPR 2026\] ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering](../../CVPR2026/reinforcement_learning/reag_reasoning-augmented_generation_for_knowledge-based_visual_question_answerin.md)
 
 <!-- RELATED:END -->

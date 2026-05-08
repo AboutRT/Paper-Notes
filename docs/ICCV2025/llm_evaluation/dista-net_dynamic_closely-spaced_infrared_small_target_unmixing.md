@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2505.19148](https://arxiv.org/abs/2505.19148)  
-**代码**: https://github.com/GrokCV/GrokCSO  
-**领域**: others  
+**代码**: [https://github.com/GrokCV/GrokCSO](https://github.com/GrokCV/GrokCSO)  
+**领域**: LLM评测  
 **关键词**: 红外小目标, 密集目标解混, 深度展开网络, 稀疏重建, 亚像素定位
 
 ## 一句话总结
@@ -136,8 +136,8 @@ $$\mathcal{L} = \mathcal{L}_{\text{discrepancy}} + \gamma \mathcal{L}_{\text{con
 
 - [\[NeurIPS 2025\] Rethinking Evaluation of Infrared Small Target Detection](../../NeurIPS2025/llm_evaluation/rethinking_evaluation_of_infrared_small_target_detection.md)
 - [\[ICCV 2025\] InterSyn: Interleaved Learning for Dynamic Motion Synthesis in the Wild](intersyn_interleaved_learning_for_dynamic_motion_synthesis_in_the_wild.md)
-- [\[ICCV 2025\] SVTRv2: CTC Beats Encoder-Decoder Models in Scene Text Recognition](svtrv2_ctc_beats_encoder-decoder_models_in_scene_text_recognition.md)
-- [\[ICCV 2025\] On the Robustness Tradeoff in Fine-Tuning](on_the_robustness_tradeoff_in_fine-tuning.md)
+- [\[ICCV 2025\] Generative Zoo](generative_zoo.md)
+- [\[ICCV 2025\] Rethinking Few Shot CLIP Benchmarks: A Critical Analysis in the Inductive Setting](rethinking_few_shot_clip_benchmarks_a_critical_analysis_in_the_inductive_setting.md)
 - [\[ICCV 2025\] ODP-Bench: Benchmarking Out-of-Distribution Performance Prediction](odp-bench_benchmarking_out-of-distribution_performance_prediction.md)
 
 <!-- RELATED:END -->

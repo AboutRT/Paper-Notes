@@ -10,7 +10,7 @@ tags:
   - 不确定性估计
   - VQA
   - 模型选择
-  - LMM评测
+  - 多模态VLM
 ---
 
 # Ranked from Within: Ranking Large Multimodal Models Without Labels
@@ -136,9 +136,9 @@ LMM 生成答案时每个 token 都有 softmax 概率分布。利用这些概率
 ## 相关论文
 
 - [\[ICML 2025\] Re-ranking Reasoning Context with Tree Search Makes Large Vision-Language Models Stronger](re-ranking_reasoning_context_with_tree_search_makes_large_vision-language_models.md)
-- [\[CVPR 2025\] Quantization without Tears](../../CVPR2025/multimodal_vlm/quantization_without_tears.md)
 - [\[CVPR 2026\] Towards Multimodal Domain Generalization with Few Labels](../../CVPR2026/multimodal_vlm/towards_multimodal_domain_generalization_with_few_labels.md)
-- [\[CVPR 2025\] PARC: A Quantitative Framework Uncovering the Symmetries within Vision Language Models](../../CVPR2025/multimodal_vlm/parc_a_quantitative_framework_uncovering_the_symmetries_within_vision_language_m.md)
+- [\[CVPR 2025\] Quantization without Tears](../../CVPR2025/multimodal_vlm/quantization_without_tears.md)
+- [\[ICML 2025\] Robust Multimodal Large Language Models Against Modality Conflict](robust_multimodal_large_language_models_against_modality_conflict.md)
 - [\[ACL 2026\] Mitigating Hallucinations in Large Vision-Language Models without Performance Degradation](../../ACL2026/multimodal_vlm/mitigating_hallucinations_in_large_vision-language_models_without_performance_de.md)
 
 <!-- RELATED:END -->

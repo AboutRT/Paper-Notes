@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.19899](https://arxiv.org/abs/2409.19899)  
-**代码**: https://github.com/AlanLuSun/OpenKD (有)  
+**代码**: [https://github.com/AlanLuSun/OpenKD](https://github.com/AlanLuSun/OpenKD)  
 **领域**: 关键点检测 / 目标检测  
 **关键词**: Zero-shot Keypoint Detection, few-shot learning, CLIP, Multimodal Prompting, LLM Parsing
 

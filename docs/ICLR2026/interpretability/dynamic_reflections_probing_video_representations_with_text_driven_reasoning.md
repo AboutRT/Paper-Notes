@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Dynamic Reflections: Probing Video Representations with Text-Driven Reasoning
 description: >-
-  [ICLR 2026][视频表示对齐] 首次将柏拉图表示假说（PRH）扩展到时序领域，系统研究视频-文本表示对齐，发现通过增加测试时的帧数和描述数量可以显著提升对齐分数（翻倍），并提出了精确的参数化测试时缩放定律。
+  [ICLR 2026][可解释性] 首次将柏拉图表示假说（PRH）扩展到时序领域，系统研究视频-文本表示对齐，发现通过增加测试时的帧数和描述数量可以显著提升对齐分数（翻倍），并提出了精确的参数化测试时缩放定律。
 tags:
   - ICLR 2026
-  - 视频表示对齐
+  - 可解释性
   - 柏拉图表示假说
   - 测试时缩放定律
   - 跨模态对齐
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2511.02767](https://arxiv.org/abs/2511.02767)  
 **代码**: [项目页](https://video-prh.github.io)  
-**领域**: llm_reasoning  
+**领域**: 可解释性  
 **关键词**: 视频表示对齐, 柏拉图表示假说, 测试时缩放定律, 跨模态对齐, 自监督视频模型  
 
 ## 一句话总结
@@ -166,9 +166,9 @@ $$\text{score}(n_f, n_c) = S_\infty - (C_f n_f^{-\alpha} + C_c n_c^{-\beta})$$
 ## 相关论文
 
 - [\[ICLR 2026\] Dynamic Reflections: Probing Video Representations with Text Alignment](dynamic_reflections_probing_video_representations_with_text_alignment.md)
+- [\[ICLR 2026\] One Language, Two Scripts: Probing Script-Invariance in LLM Concept Representations](one_language_two_scripts_probing_script-invariance_in_llm_concept_representation.md)
 - [\[ICLR 2026\] Beyond Linear Probes: Dynamic Safety Monitoring for Language Models](beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md)
 - [\[ICLR 2026\] Uncovering Grounding IDs: How External Cues Shape Multimodal Binding](uncovering_grounding_ids_how_external_cues_shape_multimodal_binding.md)
 - [\[ICLR 2026\] The Reasoning Trap — Logical Reasoning as a Mechanistic Pathway to Situational Awareness](the_reasoning_trap_--_logical_reasoning_as_a_mechanistic_pathway_to_situational_.md)
-- [\[ICLR 2026\] RADAR: Reasoning-Ability and Difficulty-Aware Routing for Reasoning LLMs](radar_reasoning-ability_and_difficulty-aware_routing_for_reasoning_llms.md)
 
 <!-- RELATED:END -->

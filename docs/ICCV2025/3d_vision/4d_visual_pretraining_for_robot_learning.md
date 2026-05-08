@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.17230](https://arxiv.org/abs/2508.17230)  
-**代码**: [https://github.com/JackHck/FVP](https://github.com/JackHck/FVP) (有)  
+**代码**: [https://github.com/JackHck/FVP](https://github.com/JackHck/FVP)  
 **领域**: 3D视觉 / 机器人学习  
 **关键词**: 点云预训练, 扩散模型, 模仿学习, 3D表示学习, 机器人操作  
 

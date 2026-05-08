@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 人机协作文本
-  - 细粒度检测
+  - AIGC检测
   - 词级标注
   - AI贡献比
   - 释义攻击
@@ -130,6 +130,6 @@ tags:
 - [\[ACL 2025\] MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts](multisocial_mgt_detection.md)
 - [\[ACL 2025\] Who Writes What: Unveiling the Impact of Author Roles on AI-generated Text Detection](who_writes_what_ai_detection.md)
 - [\[ACL 2025\] Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training](greater_adversarial_mgt_detection.md)
-- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](reliably_bounding_false_positives_a_zero-shot_machine-generated_text_detection_f.md)
+- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](mcp-zero-shot-mgt-detection-via-conformal-prediction.md)
 
 <!-- RELATED:END -->

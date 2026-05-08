@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 多臂老虎机
-  - LLM解码
+  - LLM预训练
   - 解码时对齐
   - 贪心解码
   - 序列函数优化
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.07276](https://arxiv.org/abs/2506.07276)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: 多臂老虎机, LLM解码, 解码时对齐, 贪心解码, 序列函数优化
 
 ## 一句话总结
@@ -195,7 +195,7 @@ $$|u(x_t, \mathbf{y}:\tau) - u(x_t, \mathbf{z}:\tau)| \leq |u(x_t, \mathbf{y}) -
 - [\[ICML 2025\] Evaluating Morphological Alignment of Tokenizers in 70 Languages](evaluating_morphological_alignment_of_tokenizers_in_70_languages.md)
 - [\[ICML 2025\] DipLLM: Fine-Tuning LLM for Strategic Decision-Making in Diplomacy](dipllm_fine-tuning_llm_for_strategic_decision-making_in_diplomacy.md)
 - [\[ACL 2025\] TokAlign: Efficient Vocabulary Adaptation via Token Alignment](../../ACL2025/llm_pretraining/tokalign_vocab_adaptation.md)
-- [\[ACL 2025\] Diversity Explains Inference Scaling Laws: Through a Case Study of Minimum Bayes Risk Decoding](../../ACL2025/llm_pretraining/diversity_explains_inference_scaling_laws_through_a_case_study_of_minimum_bayes_.md)
 - [\[ICML 2025\] LLM Data Selection and Utilization via Dynamic Bi-level Optimization](llm_data_selection_and_utilization_via_dynamic_bi-level_optimization.md)
+- [\[NeurIPS 2025\] Gradient-Weight Alignment as a Train-Time Proxy for Generalization in Classification Tasks](../../NeurIPS2025/llm_pretraining/gradient-weight_alignment_as_a_train-time_proxy_for_generalization_in_classifica.md)
 
 <!-- RELATED:END -->

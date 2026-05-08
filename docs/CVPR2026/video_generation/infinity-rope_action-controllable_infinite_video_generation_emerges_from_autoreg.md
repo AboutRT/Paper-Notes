@@ -9,7 +9,7 @@ tags:
   - 位置编码
   - 无限长视频
   - 动作控制
-  - 推理时方法
+  - 视频生成
 ---
 
 # Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout
@@ -51,7 +51,7 @@ tags:
 
    自回归生成以3帧为一个 block 推进：$\mathbf{B}_f = \{f-2, f-1, f\}$。传统绝对 RoPE 中 $i \gg f_{\text{limit}}$ 时进入未见过的位置区域导致失效。Block-Relativistic RoPE 将时间坐标定义为**移动的局部参考系**：
 
-   $$\tilde{\mathbf{B}}_i = \begin{cases} \mathbf{B}_i, & \text{if } i \leq f_0 \\ \mathbf{B}_{f_0} = \{f_0-2, f_0-1, f_0\}, & \text{otherwise} \end{cases}$$
+    $\tilde{\mathbf{B}}_i = \begin{cases} \mathbf{B}_i, & \text{if } i \leq f_0 \\ \mathbf{B}_{f_0} = \{f_0-2, f_0-1, f_0\}, & \text{otherwise} \end{cases}$
 
    当新 block 生成时，其 RoPE 索引始终被旋转到模型最大帧范围 $f_{\text{limit}}$ 内，而更早的 block 的时间相位被反向旋转以保持相对时间几何不变。设计动机：类似认知神经科学中的"语义化"（semanticization），远期记忆丧失精确时间标记但保留语义信息——最早缓存帧的时间坐标坍缩为共享最小索引 $\mathbf{B}_{\bar{1}} = \{1,1,1\}$。
 
@@ -63,7 +63,7 @@ tags:
 
    通过在时间 RoPE 坐标中引入受控的不连续跳转实现电影级多镜头切换。对当前 block $\mathbf{B}_f = \{f-2, f-1, f\}$，重新映射为：
 
-   $$\mathbf{B}_{f \to f+\Delta} = \{f-2, f+\Delta-1, f+\Delta\}$$
+    $\mathbf{B}_{f \to f+\Delta} = \{f-2, f+\Delta-1, f+\Delta\}$
 
    跳转后的帧被视为"过去上下文"，生成从新的原始时间位置重新开始。由于相对性公式中不存在绝对位置，坐标系随每次 cut 自行偏移，即使大跨度时间/语义跳转后仍能保持身份一致性。
 
@@ -136,10 +136,10 @@ VBench 评测，5秒和60秒视频生成（表格为60秒数据）：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion](../../NeurIPS2025/video_generation/self_forcing_bridging_the_train-test_gap_in_autoregressive_video_diffusion.md)
 - [\[CVPR 2025\] SAW: Toward a Surgical Action World Model via Controllable and Scalable Video Generation](../../CVPR2025/video_generation/saw_toward_a_surgical_action_world_model_via_controllable_and_scalable_video_gen.md)
-- [\[CVPR 2026\] CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video](cubecomposer_spatio-temporal_autoregressive_4k_360_video_generation_from_perspec.md)
 - [\[CVPR 2026\] LAMP: Language-Assisted Motion Planning for Controllable Video Generation](lamp_language-assisted_motion_planning_for_controllable_video_generation.md)
 - [\[CVPR 2026\] FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](flashmotion_few-step_controllable_video_generation_with_trajectory_guidance.md)
+- [\[CVPR 2026\] From Static to Dynamic: Exploring Self-supervised Image-to-Video Representation Transfer Learning](from_static_to_dynamic_exploring_self-supervised_image-to-video_representation_t.md)
+- [\[CVPR 2026\] AutoCut: End-to-end Advertisement Video Editing Based on Multimodal Discretization and Controllable Generation](autocut_end-to-end_advertisement_video_editing_based_on_multimodal_discretizatio.md)
 
 <!-- RELATED:END -->

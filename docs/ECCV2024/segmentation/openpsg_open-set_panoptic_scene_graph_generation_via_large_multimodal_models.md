@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.11213](https://arxiv.org/abs/2407.11213)  
-**代码**: https://github.com/franciszzj/OpenPSG  
+**代码**: [https://github.com/franciszzj/OpenPSG](https://github.com/franciszzj/OpenPSG)  
 **领域**: 场景图生成 / 视觉-语言  
 **关键词**: panoptic scene graph, open-set, relation prediction, large multimodal model, BLIP-2
 
@@ -142,6 +142,6 @@ OpenPSG 包含三个组件：(1) Object Segmenter：使用预训练的 OpenSeeD 
 - [\[ECCV 2024\] CoReS: Orchestrating the Dance of Reasoning and Segmentation](cores_orchestrating_the_dance_of_reasoning_and_segmentation.md)
 - [\[ECCV 2024\] Diffusion Models for Open-Vocabulary Segmentation](diffusion_models_for_open-vocabulary_segmentation.md)
 - [\[ECCV 2024\] A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting](a_simple_latent_diffusion_approach_for_panoptic_segmentation_and_mask_inpainting.md)
-- [\[ECCV 2024\] OLAF: A Plug-and-Play Framework for Enhanced Multi-object Multi-part Scene Parsing](olaf_a_plug-and-play_framework_for_enhanced_multi-object_multi-part_scene_parsin.md)
+- [\[ECCV 2024\] SegGen: Supercharging Segmentation Models with Text2Mask and Mask2Img Synthesis](seggen_supercharging_segmentation_models_with_text2mask_and_mask2img_synthesis.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 语音
-  - Music AVQA
+  - 音频语音
   - sparse learning
   - 多模态
   - token merging
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01319](https://arxiv.org/abs/2506.01319)  
 **代码**: 无  
-**领域**: LLM效率  
+**领域**: 音频语音  
 **关键词**: Music AVQA, sparse learning, multimodal QA, token merging, data efficiency
 
 ## 一句话总结

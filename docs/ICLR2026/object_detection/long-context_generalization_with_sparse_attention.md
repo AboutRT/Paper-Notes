@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.16640](https://arxiv.org/abs/2506.16640)  
 **代码**: [deep-spin/asentmax](https://github.com/deep-spin/asentmax)  
-**领域**: LLM效率 / 注意力机制  
+**领域**: 目标检测  
 **关键词**: 稀疏注意力, 长上下文泛化, α-entmax, 长度外推, Transformer
 
 ## 一句话总结
@@ -144,10 +144,10 @@ Associative Recall 任务（训练长度 64）的长度外推准确率：
 
 ## 相关论文
 
-- [\[ICLR 2026\] Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders](toward_faithful_retrieval-augmented_generation_with_sparse_autoencoders.md)
-- [\[ICLR 2026\] Context Tokens are Anchors: Understanding the Repetition Curse in dMLLMs from an Information Flow Perspective](context_tokens_are_anchors_understanding_the_repetition_curse_in_dmllms_from_an_.md)
-- [\[AAAI 2026\] Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward](../../AAAI2026/object_detection/actor-critic_for_continuous_action_chunks_a_reinforcement_le.md)
 - [\[ICLR 2026\] SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection](spwood_sparse_partial_weakly-supervised_oriented_object_detection.md)
-- [\[ICLR 2026\] Beyond Linearity in Attention Projections: The Case for Nonlinear Queries](beyond_linearity_in_attention_projections_the_case_for_nonlinear_queries.md)
+- [\[ICCV 2025\] Adversarial Attention Perturbations for Large Object Detection Transformers](../../ICCV2025/object_detection/adversarial_attention_perturbations_for_large_object_detection_transformers.md)
+- [\[ECCV 2024\] Rectify the Regression Bias in Long-Tailed Object Detection](../../ECCV2024/object_detection/rectify_the_regression_bias_in_long-tailed_object_detection.md)
+- [\[CVPR 2025\] Learning Class Prototypes for Unified Sparse-Supervised 3D Object Detection](../../CVPR2025/object_detection/learning_class_prototypes_for_unified_sparse-supervised_3d_object_detection.md)
+- [\[CVPR 2026\] AR²-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos](../../CVPR2026/object_detection/ar2-4fv_anchored_referring_and_re-identification_for_long-term_grounding_in_fixe.md)
 
 <!-- RELATED:END -->

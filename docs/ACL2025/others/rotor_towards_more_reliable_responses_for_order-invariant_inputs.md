@@ -8,7 +8,7 @@ tags:
   - 位置偏差
   - 顺序不变性
   - 位置编码
-  - 因果语言模型
+  - 其他
   - 选择路由
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.08662](https://arxiv.org/abs/2502.08662)  
-**代码**: 有 (https://github.com/soyoung97/RoToR)  
-**领域**: NLP / 位置偏差缓解  
+**代码**: 有 ([https://github.com/soyoung97/RoToR](https://github.com/soyoung97/RoToR))  
+**领域**: 其他  
 **关键词**: 位置偏差, 顺序不变性, 位置编码, 因果语言模型, 选择路由
 
 ## 一句话总结
@@ -168,7 +168,7 @@ RoToR 由两个阶段组成：
 - [\[ACL 2025\] Enhancing Transformers for Generalizable First-Order Logical Entailment](enhancing_fol_entailment.md)
 - [\[ACL 2025\] Identifying Reliable Evaluation Metrics for Scientific Text Revision](reliable_eval_metrics_scientific.md)
 - [\[ACL 2025\] Using Source-Side Confidence Estimation for Reliable Translation into Unfamiliar Languages](using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)
-- [\[ACL 2025\] SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](seoe_semantic_eval.md)
 - [\[ACL 2025\] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning](more_a_mixture_of_low-rank_experts_for_adaptive_multi-task_learning.md)
+- [\[ACL 2025\] SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](seoe_semantic_eval.md)
 
 <!-- RELATED:END -->

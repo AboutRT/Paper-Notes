@@ -41,7 +41,7 @@ tags:
 
 1. **竞争优化 (Competitive Optimization)**:
    每个训练迭代中，所有网络在当前batch上计算交叉熵损失 $L_C$，**损失最低的网络被选为教师** $\Theta_T^t$，其余网络作为学生 $\Theta_S^t$。教师网络仅使用分类损失更新参数，而学生网络需要额外学习蒸馏损失和特征损失：
-   $$\Theta_i^{t+1} \leftarrow \begin{cases} \Theta_i^t - \gamma \frac{\partial L_{C_i}}{\partial \Theta_i^t}, & \text{if } \Theta_i^t = \Theta_T^t \\ \Theta_i^t - \gamma \left(\frac{\partial L_{C_i}}{\partial \Theta_i^t} + \frac{\partial L_{D_i}}{\partial \Theta_i^t} + \frac{\partial L_{F_i}}{\partial \Theta_i^t}\right), & \text{otherwise} \end{cases}$$
+    $\Theta_i^{t+1} \leftarrow \begin{cases} \Theta_i^t - \gamma \frac{\partial L_{C_i}}{\partial \Theta_i^t}, & \text{if } \Theta_i^t = \Theta_T^t \\ \Theta_i^t - \gamma \left(\frac{\partial L_{C_i}}{\partial \Theta_i^t} + \frac{\partial L_{D_i}}{\partial \Theta_i^t} + \frac{\partial L_{F_i}}{\partial \Theta_i^t}\right), & \text{otherwise} \end{cases}$
    教师和学生角色在**每个迭代中动态切换**，所有网络都有机会成为教师。
 
 2. **随机扰动 (Stochastic Perturbation)**:
@@ -50,8 +50,8 @@ tags:
 
 3. **多层次知识传递**:
    学生网络从教师处接收两种形式的监督信号：
-   - 蒸馏损失 $L_D$：通过KL散度对齐学生与教师的软标签分布
-   - 特征损失 $L_F$：通过L2损失对齐学生与教师的特征图
+    - 蒸馏损失 $L_D$：通过KL散度对齐学生与教师的软标签分布
+    - 特征损失 $L_F$：通过L2损失对齐学生与教师的特征图
 
 ### 损失函数 / 训练策略
 
@@ -124,8 +124,8 @@ tags:
 
 - [\[ICCV 2025\] Cross-Architecture Distillation Made Simple with Redundancy Suppression](cross-architecture_distillation_made_simple_with_redundancy_suppression.md)
 - [\[ICCV 2025\] Soft Separation and Distillation: Toward Global Uniformity in Federated Unsupervised Learning](soft_separation_and_distillation_toward_global_uniformity_in_federated_unsupervi.md)
-- [\[ECCV 2024\] Improving Knowledge Distillation via Regularizing Feature Direction and Norm](../../ECCV2024/model_compression/improving_knowledge_distillation_via_regularizing_feature_direction_and_norm.md)
-- [\[CVPR 2025\] DELT: A Simple Diversity-driven EarlyLate Training for Dataset Distillation](../../CVPR2025/model_compression/delt_a_simple_diversity-driven_earlylate_training_for_dataset_distillation.md)
 - [\[ECCV 2024\] Anytime Continual Learning for Open Vocabulary Classification](../../ECCV2024/model_compression/anytime_continual_learning_for_open_vocabulary_classification.md)
+- [\[ECCV 2024\] Improving Knowledge Distillation via Regularizing Feature Direction and Norm](../../ECCV2024/model_compression/improving_knowledge_distillation_via_regularizing_feature_direction_and_norm.md)
+- [\[ICCV 2025\] Knowledge Distillation with Refined Logits](knowledge_distillation_with_refined_logits.md)
 
 <!-- RELATED:END -->

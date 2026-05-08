@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 多模态
   - 医学VLM
-  - 异常检测
+  - 多模态VLM
   - 时序追踪
   - 可解释性
   - 热力图
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27176](https://arxiv.org/abs/2603.27176)  
-**代码**: https://github.com/AIDASLab/Medic-AD  
-**领域**: 医学图像  
+**代码**: [https://github.com/AIDASLab/Medic-AD](https://github.com/AIDASLab/Medic-AD)  
+**领域**: 多模态VLM  
 **关键词**: 医学VLM, 异常检测, 时序追踪, 可解释性, 热力图
 
 ## 一句话总结
@@ -120,9 +120,9 @@ Medic-AD 通过三阶段渐进式训练框架——异常检测（<Ano> token）
 ## 相关论文
 
 - [\[CVPR 2026\] Vision-Language Models Encode Clinical Guidelines for Concept-Based Medical Reasoning](vision-language_models_encode_clinical_guidelines_for_concept-based_medical_reas.md)
-- [\[CVPR 2026\] MMR-AD: A Large-Scale Multimodal Dataset for Benchmarking General Anomaly Detection with MLLMs](mmrad_multimodal_anomaly_detection.md)
 - [\[CVPR 2026\] SpatialScore: Towards Comprehensive Evaluation for Spatial Intelligence](spatialscore_towards_comprehensive_evaluation_for_spatial_intelligence.md)
 - [\[CVPR 2026\] Scaling Spatial Intelligence with Multimodal Foundation Models](scaling_spatial_intelligence_with_multimodal_foundation_models.md)
+- [\[CVPR 2026\] MMR-AD: A Large-Scale Multimodal Dataset for Benchmarking General Anomaly Detection with MLLMs](mmrad_multimodal_anomaly_detection.md)
 - [\[CVPR 2026\] Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy](nano-emox_unifying_multimodal_emotional_intelligence_from_perception_to_empathy.md)
 
 <!-- RELATED:END -->

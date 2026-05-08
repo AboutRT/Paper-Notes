@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.07286](https://arxiv.org/abs/2505.07286)  
-**代码**: https://github.com/AlgoMole/MolCRAFT  
+**代码**: [https://github.com/AlgoMole/MolCRAFT](https://github.com/AlgoMole/MolCRAFT)  
 **领域**: 扩散模型 / 分子生成  
 **关键词**: 基于结构的药物设计, Bayesian Flow Network, 多模态噪声调度, VLB优化, 分子几何
 

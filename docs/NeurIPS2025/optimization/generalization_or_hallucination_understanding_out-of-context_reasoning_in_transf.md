@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.10887](https://arxiv.org/abs/2506.10887)  
 **代码**: 无  
-**领域**: optimization / 学习理论  
+**领域**: 优化  
 **关键词**: out-of-context reasoning, 幻觉, 泛化, 隐式偏差, nuclear norm, matrix factorization
 
 ## 一句话总结

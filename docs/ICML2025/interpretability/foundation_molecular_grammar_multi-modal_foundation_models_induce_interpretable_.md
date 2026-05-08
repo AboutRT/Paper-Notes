@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 分子语法
-  - 多模态基础模型
+  - 可解释性
   - 图语法
   - 可解释性
   - 分子生成
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.22948](https://arxiv.org/abs/2505.22948)  
-**代码**: https://github.com/shiningsunnyday/induction (有)  
-**领域**: Image Generation (Molecular Generation)  
+**代码**: [https://github.com/shiningsunnyday/induction](https://github.com/shiningsunnyday/induction)  
+**领域**: 可解释性  
 **关键词**: 分子语法, 多模态基础模型, 图语法, 可解释性, 分子生成
 
 ## 一句话总结
@@ -129,10 +129,10 @@ FMG 利用多模态基础模型（MMFM）的化学知识，通过将分子渲染
 
 ## 相关论文
 
+- [\[ICML 2025\] Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)
 - [\[CVPR 2026\] DINO-QPM: Adapting Visual Foundation Models for Globally Interpretable Image Classification](../../CVPR2026/interpretability/dino-qpm_adapting_visual_foundation_models_for_globally_interpretable_image_clas.md)
-- [\[NeurIPS 2025\] Fantastic Features and Where to Find Them: A Probing Method to Combine Features from Multiple Foundation Models](../../NeurIPS2025/interpretability/fantastic_features_and_where_to_find_them_a_probing_method_to_combine_features_f.md)
+- [\[ICML 2025\] Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)
 - [\[ICML 2025\] SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior](safetyanalyst_interpretable_transparent_and_steerable_safety_moderation_for_ai_b.md)
-- [\[ICML 2025\] Inference-Time Decomposition of Activations (ITDA): A Scalable Approach to Interpreting Large Language Models](inference-time_decomposition_of_activations_itda_a_scalable_approach_to_interpre.md)
-- [\[ICML 2025\] Supernova Event Dataset: Interpreting Large Language Models' Personality through Critical Event Analysis](supernova_event_dataset_interpreting_large_language_models_personality_through_c.md)
+- [\[ICML 2025\] A Cross Modal Knowledge Distillation & Data Augmentation Recipe for Improving Transcriptomics Representations through Morphological Features](a_cross_modal_knowledge_distillation_data_augmentation_recipe_for_improving_tran.md)
 
 <!-- RELATED:END -->

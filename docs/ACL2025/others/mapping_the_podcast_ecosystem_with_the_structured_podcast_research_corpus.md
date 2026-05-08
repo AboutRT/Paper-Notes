@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 播客数据集
-  - 语音转录
+  - 其他
   - 话题建模
   - 社交网络分析
   - 媒体生态系统
@@ -168,8 +168,8 @@ tags:
 
 - [\[ACL 2025\] Research Borderlands: Analysing Writing Across Research Cultures](research_borderlands_analysing_writing_across_research_cultures.md)
 - [\[ACL 2025\] CoAM: Corpus of All-Type Multiword Expressions](coam_corpus_of_all-type_multiword_expressions.md)
-- [\[ACL 2025\] Graph-Structured Trajectory Extraction from Travelogues](graph-structured_trajectory_extraction_from_travelogues.md)
-- [\[ACL 2025\] DRS: Deep Question Reformulation With Structured Output](drs_deep_question_reformulation_with_structured_output.md)
 - [\[NeurIPS 2025\] 笔记5：ReSearch - 学习通过搜索推理](../../NeurIPS2025/others/research_learning_to_reason_with_search_for_llms_via_reinforcement_learning.md)
+- [\[ACL 2025\] Graph-Structured Trajectory Extraction from Travelogues](graph-structured_trajectory_extraction_from_travelogues.md)
+- [\[ACL 2025\] STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond](stricta_structured_reasoning_in_critical_text_assessment_for_peer_review_and_bey.md)
 
 <!-- RELATED:END -->

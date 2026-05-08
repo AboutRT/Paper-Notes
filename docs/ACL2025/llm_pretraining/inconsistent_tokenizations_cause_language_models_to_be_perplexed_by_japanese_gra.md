@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.19599](https://arxiv.org/abs/2505.19599)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: 分词一致性, 日语语法, 心理谓词限制, 困惑度, byte fallback
 
 ## 一句话总结
@@ -178,6 +178,6 @@ Weblab 使用的是**未修改的英语 tokenizer**，导致：
 - [\[ACL 2025\] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models](leancode_understanding_models_better_for_code_simplification_of_pre-trained_larg.md)
 - [\[ACL 2025\] Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation](emergent_abilities_continued_pt.md)
 - [\[ACL 2025\] Large Vocabulary Size Improves Large Language Models](large_vocabulary_size_improves_large_language_models.md)
-- [\[ACL 2025\] Pre-Training Curriculum for Multi-Token Prediction in Language Models](pre-training_curriculum_for_multi-token_prediction_in_language_models.md)
+- [\[ACL 2025\] AsyncLM: Efficient and Adaptive Async Pre-training of Language Models](asynclm_efficient_and_adaptive_async_pre-training_of_language_models.md)
 
 <!-- RELATED:END -->

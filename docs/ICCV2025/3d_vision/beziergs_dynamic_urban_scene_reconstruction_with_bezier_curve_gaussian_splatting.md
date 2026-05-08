@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.22099](https://arxiv.org/abs/2506.22099)  
 **代码**: [github.com/fudan-zvg/BezierGS](https://github.com/fudan-zvg/BezierGS)  
-**领域**: 自动驾驶 / 3D场景重建  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 动态场景重建, Bézier曲线, 新视角合成, 自动驾驶
 
 ## 一句话总结

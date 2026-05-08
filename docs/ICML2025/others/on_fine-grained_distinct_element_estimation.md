@@ -133,10 +133,10 @@ $$\tilde{O}\!\left(\alpha \log n + \max\!\left(\frac{1}{F_0(S)},\, \varepsilon^2
 
 ## 相关论文
 
-- [\[ACL 2025\] DEMO: Reframing Dialogue Interaction with Fine-grained Element Modeling](../../ACL2025/others/demo_reframing_dialogue_interaction_with_fine-grained_element_modeling.md)
 - [\[ACL 2025\] ChartLens: Fine-Grained Visual Attribution in Charts](../../ACL2025/others/chartlens_fine-grained_visual_attribution_in_charts.md)
 - [\[ACL 2025\] FRACTAL: Fine-Grained Scoring from Aggregate Text Labels](../../ACL2025/others/fractal_fine-grained_scoring_from_aggregate_text_labels.md)
-- [\[ICML 2025\] Symmetry-Robust 3D Orientation Estimation](symmetry-robust_3d_orientation_estimation.md)
-- [\[ICML 2025\] Prediction-Powered Adaptive Shrinkage Estimation](prediction-powered_adaptive_shrinkage_estimation.md)
+- [\[ACL 2025\] Guidelines for Fine-grained Sentence-level Arabic Readability Annotation](../../ACL2025/others/guidelines_for_fine-grained_sentence-level_arabic_readability_annotation.md)
+- [\[ACL 2025\] Barec: A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment](../../ACL2025/others/a_large_and_balanced_corpus_for_fine-grained_arabic_readability_assessment.md)
+- [\[ACL 2025\] A Spatio-Temporal Point Process for Fine-Grained Modeling of Reading Behavior](../../ACL2025/others/a_spatio-temporal_point_process_for_fine-grained_modeling_of_reading_behavior.md)
 
 <!-- RELATED:END -->

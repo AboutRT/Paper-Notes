@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.10254](https://arxiv.org/abs/2511.10254)  
-**代码**: https://github.com/RobitsG/Facial-R1  
+**代码**: [https://github.com/RobitsG/Facial-R1](https://github.com/RobitsG/Facial-R1)  
 **领域**: Human Understanding  
 **关键词**: 面部情绪分析, 强化学习, Action Unit, 视觉语言模型, GRPO
 
@@ -134,10 +134,10 @@ Facial-R1 采用三阶段渐进式训练：
 
 ## 相关论文
 
+- [\[ECCV 2024\] Facial Affective Behavior Analysis with Instruction Tuning](../../ECCV2024/human_understanding/facial_affective_behavior_analysis_with_instruction_tuning.md)
 - [\[ICLR 2026\] NeuroGaze-Distill: Brain-informed Distillation and Depression-Inspired Geometric Priors for Robust Facial Emotion Recognition](../../ICLR2026/human_understanding/neurogaze-distill_brain-informed_distillation_and_depression-inspired_geometric_.md)
 - [\[ECCV 2024\] Generalizable Facial Expression Recognition](../../ECCV2024/human_understanding/generalizable_facial_expression_recognition.md)
-- [\[ECCV 2024\] Facial Affective Behavior Analysis with Instruction Tuning](../../ECCV2024/human_understanding/facial_affective_behavior_analysis_with_instruction_tuning.md)
 - [\[CVPR 2026\] A Two-Stage Dual-Modality Model for Facial Expression Recognition](../../CVPR2026/human_understanding/a_two_stage_dual_modality_model_for_facial_expression_recognition.md)
-- [\[AAAI 2026\] From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks](from_imitation_to_discrimination_toward_a_generalized_curriculum_advantage_mecha.md)
+- [\[ICCV 2025\] SynFER: Towards Boosting Facial Expression Recognition with Synthetic Data](../../ICCV2025/human_understanding/synfer_towards_boosting_facial_expression_recognition_with_synthetic_data.md)
 
 <!-- RELATED:END -->

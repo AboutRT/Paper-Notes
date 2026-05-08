@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12873](https://arxiv.org/abs/2603.12873)  
 **代码**: 待确认  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: document watermarking, data hiding, diffusion model, character structure, cross-media robustness
 
 ## 一句话总结

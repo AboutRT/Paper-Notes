@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 多模态
   - 地理定位
-  - 推理链
+  - 多模态VLM
   - VLM评估
   - GeoGuessr
   - 可解释性

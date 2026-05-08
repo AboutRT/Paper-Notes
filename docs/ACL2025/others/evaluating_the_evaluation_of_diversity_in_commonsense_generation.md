@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Evaluating the Evaluation of Diversity in Commonsense Generation
 description: >-
-  [ACL 2025][多样性评估] 对常识生成（GCR）任务中的12种多样性评估指标进行系统元评估，发现基于形式（n-gram）的指标在低质量生成上严重高估多样性，而基于内容（句子嵌入）的指标与人类判断一致性更高，推荐未来 GCR 研究使用 VS-Embed 或 Chamfer Distance 等内容级指标。
+  [ACL 2025][其他] 对常识生成（GCR）任务中的12种多样性评估指标进行系统元评估，发现基于形式（n-gram）的指标在低质量生成上严重高估多样性，而基于内容（句子嵌入）的指标与人类判断一致性更高，推荐未来 GCR 研究使用 VS-Embed 或 Chamfer Distance 等内容级指标。
 tags:
   - ACL 2025
-  - 多样性评估
+  - 其他
   - 常识生成
   - 元评估
   - 内容级指标
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.00514](https://arxiv.org/abs/2506.00514)  
-**代码**: 有 (https://github.com/LivNLP/Evaluating-Diversity-Metrics)  
-**领域**: NLP / 生成评估 / 常识推理  
+**代码**: 有 ([https://github.com/LivNLP/Evaluating-Diversity-Metrics](https://github.com/LivNLP/Evaluating-Diversity-Metrics))  
+**领域**: 其他  
 **关键词**: 多样性评估, 常识生成, 元评估, 内容级指标, LLM标注
 
 ## 一句话总结
@@ -149,6 +149,6 @@ tags:
 - [\[ACL 2025\] What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation](what_matters_in_evaluating_book-length_stories_a_systematic_study_of_long_story_.md)
 - [\[ACL 2025\] Are Bias Evaluation Methods Biased?](are_bias_evaluation_methods_biased.md)
 - [\[ACL 2025\] Spotting Out-of-Character Behavior: Atomic-Level Evaluation of Persona Fidelity in Open-Ended Generation](spotting_out-of-character_behavior_atomic-level_evaluation_of_persona_fidelity_i.md)
-- [\[ACL 2025\] Evaluating Design Decisions for Dual Encoder-based Entity Disambiguation](evaluating_design_decisions_for_dual_encoder-based_entity_disambiguation.md)
+- [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
 
 <!-- RELATED:END -->

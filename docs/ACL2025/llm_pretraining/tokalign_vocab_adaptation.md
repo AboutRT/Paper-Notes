@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 词表替换
-  - Token 对齐
+  - LLM预训练
   - 共现矩阵
   - 跨语言迁移
   - 知识蒸馏
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.03523](https://arxiv.org/abs/2506.03523)  
-**领域**: LLM 效率 / 词表适配  
+**领域**: LLM预训练  
 **关键词**: 词表替换, Token 对齐, 共现矩阵, 跨语言迁移, 知识蒸馏  
 
 ## 一句话总结
@@ -172,10 +172,10 @@ TokAlign 从 token-token 共现的角度出发，分三步完成词表对齐：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Efficient Pre-Training of LLMs via Topology-Aware Communication Alignment on More Than 9600 GPUs](../../NeurIPS2025/llm_pretraining/efficient_pre-training_of_llms_via_topology-aware_communication_alignment_on_mor.md)
-- [\[ACL 2025\] Large Vocabulary Size Improves Large Language Models](large_vocabulary_size_improves_large_language_models.md)
+- [\[NeurIPS 2025\] Vocabulary Customization for Efficient Domain-Specific LLM Deployment](../../NeurIPS2025/llm_pretraining/vocabulary_customization_for_efficient_domain-specific_llm_deployment.md)
 - [\[ACL 2025\] Pre-Training Curriculum for Multi-Token Prediction in Language Models](pre-training_curriculum_for_multi-token_prediction_in_language_models.md)
+- [\[ACL 2025\] Large Vocabulary Size Improves Large Language Models](large_vocabulary_size_improves_large_language_models.md)
 - [\[ACL 2025\] Second Language (Arabic) Acquisition of LLMs via Progressive Vocabulary Expansion](second_language_arabic_acquisition_of_llms_via_progressive_vocabulary_expansion.md)
-- [\[ACL 2025\] Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation](emergent_abilities_continued_pt.md)
+- [\[ACL 2025\] AsyncLM: Efficient and Adaptive Async Pre-training of Language Models](asynclm_efficient_and_adaptive_async_pre-training_of_language_models.md)
 
 <!-- RELATED:END -->

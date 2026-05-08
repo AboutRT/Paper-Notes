@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Learning to Focus: Causal Attention Distillation via Gradient-Guided Token Pruning
 description: >-
-  [NeurIPS 2025][知识蒸馏] 提出Learning to Focus (LeaF)框架，通过梯度引导识别训练数据中的"混淆token"（confounding tokens），在知识蒸馏过程中剪枝这些token以构建反事实样本，使学生模型的注意力对齐到教师模型关注的关键上下文token上，从而提升数学推理和代码生成的准确性。
+  [NeurIPS 2025][可解释性] 提出Learning to Focus (LeaF)框架，通过梯度引导识别训练数据中的"混淆token"（confounding tokens），在知识蒸馏过程中剪枝这些token以构建反事实样本，使学生模型的注意力对齐到教师模型关注的关键上下文token上，从而提升数学推理和代码生成的准确性。
 tags:
   - NeurIPS 2025
-  - 知识蒸馏
+  - 可解释性
   - 因果推理
   - 注意力对齐
   - Token剪枝
@@ -20,7 +20,7 @@ tags:
 
 **代码**: 无
 
-**领域**: 模型压缩 / 知识蒸馏
+**领域**: 可解释性
 
 **关键词**: 知识蒸馏, 因果推理, 注意力对齐, Token剪枝, 混淆因子
 
@@ -178,8 +178,8 @@ $$\mathcal{L} = \lambda \mathcal{L}_{kd} + (1-\lambda) \mathcal{L}_{cd}$$
 
 - [\[NeurIPS 2025\] Efficient Vision-Language Reasoning via Adaptive Token Pruning](efficient_vision-language_reasoning_via_adaptive_token_pruning.md)
 - [\[NeurIPS 2025\] Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers](causal_head_gating_a_framework_for_interpreting_roles_of_attention_heads_in_tran.md)
-- [\[ICML 2025\] Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas](../../ICML2025/interpretability/why_is_spatial_reasoning_hard_for_vlms_an_attention_mechanism_perspective_on_foc.md)
 - [\[NeurIPS 2025\] Dataset Distillation for Pre-Trained Self-Supervised Vision Models](dataset_distillation_for_pre-trained_self-supervised_vision_models.md)
-- [\[NeurIPS 2025\] Why Is Attention Sparse in Particle Transformer?](why_is_attention_sparse_in_particle_transformer.md)
+- [\[NeurIPS 2025\] Discovering Transformer Circuits via a Hybrid Attribution and Pruning Framework](discovering_transformer_circuits_via_a_hybrid_attribution_and_pruning_framework.md)
+- [\[NeurIPS 2025\] Interpretable Next-token Prediction via the Generalized Induction Head](interpretable_next-token_prediction_via_the_generalized_induction_head.md)
 
 <!-- RELATED:END -->

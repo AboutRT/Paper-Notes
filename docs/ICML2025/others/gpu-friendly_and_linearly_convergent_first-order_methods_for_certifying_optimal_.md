@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2603.01306](https://arxiv.org/abs/2603.01306)  
 **代码**: 待确认  
-**领域**: 优化/验证  
+**领域**: 其他  
 **关键词**: 稀疏GLM, 透视松弛, 分支定界, 线性收敛, GPU加速, 对偶间隙重启, 近端方法
 
 ## 一句话总结
@@ -128,8 +128,8 @@ $$\frac{\sigma}{2}\|\boldsymbol{\zeta} - \boldsymbol{\zeta}^\star\|^2 \leq \Phi(
 
 - [\[ACL 2025\] Enhancing Transformers for Generalizable First-Order Logical Entailment](../../ACL2025/others/enhancing_fol_entailment.md)
 - [\[CVPR 2025\] Rooftop Wind Field Reconstruction Using Sparse Sensors: From Deterministic to Generative Learning Methods](../../CVPR2025/others/rooftop_wind_field_reconstruction_using_sparse_sensors_from_deterministic_to_gen.md)
-- [\[ICML 2025\] Position: Solve Layerwise Linear Models First to Understand Neural Dynamical Phenomena](position_solve_layerwise_linear_models_first_to_understand_neural_dynamical_phen.md)
 - [\[CVPR 2025\] ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](../../CVPR2025/others/zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
+- [\[ICML 2025\] Position: Solve Layerwise Linear Models First to Understand Neural Dynamical Phenomena](position_solve_layerwise_linear_models_first_to_understand_neural_dynamical_phen.md)
 - [\[AAAI 2026\] Tractable Weighted First-Order Model Counting with Bounded Treewidth Binary Evidence](../../AAAI2026/others/tractable_weighted_first-order_model_counting_with_bounded_treewidth_binary_evid.md)
 
 <!-- RELATED:END -->

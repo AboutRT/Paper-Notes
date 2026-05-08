@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19377](https://arxiv.org/abs/2503.19377)  
-**代码**: https://github.com/Trustworthy-ML-Lab/posthoc-generative-cbm  
+**代码**: [https://github.com/Trustworthy-ML-Lab/posthoc-generative-cbm](https://github.com/Trustworthy-ML-Lab/posthoc-generative-cbm)  
 **领域**: 扩散模型  
 **关键词**: 概念瓶颈模型, 可解释生成模型, 后置训练, 生成控制, 概念干预
 

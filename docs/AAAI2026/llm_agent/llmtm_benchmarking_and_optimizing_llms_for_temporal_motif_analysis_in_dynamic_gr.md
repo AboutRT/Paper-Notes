@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2512.22266](https://arxiv.org/abs/2512.22266)  
-**代码**: https://github.com/Wjerry5/LLMTM  
+**代码**: [https://github.com/Wjerry5/LLMTM](https://github.com/Wjerry5/LLMTM)  
 **领域**: LLM Agent / 图分析  
 **关键词**: 时序图, 时序motif, 动态图, 结构感知路由, LLM基准
 

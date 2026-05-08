@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.18737](https://arxiv.org/abs/2410.18737)  
-**代码**: https://github.com/thuxmf/recfg  
+**代码**: [https://github.com/thuxmf/recfg](https://github.com/thuxmf/recfg)  
 **领域**: 扩散模型 / 条件生成  
 **关键词**: Classifier-Free Guidance, 期望偏移, 校正引导, 查找表, 后处理方案
 

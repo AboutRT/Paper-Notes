@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 语音
-  - 多模态
+  - 音频语音
   - dynamic modality selection
   - graph convolutional network
   - capsule network
@@ -20,7 +20,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.06328](https://arxiv.org/abs/2511.06328)  
 **代码**: 待确认  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: multimodal sentiment analysis, dynamic modality selection, graph convolutional network, capsule network, cross-modal attention, sequence compression  
 
 ## 一句话总结
@@ -136,7 +136,7 @@ InfoNCE 损失从融合特征反向预测各单模态特征，稳定主模态选
 - [\[AAAI 2026\] PaSE: Prototype-aligned Calibration and Shapley-based Equilibrium for Multimodal Sentiment Analysis](pase_prototype-aligned_calibration_and_shapley-based_equilibrium_for_multimodal_.md)
 - [\[AAAI 2026\] PSA-MF: Personality-Sentiment Aligned Multi-Level Fusion for Multimodal Sentiment Analysis](psa-mf_personality-sentiment_aligned_multi-level_fusion_for_multimodal_sentiment.md)
 - [\[CVPR 2026\] Tri-Subspaces Disentanglement for Multimodal Sentiment Analysis](../../CVPR2026/audio_speech/tri-subspaces_disentanglement_for_multimodal_sentiment_analysis.md)
-- [\[CVPR 2026\] OmniRet: Efficient and High-Fidelity Omni Modality Retrieval](../../CVPR2026/audio_speech/omniret_efficient_and_high-fidelity_omni_modality_retrieval.md)
 - [\[ACL 2026\] Learning Invariant Modality Representation for Robust Multimodal Learning from a Causal Inference Perspective](../../ACL2026/audio_speech/learning_invariant_modality_representation_for_robust_multimodal_learning_from_a.md)
+- [\[CVPR 2026\] OmniRet: Efficient and High-Fidelity Omni Modality Retrieval](../../CVPR2026/audio_speech/omniret_efficient_and_high-fidelity_omni_modality_retrieval.md)
 
 <!-- RELATED:END -->

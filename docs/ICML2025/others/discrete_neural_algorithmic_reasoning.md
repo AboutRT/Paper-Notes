@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - 离散化
-  - 图神经网络
+  - 其他
   - 算法模拟
   - 泛化
   - 可解释性
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2402.11628](https://arxiv.org/abs/2402.11628)  
 **代码**: [yandex-research/dnar](https://github.com/yandex-research/dnar)  
-**领域**: 算法推理 (Neural Algorithmic Reasoning)  
+**领域**: 其他  
 **关键词**: 离散化, 图神经网络, 算法模拟, 泛化, 可解释性, 硬注意力
 
 ## 一句话总结
@@ -153,7 +153,7 @@ DNAR 在**所有任务、所有测试规模**上均达到 100% 节点级和图�
 - [\[ICML 2025\] Positional Attention: Expressivity and Learnability of Algorithmic Computation](positional_attention_expressivity_and_learnability_of_algorithmic_computation.md)
 - [\[ICML 2025\] Optimal Sensor Scheduling and Selection for Continuous-Discrete Kalman Filtering with Auxiliary Dynamics](optimal_sensor_scheduling_and_selection_for_continuous-discrete_kalman_filtering.md)
 - [\[ACL 2025\] Implicit Reasoning in Transformers is Reasoning through Shortcuts](../../ACL2025/others/implicit_reasoning_in_transformers_is_reasoning_through_shortcuts.md)
-- [\[ICLR 2026\] Neural Force Field: Few-shot Learning of Generalized Physical Reasoning](../../ICLR2026/others/neural_force_field_few-shot_learning_of_generalized_physical_reasoning.md)
 - [\[ACL 2025\] Unifying Continuous and Discrete Text Diffusion with Non-simultaneous Diffusion Processes](../../ACL2025/others/neodiff_unified_text_diffusion.md)
+- [\[ICLR 2026\] Neural Force Field: Few-shot Learning of Generalized Physical Reasoning](../../ICLR2026/others/neural_force_field_few-shot_learning_of_generalized_physical_reasoning.md)
 
 <!-- RELATED:END -->

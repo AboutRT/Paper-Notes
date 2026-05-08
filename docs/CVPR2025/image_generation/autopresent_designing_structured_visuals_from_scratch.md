@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.00912](https://arxiv.org/abs/2501.00912)  
 **代码**: [https://github.com/para-lost/AutoPresent](https://github.com/para-lost/AutoPresent)  
-**领域**: 多模态 / 结构化视觉生成  
+**领域**: 图像生成  
 **关键词**: 幻灯片生成, 代码生成, 大语言模型, 视觉设计, benchmark
 
 ## 一句话总结

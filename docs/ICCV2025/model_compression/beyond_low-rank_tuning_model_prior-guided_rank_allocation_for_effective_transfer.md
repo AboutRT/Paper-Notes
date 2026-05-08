@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.00327](https://arxiv.org/abs/2507.00327)  
-**代码**: https://github.com/EndoluminalSurgicalVision-IMR/SR-LoRA  
+**代码**: [https://github.com/EndoluminalSurgicalVision-IMR/SR-LoRA](https://github.com/EndoluminalSurgicalVision-IMR/SR-LoRA)  
 **领域**: 模型压缩 / 参数高效微调  
 **关键词**: LoRA, 稳定秩, 参数高效微调, 秩分配, 少样本迁移学习
 
@@ -155,6 +155,6 @@ SR-LoRA的流程极其简洁：（1）计算预训练模型每个目标层权重
 - [\[NeurIPS 2025\] Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](../../NeurIPS2025/model_compression/data_efficient_adaptation_in_large_language_models_via_continuous_low-rank_fine-.md)
 - [\[NeurIPS 2025\] RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models](../../NeurIPS2025/model_compression/reflora_refactored_low-rank_adaptation_for_efficient_fine-tuning_of_large_models.md)
 - [\[NeurIPS 2025\] Accurate and Efficient Low-Rank Model Merging in Core Space](../../NeurIPS2025/model_compression/accurate_and_efficient_low-rank_model_merging_in_core_space.md)
-- [\[ACL 2025\] DenseLoRA: Dense Low-Rank Adaptation of Large Language Models](../../ACL2025/model_compression/denselora_dense_low-rank_adaptation_of_large_language_models.md)
+- [\[NeurIPS 2025\] Gated Integration of Low-Rank Adaptation for Continual Learning of Large Language Models](../../NeurIPS2025/model_compression/gated_integration_of_low-rank_adaptation_for_continual_learning_of_large_languag.md)
 
 <!-- RELATED:END -->

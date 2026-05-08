@@ -18,8 +18,8 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.13298](https://arxiv.org/abs/2403.13298)  
 **作者**: Byeongho Heo, Song Park, Dongyoon Han, Sangdoo Yun (NAVER AI Lab)  
-**代码**: [https://github.com/naver-ai/rope-vit](https://github.com/naver-ai/rope-vit) (有)  
-**领域**: segmentation / 视觉Transformer  
+**代码**: [https://github.com/naver-ai/rope-vit](https://github.com/naver-ai/rope-vit)  
+**领域**: 图像分割  
 **关键词**: RoPE, 位置编码, Vision Transformer, 分辨率外推, 2D旋转位置嵌入  
 
 ## 一句话总结

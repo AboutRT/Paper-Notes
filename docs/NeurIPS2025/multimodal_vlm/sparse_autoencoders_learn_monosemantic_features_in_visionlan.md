@@ -9,7 +9,7 @@ tags:
   - 稀疏自编码器
   - 单义性
   - CLIP
-  - 可解释性
+  - 多模态VLM
   - 模型引导
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.02821](https://arxiv.org/abs/2504.02821)  
-**代码**: https://github.com/ExplainableML/sae-for-vlm  
+**代码**: [https://github.com/ExplainableML/sae-for-vlm](https://github.com/ExplainableML/sae-for-vlm)  
 **领域**: 多模态VLM  
 **关键词**: 稀疏自编码器, 单义性, CLIP, 可解释性, 模型引导
 
@@ -132,9 +132,9 @@ SAE 训练使用重构目标加稀疏正则：$\mathcal{L}(\mathbf{v}) = \mathca
 ## 相关论文
 
 - [\[ICCV 2025\] SAUCE: Selective Concept Unlearning in Vision-Language Models with Sparse Autoencoders](../../ICCV2025/multimodal_vlm/sauce_selective_concept_unlearning_in_vision-language_models_with_sparse_autoenc.md)
-- [\[NeurIPS 2025\] PermLLM: Learnable Channel Permutation for N:M Sparse Large Language Models](permllm_learnable_channel_permutation_for_nm_sparse_large_language_models.md)
-- [\[NeurIPS 2025\] Approximate Domain Unlearning for Vision-Language Models](approximate_domain_unlearning_for_visionlanguage_models.md)
-- [\[NeurIPS 2025\] DOTA: DistributiOnal Test-time Adaptation of Vision-Language Models](dota_distributional_testtime_adaptation_of_visionlanguage_mo.md)
 - [\[NeurIPS 2025\] Zero-Shot Robustness of Vision Language Models Via Confidence-Aware Weighting](zero-shot_robustness_of_vision_language_models_via_confidence-aware_weighting.md)
+- [\[ICML 2025\] Enhancing Target-unspecific Tasks through a Features Matrix](../../ICML2025/multimodal_vlm/enhancing_target-unspecific_tasks_through_a_features_matrix.md)
+- [\[NeurIPS 2025\] Mint: A Simple Test-Time Adaptation of Vision-Language Models against Common Corruptions](mint_a_simple_testtime_adaptation_of_visionlanguage_models_a.md)
+- [\[NeurIPS 2025\] Adapting Vision-Language Models for Evaluating World Models](adapting_visionlanguage_models_for_evaluating_world_models.md)
 
 <!-- RELATED:END -->

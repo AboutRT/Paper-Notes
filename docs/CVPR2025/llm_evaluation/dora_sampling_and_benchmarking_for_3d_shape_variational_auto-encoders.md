@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders
 description: >-
-  [CVPR 2025][LLM/NLP][3D shape reconstruction] 提出 Dora-VAE，通过 Sharp Edge Sampling (SES) 关注几何锐边区域、Dual Cross-Attention 分别处理均匀和显著采样点，以仅 1,280 个 latent codes（8× 小于 XCube-VAE 的 10,000+）实现更优的 3D 形状重建质量，同时建立了新的 Dora-Bench 评测基准。
+  [CVPR 2025][LLM评测][3D shape reconstruction] 提出 Dora-VAE，通过 Sharp Edge Sampling (SES) 关注几何锐边区域、Dual Cross-Attention 分别处理均匀和显著采样点，以仅 1,280 个 latent codes（8× 小于 XCube-VAE 的 10,000+）实现更优的 3D 形状重建质量，同时建立了新的 Dora-Bench 评测基准。
 tags:
   - CVPR 2025
-  - LLM/NLP
+  - LLM评测
   - 3D shape reconstruction
   - VAE
   - sharp edge sampling
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.17808](https://arxiv.org/abs/2412.17808)  
-**代码**: https://aruichen.github.io/Dora  
-**领域**: 3D视觉  
+**代码**: [https://aruichen.github.io/Dora](https://aruichen.github.io/Dora)  
+**领域**: LLM评测  
 **关键词**: 3D shape reconstruction, VAE, sharp edge sampling, cross-attention, benchmark
 
 ## 一句话总结
@@ -122,10 +122,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Towards In-the-Wild 3D Plane Reconstruction from a Single Image](towards_in-the-wild_3d_plane_reconstruction_from_a_single_image.md)
 - [\[ACL 2025\] Revisiting 3D LLM Benchmarks: Are We Really Testing 3D Capabilities?](../../ACL2025/llm_evaluation/revisiting_3d_llm_benchmarks_are_we_really_testing_3d_capabilities.md)
+- [\[CVPR 2025\] MagicArticulate: Make Your 3D Models Articulation-Ready](magicarticulate_make_your_3d_models_articulation-ready.md)
+- [\[ICCV 2025\] Combinative Matching for Geometric Shape Assembly](../../ICCV2025/llm_evaluation/combinative_matching_for_geometric_shape_assembly.md)
 - [\[ICCV 2025\] 3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark](../../ICCV2025/llm_evaluation/3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)
-- [\[NeurIPS 2025\] Learning Generalizable Shape Completion with SIM(3) Equivariance](../../NeurIPS2025/llm_evaluation/learning_generalizable_shape_completion_with_sim3_equivariance.md)
-- [\[NeurIPS 2025\] HouseLayout3D: A Benchmark and Training-Free Baseline for 3D Layout Estimation in the Wild](../../NeurIPS2025/llm_evaluation/houselayout3d_a_benchmark_and_training-free_baseline_for_3d_layout_estimation_in.md)
-- [\[CVPR 2025\] ComfyBench: Benchmarking LLM-based Agents in ComfyUI for Autonomously Designing Collaborative AI Systems](comfybench_benchmarking_llm-based_agents_in_comfyui_for_autonomously_designing_c.md)
 
 <!-- RELATED:END -->

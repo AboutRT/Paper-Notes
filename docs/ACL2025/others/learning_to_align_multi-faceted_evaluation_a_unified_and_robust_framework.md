@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework
 description: >-
-  [ACL 2025][LLM evaluation] 提出 ARJudge 评估框架，通过微调 Analyzer 自适应生成评估标准并执行文本+代码双驱动分析，配合无需微调的 Refiner 综合判断，在多个评估基准上超越现有微调评估器，尤其在指令遵循评估上通过代码驱动分析提升高达 11.1%。
+  [ACL 2025][其他] 提出 ARJudge 评估框架，通过微调 Analyzer 自适应生成评估标准并执行文本+代码双驱动分析，配合无需微调的 Refiner 综合判断，在多个评估基准上超越现有微调评估器，尤其在指令遵循评估上通过代码驱动分析提升高达 11.1%。
 tags:
   - ACL 2025
-  - LLM evaluation
+  - 其他
   - multi-faceted analysis
   - code-driven evaluation
   - fine-tuned evaluator
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.18874](https://arxiv.org/abs/2502.18874)  
 **代码**: 无  
-**领域**: NLP / LLM 评估  
+**领域**: 其他  
 **关键词**: LLM evaluation, multi-faceted analysis, code-driven evaluation, fine-tuned evaluator, instruction following
 
 ## 一句话总结
@@ -152,9 +152,9 @@ ARJudge 在所有微调评估器中最优，在 LLMBar 上比最佳微调基线 
 ## 相关论文
 
 - [\[ACL 2025\] FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning](fcmr_robust_evaluation_of_financial_cross-modal_multi-hop_reasoning.md)
-- [\[ACL 2025\] Multi-Facet Blending for Faceted Query-by-Example Retrieval](multi-facet_blending_for_faceted_query-by-example_retrieval.md)
 - [\[ACL 2025\] SSUF: A Semi-supervised Scalable Unified Framework for E-commerce Query Classification](a_semi-supervised_scalable_unified_framework_for_e-commerce_query_classification.md)
 - [\[ACL 2025\] A Multi-Persona Framework for Argument Quality Assessment](a_multi-persona_framework_for_argument_quality_assessment.md)
 - [\[ACL 2025\] InspireDebate: Multi-Dimensional Evaluation-Guided Reasoning for Debating](inspiredebate_multidim_evaluation_debating.md)
+- [\[ACL 2025\] Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education](uni-retrieval_a_multi-style_retrieval_framework_for_stems_education.md)
 
 <!-- RELATED:END -->

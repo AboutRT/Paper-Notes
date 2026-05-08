@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.00062](https://arxiv.org/abs/2509.00062)  
-**代码**: https://scaffold.deepexploration.org/ (在线Demo)  
+**代码**: [https://scaffold.deepexploration.org/](https://scaffold.deepexploration.org/) (在线Demo)  
 **领域**: 3D视觉  
 **关键词**: 离散扩散模型, 体素生成, 稀疏结构, 3D生成, Minecraft
 

@@ -9,7 +9,7 @@ tags:
   - 分布覆盖
   - 上下文可操控性
   - 元学习
-  - 语言模型
+  - 信号通信
 ---
 
 # Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.06084](https://arxiv.org/abs/2510.06084)  
 **代码**: [GitHub](https://github.com/tsor13/spectrum)  
-**领域**: signal_comm  
+**领域**: 信号通信  
 **关键词**: 后训练, 分布覆盖, 上下文可操控性, 元学习, 语言模型
 
 ## 一句话总结
@@ -135,9 +135,9 @@ Spectrum Tuning在保持能力引出的同时改善可操控性：
 ## 相关论文
 
 - [\[ACL 2026\] UCS: Estimating Unseen Coverage for Improved In-Context Learning](../../ACL2026/signal_comm/ucs_estimating_unseen_coverage_for_improved_in-context_learning.md)
-- [\[CVPR 2025\] Tuning the Frequencies: Robust Training for Sinusoidal Neural Networks](../../CVPR2025/signal_comm/tuning_the_frequencies_robust_training_for_sinusoidal_neural_networks.md)
 - [\[ICLR 2026\] Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional](multi-modal_data_spectrum_multi-modal_datasets_are_multi-dimensional.md)
-- [\[CVPR 2025\] Neural Video Compression with Context Modulation](../../CVPR2025/signal_comm/neural_video_compression_with_context_modulation.md)
+- [\[CVPR 2025\] Tuning the Frequencies: Robust Training for Sinusoidal Neural Networks](../../CVPR2025/signal_comm/tuning_the_frequencies_robust_training_for_sinusoidal_neural_networks.md)
 - [\[CVPR 2026\] FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection](../../CVPR2026/signal_comm/faar_efficient_frequency-aware_multi-task_fine-tuning_via_automatic_rank_selecti.md)
+- [\[ICLR 2026\] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)
 
 <!-- RELATED:END -->

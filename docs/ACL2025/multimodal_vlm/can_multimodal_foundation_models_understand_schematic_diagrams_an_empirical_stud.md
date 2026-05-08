@@ -7,7 +7,7 @@ tags:
   - ACL 2025 Findings
   - 多模态
   - 示意图理解
-  - 科学文献QA
+  - 多模态VLM
   - 多模态基准
   - 视觉语言模型
   - 信息检索
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025 Findings  
 **arXiv**: [2507.10787](https://arxiv.org/abs/2507.10787)  
-**代码**: https://github.com/yilunzhao/MISS-QA  
+**代码**: [https://github.com/yilunzhao/MISS-QA](https://github.com/yilunzhao/MISS-QA)  
 **领域**: 多模态VLM  
 **关键词**: 示意图理解、科学文献QA、多模态基准、视觉语言模型、信息检索
 
@@ -131,9 +131,9 @@ MISS-QA 基准的构建流程包括：（1）从 arXiv 上的 AI 相关论文中
 ## 相关论文
 
 - [\[NeurIPS 2025\] What Can RL Bring to VLA Generalization? An Empirical Study](../../NeurIPS2025/multimodal_vlm/what_can_rl_bring_to_vla_generalization_an_empirical_study.md)
-- [\[ACL 2025\] SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](sciver_evaluating_foundation_models_for_multimodal_scientific_claim_verification.md)
-- [\[ACL 2025\] Can Multimodal Large Language Models Understand Spatial Relations?](spatialmqa_mllm_spatial_relations.md)
 - [\[ACL 2025\] NegVQA: Can Vision Language Models Understand Negation?](negvqa_can_vision_language_models_understand_negation.md)
-- [\[ACL 2025\] Table Understanding and (Multimodal) LLMs: A Cross-Domain Case Study on Scientific Tables](table_understanding_and_multimodal_llms_a_cross-domain_case_study_on_scientific_.md)
+- [\[ACL 2025\] SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](sciver_evaluating_foundation_models_for_multimodal_scientific_claim_verification.md)
+- [\[NeurIPS 2025\] MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agriculture](../../NeurIPS2025/multimodal_vlm/mirage_a_benchmark_for_multimodal_information-seeking_and_reasoning_in_agricultu.md)
+- [\[ACL 2025\] Can Multimodal Large Language Models Understand Spatial Relations?](spatialmqa_mllm_spatial_relations.md)
 
 <!-- RELATED:END -->

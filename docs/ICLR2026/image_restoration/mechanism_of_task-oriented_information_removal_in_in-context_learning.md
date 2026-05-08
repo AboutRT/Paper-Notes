@@ -9,7 +9,7 @@ tags:
   - in-context learning
   - information removal
   - 去噪
-  - mechanistic interpretability
+  - 图像复原
   - low-rank filter
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.21012](https://arxiv.org/abs/2509.21012)  
 **代码**: 无  
-**领域**: LLM 可解释性 / In-context Learning  
+**领域**: 图像复原  
 **关键词**: in-context learning, information removal, denoising heads, mechanistic interpretability, low-rank filter
 
 ## 一句话总结
@@ -179,8 +179,8 @@ tags:
 
 - [\[CVPR 2025\] Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images](../../CVPR2025/image_restoration/tokenize_image_patches_global_context_fusion_for_effective_haze_removal_in_large.md)
 - [\[ICLR 2026\] ProtoTS: Learning Hierarchical Prototypes for Explainable Time Series Forecasting](protots_learning_hierarchical_prototypes_for_explainable_time_series_forecasting.md)
-- [\[CVPR 2026\] Winner of CVPR2026 NTIRE Challenge on Image Shadow Removal: Semantic and Geometric Guidance for Shadow Removal via Cascaded Refinement](../../CVPR2026/image_restoration/shadow_removal_cascaded_refinement.md)
-- [\[CVPR 2026\] Flickerformer: A Duet of Periodicity and Directionality for Burst Flicker Removal](../../CVPR2026/image_restoration/it_takes_two_a_duet_of_periodicity_and_directionality_for_burst_flicker_removal.md)
 - [\[ACL 2026\] Learning to Extract Rational Evidence via Reinforcement Learning for Retrieval-Augmented Generation](../../ACL2026/image_restoration/learning_to_extract_rational_evidence_via_reinforcement_learning_for_retrieval-a.md)
+- [\[ICLR 2026\] Breaking Scale Anchoring: Frequency Representation Learning for Accurate High-Resolution Inference from Low-Resolution Training](breaking_scale_anchoring_frequency_representation_learning_for_accurate_high-res.md)
+- [\[CVPR 2026\] Learning to Translate Noise for Robust Image Denoising](../../CVPR2026/image_restoration/learning_to_translate_noise_for_robust_image_denoising.md)
 
 <!-- RELATED:END -->

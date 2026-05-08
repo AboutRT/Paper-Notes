@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 旅行规划基准
   - 工具使用
-  - 多轮对话
+  - 推荐系统
   - 隐式偏好
   - 不可解任务
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2512.22673](https://arxiv.org/abs/2512.22673)  
 **代码**: [GitHub](https://github.com/small-xiangcheng/TravelBench)  
-**领域**: LLM智能体/旅行规划  
+**领域**: 推荐系统  
 **关键词**: 旅行规划基准, 工具使用, 多轮对话, 隐式偏好, 不可解任务
 
 ## 一句话总结
@@ -126,8 +126,8 @@ TravelBench 包含三个子集：500个单轮查询（Agent独立用工具解决
 
 - [\[NeurIPS 2025\] Wide-Horizon Thinking and Simulation-Based Evaluation for Real-World LLM Planning with Multifaceted Constraints](../../NeurIPS2025/recommender/wide-horizon_thinking_and_simulation-based_evaluation_for_real-world_llm_plannin.md)
 - [\[ACL 2026\] HORIZON: A Benchmark for in-the-wild User Behaviour Modeling](horizon_a_benchmark_for_in-the-wild_user_behaviour_modeling.md)
-- [\[CVPR 2025\] VisionArena: 230K Real World User-VLM Conversations with Preference Labels](../../CVPR2025/recommender/visionarena_230k_real_world_user-vlm_conversations_with_preference_labels.md)
 - [\[ACL 2026\] Where and What: Reasoning Dynamic and Implicit Preferences in Situated Conversational Recommendation](where_and_what_reasoning_dynamic_and_implicit_preferences_in_situated_conversati.md)
+- [\[AAAI 2026\] Tool4POI: A Tool-Augmented LLM Framework for Next POI Recommendation](../../AAAI2026/recommender/tool4poi_a_tool-augmented_llm_framework_for_next_poi_recommendation.md)
 - [\[AAAI 2026\] TraveLLaMA: A Multimodal Travel Assistant with Large-Scale Dataset and Structured Reasoning](../../AAAI2026/recommender/travellama_a_multimodal_travel_assistant_with_large-scale_dataset_and_structured.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.02160](https://arxiv.org/abs/2504.02160)  
-**代码**: https://github.com/bytedance/UNO  
+**代码**: [https://github.com/bytedance/UNO](https://github.com/bytedance/UNO)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: Subject-driven Generation, 多主体生成, DiT, 模型-数据共进化, 位置编码
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2502.03264](https://arxiv.org/abs/2502.03264)  
 **代码**: [GitHub](https://github.com/MMTS4All/GTM)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: time-series foundation model, frequency-domain attention, representation learning, hybrid masking, multi-task
 
 ## 一句话总结
@@ -157,8 +157,8 @@ GTM 参数量 35.73M，训练速度 0.290s/iter，推理内存 1.25GB，在 A100
 
 - [\[ICLR 2026\] GTM: A General Time-series Model for Enhanced Representation Learning](gtm_a_general_time-series_model_for_enhanced_representation_learning_of_time-series.md)
 - [\[ICLR 2026\] Rating Quality of Diverse Time Series Data by Meta-learning from LLM Judgment](rating_quality_of_diverse_time_series_data_by_meta-learning_from_llm_judgment.md)
+- [\[ICLR 2026\] FeDaL: Federated Dataset Learning for General Time Series Foundation Models](fedal_federated_dataset_learning_for_general_time_series_foundation_models.md)
 - [\[ICLR 2026\] PAANO: Patch-Based Representation Learning for Time-Series Anomaly Detection](paano_patch-based_representation_learning_for_time-series_anomaly_detection.md)
 - [\[AAAI 2026\] Mask the Redundancy: Evolving Masking Representation Learning for Multivariate Time-Series Clustering](../../AAAI2026/time_series/mask_the_redundancy_evolving_masking_representation_learning_for_multivariate_ti.md)
-- [\[ICLR 2026\] Adapt Data to Model: Adaptive Transformation Optimization for Domain-shared Time Series Foundation Models](adapt_data_to_model_adaptive_transformation_optimization_for_domain-shared_time_.md)
 
 <!-- RELATED:END -->

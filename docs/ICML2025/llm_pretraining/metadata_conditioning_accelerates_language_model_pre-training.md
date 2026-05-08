@@ -9,7 +9,7 @@ tags:
   - 元数据条件化
   - 数据效率
   - 可控生成
-  - 语言模型
+  - LLM预训练
 ---
 
 # Metadata Conditioning Accelerates Language Model Pre-training
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.01956](https://arxiv.org/abs/2501.01956)  
 **代码**: [princeton-pli/MeCo](https://github.com/princeton-pli/MeCo)  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: 预训练加速, 元数据条件化, 数据效率, 可控生成, 语言模型
 
 ## 一句话总结
@@ -184,8 +184,8 @@ MeCo 解锁了推理时的可控性——在 prompt 前加上特定 URL（真实
 
 - [\[ICML 2025\] The Sharpness Disparity Principle in Transformers for Accelerating Language Model Pre-Training](the_sharpness_disparity_principle_in_transformers_for_accelerating_language_mode.md)
 - [\[NeurIPS 2025\] Nemotron-CLIMB: CLustering-based Iterative Data Mixture Bootstrapping for Language Model Pre-training](../../NeurIPS2025/llm_pretraining/nemotron-climb_clustering-based_iterative_data_mixture_bootstrapping_for_languag.md)
-- [\[ACL 2025\] AsyncLM: Efficient and Adaptive Async Pre-training of Language Models](../../ACL2025/llm_pretraining/asynclm_efficient_and_adaptive_async_pre-training_of_language_models.md)
 - [\[ICML 2025\] Language Model Developers Should Report Train-Test Overlap](language_model_developers_should_report_train-test_overlap.md)
 - [\[ICML 2025\] Chameleon: A Flexible Data-mixing Framework for Language Model Pretraining and Finetuning](chameleon_a_flexible_data-mixing_framework_for_language_model_pretraining_and_fi.md)
+- [\[ICML 2025\] Large Language Models are Demonstration Pre-Selectors for Themselves](large_language_models_are_demonstration_pre-selectors_for_themselves.md)
 
 <!-- RELATED:END -->

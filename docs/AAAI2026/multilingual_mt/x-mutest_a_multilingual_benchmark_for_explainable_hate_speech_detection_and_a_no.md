@@ -2,10 +2,10 @@
 title: >-
   [论文解读] X-MuTeST: A Multilingual Benchmark for Explainable Hate Speech Detection and A Novel LLM-consulted Explanation Framework
 description: >-
-  [AAAI 2026][仇恨言论检测] 本文提出X-MuTeST框架，结合LLM语义推理和n-gram attention增强的两阶段训练方法，用于可解释的多语言仇恨言论检测，并提供了印地语和泰卢固语的首个token级人工标注理据基准数据集。
+  [AAAI 2026][多语言翻译] 本文提出X-MuTeST框架，结合LLM语义推理和n-gram attention增强的两阶段训练方法，用于可解释的多语言仇恨言论检测，并提供了印地语和泰卢固语的首个token级人工标注理据基准数据集。
 tags:
   - AAAI 2026
-  - 仇恨言论检测
+  - 多语言翻译
   - 可解释性
   - 多语言
   - LLM解释
@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2601.03194](https://arxiv.org/abs/2601.03194)  
-**代码**: https://github.com/ziarehman30/X-MuTeST  
+**代码**: [https://github.com/ziarehman30/X-MuTeST](https://github.com/ziarehman30/X-MuTeST)  
 **领域**: NLP理解 / 多语言  
 **关键词**: 仇恨言论检测, 可解释性, 多语言, LLM解释, 人工标注理据
 
@@ -122,6 +122,6 @@ tags:
 - [\[AAAI 2026\] Focusing on Language: Revealing and Exploiting Language Attention Heads in Multilingual Large Language Models](focusing_on_language_revealing_and_exploiting_language_attention_heads_in_multil.md)
 - [\[ACL 2025\] CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models](../../ACL2025/multilingual_mt/cchall_a_novel_benchmark_for_joint_cross-lingual_and_cross-modal_hallucinations_.md)
 - [\[ACL 2025\] EXECUTE: A Multilingual Benchmark for LLM Token Understanding](../../ACL2025/multilingual_mt/execute_a_multilingual_benchmark_for_llm_token_understanding.md)
-- [\[AAAI 2026\] How Does Alignment Enhance LLMs' Multilingual Capabilities? A Language Neurons Perspective](how_does_alignment_enhance_llms_multilingual_capabilities_a_language_neurons_per.md)
+- [\[ACL 2026\] The GaoYao Benchmark: A Comprehensive Framework for Evaluating Multilingual and Multicultural Abilities of Large Language Models](../../ACL2026/multilingual_mt/the_gaoyao_benchmark_a_comprehensive_framework_for_evaluating_multilingual_and_m.md)
 
 <!-- RELATED:END -->

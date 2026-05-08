@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Efficient Discriminative Joint Encoders for Large Scale Vision-Language Re-ranking
 description: >-
-  [ICLR 2026][视觉语言检索] 提出EDJE（高效判别式联合编码器），通过将视觉特征提取离线化并用轻量级注意力适配器压缩视觉Token，实现50k图文对/秒的高吞吐推理，同时在Flickr（零样本）和COCO（微调）检索上匹配现有联合编码器的性能，每张图仅需49kB存储。
+  [ICLR 2026][信息检索] 提出EDJE（高效判别式联合编码器），通过将视觉特征提取离线化并用轻量级注意力适配器压缩视觉Token，实现50k图文对/秒的高吞吐推理，同时在Flickr（零样本）和COCO（微调）检索上匹配现有联合编码器的性能，每张图仅需49kB存储。
 tags:
   - ICLR 2026
-  - 视觉语言检索
+  - 信息检索
   - 联合编码器
   - 重排序
   - Token压缩
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.06820](https://arxiv.org/abs/2510.06820)  
 **代码**: [GitHub](https://github.com/gitanony04-lab/Simple-Efficient-Fusion)  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 视觉语言检索, 联合编码器, 重排序, Token压缩, 高效推理
 
 ## 一句话总结
@@ -121,7 +121,7 @@ EDJE分为离线和在线两个阶段：
 - [\[ACL 2025\] Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms](../../ACL2025/information_retrieval/llm_reranking_harmful_content.md)
 - [\[CVPR 2025\] Joint Vision-Language Social Bias Removal for CLIP](../../CVPR2025/information_retrieval/joint_vision-language_social_bias_removal_for_clip.md)
 - [\[ICLR 2026\] TokMem: One-Token Procedural Memory for Large Language Models](tokmem_one-token_procedural_memory_for_large_language_models.md)
-- [\[ICLR 2026\] Query-Level Uncertainty in Large Language Models](query-level_uncertainty_in_large_language_models.md)
+- [\[ACL 2026\] Region-R1: Reinforcing Query-Side Region Cropping for Multi-Modal Re-Ranking](../../ACL2026/information_retrieval/region-r1_reinforcing_query-side_region_cropping_for_multi-modal_re-ranking.md)
 - [\[ICLR 2026\] RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference](raee_a_robust_retrieval-augmented_early_exit_framework_for_efficient_inference.md)
 
 <!-- RELATED:END -->

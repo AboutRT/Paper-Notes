@@ -2,10 +2,10 @@
 title: >-
   [论文解读] 笔记5：ReSearch - 学习通过搜索推理
 description: >-
-  [NeurIPS 2025][推理-搜索融合] ReSearch框架将搜索操作嵌入推理链中作为第一类原语，通过GRPO强化学习自动学习何时何如搜索，无需任何推理步骤的监督标注，在多跳QA任务上相对基线平均提升15.81%。
+  [NeurIPS 2025][其他] ReSearch框架将搜索操作嵌入推理链中作为第一类原语，通过GRPO强化学习自动学习何时何如搜索，无需任何推理步骤的监督标注，在多跳QA任务上相对基线平均提升15.81%。
 tags:
   - NeurIPS 2025
-  - 推理-搜索融合
+  - 其他
   - GRPO
   - 多步检索增强
   - 无监督推理
@@ -16,7 +16,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.19470](https://arxiv.org/abs/2503.19470)  
 **代码**: [GitHub](https://github.com/Agent-RL/ReSearch)  
-**领域**: LLM推理, 多跳检索, 强化学习  
+**领域**: 其他  
 **关键词**: 推理-搜索融合, GRPO, 多步检索增强, 无监督推理
 
 ## 一句话总结
@@ -112,7 +112,7 @@ $$r = \begin{cases} \text{F1}(a_{pred}, a_{gt}) & \text{if F1}>0\\ 0.1 & \text{i
 - [\[ACL 2025\] Research Borderlands: Analysing Writing Across Research Cultures](../../ACL2025/others/research_borderlands_analysing_writing_across_research_cultures.md)
 - [\[NeurIPS 2025\] Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications](military_ai_needs_technically-informed_regulation_to_safeguard_ai_research_and_i.md)
 - [\[ACL 2025\] Mapping the Podcast Ecosystem with the Structured Podcast Research Corpus](../../ACL2025/others/mapping_the_podcast_ecosystem_with_the_structured_podcast_research_corpus.md)
-- [\[ACL 2025\] MIR: Methodology Inspiration Retrieval for Scientific Research Problems](../../ACL2025/others/mir_methodology_inspiration_retrieval_for_scientific_research_problems.md)
+- [\[ACL 2025\] All That Glitters is Not Novel: Plagiarism in AI Generated Research](../../ACL2025/others/plagiarism_ai_generated_research.md)
 - [\[ACL 2025\] IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery](../../ACL2025/others/iris_interactive_research_ideation_system_for_accelerating_scientific_discovery.md)
 
 <!-- RELATED:END -->

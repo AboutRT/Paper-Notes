@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.11585](https://arxiv.org/abs/2604.11585)  
-**代码**: https://geomprompt.github.io  
+**代码**: [https://geomprompt.github.io](https://geomprompt.github.io)  
 **领域**: 语义分割  
 **关键词**: RGB-D语义分割, 深度缺失, 模态鲁棒性, 几何提示, 轻量适配
 
@@ -113,6 +113,6 @@ $\mathcal{L} = \mathcal{L}_{seg}(\text{OHEM CE}) + \lambda_{tv} \mathcal{L}_{tv}
 - [\[CVPR 2026\] GeoGuide: Hierarchical Geometric Guidance for Open-Vocabulary 3D Semantic Segmentation](geoguide_hierarchical_geometric_guidance_for_open-vocabulary_3d_semantic_segment.md)
 - [\[CVPR 2026\] REL-SF4PASS: Panoramic Semantic Segmentation with REL Depth Representation and Spherical Fusion](rel-sf4pass_panoramic_semantic_segmentation_with_rel_depth_representation_and_sp.md)
 - [\[CVPR 2026\] Efficient RGB-D Scene Understanding via Multi-task Adaptive Learning and Cross-dimensional Feature Guidance](efficient_rgbd_scene_understanding_via_multitask_a.md)
-- [\[CVPR 2026\] Love Me, Love My Label: Rethinking the Role of Labels in Prompt Retrieval for Visual In-Context Learning](love_me_love_my_label_rethinking_the_role_of_labels_in_prompt_retrieval_for_visu.md)
+- [\[CVPR 2026\] Low-Data Supervised Adaptation Outperforms Prompting for Cloud Segmentation Under Domain Shift](low_data_supervised_adaptation_outperforms_prompting_for_cloud_segmentation.md)
 
 <!-- RELATED:END -->

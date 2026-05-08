@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.05576](https://arxiv.org/abs/2512.05576)  
-**代码**: https://github.com/June01/CureAgent  
+**代码**: [https://github.com/June01/CureAgent](https://github.com/June01/CureAgent)  
 **领域**: 临床AI / 多智能体系统  
 **关键词**: 临床推理, 多智能体, Executor-Analyst, 分层集成, 无训练架构工程
 

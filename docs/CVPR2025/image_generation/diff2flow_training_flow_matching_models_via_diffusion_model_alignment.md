@@ -2,7 +2,7 @@
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.02221](https://arxiv.org/abs/2506.02221)  
-**代码**: https://github.com/CompVis/diff2flow  
+**代码**: [https://github.com/CompVis/diff2flow](https://github.com/CompVis/diff2flow)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: Flow Matching, 扩散模型, 知识迁移, 参数高效微调, 轨迹对齐
 

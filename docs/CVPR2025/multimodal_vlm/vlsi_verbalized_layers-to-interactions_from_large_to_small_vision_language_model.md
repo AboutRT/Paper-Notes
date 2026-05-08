@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 知识蒸馏
+  - 多模态VLM
   - 层间对齐
   - 自然语言蒸馏
   - 小模型VLM
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01822](https://arxiv.org/abs/2412.01822)  
-**代码**: https://github.com/byungkwanlee/VLsI (有)  
+**代码**: [https://github.com/byungkwanlee/VLsI](https://github.com/byungkwanlee/VLsI)  
 **领域**: 多模态VLM  
 **关键词**: 知识蒸馏, 层间对齐, 自然语言蒸馏, 小模型VLM, 高效推理
 
@@ -126,9 +126,9 @@ VLsI 的训练分三步走：(1) Verbalization Step：在大小 VLM 的中间目
 ## 相关论文
 
 - [\[ICCV 2025\] ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers](../../ICCV2025/multimodal_vlm/shortv_efficient_multimodal_large_language_models_by_freezin.md)
-- [\[ACL 2025\] HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval](../../ACL2025/multimodal_vlm/hotelmatch_llm_retrieval.md)
 - [\[CVPR 2025\] MBQ: Modality-Balanced Quantization for Large Vision-Language Models](mbq_modality-balanced_quantization_for_large_vision-language_models.md)
 - [\[CVPR 2025\] Towards Understanding How Knowledge Evolves in Large Vision-Language Models](towards_understanding_how_knowledge_evolves_in_large_vision-language_models.md)
-- [\[CVPR 2025\] Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](continual_learning_with_vision-language_models_via_semantic-geometry_preservatio.md)
+- [\[ACL 2025\] HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval](../../ACL2025/multimodal_vlm/hotelmatch_llm_retrieval.md)
+- [\[CVPR 2025\] CleanSight: Test-Time Attention Purification for Backdoored Large Vision Language Models](test-time_attention_purification_for_backdoored_large_vision_language_models.md)
 
 <!-- RELATED:END -->

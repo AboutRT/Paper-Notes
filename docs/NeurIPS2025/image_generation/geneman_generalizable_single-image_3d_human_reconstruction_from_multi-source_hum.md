@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.18624](https://arxiv.org/abs/2411.18624)  
 **代码**: [项目页面](https://roooooz.github.io/GeneMAN/)  
-**领域**: image_generation / 3D Human Reconstruction  
+**领域**: 图像生成  
 **关键词**: 单图3D人体重建, 扩散模型先验, 无模板重建, 多源数据, Score Distillation Sampling, 纹理优化  
 
 ## 一句话总结
@@ -227,8 +227,8 @@ $$\mathcal{L}_{\text{fine}} = \|I_{\text{fine}} - I_{\text{coarse}}\|_2 + \lambd
 
 - [\[CVPR 2025\] DeClotH: Decomposable 3D Cloth and Human Body Reconstruction from a Single Image](../../CVPR2025/image_generation/decloth_decomposable_3d_cloth_and_human_body_reconstruction_from_a_single_image.md)
 - [\[NeurIPS 2025\] A Data-Driven Prism: Multi-View Source Separation with Diffusion Model Priors](a_data-driven_prism_multi-view_source_separation_with_diffusion_model_priors.md)
+- [\[NeurIPS 2025\] Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable](dual_data_alignment_makes_ai-generated_image_detector_easier_generalizable.md)
 - [\[CVPR 2025\] InterEdit: Navigating Text-Guided Multi-Human 3D Motion Editing](../../CVPR2025/image_generation/interedit_navigating_text-guided_multi-human_3d_motion_editing.md)
 - [\[CVPR 2025\] Comprehensive Relighting: Generalizable and Consistent Monocular Human Relighting and Harmonization](../../CVPR2025/image_generation/comprehensive_relighting_generalizable_and_consistent_monocular_human_relighting.md)
-- [\[NeurIPS 2025\] Diff-ICMH: Harmonizing Machine and Human Vision in Image Compression with Generative Prior](diff-icmh_harmonizing_machine_and_human_vision_in_image_compression_with_generat.md)
 
 <!-- RELATED:END -->

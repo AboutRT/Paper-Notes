@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.03259](https://arxiv.org/abs/2503.03259)  
-**代码**: [https://github.com/gangweix/BANet](https://github.com/gangweix/BANet) (有)  
+**代码**: [https://github.com/gangweix/BANet](https://github.com/gangweix/BANet)  
 **领域**: 3D视觉 / 立体匹配  
 **关键词**: 立体匹配, 移动端部署, 双边聚合, 代价体, 2D卷积  
 
@@ -144,6 +144,6 @@ tags:
 - [\[ICCV 2025\] RobuSTereo: Robust Zero-Shot Stereo Matching under Adverse Weather](robustereo_robust_zero-shot_stereo_matching_under_adverse_weather.md)
 - [\[ICCV 2025\] Stereo Any Video: Temporally Consistent Stereo Matching](stereo_any_video_temporally_consistent_stereo_matching.md)
 - [\[ICCV 2025\] Diving into the Fusion of Monocular Priors for Generalized Stereo Matching](diving_into_the_fusion_of_monocular_priors_for_generalized_stereo_matching.md)
-- [\[CVPR 2025\] DEFOM-Stereo: Depth Foundation Model Based Stereo Matching](../../CVPR2025/3d_vision/defom-stereo_depth_foundation_model_based_stereo_matching.md)
+- [\[ICCV 2025\] CA-I2P: Channel-Adaptive Registration Network with Global Optimal Selection](ca-i2p_channel-adaptive_registration_network_with_global_optimal_selection.md)
 
 <!-- RELATED:END -->

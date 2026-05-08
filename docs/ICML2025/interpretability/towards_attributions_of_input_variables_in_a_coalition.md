@@ -146,7 +146,7 @@ tags:
 - [\[NeurIPS 2025\] Minimizing False-Positive Attributions in Explanations of Non-Linear Models](../../NeurIPS2025/interpretability/minimizing_false-positive_attributions_in_explanations_of_non-linear_models.md)
 - [\[CVPR 2026\] Feature Attribution Stability Suite: How Stable Are Post-Hoc Attributions?](../../CVPR2026/interpretability/feature_attribution_stability_suite_how_stable_are_post-hoc_attributions.md)
 - [\[AAAI 2026\] ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees](../../AAAI2026/interpretability/shapbpt_image_feature_attributions_using_data-aware_binary_partition_trees.md)
-- [\[ICML 2025\] Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective](evolving_prompts_in-context_an_open-ended_self-replicating_perspective.md)
-- [\[ICML 2025\] What Makes an Ensemble (Un)interpretable?](what_makes_an_ensemble_un_interpretable.md)
+- [\[ICML 2025\] Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)
+- [\[ICML 2025\] Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)
 
 <!-- RELATED:END -->

@@ -9,7 +9,7 @@ tags:
   - 视觉Token压缩
   - 注意力冗余
   - Token选择与合并
-  - 高效推理
+  - 多模态VLM
   - 多轮对话
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04467](https://arxiv.org/abs/2412.04467)  
-**代码**: https://github.com/dvlab-research/VisionZip (有)  
+**代码**: [https://github.com/dvlab-research/VisionZip](https://github.com/dvlab-research/VisionZip)  
 **领域**: 多模态VLM  
 **关键词**: 视觉Token压缩, 注意力冗余, Token选择与合并, 高效推理, 多轮对话
 
@@ -135,8 +135,8 @@ VisionZip本身是training-free的，不涉及新的损失函数。可选的Effi
 
 - [\[CVPR 2025\] ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models](forensiczip_more_tokens_are_better_but_not_necessary_in_forensic_vision-language.md)
 - [\[CVPR 2025\] Vision-Language Models Do Not Understand Negation](vision-language_models_do_not_understand_negation.md)
-- [\[CVPR 2025\] VLsI: Verbalized Layers-to-Interactions from Large to Small Vision Language Models](vlsi_verbalized_layers-to-interactions_from_large_to_small_vision_language_model.md)
 - [\[CVPR 2025\] NVILA: Efficient Frontier Visual Language Models](nvila_efficient_frontier_visual_language_models.md)
 - [\[CVPR 2025\] Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA](spatial_reasoning_is_not_a_free_lunch_a_controlled_study_on_llava.md)
+- [\[CVPR 2025\] FastVLM: Efficient Vision Encoding for Vision Language Models](fastvlm_efficient_vision_encoding_for_vision_language_models.md)
 
 <!-- RELATED:END -->

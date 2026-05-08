@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2505.13696](https://arxiv.org/abs/2505.13696)  
 **代码**: 待确认  
-**领域**: 自监督学习 / 世界模型  
+**领域**: 机器人  
 **关键词**: world model, episodic memory, spatial reasoning, cognitive map, navigation
 
 ## 一句话总结

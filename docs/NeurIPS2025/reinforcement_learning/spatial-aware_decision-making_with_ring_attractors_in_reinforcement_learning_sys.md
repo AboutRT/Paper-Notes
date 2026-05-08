@@ -9,14 +9,14 @@ tags:
   - 生物启发RL
   - 空间感知
   - 动作空间编码
-  - 不确定性量化
+  - 强化学习
 ---
 
 # Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2410.03119](https://arxiv.org/abs/2410.03119)  
-**代码**: https://github.com/marcosaura/RA_RL  
+**代码**: [https://github.com/marcosaura/RA_RL](https://github.com/marcosaura/RA_RL)  
 **领域**: 强化学习  
 **关键词**: 环形吸引子, 生物启发RL, 空间感知, 动作空间编码, 不确定性量化
 
@@ -139,7 +139,7 @@ tags:
 - [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](structured_reinforcement_learning_for_combinatorial_decision-making.md)
 - [\[NeurIPS 2025\] Modulation of Temporal Decision-Making in a Deep Reinforcement Learning Agent under the Dual-Task Paradigm](modulation_of_temporal_decision-making_in_a_deep_reinforcement_learning_agent_un.md)
 - [\[CVPR 2025\] Decision SpikeFormer: Spike-Driven Transformer for Decision Making](../../CVPR2025/reinforcement_learning/decision_spikeformer_spike-driven_transformer_for_decision_making.md)
-- [\[NeurIPS 2025\] Reward-Aware Proto-Representations in Reinforcement Learning](reward-aware_proto-representations_in_reinforcement_learning.md)
 - [\[ICML 2025\] Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning](../../ICML2025/reinforcement_learning/divide_and_conquer_grounding_llms_as_efficient_decision-making_agents_via_offlin.md)
+- [\[ICML 2025\] Counterfactual Effect Decomposition in Multi-Agent Sequential Decision Making](../../ICML2025/reinforcement_learning/counterfactual_effect_decomposition_in_multi-agent_sequential_decision_making.md)
 
 <!-- RELATED:END -->

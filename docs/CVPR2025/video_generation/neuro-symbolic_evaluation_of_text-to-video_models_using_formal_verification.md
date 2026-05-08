@@ -2,10 +2,10 @@
 title: >-
   [论文解读] NeuS-V: Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification
 description: >-
-  [CVPR 2025][文本到视频评估] 提出 NeuS-V，首个用形式化验证（时序逻辑+概率模型检验）评估文本到视频（T2V）模型时序一致性的框架——将文本提示转为时序逻辑规范，用 VLM 评分原子命题，构建视频自动机后形式化验证满足概率，在 Gen-3 上与人类标注 Pearson 相关 0.71（VBench 仅 0.47）。
+  [CVPR 2025][视频生成] 提出 NeuS-V，首个用形式化验证（时序逻辑+概率模型检验）评估文本到视频（T2V）模型时序一致性的框架——将文本提示转为时序逻辑规范，用 VLM 评分原子命题，构建视频自动机后形式化验证满足概率，在 Gen-3 上与人类标注 Pearson 相关 0.71（VBench 仅 0.47）。
 tags:
   - CVPR 2025
-  - 文本到视频评估
+  - 视频生成
   - 时序逻辑
   - 模型检验
   - 形式化验证
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16718](https://arxiv.org/abs/2411.16718)  
-**代码**: https://utaustin-swarmlab.github.io/NeuS-V (有)  
+**代码**: [https://utaustin-swarmlab.github.io/NeuS-V](https://utaustin-swarmlab.github.io/NeuS-V)  
 **领域**: 自动驾驶 / 视频生成评估  
 **关键词**: 文本到视频评估, 时序逻辑, 模型检验, 形式化验证, VLM
 
@@ -98,8 +98,8 @@ tags:
 
 - [\[CVPR 2025\] VideoDirector: Precise Video Editing via Text-to-Video Models](videodirector_precise_video_editing_via_text-to-video_models.md)
 - [\[CVPR 2025\] Mimir: Improving Video Diffusion Models for Precise Text Understanding](mimir_improving_video_diffusion_models_for_precise_text_understanding.md)
-- [\[CVPR 2025\] ShotAdapter: Text-to-Multi-Shot Video Generation with Diffusion Models](shotadapter_text-to-multi-shot_video_generation_with_diffusion_models.md)
 - [\[ICCV 2025\] ETVA: Evaluation of Text-to-Video Alignment via Fine-Grained Question Generation and Answering](../../ICCV2025/video_generation/etva_evaluation_of_text-to-video_alignment_via_fine-grained_question_generation_.md)
+- [\[CVPR 2025\] ShotAdapter: Text-to-Multi-Shot Video Generation with Diffusion Models](shotadapter_text-to-multi-shot_video_generation_with_diffusion_models.md)
 - [\[CVPR 2026\] SLVMEval: Synthetic Meta Evaluation Benchmark for Text-to-Long Video Generation](../../CVPR2026/video_generation/slvmeval_synthetic_meta_evaluation_benchmark_for_text-to-long_video_generation.md)
 
 <!-- RELATED:END -->

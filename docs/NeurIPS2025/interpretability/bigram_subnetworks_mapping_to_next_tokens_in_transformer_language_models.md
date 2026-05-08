@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.15471](https://arxiv.org/abs/2504.15471)  
 **代码**: [https://github.com/tylerachang/bigram-subnetworks](https://github.com/tylerachang/bigram-subnetworks)  
-**领域**: LLM/NLP  
+**领域**: 可解释性  
 **关键词**: Bigram子网络, 机制可解释性, 连续稀疏化, 残差流, 最小电路
 
 ## 一句话总结
@@ -117,10 +117,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Interpretable Next-token Prediction via the Generalized Induction Head](interpretable_next-token_prediction_via_the_generalized_induction_head.md)
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](the_trilemma_of_truth_in_large_language_models.md)
 - [\[NeurIPS 2025\] Why Is Attention Sparse in Particle Transformer?](why_is_attention_sparse_in_particle_transformer.md)
+- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](table_as_a_modality_for_large_language_models.md)
 - [\[NeurIPS 2025\] Emergence of Linear Truth Encodings in Language Models](emergence_of_linear_truth_encodings_in_language_models.md)
-- [\[ICLR 2026\] Noise Stability of Transformer Models](../../ICLR2026/interpretability/noise_stability_of_transformer_models.md)
-- [\[NeurIPS 2025\] Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits](beyond_components_singular_vector-based_interpretability_of_transformer_circuits.md)
 
 <!-- RELATED:END -->

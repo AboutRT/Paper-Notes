@@ -8,7 +8,7 @@ tags:
   - 组合泛化
   - 数据多样性
   - 线性分解表示
-  - 视觉推理
+  - LLM预训练
   - 预训练模型
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2507.07102](https://arxiv.org/abs/2507.07102)  
-**代码**: https://github.com/oshapio/visual-compositional-generalization (有)  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/oshapio/visual-compositional-generalization](https://github.com/oshapio/visual-compositional-generalization)  
+**领域**: LLM预训练  
 **关键词**: 组合泛化, 数据多样性, 线性分解表示, 视觉推理, 预训练模型
 
 ## 一句话总结
@@ -131,9 +131,9 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Bayesian Neural Scaling Law Extrapolation with Prior-Data Fitted Networks](bayesian_neural_scaling_law_extrapolation_with_prior-data_fitted_networks.md)
+- [\[ICML 2025\] Scaling Inference-Efficient Language Models](scaling_inference-efficient_language_models.md)
 - [\[NeurIPS 2025\] Differentiable Hierarchical Visual Tokenization](../../NeurIPS2025/llm_pretraining/differentiable_hierarchical_visual_tokenization.md)
-- [\[CVPR 2025\] Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction](../../CVPR2025/llm_pretraining/improving_autoregressive_visual_generation_with_cluster-oriented_token_predictio.md)
 - [\[NeurIPS 2025\] Does Object Binding Naturally Emerge in Large Pretrained Vision Transformers?](../../NeurIPS2025/llm_pretraining/does_object_binding_naturally_emerge_in_large_pretrained_vision_transformers.md)
-- [\[NeurIPS 2025\] Generalization Bounds for Rank-sparse Neural Networks](../../NeurIPS2025/llm_pretraining/generalization_bounds_for_rank-sparse_neural_networks.md)
+- [\[CVPR 2025\] Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction](../../CVPR2025/llm_pretraining/improving_autoregressive_visual_generation_with_cluster-oriented_token_predictio.md)
 
 <!-- RELATED:END -->

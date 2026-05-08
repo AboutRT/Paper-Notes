@@ -8,7 +8,7 @@ tags:
   - 光源操控
   - 视频扩散模型
   - 光照编辑
-  - 自适应token剪枝
+  - 视频生成
   - 物理渲染数据
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.27209](https://arxiv.org/abs/2603.27209)  
 **代码**: [项目页面](https://gengzezhou.github.io/LightMover/)  
-**领域**: 机器人 / 图像编辑  
+**领域**: 视频生成  
 **关键词**: 光源操控, 视频扩散模型, 光照编辑, 自适应token剪枝, 物理渲染数据
 
 ## 一句话总结
@@ -134,8 +134,8 @@ LightMover基于5B参数的视频扩散Transformer，将所有输入编码为伪
 ## 相关论文
 
 - [\[CVPR 2026\] FastLightGen: Fast and Light Video Generation with Fewer Steps and Parameters](fastlightgen_fast_and_light_video_generation_with_fewer_steps_and_parameters.md)
-- [\[CVPR 2026\] Generative Neural Video Compression via Video Diffusion Prior](generative_neural_video_compression_via_video_diffusion_prior.md)
 - [\[CVPR 2026\] SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls](switchcraft_training-free_multi-event_video_generation_with_attention_controls.md)
+- [\[CVPR 2026\] Generative Neural Video Compression via Video Diffusion Prior](generative_neural_video_compression_via_video_diffusion_prior.md)
 - [\[ICLR 2026\] Arbitrary Generative Video Interpolation](../../ICLR2026/video_generation/arbitrary_generative_video_interpolation.md)
 - [\[ICLR 2026\] MotionStream: Real-Time Video Generation with Interactive Motion Controls](../../ICLR2026/video_generation/motionstream_real-time_video_generation_with_interactive_motion_controls.md)
 

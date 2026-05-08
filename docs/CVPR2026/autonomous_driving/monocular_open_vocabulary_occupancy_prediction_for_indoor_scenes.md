@@ -56,16 +56,16 @@ $$\mathcal{G}_i = (\boldsymbol{\mu}_i, \boldsymbol{\Sigma}_i, \alpha_i, \mathbf{
 1. **Poisson-based Gaussian-to-Occupancy (G2O) 算子**：解决弱监督下体素聚合不稳定的问题
 
    已有 G2O 方法存在缺陷：
-   - **GaussianFormer2**：聚合时不考虑 opacity $\alpha_i$，仅用空间核 $p_i(\mathbf{x})$，导致几何聚合与渲染之间不一致
-   - **Bernoulli 方法**：引入 $\tilde{\alpha}_i = \alpha_i p_i(\mathbf{x})$ 后用互补概率规则，但多高斯重叠时并集快速饱和到 1，迫使 opacity 学到很小的值，影响特征渲染质量
+    - **GaussianFormer2**：聚合时不考虑 opacity $\alpha_i$，仅用空间核 $p_i(\mathbf{x})$，导致几何聚合与渲染之间不一致
+    - **Bernoulli 方法**：引入 $\tilde{\alpha}_i = \alpha_i p_i(\mathbf{x})$ 后用互补概率规则，但多高斯重叠时并集快速饱和到 1，迫使 opacity 学到很小的值，影响特征渲染质量
 
    本文将每个高斯的局部贡献视为非齐次 Poisson 过程的事件强度：
 
-   $$h_i(\mathbf{x}) \triangleq \alpha_i p_i(\mathbf{x}), \quad z(\mathbf{x}) = \sum_{i=1}^N h_i(\mathbf{x})$$
+    $h_i(\mathbf{x}) \triangleq \alpha_i p_i(\mathbf{x}), \quad z(\mathbf{x}) = \sum_{i=1}^N h_i(\mathbf{x})$
 
    占用概率定义为"至少发生一个事件"的概率：
 
-   $$p(\mathbf{x}) = 1 - \exp\left(-\sum_{i=1}^N \alpha_i p_i(\mathbf{x})\right)$$
+    $p(\mathbf{x}) = 1 - \exp\left(-\sum_{i=1}^N \alpha_i p_i(\mathbf{x})\right)$
 
    相比 Bernoulli 的乘积形式 $1 - \prod(1-\alpha_i p_i)$，Poisson 的指数加和形式在多高斯重叠时不会饱和，允许 opacity 保持有区分度的值，从而同时稳定几何聚合和语义渲染。
 
@@ -73,11 +73,11 @@ $$\mathcal{G}_i = (\boldsymbol{\mu}_i, \boldsymbol{\Sigma}_i, \alpha_i, \mathbf{
 
    标准 $\alpha$-blending 渲染特征是沿光线多个高斯嵌入的加权混合，导致像素特征成为混合物而非单个高斯的语言对齐表示。本文引入温度化 sigmoid：
 
-   $$\alpha_i = \sigma\left(\frac{\alpha_i^{\text{logit}}}{\tau}\right)$$
+    $\alpha_i = \sigma\left(\frac{\alpha_i^{\text{logit}}}{\tau}\right)$
 
    并设计指数衰减调度：
 
-   $$\tau(r) = \max\{T_{\min}, T_{\max} \cdot (T_{\min}/T_{\max})^r\}$$
+    $\tau(r) = \max\{T_{\min}, T_{\max} \cdot (T_{\min}/T_{\max})^r\}$
 
    其中 $r \in [0,1]$ 为训练进度，默认 $T_{\max}=1, T_{\min}=10^{-3}$。训练初期温度高，保证平滑优化；后期温度低，opacity 趋向 $\{0,1\}$ 二值化，减少特征混合。相比硬 Top-k 选择（如 Dr. Splat），此方法保持端到端可微；相比线性衰减，指数衰减在低温区分配更多迭代步数，效果更好。
 

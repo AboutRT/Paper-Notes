@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.05195](https://arxiv.org/abs/2505.05195)  
 **代码**: 无  
-**领域**: 其他/域适应  
+**领域**: 可解释性  
 **关键词**: 概念瓶颈模型, 域适应, 可解释性, 松弛对齐, 对抗训练
 
 ## 一句话总结
@@ -144,8 +144,8 @@ CUB-200（鸟类分类，背景偏移）：
 ## 相关论文
 
 - [\[ICML 2025\] Avoiding Leakage Poisoning: Concept Interventions Under Distribution Shifts](avoiding_leakage_poisoning_concept_interventions_under_distribution_shifts.md)
+- [\[NeurIPS 2025\] Dynamic Features Adaptation in Networking: Toward Flexible Training and Explainable Inference](../../NeurIPS2025/interpretability/dynamic_features_adaptation_in_networking_toward_flexible_training_and_explainab.md)
 - [\[ICCV 2025\] Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations](../../ICCV2025/interpretability/granular_concept_circuits_toward_a_fine-grained_circuit_discovery_for_concept_re.md)
-- [\[AAAI 2026\] Flexible Concept Bottleneck Model](../../AAAI2026/interpretability/flexible_concept_bottleneck_model.md)
 - [\[CVPR 2025\] TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction](../../CVPR2025/interpretability/tide_domain_generalization.md)
 - [\[AAAI 2026\] Unsupervised Feature Selection Through Group Discovery](../../AAAI2026/interpretability/unsupervised_feature_selection_through_group_discovery.md)
 

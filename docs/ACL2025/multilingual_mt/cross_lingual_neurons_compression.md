@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Cross-Lingual Generalization and Compression: From Language-Specific to Shared Neurons
 description: >-
-  [ACL 2025][多语言模型] 本文通过追踪多语言语言模型预训练过程中的检查点，发现模型从语言特定表示逐渐压缩为跨语言共享表示：中间层的语言识别能力下降、语义概念的"专家神经元"跨语言对齐，操控从西班牙语数据提取的概念神经元后模型反而生成语义相关的英语文本。
+  [ACL 2025][多语言翻译] 本文通过追踪多语言语言模型预训练过程中的检查点，发现模型从语言特定表示逐渐压缩为跨语言共享表示：中间层的语言识别能力下降、语义概念的"专家神经元"跨语言对齐，操控从西班牙语数据提取的概念神经元后模型反而生成语义相关的英语文本。
 tags:
   - ACL 2025
-  - 多语言模型
+  - 多语言翻译
   - 跨语言泛化
   - 压缩假说
   - 神经元分析
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01629](https://arxiv.org/abs/2506.01629)  
 **代码**: [https://github.com/Heidelberg-NLP/cross-lingual-generalization](https://github.com/Heidelberg-NLP/cross-lingual-generalization)  
-**领域**: 模型压缩  
+**领域**: 多语言翻译  
 **关键词**: 多语言模型, 跨语言泛化, 压缩假说, 神经元分析, 机制可解释性  
 
 ## 一句话总结
@@ -127,8 +127,8 @@ tags:
 
 - [\[ACL 2025\] Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models](statement-tuning_enables_efficient_cross-lingual_generalization_in_encoder-only_.md)
 - [\[ACL 2025\] A Case Study of Cross-Lingual Zero-Shot Generalization for Classical Languages in LLMs](a_case_study_of_cross-lingual_zero-shot_generalization_for_classical_languages_i.md)
-- [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 - [\[ACL 2025\] Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](crosslingual_pitfalls.md)
+- [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 - [\[ACL 2025\] Language Fusion for Parameter-Efficient Cross-lingual Transfer (FLARE)](flare_crosslingual_lora.md)
 
 <!-- RELATED:END -->

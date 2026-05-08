@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.22538](https://arxiv.org/abs/2602.22538)  
-**代码**: https://github.com/K1nght/RAIN-Merging (有)  
+**代码**: [https://github.com/K1nght/RAIN-Merging](https://github.com/K1nght/RAIN-Merging)  
 **领域**: LLM推理  
 **关键词**: 模型合并, 指令遵循, 大推理模型, 零空间投影, 注意力引导
 

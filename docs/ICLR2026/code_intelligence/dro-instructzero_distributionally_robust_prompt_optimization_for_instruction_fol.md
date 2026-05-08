@@ -2,10 +2,10 @@
 title: >-
   [论文解读] DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models
 description: >-
-  [ICLR 2026][提示优化] 将分布鲁棒优化（DRO）引入贝叶斯优化框架以实现零样本指令优化，使优化后的指令在分布偏移和对抗性评估条件下仍保持可靠性能。
+  [ICLR 2026][代码智能] 将分布鲁棒优化（DRO）引入贝叶斯优化框架以实现零样本指令优化，使优化后的指令在分布偏移和对抗性评估条件下仍保持可靠性能。
 tags:
   - ICLR 2026
-  - 提示优化
+  - 代码智能
   - 分布鲁棒优化
   - 贝叶斯优化
   - 零样本指令学习
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.15260](https://arxiv.org/abs/2510.15260)  
 **代码**: 未公开  
-**领域**: llm_nlp  
+**领域**: 代码智能  
 **关键词**: 提示优化, 分布鲁棒优化, 贝叶斯优化, 零样本指令学习, 黑盒LLM  
 
 ## 一句话总结
@@ -168,8 +168,8 @@ $$\mathbf{K}_{ij}^t = l(p_i, p_j)^\top L^{-1} S L^{-1} l(p_j, p_i)$$
 ## 相关论文
 
 - [\[ICLR 2026\] ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code](shieldedcode_learning_robust_representations_for_virtual_machine_protected_code.md)
-- [\[ICLR 2026\] Training Large Language Models to Reason in Parallel with Global Forking Tokens](training_large_language_models_to_reason_in_parallel_with_global_reflection.md)
-- [\[ICLR 2026\] KV Cache Transform Coding for Compact Storage in LLM Inference](kv_cache_transform_coding_for_compact_storage_in_llm_inference.md)
+- [\[ICLR 2026\] A Problem-Oriented Perspective and Anchor Verification for Code Optimization](a_problem-oriented_perspective_and_anchor_verification_for_code_optimization.md)
+- [\[ICLR 2026\] Training Large Language Models To Reason In Parallel With Global Forking Tokens](training_large_language_models_to_reason_in_parallel_with_global_forking_tokens.md)
 - [\[ICLR 2026\] The Limits of Long-Context Reasoning in Automated Bug Fixing](the_limits_of_long-context_reasoning_in_automated_bug_fixing.md)
 - [\[ICLR 2026\] Learning to Reason without External Rewards](learning_to_reason_without_external_rewards.md)
 

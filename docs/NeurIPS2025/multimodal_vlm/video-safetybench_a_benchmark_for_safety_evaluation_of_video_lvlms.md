@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.11842](https://arxiv.org/abs/2505.11842)  
-**代码**: https://liuxuannan.github.io/Video-SafetyBench.github.io/  
+**代码**: [https://liuxuannan.github.io/Video-SafetyBench.github.io/](https://liuxuannan.github.io/Video-SafetyBench.github.io/)  
 **领域**: Multimodal / VLM Safety  
 **关键词**: 视频安全, LVLM评测, 攻击成功率, 多模态安全基准, RJScore
 

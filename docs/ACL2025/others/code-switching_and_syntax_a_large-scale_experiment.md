@@ -9,7 +9,7 @@ tags:
   - 句法分析
   - 双语处理
   - 最小对实验
-  - 跨语言泛化
+  - 其他
 ---
 
 # Code-Switching and Syntax: A Large-Scale Experiment
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2506.01846](https://arxiv.org/abs/2506.01846)  
 **代码**: 无  
-**领域**: NLP理解 / 计算语言学  
+**领域**: 其他  
 **关键词**: 语码转换, 句法分析, 双语处理, 最小对实验, 跨语言泛化
 
 ## 一句话总结
@@ -127,9 +127,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Minimal Pair-Based Evaluation of Code-Switching](minimal_pair-based_evaluation_of_code-switching.md)
-- [\[ICML 2025\] Cover Learning for Large-Scale Topology Representation](../../ICML2025/others/cover_learning_for_large-scale_topology_representation.md)
 - [\[ICCV 2025\] Kaputt: A Large-Scale Dataset for Visual Defect Detection](../../ICCV2025/others/kaputt_a_large-scale_dataset_for_visual_defect_detection.md)
 - [\[ACL 2025\] Personalized Generation In Large Model Era: A Survey](personalized_generation_in_large_model_era_a_survey.md)
-- [\[ACL 2025\] DocAgent: A Multi-Agent System for Automated Code Documentation Generation](docagent_a_multi-agent_system_for_automated_code_documentation_generation.md)
+- [\[CVPR 2025\] SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](../../CVPR2025/others/sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md)
+- [\[ACL 2025\] The Time Scale of Redundancy between Prosody and Linguistic Context](the_time_scale_of_redundancy_between_prosody_and_linguistic_context.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional
 description: >-
-  [ICLR 2026][多模态学习] 通过大规模实证研究量化了23个VQA基准中的模态内依赖和模态间依赖，揭示许多旨在消除文本偏置的基准反而引入了图像偏置，提出了多模态数据集的多维度刻画框架。
+  [ICLR 2026][信号通信] 通过大规模实证研究量化了23个VQA基准中的模态内依赖和模态间依赖，揭示许多旨在消除文本偏置的基准反而引入了图像偏置，提出了多模态数据集的多维度刻画框架。
 tags:
   - ICLR 2026
-  - 多模态学习
+  - 信号通信
   - 基准评测
   - 模态依赖
   - VQA
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.23499](https://arxiv.org/abs/2509.23499)  
 **代码**: [GitHub](https://github.com/divyam3897/multimodal-spectrum)  
-**领域**: signal_comm  
+**领域**: 信号通信  
 **关键词**: 多模态基准评估, 模态依赖性, VQA, 数据集偏差, MLLM评估
 
 ## 一句话总结

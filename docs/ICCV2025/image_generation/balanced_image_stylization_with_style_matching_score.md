@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.07601](https://arxiv.org/abs/2503.07601)  
-**代码**: https://github.com/showlab/SMS  
+**代码**: [https://github.com/showlab/SMS](https://github.com/showlab/SMS)  
 **领域**: Image Generation / Style Transfer  
 **关键词**: Style Transfer, Score Distillation, diffusion model, LoRA, Frequency Domain Regularization
 

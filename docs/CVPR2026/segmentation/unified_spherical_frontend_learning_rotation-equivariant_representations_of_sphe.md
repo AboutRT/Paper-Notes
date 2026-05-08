@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.18174](https://arxiv.org/abs/2511.18174)  
-**代码**: https://tomnotch.com/USF (项目页面)  
-**领域**: 3D视觉  
+**代码**: [https://tomnotch.com/USF](https://tomnotch.com/USF) (项目页面)  
+**领域**: 图像分割  
 **关键词**: 球面卷积, 旋转等变性, 广角相机, 全景图像, 镜头无关
 
 ## 一句话总结

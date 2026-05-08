@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - metadata conditioning
-  - URL context
+  - 可解释性
   - context-aware pretraining
   - classifier-free guidance
   - controllable generation
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16570](https://arxiv.org/abs/2505.16570)  
 **代码**: 有（见论文链接）  
-**领域**: LLM 预训练 / 元数据条件化  
+**领域**: 可解释性  
 **关键词**: metadata conditioning, URL context, context-aware pretraining, classifier-free guidance, controllable generation, LLM training efficiency
 
 ## 一句话总结
@@ -138,8 +138,8 @@ tags:
 
 - [\[NeurIPS 2025\] Steering Information Utility in Key-Value Memory for Language Model Post-Training](steering_information_utility_in_key-value_memory_for_language_model_post-trainin.md)
 - [\[NeurIPS 2025\] LLM Probing with Contrastive Eigenproblems: Improving Understanding and Applicability of CCS](llm_probing_with_contrastive_eigenproblems_improving_understanding_and_applicabi.md)
-- [\[AAAI 2026\] LLM Circuit Analyses Are Consistent Across Training and Scale](../../AAAI2026/interpretability/llm_circuit_analyses_consistent_across_training_and_scale.md)
-- [\[NeurIPS 2025\] FastDINOv2: Frequency Based Curriculum Learning Improves Robustness and Training Speed](fastdinov2_frequency_based_curriculum_learning_improves_robustness_and_training_.md)
+- [\[NeurIPS 2025\] VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity](vadtree_explainable_training-free_video_anomaly_detection_via_hierarchical_granu.md)
 - [\[NeurIPS 2025\] Improving Perturbation-based Explanations by Understanding the Role of Uncertainty Calibration](improving_perturbation-based_explanations_by_understanding_the_role_of_uncertain.md)
+- [\[NeurIPS 2025\] Encoding and Understanding Astrophysical Information in Large Language Model-Generated Summaries](encoding_and_understanding_astrophysical_information_in_large_language_model-gen.md)
 
 <!-- RELATED:END -->

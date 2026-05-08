@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.05542](https://arxiv.org/abs/2511.05542)  
 **代码**: [项目主页](https://connectomebench.github.io/)  
-**领域**: segmentation / 连接组计算神经科学  
+**领域**: 图像分割  
 **关键词**: connectomics proofreading, multimodal LLM, 3D neuron mesh, segmentation error detection, benchmark
 
 ## 一句话总结

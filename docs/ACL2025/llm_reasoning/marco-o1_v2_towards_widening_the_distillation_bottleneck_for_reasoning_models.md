@@ -76,7 +76,7 @@ tags:
 
 **MCTS 搜索过程**：
 1. **节点选择**：使用 UCB 公式平衡探索与利用
-   $$UCB(n_i) = \frac{v(n_i)}{n_{\text{visits}}(n_i)} + C\sqrt{\frac{\ln(n_{\text{visits}}(n_{\text{parent}}))}{n_{\text{visits}}(n_i)}}$$
+    $UCB(n_i) = \frac{v(n_i)}{n_{\text{visits}}(n_i)} + C\sqrt{\frac{\ln(n_{\text{visits}}(n_{\text{parent}}))}{n_{\text{visits}}(n_i)}}$
 2. **扩展**：按预定义的节点转移矩阵，提示 LLM 生成该节点类型的内容
 3. **Rollout**：到达 Answer 节点时基于规则计算正确性奖励
 4. **回传**：将奖励回传到树中

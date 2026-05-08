@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets and Benchmarks Track)][多模态][洗绿检测] 构建了首个面向石油天然气行业视频广告的多模态框架分析基准数据集（706 个视频、13 种框架类型、50+ 实体、20 个国家），系统评估了 6 款 VLM 在检测 greenwashing 相关 framing 中的能力，发现 GPT-4.1 零样本在环境类标签上达 79% F1 但绿色创新仅 46%，揭示了隐式框架分析和文化背景理解仍是 VLM 的核心挑战。
 tags:
-  - NeurIPS 2025 (Datasets and Benchmarks Track)
+  - 多模态VLM
   - 多模态
   - 洗绿检测
   - 框架分析
@@ -135,7 +135,7 @@ tags:
 - [\[CVPR 2026\] A3: Towards Advertising Aesthetic Assessment](../../CVPR2026/multimodal_vlm/a3_towards_advertising_aesthetic_assessment.md)
 - [\[NeurIPS 2025\] MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agriculture](mirage_a_benchmark_for_multimodal_information-seeking_and_reasoning_in_agricultu.md)
 - [\[NeurIPS 2025\] MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection](monitor_exploiting_large_language_models_with_instruction_for_online_video_anoma.md)
-- [\[ACL 2025\] WikiMixQA: A Multimodal Benchmark for Question Answering over Tables and Charts](../../ACL2025/multimodal_vlm/wikimixqa_a_multimodal_benchmark_for_question_answering_over_tables_and_charts.md)
 - [\[ICML 2025\] LEMoN: Label Error Detection using Multimodal Neighbors](../../ICML2025/multimodal_vlm/lemon_label_error_detection_using_multimodal_neighbors.md)
+- [\[NeurIPS 2025\] Are Vision Language Models Ready for Clinical Diagnosis? A 3D Medical Benchmark for Tumor-centric Visual Question Answering](are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 概念解释
-  - 可模拟性评估
+  - 其他
   - LLM自动评测
   - 可解释AI
   - 解释质量度量
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.05855](https://arxiv.org/abs/2501.05855)  
-**代码**: https://github.com/AnonymousConSim/ConSim  
-**领域**: 可解释性 / XAI  
+**代码**: [https://github.com/AnonymousConSim/ConSim](https://github.com/AnonymousConSim/ConSim)  
+**领域**: 其他  
 **关键词**: 概念解释, 可模拟性评估, LLM自动评测, 可解释AI, 解释质量度量
 
 ## 一句话总结
@@ -133,8 +133,8 @@ ConSim 是评估框架，不涉及训练。核心度量为 simulatability score 
 
 - [\[ACL 2025\] Enhancing the Comprehensibility of Text Explanations via Unsupervised Concept Discovery](enhancing_the_comprehensibility_of_text_explanations_via_unsupervised_concept_di.md)
 - [\[ACL 2025\] Synthia: Novel Concept Design with Affordance Composition](synthia_novel_concept_design_with_affordance_composition.md)
-- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](a_measure_of_the_system_dependence_of_automated_metrics.md)
 - [\[ACL 2025\] LaTIM: Measuring Latent Token-to-Token Interactions in Mamba Models](latim_measuring_latent_token-to-token_interactions_in_mamba_models.md)
 - [\[ACL 2025\] ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow Development](comfyui-copilot_an_intelligent_assistant_for_automated_workflow_development.md)
+- [\[ACL 2025\] AceCoder: Acing Coder RL via Automated Test-Case Synthesis](acecoder_acing_coder_rl_via_automated.md)
 
 <!-- RELATED:END -->

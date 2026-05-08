@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.13093](https://arxiv.org/abs/2411.13093)  
-**代码**: https://github.com/Leon1207/Video-RAG-master  
-**领域**: 视频理解 / 多模态大模型  
+**代码**: [https://github.com/Leon1207/Video-RAG-master](https://github.com/Leon1207/Video-RAG-master)  
+**领域**: 目标检测  
 **关键词**: 检索增强生成, 长视频理解, 辅助文本, 即插即用, 多模态对齐
 
 ## 一句话总结
@@ -151,9 +151,9 @@ Video-RAG包含三个阶段：
 ## 相关论文
 
 - [\[CVPR 2026\] Beyond Caption-Based Queries for Video Moment Retrieval](../../CVPR2026/object_detection/beyond_caption-based_queries_for_video_moment_retrieval.md)
-- [\[ICLR 2026\] Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders](../../ICLR2026/object_detection/toward_faithful_retrieval-augmented_generation_with_sparse_autoencoders.md)
-- [\[ACL 2026\] RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding](../../ACL2026/object_detection/racer_retrieval-augmented_contextual_rapid_speculative_decoding.md)
-- [\[ICCV 2025\] Sparse-Dense Side-Tuner for Efficient Video Temporal Grounding](../../ICCV2025/object_detection/sparse-dense_side-tuner_for_efficient_video_temporal_grounding.md)
+- [\[CVPR 2025\] DiffVsgg: Diffusion-Driven Online Video Scene Graph Generation](../../CVPR2025/object_detection/diffvsgg_diffusion-driven_online_video_scene_graph_generation.md)
 - [\[ICCV 2025\] Large-scale Pre-training for Grounded Video Caption Generation](../../ICCV2025/object_detection/large-scale_pre-training_for_grounded_video_caption_generation.md)
+- [\[NeurIPS 2025\] MSTAR: Box-Free Multi-Query Scene Text Retrieval with Attention Recycling](mstar_box-free_multi-query_scene_text_retrieval_with_attention_recycling.md)
+- [\[CVPR 2025\] Search and Detect: Training-Free Long Tail Object Detection via Web-Image Retrieval](../../CVPR2025/object_detection/search_and_detect_training-free_long_tail_object_detection_via_web-image_retriev.md)
 
 <!-- RELATED:END -->

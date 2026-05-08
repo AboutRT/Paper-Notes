@@ -8,7 +8,7 @@ tags:
   - Memorization
   - Knowledge Acquisition
   - synthetic data
-  - LLM Training Dynamics
+  - LLM预训练
   - Factual Memorization
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2506.05639](https://arxiv.org/abs/2506.05639)  
-**代码**: https://github.com/jwkirchenbauer/fictionalqa  
-**领域**: LLM/NLP (其他)  
+**代码**: [https://github.com/jwkirchenbauer/fictionalqa](https://github.com/jwkirchenbauer/fictionalqa)  
+**领域**: LLM预训练  
 **关键词**: Memorization, Knowledge Acquisition, synthetic data, LLM Training Dynamics, Factual Memorization
 
 ## 一句话总结
@@ -132,9 +132,9 @@ FictionalQA 的数据生成是一个四阶段的层次化管线：种子事件�
 ## 相关论文
 
 - [\[ACL 2026\] Commonsense Knowledge with Negation: A Resource to Enhance Negation Understanding](../../ACL2026/llm_pretraining/commonsense_knowledge_with_negation_a_resource_to_enhance_negation_understanding.md)
-- [\[ACL 2025\] How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on Continual Pre-Training](../../ACL2025/llm_pretraining/how_do_llms_acquire_new_knowledge_a_knowledge_circuits_perspective_on_continual_.md)
 - [\[ACL 2025\] Second Language (Arabic) Acquisition of LLMs via Progressive Vocabulary Expansion](../../ACL2025/llm_pretraining/second_language_arabic_acquisition_of_llms_via_progressive_vocabulary_expansion.md)
-- [\[ACL 2025\] Incorporating Domain Knowledge into Materials Tokenization](../../ACL2025/llm_pretraining/incorporating_domain_knowledge_into_materials_tokenization.md)
 - [\[ICCV 2025\] Dataset Ownership Verification for Pre-trained Masked Models](../../ICCV2025/llm_pretraining/dataset_ownership_verification_for_pre-trained_masked_models.md)
+- [\[ACL 2025\] Incorporating Domain Knowledge into Materials Tokenization](../../ACL2025/llm_pretraining/incorporating_domain_knowledge_into_materials_tokenization.md)
+- [\[ACL 2025\] How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on Continual Pre-Training](../../ACL2025/llm_pretraining/how_do_llms_acquire_new_knowledge_a_knowledge_circuits_perspective_on_continual_.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2506.15735](https://arxiv.org/abs/2506.15735)  
-**代码**: https://github.com/lasr-eliciting-contexts/ContextBench  
-**领域**: AI安全 / LLM可解释性  
+**代码**: [https://github.com/lasr-eliciting-contexts/ContextBench](https://github.com/lasr-eliciting-contexts/ContextBench)  
+**领域**: 图像生成  
 **关键词**: 上下文修改, 潜在特征激活, AI安全, 稀疏自编码器, 后门检测
 
 ## 一句话总结

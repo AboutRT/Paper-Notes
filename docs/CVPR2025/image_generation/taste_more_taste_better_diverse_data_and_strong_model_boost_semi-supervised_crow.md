@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.17984](https://arxiv.org/abs/2503.17984)  
-**代码**: https://github.com/syhien/taste_more_taste_better  
+**代码**: [https://github.com/syhien/taste_more_taste_better](https://github.com/syhien/taste_more_taste_better)  
 **领域**: 图像生成  
 **关键词**: 半监督学习, 人群计数, 数据增强, 状态空间模型, 伪标签
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.12884](https://arxiv.org/abs/2403.12884)  
-**代码**: https://github.com/ControlNet/HYDRA (有)  
-**领域**: LLM推理  
+**代码**: [https://github.com/ControlNet/HYDRA](https://github.com/ControlNet/HYDRA)  
+**领域**: LLM Agent  
 **关键词**: compositional visual reasoning, reinforcement-learning, LLM agent, dynamic planning, visual foundation models
 
 ## 一句话总结

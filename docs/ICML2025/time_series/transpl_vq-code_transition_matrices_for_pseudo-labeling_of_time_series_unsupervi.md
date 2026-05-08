@@ -57,20 +57,20 @@ TransPL 包含三个阶段：
 ### 关键设计
 
 1. **粗-细双码本（Coarse-Fine Codebook）**: 受经典时间序列加性分解（趋势+残差）启发，设计了两级码本结构。粗码本 $\mathcal{C}_c$（$n_c = 8$ 个码）捕获 patch 的短期趋势，细码本 $\mathcal{C}_f$（$n_f = 64$ 个码）捕获残差细节。量化过程为：
-   $$\tilde{c} = \arg\min_c \|\ell_2(\mathbf{z}) - \ell_2(\mathbf{e}_c)\|_2^2, \quad \mathbf{e}_c \in \mathcal{C}_c$$
-   $$\tilde{f} = \arg\min_f \|\ell_2(\mathbf{z}) - \ell_2(\mathbf{e}_{\tilde{c}}) - \ell_2(\mathbf{e}_f)\|_2^2, \quad \mathbf{e}_f \in \mathcal{C}_f$$
+    $\tilde{c} = \arg\min_c \|\ell_2(\mathbf{z}) - \ell_2(\mathbf{e}_c)\|_2^2, \quad \mathbf{e}_c \in \mathcal{C}_c$
+    $\tilde{f} = \arg\min_f \|\ell_2(\mathbf{z}) - \ell_2(\mathbf{e}_{\tilde{c}}) - \ell_2(\mathbf{e}_f)\|_2^2, \quad \mathbf{e}_f \in \mathcal{C}_f$
    置换熵（Permutation Entropy）分析验证了粗码确实捕获了更简单的全局趋势（低 PE），细码编码了更复杂的残差模式（高 PE）。关键优势是 $n_c \ll n_f$ 使转移矩阵计算可行且无死码（dead codes）。
 
 2. **VQ 码转移矩阵（Transition Matrices）**: 将粗码序列视为离散马尔可夫链，转移概率为：
-   $$p(s_{t+1} = \mathbf{e}_j | s_t = \mathbf{e}_i) = \frac{\text{count}(\mathbf{e}_i, \mathbf{e}_j)}{\text{count}(\mathbf{e}_i)}$$
+    $p(s_{t+1} = \mathbf{e}_j | s_t = \mathbf{e}_i) = \frac{\text{count}(\mathbf{e}_i, \mathbf{e}_j)}{\text{count}(\mathbf{e}_i)}$
    **类别级 TM** 从源域有标签数据按类别和通道分别统计，用于给定类别 $k$ 时目标序列的类条件似然计算（类似 HMM 的极大似然估计）。**通道级 TM** 分别从源域和目标域不区分类别地构建，用于后续通道对齐打分。
 
 3. **通道对齐与贝叶斯伪标签**: 伪标签核心公式为加权通道级类后验的聚合：
-   $$\hat{y}_k = \frac{1}{D} \sum_{d=1}^{D} w_d \frac{p(\mathbf{X}^d | y=k) \, p(k)}{\sum_{c=1}^{K} p(\mathbf{X}^d | y=c) \, p(c)}$$
+    $\hat{y}_k = \frac{1}{D} \sum_{d=1}^{D} w_d \frac{p(\mathbf{X}^d | y=k) \, p(k)}{\sum_{c=1}^{K} p(\mathbf{X}^d | y=c) \, p(c)}$
    其中通道对齐分数 $w_d$ 通过最优传输计算：先求源域和目标域通道 TM 行之间的 Earth Mover's Distance（代价矩阵为码间余弦距离），再经 RBF 核转为对齐分数：
-   $$w_d = \exp\left(-\left(\frac{1}{n_c}\sum_{i=1}^{n_c}\langle\gamma_i^*, \mathbf{M}\rangle\right)^2 / \sigma^2\right)$$
+    $w_d = \exp\left(-\left(\frac{1}{n_c}\sum_{i=1}^{n_c}\langle\gamma_i^*, \mathbf{M}\rangle\right)^2 / \sigma^2\right)$
    直觉是：偏移较小的通道权重更高。类条件对数似然：
-   $$\log p(\mathbf{X}^d | y=k) = \frac{1}{N}\sum_{t=1}^{N-1}\log p(s_{t+1} | s_t, y=k)$$
+    $\log p(\mathbf{X}^d | y=k) = \frac{1}{N}\sum_{t=1}^{N-1}\log p(s_{t+1} | s_t, y=k)$
 
 ### 损失函数 / 训练策略
 

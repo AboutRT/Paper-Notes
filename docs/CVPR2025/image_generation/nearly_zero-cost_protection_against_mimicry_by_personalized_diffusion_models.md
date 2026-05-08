@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.11423](https://arxiv.org/abs/2412.11423)  
-**代码**: https://webtoon.github.io/impasto  
+**代码**: [https://webtoon.github.io/impasto](https://webtoon.github.io/impasto)  
 **领域**: 图像生成/图像保护  
 **关键词**: 图像保护, 对抗扰动, 扩散模型, 个性化防御, 实时保护, 混合扰动
 

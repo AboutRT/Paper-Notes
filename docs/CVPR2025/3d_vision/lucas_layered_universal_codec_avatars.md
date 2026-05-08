@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.19739](https://arxiv.org/abs/2502.19739)  
 **代码**: [https://lsn33096.github.io/LUCAS/](https://lsn33096.github.io/LUCAS/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: codec avatar, layered representation, universal prior model, face-hair disentanglement, Pixel Codec Avatar, Gaussian splatting, real-time rendering
 
 ## 一句话总结

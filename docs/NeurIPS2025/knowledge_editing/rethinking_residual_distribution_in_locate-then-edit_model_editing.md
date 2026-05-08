@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.03748](https://arxiv.org/abs/2502.03748)  
 **代码**: [GitHub](https://github.com/xpq-tech/BLUE)  
-**领域**: llm_nlp  
+**领域**: 知识编辑  
 **关键词**: model editing, locate-then-edit, residual distribution, knowledge editing, MEMIT
 
 ## 一句话总结

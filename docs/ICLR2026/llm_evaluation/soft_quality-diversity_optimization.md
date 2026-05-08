@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2512.00810](https://arxiv.org/abs/2512.00810)
 - **代码**: [https://github.com/conflictednerd/soft-qd](https://github.com/conflictednerd/soft-qd)
-- **领域**: others
+- **领域**: LLM评测
 - **关键词**: quality diversity, optimization, differentiable, evolutionary computation, soft objectives
 
 ## 一句话总结
@@ -142,10 +142,10 @@ for t = 1 to T:
 
 ## 相关论文
 
+- [\[ICLR 2026\] Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces](discount_model_search_for_quality_diversity_optimization_in_high-dimensional_mea.md)
 - [\[ICML 2025\] The Best of Both Worlds: Bridging Quality and Diversity in Data Selection with Bipartite Graph](../../ICML2025/llm_evaluation/the_best_of_both_worlds_bridging_quality_and_diversity_in_data_selection_with_bi.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](prompt_and_parameter_co-optimization_for_large_language_models.md)
 - [\[ICLR 2026\] Breaking the Correlation Plateau: On the Optimization and Capacity Limits of Attention-Based Regressors](breaking_the_correlation_plateau_on_the_optimization_and_capacity_limits_of_atte.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Model Task Adaptation](prompt_and_parameter_co-optimization_for_large_language_model_task_adaptation.md)
-- [\[CVPR 2026\] VGA-Bench: A Unified Benchmark for Video Aesthetics and Generation Quality Evaluation](../../CVPR2026/llm_evaluation/vga_bench_unified_benchmark_for_video_aesthetics_and_generation_quality.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 不完整多视图聚类
-  - 层级语义对齐
+  - LLM评测
   - 动态加权融合
   - MMD
   - 协同补全
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.13887](https://arxiv.org/abs/2510.13887)  
 **代码**: [GitHub](https://github.com/XiaojianDing/2025-NeurIPS-HSACC)  
-**领域**: 多视图学习 / 聚类  
+**领域**: LLM评测  
 **关键词**: 不完整多视图聚类, 层级语义对齐, 动态加权融合, MMD, 协同补全
 
 ## 一句话总结
@@ -130,10 +130,10 @@ HSACC包含三个模块：
 
 ## 相关论文
 
+- [\[AAAI 2026\] Deep Incomplete Multi-View Clustering via Hierarchical Imputation and Alignment](../../AAAI2026/llm_evaluation/deep_incomplete_multi-view_clustering_via_hierarchical_imputation_and_alignment.md)
 - [\[NeurIPS 2025\] MVSMamba: Multi-View Stereo with State Space Model](mvsmamba_multi-view_stereo_with_state_space_model.md)
 - [\[NeurIPS 2025\] Learning Generalizable Shape Completion with SIM(3) Equivariance](learning_generalizable_shape_completion_with_sim3_equivariance.md)
 - [\[NeurIPS 2025\] Efficient Semantic Uncertainty Quantification in Language Models via Diversity-Steered Sampling](efficient_semantic_uncertainty_quantification_in_language_models_via_diversity-s.md)
-- [\[NeurIPS 2025\] OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling](optitree_hierarchical_thoughts_generation_with_tree_search_for_llm_optimization_.md)
 - [\[NeurIPS 2025\] ComPO: Preference Alignment via Comparison Oracles](compo_preference_alignment_via_comparison_oracles.md)
 
 <!-- RELATED:END -->

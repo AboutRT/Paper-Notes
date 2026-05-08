@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.21500](https://arxiv.org/abs/2509.21500)  
-**代码**: https://github.com/Jun-Kai-Zhang/rubrics  
+**代码**: [https://github.com/Jun-Kai-Zhang/rubrics](https://github.com/Jun-Kai-Zhang/rubrics)  
 **领域**: 对齐RLHF  
 **关键词**: reward over-optimization, rubric-based reward, reinforcement fine-tuning, high-reward tail, off-policy data
 
@@ -127,6 +127,6 @@ tags:
 - [\[ICLR 2026\] Towards Understanding Valuable Preference Data for Large Language Model Alignment](towards_understanding_valuable_preference_data_for_large_language_model_alignmen.md)
 - [\[ICLR 2026\] Semantic-aware Wasserstein Policy Regularization for Large Language Model Alignment](semantic-aware_wasserstein_policy_regularization_for_large_language_model_alignm.md)
 - [\[ICLR 2026\] SEMA: Simple yet Effective Learning for Multi-Turn Jailbreak Attacks](sema_simple_yet_effective_learning_for_multi-turn_jailbreak_attacks.md)
-- [\[ICLR 2026\] GuardAlign: Test-time Safety Alignment in Multimodal Large Language Models](guardalign_test-time_safety_alignment_in_multimodal_large_language_models.md)
+- [\[ICLR 2026\] Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search](obscure_but_effective_classical_chinese_jailbreak_prompt_optimization_via_bio-in.md)
 
 <!-- RELATED:END -->

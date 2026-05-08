@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.06221](https://arxiv.org/abs/2506.06221)  
-**代码**: https://sites.google.com/view/biassembly/  
+**代码**: [https://sites.google.com/view/biassembly/](https://sites.google.com/view/biassembly/)  
 **领域**: 机器人  
 **关键词**: 双臂协作, 几何装配, 点级可供性, 碎片重组, 长程规划
 
@@ -117,10 +117,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2026\] BiPreManip: Learning Affordance-Based Bimanual Preparatory Manipulation through Anticipatory Collaboration](../../CVPR2026/robotics/bipremanip_learning_affordance-based_bimanual_preparatory_manipulation_through_a.md)
 - [\[CVPR 2026\] Action–Geometry Prediction with 3D Geometric Prior for Bimanual Manipulation](../../CVPR2026/robotics/actiongeometry_prediction_with_3d_geometric_prior.md)
 - [\[ICCV 2025\] Selective Contrastive Learning for Weakly Supervised Affordance Grounding](../../ICCV2025/robotics/selective_contrastive_learning_for_weakly_supervised_affordance_grounding.md)
 - [\[ICML 2025\] Geometric Contact Flows: Contactomorphisms for Dynamics and Control](geometric_contact_flows_contactomorphisms_for_dynamics_and_control.md)
 - [\[ICML 2025\] Learning to Stop: Deep Learning for Mean Field Optimal Stopping](learning_to_stop_deep_learning_for_mean_field_optimal_stopping.md)
-- [\[ICML 2025\] Efficient Robotic Policy Learning via Latent Space Backward Planning](efficient_robotic_policy_learning_via_latent_space_backward_planning.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - AIGC detection
+  - 多模态VLM
   - explainable AI
   - MLLM
   - DPO
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 无  
 **代码**: [GitHub](https://github.com/wyczzy/AIGI-Holmes)  
-**领域**: AI安全 / AI生成图像检测  
+**领域**: 多模态VLM  
 **关键词**: AIGC detection, explainable AI, MLLM, DPO, collaborative decoding
 
 ## 一句话总结
@@ -108,9 +108,9 @@ Holmes Pipeline包含三个训练阶段和一个推理策略。训练阶段：(1
 ## 相关论文
 
 - [\[ICCV 2025\] Visual-Oriented Fine-Grained Knowledge Editing for MultiModal Large Language Models](visual-oriented_fine-grained_knowledge_editing_for_multimodal_large_language_mod.md)
-- [\[ICCV 2025\] BASIC: Boosting Visual Alignment with Intrinsic Refined Embeddings in Multimodal Large Language Models](basic_boosting_visual_alignment_with_intrinsic_refined_embeddings_in_multimodal_.md)
 - [\[ICCV 2025\] CapeLLM: Support-Free Category-Agnostic Pose Estimation with Multimodal Large Language Models](capellm_support-free_category-agnostic_pose_estimation_with_multimodal_large_lan.md)
+- [\[ICCV 2025\] BASIC: Boosting Visual Alignment with Intrinsic Refined Embeddings in Multimodal Large Language Models](basic_boosting_visual_alignment_with_intrinsic_refined_embeddings_in_multimodal_.md)
+- [\[ICCV 2025\] Spatial Preference Rewarding for MLLMs Spatial Understanding](spatial_preference_rewarding_for_mllms_spatial_understanding.md)
 - [\[ICCV 2025\] DocThinker: Explainable Multimodal Large Language Models with Rule-based Reinforcement Learning for Document Understanding](docthinker_explainable_multimodal_large_language_models_with.md)
-- [\[ICCV 2025\] AutoComPose: Automatic Generation of Pose Transition Descriptions for Composed Pose Retrieval Using Multimodal LLMs](autocompose_automatic_generation_of_pose_transition_descriptions_for_composed_po.md)
 
 <!-- RELATED:END -->

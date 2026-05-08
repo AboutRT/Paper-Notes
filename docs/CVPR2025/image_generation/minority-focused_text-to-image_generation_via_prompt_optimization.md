@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.07838](https://arxiv.org/abs/2410.07838)  
-**代码**: https://github.com/soobin-um/MinorityPrompt  
+**代码**: [https://github.com/soobin-um/MinorityPrompt](https://github.com/soobin-um/MinorityPrompt)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 少数样本生成, Prompt优化, 文本到图像, 低密度采样, 扩散模型偏见
 

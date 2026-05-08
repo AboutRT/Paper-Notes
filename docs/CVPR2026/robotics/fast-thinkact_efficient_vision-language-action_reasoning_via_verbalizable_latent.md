@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2601.09708](https://arxiv.org/abs/2601.09708)  
 **代码**: [项目主页](https://jasper0314-huang.github.io/fast-thinkact/)  
-**领域**: robotics  
+**领域**: 机器人  
 **关键词**: VLA, 推理, latent CoT, 知识蒸馏, 偏好学习, 机器人操作
 
 ## 一句话总结
@@ -188,7 +188,7 @@ LIBERO 超越 ThinkAct-3B 6.6%，SimplerEnv 超 4.0%，延迟降低 7×。
 - [\[NeurIPS 2025\] ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning](../../NeurIPS2025/robotics/thinkact_vision-language-action_reasoning_via_reinforced_visual_latent_planning.md)
 - [\[CVPR 2026\] Towards Open Environments and Instructions: General Vision-Language Navigation via Fast-Slow Interactive Reasoning](towards_open_environments_and_instructions_general_vision-language_navigation_vi.md)
 - [\[CVPR 2026\] Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](adaptive_action_chunking_at_inference-time_for_vision-language-action_models.md)
+- [\[CVPR 2026\] DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation](decovln_decoupling_observation_reasoning_and_correction_for_vision-and-language_.md)
 - [\[CVPR 2026\] SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](sapave_towards_active_perception_and_manipulation_in_vision-language-action_mode.md)
-- [\[ICLR 2026\] TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models](../../ICLR2026/robotics/twinvla_data-efficient_bimanual_manipulation_with_twin_single-arm_vision-languag.md)
 
 <!-- RELATED:END -->

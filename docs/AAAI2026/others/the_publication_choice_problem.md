@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 出版博弈
-  - 博弈论均衡
+  - 其他
   - 学术期刊影响力
   - Spotlight标签
   - 研究者策略
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.13678](https://arxiv.org/abs/2511.13678)  
 **代码**: 无  
-**领域**: 博弈论 / 科学计量学  
+**领域**: 其他  
 **关键词**: 出版博弈, 博弈论均衡, 学术期刊影响力, Spotlight标签, 研究者策略
 
 ## 一句话总结
@@ -128,8 +128,8 @@ tags:
 
 - [\[AAAI 2026\] Automated Reproducibility Has a Problem Statement Problem](automated_reproducibility_has_a_problem_statement_problem.md)
 - [\[ACL 2025\] Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction](../../ACL2025/others/distractor_gen_multiple_choice.md)
-- [\[ICLR 2026\] Optimizer Choice Matters for the Emergence of Neural Collapse](../../ICLR2026/others/optimizer_choice_matters_for_the_emergence_of_neural_collapse.md)
-- [\[AAAI 2026\] Agent-SAMA: State-Aware Mobile Assistant](agent-sama_state-aware_mobile_assistant.md)
-- [\[AAAI 2026\] Rethinking Flow and Diffusion Bridge Models for Speech Enhancement](rethinking_flow_and_diffusion_bridge_models_for_speech_enhancement.md)
+- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](../../ICLR2026/others/an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
+- [\[AAAI 2026\] How Wide and How Deep? Mitigating Over-Squashing of GNNs via Channel Capacity Constrained Estimation](how_wide_and_how_deep_mitigating_over-squashing_of_gnns_via_channel_capacity_con.md)
+- [\[AAAI 2026\] Provably Data-Driven Projection Method for Quadratic Programming](provably_data-driven_projection_method_for_quadratic_programming.md)
 
 <!-- RELATED:END -->

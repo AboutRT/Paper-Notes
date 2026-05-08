@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Semantic Satellite Communications for Synchronized Audiovisual Reconstruction
 description: >-
-  [CVPR 2025][语义通信] 本文提出了一个面向卫星通信场景的自适应多模态语义传输系统，通过双流生成架构（视频驱动音频 / 音频驱动视频）灵活切换传输路径，结合动态知识库更新机制和 LLM 智能决策模块，在极其有限的卫星带宽下实现高保真的音视频同步重建。
+  [CVPR 2025][视频生成] 本文提出了一个面向卫星通信场景的自适应多模态语义传输系统，通过双流生成架构（视频驱动音频 / 音频驱动视频）灵活切换传输路径，结合动态知识库更新机制和 LLM 智能决策模块，在极其有限的卫星带宽下实现高保真的音视频同步重建。
 tags:
   - CVPR 2025
-  - 语义通信
+  - 视频生成
   - 卫星通信
   - 音视频同步重建
   - LLM智能体
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2603.10791](https://arxiv.org/abs/2603.10791)  
 **代码**: 无  
-**领域**: 视频理解 / 语义通信  
+**领域**: 视频生成  
 **关键词**: 语义通信, 卫星通信, 音视频同步重建, LLM智能体, 跨模态生成
 
 ## 一句话总结
@@ -133,10 +133,10 @@ V2A-L2 在 12dB SNR 下 AKD=5.8，接近 L3 的 4.8，但带宽仅为 L3 的 50%
 
 ## 相关论文
 
-- [\[CVPR 2025\] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
-- [\[CVPR 2025\] VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step](videoscene_distilling_video_diffusion_model_to_generate_3d_scenes_in_one_step.md)
-- [\[CVPR 2025\] NeuS-V: Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](neuro-symbolic_evaluation_of_text-to-video_models_using_formal_verification.md)
-- [\[CVPR 2025\] Unified Dense Prediction of Video Diffusion](unified_dense_prediction_of_video_diffusion.md)
-- [\[CVPR 2025\] MotiF: Making Text Count in Image Animation with Motion Focal Loss](motif_making_text_count_in_image_animation_with_motion_focal_loss.md)
+- [\[CVPR 2025\] Pathways on the Image Manifold: Image Editing via Video Generation](pathways_on_the_image_manifold_image_editing_via_video_generation.md)
+- [\[CVPR 2025\] FADE: Frequency-Aware Diffusion Model Factorization for Video Editing](fade_frequency-aware_diffusion_model_factorization_for_video_editing.md)
+- [\[CVPR 2025\] TokenMotion: Decoupled Motion Control via Token Disentanglement for Human-centric Video Generation](tokenmotion_decoupled_motion_control_via_token_disentanglement_for_human-centric.md)
+- [\[CVPR 2025\] LongDiff: Training-Free Long Video Generation in One Go](longdiff_training-free_long_video_generation_in_one_go.md)
+- [\[CVPR 2025\] Articulated Kinematics Distillation from Video Diffusion Models](articulated_kinematics_distillation_from_video_diffusion_models.md)
 
 <!-- RELATED:END -->

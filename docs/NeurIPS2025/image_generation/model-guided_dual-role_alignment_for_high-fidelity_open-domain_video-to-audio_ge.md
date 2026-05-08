@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24103](https://arxiv.org/abs/2510.24103)  
 **代码**: [GitHub](https://github.com/pantheon5100/mgaudio)  
-**领域**: 视频到音频生成 / 多模态生成  
+**领域**: 图像生成  
 **关键词**: 视频到音频, 模型引导, 流匹配, 双角色对齐, 无分类器引导替代
 
 ## 一句话总结
@@ -167,7 +167,7 @@ FAD降至0.40，相比次优MMAudio(0.71)提升43%。
 - [\[ACL 2025\] FlashAudio: Rectified Flows for Fast and High-Fidelity Text-to-Audio Generation](../../ACL2025/image_generation/flashaudio_rectified_flow_tta.md)
 - [\[CVPR 2025\] AvatarArtist: Open-Domain 4D Avatarization](../../CVPR2025/image_generation/avatarartist_open-domain_4d_avatarization.md)
 - [\[NeurIPS 2025\] Vicinity-Guided Discriminative Latent Diffusion for Privacy-Preserving Domain Adaptation](vicinity-guided_discriminative_latent_diffusion_for_privacy-preserving_domain_ad.md)
+- [\[NeurIPS 2025\] Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable](dual_data_alignment_makes_ai-generated_image_detector_easier_generalizable.md)
 - [\[NeurIPS 2025\] From Cradle to Cane: A Two-Pass Framework for High-Fidelity Lifespan Face Aging](from_cradle_to_cane_a_two-pass_framework_for_high-fidelity_lifespan_face_aging.md)
-- [\[ICCV 2025\] Structure-Guided Diffusion Models for High-Fidelity Portrait Shadow Removal](../../ICCV2025/image_generation/structure-guided_diffusion_models_for_high-fidelity_portrait_shadow_removal.md)
 
 <!-- RELATED:END -->

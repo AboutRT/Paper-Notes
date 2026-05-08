@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.11110](https://arxiv.org/abs/2501.11110)  
-**代码**: https://github.com/microsoft/CoR  
+**代码**: [https://github.com/microsoft/CoR](https://github.com/microsoft/CoR)  
 **领域**: LLM推理  
 **关键词**: 数学推理, 多范式推理, 定理证明, 算术计算, 渐进训练
 

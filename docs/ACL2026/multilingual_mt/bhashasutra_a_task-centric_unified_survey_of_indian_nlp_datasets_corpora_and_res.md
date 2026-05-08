@@ -2,10 +2,10 @@
 title: >-
   [论文解读] BhashaSutra: A Task-Centric Unified Survey of Indian NLP Datasets, Corpora, and Resources
 description: >-
-  [ACL 2026][印度语言NLP] 首篇专门针对印度语言NLP资源的统一综述，覆盖200+数据集、50+基准、100+模型/工具，按17个任务类别组织（从核心语言处理到社会文化任务），系统分析了语言覆盖不均、标注碎片化、评估不一致等持续挑战。
+  [ACL 2026][多语言翻译] 首篇专门针对印度语言NLP资源的统一综述，覆盖200+数据集、50+基准、100+模型/工具，按17个任务类别组织（从核心语言处理到社会文化任务），系统分析了语言覆盖不均、标注碎片化、评估不一致等持续挑战。
 tags:
   - ACL 2026
-  - 印度语言NLP
+  - 多语言翻译
   - 数据集综述
   - 多语言资源
   - 低资源语言
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.18423](https://arxiv.org/abs/2604.18423)  
 **代码**: 无  
-**领域**: 多语言NLP / 综述  
+**领域**: 多语言翻译  
 **关键词**: 印度语言NLP, 数据集综述, 多语言资源, 低资源语言, 文化NLP
 
 ## 一句话总结
@@ -133,6 +133,6 @@ tags:
 - [\[ACL 2025\] COSMMIC: Comment-Sensitive Multimodal Multilingual Indian Corpus](../../ACL2025/multilingual_mt/cosmmic_commentsensitive_multimodal_multilingual_indian_corpus.md)
 - [\[ACL 2025\] Data Quality Issues in Multilingual Speech Datasets: The Need for Sociolinguistic Awareness and Proactive Language Planning](../../ACL2025/multilingual_mt/multilingual_speech_data_quality.md)
 - [\[ACL 2025\] Probing LLMs for Multilingual Discourse Generalization Through a Unified Label Set](../../ACL2025/multilingual_mt/probing_llms_for_multilingual_discourse_generalization_through_a_unified_label_s.md)
-- [\[ACL 2025\] THOR-MoE: Hierarchical Task-Guided and Context-Responsive Routing for Neural Machine Translation](../../ACL2025/multilingual_mt/thor-moe_hierarchical_task-guided_and_context-responsive_routing_for_neural_mach.md)
+- [\[ACL 2025\] M3FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset](../../ACL2025/multilingual_mt/m3finmeeting_a_multilingual_multi-sector_and_multi-task_financial_meeting_unders.md)
 
 <!-- RELATED:END -->

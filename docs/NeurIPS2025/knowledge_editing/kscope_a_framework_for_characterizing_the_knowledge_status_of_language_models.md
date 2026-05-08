@@ -9,7 +9,7 @@ tags:
   - 知识冲突
   - 层次化统计检验
   - RAG知识更新
-  - LLM可靠性
+  - 知识编辑
 ---
 
 # KScope: A Framework for Characterizing the Knowledge Status of Language Models
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.07458](https://arxiv.org/abs/2506.07458)  
 **代码**: [https://github.com/xiaoyuxin1002/KScope](https://github.com/xiaoyuxin1002/KScope)  
-**领域**: NLP理解 / LLM知识分析  
+**领域**: 知识编辑  
 **关键词**: 知识状态刻画, 知识冲突, 层次化统计检验, RAG知识更新, LLM可靠性  
 
 ## 一句话总结
@@ -124,7 +124,7 @@ tags:
 - [\[NeurIPS 2025\] UniEdit: A Unified Knowledge Editing Benchmark for Large Language Models](uniedit_a_unified_knowledge_editing_benchmark_for_large_language_models.md)
 - [\[ACL 2025\] Context-Robust Knowledge Editing for Language Models](../../ACL2025/knowledge_editing/context-robust_knowledge_editing_for_language_models.md)
 - [\[ACL 2025\] Structure-aware Domain Knowledge Injection for Large Language Models](../../ACL2025/knowledge_editing/structure-aware_domain_knowledge_injection_for_large_language_models.md)
-- [\[ACL 2025\] A General Knowledge Injection Framework for ICD Coding](../../ACL2025/knowledge_editing/a_general_knowledge_injection_framework_for_icd_coding.md)
 - [\[ACL 2026\] Aligning Language Models with Real-time Knowledge Editing](../../ACL2026/knowledge_editing/aligning_language_models_with_real-time_knowledge_editing.md)
+- [\[ACL 2025\] MEGen: Generative Backdoor into Large Language Models via Model Editing](../../ACL2025/knowledge_editing/megen_generative_backdoor_into_large_language_models_via_model_editing.md)
 
 <!-- RELATED:END -->

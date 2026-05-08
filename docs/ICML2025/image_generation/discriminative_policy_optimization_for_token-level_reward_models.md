@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.23363](https://arxiv.org/abs/2505.23363)  
 **代码**: [homzer/Q-RM](https://github.com/homzer/Q-RM)  
-**领域**: LLM对齐  
+**领域**: 图像生成  
 **关键词**: token-level reward model, process reward model, Q-function, discriminative policy, PPO, REINFORCE, LLM alignment
 
 ## 一句话总结
@@ -150,6 +150,6 @@ $$p(\tau^w \succeq \tau^l) = \sigma\left[\beta\left(\frac{1}{N}\sum_{t=0}^{N-1}Z
 - [\[ICML 2025\] Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is also a GAN Discriminator](direct_discriminative_optimization_your_likelihood-based_visual_generative_model.md)
 - [\[ICML 2025\] ToMA: Token Merge with Attention for Diffusion Models](toma_token_merge_with_attention_for_diffusion_models.md)
 - [\[ICLR 2026\] PCPO: Proportionate Credit Policy Optimization for Aligning Image Generation Models](../../ICLR2026/image_generation/pcpo_proportionate_credit_policy_optimization_for_aligning_image_generation_mode.md)
-- [\[ECCV 2024\] AdaNAT: Exploring Adaptive Policy for Token-Based Image Generation](../../ECCV2024/image_generation/adanat_exploring_adaptive_policy_for_token-based_image_generation.md)
+- [\[CVPR 2026\] Neighbor GRPO: Contrastive ODE Policy Optimization Aligns Flow Models](../../CVPR2026/image_generation/neighbor_grpo_contrastive_ode_policy_optimization_aligns_flow_models.md)
 
 <!-- RELATED:END -->

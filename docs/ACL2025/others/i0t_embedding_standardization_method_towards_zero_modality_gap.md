@@ -9,7 +9,7 @@ tags:
   - CLIP
   - 嵌入标准化
   - 批归一化
-  - 跨模态对齐
+  - 其他
 ---
 
 # I0T: Embedding Standardization Method Towards Zero Modality Gap
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.14384](https://arxiv.org/abs/2412.14384)  
 **代码**: [GitHub](https://github.com/xfactlab/I0T)  
-**领域**: 其他（多模态/视觉-语言模型）  
+**领域**: 其他  
 **关键词**: 模态差距, CLIP, 嵌入标准化, 批归一化, 跨模态对齐
 
 ## 一句话总结
@@ -146,10 +146,10 @@ $$\mathbf{x}_i' = \text{Normalize}(\mathbf{x}_i - \bar{\mathbf{x}}), \quad \math
 
 ## 相关论文
 
-- [\[ACL 2025\] Improving Language and Modality Transfer in Translation by Character-level Modeling](improving_language_and_modality_transfer_in.md)
 - [\[ACL 2025\] The AI Gap: How Socioeconomic Status Affects Language Technology Interactions](the_ai_gap_how_socioeconomic_status_affects_language_technology_interactions.md)
 - [\[ACL 2025\] Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?](are_any-to-any_models_more_consistent_across_modality_transfers_than_specialists.md)
-- [\[ACL 2025\] Entropy-UID: A Method for Optimizing Information Density](entropy-uid_a_method_for_optimizing_information_density.md)
 - [\[ACL 2025\] Zero-Shot Conversational Stance Detection: Dataset and Approaches](zero-shot_conversational_stance_detection_dataset_and_approaches.md)
+- [\[ACL 2025\] Towards Comprehensive Argument Analysis in Education: Dataset, Tasks, and Method](towards_comprehensive_argument_analysis_in_education_dataset_tasks_and_method.md)
+- [\[ACL 2025\] Improving Language and Modality Transfer in Translation by Character-level Modeling](improving_language_and_modality_transfer_in.md)
 
 <!-- RELATED:END -->

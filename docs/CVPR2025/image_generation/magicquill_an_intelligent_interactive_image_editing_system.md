@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.09703](https://arxiv.org/abs/2411.09703)  
 **代码**: [GitHub](https://magic-quill.github.io)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: image editing, interactive system, brushstroke control, diffusion inpainting, MLLM, Draw&Guess
 
 ## 一句话总结

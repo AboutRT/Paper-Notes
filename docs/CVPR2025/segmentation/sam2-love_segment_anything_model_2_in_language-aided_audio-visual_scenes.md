@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.01558](https://arxiv.org/abs/2506.01558)  
-**代码**: https://github.com/yuji-wang/SAM2-LOVE  
+**代码**: [https://github.com/yuji-wang/SAM2-LOVE](https://github.com/yuji-wang/SAM2-LOVE)  
 **领域**: 分割  
 **关键词**: 音视频分割, SAM2, 多模态融合, 参考分割, 时空一致性
 

@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - long-context VLM
-  - benchmark
+  - 多模态VLM
   - multi-task evaluation
   - 跨模态
   - NIAH

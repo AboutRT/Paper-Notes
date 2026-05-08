@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24165](https://arxiv.org/abs/2505.24165)  
-**代码**: 有 (https://github.com/fghccv/TagEvol)  
-**领域**: NLP / 数据合成 / LLM对齐  
+**代码**: 有 ([https://github.com/fghccv/TagEvol](https://github.com/fghccv/TagEvol))  
+**领域**: 其他  
 **关键词**: 指令进化, 知识标签, Tag注入, 合成数据, Evol-Instruct
 
 ## 一句话总结

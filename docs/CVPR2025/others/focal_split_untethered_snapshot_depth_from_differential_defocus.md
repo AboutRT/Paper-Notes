@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.11202](https://arxiv.org/abs/2504.11202)  
-**代码**: https://focal-split.qiguo.org (有，含DIY指南)  
+**代码**: [https://focal-split.qiguo.org](https://focal-split.qiguo.org) (有，含DIY指南)  
 **领域**: 其他 / 计算摄影  
 **关键词**: 差分离焦深度, 跳蛛仿生, 分光镜, 被动测距, 低功耗边缘设备
 
@@ -124,7 +124,7 @@ tags:
 - [\[CVPR 2025\] Three-View Focal Length Recovery From Homographies](three-view_focal_length_recovery_from_homographies.md)
 - [\[ICCV 2025\] Omni-DC: Highly Robust Depth Completion with Multiresolution Depth Integration](../../ICCV2025/others/omni-dc_highly_robust_depth_completion_with_multiresolution_depth_integration.md)
 - [\[NeurIPS 2025\] Depth-Bounds for Neural Networks via the Braid Arrangement](../../NeurIPS2025/others/depth-bounds_for_neural_networks_via_the_braid_arrangement.md)
+- [\[AAAI 2026\] Enhancing Noise Resilience in Face Clustering via Sparse Differential Transformer](../../AAAI2026/others/enhancing_noise_resilience_in_face_clustering_via_sparse_differential_transforme.md)
 - [\[NeurIPS 2025\] Depth-Supervised Fusion Network for Seamless-Free Image Stitching](../../NeurIPS2025/others/depth-supervised_fusion_network_for_seamless-free_image_stitching.md)
-- [\[ACL 2025\] Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking](../../ACL2025/others/inner_thinking_transformer_leveraging_dynamic_depth_scaling_to_foster_adaptive_i.md)
 
 <!-- RELATED:END -->

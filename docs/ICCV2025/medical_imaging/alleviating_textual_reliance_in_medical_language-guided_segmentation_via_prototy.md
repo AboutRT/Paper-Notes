@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.11055](https://arxiv.org/abs/2507.11055)  
-**代码**: https://github.com/ShuchangYe-bib/ProLearn  
+**代码**: [https://github.com/ShuchangYe-bib/ProLearn](https://github.com/ShuchangYe-bib/ProLearn)  
 **领域**: 医学图像分割 / 多模态学习  
 **关键词**: 医学图像分割, 语言引导分割, 原型学习, 文本依赖, 语义近似
 
@@ -126,7 +126,7 @@ ProLearn = PSA模块 + Language-guided U-Net。PSA模块一次性从少量图文
 
 ## 相关论文
 
-- [\[ICCV 2025\] Boosting Vision Semantic Density with Anatomy Normality Modeling for Medical Vision-language Pre-training](boosting_vision_semantic_density_with_anatomy_normality_modeling_for_medical_vis.md)
+- [\[ICCV 2025\] Boosting Vision Semantic Density with Anatomy Normality Modeling for Medical Vision-language Pre-training](boosting_vision_semantic_density_with_anatomy_normality_mode.md)
 - [\[CVPR 2025\] Evidential learning driven Breast Tumor Segmentation with Stage-divided Vision-Language Interaction](../../CVPR2025/medical_imaging/evidential_learning_driven_breast_tumor_segmentation_with_stage-divided_vision-l.md)
 - [\[ACL 2025\] MedBioRAG: Semantic Search and Retrieval-Augmented Generation with Large Language Models for Medical and Biological QA](../../ACL2025/medical_imaging/medbiorag_semantic_search_and_retrieval-augmented_generation_for_biomedical_lite.md)
 - [\[AAAI 2026\] Divide, Conquer and Unite: Hierarchical Style-Recalibrated Prototype Alignment for Federated Medical Segmentation](../../AAAI2026/medical_imaging/divide_conquer_and_unite_hierarchical_style-recalibrated_prototype_alignment_for.md)

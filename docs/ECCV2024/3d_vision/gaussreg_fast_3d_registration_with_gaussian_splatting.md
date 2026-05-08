@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.05254](https://arxiv.org/abs/2407.05254)  
-**代码**: https://jiahao620.github.io/gaussreg (有)  
+**代码**: [https://jiahao620.github.io/gaussreg](https://jiahao620.github.io/gaussreg)  
 **领域**: 3D视觉  
 **关键词**: Gaussian Splatting, 3D配准, 粗到精, 图像引导, 场景重建
 

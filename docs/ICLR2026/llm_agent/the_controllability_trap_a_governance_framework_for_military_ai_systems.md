@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.03515](https://arxiv.org/abs/2603.03515)  
 **代码**: 无  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: AI governance, military AI, agentic AI, human control, safety framework
 
 ## 一句话总结

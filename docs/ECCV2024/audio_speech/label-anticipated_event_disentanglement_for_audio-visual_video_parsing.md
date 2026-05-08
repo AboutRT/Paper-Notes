@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2407.08126](https://arxiv.org/abs/2407.08126)  
 **作者**: Jinxing Zhou, Dan Guo, Yuxin Mao, Yiran Zhong, Xiaojun Chang, Meng Wang (合肥工业大学, 西北工业大学, 上海AI Lab, 中科大, MBZUAI)
 **代码**: 待确认  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Audio-Visual Video Parsing, Event Disentanglement, Label Semantic Projection, Weakly Supervised
 
 ## 一句话总结

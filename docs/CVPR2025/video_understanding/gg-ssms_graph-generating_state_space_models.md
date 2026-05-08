@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.12423](https://arxiv.org/abs/2412.12423)  
-**代码**: https://github.com/uzh-rpg/gg_ssms (有)  
+**代码**: [https://github.com/uzh-rpg/gg_ssms](https://github.com/uzh-rpg/gg_ssms)  
 **领域**: 视频理解  
 **关键词**: 状态空间模型, 动态图构建, 最小生成树, 视觉SSM, 时间序列预测
 

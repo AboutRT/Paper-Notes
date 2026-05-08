@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.13167](https://arxiv.org/abs/2504.13167)  
-**代码**: https://eth-ait.github.io/ODHSR  
+**代码**: [https://eth-ait.github.io/ODHSR](https://eth-ait.github.io/ODHSR)  
 **领域**: 3D视觉  
 **关键词**: 人体重建, 场景重建, 3D高斯溅射, SLAM, 单目视频
 

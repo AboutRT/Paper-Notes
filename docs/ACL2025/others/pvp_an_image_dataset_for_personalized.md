@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.00481](https://arxiv.org/abs/2506.00481)  
-**代码**: https://github.com/holi-lab/PVP_Personalized_Visual_Persuasion  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/holi-lab/PVP_Personalized_Visual_Persuasion](https://github.com/holi-lab/PVP_Personalized_Visual_Persuasion)  
+**领域**: 其他  
 **关键词**: 视觉说服, 个性化, 说服策略, 心理特征, 数据集
 
 ## 一句话总结
@@ -134,9 +134,9 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval](../../ICCV2025/others/learning_visual_hierarchies_in_hyperbolic_space_for_image_retrieval.md)
-- [\[ACL 2025\] Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems](beyond_frameworks_multi_agent_collaboration.md)
 - [\[ICCV 2025\] Kaputt: A Large-Scale Dataset for Visual Defect Detection](../../ICCV2025/others/kaputt_a_large-scale_dataset_for_visual_defect_detection.md)
 - [\[ACL 2025\] Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries](dpp_diverse_multidoc_summary.md)
 - [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
+- [\[ACL 2025\] Personalized Generation In Large Model Era: A Survey](personalized_generation_in_large_model_era_a_survey.md)
 
 <!-- RELATED:END -->

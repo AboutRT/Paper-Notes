@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.22344](https://arxiv.org/abs/2511.22344)  
-**代码**: [GitHub](https://github.com/dhuseljic/dal-toolbox) (有)  
+**代码**: [GitHub](https://github.com/dhuseljic/dal-toolbox)  
 **领域**: Audio/Speech (主动学习)  
 **关键词**: 主动学习, 集成策略, 渐进过滤, 基础模型, 覆盖选择
 
@@ -145,6 +145,6 @@ tags:
 - [\[ICLR 2026\] PACE: Pretrained Audio Continual Learning](../../ICLR2026/audio_speech/pace_pretrained_audio_continual_learning.md)
 - [\[ACL 2026\] Multimodal In-Context Learning for ASR of Low-Resource Languages](../../ACL2026/audio_speech/multimodal_in-context_learning_for_asr_of_low-resource_languages.md)
 - [\[CVPR 2025\] Learning to Highlight Audio by Watching Movies](../../CVPR2025/audio_speech/learning_to_highlight_audio_by_watching_movies.md)
-- [\[ICLR 2026\] EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning](../../ICLR2026/audio_speech/emotionthinker_prosody-aware_reinforcement_learning_for_explainable_speech_emoti.md)
+- [\[CVPR 2026\] SAVE: Speech-Aware Video Representation Learning for Video-Text Retrieval](save_speech-aware_video_representation_learning_for_video-text_retrieval.md)
 
 <!-- RELATED:END -->

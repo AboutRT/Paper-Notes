@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 推荐系统方向8篇论文解读
+  ACL2025 推荐系统方向7篇论文解读
 description: >-
-  8篇ACL2025的推荐系统方向论文解读，涵盖推荐系统、LLM、对话系统、压缩/编码、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  7篇ACL2025的推荐系统方向论文解读，涵盖推荐系统、LLM、对话系统、压缩/编码、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**💬 ACL2025** · **8** 篇论文解读
+**💬 ACL2025** · **7** 篇论文解读
 
 **[Beyond Single Labels: Improving Conversational Recommendation through LLM-Powered Data Augmentation](beyond_single_labels_improving_conversational_recommendation_through_llm-powered.md)**
 
@@ -33,10 +33,6 @@ description: >-
 **[LOTUS: A Leaderboard for Detailed Image Captioning from Quality to Societal Bias and User Preferences](lotus_a_leaderboard_for_detailed_image_captioning_from_quality_to_societal_bias_.md)**
 
 :   提出 LOTUS 排行榜，从描述质量（对齐性、描述性、语言复杂度）、副作用（幻觉、有害性）和社会偏见（性别、肤色）三个维度统一评估大型视觉语言模型的详细图像描述能力，并支持基于用户偏好的定制化评估。
-
-**[MIRA: Empowering One-Touch AI Services on Smartphones with MLLM-based Instruction Recommendation](mira_empowering_one-touch_ai_services_on_smartphones_with_mllm-based_instruction.md)**
-
-:   提出 MIRA 框架，通过结构化推理、模板增强推理和前缀树约束解码，让用户在智能手机上长按文本或图片即可获得上下文相关的 AI 服务指令推荐，在 7B 模型上超越 GPT-4V（F1: 0.9121 vs 0.879），token 使用量仅为 1/7。
 
 **[RecLM: Recommendation Instruction Tuning](reclm_recommendation_instruction_tuning.md)**
 

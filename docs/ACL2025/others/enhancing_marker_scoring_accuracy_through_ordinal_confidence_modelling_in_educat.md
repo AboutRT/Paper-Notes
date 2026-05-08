@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Industry Track)  
 **arXiv**: [2505.23315](https://arxiv.org/abs/2505.23315)  
 **代码**: 无（使用专有数据集）  
-**领域**: NLP / 自动评分 / 教育评测  
+**领域**: 其他  
 **关键词**: 自动作文评分, 置信度建模, 序数分类, KWOCCE 损失, CEFR
 
 ## 一句话总结
@@ -154,10 +154,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning](getreason_enhancing_image_context_extraction_through_hierarchical_multi-agent_re.md)
 - [\[ACL 2025\] DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing](dress_dataset_rubric_based_essay_scoring_efl_writing.md)
 - [\[ACL 2025\] TestNUC: Enhancing Test-Time Computing Approaches and Scaling through Neighboring Unlabeled Data Consistency](testnuc_enhancing_test-time_computing_approaches_and_scaling_through_neighboring.md)
 - [\[ACL 2025\] FRACTAL: Fine-Grained Scoring from Aggregate Text Labels](fractal_fine-grained_scoring_from_aggregate_text_labels.md)
 - [\[ACL 2025\] Using Source-Side Confidence Estimation for Reliable Translation into Unfamiliar Languages](using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)
+- [\[ECCV 2024\] Enhancing Optimization Robustness in 1-bit Neural Networks through Stochastic Sign Descent](../../ECCV2024/others/enhancing_optimization_robustness_in_1-bit_neural_networks_through_stochastic_si.md)
 
 <!-- RELATED:END -->

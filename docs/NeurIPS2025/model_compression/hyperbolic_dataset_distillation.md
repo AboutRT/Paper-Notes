@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.24623](https://arxiv.org/abs/2505.24623)  
-**代码**: https://github.com/Guang000/HDD  
-**领域**: model_compression  
+**代码**: [https://github.com/Guang000/HDD](https://github.com/Guang000/HDD)  
+**领域**: 模型压缩  
 **关键词**: dataset distillation, hyperbolic space, distribution matching, Lorentz model, hierarchical pruning
 
 ## 一句话总结
@@ -125,10 +125,10 @@ DM+HDD 同样有效：SVHN IPC=1 从 21.9% → 25.0% (+3.1%)，CIFAR-10 IPC=1 �
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](hyperbolic_fine-tuning_for_large_language_models.md)
 - [\[NeurIPS 2025\] Beyond Random: Automatic Inner-Loop Optimization in Dataset Distillation](beyond_random_automatic_inner-loop_optimization_in_dataset_distillation.md)
-- [\[NeurIPS 2025\] Rectifying Soft-Label Entangled Bias in Long-Tailed Dataset Distillation](rectifying_soft-label_entangled_bias_in_long-tailed_dataset_distillation.md)
 - [\[NeurIPS 2025\] Optimizing Distributional Geometry Alignment with Optimal Transport for Generative Dataset Distillation](optimizing_distributional_geometry_alignment_with_optimal_transport_for_generati.md)
+- [\[NeurIPS 2025\] Rectifying Soft-Label Entangled Bias in Long-Tailed Dataset Distillation](rectifying_soft-label_entangled_bias_in_long-tailed_dataset_distillation.md)
 - [\[ICCV 2025\] Dataset Distillation via the Wasserstein Metric](../../ICCV2025/model_compression/dataset_distillation_via_the_wasserstein_metric.md)
+- [\[ICLR 2026\] Understanding Dataset Distillation via Spectral Filtering](../../ICLR2026/model_compression/understanding_dataset_distillation_via_spectral_filtering.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2504.13439](https://arxiv.org/abs/2504.13439)  
 **代码**: [GitHub](https://github.com/emorynlp/D-Gen)  
-**领域**: LLM评估  
+**领域**: 图像生成  
 **关键词**: distractor generation, multiple-choice evaluation, LLM benchmark, ranking alignment, entropy analysis
 
 ## 一句话总结
@@ -128,7 +128,7 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation](../../ICCV2025/image_generation/adiee_automatic_dataset_creation_and_scorer_for_instruction-guided_image_editing.md)
+- [\[ICCV 2025\] ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation](../../ICCV2025/image_generation/adiee_automatic_dataset_creation_and_scorer_for_instruction_guided_image_editing_evaluation.md)
 - [\[ICCV 2025\] TRCE: Towards Reliable Malicious Concept Erasure in Text-to-Image Diffusion Models](../../ICCV2025/image_generation/trce_towards_reliable_malicious_concept_erasure_in_text-to-image_diffusion_model.md)
 - [\[ICCV 2025\] CAP: Evaluation of Persuasive and Creative Image Generation](../../ICCV2025/image_generation/cap_evaluation_of_persuasive_and_creative_image_generation.md)
 - [\[CVPR 2025\] ChatGen: Automatic Text-to-Image Generation From FreeStyle Chatting](../../CVPR2025/image_generation/chatgen_automatic_text-to-image_generation_from_freestyle_chatting.md)

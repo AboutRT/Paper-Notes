@@ -9,7 +9,7 @@ tags:
   - 情感传染
   - 意图模仿
   - 扩散模型
-  - 强化学习
+  - 对话系统
 ---
 
 # ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generation via a RL-Diffusion Framework
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2409.10289](https://arxiv.org/abs/2409.10289)  
 **代码**: 无  
-**领域**: 文本生成  
+**领域**: 对话系统  
 **关键词**: 共情对话, 情感传染, 意图模仿, 扩散模型, 强化学习  
 
 ## 一句话总结
@@ -130,7 +130,7 @@ tags:
 
 - [\[ACL 2025\] UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations](uniconv_retrieval_response_gen.md)
 - [\[ACL 2026\] Author-in-the-Loop Response Generation and Evaluation: Integrating Author Expertise and Intent in Responses to Peer Review](../../ACL2026/dialogue/author-in-the-loop_response_generation_and_evaluation_integrating_author_experti.md)
-- [\[AAAI 2026\] Canoe: Teaching LLMs to Maintain Contextual Faithfulness via Synthetic Tasks and RL](../../AAAI2026/dialogue/teaching_large_language_models_to_maintain_contextual_faithfulness_via_synthetic.md)
+- [\[ACL 2025\] Dynamic Label Name Refinement for Few-Shot Dialogue Intent Classification](dynamic_label_name_refinement_for_few-shot_dialogue_intent_classification.md)
 - [\[ICLR 2026\] AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions](../../ICLR2026/dialogue/aqua_toward_strategic_response_generation_for_ambiguous_visual_questions.md)
 - [\[ACL 2025\] When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation](when_harry_meets_superman_the_role_of_the_interlocutor_in_persona-based_dialogue.md)
 

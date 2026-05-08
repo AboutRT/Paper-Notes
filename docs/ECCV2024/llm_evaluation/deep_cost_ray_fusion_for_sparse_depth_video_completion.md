@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2409.14935](https://arxiv.org/abs/2409.14935)  
 **代码**: 无  
-**领域**: 3D Vision / Depth Completion  
+**领域**: LLM评测  
 **关键词**: depth completion, cost volume fusion, ray-wise attention, RGB-D video, temporal fusion
 
 ## 一句话总结
@@ -142,8 +142,8 @@ tags:
 
 - [\[ECCV 2024\] OGNI-DC: Robust Depth Completion with Optimization-Guided Neural Iterations](ogni-dc_robust_depth_completion_with_optimization-guided_neural_iterations.md)
 - [\[ECCV 2024\] ColorMNet: A Memory-based Deep Spatial-Temporal Feature Propagation Network for Video Colorization](colormnet_a_memory-based_deep_spatial-temporal_feature_propagation_network_for_v.md)
+- [\[CVPR 2026\] PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion](../../CVPR2026/llm_evaluation/prism_video_dataset_condensation_with_progressive_refinement_and_insertion_for_s.md)
 - [\[ECCV 2024\] SIGMA: Sinkhorn-Guided Masked Video Modeling](sigma_sinkhorn-guided_masked_video_modeling.md)
 - [\[ECCV 2024\] Eliminating Warping Shakes for Unsupervised Online Video Stitching](eliminating_warping_shakes_for_unsupervised_online_video_stitching.md)
-- [\[CVPR 2026\] SparseCam4D: Spatio-Temporally Consistent 4D Reconstruction from Sparse Cameras](../../CVPR2026/llm_evaluation/sparsecam4d_spatio-temporally_consistent_4d_reconstruction_from_sparse_cameras.md)
 
 <!-- RELATED:END -->

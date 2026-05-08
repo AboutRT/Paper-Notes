@@ -46,15 +46,15 @@ G2SF 采用冻结的 DINO（图像）和 Point-MAE（点云）提取特征，构
 ### 关键设计
 
 1. **几何特征编码 (Geometric Feature Encoding)**：将特征 $\mathbf{f}^m_i$ 相对于其最近 memory 原型 $\mathbf{m}^m_{i,j}$ 分解为三元组：
-   $$(\mathbf{m}^m_{i,j}, \mathbf{d}^m_{i,j}, s^m_{i,j}) = \mathcal{E}_{\mathbf{m}^m_{i,j}}(\mathbf{f}^m_i)$$
+    $(\mathbf{m}^m_{i,j}, \mathbf{d}^m_{i,j}, s^m_{i,j}) = \mathcal{E}_{\mathbf{m}^m_{i,j}}(\mathbf{f}^m_i)$
    其中 $s^m_{i,j} = \|\mathbf{f}^m_i - \mathbf{m}^m_{i,j}\|$ 是欧氏距离（即传统异常分数），$\mathbf{d}^m_{i,j} = (\mathbf{f}^m_i - \mathbf{m}^m_{i,j}) / s^m_{i,j}$ 是单位方向向量。这个编码完整保留了原始特征的全部信息，避免了特征自适应中的信息丢失。
 
 2. **Local Scale Prediction Network (LSPN)**：一个简单的 MLP 网络预测方向感知的缩放因子：
-   $$[w^P_{i,j}, w^R_{i,j}] = \Phi(\mathbf{m}^P_{i,j}, \mathbf{m}^R_{i,j}, \mathbf{d}^P_{i,j}, \mathbf{d}^R_{i,j})$$
+    $[w^P_{i,j}, w^R_{i,j}] = \Phi(\mathbf{m}^P_{i,j}, \mathbf{m}^R_{i,j}, \mathbf{d}^P_{i,j}, \mathbf{d}^R_{i,j})$
    LSPN 包含两个并行分支分别处理原型和方向输入，最终通过 $\exp(\tanh(\cdot))$ 激活函数输出缩放因子，确保 $w^m_{i,j} \in [e^{-1}, e^1]$，对称分布在 1 周围。对正常样本期望 $w < 1$（抑制），异常样本期望 $w > 1$（放大）。
 
 3. **各向异性局部距离度量**：融合度量定义为：
-   $$l_{i,j} = \sum_{m \in \{P,R\}} w^m_{i,j} s^m_{i,j} \sigma^m$$
+    $l_{i,j} = \sum_{m \in \{P,R\}} w^m_{i,j} s^m_{i,j} \sigma^m$
    其中 $\sigma^m$ 是可训练的全局模态权重。当 LSPN 初始化为 $w \approx 1$ 时，该度量退化为联合特征空间的欧氏度量，然后在训练中逐渐演化为各向异性度量，避免了从零学习度量的过拟合风险。
 
 ### 损失函数 / 训练策略

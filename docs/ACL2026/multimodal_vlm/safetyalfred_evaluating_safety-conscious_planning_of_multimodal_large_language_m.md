@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.19638](https://arxiv.org/abs/2604.19638)  
-**代码**: https://github.com/sled-group/SafetyALFRED  
+**代码**: [https://github.com/sled-group/SafetyALFRED](https://github.com/sled-group/SafetyALFRED)  
 **领域**: 多模态VLM  
 **关键词**: 具身安全, 危险缓解, 多模态评估, 安全规划, ALFRED
 

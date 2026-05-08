@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.07975](https://arxiv.org/abs/2411.07975)  
 **代码**: [deepseek-ai/Janus](https://github.com/deepseek-ai/Janus)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: unified model, rectified flow, autoregressive LLM, multimodal understanding, decoupled encoder, REPA
 
 ## 一句话总结

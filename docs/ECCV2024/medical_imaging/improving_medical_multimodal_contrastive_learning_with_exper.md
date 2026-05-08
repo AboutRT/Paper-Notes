@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.10153](https://arxiv.org/abs/2403.10153)  
 **代码**: 有（开源）  
-**领域**: 多模态VLM  
+**领域**: 医学图像  
 **关键词**: 医学影像, 对比学习, CLIP, 专家标注, 眼动热力图
 
 ## 一句话总结
@@ -119,10 +119,10 @@ eCLIP在标准CLIP架构上添加一个热力图处理器（Heatmap Processor）
 
 ## 相关论文
 
-- [\[ECCV 2024\] Unsupervised Multi-modal Medical Image Registration via Invertible Translation](unsupervised_multi-modal_medical_image_registration_via_invertible_translation.md)
 - [\[ECCV 2024\] Pathology-knowledge Enhanced Multi-instance Prompt Learning for Few-shot Whole Slide Image Classification](pathologyknowledge_enhanced_multiinstance_prompt_learni.md)
+- [\[ECCV 2024\] Unsupervised Multi-modal Medical Image Registration via Invertible Translation](unsupervised_multi-modal_medical_image_registration_via_invertible_translation.md)
 - [\[ECCV 2024\] GTP-4o: Modality-prompted Heterogeneous Graph Learning for Omni-modal Biomedical Representation](gtp4o_modalityprompted_heterogeneous_graph_learning_for.md)
+- [\[ECCV 2024\] AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection](adaclip_adapting_clip_with_hybrid_learnable_prompts_for_zero.md)
 - [\[ECCV 2024\] TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data](tip_tabular-image_pre-training_for_multimodal_classification_with_incomplete_dat.md)
-- [\[ECCV 2024\] Energy-induced Explicit Quantification for Multi-modality MRI Fusion](energy-induced_explicit_quantification_for_multi-modality_mri_fusion.md)
 
 <!-- RELATED:END -->

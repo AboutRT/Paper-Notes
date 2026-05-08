@@ -54,11 +54,11 @@ GGTalker 由三部分组成：
 
    使用条件扩散 Transformer 从音频预测表情序列：
 
-   - **音频条件编码器**：Wav2Vec 2.0 提取音频特征 $\mathbf{a}_t \in \mathbb{R}^{1280}$，线性投影到 $d=512$ 维，浅层 Transformer 编码时序依赖。引入身份嵌入 $\mathbf{I} \in \mathbb{R}^{64}$ 用于检索说话人风格。输出帧级条件 $\mathbf{C}' \in \mathbb{R}^{T \times d}$ 和全局条件 $\bar{\mathbf{c}}$。
+    - **音频条件编码器**：Wav2Vec 2.0 提取音频特征 $\mathbf{a}_t \in \mathbb{R}^{1280}$，线性投影到 $d=512$ 维，浅层 Transformer 编码时序依赖。引入身份嵌入 $\mathbf{I} \in \mathbb{R}^{64}$ 用于检索说话人风格。输出帧级条件 $\mathbf{C}' \in \mathbb{R}^{T \times d}$ 和全局条件 $\bar{\mathbf{c}}$。
 
-   - **扩散时间条件器**：使用 DDPM 迭代精炼表情序列。扩散时间步 $n$ 通过正弦位置编码 + MLP 转换为时间嵌入 $\mathbf{t}_n$，通过 FiLM 调制和令牌化两种方式注入模型。
+    - **扩散时间条件器**：使用 DDPM 迭代精炼表情序列。扩散时间步 $n$ 通过正弦位置编码 + MLP 转换为时间嵌入 $\mathbf{t}_n$，通过 FiLM 调制和令牌化两种方式注入模型。
 
-   - **Transformer 解码器**：$L=8$ 层，每层包含自注意力（捕捉时序依赖）和交叉注意力（与音频特征对齐）。应用分类器无关引导（$p=0.1$ 随机置零条件）。输出预测表情：$\hat{\mathbf{e}}_t = f_\theta(\mathbf{z}_t, \mathbf{C}', \bar{\mathbf{c}}, \mathbf{t}_n)$
+    - **Transformer 解码器**：$L=8$ 层，每层包含自注意力（捕捉时序依赖）和交叉注意力（与音频特征对齐）。应用分类器无关引导（$p=0.1$ 随机置零条件）。输出预测表情：$\hat{\mathbf{e}}_t = f_\theta(\mathbf{z}_t, \mathbf{C}', \bar{\mathbf{c}}, \mathbf{t}_n)$
 
    损失函数：$\mathcal{L}_{\text{A2E}} = \lambda_{temp}\mathcal{L}_{temp} + \lambda_{exp}\mathcal{L}_{exp}$，其中 $\mathcal{L}_{temp}$ 为相邻帧 Huber 损失（时序平滑），$\mathcal{L}_{exp}$ 为 L2 正则。
 
@@ -162,9 +162,9 @@ GGTalker 不仅在自重演表现最佳，在跨身份和跨语言的 OOD 场景
 ## 相关论文
 
 - [\[ICCV 2025\] Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars](avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md)
-- [\[CVPR 2025\] DualTalk: Dual-Speaker Interaction for 3D Talking Head Conversations](../../CVPR2025/human_understanding/dualtalk_dual-speaker_interaction_for_3d_talking_head_conversations.md)
 - [\[CVPR 2025\] FATE: Full-head Gaussian Avatar with Textural Editing from Monocular Video](../../CVPR2025/human_understanding/fate_full-head_gaussian_avatar_with_textural_editing_from_monocular_video.md)
 - [\[CVPR 2025\] RGBAvatar: Reduced Gaussian Blendshapes for Online Modeling of Head Avatars](../../CVPR2025/human_understanding/rgbavatar_reduced_gaussian_blendshapes_for_online_modeling_of_head_avatars.md)
 - [\[NeurIPS 2025\] VASA-3D: Lifelike Audio-Driven Gaussian Head Avatars from a Single Image](../../NeurIPS2025/human_understanding/vasa-3d_lifelike_audio-driven_gaussian_head_avatars_from_a_single_image.md)
+- [\[ECCV 2024\] Avatar Fingerprinting for Authorized Use of Synthetic Talking-Head Videos](../../ECCV2024/human_understanding/avatar_fingerprinting_for_authorized_use_of_synthetic_talking-head_videos.md)
 
 <!-- RELATED:END -->

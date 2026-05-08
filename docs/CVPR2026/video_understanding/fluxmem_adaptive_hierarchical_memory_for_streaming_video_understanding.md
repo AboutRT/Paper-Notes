@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.02096](https://arxiv.org/abs/2603.02096)  
-**代码**: https://github.com/YiwengXie/FluxMem  
+**代码**: [https://github.com/YiwengXie/FluxMem](https://github.com/YiwengXie/FluxMem)  
 **领域**: 视频理解  
 **关键词**: 流式视频理解, 层级记忆, 视觉token压缩, 自适应阈值, training-free
 

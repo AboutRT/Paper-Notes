@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.01055](https://arxiv.org/abs/2508.01055)  
-**代码**: https://github.com/xuanliugit/FGBench  
-**领域**: LLM评估 / 化学推理  
+**代码**: [https://github.com/xuanliugit/FGBench](https://github.com/xuanliugit/FGBench)  
+**领域**: 医学图像  
 **关键词**: 功能基团, 分子性质推理, 化学基准, 结构-活性关系, LLM推理
 
 ## 一句话总结

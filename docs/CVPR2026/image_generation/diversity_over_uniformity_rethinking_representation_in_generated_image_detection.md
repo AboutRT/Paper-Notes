@@ -45,23 +45,23 @@ tags:
 
 1. **Cue Information Bottleneck (CIB)**：对每阶段特征进行信息瓶颈过滤，目标是最大化与标签$y$的互信息同时最小化与输入$x$的互信息：
 
-   $$\max_{\{\mathrm{CIB}_i\}} \sum_{i=1}^{N} [I(\tilde{v}_i; y) - \beta I(\tilde{v}_i; x)]$$
+    $\max_{\{\mathrm{CIB}_i\}} \sum_{i=1}^{N} [I(\tilde{v}_i; y) - \beta I(\tilde{v}_i; x)]$
 
    通过变分下界推导出实际可优化的 CIB 损失：
 
-   $$\mathcal{L}_{\mathrm{CIB}} = \sum_{i=1}^{N} D_{\mathrm{KL}}[p(y|\tilde{\mathcal{V}}) \| p(y|\tilde{\mathcal{V}} \setminus \tilde{v}_i)]$$
+    $\mathcal{L}_{\mathrm{CIB}} = \sum_{i=1}^{N} D_{\mathrm{KL}}[p(y|\tilde{\mathcal{V}}) \| p(y|\tilde{\mathcal{V}} \setminus \tilde{v}_i)]$
 
    确保每条线索携带不可或缺的判别信息，形成纯化且互补的特征集合。
 
 2. **Anti-Feature-Collapse Learning (AFCL)**：使用 Hilbert-Schmidt 独立性准则（HSIC）作为核度量方法，强制不同阶段的特征保持统计独立性：
 
-   $$\mathcal{L}_{\mathrm{AFCL}} = \frac{1}{N(N-1)} \sum_{i \neq j} \mathrm{HSIC}(\tilde{v}_i, \tilde{v}_j)$$
+    $\mathcal{L}_{\mathrm{AFCL}} = \frac{1}{N(N-1)} \sum_{i \neq j} \mathrm{HSIC}(\tilde{v}_i, \tilde{v}_j)$
 
    其中 $\mathrm{HSIC}(\tilde{v}_i, \tilde{v}_j) = \frac{1}{(B-1)^2} \mathrm{Tr}(K_i H K_j H)$。此外引入权重均匀性正则化 $\mathcal{L}_{\mathrm{reg}} = (\sum_{i=1}^{N} \alpha_i^2 - 1/N)^2$ 防止聚合时权重坍塌。
 
 3. **Class-Specific Prompt Learning (CSP)**：为"真实"和"伪造"各学习一组可训练的上下文向量，通过余弦相似度对齐最终视觉表征与文本原型：
 
-   $$s_c = \frac{\tilde{v}_{\mathrm{final}} \cdot e_c}{\|\tilde{v}_{\mathrm{final}}\| \|e_c\|}$$
+    $s_c = \frac{\tilde{v}_{\mathrm{final}} \cdot e_c}{\|\tilde{v}_{\mathrm{final}}\| \|e_c\|}$
 
    使用交叉熵损失 $\mathcal{L}_{\mathrm{CSP}}$ 优化。
 
@@ -133,10 +133,10 @@ $$\mathcal{L} = \mathcal{L}_{\mathrm{CSP}} + \lambda_1 \mathcal{L}_{\mathrm{CIB}
 
 ## 相关论文
 
+- [\[CVPR 2026\] Training-free Detection of Generated Videos via Spatial-Temporal Likelihoods](training-free_detection_of_generated_videos_via_spatial-temporal_likelihoods.md)
 - [\[AAAI 2026\] CausalCLIP: Causally-Informed Feature Disentanglement and Filtering for Generalizable Detection of Generated Images](../../AAAI2026/image_generation/causalclip_causally-informed_feature_disentanglement_and_filtering_for_generaliz.md)
 - [\[NeurIPS 2025\] Epistemic Uncertainty for Generated Image Detection](../../NeurIPS2025/image_generation/epistemic_uncertainty_for_generated_image_detection.md)
 - [\[AAAI 2026\] Aggregating Diverse Cue Experts for AI-Generated Image Detection](../../AAAI2026/image_generation/aggregating_diverse_cue_experts_for_ai-generated_image_detec.md)
-- [\[CVPR 2026\] TriDF: Evaluating Perception, Detection, and Hallucination for Interpretable DeepFake Detection](tridf_evaluating_perception_detection_and_hallucination_for_interpretable_deepfa.md)
-- [\[CVPR 2026\] Diffusion Probe: Generated Image Result Prediction Using CNN Probes](diffusion_probe_generated_image_result_prediction_using_cnn_probes.md)
+- [\[CVPR 2026\] CTCal: Rethinking Text-to-Image Diffusion Models via Cross-Timestep Self-Calibration](ctcal_rethinking_text-to-image_diffusion_models_via_cross-timestep_self-calibrat.md)
 
 <!-- RELATED:END -->

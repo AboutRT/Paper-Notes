@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.08279](https://arxiv.org/abs/2510.08279)  
-**代码**: https://m-niemeyer.github.io/nexf  
+**代码**: [https://m-niemeyer.github.io/nexf](https://m-niemeyer.github.io/nexf)  
 **领域**: 3D 视觉 / 视图合成  
 **关键词**: 神经辐射场, 视图合成, 曝光补偿, 3D 一致性, 高动态范围
 
@@ -128,6 +128,6 @@ tags:
 - [\[ICML 2025\] High Dynamic Range Novel View Synthesis with Single Exposure](../../ICML2025/3d_vision/high_dynamic_range_novel_view_synthesis_with_single_exposure.md)
 - [\[ICCV 2025\] SeHDR: Single-Exposure HDR Novel View Synthesis via 3D Gaussian Bracketing](../../ICCV2025/3d_vision/sehdr_single-exposure_hdr_novel_view_synthesis_via_3d_gaussian_bracketing.md)
 - [\[NeurIPS 2025\] Copresheaf Topological Neural Networks: A Generalized Deep Learning Framework](copresheaf_topological_neural_networks_a_generalized_deep_learning_framework.md)
-- [\[NeurIPS 2025\] NerfBaselines: Consistent and Reproducible Evaluation of Novel View Synthesis Methods](nerfbaselines_consistent_and_reproducible_evaluation_of_novel_view_synthesis_met.md)
+- [\[CVPR 2025\] AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis](../../CVPR2025/3d_vision/aerialmegadepth_learning_aerial-ground_reconstruction_and_view_synthesis.md)
 
 <!-- RELATED:END -->

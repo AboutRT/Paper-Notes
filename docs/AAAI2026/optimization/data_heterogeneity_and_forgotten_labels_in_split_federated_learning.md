@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.09736](https://arxiv.org/abs/2511.09736)  
 **代码**: [GitHub](https://github.com/jtirana98/Hydra-CF-in-SFL)  
-**领域**: 联邦学习 / 灾难性遗忘  
+**领域**: 优化  
 **关键词**: Split Federated Learning, 灾难性遗忘, 数据异构, multi-head, 处理顺序  
 
 ## 一句话总结
@@ -112,8 +112,8 @@ Hydra 效果：
 ## 相关论文
 
 - [\[AAAI 2026\] SMoFi: Step-wise Momentum Fusion for Split Federated Learning on Heterogeneous Data](smofi_step-wise_momentum_fusion_for_split_federated_learning_on_heterogeneous_da.md)
+- [\[AAAI 2026\] Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning with Double-Weight Sparse Pack](tackling_resource-constrained_and_data-heterogeneity_in_federated_learning_with_.md)
 - [\[NeurIPS 2025\] Efficient Federated Learning against Byzantine Attacks and Data Heterogeneity via Aggregating Normalized Gradients](../../NeurIPS2025/optimization/efficient_federated_learning_against_byzantine_attacks_and_data_heterogeneity_vi.md)
-- [\[ICML 2025\] Widening the Network Mitigates the Impact of Data Heterogeneity on FedAvg](../../ICML2025/optimization/widening_the_network_mitigates_the_impact_of_data_heterogeneity_on_fedavg.md)
 - [\[NeurIPS 2025\] Streaming Federated Learning with Markovian Data](../../NeurIPS2025/optimization/streaming_federated_learning_with_markovian_data.md)
 - [\[AAAI 2026\] FedPM: Federated Learning Using Second-order Optimization with Preconditioned Mixing of Local Parameters](fedpm_federated_learning_using_second-order_optimization_with_preconditioned_mix.md)
 

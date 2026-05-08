@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets and Benchmarks Track)][LLM效率][long dependency] 构建覆盖法律/金融/游戏/代码四大真实领域、长度16K-2M token的长依赖推理基准LooGLE v2，设计10类领域特定任务共1,934个QA实例，评估10个LLM发现最强模型GPT-4.1仅59.2%，揭示当前LLM在真实长依赖场景下的根本不足。
 tags:
-  - NeurIPS 2025 (Datasets and Benchmarks Track)
+  - LLM效率
   - LLM效率
   - long dependency
   - real-world benchmark
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (Datasets and Benchmarks Track)  
 **arXiv**: [2510.22548](https://arxiv.org/abs/2510.22548)  
 **代码**: [GitHub](https://github.com/MuLabPKU/LooGLE-v2)  
-**领域**: LLM评估、长序列理解  
+**领域**: LLM效率  
 **关键词**: long dependency, real-world benchmark, domain-specific tasks, scalable annotation, long-context reasoning
 
 ## 一句话总结
@@ -189,9 +189,9 @@ RAG在LooGLE v2上普遍导致性能下降。Llama-3.1-8B在top-128 RAG下从26.
 ## 相关论文
 
 - [\[ACL 2025\] LADM: Long-context Training Data Selection with Attention-based Dependency Measurement for LLMs](../../ACL2025/llm_efficiency/ladm_long_context_data.md)
-- [\[ICCV 2025\] PHATNet: A Physics-guided Haze Transfer Network for Domain-adaptive Real-world Image Dehazing](../../ICCV2025/llm_efficiency/phatnet_a_physics-guided_haze_transfer_network_for_domain-adaptive_real-world_im.md)
 - [\[ACL 2025\] LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks](../../ACL2025/llm_efficiency/longbench_v2_towards_deeper_understanding_and_reasoning_on_realistic_long-contex.md)
 - [\[NeurIPS 2025\] Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)
 - [\[ICML 2025\] Long-Short Alignment for Effective Long-Context Modeling in LLMs](../../ICML2025/llm_efficiency/long-short_alignment_for_effective_long-context_modeling_in_llms.md)
+- [\[NeurIPS 2025\] Silent Tokens, Loud Effects: Padding in LLMs](silent_tokens_loud_effects_padding_in_llms.md)
 
 <!-- RELATED:END -->

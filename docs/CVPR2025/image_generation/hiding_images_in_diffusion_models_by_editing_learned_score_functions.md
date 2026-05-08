@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18459](https://arxiv.org/abs/2503.18459)  
-**代码**: https://github.com/haoychen3/DMIH/  
+**代码**: [https://github.com/haoychen3/DMIH/](https://github.com/haoychen3/DMIH/)  
 **领域**: 扩散模型  
 **关键词**: 神经信息隐藏, 扩散模型, 参数高效微调, 数据隐写, Score Function编辑
 
@@ -151,7 +151,7 @@ tags:
 - [\[CVPR 2025\] TinyFusion: Diffusion Transformers Learned Shallow](tinyfusion_diffusion_transformers_learned_shallow.md)
 - [\[ICML 2025\] RestoreGrad: Signal Restoration Using Conditional Denoising Diffusion Models with Jointly Learned Prior](../../ICML2025/image_generation/restoregrad_signal_restoration_using_conditional_denoising_diffusion_models_with.md)
 - [\[NeurIPS 2025\] Energy Loss Functions for Physical Systems](../../NeurIPS2025/image_generation/energy_loss_functions_for_physical_systems.md)
-- [\[CVPR 2025\] OpenSDI: Spotting Diffusion-Generated Images in the Open World](opensdi_spotting_diffusion-generated_images_in_the_open_world.md)
 - [\[CVPR 2025\] Traversing Distortion-Perception Tradeoff Using a Single Score-Based Generative Model](traversing_distortion-perception_tradeoff_using_a_single_score-based_generative_.md)
+- [\[CVPR 2025\] OpenSDI: Spotting Diffusion-Generated Images in the Open World](opensdi_spotting_diffusion-generated_images_in_the_open_world.md)
 
 <!-- RELATED:END -->

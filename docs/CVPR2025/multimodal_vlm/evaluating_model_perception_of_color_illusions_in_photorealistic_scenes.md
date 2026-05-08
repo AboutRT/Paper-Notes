@@ -10,14 +10,14 @@ tags:
   - 视觉感知
   - VLM 评估
   - 人类视觉偏差
-  - 感知对齐
+  - 多模态VLM
 ---
 
 # Evaluating Model Perception of Color Illusions in Photorealistic Scenes
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.06184](https://arxiv.org/abs/2412.06184)  
-**代码**: https://github.com/mao1207/RCID  
+**代码**: [https://github.com/mao1207/RCID](https://github.com/mao1207/RCID)  
 **领域**: 多模态VLM  
 **关键词**: 颜色错觉、视觉感知、VLM 评估、人类视觉偏差、感知对齐
 
@@ -130,8 +130,8 @@ tags:
 
 - [\[NeurIPS 2025\] Evaluating Multimodal Large Language Models on Core Music Perception Tasks](../../NeurIPS2025/multimodal_vlm/evaluating_multimodal_large_language_models_on_core_music_perception_tasks.md)
 - [\[ICML 2025\] Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging](../../ICML2025/multimodal_vlm/bring_reason_to_vision_understanding_perception_and_reasoning_through_model_merg.md)
-- [\[CVPR 2025\] Revisiting Model Stitching in the Foundation Model Era](revisiting_model_stitching_in_the_foundation_model_era.md)
 - [\[CVPR 2025\] Evaluating Vision-Language Models as Evaluators in Path Planning](evaluating_vision-language_models_as_evaluators_in_path_planning.md)
 - [\[CVPR 2025\] MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts](mv-math_evaluating_multimodal_math_reasoning_in_multi-visual_contexts.md)
+- [\[NeurIPS 2025\] FineGRAIN: Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges](../../NeurIPS2025/multimodal_vlm/finegrain_evaluating_failure_modes_of_text-to-image_models_with_vision_language_.md)
 
 <!-- RELATED:END -->

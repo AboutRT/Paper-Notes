@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.12595](https://arxiv.org/abs/2603.12595)  
-**代码**: https://github.com/cobang0111/SPL  
+**代码**: [https://github.com/cobang0111/SPL](https://github.com/cobang0111/SPL)  
 **领域**: LLM Alignment / 个性化对齐  
 **关键词**: 个性化奖励模型, 后验崩坏, 潜变量偏好学习, swap引导正则化, 偏好多样性
 

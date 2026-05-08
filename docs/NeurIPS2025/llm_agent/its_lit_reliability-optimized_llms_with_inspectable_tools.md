@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Workshop on Multi-Turn Interactions in LLMs)][LLM Agent][工具可靠性] 通过为每个外部工具定义可靠性/可调试性成本函数，引导 LLM 在多候选方案中选择成本最低（最透明可审计）的工具调用路径，在 61/65 测试场景中提升可解释性的同时保持甚至提升任务准确率。
 tags:
-  - NeurIPS 2025 (Workshop on Multi-Turn Interactions in LLMs)
+  - LLM Agent
   - LLM Agent
   - 工具可靠性
   - 可检查性
@@ -175,9 +175,9 @@ $$\text{Cost}(S) = \sum_{t \in S} \text{Cost}(t) = \sum_{t \in S} (P_t + D_t + C
 ## 相关论文
 
 - [\[ICLR 2026\] Judge Reliability Harness: Stress Testing the Reliability of LLM Judges](../../ICLR2026/llm_agent/judge_reliability_harness_stress_testing_the_reliability_of_llm_judges.md)
-- [\[NeurIPS 2025\] Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve](lessons_learned_a_multi-agent_framework_for_code_llms_to_learn_and_improve.md)
 - [\[NeurIPS 2025\] Distilling LLM Agent into Small Models with Retrieval and Code Tools](distilling_llm_agent_into_small_models_with_retrieval_and_co.md)
 - [\[NeurIPS 2025\] Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools](attractive_metadata_attack_inducing_llm_agents_to_invoke_malicious_tools.md)
 - [\[ACL 2025\] LLM Agents Making Agent Tools](../../ACL2025/llm_agent/llm_agents_making_agent_tools.md)
+- [\[NeurIPS 2025\] Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve](lessons_learned_a_multi-agent_framework_for_code_llms_to_learn_and_improve.md)
 
 <!-- RELATED:END -->

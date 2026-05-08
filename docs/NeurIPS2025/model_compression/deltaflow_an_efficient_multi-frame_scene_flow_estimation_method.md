@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.17054](https://arxiv.org/abs/2508.17054)  
-**代码**: https://github.com/Kin-Zhang/DeltaFlow  
-**领域**: model_compression  
+**代码**: [https://github.com/Kin-Zhang/DeltaFlow](https://github.com/Kin-Zhang/DeltaFlow)  
+**领域**: 模型压缩  
 **关键词**: scene flow, multi-frame, delta scheme, autonomous driving, computational efficiency
 
 ## 一句话总结
@@ -136,9 +136,9 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] Multi-Object Sketch Animation by Scene Decomposition and Motion Planning](../../ICCV2025/model_compression/multi-object_sketch_animation_by_scene_decomposition_and_motion_planning.md)
-- [\[NeurIPS 2025\] KTAE: A Model-Free Algorithm to Key-Tokens Advantage Estimation in Mathematical Reasoning](ktae_a_model-free_algorithm_to_key-tokens_advantage_estimation_in_mathematical_r.md)
 - [\[CVPR 2025\] AutoSSVH: Exploring Automated Frame Sampling for Efficient Self-Supervised Video Hashing](../../CVPR2025/model_compression/autossvh_exploring_automated_frame_sampling_for_efficient_self-supervised_video_h.md)
+- [\[NeurIPS 2025\] KTAE: A Model-Free Algorithm to Key-Tokens Advantage Estimation in Mathematical Reasoning](ktae_a_model-free_algorithm_to_key-tokens_advantage_estimation_in_mathematical_r.md)
 - [\[NeurIPS 2025\] C-LoRA: Contextual Low-Rank Adaptation for Uncertainty Estimation in Large Language Models](c-lora_contextual_low-rank_adaptation_for_uncertainty_estimation_in_large_langua.md)
-- [\[ICML 2025\] Position: LLM Social Simulations Are a Promising Research Method](../../ICML2025/model_compression/llm_social_simulations_are_a_promising_research_method.md)
+- [\[NeurIPS 2025\] Loquetier: A Virtualized Multi-LoRA Framework for Unified LLM Fine-tuning and Serving](loquetier_a_virtualized_multi-lora_framework_for_unified_llm_fine-tuning_and_ser.md)
 
 <!-- RELATED:END -->

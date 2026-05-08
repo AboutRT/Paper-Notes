@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.08486](https://arxiv.org/abs/2412.08486)  
 **代码**: 待确认（Meta AI）  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: virtual try-on, pose transfer, diffusion model, flow field, attention regularization
 
 ## 一句话总结

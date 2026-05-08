@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.02336](https://arxiv.org/abs/2412.02336)  
-**代码**: [https://github.com/zhyever/Amodal-Depth-Anything](https://github.com/zhyever/Amodal-Depth-Anything) (有)  
+**代码**: [https://github.com/zhyever/Amodal-Depth-Anything](https://github.com/zhyever/Amodal-Depth-Anything)  
 **领域**: 3D Vision / Depth Estimation / Amodal Perception  
 **关键词**: 非模态深度估计, 相对深度, 遮挡感知, Depth Anything V2, 条件流匹配  
 

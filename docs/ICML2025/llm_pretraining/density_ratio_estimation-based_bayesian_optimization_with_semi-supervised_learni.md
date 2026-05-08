@@ -5,7 +5,7 @@ description: >-
   [ICML2025][Bayesian Optimization] 提出 DRE-BO-SSL，将半监督学习（标签传播/标签扩散）引入密度比估计型贝叶斯优化，通过无标签数据点缓解监督分类器的过度利用(over-exploitation)问题，在探索与利用之间取得更好平衡。
 tags:
   - ICML2025
-  - Bayesian Optimization
+  - LLM预训练
   - Density Ratio Estimation
   - 半监督学习
   - Label Propagation
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2305.15612](https://arxiv.org/abs/2305.15612)  
 **代码**: [https://github.com/jungtaekkim/bayeso](https://github.com/jungtaekkim/bayeso)  
-**领域**: others  
+**领域**: LLM预训练  
 **关键词**: Bayesian Optimization, Density Ratio Estimation, Semi-Supervised Learning, Label Propagation, Label Spreading
 
 ## 一句话总结
@@ -166,9 +166,9 @@ $$\mathbf{x}_{t+1} = \arg\max_{\mathbf{x} \in \mathcal{X}} \pi_{\hat{\mathbf{C}}
 ## 相关论文
 
 - [\[CVPR 2025\] A Unified Framework for Heterogeneous Semi-supervised Learning](../../CVPR2025/llm_pretraining/a_unified_framework_for_heterogeneous_semi-supervised_learning.md)
-- [\[ICML 2025\] A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning](a_square_peg_in_a_square_hole_meta-expert_for_long-tailed_semi-supervised_learni.md)
+- [\[NeurIPS 2025\] Mouse-Guided Gaze: Semi-Supervised Learning of Intention-Aware Representations for Reading Detection](../../NeurIPS2025/llm_pretraining/mouse-guided_gaze_semi-supervised_learning_of_intention-aware_representations_fo.md)
 - [\[NeurIPS 2025\] PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation](../../NeurIPS2025/llm_pretraining/prescribe_predicting_single-cell_responses_with_bayesian_estimation.md)
+- [\[ICML 2025\] A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning](a_square_peg_in_a_square_hole_meta-expert_for_long-tailed_semi-supervised_learni.md)
 - [\[ICML 2025\] LLM Data Selection and Utilization via Dynamic Bi-level Optimization](llm_data_selection_and_utilization_via_dynamic_bi-level_optimization.md)
-- [\[ICML 2025\] Position: The Future of Bayesian Prediction Is Prior-Fitted](position_the_future_of_bayesian_prediction_is_prior-fitted.md)
 
 <!-- RELATED:END -->

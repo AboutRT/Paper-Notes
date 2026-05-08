@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 无公开预印本  
 **代码**: 无  
-**领域**: 多模态VLM  
+**领域**: 视频理解  
 **关键词**: 多模态目标追踪, 社会智能, 视觉-语言理解, 对话系统, 意图推理
 
 ## 一句话总结
@@ -120,8 +120,8 @@ tags:
 
 - [\[NeurIPS 2025\] Open-World Drone Active Tracking with Goal-Centered Rewards](../../NeurIPS2025/video_understanding/open-world_drone_active_tracking_with_goal-centered_rewards.md)
 - [\[NeurIPS 2025\] Empower Words: DualGround for Structured Phrase and Sentence-Level Temporal Grounding](../../NeurIPS2025/video_understanding/empower_words_dualground_for_structured_phrase_and_sentencel.md)
-- [\[CVPR 2025\] MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking](../../CVPR2025/video_understanding/mambavlt_time-evolving_multimodal_state_space_model_for_vision-language_tracking.md)
-- [\[ICCV 2025\] What You Have is What You Track: Adaptive and Robust Multimodal Tracking](../../ICCV2025/video_understanding/what_you_have_is_what_you_track_adaptive_and_robust_multimodal_tracking.md)
 - [\[ICCV 2025\] Factorized Learning for Temporally Grounded Video-Language Models](../../ICCV2025/video_understanding/factorized_learning_for_temporally_grounded_video-language_models.md)
+- [\[ICCV 2025\] What You Have is What You Track: Adaptive and Robust Multimodal Tracking](../../ICCV2025/video_understanding/what_you_have_is_what_you_track_adaptive_and_robust_multimodal_tracking.md)
+- [\[CVPR 2025\] MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking](../../CVPR2025/video_understanding/mambavlt_time-evolving_multimodal_state_space_model_for_vision-language_tracking.md)
 
 <!-- RELATED:END -->

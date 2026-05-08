@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.21545](https://arxiv.org/abs/2507.21545)  
-**代码**: https://roboticsjtu.github.io/UniDomain/  
+**代码**: [https://roboticsjtu.github.io/UniDomain/](https://roboticsjtu.github.io/UniDomain/)  
 **领域**: 机器人 / 任务规划  
 **关键词**: PDDL, 任务规划, 机器人操作, 知识蒸馏, 大规模演示学习
 

@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 越狱攻击
+  - 多模态VLM
   - 安全对齐
   - 分布外输入
   - 多模态安全
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20823](https://arxiv.org/abs/2503.20823)  
-**代码**: https://github.com/naver-ai/JOOD (有)  
+**代码**: [https://github.com/naver-ai/JOOD](https://github.com/naver-ai/JOOD)  
 **领域**: 多模态VLM  
 **关键词**: 越狱攻击, 安全对齐, 分布外输入, 多模态安全, 数据变换
 
@@ -119,9 +119,9 @@ JOOD 是推理时攻击，不涉及训练。攻击参数包括：辅助样本数
 ## 相关论文
 
 - [\[CVPR 2025\] On the Out-of-Distribution Generalization of Multimodal Large Language Models](on_the_out-of-distribution_generalization_of_large_multimodal_models.md)
-- [\[ACL 2025\] Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucination in Multimodal LLMs](../../ACL2025/multimodal_vlm/mixture_of_decoding_an_attention-inspired_adaptive_decoding_strategy_to_mitigate.md)
-- [\[CVPR 2025\] Distraction is All You Need for Multimodal Large Language Model Jailbreaking](distraction_is_all_you_need_for_multimodal_large_language_model_jailbreaking.md)
 - [\[CVPR 2025\] From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons](from_multimodal_llms_to_generalist_embodied_agents_methods_and_lessons.md)
+- [\[ACL 2025\] Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucination in Multimodal LLMs](../../ACL2025/multimodal_vlm/mixture_of_decoding_an_attention-inspired_adaptive_decoding_strategy_to_mitigate.md)
 - [\[NeurIPS 2025\] Revisiting Logit Distributions for Reliable Out-of-Distribution Detection](../../NeurIPS2025/multimodal_vlm/revisiting_logit_distributions_for_reliable_out-of-distribution_detection.md)
+- [\[CVPR 2025\] Distraction is All You Need for Multimodal Large Language Model Jailbreaking](distraction_is_all_you_need_for_multimodal_large_language_model_jailbreaking.md)
 
 <!-- RELATED:END -->

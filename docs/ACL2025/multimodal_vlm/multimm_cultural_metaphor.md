@@ -9,7 +9,7 @@ tags:
   - 多模态隐喻
   - 文化偏见
   - 跨文化
-  - 情感分析
+  - 多模态VLM
   - 隐喻检测
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.06987](https://arxiv.org/abs/2506.06987)  
 **代码**: [GitHub](https://github.com/DUTIR-YSQ/MultiMM)  
-**领域**: NLP理解  
+**领域**: 多模态VLM  
 **关键词**: 多模态隐喻, 文化偏见, 跨文化, 情感分析, 隐喻检测
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[ACL 2025\] Evaluating Visual and Cultural Interpretation: The K-Viscuit Benchmark with Human-VLM Collaboration](evaluating_visual_and_cultural_interpretation_the_k-viscuit_benchmark_with_human.md)
 - [\[ACL 2025\] Unveiling Cultural Blind Spots: Analyzing the Limitations of mLLMs in Procedural Text Comprehension](unveiling_cultural_blind_spots_analyzing_the_limitations_of_mllms_in_procedural_.md)
-- [\[ACL 2025\] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](mmmu_pro_robust_benchmark.md)
-- [\[ACL 2025\] Table Understanding and (Multimodal) LLMs: A Cross-Domain Case Study on Scientific Tables](table_understanding_and_multimodal_llms_a_cross-domain_case_study_on_scientific_.md)
 - [\[ACL 2025\] GODBench: A Benchmark for Multimodal Large Language Models in Video Comment Art](godbench_a_benchmark_for_multimodal_large_language_models_in_video_comment_art.md)
+- [\[ACL 2025\] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](mmmupro_a_more_robust_multidiscipline_multimodal.md)
+- [\[ACL 2025\] LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating](longdocurl_multimodal_long_doc.md)
 
 <!-- RELATED:END -->

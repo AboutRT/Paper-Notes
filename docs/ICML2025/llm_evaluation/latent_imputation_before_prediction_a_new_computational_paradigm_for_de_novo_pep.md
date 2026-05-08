@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - De Novo Peptide Sequencing
-  - Missing Fragmentation
+  - LLM评测
   - Latent Imputation
   - Bipartite Matching
   - Mass Spectrometry
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.17524](https://arxiv.org/abs/2505.17524)  
-**代码**: https://github.com/usr922/LIPNovo  
+**代码**: [https://github.com/usr922/LIPNovo](https://github.com/usr922/LIPNovo)  
 **领域**: 生物信息学 / 蛋白质组学  
 **关键词**: De Novo Peptide Sequencing, Missing Fragmentation, Latent Imputation, Bipartite Matching, Mass Spectrometry
 
@@ -107,8 +107,8 @@ LIPNovo 提出在肽段预测前，通过隐空间补全（latent imputation）�
 
 - [\[ACL 2026\] Think in Latent Thoughts: A New Paradigm for Gloss-Free Sign Language Translation](../../ACL2026/llm_evaluation/think_in_latent_thoughts_a_new_paradigm_for_gloss-free_sign_language_translation.md)
 - [\[ICML 2025\] LLM-SRBench: A New Benchmark for Scientific Equation Discovery with LLMs](llm-srbench_a_new_benchmark_for_scientific_equation_discovery_with_large_languag.md)
-- [\[NeurIPS 2025\] A Standardized Benchmark for Multilabel Antimicrobial Peptide Classification](../../NeurIPS2025/llm_evaluation/a_standardized_benchmark_for_multilabel_antimicrobial_peptide_classification.md)
 - [\[ICML 2025\] On Temperature Scaling and Conformal Prediction of Deep Classifiers](on_temperature_scaling_and_conformal_prediction_of_deep_classifiers.md)
 - [\[ACL 2025\] VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare](../../ACL2025/llm_evaluation/vital_pluralistic_alignment_healthcare.md)
+- [\[NeurIPS 2025\] A Standardized Benchmark for Multilabel Antimicrobial Peptide Classification](../../NeurIPS2025/llm_evaluation/a_standardized_benchmark_for_multilabel_antimicrobial_peptide_classification.md)
 
 <!-- RELATED:END -->

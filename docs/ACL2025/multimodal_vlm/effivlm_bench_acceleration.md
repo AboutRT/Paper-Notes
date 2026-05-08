@@ -8,7 +8,7 @@ tags:
   - 多模态
   - VLM acceleration
   - token compression
-  - KV cache
+  - 多模态VLM
   - parameter compression
   - benchmark
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00479](https://arxiv.org/abs/2506.00479)  
 **代码**: [https://effivlm-bench.github.io/](https://effivlm-bench.github.io/)  
-**领域**: LLM效率  
+**领域**: 多模态VLM  
 **关键词**: VLM acceleration, token compression, KV cache, parameter compression, benchmark
 
 ## 一句话总结
@@ -124,10 +124,10 @@ EffiVLM-Bench 评估两类训练免加速方法：(1) Token 压缩 — 包括 to
 
 ## 相关论文
 
-- [\[ACL 2025\] Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents](agent_rewardbench.md)
 - [\[ACL 2025\] VF-Eval: Evaluating Multimodal LLMs for Generating Feedback on AIGC Videos](vf_eval_aigc_video_feedback.md)
 - [\[ACL 2025\] VLM2-Bench: A Closer Look at How Well VLMs Implicitly Link Explicit Matching Visual Cues](vlm2-bench_a_closer_look_at_how_well_vlms_implicitly_link_explicit_matching_visu.md)
 - [\[ACL 2025\] Vision-Language Models Struggle to Align Entities across Modalities](vision-language_models_struggle_to_align_entities_across_modalities.md)
 - [\[ACL 2025\] Burn After Reading: Do Multimodal Large Language Models Truly Capture Order of Events in Image Sequences?](burn_after_reading_do_multimodal_large_language_models_truly_capture_order_of_ev.md)
+- [\[ACL 2025\] AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models](alignmmbench_evaluating_chinese_multimodal_alignment_in_large_vision-language_mo.md)
 
 <!-- RELATED:END -->

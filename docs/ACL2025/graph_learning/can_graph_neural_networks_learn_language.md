@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.08174](https://arxiv.org/abs/2412.08174)  
 **代码**: [Violet24K/Morpher](https://github.com/Violet24K/Morpher)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: 图神经网络, 多模态提示学习, 图文对齐, 少样本学习, 零样本分类  
 
 ## 一句话总结
@@ -131,8 +131,8 @@ $$\mathcal{L}_{G \rightarrow T} = -\frac{1}{B}\sum_{i=1}^{B} \log \frac{\exp(\ma
 
 - [\[ACL 2025\] GraphNarrator: Generating Textual Explanations for Graph Neural Networks](graphnarrator.md)
 - [\[ACL 2025\] Can Knowledge Graphs Make Large Language Models More Trustworthy? An Empirical Study Over Open-ended Question Answering](kg_llm_trustworthy_qa.md)
-- [\[NeurIPS 2025\] Dynamic Bundling with Large Language Models for Zero-Shot Inference on Text-Attributed Graphs](../../NeurIPS2025/graph_learning/dynamic_bundling_with_large_language_models_for_zero-shot_inference_on_text-attr.md)
-- [\[NeurIPS 2025\] Over-squashing in Spatiotemporal Graph Neural Networks](../../NeurIPS2025/graph_learning/over-squashing_in_spatiotemporal_graph_neural_networks.md)
 - [\[NeurIPS 2025\] Graph Neural Networks for Interferometer Simulations](../../NeurIPS2025/graph_learning/graph_neural_networks_for_interferometer_simulations.md)
+- [\[NeurIPS 2025\] Over-squashing in Spatiotemporal Graph Neural Networks](../../NeurIPS2025/graph_learning/over-squashing_in_spatiotemporal_graph_neural_networks.md)
+- [\[NeurIPS 2025\] Dynamic Bundling with Large Language Models for Zero-Shot Inference on Text-Attributed Graphs](../../NeurIPS2025/graph_learning/dynamic_bundling_with_large_language_models_for_zero-shot_inference_on_text-attr.md)
 
 <!-- RELATED:END -->

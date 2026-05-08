@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.05018](https://arxiv.org/abs/2511.05018)  
 **代码**: 待确认  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 多元对齐, behavioral policy, multi-turn evaluation, 红队测试, LLM 安全
 
 ## 一句话总结
@@ -151,9 +151,9 @@ PBSuite 包含两个核心组件：
 ## 相关论文
 
 - [\[ACL 2025\] Stress-testing Machine Generated Text Detection: Shifting Language Models Writing Style to Fool Detectors](../../ACL2025/llm_nlp/stress-testing_machine_generated_text_detection_shifting_language_models_writing.md)
-- [\[ICLR 2026\] Unsupervised Evaluation of Multi-Turn Objective-Driven Interactions](../../ICLR2026/llm_nlp/unsupervised_evaluation_of_multi-turn_objective-driven_interactions.md)
 - [\[NeurIPS 2025\] Scaling Up Active Testing to Large Language Models](scaling_up_active_testing_to_large_language_models.md)
+- [\[ICLR 2026\] Unsupervised Evaluation of Multi-Turn Objective-Driven Interactions](../../ICLR2026/llm_nlp/unsupervised_evaluation_of_multi-turn_objective-driven_interactions.md)
 - [\[AAAI 2026\] Conversational Learning Diagnosis via Reasoning Multi-Turn Interactive Learning](../../AAAI2026/llm_nlp/conversational_learning_diagnosis_via_reasoning_multi-turn_interactive_learning.md)
-- [\[ACL 2025\] Behavioral Analysis of Information Salience in Large Language Models](../../ACL2025/llm_nlp/behavioral_analysis_of_information_salience_in_large_language_models.md)
+- [\[ACL 2025\] Controlling Politeness in Multi-Turn Dialogues Through Pre-Phrase Augmentation](../../ACL2025/llm_nlp/controlling_politeness_in_multi-turn_dialogues_through_pre-phrase_augmentation.md)
 
 <!-- RELATED:END -->

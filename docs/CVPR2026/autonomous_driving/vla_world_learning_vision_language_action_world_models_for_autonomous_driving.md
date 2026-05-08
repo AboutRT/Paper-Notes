@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.09059](https://arxiv.org/abs/2604.09059)  
-**代码**: https://vlaworld.github.io  
+**代码**: [https://vlaworld.github.io](https://vlaworld.github.io)  
 **领域**: 自动驾驶  
 **关键词**: VLA模型, 世界模型, 自动驾驶, 反思推理, 强化学习
 

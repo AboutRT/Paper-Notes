@@ -9,7 +9,7 @@ tags:
   - Shortcut Neuron
   - Activation Patching
   - Trustworthy Evaluation
-  - Benchmark Fairness
+  - 可解释性
 ---
 
 # Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.04142](https://arxiv.org/abs/2506.04142)  
 **代码**: [https://github.com/GaryStack/Trustworthy-Evaluation](https://github.com/GaryStack/Trustworthy-Evaluation)  
-**领域**: LLM NLP / 评估与可信度  
+**领域**: 可解释性  
 **关键词**: Data Contamination, Shortcut Neuron, Activation Patching, Trustworthy Evaluation, Benchmark Fairness  
 
 ## 一句话总结
@@ -173,10 +173,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Rectifying Shortcut Behaviors in Preference-based Reward Learning](../../NeurIPS2025/interpretability/rectifying_shortcut_behaviors_in_preference-based_reward_learning.md)
 - [\[ACL 2025\] EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations](expert_an_explainable_image_captioning_evaluation_metric_with_structured_explana.md)
+- [\[NeurIPS 2025\] Rectifying Shortcut Behaviors in Preference-based Reward Learning](../../NeurIPS2025/interpretability/rectifying_shortcut_behaviors_in_preference-based_reward_learning.md)
 - [\[ICML 2025\] Evaluating Neuron Explanations: A Unified Framework with Sanity Checks](../../ICML2025/interpretability/evaluating_neuron_explanations_a_unified_framework_with_sanity_checks.md)
 - [\[AAAI 2026\] Probing Preference Representations: A Multi-Dimensional Evaluation and Analysis Method for Reward Models](../../AAAI2026/interpretability/probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)
-- [\[ACL 2025\] CLEME2.0: Towards Interpretable Evaluation by Disentangling Edits for Grammatical Error Correction](cleme2_gec_evaluation.md)
+- [\[ACL 2025\] IRT-Router: Effective and Interpretable Multi-LLM Routing via Item Response Theory](irt_router_multi_llm.md)
 
 <!-- RELATED:END -->

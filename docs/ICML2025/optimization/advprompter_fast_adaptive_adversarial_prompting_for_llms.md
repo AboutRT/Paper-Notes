@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2404.16873](https://arxiv.org/abs/2404.16873)  
-**代码**: https://github.com/facebookresearch/advprompter  
+**代码**: [https://github.com/facebookresearch/advprompter](https://github.com/facebookresearch/advprompter)  
 **领域**: 优化/AI安全  
 **关键词**: 对抗提示, LLM越狱, 红队测试, 自适应攻击, 对抗训练
 
@@ -175,8 +175,8 @@ AdvBench 攻击成功率（开源目标 LLM）：
 
 - [\[NeurIPS 2025\] Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive Regularization](../../NeurIPS2025/optimization/kernel_learning_with_adversarial_features_numerical_efficiency_and_adaptive_regu.md)
 - [\[ICML 2025\] Autoformulation of Mathematical Optimization Models Using LLMs](autoformulation_of_mathematical_optimization_models_using_llms.md)
-- [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](../../NeurIPS2025/optimization/efficient_adaptive_federated_optimization.md)
 - [\[NeurIPS 2025\] Beyond Õ(√T) Constraint Violation for Online Convex Optimization with Adversarial Constraints](../../NeurIPS2025/optimization/beyond_tildeosqrtt_constraint_violation_for_online_convex_optimization_with_adve.md)
-- [\[ICCV 2025\] Adversarial Data Augmentation for Single Domain Generalization via Lyapunov Exponents](../../ICCV2025/optimization/adversarial_data_augmentation_for_single_domain_generalization_via_lyapunov_expo.md)
+- [\[ICCV 2025\] Zeroth-Order Fine-Tuning of LLMs in Random Subspaces](../../ICCV2025/optimization/zeroth-order_fine-tuning_of_llms_in_random_subspaces.md)
+- [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](../../NeurIPS2025/optimization/efficient_adaptive_federated_optimization.md)
 
 <!-- RELATED:END -->

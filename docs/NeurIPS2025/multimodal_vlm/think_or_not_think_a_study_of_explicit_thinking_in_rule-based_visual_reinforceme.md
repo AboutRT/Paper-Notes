@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 强化微调
   - 思维链
-  - 多模态大语言模型
+  - 多模态VLM
   - GRPO
   - 视觉推理
 ---
@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.16188](https://arxiv.org/abs/2503.16188)  
-**代码**: https://github.com/minglllli/CLS-RL (有)  
-**领域**: 多模态视觉语言模型  
+**代码**: [https://github.com/minglllli/CLS-RL](https://github.com/minglllli/CLS-RL)  
+**领域**: 多模态VLM  
 **关键词**: 强化微调, 思维链, 多模态大语言模型, GRPO, 视觉推理
 
 ## 一句话总结
@@ -117,10 +117,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] When to Think and When to Look: Uncertainty-Guided Lookback](../../CVPR2026/multimodal_vlm/when_to_think_and_when_to_look_uncertainty-guided_lookback.md)
-- [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](visual_instruction_bottleneck_tuning.md)
+- [\[NeurIPS 2025\] VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](videorft_incentivizing_video_reasoning_capability_in_mllms_via_reinforced_fine-t.md)
 - [\[ICCV 2025\] DocThinker: Explainable Multimodal Large Language Models with Rule-based Reinforcement Learning for Document Understanding](../../ICCV2025/multimodal_vlm/docthinker_explainable_multimodal_large_language_models_with.md)
 - [\[NeurIPS 2025\] Advancing Compositional Awareness in CLIP with Efficient Fine-Tuning](advancing_compositional_awareness_in_clip_with_efficient_fin.md)
 - [\[NeurIPS 2025\] Unified Reinforcement and Imitation Learning for Vision-Language Models](unified_reinforcement_and_imitation_learning_for_vision-language_models.md)
+- [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](visual_instruction_bottleneck_tuning.md)
 
 <!-- RELATED:END -->

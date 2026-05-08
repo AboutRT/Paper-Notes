@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 合成用户
   - 健康状况建模
-  - 教练式对话Agent
+  - 其他
   - 用户模拟
   - LLM评估
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.13135](https://arxiv.org/abs/2502.13135)  
 **代码**: [有](https://anonymous.4open.science/r/sleepless_nights)  
-**领域**: NLP / 对话系统 / 健康AI  
+**领域**: 其他  
 **关键词**: 合成用户, 健康状况建模, 教练式对话Agent, 用户模拟, LLM评估
 
 ## 一句话总结
@@ -60,14 +60,14 @@ tags:
 2. **多层次用户建模**
 
    对于睡眠场景：
-   - 基础属性：年龄、性别、BMI、睡眠时长和效率、大五人格
-   - LLM 生成的睡眠档案：主要睡眠关切、睡眠目标、目标原因、障碍
-   - 可选扩展：COM-B 行为模型框架的挑战、丰富的背景故事
+    - 基础属性：年龄、性别、BMI、睡眠时长和效率、大五人格
+    - LLM 生成的睡眠档案：主要睡眠关切、睡眠目标、目标原因、障碍
+    - 可选扩展：COM-B 行为模型框架的挑战、丰富的背景故事
 
    对于糖尿病场景：
-   - 从 246 个真实挑战中按 COM-B 模型分布采样障碍
-   - 基于患者的人口学、社会经济和临床数据构建小传
-   - 生成沟通风格（语气、冗长度、信心水平）
+    - 从 246 个真实挑战中按 COM-B 模型分布采样障碍
+    - 基于患者的人口学、社会经济和临床数据构建小传
+    - 生成沟通风格（语气、冗长度、信心水平）
 
 3. **交互模拟**
 
@@ -156,9 +156,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Retrospective Learning from Interactions](retrospective_learning_from_interactions.md)
-- [\[ACL 2025\] Meaning Beyond Truth Conditions: Evaluating Discourse Level Understanding via Anaphora Accessibility](meaning_beyond_truth_conditions_evaluating_discourse_level_understanding_via_ana.md)
 - [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
 - [\[ACL 2025\] CONFETTI: Conversational Function-Calling Evaluation Through Turn-Level Interactions](confetti_conversational_function-calling_evaluation_through_turn-level_interacti.md)
-- [\[ACL 2025\] CoachMe: Decoding Sport Elements with a Reference-Based Coaching Instruction Generation Model](coachme_sport_instruction.md)
+- [\[ACL 2025\] Unifying Language Agent Algorithms with Graph-based Orchestration Engine for Reproducible Agent Research](unifying_language_agent_algorithms_with_graph-based_orchestration_engine_for_rep.md)
+- [\[ACL 2025\] Behind Closed Words: Creating and Investigating the forePLay Annotated Dataset for Polish Erotic Discourse](foreplay_polish_erotic_detection.md)
 
 <!-- RELATED:END -->

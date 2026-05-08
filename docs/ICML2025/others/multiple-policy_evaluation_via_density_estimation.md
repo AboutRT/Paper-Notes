@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2404.00195](https://arxiv.org/abs/2404.00195)  
 **代码**: 无  
-**领域**: others  
+**领域**: 其他  
 **关键词**: multiple-policy evaluation, density estimation, importance sampling, coarse estimation, sample complexity
 
 ## 一句话总结

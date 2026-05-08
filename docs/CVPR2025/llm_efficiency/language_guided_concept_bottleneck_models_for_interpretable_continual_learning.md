@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.23283](https://arxiv.org/abs/2503.23283)  
-**代码**: https://github.com/FisherCats/CLG-CBM (有)  
+**代码**: [https://github.com/FisherCats/CLG-CBM](https://github.com/FisherCats/CLG-CBM)  
 **领域**: LLM效率  
 **关键词**: 持续学习, 概念瓶颈模型, 可解释性, CLIP, 灾难性遗忘
 
@@ -96,10 +96,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] KAC: Kolmogorov-Arnold Classifier for Continual Learning](kac_kolmogorov-arnold_classifier_for_continual_learning.md)
-- [\[CVPR 2026\] Learning Like Humans: Analogical Concept Learning for Generalized Category Discovery](../../CVPR2026/llm_efficiency/learning_like_humans_analogical_concept_learning_for_generalized_category_discov.md)
-- [\[AAAI 2026\] Attention Retention for Continual Learning with Vision Transformers](../../AAAI2026/llm_efficiency/attention_retention_for_continual_learning_with_vision_transformers.md)
 - [\[ICLR 2026\] Expert Divergence Learning for MoE-based Language Models](../../ICLR2026/llm_efficiency/expert_divergence_learning_for_moe-based_language_models.md)
-- [\[AAAI 2026\] Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting](../../AAAI2026/llm_efficiency/learning_from_the_undesirable_robust_adaptation_of_language_models_without_forge.md)
+- [\[CVPR 2026\] CHEEM: Continual Learning by Reuse, New, Adapt and Skip -- A Hierarchical Exploration-Exploitation Approach](../../CVPR2026/llm_efficiency/cheem_continual_learning_by_reuse_new_adapt_and_skip_--_a_hierarchical_explorati.md)
+- [\[ICLR 2026\] One-Prompt Strikes Back: Sparse Mixture of Experts for Prompt-based Continual Learning](../../ICLR2026/llm_efficiency/one-prompt_strikes_back_sparse_mixture_of_experts_for_prompt-based_continual_lea.md)
+- [\[ACL 2025\] How to Train Long-Context Language Models (Effectively)](../../ACL2025/llm_efficiency/train_long_context_effectively.md)
+- [\[ACL 2025\] Literary Evidence Retrieval via Long-Context Language Models](../../ACL2025/llm_efficiency/literary_evidence_retrieval_via_long-context_language_models.md)
 
 <!-- RELATED:END -->

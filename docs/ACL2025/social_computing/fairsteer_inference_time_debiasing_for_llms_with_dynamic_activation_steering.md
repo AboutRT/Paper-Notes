@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2504.14492](https://arxiv.org/abs/2504.14492)  
 **代码**: [GitHub](https://github.com/LiYichen99/FairSteer)  
-**领域**: llm_nlp  
+**领域**: 社会计算  
 **关键词**: debiasing, fairness, activation steering, linear representation, inference-time
 
 ## 一句话总结

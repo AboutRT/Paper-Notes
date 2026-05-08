@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2509.15130](https://arxiv.org/abs/2509.15130)  
-**代码**: https://worldforge-agi.github.io (项目页)  
+**代码**: [https://worldforge-agi.github.io](https://worldforge-agi.github.io) (项目页)  
 **领域**: 扩散模型 / 3D视觉  
 **关键词**: 视频扩散模型, 3D生成, 4D生成, 相机控制, 无训练推理
 

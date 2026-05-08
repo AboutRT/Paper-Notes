@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - Argument Mining
   - 论证关系
-  - 教育评估
+  - 其他
   - 议论文分析
   - 细粒度标注
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.12028](https://arxiv.org/abs/2505.12028)  
 **代码**: 无  
-**领域**: NLP / 论证挖掘  
+**领域**: 其他  
 **关键词**: Argument Mining, 论证关系, 教育评估, 议论文分析, 细粒度标注
 
 ## 一句话总结
@@ -134,9 +134,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] AmbiK: Dataset of Ambiguous Tasks in Kitchen Environment](ambik_dataset_of_ambiguous_tasks_in_kitchen_environment.md)
-- [\[ACL 2025\] ChildMandarin: A Comprehensive Mandarin Speech Dataset for Young Children Aged 3-5](childmandarin_a_comprehensive_mandarin_speech_dataset_for_young_children_aged_3-.md)
-- [\[ACL 2025\] MockConf: A Student Interpretation Dataset: Analysis, Word- and Span-level Alignment and Baselines](mockconf_a_student_interpretation_dataset_analysis_word-_and_span-level_alignmen.md)
 - [\[ACL 2025\] Limited Generalizability in Argument Mining: State-Of-The-Art Models Learn Datasets, Not Arguments](limited_generalizability_in_argument_mining_state-of-the-art_models_learn_datase.md)
+- [\[ACL 2025\] MockConf: A Student Interpretation Dataset: Analysis, Word- and Span-level Alignment and Baselines](mockconf_a_student_interpretation_dataset_analysis_word-_and_span-level_alignmen.md)
 - [\[ACL 2025\] A Multi-Persona Framework for Argument Quality Assessment](a_multi-persona_framework_for_argument_quality_assessment.md)
+- [\[ACL 2025\] ChildMandarin: A Comprehensive Mandarin Speech Dataset for Young Children Aged 3-5](childmandarin_a_comprehensive_mandarin_speech_dataset_for_young_children_aged_3-.md)
 
 <!-- RELATED:END -->

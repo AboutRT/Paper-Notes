@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2411.00626](https://arxiv.org/abs/2411.00626)  
 **代码**: [https://naver-ai.github.io/ZIM](https://naver-ai.github.io/ZIM)  
-**领域**: Segmentation  
+**领域**: 图像分割  
 **关键词**: 图像抠图, 零样本, SAM, 标签转换, 层次解码器
 
 ## 一句话总结

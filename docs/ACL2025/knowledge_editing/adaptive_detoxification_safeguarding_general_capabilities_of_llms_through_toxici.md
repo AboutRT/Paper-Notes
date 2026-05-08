@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ToxEdit: Adaptive Detoxification Safeguarding General Capabilities of LLMs through Toxicity-Aware Knowledge Editing
 description: >-
-  [ACL 2025][LLM去毒] 提出 ToxEdit——毒性感知的知识编辑方法，在 LLM 前向传播早期层用 SVM 分类器检测有害隐藏状态，通过路由机制将有害输入导向编辑后的 FFN 副本、无害输入走原始 FFN，在 LLaMA3-8B/LLaMA2-7B/Mistral-7B 上同时实现了近 98% 去毒成功率和 95% 指令遵从保留（DL 指标），解决了知识编辑去毒中"去毒 vs 过度编辑"的核心矛盾。
+  [ACL 2025][知识编辑] 提出 ToxEdit——毒性感知的知识编辑方法，在 LLM 前向传播早期层用 SVM 分类器检测有害隐藏状态，通过路由机制将有害输入导向编辑后的 FFN 副本、无害输入走原始 FFN，在 LLaMA3-8B/LLaMA2-7B/Mistral-7B 上同时实现了近 98% 去毒成功率和 95% 指令遵从保留（DL 指标），解决了知识编辑去毒中"去毒 vs 过度编辑"的核心矛盾。
 tags:
   - ACL 2025
-  - LLM去毒
+  - 知识编辑
   - 知识编辑
   - 过度编辑
   - 自适应路由
@@ -132,9 +132,9 @@ ToxEdit 由两个模块组成：(1) 语义画像毒性检测模块——在 LLM 
 ## 相关论文
 
 - [\[ACL 2025\] A General Knowledge Injection Framework for ICD Coding](a_general_knowledge_injection_framework_for_icd_coding.md)
+- [\[ACL 2025\] Mitigating Negative Interference in Multilingual Sequential Knowledge Editing through Null-Space Constraints](mitigating_negative_interference_in_multilingual_sequential_knowledge_editing_th.md)
+- [\[ACL 2025\] Memorizing is Not Enough: Deep Knowledge Injection Through Reasoning](memorizing_is_not_enough_deep_knowledge_injection_through_reasoning.md)
 - [\[ACL 2025\] ChainEdit: Propagating Ripple Effects in LLM Knowledge Editing through Logical Rule-Guided Chains](chainedit_propagating_ripple_effects_in_llm.md)
 - [\[ACL 2025\] Structure-aware Domain Knowledge Injection for Large Language Models](structure-aware_domain_knowledge_injection_for_large_language_models.md)
-- [\[ACL 2025\] CKnowEdit: A New Chinese Knowledge Editing Dataset for Linguistics, Facts, and Logic Error Correction in LLMs](cknowedit_chinese_knowledge_editing_dataset_llms.md)
-- [\[ACL 2025\] Memorizing is Not Enough: Deep Knowledge Injection Through Reasoning](memorizing_is_not_enough_deep_knowledge_injection_through_reasoning.md)
 
 <!-- RELATED:END -->

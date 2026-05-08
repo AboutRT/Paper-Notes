@@ -2,10 +2,10 @@
 title: >-
   [论文解读] The Narrow Gate: Localized Image-Text Communication in Native Multimodal Models
 description: >-
-  [NeurIPS 2025][多模态] 通过系统性的可解释性分析发现，原生多模态VLM（Chameleon、Emu3）中图像到文本的跨模态信息传递集中于单一的end-of-image [EOI] token——形成"narrow gate"瓶颈，删除[EOI]的注意力导致性能崩溃；而非原生VLM（LLaVA等）的信息传递是分布式的。这一机制差异可被利用于语义操控和鲁棒性改进。
+  [NeurIPS 2025][信息检索] 通过系统性的可解释性分析发现，原生多模态VLM（Chameleon、Emu3）中图像到文本的跨模态信息传递集中于单一的end-of-image [EOI] token——形成"narrow gate"瓶颈，删除[EOI]的注意力导致性能崩溃；而非原生VLM（LLaVA等）的信息传递是分布式的。这一机制差异可被利用于语义操控和鲁棒性改进。
 tags:
   - NeurIPS 2025
-  - 多模态
+  - 信息检索
   - EOI token
   - narrow gate
   - 跨模态信息流
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2412.06646](https://arxiv.org/abs/2412.06646)  
 **代码**: [https://ritareasciencepark.github.io/Narrow-gate](https://ritareasciencepark.github.io/Narrow-gate)  
-**领域**: 多模态VLM / 可解释性  
+**领域**: 信息检索  
 **关键词**: native multimodal, EOI token, narrow gate, 跨模态信息流, activation patching
 
 ## 一句话总结
@@ -130,10 +130,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Generalized Contrastive Learning for Universal Multimodal Retrieval](generalized_contrastive_learning_for_universal_multimodal_re.md)
 - [\[CVPR 2025\] DocoPilot: Improving Multimodal Models for Document-Level Understanding](../../CVPR2025/information_retrieval/docopilot_improving_multimodal_models_for_document-level_understanding.md)
-- [\[ICCV 2025\] Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation for Image-Text Matching](../../ICCV2025/information_retrieval/aligning_information_capacity_between_vision_and_language_via_dense_to_sparse_feature_distillation.md)
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](../../ACL2025/information_retrieval/enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
-- [\[ACL 2025\] Optimized Text Embedding Models and Benchmarks for Amharic Passage Retrieval](../../ACL2025/information_retrieval/optimized_text_embedding_models_and_benchmarks_for_amharic_passage_retrieval.md)
+- [\[NeurIPS 2025\] Generalized Contrastive Learning for Universal Multimodal Retrieval](generalized_contrastive_learning_for_universal_multimodal_re.md)
+- [\[AAAI 2026\] Knowledge Completes the Vision: A Multimodal Entity-aware Retrieval-Augmented Generation Framework for News Image Captioning](../../AAAI2026/information_retrieval/knowledge_completes_the_vision_a_multimodal_entity-aware_retrieval-augmented_gen.md)
+- [\[NeurIPS 2025\] The Transparent Earth: A Multimodal Foundation Model for the Earth's Subsurface](the_transparent_earth_a_multimodal_foundation_model_for_the_earths_subsurface.md)
 
 <!-- RELATED:END -->

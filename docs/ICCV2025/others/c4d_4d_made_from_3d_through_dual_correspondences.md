@@ -8,7 +8,7 @@ tags:
   - 4D重建
   - 时序对应
   - 点跟踪
-  - 运动分割
+  - 其他
   - DUSt3R
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2510.14960](https://arxiv.org/abs/2510.14960)  
 **代码**: [https://littlepure2333.github.io/C4D](https://littlepure2333.github.io/C4D)  
-**领域**: 3D视觉 / 4D重建 / 动态场景  
+**领域**: 其他  
 **关键词**: 4D重建, 时序对应, 点跟踪, 运动分割, DUSt3R  
 
 ## 一句话总结
@@ -125,9 +125,9 @@ CTS对RPE_rot影响最大(0.705→1.348)
 ## 相关论文
 
 - [\[CVPR 2025\] FIction: 4D Future Interaction Prediction from Video](../../CVPR2025/others/fiction_4d_future_interaction_prediction_from_video.md)
-- [\[ICML 2025\] Symmetry-Robust 3D Orientation Estimation](../../ICML2025/others/symmetry-robust_3d_orientation_estimation.md)
-- [\[NeurIPS 2025\] 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](../../NeurIPS2025/others/4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)
+- [\[ICCV 2025\] Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging](hi3dgen_high-fidelity_3d_geometry_generation_from_images_via_normal_bridging.md)
 - [\[ICCV 2025\] IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization](iap_invisible_adversarial_patch_attack_through_perceptibility-aware_localization.md)
+- [\[NeurIPS 2025\] 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](../../NeurIPS2025/others/4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)
 - [\[ICCV 2025\] LaCoOT: Layer Collapse through Optimal Transport](lacoot_layer_collapse_through_optimal_transport.md)
 
 <!-- RELATED:END -->

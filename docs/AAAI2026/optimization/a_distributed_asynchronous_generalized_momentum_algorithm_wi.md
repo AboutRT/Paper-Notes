@@ -55,21 +55,21 @@ tags:
 
 1. **广义动量更新律（GM Update Law）**:
    集中式版本为：
-   $$x(l+1) = \Pi_X\left[x(l) - \gamma \nabla f\big(x(l) + \lambda(x(l)-x(l-1))\big) + \beta(x(l)-x(l-1))\right]$$
+    $x(l+1) = \Pi_X\left[x(l) - \gamma \nabla f\big(x(l) + \lambda(x(l)-x(l-1))\big) + \beta(x(l)-x(l-1))\right]$
    其中 $\gamma$ 是步长，$\lambda$ 控制梯度评估点的动量偏移（类似 Nesterov 的"look-ahead"），$\beta$ 控制迭代更新的动量项（类似 Heavy Ball）。特殊选择 $\beta=\lambda$ 得到 NAG，$\lambda=0$ 得到 HB，$\beta=\lambda=0$ 得到 GD。这种统一框架使得算法可以在更大的参数空间中寻找最优配置。
 
 2. **双步压缩映射（Two-Step Contraction）**:
    这是论文最关键的技术贡献。单步 GM 更新律不满足 $\infty$-范数压缩性质（因为动量项的存在），但作者巧妙地证明：**连续施加两次 GM 更新** 构成一个 $\infty$-范数压缩映射，压缩系数 $\alpha = \max\{\alpha_1, \alpha_2\} \in (0,1)$。其中：
-   - $\alpha_1 = |1+\beta - \gamma\mu(1+\lambda)|^2 + (\beta - \gamma\lambda\mu)|2+\beta - \gamma\mu(1+\lambda)|$
-   - $\alpha_2 = 1 - \gamma\mu + 2(\beta - \lambda\gamma\mu)$
+    - $\alpha_1 = |1+\beta - \gamma\mu(1+\lambda)|^2 + (\beta - \gamma\lambda\mu)|2+\beta - \gamma\mu(1+\lambda)|$
+    - $\alpha_2 = 1 - \gamma\mu + 2(\beta - \lambda\gamma\mu)$
 
    这使得可以定义"双步同步 GM"（dGM）算法：每个时间步内，处理器执行两次 GM 更新。dGM 的每一步都是一个压缩映射，从而可以套用 Bertsekas & Tsitsiklis 的完全异步收敛框架。
 
 3. **完全异步协议（Algorithm 1）**:
    每个处理器 $i$ 维护所有相关变量的本地副本 $z^i = (x^i, y^i)$。在完全异步模式下：
-   - 处理器 $i$ 在 $k \in K_i$（其计算时间集）时执行 dGM 更新，其他时间保持不变
-   - 通信使用过时（stale）信息：处理器 $i$ 持有的处理器 $j$ 的变量可能是很久以前的版本 $\tau_j^i(k)$
-   - 唯一的约束（Assumption 4）：每个处理器不会永久停止计算或通信——但两次操作之间的间隔可以任意长
+    - 处理器 $i$ 在 $k \in K_i$（其计算时间集）时执行 dGM 更新，其他时间保持不变
+    - 通信使用过时（stale）信息：处理器 $i$ 持有的处理器 $j$ 的变量可能是很久以前的版本 $\tau_j^i(k)$
+    - 唯一的约束（Assumption 4）：每个处理器不会永久停止计算或通信——但两次操作之间的间隔可以任意长
 
    作者引入"操作周期"（operation cycle）的概念：$\text{ops}(k)$ 记录到时间 $k$ 为止完成的完整操作周期数。一个周期要求所有处理器都至少完成一次计算、发送和接收。收敛速率是关于 $\text{ops}(k)$ 的线性函数。
 
@@ -135,7 +135,7 @@ tags:
 - [\[AAAI 2026\] SMoFi: Step-wise Momentum Fusion for Split Federated Learning on Heterogeneous Data](smofi_step-wise_momentum_fusion_for_split_federated_learning_on_heterogeneous_da.md)
 - [\[ICML 2025\] Integer Programming for Generalized Causal Bootstrap Designs](../../ICML2025/optimization/integer_programming_for_generalized_causal_bootstrap_designs.md)
 - [\[CVPR 2026\] Dynamic Momentum Recalibration in Online Gradient Learning](../../CVPR2026/optimization/dynamic_momentum_recalibration_in_online_gradient_learning.md)
-- [\[NeurIPS 2025\] FedQS: Optimizing Gradient and Model Aggregation for Semi-Asynchronous Federated Learning](../../NeurIPS2025/optimization/fedqs_optimizing_gradient_and_model_aggregation_for_semi-asynchronous_federated_.md)
-- [\[NeurIPS 2025\] Escaping Saddle Points without Lipschitz Smoothness: The Power of Nonlinear Preconditioning](../../NeurIPS2025/optimization/escaping_saddle_points_without_lipschitz_smoothness_the_power_of_nonlinear_preco.md)
+- [\[NeurIPS 2025\] Perturbation Bounds for Low-Rank Inverse Approximations under Noise](../../NeurIPS2025/optimization/perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)
+- [\[ICLR 2026\] MT-DAO: Multi-Timescale Distributed Adaptive Optimizers with Local Updates](../../ICLR2026/optimization/mt-dao_multi-timescale_distributed_adaptive_optimizers_with_local_updates.md)
 
 <!-- RELATED:END -->

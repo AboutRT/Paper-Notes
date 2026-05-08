@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.10721](https://arxiv.org/abs/2511.10721)  
-**代码**: https://peterwang512.github.io/FastGDA (有)  
+**代码**: [https://peterwang512.github.io/FastGDA](https://peterwang512.github.io/FastGDA)  
 **领域**: 图像生成  
 **关键词**: 数据归因, 文生图模型, learning-to-rank, 特征蒸馏, 高效检索
 

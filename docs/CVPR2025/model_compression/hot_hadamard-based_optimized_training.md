@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21261](https://arxiv.org/abs/2503.21261)  
-**代码**: https://github.com/sungonuni/HOT  
+**代码**: [https://github.com/sungonuni/HOT](https://github.com/sungonuni/HOT)  
 **领域**: 模型压缩  
 **关键词**: 训练加速、Hadamard变换、梯度量化、激活压缩、混合精度
 

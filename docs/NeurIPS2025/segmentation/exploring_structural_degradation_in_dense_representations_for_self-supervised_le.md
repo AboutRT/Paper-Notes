@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.17299](https://arxiv.org/abs/2510.17299)  
 **代码**: [GitHub](https://github.com/EldercatSAM/SSL-Degradation)  
-**领域**: Segmentation / Self-supervised Learning  
+**领域**: 图像分割  
 **关键词**: 自监督学习, 稠密表示, 性能退化, 模型选择, 正则化
 
 ## 一句话总结

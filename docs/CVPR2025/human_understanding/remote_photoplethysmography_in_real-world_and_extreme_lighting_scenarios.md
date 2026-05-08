@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.11465](https://arxiv.org/abs/2503.11465)  
 **代码**: 无  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: 远程光电容积脉搏波, 心率估计, 光照干扰, 自监督解耦, 视频Transformer
 
 ## 一句话总结
@@ -124,10 +124,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Zero-Shot Head Swapping in Real-World Scenarios](zero-shot_head_swapping_in_real-world_scenarios.md)
+- [\[ICCV 2025\] UDC-VIT: A Real-World Video Dataset for Under-Display Cameras](../../ICCV2025/human_understanding/udc-vit_a_real-world_video_dataset_for_under-display_cameras.md)
+- [\[CVPR 2026\] PHASE-Net: Physics-Grounded Harmonic Attention System for Efficient Remote Photoplethysmography Measurement](../../CVPR2026/human_understanding/phase-net_physics-grounded_harmonic_attention_system_for_efficient_remote_photop.md)
 - [\[CVPR 2025\] Quaffure: Real-Time Quasi-Static Neural Hair Simulation](quaffure_real-time_quasi-static_neural_hair_simulation.md)
 - [\[CVPR 2025\] Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose Estimation](analyzing_the_synthetic-to-real_domain_gap_in_3d_hand_pose_estimation.md)
-- [\[ICCV 2025\] UDC-VIT: A Real-World Video Dataset for Under-Display Cameras](../../ICCV2025/human_understanding/udc-vit_a_real-world_video_dataset_for_under-display_cameras.md)
-- [\[CVPR 2025\] SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction](simmotionedit_text-based_human_motion_editing_with_motion_similarity_prediction.md)
+- [\[CVPR 2025\] ESCAPE: Equivariant Shape Completion via Anchor Point Encoding](escape_equivariant_shape_completion_via_anchor_point_encoding.md)
 
 <!-- RELATED:END -->

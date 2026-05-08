@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 文本聚类
   - k-means
-  - 摘要即中心
+  - 信息检索
   - 可解释性
   - 流式聚类
   - LLM可选
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2502.09667](https://arxiv.org/abs/2502.09667)  
 **代码**: 无  
-**领域**: 模型压缩 / 文本聚类  
+**领域**: 信息检索  
 **关键词**: 文本聚类, k-means, 摘要即中心, 可解释性, 流式聚类, LLM可选
 
 ## 一句话总结
@@ -138,8 +138,8 @@ $$\min_{C_1, \ldots, C_k} \sum_{j=1}^k \sum_{i \in [C_j]} \|\mathbf{x}_i - \bold
 
 ## 相关论文
 
-- [\[ICLR 2026\] Hierarchical Concept-based Interpretable Models](hierarchical_concept-based_interpretable_models.md)
 - [\[ICLR 2026\] Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning](hybrid_deep_searcher_scalable_parallel_and_sequential_search_reasoning.md)
+- [\[ICLR 2026\] Hierarchical Concept-based Interpretable Models](hierarchical_concept-based_interpretable_models.md)
 - [\[ACL 2025\] LDIR: Low-Dimensional Dense and Interpretable Text Embeddings with Relative Representations](../../ACL2025/information_retrieval/ldir_low-dimensional_dense_and_interpretable_text_embeddings_with_relative_repre.md)
 - [\[AAAI 2026\] Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score](../../AAAI2026/information_retrieval/beyond_perplexity_let_the_reader_select_retrieval_summaries_via_spectrum_project.md)
 - [\[ICLR 2026\] LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference](lightretriever_a_llm-based_text_retrieval_architecture_with_extremely_faster_que.md)

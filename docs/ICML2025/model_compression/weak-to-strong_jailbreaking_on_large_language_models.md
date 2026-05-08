@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2401.17256](https://arxiv.org/abs/2401.17256)  
 **代码**: [https://github.com/XuandongZhao/weak-to-strong](https://github.com/XuandongZhao/weak-to-strong)  
-**领域**: AI Safety / LLM 安全  
+**领域**: 模型压缩  
 **关键词**: 越狱攻击, 对齐安全, 解码分布, 对抗攻击, 大语言模型
 
 ## 一句话总结

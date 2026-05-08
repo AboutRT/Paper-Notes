@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.20229](https://arxiv.org/abs/2407.20229)  
-**代码**: https://ywyue.github.io/FiT3D (有项目页)  
+**代码**: [https://ywyue.github.io/FiT3D](https://ywyue.github.io/FiT3D) (有项目页)  
 **领域**: 3D视觉  
 **关键词**: 表征学习, 3D Gaussian Splatting, 基础模型微调, 特征蒸馏, 多视角一致性
 

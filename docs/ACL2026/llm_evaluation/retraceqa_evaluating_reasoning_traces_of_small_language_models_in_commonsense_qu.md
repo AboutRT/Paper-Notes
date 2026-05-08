@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ReTraceQA: Evaluating Reasoning Traces of Small Language Models in Commonsense Question Answering
 description: >-
-  [ACL 2026][推理过程评估] 本文提出 ReTraceQA，首个面向常识推理任务的推理过程评测基准，包含 2421 条由专家标注的步骤级错误定位和错误分类标注，揭示 14-24% 的 SLM 虽给出正确答案但推理过程有误，当采用推理感知评估替代仅答案评估时，SLM 性能最多下降 25 个百分点。
+  [ACL 2026][LLM评测] 本文提出 ReTraceQA，首个面向常识推理任务的推理过程评测基准，包含 2421 条由专家标注的步骤级错误定位和错误分类标注，揭示 14-24% 的 SLM 虽给出正确答案但推理过程有误，当采用推理感知评估替代仅答案评估时，SLM 性能最多下降 25 个百分点。
 tags:
   - ACL 2026
-  - 推理过程评估
+  - LLM评测
   - 小语言模型
   - 常识推理
   - 过程奖励模型
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2510.09351](https://arxiv.org/abs/2510.09351)  
-**代码**: https://github.com/SapienzaNLP/ReTraceQA  
+**代码**: [https://github.com/SapienzaNLP/ReTraceQA](https://github.com/SapienzaNLP/ReTraceQA)  
 **领域**: LLM评测/常识推理  
 **关键词**: 推理过程评估, 小语言模型, 常识推理, 过程奖励模型, LLM-as-Judge
 
@@ -143,8 +143,8 @@ ReTraceQA 的构建流程包括：(1) 从 CSQA、OBQA、QASC、StrategyQA 四个
 
 - [\[ACL 2026\] Closing the Modality Reasoning Gap for Speech Large Language Models](closing_the_modality_reasoning_gap_for_speech_large_language_models.md)
 - [\[ACL 2025\] YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering](../../ACL2025/llm_evaluation/yescieval_llm_judge_science.md)
-- [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](../../ACL2025/llm_evaluation/com2_causal_commonsense.md)
-- [\[NeurIPS 2025\] Small Language Models as Compiler Experts: Auto-Parallelization for Heterogeneous Systems](../../NeurIPS2025/llm_evaluation/small_language_models_as_compiler_experts_auto-parallelization_for_heterogeneous.md)
 - [\[ACL 2026\] Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues](are_they_lovers_or_friends_evaluating_llms39_social_reasoning_in_english_and_kor.md)
+- [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](../../ACL2025/llm_evaluation/com2_causal_commonsense.md)
+- [\[ACL 2026\] Common to Whom? Regional Cultural Commonsense and LLM Bias in India](common_to_whom_regional_cultural_commonsense_and_llm_bias_in_india.md)
 
 <!-- RELATED:END -->

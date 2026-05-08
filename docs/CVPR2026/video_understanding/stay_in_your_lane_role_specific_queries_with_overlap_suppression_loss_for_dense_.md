@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.11439](https://arxiv.org/abs/2603.11439)  
-**代码**: https://github.com/edwardback/ROS-DVC (有)  
+**代码**: [https://github.com/edwardback/ROS-DVC](https://github.com/edwardback/ROS-DVC)  
 **领域**: 视频理解  
 **关键词**: Dense Video Captioning, 角色特定查询, 重叠抑制损失, 对比对齐, 概念引导
 

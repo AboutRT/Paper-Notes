@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.01428](https://arxiv.org/abs/2505.01428)  
-**代码**: https://github.com/yanghan-yh/MCA-Ctrl  
+**代码**: [https://github.com/yanghan-yh/MCA-Ctrl](https://github.com/yanghan-yh/MCA-Ctrl)  
 **领域**: 图像生成 / 图像定制  
 **关键词**: 图像定制, 注意力控制, 免微调, 主体生成, 扩散模型
 

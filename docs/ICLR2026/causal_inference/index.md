@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 因果推理方向19篇论文解读
+  ICLR2026 因果推理方向18篇论文解读
 description: >-
-  19篇ICLR2026的因果推理方向论文解读，涵盖对抗鲁棒、LLM、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  18篇ICLR2026的因果推理方向论文解读，涵盖对抗鲁棒、推理、Agent、LLM、布局/合成、RAG等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**🔬 ICLR2026** · **19** 篇论文解读
+**🔬 ICLR2026** · **18** 篇论文解读
 
 **[Action-Guided Attention for Video Action Anticipation](action-guided_attention_for_video_action_anticipation.md)**
 
@@ -57,10 +57,6 @@ description: >-
 **[On the Eligibility of LLMs for Counterfactual Reasoning: A Decompositional Study](on_the_eligibility_of_llms_for_counterfactual_reasoning_a_decompositional_study.md)**
 
 :   提出基于结构因果模型（SCM）的分解式评估框架，将 LLM 的反事实推理拆分为四个阶段（因果变量识别→因果图构建→干预识别→结果推理），在 11 个多模态数据集上系统诊断 LLM 在各阶段的能力瓶颈，并提出工具增强和高级 elicitation 策略来改善性能。
-
-**[PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits](personax_multimodal_datasets_with_llm-inferred_behavior_traits.md)**
-
-:   构建了 PersonaX 多模态数据集（含 LLM 推断的 Big Five 行为特质、面部嵌入和传记元数据），并提出两层分析框架：结构化独立性检验 + 非结构化因果表示学习（带可识别性理论保证），揭示跨模态因果结构。
 
 **[Resisting Contextual Interference in RAG via Parametric-Knowledge Reinforcement](resisting_contextual_interference_in_rag_via_parametric-knowledge_reinforcement.md)**
 

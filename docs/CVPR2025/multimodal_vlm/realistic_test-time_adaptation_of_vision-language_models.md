@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 测试时适应
-  - 视觉语言模型
+  - 多模态VLM
   - 转导学习
   - 统计锚
   - 零样本分类
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.03729](https://arxiv.org/abs/2501.03729)  
-**代码**: https://github.com/MaxZanella/StatA (有)  
+**代码**: [https://github.com/MaxZanella/StatA](https://github.com/MaxZanella/StatA)  
 **领域**: 多模态VLM  
 **关键词**: 测试时适应, 视觉语言模型, 转导学习, 统计锚, 零样本分类
 
@@ -121,8 +121,8 @@ StatA是**唯一在所有场景下都稳定正增益**的方法。
 
 - [\[CVPR 2025\] Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM](free_on_the_fly_enhancing_flexibility_in_test-time_adaptation_with_online_em.md)
 - [\[NeurIPS 2025\] DOTA: DistributiOnal Test-time Adaptation of Vision-Language Models](../../NeurIPS2025/multimodal_vlm/dota_distributional_testtime_adaptation_of_visionlanguage_mo.md)
-- [\[ICCV 2025\] LATTE: Collaborative Test-Time Adaptation of Vision-Language Models in Federated Learning](../../ICCV2025/multimodal_vlm/latte_collaborative_test-time_adaptation_of_vision-language_models_in_federated_.md)
 - [\[CVPR 2025\] CleanSight: Test-Time Attention Purification for Backdoored Large Vision Language Models](test-time_attention_purification_for_backdoored_large_vision_language_models.md)
 - [\[CVPR 2025\] TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models](tapt_test-time_adversarial_prompt_tuning_for_robust_inference_in_vision-language.md)
+- [\[ICCV 2025\] LATTE: Collaborative Test-Time Adaptation of Vision-Language Models in Federated Learning](../../ICCV2025/multimodal_vlm/latte_collaborative_test-time_adaptation_of_vision-language_models_in_federated_.md)
 
 <!-- RELATED:END -->

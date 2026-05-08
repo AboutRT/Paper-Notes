@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.22262](https://arxiv.org/abs/2511.22262)  
 **代码**: 无  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, watermark purification, copyright protection, HDBSCAN clustering
 
 ## 一句话总结

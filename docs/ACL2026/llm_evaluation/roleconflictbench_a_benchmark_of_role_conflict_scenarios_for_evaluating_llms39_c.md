@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2509.25897](https://arxiv.org/abs/2509.25897)  
 **代码**: [https://github.com/ddindidu/RoleConflictBench](https://github.com/ddindidu/RoleConflictBench)  
-**领域**: LLM 评估  
+**领域**: LLM评测  
 **关键词**: 角色冲突, 上下文敏感性, 社会偏见, 情境紧迫性, 基准测试
 
 ## 一句话总结

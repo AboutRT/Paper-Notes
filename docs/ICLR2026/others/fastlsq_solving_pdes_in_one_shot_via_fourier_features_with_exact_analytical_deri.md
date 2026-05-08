@@ -7,7 +7,7 @@ tags:
   - ICLR2026
   - 偏微分方程
   - random Fourier features
-  - physics-informed computing
+  - 其他
   - one-shot solver
   - Newton-Raphson
   - inverse problems
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.10541](https://arxiv.org/abs/2602.10541)  
 **代码**: [sulcantonin/FastLSQ](https://github.com/sulcantonin/FastLSQ) (`pip install fastlsq`)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: PDE solving, random Fourier features, physics-informed computing, one-shot solver, Newton-Raphson, inverse problems
 
 ## 一句话总结
@@ -145,8 +145,8 @@ Jacobian 继承解析闭式结构。四个关键算法改进保证鲁棒收敛�
 
 - [\[ACL 2025\] The Knowledge Microscope: Features as Better Analytical Lenses than Neurons](../../ACL2025/others/the_knowledge_microscope_features_as_better_analytical_lenses_than_neurons.md)
 - [\[ICLR 2026\] Latent Fourier Transform](latent_fourier_transform.md)
-- [\[ICLR 2026\] Scalable Random Wavelet Features: Efficient Non-Stationary Kernel Approximation with Convergence Guarantees](scalable_random_wavelet_features_efficient_non-stationary_kernel_approximation_w.md)
-- [\[AAAI 2026\] Online Linear Regression with Paid Stochastic Features](../../AAAI2026/others/online_linear_regression_with_paid_stochastic_features.md)
+- [\[NeurIPS 2025\] Exact Learning of Arithmetic with Differentiable Agents](../../NeurIPS2025/others/exact_learning_of_arithmetic_with_differentiable_agents.md)
 - [\[ICLR 2026\] Neural Force Field: Few-shot Learning of Generalized Physical Reasoning](neural_force_field_few-shot_learning_of_generalized_physical_reasoning.md)
+- [\[ICLR 2026\] OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection](owleye_zero-shot_learner_for_cross-domain_graph_data_anomaly_detection.md)
 
 <!-- RELATED:END -->

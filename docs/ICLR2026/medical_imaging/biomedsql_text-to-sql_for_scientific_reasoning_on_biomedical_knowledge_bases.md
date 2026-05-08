@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026 (Gen2 Workshop)  
 **arXiv**: [2505.20321](https://arxiv.org/abs/2505.20321)  
 **代码**: [https://github.com/NIH-CARD/biomedsql](https://github.com/NIH-CARD/biomedsql)  
-**领域**: 生物医学 NLP / Text-to-SQL  
+**领域**: 医学图像  
 **关键词**: Text-to-SQL, 生物医学知识库, 科学推理, BigQuery, LLM评估
 
 ## 一句话总结
@@ -148,6 +148,6 @@ tags:
 - [\[ICLR 2026\] MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science](medagentgym_agentic_training_biomedical.md)
 - [\[ICLR 2026\] Augmenting Representations with Scientific Papers](augmenting_representations_with_scientific_papers.md)
 - [\[ACL 2025\] Query-driven Document-level Scientific Evidence Extraction from Biomedical Studies](../../ACL2025/medical_imaging/urca_biomedical_evidence_extraction.md)
-- [\[ACL 2026\] Text-Attributed Knowledge Graph Enrichment with Large Language Models for Medical Concept Representation](../../ACL2026/medical_imaging/text-attributed_knowledge_graph_enrichment_with_large_language_models_for_medica.md)
+- [\[NeurIPS 2025\] Mind the Gap: Aligning Knowledge Bases with User Needs to Enhance Mental Health Retrieval](../../NeurIPS2025/medical_imaging/mind_the_gap_aligning_knowledge_bases_with_user_needs_to_enhance_mental_health_r.md)
 
 <!-- RELATED:END -->

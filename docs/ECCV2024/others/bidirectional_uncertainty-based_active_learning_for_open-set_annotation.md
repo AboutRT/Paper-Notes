@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2402.15198](https://arxiv.org/abs/2402.15198)  
 **代码**: [GitHub](https://github.com/zongcc/BUAL)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: active learning, Open-Set Annotation, Negative Learning, uncertainty estimation
 
 ## 一句话总结
@@ -152,10 +152,10 @@ $$x^* = \arg\max_x \; p_{K+1}^{aux}(x) \cdot unc_n + r \cdot [1 - p_{K+1}^{aux}(
 
 ## 相关论文
 
+- [\[CVPR 2025\] Rethinking Epistemic and Aleatoric Uncertainty for Active Open-Set Annotation: An Energy-Based Approach](../../CVPR2025/others/rethinking_epistemic_and_aleatoric_uncertainty_for_active_open-set_annotation_an.md)
 - [\[ECCV 2024\] Operational Open-Set Recognition and PostMax Refinement](operational_open-set_recognition_and_postmax_refinement.md)
-- [\[CVPR 2025\] Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection](../../CVPR2025/others/distribution_prototype_diffusion_learning_for_open-set_supervised_anomaly_detect.md)
-- [\[CVPR 2025\] Open Set Label Shift with Test Time Out-of-Distribution Reference](../../CVPR2025/others/open_set_label_shift_with_test_time_out-of-distribution_reference.md)
 - [\[ECCV 2024\] Active Generation for Image Classification](active_generation_for_image_classification.md)
-- [\[CVPR 2026\] UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting](../../CVPR2026/others/unispector_towards_universal_open-set_defect_recognition_via_spectral-contrastiv.md)
+- [\[ECCV 2024\] Shifted Autoencoders for Point Annotation Restoration in Object Counting](shifted_autoencoders_for_point_annotation_restoration_in_object_counting.md)
+- [\[ECCV 2024\] Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)
 
 <!-- RELATED:END -->

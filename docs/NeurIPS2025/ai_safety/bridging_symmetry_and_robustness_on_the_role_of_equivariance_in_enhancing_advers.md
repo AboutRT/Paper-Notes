@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.16171](https://arxiv.org/abs/2510.16171)  
 **代码**: [ifratmitul/Role-of-Equivariance](https://github.com/ifratmitul/Role-of-Equivariance)  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: adversarial robustness, equivariance, group-equivariant CNN, CLEVER bound, rotation equivariance, scale equivariance
 
 ## 一句话总结
@@ -144,9 +144,9 @@ Parallel GCNN (R&S) 在所有扰动强度下取得最优对抗准确率，10 层
 ## 相关论文
 
 - [\[NeurIPS 2025\] Enhancing Graph Classification Robustness with Singular Pooling](enhancing_graph_classification_robustness_with_singular_pooling.md)
-- [\[NeurIPS 2025\] Enhancing CLIP Robustness via Cross-Modality Alignment](enhancing_clip_robustness_via_crossmodality_alignment.md)
-- [\[NeurIPS 2025\] On the Robustness of Verbal Confidence of LLMs in Adversarial Attacks](on_the_robustness_of_verbal_confidence_of_llms_in_adversarial_attacks.md)
 - [\[NeurIPS 2025\] Understanding and Improving Adversarial Robustness of Neural Probabilistic Circuits](understanding_and_improving_adversarial_robustness_of_neural_probabilistic_circu.md)
-- [\[NeurIPS 2025\] Trans-EnV: A Framework for Evaluating the Linguistic Robustness of LLMs Against English Varieties](trans-env_a_framework_for_evaluating_the_linguistic_robustness_of_llms_against_e.md)
+- [\[ICCV 2025\] Towards Adversarial Robustness via Debiased High-Confidence Logit Alignment](../../ICCV2025/ai_safety/towards_adversarial_robustness_via_debiased_high-confidence_logit_alignment.md)
+- [\[ICML 2025\] Quadratic Upper Bound for Boosting Robustness](../../ICML2025/ai_safety/quadratic_upper_bound_for_boosting_robustness.md)
+- [\[NeurIPS 2025\] FairContrast: Enhancing Fairness through Contrastive Learning and Customized Augmentation](faircontrast_enhancing_fairness_through_contrastive_learning_and_customized_augm.md)
 
 <!-- RELATED:END -->

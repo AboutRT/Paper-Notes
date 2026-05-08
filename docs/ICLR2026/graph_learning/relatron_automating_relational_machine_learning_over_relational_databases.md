@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.22552](https://arxiv.org/abs/2602.22552)  
-**代码**: https://github.com/amazon-science/Automating-Relational-Machine-Learning  
+**代码**: [https://github.com/amazon-science/Automating-Relational-Machine-Learning](https://github.com/amazon-science/Automating-Relational-Machine-Learning)  
 **领域**: 图学习 / AutoML  
 **关键词**: 关系数据库, 图神经网络, 深度特征合成, 架构选择, 同质性
 

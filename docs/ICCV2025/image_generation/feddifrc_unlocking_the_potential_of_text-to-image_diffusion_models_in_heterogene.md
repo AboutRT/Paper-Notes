@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.06482](https://arxiv.org/abs/2507.06482)  
-**代码**: https://github.com/hwang52/FedDifRC  
+**代码**: [https://github.com/hwang52/FedDifRC](https://github.com/hwang52/FedDifRC)  
 **领域**: 图像生成  
 **关键词**: 联邦学习, 数据异质性, 扩散模型表示, 对比学习, 一致性正则化
 
@@ -139,6 +139,6 @@ $$\mathcal{L} = \mathcal{L}_{TDCL} + \mathcal{L}_{NDCR} + \mathcal{L}_{CE}$$
 - [\[ICLR 2026\] Bridging Generalization Gap of Heterogeneous Federated Clients Using Generative Models](../../ICLR2026/image_generation/bridging_generalization_gap_of_heterogeneous_federated_clients_using_generative_.md)
 - [\[ICCV 2025\] PLA: Prompt Learning Attack against Text-to-Image Generative Models](pla_prompt_learning_attack_against_text-to-image_generative_models.md)
 - [\[ICCV 2025\] Golden Noise for Diffusion Models: A Learning Framework](golden_noise_for_diffusion_models_a_learning_framework.md)
-- [\[ICCV 2025\] CoMPaSS: Enhancing Spatial Understanding in Text-to-Image Diffusion Models](compass_enhancing_spatial_understanding_in_text-to-image_diffusion_models.md)
+- [\[ICCV 2025\] REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers](repa-e_unlocking_vae_for_end-to-end_tuning_of_latent_diffusion_transformers.md)
 
 <!-- RELATED:END -->

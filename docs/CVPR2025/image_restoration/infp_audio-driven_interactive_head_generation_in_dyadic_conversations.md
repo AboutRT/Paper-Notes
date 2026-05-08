@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 图像恢复
   - 交互式头部生成
-  - 双人对话
+  - 图像复原
   - 音频驱动
   - 运动潜空间
   - Transformer
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04037](https://arxiv.org/abs/2412.04037)  
-**代码**: https://grisoon.github.io/INFP/ (项目页)  
-**领域**: 图像生成 / 人脸动画  
+**代码**: [https://grisoon.github.io/INFP/](https://grisoon.github.io/INFP/) (项目页)  
+**领域**: 图像复原  
 **关键词**: 交互式头部生成, 双人对话, 音频驱动, 运动潜空间, 扩散Transformer
 
 ## 一句话总结
@@ -128,10 +128,10 @@ INFP 在所有指标上大幅领先 DIM，SyncScore (7.188 vs 4.778) 接近于 G
 
 ## 相关论文
 
+- [\[CVPR 2025\] Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](vision-language_gradient_descent-driven_all-in-one_deep_unfolding_networks.md)
 - [\[CVPR 2026\] PNG: Diffusion-Based sRGB Real Noise Generation via Prompt-Driven Noise Representation Learning](../../CVPR2026/image_restoration/diffusion-based_srgb_real_noise_generation_via_prompt-driven_noise_representatio.md)
 - [\[CVPR 2025\] One-Step Event-Driven High-Speed Autofocus](one-step_event-driven_high-speed_autofocus.md)
-- [\[CVPR 2025\] Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](vision-language_gradient_descent-driven_all-in-one_deep_unfolding_networks.md)
 - [\[NeurIPS 2025\] Audio Super-Resolution with Latent Bridge Models](../../NeurIPS2025/image_restoration/audio_super-resolution_with_latent_bridge_models.md)
-- [\[ICCV 2025\] Exploiting Diffusion Prior for Task-driven Image Restoration](../../ICCV2025/image_restoration/exploiting_diffusion_prior_for_task-driven_image_restoration.md)
+- [\[CVPR 2025\] DiTFlow: Video Motion Transfer with Diffusion Transformers](video_motion_transfer_with_diffusion_transformers.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.01064](https://arxiv.org/abs/2412.01064)  
 **代码**: [GitHub](https://deepbrainai-research.github.io/float/)  
-**领域**: 音频驱动人像动画/流匹配  
+**领域**: 图像生成  
 **关键词**: 流匹配, 说话肖像生成, 运动潜空间, 正交基, 语音情绪增强
 
 ## 一句话总结

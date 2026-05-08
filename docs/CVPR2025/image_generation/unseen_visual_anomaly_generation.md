@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2406.01078](https://arxiv.org/abs/2406.01078)  
 **代码**: [GitHub](https://hansunhayden.github.io/AnomalyAny.github.io/)  
-**领域**: 异常检测与生成 (Anomaly Detection & Generation)  
+**领域**: 图像生成  
 **关键词**: 视觉异常生成, 异常检测, 稳定扩散, 注意力引导, 无需训练
 
 ## 一句话总结

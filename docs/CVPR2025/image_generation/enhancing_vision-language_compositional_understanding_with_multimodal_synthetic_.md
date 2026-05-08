@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.01167](https://arxiv.org/abs/2503.01167)  
 **代码**: 无  
-**领域**: 多模态VLM  
+**领域**: 图像生成  
 **关键词**: 组合理解, CLIP微调, 合成数据, 自适应margin损失, 图像特征注入
 
 ## 一句话总结
@@ -127,7 +127,7 @@ SPARCL框架分为两阶段：数据生成阶段和模型训练阶段。
 - [\[CVPR 2025\] Font-Agent: Enhancing Font Understanding with Large Language Models](font-agent_enhancing_font_understanding_with_large_language_models.md)
 - [\[CVPR 2025\] Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?](training_data_provenance_verification_did_your_model_use_synthetic_data_from_my_.md)
 - [\[CVPR 2025\] Yo'Chameleon: Personalized Vision and Language Generation](yochameleon_personalized_vision_and_language_generation.md)
-- [\[CVPR 2025\] T2ICount: Enhancing Cross-modal Understanding for Zero-Shot Counting](t2icount_enhancing_cross-modal_understanding_for_zero-shot_counting.md)
+- [\[ICML 2025\] Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](../../ICML2025/image_generation/understanding_and_mitigating_miscalibration_in_prompt_tuning_for_vision-language.md)
 - [\[CVPR 2025\] TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation](tokenflow_unified_image_tokenizer_for_multimodal_understanding_and_generation.md)
 
 <!-- RELATED:END -->

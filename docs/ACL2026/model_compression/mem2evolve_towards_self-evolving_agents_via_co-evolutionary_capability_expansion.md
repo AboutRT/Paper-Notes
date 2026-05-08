@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.10923](https://arxiv.org/abs/2604.10923)  
-**代码**: https://buaa-irip-llm.github.io/Mem2Evolve  
-**领域**: LLM Agent  
+**代码**: [https://buaa-irip-llm.github.io/Mem2Evolve](https://buaa-irip-llm.github.io/Mem2Evolve)  
+**领域**: 模型压缩  
 **关键词**: 自进化Agent、双记忆机制、能力扩展、经验蒸馏、协同进化
 
 ## 一句话总结
@@ -120,8 +120,8 @@ Mem²Evolve 的核心是一个"前向推理 + 后向进化"的双阶段任务循
 
 - [\[ACL 2026\] Mem^p: Exploring Agent Procedural Memory](memp_exploring_agent_procedural_memory.md)
 - [\[AAAI 2026\] Condensed Data Expansion Using Model Inversion for Knowledge Distillation](../../AAAI2026/model_compression/condensed_data_expansion_using_model_inversion_for_knowledge_distillation.md)
-- [\[ACL 2026\] ChemAmp: Amplified Chemistry Tools via Composable Agents](chemamp_amplified_chemistry_tools_via_composable_agents.md)
 - [\[ACL 2026\] Enabling Agents to Communicate Entirely in Latent Space](enabling_agents_to_communicate_entirely_in_latent_space.md)
-- [\[ACL 2026\] Polynomial Expansion Rank Adaptation: Enhancing Low-Rank Fine-Tuning with High-Order Interactions](polynomial_expansion_rank_adaptation_enhancing_low-rank_fine-tuning_with_high-or.md)
+- [\[ACL 2026\] ChemAmp: Amplified Chemistry Tools via Composable Agents](chemamp_amplified_chemistry_tools_via_composable_agents.md)
+- [\[ACL 2026\] YIELD: A Large-Scale Dataset and Evaluation Framework for Information Elicitation Agents](yield_a_large-scale_dataset_and_evaluation_framework_for_information_elicitation.md)
 
 <!-- RELATED:END -->

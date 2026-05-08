@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.13108](https://arxiv.org/abs/2603.13108)  
 **代码**: [PanoMMOcc](https://github.com/) (即将公开)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 全景占据预测, 多模态融合, 四足机器人, 语义占据, BEV感知
 
 ## 一句话总结
@@ -147,6 +147,6 @@ $$\mathcal{L}_{occ} = \mathcal{L}_{ce} + \mathcal{L}_{ls} + \mathcal{L}_{scal}^{
 - [\[CVPR 2026\] An Instance-Centric Panoptic Occupancy Prediction Benchmark for Autonomous Driving](an_instance-centric_panoptic_occupancy_prediction_benchmark_for_autonomous_drivi.md)
 - [\[CVPR 2026\] CoIn3D: Revisiting Configuration-Invariant Multi-Camera 3D Object Detection](coin3d_revisiting_configuration-invariant_multi-camera_3d_object_detection.md)
 - [\[CVPR 2026\] TT-Occ: Test-Time 3D Occupancy Prediction](test-time_3d_occupancy_prediction.md)
-- [\[CVPR 2026\] Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization](learning_geometric_and_photometric_features_from_panoramic_lidar_scans_for_outdo.md)
+- [\[CVPR 2026\] Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization](learning_geometric_and_photometric_features_from_p.md)
 
 <!-- RELATED:END -->

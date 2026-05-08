@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.07739](https://arxiv.org/abs/2412.07739)  
-**代码**: https://microsoft.github.io/GASP/ (项目页)  
+**代码**: [https://microsoft.github.io/GASP/](https://microsoft.github.io/GASP/) (项目页)  
 **领域**: 3D视觉  
 **关键词**: 高斯头像, 合成数据先验, 单目重建, 360度渲染, 实时动画
 

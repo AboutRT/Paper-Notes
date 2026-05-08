@@ -2,17 +2,13 @@
 title: >-
   AAAI2026 语义分割方向31篇论文解读
 description: >-
-  31篇AAAI2026的语义分割方向论文解读，涵盖语义分割、遥感、少样本学习、域适应、多模态、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  31篇AAAI2026的语义分割方向论文解读，涵盖语义分割、遥感、少样本学习、域适应、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ✂️ 语义分割
 
 **🤖 AAAI2026** · **31** 篇论文解读
-
-**[3DTeethSAM: Taming SAM2 for 3D Teeth Segmentation](3dteethsam_taming_sam2_for_3d_teeth_segmentation.md)**
-
-:   将SAM2基础模型迁移到3D牙齿分割任务，通过多视角渲染将3D mesh转为2D图像、设计三个轻量适配器（Prompt生成器、Mask精化器、Mask分类器）和可变形全局注意力插件（DGAP）来解决自动提示、边界精化和语义分类问题，在Teeth3DS上以91.90% T-mIoU刷新SOTA。
 
 **[A²LC: Active and Automated Label Correction for Semantic Segmentation](a2lc_active_and_automated_label_correction_for_semantic_segm.md)**
 
@@ -34,6 +30,10 @@ description: >-
 
 :   本文提出Causal-Tune，一种基于因果机制的VFM微调策略，通过DCT频域变换和高斯带通滤波器将VFM特征分离为因果（域不变）和非因果（域特定）成分，仅对因果成分施加可学习token精炼，在域泛化语义分割中有效抑制VFM伪影并提升泛化性能。
 
+**[CtrlFuse: Mask-Prompt Guided Controllable Infrared and Visible Image Fusion](ctrlfuse_mask-prompt_guided_controllable_infrared_and_visible_image_fusion.md)**
+
+:   提出 CtrlFuse，通过 mask prompt 引导 SAM 微调，实现红外-可见光图像的交互式可控融合，在融合质量和下游分割/检测任务上同时取得提升。
+
 **[Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation](do_we_need_perfect_data_leveraging_noise_for_domain_generalized_segmentation.md)**
 
 :   提出 FLEX-Seg 框架，将扩散模型合成数据中图像与语义掩码之间固有的**边界不对齐**(misalignment)转化为学习鲁棒表示的机会，通过粒度自适应原型 (GAP)、不确定性边界强调 (UBE) 和难度感知采样 (HAS) 三个模块，在域泛化语义分割任务上取得 SOTA。
@@ -45,10 +45,6 @@ description: >-
 **[Empowering DINO Representations for Underwater Instance Segmentation via Aligner and Prompter](empowering_dino_representations_for_underwater_instance_segmentation_via_aligner.md)**
 
 :   首次将 DINOv2 引入水下实例分割任务，通过 AquaStyle Aligner（傅里叶频域风格注入）和 ObjectPrior Prompter（二值掩码先验提示）两个模块实现高效领域适配，在 UIIS 和 USIS10K 数据集上以更少参数大幅超越 SAM 基方法。
-
-**[Empowering Semantic-Sensitive Underwater Image Enhancement with VLM](empowering_semantic-sensitive_underwater_image_enhancement_with_vlm.md)**
-
-:   利用 VLM 生成空间语义引导图，通过 cross-attention 注入和语义对齐损失的双重引导机制，赋予水下图像增强网络语义感知能力，使增强结果同时有利于人类感知和下游检测/分割任务。
 
 **[From Attribution to Action: Jointly ALIGNing Predictions and Explanations](from_attribution_to_action_jointly_aligning_predictions_and_explanations.md)**
 
@@ -89,6 +85,10 @@ description: >-
 **[RSVG-ZeroOV: Exploring a Training-Free Framework for Zero-Shot Open-Vocabulary Visual Grounding in Remote Sensing Images](rsvg-zeroov_exploring_a_training-free_framework_for_zero-shot_open-vocabulary_vi.md)**
 
 :   提出 RSVG-ZeroOV，一个免训练框架，通过"概览-聚焦-进化"三阶段策略融合 VLM 的交叉注意力图和扩散模型的自注意力图，实现零样本开放词汇遥感视觉定位。
+
+**[S5: Scalable Semi-Supervised Semantic Segmentation in Remote Sensing](s5_scalable_semi-supervised_semantic_segmentation_in_remote_sensing.md)**
+
+:   提出 S5 框架，首次将半监督语义分割扩展为遥感基础模型（RSFM）的预训练范式，通过构建百万级 RS4P-1M 数据集和 MoE 多数据集微调策略，在多个遥感分割与检测基准上达到 SOTA。
 
 **[SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection](sam-daq_segment_anything_model_with_depth-guided_adaptive_queries_for_rgb-d_vide.md)**
 

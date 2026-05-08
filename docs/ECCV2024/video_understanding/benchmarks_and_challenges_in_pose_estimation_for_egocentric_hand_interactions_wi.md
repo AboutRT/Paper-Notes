@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2403.16428](https://arxiv.org/abs/2403.16428)  
 **代码**: 待确认  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: egocentric hand pose estimation, hand-object interaction, 3D reconstruction, benchmark, multi-view fusion
 
 ## 一句话总结

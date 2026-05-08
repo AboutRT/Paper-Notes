@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04852](https://arxiv.org/abs/2412.04852)  
-**代码**: https://github.com/taco-group/SleeperMark  
+**代码**: [https://github.com/taco-group/SleeperMark](https://github.com/taco-group/SleeperMark)  
 **领域**: 图像生成 / AI安全  
 **关键词**: 扩散模型水印, 知识产权保护, 后门攻击, 微调鲁棒性, 黑盒检测
 

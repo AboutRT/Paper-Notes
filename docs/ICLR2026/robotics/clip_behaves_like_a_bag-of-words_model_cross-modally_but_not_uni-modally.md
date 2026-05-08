@@ -44,7 +44,7 @@ tags:
 
 ### 关键设计
 1. **单模态线性探测**: 对每个对象 $o \in \mathcal{O}$ 训练独立的线性分类器，从冻结 CLIP 嵌入中预测该对象的属性：
-   $$\text{image-probe}_o: f_{\text{image}}(\mathbf{x}^{\text{img}}) \mapsto a, \quad \text{text-probe}_o: f_{\text{text}}(\mathbf{x}^{\text{txt}}) \mapsto a$$
+    $\text{image-probe}_o: f_{\text{image}}(\mathbf{x}^{\text{img}}) \mapsto a, \quad \text{text-probe}_o: f_{\text{text}}(\mathbf{x}^{\text{txt}}) \mapsto a$
    在 CLEVR 上图像端达 0.96、文本端达 1.00 的准确率（随机基线 0.12），证明绑定信息已线性可分。
 
 2. **多对象鲁棒性**: 增加场景中对象数量后，文本探测准确率稳定在 0.8 以上，图像端从 0.9 降至 0.6 但仍远高于随机。
@@ -52,7 +52,7 @@ tags:
 3. **联合搜索实验**: 在充满干扰物的图像中（绿色球体+红色方块），线性分类器能准确检测"不协调"对象（如红色球体），准确率 >0.80 即使 35 个对象，而零样本分类完全随机——证明图像嵌入不是纯 BoW。
 
 4. **LABCLIP**: 对文本嵌入施加线性变换 $\mathbf{A} \in \mathbb{R}^{D \times D}$：
-   $$\langle f_{\text{image}}(\mathbf{x}^{\text{img}}), \mathbf{A} f_{\text{text}}(\mathbf{x}^{\text{txt}}) \rangle$$
+    $\langle f_{\text{image}}(\mathbf{x}^{\text{img}}), \mathbf{A} f_{\text{text}}(\mathbf{x}^{\text{txt}}) \rangle$
    从单位矩阵初始化，用属性置换产生的负样本进行对比学习训练。训练比 NegCLIP 快 100 倍以上。
 
 ### 损失函数 / 训练策略
@@ -125,7 +125,7 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] MergeVLA: Cross-Skill Model Merging Toward a Generalist Vision-Language-Action Agent](../../CVPR2026/robotics/mergevla_cross-skill_model_merging_toward_a_generalist_vision-language-action_ag.md)
+- [\[CVPR 2026\] MergeVLA: Cross-Skill Model Merging Toward a Generalist Vision-Language-Action Agent](../../CVPR2026/robotics/mergevla_crossskill_model_merging_toward_a_general.md)
 - [\[AAAI 2026\] From Woofs to Words: Towards Intelligent Robotic Guide Dogs with Verbal Communication](../../AAAI2026/robotics/from_woofs_to_words_towards_intelligent_robotic_guide_dogs_with_verbal_communica.md)
 - [\[AAAI 2026\] To Align or Not to Align: Strategic Multimodal Representation Alignment for Optimal Performance](../../AAAI2026/robotics/to_align_or_not_to_align_strategic_multimodal_representation_alignment_for_optim.md)
 - [\[ICLR 2026\] Sparse Imagination for Efficient Visual World Model Planning](sparse_imagination_for_efficient_visual_world_model_planning.md)

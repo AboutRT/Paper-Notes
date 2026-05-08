@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.15708](https://arxiv.org/abs/2604.15708)  
 **代码**: [https://github.com/gyjung975/APC](https://github.com/gyjung975/APC)  
-**领域**: AI安全  
+**领域**: 3D视觉  
 **关键词**: 对抗防御, 3D点云, 反扰动, 跨模型迁移, 输入级净化
 
 ## 一句话总结

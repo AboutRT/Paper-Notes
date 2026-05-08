@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - 思维链推理
+  - 多模态VLM
   - VLM 智能体
   - 强化学习
   - 过程监督
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.08525](https://arxiv.org/abs/2503.08525)  
 **代码**: [GTR](https://github.com/WeihaoTan/GTR)  
-**领域**: VLM Agent / 强化学习  
+**领域**: 多模态VLM  
 **关键词**: 思维链推理, VLM 智能体, 强化学习, 过程监督, 思维崩塌
 
 ## 一句话总结
@@ -168,9 +168,9 @@ GTR 相比 SOTA 方法（RL4VLM）成功率提升 **7 倍**，且超越了作为
 ## 相关论文
 
 - [\[ICML 2025\] ERL-VLM: Enhancing Rating-Based RL to Leverage Feedback from Large VLMs](../../ICML2025/multimodal_vlm/enhancing_rating-based_reinforcement_learning_to_effectively_leverage_feedback_f.md)
-- [\[CVPR 2026\] GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](../../CVPR2026/multimodal_vlm/gtr-turbo_merged_checkpoint_is_secretly_a_free_teacher_for_agentic_vlm_training.md)
-- [\[ICML 2025\] Towards Efficient Online Tuning of VLM Agents via Counterfactual Soft Reinforcement Learning](../../ICML2025/multimodal_vlm/towards_efficient_online_tuning_of_vlm_agents_via_counterfactual_soft_reinforcem.md)
 - [\[ICCV 2025\] MMAT-1M: A Large Reasoning Dataset for Multimodal Agent Tuning](mmat1m_a_large_reasoning_dataset_for_multimodal_agent_tuning.md)
-- [\[NeurIPS 2025\] Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning](../../NeurIPS2025/multimodal_vlm/praxisvlm_visiongrounded_decision_making_via_textdriven_rein.md)
+- [\[ICML 2025\] Towards Efficient Online Tuning of VLM Agents via Counterfactual Soft Reinforcement Learning](../../ICML2025/multimodal_vlm/towards_efficient_online_tuning_of_vlm_agents_via_counterfactual_soft_reinforcem.md)
+- [\[CVPR 2026\] GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](../../CVPR2026/multimodal_vlm/gtr_turbo_merged_checkpoint_free_teacher.md)
+- [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](controlling_multimodal_llms_via_rewardguided_decoding.md)
 
 <!-- RELATED:END -->

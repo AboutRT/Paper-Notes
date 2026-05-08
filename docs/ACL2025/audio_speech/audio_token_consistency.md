@@ -10,14 +10,14 @@ tags:
   - 离散表示一致性
   - 语音生成
   - VALL-E
-  - 神经编解码语言模型
+  - 音频语音
 ---
 
 # Analyzing and Mitigating Inconsistency in Discrete Audio Tokens for Neural Codec Language Models
 
 **会议**: ACL 2025  
 **arXiv**: [2409.19283](https://arxiv.org/abs/2409.19283)  
-**代码**: https://consistencyinneuralcodec.github.io  
+**代码**: [https://consistencyinneuralcodec.github.io](https://consistencyinneuralcodec.github.io)  
 **领域**: 语音  
 **关键词**: 音频编解码, 离散表示一致性, 语音生成, VALL-E, 神经编解码语言模型
 
@@ -128,8 +128,8 @@ tags:
 
 - [\[ACL 2025\] UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook](unicodec_unified_audio_codec_with_single_domain-adaptive_codebook.md)
 - [\[ACL 2025\] Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](audio_dialogue_benchmark.md)
-- [\[ICLR 2026\] FlexiCodec: A Dynamic Neural Audio Codec for Low Frame Rates](../../ICLR2026/audio_speech/flexicodec_a_dynamic_neural_audio_codec_for_low_frame_rates.md)
-- [\[ACL 2025\] Does Your Voice Assistant Remember? Analyzing Conversational Context Recall and Utilization in Voice Interaction Models](does_your_voice_assistant_remember_analyzing_conversational_context_recall_and_u.md)
 - [\[ACL 2025\] Investigating and Enhancing Vision-Audio Capability in Omnimodal Large Language Models](investigating_and_enhancing_vision-audio_capability_in_omnimodal_large_language_.md)
+- [\[ACL 2025\] Does Your Voice Assistant Remember? Analyzing Conversational Context Recall and Utilization in Voice Interaction Models](does_your_voice_assistant_remember_analyzing_conversational_context_recall_and_u.md)
+- [\[ACL 2025\] ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](atri-mitigating-multilingual-audio-text-retrieval-inconsistencies.md)
 
 <!-- RELATED:END -->

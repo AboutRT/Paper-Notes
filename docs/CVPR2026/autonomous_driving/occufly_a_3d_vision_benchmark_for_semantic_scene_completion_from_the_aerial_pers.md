@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026 (Oral)  
 **arXiv**: [2512.20770](https://arxiv.org/abs/2512.20770)  
-**代码**: https://github.com/markus-42/occufly (有，代码即将释放)  
+**代码**: [https://github.com/markus-42/occufly](https://github.com/markus-42/occufly) (有，代码即将释放)  
 **领域**: 自动驾驶 / 3D视觉  
 **关键词**: 语义场景补全, 航拍视角, 无人机, 基准数据集, 深度估计
 

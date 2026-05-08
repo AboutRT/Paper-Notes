@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.09657](https://arxiv.org/abs/2602.09657)  
 **代码**: [https://xiaolousun.github.io/AutoFly](https://xiaolousun.github.io/AutoFly)  
-**领域**: 多模态VLM  
+**领域**: 遥感  
 **关键词**: VLA, UAV navigation, pseudo-depth, autonomous navigation, sim-to-real
 
 ## 一句话总结

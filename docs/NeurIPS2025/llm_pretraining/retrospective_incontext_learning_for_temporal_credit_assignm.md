@@ -8,7 +8,7 @@ tags:
   - 时序信用分配
   - 上下文学习
   - 优势函数
-  - LLM 策略
+  - LLM预训练
   - 在线学习
 ---
 
@@ -141,9 +141,9 @@ $$\min_\pi \mathbb{E}_{s \sim d_{\pi_0}}\left[D_{KL}\left(\frac{1}{Z(s)} \odot \
 ## 相关论文
 
 - [\[NeurIPS 2025\] Scalable Fingerprinting of Large Language Models](scalable_fingerprinting_of_large_language_models.md)
-- [\[NeurIPS 2025\] The Curse of Depth in Large Language Models](the_curse_of_depth_in_large_language_models.md)
+- [\[NeurIPS 2025\] The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation](the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md)
 - [\[NeurIPS 2025\] Leveraging Importance Sampling to Detach Alignment Modules from Large Language Models](leveraging_importance_sampling_to_detach_alignment_modules_from_large_language_m.md)
-- [\[NeurIPS 2025\] Memory Mosaics at Scale](memory_mosaics_at_scale.md)
 - [\[NeurIPS 2025\] Learning the Wrong Lessons: Syntactic-Domain Spurious Correlations in Language Models](learning_the_wrong_lessons_syntactic-domain_spurious_correlations_in_language_mo.md)
+- [\[NeurIPS 2025\] Scaling Embedding Layers in Language Models](scaling_embedding_layers_in_language_models.md)
 
 <!-- RELATED:END -->

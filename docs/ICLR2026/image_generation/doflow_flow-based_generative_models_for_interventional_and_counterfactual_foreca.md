@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2511.02137](https://arxiv.org/abs/2511.02137)  
 **代码**: [有](https://github.com/StatFusion/DoFlow_Causal_Time_Series)  
-**领域**: 医学图像  
+**领域**: 图像生成  
 **关键词**: 因果推断, 连续正则化流, 时间序列预测, 反事实推理, 异常检测
 
 ## 一句话总结

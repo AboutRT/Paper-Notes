@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2309.07322](https://arxiv.org/abs/2309.07322)  
-**代码**: https://github.com/uncbiag/NePhi (有)  
+**代码**: [https://github.com/uncbiag/NePhi](https://github.com/uncbiag/NePhi)  
 **领域**: 医学图像  
 **关键词**: 神经隐式表示, 微分同胚配准, 形变场, 潜码预测, 多分辨率配准
 

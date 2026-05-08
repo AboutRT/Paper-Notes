@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.16495](https://arxiv.org/abs/2508.16495)  
 **代码**: [ktirta/regref](https://github.com/ktirta/regref)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: regression refinement, pairwise ranking, inverse-variance weighting, LLM ranker, few-shot learning
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.24160](https://arxiv.org/abs/2410.24160)  
-**代码**: https://github.com/fu-feng/CreTok  
+**代码**: [https://github.com/fu-feng/CreTok](https://github.com/fu-feng/CreTok)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 创意生成, 文本概念组合, token重定义, 元创造力, 扩散模型
 

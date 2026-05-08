@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 图学习方向36篇论文解读
+  AAAI2026 图学习方向38篇论文解读
 description: >-
-  36篇AAAI2026的图学习方向论文解读，涵盖图神经网络、多模态、Agent、少样本学习、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  38篇AAAI2026的图学习方向论文解读，涵盖图神经网络、多模态、推理、Agent、少样本学习、问答等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🕸️ 图学习
 
-**🤖 AAAI2026** · **36** 篇论文解读
+**🤖 AAAI2026** · **38** 篇论文解读
 
 **[Adaptive Initial Residual Connections for GNNs with Theoretical Guarantees](adaptive_initial_residual_connections_for_gnns_with_theoretical_guarantees.md)**
 
@@ -114,6 +114,10 @@ description: >-
 
 :   证明了在严格查询限制下（如仅100次查询），攻击者可通过"本地获取encoder（随机初始化/SSL训练）+ K-means策略性查询选择"两阶段方法高效窃取GNN模型，在Physics数据集上仅用100次查询即达91%准确率，而现有SOTA需约5000次查询加额外embedding访问才能达到类似水平。
 
+**[PathMind: A Retrieve-Prioritize-Reason Framework for Knowledge Graph Reasoning with Large Language Models](pathmind_a_retrieve-prioritize-reason_framework_for_knowledge_graph_reasoning_wi.md)**
+
+:   提出PathMind框架，遵循"检索-优先级排序-推理"范式，通过语义感知的路径优先级函数（结合累积代价和估计未来代价）识别重要推理路径，再通过任务特定指令调优和路径级偏好对齐两阶段训练增强LLM的忠实可解释推理，在复杂推理任务上以更少token实现SOTA。
+
 **[PCoKG: Personality-aware Commonsense Reasoning with Debate](pcokg_personality-aware_commonsense_reasoning_with_debate.md)**
 
 :   构建了首个大规模人格感知常识知识图谱 PCoKG，包含521,316个四元组 $(e, p, r, t)$（事件-人格-推理维度-结果），通过LLM角色扮演+多智能体辩论机制生成高质量的人格差异化推理，实验验证了MBTI人格信息对常识推理和个性化对话生成的增强作用。
@@ -137,6 +141,10 @@ description: >-
 **[Self-Adaptive Graph Mixture of Models](self-adaptive_graph_mixture_of_models.md)**
 
 :   提出 SAGMM（Self-Adaptive Graph Mixture of Models），一个利用架构多样性的图 MoE 框架，通过拓扑感知注意力门控（TAAG）自适应选择和组合异构 GNN 专家，配合自适应剪枝机制，在 16 个基准上覆盖节点分类、图分类、回归和链接预测，一致超越单一 GNN 和已有 MoE 方法。
+
+**[Self-Correction Distillation for Structured Data Question Answering](self-correction_distillation_for_structured_data_question_answering.md)**
+
+:   提出自纠正蒸馏（SCD）方法，通过错误提示机制（EPM）和两阶段蒸馏策略，将大规模LLM（GPT4）的结构化数据问答能力高效迁移到小规模LLM（8B），在5个基准上取得最优蒸馏性能。
 
 **[Sentient: Detecting APTs Via Capturing Indirect Dependencies and Behavioral Logic](sentient_detecting_apts_via_capturing_indirect_dependencies_and_behavioral_logic.md)**
 

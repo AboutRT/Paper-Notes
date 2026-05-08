@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Regor: Progressive Correspondence Regenerator for Robust 3D Registration
 description: >-
-  [CVPR 2025][点云配准] Regor提出了一种渐进式对应关系再生策略，不同于传统的"自上而下"外点剔除方法，通过"自下而上"地在局部球体内迭代生成更多高质量对应关系，生成的正确匹配数量是现有方法的10倍，即使在弱特征条件下也能实现鲁棒配准。
+  [CVPR 2025][其他] Regor提出了一种渐进式对应关系再生策略，不同于传统的"自上而下"外点剔除方法，通过"自下而上"地在局部球体内迭代生成更多高质量对应关系，生成的正确匹配数量是现有方法的10倍，即使在弱特征条件下也能实现鲁棒配准。
 tags:
   - CVPR 2025
-  - 点云配准
+  - 其他
   - 对应关系再生
   - 外点剔除
   - 三点一致性
@@ -122,9 +122,9 @@ Regor为非学习方法，无需训练。最终位姿估计通过SVD直接从精
 
 ## 相关论文
 
+- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
 - [\[ICML 2025\] Symmetry-Robust 3D Orientation Estimation](../../ICML2025/others/symmetry-robust_3d_orientation_estimation.md)
 - [\[CVPR 2025\] SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md)
-- [\[ICCV 2025\] EDFFDNet: Towards Accurate and Efficient Unsupervised Multi-Grid Image Registration](../../ICCV2025/others/edffdnet_towards_accurate_and_efficient_unsupervised_multi-grid_image_registrati.md)
 - [\[ICCV 2025\] You Share Beliefs, I Adapt: Progressive Heterogeneous Collaborative Perception](../../ICCV2025/others/you_share_beliefs_i_adapt_progressive_heterogeneous_collaborative_perception.md)
 - [\[NeurIPS 2025\] Distributionally Robust Feature Selection](../../NeurIPS2025/others/distributionally_robust_feature_selection.md)
 

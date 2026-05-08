@@ -3,7 +3,7 @@
 **会议**: ACL 2026  
 **arXiv**: [2604.16929](https://arxiv.org/abs/2604.16929)  
 **代码**: [GitHub](https://github.com/CAS-SIAT-XinHai/MeasHalu)  
-**领域**: LLM评估 / AI4Science  
+**领域**: LLM安全  
 **关键词**: 科学测量幻觉, 信息抽取, 推理增强微调, GRPO强化学习, MeasEval
 
 ## 一句话总结
@@ -105,9 +105,9 @@
 ## 相关论文
 
 - [\[NeurIPS 2025\] Teaming LLMs to Detect and Mitigate Hallucinations](../../NeurIPS2025/llm_safety/teaming_llms_to_detect_and_mitigate_hallucinations.md)
+- [\[ACL 2026\] Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations](two_pathways_to_truthfulness_on_the_intrinsic_encoding_of_llm_hallucinations.md)
+- [\[NeurIPS 2025\] Unlearning as Ablation: Toward a Falsifiable Benchmark for Generative Scientific Discovery](../../NeurIPS2025/llm_safety/unlearning_as_ablation_toward_a_falsifiable_benchmark_for_generative_scientific_.md)
 - [\[ACL 2025\] Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization in LLMs](../../ACL2025/llm_safety/stochastic_chameleons_irrelevant_context_hallucinations_reveal_class-based_misge.md)
-- [\[ACL 2025\] On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation](../../ACL2025/llm_safety/on-policy_self-alignment_with_fine-grained_knowledge_feedback_for_hallucination_.md)
-- [\[ACL 2025\] Fine-grained Hallucination Detection and Mitigation in Long-form Question Answering](../../ACL2025/llm_safety/localizing_and_mitigating_errors_in_long-form_question_answering.md)
-- [\[ACL 2025\] HALoGEN: Fantastic LLM Hallucinations and Where to Find Them](../../ACL2025/llm_safety/halogen_hallucinations.md)
+- [\[ICLR 2026\] SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense](../../ICLR2026/llm_safety/shield_suppressing_hallucinations_in_lvlm_encoders_via_bias_and_vulnerability_de.md)
 
 <!-- RELATED:END -->

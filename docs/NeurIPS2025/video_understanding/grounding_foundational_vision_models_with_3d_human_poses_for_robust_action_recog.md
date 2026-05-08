@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2511.05622](https://arxiv.org/abs/2511.05622)  
 **代码**: [nbabey20/groundactrec](https://github.com/nbabey20/groundactrec)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: action recognition, multimodal fusion, 3D human pose, cross-attention, V-JEPA 2, CoMotion
 
 ## 一句话总结
@@ -167,6 +167,6 @@ tags:
 - [\[ICCV 2025\] Beyond Label Semantics: Language-Guided Action Anatomy for Few-shot Action Recognition](../../ICCV2025/video_understanding/beyond_label_semantics_language-guided_action_anatomy_for_few-shot_action_recogn.md)
 - [\[NeurIPS 2025\] When Thinking Drifts: Evidential Grounding for Robust Video Reasoning](when_thinking_drifts_evidential_grounding_for_robust_video_reasoning.md)
 - [\[ECCV 2024\] Referring Atomic Video Action Recognition](../../ECCV2024/video_understanding/referring_atomic_video_action_recognition.md)
-- [\[NeurIPS 2025\] Seeing Beyond the Scene: Analyzing and Mitigating Background Bias in Action Recognition](seeing_beyond_the_scene_analyzing_and_mitigating_background_bias_in_action_recog.md)
+- [\[ICCV 2025\] Adaptive Hyper-Graph Convolution Network for Skeleton-Based Human Action Recognition](../../ICCV2025/video_understanding/adaptive_hyper-graph_convolution_network_for_skeleton-based_human_action_recogni.md)
 
 <!-- RELATED:END -->

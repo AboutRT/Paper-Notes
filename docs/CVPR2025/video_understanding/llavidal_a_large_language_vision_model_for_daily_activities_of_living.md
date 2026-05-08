@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.09390](https://arxiv.org/abs/2406.09390)  
-**代码**: https://adl-x.github.io/ (有)  
+**代码**: [https://adl-x.github.io/](https://adl-x.github.io/)  
 **领域**: 视频理解  
 **关键词**: 日常活动理解, 大语言视觉模型, 多模态融合, 骨架特征, 人物交互
 

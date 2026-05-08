@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.03499](https://arxiv.org/abs/2503.03499)  
 **代码**: [https://github.com/furiosa-ai/ssm-state-tuning](https://github.com/furiosa-ai/ssm-state-tuning)  
-**领域**: LLM效率  
+**领域**: 模型压缩  
 **关键词**: state space model, Mamba, PEFT, state-based tuning, parameter-efficient fine-tuning
 
 ## 一句话总结

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2410.05628](https://arxiv.org/abs/2410.05628)  
-**代码**: https://vim-motion-language.github.io/  
-**领域**: 人体理解  
+**代码**: [https://vim-motion-language.github.io/](https://vim-motion-language.github.io/)  
+**领域**: LLM/NLP  
 **关键词**: 交互运动生成, 运动-语言模型, 多轮对话, RQ-VAE, 双人交互
 
 ## 一句话总结
@@ -117,8 +117,8 @@ tags:
 
 - [\[ACL 2025\] Interactive and Expressive Code-Augmented Planning with Large Language Models](../../ACL2025/llm_nlp/interactive_and_expressive_code-augmented_planning_with_large_language_models.md)
 - [\[ACL 2025\] INTERACT: Enabling Interactive, Question-Driven Learning in Large Language Models](../../ACL2025/llm_nlp/interact_enabling_interactive_question-driven_learning_in_large_language_models.md)
+- [\[CVPR 2025\] MG-MotionLLM: A Unified Framework for Motion Comprehension and Generation across Multiple Granularities](../../CVPR2025/llm_nlp/mg-motionllm_a_unified_framework_for_motion_comprehension_and_generation_across_.md)
 - [\[ACL 2025\] Towards Enhanced Immersion and Agency for LLM-based Interactive Drama](../../ACL2025/llm_nlp/towards_enhanced_immersion_and_agency_for_llm-based_interactive_drama.md)
 - [\[ACL 2025\] MIRAGE: Exploring How Large Language Models Perform in Complex Social Interactive Environments](../../ACL2025/llm_nlp/mirage_exploring_how_large_language_models_perform_in_complex_social_interactive.md)
-- [\[ACL 2025\] Alignment Drift in CEFR-prompted LLMs for Interactive Spanish Tutoring](../../ACL2025/llm_nlp/alignment_drift_in_cefr-prompted_llms_for_interactive_spanish_tutoring.md)
 
 <!-- RELATED:END -->

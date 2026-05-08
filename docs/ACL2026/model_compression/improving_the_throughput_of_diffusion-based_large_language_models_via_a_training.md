@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2512.07173](https://arxiv.org/abs/2512.07173)  
 **代码**: 有  
-**领域**: LLM效率  
+**领域**: 模型压缩  
 **关键词**: 扩散语言模型, 推理加速, 自适应解码, 置信度校准, 无训练方法
 
 ## 一句话总结
@@ -125,6 +125,6 @@ CadLLM 完全免训练，所有策略通过线性插值+裁剪实现，不引入
 - [\[ACL 2026\] Training-Free Test-Time Contrastive Learning for Large Language Models](training-free_test-time_contrastive_learning_for_large_language_models.md)
 - [\[ACL 2026\] Task-Stratified Knowledge Scaling Laws for Post-Training Quantized LLMs](task-stratified_knowledge_scaling_laws_for_post-training_quantized_large_languag.md)
 - [\[ICML 2025\] GPTAQ: Efficient Finetuning-Free Quantization for Asymmetric Calibration](../../ICML2025/model_compression/gptaq_efficient_finetuning-free_quantization_for_asymmetric_calibration.md)
-- [\[ICLR 2026\] Compute-Optimal Quantization-Aware Training](../../ICLR2026/model_compression/compute-optimal_quantization-aware_training.md)
+- [\[ICLR 2026\] DiffVax: Optimization-Free Image Immunization Against Diffusion-Based Editing](../../ICLR2026/model_compression/diffvax_optimization-free_image_immunization_against_diffusion-based_editing.md)
 
 <!-- RELATED:END -->

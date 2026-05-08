@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.07598](https://arxiv.org/abs/2503.07598)  
-**代码**: https://ali-vilab.github.io/VACE-Page/  
+**代码**: [https://ali-vilab.github.io/VACE-Page/](https://ali-vilab.github.io/VACE-Page/)  
 **领域**: 视频理解 / 视频生成 / 视频编辑  
 **关键词**: 视频生成, 视频编辑, 扩散 Transformer, 统一框架, Video Condition Unit
 
@@ -156,9 +156,9 @@ VACE-Benchmark（480评测样本，12种任务）上的自动评分+用户研究
 ## 相关论文
 
 - [\[ICCV 2025\] Generating, Fast and Slow: Scalable Parallel Video Generation with Video Interface Networks](generating_fast_and_slow_scalable_parallel_video_generation_with_video_interface.md)
+- [\[ICCV 2025\] Aligning Moments in Time using Video Queries](aligning_moments_in_time_using_video_queries.md)
+- [\[ICCV 2025\] X-Dancer: Expressive Music to Human Dance Video Generation](x-dancer_expressive_music_to_human_dance_video_generation.md)
 - [\[ICCV 2025\] STiV: Scalable Text and Image Conditioned Video Generation](stiv_scalable_text_and_image_conditioned_video_generation.md)
-- [\[ICCV 2025\] OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models](omnihuman-1_rethinking_the_scaling-up_of_one-stage_conditioned_human_animation_m.md)
-- [\[CVPR 2025\] One-Minute Video Generation with Test-Time Training](../../CVPR2025/video_generation/one-minute_video_generation_with_test-time_training.md)
-- [\[CVPR 2025\] SketchVideo: Sketch-Based Video Generation and Editing](../../CVPR2025/video_generation/sketchvideo_sketch-based_video_generation_and_editing.md)
+- [\[ICCV 2025\] Decouple and Track: Benchmarking and Improving Video Diffusion Transformers for Motion Transfer](decouple_and_track_benchmarking_and_improving_video_diffusion_transformers_for_m.md)
 
 <!-- RELATED:END -->

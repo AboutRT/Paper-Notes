@@ -19,8 +19,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: 2503.06923  
-**代码**: https://github.com/Shenyi-Z/TaylorSeer  
-**领域**: image_generation  
+**代码**: [https://github.com/Shenyi-Z/TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer)  
+**领域**: 图像生成  
 **关键词**: 扩散模型加速, 特征缓存, Taylor展开, 免训练加速, DiT, FLUX, HunyuanVideo
 
 ## 一句话总结

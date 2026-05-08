@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 音频/语音方向6篇论文解读
+  ICML2025 音频/语音方向7篇论文解读
 description: >-
-  6篇ICML2025的音频/语音方向论文解读，涵盖语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  7篇ICML2025的音频/语音方向论文解读，涵盖语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**🧪 ICML2025** · **6** 篇论文解读
+**🧪 ICML2025** · **7** 篇论文解读
 
 **[Bridging the Language Gap: Synthetic Voice Diversity via Latent Mixup for Equitable Speech Recognition](bridging_the_language_gap_synthetic_voice_diversity_via_latent_mixup_for_equitab.md)**
 
@@ -17,6 +17,10 @@ description: >-
 **[FLAM: Frame-Wise Language-Audio Modeling](flam_frame-wise_language-audio_modeling.md)**
 
 :   提出 FLAM，一个帧级音频-语言对比模型，通过文本依赖的 logit 偏置校正和百万级合成 SED 数据集，实现开放词汇声音事件的精确时间定位，同时保持全局检索和零样本分类性能。
+
+**[No Soundness in the Real World: On the Challenges of the Verification of Deployed Neural Networks](no_soundness_in_the_real_world_on_the_challenges_of_the_verification_of_deployed.md)**
+
+:   本文证明所有当前最先进的神经网络验证器都只提供"理论健全性"（约束全精度输出）而非"实际健全性"（约束部署环境中的浮点输出），并通过构造环境敏感的对抗性后门网络，实证验证了所有测试验证器均可被欺骗。
 
 **[OmniAudio: Generating Spatial Audio from 360-Degree Video](omniaudio_generating_spatial_audio_from_360-degree_video.md)**
 

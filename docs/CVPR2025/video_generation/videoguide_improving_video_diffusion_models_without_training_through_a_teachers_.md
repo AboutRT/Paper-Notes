@@ -8,7 +8,7 @@ tags:
   - 视频扩散模型
   - 时序一致性
   - 无训练引导
-  - 教师-学生蒸馏
+  - 视频生成
   - 低通滤波
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.04364](https://arxiv.org/abs/2410.04364)  
-**代码**: https://github.com/dohunlee1/videoguide  
+**代码**: [https://github.com/dohunlee1/videoguide](https://github.com/dohunlee1/videoguide)  
 **领域**: 扩散模型 / 视频生成  
 **关键词**: 视频扩散模型, 时序一致性, 无训练引导, 教师-学生蒸馏, 低通滤波
 
@@ -129,7 +129,7 @@ VideoGuide 的流程紧密嵌入标准 DDIM 采样过程。在采样模型（Stu
 - [\[CVPR 2025\] Mimir: Improving Video Diffusion Models for Precise Text Understanding](mimir_improving_video_diffusion_models_for_precise_text_understanding.md)
 - [\[NeurIPS 2025\] Video Diffusion Models Excel at Tracking Similar-Looking Objects Without Supervision](../../NeurIPS2025/video_generation/video_diffusion_models_excel_at_tracking_similar-looking_objects_without_supervi.md)
 - [\[CVPR 2025\] Articulated Kinematics Distillation from Video Diffusion Models](articulated_kinematics_distillation_from_video_diffusion_models.md)
-- [\[CVPR 2025\] Taming Teacher Forcing for Masked Autoregressive Video Generation](taming_teacher_forcing_for_masked_autoregressive_video_generation.md)
-- [\[CVPR 2025\] InterDyn: Controllable Interactive Dynamics with Video Diffusion Models](interdyn_controllable_interactive_dynamics_with_video_diffusion_models.md)
+- [\[CVPR 2025\] Learning Temporally Consistent Video Depth from Video Diffusion Priors](learning_temporally_consistent_video_depth_from_video_diffusion_priors.md)
+- [\[CVPR 2025\] StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models](streetcrafter_street_view_synthesis_with_controllable_video_diffusion_models.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.10426](https://arxiv.org/abs/2412.10426)  
-**代码**: https://aysanaghazadeh.github.io/CAP/  
+**代码**: [https://aysanaghazadeh.github.io/CAP/](https://aysanaghazadeh.github.io/CAP/)  
 **领域**: Image Generation  
 **关键词**: 广告图像生成, 创意评估, 说服力评估, 文本-图像对齐, 隐式消息
 

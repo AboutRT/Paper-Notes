@@ -7,7 +7,7 @@ tags:
   - ECCV 2024
   - 多模态
   - 视觉语言导航
-  - 大语言模型
+  - 多模态VLM
   - 导航推理
   - 拓扑图策略
   - InstructBLIP
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.12366](https://arxiv.org/abs/2407.12366)  
-**代码**: [GitHub](https://github.com/GengzeZhou/NavGPT-2) (有)  
+**代码**: [GitHub](https://github.com/GengzeZhou/NavGPT-2)  
 **领域**: 多模态VLM  
 **关键词**: 视觉语言导航, 大语言模型, 导航推理, 拓扑图策略, InstructBLIP
 
@@ -147,10 +147,10 @@ NavGPT-2由两大组件构成：(1) 大型视觉语言模型（VLM），基于In
 
 ## 相关论文
 
-- [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](attention_prompting_on_image_for_large_vision-language_models.md)
-- [\[ECCV 2024\] Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models](vary_scaling_up_the_vision_vocabulary_for_large_vision-language_model.md)
 - [\[ECCV 2024\] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)
 - [\[ECCV 2024\] Robust Calibration of Large Vision-Language Adapters](robust_calibration_of_large_visionlanguage_adapters.md)
-- [\[ECCV 2024\] FlexAttention for Efficient High-Resolution Vision-Language Models](flexattention_for_efficient_highresolution_visionlanguage_mo.md)
+- [\[ECCV 2024\] SQ-LLaVA: Self-Questioning for Large Vision-Language Assistant](sqllava_selfquestioning_for_large_visionlanguage_assistant.md)
+- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_lan.md)
+- [\[ECCV 2024\] Quantized Prompt for Efficient Generalization of Vision-Language Models](quantized_prompt_for_efficient_generalization_of_vision-language_models.md)
 
 <!-- RELATED:END -->

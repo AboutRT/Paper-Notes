@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning
 description: >-
-  [ACL 2025][语音到文本翻译] 提出 LLM-SRT，将语音到文本翻译（S2TT）任务转化为语音识别与翻译联合任务（SRT），并通过三阶段课程学习策略（ASR→SMT→SRT）有效利用 LLM 的机器翻译能力，在低资源场景（每种语言不到 10 小时数据）下实现 15×14 语言对的 SOTA 多对多语音翻译性能。
+  [ACL 2025][LLM预训练] 提出 LLM-SRT，将语音到文本翻译（S2TT）任务转化为语音识别与翻译联合任务（SRT），并通过三阶段课程学习策略（ASR→SMT→SRT）有效利用 LLM 的机器翻译能力，在低资源场景（每种语言不到 10 小时数据）下实现 15×14 语言对的 SOTA 多对多语音翻译性能。
 tags:
   - ACL 2025
-  - 语音到文本翻译
+  - LLM预训练
   - 课程学习
   - MLLM
   - 多语言
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2409.19510](https://arxiv.org/abs/2409.19510)  
 **代码**: [有](https://github.com/yxduir/LLM-SRT)  
-**领域**: 语音翻译 / 多模态LLM  
+**领域**: LLM预训练  
 **关键词**: 语音到文本翻译, 课程学习, MLLM, 多语言, 低资源
 
 ## 一句话总结
@@ -183,8 +183,8 @@ LLM-SRT 在大 batch 下推理速度约为 Qwen2-Audio 的 **3倍**，且不会 
 
 - [\[ACL 2025\] An Effective Incorporating Heterogeneous Knowledge Curriculum Learning for Sequence Labeling](dual_stage_curriculum_learning_sequence_labeling.md)
 - [\[ACL 2025\] Pre-Training Curriculum for Multi-Token Prediction in Language Models](pre-training_curriculum_for_multi-token_prediction_in_language_models.md)
-- [\[ACL 2025\] Splintering Nonconcatenative Languages for Better Tokenization](splintering_nonconcatenative_languages_for_better_tokenization.md)
-- [\[ICLR 2026\] TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](../../ICLR2026/llm_pretraining/taste_text-aligned_speech_tokenization_and_embedding_for_spoken_language_modelin.md)
 - [\[ACL 2025\] InSerter: Speech Instruction Following with Unsupervised Interleaved Pre-training](inserter_speech_instruction.md)
+- [\[ACL 2025\] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models](leancode_understanding_models_better_for_code_simplification_of_pre-trained_larg.md)
+- [\[ACL 2025\] Splintering Nonconcatenative Languages for Better Tokenization](splintering_nonconcatenative_languages_for_better_tokenization.md)
 
 <!-- RELATED:END -->

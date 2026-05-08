@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.12957](https://arxiv.org/abs/2403.12957)  
-**代码**: https://gvgen.github.io/ (有)  
+**代码**: [https://gvgen.github.io/](https://gvgen.github.io/)  
 **领域**: 3D视觉  
 **关键词**: 文本到3D, 3D高斯, 体积表示, 前馈生成, 扩散模型
 

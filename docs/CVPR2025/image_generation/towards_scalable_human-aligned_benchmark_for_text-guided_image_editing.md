@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.00502](https://arxiv.org/abs/2505.00502)  
-**代码**: https://github.com/SuhoRyu/HATIE  
+**代码**: [https://github.com/SuhoRyu/HATIE](https://github.com/SuhoRyu/HATIE)  
 **领域**: 图像生成 / 图像编辑评估  
 **关键词**: 图像编辑, 评估基准, 人类对齐, 自动化评估, 多维度指标
 

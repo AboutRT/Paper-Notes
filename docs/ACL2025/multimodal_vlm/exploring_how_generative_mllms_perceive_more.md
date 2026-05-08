@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - CLIP
-  - 多模态LLM
+  - 多模态VLM
   - 视觉推理
   - 空间推理
   - 对比学习
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2411.05195](https://arxiv.org/abs/2411.05195)  
 **代码**: [GitHub](https://github.com/lst627/CLIP-Embeds)  
-**领域**: NLP理解  
+**领域**: 多模态VLM  
 **关键词**: CLIP, 多模态LLM, 视觉推理, 空间推理, 对比学习
 
 ## 一句话总结
@@ -126,7 +126,7 @@ tags:
 - [\[ICCV 2025\] Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs](../../ICCV2025/multimodal_vlm/are_they_the_same_exploring_visual_correspondence_shortcomings_of_multimodal_llm.md)
 - [\[NeurIPS 2025\] FlySearch: Exploring how vision-language models explore](../../NeurIPS2025/multimodal_vlm/flysearch_exploring_how_vision-language_models_explore.md)
 - [\[CVPR 2025\] Florence-VL: Enhancing Vision-Language Models with Generative Vision Encoder and Depth-Breadth Fusion](../../CVPR2025/multimodal_vlm/florence-vl_enhancing_vision-language_models_with_generative_vision_encoder_and_.md)
-- [\[ACL 2025\] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](mmmupro_a_more_robust_multidiscipline_multimodal.md)
-- [\[ACL 2025\] Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](exploring_compositional_generalization_of_multimodal_llms_for_medical_imaging.md)
+- [\[ACL 2025\] Can LLMs Deceive CLIP? Benchmarking Adversarial Compositionality of Pre-trained Multimodal Representation via Text Updates](adversarial_compositionality_clip.md)
+- [\[CVPR 2026\] More than the Sum: Panorama-Language Models for Adverse Omni-Scenes](../../CVPR2026/multimodal_vlm/more_than_the_sum_panorama-language_models_for_adverse_omni-scenes.md)
 
 <!-- RELATED:END -->

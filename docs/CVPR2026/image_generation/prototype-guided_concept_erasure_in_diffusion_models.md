@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.08271](https://arxiv.org/abs/2603.08271)  
-**代码**: https://github.com/Cocteau-23/Prototype-Guided-Concept-Erasure  
+**代码**: [https://github.com/Cocteau-23/Prototype-Guided-Concept-Erasure](https://github.com/Cocteau-23/Prototype-Guided-Concept-Erasure)  
 **领域**: 图像生成  
 **关键词**: 概念擦除, 扩散模型安全, NSFW内容过滤, 原型学习, 无训练推理
 

@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025 (Spotlight)
   - 语音
   - 目标推断
-  - 可穿戴智能体
+  - 音频语音
   - 多模态基准
   - 第一视角视频
   - VLM评测
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (Spotlight)  
 **arXiv**: [2510.22443](https://arxiv.org/abs/2510.22443)  
 **代码**: [https://github.com/facebookresearch/WAGIBench/](https://github.com/facebookresearch/WAGIBench/)  
-**领域**: 多模态VLM / 第一视角理解 / 可穿戴智能体  
+**领域**: 音频语音  
 **关键词**: 目标推断, 可穿戴智能体, 多模态基准, 第一视角视频, VLM评测  
 
 ## 一句话总结
@@ -143,10 +143,10 @@ WAGIBench 的设计包含三大组件：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] AVRobustBench: Benchmarking the Robustness of Audio-Visual Recognition Models at Test-Time](textttavrobustbench_benchmarking_the_robustness_of_audio-visual_recognition_mode.md)
 - [\[ACL 2026\] Learning Invariant Modality Representation for Robust Multimodal Learning from a Causal Inference Perspective](../../ACL2026/audio_speech/learning_invariant_modality_representation_for_robust_multimodal_learning_from_a.md)
+- [\[NeurIPS 2025\] AVRobustBench: Benchmarking the Robustness of Audio-Visual Recognition Models at Test-Time](textttavrobustbench_benchmarking_the_robustness_of_audio-visual_recognition_mode.md)
 - [\[AAAI 2026\] Generalizing Analogical Inference from Boolean to Continuous Domains](../../AAAI2026/audio_speech/generalizing_analogical_inference_from_boolean_to_continuous_domains.md)
 - [\[ACL 2025\] Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](../../ACL2025/audio_speech/audio_dialogue_benchmark.md)
-- [\[ECCV 2024\] Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation](../../ECCV2024/audio_speech/listen_to_look_into_the_future_audio-visual_egocentric_gaze_anticipation.md)
+- [\[NeurIPS 2025\] A TRIANGLE Enables Multimodal Alignment Beyond Cosine Similarity](a_triangle_enables_multimodal_alignment_beyond_cosine_simila.md)
 
 <!-- RELATED:END -->

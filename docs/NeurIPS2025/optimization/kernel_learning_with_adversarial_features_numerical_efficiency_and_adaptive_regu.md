@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20883](https://arxiv.org/abs/2510.20883)  
 **代码**: [antonior92/adversarial_training_kernel](https://github.com/antonior92/adversarial_training_kernel)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: adversarial training, kernel methods, RKHS, adaptive regularization, multiple kernel learning
 
 ## 一句话总结
@@ -155,7 +155,7 @@ $$\min \frac{1}{n}\sum_{i=1}^n \left(|y - \sum_j f_j(x)| + \delta \sum_j \|f_j\|
 - [\[NeurIPS 2025\] Learning Theory for Kernel Bilevel Optimization](learning_theory_for_kernel_bilevel_optimization.md)
 - [\[ICML 2025\] AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs](../../ICML2025/optimization/advprompter_fast_adaptive_adversarial_prompting_for_llms.md)
 - [\[NeurIPS 2025\] Functional Scaling Laws in Kernel Regression: Loss Dynamics and Learning Rate Schedules](functional_scaling_laws_in_kernel_regression_loss_dynamics_and_learning_rate_sch.md)
-- [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](efficient_adaptive_federated_optimization.md)
 - [\[NeurIPS 2025\] Beyond Õ(√T) Constraint Violation for Online Convex Optimization with Adversarial Constraints](beyond_tildeosqrtt_constraint_violation_for_online_convex_optimization_with_adve.md)
+- [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](efficient_adaptive_federated_optimization.md)
 
 <!-- RELATED:END -->

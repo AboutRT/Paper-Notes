@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2509.24058](https://arxiv.org/abs/2509.24058)  
 **代码**: 待发布  
-**领域**: 可解释性 / XAI 理论分析  
+**领域**: 其他  
 **关键词**: Concept Activation Vectors, TCAV, 方差分析, 渐近正态性, 可解释AI稳定性
 
 ## 一句话总结
@@ -135,8 +135,8 @@ tags:
 
 - [\[AAAI 2026\] Autonomous Concept Drift Threshold Determination](autonomous_concept_drift_threshold_determination.md)
 - [\[ACL 2025\] Partial Colexifications Improve Concept Embeddings](../../ACL2025/others/partial_colexifications_improve_concept_embeddings.md)
+- [\[NeurIPS 2025\] FACE: Faithful Automatic Concept Extraction](../../NeurIPS2025/others/face_faithful_automatic_concept_extraction.md)
 - [\[ACL 2025\] Synthia: Novel Concept Design with Affordance Composition](../../ACL2025/others/synthia_novel_concept_design_with_affordance_composition.md)
 - [\[CVPR 2026\] U-F²-CBM: CLIP-Free, Label Free, Unsupervised Concept Bottleneck Models](../../CVPR2026/others/clipfree_label_free_unsupervised_concept_bottlenec.md)
-- [\[ACL 2025\] Enhancing the Comprehensibility of Text Explanations via Unsupervised Concept Discovery](../../ACL2025/others/enhancing_the_comprehensibility_of_text_explanations_via_unsupervised_concept_di.md)
 
 <!-- RELATED:END -->

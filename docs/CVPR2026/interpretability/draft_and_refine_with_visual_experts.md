@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Draft and Refine with Visual Experts
 description: >-
-  [CVPR 2026][视觉利用度量化] 提出 DnR（Draft and Refine），一个基于问题条件视觉利用度（Visual Utilization）指标的 Agent 框架，量化 LVLM 对视觉证据的实际依赖程度，并通过外部视觉专家（检测/分割/OCR等）的渲染反馈迭代改善视觉定位，减少幻觉。
+  [CVPR 2026][可解释性] 提出 DnR（Draft and Refine），一个基于问题条件视觉利用度（Visual Utilization）指标的 Agent 框架，量化 LVLM 对视觉证据的实际依赖程度，并通过外部视觉专家（检测/分割/OCR等）的渲染反馈迭代改善视觉定位，减少幻觉。
 tags:
   - CVPR 2026
-  - 视觉利用度量化
+  - 可解释性
   - Agent框架
   - 幻觉缓解
   - 视觉专家协同
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2511.11005](https://arxiv.org/abs/2511.11005)  
 **代码**: [GitHub](https://github.com/SungheonJeong/DnR)  
-**领域**: 多模态VLM  
+**领域**: 可解释性  
 **关键词**: 视觉利用度量化, Agent框架, 幻觉缓解, 视觉专家协同, 免训练
 
 ## 一句话总结
@@ -123,10 +123,10 @@ $\alpha$ 由相关性图的熵和对比度自适应决定。
 
 ## 相关论文
 
-- [\[CVPR 2026\] ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization](ermoe_eigen-reparameterized_mixture-of-experts_for_stable_routing.md)
 - [\[AAAI 2026\] DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment](../../AAAI2026/interpretability/drexperts_differential_refinement_of_distortion-aware_experts_for_blind_image_qu.md)
 - [\[CVPR 2026\] Pixel2Phys: Distilling Governing Laws from Visual Dynamics](pixel2phys_distilling_governing_laws_from_visual_dynamics.md)
 - [\[CVPR 2026\] Language Models Can Explain Visual Features via Steering](language_models_can_explain_visual_features_via_steering.md)
+- [\[CVPR 2026\] ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization](ermoe_eigen-reparameterized_mixture-of-experts_for_stable_routing.md)
 - [\[CVPR 2025\] Learning on Model Weights using Tree Experts](../../CVPR2025/interpretability/learning_on_model_weights_using_tree_experts.md)
 
 <!-- RELATED:END -->

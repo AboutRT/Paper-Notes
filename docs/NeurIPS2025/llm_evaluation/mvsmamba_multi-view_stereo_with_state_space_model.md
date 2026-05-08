@@ -9,15 +9,15 @@ tags:
   - Mamba
   - 状态空间模型
   - 特征匹配
-  - 深度估计
+  - LLM评测
 ---
 
 # MVSMamba: Multi-View Stereo with State Space Model
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.01315](https://arxiv.org/abs/2511.01315)  
-**代码**: https://github.com/JianfeiJ/MVSMamba  
-**领域**: 3D视觉  
+**代码**: [https://github.com/JianfeiJ/MVSMamba](https://github.com/JianfeiJ/MVSMamba)  
+**领域**: LLM评测  
 **关键词**: 多视图立体, Mamba, 状态空间模型, 特征匹配, 深度估计
 
 ## 一句话总结
@@ -136,8 +136,8 @@ MVSMamba基于coarse-to-fine范式，整体流程为：(1) FPN编码器提取多
 
 - [\[NeurIPS 2025\] Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention](generalization_error_analysis_for_selective_state-space_models_through_the_lens_.md)
 - [\[CVPR 2025\] Making Old Film Great Again: Degradation-aware State Space Model for Old Film Restoration](../../CVPR2025/llm_evaluation/making_old_film_great_again_degradation-aware_state_space_model_for_old_film_res.md)
+- [\[ICCV 2025\] Neural Multi-View Self-Calibrated Photometric Stereo without Photometric Stereo Cues](../../ICCV2025/llm_evaluation/neural_multi-view_self-calibrated_photometric_stereo_without_photometric_stereo_.md)
 - [\[NeurIPS 2025\] Incomplete Multi-view Clustering via Hierarchical Semantic Alignment and Cooperative Completion](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)
-- [\[ICLR 2026\] Revisiting the Past: Data Unlearning with Model State History](../../ICLR2026/llm_evaluation/revisiting_the_past_data_unlearning_with_model_state_history.md)
 - [\[NeurIPS 2025\] Model-Behavior Alignment under Flexible Evaluation: When the Best-Fitting Model Isn't the Right One](model-behavior_alignment_under_flexible_evaluation_when_the_best-fitting_model_i.md)
 
 <!-- RELATED:END -->

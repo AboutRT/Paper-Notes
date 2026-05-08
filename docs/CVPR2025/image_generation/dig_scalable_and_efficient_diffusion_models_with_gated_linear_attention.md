@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.18428](https://arxiv.org/abs/2405.18428)  
-**代码**: https://github.com/hustvl/DiG (有)  
+**代码**: [https://github.com/hustvl/DiG](https://github.com/hustvl/DiG)  
 **领域**: 扩散模型  
 **关键词**: 扩散模型, 门控线性注意力, 亚二次复杂度, 高效生成, ImageNet
 
@@ -139,7 +139,7 @@ DiG采用Latent Diffusion的流水线：输入图像经VAE编码器得到 $32 \t
 - [\[ICCV 2025\] EDiT: Efficient Diffusion Transformers with Linear Compressed Attention](../../ICCV2025/image_generation/edit_efficient_diffusion_transformers_with_linear_compressed_attention.md)
 - [\[NeurIPS 2025\] DiCo: Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling](../../NeurIPS2025/image_generation/dico_revitalizing_convnets_for_scalable_and_efficient_diffus.md)
 - [\[CVPR 2025\] Hierarchical Flow Diffusion for Efficient Frame Interpolation](hierarchical_flow_diffusion_for_efficient_frame_interpolation.md)
-- [\[CVPR 2025\] Learning Flow Fields in Attention for Controllable Person Image Generation](learning_flow_fields_in_attention_for_controllable_person_image_generation.md)
 - [\[CVPR 2025\] Overcoming Visual Clutter in Vision Language Action Models via Concept-Gated Visual Distillation](overcoming_visual_clutter_in_vision_language_action_models_via_concept-gated_vis.md)
+- [\[CVPR 2025\] Learning Flow Fields in Attention for Controllable Person Image Generation](learning_flow_fields_in_attention_for_controllable_person_image_generation.md)
 
 <!-- RELATED:END -->

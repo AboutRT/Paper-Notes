@@ -9,7 +9,7 @@ tags:
   - dogmatism
   - conversation
   - Reddit
-  - LLM annotation
+  - 其他
   - opinion dynamics
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2406.16833](https://arxiv.org/abs/2406.16833)  
 **代码**: [GitHub](https://github.com/mounikamarreddy/USDC)  
-**领域**: NLP理解 / 社会计算  
+**领域**: 其他  
 **关键词**: stance detection, dogmatism, conversation, Reddit, LLM annotation, opinion dynamics
 
 ## 一句话总结
@@ -117,9 +117,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Zero-Shot Conversational Stance Detection: Dataset and Approaches](zero-shot_conversational_stance_detection_dataset_and_approaches.md)
-- [\[ACL 2025\] Sightation Counts: Leveraging Sighted User Feedback in Building a BLV-aligned Dataset of Diagram Descriptions](sightation-blv-aligned-diagram-descriptions.md)
-- [\[ACL 2025\] SHARE: Shared Memory-Aware Open-Domain Long-Term Dialogue Dataset Constructed from Movie Script](share_shared_memory-aware_open-domain_long-term_dialogue_dataset_constructed_fro.md)
-- [\[ACL 2025\] Hanging in the Balance: Pivotal Moments in Crisis Counseling Conversations](hanging_in_the_balance_pivotal_moments_in_crisis_counseling_conversations.md)
+- [\[ACL 2025\] Sightation Counts: Leveraging Sighted User Feedback in Building a BLV-aligned Dataset of Diagram Descriptions](sightation_counts_leveraging_sighted_user_feedback_in_building_a_blv-aligned_dat.md)
 - [\[ACL 2025\] Follow-up Question Generation for Enhanced Patient-Provider Conversations](follow-up_question_generation_for_enhanced_patient-provider_conversations.md)
+- [\[ACL 2025\] LoGU: Long-form Generation with Uncertainty Expressions](logu_longform_gen_uncertainty.md)
+- [\[ACL 2025\] A Little Human Data Goes A Long Way](a_little_human_data_goes_a_long_way.md)
 
 <!-- RELATED:END -->

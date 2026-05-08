@@ -9,7 +9,7 @@ tags:
   - 多样性采样
   - 重要性加权
   - NLI
-  - 语言模型
+  - LLM评测
 ---
 
 # Efficient Semantic Uncertainty Quantification in Language Models via Diversity-Steered Sampling
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21310](https://arxiv.org/abs/2510.21310)  
 **代码**: 无  
-**领域**: NLP理解 / 不确定性估计  
+**领域**: LLM评测  
 **关键词**: 语义不确定性, 多样性采样, 重要性加权, NLI, 语言模型
 
 ## 一句话总结
@@ -135,9 +135,9 @@ NLI 微调使用标准交叉熵损失，仅更新 [TRUNC]/[MASK] 嵌入和分类
 ## 相关论文
 
 - [\[ACL 2025\] Benchmarking Uncertainty Quantification Methods for Large Language Models with LM-Polygraph](../../ACL2025/llm_evaluation/benchmarking_uncertainty_quantification_methods_for_large_language_models_with_l.md)
+- [\[NeurIPS 2025\] On the Entropy Calibration of Language Models](on_the_entropy_calibration_of_language_models.md)
 - [\[NeurIPS 2025\] Asymmetric Duos: Sidekicks Improve Uncertainty](asymmetric_duos_sidekicks_improve_uncertainty.md)
 - [\[NeurIPS 2025\] AdaSTaR: Adaptive Data Sampling for Training Self-Taught Reasoners](adastar_adaptive_data_sampling_for_training_self-taught_reasoners.md)
 - [\[NeurIPS 2025\] Incomplete Multi-view Clustering via Hierarchical Semantic Alignment and Cooperative Completion](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)
-- [\[NeurIPS 2025\] Can Large Language Models Master Complex Card Games?](can_large_language_models_master_complex_card_games.md)
 
 <!-- RELATED:END -->

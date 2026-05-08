@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.12013](https://arxiv.org/abs/2603.12013)  
 **代码**: [KiMomota/Pano360](https://github.com/KiMomota/Pano360)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: panorama stitching, 3D geometric consistency, transformer, multi-view alignment, seam detection
 
 ## 一句话总结
@@ -197,10 +197,10 @@ $$C(p) = F_{color}(p) + F_{gradient}(p) \times F_{ratio}(p)$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] SwiftTailor: Efficient 3D Garment Generation with Geometry Image Representation](swifttailor_efficient_3d_garment_generation_with_geometry_image_representation.md)
 - [\[CVPR 2026\] VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection](vggt-det_mining_vggt_internal_priors_for_sensor-geometry-free_multi-view_indoor_.md)
+- [\[CVPR 2026\] SwiftTailor: Efficient 3D Garment Generation with Geometry Image Representation](swifttailor_efficient_3d_garment_generation_with_geometry_image_representation.md)
 - [\[CVPR 2026\] GAP: Action-Geometry Prediction with 3D Geometric Prior for Bimanual Manipulation](action-geometry_prediction_with_3d_geometric_prior_for_bimanual_manipulation.md)
 - [\[CVPR 2026\] Random Wins All: Rethinking Grouping Strategies for Vision Tokens](random_wins_all_rethinking_grouping_strategies_for_vision_tokens.md)
-- [\[CVPR 2026\] Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty](rethinking_pose_refinement_in_3d_gaussian_splatting_under_pose_prior_and_geometr.md)
+- [\[CVPR 2026\] A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](a2z-10m_geometric_deep_learning_with_a-to-z_brep_annotations_for_ai-assisted_cad.md)
 
 <!-- RELATED:END -->

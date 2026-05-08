@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.12087](https://arxiv.org/abs/2412.12087)  
-**代码**: https://github.com/mingdeng-cao/InstructMove  
+**代码**: [https://github.com/mingdeng-cao/InstructMove](https://github.com/mingdeng-cao/InstructMove)  
 **领域**: 扩散模型 / 图像编辑  
 **关键词**: 指令图像编辑, 视频帧对, 空间条件化, 非刚性变换, 多模态大模型
 
@@ -125,6 +125,6 @@ tags:
 - [\[ACL 2025\] Rolling the DICE on Idiomaticity: How LLMs Fail to Grasp Context](../../ACL2025/robotics/dice_idiomaticity.md)
 - [\[ICCV 2025\] UnZipLoRA: Separating Content and Style from a Single Image](../../ICCV2025/robotics/unziplora_separating_content_and_style_from_a_single_image.md)
 - [\[ICLR 2026\] UrbanVerse: Scaling Urban Simulation by Watching City-Tour Videos](../../ICLR2026/robotics/urbanverse_scaling_urban_simulation_by_watching_city-tour_videos.md)
-- [\[AAAI 2026\] From Passive Perception to Active Memory: A Weakly Supervised Image Manipulation Localization Framework Driven by Coarse-Grained Annotations](../../AAAI2026/robotics/from_passive_perception_to_active_memory_a_weakly_supervised_image_manipulation_.md)
+- [\[NeurIPS 2025\] MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents](../../NeurIPS2025/robotics/mip_against_agent_malicious_image_patches_hijacking_multimod.md)
 
 <!-- RELATED:END -->

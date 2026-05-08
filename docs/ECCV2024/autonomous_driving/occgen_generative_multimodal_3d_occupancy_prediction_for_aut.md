@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.15014](https://arxiv.org/abs/2404.15014)  
-**代码**: https://occgen-ad.github.io/ (有)  
-**领域**: 多模态VLM  
+**代码**: [https://occgen-ad.github.io/](https://occgen-ad.github.io/)  
+**领域**: 自动驾驶  
 **关键词**: 3D占据预测, 扩散模型, 自动驾驶, 多模态融合, 生成式感知
 
 ## 一句话总结

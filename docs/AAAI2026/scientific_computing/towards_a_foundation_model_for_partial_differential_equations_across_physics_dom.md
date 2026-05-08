@@ -20,7 +20,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.21861](https://arxiv.org/abs/2511.21861)  
 **代码**: 无  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: PDE, foundation model, neural operator, Mamba, FNO, multi-physics, The Well benchmark
 
 ## 一句话总结
@@ -247,6 +247,6 @@ $$\hat{u}(x) = \sum_{|k| \leq m} W_k \cdot \mathcal{F}[z](k) e^{2\pi i k \cdot x
 - [\[ICML 2025\] Closed-form Symbolic Solutions: A New Perspective on Solving Partial Differential Equations](../../ICML2025/scientific_computing/closed-form_solutions_a_new_perspective_on_solving_differential_equations.md)
 - [\[AAAI 2026\] SAOT: An Enhanced Locality-Aware Spectral Transformer for Solving PDEs](saot_an_enhanced_locality-aware_spectral_transformer_for_solving_pdes.md)
 - [\[AAAI 2026\] PIMRL: Physics-Informed Multi-Scale Recurrent Learning for Burst-Sampled Spatiotemporal Dynamics](pimrl_physics-informed_multi-scale_recurrent_learning_for_burst-sampled_spatiote.md)
-- [\[AAAI 2026\] PhysicsCorrect: A Training-Free Approach for Stable Neural PDE Simulations](physicscorrect_a_training-free_approach_for_stable_neural_pde_simulations.md)
+- [\[AAAI 2026\] Phys-Liquid: A Physics-Informed Dataset for Estimating 3D Geometry and Volume of Transparent Deformable Liquids](phys-liquid_a_physics-informed_dataset_for_estimating_3d_geometry_and_volume_of_.md)
 
 <!-- RELATED:END -->

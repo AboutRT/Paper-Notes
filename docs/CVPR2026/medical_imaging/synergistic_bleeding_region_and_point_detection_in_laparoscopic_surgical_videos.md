@@ -53,11 +53,11 @@ $$\{\boldsymbol{\theta}^*, \boldsymbol{\vartheta}^*\} = \arg\min_{\boldsymbol{\t
 ### 关键设计
 
 1. **Point 分支 — 光流引导的出血点记忆建模**：使用冻结的 PWC-Net 估计帧间光流 $O_i(x,y)$，结合反转的 Mask 地图过滤出血区域不稳定光流，计算平均视点偏移：
-   $$\bar{O}_i(\Delta x, \Delta y) = \frac{1}{H \times W} \sum_{X=1}^{H} \sum_{Y=1}^{W} (1-M_i) \cdot O_i(x,y)$$
+    $\bar{O}_i(\Delta x, \Delta y) = \frac{1}{H \times W} \sum_{X=1}^{H} \sum_{Y=1}^{W} (1-M_i) \cdot O_i(x,y)$
    然后将前帧 Mask 记忆特征与 Point 特征融合，通过自注意力和交叉注意力生成记忆增强的 Point 特征。核心思想：利用背景区域的光流补偿相机运动，同时利用 Mask 记忆缩小出血点搜索空间。
 
 2. **Mask 分支 — 边缘生成器与自适应 Prompt 嵌入**：采用多尺度 Gabor 小波拉普拉斯滤波器增强出血边缘：
-   $$F'_{\text{mask}} = (\text{ReLU}(F_{\text{mask}})) \odot (\mathbf{L}_\mathbf{g}(x,y) * F_{\text{mask}})$$
+    $F'_{\text{mask}} = (\text{ReLU}(F_{\text{mask}})) \odot (\mathbf{L}_\mathbf{g}(x,y) * F_{\text{mask}})$
    将边缘图 $E_m$ 与 Point 分支生成的出血点图 $P_m$ 组合为自适应 prompt 输入 Mask 解码器，替代人工交互式 prompt。
 
 3. **双向跨分支引导**：Point 分支的预测出血点作为 Mask 解码器的自动 prompt 聚焦目标区域；Mask 分支的预测 Mask 为 Point 分支提供时序方向线索和空间约束。两分支互相约束、互相增强。

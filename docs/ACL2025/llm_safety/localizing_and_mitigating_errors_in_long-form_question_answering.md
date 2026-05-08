@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Findings)][长文问答] 本文构建了首个包含 span 级别错误标注的 LFQA 幻觉数据集 HaluQuestQA（698 QA 对，4.7k 错误标注，5 种错误类型），训练了一个自动反馈模型来检测不完整信息的错误 span 并生成解释，最后提出 Error-informed Refinement 方法利用反馈信号精炼答案，将幻觉减少约 3%，且人类评估中 84% 的用户更偏好精炼后的答案。
 tags:
   - ACL 2025 (Findings)
-  - 长文问答
+  - LLM安全
   - 幻觉检测
   - 细粒度标注
   - 反馈模型
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2407.11930](https://arxiv.org/abs/2407.11930)  
 **代码**: 有（论文提供）  
-**领域**: NLP理解 / 幻觉检测  
+**领域**: LLM安全  
 **关键词**: 长文问答, 幻觉检测, 细粒度标注, 反馈模型, 答案精炼
 
 ## 一句话总结
@@ -131,9 +131,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation](on-policy_self-alignment_with_fine-grained_knowledge_feedback_for_hallucination_.md)
-- [\[ACL 2025\] Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation](rate-ft-auxiliary-tasks-for-hallucination-detection.md)
+- [\[ACL 2025\] Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation](learning_auxiliary_tasks_improves_reference-free_hallucination_detection_in_open.md)
 - [\[ACL 2025\] How Does Response Length Affect Long-Form Factuality](how_does_response_length_affect_long-form_factuality.md)
-- [\[ACL 2025\] Improving Model Factuality with Fine-grained Critique-based Evaluator](improving_model_factuality_with_fine-grained_critique-based_evaluator.md)
+- [\[ACL 2025\] ArgHiTZ at ArchEHR-QA 2025: A Two-Step Divide and Conquer Approach to Patient Question Answering for Top Factuality](arghitz_at_archehr-qa_2025_a_two-step_divide_and_conquer_approach_to_patient_que.md)
 - [\[ACL 2025\] Automated Explanation Generation and Hallucination Detection for Heritage Image Retrieval](automated_explanation_generation_and_hallucination_detection_for_heritage_image_.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.11827](https://arxiv.org/abs/2603.11827)  
 **代码**: 待确认  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: glioblastoma, radiation-induced contrast enhancement, tumor recurrence, multimodal classification, 3D ResNet
 
 ## 一句话总结

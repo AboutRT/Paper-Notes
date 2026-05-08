@@ -10,15 +10,15 @@ tags:
   - 视觉token冗余
   - 双阶段token裁剪
   - 注意力引导聚合
-  - 剪枝
+  - 多模态VLM
 ---
 
 # DUET-VLM: Dual Stage Unified Efficient Token Reduction for VLM Training and Inference
 
 **会议**: CVPR2026  
 **arXiv**: [2602.18846](https://arxiv.org/abs/2602.18846)  
-**代码**: https://github.com/AMD-AGI/DUET-VLM  
-**领域**: multimodal_vlm  
+**代码**: [https://github.com/AMD-AGI/DUET-VLM](https://github.com/AMD-AGI/DUET-VLM)  
+**领域**: 多模态VLM  
 **关键词**: VLM token压缩, 视觉token冗余, 双阶段token裁剪, 注意力引导聚合, 层级pruning
 
 ## 一句话总结
@@ -128,9 +128,9 @@ DUET-VLM 包含两个阶段：(1) V2V（Vision-to-Vision）阶段在视觉编码
 ## 相关论文
 
 - [\[CVPR 2026\] VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm](vlm-pruner_buffering_for_spatial_sparsity_in_an_efficient_vlm_centrifugal_token_.md)
-- [\[CVPR 2026\] SpatialStack: Layered Geometry-Language Fusion for 3D VLM Spatial Reasoning](spatialstack_layered_geometry-language_fusion_for_3d_vlm_spatial_reasoning.md)
 - [\[CVPR 2026\] Scene-VLM: Multimodal Video Scene Segmentation via Vision-Language Models](scene-vlm_multimodal_video_scene_segmentation_via_vision-language_models.md)
-- [\[CVPR 2026\] GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](gtr-turbo_merged_checkpoint_is_secretly_a_free_teacher_for_agentic_vlm_training.md)
-- [\[CVPR 2026\] ApET: Approximation-Error Guided Token Compression for Efficient VLMs](apet_approximation-error_guided_token_compression_for_efficient_vlms.md)
+- [\[CVPR 2026\] SpatialStack: Layered Geometry-Language Fusion for 3D VLM Spatial Reasoning](spatialstack_layered_geometry-language_fusion_for_3d_vlm_spatial_reasoning.md)
+- [\[CVPR 2026\] Multi-Modal Representation Learning via Semi-Supervised Rate Reduction for Generalized Category Discovery](multi-modal_representation_learning_via_semi-supervised_rate_reduction_for_gener.md)
+- [\[CVPR 2026\] AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition](adaptvision_efficient_vision-language_models_via_adaptive_visual_acquisition.md)
 
 <!-- RELATED:END -->

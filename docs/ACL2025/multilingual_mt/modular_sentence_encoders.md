@@ -9,14 +9,14 @@ tags:
   - modular training
   - curse of multilinguality
   - cross-lingual alignment
-  - adapters
+  - 多语言翻译
 ---
 
 # Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment
 
 **会议**: ACL 2025  
 **arXiv**: [2407.14878](https://arxiv.org/abs/2407.14878)  
-**领域**: LLM NLP  
+**领域**: 多语言翻译  
 **关键词**: multilingual sentence encoders, modular training, curse of multilinguality, cross-lingual alignment, adapters  
 
 ## 一句话总结
@@ -139,8 +139,8 @@ tags:
 
 - [\[ACL 2025\] Cross-Lingual Representation Alignment Through Contrastive Image-Caption Tuning](cross-lingual_representation_alignment_through_contrastive_image-caption_tuning.md)
 - [\[ACL 2025\] Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs](mid_layer_crosslingual_alignment.md)
-- [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 - [\[ACL 2025\] Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](crosslingual_pitfalls.md)
+- [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 - [\[CVPR 2025\] Harnessing Frozen Unimodal Encoders for Flexible Multimodal Alignment](../../CVPR2025/multilingual_mt/harnessing_frozen_unimodal_encoders_for_flexible_multimodal_alignment.md)
 
 <!-- RELATED:END -->

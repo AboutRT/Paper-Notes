@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2508.13898](https://arxiv.org/abs/2508.13898)  
 **代码**: [yishunlu-222/fop](https://github.com/yishunlu-222/fop)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: Natural Gradient Descent, Fisher Information Matrix, KFAC, Large Batch Training, Second-Order Optimization  
 
 ## 一句话总结

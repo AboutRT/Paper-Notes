@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.12849](https://arxiv.org/abs/2412.12849)  
 **代码**: 未公开  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: hyperspectral imaging, 3D Gaussian Splatting, novel view synthesis, latent space, spectral reconstruction
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
 **代码**: 无  
-**领域**: autonomous_driving / 知识蒸馏  
+**领域**: 自动驾驶  
 **关键词**: 知识蒸馏, 注意力掩码, 跨注意力融合, 空间-通道选择, 目标检测
 
 ## 一句话总结
@@ -207,8 +207,8 @@ $$L = L_{task} + \alpha (L^c_{distill} + L^s_{distill}) + \lambda L_{div}$$
 ## 相关论文
 
 - [\[ICCV 2025\] SDKD: Frequency-Aligned Knowledge Distillation for Lightweight Spatiotemporal Forecasting](frequency-aligned_knowledge_distillation_for_lightweight_spatiotemporal_forecast.md)
-- [\[ICCV 2025\] 3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation](3d_gaussian_splatting_driven_multi-view_robust_physical_adversarial_camouflage_g.md)
 - [\[ICCV 2025\] PBCAT: Patch-Based Composite Adversarial Training against Physically Realizable Attacks on Object Detection](pbcat_patch-based_composite_adversarial_training_against_physically_realizable_a.md)
+- [\[ICCV 2025\] 3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation](3d_gaussian_splatting_driven_multi-view_robust_physical_adversarial_camouflage_g.md)
 - [\[ICCV 2025\] Where, What, Why: Towards Explainable Driver Attention Prediction](where_what_why_towards_explainable_driver_attention_prediction.md)
 - [\[ICCV 2025\] Passing the Driving Knowledge Test](passing_the_driving_knowledge_test.md)
 

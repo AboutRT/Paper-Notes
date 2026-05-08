@@ -157,10 +157,10 @@ $$\sqrt{2c_0 T^{0.5(1-\alpha)} \ln^{1.5(1-\alpha)}(T)}\text{-GDP}$$
 
 ## 相关论文
 
-- [\[ICML 2025\] Empirical Privacy Variance](empirical_privacy_variance.md)
 - [\[ICML 2025\] Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off](clients_collaborate_flexible_differentially_private_federated_learning_with_guar.md)
-- [\[ICML 2025\] Activation Space Interventions Can Be Transferred Between Large Language Models](activation_space_interventions_can_be_transferred_between_large_language_models.md)
 - [\[ICML 2025\] On Differential Privacy for Adaptively Solving Search Problems via Sketching](on_differential_privacy_for_adaptively_solving_search_problems_via_sketching.md)
-- [\[ICML 2025\] Cape: Context-Aware Prompt Perturbation Mechanism with Differential Privacy](cape_context-aware_prompt_perturbation_mechanism_with_differential_privacy.md)
+- [\[ICML 2025\] Quadratic Upper Bound for Boosting Robustness](quadratic_upper_bound_for_boosting_robustness.md)
+- [\[ICML 2025\] A Certified Unlearning Approach without Access to Source Data](a_certified_unlearning_approach_without_access_to_source_data.md)
+- [\[ICML 2025\] Towards Trustworthy Federated Learning with Untrusted Participants](towards_trustworthy_federated_learning_with_untrusted_participants.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 视觉定位
   - 像素级标注
-  - 视频分割
+  - 多模态VLM
   - 多模态大模型
   - 时空对齐
 ---
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.04923](https://arxiv.org/abs/2411.04923)  
-**代码**: https://mbzuai-oryx.github.io/VideoGLaMM  
-**领域**: 视频理解 / 分割  
+**代码**: [https://mbzuai-oryx.github.io/VideoGLaMM](https://mbzuai-oryx.github.io/VideoGLaMM)  
+**领域**: 多模态VLM  
 **关键词**: 视觉定位, 像素级标注, 视频分割, 多模态大模型, 时空对齐
 
 ## 一句话总结
@@ -152,9 +152,9 @@ VideoGLaMM 是一个视频大型多模态模型，通过双视觉编码器（空
 ## 相关论文
 
 - [\[CVPR 2025\] MIMO: A Medical Vision Language Model with Visual Referring Multimodal Input and Pixel Grounding Multimodal Output](mimo_a_medical_vision_language_model_with_visual_referring_multimodal_input_and_.md)
-- [\[CVPR 2025\] ReVisionLLM: Recursive Vision-Language Model for Temporal Grounding in Hour-Long Videos](revisionllm_recursive_vision-language_model_for_temporal_grounding_in_hour-long_.md)
 - [\[CVPR 2025\] Your Large Vision-Language Model Only Needs a Few Attention Heads for Visual Grounding](your_large_vision-language_model_only_needs_a_few_attention_heads_for_visual_gro.md)
-- [\[ICCV 2025\] DOGR: Towards Versatile Visual Document Grounding and Referring](../../ICCV2025/multimodal_vlm/dogr_towards_versatile_visual_document_grounding_and_referring.md)
-- [\[CVPR 2025\] DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution](dynrefer_delving_into_region-level_multimodal_tasks_via_dynamic_resolution.md)
+- [\[CVPR 2025\] ReVisionLLM: Recursive Vision-Language Model for Temporal Grounding in Hour-Long Videos](revisionllm_recursive_vision-language_model_for_temporal_grounding_in_hour-long_.md)
+- [\[CVPR 2025\] VidComposition: Can MLLMs Analyze Compositions in Compiled Videos?](vidcomposition_can_mllms_analyze_compositions_in_compiled_videos.md)
+- [\[CVPR 2025\] Period-LLM: Extending the Periodic Capability of Multimodal Large Language Model](period-llm_extending_the_periodic_capability_of_multimodal_large_language_model.md)
 
 <!-- RELATED:END -->

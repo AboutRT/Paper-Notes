@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2409.00113](https://arxiv.org/abs/2409.00113)  
 **代码**: [GitHub](https://github.com/GracjanGoral/When-All-Options-Are-Wrong)  
-**领域**: ai_safety  
+**领域**: LLM/NLP  
 **关键词**: reflective judgment, LLM alignment, multiple-choice, instruction following, critical reasoning
 
 ## 一句话总结
@@ -120,6 +120,6 @@ tags:
 - [\[ACL 2025\] ArithmAttack: Evaluating Robustness of LLMs to Noisy Context in Math Problem Solving](arithmattack_evaluating_robustness_of_llms_to_noisy_context_in_math_problem_solv.md)
 - [\[ACL 2025\] Exploring Explanations Improves the Robustness of In-Context Learning](exploring_explanations_improves_the_robustness_of_in-context_learning.md)
 - [\[ACL 2025\] Efficient Ensemble for Fine-tuning Language Models on Multiple Datasets](efficient_ensemble_for_fine-tuning_language_models_on_multiple_datasets.md)
-- [\[ACL 2025\] Zero-Shot Belief: A Hard Problem for LLMs](zero-shot_belief_a_hard_problem_for_llms.md)
+- [\[ACL 2025\] Safer or Luckier? LLMs as Safety Evaluators Are Not Robust to Artifacts](safer_or_luckier_llms_as_safety_evaluators_are_not_robust_to_artifacts.md)
 
 <!-- RELATED:END -->

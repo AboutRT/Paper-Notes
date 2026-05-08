@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - RAG安全
   - 知识库泄露
-  - 金丝雀检测
+  - 信息检索
   - 运行时防御
   - 即插即用
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.10717](https://arxiv.org/abs/2604.10717)  
 **代码**: 无  
-**领域**: AI安全  
+**领域**: 信息检索  
 **关键词**: RAG安全, 知识库泄露, 金丝雀检测, 运行时防御, 即插即用
 
 ## 一句话总结
@@ -115,10 +115,10 @@ tags:
 
 ## 相关论文
 
+- [\[AAAI 2026\] RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation](../../AAAI2026/information_retrieval/ragfort_dual-path_defense_against_proprietary_knowledge_base_extraction_in_retri.md)
 - [\[ACL 2026\] TPA: Next Token Probability Attribution for Detecting Hallucinations in RAG](tpa_next_token_probability_attribution_for_detecting_hallucinations_in_rag.md)
-- [\[AAAI 2026\] Cog-RAG: Cognitive-Inspired Dual-Hypergraph with Theme Alignment Retrieval-Augmented Generation](../../AAAI2026/information_retrieval/cog-rag_cognitive-inspired_dual-hypergraph_with_theme_alignment_retrieval-augmen.md)
-- [\[AAAI 2026\] LLMs for Game Theory: Entropy-Guided In-Context Learning and Adaptive CoT Reasoning](../../AAAI2026/information_retrieval/llms_for_game_theory_entropy-guided_in-context_learning_and_adaptive_cot_reasoni.md)
 - [\[ACL 2026\] Is Agentic RAG Worth It? An Experimental Comparison of RAG Approaches](is_agentic_rag_worth_it_an_experimental_comparison_of_rag_approaches.md)
 - [\[ACL 2026\] How Retrieved Context Shapes Internal Representations in RAG](how_retrieved_context_shapes_internal_representations_in_rag.md)
+- [\[ACL 2026\] MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation](mass-rag_multi-agent_synthesis_retrieval-augmented_generation.md)
 
 <!-- RELATED:END -->

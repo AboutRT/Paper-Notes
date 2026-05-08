@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.07109](https://arxiv.org/abs/2506.07109)  
-**代码**: https://github.com/lamda-bbo/universal-offline-bbo (有)  
+**代码**: [https://github.com/lamda-bbo/universal-offline-bbo](https://github.com/lamda-bbo/universal-offline-bbo)  
 **领域**: LLM / 黑盒优化  
 **关键词**: 通用离线优化, 语言模型嵌入, 跨域泛化, 元数据对齐, 嵌入空间正则化
 

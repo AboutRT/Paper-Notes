@@ -19,7 +19,7 @@ tags:
 **作者**: Boxuan Lyu, Hidetaka Kamigaito, Kotaro Funakoshi, Manabu Okumura
 **机构**: Institute of Science Tokyo, Nara Institute of Science and Technology
 **代码**: [vlaks425/sMBR](https://github.com/vlaks425/sMBR)  
-**领域**: nlp_generation  
+**领域**: 多语言翻译  
 **关键词**: MBR decoding, quality estimation, neural machine translation, reranking, paraphrasing
 
 ## 一句话总结

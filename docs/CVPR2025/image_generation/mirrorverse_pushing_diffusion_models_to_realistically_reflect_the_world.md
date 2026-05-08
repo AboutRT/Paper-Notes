@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.15397](https://arxiv.org/abs/2504.15397)  
-**代码**: https://mirror-verse.github.io/  
+**代码**: [https://mirror-verse.github.io/](https://mirror-verse.github.io/)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 镜面反射生成, 合成数据集, 扩散模型微调, 课程式训练, 物理感知
 

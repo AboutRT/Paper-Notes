@@ -9,7 +9,7 @@ tags:
   - lifelong learning
   - sparse masking
   - neuron attribution
-  - LLM
+  - 知识编辑
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2510.22139](https://arxiv.org/abs/2510.22139)  
 **代码**: [LiuJinzhe-Keepgoing/NMKE](https://github.com/LiuJinzhe-Keepgoing/NMKE)  
-**领域**: llm_efficiency  
+**领域**: 知识编辑  
 **关键词**: knowledge editing, lifelong learning, sparse masking, neuron attribution, LLM
 
 ## 一句话总结
@@ -124,7 +124,7 @@ tags:
 - [\[ICML 2025\] WikiBigEdit: Understanding the Limits of Lifelong Knowledge Editing in LLMs](../../ICML2025/knowledge_editing/wikibigedit_understanding_the_limits_of_lifelong_knowledge_editing_in_llms.md)
 - [\[NeurIPS 2025\] MEMOIR: Lifelong Model Editing with Minimal Overwrite and Informed Retention for LLMs](memoir_lifelong_model_editing_with_minimal_overwrite_and_informed_retention_for_.md)
 - [\[NeurIPS 2025\] Rethinking Residual Distribution in Locate-then-Edit Model Editing](rethinking_residual_distribution_in_locate-then-edit_model_editing.md)
-- [\[ACL 2025\] Neuron-Level Sequential Editing for Large Language Models](../../ACL2025/knowledge_editing/neuron-level_sequential_editing_for_large_language_models.md)
+- [\[NeurIPS 2025\] UniEdit: A Unified Knowledge Editing Benchmark for Large Language Models](uniedit_a_unified_knowledge_editing_benchmark_for_large_language_models.md)
 - [\[NeurIPS 2025\] MemEIC: A Step Toward Continual and Compositional Knowledge Editing](memeic_a_step_toward_continual_and_compositional_knowledge_editing.md)
 
 <!-- RELATED:END -->

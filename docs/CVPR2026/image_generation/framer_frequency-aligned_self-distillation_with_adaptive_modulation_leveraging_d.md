@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.01390](https://arxiv.org/abs/2512.01390)  
-**代码**: https://cmlab-korea.github.io/FRAMER/  
+**代码**: [https://cmlab-korea.github.io/FRAMER/](https://cmlab-korea.github.io/FRAMER/)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 真实图像超分辨率, 自蒸馏, 频率感知, 扩散先验, 即插即用
 

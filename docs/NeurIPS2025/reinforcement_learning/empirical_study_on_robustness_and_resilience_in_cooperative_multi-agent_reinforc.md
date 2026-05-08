@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning
 description: >-
-  [NeurIPS 2025][multi-agent RL] 通过 82,620 次大规模实验系统性研究合作多智能体 RL 中的鲁棒性和弹性，揭示超参数调优比算法选择更重要，并发现参数共享、GAE、PopArt 等常见做法在不确定性下反而有害，提出一套实用的超参数建议。
+  [NeurIPS 2025][强化学习] 通过 82,620 次大规模实验系统性研究合作多智能体 RL 中的鲁棒性和弹性，揭示超参数调优比算法选择更重要，并发现参数共享、GAE、PopArt 等常见做法在不确定性下反而有害，提出一套实用的超参数建议。
 tags:
   - NeurIPS 2025
-  - multi-agent RL
+  - 强化学习
   - robustness
   - resilience
   - hyperparameter tuning
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.11824](https://arxiv.org/abs/2510.11824)  
 **代码**: [github.com/BUAA-TrustworthyMARL/adv_marl_benchmark](https://github.com/BUAA-TrustworthyMARL/adv_marl_benchmark)  
-**领域**: reinforcement_learning / 多智能体  
+**领域**: 强化学习  
 **关键词**: multi-agent RL, robustness, resilience, hyperparameter tuning, cooperative MARL
 
 ## 一句话总结
@@ -144,8 +144,8 @@ tags:
 
 - [\[NeurIPS 2025\] Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning](mean-field_sampling_for_cooperative_multi-agent_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Extending NGU to Multi-Agent RL: A Preliminary Study](extending_ngu_to_multi-agent_rl_a_preliminary_study.md)
-- [\[ICML 2025\] Enhancing Cooperative Multi-Agent Reinforcement Learning with State Modelling and Adversarial Exploration](../../ICML2025/reinforcement_learning/enhancing_cooperative_multi-agent_reinforcement_learning_with_state_modelling_an.md)
 - [\[NeurIPS 2025\] Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning](improving_retrieval-augmented_generation_through_multi-agent_reinforcement_learn.md)
-- [\[ACL 2026\] Scaling Behaviors of LLM Reinforcement Learning Post-Training: An Empirical Study](../../ACL2026/reinforcement_learning/scaling_behaviors_of_llm_reinforcement_learning_post-training_an_empirical_study.md)
+- [\[NeurIPS 2025\] Multi-Agent Collaboration via Evolving Orchestration](multi-agent_collaboration_via_evolving_orchestration.md)
+- [\[ICML 2025\] Enhancing Cooperative Multi-Agent Reinforcement Learning with State Modelling and Adversarial Exploration](../../ICML2025/reinforcement_learning/enhancing_cooperative_multi-agent_reinforcement_learning_with_state_modelling_an.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.16325](https://arxiv.org/abs/2408.16325)  
-**代码**: [项目页](https://p2p-bridge.github.io) (有)  
+**代码**: [项目页](https://p2p-bridge.github.io)  
 **领域**: 3D视觉  
 **关键词**: 点云去噪, Schrödinger Bridge, 扩散模型, 最优传输, DINOv2  
 

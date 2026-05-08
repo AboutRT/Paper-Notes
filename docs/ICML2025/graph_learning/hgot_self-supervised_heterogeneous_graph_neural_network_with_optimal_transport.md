@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2506.02619](https://arxiv.org/abs/2506.02619)  
 **作者**: Yanbei Liu, Chongxu Wang, Zhitao Xiao, Lei Geng, Yanwei Pang, Xiao Wang
 **代码**: 待确认  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: 异质图神经网络, 自监督学习, 最优传输, 元路径, Gromov-Wasserstein
 
 ## 一句话总结
@@ -160,7 +160,7 @@ $$\mathcal{D}_g(\mathcal{G}_p, \mathcal{G}_{\text{agg}}) = \min_{\pi} \;\sigma \
 - [\[NeurIPS 2025\] Self-Supervised Discovery of Neural Circuits in Spatially Patterned Neural Responses with Graph Neural Networks](../../NeurIPS2025/graph_learning/self-supervised_discovery_of_neural_circuits_in_spatially_patterned_neural_respo.md)
 - [\[AAAI 2026\] GCL-OT: Graph Contrastive Learning with Optimal Transport for Heterophilic Text-Attributed Graphs](../../AAAI2026/graph_learning/gcl-ot_graph_contrastive_learning_with_optimal_transport_for_heterophilic_text-a.md)
 - [\[AAAI 2026\] On Stealing Graph Neural Network Models](../../AAAI2026/graph_learning/on_stealing_graph_neural_network_models.md)
+- [\[NeurIPS 2025\] SSTAG: Structure-Aware Self-Supervised Learning Method for Text-Attributed Graphs](../../NeurIPS2025/graph_learning/sstag_structure-aware_self-supervised_learning_method_for_text-attributed_graphs.md)
 - [\[ECCV 2024\] SENC: Handling Self-collision in Neural Cloth Simulation](../../ECCV2024/graph_learning/senc_handling_self-collision_in_neural_cloth_simulation.md)
-- [\[ICML 2025\] Beyond Message Passing: Neural Graph Pattern Machine](beyond_message_passing_neural_graph_pattern_machine.md)
 
 <!-- RELATED:END -->

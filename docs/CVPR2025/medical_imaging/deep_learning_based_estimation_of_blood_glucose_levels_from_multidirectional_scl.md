@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12715](https://arxiv.org/abs/2603.12715)  
 **代码**: 未开源  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 无创血糖估计, 巩膜血管成像, 多视图学习, Transformer 融合, MRFO 特征优化
 
 ## 一句话总结

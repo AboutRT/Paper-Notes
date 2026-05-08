@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.11544](https://arxiv.org/abs/2503.11544)  
-**代码**: https://parsa-ra.github.io/auggen/ (项目页面)  
+**代码**: [https://parsa-ra.github.io/auggen/](https://parsa-ra.github.io/auggen/) (项目页面)  
 **领域**: 图像生成 / 合成数据增强  
 **关键词**: 合成数据增强, 类条件扩散模型, 人脸识别, 类别混合, 自包含框架
 

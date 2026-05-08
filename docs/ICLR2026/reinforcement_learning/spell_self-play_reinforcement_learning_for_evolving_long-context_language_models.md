@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2509.23863](https://arxiv.org/abs/2509.23863)
 - **代码**: [https://github.com/Tongyi-Zhiwen/Qwen-Doc](https://github.com/Tongyi-Zhiwen/Qwen-Doc)
-- **领域**: reinforcement_learning
+- **领域**: 强化学习
 - **关键词**: self-play RL, long-context reasoning, GRPO, LLM, verifiable rewards, curriculum learning
 
 ## 一句话总结

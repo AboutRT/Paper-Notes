@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2510.08836](https://arxiv.org/abs/2510.08836)  
 **代码**: [github.com/fudong03/BNS_IPDPP](https://github.com/fudong03/BNS_IPDPP)  
 **作者**: Fudong Lin, Xu Yuan (University of Delaware)
-**领域**: self_supervised  
+**领域**: 自监督  
 **关键词**: 长尾识别, 对比学习, 信息论, 行列式点过程, 两阶段学习, 表征学习
 
 ## 一句话总结
@@ -152,8 +152,8 @@ $$\mathcal{L}_{BNS} = -\frac{1}{m+1}\left[\sum_{q_* \in \{q_i\} \cup \boldsymbol
 
 - [\[AAAI 2026\] BCE3S: Binary Cross-Entropy Based Tripartite Synergistic Learning for Long-tailed Recognition](../../AAAI2026/self_supervised/bce3s_binary_cross-entropy_based_tripartite_synergistic_learning_for_long-tailed.md)
 - [\[NeurIPS 2025\] Know Thyself by Knowing Others: Learning Neuron Identity from Population Context](know_thyself_by_knowing_others_learning_neuron_identity_from_population_context.md)
-- [\[ICLR 2026\] Maximizing Incremental Information Entropy for Contrastive Learning](../../ICLR2026/self_supervised/maximizing_incremental_information_entropy_for_contrastive_learning.md)
 - [\[NeurIPS 2025\] SEAL: Semantic-Aware Hierarchical Learning for Generalized Category Discovery](seal_semantic-aware_hierarchical_learning_for_generalized_category_discovery.md)
+- [\[ICLR 2026\] Maximizing Incremental Information Entropy for Contrastive Learning](../../ICLR2026/self_supervised/maximizing_incremental_information_entropy_for_contrastive_learning.md)
 - [\[NeurIPS 2025\] STaRFormer: Semi-Supervised Task-Informed Representation Learning via Dynamic Attention-Based Regional Masking](starformer_semi-supervised_task-informed_representation_learning_via_dynamic_att.md)
 
 <!-- RELATED:END -->

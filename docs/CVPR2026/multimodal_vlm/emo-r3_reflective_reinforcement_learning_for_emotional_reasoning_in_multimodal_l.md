@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 多模态
-  - 情感推理
+  - 多模态VLM
   - GRPO
   - 结构化思维
   - 反思奖励

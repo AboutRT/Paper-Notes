@@ -14,7 +14,7 @@ tags:
 - **会议**: ICCV 2025
 - **arXiv**: 2503.19404
 - **代码**: [项目主页](https://curryx-001.github.io/LangBridge.github.io/)
-- **领域**: 多模态视觉语言模型 (Multimodal VLM)
+- **领域**: 信息检索
 - **关键词**: 视觉语言对齐, 适配器迁移, 词汇嵌入投影, MLP分析, 跨模型复用
 
 ## 一句话总结

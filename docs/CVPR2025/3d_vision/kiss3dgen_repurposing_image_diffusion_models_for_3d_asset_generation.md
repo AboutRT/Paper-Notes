@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.01370](https://arxiv.org/abs/2503.01370)  
 **代码**: [项目页](https://ltt-o.github.io/Kiss3dgen.github.io)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D generation, 3D Bundle Image, Flux, LoRA, ControlNet, text-to-3D, mesh enhancement
 
 ## 一句话总结

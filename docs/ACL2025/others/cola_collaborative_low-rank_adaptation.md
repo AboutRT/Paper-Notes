@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CoLA: Collaborative Low-Rank Adaptation
 description: >-
-  [ACL 2025][LoRA] 提出 CoLA，一种灵活的 LoRA 架构，打破矩阵 A 和 B 之间的固定数量约束（#A=M, #B=N），并设计三种协作策略（全协作/随机协作/启发式协作），结合扩展的 PiSSA 初始化，在低样本场景下显著优于现有 PEFT 方法。
+  [ACL 2025][其他] 提出 CoLA，一种灵活的 LoRA 架构，打破矩阵 A 和 B 之间的固定数量约束（#A=M, #B=N），并设计三种协作策略（全协作/随机协作/启发式协作），结合扩展的 PiSSA 初始化，在低样本场景下显著优于现有 PEFT 方法。
 tags:
   - ACL 2025
-  - LoRA
+  - 其他
   - parameter-efficient fine-tuning
   - Low-Rank Adaptation
   - Multi-Task Learning
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.15471](https://arxiv.org/abs/2505.15471)  
-**代码**: https://github.com/zyy-2001/CoLA (有)  
+**代码**: [https://github.com/zyy-2001/CoLA](https://github.com/zyy-2001/CoLA)  
 **领域**: Others (参数高效微调)  
 **关键词**: LoRA, parameter-efficient fine-tuning, Low-Rank Adaptation, Multi-Task Learning, LLM Fine-Tuning
 
@@ -135,8 +135,8 @@ CoLA 和 CoLA⊺ 在所有领域均显著优于基线（p<0.01）。
 
 - [\[ACL 2025\] Low-Rank Interconnected Adaptation across Layers](low-rank_interconnected_adaptation_across_layers.md)
 - [\[ACL 2025\] Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients](federated_lora_heterogeneous.md)
-- [\[ACL 2025\] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning](more_a_mixture_of_low-rank_experts_for_adaptive_multi-task_learning.md)
 - [\[ACL 2025\] Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling](understanding_cross-domain_adaptation_in_low-resource_topic_modeling.md)
+- [\[ACL 2025\] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning](more_a_mixture_of_low-rank_experts_for_adaptive_multi-task_learning.md)
 - [\[ACL 2025\] Adaptive Feature-based Low Rank Plus Sparse Decomposition for Subspace Clustering](adaptive_feature-based_low_rank_plus_sparse_decomposition_for_subspace_clusterin.md)
 
 <!-- RELATED:END -->

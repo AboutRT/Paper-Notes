@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.11755](https://arxiv.org/abs/2412.11755)  
-**代码**: https://fcvg-inbetween.github.io/ (有)  
-**领域**: 视频理解  
+**代码**: [https://fcvg-inbetween.github.io/](https://fcvg-inbetween.github.io/)  
+**领域**: 视频生成  
 **关键词**: 视频插帧, 生成式中间帧, 扩散模型, 帧级条件控制, 时序稳定性
 
 ## 一句话总结

@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - 多模态奖励模型
-  - RLHF
+  - 多模态VLM
   - 偏好对齐
   - PPO
   - 测试时缩放
@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2501.12368](https://arxiv.org/abs/2501.12368)  
 **作者**: Yuhang Zang, Xiaoyi Dong, Pan Zhang, Yuhang Cao 等 (上海AI实验室, 港中文等)
 **代码**: [GitHub](https://github.com/InternLM/InternLM-XComposer)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 多模态奖励模型, RLHF, 偏好对齐, PPO, 测试时缩放, 数据清洗
 
 ## 一句话总结
@@ -164,8 +164,8 @@ BoN采样在PPO基础上进一步提升性能，且平均token长度仅从274增
 
 - [\[NeurIPS 2025\] A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](../../NeurIPS2025/multimodal_vlm/a_frustratingly_simple_yet_highly_effective_attack_baseline.md)
 - [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](../../ICCV2025/multimodal_vlm/controlling_multimodal_llms_via_rewardguided_decoding.md)
-- [\[ACL 2025\] VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism](vrest_tree_search_vlm_reasoning.md)
 - [\[ACL 2025\] Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents](agent_rewardbench.md)
+- [\[ACL 2025\] VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism](vrest_tree_search_vlm_reasoning.md)
 - [\[ICML 2025\] The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models](../../ICML2025/multimodal_vlm/the_devil_is_in_the_details_tackling_unimodal_spurious_correlations_for_generali.md)
 
 <!-- RELATED:END -->

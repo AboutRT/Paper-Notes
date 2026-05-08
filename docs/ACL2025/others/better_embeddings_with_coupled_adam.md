@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 词嵌入各向异性
-  - Adam优化器
+  - 其他
   - Coupled Adam
   - 表示退化
   - LLM训练
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.08441](https://arxiv.org/abs/2502.08441)  
 **代码**: 无  
-**领域**: LLM效率 / 优化器  
+**领域**: 其他  
 **关键词**: 词嵌入各向异性, Adam优化器, Coupled Adam, 表示退化, LLM训练
 
 ## 一句话总结
@@ -122,10 +122,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Towards Better Evaluation for Generated Patent Claims](patclaimeval_patent_evaluation.md)
 - [\[ACL 2025\] Hierarchical Attention Generates Better Proofs](hierarchical_attention_generates_better_proofs.md)
-- [\[ACL 2025\] Partial Colexifications Improve Concept Embeddings](partial_colexifications_improve_concept_embeddings.md)
+- [\[ACL 2025\] Towards Better Evaluation for Generated Patent Claims](patclaimeval_patent_evaluation.md)
 - [\[ACL 2025\] Byte Latent Transformer: Patches Scale Better Than Tokens](byte_latent_transformer.md)
 - [\[ACL 2025\] The Knowledge Microscope: Features as Better Analytical Lenses than Neurons](the_knowledge_microscope_features_as_better_analytical_lenses_than_neurons.md)
+- [\[ACL 2025\] ALGEN: Few-Shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment](algen_few-shot_inversion_attacks_on_textual_embeddings_via_cross-model_alignment.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2508.09515](https://arxiv.org/abs/2508.09515)  
 **代码**: [https://nlp.kiv.zcu.cz](https://nlp.kiv.zcu.cz)  
-**领域**: NLP 理解  
+**领域**: 多语言翻译  
 **关键词**: Cross-lingual ABSA, LLM Data Augmentation, Pseudo-labelled Data, Multilingual Sentiment, Zero-shot Transfer  
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 图像恢复
-  - 低光照姿态估计
+  - 图像复原
   - 域适应
   - 稳定扩散
   - 注意力控制
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.10485](https://arxiv.org/abs/2604.10485)  
 **代码**: VMIL/UDAPose  
-**领域**: 人体姿态估计  
+**领域**: 图像复原  
 **关键词**: 低光照姿态估计, 域适应, 稳定扩散, 注意力控制, 高频注入
 
 ## 一句话总结
@@ -123,10 +123,10 @@ LCIM使用MSE+频域损失训练：$\mathcal{L}_\mathcal{D} = \mathcal{L}_{MSE}(
 
 ## 相关论文
 
-- [\[ICCV 2025\] Low-Light Image Enhancement using Event-Based Illumination Estimation (RetinEV)](../../ICCV2025/image_restoration/low-light_image_enhancement_using_event-based_illumination_estimation.md)
 - [\[CVPR 2026\] BluRef: Unsupervised Image Deblurring with Dense-Matching References](bluref_unsupervised_image_deblurring_with_dense-matching_references.md)
+- [\[ICCV 2025\] Low-Light Image Enhancement using Event-Based Illumination Estimation (RetinEV)](../../ICCV2025/image_restoration/low-light_image_enhancement_using_event-based_illumination_estimation.md)
+- [\[CVPR 2025\] Efficient Diffusion as Low Light Enhancer (ReDDiT)](../../CVPR2025/image_restoration/efficient_diffusion_as_low_light_enhancer.md)
 - [\[CVPR 2026\] RAW-Domain Degradation Models for Realistic Smartphone Super-Resolution](raw-domain_degradation_models_for_realistic_smartphone_super-resolution.md)
 - [\[CVPR 2026\] IA-CLAHE: Image-Adaptive Clip Limit Estimation for CLAHE](ia_clahe_image_adaptive_clip_limit.md)
-- [\[CVPR 2025\] DarkIR: Robust Low-Light Image Restoration](../../CVPR2025/image_restoration/darkir_robust_low-light_image_restoration.md)
 
 <!-- RELATED:END -->

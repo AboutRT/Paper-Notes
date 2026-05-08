@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.14329](https://arxiv.org/abs/2503.14329)  
-**代码**: https://evolvinggrasp.github.io/ (有)  
-**领域**: Robotics / Dexterous Grasping  
+**代码**: [https://evolvinggrasp.github.io/](https://evolvinggrasp.github.io/)  
+**领域**: 机器人  
 **关键词**: 灵巧抓取, 偏好对齐, 一致性模型, 扩散模型, 物理约束
 
 ## 一句话总结
@@ -145,9 +145,9 @@ EvolvingGrasp 由两个核心模块组成：
 ## 相关论文
 
 - [\[ICCV 2025\] DexVLG: Dexterous Vision-Language-Grasp Model at Scale](dexvlg_dexterous_vision-language-grasp_model_at_scale.md)
-- [\[ECCV 2024\] SemGrasp: Semantic Grasp Generation via Language Aligned Discretization](../../ECCV2024/robotics/semgrasp_semantic_grasp_generation_via_language_aligned_discretization.md)
+- [\[ECCV 2024\] SemGrasp: Semantic Grasp Generation via Language Aligned Discretization](../../ECCV2024/robotics/semgrasp_semantic_grasp_generation_via_language_aligned.md)
 - [\[ICCV 2025\] Embodied Representation Alignment with Mirror Neurons](embodied_representation_alignment_with_mirror_neurons.md)
+- [\[ECCV 2024\] Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation](../../ECCV2024/robotics/decomposed_vector-quantized_variational_autoencoder_for_human_grasp_generation.md)
 - [\[ICCV 2025\] PacGDC: Label-Efficient Generalizable Depth Completion with Projection Ambiguity and Consistency](pacgdc_label-efficient_generalizable_depth_completion_with_projection_ambiguity_.md)
-- [\[ACL 2025\] Rolling the DICE on Idiomaticity: How LLMs Fail to Grasp Context](../../ACL2025/robotics/dice_idiomaticity.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.24561](https://arxiv.org/abs/2505.24561)  
 **代码**: 无  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: character-level, multilingual translation, speech translation, SONAR, cross-modal transfer
 
 ## 一句话总结

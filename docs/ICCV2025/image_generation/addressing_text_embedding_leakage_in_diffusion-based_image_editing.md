@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
 **代码**: [https://mtablo.github.io/ALE_Edit_page/](https://mtablo.github.io/ALE_Edit_page/)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 图像编辑, 属性泄露, 扩散模型, 文本嵌入, 交叉注意力
 
 ## 一句话总结

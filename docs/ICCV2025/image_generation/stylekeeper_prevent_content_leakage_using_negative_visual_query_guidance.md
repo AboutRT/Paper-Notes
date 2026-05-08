@@ -20,7 +20,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2510.06827](https://arxiv.org/abs/2510.06827)  
 **代码**: [GitHub](https://github.com/) (作者已公开)  
-**领域**: image_generation / style_transfer  
+**领域**: 图像生成  
 **关键词**: 视觉风格提示, 内容泄漏, Classifier-Free Guidance, 自注意力特征交换, 负视觉查询引导, 无训练风格迁移, 扩散模型
 
 ## 一句话总结

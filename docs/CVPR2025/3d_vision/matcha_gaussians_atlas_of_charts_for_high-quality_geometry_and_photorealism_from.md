@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.06767](https://arxiv.org/abs/2412.06767)  
-**代码**: https://anttwo.github.io/matcha/  
+**代码**: [https://anttwo.github.io/matcha/](https://anttwo.github.io/matcha/)  
 **领域**: 三维重建 / 新视角合成  
 **关键词**: 稀疏视图重建, 3D Gaussian Splatting, 表面重建, 单目深度先验, 流形表示
 

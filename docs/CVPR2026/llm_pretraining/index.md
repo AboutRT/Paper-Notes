@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2026 预训练方向9篇论文解读
+  CVPR2026 预训练方向10篇论文解读
 description: >-
-  9篇CVPR2026的预训练方向论文解读，收录 Defending Unauthorized Model M、Evidential Transformation Network、FlowMotion等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  10篇CVPR2026的预训练方向论文解读，收录 Defending Unauthorized Model M、Evidential Transformation Network、FlowMotion等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练
 
-**📷 CVPR2026** · **9** 篇论文解读
+**📷 CVPR2026** · **10** 篇论文解读
 
 **[Defending Unauthorized Model Merging via Dual-Stage Weight Protection](defending_unauthorized_model_merging_via_dual-stage_weight_protection.md)**
 
@@ -29,6 +29,10 @@ description: >-
 **[LottieGPT: Tokenizing Vector Animation for Autoregressive Generation](lottiegpt_vector_animation_generation.md)**
 
 :   提出首个矢量动画自回归生成框架 LottieGPT，设计了 Lottie 分词器将层级几何体、变换和关键帧运动编码为紧凑 token 序列，构建 660K 动画数据集，基于 Qwen-VL 微调实现从文本/图像直接生成可编辑矢量动画。
+
+**[Model Merging in the Essential Subspace](model_merging_in_the_essential_subspace.md)**
+
+:   提出 ESM 框架，通过对参数更新引起的激活偏移做 PCA 构建"本质子空间"（而非直接对参数做 SVD），并用三级极化缩放增强关键参数、抑制噪声，在 ViT-B/32 的 20 任务合并中比 Iso-CTS 提升 3.2%（绝对准确率）。
 
 **[MXNorm: Reusing MXFP block scales for efficient tensor normalisation](mxnorm_reusing_mxfp_block_scales_for_efficient_ten.md)**
 

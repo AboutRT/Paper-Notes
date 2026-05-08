@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.14588](https://arxiv.org/abs/2504.14588)  
-**代码**: https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework (有)  
+**代码**: [https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework](https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework)  
 **领域**: 机器人操作  
 **关键词**: 自纠错, 运动指令, 扩散策略, 终身学习, MLLM
 
@@ -140,6 +140,6 @@ RoboMimic 9 个任务的平均成功率：
 - [\[CVPR 2025\] LaDA: Language-Grounded Decoupled Action Representation for Robotic Manipulation](language-grounded_decoupled_action_representation_for_robotic_manipulation.md)
 - [\[NeurIPS 2025\] DexFlyWheel: A Scalable Self-Improving Data Generation Framework for Dexterous Manipulation](../../NeurIPS2025/robotics/dexflywheel_a_scalable_and_self-improving_data_generation_framework_for_dexterou.md)
 - [\[NeurIPS 2025\] FALCON: Fine-grained Activation Manipulation by Contrastive Orthogonal Unalignment for Large Language Model](../../NeurIPS2025/robotics/falcon_fine-grained_activation_manipulation_by_contrastive_orthogonal_unalignmen.md)
-- [\[CVPR 2025\] Robotic Visual Instruction](robotic_visual_instruction.md)
+- [\[AAAI 2026\] H-GAR: A Hierarchical Interaction Framework via Goal-Driven Observation-Action Refinement for Robotic Manipulation](../../AAAI2026/robotics/h-gar_a_hierarchical_interaction_framework_via_goal-driven_observation-action_re.md)
 
 <!-- RELATED:END -->

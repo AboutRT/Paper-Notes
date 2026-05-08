@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.01235](https://arxiv.org/abs/2501.01235)  
-**代码**: https://github.com/wangzhiyaoo/SVFR  
+**代码**: [https://github.com/wangzhiyaoo/SVFR](https://github.com/wangzhiyaoo/SVFR)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 视频人脸修复, 多任务学习, 扩散模型, 时序一致性, 统一框架
 

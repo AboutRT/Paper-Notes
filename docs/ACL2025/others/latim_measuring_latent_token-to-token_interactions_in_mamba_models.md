@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 状态空间模型
   - Mamba
-  - 可解释性
+  - 其他
   - token交互分解
   - 注意力归因
 ---
@@ -148,6 +148,6 @@ LaTIM 的核心思想是：将 Mamba 的前向计算重新排列，使得输出 
 - [\[ACL 2025\] Cautious Next Token Prediction](cautious_next_token_prediction.md)
 - [\[ACL 2025\] MEXMA: Token-level Objectives Improve Sentence Representations](mexma_token-level_objectives_improve_sentence_representations.md)
 - [\[ACL 2025\] Using Shapley Interactions to Understand How Models Use Structure](using_shapley_interactions_to_understand_how_models_use_structure.md)
-- [\[ACL 2025\] Retrospective Learning from Interactions](retrospective_learning_from_interactions.md)
+- [\[NeurIPS 2025\] Frequency-Aware Token Reduction for Efficient Vision Transformer](../../NeurIPS2025/others/frequency-aware_token_reduction_for_efficient_vision_transformer.md)
 
 <!-- RELATED:END -->

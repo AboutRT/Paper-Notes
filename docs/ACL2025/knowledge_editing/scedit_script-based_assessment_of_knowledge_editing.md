@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.23291](https://arxiv.org/abs/2505.23291)  
-**代码**: 有 (https://github.com/asdfo123/ScEdit)  
+**代码**: 有 ([https://github.com/asdfo123/ScEdit](https://github.com/asdfo123/ScEdit))  
 **领域**: NLP / 知识编辑评估  
 **关键词**: 知识编辑, 脚本生成, 评估基准, 程序性推理, 文本级评估
 

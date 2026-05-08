@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2406.19976](https://arxiv.org/abs/2406.19976)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: 优化  
 **关键词**: bilevel optimization, data reweighting, LLM training, scalability, first-order method
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17763](https://arxiv.org/abs/2411.17763)  
-**代码**: https://ryanxli.github.io/reflect3d  
+**代码**: [https://ryanxli.github.io/reflect3d](https://ryanxli.github.io/reflect3d)  
 **领域**: 3D视觉  
 **关键词**: 对称性检测, 单图3D生成, 零样本泛化, 多视图扩散, DINOv2
 

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 性别偏见
-  - 德语LLM
+  - 社会计算
   - 偏见基准
   - 问答系统
   - 公平性评估
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.16410](https://arxiv.org/abs/2507.16410)  
-**代码**: [github.com/shalakasatheesh/GG-BBQ](https://github.com/shalakasatheesh/GG-BBQ) (有)  
-**领域**: NLP理解  
+**代码**: [github.com/shalakasatheesh/GG-BBQ](https://github.com/shalakasatheesh/GG-BBQ)  
+**领域**: 社会计算  
 **关键词**: 性别偏见, 德语LLM, 偏见基准, 问答系统, 公平性评估  
 
 ## 一句话总结
@@ -148,6 +148,6 @@ $$\text{diff-bias}_{\text{disamb}} = \frac{n_{bb}}{n_b} - \frac{n_{cc}}{n_c}$$
 - [\[ACL 2025\] Exploring Gender Bias in Large Language Models: An In-depth Dive into the German Language](exploring_gender_bias_in_large_language_models_an_in-depth_dive_into_the_german_.md)
 - [\[ACL 2025\] Translate With Care: Addressing Gender Bias, Neutrality, and Reasoning in Large Language Model Translations](translate_with_care_addressing_gender_bias_neutrality_and_reasoning_in_large_lan.md)
 - [\[ECCV 2024\] GRACE: Graph-Based Contextual Debiasing for Fair Visual Question Answering](../../ECCV2024/social_computing/grace_graph-based_contextual_debiasing_for_fair_visual_question_answering.md)
-- [\[NeurIPS 2025\] Auto-Search and Refinement: An Automated Framework for Gender Bias Mitigation in LLMs](../../NeurIPS2025/social_computing/auto-search_and_refinement_an_automated_framework_for_gender_bias_mitigation_in_.md)
+- [\[ACL 2025\] Exploring Multimodal Challenges in Toxic Chinese Detection: Taxonomy, Benchmark, and Findings](exploring_multimodal_challenges_in_toxic_chinese_detection_taxonomy_benchmark_an.md)
 
 <!-- RELATED:END -->

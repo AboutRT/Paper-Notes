@@ -19,7 +19,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2502.11404](https://arxiv.org/abs/2502.11404)  
 **代码**: [GitHub](https://github.com/dhx-2020/ToolCoder)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: tool learning, code generation, LLM agent, software engineering, error reflection
 
 ## 一句话总结

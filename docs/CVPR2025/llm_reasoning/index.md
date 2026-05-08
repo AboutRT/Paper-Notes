@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 LLM推理方向9篇论文解读
+  CVPR2025 LLM 推理方向8篇论文解读
 description: >-
-  9篇CVPR2025的 LLM 推理方向论文解读，涵盖推理、少样本学习、多模态、目标检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  8篇CVPR2025的 LLM 推理方向论文解读，涵盖推理、少样本学习、多模态、目标检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 💡 LLM推理
+# 💡 LLM 推理
 
-**📷 CVPR2025** · **9** 篇论文解读
+**📷 CVPR2025** · **8** 篇论文解读
 
 **[Argus: Vision-Centric Reasoning with Grounded Chain-of-Thought](argus_vision-centric_reasoning_with_grounded_chain-of-thought.md)**
 
@@ -21,10 +21,6 @@ description: >-
 **[Interleaved-Modal Chain-of-Thought](interleaved-modal_chain-of-thought.md)**
 
 :   提出交错模态思维链（ICoT），在推理步骤中穿插图像区域 crop 作为视觉 rationale，通过无参数的 Attention-driven Selection（ADS）从输入图像中智能选取关键区域插入生成序列，在 Chameleon 和 Qwen2-VL 上相比现有多模态 CoT 提升高达 14%。
-
-**[Learning-enabled Polynomial Lyapunov Function Synthesis via High-Accuracy Counterexample-Guided Framework](learning-enabled_polynomial_lyapunov_function_synthesis_via_high-accuracy_counte.md)**
-
-:   提出一种学习与验证结合的多项式 Lyapunov 函数合成方法，通过数据驱动的机器学习引导多项式形式选择，并利用高精度反例引导框架迭代优化，在灵活性和数学严格性之间取得平衡。
 
 **[Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval](osrcir_reflective_cot.md)**
 

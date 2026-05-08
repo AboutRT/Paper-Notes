@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.17994](https://arxiv.org/abs/2411.17994)  
 **代码**: 无  
-**领域**: 其他  
+**领域**: 可解释性  
 **关键词**: inverse rendering, BRDF, differentiable rendering, material estimation, physically-based
 
 ## 一句话总结

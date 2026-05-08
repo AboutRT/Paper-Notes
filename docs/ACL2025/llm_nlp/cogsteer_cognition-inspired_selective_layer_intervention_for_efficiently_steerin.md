@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.17714](https://arxiv.org/abs/2410.17714)  
-**代码**: https://github.com/Ethanscuter/CogSteer (有)  
+**代码**: [https://github.com/Ethanscuter/CogSteer](https://github.com/Ethanscuter/CogSteer)  
 **领域**: LLM NLP  
 **关键词**: 层选择干预, 眼动追踪, 参数高效微调, 语义引导, 去毒化
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18223](https://arxiv.org/abs/2503.18223)  
-**代码**: https://github.com/eceo-epfl/MammAlps  
-**领域**: 视频理解 / 动物行为识别 / 数据集  
+**代码**: [https://github.com/eceo-epfl/MammAlps](https://github.com/eceo-epfl/MammAlps)  
+**领域**: 图像分割  
 **关键词**: 相机陷阱, 野生动物监测, 多视角视频, 层级行为识别, 多模态
 
 ## 一句话总结

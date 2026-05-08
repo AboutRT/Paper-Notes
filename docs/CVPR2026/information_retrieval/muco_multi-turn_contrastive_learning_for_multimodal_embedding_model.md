@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MuCo: Multi-turn Contrastive Learning for Multimodal Embedding Model
 description: >-
-  [CVPR 2026][多模态嵌入] MuCo 提出了一种基于多轮对话的对比学习框架，利用 MLLM 的对话能力在单次前向传播中同时处理多个关联的 query-target 对，大幅提升训练效率，并在 MMEB 和 M-BEIR 检索基准上取得 SOTA 性能。
+  [CVPR 2026][信息检索] MuCo 提出了一种基于多轮对话的对比学习框架，利用 MLLM 的对话能力在单次前向传播中同时处理多个关联的 query-target 对，大幅提升训练效率，并在 MMEB 和 M-BEIR 检索基准上取得 SOTA 性能。
 tags:
   - CVPR 2026
-  - 多模态嵌入
+  - 信息检索
   - 对比学习
   - 多轮对话
   - 检索
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.06393](https://arxiv.org/abs/2602.06393)  
-**代码**: https://github.com/naver-ai/muco (有)  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/naver-ai/muco](https://github.com/naver-ai/muco)  
+**领域**: 信息检索  
 **关键词**: 多模态嵌入, 对比学习, 多轮对话, 检索, 多模态大语言模型
 
 ## 一句话总结
@@ -126,9 +126,9 @@ MuCo 使用标准的 InfoNCE 对比损失，但其有效 batch size 被放大了
 ## 相关论文
 
 - [\[NeurIPS 2025\] Generalized Contrastive Learning for Universal Multimodal Retrieval](../../NeurIPS2025/information_retrieval/generalized_contrastive_learning_for_universal_multimodal_re.md)
-- [\[CVPR 2026\] M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG](m4-rag_a_massive-scale_multilingual_multi-cultural_multimodal_rag.md)
 - [\[CVPR 2026\] Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval](beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md)
+- [\[CVPR 2026\] M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG](m4-rag_a_massive-scale_multilingual_multi-cultural_multimodal_rag.md)
 - [\[ACL 2026\] FLARE: Task-Agnostic Embedding Model Evaluation via Normalizing Flows](../../ACL2026/information_retrieval/flare_task-agnostic_embedding_model_evaluation_through_a_normalization_process.md)
-- [\[ICLR 2026\] HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks](../../ICLR2026/information_retrieval/hume_measuring_the_human-model_performance_gap_in_text_embedding_tasks.md)
+- [\[AAAI 2026\] Positional Bias in Multimodal Embedding Models: Do They Favor the Beginning, the Middle, or the End?](../../AAAI2026/information_retrieval/positional_bias_in_multimodal_embedding_models_do_they_favor_the_beginning_the_m.md)
 
 <!-- RELATED:END -->

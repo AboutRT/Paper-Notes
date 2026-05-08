@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.16340](https://arxiv.org/abs/2603.16340)  
-**代码**: https://github.com/NUST-Machine-Intelligence-Laboratory/Iris  
+**代码**: [https://github.com/NUST-Machine-Intelligence-Laboratory/Iris](https://github.com/NUST-Machine-Intelligence-Laboratory/Iris)  
 **领域**: 3D视觉 / 单目深度估计  
 **关键词**: 单目深度估计, 扩散模型, 频谱门控蒸馏, 先验-几何框架, 确定性扩散
 

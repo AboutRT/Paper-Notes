@@ -11,7 +11,7 @@ tags:
 
 > **arXiv**: [2410.12458](https://arxiv.org/abs/2410.12458)
 > **会议**: ICML 2025
-> **领域**: LLM/NLP
+> **领域**: LLM评测
 > **作者**: Minghao Wu, Thuy-Trang Vu, Lizhen Qu, Gholamreza Haffari (Monash University)
 
 ## 一句话总结
@@ -145,10 +145,10 @@ GraphFilter 在**所有三个模型**上全面超越全部 9 种基线方法。
 
 ## 相关论文
 
+- [\[ICML 2025\] DataDecide: How to Predict Best Pretraining Data with Small Experiments](datadecide_how_to_predict_best_pretraining_data_with_small_experiments.md)
 - [\[ICLR 2026\] Soft Quality-Diversity Optimization](../../ICLR2026/llm_evaluation/soft_quality-diversity_optimization.md)
-- [\[ICML 2025\] Hyperband-based Bayesian Optimization for Black-box Prompt Selection](hyperband-based_bayesian_optimization_for_black-box_prompt_selection.md)
+- [\[ICML 2025\] Sample Efficient Demonstration Selection for In-Context Learning](sample_efficient_demonstration_selection_for_in-context_learning.md)
+- [\[ICLR 2026\] Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces](../../ICLR2026/llm_evaluation/discount_model_search_for_quality_diversity_optimization_in_high-dimensional_mea.md)
 - [\[ICML 2025\] IBDR: Promoting Ensemble Diversity with Interactive Bayesian Distributional Robustness](promoting_ensemble_diversity_with_interactive_bayesian_distributional_robustness.md)
-- [\[ICML 2025\] Unlocking Post-hoc Dataset Inference with Synthetic Data](unlocking_post-hoc_dataset_inference_with_synthetic_data.md)
-- [\[ICML 2025\] How Much Can We Forget about Data Contamination?](how_much_can_we_forget_about_data_contamination.md)
 
 <!-- RELATED:END -->

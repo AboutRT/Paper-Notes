@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 优化/理论方向55篇论文解读
+  ICML2025 优化/理论方向58篇论文解读
 description: >-
-  55篇ICML2025的优化/理论方向论文解读，涵盖联邦学习、布局/合成、对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  58篇ICML2025的优化/理论方向论文解读，涵盖联邦学习、布局/合成、对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧪 ICML2025** · **55** 篇论文解读
+**🧪 ICML2025** · **58** 篇论文解读
 
 **[A Generalization Result for Convergence in Learning-to-Optimize](a_generalization_result_for_convergence_in_learning-to-optimize.md)**
 
@@ -66,6 +66,10 @@ description: >-
 
 :   本文证明 grokking（延迟泛化）现象并非神经网络或梯度下降特有，而是源于**任务相关特征的逐步学习**——利用非神经网络的 Recursive Feature Machines (RFM) 在核机器上复现了模算术的 grokking，揭示分块循环（block-circulant）特征矩阵是泛化的核心。
 
+**[Enhancing Parallelism in Decentralized Stochastic Convex Optimization](enhancing_parallelism_in_decentralized_stochastic_convex_optimization.md)**
+
+:   提出 Decentralized Anytime SGD (DAT-SGD)，通过在渐变平均查询点上计算梯度来缓解共识距离偏差，将去中心化随机凸优化的并行度上界从 $\mathcal{O}(\rho^{1/2} N^{1/4})$ 提升至 $\mathcal{O}(\rho \sqrt{N})$，在高连通拓扑下首次匹配中心化学习的速率。
+
 **[FedSWA: Improving Generalization in Federated Learning with Highly Heterogeneous Data via Momentum-Based Stochastic Controlled Weight Averaging](fedswa_improving_generalization_in_federated_learning_with_highly_heterogeneous_.md)**
 
 :   针对高数据异质性下 FedSAM 泛化失败的问题，提出 FedSWA（周期学习率 + EMA 聚合）和 FedMoSWA（动量方差缩减控制变量），在理论和实验上均证明优于 FedSAM 及其变体，在 CIFAR-100 Dirichlet-0.1 上比 FedSAM 高出 21.8% 准确率。
@@ -85,6 +89,10 @@ description: >-
 **[Generalization and Robustness of the Tilted Empirical Risk](generalization_and_robustness_of_the_tilted_empirical_risk.md)**
 
 :   本文为负倾斜参数(γ<0)下的 Tilted Empirical Risk (TER) 提供了系统性的泛化误差上下界和鲁棒性保证，在损失函数无界但具有有界 (1+ε) 阶矩条件下，通过均匀方法和信息论方法建立了 $O(n^{-\epsilon/(1+\epsilon)})$ 的收敛速率，并给出了数据驱动的倾斜参数选择方案。
+
+**[Generalization in Federated Learning: A Conditional Mutual Information Framework](generalization_in_federated_learning_a_conditional_mutual_information_framework.md)**
+
+:   首次将条件互信息（CMI）框架引入联邦学习的两层泛化分析，通过构造"超级客户端"和"超级样本"，推导出有界的 CMI 泛化界，证明隐私约束蕴含泛化保证，并给出在低经验风险区间恢复最优收敛率的快速率界。
 
 **[Global Convergence and Rich Feature Learning in $L$-Layer Infinite-Width Neural Networks under $\mu$P Parametrization](global_convergence_and_rich_feature_learning_in_l-layer_infinite-width_neural_ne.md)**
 
@@ -177,6 +185,10 @@ description: >-
 **[Revisiting Unbiased Implicit Variational Inference](revisiting_unbiased_implicit_variational_inference.md)**
 
 :   重新审视被认为"不实用"的无偏隐式变分推断（UIVI），用重要性采样替代其内部 MCMC 循环，并通过最小化期望前向 KL 散度无偏地学习最优提议分布，在标准 SIVI 基准上达到或超越 SOTA。
+
+**[Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)**
+
+:   提出 Sassha 优化器，将 sharpness-aware minimization（SAM）引入二阶优化框架，通过稳定 Hessian 近似和 lazy 更新策略，使二阶方法首次在泛化性能上全面超越 SGD、AdamW 和 SAM 等一阶方法。
 
 **[SDP-CROWN: Efficient Bound Propagation for Neural Network Verification with Tightness of Semidefinite Programming](sdp-crown_efficient_bound_propagation_for_neural_network_verification_with_tight.md)**
 

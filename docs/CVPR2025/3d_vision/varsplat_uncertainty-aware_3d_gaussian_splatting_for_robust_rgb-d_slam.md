@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.09673](https://arxiv.org/abs/2603.09673)  
-**代码**: https://anhthuan1999.github.io/varsplat/  
+**代码**: [https://anhthuan1999.github.io/varsplat/](https://anhthuan1999.github.io/varsplat/)  
 **领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, SLAM, uncertainty modeling, RGB-D, 位姿估计
 

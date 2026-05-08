@@ -160,10 +160,10 @@ GPU显存对比（N=128分辨率）：LCT 7101MB, FK 6813MB, 本方法(无DR) 40
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Stochastic Momentum Methods for Non-smooth Non-Convex Finite-Sum Coupled Compositional Optimization](../../NeurIPS2025/human_understanding/stochastic_momentum_methods_for_non-smooth_non-convex_finite-sum_coupled_composi.md)
 - [\[ECCV 2024\] Human Motion Forecasting in Dynamic Domain Shifts: A Homeostatic Continual Test-Time Adaptation Framework](human_motion_forecasting_in_dynamic_domain_shifts_a_homeostatic_continual_test-t.md)
-- [\[CVPR 2026\] FedDAP: Domain-Aware Prototype Learning for Federated Learning under Domain Shift](../../CVPR2026/human_understanding/feddap_domain-aware_prototype_learning_for_federated_learning_under_domain_shift.md)
-- [\[ICLR 2026\] Statistical Guarantees for Offline Domain Randomization](../../ICLR2026/human_understanding/statistical_guarantees_for_offline_domain_randomization.md)
 - [\[NeurIPS 2025\] UnCLe: Towards Scalable Dynamic Causal Discovery in Non-Linear Temporal Systems](../../NeurIPS2025/human_understanding/uncle_towards_scalable_dynamic_causal_discovery_in_non-linear_temporal_systems.md)
+- [\[ICLR 2026\] Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics](../../ICLR2026/human_understanding/cross-domain_policy_optimization_via_bellman_consistency_and_hybrid_critics.md)
+- [\[CVPR 2025\] Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose Estimation](../../CVPR2025/human_understanding/analyzing_the_synthetic-to-real_domain_gap_in_3d_hand_pose_estimation.md)
+- [\[ECCV 2024\] ScanTalk: 3D Talking Heads from Unregistered Scans](scantalk_3d_talking_heads_from_unregistered_scans.md)
 
 <!-- RELATED:END -->

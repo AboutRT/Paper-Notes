@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 多图推理
+  - 多模态VLM
   - 视觉推理链
   - 焦点分解
   - 数据合成
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2504.20199](https://arxiv.org/abs/2504.20199)  
-**代码**: https://github.com/VISC  
+**代码**: [https://github.com/VISC](https://github.com/VISC)  
 **领域**: 多模态VLM  
 **关键词**: 多图推理, 视觉推理链, 焦点分解, 数据合成, 多图基准
 
@@ -127,10 +127,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding](vigil3d_a_linguistically_diverse_dataset_for_3d_visual_grounding.md)
+- [\[ACL 2025\] MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning](mathcoder-vl_bridging_vision_and_code_for_enhanced_multimodal_mathematical_reaso.md)
 - [\[ACL 2025\] Symmetrical Visual Contrastive Optimization: Aligning Vision-Language Models with Minimal Contrastive Images](symmetrical_visual_contrastive_optimization_aligning_visionlanguage.md)
-- [\[ACL 2025\] VLM2-Bench: A Closer Look at How Well VLMs Implicitly Link Explicit Matching Visual Cues](vlm2-bench-visual-cue-linking.md)
 - [\[ACL 2025\] Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning](benchmarking_and_improving_large_vision-language_models_for_fundamental_visual_g.md)
 - [\[ACL 2025\] Vision-Language Models Struggle to Align Entities across Modalities](vision-language_models_struggle_to_align_entities_across_modalities.md)
+- [\[ACL 2025\] Performance Gap in Entity Knowledge Extraction Across Modalities in Vision Language Models](performance_gap_in_entity_knowledge_extraction_across_modalities_in_vision_langu.md)
 
 <!-- RELATED:END -->

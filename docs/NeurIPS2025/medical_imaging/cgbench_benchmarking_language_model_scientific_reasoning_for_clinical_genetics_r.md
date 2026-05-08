@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.11985](https://arxiv.org/abs/2510.11985)  
 **代码**: [GitHub](https://github.com/owencqueen/cgbench)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 临床遗传学, 语言模型, 科学推理, benchmark, 证据评估
 
 ## 一句话总结

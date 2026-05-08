@@ -2,10 +2,10 @@
 title: >-
   [论文解读] HD-NDEs: Neural Differential Equations for Hallucination Detection in LLMs
 description: >-
-  [ACL 2025][幻觉检测] 本文首次将神经微分方程（Neural DEs）应用于LLM幻觉检测，通过对隐空间中token激活的连续轨迹建模来系统评估陈述的真实性，在True-False数据集上AUC-ROC超过SOTA 14%以上。
+  [ACL 2025][LLM安全] 本文首次将神经微分方程（Neural DEs）应用于LLM幻觉检测，通过对隐空间中token激活的连续轨迹建模来系统评估陈述的真实性，在True-False数据集上AUC-ROC超过SOTA 14%以上。
 tags:
   - ACL 2025
-  - 幻觉检测
+  - LLM安全
   - Neural ODE
   - Neural CDE
   - Neural SDE
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.00088](https://arxiv.org/abs/2506.00088)  
-**领域**: LLM 幻觉检测 / 神经微分方程  
+**领域**: LLM安全  
 **关键词**: 幻觉检测, Neural ODE, Neural CDE, Neural SDE, 隐状态轨迹, 分类器  
 
 ## 一句话总结
@@ -150,9 +150,9 @@ $$z(t) = z(0) + \int_0^t f(s, z(s); \theta_f) ds + \int_0^t g(s, z(s); \theta_g)
 ## 相关论文
 
 - [\[ACL 2025\] Automated Explanation Generation and Hallucination Detection for Heritage Image Retrieval](automated_explanation_generation_and_hallucination_detection_for_heritage_image_.md)
-- [\[ACL 2025\] Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation](rate-ft-auxiliary-tasks-for-hallucination-detection.md)
+- [\[ACL 2025\] Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation](learning_auxiliary_tasks_improves_reference-free_hallucination_detection_in_open.md)
 - [\[ACL 2025\] Fine-grained Hallucination Detection and Mitigation in Long-form Question Answering](localizing_and_mitigating_errors_in_long-form_question_answering.md)
 - [\[ACL 2026\] Enhancing Hallucination Detection via Future Context](../../ACL2026/llm_safety/enhancing_hallucination_detection_via_future_context.md)
-- [\[ICLR 2026\] Enhancing Hallucination Detection through Noise Injection](../../ICLR2026/llm_safety/enhancing_hallucination_detection_through_noise_injection.md)
+- [\[ICLR 2026\] VeriTrail: Closed-Domain Hallucination Detection with Traceability](../../ICLR2026/llm_safety/veritrail_closed-domain_hallucination_detection_with_traceable_evidence_synthes.md)
 
 <!-- RELATED:END -->

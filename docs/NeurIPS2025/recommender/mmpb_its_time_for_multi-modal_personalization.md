@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MMPB: It's Time for Multi-Modal Personalization
 description: >-
-  [NeurIPS 2025][VLM] 提出首个 VLM 个性化评测基准 MMPB，包含 111 个可个性化概念、10k+ 图文问答对和 15 种任务类型，评测了 23 个 VLM 后发现即使最强的 GPT-4o 在个性化任务上也表现不佳，揭示了 VLM 在偏好推理、视觉线索利用和安全对齐与个性化的冲突等方面的重大局限。
+  [NeurIPS 2025][推荐系统] 提出首个 VLM 个性化评测基准 MMPB，包含 111 个可个性化概念、10k+ 图文问答对和 15 种任务类型，评测了 23 个 VLM 后发现即使最强的 GPT-4o 在个性化任务上也表现不佳，揭示了 VLM 在偏好推理、视觉线索利用和安全对齐与个性化的冲突等方面的重大局限。
 tags:
   - NeurIPS 2025
-  - VLM
+  - 推荐系统
   - Personalization
   - benchmark
   - visual question answering
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.22820](https://arxiv.org/abs/2509.22820)  
-**代码**: https://aidaslab.github.io/MMPB (项目页)  
-**领域**: 多模态VLM / 个性化  
+**代码**: [https://aidaslab.github.io/MMPB](https://aidaslab.github.io/MMPB) (项目页)  
+**领域**: 推荐系统  
 **关键词**: VLM, Personalization, benchmark, visual question answering, Cold-start
 
 ## 一句话总结
@@ -129,7 +129,7 @@ MMPB 评测分三阶段：
 - [\[NeurIPS 2025\] VisualLens: Personalization through Task-Agnostic Visual History](visuallens_personalization_through_task-agnostic_visual_history.md)
 - [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](../../ICML2025/recommender/parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
 - [\[NeurIPS 2025\] Inference-Time Reward Hacking in Large Language Models](inference-time_reward_hacking_in_large_language_models.md)
-- [\[NeurIPS 2025\] TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation](tv-rec_time-variant_convolutional_filter_for_sequential_recommendation.md)
 - [\[NeurIPS 2025\] EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration](empathia_multi-faceted_human-ai_collaboration_for_refugee_integration.md)
+- [\[NeurIPS 2025\] TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation](tv-rec_time-variant_convolutional_filter_for_sequential_recommendation.md)
 
 <!-- RELATED:END -->

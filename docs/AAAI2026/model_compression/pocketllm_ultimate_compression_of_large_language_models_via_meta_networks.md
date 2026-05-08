@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.17637](https://arxiv.org/abs/2511.17637)  
 **代码**: 待确认  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: LLM压缩, 元网络, 码本量化, 潜空间编码, 极端压缩  
 
 ## 一句话总结
@@ -142,8 +142,8 @@ VPTQ利用Hessian信息优化后训练量化码本。PocketLLM在所有压缩比
 
 - [\[AAAI 2026\] SkipCat: Rank-Maximized Low-Rank Compression of Large Language Models via Shared Projection and Block Skipping](skipcat_rank-maximized_low-rank_compression_of_large_language_models_via_shared_.md)
 - [\[ICLR 2026\] Distillation of Large Language Models via Concrete Score Matching](../../ICLR2026/model_compression/distillation_of_large_language_models_via_concrete_score_matching.md)
-- [\[ACL 2025\] 500xCompressor: Generalized Prompt Compression for Large Language Models](../../ACL2025/model_compression/500xcompressor_generalized_prompt_compression_for_large_language_models.md)
 - [\[ACL 2026\] Meta-Tool: Efficient Few-Shot Tool Adaptation for Small Language Models](../../ACL2026/model_compression/meta-tool_efficient_few-shot_tool_adaptation_for_small_language_models.md)
-- [\[AAAI 2026\] CoEvo: Continual Evolution of Symbolic Solutions Using Large Language Models](coevo_continual_evolution_of_symbolic_solutions_using_large_language_models.md)
+- [\[ACL 2025\] 500xCompressor: Generalized Prompt Compression for Large Language Models](../../ACL2025/model_compression/500xcompressor_generalized_prompt_compression_for_large_language_models.md)
+- [\[AAAI 2026\] Failures to Surface Harmful Contents in Video Large Language Models](failures_to_surface_harmful_contents_in_video_large_language_models.md)
 
 <!-- RELATED:END -->

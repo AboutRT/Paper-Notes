@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2509.10918](https://arxiv.org/abs/2509.10918)  
 **代码**: [github.com/WenboLuu/ToMA](https://github.com/WenboLuu/ToMA)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: token merging, diffusion model acceleration, submodular optimization, GPU-aligned efficiency, training-free
 
 ## 一句话总结
@@ -167,9 +167,9 @@ ToMA 的核心启发在于：**加速方法的设计必须与底层硬件执行�
 ## 相关论文
 
 - [\[NeurIPS 2025\] Token Perturbation Guidance for Diffusion Models](../../NeurIPS2025/image_generation/token_perturbation_guidance_for_diffusion_models.md)
+- [\[CVPR 2025\] Decouple-Then-Merge: Finetune Diffusion Models as Multi-Task Learning](../../CVPR2025/image_generation/decouple-then-merge_finetune_diffusion_models_as_multi-task_learning.md)
 - [\[AAAI 2026\] CountSteer: Steering Attention for Object Counting in Diffusion Models](../../AAAI2026/image_generation/countsteer_steering_attention_for_object_counting_in_diffusion_models.md)
 - [\[ICML 2025\] Discriminative Policy Optimization for Token-Level Reward Models](discriminative_policy_optimization_for_token-level_reward_models.md)
-- [\[CVPR 2025\] Decouple-Then-Merge: Finetune Diffusion Models as Multi-Task Learning](../../CVPR2025/image_generation/decouple-then-merge_finetune_diffusion_models_as_multi-task_learning.md)
 - [\[CVPR 2025\] DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention](../../CVPR2025/image_generation/dig_scalable_and_efficient_diffusion_models_with_gated_linear_attention.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2601.07208](https://arxiv.org/abs/2601.07208)  
-**代码**: https://github.com/zy125413/MAESTRO  
+**代码**: [https://github.com/zy125413/MAESTRO](https://github.com/zy125413/MAESTRO)  
 **领域**: 模型压缩/LLM对齐  
 **关键词**: 开放域对齐, 多目标优化, 奖励编排, 元学习, GRPO
 
@@ -131,10 +131,10 @@ MAESTRO 在标准 GRPO 流程上增加了一个 Conductor 层。给定 prompt $q
 
 ## 相关论文
 
-- [\[ICLR 2026\] Temperature as a Meta-Policy: Adaptive Temperature in LLM Reinforcement Learning](../../ICLR2026/model_compression/temperature_as_a_meta-policy_adaptive_temperature_in_llm_reinforcement_learning.md)
-- [\[ACL 2026\] Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty](reason_only_when_needed_efficient_generative_reward_modeling_via_model-internal_.md)
+- [\[ACL 2026\] SAMoRA: Semantic-Aware Mixture of LoRA Experts for Task-Adaptive Learning](samora_semantic-aware_mixture_of_lora_experts_for_task-adaptive_learning.md)
 - [\[ACL 2026\] MAGEO: From Experience to Skill — Multi-Agent Generative Engine Optimization via Reusable Strategy Learning](from_experience_to_skill_multi-agent_generative_engine_optimization_via_reusable.md)
 - [\[ACL 2025\] "Give Me BF16 or Give Me Death"? Accuracy-Performance Trade-Offs in LLM Quantization](../../ACL2025/model_compression/bf16_or_death_quantization_tradeoffs.md)
+- [\[ACL 2026\] Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty](reason_only_when_needed_efficient_generative_reward_modeling_via_model-internal_.md)
 - [\[ACL 2026\] Meta-Tool: Efficient Few-Shot Tool Adaptation for Small Language Models](meta-tool_efficient_few-shot_tool_adaptation_for_small_language_models.md)
 
 <!-- RELATED:END -->

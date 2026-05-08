@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.01713](https://arxiv.org/abs/2603.01713)  
-**代码**: https://github.com/ttttqz/D24FAD (有)  
+**代码**: [https://github.com/ttttqz/D24FAD](https://github.com/ttttqz/D24FAD)  
 **领域**: 医学图像 / 异常检测 / 少样本学习  
 **关键词**: 少样本异常检测, 双蒸馏, 教师-学生, 自蒸馏, 医学影像
 
@@ -120,7 +120,7 @@ L = lambda * L_TSD + L_SSD_L2W，lambda = 0.1（TSD 权重较低，SSD 主导）
 - [\[CVPR 2026\] Bidirectional Multimodal Prompt Learning with Scale-Aware Training for Few-Shot Multi-Class Anomaly Detection](../../CVPR2026/medical_imaging/bidirectional_multimodal_prompt_learning_with_scale-aware_training_for_few-shot_.md)
 - [\[CVPR 2025\] UniVAD: A Training-free Unified Model for Few-shot Visual Anomaly Detection](../../CVPR2025/medical_imaging/univad_a_training-free_unified_model_for_few-shot_visual_anomaly_detection.md)
 - [\[CVPR 2026\] MoECLIP: Patch-Specialized Experts for Zero-shot Anomaly Detection](../../CVPR2026/medical_imaging/moeclip_patch-specialized_experts_for_zero-shot_anomaly_detection.md)
-- [\[CVPR 2026\] VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer](../../CVPR2026/medical_imaging/visualad_language-free_zero-shot_anomaly_detection_via_vision_transformer.md)
 - [\[ICLR 2026\] Exploiting Low-Dimensional Manifold of Features for Few-Shot Whole Slide Image Classification](exploiting_low-dimensional_manifold_of_features_for_few-shot_whole_slide_image_c.md)
+- [\[CVPR 2026\] VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer](../../CVPR2026/medical_imaging/visualad_language-free_zero-shot_anomaly_detection_via_vision_transformer.md)
 
 <!-- RELATED:END -->

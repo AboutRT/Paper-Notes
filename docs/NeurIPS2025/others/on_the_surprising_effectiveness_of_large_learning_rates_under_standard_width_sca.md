@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.22491](https://arxiv.org/abs/2505.22491)  
 **作者**: Moritz Haas, Sebastian Bordt, Ulrike von Luxburg, Leena Chennuru Vankadara (Tübingen, UCL Gatsby)
-**领域**: others  
+**领域**: 其他  
 **关键词**: infinite-width limit, standard parameterization, learning rate scaling, cross-entropy loss, feature learning, controlled divergence
 
 ## 一句话总结
@@ -160,8 +160,8 @@ tags:
 
 - [\[NeurIPS 2025\] SMRS: Advocating a Unified Reporting Standard for Surrogate Models in the Artificial Intelligence Era](smrs_advocating_a_unified_reporting_standard_for_surrogate_models_in_the_artific.md)
 - [\[NeurIPS 2025\] Statistical Inference Under Performativity](statistical_inference_under_performativity.md)
-- [\[ICML 2025\] Cover Learning for Large-Scale Topology Representation](../../ICML2025/others/cover_learning_for_large-scale_topology_representation.md)
 - [\[NeurIPS 2025\] Coresets for Clustering Under Stochastic Noise](coresets_for_clustering_under_stochastic_noise.md)
 - [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](../../ACL2025/others/consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
+- [\[AAAI 2026\] Structure-Aware Encodings of Argumentation Properties for Clique-width](../../AAAI2026/others/structure-aware_encodings_of_argumentation_properties_for_clique-width.md)
 
 <!-- RELATED:END -->

@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets & Benchmarks Track)][医学图像][多智能体协作] 提出 MedAgentBoard，一个系统评估多智能体协作、单 LLM 和传统方法在多样化医学任务上表现的综合基准，揭示多智能体协作并不总是优于强单模型或专用传统方法。
 tags:
-  - "NeurIPS 2025 (Datasets & Benchmarks Track)"
+  - 医学图像
   - 医学图像
   - 多智能体协作
   - 医学基准测试

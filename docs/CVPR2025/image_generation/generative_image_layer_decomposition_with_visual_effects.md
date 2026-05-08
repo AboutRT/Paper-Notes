@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17864](https://arxiv.org/abs/2411.17864)  
-**代码**: https://rayjryang.github.io/LayerDecomp (项目页)  
+**代码**: [https://rayjryang.github.io/LayerDecomp](https://rayjryang.github.io/LayerDecomp) (项目页)  
 **领域**: 图像生成 / 图像编辑  
 **关键词**: 图层分解, 视觉效果保留, 扩散模型, 阴影反射, 图像合成
 

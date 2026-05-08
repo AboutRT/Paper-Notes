@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering
 description: >-
-  [CVPR 2026][KB-VQA] 提出 ReAG，一个推理增强的多模态 RAG 方法，结合粗细粒度检索与 Critic 过滤模型减少噪声，并通过 GRPO 强化学习训练生成器进行显式推理，在知识密集型 VQA 上达到新 SOTA。
+  [CVPR 2026][强化学习] 提出 ReAG，一个推理增强的多模态 RAG 方法，结合粗细粒度检索与 Critic 过滤模型减少噪声，并通过 GRPO 强化学习训练生成器进行显式推理，在知识密集型 VQA 上达到新 SOTA。
 tags:
   - CVPR 2026
-  - KB-VQA
+  - 强化学习
   - RAG
   - 强化学习
   - 推理增强
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2511.22715](https://arxiv.org/abs/2511.22715)  
 **代码**: [aimagelab.github.io/ReAG](https://aimagelab.github.io/ReAG)  
-**领域**: 知识增强视觉问答 / 检索增强生成  
+**领域**: 强化学习  
 **关键词**: KB-VQA, RAG, 强化学习, 推理增强, 多模态检索
 
 ## 一句话总结
@@ -154,8 +154,8 @@ ReAG 包含四个主要阶段：
 
 - [\[NeurIPS 2025\] Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering](../../NeurIPS2025/reinforcement_learning/knowledge-based_visual_question_answer_with_multimodal_processing_retrieval_and_.md)
 - [\[AAAI 2026\] TAdaRAG: Task Adaptive Retrieval-Augmented Generation via On-the-Fly Knowledge Graph Construction](../../AAAI2026/reinforcement_learning/tadarag_task_adaptive_retrieval-augmented_generation_via_on-the-fly_knowledge_gr.md)
-- [\[ACL 2026\] Language-Coupled Reinforcement Learning for Multilingual Retrieval-Augmented Generation](../../ACL2026/reinforcement_learning/language-coupled_reinforcement_learning_for_multilingual_retrieval-augmented_gen.md)
 - [\[ACL 2026\] Table Question Answering in the Era of Large Language Models: A Comprehensive Survey](../../ACL2026/reinforcement_learning/table_question_answering_in_the_era_of_large_language_models_a_comprehensive_sur.md)
-- [\[CVPR 2026\] Seeing is Improving: Visual Feedback for Iterative Text Layout Refinement](seeing_is_improving_visual_feedback_for_iterative_text_layout_refinement.md)
+- [\[ACL 2026\] Language-Coupled Reinforcement Learning for Multilingual Retrieval-Augmented Generation](../../ACL2026/reinforcement_learning/language-coupled_reinforcement_learning_for_multilingual_retrieval-augmented_gen.md)
+- [\[ACL 2026\] ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning](../../ACL2026/reinforcement_learning/rerec_reasoning-augmented_llm-based_recommendation_assistant_via_reinforcement_f.md)
 
 <!-- RELATED:END -->

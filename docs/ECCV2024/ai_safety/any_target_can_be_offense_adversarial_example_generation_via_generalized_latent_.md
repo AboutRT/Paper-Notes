@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.12292](https://arxiv.org/abs/2407.12292)  
-**代码**: https://github.com/VL-Group/GAKer (有)  
+**代码**: [https://github.com/VL-Group/GAKer](https://github.com/VL-Group/GAKer)  
 **领域**: AI安全 / 对抗攻击  
 **关键词**: adversarial attack, Targeted Attack, Generalization, Unknown Classes, Feature Infection
 
@@ -134,10 +134,10 @@ GAKer 包含冻结的特征提取器 $\mathcal{F}_\psi$ 和 UNet 生成器 $\mat
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Virus Infection Attack on LLMs: Your Poisoning Can Spread "VIA" Synthetic Data](../../NeurIPS2025/ai_safety/virus_infection_attack_on_llms_your_poisoning_can_spread_via_synthetic_data.md)
 - [\[AAAI 2026\] Rethinking Target Label Conditioning in Adversarial Attacks: A 2D Tensor-Guided Generative Approach](../../AAAI2026/ai_safety/rethinking_target_label_conditioning_in_adversarial_attacks_a_2d_tensor-guided_g.md)
 - [\[ECCV 2024\] CLIP-Guided Generative Networks for Transferable Targeted Adversarial Attacks](clip-guided_generative_networks_for_transferable_targeted_adversarial_attacks.md)
-- [\[CVPR 2026\] Editing Physiological Signals in Videos Using Latent Representations](../../CVPR2026/ai_safety/editing_physiological_signals_in_videos_using_latent_representations.md)
-- [\[AAAI 2026\] Can Editing LLMs Inject Harm?](../../AAAI2026/ai_safety/can_editing_llms_inject_harm.md)
+- [\[CVPR 2026\] All Vehicles Can Lie: Efficient Adversarial Defense in Fully Untrusted-Vehicle Collaborative Perception via Pseudo-Random Bayesian Inference](../../CVPR2026/ai_safety/all_vehicles_can_lie_efficient_adversarial_defense_in_fully_untrusted-vehicle_co.md)
+- [\[CVPR 2026\] One-to-More: High-Fidelity Training-Free Anomaly Generation with Attention Control](../../CVPR2026/ai_safety/one-to-more_high-fidelity_training-free_anomaly_generation_with_attention_control.md)
+- [\[CVPR 2025\] Where the Devil Hides: Deepfake Detectors Can No Longer Be Trusted](../../CVPR2025/ai_safety/where_the_devil_hides_deepfake_detectors_can_no_longer_be_trusted.md)
 
 <!-- RELATED:END -->

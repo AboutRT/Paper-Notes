@@ -7,7 +7,7 @@ tags:
   - CVPR 2025 (Highlight)
   - 多模态
   - 视觉编码器
-  - 自回归预训练
+  - 多模态VLM
   - 多模态预训练
   - AIMV2
   - 大规模视觉模型
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025 (Highlight)  
 **arXiv**: [2411.14402](https://arxiv.org/abs/2411.14402)  
-**代码**: https://github.com/apple/ml-aim (有)  
+**代码**: [https://github.com/apple/ml-aim](https://github.com/apple/ml-aim)  
 **领域**: 多模态VLM  
 **关键词**: 视觉编码器, 自回归预训练, 多模态预训练, AIMV2, 大规模视觉模型
 
@@ -125,9 +125,9 @@ AIMV2的训练架构分为编码器(encoder)和解码器(decoder)两部分。编
 ## 相关论文
 
 - [\[CVPR 2025\] Post-pre-training for Modality Alignment in Vision-Language Foundation Models](post-pre-training_for_modality_alignment_in_vision-language_foundation_models.md)
-- [\[ICCV 2025\] SCAN: Bootstrapping Contrastive Pre-training for Data Efficiency](../../ICCV2025/multimodal_vlm/scan_bootstrapping_contrastive_pre-training_for_data_efficiency.md)
 - [\[ECCV 2024\] MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training](../../ECCV2024/multimodal_vlm/mm1_methods_analysis_and_insights_from_multimodal_llm_pre-training.md)
 - [\[CVPR 2025\] BadVision: Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for Large Vision Language Models](stealthy_backdoor_attack_in_self-supervised_learning_vision_encoders_for_large_v.md)
-- [\[ICCV 2025\] OpenVision: A Fully-Open, Cost-Effective Family of Advanced Vision Encoders for Multimodal Learning](../../ICCV2025/multimodal_vlm/openvision_a_fully-open_cost-effective_family_of_advanced_vision_encoders_for_mu.md)
+- [\[ICCV 2025\] SCAN: Bootstrapping Contrastive Pre-training for Data Efficiency](../../ICCV2025/multimodal_vlm/scan_bootstrapping_contrastive_pre-training_for_data_efficiency.md)
+- [\[ICCV 2025\] One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models](../../ICCV2025/multimodal_vlm/one_perturbation_is_enough_on_generating_universal_adversarial_perturbations_aga.md)
 
 <!-- RELATED:END -->

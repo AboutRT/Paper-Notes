@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2508.14957](https://arxiv.org/abs/2508.14957)  
 **代码**: 待确认  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: Masked Autoencoder, 遥感数据重建, 不确定性量化, 课程学习, Monte Carlo 集成  
 
 ## 一句话总结
@@ -155,9 +155,9 @@ CuMoLoS-MAE（Curriculum-Guided Monte Carlo Stochastic Ensemble Masked Autoencod
 ## 相关论文
 
 - [\[NeurIPS 2025\] L2RSI: Cross-View LiDAR-Based Place Recognition for Large-Scale Urban Scenes via Remote Sensing Imagery](l2rsi_cross-view_lidar-based_place_recognition_for_large-scale_urban_scenes_via_.md)
+- [\[ECCV 2024\] T-MAE: Temporal Masked Autoencoders for Point Cloud Representation Learning](../../ECCV2024/autonomous_driving/t-mae_temporal_masked_autoencoders_for_point_cloud_representation_learning.md)
 - [\[NeurIPS 2025\] HoloLLM: Multisensory Foundation Model for Language-Grounded Human Sensing and Reasoning](holollm_multisensory_foundation_model_for_language-grounded_human_sensing_and_re.md)
-- [\[CVPR 2025\] PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes](../../CVPR2025/autonomous_driving/planarsplatting_accurate_planar_surface_reconstruction_in_3_minutes.md)
-- [\[CVPR 2025\] Towards In-the-Wild 3D Plane Reconstruction from a Single Image](../../CVPR2025/autonomous_driving/towards_in-the-wild_3d_plane_reconstruction_from_a_single_image.md)
 - [\[CVPR 2025\] MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction](../../CVPR2025/autonomous_driving/maskgwm_a_generalizable_driving_world_model_with_video_mask_reconstruction.md)
+- [\[CVPR 2025\] ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration](../../CVPR2025/autonomous_driving/recondreamer_crafting_world_models_for_driving_scene_reconstruction_via_online_r.md)
 
 <!-- RELATED:END -->

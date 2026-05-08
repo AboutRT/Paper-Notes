@@ -13,7 +13,7 @@ tags:
 - **会议**: ICCV 2025
 - **arXiv**: 2407.02489
 - **代码**: [MagicInsert.github.io](https://MagicInsert.github.io)
-- **领域**: 图像生成与编辑
+- **领域**: 其他
 - **关键词**: 风格感知个性化, 目标插入, 拖放编辑, LoRA, Bootstrap Domain Adaptation, 扩散模型
 
 ## 一句话总结

@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2505.17645](https://arxiv.org/abs/2505.17645)  
 **代码**: [NTUMARS/HoloLLM](https://github.com/NTUMARS/HoloLLM)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: Multimodal LLM, Human Sensing, LiDAR, mmWave, WiFi, Modality Alignment  
 
 ## 一句话总结

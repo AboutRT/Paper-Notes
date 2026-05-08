@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16733](https://arxiv.org/abs/2411.16733)  
-**代码**: https://github.com/earth-insights/samroadplus  
+**代码**: [https://github.com/earth-insights/samroadplus](https://github.com/earth-insights/samroadplus)  
 **领域**: 自动驾驶/遥感  
 **关键词**: 道路图提取, 卫星图像, 全球数据集, 图连接预测, SAM
 

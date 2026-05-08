@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2411.07446](https://arxiv.org/abs/2411.07446)  
 **代码**: 无  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: prompt optimization, feedback memory, exemplar retrieval, automatic prompt engineering, LLM  
 
 ## 一句话总结
@@ -120,8 +120,8 @@ ERM（Exemplar-Guided Reflection with Memory）包含三个核心组件：输入
 
 - [\[ACL 2025\] RiOT: Efficient Prompt Refinement with Residual Optimization Tree](riot_efficient_prompt_refinement_with_residual_optimization_tree.md)
 - [\[ACL 2025\] Efficient Universal Goal Hijacking with Semantics-guided Prompt Organization](goal_hijacking_attack.md)
+- [\[ACL 2025\] SEE: Strategic Exploration and Exploitation for Cohesive In-Context Prompt Optimization](see_strategic_exploration_exploitation_prompt_optimization.md)
 - [\[ACL 2025\] OPTS: Bandit-Based Prompt Design Strategy Selection Improves Prompt Optimizers](bandit-based_prompt_design_strategy_selection_improves_prompt_optimizers.md)
 - [\[ACL 2025\] A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm](a_survey_of_automatic_prompt_optimization_with_instruction-focused_heuristic-bas.md)
-- [\[ACL 2025\] GAPO: Learning Preferential Prompt through Generative Adversarial Policy Optimization](gapo_preferential_prompt.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.06493](https://arxiv.org/abs/2404.06493)  
-**代码**: https://anaghmalik.com/FlyingWithPhotons (项目页面，含代码和数据集)  
+**代码**: [https://anaghmalik.com/FlyingWithPhotons](https://anaghmalik.com/FlyingWithPhotons) (项目页面，含代码和数据集)  
 **领域**: 3D视觉  
 **关键词**: 瞬态成像, 新视角合成, 光传播, 神经辐射场, SPAD
 

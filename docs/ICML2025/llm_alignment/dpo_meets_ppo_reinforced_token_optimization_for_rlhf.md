@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2404.18922](https://arxiv.org/abs/2404.18922)  
-**代码**: https://github.com/zkshan2002/RTO (有)  
+**代码**: [https://github.com/zkshan2002/RTO](https://github.com/zkshan2002/RTO)  
 **领域**: LLM对齐/RLHF  
 **关键词**: RLHF, DPO, PPO, token-level reward, MDP 建模
 

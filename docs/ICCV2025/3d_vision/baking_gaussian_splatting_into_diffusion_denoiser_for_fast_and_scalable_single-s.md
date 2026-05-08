@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.14384](https://arxiv.org/abs/2411.14384)  
-**代码**: https://caiyuanhao1998.github.io/project/DiffusionGS/  
+**代码**: [https://caiyuanhao1998.github.io/project/DiffusionGS/](https://caiyuanhao1998.github.io/project/DiffusionGS/)  
 **领域**: 三维视觉  
 **关键词**: 3D Gaussian Splatting, 扩散模型, 单视图3D生成, 场景重建, 混合训练
 

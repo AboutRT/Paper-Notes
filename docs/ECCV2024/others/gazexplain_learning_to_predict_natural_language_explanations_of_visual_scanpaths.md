@@ -8,7 +8,7 @@ tags:
   - 视觉扫描路径
   - 自然语言解释
   - 注视预测
-  - 语义对齐
+  - 其他
   - 跨数据集联合训练
 ---
 
@@ -174,8 +174,8 @@ $$\mathcal{L} = \mathcal{L}_{fix} + \mathcal{L}_{exp} + \mathcal{L}_{aln}$$
 
 - [\[ACL 2025\] Cooperating and Competing Through Natural Language](../../ACL2025/others/cooperating_and_competing_through_natural_language.md)
 - [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
-- [\[ACL 2025\] SPOT: Bridging Natural Language and Geospatial Search for Investigative Journalists](../../ACL2025/others/spot_bridging_natural_language_and_geospatial_search_for_investigative_journalis.md)
 - [\[ACL 2025\] QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning](../../ACL2025/others/qualispeech_a_speech_quality_assessment_dataset_with_natural_language_reasoning_.md)
-- [\[ECCV 2024\] Synergy of Sight and Semantics: Visual Intention Understanding with CLIP](synergy_of_sight_and_semantics_visual_intention_understanding_with_clip.md)
+- [\[ACL 2025\] SPOT: Bridging Natural Language and Geospatial Search for Investigative Journalists](../../ACL2025/others/spot_bridging_natural_language_and_geospatial_search_for_investigative_journalis.md)
+- [\[ECCV 2024\] Gaze Target Detection Based on Head-Local-Global Coordination](gaze_target_detection_based_on_head-local-global_coordination.md)
 
 <!-- RELATED:END -->

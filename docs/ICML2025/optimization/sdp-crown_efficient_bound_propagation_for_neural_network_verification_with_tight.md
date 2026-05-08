@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.06665](https://arxiv.org/abs/2506.06665)  
 **代码**: [Hong-Ming/SDP-CROWN](https://github.com/Hong-Ming/SDP-CROWN)  
-**领域**: optimization / neural network verification  
+**领域**: 优化  
 **关键词**: 神经网络验证, 半定规划, 线性界传播, ℓ₂ 鲁棒性, ReLU 松弛, CROWN
 
 ## 一句话总结
@@ -124,9 +124,9 @@ $$h^* = -\rho \|\min\{c-g, g, 0\}\|_2$$
 ## 相关论文
 
 - [\[ICML 2025\] Interior-Point Vanishing Problem in Semidefinite Relaxations for Neural Network Verification](interior-point_vanishing_problem_in_semidefinite_relaxations_for_neural_network_.md)
-- [\[ICML 2025\] The Butterfly Effect: Neural Network Training Trajectories Are Highly Sensitive to Initial Conditions](the_butterfly_effect_neural_network_training_trajectories_are_highly_sensitive_t.md)
 - [\[ICML 2025\] Integer Programming for Generalized Causal Bootstrap Designs](integer_programming_for_generalized_causal_bootstrap_designs.md)
+- [\[ICML 2025\] The Butterfly Effect: Neural Network Training Trajectories Are Highly Sensitive to Initial Conditions](the_butterfly_effect_neural_network_training_trajectories_are_highly_sensitive_t.md)
 - [\[CVPR 2025\] Automatic Joint Structured Pruning and Quantization for Efficient Neural Network Training and Compression](../../CVPR2025/optimization/automatic_joint_structured_pruning_and_quantization_for_efficient_neural_network.md)
-- [\[ICML 2025\] Efficient Curvature-Aware Hypergradient Approximation for Bilevel Optimization](efficient_curvature-aware_hypergradient_approximation_for_bilevel_optimization.md)
+- [\[ICML 2025\] Widening the Network Mitigates the Impact of Data Heterogeneity on FedAvg](widening_the_network_mitigates_the_impact_of_data_heterogeneity_on_fedavg.md)
 
 <!-- RELATED:END -->

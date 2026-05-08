@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18420](https://arxiv.org/abs/2503.18420)  
-**代码**: https://isee-laboratory.github.io/PanoDecouple/  
+**代码**: [https://isee-laboratory.github.io/PanoDecouple/](https://isee-laboratory.github.io/PanoDecouple/)  
 **领域**: 图像生成  
 **关键词**: 全景图生成, 扩散模型, 畸变引导, 解耦框架, CLIP微调
 

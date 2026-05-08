@@ -55,13 +55,13 @@ tags:
 
 2. **最优时间步与潜空间匹配损失**：不同噪声时间步 $\tau$ 在图像质量和水印性能之间存在权衡——$\tau \sim T$ 时图像质量下降但水印强，$\tau \sim 0$ 时质量好但水印弱。作者通过实验确定最优时间步 $\tau^* = 8$，并引入潜空间匹配损失来保证水印的不可见性：
 
-   $$\mathcal{L}_z = \min_{\mathcal{W}_*} \mathbb{E}_t \left[ \| z^*_t - z'_t(\mathcal{W}_*) \|_2^2 \right]$$
+    $\mathcal{L}_z = \min_{\mathcal{W}_*} \mathbb{E}_t \left[ \| z^*_t - z'_t(\mathcal{W}_*) \|_2^2 \right]$
 
    总训练损失为 $\mathcal{L} = \alpha \mathcal{L}_w + \beta \mathcal{L}_z$，其中 $\mathcal{L}_w$ 是 BCE 比特嵌入损失。选择靠近 VAE 编码器端的小时间步 $\tau^*$ 不仅提升了质量，也因为水印嵌入发生在管线早期，使其更难被后续阶段的对抗扰动破坏。
 
 3. **对象级水印控制机制**：利用 UNet 中的交叉注意力图来定位水印区域。在 T2I 生成过程中，每个时间步 $t$ 提取目标对象 token $\mathcal{P}_i$ 和水印 token $\mathcal{W}_*^i$ 的注意力图 $\mathcal{M}_{\mathcal{P}_i}^{(t)}$ 和 $\mathcal{M}_{\mathcal{W}_*}^{(t)}$，通过叠加实现水印定位：
 
-   $$\mathcal{M}_{\mathcal{P}_i}^{(t)} \leftarrow (1-\alpha) \cdot \mathcal{M}_{\mathcal{P}_i}^{(t)} + \alpha \cdot \mathcal{M}_{\mathcal{W}_*}^{(t)}$$
+    $\mathcal{M}_{\mathcal{P}_i}^{(t)} \leftarrow (1-\alpha) \cdot \mathcal{M}_{\mathcal{P}_i}^{(t)} + \alpha \cdot \mathcal{M}_{\mathcal{W}_*}^{(t)}$
 
    此外引入水印叠加强度控制器 $\pi(t)$（阶跃函数或平滑函数），使水印效果集中在训练时观察到的最优时间步范围内，提升水印定位精度。
 
@@ -136,10 +136,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICCV 2025\] Attention to Neural Plagiarism: Diffusion Models Can Plagiarize Your Copyrighted Images!](attention_to_neural_plagiarism_diffusion_models_can_plagiarize_your_copyrighted_.md)
 - [\[ICCV 2025\] Invisible Watermarks, Visible Gains: Steering Machine Unlearning with Bi-Level Watermarking Design](invisible_watermarks_visible_gains_steering_machine_unlearning_with_bi-level_wat.md)
 - [\[ICCV 2025\] Efficient Input-Level Backdoor Defense on Text-to-Image Synthesis via Neuron Activation Variation](efficient_input-level_backdoor_defense_on_text-to-image_synthesis_via_neuron_act.md)
 - [\[ECCV 2024\] Enhancing Diffusion Models with Text-Encoder Reinforcement Learning](../../ECCV2024/image_generation/enhancing_diffusion_models_with_text-encoder_reinforcement_learning.md)
 - [\[CVPR 2025\] GlyphMastero: A Glyph Encoder for High-Fidelity Scene Text Editing](../../CVPR2025/image_generation/glyphmastero_a_glyph_encoder_for_high-fidelity_scene_text_editing.md)
-- [\[ECCV 2024\] LCM-Lookahead for Encoder-based Text-to-Image Personalization](../../ECCV2024/image_generation/lcm-lookahead_for_encoder-based_text-to-image_personalization.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MSRL: Scaling Generative Multimodal Reward Modeling via Multi-Stage Reinforcement Learning
 description: >-
-  [CVPR 2026][多模态奖励模型] 提出MSRL(Multi-Stage Reinforcement Learning)，通过多阶段RL扩展生成式多模态奖励建模——先在大规模文本偏好数据(400K)上做RL学习通用奖励推理能力，再经caption-based RL和跨模态知识蒸馏向多模态迁移，最后用少量多模态偏好数据微调适配，无需额外多模态标注即在VL-RewardBench上从66.6%提升到75.9%、GenAI-Bench上从70.2%到75.7%。
+  [CVPR 2026][强化学习] 提出MSRL(Multi-Stage Reinforcement Learning)，通过多阶段RL扩展生成式多模态奖励建模——先在大规模文本偏好数据(400K)上做RL学习通用奖励推理能力，再经caption-based RL和跨模态知识蒸馏向多模态迁移，最后用少量多模态偏好数据微调适配，无需额外多模态标注即在VL-RewardBench上从66.6%提升到75.9%、GenAI-Bench上从70.2%到75.7%。
 tags:
   - CVPR 2026
-  - 多模态奖励模型
+  - 强化学习
   - 生成式奖励
   - 多阶段RL
   - 跨模态知识蒸馏
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25108](https://arxiv.org/abs/2603.25108)  
-**代码**: https://github.com/wangclnlp/MSRL (有)  
+**代码**: [https://github.com/wangclnlp/MSRL](https://github.com/wangclnlp/MSRL)  
 **领域**: 强化学习 / 多模态奖励建模  
 **关键词**: 多模态奖励模型, 生成式奖励, 多阶段RL, 跨模态知识蒸馏, 偏好对齐
 
@@ -127,10 +127,10 @@ VL-RewardBench: +9.3, Multimodal RewardBench: +4.3, GenAI-Bench: +5.5。
 
 ## 相关论文
 
-- [\[CVPR 2026\] CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning](cccaption_dual-reward_reinforcement_learning_for_complete_and_correct_image_capt.md)
 - [\[CVPR 2026\] BRIDGE: Multimodal-to-Text Retrieval via Reinforcement-Learned Query Alignment](bridge_multimodal-to-text_retrieval_via_reinforcement-learned_query_alignment.md)
+- [\[CVPR 2026\] CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning](cccaption_dual-reward_reinforcement_learning_for_complete_and_correct_image_capt.md)
 - [\[CVPR 2026\] Lifelong Imitation Learning with Multimodal Latent Replay and Incremental Adjustment](lifelong_imitation_learning_multimodal_latent_rep.md)
-- [\[CVPR 2026\] Anticipatory Planning for Multimodal AI Agents](anticipatory_planning_for_multimodal_ai_agents.md)
 - [\[ICLR 2026\] RewardMap: Tackling Sparse Rewards in Fine-grained Visual Reasoning via Multi-Stage Reinforcement Learning](../../ICLR2026/reinforcement_learning/rewardmap_tackling_sparse_rewards_in_fine-grained_visual_reasoning_via_multi-sta.md)
+- [\[CVPR 2026\] Anticipatory Planning for Multimodal AI Agents](anticipatory_planning_for_multimodal_ai_agents.md)
 
 <!-- RELATED:END -->

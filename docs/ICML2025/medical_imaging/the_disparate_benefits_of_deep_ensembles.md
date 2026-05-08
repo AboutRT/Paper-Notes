@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2410.13831](https://arxiv.org/abs/2410.13831)  
 **代码**: 无  
-**领域**: AI安全 / 算法公平性  
+**领域**: 医学图像  
 **关键词**: 深度集成, 算法公平性, 群体公平, 预测多样性, 后处理缓解
 
 ## 一句话总结
@@ -380,6 +380,6 @@ $$\overline{\text{DIV}} = \frac{1}{K}\sum_{k=1}^K \left[\log\left(\frac{1}{N}\su
 - [\[NeurIPS 2025\] JAMUN: Bridging Smoothed Molecular Dynamics and Score-Based Learning for Conformational Ensembles](../../NeurIPS2025/medical_imaging/jamun_bridging_smoothed_molecular_dynamics_and_score-based_learning_for_conforma.md)
 - [\[ICML 2025\] Network Sparsity Unlocks the Scaling Potential of Deep Reinforcement Learning](network_sparsity_unlocks_the_scaling_potential_of_deep_reinforcement_learning.md)
 - [\[ICML 2025\] Efficient Noise Calculation in Deep Learning-based MRI Reconstructions](efficient_noise_calculation_in_deep_learning-based_mri_reconstructions.md)
-- [\[ICCV 2025\] Semi-supervised Deep Transfer for Regression without Domain Alignment](../../ICCV2025/medical_imaging/semi-supervised_deep_transfer_for_regression_without_domain_alignment.md)
+- [\[NeurIPS 2025\] DCA: Graph-Guided Deep Embedding Clustering for Brain Atlases](../../NeurIPS2025/medical_imaging/dca_graph-guided_deep_embedding_clustering_for_brain_atlases.md)
 
 <!-- RELATED:END -->

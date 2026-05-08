@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19906](https://arxiv.org/abs/2503.19906)  
-**代码**: https://kumapowerliu.github.io/AvatarArtist （代码/数据/模型即将公开）  
+**代码**: [https://kumapowerliu.github.io/AvatarArtist](https://kumapowerliu.github.io/AvatarArtist) （代码/数据/模型即将公开）  
 **领域**: 扩散模型 / 3D视觉  
 **关键词**: 4D头像生成, 参数化三平面, GAN-扩散协同, 跨域渲染, 表情驱动
 

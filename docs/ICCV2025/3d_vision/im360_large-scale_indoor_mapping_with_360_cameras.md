@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.12545](https://arxiv.org/abs/2502.12545)  
-**代码**: https://jdk9405.github.io/IM360/ (有项目页)  
+**代码**: [https://jdk9405.github.io/IM360/](https://jdk9405.github.io/IM360/) (有项目页)  
 **领域**: 3D视觉  
 **关键词**: 室内三维建图, 360度全景相机, 球面SfM, 纹理优化, 大规模室内场景
 

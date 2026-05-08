@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2403.08764](https://arxiv.org/abs/2403.08764)  
-**代码**: 无（项目页面 https://enriccorona.github.io/vlogger/）  
+**代码**: 无（项目页面 [https://enriccorona.github.io/vlogger/](https://enriccorona.github.io/vlogger/)）  
 **领域**: 扩散模型 / 人体视频生成  
 **关键词**: 音频驱动视频生成, 扩散模型, 虚拟人, 3D人体模型, 时序一致性
 

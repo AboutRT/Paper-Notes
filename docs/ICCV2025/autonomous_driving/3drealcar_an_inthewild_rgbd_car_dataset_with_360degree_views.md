@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2406.04875](https://arxiv.org/abs/2406.04875)  
-**代码**: [项目主页](https://xiaobiaodu.github.io/3drealcar/) (有)  
+**代码**: [项目主页](https://xiaobiaodu.github.io/3drealcar/)  
 **领域**: 3D视觉 / 自动驾驶  
 **关键词**: 3D Car Dataset, RGB-D, 360-degree Views, 3D Reconstruction, novel view synthesis
 

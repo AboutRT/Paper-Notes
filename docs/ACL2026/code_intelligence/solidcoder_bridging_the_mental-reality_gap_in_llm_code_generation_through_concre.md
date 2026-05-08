@@ -8,7 +8,7 @@ tags:
   - 代码生成
   - 心理模拟
   - 执行验证
-  - 多智能体
+  - 代码智能
   - 属性测试
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.19825](https://arxiv.org/abs/2604.19825)  
-**代码**: https://github.com/10kH/SolidCoder  
+**代码**: [https://github.com/10kH/SolidCoder](https://github.com/10kH/SolidCoder)  
 **领域**: 代码生成 / LLM Agent  
 **关键词**: 代码生成, 心理模拟, 执行验证, 多智能体, 属性测试
 
@@ -126,8 +126,8 @@ SolidCoder 建立在 CodeSIM 的三智能体架构（Planning Agent、Coding Age
 
 - [\[ACL 2026\] CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment](coderl_improving_code_generation_via_reinforcement_with_execution_semantics_alig.md)
 - [\[ACL 2026\] StoryCoder: Narrative Reformulation for Structured Reasoning in LLM Code Generation](storycoder_narrative_reformulation_for_structured_reasoning_in_llm_code_generati.md)
+- [\[ICLR 2026\] Execution-Grounded Credit Assignment for GRPO in Code Generation](../../ICLR2026/code_intelligence/execution-grounded_credit_assignment_for_grpo_in_code_generation.md)
 - [\[ICML 2025\] Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation](../../ICML2025/code_intelligence/reasoning_through_execution_unifying_process_and_outcome_rewards_for_code_genera.md)
-- [\[ACL 2026\] DUET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode](duet_dual_execution_for_test_output_prediction_with_generated_code_and_pseudocod.md)
 - [\[ACL 2026\] CollabCoder: Plan-Code Co-Evolution via Collaborative Decision-Making for Efficient Code Generation](collabcoder_plan-code_co-evolution_via_collaborative_decision-making_for_efficie.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2408.06778](https://arxiv.org/abs/2408.06778)  
-**代码**: https://github.com/idiap/fnf-tg (有)  
-**领域**: graph_learning  
+**代码**: [https://github.com/idiap/fnf-tg](https://github.com/idiap/fnf-tg)  
+**领域**: 图学习  
 **关键词**: 知识图谱, 归纳链接预测, 图Transformer, 文本图融合, ego-graph编码
 
 ## 一句话总结

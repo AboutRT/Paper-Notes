@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 奖励模型
-  - 推理
+  - 强化学习
   - Chain-of-Rubrics
   - 生成式奖励模型
   - RLVR

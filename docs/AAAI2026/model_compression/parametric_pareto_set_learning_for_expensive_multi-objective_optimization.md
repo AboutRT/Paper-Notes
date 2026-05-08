@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.05815](https://arxiv.org/abs/2511.05815)  
 **代码**: 无  
-**领域**: 多目标优化/贝叶斯优化  
+**领域**: 模型压缩  
 **关键词**: Pareto Set Learning, Multi-Objective Bayesian Optimization, Hypernetwork, LoRA, 参数化多目标优化  
 
 ## 一句话总结
@@ -184,8 +184,8 @@ $$\text{HVI}(\hat{\mathcal{Y}}_+, \mathcal{Y}) = \text{HV}(\hat{\mathcal{Y}}_+ \
 
 - [\[ACL 2026\] MAGEO: From Experience to Skill — Multi-Agent Generative Engine Optimization via Reusable Strategy Learning](../../ACL2026/model_compression/from_experience_to_skill_multi-agent_generative_engine_optimization_via_reusable.md)
 - [\[ICLR 2026\] SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning](../../ICLR2026/model_compression/swireasoning_switch-thinking_in_latent_and_explicit_for_pareto-superior_reasonin.md)
-- [\[AAAI 2026\] PrefixGPT: Prefix Adder Optimization by a Generative Pre-trained Transformer](prefixgpt_prefix_adder_optimization_by_a_generative_pre-trained_transformer.md)
 - [\[CVPR 2026\] Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning](../../CVPR2026/model_compression/frequency_switching_mechanism_for_parameter-ecient_multi-task_learning.md)
 - [\[ACL 2026\] MAESTRO: Meta-learning Adaptive Estimation of Scalarization Trade-offs for Reward Optimization](../../ACL2026/model_compression/maestro_meta-learning_adaptive_estimation_of_scalarization_trade-offs_for_reward.md)
+- [\[AAAI 2026\] AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization](adafuse_accelerating_dynamic_adapter_inference_via_token-lev.md)
 
 <!-- RELATED:END -->

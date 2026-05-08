@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2509.07917](https://arxiv.org/abs/2509.07917)  
 **代码**: 无  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: few-shot segmentation, object-level correlation, prototype learning, optimal transport, hard pixel noise
 
 ## 一句话总结

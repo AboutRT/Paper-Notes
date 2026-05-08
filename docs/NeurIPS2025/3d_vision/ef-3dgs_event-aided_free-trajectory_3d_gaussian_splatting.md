@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2410.15392](https://arxiv.org/abs/2410.15392)  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 事件相机, 3D Gaussian Splatting, free-trajectory, 姿态估计, 新视角合成
 
 ## 一句话总结

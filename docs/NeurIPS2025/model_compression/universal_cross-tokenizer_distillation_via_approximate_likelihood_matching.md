@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.20083](https://arxiv.org/abs/2503.20083)  
-**代码**: https://github.com/bminixhofer/tokenkit  
+**代码**: [https://github.com/bminixhofer/tokenkit](https://github.com/bminixhofer/tokenkit)  
 **领域**: 模型压缩 / 知识蒸馏  
 **关键词**: 跨分词器蒸馏, 近似似然匹配, 分词器迁移, f-散度, LLM蒸馏
 
@@ -124,10 +124,10 @@ $$\mathcal{L}^{ALM}_{S,T}(\mathbf{x}) = \sum_{i,j,k,l \in A_c(\mathbf{x})} f(p_T
 
 ## 相关论文
 
-- [\[ICCV 2025\] Cross-Architecture Distillation Made Simple with Redundancy Suppression](../../ICCV2025/model_compression/cross-architecture_distillation_made_simple_with_redundancy_suppression.md)
+- [\[AAAI 2026\] CTPD: Cross Tokenizer Preference Distillation](../../AAAI2026/model_compression/ctpd_cross_tokenizer_preference_distillation.md)
 - [\[NeurIPS 2025\] Learning to Factorize and Adapt: A Versatile Approach Toward Universal Spatio-Temporal Foundation Models](learning_to_factorize_and_adapt_a_versatile_approach_toward_universal_spatio-tem.md)
-- [\[ECCV 2024\] UNIC: Universal Classification Models via Multi-teacher Distillation](../../ECCV2024/model_compression/unic_universal_classification_models_via_multi-teacher_distillation.md)
-- [\[ICLR 2026\] Draft-based Approximate Inference for LLMs](../../ICLR2026/model_compression/draft-based_approximate_inference_for_llms.md)
-- [\[ICLR 2026\] Distillation of Large Language Models via Concrete Score Matching](../../ICLR2026/model_compression/distillation_of_large_language_models_via_concrete_score_matching.md)
+- [\[ICCV 2025\] Cross-Architecture Distillation Made Simple with Redundancy Suppression](../../ICCV2025/model_compression/cross-architecture_distillation_made_simple_with_redundancy_suppression.md)
+- [\[NeurIPS 2025\] Hyperbolic Dataset Distillation](hyperbolic_dataset_distillation.md)
+- [\[NeurIPS 2025\] Distillation Robustifies Unlearning](distillation_robustifies_unlearning.md)
 
 <!-- RELATED:END -->

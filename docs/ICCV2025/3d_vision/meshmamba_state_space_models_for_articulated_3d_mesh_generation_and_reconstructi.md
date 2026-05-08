@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2507.15212](https://arxiv.org/abs/2507.15212)  
 **代码**: -  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: Mamba, state space model, 3D mesh generation, human mesh recovery, vertex serialization  
 
 ## 一句话总结

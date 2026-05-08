@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.17319](https://arxiv.org/abs/2604.17319)  
-**代码**: https://github.com/Finch-coder/E2E-GMNER  
-**领域**: 多模态NER / 视觉定位  
+**代码**: [https://github.com/Finch-coder/E2E-GMNER](https://github.com/Finch-coder/E2E-GMNER)  
+**领域**: 目标检测  
 **关键词**: 多模态命名实体识别, 端到端生成, 视觉定位, 高斯扰动, CoT推理
 
 ## 一句话总结
@@ -126,10 +126,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] FusionAgent: A Multimodal Agent with Dynamic Model Selection for Human Recognition](../../CVPR2026/object_detection/fusionagent_a_multimodal_agent_with_dynamic_model_selection_for_human_recognitio.md)
 - [\[ICLR 2026\] Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Method](../../ICLR2026/object_detection/traceable_evidence_enhanced_visual_grounded_reasoning_evaluation_and_methodology.md)
-- [\[AAAI 2026\] Learning Procedural-aware Video Representations through State-Grounded Hierarchy Unfolding](../../AAAI2026/object_detection/learning_procedural-aware_video_representations_through_state-grounded_hierarchy.md)
-- [\[AAAI 2026\] Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces](../../AAAI2026/object_detection/beyond_fact_retrieval_episodic_memory_for_rag_with_generative_semantic_workspace.md)
 - [\[CVPR 2026\] Evaluating Few-Shot Pill Recognition Under Visual Domain Shift](../../CVPR2026/object_detection/evaluating_fewshot_pill_recognition_under_visual_d.md)
+- [\[ECCV 2024\] Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection](../../ECCV2024/object_detection/weak-to-strong_compositional_learning_from_generative_models_for_language-based_.md)
+- [\[ICCV 2025\] Large-scale Pre-training for Grounded Video Caption Generation](../../ICCV2025/object_detection/large-scale_pre-training_for_grounded_video_caption_generation.md)
+- [\[ICML 2025\] Understanding the Emergence of Multimodal Representation Alignment](../../ICML2025/object_detection/understanding_the_emergence_of_multimodal_representation_alignment.md)
 
 <!-- RELATED:END -->

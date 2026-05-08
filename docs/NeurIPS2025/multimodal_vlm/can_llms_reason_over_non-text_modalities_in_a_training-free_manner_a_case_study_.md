@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 上下文表征学习
   - 训练无关多模态推理
-  - 最优传输对齐
+  - 多模态VLM
   - 基础模型
   - 少样本学习
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.17552](https://arxiv.org/abs/2509.17552)  
-**代码**: [GitHub](https://github.com/ztlmememe/LLMxFM_ICRL) (有)  
+**代码**: [GitHub](https://github.com/ztlmememe/LLMxFM_ICRL)  
 **领域**: 多模态VLM  
 **关键词**: 上下文表征学习, 训练无关多模态推理, 最优传输对齐, 基础模型, 少样本学习
 
@@ -197,9 +197,9 @@ OT-PCA+ICL 在 ESOL 上提升 **16.6%** Pearson r。
 ## 相关论文
 
 - [\[NeurIPS 2025\] VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning](vt-fsl_bridging_vision_and_text_with_llms_for_few-shot_learning.md)
-- [\[ACL 2025\] Table Understanding and (Multimodal) LLMs: A Cross-Domain Case Study on Scientific Tables](../../ACL2025/multimodal_vlm/table_understanding_and_multimodal_llms_a_cross-domain_case_study_on_scientific_.md)
 - [\[NeurIPS 2025\] What Can RL Bring to VLA Generalization? An Empirical Study](what_can_rl_bring_to_vla_generalization_an_empirical_study.md)
-- [\[ACL 2025\] Can LLMs Deceive CLIP? Benchmarking Adversarial Compositionality of Pre-trained Multimodal Representation via Text Updates](../../ACL2025/multimodal_vlm/adversarial_compositionality_clip.md)
+- [\[ACL 2025\] Table Understanding and (Multimodal) LLMs: A Cross-Domain Case Study on Scientific Tables](../../ACL2025/multimodal_vlm/table_understanding_and_multimodal_llms_a_cross-domain_case_study_on_scientific_.md)
 - [\[NeurIPS 2025\] Training-free Online Video Step Grounding](training-free_online_video_step_grounding.md)
+- [\[ACL 2025\] Can LLMs Deceive CLIP? Benchmarking Adversarial Compositionality of Pre-trained Multimodal Representation via Text Updates](../../ACL2025/multimodal_vlm/adversarial_compositionality_clip.md)
 
 <!-- RELATED:END -->

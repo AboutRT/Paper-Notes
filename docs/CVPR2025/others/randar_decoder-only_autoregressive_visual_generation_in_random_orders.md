@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RandAR: Decoder-only Autoregressive Visual Generation in Random Orders
 description: >-
-  [CVPR 2025 Oral][图像生成][自回归模型] 提出 RandAR，首个支持任意 token 顺序生成的 decoder-only 视觉自回归模型，通过位置指令 token 打破光栅扫描顺序限制，解锁并行解码 2.5x 加速、零样本 inpainting/outpainting/分辨率外推等新能力。
+  [CVPR 2025 Oral][其他][自回归模型] 提出 RandAR，首个支持任意 token 顺序生成的 decoder-only 视觉自回归模型，通过位置指令 token 打破光栅扫描顺序限制，解锁并行解码 2.5x 加速、零样本 inpainting/outpainting/分辨率外推等新能力。
 tags:
   - CVPR 2025
-  - 图像生成
+  - 其他
   - 自回归模型
   - 随机顺序
   - 并行解码
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025 (Oral)  
 **arXiv**: [2412.01827](https://arxiv.org/abs/2412.01827)  
-**代码**: https://github.com/ziqipang/RandAR  
-**领域**: 图像生成  
+**代码**: [https://github.com/ziqipang/RandAR](https://github.com/ziqipang/RandAR)  
+**领域**: 其他  
 **关键词**: 自回归生成, 随机顺序, decoder-only, 位置指令token, 并行解码
 
 ## 一句话总结
@@ -132,8 +132,8 @@ RandAR 基于标准的 GPT 风格 decoder-only transformer。输入序列由 cla
 
 - [\[CVPR 2026\] Next-Scale Autoregressive Models for Text-to-Motion Generation](../../CVPR2026/others/next-scale_autoregressive_models_for_text-to-motion_generation.md)
 - [\[ACL 2025\] Advancing Sequential Numerical Prediction in Autoregressive Models](../../ACL2025/others/advancing_sequential_numerical_prediction_in_autoregressive_models.md)
-- [\[ACL 2025\] Re-identification of De-identified Documents with Autoregressive Infilling](../../ACL2025/others/reidentification_deidentified.md)
+- [\[ICLR 2026\] ToProVAR: Efficient Visual Autoregressive Modeling via Tri-Dimensional Entropy-Aware Semantic Analysis and Sparsity Optimization](../../ICLR2026/others/toprovar_efficient_visual_autoregressive_modeling_via_tri-dimensional_entropy-aw.md)
+- [\[CVPR 2025\] CARE Transformer: Mobile-Friendly Linear Visual Transformer via Decoupled Dual Interaction](care_transformer_linear_attention.md)
 - [\[CVPR 2025\] SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md)
-- [\[AAAI 2026\] Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables](../../AAAI2026/others/faster_certified_symmetry_breaking_using_orders_with_auxiliary_variables.md)
 
 <!-- RELATED:END -->

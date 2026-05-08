@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2411.17473](https://arxiv.org/abs/2411.17473)  
 **代码**: [GitHub](https://github.com/xwmaxwma/TinyViM)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 轻量级视觉骨干, Mamba, 频率解耦, 拉普拉斯金字塔, 高低频分离
 
 ## 一句话总结

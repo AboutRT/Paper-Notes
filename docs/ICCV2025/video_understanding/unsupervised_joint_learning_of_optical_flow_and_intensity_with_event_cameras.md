@@ -54,11 +54,11 @@ tags:
 
    将事件 $e_k$ 及其前驱事件 warp 到参考时间 $t_{\text{ref}}$ 后，定义逐事件的光度误差：
 
-   $$\epsilon_k = (L(\mathbf{x}'_k) - L(\mathbf{x}'_{k-1})) - p_k C$$
+    $\epsilon_k = (L(\mathbf{x}'_k) - L(\mathbf{x}'_{k-1})) - p_k C$
 
    关键性质：每个 PhE 项同时约束约 8 个亮度像素和 1 个光流像素，打开了联合估计的大门。总 PhE 损失为所有事件残差的平均绝对值：
 
-   $$\mathcal{L}_{\text{PhE}}(L, F) = \frac{1}{N_e} \sum_{k=1}^{N_e} |\epsilon_k|$$
+    $\mathcal{L}_{\text{PhE}}(L, F) = \frac{1}{N_e} \sum_{k=1}^{N_e} |\epsilon_k|$
 
    PhE 没有事件塌缩问题，更关注外观（亮度）约束。
 
@@ -66,7 +66,7 @@ tags:
 
    基于 warp 后事件图像（IWE）的梯度锐度：
 
-   $$\mathcal{L}_{\text{CMax}}(F) = 1 \Big/ \left(\frac{1}{|\Omega|}\int_\Omega \|\nabla \text{IWE}(\mathbf{x})\|_1 \, d\mathbf{x}\right)$$
+    $\mathcal{L}_{\text{CMax}}(F) = 1 \Big/ \left(\frac{1}{|\Omega|}\int_\Omega \|\nabla \text{IWE}(\mathbf{x})\|_1 \, d\mathbf{x}\right)$
 
    CMax 的唯一可优化变量是光流，更关注运动参数。PhE 与 CMax 形成互补：前者侧重外观，后者侧重运动。
 
@@ -74,7 +74,7 @@ tags:
 
    联合估计的关键优势：利用预测的光流 $F_{i \to i+1}$ 将亮度 $L_i$ warp 到 $t_{i+1}$，与另一样本直接预测的 $L_{i+1}$ 比较：
 
-   $$\mathcal{L}_{\text{TC}} = \frac{1}{|\Omega|}\int_\Omega |L_{i+1}(\mathbf{x}) - \mathcal{W}(\mathbf{x}; L_i, F_{i \to i+1})| \, d\mathbf{x}$$
+    $\mathcal{L}_{\text{TC}} = \frac{1}{|\Omega|}\int_\Omega |L_{i+1}(\mathbf{x}) - \mathcal{W}(\mathbf{x}; L_i, F_{i \to i+1})| \, d\mathbf{x}$
 
    TC 损失同时约束光流和亮度的时间连贯性，是联合估计相比独立估计的核心优势来源。
 

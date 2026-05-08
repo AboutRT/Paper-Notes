@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2505.16204](https://arxiv.org/abs/2505.16204)  
 **代码**: 无  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: benign overfitting, directional convergence, leaky ReLU, implicit bias, gradient descent, neural networks
 
 ## 一句话总结

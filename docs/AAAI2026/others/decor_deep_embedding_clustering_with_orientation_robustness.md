@@ -7,7 +7,7 @@ tags:
   - AAAI 2026 (KGML Bridge, non-archival)
   - 深度聚类
   - 旋转不变性
-  - 晶圆缺陷检测
+  - 其他
   - 非参数聚类
   - 异常检测
 ---
@@ -71,7 +71,7 @@ DECOR 是一个三阶段的框架：(A) 旋转和翻转不变的嵌入提取器 
    组合 Isolation Forest（IF）和 Local Outlier Factor（LOF）两种检测器，只有两者同时判定为异常时才标记为异常（$\mathbf{1}_{final} = \mathbf{1}_{IF} \wedge \mathbf{1}_{LOF}$）。
 
    关键创新在于**鲁棒的自适应阈值**：
-   $$\tau = \text{median}(s) + k \cdot \text{MAD}(s)$$
+    $\tau = \text{median}(s) + k \cdot \text{MAD}(s)$
    使用中位数和 MAD 而非均值和标准差，确保对重尾分布和已存在异常点的鲁棒性。
 
    LOF 的邻居数自适应选择：$k_{LOF} = \text{clip}(\sqrt{N}, k_{min}, k_{max})$，根据聚类大小自动调整。IF 使用保守的污染先验（hi_cont = 0.20）。
@@ -146,9 +146,9 @@ DECOR 结合了等变网络（e2cnn/D4 群）、非参数贝叶斯聚类（DPMM/
 ## 相关论文
 
 - [\[ICML 2025\] Symmetry-Robust 3D Orientation Estimation](../../ICML2025/others/symmetry-robust_3d_orientation_estimation.md)
-- [\[AAAI 2026\] CAE: Hierarchical Semantic Alignment for Image Clustering](hierarchical_semantic_alignment_for_image_clustering.md)
-- [\[ICLR 2026\] Distributed Algorithms for Euclidean Clustering](../../ICLR2026/others/distributed_algorithms_for_euclidean_clustering.md)
-- [\[AAAI 2026\] Approximation Algorithm for Constrained k-Center Clustering: A Local Search Approach](approximation_algorithm_for_constrained_k-center_clustering_.md)
+- [\[AAAI 2026\] Enhancing Noise Resilience in Face Clustering via Sparse Differential Transformer](enhancing_noise_resilience_in_face_clustering_via_sparse_differential_transforme.md)
 - [\[AAAI 2026\] Guided Perturbation Sensitivity (GPS): Detecting Adversarial Text via Embedding Stability and Word Importance](guided_perturbation_sensitivity_gps_detecting_adversarial_text_via_embedding_sta.md)
+- [\[AAAI 2026\] CAE: Hierarchical Semantic Alignment for Image Clustering](hierarchical_semantic_alignment_for_image_clustering.md)
+- [\[NeurIPS 2025\] AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing](../../NeurIPS2025/others/autoscidact_automated_scientific_discovery_through_contrastive_embedding_and_hyp.md)
 
 <!-- RELATED:END -->

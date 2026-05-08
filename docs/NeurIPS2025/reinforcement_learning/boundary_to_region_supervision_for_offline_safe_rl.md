@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.25727](https://arxiv.org/abs/2509.25727)  
-**代码**: https://github.com/HuikangSu/B2R  
-**领域**: AI安全  
+**代码**: [https://github.com/HuikangSu/B2R](https://github.com/HuikangSu/B2R)  
+**领域**: 强化学习  
 **关键词**: 离线安全强化学习, Decision Transformer, 代价约束, 非对称条件化, 安全区域监督
 
 ## 一句话总结
@@ -112,8 +112,8 @@ B2R包含三个环环相扣的组件：(1) 轨迹过滤去除不安全样本；(
 
 - [\[NeurIPS 2025\] Online Optimization for Offline Safe Reinforcement Learning](online_optimization_for_offline_safe_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning](adaptive_neighborhoodconstrained_q_learning_for_offline_rein.md)
-- [\[NeurIPS 2025\] Forecasting in Offline Reinforcement Learning for Non-stationary Environments](forecasting_in_offline_reinforcement_learning_for_non-stationary_environments.md)
 - [\[NeurIPS 2025\] Structural Information-based Hierarchical Diffusion for Offline Reinforcement Learning](structural_information-based_hierarchical_diffusion_for_offline_reinforcement_le.md)
+- [\[NeurIPS 2025\] Forecasting in Offline Reinforcement Learning for Non-stationary Environments](forecasting_in_offline_reinforcement_learning_for_non-stationary_environments.md)
 - [\[NeurIPS 2025\] Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm](trust_region_reward_optimization_and_proximal_inverse_reward_optimization_algori.md)
 
 <!-- RELATED:END -->

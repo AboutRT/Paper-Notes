@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.11206](https://arxiv.org/abs/2603.11206)  
 **代码**: 待确认  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: breast tumor segmentation, vision-language, evidential learning, cross-attention, DCE-MRI
 
 ## 一句话总结

@@ -58,8 +58,8 @@ tags:
 
 1. **KD损失的数学分解**：
    作者将标准KD损失（教师和学生输出分布之间的KL散度）分解为两个正交成分：
-   - **类间相似性（class-wise similarity）**：衡量教师和学生在不同类别上的预测排序是否一致，即类别级别的概率分配模式
-   - **类内分布（intra-class distribution）**：衡量在同一类别内部（特别是非目标类之间），概率质量的分布形态是否匹配
+    - **类间相似性（class-wise similarity）**：衡量教师和学生在不同类别上的预测排序是否一致，即类别级别的概率分配模式
+    - **类内分布（intra-class distribution）**：衡量在同一类别内部（特别是非目标类之间），概率质量的分布形态是否匹配
    
    这个分解揭示了一个关键洞察：**类间相似性通常比较容易学习（因为高概率类较少），但类内分布的不匹配是导致容量差距问题的主要因素**。大教师的类内分布可能非常"尖锐"或有复杂的模式，小学生根本无法拟合。
 
@@ -67,17 +67,17 @@ tags:
    基于上述分析，AID的核心思想是：与其让小学生去适应大教师的复杂分布，不如让教师主动简化自己的类内分布以匹配学生的学习能力。
    
    具体做法是在蒸馏前对教师模型进行微调：
-   - 保持教师的分类准确率不变（不损害教师的知识质量）
-   - 优化教师的类内分布，使其更接近学生可以有效学习的分布形态
-   - 微调过程需要参考学生的结构特征（容量信息），以确定适配的目标分布
+    - 保持教师的分类准确率不变（不损害教师的知识质量）
+    - 优化教师的类内分布，使其更接近学生可以有效学习的分布形态
+    - 微调过程需要参考学生的结构特征（容量信息），以确定适配的目标分布
 
    这种"教师先适应学生"的范式与传统KD中"学生努力学习教师"的范式形成了有趣的对比——一个好老师应该根据学生的水平调整自己的教学方式。
 
 3. **分布对齐策略**：
    AID微调教师时，目标并非让教师变弱，而是让教师的输出分布在保持正确性的同时，变得对学生更"友好"。这可能涉及：
-   - 平滑非目标类的概率分布
-   - 减少类内分布中的噪声信号
-   - 保持关键的类别排序和相似性信息
+    - 平滑非目标类的概率分布
+    - 减少类内分布中的噪声信号
+    - 保持关键的类别排序和相似性信息
 
 ### 损失函数 / 训练策略
 - AID微调阶段：教师网络在保持原始分类性能约束下，附加一个关于类内分布适配的优化目标
@@ -155,7 +155,7 @@ tags:
 - [\[CVPR 2025\] What Makes a Good Dataset for Knowledge Distillation?](../../CVPR2025/model_compression/what_makes_a_good_dataset_for_knowledge_distillation.md)
 - [\[ICCV 2025\] Knowledge Distillation with Refined Logits](knowledge_distillation_with_refined_logits.md)
 - [\[NeurIPS 2025\] Single-Teacher View Augmentation: Boosting Knowledge Distillation via Angular Diversity](../../NeurIPS2025/model_compression/single-teacher_view_augmentation_boosting_knowledge_distillation_via_angular_div.md)
-- [\[ICCV 2025\] Local Dense Logit Relations for Enhanced Knowledge Distillation](local_dense_logit_relations_for_enhanced_knowledge_distillation.md)
 - [\[ICCV 2025\] Perspective-Aware Teaching: Adapting Knowledge for Heterogeneous Distillation](perspective-aware_teaching_adapting_knowledge_for_heterogeneous_distillation.md)
+- [\[ICCV 2025\] Local Dense Logit Relations for Enhanced Knowledge Distillation](local_dense_logit_relations_for_enhanced_knowledge_distillation.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.05130](https://arxiv.org/abs/2502.05130)  
-**代码**: https://swapforward.github.io  
+**代码**: [https://swapforward.github.io](https://swapforward.github.io)  
 **领域**: 音频/图像生成  
 **关键词**: 扩散模型, 长音频生成, 全景图生成, 联合扩散, 潜空间交换
 

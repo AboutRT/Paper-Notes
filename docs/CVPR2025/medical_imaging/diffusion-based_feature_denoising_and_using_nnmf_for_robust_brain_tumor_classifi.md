@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13182](https://arxiv.org/abs/2603.13182)  
 **代码**: 待确认  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 脑肿瘤分类, NNMF, 扩散去噪, 对抗鲁棒性, AutoAttack
 
 ## 一句话总结

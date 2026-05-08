@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2506.01435](https://arxiv.org/abs/2506.01435)  
 **作者**: Hayato Tsukagoshi, Ryohei Sasano (名古屋大学)  
 **代码**: 未公开  
-**领域**: llm_nlp  
+**领域**: 信息检索  
 **关键词**: 文本嵌入, 降维, 内在维度, 各向同性, Prompt-based Embedding, MTEB  
 
 ## 一句话总结

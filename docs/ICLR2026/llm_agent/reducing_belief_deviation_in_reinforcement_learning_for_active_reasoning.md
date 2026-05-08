@@ -18,8 +18,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.12264](https://arxiv.org/abs/2510.12264)  
-**代码**: https://github.com/unimpor/T3  
-**领域**: 视频理解  
+**代码**: [https://github.com/unimpor/T3](https://github.com/unimpor/T3)  
+**领域**: LLM Agent  
 **关键词**: active reasoning, reinforcement-learning, LLM agent, belief tracking, POMDP, credit assignment
 
 ## 一句话总结

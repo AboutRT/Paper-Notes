@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.02787](https://arxiv.org/abs/2512.02787)  
-**代码**: [项目页面](https://vifailback.github.io/) (有)  
-**领域**: Robotics  
+**代码**: [项目页面](https://vifailback.github.io/)  
+**领域**: 机器人  
 **关键词**: 机器人操作失败, 视觉符号, VLM失败诊断, VLA恢复, 真实世界数据集
 
 ## 一句话总结
@@ -130,8 +130,8 @@ tags:
 
 - [\[CVPR 2026\] Language-Grounded Decoupled Action Representation for Robotic Manipulation](language-grounded_decoupled_action_representation_for_robotic_manipulation.md)
 - [\[CVPR 2026\] GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer](geco-srt_geometry-aware_continual_adaptation_for_robotic_cross-task_sim-to-real_.md)
+- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
 - [\[CVPR 2026\] DeepSketcher: Internalizing Visual Manipulation for Multimodal Reasoning](deepsketcher_internalizing_visual_manipulation_for_multimodal_reasoning.md)
 - [\[CVPR 2026\] FORCE: Transferable Visual Jailbreaking Attacks via Feature Over-Reliance CorrEction](force_transferable_visual_jailbreaking_attacks_via_feature_over-reliance_correct.md)
-- [\[CVPR 2026\] The Coherence Trap: MLLM-Crafted Narratives Exploit Manipulated Visual Contexts](the_coherence_trap_when_mllmcrafted_narratives_exp.md)
 
 <!-- RELATED:END -->

@@ -51,19 +51,19 @@ tags:
 
    **多帧物体检测**：
    从 RGB-D 帧序列中检测物体，每帧包含彩色图像 $I$、深度图 $D$、相机内参 $K$ 和位姿 $T_w^c \in SE(3)$。检测到的物体用有向 3D 包围盒表示：
-   $$b_i = (c_i, \ell_i, R_i), \quad c_i \in \mathbb{R}^3, \ell_i \in \mathbb{R}_{>0}^3, R_i \in SO(3)$$
+    $b_i = (c_i, \ell_i, R_i), \quad c_i \in \mathbb{R}^3, \ell_i \in \mathbb{R}_{>0}^3, R_i \in SO(3)$
 
    检测置信度用 Beta 分布建模：$\sigma_i \sim \text{Beta}(\alpha_i, \beta_i)$，自适应缩放因子 $\tau$ 基于预测概率的熵动态调整。
 
    利用掩码进行深度反投影获取 3D 点：$X_j^c = K^{-1}[u_j\ v_j\ 1]D_j$，再变换到世界坐标系。
 
    每 $L$ 帧基于余弦相似度合并重复物体：
-   $$S(\tilde{f}_i, \tilde{f}_j) = \frac{\langle \tilde{f}_i, \tilde{f}_j \rangle}{\|\tilde{f}_i\| \|\tilde{f}_j\|}$$
+    $S(\tilde{f}_i, \tilde{f}_j) = \frac{\langle \tilde{f}_i, \tilde{f}_j \rangle}{\|\tilde{f}_i\| \|\tilde{f}_j\|}$
    其中特征经 Mahalanobis 白化预处理。
 
    **最佳视角选择与标注**：
    为每个物体选择最大化可见性和投影覆盖的最佳视角：
-   $$T_{w,i}^{c*} = \arg\max_{T_w^c \in \mathcal{P}} \left[A(\mathcal{P}(X_i^w, T_w^c)) \cdot V(X_i^w, T_w^c)^\gamma - \lambda D(T_{w,i}^c, T_w^c)\right]$$
+    $T_{w,i}^{c*} = \arg\max_{T_w^c \in \mathcal{P}} \left[A(\mathcal{P}(X_i^w, T_w^c)) \cdot V(X_i^w, T_w^c)^\gamma - \lambda D(T_{w,i}^c, T_w^c)\right]$
    然后使用 LLaVA 在最佳视角下对物体进行语义标注。
 
    **设计动机**：最佳视角减少了遮挡和模糊，使 VLM 能给出更准确的开放词汇标注。
@@ -73,18 +73,18 @@ tags:
 
    **语义关系提取**：
    使用 Qwen2-VL-72B 对每个有效物体对推断 top-5 语义谓词：
-   $$\mathcal{R}_{ij} = (o_i, r_{ij}, o_j), \quad r_{ij} \in \mathcal{C}_{edge}$$
+    $\mathcal{R}_{ij} = (o_i, r_{ij}, o_j), \quad r_{ij} \in \mathcal{C}_{edge}$
    过滤背景元素（地板、天花板），得到最终 3D 语义场景图。
 
 2. **检索增强语义推理**
 
    **向量数据库构建**：
    将场景图重组为以物体标签为中心的"块"（chunk），每个块聚合该类物体的所有实例信息。通过语义编码器（CLIP/BERT/Text2Vec）映射到高维向量空间：
-   $$\boldsymbol{\zeta}_i = \phi(\boldsymbol{\eta}_i), \quad \mathcal{D} = \{(\boldsymbol{\zeta}_i, \boldsymbol{\eta}_i)\}_{i=1}^N$$
+    $\boldsymbol{\zeta}_i = \phi(\boldsymbol{\eta}_i), \quad \mathcal{D} = \{(\boldsymbol{\zeta}_i, \boldsymbol{\eta}_i)\}_{i=1}^N$
 
    **基于接地的提示推理**：
    给定用户查询 $q$，编码后进行 top-k 相似度检索：
-   $$\mathcal{E}_q = \text{Top-}k(\mathcal{D}, \boldsymbol{\xi}_q)$$
+    $\mathcal{E}_q = \text{Top-}k(\mathcal{D}, \boldsymbol{\xi}_q)$
 
    检索到的场景信息与用户查询组合成结构化提示，送入 LLM（Qwen-2-72B-Instruct）进行接地推理。
 

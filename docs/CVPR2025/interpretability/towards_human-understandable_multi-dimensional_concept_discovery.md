@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 概念发现
   - 可解释AI
-  - SAM分割
+  - 可解释性
   - CNN解释
   - 人类理解性
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18629](https://arxiv.org/abs/2503.18629)  
-**代码**: https://github.com/grobruegge/hu-mcd  
-**领域**: 其他  
+**代码**: [https://github.com/grobruegge/hu-mcd](https://github.com/grobruegge/hu-mcd)  
+**领域**: 可解释性  
 **关键词**: 概念发现, 可解释AI, SAM分割, CNN解释, 人类理解性
 
 ## 一句话总结
@@ -112,9 +112,9 @@ HU-MCD 是一个后验解释方法，不需要训练。使用预训练的 ResNet
 ## 相关论文
 
 - [\[ICCV 2025\] Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations](../../ICCV2025/interpretability/granular_concept_circuits_toward_a_fine-grained_circuit_discovery_for_concept_re.md)
-- [\[AAAI 2026\] Probing Preference Representations: A Multi-Dimensional Evaluation and Analysis Method for Reward Models](../../AAAI2026/interpretability/probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)
 - [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
+- [\[AAAI 2026\] Probing Preference Representations: A Multi-Dimensional Evaluation and Analysis Method for Reward Models](../../AAAI2026/interpretability/probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)
+- [\[CVPR 2025\] Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck Model with Better Interpretability and Scalability](albm_attribute_concept_space.md)
 - [\[ICCV 2025\] VITAL: More Understandable Feature Visualization through Distribution Alignment and Relevant Information Flow](../../ICCV2025/interpretability/vital_more_understandable_feature_visualization_through_distribution_alignment_a.md)
-- [\[ACL 2025\] Position-aware Automatic Circuit Discovery](../../ACL2025/interpretability/position-aware_automatic_circuit_discovery.md)
 
 <!-- RELATED:END -->

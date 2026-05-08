@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04383](https://arxiv.org/abs/2412.04383)  
-**代码**: https://seeground.github.io  
+**代码**: [https://seeground.github.io](https://seeground.github.io)  
 **领域**: 3D视觉  
 **关键词**: 3D视觉定位, 零样本, 视觉语言模型, 视角自适应, 开放词汇
 
@@ -141,6 +141,6 @@ Nr3D 数据集：
 - [\[CVPR 2025\] Text-Guided Sparse Voxel Pruning for Efficient 3D Visual Grounding](text-guided_sparse_voxel_pruning_for_efficient_3d_visual_grounding.md)
 - [\[CVPR 2025\] Reconstructing In-the-Wild Open-Vocabulary Human-Object Interactions](reconstructing_in-the-wild_open-vocabulary_human-object_interactions.md)
 - [\[CVPR 2025\] ProxyTransformation: Preshaping Point Cloud Manifold with Proxy Attention for 3D Visual Grounding](proxytransformation_preshaping_point_cloud_manifold_with_proxy_attention_for_3d_.md)
-- [\[CVPR 2025\] JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas](jopp-3d_joint_open_vocabulary_semantic_segmentation_on_point_clouds_and_panorama.md)
+- [\[CVPR 2025\] Open-Vocabulary Functional 3D Scene Graphs for Real-World Indoor Spaces](open-vocabulary_functional_3d_scene_graphs_for_real-world_indoor_spaces.md)
 
 <!-- RELATED:END -->

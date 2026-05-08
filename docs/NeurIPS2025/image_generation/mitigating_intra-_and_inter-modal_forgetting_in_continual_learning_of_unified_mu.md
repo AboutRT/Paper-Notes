@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.03125](https://arxiv.org/abs/2512.03125)  
 **代码**: [GitHub](https://github.com/Christina200/MoDE-official)  
-**领域**: 多模态生成 / 持续学习  
+**领域**: 图像生成  
 **关键词**: 统一多模态生成模型, 模态间遗忘, 模态内遗忘, LoRA专家混合, 知识蒸馏
 
 ## 一句话总结
@@ -48,15 +48,15 @@ MoDE在冻结的UMGM线性层上集成两类轻量级适配器：处理文本tok
 1. **V-Adapter（视觉LoRA适配器）**
 
    专门处理图像token的LoRA模块，用于视觉理解和图像生成。采用标准LoRA形式：
-   $$\Delta W = \frac{\alpha}{r} BA$$
+    $\Delta W = \frac{\alpha}{r} BA$
    
    输入token表示 $h$ 经过修改的线性变换为 $f(h) = hW^\top + \frac{\alpha}{r}hA^\top B^\top$。设计动机：将图像相关的参数更新隔离在独立子空间中，避免与文本更新互相干扰。
 
 2. **T-MoE（文本LoRA专家混合）**
 
    针对文本token的MoE-LoRA，通过路由器将输入分配给多个专家：
-   $$g_j(x) = \text{softmax}(xW_g)_j$$
-   $$f(h) = hW^\top + \frac{\alpha}{r}\sum_{j=1}^{n} g_j(x) hA_j^\top B_j^\top$$
+    $g_j(x) = \text{softmax}(xW_g)_j$
+    $f(h) = hW^\top + \frac{\alpha}{r}\sum_{j=1}^{n} g_j(x) hA_j^\top B_j^\top$
    
    其中 $n$ 为专家数量。路由机制使不同任务自动激活不同专家组合，从而缓解模态内遗忘。动机：利用专家的多样性实现任务特异性适配，避免参数覆盖。
 
@@ -65,7 +65,7 @@ MoDE在冻结的UMGM线性层上集成两类轻量级适配器：处理文本tok
    MoDE可证明地将模态间干扰从 $\mathcal{O}(\eta)$ 降低到 $\mathcal{O}(\eta^2)$：
    
    当T-MoE参数 $\phi$ 更新时，对视觉损失的影响为：
-   $$\Delta \mathcal{L}_v = \frac{\eta^2}{2} \lambda_{\max}(\nabla^2_{\phi\phi}\mathcal{L}_v) \|\nabla_\phi \mathcal{L}_t\|^2$$
+    $\Delta \mathcal{L}_v = \frac{\eta^2}{2} \lambda_{\max}(\nabla^2_{\phi\phi}\mathcal{L}_v) \|\nabla_\phi \mathcal{L}_t\|^2$
    
    由于 $\nabla_\phi \mathcal{L}_v = 0$（T-MoE不直接处理视觉token），一阶冲突项消失，仅剩二阶项。
 

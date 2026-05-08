@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.08841](https://arxiv.org/abs/2511.08841)  
 **代码**: 待确认  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: differential privacy, DPSGD, Per-Sample Momentum, Low-Pass Filtering, Privacy-Utility Trade-off
 
 ## 一句话总结
@@ -157,10 +157,10 @@ $$\mathcal{O}\!\left(\frac{f(x_0)-f^*}{\eta T} + L\eta C^2 + \frac{L\eta \, d\si
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] On the Sample Complexity of Differentially Private Policy Optimization](../../NeurIPS2025/ai_safety/on_the_sample_complexity_of_differentially_private_policy_optimization.md)
-- [\[NeurIPS 2025\] InvisibleInk: High-Utility and Low-Cost Text Generation with Differential Privacy](../../NeurIPS2025/ai_safety/invisibleink_high-utility_and_low-cost_text_generation_with_differential_privacy.md)
 - [\[ICLR 2026\] Sample-Efficient Distributionally Robust Multi-Agent Reinforcement Learning via Online Interaction](../../ICLR2026/ai_safety/sample-efficient_distributionally_robust_multi-agent_reinforcement_learning_via_.md)
 - [\[ICLR 2026\] Toward Enhancing Representation Learning in Federated Multi-Task Settings](../../ICLR2026/ai_safety/toward_enhancing_representation_learning_in_federated_multi-task_settings.md)
 - [\[NeurIPS 2025\] Spectral Perturbation Bounds for Low-Rank Approximation with Applications to Privacy](../../NeurIPS2025/ai_safety/spectral_perturbation_bounds_for_low-rank_approximation_with_applications_to_pri.md)
+- [\[NeurIPS 2025\] Perturbation Bounds for Low-Rank Inverse Approximations under Noise](../../NeurIPS2025/ai_safety/perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)
+- [\[NeurIPS 2025\] Enhancing Graph Classification Robustness with Singular Pooling](../../NeurIPS2025/ai_safety/enhancing_graph_classification_robustness_with_singular_pooling.md)
 
 <!-- RELATED:END -->

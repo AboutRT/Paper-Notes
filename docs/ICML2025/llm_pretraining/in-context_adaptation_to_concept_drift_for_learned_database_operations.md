@@ -19,7 +19,7 @@ tags:
 **作者**: Jiaqi Zhu, Shaofeng Cai, Yanyan Shen, Gang Chen, Fang Deng, Beng Chin Ooi
 **机构**: 北京理工大学、新加坡国立大学、上海交通大学、浙江大学
 **代码**: 待确认  
-**领域**: others  
+**领域**: LLM预训练  
 **关键词**: Concept Drift, in-context learning, Learned Database Operations, Online Adaptation, Bayesian Meta-Training
 
 ## 一句话总结
@@ -158,9 +158,9 @@ DDE 是 FLAIR 的核心，负责基于上下文进行动态预测。
 ## 相关论文
 
 - [\[ICML 2025\] When Can In-Context Learning Generalize Out of Task Distribution?](when_can_in-context_learning_generalize_out_of_task_distribution.md)
+- [\[NeurIPS 2025\] The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation](../../NeurIPS2025/llm_pretraining/the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md)
 - [\[ACL 2025\] TokAlign: Efficient Vocabulary Adaptation via Token Alignment](../../ACL2025/llm_pretraining/tokalign_vocab_adaptation.md)
 - [\[ICCV 2025\] ETA: Energy-based Test-time Adaptation for Depth Completion](../../ICCV2025/llm_pretraining/eta_energy-based_test-time_adaptation_for_depth_completion.md)
-- [\[ACL 2025\] Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation](../../ACL2025/llm_pretraining/emergent_abilities_continued_pt.md)
-- [\[CVPR 2025\] Lost in Translation, Found in Context: Sign Language Translation with Contextual Cues](../../CVPR2025/llm_pretraining/lost_in_translation_found_in_context_sign_language_translation_with_contextual_c.md)
+- [\[NeurIPS 2025\] One Prompt Fits All: Universal Graph Adaptation for Pretrained Models](../../NeurIPS2025/llm_pretraining/one_prompt_fits_all_universal_graph_adaptation_for_pretrained_models.md)
 
 <!-- RELATED:END -->

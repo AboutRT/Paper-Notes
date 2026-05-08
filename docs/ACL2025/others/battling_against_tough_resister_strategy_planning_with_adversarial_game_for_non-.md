@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Battling against Tough Resister: Strategy Planning with Adversarial Game for Non-collaborative Dialogues
 description: >-
-  [ACL 2025][非合作对话] 本文提出一种基于对抗博弈的策略规划框架，用于处理非合作对话（如说服、谈判）中面对顽固对手时的策略选择问题，通过建模对话双方的对抗动态来生成更有效的说服策略。
+  [ACL 2025][其他] 本文提出一种基于对抗博弈的策略规划框架，用于处理非合作对话（如说服、谈判）中面对顽固对手时的策略选择问题，通过建模对话双方的对抗动态来生成更有效的说服策略。
 tags:
   - ACL 2025
-  - 非合作对话
+  - 其他
   - 对抗博弈
   - 策略规划
   - 说服对话
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 无  
 **代码**: 无  
-**领域**: 对话系统  
+**领域**: 其他  
 **关键词**: 非合作对话、对抗博弈、策略规划、说服对话、谈判
 
 ## 一句话总结
@@ -119,8 +119,8 @@ tags:
 
 - [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](cola_collaborative_low-rank_adaptation.md)
 - [\[ACL 2025\] Towards Robust ESG Analysis Against Greenwashing Risks: A3CG](a3cg_esg_greenwashing.md)
-- [\[AAAI 2026\] Boosting Adversarial Transferability via Ensemble Non-Attention](../../AAAI2026/others/boosting_adversarial_transferability_via_ensemble_non-attention.md)
 - [\[ACL 2025\] FastMCTS: A Simple Sampling Strategy for Data Synthesis](fastmcts_a_simple_sampling_strategy_for_data_synthesis.md)
-- [\[CVPR 2025\] STRAP-ViT: Segregated Tokens with Randomized Transformations for Defense against Adversarial Patches in ViTs](../../CVPR2025/others/strap-vit_segregated_tokens_with_randomized_--_transformations_for_defense_again.md)
+- [\[ACL 2025\] SDD: Self-Degraded Defense against Malicious Fine-tuning](sdd_self-degraded_defense_against_malicious_fine-tuning.md)
+- [\[AAAI 2026\] Boosting Adversarial Transferability via Ensemble Non-Attention](../../AAAI2026/others/boosting_adversarial_transferability_via_ensemble_non-attention.md)
 
 <!-- RELATED:END -->

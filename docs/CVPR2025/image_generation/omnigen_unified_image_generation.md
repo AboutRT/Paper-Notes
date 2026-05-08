@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2409.11340](https://arxiv.org/abs/2409.11340)  
-**代码**: https://github.com/VectorSpaceLab/OmniGen  
+**代码**: [https://github.com/VectorSpaceLab/OmniGen](https://github.com/VectorSpaceLab/OmniGen)  
 **领域**: 图像生成 / 统一模型  
 **关键词**: 统一图像生成, 扩散模型, 多任务, 知识迁移, Rectified Flow
 

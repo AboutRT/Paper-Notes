@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 个性化多模态大模型
-  - 检索增强生成
+  - 多模态VLM
   - 用户概念记忆
   - 个性化对话
   - 数据构建
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.13360](https://arxiv.org/abs/2410.13360)  
-**代码**: https://hoar012.github.io/RAP-Project/ (有)  
+**代码**: [https://hoar012.github.io/RAP-Project/](https://hoar012.github.io/RAP-Project/)  
 **领域**: 多模态VLM  
 **关键词**: 个性化多模态大模型, 检索增强生成, 用户概念记忆, 个性化对话, 数据构建
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.12013](https://arxiv.org/abs/2403.12013)  
-**代码**: https://github.com/fuxiao0719/GeoWizard  
+**代码**: [https://github.com/fuxiao0719/GeoWizard](https://github.com/fuxiao0719/GeoWizard)  
 **领域**: 3D视觉  
 **关键词**: 深度估计, 法线估计, 扩散先验, 联合估计, 场景分布解耦
 

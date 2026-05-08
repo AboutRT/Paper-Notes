@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 不可能语言
   - 语言类型学
-  - 语言模型认知
+  - 其他
   - GPT-2
   - Greenberg Universal 20
 ---
@@ -130,9 +130,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] A Little Human Data Goes A Long Way](a_little_human_data_goes_a_long_way.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
 - [\[ACL 2025\] What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation](what_matters_in_evaluating_book-length_stories_a_systematic_study_of_long_story_.md)
 - [\[ACL 2025\] Understanding Common Ground Misalignment in Goal-Oriented Dialog: A Case-Study with Ubuntu Chat Logs](understanding_common_ground_misalignment_in_goal-oriented_dialog_a_case-study_wi.md)
 - [\[ACL 2025\] Cooperating and Competing Through Natural Language](cooperating_and_competing_through_natural_language.md)
+- [\[ACL 2025\] Contextual Experience Replay for Self-Improvement of Language Agents](contextual_experience_replay_for_self-improvement_of_language_agents.md)
 
 <!-- RELATED:END -->

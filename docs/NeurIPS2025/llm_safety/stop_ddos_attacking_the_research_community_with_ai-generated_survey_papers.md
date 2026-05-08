@@ -9,7 +9,7 @@ tags:
   - 综述论文DDoS攻击
   - 学术诚信
   - 动态活综述
-  - 论文质量检测
+  - LLM安全
   - 科研文化
 ---
 
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2510.09686](https://arxiv.org/abs/2510.09686)  
 **作者**: Jianghao Lin, Rong Shan, Jiachen Zhu, Yunjia Xi, Yong Yu, Weinan Zhang (上海交通大学)  
 **代码**: 无  
-**领域**: llm_safety  
+**领域**: LLM安全  
 **关键词**: AI生成综述, 综述论文DDoS攻击, 学术诚信, 动态活综述, 论文质量检测, 科研文化  
 
 ## 一句话总结
@@ -175,10 +175,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Demystifying Language Model Forgetting with Low-Rank Example Associations](demystifying_language_model_forgetting_with_low-rank_example_associations.md)
-- [\[NeurIPS 2025\] SIMU: Selective Influence Machine Unlearning](simu_selective_influence_machine_unlearning.md)
-- [\[NeurIPS 2025\] Buffer Layers for Test-Time Adaptation](buffer_layers_for_test-time_adaptation.md)
-- [\[NeurIPS 2025\] Procurement Auctions with Predictions: Improved Frugality for Facility Location](procurement_auctions_with_predictions_improved_frugality_for_facility_location.md)
-- [\[NeurIPS 2025\] A Reliable Cryptographic Framework for Empirical Machine Unlearning Evaluation](a_reliable_cryptographic_framework_for_empirical_machine_unl.md)
+- [\[NeurIPS 2025\] Collective Narrative Grounding: Community-Coordinated Data Contributions to Improve Local AI Systems](collective_narrative_grounding_community-coordinated_data_contributions_to_impro.md)
+- [\[NeurIPS 2025\] Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text](adversarial_paraphrasing_a_universal_attack_for_humanizing_ai-generated_text.md)
+- [\[NeurIPS 2025\] DNA-DetectLLM: Unveiling AI-Generated Text via a DNA-Inspired Mutation-Repair Paradigm](dna-detectllm_unveiling_ai-generated_text_via_a_dna-inspired_mutation-repair_par.md)
+- [\[NeurIPS 2025\] ORBIT -- Open Recommendation Benchmark for Reproducible Research with Hidden Tests](orbit_--_open_recommendation_benchmark_for_reproducible_research_with_hidden_tes.md)
+- [\[NeurIPS 2025\] When AI Democratizes Exploitation: LLM-Assisted Strategic Manipulation of Fair Division Algorithms](when_ai_democratizes_exploitation_llm-assisted_strategic_manipulation_of_fair_di.md)
 
 <!-- RELATED:END -->

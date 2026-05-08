@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV2024
   - 语音
-  - talking head generation
+  - 音频语音
   - facial disentanglement
   - emotional expression
   - orthogonal bases
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2404.01647](https://arxiv.org/abs/2404.01647)  
 **代码**: [tanshuai0219/EDTalk](https://github.com/tanshuai0219/EDTalk)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: talking head generation, facial disentanglement, emotional expression, orthogonal bases, audio-driven
 
 ## 一句话总结
@@ -139,10 +139,10 @@ EDTalk 的关键优势在于不依赖外部先验信息（如 3DMM、额外音�
 
 ## 相关论文
 
-- [\[ECCV 2024\] Label-Anticipated Event Disentanglement for Audio-Visual Video Parsing](label-anticipated_event_disentanglement_for_audio-visual_video_parsing.md)
+- [\[CVPR 2025\] DualTalk: Dual-Speaker Interaction for 3D Talking Head Conversations](../../CVPR2025/audio_speech/dualtalk_dual-speaker_interaction_for_3d_talking_head_conversations.md)
 - [\[ACL 2026\] Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations](../../ACL2026/audio_speech/affectron_emotional_speech_synthesis_with_affective_and_contextually_aligned_non.md)
-- [\[NeurIPS 2025\] Multi-head Temporal Latent Attention](../../NeurIPS2025/audio_speech/multi-head_temporal_latent_attention.md)
+- [\[ECCV 2024\] Label-Anticipated Event Disentanglement for Audio-Visual Video Parsing](label-anticipated_event_disentanglement_for_audio-visual_video_parsing.md)
 - [\[CVPR 2026\] Tri-Subspaces Disentanglement for Multimodal Sentiment Analysis](../../CVPR2026/audio_speech/tri-subspaces_disentanglement_for_multimodal_sentiment_analysis.md)
-- [\[CVPR 2026\] Talking Together: Synthesizing Co-Located 3D Conversations from Audio](../../CVPR2026/audio_speech/talking_together_synthesizing_co-located_3d_conversations_from_audio.md)
+- [\[ICLR 2026\] Stitch: Simultaneous Thinking and Talking with Chunked Reasoning for Spoken Language Models](../../ICLR2026/audio_speech/stitch_simultaneous_thinking_and_talking_with_chunked_reasoning_for_spoken_langu.md)
 
 <!-- RELATED:END -->

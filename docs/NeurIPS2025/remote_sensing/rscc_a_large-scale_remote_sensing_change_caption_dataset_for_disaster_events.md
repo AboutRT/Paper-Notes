@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.01907](https://arxiv.org/abs/2509.01907)  
-**代码**: https://github.com/Bili-Sakura/RSCC (有)  
+**代码**: [https://github.com/Bili-Sakura/RSCC](https://github.com/Bili-Sakura/RSCC)  
 **领域**: 遥感 / 视觉语言  
 **关键词**: remote sensing, change captioning, disaster monitoring, bi-temporal, vision-language model
 
@@ -124,6 +124,6 @@ RSCC构建流程分为四步：(1) 从xBD(MAXAR OpenData)和EBD两个建筑损�
 - [\[NeurIPS 2025\] GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data](geolink_empowering_remote_sensing_foundation_model_with_openstreetmap_data.md)
 - [\[CVPR 2026\] Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments](../../CVPR2026/remote_sensing/olbedo_an_albedo_and_shading_aerial_dataset_for_large-scale_outdoor_environments.md)
 - [\[NeurIPS 2025\] GreenHyperSpectra: A Multi-Source Hyperspectral Dataset for Global Vegetation Trait Prediction](greenhyperspectra_a_multi-source_hyperspectral_dataset_for_global_vegetation_tra.md)
-- [\[ICML 2025\] Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing](../../ICML2025/remote_sensing/resampling_augmentation_for_time_series_contrastive_learning_application_to_remo.md)
+- [\[ICCV 2025\] SkySense V2: A Unified Foundation Model for Multi-Modal Remote Sensing](../../ICCV2025/remote_sensing/skysense_v2_a_unified_foundation_model_for_multi-modal_remote_sensing.md)
 
 <!-- RELATED:END -->

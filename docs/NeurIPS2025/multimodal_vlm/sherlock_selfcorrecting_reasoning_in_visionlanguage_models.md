@@ -9,7 +9,7 @@ tags:
   - 自我纠正
   - 偏好学习
   - trajectory-level
-  - VLM reasoning
+  - 多模态VLM
   - 自我改进
 ---
 

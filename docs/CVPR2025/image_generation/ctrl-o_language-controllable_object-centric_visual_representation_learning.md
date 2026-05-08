@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21747](https://arxiv.org/abs/2503.21747)  
-**代码**: https://ctrl-o-paper.github.io  
+**代码**: [https://ctrl-o-paper.github.io](https://ctrl-o-paper.github.io)  
 **领域**: 图像生成  
 **关键词**: 目标中心表示、Slot Attention、语言控制、对比损失、物体发现
 

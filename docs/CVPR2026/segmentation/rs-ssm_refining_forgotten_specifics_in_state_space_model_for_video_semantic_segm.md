@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.24295](https://arxiv.org/abs/2603.24295)  
-**代码**: https://github.com/zhoujiahuan1991/CVPR2026-RS-SSM  
+**代码**: [https://github.com/zhoujiahuan1991/CVPR2026-RS-SSM](https://github.com/zhoujiahuan1991/CVPR2026-RS-SSM)  
 **领域**: 语义分割 / 视频理解  
 **关键词**: 视频语义分割, 状态空间模型, 遗忘门精炼, 频域分析, Mamba
 

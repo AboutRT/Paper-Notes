@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.07314](https://arxiv.org/abs/2510.07314)  
 **代码**: [ml-jku/neural-gyrokinetics](https://github.com/ml-jku/neural-gyrokinetics)  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: 等离子体湍流, 回旋动力学, 5D代理模型, Swin Transformer, 核聚变
 
 ## 一句话总结
@@ -176,6 +176,6 @@ $$\mathcal{L} = w_f \mathcal{L}_f + w_\phi \mathcal{L}_\phi + w_Q \mathcal{L}_Q$
 - [\[NeurIPS 2025\] Bayesian Surrogates for Risk-Aware Pre-Assessment of Aging Bridge Portfolios](bayesian_surrogates_for_risk-aware_pre-assessment_of_aging_bridge_portfolios.md)
 - [\[NeurIPS 2025\] Physics-Guided Machine Learning for Uncertainty Quantification in Turbulence Models](physics-guided_machine_learning_for_uncertainty_quantification_in_turbulence_mod.md)
 - [\[NeurIPS 2025\] Symbolic Regression Is All You Need: From Simulations to Scaling Laws in Binary Neutron Star Mergers](symbolic_regression_is_all_you_need_from_simulations_to_scaling_laws_in_binary_n.md)
-- [\[AAAI 2026\] PhysicsCorrect: A Training-Free Approach for Stable Neural PDE Simulations](../../AAAI2026/scientific_computing/physicscorrect_a_training-free_approach_for_stable_neural_pde_simulations.md)
+- [\[CVPR 2025\] Learning Phase Distortion with Selective State Space Models for Video Turbulence Mitigation](../../CVPR2025/scientific_computing/learning_phase_distortion_with_selective_state_space_models_for_video_turbulence.md)
 
 <!-- RELATED:END -->

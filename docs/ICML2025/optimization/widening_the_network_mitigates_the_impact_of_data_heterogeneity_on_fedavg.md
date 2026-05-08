@@ -12,7 +12,7 @@ tags:
 - **会议**: ICML 2025
 - **arXiv**: [2508.12576](https://arxiv.org/abs/2508.12576)
 - **代码**: [kkhuge/ICML2025](https://github.com/kkhuge/ICML2025)
-- **领域**: 联邦学习 / 过参数化理论 / NTK
+- **领域**: 优化
 - **关键词**: FedAvg, 数据异质性, 网络宽度, Neural Tangent Kernel, 过参数化, 模型发散, 联邦学习收敛
 
 ## 一句话总结

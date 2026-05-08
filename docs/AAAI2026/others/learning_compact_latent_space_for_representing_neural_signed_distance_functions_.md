@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.14539](https://arxiv.org/abs/2511.14539)  
 **代码**: [GitHub](https://github.com/eoozbq/Compact-SDF)  
-**领域**: 3D视觉 / 三维形状表示  
+**领域**: 其他  
 **关键词**: 神经符号距离函数, 隐式表示, 紧凑潜空间, 体积网格, 几何细节
 
 ## 一句话总结
@@ -160,9 +160,9 @@ $$\mathcal{L} = \mathcal{L}_{\text{gen}} + \mathcal{L}_{\text{ovf}} + \lambda_1 
 ## 相关论文
 
 - [\[ICLR 2026\] Out of the Shadows: Exploring a Latent Space for Neural Network Verification](../../ICLR2026/others/out_of_the_shadows_exploring_a_latent_space_for_neural_network_verification.md)
+- [\[ICCV 2025\] Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging](../../ICCV2025/others/hi3dgen_high-fidelity_3d_geometry_generation_from_images_via_normal_bridging.md)
 - [\[ICLR 2026\] A Single Architecture for Representing Invariance Under Any Space Group](../../ICLR2026/others/a_single_architecture_for_representing_invariance_under_any_space_group.md)
 - [\[AAAI 2026\] I2E: Real-Time Image-to-Event Conversion for High-Performance Spiking Neural Networks](i2e_real-time_image-to-event_conversion_for_high-performance_spiking_neural_netw.md)
-- [\[ICLR 2026\] On the Lipschitz Continuity of Set Aggregation Functions and Neural Networks for Sets](../../ICLR2026/others/on_the_lipschitz_continuity_of_set_aggregation_functions_and_neural_networks_for.md)
-- [\[AAAI 2026\] Formal Abductive Latent Explanations for Prototype-Based Networks](formal_abductive_latent_explanations_for_prototype-based_networks.md)
+- [\[CVPR 2025\] HotSpot: Signed Distance Function Optimization with an Asymptotically Sufficient Condition](../../CVPR2025/others/hotspot_signed_distance_function_optimization_with_an_asymptotically_sufficient_.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2411.00696](https://arxiv.org/abs/2411.00696)  
-**代码**: https://github.com/HKU-MedAI/CTPD (有)  
+**代码**: [https://github.com/HKU-MedAI/CTPD](https://github.com/HKU-MedAI/CTPD)  
 **领域**: 医学信息 / 时间序列  
 **关键词**: 电子健康记录, 跨模态时序模式, Slot Attention, 对比学习, 临床预测
 
@@ -134,7 +134,7 @@ tags:
 - [\[NeurIPS 2025\] StRap: Spatio-Temporal Pattern Retrieval for Out-of-Distribution Generalization](../../NeurIPS2025/time_series/strap_spatio-temporal_pattern_retrieval_for_out-of-distribution_generalization.md)
 - [\[NeurIPS 2025\] SynTSBench: Rethinking Temporal Pattern Learning in Deep Learning Models for Time Series](../../NeurIPS2025/time_series/syntsbench_rethinking_temporal_pattern_learning_in_deep_learning_models_for_time.md)
 - [\[ICML 2025\] Causal Discovery from Conditionally Stationary Time Series](../../ICML2025/time_series/causal_discovery_from_conditionally_stationary_time_series.md)
-- [\[ICML 2025\] Risk and Cross Validation in Ridge Regression with Correlated Samples](../../ICML2025/time_series/risk_and_cross_validation_in_ridge_regression_with_correlated_samples.md)
 - [\[ACL 2025\] ANRE: Analogical Replay for Temporal Knowledge Graph Forecasting](anre_analogical_replay_for_temporal_knowledge_graph_forecasting.md)
+- [\[ICML 2025\] Risk and Cross Validation in Ridge Regression with Correlated Samples](../../ICML2025/time_series/risk_and_cross_validation_in_ridge_regression_with_correlated_samples.md)
 
 <!-- RELATED:END -->

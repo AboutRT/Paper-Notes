@@ -20,7 +20,7 @@ tags:
 **会议**: NeurIPS2025  
 **arXiv**: [2509.18538](https://arxiv.org/abs/2509.18538)  
 **代码**: [项目页面](https://buxiangzhiren.github.io/GeoRemover)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 目标移除, 因果视觉伪影, 几何感知, 深度图, 扩散模型, DPO  
 
 ## 一句话总结

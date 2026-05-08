@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2410.23728](https://arxiv.org/abs/2410.23728)  
 **代码**: [GitHub](https://github.com/ai-forever/gigacheck)  
-**领域**: AI-Generated Text Detection  
+**领域**: 目标检测  
 **关键词**: LLM生成文本检测, 目标检测范式, DETR, 文本片段定位, 人机协作文本
 
 ## 一句话总结
@@ -120,10 +120,10 @@ GigaCheck 采用共享骨干+双头架构：(1) 统一骨干：LoRA 微调的 Mi
 
 ## 相关论文
 
-- [\[AAAI 2026\] A Theoretical Analysis of Detecting Large Model-Generated Time Series](../../AAAI2026/object_detection/a_theoretical_analysis_of_detecting_large_model-generated_time_series.md)
-- [\[ACL 2026\] Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations](two_pathways_to_truthfulness_on_the_intrinsic_encoding_of_llm_hallucinations.md)
-- [\[ACL 2026\] HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents](higmem_a_hierarchical_and_llm-guided_memory_system_for_long-term_conversational_.md)
+- [\[CVPR 2026\] SPAN: Spatial-Projection Alignment for Monocular 3D Object Detection](../../CVPR2026/object_detection/span_spatial-projection_alignment_for_monocular_3d_object_detection.md)
 - [\[CVPR 2026\] Mining Instance-Centric Vision-Language Contexts for Human-Object Interaction Detection](../../CVPR2026/object_detection/mining_instance-centric_vision-language_contexts_for_human-object_interaction_de.md)
-- [\[ACL 2026\] When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection](when_personalization_tricks_detectors_the_feature-inversion_trap_in_machine-gene.md)
+- [\[ECCV 2024\] Zero-Shot Detection of AI-Generated Images](../../ECCV2024/object_detection/zero-shot_detection_of_ai-generated_images.md)
+- [\[CVPR 2026\] Detecting Unknown Objects via Energy-based Separation for Open World Object Detection](../../CVPR2026/object_detection/detecting_unknown_objects_via_energy-based_separation_for_open_world_object_dete.md)
+- [\[ECCV 2024\] Online Temporal Action Localization with Memory-Augmented Transformer](../../ECCV2024/object_detection/online_temporal_action_localization_with_memory-augmented_transformer.md)
 
 <!-- RELATED:END -->

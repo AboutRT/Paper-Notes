@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (TACL 2025)][不确定性量化] 构建了 LM-Polygraph 不确定性量化（UQ）基准，实现了30+种SOTA方法，在11个文本生成任务上系统评估了UQ和置信度归一化技术的效果，为LLM幻觉检测提供了统一的评测框架。
 tags:
   - ACL 2025 (TACL 2025)
-  - 不确定性量化
+  - LLM评测
   - 幻觉检测
   - 基准测试
   - 置信度校准
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (TACL 2025)  
 **arXiv**: [2406.15627](https://arxiv.org/abs/2406.15627)  
 **代码**: [https://github.com/IINemo/lm-polygraph](https://github.com/IINemo/lm-polygraph)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 不确定性量化, 幻觉检测, 基准测试, 置信度校准, 文本生成
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.23152](https://arxiv.org/abs/2505.23152)  
 **代码**: 无  
-**领域**: Optimization  
+**领域**: 优化  
 **关键词**: coordinate descent, random permutation, convergence rate, quadratic optimization, contraction rate
 
 ## 一句话总结
@@ -129,6 +129,6 @@ tags:
 - [\[ICML 2025\] Provable In-Context Vector Arithmetic via Retrieving Task Concepts](provable_in-context_vector_arithmetic_via_retrieving_task_concepts.md)
 - [\[NeurIPS 2025\] FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling](../../NeurIPS2025/optimization/fedrts_federated_robust_pruning_via_combinatorial_thompson_sampling.md)
 - [\[ICML 2025\] Learning Mixtures of Experts with EM: A Mirror Descent Perspective](learning_mixtures_of_experts_with_em_a_mirror_descent_perspective.md)
-- [\[ICML 2025\] A Near-Optimal Single-Loop Stochastic Algorithm for Convex Finite-Sum Coupled Compositional Optimization](a_near-optimal_single-loop_stochastic_algorithm_for_convex_finite-sum_coupled_co.md)
+- [\[ICCV 2025\] Zeroth-Order Fine-Tuning of LLMs in Random Subspaces](../../ICCV2025/optimization/zeroth-order_fine-tuning_of_llms_in_random_subspaces.md)
 
 <!-- RELATED:END -->

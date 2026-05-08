@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2502.13917](https://arxiv.org/abs/2502.13917)  
 **代码**: [hamishivi/tess-2](https://github.com/hamishivi/tess-2)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: diffusion language model, simplex diffusion, instruction tuning, reward guidance, inference-time compute
 
 ## 一句话总结

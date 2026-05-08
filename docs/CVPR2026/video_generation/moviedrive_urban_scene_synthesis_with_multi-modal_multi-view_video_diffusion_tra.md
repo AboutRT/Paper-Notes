@@ -9,7 +9,7 @@ tags:
   - 多视图一致性
   - Transformer
   - 城市场景合成
-  - 自动驾驶数据增强
+  - 视频生成
 ---
 
 # MoVieDrive: Urban Scene Synthesis with Multi-Modal Multi-View Video Diffusion Transformer
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2508.14327](https://arxiv.org/abs/2508.14327)  
 **代码**: 无  
-**领域**: 自动驾驶  
+**领域**: 视频生成  
 **关键词**: 多模态视频生成, 多视图一致性, 扩散Transformer, 城市场景合成, 自动驾驶数据增强
 
 ## 一句话总结
@@ -145,10 +145,10 @@ MoVieDrive 提出统一的多模态多视图视频扩散 Transformer，通过 mo
 
 ## 相关论文
 
-- [\[CVPR 2026\] Rethinking Position Embedding as a Context Controller for Multi-Reference and Multi-Shot Video Generation](rethinking_position_embedding_as_a_context_controller_for_multi-reference_and_mu.md)
-- [\[CVPR 2026\] Let Your Image Move with Your Motion! – Implicit Multi-Object Multi-Motion Transfer](let_your_image_move_with_your_motion_--_implicit_multi-object_multi-motion_trans.md)
 - [\[CVPR 2026\] StreamDiT: Real-Time Streaming Text-to-Video Generation](streamdit_real-time_streaming_text-to-video_generation.md)
 - [\[CVPR 2026\] UniTalking: A Unified Audio-Video Framework for Talking Portrait Generation](unitalking_a_unified_audio-video_framework_for_talking_portrait_generation.md)
-- [\[CVPR 2026\] Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors](orbital_video_3d_foundation_priors.md)
+- [\[CVPR 2026\] SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls](switchcraft_training-free_multi-event_video_generation_with_attention_controls.md)
+- [\[CVPR 2026\] UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions](uniavgen_unified_audio_and_video_generation_with_asymmetric_cross-modal_interact.md)
+- [\[CVPR 2026\] Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context](geometry-as-context_modulating_explicit_3d_in_scene-consistent_video_generation_.md)
 
 <!-- RELATED:END -->

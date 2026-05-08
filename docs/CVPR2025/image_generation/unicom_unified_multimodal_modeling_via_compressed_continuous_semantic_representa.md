@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.10702](https://arxiv.org/abs/2603.10702)  
 **代码**: [Project Page](https://miazhao7708.github.io/UniComPage/)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: unified multimodal model, continuous representation, semantic compression, transfusion, image generation
 
 ## 一句话总结
@@ -133,8 +133,8 @@ UniCom 将条件图像分布分解为两阶段：$P(\mathbf{x}|\mathbf{c}) = \in
 
 - [\[CVPR 2025\] SCSA: A Plug-and-Play Semantic Continuous-Sparse Attention for Arbitrary Semantic Style Transfer](scsa_a_plug-and-play_semantic_continuous-sparse_attention_for_arbitrary_semantic.md)
 - [\[NeurIPS 2025\] Continuous Diffusion Model for Language Modeling](../../NeurIPS2025/image_generation/continuous_diffusion_model_for_language_modeling.md)
-- [\[NeurIPS 2025\] Diffusion Generative Modeling on Lie Group Representations](../../NeurIPS2025/image_generation/diffusion_generative_modeling_on_lie_group_representations.md)
 - [\[CVPR 2025\] JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation](janusflow_harmonizing_autoregression_and_rectified_flow_for_unified_multimodal_u.md)
+- [\[NeurIPS 2025\] Diffusion Generative Modeling on Lie Group Representations](../../NeurIPS2025/image_generation/diffusion_generative_modeling_on_lie_group_representations.md)
 - [\[CVPR 2025\] WeGen: A Unified Model for Interactive Multimodal Generation as We Chat](wegen_a_unified_model_for_interactive_multimodal_generation_as_we_chat.md)
 
 <!-- RELATED:END -->

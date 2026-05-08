@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.21926](https://arxiv.org/abs/2505.21926)  
-**代码**: https://github.com/zjukg/MERRY  
+**代码**: [https://github.com/zjukg/MERRY](https://github.com/zjukg/MERRY)  
 **领域**: 图学习 / 知识图谱  
 **关键词**: 知识图谱基础模型, KGC, KGQA, 条件消息传递, 文本-结构融合
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.01421](https://arxiv.org/abs/2604.01421)  
-**代码**: https://abhi-rf.github.io/egoflow/  
-**领域**: 3D视觉 / 视频理解  
+**代码**: [https://abhi-rf.github.io/egoflow/](https://abhi-rf.github.io/egoflow/)  
+**领域**: 图像生成  
 **关键词**: 第一人称视频, 6DoF轨迹生成, Flow Matching, 梯度引导采样, Mamba-Transformer混合架构
 
 ## 一句话总结

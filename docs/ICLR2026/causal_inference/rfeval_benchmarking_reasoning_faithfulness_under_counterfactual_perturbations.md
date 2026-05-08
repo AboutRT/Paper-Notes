@@ -5,7 +5,7 @@ description: >-
   [ICLR 2026][reasoning_faithfulness] 本文提出推理忠实性的形式化框架（立场一致性 + 因果影响）和 RFEval 基准（7,186 实例 × 7 任务），通过输出层反事实干预评估 12 个开源 LRM，发现 49.7% 的输出不忠实，且准确率不是忠实性的可靠代理指标。
 tags:
   - ICLR 2026
-  - reasoning_faithfulness
+  - 因果推理
   - LRM_evaluation
   - counterfactual_intervention
   - benchmark
@@ -16,7 +16,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.17053](https://arxiv.org/abs/2602.17053)  
 **代码**: [AIDASLab/RFEval](https://github.com/AIDASLab/RFEval)  
-**领域**: LLM Reasoning  
+**领域**: 因果推理  
 **关键词**: reasoning_faithfulness, LRM_evaluation, counterfactual_intervention, benchmark  
 
 ## 一句话总结
@@ -162,8 +162,8 @@ $$\text{RF}^{\text{contrast}}(\mathcal{M}, \mathcal{D}) = \mathbb{E}\left[\text{
 
 - [\[ICLR 2026\] On the Eligibility of LLMs for Counterfactual Reasoning: A Decompositional Study](on_the_eligibility_of_llms_for_counterfactual_reasoning_a_decompositional_study.md)
 - [\[ACL 2025\] CoA-Reasoning: Explorations on Counterfactual Analysis in Physical Reasoning of LVLMs](../../ACL2025/causal_inference/coa-reasoning_explorations_on_counterfactual_analysis_in_physical_reasoning_of_l.md)
-- [\[ICLR 2026\] Journey to the Centre of Cluster: Harnessing Interior Nodes for A/B Testing under Network Interference](journey_to_the_centre_of_cluster_harnessing_interior_nodes_for_ab_testing_under_.md)
-- [\[CVPR 2026\] Fighting Hallucinations with Counterfactuals: Diffusion-Guided Perturbations for LVLM Hallucination Suppression](../../CVPR2026/causal_inference/fighting_hallucinations_with_counterfactuals_diffusion-guided_perturbations_for_.md)
 - [\[ACL 2025\] Reasoning is All You Need for Video Generalization: A Counterfactual Benchmark with Sub-question Evaluation](../../ACL2025/causal_inference/reasoning_is_all_you_need_for_video_generalization_a_counterfactual_benchmark_wi.md)
+- [\[CVPR 2026\] Fighting Hallucinations with Counterfactuals: Diffusion-Guided Perturbations for LVLM Hallucination Suppression](../../CVPR2026/causal_inference/cipher_counterfactual_diffusion_hallucination_sup.md)
+- [\[ICLR 2026\] Counterfactual Explanations on Robust Perceptual Geodesics](counterfactual_explanations_on_robust_perceptual_geodesics.md)
 
 <!-- RELATED:END -->

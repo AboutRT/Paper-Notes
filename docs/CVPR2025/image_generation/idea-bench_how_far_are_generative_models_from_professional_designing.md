@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.11767](https://arxiv.org/abs/2412.11767)  
 **代码**: [https://github.com/ali-vilab/IDEA-Bench](https://github.com/ali-vilab/IDEA-Bench)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: benchmark, professional design, image generation, evaluation, MLLM, visual effects, storyboard
 
 ## 一句话总结

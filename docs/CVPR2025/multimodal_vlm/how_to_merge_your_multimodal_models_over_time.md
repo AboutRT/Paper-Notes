@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.06712](https://arxiv.org/abs/2412.06712)  
-**代码**: https://github.com/explainableml/time  
+**代码**: [https://github.com/explainableml/time](https://github.com/explainableml/time)  
 **领域**: 多模态VLM  
 **关键词**: 模型融合, 时序模型融合, 多模态学习, 持续学习, 基础模型
 

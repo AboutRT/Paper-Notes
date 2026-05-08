@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.16660](https://arxiv.org/abs/2602.16660)  
 **代码**: 无  
-**领域**: AI安全 / 多语言安全对齐  
+**领域**: LLM对齐  
 **关键词**: multilingual safety, consistency alignment, singular value decomposition, cross-lingual transfer, DPO
 
 ## 一句话总结

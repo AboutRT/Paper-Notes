@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2407.19342](https://arxiv.org/abs/2407.19342)  
-**代码**: https://huggingface.co/docs/peft (集成到 HuggingFace PEFT)  
+**代码**: [https://huggingface.co/docs/peft](https://huggingface.co/docs/peft) (集成到 HuggingFace PEFT)  
 **领域**: 模型压缩 / 参数高效微调  
 **关键词**: circular convolution, LoRA, PEFT, FFT, 参数高效微调
 

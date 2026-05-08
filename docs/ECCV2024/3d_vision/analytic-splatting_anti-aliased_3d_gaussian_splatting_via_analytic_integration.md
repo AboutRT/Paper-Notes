@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.11056](https://arxiv.org/abs/2403.11056)  
-**代码**: https://lzhnb.github.io/project-pages/analytic-splatting/ (有)  
+**代码**: [https://lzhnb.github.io/project-pages/analytic-splatting/](https://lzhnb.github.io/project-pages/analytic-splatting/)  
 **领域**: 3D视觉 / 新视角合成  
 **关键词**: 3D Gaussian Splatting, Anti-Aliasing, Analytic Integration, novel view synthesis, Multi-Scale
 
@@ -133,6 +133,6 @@ tags:
 - [\[NeurIPS 2025\] Anti-Aliased 2D Gaussian Splatting](../../NeurIPS2025/3d_vision/anti-aliased_2d_gaussian_splatting.md)
 - [\[ECCV 2024\] 3iGS: Factorised Tensorial Illumination for 3D Gaussian Splatting](3igs_factorised_tensorial_illumination_for_3d_gaussian_splatting.md)
 - [\[ECCV 2024\] HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression](hac_hash-grid_assisted_context_for_3d_gaussian_splatting_compression.md)
-- [\[ECCV 2024\] HeadGaS: Real-Time Animatable Head Avatars via 3D Gaussian Splatting](headgas_real-time_animatable_head_avatars_via_3d_gaussian_splatting.md)
+- [\[ECCV 2024\] Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal](learning_3d_geometry_and_feature_consistent_gaussian_splatting_for_object_remova.md)
 
 <!-- RELATED:END -->

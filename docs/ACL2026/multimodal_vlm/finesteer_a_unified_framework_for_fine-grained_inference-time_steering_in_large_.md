@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 多模态
-  - 推理时转向
+  - 多模态VLM
   - 条件转向
   - 混合专家转向
   - 越狱防御
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.15488](https://arxiv.org/abs/2604.15488)  
 **代码**: [GitHub](https://github.com/YukinoAsuna/FineSteer)  
-**领域**: AI安全 / LLM对齐  
+**领域**: 多模态VLM  
 **关键词**: 推理时转向, 条件转向, 混合专家转向, 越狱防御, 幻觉缓解
 
 ## 一句话总结
@@ -117,9 +117,9 @@ MSE 损失对齐预测转向向量与真实差异向量：$\mathcal{L} = \frac{1
 ## 相关论文
 
 - [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](../../CVPR2026/multimodal_vlm/scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
-- [\[CVPR 2026\] TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval](../../CVPR2026/multimodal_vlm/tiger_a_unified_framework_for_time_images_and_geo-location_retrieval.md)
 - [\[ACL 2026\] GAMBIT: A Gamified Jailbreak Framework for Multimodal Large Language Models](gambit_a_gamified_jailbreak_framework_for_multimodal_large_language_models.md)
 - [\[ACL 2026\] Efficient Inference for Large Vision-Language Models: Bottlenecks, Techniques, and Prospects](efficient_inference_for_large_vision-language_models_bottlenecks_techniques_and_.md)
 - [\[ACL 2026\] From Heads to Neurons: Causal Attribution and Steering in Multi-Task Vision-Language Models](from_heads_to_neurons_causal_attribution_and_steering_in_multi-task_vision-langu.md)
+- [\[CVPR 2026\] TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval](../../CVPR2026/multimodal_vlm/tiger_a_unified_framework_for_time_images_and_geo-location_retrieval.md)
 
 <!-- RELATED:END -->

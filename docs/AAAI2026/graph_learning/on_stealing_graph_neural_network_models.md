@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2511.07170](https://arxiv.org/abs/2511.07170)  
 **作者**: Marcin Podhajski, Jan Dubiński, Franziska Boenisch, Adam Dziedzic, Agnieszka Pręgowska, Tomasz P. Michalak  
 **代码**: [m-podhajski/OnStealingGNNs](https://github.com/m-podhajski/OnStealingGNNs)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: GNN模型窃取, 模型安全, 自监督学习, 查询选择, 黑盒攻击, Inductive/Transductive  
 
 ## 一句话总结

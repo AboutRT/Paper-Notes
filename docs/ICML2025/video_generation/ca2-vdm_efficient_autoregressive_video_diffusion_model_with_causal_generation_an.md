@@ -8,7 +8,7 @@ tags:
   - 视频扩散模型
   - 自回归生成
   - KV-Cache
-  - 因果注意力
+  - 视频生成
   - 长视频生成
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2411.16375](https://arxiv.org/abs/2411.16375)  
 **代码**: [https://github.com/Dawn-LX/CausalCache-VDM](https://github.com/Dawn-LX/CausalCache-VDM)  
-**领域**: 图像生成  
+**领域**: 视频生成  
 **关键词**: 视频扩散模型, 自回归生成, KV-Cache, 因果注意力, 长视频生成
 
 ## 一句话总结
@@ -190,8 +190,8 @@ $$\widetilde{\mathcal{L}}_{\text{simple}}(\theta) = \mathbb{E}_{\mathbf{z}, \bol
 ## 相关论文
 
 - [\[CVPR 2025\] Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model](../../CVPR2025/video_generation/timestep_embedding_tells_its_time_to_cache_for_video_diffusion_model.md)
-- [\[AAAI 2026\] FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion](../../AAAI2026/video_generation/filmweaver_weaving_consistent_multi-shot_videos_with_cache-guided_autoregressive.md)
 - [\[ICLR 2026\] Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](../../ICLR2026/video_generation/lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)
+- [\[AAAI 2026\] FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion](../../AAAI2026/video_generation/filmweaver_weaving_consistent_multi-shot_videos_with_cache-guided_autoregressive.md)
 - [\[ICCV 2025\] Dual-Expert Consistency Model for Efficient and High-Quality Video Generation](../../ICCV2025/video_generation/dual-expert_consistency_model_for_efficient_and_high-quality_video_generation.md)
 - [\[CVPR 2025\] Parallelized Autoregressive Visual Generation](../../CVPR2025/video_generation/parallelized_autoregressive_visual_generation.md)
 

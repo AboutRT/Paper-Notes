@@ -46,7 +46,7 @@ tags:
 1. **区域级仿射监督（Region-Level Affine Supervision）**：用户指定源区域掩码 $\{\bm{M}_i\}$ 和目标点 $\bm{t}_i$。通过仿射变换将源掩码逐步传播到目标位置。核心损失函数为：
 $$\mathcal{L}_{\text{Drag}} = \sum_{i=1}^{N} \gamma_i \cdot \| \bm{M}_i^{(k)} \odot F(\bm{z}_t^{(k)}) - \text{sg}[\bm{M}_i^{(0)} \odot F(\bm{z}_t^{(0)})] \|_1$$
 其中 $F(\cdot)$ 提取 DiT 特征，$\bm{M}_i^{(k)}$ 由仿射变换得到。对于重定位/变形，参数由目标点到质心向量决定；对于旋转，由角度和锚点决定。线性调度 $k/K$ 使掩码从源平滑移向目标。
-   - **为何区域级更优**：区域级匹配提供更丰富的语义上下文，缓解短视梯度；且无需点追踪（point tracking），因为是对比区域特征而非单点，消除了追踪误差累积。
+    - **为何区域级更优**：区域级匹配提供更丰富的语义上下文，缓解短视梯度；且无需点追踪（point tracking），因为是对比区域特征而非单点，消除了追踪误差累积。
 
 2. **梯度掩码背景硬约束（Background Hard Constraint）**：传统方法用辅助一致性损失 $\mathcal{L}_{\text{BG}}$ 保持背景，但该损失与编辑目标竞争，且在 CFG-蒸馏模型中反演漂移大导致参考不可靠。本文改用硬约束：
 $$\bm{z}_t^{(k+1)} = \bm{B} \odot (\bm{z}_t^{(k)} - \alpha \cdot \frac{\partial \mathcal{L}_{\text{Drag}}}{\partial \bm{z}_t^{(k)}}) + (1 - \bm{B}) \odot \bm{z}_t^{\text{orig}}$$
@@ -131,8 +131,8 @@ $$\bm{z}_t^{(k+1)} = \bm{B} \odot (\bm{z}_t^{(k)} - \alpha \cdot \frac{\partial 
 ## 相关论文
 
 - [\[ICLR 2026\] Follow-Your-Shape: Shape-Aware Image Editing via Trajectory-Guided Region Control](follow-your-shape_shape-aware_image_editing_via_trajectory-guided_region_control.md)
-- [\[ICCV 2025\] SuperEdit: Rectifying and Facilitating Supervision for Instruction-Based Image Editing](../../ICCV2025/image_generation/superedit_rectifying_and_facilitating_supervision_for_instruction-based_image_ed.md)
 - [\[CVPR 2025\] FaithDiff: Unleashing Diffusion Priors for Faithful Image Super-Resolution](../../CVPR2025/image_generation/faithdiff_unleashing_diffusion_priors_for_faithful_image_super-resolution.md)
+- [\[ICCV 2025\] SuperEdit: Rectifying and Facilitating Supervision for Instruction-Based Image Editing](../../ICCV2025/image_generation/superedit_rectifying_and_facilitating_supervision_for_instruction-based_image_ed.md)
 - [\[ECCV 2024\] RegionDrag: Fast Region-Based Image Editing with Diffusion Models](../../ECCV2024/image_generation/regiondrag_fast_region-based_image_editing_with_diffusion_models.md)
 - [\[ICCV 2025\] Inpaint4Drag: Repurposing Inpainting Models for Drag-Based Image Editing via Bidirectional Warping](../../ICCV2025/image_generation/inpaint4drag_repurposing_inpainting_models_for_drag-based_image_editing_via_bidi.md)
 

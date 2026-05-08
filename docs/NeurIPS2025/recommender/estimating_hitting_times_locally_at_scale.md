@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.04343](https://arxiv.org/abs/2511.04343)  
-**代码**: https://github.com/tkhar/hitting-time-at-scale  
+**代码**: [https://github.com/tkhar/hitting-time-at-scale](https://github.com/tkhar/hitting-time-at-scale)  
 **领域**: 图算法 / 随机游走  
 **关键词**: 命中时间, 局部算法, 随机游走, 亚线性复杂度, 谱方法
 
@@ -119,8 +119,8 @@ tags:
 
 - [\[NeurIPS 2025\] ASAP: An Agentic Solution to Auto-Optimize Performance of Large-Scale LLM Training](asap_an_agentic_solution_to_auto-optimize_performance_of_large-scale_llm_trainin.md)
 - [\[ICML 2025\] How to Set AdamW's Weight Decay as You Scale Model and Dataset Size](../../ICML2025/recommender/how_to_set_adamws_weight_decay_as_you_scale_model_and_dataset_size.md)
-- [\[AAAI 2026\] TraveLLaMA: A Multimodal Travel Assistant with Large-Scale Dataset and Structured Reasoning](../../AAAI2026/recommender/travellama_a_multimodal_travel_assistant_with_large-scale_dataset_and_structured.md)
 - [\[ICLR 2026\] C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems](../../ICLR2026/recommender/c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md)
-- [\[NeurIPS 2025\] VisualLens: Personalization through Task-Agnostic Visual History](visuallens_personalization_through_task-agnostic_visual_history.md)
+- [\[AAAI 2026\] TraveLLaMA: A Multimodal Travel Assistant with Large-Scale Dataset and Structured Reasoning](../../AAAI2026/recommender/travellama_a_multimodal_travel_assistant_with_large-scale_dataset_and_structured.md)
+- [\[NeurIPS 2025\] PAC-Bayes Bounds for Multivariate Linear Regression and Linear Autoencoders](pac-bayes_bounds_for_multivariate_linear_regression_and_linear_autoencoders.md)
 
 <!-- RELATED:END -->

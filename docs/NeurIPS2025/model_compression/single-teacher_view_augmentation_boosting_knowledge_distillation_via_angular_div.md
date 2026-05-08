@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2510.22480](https://arxiv.org/abs/2510.22480)  
 **作者**: Seonghoon Yu (GIST), Dongjun Nam (POSTECH), Dina Katabi (MIT CSAIL), Jeany Son (POSTECH)  
 **代码**: [github.com/june6423/Angular-KD](https://github.com/june6423/Angular-KD)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 知识蒸馏, 知识增强, 角度多样性, 集成学习, 模型压缩  
 
 ## 一句话总结

@@ -8,7 +8,7 @@ tags:
   - 神经缩放定律
   - Bayesian推断
   - PFN
-  - 不确定性量化
+  - LLM预训练
   - Meta-learning
   - 外推预测
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.23032](https://arxiv.org/abs/2505.23032)  
 **代码**: [github.com/DongWooLee-Eli/nslpfn](https://github.com/DongWooLee-Eli/nslpfn)  
-**领域**: NLP理解  
+**领域**: LLM预训练  
 **关键词**: 神经缩放定律, Bayesian推断, PFN, 不确定性量化, Meta-learning, 外推预测
 
 ## 一句话总结
@@ -192,7 +192,7 @@ NSL-PFN快约4-5个数量级！
 - [\[ICML 2025\] Position: The Future of Bayesian Prediction Is Prior-Fitted](position_the_future_of_bayesian_prediction_is_prior-fitted.md)
 - [\[NeurIPS 2025\] Superposition Yields Robust Neural Scaling](../../NeurIPS2025/llm_pretraining/superposition_yields_robust_neural_scaling.md)
 - [\[ICML 2025\] Does Data Scaling Lead to Visual Compositional Generalization?](does_data_scaling_lead_to_visual_compositional_generalization.md)
-- [\[NeurIPS 2025\] Generalization Bounds for Rank-sparse Neural Networks](../../NeurIPS2025/llm_pretraining/generalization_bounds_for_rank-sparse_neural_networks.md)
-- [\[NeurIPS 2025\] Neural Collapse under Gradient Flow on Shallow ReLU Networks for Orthogonally Separable Data](../../NeurIPS2025/llm_pretraining/neural_collapse_under_gradient_flow_on_shallow_relu_networks_for_orthogonally_se.md)
+- [\[ICML 2025\] Scaling Inference-Efficient Language Models](scaling_inference-efficient_language_models.md)
+- [\[CVPR 2025\] ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model](../../CVPR2025/llm_pretraining/scamo_exploring_the_scaling_law_in_autoregressive_motion_generation_model.md)
 
 <!-- RELATED:END -->

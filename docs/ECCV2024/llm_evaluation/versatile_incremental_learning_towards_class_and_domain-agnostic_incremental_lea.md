@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2409.10956](https://arxiv.org/abs/2409.10956)  
 **代码**: [KHU-AGI/VIL](https://github.com/KHU-AGI/VIL)  
-**领域**: 其他  
+**领域**: LLM评测  
 **关键词**: 增量学习, 灾难性遗忘, 类别-领域联合增量, 适应偏移控制, 增量分类器
 
 ## 一句话总结
@@ -169,8 +169,8 @@ IC 的进一步分解（iDigits VIL）：
 ## 相关论文
 
 - [\[CVPR 2026\] Temporal Imbalance of Positive and Negative Supervision in Class-Incremental Learning](../../CVPR2026/llm_evaluation/temporal_imbalance_of_positive_and_negative_supervision_in_class-incremental_lea.md)
-- [\[AAAI 2026\] Gene Incremental Learning for Single-Cell Transcriptomics](../../AAAI2026/llm_evaluation/gene_incremental_learning_for_single-cell_transcriptomics.md)
 - [\[CVPR 2025\] Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning](../../CVPR2025/llm_evaluation/dual_consolidation_for_pre-trained_model-based_domain-incremental_learning.md)
+- [\[ICML 2025\] Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative Experts (DCE)](../../ICML2025/llm_evaluation/addressing_imbalanced_domain-incremental_learning_through_dual-balance_collabora.md)
 - [\[CVPR 2026\] HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning](../../CVPR2026/llm_evaluation/hycal_training_free_prototype_calibration_for_cross_discipline_fscil.md)
 - [\[ECCV 2024\] Image-Feature Weak-to-Strong Consistency: An Enhanced Paradigm for Semi-Supervised Learning](image-feature_weak-to-strong_consistency_an_enhanced_paradigm_for_semi-supervise.md)
 

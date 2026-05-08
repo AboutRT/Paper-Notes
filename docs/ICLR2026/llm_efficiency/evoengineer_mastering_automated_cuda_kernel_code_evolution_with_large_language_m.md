@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.03760](https://arxiv.org/abs/2510.03760)  
 **代码**: 有（开源平台）  
-**领域**: LLM/NLP (其他)  
+**领域**: LLM效率  
 **关键词**: CUDA Kernel Optimization, LLM Code Evolution, Evolutionary Search, Code Generation, Prompt Engineering
 
 ## 一句话总结
@@ -133,9 +133,9 @@ EvoEngineer 将 LLM-based 代码演化分解为两个正交组件：**Traverse T
 ## 相关论文
 
 - [\[ICLR 2026\] DND: Boosting Large Language Models with Dynamic Nested Depth](dnd_boosting_large_language_models_with_dynamic_nested_depth.md)
-- [\[ICLR 2026\] Steering Language Models with Weight Arithmetic](steering_language_models_with_weight_arithmetic.md)
 - [\[ICLR 2026\] Expert Divergence Learning for MoE-based Language Models](expert_divergence_learning_for_moe-based_language_models.md)
-- [\[ICML 2025\] Position: Theory of Mind Benchmarks are Broken for Large Language Models](../../ICML2025/llm_efficiency/position_theory_of_mind_benchmarks_are_broken_for_large_language_models.md)
+- [\[AAAI 2026\] The Curious Case of Analogies: Investigating Analogical Reasoning in Large Language Models](../../AAAI2026/llm_efficiency/the_curious_case_of_analogies_investigating_analogical_reasoning_in_large_langua.md)
 - [\[ACL 2025\] LongSafety: Evaluating Long-Context Safety of Large Language Models](../../ACL2025/llm_efficiency/longsafety_evaluating_long-context_safety_of_large_language_models.md)
+- [\[ACL 2025\] LongReward: Improving Long-context Large Language Models with AI Feedback](../../ACL2025/llm_efficiency/longreward_improving_long-context_large_language_models_with_ai_feedback.md)
 
 <!-- RELATED:END -->

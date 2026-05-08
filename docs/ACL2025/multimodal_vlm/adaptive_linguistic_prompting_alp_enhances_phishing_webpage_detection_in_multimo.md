@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 钓鱼网页检测
+  - 多模态VLM
   - 多模态LLM
   - 提示学习
   - GPT-4o
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.13357](https://arxiv.org/abs/2507.13357)  
-**代码**: https://github.com/atharvab167/Adaptive-Linguistic-Prompting-ALP-Multimodal-LLM-Phishing-Detection  
+**代码**: [https://github.com/atharvab167/Adaptive-Linguistic-Prompting-ALP-Multimodal-LLM-Phishing-Detection](https://github.com/atharvab167/Adaptive-Linguistic-Prompting-ALP-Multimodal-LLM-Phishing-Detection)  
 **领域**: 多模态VLM / AI安全  
 **关键词**: 钓鱼网页检测, 多模态LLM, few-shot prompting, GPT-4o, Gemini 1.5 Pro
 
@@ -129,10 +129,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models](unsolvable_problem_detection.md)
 - [\[ACL 2025\] Visual Evidence Prompting Mitigates Hallucinations in Large Vision-Language Models](visual_evidence_prompting.md)
-- [\[ECCV 2024\] AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting](../../ECCV2024/multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md)
+- [\[ACL 2025\] Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models](unsolvable_problem_detection.md)
 - [\[ACL 2025\] AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models](alignmmbench_evaluating_chinese_multimodal_alignment_in_large_vision-language_mo.md)
-- [\[ACL 2025\] AVG-LLaVA: An Efficient Large Multimodal Model with Adaptive Visual Granularity](avg-llava_an_efficient_large_multimodal_model_with_adaptive_visual_granularity.md)
+- [\[ECCV 2024\] AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting](../../ECCV2024/multimodal_vlm/adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md)
+- [\[AAAI 2026\] VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models](../../AAAI2026/multimodal_vlm/vp-bench_a_comprehensive_benchmark_for_visual_prompting_in_m.md)
 
 <!-- RELATED:END -->

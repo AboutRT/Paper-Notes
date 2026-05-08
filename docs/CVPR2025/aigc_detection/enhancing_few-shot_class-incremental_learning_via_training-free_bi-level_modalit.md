@@ -9,7 +9,7 @@ tags:
   - 模态校准
   - CLIP
   - 无训练
-  - 视觉语言模型
+  - AIGC检测
   - 增量学习
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: 无公开预印本  
-**代码**: https://github.com/yychen016/BiMC  
+**代码**: [https://github.com/yychen016/BiMC](https://github.com/yychen016/BiMC)  
 **领域**: 小样本增量学习 / 视觉语言模型  
 **关键词**: FSCIL, 双层模态校准, CLIP, 无训练, LLM描述, 视觉原型
 
@@ -138,7 +138,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: 待公开  
-**代码**: https://github.com/yychen016/BiMC  
+**代码**: [https://github.com/yychen016/BiMC](https://github.com/yychen016/BiMC)  
 **领域**: 小样本增量学习  
 **关键词**: FSCIL, 模态校准, CLIP, 无训练, 视觉语言模型
 
@@ -183,7 +183,7 @@ tags:
 - [\[ACL 2025\] Learning to Rewrite: Generalized LLM-Generated Text Detection](../../ACL2025/aigc_detection/learning_to_rewrite_generalized_llm-generated_text_detection.md)
 - [\[ACL 2025\] ChemActor: Enhancing Automated Extraction of Chemical Synthesis Actions with LLM-Generated Data](../../ACL2025/aigc_detection/chemactor_enhancing_automated_extraction_of_chemical_synthesis_actions_with_llm-.md)
 - [\[ACL 2025\] Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training](../../ACL2025/aigc_detection/greater_adversarial_mgt_detection.md)
-- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](../../ACL2025/aigc_detection/reliably_bounding_false_positives_a_zero-shot_machine-generated_text_detection_f.md)
+- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](../../ACL2025/aigc_detection/mcp-zero-shot-mgt-detection-via-conformal-prediction.md)
 - [\[CVPR 2026\] Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks](../../CVPR2026/aigc_detection/fine-grained_image_aesthetic_assessment_learning_discriminative_scores_from_rela.md)
 
 <!-- RELATED:END -->

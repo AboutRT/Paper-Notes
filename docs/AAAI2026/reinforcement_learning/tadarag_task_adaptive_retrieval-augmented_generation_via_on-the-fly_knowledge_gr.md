@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TAdaRAG: Task Adaptive Retrieval-Augmented Generation via On-the-Fly Knowledge Graph Construction
 description: >-
-  [AAAI 2026][RAG] 提出 TAdaRAG，一个任务自适应的 RAG 框架，通过意图驱动的模板路由、监督微调和 REINFORCE 强化学习实现实时知识图谱构建，有效解决传统 RAG 的分块截断幻觉、推理链断裂和无关信息干扰三大问题，在 6 个公开数据集和 1 个商业场景基准上取得 SOTA。
+  [AAAI 2026][强化学习] 提出 TAdaRAG，一个任务自适应的 RAG 框架，通过意图驱动的模板路由、监督微调和 REINFORCE 强化学习实现实时知识图谱构建，有效解决传统 RAG 的分块截断幻觉、推理链断裂和无关信息干扰三大问题，在 6 个公开数据集和 1 个商业场景基准上取得 SOTA。
 tags:
   - AAAI 2026
-  - RAG
+  - 强化学习
   - 知识图谱
   - 任务自适应
   - REINFORCE
@@ -76,9 +76,9 @@ TAdaRAG 采用两阶段训练：
 
 1. 计算无图隐藏状态 $H_{i,j}^{\text{base}}$ 和有图隐藏状态 $H_{i,j,k}^{\text{graph}}$
 2. 通过三层 MLP+ReLU 计算融合权重：
-   $$\omega_{i,j,k} = \text{MLP}(\text{concat}(H_{i,j}^{\text{base}}, H_{i,j,k}^{\text{graph}}))$$
+    $\omega_{i,j,k} = \text{MLP}(\text{concat}(H_{i,j}^{\text{base}}, H_{i,j,k}^{\text{graph}}))$
 3. 加权融合两种 log-likelihood：
-   $$l_{i,j,k}^{\text{mix}} = \omega_{i,j,k} \cdot l_{i,j,k}^{\text{w/ graph}} + (1-\omega_{i,j,k}) \cdot l_{i,j,k}^{\text{w/o graph}}$$
+    $l_{i,j,k}^{\text{mix}} = \omega_{i,j,k} \cdot l_{i,j,k}^{\text{w/ graph}} + (1-\omega_{i,j,k}) \cdot l_{i,j,k}^{\text{w/o graph}}$
 
 这让模型能自动判断何时依赖 KG、何时直接回答。
 
@@ -197,10 +197,10 @@ $$\mathcal{L} = \alpha \cdot \mathcal{L}^{\text{base}} + (1-\alpha) \cdot \mathc
 
 ## 相关论文
 
-- [\[CVPR 2026\] ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering](../../CVPR2026/reinforcement_learning/reag_reasoning-augmented_generation_for_knowledge-based_visual_question_answerin.md)
 - [\[ACL 2026\] Language-Coupled Reinforcement Learning for Multilingual Retrieval-Augmented Generation](../../ACL2026/reinforcement_learning/language-coupled_reinforcement_learning_for_multilingual_retrieval-augmented_gen.md)
+- [\[CVPR 2026\] ReAG: Reasoning-Augmented Generation for Knowledge-based Visual Question Answering](../../CVPR2026/reinforcement_learning/reag_reasoning-augmented_generation_for_knowledge-based_visual_question_answerin.md)
 - [\[NeurIPS 2025\] Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/improving_retrieval-augmented_generation_through_multi-agent_reinforcement_learn.md)
-- [\[NeurIPS 2025\] Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering](../../NeurIPS2025/reinforcement_learning/knowledge-based_visual_question_answer_with_multimodal_processing_retrieval_and_.md)
 - [\[ACL 2026\] Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization](../../ACL2026/reinforcement_learning/optimizing_user_profiles_via_contextual_bandits_for_retrieval-augmented_llm_pers.md)
+- [\[AAAI 2026\] Where and What Matters: Sensitivity-Aware Task Vectors for Many-Shot Multimodal In-Context Learning](where_and_what_matters_sensitivity-aware_task_vectors_for_many-shot_multimodal_i.md)
 
 <!-- RELATED:END -->

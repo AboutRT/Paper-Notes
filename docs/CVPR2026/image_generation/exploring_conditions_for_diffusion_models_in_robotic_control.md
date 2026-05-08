@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2510.15510](https://arxiv.org/abs/2510.15510)  
-**代码**: https://orca-rc.github.io/  
+**代码**: [https://orca-rc.github.io/](https://orca-rc.github.io/)  
 **领域**: 扩散模型 / 机器人控制  
 **关键词**: 扩散模型, 机器人控制, 视觉表示, 任务自适应, 可学习提示词
 

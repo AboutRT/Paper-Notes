@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.20135](https://arxiv.org/abs/2604.20135)  
 **代码**: 无  
-**领域**: 多模态VLM / 信息检索  
+**领域**: 图像生成  
 **关键词**: 电商检索, 细粒度表示学习, 属性生成, 强化学习对齐, 对比学习
 
 ## 一句话总结
@@ -122,9 +122,9 @@ Stage 1 的 AGCL 损失为加权 InfoNCE：$\mathcal{L}_{\text{AGCL}} = -\log \f
 ## 相关论文
 
 - [\[CVPR 2025\] CLIP Under the Microscope: A Fine-Grained Analysis of Multi-Object Representation](../../CVPR2025/image_generation/clip_under_the_microscope_a_fine-grained_analysis_of_multi-object_representation.md)
+- [\[CVPR 2025\] Generative Modeling of Class Probability for Multi-Modal Representation Learning](../../CVPR2025/image_generation/generative_modeling_of_class_probability_for_multi_modal_representation_learning.md)
 - [\[AAAI 2026\] Multi-Aspect Cross-modal Quantization for Generative Recommendation](../../AAAI2026/image_generation/multi-aspect_cross-modal_quantization_for_generative_recommendation.md)
 - [\[ICLR 2026\] Unified Multi-Modal Interactive & Reactive 3D Motion Generation via Rectified Flow](../../ICLR2026/image_generation/unified_multi-modal_interactive_reactive_3d_motion_generation_via_rectified_flow.md)
 - [\[CVPR 2026\] CognitionCapturerPro: Towards High-Fidelity Visual Decoding from EEG/MEG via Multi-modal Information and Asymmetric Alignment](../../CVPR2026/image_generation/cognitioncapturerpro_towards_high-fidelity_visual_decoding_from_eegmeg_via_multi.md)
-- [\[ICCV 2025\] CharaConsist: Fine-Grained Consistent Character Generation](../../ICCV2025/image_generation/characonsist_fine-grained_consistent_character_generation.md)
 
 <!-- RELATED:END -->

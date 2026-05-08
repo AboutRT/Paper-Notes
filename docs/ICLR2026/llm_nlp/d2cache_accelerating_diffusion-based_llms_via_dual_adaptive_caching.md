@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.23094](https://arxiv.org/abs/2509.23094)  
-**代码**: https://github.com/Kamichanw/d2Cache  
-**领域**: LLM效率  
+**代码**: [https://github.com/Kamichanw/d2Cache](https://github.com/Kamichanw/d2Cache)  
+**领域**: LLM/NLP  
 **关键词**: Diffusion LLM, KV Cache, 推理加速, dLLM, 注意力剪枝
 
 ## 一句话总结
@@ -129,9 +129,9 @@ d²Cache 是**完全无训练**的推理加速框架，不修改模型参数。�
 ## 相关论文
 
 - [\[ICLR 2026\] Stopping Computation for Converged Tokens in Masked Diffusion-LM Decoding](stopping_computation_for_converged_tokens_in_masked_diffusion-lm_decoding.md)
-- [\[ICLR 2026\] DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas](dreamon_diffusion_language_models_for_code_infilling_beyond_fixed-size_canvas.md)
 - [\[ICLR 2026\] Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerabilities](toward_safer_diffusion_language_models_discovery_and_mitigation_of_priming_vulne.md)
-- [\[ACL 2025\] Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models](../../ACL2025/llm_nlp/segment_level_diffusion.md)
+- [\[ICLR 2026\] DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas](dreamon_diffusion_language_models_for_code_infilling_beyond_fixed-size_canvas.md)
 - [\[ACL 2026\] Please Refuse to Answer Me: Mitigating Over-Refusal in LLMs via Adaptive Contrastive Decoding](../../ACL2026/llm_nlp/please_refuse_to_answer_me_mitigating_over-refusal_in_large_language_models_via_.md)
+- [\[ACL 2025\] Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models](../../ACL2025/llm_nlp/segment_level_diffusion.md)
 
 <!-- RELATED:END -->

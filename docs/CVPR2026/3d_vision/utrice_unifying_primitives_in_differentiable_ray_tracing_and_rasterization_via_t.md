@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.04421](https://arxiv.org/abs/2512.04421)  
-**代码**: https://github.com/waizui/UTrice  
+**代码**: [https://github.com/waizui/UTrice](https://github.com/waizui/UTrice)  
 **领域**: 3D视觉  
 **关键词**: 可微光线追踪, 三角形图元, 3D Gaussian Splatting, 新视角合成, BVH加速
 

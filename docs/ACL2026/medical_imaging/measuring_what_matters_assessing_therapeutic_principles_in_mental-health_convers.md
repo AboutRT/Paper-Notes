@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.05795](https://arxiv.org/abs/2604.05795)  
-**代码**: https://github.com/ (有)  
+**代码**: [https://github.com/](https://github.com/)  
 **领域**: 医学图像 / NLP理解  
 **关键词**: 心理健康对话评估, 治疗原则对齐, 序数分类, 知识蒸馏, 链式推理
 
@@ -121,9 +121,9 @@ CARE 接收治疗师-患者对话序列作为输入，对每条治疗师回复 $
 ## 相关论文
 
 - [\[ACL 2026\] MHSafeEval: Role-Aware Interaction-Level Evaluation of Mental Health Safety in Large Language Models](mhsafeeval_role-aware_interaction-level_evaluation_of_mental_health_safety_in_la.md)
+- [\[AAAI 2026\] Voices, Faces, and Feelings: Multi-modal Emotion-Cognition Captioning for Mental Health Understanding](../../AAAI2026/medical_imaging/voices_faces_and_feelings_multi-modal_emotion-cognition_captioning_for_mental_he.md)
+- [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA](../../ICLR2026/medical_imaging/counselbench_llm_mental_health_qa.md)
+- [\[ACL 2026\] Cognitive Policy-Driven LLM for Diagnosis and Intervention of Cognitive Distortions in Emotional Support Conversation](cognitive_policy-driven_llm_for_diagnosis_and_intervention_of_cognitive_distorti.md)
 - [\[ACL 2026\] PrinciplismQA: A Philosophy-Grounded Approach to Assessing LLM-Human Clinical Medical Ethics Alignment](principlismqa_a_philosophy-grounded_approach_to_assessing_llm-human_clinical_med.md)
-- [\[ACL 2026\] HypEHR: Hyperbolic Modeling of Electronic Health Records for Efficient Question Answering](hypehr_hyperbolic_modeling_of_electronic_health_records_for_efficient_question_a.md)
-- [\[ICLR 2026\] From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents](../../ICLR2026/medical_imaging/from_conversation_to_query_execution_benchmarking_user_and_tool_interactions_for.md)
-- [\[AAAI 2026\] Personalization of Large Foundation Models for Health Interventions](../../AAAI2026/medical_imaging/personalization_of_large_foundation_models_for_health_interventions.md)
 
 <!-- RELATED:END -->

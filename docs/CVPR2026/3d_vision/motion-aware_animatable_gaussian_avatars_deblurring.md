@@ -38,19 +38,19 @@ tags:
 ### 关键设计
 
 1. **3D模糊形成模型**: 将2D物理模糊过程扩展到3D人体Avatar建模视角。模糊图像表示为曝光期间 $T$ 个时间步的渲染图像的平均：
-   $$\mathbf{I}^B = \frac{1}{T}\sum_{t=0}^{T-1}\mathcal{R}(\mathcal{W}(\{G_k(\mathbf{x})\}_{k=0}^{K-1}, \mathcal{S}_t), \mathbf{R}, \mathbf{K})$$
+    $\mathbf{I}^B = \frac{1}{T}\sum_{t=0}^{T-1}\mathcal{R}(\mathcal{W}(\{G_k(\mathbf{x})\}_{k=0}^{K-1}, \mathcal{S}_t), \mathbf{R}, \mathbf{K})$
    其中 $\mathcal{W}$ 将标准空间的3D高斯根据SMPL参数 $\mathcal{S}_t$ 变形到观测空间，$\mathcal{R}$ 为光栅化过程。这将去模糊问题自然嵌入到3D重建框架中。
 
 2. **子帧刚性序列姿态模型（B-spline插值）**: 利用SMPL模型的24个关节，为每个关节定义 $P$ 个控制参数 $\tilde{\Theta}^j \in \mathbb{R}^{P \times 3}$，通过De Boor-Cox B-spline公式插值中间姿态：
-   $$\hat{\Theta}_t^j = \mathbf{B}(t) \cdot \mathcal{M}^P \cdot \tilde{\Theta}^j$$
+    $\hat{\Theta}_t^j = \mathbf{B}(t) \cdot \mathcal{M}^P \cdot \tilde{\Theta}^j$
    其中 $\mathbf{B}(t)$ 为时间基，$\mathcal{M}^P$ 为插值矩阵。B-spline保证了关节运动的连续性，控制参数从粗估计初始化并在训练中优化。
 
 3. **姿态变形模型**: B-spline仅能捕获基本姿态轨迹，对非刚性高频姿态变化建模不足。引入CNN $G_{disp}$ 预测每个关节在每个时间步的位移残差：
-   $$\Theta_t^j = \hat{\Theta}_t^j + G_{disp}(\hat{\Theta}_t^j; \theta_{disp})$$
+    $\Theta_t^j = \hat{\Theta}_t^j + G_{disp}(\hat{\Theta}_t^j; \theta_{disp})$
    使模型能更准确地捕获复杂姿态动态。
 
 4. **帧间运动正则化**: 运动模糊存在方向歧义（两个方向的运动可产生相似的模糊图像）。通过测量相邻曝光周期末尾和开始时姿态参数的测地距离进行正则化：
-   $$\mathcal{L}_{reg} = \frac{1}{24 \cdot (N_e - 1)}\sum_{n=0}^{N_e-2}\sum_{j=0}^{23}|\hat{\Theta}_{n,T-1}^j - \hat{\Theta}_{n+1,0}^j|_G$$
+    $\mathcal{L}_{reg} = \frac{1}{24 \cdot (N_e - 1)}\sum_{n=0}^{N_e-2}\sum_{j=0}^{23}|\hat{\Theta}_{n,T-1}^j - \hat{\Theta}_{n+1,0}^j|_G$
    增强帧间时间一致性。
 
 ### 损失函数 / 训练策略
@@ -122,7 +122,7 @@ $$\mathcal{L} = \|\hat{\mathbf{I}}^B - \mathbf{I}^B\|_1 + \mathcal{L}_{reg}$$
 - [\[CVPR 2026\] ProgressiveAvatars: Progressive Animatable 3D Gaussian Avatars](progressiveavatars_progressive_animatable_3d_gaussian_avatars.md)
 - [\[CVPR 2026\] HyperGaussians: High-Dimensional Gaussian Splatting for High-Fidelity Animatable Face Avatars](hypergaussians_high-dimensional_gaussian_splatting_for_high-fidelity_animatable_.md)
 - [\[ICCV 2025\] Sequential Gaussian Avatars with Hierarchical Motion Context](../../ICCV2025/3d_vision/sequential_gaussian_avatars_with_hierarchical_motion_context.md)
-- [\[CVPR 2026\] PhysHead: Simulation-Ready Gaussian Head Avatars](physhead_simulation-ready_gaussian_head_avatars.md)
 - [\[CVPR 2026\] Zero-Shot Reconstruction of Animatable 3D Avatars with Cloth Dynamics from a Single Image](zero-shot_reconstruction_of_animatable_3d_avatars_with_cloth_dynamics_from_a_sin.md)
+- [\[CVPR 2026\] PhysHead: Simulation-Ready Gaussian Head Avatars](physhead_simulation-ready_gaussian_head_avatars.md)
 
 <!-- RELATED:END -->

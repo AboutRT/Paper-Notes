@@ -8,7 +8,7 @@ tags:
   - 神经架构搜索
   - 零样本NAS
   - Transformer
-  - 代理指标
+  - 可解释性
   - 指标组合
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2505.07300](https://arxiv.org/abs/2505.07300)  
 **代码**: 无  
-**领域**: 优化  
+**领域**: 可解释性  
 **关键词**: 神经架构搜索, 零样本NAS, Vision Transformer, 代理指标, 指标组合
 
 ## 一句话总结
@@ -126,9 +126,9 @@ L-SWAG仅需一次前向+反向传播即可计算。
 ## 相关论文
 
 - [\[CVPR 2025\] Prompt-CAM: Making Vision Transformers Interpretable for Fine-Grained Analysis](prompt-cam_making_vision_transformers_interpretable_for_fine-grained_analysis.md)
-- [\[CVPR 2025\] Sample- and Parameter-Efficient Auto-Regressive Image Models](sample-_and_parameter-efficient_auto-regressive_image_models.md)
 - [\[CVPR 2025\] Scaling Vision Pre-Training to 4K Resolution](scaling_vision_pre-training_to_4k_resolution.md)
 - [\[CVPR 2025\] Probing the Mid-Level Vision Capabilities of Self-Supervised Learning](probing_the_mid-level_vision_capabilities_of_self-supervised_learning.md)
-- [\[CVPR 2025\] TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction](tide_training_locally_interpretable_domain_generalization_models_enables_test_time_correction.md)
+- [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
+- [\[CVPR 2025\] Open Ad-Hoc Categorization with Contextualized Feature Learning](open_ad-hoc_categorization_with_contextualized_feature_learning.md)
 
 <!-- RELATED:END -->

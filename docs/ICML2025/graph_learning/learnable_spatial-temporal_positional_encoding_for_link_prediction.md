@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.08309](https://arxiv.org/abs/2506.08309)  
-**代码**: https://github.com/kthrn22/L-STEP  
+**代码**: [https://github.com/kthrn22/L-STEP](https://github.com/kthrn22/L-STEP)  
 **领域**: 图学习 / 时序链接预测  
 **关键词**: 时序图, 位置编码, 链接预测, 离散傅里叶变换, 轻量级架构
 

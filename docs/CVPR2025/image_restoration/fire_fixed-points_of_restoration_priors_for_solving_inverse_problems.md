@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.18970](https://arxiv.org/abs/2411.18970)  
-**代码**: https://github.com/matthieutrs/fire  
+**代码**: [https://github.com/matthieutrs/fire](https://github.com/matthieutrs/fire)  
 **领域**: 图像复原  
 **关键词**: 逆问题、Plug-and-Play、图像先验、不动点、恢复模型集成
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Long Paper)  
 **arXiv**: [2412.14574](https://arxiv.org/abs/2412.14574)  
 **代码**: [https://github.com/8421BCD/fullrank](https://github.com/8421BCD/fullrank)  
-**领域**: 信息检索 / 自然语言处理  
+**领域**: LLM效率  
 **关键词**: LLM Reranking, Passage Ranking, Long-Context LLM, Listwise Ranking, Importance-Aware Loss  
 
 ## 一句话总结

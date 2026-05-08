@@ -50,21 +50,21 @@ VimoRAG 是一个两步流水线：(1) 给定运动描述文本，通过 Gemini-
 1. **Gemini Motion Video Retriever (Gemini-MVR)**
 
    设计双通道检索架构：
-   - **动作级检索器**：提取视频的2D人体关键点，通过预训练的AlphaPose检测器和MotionBERT编码器获取帧级特征，加上位置嵌入后送入Transformer时序编码器（含残差）得到动作嵌入 $\mathbf{a}$。文本侧用InternVideo文本编码器初始化的谓词语义提取器 $\theta_\mathcal{P}$ 得到嵌入 $\mathbf{p}$。用对比学习损失训练：$\mathcal{L}_{action} = \mathcal{L}_{p2a} + \mathcal{L}_{a2p}$
-   - **物体级检索器**：直接采用InternVideo作为VFM，利用其在大规模预训练中获得的丰富通用知识。
-   - **动作感知路由器 $\mathcal{I}$**：轻量级线性模型，根据动作嵌入自适应分配两个检索器权重：
+    - **动作级检索器**：提取视频的2D人体关键点，通过预训练的AlphaPose检测器和MotionBERT编码器获取帧级特征，加上位置嵌入后送入Transformer时序编码器（含残差）得到动作嵌入 $\mathbf{a}$。文本侧用InternVideo文本编码器初始化的谓词语义提取器 $\theta_\mathcal{P}$ 得到嵌入 $\mathbf{p}$。用对比学习损失训练：$\mathcal{L}_{action} = \mathcal{L}_{p2a} + \mathcal{L}_{a2p}$
+    - **物体级检索器**：直接采用InternVideo作为VFM，利用其在大规模预训练中获得的丰富通用知识。
+    - **动作感知路由器 $\mathcal{I}$**：轻量级线性模型，根据动作嵌入自适应分配两个检索器权重：
 
-   $$s(t,v) = \frac{\mathcal{I}_0(\mathbf{a}) \cdot s(\mathbf{p},\mathbf{a})}{\mathcal{I}_0(\mathbf{a})+\mathcal{I}_1(\mathbf{a})} + \frac{\mathcal{I}_1(\mathbf{a}) \cdot s(\mathbf{g},\mathbf{o})}{\mathcal{I}_0(\mathbf{a})+\mathcal{I}_1(\mathbf{a})}$$
+    $s(t,v) = \frac{\mathcal{I}_0(\mathbf{a}) \cdot s(\mathbf{p},\mathbf{a})}{\mathcal{I}_0(\mathbf{a})+\mathcal{I}_1(\mathbf{a})} + \frac{\mathcal{I}_1(\mathbf{a}) \cdot s(\mathbf{g},\mathbf{o})}{\mathcal{I}_0(\mathbf{a})+\mathcal{I}_1(\mathbf{a})}$
 
    训练分两阶段：Stage 1 分别微调两个检索器；Stage 2 冻结检索器、仅训练路由器。
 
 2. **Motion-centric Dual-alignment DPO Trainer (McDPO)**
 
    分两阶段训练LLM：
-   - **Stage 1 — 视觉示范增强指令微调**：将文本 $x$、检索视频 $v$、系统提示拼接后输入LLM，用VQ-VAE编码的运动token $y$ 作为目标，标准自回归损失 $\mathcal{L}_{sft} = -\sum_n \log p_\theta(y_n | y_{<n}, E^f)$
-   - **Stage 2 — 双对齐DPO训练**：对Stage 1得到的基线模型 $\pi_{ref}$，随机采样 $\kappa$ 次生成候选运动集。设计**双对齐奖励模型**：
+    - **Stage 1 — 视觉示范增强指令微调**：将文本 $x$、检索视频 $v$、系统提示拼接后输入LLM，用VQ-VAE编码的运动token $y$ 作为目标，标准自回归损失 $\mathcal{L}_{sft} = -\sum_n \log p_\theta(y_n | y_{<n}, E^f)$
+    - **Stage 2 — 双对齐DPO训练**：对Stage 1得到的基线模型 $\pi_{ref}$，随机采样 $\kappa$ 次生成候选运动集。设计**双对齐奖励模型**：
 
-   $$r(x,v,\hat{y_i}) = -\left(w_\ell \frac{\ell(\hat{y_i}, y)}{\sum_{j\in\kappa}\ell(\hat{y}_j, y)} + w_d \frac{d(\hat{y}_i, x)}{\sum_{j\in\kappa}d(\hat{y}_j, x)}\right)$$
+    $r(x,v,\hat{y_i}) = -\left(w_\ell \frac{\ell(\hat{y_i}, y)}{\sum_{j\in\kappa}\ell(\hat{y}_j, y)} + w_d \frac{d(\hat{y}_i, x)}{\sum_{j\in\kappa}d(\hat{y}_j, x)}\right)$
 
    其中 $\ell(\cdot)$ 衡量运动特征空间中的分布距离（运动内对齐），$d(\cdot)$ 衡量文本-运动语义空间的欧氏距离（跨模态对齐）。据此选出偏好/拒绝样本构建DPO数据集，用标准DPO损失训练。
 
@@ -152,10 +152,10 @@ VimoRAG 是一个两步流水线：(1) 给定运动描述文本，通过 Gemini-
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Semantic Retrieval Augmented Contrastive Learning for Sequential Recommendation](semantic_retrieval_augmented_contrastive_learning_for_sequential_recommendation.md)
 - [\[NeurIPS 2025\] MOSPA: Human Motion Generation Driven by Spatial Audio](mospa_human_motion_generation_driven_by_spatial_audio.md)
-- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/human_understanding/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
+- [\[ICCV 2025\] GestureHYDRA: Semantic Co-speech Gesture Synthesis via Hybrid Modality Diffusion Transformer and Cascaded-Synchronized Retrieval-Augmented Generation](../../ICCV2025/human_understanding/gesturehydra_semantic_co-speech_gesture_synthesis_via_hybrid_modality_diffusion_.md)
 - [\[CVPR 2026\] MoLingo: Motion-Language Alignment for Text-to-Human Motion Generation](../../CVPR2026/human_understanding/molingo_motion-language_alignment_for_text-to-motion_generation.md)
-- [\[NeurIPS 2025\] BEDLAM2.0: Synthetic Humans and Cameras in Motion](bedlam20_synthetic_humans_and_cameras_in_motion.md)
+- [\[ICCV 2025\] Signs as Tokens: A Retrieval-Enhanced Multilingual Sign Language Generator](../../ICCV2025/human_understanding/signs_as_tokens_a_retrieval-enhanced_multilingual_sign_language_generator.md)
+- [\[CVPR 2025\] Pose Priors from Language Models](../../CVPR2025/human_understanding/pose_priors_from_language_models.md)
 
 <!-- RELATED:END -->

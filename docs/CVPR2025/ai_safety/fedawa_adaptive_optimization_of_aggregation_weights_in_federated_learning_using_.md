@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.15842](https://arxiv.org/abs/2503.15842)  
-**代码**: https://github.com/ChanglongShi/FedAWA (有)  
+**代码**: [https://github.com/ChanglongShi/FedAWA](https://github.com/ChanglongShi/FedAWA)  
 **领域**: AI安全 / 联邦学习  
 **关键词**: 联邦学习, 聚合权重优化, 客户端向量, 任务算术, 非IID数据
 
@@ -107,8 +107,8 @@ CIFAR-10 Top-1 准确率（%）：
 
 - [\[ICCV 2025\] Client2Vec: Improving Federated Learning by Distribution Shifts Aware Client Indexing](../../ICCV2025/ai_safety/client2vec_improving_federated_learning_by_distribution_shifts_aware_client_inde.md)
 - [\[CVPR 2025\] A Simple Data Augmentation for Feature Distribution Skewed Federated Learning](a_simple_data_augmentation_for_feature_distribution_skewed_federated_learning.md)
-- [\[NeurIPS 2025\] FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA](../../NeurIPS2025/ai_safety/fedsvd_adaptive_orthogonalization_for_private_federated_learning_with_lora.md)
 - [\[ICCV 2025\] LoRA-FAIR: Federated LoRA Fine-Tuning with Aggregation and Initialization Refinement](../../ICCV2025/ai_safety/lora-fair_federated_lora_fine-tuning_with_aggregation_and_initialization_refinem.md)
+- [\[NeurIPS 2025\] Enabling Differentially Private Federated Learning for Speech Recognition: Benchmarks, Adaptive Optimizers and Gradient Clipping](../../NeurIPS2025/ai_safety/enabling_differentially_private_federated_learning_for_speech_recognition_benchm.md)
 - [\[CVPR 2025\] Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning](infighting_in_the_dark_multi-label_backdoor_attack_in_federated_learning.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.12264](https://arxiv.org/abs/2603.12264)  
-**代码**: https://github.com/VisionXLab/GRADE  
+**代码**: [https://github.com/VisionXLab/GRADE](https://github.com/VisionXLab/GRADE)  
 **领域**: 扩散模型 / 图像编辑  
 **关键词**: 图像编辑基准, 学科推理, 多模态模型评估, 知识密集型编辑, 评估协议
 
@@ -122,8 +122,8 @@ GRADE基准的构建流程为：(1) 从10个学科领域精心策划编辑样本
 
 - [\[CVPR 2025\] Six-CD: Benchmarking Concept Removals for Text-to-Image Diffusion Models](six-cd_benchmarking_concept_removals_for_text-to-image_diffusion_models.md)
 - [\[CVPR 2025\] DreamOmni: Unified Image Generation and Editing](dreamomni_unified_image_generation_and_editing.md)
-- [\[CVPR 2025\] InsightEdit: Towards Better Instruction Following for Image Editing](insightedit_towards_better_instruction_following_for_image_editing.md)
 - [\[CVPR 2025\] MagicQuill: An Intelligent Interactive Image Editing System](magicquill_an_intelligent_interactive_image_editing_system.md)
+- [\[CVPR 2025\] InsightEdit: Towards Better Instruction Following for Image Editing](insightedit_towards_better_instruction_following_for_image_editing.md)
 - [\[CVPR 2025\] Concept Lancet: Image Editing with Compositional Representation Transplant](concept_lancet_image_editing_with_compositional_representation_transplant.md)
 
 <!-- RELATED:END -->

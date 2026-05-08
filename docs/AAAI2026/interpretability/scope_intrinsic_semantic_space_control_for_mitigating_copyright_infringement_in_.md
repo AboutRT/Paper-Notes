@@ -9,7 +9,7 @@ tags:
   - 稀疏自编码器(SAE)
   - 语义子空间
   - 特征钳制
-  - 推理时干预
+  - 可解释性
 ---
 
 # SCoPe: Intrinsic Semantic Space Control for Mitigating Copyright Infringement in LLMs
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.07001](https://arxiv.org/abs/2511.07001)  
 **代码**: 无  
-**领域**: NLP生成 / AI安全  
+**领域**: 可解释性  
 **关键词**: 版权保护, 稀疏自编码器(SAE), 语义子空间, 特征钳制, 推理时干预  
 
 ## 一句话总结
@@ -139,7 +139,7 @@ MMLU通用能力（无损）：
 - [\[NeurIPS 2025\] Out of Control -- Why Alignment Needs Formal Control Theory (and an Alignment Control Stack)](../../NeurIPS2025/interpretability/out_of_control_--_why_alignment_needs_formal_control_theory_and_an_alignment_con.md)
 - [\[AAAI 2026\] Adaptive Evidential Learning for Temporal-Semantic Robustness in Moment Retrieval](adaptive_evidential_learning_for_temporal-semantic_robustnes.md)
 - [\[AAAI 2026\] Finding the Translation Switch: Discovering and Exploiting the Task-Initiation Features in LLMs](finding_the_translation_switch_discovering_and_exploiting_the_task-initiation_fe.md)
-- [\[CVPR 2026\] Beyond Semantics: Disentangling Information Scope in Sparse Autoencoders for CLIP](../../CVPR2026/interpretability/beyond_semantics_disentangling_information_scope_in_sparse_autoencoders_for_clip.md)
-- [\[ICLR 2026\] Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](../../ICLR2026/interpretability/decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md)
+- [\[ICLR 2026\] The Geometry of Reasoning: Flowing Logics in Representation Space](../../ICLR2026/interpretability/the_geometry_of_reasoning_flowing_logics_in_representation_space.md)
+- [\[AAAI 2026\] Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution](can_llms_truly_embody_human_personality_analyzing_ai_and_human_behavior_alignmen.md)
 
 <!-- RELATED:END -->

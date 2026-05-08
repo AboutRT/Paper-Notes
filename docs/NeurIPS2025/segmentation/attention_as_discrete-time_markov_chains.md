@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.17657](https://arxiv.org/abs/2507.17657)  
-**代码**: https://yoterel.github.io/attention_chains/  
+**代码**: [https://yoterel.github.io/attention_chains/](https://yoterel.github.io/attention_chains/)  
 **领域**: 注意力分析 / 可视化  
 **关键词**: 注意力Markov链, TokenRank, PageRank, 多跳注意力, 图像分割
 

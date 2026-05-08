@@ -8,7 +8,7 @@ tags:
   - 共形预测
   - 分布偏移
   - subpopulation shift
-  - 不确定性量化
+  - LLM评测
   - LLM hallucination
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.05583](https://arxiv.org/abs/2506.05583)  
 **代码**: 待确认  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 共形预测, 分布偏移, subpopulation shift, 不确定性量化, LLM hallucination
 
 ## 一句话总结

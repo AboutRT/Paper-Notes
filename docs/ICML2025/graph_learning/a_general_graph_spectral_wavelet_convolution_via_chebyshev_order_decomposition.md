@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2405.13806](https://arxiv.org/abs/2405.13806)  
-**代码**: https://github.com/liun-online/WaveGC  
+**代码**: [https://github.com/liun-online/WaveGC](https://github.com/liun-online/WaveGC)  
 **领域**: 图学习  
 **关键词**: 图小波, 谱卷积, Chebyshev多项式, 多分辨率, 长短程信息
 

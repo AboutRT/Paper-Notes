@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.20258](https://arxiv.org/abs/2502.20258)  
-**代码**: https://github.com/amr-mohamedd/LLM-as-a-Broken-Telephone  
+**代码**: [https://github.com/amr-mohamedd/LLM-as-a-Broken-Telephone](https://github.com/amr-mohamedd/LLM-as-a-Broken-Telephone)  
 **领域**: LLM / NLP  
 **关键词**: 信息失真, 迭代生成, 模型坍缩, 机器翻译, 事实性
 
@@ -128,10 +128,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Knockout LLM Assessment: Using Large Language Models for Evaluations through Iterative Pairwise Comparisons](knockout_llm_assessment_using_large_language_models_for_evaluations_through_iter.md)
 - [\[ACL 2025\] LongDPO: Unlock Better Long-form Generation Abilities for LLMs via Critique-augmented Stepwise Information](longdpo_unlock_better_long-form_generation_abilities_for_llms_via_critique-augme.md)
+- [\[ACL 2025\] Knockout LLM Assessment: Using Large Language Models for Evaluations through Iterative Pairwise Comparisons](knockout_llm_assessment_using_large_language_models_for_evaluations_through_iter.md)
 - [\[ACL 2025\] From Selection to Generation: A Survey of LLM-based Active Learning](from_selection_to_generation_a_survey.md)
-- [\[ACL 2025\] Transforming Podcast Preview Generation: From Expert Models to LLM-Based Systems](transforming_podcast_preview_generation_from_expert_models_to_llm-based_systems.md)
+- [\[ACL 2025\] Information Locality as an Inductive Bias for Neural Language Models](information_locality_as_an_inductive_bias_for_neural_language_models.md)
 - [\[ACL 2025\] Systematic Generalization in Language Models Scales with Information Entropy](systematic_generalization_in_language_models_scales_with_information_entropy.md)
 
 <!-- RELATED:END -->

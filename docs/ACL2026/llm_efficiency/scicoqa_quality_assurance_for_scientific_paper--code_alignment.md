@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2601.12910](https://arxiv.org/abs/2601.12910)  
-**代码**: https://github.com/ukplab/scicoqa  
+**代码**: [https://github.com/ukplab/scicoqa](https://github.com/ukplab/scicoqa)  
 **领域**: 科学可复现性/论文-代码一致性验证  
 **关键词**: 论文代码差异检测, 科学可复现性, 跨模态验证, LLM评测, 质量保证
 
@@ -137,6 +137,6 @@ SciCoQA 的构建分为真实数据收集和合成数据生成两条路线。真
 - [\[ICLR 2026\] EvoEngineer: Mastering Automated CUDA Kernel Code Evolution with Large Language Models](../../ICLR2026/llm_efficiency/evoengineer_mastering_automated_cuda_kernel_code_evolution_with_large_language_m.md)
 - [\[ICML 2025\] Long-Short Alignment for Effective Long-Context Modeling in LLMs](../../ICML2025/llm_efficiency/long-short_alignment_for_effective_long-context_modeling_in_llms.md)
 - [\[NeurIPS 2025\] SPARTA Alignment: Collectively Aligning Multiple Language Models through Combat](../../NeurIPS2025/llm_efficiency/sparta_alignment_collectively_aligning_multiple_language_models_through_combat.md)
-- [\[ACL 2026\] HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns](humanllm_benchmarking_and_improving_llm_anthropomorphism_via_human_cognitive_pat.md)
+- [\[ACL 2026\] SpecBound: Adaptive Bounded Self-Speculation with Layer-wise Confidence Calibration](specbound_adaptive_bounded_self-speculation_with_layer-wise_confidence_calibrati.md)
 
 <!-- RELATED:END -->

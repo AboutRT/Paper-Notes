@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.01061](https://arxiv.org/abs/2502.01061)  
-**代码**: 无（项目页 https://omnihuman-lab.github.io/）  
-**领域**: video_understanding  
+**代码**: 无（项目页 [https://omnihuman-lab.github.io/](https://omnihuman-lab.github.io/)）  
+**领域**: 视频生成  
 **关键词**: human animation, diffusion transformer, audio-driven, omni-conditions training, data scaling
 
 ## 一句话总结

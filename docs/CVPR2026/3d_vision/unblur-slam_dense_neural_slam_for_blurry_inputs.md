@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.26810](https://arxiv.org/abs/2603.26810)  
-**代码**: https://github.com/SlamMate/Unblur-SLAM.git  
+**代码**: [https://github.com/SlamMate/Unblur-SLAM.git](https://github.com/SlamMate/Unblur-SLAM.git)  
 **领域**: 3D 视觉 / 神经 SLAM  
 **关键词**: 模糊鲁棒 SLAM、3DGS、单帧去模糊、子帧建模、混合 bundle adjustment
 

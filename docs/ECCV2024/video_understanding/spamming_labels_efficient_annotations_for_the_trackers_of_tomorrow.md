@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.11426](https://arxiv.org/abs/2404.11426)  
-**代码**: https://research.nvidia.com/labs/dvl/projects/spam (有)  
+**代码**: [https://research.nvidia.com/labs/dvl/projects/spam](https://research.nvidia.com/labs/dvl/projects/spam)  
 **领域**: 视频理解（多目标跟踪 / 高效标注）  
 **关键词**: 多目标跟踪, 视频标注引擎, 伪标签, 主动学习, 图神经网络
 

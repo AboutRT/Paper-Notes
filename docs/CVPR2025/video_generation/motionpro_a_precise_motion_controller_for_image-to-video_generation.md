@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.20287](https://arxiv.org/abs/2505.20287)  
-**代码**: https://github.com/zhw-zhang/MotionPro-page (有)  
-**领域**: 视频理解  
+**代码**: [https://github.com/zhw-zhang/MotionPro-page](https://github.com/zhw-zhang/MotionPro-page)  
+**领域**: 视频生成  
 **关键词**: 图像到视频生成, 运动控制, 区域轨迹, 运动掩码, 扩散模型
 
 ## 一句话总结

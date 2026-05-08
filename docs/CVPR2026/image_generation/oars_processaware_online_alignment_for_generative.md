@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12811](https://arxiv.org/abs/2603.12811)  
 **代码**: 无（截至2026年3月）  
-**领域**: 图像超分辨率 / 强化学习对齐 / 图像质量评估  
+**领域**: 图像生成  
 **关键词**: Real-World Super-Resolution, Online RL, MLLM Reward, Process-Aware, Perception-Fidelity Trade-off  
 
 ## 一句话总结

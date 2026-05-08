@@ -8,7 +8,7 @@ tags:
   - fine-grained recognition
   - reinforcement-learning
   - GRPO
-  - visual reasoning
+  - 强化学习
   - multiple-choice question
   - LVLM
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2511.18305](https://arxiv.org/abs/2511.18305)  
 **代码**: [raja-kumar/DiVE-k](https://github.com/raja-kumar/DiVE-k)  
-**领域**: multimodal_vlm  
+**领域**: 强化学习  
 **关键词**: fine-grained recognition, reinforcement-learning, GRPO, visual reasoning, multiple-choice question, LVLM
 
 ## 一句话总结
@@ -136,7 +136,7 @@ DiVE-k 的关键区别在于将开放式分类问题转化为模型自生成的�
 - [\[ICLR 2026\] RewardMap: Tackling Sparse Rewards in Fine-grained Visual Reasoning via Multi-Stage Reinforcement Learning](rewardmap_tackling_sparse_rewards_in_fine-grained_visual_reasoning_via_multi-sta.md)
 - [\[ICLR 2026\] PreferThinker: Reasoning-based Personalized Image Preference Assessment](preferthinker_reasoning-based_personalized_image_preference_assessment.md)
 - [\[ICLR 2026\] Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment](reasoning_as_representation_rethinking_visual_reinforcement_learning_in_image_qu.md)
+- [\[CVPR 2026\] Specificity-aware Reinforcement Learning for Fine-grained Open-world Classification](../../CVPR2026/reinforcement_learning/specificity-aware_reinforcement_learning_for_fine-grained_open-world_classificat.md)
 - [\[ICLR 2026\] LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts](loongrl_rl_for_reasoning_long_contexts.md)
-- [\[ICLR 2026\] FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning](fapo_flawed-aware_policy_optimization_for_efficient_and_reliable_reasoning.md)
 
 <!-- RELATED:END -->

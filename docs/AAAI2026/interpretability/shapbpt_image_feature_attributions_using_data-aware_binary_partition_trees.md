@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - Shapley值
-  - 二叉分割树
+  - 可解释性
   - 可解释性
   - 特征归因
   - 图像分类
@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2602.07047](https://arxiv.org/abs/2602.07047)  
-**代码**: https://github.com/amparore/shap_bpt  
+**代码**: [https://github.com/amparore/shap_bpt](https://github.com/amparore/shap_bpt)  
 **领域**: 可解释AI / 计算机视觉  
 **关键词**: Shapley值, 二叉分割树, 可解释性, 特征归因, 图像分类
 
@@ -127,8 +127,8 @@ tags:
 
 - [\[AAAI 2026\] DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment](drexperts_differential_refinement_of_distortion-aware_experts_for_blind_image_qu.md)
 - [\[CVPR 2026\] Feature Attribution Stability Suite: How Stable Are Post-Hoc Attributions?](../../CVPR2026/interpretability/feature_attribution_stability_suite_how_stable_are_post-hoc_attributions.md)
+- [\[AAAI 2026\] GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)
 - [\[AAAI 2026\] Enhancing Binary Encoded Crime Linkage Analysis Using Siamese Network](enhancing_binary_encoded_crime_linkage_analysis_using_siamese_network.md)
-- [\[AAAI 2026\] Data Whitening Improves Sparse Autoencoder Learning](data_whitening_improves_sparse_autoencoder_learning.md)
-- [\[AAAI 2026\] Quiet Feature Learning in Algorithmic Tasks](quiet_feature_learning_in_algorithmic_tasks.md)
+- [\[AAAI 2026\] SparK: Query-Aware Unstructured Sparsity with Recoverable KV Cache Channel Pruning](spark_query-aware_unstructured_sparsity_with_recoverable_kv_cache_channel_prunin.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.10939](https://arxiv.org/abs/2505.10939)  
-**代码**: https://github.com/saharsamr/Modular-LLM (有)  
+**代码**: [https://github.com/saharsamr/Modular-LLM](https://github.com/saharsamr/Modular-LLM)  
 **领域**: 模块化 LLM / 参数高效迁移  
 **关键词**: LoRA, 通用知识减法, Arrow路由, 零样本迁移, 模块化
 
@@ -130,7 +130,7 @@ tags:
 - [\[ACL 2025\] Improving Preference Extraction In LLMs By Identifying Latent Knowledge Through Classifying Probes](improving_preference_extraction_in_llms_by_identifying_latent_knowledge_through_.md)
 - [\[ACL 2025\] Self-Tuning: Instructing LLMs to Effectively Acquire New Knowledge through Self-Teaching](self-tuning_instructing_llms_to_effectively_acquire_new_knowledge_through_self-t.md)
 - [\[ACL 2025\] Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations](knowledge_boundary_crosslingual.md)
-- [\[ACL 2025\] Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training](derta_decoupled_refusal.md)
 - [\[ACL 2025\] A Training-free LLM-based Approach to General Chinese Character Error Correction](a_training-free_llm-based_approach_to_general_chinese_character_error_correction.md)
+- [\[ACL 2025\] Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training](derta_decoupled_refusal.md)
 
 <!-- RELATED:END -->

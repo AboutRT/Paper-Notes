@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.10233](https://arxiv.org/abs/2511.10233)  
 **作者**: Jianghan Zhu, Yaoxin Wu, Zhuoyi Lin, Zhengyuan Zhang, Haiyan Yin, Zhiguang Cao, Senthilnath Jayavelu, Xiaoli Li
 **代码**: [GitHub](https://github.com/HenryZhu1029/EvoReal)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 神经组合优化, 车辆路径问题, LLM引导进化, 数据生成器, 渐进式微调, 泛化能力
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR2026  
 **arXiv**: [2510.03101](https://arxiv.org/abs/2510.03101)  
-**代码**: https://github.com/Nokia-Bell-Labs/efficient_layer_selection  
+**代码**: [https://github.com/Nokia-Bell-Labs/efficient_layer_selection](https://github.com/Nokia-Bell-Labs/efficient_layer_selection)  
 **领域**: 高效训练 / 边缘计算  
 **关键词**: 层选择, Betti数, 拓扑数据分析, 无梯度微调, 边缘设备, 迁移学习
 
@@ -147,9 +147,9 @@ AdaBet 是一个两阶段流程：(1) 层重要性评估——对未标注数据
 ## 相关论文
 
 - [\[ICLR 2026\] Improving Set Function Approximation with Quasi-Arithmetic Neural Networks](../../ICLR2026/llm_evaluation/improving_set_function_approximation_with_quasi-arithmetic_neural_networks.md)
+- [\[ICML 2025\] Sample Efficient Demonstration Selection for In-Context Learning](../../ICML2025/llm_evaluation/sample_efficient_demonstration_selection_for_in-context_learning.md)
 - [\[ICML 2025\] Improving the Effective Receptive Field of Message-Passing Neural Networks](../../ICML2025/llm_evaluation/improving_the_effective_receptive_field_of_message-passing_neural_networks.md)
 - [\[CVPR 2026\] HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning](hycal_training_free_prototype_calibration_for_cross_discipline_fscil.md)
 - [\[ICML 2025\] Fully Heteroscedastic Count Regression with Deep Double Poisson Networks](../../ICML2025/llm_evaluation/fully_heteroscedastic_count_regression_with_deep_double_poisson_networks.md)
-- [\[NeurIPS 2025\] HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization](../../NeurIPS2025/llm_evaluation/hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md)
 
 <!-- RELATED:END -->

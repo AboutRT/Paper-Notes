@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 参数高效微调
-  - LoRA
+  - 强化学习
   - 奇异值分解
   - 自适应秩分配
   - 方差最优初始化
@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2410.07170](https://arxiv.org/abs/2410.07170)  
 **作者**: Fabian Paischer (JKU Linz), Lukas Hauzenberger (JKU Linz), Thomas Schmied, Benedikt Alkin, Marc Peter Deisenroth (UCL), Sepp Hochreiter (JKU Linz)
 **代码**: 已集成至 HuggingFace PEFT 库  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 参数高效微调, LoRA, 奇异值分解, 自适应秩分配, 方差最优初始化
 
 ## 一句话总结
@@ -174,9 +174,9 @@ EVA 在最大批大小时开销仅 0.7%，减小批大小至 4 后仅 0.2%。增
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](videorft_incentivizing_video_reasoning_capability_in_mllms_via_reinforced_fine-t.md)
-- [\[NeurIPS 2025\] Continual Knowledge Adaptation for Reinforcement Learning](continual_knowledge_adaptation_for_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Parameter-Free Algorithms for the Stochastically Extended Adversarial Model](parameter-free_algorithms_for_the_stochastically_extended_adversarial_model.md)
+- [\[ACL 2026\] ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning](../../ACL2026/reinforcement_learning/rerec_reasoning-augmented_llm-based_recommendation_assistant_via_reinforcement_f.md)
+- [\[NeurIPS 2025\] Continual Knowledge Adaptation for Reinforcement Learning](continual_knowledge_adaptation_for_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Prompt Tuning Decision Transformers with Structured and Scalable Bandits](prompt_tuning_decision_transformers_with_structured_and_scalable_bandits.md)
 - [\[NeurIPS 2025\] Variance-Aware Feel-Good Thompson Sampling for Contextual Bandits](variance-aware_feel-good_thompson_sampling_for_contextual_bandits.md)
 

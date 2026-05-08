@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OSV: One Step is Enough for High-Quality Image to Video Generation
 description: >-
-  [CVPR 2025][图像生成][单步视频生成] 提出两阶段训练框架 OSV，结合 GAN 对抗训练和一致性蒸馏，实现单步高质量图像到视频生成，并设计了无需解码的新型视频判别器。
+  [CVPR 2025][视频生成][单步视频生成] 提出两阶段训练框架 OSV，结合 GAN 对抗训练和一致性蒸馏，实现单步高质量图像到视频生成，并设计了无需解码的新型视频判别器。
 tags:
   - CVPR 2025
-  - 图像生成
+  - 视频生成
   - 单步视频生成
   - 一致性蒸馏
   - 对抗训练
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2409.11367](https://arxiv.org/abs/2409.11367)  
 **代码**: 无  
-**领域**: 图像生成 / 视频加速  
+**领域**: 视频生成  
 **关键词**: 单步视频生成, 一致性蒸馏, 对抗训练, 视频扩散加速, GAN
 
 ## 一句话总结
@@ -111,10 +111,10 @@ OSV 包含三个网络组件：学生模型 $\theta$、EMA 目标模型 $\theta^
 
 ## 相关论文
 
-- [\[ICCV 2025\] Dual-Expert Consistency Model for Efficient and High-Quality Video Generation](../../ICCV2025/video_generation/dual-expert_consistency_model_for_efficient_and_high-quality_video_generation.md)
 - [\[CVPR 2025\] VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step](videoscene_distilling_video_diffusion_model_to_generate_3d_scenes_in_one_step.md)
-- [\[ICML 2025\] Diffusion Adversarial Post-Training for One-Step Video Generation](../../ICML2025/video_generation/diffusion_adversarial_post-training_for_one-step_video_generation.md)
+- [\[ICCV 2025\] Dual-Expert Consistency Model for Efficient and High-Quality Video Generation](../../ICCV2025/video_generation/dual-expert_consistency_model_for_efficient_and_high-quality_video_generation.md)
 - [\[CVPR 2025\] FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](flashmotion_few-step_controllable_video_generation_with_trajectory_guidance.md)
-- [\[NeurIPS 2025\] Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation](../../NeurIPS2025/video_generation/foresight_adaptive_layer_reuse_for_accelerated_and_highquali.md)
+- [\[ICML 2025\] Diffusion Adversarial Post-Training for One-Step Video Generation](../../ICML2025/video_generation/diffusion_adversarial_post-training_for_one-step_video_generation.md)
+- [\[ICCV 2025\] DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation](../../ICCV2025/video_generation/dh-facevid-1k_a_large-scale_high-quality_dataset_for_face_video_generation.md)
 
 <!-- RELATED:END -->

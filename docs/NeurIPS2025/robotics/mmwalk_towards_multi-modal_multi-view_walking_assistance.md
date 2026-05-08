@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.11520](https://arxiv.org/abs/2510.11520)  
-**代码**: https://github.com/KediYing/mmWalk  
-**领域**: 视觉问答 / 辅助技术  
+**代码**: [https://github.com/KediYing/mmWalk](https://github.com/KediYing/mmWalk)  
+**领域**: 机器人  
 **关键词**: 视障辅助, VQA基准, 多模态, 多视角, CARLA仿真
 
 ## 一句话总结

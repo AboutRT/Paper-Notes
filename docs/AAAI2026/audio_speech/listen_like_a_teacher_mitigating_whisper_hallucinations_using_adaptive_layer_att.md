@@ -8,7 +8,7 @@ tags:
   - 语音
   - 语音识别
   - Whisper
-  - 幻觉消除
+  - 音频语音
   - 自适应层注意力
   - 知识蒸馏
   - 噪声鲁棒性
@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.14219](https://arxiv.org/abs/2511.14219)  
 **作者**: Kumud Tripathi, Aditya Srinivas Menon, Aman Gaurav, Raj Prakash Gohil, Pankaj Wasnik  
 **代码**: 未公开  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: 语音识别, Whisper, 幻觉消除, 自适应层注意力, 知识蒸馏, 噪声鲁棒性  
 
 ## 一句话总结
@@ -160,7 +160,7 @@ ALA仅增加0.98%参数，延迟增加8%，RTF增加9%。
 - [\[ACL 2026\] TellWhisper: Tell Whisper Who Speaks When](../../ACL2026/audio_speech/tellwhisper_tell_whisper_who_speaks_when.md)
 - [\[AAAI 2026\] Multi-granularity Interactive Attention Framework for Residual Hierarchical Pronunciation Assessment](multi-granularity_interactive_attention_framework_for_residual_hierarchical_pron.md)
 - [\[ICLR 2026\] TripleSumm: Adaptive Triple-Modality Fusion for Video Summarization](../../ICLR2026/audio_speech/triplesumm_adaptive_triple-modality_fusion_for_video_summarization.md)
-- [\[AAAI 2026\] Say More with Less: Variable-Frame-Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding](say_more_with_less_variable-frame-rate_speech_tokenization_via_adaptive_clusteri.md)
 - [\[ECCV 2024\] Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation](../../ECCV2024/audio_speech/listen_to_look_into_the_future_audio-visual_egocentric_gaze_anticipation.md)
+- [\[AAAI 2026\] Say More with Less: Variable-Frame-Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding](say_more_with_less_variable-frame-rate_speech_tokenization_via_adaptive_clusteri.md)
 
 <!-- RELATED:END -->

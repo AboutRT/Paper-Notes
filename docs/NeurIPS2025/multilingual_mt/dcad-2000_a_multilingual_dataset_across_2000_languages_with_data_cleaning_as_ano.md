@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多语言数据集
   - 数据清洗
-  - 异常检测
+  - 多语言翻译
   - Common Crawl
   - 低资源语言
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.11546](https://arxiv.org/abs/2502.11546)  
-**代码**: https://github.com/yl-shen/DCAD-2000  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/yl-shen/DCAD-2000](https://github.com/yl-shen/DCAD-2000)  
+**领域**: 多语言翻译  
 **关键词**: 多语言数据集, 数据清洗, 异常检测, Common Crawl, 低资源语言
 
 ## 一句话总结
@@ -133,9 +133,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] HelpSteer3-Preference: Open Human-Annotated Preference Data across Diverse Tasks and Languages](helpsteer3-preference_open_human-annotated_preference_data_across_diverse_tasks_.md)
-- [\[CVPR 2025\] Semantic and Expressive Variation in Image Captions Across Languages](../../CVPR2025/multilingual_mt/semantic_and_expressive_variations_in_image_captions_across_languages.md)
 - [\[ACL 2025\] The Esethu Framework: Reimagining Sustainable Dataset Governance and Curation for Low-Resource Languages](../../ACL2025/multilingual_mt/the_esethu_framework_reimagining_sustainable_dataset_governance_and_curation_for.md)
-- [\[NeurIPS 2025\] Enhancing Multilingual LLM Pretraining with Model-Based Data Selection](enhancing_multilingual_llm_pretraining_with_model-based_data_selection.md)
+- [\[CVPR 2025\] Semantic and Expressive Variation in Image Captions Across Languages](../../CVPR2025/multilingual_mt/semantic_and_expressive_variations_in_image_captions_across_languages.md)
+- [\[ACL 2026\] Lost in Translation: Do LVLM Judges Generalize Across Languages?](../../ACL2026/multilingual_mt/lost_in_translation_do_lvlm_judges_generalize_across_languages.md)
 - [\[ACL 2025\] Comparative Analysis of Multilingual Hate Speech Detection](../../ACL2025/multilingual_mt/comparative_analysis_of_multilingual_hate_speech_detection.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2506.00980](https://arxiv.org/abs/2506.00980)  
 **代码**: [GitHub](https://github.com/stanford-oval/Lemonade)  
-**领域**: NLP理解/事件抽取  
+**领域**: 多语言翻译  
 **关键词**: event extraction, multilingual, entity linking, abstractive, conflict data
 
 ## 一句话总结

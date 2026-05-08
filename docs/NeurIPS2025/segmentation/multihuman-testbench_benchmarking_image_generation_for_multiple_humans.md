@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.20879](https://arxiv.org/abs/2506.20879)  
-**代码**: [GitHub](https://github.com/Qualcomm-AI-research/MultiHuman-Testbench) (有)  
-**领域**: Image Generation / Benchmark  
+**代码**: [GitHub](https://github.com/Qualcomm-AI-research/MultiHuman-Testbench)  
+**领域**: 图像分割  
 **关键词**: 多人图像生成, 身份保持, benchmark, 扩散模型, 区域隔离
 
 ## 一句话总结

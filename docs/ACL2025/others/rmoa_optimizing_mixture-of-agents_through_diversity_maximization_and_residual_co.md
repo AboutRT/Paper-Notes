@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RMoA: Optimizing Mixture-of-Agents through Diversity Maximization and Residual Compensation
 description: >-
-  [ACL 2025][Mixture-of-Agents] 受 ResNet 残差学习启发，提出 RMoA 框架，通过嵌入式多样性贪心选择、残差提取/聚合智能体和自适应终止机制来优化多智能体协作架构，在降低计算开销的同时实现 SOTA 性能。
+  [ACL 2025][其他] 受 ResNet 残差学习启发，提出 RMoA 框架，通过嵌入式多样性贪心选择、残差提取/聚合智能体和自适应终止机制来优化多智能体协作架构，在降低计算开销的同时实现 SOTA 性能。
 tags:
   - ACL 2025
-  - Mixture-of-Agents
+  - 其他
   - 残差连接
   - 多样性选择
   - 自适应终止
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24442](https://arxiv.org/abs/2505.24442)  
-**代码**: 有 (https://github.com/mindhunter01/RMoA)  
-**领域**: NLP / 多智能体系统  
+**代码**: 有 ([https://github.com/mindhunter01/RMoA](https://github.com/mindhunter01/RMoA))  
+**领域**: 其他  
 **关键词**: Mixture-of-Agents, 残差连接, 多样性选择, 自适应终止, 多智能体协作
 
 ## 一句话总结
@@ -162,10 +162,10 @@ RMoA 是一个纯推理框架，无需训练。关键超参数：
 
 ## 相关论文
 
-- [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](../../ICML2025/others/randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
-- [\[ACL 2025\] Value Residual Learning](value_residual_learning.md)
 - [\[ACL 2025\] A New Formulation of Zipf's Meaning-Frequency Law through Contextual Diversity](a_new_formulation_of_zipfs_meaning-frequency_law_through_contextual_diversity.md)
-- [\[ACL 2025\] Preventing Rogue Agents Improves Multi-Agent Collaboration](preventing_rogue_agents_improves_multi-agent_collaboration.md)
-- [\[ACL 2025\] ACT: Knowledgeable Agents to Design and Perform Complex Tasks](act_knowledgeable_agents_to_design_and_perform_complex_tasks.md)
+- [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](../../ICML2025/others/randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
+- [\[ACL 2025\] Optimizing Decomposition for Optimal Claim Verification](optimizing_decomposition_for_optimal_claim_verification.md)
+- [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
+- [\[ACL 2025\] Value Residual Learning](value_residual_learning.md)
 
 <!-- RELATED:END -->

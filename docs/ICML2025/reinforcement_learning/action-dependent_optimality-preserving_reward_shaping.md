@@ -9,7 +9,7 @@ tags:
   - intrinsic motivation
   - optimality preservation
   - PBRS
-  - exploration
+  - 强化学习
   - Montezuma's Revenge
 ---
 
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.12611](https://arxiv.org/abs/2505.12611)  
-**代码**: https://github.com/alirezakazemipour/PPO-RND (基于此实现)  
-**领域**: reinforcement_learning  
+**代码**: [https://github.com/alirezakazemipour/PPO-RND](https://github.com/alirezakazemipour/PPO-RND) (基于此实现)  
+**领域**: 强化学习  
 **关键词**: reward shaping, intrinsic motivation, optimality preservation, PBRS, exploration, Montezuma's Revenge
 
 ## 一句话总结
@@ -162,6 +162,6 @@ $$\text{argmax}_a Q_{IE}^\pi = \text{argmax}_a Q_E^\pi \quad \forall \pi$$
 - [\[ICML 2025\] Gradual Transition from Bellman Optimality Operator to Bellman Operator in Online RL](gradual_transition_from_bellman_optimality_operator_to_bellman_operator_in.md)
 - [\[ICLR 2026\] MVR: Multi-view Video Reward Shaping for Reinforcement Learning](../../ICLR2026/reinforcement_learning/mvr_multi-view_video_reward_shaping_for_reinforcement_learning.md)
 - [\[ICML 2025\] Action-Constrained Imitation Learning](action-constrained_imitation_learning.md)
-- [\[ICML 2025\] Demystifying the Paradox of Importance Sampling with an Estimated History-Dependent Behavior Policy in Off-Policy Evaluation](demystifying_the_paradox_of_importance_sampling_with_an_estimated_history-depend.md)
+- [\[ICML 2025\] Gradual Transition from Bellman Optimality Operator to Bellman Operator in Online Reinforcement Learning](gradual_transition_from_bellman_optimality_operator_to_bellman_operator_in_onlin.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.20704](https://arxiv.org/abs/2505.20704)  
-**代码**: https://github.com/hzcar/ReCAP  
+**代码**: [https://github.com/hzcar/ReCAP](https://github.com/hzcar/ReCAP)  
 **领域**: 其他/测试时适应  
 **关键词**: 测试时适应, 熵最小化, 区域置信度, 分布偏移, 野外场景
 

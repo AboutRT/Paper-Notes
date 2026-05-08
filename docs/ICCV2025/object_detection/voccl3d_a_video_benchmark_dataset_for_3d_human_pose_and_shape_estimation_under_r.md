@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.06757](https://arxiv.org/abs/2508.06757)  
 **代码**: [https://yashgarg98.github.io/VOccl3D-dataset/](https://yashgarg98.github.io/VOccl3D-dataset/)  
-**领域**: 3D人体姿态估计 / 数据集  
+**领域**: 目标检测  
 **关键词**: 人体姿态估计, 遮挡, 合成数据集, 3D Gaussian Splatting, SMPL-X
 
 ## 一句话总结
@@ -154,9 +154,9 @@ VOccl3D-B-CLIFF 在 Hard-Occlusion MPJPE 上比 BEDLAM-CLIFF 降低约 **18.5mm*
 ## 相关论文
 
 - [\[CVPR 2025\] ProbPose: A Probabilistic Approach to 2D Human Pose Estimation](../../CVPR2025/object_detection/probpose_a_probabilistic_approach_to_2d_human_pose_estimation.md)
-- [\[NeurIPS 2025\] PandaPose: 3D Human Pose Lifting from a Single Image via Propagating 2D Pose Prior to 3D Anchor Space](../../NeurIPS2025/object_detection/pandapose_3d_human_pose_lifting_from_a_single_image_via_propagating_2d_pose_prio.md)
-- [\[AAAI 2026\] Robust Long-term Test-Time Adaptation for 3D Human Pose Estimation through Motion Discretization](../../AAAI2026/object_detection/robust_long-term_test-time_adaptation_for_3d_human_pose_estimation_through_motio.md)
+- [\[ICCV 2025\] YOLOE: Real-Time Seeing Anything](yoloe_realtime_seeing_anything.md)
+- [\[ICCV 2025\] Large-scale Pre-training for Grounded Video Caption Generation](large-scale_pre-training_for_grounded_video_caption_generation.md)
+- [\[ICCV 2025\] Diffusion Curriculum: Synthetic-to-Real Data Curriculum via Image-Guided Diffusion](diffusion_curriculum_synthetic-to-real_data_curriculum_via_image-guided_diffusio.md)
 - [\[ICCV 2025\] 3D-MOOD: Lifting 2D to 3D for Monocular Open-Set Object Detection](3dmood_lifting_2d_to_3d_for_monocular_openset_object_detecti.md)
-- [\[CVPR 2025\] Any6D: Model-free 6D Pose Estimation of Novel Objects](../../CVPR2025/object_detection/any6d_model-free_6d_pose_estimation_of_novel_objects.md)
 
 <!-- RELATED:END -->

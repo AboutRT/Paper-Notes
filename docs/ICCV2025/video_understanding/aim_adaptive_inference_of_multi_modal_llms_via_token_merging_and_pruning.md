@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 无  
 **代码**: [GitHub](https://github.com/LaVi-Lab/AIM)  
-**领域**: 多模态大语言模型效率  
+**领域**: 视频理解  
 **关键词**: token merging, token pruning, adaptive inference, multi-modal LLM, training-free
 
 ## 一句话总结

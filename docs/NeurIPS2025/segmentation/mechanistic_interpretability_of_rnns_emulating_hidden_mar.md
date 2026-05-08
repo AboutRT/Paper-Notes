@@ -19,8 +19,8 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.25674](https://arxiv.org/abs/2510.25674)  
 **作者**: Elia Torre, Michele Viscione, Lucas Pompe, Benjamin F. Grewe, Valerio Mante (ETH Zurich / University of Zurich)
-**代码**: https://github.com/EliaTorre/hmmrnn (有)  
-**领域**: 机制可解释性 / 循环神经网络 / 计算神经科学  
+**代码**: [https://github.com/EliaTorre/hmmrnn](https://github.com/EliaTorre/hmmrnn)  
+**领域**: 图像分割  
 **关键词**: RNN, HMM, mechanistic interpretability, stochastic resonance, kick neurons, orbital dynamics
 
 ## 一句话总结

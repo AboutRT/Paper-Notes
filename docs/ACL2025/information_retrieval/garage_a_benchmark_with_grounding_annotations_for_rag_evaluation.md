@@ -2,10 +2,10 @@
 title: >-
   [论文解读] GaRAGe: A Benchmark with Grounding Annotations for RAG Evaluation
 description: >-
-  [ACL 2025][RAG benchmark] GaRAGe 是一个包含 2366 个问题和超过 35K 条人工标注 grounding 段落的 RAG 基准，通过细粒度的 grounding 相关性标注，系统评估 LLM 在 RAG 场景下识别相关信息、拒绝回答和归因引用的能力。
+  [ACL 2025][信息检索] GaRAGe 是一个包含 2366 个问题和超过 35K 条人工标注 grounding 段落的 RAG 基准，通过细粒度的 grounding 相关性标注，系统评估 LLM 在 RAG 场景下识别相关信息、拒绝回答和归因引用的能力。
 tags:
   - ACL 2025
-  - RAG benchmark
+  - 信息检索
   - grounding annotation
   - factuality
   - deflection
@@ -122,10 +122,10 @@ GaRAGe 本身是评估基准而非模型，不涉及训练。评估使用 GPT-4o
 
 ## 相关论文
 
-- [\[ACL 2025\] MEMERAG: A Multilingual End-to-End Meta-Evaluation Benchmark for Retrieval Augmented Generation](memerag_a_multilingual_end-to-end_meta-evaluation_benchmark_for_retrieval_augmen.md)
 - [\[ACL 2025\] Atomic LLM: A Fine-Grained Information Retrieval Evaluation Benchmark for Language Models](atomic_llm_a_fine-grained_information_retrieval_evaluation_benchmark_for_languag.md)
+- [\[ACL 2025\] MEMERAG: A Multilingual End-to-End Meta-Evaluation Benchmark for Retrieval Augmented Generation](memerag_a_multilingual_end-to-end_meta-evaluation_benchmark_for_retrieval_augmen.md)
 - [\[ACL 2025\] MT-RAIG: Novel Benchmark and Evaluation Framework for Retrieval-Augmented Insight Generation over Multiple Tables](mt-raig_novel_benchmark_and_evaluation_framework_for_retrieval-augmented_insight.md)
 - [\[ACL 2025\] RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework](rageval_scenario_specific_rag_evaluation_dataset_generation_framework.md)
-- [\[ACL 2025\] Unanswerability Evaluation for Retrieval Augmented Generation](unanswerability_evaluation_for_retrieval_augmented_generation.md)
+- [\[ACL 2025\] REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.11928](https://arxiv.org/abs/2603.11928)  
-**代码**: https://github.com/ZHANG7DC/AS-Bridge  
+**代码**: [https://github.com/ZHANG7DC/AS-Bridge](https://github.com/ZHANG7DC/AS-Bridge)  
 **领域**: 图像生成 / 天文学图像翻译  
 **关键词**: Brownian Bridge, 天文巡天, 跨模态翻译, 异常检测, 概率重建
 
@@ -137,6 +137,6 @@ tags:
 - [\[CVPR 2025\] DreamRelation: Bridging Customization and Relation Generation](dreamrelation_bridging_customization_and_relation_generation.md)
 - [\[CVPR 2025\] DiffSensei: Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation](diffsensei_bridging_multi-modal_llms_and_diffusion_models_for_customized_manga_g.md)
 - [\[CVPR 2025\] One-for-More: Continual Diffusion Model for Anomaly Detection](one-for-more_continual_diffusion_model_for_anomaly_detection.md)
-- [\[CVPR 2025\] coDrawAgents: A Multi-Agent Dialogue Framework for Compositional Image Generation](codrawagents_a_multi-agent_dialogue_framework_for_compositional_image_generation.md)
+- [\[CVPR 2025\] V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration](v-bridge_bridging_video_generative_priors_to_versatile_few-shot_image_restoratio.md)
 
 <!-- RELATED:END -->

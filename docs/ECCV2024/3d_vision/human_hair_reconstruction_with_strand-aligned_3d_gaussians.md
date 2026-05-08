@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.14778](https://arxiv.org/abs/2409.14778)  
-**代码**: https://eth-ait.github.io/GaussianHaircut  
+**代码**: [https://eth-ait.github.io/GaussianHaircut](https://eth-ait.github.io/GaussianHaircut)  
 **领域**: 3D视觉 / 数字人  
 **关键词**: 头发重建、3D高斯溅射、发丝级建模、双表示、粗到细优化
 

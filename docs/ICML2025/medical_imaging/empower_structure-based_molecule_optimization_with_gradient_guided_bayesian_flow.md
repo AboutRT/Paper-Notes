@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2411.13280](https://arxiv.org/abs/2411.13280)  
 **代码**: [AlgoMole/MolCRAFT](https://github.com/AlgoMole/MolCRAFT)  
-**领域**: 分子优化 / 药物设计  
+**领域**: 医学图像  
 **关键词**: Bayesian Flow Network, 结构感知分子优化, 梯度引导, 连续-离散联合优化, SE(3)-等变
 
 ## 一句话总结

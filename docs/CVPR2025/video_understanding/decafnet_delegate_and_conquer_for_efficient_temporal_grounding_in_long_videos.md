@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.16376](https://arxiv.org/abs/2505.16376)  
-**代码**: https://github.com/ZijiaLewisLu/CVPR2025-DeCafNet (有)  
+**代码**: [https://github.com/ZijiaLewisLu/CVPR2025-DeCafNet](https://github.com/ZijiaLewisLu/CVPR2025-DeCafNet)  
 **领域**: 视频理解  
 **关键词**: 长视频时序定位, 高效推理, 双编码器, 显著性选择, 多尺度时序精炼
 
@@ -127,6 +127,6 @@ DeCafNet由三部分组成：(1) **Sidekick Encoder** $\Psi_D$：高效提取所
 - [\[CVPR 2025\] VCBench: A Streaming Counting Benchmark for Spatial-Temporal State Maintenance in Long Videos](vcbench_a_streaming_counting_benchmark_for_spatial-temporal_state_maintenance_in.md)
 - [\[CVPR 2025\] VideoGEM: Training-Free Action Grounding in Videos](videogem_training-free_action_grounding_in_videos.md)
 - [\[CVPR 2025\] ReWind: Understanding Long Videos with Instructed Learnable Memory](rewind_understanding_long_videos_with_instructed_learnable_memory.md)
-- [\[CVPR 2025\] Seq2Time: Sequential Knowledge Transfer for Video LLM Temporal Grounding](seq2time_sequential_knowledge_transfer_for_video_llm_temporal_grounding.md)
+- [\[ICCV 2025\] Sparse-Dense Side-Tuner for Efficient Video Temporal Grounding](../../ICCV2025/video_understanding/sparse-dense_side-tuner_for_efficient_video_temporal_grounding.md)
 
 <!-- RELATED:END -->

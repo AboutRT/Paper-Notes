@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2403.09805](https://arxiv.org/abs/2403.09805)  
 **代码**: [https://github.com/s-shamil/HandFormer](https://github.com/s-shamil/HandFormer)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: 3D hand pose, action recognition, multimodal transformer, skeleton-based, egocentric
 
 ## 一句话总结

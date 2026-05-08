@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2603.14175](https://arxiv.org/abs/2603.14175)  
 **代码**: 待确认  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: Multimodal Domain Generalization, Gradient Modulation, Gradient Projection, Optimization Imbalance  
 
 ## 一句话总结
@@ -159,8 +159,8 @@ GMP 作为即插即用模块集成到 RNA-Net、MOOSA、SimMMDG、CMRF 后均有
 
 - [\[AAAI 2026\] Lifelong Domain Adaptive 3D Human Pose Estimation](lifelong_domain_adaptive_3d_human_pose_estimation.md)
 - [\[AAAI 2026\] StegaVAR: Privacy-Preserving Video Action Recognition via Steganographic Domain Analysis](stegavar_privacy-preserving_video_action_recognition_via_steganographic_domain_a.md)
+- [\[AAAI 2026\] Uncovering Zero-Shot Generalization Gaps in Time-Series Foundation Models Using Real-World Videos](uncovering_zero-shot_generalization_gaps_in_time-series_foundation_models_using_.md)
 - [\[AAAI 2026\] EmoVid: A Multimodal Emotion Video Dataset for Emotion-Centric Video Understanding and Generation](emovid_a_multimodal_emotion_video_dataset_for_emotion-centric_video_understandin.md)
 - [\[CVPR 2026\] OpenMarcie: Dataset for Multimodal Action Recognition in Industrial Environments](../../CVPR2026/video_understanding/openmarcie_dataset_for_multimodal_action_recognition_in_industrial_environments.md)
-- [\[AAAI 2026\] MambaMia: State-Space Hierarchical Compression for Hour-Long Video Understanding in Large Multimodal Models](state-space_hierarchical_compression_with_gated_attention_an.md)
 
 <!-- RELATED:END -->

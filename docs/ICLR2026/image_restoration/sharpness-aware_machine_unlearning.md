@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 图像恢复
-  - machine unlearning
+  - 图像复原
   - Sharpness-Aware Minimization
   - SAM
   - Signal-Noise Decomposition
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.13715](https://arxiv.org/abs/2506.13715)  
 **代码**: 无  
-**领域**: 机器遗忘 / 优化理论  
+**领域**: 图像复原  
 **关键词**: machine unlearning, Sharpness-Aware Minimization, SAM, Signal-Noise Decomposition, Sharp MinMax
 
 ## 一句话总结
@@ -131,6 +131,6 @@ Sharpness-Aware Minimization（SAM）已被证明能寻找更平坦的损失最�
 - [\[CVPR 2025\] Classic Video Denoising in a Machine Learning World: Robust, Fast, and Controllable](../../CVPR2025/image_restoration/classic_video_denoising_in_a_machine_learning_world_robust_fast_and_controllable.md)
 - [\[CVPR 2026\] DRFusion: Degradation-Robust Fusion via Degradation-Aware Diffusion Framework](../../CVPR2026/image_restoration/drfusion_degradation_robust_fusion_via_degradation_aware_diffusion_framework.md)
 - [\[CVPR 2026\] MAD-Avatar: Motion-Aware Animatable Gaussian Avatars Deblurring](../../CVPR2026/image_restoration/motionaware_animatable_gaussian_avatars_deblurring.md)
-- [\[CVPR 2025\] Degradation-Aware Feature Perturbation for All-in-One Image Restoration](../../CVPR2025/image_restoration/degradation-aware_feature_perturbation_for_all-in-one_image_restoration.md)
+- [\[ICCV 2025\] Outlier-Aware Post-Training Quantization for Image Super-Resolution](../../ICCV2025/image_restoration/outlier-aware_post-training_quantization_for_image_super-resolution.md)
 
 <!-- RELATED:END -->

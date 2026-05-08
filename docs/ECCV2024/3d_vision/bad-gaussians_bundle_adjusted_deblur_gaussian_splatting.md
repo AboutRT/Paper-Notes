@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.11831](https://arxiv.org/abs/2403.11831)  
 **代码**: [lingzhezhao/BAD-Gaussians](https://github.com/WU-CVGL/BAD-Gaussians)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, Motion Deblurring, Bundle Adjustment, novel view synthesis, Camera Pose Optimization
 
 ## 一句话总结

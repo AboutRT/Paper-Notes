@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR2026
   - 多模态
-  - multi-view spatial reasoning
+  - 多模态VLM
   - robotic manipulation
   - VLM benchmark
   - embodied AI
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.19400](https://arxiv.org/abs/2510.19400)  
 **代码**: [项目页面](https://github.com/) (已开源)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: multi-view spatial reasoning, benchmark, embodied AI, VLM evaluation, robotic manipulation  
 
 ## 一句话总结
@@ -253,8 +253,8 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models](spatial-dise_a_unified_benchmark_for_evaluating_spatial_reasoning_in_vision-lang.md)
-- [\[ICLR 2026\] Spatial CAPTCHA: Generatively Benchmarking Spatial Reasoning for Human-Machine Differentiation](spatial_captcha_generatively_benchmarking_spatial_reasoning_for_human-machine_di.md)
 - [\[ICLR 2026\] FRIEDA: Benchmarking Multi-Step Cartographic Reasoning in Vision-Language Models](frieda_benchmarking_multi-step_cartographic_reasoning_in_vision-language_models.md)
+- [\[ICLR 2026\] Spatial CAPTCHA: Generatively Benchmarking Spatial Reasoning for Human-Machine Differentiation](spatial_captcha_generatively_benchmarking_spatial_reasoning_for_human-machine_di.md)
 - [\[ICLR 2026\] OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](omnispatial_towards_comprehensive_spatial_reasoning_benchmark_for_vision_languag.md)
 - [\[ICLR 2026\] SpatiaLab: Can Vision-Language Models Perform Spatial Reasoning in the Wild?](spatialab_can_vision-language_models_perform_spatial_reasoning_in_the_wild.md)
 

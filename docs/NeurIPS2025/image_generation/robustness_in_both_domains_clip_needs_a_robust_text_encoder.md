@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.03355](https://arxiv.org/abs/2506.03355)  
 **代码**: 有 (github.com/LIONS-EPFL/LEAF, huggingface.co/LEAF-CLIP)  
-**领域**: 多模态学习 / 对抗鲁棒性  
+**领域**: 图像生成  
 **关键词**: CLIP, 文本编码器鲁棒性, 对抗微调, 字符级攻击, Levenshtein距离
 
 ## 一句话总结
@@ -169,6 +169,6 @@ OpenCLIP-ViT-H/14 结果：
 - [\[NeurIPS 2025\] Encoder-Decoder Diffusion Language Models for Efficient Training and Inference](encoder-decoder_diffusion_language_models_for_efficient_training_and_inference.md)
 - [\[ECCV 2024\] LCM-Lookahead for Encoder-based Text-to-Image Personalization](../../ECCV2024/image_generation/lcm-lookahead_for_encoder-based_text-to-image_personalization.md)
 - [\[CVPR 2025\] FineLIP: Extending CLIP's Reach via Fine-Grained Alignment with Longer Text Inputs](../../CVPR2025/image_generation/finelip_extending_clips_reach_via_fine-grained_alignment_with_longer_text_inputs.md)
-- [\[CVPR 2025\] GlyphMastero: A Glyph Encoder for High-Fidelity Scene Text Editing](../../CVPR2025/image_generation/glyphmastero_a_glyph_encoder_for_high-fidelity_scene_text_editing.md)
+- [\[ICCV 2025\] Your Text Encoder Can Be An Object-Level Watermarking Controller](../../ICCV2025/image_generation/your_text_encoder_can_be_an_object-level_watermarking_controller.md)
 
 <!-- RELATED:END -->

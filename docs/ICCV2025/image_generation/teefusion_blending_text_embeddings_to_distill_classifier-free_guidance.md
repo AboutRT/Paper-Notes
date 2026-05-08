@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.18192](https://arxiv.org/abs/2507.18192)  
-**代码**: https://github.com/AIDC-AI/TeEFusion  
+**代码**: [https://github.com/AIDC-AI/TeEFusion](https://github.com/AIDC-AI/TeEFusion)  
 **领域**: 扩散模型 / 图像生成 / 蒸馏  
 **关键词**: CFG蒸馏, 文本嵌入融合, 采样加速, Guidance Distillation, DiT
 
@@ -127,8 +127,8 @@ $$L_{\text{distill}} = \|\epsilon_{\theta_S}(x_t, \hat{z}_{t,c,\varnothing,w}) -
 
 - [\[AAAI 2026\] DICE: Distilling Classifier-Free Guidance into Text Embeddings](../../AAAI2026/image_generation/dice_distilling_classifier-free_guidance_into_text_embedding.md)
 - [\[CVPR 2025\] TCFG: Tangential Damping Classifier-Free Guidance](../../CVPR2025/image_generation/tcfg_tangential_damping_classifier-free_guidance.md)
+- [\[ICCV 2025\] GAP: Gaussianize Any Point Clouds with Text Guidance](gap_gaussianize_any_point_clouds_with_text_guidance.md)
 - [\[AAAI 2026\] Studying Classifier(-Free) Guidance From A Classifier-Centric Perspective](../../AAAI2026/image_generation/studying_classifier-free_guidance_from_a_classifier-centric_perspective.md)
-- [\[NeurIPS 2025\] Towards a Golden Classifier-Free Guidance Path via Foresight Fixed Point Iterations](../../NeurIPS2025/image_generation/towards_a_golden_classifier-free_guidance_path_via_foresight_fixed_point_iterati.md)
 - [\[CVPR 2025\] Classifier-Free Guidance inside the Attraction Basin May Cause Memorization](../../CVPR2025/image_generation/classifier-free_guidance_inside_the_attraction_basin_may_cause_memorization.md)
 
 <!-- RELATED:END -->

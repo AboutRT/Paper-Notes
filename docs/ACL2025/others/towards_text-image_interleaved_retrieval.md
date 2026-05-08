@@ -5,7 +5,7 @@ description: >-
   [ACL 2025][interleaved retrieval] 定义文本-图像交错检索（TIIR）新任务，构建基于 wikiHow 的首个 TIIR 基准数据集（155K 文档、7654 测试对），并提出 Matryoshka Multimodal Embedder（MME）通过多粒度视觉 token 压缩解决 MLLM 中视觉 token 过多导致的效率和语义偏差问题，大幅提升检索性能。
 tags:
   - ACL 2025
-  - interleaved retrieval
+  - 其他
   - 多模态
   - visual token compression
   - Matryoshka embedding
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.12799](https://arxiv.org/abs/2502.12799)  
-**代码**: https://github.com/vec-ai/wikiHow-TIIR  
-**领域**: 多模态检索  
+**代码**: [https://github.com/vec-ai/wikiHow-TIIR](https://github.com/vec-ai/wikiHow-TIIR)  
+**领域**: 其他  
 **关键词**: interleaved retrieval, multimodal retrieval, visual token compression, Matryoshka embedding, MLLM
 
 ## 一句话总结
@@ -143,10 +143,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval](../../ICCV2025/others/learning_visual_hierarchies_in_hyperbolic_space_for_image_retrieval.md)
 - [\[ACL 2025\] Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education](uni-retrieval_a_multi-style_retrieval_framework_for_stems_education.md)
 - [\[ACL 2025\] ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval](acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md)
 - [\[ACL 2025\] GeAR: Generation Augmented Retrieval](gear_generation_augmented_retrieval.md)
-- [\[ACL 2025\] SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
+- [\[ICCV 2025\] Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval](../../ICCV2025/others/learning_visual_hierarchies_in_hyperbolic_space_for_image_retrieval.md)
+- [\[ACL 2025\] FRACTAL: Fine-Grained Scoring from Aggregate Text Labels](fractal_fine-grained_scoring_from_aggregate_text_labels.md)
 
 <!-- RELATED:END -->

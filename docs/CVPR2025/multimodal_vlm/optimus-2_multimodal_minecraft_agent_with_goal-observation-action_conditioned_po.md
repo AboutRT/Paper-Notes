@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - Minecraft Agent
+  - 多模态VLM
   - 多模态大语言模型
   - 行为克隆
   - 目标条件策略

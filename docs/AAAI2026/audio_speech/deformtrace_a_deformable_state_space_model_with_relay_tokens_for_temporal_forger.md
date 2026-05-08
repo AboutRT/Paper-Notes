@@ -10,7 +10,7 @@ tags:
   - State Space Model
   - Deformable Mechanism
   - Relay Token
-  - Deepfake Detection
+  - 音频语音
 ---
 
 # DeformTrace: A Deformable State Space Model with Relay Tokens for Temporal Forgery Localization
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2603.04882](https://arxiv.org/abs/2603.04882)  
 **代码**: 待确认  
-**领域**: video_understanding  
+**领域**: 音频语音  
 **关键词**: Temporal Forgery Localization, State Space Model, Deformable Mechanism, Relay Token, Deepfake Detection
 
 ## 一句话总结
@@ -157,8 +157,8 @@ $$\mathcal{L} = \mathcal{L}_{match} + \mathcal{L}_{cls} + \lambda_1 \cdot \mathc
 
 - [\[CVPR 2026\] GEM-TFL: Bridging Weak and Full Supervision for Forgery Localization](../../CVPR2026/audio_speech/gem-tfl_bridging_weak_and_full_supervision_for_forgery_localization_through_em-g.md)
 - [\[AAAI 2026\] USE: A Unified Model for Universal Sound Separation and Extraction](use_a_unified_model_for_universal_sound_separation_and_extraction.md)
-- [\[AAAI 2026\] Cross-Space Synergy: A Unified Framework for Multimodal Emotion Recognition in Conversation](cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md)
 - [\[AAAI 2026\] End-to-end Contrastive Language-Speech Pretraining Model For Long-form Spoken Question Answering](end-to-end_contrastive_language-speech_pretraining_model_for_long-form_spoken_qu.md)
+- [\[AAAI 2026\] Cross-Space Synergy: A Unified Framework for Multimodal Emotion Recognition in Conversation](cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md)
 - [\[ACL 2025\] Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens](../../ACL2025/audio_speech/spark-tts_an_efficient_llm-based_text-to-speech_model_with_single-stream_decoupl.md)
 
 <!-- RELATED:END -->

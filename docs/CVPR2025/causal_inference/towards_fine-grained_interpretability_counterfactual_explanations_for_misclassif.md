@@ -1,10 +1,10 @@
 ---
 title: "[论文解读] FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition"
 description: >-
-  [CVPR 2025][可解释性] 提出FG-VCE框架，通过显著性分区和Shapley值贡献度量，生成对象级和部件级的细粒度反事实解释，揭示模型误分类的关键细粒度特征，无需生成式模型，在CUB-200和Stanford Dogs上超越现有方法。
+  [CVPR 2025][因果推理] 提出FG-VCE框架，通过显著性分区和Shapley值贡献度量，生成对象级和部件级的细粒度反事实解释，揭示模型误分类的关键细粒度特征，无需生成式模型，在CUB-200和Stanford Dogs上超越现有方法。
 tags:
   - CVPR 2025
-  - 可解释性
+  - 因果推理
   - 反事实解释
   - Shapley值
   - 显著性分区
@@ -127,10 +127,10 @@ FG-VCE 本身不需要训练——它是一个后验解释方法（post-hoc expl
 
 ## 相关论文
 
-- [\[ICLR 2026\] Counterfactual Explanations on Robust Perceptual Geodesics](../../ICLR2026/causal_inference/counterfactual_explanations_on_robust_perceptual_geodesics.md)
 - [\[ACL 2025\] Counterfactual Explanations for Aspect-Based Sentiment Analysis](../../ACL2025/causal_inference/counterfactual_explanations_for_aspect-based_sentiment_analysis.md)
+- [\[ICLR 2026\] Counterfactual Explanations on Robust Perceptual Geodesics](../../ICLR2026/causal_inference/counterfactual_explanations_on_robust_perceptual_geodesics.md)
 - [\[NeurIPS 2025\] Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations](../../NeurIPS2025/causal_inference/few-shot_knowledge_distillation_of_llms_with_counterfactual_explanations.md)
-- [\[NeurIPS 2025\] Performative Validity of Recourse Explanations](../../NeurIPS2025/causal_inference/performative_validity_of_recourse_explanations.md)
 - [\[NeurIPS 2025\] LLM Interpretability with Identifiable Temporal-Instantaneous Representation](../../NeurIPS2025/causal_inference/llm_interpretability_with_identifiable_temporal-instantaneous_representation.md)
+- [\[NeurIPS 2025\] Performative Validity of Recourse Explanations](../../NeurIPS2025/causal_inference/performative_validity_of_recourse_explanations.md)
 
 <!-- RELATED:END -->

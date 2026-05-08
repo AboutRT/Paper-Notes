@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 不确定性识别
   - ConfuseBench
-  - InteractDPO
+  - 其他
   - 不确定性分类
   - 检索增强
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00780](https://arxiv.org/abs/2506.00780)  
 **代码**: [GitHub](https://github.com/somebodyhh1/ConfuseBench)  
-**领域**: LLM 不确定性 / 交互式问答  
+**领域**: 其他  
 **关键词**: 不确定性识别, ConfuseBench, InteractDPO, 不确定性分类, 检索增强  
 
 ## 一句话总结

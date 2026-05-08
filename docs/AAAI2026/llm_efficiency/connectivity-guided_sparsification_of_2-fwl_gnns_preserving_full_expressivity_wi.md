@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Connectivity-Guided Sparsification of 2-FWL GNNs Preserving Full Expressivity
 description: >-
-  [AAAI 2026][图学习][图神经网络] Co-Sparsify 提出一种基于连通性感知的稀疏化框架，通过将 3-节点交互限制在双连通分量内、2-节点交互限制在连通分量内，消除可证明冗余的计算，在保持完整 2-FWL 表达力的同时显著提升效率，在合成子结构计数任务和 ZINC、QM9 等基准上取得 SOTA。
+  [AAAI 2026][LLM效率][图神经网络] Co-Sparsify 提出一种基于连通性感知的稀疏化框架，通过将 3-节点交互限制在双连通分量内、2-节点交互限制在连通分量内，消除可证明冗余的计算，在保持完整 2-FWL 表达力的同时显著提升效率，在合成子结构计数任务和 ZINC、QM9 等基准上取得 SOTA。
 tags:
   - AAAI 2026
-  - 图学习
+  - LLM效率
   - 图神经网络
   - 2-FWL
   - 图稀疏化
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12838](https://arxiv.org/abs/2511.12838)  
 **代码**: [有](https://github.com/RongqinChen/HOGNN-Sparsify)  
-**领域**: 图学习 / 图神经网络表达力  
+**领域**: LLM效率  
 **关键词**: 高阶GNN, 2-FWL, 图稀疏化, 双连通分量, 表达力保持
 
 ## 一句话总结
@@ -162,10 +162,10 @@ CoSp-PPGN 在所有子结构计数任务上匹配或超过 PPGN。
 
 ## 相关论文
 
-- [\[AAAI 2026\] A Content-Preserving Secure Linguistic Steganography](a_content-preserving_secure_linguistic_steganography.md)
-- [\[ICML 2025\] Online Sparsification of Bipartite-Like Clusters in Graphs](../../ICML2025/llm_efficiency/online_sparsification_of_bipartite-like_clusters_in_graphs.md)
-- [\[NeurIPS 2025\] Structure-Aware Spectral Sparsification via Uniform Edge Sampling](../../NeurIPS2025/llm_efficiency/structure-aware_spectral_sparsification_via_uniform_edge_sampling.md)
 - [\[CVPR 2025\] Language Guided Concept Bottleneck Models for Interpretable Continual Learning](../../CVPR2025/llm_efficiency/language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md)
+- [\[ACL 2025\] Consistency-Preserving Contrastive Decoding for Faithful Document-Grounded Dialogue](../../ACL2025/llm_efficiency/consistency-preserving_contrastive_decoding_for_faithful_document-grounded_dial.md)
+- [\[ACL 2025\] Entailment-Preserving First-order Logic Representations in Natural Language Entailment](../../ACL2025/llm_efficiency/entailment-preserving_first-order_logic_representations_in_natural_language_enta.md)
 - [\[ACL 2025\] Boosting Long-Context Information Seeking via Query-Guided Activation Refilling](../../ACL2025/llm_efficiency/boosting_long-context_information_seeking_via_query-guided_activation_refilling.md)
+- [\[ACL 2025\] Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](../../ACL2025/llm_efficiency/sliding_windows_full_ranking.md)
 
 <!-- RELATED:END -->

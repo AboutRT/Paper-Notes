@@ -9,7 +9,7 @@ tags:
   - 注意力回归
   - PCC plateau
   - 凸聚合
-  - 优化动力学
+  - LLM评测
 ---
 
 # Breaking the Correlation Plateau: On the Optimization and Capacity Limits of Attention-Based Regressors
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.17898](https://arxiv.org/abs/2602.17898)  
 **代码**: 暂无  
-**领域**: others / 注意力机制优化  
+**领域**: LLM评测  
 **关键词**: Pearson相关系数, 注意力回归, PCC plateau, 凸聚合, 优化动力学
 
 ## 一句话总结
@@ -134,8 +134,8 @@ $$\mathcal{L}_{\text{Total}} = \mathcal{L}_{\text{MSE}} + \lambda_{\text{PCC}} \
 
 - [\[ICLR 2026\] Mitigating Spurious Correlation via Distributionally Robust Learning with Hierarchical Ambiguity Sets](mitigating_spurious_correlation_via_distributionally_robust_learning_with_hierar.md)
 - [\[ICLR 2026\] Spectral Attention Steering for Prompt Highlighting](spectral_attention_steering_for_prompt_highlighting.md)
-- [\[ICLR 2026\] Soft Quality-Diversity Optimization](soft_quality-diversity_optimization.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](prompt_and_parameter_co-optimization_for_large_language_models.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Model Task Adaptation](prompt_and_parameter_co-optimization_for_large_language_model_task_adaptation.md)
+- [\[CVPR 2026\] Anchoring and Rescaling Attention for Semantically Coherent Inbetweening](../../CVPR2026/llm_evaluation/anchoring_and_rescaling_attention_for_semantically_coherent_inbetweening.md)
 
 <!-- RELATED:END -->

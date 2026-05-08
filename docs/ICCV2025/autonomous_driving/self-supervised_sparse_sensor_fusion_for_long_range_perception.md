@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.13995](https://arxiv.org/abs/2508.13995)  
-**代码**: https://light.princeton.edu/LRS4Fusion  
+**代码**: [https://light.princeton.edu/LRS4Fusion](https://light.princeton.edu/LRS4Fusion)  
 **领域**: 自动驾驶  
 **关键词**: 长距离感知, 稀疏体素融合, 自监督预训练, LiDAR-Camera融合, 深度估计
 

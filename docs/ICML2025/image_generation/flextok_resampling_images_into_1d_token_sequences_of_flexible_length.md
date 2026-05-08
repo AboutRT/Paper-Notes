@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2502.13967](https://arxiv.org/abs/2502.13967)  
-**代码**: https://flextok.epfl.ch/ (项目页面)  
+**代码**: [https://flextok.epfl.ch/](https://flextok.epfl.ch/) (项目页面)  
 **领域**: 图像 Tokenizer / 自回归图像生成  
 **关键词**: 可变长度 Tokenizer, 1D Token 序列, Nested Dropout, Rectified Flow 解码器, 粗到细生成
 
@@ -144,8 +144,8 @@ FlexTok 在 8-128 token 范围内均实现 FID<2，且是**单一模型**。
 
 - [\[NeurIPS 2025\] Flatten Graphs as Sequences: Transformers are Scalable Graph Generators](../../NeurIPS2025/image_generation/flatten_graphs_as_sequences_transformers_are_scalable_graph_generators.md)
 - [\[ICML 2025\] Hierarchical Masked Autoregressive Models with Low-Resolution Token Pivots](hierarchical_masked_autoregressive_models_with_low-resolution_token_pivots.md)
-- [\[ICML 2025\] ToMA: Token Merge with Attention for Diffusion Models](toma_token_merge_with_attention_for_diffusion_models.md)
 - [\[CVPR 2025\] h-Edit: Effective and Flexible Diffusion-Based Editing via Doob's h-Transform](../../CVPR2025/image_generation/h-edit_effective_and_flexible_diffusion-based_editing_via_doobs_h-transform.md)
+- [\[ICML 2025\] ToMA: Token Merge with Attention for Diffusion Models](toma_token_merge_with_attention_for_diffusion_models.md)
 - [\[ICCV 2025\] DynamicID: Zero-Shot Multi-ID Image Personalization with Flexible Facial Editability](../../ICCV2025/image_generation/dynamicid_zero-shot_multi-id_image_personalization_with_flexible_facial_editabil.md)
 
 <!-- RELATED:END -->

@@ -176,9 +176,9 @@ $$L = L_c + \alpha \cdot L_{\text{reg}} + \beta \cdot L_s + \lambda \cdot L_{\te
 ## 相关论文
 
 - [\[ICML 2025\] LLM Enhancers for GNNs: An Analysis from the Perspective of Causal Mechanism Identification](llm_enhancers_for_gnns_an_analysis_from_the_perspective_of_causal_mechanism_iden.md)
-- [\[ICLR 2026\] NeuroCircuitry-Inspired Hierarchical Graph Causal Attention Networks for Explainable Depression Identification](../../ICLR2026/graph_learning/neurocircuitry-inspired_hierarchical_graph_causal_attention_networks_for_explain.md)
+- [\[ICML 2025\] TopInG: Topologically Interpretable Graph Learning via Persistent Rationale Filtration](toping_topologically_interpretable_graph_learning_via_persistent_rationale_filtr.md)
 - [\[ICML 2025\] Graph Attention is Not Always Beneficial: A Theoretical Analysis of Graph Attention Mechanisms via Contextual Stochastic Block Models](graph_attention_is_not_always_beneficial_a_theoretical_analysis_of_graph_attenti.md)
 - [\[ICML 2025\] On Measuring Long-Range Interactions in Graph Neural Networks](on_measuring_long-range_interactions_in_graph_neural_networks.md)
-- [\[ICML 2025\] Toward Data-centric Directed Graph Learning: An Entropy-driven Approach](toward_data-centric_directed_graph_learning_an_entropy-driven_approach.md)
+- [\[ICML 2025\] A General Graph Spectral Wavelet Convolution via Chebyshev Order Decomposition](a_general_graph_spectral_wavelet_convolution_via_chebyshev_order_decomposition.md)
 
 <!-- RELATED:END -->

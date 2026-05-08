@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.20189](https://arxiv.org/abs/2511.20189)  
-**代码**: https://github.com/ylincen/causal-subgroup  
+**代码**: [https://github.com/ylincen/causal-subgroup](https://github.com/ylincen/causal-subgroup)  
 **领域**: 因果推理 / 子群发现  
 **关键词**: 处理效应, 子群发现, CART, 分区模型, 因果推断
 

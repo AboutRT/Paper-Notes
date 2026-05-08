@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 无公开预印本  
 **代码**: 无  
-**领域**: 因果推理 / LLM推理  
+**领域**: LLM/NLP  
 **关键词**: 因果推理, 语言模型, 忠实文本解释, 因果图, 反事实推理
 
 ## 一句话总结
@@ -120,8 +120,8 @@ FTI框架包含三个核心阶段：（1）因果结构文本化（Causal Struct
 ## 相关论文
 
 - [\[ACL 2025\] ExpliCa: Evaluating Explicit Causal Reasoning in Large Language Models](explica_evaluating_explicit_causal_reasoning_in_large_language_models.md)
-- [\[ACL 2025\] Math Neurosurgery: Isolating Language Models' Math Reasoning Abilities Using Only Forward Passes](mathneuro_math_reasoning_isolation.md)
 - [\[ACL 2025\] SkillVerse: Assessing and Enhancing LLMs with Tree Evaluation](skillverse_tree_eval.md)
+- [\[ACL 2025\] Math Neurosurgery: Isolating Language Models' Math Reasoning Abilities Using Only Forward Passes](mathneuro_math_reasoning_isolation.md)
 - [\[ACL 2025\] Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up](reversal_of_thought_enhancing_large_language.md)
 - [\[ACL 2025\] Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items](value_portrait_assessing_language_models_values_through_psychometrically_and_eco.md)
 

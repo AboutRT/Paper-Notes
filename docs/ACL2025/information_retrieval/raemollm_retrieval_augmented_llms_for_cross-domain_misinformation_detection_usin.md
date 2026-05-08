@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RAEmoLLM: Retrieval Augmented LLMs for Cross-Domain Misinformation Detection Using In-Context Learning Based on Emotional Information
 description: >-
-  [ACL2025][跨域虚假信息检测] 提出 RAEmoLLM，首个基于情感信息检索的 RAG 框架，利用情感 LLM 的隐式嵌入构建检索数据库，为跨域虚假信息检测提供情感相关的 few-shot 示例，在三个基准上最高分别提升 15.64%、31.18% 和 15.73%（对比其他 few-shot 方法），无需微调。
+  [ACL2025][信息检索] 提出 RAEmoLLM，首个基于情感信息检索的 RAG 框架，利用情感 LLM 的隐式嵌入构建检索数据库，为跨域虚假信息检测提供情感相关的 few-shot 示例，在三个基准上最高分别提升 15.64%、31.18% 和 15.73%（对比其他 few-shot 方法），无需微调。
 tags:
   - ACL2025
-  - 跨域虚假信息检测
+  - 信息检索
   - 检索增强生成
   - 情感信息
   - 上下文学习
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2406.11093](https://arxiv.org/abs/2406.11093)  
 **代码**: [lzw108/RAEmoLLM](https://github.com/lzw108/RAEmoLLM)  
-**领域**: llm_nlp  
+**领域**: 信息检索  
 **关键词**: 跨域虚假信息检测, 检索增强生成, 情感信息, 上下文学习, 少样本学习
 
 ## 一句话总结
@@ -151,10 +151,10 @@ ConspEmoLLM 是唯一利用情感 LLM 检测虚假信息的先前工作，但它
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation](../../NeurIPS2025/information_retrieval/the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md)
 - [\[ACL 2026\] Understanding Structured Financial Data with LLMs: A Case Study on Fraud Detection](../../ACL2026/information_retrieval/understanding_structured_financial_data_with_llms_a_case_study_on_fraud_detectio.md)
-- [\[AAAI 2026\] LLMs for Game Theory: Entropy-Guided In-Context Learning and Adaptive CoT Reasoning](../../AAAI2026/information_retrieval/llms_for_game_theory_entropy-guided_in-context_learning_and_adaptive_cot_reasoni.md)
-- [\[ACL 2025\] On Synthetic Data Strategies for Domain-Specific Generative Retrieval](on_synthetic_data_strategies_for_domain-specific_generative_retrieval.md)
-- [\[CVPR 2025\] Preserving Clusters in Prompt Learning for Unsupervised Domain Adaptation](../../CVPR2025/information_retrieval/preserving_clusters_in_prompt_learning_for_unsupervised_domain_adaptation.md)
+- [\[ACL 2025\] Contradiction Detection in RAG-Based Chatbots](contradiction_detection_in_rag-based_chatbots.md)
+- [\[ICML 2025\] RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding](../../ICML2025/information_retrieval/rapid_long-context_inference_with_retrieval-augmented_speculative_decoding.md)
+- [\[ACL 2025\] REFIND at SemEval-2025 Task 3: Retrieval-Augmented Factuality Hallucination Detection in Large Language Models](refind_at_semeval-2025_task_3_retrieval-augmented_factuality_hallucination_detec.md)
+- [\[ACL 2025\] Automatic Benchmark Generation from Scientific Papers via Retrieval-Augmented LLMs](automatic_benchmark_generation_from_scientific_papers_via_retrieval-augmented_ll.md)
 
 <!-- RELATED:END -->

@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.04705](https://arxiv.org/abs/2508.04705)  
-**代码**: https://github.com/matthew-leng/ST-Occ  
-**领域**: autonomous_driving  
+**代码**: [https://github.com/matthew-leng/ST-Occ](https://github.com/matthew-leng/ST-Occ)  
+**领域**: 自动驾驶  
 **关键词**: 3D occupancy prediction, temporal fusion, spatiotemporal memory, autonomous driving, uncertainty awareness
 
 ## 一句话总结

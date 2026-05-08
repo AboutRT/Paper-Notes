@@ -59,13 +59,13 @@ $$\{ι(\mathsf{building} \sqcap \forall \mathsf{tallThan}.\neg \mathsf{building}
 1. **语义定义与复杂度证明**：
 
    **语义**：
-   - 局部DD：$(\{ι C\})^\mathcal{I} = \{d\}$ 若 $C^\mathcal{I} = \{d\}$，否则为 $\emptyset$
-   - 全局DD：$(ι C.D)^\mathcal{I} = \Delta^\mathcal{I}$ 若 $C^\mathcal{I} = \{d\} \subseteq D^\mathcal{I}$，否则为 $\emptyset$
+    - 局部DD：$(\{ι C\})^\mathcal{I} = \{d\}$ 若 $C^\mathcal{I} = \{d\}$，否则为 $\emptyset$
+    - 全局DD：$(ι C.D)^\mathcal{I} = \Delta^\mathcal{I}$ 若 $C^\mathcal{I} = \{d\} \subseteq D^\mathcal{I}$，否则为 $\emptyset$
 
    **ExpTime 上界**：将 $\mathcal{ALC}\iota$ 本体可满足性多项式归约到已知 ExpTime-complete 的 $\mathcal{ALCO}_u^\iota$。关键翻译：将每个全局DD $ι C.D$ 替换为 $\exists u.(\{ι C\} \sqcap D)$（u 是 universal role）。
 
    **ExpTime 下界**：将已知 ExpTime-hard 的 ALC 概念对 TBox 的可满足性问题对数空间归约到 $\mathcal{ALC}\iota_L$（和 $\mathcal{ALC}\iota_G$）的纯概念可满足性。构造方式巧妙地利用定冠描述来"内化"TBox 公理：
-   $$C' = C \sqcap \bigsqcap_{(D \sqsubseteq E) \in \mathcal{T}} ((\neg D \sqcup E) \sqcap \{ι(\neg(\neg D \sqcup E) \sqcup A_{D \sqsubseteq E})\})$$
+    $C' = C \sqcap \bigsqcap_{(D \sqsubseteq E) \in \mathcal{T}} ((\neg D \sqcup E) \sqcap \{ι(\neg(\neg D \sqcup E) \sqcup A_{D \sqsubseteq E})\})$
    其中每个新原子 $A_{D \sqsubseteq E}$ 确保TBox公理在所有个体上满足。
 
 2. **互模拟定义与表达力分析**：
@@ -73,11 +73,11 @@ $$\{ι(\mathsf{building} \sqcap \forall \mathsf{tallThan}.\neg \mathsf{building}
    本文的核心理论贡献是为 $\mathcal{ALC}\iota_L$ 和 $\mathcal{ALC}\iota_G$ 定义了合适的互模拟关系。
 
    **$\mathcal{ALC}\iota_L$ 互模拟**：在标准 ALC 互模拟条件（Atom, Forth, Back）之上，增加 **NamesL** 条件：
-   $$\text{Names}(Dom(Z), \mathcal{I}) = \text{Names}(Rng(Z), \mathcal{J})$$
+    $\text{Names}(Dom(Z), \mathcal{I}) = \text{Names}(Rng(Z), \mathcal{J})$
    即互模拟关系域内的"命名个体"集合必须一致。
 
    **$\mathcal{ALC}\iota_G$ 互模拟**：将 NamesL 替换为 **NamesG** 条件：
-   $$\text{Names}(\Delta^\mathcal{I}, \mathcal{I}) = \text{Names}(\Delta^\mathcal{J}, \mathcal{J})$$
+    $\text{Names}(\Delta^\mathcal{I}, \mathcal{I}) = \text{Names}(\Delta^\mathcal{J}, \mathcal{J})$
    即整个域的"命名个体"集合必须一致。
 
    通过构造反例（Example 4 中的解释 I 和 J），证明存在 $\mathcal{ALC}\iota_L$ 互模拟但不存在 $\mathcal{ALC}\iota_G$ 互模拟的情况，从而得出 $\mathcal{ALC}\iota_L < \mathcal{ALC}\iota_G$。
@@ -89,10 +89,10 @@ $$\{ι(\mathsf{building} \sqcap \forall \mathsf{tallThan}.\neg \mathsf{building}
    设计了 $\mathtt{TAB}_{\mathcal{ALC}\iota}$，包含处理标准 ALC 构造的规则和处理定冠描述的专用规则：
 
    **全局DD规则**：
-   - $(ι_1^g)$：引入满足 C 和 D 的新个体
-   - $(ι_2^g)$：确保唯一性——合并任何两个满足 C 的个体的理论
-   - $(\neg ι^g)$：否定处理——对每个个体，要么不满足 C，要么不满足 D，要么存在两个不同个体满足 C
-   - $(cut_\iota^g)$：决定性规则——确保每个个体对 C 有确定判断，是完备性的关键
+    - $(ι_1^g)$：引入满足 C 和 D 的新个体
+    - $(ι_2^g)$：确保唯一性——合并任何两个满足 C 的个体的理论
+    - $(\neg ι^g)$：否定处理——对每个个体，要么不满足 C，要么不满足 D，要么存在两个不同个体满足 C
+    - $(cut_\iota^g)$：决定性规则——确保每个个体对 C 有确定判断，是完备性的关键
 
    **局部DD规则**：类似处理，但否定规则仅在当前个体局部生效。
 

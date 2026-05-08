@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 语音
-  - 全双工对话
+  - 音频语音
   - 端到端语音模型
   - GPT架构
   - chunk分块

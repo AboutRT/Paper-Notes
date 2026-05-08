@@ -9,7 +9,7 @@ tags:
   - 视觉问答
   - 焦点歧义
   - 视觉定位
-  - 歧义检测
+  - 多模态VLM
   - VQA基准
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2501.02201](https://arxiv.org/abs/2501.02201)  
-**代码**: https://vizwiz.org/tasks-and-datasets/focus-ambiguity-in-visual-questions/  
+**代码**: [https://vizwiz.org/tasks-and-datasets/focus-ambiguity-in-visual-questions/](https://vizwiz.org/tasks-and-datasets/focus-ambiguity-in-visual-questions/)  
 **领域**: 多模态VLM  
 **关键词**: 视觉问答, 焦点歧义, 视觉定位, 歧义检测, VQA基准
 
@@ -114,9 +114,9 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] Acknowledging Focus Ambiguity in Visual Questions](acknowledging_focus_ambiguity_in_visual_questions.md)
-- [\[ACL 2025\] Teaching Vision-Language Models to Ask: Resolving Ambiguity in Visual Questions](../../ACL2025/multimodal_vlm/teaching_vlm_ask_ambiguity.md)
-- [\[ICCV 2025\] DOGR: Towards Versatile Visual Document Grounding and Referring](dogr_towards_versatile_visual_document_grounding_and_referring.md)
 - [\[ICCV 2025\] Feather the Throttle: Revisiting Visual Token Pruning for Vision-Language Model Acceleration](feather_the_throttle_revisiting_visual_token_pruning_for_vision-language_model_a.md)
+- [\[ICCV 2025\] SimpleVQA: Multimodal Factuality Evaluation for Multimodal Large Language Models](simplevqa_multimodal_factuality_evaluation_for_multimodal_large_language_models.md)
 - [\[ICCV 2025\] Fine-Grained Evaluation of Large Vision-Language Models in Autonomous Driving](fine-grained_evaluation_of_large_vision-language_models_in_autonomous_driving.md)
+- [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](controlling_multimodal_llms_via_reward-guided_decoding.md)
 
 <!-- RELATED:END -->

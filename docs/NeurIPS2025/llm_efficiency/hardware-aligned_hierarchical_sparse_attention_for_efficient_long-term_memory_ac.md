@@ -21,7 +21,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2504.16795](https://arxiv.org/abs/2504.16795)  
 **代码**: [ant-research/long-context-modeling](https://github.com/ant-research/long-context-modeling)  
-**领域**: llm_efficiency  
+**领域**: LLM效率  
 **关键词**: sparse attention, RNN, Mamba, long context, length generalization, chunk selection, hardware-aligned kernel
 
 ## 一句话总结
@@ -120,10 +120,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)
 - [\[ACL 2025\] Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](../../ACL2025/llm_efficiency/native_sparse_attention.md)
+- [\[NeurIPS 2025\] Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)
+- [\[NeurIPS 2025\] Linear Attention for Efficient Bidirectional Sequence Modeling](linear_attention_for_efficient_bidirectional_sequence_modeling.md)
 - [\[NeurIPS 2025\] The Emergence of Sparse Attention: Impact of Data Distribution and Benefits of Repetition](the_emergence_of_sparse_attention_impact_of_data_distribution_and_benefits_of_re.md)
-- [\[ACL 2025\] Efficient Many-Shot In-Context Learning with Dynamic Block-Sparse Attention](../../ACL2025/llm_efficiency/efficient_many-shot_in-context_learning_with_dynamic_block-sparse_attention.md)
-- [\[NeurIPS 2025\] Hierarchical Balance Packing: Towards Efficient Supervised Fine-tuning for Long-Context LLM](hierarchical_balance_packing_towards_efficient_supervised_fine-tuning_for_long-c.md)
+- [\[NeurIPS 2025\] Scale-invariant Attention](scale-invariant_attention.md)
 
 <!-- RELATED:END -->

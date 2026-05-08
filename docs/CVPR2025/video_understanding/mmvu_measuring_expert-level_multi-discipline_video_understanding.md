@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.12380](https://arxiv.org/abs/2501.12380)  
-**代码**: https://github.com/yale-nlp/MMVU (有)  
+**代码**: [https://github.com/yale-nlp/MMVU](https://github.com/yale-nlp/MMVU)  
 **领域**: 视频理解  
 **关键词**: 视频理解基准, 专家级推理, 多学科评测, 领域知识, 多模态基础模型
 

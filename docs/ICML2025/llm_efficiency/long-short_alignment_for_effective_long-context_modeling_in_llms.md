@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.11769](https://arxiv.org/abs/2506.11769)  
-**代码**: https://github.com/PKU-ML/LongShortAlignment (有)  
+**代码**: [https://github.com/PKU-ML/LongShortAlignment](https://github.com/PKU-ML/LongShortAlignment)  
 **领域**: LLM效率  
 **关键词**: 长度泛化, 输出分布对齐, 长短对齐, 正则化, 长上下文建模
 
@@ -150,7 +150,7 @@ tags:
 - [\[ICML 2025\] Efficient Length-Generalizable Attention via Causal Retrieval for Long-Context Language Modeling](efficient_length-generalizable_attention_via_causal_retrieval_for_long-context_l.md)
 - [\[ICML 2025\] NExtLong: Toward Effective Long-Context Training without Long Documents](nextlong_toward_effective_long-context_training_without_long_documents.md)
 - [\[ICML 2025\] Curse of High Dimensionality Issue in Transformer for Long-context Modeling](curse_of_high_dimensionality_issue_in_transformer_for_long-context_modeling.md)
-- [\[ICML 2025\] PENCIL: Long Thoughts with Short Memory](pencil_long_thoughts_with_short_memory.md)
 - [\[NeurIPS 2025\] Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](../../NeurIPS2025/llm_efficiency/long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)
+- [\[ACL 2025\] LADM: Long-context Training Data Selection with Attention-based Dependency Measurement for LLMs](../../ACL2025/llm_efficiency/ladm_long_context_data.md)
 
 <!-- RELATED:END -->

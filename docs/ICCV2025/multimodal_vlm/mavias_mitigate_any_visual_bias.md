@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV2025  
 **arXiv**: [2412.06632](https://arxiv.org/abs/2412.06632)  
-**代码**: https://github.com/gsarridis/VB-Mitigator (VB-Mitigator library)  
+**代码**: [https://github.com/gsarridis/VB-Mitigator](https://github.com/gsarridis/VB-Mitigator) (VB-Mitigator library)  
 **领域**: 多模态VLM / 偏差缓解  
 **关键词**: Visual Bias Mitigation, Open-Set Bias, Foundation Models, Vision-Language Models, Fairness
 
@@ -128,7 +128,7 @@ MAVias 分为两个阶段：(1) **偏差建模**：对每张训练图像，提�
 - [\[NeurIPS 2025\] Omni-Mol: Multitask Molecular Model for Any-to-Any Modalities](../../NeurIPS2025/multimodal_vlm/omni-mol_multitask_molecular_model_for_any-to-any_modalities.md)
 - [\[CVPR 2025\] Stop Learning It All to Mitigate Visual Hallucination, Focus on the Hallucination Target](../../CVPR2025/multimodal_vlm/stop_learning_it_all_to_mitigate_visual_hallucination_focus_on_the_hallucination.md)
 - [\[ACL 2025\] Retrieval Visual Contrastive Decoding to Mitigate Object Hallucinations in Large Vision-Language Models](../../ACL2025/multimodal_vlm/retrieval_visual_contrastive_decoding_to_mitigate_object_hallucinations_in_large.md)
+- [\[NeurIPS 2025\] MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification](../../NeurIPS2025/multimodal_vlm/mdreid_modality-decoupled_learning_for_any-to-any_multi-modal_object_re-identifi.md)
 - [\[ACL 2025\] Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucination in Multimodal LLMs](../../ACL2025/multimodal_vlm/mixture_of_decoding_an_attention-inspired_adaptive_decoding_strategy_to_mitigate.md)
-- [\[CVPR 2025\] Data Distributional Properties as Inductive Bias for Systematic Generalization](../../CVPR2025/multimodal_vlm/data_distributional_properties_as_inductive_bias_for_systematic_generalization.md)
 
 <!-- RELATED:END -->

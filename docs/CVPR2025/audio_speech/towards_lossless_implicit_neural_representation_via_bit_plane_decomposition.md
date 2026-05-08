@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.21001](https://arxiv.org/abs/2502.21001)  
-**代码**: https://github.com/WooKyoungHan/LosslessINR (有)  
+**代码**: [https://github.com/WooKyoungHan/LosslessINR](https://github.com/WooKyoungHan/LosslessINR)  
 **领域**: 音频语音 / 神经表示  
 **关键词**: 隐式神经表示, 无损表示, 比特平面分解, 比特偏置, 高精度信号
 
@@ -108,10 +108,10 @@ MSE 损失。每个比特平面用目标错误界 $\epsilon(n) = \frac{1}{2(2^n-
 
 ## 相关论文
 
-- [\[ACL 2026\] Learning Invariant Modality Representation for Robust Multimodal Learning from a Causal Inference Perspective](../../ACL2026/audio_speech/learning_invariant_modality_representation_for_robust_multimodal_learning_from_a.md)
-- [\[NeurIPS 2025\] Sound Logical Explanations for Mean Aggregation Graph Neural Networks](../../NeurIPS2025/audio_speech/sound_logical_explanations_for_mean_aggregation_graph_neural_networks.md)
 - [\[ECCV 2024\] Latent-INR: A Flexible Framework for Implicit Representations of Videos with Discriminative Semantics](../../ECCV2024/audio_speech/latent-inr_a_flexible_framework_for_implicit_representations_of_videos_with_disc.md)
-- [\[ICLR 2026\] Toward Complex-Valued Neural Networks for Waveform Generation](../../ICLR2026/audio_speech/toward_complex-valued_neural_networks_for_waveform_generation.md)
+- [\[NeurIPS 2025\] Sound Logical Explanations for Mean Aggregation Graph Neural Networks](../../NeurIPS2025/audio_speech/sound_logical_explanations_for_mean_aggregation_graph_neural_networks.md)
 - [\[NeurIPS 2025\] Slimmable NAM: Neural Amp Models with Adjustable Runtime Computational Cost](../../NeurIPS2025/audio_speech/slimmable_nam_neural_amp_models_with_adjustable_runtime_computational_cost.md)
+- [\[ICLR 2026\] Toward Complex-Valued Neural Networks for Waveform Generation](../../ICLR2026/audio_speech/toward_complex-valued_neural_networks_for_waveform_generation.md)
+- [\[ACL 2026\] Learning Invariant Modality Representation for Robust Multimodal Learning from a Causal Inference Perspective](../../ACL2026/audio_speech/learning_invariant_modality_representation_for_robust_multimodal_learning_from_a.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2510.20331](https://arxiv.org/abs/2510.20331)  
 **代码**: [anypcc.github.io](https://anypcc.github.io)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: point cloud compression, universal context model, instance-adaptive fine-tuning, occupancy code, lossless/lossy compression
 
 ## 一句话总结

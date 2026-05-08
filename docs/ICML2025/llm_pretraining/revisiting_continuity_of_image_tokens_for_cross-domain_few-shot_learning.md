@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.03110](https://arxiv.org/abs/2506.03110)  
 **代码**: [github.com/shuaiyi308/ReCIT](https://github.com/shuaiyi308/ReCIT)  
-**领域**: LLM / NLP（视觉 Transformer）  
+**领域**: LLM预训练  
 **关键词**: cross-domain few-shot, ViT, token continuity, spatial patterns, domain gap
 
 ## 一句话总结

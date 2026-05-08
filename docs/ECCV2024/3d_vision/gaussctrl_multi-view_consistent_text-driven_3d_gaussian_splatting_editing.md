@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.08733](https://arxiv.org/abs/2403.08733)  
-**代码**: https://gaussctrl.active.vision/ (有)  
+**代码**: [https://gaussctrl.active.vision/](https://gaussctrl.active.vision/)  
 **领域**: 3D视觉  
 **关键词**: 3D编辑, 3D Gaussian Splatting, 扩散模型, 多视角一致性, ControlNet
 
@@ -55,25 +55,25 @@ GaussCtrl的流程分为四步：
 
     - DDIM Inversion: 将原始图像$\mathcal{I}$通过ControlNet的VAE编码为$z^0$，再迭代反转为噪声$z^T$：
    
-   $$z^{t+1} = \sqrt{\alpha_{t+1}} \frac{z^t - \sqrt{1-\alpha_t} \cdot \epsilon^t}{\sqrt{\alpha_t}} + \sqrt{1-\alpha_{t+1}} \epsilon^t$$
+    $z^{t+1} = \sqrt{\alpha_{t+1}} \frac{z^t - \sqrt{1-\alpha_t} \cdot \epsilon^t}{\sqrt{\alpha_t}} + \sqrt{1-\alpha_{t+1}} \epsilon^t$
    
-   - 编辑去噪: 替换为编辑prompt $\hat{p}_e$，通过classifier-free guidance去噪：
+    - 编辑去噪: 替换为编辑prompt $\hat{p}_e$，通过classifier-free guidance去噪：
    
-   $$\epsilon^t = \epsilon_\emptyset^t + \omega \cdot (\epsilon_p^t - \epsilon_\emptyset^t)$$
+    $\epsilon^t = \epsilon_\emptyset^t + \omega \cdot (\epsilon_p^t - \epsilon_\emptyset^t)$
    
    设计动机：深度图来自同一3DGS，天然跨视角几何一致，以此条件化编辑可避免几何不协调。DDIM Inversion保证初始latent codes继承原始图像的一致颜色和几何。
 
 2. **基于注意力的Latent Code对齐模块**: 深度条件保证几何一致，但各视角仍独立编辑，外观可能不一致（颜色偏差、困难视角异常）。模块通过混合self-attention和cross-view attention统一外观：
 
-   $$\text{AttnAlign}_e = \lambda \cdot \text{Attn}_{e,e} + (1-\lambda) \cdot \frac{1}{N_r} \sum_{i=1}^{N_r} \text{Attn}_{e,i}$$
+    $\text{AttnAlign}_e = \lambda \cdot \text{Attn}_{e,e} + (1-\lambda) \cdot \frac{1}{N_r} \sum_{i=1}^{N_r} \text{Attn}_{e,i}$
 
    其中attention操作定义为：
    
-   $$\text{Attn}_{i,j} = \text{Softmax}\left(\frac{W_q(z_i) W_k(z_j)^\top}{\sqrt{c}}\right) W_v(z_j)$$
+    $\text{Attn}_{i,j} = \text{Softmax}\left(\frac{W_q(z_i) W_k(z_j)^\top}{\sqrt{c}}\right) W_v(z_j)$
 
-   - Self-attention $\text{Attn}_{e,e}$: 保持每张编辑图像的独特性
-   - Cross-view attention $\text{Attn}_{e,i}$: 将外观对齐到$N_r$个参考视角
-   - $\lambda = 0.6$，$N_r = 4$个随机采样的参考视角
+    - Self-attention $\text{Attn}_{e,e}$: 保持每张编辑图像的独特性
+    - Cross-view attention $\text{Attn}_{e,i}$: 将外观对齐到$N_r$个参考视角
+    - $\lambda = 0.6$，$N_r = 4$个随机采样的参考视角
    
    设计动机：已有研究表明扩散模型中self-attention的key-value对决定了生成图像的外观，通过注入参考视角的K/V来统一所有视角的外观。
 

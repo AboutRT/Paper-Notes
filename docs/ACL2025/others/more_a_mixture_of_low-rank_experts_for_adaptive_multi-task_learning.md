@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning
 description: >-
-  [ACL 2025][LoRA] 提出 MoRE (Mixture of Low-Rank Experts)，将 LoRA 中的不同秩视为不同专家，通过自适应秩选择器为每个任务动态选择最合适的秩，配合对比学习优化的任务嵌入和平衡数据采样策略，使用单个 LoRA 模块实现高效的多任务微调。
+  [ACL 2025][其他] 提出 MoRE (Mixture of Low-Rank Experts)，将 LoRA 中的不同秩视为不同专家，通过自适应秩选择器为每个任务动态选择最合适的秩，配合对比学习优化的任务嵌入和平衡数据采样策略，使用单个 LoRA 模块实现高效的多任务微调。
 tags:
   - ACL 2025
-  - LoRA
+  - 其他
   - 多任务学习
   - 混合专家
   - 自适应秩选择
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.22694](https://arxiv.org/abs/2505.22694)  
 **代码**: [GitHub](https://github.com/NLPfreshman0/MoRE)  
-**领域**: NLP / 参数高效微调  
+**领域**: 其他  
 **关键词**: LoRA, 多任务学习, 混合专家, 自适应秩选择, 参数高效微调
 
 ## 一句话总结
@@ -162,7 +162,7 @@ LLaMA2-7B 上：
 - [\[ACL 2025\] Low-Rank Interconnected Adaptation across Layers](low-rank_interconnected_adaptation_across_layers.md)
 - [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](cola_collaborative_low-rank_adaptation.md)
 - [\[ACL 2025\] Adaptive Feature-based Low Rank Plus Sparse Decomposition for Subspace Clustering](adaptive_feature-based_low_rank_plus_sparse_decomposition_for_subspace_clusterin.md)
+- [\[ACL 2025\] Decoding Knowledge Attribution in Mixture-of-Experts: A Framework of Basic-Refinement Collaboration and Efficiency Analysis](decoding_knowledge_attribution_in_mixture-of-experts_a_framework_of_basic-refine.md)
 - [\[ECCV 2024\] Dropout Mixture Low-Rank Adaptation for Visual Parameters-Efficient Fine-Tuning](../../ECCV2024/others/dropout_mixture_low-rank_adaptation_for_visual_parameters-efficient_fine-tuning.md)
-- [\[ACL 2025\] Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients](federated_lora_heterogeneous.md)
 
 <!-- RELATED:END -->

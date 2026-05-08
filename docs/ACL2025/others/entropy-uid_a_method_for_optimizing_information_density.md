@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.14366](https://arxiv.org/abs/2502.14366)  
 **代码**: 无  
-**领域**: NLP / 文本生成 / 信息论  
+**领域**: 其他  
 **关键词**: 信息熵, 均匀信息密度, 解码策略, token 选择, GPT-2
 
 ## 一句话总结
@@ -156,7 +156,7 @@ Entropy-UID 是一种解码时 token 选择策略，在每个生成步骤中：
 - [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
 - [\[ACL 2025\] Optimizing Decomposition for Optimal Claim Verification](optimizing_decomposition_for_optimal_claim_verification.md)
 - [\[ACL 2025\] The Harmonic Structure of Information Contours](the_harmonic_structure_of_information_contours.md)
-- [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](../../ICML2025/others/multiple-policy_evaluation_via_density_estimation.md)
 - [\[ACL 2025\] RMoA: Optimizing Mixture-of-Agents through Diversity Maximization and Residual Compensation](rmoa_optimizing_mixture-of-agents_through_diversity_maximization_and_residual_co.md)
+- [\[ICLR 2026\] An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes](../../ICLR2026/others/an_information-theoretic_framework_for_optimizing_experimental_design_to_disting.md)
 
 <!-- RELATED:END -->

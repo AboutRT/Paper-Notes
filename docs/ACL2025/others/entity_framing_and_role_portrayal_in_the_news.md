@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 实体框架
   - 叙事角色
-  - 多语言标注
+  - 其他
   - 层次分类
   - 零样本学习
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.14718](https://arxiv.org/abs/2502.14718)  
 **代码**: [数据集页面](https://mbzuai-nlp.github.io/entity-framing/)  
-**领域**: NLP / 媒体分析 / 实体框架  
+**领域**: 其他  
 **关键词**: 实体框架, 叙事角色, 多语言标注, 层次分类, 零样本学习
 
 ## 一句话总结
@@ -150,7 +150,7 @@ tags:
 - [\[ACL 2025\] Narrative Media Framing in Political Discourse](narrative_media_framing_in_political_discourse.md)
 - [\[ACL 2025\] Evaluating Design Decisions for Dual Encoder-based Entity Disambiguation](evaluating_design_decisions_for_dual_encoder-based_entity_disambiguation.md)
 - [\[ACL 2025\] Digital Gatekeepers: Google's Role in Curating Hashtags and Subreddits](digital_gatekeepers_googles_role_in_curating_hashtags_and_subreddits.md)
-- [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
+- [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
+- [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](cola_collaborative_low-rank_adaptation.md)
 
 <!-- RELATED:END -->

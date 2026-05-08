@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2502.09664](https://arxiv.org/abs/2502.09664)  
 **代码**: [adamesalles/experiments-conformal-superres](https://github.com/adamesalles/experiments-conformal-superres)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 超分辨率, 不确定性量化, 共形预测, 扩散模型, 置信度掩码
 
 ## 一句话总结
@@ -165,6 +165,6 @@ $$\text{Fidelity Error} \le \alpha \cdot \frac{n_{\text{new}} + n_{\text{leaked}
 - [\[CVPR 2025\] FaithDiff: Unleashing Diffusion Priors for Faithful Image Super-Resolution](../../CVPR2025/image_generation/faithdiff_unleashing_diffusion_priors_for_faithful_image_super-resolution.md)
 - [\[CVPR 2025\] Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model](../../CVPR2025/image_generation/uncertainty-guided_perturbation_for_image_super-resolution_diffusion_model.md)
 - [\[ICCV 2025\] PatchScaler: An Efficient Patch-Independent Diffusion Model for Image Super-Resolution](../../ICCV2025/image_generation/patchscaler_an_efficient_patch-independent_diffusion_model_for_image_super-resol.md)
-- [\[CVPR 2026\] OARS: Process-Aware Online Alignment for Generative Real-World Image Super-Resolution](../../CVPR2026/image_generation/oars_processaware_online_alignment_for_generative.md)
+- [\[ICCV 2025\] 3DSR: Bridging Diffusion Models and 3D Representations for 3D Consistent Super-Resolution](../../ICCV2025/image_generation/bridging_diffusion_models_and_3d_representations_a_3d_consis.md)
 
 <!-- RELATED:END -->

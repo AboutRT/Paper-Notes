@@ -12,7 +12,7 @@ tags:
 - **会议**: AAAI 2026
 - **arXiv**: [2506.22283](https://arxiv.org/abs/2506.22283)
 - **代码**: [https://github.com/Ruixxxx/VisionDrop](https://github.com/Ruixxxx/VisionDrop)
-- **领域**: multimodal_vlm
+- **领域**: 多模态VLM
 - **关键词**: 视觉token压缩, 跨模态对齐失配, 免训练剪枝, 注意力评分, 大视觉语言模型
 
 ## 一句话总结
@@ -132,8 +132,8 @@ $$\mathbf{x}_V^{(s_{n+1})} = \{x_V^i \in \mathbf{x}_V^{(s_n)} \mid S(i) \geq \ta
 
 - [\[AAAI 2026\] Multi-Faceted Attack: Exposing Cross-Model Vulnerabilities in Defense-Equipped Vision-Language Models](multi-faceted_attack_exposing_cross-model_vulnerabilities_in_defense-equipped_vi.md)
 - [\[AAAI 2026\] FT-NCFM: An Influence-Aware Data Distillation Framework for Efficient VLA Models](ft-ncfm_an_influence-aware_data_distillation_framework_for_efficient_vla_models.md)
-- [\[AAAI 2026\] Towards a Rigorous Understanding of the Population Dynamics of the NSGA-III: Tight Runtime Bounds](towards_a_rigorous_understanding_of_the_population_dynamics_of_the_nsga-iii_tigh.md)
 - [\[AAAI 2026\] ReCAD: Reinforcement Learning Enhanced Parametric CAD Model Generation with Vision-Language Models](recad_reinforcement_learning_enhanced_parametric_cad_model_generation_with_visio.md)
 - [\[ACL 2025\] Table Understanding and (Multimodal) LLMs: A Cross-Domain Case Study on Scientific Tables](../../ACL2025/multimodal_vlm/table_understanding_and_multimodal_llms_a_cross-domain_case_study_on_scientific_.md)
+- [\[ICCV 2025\] Large Multi-modal Models Can Interpret Features in Large Multi-modal Models](../../ICCV2025/multimodal_vlm/large_multi-modal_models_can_interpret_features_in_large_multi-modal_models.md)
 
 <!-- RELATED:END -->

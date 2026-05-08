@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.13900](https://arxiv.org/abs/2510.13900)  
 **代码**: [science-of-finetuning/diffing-toolkit](https://github.com/science-of-finetuning/diffing-toolkit)  
-**领域**: llm_nlp  
+**领域**: 可解释性  
 **关键词**: 模型微调, 激活差异, Model Diffing, 可解释性, AI安全, Model Organisms, Patchscope
 
 ## 一句话总结
@@ -165,8 +165,8 @@ Steered 文本与微调数据集的语义相似度显著高于：
 
 ## 相关论文
 
-- [\[ICLR 2026\] GAVEL: Towards Rule-Based Safety through Activation Monitoring](gavel_towards_rule-based_safety_through_activation_monitoring.md)
 - [\[ICLR 2026\] ActivationReasoning: Logical Reasoning in Latent Activation Spaces](activationreasoning_logical_reasoning_in_latent_activation_spaces.md)
+- [\[ICLR 2026\] GAVEL: Towards Rule-Based Safety through Activation Monitoring](gavel_towards_rule-based_safety_through_activation_monitoring.md)
 - [\[ACL 2026\] Interpretable Traces, Unexpected Outcomes: Investigating the Disconnect in Trace-Based Knowledge Distillation](../../ACL2026/interpretability/interpretable_traces_unexpected_outcomes_investigating_the_disconnect_in_trace-b.md)
 - [\[ICLR 2026\] Universal Properties of Activation Sparsity in Modern Large Language Models](universal_properties_of_activation_sparsity_in_modern_large_language_models.md)
 - [\[NeurIPS 2025\] FaCT: Faithful Concept Traces for Explaining Neural Network Decisions](../../NeurIPS2025/interpretability/fact_faithful_concept_traces_for_explaining_neural_network_decisions.md)

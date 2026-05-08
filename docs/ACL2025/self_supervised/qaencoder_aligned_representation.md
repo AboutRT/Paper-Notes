@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2409.20434](https://arxiv.org/abs/2409.20434)  
-**代码**: https://github.com/IAAR-Shanghai/QAEncoder  
-**领域**: LLM / RAG / 检索  
+**代码**: [https://github.com/IAAR-Shanghai/QAEncoder](https://github.com/IAAR-Shanghai/QAEncoder)  
+**领域**: 自监督  
 **关键词**: document-query alignment, training-free, conical distribution, document fingerprint, dense retrieval
 
 ## 一句话总结

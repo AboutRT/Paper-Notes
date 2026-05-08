@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems
 description: >-
-  [ICLR 2026][多智能体系统] 提出 SupervisorAgent，一个轻量级的实时自适应监督框架，通过无 LLM 的自适应过滤器在关键交互节点主动干预（纠错、指导、观察净化），在 GAIA 基准上将 Smolagent 的 token 消耗降低 29.68% 而不损失成功率。
+  [ICLR 2026][社会计算] 提出 SupervisorAgent，一个轻量级的实时自适应监督框架，通过无 LLM 的自适应过滤器在关键交互节点主动干预（纠错、指导、观察净化），在 GAIA 基准上将 Smolagent 的 token 消耗降低 29.68% 而不损失成功率。
 tags:
   - ICLR 2026
-  - 多智能体系统
+  - 社会计算
   - Token 效率
   - 运行时监督
   - 自适应过滤
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.26585](https://arxiv.org/abs/2510.26585)  
 **代码**: 无  
-**领域**: 模型压缩 / 多智能体效率  
+**领域**: 社会计算  
 **关键词**: 多智能体系统, Token 效率, 运行时监督, 自适应过滤, 错误纠正
 
 ## 一句话总结
@@ -142,10 +142,10 @@ $$\mathcal{W} = (N, Q_g, Q_l, T_l, S)$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](when_agents_misremember_collectively_exploring_the_mandela_effect_in_llm-based_m.md)
 - [\[ICML 2025\] Is Your LLM-Based Multi-Agent a Reliable Real-World Planner? Exploring Fraud Detection in Travel Planning](../../ICML2025/social_computing/is_your_llm-based_multi-agent_a_reliable_real-world_planner_exploring_fraud_dete.md)
-- [\[AAAI 2026\] Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion](../../AAAI2026/social_computing/beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)
+- [\[ICLR 2026\] SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition](sage_spatial-visual_adaptive_graph_exploration_for_efficient_visual_place_recogn.md)
 - [\[ICLR 2026\] Scalable Multi-Task Low-Rank Model Adaptation](scalable_multi-task_low-rank_model_adaptation.md)
-- [\[CVPR 2026\] Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning](../../CVPR2026/social_computing/revisiting_unknowns_towards_effective_and_efficient_open-set_active_learning.md)
-- [\[ICLR 2026\] Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI](functional_embeddings_enable_aggregation_of_multi-area_seeg_recordings_over_subj.md)
+- [\[AAAI 2026\] Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion](../../AAAI2026/social_computing/beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)
 
 <!-- RELATED:END -->

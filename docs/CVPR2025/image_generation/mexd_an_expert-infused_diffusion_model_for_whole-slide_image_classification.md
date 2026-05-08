@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.12401](https://arxiv.org/abs/2503.12401)  
-**代码**: https://github.com/JWZhao-uestc/MExD (有)  
-**领域**: 医学图像 / 扩散模型  
+**代码**: [https://github.com/JWZhao-uestc/MExD](https://github.com/JWZhao-uestc/MExD)  
+**领域**: 图像生成  
 **关键词**: 病理全切片图像, 多实例学习, 扩散模型分类, 混合专家, 数据不平衡
 
 ## 一句话总结
@@ -123,6 +123,6 @@ MExD 首次将生成式扩散模型应用于全切片图像（WSI）分类，通
 - [\[ICCV 2025\] DPoser-X: Diffusion Model as Robust 3D Whole-Body Human Pose Prior](../../ICCV2025/image_generation/dposer-x_diffusion_model_as_robust_3d_whole-body_human_pose_prior.md)
 - [\[CVPR 2025\] InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions](intermimic_towards_universal_whole-body_control_for_physics-based_human-object_i.md)
 - [\[NeurIPS 2025\] CaMiT: A Time-Aware Car Model Dataset for Classification and Generation](../../NeurIPS2025/image_generation/camit_a_time-aware_car_model_dataset_for_classification_and_generation.md)
-- [\[CVPR 2025\] CamFreeDiff: Camera-free Image to Panorama Generation with Diffusion Model](camfreediff_camera-free_image_to_panorama_generation_with_diffusion_model.md)
+- [\[ECCV 2024\] Active Generation for Image Classification](../../ECCV2024/image_generation/active_generation_for_image_classification.md)
 
 <!-- RELATED:END -->

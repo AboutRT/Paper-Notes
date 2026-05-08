@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.07022](https://arxiv.org/abs/2506.07022)  
 **代码**: [https://github.com/AlphaLab-USTC/AlphaSteer](https://github.com/AlphaLab-USTC/AlphaSteer)  
-**领域**: AI安全 / LLM安全  
+**领域**: LLM对齐  
 **关键词**: activation steering, refusal direction, null-space projection, jailbreak defense, safety-utility trade-off
 
 ## 一句话总结

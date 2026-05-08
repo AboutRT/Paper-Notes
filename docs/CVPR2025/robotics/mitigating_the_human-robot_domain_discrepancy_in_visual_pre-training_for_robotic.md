@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2406.14235](https://arxiv.org/abs/2406.14235)  
 **代码**: [项目主页](https://jiaming-zhou.github.io/projects/HumanRobotAlign)  
-**领域**: robotics  
+**领域**: 机器人  
 **关键词**: robotic manipulation, visual pre-training, human-robot domain gap, contrastive alignment, parameter-efficient adapter
 
 ## 一句话总结

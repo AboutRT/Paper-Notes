@@ -2,10 +2,10 @@
 title: >-
   [论文解读] BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation
 description: >-
-  [ECCV2024][多模态对话] 提出 BI-MDRG 框架，通过桥接图像历史信息来增强多模态对话中文本回复的图像 grounding 能力和连续图像回复中物体的一致性。
+  [ECCV2024][对话系统] 提出 BI-MDRG 框架，通过桥接图像历史信息来增强多模态对话中文本回复的图像 grounding 能力和连续图像回复中物体的一致性。
 tags:
   - ECCV2024
-  - 多模态对话
+  - 对话系统
   - 图像一致性
   - 视觉语言模型
   - 文本到图像生成
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2408.05926](https://arxiv.org/abs/2408.05926)  
 **代码**: [hee-suk-yoon/BI-MDRG](https://github.com/hee-suk-yoon/BI-MDRG)  
-**领域**: multimodal_vlm  
+**领域**: 对话系统  
 **关键词**: 多模态对话, 图像一致性, 视觉语言模型, 文本到图像生成, 对话响应生成
 
 ## 一句话总结
@@ -169,7 +169,7 @@ $$r_t^{\text{Image}} = \mathcal{F}(u_t \mid \{r_i^{\text{Image}} \mid c_i = c_t\
 
 ## 相关论文
 
-- [\[ACL 2026\] Discourse Coherence and Response-Guided Context Rewriting for Multi-Party Dialogue Generation](../../ACL2026/dialogue/discourse_coherence_and_response-guided_context_rewriting_for_multi-party_dialog.md)
+- [\[ECCV 2024\] A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis](a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)
 - [\[ICLR 2026\] AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions](../../ICLR2026/dialogue/aqua_toward_strategic_response_generation_for_ambiguous_visual_questions.md)
 - [\[ACL 2025\] UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations](../../ACL2025/dialogue/uniconv_retrieval_response_gen.md)
 - [\[NeurIPS 2025\] Bridging Human and LLM Judgments: Understanding and Narrowing the Gap](../../NeurIPS2025/dialogue/bridging_human_and_llm_judgments_understanding_and_narrowing_the_gap.md)

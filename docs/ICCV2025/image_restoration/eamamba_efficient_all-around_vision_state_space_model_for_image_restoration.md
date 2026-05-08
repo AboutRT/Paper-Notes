@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2506.22246](https://arxiv.org/abs/2506.22246)  
-**代码**: https://github.com/daidaijr/EAMamba  
+**代码**: [https://github.com/daidaijr/EAMamba](https://github.com/daidaijr/EAMamba)  
 **领域**: 图像恢复  
 **关键词**: Vision Mamba, state space model, image restoration, multi-head selective scan, all-around scanning
 

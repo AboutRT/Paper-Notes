@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.22630](https://arxiv.org/abs/2602.22630)  
 **代码**: 待确认  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: KKL observer, state estimation, hypernetwork, non-autonomous system, dynamical system
 
 ## 一句话总结
@@ -158,10 +158,10 @@ $$\dot{\hat{z}} = A\hat{z} + By + \bar{\varphi}(\hat{z}, u; \xi)$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] Supervised Metric Regularization Through Alternating Optimization for Multi-Regime PINNs](supervised_metric_regularization_through_alternating_optimization_for_multi-regi.md)
+- [\[CVPR 2025\] Learning Phase Distortion with Selective State Space Models for Video Turbulence Mitigation](../../CVPR2025/scientific_computing/learning_phase_distortion_with_selective_state_space_models_for_video_turbulence.md)
 - [\[NeurIPS 2025\] Towards Universal Neural Operators through Multiphysics Pretraining](../../NeurIPS2025/scientific_computing/towards_universal_neural_operators_through_multiphysics_pretraining.md)
+- [\[CVPR 2025\] Improve Representation for Imbalanced Regression through Geometric Constraints](../../CVPR2025/scientific_computing/improve_representation_for_imbalanced_regression_through_geometric_constraints.md)
 - [\[NeurIPS 2025\] Hamiltonian Neural PDE Solvers through Functional Approximation](../../NeurIPS2025/scientific_computing/hamiltonian_neural_pde_solvers_through_functional_approximation.md)
-- [\[ICLR 2026\] DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning](drift-net_a_spectral--coupled_neural_operator_for_pdes_learning.md)
-- [\[ICLR 2026\] Deep Learning for Subspace Regression](deep_learning_for_subspace_regression.md)
-- [\[ICLR 2026\] Empirical Stability Analysis of Kolmogorov-Arnold Networks in Hard-Constrained Recurrent Physics-Informed Discovery](empirical_stability_analysis_of_kolmogorov-arnold_networks_in_hard-constrained_r.md)
 
 <!-- RELATED:END -->

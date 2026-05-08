@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 3D affordance
-  - 序列推理
+  - 多模态VLM
   - 多模态大语言模型
   - 点云分割
   - 具身智能
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01550](https://arxiv.org/abs/2412.01550)  
-**代码**: https://github.com/seq-afford (有)  
+**代码**: [https://github.com/seq-afford](https://github.com/seq-afford)  
 **领域**: 多模态VLM  
 **关键词**: 3D affordance、序列推理、多模态大语言模型、点云分割、具身智能
 
@@ -124,8 +124,8 @@ SeqAfford由三大组件构成：(1) 基于大规模3D表征学习的3D视觉编
 
 - [\[CVPR 2025\] Generalized Few-Shot 3D Point Cloud Segmentation with Vision-Language Model](generalized_few-shot_3d_point_cloud_segmentation_with_vision-language_model.md)
 - [\[CVPR 2025\] SketchAgent: Language-Driven Sequential Sketch Generation](sketchagent_language-driven_sequential_sketch_generation.md)
-- [\[CVPR 2025\] Period-LLM: Extending the Periodic Capability of Multimodal Large Language Model](period-llm_extending_the_periodic_capability_of_multimodal_large_language_model.md)
 - [\[NeurIPS 2025\] AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models](../../NeurIPS2025/multimodal_vlm/affordbot_3d_fine-grained_embodied_reasoning_via_multimodal_large_language_model.md)
+- [\[CVPR 2025\] Period-LLM: Extending the Periodic Capability of Multimodal Large Language Model](period-llm_extending_the_periodic_capability_of_multimodal_large_language_model.md)
 - [\[CVPR 2025\] Distraction is All You Need for Multimodal Large Language Model Jailbreaking](distraction_is_all_you_need_for_multimodal_large_language_model_jailbreaking.md)
 
 <!-- RELATED:END -->

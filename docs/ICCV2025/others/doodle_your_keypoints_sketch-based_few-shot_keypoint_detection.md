@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Doodle Your Keypoints: Sketch-Based Few-Shot Keypoint Detection
 description: >-
-  [ICCV 2025][关键点检测] 提出首个基于草图的跨模态少样本关键点检测框架，利用原型网络、网格定位器、原型域适应和去风格化网络，仅需少量带标注草图即可在真实照片中检测新类别的新关键点。
+  [ICCV 2025][其他] 提出首个基于草图的跨模态少样本关键点检测框架，利用原型网络、网格定位器、原型域适应和去风格化网络，仅需少量带标注草图即可在真实照片中检测新类别的新关键点。
 tags:
   - ICCV 2025
-  - 关键点检测
+  - 其他
   - 少样本学习
   - 草图
   - 跨模态
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.07994](https://arxiv.org/abs/2507.07994)  
-**代码**: https://subhajitmaity.me/DYKp (有)  
+**代码**: [https://subhajitmaity.me/DYKp](https://subhajitmaity.me/DYKp)  
 **领域**: Keypoint Detection / Few-Shot Learning  
 **关键词**: 关键点检测, 少样本学习, 草图, 跨模态, 域适应
 
@@ -172,8 +172,8 @@ Animal Kingdom 数据集结果（5 类超类，1-shot）：
 
 - [\[CVPR 2025\] TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection](../../CVPR2025/others/tailedcore_few-shot_sampling_for_unsupervised_long-tail_noisy_anomaly_detection.md)
 - [\[ICCV 2025\] Is Meta-Learning Out? Rethinking Unsupervised Few-Shot Classification with Limited Entropy](is_meta-learning_out_rethinking_unsupervised_few-shot_classification_with_limite.md)
+- [\[ICCV 2025\] Stroke2Sketch: Harnessing Stroke Attributes for Training-Free Sketch Generation](stroke2sketch_harnessing_stroke_attributes_for_training-free_sketch_generation.md)
+- [\[ICML 2025\] Provably Improving Generalization of Few-Shot Models with Synthetic Data](../../ICML2025/others/provably_improving_generalization_of_few-shot_models_with_synthetic_data.md)
 - [\[ACL 2025\] Zero-Shot Conversational Stance Detection: Dataset and Approaches](../../ACL2025/others/zero-shot_conversational_stance_detection_dataset_and_approaches.md)
-- [\[ACL 2025\] Dynamic Label Name Refinement for Few-Shot Dialogue Intent Classification](../../ACL2025/others/dynamic_label_name_refinement_for_few-shot_dialogue_intent_classification.md)
-- [\[ACL 2025\] ALGEN: Few-Shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment](../../ACL2025/others/algen_few-shot_inversion_attacks_on_textual_embeddings_via_cross-model_alignment.md)
 
 <!-- RELATED:END -->

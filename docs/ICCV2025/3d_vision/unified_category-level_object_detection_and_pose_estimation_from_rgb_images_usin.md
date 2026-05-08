@@ -53,7 +53,7 @@ tags:
 1. **Neural Mesh Models 3D 原型表示**：每个类别拥有一个原型网格 $\mathbf{M}^c = (\mathbf{V}^c, \mathbf{A}^c, \mathbf{F}^c_{3D})$，其中 $\mathbf{V}^c \in \mathbb{R}^{V \times 3}$ 为顶点坐标，$\mathbf{F}^c_{3D} \in \mathbb{R}^{V \times D}$ 为可学习的顶点特征。网格几何通过均匀采样类别平均尺寸的包围盒表面来构建。这种表示能在类别内泛化，不需要测试时的精确 CAD 模型。
 
 2. **双流特征提取与 Geometric Feature Decoder**：使用冻结的 DINOv2 ViT 作为骨干，通过参数高效微调（LoRA Adapter）注入任务信息。在 Adapter 中引入低秩适配：
-   $$x'_l = \text{MLP}(\text{LN}(x_l)) + x_l + \lambda(\text{GeLU}(\text{LN}(x_l) \cdot \mathbf{D})) \cdot \mathbf{U}$$
+    $x'_l = \text{MLP}(\text{LN}(x_l)) + x_l + \lambda(\text{GeLU}(\text{LN}(x_l) \cdot \mathbf{D})) \cdot \mathbf{U}$
    后接共享 Transformer 编码器和双路 Transformer 解码器，产生两个特征图 $\overline{\mathbf{F}}_{2D}$（对齐到类别平均尺寸原型）和 $\mathbf{F}_{2D}$（对齐到实例尺寸变形原型），分别用于 6D 位姿估计和 9D 精化。
 
 3. **前景检测模块**：利用 ViT 注意力图的前景分割涌现行为，通过 CLS token 初始化的前景 token 与解码器特征进行交叉注意力计算，获得前景概率图 $\mathbf{H}$。采用 Dice Loss 监督，有效过滤背景区域的假阳性匹配。
@@ -61,7 +61,7 @@ tags:
 4. **多模型 RANSAC 检测与位姿估计**：推理时建立 2D-3D 密集对应关系集 $\bar{\mathcal{N}}_{3D}^{2D}$，每个像素点的特征与所有类别的所有顶点特征计算相似度，选取最大相似度的顶点作为匹配对。对每个类别的对应子集运行 Progressive-X（多模型拟合算法），可以同时分离同类别的多个实例并估计各自的 6D 位姿。
 
 5. **9D 位姿精化**：对检测到的每个物体，引入形变参数 $\mathbf{d} \in \mathbb{R}^3$ 沿主轴缩放顶点，通过两步优化最小化重投影误差：
-   $$\mathbf{E}(\mathbf{K}, \mathbf{R}, \mathbf{t}, \mathbf{d}, \mathcal{N}_i) = \sum_{v_k, \mathbf{p}_k \in \mathcal{N}_i} \|(\mathbf{K}\mathbf{R}(\mathbf{d} \odot v_k) + \mathbf{t}) - \mathbf{p}_k\|_2^2$$
+    $\mathbf{E}(\mathbf{K}, \mathbf{R}, \mathbf{t}, \mathbf{d}, \mathcal{N}_i) = \sum_{v_k, \mathbf{p}_k \in \mathcal{N}_i} \|(\mathbf{K}\mathbf{R}(\mathbf{d} \odot v_k) + \mathbf{t}) - \mathbf{p}_k\|_2^2$
    先固定 6D 旋转平移求解形变，再用形变后的几何精化旋转和平移。
 
 ### 损失函数 / 训练策略
@@ -136,10 +136,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Learning Class Prototypes for Unified Sparse-Supervised 3D Object Detection](../../CVPR2025/3d_vision/learning_class_prototypes_for_unified_sparse-supervised_3d_object_detection.md)
 - [\[ECCV 2024\] Omni6D: Large-Vocabulary 3D Object Dataset for Category-Level 6D Object Pose Estimation](../../ECCV2024/3d_vision/omni6d_large-vocabulary_3d_object_dataset_for_category-level_6d_object_pose_esti.md)
 - [\[ICCV 2025\] BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation](boxdreamer_dreaming_box_corners_for_generalizable_object_pos.md)
 - [\[NeurIPS 2025\] SingRef6D: Monocular Novel Object Pose Estimation with a Single RGB Reference](../../NeurIPS2025/3d_vision/singref6d_monocular_novel_object_pose_estimation_with_a_single_rgb_reference.md)
 - [\[ICCV 2025\] A Unified Interpretation of Training-Time Out-of-Distribution Detection](a_unified_interpretation_of_training-time_out-of-distribution_detection.md)
+- [\[ICCV 2025\] UPP: Unified Point-Level Prompting for Robust Point Cloud Analysis](upp_unified_point-level_prompting_for_robust_point_cloud_analysis.md)
 
 <!-- RELATED:END -->

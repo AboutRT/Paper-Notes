@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.02139](https://arxiv.org/abs/2312.02139)  
-**代码**: https://github.com/NVlabs/DiffiT (有)  
+**代码**: [https://github.com/NVlabs/DiffiT](https://github.com/NVlabs/DiffiT)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: Vision Transformer, 时间依赖自注意力, 扩散模型, 图像生成, 参数高效
 
@@ -173,10 +173,10 @@ DiffiT提供两种变体：
 
 ## 相关论文
 
+- [\[ECCV 2024\] Diffusion Model is a Good Pose Estimator from 3D RF-Vision](diffusion_model_is_a_good_pose_estimator_from_3d_rf-vision.md)
 - [\[CVPR 2026\] RAZOR: Ratio-Aware Layer Editing for Targeted Unlearning in Vision Transformers and Diffusion Models](../../CVPR2026/image_generation/razor_ratio-aware_layer_editing_for_targeted_unlearning_in_vision_transformers_a.md)
 - [\[CVPR 2026\] PixelDiT: Pixel Diffusion Transformers for Image Generation](../../CVPR2026/image_generation/pixeldit_pixel_diffusion_transformers_for_image_generation.md)
 - [\[ECCV 2024\] Latent Guard: a Safety Framework for Text-to-Image Generation](latent_guard_a_safety_framework_for_text-to-image_generation.md)
 - [\[ECCV 2024\] Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](powerful_and_flexible_personalized_text-to-image_generation_via_reinforcement_le.md)
-- [\[ECCV 2024\] Towards Reliable Advertising Image Generation Using Human Feedback](towards_reliable_advertising_image_generation_using_human_fe.md)
 
 <!-- RELATED:END -->

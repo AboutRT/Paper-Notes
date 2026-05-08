@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection
 description: >-
-  [ACL 2025][欺诈检测] 将电商支付欺诈检测建模为多步 MDP，用 LLM（Mixtral/LLaMA/Gemma）通过进化算法自动生成和优化 RL 奖励函数，在 eBay 真实交易数据上比人工设计奖励函数和传统 SL 基线显著提升 dollar-wise precision。
+  [ACL 2025][强化学习] 将电商支付欺诈检测建模为多步 MDP，用 LLM（Mixtral/LLaMA/Gemma）通过进化算法自动生成和优化 RL 奖励函数，在 eBay 真实交易数据上比人工设计奖励函数和传统 SL 基线显著提升 dollar-wise precision。
 tags:
   - ACL 2025
-  - 欺诈检测
+  - 强化学习
   - 强化学习
   - LLM奖励函数设计
   - 进化算法
@@ -116,10 +116,10 @@ REINFORCE 算法 + Adam 优化器，3 层神经网络 [8, 32, 8]，GELU 激活 +
 
 ## 相关论文
 
-- [\[ACL 2025\] TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](treerl_tree_search_rl.md)
-- [\[NeurIPS 2025\] Multi-Agent Collaboration via Evolving Orchestration](../../NeurIPS2025/reinforcement_learning/multi-agent_collaboration_via_evolving_orchestration.md)
 - [\[ICML 2025\] Diving into Self-Evolving Training for Multimodal Reasoning](../../ICML2025/reinforcement_learning/diving_into_self-evolving_training_for_multimodal_reasoning.md)
+- [\[ACL 2025\] TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](treerl_tree_search_rl.md)
+- [\[ICML 2025\] Beyond CVaR: Leveraging Static Spectral Risk Measures for Enhanced Decision-Making in Distributional Reinforcement Learning](../../ICML2025/reinforcement_learning/beyond_cvar_leveraging_static_spectral_risk_measures_for_enhanced_decision-makin.md)
+- [\[NeurIPS 2025\] Multi-Agent Collaboration via Evolving Orchestration](../../NeurIPS2025/reinforcement_learning/multi-agent_collaboration_via_evolving_orchestration.md)
 - [\[NeurIPS 2025\] Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](../../NeurIPS2025/reinforcement_learning/robot-r1_reinforcement_learning_for_enhanced_embodied_reasoning_in_robotics.md)
-- [\[ICLR 2026\] SPELL: Self-Play Reinforcement Learning for Evolving Long-Context Language Models](../../ICLR2026/reinforcement_learning/spell_self-play_reinforcement_learning_for_evolving_long-context_language_models.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] A Federated Generalized Expectation-Maximization Algorithm for Mixture Models with an Unknown Number of Components
 description: >-
-  [ICLR 2026][联邦聚类] 提出 FedGEM 算法，通过客户端本地 EM 步后构建不确定性集、服务器利用不确定性集交集检测聚类重叠并推断全局聚类数，首次实现在全局聚类数未知情况下的联邦聚类，并提供了概率收敛保证。
+  [ICLR 2026][其他] 提出 FedGEM 算法，通过客户端本地 EM 步后构建不确定性集、服务器利用不确定性集交集检测聚类重叠并推断全局聚类数，首次实现在全局聚类数未知情况下的联邦聚类，并提供了概率收敛保证。
 tags:
   - ICLR 2026
-  - 联邦聚类
+  - 其他
   - 广义EM算法
   - 混合模型
   - 未知聚类数
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.21160](https://arxiv.org/abs/2601.21160)  
 **代码**: 无  
-**领域**: 联邦学习 / 聚类  
+**领域**: 其他  
 **关键词**: 联邦聚类, 广义EM算法, 混合模型, 未知聚类数, 不确定性集  
 
 ## 一句话总结
@@ -120,7 +120,7 @@ FedGEM 包含两个阶段：(1) 迭代协作训练阶段——客户端本地 EM
 - [\[ICLR 2026\] Federated ADMM from Bayesian Duality](federated_admm_from_bayesian_duality.md)
 - [\[ACL 2025\] RMoA: Optimizing Mixture-of-Agents through Diversity Maximization and Residual Compensation](../../ACL2025/others/rmoa_optimizing_mixture-of-agents_through_diversity_maximization_and_residual_co.md)
 - [\[ICLR 2026\] Neural Force Field: Few-shot Learning of Generalized Physical Reasoning](neural_force_field_few-shot_learning_of_generalized_physical_reasoning.md)
+- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
 - [\[ACL 2025\] Mixture of Small and Large Models for Chinese Spelling Check](../../ACL2025/others/mixture_of_small_and_large_models_for_chinese_spelling_check.md)
-- [\[AAAI 2026\] Private Frequency Estimation via Residue Number Systems](../../AAAI2026/others/private_frequency_estimation_via_residue_number_systems.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.03210](https://arxiv.org/abs/2512.03210)  
-**代码**: https://waabi.ai/flux4d  
+**代码**: [https://waabi.ai/flux4d](https://waabi.ai/flux4d)  
 **领域**: 3D视觉 / 自动驾驶 / 4D重建  
 **关键词**: 4D重建, 无监督, 3D高斯, 场景流, 自动驾驶
 

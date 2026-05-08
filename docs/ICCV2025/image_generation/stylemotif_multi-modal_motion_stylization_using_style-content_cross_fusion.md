@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: 2503.21775  
-**代码**: https://stylemotif.github.io  
-**领域**: image_generation / 动作风格化  
+**代码**: [https://stylemotif.github.io](https://stylemotif.github.io)  
+**领域**: 图像生成  
 **关键词**: 动作风格化, 多模态, 扩散模型, 风格-内容融合, 运动生成
 
 ## 一句话总结

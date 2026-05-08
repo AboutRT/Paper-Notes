@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - AI生成文本
   - 社交媒体监测
-  - 文本检测
+  - AIGC检测
   - 纵向分析
   - 平台差异
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.18148](https://arxiv.org/abs/2412.18148)  
 **代码**: [https://github.com/TrustAIRLab/AIGT_on_Social_Media](https://github.com/TrustAIRLab/AIGT_on_Social_Media)  
-**领域**: 文本生成  
+**领域**: AIGC检测  
 **关键词**: AI生成文本, 社交媒体监测, 文本检测, 纵向分析, 平台差异  
 
 ## 一句话总结
@@ -122,7 +122,7 @@ tags:
 - [\[ACL 2025\] MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts](multisocial_mgt_detection.md)
 - [\[ACL 2025\] An Empirical Study on Detecting AI-Generated Text in Financial Reports](an_empirical_study_on_detecting_ai-generated_text_in_financial_reports.md)
 - [\[ACL 2025\] Who Writes What: Unveiling the Impact of Author Roles on AI-generated Text Detection](who_writes_what_ai_detection.md)
-- [\[ACL 2025\] HACo-Det: A Study Towards Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring](haco-det_a_study_towards_fine-grained_machine-generated_text_detection_under_hum.md)
 - [\[ACL 2025\] Cognitive Framework for Detecting AI-Generated Fiction](cognitive_framework_for_detecting_ai-generated_fiction.md)
+- [\[ACL 2025\] People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](chatgpt_user_ai_text_detection.md)
 
 <!-- RELATED:END -->

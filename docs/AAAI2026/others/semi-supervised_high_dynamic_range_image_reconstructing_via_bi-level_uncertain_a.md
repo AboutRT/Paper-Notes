@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.12939](https://arxiv.org/abs/2511.12939)  
-**代码**: https://github.com/JW20211/SmartHDR  
+**代码**: [https://github.com/JW20211/SmartHDR](https://github.com/JW20211/SmartHDR)  
 **领域**: 计算摄影 / 半监督学习  
 **关键词**: HDR重建, 半监督学习, 不确定性估计, 伪标签, 双层掩码
 

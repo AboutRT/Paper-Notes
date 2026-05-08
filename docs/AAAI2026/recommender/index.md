@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 推荐系统方向23篇论文解读
+  AAAI2026 推荐系统方向26篇论文解读
 description: >-
-  23篇AAAI2026的推荐系统方向论文解读，涵盖推荐系统、LLM、对齐/RLHF、个性化生成、多模态、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  26篇AAAI2026的推荐系统方向论文解读，涵盖推荐系统、LLM、对齐/RLHF、个性化生成、多模态、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🤖 AAAI2026** · **23** 篇论文解读
+**🤖 AAAI2026** · **26** 篇论文解读
 
 **[Align³GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation](align3gr_unified_multi-level_alignment_for_llm-based_generat.md)**
 
@@ -17,6 +17,10 @@ description: >-
 **[AutoPP: Towards Automated Product Poster Generation and Optimization](autopp_towards_automated_product_poster_generation_and_optimization.md)**
 
 :   提出 AutoPP，首个将商品海报自动生成与基于 CTR 反馈的自动优化统一到一个框架中的流水线，通过 unified design module 联合设计背景/文字/排版，element rendering module 高效可控地生成海报，并利用 Isolated DPO (IDPO) 实现元素级别的点击率优化。
+
+**[Behavior Tokens Speak Louder: Disentangled Explainable Recommendation with Behavior Vocabulary](behavior_tokens_speak_louder_disentangled_explainable_recommendation_with_behavi.md)**
+
+:   提出 BEAT 框架，通过向量量化自编码将用户/物品的行为表征离散化为可解释的 behavior tokens，结合多层级语义监督将协同过滤信号对齐到冻结 LLM 的语义空间，实现零样本可解释推荐。
 
 **[Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](bid_farewell_to_seesaw_towards_accurate_long-tail_session-based_recommendation_v.md)**
 
@@ -33,6 +37,10 @@ description: >-
 **[FreqRec: Exploiting Inter-Session Information with Frequency-enhanced Dual-Path Networks for Sequential Recommendation](exploiting_inter-session_information_with_frequency-enhanced_dual-path_networks_.md)**
 
 :   提出FreqRec双路径架构，通过batch维和时间维两条频域路径分别捕获跨session群体节律和用户个体细粒度兴趣，并引入频域一致性损失显式对齐预测与真实频谱，在三个Amazon数据集上NDCG@10最高提升7.38%。
+
+**[From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization](from_ids_to_semantics_a_generative_framework_for_cross-domain_recommendation_wit.md)**
+
+:   提出 GenCDR 框架，通过领域自适应语义分词和跨域自回归推荐两大模块，首次将生成式语义 ID 范式引入 LLM 驱动的跨域推荐，有效解决传统方法中 item ID 不可迁移和领域个性化建模不足的问题。
 
 **[From Parameter to Representation: A Closed-Form Approach for Controllable Model Merging](from_parameter_to_representation_a_closed-form_approach_for_controllable_model_m.md)**
 
@@ -89,6 +97,10 @@ description: >-
 **[Tokenize Once, Recommend Anywhere: Unified Item Tokenization for Multi-domain LLM-based Recommendation](tokenize_once_recommend_anywhere_unified_item_tokenization_for_multi-domain_llm-.md)**
 
 :   提出 UniTok，一个统一的商品 tokenization 框架，通过定制的 Mixture-of-Experts（TokenMoE）架构结合共享码本，实现跨多个领域的高效商品离散化表示，避免为每个领域单独训练 tokenizer，同时通过互信息校准机制保持跨域语义平衡。
+
+**[Tool4POI: A Tool-Augmented LLM Framework for Next POI Recommendation](tool4poi_a_tool-augmented_llm_framework_for_next_poi_recommendation.md)**
+
+:   本文首次将工具增强 LLM 范式引入下一个 POI 推荐任务，通过偏好提取、多轮候选检索和重排序三个模块，使 LLM 能从全量 POI 池中检索推荐，在 Out-of-History (OOH) 场景下实现 40% 准确率（现有方法为 0%），Acc@5/10 平均提升 20%/30%。
 
 **[TraveLLaMA: A Multimodal Travel Assistant with Large-Scale Dataset and Structured Reasoning](travellama_a_multimodal_travel_assistant_with_large-scale_dataset_and_structured.md)**
 

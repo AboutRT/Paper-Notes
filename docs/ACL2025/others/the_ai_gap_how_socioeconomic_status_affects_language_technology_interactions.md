@@ -8,7 +8,7 @@ tags:
   - 社会经济地位
   - 语言技术
   - 数字鸿沟
-  - LLM交互
+  - 其他
   - 用户调查
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.12158](https://arxiv.org/abs/2505.12158)  
-**代码**: https://huggingface.co/datasets/MilaNLProc/survey-language-technologies  
-**领域**: NLP理解 / AI公平性  
+**代码**: [https://huggingface.co/datasets/MilaNLProc/survey-language-technologies](https://huggingface.co/datasets/MilaNLProc/survey-language-technologies)  
+**领域**: 其他  
 **关键词**: 社会经济地位, 语言技术, 数字鸿沟, LLM交互, 用户调查
 
 ## 一句话总结

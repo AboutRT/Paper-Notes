@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2407.21077](https://arxiv.org/abs/2407.21077)  
-**代码**: https://huggingface.co/datasets/nvidia/OpenCodeGeneticInstruct  
+**代码**: [https://huggingface.co/datasets/nvidia/OpenCodeGeneticInstruct](https://huggingface.co/datasets/nvidia/OpenCodeGeneticInstruct)  
 **领域**: LLM/NLP  
 **关键词**: 合成数据, 代码生成, evolutionary algorithm, 指令微调, 可扩展性
 

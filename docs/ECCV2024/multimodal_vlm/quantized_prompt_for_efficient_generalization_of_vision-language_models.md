@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 量化
+  - 多模态VLM
   - 提示学习
   - 泛化
   - 视觉语言模型
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.10704](https://arxiv.org/abs/2407.10704)  
-**代码**: [GitHub](https://github.com) (有)  
+**代码**: [GitHub](https://github.com)  
 **领域**: 多模态VLM  
 **关键词**: 量化, prompt tuning, 泛化, 视觉语言模型, 参数高效微调
 
@@ -135,10 +135,10 @@ QPrompt方法基于对prompt权重分布特征的深入分析，采用K-Means聚
 
 ## 相关论文
 
+- [\[ECCV 2024\] Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models](omniview-tuning_boosting_viewpoint_invariance_of_vision-language_pre-training_mo.md)
+- [\[ECCV 2024\] Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models](select_and_distill_selective_dual-teacher_knowledge_transfer_for_continual_learn.md)
+- [\[ECCV 2024\] Robust Calibration of Large Vision-Language Adapters](robust_calibration_of_large_visionlanguage_adapters.md)
 - [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](brave_broadening_the_visual_encoding_of_visionlanguage_model.md)
 - [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](attention_prompting_on_image_for_large_visionlanguage_models.md)
-- [\[ECCV 2024\] SpLIP: Elevating All Zero-Shot Sketch-Based Image Retrieval Through Multimodal Prompt Learning](elevating_all_zeroshot_sketchbased_image_retrieval_through_m.md)
-- [\[ECCV 2024\] FlexAttention for Efficient High-Resolution Vision-Language Models](flexattention_for_efficient_highresolution_visionlanguage_mo.md)
-- [\[ACL 2025\] A Parameter-Efficient and Fine-Grained Prompt Learning for Vision-Language Models](../../ACL2025/multimodal_vlm/a_parameter-efficient_and_fine-grained_prompt_learning_for_vision-language_model.md)
 
 <!-- RELATED:END -->

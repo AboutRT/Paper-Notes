@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 多模态基准
   - MMMU
-  - 视觉推理
+  - 多模态VLM
   - VLM评估
   - CoT推理
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2409.02813](https://arxiv.org/abs/2409.02813)  
-**代码**: [排行榜](https://mmmu-benchmark.github.io/#leaderboard) (有)  
+**代码**: [排行榜](https://mmmu-benchmark.github.io/#leaderboard)  
 **领域**: 多模态 / VLM评估  
 **关键词**: 多模态基准, MMMU, 视觉推理, VLM评估, CoT推理
 
@@ -129,9 +129,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating](longdocurl_multimodal_long_doc.md)
-- [\[ACL 2025\] Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder](exploring_how_generative_mllms_perceive_more.md)
-- [\[ACL 2025\] CoSyn: Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](cosyn_code_guided_synthetic_data.md)
 - [\[ACL 2025\] CrafText Benchmark: Advancing Instruction Following in Complex Multimodal Open-Ended World](craftext_benchmark_advancing_instruction_following_in_complex_multimodal_open-en.md)
-- [\[ACL 2025\] Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning](benchmarking_and_improving_large_vision-language_models_for_fundamental_visual_g.md)
+- [\[ACL 2025\] MMINA: Benchmarking Multihop Multimodal Internet Agents](mmina_benchmarking_multihop_multimodal_internet_agents.md)
+- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relationships?](cordial-multimodal-llm-coherence-relationships.md)
+- [\[ACL 2025\] AGRI-CM3: A Chinese Massive Multi-Modal Multi-Level Benchmark for Agricultural Understanding](agri-cm3_a_chinese_massive_multi-modal_multi-level_benchmark_for_agricultural_un.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.04577](https://arxiv.org/abs/2502.04577)  
 **代码**: [https://github.com/technion-cs-nlp/PEAP](https://github.com/technion-cs-nlp/PEAP)  
-**领域**: 其他  
+**领域**: 可解释性  
 **关键词**: 电路发现, 位置感知, 机械可解释性, 归因修补, Schema
 
 ## 一句话总结

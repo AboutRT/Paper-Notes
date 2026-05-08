@@ -9,15 +9,15 @@ tags:
   - 多视角一致性
   - 条件注入
   - 数据增强
-  - 统一多模态
+  - 其他
 ---
 
 # Auto-Regressively Generating Multi-View Consistent Images (MV-AR)
 
 **会议**: ICCV 2025  
 **arXiv**: [2506.18527](https://arxiv.org/abs/2506.18527)  
-**代码**: [https://github.com/MILab-PKU/MVAR](https://github.com/MILab-PKU/MVAR) (有)  
-**领域**: 3D视觉 / 多视角图像生成  
+**代码**: [https://github.com/MILab-PKU/MVAR](https://github.com/MILab-PKU/MVAR)  
+**领域**: 其他  
 **关键词**: 自回归生成, 多视角一致性, 条件注入, 数据增强, 统一多模态  
 
 ## 一句话总结
@@ -149,10 +149,10 @@ $$\mathcal{L}_{ar} = -\frac{1}{T}\sum_{t=1}^{T}\log p(q_t|q_{<t})$$
 
 ## 相关论文
 
+- [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
 - [\[ICCV 2025\] Φ-GAN: Physics-Inspired GAN for Generating SAR Images Under Limited Data](ph-gan_physics-inspired_gan_for_generating_sar_images_under_limited_data.md)
+- [\[ICCV 2025\] Multi-view Gaze Target Estimation](multi-view_gaze_target_estimation.md)
 - [\[ICCV 2025\] Recover Biological Structure from Sparse-View Diffraction Images with Neural Volumetric Prior](recover_biological_structure_from_sparse-view_diffraction_images_with_neural_vol.md)
-- [\[ICCV 2025\] Thermal Polarimetric Multi-view Stereo](thermal_polarimetric_multi-view_stereo.md)
-- [\[CVPR 2025\] CADCrafter: Generating Computer-Aided Design Models from Unconstrained Images](../../CVPR2025/others/cadcrafter_generating_computer-aided_design_models_from_unconstrained_images.md)
-- [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](../../ECCV2024/others/hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
+- [\[ICCV 2025\] Switch-a-View: View Selection Learned from Unlabeled In-the-wild Videos](switch-a-view_view_selection_learned_from_unlabeled_in-the-wild_videos.md)
 
 <!-- RELATED:END -->

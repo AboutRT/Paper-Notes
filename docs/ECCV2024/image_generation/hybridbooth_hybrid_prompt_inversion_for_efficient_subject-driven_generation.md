@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2410.08192](https://arxiv.org/abs/2410.08192)  
-**代码**: [项目主页](https://sites.google.com/view/hybridbooth) (有)  
+**代码**: [项目主页](https://sites.google.com/view/hybridbooth)  
 **领域**: 图像生成  
 **关键词**: 主体驱动生成, Prompt Inversion, 文本嵌入, 扩散模型, 个性化生成
 
@@ -194,7 +194,7 @@ $$\mathcal{L}_{\boldsymbol{M}} = \frac{1}{n}\sum_{i=1}^{n}\text{mean}(\boldsymbo
 - [\[ECCV 2024\] Prompting Future Driven Diffusion Model for Hand Motion Prediction](prompting_future_driven_diffusion_model_for_hand_motion_prediction.md)
 - [\[ECCV 2024\] Source Prompt Disentangled Inversion for Boosting Image Editability with Diffusion Models](source_prompt_disentangled_inversion_for_boosting_image_editability_with_diffusi.md)
 - [\[ECCV 2024\] Soft Prompt Generation for Domain Generalization](soft_prompt_generation_for_domain_generalization.md)
-- [\[ECCV 2024\] Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers](difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md)
+- [\[ECCV 2024\] Lego: Learning to Disentangle and Invert Personalized Concepts Beyond Object Appearance in Text-to-Image Diffusion Models](lego_learning_to_disentangle_and_invert_personalized_concepts_beyond_object_appe.md)
 - [\[ECCV 2024\] ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](scaledreamer_scalable_textto3d_synthesis_with_asynchronous_s.md)
 
 <!-- RELATED:END -->

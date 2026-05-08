@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Risk Management for Mitigating Benchmark Failure Modes: BenchRisk
 description: >-
-  [NeurIPS 2025][LLM 基准] 本文基于NIST风险管理流程，系统性地分析了26个主流LLM基准测试，识别出57种潜在失败模式和196种缓解策略，提出BenchRisk元评估框架用于量化基准测试的可靠性风险。
+  [NeurIPS 2025][LLM评测] 本文基于NIST风险管理流程，系统性地分析了26个主流LLM基准测试，识别出57种潜在失败模式和196种缓解策略，提出BenchRisk元评估框架用于量化基准测试的可靠性风险。
 tags:
   - NeurIPS 2025
-  - LLM 基准
+  - LLM评测
   - 风险管理
   - 元评估
   - 失败模式
@@ -259,9 +259,9 @@ BenchRisk采用半自动化的打分流程：
 ## 相关论文
 
 - [\[AAAI 2026\] BCWildfire: A Long-term Multi-factor Dataset and Deep Learning Benchmark for Boreal Wildfire Risk Prediction](../../AAAI2026/llm_evaluation/bcwildfire_a_long-term_multi-factor_dataset_and_deep_learning_benchmark_for_bore.md)
-- [\[ACL 2025\] A Conformal Risk Control Framework for Granular Word Assessment and Uncertainty Calibration of CLIPScore Quality Estimates](../../ACL2025/llm_evaluation/a_conformal_risk_control_framework_for_granular_word_assessment_and_uncertainty_.md)
 - [\[ICLR 2026\] Mitigating Spurious Correlation via Distributionally Robust Learning with Hierarchical Ambiguity Sets](../../ICLR2026/llm_evaluation/mitigating_spurious_correlation_via_distributionally_robust_learning_with_hierar.md)
 - [\[ACL 2026\] Self-Awareness before Action: Mitigating Logical Inertia via Proactive Cognitive Awareness](../../ACL2026/llm_evaluation/self-awareness_before_action_mitigating_logical_inertia_via_proactive_cognitive_.md)
-- [\[NeurIPS 2025\] A Standardized Benchmark for Multilabel Antimicrobial Peptide Classification](a_standardized_benchmark_for_multilabel_antimicrobial_peptide_classification.md)
+- [\[NeurIPS 2025\] PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation](parrot_a_benchmark_for_evaluating_llms_in_cross-system_sql_translation.md)
+- [\[NeurIPS 2025\] RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases](rdb2g-bench_a_comprehensive_benchmark_for_automatic_graph_modeling_of_relational.md)
 
 <!-- RELATED:END -->

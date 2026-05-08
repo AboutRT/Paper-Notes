@@ -2,10 +2,10 @@
 title: >-
   [论文解读] BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation
 description: >-
-  [ECCV 2024][多模态] 在多模态对话响应生成（MDRG）中，通过视觉交叉注意力层+注意力掩码调制桥接图像历史到文本回复，通过Citation Module标注跨轮重复物体并结合定制化T2I模型生成一致的图像回复。
+  [ECCV 2024][对话系统] 在多模态对话响应生成（MDRG）中，通过视觉交叉注意力层+注意力掩码调制桥接图像历史到文本回复，通过Citation Module标注跨轮重复物体并结合定制化T2I模型生成一致的图像回复。
 tags:
   - ECCV 2024
-  - 多模态
+  - 对话系统
   - image grounding
   - image consistency
   - citation module
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2408.05926](https://arxiv.org/abs/2408.05926)  
 **代码**: [GitHub](https://github.com/hee-suk-yoon/BI-MDRG)  
-**领域**: 多模态对话生成  
+**领域**: 对话系统  
 **关键词**: multimodal dialogue, image grounding, image consistency, citation module, customized text-to-image
 
 ## 一句话总结
@@ -138,10 +138,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2026\] Discourse Coherence and Response-Guided Context Rewriting for Multi-Party Dialogue Generation](../../ACL2026/dialogue/discourse_coherence_and_response-guided_context_rewriting_for_multi-party_dialog.md)
+- [\[ECCV 2024\] A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis](a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)
 - [\[ICLR 2026\] AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions](../../ICLR2026/dialogue/aqua_toward_strategic_response_generation_for_ambiguous_visual_questions.md)
 - [\[ACL 2025\] UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations](../../ACL2025/dialogue/uniconv_retrieval_response_gen.md)
-- [\[NeurIPS 2025\] AC-LoRA: (Almost) Training-Free Access Control-Aware Multi-Modal LLMs](../../NeurIPS2025/dialogue/aclora_almost_trainingfree_access_controlaware_multimodal_ll.md)
 - [\[NeurIPS 2025\] Bridging Human and LLM Judgments: Understanding and Narrowing the Gap](../../NeurIPS2025/dialogue/bridging_human_and_llm_judgments_understanding_and_narrowing_the_gap.md)
+- [\[ACL 2026\] Author-in-the-Loop Response Generation and Evaluation: Integrating Author Expertise and Intent in Responses to Peer Review](../../ACL2026/dialogue/author-in-the-loop_response_generation_and_evaluation_integrating_author_experti.md)
 
 <!-- RELATED:END -->

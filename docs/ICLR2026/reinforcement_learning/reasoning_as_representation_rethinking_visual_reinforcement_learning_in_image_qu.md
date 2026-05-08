@@ -5,7 +5,7 @@ description: >-
   [ICLR 2026 (Oral)][图像质量评估] 通过系统实验揭示了 RL 训练的推理型 IQA 模型泛化能力的本质机制——推理过程本质上是将冗余的视觉表示转换为紧凑的跨域对齐文本表示——并基于此提出 RALI 算法，通过对比学习直接对齐图像与这些文本表示，以不到 5% 的参数和推理时间达到了可比的泛化性能。
 tags:
   - ICLR 2026 (Oral)
-  - 图像质量评估
+  - 强化学习
   - 强化学习
   - 推理即表示
   - 对比学习
@@ -159,8 +159,8 @@ tags:
 
 - [\[ICLR 2026\] PreferThinker: Reasoning-based Personalized Image Preference Assessment](preferthinker_reasoning-based_personalized_image_preference_assessment.md)
 - [\[ICLR 2026\] DiVE-k: Differential Visual Reasoning for Fine-grained Image Recognition](dive-k_differential_visual_reasoning_for_fine-grained_image_recognition.md)
-- [\[ICLR 2026\] Stackelberg Coupling of Online Representation Learning and Reinforcement Learning](stackelberg_coupling_of_online_representation_learning_and_reinforcement_learnin.md)
-- [\[CVPR 2026\] Reasoning-Driven Anomaly Detection and Localization with Image-Level Supervision](../../CVPR2026/reinforcement_learning/reasoning-driven_anomaly_detection_and_localization_with_image-level_supervision.md)
 - [\[ICLR 2026\] RewardMap: Tackling Sparse Rewards in Fine-grained Visual Reasoning via Multi-Stage Reinforcement Learning](rewardmap_tackling_sparse_rewards_in_fine-grained_visual_reasoning_via_multi-sta.md)
+- [\[ICLR 2026\] Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning](rethinking_policy_diversity_in_ensemble_policy_gradient_in_large-scale_reinforce.md)
+- [\[ICML 2025\] Sliding Puzzles Gym: A Scalable Benchmark for State Representation in Visual Reinforcement Learning](../../ICML2025/reinforcement_learning/sliding_puzzles_gym_a_scalable_benchmark_for_state_representation_in_visual_rein.md)
 
 <!-- RELATED:END -->

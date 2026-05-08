@@ -7,7 +7,7 @@ tags:
   - ICLR2026
   - 多模态
   - VLM safety
-  - jailbreak defense
+  - 多模态VLM
   - randomized smoothing
   - embedding perturbation
   - directional noise
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.15259](https://arxiv.org/abs/2603.15259)  
 **代码**: 未开源  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: VLM safety, jailbreak defense, randomized smoothing, embedding perturbation, directional noise
 
 ## 一句话总结
@@ -125,6 +125,6 @@ RESTA 的优势在于其实施简单性和不依赖额外模型，但相比其�
 - [\[ICLR 2026\] PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models](ppe_positional_preservation_embedding_for_token_compression_in_multimodal_large_.md)
 - [\[CVPR 2026\] MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models](../../CVPR2026/multimodal_vlm/masquant_modality-aware_smoothing_quantization_for_multimodal_large_language_mod.md)
 - [\[CVPR 2026\] DTR: Dynamic Token Reweighting for Robust Vision-Language Models](../../CVPR2026/multimodal_vlm/dynamic_token_reweighting_for_robust_visionlanguag.md)
-- [\[AAAI 2026\] Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models](../../AAAI2026/multimodal_vlm/difference_vector_equalization_for_robust_fine-tuning_of_vis.md)
+- [\[NeurIPS 2025\] HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models](../../NeurIPS2025/multimodal_vlm/hope_hybrid_of_position_embedding_for_long_context_visionlan.md)
 
 <!-- RELATED:END -->

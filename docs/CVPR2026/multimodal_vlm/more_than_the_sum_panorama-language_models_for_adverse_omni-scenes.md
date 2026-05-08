@@ -10,14 +10,14 @@ tags:
   - 360度视觉
   - VQA
   - 稀疏注意力
-  - 自动驾驶
+  - 多模态VLM
 ---
 
 # More than the Sum: Panorama-Language Models for Adverse Omni-Scenes
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.09573](https://arxiv.org/abs/2603.09573)  
-**代码**: https://github.com/InSAI-Lab/PanoVQA  
+**代码**: [https://github.com/InSAI-Lab/PanoVQA](https://github.com/InSAI-Lab/PanoVQA)  
 **领域**: 多模态VLM  
 **关键词**: 全景图理解, 360度视觉, VQA, 稀疏注意力, 自动驾驶
 

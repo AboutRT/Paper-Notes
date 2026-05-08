@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18337](https://arxiv.org/abs/2503.18337)  
-**代码**: https://github.com/ZichenMiao/Coeff_Tuning  
+**代码**: [https://github.com/ZichenMiao/Coeff_Tuning](https://github.com/ZichenMiao/Coeff_Tuning)  
 **领域**: 参数高效微调 / 图学习  
 **关键词**: PEFT, 图卷积滤波器, 注意力子空间, 子空间系数, 即插即用
 
@@ -145,7 +145,7 @@ tags:
 - [\[NeurIPS 2025\] S'MoRE: Structural Mixture of Residual Experts for Parameter-Efficient LLM Fine-tuning](../../NeurIPS2025/graph_learning/smore_structural_mixture_of_residual_experts_for_parameter-efficient_llm_fine-tu.md)
 - [\[AAAI 2026\] Magnitude-Modulated Equivariant Adapter for Parameter-Efficient Fine-Tuning of Equivariant Graph Neural Networks](../../AAAI2026/graph_learning/magnitude-modulated_equivariant_adapter_for_parameter-efficient_fine-tuning_of_e.md)
 - [\[ICML 2025\] Graph Attention is Not Always Beneficial: A Theoretical Analysis of Graph Attention Mechanisms via Contextual Stochastic Block Models](../../ICML2025/graph_learning/graph_attention_is_not_always_beneficial_a_theoretical_analysis_of_graph_attenti.md)
-- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](../../NeurIPS2025/graph_learning/table_as_a_modality_for_large_language_models.md)
 - [\[ACL 2026\] ARK: Answer-Centric Retriever Tuning via KG-augmented Curriculum Learning](../../ACL2026/graph_learning/ark_answer-centric_retriever_tuning_via_kg-augmented_curriculum_learning.md)
+- [\[ICML 2025\] Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models](../../ICML2025/graph_learning/graph-constrained_reasoning_faithful_reasoning_on_knowledge_graphs_with_large_la.md)
 
 <!-- RELATED:END -->

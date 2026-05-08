@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.06190](https://arxiv.org/abs/2407.06190)  
-**代码**: [https://github.com/Xiangxu-0103/SuperFlow](https://github.com/Xiangxu-0103/SuperFlow) (有)  
+**代码**: [https://github.com/Xiangxu-0103/SuperFlow](https://github.com/Xiangxu-0103/SuperFlow)  
 **领域**: 3D视觉 / 自监督预训练 / 自动驾驶  
 **关键词**: LiDAR语义分割, 3D表示学习, 对比学习, 时空一致性, 跨传感器蒸馏  
 
@@ -103,10 +103,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes](../../CVPR2025/autonomous_driving/limoe_mixture_of_lidar_representation_learners_from_automotive_scenes.md)
 - [\[ECCV 2024\] TOD³Cap: Towards 3D Dense Captioning in Outdoor Scenes](tod3cap_towards_3d_dense_captioning_in_outdoor_scenes.md)
+- [\[CVPR 2025\] LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes](../../CVPR2025/autonomous_driving/limoe_mixture_of_lidar_representation_learners_from_automotive_scenes.md)
 - [\[ECCV 2024\] UniM2AE: Multi-modal Masked Autoencoders with Unified 3D Representation for 3D Perception in Autonomous Driving](unim2ae_multi-modal_masked_autoencoders_with_unified_3d_representation_for_3d_pe.md)
+- [\[ECCV 2024\] T-MAE: Temporal Masked Autoencoders for Point Cloud Representation Learning](t-mae_temporal_masked_autoencoders_for_point_cloud_representation_learning.md)
 - [\[ECCV 2024\] ItTakesTwo: Leveraging Peer Representations for Semi-supervised LiDAR Semantic Segmentation](ittakestwo_leveraging_peer_representations_for_semi-supervised_lidar_semantic_se.md)
-- [\[ECCV 2024\] RAPiD-Seg: Range-Aware Pointwise Distance Distribution Networks for 3D LiDAR Segmentation](rapid-seg_range-aware_pointwise_distance_distribution_networks_for_3d_lidar_segm.md)
 
 <!-- RELATED:END -->

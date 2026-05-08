@@ -8,7 +8,7 @@ tags:
   - 篇章关系分类
   - 多语言泛化
   - 统一标签集
-  - LLM探针
+  - 多语言翻译
   - 注意力表征
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2503.10515](https://arxiv.org/abs/2503.10515)  
 **代码**: [mainlp/discourse_probes](https://github.com/mainlp/discourse_probes)  
-**领域**: llm_nlp  
+**领域**: 多语言翻译  
 **关键词**: 篇章关系分类, 多语言泛化, 统一标签集, LLM探针, 注意力表征
 
 ## 一句话总结

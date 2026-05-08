@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 数据集分解
   - 课程学习
-  - 数学推理
+  - 代码智能
   - 子问题生成
   - 技能图谱
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2602.20296](https://arxiv.org/abs/2602.20296)  
 **代码**: 无  
-**领域**: LLM推理 / 数学推理  
+**领域**: 代码智能  
 **关键词**: 数据集分解, 课程学习, 数学推理, 子问题生成, 技能图谱  
 
 ## 一句话总结
@@ -131,6 +131,6 @@ tags:
 - [\[NeurIPS 2025\] QiMeng-SALV: Signal-Aware Learning for Verilog Code Generation](qimeng-salv_signal-aware_learning_for_verilog_code_generation.md)
 - [\[NeurIPS 2025\] Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](co-evolving_llm_coder_and_unit_tester_via_reinforcement_learning.md)
 - [\[NeurIPS 2025\] MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research](mlr-bench_evaluating_ai_agents_on_open-ended_machine_learning_research.md)
-- [\[ICML 2025\] Robust Learning of Diverse Code Edits (NextCoder)](../../ICML2025/code_intelligence/robust_learning_of_diverse_code_edits.md)
+- [\[NeurIPS 2025\] Learning From Design Procedure To Generate CAD Programs for Data Augmentation](learning_from_design_procedure_to_generate_cad_programs_for_data_augmentation.md)
 
 <!-- RELATED:END -->

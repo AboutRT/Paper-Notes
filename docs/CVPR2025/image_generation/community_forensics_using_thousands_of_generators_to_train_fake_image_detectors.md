@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.04125](https://arxiv.org/abs/2411.04125)  
-**代码**: https://jespark.net/projects/2024/community_forensics (数据集)  
-**领域**: AI安全 / 扩散模型  
+**代码**: [https://jespark.net/projects/2024/community_forensics](https://jespark.net/projects/2024/community_forensics) (数据集)  
+**领域**: 图像生成  
 **关键词**: AI生成图像检测, 数据多样性, 社区模型, 泛化检测, 大规模数据集
 
 ## 一句话总结
@@ -122,10 +122,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Flatten Graphs as Sequences: Transformers are Scalable Graph Generators](../../NeurIPS2025/image_generation/flatten_graphs_as_sequences_transformers_are_scalable_graph_generators.md)
 - [\[ICML 2025\] Visual Language Models as Zero-Shot Deepfake Detectors](../../ICML2025/image_generation/visual_language_models_as_zero-shot_deepfake_detectors.md)
+- [\[NeurIPS 2025\] Flatten Graphs as Sequences: Transformers are Scalable Graph Generators](../../NeurIPS2025/image_generation/flatten_graphs_as_sequences_transformers_are_scalable_graph_generators.md)
+- [\[ECCV 2024\] DreamDrone: Text-to-Image Diffusion Models Are Zero-Shot Perpetual View Generators](../../ECCV2024/image_generation/dreamdrone_texttoimage_diffusion_models_are_zeroshot_perpetu.md)
 - [\[CVPR 2026\] SimLBR: Learning to Detect Fake Images by Learning to Detect Real Images](../../CVPR2026/image_generation/simlbr_learning_to_detect_fake_images_by_learning_to_detect_real_images.md)
 - [\[ACL 2026\] MASH: Evading Black-Box AI-Generated Text Detectors via Style Humanization](../../ACL2026/image_generation/mash_evading_black-box_ai-generated_text_detectors_via_style_humanization.md)
-- [\[CVPR 2025\] TurboFill: Adapting Few-Step Text-to-Image Model for Fast Image Inpainting](turbofill_adapting_few-step_text-to-image_model_for_fast_image_inpainting.md)
 
 <!-- RELATED:END -->

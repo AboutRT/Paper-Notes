@@ -50,33 +50,33 @@ tags:
 
 1. **适当分词避免误差累积**：借鉴PatchTST的patch策略，将patch size设为预测长度$L_P$，使得自回归的"下一个token预测"恰好覆盖整个预测区间。这样一步预测就完成了全部预测，无需迭代。同时采用通道独立方式（channel-independent），每个序列独立预测并施加RevIN归一化。核心公式：
 
-   $$N = \frac{L_I + P}{L_P}$$
+    $N = \frac{L_I + P}{L_P}$
 
    其中$P$为零填充以保证整除。设计动机：消除decoder-only架构的误差累积问题，使其性能可与encoder-only模型对标。
 
 2. **ARMA注意力结构（WAVE Attention）**：将标准注意力输出分解为AR项和MA项。AR项由原有注意力机制计算，MA项建模预测残差的短期模式：
 
-   $$\bm{v}_{t+1} = \underbrace{\sum_{i=1}^{t} \mathbf{w}_{t,i} \odot \bm{v}_i}_{\text{AR项 } \bm{o}_t^{AR}} + \underbrace{\sum_{j=1}^{t-1} \bm{\theta}_{t-1,j} \odot \bm{\epsilon}_j}_{\text{MA项 } \bm{o}_t^{MA}} + \bm{\epsilon}_t$$
+    $\bm{v}_{t+1} = \underbrace{\sum_{i=1}^{t} \mathbf{w}_{t,i} \odot \bm{v}_i}_{\text{AR项 } \bm{o}_t^{AR}} + \underbrace{\sum_{j=1}^{t-1} \bm{\theta}_{t-1,j} \odot \bm{\epsilon}_j}_{\text{MA项 } \bm{o}_t^{MA}} + \bm{\epsilon}_t$
 
    其中$\bm{\epsilon}_t$为引入MA项后的剩余误差，$\bm{\theta}_{t-1,j}$为MA权重。这一结构来源于经典ARMA模型——AR项捕捉长期依赖和周期性模式，MA项捕捉短期波动和局部效应，实现对二者的有效解耦。
 
 3. **间接MA权重生成方法**：直接计算MA权重需要对$N \times N$矩阵求逆（$\bm{\epsilon} = (\mathbf{I} + \mathbf{\Theta})^{-1} \mathbf{r}$），复杂度回到$O(N^2)$。本文的核心创新是用AR残差$\bm{r}_j = \bm{v}_{j+1} - \bm{o}_j^{AR}$替代$\bm{\epsilon}_j$作为MA的值输入：
 
-   $$\bm{o}_t^{MA} = \sum_{j=1}^{t-1} \bm{\beta}_{t-1,j} \odot \bm{r}_j$$
+    $\bm{o}_t^{MA} = \sum_{j=1}^{t-1} \bm{\beta}_{t-1,j} \odot \bm{r}_j$
 
    其中$\bm{\beta}_{t-1,j} = \phi_q^{MA}(\bm{q}_{t-1}^{MA}) \phi_k^{MA}(\bm{k}_j^{MA})^\top$通过线性注意力形式高效计算。间接生成的权重$\mathbf{B}$与隐式MA权重$\mathbf{\Theta}$的关系为：
 
-   $$\mathbf{B} = \mathbf{\Theta} \cdot (\mathbf{I} + \mathbf{\Theta})^{-1}, \quad \mathbf{\Theta} = \mathbf{B} \cdot (\mathbf{I} - \mathbf{B})^{-1}$$
+    $\mathbf{B} = \mathbf{\Theta} \cdot (\mathbf{I} + \mathbf{\Theta})^{-1}, \quad \mathbf{\Theta} = \mathbf{B} \cdot (\mathbf{I} - \mathbf{B})^{-1}$
 
    设计动机：保持线性注意力的$O(N)$复杂度，同时产生有效的MA权重。
 
 4. **激活函数选择确保MA权重特性**：MA项应建模短期效应，因此隐式$\mathbf{\Theta}$需呈现**近对角线元素大、远离对角线元素衰减**的模式。将$\mathbf{\Theta}$展开为$\mathbf{B} + \mathbf{B}^2 + \mathbf{B}^3 + \cdots$，若$\beta$的均值为$b$，则：
 
-   $$\theta_{ij} = b(1+b)^{i-j-1}, \quad i > j$$
+    $\theta_{ij} = b(1+b)^{i-j-1}, \quad i > j$
 
    为保证衰减，需$b \in (-1, 0)$。最终选择：
-   - Key激活：$\phi_k^{MA}(\bm{k}_j^{MA}) = \sigma(\alpha \bm{k}_j^{MA} / \sqrt{d})$（sigmoid，$\alpha=0.05$）
-   - Query激活：$\phi_q^{MA}(\bm{q}_t^{MA}) = -\text{LeakyReLU}(-\bm{q}_t^{MA} / \sqrt{d})$（负斜率0.02）
+    - Key激活：$\phi_k^{MA}(\bm{k}_j^{MA}) = \sigma(\alpha \bm{k}_j^{MA} / \sqrt{d})$（sigmoid，$\alpha=0.05$）
+    - Query激活：$\phi_q^{MA}(\bm{q}_t^{MA}) = -\text{LeakyReLU}(-\bm{q}_t^{MA} / \sqrt{d})$（负斜率0.02）
 
    设计动机：LeakyReLU提供灵活性——大部分输出为负值保证MA的负向平滑效应，少量正值增加建模灵活性。
 

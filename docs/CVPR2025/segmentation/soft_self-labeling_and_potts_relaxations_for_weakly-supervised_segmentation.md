@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2507.01721](https://arxiv.org/abs/2507.01721)  
-**代码**: https://vision.cs.uwaterloo.ca/code  
+**代码**: [https://vision.cs.uwaterloo.ca/code](https://vision.cs.uwaterloo.ca/code)  
 **领域**: 图像分割 / 弱监督学习  
 **关键词**: 弱监督语义分割, 软伪标签, Potts 松弛, 碰撞交叉熵, 涂鸦监督
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2506.10054](https://arxiv.org/abs/2506.10054)  
-**代码**: https://github.com/pspdada/Uni-DPO  
+**代码**: [https://github.com/pspdada/Uni-DPO](https://github.com/pspdada/Uni-DPO)  
 **领域**: 对齐RLHF / DPO  
 **关键词**: DPO改进, 动态权重, 质量感知, focal loss, 偏好优化
 

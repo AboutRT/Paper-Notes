@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 搜索相关性
   - 自进化模型
-  - 多智能体标注
+  - 多语言翻译
   - 查询流适应
   - 分布偏移
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.09515](https://arxiv.org/abs/2601.09515)  
 **代码**: 无  
-**领域**: 信息检索 / LLM Agent  
+**领域**: 多语言翻译  
 **关键词**: 搜索相关性, 自进化模型, 多智能体标注, 查询流适应, 分布偏移
 
 ## 一句话总结
@@ -127,8 +127,8 @@ SERM 建立在 LLM 生成式相关性模型之上（输入 query+doc，生成相
 
 - [\[NeurIPS 2025\] MERIT: Multilingual Semantic Retrieval with Interleaved Multi-Condition Query](../../NeurIPS2025/multilingual_mt/merit_multilingual_semantic_retrieval_with_interleaved_multi-condition_query.md)
 - [\[ACL 2025\] An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)](../../ACL2025/multilingual_mt/an_expanded_massive_multilingual_dataset_for_high-performance_language_technolog.md)
-- [\[ACL 2025\] M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation](../../ACL2025/multilingual_mt/m-mad_multidimensional_multi-agent_debate_for_advanced_machine_translation_evalu.md)
+- [\[ICCV 2025\] SignRep: Enhancing Self-Supervised Sign Representations](../../ICCV2025/multilingual_mt/signrep_enhancing_self-supervised_sign_representations.md)
 - [\[NeurIPS 2025\] ParallelPrompt: Extracting Parallelism from Large Language Model Queries](../../NeurIPS2025/multilingual_mt/parallelprompt_extracting_parallelism_from_large_language_model_queries.md)
-- [\[NeurIPS 2025\] Enhancing Multilingual LLM Pretraining with Model-Based Data Selection](../../NeurIPS2025/multilingual_mt/enhancing_multilingual_llm_pretraining_with_model-based_data_selection.md)
+- [\[ACL 2025\] Group then Scale: Dynamic Mixture-of-Experts Multilingual Language Model](../../ACL2025/multilingual_mt/group_then_scale_dynamic_mixture-of-experts_multilingual_language_model.md)
 
 <!-- RELATED:END -->

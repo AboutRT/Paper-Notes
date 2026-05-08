@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12468](https://arxiv.org/abs/2603.12468)  
 **代码**: [anonymous.4open.science/r/SFDA-DeP-1797](https://anonymous.4open.science/r/SFDA-DeP-1797/)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: Source-Free Domain Adaptation, Weakly Supervised Localization, Histopathology, machine unlearning, Prediction Bias
 
 ## 一句话总结

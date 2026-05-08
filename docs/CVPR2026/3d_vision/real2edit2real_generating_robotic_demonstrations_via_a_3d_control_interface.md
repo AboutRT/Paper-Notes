@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.19402](https://arxiv.org/abs/2512.19402)  
-**代码**: https://real2edit2real.github.io/ (有，项目主页)  
+**代码**: [https://real2edit2real.github.io/](https://real2edit2real.github.io/) (有，项目主页)  
 **领域**: 3D视觉 / 机器人学习 / 数据增强  
 **关键词**: 机器人演示生成, 3D编辑, 视频生成, 数据增强, 空间泛化
 
@@ -142,8 +142,8 @@ Real2Edit2Real 包含三个阶段：
 
 ## 相关论文
 
-- [\[CVPR 2026\] HyperMVP: Hyperbolic Multiview Pretraining for Robotic Manipulation](hyperbolic_multiview_pretraining_for_robotic_manipulation.md)
 - [\[CVPR 2026\] ArtLLM: Generating Articulated Assets via 3D LLM](artllm_generating_articulated_assets_via_3d_llm.md)
+- [\[CVPR 2026\] HyperMVP: Hyperbolic Multiview Pretraining for Robotic Manipulation](hyperbolic_multiview_pretraining_for_robotic_manipulation.md)
 - [\[CVPR 2026\] Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](ada3drift_adaptive_training-time_drifting_for_one-step_3d_visuomotor_robotic_man.md)
 - [\[CVPR 2026\] FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning](facecam_portrait_video_camera_control_via_scale-aware_conditioning.md)
 - [\[CVPR 2026\] SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation](seethrough3d_occlusion_aware_3d_control_in_text-to-image_generation.md)

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.01126](https://arxiv.org/abs/2511.01126)  
 **代码**: 无  
-**领域**: 在线优化 / 双层优化  
+**领域**: AI安全  
 **关键词**: 双层优化, 在线学习, 零阶优化, 随机遗憾, 超梯度估计
 
 ## 一句话总结
@@ -157,6 +157,6 @@ $$\text{Regret}_T = \sum_{t=1}^{T} \mathbb{E}[f_t(x_t, y^*(x_t))] - \min_{x \in 
 - [\[NeurIPS 2025\] Differentially Private Bilevel Optimization: Efficient Algorithms with Near-Optimal Rates](differentially_private_bilevel_optimization_efficient_algorithms_with_near-optim.md)
 - [\[NeurIPS 2025\] Fairness-Regularized Online Optimization with Switching Costs](fairness-regularized_online_optimization_with_switching_costs.md)
 - [\[NeurIPS 2025\] Fair Representation Learning with Controllable High Confidence Guarantees via Adversarial Inference](fair_representation_learning_with_controllable_high_confidence_guarantees_via_ad.md)
-- [\[NeurIPS 2025\] On the Sample Complexity of Differentially Private Policy Optimization](on_the_sample_complexity_of_differentially_private_policy_optimization.md)
+- [\[NeurIPS 2025\] Dual-Flow: Transferable Multi-Target, Instance-Agnostic Attacks via In-the-wild Cascading Flow Optimization](dual-flow_transferable_multi-target_instance-agnostic_attacks_via_in-the-wild_ca.md)
 
 <!-- RELATED:END -->

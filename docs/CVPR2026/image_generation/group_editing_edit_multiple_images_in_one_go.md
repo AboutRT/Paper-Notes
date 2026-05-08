@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.22883](https://arxiv.org/abs/2603.22883)  
-**代码**: https://group-editing.github.io/  
+**代码**: [https://group-editing.github.io/](https://group-editing.github.io/)  
 **领域**: 扩散模型 / 图像编辑  
 **关键词**: 多图一致编辑, 视频扩散先验, 几何对应, RoPE位置编码, 伪视频
 

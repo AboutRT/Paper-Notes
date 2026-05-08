@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 多模态
-  - 遥感
+  - 多模态VLM
   - VLM基准
   - 多层级评估
   - 多选题
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.18145](https://arxiv.org/abs/2411.18145)  
 **代码**: [GitHub](https://github.com/xiaoan-whu/CHOICE)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 遥感, VLM基准, 多层级评估, 多选题, 视觉推理
 
 ## 一句话总结
@@ -133,8 +133,8 @@ CHOICE 的能力分类体系采用三层结构：
 
 - [\[NeurIPS 2025\] MM-OPERA: Benchmarking Open-ended Association Reasoning for Large Vision-Language Models](mm-opera_benchmarking_open-ended_association_reasoning_for_large_vision-language.md)
 - [\[NeurIPS 2025\] MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly](mmlongbench_benchmarking_longcontext_visionlanguage_models_e.md)
+- [\[ICCV 2025\] IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves](../../ICCV2025/multimodal_vlm/ideator_jailbreaking_and_benchmarking_large_visionlanguage_m.md)
 - [\[ICML 2025\] Unlocking the Capabilities of Large Vision-Language Models for Generalizable and Explainable Deepfake Detection](../../ICML2025/multimodal_vlm/unlocking_the_capabilities_of_large_vision-language_models_for_generalizable_and.md)
 - [\[ICLR 2026\] CityLens: Evaluating Large Vision-Language Models for Urban Socioeconomic Sensing](../../ICLR2026/multimodal_vlm/citylens_evaluating_large_vision-language_models_for_urban_socioeconomic_sensing.md)
-- [\[ACL 2025\] Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning](../../ACL2025/multimodal_vlm/benchmarking_and_improving_large_vision-language_models_for_fundamental_visual_g.md)
 
 <!-- RELATED:END -->

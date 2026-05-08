@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.01543](https://arxiv.org/abs/2412.01543)  
 **代码**: 无公开代码  
-**领域**: 3D视觉 / 6D位姿估计  
+**领域**: 自动驾驶  
 **关键词**: 6D Object Pose Estimation, Gaussian Splatting, Online Tracking, Model-Free, RGB-D  
 
 ## 一句话总结

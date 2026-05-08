@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.11560](https://arxiv.org/abs/2511.11560)  
-**代码**: [https://github.com/arodio/SemiDec](https://github.com/arodio/SemiDec) (有)  
+**代码**: [https://github.com/arodio/SemiDec](https://github.com/arodio/SemiDec)  
 **领域**: 分布式优化 / 联邦学习  
 **关键词**: 半去中心化学习, Sampled-to-Sampled, Sampled-to-All, 收敛分析, 数据异质性  
 
@@ -114,6 +114,6 @@ tags:
 - [\[ICLR 2026\] A Convergence Analysis of Adaptive Optimizers under Floating-Point Quantization](../../ICLR2026/optimization/a_convergence_analysis_of_adaptive_optimizers_under_floating-point_quantization.md)
 - [\[AAAI 2026\] FedPM: Federated Learning Using Second-order Optimization with Preconditioned Mixing of Local Parameters](fedpm_federated_learning_using_second-order_optimization_with_preconditioned_mix.md)
 - [\[NeurIPS 2025\] Unveiling the Power of Multiple Gossip Steps: A Stability-Based Generalization Analysis in Decentralized Training](../../NeurIPS2025/optimization/unveiling_the_power_of_multiple_gossip_steps_a_stability-based_generalization_an.md)
-- [\[AAAI 2026\] Data Heterogeneity and Forgotten Labels in Split Federated Learning](data_heterogeneity_and_forgotten_labels_in_split_federated_learning.md)
+- [\[AAAI 2026\] Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning with Double-Weight Sparse Pack](tackling_resource-constrained_and_data-heterogeneity_in_federated_learning_with_.md)
 
 <!-- RELATED:END -->

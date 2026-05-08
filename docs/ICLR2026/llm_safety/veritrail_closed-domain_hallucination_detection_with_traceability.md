@@ -8,7 +8,7 @@ tags:
   - hallucination detection
   - faithfulness evaluation
   - traceability
-  - multi-step generation
+  - LLM安全
   - DAG
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.21786](https://arxiv.org/abs/2505.21786)  
-**代码**: 无（数据集将发布于 https://aka.ms/veritrail-datasets）  
-**领域**: LLM/NLP  
+**代码**: 无（数据集将发布于 [https://aka.ms/veritrail-datasets](https://aka.ms/veritrail-datasets)）  
+**领域**: LLM安全  
 **关键词**: hallucination detection, faithfulness evaluation, traceability, multi-step generation, DAG
 
 ## 一句话总结
@@ -139,8 +139,8 @@ VeriTrail 对最终输出提取的每个 claim 独立执行以下迭代过程，
 
 - [\[ICLR 2026\] Enhancing Hallucination Detection through Noise Injection](enhancing_hallucination_detection_through_noise_injection.md)
 - [\[ICLR 2026\] Understanding Sensitivity of Differential Attention through the Lens of Adversarial Robustness](understanding_sensitivity_of_differential_attention_through_the_lens_of_adversar.md)
-- [\[ICLR 2026\] Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers](perturbation-induced_linearization_constructing_unlearnable_data_with_solely_lin.md)
+- [\[ICLR 2026\] LH-Deception: Simulating and Understanding LLM Deceptive Behaviors in Long-Horizon Interactions](lh-deception_simulating_and_understanding_llm_deceptive_behaviors_in_long-horizo.md)
 - [\[ICLR 2026\] Self-Destructive Language Model](self-destructive_language_model.md)
-- [\[ICLR 2026\] Lifelong Learning with Behavior Consolidation for Vehicle Routing](lifelong_learning_with_behavior_consolidation_for_vehicle_routing.md)
+- [\[ICLR 2026\] Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers](perturbation-induced_linearization_constructing_unlearnable_data_with_solely_lin.md)
 
 <!-- RELATED:END -->

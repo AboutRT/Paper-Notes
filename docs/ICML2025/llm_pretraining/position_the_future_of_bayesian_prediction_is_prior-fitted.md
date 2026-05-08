@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.23947](https://arxiv.org/abs/2505.23947)  
 **代码**: 无（Position Paper）  
-**领域**: 其他 / 贝叶斯推断 / 表格学习  
+**领域**: LLM预训练  
 **关键词**: Prior-Data Fitted Networks, PFN, 贝叶斯预测, 合成数据预训练, TabPFN, 摊还推断
 
 ## 一句话总结

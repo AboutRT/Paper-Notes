@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - rank-one model editing
   - 归因分析
-  - 后门防御
+  - 知识编辑
   - 虚假相关
   - 模型纠正
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.15656](https://arxiv.org/abs/2603.15656)  
 **代码**: 无  
-**领域**: LLM效率  
+**领域**: 知识编辑  
 **关键词**: rank-one model editing, 归因分析, 后门防御, 虚假相关, 模型纠正
 
 ## 一句话总结
@@ -177,7 +177,7 @@ Rank-one编辑的优化目标为约束最小二乘：$\min_\Lambda \|v^* - f_l(k
 - [\[ACL 2025\] ChainEdit: Propagating Ripple Effects in LLM Knowledge Editing through Logical Rule-Guided Chains](../../ACL2025/knowledge_editing/chainedit_propagating_ripple_effects_in_llm.md)
 - [\[ICLR 2026\] Energy-Regularized Sequential Model Editing on Hyperspheres](../../ICLR2026/knowledge_editing/energy-regularized_sequential_model_editing_on_hyperspheres.md)
 - [\[ICLR 2026\] Fine-tuning Done Right in Model Editing](../../ICLR2026/knowledge_editing/fine-tuning_done_right_in_model_editing.md)
-- [\[ACL 2026\] FABLE: Fine-grained Fact Anchoring for Unstructured Model Editing](../../ACL2026/knowledge_editing/fable_fine-grained_fact_anchoring_for_unstructured_model_editing.md)
 - [\[ICLR 2026\] EAMET: Robust Massive Model Editing via Embedding Alignment Optimization](../../ICLR2026/knowledge_editing/eamet_robust_massive_model_editing_via_embedding_alignment_optimization.md)
+- [\[AAAI 2026\] Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior](../../AAAI2026/knowledge_editing/model_editing_as_a_double-edged_sword_steering_agent_ethical_behavior_toward_ben.md)
 
 <!-- RELATED:END -->

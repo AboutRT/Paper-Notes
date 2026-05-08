@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 端到端驾驶
-  - 安全推理
+  - 可解释性
   - 稀疏世界模型
   - 轨迹评估
   - 碰撞预测
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2602.18887](https://arxiv.org/abs/2602.18887)  
 **代码**: 将公开  
-**领域**: others / 自动驾驶  
+**领域**: 可解释性  
 **关键词**: 端到端驾驶, 安全推理, 稀疏世界模型, 轨迹评估, 碰撞预测
 
 ## 一句话总结
@@ -128,7 +128,7 @@ SafeDrive 达 66.8% 驾驶分，且 NAVSIM 12146 场景中仅 61 次碰撞（0.5
 ## 相关论文
 
 - [\[CVPR 2026\] TDATR: Improving End-to-End Table Recognition via Table Detail-Aware Learning and Cell-Level Visual Alignment](tdatr_improving_end-to-end_table_recognition_via_table_detail-aware_learning_and.md)
-- [\[CVPR 2026\] FINER: MLLMs Hallucinate under Fine-grained Negative Queries](finer_mllms_hallucinate_under_fine-grained_negative_queries.md)
+- [\[ICML 2025\] Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](../../ICML2025/interpretability/sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)
 - [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](text-guided_fine-grained_video_anomaly_understanding.md)
 - [\[ACL 2025\] Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](../../ACL2025/interpretability/safety_is_not_only_about_refusal_reasoning-enhanced_fine-tuning_for_interpretabl.md)
 - [\[AAAI 2026\] FineVAU: A Novel Human-Aligned Benchmark for Fine-Grained Video Anomaly Understanding](../../AAAI2026/interpretability/finevau_a_novel_human-aligned_benchmark_for_fine-grained_video_anomaly_understan.md)

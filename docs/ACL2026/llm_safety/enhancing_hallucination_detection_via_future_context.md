@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Enhancing Hallucination Detection via Future Context
 description: >-
-  [ACL 2026][幻觉检测] 本文提出利用采样生成的"未来上下文"（后续句子）来增强黑盒场景下的幻觉检测，利用幻觉一旦出现就倾向于持续传播的"滚雪球效应"，在 SelfCheckGPT 和 SC 等多种采样方法上一致提升检测性能。
+  [ACL 2026][LLM安全] 本文提出利用采样生成的"未来上下文"（后续句子）来增强黑盒场景下的幻觉检测，利用幻觉一旦出现就倾向于持续传播的"滚雪球效应"，在 SelfCheckGPT 和 SC 等多种采样方法上一致提升检测性能。
 tags:
   - ACL 2026
-  - 幻觉检测
+  - LLM安全
   - 未来上下文
   - 黑盒生成器
   - 采样方法
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2507.20546](https://arxiv.org/abs/2507.20546)  
 **代码**: 无  
-**领域**: LLM 安全 / 幻觉检测  
+**领域**: LLM安全  
 **关键词**: 幻觉检测, 未来上下文, 黑盒生成器, 采样方法, 滚雪球效应
 
 ## 一句话总结
@@ -120,7 +120,7 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] Enhancing Hallucination Detection through Noise Injection](../../ICLR2026/llm_safety/enhancing_hallucination_detection_through_noise_injection.md)
-- [\[ICLR 2026\] VeriTrail: Closed-Domain Hallucination Detection with Traceability](../../ICLR2026/llm_safety/veritrail_closed-domain_hallucination_detection_with_traceable_evidence_synthes.md)
+- [\[ICLR 2026\] VeriTrail: Closed-Domain Hallucination Detection with Traceability](../../ICLR2026/llm_safety/veritrail_closed-domain_hallucination_detection_with_traceability.md)
 - [\[ACL 2025\] Automated Explanation Generation and Hallucination Detection for Heritage Image Retrieval](../../ACL2025/llm_safety/automated_explanation_generation_and_hallucination_detection_for_heritage_image_.md)
 - [\[ACL 2025\] HD-NDEs: Neural Differential Equations for Hallucination Detection in LLMs](../../ACL2025/llm_safety/hd-ndes_neural_differential_equations_for_hallucination_detection_in_llms.md)
 - [\[ACL 2025\] Fine-grained Hallucination Detection and Mitigation in Long-form Question Answering](../../ACL2025/llm_safety/localizing_and_mitigating_errors_in_long-form_question_answering.md)

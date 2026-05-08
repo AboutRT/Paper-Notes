@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Semi-supervised Graph Anomaly Detection via Robust Homophily Learning
 description: >-
-  [NeurIPS 2025][图异常检测] 提出RHO (Robust Homophily Learning)方法，通过自适应频率响应滤波器(AdaFreq)和图正常性对齐(GNA)模块，解决半监督图异常检测中正常节点同质性多样性的问题，在8个真实数据集上超越现有方法。
+  [NeurIPS 2025][其他] 提出RHO (Robust Homophily Learning)方法，通过自适应频率响应滤波器(AdaFreq)和图正常性对齐(GNA)模块，解决半监督图异常检测中正常节点同质性多样性的问题，在8个真实数据集上超越现有方法。
 tags:
   - NeurIPS 2025
-  - 图异常检测
+  - 其他
   - 同质性学习
   - 自适应频率滤波器
   - 半监督
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.15448](https://arxiv.org/abs/2506.15448)  
 **代码**: [GitHub](https://github.com/mala-lab/RHO)  
-**领域**: 图异常检测, 半监督学习, 谱方法  
+**领域**: 其他  
 **关键词**: 图异常检测, 同质性学习, 自适应频率滤波器, 半监督, 对比学习
 
 ## 一句话总结
@@ -118,9 +118,9 @@ $$H_{cwr}^{(t)} = \sigma((I - \hat{L})(H_{cwr}^{(t-1)} \odot K)W_{cwr}^{(t)})$$
 ## 相关论文
 
 - [\[NeurIPS 2025\] ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining](adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md)
-- [\[NeurIPS 2025\] Prediction-Powered Semi-Supervised Learning with Online Power Tuning](prediction-powered_semi-supervised_learning_with_online_power_tuning.md)
 - [\[CVPR 2025\] Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection](../../CVPR2025/others/distribution_prototype_diffusion_learning_for_open-set_supervised_anomaly_detect.md)
+- [\[NeurIPS 2025\] Prediction-Powered Semi-Supervised Learning with Online Power Tuning](prediction-powered_semi-supervised_learning_with_online_power_tuning.md)
 - [\[NeurIPS 2025\] Redundancy-Aware Test-Time Graph Out-of-Distribution Detection](redundancy-aware_test-time_graph_out-of-distribution_detection.md)
-- [\[NeurIPS 2025\] EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination](an_evidence-based_post-hoc_adjustment_framework_for_anomaly_detection_under_data.md)
+- [\[AAAI 2026\] CASL: Curvature-Augmented Self-supervised Learning for 3D Anomaly Detection](../../AAAI2026/others/casl_curvature-augmented_self-supervised_learning_for_3d_anomaly_detection.md)
 
 <!-- RELATED:END -->

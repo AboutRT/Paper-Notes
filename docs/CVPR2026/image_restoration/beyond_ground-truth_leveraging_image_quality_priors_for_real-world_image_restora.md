@@ -9,7 +9,7 @@ tags:
   - 图像修复
   - 图像质量先验
   - 双Codebook
-  - NR-IQA
+  - 图像复原
   - 质量条件化
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.29773](https://arxiv.org/abs/2603.29773)  
-**代码**: https://github.com/fengyang1399-pixel/IQPIR (有)  
+**代码**: [https://github.com/fengyang1399-pixel/IQPIR](https://github.com/fengyang1399-pixel/IQPIR)  
 **领域**: 图像修复  
 **关键词**: 图像修复, 图像质量先验, 双Codebook, NR-IQA, 质量条件化
 
@@ -126,7 +126,7 @@ WebPhoto-Test和WIDER-Test上同样全面领先。
 - [\[CVPR 2026\] Beyond the Ground Truth: Enhanced Supervision for Image Restoration](beyond_the_ground_truth_enhanced_supervision_for_image_restoration.md)
 - [\[CVPR 2026\] RAR: Restore, Assess, Repeat - A Unified Framework for Iterative Image Restoration](rar_restore_assess_repeat_a_unified_framework_for_iterative_image_restoration.md)
 - [\[CVPR 2026\] Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
-- [\[CVPR 2026\] Disentangled Textual Priors for Diffusion-based Image Super-Resolution](disentangled_textual_priors_for_diffusion-based_image_super-resolution.md)
 - [\[CVPR 2026\] TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising](tm-bsn_triangular-masked_blind-spot_network_for_real-world_self-supervised_image.md)
+- [\[CVPR 2026\] FinPercep-RM: A Fine-grained Reward Model and Co-evolutionary Curriculum for RL-based Real-world Super-Resolution](finpercep_rm_fine_grained_reward_model_rl_super_resolution.md)
 
 <!-- RELATED:END -->

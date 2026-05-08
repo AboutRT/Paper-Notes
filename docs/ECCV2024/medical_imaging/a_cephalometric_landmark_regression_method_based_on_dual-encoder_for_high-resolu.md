@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/huang229/D-CeLR  
+**代码**: [https://github.com/huang229/D-CeLR](https://github.com/huang229/D-CeLR)  
 **领域**: 医学图像  
 **关键词**: 头影测量, 关键点检测, 双编码器, Transformer, 高分辨率X光
 
@@ -138,10 +138,10 @@ D-CeLR 的整体架构包含三个主要模块：(1) 特征提取模块：从高
 
 ## 相关论文
 
-- [\[ICCV 2025\] HRScene: How Far Are VLMs from Effective High-Resolution Image Understanding?](../../ICCV2025/medical_imaging/hrscene_how_far_are_vlms_from_effective_high-resolution_image_understanding.md)
-- [\[CVPR 2026\] Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamics](../../CVPR2026/medical_imaging/modeling_spatiotemporal_neural_frames_for_high_resolution_brain_dynamic.md)
-- [\[ECCV 2024\] Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](radiative_gaussian_splatting_for_efficient_x-ray_novel_view_synthesis.md)
-- [\[AAAI 2026\] A Disease-Aware Dual-Stage Framework for Chest X-ray Report Generation](../../AAAI2026/medical_imaging/a_disease-aware_dual-stage_framework_for_chest_x-ray_report_.md)
 - [\[AAAI 2026\] MAISI-v2: Accelerated 3D High-Resolution Medical Image Synthesis with Rectified Flow and Region-specific Contrastive Loss](../../AAAI2026/medical_imaging/maisi-v2_accelerated_3d_high-resolution_medical_image_synthesis_with_rectified_f.md)
+- [\[AAAI 2026\] A Disease-Aware Dual-Stage Framework for Chest X-ray Report Generation](../../AAAI2026/medical_imaging/a_disease-aware_dual-stage_framework_for_chest_x-ray_report_.md)
+- [\[ECCV 2024\] Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](radiative_gaussian_splatting_for_efficient_x-ray_novel_view_synthesis.md)
+- [\[CVPR 2026\] EquivAnIA: A Spectral Method for Rotation-Equivariant Anisotropic Image Analysis](../../CVPR2026/medical_imaging/equivania_a_spectral_method_for_rotationequivarian.md)
+- [\[AAAI 2026\] CD-DPE: Dual-Prompt Expert Network Based on Convolutional Dictionary Feature Decoupling for Multi-Contrast MRI Super-Resolution](../../AAAI2026/medical_imaging/cd-dpe_dual-prompt_expert_network_based_on_convolutional_dictionary_feature_deco.md)
 
 <!-- RELATED:END -->

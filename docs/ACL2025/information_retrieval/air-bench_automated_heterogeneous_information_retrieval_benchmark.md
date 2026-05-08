@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - Information Retrieval
-  - Automated Benchmark
+  - 信息检索
   - LLM Data Generation
   - Multilingual Retrieval
   - RAG Evaluation

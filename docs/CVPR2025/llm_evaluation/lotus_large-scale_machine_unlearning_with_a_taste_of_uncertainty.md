@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LoTUS: Large-Scale Machine Unlearning with a Taste of Uncertainty
 description: >-
-  [CVPR 2025][机器遗忘] 提出 LoTUS，用 logits 温度调节+Gumbel-Softmax 平滑遗忘样本的预测，通过动态温度调度收敛到"遗忘集准确率=未见集准确率"的目标——在 ImageNet-1K 大规模设置中高效遗忘（ViT 上 Avg Gap 0.0150），且提出 RF-JSD 免重训评估指标（与 JSD Pearson 相关 0.92）。
+  [CVPR 2025][LLM评测] 提出 LoTUS，用 logits 温度调节+Gumbel-Softmax 平滑遗忘样本的预测，通过动态温度调度收敛到"遗忘集准确率=未见集准确率"的目标——在 ImageNet-1K 大规模设置中高效遗忘（ViT 上 Avg Gap 0.0150），且提出 RF-JSD 免重训评估指标（与 JSD Pearson 相关 0.92）。
 tags:
   - CVPR 2025
-  - 机器遗忘
+  - LLM评测
   - Gumbel-Softmax
   - 动态温度
   - 大规模
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18314](https://arxiv.org/abs/2503.18314)  
-**代码**: https://github.com/cspartalis/LoTUS (有)  
-**领域**: 其他 / 机器遗忘  
+**代码**: [https://github.com/cspartalis/LoTUS](https://github.com/cspartalis/LoTUS)  
+**领域**: LLM评测  
 **关键词**: 机器遗忘, Gumbel-Softmax, 动态温度, 大规模, 不确定性
 
 ## 一句话总结
@@ -91,10 +91,10 @@ ViT 仅需 3 epoch，ResNet18 10 epoch。$\alpha=2$。
 
 ## 相关论文
 
-- [\[CVPR 2025\] Uncertainty Weighted Gradients for Model Calibration](uncertainty_weighted_gradients_for_model_calibration.md)
 - [\[ACL 2025\] Benchmarking Uncertainty Quantification Methods for Large Language Models with LM-Polygraph](../../ACL2025/llm_evaluation/benchmarking_uncertainty_quantification_methods_for_large_language_models_with_l.md)
+- [\[ECCV 2024\] PetFace: A Large-Scale Dataset and Benchmark for Animal Identification](../../ECCV2024/llm_evaluation/petface_a_large-scale_dataset_and_benchmark_for_animal_identification.md)
+- [\[CVPR 2025\] Uncertainty Weighted Gradients for Model Calibration](uncertainty_weighted_gradients_for_model_calibration.md)
 - [\[ACL 2025\] HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning](../../ACL2025/llm_evaluation/hellaswag-pro_a_large-scale_bilingual_benchmark_for_evaluating_the_robustness_of.md)
 - [\[ECCV 2024\] Sync from the Sea: Retrieving Alignable Videos from Large-Scale Datasets](../../ECCV2024/llm_evaluation/sync_from_the_sea_retrieving_alignable_videos_from_large-scale_datasets.md)
-- [\[ICLR 2026\] Revisiting the Past: Data Unlearning with Model State History](../../ICLR2026/llm_evaluation/revisiting_the_past_data_unlearning_with_model_state_history.md)
 
 <!-- RELATED:END -->

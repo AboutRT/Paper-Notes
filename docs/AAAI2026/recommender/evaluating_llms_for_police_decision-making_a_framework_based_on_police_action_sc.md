@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Evaluating LLMs for Police Decision-Making: A Framework Based on Police Action Scenarios
 description: >-
-  [AAAI 2026][LLM评估] 提出 PAS（Police Action Scenarios）评估框架，一个面向警务场景的 LLM 评估体系，涵盖场景定义、参考答案构建、LLM 响应生成、核心指标提取和性能解读五个阶段，基于 8000+ 韩国警察官方文件构建评估数据集，发现商用 LLM（GPT-4、Gemini、Claude）在警务任务上显著低于参考答案，尤其在事实性和逻辑正确性方面。
+  [AAAI 2026][推荐系统] 提出 PAS（Police Action Scenarios）评估框架，一个面向警务场景的 LLM 评估体系，涵盖场景定义、参考答案构建、LLM 响应生成、核心指标提取和性能解读五个阶段，基于 8000+ 韩国警察官方文件构建评估数据集，发现商用 LLM（GPT-4、Gemini、Claude）在警务任务上显著低于参考答案，尤其在事实性和逻辑正确性方面。
 tags:
   - AAAI 2026
-  - LLM评估
+  - 推荐系统
   - 警务决策
   - 领域特定评估
   - 场景化评估
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2601.03553](https://arxiv.org/abs/2601.03553)  
-**代码**: https://github.com/Heedou/PASFramework (有)  
-**领域**: Recommender / NLP Evaluation  
+**代码**: [https://github.com/Heedou/PASFramework](https://github.com/Heedou/PASFramework)  
+**领域**: 推荐系统  
 **关键词**: LLM评估, 警务决策, 领域特定评估, 场景化评估, LLM-as-Judge
 
 ## 一句话总结
@@ -143,9 +143,9 @@ PAS 框架形式化为 E_police = f(S, R, G, M, P)，包含五个阶段：
 ## 相关论文
 
 - [\[ACL 2026\] Personalized Benchmarking: Evaluating LLMs by Individual Preferences](../../ACL2026/recommender/personalized_benchmarking_evaluating_llms_by_individual_preferences.md)
-- [\[ICML 2025\] Deprecating Benchmarks: Criteria and Framework](../../ICML2025/recommender/deprecating_benchmarks_criteria_and_framework.md)
+- [\[AAAI 2026\] Tool4POI: A Tool-Augmented LLM Framework for Next POI Recommendation](tool4poi_a_tool-augmented_llm_framework_for_next_poi_recommendation.md)
+- [\[AAAI 2026\] From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization](from_ids_to_semantics_a_generative_framework_for_cross-domain_recommendation_wit.md)
 - [\[ICLR 2026\] Search Arena: Analyzing Search-Augmented LLMs](../../ICLR2026/recommender/search_arena_analyzing_search-augmented_llms.md)
-- [\[AAAI 2026\] Tokenize Once, Recommend Anywhere: Unified Item Tokenization for Multi-domain LLM-based Recommendation](tokenize_once_recommend_anywhere_unified_item_tokenization_for_multi-domain_llm-.md)
-- [\[ACL 2026\] What Makes LLMs Effective Sequential Recommenders? A Study on Preference Intensity and Temporal Context](../../ACL2026/recommender/what_makes_llms_effective_sequential_recommenders_a_study_on_preference_intensit.md)
+- [\[ICML 2025\] Deprecating Benchmarks: Criteria and Framework](../../ICML2025/recommender/deprecating_benchmarks_criteria_and_framework.md)
 
 <!-- RELATED:END -->

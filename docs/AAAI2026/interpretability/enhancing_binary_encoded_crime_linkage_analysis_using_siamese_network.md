@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.07651](https://arxiv.org/abs/2511.07651)  
 **代码**: [https://github.com/AlberTgarY/CrimeLinkageSiamese](https://github.com/AlberTgarY/CrimeLinkageSiamese)  
-**领域**: 其他  
+**领域**: 可解释性  
 **关键词**: 犯罪关联分析, 孪生网络, 自编码器, 地理时间特征融合, ViCLAS数据库
 
 ## 一句话总结
@@ -196,6 +196,6 @@ $$\mathcal{L}_{\text{recon}} = \mathbb{E}\left[\frac{v_1^\top \hat{v_1}}{\|v_1\|
 - [\[AAAI 2026\] A Closer Look at Knowledge Distillation in Spiking Neural Network Training](a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md)
 - [\[AAAI 2026\] FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)
 - [\[AAAI 2026\] ElementaryNet: A Non-Strategic Neural Network for Predicting Human Behavior in Normal-Form Games](elementarynet_a_non-strategic_neural_network_for_predicting_human_behavior_in_no.md)
-- [\[ACL 2025\] Enhancing Automated Interpretability with Output-Centric Feature Descriptions](../../ACL2025/interpretability/output_centric_interpretability.md)
+- [\[AAAI 2026\] Probing Preference Representations: A Multi-Dimensional Evaluation and Analysis Method for Reward Models](probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)
 
 <!-- RELATED:END -->

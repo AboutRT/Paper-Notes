@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.20205](https://arxiv.org/abs/2602.20205)  
 **代码**: [xiwenc1/OTPrune](https://github.com/xiwenc1/OTPrune)  
-**领域**: optimization / efficient inference  
+**领域**: 优化  
 **关键词**: visual token pruning, optimal transport, Wasserstein distance, submodular optimization, training-free, MLLM efficiency
 
 ## 一句话总结
@@ -149,10 +149,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Estimation of Stochastic Optimal Transport Maps](../../NeurIPS2025/optimization/estimation_of_stochastic_optimal_transport_maps.md)
 - [\[CVPR 2026\] Fed-ADE: Adaptive Learning Rate for Federated Post-adaptation under Distribution Shift](fed-ade_adaptive_learning_rate_for_federated_post-adaptation_under_distribution_.md)
 - [\[CVPR 2026\] Enhancing Visual Representation with Textual Semantics: Textual Semantics-Powered Prototypes for Heterogeneous Federated Learning](enhancing_visual_representation_with_textual_semantics_textual_semantics_powered_p.md)
-- [\[NeurIPS 2025\] FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling](../../NeurIPS2025/optimization/fedrts_federated_robust_pruning_via_combinatorial_thompson_sampling.md)
 - [\[CVPR 2025\] Automatic Joint Structured Pruning and Quantization for Efficient Neural Network Training and Compression](../../CVPR2025/optimization/automatic_joint_structured_pruning_and_quantization_for_efficient_neural_network.md)
-- [\[CVPR 2025\] Leveraging Perturbation Robustness to Enhance Out-of-Distribution Detection](../../CVPR2025/optimization/leveraging_perturbation_robustness_to_enhance_out-of-distribution_detection.md)
+- [\[ICLR 2026\] CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving](../../ICLR2026/optimization/cogflow_bridging_perception_and_reasoning_through_knowledge_internalization_for_.md)
 
 <!-- RELATED:END -->

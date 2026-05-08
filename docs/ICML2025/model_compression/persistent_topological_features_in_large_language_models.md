@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2410.11042](https://arxiv.org/abs/2410.11042)  
 **作者**: Yuri Gardinazzi, Karthik Viswanathan, Giada Panerai, Alessio Ansuini, Alberto Cazzaniga, Matteo Biagetti (Area Science Park & 合作机构)  
 **代码**: 未公开  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 拓扑数据分析, Zigzag Persistence, LLM内部表征, 层剪枝, 持续同调  
 
 ## 一句话总结

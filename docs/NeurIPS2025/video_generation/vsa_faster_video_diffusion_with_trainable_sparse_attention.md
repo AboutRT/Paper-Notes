@@ -9,14 +9,14 @@ tags:
   - Transformer
   - 端到端训练
   - 关键token预测
-  - 硬件对齐
+  - 视频生成
 ---
 
 # VSA: Faster Video Diffusion with Trainable Sparse Attention
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.13389](https://arxiv.org/abs/2505.13389)  
-**代码**: https://github.com/hao-ai-lab/FastVideo  
+**代码**: [https://github.com/hao-ai-lab/FastVideo](https://github.com/hao-ai-lab/FastVideo)  
 **领域**: 视频生成 / 注意力加速  
 **关键词**: 稀疏注意力, 视频扩散Transformer, 端到端训练, 关键token预测, 硬件对齐
 

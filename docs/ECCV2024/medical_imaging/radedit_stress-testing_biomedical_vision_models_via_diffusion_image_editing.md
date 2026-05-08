@@ -49,9 +49,9 @@ RadEdit 基于 DDPM 反演（inversion）和文本引导的扩散模型编辑。
 
 1. **双重掩码机制（Dual Mask Mechanism）**: RadEdit 的核心创新在于同时使用两种掩码——edit mask 定义需要主动修改的区域，keep mask 定义必须保持不变的区域。两种掩码不需要互斥，未被覆盖的区域允许扩散模型自由调整以确保全局一致性。核心公式：
 
-   $$\epsilon_t = m_{\text{edit}} \odot \epsilon_t^{\text{CFG}} + (1 - m_{\text{edit}}) \odot \epsilon_{\text{uncond},t}$$
+    $\epsilon_t = m_{\text{edit}} \odot \epsilon_t^{\text{CFG}} + (1 - m_{\text{edit}}) \odot \epsilon_{\text{uncond},t}$
 
-   $$x_{t-1} = m_{\text{keep}} \odot \hat{x}_{t-1} + (1 - m_{\text{keep}}) \odot x_{t-1}$$
+    $x_{t-1} = m_{\text{keep}} \odot \hat{x}_{t-1} + (1 - m_{\text{keep}}) \odot x_{t-1}$
 
    设计动机：虚假关联通常在空间上不重叠，因此通过掩码可以有效解耦。例如移除气胸时，将气胸区设为 edit mask，胸管区设为 keep mask，即可保留胸管。
 
@@ -59,7 +59,7 @@ RadEdit 基于 DDPM 反演（inversion）和文本引导的扩散模型编辑。
 
 3. **BioViL-T 编辑评分（Editing Score）**: 用于过滤低质量编辑结果的质量控制机制。基于方向相似度定义：
 
-   $$S_{\text{BioViL-T}} = \frac{\Delta I \cdot \Delta T}{\|\Delta I\| \|\Delta T\|}$$
+    $S_{\text{BioViL-T}} = \frac{\Delta I \cdot \Delta T}{\|\Delta I\| \|\Delta T\|}$
 
    其中 $\Delta I = E_I(I_{\text{edit}}) - E_I(I_{\text{real}})$，$\Delta T = E_T(T_{\text{edit}}) - E_T(T_{\text{real}})$。使用领域特定的 BioViL-T 视觉-语言模型作为编码器，阈值设为 0.2。
 
@@ -139,9 +139,9 @@ RadEdit 基于 DDPM 反演（inversion）和文本引导的扩散模型编辑。
 ## 相关论文
 
 - [\[CVPR 2026\] Extending ZACH-ViT to Robust Medical Imaging: Corruption and Adversarial Stress Testing in Low-Data Regimes](../../CVPR2026/medical_imaging/extending_zach-vit_to_robust_medical_imaging_corruption_and_adversarial_stress_t.md)
+- [\[ECCV 2024\] Adaptive Compressed Sensing with Diffusion-Based Posterior Sampling](adaptive_compressed_sensing_with_diffusionbased_posterior_sa.md)
 - [\[CVPR 2025\] MoEdit: On Learning Quantity Perception for Multi-Object Image Editing](../../CVPR2025/medical_imaging/moedit_on_learning_quantity_perception_for_multi-object_image_editing.md)
 - [\[ECCV 2024\] Co-synthesis of Histopathology Nuclei Image-Label Pairs using a Context-Conditioned Joint Diffusion Model](co-synthesis_of_histopathology_nuclei_image-label_pairs_using_a_context-conditio.md)
-- [\[ECCV 2024\] GTP-4o: Modality-Prompted Heterogeneous Graph Learning for Omni-Modal Biomedical Representation](gtp-4o_modality-prompted_heterogeneous_graph_learning_for_omni-modal_biomedical_.md)
-- [\[NeurIPS 2025\] Orochi: Versatile Biomedical Image Processor](../../NeurIPS2025/medical_imaging/orochi_versatile_biomedical_image_processor.md)
+- [\[ECCV 2024\] GTP-4o: Modality-prompted Heterogeneous Graph Learning for Omni-modal Biomedical Representation](gtp4o_modalityprompted_heterogeneous_graph_learning_for.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.07685](https://arxiv.org/abs/2502.07685)  
-**代码**: https://nju-3dv.github.io/projects/matrix3d (项目页)  
+**代码**: [https://nju-3dv.github.io/projects/matrix3d](https://nju-3dv.github.io/projects/matrix3d) (项目页)  
 **领域**: 3D视觉  
 **关键词**: 摄影测量, 多模态扩散, 位姿估计, 深度预测, 新视角合成
 

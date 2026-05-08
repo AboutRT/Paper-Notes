@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17787](https://arxiv.org/abs/2411.17787)  
-**代码**: https://github.com/czg1225/CoDe  
+**代码**: [https://github.com/czg1225/CoDe](https://github.com/czg1225/CoDe)  
 **领域**: 扩散模型 / 模型压缩  
 **关键词**: 视觉自回归, 下一尺度预测, 协同解码, 推理加速, KV缓存优化
 

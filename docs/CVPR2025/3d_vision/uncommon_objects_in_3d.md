@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.07574](https://arxiv.org/abs/2501.07574)  
-**代码**: https://github.com/facebookresearch/uco3d (有)  
+**代码**: [https://github.com/facebookresearch/uco3d](https://github.com/facebookresearch/uco3d)  
 **领域**: 3D视觉 / 数据集  
 **关键词**: 3D数据集, 物体中心, 高斯泼溅, 新视角合成, 3D生成
 

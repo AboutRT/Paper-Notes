@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Main)  
 **arXiv**: [2506.09301](https://arxiv.org/abs/2506.09301)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 其他  
 **关键词**: 比喻语言理解, 语用学, 理性言语行为框架, 反讽解释, 修辞策略
 
 ## 一句话总结
@@ -140,6 +140,6 @@ tags:
 - [\[ACL 2025\] QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning](qualispeech_a_speech_quality_assessment_dataset_with_natural_language_reasoning_.md)
 - [\[ACL 2025\] Measuring the Effect of Transcription Noise on Downstream Language Understanding Tasks](measuring_the_effect_of_transcription_noise_on_downstream_language_understanding.md)
 - [\[ACL 2025\] ACT: Knowledgeable Agents to Design and Perform Complex Tasks](act_knowledgeable_agents_to_design_and_perform_complex_tasks.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
+- [\[ACL 2025\] SOTOPIA-Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents](sotopia-ensuremathomega_dynamic_strategy_injection_learning_and_social_instructi.md)
 
 <!-- RELATED:END -->

@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.05673](https://arxiv.org/abs/2404.05673)  
-**代码**: https://chain-of-reasoning-and-segmentation.github.io (有)  
-**领域**: LLM推理  
+**代码**: [https://chain-of-reasoning-and-segmentation.github.io](https://chain-of-reasoning-and-segmentation.github.io)  
+**领域**: 图像分割  
 **关键词**: reasoning segmentation, chain-of-thought, MLLM, multi-modal reasoning, SAM
 
 ## 一句话总结

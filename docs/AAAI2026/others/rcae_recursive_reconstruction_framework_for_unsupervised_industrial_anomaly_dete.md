@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection
 description: >-
-  [AAAI 2026][异常检测] 提出递归卷积自编码器（RcAE），通过参数共享的多步迭代重建逐步抑制异常并保留正常细节，配合跨递归检测模块（CRD）利用多步重建动态实现鲁棒的异常定位，在仅需10%扩散模型参数的条件下达到可比的SOTA性能。
+  [AAAI 2026][其他] 提出递归卷积自编码器（RcAE），通过参数共享的多步迭代重建逐步抑制异常并保留正常细节，配合跨递归检测模块（CRD）利用多步重建动态实现鲁棒的异常定位，在仅需10%扩散模型参数的条件下达到可比的SOTA性能。
 tags:
   - AAAI 2026
-  - 异常检测
+  - 其他
   - 自编码器
   - 递归重建
   - 工业缺陷检测
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.11284](https://arxiv.org/abs/2512.11284)  
 **代码**: 无  
-**领域**: 工业异常检测 / 计算机视觉  
+**领域**: 其他  
 **关键词**: 异常检测, 自编码器, 递归重建, 工业缺陷检测, 无监督学习
 
 ## 一句话总结
@@ -59,25 +59,25 @@ tags:
    核心思路是用参数共享的递归替代传统的深层堆叠。传统深度ConvAE使用$N$个独立的编码/解码块，参数量随$N$线性增长。RcAE则只用一个编码器$E$和一个解码器$D$，通过$N$次递归复用来模拟深层AE的效果。
 
    **压缩阶段**：输入图像经过$N$次递归编码，每次递归通过步长为2的下采样卷积降低分辨率：
-   $$\mathbf{I}_C^i = E(\mathbf{I}_C^{i-1}; \boldsymbol{\theta}_E), \quad i \in \{1, 2, \ldots, N\}$$
+    $\mathbf{I}_C^i = E(\mathbf{I}_C^{i-1}; \boldsymbol{\theta}_E), \quad i \in \{1, 2, \ldots, N\}$
 
    **重建阶段**：从最深层压缩表示出发，经过$N$次递归解码逐步恢复分辨率：
-   $$\mathbf{I}_R^j = D(\mathbf{I}_R^{j-1}; \boldsymbol{\theta}_D), \quad j \in \{1, 2, \ldots, N\}$$
+    $\mathbf{I}_R^j = D(\mathbf{I}_R^{j-1}; \boldsymbol{\theta}_D), \quad j \in \{1, 2, \ldots, N\}$
 
    设计动机：早期迭代保留低级细节但可能残留异常，后期迭代更好地抑制异常但可能过度平滑。这种渐进式精炼允许模型在不增加参数的情况下同时抑制异常和保留正常结构。训练时递归深度从$[1, N]$中随机采样以避免捷径学习。
 
 2. **细节保留网络（DPN）**
 
    递归重建虽然有效抑制异常，但也会在正常区域累积细节损失。DPN是一个轻量级的4层ConvAE，输入为递归重建结果$\mathbf{I}_R^n$与原图一阶梯度$\mathbf{I}'$的拼接，预测残差图来恢复缺失细节：
-   $$\mathbf{Res}_D^n = f_{\text{DPN}}((\mathbf{I}_R^n \oplus \mathbf{I}'); \boldsymbol{\theta}_{\text{DPN}})$$
-   $$\mathbf{I}_D^n = \mathbf{I}_R^n + \mathbf{Res}_D^n$$
+    $\mathbf{Res}_D^n = f_{\text{DPN}}((\mathbf{I}_R^n \oplus \mathbf{I}'); \boldsymbol{\theta}_{\text{DPN}})$
+    $\mathbf{I}_D^n = \mathbf{I}_R^n + \mathbf{Res}_D^n$
 
    关键设计：训练DPN时RcAE冻结，且仅使用正常样本。这迫使网络学习递归导致的细节退化残差，而非异常相关偏差。推理时，异常区域产生的残差超出DPN的学习分布，DPN自然无法恢复它们，从而保持异常抑制效果。
 
 3. **跨递归检测模块（CRD）**
 
    递归设计自然产生一个重建序列，不同步骤间的差异反映区域稳定性：正常区域快速稳定，异常区域因重建困难而持续波动。CRD是一个4深度的3D ConvAE，将输入$\mathbf{I}$和各步增强重建$\mathbf{I}_D^n$拼接后预测异常图：
-   $$\mathbf{M}_A = f_{\text{CRD}}((\mathbf{I}_D^n \oplus \mathbf{I}); \boldsymbol{\theta}_{\text{CRD}}), \quad n \in \{1, 2, \ldots, N\}$$
+    $\mathbf{M}_A = f_{\text{CRD}}((\mathbf{I}_D^n \oplus \mathbf{I}); \boldsymbol{\theta}_{\text{CRD}}), \quad n \in \{1, 2, \ldots, N\}$
 
    3D卷积使CRD在空间维度和递归步骤维度上同时提取特征，捕捉跨递归的时序模式。优势在于不同递归步骤的重建互补：早期步骤保留细节但有残余缺陷，后期步骤抑制异常但丢失纹理，综合利用可提供更可靠的定位。
 
@@ -178,10 +178,10 @@ $$\mathcal{L}_{\text{CRD}} = \|\mathbf{M}_A - \mathbf{M}_P\|_2 + \|\mathbf{M}_A'
 
 ## 相关论文
 
-- [\[CVPR 2026\] Integration of Deep Generative Anomaly Detection Algorithm in High-Speed Industrial Line](../../CVPR2026/others/integration_of_deep_generative_anomaly_detection_algorithm_in_high-speed_industr.md)
 - [\[NeurIPS 2025\] ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining](../../NeurIPS2025/others/adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md)
-- [\[CVPR 2026\] Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples](../../CVPR2026/others/novel_anomaly_detection_scenarios_and_evaluation_metrics_to_address_the_ambiguit.md)
+- [\[CVPR 2026\] Integration of Deep Generative Anomaly Detection Algorithm in High-Speed Industrial Line](../../CVPR2026/others/integration_of_deep_generative_anomaly_detection_algorithm_in_high-speed_industr.md)
+- [\[AAAI 2026\] Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast](radar-aplanc_unsupervised_radar-based_heartbeat_sensing_via_augmented_pseudo-lab.md)
 - [\[ECCV 2024\] Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection](../../ECCV2024/others/learning_anomalies_with_normality_prior_for_unsupervised_video_anomaly_detection.md)
-- [\[AAAI 2026\] From Sequential to Recursive: Enhancing Decision-Focused Learning with Bidirectional Feedback](from_sequential_to_recursive_enhancing_decision-focused_learning_with_bidirectio.md)
+- [\[AAAI 2026\] CASL: Curvature-Augmented Self-supervised Learning for 3D Anomaly Detection](casl_curvature-augmented_self-supervised_learning_for_3d_anomaly_detection.md)
 
 <!-- RELATED:END -->

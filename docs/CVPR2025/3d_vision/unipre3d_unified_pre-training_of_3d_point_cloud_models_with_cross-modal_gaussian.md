@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.09952](https://arxiv.org/abs/2506.09952)  
-**代码**: https://github.com/wangzy22/UniPre3D  
+**代码**: [https://github.com/wangzy22/UniPre3D](https://github.com/wangzy22/UniPre3D)  
 **领域**: 3D视觉  
 **关键词**: 3D预训练, 点云, 高斯溅射, 跨模态融合, 统一学习
 

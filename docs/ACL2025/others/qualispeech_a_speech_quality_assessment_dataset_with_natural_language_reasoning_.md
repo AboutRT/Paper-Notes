@@ -2,10 +2,10 @@
 title: >-
   [论文解读] QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning
 description: >-
-  [ACL2025][语音质量评估] 本文提出 QualiSpeech，首个包含 11 个维度标注和详细自然语言推理描述的语音质量评估数据集，以及配套的评测基准，证明了微调后的听觉 LLM 能生成关于噪声和失真的详细描述，并展示了推理增强质量评估的潜力。
+  [ACL2025][其他] 本文提出 QualiSpeech，首个包含 11 个维度标注和详细自然语言推理描述的语音质量评估数据集，以及配套的评测基准，证明了微调后的听觉 LLM 能生成关于噪声和失真的详细描述，并展示了推理增强质量评估的潜力。
 tags:
   - ACL2025
-  - 语音质量评估
+  - 其他
   - 自然语言描述
   - 听觉大语言模型
   - 低级语音感知
@@ -176,7 +176,7 @@ QualiSpeech 训练集包含 **10,558** 个样本，来源均衡分布：
 - [\[ACL 2025\] A Multi-Persona Framework for Argument Quality Assessment](a_multi-persona_framework_for_argument_quality_assessment.md)
 - [\[ACL 2025\] Cooperating and Competing Through Natural Language](cooperating_and_competing_through_natural_language.md)
 - [\[ACL 2025\] Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation](leveraging_unit_language_guidance_to_advance_speech_modeling_in_textless_speech-.md)
-- [\[ACL 2025\] SPOT: Bridging Natural Language and Geospatial Search for Investigative Journalists](spot_bridging_natural_language_and_geospatial_search_for_investigative_journalis.md)
-- [\[ACL 2025\] ChildMandarin: A Comprehensive Mandarin Speech Dataset for Young Children Aged 3-5](childmandarin_a_comprehensive_mandarin_speech_dataset_for_young_children_aged_3-.md)
+- [\[ACL 2025\] STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond](stricta_structured_reasoning_in_critical_text_assessment_for_peer_review_and_bey.md)
+- [\[ACL 2025\] Autalic: A Dataset for Anti-Autistic Ableist Language In Context](autalic_a_dataset_for_anti-autistic_ableist_language_in_context.md)
 
 <!-- RELATED:END -->

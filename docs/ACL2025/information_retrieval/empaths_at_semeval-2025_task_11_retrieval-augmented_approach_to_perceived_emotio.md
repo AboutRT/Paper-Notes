@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (SemEval Workshop)][情感检测] 提出 EmoRAG 系统，用检索增强生成（RAG）管道结合多 LLM 集成聚合，在 SemEval-2025 Task 11 多标签情感检测任务上无需额外训练即在 28 种语言中取得有竞争力的结果，平均 F1-micro 0.638。
 tags:
   - ACL 2025 (SemEval Workshop)
-  - 情感检测
+  - 信息检索
   - RAG
   - 多语言
   - LLM集成
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (SemEval Workshop)  
 **arXiv**: [2506.04409](https://arxiv.org/abs/2506.04409)  
 **代码**: 无  
-**领域**: NLP / 情感分析  
+**领域**: 信息检索  
 **关键词**: 情感检测, RAG, 多语言, LLM集成, 多标签分类
 
 ## 一句话总结
@@ -154,9 +154,9 @@ EmoRAG 由四个组件串联：Database → Retriever → Generators (LLM集合)
 ## 相关论文
 
 - [\[ACL 2025\] REFIND at SemEval-2025 Task 3: Retrieval-Augmented Factuality Hallucination Detection in Large Language Models](refind_at_semeval-2025_task_3_retrieval-augmented_factuality_hallucination_detec.md)
-- [\[ACL 2025\] Health-LLM: Personalized Retrieval-Augmented Disease Prediction System](health-llm_personalized_retrieval-augmented_disease_prediction_system.md)
 - [\[ACL 2025\] MEMERAG: A Multilingual End-to-End Meta-Evaluation Benchmark for Retrieval Augmented Generation](memerag_a_multilingual_end-to-end_meta-evaluation_benchmark_for_retrieval_augmen.md)
-- [\[ACL 2025\] A Reality Check on Context Utilisation for Retrieval-Augmented Generation](a_reality_check_on_context_utilisation_for_retrieval-augmented_generation.md)
+- [\[ACL 2025\] Health-LLM: Personalized Retrieval-Augmented Disease Prediction System](health-llm_personalized_retrieval-augmented_disease_prediction_system.md)
 - [\[ACL 2025\] Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation](towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md)
+- [\[ACL 2025\] Investigating the Robustness of Retrieval-Augmented Generation at the Query Level](investigating_the_robustness_of_retrieval-augmented_generation_at_the_query_leve.md)
 
 <!-- RELATED:END -->

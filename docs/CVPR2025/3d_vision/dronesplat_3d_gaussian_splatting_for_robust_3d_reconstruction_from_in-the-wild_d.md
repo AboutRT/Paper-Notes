@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.16964](https://arxiv.org/abs/2503.16964)  
-**代码**: https://bityia.github.io/DroneSplat/ (有)  
+**代码**: [https://bityia.github.io/DroneSplat/](https://bityia.github.io/DroneSplat/)  
 **领域**: 3D视觉  
 **关键词**: 无人机3D重建, 3D高斯泼溅, 动态干扰物消除, 稀疏视角重建, 自适应掩膜
 

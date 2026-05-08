@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 等变表示
-  - 对比学习
+  - 其他
   - 非线性ICA
   - 群表示
   - 可辨识性
@@ -150,10 +150,10 @@ $$\hat{\mathbf{R}}_{n+m}' = \begin{pmatrix} \hat{\mathbf{R}}_n & \mathbf{0} \\ \
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Learning (Approximately) Equivariant Networks via Constrained Optimization](learning_approximately_equivariant_networks_via_constrained_optimization.md)
 - [\[NeurIPS 2025\] On Universality Classes of Equivariant Networks](on_universality_classes_of_equivariant_networks.md)
 - [\[NeurIPS 2025\] Faithful Group Shapley Value](faithful_group_shapley_value.md)
-- [\[NeurIPS 2025\] Learning (Approximately) Equivariant Networks via Constrained Optimization](learning_approximately_equivariant_networks_via_constrained_optimization.md)
+- [\[NeurIPS 2025\] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds](finite-time_analysis_of_stochastic_nonconvex_nonsmooth_optimization_on_the_riema.md)
 - [\[ACL 2025\] Better Embeddings with Coupled Adam](../../ACL2025/others/better_embeddings_with_coupled_adam.md)
-- [\[ACL 2025\] Partial Colexifications Improve Concept Embeddings](../../ACL2025/others/partial_colexifications_improve_concept_embeddings.md)
 
 <!-- RELATED:END -->

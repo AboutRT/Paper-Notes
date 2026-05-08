@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2508.16467](https://arxiv.org/abs/2508.16467)  
-**代码**: https://github.com/huimin-zeng/Arbi-3DGSR  
+**代码**: [https://github.com/huimin-zeng/Arbi-3DGSR](https://github.com/huimin-zeng/Arbi-3DGSR)  
 **领域**: 3D视觉 / 3D高斯溅射 / 超分辨率  
 **关键词**: 3DGS, arbitrary-scale super-resolution, scale-aware rendering, generative prior, progressive training
 

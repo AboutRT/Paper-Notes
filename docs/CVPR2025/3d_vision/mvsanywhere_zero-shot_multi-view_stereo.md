@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.22430](https://arxiv.org/abs/2503.22430)  
-**代码**: https://github.com/nianticlabs/mvsanywhere  
+**代码**: [https://github.com/nianticlabs/mvsanywhere](https://github.com/nianticlabs/mvsanywhere)  
 **领域**: 3D视觉/多视角立体  
 **关键词**: 多视角立体匹配, 零样本泛化, 自适应代价体, 单目深度先验, ViT, 深度估计
 

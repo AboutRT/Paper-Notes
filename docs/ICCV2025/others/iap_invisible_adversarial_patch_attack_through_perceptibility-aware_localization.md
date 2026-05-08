@@ -2,10 +2,10 @@
 title: >-
   [论文解读] IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization
 description: >-
-  [ICCV 2025][对抗补丁] 提出 IAP 框架，通过**感知感知（perceptibility-aware）的贴片定位**和**保色梯度更新**，首次实现在目标攻击场景下生成真正不可见的对抗补丁，同时能绕过多种 SOTA 补丁防御方法。
+  [ICCV 2025][其他] 提出 IAP 框架，通过**感知感知（perceptibility-aware）的贴片定位**和**保色梯度更新**，首次实现在目标攻击场景下生成真正不可见的对抗补丁，同时能绕过多种 SOTA 补丁防御方法。
 tags:
   - ICCV 2025
-  - 对抗补丁
+  - 其他
   - 不可感知攻击
   - 感知敏感度
   - 目标攻击
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.06856](https://arxiv.org/abs/2507.06856)  
 **代码**: [https://github.com/subratkishoredutta/IAP](https://github.com/subratkishoredutta/IAP)  
-**领域**: 对抗攻击 / AI 安全  
+**领域**: 其他  
 **关键词**: 对抗补丁, 不可感知攻击, 感知敏感度, 目标攻击, 补丁防御
 
 ## 一句话总结
@@ -142,10 +142,10 @@ $$\delta_{t+1} = \delta_t - \eta \cdot \overline{\nabla_\delta} \mathcal{L}_T \o
 
 ## 相关论文
 
+- [\[ICCV 2025\] Adversarial Data Augmentation for Single Domain Generalization via Lyapunov Exponents](adversarial_data_augmentation_for_single_domain_generalization_via_lyapunov_expo.md)
 - [\[ICML 2025\] Sampling from Binary Quadratic Distributions via Stochastic Localization](../../ICML2025/others/sampling_from_binary_quadratic_distributions_via_stochastic_localization.md)
-- [\[ICCV 2025\] NAPPure: Adversarial Purification for Robust Image Classification under Non-Additive Perturbations](nappure_adversarial_purification_for_robust_image_classification_under_non-addit.md)
 - [\[ICCV 2025\] C4D: 4D Made from 3D through Dual Correspondences](c4d_4d_made_from_3d_through_dual_correspondences.md)
-- [\[NeurIPS 2025\] OrthoLoC: UAV 6-DoF Localization and Calibration Using Orthographic Geodata](../../NeurIPS2025/others/ortholoc_uav_6-dof_localization_and_calibration_using_orthographic_geodata.md)
+- [\[ICCV 2025\] NAPPure: Adversarial Purification for Robust Image Classification under Non-Additive Perturbations](nappure_adversarial_purification_for_robust_image_classification_under_non-addit.md)
 - [\[AAAI 2026\] Optimal Welfare in Noncooperative Network Formation under Attack](../../AAAI2026/others/optimal_welfare_in_noncooperative_network_formation_under_attack.md)
 
 <!-- RELATED:END -->

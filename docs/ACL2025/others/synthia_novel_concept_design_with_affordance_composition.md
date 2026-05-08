@@ -8,7 +8,7 @@ tags:
   - affordance
   - 概念设计
   - 课程学习
-  - 对比学习
+  - 其他
   - T2I模型
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.17793](https://arxiv.org/abs/2502.17793)  
-**代码**: 有 (https://github.com/HyeonjeongHa/SYNTHIA)  
-**领域**: 多模态 / 文本到图像生成  
+**代码**: 有 ([https://github.com/HyeonjeongHa/SYNTHIA](https://github.com/HyeonjeongHa/SYNTHIA))  
+**领域**: 其他  
 **关键词**: affordance, 概念设计, 课程学习, 对比学习, T2I模型
 
 ## 一句话总结
@@ -137,9 +137,9 @@ Synthia 在新颖性和连贯性上分别取得 **25.1% 和 14.7%** 的人工评
 ## 相关论文
 
 - [\[ACL 2025\] Graph-guided Cross-composition Feature Disentanglement for Compositional Zero-shot Learning](graph-guided_cross-composition_feature_disentanglement_for_compositional_zero-sh.md)
-- [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
 - [\[ACL 2025\] All That Glitters is Not Novel: Plagiarism in AI Generated Research](plagiarism_ai_generated_research.md)
-- [\[ACL 2025\] Partial Colexifications Improve Concept Embeddings](partial_colexifications_improve_concept_embeddings.md)
-- [\[ACL 2025\] Evaluating Design Decisions for Dual Encoder-based Entity Disambiguation](evaluating_design_decisions_for_dual_encoder-based_entity_disambiguation.md)
+- [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
+- [\[ACL 2025\] Achieving Certification-by-Design Through Model-Driven Development](achieving_certification-by-design_through_model-driven_development.md)
+- [\[ACL 2025\] ACT: Knowledgeable Agents to Design and Perform Complex Tasks](act_knowledgeable_agents_to_design_and_perform_complex_tasks.md)
 
 <!-- RELATED:END -->

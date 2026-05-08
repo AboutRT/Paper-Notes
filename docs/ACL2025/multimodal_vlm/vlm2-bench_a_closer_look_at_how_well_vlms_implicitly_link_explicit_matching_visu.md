@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - 视觉线索匹配
-  - 视觉语言模型
+  - 多模态VLM
   - 多图像理解
   - benchmark
   - 跨图像关联
@@ -142,10 +142,10 @@ VLM2-Bench围绕三类视觉线索构建：
 
 ## 相关论文
 
-- [\[ACL 2025\] Vision-Language Models Struggle to Align Entities across Modalities](vision-language_models_struggle_to_align_entities_across_modalities.md)
-- [\[ACL 2025\] Cultivating Game Sense for Yourself: Making VLMs Gaming Experts](cultivating_gaming_sense_for_yourself_making_vlms_gaming_experts.md)
 - [\[ACL 2025\] EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models](effivlm_bench_acceleration.md)
-- [\[ACL 2025\] ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding](vigil3d_a_linguistically_diverse_dataset_for_3d_visual_grounding.md)
-- [\[ACL 2025\] Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents](agent_rewardbench.md)
+- [\[ACL 2025\] Vision-Language Models Struggle to Align Entities across Modalities](vision-language_models_struggle_to_align_entities_across_modalities.md)
+- [\[ACL 2025\] We-Math: Does Your Large Multimodal Model Achieve Human-like Mathematical Reasoning?](we-math_does_your_large_multimodal_model_achieve_human-like_mathematical_reasoni.md)
+- [\[ACL 2025\] VF-Eval: Evaluating Multimodal LLMs for Generating Feedback on AIGC Videos](vf_eval_aigc_video_feedback.md)
+- [\[ACL 2025\] OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference](omnialign-v_towards_enhanced_alignment_of_mllms_with_human_preference.md)
 
 <!-- RELATED:END -->

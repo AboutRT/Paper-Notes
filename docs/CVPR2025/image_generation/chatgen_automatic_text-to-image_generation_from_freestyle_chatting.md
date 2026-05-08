@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17176](https://arxiv.org/abs/2411.17176)  
-**代码**: https://chengyou-jia.github.io/ChatGen-Home  
+**代码**: [https://chengyou-jia.github.io/ChatGen-Home](https://chengyou-jia.github.io/ChatGen-Home)  
 **领域**: 扩散模型 / LLM Agent  
 **关键词**: 自动T2I, 自由聊天, 多阶段进化, 模型选择, Prompt改写
 
@@ -120,6 +120,6 @@ tags:
 - [\[CVPR 2025\] EasyCraft: A Robust and Efficient Framework for Automatic Avatar Crafting](easycraft_avatar_crafting.md)
 - [\[CVPR 2025\] Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation](towards_understanding_and_quantifying_uncertainty_for_text-to-image_generation.md)
 - [\[CVPR 2025\] From Elements to Design: A Layered Approach for Automatic Graphic Design Composition](from_elements_to_design_a_layered_approach_for_automatic_graphic_design_composit.md)
-- [\[CVPR 2025\] Learning to Sample Effective and Diverse Prompts for Text-to-Image Generation](learning_to_sample_effective_and_diverse_prompts_for_text-to-image_generation.md)
+- [\[CVPR 2025\] A Comprehensive Study of Decoder-Only LLMs for Text-to-Image Generation](a_comprehensive_study_of_decoder-only_llms_for_text-to-image_generation.md)
 
 <!-- RELATED:END -->

@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2602.00987](https://arxiv.org/abs/2602.00987)
 - **代码**: 未公开
-- **领域**: others
+- **领域**: 其他
 - **关键词**: kernel methods, random features, wavelets, non-stationary, Gaussian processes, multi-resolution
 
 ## 一句话总结

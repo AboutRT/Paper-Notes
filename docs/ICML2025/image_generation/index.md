@@ -2,7 +2,7 @@
 title: >-
   ICML2025 图像生成方向115篇论文解读
 description: >-
-  115篇ICML2025的图像生成方向论文解读，涵盖扩散模型、语音、对齐/RLHF、时序预测、机器人、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  115篇ICML2025的图像生成方向论文解读，涵盖扩散模型、语音、对齐/RLHF、时序预测、对抗鲁棒、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -81,10 +81,6 @@ description: >-
 **[Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces](diffuse_everything_multimodal_diffusion_models_on_arbitrary_state_spaces.md)**
 
 :   提出了一个在任意状态空间上构建多模态扩散模型的统一框架，通过为每种模态引入独立的解耦噪声调度（decoupled noise schedule），在单个模型中同时实现无条件生成和模态条件生成，无需外部的 tokenizer 或 VAE 预处理。
-
-**[Diffusion-VLA: Generalizable and Interpretable Robot Foundation Model via Self-Generated Reasoning](diffusion-vla_generalizable_and_interpretable_robot_foundation_model_via_self-ge.md)**
-
-:   提出 DiffusionVLA (DiVLA)，将自回归 VLM 的推理能力与扩散模型的动作生成能力统一到一个端到端框架中，通过推理注入模块（Reasoning Injection Module）将自生成的语言推理直接嵌入策略学习过程，实现了对未见物体的泛化分类、可解释的动作决策以及高速推理（2B 模型 82Hz）。
 
 **[Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is also a GAN Discriminator](direct_discriminative_optimization_your_likelihood-based_visual_generative_model.md)**
 
@@ -230,10 +226,6 @@ description: >-
 
 :   通过两年社区参与式研究，构建了包含 37,710 对多标准偏好标注的 LIVS 数据集，用于文本到图像模型在包容性城市公共空间设计中的多元对齐，并用 DPO 微调 SDXL 验证其有效性。
 
-**[LlavaGuard: An Open VLM-based Framework for Safeguarding Vision Datasets and Models](llavaguard_an_open_vlm-based_framework_for_safeguarding_vision_datasets_and_mode.md)**
-
-:   提出 LlavaGuard——基于开源 VLM 的视觉内容安全审核框架，通过可定制安全分类体系、高质量人工标注数据集与策略增强训练，实现对图像内容的灵活、精准安全评估，在准确率和策略适应性上大幅超越现有开源与闭源审核工具。
-
 **[Local Manifold Approximation and Projection for Manifold-Aware Diffusion Planning](local_manifold_approximation_and_projection_for_manifold-aware_diffusion_plannin.md)**
 
 :   提出LoMAP——训练无关的扩散规划修正方法，在每个反向扩散步将引导后样本投影到由离线数据近邻构建的局部低秩子空间上，防止不可行轨迹生成，理论证明引导误差随维度以 $O(\sqrt{d})$ 增长。
@@ -297,6 +289,10 @@ description: >-
 **[PAK-UCB Contextual Bandit: An Online Learning Approach to Prompt-Aware Selection of Generative Models and LLMs](pak-ucb_contextual_bandit_an_online_learning_approach_to_prompt-aware_selection_.md)**
 
 :   提出 PAK-UCB 上下文老虎机算法，通过为每个生成模型学习独立的核函数，在线预测给定 prompt 下的最优模型，实现 prompt 级别的生成模型/LLM 选择，并用随机傅里叶特征（RFF）降低计算开销。
+
+**[Parameter-Efficient Fine-Tuning of State Space Models](parameter-efficient_fine-tuning_of_state_space_models.md)**
+
+:   本文系统性地评估了现有 PEFT 方法在 SSM（如 Mamba）模型上的效果，发现 LoRA 虽在线性投影层表现最优但无法有效调优 SSM 模块，进而提出 Sparse Dimension Tuning（SDT）——一种专为 SSM 模块设计的 PEFT 方法，结合 LoRA 用于线性层，在多个基准上达到 SOTA 性能。
 
 **[PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](peptune_de_novo_generation_of_therapeutic_peptides_with_multi-objective-guided_d.md)**
 
@@ -437,6 +433,10 @@ description: >-
 **[Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes](understanding_and_mitigating_memorization_in_generative_models_via_sharpness_of_.md)**
 
 :   通过对数概率密度的 Hessian 曲率（sharpness）建立扩散模型记忆化的几何分析框架，提出可在生成初始阶段检测记忆化的新指标，并设计无需重训练的 SAIL 初始噪声优化策略来缓解记忆化。
+
+**[Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](understanding_and_mitigating_miscalibration_in_prompt_tuning_for_vision-language.md)**
+
+:   揭示 CLIP prompt tuning 在 base 和 novel 类之间存在校准权衡（CoOp 导致 novel 类过度自信，KgCoOp 导致 base 类自信不足），从文本特征散度视角解释原因，并提出 Dynamic Outlier Regularization (DOR) 通过正则化非训练类文本标签的特征偏差同时保持两端校准。
 
 **[Unsupervised Learning for Class Distribution Mismatch (UCDM)](unsupervised_learning_for_class_distribution_mismatch.md)**
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2406.14023](https://arxiv.org/abs/2406.14023)  
-**代码**: https://yuchenwen1.github.io/ImplicitBiasEvaluation  
+**代码**: [https://yuchenwen1.github.io/ImplicitBiasEvaluation](https://yuchenwen1.github.io/ImplicitBiasEvaluation)  
 **领域**: LLM/NLP - AI 安全与公平性  
 **关键词**: 隐式偏差, psychometrics, attack methodology, 公平性, LLM 评测
 
@@ -120,9 +120,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Aligning Large Language Models with Implicit Preferences from User-Generated Content](pugc_align_implicit_pref_ugc.md)
-- [\[ACL 2025\] Understanding the Repeat Curse in Large Language Models from a Feature Perspective](understanding_the_repeat_curse_in_large_language_models_from_a_feature_perspecti.md)
 - [\[ACL 2025\] Perspective Transition of Large Language Models for Solving Subjective Tasks](perspective_transition_of_large_language_models_for_solving_subjective_tasks.md)
-- [\[ACL 2025\] Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](attention_speaks_volumes_localizing_and_mitigating_bias_in_language_models.md)
+- [\[ACL 2025\] Understanding the Repeat Curse in Large Language Models from a Feature Perspective](understanding_the_repeat_curse_in_large_language_models_from_a_feature_perspecti.md)
 - [\[ACL 2025\] SocialEval: Evaluating Social Intelligence of Large Language Models](socialeval_evaluating_social_intelligence_of_large_language_models.md)
+- [\[ACL 2025\] Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](attention_speaks_volumes_localizing_and_mitigating_bias_in_language_models.md)
 
 <!-- RELATED:END -->

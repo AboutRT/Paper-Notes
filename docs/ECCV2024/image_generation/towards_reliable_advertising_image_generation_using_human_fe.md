@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.00418](https://arxiv.org/abs/2408.00418)  
-**代码**: https://github.com/ZhenbangDu/Reliable_AD (有)  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/ZhenbangDu/Reliable_AD](https://github.com/ZhenbangDu/Reliable_AD)  
+**领域**: 图像生成  
 **关键词**: 广告图像生成, Diffusion Model, 人类反馈, 质量检测, 电商
 
 ## 一句话总结

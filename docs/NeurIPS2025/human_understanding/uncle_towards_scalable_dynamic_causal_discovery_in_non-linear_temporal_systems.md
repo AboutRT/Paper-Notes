@@ -58,10 +58,10 @@ UnCLe 分为两个阶段：
 
    核心思路：将复杂的多变量时间序列解耦为多通道语义表示，使得变量间的依赖关系可以在隐空间中被线性建模。
 
-   - **Uncoupler**：参数共享的 TCN 编码器，将每个单变量时间序列 x_i ∈ R^T 映射为 C 通道隐表示 z_i ∈ R^{T×C}
-   - **Recoupler**：参数共享的 TCN 解码器，从隐表示重建原始序列 x̃_i
-   - **参数共享**关键：所有 N 个变量共享同一套 TCN 参数，极大提升学习效率和泛化性（消融显示去掉参数共享性能显著下降）
-   - TCN 的因果卷积保证信息不从未来泄漏到过去
+    - **Uncoupler**：参数共享的 TCN 编码器，将每个单变量时间序列 x_i ∈ R^T 映射为 C 通道隐表示 z_i ∈ R^{T×C}
+    - **Recoupler**：参数共享的 TCN 解码器，从隐表示重建原始序列 x̃_i
+    - **参数共享**关键：所有 N 个变量共享同一套 TCN 参数，极大提升学习效率和泛化性（消融显示去掉参数共享性能显著下降）
+    - TCN 的因果卷积保证信息不从未来泄漏到过去
 
    理论动机：适当的坐标变换（Uncoupler 学习）可以将复杂非线性动力学近似为线性系统，这是 Koopman 理论的核心思想。
 
@@ -69,25 +69,25 @@ UnCLe 分为两个阶段：
 
    核心思路：在解耦后的隐空间中，用简单的线性矩阵建模变量间的依赖关系。
 
-   - 维护 C 个依赖矩阵 Ψ = {Ψ¹, ..., Ψ^C}，每个 Ψ^c ∈ R^{N×N}
-   - 自回归预测：ẑ^c_{:,t+1} = σ(Ψ^c · z^c_{:,t})
-   - 预测的隐表示送入 Recoupler 生成原始空间的预测值
-   - L1 正则化促进依赖矩阵的稀疏性，抑制虚假因果连接
+    - 维护 C 个依赖矩阵 Ψ = {Ψ¹, ..., Ψ^C}，每个 Ψ^c ∈ R^{N×N}
+    - 自回归预测：ẑ^c_{:,t+1} = σ(Ψ^c · z^c_{:,t})
+    - 预测的隐表示送入 Recoupler 生成原始空间的预测值
+    - L1 正则化促进依赖矩阵的稀疏性，抑制虚假因果连接
 
 3. **基于时序扰动的动态 Granger 因果推断**
 
    核心思路：如果 x_j 是 x_i 的真实原因，打乱 x_j 的时序结构会显著增加模型对 x_i 的预测误差。
 
    具体流程：
-   - 对第 j 个变量做时序随机置换（保持边缘分布不变但破坏时序信息）
-   - 计算扰动前后每个数据点的预测误差增量：Δε^{∖j}_{i,t} = max(0, ε^{∖j}_{i,t} - ε_{i,t})
-   - 误差增量即为 t 时刻 x_j → x_i 的动态因果强度
-   - 对所有变量对和所有时间步计算，得到时间分辨的因果图 Ĝ^Pert
+    - 对第 j 个变量做时序随机置换（保持边缘分布不变但破坏时序信息）
+    - 计算扰动前后每个数据点的预测误差增量：Δε^{∖j}_{i,t} = max(0, ε^{∖j}_{i,t} - ε_{i,t})
+    - 误差增量即为 t 时刻 x_j → x_i 的动态因果强度
+    - 对所有变量对和所有时间步计算，得到时间分辨的因果图 Ĝ^Pert
 
    为什么选择时序置换而非其他扰动？
-   - 零值掩码会破坏数据分布，导致模型不稳定
-   - 噪声注入不能完全消除原始信号
-   - 时序置换既消除了预测性时序信息，又完美保持了变量的边缘分布
+    - 零值掩码会破坏数据分布，导致模型不稳定
+    - 噪声注入不能完全消除原始信号
+    - 时序置换既消除了预测性时序信息，又完美保持了变量的边缘分布
 
 4. **静态因果图的依赖聚合**
 
@@ -194,10 +194,10 @@ UnCLe 分为两个阶段：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Consistent Supervised-Unsupervised Alignment for Generalized Category Discovery](consistent_supervised-unsupervised_alignment_for_generalized_category_discovery.md)
-- [\[NeurIPS 2025\] Stochastic Momentum Methods for Non-smooth Non-Convex Finite-Sum Coupled Compositional Optimization](stochastic_momentum_methods_for_non-smooth_non-convex_finite-sum_coupled_composi.md)
-- [\[NeurIPS 2025\] A Simple Linear Patch Revives Layer-Pruned Large Language Models](a_simple_linear_patch_revives_layerpruned_large_language_mod.md)
-- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/human_understanding/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
-- [\[NeurIPS 2025\] Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning](counteractive_rl_rethinking_core_principles_for_efficient_and_scalable_deep_rein.md)
+- [\[ICCV 2025\] One-Shot Knowledge Transfer for Scalable Person Re-Identification](../../ICCV2025/human_understanding/one-shot_knowledge_transfer_for_scalable_person_re-identification.md)
+- [\[ECCV 2024\] Domain Reduction Strategy for Non-Line-of-Sight Imaging](../../ECCV2024/human_understanding/domain_reduction_strategy_for_non-line-of-sight_imaging.md)
+- [\[CVPR 2025\] Efficient Video Face Enhancement with Enhanced Spatial-Temporal Consistency](../../CVPR2025/human_understanding/efficient_video_face_enhancement_with_enhanced_spatial-temporal_consistency.md)
+- [\[ICCV 2025\] CleanPose: Category-Level Object Pose Estimation via Causal Learning and Knowledge Distillation](../../ICCV2025/human_understanding/cleanpose_category-level_object_pose_estimation_via_causal_learning_and_knowledg.md)
+- [\[CVPR 2026\] LaScA: Language-Conditioned Scalable Modelling of Affective Dynamics](../../CVPR2026/human_understanding/lasca_language-conditioned_scalable_modelling_of_affective_dynamics.md)
 
 <!-- RELATED:END -->

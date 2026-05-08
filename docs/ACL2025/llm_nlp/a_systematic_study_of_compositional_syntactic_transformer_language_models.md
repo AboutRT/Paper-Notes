@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.22978](https://arxiv.org/abs/2506.22978)  
-**代码**: [GitHub](https://github.com/zhaoyd1/compositional_SLMs) (有)  
+**代码**: [GitHub](https://github.com/zhaoyd1/compositional_SLMs)  
 **领域**: 自然语言处理 / 语言建模  
 **关键词**: 句法语言模型, 组合性, 成分句法树, Transformer, 句法泛化
 

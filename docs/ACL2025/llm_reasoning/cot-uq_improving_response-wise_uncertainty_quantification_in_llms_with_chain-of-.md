@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.17214](https://arxiv.org/abs/2502.17214)  
-**代码**: https://github.com/ZBox1005/CoT-UQ (有)  
+**代码**: [https://github.com/ZBox1005/CoT-UQ](https://github.com/ZBox1005/CoT-UQ)  
 **领域**: LLM推理  
 **关键词**: 不确定性量化, Chain-of-Thought, 关键词提取, 置信度校准, 过度自信
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.15840](https://arxiv.org/abs/2604.15840)  
-**代码**: https://github.com/AMAP-ML/CoEvolve  
+**代码**: [https://github.com/AMAP-ML/CoEvolve](https://github.com/AMAP-ML/CoEvolve)  
 **领域**: LLM Agent  
 **关键词**: 智能体训练、数据合成、共进化、遗忘信号、强化学习
 

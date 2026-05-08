@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - CLIP去偏
   - 社会偏见消除
-  - 视觉语言对齐
+  - 信息检索
   - 反事实去偏
   - 公平性
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.12785](https://arxiv.org/abs/2411.12785)  
-**代码**: https://github.com/ (有)  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/](https://github.com/)  
+**领域**: 信息检索  
 **关键词**: 社会偏见消除, CLIP去偏, 视觉-语言对齐, 公平性, 反事实去偏
 
 ## 一句话总结
@@ -113,7 +113,7 @@ CLIP等视觉-语言预训练模型在下游任务中表现优异，但因训练
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.12785](https://arxiv.org/abs/2411.12785)  
-**代码**: https://github.com/ (有，论文中提及)  
+**代码**: [https://github.com/](https://github.com/) (有，论文中提及)  
 **领域**: 多模态VLM  
 **关键词**: CLIP去偏、社会偏见消除、视觉语言对齐、反事实去偏、公平性
 
@@ -204,8 +204,8 @@ CLIP等视觉-语言预训练模型在分类、检索等下游任务上表现优
 
 ## 相关论文
 
-- [\[AAAI 2026\] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](../../AAAI2026/information_retrieval/himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)
 - [\[ICLR 2026\] Efficient Discriminative Joint Encoders for Large Scale Vision-Language Re-ranking](../../ICLR2026/information_retrieval/efficient_discriminative_joint_encoders_for_large_scale_vision-language_rerankin.md)
+- [\[AAAI 2026\] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](../../AAAI2026/information_retrieval/himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)
 - [\[ACL 2025\] Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms](../../ACL2025/information_retrieval/llm_reranking_harmful_content.md)
 - [\[ICCV 2025\] ViLU: Learning Vision-Language Uncertainties for Failure Prediction](../../ICCV2025/information_retrieval/vilu_learning_vision-language_uncertainties_for_failure_prediction.md)
 - [\[ACL 2025\] Evaluation of Attribution Bias in Generator-Aware Retrieval-Augmented Large Language Models](../../ACL2025/information_retrieval/evaluation_of_attribution_bias_in_generator-aware_retrieval-augmented_large_lang.md)

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Think in Latent Thoughts: A New Paradigm for Gloss-Free Sign Language Translation
 description: >-
-  [ACL 2026][手语翻译] 提出 SignThought，一种推理驱动的无注释手语翻译框架：引入可学习的潜在思维槽作为视频和文本之间的显式中间语义层，通过"先规划后定位"的双流解码器实现语义规划与视觉证据检索的解耦，在多个基准上超越现有无注释方法。
+  [ACL 2026][LLM评测] 提出 SignThought，一种推理驱动的无注释手语翻译框架：引入可学习的潜在思维槽作为视频和文本之间的显式中间语义层，通过"先规划后定位"的双流解码器实现语义规划与视觉证据检索的解耦，在多个基准上超越现有无注释方法。
 tags:
   - ACL 2026
-  - 手语翻译
+  - LLM评测
   - 无注释翻译
   - 潜在思维链
   - 跨模态推理
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.15301](https://arxiv.org/abs/2604.15301)  
 **代码**: [GitHub](https://github.com/fletcherjiang/SignThought)  
-**领域**: 手语翻译  
+**领域**: LLM评测  
 **关键词**: 手语翻译, 无注释翻译, 潜在思维链, 跨模态推理, 双流解码器
 
 ## 一句话总结
@@ -120,9 +120,9 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Latent Imputation before Prediction: A New Computational Paradigm for De Novo Peptide Sequencing](../../ICML2025/llm_evaluation/latent_imputation_before_prediction_a_new_computational_paradigm_for_de_novo_pep.md)
+- [\[ECCV 2024\] EvSign: Sign Language Recognition and Translation with Streaming Events](../../ECCV2024/llm_evaluation/evsign_sign_language_recognition_and_translation_with_streaming_events.md)
 - [\[ACL 2026\] Beyond Reproduction: A Paired-Task Framework for Assessing LLM Comprehension and Creativity in Literary Translation](beyond_reproduction_a_paired-task_framework_for_assessing_llm_comprehension_and_.md)
+- [\[AAAI 2026\] Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution](../../AAAI2026/llm_evaluation/think_how_your_teammates_think_active_inference_can_benefit_decentralized_execut.md)
 - [\[ACL 2026\] Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks](enhancing_linguistic_competence_of_language_models_through_pre-training_with_lan.md)
-- [\[ACL 2026\] Language Model as Planner and Formalizer under Constraints](language_model_as_planner_and_formalizer_under_constraints.md)
-- [\[ACL 2026\] Closing the Modality Reasoning Gap for Speech Large Language Models](closing_the_modality_reasoning_gap_for_speech_large_language_models.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2312.09988](https://arxiv.org/abs/2312.09988)  
 **代码**: [GitHub](https://github.com/YilinLiu97/Untrained-Recon)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: untrained network prior, deep image prior, spectral bias, frequency regularization, MRI reconstruction
 
 ## 一句话总结
@@ -172,7 +172,7 @@ $$\min_{\Theta, K} \mathcal{L}(\mathbf{y}; \mathbf{AG_\Theta(z)}) + \lambda \sum
 - [\[ECCV 2024\] Domesticating SAM for Breast Ultrasound Image Segmentation via Spatial-Frequency Fusion and Uncertainty Correction](domesticating_sam_for_breast_ultrasound_image_segmentation_via_spatial-frequency.md)
 - [\[ECCV 2024\] Brain-ID: Learning Contrast-agnostic Anatomical Representations for Brain Imaging](brain-id_learning_contrast-agnostic_anatomical_representations_for_brain_imaging.md)
 - [\[CVPR 2026\] Adaptive Confidence Regularization for Multimodal Failure Detection](../../CVPR2026/medical_imaging/adaptive_confidence_regularization_for_multimodal_failure_detection.md)
-- [\[ICLR 2026\] Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer](../../ICLR2026/medical_imaging/brain-it_image_reconstruction_from_fmri_via_brain-interaction_transformer.md)
 - [\[AAAI 2026\] FunKAN: Functional Kolmogorov-Arnold Network for Medical Image Enhancement and Segmentation](../../AAAI2026/medical_imaging/funkan_functional_kolmogorov-arnold_network_for_medical_image_enhancement_and_se.md)
+- [\[AAAI 2026\] Decoding with Structured Awareness: Integrating Directional, Frequency-Spatial, and Structural Attention for Medical Image Segmentation](../../AAAI2026/medical_imaging/decoding_with_structured_awareness_integrating_directional_frequency-spatial_and.md)
 
 <!-- RELATED:END -->

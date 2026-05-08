@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2412.17259](https://arxiv.org/abs/2412.17259)  
 **代码**: [CSHaitao/LegalAgentBench](https://github.com/CSHaitao/LegalAgentBench)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: LLM Agent, 法律领域, benchmark, 工具调用, 多跳推理
 
 ## 一句话总结
@@ -119,9 +119,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] GuideBench: Benchmarking Domain-Oriented Guideline Following for LLM Agents](guidebench_guideline_following.md)
-- [\[ACL 2025\] MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents](multiagentbench_evaluating_the_collaboration_and_competition_of_llm_agents.md)
 - [\[ACL 2025\] ToolHop: A Query-Driven Benchmark for Evaluating Large Language Models in Multi-Hop Tool Use](toolhop_multi_hop_tool_use_benchmark.md)
 - [\[ACL 2025\] The Behavior Gap: Evaluating Zero-shot LLM Agents in Complex Task-Oriented Dialogs](the_behavior_gap_evaluating_zero-shot_llm_agents_in_complex_task-oriented_dialog.md)
 - [\[ACL 2026\] Mina: A Multilingual LLM-Powered Legal Assistant Agent for Bangladesh](../../ACL2026/llm_agent/mina_a_multilingual_llm-powered_legal_assistant_agent_for_bangladesh_for_empower.md)
+- [\[NeurIPS 2025\] DefenderBench: A Toolkit for Evaluating Language Agents in Cybersecurity Environments](../../NeurIPS2025/llm_agent/defenderbench_a_toolkit_for_evaluating_language_agents_in_cybersecurity_environm.md)
 
 <!-- RELATED:END -->

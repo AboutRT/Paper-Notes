@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.11934](https://arxiv.org/abs/2505.11934)  
-**代码**: https://zhao-yian.github.io/iSegMan  
+**代码**: [https://zhao-yian.github.io/iSegMan](https://zhao-yian.github.io/iSegMan)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 交互式分割, 场景操作, 极线约束, SAM
 

@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 人体视频生成
   - 姿态控制
-  - LoRA微调
+  - 视频生成
   - 长视频生成
   - 扩散模型
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2508.05091](https://arxiv.org/abs/2508.05091)  
-**代码**: https://github.com/Jessie459/PoseGen  
-**领域**: 图像生成  
+**代码**: [https://github.com/Jessie459/PoseGen](https://github.com/Jessie459/PoseGen)  
+**领域**: 视频生成  
 **关键词**: 人体视频生成, 姿态控制, LoRA微调, 长视频生成, 扩散模型
 
 ## 一句话总结
@@ -105,10 +105,10 @@ PoseGen 通过 in-context LoRA 微调实现双重条件注入（token级外观 +
 
 ## 相关论文
 
+- [\[CVPR 2026\] Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context](geometry-as-context_modulating_explicit_3d_in_scene-consistent_video_generation_.md)
+- [\[CVPR 2026\] FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](flashmotion_few-step_controllable_video_generation_with_trajectory_guidance.md)
+- [\[ICCV 2025\] Long Context Tuning for Video Generation](../../ICCV2025/video_generation/long_context_tuning_for_video_generation.md)
 - [\[AAAI 2026\] MotionCharacter: Fine-Grained Motion Controllable Human Video Generation](../../AAAI2026/video_generation/motioncharacter_fine-grained_motion_controllable_human_video_generation.md)
 - [\[ICLR 2026\] LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning](../../ICLR2026/video_generation/lora-edit_controllable_first-frame-guided_video_editing_via_mask-aware_lora_fine.md)
-- [\[CVPR 2026\] Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context](geometry-as-context_modulating_explicit_3d_in_scene-consistent_video_generation_.md)
-- [\[CVPR 2026\] PAM: A Pose-Appearance-Motion Engine for Sim-to-Real HOI Video Generation](pam_a_pose-appearance-motion_engine_for_sim-to-real_hoi_video_generation.md)
-- [\[CVPR 2026\] Free-Lunch Long Video Generation via Layer-Adaptive O.O.D Correction](free-lunch_long_video_generation_via_layer-adaptive_ood_correction.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.20099](https://arxiv.org/abs/2406.20099)  
-**代码**: https://github.com/VICO-UoE/OddOneOutAD  
-**领域**: 异常检测 / 多视角 3D / 工业质检  
+**代码**: [https://github.com/VICO-UoE/OddOneOutAD](https://github.com/VICO-UoE/OddOneOutAD)  
+**领域**: 3D视觉  
 **关键词**: 场景级异常检测、cross-instance matching、DINOv2 蒸馏、可微渲染、Slot voxel attention
 
 ## 一句话总结
@@ -127,7 +127,7 @@ OddOneOutAD 在两个数据集上均显著优于：
 - [\[CVPR 2025\] PO3AD: Predicting Point Offsets toward Better 3D Point Cloud Anomaly Detection](po3ad_predicting_point_offsets_toward_better_3d_point_cloud_anomaly_detection.md)
 - [\[ICCV 2025\] A Unified Interpretation of Training-Time Out-of-Distribution Detection](../../ICCV2025/3d_vision/a_unified_interpretation_of_training-time_out-of-distribution_detection.md)
 - [\[CVPR 2025\] DropoutGS: Dropping Out Gaussians for Better Sparse-view Rendering](dropoutgs_dropping_out_gaussians_for_better_sparse-view_rendering.md)
-- [\[CVPR 2025\] One Diffusion to Generate Them All](one_diffusion_to_generate_them_all.md)
 - [\[ICCV 2025\] G2SF: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection](../../ICCV2025/3d_vision/g2sf_geometry-guided_score_fusion_for_multimodal_industrial_anomaly_detection.md)
+- [\[CVPR 2025\] One Diffusion to Generate Them All](one_diffusion_to_generate_them_all.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] HiERO: Understanding the Hierarchy of Human Behavior Enhances Reasoning on Egocentric Videos
 description: >-
-  [ICCV 2025][第一人称视频理解] 提出 HiERO，一种弱监督的层次化图架构，通过对齐视频片段与叙述文本来学习功能性活动线索的层次结构，使视频片段特征编码多尺度的行为依赖关系，在程序学习任务的零样本评估中大幅超越全监督方法（EgoProceL 上 F1 提升 +12.5%），在视频-文本对齐基准上也达到了 SOTA。
+  [ICCV 2025][LLM评测] 提出 HiERO，一种弱监督的层次化图架构，通过对齐视频片段与叙述文本来学习功能性活动线索的层次结构，使视频片段特征编码多尺度的行为依赖关系，在程序学习任务的零样本评估中大幅超越全监督方法（EgoProceL 上 F1 提升 +12.5%），在视频-文本对齐基准上也达到了 SOTA。
 tags:
   - ICCV 2025
-  - 第一人称视频理解
+  - LLM评测
   - 层次化行为建模
   - 图神经网络
   - 程序学习
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2505.12911](https://arxiv.org/abs/2505.12911)  
 **代码**: [github.com/sapeirone/HiERO](https://github.com/sapeirone/HiERO)  
-**领域**: 其他  
+**领域**: LLM评测  
 **关键词**: 第一人称视频理解, 层次化行为建模, 图神经网络, 程序学习, 零样本推理
 
 ## 一句话总结
@@ -199,9 +199,9 @@ $$\mathcal{L}_{ft} = \sum_{k=1}^{K} \sum_{c_i=k} \sum_{c_j=c_i} \frac{\exp(h_v(\
 ## 相关论文
 
 - [\[NeurIPS 2025\] Ineq-Comp: Benchmarking Human-Intuitive Compositional Reasoning in Automated Theorem Proving on Inequalities](../../NeurIPS2025/llm_evaluation/ineq-comp_benchmarking_human-intuitive_compositional_reasoning_in_automated_theo.md)
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](../../NeurIPS2025/llm_evaluation/bayesian_evaluation_of_large_language_model_behavior.md)
 - [\[ICML 2025\] ResearchTown: Simulator of Human Research Community](../../ICML2025/llm_evaluation/researchtown_simulator_of_human_research_community.md)
-- [\[ICLR 2026\] MOSIV: Multi-Object System Identification from Videos](../../ICLR2026/llm_evaluation/mosiv_multi-object_system_identification_from_videos.md)
 - [\[ICCV 2025\] 3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark](3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)
+- [\[ICLR 2026\] MOSIV: Multi-Object System Identification from Videos](../../ICLR2026/llm_evaluation/mosiv_multi-object_system_identification_from_videos.md)
+- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](../../NeurIPS2025/llm_evaluation/bayesian_evaluation_of_large_language_model_behavior.md)
 
 <!-- RELATED:END -->

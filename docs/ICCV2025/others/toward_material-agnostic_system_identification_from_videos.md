@@ -8,7 +8,7 @@ tags:
   - system identification
   - neural constitutive model
   - material point method
-  - 3D Gaussian splatting
+  - 其他
   - differentiable simulation
 ---
 
@@ -180,9 +180,9 @@ MASIV 在不使用任何材质先验的情况下，几何精度超过所有需�
 ## 相关论文
 
 - [\[NeurIPS 2025\] Revisiting Agnostic Boosting](../../NeurIPS2025/others/revisiting_agnostic_boosting.md)
+- [\[ICCV 2025\] Switch-a-View: View Selection Learned from Unlabeled In-the-wild Videos](switch-a-view_view_selection_learned_from_unlabeled_in-the-wild_videos.md)
 - [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](../../ACL2025/others/a_measure_of_the_system_dependence_of_automated_metrics.md)
-- [\[NeurIPS 2025\] On Agnostic PAC Learning in the Small Error Regime](../../NeurIPS2025/others/on_agnostic_pac_learning_in_the_small_error_regime.md)
-- [\[CVPR 2025\] Task-Agnostic Guided Feature Expansion for Class-Incremental Learning](../../CVPR2025/others/task-agnostic_guided_feature_expansion_for_class-incremental_learning.md)
-- [\[ACL 2025\] DocAgent: A Multi-Agent System for Automated Code Documentation Generation](../../ACL2025/others/docagent_a_multi-agent_system_for_automated_code_documentation_generation.md)
+- [\[ACL 2025\] GeNRe: A French Gender-Neutral Rewriting System Using Collective Nouns](../../ACL2025/others/genre_a_french_gender-neutral_rewriting_system_using_collective_nouns.md)
+- [\[ACL 2025\] IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery](../../ACL2025/others/iris_interactive_research_ideation_system_for_accelerating_scientific_discovery.md)
 
 <!-- RELATED:END -->

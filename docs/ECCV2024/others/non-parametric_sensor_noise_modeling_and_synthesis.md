@@ -9,7 +9,7 @@ tags:
   - 非参数模型
   - 概率质量函数
   - 噪声合成
-  - 图像去噪
+  - 其他
 ---
 
 # Non-parametric Sensor Noise Modeling and Synthesis
@@ -123,8 +123,8 @@ tags:
 
 - [\[AAAI 2026\] Predict and Resist: Long-Term Accident Anticipation under Sensor Noise](../../AAAI2026/others/predict_and_resist_long-term_accident_anticipation_under_sensor_noise.md)
 - [\[ECCV 2024\] AddMe: Zero-Shot Group-Photo Synthesis by Inserting People Into Scenes](addme_zero-shot_group-photo_synthesis_by_inserting_people_into_scenes.md)
+- [\[CVPR 2025\] Multi-Sensor Object Anomaly Detection: Unifying Appearance, Geometry, and Internal Properties](../../CVPR2025/others/multi-sensor_object_anomaly_detection_unifying_appearance_geometry_and_internal_.md)
 - [\[NeurIPS 2025\] Coresets for Clustering Under Stochastic Noise](../../NeurIPS2025/others/coresets_for_clustering_under_stochastic_noise.md)
 - [\[ACL 2025\] FastMCTS: A Simple Sampling Strategy for Data Synthesis](../../ACL2025/others/fastmcts_a_simple_sampling_strategy_for_data_synthesis.md)
-- [\[ACL 2025\] SudoLM: Learning Access Control of Parametric Knowledge with Authorization Alignment](../../ACL2025/others/sudolm_authorization_alignment.md)
 
 <!-- RELATED:END -->

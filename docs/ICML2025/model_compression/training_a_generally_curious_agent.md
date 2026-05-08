@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2502.17543](https://arxiv.org/abs/2502.17543)  
 **代码**: -  
-**领域**: LLM Agent / Reinforcement Learning  
+**领域**: 模型压缩  
 **关键词**: in-context RL, curious agent, curriculum learning, sequential decision making, Paprika  
 
 ## 一句话总结
@@ -133,8 +133,8 @@ Paprika 在所有 10 个任务组上提升 Llama-3.1-8B-Instruct 的平均成功
 
 - [\[ICML 2025\] MoRAgent: Parameter Efficient Agent Tuning with Mixture-of-Roles](moragent_parameter_efficient_agent_tuning_with_mixture-of-roles.md)
 - [\[ICML 2025\] Towards an Optimal Control Perspective of ResNet Training](towards_an_optimal_control_perspective_of_resnet_training.md)
-- [\[CVPR 2025\] NADER: Neural Architecture Design via Multi-Agent Collaboration](../../CVPR2025/model_compression/nader_neural_architecture_design_via_multi-agent_collaboration.md)
 - [\[ACL 2026\] Mem^p: Exploring Agent Procedural Memory](../../ACL2026/model_compression/memp_exploring_agent_procedural_memory.md)
 - [\[ICML 2025\] BoA: Attention-aware Post-training Quantization without Backpropagation](boa_attention-aware_post-training_quantization_without_backpropagation.md)
+- [\[ICML 2025\] WildChat-50m: A Deep Dive Into the Role of Synthetic Data in Post-Training](wildchat-50m_a_deep_dive_into_the_role_of_synthetic_data_in_post-training.md)
 
 <!-- RELATED:END -->

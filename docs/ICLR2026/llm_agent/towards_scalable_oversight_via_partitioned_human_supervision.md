@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.22500](https://arxiv.org/abs/2510.22500)  
 **代码**: 已开源  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: 可扩展监督, 互补标签, 分区人类监督, 无偏估计, Agent训练
 
 ## 一句话总结
@@ -156,7 +156,7 @@ $$|\hat{A}_{\text{mix}} - A| \leq \sqrt{2v\log\frac{2}{\delta}} + c\log\frac{2}{
 - [\[ACL 2026\] SynthAgent: Adapting Web Agents with Synthetic Supervision](../../ACL2026/llm_agent/synthagent_adapting_web_agents_with_synthetic_supervision.md)
 - [\[ICLR 2026\] AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](agentsynth_scalable_task_generation_for_generalist_computer-use_agents.md)
 - [\[ICLR 2026\] ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models](toolweaver_weaving_collaborative_semantics_for_scalable_tool_use_in_large_langua.md)
-- [\[ACL 2026\] Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectories](../../ACL2026/llm_agent/waking_up_blind_cold-start_optimization_of_supervision-free_agentic_trajectories.md)
 - [\[ACL 2026\] Towards Scalable Lightweight GUI Agents via Multi-role Orchestration](../../ACL2026/llm_agent/towards_scalable_lightweight_gui_agents_via_multi-role_orchestration.md)
+- [\[ACL 2026\] Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectories](../../ACL2026/llm_agent/waking_up_blind_cold-start_optimization_of_supervision-free_agentic_trajectories.md)
 
 <!-- RELATED:END -->

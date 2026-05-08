@@ -5,7 +5,7 @@ description: >-
   [ICML2025 (ML4Astro Workshop)][多模态VAE] 提出基于 Perceiver-IO 架构的多模态混合专家 VAE（MMVAE），对 Ia 型超新星的光变曲线和光谱进行联合嵌入，实现从光变曲线到光谱的跨模态概率生成，重建精度优于对比学习基线。
 tags:
   - ICML2025 (ML4Astro Workshop)
-  - 多模态VAE
+  - 物理学
   - 超新星
   - 跨模态生成
   - Perceiver
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025 (ML4Astro Workshop)  
 **arXiv**: [2507.16817](https://arxiv.org/abs/2507.16817)  
 **代码**: [YunyiShen/VAESNe-dev](https://github.com/YunyiShen/VAESNe-dev)  
-**领域**: physics  
+**领域**: 物理学  
 **关键词**: 多模态VAE, 超新星, 跨模态生成, Perceiver, 光变曲线, 光谱
 
 ## 一句话总结
@@ -148,6 +148,6 @@ $$\mathcal{L}(x_{1,\dots,M}) = \mathbb{E}_{z^{1:K} \sim q_\phi} \left[ \log \sum
 - [\[CVPR 2025\] ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks](../../CVPR2025/physics/atp_adaptive_threshold_pruning_for_efficient_data_encoding_in_quantum_neural_net.md)
 - [\[NeurIPS 2025\] Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](../../NeurIPS2025/physics/multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)
 - [\[AAAI 2026\] Data Verification is the Future of Quantum Computing Copilots](../../AAAI2026/physics/data_verification_is_the_future_of_quantum_computing_copilots.md)
-- [\[ICML 2025\] Gravity-Bench-v1: A Benchmark on Gravitational Physics Discovery for Agents](gravity-bench-v1_a_benchmark_on_gravitational_physics_discovery_for_agents.md)
+- [\[ICML 2025\] Finetuning Stellar Spectra Foundation Models with LoRA](finetuning_stellar_spectra_foundation_models_with_lora.md)
 
 <!-- RELATED:END -->

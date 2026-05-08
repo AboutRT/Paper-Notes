@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.02088](https://arxiv.org/abs/2507.02088)  
 **代码**: [GitHub](https://github.com/) (论文附带数据集和代码)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: Chinese bias, benchmark, fairness, stereotypes, multi-task evaluation
 
 ## 一句话总结

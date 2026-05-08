@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.10159](https://arxiv.org/abs/2407.10159)  
-**代码**: https://github.com/l1997i/rapid_seg (有)  
+**代码**: [https://github.com/l1997i/rapid_seg](https://github.com/l1997i/rapid_seg)  
 **领域**: 自动驾驶  
 **关键词**: LiDAR语义分割, 等距不变性, 距离分布特征, 自编码器嵌入, 注意力融合
 

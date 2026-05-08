@@ -56,12 +56,12 @@ Point-PQAE包含三个核心模块：
 
    首次为3D自监督学习设计裁剪机制。与2D不同，3D空间中同样大小的立方体内点数可能差异很大。设计思路：
    
-   - 随机采样裁剪比例 $r_1, r_2 \in [r_m, 1]$（$r_m = 0.6$）
-   - 随机选择两个中心点 $\mathbf{C_1}, \mathbf{C_2}$
-   - 对每个中心点选择最近的 $r_i \times p$ 个点构成视图 $\mathbf{X}_1, \mathbf{X}_2$
-   - 记录各视图的几何中心 $\mathbf{L}_1, \mathbf{L}_2$
-   - **独立归一化**：各视图以自身几何中心为原点进行min-max归一化
-   - **随机旋转增强**：对各视图独立旋转，进一步解耦坐标系
+    - 随机采样裁剪比例 $r_1, r_2 \in [r_m, 1]$（$r_m = 0.6$）
+    - 随机选择两个中心点 $\mathbf{C_1}, \mathbf{C_2}$
+    - 对每个中心点选择最近的 $r_i \times p$ 个点构成视图 $\mathbf{X}_1, \mathbf{X}_2$
+    - 记录各视图的几何中心 $\mathbf{L}_1, \mathbf{L}_2$
+    - **独立归一化**：各视图以自身几何中心为原点进行min-max归一化
+    - **随机旋转增强**：对各视图独立旋转，进一步解耦坐标系
    
    独立归一化中心 + 随机旋转使两视图的坐标系完全解耦，破坏了固定的空间关系。
 
@@ -69,11 +69,11 @@ Point-PQAE包含三个核心模块：
 
    解耦视图的重建关键在于告知模型两视图之间的相对位置关系。
    
-   - 定义视图间相对位置：$\mathbf{RL}_{1 \to 2} = \mathbf{L}_1 - \mathbf{L}_2$
-   - 组合patch级相对位置：$\mathbf{RP}_{1 \to 2} = \text{Concat}(\mathbf{G}_2, \mathbf{RL}_{1 \to 2}) \in \mathbb{R}^{n \times 6}$
-   - 使用**固定正弦编码**（而非可学习编码）将6维相对位置映射为 $D$ 维：
+    - 定义视图间相对位置：$\mathbf{RL}_{1 \to 2} = \mathbf{L}_1 - \mathbf{L}_2$
+    - 组合patch级相对位置：$\mathbf{RP}_{1 \to 2} = \text{Concat}(\mathbf{G}_2, \mathbf{RL}_{1 \to 2}) \in \mathbb{R}^{n \times 6}$
+    - 使用**固定正弦编码**（而非可学习编码）将6维相对位置映射为 $D$ 维：
    
-   $$\mathbf{VRPE}_{1 \to 2}^i = [\sin(\frac{\mathbf{RP}^i}{e^{2/D_{12}}}), \cos(\frac{\mathbf{RP}^i}{e^{2/D_{12}}}), \ldots]$$
+    $\mathbf{VRPE}_{1 \to 2}^i = [\sin(\frac{\mathbf{RP}^i}{e^{2/D_{12}}}), \cos(\frac{\mathbf{RP}^i}{e^{2/D_{12}}}), \ldots]$
    
    固定编码避免了可学习编码损害相对位置的精确表达（消融实验证实）。
 
@@ -83,7 +83,7 @@ Point-PQAE包含三个核心模块：
    
    假设视图1的隐表示 $\mathbf{H}_1$ 已包含其内在特征和全局信息，结合 $\mathbf{VRPE}_{1 \to 2}$，就能重建视图2：
    
-   $$\mathbf{T}_2 = \text{Softmax}(\frac{\mathbf{Q}_{\mathbf{VRPE}_{1 \to 2}} \mathbf{K}_{\mathbf{H}_1}}{\sqrt{D}}) \mathbf{V}_{\mathbf{H}_1}$$
+    $\mathbf{T}_2 = \text{Softmax}(\frac{\mathbf{Q}_{\mathbf{VRPE}_{1 \to 2}} \mathbf{K}_{\mathbf{H}_1}}{\sqrt{D}}) \mathbf{V}_{\mathbf{H}_1}$
    
    重建是对称的（双向跨重建），最终损失使用 $\ell_2$ Chamfer Distance。
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.10816](https://arxiv.org/abs/2602.10816)  
 **代码**: 无  
-**领域**: LLM分析 / 预测稳定性  
+**领域**: 图像生成  
 **关键词**: Token Constraint Bound, 预测鲁棒性, 隐状态扰动, 输出嵌入几何, prompt工程  
 
 ## 一句话总结
@@ -122,8 +122,8 @@ LLM 最后一层隐状态 $\mathbf{h} \in \mathbb{R}^d$ 经输出权重矩阵 $\
 
 - [\[ICLR 2026\] Infinity and Beyond: Compositional Alignment in VAR and Diffusion T2I Models](infinity_and_beyond_compositional_alignment_in_var_and_diffusion_t2i_models.md)
 - [\[ICLR 2026\] Verifier-Constrained Flow Expansion for Discovery Beyond the Data](verifier-constrained_flow_expansion_for_discovery_beyond_the_data.md)
-- [\[ICLR 2026\] Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)](improving_discrete_diffusion_unmasking_policies_beyond_explicit_reference_polici.md)
+- [\[NeurIPS 2025\] DEXTER: Diffusion-Guided EXplanations with TExtual Reasoning for Vision Models](../../NeurIPS2025/image_generation/dexter_diffusion-guided_explanations_with_textual_reasoning_for_vision_models.md)
 - [\[CVPR 2026\] Improving Text-to-Image Generation with Intrinsic Self-Confidence Rewards](../../CVPR2026/image_generation/improving_text-to-image_generation_with_intrinsic_self-confidence_rewards.md)
-- [\[ICLR 2026\] DoFlow: Flow-based Generative Models for Interventional and Counterfactual Forecasting](doflow_flow-based_generative_models_for_interventional_and_counterfactual_foreca.md)
+- [\[ICLR 2026\] Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)](improving_discrete_diffusion_unmasking_policies_beyond_explicit_reference_polici.md)
 
 <!-- RELATED:END -->

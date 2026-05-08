@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.11333](https://arxiv.org/abs/2412.11333)  
 **代码**: [https://github.com/SpaceHunterInf/Segment_Level_Diffusion](https://github.com/SpaceHunterInf/Segment_Level_Diffusion)  
-**领域**: 文本生成  
+**领域**: LLM/NLP  
 **关键词**: 扩散模型, 长文本生成, 段落级扩散, 对比学习, 对抗训练  
 
 ## 一句话总结
@@ -134,7 +134,7 @@ tags:
 - [\[ACL 2025\] DiffLM: Controllable Synthetic Data Generation via Diffusion Language Models](difflm_controllable_synthetic_data_generation_via_diffusion_language_models.md)
 - [\[ACL 2025\] EdiText: Controllable Coarse-to-Fine Text Editing with Diffusion Language Models](editext_diffusion_text_editing.md)
 - [\[ACL 2025\] LongDPO: Unlock Better Long-form Generation Abilities for LLMs via Critique-augmented Stepwise Information](longdpo_unlock_better_long-form_generation_abilities_for_llms_via_critique-augme.md)
-- [\[ACL 2025\] Beyond In-Context Learning: Aligning Long-form Generation of LLMs via Task-Inherent Attribute Guidelines](beyond_in-context_learning_aligning_long-form_generation_of_large_language_model.md)
 - [\[ACL 2025\] TESS 2: A Large-Scale Generalist Diffusion Language Model](tess_2_a_large-scale_generalist_diffusion_language_model.md)
+- [\[ACL 2025\] Beyond In-Context Learning: Aligning Long-form Generation of LLMs via Task-Inherent Attribute Guidelines](beyond_in-context_learning_aligning_long-form_generation_of_large_language_model.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13390](https://arxiv.org/abs/2407.13390)  
-**代码**: https://kevinhuangxf.github.io/GeometrySticker (有，项目页)  
+**代码**: [https://kevinhuangxf.github.io/GeometrySticker](https://kevinhuangxf.github.io/GeometrySticker) (有，项目页)  
 **领域**: 3D视觉  
 **关键词**: NeRF版权保护, 数字水印, 几何嵌入, 重着色鲁棒, 隐式表示安全
 

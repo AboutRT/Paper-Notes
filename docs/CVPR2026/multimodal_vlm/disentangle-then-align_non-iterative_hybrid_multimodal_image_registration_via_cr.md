@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.19623](https://arxiv.org/abs/2603.19623)  
-**代码**: [GitHub](https://github.com/Chunlei0913/HRNet) (有)  
+**代码**: [GitHub](https://github.com/Chunlei0913/HRNet)  
 **领域**: Multimodal VLM / 多模态图像配准  
 **关键词**: 多模态配准, 混合变换, 特征解纠缠, 跨尺度一致性, Mamba
 
@@ -142,6 +142,6 @@ RE相对ADRNet降低：61.2%, 62.5%, 66.9%, 23.3%
 - [\[CVPR 2026\] Multi-Modal Image Fusion via Intervention-Stable Feature Learning](multi-modal_image_fusion_via_intervention-stable_feature_learning.md)
 - [\[CVPR 2026\] EBMC: Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis](ebmc_multimodal_sentiment_analysis.md)
 - [\[ICCV 2025\] Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](../../ICCV2025/multimodal_vlm/causal_disentanglement_and_cross-modal_alignment_for_enhanced_few-shot_learning.md)
-- [\[CVPR 2026\] Locate-then-Sparsify: Attribution Guided Sparse Strategy for Visual Hallucination Mitigation](locate-then-sparsify_attribution_guided_sparse_strategy_for_visual_hallucination.md)
+- [\[CVPR 2026\] ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)
 
 <!-- RELATED:END -->

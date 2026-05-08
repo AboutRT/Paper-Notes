@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.21045](https://arxiv.org/abs/2604.21045)  
-**代码**: https://github.com/owaski/HPO  
-**领域**: NLP理解 / 语音翻译  
+**代码**: [https://github.com/owaski/HPO](https://github.com/owaski/HPO)  
+**领域**: 图像分割  
 **关键词**: 同声传译, 强化学习, 层级奖励, LLM语音翻译, GRPO
 
 ## 一句话总结
@@ -122,7 +122,7 @@ tags:
 - [\[ICLR 2026\] Universal Multi-Domain Translation via Diffusion Routers](../../ICLR2026/segmentation/universal_multi-domain_translation_via_diffusion_routers.md)
 - [\[CVPR 2026\] ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization](../../CVPR2026/segmentation/conceptprism_concept_disentanglement_in_personalized_diffusion_models_via_residu.md)
 - [\[CVPR 2026\] RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection](../../CVPR2026/segmentation/rsonet_regionguided_selective_optimization_network.md)
-- [\[CVPR 2026\] GeoGuide: Hierarchical Geometric Guidance for Open-Vocabulary 3D Semantic Segmentation](../../CVPR2026/segmentation/geoguide_hierarchical_geometric_guidance_for_open-vocabulary_3d_semantic_segment.md)
 - [\[AAAI 2026\] Breaking the Stealth-Potency Trade-off in Clean-Image Backdoors with Generative Trigger Optimization](../../AAAI2026/segmentation/breaking_the_stealth-potency_trade-off_in_clean-image_backdoors_with_generative_.md)
+- [\[CVPR 2026\] GeoGuide: Hierarchical Geometric Guidance for Open-Vocabulary 3D Semantic Segmentation](../../CVPR2026/segmentation/geoguide_hierarchical_geometric_guidance_for_open-vocabulary_3d_semantic_segment.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2504.04126](https://arxiv.org/abs/2504.04126)  
 **代码**: [GitHub](https://github.com/AvatarAnything/StructuralVideoDiffusion)  
-**领域**: 3d_vision  
+**领域**: 视频生成  
 **关键词**: 多身份人体动画, 视频扩散模型, 身份嵌入, 深度法线联合学习, 人物交互
 
 ## 一句话总结

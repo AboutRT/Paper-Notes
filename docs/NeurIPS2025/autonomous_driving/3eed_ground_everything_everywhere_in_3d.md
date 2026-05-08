@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.01755](https://arxiv.org/abs/2511.01755)  
 **代码**: [https://github.com/worldbench/3EED](https://github.com/worldbench/3EED)  
-**领域**: 3D视觉 / 视觉定位  
+**领域**: 自动驾驶  
 **关键词**: 3D visual grounding, 多平台, 多模态, 室外场景, 跨平台迁移  
 
 ## 一句话总结

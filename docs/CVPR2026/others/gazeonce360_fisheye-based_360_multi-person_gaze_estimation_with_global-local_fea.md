@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.17161](https://arxiv.org/abs/2603.17161)  
-**代码**: https://caizhuojiang.github.io/GazeOnce360/ (Project Page)  
+**代码**: [https://caizhuojiang.github.io/GazeOnce360/](https://caizhuojiang.github.io/GazeOnce360/) (Project Page)  
 **领域**: 其他  
 **关键词**: 视线估计, 鱼眼相机, 多人场景, 双分辨率融合, 合成数据
 
@@ -114,8 +114,8 @@ GazeOnce360 是一个 anchor-based 的检测+回归网络。输入鱼眼图像�
 
 - [\[ECCV 2024\] Gaze Target Detection Based on Head-Local-Global Coordination](../../ECCV2024/others/gaze_target_detection_based_on_head-local-global_coordination.md)
 - [\[CVPR 2026\] OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion](omnifood8k_nutrition_estimation.md)
+- [\[ICCV 2025\] Multi-view Gaze Target Estimation](../../ICCV2025/others/multi-view_gaze_target_estimation.md)
 - [\[ECCV 2024\] De-confounded Gaze Estimation](../../ECCV2024/others/de-confounded_gaze_estimation.md)
 - [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](../../AAAI2026/others/local_guidance_for_configuration-based_multi-agent_pathfinding.md)
-- [\[CVPR 2026\] V-Nutri: Dish-Level Nutrition Estimation from Egocentric Cooking Videos](v_nutri_nutrition_estimation_cooking_videos.md)
 
 <!-- RELATED:END -->

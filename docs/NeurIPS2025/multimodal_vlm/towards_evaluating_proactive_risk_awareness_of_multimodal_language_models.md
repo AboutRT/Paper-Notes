@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - 主动安全
-  - 风险检测
+  - 多模态VLM
   - LLM评测
   - benchmark
   - 前瞻性推理
@@ -50,11 +50,11 @@ PaSBench的构建遵循知识收集→样本生成→质量控制的流程，最
 1. **知识收集与筛选**
 
    从中文安全科普书籍和政府官方网站收集日常生活安全知识，遵循5项严格原则：
-   - **用户特异性**：聚焦个人行为导致的风险（如采食野生蘑菇），排除群体/社会层面风险
-   - **风险确定性**：风险与伤害间有明确因果关联
-   - **知识相关性**：只保留当前有效的安全知识
-   - **后果严重性**：风险必须导致显著伤害
-   - **可验证性**：不确定的知识需通过Google搜索5分钟内验证
+    - **用户特异性**：聚焦个人行为导致的风险（如采食野生蘑菇），排除群体/社会层面风险
+    - **风险确定性**：风险与伤害间有明确因果关联
+    - **知识相关性**：只保留当前有效的安全知识
+    - **后果严重性**：风险必须导致显著伤害
+    - **可验证性**：不确定的知识需通过Google搜索5分钟内验证
 
    三名标注员交叉核查，从495条中筛选出288条知识点。
 
@@ -69,9 +69,9 @@ PaSBench的构建遵循知识收集→样本生成→质量控制的流程，最
 4. **评测协议**
 
    对每个样本运行模型N=16次，报告三个指标：
-   - **准确率（Average-of-N）**：正确识别并解释风险的比例
-   - **潜力（Best-of-N）**：至少一次正确的比例
-   - **鲁棒性（Worst-of-N）**：所有16次都正确的比例
+    - **准确率（Average-of-N）**：正确识别并解释风险的比例
+    - **潜力（Best-of-N）**：至少一次正确的比例
+    - **鲁棒性（Worst-of-N）**：所有16次都正确的比例
 
    正确需同时满足：(1) 识别——警告用户停止危险行为；(2) 解释——给出合理的风险原因。用GPT-4.1作为评判模型（人工验证准确率94.5%）。
 
@@ -153,8 +153,8 @@ PaSBench是纯评测benchmark，不涉及训练。
 
 - [\[NeurIPS 2025\] Evaluating Multimodal Large Language Models on Core Music Perception Tasks](evaluating_multimodal_large_language_models_on_core_music_perception_tasks.md)
 - [\[NeurIPS 2025\] Adapting Vision-Language Models for Evaluating World Models](adapting_visionlanguage_models_for_evaluating_world_models.md)
-- [\[NeurIPS 2025\] MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios](mme-videoocr_evaluating_ocr-based_capabilities_of_multimodal_llms_in_video_scena.md)
-- [\[NeurIPS 2025\] Beyond Greedy Exits: Improved Early Exit Decisions for Risk Control and Reliability](beyond_greedy_exits_improved_early_exit_decisions_for_risk_control_and_reliabili.md)
 - [\[NeurIPS 2025\] Advancing Compositional Awareness in CLIP with Efficient Fine-Tuning](advancing_compositional_awareness_in_clip_with_efficient_fin.md)
+- [\[NeurIPS 2025\] MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios](mme-videoocr_evaluating_ocr-based_capabilities_of_multimodal_llms_in_video_scena.md)
+- [\[NeurIPS 2025\] FineGRAIN: Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges](finegrain_evaluating_failure_modes_of_text-to-image_models_with_vision_language_.md)
 
 <!-- RELATED:END -->

@@ -128,9 +128,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Convert Language Model into a Value-based Strategic Planner](../../ACL2025/llm_nlp/convert_language_model_into_a_value-based_strategic_planner.md)
+- [\[ECCV 2024\] One-stage Prompt-based Continual Learning](one-stage_prompt-based_continual_learning.md)
+- [\[ECCV 2024\] Towards Open-Ended Visual Recognition with Large Language Model](towards_open-ended_visual_recognition_with_large_language_models.md)
 - [\[ACL 2025\] Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](../../ACL2025/llm_nlp/unintended_harms_of_value-aligned_llms_psychological_and_empirical_insights.md)
 - [\[ECCV 2024\] Propose, Assess, Search: Harnessing LLMs for Goal-Oriented Planning in Instructional Videos](propose_assess_search_harnessing_llms_for_goal-oriented_planning_in_instructiona.md)
-- [\[ACL 2025\] Cultural Learning-Based Culture Adaptation of Language Models](../../ACL2025/llm_nlp/cultural_learning-based_culture_adaptation_of_language_models.md)
-- [\[ACL 2025\] JoPA: Explaining Large Language Model's Generation via Joint Prompt Attribution](../../ACL2025/llm_nlp/jopa_explaining_large_language_models_generation_via_joint_prompt_attribution.md)
 
 <!-- RELATED:END -->

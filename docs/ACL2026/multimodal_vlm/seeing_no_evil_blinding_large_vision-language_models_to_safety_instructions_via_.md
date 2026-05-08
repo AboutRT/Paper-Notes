@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 多模态
-  - 视觉越狱攻击
+  - 多模态VLM
   - 注意力操纵
   - 安全对齐
   - 梯度冲突
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.10299](https://arxiv.org/abs/2604.10299)  
 **代码**: [github.com/Landsayy/AttentionJailbreak](https://github.com/Landsayy/AttentionJailbreak)  
-**领域**: 多模态安全与对抗攻击  
+**领域**: 多模态VLM  
 **关键词**: 视觉越狱攻击, 注意力操纵, 安全对齐, 梯度冲突, 大视觉语言模型
 
 ## 一句话总结
@@ -119,9 +119,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Hierarchical Safety Realignment: Lightweight Restoration of Safety in Pruned Large Vision-Language Models](../../ACL2025/multimodal_vlm/hierarchical_safety_realignment_lightweight_restoration_of_safety_in_pruned_larg.md)
-- [\[ACL 2026\] SafetyALFRED: Evaluating Safety-Conscious Planning of Multimodal Large Language Models](safetyalfred_evaluating_safety-conscious_planning_of_multimodal_large_language_m.md)
 - [\[ACL 2026\] HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models](hiprune_hierarchical_attention_for_efficient_token_pruning_in_vision-language_mo.md)
-- [\[ACL 2026\] Automatic Slide Updating with User-Defined Dynamic Templates and Natural Language Instructions](automatic_slide_updating_with_user-defined_dynamic_templates_and_natural_languag.md)
 - [\[ACL 2026\] Rethinking Jailbreak Detection of Large Vision Language Models with Representational Contrastive Scoring](rethinking_jailbreak_detection_of_large_vision_language_models_with_representati.md)
+- [\[ACL 2026\] Doc-PP: Document Policy Preservation Benchmark for Large Vision-Language Models](doc-pp_document_policy_preservation_benchmark_for_large_vision-language_models.md)
+- [\[ACL 2026\] Automatic Slide Updating with User-Defined Dynamic Templates and Natural Language Instructions](automatic_slide_updating_with_user-defined_dynamic_templates_and_natural_languag.md)
 
 <!-- RELATED:END -->

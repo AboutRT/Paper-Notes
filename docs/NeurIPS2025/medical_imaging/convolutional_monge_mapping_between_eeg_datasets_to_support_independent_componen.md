@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.01721](https://arxiv.org/abs/2509.01721)  
-**代码**: https://github.com/cniel-ud/ICWaves  
+**代码**: [https://github.com/cniel-ud/ICWaves](https://github.com/cniel-ud/ICWaves)  
 **领域**: EEG信号处理 / 域适应  
 **关键词**: EEG, 域适应, 最优传输, Convolutional Monge Mapping, 独立成分分类
 

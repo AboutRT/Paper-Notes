@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2412.00789](https://arxiv.org/abs/2412.00789)  
-**代码**: https://github.com/corrective-unlearning-for-gnns  
+**代码**: [https://github.com/corrective-unlearning-for-gnns](https://github.com/corrective-unlearning-for-gnns)  
 **领域**: 图学习  
 **关键词**: 图神经网络, 纠正性遗忘, 对抗操纵, 消息传播, 图遗忘
 

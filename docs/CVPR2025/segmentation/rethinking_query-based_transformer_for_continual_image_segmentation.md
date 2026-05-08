@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2507.07831](https://arxiv.org/abs/2507.07831)  
-**代码**: https://github.com/SooLab/SimCIS  
+**代码**: [https://github.com/SooLab/SimCIS](https://github.com/SooLab/SimCIS)  
 **领域**: 图像分割 / 持续学习  
 **关键词**: 持续图像分割, query-based Transformer, 内建物体性, 虚拟查询, 灾难性遗忘
 

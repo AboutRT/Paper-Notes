@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.23702](https://arxiv.org/abs/2503.23702)  
-**代码**: https://github.com/XiShuFan/CrossTooth_CVPR2025  
+**代码**: [https://github.com/XiShuFan/CrossTooth_CVPR2025](https://github.com/XiShuFan/CrossTooth_CVPR2025)  
 **领域**: 3D视觉 / 医学图像  
 **关键词**: Dental Segmentation, Intraoral Scan, Selective Downsampling, Cross-modal Fusion, Boundary Preserving
 
@@ -122,9 +122,9 @@ CrossTooth 由两个分支组成：(1) **点云分支**：对选择性下采样�
 ## 相关论文
 
 - [\[CVPR 2025\] BFANet: Revisiting 3D Semantic Segmentation with Boundary Feature Analysis](bfanet_revisiting_3d_semantic_segmentation_with_boundary_feature_analysis.md)
-- [\[CVPR 2025\] Mosaic3D: Foundation Dataset and Model for Open-Vocabulary 3D Segmentation](mosaic3d_foundation_dataset_and_model_for_open-vocabulary_3d_segmentation.md)
 - [\[CVPR 2025\] COB-GS: Clear Object Boundaries in 3DGS Segmentation Based on Boundary-Adaptive Gaussian Splitting](cob-gs_clear_object_boundaries_in_3dgs_segmentation_based_on_boundary-adaptive_g.md)
 - [\[CVPR 2025\] Feature-Preserving Mesh Decimation for Normal Integration](feature-preserving_mesh_decimation_for_normal_integration.md)
 - [\[CVPR 2025\] Identity-preserving Distillation Sampling by Fixed-Point Iterator](identity-preserving_distillation_sampling_by_fixed-point_iterator.md)
+- [\[CVPR 2025\] Gaussian Splatting Feature Fields for Privacy-Preserving Visual Localization](gaussian_splatting_feature_fields_for_privacy-preserving_visual_localization.md)
 
 <!-- RELATED:END -->

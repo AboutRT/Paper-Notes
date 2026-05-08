@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 隐含蕴涵
   - NLI
-  - 语用推理
+  - 其他
   - 显式vs隐式蕴涵
   - 四分类NLI
   - INLI数据集
@@ -20,7 +20,7 @@ tags:
 **代码**: [https://github.com/google-deepmind/inli](https://github.com/google-deepmind/inli)  
 **作者**: Shreya Havaldar, Hamidreza Alvari, John Palowitch, Mohammad Javad Hosseini, Senaka Buthpitiya, Alex Fabrikant
 **机构**: University of Pennsylvania, Google DeepMind
-**领域**: 自然语言推理 / 语用理解  
+**领域**: 其他  
 **关键词**: 隐含蕴涵, NLI, 语用推理, 显式vs隐式蕴涵, 四分类NLI, INLI数据集
 
 ## 一句话总结

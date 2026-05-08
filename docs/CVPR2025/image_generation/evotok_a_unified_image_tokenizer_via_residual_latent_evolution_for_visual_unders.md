@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.12108](https://arxiv.org/abs/2603.12108)  
-**代码**: https://github.com/VisionXLab/EvoTok  
+**代码**: [https://github.com/VisionXLab/EvoTok](https://github.com/VisionXLab/EvoTok)  
 **领域**: 图像生成 / 多模态  
 **关键词**: 统一图像Tokenizer, 残差量化, 视觉理解与生成, VQ-VAE, 多模态LLM
 

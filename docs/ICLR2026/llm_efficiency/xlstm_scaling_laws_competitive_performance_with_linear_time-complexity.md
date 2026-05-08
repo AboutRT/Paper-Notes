@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.02228](https://arxiv.org/abs/2510.02228)  
 **代码**: [NX-AI/xlstm_scaling_laws](https://github.com/NX-AI/xlstm_scaling_laws)  
-**领域**: llm_efficiency  
+**领域**: LLM效率  
 **关键词**: scaling laws, xLSTM, 线性复杂度, Transformer对比, 推理效率  
 
 ## 一句话总结
@@ -123,7 +123,7 @@ tags:
 - [\[ICLR 2026\] Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws](fast_catch-up_late_switching_optimal_batch_size_scheduling_via_functional_scalin.md)
 - [\[NeurIPS 2025\] Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels](../../NeurIPS2025/llm_efficiency/tiled_flash_linear_attention_more_efficient_linear_rnn_and_xlstm_kernels.md)
 - [\[ICLR 2026\] RACE Attention: A Strictly Linear-Time Attention for Long-Sequence Training](race_attention_a_strictly_linear-time_attention_for_long-sequence_training.md)
-- [\[ICML 2025\] Scaling Inference-Efficient Language Models](../../ICML2025/llm_efficiency/scaling_inference-efficient_language_models.md)
-- [\[ICCV 2025\] Rectifying Magnitude Neglect in Linear Attention](../../ICCV2025/llm_efficiency/rectifying_magnitude_neglect_in_linear_attention.md)
+- [\[ICLR 2026\] IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling](iterresearch_rethinking_long-horizon_agents_with_interaction_scaling.md)
+- [\[NeurIPS 2025\] Linear Attention for Efficient Bidirectional Sequence Modeling](../../NeurIPS2025/llm_efficiency/linear_attention_for_efficient_bidirectional_sequence_modeling.md)
 
 <!-- RELATED:END -->

@@ -3,7 +3,7 @@ title: "HOI-IDiff: An Image-like Diffusion Method for Human-Object Interaction D
 description: "提出HOI Image表示和多项式扩散方法用于人-物交互检测，HICO-DET full mAP达47.71，通过Slice Patchification和先验初始化大幅超越标准扩散"
 tags:
   - CVPR2025
-  - 人物交互检测
+  - 图像生成
   - 扩散模型
   - HOI检测
   - 图像生成

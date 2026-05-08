@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2502.04667](https://arxiv.org/abs/2502.04667)  
-**代码**: https://github.com/chen123CtrlS/T-CotMechanism  
+**代码**: [https://github.com/chen123CtrlS/T-CotMechanism](https://github.com/chen123CtrlS/T-CotMechanism)  
 **领域**: AI Safety / LLM推理  
 **关键词**: 组合泛化, 思维链训练, 信息论泛化界, 推理电路, OOD泛化
 

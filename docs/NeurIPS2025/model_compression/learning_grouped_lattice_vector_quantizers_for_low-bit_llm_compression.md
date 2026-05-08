@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20984](https://arxiv.org/abs/2510.20984)  
 **代码**: [GitHub](https://github.com/xzhang9308/GLVQ)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 格向量量化, 低比特压缩, 后训练量化, 可学习码本, companding变换
 
 ## 一句话总结

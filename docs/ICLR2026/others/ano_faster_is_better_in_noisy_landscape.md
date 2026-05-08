@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2508.18258](https://arxiv.org/abs/2508.18258)  
 **代码**: 有  
-**领域**: 优化  
+**领域**: 其他  
 **关键词**: optimizer, sign-based, noise robustness, reinforcement-learning, direction-magnitude decoupling
 
 ## 一句话总结

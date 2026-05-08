@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.08526](https://arxiv.org/abs/2510.08526)  
 **代码**: 无  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 熵正则化, 分布式强化学习, 收敛性, 温度解耦, 最优策略  
 **arXiv**: [2510.08526](https://arxiv.org/abs/2510.08526)  
 **代码**: 无  
@@ -147,9 +147,9 @@ $$(\mathcal{T}_\tau^\pi \bar{\zeta})_{x,a} := (\mathtt{b}_{r(x,a),\gamma} \circ 
 ## 相关论文
 
 - [\[NeurIPS 2025\] Last Iterate Convergence in Monotone Mean Field Games](last_iterate_convergence_in_monotone_mean_field_games.md)
+- [\[ICML 2025\] Beyond CVaR: Leveraging Static Spectral Risk Measures for Enhanced Decision-Making in Distributional Reinforcement Learning](../../ICML2025/reinforcement_learning/beyond_cvar_leveraging_static_spectral_risk_measures_for_enhanced_decision-makin.md)
 - [\[NeurIPS 2025\] Global Convergence for Average Reward Constrained MDPs with Primal-Dual Actor-Critic](global_convergence_for_average_reward_constrained_mdps_with_primal-dual_actor_cr.md)
 - [\[ICLR 2026\] Entropy-Preserving Reinforcement Learning (REPO / ADAPO)](../../ICLR2026/reinforcement_learning/entropy-preserving_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](beyond_the_8020_rule_highentropy_minority_tokens_drive_effec.md)
-- [\[ICML 2025\] On the Dynamic Regret of Following the Regularized Leader: Optimism with History Pruning](../../ICML2025/reinforcement_learning/on_the_dynamic_regret_of_following_the_regularized_leader_optimism_with_history_.md)
 
 <!-- RELATED:END -->

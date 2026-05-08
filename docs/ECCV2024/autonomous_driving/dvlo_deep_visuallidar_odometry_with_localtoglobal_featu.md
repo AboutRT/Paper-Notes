@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.18274](https://arxiv.org/abs/2403.18274)  
-**代码**: https://github.com/IRMVLab/DVLO  
+**代码**: [https://github.com/IRMVLab/DVLO](https://github.com/IRMVLab/DVLO)  
 **领域**: 自动驾驶 / 视觉-LiDAR 里程计  
 **关键词**: 多模态融合, 里程计, 视觉-LiDAR, 聚类融合, 双向结构对齐
 
@@ -120,7 +120,7 @@ tags:
 - [\[ECCV 2024\] DVLO: Deep Visual-LiDAR Odometry with Local-to-Global Feature Fusion and Bi-directional Structure Alignment](dvlo_deep_visual-lidar_odometry_with_local-to-global_feature_fusion_and_bi-direc.md)
 - [\[ECCV 2024\] GraphBEV: Towards Robust BEV Feature Alignment for Multi-Modal 3D Object Detection](graphbev_towards_robust_bev_feature_alignment_for_multi-modal_3d_object_detectio.md)
 - [\[ECCV 2024\] OccGen: Generative Multi-modal 3D Occupancy Prediction for Autonomous Driving](occgen_generative_multimodal_3d_occupancy_prediction_for_aut.md)
-- [\[ECCV 2024\] LiDAR-Event Stereo Fusion with Hallucinations](lidarevent_stereo_fusion_with_hallucinations.md)
+- [\[ECCV 2024\] LiDAR-Event Stereo Fusion with Hallucinations](lidar-event_stereo_fusion_with_hallucinations.md)
 - [\[ECCV 2024\] Detecting As Labeling: Rethinking LiDAR-camera Fusion in 3D Object Detection](detecting_as_labeling_rethinking_lidar-camera_fusion_in_3d_object_detection.md)
 
 <!-- RELATED:END -->

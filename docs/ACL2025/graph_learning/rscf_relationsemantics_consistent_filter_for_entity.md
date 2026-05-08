@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.20813](https://arxiv.org/abs/2505.20813)  
 **代码**: 有  
-**领域**: LLM/NLP  
+**领域**: 图学习  
 **关键词**: KGE, entity transformation, relation semantics, consistency, plug-in
 
 ## 一句话总结

@@ -11,14 +11,14 @@ tags:
   - ViTAE
   - GAN
   - PIV实验数据
-  - 传感器优化
+  - 其他
 ---
 
 # Rooftop Wind Field Reconstruction Using Sparse Sensors: From Deterministic to Generative Learning Methods
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.13077](https://arxiv.org/abs/2603.13077)  
-**代码**: [github.com/Yng314/windreconstruction](https://github.com/Yng314/windreconstruction) (有)  
+**代码**: [github.com/Yng314/windreconstruction](https://github.com/Yng314/windreconstruction)  
 **领域**: 其他 / 流体重建  
 **关键词**: 风场重建, 稀疏传感器, UNet, ViTAE, CWGAN, PIV实验数据, 传感器优化
 
@@ -137,10 +137,10 @@ MDT下DL vs Kriging：SSIM +18.2~33.5%，FAC2 +3.5~24.2%，NMSE -10.2~27.8%。
 
 ## 相关论文
 
-- [\[CVPR 2026\] Integration of deep generative Anomaly Detection algorithm in high-speed industrial line](integration_of_deep_generative_anomaly_detection_a.md)
 - [\[CVPR 2026\] POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction](polishing_the_sky_widefield_and_highdynamic_range.md)
 - [\[CVPR 2026\] SimRecon: SimReady Compositional Scene Reconstruction from Real Videos](simrecon_simready_compositional_scene_reconstruction_from_real_videos.md)
-- [\[CVPR 2026\] SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules](shrec_a_spectral_embedding-based_approach_for_ab-initio_reconstruction_of_helica.md)
+- [\[CVPR 2026\] Integration of deep generative Anomaly Detection algorithm in high-speed industrial line](integration_of_deep_generative_anomaly_detection_a.md)
+- [\[CVPR 2026\] SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules](shrec_a_spectral_embeddingbased_approach_for_abini.md)
 - [\[CVPR 2026\] ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
 
 <!-- RELATED:END -->

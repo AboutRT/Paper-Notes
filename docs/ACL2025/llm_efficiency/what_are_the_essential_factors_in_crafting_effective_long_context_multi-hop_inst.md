@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2409.01893](https://arxiv.org/abs/2409.01893)  
 **代码**: [WowCZ/LongMIT](https://github.com/WowCZ/LongMIT)  
-**领域**: llm_efficiency  
+**领域**: LLM效率  
 **关键词**: 长上下文, 多跳推理, 指令微调, 数据合成, 多智能体
 
 ## 一句话总结

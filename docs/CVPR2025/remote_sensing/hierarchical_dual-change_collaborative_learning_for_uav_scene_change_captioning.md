@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12832](https://arxiv.org/abs/2603.12832)  
 **代码**: 无  
-**领域**: remote_sensing  
+**领域**: 遥感  
 **关键词**: UAV, 变化描述, 视角变化, Transformer, 跨模态对齐
 
 ## 一句话总结

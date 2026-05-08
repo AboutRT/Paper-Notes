@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2412.03906](https://arxiv.org/abs/2412.03906)  
 **代码**: [IBM/fimoda](https://github.com/IBM/fimoda)  
-**领域**: 可解释性/数据归因  
+**领域**: LLM预训练  
 **关键词**: 训练数据归因, 影响函数, 梯度方法, Further Training, Final-Model-Only
 
 ## 一句话总结

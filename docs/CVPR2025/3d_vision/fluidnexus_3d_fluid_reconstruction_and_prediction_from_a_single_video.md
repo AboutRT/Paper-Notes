@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.04720](https://arxiv.org/abs/2503.04720)  
-**代码**: https://yuegao.me/FluidNexus  
+**代码**: [https://yuegao.me/FluidNexus](https://yuegao.me/FluidNexus)  
 **领域**: 3D视觉  
 **关键词**: 流体重建, 物理仿真, 视频生成, 3D高斯溅射, 可微分渲染
 

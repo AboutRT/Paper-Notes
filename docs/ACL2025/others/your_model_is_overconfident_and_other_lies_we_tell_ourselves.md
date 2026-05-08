@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.01235](https://arxiv.org/abs/2503.01235)  
 **代码**: 无  
-**领域**: NLP 评估 / 数据复杂度分析  
+**领域**: 其他  
 **关键词**: 数据复杂度, 标注者分歧, 模型不确定性, 校准分析, 内在难度
 
 ## 一句话总结
@@ -125,6 +125,6 @@ tags:
 - [\[ACL 2025\] Model Extrapolation Expedites Alignment](expo_model_extrapolation.md)
 - [\[ACL 2025\] DeepRTL2: A Versatile Model for RTL-Related Tasks](deeprtl2_a_versatile_model_for_rtl-related_tasks.md)
 - [\[ACL 2025\] Achieving Certification-by-Design Through Model-Driven Development](achieving_certification-by-design_through_model-driven_development.md)
-- [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
+- [\[ICCV 2025\] Doodle Your Keypoints: Sketch-Based Few-Shot Keypoint Detection](../../ICCV2025/others/doodle_your_keypoints_sketch-based_few-shot_keypoint_detection.md)
 
 <!-- RELATED:END -->

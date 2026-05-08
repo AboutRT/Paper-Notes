@@ -145,6 +145,6 @@ L3DE Fusion分数与人类判断的相关性远超现有指标。
 - [\[CVPR 2025\] Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](../../CVPR2025/3d_vision/stereo4d_learning_how_things_move_in_3d_from_internet_stereo_videos.md)
 - [\[CVPR 2025\] SimVS: Simulating World Inconsistencies for Robust View Synthesis](../../CVPR2025/3d_vision/simvs_simulating_world_inconsistencies_for_robust_view_synthesis.md)
 - [\[ICCV 2025\] Noise2Score3D: Tweedie's Approach for Unsupervised Point Cloud Denoising](noise2score3d_tweedies_approach_for_unsupervised_point_cloud_denoising.md)
-- [\[NeurIPS 2025\] Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content](../../NeurIPS2025/3d_vision/can_llms_write_faithfully_an_agent-based_evaluation_of_llm-generated_islamic_con.md)
+- [\[ICCV 2025\] WonderTurbo: Generating Interactive 3D World in 0.72 Seconds](wonderturbo_generating_interactive_3d_world_in_072_seconds.md)
 
 <!-- RELATED:END -->

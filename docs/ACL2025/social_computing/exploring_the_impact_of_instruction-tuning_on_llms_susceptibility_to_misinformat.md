@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.18203](https://arxiv.org/abs/2507.18203)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: 社会计算  
 **关键词**: instruction-tuning, misinformation, sycophancy, knowledge conflict, user-role bias
 
 ## 一句话总结

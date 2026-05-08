@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - LaTeX生成
-  - LLM评估
+  - 代码智能
   - benchmark
   - 代码生成
   - 科学文档
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.16990](https://arxiv.org/abs/2506.16990)  
-**代码**: https://github.com/knowledge-verse-ai/TeXpert  
+**代码**: [https://github.com/knowledge-verse-ai/TeXpert](https://github.com/knowledge-verse-ai/TeXpert)  
 **领域**: NLP Generation / 代码生成评估  
 **关键词**: LaTeX生成, LLM评估, benchmark, 代码生成, 科学文档
 
@@ -133,7 +133,7 @@ TeXpert的构建遵循两步流程：先收集科学文档中常用的原子LaTe
 - [\[ACL 2025\] FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](feabench_repo_code_gen.md)
 - [\[ACL 2025\] DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation](dynacode_a_dynamic_complexity-aware_code_benchmark_for_evaluating_large_language.md)
 - [\[ACL 2025\] Rethinking Repetition Problems of LLMs in Code Generation](rethinking_repetition_problems_of_llms_in_code_generation.md)
-- [\[ACL 2025\] CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation](codeif_benchmarking_the_instruction-following_capabilities_of_large_language_mod.md)
+- [\[ACL 2025\] MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios](mldebugging_towards_benchmarking_code_debugging_across_multi-library_scenarios.md)
 - [\[ACL 2025\] CoCo-Bench: A Comprehensive Code Benchmark for Multi-task Large Language Model Evaluation](coco-bench_a_comprehensive_code_benchmark_for_multi-task_large_language_model_ev.md)
 
 <!-- RELATED:END -->

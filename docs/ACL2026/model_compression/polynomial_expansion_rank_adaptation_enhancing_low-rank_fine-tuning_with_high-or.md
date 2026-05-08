@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.11841](https://arxiv.org/abs/2604.11841)  
-**代码**: https://github.com/zhangwenhao6/PERA  
+**代码**: [https://github.com/zhangwenhao6/PERA](https://github.com/zhangwenhao6/PERA)  
 **领域**: 参数高效微调/模型压缩  
 **关键词**: 低秩适配, 多项式展开, 高阶特征交互, 参数高效微调, LoRA改进
 
@@ -144,7 +144,7 @@ PERA 沿用 LoRA 的分解框架，将权重更新分解为 $B \in \mathbb{R}^{m
 - [\[ICLR 2026\] LoFT: Low-Rank Adaptation That Behaves Like Full Fine-Tuning](../../ICLR2026/model_compression/loft_low-rank_adaptation_that_behaves_like_full_fine-tuning.md)
 - [\[NeurIPS 2025\] RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models](../../NeurIPS2025/model_compression/reflora_refactored_low-rank_adaptation_for_efficient_fine-tuning_of_large_models.md)
 - [\[NeurIPS 2025\] Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](../../NeurIPS2025/model_compression/data_efficient_adaptation_in_large_language_models_via_continuous_low-rank_fine-.md)
-- [\[ACL 2025\] DenseLoRA: Dense Low-Rank Adaptation of Large Language Models](../../ACL2025/model_compression/denselora_dense_low-rank_adaptation_of_large_language_models.md)
 - [\[ACL 2026\] A Layer-wise Analysis of Supervised Fine-Tuning](a_layer-wise_analysis_of_supervised_fine-tuning.md)
+- [\[NeurIPS 2025\] GoRA: Gradient-Driven Adaptive Low Rank Adaptation](../../NeurIPS2025/model_compression/gora_gradient-driven_adaptive_low_rank_adaptation.md)
 
 <!-- RELATED:END -->

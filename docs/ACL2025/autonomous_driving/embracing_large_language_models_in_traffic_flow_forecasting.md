@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.12201](https://arxiv.org/abs/2412.12201)  
-**代码**: https://github.com/YushengZhao/LEAF (有)  
-**领域**: 时间序列 / 交通预测  
+**代码**: [https://github.com/YushengZhao/LEAF](https://github.com/YushengZhao/LEAF)  
+**领域**: 自动驾驶  
 **关键词**: 交通流预测, LLM判别能力, 图神经网络, 超图, Ranking Loss
 
 ## 一句话总结

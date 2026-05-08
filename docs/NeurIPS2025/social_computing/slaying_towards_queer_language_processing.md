@@ -8,7 +8,7 @@ tags:
   - queer slang
   - 数据集标注
   - sense disambiguation
-  - LLM评估
+  - 社会计算
   - 社会语言学
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025 (Queer in AI Workshop)  
 **arXiv**: [2509.17449](https://arxiv.org/abs/2509.17449)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 社会计算  
 **关键词**: queer slang, 数据集标注, sense disambiguation, LLM评估, 社会语言学
 
 ## 一句话总结
@@ -113,8 +113,8 @@ tags:
 
 - [\[ACL 2025\] Exploring Gender Bias in Large Language Models: An In-depth Dive into the German Language](../../ACL2025/social_computing/exploring_gender_bias_in_large_language_models_an_in-depth_dive_into_the_german_.md)
 - [\[NeurIPS 2025\] Active Slice Discovery in Large Language Models](active_slice_discovery_in_large_language_models.md)
-- [\[NeurIPS 2025\] A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings](a_multitask_benchmark_for_abusive_language_detection_in_lowr.md)
 - [\[NeurIPS 2025\] DATE-LM: Benchmarking Data Attribution Evaluation for Large Language Models](date-lm_benchmarking_data_attribution_evaluation_for_large_language_models.md)
 - [\[ACL 2025\] Culture Matters in Toxic Language Detection in Persian](../../ACL2025/social_computing/culture_matters_in_toxic_language_detection_in_persian.md)
+- [\[ICML 2025\] OR-Bench: An Over-Refusal Benchmark for Large Language Models](../../ICML2025/social_computing/or-bench_an_over-refusal_benchmark_for_large_language_models.md)
 
 <!-- RELATED:END -->

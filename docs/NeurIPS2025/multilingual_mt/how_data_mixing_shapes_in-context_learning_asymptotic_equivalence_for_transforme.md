@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.25753](https://arxiv.org/abs/2510.25753)  
 **代码**: [GitHub](https://github.com/KU-MLIP/Data-Mixing-Shapes-ICL-by-Transformers)  
-**领域**: NLP理解 / ICL理论  
+**领域**: 多语言翻译  
 **关键词**: 上下文学习, 数据混合, 高维渐近, 多项式等价, 特征学习
 
 ## 一句话总结

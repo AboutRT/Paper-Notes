@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.17883](https://arxiv.org/abs/2505.17883)  
 **代码**: [fastcav.github.io](https://fastcav.github.io/)  
-**领域**: 可解释性 / 概念激活向量  
+**领域**: 视频理解  
 **关键词**: Concept Activation Vectors, Explainability, CAV, TCAV, 模型可解释性, 加速
 
 ## 一句话总结

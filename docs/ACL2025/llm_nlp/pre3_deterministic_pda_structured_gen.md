@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.03887](https://arxiv.org/abs/2506.03887)  
 **代码**: [https://github.com/ModelTC/lightllm](https://github.com/ModelTC/lightllm)  
-**领域**: 文本生成  
+**领域**: LLM/NLP  
 **关键词**: 结构化生成, 约束解码, 确定性下推自动机, JSON生成, LLM推理优化  
 
 ## 一句话总结

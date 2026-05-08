@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.11457](https://arxiv.org/abs/2412.11457)  
 **代码**: [项目页](https://jason-aplp.github.io/MOVIS/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: novel view synthesis, multi-object, structure-aware diffusion, timestep scheduling, cross-view consistency
 
 ## 一句话总结

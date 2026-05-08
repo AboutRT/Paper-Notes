@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.08387](https://arxiv.org/abs/2511.08387)  
 **代码**: [GitHub](https://github.com/merlresearch/radar-pose-transformer)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: 雷达感知, 3D人体姿态估计, Transformer, 弱监督, 可变形注意力
 
 ## 一句话总结
@@ -121,9 +121,9 @@ RAPTR接收多视角雷达热图（水平-深度 $\mathbf{Y}_{\text{hor}} \in \m
 ## 相关论文
 
 - [\[CVPR 2025\] HiPART: Hierarchical Pose AutoRegressive Transformer for Occluded 3D Human Pose Estimation](../../CVPR2025/human_understanding/hipart_hierarchical_pose_autoregressive_transformer_for_occluded_3d_human_pose_e.md)
-- [\[NeurIPS 2025\] In-Context Compositional Learning via Sparse Coding Transformer](in-context_compositional_learning_via_sparse_coding_transformer.md)
+- [\[NeurIPS 2025\] PandaPose: 3D Human Pose Lifting from a Single Image via Propagating 2D Pose Prior to 3D Anchor Space](pandapose_3d_human_pose_lifting_from_a_single_image_via_propagating_2d_pose_prio.md)
 - [\[CVPR 2025\] 3D Face Reconstruction From Radar Images](../../CVPR2025/human_understanding/3d_face_reconstruction_from_radar_images.md)
-- [\[NeurIPS 2025\] Discovering Transformer Circuits via a Hybrid Attribution and Pruning Framework](discovering_transformer_circuits_via_a_hybrid_attribution_and_pruning_framework.md)
 - [\[NeurIPS 2025\] Cycle-Sync: Robust Global Camera Pose Estimation through Enhanced Cycle-Consistent Synchronization](cycle-sync_robust_global_camera_pose_estimation_through_enhanced_cycle-consisten.md)
+- [\[ICCV 2025\] Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation](../../ICCV2025/human_understanding/bring_your_rear_cameras_for_egocentric_3d_human_pose_estimation.md)
 
 <!-- RELATED:END -->

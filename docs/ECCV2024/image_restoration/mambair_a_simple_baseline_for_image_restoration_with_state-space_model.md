@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2402.15648](https://arxiv.org/abs/2402.15648)  
-**代码**: https://github.com/csguoh/MambaIR  
+**代码**: [https://github.com/csguoh/MambaIR](https://github.com/csguoh/MambaIR)  
 **领域**: 图像修复  
 **关键词**: 图像修复, 状态空间模型, Mamba, 超分辨率, 图像去噪
 

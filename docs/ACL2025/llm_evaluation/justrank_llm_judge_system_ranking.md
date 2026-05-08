@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.09569](https://arxiv.org/abs/2412.09569)  
 **代码**: [JuStRank Data](https://github.com/IBM/JuStRank)  
-**领域**: LLM评估  
+**领域**: LLM评测  
 **关键词**: LLM-as-Judge, 系统排名, 判官基准, 果断性, 偏见分析
 
 ## 一句话总结

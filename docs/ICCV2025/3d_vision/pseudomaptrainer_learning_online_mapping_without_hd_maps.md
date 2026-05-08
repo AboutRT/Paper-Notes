@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2508.18788](https://arxiv.org/abs/2508.18788)  
 **代码**: [github.com/boschresearch/PseudoMapTrainer](https://github.com/boschresearch/PseudoMapTrainer)  
-**领域**: 自动驾驶 / 在线建图  
+**领域**: 3D视觉  
 **关键词**: 在线建图, 伪标签, Gaussian Splatting, HD Map, 半监督学习, 矢量化地图
 
 ## 一句话总结
@@ -168,6 +168,6 @@ PseudoMapTrainer 包含两个阶段：
 - [\[CVPR 2026\] OnlinePG: Online Open-Vocabulary Panoptic Mapping with 3D Gaussian Splatting](../../CVPR2026/3d_vision/onlinepg_online_open-vocabulary_panoptic_mapping_with_3d_gaussian_splatting.md)
 - [\[ICCV 2025\] Online Language Splatting](online_language_splatting.md)
 - [\[ICCV 2025\] Easi3R: Estimating Disentangled Motion from DUSt3R Without Training](easi3r_estimating_disentangled_motion_from_dust3r_without_training.md)
-- [\[ICCV 2025\] IM360: Large-scale Indoor Mapping with 360 Cameras](im360_large-scale_indoor_mapping_with_360_cameras.md)
+- [\[CVPR 2025\] HD-EPIC: A Highly-Detailed Egocentric Video Dataset](../../CVPR2025/3d_vision/hd-epic_a_highly-detailed_egocentric_video_dataset.md)
 
 <!-- RELATED:END -->

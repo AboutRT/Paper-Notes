@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18877](https://arxiv.org/abs/2505.18877)  
 **代码**: [zhangyilang/RefLoRA](https://github.com/zhangyilang/RefLoRA)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: LoRA, 参数高效微调, 低秩分解, 矩阵重分解, 大语言模型  
 
 ## 一句话总结

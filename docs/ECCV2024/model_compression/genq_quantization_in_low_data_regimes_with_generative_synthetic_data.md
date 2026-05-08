@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.05272](https://arxiv.org/abs/2312.05272)  
-**代码**: https://github.com/Intelligent-Computing-Lab-Yale/GenQ  
+**代码**: [https://github.com/Intelligent-Computing-Lab-Yale/GenQ](https://github.com/Intelligent-Computing-Lab-Yale/GenQ)  
 **领域**: 模型压缩  
 **关键词**: 量化, 合成数据, Stable Diffusion, 数据无关量化, 低数据量化
 

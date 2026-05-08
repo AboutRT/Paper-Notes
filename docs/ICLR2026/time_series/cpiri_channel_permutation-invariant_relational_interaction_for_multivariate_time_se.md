@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2601.20318](https://arxiv.org/abs/2601.20318)  
-**代码**: https://github.com/JasonStraka/CPiRi  
+**代码**: [https://github.com/JasonStraka/CPiRi](https://github.com/JasonStraka/CPiRi)  
 **领域**: 时间序列  
 **关键词**: 多变量时间序列预测, 通道置换不变性, 时空解耦, 基础模型, 通道交互
 

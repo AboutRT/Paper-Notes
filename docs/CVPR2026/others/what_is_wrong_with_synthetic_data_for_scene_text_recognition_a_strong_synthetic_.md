@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.06450](https://arxiv.org/abs/2602.06450)  
 **代码**: [YesianRohn/UnionST](https://github.com/YesianRohn/UnionST)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: Scene Text Recognition, 合成数据, 数据引擎, 自演化学习, 伪标签
 
 ## 一句话总结
@@ -135,6 +135,6 @@ UnionST 是一个渲染式合成引擎，核心流程：(a) 从增强语料库�
 - [\[ACL 2025\] KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding](../../ACL2025/others/kodcode_a_diverse_challenging_and_verifiable_synthetic_dataset_for_coding.md)
 - [\[CVPR 2026\] BenDFM: A taxonomy and synthetic CAD dataset for manufacturability assessment in sheet metal bending](bendfm_a_taxonomy_and_synthetic_cad_dataset_for_manufacturability_assessment_in_.md)
 - [\[ACL 2025\] TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data](../../ACL2025/others/targa_targeted_synthetic_data_generation_for_practical_reasoning_over_structured.md)
-- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](../../ACL2025/others/generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
+- [\[ICML 2025\] Provably Improving Generalization of Few-Shot Models with Synthetic Data](../../ICML2025/others/provably_improving_generalization_of_few-shot_models_with_synthetic_data.md)
 
 <!-- RELATED:END -->

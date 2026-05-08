@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Training Language Models to Reason Efficiently
 description: >-
-  [NeurIPS 2025][高效推理] 通过在 RL 奖励中加入长度惩罚项——正确回答的奖励乘以 $(1 - \alpha \cdot \sigma(\text{norm\_len}))$，用单一超参数 $\alpha$ 控制 token-准确率权衡曲线，仅 100 步 RL 训练即可让 7B 推理模型减少 50% token 使用量而准确率仅下降 <5%。
+  [NeurIPS 2025][强化学习] 通过在 RL 奖励中加入长度惩罚项——正确回答的奖励乘以 $(1 - \alpha \cdot \sigma(\text{norm\_len}))$，用单一超参数 $\alpha$ 控制 token-准确率权衡曲线，仅 100 步 RL 训练即可让 7B 推理模型减少 50% token 使用量而准确率仅下降 <5%。
 tags:
   - NeurIPS 2025
-  - 高效推理
+  - 强化学习
   - CoT压缩
   - 长度惩罚
   - 强化学习
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.04463](https://arxiv.org/abs/2502.04463)  
 **代码**: [github.com/Zanette-Labs/efficient-reasoning](https://github.com/Zanette-Labs/efficient-reasoning)  
-**领域**: LLM推理  
+**领域**: 强化学习  
 **关键词**: 高效推理, CoT压缩, 长度惩罚, 强化学习, 推理时计算  
 
 ## 一句话总结
@@ -124,7 +124,7 @@ PPO + RLOO（Leave-One-Out baseline），每个 prompt 采样 8 个回答，3.2K
 - [\[NeurIPS 2025\] RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models](repic_reinforced_post-training_for_personalizing_multi-modal_language_models.md)
 - [\[NeurIPS 2025\] EvoLM: In Search of Lost Language Model Training Dynamics](evolm_in_search_of_lost_language_model_training_dynamics.md)
 - [\[NeurIPS 2025\] Checklists Are Better Than Reward Models For Aligning Language Models](checklists_are_better_than_reward_models_for_aligning_langua.md)
-- [\[NeurIPS 2025\] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment](teaching_language_models_to_evolve_with_users_dynamic_profile_modeling_for_perso.md)
 - [\[NeurIPS 2025\] Behavior Injection: Preparing Language Models for Reinforcement Learning](behavior_injection_preparing_language_models_for_reinforcement_learning.md)
+- [\[NeurIPS 2025\] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment](teaching_language_models_to_evolve_with_users_dynamic_profile_modeling_for_perso.md)
 
 <!-- RELATED:END -->

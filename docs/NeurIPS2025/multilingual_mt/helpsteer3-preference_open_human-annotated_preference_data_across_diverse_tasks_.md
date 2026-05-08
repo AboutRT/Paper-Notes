@@ -18,8 +18,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.11475](https://arxiv.org/abs/2505.11475)  
-**代码**: https://huggingface.co/datasets/nvidia/HelpSteer3  
-**领域**: 对齐RLHF  
+**代码**: [https://huggingface.co/datasets/nvidia/HelpSteer3](https://huggingface.co/datasets/nvidia/HelpSteer3)  
+**领域**: 多语言翻译  
 **关键词**: Preference Dataset, Human Annotation, STEM, Code, Multilingual, Reward Models, CC-BY-4.0
 
 ## 一句话总结

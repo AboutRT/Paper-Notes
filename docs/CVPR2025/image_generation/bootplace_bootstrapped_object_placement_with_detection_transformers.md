@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21991](https://arxiv.org/abs/2503.21991)  
-**代码**: https://github.com/RyanHangZhou/BOOTPLACE  
+**代码**: [https://github.com/RyanHangZhou/BOOTPLACE](https://github.com/RyanHangZhou/BOOTPLACE)  
 **领域**: 扩散模型 / 目标检测  
 **关键词**: 物体放置, 图像合成, 检测变换器, 自举训练, copy-paste
 

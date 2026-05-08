@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2501.16265](https://arxiv.org/abs/2501.16265)  
 **代码**: [yedizhang/linattn-icl](https://github.com/yedizhang/linattn-icl)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 上下文学习, linear attention, 训练动态, 梯度流, saddle-to-saddle dynamics, principal component regression
 
 ## 一句话总结

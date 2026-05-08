@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 推测解码
-  - 长上下文推理
+  - 信息检索
   - 检索增强生成
   - 知识蒸馏
   - KV Cache
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2502.20330](https://arxiv.org/abs/2502.20330)  
 **代码**: [https://github.com/NUS-TRAIL/RAPID](https://github.com/NUS-TRAIL/RAPID)  
-**领域**: LLM效率  
+**领域**: 信息检索  
 **关键词**: 推测解码, 长上下文推理, 检索增强生成, 知识蒸馏, KV Cache
 
 ## 一句话总结
@@ -187,10 +187,10 @@ RAPID **无需任何训练**，是纯推理时方法（drop-in decoding method�
 
 ## 相关论文
 
+- [\[ACL 2026\] RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding](../../ACL2026/information_retrieval/racer_retrieval-augmented_contextual_rapid_speculative_decoding.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
+- [\[ICML 2025\] Understanding Synthetic Context Extension via Retrieval Heads](understanding_synthetic_context_extension_via_retrieval_heads.md)
 - [\[ACL 2025\] FlashBack: Efficient Retrieval-Augmented Language Modeling for Fast Inference](../../ACL2025/information_retrieval/flashbackefficient_retrieval-augmented_language_modeling_for_long_context_infere.md)
-- [\[ACL 2025\] Hierarchical Document Refinement for Long-context Retrieval-augmented Generation](../../ACL2025/information_retrieval/hierarchical_document_refinement_for_long-context_retrieval-augmented_generation.md)
-- [\[ACL 2026\] HeteroCache: A Dynamic Retrieval Approach to Heterogeneous KV Cache Compression for Long-Context LLM Inference](../../ACL2026/information_retrieval/heterocache_a_dynamic_retrieval_approach_to_heterogeneous_kv_cache_compression_f.md)
-- [\[ACL 2025\] Graph of Records: Boosting Retrieval Augmented Generation for Long-context Summarization with Graphs](../../ACL2025/information_retrieval/gor_rag_long_context_summary.md)
-- [\[ACL 2025\] SEAL: Scaling to Emphasize Attention for Long-Context Retrieval](../../ACL2025/information_retrieval/seal_scaling_to_emphasize_attention_for_long-context_retrieval.md)
+- [\[ACL 2025\] Accelerating Adaptive Retrieval Augmented Generation via Instruction-Driven Representation Reduction of Retrieval Overlaps](../../ACL2025/information_retrieval/accelerating_adaptive_retrieval_augmented_generation_via_instruction-driven_repr.md)
 
 <!-- RELATED:END -->

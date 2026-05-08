@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2410.20749](https://arxiv.org/abs/2410.20749)  
-**代码**: [GitHub](https://github.com/lichangh20/Matryoshka) (有)  
+**代码**: [GitHub](https://github.com/lichangh20/Matryoshka)  
 **领域**: Model Compression / LLM Control  
 **关键词**: Black-Box LLM, White-Box Controller, 迭代DPO, 中间引导, 多轮交互
 
@@ -153,8 +153,8 @@ $$\mathcal{L}_{\text{IDPO}} = \mathbb{E}_{(x, \tau^+, \tau^-) \sim \mathcal{D}} 
 
 - [\[NeurIPS 2025\] TokenSqueeze: Performance-Preserving Compression for Reasoning LLMs](tokensqueeze_performance-preserving_compression_for_reasoning_llms.md)
 - [\[NeurIPS 2025\] Robust Federated Finetuning of LLMs via Alternating Optimization of LoRA](robust_federated_finetuning_of_llms_via_alternating_optimization_of_lora.md)
+- [\[NeurIPS 2025\] Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](recurrent_attention-based_token_selection_for_efficient_streaming_video-llms.md)
 - [\[NeurIPS 2025\] Benford's Curse: Tracing Digit Bias to Numerical Hallucination in LLMs](benfords_curse_tracing_digit_bias_to_numerical_hallucination_in_llms.md)
-- [\[NeurIPS 2025\] Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs](adaptive_kernel_design_for_bayesian_optimization_is_a_piece_of_cake_with_llms.md)
 - [\[NeurIPS 2025\] CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs](codegemm_a_codebook-centric_approach_to_efficient_gemm_in_quantized_llms.md)
 
 <!-- RELATED:END -->

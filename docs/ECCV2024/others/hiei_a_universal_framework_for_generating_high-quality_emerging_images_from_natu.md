@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 新兴图像
-  - 颜色量化
+  - 其他
   - 感知难度控制
   - CAPTCHA
   - 视觉风格化
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: 无  
 **代码**: 无  
-**领域**: 图像生成 / 计算机视觉  
+**领域**: 其他  
 **关键词**: 新兴图像、颜色量化、感知难度控制、CAPTCHA、视觉风格化
 
 ## 一句话总结
@@ -127,10 +127,10 @@ HiEI 在人类主观评价（MOS 分数）上显著优于基线方法，内容�
 
 ## 相关论文
 
-- [\[CVPR 2025\] CADCrafter: Generating Computer-Aided Design Models from Unconstrained Images](../../CVPR2025/others/cadcrafter_generating_computer-aided_design_models_from_unconstrained_images.md)
 - [\[ICCV 2025\] Auto-Regressively Generating Multi-View Consistent Images (MV-AR)](../../ICCV2025/others/autoregressively_generating_multiview_consistent_images.md)
 - [\[ICCV 2025\] Φ-GAN: Physics-Inspired GAN for Generating SAR Images Under Limited Data](../../ICCV2025/others/ph-gan_physics-inspired_gan_for_generating_sar_images_under_limited_data.md)
+- [\[ICCV 2025\] Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging](../../ICCV2025/others/hi3dgen_high-fidelity_3d_geometry_generation_from_images_via_normal_bridging.md)
+- [\[CVPR 2025\] CADCrafter: Generating Computer-Aided Design Models from Unconstrained Images](../../CVPR2025/others/cadcrafter_generating_computer-aided_design_models_from_unconstrained_images.md)
 - [\[ECCV 2024\] GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths](gazexplain_learning_to_predict_natural_language_explanations_of_visual_scanpaths.md)
-- [\[CVPR 2025\] Locally Orderless Images for Optimization in Differentiable Rendering](../../CVPR2025/others/locally_orderless_images_for_optimization_in_differentiable_rendering.md)
 
 <!-- RELATED:END -->

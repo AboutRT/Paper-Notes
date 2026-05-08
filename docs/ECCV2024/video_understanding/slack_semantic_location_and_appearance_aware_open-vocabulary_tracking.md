@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.11235](https://arxiv.org/abs/2409.11235)  
-**代码**: https://github.com/siyuanliii/SLAck (有)  
+**代码**: [https://github.com/siyuanliii/SLAck](https://github.com/siyuanliii/SLAck)  
 **领域**: 视频理解  
 **关键词**: 开放词汇跟踪, 多目标跟踪, 语义感知关联, 时空目标图, 特征融合
 

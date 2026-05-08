@@ -23,7 +23,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2410.01779](https://arxiv.org/abs/2410.01779)  
 **代码**: [facebookresearch/luckmatters](https://github.com/facebookresearch/luckmatters/tree/yuandong3/ssl/real-dataset)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 代数结构, 半环, 环同态, 模加法, Fourier 基, 全局解构造, sum potentials, 两层网络, grokking, 推理任务  
 
 ## 一句话总结

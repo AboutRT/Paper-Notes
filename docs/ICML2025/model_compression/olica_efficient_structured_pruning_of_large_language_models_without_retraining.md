@@ -21,7 +21,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.08436](https://arxiv.org/abs/2506.08436)  
 **代码**: [BetterTMrR/LLM-Olica](https://github.com/BetterTMrR/LLM-Olica)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 结构化剪枝, LLM压缩, 正交分解, 线性校准, 无需重训练, PCA, SVD
 
 ## 一句话总结
@@ -182,10 +182,10 @@ Olica 的核心启发：**在参数空间做正交分解，可以绕开数据依
 
 ## 相关论文
 
+- [\[ICML 2025\] SlimLLM: Accurate Structured Pruning for Large Language Models](slimllm_accurate_structured_pruning_for_large_language_models.md)
 - [\[ICML 2025\] Instruction-Following Pruning for Large Language Models](instruction-following_pruning_for_large_language_models.md)
-- [\[NeurIPS 2025\] Elastic ViTs from Pretrained Models without Retraining](../../NeurIPS2025/model_compression/elastic_vits_from_pretrained_models_without_retraining.md)
 - [\[ACL 2025\] BlockPruner: Fine-grained Pruning for Large Language Models](../../ACL2025/model_compression/blockpruner_fine-grained_pruning_for_large_language_models.md)
+- [\[NeurIPS 2025\] Elastic ViTs from Pretrained Models without Retraining](../../NeurIPS2025/model_compression/elastic_vits_from_pretrained_models_without_retraining.md)
 - [\[ICML 2025\] DLP: Dynamic Layerwise Pruning in Large Language Models](dlp_dynamic_layerwise_pruning_in_large_language_models.md)
-- [\[ACL 2025\] Wanda++: Pruning Large Language Models via Regional Gradients](../../ACL2025/model_compression/wanda_pruning_large_language_models_via_regional_gradients.md)
 
 <!-- RELATED:END -->

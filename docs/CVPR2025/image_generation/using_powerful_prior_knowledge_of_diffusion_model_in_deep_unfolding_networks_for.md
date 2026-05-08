@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.08429](https://arxiv.org/abs/2503.08429)  
 **代码**: [GitHub](https://github.com/FengodChen/DMP-DUN-CVPR2025)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 压缩感知, 深度展开网络, 扩散模型, 图像重建, 消息传递
 
 ## 一句话总结

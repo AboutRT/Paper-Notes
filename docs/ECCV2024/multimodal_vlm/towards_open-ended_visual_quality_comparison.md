@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 图像质量评估
+  - 多模态VLM
   - 多图比较
   - 大型多模态模型
   - 指令微调
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2402.16641](https://arxiv.org/abs/2402.16641)  
-**代码**: https://huggingface.co/q-future/co-instruct (有)  
+**代码**: [https://huggingface.co/q-future/co-instruct](https://huggingface.co/q-future/co-instruct)  
 **领域**: 多模态VLM  
 **关键词**: 图像质量评估, 多图比较, 大型多模态模型, 指令微调, 视觉质量
 
@@ -126,8 +126,8 @@ Co-Instruct在Q-Bench^PAIR-A1上：
 
 - [\[ECCV 2024\] SQ-LLaVA: Self-Questioning for Large Vision-Language Assistant](sqllava_selfquestioning_for_large_visionlanguage_assistant.md)
 - [\[ECCV 2024\] MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection](marvelovd_marrying_object_recognition_and_visionlanguage_mod.md)
-- [\[ECCV 2024\] Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs](metaprompting_for_automating_zeroshot_visual_recognitio.md)
-- [\[ECCV 2024\] Self-Adapting Large Visual-Language Models to Edge Devices across Visual Modalities](self-adapting_large_visual-language_models_to_edge_devices_across_visual_modalit.md)
-- [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](brave_broadening_the_visual_encoding_of_visionlanguage_model.md)
+- [\[ECCV 2024\] LEGO: Learning EGOcentric Action Frame Generation via Visual Instruction Tuning](lego_learning_egocentric_action_frame_generation_via_visual_instruction_tuning.md)
+- [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](brave_broadening_the_visual_encoding_of_vision-language_models.md)
+- [\[ECCV 2024\] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)
 
 <!-- RELATED:END -->

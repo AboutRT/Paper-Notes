@@ -20,7 +20,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2511.05633](https://arxiv.org/abs/2511.05633)  
 **代码**: 待确认  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: turbulence modeling, uncertainty quantification, CNN, eigenspace perturbation, RANS, physics-guided ML
 
 ## 一句话总结
@@ -132,10 +132,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Learning Phase Distortion with Selective State Space Models for Video Turbulence Mitigation](../../CVPR2025/scientific_computing/learning_phase_distortion_with_selective_state_space_models_for_video_turbulence.md)
 - [\[AAAI 2026\] Scientific Knowledge-Guided Machine Learning for Vessel Power Prediction: A Comparative Study](../../AAAI2026/scientific_computing/scientific_knowledge-guided_machine_learning_for_vessel_power_prediction_a_compa.md)
 - [\[NeurIPS 2025\] F-Adapter: Frequency-Adaptive Parameter-Efficient Fine-Tuning in Scientific Machine Learning](f-adapter_frequency-adaptive_parameter-efficient_fine-tuning_in_scientific_machi.md)
 - [\[NeurIPS 2025\] Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data](neural_emulator_superiority_when_machine_learning_for_pdes_surpasses_its_trainin.md)
 - [\[NeurIPS 2025\] GyroSwin: 5D Surrogates for Gyrokinetic Plasma Turbulence Simulations](gyroswin_5d_surrogates_for_gyrokinetic_plasma_turbulence_simulations.md)
-- [\[ICLR 2026\] Learning-guided Kansa Collocation for Forward and Inverse PDE Problems](../../ICLR2026/scientific_computing/learning-guided_kansa_collocation_for_forward_and_inverse_pde_problems.md)
 
 <!-- RELATED:END -->

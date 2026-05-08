@@ -8,7 +8,7 @@ tags:
   - 机器翻译
   - 自然度
   - 翻译体消除
-  - 强化学习
+  - 多语言翻译
   - 多视角对齐
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.08473](https://arxiv.org/abs/2412.08473)  
-**代码**: [GitHub](https://github.com/laihuiyuan/alignment4naturalness) (有)  
-**领域**: 文本生成  
+**代码**: [GitHub](https://github.com/laihuiyuan/alignment4naturalness)  
+**领域**: 多语言翻译  
 **关键词**: 机器翻译, 自然度, 翻译体消除, 强化学习, 多视角对齐  
 
 ## 一句话总结
@@ -175,9 +175,9 @@ $$\mathcal{L}(\theta; \mathcal{D}) = \mathbb{E}_{(x,y)\sim\mathcal{D}}[\beta \ma
 ## 相关论文
 
 - [\[ACL 2025\] Memorization Inheritance in Sequence-Level Knowledge Distillation for Neural Machine Translation](memorization_inheritance_seqkd.md)
-- [\[ACL 2025\] Registering Source Tokens to Target Language Spaces in Multilingual Neural Machine Translation](registering_source_tokens_to_target_language_spaces_in_multilingual_neural_machi.md)
 - [\[ACL 2025\] THOR-MoE: Hierarchical Task-Guided and Context-Responsive Routing for Neural Machine Translation](thor-moe_hierarchical_task-guided_and_context-responsive_routing_for_neural_mach.md)
-- [\[ACL 2025\] M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation](m-mad_multidimensional_multi-agent_debate_for_advanced_machine_translation_evalu.md)
-- [\[ACL 2025\] Unveiling the Power of Source: Source-based Minimum Bayes Risk Decoding for Neural Machine Translation](unveiling_the_power_of_source_source-based_minimum_bayes_risk_decoding_for_neura.md)
+- [\[ACL 2025\] Registering Source Tokens to Target Language Spaces in Multilingual Neural Machine Translation](registering_source_tokens_to_target_language_spaces_in_multilingual_neural_machi.md)
+- [\[ACL 2025\] Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation](watching_the_watchers_exposing_gender_disparities_in_machine_translation_quality.md)
+- [\[ACL 2025\] Team ACK at SemEval-2025 Task 2: Beyond Word-for-Word Machine Translation for English-Korean Pairs](team_ack_at_semeval-2025_task_2_beyond_word-for-word_machine_translation_for_eng.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Robust Adversarial Reinforcement Learning in Stochastic Games via Sequence Modeling
 description: >-
-  [NeurIPS 2025][对抗鲁棒性] 提出CART（Conservative Adversarially Robust Decision Transformer），首个在随机博弈中增强Decision Transformer对抗鲁棒性的方法，通过阶段博弈建模和NashQ值估计解决ARDT在随机状态转移下的过度乐观问题，实现更准确的极小极大值估计和更优的最差情况回报。
+  [NeurIPS 2025][强化学习] 提出CART（Conservative Adversarially Robust Decision Transformer），首个在随机博弈中增强Decision Transformer对抗鲁棒性的方法，通过阶段博弈建模和NashQ值估计解决ARDT在随机状态转移下的过度乐观问题，实现更准确的极小极大值估计和更优的最差情况回报。
 tags:
   - NeurIPS 2025
-  - 对抗鲁棒性
+  - 强化学习
   - Transformer
   - 随机博弈
   - NashQ
@@ -125,10 +125,10 @@ $$\mathcal{L}_{\text{DT}}(\theta) = -\mathbb{E}[\log \pi_\theta(a_t | \tau_{0:t-
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Emergent World Beliefs: Exploring Transformers in Stochastic Games](emergent_world_beliefs_exploring_transformers_in_stochastic_games.md)
 - [\[NeurIPS 2025\] A Near-optimal, Scalable and Parallelizable Framework for Stochastic Bandits Robust to Adversarial Corruptions and Beyond](a_nearoptimal_scalable_and_parallelizable_framework_for_stoc.md)
-- [\[ICLR 2026\] Robust Deep Reinforcement Learning against Adversarial Behavior Manipulation](../../ICLR2026/reinforcement_learning/robust_deep_reinforcement_learning_against_adversarial_behavior_manipulation.md)
 - [\[NeurIPS 2025\] Incremental Sequence Classification with Temporal Consistency](incremental_sequence_classification_with_temporal_consistency.md)
-- [\[NeurIPS 2025\] Confounding Robust Deep Reinforcement Learning: A Causal Approach](confounding_robust_deep_reinforcement_learning_a_causal_approach.md)
-- [\[NeurIPS 2025\] Sample-Efficient Tabular Self-Play for Offline Robust Reinforcement Learning](sample-efficient_tabular_self-play_for_offline_robust_reinforcement_learning.md)
+- [\[NeurIPS 2025\] Sample Complexity of Distributionally Robust Average-Reward Reinforcement Learning](sample_complexity_of_distributionally_robust_average-reward_reinforcement_learni.md)
+- [\[NeurIPS 2025\] Finite-Sample Analysis of Policy Evaluation for Robust Average Reward Reinforcement Learning](finite-sample_analysis_of_policy_evaluation_for_robust_average_reward_reinforcem.md)
 
 <!-- RELATED:END -->

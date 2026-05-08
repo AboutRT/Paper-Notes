@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.18328](https://arxiv.org/abs/2510.18328)  
 **代码**: [ZhongLIFR/TCCM-NIPS](https://github.com/ZhongLIFR/TCCM-NIPS)  
-**领域**: 异常检测 / Flow Matching  
+**领域**: 图像生成  
 **关键词**: 异常检测, flow matching, 表格数据, 可解释性, Lipschitz robustness
 
 ## 一句话总结

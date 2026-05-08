@@ -52,19 +52,19 @@ Earth-Agent采用ReAct型Agent架构，核心是一个POMDP循环：
 
 1. **MCP-Based工具生态系统**:
    Earth-Agent集成了104个跨五大功能套件的专业工具：
-   - **Index Kit**: 光谱指数计算（NDVI、NDWI等）
-   - **Inversion Kit**: 地球物理参数反演（叶面积指数、地表温度等）
-   - **Perception Kit**: RGB图像感知（目标检测、场景分类、语义分割等）
-   - **Analysis Kit**: 时空分析（变化检测、趋势分析等）
-   - **Statistics Kit**: 统计运算（区域统计、直方图分析等）
+    - **Index Kit**: 光谱指数计算（NDVI、NDWI等）
+    - **Inversion Kit**: 地球物理参数反演（叶面积指数、地表温度等）
+    - **Perception Kit**: RGB图像感知（目标检测、场景分类、语义分割等）
+    - **Analysis Kit**: 时空分析（变化检测、趋势分析等）
+    - **Statistics Kit**: 统计运算（区域统计、直方图分析等）
    
    这些工具通过Model Context Protocol (MCP)进行管理，LLM可以动态组合调用。这使得Earth-Agent能够超越预训练MLLM的能力上限——对于科学级计算任务（如从Landsat数据反演地表温度），不依赖模型的内隐知识，而是调用精确的物理模型。
 
 2. **跨模态统一处理**:
    不同于仅处理RGB的现有EO Agent，Earth-Agent原生支持三类遥感数据：
-   - **光谱数据**: 多光谱/高光谱卫星图像（如Landsat、Sentinel-2）
-   - **产品数据**: 已处理的遥感产品（如MODIS地表温度产品）
-   - **RGB数据**: 常规可见光遥感图像
+    - **光谱数据**: 多光谱/高光谱卫星图像（如Landsat、Sentinel-2）
+    - **产品数据**: 已处理的遥感产品（如MODIS地表温度产品）
+    - **RGB数据**: 常规可见光遥感图像
    
    LLM根据任务需求自动判断调用光谱工具还是感知工具。
 
@@ -73,10 +73,10 @@ Earth-Agent采用ReAct型Agent架构，核心是一个POMDP循环：
 
 4. **Earth-Bench评估基准**:
    包含248个由领域专家人工策划的任务，涵盖13,729张图像：
-   - **模态覆盖**: 光谱（100题）+ 产品（88题）+ RGB（60题）
-   - **双层评估协议**:
-     - 端到端评估：Accuracy（最终答案正确率）+ Efficiency（工具使用效率）
-     - 轨迹评估：Tool-Any-Order（是否使用了所有必要工具）、Tool-In-Order（工具顺序是否正确）、Tool-Exact-Match（逐步完全匹配）、Parameter Accuracy（工具参数准确性）
+    - **模态覆盖**: 光谱（100题）+ 产品（88题）+ RGB（60题）
+    - **双层评估协议**:
+      - 端到端评估：Accuracy（最终答案正确率）+ Efficiency（工具使用效率）
+      - 轨迹评估：Tool-Any-Order（是否使用了所有必要工具）、Tool-In-Order（工具顺序是否正确）、Tool-Exact-Match（逐步完全匹配）、Parameter Accuracy（工具参数准确性）
 
 ### 损失函数 / 训练策略
 Earth-Agent的核心是zero-shot推理——不需要针对EO任务的额外训练。LLM通过prompt engineering和工具描述理解任务。论文同时探索了Training-Free Evolution方法（类似training-free GRPO），尝试在不微调模型权重的情况下优化Agent的工具调用策略。

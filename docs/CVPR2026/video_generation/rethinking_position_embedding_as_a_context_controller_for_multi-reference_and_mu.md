@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.03738](https://arxiv.org/abs/2604.03738)  
-**代码**: https://poco-multiref-multishot.github.io/  
+**代码**: [https://poco-multiref-multishot.github.io/](https://poco-multiref-multishot.github.io/)  
 **领域**: 视频生成 / 扩散模型 / 多参考多镜头生成  
 **关键词**: 位置编码, 上下文控制, 多参考视频生成, RoPE, 身份混淆
 

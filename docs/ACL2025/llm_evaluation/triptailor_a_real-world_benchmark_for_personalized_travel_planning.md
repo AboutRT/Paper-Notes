@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - Travel Planning
   - 个性化行程规划
-  - LLM Agent
+  - LLM评测
   - benchmark
   - 真实世界评估
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2508.01432](https://arxiv.org/abs/2508.01432)  
-**代码**: 有 (https://github.com/swxkfm/TripTailor)  
-**领域**: NLP / LLM Agent / 旅行规划  
+**代码**: 有 ([https://github.com/swxkfm/TripTailor](https://github.com/swxkfm/TripTailor))  
+**领域**: LLM评测  
 **关键词**: Travel Planning, 个性化行程规划, LLM Agent, benchmark, 真实世界评估
 
 ## 一句话总结
@@ -151,7 +151,7 @@ TripTailor 包含三个部分：
 - [\[ACL 2025\] TripCraft: A Benchmark for Spatio-Temporally Fine Grained Travel Planning](tripcraft_a_benchmark_for_spatio-temporally_fine_grained_travel_planning.md)
 - [\[ACL 2025\] RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios](rulearena_rule_guided_reasoning.md)
 - [\[ACL 2025\] AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge](antileakbench_preventing_data_contamination_by_automatically_constructing_benchm.md)
-- [\[ICCV 2025\] A Real-world Display Inverse Rendering Dataset](../../ICCV2025/llm_evaluation/a_realworld_display_inverse_rendering_dataset.md)
-- [\[NeurIPS 2025\] Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](../../NeurIPS2025/llm_evaluation/time_travel_is_cheating_going_live_with_deepfund_for_real-time_fund_investment_b.md)
+- [\[ACL 2025\] HalluLens: LLM Hallucination Benchmark](hallulens_llm_hallucination_benchmark.md)
+- [\[ACL 2025\] PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning](physreason_a_comprehensive_benchmark_towards_physics-based_reasoning.md)
 
 <!-- RELATED:END -->

@@ -133,6 +133,6 @@ MARCH 由三个阶段组成：(1) 住院医智能体从 3D CT 扫描中生成初
 - [\[ACL 2025\] Automated Structured Radiology Report Generation](../../ACL2025/medical_imaging/automated_structured_radiology_report_generation.md)
 - [\[ACL 2025\] Online Iterative Self-Alignment for Radiology Report Generation](../../ACL2025/medical_imaging/oisa_radiology_report_gen.md)
 - [\[ACL 2026\] Beyond the Individual: Virtualizing Multi-Disciplinary Reasoning for Clinical Intake via Collaborative Agents](beyond_the_individual_virtualizing_multi-disciplinary_reasoning_for_clinical_int.md)
-- [\[CVPR 2026\] OraPO: Oracle-educated Reinforcement Learning for Data-efficient and Factual Radiology Report Generation](../../CVPR2026/medical_imaging/orapo_oracle_rl_radiology_report_generation.md)
+- [\[CVPR 2026\] OraPO: Oracle-educated Reinforcement Learning for Data-efficient and Factual Radiology Report Generation](../../CVPR2026/medical_imaging/orapo_oracle-educated_reinforcement_learning_for_data-efficient_and_factual_radi.md)
 
 <!-- RELATED:END -->

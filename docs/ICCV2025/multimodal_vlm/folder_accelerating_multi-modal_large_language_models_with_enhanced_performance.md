@@ -10,7 +10,7 @@ tags:
   - MLLM加速
   - 即插即用
   - Token合并
-  - 推理加速
+  - 多模态VLM
 ---
 
 # FOLDER: Accelerating Multi-modal Large Language Models with Enhanced Performance
@@ -54,12 +54,12 @@ FOLDER 作为即插即用模块，集成在视觉骨干网络的最后几个 blo
 
 1. **Token 压缩影响分析（Reduction Impact）**：
    利用 SVD 分解来估算保持特定能量阈值所需的最少 token 数。对 token 序列 $\mathbf{X} \in \mathbb{R}^{n \times d}$，通过 SVD 获得奇异值 $\sigma_i$，定义能量保持比：
-   $$E(k) = \frac{\sum_{i=1}^{k} \sigma_i}{\sum_{i=1}^{n} \sigma_i}$$
+    $E(k) = \frac{\sum_{i=1}^{k} \sigma_i}{\sum_{i=1}^{n} \sigma_i}$
    实验发现：**后面的 block 需要的 token 数远少于前面的 block**，说明后层存在大量冗余。
 
 2. **传播效应分析（Propagation Effect）**：
    由于 Transformer 的顺序结构，早期 block 的 token 压缩误差会逐层累积放大（蝴蝶效应）。使用 Earth Mover's Distance（EMD）测量在不同 block 进行 token 压缩后对最终输出分布的影响：
-   $$\text{EMD}(P_Y, P_{\tilde{Y}_b}) = \min_{\gamma} \langle \gamma, \mathbf{M} \rangle_F$$
+    $\text{EMD}(P_Y, P_{\tilde{Y}_b}) = \min_{\gamma} \langle \gamma, \mathbf{M} \rangle_F$
    实验证明：**在早期 block 压缩导致的 EMD 远大于后期 block**。即使 75% 的压缩比，在最后几层的 EMD 也极低。综合两项分析得出结论：**token 压缩应集中在网络末端**。
 
 3. **Token 聚合方式分析（Aggregation Method）**：
@@ -67,11 +67,11 @@ FOLDER 作为即插即用模块，集成在视觉骨干网络的最后几个 blo
 
 4. **FOLDER 算法**：
    基于上述分析，在最后 block 中执行二部图匹配的 token 合并。为突破传统二部图匹配最多压缩 1/2 的限制，设计了**迭代 FOLD 操作**：
-   - 将 token 分为等大的集合 $\mathbb{A}$ 和 $\mathbb{B}$
-   - 为 $\mathbb{A}$ 中每个 token 找到 $\mathbb{B}$ 中最相似的 token（基于匹配函数 $S$）
-   - 按匹配分数排序，保留 top-$r_{\text{fold}}$ 个匹配进行合并
-   - 若需要压缩数超过 $\lfloor n/2 \rfloor$（reduction overflow），自动执行多次 FOLD 迭代
-   - 每次 FOLD 将 token 数减半，直到剩余压缩量可在一次 FOLD 中完成
+    - 将 token 分为等大的集合 $\mathbb{A}$ 和 $\mathbb{B}$
+    - 为 $\mathbb{A}$ 中每个 token 找到 $\mathbb{B}$ 中最相似的 token（基于匹配函数 $S$）
+    - 按匹配分数排序，保留 top-$r_{\text{fold}}$ 个匹配进行合并
+    - 若需要压缩数超过 $\lfloor n/2 \rfloor$（reduction overflow），自动执行多次 FOLD 迭代
+    - 每次 FOLD 将 token 数减半，直到剩余压缩量可在一次 FOLD 中完成
 
 ### 损失函数 / 训练策略
 
@@ -145,7 +145,7 @@ FOLDER 有两种使用模式：
 - [\[ICCV 2025\] Large Multi-modal Models Can Interpret Features in Large Multi-modal Models](large_multi-modal_models_can_interpret_features_in_large_multi-modal_models.md)
 - [\[ICCV 2025\] Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models](multi-cache_enhanced_prototype_learning_for_test-time_generalization_of_vision-l.md)
 - [\[ICCV 2025\] Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval](bidirectional_likelihood_estimation_with_multi-modal_large_language_models_for_t.md)
-- [\[ICCV 2025\] Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](causal_disentanglement_and_cross-modal_alignment_for_enhanced_few-shot_learning.md)
 - [\[NeurIPS 2025\] Efficient Multi-modal Large Language Models via Progressive Consistency Distillation](../../NeurIPS2025/multimodal_vlm/efficient_multi-modal_large_language_models_via_progressive_consistency_distilla.md)
+- [\[ICCV 2025\] Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](causal_disentanglement_and_cross-modal_alignment_for_enhanced_few-shot_learning.md)
 
 <!-- RELATED:END -->

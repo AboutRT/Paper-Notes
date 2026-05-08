@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2409.17564](https://arxiv.org/abs/2409.17564)  
 **代码**: [GitHub](https://github.com/honglyhly/CompressTracker)（论文提及 code available）  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: 目标跟踪, 模型压缩, 知识蒸馏, Transformer, 高效推理
 
 ## 一句话总结

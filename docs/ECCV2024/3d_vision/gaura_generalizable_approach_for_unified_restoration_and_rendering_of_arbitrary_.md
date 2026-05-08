@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.08221](https://arxiv.org/abs/2407.08221)  
-**代码**: https://vinayak-vg.github.io/GAURA (有)  
+**代码**: [https://vinayak-vg.github.io/GAURA](https://vinayak-vg.github.io/GAURA)  
 **领域**: 3D视觉  
 **关键词**: 新视角合成, 图像复原, 通用退化处理, 可泛化NeRF, Transformer
 

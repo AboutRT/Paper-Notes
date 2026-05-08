@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.03320](https://arxiv.org/abs/2604.03320)  
-**代码**: https://github.com/Purdue-M2/-multisource-covid-ct  
+**代码**: [https://github.com/Purdue-M2/-multisource-covid-ct](https://github.com/Purdue-M2/-multisource-covid-ct)  
 **领域**: 医学图像  
 **关键词**: COVID-19检测, 多源域, 多任务学习, 对数调整损失, CT图像
 

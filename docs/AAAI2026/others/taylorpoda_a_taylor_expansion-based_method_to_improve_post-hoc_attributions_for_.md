@@ -9,7 +9,7 @@ tags:
   - Taylor expansion
   - post-hoc explainability
   - feature interaction
-  - AUP optimization
+  - 其他
 ---
 
 # TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2507.10643](https://arxiv.org/abs/2507.10643)  
 **代码**: 附录提供  
-**领域**: 对齐RLHF / 可解释AI与模型归因  
+**领域**: 其他  
 **关键词**: local attribution, Taylor expansion, post-hoc explainability, feature interaction, AUP optimization
 
 ## 一句话总结
@@ -128,10 +128,10 @@ $$a_i^{(\text{TaylorPODA})} = f(\mathbf{x}) - f_{G\setminus\{i\}}(\mathbf{x}) - 
 
 ## 相关论文
 
-- [\[AAAI 2026\] Cost-Free Neutrality for the River Method](cost-free_neutrality_for_the_river_method.md)
 - [\[ICML 2025\] Regression for the Mean: Auto-Evaluation and Inference with Few Labels through Post-hoc Regression](../../ICML2025/others/regression_for_the_mean_auto-evaluation_and_inference_with_few_labels_through_po.md)
+- [\[AAAI 2026\] Provably Data-Driven Projection Method for Quadratic Programming](provably_data-driven_projection_method_for_quadratic_programming.md)
+- [\[AAAI 2026\] Cost-Free Neutrality for the River Method](cost-free_neutrality_for_the_river_method.md)
 - [\[NeurIPS 2025\] EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination](../../NeurIPS2025/others/an_evidence-based_post-hoc_adjustment_framework_for_anomaly_detection_under_data.md)
-- [\[ICML 2025\] To Each Metric Its Decoding: Post-Hoc Optimal Decision Rules of Probabilistic Hierarchical Classifiers](../../ICML2025/others/to_each_metric_its_decoding_post-hoc_optimal_decision_rules_of_probabilistic_hie.md)
-- [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](beyond_world_models_rethinking_understanding_in_ai_models.md)
+- [\[AAAI 2026\] Rethinking Flow and Diffusion Bridge Models for Speech Enhancement](rethinking_flow_and_diffusion_bridge_models_for_speech_enhancement.md)
 
 <!-- RELATED:END -->

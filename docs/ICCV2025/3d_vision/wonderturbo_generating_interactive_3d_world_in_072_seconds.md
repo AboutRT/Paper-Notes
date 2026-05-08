@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.02261](https://arxiv.org/abs/2504.02261)  
-**代码**: https://github.com/GigaAI-research/WonderTurbo  
+**代码**: [https://github.com/GigaAI-research/WonderTurbo](https://github.com/GigaAI-research/WonderTurbo)  
 **领域**: 3D视觉  
 **关键词**: 实时3D场景生成、高斯溅射、深度补全、扩散蒸馏、交互式生成
 

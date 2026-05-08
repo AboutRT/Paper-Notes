@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.11316](https://arxiv.org/abs/2507.11316)  
-**代码**: https://github.com/hr-jin/ConVA  
+**代码**: [https://github.com/hr-jin/ConVA](https://github.com/hr-jin/ConVA)  
 **领域**: LLM对齐/安全  
 **关键词**: 价值对齐, 激活工程, 价值向量, Schwartz价值理论, 可解释性
 

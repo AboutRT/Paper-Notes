@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.07514](https://arxiv.org/abs/2502.07514)  
 **代码**: 无  
-**领域**: AI Safety / 在线学习 / 多臂老虎机  
+**领域**: 强化学习  
 **关键词**: adversarial corruptions, multi-armed bandits, elimination-based algorithm, regret bound, parallelizable
 
 ## 一句话总结

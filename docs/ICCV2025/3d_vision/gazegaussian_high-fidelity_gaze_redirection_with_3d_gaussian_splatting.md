@@ -57,10 +57,10 @@ GazeGaussian包含三个核心组件：
    在canonical空间构建面部高斯 $\{\mu_0^f, z_0^f, R_0^f, S_0^f, \alpha_0^f\}$，其中 $z_0^f \in \mathbb{R}^{128}$ 为逐点特征向量。
 
    关键创新是基于距离的影响权重机制：
-   - 计算每个高斯中心 $\mu$ 到3D面部landmarks的最小距离 $d$
-   - 近landmark区域（$d < d_1 = 0.15$）主要受表情编码 $\tau$ 影响，$\lambda_\tau = 1$
-   - 远区域（$d > d_2 = 0.25$）主要受头部位姿 $\gamma$ 影响，$\lambda_\tau = 0$
-   - 过渡区域平滑插值：$\lambda_\tau = (d_2 - d)/(d_2 - d_1)$
+    - 计算每个高斯中心 $\mu$ 到3D面部landmarks的最小距离 $d$
+    - 近landmark区域（$d < d_1 = 0.15$）主要受表情编码 $\tau$ 影响，$\lambda_\tau = 1$
+    - 远区域（$d > d_2 = 0.25$）主要受头部位姿 $\gamma$ 影响，$\lambda_\tau = 0$
+    - 过渡区域平滑插值：$\lambda_\tau = (d_2 - d)/(d_2 - d_1)$
    
    变形通过MLP实现：$\mu^f = \mu_0^f + \lambda_\tau E_\mu^f(\mu_0^f, \tau) + \lambda_\gamma P_\mu^f(\mu_0^f, \gamma)$
 
@@ -70,7 +70,7 @@ GazeGaussian包含三个核心组件：
 
    核心设计：先在canonical空间旋转眼部高斯，再加入表情编码生成变形偏移。由于视线标签含噪声，使用两个独立MLP预测旋转偏差：
    
-   $$\mu^e = E_\mu^e(\mu_0^e, \tau) + G_\mu^e(\mu_0^e, \varphi) \mu_0^e$$
+    $\mu^e = E_\mu^e(\mu_0^e, \tau) + G_\mu^e(\mu_0^e, \varphi) \mu_0^e$
    
    其中 $\varphi$ 是归一化后的视线方向。这种显式旋转方式比GazeNeRF的隐式特征图旋转更精确，充分利用了3DGS的可控性。
 
@@ -78,7 +78,7 @@ GazeGaussian包含三个核心组件：
 
    为解决跨被试泛化问题，将表情潜在编码 $\tau$ 通过slice cross-attention注入到UNet渲染器的瓶颈特征中：
    
-   $$z_b' = z_b + z_b \cdot \text{Attn}(q = \tau, k = z_b, v = z_b)$$
+    $z_b' = z_b + z_b \cdot \text{Attn}(q = \tau, k = z_b, v = z_b)$
    
    这使渲染器能够感知被试特异信息，生成更真实的个性化面部细节。
 

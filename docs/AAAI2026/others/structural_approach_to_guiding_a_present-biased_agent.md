@@ -9,7 +9,7 @@ tags:
   - 参数化复杂性
   - 树宽
   - 任务图修改
-  - 委托代理问题
+  - 其他
 ---
 
 # Structural Approach to Guiding a Present-Biased Agent
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.07763](https://arxiv.org/abs/2601.07763)  
 **代码**: 无  
-**领域**: 算法博弈论 / 行为经济学  
+**领域**: 其他  
 **关键词**: 当前偏差, 参数化复杂性, 树宽, 任务图修改, 委托代理问题
 
 ## 一句话总结
@@ -125,10 +125,10 @@ tags:
 
 ## 相关论文
 
-- [\[AAAI 2026\] Bayesian Network Structural Consensus via Greedy Min-Cut Analysis](bayesian_network_structural_consensus_via_greedy_min-cut_analysis.md)
 - [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
-- [\[ACL 2025\] Are Bias Evaluation Methods Biased?](../../ACL2025/others/are_bias_evaluation_methods_biased.md)
-- [\[AAAI 2026\] Variance Computation for Weighted Model Counting with Knowledge Compilation Approach](variance_computation_for_weighted_model_counting_with_knowledge_compilation_appr.md)
+- [\[AAAI 2026\] Bayesian Network Structural Consensus via Greedy Min-Cut Analysis](bayesian_network_structural_consensus_via_greedy_min-cut_analysis.md)
 - [\[AAAI 2026\] Agent-SAMA: State-Aware Mobile Assistant](agent-sama_state-aware_mobile_assistant.md)
+- [\[ACL 2025\] Are Bias Evaluation Methods Biased?](../../ACL2025/others/are_bias_evaluation_methods_biased.md)
+- [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
 
 <!-- RELATED:END -->

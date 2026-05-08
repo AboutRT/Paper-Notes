@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - gender-neutral rewriting
   - collective nouns
-  - French NLP
+  - 其他
   - gender bias
   - rule-based system
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.23630](https://arxiv.org/abs/2505.23630)  
 **代码**: [有](https://github.com/spidersouris/GeNRe)  
-**领域**: NLP / 偏见缓解  
+**领域**: 其他  
 **关键词**: gender-neutral rewriting, collective nouns, French NLP, gender bias, rule-based system
 
 ## 一句话总结
@@ -135,10 +135,10 @@ GeNRe 系统包含三种方案：（1）规则系统（RBS）；（2）微调语
 
 ## 相关论文
 
-- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](a_measure_of_the_system_dependence_of_automated_metrics.md)
 - [\[ACL 2025\] Unlocking Speech Instruction Data Potential with Query Rewriting](unlocking_speech_instruction_data_potential_with_query_rewriting.md)
 - [\[ACL 2025\] IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery](iris_interactive_research_ideation_system_for_accelerating_scientific_discovery.md)
-- [\[ACL 2025\] DocAgent: A Multi-Agent System for Automated Code Documentation Generation](docagent_a_multi-agent_system_for_automated_code_documentation_generation.md)
+- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](a_measure_of_the_system_dependence_of_automated_metrics.md)
+- [\[ICCV 2025\] Toward Material-Agnostic System Identification from Videos](../../ICCV2025/others/toward_material-agnostic_system_identification_from_videos.md)
 - [\[AAAI 2026\] A Topological Rewriting of Tarski's Mereogeometry](../../AAAI2026/others/a_topological_rewriting_of_tarskis_mereogeometry.md)
 
 <!-- RELATED:END -->

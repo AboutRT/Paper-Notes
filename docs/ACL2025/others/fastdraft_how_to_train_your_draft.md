@@ -2,10 +2,10 @@
 title: >-
   [论文解读] FastDraft: How to Train Your Draft
 description: >-
-  [ACL 2025][speculative decoding] 提出 FastDraft，一套高效的 draft 模型预训练与对齐流程，可在24小时内用单节点8卡训练出约50M参数的 draft 模型，配合 Speculative Decoding 实现最高3倍内存带宽加速和2倍实际推理加速。
+  [ACL 2025][其他] 提出 FastDraft，一套高效的 draft 模型预训练与对齐流程，可在24小时内用单节点8卡训练出约50M参数的 draft 模型，配合 Speculative Decoding 实现最高3倍内存带宽加速和2倍实际推理加速。
 tags:
   - ACL 2025
-  - speculative decoding
+  - 其他
   - Draft Model
   - 知识蒸馏
   - LLM Inference
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2411.11055](https://arxiv.org/abs/2411.11055)  
 **代码**: 无（Intel Labs 内部实现）  
-**领域**: NLP / LLM推理加速  
+**领域**: 其他  
 **关键词**: speculative decoding, Draft Model, knowledge distillation, LLM Inference, Edge Deployment
 
 ## 一句话总结
@@ -138,10 +138,10 @@ FastDraft 采用三阶段流水线：
 
 ## 相关论文
 
-- [\[ACL 2025\] Sparse Rewards Can Self-Train Dialogue Agents](sparse_rewards_can_self-train_dialogue_agents.md)
-- [\[ACL 2025\] Your Model is Overconfident, and Other Lies We Tell Ourselves](your_model_is_overconfident_and_other_lies_we_tell_ourselves.md)
 - [\[ACL 2025\] How to Mitigate Overfitting in Weak-to-Strong Generalization?](how_to_mitigate_overfitting_in_weak-to-strong_generalization.md)
+- [\[ACL 2025\] Your Model is Overconfident, and Other Lies We Tell Ourselves](your_model_is_overconfident_and_other_lies_we_tell_ourselves.md)
 - [\[ACL 2025\] Using Shapley Interactions to Understand How Models Use Structure](using_shapley_interactions_to_understand_how_models_use_structure.md)
 - [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
+- [\[ACL 2025\] The AI Gap: How Socioeconomic Status Affects Language Technology Interactions](the_ai_gap_how_socioeconomic_status_affects_language_technology_interactions.md)
 
 <!-- RELATED:END -->

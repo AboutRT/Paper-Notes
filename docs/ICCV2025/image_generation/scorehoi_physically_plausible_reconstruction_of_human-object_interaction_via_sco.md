@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2509.07920](https://arxiv.org/abs/2509.07920)  
-**代码**: https://github.com/RammusLeo/ScoreHOI.git  
-**领域**: 3D视觉 / 人物交互重建  
+**代码**: [https://github.com/RammusLeo/ScoreHOI.git](https://github.com/RammusLeo/ScoreHOI.git)  
+**领域**: 图像生成  
 **关键词**: 人物交互重建, 扩散模型, score-guided sampling, 物理约束, 接触预测
 
 ## 一句话总结
@@ -156,6 +156,6 @@ ScoreHOI 利用 score-based 扩散模型作为优化器，结合 DDIM 逆向-正
 - [\[CVPR 2026\] ViHOI: Human-Object Interaction Synthesis with Visual Priors](../../CVPR2026/image_generation/vihoi_human-object_interaction_synthesis_with_visual_priors.md)
 - [\[ICCV 2025\] A Unified Framework for Motion Reasoning and Generation in Human Interaction](a_unified_framework_for_motion_reasoning_and_generation_in_human_interaction.md)
 - [\[ICCV 2025\] HPSv3: Towards Wide-Spectrum Human Preference Score](hpsv3_towards_wide-spectrum_human_preference_score.md)
-- [\[CVPR 2025\] InterAct: Advancing Large-Scale Versatile 3D Human-Object Interaction Generation](../../CVPR2025/image_generation/interact_advancing_large-scale_versatile_3d_human-object_interaction_generation.md)
+- [\[ICLR 2026\] Does FLUX Already Know How to Perform Physically Plausible Image Composition?](../../ICLR2026/image_generation/does_flux_already_know_how_to_perform_physically_plausible_image_composition.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.14489](https://arxiv.org/abs/2505.14489)  
-**代码**: [GitHub](https://github.com/MattYoon/reasoning-models-confidence) (有)  
+**代码**: [GitHub](https://github.com/MattYoon/reasoning-models-confidence)  
 **领域**: LLM推理  
 **关键词**: confidence calibration, reasoning models, chain-of-thought, slow thinking, verbalized confidence, ECE, Brier Score
 
@@ -139,6 +139,6 @@ tags:
 - [\[ICML 2025\] Towards Better Chain-of-Thought: A Reflection on Effectiveness and Faithfulness](../../ICML2025/llm_reasoning/towards_better_chain-of-thought_a_reflection_on_effectiveness_and_faithfulness.md)
 - [\[NeurIPS 2025\] Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties](topology_of_reasoning_understanding_large_reasoning_models_through_reasoning_gra.md)
 - [\[AAAI 2026\] Dropouts in Confidence: Moral Uncertainty in Human-LLM Alignment](../../AAAI2026/llm_reasoning/dropouts_in_confidence_moral_uncertainty_in_human-llm_alignment.md)
-- [\[NeurIPS 2025\] SPRINT: Enabling Interleaved Planning and Parallelized Execution in Reasoning Models](sprint_enabling_interleaved_planning_and_parallelized_execution_in_reasoning_mod.md)
+- [\[NeurIPS 2025\] The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness](the_hawthorne_effect_in_reasoning_models_evaluating_and_steering_test_awareness.md)
 
 <!-- RELATED:END -->

@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Findings)][text embedding] 发现并严格证明了 PLM 文本嵌入模型中的"长度坍缩"现象——长文本嵌入趋于聚集，源于 self-attention 作为低通滤波器随文本长度增加而滤波率增强，高频信息被过度抑制；提出 TempScale 方法通过降低 attention 温度来缓解长短文本嵌入分布差异，在 MTEB 上提升 0.94%、LongEmbed 上提升 1.10%。
 tags:
   - ACL 2025 (Findings)
-  - text embedding
+  - 其他
   - length collapse
   - 注意力机制
   - low-pass filter
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2410.24200](https://arxiv.org/abs/2410.24200)  
 **代码**: [GitHub](https://github.com/Yuqi-Zhou/Length_Collapse)  
-**领域**: LLM/NLP  
+**领域**: 其他  
 **关键词**: text embedding, length collapse, self-attention, low-pass filter, temperature scaling
 
 ## 一句话总结
@@ -120,10 +120,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Neural Collapse in Cumulative Link Models for Ordinal Regression: An Analysis with Unconstrained Feature Model](../../NeurIPS2025/others/neural_collapse_in_cumulative_link_models_for_ordinal_regression_an_analysis_wit.md)
 - [\[ACL 2025\] DAPE V2: Process Attention Score as Feature Map for Length Extrapolation](dape_v2_process_attention_score_as_feature_map_for_length_extrapolation.md)
-- [\[CVPR 2025\] Three-View Focal Length Recovery From Homographies](../../CVPR2025/others/three-view_focal_length_recovery_from_homographies.md)
 - [\[ACL 2025\] I0T: Embedding Standardization Method Towards Zero Modality Gap](i0t_embedding_standardization_method_towards_zero_modality_gap.md)
-- [\[NeurIPS 2025\] MaxSup: Overcoming Representation Collapse in Label Smoothing](../../NeurIPS2025/others/maxsup_overcoming_representation_collapse_in_label_smoothing.md)
+- [\[ACL 2025\] What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation](what_matters_in_evaluating_book-length_stories_a_systematic_study_of_long_story_.md)
 - [\[ICCV 2025\] LaCoOT: Layer Collapse through Optimal Transport](../../ICCV2025/others/lacoot_layer_collapse_through_optimal_transport.md)
 
 <!-- RELATED:END -->

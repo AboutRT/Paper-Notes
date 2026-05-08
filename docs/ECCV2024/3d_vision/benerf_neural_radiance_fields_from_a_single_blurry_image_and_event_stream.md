@@ -19,7 +19,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.02174](https://arxiv.org/abs/2407.02174)  
 **代码**: [wu-cvgl/BeNeRF](https://github.com/wu-cvgl/BeNeRF)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: NeRF, Event Camera, Motion Deblurring, novel view synthesis, Camera Motion Estimation, B-Spline
 
 ## 一句话总结

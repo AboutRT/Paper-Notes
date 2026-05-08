@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.19286](https://arxiv.org/abs/2404.19286)  
-**代码**: https://github.com/renytek13/Soft-Prompt-Generation-with-CGAN (有)  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/renytek13/Soft-Prompt-Generation-with-CGAN](https://github.com/renytek13/Soft-Prompt-Generation-with-CGAN)  
+**领域**: 图像生成  
 **关键词**: domain generalization, prompt learning, CLIP, CGAN, generative model
 
 ## 一句话总结

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation
 description: >-
-  [AAAI 2026][图像生成][全景生成] 提出 SphereDiff，通过球面隐空间表示和动态采样，无需微调即可利用预训练扩散模型生成无缝360度全景图像和视频。
+  [AAAI 2026][视频生成][全景生成] 提出 SphereDiff，通过球面隐空间表示和动态采样，无需微调即可利用预训练扩散模型生成无缝360度全景图像和视频。
 tags:
   - AAAI 2026
-  - 图像生成
+  - 视频生成
   - 全景生成
   - 扩散模型
   - 球面表示
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2504.14396](https://arxiv.org/abs/2504.14396)  
-**代码**: https://github.com/pmh9960/SphereDiff (有)  
-**领域**: 图像生成  
+**代码**: [https://github.com/pmh9960/SphereDiff](https://github.com/pmh9960/SphereDiff)  
+**领域**: 视频生成  
 **关键词**: 全景生成, 球面隐空间, MultiDiffusion, 扩散模型, VR/AR
 
 ## 一句话总结
@@ -120,8 +120,8 @@ tags:
 
 - [\[CVPR 2026\] From Static to Dynamic: Exploring Self-supervised Image-to-Video Representation Transfer Learning](../../CVPR2026/video_generation/from_static_to_dynamic_exploring_self-supervised_image-to-video_representation_t.md)
 - [\[ICCV 2025\] Long Context Tuning for Video Generation](../../ICCV2025/video_generation/long_context_tuning_for_video_generation.md)
-- [\[CVPR 2025\] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes](../../CVPR2025/video_generation/dynamicscaler_seamless_and_scalable_video_generation_for_panoramic_scenes.md)
+- [\[CVPR 2025\] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes](../../CVPR2025/video_generation/dynamicscaler_panoramic_video.md)
+- [\[CVPR 2026\] SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls](../../CVPR2026/video_generation/switchcraft_training-free_multi-event_video_generation_with_attention_controls.md)
 - [\[ECCV 2024\] SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](../../ECCV2024/video_generation/sv3d_novel_multi-view_synthesis_and_3d_generation_from_a_single_image_using_late.md)
-- [\[ECCV 2024\] DragAnything: Motion Control for Anything using Entity Representation](../../ECCV2024/video_generation/draganything_motion_control_for_anything_using_entity_representation.md)
 
 <!-- RELATED:END -->

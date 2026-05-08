@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2307.09368](https://arxiv.org/abs/2307.09368)  
 **代码**: [yamand16/TalkingFaceGeneration](https://yamand16.github.io/TalkingFaceGeneration/)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: talking face generation, lip synchronization, SyncNet, lip leaking, GAN
 
 ## 一句话总结
@@ -155,9 +155,9 @@ $$L_{ss} = -\log\left(1 - \frac{|x - y| + \epsilon}{|x - y| + |y - d| + \epsilon
 ## 相关论文
 
 - [\[NeurIPS 2025\] MOSPA: Human Motion Generation Driven by Spatial Audio](../../NeurIPS2025/human_understanding/mospa_human_motion_generation_driven_by_spatial_audio.md)
+- [\[CVPR 2026\] Talking Together: Synthesizing Co-Located 3D Conversations from Audio](../../CVPR2026/human_understanding/talking_together_synthesizing_co-located_3d_conversations_from_audio.md)
+- [\[ECCV 2024\] ScanTalk: 3D Talking Heads from Unregistered Scans](scantalk_3d_talking_heads_from_unregistered_scans.md)
 - [\[CVPR 2025\] MoEE: Mixture of Emotion Experts for Audio-Driven Portrait Animation](../../CVPR2025/human_understanding/moee_mixture_of_emotion_experts_for_audio-driven_portrait_animation.md)
 - [\[ECCV 2024\] Avatar Fingerprinting for Authorized Use of Synthetic Talking-Head Videos](avatar_fingerprinting_for_authorized_use_of_synthetic_talking-head_videos.md)
-- [\[CVPR 2026\] UniLS: End-to-End Audio-Driven Avatars for Unified Listening and Speaking](../../CVPR2026/human_understanding/unils_end-to-end_audio-driven_avatars_for_unified_listening_and_speaking.md)
-- [\[AAAI 2026\] CLIP-FTI: Fine-Grained Face Template Inversion via CLIP-Driven Attribute Conditioning](../../AAAI2026/human_understanding/clip-fti_fine-grained_face_template_inversion_via_clip-driven_attribute_conditio.md)
 
 <!-- RELATED:END -->

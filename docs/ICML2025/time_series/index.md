@@ -1,14 +1,18 @@
 ---
 title: >-
-  ICML2025 时间序列方向25篇论文解读
+  ICML2025 时间序列方向27篇论文解读
 description: >-
-  25篇ICML2025的时间序列方向论文解读，涵盖时序预测、异常检测、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  27篇ICML2025的时间序列方向论文解读，涵盖时序预测、异常检测、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📈 时间序列
 
-**🧪 ICML2025** · **25** 篇论文解读
+**🧪 ICML2025** · **27** 篇论文解读
+
+**[A Generalizable Physics-Enhanced State Space Model for Long-Term Dynamics Forecasting in Complex Environments](a_generalizable_physics-enhanced_state_space_model_for_long-term_dynamics_foreca.md)**
+
+:   提出 Phy-SSM，将部分已知的物理知识融入深度状态空间模型（SSM），通过动力学分解（已知/未知矩阵）和物理状态正则化，实现对噪声大、不规则采样数据的长期动力学精准预测与外推。
 
 **[Are LLMs Prescient? A Continuous Evaluation using Daily News as the Oracle](are_llms_prescient_a_continuous_evaluation_using_daily_news_as_the_oracle.md)**
 
@@ -93,6 +97,10 @@ description: >-
 **[Understanding the Limits of Deep Tabular Methods with Temporal Shift](understanding_the_limits_of_deep_tabular_methods_with_temporal_shift.md)**
 
 :   揭示深度表格模型在时间分布偏移下失败的根因——训练滞后与验证偏差导致模型选择失效，以及模型表示丢失周期/趋势信息——并提出改进的时序划分策略和基于傅里叶级数的即插即用时间嵌入方法。
+
+**[VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecasters](visionts_visual_masked_autoencoders_are_free-lunch_zero-shot_time_series_forecas.md)**
+
+:   将时间序列重构为图像，利用 ImageNet 预训练的 MAE（Masked Autoencoder）在**零样本**设置下进行时序预测，无需任何时序数据训练即可匹敌甚至超越专门的时序基础模型。
 
 **[WAVE: Weighted Autoregressive Varying Gate for Time Series Forecasting](wave_weighted_autoregressive_varying_gate_for_time_series_forecasting.md)**
 

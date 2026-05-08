@@ -9,7 +9,7 @@ tags:
   - 统一模型
   - 检索+生成
   - 联合训练
-  - LLM
+  - 对话系统
 ---
 
 # UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.07030](https://arxiv.org/abs/2507.07030)  
 **代码**: 无 (Amazon)  
-**领域**: 文本生成  
+**领域**: 对话系统  
 **关键词**: 对话搜索, 统一模型, 检索+生成, 联合训练, LLM  
 
 ## 一句话总结
@@ -127,10 +127,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2025\] Detecting Referring Expressions in Visually Grounded Dialogue with Autoregressive Language Models](detecting_referring_expressions_in_visually_grounded_dialogue_with_autoregressiv.md)
 - [\[ICML 2025\] Position: Uncertainty Quantification Needs Reassessment for Large-language Model Agents](../../ICML2025/dialogue/position_uncertainty_quantification_needs_reassessment_for_large-language_model_.md)
 - [\[ACL 2025\] ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generation via a RL-Diffusion Framework](reflectdiffu_empathetic_response.md)
-- [\[ACL 2025\] When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation](when_harry_meets_superman_the_role_of_the_interlocutor_in_persona-based_dialogue.md)
-- [\[ACL 2025\] Wizard of Shopping: Target-Oriented E-commerce Dialogue Generation with Decision Tree Branching](wizard_of_shopping_target-oriented_e-commerce_dialogue_generation_with_decision_.md)
 - [\[ICLR 2026\] AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions](../../ICLR2026/dialogue/aqua_toward_strategic_response_generation_for_ambiguous_visual_questions.md)
+- [\[ACL 2025\] When Harry Meets Superman: The Role of The Interlocutor in Persona-Based Dialogue Generation](when_harry_meets_superman_the_role_of_the_interlocutor_in_persona-based_dialogue.md)
 
 <!-- RELATED:END -->

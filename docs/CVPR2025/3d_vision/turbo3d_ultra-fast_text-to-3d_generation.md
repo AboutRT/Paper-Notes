@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04470](https://arxiv.org/abs/2412.04470)  
-**代码**: https://turbo-3d.github.io/  
+**代码**: [https://turbo-3d.github.io/](https://turbo-3d.github.io/)  
 **领域**: 3D视觉  
 **关键词**: 文本到3D生成, 扩散蒸馏, 多视图生成, 高斯泼溅, 高效推理
 
@@ -132,6 +132,6 @@ Turbo3D 是一个两阶段 pipeline：首先，一个 4 步多视图潜空间生
 - [\[CVPR 2025\] PreciseCam: Precise Camera Control for Text-to-Image Generation](precisecam_precise_camera_control_for_text-to-image_generation.md)
 - [\[CVPR 2025\] Compass Control: Multi Object Orientation Control for Text-to-Image Generation](compass_control_multi_object_orientation_control_for_text-to-image_generation.md)
 - [\[CVPR 2025\] PrEditor3D: Fast and Precise 3D Shape Editing](preditor3d_fast_and_precise_3d_shape_editing.md)
-- [\[CVPR 2025\] Instant3dit: Multiview Inpainting for Fast Editing of 3D Objects](instant3dit_multiview_inpainting_for_fast_editing_of_3d_objects.md)
+- [\[CVPR 2025\] SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis](splatflow_multi-view_rectified_flow_model_for_3d_gaussian_splatting_synthesis.md)
 
 <!-- RELATED:END -->

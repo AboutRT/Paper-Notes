@@ -9,15 +9,15 @@ tags:
   - 扩散模型
   - XYZ图像
   - 多视角合成
-  - 深度估计
+  - 视频生成
 ---
 
 # World-Consistent Video Diffusion with Explicit 3D Modeling
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01821](https://arxiv.org/abs/2412.01821)  
-**代码**: https://zqh0253.github.io/wvd  
-**领域**: 3D视觉  
+**代码**: [https://zqh0253.github.io/wvd](https://zqh0253.github.io/wvd)  
+**领域**: 视频生成  
 **关键词**: 3D一致性生成, 扩散模型, XYZ图像, 多视角合成, 深度估计
 
 ## 一句话总结
@@ -140,9 +140,9 @@ WVD 的输入是一组6D视频——每个视角包含一张 RGB 图像和一张
 ## 相关论文
 
 - [\[CVPR 2025\] GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](gen3c_3d-informed_world-consistent_video_generation_with_precise_camera_control.md)
-- [\[CVPR 2025\] MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](mimo_controllable_character_video_synthesis_with_spatial_decomposed_modeling.md)
 - [\[CVPR 2026\] Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context](../../CVPR2026/video_generation/geometry-as-context_modulating_explicit_3d_in_scene-consistent_video_generation_.md)
 - [\[CVPR 2025\] StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text](streamingt2v_consistent_dynamic_and_extendable_long_video_generation_from_text.md)
 - [\[CVPR 2025\] Learning Temporally Consistent Video Depth from Video Diffusion Priors](learning_temporally_consistent_video_depth_from_video_diffusion_priors.md)
+- [\[CVPR 2025\] MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](mimo_controllable_character_video_synthesis_with_spatial_decomposed_modeling.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - KV Cache压缩
+  - 多模态VLM
   - 大视觉语言模型
   - 跨模态注意力
   - 层级预算分配
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
 **代码**: 无  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: KV Cache压缩, 大视觉语言模型, 跨模态注意力, 层级预算分配, 推理加速
 
 ## 一句话总结
@@ -241,10 +241,10 @@ Token pruning 在极端压缩比下性能崩溃，AirCache 仍保持良好性能
 
 ## 相关论文
 
-- [\[ICCV 2025\] FOLDER: Accelerating Multi-modal Large Language Models with Enhanced Performance](folder_accelerating_multi-modal_large_language_models_with_enhanced_performance.md)
 - [\[ICCV 2025\] The Inter-Intra Modal Measure: A Predictive Lens on Fine-Tuning Outcomes in Vision-Language Models](the_inter-intra_modal_measure_a_predictive_lens_on_fine-tuning_outcomes_in_visio.md)
-- [\[ICCV 2025\] SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference](sparsevila_decoupling_visual_sparsity_for_efficient_vlm_infe.md)
 - [\[ICCV 2025\] Why LVLMs Are More Prone to Hallucinations in Longer Responses: The Role of Context](why_lvlms_are_more_prone_to_hallucinations_in_longer_responses_the_role_of_conte.md)
+- [\[ICCV 2025\] SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference](sparsevila_decoupling_visual_sparsity_for_efficient_vlm_infe.md)
 - [\[ICCV 2025\] Scaling Inference-Time Search with Vision Value Model for Improved Visual Comprehension](scaling_inferencetime_search_with_vision_value_model_for_imp.md)
+- [\[ICCV 2025\] Dynamic-VLM: Simple Dynamic Visual Token Compression for VideoLLM](dynamic-vlm_simple_dynamic_visual_token_compression_for_videollm.md)
 
 <!-- RELATED:END -->

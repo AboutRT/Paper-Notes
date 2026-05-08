@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 最优传输
   - Sinkhorn算法
-  - 概率Token对齐
+  - 可解释性
   - Logit融合
   - 跨架构模型融合
   - Knowledge Fusion
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.17276](https://arxiv.org/abs/2509.17276)  
 **代码**: [runjia.tech/neurips_pta-llm](https://runjia.tech/neurips_pta-llm)  
-**领域**: LLM 融合 / 知识蒸馏  
+**领域**: 可解释性  
 **关键词**: 最优传输, Sinkhorn算法, 概率Token对齐, Logit融合, 跨架构模型融合, Knowledge Fusion
 
 ## 一句话总结
@@ -156,7 +156,7 @@ PTA-LLM 遵循知识融合范式：将多个 source LLM 的概率分布矩阵通
 - [\[NeurIPS 2025\] Encoding and Understanding Astrophysical Information in Large Language Model-Generated Summaries](encoding_and_understanding_astrophysical_information_in_large_language_model-gen.md)
 - [\[NeurIPS 2025\] scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](scpilot_large_language_model_reasoning_toward_automated_single-cell_analysis_and.md)
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](the_trilemma_of_truth_in_large_language_models.md)
-- [\[NeurIPS 2025\] Latent Principle Discovery for Language Model Self-Improvement](latent_principle_discovery_for_language_model_self-improvement.md)
+- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](table_as_a_modality_for_large_language_models.md)
 - [\[NeurIPS 2025\] VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set](vlsae_interpreting_and_enhancing_visionlanguage_alignment_wi.md)
 
 <!-- RELATED:END -->

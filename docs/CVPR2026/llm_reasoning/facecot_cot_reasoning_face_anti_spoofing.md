@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2506.01783](https://arxiv.org/abs/2506.01783)  
 **代码**: 即将开源（数据集 FaceCoT 将公开）  
 **作者**: Honglu Zhang, Zhiqin Fang, Ningning Zhao, Saihui Hou, Long Ma, Renwang Pei, Zhaofeng He
-**领域**: 多模态LLM / 人脸安全  
+**领域**: LLM推理  
 **关键词**: Face Anti-Spoofing, CoT Reasoning, VQA Dataset, Progressive Learning, Reinforcement Learning Annotation
 
 ## 一句话总结

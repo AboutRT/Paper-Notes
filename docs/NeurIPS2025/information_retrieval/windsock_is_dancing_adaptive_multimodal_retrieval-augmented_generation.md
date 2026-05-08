@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22694](https://arxiv.org/abs/2510.22694)  
 **代码**: 暂无  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 多模态RAG, 自适应检索, 模态选择, 噪声鲁棒训练, 检索增强生成
 
 ## 一句话总结
@@ -50,25 +50,25 @@ tags:
 1. **Windsock——查询感知的自适应检索决策器**：
    
    基于Flan-T5-Small骨干实现三分类映射：
-   $$c = \mathcal{W}(Q) \in \{\text{NA}, \text{Visual}, \text{Textual}\}$$
+    $c = \mathcal{W}(Q) \in \{\text{NA}, \text{Visual}, \text{Textual}\}$
    
    根据分类结果执行对应策略：
-   $$\begin{cases} r^\varnothing = \mathcal{G}(Q, \varnothing), & \text{if } c = \text{NA} \\ r^V = \mathcal{G}(Q, \mathcal{R}(Q, \mathbb{D}^I)), & \text{if } c = \text{Visual} \\ r^T = \mathcal{G}(Q, \mathcal{R}(Q, \mathbb{D}^T)), & \text{if } c = \text{Textual} \end{cases}$$
+    $\begin{cases} r^\varnothing = \mathcal{G}(Q, \varnothing), & \text{if } c = \text{NA} \\ r^V = \mathcal{G}(Q, \mathcal{R}(Q, \mathbb{D}^I)), & \text{if } c = \text{Visual} \\ r^T = \mathcal{G}(Q, \mathcal{R}(Q, \mathbb{D}^T)), & \text{if } c = \text{Textual} \end{cases}$
    
    设计优点：（a）跳过不必要的检索减少开销和噪声引入；（b）选择最合适的模态提升信息质量；（c）模块化设计可**即插即用**到任意MLLM。实验显示Windsock仅增加10.25ms（1.83%）的推理开销。
 
 2. **自评估训练数据构建**（无需GPT-4标注）：
    
    对每个QA对 $\{Q, A\}$，用MLLM分别以三种策略生成回答（不检索/检索图像/检索文本），然后用下游任务评估指标（如F1）评分：
-   $$s^\varnothing = \epsilon(r^\varnothing, A), \quad s^I = \epsilon(r^I, A), \quad s^T = \epsilon(r^T, A)$$
-   $$c^* = \arg\max_c(s^\varnothing, s^I, s^T)$$
+    $s^\varnothing = \epsilon(r^\varnothing, A), \quad s^I = \epsilon(r^I, A), \quad s^T = \epsilon(r^T, A)$
+    $c^* = \arg\max_c(s^\varnothing, s^I, s^T)$
    
    最优策略 $c^*$ 作为Windsock的训练标签。这种方法直接利用MLLM自身能力评估不同策略的效果，无需外部标注。还能发现检索有害的情况（当 $s^\varnothing > \max(s^I, s^T)$ 时）。
 
 3. **DANCE——动态噪声抵抗指令微调**：
    
    核心思路：不是随机注入噪声，而是智能识别模型**最薄弱的模态**进行针对性训练。具体地，对每个样本选择MLLM表现最差的模态：
-   $$\arg\min_M (s^I, s^T) \in \{I, T\}$$
+    $\arg\min_M (s^I, s^T) \in \{I, T\}$
    
    该模态的检索结果大概率包含噪声/无关信息。用这些"困难样本"构建指令微调数据：$\{Q, \mathcal{R}(Q, \mathbb{D}^M), A\}$，然后用标准指令微调训练模型学会在噪声中提取有用信息。
 
@@ -149,8 +149,8 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering](benchmarking_retrievalaugmented_multimodal_generation_for_do.md)
 - [\[ACL 2025\] Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation](../../ACL2025/information_retrieval/towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md)
+- [\[NeurIPS 2025\] Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering](benchmarking_retrievalaugmented_multimodal_generation_for_do.md)
 - [\[ACL 2025\] SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation](../../ACL2025/information_retrieval/seakr_self-aware_knowledge_retrieval_for_adaptive_retrieval_augmented_generation.md)
 - [\[ACL 2025\] Accelerating Adaptive Retrieval Augmented Generation via Instruction-Driven Representation Reduction of Retrieval Overlaps](../../ACL2025/information_retrieval/accelerating_adaptive_retrieval_augmented_generation_via_instruction-driven_repr.md)
 - [\[NeurIPS 2025\] Retrieval-Augmented Generation for Reliable Interpretation of Radio Regulations](retrieval-augmented_generation_for_reliable_interpretation_of_radio_regulations.md)

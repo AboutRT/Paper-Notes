@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.14156](https://arxiv.org/abs/2502.14156)  
-**代码**: https://mixedsignalsdataset.cs.cornell.edu/  
+**代码**: [https://mixedsignalsdataset.cs.cornell.edu/](https://mixedsignalsdataset.cs.cornell.edu/)  
 **领域**: 自动驾驶  
 **关键词**: V2X 协作感知, 点云数据集, 异构传感器, 3D目标检测, 弱势道路使用者
 

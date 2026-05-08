@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2403.12559](https://arxiv.org/abs/2403.12559)  
 **作者**: Kaile Du, Yifan Zhou, Fan Lyu, Yuyang Li, Chen Lu, Guangcan Liu (东南大学, 中科院自动化所)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: multi-label class-incremental learning, confidence calibration, graph convolutional network, max-entropy regularization, partial label
 
 ## 一句话总结

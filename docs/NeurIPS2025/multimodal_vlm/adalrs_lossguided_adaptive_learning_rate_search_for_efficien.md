@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - learning rate search
-  - online optimization
+  - 多模态VLM
   - loss velocity
   - foundation model pretraining
   - cosine scheduler
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.13274](https://arxiv.org/abs/2506.13274)  
 **代码**: 无  
-**领域**: 优化 / 基础模型预训练  
+**领域**: 多模态VLM  
 **关键词**: learning rate search, online optimization, loss velocity, foundation model pretraining, cosine scheduler  
 
 ## 一句话总结
@@ -121,9 +121,9 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] BabyVLM: Data-Efficient Pretraining of VLMs Inspired by Infant Learning](../../ICCV2025/multimodal_vlm/babyvlm_data-efficient_pretraining_of_vlms_inspired_by_infant_learning.md)
-- [\[CVPR 2025\] Revisiting Model Stitching in the Foundation Model Era](../../CVPR2025/multimodal_vlm/revisiting_model_stitching_in_the_foundation_model_era.md)
 - [\[NeurIPS 2025\] Enhancing Vision-Language Model Reliability with Uncertainty-Guided Dropout Decoding](enhancing_visionlanguage_model_reliability_with_uncertaintyg.md)
-- [\[ACL 2025\] AVG-LLaVA: An Efficient Large Multimodal Model with Adaptive Visual Granularity](../../ACL2025/multimodal_vlm/avg-llava_an_efficient_large_multimodal_model_with_adaptive_visual_granularity.md)
 - [\[NeurIPS 2025\] RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness](robustmerge_parameter-efficient_model_merging_for_mllms_with_direction_robustnes.md)
+- [\[NeurIPS 2025\] PrefixKV: Adaptive Prefix KV Cache is What Vision Instruction-Following Models Need for Efficient Generation](prefixkv_adaptive_prefix_kv_cache_is_what_vision_instruction.md)
+- [\[CVPR 2025\] Revisiting Model Stitching in the Foundation Model Era](../../CVPR2025/multimodal_vlm/revisiting_model_stitching_in_the_foundation_model_era.md)
 
 <!-- RELATED:END -->

@@ -10,7 +10,7 @@ tags:
   - 拓扑空间
   - Coq定理证明
   - 正则开集
-  - 定性空间推理
+  - 其他
 ---
 
 # A Topological Rewriting of Tarski's Mereogeometry
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12727](https://arxiv.org/abs/2511.12727)  
 **代码**: [λ-MM Coq库](https://www.univ-smb.fr/listic/technologies/logiciels/modeles-decidables-pour-la-specification-d-ontologies/extending-tarskis-mereo-geometry-with-topological-definitions/)  
-**领域**: 定性空间推理 / 形式化验证  
+**领域**: 其他  
 **关键词**: Tarski几何, 部分学, 拓扑空间, Coq定理证明, 正则开集, 定性空间推理
 
 ## 一句话总结
@@ -129,7 +129,7 @@ tags:
 - [\[NeurIPS 2025\] On Topological Descriptors for Graph Products](../../NeurIPS2025/others/on_topological_descriptors_for_graph_products.md)
 - [\[ACL 2025\] Unlocking Speech Instruction Data Potential with Query Rewriting](../../ACL2025/others/unlocking_speech_instruction_data_potential_with_query_rewriting.md)
 - [\[ACL 2025\] GeNRe: A French Gender-Neutral Rewriting System Using Collective Nouns](../../ACL2025/others/genre_a_french_gender-neutral_rewriting_system_using_collective_nouns.md)
-- [\[AAAI 2026\] Reward Redistribution via Gaussian Process Likelihood Estimation](reward_redistribution_via_gaussian_process_likelihood_estimation.md)
-- [\[AAAI 2026\] A New Strategy for Verifying Reach-Avoid Specifications in Neural Feedback Systems](a_new_strategy_for_verifying_reach-avoid_specifications_in_neural_feedback_syste.md)
+- [\[AAAI 2026\] RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection](rcae_recursive_reconstruction_framework_for_unsupervised_industrial_anomaly_dete.md)
+- [\[AAAI 2026\] Agent-SAMA: State-Aware Mobile Assistant](agent-sama_state-aware_mobile_assistant.md)
 
 <!-- RELATED:END -->

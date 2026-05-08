@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.08035](https://arxiv.org/abs/2511.08035)  
 **代码**: 无  
-**领域**: 运筹优化 / 决策学习  
+**领域**: 其他  
 **关键词**: Decision-Focused Learning, Predict-then-Optimize, 递归学习, 隐式微分, 双向反馈
 
 ## 一句话总结

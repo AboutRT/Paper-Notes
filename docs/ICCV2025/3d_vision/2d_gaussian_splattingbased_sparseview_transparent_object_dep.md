@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.11069](https://arxiv.org/abs/2507.11069)  
-**代码**: [项目主页](https://jeongyun0609.github.io/TRAN-D/) (有)  
+**代码**: [项目主页](https://jeongyun0609.github.io/TRAN-D/)  
 **领域**: 3D视觉  
 **关键词**: 2D Gaussian Splatting, 透明物体深度重建, 稀疏视角, 物理仿真, 场景更新  
 
@@ -171,10 +171,10 @@ $$\mathcal{L} = a_\text{color}\mathcal{L}_c + a_\text{mask}\mathcal{L}_m + a_\te
 
 ## 相关论文
 
-- [\[ICCV 2025\] PhysSplat: Efficient Physics Simulation for 3D Scenes via MLLM-Guided Gaussian Splatting](physsplat_efficient_physics_simulation_for_3d_scenes_via_mllm-guided_gaussian_sp.md)
 - [\[ICCV 2025\] GaussianUpdate: Continual 3D Gaussian Splatting Update for Changing Environments](gaussianupdate_continual_3d_gaussian_splatting_update_for_changing_environments.md)
 - [\[ICCV 2025\] RegGS: Unposed Sparse Views Gaussian Splatting with 3DGS Registration](reggs_unposed_sparse_views_gaussian_splatting_with_3dgs_registration.md)
 - [\[ICML 2025\] PhysicsNeRF: Physics-Guided 3D Reconstruction from Sparse Views](../../ICML2025/3d_vision/physicsnerf_physics-guided_3d_reconstruction_from_sparse_views.md)
 - [\[ICCV 2025\] SurfaceSplat: Connecting Surface Reconstruction and Gaussian Splatting](surfacesplat_connecting_surface_reconstruction_and_gaussian_splatting.md)
+- [\[AAAI 2026\] SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](../../AAAI2026/3d_vision/sparsesurf_sparse-view_3d_gaussian_splatting_for_surface_reconstruction.md)
 
 <!-- RELATED:END -->

@@ -113,9 +113,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] DiverseFlow: Sample-Efficient Diverse Mode Coverage in Flows](diverseflow_sample-efficient_diverse_mode_coverage_in_flows.md)
+- [\[ICLR 2026\] Diverse Text-to-Image Generation via Contrastive Noise Optimization](../../ICLR2026/image_generation/diverse_text-to-image_generation_via_contrastive_noise_optimization.md)
 - [\[CVPR 2025\] ShapeWords: Guiding Text-to-Image Synthesis with 3D Shape-Aware Prompts](shapewords_guiding_text-to-image_synthesis_with_3d_shape-aware_prompts.md)
 - [\[CVPR 2025\] A Comprehensive Study of Decoder-Only LLMs for Text-to-Image Generation](a_comprehensive_study_of_decoder-only_llms_for_text-to-image_generation.md)
 - [\[CVPR 2025\] Make It Count: Text-to-Image Generation with an Accurate Number of Objects](make_it_count_text-to-image_generation_with_an_accurate_number_of_objects.md)
-- [\[CVPR 2025\] h-Edit: Effective and Flexible Diffusion-Based Editing via Doob's h-Transform](h-edit_effective_and_flexible_diffusion-based_editing_via_doobs_h-transform.md)
 
 <!-- RELATED:END -->

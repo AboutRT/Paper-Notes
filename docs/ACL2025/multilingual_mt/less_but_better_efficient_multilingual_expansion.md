@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.22582](https://arxiv.org/abs/2505.22582)  
-**代码**: https://github.com/XZhang00/LayerMoE  
-**领域**: LLM效率  
+**代码**: [https://github.com/XZhang00/LayerMoE](https://github.com/XZhang00/LayerMoE)  
+**领域**: 多语言翻译  
 **关键词**: multilingual expansion, MoE, layer-wise expert allocation, catastrophic forgetting, continual learning
 
 ## 一句话总结

@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.00881](https://arxiv.org/abs/2603.00881)  
 **代码**: [GitHub](https://github.com/qimingfan10/SMART)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 半监督学习, video segmentation, coronary angiography, SAM3, 光流, 不确定性
 
 ## 一句话总结
@@ -127,6 +127,6 @@ $$\mathcal{L}_{all} = \lambda_{Dice}\mathcal{L}_{Dice} + \lambda_{Bce}\mathcal{L
 - [\[CVPR 2025\] Semantic Class Distribution Learning for Debiasing Semi-Supervised Medical Image Segmentation](semantic_class_distribution_learning_for_debiasing_semi-supervised_medical_image.md)
 - [\[CVPR 2025\] A Semi-Supervised Framework for Breast Ultrasound Segmentation with Training-Free Pseudo-Label Generation and Label Refinement](a_semi-supervised_framework_for_breast_ultrasound_segmentation_with_training-fre.md)
 - [\[CVPR 2025\] Addressing Data Scarcity in 3D Trauma Detection through Self-Supervised and Semi-Supervised Learning with Vertex Relative Position Encoding](addressing_data_scarcity_in_3d_trauma_detection_through_self-supervised_and_semi.md)
-- [\[CVPR 2025\] Transformer-Based Multi-Region Segmentation and Radiomic Analysis of HR-pQCT Imaging for Osteoporosis Classification](transformer-based_multi-region_segmentation_and_radiomic_analysis_of_hr-pqct_ima.md)
+- [\[CVPR 2025\] Evidential learning driven Breast Tumor Segmentation with Stage-divided Vision-Language Interaction](evidential_learning_driven_breast_tumor_segmentation_with_stage-divided_vision-l.md)
 
 <!-- RELATED:END -->

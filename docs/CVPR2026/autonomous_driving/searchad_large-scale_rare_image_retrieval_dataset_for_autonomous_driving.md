@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.08008](https://arxiv.org/abs/2604.08008)  
-**代码**: https://github.com/iis-esslingen/searchad_devkit (有)  
+**代码**: [https://github.com/iis-esslingen/searchad_devkit](https://github.com/iis-esslingen/searchad_devkit)  
 **领域**: 自动驾驶 / 数据集  
 **关键词**: 稀有图像检索, 自动驾驶, 长尾分布, 语义检索, 数据集基准
 

@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 保形预测
   - 条件覆盖率
-  - LLM幻觉控制
+  - 多模态VLM
   - 集值预测
   - PAC保证
 ---
@@ -57,29 +57,29 @@ CFC 是一个后处理层，置于任何 LLM 采样器之上。流程：
 
 1. **潜在成功分数（Latent Success Score）**：定义为候选集中正确答案的最佳验证器分数：
 
-   $$S(X) := \inf\{V(X,y) : y \in C(X),\; A(X,y) = 1\}$$
+    $S(X) := \inf\{V(X,y) : y \in C(X),\; A(X,y) = 1\}$
 
    预测集包含至少一个正确答案等价于 $S(X) \leq \lambda(X)$。CFC 的目标是学习一个特征条件的 $\lambda(\cdot)$，使得 $S(X) \leq \lambda(X)$ 以高概率成立。
 
 2. **增强分位数回归（Augmented Quantile Regression）**：基于 Gibbs et al. 的函数类条件保形框架，为候选分数 $s \in [0,1]$，求解：
 
-   $$\beta_s = \arg\min_{\beta \in \mathbb{R}^d} \left[\frac{1}{N+1}\sum_{i=1}^N \rho_{1-\alpha}(S_i - \Phi(X_i)^\top \beta) + \frac{1}{N+1}\rho_{1-\alpha}(s - \Phi(X_{N+1})^\top \beta)\right]$$
+    $\beta_s = \arg\min_{\beta \in \mathbb{R}^d} \left[\frac{1}{N+1}\sum_{i=1}^N \rho_{1-\alpha}(S_i - \Phi(X_i)^\top \beta) + \frac{1}{N+1}\rho_{1-\alpha}(s - \Phi(X_{N+1})^\top \beta)\right]$
 
    其中 $\rho_{1-\alpha}$ 是 pinball 损失，$\Phi(X)$ 是特征映射。关键步骤——取映射 $g_X(s) = \Phi(X)^\top \beta_s$ 的**最大不动点**作为部署阈值：
 
-   $$\hat{\lambda}_\alpha(X) = \sup\{s \in [0,1] : s \leq g_X(s)\}$$
+    $\hat{\lambda}_\alpha(X) = \sup\{s \in [0,1] : s \leq g_X(s)\}$
 
    这使得阈值随提示特征（难度）自适应：困难提示获得更宽松的阈值（允许更多候选通过），简单提示获得更严格的阈值。
 
 3. **CFC-PAC 高概率证书**：CFC 的条件覆盖是期望级别的保证。CFC-PAC 进一步提供 PAC 风格的有限样本证书：添加 Ridge 正则化 $\frac{\lambda}{2}\|\beta\|_2^2$，并收缩名义风险水平：
 
-   $$\alpha_{\text{eff}} = \alpha - \varepsilon_N(\delta), \quad \varepsilon_N(\delta) = O\left(\sqrt{\frac{\log(1/\delta)}{N}}\right)$$
+    $\alpha_{\text{eff}} = \alpha - \varepsilon_N(\delta), \quad \varepsilon_N(\delta) = O\left(\sqrt{\frac{\log(1/\delta)}{N}}\right)$
 
    以至少 $1-\delta$ 的概率，部署的规则实现覆盖率至少 $1-\alpha$。
 
 4. **效率分析**：证明在温和假设下（分数分布的单调性和凹性），Oracle 条件规则的期望预测集大小严格小于边际 CP：
 
-   $$\mathbb{E}[G_X(\lambda^*(X))] \leq \mathbb{E}[G_X(\bar{\lambda}_\alpha)]$$
+    $\mathbb{E}[G_X(\lambda^*(X))] \leq \mathbb{E}[G_X(\bar{\lambda}_\alpha)]$
 
    且当 $\mathbb{P}(q_\alpha(X) \neq \bar{\lambda}_\alpha) > 0$ 时不等号严格成立。CFC 在分位数回归一致时渐近继承此效率（Theorem 4.4）。
 
@@ -301,8 +301,8 @@ CFC是一个纯后验层（post-hoc），不需要微调基础生成模型。工
 
 - [\[CVPR 2026\] Proof-of-Perception: Certified Tool-Using Multimodal Reasoning with Compositional Conformal Guarantees](pop_proof_of_perception_conformal_reasoning.md)
 - [\[CVPR 2026\] Towards Multimodal Domain Generalization with Few Labels](towards_multimodal_domain_generalization_with_few_labels.md)
-- [\[ACL 2025\] Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](../../ACL2025/multimodal_vlm/exploring_compositional_generalization_of_multimodal_llms_for_medical_imaging.md)
 - [\[CVPR 2026\] GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding](groundvts_visual_token_sampling_in_multimodal_large_language_models_for_video_te.md)
 - [\[ICLR 2026\] Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA](../../ICLR2026/multimodal_vlm/spatial_reasoning_is_not_a_free_lunch_a_controlled_study_on_llava.md)
+- [\[CVPR 2026\] PersonaVLM: Long-Term Personalized Multimodal LLMs](personavlm_long_term_personalized_multimodal_llms.md)
 
 <!-- RELATED:END -->

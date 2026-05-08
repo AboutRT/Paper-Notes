@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.05316](https://arxiv.org/abs/2506.05316)  
 **代码**: [GitHub](https://github.com/ASTRAL-Group/data-efficient-llm-rl/)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: LLM强化微调, 数据效率, 自适应难度, 在线数据选择, 经验回放, GRPO
 
 ## 一句话总结
@@ -177,7 +177,7 @@ $$\mathcal{J}_{\text{GRPO-RR}}(\theta) = \mathbb{E}\left[\frac{1}{G} \sum_{i=1}^
 - [\[NeurIPS 2025\] DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](deepvideor1_video_reinforcement_finetuning_via_difficultyawa.md)
 - [\[NeurIPS 2025\] T-SHIRT: Token-Selective Hierarchical Data Selection for Instruction Tuning](t-shirt_token-selective_hierarchical_data_selection_for_instruction_tuning.md)
 - [\[AAAI 2026\] Importance-Aware Data Selection for Efficient LLM Instruction Tuning](../../AAAI2026/llm_alignment/importance-aware_data_selection_for_efficient_llm_instruction_tuning.md)
-- [\[NeurIPS 2025\] Mechanism Design for LLM Fine-tuning with Multiple Reward Models](mechanism_design_for_llm_fine-tuning_with_multiple_reward_models.md)
 - [\[NeurIPS 2025\] ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](responserank_data-efficient_reward_modeling_through_preference_strength_learning.md)
+- [\[NeurIPS 2025\] Mechanism Design for LLM Fine-tuning with Multiple Reward Models](mechanism_design_for_llm_fine-tuning_with_multiple_reward_models.md)
 
 <!-- RELATED:END -->

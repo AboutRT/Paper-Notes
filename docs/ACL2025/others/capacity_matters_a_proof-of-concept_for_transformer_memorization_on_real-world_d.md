@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025 (L2M2 Workshop)
   - Transformer
-  - 知识图谱
+  - 其他
   - 嵌入维度
   - 激活函数
   - 边缘部署
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (L2M2 Workshop)  
 **arXiv**: [2506.14704](https://arxiv.org/abs/2506.14704)  
 **代码**: [有](https://github.com/um-dacs-nlp/capacity/)  
-**领域**: NLP / Transformer理论  
+**领域**: 其他  
 **关键词**: Transformer记忆容量, 知识图谱, 嵌入维度, 激活函数, 边缘部署
 
 ## 一句话总结
@@ -153,9 +153,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](../../NeurIPS2025/others/4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)
+- [\[CVPR 2025\] Zero-Shot Head Swapping in Real-World Scenarios](../../CVPR2025/others/zero-shot_head_swapping_in_real-world_scenarios.md)
 - [\[ACL 2025\] Memorization: A Close Look at Books](memorization_a_close_look_at_books.md)
-- [\[ICML 2025\] Suitability Filter: A Statistical Framework for Classifier Evaluation in Real-World Settings](../../ICML2025/others/suitability_filter_a_statistical_framework_for_classifier_evaluation_in_real-wor.md)
 - [\[ACL 2025\] Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks](principled_generalization_arithmetic.md)
-- [\[CVPR 2026\] Crowdsourcing of Real-world Image Annotation via Visual Properties](../../CVPR2026/others/crowdsourcing_of_real_world_image_annotation_via_visual_properties.md)
+- [\[ACL 2025\] Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking](inner_thinking_transformer_leveraging_dynamic_depth_scaling_to_foster_adaptive_i.md)
 
 <!-- RELATED:END -->

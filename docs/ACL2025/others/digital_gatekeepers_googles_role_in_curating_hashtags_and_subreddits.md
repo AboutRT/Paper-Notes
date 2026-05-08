@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.14370](https://arxiv.org/abs/2506.14370)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 其他  
 **关键词**: 搜索引擎偏差、内容审查、信息守门人、社交媒体可见性、算法策展
 
 ## 一句话总结
@@ -137,9 +137,9 @@ Google 对不同类别内容的索引偏差：
 ## 相关论文
 
 - [\[ACL 2025\] Entity Framing and Role Portrayal in the News](entity_framing_and_role_portrayal_in_the_news.md)
+- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
 - [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
 - [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
-- [\[ACL 2025\] SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
+- [\[ACL 2025\] SDD: Self-Degraded Defense against Malicious Fine-tuning](sdd_self-degraded_defense_against_malicious_fine-tuning.md)
 
 <!-- RELATED:END -->

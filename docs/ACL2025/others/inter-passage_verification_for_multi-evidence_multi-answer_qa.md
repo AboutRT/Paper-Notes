@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Inter-Passage Verification for Multi-evidence Multi-answer QA
 description: >-
-  [ACL 2025 Findings][多答案问答] 本文提出 RI²VER 框架解决多答案问答（multi-answer QA）问题——先通过独立阅读大量检索段落生成高召回但含噪声的候选答案集，再通过段落间验证（生成验证问题 → 收集额外证据 → 跨段落综合验证）过滤错误答案，在 QAMPARI 和 RoMQA 上平均 F1 提升 11.17%。
+  [ACL 2025 Findings][其他] 本文提出 RI²VER 框架解决多答案问答（multi-answer QA）问题——先通过独立阅读大量检索段落生成高召回但含噪声的候选答案集，再通过段落间验证（生成验证问题 → 收集额外证据 → 跨段落综合验证）过滤错误答案，在 QAMPARI 和 RoMQA 上平均 F1 提升 11.17%。
 tags:
   - ACL 2025 Findings
-  - 多答案问答
+  - 其他
   - 段落间验证
   - 检索增强生成
   - 证据综合
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 Findings  
 **arXiv**: [2506.00425](https://arxiv.org/abs/2506.00425)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 其他  
 **关键词**: 多答案问答、段落间验证、检索增强生成、证据综合、事实核查  
 
 ## 一句话总结
@@ -129,10 +129,10 @@ RI²VER 是一个无需训练的 pipeline 框架，所有步骤通过 LLM 的 pr
 
 ## 相关论文
 
+- [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](../../ICCV2025/others/intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
 - [\[ACL 2025\] CLaC at SemEval-2025 Task 6: A Multi-Architecture Approach for Corporate Environmental Promise Verification](clac_at_semeval-2025_task_6_a_multi-architecture_approach_for_corporate_environm.md)
-- [\[ACL 2025\] ConceptCarve: Dynamic Realization of Evidence](conceptcarve_dynamic_realization_of_evidence.md)
 - [\[ACL 2025\] A Multi-Persona Framework for Argument Quality Assessment](a_multi-persona_framework_for_argument_quality_assessment.md)
-- [\[ACL 2025\] Multi-Agent Collaboration via Cross-Team Orchestration](multi-agent_collaboration_via_cross-team_orchestration.md)
-- [\[ACL 2025\] CortexDebate: Debating Sparsely and Equally for Multi-Agent Debate](cortexdebate_debating_sparsely_and_equally_for_multi-agent_debate.md)
+- [\[ACL 2025\] ConceptCarve: Dynamic Realization of Evidence](conceptcarve_dynamic_realization_of_evidence.md)
+- [\[ACL 2025\] Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis](tree-of-debate_multi-persona_debate_trees_elicit_critical_thinking_for_scientifi.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2408.13467](https://arxiv.org/abs/2408.13467)  
 **代码**: [deep-diver/llamaduo](https://github.com/deep-diver/llamaduo)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: LLMOps, 知识蒸馏, 合成数据, 小模型微调, 服务迁移, QLoRA
 
 ## 一句话总结

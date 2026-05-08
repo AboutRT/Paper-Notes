@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 图像恢复
-  - 自监督去噪
+  - 图像复原
   - 旋转等变性
   - 等变卷积
   - U-Net
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.19618](https://arxiv.org/abs/2505.19618)  
-**代码**: https://github.com/liuhanze623/AdaReNet  
+**代码**: [https://github.com/liuhanze623/AdaReNet](https://github.com/liuhanze623/AdaReNet)  
 **领域**: 图像修复  
 **关键词**: 自监督去噪, 旋转等变性, 等变卷积, U-Net, 自适应融合
 
@@ -131,8 +131,8 @@ tags:
 
 - [\[ICCV 2025\] Blind2Sound: Self-Supervised Image Denoising without Residual Noise](../../ICCV2025/image_restoration/blind2sound_self-supervised_image_denoising_without_residual_noise.md)
 - [\[CVPR 2025\] Generalized Recorrupted-to-Recorrupted: Self-Supervised Learning Beyond Gaussian Noise](generalized_recorrupted-to-recorrupted_self-supervised_learning_beyond_gaussian_.md)
-- [\[ECCV 2024\] Asymmetric Mask Scheme for Self-supervised Real Image Denoising](../../ECCV2024/image_restoration/asymmetric_mask_scheme_for_self-supervised_real_image_denoising.md)
 - [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](../../NeurIPS2025/image_restoration/moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
+- [\[ECCV 2024\] Asymmetric Mask Scheme for Self-supervised Real Image Denoising](../../ECCV2024/image_restoration/asymmetric_mask_scheme_for_self-supervised_real_image_denoising.md)
 - [\[CVPR 2026\] TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising](../../CVPR2026/image_restoration/tm-bsn_triangular-masked_blind-spot_network_for_real-world_self-supervised_image.md)
 
 <!-- RELATED:END -->

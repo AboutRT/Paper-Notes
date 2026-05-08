@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Agent-SAMA: State-Aware Mobile Assistant
 description: >-
-  [AAAI 2026][GUI Agent] 提出Agent-SAMA，首次将有限状态机（FSM）引入移动端GUI Agent，将UI屏幕建模为状态、用户操作建模为转移，通过四个专门化Agent协作实现状态感知的任务规划、执行验证和错误恢复，在跨App基准上成功率提升最高12%、恢复率提升13.8%。
+  [AAAI 2026][其他] 提出Agent-SAMA，首次将有限状态机（FSM）引入移动端GUI Agent，将UI屏幕建模为状态、用户操作建模为转移，通过四个专门化Agent协作实现状态感知的任务规划、执行验证和错误恢复，在跨App基准上成功率提升最高12%、恢复率提升13.8%。
 tags:
   - AAAI 2026
-  - GUI Agent
+  - 其他
   - 有限状态机
   - 多Agent协作
   - 错误恢复
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2505.23596v3](https://arxiv.org/abs/2505.23596v3)  
 **代码**: [Zenodo](https://doi.org/10.5281/zenodo.15430187)  
-**领域**: LLM Agent / 移动端GUI自动化  
+**领域**: 其他  
 **关键词**: GUI Agent, 有限状态机, 多Agent协作, 错误恢复, 移动端任务自动化  
 
 ## 一句话总结
@@ -96,10 +96,10 @@ Agent-SAMA是一个多Agent框架，包含四个阶段：规划（Planning）→
 
 ## 相关论文
 
-- [\[ICML 2025\] UnHiPPO: Uncertainty-Aware Initialization for State Space Models](../../ICML2025/others/unhippo_uncertainty-aware_initialization_for_state_space_models.md)
 - [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
 - [\[AAAI 2026\] Structural Approach to Guiding a Present-Biased Agent](structural_approach_to_guiding_a_present-biased_agent.md)
-- [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](local_guidance_for_configuration-based_multi-agent_pathfinding.md)
 - [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
+- [\[ICML 2025\] UnHiPPO: Uncertainty-Aware Initialization for State Space Models](../../ICML2025/others/unhippo_uncertainty-aware_initialization_for_state_space_models.md)
+- [\[AAAI 2026\] Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit](area-optimal_control_strategies_for_heterogeneous_multi-agen.md)
 
 <!-- RELATED:END -->

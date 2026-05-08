@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.06727](https://arxiv.org/abs/2511.06727)  
 **代码**: [https://github.com/WanyuGroup/AAAI2026_S-DAG](https://github.com/WanyuGroup/AAAI2026_S-DAG)  
-**领域**: LLM Agent / 多Agent推理 / 模型路由  
+**领域**: 图学习  
 **关键词**: 学科级分析, 有向无环图, GNN推理, 专家模型组合, 异质推理  
 
 ## 一句话总结

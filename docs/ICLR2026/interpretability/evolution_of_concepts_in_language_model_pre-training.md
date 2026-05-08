@@ -10,7 +10,7 @@ tags:
   - sparse autoencoders
   - 训练动态
   - feature evolution
-  - 预训练
+  - 可解释性
   - Pythia
 ---
 
@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.17196](https://arxiv.org/abs/2509.17196)  
 **代码**: [GitHub](https://github.com/OpenMOSS/Language-Model-SAEs)  
-**领域**: llm_nlp  
+**领域**: 可解释性  
 **关键词**: 机制可解释性, crosscoders, sparse autoencoders, 训练动态, feature evolution, 预训练, Pythia
 
 ## 一句话总结
@@ -183,7 +183,7 @@ $$\text{attr}_i^{\theta}(x, \tilde{x}) = [f_i(x) - f_i(\tilde{x})] \cdot \frac{\
 - [\[ICLR 2026\] Hidden Breakthroughs in Language Model Training](hidden_breakthroughs_in_language_model_training.md)
 - [\[ICLR 2026\] Concepts' Information Bottleneck Models](concepts_information_bottleneck_models.md)
 - [\[CVPR 2025\] Scaling Vision Pre-Training to 4K Resolution](../../CVPR2025/interpretability/scaling_vision_pre-training_to_4k_resolution.md)
-- [\[ICLR 2026\] NIMO: a Nonlinear Interpretable MOdel](nimo_a_nonlinear_interpretable_model.md)
 - [\[ICLR 2026\] Exploring Interpretability for Visual Prompt Tuning with Cross-layer Concepts](exploring_interpretability_for_visual_prompt_tuning_with_cross-layer_concepts.md)
+- [\[ICLR 2026\] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](gepa_reflective_prompt_evolution_can_outperform_reinforcement_learning.md)
 
 <!-- RELATED:END -->

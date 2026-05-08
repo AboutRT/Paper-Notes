@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.11268](https://arxiv.org/abs/2510.11268)  
 **代码**: 有（基于 CLIP ViT）  
-**领域**: 模型编辑 / 分类器适配  
+**领域**: 医学图像  
 **关键词**: Class Vector, 分类器编辑, 潜空间操控, 类遗忘, 对抗防御, Neural Collapse
 
 ## 一句话总结
@@ -143,8 +143,8 @@ Class Vector 通过消除排版文本引起的分类偏移来防御排版攻击�
 
 - [\[NeurIPS 2025\] Robust or Suggestible? Exploring Non-Clinical Induction in LLM Drug-Safety Decisions](robust_or_suggestible_exploring_non-clinical_induction_in_llm_drug-safety_decisi.md)
 - [\[NeurIPS 2025\] STARC-9: A Large-scale Dataset for Multi-Class Tissue Classification for CRC Histopathology](starc-9_a_large-scale_dataset_for_multi-class_tissue_classification_for_crc_hist.md)
+- [\[ACL 2025\] Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](../../ACL2025/medical_imaging/exploring_compositional_generalization_of_multimodal_llms_for_medical_imaging.md)
 - [\[CVPR 2025\] MoEdit: On Learning Quantity Perception for Multi-Object Image Editing](../../CVPR2025/medical_imaging/moedit_on_learning_quantity_perception_for_multi-object_image_editing.md)
 - [\[CVPR 2025\] FFaceNeRF: Few-Shot Face Editing in Neural Radiance Fields](../../CVPR2025/medical_imaging/ffacenerf_few-shot_face_editing_in_neural_radiance_fields.md)
-- [\[ICML 2025\] Leveraging Partial SMILES Validation Scheme for Enhanced Drug Design in Reinforcement Learning Frameworks](../../ICML2025/medical_imaging/leveraging_partial_smiles_validation_scheme_for_enhanced_drug_design_in_reinforc.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2412.03092](https://arxiv.org/abs/2412.03092)  
 **代码**: 无  
-**领域**: LLM Optimization  
+**领域**: 视频理解  
 **关键词**: 文本优化, LLM系统优化, 响应演化, TextGrad, 提示工程
 
 ## 一句话总结

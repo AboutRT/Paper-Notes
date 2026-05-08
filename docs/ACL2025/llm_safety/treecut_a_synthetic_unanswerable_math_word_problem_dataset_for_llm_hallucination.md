@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL2025
   - 不可回答数学题
-  - LLM幻觉
+  - LLM安全
   - 合成数据集
   - 树结构
   - 数学推理评估
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2502.13442](https://arxiv.org/abs/2502.13442)  
 **代码**: [j-bagel/treecut-math](https://github.com/j-bagel/treecut-math)  
-**领域**: llm_nlp  
+**领域**: LLM安全  
 **关键词**: 不可回答数学题, LLM幻觉, 合成数据集, 树结构, 数学推理评估
 
 ## 一句话总结
@@ -132,10 +132,10 @@ Sun et al. 依赖人工标注将现有题目改为不可回答，仅产出 2600 
 
 ## 相关论文
 
-- [\[ACL 2025\] UAQFact: Evaluating Factual Knowledge Utilization of LLMs on Unanswerable Questions](uaqfact_evaluating_factual_knowledge_utilization_of_llms_on_unanswerable_questio.md)
+- [\[ICML 2025\] The Canary's Echo: Auditing Privacy Risks of LLM-Generated Synthetic Text](../../ICML2025/llm_safety/the_canarys_echo_auditing_privacy_risks_of_llm-generated_synthetic_text.md)
 - [\[ACL 2025\] Towards Effective Extraction and Evaluation of Factual Claims](towards_effective_extraction_and_evaluation_of_factual_claims.md)
+- [\[ICCV 2025\] Asynchronous Event Error-Minimizing Noise for Safeguarding Event Dataset](../../ICCV2025/llm_safety/asynchronous_event_error-minimizing_noise_for_safeguarding_event_dataset.md)
 - [\[ACL 2025\] Chinese SimpleQA: A Chinese Factuality Evaluation for Large Language Models](chinese_simpleqa_a_chinese_factuality_evaluation_for_large_language_models.md)
-- [\[ACL 2025\] HALoGEN: Fantastic LLM Hallucinations and Where to Find Them](halogen_hallucinations.md)
-- [\[NeurIPS 2025\] A Reliable Cryptographic Framework for Empirical Machine Unlearning Evaluation](../../NeurIPS2025/llm_safety/a_reliable_cryptographic_framework_for_empirical_machine_unl.md)
+- [\[NeurIPS 2025\] Virus Infection Attack on LLMs: Your Poisoning Can Spread "VIA" Synthetic Data](../../NeurIPS2025/llm_safety/virus_infection_attack_on_llms_your_poisoning_can_spread_via_synthetic_data.md)
 
 <!-- RELATED:END -->

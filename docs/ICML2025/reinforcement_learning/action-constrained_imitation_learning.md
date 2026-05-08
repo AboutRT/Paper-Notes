@@ -8,7 +8,7 @@ tags:
   - 模仿学习
   - 动作约束
   - 动态时间规整
-  - 轨迹对齐
+  - 强化学习
   - MPC
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2508.14379](https://arxiv.org/abs/2508.14379)  
 **代码**: [GitHub - ACRL-Baselines](https://github.com/NYCU-RL-Bandits-Lab/ACRL-Baselines)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 模仿学习, 动作约束, 动态时间规整, 轨迹对齐, MPC
 
 ## 一句话总结
@@ -125,9 +125,9 @@ MPC生成候选滚出时采用交叉熵方法(CEM)迭代优化动作序列分布
 ## 相关论文
 
 - [\[NeurIPS 2025\] BEAST: Efficient Tokenization of B-Splines Encoded Action Sequences for Imitation Learning](../../NeurIPS2025/reinforcement_learning/beast_efficient_tokenization_of_b-splines_encoded_action_sequences_for_imitation.md)
-- [\[NeurIPS 2025\] Automaton Constrained Q-Learning](../../NeurIPS2025/reinforcement_learning/automaton_constrained_q-learning.md)
-- [\[ICML 2025\] Reward-free World Models for Online Imitation Learning](reward-free_world_models_for_online_imitation_learning.md)
 - [\[NeurIPS 2025\] Quantifying Generalisation in Imitation Learning](../../NeurIPS2025/reinforcement_learning/quantifying_generalisation_in_imitation_learning.md)
-- [\[ICML 2025\] Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism](robot-gated_interactive_imitation_learning_with_adaptive_intervention_mechanism.md)
+- [\[NeurIPS 2025\] Automaton Constrained Q-Learning](../../NeurIPS2025/reinforcement_learning/automaton_constrained_q-learning.md)
+- [\[NeurIPS 2025\] Reinforcement Learning with Action Chunking](../../NeurIPS2025/reinforcement_learning/reinforcement_learning_with_action_chunking.md)
+- [\[NeurIPS 2025\] Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/adaptive_neighborhoodconstrained_q_learning_for_offline_rein.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.17473](https://arxiv.org/abs/2505.17473)  
-**代码**: https://github.com/InfoDet2025/InfoDet (有)  
+**代码**: [https://github.com/InfoDet2025/InfoDet](https://github.com/InfoDet2025/InfoDet)  
 **领域**: 目标检测 / 文档理解  
 **关键词**: 信息图检测, 图表理解, 数据集, Grounded CoT, VLM
 
@@ -119,9 +119,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection](forestpersons_a_large-scale_dataset_for_under-canopy_missing_person_detection.md)
+- [\[ECCV 2024\] Plain-Det: A Plain Multi-Dataset Object Detector](../../ECCV2024/object_detection/plain-det_a_plain_multi-dataset_object_detector.md)
 - [\[CVPR 2025\] Object Detection using Event Camera: A MoE Heat Conduction based Detector and A New Benchmark Dataset](../../CVPR2025/object_detection/object_detection_using_event_camera_a_moe_heat_conduction_based_detector_and_a_n.md)
-- [\[CVPR 2026\] PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion](../../CVPR2026/object_detection/prism_video_dataset_condensation_with_progressive_refinement_and_insertion_for_s.md)
-- [\[ECCV 2024\] A New Dataset and Framework for Real-World Blurred Images Super-Resolution](../../ECCV2024/object_detection/a_new_dataset_and_framework_for_real-world_blurred_images_super-resolution.md)
-- [\[CVPR 2026\] Fixed Anchors Are Not Enough: Dynamic Retrieval and Persistent Homology for Dataset Distillation](../../CVPR2026/object_detection/fixed_anchors_are_not_enough_dynamic_retrieval_and_persistent_homology_for_datas.md)
+- [\[NeurIPS 2025\] BurstDeflicker: A Benchmark Dataset for Flicker Removal in Dynamic Scenes](../../NeurIPS2025/object_detection/delving_into_cascaded_instability_a_lipschitz_continuity_view_on_image_restorati.md)
+- [\[ECCV 2024\] A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis](../../ECCV2024/object_detection/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)
 
 <!-- RELATED:END -->

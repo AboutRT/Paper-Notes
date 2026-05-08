@@ -54,19 +54,19 @@ $$I(\tau_i^{t+k}; m_i^t) \geq \mathbb{E}_{e_i^t, z_i^t, m_i^t}\left[\log\frac{p(
 
 1. **对比学习角色嵌入（优化第一项）**: 用轨迹编码器 $f_{\theta_e}$ 将观测-动作历史编码为嵌入 $e_i^t$，再通过角色编码器 $f_{\theta_r}$ 获得角色嵌入 $z_i^t$。通过 K-means 将智能体嵌入聚类为 $|M|$ 个角色组，同组为正例、跨组为负例，用双线性打分函数 $g(z_i^t, e_i^t)$ 计算相似度。核心公式（Theorem 4.2）：
 
-   $$\mathbb{E}\left[\log\frac{p(z_i^t | e_i^t)}{p(z_i^t)}\right] \geq \log|M| + \mathbb{E}\left[\log\frac{g(z_i^t, e_i^t)}{g(z_i^t, e_i^t) + \sum_{m_i^{t*}} g(z_i^t, e_i^{t*})}\right]$$
+    $\mathbb{E}\left[\log\frac{p(z_i^t | e_i^t)}{p(z_i^t)}\right] \geq \log|M| + \mathbb{E}\left[\log\frac{g(z_i^t, e_i^t)}{g(z_i^t, e_i^t) + \sum_{m_i^{t*}} g(z_i^t, e_i^{t*})}\right]$
 
    设计动机：复用 ACORM 的成熟对比学习框架获得中间角色表示，作为后续内在奖励的基础。
 
 2. **策略内在奖励（Policy Intrinsic Reward）**: 通过 Theorem 4.3 将未来轨迹-角色互信息分解为策略项和动力学项。策略内在奖励衡量角色对动作选择的影响：
 
-   $$r_{i,\text{pol}}^t = \sum_{l=t}^{t+k-1} \mathbb{D}_{KL}\left(\text{SoftMax}(Q_i(\cdot|\tau_i^l, z_i^t; \phi_Q)) \| p(\cdot|\tau_i^l)\right)$$
+    $r_{i,\text{pol}}^t = \sum_{l=t}^{t+k-1} \mathbb{D}_{KL}\left(\text{SoftMax}(Q_i(\cdot|\tau_i^l, z_i^t; \phi_Q)) \| p(\cdot|\tau_i^l)\right)$
 
    其中 $p(\cdot|\tau_i^l) = \mathbb{E}_{z_i^t}[\text{SoftMax}(Q_i(\cdot|\tau_i^l, z_i^t; \phi_Q))]$ 是所有角色下的平均动作概率。该 KL 散度鼓励不同角色产生差异化的策略分布。
 
 3. **动力学内在奖励（Dynamics Intrinsic Reward）**: 学习两个 DreamerV3 风格的 RSSM 世界模型——角色条件模型 $q_\psi(o_i^{l+1}|\tau_i^l, z_i^t, a_i^l)$ 和角色无关模型 $p(o_i^{l+1}|\tau_i^l, a_i^l)$。RSSM 包含序列模型、观测编码器、动力学预测器和观测解码器四个组件。动力学内在奖励为两模型的对数似然之差：
 
-   $$r_{i,\text{dyn}}^t = \sum_{l=t}^{t+k-1}\left(\beta_1[\log q_{\psi_{\text{dec}}}(\cdot) + \beta_2 \log q_{\psi_{\text{dyn}}}(\cdot)] - [\text{role-agnostic terms}]\right)$$
+    $r_{i,\text{dyn}}^t = \sum_{l=t}^{t+k-1}\left(\beta_1[\log q_{\psi_{\text{dec}}}(\cdot) + \beta_2 \log q_{\psi_{\text{dyn}}}(\cdot)] - [\text{role-agnostic terms}]\right)$
 
    设计动机：当角色条件模型的预测显著优于角色无关模型时，说明角色嵌入确实对未来轨迹有预测力。$\beta_1$ 平衡跨角色轨迹多样性与角色-轨迹一致性。
 

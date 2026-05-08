@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 专利权利要求
-  - 评估基准
+  - 其他
   - 自动评估
   - 对比学习
   - 法律文本
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.11095](https://arxiv.org/abs/2505.11095)  
 **代码**: [https://github.com/scylj1/PatClaimEval](https://github.com/scylj1/PatClaimEval)  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: 专利权利要求, 评估基准, 自动评估, 对比学习, 法律文本  
 
 ## 一句话总结

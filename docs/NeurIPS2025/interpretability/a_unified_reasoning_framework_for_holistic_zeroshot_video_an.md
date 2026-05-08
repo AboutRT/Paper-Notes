@@ -2,10 +2,10 @@
 title: >-
   [论文解读] A Unified Reasoning Framework for Holistic Zero-Shot Video Anomaly Analysis
 description: >-
-  [NeurIPS 2025][视频异常检测] 提出一个完全零样本、无需训练的视频异常分析框架，通过Intra-Task Reasoning（置信度门控的自我精化）和Inter-Task Chaining（从时序检测到空间定位到语义理解的级联prompt传递），在4个benchmark上全面超越先前零样本方法4-6% AUC。
+  [NeurIPS 2025][可解释性] 提出一个完全零样本、无需训练的视频异常分析框架，通过Intra-Task Reasoning（置信度门控的自我精化）和Inter-Task Chaining（从时序检测到空间定位到语义理解的级联prompt传递），在4个benchmark上全面超越先前零样本方法4-6% AUC。
 tags:
   - NeurIPS 2025
-  - 视频异常检测
+  - 可解释性
   - 零样本
   - 链式推理
   - VLM
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.00962](https://arxiv.org/abs/2511.00962)  
-**代码**: [https://rathgrith.github.io/Unified_Frame_VAA/](https://rathgrith.github.io/Unified_Frame_VAA/) (有)  
-**领域**: 视频理解 / 异常检测  
+**代码**: [https://rathgrith.github.io/Unified_Frame_VAA/](https://rathgrith.github.io/Unified_Frame_VAA/)  
+**领域**: 可解释性  
 **关键词**: 视频异常检测, 零样本, 链式推理, VLM, 异常定位与理解  
 
 ## 一句话总结
@@ -98,9 +98,9 @@ VAU: GPT-C在UCF-Crime从0.384提升到0.444(+InterTC)
 ## 相关论文
 
 - [\[NeurIPS 2025\] VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity](vadtree_explainable_training-free_video_anomaly_detection_via_hierarchical_granu.md)
-- [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](../../CVPR2026/interpretability/text-guided_fine-grained_video_anomaly_understanding.md)
 - [\[ICML 2025\] Evaluating Neuron Explanations: A Unified Framework with Sanity Checks](../../ICML2025/interpretability/evaluating_neuron_explanations_a_unified_framework_with_sanity_checks.md)
-- [\[AAAI 2026\] Induce, Align, Predict: Zero-Shot Stance Detection via Cognitive Inductive Reasoning](../../AAAI2026/interpretability/induce_align_predict_zero-shot_stance_detection_via_cognitive_inductive_reasonin.md)
 - [\[ICCV 2025\] SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning](../../ICCV2025/interpretability/svip_semantically_contextualized_visual_patches_for_zero-shot_learning.md)
+- [\[AAAI 2026\] Induce, Align, Predict: Zero-Shot Stance Detection via Cognitive Inductive Reasoning](../../AAAI2026/interpretability/induce_align_predict_zero-shot_stance_detection_via_cognitive_inductive_reasonin.md)
+- [\[NeurIPS 2025\] scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](scpilot_large_language_model_reasoning_toward_automated_single-cell_analysis_and.md)
 
 <!-- RELATED:END -->

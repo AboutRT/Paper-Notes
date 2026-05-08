@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.12646](https://arxiv.org/abs/2507.12646)  
-**代码**: https://cog-nvs.github.io/  
+**代码**: [https://cog-nvs.github.io/](https://cog-nvs.github.io/)  
 **领域**: 3D视觉  
 **关键词**: 动态新视角合成, 单目视频, 视频修复, 测试时微调, 扩散模型
 

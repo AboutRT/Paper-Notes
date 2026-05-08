@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.04664](https://arxiv.org/abs/2502.04664)  
 **代码**: 无  
-**领域**: optimization / 隐式偏差理论  
+**领域**: 优化  
 **关键词**: implicit bias, spectral descent, Muon, margin maximization, multiclass classification, Schatten norm
 
 ## 一句话总结

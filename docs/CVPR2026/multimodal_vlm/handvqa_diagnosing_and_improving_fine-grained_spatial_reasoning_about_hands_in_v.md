@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 多模态
-  - 手部空间推理
+  - 多模态VLM
   - VQA基准
   - 视觉语言模型
   - 细粒度理解
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.26362](https://arxiv.org/abs/2603.26362)  
-**代码**: https://kcsayem.github.io/handvqa/  
+**代码**: [https://kcsayem.github.io/handvqa/](https://kcsayem.github.io/handvqa/)  
 **领域**: 多模态VLM  
 **关键词**: 手部空间推理, VQA基准, 视觉语言模型, 细粒度理解, 零样本迁移
 

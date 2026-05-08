@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.17312](https://arxiv.org/abs/2604.17312)  
-**代码**: https://github.com/YuZhiyin/Data-Efficient-RL  
+**代码**: [https://github.com/YuZhiyin/Data-Efficient-RL](https://github.com/YuZhiyin/Data-Efficient-RL)  
 **领域**: 强化学习 / LLM训练  
 **关键词**: 强化学习, 数据稀缺, LLM后训练, 数据效率, 综述
 
@@ -127,8 +127,8 @@ tags:
 
 - [\[ACL 2026\] Table Question Answering in the Era of Large Language Models: A Comprehensive Survey](table_question_answering_in_the_era_of_large_language_models_a_comprehensive_sur.md)
 - [\[ACL 2026\] Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](feedback-driven_tool-use_improvements_in_large_language_models_via_automated_bui.md)
-- [\[ACL 2026\] Frame of Reference: Addressing the Challenges of Common Ground Representation in Dialogue](frame_of_reference_addressing_the_challenges_of_common_ground_representation_in_.md)
 - [\[ACL 2026\] From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models](from_passive_metric_to_active_signal_the_evolving_role_of_uncertainty_quantifica.md)
-- [\[ACL 2026\] Language-Coupled Reinforcement Learning for Multilingual Retrieval-Augmented Generation](language-coupled_reinforcement_learning_for_multilingual_retrieval-augmented_gen.md)
+- [\[ACL 2026\] Frame of Reference: Addressing the Challenges of Common Ground Representation in Dialogue](frame_of_reference_addressing_the_challenges_of_common_ground_representation_in_.md)
+- [\[ICLR 2026\] TROLL: Trust Regions improve Reinforcement Learning for Large Language Models](../../ICLR2026/reinforcement_learning/troll_trust_regions_improve_reinforcement_learning_for_large_language_models.md)
 
 <!-- RELATED:END -->

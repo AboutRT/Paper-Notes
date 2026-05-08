@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.10892](https://arxiv.org/abs/2512.10892)  
 **代码**: 无  
-**领域**: 其他（机制设计 / 公平分配）  
+**领域**: LLM安全  
 **关键词**: 公平分配, 无嫉妒分配, 策略防欺骗, 机制设计, KL散度
 
 ## 一句话总结
@@ -171,10 +171,10 @@ $$x_{ij} = \frac{\log(b_{ij}) + c}{nC} + \frac{nC - \sum_k(\log(b_{kj}) + c)}{n^
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] When AI Democratizes Exploitation: LLM-Assisted Strategic Manipulation of Fair Division Algorithms](../../NeurIPS2025/llm_safety/when_ai_democratizes_exploitation_llm-assisted_strategic_manipulation_of_fair_di.md)
+- [\[ICLR 2026\] Fair in Mind, Fair in Action? A Synchronous Benchmark for Understanding and Generation in UMLLMs](../../ICLR2026/llm_safety/fair_in_mind_fair_in_action_a_synchronous_benchmark_for_understanding_and_genera.md)
 - [\[CVPR 2026\] Designing to Forget: Deep Semi-parametric Models for Unlearning](../../CVPR2026/llm_safety/designing_to_forget_deep_semi-parametric_models_for_unlearning.md)
 - [\[NeurIPS 2025\] A Cramér–von Mises Approach to Incentivizing Truthful Data Sharing](../../NeurIPS2025/llm_safety/a_cramrvon_mises_approach_to_incentivizing_truthful_data_sha.md)
 - [\[AAAI 2026\] PANDA: Patch and Distribution-Aware Augmentation for Long-Tailed Exemplar-Free Continual Learning](panda_--_patch_and_distribution-aware_augmentation_for_long-tailed_exemplar-free.md)
-- [\[AAAI 2026\] LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users](llm_targeted_underperformance_disproportionately_impacts_vulnerable_users.md)
-- [\[AAAI 2026\] Hallucination Stations: On Some Basic Limitations of Transformer-Based Language Models](hallucination_stations_on_some_basic_limitations_of_transformer-based_language_m.md)
 
 <!-- RELATED:END -->

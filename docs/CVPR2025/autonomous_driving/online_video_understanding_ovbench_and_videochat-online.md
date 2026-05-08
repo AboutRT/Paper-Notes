@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.00584](https://arxiv.org/abs/2501.00584)  
-**代码**: https://videochat-online.github.io/  
-**领域**: 视频理解  
+**代码**: [https://videochat-online.github.io/](https://videochat-online.github.io/)  
+**领域**: 自动驾驶  
 **关键词**: 在线视频理解, 流式视频, 金字塔记忆库, 时空感知, 基准测试
 
 ## 一句话总结

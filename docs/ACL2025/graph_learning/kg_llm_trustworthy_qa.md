@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.08085](https://arxiv.org/abs/2410.08085)  
 **代码**: [https://github.com/Y-Sui/OKGQA](https://github.com/Y-Sui/OKGQA)  
-**领域**: LLM/NLP  
+**领域**: 图学习  
 **关键词**: 知识图谱, 大语言模型幻觉, 开放域问答, 检索增强生成, 子图检索, benchmark
 
 ## 一句话总结

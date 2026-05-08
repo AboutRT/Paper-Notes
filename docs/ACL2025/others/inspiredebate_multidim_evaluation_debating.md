@@ -2,10 +2,10 @@
 title: >-
   [论文解读] InspireDebate: Multi-Dimensional Evaluation-Guided Reasoning for Debating
 description: >-
-  [ACL 2025][辩论优化] 提出双组件框架：InspireScore（融合4个主观维度+2个客观维度的辩论评估系统）和 InspireDebate（通过CoT-SFT + 多维DPO + Web-RAG 三阶段优化的辩论框架），评估系统与专家判断相关性提高 44%，辩论性能超越基线 57%。
+  [ACL 2025][其他] 提出双组件框架：InspireScore（融合4个主观维度+2个客观维度的辩论评估系统）和 InspireDebate（通过CoT-SFT + 多维DPO + Web-RAG 三阶段优化的辩论框架），评估系统与专家判断相关性提高 44%，辩论性能超越基线 57%。
 tags:
   - ACL 2025
-  - 辩论优化
+  - 其他
   - 多维评估
   - DPO
   - CoT推理
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.18102](https://arxiv.org/abs/2506.18102)  
 **代码**: [https://github.com/fywang12/InspireDebate](https://github.com/fywang12/InspireDebate)  
-**领域**: LLM推理  
+**领域**: 其他  
 **关键词**: 辩论优化, 多维评估, DPO, CoT推理, 事实验证  
 
 ## 一句话总结
@@ -127,9 +127,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning](fcmr_robust_evaluation_of_financial_cross-modal_multi-hop_reasoning.md)
-- [\[ACL 2025\] CortexDebate: Debating Sparsely and Equally for Multi-Agent Debate](cortexdebate_debating_sparsely_and_equally_for_multi-agent_debate.md)
 - [\[ACL 2025\] Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework](learning_to_align_multi-faceted_evaluation_a_unified_and_robust_framework.md)
-- [\[ACL 2025\] GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning](getreason_enhancing_image_context_extraction_through_hierarchical_multi-agent_re.md)
 - [\[ICML 2025\] DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers](../../ICML2025/others/dsp_dynamic_sequence_parallelism_for_multi-dimensional_transformers.md)
+- [\[ACL 2025\] Are Bias Evaluation Methods Biased?](are_bias_evaluation_methods_biased.md)
+- [\[ACL 2025\] Commonsense Reasoning in Arab Culture](commonsense_arab_culture.md)
 
 <!-- RELATED:END -->

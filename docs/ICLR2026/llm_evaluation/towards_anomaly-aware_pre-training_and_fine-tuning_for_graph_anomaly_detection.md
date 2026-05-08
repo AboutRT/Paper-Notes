@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2504.14250](https://arxiv.org/abs/2504.14250)
 - **代码**: [https://github.com/Cloudy1225/APF](https://github.com/Cloudy1225/APF)
-- **领域**: 图异常检测 / 图预训练 / 谱图滤波
+- **领域**: LLM评测
 - **关键词**: GAD, 预训练微调, Rayleigh 商, 同质性差异, 双滤波器, 门控融合
 
 ## 一句话总结
@@ -146,6 +146,6 @@ $$\mathcal{L}_{reg} = -\frac{1}{|\mathcal{V}^L|}\sum_{v_i, y_i=1}\left(p^a\log c
 - [\[NeurIPS 2025\] Normal-Abnormal Guided Generalist Anomaly Detection](../../NeurIPS2025/llm_evaluation/normal-abnormal_guided_generalist_anomaly_detection.md)
 - [\[AAAI 2026\] RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection](../../AAAI2026/llm_evaluation/refinevad_semantic-guided_feature_recalibration_for_weakly_supervised_video_anom.md)
 - [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](../../ACL2025/llm_evaluation/ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
-- [\[ICCV 2025\] On the Robustness Tradeoff in Fine-Tuning](../../ICCV2025/llm_evaluation/on_the_robustness_tradeoff_in_fine-tuning.md)
+- [\[ICML 2025\] CostFilter-AD: Enhancing Anomaly Detection through Matching Cost Filtering](../../ICML2025/llm_evaluation/costfilter-ad_enhancing_anomaly_detection_through_matching_cost_filtering.md)
 
 <!-- RELATED:END -->

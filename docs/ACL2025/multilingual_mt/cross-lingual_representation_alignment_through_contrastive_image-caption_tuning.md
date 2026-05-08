@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 跨语言对齐
-  - 对比学习
+  - 多语言翻译
   - 图像-文本
   - 低资源语言
   - 多语言表示
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.13628](https://arxiv.org/abs/2505.13628)  
 **代码**: 有 (github.com/nkrasner/cl-clip-align)  
-**领域**: Others (跨语言NLP)  
+**领域**: 多语言翻译  
 **关键词**: 跨语言对齐, 对比学习, 图像-文本, 低资源语言, 多语言表示
 
 ## 一句话总结
@@ -136,8 +136,8 @@ $$L(E_i, E_c) = \text{CrossEntropy}(S, I)$$
 
 - [\[ACL 2025\] Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs](mid_layer_crosslingual_alignment.md)
 - [\[ACL 2025\] Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment](modular_sentence_encoders.md)
+- [\[ACL 2025\] Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention](bridging_the_language_gaps_in_large_language_models_with_inference-time_cross-li.md)
+- [\[ACL 2025\] Implicit Cross-Lingual Rewarding for Efficient Multilingual Preference Alignment](implicit_cross-lingual_rewarding_for_efficient_multilingual_preference_alignment.md)
 - [\[ACL 2025\] Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models](statement-tuning_enables_efficient_cross-lingual_generalization_in_encoder-only_.md)
-- [\[ACL 2025\] ShifCon: Enhancing Non-Dominant Language Capabilities with a Shift-based Multilingual Contrastive Framework](shifcon_nondominant_language.md)
-- [\[ACL 2025\] CC-Tuning: A Cross-Lingual Connection Mechanism for Improving Joint Multilingual Supervised Fine-Tuning](cc-tuning_a_cross-lingual_connection_mechanism_for_improving_joint_multilingual_.md)
 
 <!-- RELATED:END -->

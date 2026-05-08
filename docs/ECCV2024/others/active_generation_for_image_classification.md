@@ -8,7 +8,7 @@ tags:
   - 主动学习
   - 扩散模型
   - 数据增强
-  - 图像生成
+  - 其他
   - 困难样本挖掘
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.06517](https://arxiv.org/abs/2403.06517)  
-**代码**: https://github.com/hunto/ActGen (有)  
+**代码**: [https://github.com/hunto/ActGen](https://github.com/hunto/ActGen)  
 **领域**: 数据增强 / 图像分类  
 **关键词**: 主动学习, 扩散模型, 数据增强, 图像生成, 困难样本挖掘
 
@@ -111,9 +111,9 @@ ImageNet分类结果：
 ## 相关论文
 
 - [\[ICCV 2025\] NAPPure: Adversarial Purification for Robust Image Classification under Non-Additive Perturbations](../../ICCV2025/others/nappure_adversarial_purification_for_robust_image_classification_under_non-addit.md)
-- [\[ECCV 2024\] Intrinsic Single-Image HDR Reconstruction](intrinsic_single-image_hdr_reconstruction.md)
-- [\[ECCV 2024\] Image Demoiréing in RAW and sRGB Domains](image_demoiréing_in_raw_and_srgb_domains.md)
-- [\[ECCV 2024\] COIN-Matting: Confounder Intervention for Image Matting](coin-matting_confounder_intervention_for_image_matting.md)
 - [\[ECCV 2024\] ET: The Exceptional Trajectories - Text-to-Camera-Trajectory Generation with Character Awareness](et_the_exceptional_trajectories_text-to-camera-trajectory_generation_with_charac.md)
+- [\[ECCV 2024\] COIN-Matting: Confounder Intervention for Image Matting](coin-matting_confounder_intervention_for_image_matting.md)
+- [\[ECCV 2024\] FisherRF: Active View Selection and Mapping with Radiance Fields Using Fisher Information](fisherrf_active_view_selection_and_mapping_with_radiance_fields_using_fisher_inf.md)
+- [\[ECCV 2024\] Intrinsic Single-Image HDR Reconstruction](intrinsic_single-image_hdr_reconstruction.md)
 
 <!-- RELATED:END -->

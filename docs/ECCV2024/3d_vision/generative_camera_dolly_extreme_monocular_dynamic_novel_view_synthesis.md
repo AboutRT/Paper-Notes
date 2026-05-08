@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2405.14868](https://arxiv.org/abs/2405.14868)  
-**代码**: https://gcd.cs.columbia.edu (有，项目页)  
+**代码**: [https://gcd.cs.columbia.edu](https://gcd.cs.columbia.edu) (有，项目页)  
 **领域**: 3D视觉  
 **关键词**: 动态新视角合成, 视频扩散模型, Stable Video Diffusion, 相机控制, 单目视频
 

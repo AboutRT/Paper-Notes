@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 多模态
-  - 对抗攻击
+  - 多模态VLM
   - 内容审核
   - 多模态大模型
   - 感知盲区
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.06950](https://arxiv.org/abs/2604.06950)  
-**代码**: https://github.com/lizhiheng2025/SmuggleBench  
+**代码**: [https://github.com/lizhiheng2025/SmuggleBench](https://github.com/lizhiheng2025/SmuggleBench)  
 **领域**: 多模态VLM  
 **关键词**: 对抗攻击, 内容审核, 多模态大模型, 感知盲区, 推理阻断
 

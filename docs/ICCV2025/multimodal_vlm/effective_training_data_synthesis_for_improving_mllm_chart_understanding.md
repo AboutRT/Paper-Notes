@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 图表理解
   - 数据合成
-  - 多模态大语言模型
+  - 多模态VLM
   - 训练数据
   - 数据质量
 ---
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.06492](https://arxiv.org/abs/2508.06492)  
-**代码**: https://github.com/yuweiyang-anu/ECD  
-**领域**: multimodal_vlm  
+**代码**: [https://github.com/yuweiyang-anu/ECD](https://github.com/yuweiyang-anu/ECD)  
+**领域**: 多模态VLM  
 **关键词**: 图表理解, 数据合成, 多模态大语言模型, 训练数据, 数据质量
 
 ## 一句话总结
@@ -134,10 +134,10 @@ ECD在4个MLLM上6个测试集上整体一致提升。
 
 ## 相关论文
 
+- [\[ACL 2025\] MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval](../../ACL2025/multimodal_vlm/megapairs_massive_data_synthesis_for_universal_multimodal_retrieval.md)
+- [\[ICCV 2025\] HRScene: How Far Are VLMs from Effective High-Resolution Image Understanding?](hrscene_how_far_are_vlms_from_effective_high-resolution_image_understanding.md)
 - [\[ICCV 2025\] CompCap: Improving Multimodal Large Language Models with Composite Captions](compcap_improving_multimodal_large_language_models_with_composite_captions.md)
 - [\[ICCV 2025\] SCAN: Bootstrapping Contrastive Pre-training for Data Efficiency](scan_bootstrapping_contrastive_pre-training_for_data_efficiency.md)
 - [\[CVPR 2025\] Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models](../../CVPR2025/multimodal_vlm/img-diff_contrastive_data_synthesis_for_multimodal_large_language_models.md)
-- [\[ACL 2025\] MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval](../../ACL2025/multimodal_vlm/megapairs_massive_data_synthesis_for_universal_multimodal_retrieval.md)
-- [\[ACL 2025\] Scalable Vision Language Model Training via High Quality Data Curation](../../ACL2025/multimodal_vlm/scalable_vision_language_model_training_via_high_quality_data_curation.md)
 
 <!-- RELATED:END -->

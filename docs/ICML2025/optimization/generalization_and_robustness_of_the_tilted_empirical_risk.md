@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2409.19431](https://arxiv.org/abs/2409.19431)  
 **代码**: 无  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: tilted empirical risk, 泛化误差, 鲁棒性, 信息论界, 无界损失函数, KL正则化
 
 ## 一句话总结
@@ -155,6 +155,6 @@ $$\gamma_{\text{data}} = \arg\min_{\gamma < 0}\left[|\gamma|^\epsilon \kappa_u^{
 - [\[ICML 2025\] A Generalization Result for Convergence in Learning-to-Optimize](a_generalization_result_for_convergence_in_learning-to-optimize.md)
 - [\[CVPR 2025\] Leveraging Perturbation Robustness to Enhance Out-of-Distribution Detection](../../CVPR2025/optimization/leveraging_perturbation_robustness_to_enhance_out-of-distribution_detection.md)
 - [\[NeurIPS 2025\] MeCeFO: Enhancing LLM Training Robustness via Fault-Tolerant Optimization](../../NeurIPS2025/optimization/mecefo_enhancing_llm_training_robustness_via_fault-tolerant_optimization.md)
-- [\[ICML 2025\] FedSWA: Improving Generalization in Federated Learning with Highly Heterogeneous Data via Momentum-Based Stochastic Controlled Weight Averaging](fedswa_improving_generalization_in_federated_learning_with_highly_heterogeneous_.md)
+- [\[ICML 2025\] Generalization in Federated Learning: A Conditional Mutual Information Framework](generalization_in_federated_learning_a_conditional_mutual_information_framework.md)
 
 <!-- RELATED:END -->

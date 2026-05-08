@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL2025
   - 机制可解释性
-  - 情感推理
+  - 可解释性
   - 激活修补
   - 认知评估理论
   - 生成引导
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2502.05489](https://arxiv.org/abs/2502.05489)  
 **代码**: GitHub（论文中提到）  
-**领域**: llm_nlp  
+**领域**: 可解释性  
 **关键词**: 机制可解释性, 情感推理, 激活修补, 认知评估理论, 生成引导
 
 ## 一句话总结
@@ -141,9 +141,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Reasoning Circuits in Language Models: A Mechanistic Interpretation of Syllogistic Inference](reasoning_circuits_in_language_models_a_mechanistic_interpretation_of_syllogisti.md)
+- [\[ACL 2025\] Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework](towards_explainable_temporal_reasoning_in_large_language_models_a_structure-awar.md)
 - [\[ACL 2025\] An Empirical Study of Mechanistic Interpretability Approaches for Factual Recall](an_empirical_study_of_mechanistic_interpretability_approaches_for_factual_recall.md)
 - [\[ICML 2025\] Inference-Time Decomposition of Activations (ITDA): A Scalable Approach to Interpreting Large Language Models](../../ICML2025/interpretability/inference-time_decomposition_of_activations_itda_a_scalable_approach_to_interpre.md)
-- [\[ACL 2025\] Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework](towards_explainable_temporal_reasoning_in_large_language_models_a_structure-awar.md)
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](../../NeurIPS2025/interpretability/the_trilemma_of_truth_in_large_language_models.md)
 
 <!-- RELATED:END -->

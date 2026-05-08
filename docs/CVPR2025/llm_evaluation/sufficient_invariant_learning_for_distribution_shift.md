@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 分布偏移
   - 不变特征学习
-  - 鲁棒优化
+  - LLM评测
   - 平坦极小值
   - 领域泛化
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2210.13533](https://arxiv.org/abs/2210.13533)  
 **代码**: [https://github.com/MLAI-Yonsei/SIL-ASGDRO](https://github.com/MLAI-Yonsei/SIL-ASGDRO)  
-**领域**: 其他  
+**领域**: LLM评测  
 **关键词**: 分布偏移, 不变特征学习, 鲁棒优化, 平坦极小值, 领域泛化
 
 ## 一句话总结
@@ -137,10 +137,10 @@ Wilds基准（无预训练）：
 
 ## 相关论文
 
-- [\[ICML 2025\] Learning Distribution-Wise Control in Representation Space for Language Models](../../ICML2025/llm_evaluation/learning_distribution-wise_control_in_representation_space_for_language_models.md)
 - [\[CVPR 2025\] OODD: Test-time Out-of-Distribution Detection with Dynamic Dictionary](oodd_test-time_out-of-distribution_detection_with_dynamic_dictionary.md)
+- [\[ICML 2025\] Learning Distribution-Wise Control in Representation Space for Language Models](../../ICML2025/llm_evaluation/learning_distribution-wise_control_in_representation_space_for_language_models.md)
 - [\[CVPR 2025\] Potential Field Based Deep Metric Learning](potential_field_based_deep_metric_learning.md)
 - [\[AAAI 2026\] DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning](../../AAAI2026/llm_evaluation/dicap_distribution-calibrated_pseudo-labeling_for_semi-supervised_multi-label_le.md)
-- [\[ICCV 2025\] ODP-Bench: Benchmarking Out-of-Distribution Performance Prediction](../../ICCV2025/llm_evaluation/odp-bench_benchmarking_out-of-distribution_performance_prediction.md)
+- [\[ACL 2026\] SessionIntentBench: A Multi-Task Inter-Session Intention-Shift Modeling Benchmark](../../ACL2026/llm_evaluation/sessionintentbench_a_multi-task_inter-session_intention-shift_modeling_benchmark.md)
 
 <!-- RELATED:END -->

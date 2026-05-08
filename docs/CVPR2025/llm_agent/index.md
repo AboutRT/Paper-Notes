@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 LLM Agent方向10篇论文解读
+  CVPR2025 LLM Agent方向9篇论文解读
 description: >-
-  10篇CVPR2025的 LLM Agent 方向论文解读，涵盖 Agent、动态场景、压缩/编码、多模态、风格迁移、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  9篇CVPR2025的 LLM Agent 方向论文解读，涵盖 Agent、动态场景、压缩/编码、多模态、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**📷 CVPR2025** · **10** 篇论文解读
+**📷 CVPR2025** · **9** 篇论文解读
 
 **[ATA: Adaptive Transformation Agent for Text-Guided Subject-Position Variable Background Generation](ata_adaptive_transformation_agent_for_text-guided_subject-position_variable_back.md)**
 
@@ -41,10 +41,6 @@ description: >-
 **[TANGO: Training-free Embodied AI Agents for Open-world Tasks](tango_training-free_embodied_ai_agents_for_open-world_tasks.md)**
 
 :   提出 TANGO，通过 LLM 的程序组合能力编排两个最小化的导航基础原语（PointGoal Navigation + 记忆驱动探索策略），无需任何任务特定训练，仅用 few-shot 示例即可在 Open-Set ObjectGoal Navigation、Multi-Modal Lifelong Navigation 和 Open Embodied QA 三个不同的具身 AI 任务上达到 SOTA，体现了"最小原语集 + LLM 组合"的通用性。
-
-**[V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents](v-stylist_video_stylization_via_collaboration_and_reflection_of_mllm_agents.md)**
-
-:   提出 V-Stylist，一个基于 MLLM 多 agent 协作和反思的视频风格化系统，通过 Video Parser（视频分镜）、Style Parser（风格树搜索）和 Style Artist（多轮自反思渲染）三个角色协作，在复杂转场视频和开放风格描述上实现 SOTA，整体指标超越 FRESCO 6.05%。
 
 **[Visual Agentic AI for Spatial Reasoning with a Dynamic API](visual_agentic_ai_for_spatial_reasoning_with_a_dynamic_api.md)**
 

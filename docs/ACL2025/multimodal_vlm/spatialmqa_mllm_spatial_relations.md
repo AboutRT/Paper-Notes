@@ -12,7 +12,7 @@ tags:
 - **会议**: ACL 2025
 - **arXiv**: [2505.19015](https://arxiv.org/abs/2505.19015)
 - **代码**: [GitHub](https://github.com/ziyan-xiaoyu/SpatialMQA)
-- **领域**: 多模态视觉语言模型 / 空间关系推理
+- **领域**: 多模态VLM
 - **关键词**: 空间关系, 多模态基准, MLLM评估, SpatialMQA, 视角替换
 
 ## 一句话总结

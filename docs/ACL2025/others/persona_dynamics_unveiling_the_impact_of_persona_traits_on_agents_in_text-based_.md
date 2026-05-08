@@ -10,7 +10,7 @@ tags:
   - Big Five
   - Dark Triad
   - DRRN
-  - 强化学习
+  - 其他
 ---
 
 # Persona Dynamics: Unveiling the Impact of Personality Traits on Agents in Text-Based Games
@@ -21,7 +21,7 @@ tags:
 **arXiv**: 2504.06868  
 **代码**: [pull-ups/PANDA](https://github.com/pull-ups/PANDA)  
 **模型**: [mirlab/PersonalityClassifier](https://huggingface.co/mirlab/PersonalityClassifier)  
-**领域**: 智能体/人格特质/文本游戏  
+**领域**: 其他  
 **关键词**: personality traits, text-based games, Big Five, Dark Triad, DRRN, reinforcement learning  
 
 ## 一句话总结
@@ -163,10 +163,10 @@ $$\pi(a_t = a_t^i | s_t) = \frac{\exp(Q(s_t, a_t^i))}{\sum_{j=1}^{|A_t|} \exp(Q(
 
 ## 相关论文
 
-- [\[AAAI 2026\] Deviation Dynamics in Cardinal Hedonic Games](../../AAAI2026/others/deviation_dynamics_in_cardinal_hedonic_games.md)
 - [\[ACL 2025\] A Multi-Persona Framework for Argument Quality Assessment](a_multi-persona_framework_for_argument_quality_assessment.md)
-- [\[ACL 2025\] Unveiling Dual Quality in Product Reviews: An NLP-Based Approach](unveiling_dual_quality_in_product_reviews_an_nlp-based_approach.md)
 - [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
-- [\[ACL 2025\] SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
+- [\[AAAI 2026\] Deviation Dynamics in Cardinal Hedonic Games](../../AAAI2026/others/deviation_dynamics_in_cardinal_hedonic_games.md)
+- [\[ACL 2025\] Spotting Out-of-Character Behavior: Atomic-Level Evaluation of Persona Fidelity in Open-Ended Generation](spotting_out-of-character_behavior_atomic-level_evaluation_of_persona_fidelity_i.md)
+- [\[ACL 2025\] Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis](tree-of-debate_multi-persona_debate_trees_elicit_critical_thinking_for_scientifi.md)
 
 <!-- RELATED:END -->

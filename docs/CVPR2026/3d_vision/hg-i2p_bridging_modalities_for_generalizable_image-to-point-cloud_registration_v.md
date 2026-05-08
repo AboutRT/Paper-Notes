@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27969](https://arxiv.org/abs/2603.27969)  
-**代码**: https://github.com/anpei96/hg-i2p-demo  
+**代码**: [https://github.com/anpei96/hg-i2p-demo](https://github.com/anpei96/hg-i2p-demo)  
 **领域**: 3D视觉  
 **关键词**: 图像-点云配准, 异构图, 跨模态特征适配, 对应关系剪枝, 跨域泛化
 

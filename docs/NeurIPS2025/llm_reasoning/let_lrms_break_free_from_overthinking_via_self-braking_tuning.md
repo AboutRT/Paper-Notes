@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.14604](https://arxiv.org/abs/2505.14604)  
-**代码**: https://github.com/ZJU-REAL/Self-Braking-Tuning  
+**代码**: [https://github.com/ZJU-REAL/Self-Braking-Tuning](https://github.com/ZJU-REAL/Self-Braking-Tuning)  
 **领域**: LLM推理  
 **关键词**: 高效推理, 过度思考, 自制动, 链式思维, 推理效率
 
@@ -155,9 +155,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Let Me Think! A Long Chain-of-Thought Can Be Worth Exponentially Many Short Ones](let_me_think_a_long_chainofthought_can_be_worth_exponentiall.md)
-- [\[NeurIPS 2025\] 笔记6：Self-Evaluating LLMs - 多步任务的步级置信度估计](value-guided_search_for_efficient_chain-of-thought_reasoning.md)
 - [\[NeurIPS 2025\] The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning](the_virtues_of_brevity_avoid_overthinking_in_parallel_test-time_reasoning.md)
+- [\[NeurIPS 2025\] 笔记6：Self-Evaluating LLMs - 多步任务的步级置信度估计](value-guided_search_for_efficient_chain-of-thought_reasoning.md)
 - [\[NeurIPS 2025\] Mind the Gap: Bridging Thought Leap for Improved Chain-of-Thought Tuning](mind_the_gap_bridging_thought_leap_for_improved_chain-of-thought_tuning.md)
-- [\[NeurIPS 2025\] Scalable Best-of-N Selection for Large Language Models via Self-Certainty](scalable_best-of-n_selection_for_large_language_models_via_self-certainty.md)
+- [\[AAAI 2026\] ExtendAttack: Attacking Servers of LRMs via Extending Reasoning](../../AAAI2026/llm_reasoning/extendattack_attacking_servers_of_lrms_via_extending_reasoning.md)
 
 <!-- RELATED:END -->

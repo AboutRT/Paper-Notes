@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2504.19819](https://arxiv.org/abs/2504.19819)  
 **代码**: [HoangChuongNguyen/cope-nerf](https://github.com/HoangChuongNguyen/cope-nerf)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: NeRF, camera pose estimation, continuous motion, SDF, velocity integration, prior-free
 
 ## 一句话总结

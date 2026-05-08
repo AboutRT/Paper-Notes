@@ -45,13 +45,13 @@ MeCeFO 采用**邻居代做**（Neighbor-Do-Both, NDB）策略：当一个节点
 ### 关键设计
 
 1. **跳连接（Skip-Connection）**: 在反向传播中跳过 MHA（多头注意力）模块的连接。经验发现（图 3），跳过 MHA 比跳过 FFN 对训练的干扰小得多。邻居节点跳过 MHA 后，该层的梯度仅由未受影响的 DP（数据并行）组贡献：
-   $$\overline{\mathbf{G}}_{\ell,\#} = \frac{1}{|\mathcal{N}_{\ell,\#}|} \sum_{i \in \mathcal{N}_{\ell,\#}} \mathbf{G}_{i,\ell,\#}$$
+    $\overline{\mathbf{G}}_{\ell,\#} = \frac{1}{|\mathcal{N}_{\ell,\#}|} \sum_{i \in \mathcal{N}_{\ell,\#}} \mathbf{G}_{i,\ell,\#}$
    其中 $\mathcal{N}_{\ell,\#}$ 是既未故障也未作为邻居的 DP 组集合。这同时消除了 MHA 的激活存储和 Wgrad/Dgrad 计算。
 
 2. **选择性激活重计算**: 对 FFN 模块不使用跳连接（因为跳 FFN 会引入严重的近似误差和梯度偏差），而是仅保留每个 FFN 模块的输入激活，反向传播时重计算中间激活。这消除了 FFN 的中间激活存储，但引入了额外的前向传播计算（约为正常 FFN 计算量的 1/3）。
 
 3. **低秩梯度近似**: 为补偿重计算带来的额外开销，对 FFN 中线性层 $\mathbf{y} = \mathbf{W}\mathbf{x}$ 的权重梯度做低秩近似。对 $\mathbf{W}$ 做 SVD 得到右奇异向量 $\mathbf{V}_1$（取前 $r$ 个），则：
-   $$\mathbf{G}_W = \mathbf{G}_y \mathbf{x}^\top \approx \mathbf{G}_y (\mathbf{x}^\top \mathbf{V}_1) \mathbf{V}_1^\top$$
+    $\mathbf{G}_W = \mathbf{G}_y \mathbf{x}^\top \approx \mathbf{G}_y (\mathbf{x}^\top \mathbf{V}_1) \mathbf{V}_1^\top$
    当 $r \ll \min\{b, m, n\}$ 时，近似 Wgrad 的 FLOPs 可忽略（$(2brn + 2brm + 2rmn)$ vs 原始 $2bmn$），有效补偿了重计算开销。投影矩阵 $\mathbf{V}_1$ 每 $\tau$ 步更新一次以减少 SVD 成本。
 
 ### 损失函数 / 训练策略
@@ -133,9 +133,9 @@ MeCeFO 采用**邻居代做**（Neighbor-Do-Both, NDB）策略：当一个节点
 ## 相关论文
 
 - [\[ICLR 2026\] Scaf-GRPO: Scaffolded Group Relative Policy Optimization for Enhancing LLM Reasoning](../../ICLR2026/optimization/scaf-grpo_scaffolded_group_relative_policy_optimization_for_enhancing_llm_reason.md)
+- [\[ICML 2025\] Enhancing Parallelism in Decentralized Stochastic Convex Optimization](../../ICML2025/optimization/enhancing_parallelism_in_decentralized_stochastic_convex_optimization.md)
 - [\[NeurIPS 2025\] DartQuant: Efficient Rotational Distribution Calibration for LLM Quantization](dartquant_efficient_rotational_distribution_calibration_for_llm_quantization.md)
 - [\[ACL 2025\] ScaleBiO: Scalable Bilevel Optimization for LLM Data Reweighting](../../ACL2025/optimization/scalebio_bilevel_data_reweighting.md)
 - [\[ICML 2025\] Generalization and Robustness of the Tilted Empirical Risk](../../ICML2025/optimization/generalization_and_robustness_of_the_tilted_empirical_risk.md)
-- [\[NeurIPS 2025\] Training Robust Graph Neural Networks by Modeling Noise Dependencies](training_robust_graph_neural_networks_by_modeling_noise_dependencies.md)
 
 <!-- RELATED:END -->

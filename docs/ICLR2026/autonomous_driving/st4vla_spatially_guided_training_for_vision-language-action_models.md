@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.10109](https://arxiv.org/abs/2602.10109)  
 **代码**: [https://internrobotics.github.io/internvla-m1.github.io](https://internrobotics.github.io/internvla-m1.github.io)  
-**领域**: autonomous_driving / embodied AI / robot manipulation  
+**领域**: 自动驾驶  
 **关键词**: Vision-Language-Action, 空间引导训练, 双系统架构, 扩散策略, 机器人操控  
 
 ## 一句话总结

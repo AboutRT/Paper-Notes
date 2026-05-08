@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2509.09555](https://arxiv.org/abs/2509.09555)  
-**代码**: https://github.com/wzyabcas/InterAct  
-**领域**: 3D视觉 / 人物交互生成  
+**代码**: [https://github.com/wzyabcas/InterAct](https://github.com/wzyabcas/InterAct)  
+**领域**: 图像生成  
 **关键词**: 人物-物体交互, 动作生成, 数据集, 交互校正增强, 多任务学习
 
 ## 一句话总结

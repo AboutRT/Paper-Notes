@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2406.14144](https://arxiv.org/abs/2406.14144)  
 **代码**: [THU-KEG/SafetyNeuron](https://github.com/THU-KEG/SafetyNeuron)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: safety alignment, mechanistic interpretability, safety neurons, activation patching, alignment tax
 
 ## 一句话总结

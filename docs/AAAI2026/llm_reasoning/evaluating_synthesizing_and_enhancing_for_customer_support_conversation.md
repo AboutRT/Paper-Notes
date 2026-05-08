@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2508.04423](https://arxiv.org/abs/2508.04423)  
-**代码**: https://github.com/aliyun/qwen-dianjin  
+**代码**: [https://github.com/aliyun/qwen-dianjin](https://github.com/aliyun/qwen-dianjin)  
 **领域**: LLM推理 / 对话系统  
 **关键词**: 客服对话, COPC标准, 角色扮演, 数据合成, 策略对齐
 
@@ -127,9 +127,9 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] 笔记6：Self-Evaluating LLMs - 多步任务的步级置信度估计](../../NeurIPS2025/llm_reasoning/value-guided_search_for_efficient_chain-of-thought_reasoning.md)
 - [\[AAAI 2026\] CMMCoT: Enhancing Complex Multi-Image Comprehension via Multi-Modal Chain-of-Thought and Memory Augmentation](cmmcot_enhancing_complex_multi-image_comprehension_via_multi.md)
 - [\[AAAI 2026\] Jupiter: Enhancing LLM Data Analysis Capabilities via Notebook and Inference-Time Value-Guided Search](jupiter_enhancing_llm_data_analysis_capabilities_via_notebook_and_inference-time.md)
-- [\[NeurIPS 2025\] 笔记6：Self-Evaluating LLMs - 多步任务的步级置信度估计](../../NeurIPS2025/llm_reasoning/value-guided_search_for_efficient_chain-of-thought_reasoning.md)
 - [\[ACL 2026\] MARCH: Evaluating the Intersection of Ambiguity Interpretation and Multi-hop Inference](../../ACL2026/llm_reasoning/march_evaluating_the_intersection_of_ambiguity_interpretation_and_multi-hop_infe.md)
 - [\[ACL 2025\] MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification](../../ACL2025/llm_reasoning/mm-verify_enhancing_multimodal_reasoning_with_chain-of-thought_verification.md)
 

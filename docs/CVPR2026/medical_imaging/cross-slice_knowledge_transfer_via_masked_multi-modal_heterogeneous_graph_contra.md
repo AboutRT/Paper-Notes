@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.22821](https://arxiv.org/abs/2603.22821)  
-**代码**: [https://github.com/wenwenmin/SpaHGC](https://github.com/wenwenmin/SpaHGC) (有)  
+**代码**: [https://github.com/wenwenmin/SpaHGC](https://github.com/wenwenmin/SpaHGC)  
 **领域**: 医学图像分析 / 空间转录组学  
 **关键词**: 空间转录组学, 异构图学习, 跨切片知识迁移, 对比学习, 基因表达预测
 

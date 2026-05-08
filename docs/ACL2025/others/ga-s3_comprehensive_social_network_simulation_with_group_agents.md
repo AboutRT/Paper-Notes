@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - Social Network Simulation
-  - Group Agent
+  - 其他
   - LLM Agent
   - Network Traffic Prediction
   - Markov Network
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.03532](https://arxiv.org/abs/2506.03532)  
 **代码**: [AI4SS/GAS-3](https://github.com/AI4SS/GAS-3)  
-**领域**: NLP / 社会模拟 / LLM Agent  
+**领域**: 其他  
 **关键词**: Social Network Simulation, Group Agent, LLM Agent, Network Traffic Prediction, Markov Network
 
 ## 一句话总结
@@ -162,9 +162,9 @@ GA-S3 不需要微调 LLM。直接使用开源 LLaMA3-8B（temperature=0.1 以�
 ## 相关论文
 
 - [\[ACL 2025\] SOTOPIA-Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents](sotopia-ensuremathomega_dynamic_strategy_injection_learning_and_social_instructi.md)
-- [\[ACL 2025\] S3 - Semantic Signal Separation](s3_-_semantic_signal_separation.md)
-- [\[ACL 2025\] Consistent Client Simulation for Motivational Interviewing-based Counseling](consistent_client_simulation_for_motivational_interviewing-based_counseling.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
 - [\[ACL 2025\] ACT: Knowledgeable Agents to Design and Perform Complex Tasks](act_knowledgeable_agents_to_design_and_perform_complex_tasks.md)
+- [\[ACL 2025\] S3 - Semantic Signal Separation](s3_-_semantic_signal_separation.md)
+- [\[ACL 2025\] Temporal Reasoning for Timeline Summarisation in Social Media](temporal_reasoning_for_timeline_summarisation_in_social_media.md)
+- [\[ACL 2025\] Towards Comprehensive Argument Analysis in Education: Dataset, Tasks, and Method](towards_comprehensive_argument_analysis_in_education_dataset_tasks_and_method.md)
 
 <!-- RELATED:END -->

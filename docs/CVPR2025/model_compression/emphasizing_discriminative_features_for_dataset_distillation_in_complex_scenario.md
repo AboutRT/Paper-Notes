@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.17193](https://arxiv.org/abs/2410.17193)  
-**代码**: https://github.com/NUS-HPC-AI-Lab/EDF  
+**代码**: [https://github.com/NUS-HPC-AI-Lab/EDF](https://github.com/NUS-HPC-AI-Lab/EDF)  
 **领域**: 模型压缩  
 **关键词**: 数据集蒸馏、判别性特征、Grad-CAM、复杂场景、通用模式丢弃
 

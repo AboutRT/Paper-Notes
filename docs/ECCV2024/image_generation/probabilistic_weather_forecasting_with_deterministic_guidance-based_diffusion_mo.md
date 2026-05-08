@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.02819](https://arxiv.org/abs/2312.02819)  
-**代码**: https://github.com/DongGeun-Yoon/DGDM (有)  
+**代码**: [https://github.com/DongGeun-Yoon/DGDM](https://github.com/DongGeun-Yoon/DGDM)  
 **领域**: 扩散模型 / 气象预测  
 **关键词**: 概率气象预报, 确定性引导, 扩散模型, 布朗桥, 截断扩散
 

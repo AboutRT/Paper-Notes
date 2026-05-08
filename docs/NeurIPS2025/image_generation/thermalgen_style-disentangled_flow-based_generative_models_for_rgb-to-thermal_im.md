@@ -57,11 +57,11 @@ ThermalGen 基于 SiT（Scalable Interpolant Transformer）架构，在潜空间
 
    Flow-based 生成在潜空间中操作：
 
-   $$\mathbf{z}_t = \alpha_t \mathbf{z}_0 + \sigma_t \boldsymbol{\epsilon}, \quad \alpha_t = 1-t, \quad \sigma_t = t$$
+    $\mathbf{z}_t = \alpha_t \mathbf{z}_0 + \sigma_t \boldsymbol{\epsilon}, \quad \alpha_t = 1-t, \quad \sigma_t = t$
 
    速度函数的训练目标：
 
-   $$\mathcal{L}_{\text{flow}} = \mathbb{E}_{\mathbf{z}_t, t}\left[\|v_\theta(\mathbf{z}_t, t) - v(\mathbf{z}_t, t)\|^2\right]$$
+    $\mathcal{L}_{\text{flow}} = \mathbb{E}_{\mathbf{z}_t, t}\left[\|v_\theta(\mathbf{z}_t, t) - v(\mathbf{z}_t, t)\|^2\right]$
 
 2. **风格解耦机制（Style-Disentangled Mechanism）**
 
@@ -76,8 +76,8 @@ ThermalGen 基于 SiT（Scalable Interpolant Transformer）架构，在潜空间
 3. **RGB 图像条件化架构**
 
    探索两种变体：
-   - **多头交叉注意力（Cross-Attn）**：$\mathbf{z}_{\text{RGB}}$ 作为 query，$\hat{\mathbf{z}}_{t,T}$ 作为 key 和 value
-   - **拼接（Concatenation）**：直接拼接 $\hat{\mathbf{z}}_{t,T}$ 和 $\mathbf{z}_{\text{RGB}}$ 作为 SiT 输入
+    - **多头交叉注意力（Cross-Attn）**：$\mathbf{z}_{\text{RGB}}$ 作为 query，$\hat{\mathbf{z}}_{t,T}$ 作为 key 和 value
+    - **拼接（Concatenation）**：直接拼接 $\hat{\mathbf{z}}_{t,T}$ 和 $\mathbf{z}_{\text{RGB}}$ 作为 SiT 输入
 
    实验表明拼接方式整体 FID 更优，且便于从预训练 SiT 权重微调。
 

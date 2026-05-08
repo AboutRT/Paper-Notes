@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2412.16919](https://arxiv.org/abs/2412.16919)  
 **代码**: [GitHub](https://github.com/HVision-NKU/TAR3D)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D生成, 自回归, VQ-VAE, 三平面表示, 下一部件预测, GPT
 
 ## 一句话总结

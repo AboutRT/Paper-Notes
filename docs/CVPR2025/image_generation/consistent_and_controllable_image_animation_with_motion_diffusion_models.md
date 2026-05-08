@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2407.15642](https://arxiv.org/abs/2407.15642)  
-**代码**: https://maxin-cn.github.io/cinemo_project  
+**代码**: [https://maxin-cn.github.io/cinemo_project](https://maxin-cn.github.io/cinemo_project)  
 **领域**: 扩散模型 / 视频生成  
 **关键词**: 图像动画, 运动残差扩散, 运动强度控制, DCT初始化, 时间一致性
 

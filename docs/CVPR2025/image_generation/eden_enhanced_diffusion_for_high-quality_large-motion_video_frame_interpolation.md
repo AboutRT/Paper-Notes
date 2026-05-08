@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.15831](https://arxiv.org/abs/2503.15831)  
-**代码**: https://github.com/bbldCVer/EDEN  
+**代码**: [https://github.com/bbldCVer/EDEN](https://github.com/bbldCVer/EDEN)  
 **领域**: 图像/视频生成  
 **关键词**: 视频帧插值, 扩散模型, DiT, Transformer tokenizer, 大运动, 时序注意力
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MT-RAIG: Novel Benchmark and Evaluation Framework for Retrieval-Augmented Insight Generation over Multiple Tables
 description: >-
-  [ACL 2025][多表格推理] 提出MT-RAIG Bench——首个面向多表格检索增强洞察生成的大规模基准，以及MT-RAIG Eval——基于分解的细粒度自动评估框架，实验表明即使前沿LLM在多表格推理上仍表现不佳（忠实度仅约40%，完整度约60%）。
+  [ACL 2025][信息检索] 提出MT-RAIG Bench——首个面向多表格检索增强洞察生成的大规模基准，以及MT-RAIG Eval——基于分解的细粒度自动评估框架，实验表明即使前沿LLM在多表格推理上仍表现不佳（忠实度仅约40%，完整度约60%）。
 tags:
   - ACL 2025
-  - 多表格推理
+  - 信息检索
   - 检索增强生成
   - 表格问答
   - 洞察生成
@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2502.11735](https://arxiv.org/abs/2502.11735)  
 **作者**: Kwangwook Seo, Donguk Kwon, Dongha Lee (Yonsei University)  
 **代码**: [https://kwondu.github.io/mt-raig](https://kwondu.github.io/mt-raig)  
-**领域**: others  
+**领域**: 信息检索  
 **关键词**: 多表格推理, 检索增强生成, 表格问答, 洞察生成, 自动评估框架  
 
 ## 一句话总结
@@ -153,10 +153,10 @@ MT-RAIG Eval在两个维度上均大幅超越现有指标，与人类判断的Pe
 
 ## 相关论文
 
-- [\[ACL 2025\] MEMERAG: A Multilingual End-to-End Meta-Evaluation Benchmark for Retrieval Augmented Generation](memerag_a_multilingual_end-to-end_meta-evaluation_benchmark_for_retrieval_augmen.md)
 - [\[ACL 2025\] RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework](rageval_scenario_specific_rag_evaluation_dataset_generation_framework.md)
+- [\[ACL 2025\] MEMERAG: A Multilingual End-to-End Meta-Evaluation Benchmark for Retrieval Augmented Generation](memerag_a_multilingual_end-to-end_meta-evaluation_benchmark_for_retrieval_augmen.md)
 - [\[ACL 2025\] Unanswerability Evaluation for Retrieval Augmented Generation](unanswerability_evaluation_for_retrieval_augmented_generation.md)
+- [\[ACL 2025\] GaRAGe: A Benchmark with Grounding Annotations for RAG Evaluation](garage_a_benchmark_with_grounding_annotations_for_rag_evaluation.md)
 - [\[ACL 2025\] FlexRAG: A Flexible and Comprehensive Framework for Retrieval-Augmented Generation](flexrag_a_flexible_and_comprehensive_framework_for_retrieval-augmented_generatio.md)
-- [\[ACL 2025\] Automatic Benchmark Generation from Scientific Papers via Retrieval-Augmented LLMs](automatic_benchmark_generation_from_scientific_papers_via_retrieval-augmented_ll.md)
 
 <!-- RELATED:END -->

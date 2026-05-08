@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19373](https://arxiv.org/abs/2503.19373)  
-**代码**: https://hygenie1228.github.io/DeClotH/ (项目页)  
+**代码**: [https://hygenie1228.github.io/DeClotH/](https://hygenie1228.github.io/DeClotH/) (项目页)  
 **领域**: 扩散模型/3D重建  
 **关键词**: 3D服装重建, 人体重建, 可分解, 模板正则化, 服装扩散模型
 
@@ -119,7 +119,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19373](https://arxiv.org/abs/2503.19373)  
-**代码**: https://hygenie1228.github.io/DeClotH/ (项目页)  
+**代码**: [https://hygenie1228.github.io/DeClotH/](https://hygenie1228.github.io/DeClotH/) (项目页)  
 **领域**: 3D视觉 / 扩散模型  
 **关键词**: 3D服装重建, 人体重建, 模板正则化, DMTet, ClothDiffusion
 

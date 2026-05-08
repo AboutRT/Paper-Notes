@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 可配置偏好调优
-  - DPO
+  - 可解释性
   - 合成数据
   - 评分标准引导
   - 系统提示控制
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.11702](https://arxiv.org/abs/2506.11702)  
-**代码**: https://github.com/vicgalle/configurable-preference-tuning (有)  
-**领域**: LLM对齐/RLHF  
+**代码**: [https://github.com/vicgalle/configurable-preference-tuning](https://github.com/vicgalle/configurable-preference-tuning)  
+**领域**: 可解释性  
 **关键词**: 可配置偏好调优, DPO, 合成数据, 评分标准引导, 系统提示控制
 
 ## 一句话总结
@@ -134,9 +134,9 @@ $$\mathcal{L}_{\text{DPO}}(\pi_\theta; \pi_{\text{ref}}) = -\mathbb{E}_{(s,x,y_w
 ## 相关论文
 
 - [\[ACL 2026\] Evian: Towards Explainable Visual Instruction-tuning Data Auditing](../../ACL2026/interpretability/evian_towards_explainable_visual_instruction-tuning_data_auditing.md)
-- [\[NeurIPS 2025\] Rectifying Shortcut Behaviors in Preference-based Reward Learning](../../NeurIPS2025/interpretability/rectifying_shortcut_behaviors_in_preference-based_reward_learning.md)
 - [\[ICML 2025\] A Cross Modal Knowledge Distillation & Data Augmentation Recipe for Improving Transcriptomics Representations through Morphological Features](a_cross_modal_knowledge_distillation_data_augmentation_recipe_for_improving_tran.md)
-- [\[NeurIPS 2025\] Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis](../../NeurIPS2025/interpretability/toward_real-world_text_image_forgery_localization_structured_and_interpretable_d.md)
-- [\[CVPR 2025\] Geometry-Guided Camera Motion Understanding in VideoLLMs](../../CVPR2025/interpretability/geometry-guided_camera_motion_understanding_in_videollms.md)
+- [\[NeurIPS 2025\] Rectifying Shortcut Behaviors in Preference-based Reward Learning](../../NeurIPS2025/interpretability/rectifying_shortcut_behaviors_in_preference-based_reward_learning.md)
+- [\[ICML 2025\] Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)
+- [\[ICML 2025\] Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)
 
 <!-- RELATED:END -->

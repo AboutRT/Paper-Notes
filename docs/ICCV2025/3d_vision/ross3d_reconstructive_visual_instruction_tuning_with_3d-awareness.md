@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.01901](https://arxiv.org/abs/2504.01901)  
-**代码**: https://haochen-wang409.github.io/ross3d (项目主页)  
+**代码**: [https://haochen-wang409.github.io/ross3d](https://haochen-wang409.github.io/ross3d) (项目主页)  
 **领域**: 3D视觉  
 **关键词**: 3D场景理解, 大型多模态模型, 视觉重建监督, 跨视图重建, 鸟瞰图重建
 

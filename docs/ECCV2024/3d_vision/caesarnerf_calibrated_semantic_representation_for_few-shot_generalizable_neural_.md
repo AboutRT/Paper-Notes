@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2311.15510](https://arxiv.org/abs/2311.15510)  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 少样本新视图合成, 可泛化NeRF, 语义表征校准, Transformer, 序列细化
 
 ## 一句话总结
@@ -132,8 +132,8 @@ $\mathcal{L} = \mathcal{L}_{MSE} + \lambda_1 \mathcal{L}_{central} + \lambda_2 \
 
 - [\[ECCV 2024\] GAURA: Generalizable Approach for Unified Restoration and Rendering of Arbitrary Views](gaura_generalizable_approach_for_unified_restoration_and_rendering_of_arbitrary_.md)
 - [\[AAAI 2026\] EPSegFZ: Efficient Point Cloud Semantic Segmentation for Few- and Zero-Shot Scenarios](../../AAAI2026/3d_vision/epsegfz_efficient_point_cloud_semantic_segmentation_for_few-_and_zero-shot_scena.md)
-- [\[ECCV 2024\] Ray-Distance Volume Rendering for Neural Scene Reconstruction](ray-distance_volume_rendering_for_neural_scene_reconstruction.md)
 - [\[ECCV 2024\] High-Resolution and Few-shot View Synthesis from Asymmetric Dual-Lens Inputs](high-resolution_and_few-shot_view_synthesis_from_asymmetric_dual-lens_inputs.md)
-- [\[ECCV 2024\] SGS-SLAM: Semantic Gaussian Splatting for Neural Dense SLAM](sgs-slam_semantic_gaussian_splatting_for_neural_dense_slam.md)
+- [\[ECCV 2024\] Ray-Distance Volume Rendering for Neural Scene Reconstruction](ray-distance_volume_rendering_for_neural_scene_reconstruction.md)
+- [\[ECCV 2024\] A Probability-guided Sampler for Neural Implicit Surface Rendering](a_probabilityguided_sampler_for_neural_implicit_surface_rend.md)
 
 <!-- RELATED:END -->

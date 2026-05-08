@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.04490](https://arxiv.org/abs/2503.04490)  
 **代码**: 无  
-**领域**: LLM效率  
+**领域**: LLM/NLP  
 **关键词**: survey, bioinformatics, DNA, RNA, protein, single-cell
 
 ## 一句话总结

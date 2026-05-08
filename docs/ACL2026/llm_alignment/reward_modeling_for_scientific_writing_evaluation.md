@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2601.11374](https://arxiv.org/abs/2601.11374)  
-**代码**: https://github.com/UKPLab/acl2026-expert-rm  
+**代码**: [https://github.com/UKPLab/acl2026-expert-rm](https://github.com/UKPLab/acl2026-expert-rm)  
 **领域**: LLM对齐 / 科学写作评估  
 **关键词**: 奖励模型, 科学写作评估, GRPO, 多方面评估, 推理增强
 
@@ -124,10 +124,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2026\] Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling](aligning_agents_via_planning_a_benchmark_for_trajectory-level_reward_modeling.md)
 - [\[ACL 2025\] Rethinking Reward Model Evaluation Through the Lens of Reward Overoptimization](../../ACL2025/llm_alignment/rethinking_reward_model_evaluation_through_the_lens_of_reward_overoptimization.md)
 - [\[ACL 2025\] Dynamic Scaling of Unit Tests for Code Reward Modeling](../../ACL2025/llm_alignment/dynamic_scaling_of_unit_tests_for_code_reward_modeling.md)
 - [\[NeurIPS 2025\] ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](../../NeurIPS2025/llm_alignment/responserank_data-efficient_reward_modeling_through_preference_strength_learning.md)
 - [\[ACL 2025\] AgentRM: Enhancing Agent Generalization with Reward Modeling](../../ACL2025/llm_alignment/agentrm_enhancing_agent_generalization_with_reward_modeling.md)
-- [\[ICLR 2026\] Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training](../../ICLR2026/llm_alignment/chasing_the_tail_effective_rubric-based_reward_modeling_for_large_language_model.md)
 
 <!-- RELATED:END -->

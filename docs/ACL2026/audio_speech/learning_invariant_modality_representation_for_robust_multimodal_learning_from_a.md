@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 语音
-  - 因果不变表示
+  - 音频语音
   - 多模态情感分析
   - 分布外泛化
   - 特征解纠缠
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.18460](https://arxiv.org/abs/2604.18460)  
 **代码**: [GitHub](https://github.com/TmacMai/CmIR)  
-**领域**: 多模态情感计算 / 因果推理  
+**领域**: 音频语音  
 **关键词**: 因果不变表示, 多模态情感分析, 分布外泛化, 特征解纠缠, 虚拟环境
 
 ## 一句话总结
@@ -110,9 +110,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2026\] Multimodal In-Context Learning for ASR of Low-Resource Languages](multimodal_in-context_learning_for_asr_of_low-resource_languages.md)
-- [\[ICLR 2026\] PACE: Pretrained Audio Continual Learning](../../ICLR2026/audio_speech/pace_pretrained_audio_continual_learning.md)
+- [\[CVPR 2026\] SAVE: Speech-Aware Video Representation Learning for Video-Text Retrieval](../../CVPR2026/audio_speech/save_speech-aware_video_representation_learning_for_video-text_retrieval.md)
 - [\[AAAI 2026\] Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection](../../AAAI2026/audio_speech/improving_multimodal_sentiment_analysis_via_modality_optimization_and_dynamic_pr.md)
-- [\[CVPR 2025\] Learning to Highlight Audio by Watching Movies](../../CVPR2025/audio_speech/learning_to_highlight_audio_by_watching_movies.md)
-- [\[CVPR 2026\] Cleaning the Pool: Progressive Filtering of Unlabeled Pools in Deep Active Learning](../../CVPR2026/audio_speech/cleaning_the_pool_progressive_filtering_of_unlabeled_pools_in_deep_active_learni.md)
+- [\[NeurIPS 2025\] Characterization and Learning of Causal Graphs from Hard Interventions](../../NeurIPS2025/audio_speech/characterization_and_learning_of_causal_graphs_from_hard_interventions.md)
+- [\[ICLR 2026\] PACE: Pretrained Audio Continual Learning](../../ICLR2026/audio_speech/pace_pretrained_audio_continual_learning.md)
 
 <!-- RELATED:END -->

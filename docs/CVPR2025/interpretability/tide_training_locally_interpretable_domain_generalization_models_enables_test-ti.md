@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction
 description: >-
-  [CVPR 2025][LLM/NLP][单源域泛化] 本文提出TIDE，一种针对单源域泛化的新型训练方案，利用扩散模型和LLM自动生成类别级概念标注（如"鸟类=尖嘴+翅膀+爪子"），通过概念显著性对齐损失训练模型关注域不变的局部概念而非全局背景特征，使模型在测试时能通过概念显著图自动矫正域偏移导致的错误预测。
+  [CVPR 2025][可解释性][单源域泛化] 本文提出TIDE，一种针对单源域泛化的新型训练方案，利用扩散模型和LLM自动生成类别级概念标注（如"鸟类=尖嘴+翅膀+爪子"），通过概念显著性对齐损失训练模型关注域不变的局部概念而非全局背景特征，使模型在测试时能通过概念显著图自动矫正域偏移导致的错误预测。
 tags:
   - CVPR 2025
-  - LLM/NLP
+  - 可解释性
   - 单源域泛化
   - 局部可解释性
   - 概念对齐
@@ -94,10 +94,10 @@ TIDE包含三个阶段：(1) 概念标注生成——利用LLM为每个类别生
 
 ## 相关论文
 
-- [\[CVPR 2025\] L-SWAG: Layer-Sample Wise Activation with Gradients Information for Zero-Shot NAS on Vision Transformers](l-swag_layer-sample_wise_activation_with_gradients_information_for_zero-shot_nas.md)
 - [\[CVPR 2025\] Scaling Vision Pre-Training to 4K Resolution](scaling_vision_pre-training_to_4k_resolution.md)
-- [\[CVPR 2025\] Differentiable Inverse Rendering with Interpretable Basis BRDFs](differentiable_inverse_rendering_with_interpretable_basis_brdfs.md)
 - [\[CVPR 2025\] Interpretable Image Classification via Non-parametric Part Prototype Learning](interpretable_image_classification_via_non-parametric_part_prototype_learning.md)
 - [\[CVPR 2025\] Prompt-CAM: Making Vision Transformers Interpretable for Fine-Grained Analysis](prompt-cam_making_vision_transformers_interpretable_for_fine-grained_analysis.md)
+- [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
+- [\[CVPR 2025\] Probing the Mid-Level Vision Capabilities of Self-Supervised Learning](probing_the_mid-level_vision_capabilities_of_self-supervised_learning.md)
 
 <!-- RELATED:END -->

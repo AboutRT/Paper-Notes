@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2506.13110](https://arxiv.org/abs/2506.13110)  
 **代码**: [GitHub](https://github.com/hirotong/GS2DGS)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 2D Gaussian Splatting, reflective object, PBR, deferred shading, foundation model, normal estimation
 
 ## 一句话总结
@@ -149,10 +149,10 @@ GS 方法中最优，且接近 SDF SOTA（NeRO 0.0042），训练速度快 17 �
 
 ## 相关论文
 
-- [\[CVPR 2025\] Learning Class Prototypes for Unified Sparse-Supervised 3D Object Detection](learning_class_prototypes_for_unified_sparse-supervised_3d_object_detection.md)
 - [\[CVPR 2025\] Rewis3d: Reconstruction Improves Weakly-Supervised Semantic Segmentation](rewis3d_reconstruction_improves_weakly-supervised_semantic_segmentation.md)
 - [\[CVPR 2025\] COB-GS: Clear Object Boundaries in 3DGS Segmentation Based on Boundary-Adaptive Gaussian Splitting](cob-gs_clear_object_boundaries_in_3dgs_segmentation_based_on_boundary-adaptive_g.md)
 - [\[NeurIPS 2025\] GeoSVR: Taming Sparse Voxels for Geometrically Accurate Surface Reconstruction](../../NeurIPS2025/3d_vision/geosvr_taming_sparse_voxels_for_geometrically_accurate_surface_reconstruction.md)
 - [\[CVPR 2025\] IRGS: Inter-Reflective Gaussian Splatting with 2D Gaussian Ray Tracing](irgs_inter-reflective_gaussian_splatting_with_2d_gaussian_ray_tracing.md)
+- [\[CVPR 2025\] Glossy Object Reconstruction with Cost-effective Polarized Acquisition](glossy_object_reconstruction_with_cost-effective_polarized_acquisition.md)
 
 <!-- RELATED:END -->

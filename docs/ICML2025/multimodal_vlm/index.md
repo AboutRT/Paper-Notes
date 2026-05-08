@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 多模态VLM方向50篇论文解读
+  ICML2025 多模态 VLM方向53篇论文解读
 description: >-
-  50篇ICML2025的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、对齐/RLHF、对抗鲁棒、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  53篇ICML2025的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、对齐/RLHF、机器人、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🧩 多模态VLM
+# 🧩 多模态 VLM
 
-**🧪 ICML2025** · **50** 篇论文解读
+**🧪 ICML2025** · **53** 篇论文解读
 
 **[Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging](bring_reason_to_vision_understanding_perception_and_reasoning_through_model_merg.md)**
 
@@ -30,9 +30,9 @@ description: >-
 
 :   首次揭示 VLM 中 token 稀疏与神经元稀疏之间的内在关联——核心神经元与核心 token 相互决定、相互强化，并据此提出 CoreMatching 协同稀疏推理框架，在 pre-filling 和 decoding 两阶段同时实现加速，达到 5× FLOPs 降低和 10× 整体加速。
 
-**[Defending LVLMs Against Vision Attacks through Partial-Perception Supervision](defending_lvlms_against_vision_attacks_through_partial-perception_supervision.md)**
+**[Diffusion-VLA: Generalizable and Interpretable Robot Foundation Model via Self-Generated Reasoning](diffusion-vla_generalizable_and_interpretable_robot_foundation_model_via_self-ge.md)**
 
-:   提出 DPS（Defense through Partial-Perception Supervision），利用裁剪图像的响应作为"弱监督"来引导全图模型在推理时自我修正，实现无需训练的黑盒 LVLM 视觉攻击防御，平均攻击成功率降低 76.3%。
+:   提出 DiffusionVLA (DiVLA)，将自回归 VLM 的推理能力与扩散模型的动作生成能力统一到一个端到端框架中，通过推理注入模块（Reasoning Injection Module）将自生成的语言推理直接嵌入策略学习过程，实现了对未见物体的泛化分类、可解释的动作决策以及高速推理（2B 模型 82Hz）。
 
 **[Do Vision-Language Models Really Understand Visual Language?](do_vision-language_models_really_understand_visual_language.md)**
 
@@ -102,6 +102,10 @@ description: >-
 
 :   本文提出 LEMoN 方法，利用对比预训练多模态模型（如 CLIP）的嵌入空间中图像-文本对的多模态邻域结构，在分类和图像描述两个场景下自动检测标签错误，在训练无关的基线中 F1 提升 3-4%，过滤后的数据可改善下游分类和描述性能。
 
+**[LlavaGuard: An Open VLM-based Framework for Safeguarding Vision Datasets and Models](llavaguard_an_open_vlm-based_framework_for_safeguarding_vision_datasets_and_mode.md)**
+
+:   提出 LlavaGuard——基于开源 VLM 的视觉内容安全审核框架，通过可定制安全分类体系、高质量人工标注数据集与策略增强训练，实现对图像内容的灵活、精准安全评估，在准确率和策略适应性上大幅超越现有开源与闭源审核工具。
+
 **[Look Twice Before You Answer: Memory-Space Visual Retracing for Hallucination Mitigation in Multimodal Large Language Models](look_twice_before_you_answer_memory-space_visual_retracing_for_hallucination_mit.md)**
 
 :   提出 MemVR 解码范式，将视觉 token 作为补充证据通过 FFN 的 key-value memory 机制重新注入到中间触发层，以"再看一次"的方式缓解 MLLM 幻觉问题，不引入额外推理开销。
@@ -158,13 +162,13 @@ description: >-
 
 :   利用 GPT-4 全自动生成包含 200 万+ QA 对的大规模合成 KB-VQA 数据集 SK-VQA，训练 MLLM 适配上下文增强生成，在跨域泛化性能上显著优于已有数据集。
 
-**[SlimLLM: Accurate Structured Pruning for Large Language Models](slimllm_accurate_structured_pruning_for_large_language_models.md)**
-
-:   提出SlimLLM——LLM结构化剪枝方法：用特征空间重要性（考虑权重方向和幅度）评估通道，用Pearson相似度整体评估注意力头，配合简单线性回归恢复策略和层级剪枝比例分配，在LLaMA上20%剪枝保留98.7%性能。
-
 **[SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference](sparsevlm_visual_token_sparsification_for_efficient_vision-language_model_infere.md)**
 
 :   SparseVLM 提出了首个文本引导的免训练视觉 token 稀疏化框架，通过选择与视觉相关的文本 token 作为"评分者"来评估视觉 token 的重要性，结合自适应剪枝比率和 token 回收机制，在 LLaVA 上仅保留 192 个 token（减少 66.7%）时维持 99.1% 的原始性能。
+
+**[Streamline Without Sacrifice — Squeeze out Computation Redundancy in LMM](streamline_without_sacrifice_--_squeeze_out_computation_redundancy_in_lmm.md)**
+
+:   提出 ProxyV，通过引入少量代理视觉 token（proxy vision tokens）替代原始视觉 token 参与 LLM 解码层中的重计算操作（自注意力、FFN），在保留全部视觉信息的前提下大幅压缩计算冗余，甚至在部分设定下提升性能。
 
 **[Targeted Unlearning with Single Layer Unlearning Gradient](targeted_unlearning_with_single_layer_unlearning_gradient.md)**
 
@@ -209,3 +213,11 @@ description: >-
 **[Vision Graph Prompting via Semantic Low-Rank Decomposition](vision_graph_prompting_via_semantic_low-rank_decomposition.md)**
 
 :   提出 Vision Graph Prompting (VGP)，首个面向 Vision GNN (ViG) 的视觉提示学习框架，利用图中语义连通分量的低秩特性，设计了图/边/节点三层粒度的语义低秩提示（SeLo-Graph/Edge/Node Prompt），在参数高效的前提下达到接近全量微调的下游任务迁移性能。
+
+**[What Limits Virtual Agent Application? OmniBench: A Scalable Multi-Dimensional Benchmark for Essential Virtual Agent Capabilities](what_limits_virtual_agent_application_omnibench_a_scalable_multi-dimensional_ben.md)**
+
+:   本文提出 OmniBench——一个基于图结构的可扩展虚拟 Agent 基准，通过自动化流水线合成可控复杂度的任务，配合 OmniEval 多维评估框架，在 20 个应用场景中生成 36K 个任务，系统揭示了虚拟 Agent 在不同能力维度上的短板。
+
+**[Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas](why_is_spatial_reasoning_hard_for_vlms_an_attention_mechanism_perspective_on_foc.md)**
+
+:   从机制可解释性视角研究 VLM 空间推理失败的原因，发现图像 token 虽占输入 90% 但仅获 10% 注意力，且注意力的几何分布才是关键；提出 AdaptVis——基于推理时置信度自适应调整图像注意力温度的无训练解码方法，在 WhatsUp 上实现高达 50% 绝对提升。

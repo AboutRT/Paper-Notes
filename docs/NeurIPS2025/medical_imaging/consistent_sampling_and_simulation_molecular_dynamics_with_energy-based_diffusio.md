@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.17139](https://arxiv.org/abs/2506.17139)  
-**代码**: https://github.com/noegroup/ScoreMD  
+**代码**: [https://github.com/noegroup/ScoreMD](https://github.com/noegroup/ScoreMD)  
 **领域**: 分子动力学 / 扩散模型  
 **关键词**: 扩散模型, 分子动力学模拟, Fokker-Planck方程, 能量模型, 粗粒化
 

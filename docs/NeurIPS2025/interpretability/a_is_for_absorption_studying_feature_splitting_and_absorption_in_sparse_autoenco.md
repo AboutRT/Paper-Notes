@@ -9,14 +9,14 @@ tags:
   - Feature Absorption
   - Feature Splitting
   - 机械可解释性
-  - LLM内部表征
+  - 可解释性
 ---
 
 # A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2409.14507](https://arxiv.org/abs/2409.14507)  
-**代码**: https://github.com/lasr-spelling/sae-spelling  
+**代码**: [https://github.com/lasr-spelling/sae-spelling](https://github.com/lasr-spelling/sae-spelling)  
 **领域**: AI Safety / 可解释性 / 机械可解释性  
 **关键词**: Sparse Autoencoder, Feature Absorption, Feature Splitting, 机械可解释性, LLM内部表征
 
@@ -125,8 +125,8 @@ tags:
 
 - [\[NeurIPS 2025\] Transformer Key-Value Memories Are Nearly as Interpretable as Sparse Autoencoders](transformer_key-value_memories_are_nearly_as_interpretable_as_sparse_autoencoder.md)
 - [\[ICML 2025\] Do Sparse Autoencoders Generalize? A Case Study of Answerability](../../ICML2025/interpretability/do_sparse_autoencoders_generalize_a_case_study_of_answerability.md)
+- [\[ICML 2025\] SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability](../../ICML2025/interpretability/saebench_a_comprehensive_benchmark_for_sparse_autoencoders_in_language_model_int.md)
+- [\[ICLR 2026\] Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability](../../ICLR2026/interpretability/temporal_sparse_autoencoders_leveraging_the_sequential_nature_of_language_for_in.md)
 - [\[NeurIPS 2025\] Distributional Autoencoders Know the Score](distributional_autoencoders_know_the_score.md)
-- [\[NeurIPS 2025\] Why Is Attention Sparse in Particle Transformer?](why_is_attention_sparse_in_particle_transformer.md)
-- [\[NeurIPS 2025\] SHAP Values via Sparse Fourier Representation](shap_values_via_sparse_fourier_representation.md)
 
 <!-- RELATED:END -->

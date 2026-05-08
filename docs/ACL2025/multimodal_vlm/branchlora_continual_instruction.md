@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - 持续指令微调
-  - BranchLoRA
+  - 多模态VLM
   - MoE
   - 灾难性遗忘
   - 多模态大语言模型
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.02041](https://arxiv.org/abs/2506.02041)  
-**代码**: [GitHub](https://github.com/BladeDancer957/BranchLoRA) (有)  
+**代码**: [GitHub](https://github.com/BladeDancer957/BranchLoRA)  
 **领域**: 多模态VLM  
 **关键词**: 持续指令微调, BranchLoRA, MoE, 灾难性遗忘, 多模态大语言模型
 
@@ -165,6 +165,6 @@ BranchLoRA集成到MLLM每层的Feed-Forward模块中，pipeline：
 - [\[ICCV 2025\] SMoLoRA: Exploring and Defying Dual Catastrophic Forgetting in Continual Visual Instruction Tuning](../../ICCV2025/multimodal_vlm/smolora_exploring_and_defying_dual_catastrophic_forgetting_in_continual_visual_i.md)
 - [\[ICML 2025\] Dynamic Mixture of Curriculum LoRA Experts for Continual Multimodal Instruction Tuning](../../ICML2025/multimodal_vlm/dynamic_mixture_of_curriculum_lora_experts_for_continual_multimodal_instruction_.md)
 - [\[ACL 2025\] MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale](mammoth_vl_multimodal_reasoning.md)
-- [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](../../NeurIPS2025/multimodal_vlm/visual_instruction_bottleneck_tuning.md)
+- [\[ACL 2025\] MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation](meit_multimodal_electrocardiogram_instruction_tuning_on_large_language_models_fo.md)
 
 <!-- RELATED:END -->

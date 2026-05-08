@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2507.07993](https://arxiv.org/abs/2507.07993)  
 **代码**: [GitHub](https://github.com/weihaox/BASIC)  
-**领域**: 脑视觉解码评估  
+**领域**: 图像分割  
 **关键词**: brain decoding, evaluation metric, segmentation, semantic matching, MLLM
 
 ## 一句话总结

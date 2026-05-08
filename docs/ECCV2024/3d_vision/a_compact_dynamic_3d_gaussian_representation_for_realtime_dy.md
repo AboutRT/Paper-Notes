@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2311.12897](https://arxiv.org/abs/2311.12897)  
-**代码**: [https://github.com/seoha-kim/Compact3D](https://github.com/seoha-kim/Compact3D) (有)  
+**代码**: [https://github.com/seoha-kim/Compact3D](https://github.com/seoha-kim/Compact3D)  
 **领域**: 3D视觉 / 动态新视角合成  
 **关键词**: 3D Gaussian Splatting, 动态场景, Fourier逼近, 实时渲染, 紧凑表示  
 

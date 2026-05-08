@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 语音
-  - 音乐信息检索
+  - 音频语音
   - 多模态对齐
   - 跨语言泛化
   - 对比学习
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.10362](https://arxiv.org/abs/2502.10362)  
-**代码**: https://github.com/sanderwood/clamp3 (有)  
+**代码**: [https://github.com/sanderwood/clamp3](https://github.com/sanderwood/clamp3)  
 **领域**: 语音  
 **关键词**: 音乐信息检索, 多模态对齐, 跨语言泛化, 对比学习, 检索增强生成
 
@@ -164,10 +164,10 @@ $$L_{CL} = -\frac{1}{N} \sum_{i=1}^{N} \log \frac{\exp(\text{sim}(z_i^t, z_i^m) 
 
 ## 相关论文
 
+- [\[ACL 2025\] ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](atri-mitigating-multilingual-audio-text-retrieval-inconsistencies.md)
 - [\[ACL 2025\] WavRAG: Audio-Integrated Retrieval Augmented Generation for Spoken Dialogue Models](wavrag_audio-integrated_retrieval_augmented_generation_for_spoken_dialogue_model.md)
+- [\[ICCV 2025\] Everything is a Video: Unifying Modalities through Next-Frame Prediction](../../ICCV2025/audio_speech/everything_is_a_video_unifying_modalities_through_next-frame_prediction.md)
 - [\[ACL 2025\] Advancing Zero-shot Text-to-Speech Intelligibility across Diverse Domains via Preference Alignment](advancing_zero-shot_text-to-speech_intelligibility_across_diverse_domains_via_pr.md)
-- [\[ACL 2025\] ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](atri_mitigating_multilingual_audio_text_retrieval_inconsistencies_by_reducing_da.md)
-- [\[ACL 2025\] GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages](gigaspeech2_low_resource_asr.md)
 - [\[ACL 2025\] SpeechIQ: Speech-Agentic Intelligence Quotient Across Cognitive Levels in Voice Understanding by Large Language Models](speechiq_speechagentic_intelligence_quotient_across_cognitive.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.19996](https://arxiv.org/abs/2505.19996)  
 **代码**: 未公开  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 多模态学习, 信息瓶颈, 变分推断, regularization bound, cross-attention fusion
 
 ## 一句话总结

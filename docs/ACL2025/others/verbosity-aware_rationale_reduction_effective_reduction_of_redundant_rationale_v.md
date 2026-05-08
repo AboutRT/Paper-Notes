@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Verbosity-Aware Rationale Reduction: Effective Reduction of Redundant Rationale
 description: >-
-  [ACL 2025][推理路径缩减] 提出 VARR 框架，以句子为单位并利用基于似然度的"冗余度（verbosity）"标准识别和移除推理路径中的冗余句子，在多种推理任务上平均提升 7.71% 准确率同时减少 19.87% 的 token 生成。
+  [ACL 2025][其他] 提出 VARR 框架，以句子为单位并利用基于似然度的"冗余度（verbosity）"标准识别和移除推理路径中的冗余句子，在多种推理任务上平均提升 7.71% 准确率同时减少 19.87% 的 token 生成。
 tags:
   - ACL 2025
-  - 推理路径缩减
+  - 其他
   - 冗余句子
   - 冗余度
   - CoT微调
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.21006](https://arxiv.org/abs/2412.21006)  
 **代码**: 无  
-**领域**: NLP / 推理效率  
+**领域**: 其他  
 **关键词**: 推理路径缩减, 冗余句子, 冗余度, CoT微调, token节省
 
 ## 一句话总结
@@ -117,9 +117,9 @@ VARR 包含三个阶段：（1）预热阶段用完整推理路径正常 CoT 微
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Frequency-Aware Token Reduction for Efficient Vision Transformer](../../NeurIPS2025/others/frequency-aware_token_reduction_for_efficient_vision_transformer.md)
 - [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](../../ICML2025/others/randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
 - [\[ACL 2025\] FEAT: A Preference Feedback Dataset through a Cost-Effective Auto-Generation and Labeling Framework for English AI Tutoring](feat_a_preference_feedback_dataset_through_a_cost-effective_auto-generation_and_.md)
-- [\[ICLR 2026\] Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation](../../ICLR2026/others/revisiting_sharpness-aware_minimization_a_more_faithful_and_effective_implementa.md)
 - [\[ACL 2025\] ConECT Dataset: Overcoming Data Scarcity in Context-Aware E-Commerce MT](conect_dataset_overcoming_data_scarcity_in_context-aware_e-commerce_mt.md)
 - [\[ACL 2025\] HATA: Trainable and Hardware-Efficient Hash-Aware Top-k Attention for Scalable Large Model Inference](hata_trainable_and_hardware-efficient_hash-aware_top-k_attention_for_scalable_la.md)
 

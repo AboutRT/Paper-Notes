@@ -11,7 +11,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.20124](https://arxiv.org/abs/2505.20124)  
-**代码**: https://friedrichor.github.io/projects/TUNA  
+**代码**: [https://friedrichor.github.io/projects/TUNA](https://friedrichor.github.io/projects/TUNA)  
 **作者**: Fanheng Kong, Jingyuan Zhang, Hongzhi Zhang 等（东北大学 + 快手）
 
 ## 一句话总结
@@ -127,10 +127,10 @@ Tuna 由两部分组成：
 
 ## 相关论文
 
-- [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
 - [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
-- [\[ACL 2025\] SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
+- [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
 - [\[ACL 2025\] A Spatio-Temporal Point Process for Fine-Grained Modeling of Reading Behavior](a_spatio-temporal_point_process_for_fine-grained_modeling_of_reading_behavior.md)
 - [\[ACL 2025\] ChartLens: Fine-Grained Visual Attribution in Charts](chartlens_fine-grained_visual_attribution_in_charts.md)
+- [\[ACL 2025\] FRACTAL: Fine-Grained Scoring from Aggregate Text Labels](fractal_fine-grained_scoring_from_aggregate_text_labels.md)
 
 <!-- RELATED:END -->

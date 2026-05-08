@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - 持续学习
-  - 多模态对比学习
+  - 多模态VLM
   - 梯度投影
   - 灾难性遗忘
   - 模态绑定
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.14963](https://arxiv.org/abs/2503.14963)  
-**代码**: https://github.com/Xiaohao-Liu/CMCL  
+**代码**: [https://github.com/Xiaohao-Liu/CMCL](https://github.com/Xiaohao-Liu/CMCL)  
 **领域**: 多模态VLM  
 **关键词**: 持续学习, 多模态对比学习, 梯度投影, 灾难性遗忘, 模态绑定
 
@@ -133,8 +133,8 @@ tags:
 
 - [\[NeurIPS 2025\] BioCLIP 2: Emergent Properties from Scaling Hierarchical Contrastive Learning](bioclip_2_emergent_properties_from_scaling_hierarchical_contrastive_learning.md)
 - [\[ICLR 2026\] KeepLoRA: Continual Learning with Residual Gradient Adaptation](../../ICLR2026/multimodal_vlm/keeplora_continual_learning_with_residual_gradient_adaptation.md)
-- [\[ICLR 2026\] Enhanced Continual Learning of Vision-Language Models with Model Fusion](../../ICLR2026/multimodal_vlm/enhanced_continual_learning_of_vision-language_models_with_model_fusion.md)
 - [\[ICML 2025\] LADA: Scalable Label-Specific CLIP Adapter for Continual Learning](../../ICML2025/multimodal_vlm/lada_scalable_label-specific_clip_adapter_for_continual_learning.md)
-- [\[NeurIPS 2025\] On the Value of Cross-Modal Misalignment in Multimodal Representation Learning](on_the_value_of_cross-modal_misalignment_in_multimodal_representation_learning.md)
+- [\[ACL 2025\] Enhancing Multimodal Continual Instruction Tuning with BranchLoRA](../../ACL2025/multimodal_vlm/branchlora_continual_instruction.md)
+- [\[ICCV 2025\] Instruction-Grounded Visual Projectors for Continual Learning of Generative Vision-Language Models](../../ICCV2025/multimodal_vlm/instruction-grounded_visual_projectors_for_continual_learning_of_generative_visi.md)
 
 <!-- RELATED:END -->

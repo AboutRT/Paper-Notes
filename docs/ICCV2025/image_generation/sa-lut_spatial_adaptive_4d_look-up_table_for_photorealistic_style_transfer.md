@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2506.13465](https://arxiv.org/abs/2506.13465)  
-**代码**: https://github.com/Ry3nG/SA-LUT  
+**代码**: [https://github.com/Ry3nG/SA-LUT](https://github.com/Ry3nG/SA-LUT)  
 **领域**: 图像生成 / 风格迁移  
 **关键词**: 写实风格迁移, 4D LUT, 空间自适应, 上下文映射, 实时色彩分级
 

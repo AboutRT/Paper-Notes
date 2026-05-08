@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 多模态
   - 持续学习
-  - 视觉-语言模型
+  - 多模态VLM
   - Mixture-of-Experts
   - 视觉投影器
   - 指令感知
@@ -52,11 +52,11 @@ MVP 由三个核心组件构成：
 
    引入 $N_E$ 个投影器专家 $\{\mathcal{E}_j\}$ 和一个路由器 $\mathcal{R}$，路由器根据图像特征和指令嵌入共同决定激活哪些专家：
 
-   $$W = \text{Softmax}(\text{Top-}K(\mathcal{R}(\mathbf{x}_{i,\text{img}}^t, \mathbf{x}_{i,\text{text}}^t)))$$
+    $W = \text{Softmax}(\text{Top-}K(\mathcal{R}(\mathbf{x}_{i,\text{img}}^t, \mathbf{x}_{i,\text{text}}^t)))$
 
    聚合输出与预训练投影器的输出做平均：
 
-   $$\tilde{\mathbf{x}}_{i,\text{img}}^t = \frac{1}{K+1}\left(\mathcal{V}(\mathbf{x}_{i,\text{img}}^t) + \sum_{j=1}^{N_E} w_j \mathcal{E}_j(\mathbf{x}_{i,\text{img}}^t)\right)$$
+    $\tilde{\mathbf{x}}_{i,\text{img}}^t = \frac{1}{K+1}\left(\mathcal{V}(\mathbf{x}_{i,\text{img}}^t) + \sum_{j=1}^{N_E} w_j \mathcal{E}_j(\mathbf{x}_{i,\text{img}}^t)\right)$
 
    设计动机：通过将路由条件化在指令嵌入上，不同类型的指令（分类/描述/问答）会激活不同的专家组合，从而实现指令感知的视觉翻译。保留预训练投影器的贡献确保零样本能力不丢失。
 
@@ -64,11 +64,11 @@ MVP 由三个核心组件构成：
 
    计算新任务与所有先前任务之间的语义相似度，基于视觉和文本两个维度：
 
-   $$s^{t'} = \alpha \cdot \sigma(s_{\text{img}}^{t'}) + (1-\alpha) \cdot \sigma(s_{\text{text}}^{t'})$$
+    $s^{t'} = \alpha \cdot \sigma(s_{\text{img}}^{t'}) + (1-\alpha) \cdot \sigma(s_{\text{text}}^{t'})$
 
    使用对比分布损失鼓励路由器复用与相似旧任务关联的专家，同时通过激活偏差减少（Activation Bias Reduction）抑制高频使用的专家：
 
-   $$\mathcal{L}_{bias} = \frac{1}{2}\left(1 + \frac{\langle \bar{L}^{1:t-1}, L^t \rangle}{\|\bar{L}^{1:t-1}\|_2 \cdot \|L^t\|_2}\right)$$
+    $\mathcal{L}_{bias} = \frac{1}{2}\left(1 + \frac{\langle \bar{L}^{1:t-1}, L^t \rangle}{\|\bar{L}^{1:t-1}\|_2 \cdot \|L^t\|_2}\right)$
 
    设计动机：一方面利用旧任务的相关知识加速新任务学习，另一方面避免所有任务只使用少数几个专家，确保学习容量。
 
@@ -76,7 +76,7 @@ MVP 由三个核心组件构成：
 
    训练完每个任务后，学习一个稀疏向量 $E^t$，最小化剪枝前后输出的差异同时约束激活的专家数量：
 
-   $$\min_{E^t} \left\|\sum_{j=1}^{N_E}(w_j - e_j^t)\mathcal{E}_j(x_{i,\text{img}}^t)\right\|_F + \|\mathcal{M}^{1:t-1} + E^t\|_1$$
+    $\min_{E^t} \left\|\sum_{j=1}^{N_E}(w_j - e_j^t)\mathcal{E}_j(x_{i,\text{img}}^t)\right\|_F + \|\mathcal{M}^{1:t-1} + E^t\|_1$
 
    将 $E^t$ 阈值化为二值掩码 $\mathcal{M}^t$，然后用合成数据微调路由器以适应剪枝后的专家配置。
 
@@ -171,9 +171,9 @@ $\mathcal{L}_{bias}$ 是最关键的组件——移除后分类从 85.92% 暴跌
 ## 相关论文
 
 - [\[ICCV 2025\] SMoLoRA: Exploring and Defying Dual Catastrophic Forgetting in Continual Visual Instruction Tuning](smolora_exploring_and_defying_dual_catastrophic_forgetting_in_continual_visual_i.md)
-- [\[NeurIPS 2025\] Learning to Instruct for Visual Instruction Tuning](../../NeurIPS2025/multimodal_vlm/learning_to_instruct_for_visual_instruction_tuning.md)
+- [\[CVPR 2026\] Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](../../CVPR2026/multimodal_vlm/continual_learning_with_visionlanguage_models_via.md)
 - [\[NeurIPS 2025\] Continual Multimodal Contrastive Learning](../../NeurIPS2025/multimodal_vlm/continual_multimodal_contrastive_learning.md)
-- [\[CVPR 2025\] Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](../../CVPR2025/multimodal_vlm/continual_learning_with_vision-language_models_via_semantic-geometry_preservatio.md)
-- [\[ICLR 2026\] Enhanced Continual Learning of Vision-Language Models with Model Fusion](../../ICLR2026/multimodal_vlm/enhanced_continual_learning_of_vision-language_models_with_model_fusion.md)
+- [\[NeurIPS 2025\] Learning to Instruct for Visual Instruction Tuning](../../NeurIPS2025/multimodal_vlm/learning_to_instruct_for_visual_instruction_tuning.md)
+- [\[ICML 2025\] Dynamic Mixture of Curriculum LoRA Experts for Continual Multimodal Instruction Tuning](../../ICML2025/multimodal_vlm/dynamic_mixture_of_curriculum_lora_experts_for_continual_multimodal_instruction_.md)
 
 <!-- RELATED:END -->

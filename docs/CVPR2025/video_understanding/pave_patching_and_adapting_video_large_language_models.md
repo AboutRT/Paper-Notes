@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19794](https://arxiv.org/abs/2503.19794)  
-**代码**: https://github.com/dragonlzm/PAVE  
+**代码**: [https://github.com/dragonlzm/PAVE](https://github.com/dragonlzm/PAVE)  
 **领域**: 多模态VLM / 视频理解  
 **关键词**: Video LLM适配, 侧信道信号, 轻量适配器, 音视频问答, 3D场景理解
 

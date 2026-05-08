@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.16193](https://arxiv.org/abs/2407.16193)  
-**代码**: https://github.com/shimazing/CloudFixer  
+**代码**: [https://github.com/shimazing/CloudFixer](https://github.com/shimazing/CloudFixer)  
 **领域**: 3D视觉  
 **关键词**: 测试时适应, 3D点云, 扩散模型, 几何变换, 域迁移
 

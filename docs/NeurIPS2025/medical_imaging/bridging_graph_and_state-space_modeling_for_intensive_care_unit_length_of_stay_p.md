@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (GenAI for Health Workshop)  
 **arXiv**: [2508.17554](https://arxiv.org/abs/2508.17554)  
 **代码**: [GitHub](https://github.com/ShuqiZi1/S2G-Net)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: ICU 住院时长预测, 图神经网络, 状态空间模型, Mamba, 多视图图
 
 ## 一句话总结
@@ -141,6 +141,6 @@ S2G-Net 在 R² 上比最佳基线 GraphGPS 提升约 7.5%，log-MAPE 降低 4.1
 - [\[NeurIPS 2025\] BarcodeMamba+: Advancing State-Space Models for Fungal Biodiversity Research](barcodemamba_advancing_state-space_models_for_fungal_biodiversity_research.md)
 - [\[NeurIPS 2025\] Generalizable, Real-Time Neural Decoding with Hybrid State-Space Models](generalizable_real-time_neural_decoding_with_hybrid_state-space_models.md)
 - [\[NeurIPS 2025\] Generative Modeling of Full-Atom Protein Conformations using Latent Diffusion on Graph Embeddings](generative_modeling_of_full-atom_protein_conformations_using_latent_diffusion_on.md)
-- [\[NeurIPS 2025\] Towards Unified and Lossless Latent Space for 3D Molecular Latent Diffusion Modeling](towards_unified_and_lossless_latent_space_for_3d_molecular_latent_diffusion_mode.md)
+- [\[NeurIPS 2025\] GeoDynamics: A Geometric State-Space Neural Network for Understanding Brain Dynamics on Riemannian Manifolds](geodynamics_a_geometric_state-space_neural_network_for_understanding_brain_dynam.md)
 
 <!-- RELATED:END -->

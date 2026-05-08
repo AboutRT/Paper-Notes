@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2401.12736](https://arxiv.org/abs/2401.12736)  
 **代码**: [https://github.com/lidc54/shift-wiseConv](https://github.com/lidc54/shift-wiseConv)  
-**领域**: 其他  
+**领域**: 图像分割  
 **关键词**: 大卷积核, 小卷积替代, 移位操作, CNN架构设计, 长距离依赖
 
 ## 一句话总结

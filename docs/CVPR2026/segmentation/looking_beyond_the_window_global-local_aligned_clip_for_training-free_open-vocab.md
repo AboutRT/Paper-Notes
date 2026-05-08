@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.23030](https://arxiv.org/abs/2603.23030)  
-**代码**: https://github.com/2btlFe/GLA-CLIP  
+**代码**: [https://github.com/2btlFe/GLA-CLIP](https://github.com/2btlFe/GLA-CLIP)  
 **领域**: 分割 / 多模态VLM  
 **关键词**: 开放词汇语义分割, CLIP, 滑动窗口, 无训练, 全局-局部对齐
 

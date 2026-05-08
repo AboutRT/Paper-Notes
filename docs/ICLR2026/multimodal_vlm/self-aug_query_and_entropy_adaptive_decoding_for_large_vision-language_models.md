@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 多模态
   - visual contrastive decoding
-  - hallucination mitigation
+  - 多模态VLM
   - self-augmentation
   - entropy-aware thresholding
   - training-free
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.13315](https://arxiv.org/abs/2510.13315)  
-**代码**: https://eunwooim.github.io/selfaug  
+**代码**: [https://eunwooim.github.io/selfaug](https://eunwooim.github.io/selfaug)  
 **领域**: 多模态VLM / 解码策略  
 **关键词**: visual contrastive decoding, hallucination mitigation, self-augmentation, entropy-aware thresholding, training-free
 
@@ -127,10 +127,10 @@ Self-Aug 是完全免训练的方法。超参数设置：$\alpha=1$，APC 的 $\
 
 ## 相关论文
 
-- [\[ICLR 2026\] Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation](look_carefully_adaptive_visual_reinforcements_in_multimodal_large_language_model.md)
 - [\[ICLR 2026\] Self-Evolving Vision-Language Models for Image Quality Assessment via Voting and Ranking](self-evolving_vision-language_models_for_image_quality_assessment_via_voting_and.md)
-- [\[ACL 2025\] Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucination in Multimodal LLMs](../../ACL2025/multimodal_vlm/mixture_of_decoding_an_attention-inspired_adaptive_decoding_strategy_to_mitigate.md)
-- [\[ICLR 2026\] Vision-Zero: Scalable VLM Self-Improvement via Strategic Gamified Self-Play](vision-zero_scalable_vlm_self-improvement_via_strategic_gamified_self-play.md)
-- [\[ICLR 2026\] Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs](through_the_lens_of_contrast_self-improving_visual_reasoning_in_vlms.md)
+- [\[ICLR 2026\] Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation](look_carefully_adaptive_visual_reinforcements_in_multimodal_large_language_model.md)
+- [\[CVPR 2026\] Residual Decoding: Mitigating Hallucinations in Large Vision-Language Models via History-Aware Residual Guidance](../../CVPR2026/multimodal_vlm/residual_decoding_mitigating_hallucinations_in_large_vision-language_models_via_.md)
+- [\[ICLR 2026\] Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](vision-r1_incentivizing_reasoning_capability_in_multimodal_large_language_models.md)
+- [\[ACL 2026\] Through the Magnifying Glass: Adaptive Perception Magnification for Hallucination-Free VLM Decoding](../../ACL2026/multimodal_vlm/through_the_magnifying_glass_adaptive_perception_magnification_for_hallucination.md)
 
 <!-- RELATED:END -->

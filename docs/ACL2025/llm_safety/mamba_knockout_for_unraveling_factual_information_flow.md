@@ -9,7 +9,7 @@ tags:
   - SSM
   - 注意力敲除
   - 事实信息流
-  - 可解释性
+  - LLM安全
 ---
 
 # Mamba Knockout for Unraveling Factual Information Flow
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.24244](https://arxiv.org/abs/2505.24244)  
 **代码**: [有](https://github.com/nirendy/mamba-knockout)  
-**领域**: NLP / 可解释性  
+**领域**: LLM安全  
 **关键词**: Mamba, SSM, 注意力敲除, 事实信息流, 可解释性
 
 ## 一句话总结
@@ -153,10 +153,10 @@ $$\mathbf{M}_{i,j} = Q_i \cdot H_{i,j} \cdot K_j$$
 
 ## 相关论文
 
-- [\[ACL 2025\] REVS: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space](revs_unlearning_sensitive_information_in_language_models_via_rank_editing_in_the.md)
 - [\[ACL 2025\] Towards Effective Extraction and Evaluation of Factual Claims](towards_effective_extraction_and_evaluation_of_factual_claims.md)
 - [\[ACL 2025\] Core: Robust Factual Precision with Informative Sub-Claim Identification](core_robust_factual_precision_with_informative_sub-claim_identification.md)
-- [\[ACL 2025\] UAQFact: Evaluating Factual Knowledge Utilization of LLMs on Unanswerable Questions](uaqfact_evaluating_factual_knowledge_utilization_of_llms_on_unanswerable_questio.md)
-- [\[ACL 2025\] Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations](factual_knowledge_in_language_models_robustness_and_anomalies_under_simple_tempo.md)
+- [\[ACL 2025\] REVS: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space](revs_unlearning_sensitive_information_in_language_models_via_rank_editing_in_the.md)
+- [\[ICML 2025\] Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks](../../ICML2025/llm_safety/revealing_weaknesses_in_text_watermarking_through_self-information_rewrite_attac.md)
+- [\[NeurIPS 2025\] Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks Against LLMs](../../NeurIPS2025/llm_safety/bits_leaked_per_query_information-theoretic_bounds_on_adversarial_attacks_agains.md)
 
 <!-- RELATED:END -->

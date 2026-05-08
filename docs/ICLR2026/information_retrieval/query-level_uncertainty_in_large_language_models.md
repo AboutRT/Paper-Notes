@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2506.09669](https://arxiv.org/abs/2506.09669)  
 **代码**: [GitHub](https://github.com/tigerchen52/query_level_uncertainty)  
-**领域**: llm_reasoning  
+**领域**: 信息检索  
 **关键词**: uncertainty estimation, knowledge boundary, adaptive inference, training-free, internal confidence
 
 ## 一句话总结
@@ -111,7 +111,7 @@ $$\text{IC}(\mathbf{h}) = \sum_{n=1}^{N}\sum_{l=1}^{L}w_n^{(l)} P(\text{Yes}|\ma
 - [\[AAAI 2026\] "As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](../../AAAI2026/information_retrieval/as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)
 - [\[ICLR 2026\] TokMem: One-Token Procedural Memory for Large Language Models](tokmem_one-token_procedural_memory_for_large_language_models.md)
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](../../ACL2025/information_retrieval/enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
+- [\[ACL 2026\] KoCo-Bench: Can Large Language Models Leverage Domain Knowledge in Software Development?](../../ACL2026/information_retrieval/koco-bench_can_large_language_models_leverage_domain_knowledge_in_software_devel.md)
 - [\[ACL 2025\] Investigating the Robustness of Retrieval-Augmented Generation at the Query Level](../../ACL2025/information_retrieval/investigating_the_robustness_of_retrieval-augmented_generation_at_the_query_leve.md)
-- [\[ACL 2025\] RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models](../../ACL2025/information_retrieval/rare_retrieval_augmented_reasoning.md)
 
 <!-- RELATED:END -->

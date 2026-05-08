@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.09919](https://arxiv.org/abs/2412.09919)  
-**代码**: https://github.com/zhuqiangLu/B-VLLM.git  
+**代码**: [https://github.com/zhuqiangLu/B-VLLM.git](https://github.com/zhuqiangLu/B-VLLM.git)  
 **领域**: Model Compression / Video Understanding  
 **关键词**: 视觉大语言模型, 视频理解, Token平衡, 帧选择, Token合并
 

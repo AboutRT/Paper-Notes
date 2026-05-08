@@ -166,8 +166,8 @@ DEF在10个比较中有9个取得SOTA。
 
 - [\[AAAI 2026\] Optimal Look-back Horizon for Time Series Forecasting in Federated Learning](optimal_look-back_horizon_for_time_series_forecasting_in_federated_learning.md)
 - [\[AAAI 2026\] Predicting the Future by Retrieving the Past](predicting_the_future_by_retrieving_the_past.md)
+- [\[AAAI 2026\] A Theoretical Analysis of Detecting Large Model-Generated Time Series](a_theoretical_analysis_of_detecting_large_model-generated_time_series.md)
 - [\[ICML 2025\] Winner-takes-all for Multivariate Probabilistic Time Series Forecasting](../../ICML2025/time_series/winner-takes-all_for_multivariate_probabilistic_time_series_forecasting.md)
 - [\[ICML 2025\] A2P: Anomaly to Prompt for Forecasting Future Anomalies in Time Series](../../ICML2025/time_series/when_will_it_fail_anomaly_to_prompt_for_forecasting_future_anomalies_in_time_seri.md)
-- [\[CVPR 2025\] DejaVid: Encoder-Agnostic Learned Temporal Matching for Video Classification](../../CVPR2025/time_series/dejavid_encoder-agnostic_learned_temporal_matching_for_video_classification.md)
 
 <!-- RELATED:END -->

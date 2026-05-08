@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2506.02132](https://arxiv.org/abs/2506.02132)  
-**代码**: https://github.com/ml5885/model_internal_sleuthing (有)  
+**代码**: [https://github.com/ml5885/model_internal_sleuthing](https://github.com/ml5885/model_internal_sleuthing)  
 **领域**: 模型压缩 / NLP理解  
 **关键词**: 语言探针, 词汇同一性, 屈折特征, 表示几何, 跨语言分析
 

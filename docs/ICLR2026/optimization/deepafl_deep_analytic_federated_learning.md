@@ -47,7 +47,7 @@ DeepAFL 的整体 pipeline：（1）所有客户端共享一个预训练 backbon
 
    具体来说，给定第 $l$ 层的输入特征矩阵 $\mathbf{H}^{(l)}$ 和目标 $\mathbf{Y}$，残差映射 $f^{(l)}$ 的参数 $\mathbf{W}^{(l)}$ 通过求解以下优化问题获得：
 
-   $$\mathbf{W}^{(l)} = \arg\min_{\mathbf{W}} \|\phi(\mathbf{H}^{(l)}) \mathbf{W} - (\mathbf{Y} - \mathbf{H}^{(l)})\|_F^2 + \lambda \|\mathbf{W}\|_F^2$$
+    $\mathbf{W}^{(l)} = \arg\min_{\mathbf{W}} \|\phi(\mathbf{H}^{(l)}) \mathbf{W} - (\mathbf{Y} - \mathbf{H}^{(l)})\|_F^2 + \lambda \|\mathbf{W}\|_F^2$
 
    其中 $\phi(\cdot)$ 是非线性特征映射（如随机特征或核近似），$\lambda$ 是正则化系数。这个问题有封闭形式解：$\mathbf{W}^{(l)} = (\phi(\mathbf{H}^{(l)})^\top \phi(\mathbf{H}^{(l)}) + \lambda \mathbf{I})^{-1} \phi(\mathbf{H}^{(l)})^\top (\mathbf{Y} - \mathbf{H}^{(l)})$。
 
@@ -58,9 +58,9 @@ DeepAFL 的整体 pipeline：（1）所有客户端共享一个预训练 backbon
    服务器端只需简单地**求和聚合**：$\mathbf{A}^{(l)} = \sum_k \mathbf{A}_k^{(l)}$，$\mathbf{B}^{(l)} = \sum_k \mathbf{B}_k^{(l)}$，然后计算全局解：$\mathbf{W}^{(l)} = (\mathbf{A}^{(l)} + \lambda \mathbf{I})^{-1} \mathbf{B}^{(l)}$。
 
    这个协议有三个关键优势：
-   - **数据异质性不变**：由于矩阵求和操作的结合律，无论数据如何分布在各客户端，聚合结果与集中式训练完全一致
-   - **单轮通信**：每层只需一轮通信（上传矩阵 → 服务器计算 → 下发参数），无需迭代
-   - **隐私友好**：传输的是聚合统计量而非原始数据或梯度
+    - **数据异质性不变**：由于矩阵求和操作的结合律，无论数据如何分布在各客户端，聚合结果与集中式训练完全一致
+    - **单轮通信**：每层只需一轮通信（上传矩阵 → 服务器计算 → 下发参数），无需迭代
+    - **隐私友好**：传输的是聚合统计量而非原始数据或梯度
 
 3. **特征映射策略**: 为了在保持封闭形式解的同时引入非线性，DeepAFL 使用随机特征（Random Features）来近似核映射。这是一种经典技术：通过随机投影 + 非线性激活来隐式计算高维核特征，计算复杂度可控。每一层可以使用不同的随机特征映射，增加表征多样性。
 
@@ -142,9 +142,9 @@ DeepAFL 相比之前的 SOTA 方法在三个基准数据集上提升 5.68%-8.42%
 ## 相关论文
 
 - [\[ICLR 2026\] Convex Dominance in Deep Learning I: A Scaling Law of Loss and Learning Rate](convex_dominance_in_deep_learning_i_a_scaling_law_of_loss_and_learning_rate.md)
-- [\[ICLR 2026\] Deep FlexQP: Accelerated Nonlinear Programming via Deep Unfolding](deep_flexqp_accelerated_nonlinear_programming_via_deep_unfolding.md)
+- [\[ICLR 2026\] Weak-SIGReg: Covariance Regularization for Stable Deep Learning](weak-sigreg_covariance_regularization_for_stable_deep_learning.md)
 - [\[AAAI 2026\] FedPM: Federated Learning Using Second-order Optimization with Preconditioned Mixing of Local Parameters](../../AAAI2026/optimization/fedpm_federated_learning_using_second-order_optimization_with_preconditioned_mix.md)
 - [\[ICLR 2026\] FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments](feddag_clustered_federated_learning_via_global_data_and_gradient_integration_for.md)
-- [\[CVPR 2026\] Enhancing Visual Representation with Textual Semantics: Textual Semantics-Powered Prototypes for Heterogeneous Federated Learning](../../CVPR2026/optimization/enhancing_visual_representation_with_textual_semantics_textual_semantics_powered_p.md)
+- [\[AAAI 2026\] Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning with Double-Weight Sparse Pack](../../AAAI2026/optimization/tackling_resource-constrained_and_data-heterogeneity_in_federated_learning_with_.md)
 
 <!-- RELATED:END -->

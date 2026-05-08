@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.02331](https://arxiv.org/abs/2604.02331)  
-**代码**: https://bartn8.github.io/eventhub  
+**代码**: [https://bartn8.github.io/eventhub](https://bartn8.github.io/eventhub)  
 **领域**: 3D视觉 / 立体匹配 / 事件相机  
 **关键词**: 事件相机, 立体匹配, 数据工厂, 新视角合成, 跨模态蒸馏
 
@@ -132,9 +132,9 @@ EventHub 通过两条互补路径生成训练数据：(i) **Event Data Factory**
 ## 相关论文
 
 - [\[CVPR 2026\] WMGStereo: What Makes Good Synthetic Training Data for Zero-Shot Stereo Matching?](what_makes_good_synthetic_training_data_for_zerosh.md)
-- [\[CVPR 2026\] Toward Generalizable Whole Brain Representations with High-Resolution Light-Sheet Data](toward_generalizable_whole_brain_representations_with_high-resolution_light-shee.md)
 - [\[CVPR 2026\] What Makes Good Synthetic Training Data for Zero-Shot Stereo Matching?](what_makes_good_synthetic_training_data_for_zero-shot_stereo_matching.md)
 - [\[CVPR 2026\] Lite Any Stereo: Efficient Zero-Shot Stereo Matching](lite_any_stereo_efficient_zero-shot_stereo_matching.md)
 - [\[AAAI 2026\] Domain Generalized Stereo Matching with Uncertainty-guided Data Augmentation](../../AAAI2026/3d_vision/domain_generalized_stereo_matching_with_uncertainty-guided_data_augmentation.md)
+- [\[CVPR 2026\] PIP-Stereo: Progressive Iterations Pruner for Iterative Optimization based Stereo Matching](pip-stereo_progressive_iterations_pruner_for_iterative_optimization_based_stereo.md)
 
 <!-- RELATED:END -->

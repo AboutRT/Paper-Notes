@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 2508.09575  
 **代码**: [GitHub](https://github.com/jwonkm/DRF)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: T2I 扩散模型, 可控生成, 姿态迁移, 外观保真, Score Distillation, training-free  
 **作者**: Jiwon Kim, Pureum Kim, SeonHwa Kim 等 (Korea University, Sookmyung Women's University)
 

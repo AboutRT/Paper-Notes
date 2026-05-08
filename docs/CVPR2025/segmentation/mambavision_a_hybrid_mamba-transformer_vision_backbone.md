@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2407.08083](https://arxiv.org/abs/2407.08083)  
-**代码**: https://github.com/NVlabs/MambaVision  
+**代码**: [https://github.com/NVlabs/MambaVision](https://github.com/NVlabs/MambaVision)  
 **领域**: 视觉骨干网络 / 图像分类 / 目标检测 / 语义分割  
 **关键词**: Mamba, Transformer, 混合架构, SSM, 视觉骨干
 

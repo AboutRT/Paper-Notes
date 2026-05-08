@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.22601](https://arxiv.org/abs/2602.22601)  
 **代码**: 待确认  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: 持续学习, DPO, 公平性, 灾难性遗忘, large multimodal model, focal loss
 
 ## 一句话总结
@@ -155,6 +155,6 @@ $\varphi$-DPO 与经验回放自然兼容：回放缓冲区中的旧数据和新
 - [\[ICLR 2026\] SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](../../ICLR2026/llm_alignment/safedpo_preference_optimization_safety.md)
 - [\[CVPR 2026\] MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization](mod-dpo_towards_mitigating_cross-modal_hallucinations_in_omni_llms_using_modalit.md)
 - [\[AAAI 2026\] Rethinking Direct Preference Optimization in Diffusion Models](../../AAAI2026/llm_alignment/rethinking_direct_preference_optimization_in_diffusion_models.md)
-- [\[CVPR 2025\] Continual SFT Matches Multimodal RLHF with Negative Supervision](../../CVPR2025/llm_alignment/continual_sft_matches_multimodal_rlhf_with_negative_supervision.md)
+- [\[ICLR 2026\] Token-Importance Guided Direct Preference Optimization (TI-DPO)](../../ICLR2026/llm_alignment/token-importance_guided_direct_preference_optimization.md)
 
 <!-- RELATED:END -->

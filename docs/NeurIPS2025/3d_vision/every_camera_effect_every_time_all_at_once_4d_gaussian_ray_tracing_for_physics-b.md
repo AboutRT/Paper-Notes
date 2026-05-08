@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.10759](https://arxiv.org/abs/2509.10759)  
 **代码**: [项目主页](https://shigon255.github.io/4DGRT-project-page)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 4D Gaussian Splatting, Ray Tracing, Camera Effects, Dynamic Scene Reconstruction, Data Generation  
 
 ## 一句话总结
@@ -153,7 +153,7 @@ tags:
 - [\[ICCV 2025\] Radiant Foam: Real-Time Differentiable Ray Tracing](../../ICCV2025/3d_vision/radiant_foam_real-time_differentiable_ray_tracing.md)
 - [\[CVPR 2026\] 4C4D: 4 Camera 4D Gaussian Splatting](../../CVPR2026/3d_vision/4c4d_4_camera_4d_gaussian_splatting.md)
 - [\[ICCV 2025\] Simulating Dual-Pixel Images From Ray Tracing For Depth Estimation](../../ICCV2025/3d_vision/simulating_dual-pixel_images_from_ray_tracing_for_depth_estimation.md)
-- [\[NeurIPS 2025\] RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes](rgb-only_supervised_camera_parameter_optimization_in_dynamic_scenes.md)
+- [\[CVPR 2025\] IRGS: Inter-Reflective Gaussian Splatting with 2D Gaussian Ray Tracing](../../CVPR2025/3d_vision/irgs_inter-reflective_gaussian_splatting_with_2d_gaussian_ray_tracing.md)
 - [\[NeurIPS 2025\] VisualSync: Multi-Camera Synchronization via Cross-View Object Motion](visual_sync_multi-camera_synchronization_via_cross-view_object_motion.md)
 
 <!-- RELATED:END -->

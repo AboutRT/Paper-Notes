@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.12360](https://arxiv.org/abs/2512.12360)  
-**代码**: https://milvlg.github.io/videoarm/  
+**代码**: [https://milvlg.github.io/videoarm/](https://milvlg.github.io/videoarm/)  
 **领域**: 视频理解 / LLM Agent  
 **关键词**: 长视频理解, Agent推理, 分层记忆, 粗到细推理, Token效率
 

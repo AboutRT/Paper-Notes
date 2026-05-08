@@ -8,7 +8,7 @@ tags:
   - CLIP
   - 零样本分类
   - 概念瓶颈模型
-  - 可解释性
+  - 信息检索
   - 视觉语言模型
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.28211](https://arxiv.org/abs/2603.28211)  
-**代码**: https://github.com/oonat/ezpc  
-**领域**: 多模态VLM / 可解释性  
+**代码**: [https://github.com/oonat/ezpc](https://github.com/oonat/ezpc)  
+**领域**: 信息检索  
 **关键词**: CLIP, 零样本分类, 概念瓶颈模型, 可解释性, 视觉语言模型
 
 ## 一句话总结
@@ -138,7 +138,7 @@ EZPC 的工作流程：(1) 定义一组 $m$ 个人类可理解的概念（如 "h
 - [\[CVPR 2025\] EZSR: Event-based Zero-Shot Recognition](../../CVPR2025/information_retrieval/ezsr_event-based_zero-shot_recognition.md)
 - [\[AAAI 2026\] OAD-Promoter: Enhancing Zero-shot VQA using Large Language Models with Object Attribute Description](../../AAAI2026/information_retrieval/oad-promoter_enhancing_zero-shot_vqa_using_large_language_models_with_object_att.md)
 - [\[ICLR 2026\] BTZSC: A Benchmark for Zero-Shot Text Classification Across Cross-Encoders, Embedding Models, Rerankers and LLMs](../../ICLR2026/information_retrieval/btzsc_a_benchmark_for_zero-shot_text_classification_across_cross-encoders_embedd.md)
+- [\[ICCV 2025\] External Knowledge Injection for CLIP-Based Class-Incremental Learning](../../ICCV2025/information_retrieval/external_knowledge_injection_for_clip-based_class-incremental_learning.md)
 - [\[NeurIPS 2025\] SuperCLIP: CLIP with Simple Classification Supervision](../../NeurIPS2025/information_retrieval/superclip_clip_with_simple_classification_supervision.md)
-- [\[NeurIPS 2025\] Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals](../../NeurIPS2025/information_retrieval/worse_than_zero-shot_a_fact-checking_dataset_for_evaluating_the_robustness_of_ra.md)
 
 <!-- RELATED:END -->

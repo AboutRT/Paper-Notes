@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 多模态大模型
   - 置信度校准
-  - 推理链
+  - 多模态VLM
   - 知识边界
   - 强化学习
   - 幻觉缓解
@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.23224](https://arxiv.org/abs/2505.23224)  
 **代码**: [GitHub](https://github.com/Zhitao-He/MMBoundary)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 多模态大模型, 置信度校准, 推理链, 知识边界, 强化学习, 幻觉缓解
 
 ## 一句话总结
@@ -143,10 +143,10 @@ MMBoundary 在所有数据集上全面领先：MECE 平均降低 7.5%，Cultural
 
 ## 相关论文
 
-- [\[ACL 2025\] CrafText Benchmark: Advancing Instruction Following in Complex Multimodal Open-Ended World](craftext_benchmark_advancing_instruction_following_in_complex_multimodal_open-en.md)
-- [\[ACL 2025\] COLING-UniA at SciVQA 2025: Few-Shot Example Retrieval and Confidence-Informed Ensembling for Multimodal Large Language Models](coling-unia_at_scivqa_2025_few-shot_example_retrieval_and_confidence-informed_en.md)
-- [\[ACL 2025\] Activation Steering Decoding: Mitigating Hallucination in Large Vision-Language Models through Bidirectional Hidden State Intervention](activation_steering_decoding_mitigating_hallucination_in_large_vision-language_m.md)
+- [\[ACL 2025\] Aria-UI: Visual Grounding for GUI Instructions](aria-ui_visual_grounding_for_gui_instructions.md)
 - [\[ACL 2025\] GODBench: A Benchmark for Multimodal Large Language Models in Video Comment Art](godbench_a_benchmark_for_multimodal_large_language_models_in_video_comment_art.md)
-- [\[ACL 2025\] CoSyn: Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](cosyn_code_guided_synthetic_data.md)
+- [\[ACL 2025\] Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?](token_pruning_in_multimodal_large_language_models_are_we_solving_the_right_probl.md)
+- [\[ACL 2025\] Answering Complex Geographic Questions by Adaptive Reasoning with Visual Context and External Commonsense Knowledge](answering_complex_geographic_questions_by_adaptive_reasoning_with_visual_context.md)
+- [\[ACL 2025\] MMSafeAware: Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs](cant_see_the_forest_for_the.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2603.11142](https://arxiv.org/abs/2603.11142)  
 **代码**: 待确认  
-**领域**: others  
+**领域**: 可解释性  
 **关键词**: mechanistic interpretability, Video Vision Transformer, Activation Patching, Circuit Analysis, Trustworthy AI
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.09968](https://arxiv.org/abs/2503.09968)  
-**代码**: https://github.com/ZZ2490/SE-COT  
+**代码**: [https://github.com/ZZ2490/SE-COT](https://github.com/ZZ2490/SE-COT)  
 **作者**: Zihao Zhang, Aming Wu, Yahong Han  
 **机构**: Tianjin University, Xidian University  
 **领域**: LLM推理  

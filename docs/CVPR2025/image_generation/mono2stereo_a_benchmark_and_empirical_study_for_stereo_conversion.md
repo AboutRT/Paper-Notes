@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.22262](https://arxiv.org/abs/2503.22262)  
 **代码**: [mono2stereo-bench.github.io](https://mono2stereo-bench.github.io)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: stereo conversion, dual-condition diffusion, SIoU metric, Edge Consistency loss, benchmark
 
 ## 一句话总结

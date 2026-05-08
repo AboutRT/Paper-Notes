@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17696](https://arxiv.org/abs/2411.17696)  
-**代码**: 无（项目页: https://chedgekorea.github.io/ScribbleLight/ ）  
+**代码**: 无（项目页: [https://chedgekorea.github.io/ScribbleLight/](https://chedgekorea.github.io/ScribbleLight/) ）  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 室内重光照, 涂鸦控制, Stable Diffusion, ControlNet, 内在图像分解
 

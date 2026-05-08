@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.23473](https://arxiv.org/abs/2505.23473)  
-**代码**: https://github.com/FishT0ucher/EVOREFUSE  
+**代码**: [https://github.com/FishT0ucher/EVOREFUSE](https://github.com/FishT0ucher/EVOREFUSE)  
 **领域**: LLM/NLP  
 **关键词**: 过度拒绝, 安全对齐, 进化算法, 提示优化, 伪恶意指令
 

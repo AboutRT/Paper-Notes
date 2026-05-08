@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2410.17018](https://arxiv.org/abs/2410.17018)  
 **代码**: -  
-**领域**: LLM/NLP  
+**领域**: LLM安全  
 **关键词**: catastrophic forgetting, pre-training, entity memory, memory replay, forgetting curve  
 
 ## 一句话总结

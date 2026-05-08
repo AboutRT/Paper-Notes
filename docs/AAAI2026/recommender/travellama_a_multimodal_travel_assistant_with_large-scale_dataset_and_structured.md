@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TraveLLaMA: A Multimodal Travel Assistant with Large-Scale Dataset and Structured Reasoning
 description: >-
-  [AAAI 2026][多模态旅行助手] 提出 TraveLLaMA，一个面向旅行辅助的多模态语言模型系统，通过构建 265K QA 对的 TravelQA 数据集和 Travel-CoT 结构化推理框架，在旅行相关问答上实现了 10.8% 的准确率提升，并在 500 人用户研究中获得了 82.5 的 SUS 可用性评分。
+  [AAAI 2026][推荐系统] 提出 TraveLLaMA，一个面向旅行辅助的多模态语言模型系统，通过构建 265K QA 对的 TravelQA 数据集和 Travel-CoT 结构化推理框架，在旅行相关问答上实现了 10.8% 的准确率提升，并在 500 人用户研究中获得了 82.5 的 SUS 可用性评分。
 tags:
   - AAAI 2026
-  - 多模态旅行助手
+  - 推荐系统
   - 视觉语言模型
   - 链式推理
   - 旅行规划
@@ -168,7 +168,7 @@ Full Score 采用加权平均（61.5% 文本 + 38.5% 视觉语言）。领域特
 - [\[NeurIPS 2025\] R²ec: Towards Large Recommender Models with Reasoning](../../NeurIPS2025/recommender/r2ec_towards_large_recommender_models_with_reasoning.md)
 - [\[ICLR 2026\] C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems](../../ICLR2026/recommender/c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md)
 - [\[ICML 2025\] How to Set AdamW's Weight Decay as You Scale Model and Dataset Size](../../ICML2025/recommender/how_to_set_adamws_weight_decay_as_you_scale_model_and_dataset_size.md)
-- [\[NeurIPS 2025\] ASAP: An Agentic Solution to Auto-Optimize Performance of Large-Scale LLM Training](../../NeurIPS2025/recommender/asap_an_agentic_solution_to_auto-optimize_performance_of_large-scale_llm_trainin.md)
 - [\[AAAI 2026\] Inference-Aware Prompt Optimization for Aligning Black-Box Large Language Models](inference-aware_prompt_optimization_for_aligning_black-box_large_language_models.md)
+- [\[NeurIPS 2025\] ASAP: An Agentic Solution to Auto-Optimize Performance of Large-Scale LLM Training](../../NeurIPS2025/recommender/asap_an_agentic_solution_to_auto-optimize_performance_of_large-scale_llm_trainin.md)
 
 <!-- RELATED:END -->

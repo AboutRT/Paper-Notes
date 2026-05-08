@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Low-Rank Interconnected Adaptation across Layers
 description: >-
-  [ACL 2025][LoRA] 提出 Lily（Low-rank Interconnected Adaptation across Layers），通过将 LoRA 的 A/B 适配器跨层解耦并互联共享，配合数据依赖的路由机制，在相同或更少参数下实现高秩权重更新，在多模态、多架构、多规模场景中均优于 LoRA。
+  [ACL 2025][其他] 提出 Lily（Low-rank Interconnected Adaptation across Layers），通过将 LoRA 的 A/B 适配器跨层解耦并互联共享，配合数据依赖的路由机制，在相同或更少参数下实现高秩权重更新，在多模态、多架构、多规模场景中均优于 LoRA。
 tags:
   - ACL 2025
-  - LoRA
+  - 其他
   - 参数高效微调
   - 跨层适配
   - 混合专家
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2407.09946](https://arxiv.org/abs/2407.09946)  
 **代码**: [有](https://github.com/) (GitHub 链接在论文中标注)  
-**领域**: NLP / 参数高效微调  
+**领域**: 其他  
 **关键词**: LoRA, 参数高效微调, 跨层适配, 混合专家, 高秩更新
 
 ## 一句话总结
@@ -154,7 +154,7 @@ Lily 在 Mamba 架构上也大幅超越 LoRA，验证了跨架构的通用性。
 - [\[ACL 2025\] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning](more_a_mixture_of_low-rank_experts_for_adaptive_multi-task_learning.md)
 - [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](cola_collaborative_low-rank_adaptation.md)
 - [\[ACL 2025\] Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients](federated_lora_heterogeneous.md)
-- [\[ACL 2025\] MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection](macp_minimal_yet_mighty_adaptation_via_hierarchical_cosine_projection.md)
 - [\[ACL 2025\] Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling](understanding_cross-domain_adaptation_in_low-resource_topic_modeling.md)
+- [\[ACL 2025\] MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection](macp_minimal_yet_mighty_adaptation_via_hierarchical_cosine_projection.md)
 
 <!-- RELATED:END -->

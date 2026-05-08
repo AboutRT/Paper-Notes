@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24010](https://arxiv.org/abs/2510.24010)  
 **代码**: [有 (GitHub)](https://github.com/kerner-lab/Mars-Bench)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 火星科学、基准测试、Foundation Model、遥感分割、行星科学
 
 ## 一句话总结

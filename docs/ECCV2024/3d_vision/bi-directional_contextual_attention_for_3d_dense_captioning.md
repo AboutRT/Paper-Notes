@@ -20,7 +20,7 @@ tags:
 **作者**: Minjung Kim, Hyung Suk Lim, Soonyoung Lee, Bumsoo Kim, Gunhee Kim  
 **机构**: Princeton University, LG AI Research, Seoul National University  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D Dense Captioning, Transformer, Contextual Attention, Point Cloud, Scene Understanding
 
 ## 一句话总结

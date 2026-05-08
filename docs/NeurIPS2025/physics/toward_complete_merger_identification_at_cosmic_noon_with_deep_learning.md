@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025 (ML4PS Workshop)  
 **arXiv**: [2511.15006](https://arxiv.org/abs/2511.15006)  
-**代码**: https://github.com/alschechter/NeurIPSCosmicNoonMergerID  
+**代码**: [https://github.com/alschechter/NeurIPSCosmicNoonMergerID](https://github.com/alschechter/NeurIPSCosmicNoonMergerID)  
 **领域**: 天体物理 / 深度学习  
 **关键词**: 星系合并识别, ResNet18, 宇宙正午, IllustrisTNG, Grad-CAM
 
@@ -133,7 +133,7 @@ tags:
 - [\[ICML 2025\] Rethink the Role of Deep Learning towards Large-scale Quantum Systems](../../ICML2025/physics/rethink_the_role_of_deep_learning_towards_large-scale_quantum_systems.md)
 - [\[NeurIPS 2025\] Transfer Learning Beyond the Standard Model](transfer_learning_beyond_the_standard_model.md)
 - [\[NeurIPS 2025\] Latent Representation Learning in Heavy-Ion Collisions with MaskPoint Transformer](latent_representation_learning_in_heavy-ion_collisions_with_maskpoint_transforme.md)
-- [\[NeurIPS 2025\] Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)
 - [\[NeurIPS 2025\] POLARIS: A High-contrast Polarimetric Imaging Benchmark Dataset for Exoplanetary Disk Representation Learning](polaris_a_high-contrast_polarimetric_imaging_benchmark_dataset_for_exoplanetary_.md)
+- [\[NeurIPS 2025\] Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)
 
 <!-- RELATED:END -->

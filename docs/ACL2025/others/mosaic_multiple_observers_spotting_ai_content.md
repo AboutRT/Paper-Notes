@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Findings)][文本检测] 基于信息论中的通用压缩原理，提出 MOSAIC——多 LLM 集成的 AI 生成文本检测方法，通过 Blahut-Arimoto 算法为多个 detector LLM 计算最优组合权重，构建混合分布作为观察者，比较文本的实际 surprisal 与混合模型的期望交叉熵差异来判断是否为 AI 生成，在多个域/语言/生成器上鲁棒优于单模型和双模型（如 Binoculars）方法。
 tags:
   - ACL 2025 (Findings)
-  - 文本检测
+  - 其他
   - ensemble LLM
   - information theory
   - Binoculars
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2409.07615](https://arxiv.org/abs/2409.07615)  
 **代码**: [GitHub](https://github.com/BaggerOfWords/MOSAIC)  
-**领域**: AI安全/AIGC检测  
+**领域**: 其他  
 **关键词**: AI-generated text detection, ensemble LLM, information theory, Binoculars, zero-shot detection
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[ACL 2025\] LAQuer: Localized Attribution Queries in Content-grounded Generation](laquer_localized_attribution.md)
 - [\[ACL 2025\] Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries](dpp_diverse_multidoc_summary.md)
-- [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](../../ICML2025/others/multiple-policy_evaluation_via_density_estimation.md)
 - [\[ACL 2025\] AnalyticKWS: Towards Exemplar-Free Analytic Class Incremental Learning for Small-footprint Keyword Spotting](analytickws_towards_exemplar-free_analytic_class_incremental_learning_for_small-.md)
 - [\[ACL 2025\] Spotting Out-of-Character Behavior: Atomic-Level Evaluation of Persona Fidelity in Open-Ended Generation](spotting_out-of-character_behavior_atomic-level_evaluation_of_persona_fidelity_i.md)
+- [\[ACL 2025\] Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction](distractor_gen_multiple_choice.md)
 
 <!-- RELATED:END -->

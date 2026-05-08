@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.17721](https://arxiv.org/abs/2502.17721)  
 **代码**: [GitHub](https://github.com/xwx84768/SysDPO/)  
-**领域**: LLM对齐 / 复合AI系统  
+**领域**: 图像生成  
 **关键词**: compound AI system, DPO, system alignment, DAG, multi-component optimization  
 
 ## 一句话总结

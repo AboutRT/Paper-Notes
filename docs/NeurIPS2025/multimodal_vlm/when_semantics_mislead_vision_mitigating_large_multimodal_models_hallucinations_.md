@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 多模态
-  - 语义幻觉
+  - 多模态VLM
   - 场景文字识别
   - 大多模态模型
   - 注意力校正
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.05551](https://arxiv.org/abs/2506.05551)  
 **代码**: [GitHub](https://github.com/shuyansy/MLLM-Semantic-Hallucination)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 语义幻觉, 场景文字识别, 大多模态模型, 注意力校正, 训练无关
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.21584](https://arxiv.org/abs/2511.21584)  
-**代码**: [项目主页](https://mpa-drive.github.io/) (有)  
+**代码**: [项目主页](https://mpa-drive.github.io/)  
 **领域**: Autonomous Driving  
 **关键词**: 端到端自动驾驶, 闭环评估, 反事实数据, 扩散策略, Q值引导
 

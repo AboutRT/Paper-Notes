@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 自然语言博弈
   - 合作与竞争
-  - 多智能体对话
+  - 其他
   - 语言策略
   - 社会交互
 ---
@@ -15,7 +15,7 @@ tags:
 # Cooperating and Competing Through Natural Language
 
 **会议**: ACL 2025  
-**领域**: 其他（博弈论+NLP）  
+**领域**: 其他  
 **关键词**: 自然语言博弈、合作与竞争、多智能体对话、语言策略、社会交互
 
 ## 一句话总结
@@ -118,10 +118,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] SPOT: Bridging Natural Language and Geospatial Search for Investigative Journalists](spot_bridging_natural_language_and_geospatial_search_for_investigative_journalis.md)
 - [\[ACL 2025\] QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning](qualispeech_a_speech_quality_assessment_dataset_with_natural_language_reasoning_.md)
+- [\[ACL 2025\] SPOT: Bridging Natural Language and Geospatial Search for Investigative Journalists](spot_bridging_natural_language_and_geospatial_search_for_investigative_journalis.md)
 - [\[ECCV 2024\] GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths](../../ECCV2024/others/gazexplain_learning_to_predict_natural_language_explanations_of_visual_scanpaths.md)
-- [\[ACL 2025\] Inducing Lexicons of In-Group Language with Socio-Temporal Context](inducing_lexicons_of_in-group_language_with_socio-temporal_context.md)
 - [\[ACL 2025\] Contextual Experience Replay for Self-Improvement of Language Agents](contextual_experience_replay_for_self-improvement_of_language_agents.md)
+- [\[ACL 2025\] Interlocking-free Selective Rationalization Through Genetic-based Learning](interlocking-free_selective_rationalization_through_genetic-based_learning.md)
 
 <!-- RELATED:END -->

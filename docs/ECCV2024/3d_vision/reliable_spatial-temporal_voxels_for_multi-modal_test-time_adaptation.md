@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.06461](https://arxiv.org/abs/2403.06461)  
-**代码**: https://sites.google.com/view/eccv24-latte (项目主页)  
+**代码**: [https://sites.google.com/view/eccv24-latte](https://sites.google.com/view/eccv24-latte) (项目主页)  
 **领域**: 3D视觉  
 **关键词**: 多模态测试时适应, 3D语义分割, 时空体素, 跨模态学习, 在线适应
 
@@ -132,7 +132,7 @@ Latte 的 pipeline：(1) 对每个模态（2D/3D），使用 student-teacher 架
 ## 相关论文
 
 - [\[ECCV 2024\] CloudFixer: Test-Time Adaptation for 3D Point Clouds via Diffusion-Guided Geometric Transformation](cloudfixer_test-time_adaptation_for_3d_point_clouds_via_diffusion-guided_geometr.md)
-- [\[ICCV 2025\] 3D Test-time Adaptation via Graph Spectral Driven Point Shift](../../ICCV2025/3d_vision/3d_testtime_adaptation_via_graph_spectral_driven_point_shift.md)
+- [\[ICCV 2025\] 3D Test-time Adaptation via Graph Spectral Driven Point Shift](../../ICCV2025/3d_vision/3d_test-time_adaptation_via_graph_spectral_driven_point_shift.md)
 - [\[NeurIPS 2025\] PointMAC: Meta-Learned Adaptation for Robust Test-Time Point Cloud Completion](../../NeurIPS2025/3d_vision/pointmac_meta-learned_adaptation_for_robust_test-time_point_cloud_completion.md)
 - [\[ECCV 2024\] Zero-Shot Multi-Object Scene Completion](zero-shot_multi-object_scene_completion.md)
 - [\[AAAI 2026\] StreamSTGS: Streaming Spatial and Temporal Gaussian Grids for Real-Time Free-Viewpoint Video](../../AAAI2026/3d_vision/streamstgs_streaming_spatial_and_temporal_gaussian_grids_for_real-time_free-view.md)

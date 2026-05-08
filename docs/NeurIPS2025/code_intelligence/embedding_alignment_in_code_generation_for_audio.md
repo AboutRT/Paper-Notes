@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Embedding Alignment in Code Generation for Audio
 description: >-
-  [NeurIPS 2025][code generation] 提出双 MLP + InfoNCE 对比学习框架，将代码嵌入（distilroberta-base）和音频嵌入（wav2vec2）对齐到共享空间，使 LLM 代码生成流程无需编译执行即可从代码推断音乐相似性，CKA 从 0.090 提升至 0.590。
+  [NeurIPS 2025][代码智能] 提出双 MLP + InfoNCE 对比学习框架，将代码嵌入（distilroberta-base）和音频嵌入（wav2vec2）对齐到共享空间，使 LLM 代码生成流程无需编译执行即可从代码推断音乐相似性，CKA 从 0.090 提升至 0.590。
 tags:
   - NeurIPS 2025
-  - code generation
+  - 代码智能
   - audio embedding
   - 对比学习
   - 跨模态
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.05473](https://arxiv.org/abs/2508.05473)  
 **代码**: 无  
-**领域**: 多模态 / 音频AI  
+**领域**: 代码智能  
 **关键词**: code generation, audio embedding, contrastive learning, cross-modal alignment, live-coding
 
 ## 一句话总结
@@ -133,8 +133,8 @@ $$\mathcal{L}_i = -\log \frac{\exp(\text{sim}(c_i, a_i) / \tau)}{\sum_{j=1}^N \e
 ## 相关论文
 
 - [\[ACL 2026\] CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment](../../ACL2026/code_intelligence/coderl_improving_code_generation_via_reinforcement_with_execution_semantics_alig.md)
-- [\[NeurIPS 2025\] MaintainCoder: Maintainable Code Generation Under Dynamic Requirements](maintaincoder_maintainable_code_generation_under_dynamic_requirements.md)
 - [\[NeurIPS 2025\] QiMeng-SALV: Signal-Aware Learning for Verilog Code Generation](qimeng-salv_signal-aware_learning_for_verilog_code_generation.md)
+- [\[NeurIPS 2025\] MaintainCoder: Maintainable Code Generation Under Dynamic Requirements](maintaincoder_maintainable_code_generation_under_dynamic_requirements.md)
 - [\[NeurIPS 2025\] Text-to-Code Generation for Modular Building Layouts in Building Information Modeling](text-to-code_generation_for_modular_building_layouts_in_building_information_mod.md)
 - [\[NeurIPS 2025\] Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models](table2latex-rl_high-fidelity_latex_code_generation_from_table_images_via_reinfor.md)
 

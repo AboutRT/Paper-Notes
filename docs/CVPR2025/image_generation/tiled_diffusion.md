@@ -127,6 +127,6 @@ Tiled Diffusion 直接在潜空间表示上操作，在生成过程中同时创�
 - [\[CVPR 2025\] Decentralized Diffusion Models](decentralized_diffusion_models.md)
 - [\[CVPR 2025\] Diffusion-4K: Ultra-High-Resolution Image Synthesis with Latent Diffusion Models](diffusion-4k_ultra-high-resolution_image_synthesis_with_latent_diffusion_models.md)
 - [\[CVPR 2025\] LEDiff: Latent Exposure Diffusion for HDR Generation](lediff_latent_exposure_diffusion_for_hdr_generation.md)
-- [\[CVPR 2025\] Erasing Undesirable Influence in Diffusion Models (EraseDiff)](erasing_undesirable_influence_in_diffusion_models.md)
+- [\[CVPR 2025\] Decoupling Training-Free Guided Diffusion by ADMM](decoupling_training-free_guided_diffusion_by_admm.md)
 
 <!-- RELATED:END -->

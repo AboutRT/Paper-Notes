@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 模型合并
-  - benchmark
+  - 多语言翻译
   - 任务向量
   - LLM
   - 多任务学习
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.10833](https://arxiv.org/abs/2505.10833)  
 **代码**: [yifei-he/mergebench](https://yifei-he.github.io/mergebench/)  
-**领域**: llm_nlp  
+**领域**: 多语言翻译  
 **关键词**: 模型合并, benchmark, 任务向量, LLM, 多任务学习
 
 ## 一句话总结
@@ -155,9 +155,9 @@ MergeBench 的设计包含三个关键维度：
 ## 相关论文
 
 - [\[ACL 2025\] LexGen: Domain-aware Multilingual Lexicon Generation](../../ACL2025/multilingual_mt/lexgen_domain-aware_multilingual_lexicon_generation.md)
-- [\[ACL 2026\] Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs](../../ACL2026/multilingual_mt/alexandria_a_multi-domain_dialectal_arabic_machine_translation_dataset_for_cultu.md)
 - [\[ACL 2025\] EXECUTE: A Multilingual Benchmark for LLM Token Understanding](../../ACL2025/multilingual_mt/execute_a_multilingual_benchmark_for_llm_token_understanding.md)
 - [\[ACL 2025\] CruxEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution](../../ACL2025/multilingual_mt/cruxeval-x_a_benchmark_for_multilingual_code_reasoning_understanding_and_executi.md)
+- [\[CVPR 2025\] SMTPD: A New Benchmark for Temporal Prediction of Social Media Popularity](../../CVPR2025/multilingual_mt/smtpd_a_new_benchmark_for_temporal_prediction_of_social_media_popularity.md)
 - [\[AAAI 2026\] Consensus-Aligned Neuron Efficient Fine-Tuning Large Language Models for Multi-Domain Machine Translation](../../AAAI2026/multilingual_mt/consensus-aligned_neuron_efficient_fine-tuning_large_language_models_for_multi-d.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 灵活训练
-  - Token优化
+  - LLM预训练
   - 视频预训练
   - 部署效率
   - 数据增强
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.14237](https://arxiv.org/abs/2503.14237)  
-**代码**: https://github.com/OpenGVLab/FluxViT  
-**领域**: 视频理解 / LLM效率  
+**代码**: [https://github.com/OpenGVLab/FluxViT](https://github.com/OpenGVLab/FluxViT)  
+**领域**: LLM预训练  
 **关键词**: 灵活训练, Token优化, 视频预训练, 部署效率, 数据增强
 
 ## 一句话总结
@@ -147,10 +147,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](../../ACL2025/llm_pretraining/towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
+- [\[NeurIPS 2025\] Vocabulary Customization for Efficient Domain-Specific LLM Deployment](../../NeurIPS2025/llm_pretraining/vocabulary_customization_for_efficient_domain-specific_llm_deployment.md)
 - [\[ACL 2025\] AsyncLM: Efficient and Adaptive Async Pre-training of Language Models](../../ACL2025/llm_pretraining/asynclm_efficient_and_adaptive_async_pre-training_of_language_models.md)
-- [\[CVPR 2026\] FlowMotion: Training-Free Flow Guidance for Video Motion Transfer](../../CVPR2026/llm_pretraining/flowmotion_training-free_flow_guidance_for_video_motion_transfer.md)
+- [\[ICML 2025\] Scaling Inference-Efficient Language Models](../../ICML2025/llm_pretraining/scaling_inference-efficient_language_models.md)
+- [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](../../ACL2025/llm_pretraining/towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
 - [\[ICML 2025\] Chameleon: A Flexible Data-mixing Framework for Language Model Pretraining and Finetuning](../../ICML2025/llm_pretraining/chameleon_a_flexible_data-mixing_framework_for_language_model_pretraining_and_fi.md)
-- [\[NeurIPS 2025\] Broken Tokens: Your Language Model Can Secretly Handle Non-Canonical Tokenization](../../NeurIPS2025/llm_pretraining/broken_tokens_your_language_model_can_secretly_handle_non-canonical_tokenization.md)
 
 <!-- RELATED:END -->

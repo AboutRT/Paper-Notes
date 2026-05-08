@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2506.05313](https://arxiv.org/abs/2506.05313)  
 **代码**: [项目页面](https://marblecontrol.github.io/)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: material editing, CLIP-space, material blending, parametric control, diffusion model
 
 ## 一句话总结
@@ -144,10 +144,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Dynamic Motion Blending for Versatile Motion Editing (MotionReFit)](dynamic_motion_blending_for_versatile_motion_editing.md)
 - [\[CVPR 2025\] Latent Space Imaging](latent_space_imaging.md)
 - [\[CVPR 2025\] Visual Lexicon: Rich Image Features in Language Space](visual_lexicon_rich_image_features_in_language_space.md)
+- [\[CVPR 2025\] Dynamic Motion Blending for Versatile Motion Editing (MotionReFit)](dynamic_motion_blending_for_versatile_motion_editing.md)
+- [\[NeurIPS 2025\] LLM Meets Diffusion: A Hybrid Framework for Crystal Material Generation](../../NeurIPS2025/image_generation/llm_meets_diffusion_a_hybrid_framework_for_crystal_material_generation.md)
 - [\[CVPR 2025\] Probability Density Geodesics in Image Diffusion Latent Space](probability_density_geodesics_in_image_diffusion_latent_space.md)
-- [\[CVPR 2025\] LaTexBlend: Scaling Multi-concept Customized Generation with Latent Textual Blending](latexblend_scaling_multi-concept_customized_generation_with_latent_textual_blend.md)
 
 <!-- RELATED:END -->

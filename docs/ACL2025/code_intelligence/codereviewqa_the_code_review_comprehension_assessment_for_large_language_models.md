@@ -9,15 +9,15 @@ tags:
   - 自动代码修正
   - 多选题探测
   - 数据污染
-  - LLM评估
+  - 代码智能
 ---
 
 # CodeReviewQA: The Code Review Comprehension Assessment for Large Language Models
 
 **会议**: ACL 2025  
 **arXiv**: [2503.16167](https://arxiv.org/abs/2503.16167)  
-**代码**: https://huggingface.co/datasets/Tomo-Melb/CodeReviewQA  
-**领域**: LLM/NLP  
+**代码**: [https://huggingface.co/datasets/Tomo-Melb/CodeReviewQA](https://huggingface.co/datasets/Tomo-Melb/CodeReviewQA)  
+**领域**: 代码智能  
 **关键词**: 代码审查, benchmark, 多选题探测, 数据污染, 推理分解
 
 ## 一句话总结
@@ -194,9 +194,9 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation](codeif_benchmarking_the_instruction-following_capabilities_of_large_language_mod.md)
-- [\[ACL 2025\] Personality-Guided Code Generation Using Large Language Models](personality_guided_code_gen.md)
 - [\[ACL 2025\] DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation](dynacode_a_dynamic_complexity-aware_code_benchmark_for_evaluating_large_language.md)
+- [\[ACL 2025\] Personality-Guided Code Generation Using Large Language Models](personality_guided_code_gen.md)
+- [\[ACL 2025\] CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation](codeif_benchmarking_the_instruction-following_capabilities_of_large_language_mod.md)
 - [\[ACL 2025\] GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding](galla_graph_aligned_large_language_models.md)
 - [\[ACL 2025\] Tree-of-Evolution: Tree-Structured Instruction Evolution for Code Generation in Large Language Models](tree_of_evolution_code_gen.md)
 

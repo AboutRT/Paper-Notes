@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17576](https://arxiv.org/abs/2411.17576)  
-**代码**: https://github.com/jovanavidenovic/DAM4SAM  
+**代码**: [https://github.com/jovanavidenovic/DAM4SAM](https://github.com/jovanavidenovic/DAM4SAM)  
 **领域**: 分割 / 视觉目标跟踪  
 **关键词**: SAM2, 干扰物感知记忆, 视觉目标跟踪, 记忆管理, 鲁棒性
 

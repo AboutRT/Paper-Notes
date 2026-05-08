@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 提示学习
   - 微调
-  - 联合优化
+  - LLM评测
   - LoRA
   - 离散-连续优化
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.24245](https://arxiv.org/abs/2509.24245)  
-**代码**: https://github.com/BoXiaohe/MetaTuner  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/BoXiaohe/MetaTuner](https://github.com/BoXiaohe/MetaTuner)  
+**领域**: LLM评测  
 **关键词**: prompt优化, 微调, 联合优化, LoRA, 离散-连续优化
 
 ## 一句话总结

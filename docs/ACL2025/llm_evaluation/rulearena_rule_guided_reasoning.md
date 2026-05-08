@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Long Paper)][rule-guided reasoning] 提出 RuleArena——一个基于航空行李费、NBA交易规则、税务法规三个真实场景的benchmark，用于评估LLM遵循复杂自然语言规则进行推理的能力；实验发现即使最强模型（o1-preview）在最难任务上准确率也不足50%，暴露了LLM在规则召回、规则区分和数学计算三方面的系统性缺陷。
 tags:
   - ACL 2025 (Long Paper)
-  - rule-guided reasoning
+  - LLM评测
   - LLM evaluation
   - real-world benchmark
   - complex instruction following
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025 (Long Paper)  
 **arXiv**: [2412.08972](https://arxiv.org/abs/2412.08972)  
-**代码**: [https://github.com/skyriver-2000/rulearena](https://github.com/skyriver-2000/rulearena) (有)  
+**代码**: [https://github.com/skyriver-2000/rulearena](https://github.com/skyriver-2000/rulearena)  
 **领域**: LLM推理 / Benchmark  
 **关键词**: rule-guided reasoning, LLM evaluation, real-world benchmark, complex instruction following, tool augmentation
 
@@ -121,9 +121,9 @@ RuleArena 不是一个模型方法，而是一个**评估框架**。整体流程
 ## 相关论文
 
 - [\[ACL 2025\] TripTailor: A Real-World Benchmark for Personalized Travel Planning](triptailor_a_real-world_benchmark_for_personalized_travel_planning.md)
-- [\[ICCV 2025\] A Real-world Display Inverse Rendering Dataset](../../ICCV2025/llm_evaluation/a_realworld_display_inverse_rendering_dataset.md)
-- [\[ACL 2025\] AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge](antileakbench_preventing_data_contamination_by_automatically_constructing_benchm.md)
+- [\[ICCV 2025\] PHATNet: A Physics-guided Haze Transfer Network for Domain-adaptive Real-world Image Dehazing](../../ICCV2025/llm_evaluation/phatnet_a_physics-guided_haze_transfer_network_for_domain-adaptive_real-world_im.md)
 - [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](com2_causal_commonsense.md)
+- [\[ACL 2025\] AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge](antileakbench_preventing_data_contamination_by_automatically_constructing_benchm.md)
 - [\[ACL 2025\] HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning](hellaswag-pro_a_large-scale_bilingual_benchmark_for_evaluating_the_robustness_of.md)
 
 <!-- RELATED:END -->

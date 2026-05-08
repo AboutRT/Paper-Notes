@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.02216](https://arxiv.org/abs/2511.02216)  
 **代码**: 无  
-**领域**: signal_comm / reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: URLLC, cooperative transmission, deep reinforcement learning, 5G NR, dual-agent DQN  
 
 ## 一句话总结
@@ -133,9 +133,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Deep RL Needs Deep Behavior Analysis: Exploring Implicit Planning by Model-Free Agents](deep_rl_needs_deep_behavior_analysis_exploring_implicit_planning_by_model-free_a.md)
+- [\[NeurIPS 2025\] Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning](counteractive_rl_rethinking_core_principles_for_efficient_and_scalable_deep_rein.md)
 - [\[NeurIPS 2025\] Scalable Neural Incentive Design with Parameterized Mean-Field Approximation](scalable_neural_incentive_design_with_parameterized_mean-field_approximation.md)
-- [\[NeurIPS 2025\] DeepDiver: Adaptive Search Intensity Scaling via Open-Web Reinforcement Learning](deepdiver_adaptive_search_intensity_scaling_via_open-web_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning](mean-field_sampling_for_cooperative_multi-agent_reinforcement_learning.md)
-- [\[ICML 2025\] LEAST: The Courage to Stop — Overcoming Sunk Cost Fallacy in Deep RL](../../ICML2025/reinforcement_learning/the_courage_to_stop_overcoming_sunk_cost_fallacy_in_deep_reinforcement_learning.md)
+- [\[NeurIPS 2025\] CORE: Constraint-Aware One-Step Reinforcement Learning for Simulation-Guided Neural Network Accelerator Design](core_constraint-aware_one-step_reinforcement_learning_for_simulation-guided_neur.md)
+- [\[NeurIPS 2025\] Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning](empirical_study_on_robustness_and_resilience_in_cooperative_multi-agent_reinforc.md)
 
 <!-- RELATED:END -->

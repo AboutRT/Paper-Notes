@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Training Large Language Models To Reason In Parallel With Global Forking Tokens
 description: >-
-  [ICLR2026][parallel reasoning] 提出 Set Supervised Fine-Tuning (SSFT)，通过二分图匹配将全局分叉令牌 (global forking tokens) 与多样推理轨迹对齐，使 LLM 能从单个控制令牌全局引导不同推理模式，在数学推理和代码生成任务上显著优于标准 SFT 和 GRPO。
+  [ICLR2026][代码智能] 提出 Set Supervised Fine-Tuning (SSFT)，通过二分图匹配将全局分叉令牌 (global forking tokens) 与多样推理轨迹对齐，使 LLM 能从单个控制令牌全局引导不同推理模式，在数学推理和代码生成任务上显著优于标准 SFT 和 GRPO。
 tags:
   - ICLR2026
-  - parallel reasoning
+  - 代码智能
   - global forking tokens
   - set supervised fine-tuning
   - bipartite matching
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.05132](https://arxiv.org/abs/2510.05132)  
 **代码**: [Sheng-J/SSFT](https://github.com/Sheng-J/SSFT)  
-**领域**: llm_alignment  
+**领域**: 代码智能  
 **关键词**: parallel reasoning, global forking tokens, set supervised fine-tuning, bipartite matching, test-time compute
 
 ## 一句话总结
@@ -148,10 +148,10 @@ $$\mathcal{L}_{\text{Hungarian}}(\boldsymbol{\theta}) = -\mathbb{E}_{\mathbf{x},
 
 ## 相关论文
 
-- [\[ICLR 2026\] DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models](dro-instructzero_distributionally_robust_prompt_optimization_for_large_language_.md)
-- [\[ICLR 2026\] Learning to Reason without External Rewards](learning_to_reason_without_external_rewards.md)
+- [\[ICLR 2026\] DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models](dro-instructzero_distributionally_robust_prompt_optimization_for_instruction_fol.md)
 - [\[ICLR 2026\] DiaBlo: Diagonal Blocks Are Sufficient For Finetuning](diablo_diagonal_blocks_are_sufficient_for_finetuning.md)
+- [\[ICLR 2026\] Learning to Reason without External Rewards](learning_to_reason_without_external_rewards.md)
 - [\[AAAI 2026\] SPAN: Benchmarking and Improving Cross-Calendar Temporal Reasoning of Large Language Models](../../AAAI2026/code_intelligence/span_benchmarking_and_improving_cross-calendar_temporal_reasoning_of_large_langu.md)
-- [\[ACL 2026\] KoCo-Bench: Can Large Language Models Leverage Domain Knowledge in Software Development?](../../ACL2026/code_intelligence/koco-bench_can_large_language_models_leverage_domain_knowledge_in_software_devel.md)
+- [\[AAAI 2026\] EquaCode: A Multi-Strategy Jailbreak Approach for Large Language Models via Equation Solving and Code Completion](../../AAAI2026/code_intelligence/equacode_a_multi-strategy_jailbreak_approach_for_large_language_models_via_equat.md)
 
 <!-- RELATED:END -->

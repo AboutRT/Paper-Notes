@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.00874](https://arxiv.org/abs/2602.00874)  
 **代码**: 无  
-**领域**: llm_nlp  
+**领域**: 物理学  
 **关键词**: 量子计算, Attention 近似, 亚线性算法, Nyström 近似, 量子采样  
 **作者**: Zhao Song (UC Berkeley/Simons), Jianfei Xue (NYU), Jiahao Zhang, Lichen Zhang (MIT)
 

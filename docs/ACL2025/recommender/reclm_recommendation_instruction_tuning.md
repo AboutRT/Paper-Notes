@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.19302](https://arxiv.org/abs/2412.19302)  
-**代码**: https://github.com/HKUDS/RecLM (有)  
+**代码**: [https://github.com/HKUDS/RecLM](https://github.com/HKUDS/RecLM)  
 **领域**: 推荐系统 / LLM  
 **关键词**: 推荐系统, 指令微调, 协同过滤, 冷启动, 强化学习, 用户画像
 
@@ -130,10 +130,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] MIRA: Empowering One-Touch AI Services on Smartphones with MLLM-based Instruction Recommendation](mira_empowering_one-touch_ai_services_on_smartphones_with_mllm-based_instruction.md)
 - [\[ACL 2025\] Laser: Bi-Tuning with Collaborative Information for Controllable LLM-Based Sequential Recommendation](bi-tuning_with_collaborative_information_for_controllable_llm-based_sequential_r.md)
 - [\[ACL 2025\] GRAM: Generative Recommendation via Semantic-aware Multi-granular Late Fusion](gram_generative_recommendation.md)
 - [\[NeurIPS 2025\] Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning](../../NeurIPS2025/recommender/overcoming_sparsity_artifacts_in_crosscoders_to_interpret_chat-tuning.md)
+- [\[ACL 2025\] KERL: Knowledge-Enhanced Personalized Recipe Recommendation using Large Language Models](kerl_knowledge-enhanced_personalized_recipe_recommendation_using_large_language_.md)
 - [\[NeurIPS 2025\] Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning](../../NeurIPS2025/recommender/transformer_copilot_learning_from_the_mistake_log_in_llm_fine-tuning.md)
 
 <!-- RELATED:END -->

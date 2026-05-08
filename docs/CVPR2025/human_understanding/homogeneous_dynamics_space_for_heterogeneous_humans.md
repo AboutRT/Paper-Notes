@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.06146](https://arxiv.org/abs/2412.06146)  
-**代码**: https://foruck.github.io/HDyS  
+**代码**: [https://foruck.github.io/HDyS](https://foruck.github.io/HDyS)  
 **领域**: 人体理解  
 **关键词**: 人体动力学, 异构表征统一, 逆动力学, 前向动力学, 跨域对齐
 
@@ -139,10 +139,10 @@ HDyS 是由多个自编码器组成的聚合架构，对应逆动力学和前向
 
 ## 相关论文
 
-- [\[ICML 2025\] A Generalizable Physics-Enhanced State Space Model for Long-Term Dynamics Forecasting in Complex Environments](../../ICML2025/human_understanding/a_generalizable_physics-enhanced_state_space_model_for_long-term_dynamics_foreca.md)
-- [\[CVPR 2025\] HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation](hop_heterogeneous_topology-based_multimodal_entanglement_for_co-speech_gesture_g.md)
+- [\[CVPR 2025\] ESC: Erasing Space Concept for Knowledge Deletion](esc_erasing_space_concept_for_knowledge_deletion.md)
 - [\[NeurIPS 2025\] BEDLAM2.0: Synthetic Humans and Cameras in Motion](../../NeurIPS2025/human_understanding/bedlam20_synthetic_humans_and_cameras_in_motion.md)
-- [\[CVPR 2025\] Learning Phase Distortion with Selective State Space Models for Video Turbulence Mitigation](learning_phase_distortion_with_selective_state_space_models_for_video_turbulence.md)
-- [\[ICML 2025\] Reactivation: Empirical NTK Dynamics Under Task Shifts](../../ICML2025/human_understanding/reactivation_empirical_ntk_dynamics_under_task_shifts.md)
+- [\[NeurIPS 2025\] HOI-Dyn: Learning Interaction Dynamics for Human-Object Motion Diffusion](../../NeurIPS2025/human_understanding/hoi-dyn_learning_interaction_dynamics_for_human-object_motion_diffusion.md)
+- [\[CVPR 2026\] LaScA: Language-Conditioned Scalable Modelling of Affective Dynamics](../../CVPR2026/human_understanding/lasca_language-conditioned_scalable_modelling_of_affective_dynamics.md)
+- [\[ICCV 2025\] Weakly Supervised Visible-Infrared Person Re-Identification via Heterogeneous Expert Collaborative Consistency Learning](../../ICCV2025/human_understanding/weakly_supervised_visible-infrared_person_re-identification_via_heterogeneous_ex.md)
 
 <!-- RELATED:END -->

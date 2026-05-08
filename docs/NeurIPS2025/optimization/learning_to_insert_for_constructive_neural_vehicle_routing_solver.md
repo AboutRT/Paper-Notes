@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.13904](https://arxiv.org/abs/2505.13904)  
-**代码**: [GitHub](https://github.com/CIAM-Group/L2C_Insert) (有)  
-**领域**: Optimization / 组合优化  
+**代码**: [GitHub](https://github.com/CIAM-Group/L2C_Insert)  
+**领域**: 优化  
 **关键词**: 车辆路径问题, 神经组合优化, 插入式构造, TSP, CVRP
 
 ## 一句话总结

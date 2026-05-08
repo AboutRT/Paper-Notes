@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.08617](https://arxiv.org/abs/2604.08617)  
 **代码**: 无  
-**领域**: 联邦学习 / 持续学习  
+**领域**: 其他  
 **关键词**: federated continual learning, exemplar replay, equiangular tight frame, geometric correction, class imbalance
 
 ## 一句话总结
@@ -100,6 +100,6 @@ L = L_CLS + λ · L_GSA。L_CLS 使用 ETF 原型与特征的相似度作为 log
 - [\[CVPR 2026\] Deconstructing the Failure of Ideal Noise Correction: A Three-Pillar Diagnosis](deconstructing_the_failure_of_ideal_noise_correcti.md)
 - [\[ICLR 2026\] Federated ADMM from Bayesian Duality](../../ICLR2026/others/federated_admm_from_bayesian_duality.md)
 - [\[CVPR 2026\] POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction](polishing_the_sky_widefield_and_highdynamic_range.md)
-- [\[CVPR 2026\] ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
+- [\[CVPR 2025\] Subnet-Aware Dynamic Supernet Training for Neural Architecture Search](../../CVPR2025/others/subnet-aware_dynamic_supernet_training_for_neural_architecture_search.md)
 
 <!-- RELATED:END -->

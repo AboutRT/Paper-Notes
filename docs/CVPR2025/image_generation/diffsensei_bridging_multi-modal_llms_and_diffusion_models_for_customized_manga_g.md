@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.07589](https://arxiv.org/abs/2412.07589)  
-**代码**: https://jianzongwu.github.io/projects/diffsensei/ (项目页)  
+**代码**: [https://jianzongwu.github.io/projects/diffsensei/](https://jianzongwu.github.io/projects/diffsensei/) (项目页)  
 **领域**: 图像生成  
 **关键词**: 漫画生成, 扩散模型, MLLM, 角色定制, MangaZero
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.23352](https://arxiv.org/abs/2506.23352)  
 **代码**: [snskysk/GeoProg3D](https://snskysk.github.io/GeoProg3D/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D语言场, 城市级场景, 视觉编程, 组合推理, 地理信息
 
 ## 一句话总结

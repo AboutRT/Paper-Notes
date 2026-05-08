@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2507.15037](https://arxiv.org/abs/2507.15037)  
 **代码**: [GitHub](https://github.com/Jerome-Young/OmniVTON)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: virtual try-on, training-free, diffusion model, garment warping, pose alignment  
 
 ## 一句话总结

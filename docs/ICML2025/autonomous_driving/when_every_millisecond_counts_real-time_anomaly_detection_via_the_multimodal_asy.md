@@ -54,20 +54,20 @@ tags:
 
 1. **异步事件图构建与处理**: 事件相机输出事件流 $E = \{e_i = (x_i, t_i, p_i)\}$，其中 $x_i$ 为像素坐标、$t_i$ 为时间戳、$p_i \in \{-1, 1\}$ 为极性。亮度变化超过阈值 $C$ 时触发：$|\Delta L| > C$。将事件建模为图节点，归一化时空坐标 $\hat{x}_i = (u_i/W, y_i/H)$，$\hat{t}_i = \beta t_i$，基于时空邻近性建边（半径 $R$ 内，每节点最多 16 个邻居）。使用 DAGr（Deep Asynchronous GNN）的残差图卷积层和样条卷积处理：
 
-   $$f_i' = W_c f_i + \sum_{j \in \mathcal{N}(i)} W(e_{ij}) f_j$$
+    $f_i' = W_c f_i + \sum_{j \in \mathcal{N}(i)} W(e_{ij}) f_j$
 
    样条卷积通过查找表加速推理，时间复杂度远低于标准注意力机制。设计动机：保留事件流的异步稀疏特性，避免将事件聚合为帧表示带来的信息损失和延迟。
 
 2. **单向多模态融合（CNN→GNN）**: 将 CNN 中间层特征图 $G_I = \{g_I^l\}_{l=1}^L$ 通过空间采样增强 GNN 节点特征：
 
-   $$f_i' = [f_i, g_I(\hat{x}_i)]$$
+    $f_i' = [f_i, g_I(\hat{x}_i)]$
 
    即在每个事件节点的空间位置采样对应 CNN 特征进行拼接。关键设计是**单向共享**——仅 CNN 特征流向 GNN，GNN 不反馈到 CNN。设计动机：在事件稀疏场景（如静止或慢速运动时几乎无事件产生）中，RGB 特征可弥补事件信息不足；同时避免双向通信增加计算延迟。
 
 3. **时空关系学习与注意力异常检测**: 对每个检测目标 $i$，提取事件特征 $o_{t,i} = \text{AsyncGNN}(E_{t,i}; \theta_{\text{GNN}})$ 和 CNN 特征 $g_{t,i}$，拼接后降维得到融合特征 $f_{t,i}$。分别用两个 GRU 建模时序依赖：
 
-   $$h_{b,t,i} = \text{GRU}(b_{t,i}, h_{b,t-1,i}; \theta_1)$$
-   $$h_{f,t,i} = \text{GRU}(f_{t,i}, h_{f,t-1,i}; \theta_2)$$
+    $h_{b,t,i} = \text{GRU}(b_{t,i}, h_{b,t-1,i}; \theta_1)$
+    $h_{f,t,i} = \text{GRU}(f_{t,i}, h_{f,t-1,i}; \theta_2)$
 
    其中 $b_{t,i}$ 为边界框特征，$f_{t,i}$ 为融合特征。注意力机制动态分配目标权重：$\alpha_{b,t} = \text{softmax}(\tanh(H_{b,t}^\top w_b))$，使模型聚焦于潜在异常目标。最终风险评分：$s_{t,i} = \text{softmax}(\phi(\hat{h}_{t,i}; \theta_3))$。
 

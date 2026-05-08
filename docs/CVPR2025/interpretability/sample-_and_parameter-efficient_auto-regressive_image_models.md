@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.15648](https://arxiv.org/abs/2411.15648)  
 **代码**: [github.com/elad-amrani/xtra](https://github.com/elad-amrani/xtra)  
-**领域**: 模型压缩 / 自监督学习  
+**领域**: 可解释性  
 **关键词**: 自回归图像模型, 样本效率, 参数效率, Block Causal Mask, 视觉表示学习
 
 ## 一句话总结

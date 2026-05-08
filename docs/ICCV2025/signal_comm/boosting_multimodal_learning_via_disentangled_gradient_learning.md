@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Boosting Multimodal Learning via Disentangled Gradient Learning
 description: >-
-  [ICCV 2025][多模态学习] 本文揭示了多模态学习中模态编码器和融合模块之间的优化冲突——融合模块会抑制回传到各模态编码器的梯度，导致即使是优势模态也比单模态模型表现差，并提出解耦梯度学习（DGL）框架通过截断融合模块到编码器的梯度并用独立的单模态损失替代来解决此问题。
+  [ICCV 2025][信号通信] 本文揭示了多模态学习中模态编码器和融合模块之间的优化冲突——融合模块会抑制回传到各模态编码器的梯度，导致即使是优势模态也比单模态模型表现差，并提出解耦梯度学习（DGL）框架通过截断融合模块到编码器的梯度并用独立的单模态损失替代来解决此问题。
 tags:
   - ICCV 2025
-  - 多模态学习
+  - 信号通信
   - 梯度解耦
   - 模态欠优化
   - 梯度调制
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.10213](https://arxiv.org/abs/2507.10213)  
-**代码**: https://github.com/shicaiwei123/ICCV2025-GDL  
-**领域**: 多模态学习  
+**代码**: [https://github.com/shicaiwei123/ICCV2025-GDL](https://github.com/shicaiwei123/ICCV2025-GDL)  
+**领域**: 信号通信  
 **关键词**: 多模态学习, 梯度解耦, 模态欠优化, 梯度调制, 融合模块优化
 
 ## 一句话总结
@@ -135,10 +135,10 @@ DGL在标准多模态模型的基础上做了三个梯度操作（如Fig.2所示
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Feature-aware Modulation for Learning from Temporal Tabular Data](../../NeurIPS2025/signal_comm/feature-aware_modulation_for_learning_from_temporal_tabular_data.md)
 - [\[ICLR 2026\] Learning Molecular Chirality via Chiral Determinant Kernels](../../ICLR2026/signal_comm/learning_molecular_chirality_via_chiral_determinant_kernels.md)
-- [\[ACL 2026\] UCS: Estimating Unseen Coverage for Improved In-Context Learning](../../ACL2026/signal_comm/ucs_estimating_unseen_coverage_for_improved_in-context_learning.md)
+- [\[NeurIPS 2025\] Feature-aware Modulation for Learning from Temporal Tabular Data](../../NeurIPS2025/signal_comm/feature-aware_modulation_for_learning_from_temporal_tabular_data.md)
 - [\[ICML 2025\] Large Language Model (LLM)-enabled In-context Learning for Wireless Network Optimization](../../ICML2025/signal_comm/large_language_model_llm-enabled_in-context_learning_for_wireless_network_optimi.md)
 - [\[NeurIPS 2025\] Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning](../../NeurIPS2025/signal_comm/contrastive_consolidation_of_top-down_modulations_achieves_sparsely_supervised_c.md)
+- [\[NeurIPS 2025\] Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](../../NeurIPS2025/signal_comm/multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)
 
 <!-- RELATED:END -->

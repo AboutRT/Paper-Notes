@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.13814](https://arxiv.org/abs/2506.13814)  
-**代码**: https://ubc-aamodt-group.github.io/reframe-layer-caching/  
-**领域**: 模型压缩 / 推理加速  
+**代码**: [https://ubc-aamodt-group.github.io/reframe-layer-caching/](https://ubc-aamodt-group.github.io/reframe-layer-caching/)  
+**领域**: 图像生成  
 **关键词**: 层缓存, 实时渲染, U-Net, 帧间一致性, 推理加速
 
 ## 一句话总结

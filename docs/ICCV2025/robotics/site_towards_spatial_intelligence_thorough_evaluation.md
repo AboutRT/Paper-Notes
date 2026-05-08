@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV2025  
 **arXiv**: [2505.05456](https://arxiv.org/abs/2505.05456)  
-**代码**: https://github.com/SITE-project-page (待确认)  
+**代码**: [https://github.com/SITE-project-page](https://github.com/SITE-project-page) (待确认)  
 **领域**: 机器人 / 空间智能 / VLM评测  
 **关键词**: 空间智能, VLM基准测试, 多视角推理, 认知科学, 具身AI
 
@@ -146,10 +146,10 @@ Pearson 相关系数 $r = 0.902$，表明空间智能得分与机器人操控能
 
 ## 相关论文
 
-- [\[ICLR 2026\] On the Generalization Capacities of MLLMs for Spatial Intelligence](../../ICLR2026/robotics/on_the_generalization_capacities_of_mllms_for_spatial_intelligence.md)
 - [\[NeurIPS 2025\] RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation](../../NeurIPS2025/robotics/robocerebra_a_large-scale_benchmark_for_long-horizon_robotic_manipulation_evalua.md)
-- [\[NeurIPS 2025\] Rethinking the Simulation vs. Rendering Dichotomy: No Free Lunch in Spatial World Modelling](../../NeurIPS2025/robotics/rethinking_the_simulation_vs_rendering_dichotomy_no_free_lunch_in_spatial_world_.md)
 - [\[NeurIPS 2025\] Learning Spatial-Aware Manipulation Ordering](../../NeurIPS2025/robotics/learning_spatial-aware_manipulation_ordering.md)
-- [\[NeurIPS 2025\] MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents](../../NeurIPS2025/robotics/mineanybuild_benchmarking_spatial_planning_for_openworld_ai.md)
+- [\[ICLR 2026\] From Spatial to Actions: Grounding Vision-Language-Action Model in Spatial Foundation Priors](../../ICLR2026/robotics/from_spatial_to_actions_grounding_vision-language-action_model_in_spatial_founda.md)
+- [\[CVPR 2026\] ManipArena: Comprehensive Real-world Evaluation of Reasoning-Oriented Generalist Robot Manipulation](../../CVPR2026/robotics/maniparena_comprehensive_real-world_evaluation_of_reasoning-oriented_generalist_.md)
+- [\[NeurIPS 2025\] Rethinking the Simulation vs. Rendering Dichotomy: No Free Lunch in Spatial World Modelling](../../NeurIPS2025/robotics/rethinking_the_simulation_vs_rendering_dichotomy_no_free_lunch_in_spatial_world_.md)
 
 <!-- RELATED:END -->

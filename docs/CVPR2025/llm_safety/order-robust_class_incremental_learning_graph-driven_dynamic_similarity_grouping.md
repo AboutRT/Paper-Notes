@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.20032](https://arxiv.org/abs/2502.20032)  
-**代码**: https://github.com/AIGNLAI/GDDSG (有)  
-**领域**: 其他 / 持续学习  
+**代码**: [https://github.com/AIGNLAI/GDDSG](https://github.com/AIGNLAI/GDDSG)  
+**领域**: LLM安全  
 **关键词**: 类增量学习, 图着色, 顺序鲁棒, 相似度分组, NCM分类器
 
 ## 一句话总结
@@ -96,10 +96,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Low-Rank Adaptation in Multilinear Operator Networks for Security-Preserving Incremental Learning](low-rank_adaptation_in_multilinear_operator_networks_for_security-preserving_inc.md)
 - [\[ACL 2025\] Faithful and Robust LLM-Driven Theorem Proving for NLI Explanations](../../ACL2025/llm_safety/faithful_and_robust_llm-driven_theorem_proving_for_nli_explanations.md)
 - [\[AAAI 2026\] CATFormer: When Continual Learning Meets Spiking Transformers With Dynamic Thresholds](../../AAAI2026/llm_safety/catformer_when_continual_learning_meets_spiking_transformers_with_dynamic_thresh.md)
 - [\[NeurIPS 2025\] TRUST -- Transformer-Driven U-Net for Sparse Target Recovery](../../NeurIPS2025/llm_safety/trust_--_transformer-driven_u-net_for_sparse_target_recovery.md)
-- [\[ICCV 2025\] Adversarial Robust Memory-Based Continual Learner](../../ICCV2025/llm_safety/adversarial_robust_memory-based_continual_learner.md)
-- [\[ACL 2025\] Core: Robust Factual Precision with Informative Sub-Claim Identification](../../ACL2025/llm_safety/core_robust_factual_precision_with_informative_sub-claim_identification.md)
+- [\[AAAI 2026\] Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting](../../AAAI2026/llm_safety/learning_from_the_undesirable_robust_adaptation_of_language_models_without_forge.md)
 
 <!-- RELATED:END -->

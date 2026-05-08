@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 图像恢复
-  - 扩散多模态模型
+  - 图像复原
   - 类激活映射
   - 视觉解释
   - 可解释AI
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.11005](https://arxiv.org/abs/2604.11005)  
 **代码**: [GitHub](https://github.com/ZzzzzZhhmm/Diffusion-CAM)  
-**领域**: 可解释性  
+**领域**: 图像复原  
 **关键词**: 扩散多模态模型, 类激活映射, 视觉解释, 可解释AI, 并行生成
 
 ## 一句话总结
@@ -116,9 +116,9 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Visual-Instructed Degradation Diffusion for All-in-One Image Restoration](../../CVPR2025/image_restoration/visual-instructed_degradation_diffusion_for_all-in-one_image_restoration.md)
 - [\[CVPR 2025\] Prior Does Matter: Visual Navigation via Denoising Diffusion Bridge Models](../../CVPR2025/image_restoration/prior_does_matter_visual_navigation_via_denoising_diffusion_bridge_models.md)
 - [\[ACL 2026\] Lost in Diffusion: Uncovering Hallucination Patterns and Failure Modes in Diffusion Large Language Models](lost_in_diffusion_uncovering_hallucination_patterns_and_failure_modes_in_diffusi.md)
+- [\[CVPR 2025\] Visual-Instructed Degradation Diffusion for All-in-One Image Restoration](../../CVPR2025/image_restoration/visual-instructed_degradation_diffusion_for_all-in-one_image_restoration.md)
 - [\[ICML 2025\] ε-VAE: Denoising as Visual Decoding](../../ICML2025/image_restoration/epsilon-vae_denoising_as_visual_decoding.md)
 - [\[CVPR 2026\] Blink: Dynamic Visual Token Resolution for Enhanced Multimodal Understanding](../../CVPR2026/image_restoration/blink_dynamic_visual_token_resolution_for_enhanced_multimodal_understanding.md)
 

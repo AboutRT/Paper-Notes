@@ -2,10 +2,10 @@
 title: >-
   [论文解读] UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting
 description: >-
-  [CVPR 2026][开放集缺陷检测] 本文提出 UniSpector 开放集工业缺陷检测框架，通过频域-空域双域特征融合（SSPE）和角度间隔对比提示编码（CPE）解决了视觉提示嵌入崩塌问题，在新构建的包含 360 种缺陷类别的 Inspect Anything benchmark 上，AP50 检测和分割分别比最佳基线高 19.7% 和 15.8%。
+  [CVPR 2026][其他] 本文提出 UniSpector 开放集工业缺陷检测框架，通过频域-空域双域特征融合（SSPE）和角度间隔对比提示编码（CPE）解决了视觉提示嵌入崩塌问题，在新构建的包含 360 种缺陷类别的 Inspect Anything benchmark 上，AP50 检测和分割分别比最佳基线高 19.7% 和 15.8%。
 tags:
   - CVPR 2026
-  - 开放集缺陷检测
+  - 其他
   - 频域特征
   - 对比提示编码
   - 视觉提示
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.02905](https://arxiv.org/abs/2604.02905)  
-**代码**: https://geonuk-kimmm.github.io/UniSpector  
-**领域**: 目标检测  
+**代码**: [https://geonuk-kimmm.github.io/UniSpector](https://geonuk-kimmm.github.io/UniSpector)  
+**领域**: 其他  
 **关键词**: 开放集缺陷检测、频域特征、对比提示编码、视觉提示、工业质检
 
 ## 一句话总结
@@ -124,7 +124,7 @@ CPE 角度间隔对比损失 + 标准检测/分割损失。缩放因子 $\alpha$
 - [\[ECCV 2024\] Operational Open-Set Recognition and PostMax Refinement](../../ECCV2024/others/operational_open-set_recognition_and_postmax_refinement.md)
 - [\[CVPR 2026\] HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition](hypevpr_exploring_hyperbolic_space_for_perspective_to_equirectangular_visual_pla.md)
 - [\[CVPR 2026\] SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules](shrec_a_spectral_embeddingbased_approach_for_abini.md)
-- [\[CVPR 2026\] Crowdsourcing of Real-world Image Annotation via Visual Properties](crowdsourcing_of_real_world_image_annotation_via_visual_properties.md)
-- [\[ECCV 2024\] Bidirectional Uncertainty-Based Active Learning for Open-Set Annotation](../../ECCV2024/others/bidirectional_uncertainty-based_active_learning_for_open-set_annotation.md)
+- [\[ICCV 2025\] Kaputt: A Large-Scale Dataset for Visual Defect Detection](../../ICCV2025/others/kaputt_a_large-scale_dataset_for_visual_defect_detection.md)
+- [\[CVPR 2025\] Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection](../../CVPR2025/others/distribution_prototype_diffusion_learning_for_open-set_supervised_anomaly_detect.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.16739](https://arxiv.org/abs/2412.16739)  
-**代码**: https://github.com/ZhouLong0/UNEM-Transductive (有)  
+**代码**: [https://github.com/ZhouLong0/UNEM-Transductive](https://github.com/ZhouLong0/UNEM-Transductive)  
 **领域**: 多模态VLM  
 **关键词**: 转导式少样本学习, EM算法展开, 超参数学习, CLIP, Dirichlet分布
 

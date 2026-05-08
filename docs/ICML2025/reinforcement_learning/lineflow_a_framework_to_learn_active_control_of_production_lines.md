@@ -8,7 +8,7 @@ tags:
   - production line control
   - reinforcement-learning
   - discrete-event simulation
-  - manufacturing optimization
+  - 强化学习
   - open-source framework
 ---
 
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2505.06744](https://arxiv.org/abs/2505.06744)  
 **代码**: [hs-kempten/lineflow](https://github.com/hs-kempten/lineflow)  
 **作者**: Kai Müller, Martin Wenzel, Tobias Windisch
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: production line control, reinforcement-learning, discrete-event simulation, manufacturing optimization, open-source framework
 
 ## 一句话总结
@@ -185,10 +185,10 @@ $$R(s_t, \pi(s_{t-1})) = C_\pi(T_{\text{step}} \cdot (t+1)) - C_\pi(T_{\text{ste
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](../../NeurIPS2025/reinforcement_learning/succeed_or_learn_slowly_sample_efficient_off-policy_reinforcement_learning_for_m.md)
 - [\[ICML 2025\] Learning Mean Field Control on Sparse Graphs](learning_mean_field_control_on_sparse_graphs.md)
-- [\[ICML 2025\] Stochastic Encodings for Active Feature Acquisition](stochastic_encodings_for_active_feature_acquisition.md)
 - [\[ICML 2025\] SENSEI: Semantic Exploration Guided by Foundation Models to Learn Versatile World Models](sensei_semantic_exploration_guided_by_foundation_models_to_learn_versatile_world.md)
-- [\[NeurIPS 2025\] Shift Before You Learn: Enabling Low-Rank Representations in Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/shift_before_you_learn_enabling_low-rank_representations_in_reinforcement_learni.md)
-- [\[ICLR 2026\] APPLE: Toward General Active Perception via Reinforcement Learning](../../ICLR2026/reinforcement_learning/apple_toward_general_active_perception_via_reinforcement_learning.md)
+- [\[ICML 2025\] Stochastic Encodings for Active Feature Acquisition](stochastic_encodings_for_active_feature_acquisition.md)
+- [\[NeurIPS 2025\] Real-World Reinforcement Learning of Active Perception Behaviors](../../NeurIPS2025/reinforcement_learning/real-world_reinforcement_learning_of_active_perception_behaviors.md)
 
 <!-- RELATED:END -->

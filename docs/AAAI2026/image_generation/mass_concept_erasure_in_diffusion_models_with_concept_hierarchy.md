@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2601.03305](https://arxiv.org/abs/2601.03305)  
 **作者**: Jiahang Tu, Ye Li, Yiming Wu, Hanbin Zhao, Chao Zhang, Hui Qian (浙江大学)  
 **代码**: [GitHub](https://github.com/TtuHamg/SuPLoRA)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 概念擦除, 扩散模型, LoRA, 概念层级, 安全生成  
 
 ## 一句话总结

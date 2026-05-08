@@ -18,7 +18,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.18291](https://arxiv.org/abs/2505.18291)  
-**代码**: https://zifuwan.github.io/InstructPart/ (有)  
+**代码**: [https://zifuwan.github.io/InstructPart/](https://zifuwan.github.io/InstructPart/)  
 **领域**: 分割 / 视觉语言模型  
 **关键词**: 部件分割, 任务导向, 指令推理, VLM, affordance, benchmark
 

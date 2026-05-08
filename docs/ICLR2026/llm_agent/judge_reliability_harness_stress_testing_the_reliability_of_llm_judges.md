@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.05399](https://arxiv.org/abs/2603.05399)  
-**代码**: https://github.com/RANDCorporation/judge-reliability-harness  
-**领域**: AI Safety / LLM 评估  
+**代码**: [https://github.com/RANDCorporation/judge-reliability-harness](https://github.com/RANDCorporation/judge-reliability-harness)  
+**领域**: LLM Agent  
 **关键词**: LLM-as-judge, reliability testing, perturbation robustness, agentic evaluation, benchmark
 
 ## 一句话总结
@@ -132,7 +132,7 @@ JRH 的工作流程：(1) 加载种子数据集并归一化为统一 schema；(2
 - [\[NeurIPS 2025\] It's LIT! Reliability-Optimized LLMs with Inspectable Tools](../../NeurIPS2025/llm_agent/its_lit_reliability-optimized_llms_with_inspectable_tools.md)
 - [\[ICLR 2026\] NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents](newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md)
 - [\[ICLR 2026\] FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](fingertip_20k_a_benchmark_for_proactive_and_personalized_mobile_llm_agents.md)
-- [\[ICLR 2026\] LiveNewsBench: Evaluating LLM Web Search Capabilities with Freshly Curated News](livenewsbench_evaluating_llm_web_search_capabilities_with_fresh_news.md)
+- [\[ICLR 2026\] LiveNewsBench: Evaluating LLM Web Search Capabilities with Freshly Curated News](livenewsbench_evaluating_llm_web_search_capabilities_with_freshly_curated_news.md)
 - [\[ICLR 2026\] A Benchmark for Deep Information Synthesis (DeepSynth)](a_benchmark_for_deep_information_synthesis.md)
 
 <!-- RELATED:END -->

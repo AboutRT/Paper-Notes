@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - Overton多元主义
-  - LLM偏见
+  - LLM评测
   - benchmark
   - 观点覆盖
   - 自动化评估
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2512.01351](https://arxiv.org/abs/2512.01351)  
-**代码**: [https://github.com/elinorpd/overtonbench](https://github.com/elinorpd/overtonbench) (有)  
+**代码**: [https://github.com/elinorpd/overtonbench](https://github.com/elinorpd/overtonbench)  
 **领域**: 人类理解 / LLM对齐 / 多元化表征  
 **关键词**: Overton多元主义, LLM偏见, benchmark, 观点覆盖, 自动化评估
 
@@ -137,9 +137,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Benchmarking LLMs for Political Science: A United Nations Perspective](../../AAAI2026/llm_evaluation/benchmarking_llms_for_political_science_a_united_nations_perspective.md)
-- [\[ICLR 2026\] RankLLM: Weighted Ranking of LLMs by Quantifying Question Difficulty](rankllm_weighted_ranking_of_llms_by_quantifying_question_difficulty.md)
-- [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA](counselbench_llm_mental_health_qa.md)
 - [\[ACL 2025\] WebWalker: Benchmarking LLMs in Web Traversal](../../ACL2025/llm_evaluation/webwalker_benchmarking_llms_in_web_traversal.md)
+- [\[ACL 2026\] ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](../../ACL2026/llm_evaluation/researchbench_benchmarking_llms_in_scientific_discovery_via_inspiration-based_ta.md)
+- [\[ICLR 2026\] PlanetAlign: A Comprehensive Python Library for Benchmarking Network Alignment](planetalign_a_comprehensive_python_library_for_benchmarking_network_alignment.md)
 - [\[ACL 2026\] Do LLMs Overthink Basic Math Reasoning? Benchmarking the Accuracy-Efficiency Tradeoff](../../ACL2026/llm_evaluation/do_llms_overthink_basic_math_reasoning_benchmarking_the_accuracy-efficiency_trad.md)
 
 <!-- RELATED:END -->

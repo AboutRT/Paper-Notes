@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.18705](https://arxiv.org/abs/2503.18705)  
 **代码**: [KAIST-VCLAB/polarns](https://github.com/KAIST-VCLAB/polarns) (开源，含数据集+5个模型代码+预训练权重)  
-**领域**: 3D视觉 / 偏振成像  
+**领域**: 图像复原  
 **关键词**: 偏振成像, Burst超分辨率, 噪声建模, 数据集基准, Stokes参数  
 
 ## 一句话总结
@@ -116,6 +116,6 @@ Burst超分辨率是一种通过融合多帧低分辨率图像来同时降噪和
 - [\[ICCV 2025\] Outlier-Aware Post-Training Quantization for Image Super-Resolution](outlier-aware_post-training_quantization_for_image_super-resolution.md)
 - [\[ICCV 2025\] IM-LUT: Interpolation Mixing Look-Up Tables for Image Super-Resolution](im-lut_interpolation_mixing_look-up_tables_for_image_super-resolution.md)
 - [\[ICCV 2025\] Devil is in the Uniformity: Exploring Diverse Learners within Transformer for Image Restoration](devil_is_in_the_uniformity_exploring_diverse_learners_within_transformer_for_ima.md)
-- [\[ICCV 2025\] EAMamba: Efficient All-Around Vision State Space Model for Image Restoration](eamamba_efficient_all-around_vision_state_space_model_for_image_restoration.md)
+- [\[ICCV 2025\] UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control](uniphys_unified_planner_and_controller_with_diffusion_for_flexible_physics-based.md)
 
 <!-- RELATED:END -->

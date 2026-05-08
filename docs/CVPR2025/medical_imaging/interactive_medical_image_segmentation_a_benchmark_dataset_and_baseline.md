@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.12814](https://arxiv.org/abs/2411.12814)  
-**代码**: https://github.com/uni-medical/IMIS-Bench  
+**代码**: [https://github.com/uni-medical/IMIS-Bench](https://github.com/uni-medical/IMIS-Bench)  
 **领域**: 医学图像 / 交互式分割  
 **关键词**: 交互式医学图像分割, 大规模数据集, SAM微调, 密集标注, 多模态医学影像
 

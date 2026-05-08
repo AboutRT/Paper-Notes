@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 2504.00037  
 **代码**: 未公开  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 跨架构蒸馏, ViT, Mamba, 线性复杂度, 激活匹配, 掩码预测  
 **作者**: Guoyizhe Wei, Rama Chellappa (Johns Hopkins University)
 

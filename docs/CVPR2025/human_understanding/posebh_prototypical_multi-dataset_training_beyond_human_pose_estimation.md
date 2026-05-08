@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.17475](https://arxiv.org/abs/2505.17475)  
-**代码**: https://github.com/uyoung-jeong/PoseBH (有)  
+**代码**: [https://github.com/uyoung-jeong/PoseBH](https://github.com/uyoung-jeong/PoseBH)  
 **领域**: 人体理解 / 姿态估计  
 **关键词**: 多数据集训练, 关键点原型, 跨骨骼迁移, Sinkhorn聚类, 自监督
 
@@ -104,10 +104,10 @@ $\mathcal{L}_{MDT} = \mathcal{L}_{KPL} + \mathcal{L}_{CSS}$。关键点损失包
 
 ## 相关论文
 
-- [\[CVPR 2025\] EgoPressure: A Dataset for Hand Pressure and Pose Estimation in Egocentric Vision](egopressure_a_dataset_for_hand_pressure_and_pose_estimation_in_egocentric_vision.md)
 - [\[CVPR 2025\] HiPART: Hierarchical Pose AutoRegressive Transformer for Occluded 3D Human Pose Estimation](hipart_hierarchical_pose_autoregressive_transformer_for_occluded_3d_human_pose_e.md)
 - [\[ECCV 2024\] WorldPose: A World Cup Dataset for Global 3D Human Pose Estimation](../../ECCV2024/human_understanding/worldpose_a_world_cup_dataset_for_global_3d_human_pose_estimation.md)
-- [\[CVPR 2025\] GCE-Pose: Global Context Enhancement for Category-Level Object Pose Estimation](gce-pose_global_context_enhancement_for_category-level_object_pose_estimation.md)
+- [\[CVPR 2025\] HumanMM: Global Human Motion Recovery from Multi-shot Videos](humanmm_global_human_motion_recovery_from_multi-shot_videos.md)
 - [\[CVPR 2025\] Co-op: Correspondence-based Novel Object Pose Estimation](co-op_correspondence-based_novel_object_pose_estimation.md)
+- [\[CVPR 2025\] GCE-Pose: Global Context Enhancement for Category-Level Object Pose Estimation](gce-pose_global_context_enhancement_for_category-level_object_pose_estimation.md)
 
 <!-- RELATED:END -->

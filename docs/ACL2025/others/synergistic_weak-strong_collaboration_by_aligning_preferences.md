@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 弱强模型协作
-  - 偏好对齐
+  - 其他
   - DPO
   - 知识互补
   - LLM 协作

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.09303](https://arxiv.org/abs/2407.09303)  
-**代码**: [sungmin-woo.github.io/prodepth](https://sungmin-woo.github.io/prodepth/) (有)  
+**代码**: [sungmin-woo.github.io/prodepth](https://sungmin-woo.github.io/prodepth/)  
 **领域**: 3D视觉  
 **关键词**: 自监督深度估计, 多帧单目深度, 概率融合, 代价体调制, 动态物体处理  
 

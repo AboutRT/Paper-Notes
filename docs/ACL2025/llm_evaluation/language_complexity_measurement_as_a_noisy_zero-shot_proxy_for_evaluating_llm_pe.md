@@ -8,7 +8,7 @@ tags:
   - 语言复杂度
   - LIX可读性
   - 依存距离
-  - MMLU代理
+  - LLM评测
   - 零样本评估
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.11578](https://arxiv.org/abs/2502.11578)  
 **代码**: 无  
-**领域**: LLM 评估  
+**领域**: LLM评测  
 **关键词**: 语言复杂度, LIX可读性, 依存距离, MMLU代理, 零样本评估
 
 ## 一句话总结
@@ -126,6 +126,6 @@ tags:
 - [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Model](../../ICLR2026/llm_evaluation/predicting_llm_reasoning_performance_with_small_proxy_model.md)
 - [\[NeurIPS 2025\] Benchmarking Large Language Models for Zero-Shot and Few-Shot Phishing URL Detection](../../NeurIPS2025/llm_evaluation/benchmarking_large_language_models_for_zero-shot_and_few-shot_phishing_url_detec.md)
 - [\[ICCV 2025\] A Conditional Probability Framework for Compositional Zero-shot Learning](../../ICCV2025/llm_evaluation/a_conditional_probability_framework_for_compositional_zero-shot_learning.md)
-- [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
+- [\[ACL 2025\] SANSKRITI: A Comprehensive Benchmark for Evaluating Language Models' Knowledge of Indian Culture](sanskriti_a_comprehensive_benchmark_for_evaluating_language_models_knowledge_of_.md)
 
 <!-- RELATED:END -->

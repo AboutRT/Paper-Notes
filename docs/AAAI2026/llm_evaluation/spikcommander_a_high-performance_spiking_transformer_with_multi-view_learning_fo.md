@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 脉冲神经网络
-  - 语音命令识别
+  - LLM评测
   - Transformer
   - 多视图学习
   - 能效
@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.07883](https://arxiv.org/abs/2511.07883)  
-**代码**: https://github.com/JackieWang9811/SCommander  
+**代码**: [https://github.com/JackieWang9811/SCommander](https://github.com/JackieWang9811/SCommander)  
 **领域**: 脉冲神经网络 / 语音识别  
 **关键词**: 脉冲神经网络, 语音命令识别, 脉冲Transformer, 多视图学习, 能效
 
@@ -124,10 +124,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization](../../NeurIPS2025/llm_evaluation/hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md)
-- [\[NeurIPS 2025\] A High-Dimensional Statistical Method for Optimizing Transfer Quantities in Multi-Source Transfer Learning](../../NeurIPS2025/llm_evaluation/a_highdimensional_statistical_method_for_optimizing_transfer.md)
+- [\[AAAI 2026\] Deep Incomplete Multi-View Clustering via Hierarchical Imputation and Alignment](deep_incomplete_multi-view_clustering_via_hierarchical_imputation_and_alignment.md)
 - [\[AAAI 2026\] DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning](dicap_distribution-calibrated_pseudo-labeling_for_semi-supervised_multi-label_le.md)
-- [\[CVPR 2026\] R2G: A Multi-View Circuit Graph Benchmark Suite from RTL to GDSII](../../CVPR2026/llm_evaluation/r2g_multi_view_circuit_graph_benchmark_suite_from_rtl_to_gdsii.md)
+- [\[ICLR 2026\] Biologically Plausible Online Hebbian Meta-Learning: Two-Timescale Local Rules for Spiking Neural Brain Interfaces](../../ICLR2026/llm_evaluation/biologically_plausible_online_hebbian_meta-learning_two-timescale_local_rules_fo.md)
+- [\[NeurIPS 2025\] Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era](../../NeurIPS2025/llm_evaluation/towards_implicit_aggregation_robust_image_representation_for_place_recognition_i.md)
 - [\[AAAI 2026\] BCWildfire: A Long-term Multi-factor Dataset and Deep Learning Benchmark for Boreal Wildfire Risk Prediction](bcwildfire_a_long-term_multi-factor_dataset_and_deep_learning_benchmark_for_bore.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.10527](https://arxiv.org/abs/2604.10527)  
-**代码**: https://github.com/amazon-science/storm-referring-multi-object-grounding  
+**代码**: [https://github.com/amazon-science/storm-referring-multi-object-grounding](https://github.com/amazon-science/storm-referring-multi-object-grounding)  
 **领域**: 视频理解  
 **关键词**: 指代多目标跟踪, 多模态大语言模型, 任务组合学习, 视频理解, 数据集
 

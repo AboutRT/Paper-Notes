@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024 (Oral)  
 **arXiv**: [2405.20459](https://arxiv.org/abs/2405.20459)  
-**代码**: https://github.com/fiveai/detection_calibration  
+**代码**: [https://github.com/fiveai/detection_calibration](https://github.com/fiveai/detection_calibration)  
 **领域**: 目标检测 / 模型校准  
 **关键词**: 目标检测校准, 后处理校准, D-ECE, Platt Scaling, Isotonic Regression
 

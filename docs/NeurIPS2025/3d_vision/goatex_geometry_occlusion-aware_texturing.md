@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.23051](https://arxiv.org/abs/2511.23051)  
 **代码**: 项目主页有展示，代码待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D纹理生成, 遮挡感知, 扩散模型, UV纹理融合, 多层纹理
 
 ## 一句话总结
@@ -128,7 +128,7 @@ GOATex 完全不需要微调预训练扩散模型，使用预训练的 Stable Di
 - [\[NeurIPS 2025\] GeoComplete: Geometry-Aware Diffusion for Reference-Driven Image Completion](geocomplete_geometry-aware_diffusion_for_reference-driven_image_completion.md)
 - [\[ICCV 2025\] OccluGaussian: Occlusion-Aware Gaussian Splatting for Large Scene Reconstruction and Rendering](../../ICCV2025/3d_vision/occlugaussian_occlusion-aware_gaussian_splatting_for_large_scene_reconstruction_.md)
 - [\[CVPR 2026\] SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation](../../CVPR2026/3d_vision/seethrough3d_occlusion_aware_3d_control_in_text-to-image_generation.md)
-- [\[ICCV 2025\] Geometry Distributions](../../ICCV2025/3d_vision/geometry_distributions.md)
 - [\[CVPR 2025\] RoomTour3D: Geometry-Aware Video-Instruction Tuning for Embodied Navigation](../../CVPR2025/3d_vision/roomtour3d_geometry-aware_video-instruction_tuning_for_embodied_navigation.md)
+- [\[ICCV 2025\] Geometry Distributions](../../ICCV2025/3d_vision/geometry_distributions.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21442](https://arxiv.org/abs/2503.21442)  
-**代码**: https://pku-vcl-geometry.github.io/RainyGS/  
+**代码**: [https://pku-vcl-geometry.github.io/RainyGS/](https://pku-vcl-geometry.github.io/RainyGS/)  
 **领域**: 3D视觉 / 场景编辑  
 **关键词**: 3D高斯溅射, 雨天效果合成, 物理仿真, 浅水方程, 屏幕空间光线追踪
 

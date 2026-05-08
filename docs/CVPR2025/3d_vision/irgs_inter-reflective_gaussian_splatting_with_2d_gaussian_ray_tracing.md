@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.15867](https://arxiv.org/abs/2412.15867)  
-**代码**: https://fudan-zvg.github.io/IRGS  
+**代码**: [https://fudan-zvg.github.io/IRGS](https://fudan-zvg.github.io/IRGS)  
 **领域**: 3D视觉  
 **关键词**: 逆渲染, 高斯泼溅, 光线追踪, 间接光照, 材质估计
 

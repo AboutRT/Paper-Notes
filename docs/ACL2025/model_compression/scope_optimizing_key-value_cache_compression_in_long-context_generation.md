@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Oral)  
 **arXiv**: [2412.13649](https://arxiv.org/abs/2412.13649)  
 **代码**: [https://github.com/Linking-ai/SCOPE](https://github.com/Linking-ai/SCOPE)  
-**领域**: LLM效率  
+**领域**: 模型压缩  
 **关键词**: KV缓存压缩, 长上下文生成, 注意力机制, 推理优化, 内存效率  
 
 ## 一句话总结

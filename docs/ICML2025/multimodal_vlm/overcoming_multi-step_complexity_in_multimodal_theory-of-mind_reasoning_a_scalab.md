@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2506.01301](https://arxiv.org/abs/2506.01301)  
 **作者**: Chunhui Zhang, Zhongyu Ouyang, Kwonjoon Lee, Nakul Agarwal, Sean Dae Houlihan, Soroush Vosoughi, Shao-Yuan Lo
 **代码**: 待确认  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: Theory-of-Mind, Bayesian Inverse Planning, Weak-to-Strong Control, 多模态推理, 心智理论
 
 ## 一句话总结
@@ -194,8 +194,8 @@ ToM 环境要求模型综合处理多种模态信息：
 
 - [\[ICML 2025\] From Black Boxes to Transparent Minds: Evaluating and Enhancing the Theory of Mind in Multimodal Large Language Models](from_black_boxes_to_transparent_minds_evaluating_and_enhancing_the_theory_of_min.md)
 - [\[ICML 2025\] LADA: Scalable Label-Specific CLIP Adapter for Continual Learning](lada_scalable_label-specific_clip_adapter_for_continual_learning.md)
-- [\[ICML 2025\] Graph4MM: Weaving Multimodal Learning with Structural Information](graph4mm_weaving_multimodal_learning_with_structural_information.md)
-- [\[ICML 2025\] RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer](rollingq_reviving_the_cooperation_dynamics_in_multimodal_transformer.md)
 - [\[ICML 2025\] Learning Optimal Multimodal Information Bottleneck Representations](learning_optimal_multimodal_information_bottleneck_representations.md)
+- [\[ICML 2025\] RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer](rollingq_reviving_the_cooperation_dynamics_in_multimodal_transformer.md)
+- [\[ICML 2025\] Graph4MM: Weaving Multimodal Learning with Structural Information](graph4mm_weaving_multimodal_learning_with_structural_information.md)
 
 <!-- RELATED:END -->

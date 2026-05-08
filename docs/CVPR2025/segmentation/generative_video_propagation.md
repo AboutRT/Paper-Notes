@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.19761](https://arxiv.org/abs/2412.19761)  
-**代码**: https://genprop.github.io/  
-**领域**: 视频理解  
+**代码**: [https://genprop.github.io/](https://genprop.github.io/)  
+**领域**: 图像分割  
 **关键词**: 视频传播, 图像到视频生成, 视频编辑, 目标去除, 选择性内容编码
 
 ## 一句话总结
@@ -129,8 +129,8 @@ tags:
 
 - [\[CVPR 2025\] MatAnyone: Stable Video Matting with Consistent Memory Propagation](matanyone_stable_video_matting_with_consistent_memory_propagation.md)
 - [\[CVPR 2025\] GleSAM: Segment Any-Quality Images with Generative Latent Space Enhancement](segment_any-quality_images_with_generative_latent_space_enhancement.md)
+- [\[CVPR 2025\] Condensing Action Segmentation Datasets via Generative Network Inversion](condensing_action_segmentation_datasets_via_generative_network_inversion.md)
 - [\[CVPR 2025\] Using Diffusion Priors for Video Amodal Segmentation](using_diffusion_priors_for_video_amodal_segmentation.md)
-- [\[ICML 2025\] ActionPiece: Contextually Tokenizing Action Sequences for Generative Recommendation](../../ICML2025/segmentation/actionpiece_contextually_tokenizing_action_sequences_for_generative_recommendati.md)
 - [\[CVPR 2025\] LiVOS: Light Video Object Segmentation with Gated Linear Matching](livos_light_video_object_segmentation_with_gated_linear_matching.md)
 
 <!-- RELATED:END -->

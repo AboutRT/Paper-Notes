@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.19589](https://arxiv.org/abs/2403.19589)  
-**代码**: https://github.com/jxbbb/TOD3Cap  
+**代码**: [https://github.com/jxbbb/TOD3Cap](https://github.com/jxbbb/TOD3Cap)  
 **领域**: 自动驾驶 / 3D视觉-语言  
 **关键词**: 3D dense captioning, outdoor scenes, BEV, Relation Q-Former, LLaMA-Adapter
 
@@ -47,31 +47,31 @@ TOD3Cap 网络分三个阶段：(1) BEV 检测器从 LiDAR 点云和多视角图
 ### 关键设计
 
 #### 1. **BEV 检测器 (BEV-based Detector)**
-   - 功能：融合多视角图像和 LiDAR 点云到统一 BEV 空间，生成物体提议
-   - 核心思路：
-     - **图像分支**：可学习 BEV 查询 $Q_c \in \mathbb{R}^{H_b \times W_b \times C}$，通过空间交叉注意力聚合多视角图像特征：$F_c = \text{Spatial-Cross-Attention}(Q_c, \text{Backbone}(I))$
-     - **时序融合**：BEV 查询与前一时刻 BEV 特征 $F_c^p$ 通过时序自注意力交互：$Q_c' = \text{Temporal-Self-Attention}(Q_c, F_c^p)$，用于建模物体运动
-     - **LiDAR 分支**：体素化 → 骨干网络 → 高度维展平得到 $F_l \in \mathbb{R}^{H_b \times W_b \times C}$
-     - **融合**：卷积融合模块合并两个模态的 BEV 特征得到 $F_b$
-     - **提议生成**：DETR 风格的查询式检测头生成 $K$ 个物体提议 $\hat{B} = \{\hat{B}_i\}_{i=1}^K \in \mathbb{R}^{K \times D}$
-   - 设计动机：BEV 表示已在户外 3D 检测中证明高效（BEVFormer、BEVFusion）；时序融合对建模户外动态场景至关重要
+    - 功能：融合多视角图像和 LiDAR 点云到统一 BEV 空间，生成物体提议
+    - 核心思路：
+      - **图像分支**：可学习 BEV 查询 $Q_c \in \mathbb{R}^{H_b \times W_b \times C}$，通过空间交叉注意力聚合多视角图像特征：$F_c = \text{Spatial-Cross-Attention}(Q_c, \text{Backbone}(I))$
+      - **时序融合**：BEV 查询与前一时刻 BEV 特征 $F_c^p$ 通过时序自注意力交互：$Q_c' = \text{Temporal-Self-Attention}(Q_c, F_c^p)$，用于建模物体运动
+      - **LiDAR 分支**：体素化 → 骨干网络 → 高度维展平得到 $F_l \in \mathbb{R}^{H_b \times W_b \times C}$
+      - **融合**：卷积融合模块合并两个模态的 BEV 特征得到 $F_b$
+      - **提议生成**：DETR 风格的查询式检测头生成 $K$ 个物体提议 $\hat{B} = \{\hat{B}_i\}_{i=1}^K \in \mathbb{R}^{K \times D}$
+    - 设计动机：BEV 表示已在户外 3D 检测中证明高效（BEVFormer、BEVFusion）；时序融合对建模户外动态场景至关重要
 
 #### 2. **Relation Q-Former**
-   - 功能：提取每个物体的上下文感知特征，建模物体间关系
-   - 核心思路：
-     - 物体提议 $\hat{B}$ 通过可学习 MLP 编码为与 $F_b$ 相同维度的特征
-     - 拼接物体特征和 BEV 特征，送入由多层自注意力构成的 Relation Q-Former 进行特征交互
-     - $Q_B = \text{Relation Q-Former}(\text{MLP}(\hat{B}), F_b)$
-   - 设计动机：户外密集描述需要理解物体间的相对位置关系（如"这辆车在白色卡车旁边"），简单的关系图或 Transformer 解码器无法利用 BEV 全局上下文信息
+    - 功能：提取每个物体的上下文感知特征，建模物体间关系
+    - 核心思路：
+      - 物体提议 $\hat{B}$ 通过可学习 MLP 编码为与 $F_b$ 相同维度的特征
+      - 拼接物体特征和 BEV 特征，送入由多层自注意力构成的 Relation Q-Former 进行特征交互
+      - $Q_B = \text{Relation Q-Former}(\text{MLP}(\hat{B}), F_b)$
+    - 设计动机：户外密集描述需要理解物体间的相对位置关系（如"这辆车在白色卡车旁边"），简单的关系图或 Transformer 解码器无法利用 BEV 全局上下文信息
 
 #### 3. **LLaMA-Adapter 描述解码器 (Captioning Decoder)**
-   - 功能：将物体查询特征转化为自然语言描述
-   - 核心思路：
-     - MLP 对齐维度：$Q_B' = \text{MLP}(Q_B)$
-     - Adapter 对齐模态：$\mathcal{V} = \text{Adapter}(Q_B')$，将物体特征转为 LLM 可理解的视觉提示
-     - 冻结 LLM 生成描述：$\hat{\mathcal{C}} = \text{LLM}(\mathcal{T}, \mathcal{V})$，$\mathcal{T}$ 为系统提示
-     - 描述损失：$\mathcal{L}_{cap} = -\sum_{i=1}^M \log \hat{p}(w_i | w_{[1:i-1]}, \mathcal{T}, \mathcal{V}, \theta_{\text{LLM}})$
-   - 设计动机：冻结 LLM 避免灾难性遗忘，利用大模型预训练的常识推理能力；Adapter 桥接 BEV 特征与语言特征的模态鸿沟
+    - 功能：将物体查询特征转化为自然语言描述
+    - 核心思路：
+      - MLP 对齐维度：$Q_B' = \text{MLP}(Q_B)$
+      - Adapter 对齐模态：$\mathcal{V} = \text{Adapter}(Q_B')$，将物体特征转为 LLM 可理解的视觉提示
+      - 冻结 LLM 生成描述：$\hat{\mathcal{C}} = \text{LLM}(\mathcal{T}, \mathcal{V})$，$\mathcal{T}$ 为系统提示
+      - 描述损失：$\mathcal{L}_{cap} = -\sum_{i=1}^M \log \hat{p}(w_i | w_{[1:i-1]}, \mathcal{T}, \mathcal{V}, \theta_{\text{LLM}})$
+    - 设计动机：冻结 LLM 避免灾难性遗忘，利用大模型预训练的常识推理能力；Adapter 桥接 BEV 特征与语言特征的模态鸿沟
 
 ### 损失函数 / 训练策略
 - 总损失：$\mathcal{L} = \alpha \mathcal{L}_{obj} + \beta \mathcal{L}_{cap}$，$\alpha=10, \beta=1$

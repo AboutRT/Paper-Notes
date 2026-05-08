@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.15450](https://arxiv.org/abs/2503.15450)  
-**代码**: https://github.com/sail-sg/SkyLadder  
+**代码**: [https://github.com/sail-sg/SkyLadder](https://github.com/sail-sg/SkyLadder)  
 **领域**: LLM效率  
 **关键词**: 上下文窗口调度, 预训练效率, 长上下文, 注意力机制, 训练稳定性
 

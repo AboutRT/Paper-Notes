@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.09171](https://arxiv.org/abs/2506.09171)  
 **代码**: 待确认  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: LLM Agent, Atomic Facts, Lookahead Search, in-context learning, world model
 
 ## 一句话总结

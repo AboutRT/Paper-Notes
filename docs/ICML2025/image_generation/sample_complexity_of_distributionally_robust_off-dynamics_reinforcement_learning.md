@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2511.05396](https://arxiv.org/abs/2511.05396)  
 **代码**: [panxulab/Online-Robust-Bellman-Iteration](https://github.com/panxulab/Online-Robust-Bellman-Iteration)  
-**领域**: 分布鲁棒强化学习  
+**领域**: 图像生成  
 **关键词**: Robust MDP, Off-dynamics RL, Sample Complexity, online learning, f-divergence, Regret Bounds
 
 ## 一句话总结
@@ -156,8 +156,8 @@ $$\mathbb{E}[\text{Regret}(K)] = \Omega(C_{vr}^{1/2} \sqrt{K})$$
 
 - [\[AAAI 2026\] ORVIT: Near-Optimal Online Distributionally Robust Reinforcement Learning](../../AAAI2026/image_generation/orvit_near-optimal_online_distributionally_robust_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Towards Robust Zero-Shot Reinforcement Learning](../../NeurIPS2025/image_generation/towards_robust_zero-shot_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data](../../NeurIPS2025/image_generation/composite_flow_matching_for_reinforcement_learning_with_shifted-dynamics_data.md)
 - [\[ICML 2025\] PAK-UCB Contextual Bandit: An Online Learning Approach to Prompt-Aware Selection of Generative Models and LLMs](pak-ucb_contextual_bandit_an_online_learning_approach_to_prompt-aware_selection_.md)
+- [\[NeurIPS 2025\] Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data](../../NeurIPS2025/image_generation/composite_flow_matching_for_reinforcement_learning_with_shifted-dynamics_data.md)
 - [\[ICML 2025\] Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals](hierarchical_reinforcement_learning_with_uncertainty-guided_diffusional_subgoals.md)
 
 <!-- RELATED:END -->

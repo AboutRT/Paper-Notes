@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LLM Interpretability with Identifiable Temporal-Instantaneous Representation
 description: >-
-  [NeurIPS 2025][LLM可解释性] 本文提出了一种面向 LLM 高维激活空间的可辨识时序因果表示学习框架，通过线性化公式同时建模时间延迟和瞬时因果关系，在保留理论可辨识性保证的同时解决了现有 CRL 方法无法扩展到 LLM 维度的计算瓶颈。
+  [NeurIPS 2025][因果推理] 本文提出了一种面向 LLM 高维激活空间的可辨识时序因果表示学习框架，通过线性化公式同时建模时间延迟和瞬时因果关系，在保留理论可辨识性保证的同时解决了现有 CRL 方法无法扩展到 LLM 维度的计算瓶颈。
 tags:
   - NeurIPS 2025
-  - LLM可解释性
+  - 因果推理
   - 因果表示学习
   - 稀疏自编码器
   - 时序因果关系
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.23323](https://arxiv.org/abs/2509.23323)  
 **代码**: 无  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: LLM可解释性, 因果表示学习, 稀疏自编码器, 时序因果关系, 可辨识性  
 
 ## 一句话总结
@@ -187,8 +187,8 @@ tags:
 
 - [\[NeurIPS 2025\] Causality-Induced Positional Encoding for Transformer-Based Representation Learning of Non-Sequential Features](causality-induced_positional_encoding_for_transformer-based_representation_learn.md)
 - [\[ICML 2025\] Transformer-Based Spatial-Temporal Counterfactual Outcomes Estimation](../../ICML2025/causal_inference/transformer-based_spatial-temporal_counterfactual_outcomes_estimation.md)
-- [\[ICML 2025\] Learning Time-Aware Causal Representation for Model Generalization in Evolving Domains](../../ICML2025/causal_inference/learning_time-aware_causal_representation_for_model_generalization_in_evolving_d.md)
 - [\[ACL 2025\] Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models](../../ACL2025/causal_inference/counterfactual-consistency_prompting_for_relative_temporal_understanding_in_larg.md)
-- [\[ICLR 2026\] PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits](../../ICLR2026/causal_inference/personax_multimodal_datasets_with_llm-inferred_behavior_traits.md)
+- [\[ICML 2025\] Learning Time-Aware Causal Representation for Model Generalization in Evolving Domains](../../ICML2025/causal_inference/learning_time-aware_causal_representation_for_model_generalization_in_evolving_d.md)
+- [\[CVPR 2025\] FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition](../../CVPR2025/causal_inference/towards_fine-grained_interpretability_counterfactual_explanations_for_misclassif.md)
 
 <!-- RELATED:END -->

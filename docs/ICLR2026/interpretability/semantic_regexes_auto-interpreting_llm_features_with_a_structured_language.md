@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.06378](https://arxiv.org/abs/2510.06378)  
-**代码**: https://github.com/apple/ml-semantic-regex  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/apple/ml-semantic-regex](https://github.com/apple/ml-semantic-regex)  
+**领域**: 可解释性  
 **关键词**: mechanistic interpretability, feature description, structured language, sparse autoencoder, automated interpretability
 
 ## 一句话总结
@@ -125,9 +125,9 @@ Semantic regex 语言嵌入标准的自动可解释性流水线中：给定一�
 ## 相关论文
 
 - [\[ICLR 2026\] Implicit Statistical Inference in Transformers: Approximating Likelihood-Ratio Tests In-Context](implicit_statistical_inference_in_transformers_approximating_likelihood-ratio_te.md)
+- [\[ICLR 2026\] One Language, Two Scripts: Probing Script-Invariance in LLM Concept Representations](one_language_two_scripts_probing_script-invariance_in_llm_concept_representation.md)
 - [\[ICLR 2026\] Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test](grokking_in_llm_pretraining_monitor_memorization-to-generalization_without_test.md)
+- [\[ICLR 2026\] Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability](temporal_sparse_autoencoders_leveraging_the_sequential_nature_of_language_for_in.md)
 - [\[ICLR 2026\] Hidden Breakthroughs in Language Model Training](hidden_breakthroughs_in_language_model_training.md)
-- [\[ICLR 2026\] Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings](cross-modal_redundancy_and_the_geometry_of_vision-language_embeddings.md)
-- [\[ICLR 2026\] Internal Planning in Language Models: Characterizing Horizon and Branch Awareness](internal_planning_in_language_models_characterizing_horizon_and_branch_awareness.md)
 
 <!-- RELATED:END -->

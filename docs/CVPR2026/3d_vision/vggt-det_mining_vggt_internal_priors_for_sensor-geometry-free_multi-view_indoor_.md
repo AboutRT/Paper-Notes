@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2603.00912](https://arxiv.org/abs/2603.00912)  
 **作者**: Yang Cao, Feize Wu, Dave Zhenyu Chen, Yingji Zhong, Lanqing Hong, Dan Xu (HKUST, Huawei, 中山大学)
 **代码**: GitHub (论文中提及已开源)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 多视图3D目标检测, 室内场景理解, 无传感器几何, VGGT, Transformer
 
 ## 一句话总结
@@ -189,9 +189,9 @@ VGGT-Det 在 ARKitScenes 上优势更大，washer (+16.3)、refrigerator (+32.2)
 ## 相关论文
 
 - [\[CVPR 2025\] VGGT: Visual Geometry Grounded Transformer](../../CVPR2025/3d_vision/vggt_visual_geometry_grounded_transformer.md)
-- [\[CVPR 2026\] Few-Shot Incremental 3D Object Detection in Dynamic Indoor Environments](few-shot_incremental_3d_object_detection_in_dynamic_indoor_environments.md)
 - [\[CVPR 2026\] VGGT-SLAM++: Visual SLAM with DEM-Based Covisibility and Local Bundle Adjustment](vggt-slam.md)
-- [\[ICCV 2025\] SGCDet: Boosting Multi-View Indoor 3D Object Detection via Adaptive 3D Volume Construction](../../ICCV2025/3d_vision/boosting_multi-view_indoor_3d_object_detection_via_adaptive_3d_volume_constructi.md)
 - [\[AAAI 2026\] VGGT-DP: Generalizable Robot Control via Vision Foundation Models](../../AAAI2026/3d_vision/vggt-dp_generalizable_robot_control_via_vision_foundation_models.md)
+- [\[CVPR 2026\] No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency](no_calibration_no_depth_no_problem_cross-sensor_view_synthesis_with_3d_consisten.md)
+- [\[CVPR 2026\] SwiftTailor: Efficient 3D Garment Generation with Geometry Image Representation](swifttailor_efficient_3d_garment_generation_with_geometry_image_representation.md)
 
 <!-- RELATED:END -->

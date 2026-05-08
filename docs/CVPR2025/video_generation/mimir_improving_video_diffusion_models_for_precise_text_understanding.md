@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.03085](https://arxiv.org/abs/2412.03085)  
-**代码**: https://lucaria-academy.github.io/Mimir/  
+**代码**: [https://lucaria-academy.github.io/Mimir/](https://lucaria-academy.github.io/Mimir/)  
 **领域**: 视频生成 / 扩散模型  
 **关键词**: 视频生成, 文本理解, 大语言模型, Token融合, Decoder-only LLM
 
@@ -125,7 +125,7 @@ Mimir 在标准 T2V 扩散模型（3D Causal VAE + DiT）基础上，增加 deco
 - [\[CVPR 2025\] VideoDirector: Precise Video Editing via Text-to-Video Models](videodirector_precise_video_editing_via_text-to-video_models.md)
 - [\[CVPR 2025\] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
 - [\[CVPR 2025\] Towards Precise Scaling Laws for Video Diffusion Transformers](towards_precise_scaling_laws_for_video_diffusion_transformers.md)
+- [\[CVPR 2025\] VEU-Bench: Towards Comprehensive Understanding of Video Editing](veu-bench_towards_comprehensive_understanding_of_video_editing.md)
 - [\[CVPR 2025\] ShotAdapter: Text-to-Multi-Shot Video Generation with Diffusion Models](shotadapter_text-to-multi-shot_video_generation_with_diffusion_models.md)
-- [\[CVPR 2025\] From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](from_slow_bidirectional_to_fast_autoregressive_video_diffusion_models.md)
 
 <!-- RELATED:END -->

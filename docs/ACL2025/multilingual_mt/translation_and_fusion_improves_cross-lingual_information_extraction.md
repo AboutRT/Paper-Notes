@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2305.13582](https://arxiv.org/abs/2305.13582)  
-**代码**: https://github.com/edchengg/gollie-transfusion  
-**领域**: NLP理解  
+**代码**: [https://github.com/edchengg/gollie-transfusion](https://github.com/edchengg/gollie-transfusion)  
+**领域**: 多语言翻译  
 **关键词**: 跨语言迁移, 信息抽取, 机器翻译, 低资源语言, 标注融合
 
 ## 一句话总结

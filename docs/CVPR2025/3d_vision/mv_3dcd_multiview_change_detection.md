@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.03911](https://arxiv.org/abs/2412.03911)  
-**代码**: https://MV-3DCD.github.io  
+**代码**: [https://MV-3DCD.github.io](https://MV-3DCD.github.io)  
 **领域**: 3D视觉 / 变化检测  
 **关键词**: 多视角变化检测, 3D高斯泼溅, 无标签, 姿态无关, DINOv2
 

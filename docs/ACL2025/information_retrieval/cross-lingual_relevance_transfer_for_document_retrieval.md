@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Cross-Lingual Relevance Transfer for Document Retrieval
 description: >-
-  [ACL 2025][跨语言检索] 本文提出一种跨语言相关性迁移方法，通过在高资源语言（如英语）上训练的检索模型将相关性判断能力迁移到低资源语言，在多个跨语言文档检索基准上显著超越现有方法。
+  [ACL 2025][信息检索] 本文提出一种跨语言相关性迁移方法，通过在高资源语言（如英语）上训练的检索模型将相关性判断能力迁移到低资源语言，在多个跨语言文档检索基准上显著超越现有方法。
 tags:
   - ACL 2025
-  - 跨语言检索
+  - 信息检索
   - 相关性迁移
   - 文档检索
   - 多语言表示
@@ -122,7 +122,7 @@ tags:
 - [\[ACL 2025\] Multilingual Retrieval Augmented Generation for Culturally-Sensitive Tasks: A Benchmark for Cross-lingual Robustness](multilingual_retrieval_augmented_generation_for_culturally-sensitive_tasks_a_ben.md)
 - [\[ACL 2025\] DRAG: Distilling RAG for SLMs from LLMs to Transfer Knowledge and Mitigate Hallucination](drag_distilling_rag_slm.md)
 - [\[ACL 2025\] Hierarchical Document Refinement for Long-context Retrieval-augmented Generation](hierarchical_document_refinement_for_long-context_retrieval-augmented_generation.md)
-- [\[ACL 2025\] Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval](maximal_matching_matters_preventing_representation_collapse_for_robust_cross-mod.md)
+- [\[ACL 2025\] CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG](core_mmrag_knowledge_reconciliation.md)
 - [\[ACL 2025\] Towards Storage-Efficient Visual Document Retrieval: An Empirical Study on Reducing Patch-Level Embeddings](towards_storage-efficient_visual_document_retrieval_an_empirical_study_on_reduci.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TTOM: Test-Time Optimization and Memorization for Compositional Video Generation
 description: >-
-  [ICLR 2026][测试时优化] 提出 TTOM 框架，在推理时通过优化新增参数将视频生成模型的注意力与 LLM 生成的时空布局对齐，并用参数记忆机制保存历史优化上下文支持复用，在 T2V-CompBench 上相对提升 34%（CogVideoX）和 14%（Wan2.1）。
+  [ICLR 2026][视频生成] 提出 TTOM 框架，在推理时通过优化新增参数将视频生成模型的注意力与 LLM 生成的时空布局对齐，并用参数记忆机制保存历史优化上下文支持复用，在 T2V-CompBench 上相对提升 34%（CogVideoX）和 14%（Wan2.1）。
 tags:
   - ICLR 2026
-  - 测试时优化
+  - 视频生成
   - 组合视频生成
   - 参数记忆
   - 时空布局
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.07940](https://arxiv.org/abs/2510.07940)  
-**代码**: https://ttom-t2v.github.io/  
+**代码**: [https://ttom-t2v.github.io/](https://ttom-t2v.github.io/)  
 **领域**: 视频生成 / 组合推理  
 **关键词**: 测试时优化, 组合视频生成, 参数记忆, 时空布局, 注意力对齐
 
@@ -128,8 +128,8 @@ VBench 上也有一致的改进。
 
 - [\[CVPR 2025\] One-Minute Video Generation with Test-Time Training](../../CVPR2025/video_generation/one-minute_video_generation_with_test-time_training.md)
 - [\[ICLR 2026\] JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation](javisdit_unified_modeling_and_optimization_for_joint_audio-video_generation.md)
-- [\[ICLR 2026\] MotionStream: Real-Time Video Generation with Interactive Motion Controls](motionstream_real-time_video_generation_with_interactive_motion_controls.md)
 - [\[CVPR 2026\] Training-free Motion Factorization for Compositional Video Generation](../../CVPR2026/video_generation/training-free_motion_factorization_for_compositional_video_generation.md)
+- [\[ICLR 2026\] MotionStream: Real-Time Video Generation with Interactive Motion Controls](motionstream_real-time_video_generation_with_interactive_motion_controls.md)
 - [\[AAAI 2026\] DreamRunner: Fine-Grained Compositional Story-to-Video Generation with Retrieval-Augmented Motion Adaptation](../../AAAI2026/video_generation/dreamrunner_fine-grained_compositional_story-to-video_genera.md)
 
 <!-- RELATED:END -->

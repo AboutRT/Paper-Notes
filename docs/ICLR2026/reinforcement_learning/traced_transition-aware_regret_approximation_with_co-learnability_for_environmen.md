@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2506.19997](https://arxiv.org/abs/2506.19997)  
-**代码**: https://github.com/Cho-Geonwoo/TRACED  
+**代码**: [https://github.com/Cho-Geonwoo/TRACED](https://github.com/Cho-Geonwoo/TRACED)  
 **领域**: 强化学习  
 **关键词**: 无监督环境设计, 课程学习, regret近似, 转移预测误差, Co-Learnability, 零样本迁移
 

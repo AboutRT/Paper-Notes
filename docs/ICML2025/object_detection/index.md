@@ -1,22 +1,18 @@
 ---
 title: >-
-  ICML2025 目标检测方向10篇论文解读
+  ICML2025 目标检测方向8篇论文解读
 description: >-
-  10篇ICML2025的目标检测方向论文解读，涵盖对齐/RLHF、布局/合成、自监督学习、少样本学习、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  8篇ICML2025的目标检测方向论文解读，涵盖对齐/RLHF、布局/合成、少样本学习、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🧪 ICML2025** · **10** 篇论文解读
+**🧪 ICML2025** · **8** 篇论文解读
 
 **[BlueGlass: A Framework for Composite AI Safety](blueglass_a_framework_for_composite_ai_safety.md)**
 
 :   提出 BlueGlass 复合 AI 安全框架，通过统一基础设施整合分布式评估、近似探针和稀疏自编码器三种安全分析工具，对视觉语言模型（VLM）在目标检测任务上的能力边界、层级动态和内部概念表示进行系统性安全分析。
-
-**[Discovering Global False Negatives On the Fly for Self-supervised Contrastive Learning](discovering_global_false_negatives_on_the_fly_for_self-supervised_contrastive_le.md)**
-
-:   提出 GloFND，通过为每个锚点样本学习动态阈值，在训练过程中实时发现并过滤全局假阴性（false negatives），以低额外开销提升对比学习表示质量。
 
 **[Few-Shot Learner Generalizes Across AI-Generated Image Detection](few-shot_learner_generalizes_across_ai-generated_image_detection.md)**
 
@@ -25,10 +21,6 @@ description: >-
 **[FG-CLIP: Fine-Grained Visual and Textual Alignment](fg-clip_fine-grained_visual_and_textual_alignment.md)**
 
 :   FG-CLIP 系统性地解决 CLIP 细粒度理解的三大瓶颈：用 1.6B 长描述-图像对捕获全局语义细节，12M 图像+40M 区域标注实现精细区域对齐，10M 硬负样本训练模型区分微妙语义差异，在细粒度理解、开放词汇检测、图文检索等多项任务上取得全面领先。
-
-**[Global Context-aware Representation Learning for Spatially Resolved Transcriptomics](global_context-aware_representation_learning_for_spatially_resolved_transcriptom.md)**
-
-:   提出 Spotscape 框架，通过 Similarity Telescope 模块捕获 spot 间的全局相似关系（而非仅依赖空间局部邻居），并引入原型对比学习和相似度尺度匹配策略处理多切片批次效应，在空间域识别、轨迹推断、多切片整合与对齐等任务上全面超越现有方法。
 
 **[Open-Det: An Efficient Learning Framework for Open-Ended Detection](open-det_an_efficient_learning_framework_for_open-ended_detection.md)**
 

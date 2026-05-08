@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VeriMaAS: Automated Multi-Agent Workflows for RTL Design
 description: >-
-  [NeurIPS 2025][RTL code generation] VeriMaAS 提出自动组合多 Agent 工作流的框架用于 RTL 代码生成，核心创新是将 HDL 工具的形式化验证反馈（Yosys 综合 + OpenSTA 时序分析）直接整合到工作流编排中，在 VeriThoughts 上 pass@1 提升 2-12%，且仅需数百样本做控制器调优，比全量微调训练数据少一个量级。
+  [NeurIPS 2025][代码智能] VeriMaAS 提出自动组合多 Agent 工作流的框架用于 RTL 代码生成，核心创新是将 HDL 工具的形式化验证反馈（Yosys 综合 + OpenSTA 时序分析）直接整合到工作流编排中，在 VeriThoughts 上 pass@1 提升 2-12%，且仅需数百样本做控制器调优，比全量微调训练数据少一个量级。
 tags:
   - NeurIPS 2025
-  - RTL code generation
+  - 代码智能
   - multi-agent workflow
   - formal verification
   - HDL
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.20182](https://arxiv.org/abs/2509.20182)  
-**代码**: https://github.com/ (有，论文中提及)  
+**代码**: [https://github.com/](https://github.com/) (有，论文中提及)  
 **领域**: 代码生成 / 硬件设计自动化  
 **关键词**: RTL code generation, multi-agent workflow, formal verification, HDL, EDA
 
@@ -123,8 +123,8 @@ VeriMaAS 的工作流为：给定 RTL 设计任务 → 自适应采样 Agent 算
 
 - [\[ICLR 2026\] CARD: Towards Conditional Design of Multi-agent Topological Structures](../../ICLR2026/code_intelligence/card_towards_conditional_design_of_multi-agent_topological_structures.md)
 - [\[NeurIPS 2025\] A Self-Improving Coding Agent](a_selfimproving_coding_agent.md)
-- [\[NeurIPS 2025\] SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents](swe-rebench_an_automated_pipeline_for_task_collection_and_decontaminated_evaluat.md)
 - [\[NeurIPS 2025\] A Stochastic Differential Equation Framework for Multi-Objective LLM Interactions](a_stochastic_differential_equation_framework_for_multi-objective_llm_interaction.md)
-- [\[ACL 2025\] CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System](../../ACL2025/code_intelligence/compileagent_automated_real-world_repo-level_compilation_with_tool-integrated_ll.md)
+- [\[NeurIPS 2025\] SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents](swe-rebench_an_automated_pipeline_for_task_collection_and_decontaminated_evaluat.md)
+- [\[NeurIPS 2025\] Learning From Design Procedure To Generate CAD Programs for Data Augmentation](learning_from_design_procedure_to_generate_cad_programs_for_data_augmentation.md)
 
 <!-- RELATED:END -->

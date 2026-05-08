@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2412.05723](https://arxiv.org/abs/2412.05723)  
-**代码**: https://github.com/Wang-ML-Lab/bayesian-peft (有)  
-**领域**: Optimization / Bayesian Deep Learning  
+**代码**: [https://github.com/Wang-ML-Lab/bayesian-peft](https://github.com/Wang-ML-Lab/bayesian-peft)  
+**领域**: 优化  
 **关键词**: Bayesian inference, LoRA, uncertainty estimation, LLM, training-free
 
 ## 一句话总结

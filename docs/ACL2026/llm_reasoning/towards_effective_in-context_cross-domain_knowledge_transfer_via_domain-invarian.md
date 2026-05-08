@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.05383](https://arxiv.org/abs/2604.05383)  
 **代码**: [GitHub](https://github.com/Leon221220/DIN-Retrieval)  
-**领域**: LLM 推理 / 上下文学习  
+**领域**: LLM推理  
 **关键词**: 跨域知识迁移, 域不变神经元, 上下文学习检索, 推理结构对齐, 数学逻辑推理
 
 ## 一句话总结

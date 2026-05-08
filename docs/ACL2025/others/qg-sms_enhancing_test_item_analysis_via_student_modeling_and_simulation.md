@@ -2,10 +2,10 @@
 title: >-
   [论文解读] QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation
 description: >-
-  [ACL 2025][题目生成评估] QG-SMS 提出用单个 LLM 模拟不同理解水平的学生群体，通过学生画像生成、表现预测和分析三步流程，弥补了现有 LLM 评估器在考后分析维度（题目难度、区分度、干扰项效率）上的严重不足，在多个数据集上实现了最高一致性准确率。
+  [ACL 2025][其他] QG-SMS 提出用单个 LLM 模拟不同理解水平的学生群体，通过学生画像生成、表现预测和分析三步流程，弥补了现有 LLM 评估器在考后分析维度（题目难度、区分度、干扰项效率）上的严重不足，在多个数据集上实现了最高一致性准确率。
 tags:
   - ACL 2025
-  - 题目生成评估
+  - 其他
   - 测试项目分析
   - 学生建模与模拟
   - LLM评估器
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.05888](https://arxiv.org/abs/2503.05888)  
 **代码**: [有](https://github.com/bnguyen5/qg-sms)  
-**领域**: NLP / 教育 AI  
+**领域**: 其他  
 **关键词**: 题目生成评估, 测试项目分析, 学生建模与模拟, LLM评估器, 题目难度与区分度
 
 ## 一句话总结
@@ -154,7 +154,7 @@ QG-SMS 包含三个步骤（图 2）：
 - [\[ACL 2025\] MockConf: A Student Interpretation Dataset: Analysis, Word- and Span-level Alignment and Baselines](mockconf_a_student_interpretation_dataset_analysis_word-_and_span-level_alignmen.md)
 - [\[ACL 2025\] TestNUC: Enhancing Test-Time Computing Approaches and Scaling through Neighboring Unlabeled Data Consistency](testnuc_enhancing_test-time_computing_approaches_and_scaling_through_neighboring.md)
 - [\[ACL 2025\] Consistent Client Simulation for Motivational Interviewing-based Counseling](consistent_client_simulation_for_motivational_interviewing-based_counseling.md)
-- [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
 - [\[ACL 2025\] Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction](distractor_gen_multiple_choice.md)
+- [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.03907](https://arxiv.org/abs/2603.03907)  
 **代码**: [项目页面](https://yzc-ippl.github.io/FG-IAA/)  
-**领域**: 图像美学评估  
+**领域**: AIGC检测  
 **关键词**: 细粒度美学, 相对排序, 差异保留tokenization, 排序回归, FGAesthetics
 
 ## 一句话总结

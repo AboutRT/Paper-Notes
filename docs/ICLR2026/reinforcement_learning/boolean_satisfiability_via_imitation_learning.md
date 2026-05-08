@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2509.25411](https://arxiv.org/abs/2509.25411)  
 **代码**: [https://github.com/zewei-Zhang/ImitSAT](https://github.com/zewei-Zhang/ImitSAT)  
-**领域**: model_compression  
+**领域**: 强化学习  
 **关键词**: SAT, 模仿学习, CDCL, 分支策略, 自回归, Transformer  
 
 ## 一句话总结

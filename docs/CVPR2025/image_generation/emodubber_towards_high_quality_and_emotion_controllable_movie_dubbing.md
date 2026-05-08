@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.08988](https://arxiv.org/abs/2412.08988)  
-**代码**: https://github.com/GalaxyCong/DubFlow (有)  
+**代码**: [https://github.com/GalaxyCong/DubFlow](https://github.com/GalaxyCong/DubFlow)  
 **领域**: 扩散模型  
 **关键词**: 电影配音, 情感可控, 唇形同步, 流匹配, 正负引导
 
@@ -139,8 +139,8 @@ Chem 基准（Setting 1.0 + 2.0）：
 
 ## 相关论文
 
-- [\[CVPR 2025\] ArtiFade: Learning to Generate High-quality Subject from Blemished Images](artifade_learning_to_generate_high-quality_subject_from_blemished_images.md)
 - [\[CVPR 2025\] OmniStyle: Filtering High Quality Style Transfer Data at Scale](omnistyle_filtering_high_quality_style_transfer_data_at_scale.md)
+- [\[CVPR 2025\] ArtiFade: Learning to Generate High-quality Subject from Blemished Images](artifade_learning_to_generate_high-quality_subject_from_blemished_images.md)
 - [\[CVPR 2025\] StableAnimator: High-Quality Identity-Preserving Human Image Animation](stableanimator_high-quality_identity-preserving_human_image_animation.md)
 - [\[CVPR 2025\] 3DTopia-XL: Scaling High-Quality 3D Asset Generation via Primitive Diffusion](3dtopia-xl_scaling_high-quality_3d_asset_generation_via_primitive_diffusion.md)
 - [\[CVPR 2025\] EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation](eden_enhanced_diffusion_for_high-quality_large-motion_video_frame_interpolation.md)

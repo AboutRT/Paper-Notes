@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.05122](https://arxiv.org/abs/2501.05122)  
 **代码**: [gregor-ge.github.io/Centurio](https://gregor-ge.github.io/Centurio)  
-**领域**: 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: multilingual LVLM, vision-language, training data distribution, OCR, language fidelity  
 
 ## 一句话总结
@@ -119,7 +119,7 @@ tags:
 - [\[ACL 2025\] SingaKids: A Multilingual Multimodal Dialogic Tutor for Language Learning](singakids_a_multilingual_multimodal_dialogic_tutor_for_language_learning.md)
 - [\[ICML 2025\] Parrot: Multilingual Visual Instruction Tuning](../../ICML2025/multimodal_vlm/parrot_multilingual_visual_instruction_tuning.md)
 - [\[ACL 2025\] ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](chartcoder_chart_to_code.md)
-- [\[NeurIPS 2025\] Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion](../../NeurIPS2025/multimodal_vlm/rethinking_multimodal_learning_from_the_perspective_of_mitig.md)
+- [\[ACL 2025\] Transferring Textual Preferences to Vision-Language Understanding through Model Merging](transferring_textual_preferences_to_vision-language_understanding_through_model_.md)
 - [\[ACL 2025\] LogicQA: Logical Anomaly Detection with Vision Language Model Generated Questions](logicqa_logical_anomaly_detection_with_vision_language_model_generated_questions.md)
 
 <!-- RELATED:END -->

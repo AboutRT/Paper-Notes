@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.12605](https://arxiv.org/abs/2602.12605)  
 **代码**: 无  
-**领域**: others (学习理论)  
+**领域**: LLM预训练  
 **关键词**: PAC-Bayes, MAC-Bayes, 泛化界, 信息论, 块样本
 
 ## 一句话总结
@@ -140,8 +140,8 @@ $$\mathbb{E}_{P_S} d(\mathbb{E}_{P_{W|S}} \hat{L}(W,S), \mathbb{E}_{P_{W|S}} L(W
 
 - [\[NeurIPS 2025\] Generalization Bounds for Rank-sparse Neural Networks](../../NeurIPS2025/llm_pretraining/generalization_bounds_for_rank-sparse_neural_networks.md)
 - [\[CVPR 2026\] MXNorm: Reusing MXFP Block Scales for Efficient Tensor Normalisation](../../CVPR2026/llm_pretraining/mxnorm_reusing_mxfp_block_scales_for_efficient_tensor_normalisation.md)
-- [\[ACL 2025\] Diversity Explains Inference Scaling Laws: Through a Case Study of Minimum Bayes Risk Decoding](../../ACL2025/llm_pretraining/diversity_explains_inference_scaling_laws_through_a_case_study_of_minimum_bayes_.md)
 - [\[ICLR 2026\] CHAMMI-75: Pre-training multi-channel models with heterogeneous microscopy images](chammi-75_pre-training_multi-channel_models_with_heterogeneous_microscopy_images.md)
 - [\[ICLR 2026\] Deconstructing Positional Information: From Attention Logits to Training Biases](deconstructing_positional_information_from_attention_logits_to_training_biases.md)
+- [\[ACL 2025\] Diversity Explains Inference Scaling Laws: Through a Case Study of Minimum Bayes Risk Decoding](../../ACL2025/llm_pretraining/diversity_explains_inference_scaling_laws_through_a_case_study_of_minimum_bayes_.md)
 
 <!-- RELATED:END -->

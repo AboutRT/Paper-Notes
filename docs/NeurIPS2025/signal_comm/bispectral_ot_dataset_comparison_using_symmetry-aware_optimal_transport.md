@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - optimal transport
-  - bispectrum
+  - 信号通信
   - symmetry invariance
   - dataset comparison
   - Fourier transform
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.20678](https://arxiv.org/abs/2509.20678)  
-**代码**: https://github.com/annabel-ma/bispectral-ot  
+**代码**: [https://github.com/annabel-ma/bispectral-ot](https://github.com/annabel-ma/bispectral-ot)  
 **领域**: 机器学习理论  
 **关键词**: optimal transport, bispectrum, symmetry invariance, dataset comparison, Fourier transform
 
@@ -115,8 +115,8 @@ tags:
 
 - [\[NeurIPS 2025\] Estimation of Stochastic Optimal Transport Maps](estimation_of_stochastic_optimal_transport_maps.md)
 - [\[NeurIPS 2025\] Feature-aware Modulation for Learning from Temporal Tabular Data](feature-aware_modulation_for_learning_from_temporal_tabular_data.md)
-- [\[NeurIPS 2025\] Angular Steering: Behavior Control via Rotation in Activation Space](angular_steering_behavior_control_via_rotation_in_activation_space.md)
-- [\[NeurIPS 2025\] Memory-Integrated Reconfigurable Adapters: A Unified Framework for Settings with Multiple Tasks](memory-integrated_reconfigurable_adapters_a_unified_framework_for_settings_with_.md)
-- [\[NeurIPS 2025\] Masked Symbol Modeling for Demodulation of Oversampled Baseband Communication Signals](masked_symbol_modeling_for_demodulation_of_oversampled_baseband_communication_si.md)
+- [\[NeurIPS 2025\] The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning](the_surprising_effectiveness_of_negative_reinforcement_in_llm_reasoning.md)
+- [\[NeurIPS 2025\] Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)
+- [\[NeurIPS 2025\] Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning](contrastive_consolidation_of_top-down_modulations_achieves_sparsely_supervised_c.md)
 
 <!-- RELATED:END -->

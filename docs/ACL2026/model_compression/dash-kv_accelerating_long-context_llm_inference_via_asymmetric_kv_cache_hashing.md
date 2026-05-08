@@ -14,7 +14,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.19351](https://arxiv.org/abs/2604.19351)  
 **代码**: [https://github.com/Zhihan-Zh/DASH-KV](https://github.com/Zhihan-Zh/DASH-KV)  
-**领域**: LLM效率 / KV缓存优化  
+**领域**: 模型压缩  
 **关键词**: KV缓存, 深度哈希, 非对称编码, 注意力加速, 长上下文推理
 
 ## 一句话总结

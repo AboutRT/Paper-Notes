@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.16637](https://arxiv.org/abs/2511.16637)  
 **代码**: [satsuma](https://doi.org/10.5281/zenodo.17607863), [VeriPB](https://doi.org/10.5281/zenodo.17608873), [CakePB](https://doi.org/10.5281/zenodo.17609070)  
-**领域**: others (combinatorial optimization / formal verification)  
+**领域**: 其他  
 **关键词**: symmetry breaking, proof logging, SAT solving, pseudo-Boolean, VeriPB, certified solving  
 
 ## 一句话总结

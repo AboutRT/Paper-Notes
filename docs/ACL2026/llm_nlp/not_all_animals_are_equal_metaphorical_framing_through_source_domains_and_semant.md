@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.20454](https://arxiv.org/abs/2604.20454)  
 **代码**: [https://github.com/julia-nixie/ConceptFrameMet](https://github.com/julia-nixie/ConceptFrameMet)  
-**领域**: NLP理解 / 隐喻分析  
+**领域**: LLM/NLP  
 **关键词**: 隐喻检测, 概念隐喻理论, 语义框架, 话语分析, 媒体框架
 
 ## 一句话总结

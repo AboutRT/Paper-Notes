@@ -7,7 +7,7 @@ tags:
   - CVPR 2025 (Highlight)
   - 4D交互预测
   - 未来预测
-  - 人体姿态
+  - 其他
   - 自我中心视频
   - EgoExo4D
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025 (Highlight)  
 **arXiv**: [2412.00932](https://arxiv.org/abs/2412.00932)  
 **代码**: 无  
-**领域**: 视频理解  
+**领域**: 其他  
 **关键词**: 4D交互预测, 未来预测, 人体姿态, 自我中心视频, EgoExo4D
 
 ## 一句话总结
@@ -120,8 +120,8 @@ FIction 的输入为一段观察视频（ego 或 exo 视角），目标是预测
 
 - [\[AAAI 2026\] PIPHEN: Physical Interaction Prediction with Hamiltonian Energy Networks](../../AAAI2026/others/piphen_physical_interaction_prediction_with_hamiltonian_energy_networks.md)
 - [\[ICCV 2025\] C4D: 4D Made from 3D through Dual Correspondences](../../ICCV2025/others/c4d_4d_made_from_3d_through_dual_correspondences.md)
-- [\[CVPR 2025\] Test-Time Augmentation Improves Efficiency in Conformal Prediction](test-time_augmentation_improves_efficiency_in_conformal_prediction.md)
 - [\[NeurIPS 2025\] Evolutionary Prediction Games](../../NeurIPS2025/others/evolutionary_prediction_games.md)
+- [\[CVPR 2025\] CARE Transformer: Mobile-Friendly Linear Visual Transformer via Decoupled Dual Interaction](care_transformer_mobile-friendly_linear_visual_transformer_via_decoupled_dual_in.md)
 - [\[ACL 2025\] Predicting Implicit Arguments in Procedural Video Instructions](../../ACL2025/others/implicit_arguments_video_instructions.md)
 
 <!-- RELATED:END -->

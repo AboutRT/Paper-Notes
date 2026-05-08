@@ -9,7 +9,7 @@ tags:
   - 彩票假说
   - 符号翻转
   - 重参数化
-  - 初始化剪枝
+  - 其他
 ---
 
 # Sign-In to the Lottery: Reparameterized Sparse Training from Scratch
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.12801](https://arxiv.org/abs/2504.12801)  
 **代码**: 无  
-**领域**: 模型压缩 / 稀疏训练  
+**领域**: 其他  
 **关键词**: 稀疏训练, 彩票假说, 符号翻转, 重参数化, 初始化剪枝
 
 ## 一句话总结
@@ -124,7 +124,7 @@ Sign-In将每个权重参数θ重参数化为两个参数的逐元素乘积：θ
 - [\[ICML 2025\] Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry](../../ICML2025/others/sparse_training_from_random_initialization_aligning_lottery_ticket_masks_using_w.md)
 - [\[CVPR 2025\] ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](../../CVPR2025/others/zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
 - [\[NeurIPS 2025\] Training the Untrainable: Introducing Inductive Bias via Representational Alignment](training_the_untrainable_introducing_inductive_bias_via_representational_alignme.md)
+- [\[NeurIPS 2025\] Depth-Supervised Fusion Network for Seamless-Free Image Stitching](depth-supervised_fusion_network_for_seamless-free_image_stitching.md)
 - [\[NeurIPS 2025\] Are Pixel-Wise Metrics Reliable for Sparse-View Computed Tomography Reconstruction?](are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md)
-- [\[ACL 2025\] Instruction-Tuning Data Synthesis from Scratch via Web Reconstruction](../../ACL2025/others/instruction-tuning_data_synthesis_from_scratch_via_web_reconstruction.md)
 
 <!-- RELATED:END -->

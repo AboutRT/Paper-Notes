@@ -9,7 +9,7 @@ tags:
   - 视觉提示
   - DDIM反演
   - 一致性模型
-  - Stein变分梯度下降
+  - 视频生成
 ---
 
 # Visual Prompting for One-Shot Controllable Video Editing Without Inversion
@@ -127,10 +127,10 @@ CCS 和 TCS 都是推理时的采样策略，无需额外训练。CCS 使用 30 
 
 ## 相关论文
 
-- [\[CVPR 2025\] Zero-1-to-A: Zero-Shot One Image to Animatable Head Avatars Using Video Diffusion](zero-1-to-a_zero-shot_one_image_to_animatable_head_avatars_using_video_diffusion.md)
 - [\[ICCV 2025\] VACE: All-in-One Video Creation and Editing](../../ICCV2025/video_generation/vace_all-in-one_video_creation_and_editing.md)
-- [\[CVPR 2025\] ConMo: Controllable Motion Disentanglement and Recomposition for Zero-Shot Motion Transfer](conmo_controllable_motion_disentanglement_and_recomposition_for_zero-shot_motion.md)
 - [\[CVPR 2025\] Parallelized Autoregressive Visual Generation](parallelized_autoregressive_visual_generation.md)
 - [\[CVPR 2025\] SketchVideo: Sketch-Based Video Generation and Editing](sketchvideo_sketch-based_video_generation_and_editing.md)
+- [\[CVPR 2025\] Zero-1-to-A: Zero-Shot One Image to Animatable Head Avatars Using Video Diffusion](zero-1-to-a_zero-shot_one_image_to_animatable_head_avatars_using_video_diffusion.md)
+- [\[CVPR 2025\] VideoDirector: Precise Video Editing via Text-to-Video Models](videodirector_precise_video_editing_via_text-to-video_models.md)
 
 <!-- RELATED:END -->

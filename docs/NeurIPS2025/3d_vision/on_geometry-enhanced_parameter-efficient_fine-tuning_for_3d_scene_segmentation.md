@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.22444](https://arxiv.org/abs/2505.22444)  
-**代码**: https://github.com/LiyaoTang/GEM  
+**代码**: [https://github.com/LiyaoTang/GEM](https://github.com/LiyaoTang/GEM)  
 **领域**: 3D视觉  
 **关键词**: 参数高效微调, 点云分割, 几何编码, 3D场景理解, Transformer
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21219](https://arxiv.org/abs/2503.21219)  
-**代码**: https://genfusion.sibowu.com  
+**代码**: [https://genfusion.sibowu.com](https://genfusion.sibowu.com)  
 **领域**: 3D视觉  
 **关键词**: 3D重建, 视频扩散模型, 稀疏视图重建, 高斯泼溅, 循环融合
 

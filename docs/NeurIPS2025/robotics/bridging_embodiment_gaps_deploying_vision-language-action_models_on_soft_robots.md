@@ -18,7 +18,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.17369](https://arxiv.org/abs/2510.17369)  
-**代码**: https://huggingface.co/HCSuMoss （开源了首个软体机器人操纵示范数据集）  
+**代码**: [https://huggingface.co/HCSuMoss](https://huggingface.co/HCSuMoss) （开源了首个软体机器人操纵示范数据集）  
 **领域**: 机器人 / 软体机器人 / VLA / 实体迁移 / 安全人机交互  
 **关键词**: Vision-Language-Action, 软体连续体机械臂, 实体差异桥接, OpenVLA-OFT, π₀, 安全人机交互
 
@@ -195,10 +195,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] SAFE: Multitask Failure Detection for Vision-Language-Action Models](safe_multitask_failure_detection_for_vision-language-action_models.md)
 - [\[NeurIPS 2025\] ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning](thinkact_vision-language-action_reasoning_via_reinforced_visual_latent_planning.md)
-- [\[CVPR 2025\] MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation](../../CVPR2025/robotics/momanipvla_transferring_vision-language-action_models_for_general_mobile_manipul.md)
 - [\[CVPR 2025\] SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](../../CVPR2025/robotics/sapave_towards_active_perception_and_manipulation_in_vision-language-action_mode.md)
-- [\[NeurIPS 2025\] VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching](vla-cache_efficient_vision-language-action_manipulation_via_adaptive_token_cachi.md)
-- [\[ICCV 2025\] VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers](../../ICCV2025/robotics/vq-vla_improving_vision-language-action_models_via_scaling_vector-quantized_acti.md)
+- [\[CVPR 2025\] MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation](../../CVPR2025/robotics/momanipvla_transferring_vision-language-action_models_for_general_mobile_manipul.md)
+- [\[CVPR 2026\] Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](../../CVPR2026/robotics/adaptive_action_chunking_at_inference-time_for_vision-language-action_models.md)
 
 <!-- RELATED:END -->

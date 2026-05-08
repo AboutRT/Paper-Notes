@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.10341](https://arxiv.org/abs/2603.10341)  
 **代码**: [GitHub](https://github.com/chenchenzong/FairFAL)  
-**领域**: 联邦学习 / 主动学习  
+**领域**: AI安全  
 **关键词**: 联邦学习, 主动学习, non-IID, 类别不平衡, query selection, class-fair sampling, 原型引导
 
 ## 一句话总结
@@ -164,9 +164,9 @@ FairFAL 在标准 FedAvg 框架上增加三个协同组件，在每轮 FAL 的 q
 ## 相关论文
 
 - [\[CVPR 2026\] FecalFed: Privacy-Preserving Poultry Disease Detection via Federated Learning](fecalfed_privacy-preserving_poultry_disease_detection_via_federated_learning.md)
+- [\[CVPR 2026\] FedDAP: Domain-Aware Prototype Learning for Federated Learning under Domain Shift](feddap_domain-aware_prototype_learning_for_federated_learning_under_domain_shift.md)
 - [\[CVPR 2026\] FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation](fedafd_multimodal_federated_learning_via_adversarial_fusion_and_distillation.md)
 - [\[CVPR 2026\] Domain-Skewed Federated Learning with Feature Decoupling and Calibration](domain-skewed_federated_learning_with_feature_decoupling_and_calibration.md)
 - [\[CVPR 2026\] FedRE: A Representation Entanglement Framework for Model-Heterogeneous Federated Learning](fedre_a_representation_entanglement_framework_for_model-heterogeneous_federated_.md)
-- [\[CVPR 2026\] ProxyFL: A Proxy-Guided Framework for Federated Semi-Supervised Learning](proxyfl_a_proxy-guided_framework_for_federated_semi-supervised_learning.md)
 
 <!-- RELATED:END -->

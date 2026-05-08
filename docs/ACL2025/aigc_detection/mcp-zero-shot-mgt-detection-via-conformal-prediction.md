@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction
 description: >-
-  [ACL 2025][机器生成文本检测] 本文提出 MCP 框架，首次将保形预测（Conformal Prediction）引入机器生成文本检测，通过多尺度分位数阈值在约束假阳性率上界的同时提升检测性能，并构建了覆盖15个领域22个LLM的大规模双语基准 RealDet。
+  [ACL 2025][AIGC检测] 本文提出 MCP 框架，首次将保形预测（Conformal Prediction）引入机器生成文本检测，通过多尺度分位数阈值在约束假阳性率上界的同时提升检测性能，并构建了覆盖15个领域22个LLM的大规模双语基准 RealDet。
 tags:
   - ACL 2025
-  - 机器生成文本检测
+  - AIGC检测
   - 保形预测
   - 假阳性率控制
   - 零样本检测

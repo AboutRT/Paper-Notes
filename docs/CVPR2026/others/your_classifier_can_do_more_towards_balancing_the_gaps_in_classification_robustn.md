@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Your Classifier Can Do More: Towards Balancing the Gaps in Classification, Robustness, and Generation
 description: >-
-  [CVPR 2026][对抗鲁棒性] 提出 EB-JDAT 框架，通过建模干净样本、对抗样本和生成样本的联合能量分布 $p_\theta(\mathbf{x}, \tilde{\mathbf{x}}, y)$，首次在单个模型中同时实现高分类精度、强对抗鲁棒性和具有竞争力的生成能力，在 CIFAR-10 上 AutoAttack 鲁棒性达 66.12%，超越 SOTA AT 方法超 10 个百分点。
+  [CVPR 2026][其他] 提出 EB-JDAT 框架，通过建模干净样本、对抗样本和生成样本的联合能量分布 $p_\theta(\mathbf{x}, \tilde{\mathbf{x}}, y)$，首次在单个模型中同时实现高分类精度、强对抗鲁棒性和具有竞争力的生成能力，在 CIFAR-10 上 AutoAttack 鲁棒性达 66.12%，超越 SOTA AT 方法超 10 个百分点。
 tags:
   - CVPR 2026
-  - 对抗鲁棒性
+  - 其他
   - 能量模型
   - 联合生成判别
   - 对抗训练
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2505.19459](https://arxiv.org/abs/2505.19459)  
-**代码**: https://github.com/yujkc/EB-JDAT  
-**领域**: others  
+**代码**: [https://github.com/yujkc/EB-JDAT](https://github.com/yujkc/EB-JDAT)  
+**领域**: 其他  
 **关键词**: 对抗鲁棒性, 能量模型, 联合生成判别, 对抗训练, JEM
 
 ## 一句话总结
@@ -134,10 +134,10 @@ $$p_\theta(\mathbf{x}, \tilde{\mathbf{x}}, y) = p_\theta(y|\tilde{\mathbf{x}}, \
 
 ## 相关论文
 
-- [\[CVPR 2026\] Do Vision Models Perceive Illusory Motion in Static Images Like Humans?](do_vision_models_perceive_illusory_motion_in_static_images_like_humans.md)
 - [\[CVPR 2026\] IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](irisfp_adversarial-example-based_model_fingerprinting_with_enhanced_uniqueness_a.md)
-- [\[CVPR 2026\] DirPA: Addressing Prior Shift in Imbalanced Few-shot Crop-type Classification](dirpa_addressing_prior_shift_in_imbalanced_fewshot.md)
 - [\[CVPR 2026\] What Is the Optimal Ranking Score Between Precision and Recall? We Can Always Find It and It Is Rarely F₁](what_is_the_optimal_ranking_score_between_precision_and_recall_we_can_always_fin.md)
-- [\[CVPR 2026\] Next-Scale Autoregressive Models for Text-to-Motion Generation](next-scale_autoregressive_models_for_text-to-motion_generation.md)
+- [\[CVPR 2026\] Order Matters: 3D Shape Generation from Sequential VR Sketches](order_matters_3d_shape_generation_from_sequential_vr_sketches.md)
+- [\[CVPR 2026\] DirPA: Addressing Prior Shift in Imbalanced Few-shot Crop-type Classification](dirpa_addressing_prior_shift_in_imbalanced_few-shot_crop-type_classification.md)
+- [\[CVPR 2026\] UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting](unispector_towards_universal_open-set_defect_recognition_via_spectral-contrastiv.md)
 
 <!-- RELATED:END -->

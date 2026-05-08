@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.18335](https://arxiv.org/abs/2411.18335)  
-**代码**: https://vita-epfl.github.io/Helvipad/ (项目页面)  
-**领域**: 3D视觉  
+**代码**: [https://vita-epfl.github.io/Helvipad/](https://vita-epfl.github.io/Helvipad/) (项目页面)  
+**领域**: 自动驾驶  
 **关键词**: 全景深度估计, 立体匹配, 等距矩形投影, 360°相机, 数据集
 
 ## 一句话总结

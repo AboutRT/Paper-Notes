@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.05540](https://arxiv.org/abs/2407.05540)  
-**代码**: 有 (https://gtp-4-o.github.io/)  
+**代码**: 有 ([https://gtp-4-o.github.io/](https://gtp-4-o.github.io/))  
 **领域**: 医学图像  
 **关键词**: 多模态学习, 异构图, 模态缺失补全, 生物医学表征, 图提示
 
@@ -168,7 +168,7 @@ $$\text{SHA}(e,j) = \frac{v_s^{K,j} \cdot e^K_{v_s \to v_t} \cdot v_t^{Q,j}}{\sq
 
 ## 相关论文
 
-- [\[ECCV 2024\] Improving Medical Multi-modal Contrastive Learning with Expert Annotations](improving_medical_multimodal_contrastive_learning_with_exper.md)
+- [\[ECCV 2024\] Improving Medical Multi-modal Contrastive Learning with Expert Annotations](improving_medical_multi-modal_contrastive_learning_with_expert_annotations.md)
 - [\[ECCV 2024\] Energy-induced Explicit Quantification for Multi-modality MRI Fusion](energy-induced_explicit_quantification_for_multi-modality_mri_fusion.md)
 - [\[ECCV 2024\] RadEdit: Stress-Testing Biomedical Vision Models via Diffusion Image Editing](radedit_stress-testing_biomedical_vision_models_via_diffusion_image_editing.md)
 - [\[ECCV 2024\] Unsupervised Multi-modal Medical Image Registration via Invertible Translation](unsupervised_multi-modal_medical_image_registration_via_invertible_translation.md)

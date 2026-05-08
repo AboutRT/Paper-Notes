@@ -164,9 +164,9 @@ OSCP 由两个组件构成：
 ## 相关论文
 
 - [\[CVPR 2025\] Divide and Conquer: Heterogeneous Noise Integration for Diffusion-based Adversarial Purification](divide_and_conquer_heterogeneous_noise_integration_for_diffusion-based_adversari.md)
+- [\[CVPR 2025\] Detecting Adversarial Data Using Perturbation Forgery](detecting_adversarial_data_using_perturbation_forgery.md)
 - [\[CVPR 2025\] IDProtector: An Adversarial Noise Encoder to Protect Against ID-Preserving Image Generation](idprotector_an_adversarial_noise_encoder_to_protect_against_id-preserving_image_.md)
 - [\[ECCV 2024\] Learning Differentially Private Diffusion Models via Stochastic Adversarial Distillation](../../ECCV2024/image_generation/learning_differentially_private_diffusion_models_via_stochastic_adversarial_dist.md)
 - [\[CVPR 2025\] Enhancing Facial Privacy Protection via Weakening Diffusion Purification](enhancing_facial_privacy_protection_via_weakening_diffusion_purification.md)
-- [\[ICCV 2025\] DIA: The Adversarial Exposure of Deterministic Inversion in Diffusion Models](../../ICCV2025/image_generation/dia_the_adversarial_exposure_of_deterministic_inversion_in_diffusion_models.md)
 
 <!-- RELATED:END -->

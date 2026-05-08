@@ -9,15 +9,15 @@ tags:
   - 金融领域
   - 基准测试
   - 可链式约束
-  - LLM评测
+  - 强化学习
 ---
 
 # Financial Instruction Following Evaluation (FIFE)
 
 **会议**: NeurIPS 2025 (GenAI Finance Workshop)  
 **arXiv**: [2512.08965](https://arxiv.org/abs/2512.08965)  
-**代码**: https://github.com/gtfintechlab/FIFE  
-**领域**: NLP理解 / LLM评估  
+**代码**: [https://github.com/gtfintechlab/FIFE](https://github.com/gtfintechlab/FIFE)  
+**领域**: 强化学习  
 **关键词**: 指令遵循, 金融领域, 基准测试, 可链式约束, LLM评测
 
 ## 一句话总结
@@ -126,9 +126,9 @@ FIFE 本身是评测基准而非训练方法。零样本评测所有模型，不
 ## 相关论文
 
 - [\[NeurIPS 2025\] Generalizing Verifiable Instruction Following](generalizing_verifiable_instruction_following.md)
+- [\[NeurIPS 2025\] Incentivizing Reasoning for Advanced Instruction-Following of Large Language Models](incentivizing_reasoning_for_advanced_instruction-following_of_large_language_mod.md)
 - [\[ACL 2026\] ImpRIF: Stronger Implicit Reasoning Leads to Better Complex Instruction Following](../../ACL2026/reinforcement_learning/imprif_stronger_implicit_reasoning_leads_to_better_complex_instruction_following.md)
 - [\[NeurIPS 2025\] Finite-Sample Analysis of Policy Evaluation for Robust Average Reward Reinforcement Learning](finite-sample_analysis_of_policy_evaluation_for_robust_average_reward_reinforcem.md)
 - [\[ICML 2025\] On the Dynamic Regret of Following the Regularized Leader: Optimism with History Pruning](../../ICML2025/reinforcement_learning/on_the_dynamic_regret_of_following_the_regularized_leader_optimism_with_history_.md)
-- [\[ACL 2026\] AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation](../../ACL2026/reinforcement_learning/aj-bench_benchmarking_agent-as-a-judge_for_environment-aware_evaluation.md)
 
 <!-- RELATED:END -->

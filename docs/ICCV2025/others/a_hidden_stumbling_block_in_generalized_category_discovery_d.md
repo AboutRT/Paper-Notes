@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 广义类别发现
   - 注意力分散
-  - Token剪枝
+  - 其他
   - 自适应剪枝
   - 即插即用模块
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.14315](https://arxiv.org/abs/2507.14315)  
-**代码**: [https://github.com/Afleve/AFGCD](https://github.com/Afleve/AFGCD) (有)  
-**领域**: 自监督/类别发现  
+**代码**: [https://github.com/Afleve/AFGCD](https://github.com/Afleve/AFGCD)  
+**领域**: 其他  
 **关键词**: 广义类别发现, 注意力聚焦, Token剪枝, ViT, 细粒度识别  
 
 ## 一句话总结
@@ -249,6 +249,6 @@ $$\mathcal{L} = \mathcal{L}_{gcd} + \lambda \sum_{l=1}^{L-1}\mathcal{L}_{ce}^l$$
 - [\[ICCV 2025\] Generate, Refine, and Encode: Leveraging Synthesized Novel Samples for On-the-Fly Fine-Grained Category Discovery](generate_refine_and_encode_leveraging_synthesized_novel_samples_for_on-the-fly_f.md)
 - [\[ACL 2025\] The Hidden Attention of Mamba Models](../../ACL2025/others/the_hidden_attention_of_mamba_models.md)
 - [\[ICCV 2025\] Membership Inference Attacks with False Discovery Rate Control](membership_inference_attacks_with_false_discovery_rate_control.md)
-- [\[ECCV 2024\] AttnZero: Efficient Attention Discovery for Vision Transformers](../../ECCV2024/others/attnzero_efficient_attention_discovery_for_vision_transformers.md)
+- [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 音视频问答
+  - 多模态VLM
   - 多模态大语言模型
   - 线索聚合
   - 直接偏好优化
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.04640](https://arxiv.org/abs/2403.04640)  
 **代码**: [GitHub](https://github.com/rikeilong/Bay-CAT)  
-**领域**: 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: 音视频问答, 多模态大语言模型, 线索聚合, 直接偏好优化, 歧义消除
 
 ## 一句话总结
@@ -120,10 +120,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] Merlin: Empowering Multimodal LLMs with Foresight Minds](merlin_empowering_multimodal_llms_with_foresight_minds.md)
 - [\[ECCV 2024\] REVISION: Rendering Tools Enable Spatial Fidelity in Vision-Language Models](revision_rendering_tools_enable_spatial_fidelity_in_vision-language_models.md)
-- [\[ECCV 2024\] X-Former: Unifying Contrastive and Reconstruction Learning for MLLMs](x-former_unifying_contrastive_and_reconstruction_learning_for_mllms.md)
-- [\[ECCV 2024\] GENIXER: Empowering Multimodal Large Language Model as a Powerful Data Generator](genixer_empowering_multimodal_large_language_model_as_a_powe.md)
-- [\[ECCV 2024\] MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training](mm1_methods_analysis_and_insights_from_multimodal_llm_pre-training.md)
+- [\[ECCV 2024\] Large Motion Model for Unified Multi-Modal Motion Generation](large_motion_model_for_unified_multi-modal_motion_generation.md)
+- [\[ECCV 2024\] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)
+- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_lan.md)
+- [\[ECCV 2024\] Uni3DL: Unified Model for 3D and Language Understanding](uni3dl_a_unified_model_for_3d_vision-language_understanding.md)
 
 <!-- RELATED:END -->

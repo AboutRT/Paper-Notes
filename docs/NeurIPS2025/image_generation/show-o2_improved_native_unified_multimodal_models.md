@@ -49,17 +49,17 @@ Show-o2 的核心创新在于：在 3D 因果 VAE 空间中通过双路径融合
 
    采用 3D 因果 VAE 编码器提取视觉潜变量，然后通过双路径架构处理：
 
-   - **语义层 $\mathcal{S}(\cdot)$**：共享 SigLIP 的 ViT blocks（新增 2×2 patch embedding），提取高层语义信息。通过预蒸馏使其能从干净和加噪的视觉潜变量中提取语义特征：
+    - **语义层 $\mathcal{S}(\cdot)$**：共享 SigLIP 的 ViT blocks（新增 2×2 patch embedding），提取高层语义信息。通过预蒸馏使其能从干净和加噪的视觉潜变量中提取语义特征：
 
-   $$\mathcal{L}_{\text{distill}} = -\frac{1}{n}\sum\log\text{sim}(\mathcal{S}(\mathbf{x}_t), \text{SigLIP}(\mathbf{X}))$$
+    $\mathcal{L}_{\text{distill}} = -\frac{1}{n}\sum\log\text{sim}(\mathcal{S}(\mathbf{x}_t), \text{SigLIP}(\mathbf{X}))$
 
    其中 $\mathbf{x}_t = t \cdot \mathbf{x}_1 + (1-t) \cdot \mathbf{x}_0$，$t \sim [0,1]$。训练后干净潜变量的语义特征与原始 SigLIP 的余弦相似度达到约 0.9。
 
-   - **投影器 $\mathcal{P}(\cdot)$**：简单的 2D patch embedding 层，保留完整的低层细节信息
+    - **投影器 $\mathcal{P}(\cdot)$**：简单的 2D patch embedding 层，保留完整的低层细节信息
 
    两路特征通过空间（时间）融合机制合并：
 
-   $$\mathbf{u} = \text{STF}(\mathcal{S}(\mathbf{x}_t), \mathcal{P}(\mathbf{x}_t))$$
+    $\mathbf{u} = \text{STF}(\mathcal{S}(\mathbf{x}_t), \mathcal{P}(\mathbf{x}_t))$
 
    具体为沿特征维度拼接后经 RMSNorm + 两层 MLP。视频场景下，语义和低层特征在时间维度上自然对齐。
 
@@ -69,7 +69,7 @@ Show-o2 的核心创新在于：在 3D 因果 VAE 空间中通过双路径融合
 
    在语言头之外新增 Flow 头，由若干 transformer 层 + adaLN-Zero 时间步调制组成（类似 DiT），预测速度 $\mathbf{v}_t = d\mathbf{x}_t / dt$。训练目标：
 
-   $$\mathcal{L} = \alpha\mathcal{L}_{\text{NTP}} + \mathcal{L}_{\text{FM}}$$
+    $\mathcal{L} = \alpha\mathcal{L}_{\text{NTP}} + \mathcal{L}_{\text{FM}}$
 
    其中 $\mathcal{L}_{\text{NTP}}$ 为下一 token 预测损失，$\mathcal{L}_{\text{FM}}$ 为 flow matching 损失。
 

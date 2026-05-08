@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.09901](https://arxiv.org/abs/2511.09901)  
 **作者**: Weilin Wan, Fan Yi, Weizhong Zhang, Quan Zhou, Cheng Jin (Fudan University)
 **代码**: 未公开  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 权重剪枝, 核心集选择, 协同效应, 训练加速, 状态保持机制
 
 ## 一句话总结

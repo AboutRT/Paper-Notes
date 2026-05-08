@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.06621](https://arxiv.org/abs/2503.06621)  
-**代码**: https://github.com/GXNU-ZhongLab/DUTrack (有)  
+**代码**: [https://github.com/GXNU-ZhongLab/DUTrack](https://github.com/GXNU-ZhongLab/DUTrack)  
 **领域**: 视频理解  
 **关键词**: 视觉语言跟踪, 动态更新, 多模态参考, 大语言模型, 目标跟踪
 

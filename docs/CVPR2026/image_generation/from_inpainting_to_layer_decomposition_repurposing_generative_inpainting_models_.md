@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.20996](https://arxiv.org/abs/2511.20996)  
-**代码**: https://inpaintinglayerdecomp.github.io/  
+**代码**: [https://inpaintinglayerdecomp.github.io/](https://inpaintinglayerdecomp.github.io/)  
 **领域**: 扩散模型 / 图像编辑  
 **关键词**: 图层分解, 图像修复, 扩散模型, 前景提取, 参数高效微调
 

@@ -12,7 +12,7 @@ tags:
 > **会议**: ICCV 2025
 > **arXiv**: [2503.08665](https://arxiv.org/abs/2503.08665)
 > **代码**: [项目页面](https://bespontaneous.github.io/REGEN/)
-> **领域**: 视频生成·扩散模型·视频压缩
+> **领域**: 图像生成
 > **关键词**: video embedder, diffusion transformer, temporal compression, latent diffusion, video generation
 
 ## 一句话总结

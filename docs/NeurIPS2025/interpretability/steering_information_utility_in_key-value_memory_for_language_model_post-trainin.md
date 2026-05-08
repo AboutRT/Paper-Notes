@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Steering Information Utility in Key-Value Memory for Language Model Post-Training
 description: >-
-  [NeurIPS 2025][后训练优化] 提出 InfoSteer，一种轻量级方法，将 Transformer 的 FFN 层视为关联键值记忆，通过前向传播干预（提升低活跃记忆向量的 key coefficient）和反向传播正则化（最大化 key 分布熵）来促进预训练知识在后训练阶段的充分利用。在 Qwen/LLaMA/Gemma 三个系列 6 个模型上，15 个 ID+OOD 任务一致提升，且被引导的 LM 展现出自适应信息分配行为。
+  [NeurIPS 2025][可解释性] 提出 InfoSteer，一种轻量级方法，将 Transformer 的 FFN 层视为关联键值记忆，通过前向传播干预（提升低活跃记忆向量的 key coefficient）和反向传播正则化（最大化 key 分布熵）来促进预训练知识在后训练阶段的充分利用。在 Qwen/LLaMA/Gemma 三个系列 6 个模型上，15 个 ID+OOD 任务一致提升，且被引导的 LM 展现出自适应信息分配行为。
 tags:
   - NeurIPS 2025
-  - 后训练优化
+  - 可解释性
   - FFN键值记忆
   - 信息引导
   - 记忆向量激活
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.05158](https://arxiv.org/abs/2507.05158)  
 **代码**: [GitHub](https://github.com/chili-lab/InfoSteer)  
-**领域**: 模型压缩  
+**领域**: 可解释性  
 **关键词**: 后训练优化, FFN键值记忆, 信息引导, 记忆向量激活, SFT增强
 
 ## 一句话总结
@@ -153,8 +153,8 @@ $$\phi_i = \mathbf{v}_i \cdot W_{\text{decode}} \in \mathbb{R}^{|V|}$$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Curvature Tuning: Provable Training-free Model Steering From a Single Parameter](curvature_tuning_provable_training-free_model_steering_from_a_single_parameter.md)
 - [\[NeurIPS 2025\] Transformer Key-Value Memories Are Nearly as Interpretable as Sparse Autoencoders](transformer_key-value_memories_are_nearly_as_interpretable_as_sparse_autoencoder.md)
+- [\[NeurIPS 2025\] Curvature Tuning: Provable Training-free Model Steering From a Single Parameter](curvature_tuning_provable_training-free_model_steering_from_a_single_parameter.md)
 - [\[NeurIPS 2025\] Encoding and Understanding Astrophysical Information in Large Language Model-Generated Summaries](encoding_and_understanding_astrophysical_information_in_large_language_model-gen.md)
 - [\[NeurIPS 2025\] URLs Help, Topics Guide: Understanding Metadata Utility in LLM Training](urls_help_topics_guide_understanding_metadata_utility_in_llm_training.md)
 - [\[ACL 2026\] Context-Value-Action Architecture for Value-Driven Large Language Model Agents](../../ACL2026/interpretability/context-value-action_architecture_for_value-driven_large_language_model_agents.md)

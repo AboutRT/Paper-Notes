@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - Dual-LoRA
+  - 多模态VLM
   - LoRA-MoE
   - 视觉线索增强
   - 数据冲突
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2411.12787](https://arxiv.org/abs/2411.12787)  
 **代码**: [https://github.com/pengkun-jiao/Dual-LoRA](https://github.com/pengkun-jiao/Dual-LoRA)  
-**领域**: 多模态视觉语言模型 / 高效微调  
+**领域**: 多模态VLM  
 **关键词**: Dual-LoRA, LoRA-MoE, 视觉线索增强, 数据冲突, 高效指令微调
 
 ## 一句话总结
@@ -134,9 +134,9 @@ Dual-LoRA 内部设计消融：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](../../NeurIPS2025/multimodal_vlm/visual_instruction_bottleneck_tuning.md)
 - [\[ICCV 2025\] SMoLoRA: Exploring and Defying Dual Catastrophic Forgetting in Continual Visual Instruction Tuning](smolora_exploring_and_defying_dual_catastrophic_forgetting_in_continual_visual_i.md)
-- [\[ICCV 2025\] MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](metamorph_multimodal_understanding_and_generation_via_instruction_tuning.md)
+- [\[ICCV 2025\] MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](metamorph_multimodal_understanding_and_generation_via_instru.md)
+- [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](../../NeurIPS2025/multimodal_vlm/visual_instruction_bottleneck_tuning.md)
 - [\[ICML 2025\] Parrot: Multilingual Visual Instruction Tuning](../../ICML2025/multimodal_vlm/parrot_multilingual_visual_instruction_tuning.md)
 - [\[NeurIPS 2025\] Learning to Instruct for Visual Instruction Tuning](../../NeurIPS2025/multimodal_vlm/learning_to_instruct_for_visual_instruction_tuning.md)
 

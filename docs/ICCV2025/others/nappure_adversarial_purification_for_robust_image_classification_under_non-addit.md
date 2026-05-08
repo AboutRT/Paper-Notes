@@ -2,10 +2,10 @@
 title: >-
   [论文解读] NAPPure: Adversarial Purification for Robust Image Classification under Non-Additive Perturbations
 description: >-
-  [ICCV 2025][对抗纯化] 提出 NAPPure 框架，通过联合优化底层干净图像和扰动参数（基于似然最大化），将对抗纯化从仅处理加性扰动扩展到模糊、遮挡、几何扭曲等非加性扰动，在GTSRB上实现73.93%的平均鲁棒准确率（传统方法仅43.2%）。
+  [ICCV 2025][其他] 提出 NAPPure 框架，通过联合优化底层干净图像和扰动参数（基于似然最大化），将对抗纯化从仅处理加性扰动扩展到模糊、遮挡、几何扭曲等非加性扰动，在GTSRB上实现73.93%的平均鲁棒准确率（传统方法仅43.2%）。
 tags:
   - ICCV 2025
-  - 对抗纯化
+  - 其他
   - 非加性扰动
   - 扩散模型
   - 鲁棒分类
@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 2510.14025  
 **代码**: 无  
-**领域**: others / Adversarial Robustness  
+**领域**: 其他  
 **关键词**: 对抗纯化, 非加性扰动, 扩散模型, 鲁棒分类, 模糊攻击, 遮挡攻击, 几何扭曲
 
 ## 一句话总结
@@ -183,7 +183,7 @@ $$\hat{f}(x, \hat{\epsilon}) = w \cdot f(x, \epsilon) + (1-w) \cdot x$$
 - [\[ECCV 2024\] Active Generation for Image Classification](../../ECCV2024/others/active_generation_for_image_classification.md)
 - [\[AAAI 2026\] Boosting Adversarial Transferability via Ensemble Non-Attention](../../AAAI2026/others/boosting_adversarial_transferability_via_ensemble_non-attention.md)
 - [\[ACL 2025\] Battling against Tough Resister: Strategy Planning with Adversarial Game for Non-collaborative Dialogues](../../ACL2025/others/battling_against_tough_resister_strategy_planning_with_adversarial_game_for_non-.md)
-- [\[ICCV 2025\] Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval](learning_visual_hierarchies_in_hyperbolic_space_for_image_retrieval.md)
+- [\[ICCV 2025\] Adversarial Data Augmentation for Single Domain Generalization via Lyapunov Exponents](adversarial_data_augmentation_for_single_domain_generalization_via_lyapunov_expo.md)
 - [\[ICCV 2025\] IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization](iap_invisible_adversarial_patch_attack_through_perceptibility-aware_localization.md)
 
 <!-- RELATED:END -->

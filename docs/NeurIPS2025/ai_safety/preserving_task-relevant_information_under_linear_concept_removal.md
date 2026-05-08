@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.10703](https://arxiv.org/abs/2506.10703)  
-**代码**: https://github.com/ (有，论文脚注提供链接)  
+**代码**: [https://github.com/](https://github.com/) (有，论文脚注提供链接)  
 **领域**: AI安全 / 公平性  
 **关键词**: 概念擦除, 公平表示学习, 斜投影, 线性守护, 偏见消除
 
@@ -134,9 +134,9 @@ SPLINCE是一种线性代数方法，计算一个投影矩阵 $\mathbf{P}^*_{SPL
 ## 相关论文
 
 - [\[NeurIPS 2025\] Causally Reliable Concept Bottleneck Models](causally_reliable_concept_bottleneck_models.md)
-- [\[NeurIPS 2025\] Fairness under Competition](fairness_under_competition.md)
-- [\[NeurIPS 2025\] Nearly-Linear Time Private Hypothesis Selection with the Optimal Approximation Factor](nearly-linear_time_private_hypothesis_selection_with_the_optimal_approximation_f.md)
 - [\[NeurIPS 2025\] Factor Decorrelation Enhanced Data Removal from Deep Predictive Models](factor_decorrelation_enhanced_data_removal_from_deep_predictive_models.md)
-- [\[NeurIPS 2025\] Matchings Under Biased and Correlated Evaluations](matchings_under_biased_and_correlated_evaluations.md)
+- [\[NeurIPS 2025\] Nearly-Linear Time Private Hypothesis Selection with the Optimal Approximation Factor](nearly-linear_time_private_hypothesis_selection_with_the_optimal_approximation_f.md)
+- [\[NeurIPS 2025\] Fairness under Competition](fairness_under_competition.md)
+- [\[NeurIPS 2025\] Stealthy Yet Effective: Distribution-Preserving Backdoor Attacks on Graph Classification](stealthy_yet_effective_distribution-preserving_backdoor_attacks_on_graph_classif.md)
 
 <!-- RELATED:END -->

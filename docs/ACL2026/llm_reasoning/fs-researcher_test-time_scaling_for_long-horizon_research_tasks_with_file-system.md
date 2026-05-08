@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2602.01566](https://arxiv.org/abs/2602.01566)  
 **代码**: [https://github.com/Ignoramus0817/FS-Researcher](https://github.com/Ignoramus0817/FS-Researcher)  
-**领域**: LLM Agent / 深度研究  
+**领域**: LLM推理  
 **关键词**: 深度研究, 文件系统, 测试时扩展, 知识库构建, 双Agent框架
 
 ## 一句话总结
@@ -154,6 +154,6 @@ FS-Researcher 是双 Agent 框架，分为两个阶段：(1) Context Builder（�
 - [\[ACL 2026\] Scaling Test-Time Compute to Achieve IOI Gold Medal with Open-Weight Models](scaling_test-time_compute_to_achieve_ioi_gold_medal_with_open-weight_models.md)
 - [\[ICLR 2026\] The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs](../../ICLR2026/llm_reasoning/the_illusion_of_diminishing_returns_measuring_long_horizon_execution_in_llms.md)
 - [\[ICLR 2026\] ATTS: Asynchronous Test-Time Scaling via Conformal Prediction](../../ICLR2026/llm_reasoning/atts_asynchronous_test-time_scaling_via_conformal_prediction.md)
-- [\[ICLR 2026\] Understanding the Role of Training Data in Test-Time Scaling](../../ICLR2026/llm_reasoning/understanding_the_role_of_training_data_in_test-time_scaling.md)
+- [\[ICLR 2026\] Scaling Generalist Data-Analytic Agents](../../ICLR2026/llm_reasoning/scaling_generalist_data-analytic_agents.md)
 
 <!-- RELATED:END -->

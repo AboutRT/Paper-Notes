@@ -8,7 +8,7 @@ tags:
   - 视频过渡生成
   - 图像变形
   - 双向运动预测
-  - LoRA插值
+  - 视频生成
   - 表征对齐正则化
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.01698](https://arxiv.org/abs/2508.01698)  
 **代码**: [项目主页](https://mwxely.github.io/projects/yang2025vtg/index)  
-**领域**: image_generation  
+**领域**: 视频生成  
 **关键词**: 视频过渡生成, 图像变形, 双向运动预测, LoRA插值, 表征对齐正则化
 
 ## 一句话总结
@@ -113,10 +113,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] Multi-identity Human Image Animation with Structural Video Diffusion](multi-identity_human_image_animation_with_structural_video_diffusion.md)
 - [\[ICCV 2025\] TIP-I2V: A Million-Scale Real Text and Image Prompt Dataset for Image-to-Video Generation](tip-i2v_a_million-scale_real_text_and_image_prompt_dataset_for_image-to-video_ge.md)
 - [\[ICCV 2025\] Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis](adversarial_distribution_matching_for_diffusion_distillation_towards_efficient_image_and_video_synthesis.md)
 - [\[ICCV 2025\] STiV: Scalable Text and Image Conditioned Video Generation](stiv_scalable_text_and_image_conditioned_video_generation.md)
 - [\[CVPR 2025\] Pathways on the Image Manifold: Image Editing via Video Generation](../../CVPR2025/video_generation/pathways_on_the_image_manifold_image_editing_via_video_generation.md)
+- [\[ICCV 2025\] Multi-identity Human Image Animation with Structural Video Diffusion](multi-identity_human_image_animation_with_structural_video_diffusion.md)
 
 <!-- RELATED:END -->

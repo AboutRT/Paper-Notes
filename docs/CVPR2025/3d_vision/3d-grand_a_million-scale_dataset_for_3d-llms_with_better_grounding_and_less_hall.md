@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2406.05132](https://arxiv.org/abs/2406.05132)  
 **代码**: [https://3d-grand.github.io/](https://3d-grand.github.io/)  
-**领域**: 多模态VLM / 3D场景理解 / 数据集  
+**领域**: 3D视觉  
 **关键词**: 3D-LLM, Dense Grounding, Hallucination, 3D-POPE, sim-to-real
 
 ## 一句话总结

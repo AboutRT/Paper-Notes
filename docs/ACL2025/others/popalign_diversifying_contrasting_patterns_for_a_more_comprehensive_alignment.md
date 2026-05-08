@@ -7,7 +7,7 @@ tags:
   - ACL2025
   - PopAlign
   - Contrasting Patterns
-  - DPO
+  - 其他
   - Preference Data
   - Alignment
   - Elicitive Contrast
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2410.13785](https://arxiv.org/abs/2410.13785)  
 **代码**: -  
-**领域**: LLM对齐 / 偏好优化 / 对比学习  
+**领域**: 其他  
 **关键词**: PopAlign, Contrasting Patterns, DPO, Preference Data, Alignment, Elicitive Contrast  
 
 ## 一句话总结
@@ -186,8 +186,8 @@ PopAlign的Reward Margins（70.2）远超Label-DPO（21.4），说明chosen和re
 
 - [\[ACL 2025\] Towards Comprehensive Argument Analysis in Education: Dataset, Tasks, and Method](towards_comprehensive_argument_analysis_in_education_dataset_tasks_and_method.md)
 - [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
-- [\[ACL 2025\] ChildMandarin: A Comprehensive Mandarin Speech Dataset for Young Children Aged 3-5](childmandarin_a_comprehensive_mandarin_speech_dataset_for_young_children_aged_3-.md)
 - [\[ACL 2025\] Model Extrapolation Expedites Alignment](expo_model_extrapolation.md)
 - [\[ACL 2025\] RoToR: Towards More Reliable Responses for Order-Invariant Inputs](rotor_towards_more_reliable_responses_for_order-invariant_inputs.md)
+- [\[ACL 2025\] ChildMandarin: A Comprehensive Mandarin Speech Dataset for Young Children Aged 3-5](childmandarin_a_comprehensive_mandarin_speech_dataset_for_young_children_aged_3-.md)
 
 <!-- RELATED:END -->

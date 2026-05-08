@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance
 description: >-
-  [NeurIPS 2025][代码助手] 提出 CodeAssistBench (CAB)，第一个评估多轮、项目级编程辅助的全自动 Benchmark，从 GitHub Issues 自动构建 3,286 个真实编程求助场景，涵盖 7 种语言 214 个仓库，揭示 SOTA 模型在 StackOverflow 问题上 70-83% 但在 post-cutoff 仓库上仅 7-16% 的巨大鸿沟。
+  [NeurIPS 2025][LLM评测] 提出 CodeAssistBench (CAB)，第一个评估多轮、项目级编程辅助的全自动 Benchmark，从 GitHub Issues 自动构建 3,286 个真实编程求助场景，涵盖 7 种语言 214 个仓库，揭示 SOTA 模型在 StackOverflow 问题上 70-83% 但在 post-cutoff 仓库上仅 7-16% 的巨大鸿沟。
 tags:
   - NeurIPS 2025
-  - 代码助手
+  - LLM评测
   - 多轮对话
   - benchmark
   - 编程辅助
@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.10646](https://arxiv.org/abs/2507.10646)  
 **代码**: [amazon-science/CodeAssistBench](https://github.com/amazon-science/CodeAssistBench/)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 代码助手, 多轮对话, benchmark, 编程辅助, GitHub Issues, 项目级评估, LLM Agent
 
 ## 一句话总结
@@ -150,9 +150,9 @@ CAB 包含两个核心组件：
 ## 相关论文
 
 - [\[ACL 2025\] StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following](../../ACL2025/llm_evaluation/structflowbench_a_structured_flow_benchmark_for_multi-turn_instruction_following.md)
-- [\[ACL 2025\] CodeMEnv: Benchmarking Large Language Models on Code Migration](../../ACL2025/llm_evaluation/codemenv_benchmarking_large_language_models_on_code_migration.md)
 - [\[ACL 2025\] Benchmarking LLMs and LLM-based Agents in Practical Vulnerability Detection for Code Repositories](../../ACL2025/llm_evaluation/benchmarking_llms_and_llm-based_agents_in_practical_vulnerability_detection_for_.md)
+- [\[ACL 2025\] CodeMEnv: Benchmarking Large Language Models on Code Migration](../../ACL2025/llm_evaluation/codemenv_benchmarking_large_language_models_on_code_migration.md)
 - [\[ACL 2025\] MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset](../../ACL2025/llm_evaluation/mars_benchmarking_the_metaphysical_reasoning_abilities_of_language_models_with_a.md)
-- [\[NeurIPS 2025\] Merlin L48 Spectrogram Dataset](merlin_l48_spectrogram_dataset.md)
+- [\[ACL 2025\] VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare](../../ACL2025/llm_evaluation/vital_pluralistic_alignment_healthcare.md)
 
 <!-- RELATED:END -->

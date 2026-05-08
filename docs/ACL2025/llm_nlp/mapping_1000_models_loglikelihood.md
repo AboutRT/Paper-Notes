@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.16173](https://arxiv.org/abs/2502.16173)  
-**代码**: https://github.com/shimo-lab/modelmap  
+**代码**: [https://github.com/shimo-lab/modelmap](https://github.com/shimo-lab/modelmap)  
 **领域**: LLM / NLP  
 **关键词**: model mapping, log-likelihood vector, KL divergence, model clustering, benchmark prediction
 

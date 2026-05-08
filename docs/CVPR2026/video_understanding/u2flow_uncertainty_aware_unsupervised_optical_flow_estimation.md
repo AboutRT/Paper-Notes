@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.10056](https://arxiv.org/abs/2604.10056)  
-**代码**: https://github.com/sunzunyi/U2FLOW  
+**代码**: [https://github.com/sunzunyi/U2FLOW](https://github.com/sunzunyi/U2FLOW)  
 **领域**: 视频理解/光流估计  
 **关键词**: 光流估计, 不确定性估计, 无监督学习, 循环网络, 增强一致性
 

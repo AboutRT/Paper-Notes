@@ -128,8 +128,8 @@ PVB 采用编码器-解码器架构。输入为分子构象 $(z, C, x)$（原子
 
 - [\[ICLR 2026\] Discrete Diffusion Trajectory Alignment via Stepwise Decomposition](discrete_diffusion_trajectory_alignment_via_stepwise_decomposition.md)
 - [\[NeurIPS 2025\] Unified All-Atom Molecule Generation with Neural Fields](../../NeurIPS2025/medical_imaging/unified_all-atom_molecule_generation_with_neural_fields.md)
-- [\[NeurIPS 2025\] Fractional Diffusion Bridge Models](../../NeurIPS2025/medical_imaging/fractional_diffusion_bridge_models.md)
 - [\[ICLR 2026\] Human Behavior Atlas: Benchmarking Unified Psychological and Social Behavior Understanding](human_behavior_atlas_benchmarking_unified_psychological_and_social_behavior_unde.md)
+- [\[NeurIPS 2025\] Fractional Diffusion Bridge Models](../../NeurIPS2025/medical_imaging/fractional_diffusion_bridge_models.md)
 - [\[ICLR 2026\] Ultra-Fast Language Generation via Discrete Diffusion Divergence Instruct](ultra-fast_language_generation_via_discrete_diffusion_divergence_instruct.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2410.05880](https://arxiv.org/abs/2410.05880)  
 **代码**: 无（理论工作）  
-**领域**: optimization / privacy  
+**领域**: 优化  
 **关键词**: 差分隐私, 非光滑非凸优化, Goldstein 稳定性, 样本复杂度, 零阶优化, 方差缩减
 
 ## 一句话总结
@@ -124,10 +124,10 @@ $$n = \widetilde{\Omega}\!\left(\frac{d}{\beta^2} + \frac{d^{3/4}}{\varepsilon\a
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds](../../NeurIPS2025/optimization/finite-time_analysis_of_stochastic_nonconvex_nonsmooth_optimization_on_the_riema.md)
 - [\[ICML 2025\] Improved Last-Iterate Convergence of Shuffling Gradient Methods for Nonsmooth Convex Optimization](improved_last-iterate_convergence_of_shuffling_gradient_methods_for_nonsmooth_co.md)
 - [\[ICML 2025\] Nearly Optimal Sample Complexity for Learning with Label Proportions](nearly_optimal_sample_complexity_for_learning_with_label_proportions.md)
 - [\[NeurIPS 2025\] Second-Order Optimization Under Heavy-Tailed Noise: Hessian Clipping and Sample Complexity](../../NeurIPS2025/optimization/second-order_optimization_under_heavy-tailed_noise_hessian_clipping_and_sample_c.md)
 - [\[ICML 2025\] POPri: Private Federated Learning using Preference-Optimized Synthetic Data](popri_private_federated_learning_using_preference-optimized_synthetic_data.md)
+- [\[NeurIPS 2025\] Sharper Convergence Rates for Nonconvex Optimisation via Reduction Mappings](../../NeurIPS2025/optimization/sharper_convergence_rates_for_nonconvex_optimisation_via_reduction_mappings.md)
 
 <!-- RELATED:END -->

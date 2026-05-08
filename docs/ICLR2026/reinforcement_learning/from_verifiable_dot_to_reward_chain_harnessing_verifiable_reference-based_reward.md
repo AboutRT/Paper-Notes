@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2601.18533](https://arxiv.org/abs/2601.18533)  
-**代码**: https://github.com/YJiangcm/RLVRR  
+**代码**: [https://github.com/YJiangcm/RLVRR](https://github.com/YJiangcm/RLVRR)  
 **领域**: 强化学习 / LLM对齐  
 **关键词**: RLVR, 开放式生成, 奖励链, 可验证奖励, GRPO
 
@@ -138,8 +138,8 @@ RLVRR 用 10K 数据在所有指标上超越 100K SFT 和 8B 奖励模型。
 ## 相关论文
 
 - [\[ICLR 2026\] LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards](longrlvr_long-context_reinforcement_learning_requires_verifiable_context_rewards.md)
-- [\[ICLR 2026\] Helix: Evolutionary Reinforcement Learning for Open-Ended Scientific Problem Solving](helix_evolutionary_reinforcement_learning_for_open-ended_scientific_problem_solv.md)
 - [\[NeurIPS 2025\] Reasoning Gym: Reasoning Environments for Reinforcement Learning with Verifiable Rewards](../../NeurIPS2025/reinforcement_learning/reasoning_gym_reasoning_environments_for_reinforcement_learning_with_verifiable_.md)
+- [\[ICLR 2026\] Helix: Evolutionary Reinforcement Learning for Open-Ended Scientific Problem Solving](helix_evolutionary_reinforcement_learning_for_open-ended_scientific_problem_solv.md)
 - [\[NeurIPS 2025\] Generalizing Verifiable Instruction Following](../../NeurIPS2025/reinforcement_learning/generalizing_verifiable_instruction_following.md)
 - [\[ICLR 2026\] References Improve LLM Alignment in Non-Verifiable Domains](references_improve_llm_alignment_in_non-verifiable_domains.md)
 

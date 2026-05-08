@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2411.18281](https://arxiv.org/abs/2411.18281)  
 **代码**: [https://motioncharacter.github.io/](https://motioncharacter.github.io/)  
-**领域**: 视频理解  
+**领域**: 视频生成  
 **关键词**: 人体视频生成, 运动控制, 身份保持, 光流, 扩散模型
 
 ## 一句话总结

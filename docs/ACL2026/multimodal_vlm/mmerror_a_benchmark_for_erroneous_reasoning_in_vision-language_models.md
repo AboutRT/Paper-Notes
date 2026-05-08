@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 多模态
-  - 错误推理诊断
+  - 多模态VLM
   - 视觉语言模型评测
   - 过程级评估
   - 错误分类
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2601.03331](https://arxiv.org/abs/2601.03331)  
-**代码**: https://mmerror-benchmark.github.io  
-**领域**: 多模态视觉语言模型/推理评测  
+**代码**: [https://mmerror-benchmark.github.io](https://mmerror-benchmark.github.io)  
+**领域**: 多模态VLM  
 **关键词**: 错误推理诊断, 视觉语言模型评测, 过程级评估, 错误分类, 多模态推理
 
 ## 一句话总结
@@ -142,6 +142,6 @@ MMErroR 的构建流程分四步：(1) 问题策展——从 MMMU、MathVista、
 - [\[ACL 2026\] GeoRC: A Benchmark for Geolocation Reasoning Chains](georc_a_benchmark_for_geolocation_reasoning_chains.md)
 - [\[ICLR 2026\] OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models](../../ICLR2026/multimodal_vlm/omnispatial_towards_comprehensive_spatial_reasoning_benchmark_for_vision_languag.md)
 - [\[CVPR 2026\] SpatiaLQA: A Benchmark for Evaluating Spatial Logical Reasoning in Vision-Language Models](../../CVPR2026/multimodal_vlm/spatialqa_a_benchmark_for_evaluating_spatial_logical_reasoning_in_vision-languag.md)
-- [\[ICLR 2026\] Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models](../../ICLR2026/multimodal_vlm/spatial-dise_a_unified_benchmark_for_evaluating_spatial_reasoning_in_vision-lang.md)
+- [\[ACL 2026\] ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](errorradar_benchmarking_complex_mathematical_reasoning_of_multimodal_large_langu.md)
 
 <!-- RELATED:END -->

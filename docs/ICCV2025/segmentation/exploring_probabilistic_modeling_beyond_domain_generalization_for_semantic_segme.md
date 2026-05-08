@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.21367](https://arxiv.org/abs/2507.21367)  
 **代码**: [https://pdaf-iccv.github.io](https://pdaf-iccv.github.io)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 领域泛化, 语义分割, 扩散模型, latent domain prior, probabilistic modeling
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 视频异常理解
-  - 评估基准
+  - 可解释性
   - LLM评判
   - 细粒度评估
   - 人类对齐
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.17258](https://arxiv.org/abs/2601.17258)  
 **代码**: [https://finevau.github.io](https://finevau.github.io)  
-**领域**: 多模态VLM  
+**领域**: 可解释性  
 **关键词**: 视频异常理解, 评估基准, LLM评判, 细粒度评估, 人类对齐
 
 ## 一句话总结
@@ -144,9 +144,9 @@ FineVAU 包含三个核心贡献：
 ## 相关论文
 
 - [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](../../CVPR2026/interpretability/text-guided_fine-grained_video_anomaly_understanding.md)
+- [\[AAAI 2026\] Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution](can_llms_truly_embody_human_personality_analyzing_ai_and_human_behavior_alignmen.md)
 - [\[AAAI 2026\] ElementaryNet: A Non-Strategic Neural Network for Predicting Human Behavior in Normal-Form Games](elementarynet_a_non-strategic_neural_network_for_predicting_human_behavior_in_no.md)
 - [\[AAAI 2026\] GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)
 - [\[AAAI 2026\] FlashKAT: Understanding and Addressing Performance Bottlenecks in the Kolmogorov-Arnold Transformer](flashkat_understanding_and_addressing_performance_bottlenecks_in_the_kolmogorov-.md)
-- [\[AAAI 2026\] Voices, Faces, and Feelings: Multi-modal Emotion-Cognition Captioning for Mental Health Understanding](voices_faces_and_feelings_multi-modal_emotion-cognition_captioning_for_mental_he.md)
 
 <!-- RELATED:END -->

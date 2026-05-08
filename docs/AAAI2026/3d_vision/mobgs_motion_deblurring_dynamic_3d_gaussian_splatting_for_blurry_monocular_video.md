@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2504.15122](https://arxiv.org/abs/2504.15122)  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, motion deblurring, dynamic novel view synthesis, Neural ODE, monocular video  
 
 ## 一句话总结

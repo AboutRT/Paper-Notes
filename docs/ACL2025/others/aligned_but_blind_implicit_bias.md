@@ -10,7 +10,7 @@ tags:
   - alignment side-effect
   - activation patching
   - bias mitigation
-  - LoRA intervention
+  - 其他
 ---
 
 # Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00253](https://arxiv.org/abs/2506.00253)  
 **代码**: [https://github.com/slhleosun/aligned-but-blind](https://github.com/slhleosun/aligned-but-blind)  
-**领域**: LLM 对齐 / 偏见分析  
+**领域**: 其他  
 **关键词**: implicit bias, race blindness, alignment side-effect, activation patching, bias mitigation, LoRA intervention
 
 ## 一句话总结

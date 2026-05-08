@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.22157](https://arxiv.org/abs/2506.22157)  
-**代码**: https://github.com/publicstaticvo/critique  
+**代码**: [https://github.com/publicstaticvo/critique](https://github.com/publicstaticvo/critique)  
 **领域**: LLM NLP  
 **关键词**: Critique-Refinement Loop, Critique Utility, DPO变体, 自动偏好学习, 多任务评估
 

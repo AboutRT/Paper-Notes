@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.21952](https://arxiv.org/abs/2602.21952)  
-**代码**: https://github.com/hotdogcheesewhite/MindDriver (有)  
+**代码**: [https://github.com/hotdogcheesewhite/MindDriver](https://github.com/hotdogcheesewhite/MindDriver)  
 **领域**: 自动驾驶  
 **关键词**: 多模态推理, Chain-of-Thought, VLM自动驾驶, 渐进式推理, 强化微调
 

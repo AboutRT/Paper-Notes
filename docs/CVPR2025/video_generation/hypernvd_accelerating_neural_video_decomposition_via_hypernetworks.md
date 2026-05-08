@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.17276](https://arxiv.org/abs/2503.17276)  
-**代码**: https://hypernvd.github.io/  
+**代码**: [https://hypernvd.github.io/](https://hypernvd.github.io/)  
 **领域**: 视频理解/视频编辑  
 **关键词**: 视频分解, 超网络, 隐式神经表示, 元学习, 视频编辑, 层分解
 
@@ -116,6 +116,6 @@ HyperNVD 包含三个组件：(1) **VideoMAE 编码器**——预训练的视频
 - [\[CVPR 2026\] Generative Neural Video Compression via Video Diffusion Prior](../../CVPR2026/video_generation/generative_neural_video_compression_via_video_diffusion_prior.md)
 - [\[ACL 2025\] Q2E: Query-to-Event Decomposition for Zero-Shot Multilingual Text-to-Video Retrieval](../../ACL2025/video_generation/q2e_query-to-event_decomposition_for_zero-shot_multilingual_text-to-video_retrie.md)
 - [\[ICCV 2025\] FVGen: Accelerating Novel-View Synthesis with Adversarial Video Diffusion Distillation](../../ICCV2025/video_generation/fvgen_accelerating_novel-view_synthesis_with_adversarial_video_diffusion_distill.md)
-- [\[ACL 2026\] Accelerating Training of Autoregressive Video Generation Models via Local Optimization with Representation Continuity](../../ACL2026/video_generation/accelerating_training_of_autoregressive_video_generation_models_via_local_optimi.md)
+- [\[CVPR 2026\] DisCa: Accelerating Video Diffusion Transformers with Distillation-Compatible Learnable Feature Caching](../../CVPR2026/video_generation/disca_accelerating_video_diffusion_transformers_wi.md)
 
 <!-- RELATED:END -->

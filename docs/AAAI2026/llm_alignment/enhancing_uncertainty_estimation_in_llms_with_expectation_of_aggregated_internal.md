@@ -134,6 +134,6 @@ EAGLE（Expectation of AGgregated internaL bEief）流程：(1) LLM生成回答�
 - [\[ACL 2025\] Expectation Confirmation Preference Optimization for Multi-Turn Conversational Recommendation Agent](../../ACL2025/llm_alignment/expectation_confirmation_preference_optimization_for_multi-turn_conversational_r.md)
 - [\[NeurIPS 2025\] Multi-Environment POMDPs: Discrete Model Uncertainty Under Partial Observability](../../NeurIPS2025/llm_alignment/multi-environment_pomdps_discrete_model_uncertainty_under_partial_observability.md)
 - [\[ACL 2025\] Internal Value Alignment in Large Language Models through Controlled Value Vector Activation](../../ACL2025/llm_alignment/internal_value_alignment_in_large_language_models_through_controlled_value_vecto.md)
-- [\[ACL 2025\] HiddenDetect: Detecting Jailbreak Attacks against Large Vision-Language Models via Monitoring Hidden States](../../ACL2025/llm_alignment/hiddendetect_detecting_jailbreak_attacks_against_multimodal_large_language_model.md)
+- [\[ACL 2025\] AgentRM: Enhancing Agent Generalization with Reward Modeling](../../ACL2025/llm_alignment/agentrm_enhancing_agent_generalization_with_reward_modeling.md)
 
 <!-- RELATED:END -->

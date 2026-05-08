@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2503.12734](https://arxiv.org/abs/2503.12734)  
 **代码**: 无  
-**领域**: Optimization  
+**领域**: 优化  
 **关键词**: 上下文学习, transformer, multi-head attention, 训练动态, 机制可解释性
 
 ## 一句话总结

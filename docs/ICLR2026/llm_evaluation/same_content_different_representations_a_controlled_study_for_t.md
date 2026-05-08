@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Same Content, Different Representations: A Controlled Study for Table QA
 description: >-
-  [ICLR 2026][Table QA] 首个控制变量研究：在保持表格内容完全相同的条件下变换表示形式（结构化 vs 半结构化），系统评估 NL2SQL、LLM、混合三类方法在不同表格大小/模式质量/查询复杂度下的鲁棒性，发现表示形式是影响 Table QA 性能的一阶因素。
+  [ICLR 2026][LLM评测] 首个控制变量研究：在保持表格内容完全相同的条件下变换表示形式（结构化 vs 半结构化），系统评估 NL2SQL、LLM、混合三类方法在不同表格大小/模式质量/查询复杂度下的鲁棒性，发现表示形式是影响 Table QA 性能的一阶因素。
 tags:
   - ICLR 2026
-  - Table QA
+  - LLM评测
   - 结构化表格
   - 半结构化表格
   - 表示形式
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.22983](https://arxiv.org/abs/2509.22983)  
 **代码**: [https://github.com/megagonlabs/RePairTQA](https://github.com/megagonlabs/RePairTQA)  
-**领域**: NLP理解 / 表格问答  
+**领域**: LLM评测  
 **关键词**: Table QA, 结构化表格, 半结构化表格, 表示形式, 诊断基准  
 
 ## 一句话总结
@@ -124,10 +124,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICLR 2026\] Function Spaces Without Kernels: Learning Compact Hilbert Space Representations](function_spaces_without_kernels_learning_compact_hilbert_space_representations.md)
 - [\[ACL 2025\] RealHiTBench: A Comprehensive Realistic Hierarchical Table Benchmark for Evaluating LLM-Based Table Analysis](../../ACL2025/llm_evaluation/realhitbench_a_comprehensive_realistic_hierarchical_table_benchmark_for_evaluati.md)
-- [\[ICLR 2026\] CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of LLMs in Mental Health QA](counselbench_llm_mental_health_qa.md)
+- [\[ACL 2026\] ODUTQA-MDC: A Task for Open-Domain Underspecified Tabular QA with Multi-turn Dialogue-based Clarification](../../ACL2026/llm_evaluation/odutqa-mdc_a_task_for_open-domain_underspecified_tabular_qa_with_multi-turn_dial.md)
 - [\[NeurIPS 2025\] Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](../../NeurIPS2025/llm_evaluation/beyond_the_surface_enhancing_llm-as-a-judge_alignment_with_human_via_internal_re.md)
 - [\[ACL 2025\] Navigating Rifts in Human-LLM Grounding: Study and Benchmark](../../ACL2025/llm_evaluation/navigating_rifts_in_human-llm_grounding_study_and_benchmark.md)
-- [\[NeurIPS 2025\] RGB-to-Polarization Estimation: A New Task and Benchmark Study](../../NeurIPS2025/llm_evaluation/rgb-to-polarization_estimation_a_new_task_and_benchmark_study.md)
 
 <!-- RELATED:END -->

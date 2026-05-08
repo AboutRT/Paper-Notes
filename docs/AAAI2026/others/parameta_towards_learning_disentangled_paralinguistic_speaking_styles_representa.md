@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - Speaking Style Representation
-  - Disentangled Embedding
+  - 其他
   - 对比学习
   - Prototype Learning
   - text-to-speech
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.12289](https://arxiv.org/abs/2601.12289)  
 **代码**: [GitHub](https://github.com/haoweilou/ParaMETA)  
-**领域**: 语音表示学习 / 副语言学 / 语音合成  
+**领域**: 其他  
 **关键词**: Speaking Style Representation, Disentangled Embedding, Contrastive Learning, Prototype Learning, text-to-speech
 
 ## 一句话总结
@@ -230,9 +230,9 @@ ParaMETA-LSTM 仅需 CLAP 1.9% 的参数量、22% 的显存、运行速度快 30
 ## 相关论文
 
 - [\[AAAI 2026\] Learning Fair Representations with Kolmogorov-Arnold Networks](learning_fair_representations_with_kolmogorov-arnold_networks.md)
-- [\[CVPR 2025\] SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification](../../CVPR2025/others/sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md)
-- [\[ICML 2025\] On the Importance of Gaussianizing Representations](../../ICML2025/others/on_the_importance_of_gaussianizing_representations.md)
-- [\[ICLR 2026\] Exchangeability of GNN Representations with Applications to Graph Retrieval](../../ICLR2026/others/exchangeability_gnn_representations.md)
-- [\[ICLR 2026\] Addressing Divergent Representations from Causal Interventions on Neural Networks](../../ICLR2026/others/addressing_divergent_representations_causal.md)
+- [\[ECCV 2024\] Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](../../ECCV2024/others/decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)
+- [\[ECCV 2024\] DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](../../ECCV2024/others/decoupling_common_and_unique_representations_for_multimodal_.md)
+- [\[AAAI 2026\] Bandit Learning in Housing Markets](bandit_learning_in_housing_markets.md)
+- [\[ACL 2025\] Graphically Speaking: Unmasking Abuse in Social Media with Conversation Insights](../../ACL2025/others/graphically_speaking_unmasking_abuse_in_social_media_with_conversation_insights.md)
 
 <!-- RELATED:END -->

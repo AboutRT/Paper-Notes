@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.20499](https://arxiv.org/abs/2502.20499)  
-**代码**: https://github.com/fdelrio89/data-systematic  
+**代码**: [https://github.com/fdelrio89/data-systematic](https://github.com/fdelrio89/data-systematic)  
 **领域**: 多模态VLM  
 **关键词**: 系统性泛化、数据分布性质、归纳偏置、解纠缠表征、多模态MLM
 
@@ -126,6 +126,6 @@ tags:
 - [\[CVPR 2025\] Identifying and Mitigating Position Bias of Multi-image Vision-Language Models](identifying_and_mitigating_position_bias_of_multi-image_vision-language_models.md)
 - [\[ICCV 2025\] DASH: Detection and Assessment of Systematic Hallucinations of VLMs](../../ICCV2025/multimodal_vlm/dash_detection_and_assessment_of_systematic_hallucinations_of_vlms.md)
 - [\[CVPR 2025\] Single Domain Generalization for Few-Shot Counting via Universal Representation Matching](single_domain_generalization_for_few-shot_counting_via_universal_representation_.md)
-- [\[ICCV 2025\] MAVias: Mitigate Any Visual Bias](../../ICCV2025/multimodal_vlm/mavias_mitigate_any_visual_bias.md)
+- [\[NeurIPS 2025\] DOTA: DistributiOnal Test-time Adaptation of Vision-Language Models](../../NeurIPS2025/multimodal_vlm/dota_distributional_testtime_adaptation_of_visionlanguage_mo.md)
 
 <!-- RELATED:END -->

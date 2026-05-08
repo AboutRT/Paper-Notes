@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.21920](https://arxiv.org/abs/2505.21920)  
 **代码**: [InfoSAM project page](https://github.com/zhangyuanhong/InfoSAM)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: SAM微调, 信息瓶颈, 知识蒸馏, 参数高效微调, Rényi互信息, 域不变关系
 
 ## 一句话总结

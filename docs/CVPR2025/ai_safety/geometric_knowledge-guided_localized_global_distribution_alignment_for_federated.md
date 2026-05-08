@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.06457](https://arxiv.org/abs/2503.06457)  
-**代码**: https://github.com/WeiDai-David/2025CVPR_GGEUR  
+**代码**: [https://github.com/WeiDai-David/2025CVPR_GGEUR](https://github.com/WeiDai-David/2025CVPR_GGEUR)  
 **领域**: AI安全  
 **关键词**: 联邦学习、数据异质性、几何分布对齐、CLIP嵌入、协方差重建
 
@@ -115,7 +115,7 @@ tags:
 - [\[CVPR 2025\] A Simple Data Augmentation for Feature Distribution Skewed Federated Learning](a_simple_data_augmentation_for_feature_distribution_skewed_federated_learning.md)
 - [\[CVPR 2025\] Detecting Backdoor Attacks in Federated Learning via Direction Alignment Inspection](detecting_backdoor_attacks_in_federated_learning_via_direction_alignment_inspect.md)
 - [\[CVPR 2026\] ProxyFL: A Proxy-Guided Framework for Federated Semi-Supervised Learning](../../CVPR2026/ai_safety/proxyfl_a_proxy-guided_framework_for_federated_semi-supervised_learning.md)
-- [\[ICCV 2025\] Geminio: Language-Guided Gradient Inversion Attacks in Federated Learning](../../ICCV2025/ai_safety/geminio_language-guided_gradient_inversion_attacks_in_federated_learning.md)
 - [\[ICCV 2025\] Client2Vec: Improving Federated Learning by Distribution Shifts Aware Client Indexing](../../ICCV2025/ai_safety/client2vec_improving_federated_learning_by_distribution_shifts_aware_client_inde.md)
+- [\[CVPR 2025\] Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning](infighting_in_the_dark_multi-label_backdoor_attack_in_federated_learning.md)
 
 <!-- RELATED:END -->

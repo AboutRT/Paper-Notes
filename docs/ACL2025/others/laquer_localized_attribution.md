@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 归因
   - 细粒度归因
-  - 生成可解释性
+  - 其他
   - 子句级定位
   - 内容溯源
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01187](https://arxiv.org/abs/2506.01187)  
 **代码**: [https://github.com/eranhirs/LAQuer](https://github.com/eranhirs/LAQuer)  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: 归因, 细粒度归因, 生成可解释性, 子句级定位, 内容溯源  
 
 ## 一句话总结
@@ -129,10 +129,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] ChartLens: Fine-Grained Visual Attribution in Charts](chartlens_fine-grained_visual_attribution_in_charts.md)
 - [\[ACL 2025\] VAQUUM: Are Vague Quantifiers Grounded in Visual Data?](vaquum_are_vague_quantifiers_grounded_in_visual_data.md)
+- [\[ACL 2025\] ChartLens: Fine-Grained Visual Attribution in Charts](chartlens_fine-grained_visual_attribution_in_charts.md)
 - [\[ACL 2025\] CiteEval: Principle-Driven Citation Evaluation for Source Attribution](citeeval_principle-driven_citation_evaluation_for_source_attribution.md)
-- [\[ACL 2025\] MOSAIC: Multiple Observers Spotting AI Content](mosaic_multiple_observers_spotting_ai_content.md)
 - [\[ACL 2025\] Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries](dpp_diverse_multidoc_summary.md)
+- [\[ACL 2025\] MOSAIC: Multiple Observers Spotting AI Content](mosaic_multiple_observers_spotting_ai_content.md)
 
 <!-- RELATED:END -->

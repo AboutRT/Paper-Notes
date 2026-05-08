@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.08956](https://arxiv.org/abs/2604.08956)  
-**代码**: https://github.com/uga-gaim/2026_CVPRW_CloudPrompts  
-**领域**: 遥感图像  
+**代码**: [https://github.com/uga-gaim/2026_CVPRW_CloudPrompts](https://github.com/uga-gaim/2026_CVPRW_CloudPrompts)  
+**领域**: 图像分割  
 **关键词**: 域迁移, 云分割, 提示工程, 低数据微调, 视觉语言模型
 
 ## 一句话总结

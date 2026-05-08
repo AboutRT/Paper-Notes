@@ -13,7 +13,7 @@ tags:
 - **会议**: ICCV 2025
 - **arXiv**: [2411.18677](https://arxiv.org/abs/2411.18677)
 - **代码**: [项目主页](https://matchdiffusion.github.io)
-- **领域**: 扩散模型 · 视频生成
+- **领域**: 图像生成
 - **关键词**: 匹配剪辑, 视频扩散模型, 无训练, Joint Diffusion, 电影转场
 
 ## 一句话总结

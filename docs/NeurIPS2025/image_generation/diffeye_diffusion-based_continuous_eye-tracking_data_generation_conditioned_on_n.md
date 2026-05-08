@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.16767](https://arxiv.org/abs/2509.16767)  
-**代码**: 有 (https://diff-eye.github.io/)  
+**代码**: 有 ([https://diff-eye.github.io/](https://diff-eye.github.io/))  
 **领域**: 图像生成 / 扩散模型 / 眼动追踪  
 **关键词**: 扩散模型, 眼动轨迹生成, 注视路径预测, 视觉注意力建模, 对应位置嵌入
 

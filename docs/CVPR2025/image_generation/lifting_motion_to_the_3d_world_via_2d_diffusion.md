@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.18808](https://arxiv.org/abs/2411.18808)  
 **代码**: 无  
-**领域**: 3D视觉/运动估计  
+**领域**: 图像生成  
 **关键词**: 3D运动估计, 2D扩散模型, 多视角一致性, 全局轨迹, 无3D监督
 
 ## 一句话总结
@@ -145,7 +145,7 @@ Stage 1：$\mathcal{L} = \mathbb{E}[\|\hat{X}_\theta - X_0\|_1] + \mathcal{L}_{\
 - [\[CVPR 2025\] Move-in-2D: 2D-Conditioned Human Motion Generation](move-in-2d_2d-conditioned_human_motion_generation.md)
 - [\[CVPR 2025\] Nonisotropic Gaussian Diffusion for Realistic 3D Human Motion Prediction](nonisotropic_gaussian_diffusion_for_realistic_3d_human_motion_prediction.md)
 - [\[CVPR 2025\] InterEdit: Navigating Text-Guided Multi-Human 3D Motion Editing](interedit_navigating_text-guided_multi-human_3d_motion_editing.md)
-- [\[CVPR 2025\] MirrorVerse: Pushing Diffusion Models to Realistically Reflect the World](mirrorverse_pushing_diffusion_models_to_realistically_reflect_the_world.md)
 - [\[CVPR 2025\] OpenSDI: Spotting Diffusion-Generated Images in the Open World](opensdi_spotting_diffusion-generated_images_in_the_open_world.md)
+- [\[CVPR 2025\] MirrorVerse: Pushing Diffusion Models to Realistically Reflect the World](mirrorverse_pushing_diffusion_models_to_realistically_reflect_the_world.md)
 
 <!-- RELATED:END -->

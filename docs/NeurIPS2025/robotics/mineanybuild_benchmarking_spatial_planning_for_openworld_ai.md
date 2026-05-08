@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets & Benchmarks)][机器人][spatial planning] 基于 Minecraft 构建空间规划基准 MineAnyBuild，要求 AI Agent 根据多模态指令生成可执行的建筑蓝图矩阵，包含 4000 个任务和 500+ 建筑/装饰资产，从空间理解、空间推理、创造力和空间常识四个维度系统评估 MLLM 的空间规划能力，揭示即便 GPT-4o 整体得分仅 41.02/100，开源模型更差。
 tags:
-  - "NeurIPS 2025 (Datasets & Benchmarks)"
+  - 机器人
   - 机器人
   - spatial planning
   - Minecraft
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (Datasets & Benchmarks)  
 **arXiv**: [2505.20148](https://arxiv.org/abs/2505.20148)  
 **代码**: [项目主页](https://mineanybuild.github.io/)  
-**领域**: 多模态VLM / Agent / 空间规划  
+**领域**: 机器人  
 **关键词**: spatial planning, Minecraft, open-world agent, MLLM benchmark, spatial intelligence
 
 ## 一句话总结
@@ -120,10 +120,10 @@ MLLM-based Agent 能否将空间理解能力转化为具体的、可执行的空
 
 ## 相关论文
 
+- [\[AAAI 2026\] When Hallucination Costs Millions: Benchmarking AI Agents in High-Stakes Adversarial Financial Markets](../../AAAI2026/robotics/when_hallucination_costs_millions_benchmarking_ai_agents_in_high-stakes_adversar.md)
 - [\[CVPR 2025\] Magma: A Foundation Model for Multimodal AI Agents](../../CVPR2025/robotics/magma_a_foundation_model_for_multimodal_ai_agents.md)
 - [\[NeurIPS 2025\] C-NAV: Towards Self-Evolving Continual Object Navigation in Open World](c-nav_towards_self-evolving_continual_object_navigation_in_open_world.md)
 - [\[CVPR 2025\] Solving Instance Detection from an Open-World Perspective](../../CVPR2025/robotics/solving_instance_detection_from_an_open-world_perspective.md)
 - [\[NeurIPS 2025\] Rethinking the Simulation vs. Rendering Dichotomy: No Free Lunch in Spatial World Modelling](rethinking_the_simulation_vs_rendering_dichotomy_no_free_lunch_in_spatial_world_.md)
-- [\[NeurIPS 2025\] UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Task Planning](pretraining_a_unified_pddl_domain_from_real-world_demonstrations_for_generalizab.md)
 
 <!-- RELATED:END -->

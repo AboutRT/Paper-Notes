@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.11569](https://arxiv.org/abs/2407.11569)  
-**代码**: https://github.com/Cavendish518/SFPNet (有)  
+**代码**: [https://github.com/Cavendish518/SFPNet](https://github.com/Cavendish518/SFPNet)  
 **领域**: 自动驾驶  
 **关键词**: LiDAR语义分割, 稀疏焦点调制, 通用LiDAR, 归纳偏置, 跨LiDAR泛化
 

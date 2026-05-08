@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 数据选择
   - 指令微调
-  - 重要性-多样性优化
+  - 多模态VLM
   - 轻量评分器
   - MLLM
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.17847](https://arxiv.org/abs/2510.17847)  
 **代码**: [GitHub](https://github.com/SuDIS-ZJU/CoIDO)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 数据选择, 指令微调, 重要性-多样性优化, 轻量评分器, MLLM
 
 ## 一句话总结
@@ -145,6 +145,6 @@ $$p(y_{ik} | x_{ik}, \theta, \sigma_I, w_{ik}) = \text{Softmax}\left(\frac{w_{ik
 - [\[NeurIPS 2025\] Learning to Instruct for Visual Instruction Tuning](learning_to_instruct_for_visual_instruction_tuning.md)
 - [\[ICCV 2025\] Mastering Collaborative Multi-modal Data Selection: A Focus on Informativeness, Uniqueness, and Representativeness](../../ICCV2025/multimodal_vlm/mastering_collaborative_multi-modal_data_selection_a_focus_on_informativeness_un.md)
 - [\[ICLR 2026\] Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models](../../ICLR2026/multimodal_vlm/mixing_importance_with_diversity_joint_optimization_for_kv_cache_compression_in_.md)
-- [\[ICML 2025\] Parrot: Multilingual Visual Instruction Tuning](../../ICML2025/multimodal_vlm/parrot_multilingual_visual_instruction_tuning.md)
+- [\[NeurIPS 2025\] VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion](vipamin_visual_prompt_initialization_via_embedding_selection_and_subspace_expans.md)
 
 <!-- RELATED:END -->

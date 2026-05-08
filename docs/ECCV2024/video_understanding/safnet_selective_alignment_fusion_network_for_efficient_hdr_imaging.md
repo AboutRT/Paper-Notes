@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.16308](https://arxiv.org/abs/2407.16308)  
-**代码**: https://github.com/ltkong218/SAFNet (有)  
+**代码**: [https://github.com/ltkong218/SAFNet](https://github.com/ltkong218/SAFNet)  
 **领域**: 视频理解  
 **关键词**: HDR成像, 选择性对齐, 光流估计, 多曝光融合, 高效网络
 
@@ -44,13 +44,13 @@ SAFNet 包含三个子网络：金字塔编码器 E、由粗到精解码器 D、
 ### 关键设计
 
 1. **选择性光流估计 (Selective Flow Estimation)**：解码器在由粗到精的光流精炼过程中，同时输出选择概率掩码 M（sigmoid 输出，范围 0-1）标识有价值区域。掩码和光流互相促进：M 告诉解码器关注哪些区域的 F 估计，更好的 F 又能聚合有价值特征促进进一步的区域识别和残差光流估计。公式：
-   $$[F_{2\to1}^{k-1}, F_{2\to3}^{k-1}, M_1^{k-1}, M_3^{k-1}] = \mathcal{D}^k([F_{2\to1}^k, F_{2\to3}^k, M_1^k, M_3^k, \tilde{\phi}_1^k, \phi_2^k, \tilde{\phi}_3^k])$$
+    $[F_{2\to1}^{k-1}, F_{2\to3}^{k-1}, M_1^{k-1}, M_3^{k-1}] = \mathcal{D}^k([F_{2\to1}^k, F_{2\to3}^k, M_1^k, M_3^k, \tilde{\phi}_1^k, \phi_2^k, \tilde{\phi}_3^k])$
    设计动机：跳过饱和区域的运动估计（这些区域本就容易出错），将模型学习能力集中在更有意义的事情上。
 
 2. **显式 HDR 融合 (Explicit HDR Fusion)**：使用选择掩码重加权融合系数，然后显式合成 HDR。关键公式：
-   $$W_1 = \Lambda_1 \odot M_1, \quad W_3 = \Lambda_3 \odot M_3$$
-   $$W_2 = \Lambda_2 + \Lambda_1 \odot (1-M_1) + \Lambda_3 \odot (1-M_3)$$
-   $$H_m = W_1 \odot \tilde{H}_1 + W_2 \odot H_2 + W_3 \odot \tilde{H}_3$$
+    $W_1 = \Lambda_1 \odot M_1, \quad W_3 = \Lambda_3 \odot M_3$
+    $W_2 = \Lambda_2 + \Lambda_1 \odot (1-M_1) + \Lambda_3 \odot (1-M_3)$
+    $H_m = W_1 \odot \tilde{H}_1 + W_2 \odot H_2 + W_3 \odot \tilde{H}_3$
    未被选中区域的融合权重转移给参考帧，确保归一化。设计动机：显式融合比隐式注意力更高效，且掩码自然地抑制了失配区域的鬼影。
 
 3. **轻量精炼模块 + 窗口分区裁剪 (Refine Module + Window Partition Cropping)**：精炼网络 R 是全卷积网络，在原始分辨率上增强高频细节。利用第一阶段的光流、掩码、Hm 作为额外输入（消融证明 Hm 贡献最大）。训练时提出窗口分区裁剪：第一阶段在 512×512 大 patch 上处理长程纹理聚合，第二阶段在 128×128 小 patch 上精炼局部细节，通过 window partition/reverse 操作统一两种裁剪尺寸。

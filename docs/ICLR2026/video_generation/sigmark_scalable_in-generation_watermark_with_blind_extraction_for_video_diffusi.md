@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 视频扩散模型
-  - 水印
+  - 视频生成
   - 盲提取
   - 伪随机编码
   - 因果3D VAE
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.02882](https://arxiv.org/abs/2603.02882)  
-**代码**: https://github.com/JeremyZhao1998/SIGMark-release  
-**领域**: 视频水印 / AI安全  
+**代码**: [https://github.com/JeremyZhao1998/SIGMark-release](https://github.com/JeremyZhao1998/SIGMark-release)  
+**领域**: 视频生成  
 **关键词**: 视频扩散模型, 水印, 盲提取, 伪随机编码, 因果3D VAE, 时序鲁棒性
 
 ## 一句话总结
@@ -130,7 +130,7 @@ SIGMark是**无训练方法**，直接在推理阶段嵌入水印。嵌入的噪
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.02882](https://arxiv.org/abs/2603.02882)  
-**代码**: https://github.com/JeremyZhao1998/SIGMark-release  
+**代码**: [https://github.com/JeremyZhao1998/SIGMark-release](https://github.com/JeremyZhao1998/SIGMark-release)  
 **领域**: 视频生成/水印  
 **关键词**: 视频扩散模型, 水印, 盲提取, 伪随机编码, 因果3D VAE, 可扩展性
 
@@ -242,10 +242,10 @@ SIGMark是training-free方法，无需训练。嵌入阶段通过数学变换保
 
 ## 相关论文
 
-- [\[ECCV 2024\] VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models](../../ECCV2024/video_generation/vfusion3d_learning_scalable_3d_generative_models_from_video_diffusion_models.md)
-- [\[CVPR 2025\] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes](../../CVPR2025/video_generation/dynamicscaler_seamless_and_scalable_video_generation_for_panoramic_scenes.md)
 - [\[ICCV 2025\] STiV: Scalable Text and Image Conditioned Video Generation](../../ICCV2025/video_generation/stiv_scalable_text_and_image_conditioned_video_generation.md)
-- [\[ICLR 2026\] Target-Aware Video Diffusion Models](target-aware_video_diffusion_models.md)
-- [\[ECCV 2024\] BlazeBVD: Make Scale-Time Equalization Great Again for Blind Video Deflickering](../../ECCV2024/video_generation/blazebvd_make_scale-time_equalization_great_again_for_blind_video_deflickering.md)
+- [\[CVPR 2025\] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes](../../CVPR2025/video_generation/dynamicscaler_panoramic_video.md)
+- [\[CVPR 2025\] SAW: Toward a Surgical Action World Model via Controllable and Scalable Video Generation](../../CVPR2025/video_generation/saw_toward_a_surgical_action_world_model_via_controllable_and_scalable_video_gen.md)
+- [\[ICLR 2026\] Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)
+- [\[ECCV 2024\] VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models](../../ECCV2024/video_generation/vfusion3d_learning_scalable_3d_generative_models_from_video_diffusion_models.md)
 
 <!-- RELATED:END -->

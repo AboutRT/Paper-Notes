@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2407.15881](https://arxiv.org/abs/2407.15881)  
 **代码**: 待确认  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: collaborative learning, mechanism design, strategic agents, individual rationality, fairness, Nash equilibrium
 
 ## 一句话总结
@@ -133,10 +133,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICML 2025\] TuCo: Measuring the Contribution of Fine-Tuning to Individual Responses of LLMs](tuco_measuring_the_contribution_of_fine-tuning_to_individual_responses_of_llms.md)
 - [\[ICLR 2026\] Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](../../ICLR2026/ai_safety/co-lora_collaborative_model_personalization_on_heterogeneous_multi-modal_clients.md)
-- [\[ICML 2025\] Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs](is_your_model_fairly_certain_uncertainty-aware_fairness_evaluation_for_llms.md)
+- [\[AAAI 2026\] CoRe-Fed: Bridging Collaborative and Representation Fairness via Federated Embedding Distillation](../../AAAI2026/ai_safety/core-fed_bridging_collaborative_and_representation_fairness_via_federated_embedd.md)
 - [\[NeurIPS 2025\] Optimal Adjustment Sets for Nonparametric Estimation of Weighted Controlled Direct Effect](../../NeurIPS2025/ai_safety/optimal_adjustment_sets_for_nonparametric_estimation_of_weighted_controlled_dire.md)
-- [\[NeurIPS 2025\] Probabilistic Reasoning with LLMs for K-Anonymity Estimation](../../NeurIPS2025/ai_safety/probabilistic_reasoning_with_llms_for_k-anonymity_estimation.md)
+- [\[ICML 2025\] Accelerating Spectral Clustering under Fairness Constraints](accelerating_spectral_clustering_under_fairness_constraints.md)
+- [\[NeurIPS 2025\] Efficient Fairness-Performance Pareto Front Computation](../../NeurIPS2025/ai_safety/efficient_fairness-performance_pareto_front_computation.md)
 
 <!-- RELATED:END -->

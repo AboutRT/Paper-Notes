@@ -2,10 +2,10 @@
 title: >-
   [论文解读] No-Regret Strategy Solving in Imperfect-Information Games via Pre-Trained Embedding
 description: >-
-  [AAAI 2026][博弈论] 提出 Embedding CFR 算法，将不完美信息博弈中的信息集映射到连续低维嵌入空间（而非离散聚类），在相同空间开销下实现更快的可利用性收敛和更高质量的策略求解。
+  [AAAI 2026][LLM预训练] 提出 Embedding CFR 算法，将不完美信息博弈中的信息集映射到连续低维嵌入空间（而非离散聚类），在相同空间开销下实现更快的可利用性收敛和更高质量的策略求解。
 tags:
   - AAAI 2026
-  - 博弈论
+  - LLM预训练
   - CFR
   - 信息集抽象
   - 嵌入空间
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.12083](https://arxiv.org/abs/2511.12083)  
-**代码**: https://github.com/PhilEnchan/EmbeddingCFR  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/PhilEnchan/EmbeddingCFR](https://github.com/PhilEnchan/EmbeddingCFR)  
+**领域**: LLM预训练  
 **关键词**: 博弈论, CFR, 信息集抽象, 嵌入空间, 扑克AI
 
 ## 一句话总结
@@ -126,10 +126,10 @@ HandEbdNet 用手牌强度（胜率分布）作为监督信号训练。策略求
 
 ## 相关论文
 
+- [\[AAAI 2026\] PrefixGPT: Prefix Adder Optimization by a Generative Pre-trained Transformer](prefixgpt_prefix_adder_optimization_by_a_generative_pre-trained_transformer.md)
 - [\[ICCV 2025\] Dataset Ownership Verification for Pre-trained Masked Models](../../ICCV2025/llm_pretraining/dataset_ownership_verification_for_pre-trained_masked_models.md)
-- [\[ACL 2026\] SCRIPT: A Subcharacter Compositional Representation Injection Module for Korean Pre-Trained Language Models](../../ACL2026/llm_pretraining/script_a_subcharacter_compositional_representation_injection_module_for_korean_p.md)
-- [\[ICLR 2026\] Deconstructing Positional Information: From Attention Logits to Training Biases](../../ICLR2026/llm_pretraining/deconstructing_positional_information_from_attention_logits_to_training_biases.md)
-- [\[ACL 2025\] Chinese Grammatical Error Correction With Pre-trained Models and Linguistic Clues](../../ACL2025/llm_pretraining/chinese_grammatical_error_correction_with_pre-trained_models_and_linguistic_clue.md)
 - [\[NeurIPS 2025\] Scaling Embedding Layers in Language Models](../../NeurIPS2025/llm_pretraining/scaling_embedding_layers_in_language_models.md)
+- [\[ACL 2025\] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models](../../ACL2025/llm_pretraining/leancode_understanding_models_better_for_code_simplification_of_pre-trained_larg.md)
+- [\[ACL 2026\] SCRIPT: A Subcharacter Compositional Representation Injection Module for Korean Pre-Trained Language Models](../../ACL2026/llm_pretraining/script_a_subcharacter_compositional_representation_injection_module_for_korean_p.md)
 
 <!-- RELATED:END -->

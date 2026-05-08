@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
-**代码**: https://github.com/ACuOoOoO/argmatch  
-**领域**: model_compression  
+**代码**: [https://github.com/ACuOoOoO/argmatch](https://github.com/ACuOoOoO/argmatch)  
+**领域**: 模型压缩  
 **关键词**: 稠密匹配, 由粗到细, 内容感知精炼, 局部一致性, 高效特征匹配
 
 ## 一句话总结

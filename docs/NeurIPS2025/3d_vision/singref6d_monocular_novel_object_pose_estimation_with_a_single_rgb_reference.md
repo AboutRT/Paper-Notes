@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.21927](https://arxiv.org/abs/2509.21927)  
-**代码**: https://plusgrey.github.io/singref6d/  
+**代码**: [https://plusgrey.github.io/singref6d/](https://plusgrey.github.io/singref6d/)  
 **领域**: 3D视觉 / 6D位姿估计  
 **关键词**: 6D位姿估计, 单目深度估计, 单参考图像, Depth-Anything, 深度感知匹配
 
@@ -142,8 +142,8 @@ SingRef6D包含三个阶段：
 
 - [\[ICCV 2025\] Unified Category-Level Object Detection and Pose Estimation from RGB Images using 3D Prototypes](../../ICCV2025/3d_vision/unified_category-level_object_detection_and_pose_estimation_from_rgb_images_usin.md)
 - [\[NeurIPS 2025\] Rectified Point Flow: Generic Point Cloud Pose Estimation](rectified_point_flow_generic_point_cloud_pose_estimation.md)
+- [\[ICCV 2025\] BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation](../../ICCV2025/3d_vision/boxdreamer_dreaming_box_corners_for_generalizable_object_pos.md)
 - [\[ICCV 2025\] Single-Scanline Relative Pose Estimation for Rolling Shutter Cameras](../../ICCV2025/3d_vision/single-scanline_relative_pose_estimation_for_rolling_shutter_cameras.md)
-- [\[ICCV 2025\] BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation](../../ICCV2025/3d_vision/boxdreamer_dreaming_box_corners_for_generalizable_object_pose_estimation.md)
 - [\[NeurIPS 2025\] Reconstruct, Inpaint, Test-Time Finetune: Dynamic Novel-View Synthesis from Monocular Videos](reconstruct_inpaint_test-time_finetune_dynamic_novel-view_synthesis_from_monocul.md)
 
 <!-- RELATED:END -->

@@ -155,8 +155,8 @@ ViT-B/16 在 ImageNet-1K 线性评估：
 
 - [\[ECCV 2024\] Self-supervised Video Copy Localization with Regional Token Representation](self-supervised_video_copy_localization_with_regional_token_representation.md)
 - [\[ECCV 2024\] Efficient Image Pre-Training with Siamese Cropped Masked Autoencoders](efficient_image_pre-training_with_siamese_cropped_masked_autoencoders.md)
-- [\[ECCV 2024\] Adaptive Multi-head Contrastive Learning](adaptive_multihead_contrastive_learning.md)
 - [\[ECCV 2024\] FlowCon: Out-of-Distribution Detection using Flow-Based Contrastive Learning](flowcon_out-of-distribution_detection_using_flow-based_contrastive_learning.md)
-- [\[ECCV 2024\] SCPNet: Unsupervised Cross-modal Homography Estimation via Intra-modal Self-supervised Learning](scpnet_unsupervised_cross-modal_homography_estimation_via_intra-modal_self-super.md)
+- [\[CVPR 2026\] TrackMAE: Video Representation Learning via Track, Mask, and Predict](../../CVPR2026/self_supervised/trackmae_video_representation_learning_via_track_mask_and_predict.md)
+- [\[ICCV 2025\] From Linearity to Non-Linearity: How Masked Autoencoders Capture Spatial Correlations](../../ICCV2025/self_supervised/from_linearity_to_non-linearity_how_masked_autoencoders_capture_spatial_correlat.md)
 
 <!-- RELATED:END -->

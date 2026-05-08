@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.12559](https://arxiv.org/abs/2604.12559)  
-**代码**: https://github.com/caskcsg/FABLE  
+**代码**: [https://github.com/caskcsg/FABLE](https://github.com/caskcsg/FABLE)  
 **领域**: 知识编辑 / LLM  
 **关键词**: 模型编辑、非结构化知识、细粒度事实注入、层次化键值存储、UnFine基准
 

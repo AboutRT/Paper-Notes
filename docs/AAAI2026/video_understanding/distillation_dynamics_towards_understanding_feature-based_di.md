@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.06848](https://arxiv.org/abs/2511.06848)  
 **代码**: [GitHub](https://github.com/thy960112/Distillation-Dynamics)  
-**领域**: 模型压缩 / 知识蒸馏  
+**领域**: 视频理解  
 **关键词**: 知识蒸馏, Vision Transformer, 频谱分析, 信息瓶颈, 负迁移
 
 ## 一句话总结

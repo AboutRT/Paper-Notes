@@ -58,7 +58,7 @@ EigenShift分为三个阶段：(1) 从基础模型采样生成，用分类器标
 
    对最终输出层权重矩阵 $W \in \mathbb{R}^{V \times d}$ 进行SVD分解：
 
-   $$W = U \Sigma V^T, \quad B=U, \quad A=\Sigma V^T$$
+    $W = U \Sigma V^T, \quad B=U, \quad A=\Sigma V^T$
 
    其中 $V^T \in \mathbb{R}^{d \times d}$ 定义隐藏状态的语义子空间正交基，$\Sigma$ 的对角元素加权每个语义方向，$U \in \mathbb{R}^{V \times d}$ 将语义方向映射到词表token。每个 $v_i$（$V$ 的列向量）对应一个"eigen-choice"——模型在文本生成中做决策的基本语义轴。
 
@@ -68,15 +68,15 @@ EigenShift分为三个阶段：(1) 从基础模型采样生成，用分类器标
 
    计算每个特征向量在毒性样本和非毒性样本上的方向影响：
 
-   $$\Delta_i = \mathbb{E}_{h_\Phi \sim \text{Toxic}}[v_i^T h_\Phi] - \mathbb{E}_{h_\Psi \sim \text{Non-Toxic}}[v_i^T h_\Psi]$$
+    $\Delta_i = \mathbb{E}_{h_\Phi \sim \text{Toxic}}[v_i^T h_\Phi] - \mathbb{E}_{h_\Psi \sim \text{Non-Toxic}}[v_i^T h_\Psi]$
 
    按 $\Delta_i$ 排序，选取top-k（如99.9%百分位）高影响特征向量作为毒性对齐方向集 $\mathcal{T}$。
 
    干预策略——特征值衰减：对 $\mathcal{T}$ 中的奇异值乘以衰减系数 $\alpha < 1$：
 
-   $$\sigma_i' = \alpha \cdot \sigma_i, \quad \text{for } i \in \mathcal{T}$$
+    $\sigma_i' = \alpha \cdot \sigma_i, \quad \text{for } i \in \mathcal{T}$
 
-   $$W' = U \Sigma' V^T$$
+    $W' = U \Sigma' V^T$
 
    这有效降低了模型沿毒性相关语义方向的放大能力。$\alpha=0.9$, $k=1024$ 在毒性降低与困惑度保持之间取得最佳平衡。
 
@@ -171,10 +171,10 @@ $$\text{TPH}(T,P) = \frac{2 \cdot T \cdot \frac{1}{1+|P|}}{T + \frac{1}{1+|P|}}$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers](physics_of_language_models_part_41_architecture_design_and_the_magic_of_canon_la.md)
+- [\[NeurIPS 2025\] Uncovering Strategic Egoism Behaviors in Large Language Models](uncovering_strategic_egoism_behaviors_in_large_language_models.md)
+- [\[NeurIPS 2025\] SAFE: Multitask Failure Detection for Vision-Language-Action Models](safe_multitask_failure_detection_for_vision-language-action_models.md)
 - [\[NeurIPS 2025\] Bridging Embodiment Gaps: Deploying Vision-Language-Action Models on Soft Robots](bridging_embodiment_gaps_deploying_vision-language-action_models_on_soft_robots.md)
-- [\[AAAI 2026\] Unintended Misalignment from Agentic Fine-Tuning: Risks and Mitigation](../../AAAI2026/robotics/unintended_misalignment_from_agentic_fine-tuning_risks_and_m.md)
+- [\[NeurIPS 2025\] Breaking the Gradient Barrier: Unveiling Large Language Models for Strategic Classification](breaking_the_gradient_barrier_unveiling_large_language_models_for_strategic_clas.md)
 - [\[ICLR 2026\] When Agents Persuade: Propaganda Generation and Mitigation in LLMs](../../ICLR2026/robotics/when_agents_persuade_propaganda_generation_and_mitigation_in_llms.md)
-- [\[CVPR 2025\] SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](../../CVPR2025/robotics/sapave_towards_active_perception_and_manipulation_in_vision-language-action_mode.md)
 
 <!-- RELATED:END -->

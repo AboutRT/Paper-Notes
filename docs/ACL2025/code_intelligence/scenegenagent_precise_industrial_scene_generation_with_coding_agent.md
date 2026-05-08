@@ -8,7 +8,7 @@ tags:
   - 工业场景生成
   - LLM代码生成
   - 布局规划
-  - 迭代优化
+  - 代码智能
   - 场景建模
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.21909](https://arxiv.org/abs/2410.21909)  
 **代码**: [https://github.com/THUDM/SceneGenAgent](https://github.com/THUDM/SceneGenAgent)  
-**领域**: Agent  
+**领域**: 代码智能  
 **关键词**: 工业场景生成, LLM代码生成, 布局规划, 迭代优化, 场景建模  
 
 ## 一句话总结
@@ -134,6 +134,6 @@ SceneGenAgent 是一个多阶段的 LLM Agent 框架，整体流程为：输入�
 - [\[ACL 2025\] DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal](dars_dynamic_action_re-sampling_to_enhance_coding_agent_performance_by_adaptive_.md)
 - [\[ACL 2025\] UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](utboost_rigorous_evaluation_of_coding_agents_on_swe-bench.md)
 - [\[ACL 2025\] CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System](compileagent_automated_real-world_repo-level_compilation_with_tool-integrated_ll.md)
-- [\[ACL 2025\] Rethinking Repetition Problems of LLMs in Code Generation](rethinking_repetition_problems_of_llms_in_code_generation.md)
+- [\[ACL 2025\] Personality-Guided Code Generation Using Large Language Models](personality_guided_code_gen.md)
 
 <!-- RELATED:END -->

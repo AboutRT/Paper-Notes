@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.14523](https://arxiv.org/abs/2505.14523)  
 **代码**: [https://github.com/mjs227/GFoLDS](https://github.com/mjs227/GFoLDS)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 图Transformer, 逻辑形式, DMRS, 语言模型预训练, 语言知识催化假说
 
 ## 一句话总结
@@ -126,8 +126,8 @@ GFoLDS 采用图 Transformer 架构，总参数量约 174M。在标准 Transform
 
 - [\[ACL 2025\] Logical Forms Complement Probability in Understanding Language Model (and Human) Performance](logical_forms_complement_probability_in_understanding_language_model_and_human_p.md)
 - [\[ACL 2025\] Automated CAD Modeling Sequence Generation from Text Descriptions via Transformer-Based Large Language Models](cadllm_cad_modeling_from_text.md)
+- [\[ACL 2025\] Enhancing Spoken Discourse Modeling in Language Models Using Gestural Cues](enhancing_spoken_discourse_modeling_in_language_models_using_gestural_cues.md)
 - [\[ACL 2025\] Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?](graph_descriptive_order_llm.md)
 - [\[ACL 2025\] Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs](can_llms_interpret_and_leverage_structured_linguistic_representations_a_case_stu.md)
-- [\[ACL 2025\] Enhancing Spoken Discourse Modeling in Language Models Using Gestural Cues](enhancing_spoken_discourse_modeling_in_language_models_using_gestural_cues.md)
 
 <!-- RELATED:END -->

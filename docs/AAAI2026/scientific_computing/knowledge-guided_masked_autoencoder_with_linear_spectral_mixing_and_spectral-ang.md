@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.12445](https://arxiv.org/abs/2512.12445)  
 **代码**: 待确认  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: Masked Autoencoder, hyperspectral, LSMM, SAM loss, physics-informed, knowledge-guided ML
 
 ## 一句话总结

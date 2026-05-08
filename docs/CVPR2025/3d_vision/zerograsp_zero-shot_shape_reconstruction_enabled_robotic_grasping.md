@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.10857](https://arxiv.org/abs/2504.10857)  
-**代码**: https://sh8.io/#/zerograsp  
+**代码**: [https://sh8.io/#/zerograsp](https://sh8.io/#/zerograsp)  
 **领域**: 3D视觉 / 机器人抓取  
 **关键词**: 零样本抓取, 3D重建, 八叉树, 遮挡推理, 抓取姿态预测
 
@@ -133,8 +133,8 @@ ZeroGrasp 提出了一个基于八叉树条件变分自编码器（CVAE）的统
 ## 相关论文
 
 - [\[CVPR 2025\] FoundationStereo: Zero-Shot Stereo Matching](foundationstereo_zero-shot_stereo_matching.md)
-- [\[CVPR 2025\] Touch2Shape: Touch-Conditioned 3D Diffusion for Shape Exploration and Reconstruction](touch2shape_touch-conditioned_3d_diffusion_for_shape_exploration_and_reconstruct.md)
 - [\[CVPR 2025\] MVSAnywhere: Zero-Shot Multi-View Stereo](mvsanywhere_zero-shot_multi-view_stereo.md)
+- [\[CVPR 2025\] Touch2Shape: Touch-Conditioned 3D Diffusion for Shape Exploration and Reconstruction](touch2shape_touch-conditioned_3d_diffusion_for_shape_exploration_and_reconstruct.md)
 - [\[CVPR 2025\] Zero-Shot Monocular Scene Flow Estimation in the Wild](zero-shot_monocular_scene_flow_estimation_in_the_wild.md)
 - [\[CVPR 2025\] Cross-View Completion Models are Zero-shot Correspondence Estimators](cross-view_completion_models_are_zero-shot_correspondence_estimators.md)
 

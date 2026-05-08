@@ -10,14 +10,14 @@ tags:
   - 无监督自我改进
   - 连续自一致性奖励
   - Proposer-Solver
-  - 视觉数学推理
+  - 多模态VLM
 ---
 
 # EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.16672](https://arxiv.org/abs/2511.16672)  
-**代码**: https://github.com/mbzuai-oryx/EvoLMM (开源)  
+**代码**: [https://github.com/mbzuai-oryx/EvoLMM](https://github.com/mbzuai-oryx/EvoLMM) (开源)  
 **领域**: 多模态VLM / 自进化学习  
 **关键词**: 自进化LMM, 无监督自我改进, 连续自一致性奖励, Proposer-Solver, 视觉数学推理
 
@@ -132,9 +132,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] Evolving Contextual Safety in Multi-Modal Large Language Models via Inference-Time Self-Reflective Memory](evolving_contextual_safety_in_multi-modal_large_language_models_via_inference-ti.md)
-- [\[CVPR 2026\] HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models](hulluedit_single-pass_evidence-consistent_subspace_editing_for_mitigating_halluc.md)
 - [\[CVPR 2026\] Evolving Prompt Adaptation for Vision-Language Models](evolving_prompt_adaptation_for_visionlanguage_mode.md)
-- [\[CVPR 2026\] EvoPrompt: Evolving Prompt Adaptation for Vision-Language Models](evolving_prompt_adaptation_for_vision-language_models.md)
-- [\[CVPR 2026\] GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](gtr-turbo_merged_checkpoint_is_secretly_a_free_teacher_for_agentic_vlm_training.md)
+- [\[CVPR 2026\] MSJoE: Jointly Evolving MLLM and Sampler for Efficient Long-Form Video Understanding](msjoe_jointly_evolving_mllm_and_sampler_for_efficient_long-form_video_understand.md)
+- [\[CVPR 2026\] TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition](trivia_self-supervised_fine-tuning_of_vision-language_models_for_table_recogniti.md)
+- [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
 
 <!-- RELATED:END -->

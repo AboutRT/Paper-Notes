@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 文本分布图
-  - 机器文本检测
+  - AIGC检测
   - 统计检验
   - token概率
   - 语言模型分析
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.11871](https://arxiv.org/abs/2602.11871)  
-**代码**: https://github.com/Featurespace/dmap (有)  
-**领域**: LLM NLP / AI安全 / 文本分析  
+**代码**: [https://github.com/Featurespace/dmap](https://github.com/Featurespace/dmap)  
+**领域**: AIGC检测  
 **关键词**: 文本分布图, 机器文本检测, 统计检验, token概率, 语言模型分析
 
 ## 一句话总结
@@ -136,8 +136,8 @@ tags:
 
 - [\[ACL 2026\] Reasoning-Based Refinement of Unsupervised Text Clusters with LLMs](../../ACL2026/aigc_detection/reasoning-based_refinement_of_unsupervised_text_clusters_with_llms.md)
 - [\[AAAI 2026\] Optimized Algorithms for Text Clustering with LLM-Generated Constraints](../../AAAI2026/aigc_detection/optimized_algorithms_for_text_clustering_with_llm-generated_constraints.md)
+- [\[ACL 2026\] Frankentext: Stitching Random Text Fragments into Long-Form Narratives](../../ACL2026/aigc_detection/frankentext_stitching_random_text_fragments_into_long-form_narratives.md)
+- [\[ICLR 2026\] Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review](is_your_paper_being_reviewed_by_an_llm_benchmarking_ai_text_detection_in_peer_re.md)
 - [\[ACL 2026\] Temporal Flattening in LLM-Generated Text: Comparing Human and LLM Writing Trajectories](../../ACL2026/aigc_detection/temporal_flattening_in_llm-generated_text_comparing_human_and_llm_writing_trajec.md)
-- [\[ACL 2025\] Learning to Rewrite: Generalized LLM-Generated Text Detection](../../ACL2025/aigc_detection/learning_to_rewrite_generalized_llm-generated_text_detection.md)
-- [\[ACL 2025\] An Empirical Study on Detecting AI-Generated Text in Financial Reports](../../ACL2025/aigc_detection/an_empirical_study_on_detecting_ai-generated_text_in_financial_reports.md)
 
 <!-- RELATED:END -->

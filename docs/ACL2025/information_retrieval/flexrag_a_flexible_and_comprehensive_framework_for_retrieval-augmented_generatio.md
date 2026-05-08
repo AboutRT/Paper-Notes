@@ -5,7 +5,7 @@ description: >-
   [ACL 2025][Retrieval-Augmented Generation] 提出 FlexRAG，一个面向研究和原型开发的开源 RAG 框架，支持文本、多模态和 Web 检索三种模式，通过内存映射和异步处理实现比同类框架（FlashRAG）低一个数量级的资源开销。
 tags:
   - ACL 2025
-  - Retrieval-Augmented Generation
+  - 信息检索
   - RAG Framework
   - Dense Retrieval
   - Web Retrieval
@@ -166,8 +166,8 @@ FlexRAG 本身是工程框架，不涉及新的训练方法。但它支持所有
 
 - [\[ACL 2025\] MT-RAIG: Novel Benchmark and Evaluation Framework for Retrieval-Augmented Insight Generation over Multiple Tables](mt-raig_novel_benchmark_and_evaluation_framework_for_retrieval-augmented_insight.md)
 - [\[ACL 2025\] CoIR: A Comprehensive Benchmark for Code Information Retrieval Models](coir_a_comprehensive_benchmark_for_code_information_retrieval_models.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/information_retrieval/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
 - [\[ACL 2025\] Unanswerability Evaluation for Retrieval Augmented Generation](unanswerability_evaluation_for_retrieval_augmented_generation.md)
 - [\[ACL 2025\] RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework](rageval_scenario_specific_rag_evaluation_dataset_generation_framework.md)
-- [\[ACL 2025\] Pandora's Box or Aladdin's Lamp: A Comprehensive Analysis Revealing the Role of RAG Noise in Large Language Models](pandora_box_rag_noise.md)
 
 <!-- RELATED:END -->

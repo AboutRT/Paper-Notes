@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 视频离散化
   - 空间-时间解耦
-  - 向量量化
+  - 视频生成
   - 语言码本
   - 视频生成
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.10443](https://arxiv.org/abs/2412.10443)  
 **代码**: 无  
-**领域**: 视频理解  
+**领域**: 视频生成  
 **关键词**: 视频离散化, 空间-时间解耦, 向量量化, 语言码本, 视频生成
 
 ## 一句话总结
@@ -48,18 +48,18 @@ SweetTok 包含两个核心组件：
 1. **解耦查询自编码器（Decoupled Query AutoEncoder, DQAE）**
 
    **Patchify 阶段**：给定视频 $x \in \mathbb{R}^{T \times H \times W \times 3}$，选取第一帧作为空间信息参考，剩余 $T-1$ 帧用于时间信息。使用两个不同的 patch 核：
-   - 空间：$\mathcal{P}_s$ 形状 $p_h \times p_w$，将第一帧转为 $v_s \in \mathbb{R}^{1 \times 32 \times 32 \times D}$
-   - 时间：$\mathcal{P}_t$ 形状 $p_t \times p_h \times p_w$，将后续帧转为 $v_t \in \mathbb{R}^{4 \times 32 \times 32 \times D}$
+    - 空间：$\mathcal{P}_s$ 形状 $p_h \times p_w$，将第一帧转为 $v_s \in \mathbb{R}^{1 \times 32 \times 32 \times D}$
+    - 时间：$\mathcal{P}_t$ 形状 $p_t \times p_h \times p_w$，将后续帧转为 $v_t \in \mathbb{R}^{4 \times 32 \times 32 \times D}$
 
    **空间 Tokenization**：将第一帧的 patch $v_s$ 通过空间编码器 $\mathcal{E}_{DQAE_s}$ 压缩为 $L_{spatial}=256$ 个可学习空间查询 $\mathbf{Q_s}$：
-   $$\mathbf{Z_{Q_s}} = \mathcal{E}_{DQAE_s}(\mathbf{Q_s}, v_s), \quad \tilde{\mathbf{Z}}_{Q_s} = \mathcal{Q}_{MLC}(\mathbf{Z_{Q_s}})$$
+    $\mathbf{Z_{Q_s}} = \mathcal{E}_{DQAE_s}(\mathbf{Q_s}, v_s), \quad \tilde{\mathbf{Z}}_{Q_s} = \mathcal{Q}_{MLC}(\mathbf{Z_{Q_s}})$
    然 后通过空间解码器重建第一帧 patch：$\tilde{v}_s = \mathcal{D}_{DQAE_s}(\mathbf{Q}_{v_s}, \tilde{\mathbf{Z}}_{Q_s})$
 
    **时间 Tokenization**：利用视频时间维度的大量冗余，采用**帧间残差** $\Delta v_t^i = v_s^i - v_t^i$ 作为时间信息输入。这是因为空间阶段已经重建了第一帧。将残差压缩为 $L_{temporal}=1024$ 个时间查询：
-   $$\mathbf{Z_{Q_t}} = \mathcal{E}_{DQAE_t}(\mathbf{Q_t}, \Delta v), \quad \tilde{\mathbf{Z}}_{Q_t} = \mathcal{Q}_{MLC}(\mathbf{Z_{Q_t}})$$
+    $\mathbf{Z_{Q_t}} = \mathcal{E}_{DQAE_t}(\mathbf{Q_t}, \Delta v), \quad \tilde{\mathbf{Z}}_{Q_t} = \mathcal{Q}_{MLC}(\mathbf{Z_{Q_t}})$
 
    **解码策略：先空间后时间**。将重建的第一帧 $\tilde{v}_s$ 复制 $t$ 次，与时间量化残差一起送入时间解码器：
-   $$\tilde{v} = \mathcal{D}_{DQAE_t}([\tilde{v}_s \| \cdots \| \tilde{v}_s], \tilde{\mathbf{Z}}_{Q_t})$$
+    $\tilde{v} = \mathcal{D}_{DQAE_t}([\tilde{v}_s \| \cdots \| \tilde{v}_s], \tilde{\mathbf{Z}}_{Q_t})$
    最终通过像素解码器 $\mathcal{D}_{pixel}$ 重建视频。
 
    **设计动机**：耦合空间时间压缩会增加解码器学习同一像素跨帧运动信息的难度。解耦后，空间查询捕获静态外观，时间查询捕获动态变化，互不干扰。
@@ -69,13 +69,13 @@ SweetTok 包含两个核心组件：
    **核心思想**：将词典按词性分为四类——名词、形容词（对应空间静态信息）和动词、副词（对应时间运动信息）。
 
    具体实现：
-   - 从数据集视频字幕中提取候选词汇
-   - 使用 CLIP 文本编码器提取嵌入构建码本 $C \in \mathbb{R}^{L \times D}$
-   - 使用图卷积网络 $\mathcal{F}$ 将 CLIP 嵌入投影到视觉潜空间，图的边由同一字幕中共现的词对构建
+    - 从数据集视频字幕中提取候选词汇
+    - 使用 CLIP 文本编码器提取嵌入构建码本 $C \in \mathbb{R}^{L \times D}$
+    - 使用图卷积网络 $\mathcal{F}$ 将 CLIP 嵌入投影到视觉潜空间，图的边由同一字幕中共现的词对构建
 
    量化时，空间查询从名词+形容词码本中查找最近邻，时间查询从动词+副词码本中查找：
-   $$\hat{z}_s = \mathcal{F}(c_i), \quad i = \arg\min_{c_i \in C_{noun} \cup C_{adj}} \|z_s - \mathcal{F}(c_i)\|$$
-   $$\hat{z}_t = \mathcal{F}(c_i), \quad i = \arg\min_{c_i \in C_{verb} \cup C_{adv}} \|z_t - \mathcal{F}(c_i)\|$$
+    $\hat{z}_s = \mathcal{F}(c_i), \quad i = \arg\min_{c_i \in C_{noun} \cup C_{adj}} \|z_s - \mathcal{F}(c_i)\|$
+    $\hat{z}_t = \mathcal{F}(c_i), \quad i = \arg\min_{c_i \in C_{verb} \cup C_{adv}} \|z_t - \mathcal{F}(c_i)\|$
 
    码本规模：空间 10,481（5,078 名词 + 5,403 形容词），时间 11,139（9,267 动词 + 1,872 副词）。
 
@@ -182,10 +182,10 @@ SweetTok 包含两个核心组件：
 
 ## 相关论文
 
-- [\[CVPR 2025\] BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution](../../CVPR2025/video_generation/bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatial-temporal.md)
+- [\[CVPR 2025\] BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution](../../CVPR2025/video_generation/bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatia.md)
 - [\[CVPR 2026\] TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models](../../CVPR2026/video_generation/tear_temporal-aware_automated_red-teaming_for_text-to-video_models.md)
 - [\[ICCV 2025\] Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning](disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)
-- [\[CVPR 2025\] MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](../../CVPR2025/video_generation/mimo_controllable_character_video_synthesis_with_spatial_decomposed_modeling.md)
 - [\[CVPR 2025\] Semantic Satellite Communications for Synchronized Audiovisual Reconstruction](../../CVPR2025/video_generation/semantic_satellite_communications_for_synchronized_audiovisual_reconstruction.md)
+- [\[CVPR 2026\] AutoCut: End-to-end Advertisement Video Editing Based on Multimodal Discretization and Controllable Generation](../../CVPR2026/video_generation/autocut_end-to-end_advertisement_video_editing_based_on_multimodal_discretizatio.md)
 
 <!-- RELATED:END -->

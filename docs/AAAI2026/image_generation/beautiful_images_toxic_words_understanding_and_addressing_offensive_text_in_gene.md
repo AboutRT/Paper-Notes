@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2502.05066](https://arxiv.org/abs/2502.05066)  
 **代码**: [sprintml/ToxicBench](https://github.com/sprintml/ToxicBench) / [sprintml/SafeTextGen](https://github.com/sprintml/SafeTextGen)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: Diffusion Models, NSFW Safety, Text-in-Image, Safety Fine-tuning, benchmark
 
 ## 一句话总结

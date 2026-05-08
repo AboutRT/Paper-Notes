@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Workshop on Generative AI in Finance)][科学计算][Physics-Informed Neural Networks] 针对最优交易执行中 HJB 方程的硬零终端库存约束（$X_T=0$），提出 Multi-Trajectory PINN (MT-PINN)，通过基于轨迹展开的终端损失与 $\lambda$-curriculum 训练策略，在合成数据和 SPY 实盘回测中显著优于 vanilla PINN，终端库存违规率大幅降低。
 tags:
-  - NeurIPS 2025 (Workshop on Generative AI in Finance)
+  - 科学计算
   - 科学计算
   - Physics-Informed Neural Networks
   - Hamilton-Jacobi-Bellman
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (Workshop on Generative AI in Finance)  
 **arXiv**: [2512.12708](https://arxiv.org/abs/2512.12708)  
 **代码**: [GitHub](https://github.com/anthimevalin/Multi-Trajectory-PINNs-Zero-Terminal-HJB)  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: Physics-Informed Neural Networks, Hamilton-Jacobi-Bellman, 最优执行, 终端库存约束, 金融量化
 
 ## 一句话总结

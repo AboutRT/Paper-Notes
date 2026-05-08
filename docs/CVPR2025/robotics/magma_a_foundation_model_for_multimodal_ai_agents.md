@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.13130](https://arxiv.org/abs/2502.13130)  
-**代码**: https://microsoft.github.io/Magma (开源)  
+**代码**: [https://microsoft.github.io/Magma](https://microsoft.github.io/Magma) (开源)  
 **领域**: Agent / Robotics / 多模态VLM  
 **关键词**: 多模态代理、视觉-语言-动作模型、UI导航、机器人操控、空间智能
 

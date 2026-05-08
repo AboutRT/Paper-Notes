@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.19649](https://arxiv.org/abs/2508.19649)  
 **代码**: [dongjinkim9.github.io/projects/idf](https://dongjinkim9.github.io/projects/idf)  
-**领域**: 图像去噪  
+**领域**: 医学图像  
 **关键词**: 图像去噪, 动态滤波, 泛化能力, 迭代精炼, 轻量级模型
 
 ## 一句话总结

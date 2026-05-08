@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.19902](https://arxiv.org/abs/2503.19902)  
 **代码**: [https://visual-ai.github.io/ice](https://visual-ai.github.io/ice)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: concept learning, intrinsic concepts, diffusion model, Stable Diffusion, triplet loss, concept decomposition
 
 ## 一句话总结

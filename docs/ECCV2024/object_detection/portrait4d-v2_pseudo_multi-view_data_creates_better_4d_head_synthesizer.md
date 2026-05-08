@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.13570](https://arxiv.org/abs/2403.13570)  
-**代码**: 无（项目页面: https://yudeng.github.io/Portrait4D-v2/）  
-**领域**: 3D视觉 / 人头合成  
+**代码**: 无（项目页面: [https://yudeng.github.io/Portrait4D-v2/](https://yudeng.github.io/Portrait4D-v2/)）  
+**领域**: 目标检测  
 **关键词**: 4D头部合成, 单图驱动, 伪多视角, NeRF, 人脸重演
 
 ## 一句话总结
@@ -150,10 +150,10 @@ tags:
 
 ## 相关论文
 
-- [\[AAAI 2026\] Deep Incomplete Multi-View Clustering via Hierarchical Imputation and Alignment](../../AAAI2026/object_detection/deep_incomplete_multi-view_clustering_via_hierarchical_imputation_and_alignment.md)
-- [\[CVPR 2025\] Pippo: High-Resolution Multi-View Humans from a Single Image](../../CVPR2025/object_detection/pippo_high-resolution_multi-view_humans_from_a_single_image.md)
-- [\[ICCV 2025\] ViewSRD: 3D Visual Grounding via Structured Multi-View Decomposition](../../ICCV2025/object_detection/viewsrd_3d_visual_grounding_via_structured_multi-view_decomposition.md)
-- [\[CVPR 2026\] GeoBridge: A Semantic-Anchored Multi-View Foundation Model for Geo-Localization](../../CVPR2026/object_detection/geobridge_semantic-anchored_multi-view_foundation_model_for_geo-localization.md)
-- [\[ICCV 2025\] SketchSplat: 3D Edge Reconstruction via Differentiable Multi-view Sketch Splatting](../../ICCV2025/object_detection/sketchsplat_3d_edge_reconstruction_via_differentiable_multi-view_sketch_splattin.md)
+- [\[ECCV 2024\] Adaptive Multi-head Contrastive Learning](adaptive_multihead_contrastive_learning.md)
+- [\[ECCV 2024\] Plain-Det: A Plain Multi-Dataset Object Detector](plain-det_a_plain_multi-dataset_object_detector.md)
+- [\[ECCV 2024\] AugDETR: Improving Multi-scale Learning for Detection Transformer](augdetr_improving_multi-scale_learning_for_detection_transformer.md)
+- [\[ECCV 2024\] Adaptive Multi-task Learning for Few-Shot Object Detection](adaptive_multi-task_learning_for_few-shot_object_detection.md)
+- [\[ECCV 2024\] Stepwise Multi-grained Boundary Detector for Point-Supervised Temporal Action Localization](stepwise_multi-grained_boundary_detector_for_point-supervised_temporal_action_lo.md)
 
 <!-- RELATED:END -->

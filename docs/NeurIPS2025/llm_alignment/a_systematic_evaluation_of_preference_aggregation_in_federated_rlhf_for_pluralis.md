@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2512.08786](https://arxiv.org/abs/2512.08786)  
 **代码**: 待确认  
-**领域**: human_understanding  
+**领域**: LLM对齐  
 **关键词**: federated learning, RLHF, Pluralistic Alignment, Preference Aggregation, Fairness
 
 ## 一句话总结

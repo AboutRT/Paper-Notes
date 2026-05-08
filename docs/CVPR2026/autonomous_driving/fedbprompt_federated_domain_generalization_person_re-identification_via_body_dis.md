@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12912](https://arxiv.org/abs/2603.12912)  
 **代码**: [leavlong/FedBPrompt](https://github.com/leavlong/FedBPrompt)  
-**领域**: 行人重识别 / 联邦学习  
+**领域**: 自动驾驶  
 **关键词**: FedDG-ReID, 视觉提示, 身体部位对齐, 参数高效微调, ViT, 联邦聚合
 
 ## 一句话总结

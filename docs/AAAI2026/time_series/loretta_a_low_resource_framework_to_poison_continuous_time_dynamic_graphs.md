@@ -19,7 +19,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.07379](https://arxiv.org/abs/2511.07379)  
-**代码**: https://github.com/ansh997/LoReTTA  
+**代码**: [https://github.com/ansh997/LoReTTA](https://github.com/ansh997/LoReTTA)  
 **领域**: 时间序列 / 图神经网络安全  
 **关键词**: 时序图神经网络, 对抗攻击, 数据投毒, 连续时间动态图, 图稀疏化, 时序 PageRank
 

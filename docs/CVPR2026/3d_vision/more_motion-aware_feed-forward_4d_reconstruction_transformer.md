@@ -44,15 +44,15 @@ MoRe 基于强静态重建骨干（VGGT 架构），从单目视频帧序列 $\{
 ### 关键设计
 
 1. **运动对齐注意力（Motion-aligned Attention）**：核心创新，在训练时利用 GT 运动掩码显式引导 camera token 的注意力分布。将运动掩码按 patch 大小 $s \times s$ 划分，计算每个 image token 的静态得分：
-   $$a_i = 1 - \frac{1}{s^2} \sum_{(u,v) \in m_i} m_i(u,v)$$
+    $a_i = 1 - \frac{1}{s^2} \sum_{(u,v) \in m_i} m_i(u,v)$
    其中 $a_i \in [0,1]$，越高表示越静态。通过监督 camera token 的注意力权重 $\alpha_i$ 对齐 $a_i$，使模型学会聚焦静态区域、忽略运动物体。关键优势：**完全无测试时开销**——GT 掩码仅用于训练，推理时模型已内化了运动解耦能力。设计动机来自对 VGGT 注意力图的直接观察：动态场景中 camera token 注意力均匀分散到运动和静态区域，导致位姿估计混乱。
 
 2. **分组因果注意力（Grouped Causal Attention）**：将标准因果注意力改造为帧感知因果注意力，允许同帧内的 image token 双向注意（保持空间一致性），同时帧间仅允许前向注意（保持时序因果性）。流式推理时，首帧对初始化 KV 缓存，后续帧增量处理：
-   $$F_t = \text{Attn}(\mathbf{Q}_t, [\mathbf{K}_{1:t-1}, \mathbf{K}_t], [\mathbf{V}_{1:t-1}, \mathbf{V}_t])$$
+    $F_t = \text{Attn}(\mathbf{Q}_t, [\mathbf{K}_{1:t-1}, \mathbf{K}_t], [\mathbf{V}_{1:t-1}, \mathbf{V}_t])$
    设计动机：标准 LLM 因果注意力将 image token 视为扁平序列，破坏了帧内空间对应关系。
 
 3. **BA-like Token 聚合优化**：流式因果推理后的轻量级全局优化步骤。缓存所有帧的 camera query $\mathbf{Q}_t^{\text{cam}}$ 和 KV 特征，序列处理完成后让每个 camera token 重新注意所有帧的特征：
-   $$\mathbf{C}_t^{\text{opt}} = \text{Attn}(\mathbf{Q}_t^{\text{cam}}, [\mathbf{K}_{1:T}], [\mathbf{V}_{1:T}])$$
+    $\mathbf{C}_t^{\text{opt}} = \text{Attn}(\mathbf{Q}_t^{\text{cam}}, [\mathbf{K}_{1:T}], [\mathbf{V}_{1:T}])$
    类比 Bundle Adjustment 的全局一致性优化，但仅需一次额外的注意力计算，开销极小。训练时通过复制 camera token 在序列末尾并行监督两条路径（流式 + 全局），确保两者一致。
 
 ### 损失函数 / 训练策略
@@ -142,8 +142,8 @@ MoRe 基于强静态重建骨干（VGGT 架构），从单目视频帧序列 $\{
 
 - [\[CVPR 2026\] 4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video](4dequine_disentangling_motion_and_appearance_for_4.md)
 - [\[CVPR 2026\] MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second](movies_motion-aware_4d_dynamic_view_synthesis_in_one_second.md)
-- [\[CVPR 2026\] PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery](panovggt_feed-forward_3d_reconstruction_from_panoramic_imagery.md)
 - [\[CVPR 2026\] Speed3R: Sparse Feed-forward 3D Reconstruction Models](speed3r_sparse_feed-forward_3d_reconstruction_models.md)
-- [\[CVPR 2026\] MotionScale: Reconstructing Appearance, Geometry, and Motion of Dynamic Scenes with Scalable 4D Gaussian Splatting](motionscale_reconstructing_appearance_geometry_and_motion_of_dynamic_scenes_with.md)
+- [\[CVPR 2026\] PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery](panovggt_feed-forward_3d_reconstruction_from_panoramic_imagery.md)
+- [\[CVPR 2026\] PhysGM: Large Physical Gaussian Model for Feed-Forward 4D Synthesis](physgm_large_physical_gaussian_4d_synthesis.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2508.08252](https://arxiv.org/abs/2508.08252)  
-**代码**: https://github.com/heshuting555/ReferSplat (有)  
+**代码**: [https://github.com/heshuting555/ReferSplat](https://github.com/heshuting555/ReferSplat)  
 **领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 指称分割, 自然语言, 空间推理, 对比学习
 

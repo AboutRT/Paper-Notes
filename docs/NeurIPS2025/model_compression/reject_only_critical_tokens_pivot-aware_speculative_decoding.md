@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.00351](https://arxiv.org/abs/2511.00351)  
-**代码**: https://github.com/amir-zsh/PAD (有)  
-**领域**: LLM效率 / 推理加速  
+**代码**: [https://github.com/amir-zsh/PAD](https://github.com/amir-zsh/PAD)  
+**领域**: 模型压缩  
 **关键词**: speculative decoding, pivot token, utility preservation, LLM inference, acceptance rate
 
 ## 一句话总结

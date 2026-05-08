@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - 句子表示学习
-  - 跨模态对齐
+  - 多模态VLM
   - 模态内对齐
   - 对比学习
   - 知识蒸馏
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.21096](https://arxiv.org/abs/2506.21096)  
-**代码**: [GitHub](https://github.com/Hekang001/DALR) (有)  
+**代码**: [GitHub](https://github.com/Hekang001/DALR)  
 **领域**: 多模态VLM  
 **关键词**: 句子表示学习, 跨模态对齐, 模态内对齐, 对比学习, 知识蒸馏  
 
@@ -169,9 +169,9 @@ DALR-RoBERTa 在 TR 任务上平均 **87.45**，比 KDMCSE 高 **+0.58**。
 ## 相关论文
 
 - [\[ICCV 2025\] Mitigating Object Hallucinations via Sentence-Level Early Intervention](../../ICCV2025/multimodal_vlm/mitigating_object_hallucinations_via_sentence-level_early_intervention.md)
-- [\[NeurIPS 2025\] Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment](../../NeurIPS2025/multimodal_vlm/aligning_by_misaligning_boundaryaware_curriculum_learning_fo.md)
 - [\[NeurIPS 2025\] On the Value of Cross-Modal Misalignment in Multimodal Representation Learning](../../NeurIPS2025/multimodal_vlm/on_the_value_of_cross-modal_misalignment_in_multimodal_representation_learning.md)
 - [\[ACL 2025\] SingaKids: A Multilingual Multimodal Dialogic Tutor for Language Learning](singakids_a_multilingual_multimodal_dialogic_tutor_for_language_learning.md)
-- [\[ICCV 2025\] Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](../../ICCV2025/multimodal_vlm/causal_disentanglement_and_cross-modal_alignment_for_enhanced_few-shot_learning.md)
+- [\[NeurIPS 2025\] Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment](../../NeurIPS2025/multimodal_vlm/aligning_by_misaligning_boundaryaware_curriculum_learning_fo.md)
+- [\[ACL 2025\] Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues](speaking_beyond_language.md)
 
 <!-- RELATED:END -->

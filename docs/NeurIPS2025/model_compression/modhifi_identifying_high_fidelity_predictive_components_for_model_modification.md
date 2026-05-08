@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.19566](https://arxiv.org/abs/2511.19566)  
 **代码**: [DhruvaKashyap/modhifi](https://github.com/DhruvaKashyap/modhifi)  
 **作者**: Dhruva Kashyap, Chaitanya Murti, Pranav Nayak, Tanay Narshana, Chiranjib Bhattacharyya (IISc, HP AI Lab, Google)
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: model modification, structured pruning, machine unlearning, subset fidelity, Lipschitz continuity, synthetic data
 
 ## 一句话总结
@@ -164,8 +164,8 @@ ResNet-50 上 ModHiFi-U 实现完全遗忘（0.2% forget acc），速度比 Jia 
 ## 相关论文
 
 - [\[ICML 2025\] Predictive Data Selection: The Data That Predicts Is the Data That Teaches](../../ICML2025/model_compression/predictive_data_selection_the_data_that_predicts_is_the_data_that_teaches.md)
-- [\[ICLR 2026\] Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces](../../ICLR2026/model_compression/discount_model_search_for_quality_diversity_optimization_in_high-dimensional_mea.md)
 - [\[CVPR 2025\] Curriculum Coarse-to-Fine Selection for High-IPC Dataset Distillation](../../CVPR2025/model_compression/curriculum_coarse-to-fine_selection_for_high-ipc_dataset_distillation.md)
+- [\[CVPR 2025\] MambaIC: State Space Models for High-Performance Learned Image Compression](../../CVPR2025/model_compression/mambaic_state_space_models_for_high-performance_learned_image_compression.md)
 - [\[NeurIPS 2025\] Vision-centric Token Compression in Large Language Model](vision-centric_token_compression_in_large_language_model.md)
 - [\[NeurIPS 2025\] A Granular Study of Safety Pretraining under Model Abliteration](a_granular_study_of_safety_pretraining_under_model_abliteration.md)
 

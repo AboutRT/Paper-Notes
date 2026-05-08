@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.04504](https://arxiv.org/abs/2510.04504)  
-**代码**: [https://github.com/hu-zijing/AsynDM](https://github.com/hu-zijing/AsynDM) (有)  
+**代码**: [https://github.com/hu-zijing/AsynDM](https://github.com/hu-zijing/AsynDM)  
 **领域**: 扩散模型 / 文图对齐  
 **关键词**: 异步去噪, 像素级时间步, 文图对齐, cross-attention mask, 即插即用
 

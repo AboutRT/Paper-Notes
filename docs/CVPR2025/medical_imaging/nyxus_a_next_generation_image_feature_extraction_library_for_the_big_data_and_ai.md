@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12016](https://arxiv.org/abs/2603.12016)  
 **代码**: [GitHub (MIT)](https://github.com/PolusAI/nyxus)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: feature extraction, image analysis, scalability, radiomics, cell profiling, GPU acceleration
 
 ## 一句话总结

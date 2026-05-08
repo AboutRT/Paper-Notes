@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.23180](https://arxiv.org/abs/2505.23180)  
-**代码**: https://github.com/pwangcs/ProxUnroll  
+**代码**: [https://github.com/pwangcs/ProxUnroll](https://github.com/pwangcs/ProxUnroll)  
 **领域**: 图像复原 / 压缩感知  
 **关键词**: 单像素成像, 算法展开, 近端算子, Plug-and-Play, 压缩感知重建
 
@@ -132,6 +132,6 @@ tags:
 - [\[ECCV 2024\] Accelerating Image Super-Resolution Networks with Pixel-Level Classification](../../ECCV2024/image_restoration/accelerating_image_super-resolution_networks_with_pixel-level_classification.md)
 - [\[CVPR 2025\] A Physics-Informed Blur Learning Framework for Imaging Systems](a_physics-informed_blur_learning_framework_for_imaging_systems.md)
 - [\[CVPR 2025\] Progressive Focused Transformer for Single Image Super-Resolution](progressive_focused_transformer_for_single_image_super-resolution.md)
-- [\[CVPR 2025\] Pixel-level and Semantic-level Adjustable Super-resolution: A Dual-LoRA Approach](pixel-level_and_semantic-level_adjustable_super-resolution_a_dual-lora_approach.md)
+- [\[CVPR 2025\] PolarFree: Polarization-based Reflection-Free Imaging](polarfree_polarization-based_reflection-free_imaging.md)
 
 <!-- RELATED:END -->

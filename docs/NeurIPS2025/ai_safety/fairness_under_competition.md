@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16291](https://arxiv.org/abs/2505.16291)  
 **代码**: [GitHub](https://github.com/eilamshapira/FairnessUnderCompetition)  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: 算法公平性, 竞争生态, Equal Opportunity, 多分类器公平性, 生态系统公平性
 
 ## 一句话总结
@@ -149,6 +149,6 @@ $$|(\gamma_2^0 - \gamma_2^1)\beta_1 + (\gamma_1^0 - \gamma_1^1)\beta_2 + (\gamma
 - [\[ICML 2025\] Accelerating Spectral Clustering under Fairness Constraints](../../ICML2025/ai_safety/accelerating_spectral_clustering_under_fairness_constraints.md)
 - [\[NeurIPS 2025\] Matchings Under Biased and Correlated Evaluations](matchings_under_biased_and_correlated_evaluations.md)
 - [\[NeurIPS 2025\] Reconstruction and Secrecy under Approximate Distance Queries](reconstruction_and_secrecy_under_approximate_distance_queries.md)
-- [\[NeurIPS 2025\] Preserving Task-Relevant Information Under Linear Concept Removal](preserving_task-relevant_information_under_linear_concept_removal.md)
+- [\[NeurIPS 2025\] It's Complicated: The Relationship of Algorithmic Fairness and Non-Discrimination Provisions for High-Risk Systems in the EU AI Act](its_complicated_the_relationship_of_algorithmic_fairness_and_non-discrimination_.md)
 
 <!-- RELATED:END -->

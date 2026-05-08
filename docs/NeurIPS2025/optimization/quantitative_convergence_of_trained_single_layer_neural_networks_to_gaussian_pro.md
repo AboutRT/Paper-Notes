@@ -53,12 +53,12 @@ $$\Sigma_t(x, x') = \mathcal{K}(x,x') - \text{(训练修正项)}$$
 ### 关键设计
 
 1. **三角不等式分解**：将总Wasserstein距离分为两项：
-   $$\mathcal{W}_2(f(x;\theta_t), G_t(x)) \leq \underbrace{\mathcal{W}_2(f, f^{\text{lin}})}_{\text{非线性误差}} + \underbrace{\mathcal{W}_2(f^{\text{lin}}, G_t)}_{\text{CLT误差}}$$
-   - 第一项：控制真实网络与其线性化版本之间的偏差
-   - 第二项：控制线性化网络（CLT）向高斯过程的收敛
+    $\mathcal{W}_2(f(x;\theta_t), G_t(x)) \leq \underbrace{\mathcal{W}_2(f, f^{\text{lin}})}_{\text{非线性误差}} + \underbrace{\mathcal{W}_2(f^{\text{lin}}, G_t)}_{\text{CLT误差}}$
+    - 第一项：控制真实网络与其线性化版本之间的偏差
+    - 第二项：控制线性化网络（CLT）向高斯过程的收敛
 
 2. **线性化网络分析**：定义线性化网络 $f^{\text{lin}}(x;\theta_t) = f(x;\theta_0) + \nabla_\theta f(x;\theta_0)|_{\theta_0} \omega_t$，其梯度流方程有解析解：
-   $$f^{\text{lin}}(x;\bar{\theta}_t) = f(x;\theta_0) - k_{x\mathcal{X}} I_t(k_{\mathcal{X}\mathcal{X}})(f(x;\theta_0) - y)$$
+    $f^{\text{lin}}(x;\bar{\theta}_t) = f(x;\theta_0) - k_{x\mathcal{X}} I_t(k_{\mathcal{X}\mathcal{X}})(f(x;\theta_0) - y)$
    其中 $I_t(B) = (\mathbb{1}_n - e^{-Bt})B^{-1}$ 是一个辅助算子。
 
 3. **好事件分区**：将参数空间划分为"好事件" $S$（满足NTK条件数等关键性质）和其补集 $S^C$。在 $S$ 上利用Proposition B.9控制 $f$ 与 $f^{\text{lin}}$ 的 $L^2$ 距离；在 $S^C$ 上利用Lemma B.12控制尾事件。$t^8$ 项来自尾事件的控制。

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.17769](https://arxiv.org/abs/2411.17769)  
-**代码**: https://github.com/itsmag11/Omegance  
+**代码**: [https://github.com/itsmag11/Omegance](https://github.com/itsmag11/Omegance)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 扩散模型, 粒度控制, 噪声缩放, 无训练, 细节增强/抑制
 

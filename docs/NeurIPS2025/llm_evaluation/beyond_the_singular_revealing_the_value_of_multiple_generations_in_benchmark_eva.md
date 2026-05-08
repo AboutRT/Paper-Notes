@@ -9,7 +9,7 @@ tags:
   - 多次生成
   - 基准方差分析
   - 提示学习
-  - 标签错误检测
+  - LLM评测
   - 数据地图
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.08943](https://arxiv.org/abs/2502.08943)  
 **作者**: Wenbo Zhang, Hengrui Cai (UC Irvine), Wenyu Chen (Meta)
-**领域**: LLM 评测方法论  
+**领域**: LLM评测  
 **关键词**: 层级统计模型, 多次生成, 基准方差分析, prompt难度量化, 标签错误检测, 数据地图
 
 ## 一句话总结
@@ -124,10 +124,10 @@ $$\text{Var}(\hat{\mu}) = \underbrace{\frac{1}{nk}(\mu - \mu^2 - \sigma^2)}_{\te
 
 ## 相关论文
 
-- [\[ACL 2025\] Beyond One-Size-Fits-All: Tailored Benchmarks for Efficient Evaluation](../../ACL2025/llm_evaluation/beyond_one-size-fits-all_tailored_benchmarks_for_efficient_evaluation.md)
 - [\[ACL 2025\] Right Answer, Wrong Score: Uncovering the Inconsistencies of LLM Evaluation in Multiple-Choice QA](../../ACL2025/llm_evaluation/right_answer_wrong_score_uncovering_the_inconsistencies_of_llm_evaluation_in_mul.md)
-- [\[ACL 2025\] Atomic Calibration of LLMs in Long-Form Generations](../../ACL2025/llm_evaluation/atomic_calibration_of_llms_in_long-form_generations.md)
 - [\[NeurIPS 2025\] Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](beyond_the_surface_enhancing_llm-as-a-judge_alignment_with_human_via_internal_re.md)
-- [\[ICML 2025\] Learning Safe Strategies for Value Maximizing Buyers in Uniform Price Auctions](../../ICML2025/llm_evaluation/learning_safe_strategies_for_value_maximizing_buyers_in_uniform_price_auctions.md)
+- [\[ACL 2025\] Beyond One-Size-Fits-All: Tailored Benchmarks for Efficient Evaluation](../../ACL2025/llm_evaluation/beyond_one-size-fits-all_tailored_benchmarks_for_efficient_evaluation.md)
+- [\[ACL 2025\] Atomic Calibration of LLMs in Long-Form Generations](../../ACL2025/llm_evaluation/atomic_calibration_of_llms_in_long-form_generations.md)
+- [\[NeurIPS 2025\] Rethinking Evaluation of Infrared Small Target Detection](rethinking_evaluation_of_infrared_small_target_detection.md)
 
 <!-- RELATED:END -->

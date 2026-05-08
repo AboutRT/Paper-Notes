@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ElementaryNet: A Non-Strategic Neural Network for Predicting Human Behavior in Normal-Form Games
 description: >-
-  [AAAI 2026][行为博弈论] 提出 ElementaryNet，一种**可证明不具备策略性推理能力**的神经网络架构，用于建模博弈中人类的"level-0"（非策略性）行为，在预测准确率上与 GameNet（当前 SOTA）无统计差异，同时具备更好的可解释性。
+  [AAAI 2026][可解释性] 提出 ElementaryNet，一种**可证明不具备策略性推理能力**的神经网络架构，用于建模博弈中人类的"level-0"（非策略性）行为，在预测准确率上与 GameNet（当前 SOTA）无统计差异，同时具备更好的可解释性。
 tags:
   - AAAI 2026
-  - 行为博弈论
+  - 可解释性
   - 人类行为预测
   - 非策略性神经网络
   - 迭代推理
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2503.05925](https://arxiv.org/abs/2503.05925)  
 **代码**: [https://github.com/gregdeon/elementarynet](https://github.com/gregdeon/elementarynet)  
-**领域**: 其他  
+**领域**: 可解释性  
 **关键词**: 行为博弈论, 人类行为预测, 非策略性神经网络, 迭代推理, 可解释性
 
 ## 一句话总结
@@ -145,10 +145,10 @@ $$f_i(G) = \sum_{p=1}^{P} w_p \cdot h_i^p(\Phi^p(G))$$
 
 ## 相关论文
 
+- [\[AAAI 2026\] Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution](can_llms_truly_embody_human_personality_analyzing_ai_and_human_behavior_alignmen.md)
 - [\[AAAI 2026\] A Closer Look at Knowledge Distillation in Spiking Neural Network Training](a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md)
-- [\[NeurIPS 2025\] FaCT: Faithful Concept Traces for Explaining Neural Network Decisions](../../NeurIPS2025/interpretability/fact_faithful_concept_traces_for_explaining_neural_network_decisions.md)
-- [\[AAAI 2026\] Enhancing Binary Encoded Crime Linkage Analysis Using Siamese Network](enhancing_binary_encoded_crime_linkage_analysis_using_siamese_network.md)
 - [\[AAAI 2026\] FineVAU: A Novel Human-Aligned Benchmark for Fine-Grained Video Anomaly Understanding](finevau_a_novel_human-aligned_benchmark_for_fine-grained_video_anomaly_understan.md)
+- [\[AAAI 2026\] Enhancing Binary Encoded Crime Linkage Analysis Using Siamese Network](enhancing_binary_encoded_crime_linkage_analysis_using_siamese_network.md)
 - [\[AAAI 2026\] FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)
 
 <!-- RELATED:END -->

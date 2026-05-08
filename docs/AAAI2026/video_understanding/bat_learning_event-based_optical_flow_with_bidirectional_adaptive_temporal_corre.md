@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2503.03256](https://arxiv.org/abs/2503.03256)  
 **代码**: [gangweix/BAT](https://github.com/gangweix/BAT)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: event camera, optical flow, bidirectional temporal correlation, deformable attention, event-based vision
 
 ## 一句话总结
@@ -145,7 +145,7 @@ tags:
 - [\[ICCV 2025\] Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras](../../ICCV2025/video_understanding/unsupervised_joint_learning_of_optical_flow_and_intensity_with_event_cameras.md)
 - [\[CVPR 2026\] LAOF: Robust Latent Action Learning with Optical Flow Constraints](../../CVPR2026/video_understanding/laof_robust_latent_action_learning_with_optical_flow_constraints.md)
 - [\[CVPR 2025\] DPFlow: Adaptive Optical Flow Estimation with a Dual-Pyramid Framework](../../CVPR2025/video_understanding/dpflow_adaptive_optical_flow_estimation_with_a_dual-pyramid_framework.md)
-- [\[ICCV 2025\] PriOr-Flow: Enhancing Primitive Panoramic Optical Flow with Orthogonal View](../../ICCV2025/video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_o.md)
+- [\[ICCV 2025\] PriOr-Flow: Enhancing Primitive Panoramic Optical Flow with Orthogonal View](../../ICCV2025/video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_orthogonal_view.md)
 - [\[CVPR 2025\] EDCFlow: Exploring Temporally Dense Difference Maps for Event-based Optical Flow Estimation](../../CVPR2025/video_understanding/edcflow_exploring_temporally_dense_difference_maps_for_event-based_optical_flow_.md)
 
 <!-- RELATED:END -->

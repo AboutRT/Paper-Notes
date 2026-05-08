@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 多模态大语言模型
+  - 多模态VLM
   - 未来推理
   - 轨迹预测
   - 前瞻性思维
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.00589](https://arxiv.org/abs/2312.00589)  
-**代码**: [GitHub](https://ahnsun.github.io/merlin) (有)  
+**代码**: [GitHub](https://ahnsun.github.io/merlin)  
 **领域**: 多模态VLM  
 **关键词**: 多模态大语言模型, 未来推理, 轨迹预测, 前瞻性思维, 视觉理解
 
@@ -217,9 +217,9 @@ Merlin 在所有场景下均大幅超越现有方法，"yes" 比率接近 50%，
 ## 相关论文
 
 - [\[ECCV 2024\] GENIXER: Empowering Multimodal Large Language Model as a Powerful Data Generator](genixer_empowering_multimodal_large_language_model_as_a_powe.md)
+- [\[ECCV 2024\] Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation](eyes_closed_safety_on_protecting_multimodal_llms_via_image-to-text_transformatio.md)
 - [\[ECCV 2024\] AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization](addressclip_empowering_visionlanguage_models_for_citywide_im.md)
-- [\[ECCV 2024\] Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation](eyes_closed_safety_on_protecting_multimodal_llms_via_imageto.md)
-- [\[ACL 2025\] VisuoThink: Empowering LVLM Reasoning with Multimodal Tree Search](../../ACL2025/multimodal_vlm/visuothink_empowering_lvlm_reasoning_with_multimodal_tree_search.md)
 - [\[ICML 2025\] From Black Boxes to Transparent Minds: Evaluating and Enhancing the Theory of Mind in Multimodal Large Language Models](../../ICML2025/multimodal_vlm/from_black_boxes_to_transparent_minds_evaluating_and_enhancing_the_theory_of_min.md)
+- [\[ACL 2025\] VisuoThink: Empowering LVLM Reasoning with Multimodal Tree Search](../../ACL2025/multimodal_vlm/visuothink_empowering_lvlm_reasoning_with_multimodal_tree_search.md)
 
 <!-- RELATED:END -->

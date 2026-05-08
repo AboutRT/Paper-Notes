@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.17712](https://arxiv.org/abs/2508.17712)  
-**代码**: https://github.com/astonishingwolf/NGD/  
-**领域**: human_understanding  
+**代码**: [https://github.com/astonishingwolf/NGD/](https://github.com/astonishingwolf/NGD/)  
+**领域**: 人体理解  
 **关键词**: garment reconstruction, neural Jacobian field, adaptive remeshing, monocular video, differentiable rendering
 
 ## 一句话总结
@@ -152,9 +152,9 @@ $$\mathcal{L}_{geo} = \lambda_1 \mathcal{L}_{render} + \lambda_2 \mathcal{L}_{ma
 ## 相关论文
 
 - [\[ICCV 2025\] Monocular Facial Appearance Capture in the Wild](monocular_facial_appearance_capture_in_the_wild.md)
-- [\[ECCV 2024\] PISR: Polarimetric Neural Implicit Surface Reconstruction for Textureless and Specular Objects](../../ECCV2024/human_understanding/pisr_polarimetric_neural_implicit_surface_reconstruction_for_textureless_and_spe.md)
-- [\[NeurIPS 2025\] Sharpness-Aware Minimization with Z-Score Gradient Filtering](../../NeurIPS2025/human_understanding/sharpness-aware_minimization_with_z-score_gradient_filtering.md)
 - [\[ICCV 2025\] Dynamic Reconstruction of Hand-Object Interaction with Distributed Force-aware Contact Representation](dynamic_reconstruction_of_hand-object_interaction_with_distributed_force-aware_c.md)
+- [\[CVPR 2025\] ChatGarment: Garment Estimation, Generation and Editing via Large Language Models](../../CVPR2025/human_understanding/chatgarment_garment_estimation_generation_and_editing_via_large_language_models.md)
 - [\[ICCV 2025\] Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars](avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md)
+- [\[CVPR 2025\] D3-Human: Dynamic Disentangled Digital Human from Monocular Video](../../CVPR2025/human_understanding/d3-human_dynamic_disentangled_digital_human_from_monocular_video.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2510.20512](https://arxiv.org/abs/2510.20512)  
-**代码**: https://liulisixin.github.io/OPAD/  
-**领域**: 图像生成  
+**代码**: [https://liulisixin.github.io/OPAD/](https://liulisixin.github.io/OPAD/)  
+**领域**: 模型压缩  
 **关键词**: 扩散模型个性化, 单步推理, 对抗蒸馏, 概念学习, 知识蒸馏
 
 ## 一句话总结

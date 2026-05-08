@@ -9,7 +9,7 @@ tags:
   - 特征归因
   - few-shot提示
   - 标签翻转验证
-  - 可解释性
+  - 因果推理
 ---
 
 # FitCF: A Framework for Automatic Feature Importance-guided Counterfactual Example Generation

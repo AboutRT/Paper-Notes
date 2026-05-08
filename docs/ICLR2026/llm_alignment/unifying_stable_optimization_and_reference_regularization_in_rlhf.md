@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.11523](https://arxiv.org/abs/2602.11523)  
-**代码**: https://github.com/tmllab/2026_ICLR_DAR  
+**代码**: [https://github.com/tmllab/2026_ICLR_DAR](https://github.com/tmllab/2026_ICLR_DAR)  
 **领域**: 对齐RLHF  
 **关键词**: RLHF, 双KL正则化, 优势回归, 参考策略插值, 奖励黑客
 
@@ -128,6 +128,6 @@ tags:
 - [\[ICLR 2026\] Semantic-aware Wasserstein Policy Regularization for Large Language Model Alignment](semantic-aware_wasserstein_policy_regularization_for_large_language_model_alignm.md)
 - [\[ICLR 2026\] General Exploratory Bonus for Optimistic Exploration in RLHF](general_exploratory_bonus_for_optimistic_exploration_in_rlhf.md)
 - [\[ICLR 2026\] Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework](beyond_rlhf_and_nlhf_population-proportional_alignment_under_an_axiomatic_framew.md)
-- [\[ACL 2025\] T-REG: Preference Optimization with Token-Level Reward Regularization](../../ACL2025/llm_alignment/t-reg_preference_optimization_with_token-level_reward_regularization.md)
+- [\[AAAI 2026\] Margin-aware Preference Optimization for Aligning Diffusion Models without Reference](../../AAAI2026/llm_alignment/margin-aware_preference_optimization_for_aligning_diffusion_models_without_refer.md)
 
 <!-- RELATED:END -->

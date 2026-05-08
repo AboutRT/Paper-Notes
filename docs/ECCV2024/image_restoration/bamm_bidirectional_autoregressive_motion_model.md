@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.19435](https://arxiv.org/abs/2403.19435)  
-**代码**: https://exitudio.github.io/BAMM-page (有)  
+**代码**: [https://exitudio.github.io/BAMM-page](https://exitudio.github.io/BAMM-page)  
 **领域**: 图像修复 / 人体动作生成  
 **关键词**: 文本到动作生成, 双向自回归, 掩码自注意力, 运动编辑, VQ-VAE
 
@@ -177,8 +177,8 @@ $$\mathcal{L}_{\text{hybrid}} = -\mathbb{E}_{\mathbf{X} \in p(\mathbf{X})}\left[
 
 ## 相关论文
 
-- [\[ECCV 2024\] MambaIR: A Simple Baseline for Image Restoration with State-Space Model](mambair_a_simple_baseline_for_image_restoration_with_state-space_model.md)
 - [\[ECCV 2024\] Spatially-Variant Degradation Model for Dataset-free Super-resolution](spatially-variant_degradation_model_for_dataset-free_super-resolution.md)
+- [\[ECCV 2024\] MambaIR: A Simple Baseline for Image Restoration with State-Space Model](mambair_a_simple_baseline_for_image_restoration_with_state-space_model.md)
 - [\[CVPR 2025\] DiTFlow: Video Motion Transfer with Diffusion Transformers](../../CVPR2025/image_restoration/video_motion_transfer_with_diffusion_transformers.md)
 - [\[ECCV 2024\] Joint RGB-Spectral Decomposition Model Guided Image Enhancement in Mobile Photography](joint_rgb-spectral_decomposition_model_guided_image_enhancement_in_mobile_photog.md)
 - [\[CVPR 2026\] MAD-Avatar: Motion-Aware Animatable Gaussian Avatars Deblurring](../../CVPR2026/image_restoration/motionaware_animatable_gaussian_avatars_deblurring.md)

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18682](https://arxiv.org/abs/2503.18682)  
-**代码**: https://github.com/facebookresearch/vkraygs (有)  
+**代码**: [https://github.com/facebookresearch/vkraygs](https://github.com/facebookresearch/vkraygs)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 硬件光栅化, 射线追踪, 新视角合成, VR渲染
 
@@ -123,6 +123,6 @@ tags:
 - [\[CVPR 2025\] DeSplat: Decomposed Gaussian Splatting for Distractor-Free Rendering](desplat_decomposed_gaussian_splatting_for_distractor-free_rendering.md)
 - [\[CVPR 2025\] DiET-GS: Diffusion Prior and Event Stream-Assisted Motion Deblurring 3D Gaussian Splatting](diet-gs_diffusion_prior_and_event_stream-assisted_motion_deblurring_3d_gaussian_.md)
 - [\[CVPR 2025\] Geometry Field Splatting with Gaussian Surfels](geometry_field_splatting_with_gaussian_surfels.md)
-- [\[CVPR 2025\] Improving Gaussian Splatting with Localized Points Management](improving_gaussian_splatting_with_localized_points_management.md)
+- [\[CVPR 2025\] Mitigating Ambiguities in 3D Classification with Gaussian Splatting](mitigating_ambiguities_in_3d_classification_with_gaussian_splatting.md)
 
 <!-- RELATED:END -->

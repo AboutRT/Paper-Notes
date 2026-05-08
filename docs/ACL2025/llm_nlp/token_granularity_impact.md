@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.11940](https://arxiv.org/abs/2412.11940)  
-**代码**: [GitHub](https://github.com/byungdoh/ssm-surprisal) (有)  
+**代码**: [GitHub](https://github.com/byungdoh/ssm-surprisal)  
 **领域**: 认知建模 / 计算心理语言学  
 **关键词**: token 粒度, 子词分词, 惊奇度, 认知建模, 阅读时间
 
@@ -124,8 +124,8 @@ tags:
 
 - [\[ACL 2025\] Large Language Models for Predictive Analysis: How Far Are They?](large_language_models_for_predictive_analysis_how_far_are_they.md)
 - [\[ACL 2025\] Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models](deontological_keyword_bias.md)
-- [\[ACL 2025\] Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs](token_prepending_training_free.md)
 - [\[ACL 2025\] Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning](character_level_understanding.md)
+- [\[ACL 2025\] Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs](token_prepending_training_free.md)
 - [\[ACL 2025\] Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](token_recycling.md)
 
 <!-- RELATED:END -->

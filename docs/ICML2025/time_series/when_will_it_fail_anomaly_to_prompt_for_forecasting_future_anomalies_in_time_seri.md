@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.23596](https://arxiv.org/abs/2506.23596)  
 **代码**: [GitHub - A2P](https://github.com/KU-VGI/AP)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: 异常预测, 时间序列, Anomaly-Aware Forecasting, Prompt Pool, 异常合成
 
 ## 一句话总结

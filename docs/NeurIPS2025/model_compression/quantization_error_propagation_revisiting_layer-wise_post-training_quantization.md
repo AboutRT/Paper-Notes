@@ -16,7 +16,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.09629](https://arxiv.org/abs/2504.09629)  
 **代码**: [GitHub](https://github.com/FujitsuResearch/qep)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: post-training quantization, LLM compression, quantization error propagation, layer-wise quantization, low-bit
 
 ## 一句话总结
@@ -120,8 +120,8 @@ QEP 本身不引入新的训练过程。核心优化目标（式7）为：$\min_
 
 - [\[ACL 2025\] PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models](../../ACL2025/model_compression/ptq161_low_bit_quantization.md)
 - [\[ACL 2025\] EfficientQAT: Efficient Quantization-Aware Training for Large Language Models](../../ACL2025/model_compression/efficientqat.md)
+- [\[ICML 2025\] Merge-Friendly Post-Training Quantization for Multi-Target Domain Adaptation](../../ICML2025/model_compression/merge-friendly_post-training_quantization_for_multi-target_domain_adaptation.md)
 - [\[NeurIPS 2025\] Spiking Brain Compression: Post-Training Second-Order Compression for Spiking Neural Networks](spiking_brain_compression_post-training_second-order_compression_for_spiking_neu.md)
 - [\[ICML 2025\] BoA: Attention-aware Post-training Quantization without Backpropagation](../../ICML2025/model_compression/boa_attention-aware_post-training_quantization_without_backpropagation.md)
-- [\[NeurIPS 2025\] DP-LLM: Runtime Model Adaptation with Dynamic Layer-wise Precision Assignment](dp-llm_runtime_model_adaptation_with_dynamic_layer-wise_precision_assignment.md)
 
 <!-- RELATED:END -->

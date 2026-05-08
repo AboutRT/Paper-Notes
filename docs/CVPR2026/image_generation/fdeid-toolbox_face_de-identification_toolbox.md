@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2603.13121](https://arxiv.org/abs/2603.13121)  
 **作者**: Hui Wei, Hao Yu, Guoying Zhao (University of Oulu)
 **代码**: [infraface/FDeID-Toolbox](https://github.com/infraface/FDeID-Toolbox)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: face de-identification, privacy preservation, toolbox, benchmark, evaluation protocol
 
 ## 一句话总结
@@ -184,6 +184,6 @@ FDeID-Toolbox 采用模块化设计，包含四个核心组件：
 - [\[CVPR 2026\] Pose-dIVE: Pose-Diversified Augmentation with Diffusion Model for Person Re-Identification](pose-dive_pose-diversified_augmentation_with_diffusion_model_for_person_re-ident.md)
 - [\[CVPR 2026\] MOS: Mitigating Optical-SAR Modality Gap for Cross-Modal Ship Re-Identification](mos_mitigating_optical-sar_modality_gap_for_cross-modal_ship_re-identification.md)
 - [\[CVPR 2026\] APPLE: Attribute-Preserving Pseudo-Labeling for Diffusion-Based Face Swapping](apple_attribute-preserving_pseudo-labeling_for_diffusion-based_face_swapping.md)
-- [\[CVPR 2026\] High-Fidelity Diffusion Face Swapping with ID-Constrained Facial Conditioning](high-fidelity_diffusion_face_swapping_with_id-constrained_facial_conditioning.md)
+- [\[CVPR 2026\] Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video](cross-modal_emotion_transfer_for_emotion_editing_in_talking_face_video.md)
 
 <!-- RELATED:END -->

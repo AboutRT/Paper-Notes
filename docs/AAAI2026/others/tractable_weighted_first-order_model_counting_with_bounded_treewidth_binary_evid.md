@@ -8,7 +8,7 @@ tags:
   - 加权一阶模型计数
   - 二元证据
   - 树宽
-  - 提升推理
+  - 其他
   - 组合计数
 ---
 
@@ -123,8 +123,8 @@ tags:
 
 - [\[AAAI 2026\] Variance Computation for Weighted Model Counting with Knowledge Compilation Approach](variance_computation_for_weighted_model_counting_with_knowledge_compilation_appr.md)
 - [\[AAAI 2026\] Model Counting for Dependency Quantified Boolean Formulas](model_counting_for_dependency_quantified_boolean_formulas.md)
-- [\[AAAI 2026\] Higher-Order Responsibility](higher-order_responsibility.md)
-- [\[AAAI 2026\] DW-DGAT: Dynamically Weighted Dual Graph Attention Network for Neurodegenerative Disease Diagnosis](dw-dgat_dynamically_weighted_dual_graph_attention_network_for_neurodegenerative_.md)
 - [\[ACL 2025\] Enhancing Transformers for Generalizable First-Order Logical Entailment](../../ACL2025/others/enhancing_fol_entailment.md)
+- [\[AAAI 2026\] Higher-Order Responsibility](higher-order_responsibility.md)
+- [\[AAAI 2026\] Measuring Model Performance in the Presence of an Intervention](measuring_model_performance_in_the_presence_of_an_intervention.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2508.19195](https://arxiv.org/abs/2508.19195)  
-**代码**: [https://github.com/ywxsuperstar/ksaedit](https://github.com/ywxsuperstar/ksaedit) (有)  
+**代码**: [https://github.com/ywxsuperstar/ksaedit](https://github.com/ywxsuperstar/ksaedit)  
 **领域**: 图像生成 / 扩散模型  
 **关键词**: 属性操控, 稀疏自编码器, 文本嵌入解耦, 连续控制, 零样本泛化  
 

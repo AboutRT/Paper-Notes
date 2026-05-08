@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 LLM Agent方向14篇论文解读
+  ICML2025 LLM Agent方向15篇论文解读
 description: >-
-  14篇ICML2025的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  15篇ICML2025的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🧪 ICML2025** · **14** 篇论文解读
+**🧪 ICML2025** · **15** 篇论文解读
 
 **[AdvAgent: Controllable Blackbox Red-teaming on Web Agents](advagent_controllable_blackbox_red-teaming_on_web_agents.md)**
 
@@ -45,6 +45,10 @@ description: >-
 **[Improving LLM Agent Planning with In-Context Learning via Atomic Fact Augmentation and Lookahead Search](improving_llm_agent_planning_with_in-context_learning_via_atomic_fact_augmentati.md)**
 
 :   提出 LWM-Planner，从交互轨迹中提取"原子事实"增强 LLM 世界模型模拟，结合递归前瞻搜索实现纯 in-context 的 Agent 规划改进，在 ALFWorld 等任务上显著优于 ReAct 和 Reflexion。
+
+**[KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search](kbqa-o1_agentic_knowledge_base_question_answering_with_monte_carlo_tree_search.md)**
+
+:   提出 KBQA-o1，将 ReAct Agent 与蒙特卡洛树搜索（MCTS）结合，通过策略模型和奖励模型驱动的启发式搜索实现知识库问答，在低资源设置下以 Llama-3.1-8B 将 GrailQA F1 从 48.5%（GPT-3.5-turbo SOTA）提升至 78.5%。
 
 **[Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery](open_source_planning_control_system_with_language_agents_for_autonomous_scientif.md)**
 

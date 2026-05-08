@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.18263](https://arxiv.org/abs/2507.18263)  
 **代码**: [https://github.com/DeepLearnXMU/Locate_and_Focus_ST](https://github.com/DeepLearnXMU/Locate_and_Focus_ST)  
-**领域**: 语音翻译 / 术语翻译  
+**领域**: LLM/NLP  
 **关键词**: speech translation, terminology translation, speech LLM, sliding retrieval, multi-modal knowledge
 
 ## 一句话总结

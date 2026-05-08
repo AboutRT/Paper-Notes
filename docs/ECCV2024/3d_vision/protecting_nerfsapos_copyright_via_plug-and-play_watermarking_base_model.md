@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.07735](https://arxiv.org/abs/2407.07735)  
-**代码**: https://qsong2001.github.io/NeRFProtector  
+**代码**: [https://qsong2001.github.io/NeRFProtector](https://qsong2001.github.io/NeRFProtector)  
 **领域**: 3D视觉  
 **关键词**: NeRF版权保护, 数字水印, 即插即用, 渐进式全局渲染, 知识蒸馏
 

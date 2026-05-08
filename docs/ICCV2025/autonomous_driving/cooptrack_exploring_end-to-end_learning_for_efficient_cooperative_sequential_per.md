@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.19239](https://arxiv.org/abs/2507.19239)  
 **代码**: [GitHub](https://github.com/zhongjiaru/CoopTrack)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 协同感知, 3D多目标跟踪, 端到端学习, 车路协同, 实例级融合
 
 ## 一句话总结

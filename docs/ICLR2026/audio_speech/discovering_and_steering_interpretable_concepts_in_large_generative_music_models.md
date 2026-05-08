@@ -7,7 +7,7 @@ tags:
   - ICLR2026
   - 语音
   - Sparse Autoencoder
-  - Music Generation
+  - 音频语音
   - interpretability
   - MusicGen
   - Feature Steering
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2505.18186](https://arxiv.org/abs/2505.18186)  
 **代码**: [musicdiscovery.media.mit.edu](https://musicdiscovery.media.mit.edu)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Sparse Autoencoder, Music Generation, interpretability, MusicGen, Feature Steering
 
 ## 一句话总结
@@ -154,6 +154,6 @@ $$\mathbf{x}' = \mathbf{x} + \alpha \cdot \beta \cdot \mathbf{W}_{d,j}$$
 - [\[ACL 2026\] HalluAudio: A Comprehensive Benchmark for Hallucination Detection in Large Audio-Language Models](../../ACL2026/audio_speech/halluaudio_a_comprehensive_benchmark_for_hallucination_detection_in_large_audio-.md)
 - [\[ACL 2026\] Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models](../../ACL2026/audio_speech/temporal_contrastive_decoding_a_training-free_method_for_large_audio-language_mo.md)
 - [\[AAAI 2026\] AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions](../../AAAI2026/audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md)
-- [\[ACL 2025\] Mind the Gap! Static and Interactive Evaluations of Large Audio Models](../../ACL2025/audio_speech/mind_the_gap_static_and_interactive_evaluations_of_large_audio_models.md)
+- [\[ICLR 2026\] Improving Black-Box Generative Attacks via Generator Semantic Consistency](improving_black-box_generative_attacks_via_generator_semantic_consistency.md)
 
 <!-- RELATED:END -->

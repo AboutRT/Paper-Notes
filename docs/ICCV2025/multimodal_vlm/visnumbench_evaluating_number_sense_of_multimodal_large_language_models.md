@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 数字感知
   - 视觉数值估计
-  - MLLM评测基准
+  - 多模态VLM
   - 数量感知
   - 多模态推理
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.14939](https://arxiv.org/abs/2503.14939)  
-**代码**: https://wwwtttjjj.github.io/VisNumBench/  
+**代码**: [https://wwwtttjjj.github.io/VisNumBench/](https://wwwtttjjj.github.io/VisNumBench/)  
 **领域**: 多模态VLM  
 **关键词**: 数字感知, 视觉数值估计, MLLM评测基准, 数量感知, 多模态推理
 
@@ -134,7 +134,7 @@ VisNumBench 由两部分组成：VisNumBench-Synthetic（合成数据，1011 题
 - [\[ICCV 2025\] MultiVerse: A Multi-Turn Conversation Benchmark for Evaluating Large Vision and Language Models](multiverse_a_multi-turn_conversation_benchmark_for_evaluating_large_vision_and_l.md)
 - [\[ACL 2025\] AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models](../../ACL2025/multimodal_vlm/alignmmbench_evaluating_chinese_multimodal_alignment_in_large_vision-language_mo.md)
 - [\[NeurIPS 2025\] Evaluating Multimodal Large Language Models on Core Music Perception Tasks](../../NeurIPS2025/multimodal_vlm/evaluating_multimodal_large_language_models_on_core_music_perception_tasks.md)
-- [\[ACL 2025\] Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models](../../ACL2025/multimodal_vlm/unsolvable_problem_detection.md)
 - [\[ICCV 2025\] SimpleVQA: Multimodal Factuality Evaluation for Multimodal Large Language Models](simplevqa_multimodal_factuality_evaluation_for_multimodal_large_language_models.md)
+- [\[ACL 2025\] Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models](../../ACL2025/multimodal_vlm/unsolvable_problem_detection.md)
 
 <!-- RELATED:END -->

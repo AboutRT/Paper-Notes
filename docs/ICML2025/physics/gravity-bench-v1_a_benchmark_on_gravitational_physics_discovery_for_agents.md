@@ -7,7 +7,7 @@ tags:
   - ICML 2025
   - 引力物理
   - 科学发现
-  - AI Agent
+  - 物理学
   - benchmark
   - 部分可观测环境
   - 观测规划
@@ -147,6 +147,6 @@ Gravity-Bench-v1 由三部分组成：
 - [\[NeurIPS 2025\] POLARIS: A High-contrast Polarimetric Imaging Benchmark Dataset for Exoplanetary Disk Representation Learning](../../NeurIPS2025/physics/polaris_a_high-contrast_polarimetric_imaging_benchmark_dataset_for_exoplanetary_.md)
 - [\[ICML 2025\] Finetuning Stellar Spectra Foundation Models with LoRA](finetuning_stellar_spectra_foundation_models_with_lora.md)
 - [\[ICML 2025\] Mixture-of-Expert Variational Autoencoders for Cross-Modality Embedding of Type Ia Supernova Data](mixture-of-expert_variational_autoencoders_for_cross-modality_embedding_of_type_.md)
-- [\[ICML 2025\] Compact Matrix Quantum Group Equivariant Neural Networks](compact_matrix_quantum_group_equivariant_neural_networks.md)
+- [\[ICML 2025\] Teaching LLMs to Speak Spectroscopy](teaching_llms_to_speak_spectroscopy.md)
 
 <!-- RELATED:END -->

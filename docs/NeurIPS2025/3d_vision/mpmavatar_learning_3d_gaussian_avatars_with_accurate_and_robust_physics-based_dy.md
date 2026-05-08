@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.01619](https://arxiv.org/abs/2510.01619)  
-**代码**: https://KAISTChangmin.github.io/MPMAvatar/  
+**代码**: [https://KAISTChangmin.github.io/MPMAvatar/](https://KAISTChangmin.github.io/MPMAvatar/)  
 **领域**: 3D视觉  
 **关键词**: 3D human avatar, physics-based simulation, MPM, 3D Gaussian Splatting, garment dynamics
 

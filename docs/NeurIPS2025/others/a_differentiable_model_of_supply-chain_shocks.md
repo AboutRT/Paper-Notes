@@ -7,7 +7,7 @@ tags:
   - "NeurIPS 2025 (Workshop: Differentiable Systems and Scientific ML)"
   - supply chain
   - differentiable simulation
-  - agent-based model
+  - 其他
   - JAX
   - GPU acceleration
   - variational inference
@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025 (Workshop: Differentiable Systems and Scientific ML)  
 **arXiv**: [2511.05231](https://arxiv.org/abs/2511.05231)  
 **代码**: 无  
-**领域**: others / scientific_computing  
+**领域**: 其他  
 **关键词**: supply chain, differentiable simulation, agent-based model, JAX, GPU acceleration, variational inference  
 
 ## 一句话总结
@@ -133,8 +133,8 @@ SVI 在 300 次模型评估后 in-sample 和 out-of-sample 损失均低于 ABC �
 
 - [\[NeurIPS 2025\] Exact Learning of Arithmetic with Differentiable Agents](exact_learning_of_arithmetic_with_differentiable_agents.md)
 - [\[CVPR 2025\] Locally Orderless Images for Optimization in Differentiable Rendering](../../CVPR2025/others/locally_orderless_images_for_optimization_in_differentiable_rendering.md)
-- [\[NeurIPS 2025\] Scalable GPU-Accelerated Euler Characteristic Curves: Optimization and Differentiable Learning for PyTorch](scalable_gpu-accelerated_euler_characteristic_curves_optimization_and_differenti.md)
-- [\[CVPR 2026\] DiffBMP: Differentiable Rendering with Bitmap Primitives](../../CVPR2026/others/diffbmp_differentiable_rendering_with_bitmap_primitives.md)
 - [\[ICML 2025\] AutoAL: Automated Active Learning with Differentiable Query Strategy Search](../../ICML2025/others/autoal_automated_active_learning_with_differentiable_query_strategy_search.md)
+- [\[CVPR 2026\] GardenDesigner: Encoding Aesthetic Principles into Jiangnan Garden Construction via a Chain of Agents](../../CVPR2026/others/gardendesigner_encoding_aesthetic_principles_into_jiangnan_garden_construction_v.md)
+- [\[NeurIPS 2025\] Scalable GPU-Accelerated Euler Characteristic Curves: Optimization and Differentiable Learning for PyTorch](scalable_gpu-accelerated_euler_characteristic_curves_optimization_and_differenti.md)
 
 <!-- RELATED:END -->

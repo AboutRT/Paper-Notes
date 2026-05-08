@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 多模态
-  - 视觉语言模型
+  - 多模态VLM
   - 推理效率
   - 视觉token主导
   - KV缓存
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.05546](https://arxiv.org/abs/2604.05546)  
-**代码**: https://github.com/SuDIS-ZJU/Efficient-LVLMs-Inference  
+**代码**: [https://github.com/SuDIS-ZJU/Efficient-LVLMs-Inference](https://github.com/SuDIS-ZJU/Efficient-LVLMs-Inference)  
 **领域**: 多模态VLM / LLM效率  
 **关键词**: 视觉语言模型、推理效率、视觉token主导、KV缓存、token压缩
 
@@ -116,9 +116,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2026\] FineSteer: A Unified Framework for Fine-Grained Inference-Time Steering in Large Language Models](finesteer_a_unified_framework_for_fine-grained_inference-time_steering_in_large_.md)
+- [\[ACL 2026\] HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models](hiprune_hierarchical_attention_for_efficient_token_pruning_in_vision-language_mo.md)
 - [\[ACL 2026\] Benchmarking Deflection and Hallucination in Large Vision-Language Models](benchmarking_deflection_and_hallucination_in_large_vision-language_models.md)
 - [\[ACL 2026\] Topology-Aware Layer Pruning for Large Vision-Language Models](topology-aware_layer_pruning_for_large_vision-language_models.md)
 - [\[ACL 2026\] Mitigating Hallucinations in Large Vision-Language Models without Performance Degradation](mitigating_hallucinations_in_large_vision-language_models_without_performance_de.md)
-- [\[AAAI 2026\] Global Compression Commander: Plug-and-Play Inference Acceleration for High-Resolution Large Vision-Language Models](../../AAAI2026/multimodal_vlm/global_compression_commander_plug-and-play_inference_acceler.md)
 
 <!-- RELATED:END -->

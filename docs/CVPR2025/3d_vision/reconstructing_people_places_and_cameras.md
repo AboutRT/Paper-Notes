@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.17806](https://arxiv.org/abs/2412.17806)  
-**代码**: https://muelea.github.io/hsfm  
+**代码**: [https://muelea.github.io/hsfm](https://muelea.github.io/hsfm)  
 **领域**: 3D视觉  
 **关键词**: 多视角重建, 人体姿态估计, 结构光运动, 度量尺度恢复, 联合优化
 

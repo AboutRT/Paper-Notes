@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 不确定性表达
-  - 长文本生成
+  - 其他
   - 幻觉缓解
   - SFT+DPO
   - 事实准确性
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.14309](https://arxiv.org/abs/2410.14309)  
 **代码**: [https://github.com/rhyang2021/LoGU](https://github.com/rhyang2021/LoGU)  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: 不确定性表达, 长文本生成, 幻觉缓解, SFT+DPO, 事实准确性  
 
 ## 一句话总结

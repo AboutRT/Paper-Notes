@@ -14,7 +14,7 @@ tags:
 - **会议**: AAAI 2026
 - **arXiv**: [2511.13007](https://arxiv.org/abs/2511.13007)
 - **代码**: [https://github.com/SNOWTEAM2023/GEM](https://github.com/SNOWTEAM2023/GEM)
-- **领域**: LLM 对齐 / 偏好建模
+- **领域**: 医学图像
 - **关键词**: 大语言模型对齐, 少样本偏好学习, 熵引导, 思维链, 策略优化, RLHF
 
 ## 一句话总结

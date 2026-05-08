@@ -8,7 +8,7 @@ tags:
   - 指令合成
   - 数据多样性
   - 归因式生成
-  - LLM对齐
+  - 其他
   - 网络文档
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Outstanding Paper Award 🏆)  
 **arXiv**: [2506.03968](https://arxiv.org/abs/2506.03968)  
 **代码**: [https://github.com/Ignoramus0817/SynthQuestions](https://github.com/Ignoramus0817/SynthQuestions)  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: 指令合成, 数据多样性, 归因式生成, LLM对齐, 网络文档
 
 ## 一句话总结
@@ -141,8 +141,8 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
-- [\[ACL 2025\] Self-Foveate: Enhancing Diversity and Difficulty of Synthesized Instructions from Unsupervised Text via Multi-Level Foveation](self-foveate_enhancing_diversity_and_difficulty_of_synthesized_instructions_from.md)
 - [\[ACL 2025\] Predicting Implicit Arguments in Procedural Video Instructions](implicit_arguments_video_instructions.md)
+- [\[ACL 2025\] Self-Foveate: Enhancing Diversity and Difficulty of Synthesized Instructions from Unsupervised Text via Multi-Level Foveation](self-foveate_enhancing_diversity_and_difficulty_of_synthesized_instructions_from.md)
 - [\[ACL 2025\] USDC: A Dataset of User Stance and Dogmatism in Long Conversations](usdc_a_dataset_of_underlineuser_underlinestance_and_underlinedogmatism_in_long_u.md)
 - [\[ACL 2025\] Theorem Prover as a Judge for Synthetic Data Generation](theorem_prover_as_a_judge_for_synthetic_data_generation.md)
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.20272](https://arxiv.org/abs/2502.20272)  
-**代码**: https://github.com/Fediory/HVI-CIDNet (有)  
+**代码**: [https://github.com/Fediory/HVI-CIDNet](https://github.com/Fediory/HVI-CIDNet)  
 **领域**: 图像恢复 / 低光增强  
 **关键词**: 低光图像增强, 色彩空间, HVI色彩空间, 颜色解耦, CIDNet
 

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.06866](https://arxiv.org/abs/2512.06866)  
 **代码**: 无  
-**领域**: 视频理解  
+**领域**: 模型压缩  
 **关键词**: video-understanding, token-compression, vllm, efficiency, keyframe-selection  
 
 ## 一句话总结
@@ -134,9 +134,9 @@ AKS 等方法使用预训练 VLM 在特征编码前做二元帧选择，引入�
 ## 相关论文
 
 - [\[NeurIPS 2025\] KINDLE: Knowledge-Guided Distillation for Prior-Free Gene Regulatory Network Inference](kindle_knowledge-guided_distillation_for_prior-free_gene_regulatory_network_infe.md)
-- [\[ACL 2025\] LLMSR@XLLM25: Less is More: Enhancing Structured Multi-Agent Reasoning via Quality-Guided Distillation](../../ACL2025/model_compression/llmsrxllm25_less_is_more_enhancing_structured_multi-agent_reasoning_via_quality-.md)
 - [\[ICLR 2026\] Cut Less, Fold More: Model Compression through the Lens of Projection Geometry](../../ICLR2026/model_compression/cut_less_fold_more_model_compression_through_the_lens_of_projection_geometry.md)
 - [\[NeurIPS 2025\] Vision-centric Token Compression in Large Language Model](vision-centric_token_compression_in_large_language_model.md)
 - [\[NeurIPS 2025\] DP-LLM: Runtime Model Adaptation with Dynamic Layer-wise Precision Assignment](dp-llm_runtime_model_adaptation_with_dynamic_layer-wise_precision_assignment.md)
+- [\[NeurIPS 2025\] Dependency Parsing is More Parameter-Efficient with Normalization](dependency_parsing_is_more_parameter-efficient_with_normalization.md)
 
 <!-- RELATED:END -->

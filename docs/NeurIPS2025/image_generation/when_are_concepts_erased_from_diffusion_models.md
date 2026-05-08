@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.17013](https://arxiv.org/abs/2505.17013)  
-**代码**: https://github.com/kevinlu4588/WhenAreConceptsErased  
-**领域**: AI安全 / 扩散模型概念擦除  
+**代码**: [https://github.com/kevinlu4588/WhenAreConceptsErased](https://github.com/kevinlu4588/WhenAreConceptsErased)  
+**领域**: 图像生成  
 **关键词**: 概念擦除, 扩散模型, 知识残留, 引导式回避, 破坏式移除
 
 ## 一句话总结
@@ -134,6 +134,6 @@ tags:
 - [\[ICCV 2025\] Meta-Unlearning on Diffusion Models: Preventing Relearning Unlearned Concepts](../../ICCV2025/image_generation/meta-unlearning_on_diffusion_models_preventing_relearning_unlearned_concepts.md)
 - [\[CVPR 2025\] Memories of Forgotten Concepts](../../CVPR2025/image_generation/memories_of_forgotten_concepts.md)
 - [\[CVPR 2025\] Concept Replacer: Replacing Sensitive Concepts in Diffusion Models via Precision Localization](../../CVPR2025/image_generation/concept_replacer_replacing_sensitive_concepts_in_diffusion_models_via_precision_.md)
-- [\[NeurIPS 2025\] Semantic Surgery: Zero-Shot Concept Erasure in Diffusion Models](semantic_surgery_zero-shot_concept_erasure_in_diffusion_models.md)
+- [\[ICML 2025\] DDIS: When Model Knowledge Meets Diffusion Model](../../ICML2025/image_generation/when_model_knowledge_meets_diffusion_model_diffusion-assisted_data-free_image_synthesis.md)
 
 <!-- RELATED:END -->

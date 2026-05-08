@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2411.08324](https://arxiv.org/abs/2411.08324)  
-**代码**: https://agenticlearning.ai/daily-oracle  
+**代码**: [https://agenticlearning.ai/daily-oracle](https://agenticlearning.ai/daily-oracle)  
 **领域**: 时间序列 / LLM评估  
 **关键词**: LLM evaluation, continuous benchmark, news forecasting, temporal generalization, knowledge cutoff
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2405.13873](https://arxiv.org/abs/2405.13873)  
-**代码**: https://github.com/Y-Sui/FiDeLiS (有)  
-**领域**: graph_learning  
+**代码**: [https://github.com/Y-Sui/FiDeLiS](https://github.com/Y-Sui/FiDeLiS)  
+**领域**: 图学习  
 **关键词**: 知识图谱问答, LLM推理, 束搜索, 演绎验证, Path-RAG
 
 ## 一句话总结

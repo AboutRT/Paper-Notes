@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV2024  
 **arXiv**: [2311.16474](https://arxiv.org/abs/2311.16474)  
-**代码**: https://github.com/xiaoyao3302/PCFEA  
-**领域**: 3d_vision  
+**代码**: [https://github.com/xiaoyao3302/PCFEA](https://github.com/xiaoyao3302/PCFEA)  
+**领域**: 3D视觉  
 **关键词**: 无监督域自适应, 点云分类, 渐进式训练, 特征增强, 中间域
 
 ## 一句话总结

@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2409.14396](https://arxiv.org/abs/2409.14396)  
 **代码**: [nblt/Flat-LoRA](https://github.com/nblt/Flat-LoRA)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: LoRA, 参数高效微调, 平坦极小值, 随机权重扰动, 贝叶斯期望损失
 
 ## 一句话总结

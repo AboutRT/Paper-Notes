@@ -10,14 +10,14 @@ tags:
   - OCR
   - SVG
   - 图形重构
-  - 多模态预训练
+  - 多模态VLM
 ---
 
 # Multimodal OCR: Parse Anything from Documents
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.13032](https://arxiv.org/abs/2603.13032)  
-**代码**: https://github.com/rednote-hilab/dots.mocr  
+**代码**: [https://github.com/rednote-hilab/dots.mocr](https://github.com/rednote-hilab/dots.mocr)  
 **领域**: 多模态VLM  
 **关键词**: 文档解析, OCR, SVG, 图形重构, 多模态预训练
 
@@ -135,10 +135,10 @@ dots.mocr 是一个 3B 参数的端到端模型，包含：1.2B 从零训练的�
 
 ## 相关论文
 
-- [\[CVPR 2025\] DocVLM: Make Your VLM an Efficient Reader](docvlm_make_your_vlm_an_efficient_reader.md)
-- [\[CVPR 2025\] Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](molmo_and_pixmo_open_weights_and_open_data_for_state-of-the-art_vision-language_.md)
-- [\[CVPR 2025\] Florence-VL: Enhancing Vision-Language Models with Generative Vision Encoder and Depth-Breadth Fusion](florence-vl_enhancing_vision-language_models_with_generative_vision_encoder_and_.md)
-- [\[CVPR 2025\] GeoMM: On Geodesic Perspective for Multi-Modal Learning](geomm_on_geodesic_perspective_for_multi-modal_learning.md)
-- [\[CVPR 2025\] Document Haystacks: Vision-Language Reasoning Over Piles of 1000+ Documents](document_haystacks_vision-language_reasoning_over_piles_of_1000_documents.md)
+- [\[CVPR 2025\] MARTEN: Visual Question Answering with Mask Generation for Multi-Modal Document Understanding](marten_visual_question_answering_with_mask_generation_for_multi-modal_document_u.md)
+- [\[NeurIPS 2025\] MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios](../../NeurIPS2025/multimodal_vlm/mme-videoocr_evaluating_ocr-based_capabilities_of_multimodal_llms_in_video_scena.md)
+- [\[CVPR 2025\] Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation](beyond_final_answers_crystal_benchmark_for_transparent_multimodal_reasoning_eval.md)
+- [\[NeurIPS 2025\] Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models](../../NeurIPS2025/multimodal_vlm/seeing_is_believing_mitigating_ocr_hallucinations_in_multimodal_large_language_m.md)
+- [\[CVPR 2025\] Context-Aware Multimodal Pretraining](context-aware_multimodal_pretraining.md)
 
 <!-- RELATED:END -->

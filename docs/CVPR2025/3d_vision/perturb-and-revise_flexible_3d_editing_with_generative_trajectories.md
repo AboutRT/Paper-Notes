@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.05279](https://arxiv.org/abs/2412.05279)  
-**代码**: https://susunghong.github.io/Perturb-and-Revise  
+**代码**: [https://susunghong.github.io/Perturb-and-Revise](https://susunghong.github.io/Perturb-and-Revise)  
 **领域**: 3D视觉  
 **关键词**: 3D编辑, NeRF编辑, Score Distillation, 参数扰动, 多视图一致性
 

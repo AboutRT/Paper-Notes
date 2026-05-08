@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04462](https://arxiv.org/abs/2412.04462)  
-**代码**: https://snap-research.github.io/4Real-Video/ (无独立代码仓库)  
+**代码**: [https://snap-research.github.io/4Real-Video/](https://snap-research.github.io/4Real-Video/) (无独立代码仓库)  
 **领域**: 视频生成 / 4D生成  
 **关键词**: 4D视频生成, 双流架构, 同步层, 视频扩散, 多视角一致性
 
@@ -144,9 +144,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Learning Temporally Consistent Video Depth from Video Diffusion Priors](learning_temporally_consistent_video_depth_from_video_diffusion_priors.md)
+- [\[CVPR 2025\] ManiVideo: Generating Hand-Object Manipulation Video with Dexterous and Generalizable Grasping](manivideo_generating_hand-object_manipulation_video_with_dexterous_and_generaliz.md)
 - [\[CVPR 2025\] Learning from Streaming Video with Orthogonal Gradients](learning_from_streaming_video_with_orthogonal_gradients.md)
 - [\[CVPR 2026\] Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors](../../CVPR2026/video_generation/orbital_video_3d_foundation_priors.md)
 - [\[ICCV 2025\] NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors](../../ICCV2025/video_generation/normalcrafter_learning_temporally_consistent_normals_from_video_diffusion_priors.md)
-- [\[ICCV 2025\] Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning](../../ICCV2025/video_generation/disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)
 
 <!-- RELATED:END -->

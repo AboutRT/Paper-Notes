@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.24064](https://arxiv.org/abs/2512.24064)  
 **代码**: [GitHub](https://github.com/perquisite/NIRNL)  
-**领域**: 多模态学习 / 跨模态检索  
+**领域**: 信息检索  
 **关键词**: 跨模态检索, 噪声标签, 邻域感知, 实例精炼, 鲁棒学习
 
 ## 一句话总结
@@ -58,14 +58,14 @@ $$\mathcal{L}_{CMP} = \frac{1}{N} \sum_{i=1}^{N} \sum_{j \neq i}^{N} |\Gamma(f_i
 2. **邻域感知实例精炼（NIR）**：NIR 的核心思路是通过 KNN 邻域共识来评估标签可靠性。具体分为几步：
 
     - **软标签生成**：对每个样本 $i$，在视觉和文本模态分别找到 $K$ 个最近邻，统计邻居的类别分布作为软标签：
-   $$\hat{p}(c|\mathcal{V}_i) = \frac{1}{K} \sum_{k=1, \mathcal{V}_k \in \mathcal{N}_i^{\mathcal{V}}}^{K} \mathbb{I}[y_k^c = 1]$$
+    $\hat{p}(c|\mathcal{V}_i) = \frac{1}{K} \sum_{k=1, \mathcal{V}_k \in \mathcal{N}_i^{\mathcal{V}}}^{K} \mathbb{I}[y_k^c = 1]$
 
-   - **三分数据集**：根据软标签与 ground-truth 标签的一致性将样本分为三类：
-     - **纯净子集** $\mathcal{D}_P$：两个模态的软标签都与 ground-truth 一致（标签高度可靠）
-     - **困难子集** $\mathcal{D}_H$：仅一个模态一致（标签可靠性不确定）
-     - **噪声子集** $\mathcal{D}_N$：两个模态的软标签都与 ground-truth 不一致（标签大概率错误）
+    - **三分数据集**：根据软标签与 ground-truth 标签的一致性将样本分为三类：
+      - **纯净子集** $\mathcal{D}_P$：两个模态的软标签都与 ground-truth 一致（标签高度可靠）
+      - **困难子集** $\mathcal{D}_H$：仅一个模态一致（标签可靠性不确定）
+      - **噪声子集** $\mathcal{D}_N$：两个模态的软标签都与 ground-truth 不一致（标签大概率错误）
 
-   - **Wasserstein 重心提取**：通过 EM 算法计算每个类别在共享空间中的语义重心 $\bar{u}_c$，用于后续各子集的损失计算
+    - **Wasserstein 重心提取**：通过 EM 算法计算每个类别在共享空间中的语义重心 $\bar{u}_c$，用于后续各子集的损失计算
 
 3. **三子集差异化优化策略**：
 

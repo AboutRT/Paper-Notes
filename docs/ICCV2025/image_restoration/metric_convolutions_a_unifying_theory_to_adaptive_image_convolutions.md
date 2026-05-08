@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2406.05400](https://arxiv.org/abs/2406.05400)  
 **代码**: [GitHub](https://github.com/Tommoo/MetricConvolutions)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: 自适应卷积, 度量几何, Finsler 度量, 可变形卷积, 去噪
 
 ## 一句话总结
@@ -154,8 +154,8 @@ CNN 分类（ResNet18, CIFAR-10, LKW-TL）：
 
 - [\[ICCV 2025\] Enhancing Image Restoration Transformer via Adaptive Translation Equivariance](enhancing_image_restoration_transformer_via_adaptive_translation_equivariance.md)
 - [\[ICCV 2025\] Learning Pixel-adaptive Multi-layer Perceptrons for Real-time Image Enhancement](learning_pixel-adaptive_multi-layer_perceptrons_for_real-time_image_enhancement.md)
-- [\[ICCV 2025\] ALOcc: Adaptive Lifting-Based 3D Semantic Occupancy and Cost Volume-Based Flow Predictions](alocc_adaptive_lifting-based_3d_semantic_occupancy_and_cost_volume-based_flow_pr.md)
 - [\[NeurIPS 2025\] Adaptive Discretization for Consistency Models](../../NeurIPS2025/image_restoration/adaptive_discretization_for_consistency_models.md)
 - [\[ICML 2025\] Adaptive Estimation and Learning under Temporal Distribution Shift](../../ICML2025/image_restoration/adaptive_estimation_and_learning_under_temporal_distribution_shift.md)
+- [\[ECCV 2024\] Efficient Cascaded Multiscale Adaptive Network for Image Restoration](../../ECCV2024/image_restoration/efficient_cascaded_multiscale_adaptive_network_for_image_restoration.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.15814](https://arxiv.org/abs/2502.15814)  
-**代码**: https://pages.cs.huji.ac.il/adiyoss-lab/slamming (有)  
+**代码**: [https://pages.cs.huji.ac.il/adiyoss-lab/slamming](https://pages.cs.huji.ac.il/adiyoss-lab/slamming)  
 **领域**: Audio/Speech  
 **关键词**: Speech Language Model, 高效训练, 合成数据, DPO, 低资源训练
 
@@ -140,7 +140,7 @@ Slam 是一个端到端的 SLM 训练配方（recipe），而非单一的架构�
 - [\[CVPR 2025\] Matrix3D: Large Photogrammetry Model All-in-One](../../CVPR2025/3d_vision/matrix3d_large_photogrammetry_model_all-in-one.md)
 - [\[ICCV 2025\] RoboTron-Mani: All-in-One Multimodal Large Model for Robotic Manipulation](../../ICCV2025/3d_vision/robotron-mani_all-in-one_multimodal_large_model_for_robotic_manipulation.md)
 - [\[NeurIPS 2025\] URDF-Anything: Constructing Articulated Objects with 3D Multimodal Language Model](../../NeurIPS2025/3d_vision/urdf-anything_constructing_articulated_objects_with_3d_multimodal_language_model.md)
-- [\[CVPR 2026\] Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](../../CVPR2026/3d_vision/ada3drift_adaptive_trainingtime_drifting_for_onest.md)
-- [\[NeurIPS 2025\] Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis](../../NeurIPS2025/3d_vision/shallow_flow_matching_for_coarse-to-fine_text-to-speech_synthesis.md)
+- [\[ICCV 2025\] MemoryTalker: Personalized Speech-Driven 3D Facial Animation via Audio-Guided Stylization](../../ICCV2025/3d_vision/memorytalker_personalized_speech-driven_3d_facial_animation_via_audio-guided_sty.md)
+- [\[CVPR 2026\] Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](../../CVPR2026/3d_vision/ada3drift_adaptive_training-time_drifting_for_one-step_3d_visuomotor_robotic_man.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19783](https://arxiv.org/abs/2503.19783)  
-**代码**: https://iab-rubric/unlearning/FG-Un  
-**领域**: AI安全 / 模型遗忘  
+**代码**: [https://iab-rubric/unlearning/FG-Un](https://iab-rubric/unlearning/FG-Un)  
+**领域**: 图像生成  
 **关键词**: 概念遗忘, 细粒度擦除, 邻近感知, 扩散模型安全, LoRA
 
 ## 一句话总结

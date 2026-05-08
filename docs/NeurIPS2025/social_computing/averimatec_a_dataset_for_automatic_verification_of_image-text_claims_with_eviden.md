@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 图文核查
   - 证据检索
-  - QA推理
+  - 社会计算
   - 多模态验证
   - 数据集
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.17978](https://arxiv.org/abs/2505.17978)  
-**代码**: https://github.com/abril4416/AVerImaTeC  
+**代码**: [https://github.com/abril4416/AVerImaTeC](https://github.com/abril4416/AVerImaTeC)  
 **领域**: 事实核查 / 多模态  
 **关键词**: 图文核查, 证据检索, QA推理, 多模态验证, 数据集
 
@@ -129,8 +129,8 @@ AVerImaTeC 构建了首个带完整证据标注的图文事实核查数据集—
 
 - [\[NeurIPS 2025\] Precise Information Control in Long-Form Text Generation](precise_information_control_in_long-form_text_generation.md)
 - [\[CVPR 2025\] Classifier-to-Bias: Toward Unsupervised Automatic Bias Detection for Visual Classifiers](../../CVPR2025/social_computing/classifier-to-bias_toward_unsupervised_automatic_bias_detection_for_visual_class.md)
-- [\[ICML 2025\] DEFAME: Dynamic Evidence-based FAct-checking with Multimodal Experts](../../ICML2025/social_computing/defame_dynamic_evidence-based_fact-checking_with_multimodal_experts.md)
 - [\[ACL 2025\] HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter](../../ACL2025/social_computing/hateday_global_hate_speech.md)
-- [\[ACL 2025\] BanStereoSet: A Dataset to Measure Stereotypical Social Biases in LLMs for Bangla](../../ACL2025/social_computing/banstereoset_a_dataset_to_measure_stereotypical_social_biases_in_llms_for_bangla.md)
+- [\[ICML 2025\] DEFAME: Dynamic Evidence-based FAct-checking with Multimodal Experts](../../ICML2025/social_computing/defame_dynamic_evidence-based_fact-checking_with_multimodal_experts.md)
+- [\[AAAI 2026\] Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion](../../AAAI2026/social_computing/beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)
 
 <!-- RELATED:END -->

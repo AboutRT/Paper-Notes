@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR2026  
 **arXiv**: [2508.05606](https://arxiv.org/abs/2508.05606)  
-**代码**: https://github.com/Fr0zenCrane/UniCoT  
-**领域**: llm_reasoning  
+**代码**: [https://github.com/Fr0zenCrane/UniCoT](https://github.com/Fr0zenCrane/UniCoT)  
+**领域**: LLM推理  
 **关键词**: 多模态思维链, 文图交织推理, 宏微分层, MDP自反思, 统一生成
 
 ## 一句话总结

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Reasoning Compiler: LLM-Guided Optimizations for Efficient Model Serving
 description: >-
-  [NeurIPS 2025][LLM引导编译] 提出 Reasoning Compiler，将编译器优化建模为序列决策过程，用 LLM 作为上下文感知提案引擎 + MCTS 平衡探索/利用，在 5 个代表性 benchmark 和 5 个硬件平台上实现平均 5.0× 加速且采样效率比 TVM 进化搜索提升 10.8×。
+  [NeurIPS 2025][AIGC检测] 提出 Reasoning Compiler，将编译器优化建模为序列决策过程，用 LLM 作为上下文感知提案引擎 + MCTS 平衡探索/利用，在 5 个代表性 benchmark 和 5 个硬件平台上实现平均 5.0× 加速且采样效率比 TVM 进化搜索提升 10.8×。
 tags:
   - NeurIPS 2025
-  - LLM引导编译
+  - AIGC检测
   - MCTS
   - 程序优化
   - 神经编译器
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01374](https://arxiv.org/abs/2506.01374)  
-**代码**: https://github.com/he-actlab/REASONING_COMPILER  
-**领域**: 编译器优化 / 模型服务  
+**代码**: [https://github.com/he-actlab/REASONING_COMPILER](https://github.com/he-actlab/REASONING_COMPILER)  
+**领域**: AIGC检测  
 **关键词**: LLM引导编译, MCTS, 程序优化, 神经编译器, 采样效率
 
 ## 一句话总结

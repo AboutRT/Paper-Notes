@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.22830](https://arxiv.org/abs/2509.22830)  
 **代码**: [https://github.com/hwanchang00/ChatInject](https://github.com/hwanchang00/ChatInject)  
-**领域**: AI安全 / Prompt Injection 攻击  
+**领域**: LLM Agent  
 **关键词**: prompt injection, chat template, LLM agent, role hierarchy, multi-turn attack  
 
 ## 一句话总结
@@ -121,7 +121,7 @@ tags:
 - [\[NeurIPS 2025\] DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents](../../NeurIPS2025/llm_agent/drift_dynamic_rulebased_defense_with_injection_isolation_for.md)
 - [\[ACL 2026\] Conjunctive Prompt Attacks in Multi-Agent LLM Systems](../../ACL2026/llm_agent/conjunctive_prompt_attacks_in_multi-agent_llm_systems.md)
 - [\[ACL 2026\] ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination](../../ACL2026/llm_agent/atlas_adaptive_trading_with_llm_agents_through_dynamic_prompt_optimization_and_m.md)
-- [\[ACL 2026\] JTPRO: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents](../../ACL2026/llm_agent/jtpro_a_joint_tool-prompt_reflective_optimization_framework_for_language_agents.md)
-- [\[ACL 2025\] Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks](../../ACL2025/llm_agent/agents_under_siege_breaking_pragmatic_multi-agent_llm_systems_with_optimized_pro.md)
+- [\[ICLR 2026\] SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents](simuhome_a_temporal-_and_environment-aware_benchmark_for_smart_home_llm_agents.md)
+- [\[ICLR 2026\] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)
 
 <!-- RELATED:END -->

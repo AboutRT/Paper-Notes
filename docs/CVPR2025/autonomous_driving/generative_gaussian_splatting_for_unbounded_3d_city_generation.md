@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.06526](https://arxiv.org/abs/2406.06526)  
-**代码**: https://haozhexie.com/project/gaussian-city  
-**领域**: 3D视觉 / 场景生成  
+**代码**: [https://haozhexie.com/project/gaussian-city](https://haozhexie.com/project/gaussian-city)  
+**领域**: 自动驾驶  
 **关键词**: 3D高斯溅射, 无界城市生成, BEV-Point表示, 高效渲染, 场景合成
 
 ## 一句话总结
@@ -131,7 +131,7 @@ GaussianCity 在 FID/KID 指标上全面优于 CityDreamer，且渲染速度快 
 ## 相关论文
 
 - [\[CVPR 2025\] SceneDiffuser++: City-Scale Traffic Simulation via a Generative World Model](scenediffuser_city-scale_traffic_simulation_via_a_generative_world_model.md)
-- [\[ICCV 2025\] 3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation](../../ICCV2025/autonomous_driving/3d_gaussian_splatting_driven_multi-view_robust_physical_adversarial_camouflage_g.md)
+- [\[ICCV 2025\] 3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation](../../ICCV2025/autonomous_driving/3d_gaussian_splatting_driven_multiview_robust_physical_adver.md)
 - [\[CVPR 2025\] EVolSplat: Efficient Volume-based Gaussian Splatting for Urban View Synthesis](evolsplat_efficient_volume-based_gaussian_splatting_for_urban_view_synthesis.md)
 - [\[CVPR 2025\] PanSplat: 4K Panorama Synthesis with Feed-Forward Gaussian Splatting](pansplat_4k_panorama_synthesis_with_feed-forward_gaussian_splatting.md)
 - [\[CVPR 2025\] Toward Real-World BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting](toward_real-world_bev_perception_depth_uncertainty_estimation_via_gaussian_splat.md)

@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.23014](https://arxiv.org/abs/2505.23014)  
 **代码**: [GitHub](https://github.com/YueAWu/Hyperbolic-GNN)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: 图神经网络, 双曲偏微分方程, 谱图卷积, 多项式滤波器, 消息传递
 
 ## 一句话总结

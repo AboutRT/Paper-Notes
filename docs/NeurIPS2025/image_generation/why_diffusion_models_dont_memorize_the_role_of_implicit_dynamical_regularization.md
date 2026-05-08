@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2505.17638](https://arxiv.org/abs/2505.17638)  
 **作者**: Tony Bonnaire, Raphaël Urfin, Giulio Biroli, Marc Mézard (LPENS/PSL Paris, Bocconi University)
 **代码**: 未公开  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 扩散模型, 记忆化, 泛化, 隐式正则化, 训练动力学, 随机特征, 早停
 
 ## 一句话总结
@@ -168,6 +168,6 @@ $$\mathbf{s}_{\mathbf{A}}(\mathbf{x}) = \frac{\mathbf{A}}{\sqrt{p}} \sigma\left(
 - [\[NeurIPS 2025\] Breaking AR's Sampling Bottleneck: Provable Acceleration via Diffusion Language Models](breaking_ars_sampling_bottleneck_provable_acceleration_via_d.md)
 - [\[NeurIPS 2025\] Image Super-Resolution with Guarantees via Conformalized Generative Models](image_super-resolution_with_guarantees_via_conformalized_generative_models.md)
 - [\[NeurIPS 2025\] Enhancing Diffusion Model Guidance through Calibration and Regularization](enhancing_diffusion_model_guidance_through_calibration_and_regularization.md)
-- [\[NeurIPS 2025\] Encoder-Decoder Diffusion Language Models for Efficient Training and Inference](encoder-decoder_diffusion_language_models_for_efficient_training_and_inference.md)
+- [\[NeurIPS 2025\] Continuous Diffusion Model for Language Modeling](continuous_diffusion_model_for_language_modeling.md)
 
 <!-- RELATED:END -->

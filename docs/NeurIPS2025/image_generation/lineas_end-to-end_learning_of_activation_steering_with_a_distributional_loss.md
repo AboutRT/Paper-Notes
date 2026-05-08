@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.10679](https://arxiv.org/abs/2503.10679)  
-**代码**: [github.com/apple/ml-lineas](https://github.com/apple/ml-lineas) (有)  
+**代码**: [github.com/apple/ml-lineas](https://github.com/apple/ml-lineas)  
 **领域**: 图像生成  
 **关键词**: Activation Steering, optimal transport, Toxicity Mitigation, text-to-image, Sparse Regularization
 
@@ -162,9 +162,9 @@ LinEAS 在 Gemma2-2B 上将毒性降低 **5.5×**，接近使用 oracle 标签�
 ## 相关论文
 
 - [\[ICCV 2025\] End-to-End Multi-Modal Diffusion Mamba](../../ICCV2025/image_generation/end-to-end_multi-modal_diffusion_mamba.md)
-- [\[ICCV 2025\] REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers](../../ICCV2025/image_generation/repae_unlocking_vae_for_endtoend_tuning_of_latent_diffusion.md)
+- [\[ICCV 2025\] REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers](../../ICCV2025/image_generation/repa-e_unlocking_vae_for_end-to-end_tuning_of_latent_diffusion_transformers.md)
 - [\[CVPR 2026\] DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation](../../CVPR2026/image_generation/deco_frequency-decoupled_pixel_diffusion_for_end-to-end_image_generation.md)
-- [\[NeurIPS 2025\] Energy Loss Functions for Physical Systems](energy_loss_functions_for_physical_systems.md)
 - [\[NeurIPS 2025\] On Optimal Steering to Achieve Exact Fairness](on_optimal_steering_to_achieve_exact_fairness.md)
+- [\[NeurIPS 2025\] Energy Loss Functions for Physical Systems](energy_loss_functions_for_physical_systems.md)
 
 <!-- RELATED:END -->

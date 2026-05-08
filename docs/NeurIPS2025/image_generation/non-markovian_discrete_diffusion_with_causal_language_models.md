@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.09767](https://arxiv.org/abs/2502.09767)  
-**代码**: https://github.com/ (未提供)  
+**代码**: [https://github.com/](https://github.com/) (未提供)  
 **领域**: 图像/文本生成 (Discrete Diffusion)  
 **关键词**: 离散扩散模型, 非马尔可夫, 因果语言模型, 序列生成, 自回归
 

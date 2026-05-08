@@ -18,7 +18,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18125](https://arxiv.org/abs/2505.18125)  
-**代码**: https://github.com/alanarazi7/TabSTAR  
+**代码**: [https://github.com/alanarazi7/TabSTAR](https://github.com/alanarazi7/TabSTAR)  
 **领域**: 表格学习 / 基础模型  
 **关键词**: 表格基础模型, 文本字段, 目标感知token, 跨数据集学习, 迁移学习
 

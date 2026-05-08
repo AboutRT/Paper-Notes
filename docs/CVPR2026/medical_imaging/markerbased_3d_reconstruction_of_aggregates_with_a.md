@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12667](https://arxiv.org/abs/2603.12667)  
 **作者**: Haohang Huang, Jiayi Luo, Issam Qamhia, Erol Tutumluer, John M. Hart, Andrew J. Stolba
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 3D reconstruction, photogrammetry, aggregate morphology, point cloud, marker-based, 2D-3D comparison
 
 ## 一句话总结

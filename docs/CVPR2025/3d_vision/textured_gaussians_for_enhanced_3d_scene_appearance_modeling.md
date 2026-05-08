@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.18625](https://arxiv.org/abs/2411.18625)  
-**代码**: https://textured-gaussians.github.io (有)  
+**代码**: [https://textured-gaussians.github.io](https://textured-gaussians.github.io)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 纹理映射, 新视角合成, 外观建模, Alpha映射
 

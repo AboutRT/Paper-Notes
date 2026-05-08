@@ -2,10 +2,10 @@
 title: >-
   [论文解读] NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models
 description: >-
-  [AAAI 2026][Temporal QA] 提出 NeSTR 神经符号提示策略，通过将自然语言时间事实转化为结构化符号谓词，结合一致性验证和溯因反思修正，在零样本设置下让 LLM 实现高质量时间推理，GPT-4o-mini 上平均 F1 达 89.7（相比 vanilla 64.9 和 TISER 85.8）。
+  [AAAI 2026][LLM评测] 提出 NeSTR 神经符号提示策略，通过将自然语言时间事实转化为结构化符号谓词，结合一致性验证和溯因反思修正，在零样本设置下让 LLM 实现高质量时间推理，GPT-4o-mini 上平均 F1 达 89.7（相比 vanilla 64.9 和 TISER 85.8）。
 tags:
   - AAAI 2026
-  - Temporal QA
+  - LLM评测
   - Neuro-Symbolic Reasoning
   - Abductive Reasoning
   - 提示学习
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2512.07218](https://arxiv.org/abs/2512.07218)  
-**代码**: https://github.com/fungloeng/NeSTR.git  
-**领域**: NLP理解 / 时间推理  
+**代码**: [https://github.com/fungloeng/NeSTR.git](https://github.com/fungloeng/NeSTR.git)  
+**领域**: LLM评测  
 **关键词**: Temporal QA, Neuro-Symbolic Reasoning, Abductive Reasoning, LLM Prompting, Consistency Verification
 
 ## 一句话总结
@@ -135,7 +135,7 @@ NeSTR 是纯 prompting 策略，完全不需要训练或微调。所有实验在
 - [\[ACL 2026\] Closing the Modality Reasoning Gap for Speech Large Language Models](../../ACL2026/llm_evaluation/closing_the_modality_reasoning_gap_for_speech_large_language_models.md)
 - [\[AAAI 2026\] ConInstruct: Evaluating Large Language Models on Conflict Detection and Resolution in Instructions](coninstruct_evaluating_large_language_models_on_conflict_detection_and_resolutio.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](../../ICLR2026/llm_evaluation/prompt_and_parameter_co-optimization_for_large_language_models.md)
+- [\[AAAI 2026\] Towards a Common Framework for Autoformalization](towards_a_common_framework_for_autoformalization.md)
 - [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](../../ACL2025/llm_evaluation/com2_causal_commonsense.md)
-- [\[AAAI 2026\] Lost in Benchmarks? Rethinking Large Language Model Benchmarking with Item Response Theory](lost_in_benchmarks_rethinking_large_language_model_benchmarking_with_item_respon.md)
 
 <!-- RELATED:END -->

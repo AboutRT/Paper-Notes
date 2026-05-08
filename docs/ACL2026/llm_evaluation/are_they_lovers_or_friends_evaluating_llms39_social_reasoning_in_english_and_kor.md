@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues
 description: >-
-  [ACL 2026][社会关系推理] 本文提出 SCRIPTS 基准，包含 1.1K 英语和韩语电影对话，通过三层概率标签（HIGHLY LIKELY / LESS LIKELY / UNLIKELY）评估 9 个 LLM 的社会关系推理能力，发现模型在英语上准确率仅 75-80%、韩语 58-69%，且 CoT 和思维模型对社会推理几乎无帮助。
+  [ACL 2026][LLM评测] 本文提出 SCRIPTS 基准，包含 1.1K 英语和韩语电影对话，通过三层概率标签（HIGHLY LIKELY / LESS LIKELY / UNLIKELY）评估 9 个 LLM 的社会关系推理能力，发现模型在英语上准确率仅 75-80%、韩语 58-69%，且 CoT 和思维模型对社会推理几乎无帮助。
 tags:
   - ACL 2026
-  - 社会关系推理
+  - LLM评测
   - 大语言模型评测
   - 跨语言分析
   - 电影对话
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2510.19028](https://arxiv.org/abs/2510.19028)  
 **代码**: [https://github.com/rladmstn1714/SCRIPTS](https://github.com/rladmstn1714/SCRIPTS)  
-**领域**: 社会计算/NLP评测  
+**领域**: LLM评测  
 **关键词**: 社会关系推理, 大语言模型评测, 跨语言分析, 电影对话, 文化依赖性
 
 ## 一句话总结
@@ -140,6 +140,6 @@ SCRIPTS 从美国和韩国电影脚本中提取多轮对话，由母语标注者
 - [\[ACL 2026\] ReTraceQA: Evaluating Reasoning Traces of Small Language Models in Commonsense Question Answering](retraceqa_evaluating_reasoning_traces_of_small_language_models_in_commonsense_qu.md)
 - [\[ACL 2026\] Do LLMs Overthink Basic Math Reasoning? Benchmarking the Accuracy-Efficiency Tradeoff](do_llms_overthink_basic_math_reasoning_benchmarking_the_accuracy-efficiency_trad.md)
 - [\[ACL 2026\] RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity](roleconflictbench_a_benchmark_of_role_conflict_scenarios_for_evaluating_llms39_c.md)
-- [\[ACL 2025\] HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning](../../ACL2025/llm_evaluation/hellaswag-pro_a_large-scale_bilingual_benchmark_for_evaluating_the_robustness_of.md)
+- [\[NeurIPS 2025\] On Evaluating LLM Alignment by Evaluating LLMs as Judges](../../NeurIPS2025/llm_evaluation/on_evaluating_llm_alignment_by_evaluating_llms_as_judges.md)
 
 <!-- RELATED:END -->

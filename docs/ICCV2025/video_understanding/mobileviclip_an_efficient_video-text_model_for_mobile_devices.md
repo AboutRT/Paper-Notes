@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.07312](https://arxiv.org/abs/2508.07312)  
-**代码**: https://github.com/MCG-NJU/MobileViCLIP  
-**领域**: video_understanding  
+**代码**: [https://github.com/MCG-NJU/MobileViCLIP](https://github.com/MCG-NJU/MobileViCLIP)  
+**领域**: 视频理解  
 **关键词**: 视频文本模型, 移动端部署, 结构重参数化, 高效推理, 视频检索
 
 ## 一句话总结

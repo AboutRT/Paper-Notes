@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.22458](https://arxiv.org/abs/2505.22458)  
-**代码**: https://github.com/KU-VGI/UniMAP  
+**代码**: [https://github.com/KU-VGI/UniMAP](https://github.com/KU-VGI/UniMAP)  
 **领域**: 语义分割 / 域适应  
 **关键词**: 通用域适应, 语义分割, 原型学习, 图像匹配, 伪标签
 

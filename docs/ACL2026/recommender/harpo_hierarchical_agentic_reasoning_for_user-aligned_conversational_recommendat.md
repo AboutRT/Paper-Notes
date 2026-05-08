@@ -2,10 +2,10 @@
 title: >-
   [论文解读] HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation
 description: >-
-  [ACL 2026][对话推荐] 提出 HARPO 框架，将对话推荐重新定义为以推荐质量为优化目标的结构化决策问题，通过层次化偏好学习、基于价值网络的树搜索推理、虚拟工具操作和多智能体精炼四大组件，在 ReDial、INSPIRED 和 MUSE 三个基准上显著超越现有方法。
+  [ACL 2026][推荐系统] 提出 HARPO 框架，将对话推荐重新定义为以推荐质量为优化目标的结构化决策问题，通过层次化偏好学习、基于价值网络的树搜索推理、虚拟工具操作和多智能体精炼四大组件，在 ReDial、INSPIRED 和 MUSE 三个基准上显著超越现有方法。
 tags:
   - ACL 2026
-  - 对话推荐
+  - 推荐系统
   - Agent推理
   - 偏好优化
   - 树搜索
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.10048](https://arxiv.org/abs/2604.10048)  
-**代码**: https://anonymous.4open.science/r/HARPO-D881  
+**代码**: [https://anonymous.4open.science/r/HARPO-D881](https://anonymous.4open.science/r/HARPO-D881)  
 **领域**: 推荐系统  
 **关键词**: 对话推荐, Agent推理, 偏好优化, 树搜索, 推荐质量
 

@@ -1,12 +1,12 @@
 ---
 title: >-
-  ICML2025 对齐/RLHF方向27篇论文解读
+  ICML2025 对齐 / RLHF方向27篇论文解读
 description: >-
-  27篇ICML2025的对齐/RLHF 方向论文解读，涵盖对齐/RLHF、LLM、扩散模型、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  27篇ICML2025的对齐 / RLHF 方向论文解读，涵盖对齐/RLHF、LLM、扩散模型、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# ⚖️ 对齐/RLHF
+# ⚖️ 对齐 / RLHF
 
 **🧪 ICML2025** · **27** 篇论文解读
 
@@ -29,10 +29,6 @@ description: >-
 **[BOPO: Neural Combinatorial Optimization via Best-anchored and Objective-guided Preference Optimization](bopo_neural_combinatorial_optimization_via_best-anchored_and_objective-guided_pr.md)**
 
 :   将 preference optimization（偏好优化）引入神经组合优化（NCO），提出 BOPO：通过 (1) best-anchored 偏好对构建（hybrid rollout + uniform filtering + best-anchored pairing）和 (2) objective-guided 自适应缩放损失函数（$\beta = g(y_l)/g(y_w)$），在 JSP/TSP/FJSP 三类经典组合优化问题上全面超越 SOTA，无需 reward model 或参考策略。
-
-**[Bounded Rationality for LLMs: Satisficing Alignment at Inference-Time](bounded_rationality_for_llms_satisficing_alignment_at_inference-time.md)**
-
-:   提出 SITAlign——基于有界理性的满意决策框架，在推理时最大化主要目标（如有用性）同时确保次要目标（如无害性）满足阈值约束，通过对偶理论求解，在 GPT-4 评估上相比多目标解码 SOTA 提升 22.3% 胜率。
 
 **[Can RLHF be More Efficient with Imperfect Reward Models? A Policy Coverage Perspective](can_rlhf_be_more_efficient_with_imperfect_reward_models_a_policy_coverage_perspe.md)**
 
@@ -61,6 +57,10 @@ description: >-
 **[Improving LLM Safety Alignment with Dual-Objective Optimization](improving_llm_safety_alignment_with_dual-objective_optimization.md)**
 
 :   通过梯度分析揭示DPO在安全对齐中的两大缺陷（学习率饱和与OOD泛化差），提出DOOR/W-DOOR双目标优化框架（鲁棒拒绝训练+有害知识遗忘+token级加权），在Llama-3-8B和Gemma-2-2B上显著降低了prefilling/suffix/multi-turn等多种越狱攻击的成功率，同时保持通用能力。
+
+**[Improving Model Alignment through Collective Intelligence of Open-Source LLMs](improving_model_alignment_through_collective_intelligence_of_open-source_llms.md)**
+
+:   本文提出 Mixture of Agents Alignment（MoAA），利用多个开源 LLM 的集体智慧生成高质量的对齐数据（SFT 数据和偏好数据），显著提升目标模型在 Arena-Hard 和 AlpacaEval2 上的表现，并展示了无需外部强监督的自我提升能力。
 
 **[Instruction Tuning of Large Language Models for Tabular Data Generation—in One Day](instruction_tuning_of_large_language_models_for_tabular_data_generation-in_one_d.md)**
 

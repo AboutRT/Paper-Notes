@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 多模态
-  - OOD检测
+  - 多模态VLM
   - 视觉语言模型
   - 负标签
   - 测试时自适应
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25250](https://arxiv.org/abs/2603.25250)  
-**代码**: [GitHub](https://github.com/YBZh/OpenOOD-VLM) (有)  
+**代码**: [GitHub](https://github.com/YBZh/OpenOOD-VLM)  
 **领域**: 多模态VLM / AI安全  
 **关键词**: OOD检测, 视觉语言模型, 负标签, 测试时自适应, 激活度量
 
@@ -45,27 +45,27 @@ tags:
 ### 关键设计
 1. **激活度量（Activation Metric）**：
    衡量特定标签在数据集上的平均分类概率：
-   $$Act(\mathcal{X}, \hat{y}_i) = \frac{1}{|\mathcal{X}|}\sum_{\mathbf{x} \in \mathcal{X}} \frac{\exp(\mathbf{v}\hat{\mathbf{t}}_i)}{\sum_j \exp(\mathbf{v}\mathbf{t}_j) + \sum_j \exp(\mathbf{v}\hat{\mathbf{t}}_j)}$$
+    $Act(\mathcal{X}, \hat{y}_i) = \frac{1}{|\mathcal{X}|}\sum_{\mathbf{x} \in \mathcal{X}} \frac{\exp(\mathbf{v}\hat{\mathbf{t}}_i)}{\sum_j \exp(\mathbf{v}\mathbf{t}_j) + \sum_j \exp(\mathbf{v}\hat{\mathbf{t}}_j)}$
    理想负标签应在OOD上高激活、在ID上低激活。差分激活分数：
-   $$Act_d(\hat{y}_i) = Act(\mathcal{X}_{ood}, \hat{y}_i) - Act(\mathcal{X}_{id}, \hat{y}_i)$$
-   - 设计动机：直接量化标签对OOD检测的判别力
+    $Act_d(\hat{y}_i) = Act(\mathcal{X}_{ood}, \hat{y}_i) - Act(\mathcal{X}_{id}, \hat{y}_i)$
+    - 设计动机：直接量化标签对OOD检测的判别力
 
 2. **分布自适应激活标签（Distribution-adaptive）**：
    用缓存的高置信正/负样本近似 $\mathcal{X}_{id}$ 和 $\mathcal{X}_{ood}$：
-   - FIFO队列 $\mathcal{X}_{pos}$ / $\mathcal{X}_{neg}$，长度 $L$
-   - 正样本：$S_{aa}(\mathbf{v}) \geq \gamma + (1-\gamma)g$；负样本：$S_{aa}(\mathbf{v}) < \gamma - \gamma g$
-   - **初始化**：正样本用ID标签特征，负样本用高斯噪声图像特征
-   - 设计动机：OOD分布未知且可能动态变化，需要在线自适应
+    - FIFO队列 $\mathcal{X}_{pos}$ / $\mathcal{X}_{neg}$，长度 $L$
+    - 正样本：$S_{aa}(\mathbf{v}) \geq \gamma + (1-\gamma)g$；负样本：$S_{aa}(\mathbf{v}) < \gamma - \gamma g$
+    - **初始化**：正样本用ID标签特征，负样本用高斯噪声图像特征
+    - 设计动机：OOD分布未知且可能动态变化，需要在线自适应
 
 3. **批自适应变体（Batch-adaptive）**：
    在当前测试batch内额外提取正负样本，与历史样本加权融合：
-   $$Act_b(\mathcal{X}_{pos}, \hat{y}_i) = \alpha Act(\mathcal{X}_{pos}, \hat{y}_i) + (1-\alpha) Act(\mathcal{X}^b_{pos}, \hat{y}_i)$$
-   - 设计动机：历史样本反映总体趋势，当前batch捕获即时特征，两者互补
+    $Act_b(\mathcal{X}_{pos}, \hat{y}_i) = \alpha Act(\mathcal{X}_{pos}, \hat{y}_i) + (1-\alpha) Act(\mathcal{X}^b_{pos}, \hat{y}_i)$
+    - 设计动机：历史样本反映总体趋势，当前batch捕获即时特征，两者互补
 
 4. **激活感知评分函数（Activation-aware Score）**：
-   $$S_{aa}(\mathbf{v}) = \frac{1}{M}\sum_{m=1}^{M}\sum_{i=1}^{C}\frac{\exp(\mathbf{v}\mathbf{t}_i)}{\sum_j \exp(\mathbf{v}\mathbf{t}_j) + \sum_{j=1}^m \exp(\mathbf{v}\tilde{\mathbf{t}}_j)}$$
+    $S_{aa}(\mathbf{v}) = \frac{1}{M}\sum_{m=1}^{M}\sum_{i=1}^{C}\frac{\exp(\mathbf{v}\mathbf{t}_i)}{\sum_j \exp(\mathbf{v}\mathbf{t}_j) + \sum_{j=1}^m \exp(\mathbf{v}\tilde{\mathbf{t}}_j)}$
    负标签按激活度排序后，高激活标签在分母中出现更多次从而被隐式赋予更高权重。
-   - 设计动机：不同负标签重要性不同，高激活标签应主导评分。这种累积求和设计同时增强了对标签数量 $M$ 的鲁棒性。
+    - 设计动机：不同负标签重要性不同，高激活标签应主导评分。这种累积求和设计同时增强了对标签数量 $M$ 的鲁棒性。
 
 ### 损失函数 / 训练策略
 - **完全免训练**（zero-shot, training-free）
@@ -134,8 +134,8 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models](../../AAAI2026/multimodal_vlm/cross-modal_proxy_evolving_for_ood_detection_with_vision-lan.md)
-- [\[AAAI 2026\] Panda: Test-Time Adaptation with Negative Data Augmentation](../../AAAI2026/multimodal_vlm/panda_test-time_adaptation_with_negative_data_augmentation.md)
 - [\[CVPR 2026\] Test-Time Attention Purification for Backdoored Large Vision Language Models](test-time_attention_purification_for_backdoored_large_vision_language_models.md)
+- [\[CVPR 2026\] Mind the Way You Select Negative Texts: Pursuing the Distance Consistency in OOD Detection with VLMs](mind_the_way_you_select_negative_texts_pursuing_the_distance_consistency_in_ood_.md)
 - [\[CVPR 2026\] Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework](scaling_test-time_robustness_of_vision-language_models_via_self-critical_inferen.md)
 - [\[ICCV 2025\] LATTE: Collaborative Test-Time Adaptation of Vision-Language Models in Federated Learning](../../ICCV2025/multimodal_vlm/latte_collaborative_test-time_adaptation_of_vision-language_models_in_federated_.md)
 

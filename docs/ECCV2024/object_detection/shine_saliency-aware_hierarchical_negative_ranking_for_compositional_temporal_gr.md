@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.05118](https://arxiv.org/abs/2407.05118)  
-**代码**: https://github.com/zxccade/SHINE (有)  
-**领域**: 视频理解 / 时序定位  
+**代码**: [https://github.com/zxccade/SHINE](https://github.com/zxccade/SHINE)  
+**领域**: 目标检测  
 **关键词**: temporal grounding, compositional generalization, hard negatives, saliency ranking, DETR
 
 ## 一句话总结
@@ -182,10 +182,10 @@ $$\mathcal{L} = \mathcal{L}_{base} + \alpha \mathcal{L}_{cr} + \beta \mathcal{L}
 
 ## 相关论文
 
-- [\[CVPR 2026\] HieraMamba: Video Temporal Grounding via Hierarchical Anchor-Mamba Pooling](../../CVPR2026/object_detection/hieramamba_video_temporal_grounding_via_hierarchical_anchor-mamba_pooling.md)
-- [\[ECCV 2024\] Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection](weak-to-strong_compositional_learning_from_generative_models_for_language-based_.md)
-- [\[ECCV 2024\] BAM-DETR: Boundary-Aligned Moment Detection Transformer for Temporal Sentence Grounding in Videos](bam-detr_boundary-aligned_moment_detection_transformer_for_temporal_sentence_gro.md)
 - [\[ICCV 2025\] Sim-DETR: Unlock DETR for Temporal Sentence Grounding](../../ICCV2025/object_detection/sim-detr_unlock_detr_for_temporal_sentence_grounding.md)
+- [\[ECCV 2024\] BAM-DETR: Boundary-Aligned Moment Detection Transformer for Temporal Sentence Grounding in Videos](bam-detr_boundary-aligned_moment_detection_transformer_for_temporal_sentence_gro.md)
+- [\[ECCV 2024\] Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection](weak-to-strong_compositional_learning_from_generative_models_for_language-based_.md)
 - [\[ECCV 2024\] ReGround: Improving Textual and Spatial Grounding at No Cost](reground_improving_textual_and_spatial_grounding_at_no_cost.md)
+- [\[ECCV 2024\] Online Temporal Action Localization with Memory-Augmented Transformer](online_temporal_action_localization_with_memory-augmented_transformer.md)
 
 <!-- RELATED:END -->

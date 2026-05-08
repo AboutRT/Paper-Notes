@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2504.01137](https://arxiv.org/abs/2504.01137)  
-**代码**: https://github.com/tokeron/lens  
+**代码**: [https://github.com/tokeron/lens](https://github.com/tokeron/lens)  
 **领域**: 图像生成  
 **关键词**: 文本到图像、信息流、Token表示、语义泄漏、文本编码器
 

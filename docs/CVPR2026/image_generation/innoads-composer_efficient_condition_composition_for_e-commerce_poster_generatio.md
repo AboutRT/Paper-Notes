@@ -60,7 +60,7 @@ InnoAds-Composer 建立在 MM-DiT 骨干上，包含三个核心模块：
 
    对预训练全条件模型的注意力权重进行分析：提取每层 $b$ 每时间步 $t$ 的条件重要性：
 
-   $$S_{ci}(b,t) = \mathbf{Mean}(A^{b,t,c} \odot mask_{ci})$$
+    $S_{ci}(b,t) = \mathbf{Mean}(A^{b,t,c} \odot mask_{ci})$
 
    发现三类条件呈**非均匀互补模式**：背景风格主导早期层/早期步，主体在中深层形成高强度带，字形在中层/后期步渐增。据此仅在最响应位置注入条件 token（默认保留风格40%、主体50%、字形20%），大幅缩短有效序列。
 
@@ -68,8 +68,8 @@ InnoAds-Composer 建立在 MM-DiT 骨干上，包含三个核心模块：
 
    移除条件 query→噪声 key 的注意力路径（条件 token 演化缓慢，该路径冗余），保留噪声 query→条件 key 路径：
 
-   $$O_n = \mathbf{Attn}(Q_n, [K_n; K_{ci}], [V_n; V_{ci}])$$
-   $$O_{ci} = \mathbf{Attn}(Q_c, K_{ci}, V_{ci})$$
+    $O_n = \mathbf{Attn}(Q_n, [K_n; K_{ci}], [V_n; V_{ci}])$
+    $O_{ci} = \mathbf{Attn}(Q_c, K_{ci}, V_{ci})$
 
    条件分支不依赖时间步，激活可缓存复用。
 
@@ -146,7 +146,7 @@ InnoComposer-Bench 评测（300样本）：
 - [\[CVPR 2026\] PosterIQ: A Design Perspective Benchmark for Poster Understanding and Generation](posteriq_a_design_perspective_benchmark_for_poster_understanding_and_generation.md)
 - [\[CVPR 2026\] ConsistCompose: Unified Multimodal Layout Control for Image Composition](consistcompose_multimodal_layout_control.md)
 - [\[ICLR 2026\] Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss](../../ICLR2026/image_generation/condition_errors_refinement_in_autoregressive_image_generation_with_diffusion_lo.md)
-- [\[CVPR 2026\] EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation](evatok_adaptive_length_video_tokenization_for_eff.md)
 - [\[CVPR 2026\] EdgeDiT: Hardware-Aware Diffusion Transformers for Efficient On-Device Image Generation](edgedit_hardware-aware_diffusion_transformers_for_efficient_on-device_image_gene.md)
+- [\[CVPR 2026\] EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation](evatok_adaptive_length_video_tokenization_for_eff.md)
 
 <!-- RELATED:END -->

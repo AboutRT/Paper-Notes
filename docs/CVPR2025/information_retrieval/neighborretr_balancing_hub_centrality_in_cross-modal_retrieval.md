@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.10526](https://arxiv.org/abs/2503.10526)  
-**代码**: https://github.com/zzezze/NeighborRetr (有)  
-**领域**: 其他 / 跨模态检索  
+**代码**: [https://github.com/zzezze/NeighborRetr](https://github.com/zzezze/NeighborRetr)  
+**领域**: 信息检索  
 **关键词**: 跨模态检索, Hub问题, 中心性加权, 邻域调整, 均匀正则化
 
 ## 一句话总结
@@ -103,6 +103,6 @@ $\mathcal{L} = \mathcal{L}_{Wti} + \mathcal{L}_{Nbi} + \mathcal{L}_{Opt}$ + 细�
 - [\[AAAI 2026\] Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval](../../AAAI2026/information_retrieval/neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval.md)
 - [\[ACL 2025\] CART: A Generative Cross-Modal Retrieval Framework with Coarse-To-Fine Semantic Modeling](../../ACL2025/information_retrieval/cart_a_generative_cross-modal_retrieval_framework_with_coarse-to-fine_semantic_m.md)
 - [\[ACL 2025\] Cross-Lingual Relevance Transfer for Document Retrieval](../../ACL2025/information_retrieval/cross-lingual_relevance_transfer_for_document_retrieval.md)
-- [\[ACL 2025\] Multilingual Retrieval Augmented Generation for Culturally-Sensitive Tasks: A Benchmark for Cross-lingual Robustness](../../ACL2025/information_retrieval/multilingual_retrieval_augmented_generation_for_culturally-sensitive_tasks_a_ben.md)
+- [\[ACL 2025\] REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](../../ACL2025/information_retrieval/real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)
 
 <!-- RELATED:END -->

@@ -127,6 +127,6 @@ tags:
 - [\[NeurIPS 2025\] Critical Batch Size Revisited: A Simple Empirical Approach to Large-Batch Language Model Training](../../NeurIPS2025/llm_efficiency/critical_batch_size_revisited_a_simple_empirical_approach_to_large-batch_languag.md)
 - [\[ACL 2025\] Tetris: Optimal Draft Token Selection for Batch Speculative Decoding](../../ACL2025/llm_efficiency/tetris_optimal_draft_token_selection_for_batch_speculative_decoding.md)
 - [\[ICLR 2026\] Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling](semantic_parallelism_redefining_efficient_moe_inference_via_model-data_co-schedu.md)
-- [\[ICML 2025\] Scaling Inference-Efficient Language Models](../../ICML2025/llm_efficiency/scaling_inference-efficient_language_models.md)
+- [\[ICLR 2026\] IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling](iterresearch_rethinking_long-horizon_agents_with_interaction_scaling.md)
 
 <!-- RELATED:END -->

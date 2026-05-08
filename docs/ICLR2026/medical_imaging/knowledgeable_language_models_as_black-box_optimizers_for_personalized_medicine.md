@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.20975](https://arxiv.org/abs/2509.20975)  
-**代码**: [代码](https://code.roche.com/braid/projects/leon)(有)  
+**代码**: [代码](https://code.roche.com/braid/projects/leon)  
 **领域**: 医学影像/个性化医疗  
 **关键词**: 大语言模型优化, 个性化医疗, 黑箱优化, 分布偏移, 先验知识  
 

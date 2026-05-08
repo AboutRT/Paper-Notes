@@ -19,7 +19,7 @@ tags:
 **作者**: Shravan Nayak, Xiangru Jian, Kevin Qinghong Lin, Juan A. Rodriguez, Montek Kalsi 等  
 **arXiv**: [2503.15661](https://arxiv.org/abs/2503.15661)  
 **代码**: 开源（MIT License）  
-**领域**: GUI 智能体, 视觉感知  
+**领域**: 目标检测  
 **关键词**: GUI benchmark, desktop agent, element grounding, layout grounding, action prediction  
 
 ## 一句话总结

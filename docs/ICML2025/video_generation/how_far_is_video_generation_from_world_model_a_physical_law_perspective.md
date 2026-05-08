@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2411.02385](https://arxiv.org/abs/2411.02385)  
 **代码**: 无（项目页面：[phyworld.github.io](https://phyworld.github.io)）  
-**领域**: 视频理解/世界模型  
+**领域**: 视频生成  
 **关键词**: 视频生成, 世界模型, 物理定律, 泛化能力, 扩散模型
 
 ## 一句话总结
@@ -153,9 +153,9 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] SAW: Toward a Surgical Action World Model via Controllable and Scalable Video Generation](../../CVPR2025/video_generation/saw_toward_a_surgical_action_world_model_via_controllable_and_scalable_video_gen.md)
 - [\[ICLR 2026\] Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](../../ICLR2026/video_generation/lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)
 - [\[NeurIPS 2025\] Photography Perspective Composition: Towards Aesthetic Perspective Recommendation](../../NeurIPS2025/video_generation/photography_perspective_composition_towards_aesthetic_perspective_recommendation.md)
-- [\[CVPR 2025\] SAW: Toward a Surgical Action World Model via Controllable and Scalable Video Generation](../../CVPR2025/video_generation/saw_toward_a_surgical_action_world_model_via_controllable_and_scalable_video_gen.md)
 - [\[ICML 2025\] Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing](ca2-vdm_efficient_autoregressive_video_diffusion_model_with_causal_generation_an.md)
 - [\[CVPR 2026\] Physical Simulator In-the-Loop Video Generation](../../CVPR2026/video_generation/physical_simulator_in-the-loop_video_generation.md)
 

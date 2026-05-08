@@ -8,7 +8,7 @@ tags:
   - reward hacking
   - inference-time alignment
   - Best-of-N
-  - winner's curse
+  - 推荐系统
   - hedging
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.19248](https://arxiv.org/abs/2506.19248)  
 **代码**: 无  
-**领域**: AI Safety / LLM Alignment  
+**领域**: 推荐系统  
 **关键词**: reward hacking, inference-time alignment, Best-of-N, winner's curse, hedging
 
 ## 一句话总结

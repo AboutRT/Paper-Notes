@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - AI科研
-  - 剽窃检测
+  - 其他
   - LLM生成论文
   - 新颖性评估
   - 学术诚信
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.16487](https://arxiv.org/abs/2502.16487)  
 **代码**: [https://github.com/tarun360/AI-Papers-Plagiarism/](https://github.com/tarun360/AI-Papers-Plagiarism/)  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: AI科研, 剽窃检测, LLM生成论文, 新颖性评估, 学术诚信  
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[ACL 2025\] Towards Better Evaluation for Generated Patent Claims](patclaimeval_patent_evaluation.md)
 - [\[ACL 2025\] Research Borderlands: Analysing Writing Across Research Cultures](research_borderlands_analysing_writing_across_research_cultures.md)
-- [\[NeurIPS 2025\] Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications](../../NeurIPS2025/others/military_ai_needs_technically-informed_regulation_to_safeguard_ai_research_and_i.md)
-- [\[ACL 2025\] Synthia: Novel Concept Design with Affordance Composition](synthia_novel_concept_design_with_affordance_composition.md)
 - [\[ACL 2025\] Do not Abstain! Identify and Solve the Uncertainty](do_not_abstain_identify_and_solve_the_uncertainty.md)
+- [\[ACL 2025\] Synthia: Novel Concept Design with Affordance Composition](synthia_novel_concept_design_with_affordance_composition.md)
+- [\[ACL 2025\] CoAM: Corpus of All-Type Multiword Expressions](coam_corpus_of_all-type_multiword_expressions.md)
 
 <!-- RELATED:END -->

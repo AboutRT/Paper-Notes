@@ -7,7 +7,7 @@ tags:
   - ACL2025
   - 语音
   - 对抗音频攻击
-  - 大型音频语言模型
+  - 音频语音
   - 鲁棒性评估
   - benchmark
 ---
@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2411.14842](https://arxiv.org/abs/2411.14842)  
 **作者**: Wanqi Yang, Yanda Li, Meng Fang, Yunchao Wei, Ling Chen (UTS, Liverpool, 北京交通大学)
 **代码**: [CAA Benchmark](https://github.com/YanqiYang/CAA)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: 对抗音频攻击, 大型音频语言模型, 鲁棒性评估, benchmark
 
 ## 一句话总结
@@ -133,9 +133,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](audio_dialogue_benchmark.md)
-- [\[ACL 2026\] HalluAudio: A Comprehensive Benchmark for Hallucination Detection in Large Audio-Language Models](../../ACL2026/audio_speech/halluaudio_a_comprehensive_benchmark_for_hallucination_detection_in_large_audio-.md)
 - [\[ACL 2025\] Mind the Gap! Static and Interactive Evaluations of Large Audio Models](mind_the_gap_static_and_interactive_evaluations_of_large_audio_models.md)
 - [\[ACL 2025\] Investigating and Enhancing Vision-Audio Capability in Omnimodal Large Language Models](investigating_and_enhancing_vision-audio_capability_in_omnimodal_large_language_.md)
+- [\[ACL 2026\] HalluAudio: A Comprehensive Benchmark for Hallucination Detection in Large Audio-Language Models](../../ACL2026/audio_speech/halluaudio_a_comprehensive_benchmark_for_hallucination_detection_in_large_audio-.md)
 - [\[ACL 2025\] Towards Reliable Large Audio Language Model](towards_reliable_large_audio_language_model.md)
 
 <!-- RELATED:END -->

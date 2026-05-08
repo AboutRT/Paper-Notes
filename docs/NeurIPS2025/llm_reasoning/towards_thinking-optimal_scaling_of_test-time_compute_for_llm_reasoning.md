@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.18080](https://arxiv.org/abs/2502.18080)  
 **代码**: [RUCBM/TOPS](https://github.com/RUCBM/TOPS)  
-**领域**: model_compression / LLM reasoning  
+**领域**: LLM推理  
 **关键词**: 测试时计算, Chain-of-Thought, reasoning scaling, 过度思考, 自我改进, optimal reasoning effort
 
 ## 一句话总结

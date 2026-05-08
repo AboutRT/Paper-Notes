@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - jailbreak attack
+  - 多模态VLM
   - VLM safety
   - red teaming
   - safety benchmark

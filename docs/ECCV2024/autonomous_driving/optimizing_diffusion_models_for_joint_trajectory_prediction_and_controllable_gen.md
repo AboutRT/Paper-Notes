@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.00766](https://arxiv.org/abs/2408.00766)  
-**代码**: https://yixiaowang7.github.io/OptTrajDiff_Page/ (有项目页)  
+**代码**: [https://yixiaowang7.github.io/OptTrajDiff_Page/](https://yixiaowang7.github.io/OptTrajDiff_Page/) (有项目页)  
 **领域**: 自动驾驶  
 **关键词**: 扩散模型, 轨迹预测, 可控生成, 计算效率, 联合预测
 
@@ -149,7 +149,7 @@ ECM 的单步推理时间与 NNM 相当（111ms vs 113ms），但效果远优；
 
 ## 相关论文
 
-- [\[ECCV 2024\] Safe-Sim: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries](safe-sim_safety-critical_closed-loop_traffic_simulation_with_diffusion-controlla.md)
+- [\[ECCV 2024\] Safe-Sim: Safety-Critical Closed-Loop Traffic Simulation with Diffusion-Controllable Adversaries](safe-sim_safety-critical_closed-loop_traffic_simulation_with_diffusion-cont.md)
 - [\[ECCV 2024\] VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions](visiontrap_visionaugmented_trajectory_prediction_guided.md)
 - [\[ECCV 2024\] UniTraj: A Unified Framework for Scalable Vehicle Trajectory Prediction](unitraj_a_unified_framework_for_scalable_vehicle_trajectory_prediction.md)
 - [\[ECCV 2024\] DySeT: A Dynamic Masked Self-distillation Approach for Robust Trajectory Prediction](dyset_a_dynamic_masked_self-distillation_approach_for_robust_trajectory_predicti.md)

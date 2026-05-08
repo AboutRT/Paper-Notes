@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.10036](https://arxiv.org/abs/2506.10036)  
-**代码**: https://github.com/TaatiTeam/Token-Perturbation-Guidance  
+**代码**: [https://github.com/TaatiTeam/Token-Perturbation-Guidance](https://github.com/TaatiTeam/Token-Perturbation-Guidance)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 无训练引导, Token 扰动, 无条件生成, CFG 替代, 扩散模型
 

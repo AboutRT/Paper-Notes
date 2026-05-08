@@ -60,7 +60,7 @@ MoLE 在训练阶段和推理阶段具有不同结构：
 
    训练阶段 MoLE 层的计算为：
 
-   $$\boldsymbol{h}' = \sum_{j=1}^{N} \big(g_j \cdot \text{FFN}_j(\boldsymbol{e})\big) + \text{FFN}_{shared}(\boldsymbol{h}) + \boldsymbol{h}$$
+    $\boldsymbol{h}' = \sum_{j=1}^{N} \big(g_j \cdot \text{FFN}_j(\boldsymbol{e})\big) + \text{FFN}_{shared}(\boldsymbol{h}) + \boldsymbol{h}$
 
    其中 $g_j$ 由 router 基于中间特征 $\boldsymbol{h}$ 计算得到。
 
@@ -70,7 +70,7 @@ MoLE 在训练阶段和推理阶段具有不同结构：
 
    传统 MoE 采用 top-k 稀疏激活以降低 FLOPs。MoLE 的路由专家在推理时不需要计算（查表即可），因此可以激活全部 $N$ 个专家：
 
-   $$\{g_j\}_{j=1}^{N} = \text{SoftMax}(\{\boldsymbol{h} \cdot \boldsymbol{r}_j\}_{j=1}^{N})$$
+    $\{g_j\}_{j=1}^{N} = \text{SoftMax}(\{\boldsymbol{h} \cdot \boldsymbol{r}_j\}_{j=1}^{N})$
 
    **设计动机**：全激活消除了 MoE 的 top-k 选择机制，使模型完全可微分，无需 load balance loss 或 z-loss 等辅助损失来防止路由坍塌。消融实验证明添加辅助损失反而降低性能。
 
@@ -78,11 +78,11 @@ MoLE 在训练阶段和推理阶段具有不同结构：
 
    训练完成后，对每个可能的 input id $i$，预计算所有专家的输出：
 
-   $$\boldsymbol{v}_j^i = \text{FFN}_j(\text{Embedding}(i)) \in \mathbb{R}^d$$
+    $\boldsymbol{v}_j^i = \text{FFN}_j(\text{Embedding}(i)) \in \mathbb{R}^d$
 
    构建查找表 $\text{LUT}_l = \{\{\boldsymbol{v}_j^i\}_{j=1}^{N}\}_{i=1}^{|\mathcal{V}|}$，推理时的计算简化为：
 
-   $$\boldsymbol{h}' = \sum_{j=1}^{N} (g_j \cdot \boldsymbol{v}_j^i) + \text{FFN}_{shared}(\boldsymbol{h}) + \boldsymbol{h}$$
+    $\boldsymbol{h}' = \sum_{j=1}^{N} (g_j \cdot \boldsymbol{v}_j^i) + \text{FFN}_{shared}(\boldsymbol{h}) + \boldsymbol{h}$
 
    **设计动机**：LUT 可完全卸载到存储设备。每步推理只需加载 $dN$ 个参数（即当前 token 对应的 $N$ 个专家输出向量），而 MoE 需加载 $2dkD_r$ 个参数。对于 410M 模型，MoLE 每 token 加载量仅为 MoE 的 1/2000。
 
@@ -171,9 +171,9 @@ MoLE 在训练阶段和推理阶段具有不同结构：
 ## 相关论文
 
 - [\[ICML 2025\] MoH: Multi-Head Attention as Mixture-of-Head Attention](moh_multi-head_attention_as_mixture-of-head_attention.md)
-- [\[NeurIPS 2025\] On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks](../../NeurIPS2025/llm_efficiency/on_the_expressive_power_of_mixture-of-experts_for_structured_complex_tasks.md)
 - [\[ICML 2025\] Autonomy-of-Experts Models (AoE)](autonomy-of-experts_models.md)
-- [\[ACL 2025\] GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture](../../ACL2025/llm_efficiency/gigachat_family_efficient_russian_language_modeling_through_mixture_of_experts_a.md)
-- [\[ICLR 2026\] One-Prompt Strikes Back: Sparse Mixture of Experts for Prompt-based Continual Learning](../../ICLR2026/llm_efficiency/one-prompt_strikes_back_sparse_mixture_of_experts_for_prompt-based_continual_lea.md)
+- [\[NeurIPS 2025\] On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks](../../NeurIPS2025/llm_efficiency/on_the_expressive_power_of_mixture-of-experts_for_structured_complex_tasks.md)
+- [\[AAAI 2026\] How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts](../../AAAI2026/llm_efficiency/how_many_experts_are_enough_towards_optimal_semantic_specialization_for_mixture-.md)
+- [\[NeurIPS 2025\] Let the Experts Speak: Improving Survival Prediction & Calibration via Mixture-of-Experts Heads](../../NeurIPS2025/llm_efficiency/let_the_experts_speak_improving_survival_prediction_calibration_via_mixture-of-e.md)
 
 <!-- RELATED:END -->

@@ -12,7 +12,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.16667](https://arxiv.org/abs/2505.16667)  
 **代码**: [有](https://github.com/SCUNLP/ELABORATION)  
-**领域**: NLP / LLM评估 / 代码生成  
+**领域**: LLM评测  
 **机构**: 四川大学、天津科技大学、Vanderbilt University
 **作者**: Xinwei Yang, Zhaofeng Liu, Chen Huang, Jiashuai Zhang, Tong Zhang, Yifan Zhang, Wenqiang Lei
 

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 语音
-  - Audio-Visual QA
+  - 音频语音
   - 频域交互
   - Query引导
   - 空间-时序感知
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.19821](https://arxiv.org/abs/2601.19821)  
 **代码**: 发表后公开  
-**领域**: 视频理解 / 音频-视觉问答  
+**领域**: 音频语音  
 **关键词**: Audio-Visual QA, 频域交互, Query引导, 空间-时序感知, 多模态推理
 
 ## 一句话总结
@@ -145,8 +145,8 @@ QSTar 在总体准确率上超越前 SOTA QA-TIGER 1.36%，在 Audio QA 上超 2
 
 - [\[ACL 2026\] Music Audio-Visual Question Answering Requires Specialized Multimodal Designs](../../ACL2026/audio_speech/music_audio-visual_question_answering_requires_specialized_multimodal_designs.md)
 - [\[ACL 2026\] Retrieving to Recover: Towards Incomplete Audio-Visual Question Answering via Semantic-consistent Purification](../../ACL2026/audio_speech/retrieving_to_recover_towards_incomplete_audio-visual_question_answering_via_sem.md)
-- [\[ICLR 2026\] AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer](ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer.md)
 - [\[ACL 2026\] Jamendo-MT-QA: A Benchmark for Multi-Track Comparative Music Question Answering](../../ACL2026/audio_speech/jamendo-mt-qa_a_benchmark_for_multi-track_comparative_music_question_answering.md)
-- [\[CVPR 2026\] ViDscribe: Multimodal AI for Customizing Audio Description and Question Answering in Online Videos](../../CVPR2026/audio_speech/vidscribe_multimodal_ai_customizing_audio_description_videos.md)
+- [\[CVPR 2026\] ViDscribe: Multimodal AI for Customizing Audio Description and Question Answering in Online Videos](../../CVPR2026/audio_speech/vidscribe_multimodal_ai_for_customizing_audio_description_and_question_answering.md)
+- [\[ACL 2025\] Sparsify: Learning Sparsity for Effective and Efficient Music Performance Question Answering](../../ACL2025/audio_speech/sparsify_music_avqa.md)
 
 <!-- RELATED:END -->

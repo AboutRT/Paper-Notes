@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 机械可解释性
-  - 三段论推理
+  - 可解释性
   - 注意力电路
   - 激活补丁
   - 中间项抑制
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2408.08590](https://arxiv.org/abs/2408.08590)  
-**代码**: https://github.com/neuro-symbolic-ai/Mechanistic-Interpretation-Syllogism (有)  
+**代码**: [https://github.com/neuro-symbolic-ai/Mechanistic-Interpretation-Syllogism](https://github.com/neuro-symbolic-ai/Mechanistic-Interpretation-Syllogism)  
 **领域**: LLM可解释性 / 逻辑推理  
 **关键词**: 机械可解释性, 三段论推理, 注意力电路, 激活补丁, 中间项抑制
 
@@ -142,9 +142,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Mechanistic Interpretability of Emotion Inference in Large Language Models](mechanistic_interpretability_of_emotion_inference_in_large_language_models.md)
+- [\[ACL 2025\] Separating Tongue from Thought: Activation Patching Reveals Language-Agnostic Concept Representations in Transformers](language_agnostic_concepts.md)
 - [\[ACL 2025\] Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework](towards_explainable_temporal_reasoning_in_large_language_models_a_structure-awar.md)
-- [\[ACL 2025\] Separating Tongue from Thought: Activation Patching Reveals Language-Agnostic Concept Representations in Transformers](separating_tongue_from_thought_activation_patching_reveals_language-agnostic_con.md)
 - [\[ACL 2025\] An Empirical Study of Mechanistic Interpretability Approaches for Factual Recall](an_empirical_study_of_mechanistic_interpretability_approaches_for_factual_recall.md)
-- [\[ICML 2025\] Inference-Time Decomposition of Activations (ITDA): A Scalable Approach to Interpreting Large Language Models](../../ICML2025/interpretability/inference-time_decomposition_of_activations_itda_a_scalable_approach_to_interpre.md)
+- [\[ACL 2025\] Bias Attribution in Filipino Language Models: Extending a Bias Interpretability Metric for Application on Agglutinative Languages](bias_attribution_in_filipino_language_models_extending_a_bias_interpretability_m.md)
 
 <!-- RELATED:END -->

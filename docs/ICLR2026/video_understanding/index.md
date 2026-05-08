@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 视频理解方向25篇论文解读
+  ICLR2026 视频理解方向24篇论文解读
 description: >-
-  25篇ICLR2026的视频理解方向论文解读，涵盖 LLM、目标跟踪、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  24篇ICLR2026的视频理解方向论文解读，涵盖 LLM、目标跟踪、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 视频理解
 
-**🔬 ICLR2026** · **25** 篇论文解读
+**🔬 ICLR2026** · **24** 篇论文解读
 
 **[AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference](adaem_an_adaptively_and_automated_extensible_measurement_of_llms_value_differenc.md)**
 
@@ -105,7 +105,3 @@ description: >-
 **[联邦学习中水印的鲁棒性与放射性可能相互矛盾](watermark_robustness_and_radioactivity_may_be_at_odds_in_federated_learning.md)**
 
 :   首次研究联邦学习中 LLM 水印的数据溯源问题，发现水印在 FL 中具有放射性（可检测），但恶意服务器可通过强鲁棒聚合算法过滤水印更新，揭示了放射性、鲁棒性和模型效用之间的根本性三元矛盾。
-
-**[WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment](weboperator_action-aware_tree_search_for_autonomous_agents_in_web_environment.md)**
-
-:   提出 WebOperator，一个动作感知的树搜索框架，通过投机性回溯、破坏性动作检测、动作验证与合并等机制，使 Web 自主代理能在部分可观测、不可逆的真实网页环境中安全高效地探索，在 WebArena 上以 gpt-4o 达到 54.6% SOTA 成功率。

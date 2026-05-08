@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2508.04482](https://arxiv.org/abs/2508.04482)  
-**代码**: https://github.com/OS-Agent-Survey (开源社区维护)  
+**代码**: [https://github.com/OS-Agent-Survey](https://github.com/OS-Agent-Survey) (开源社区维护)  
 **领域**: LLM Agent  
 **关键词**: OS Agent, GUI automation, multimodal LLM, agent framework, reinforcement learning
 

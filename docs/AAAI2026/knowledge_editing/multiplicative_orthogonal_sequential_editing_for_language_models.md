@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2601.07873](https://arxiv.org/abs/2601.07873)  
-**代码**: https://github.com/famoustourist/MOSE  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/famoustourist/MOSE](https://github.com/famoustourist/MOSE)  
+**领域**: 知识编辑  
 **关键词**: 知识编辑, 正交变换, 序列编辑, 数值稳定性, 模型编辑
 
 ## 一句话总结
@@ -123,9 +123,9 @@ MOSE 将知识编辑从"加法更新"转变为"乘法更新"：不是 $W' = W_0 
 ## 相关论文
 
 - [\[ACL 2025\] Neuron-Level Sequential Editing for Large Language Models](../../ACL2025/knowledge_editing/neuron-level_sequential_editing_for_large_language_models.md)
-- [\[ACL 2025\] Context-Robust Knowledge Editing for Language Models](../../ACL2025/knowledge_editing/context-robust_knowledge_editing_for_language_models.md)
 - [\[ACL 2026\] Aligning Language Models with Real-time Knowledge Editing](../../ACL2026/knowledge_editing/aligning_language_models_with_real-time_knowledge_editing.md)
 - [\[ACL 2025\] MEGen: Generative Backdoor into Large Language Models via Model Editing](../../ACL2025/knowledge_editing/megen_generative_backdoor_into_large_language_models_via_model_editing.md)
 - [\[AAAI 2026\] Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior](model_editing_as_a_double-edged_sword_steering_agent_ethical_behavior_toward_ben.md)
+- [\[ACL 2025\] Context-Robust Knowledge Editing for Language Models](../../ACL2025/knowledge_editing/context-robust_knowledge_editing_for_language_models.md)
 
 <!-- RELATED:END -->

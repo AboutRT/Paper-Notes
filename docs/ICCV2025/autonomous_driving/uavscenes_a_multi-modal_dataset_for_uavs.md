@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.22412](https://arxiv.org/abs/2507.22412)  
-**代码**: https://github.com/sijieaaa/UAVScenes  
+**代码**: [https://github.com/sijieaaa/UAVScenes](https://github.com/sijieaaa/UAVScenes)  
 **领域**: 自动驾驶  
 **关键词**: 无人机感知, 多模态数据集, 语义分割, 深度估计, LiDAR 点云
 
@@ -165,8 +165,8 @@ LiDAR 分割整体 mIoU 远低于图像分割（~33% vs ~68%），说明航拍 L
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception](../../NeurIPS2025/autonomous_driving/v2x-radar_a_multi-modal_dataset_with_4d_radar_for_cooperative_perception.md)
 - [\[CVPR 2025\] ClimbingCap: Multi-Modal Dataset and Method for Rock Climbing in World Coordinate](../../CVPR2025/autonomous_driving/climbingcap_multi-modal_dataset_and_method_for_rock_climbing_in_world_coordinate.md)
+- [\[NeurIPS 2025\] V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception](../../NeurIPS2025/autonomous_driving/v2x-radar_a_multi-modal_dataset_with_4d_radar_for_cooperative_perception.md)
 - [\[ICCV 2025\] EVT: Efficient View Transformation for Multi-Modal 3D Object Detection](evt_efficient_view_transformation_for_multi-modal_3d_object_detection.md)
 - [\[CVPR 2025\] Multi-modal Knowledge Distillation-based Human Trajectory Forecasting](../../CVPR2025/autonomous_driving/multi-modal_knowledge_distillation-based_human_trajectory_forecasting.md)
 - [\[CVPR 2025\] Distilling Multi-modal Large Language Models for Autonomous Driving](../../CVPR2025/autonomous_driving/distilling_multi-modal_large_language_models_for_autonomous_driving.md)

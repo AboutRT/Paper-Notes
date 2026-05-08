@@ -130,6 +130,6 @@ $$\mathcal{L}_{\text{opt}} = \frac{1}{N \times K \times K} \sum_n \sum_i \sum_j 
 - [\[CVPR 2025\] Video Depth Without Video Models](video_depth_without_video_models.md)
 - [\[CVPR 2025\] ProbeSDF: Light Field Probes for Neural Surface Reconstruction](probesdf_light_field_probes_for_neural_surface_reconstruction.md)
 - [\[CVPR 2025\] Parametric Point Cloud Completion for Polygonal Surface Reconstruction](parametric_point_cloud_completion_for_polygonal_surface_reconstruction.md)
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
+- [\[ICCV 2025\] SurfaceSplat: Connecting Surface Reconstruction and Gaussian Splatting](../../ICCV2025/3d_vision/surfacesplat_connecting_surface_reconstruction_and_gaussian_splatting.md)
 
 <!-- RELATED:END -->

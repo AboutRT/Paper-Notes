@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.11557](https://arxiv.org/abs/2603.11557)  
-**代码**: https://github.com/crumeike/TornadoNet (有)  
+**代码**: [https://github.com/crumeike/TornadoNet](https://github.com/crumeike/TornadoNet)  
 **领域**: 目标检测 / 灾害评估  
 **关键词**: 建筑损坏检测, 有序分类, 目标检测, 龙卷风灾害, 实时推理
 

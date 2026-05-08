@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - 动态算法配置
-  - 图神经网络
+  - 强化学习
   - 深度强化学习
   - 多目标进化算法
   - Pareto 优化
@@ -147,8 +147,8 @@ $$\Delta_{\text{current}} = \frac{HV_{\text{current}} - HV_{\text{initial}}}{HV_
 
 - [\[NeurIPS 2025\] Sequential Multi-Agent Dynamic Algorithm Configuration](../../NeurIPS2025/reinforcement_learning/sequential_multi-agent_dynamic_algorithm_configuration.md)
 - [\[NeurIPS 2025\] DCcluster-Opt: Benchmarking Dynamic Multi-Objective Optimization for Geo-Distributed Data Center Workloads](../../NeurIPS2025/reinforcement_learning/dccluster-opt_benchmarking_dynamic_multi-objective_optimization_for_geo-distribu.md)
-- [\[ICML 2025\] Meta-Black-Box-Optimization through Offline Q-function Learning (Q-Mamba)](meta-black-box-optimization_through_offline_q-function_learning.md)
-- [\[ICML 2025\] Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning](graph-assisted_stitching_for_offline_hierarchical_reinforcement_learning.md)
-- [\[ICML 2025\] Wasserstein Policy Optimization](wasserstein_policy_optimization.md)
+- [\[NeurIPS 2025\] PARCO: Parallel AutoRegressive Models for Multi-Agent Combinatorial Optimization](../../NeurIPS2025/reinforcement_learning/parco_parallel_autoregressive_models_for_multi-agent_combinatorial_optimization.md)
+- [\[ICML 2025\] Non-stationary Online Learning for Curved Losses: Improved Dynamic Regret via Mixability](non-stationary_online_learning_for_curved_losses_improved_dynamic_regret_via_mix.md)
+- [\[NeurIPS 2025\] Complexity Scaling Laws for Neural Models using Combinatorial Optimization](../../NeurIPS2025/reinforcement_learning/complexity_scaling_laws_for_neural_models_using_combinatorial_optimization.md)
 
 <!-- RELATED:END -->

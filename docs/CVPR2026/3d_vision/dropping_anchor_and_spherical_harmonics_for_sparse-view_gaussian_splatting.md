@@ -56,13 +56,13 @@ DropAnSH-GS 在 3DGS 训练流程中加入两个正则化策略：
     - **邻域构建**：对每个锚点，在欧氏空间中找到 $k$ 个最近邻 Gaussian
     - **结构化丢弃**：将所有锚点及其邻域收集到丢弃集 $\mathcal{D}$，通过二值 mask $m_i$ 将其不透明度设为 0：
 
-   $$\hat{\alpha}_i = \alpha_i \cdot m_i, \quad m_i = \begin{cases} 0 & G_i \in \mathcal{D} \\ 1 & \text{otherwise} \end{cases}$$
+    $\hat{\alpha}_i = \alpha_i \cdot m_i, \quad m_i = \begin{cases} 0 & G_i \in \mathcal{D} \\ 1 & \text{otherwise} \end{cases}$
 
    设计动机：丢弃整个 Gaussian 簇会创造大尺度的"信息空洞"，积极破坏空间连贯性，阻止邻域补偿。优化过程被迫利用更远距离的上下文信息来重建被丢弃区域，促使学习更鲁棒的全局场景表示。kNN 搜索用 CUDA 实现，训练时间增加不到 2.8%。
 
 2. **球谐函数 Dropout**：Gaussian 的颜色 $\mathbf{c} = [\mathbf{c}^{(0)}, \mathbf{c}^{(1)}, \dots, \mathbf{c}^{(L)}]$ 由多阶 SH 系数表示。以概率 $p_{sh}$ 选取 Gaussian 子集，保留最大阶数 $l_{\max}$，丢弃更高阶 SH：
 
-   $$\tilde{\mathbf{c}} = [\mathbf{c}^{(0)}, \dots, \mathbf{c}^{(l_{\max})}, \mathbf{0}, \dots, \mathbf{0}]$$
+    $\tilde{\mathbf{c}} = [\mathbf{c}^{(0)}, \dots, \mathbf{c}^{(l_{\max})}, \mathbf{0}, \dots, \mathbf{0}]$
 
    训练过程中 $l_{\max}$ 逐渐增大（2000次=0阶, 4000次=1阶, 6000次=2阶），形成从粗到细的外观学习。双重收益：(1) 抑制颜色过拟合；(2) 优先在低阶 SH 中存储外观信息，训练后可直接截断高阶 SH 实现无需重训练的模型压缩。
 

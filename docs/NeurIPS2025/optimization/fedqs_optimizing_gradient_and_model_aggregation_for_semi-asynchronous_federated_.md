@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.07664](https://arxiv.org/abs/2510.07664)  
 **代码**: [GitHub](https://github.com/bkjod/FedQS_)  
-**领域**: Optimization / Federated Learning  
+**领域**: 优化  
 **关键词**: 联邦学习, 半异步, 梯度聚合, 模型聚合, 分治策略
 
 ## 一句话总结
@@ -177,7 +177,7 @@ $$w_{i,e}^t = w_{i,e-1}^t - \eta_i^t \left[\sum_{r=1}^{e}(m_i^t)^r \nabla F_{i,e
 - [\[NeurIPS 2025\] Layer-wise Update Aggregation with Recycling for Communication-Efficient Federated Learning](layer-wise_update_aggregation_with_recycling_for_communication-efficient_federat.md)
 - [\[CVPR 2025\] Model Poisoning Attacks to Federated Learning via Multi-Round Consistency](../../CVPR2025/optimization/model_poisoning_attacks_to_federated_learning_via_multi-round_consistency.md)
 - [\[NeurIPS 2025\] Streaming Federated Learning with Markovian Data](streaming_federated_learning_with_markovian_data.md)
-- [\[NeurIPS 2025\] Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data](learning_reconfigurable_representations_for_multimodal_federated_learning_with_m.md)
 - [\[NeurIPS 2025\] Oracle-Efficient Combinatorial Semi-Bandits](oracle-efficient_combinatorial_semi-bandits.md)
+- [\[NeurIPS 2025\] Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data](learning_reconfigurable_representations_for_multimodal_federated_learning_with_m.md)
 
 <!-- RELATED:END -->

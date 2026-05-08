@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2510.15868](https://arxiv.org/abs/2510.15868)  
-**代码**: https://ray-1026.github.io/lightsout/  
+**代码**: [https://ray-1026.github.io/lightsout/](https://ray-1026.github.io/lightsout/)  
 **领域**: 自动驾驶 / 图像复原  
 **关键词**: 镜头光斑去除, 扩散模型, 图像外推, LoRA微调, 即插即用
 

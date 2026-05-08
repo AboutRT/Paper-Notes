@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2308.06493](https://arxiv.org/abs/2308.06493)  
-**代码**: https://github.com/siplab-gt/EgoPoser (有)  
+**代码**: [https://github.com/siplab-gt/EgoPoser](https://github.com/siplab-gt/EgoPoser)  
 **领域**: 视频理解 / 人体姿态估计  
 **关键词**: 自我中心姿态估计, 混合现实, 稀疏追踪, 全局运动分解, SlowFast
 

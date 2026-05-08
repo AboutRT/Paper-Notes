@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17386](https://arxiv.org/abs/2411.17386)  
-**代码**: https://github.com/bwittmann/vesselFM  
+**代码**: [https://github.com/bwittmann/vesselFM](https://github.com/bwittmann/vesselFM)  
 **领域**: 医学图像  
 **关键词**: 血管分割, 基础模型, 域随机化, 流匹配, 零样本泛化
 

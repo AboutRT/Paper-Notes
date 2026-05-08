@@ -9,7 +9,7 @@ tags:
   - 测试用例增强
   - 代码生成评估
   - 变形测试
-  - LLM编程智能体
+  - 代码智能
 ---
 
 # UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench

@@ -8,7 +8,7 @@ tags:
   - maintainable code
   - design patterns
   - waterfall model
-  - multi-agent
+  - 代码智能
   - dynamic requirements
   - MaintainBench
 ---

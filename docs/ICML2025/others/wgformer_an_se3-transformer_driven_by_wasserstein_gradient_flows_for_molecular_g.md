@@ -136,6 +136,6 @@ tags:
 - [\[ICML 2025\] Learning Distances from Data with Normalizing Flows and Score Matching](learning_distances_from_data_with_normalizing_flows_and_score_matching.md)
 - [\[NeurIPS 2025\] SAD Neural Networks: Divergent Gradient Flows and Asymptotic Optimality via o-minimal Structures](../../NeurIPS2025/others/sad_neural_networks_divergent_gradient_flows_and_asymptotic_optimality_via_o-min.md)
 - [\[ICML 2025\] Fishers for Free? Approximating the Fisher Information Matrix by Recycling the Squared Gradient Accumulator](fishers_for_free_approximating_the_fisher_information_matrix_by_recycling_the_sq.md)
-- [\[ICML 2025\] Generation from Noisy Examples](generation_from_noisy_examples.md)
+- [\[CVPR 2025\] CARE Transformer: Mobile-Friendly Linear Visual Transformer via Decoupled Dual Interaction](../../CVPR2025/others/care_transformer_linear_attention.md)
 
 <!-- RELATED:END -->

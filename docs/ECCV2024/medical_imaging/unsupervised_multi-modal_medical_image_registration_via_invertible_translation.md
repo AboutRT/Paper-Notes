@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **PDF**: [ECVA](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04467.pdf)
-**代码**: https://github.com/MeggieGuo/INNReg (有)  
+**代码**: [https://github.com/MeggieGuo/INNReg](https://github.com/MeggieGuo/INNReg)  
 **领域**: 医学图像  
 **关键词**: 多模态配准, 可逆神经网络, 图像翻译, 无监督学习, 互信息
 

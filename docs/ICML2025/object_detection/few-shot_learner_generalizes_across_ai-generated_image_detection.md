@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.08763](https://arxiv.org/abs/2501.08763)  
 **代码**: [GitHub](https://github.com/teheperinko541/Few-Shot-AIGI-Detector)  
-**领域**: object_detection  
+**领域**: 目标检测  
 **关键词**: AI-generated image detection, few-shot learning, prototypical network, domain generalization, deepfake detection
 
 ## 一句话总结
@@ -132,9 +132,9 @@ FSD 基于原型网络 (Prototypical Network)。训练阶段：从已知生成�
 ## 相关论文
 
 - [\[ECCV 2024\] Zero-Shot Detection of AI-Generated Images](../../ECCV2024/object_detection/zero-shot_detection_of_ai-generated_images.md)
-- [\[CVPR 2025\] A Bias-Free Training Paradigm for More General AI-generated Image Detection](../../CVPR2025/object_detection/a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)
-- [\[NeurIPS 2025\] Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable](../../NeurIPS2025/object_detection/dual_data_alignment_makes_ai-generated_image_detector_easier_generalizable.md)
-- [\[ICCV 2025\] Few-Shot Pattern Detection via Template Matching and Regression](../../ICCV2025/object_detection/few-shot_pattern_detection_via_template_matching_and_regression.md)
 - [\[ICML 2025\] BlueGlass: A Framework for Composite AI Safety](blueglass_a_framework_for_composite_ai_safety.md)
+- [\[ECCV 2024\] OpenKD: Opening Prompt Diversity for Zero- and Few-shot Keypoint Detection](../../ECCV2024/object_detection/openkd_opening_prompt_diversity_for_zero-_and_few-shot_keypoint_detection.md)
+- [\[ECCV 2024\] Adaptive Multi-task Learning for Few-Shot Object Detection](../../ECCV2024/object_detection/adaptive_multi-task_learning_for_few-shot_object_detection.md)
+- [\[ICML 2025\] Open-Det: An Efficient Learning Framework for Open-Ended Detection](open-det_an_efficient_learning_framework_for_open-ended_detection.md)
 
 <!-- RELATED:END -->

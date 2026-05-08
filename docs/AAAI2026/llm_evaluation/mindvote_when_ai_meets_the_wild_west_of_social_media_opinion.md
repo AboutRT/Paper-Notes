@@ -7,7 +7,7 @@ tags:
   - AAAI 2026
   - 社交媒体民意
   - 双语投票
-  - LLM评估
+  - LLM评测
 ---
 
 # MindVote: When AI Meets the Wild West of Social Media Opinion
@@ -15,7 +15,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2505.14422](https://arxiv.org/abs/2505.14422)  
 **代码**: 有  
-**领域**: LLM评估 / 社会计算  
+**领域**: LLM评测  
 **关键词**: 舆情预测, 社交媒体, LLM基准, 文化偏见, 上下文依赖
 
 ## 一句话总结
@@ -140,8 +140,8 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Faster and Stronger: When ANN-SNN Conversion Meets Parallel Spiking Calculation](../../ICML2025/llm_evaluation/faster_and_stronger_when_ann-snn_conversion_meets_parallel_spiking_calculation.md)
+- [\[ICLR 2026\] When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining](../../ICLR2026/llm_evaluation/when_priors_backfire_on_the_vulnerability_of_unlearnable_examples_to_pretraining.md)
 - [\[ACL 2026\] Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues](../../ACL2026/llm_evaluation/are_they_lovers_or_friends_evaluating_llms39_social_reasoning_in_english_and_kor.md)
-- [\[ICLR 2026\] When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining](../../ICLR2026/llm_evaluation/when_priors_backfire_on_the_vulnerability_of_unlearnable_examples_to_data_augmen.md)
 - [\[ACL 2026\] AutoReproduce: Automatic AI Experiment Reproduction with Paper Lineage](../../ACL2026/llm_evaluation/autoreproduce_automatic_ai_experiment_reproduction_with_paper_lineage.md)
 - [\[ICLR 2026\] AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite](../../ICLR2026/llm_evaluation/astabench_benchmarking_ai_agents.md)
 

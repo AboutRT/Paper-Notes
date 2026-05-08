@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Monte Carlo Expected Threat (MOCET) Scoring
 description: >-
-  [NeurIPS 2025][AI safety] 提出 MOCET（Monte Carlo Expected Threat）评分框架，通过将 LLM 生成的生物武器制造协议分解为逐步 Bernoulli 试验，结合 k-NN 语义嵌入的成功概率估计和蒙特卡洛模拟，生成可解释的、可自动化的威胁量化指标，用于衡量 LLM 在生物安全领域的真实世界风险。
+  [NeurIPS 2025][可解释性] 提出 MOCET（Monte Carlo Expected Threat）评分框架，通过将 LLM 生成的生物武器制造协议分解为逐步 Bernoulli 试验，结合 k-NN 语义嵌入的成功概率估计和蒙特卡洛模拟，生成可解释的、可自动化的威胁量化指标，用于衡量 LLM 在生物安全领域的真实世界风险。
 tags:
   - NeurIPS 2025
-  - AI safety
+  - 可解释性
   - biosecurity
   - LLM risk assessment
   - Monte Carlo simulation
@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.16823](https://arxiv.org/abs/2511.16823)  
 **代码**: 按需提供 (available upon request)  
-**领域**: ai_safety  
+**领域**: 可解释性  
 **关键词**: AI safety, biosecurity, LLM risk assessment, Monte Carlo simulation, threat scoring, k-NN, ASL
 
 ## 一句话总结
@@ -152,10 +152,10 @@ Dolphin 模型在标准基准上性能略有下降，表面上安全性似乎提
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](scpilot_large_language_model_reasoning_toward_automated_single-cell_analysis_and.md)
-- [\[NeurIPS 2025\] Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models](bigram_subnetworks_mapping_to_next_tokens_in_transformer_language_models.md)
-- [\[NeurIPS 2025\] Towards Interpretability Without Sacrifice: Faithful Dense Layer Decomposition with Mixture of Decoders](towards_interpretability_without_sacrifice_faithful_dense_layer_decomposition_wi.md)
-- [\[NeurIPS 2025\] Base Models Know How to Reason, Thinking Models Learn When](base_models_know_how_to_reason_thinking_models_learn_when.md)
+- [\[NeurIPS 2025\] VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set](vlsae_interpreting_and_enhancing_visionlanguage_alignment_wi.md)
 - [\[NeurIPS 2025\] Beyond Token Probes: Hallucination Detection via Activation Tensors with ACT-ViT](beyond_token_probes_hallucination_detection_via_activation_tensors_with_act-vit.md)
+- [\[NeurIPS 2025\] scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](scpilot_large_language_model_reasoning_toward_automated_single-cell_analysis_and.md)
+- [\[NeurIPS 2025\] Do Different Prompting Methods Yield a Common Task Representation?](do_different_prompting_methods_yield_a_common_task_representation_in_language_mo.md)
+- [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](the_trilemma_of_truth_in_large_language_models.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27201](https://arxiv.org/abs/2603.27201)  
-**代码**: https://github.com/ASGO-MM/MCoT-hallucination  
+**代码**: [https://github.com/ASGO-MM/MCoT-hallucination](https://github.com/ASGO-MM/MCoT-hallucination)  
 **领域**: LLM推理  
 **关键词**: 多模态幻觉、链式思维推理、发散思维、视觉熵、解码干预
 

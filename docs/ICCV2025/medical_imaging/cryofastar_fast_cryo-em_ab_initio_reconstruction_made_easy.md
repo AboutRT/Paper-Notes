@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.05864](https://arxiv.org/abs/2506.05864)  
 **代码**: 无  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: cryo-EM, ab initio reconstruction, pose estimation, geometric foundation model, Fourier planar map
 
 ## 一句话总结
@@ -131,8 +131,8 @@ SNR影响：
 
 - [\[ICCV 2025\] NEURONS: Emulating the Human Visual Cortex Improves Fidelity and Interpretability in fMRI-to-Video Reconstruction](neurons_emulating_the_human_visual_cortex_improves_fidelity_and_interpretability.md)
 - [\[ICCV 2025\] GDKVM: Echocardiography Video Segmentation via Spatiotemporal Key-Value Memory with Gated Delta Rule](gdkvm_echocardiography_video_segmentation_via_spatiotemporal_key-value_memory_wi.md)
+- [\[ICCV 2025\] CuMPerLay: Learning Cubical Multiparameter Persistence Vectorizations](cumperlay_learning_cubical_multiparameter_persistence_vectorizations.md)
+- [\[ICCV 2025\] GEMeX: A Large-Scale, Groundable, and Explainable Medical VQA Benchmark for Chest X-ray Diagnosis](gemex_a_large-scale_groundable_and_explainable_medical_vqa_benchmark_for_chest_x.md)
 - [\[ICCV 2025\] MultiverSeg: Scalable Interactive Segmentation of Biomedical Imaging Datasets with In-Context Guidance](multiverseg_scalable_interactive_segmentation_of_biomedical_imaging_datasets_wit.md)
-- [\[ICCV 2025\] MRGen: Segmentation Data Engine for Underrepresented MRI Modalities](mrgen_segmentation_data_engine_for_underrepresented_mri_modalities.md)
-- [\[ICCV 2025\] Controllable Latent Space Augmentation for Digital Pathology](controllable_latent_space_augmentation_for_digital_pathology.md)
 
 <!-- RELATED:END -->

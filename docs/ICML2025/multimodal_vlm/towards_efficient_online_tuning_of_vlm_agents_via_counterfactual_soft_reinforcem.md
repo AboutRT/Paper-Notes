@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 多模态
-  - VLM Agent
+  - 多模态VLM
   - Counterfactual Reasoning
   - Soft RL
   - Exploration Efficiency
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.03792](https://arxiv.org/abs/2505.03792)  
 **代码**: [github.com/langfengQ/CoSo](https://github.com/langfengQ/CoSo)  
-**领域**: VLM 智能体, 强化学习, 在线微调  
+**领域**: 多模态VLM  
 **关键词**: VLM Agent, Counterfactual Reasoning, Soft RL, Exploration Efficiency, causal inference
 
 ## 一句话总结
@@ -133,8 +133,8 @@ CoSo 达到 26.5%，较 RL4VLM 的 22.7% 提升 16.7%。
 
 - [\[NeurIPS 2025\] Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning](../../NeurIPS2025/multimodal_vlm/praxisvlm_visiongrounded_decision_making_via_textdriven_rein.md)
 - [\[NeurIPS 2025\] VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents](../../NeurIPS2025/multimodal_vlm/vagen_reinforcing_world_model_reasoning_for_multi-turn_vlm_agents.md)
-- [\[ICCV 2025\] SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning](../../ICCV2025/multimodal_vlm/sc-captioner_improving_image_captioning_with_self-correction_by_reinforcement_le.md)
-- [\[CVPR 2026\] AVR: Adaptive VLM Routing for Computer Use Agents](../../CVPR2026/multimodal_vlm/adaptive_vision-language_model_routing_for_computer_use_agents.md)
 - [\[NeurIPS 2025\] Unified Reinforcement and Imitation Learning for Vision-Language Models](../../NeurIPS2025/multimodal_vlm/unified_reinforcement_and_imitation_learning_for_vision-language_models.md)
+- [\[ICCV 2025\] GTR: Guided Thought Reinforcement Prevents Thought Collapse in RL-Based VLM Agent](../../ICCV2025/multimodal_vlm/gtr_guided_thought_reinforcement_prevents_thought_collapse_in_rl-based_vlm_agent.md)
+- [\[CVPR 2026\] AVR: Adaptive VLM Routing for Computer Use Agents](../../CVPR2026/multimodal_vlm/adaptive_vision-language_model_routing_for_computer_use_agents.md)
 
 <!-- RELATED:END -->

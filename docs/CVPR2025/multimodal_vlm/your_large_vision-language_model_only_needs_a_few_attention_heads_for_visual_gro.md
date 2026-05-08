@@ -10,7 +10,7 @@ tags:
   - 注意力头发现
   - 无训练方法
   - 定位头
-  - LVLM可解释性
+  - 多模态VLM
 ---
 
 # Your Large Vision-Language Model Only Needs a Few Attention Heads for Visual Grounding

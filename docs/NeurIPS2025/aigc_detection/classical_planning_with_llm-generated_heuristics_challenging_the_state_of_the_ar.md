@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - Classical Planning
-  - LLM Code Generation
+  - AIGC检测
   - Heuristic Function
   - PDDL
   - Greedy Best-First Search

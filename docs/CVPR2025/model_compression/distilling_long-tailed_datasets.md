@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2408.14506](https://arxiv.org/abs/2408.14506)  
-**代码**: https://github.com/ichbill/LTDD  
+**代码**: [https://github.com/ichbill/LTDD](https://github.com/ichbill/LTDD)  
 **领域**: 模型压缩  
 **关键词**: 数据集蒸馏、长尾分布、轨迹匹配、分布无关匹配、专家解耦
 

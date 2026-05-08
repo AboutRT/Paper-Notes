@@ -8,7 +8,7 @@ tags:
   - 多模态
   - VLA
   - 世界模型
-  - 强化学习
+  - 多模态VLM
   - post-training
   - 机器人操作
   - 小样本
@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2509.24948](https://arxiv.org/abs/2509.24948)  
 **代码**: [github.com/amap-cvlab/world-env](https://github.com/amap-cvlab/world-env)  
-**领域**: robotics  
+**领域**: 多模态VLM  
 **关键词**: VLA, 世界模型, 强化学习, post-training, 机器人操作, 小样本
 
 ## 一句话总结
@@ -188,10 +188,10 @@ $$\mathcal{L} = \text{BCE}(R(\mathbf{o}_{1:t}, \mathbf{g}), y_t)$$
 
 ## 相关论文
 
-- [\[CVPR 2026\] AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition](adaptvision_efficient_vision-language_models_via_adaptive_visual_acquisition.md)
-- [\[CVPR 2026\] Reason-SVG: Enhancing Structured Reasoning for Vector Graphics Generation with Reinforcement Learning](reason-svg_enhancing_structured_reasoning_for_vector_graphics_generation_with_re.md)
-- [\[CVPR 2026\] CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)
 - [\[CVPR 2026\] Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild](joint-aligned_latent_action_towards_scalable_vla_pretraining_in_the_wild.md)
-- [\[CVPR 2026\] Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models](devil_is_in_narrow_policy_unleashing_exploration_in_driving_vla_models.md)
+- [\[CVPR 2026\] DUET-VLM: Dual Stage Unified Efficient Token Reduction for VLM Training and Inference](duet-vlm_dual_stage_unified_efficient_token_reduction_for_vlm_training_and_infer.md)
+- [\[CVPR 2026\] Revisiting Model Stitching In the Foundation Model Era](revisiting_model_stitching_in_the_foundation_model_era.md)
+- [\[CVPR 2026\] Do Vision-Language Models Leak What They Learn? Adaptive Token-Weighted Model Inversion Attacks](do_vision-language_models_leak_what_they_learn_adaptive_token-weighted_model_inv.md)
+- [\[CVPR 2026\] BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection](bussard_normalizing_flows_for_bijective_universal_scene-specific_anomalous_relat.md)
 
 <!-- RELATED:END -->

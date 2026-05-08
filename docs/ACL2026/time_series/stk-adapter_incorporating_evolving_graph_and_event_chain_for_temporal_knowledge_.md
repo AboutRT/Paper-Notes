@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.19042](https://arxiv.org/abs/2604.19042)  
 **代码**: [GitHub](https://github.com/Zhaoshuyuan0246/STK-Adapter)  
-**领域**: 时序知识图谱 / LLM推理  
+**领域**: 时间序列  
 **关键词**: 时序知识图谱外推, MoE适配器, 跨模态对齐, 事件链建模, 图结构演化
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16310](https://arxiv.org/abs/2411.16310)  
-**代码**: https://tev-fbk.github.io/fun3du/ (有)  
+**代码**: [https://tev-fbk.github.io/fun3du/](https://tev-fbk.github.io/fun3du/)  
 **领域**: 3D视觉  
 **关键词**: 功能性理解, 3D场景分割, 视觉语言模型, 零样本推理, 链式思维
 
@@ -135,7 +135,7 @@ Fun3DU 在 AP25 上超越最近对手 OpenMask3D 达 32.9 个点（split0）和 
 - [\[CVPR 2026\] Action-guided Generation of 3D Functionality Segmentation Data](../../CVPR2026/3d_vision/action-guided_generation_of_3d_functionality_segmentation_data.md)
 - [\[CVPR 2025\] Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting](rethinking_end-to-end_2d_to_3d_scene_segmentation_in_gaussian_splatting.md)
 - [\[CVPR 2025\] JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas](jopp-3d_joint_open_vocabulary_semantic_segmentation_on_point_clouds_and_panorama.md)
-- [\[ICCV 2025\] Articulate3D: Holistic Understanding of 3D Scenes as Universal Scene Description](../../ICCV2025/3d_vision/articulate3d_holistic_understanding_of_3d_scenes_as_universa.md)
+- [\[CVPR 2025\] Wonderland: Navigating 3D Scenes from a Single Image](wonderland_navigating_3d_scenes_from_a_single_image.md)
 - [\[CVPR 2025\] SpectroMotion: Dynamic 3D Reconstruction of Specular Scenes](spectromotion_dynamic_3d_reconstruction_of_specular_scenes.md)
 
 <!-- RELATED:END -->

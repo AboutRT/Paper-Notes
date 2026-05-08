@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2602.19140](https://arxiv.org/abs/2602.19140)  
 **代码**: 待确认  
-**领域**: 多模态融合 / 情感计算  
+**领域**: 图像生成  
 **关键词**: rectified flow, modality gap, multimodal fusion, affective computing, distribution mapping
 
 ## 一句话总结

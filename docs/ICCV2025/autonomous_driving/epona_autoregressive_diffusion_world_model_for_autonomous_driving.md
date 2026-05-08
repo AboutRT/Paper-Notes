@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.24113](https://arxiv.org/abs/2506.24113)  
 **代码**: [https://github.com/Kevin-thu/Epona/](https://github.com/Kevin-thu/Epona/)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 世界模型, autoregressive diffusion, trajectory planning, 视频生成, 自动驾驶
 
 ## 一句话总结

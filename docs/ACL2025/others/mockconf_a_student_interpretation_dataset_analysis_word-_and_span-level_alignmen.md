@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 同声传译
   - 平行语料
-  - 对齐标注
+  - 其他
   - span对齐
   - word对齐
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.04848](https://arxiv.org/abs/2506.04848)  
 **代码**: [有 (GitHub)](https://github.com/J4VORSKY/MockConf) + [InterAlign 标注工具](https://github.com/J4VORSKY/InterAlign)  
-**领域**: NLP / 语音翻译 / 同声传译  
+**领域**: 其他  
 **关键词**: 同声传译, 平行语料, 对齐标注, span对齐, word对齐
 
 ## 一句话总结
@@ -178,7 +178,7 @@ tags:
 - [\[ACL 2025\] QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation](qg-sms_enhancing_test_item_analysis_via_student_modeling_and_simulation.md)
 - [\[ACL 2025\] Towards Comprehensive Argument Analysis in Education: Dataset, Tasks, and Method](towards_comprehensive_argument_analysis_in_education_dataset_tasks_and_method.md)
 - [\[ACL 2025\] On Support Samples of Next Word Prediction](on_support_samples_of_next_word_prediction.md)
-- [\[ACL 2025\] Subword Models Struggle with Word Learning, but Surprisal Hides It](subword_models_struggle_with_word_learning_but_surprisal_hides_it.md)
 - [\[ACL 2025\] Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction](distractor_gen_multiple_choice.md)
+- [\[ACL 2025\] Model Extrapolation Expedites Alignment](expo_model_extrapolation.md)
 
 <!-- RELATED:END -->

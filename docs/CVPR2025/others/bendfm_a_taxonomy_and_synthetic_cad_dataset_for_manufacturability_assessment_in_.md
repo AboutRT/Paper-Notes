@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 制造设计(DFM)
-  - 可制造性评估
+  - 其他
   - 板金弯曲
   - 合成CAD数据集
   - 几何深度学习
@@ -148,10 +148,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](a2z-10m_geometric_deep_learning_with_a-to-z_brep_annotations_for_ai-assisted_cad.md)
+- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
 - [\[CVPR 2025\] SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md)
-- [\[CVPR 2025\] Three-View Focal Length Recovery From Homographies](three-view_focal_length_recovery_from_homographies.md)
-- [\[CVPR 2025\] Test-Time Augmentation Improves Efficiency in Conformal Prediction](test-time_augmentation_improves_efficiency_in_conformal_prediction.md)
-- [\[CVPR 2025\] MOS: Modeling Object-Scene Associations in Generalized Category Discovery](mos_modeling_object-scene_associations_in_generalized_category_discovery.md)
+- [\[CVPR 2025\] Exploring Contextual Attribute Density in Referring Expression Counting (CAD-GD)](exploring_contextual_attribute_density_in_referring_expression_counting.md)
+- [\[CVPR 2025\] PLeaS: Merging Models with Permutations and Least Squares](pleas_-_merging_models_with_permutations_and_least_squares.md)
+- [\[CVPR 2025\] TAET: Two-Stage Adversarial Equalization Training on Long-Tailed Distributions](taet_two-stage_adversarial_equalization_training_on_long-tailed_distributions.md)
 
 <!-- RELATED:END -->

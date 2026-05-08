@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12659](https://arxiv.org/abs/2603.12659)  
-**代码**: https://github.com/yuhu990424/AVION  
+**代码**: [https://github.com/yuhu990424/AVION](https://github.com/yuhu990424/AVION)  
 **领域**: 遥感 / 视觉语言模型  
 **关键词**: Remote Sensing, 知识蒸馏, prompt tuning, 视觉语言模型, 跨模态检索
 

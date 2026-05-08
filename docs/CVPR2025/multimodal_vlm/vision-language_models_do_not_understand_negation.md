@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 否定理解
-  - 视觉语言模型
+  - 多模态VLM
   - CLIP
   - 基准测试
   - 数据驱动改进
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.09425](https://arxiv.org/abs/2501.09425)  
-**代码**: https://NegBench.github.io (有)  
+**代码**: [https://NegBench.github.io](https://NegBench.github.io)  
 **领域**: 多模态VLM  
 **关键词**: 否定理解, 视觉语言模型, CLIP, 基准测试, 数据驱动改进
 
@@ -124,8 +124,8 @@ NegBench 包含两个核心任务：(1) Retrieval-Neg：在原始描述中加入
 
 - [\[ACL 2025\] NegVQA: Can Vision Language Models Understand Negation?](../../ACL2025/multimodal_vlm/negvqa_can_vision_language_models_understand_negation.md)
 - [\[ICML 2025\] Do Vision-Language Models Really Understand Visual Language?](../../ICML2025/multimodal_vlm/do_vision-language_models_really_understand_visual_language.md)
-- [\[CVPR 2025\] Evaluating Vision-Language Models as Evaluators in Path Planning](evaluating_vision-language_models_as_evaluators_in_path_planning.md)
-- [\[CVPR 2025\] Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages](rethinking_few-shot_adaptation_of_vision-language_models_in_two_stages.md)
 - [\[CVPR 2025\] VisionZip: Longer is Better but Not Necessary in Vision Language Models](visionzip_longer_is_better_but_not_necessary_in_vision_language_models.md)
+- [\[CVPR 2025\] ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models](forensiczip_more_tokens_are_better_but_not_necessary_in_forensic_vision-language.md)
+- [\[CVPR 2025\] Hyperbolic Safety-Aware Vision-Language Models](hyperbolic_safety-aware_vision-language_models.md)
 
 <!-- RELATED:END -->

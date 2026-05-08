@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13519](https://arxiv.org/abs/2407.13519)  
-**代码**: https://github.com/changshuowang/GPSFormer (有)  
+**代码**: [https://github.com/changshuowang/GPSFormer](https://github.com/changshuowang/GPSFormer)  
 **领域**: 3D视觉  
 **关键词**: 点云理解, 全局感知, 可变形卷积, 局部结构拟合, Taylor级数
 
@@ -155,7 +155,7 @@ GPSFormer由GPS Block级联构成，每个GPS Block包含两个核心组件：
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13519](https://arxiv.org/abs/2407.13519)  
-**代码**: https://github.com/changshuowang/GPSFormer (有)  
+**代码**: [https://github.com/changshuowang/GPSFormer](https://github.com/changshuowang/GPSFormer)  
 **领域**: 3D视觉  
 **关键词**: 点云理解, 全局感知, 可变形图卷积, 局部结构拟合, Taylor级数
 
@@ -272,10 +272,10 @@ GPSFormer由两个核心组件堆叠构成：**全局感知模块(GPM)** 和 **�
 
 ## 相关论文
 
-- [\[ECCV 2024\] DG-PIC: Domain Generalized Point-In-Context Learning for Point Cloud Understanding](dg-pic_domain_generalized_point-in-context_learning_for_point_cloud_understandin.md)
+- [\[ECCV 2024\] DG-PIC: Domain Generalized Point-In-Context Learning for Point Cloud Understanding](dgpic_domain_generalized_pointincontext_learning_for_po.md)
 - [\[CVPR 2026\] Mamba Learns in Context: Structure-Aware Domain Generalization for Multi-Task Point Cloud Understanding](../../CVPR2026/3d_vision/mamba_learns_in_context_structure-aware_domain_generalization_for_multi-task_poi.md)
-- [\[ECCV 2024\] TRAM: Global Trajectory and Motion of 3D Humans from in-the-wild Videos](tram_global_trajectory_and_motion_of_3d_humans_from_in-the-wild_videos.md)
 - [\[CVPR 2025\] PMA: Towards Parameter-Efficient Point Cloud Understanding via Point Mamba Adapter](../../CVPR2025/3d_vision/pma_towards_parameter-efficient_point_cloud_understanding_via_point_mamba_adapte.md)
 - [\[ECCV 2024\] SegPoint: Segment Any Point Cloud via Large Language Model](segpoint_segment_any_point_cloud_via_large_language_model.md)
+- [\[CVPR 2025\] ColabSfM: Collaborative Structure-from-Motion by Point Cloud Registration](../../CVPR2025/3d_vision/colabsfm_collaborative_structure-from-motion_by_point_cloud_registration.md)
 
 <!-- RELATED:END -->

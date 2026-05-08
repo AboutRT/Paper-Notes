@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.15021](https://arxiv.org/abs/2410.15021)  
-**代码**: https://github.com/naist-nlp/mbr-bias-diversity  
-**领域**: LLM NLP  
+**代码**: [https://github.com/naist-nlp/mbr-bias-diversity](https://github.com/naist-nlp/mbr-bias-diversity)  
+**领域**: LLM预训练  
 **关键词**: MBR Decoding, Bias-Diversity Decomposition, Inference Scaling Laws, 集成学习, information theory
 
 ## 一句话总结
@@ -130,10 +130,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICML 2025\] Scaling Inference-Efficient Language Models](../../ICML2025/llm_pretraining/scaling_inference-efficient_language_models.md)
 - [\[ACL 2025\] Training Dynamics Underlying Language Model Scaling Laws: Loss Deceleration and Zero-Sum Learning](training_dynamics_underlying_language_model_scaling_laws_loss_deceleration_and_z.md)
 - [\[NeurIPS 2025\] Gemstones: A Model Suite for Multi-Faceted Scaling Laws](../../NeurIPS2025/llm_pretraining/gemstones_a_model_suite_for_multi-faceted_scaling_laws.md)
 - [\[NeurIPS 2025\] Conformal Risk Training: End-to-End Optimization of Conformal Risk Control](../../NeurIPS2025/llm_pretraining/conformal_risk_training_end-to-end_optimization_of_conformal_risk_control.md)
 - [\[NeurIPS 2025\] Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](../../NeurIPS2025/llm_pretraining/power_lines_scaling_laws_for_weight_decay_and_batch_size_in_llm_pre-training.md)
-- [\[ICML 2025\] Tokenized Bandit for LLM Decoding and Alignment](../../ICML2025/llm_pretraining/tokenized_bandit_for_llm_decoding_and_alignment.md)
 
 <!-- RELATED:END -->

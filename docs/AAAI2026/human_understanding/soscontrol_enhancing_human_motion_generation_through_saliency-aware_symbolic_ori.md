@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2601.14258](https://arxiv.org/abs/2601.14258)  
 **作者**: Ho Yin Au, Junkun Jiang, Jie Chen (香港理工大学)  
 **代码**: [GitHub](https://github.com/asdryau/SOSControl)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: 人体运动生成, 符号化控制, Labanotation, 扩散模型, 显著性检测, ControlNet
 
 ## 一句话总结
@@ -161,9 +161,9 @@ Test-time优化贡献最大，diffusion-time优化效果有限（其调整可能
 ## 相关论文
 
 - [\[CVPR 2026\] LaMoGen: Language to Motion Generation Through LLM-Guided Symbolic Inference](../../CVPR2026/human_understanding/lamogen_language_to_motion_generation_through_llm-guided_symbolic_inference.md)
-- [\[AAAI 2026\] FineXtrol: Controllable Motion Generation via Fine-Grained Text](finextrol_controllable_motion_generation_via_fine-grained_text.md)
+- [\[CVPR 2025\] Exploring Timeline Control for Facial Motion Generation](../../CVPR2025/human_understanding/exploring_timeline_control_for_facial_motion_generation.md)
 - [\[AAAI 2026\] mmPred: Radar-based Human Motion Prediction in the Dark](mmpred_radar-based_human_motion_prediction_in_the_dark.md)
 - [\[ICCV 2025\] KinMo: Kinematic-Aware Human Motion Understanding and Generation](../../ICCV2025/human_understanding/kinmo_kinematic-aware_human_motion_understanding_and_generation.md)
-- [\[AAAI 2026\] DEIG: Detail-Enhanced Instance Generation with Fine-Grained Semantic Control](deig_detail-enhanced_instance_generation_with_fine-grained_semantic_control.md)
+- [\[CVPR 2026\] IDperturb: Enhancing Variation in Synthetic Face Generation via Angular Perturbations](../../CVPR2026/human_understanding/idperturb_enhancing_variation_in_synthetic_face_generation_via_angular_perturbat.md)
 
 <!-- RELATED:END -->

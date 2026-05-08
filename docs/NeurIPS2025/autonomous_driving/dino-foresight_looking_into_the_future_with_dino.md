@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2412.11673](https://arxiv.org/abs/2412.11673)  
 **主页**: [https://dino-foresight.github.io/](https://dino-foresight.github.io/)
-**领域**: autonomous_driving / 语义未来预测  
+**领域**: 自动驾驶  
 **关键词**: Future Prediction, VFM Feature Forecasting, DINOv2, Multi-Task Dense Prediction, Masked Feature Transformer, Self-Supervised Learning
 
 ## 一句话总结
@@ -170,6 +170,6 @@ VAE latent 特征空间完全无法支撑场景理解任务（33.4 vs 71.8），
 - [\[ICCV 2025\] Foresight in Motion: Reinforcing Trajectory Prediction with Reward Heuristics](../../ICCV2025/autonomous_driving/foresight_in_motion_reinforcing_trajectory_prediction_with_reward_heuristics.md)
 - [\[ICCV 2025\] Future-Aware Interaction Network For Motion Forecasting](../../ICCV2025/autonomous_driving/future-aware_interaction_network_for_motion_forecasting.md)
 - [\[NeurIPS 2025\] Future-Aware End-to-End Driving: Bidirectional Modeling of Trajectory Planning and Scene Evolution](future-aware_end-to-end_driving_bidirectional_modeling_of_trajectory_planning_an.md)
-- [\[NeurIPS 2025\] GSAlign: Geometric and Semantic Alignment Network for Aerial-Ground Person Re-Identification](gsalign_geometric_and_semantic_alignment_network_for_aerial-ground_person_re-ide.md)
+- [\[NeurIPS 2025\] SDTagNet: Leveraging Text-Annotated Navigation Maps for Online HD Map Construction](sdtagnet_leveraging_text-annotated_navigation_maps_for_online_hd_map_constructio.md)
 
 <!-- RELATED:END -->

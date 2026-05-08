@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2510.06700](https://arxiv.org/abs/2510.06700)  
-**代码**: https://github.com/leobertolazzi/content-effect-interpretability  
-**领域**: 可解释性 / LLM推理  
+**代码**: [https://github.com/leobertolazzi/content-effect-interpretability](https://github.com/leobertolazzi/content-effect-interpretability)  
+**领域**: 社会计算  
 **关键词**: 内容效应, 逻辑有效性, 合理性, 线性表示, 转向向量
 
 ## 一句话总结
@@ -123,6 +123,6 @@ tags:
 - [\[ACL 2026\] SPAGBias: Uncovering and Tracing Structured Spatial Gender Bias in Large Language Models](spagbias_uncovering_and_tracing_structured_spatial_gender_bias_in_large_language.md)
 - [\[ACL 2025\] How does Misinformation Affect Large Language Model Behaviors and Preferences?](../../ACL2025/social_computing/how_does_misinformation_affect_large_language.md)
 - [\[ACL 2026\] Among Us: Language of Conspiracy Theorists on Mainstream Reddit](among_us_language_of_conspiracy_theorists_on_mainstream_reddit.md)
-- [\[CVPR 2026\] As Language Models Scale, Low-order Linear Depth Dynamics Emerge](../../CVPR2026/social_computing/as_language_models_scale_low-order_linear_depth_dynamics_emerge.md)
+- [\[CVPR 2026\] As Language Models Scale, Low-order Linear Depth Dynamics Emerge](../../CVPR2026/social_computing/as_language_models_scale_loworder_linear_depth_dyn.md)
 
 <!-- RELATED:END -->

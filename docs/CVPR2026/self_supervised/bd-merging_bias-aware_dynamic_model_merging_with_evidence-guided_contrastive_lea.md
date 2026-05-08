@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.03920](https://arxiv.org/abs/2603.03920)  
 **代码**: 暂无  
-**领域**: self_supervised  
+**领域**: 自监督  
 **关键词**: Model Merging, Multi-Task Learning, Evidential Deep Learning, Distribution Shift, Contrastive Learning, uncertainty estimation
 
 ## 一句话总结
@@ -160,9 +160,9 @@ BD-Merging 同时提升已见和未见任务的准确率，泛化-专化平衡�
 ## 相关论文
 
 - [\[CVPR 2026\] UniGeoCLIP: Unified Geospatial Contrastive Learning](unigeoclip_geospatial_contrastive.md)
-- [\[NeurIPS 2025\] Uncertainty-Guided Model Selection for Tabular Foundation Models in Biomolecule Efficacy Prediction](../../NeurIPS2025/self_supervised/uncertainty-guided_model_selection_for_tabular_foundation_models_in_biomolecule_.md)
+- [\[CVPR 2026\] AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation](actta_rethinking_test-time_adaptation_via_dynamic_activation.md)
 - [\[ICML 2025\] What Has a Foundation Model Found? Using Inductive Bias to Probe for World Models](../../ICML2025/self_supervised/what_has_a_foundation_model_found_using_inductive_bias_to_probe_for_world_models.md)
-- [\[NeurIPS 2025\] SEAL: Semantic-Aware Hierarchical Learning for Generalized Category Discovery](../../NeurIPS2025/self_supervised/seal_semantic-aware_hierarchical_learning_for_generalized_category_discovery.md)
+- [\[NeurIPS 2025\] Uncertainty-Guided Model Selection for Tabular Foundation Models in Biomolecule Efficacy Prediction](../../NeurIPS2025/self_supervised/uncertainty-guided_model_selection_for_tabular_foundation_models_in_biomolecule_.md)
 - [\[CVPR 2026\] MOMO: Mars Orbital Model — Foundation Model for Mars Orbital Applications](momo_mars_orbital_model_foundation_model_for_mars_orbital_applications.md)
 
 <!-- RELATED:END -->

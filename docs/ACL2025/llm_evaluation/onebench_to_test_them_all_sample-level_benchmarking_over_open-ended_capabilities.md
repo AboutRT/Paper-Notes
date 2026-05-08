@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.06745](https://arxiv.org/abs/2412.06745)  
 **代码**: [GitHub](https://github.com/open-psi/ONEBench)  
-**领域**: 其他  
+**领域**: LLM评测  
 **关键词**: 基准评测, 模型排名, Plackett-Luce, 样本级评估, 个性化评测
 
 ## 一句话总结

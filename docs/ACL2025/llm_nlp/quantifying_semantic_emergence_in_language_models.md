@@ -52,7 +52,7 @@ tags:
 1. **马尔可夫过程类比**：将 NTP（下一个 token 预测）机制视为马尔可夫随机过程。对于 Transformer 的第 $l$ 层，token $t$ 的输出表示 $h_{l+1}^t$ 依赖于第 $l$ 层中位置 $\leq t$ 的所有输入表示。微观变量（如 $h^0$）仅依赖自身，宏观变量（如 $h^{T-1}$）聚合了所有前置 token 的信息。
 
 2. **信息涌现（IE）定义**：对于第 $l$ 个 Transformer 块，IE 定义为宏观互信息与微观互信息均值之差：
-   $$E(l) = MI(h_{l+1}^{ma}, h_l^{ma}) - \frac{1}{T}\sum_{t=0}^{T-1} MI(h_{l+1}^{mi\_t}, h_l^{mi\_t})$$
+    $E(l) = MI(h_{l+1}^{ma}, h_l^{ma}) - \frac{1}{T}\sum_{t=0}^{T-1} MI(h_{l+1}^{mi\_t}, h_l^{mi\_t})$
    $E(l) > 0$ 表示该层在整个序列上的不确定性降低（熵减）大于单个 token 的熵减，意味着模型成功捕获了集体语义。
 
 3. **微观变量的计算**：为确保微观变量仅依赖自身，每个 token 被单独作为输入序列送入模型，避免自回归机制引入的上下文影响。宏观变量则取完整序列中最后一个 token 的表示。
@@ -128,10 +128,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2025\] Rethinking Semantic Parsing for Large Language Models: Enhancing LLM Performance with Semantic Hints](rethinking_semantic_parsing_for_large_language_models_enhancing_llm_performance_.md)
 - [\[ACL 2025\] A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models](a_semantic-aware_layer-freezing_approach_to_computation-efficient_fine-tuning_of.md)
+- [\[ACL 2025\] Semantic Exploration with Adaptive Gating for Efficient Problem Solving with Language Models](semantic_exploration_adaptive_gating.md)
 - [\[ACL 2025\] PiFi: Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models](plugin_finetuning_bridge.md)
 - [\[ACL 2025\] Argument Mining in the Age of Large Language Models](argument_mining_in_the_age_of_large_language_models.md)
-- [\[ICML 2025\] Beyond Induction Heads: In-Context Meta Learning Induces Multi-Phase Circuit Emergence](../../ICML2025/llm_nlp/beyond_induction_heads_in-context_meta_learning_induces_multi-phase_circuit_emer.md)
-- [\[ACL 2025\] Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](salience_sparse_fine_tuning.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25209](https://arxiv.org/abs/2603.25209)  
-**代码**: https://github.com/Westlake-AGI-Lab/FreeLOC  
+**代码**: [https://github.com/Westlake-AGI-Lab/FreeLOC](https://github.com/Westlake-AGI-Lab/FreeLOC)  
 **领域**: 视频生成 / 扩散模型  
 **关键词**: 长视频生成, 免训练, 位置编码外推, 稀疏注意力, 层自适应
 

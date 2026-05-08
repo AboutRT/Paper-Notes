@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - Prediction Powered Inference
-  - 少标签评估
+  - 其他
   - 回归系数
   - 方差缩减
   - LLM评估
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2411.12665](https://arxiv.org/abs/2411.12665)  
 **代码**: [ppi_py](https://github.com/aangelopoulos/ppi_py)（基线实现）  
-**领域**: 自动评估 / 统计推断  
+**领域**: 其他  
 **关键词**: Prediction Powered Inference, 少标签评估, 回归系数, 方差缩减, LLM评估
 
 ## 一句话总结
@@ -134,10 +134,10 @@ $$Var[\hat{\mu}_{PPI}] - Var[\hat{\mu}_h] = \mathbb{E}[\lambda]^2 \cdot (\tfrac{
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Statistical Inference for Gradient Boosting Regression](../../NeurIPS2025/others/statistical_inference_for_gradient_boosting_regression.md)
 - [\[ICML 2025\] Prediction via Shapley Value Regression (ViaSHAP)](prediction_via_shapley_value_regression.md)
+- [\[NeurIPS 2025\] Statistical Inference for Gradient Boosting Regression](../../NeurIPS2025/others/statistical_inference_for_gradient_boosting_regression.md)
 - [\[ICML 2025\] Heavy-Tailed Linear Bandits: Huber Regression with One-Pass Update](heavy-tailed_linear_bandits_huber_regression_with_one-pass_update.md)
+- [\[ICML 2025\] Curvature Enhanced Data Augmentation for Regression](curvature_enhanced_data_augmentation_for_regression.md)
 - [\[NeurIPS 2025\] Regression Trees Know Calculus](../../NeurIPS2025/others/regression_trees_know_calculus.md)
-- [\[ICML 2025\] To Each Metric Its Decoding: Post-Hoc Optimal Decision Rules of Probabilistic Hierarchical Classifiers](to_each_metric_its_decoding_post-hoc_optimal_decision_rules_of_probabilistic_hie.md)
 
 <!-- RELATED:END -->

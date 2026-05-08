@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV2024  
 **arXiv**: [2305.15171](https://arxiv.org/abs/2305.15171)  
-**代码**: https://xinhangliu.com/deceptive-nerf-3dgs  
-**领域**: 3d_vision  
+**代码**: [https://xinhangliu.com/deceptive-nerf-3dgs](https://xinhangliu.com/deceptive-nerf-3dgs)  
+**领域**: 3D视觉  
 **关键词**: 稀疏视图重建, 扩散模型, NeRF, 3D高斯Splatting, 伪观测生成
 
 ## 一句话总结

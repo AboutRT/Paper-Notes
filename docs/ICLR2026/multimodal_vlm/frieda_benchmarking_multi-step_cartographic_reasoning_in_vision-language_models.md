@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR2026
   - 多模态
-  - cartographic reasoning
+  - 多模态VLM
   - map VQA
   - spatial relations
   - multi-image reasoning
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2512.08016](https://arxiv.org/abs/2512.08016)  
 **代码**: [knowledge-computing/FRIEDA](https://github.com/knowledge-computing/FRIEDA)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: cartographic reasoning, map VQA, spatial relations, multi-image reasoning, benchmark
 
 ## 一句话总结
@@ -160,10 +160,10 @@ FRIEDA 围绕四个核心维度设计问题：
 
 ## 相关论文
 
-- [\[AAAI 2026\] FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation](../../AAAI2026/multimodal_vlm/finmmdocr_benchmarking_financial_multimodal_reasoning_with_scenario_awareness_do.md)
 - [\[ICLR 2026\] Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes](seeing_across_views_benchmarking_spatial_reasoning_of_vision-language_models_in_.md)
+- [\[AAAI 2026\] FinMMDocR: Benchmarking Financial Multimodal Reasoning with Scenario Awareness, Document Understanding, and Multi-Step Computation](../../AAAI2026/multimodal_vlm/finmmdocr_benchmarking_financial_multimodal_reasoning_with_scenario_awareness_do.md)
 - [\[ACL 2026\] OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models](../../ACL2026/multimodal_vlm/omibench_benchmarking_olympiad-level_multi-image_reasoning_in_large_vision-langu.md)
-- [\[ICLR 2026\] VisioMath: Benchmarking Figure-based Mathematical Reasoning in LMMs](visiomath_benchmarking_figure-based_mathematical_reasoning_in_lmms.md)
 - [\[CVPR 2026\] GraphVLM: Benchmarking Vision Language Models for Multimodal Graph Learning](../../CVPR2026/multimodal_vlm/graphvlm_benchmarking_vision_language_models_for_multimodal_graph_learning.md)
+- [\[ICLR 2026\] GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models](gtr-bench_evaluating_geo-temporal_reasoning_in_vision-language_mod.md)
 
 <!-- RELATED:END -->

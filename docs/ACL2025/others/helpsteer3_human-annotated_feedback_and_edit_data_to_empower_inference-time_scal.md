@@ -2,10 +2,10 @@
 title: >-
   [论文解读] HelpSteer3: Human-Annotated Feedback and Edit Data to Empower Inference-Time Scaling
 description: >-
-  [ACL 2025][推理时扩展] NVIDIA 发布 HelpSteer3 数据集（7000+标注员、80+国家），训练专用的 Feedback 和 Edit 模型，在推理时通过"初始响应→反馈→编辑"循环实现开放域通用任务的推理时扩展，基于 Llama 3 系列 70B 模型在 Arena Hard 上达到 92.7 分，超越 OpenAI o1-preview (90.4) 和 DeepSeek R1 (92.3)。
+  [ACL 2025][其他] NVIDIA 发布 HelpSteer3 数据集（7000+标注员、80+国家），训练专用的 Feedback 和 Edit 模型，在推理时通过"初始响应→反馈→编辑"循环实现开放域通用任务的推理时扩展，基于 Llama 3 系列 70B 模型在 Arena Hard 上达到 92.7 分，超越 OpenAI o1-preview (90.4) 和 DeepSeek R1 (92.3)。
 tags:
   - ACL 2025
-  - 推理时扩展
+  - 其他
   - 人工反馈
   - 反馈-编辑模型
   - 开放域任务
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2503.04378](https://arxiv.org/abs/2503.04378)  
 **代码**: [有](https://huggingface.co/datasets/nvidia/HelpSteer3)  
 **机构**: NVIDIA
-**领域**: Others / LLM对齐与推理时扩展  
+**领域**: 其他  
 **关键词**: 推理时扩展, 人工反馈, 反馈-编辑模型, 开放域任务, RLHF, 数据集
 
 ## 一句话总结

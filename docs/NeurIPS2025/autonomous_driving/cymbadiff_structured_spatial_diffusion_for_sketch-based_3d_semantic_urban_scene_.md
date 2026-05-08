@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.13245](https://arxiv.org/abs/2510.13245)  
 **代码**: [https://github.com/Lillian-research-hub/CymbaDiff](https://github.com/Lillian-research-hub/CymbaDiff)  
-**领域**: autonomous_driving / 3D场景生成  
+**领域**: 自动驾驶  
 **关键词**: 3D语义场景生成, 草图引导, 扩散模型, 状态空间模型, 柱坐标Mamba  
 
 ## 一句话总结

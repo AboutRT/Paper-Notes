@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - compositional zero-shot learning
-  - CLIP adapter
+  - 其他
   - feature disentanglement
   - 图神经网络
   - 注意力机制
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2408.09786](https://arxiv.org/abs/2408.09786)  
 **代码**: [有](https://github.com/zhurunkai/DCDA)  
-**领域**: 视觉语言 / 零样本学习  
+**领域**: 其他  
 **关键词**: compositional zero-shot learning, CLIP adapter, feature disentanglement, graph neural network, cross-attention
 
 ## 一句话总结
@@ -150,7 +150,7 @@ DCDA[PRG+N] 在 MIT-States 上 AUC 较 CAILA 提升 3.6%，在 UT-Zappos 上提�
 - [\[ACL 2025\] Zero-Shot Conversational Stance Detection: Dataset and Approaches](zero-shot_conversational_stance_detection_dataset_and_approaches.md)
 - [\[ICLR 2026\] OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection](../../ICLR2026/others/owleye_zero-shot_learner_for_cross-domain_graph_data_anomaly_detection.md)
 - [\[ACL 2025\] ALGEN: Few-Shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment](algen_few-shot_inversion_attacks_on_textual_embeddings_via_cross-model_alignment.md)
-- [\[ACL 2025\] DAPE V2: Process Attention Score as Feature Map for Length Extrapolation](dape_v2_process_attention_score_as_feature_map_for_length_extrapolation.md)
+- [\[NeurIPS 2025\] Zebra: Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding](../../NeurIPS2025/others/zebra_towards_zero-shot_cross-subject_generalization_for_universal_brain_visual_.md)
 - [\[ACL 2025\] Synthia: Novel Concept Design with Affordance Composition](synthia_novel_concept_design_with_affordance_composition.md)
 
 <!-- RELATED:END -->

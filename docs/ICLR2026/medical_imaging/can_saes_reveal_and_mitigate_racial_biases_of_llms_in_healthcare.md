@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2511.00177](https://arxiv.org/abs/2511.00177)  
-**代码**: https://github.com/hibaahsan/sae_bias/ (有)  
+**代码**: [https://github.com/hibaahsan/sae_bias/](https://github.com/hibaahsan/sae_bias/)  
 **领域**: 医学图像 / AI安全 / LLM对齐  
 **关键词**: 稀疏自编码器, 种族偏见, 医疗AI, 可解释性, 因果干预
 

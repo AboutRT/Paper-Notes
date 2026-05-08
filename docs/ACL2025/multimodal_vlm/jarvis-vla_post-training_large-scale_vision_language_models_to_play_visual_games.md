@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2503.16365](https://arxiv.org/abs/2503.16365)  
 **作者**: Muyao Li, Zihao Wang, Kaichen He (Peking University), Xiaojian Ma (BIGAI), Yitao Liang  
 **代码**: [开源](https://craftjarvis.github.io/JarvisVLA)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 视觉语言动作模型, 后训练, Minecraft, 模仿学习, 决策, 空间定位  
 
 ## 一句话总结
@@ -153,8 +153,8 @@ JARVIS-VLA在所有四类任务上均达到最优。特别是Craft和Smelt任务
 ## 相关论文
 
 - [\[CVPR 2025\] Post-pre-training for Modality Alignment in Vision-Language Foundation Models](../../CVPR2025/multimodal_vlm/post-pre-training_for_modality_alignment_in_vision-language_foundation_models.md)
+- [\[ACL 2025\] EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models](effivlm_bench_vlm_acceleration.md)
 - [\[CVPR 2026\] World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training](../../CVPR2026/multimodal_vlm/rehearsevla_simulated_posttraining_world_model.md)
-- [\[ACL 2025\] EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models](effivlm_bench_acceleration.md)
 - [\[ACL 2025\] Activating Distributed Visual Region within LLMs for Efficient and Effective Vision-Language Training and Inference](activating_distributed_visual_region_within_llms_for_efficient_and_effective_vis.md)
 - [\[ACL 2025\] Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning](benchmarking_and_improving_large_vision-language_models_for_fundamental_visual_g.md)
 

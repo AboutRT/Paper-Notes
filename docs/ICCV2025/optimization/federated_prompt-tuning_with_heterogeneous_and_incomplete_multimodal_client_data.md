@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2602.07081](https://arxiv.org/abs/2602.07081)  
 **代码**: [github.com/hangpt01/FedPrime](https://github.com/hangpt01/FedPrime)  
-**领域**: 联邦学习 / 多模态优化  
+**领域**: 优化  
 **关键词**: 联邦学习, Prompt-Tuning, 多模态, 缺失模态, 异构数据
 
 ## 一句话总结

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24331](https://arxiv.org/abs/2505.24331)  
-**代码**: https://github.com/ManFanhang/Context-Aware-Sentiment-Forecasting-via-LLM-based-Multi-Perspective-Role-Playing-Agents  
-**领域**: LLM Agent  
+**代码**: [https://github.com/ManFanhang/Context-Aware-Sentiment-Forecasting-via-LLM-based-Multi-Perspective-Role-Playing-Agents](https://github.com/ManFanhang/Context-Aware-Sentiment-Forecasting-via-LLM-based-Multi-Perspective-Role-Playing-Agents)  
+**领域**: 时间序列  
 **关键词**: 情感预测, 角色扮演, 多智能体, 社交媒体, 行为心理学
 
 ## 一句话总结
@@ -140,6 +140,6 @@ tags:
 - [\[ICML 2025\] Event-Aware Sentiment Factors from LLM-Augmented Financial Tweets: A Transparent Framework for Interpretable Quant Trading](../../ICML2025/time_series/event-aware_sentiment_factors_from_llm-augmented_financial_tweets_a_transparent_.md)
 - [\[ICML 2025\] Context is Key: A Benchmark for Forecasting with Essential Textual Information](../../ICML2025/time_series/context_is_key_a_benchmark_for_forecasting_with_essential_textual_information.md)
 - [\[ICLR 2026\] HiVid: LLM-Guided Video Saliency For Content-Aware VOD And Live Streaming](../../ICLR2026/time_series/hivid_llm-guided_video_saliency_for_content-aware_vod_and_live_streaming.md)
-- [\[NeurIPS 2025\] MASFIN: A Multi-Agent System for Decomposed Financial Reasoning and Forecasting](../../NeurIPS2025/time_series/masfin_a_multi-agent_system_for_decomposed_financial_reasoning_and_forecasting.md)
+- [\[CVPR 2025\] Reasoning in Visual Navigation of End-to-end Trained Agents: A Dynamical Systems Approach](../../CVPR2025/time_series/reasoning_in_visual_navigation_of_end-to-end_trained_agents_a_dynamical_systems_.md)
 
 <!-- RELATED:END -->

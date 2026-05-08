@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.20162](https://arxiv.org/abs/2505.20162)  
-**代码**: https://github.com/kotekjedi/capability-based-scaling (有)  
+**代码**: [https://github.com/kotekjedi/capability-based-scaling](https://github.com/kotekjedi/capability-based-scaling)  
 **领域**: 人类理解 / AI安全 / LLM对齐  
 **关键词**: 红队测试, 越狱攻击, 能力缩放, 安全评估, 攻击成功率
 
@@ -123,9 +123,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] UrbanVerse: Scaling Urban Simulation by Watching City-Tour Videos](urbanverse_scaling_urban_simulation_by_watching_city-tour_videos.md)
-- [\[ICLR 2026\] On Entropy Control in LLM-RL Algorithms](on_entropy_control_in_llm-rl_algorithms.md)
+- [\[ICLR 2026\] SocialHarmBench: Revealing LLM Vulnerabilities to Socially Harmful Requests](socialharmbench_revealing_llm_vulnerabilities_to_socially_harmful_requests.md)
 - [\[ICLR 2026\] D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI](d2e_scaling_vision-action_pretraining_on_desktop_data_for_transfer_to_embodied_a.md)
+- [\[ICLR 2026\] On Entropy Control in LLM-RL Algorithms](on_entropy_control_in_llm-rl_algorithms.md)
 - [\[ICLR 2026\] ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment](odesteer_a_unified_ode-based_steering_framework_for_llm_alignment.md)
-- [\[NeurIPS 2025\] SITCOM: Scaling Inference-Time COMpute for VLAs](../../NeurIPS2025/robotics/sitcom_scaling_inference-time_compute_for_vlas.md)
 
 <!-- RELATED:END -->

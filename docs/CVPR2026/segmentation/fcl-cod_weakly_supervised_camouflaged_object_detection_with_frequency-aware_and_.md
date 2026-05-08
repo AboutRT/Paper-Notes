@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.22969](https://arxiv.org/abs/2603.22969)  
 **代码**: 无  
-**领域**: Segmentation  
+**领域**: 图像分割  
 **关键词**: Camouflaged Object Detection, Weakly Supervised, SAM, Frequency-aware LoRA, Contrastive Learning
 
 ## 一句话总结

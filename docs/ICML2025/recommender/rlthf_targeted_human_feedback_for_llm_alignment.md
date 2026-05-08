@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RLTHF: Targeted Human Feedback for LLM Alignment
 description: >-
-  [ICML 2025][RLHF] RLTHF 提出了一种人机混合的 LLM 对齐框架，通过分析奖励模型的奖励分布来识别 LLM 错标的"难样本"，仅对这些样本进行人工标注，以全量人工标注 6-7% 的成本达到甚至超越全人工标注的对齐质量。
+  [ICML 2025][推荐系统] RLTHF 提出了一种人机混合的 LLM 对齐框架，通过分析奖励模型的奖励分布来识别 LLM 错标的"难样本"，仅对这些样本进行人工标注，以全量人工标注 6-7% 的成本达到甚至超越全人工标注的对齐质量。
 tags:
   - ICML 2025
-  - RLHF
+  - 推荐系统
   - LLM对齐
   - 人类反馈
   - 奖励模型
@@ -130,8 +130,8 @@ ROI 对比：RLTHF 相对于 Random 标注的投资回报率在 HH-RLHF 上高 1
 
 - [\[NeurIPS 2025\] Position: Towards Bidirectional Human-AI Alignment](../../NeurIPS2025/recommender/position_towards_bidirectional_human-ai_alignment.md)
 - [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
-- [\[AAAI 2026\] Align³GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation](../../AAAI2026/recommender/align3gr_unified_multi-level_alignment_for_llm-based_generat.md)
 - [\[ICML 2025\] Recommendations and Reporting Checklist for Rigorous & Transparent Human Baselines in Model Evaluations](recommendations_and_reporting_checklist_for_rigorous_transparent_human_baselines.md)
 - [\[ICML 2025\] MATCHA: Toward Safe and Human-Aligned Game Conversational Recommendation via Multi-Agent Decomposition](toward_safe_and_human-aligned_game_conversational_recommendation_via_multi-agent.md)
+- [\[AAAI 2026\] Preference is More Than Comparisons: Rethinking Dueling Bandits with Augmented Human Feedback](../../AAAI2026/recommender/preference_is_more_than_comparisons_rethinking_dueling_bandits_with_augmented_hu.md)
 
 <!-- RELATED:END -->

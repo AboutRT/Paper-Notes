@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.18475](https://arxiv.org/abs/2502.18475)  
-**代码**: https://github.com/ylefay/LSVI (有)  
-**领域**: Optimization / Bayesian Inference  
+**代码**: [https://github.com/ylefay/LSVI](https://github.com/ylefay/LSVI)  
+**领域**: 优化  
 **关键词**: variational inference, natural gradient descent, exponential family, least squares, gradient-free
 
 ## 一句话总结

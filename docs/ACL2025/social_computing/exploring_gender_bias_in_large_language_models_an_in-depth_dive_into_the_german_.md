@@ -4,7 +4,7 @@ title: >-
 description: >-
   [ACL 2025 (GeBNLP Workshop)][性别偏见] 本文针对德语场景构建了五个性别偏见评测数据集，并在八个多语言 LLM 上进行系统评估，揭示了德语特有的性别偏见挑战——包括阳性职业名词的歧义解读和看似中性的名词对性别感知的影响。
 tags:
-  - ACL 2025 (GeBNLP Workshop)
+  - 社会计算
   - 性别偏见
   - 德语
   - 大语言模型
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025 (GeBNLP Workshop)  
 **arXiv**: [2507.16557](https://arxiv.org/abs/2507.16557)  
-**代码**: https://github.com/rwth-i6/Gender-Bias-in-German-LLMs  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/rwth-i6/Gender-Bias-in-German-LLMs](https://github.com/rwth-i6/Gender-Bias-in-German-LLMs)  
+**领域**: 社会计算  
 **关键词**: 性别偏见、德语、大语言模型、偏见评测、多语言
 
 ## 一句话总结

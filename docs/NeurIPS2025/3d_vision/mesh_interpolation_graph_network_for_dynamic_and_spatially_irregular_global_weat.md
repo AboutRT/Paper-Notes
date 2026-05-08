@@ -52,7 +52,7 @@ MIGN 采用 **编码器-处理器-解码器** 架构：
 
    **核心思路**：使用 HEALPix 将球面均匀划分为等面积像素，构建层级细化的均匀网格。编码器通过消息传递从站点节点向最近的网格节点聚合信息：
 
-   $$\mathbf{h}_{v_h}^{(E)} = \text{AGG}^{(E)}(\{\mathbf{m}_{v_s \to v_h}^{(E)} : v_s \in \mathcal{N}(v_h)\})$$
+    $\mathbf{h}_{v_h}^{(E)} = \text{AGG}^{(E)}(\{\mathbf{m}_{v_s \to v_h}^{(E)} : v_s \in \mathcal{N}(v_h)\})$
 
    其中消息由站点节点的隐藏状态经 MLP 生成。网格节点特征初始化为零，通过消息传递实现"插值"。
 
@@ -64,7 +64,7 @@ MIGN 采用 **编码器-处理器-解码器** 架构：
 
    **核心思路**：将位置信息建模为球面函数 $f(\lambda, \phi)$，用实球谐函数基展开：
 
-   $$SH(\lambda, \phi) = \bigoplus_{n \geq 0} \bigoplus_{m=-n}^{n} w_n^m Y_n^m(\lambda, \phi)$$
+    $SH(\lambda, \phi) = \bigoplus_{n \geq 0} \bigoplus_{m=-n}^{n} w_n^m Y_n^m(\lambda, \phi)$
 
    其中 $w_n^m$ 为可学习系数，在所有节点间共享。最终节点表示为 $\mathbf{h} = [x; SH(\lambda, \phi)]$。
 
@@ -134,10 +134,10 @@ MIGN 采用 **编码器-处理器-解码器** 架构：
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] MaNGO: Adaptable Graph Network Simulators via Meta-Learning](mango_-_adaptable_graph_network_simulators_via_meta-learning.md)
 - [\[NeurIPS 2025\] UGM2N: An Unsupervised and Generalizable Mesh Movement Network via M-Uniform Loss](ugm2n_an_unsupervised_and_generalizable_mesh_movement_network_via_m-uniform_loss.md)
 - [\[ICCV 2025\] Global Motion Corresponder for 3D Point-Based Scene Interpolation under Large Motion](../../ICCV2025/3d_vision/global_motion_corresponder_for_3d_point-based_scene_interpolation_under_large_mo.md)
 - [\[CVPR 2026\] Global-Aware Edge Prioritization for Pose Graph Initialization](../../CVPR2026/3d_vision/global-aware_edge_prioritization_for_pose_graph_initialization.md)
 - [\[ICCV 2025\] CA-I2P: Channel-Adaptive Registration Network with Global Optimal Selection](../../ICCV2025/3d_vision/ca-i2p_channel-adaptive_registration_network_with_global_optimal_selection.md)
-- [\[NeurIPS 2025\] Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span](gaze_beyond_the_frame_forecasting_egocentric_3d_visual_span.md)
 
 <!-- RELATED:END -->

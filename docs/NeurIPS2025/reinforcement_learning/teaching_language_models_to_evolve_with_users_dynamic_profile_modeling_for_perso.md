@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment
 description: >-
-  [NeurIPS 2025][个性化对齐] 将个性化对话对齐建模为多轮马尔可夫决策过程，提出 RLPA 框架，让 LLM 通过与模拟用户的在线交互学习动态推断和维护用户画像，并据此生成个性化回复。
+  [NeurIPS 2025][强化学习] 将个性化对话对齐建模为多轮马尔可夫决策过程，提出 RLPA 框架，让 LLM 通过与模拟用户的在线交互学习动态推断和维护用户画像，并据此生成个性化回复。
 tags:
   - NeurIPS 2025
-  - 个性化对齐
+  - 强化学习
   - 用户画像建模
   - 强化学习
   - 多轮对话
@@ -129,8 +129,8 @@ $$R_t^{\text{response}} = N \cdot R \cdot L \cdot G \cdot F$$
 
 - [\[NeurIPS 2025\] Training Language Models to Reason Efficiently](training_language_models_to_reason_efficiently.md)
 - [\[NeurIPS 2025\] Checklists Are Better Than Reward Models For Aligning Language Models](checklists_are_better_than_reward_models_for_aligning_langua.md)
-- [\[NeurIPS 2025\] RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models](repic_reinforced_post-training_for_personalizing_multi-modal_language_models.md)
-- [\[NeurIPS 2025\] Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning](router-r1_teaching_llms_multi-round_routing_and_aggregation_via_reinforcement_le.md)
 - [\[NeurIPS 2025\] The Burden of Interactive Alignment with Inconsistent Preferences](the_burden_of_interactive_alignment_with_inconsistent_preferences.md)
+- [\[NeurIPS 2025\] Behavior Injection: Preparing Language Models for Reinforcement Learning](behavior_injection_preparing_language_models_for_reinforcement_learning.md)
+- [\[NeurIPS 2025\] RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models](repic_reinforced_post-training_for_personalizing_multi-modal_language_models.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20235](https://arxiv.org/abs/2503.20235)  
-**代码**: http://cvlab.postech.ac.kr/research/RotSymDETR  
+**代码**: [http://cvlab.postech.ac.kr/research/RotSymDETR](http://cvlab.postech.ac.kr/research/RotSymDETR)  
 **领域**: 图像分割/对称性检测  
 **关键词**: 旋转对称性检测, 3D几何先验, 顶点重建, DETR, 集合预测
 

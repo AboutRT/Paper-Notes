@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.18450](https://arxiv.org/abs/2412.18450)  
 **代码**: [https://github.com/CognitiveAISystems/3DGraphLLM](https://github.com/CognitiveAISystems/3DGraphLLM)  
-**领域**: 多模态VLM / 3D场景理解 / 场景图  
+**领域**: 3D视觉  
 **关键词**: 3D Scene Graph, LLM, Semantic Relations, Visual Grounding, Learnable Graph Representation  
 
 ## 一句话总结
@@ -122,6 +122,6 @@ $$L(\theta) = -\sum_{i=1}^{\ell} \log P(s_i^{res} | s_{[1,...,i-1]}^{res}, s^{pr
 - [\[ICCV 2025\] Event-Driven Storytelling with Multiple Lifelike Humans in a 3D Scene](event-driven_storytelling_with_multiple_lifelike_humans_in_a_3d_scene.md)
 - [\[ICCV 2025\] Global-Aware Monocular Semantic Scene Completion with State Space Models](global-aware_monocular_semantic_scene_completion_with_state_space_models.md)
 - [\[ICCV 2025\] 3D Gaussian Map with Open-Set Semantic Grouping for Vision-Language Navigation](3d_gaussian_map_with_openset_semantic_grouping_for_visionlan.md)
-- [\[ICCV 2025\] HIS-GPT: Towards 3D Human-In-Scene Multimodal Understanding](his-gpt_towards_3d_human-in-scene_multimodal_understanding.md)
+- [\[ICCV 2025\] Open-Vocabulary Octree-Graph for 3D Scene Understanding](open-vocabulary_octree-graph_for_3d_scene_understanding.md)
 
 <!-- RELATED:END -->

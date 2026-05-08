@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.14028](https://arxiv.org/abs/2505.14028)  
-**代码**: https://wangyephd.github.io/projects/cvpr25_omnistyle.html (项目页)  
+**代码**: [https://wangyephd.github.io/projects/cvpr25_omnistyle.html](https://wangyephd.github.io/projects/cvpr25_omnistyle.html) (项目页)  
 **领域**: 图像生成  
 **关键词**: 风格迁移, 大规模数据集, 质量过滤, Diffusion Transformer, 端到端训练
 

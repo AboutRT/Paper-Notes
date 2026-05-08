@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2510.18433](https://arxiv.org/abs/2510.18433)  
 **代码**: [项目页面](https://maps-research.github.io/imagegem-iccv2025/)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 生成模型个性化, 用户偏好对齐, LoRA权重空间, DiffusionDPO, 推荐系统, 扩散模型
 
 ## 一句话总结

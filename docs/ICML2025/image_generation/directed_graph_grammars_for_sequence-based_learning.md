@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.22949](https://arxiv.org/abs/2505.22949)  
-**代码**: https://github.com/shiningsunnyday/induction  
+**代码**: [https://github.com/shiningsunnyday/induction](https://github.com/shiningsunnyday/induction)  
 **领域**: 图生成 / 图表示学习 / 结构搜索  
 **关键词**: 有向无环图, 图文法, 序列化表示, 最小描述长度, 贝叶斯优化
 

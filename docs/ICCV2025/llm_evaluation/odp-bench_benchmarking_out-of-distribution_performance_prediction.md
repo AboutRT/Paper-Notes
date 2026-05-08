@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2510.27263](https://arxiv.org/abs/2510.27263)  
-**代码**: [https://github.com/h-yu16/Performance_Prediction/](https://github.com/h-yu16/Performance_Prediction/) (有)  
-**领域**: 其他/OOD性能预测  
+**代码**: [https://github.com/h-yu16/Performance_Prediction/](https://github.com/h-yu16/Performance_Prediction/)  
+**领域**: LLM评测  
 **关键词**: OOD性能预测, 分布偏移, 基准评测, 鲁棒性评估, 模型选择  
 
 ## 一句话总结
@@ -136,7 +136,7 @@ ODP-Bench由三部分组成：(1) 涵盖多种分布偏移类型的29个OOD数�
 - [\[ICCV 2025\] DisCoPatch: Taming Adversarially-driven Batch Statistics for Improved Out-of-Distribution Detection](discopatch_taming_adversarially-driven_batch_statistics_for_improved_out-of-dist.md)
 - [\[ECCV 2024\] Gradient-Regularized Out-of-Distribution Detection](../../ECCV2024/llm_evaluation/gradient-regularized_out-of-distribution_detection.md)
 - [\[CVPR 2025\] OODD: Test-time Out-of-Distribution Detection with Dynamic Dictionary](../../CVPR2025/llm_evaluation/oodd_test-time_out-of-distribution_detection_with_dynamic_dictionary.md)
+- [\[NeurIPS 2025\] SPROD: Spurious-Aware Prototype Refinement for Reliable Out-of-Distribution Detection](../../NeurIPS2025/llm_evaluation/spurious-aware_prototype_refinement_for_reliable_out-of-distribution_detection.md)
 - [\[ACL 2025\] CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias in LLMs-as-Judges](../../ACL2025/llm_evaluation/calibraeval_calibrating_prediction_distribution_to_mitigate_selection_bias_in_ll.md)
-- [\[ECCV 2024\] R²-Bench: Benchmarking the Robustness of Referring Perception Models under Perturbations](../../ECCV2024/llm_evaluation/r2-bench_benchmarking_the_robustness_of_referring_perception_models_under_pertur.md)
 
 <!-- RELATED:END -->

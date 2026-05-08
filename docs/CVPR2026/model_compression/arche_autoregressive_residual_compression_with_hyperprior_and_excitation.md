@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.10188](https://arxiv.org/abs/2603.10188)  
-**代码**: [https://github.com/sof-il/ARCHE](https://github.com/sof-il/ARCHE) (有)  
+**代码**: [https://github.com/sof-il/ARCHE](https://github.com/sof-il/ARCHE)  
 **领域**: 模型压缩  
 **关键词**: 学习型图像压缩, 自回归先验, 超先验, Squeeze-and-Excitation, 潜在残差预测
 
@@ -140,8 +140,8 @@ ARCHE 采用变分自编码器（VAE）结构：分析变换 $g_a$ 将图像 $x$
 
 - [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
 - [\[CVPR 2026\] Markovian Scale Prediction: A New Era of Visual Autoregressive Generation](markovian_scale_prediction_a_new_era_of_visual_autoregressive_generation.md)
-- [\[CVPR 2026\] Generative Video Compression with One-Dimensional Latent Representation](generative_video_compression_with_one-dimensional_latent_representation.md)
-- [\[CVPR 2026\] On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors](on_the_robustness_of_diffusion-based_image_compression_to_bit-flip_errors.md)
 - [\[CVPR 2026\] UniComp: Rethinking Video Compression Through Informational Uniqueness](unicomp_rethinking_video_compression_through_informational_uniqueness.md)
+- [\[CVPR 2026\] On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors](on_the_robustness_of_diffusion-based_image_compression_to_bit-flip_errors.md)
+- [\[CVPR 2026\] Generative Video Compression with One-Dimensional Latent Representation](generative_video_compression_with_one-dimensional_latent_representation.md)
 
 <!-- RELATED:END -->

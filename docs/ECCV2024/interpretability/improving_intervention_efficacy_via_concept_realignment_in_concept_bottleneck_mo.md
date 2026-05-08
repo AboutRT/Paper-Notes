@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2405.01531](https://arxiv.org/abs/2405.01531)  
 **代码**: [GitHub](https://github.com/ExplainableML/concept_realignment)  
-**领域**: LLM Alignment / Interpretable ML  
+**领域**: 可解释性  
 **关键词**: concept bottleneck model, Human Intervention, Concept Realignment, interpretability, Human-AI Collaboration
 
 ## 一句话总结
@@ -163,9 +163,9 @@ CIRM 无缝插入在干预步骤与分类头之间，不需要修改原始 CBM/C
 ## 相关论文
 
 - [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](../../CVPR2025/interpretability/towards_faithful_multimodal_concept_bottleneck_models.md)
+- [\[AAAI 2026\] Partially Shared Concept Bottleneck Models](../../AAAI2026/interpretability/partially_shared_concept_bottleneck_models.md)
 - [\[ICLR 2026\] There Was Never a Bottleneck in Concept Bottleneck Models](../../ICLR2026/interpretability/there_was_never_a_bottleneck_in_concept_bottleneck_models.md)
+- [\[CVPR 2026\] Rethinking Concept Bottleneck Models: From Pitfalls to Solutions](../../CVPR2026/interpretability/rethinking_concept_bottleneck_models_from_pitfalls_to_solutions.md)
 - [\[AAAI 2026\] Flexible Concept Bottleneck Model](../../AAAI2026/interpretability/flexible_concept_bottleneck_model.md)
-- [\[NeurIPS 2025\] An Analysis of Concept Bottleneck Models: Measuring, Understanding, and Mitigating the Impact of Noisy Annotations](../../NeurIPS2025/interpretability/an_analysis_of_concept_bottleneck_models_measuring_understanding_and_mitigating_.md)
-- [\[AAAI 2026\] Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations](../../AAAI2026/interpretability/concepts_from_representations_post-hoc_concept_bottleneck_models_via_sparse_deco.md)
 
 <!-- RELATED:END -->

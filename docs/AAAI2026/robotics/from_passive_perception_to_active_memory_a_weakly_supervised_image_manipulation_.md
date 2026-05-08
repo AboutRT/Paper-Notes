@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.20359](https://arxiv.org/abs/2511.20359)  
-**代码**: https://github.com/vpsg-research/BoxPromtIML (有)  
-**领域**: Robotics / Image Forensics  
+**代码**: [https://github.com/vpsg-research/BoxPromtIML](https://github.com/vpsg-research/BoxPromtIML)  
+**领域**: 机器人  
 **关键词**: 图像篡改定位, 弱监督, 知识蒸馏, 记忆引导, SAM
 
 ## 一句话总结
@@ -158,7 +158,7 @@ $$\mathcal{L}_{loss} = BCE(A_{refined}, \hat{M}_{teacher})$$
 - [\[AAAI 2026\] TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception](touchformer_a_robust_transformer-based_framework_for_multimodal_material_percept.md)
 - [\[ICCV 2025\] Selective Contrastive Learning for Weakly Supervised Affordance Grounding](../../ICCV2025/robotics/selective_contrastive_learning_for_weakly_supervised_affordance_grounding.md)
 - [\[CVPR 2026\] SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](../../CVPR2026/robotics/sapave_active_perception_manipulation_vla_roboti.md)
+- [\[AAAI 2026\] H-GAR: A Hierarchical Interaction Framework via Goal-Driven Observation-Action Refinement for Robotic Manipulation](h-gar_a_hierarchical_interaction_framework_via_goal-driven_observation-action_re.md)
 - [\[ICCV 2025\] Weakly-Supervised Learning of Dense Functional Correspondences](../../ICCV2025/robotics/weakly-supervised_learning_of_dense_functional_correspondences.md)
-- [\[AAAI 2026\] Affordance-Guided Coarse-to-Fine Exploration for Base Placement in Open-Vocabulary Mobile Manipulation](affordance-guided_coarse-to-fine_exploration_for_base_placem.md)
 
 <!-- RELATED:END -->

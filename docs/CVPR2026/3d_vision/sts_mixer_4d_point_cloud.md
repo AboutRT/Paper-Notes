@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.11637](https://arxiv.org/abs/2604.11637)  
-**代码**: https://github.com/Vegetebird/STS-Mixer  
+**代码**: [https://github.com/Vegetebird/STS-Mixer](https://github.com/Vegetebird/STS-Mixer)  
 **领域**: 3D视觉  
 **关键词**: 4D点云视频, 图傅里叶变换, 频谱表示, 动作识别, 语义分割
 

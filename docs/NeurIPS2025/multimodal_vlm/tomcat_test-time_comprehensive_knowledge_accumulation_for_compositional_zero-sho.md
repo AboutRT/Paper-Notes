@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20162](https://arxiv.org/abs/2510.20162)  
-**代码**: https://github.com/xud-yan/TOMCAT  
+**代码**: [https://github.com/xud-yan/TOMCAT](https://github.com/xud-yan/TOMCAT)  
 **领域**: 多模态VLM  
 **关键词**: 组合零样本学习, 测试时适应, 知识积累, 多模态原型, CLIP
 

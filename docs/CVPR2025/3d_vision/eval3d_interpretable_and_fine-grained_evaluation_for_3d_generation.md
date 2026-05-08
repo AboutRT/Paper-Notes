@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.18509](https://arxiv.org/abs/2504.18509)  
-**代码**: https://eval3d.github.io/ (有)  
+**代码**: [https://eval3d.github.io/](https://eval3d.github.io/)  
 **领域**: 3D视觉  
 **关键词**: 3D生成评估, 可解释性指标, 语义一致性, 几何一致性, 基础模型探针
 

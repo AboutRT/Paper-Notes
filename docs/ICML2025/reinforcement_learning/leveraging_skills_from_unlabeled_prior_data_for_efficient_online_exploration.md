@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Leveraging Skills from Unlabeled Prior Data for Efficient Online Exploration
 description: >-
-  [ICML2025][无监督技能预训练] 提出 SUPE 方法，将无标签离线轨迹数据"用两次"——既用于 VAE 技能预训练，又通过 UCB 伪标签转化为高层 off-policy 数据加速在线探索，在 42 个稀疏奖励任务上全面超越已有方法。
+  [ICML2025][强化学习] 提出 SUPE 方法，将无标签离线轨迹数据"用两次"——既用于 VAE 技能预训练，又通过 UCB 伪标签转化为高层 off-policy 数据加速在线探索，在 42 个稀疏奖励任务上全面超越已有方法。
 tags:
   - ICML2025
-  - 无监督技能预训练
+  - 强化学习
   - 层次强化学习
   - 离线数据利用
   - 探索策略
@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2410.18076](https://arxiv.org/abs/2410.18076)  
 **作者**: Max Wilcoxson, Qiyang Li, Kevin Frans, Sergey Levine (UC Berkeley)
 **代码**: [rail-berkeley/supe](https://github.com/rail-berkeley/supe)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 无监督技能预训练, 层次强化学习, 离线数据利用, 探索策略, 伪标签
 
 ## 一句话总结
@@ -166,9 +166,9 @@ $$r_{\mathrm{UCB}}(s, z) = r_\zeta(s, z) + \alpha \|g_\phi(s, z) - \bar{g}(s, z)
 ## 相关论文
 
 - [\[ICML 2025\] Online Pre-Training for Offline-to-Online Reinforcement Learning](online_pre-training_for_offline-to-online_reinforcement_learning.md)
+- [\[ICML 2025\] EVOLvE: Evaluating and Optimizing LLMs For In-Context Exploration](evolve_evaluating_and_optimizing_llms_for_in-context_exploration.md)
 - [\[ICML 2025\] KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies](kea_keeping_exploration_alive_by_proactively_coordinating_exploration_strategies.md)
 - [\[CVPR 2025\] SkillMimic: Learning Basketball Interaction Skills from Demonstrations](../../CVPR2025/reinforcement_learning/skillmimic_learning_basketball_interaction_skills_from_demonstrations.md)
-- [\[ICLR 2026\] Sample-efficient and Scalable Exploration in Continuous-Time RL](../../ICLR2026/reinforcement_learning/sample-efficient_and_scalable_exploration_in_continuous-time_rl.md)
-- [\[ICLR 2026\] One Model for All Tasks: Leveraging Efficient World Models in Multi-Task Planning](../../ICLR2026/reinforcement_learning/one_model_for_all_tasks_leveraging_efficient_world_models_in_multi-task_planning.md)
+- [\[ICLR 2026\] REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning](../../ICLR2026/reinforcement_learning/rea-rl_reflection-aware_online_reinforcement_learning_for_efficient_reasoning.md)
 
 <!-- RELATED:END -->

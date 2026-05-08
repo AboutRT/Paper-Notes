@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - Actor-Critic
-  - Bellman operator
+  - 强化学习
   - overestimation bias
   - annealing
   - expectile loss
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.05968](https://arxiv.org/abs/2506.05968)  
 **代码**: [GitHub](https://github.com/motokiomura/annealed-q-learning)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: Actor-Critic, Bellman operator, overestimation bias, annealing, expectile loss
 
 ## 一句话总结
@@ -130,8 +130,8 @@ AQ-L 的 Critic 损失统一为：$L(\theta) = \mathbb{E}[L_2^{\tau(t)}(r + \gam
 
 - [\[ICML 2025\] Gradual Transition from Bellman Optimality Operator to Bellman Operator in Online Reinforcement Learning](gradual_transition_from_bellman_optimality_operator_to_bellman_operator_in_onlin.md)
 - [\[ICML 2025\] Actor-Critics Can Achieve Optimal Sample Efficiency](actor-critics_can_achieve_optimal_sample_efficiency.md)
-- [\[ICML 2025\] Learning to Trust Bellman Updates: Selective State-Adaptive Regularization for Offline RL](learning_to_trust_bellman_updates_selective_state-adaptive_regularization_for_of.md)
 - [\[ICML 2025\] Action-Dependent Optimality-Preserving Reward Shaping (ADOPS)](action-dependent_optimality-preserving_reward_shaping.md)
-- [\[ICML 2025\] Embedding Safety into RL: A New Take on Trust Region Methods](embedding_safety_into_rl_a_new_take_on_trust_region_methods.md)
+- [\[ICML 2025\] A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions: Representation, Training, Generalization](a_theoretical_study_of_hyper_self-attention_through_the_lens_of_interactions_rep.md)
+- [\[ICML 2025\] BRITE: Bootstrapping Reinforced Thinking Process to Enhance Language Model Reasoning](brite_bootstrapping_reinforced_thinking_process_to_enhance_language_model_reason.md)
 
 <!-- RELATED:END -->

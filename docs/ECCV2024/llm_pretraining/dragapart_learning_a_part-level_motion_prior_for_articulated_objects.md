@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.15382](https://arxiv.org/abs/2403.15382)  
 **代码**: 有 (dragapart.github.io)  
-**领域**: 其他 / 交互式图像生成  
+**领域**: LLM预训练  
 **关键词**: 部件级运动先验, 拖拽控制, 铰接物体, 扩散模型, 域随机化
 
 ## 一句话总结
@@ -186,9 +186,9 @@ DragAPart 在所有指标上大幅领先：PSNR +3.75 (vs DragonDiffusion)，LPI
 ## 相关论文
 
 - [\[ECCV 2024\] Plan, Posture and Go: Towards Open-Vocabulary Text-to-Motion Generation](plan_posture_and_go_towards_open-vocabulary_text-to-motion_generation.md)
-- [\[ICML 2025\] LLM Data Selection and Utilization via Dynamic Bi-level Optimization](../../ICML2025/llm_pretraining/llm_data_selection_and_utilization_via_dynamic_bi-level_optimization.md)
+- [\[NeurIPS 2025\] Deep Compositional Phase Diffusion for Long Motion Sequence Generation](../../NeurIPS2025/llm_pretraining/deep_compositional_phase_diffusion_for_long_motion_sequence_generation.md)
 - [\[ICML 2025\] Position: The Future of Bayesian Prediction Is Prior-Fitted](../../ICML2025/llm_pretraining/position_the_future_of_bayesian_prediction_is_prior-fitted.md)
-- [\[ECCV 2024\] Prompting Language-Informed Distribution for Compositional Zero-Shot Learning](prompting_language-informed_distribution_for_compositional_zero-shot_learning.md)
-- [\[ECCV 2024\] Learning to Obstruct Few-Shot Image Classification over Restricted Classes](learning_to_obstruct_few-shot_image_classification_over_restricted_classes.md)
+- [\[ICML 2025\] LLM Data Selection and Utilization via Dynamic Bi-level Optimization](../../ICML2025/llm_pretraining/llm_data_selection_and_utilization_via_dynamic_bi-level_optimization.md)
+- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](../../ICLR2026/llm_pretraining/token-level_data_selection_for_safe_llm_fine-tuning.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - OOD detection
-  - 图神经网络
+  - 其他
   - feature resonance
   - unsupervised
   - node-level
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.16076](https://arxiv.org/abs/2502.16076)  
 **代码**: [ShenzhiYang2000/RSL](https://github.com/ShenzhiYang2000/RSL)  
-**领域**: ai_safety / graph OOD detection  
+**领域**: 其他  
 **关键词**: OOD detection, graph neural networks, feature resonance, unsupervised, node-level, label-agnostic
 
 ## 一句话总结
@@ -173,8 +173,8 @@ $$\hat{\mathbf{x}}_j^{(t+1)} = \lambda\big(\hat{\mathbf{x}}_j^{(t)} - \frac{\alp
 
 - [\[NeurIPS 2025\] Redundancy-Aware Test-Time Graph Out-of-Distribution Detection](redundancy-aware_test-time_graph_out-of-distribution_detection.md)
 - [\[NeurIPS 2025\] Double Descent Meets Out-of-Distribution Detection: Theoretical Insights and Empirical Analysis](double_descent_meets_out-of-distribution_detection_theoretical_insights_and_empi.md)
+- [\[NeurIPS 2025\] Out-of-distribution Generalisation is Hard: Evidence from ARC-like Tasks](out-of-distribution_generalisation_is_hard_evidence_from_arc-like_tasks.md)
 - [\[CVPR 2025\] H2ST: Hierarchical Two-Sample Tests for Continual Out-of-Distribution Detection](../../CVPR2025/others/h2st_hierarchical_two-sample_tests_for_continual_out-of-distribution_detection.md)
 - [\[CVPR 2025\] Joint Out-of-Distribution Filtering and Data Discovery Active Learning](../../CVPR2025/others/joint_out-of-distribution_filtering_and_data_discovery_active_learning.md)
-- [\[NeurIPS 2025\] EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination](an_evidence-based_post-hoc_adjustment_framework_for_anomaly_detection_under_data.md)
 
 <!-- RELATED:END -->

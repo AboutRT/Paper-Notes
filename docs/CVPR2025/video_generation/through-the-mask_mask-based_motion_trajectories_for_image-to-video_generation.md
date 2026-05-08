@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 图像到视频生成
   - 运动轨迹
-  - 语义分割掩码
+  - 视频生成
   - 组合式生成
   - 多物体场景
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.03059](https://arxiv.org/abs/2501.03059)  
-**代码**: https://guyyariv.github.io/TTM/  
-**领域**: 视频理解 / 扩散模型  
+**代码**: [https://guyyariv.github.io/TTM/](https://guyyariv.github.io/TTM/)  
+**领域**: 视频生成  
 **关键词**: 图像到视频生成, 运动轨迹, 语义分割掩码, 组合式生成, 多物体场景
 
 ## 一句话总结
@@ -121,10 +121,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Motion Prompting: Controlling Video Generation with Motion Trajectories](motion_prompting_controlling_video_generation_with_motion_trajectories.md)
 - [\[AAAI 2026\] Mask2IV: Interaction-Centric Video Generation via Mask Trajectories](../../AAAI2026/video_generation/mask2iv_interaction-centric_video_generation_via_mask_trajectories.md)
-- [\[CVPR 2025\] MotionPro: A Precise Motion Controller for Image-to-Video Generation](motionpro_a_precise_motion_controller_for_image-to-video_generation.md)
 - [\[CVPR 2025\] MotionStone: Decoupled Motion Intensity Modulation with Diffusion Transformer for Image-to-Video Generation](motionstone_decoupled_motion_intensity_modulation_with_diffusion_transformer_for.md)
-- [\[CVPR 2025\] Generative Inbetweening through Frame-wise Conditions-Driven Video Generation](generative_inbetweening_through_frame-wise_conditions-driven_video_generation.md)
+- [\[CVPR 2025\] Motion Prompting: Controlling Video Generation with Motion Trajectories](motion_prompting_controlling_video_generation_with_motion_trajectories.md)
+- [\[CVPR 2025\] MotionPro: A Precise Motion Controller for Image-to-Video Generation](motionpro_a_precise_motion_controller_for_image-to-video_generation.md)
+- [\[CVPR 2025\] Pathways on the Image Manifold: Image Editing via Video Generation](pathways_on_the_image_manifold_image_editing_via_video_generation.md)
 
 <!-- RELATED:END -->

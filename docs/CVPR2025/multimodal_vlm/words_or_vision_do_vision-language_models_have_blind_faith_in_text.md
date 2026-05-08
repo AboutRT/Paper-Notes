@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.02199](https://arxiv.org/abs/2503.02199)  
-**代码**: https://github.com/d-ailin/blind-faith-in-text (有)  
+**代码**: [https://github.com/d-ailin/blind-faith-in-text](https://github.com/d-ailin/blind-faith-in-text)  
 **领域**: 多模态VLM  
 **关键词**: 模态偏好, 文本偏差, VLM鲁棒性, 多模态不一致, 安全风险
 

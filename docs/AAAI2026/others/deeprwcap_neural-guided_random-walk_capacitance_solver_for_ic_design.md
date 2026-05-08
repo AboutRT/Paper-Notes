@@ -56,9 +56,9 @@ DeepRWCap 基于浮动随机游走（FRW）框架。FRW 方法使用立方体在
 
    直接预测 6×N×N 的泊松核会引入大量跨面冗余。DeepRWCap 将预测分为两阶段：
 
-   - **面选择器（Face Selector）$\mathcal{F}_\theta$**：3D 卷积网络，预测六个面的分类分布 $\mathbf{F} \in \mathbb{R}^6$，其中 $\mathbf{F}_i = \sum_{j,k} (\mathbf{p}_\alpha)_{i,j,k}$。使用四层 stride-2 3D卷积逐步下采样，输出通过 softmax 归一化。训练损失为 KL 散度。
+    - **面选择器（Face Selector）$\mathcal{F}_\theta$**：3D 卷积网络，预测六个面的分类分布 $\mathbf{F} \in \mathbb{R}^6$，其中 $\mathbf{F}_i = \sum_{j,k} (\mathbf{p}_\alpha)_{i,j,k}$。使用四层 stride-2 3D卷积逐步下采样，输出通过 softmax 归一化。训练损失为 KL 散度。
 
-   - **面预测器（Face Predictor）$\mathcal{G}_\theta$**：2D 深度可分离卷积（depthwise separable conv）网络，预测选定面上的条件概率分布。深度卷积捕捉每层的空间模式，逐点卷积建模层间交互。使用 ReLU 保证非负性，L1 归一化确保概率分布有效。
+    - **面预测器（Face Predictor）$\mathcal{G}_\theta$**：2D 深度可分离卷积（depthwise separable conv）网络，预测选定面上的条件概率分布。深度卷积捕捉每层的空间模式，逐点卷积建模层间交互。使用 ReLU 保证非负性，L1 归一化确保概率分布有效。
 
    设计动机：泊松核对距表面距离的依赖快速衰减，因此将3D问题分解为面选择+2D面内预测是合理的。
 
@@ -67,11 +67,11 @@ DeepRWCap 基于浮动随机游走（FRW）框架。FRW 方法使用立方体在
    随机游走的**第一步**需要特殊的转移量：权重值 $w_\alpha$、符号分布 $s_\alpha$ 和梯度核 $g_\alpha$。作者只学习 z 分量的梯度核，**通过立方体对称性导出其他分量**（旋转和反射输入即可）。
 
    值得注意的是，梯度核的对称性只是立方体对称性的子群，需要**至少两个专用面预测器**：
-   - 切向面（tangential）：对称性好，预测较容易
-   - 法向面（normal）：呈双峰结构（一端正、一端负），预测困难度高一个量级，需要更深的网络
+    - 切向面（tangential）：对称性好，预测较容易
+    - 法向面（normal）：呈双峰结构（一端正、一端负），预测困难度高一个量级，需要更深的网络
 
    面选择器扩展输出维度从6到7，同时预测面分布和权重值，使用组合损失：
-   $$\mathcal{L}_{grad-face-select} = D_{KL}[\mathbf{F}^\nabla \| \text{softmax}(\mathcal{F}_\theta(\mathcal{X})_{1:6})] + \lambda |w_\alpha - \mathcal{F}_\theta(\mathcal{X})_7|^2$$
+    $\mathcal{L}_{grad-face-select} = D_{KL}[\mathbf{F}^\nabla \| \text{softmax}(\mathcal{F}_\theta(\mathcal{X})_{1:6})] + \lambda |w_\alpha - \mathcal{F}_\theta(\mathcal{X})_7|^2$
 
 3. **高通量GPU推理引擎**：
 
@@ -156,10 +156,10 @@ DeepRWCap 处于 EDA（电子设计自动化）与机器学习交叉领域。相
 
 ## 相关论文
 
+- [\[AAAI 2026\] Scalable Vision-Guided Crop Yield Estimation](scalable_vision-guided_crop_yield_estimation.md)
 - [\[ICLR 2026\] An Information-Theoretic Framework For Optimizing Experimental Design To Distinguish Probabilistic Neural Codes](../../ICLR2026/others/an_information-theoretic_framework_for_optimizing_experimental_design_to_disting.md)
 - [\[AAAI 2026\] A Graph-Theoretical Perspective on Law Design for Multiagent Systems](a_graph-theoretical_perspective_on_law_design_for_multiagent.md)
 - [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
 - [\[AAAI 2026\] Verification-Guided Context Optimization for Tool Calling via Hierarchical LLMs-as-editors](verification-guided_context_optimization_for_tool_calling_via_hierarchical_llms-.md)
-- [\[AAAI 2026\] Guided Perturbation Sensitivity (GPS): Detecting Adversarial Text via Embedding Stability and Word Importance](guided_perturbation_sensitivity_gps_detecting_adversarial_text_via_embedding_sta.md)
 
 <!-- RELATED:END -->

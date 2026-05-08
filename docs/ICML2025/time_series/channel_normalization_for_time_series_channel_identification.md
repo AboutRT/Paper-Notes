@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.00432](https://arxiv.org/abs/2506.00432)  
-**代码**: https://github.com/seunghan96/CN  
+**代码**: [https://github.com/seunghan96/CN](https://github.com/seunghan96/CN)  
 **领域**: 时间序列  
 **关键词**: 通道归一化, 通道可辨识性, 多变量时间序列预测, 仿射变换, 基础模型
 

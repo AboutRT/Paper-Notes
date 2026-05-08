@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.25626](https://arxiv.org/abs/2510.25626)  
 **代码**: [GitHub](https://github.com/rycolab/reasoning-efficiency)  
-**领域**: LLM推理 / 形式化评估  
+**领域**: LLM/NLP  
 **关键词**: reasoning efficiency, logic programming, irrelevant information, proof length, deductive reasoning
 
 ## 一句话总结
@@ -112,8 +112,8 @@ tags:
 
 - [\[ACL 2025\] Planning-Driven Programming: A Large Language Model Programming Workflow](../../ACL2025/llm_nlp/planning-driven_programming_a_large_language_model_programming_workflow.md)
 - [\[NeurIPS 2025\] EnCompass: Enhancing Agent Programming with Search Over Program Execution Paths](encompass_enhancing_agent_programming_with_search_over_program_execution_paths.md)
+- [\[ACL 2025\] Semantic Exploration with Adaptive Gating for Efficient Problem Solving with Language Models](../../ACL2025/llm_nlp/semantic_exploration_adaptive_gating.md)
 - [\[ACL 2025\] Perspective Transition of Large Language Models for Solving Subjective Tasks](../../ACL2025/llm_nlp/perspective_transition_of_large_language_models_for_solving_subjective_tasks.md)
 - [\[ACL 2025\] Understanding the Repeat Curse in Large Language Models from a Feature Perspective](../../ACL2025/llm_nlp/understanding_the_repeat_curse_in_large_language_models_from_a_feature_perspecti.md)
-- [\[ACL 2025\] Evaluating Implicit Bias in Large Language Models by Attacking from a Psychometric Perspective](../../ACL2025/llm_nlp/evaluating_implicit_bias_in_large_language_models_by_attacking_from_a_psychometr.md)
 
 <!-- RELATED:END -->

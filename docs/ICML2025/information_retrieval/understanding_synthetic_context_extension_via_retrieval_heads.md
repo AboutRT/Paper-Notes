@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Understanding Synthetic Context Extension via Retrieval Heads
 description: >-
-  [ICML 2025][长上下文扩展] 本文通过系统实验揭示了合成上下文扩展（synthetic context extension）为何有效的机制：合成数据训练出的"检索头"（retrieval heads）与真实数据训练出的检索头高度重叠，检索头的召回率可以预测下游长上下文任务的性能，并通过注意力剔除（attention knockout）和激活修补（activation patching）从机制层面证明了检索头的必要性。
+  [ICML 2025][信息检索] 本文通过系统实验揭示了合成上下文扩展（synthetic context extension）为何有效的机制：合成数据训练出的"检索头"（retrieval heads）与真实数据训练出的检索头高度重叠，检索头的召回率可以预测下游长上下文任务的性能，并通过注意力剔除（attention knockout）和激活修补（activation patching）从机制层面证明了检索头的必要性。
 tags:
   - ICML 2025
-  - 长上下文扩展
+  - 信息检索
   - 合成数据
   - 检索头
   - 注意力机制
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2410.22316](https://arxiv.org/abs/2410.22316)  
-**领域**: LLM效率  
+**领域**: 信息检索  
 **关键词**: 长上下文扩展, 合成数据, 检索头, 注意力机制, 机制可解释性, 激活修补
 
 ## 一句话总结
@@ -141,10 +141,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation](../../NeurIPS2025/information_retrieval/the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md)
 - [\[ACL 2025\] On Synthetic Data Strategies for Domain-Specific Generative Retrieval](../../ACL2025/information_retrieval/on_synthetic_data_strategies_for_domain-specific_generative_retrieval.md)
 - [\[ICML 2025\] RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding](rapid_long-context_inference_with_retrieval-augmented_speculative_decoding.md)
-- [\[ACL 2025\] The Distracting Effect: Understanding Irrelevant Passages in RAG](../../ACL2025/information_retrieval/the_distracting_effect_understanding_irrelevant_passages_in_rag.md)
-- [\[ACL 2025\] SEAL: Scaling to Emphasize Attention for Long-Context Retrieval](../../ACL2025/information_retrieval/seal_scaling_to_emphasize_attention_for_long-context_retrieval.md)
+- [\[CVPR 2025\] DocoPilot: Improving Multimodal Models for Document-Level Understanding](../../CVPR2025/information_retrieval/docopilot_improving_multimodal_models_for_document-level_understanding.md)
+- [\[ACL 2025\] Hierarchical Document Refinement for Long-context Retrieval-augmented Generation](../../ACL2025/information_retrieval/hierarchical_document_refinement_for_long-context_retrieval-augmented_generation.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
 
 <!-- RELATED:END -->

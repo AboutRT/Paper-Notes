@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 多模态
   - 测试时适应
-  - 视觉-语言模型
+  - 多模态VLM
   - CLIP
   - 缓存机制
   - 原型学习
@@ -50,27 +50,27 @@ MCP 由三个互补的缓存模块组成：entropy cache 初始化原型、align
 
 2. **Align Cache（对齐缓存）**：
    整合视觉和文本信息构建更紧致的类内分布。首先构建类别原型中心，融合文本原型 $\bar{t}_c$ 和视觉原型 $\bar{v}_c$：
-   $$\mu_c = w \cdot \bar{v}_c + (1-w) \cdot \bar{t}_c$$
+    $\mu_c = w \cdot \bar{v}_c + (1-w) \cdot \bar{t}_c$
    其中 $w = 0.8$ 平衡两种模态的贡献。对齐缓存的准入条件更严格：不仅要求低熵（$H(x) < H_{\max}^{\hat{y}}$），还要求样本到原型中心的距离小于当前缓存中最远样本的距离（$d(f_{\text{test}}, \mu_{\hat{y}}) < d(f_{\max}, \mu_{\hat{y}})$）。这确保缓存始终保留最靠近原型中心的可靠样本。
 
 3. **Negative Cache（负缓存）**：
    利用高熵样本的负伪标签来校准预测。引入**反射机制（reflecting mechanism）**——通过已有缓存中可靠样本的特征重新评估高熵样本的伪标签，确保只有校准后仍保持中等熵的样本才入库：
-   - $H_{\text{low}} \le H'(x) \le H_{\text{high}}$：存入负缓存
-   - $H'(x) < H_{\text{low}}$：视为可靠样本，可存入熵缓存
-   - $H'(x) > H_{\text{high}}$：丢弃
+    - $H_{\text{low}} \le H'(x) \le H_{\text{high}}$：存入负缓存
+    - $H'(x) < H_{\text{low}}$：视为可靠样本，可存入熵缓存
+    - $H'(x) > H_{\text{high}}$：丢弃
 
 4. **推理机制**：
    最终预测 logits 由三个互补信息源加权组合：
-   $$p(f_{\text{test}}) = \alpha_1 \cdot f_{\text{test}} \mathcal{T}^\top + \alpha_2 \cdot P(f_{\text{test}}, \mathcal{V}, Q_n) + \alpha_3 \cdot f_{\text{test}} f_r^\top$$
+    $p(f_{\text{test}}) = \alpha_1 \cdot f_{\text{test}} \mathcal{T}^\top + \alpha_2 \cdot P(f_{\text{test}}, \mathcal{V}, Q_n) + \alpha_3 \cdot f_{\text{test}} f_r^\top$
    其中 $\mathcal{T}$ 为文本原型匹配，$P(\cdot)$ 为视觉原型与负缓存的对比信息，$f_r$ 为基于注意力加权的自适应缓存特征。
 
 5. **MCP++ 残差学习**：
    引入可学习残差参数精调视觉和文本原型：
-   $$\bar{t}_c' = \bar{t}_c + R_t^c, \quad \bar{v}_c' = \bar{v}_c + R_v^c$$
+    $\bar{t}_c' = \bar{t}_c + R_t^c, \quad \bar{v}_c' = \bar{v}_c + R_v^c$
    联合优化损失函数包含三项：
-   - **熵最小化损失** $\mathcal{L}_{\text{entro}}$：鼓励增强视图之间的预测一致性
-   - **视觉-文本对齐损失** $\mathcal{L}_{\text{align}}$：基于 InfoNCE 对齐视觉和文本原型
-   - **正负对比损失** $\mathcal{L}_{\text{contrast}}$：增大原型中心与负缓存样本的距离
+    - **熵最小化损失** $\mathcal{L}_{\text{entro}}$：鼓励增强视图之间的预测一致性
+    - **视觉-文本对齐损失** $\mathcal{L}_{\text{align}}$：基于 InfoNCE 对齐视觉和文本原型
+    - **正负对比损失** $\mathcal{L}_{\text{contrast}}$：增大原型中心与负缓存样本的距离
 
 ### 损失函数 / 训练策略
 
@@ -143,10 +143,10 @@ $$\mathcal{L} = \mathcal{L}_{\text{entro}} + \lambda \cdot \mathcal{L}_{\text{al
 
 ## 相关论文
 
-- [\[ICCV 2025\] Dynamic Multimodal Prototype Learning in Vision-Language Models](dynamic_multimodal_prototype_learning_in_vision-language_models.md)
 - [\[ICCV 2025\] LATTE: Collaborative Test-Time Adaptation of Vision-Language Models in Federated Learning](latte_collaborative_test-time_adaptation_of_vision-language_models_in_federated_.md)
-- [\[NeurIPS 2025\] Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models](../../NeurIPS2025/multimodal_vlm/test-time_spectrum-aware_latent_steering_for_zero-shot_generalization_in_vision-.md)
-- [\[NeurIPS 2025\] TOMCAT: Test-time Comprehensive Knowledge Accumulation for Compositional Zero-Shot Learning](../../NeurIPS2025/multimodal_vlm/tomcat_test-time_comprehensive_knowledge_accumulation_for_compositional_zero-sho.md)
+- [\[ICCV 2025\] Dynamic Multimodal Prototype Learning in Vision-Language Models](dynamic_multimodal_prototype_learning_in_vision-language_models.md)
 - [\[CVPR 2025\] Realistic Test-Time Adaptation of Vision-Language Models](../../CVPR2025/multimodal_vlm/realistic_test-time_adaptation_of_vision-language_models.md)
+- [\[ICCV 2025\] Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](causal_disentanglement_and_cross-modal_alignment_for_enhanced_few-shot_learning.md)
+- [\[NeurIPS 2025\] Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models](../../NeurIPS2025/multimodal_vlm/test-time_spectrum-aware_latent_steering_for_zero-shot_generalization_in_vision-.md)
 
 <!-- RELATED:END -->

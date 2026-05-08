@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.24078](https://arxiv.org/abs/2603.24078)  
-**代码**: https://github.com/ArtmeScienceLab/PosterIQ-Benchmark  
+**代码**: [https://github.com/ArtmeScienceLab/PosterIQ-Benchmark](https://github.com/ArtmeScienceLab/PosterIQ-Benchmark)  
 **领域**: 多模态VLM / 图像生成  
 **关键词**: 海报设计, 多模态基准, 视觉理解, 图像生成, 排版设计
 

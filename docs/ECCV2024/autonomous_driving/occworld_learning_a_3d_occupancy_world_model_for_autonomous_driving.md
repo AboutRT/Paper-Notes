@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2311.16038](https://arxiv.org/abs/2311.16038)  
-**代码**: https://github.com/wzzheng/OccWorld  
+**代码**: [https://github.com/wzzheng/OccWorld](https://github.com/wzzheng/OccWorld)  
 **领域**: 自动驾驶  
 **关键词**: 3D Occupancy, 世界模型, 自动驾驶, 4D预测, 轨迹规划
 
@@ -137,8 +137,8 @@ OccWorld 提出在 3D 占用空间中学习世界模型，用 VQ-VAE 对 3D occu
 
 - [\[ECCV 2024\] OccGen: Generative Multi-modal 3D Occupancy Prediction for Autonomous Driving](occgen_generative_multimodal_3d_occupancy_prediction_for_aut.md)
 - [\[ECCV 2024\] Neural Volumetric World Models for Autonomous Driving](neural_volumetric_world_models_for_autonomous_driving.md)
-- [\[ECCV 2024\] Risk-Aware Self-Consistent Imitation Learning for Trajectory Planning in Autonomous Driving](risk-aware_self-consistent_imitation_learning_for_trajectory_planning_in_autonom.md)
 - [\[ICCV 2025\] Epona: Autoregressive Diffusion World Model for Autonomous Driving](../../ICCV2025/autonomous_driving/epona_autoregressive_diffusion_world_model_for_autonomous_driving.md)
+- [\[ECCV 2024\] Risk-Aware Self-Consistent Imitation Learning for Trajectory Planning in Autonomous Driving](risk-aware_self-consistent_imitation_learning_for_trajectory_planning_in_autonom.md)
 - [\[CVPR 2025\] GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction](../../CVPR2025/autonomous_driving/gaussianworld_gaussian_world_model_for_streaming_3d_occupancy_prediction.md)
 
 <!-- RELATED:END -->

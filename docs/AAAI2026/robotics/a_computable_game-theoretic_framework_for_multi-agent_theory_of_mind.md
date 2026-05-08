@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.22536](https://arxiv.org/abs/2511.22536)  
 **作者**: Fengming Zhu, Yuxin Pan, Xiaomeng Zhu, Fangzhen Lin
 **代码**: 无  
-**领域**: 多智能体 / 博弈论  
+**领域**: 机器人  
 **关键词**: Theory of Mind, 认知层次, 博弈论, 贝叶斯推理, Gamma-Poisson 共轭, 随机博弈
 
 ## 一句话总结
@@ -168,9 +168,9 @@ $$\pi_j|_{k+1}(S) \in \arg\max_{a_j} \sum_{\iota=0}^{k} g_\iota \cdot Q^*_{\math
 ## 相关论文
 
 - [\[AAAI 2026\] Adaptive Theory of Mind for LLM-based Multi-Agent Coordination](adaptive_theory_of_mind_for_llm-based_multi-agent_coordination.md)
-- [\[CVPR 2026\] MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](../../CVPR2026/robotics/mindpower_enabling_theoryofmind_reasoning_in_vlmba.md)
+- [\[AAAI 2026\] Theory of Mind for Explainable Human-Robot Interaction](theory_of_mind_for_explainable_human-robot_interaction.md)
 - [\[AAAI 2026\] Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems](shadows_in_the_code_exploring_the_risks_and_defenses_of_llm-.md)
 - [\[AAAI 2026\] EvoEmpirBench: Dynamic Spatial Reasoning with Agent-ExpVer](evoempirbench_dynamic_spatial_reasoning_with_agent-expver.md)
-- [\[AAAI 2026\] TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception](touchformer_a_robust_transformer-based_framework_for_multimodal_material_percept.md)
+- [\[NeurIPS 2025\] MindForge: Empowering Embodied Agents with Theory of Mind for Lifelong Cultural Learning](../../NeurIPS2025/robotics/mindforge_empowering_embodied_agents_with_theory_of_mind_for_lifelong_cultural_l.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 3D生成
   - 纹理形状生成
   - 稀疏编码
-  - 对抗解码
+  - 其他
   - 开放词汇
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: 无（数据集发布于 https://aigc3d.github.io/gobjaverse/）  
-**领域**: 3D视觉 / 扩散模型  
+**代码**: 无（数据集发布于 [https://aigc3d.github.io/gobjaverse/](https://aigc3d.github.io/gobjaverse/)）  
+**领域**: 其他  
 **关键词**: 3D生成、纹理形状生成、稀疏编码、对抗解码、开放词汇
 
 ## 一句话总结
@@ -137,10 +137,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICCV 2025\] Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging](../../ICCV2025/others/hi3dgen_high-fidelity_3d_geometry_generation_from_images_via_normal_bridging.md)
 - [\[ECCV 2024\] 3DFG-PIFu: 3D Feature Grids for Human Digitization from Sparse Views](3dfg-pifu_3d_feature_grids_for_human_digitization_from_sparse_views.md)
-- [\[AAAI 2026\] Learning Compact Latent Space for Representing Neural Signed Distance Functions with High-fidelity Geometry Details](../../AAAI2026/others/learning_compact_latent_space_for_representing_neural_signed_distance_functions_.md)
-- [\[ECCV 2024\] Adaptive High-Frequency Transformer for Diverse Wildlife Re-Identification](adaptive_highfrequency_transformer_for_diverse_wildlife_reid.md)
-- [\[CVPR 2026\] Order Matters: 3D Shape Generation from Sequential VR Sketches](../../CVPR2026/others/order_matters_3d_shape_generation_from_sequential_vr_sketches.md)
 - [\[ECCV 2024\] Active Generation for Image Classification](active_generation_for_image_classification.md)
+- [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
+- [\[ECCV 2024\] ET: The Exceptional Trajectories - Text-to-Camera-Trajectory Generation with Character Awareness](et_the_exceptional_trajectories_text-to-camera-trajectory_generation_with_charac.md)
 
 <!-- RELATED:END -->

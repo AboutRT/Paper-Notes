@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.02779](https://arxiv.org/abs/2510.02779)  
 **代码**: 无  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 深度ReLU网络, 泛化界, Rademacher复杂度, NTK可分, 梯度下降
 
 ## 一句话总结

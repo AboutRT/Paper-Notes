@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.03390](https://arxiv.org/abs/2602.03390)  
-**代码**: https://github.com/hynnsk/SRL (有)  
+**代码**: [https://github.com/hynnsk/SRL](https://github.com/hynnsk/SRL)  
 **领域**: 视频理解 / 自监督学习 / 目标发现  
 **关键词**: 以目标为中心的学习, slot attention, 对比学习, 编码器-解码器对齐, 无监督分割
 

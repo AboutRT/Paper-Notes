@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.18060](https://arxiv.org/abs/2507.18060)  
-**代码**: https://github.com/FreeButUselessSoul/bokehdiff  
-**领域**: 3d_vision  
+**代码**: [https://github.com/FreeButUselessSoul/bokehdiff](https://github.com/FreeButUselessSoul/bokehdiff)  
+**领域**: 3D视觉  
 **关键词**: 散景渲染, 扩散模型, 单步推理, 物理启发注意力, 数据合成
 
 ## 一句话总结

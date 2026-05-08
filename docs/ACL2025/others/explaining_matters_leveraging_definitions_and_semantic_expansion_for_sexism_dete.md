@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Explaining Matters: Leveraging Definitions and Semantic Expansion for Sexism Detection
 description: >-
-  [ACL 2025][性别歧视检测] 针对在线性别歧视检测中的数据稀疏和细粒度分类歧义问题，提出两种基于prompt的数据增强技术——定义驱动数据增强（DDA）利用类别定义生成语义对齐的合成样本，上下文语义扩展（CSE）通过分析模型错误的语义特征丰富训练数据——并结合 Mistral-7B 回退集成策略，在 EDOS 数据集上实现全任务 SOTA。
+  [ACL 2025][其他] 针对在线性别歧视检测中的数据稀疏和细粒度分类歧义问题，提出两种基于prompt的数据增强技术——定义驱动数据增强（DDA）利用类别定义生成语义对齐的合成样本，上下文语义扩展（CSE）通过分析模型错误的语义特征丰富训练数据——并结合 Mistral-7B 回退集成策略，在 EDOS 数据集上实现全任务 SOTA。
 tags:
   - ACL 2025
-  - 性别歧视检测
+  - 其他
   - 数据增强
   - 定义驱动
   - 语义扩展
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.06238](https://arxiv.org/abs/2506.06238)  
-**代码**: 有 (https://github.com/Sahrish42/explaining_matters_sexism_detection_acl2025)  
-**领域**: NLP / 有害内容检测  
+**代码**: 有 ([https://github.com/Sahrish42/explaining_matters_sexism_detection_acl2025](https://github.com/Sahrish42/explaining_matters_sexism_detection_acl2025))  
+**领域**: 其他  
 **关键词**: 性别歧视检测, 数据增强, 定义驱动, 语义扩展, 集成学习
 
 ## 一句话总结
@@ -56,9 +56,9 @@ tags:
    核心思想：将类别定义显式注入数据增强的 prompt 中，生成语义对齐的合成样本。
 
    对每个训练样本 (x_i, y_i)，DDA 的 prompt 包含三部分：
-   - 明确的生成指令：保持原始性别歧视意图
-   - 风格引导：模拟 Reddit/Gab 的非正式社交媒体语言
-   - **类别定义 φ(y_i)**：从 EDOS 分类体系中提取的语义定义（如"2.1 Descriptive Attacks"的定义明确了什么算描述性攻击而非情感攻击）
+    - 明确的生成指令：保持原始性别歧视意图
+    - 风格引导：模拟 Reddit/Gab 的非正式社交媒体语言
+    - **类别定义 φ(y_i)**：从 EDOS 分类体系中提取的语义定义（如"2.1 Descriptive Attacks"的定义明确了什么算描述性攻击而非情感攻击）
 
    为什么定义很重要？传统增强（如 EDA、回译）只关注语言多样性，无法理清相邻类别的语义边界。DDA 通过显式定义帮助生成器"理解"每个类别的核心特征，减少类别间的语义重叠。
 
@@ -69,15 +69,15 @@ tags:
    核心思想：不是生成更多样本，而是为模型错分的样本生成**语义解释**，拼接在原文本后作为增强上下文。
 
    CSE 的工作流程：
-   - 用基线 DeBERTa 在训练数据上做预测，找出所有误分类样本
-   - 发现模型以高置信度（p > 0.9）做出错误预测——说明是系统性偏差而非随机错误
-   - 对每个误分类样本，用结构化prompt让LLM做6步语义分析：
-     1. 分析语言模式和风格特征
-     2. 检查中性/贬义语言
-     3. 评估与性别相关的情感偏见
-     4. 考虑情境上下文
-     5. 识别刻板印象和潜在偏见
-     6. 评估文本意图
+    - 用基线 DeBERTa 在训练数据上做预测，找出所有误分类样本
+    - 发现模型以高置信度（p > 0.9）做出错误预测——说明是系统性偏差而非随机错误
+    - 对每个误分类样本，用结构化prompt让LLM做6步语义分析：
+      1. 分析语言模式和风格特征
+      2. 检查中性/贬义语言
+      3. 评估与性别相关的情感偏见
+      4. 考虑情境上下文
+      5. 识别刻板印象和潜在偏见
+      6. 评估文本意图
 
    输出的语义扩展拼接在原文本后：[x; e(x)]，作为增强训练数据。
 
@@ -86,9 +86,9 @@ tags:
 3. **Mistral-7B 回退集成（M7-FE）**：
 
    结合 DeBERTa-v3-Large、Mistral-7B、DTFN 三个模型的预测：
-   - 常规情况：多数投票决定最终预测
-   - 平局（二选一）：由 Mistral-7B 作为回退模型裁决
-   - 完全分歧（三方各不同）：使用 Mistral-7B 的预测
+    - 常规情况：多数投票决定最终预测
+    - 平局（二选一）：由 Mistral-7B 作为回退模型裁决
+    - 完全分歧（三方各不同）：使用 Mistral-7B 的预测
 
    为什么用 Mistral-7B 做回退？预实验表明它在模糊性别歧视案例上更鲁棒。
 
@@ -165,9 +165,9 @@ DDA 在 Task C 上的改善最为显著：从 0.5601 提升至 0.6018（+4.17 F1
 ## 相关论文
 
 - [\[ACL 2025\] SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](seoe_semantic_eval.md)
-- [\[ACL 2025\] S3 - Semantic Signal Separation](s3_-_semantic_signal_separation.md)
 - [\[ACL 2025\] Rank, Chunk, and Expand: Lineage-Oriented Reasoning for Taxonomy Expansion](rank_chunk_and_expand_lineage-oriented_reasoning_for_taxonomy_expansion.md)
-- [\[ACL 2025\] Quantifying Lexical Semantic Shift via Unbalanced Optimal Transport](quantifying_lexical_semantic_shift_via_unbalanced_optimal_transport.md)
 - [\[ACL 2025\] What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation](what_matters_in_evaluating_book-length_stories_a_systematic_study_of_long_story_.md)
+- [\[ACL 2025\] S3 - Semantic Signal Separation](s3_-_semantic_signal_separation.md)
+- [\[ACL 2025\] Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking](inner_thinking_transformer_leveraging_dynamic_depth_scaling_to_foster_adaptive_i.md)
 
 <!-- RELATED:END -->

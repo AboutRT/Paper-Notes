@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2410.16928](https://arxiv.org/abs/2410.16928)  
 **作者**: Maurice Kraus, Felix Divo, Devendra Singh Dhami, Kristian Kersting (TU Darmstadt, TU Eindhoven)
 **代码**: [mauricekraus/xlstm-mixer](https://github.com/mauricekraus/xlstm-mixer)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: 时间序列预测, xLSTM, 混合架构, 循环神经网络, 多变量预测
 
 ## 一句话总结

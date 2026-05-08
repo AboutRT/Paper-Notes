@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2412.20892](https://arxiv.org/abs/2412.20892)  
 **代码**: 无  
-**领域**: 不确定性量化 / 贝叶斯机器学习 / 决策理论  
+**领域**: 其他  
 **关键词**: aleatoric uncertainty, epistemic uncertainty, decision theory, BALD, uncertainty decomposition
 
 ## 一句话总结
@@ -168,10 +168,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Rethinking Epistemic and Aleatoric Uncertainty for Active Open-Set Annotation: An Energy-Based Approach](../../CVPR2025/others/rethinking_epistemic_and_aleatoric_uncertainty_for_active_open-set_annotation_an.md)
+- [\[ICML 2025\] Improved Exploration in GFlowNets via Enhanced Epistemic Neural Networks](improved_exploration_in_gflownets_via_enhanced_epistemic_neural_networks.md)
 - [\[ICML 2025\] UnHiPPO: Uncertainty-Aware Initialization for State Space Models](unhippo_uncertainty-aware_initialization_for_state_space_models.md)
-- [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](../../AAAI2026/others/an_epistemic_perspective_on_agent_awareness.md)
 - [\[NeurIPS 2025\] Rethinking PCA Through Duality](../../NeurIPS2025/others/rethinking_pca_through_duality.md)
-- [\[NeurIPS 2025\] Uncertainty Estimation by Flexible Evidential Deep Learning](../../NeurIPS2025/others/uncertainty_estimation_by_flexible_evidential_deep_learning.md)
-- [\[ACL 2025\] LoGU: Long-form Generation with Uncertainty Expressions](../../ACL2025/others/logu_longform_gen_uncertainty.md)
+- [\[ICML 2025\] Nonparametric Modern Hopfield Models](nonparametric_modern_hopfield_models.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.11106](https://arxiv.org/abs/2603.11106)  
 **代码**: 无  
-**领域**: robotics  
+**领域**: 机器人  
 **关键词**: 异常检测, normalizing flow, VLA monitoring, 机器人操作, 分布外
 
 ## 一句话总结

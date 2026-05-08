@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2512.16244](https://arxiv.org/abs/2512.16244)  
 **代码**: [sihuo-design/CFC](https://github.com/sihuo-design/CFC)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: open-set classification, OOD detection, graph neural networks, large language models, node classification
 
 ## 一句话总结

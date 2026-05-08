@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.13065](https://arxiv.org/abs/2504.13065)  
-**代码**: https://github.com/LeapLabTHU/EchoWorld  
+**代码**: [https://github.com/LeapLabTHU/EchoWorld](https://github.com/LeapLabTHU/EchoWorld)  
 **领域**: 医学图像  
 **关键词**: 超声心动图、探头引导、世界模型、运动感知注意力、表征学习
 

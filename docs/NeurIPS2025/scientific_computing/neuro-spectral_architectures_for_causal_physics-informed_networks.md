@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.04966](https://arxiv.org/abs/2509.04966)  
-**代码**: https://github.com/arthur-bizzi/neusa  
+**代码**: [https://github.com/arthur-bizzi/neusa](https://github.com/arthur-bizzi/neusa)  
 **领域**: 科学计算 / PDE求解  
 **关键词**: PINN, 谱方法, Neural ODE, 因果性, 波动方程
 

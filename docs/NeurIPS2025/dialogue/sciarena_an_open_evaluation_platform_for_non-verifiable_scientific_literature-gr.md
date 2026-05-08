@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets & Benchmarks Track, Spotlight)][scientific literature evaluation] 构建 SciArena 社区驱动的科学文献评估开放平台，采用 Chatbot Arena 式的人类偏好投票方式对 47 个基础模型进行排名，收集超过 20,000 条投票数据，并发布 SciArena-Eval 元基准来评测自动评估系统对文献任务答案质量的判断能力。
 tags:
-  - "NeurIPS 2025 (Datasets & Benchmarks Track, Spotlight)"
+  - 对话系统
   - scientific literature evaluation
   - foundation models
   - human preference
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025 (Datasets & Benchmarks Track, Spotlight)  
 **arXiv**: [2507.01001](https://arxiv.org/abs/2507.01001)  
 **代码**: 有  
-**领域**: NLP / 科学文献评估  
+**领域**: 对话系统  
 **关键词**: scientific literature evaluation, foundation models, human preference, Chatbot Arena, meta-benchmark
 
 ## 一句话总结
@@ -124,6 +124,6 @@ SciArena 采用"人类偏好投票 + 自动评估元基准"的双层框架。底
 - [\[ACL 2025\] PersonaLens: A Benchmark for Personalization Evaluation in Conversational AI Assistants](../../ACL2025/dialogue/personalens_a_benchmark_for_personalization_evaluation_in_conversational_ai_assi.md)
 - [\[ICLR 2026\] Non-Collaborative User Simulators for Tool Agents](../../ICLR2026/dialogue/non-collaborative_user_simulators_for_tool_agents.md)
 - [\[AAAI 2026\] Canoe: Teaching LLMs to Maintain Contextual Faithfulness via Synthetic Tasks and RL](../../AAAI2026/dialogue/teaching_large_language_models_to_maintain_contextual_faithfulness_via_synthetic.md)
-- [\[ACL 2026\] Author-in-the-Loop Response Generation and Evaluation: Integrating Author Expertise and Intent in Responses to Peer Review](../../ACL2026/dialogue/author-in-the-loop_response_generation_and_evaluation_integrating_author_experti.md)
+- [\[ACL 2025\] Detecting Referring Expressions in Visually Grounded Dialogue with Autoregressive Language Models](../../ACL2025/dialogue/detecting_referring_expressions_in_visually_grounded_dialogue_with_autoregressiv.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2510.08878](https://arxiv.org/abs/2510.08878)  
 **代码**: [项目页面](https://control-audio.github.io/Control-Audio/)  
-**领域**: 音频生成 / 可控生成  
+**领域**: 图像生成  
 **关键词**: 文本到音频, 时序控制, 可懂语音, 渐进式扩散, DiT
 
 ## 一句话总结
@@ -131,7 +131,7 @@ tags:
 
 ## 相关论文
 
-- [\[ICML 2025\] IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling](../../ICML2025/image_generation/impact_iterative_mask-based_parallel_decoding_for_text-to-audio_generation_with_.md)
+- [\[ICML 2025\] IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling](../../ICML2025/image_generation/impact_iterative_mask-based_parallel_decoding_for_text-to-audio_generation.md)
 - [\[ICML 2025\] ETTA: Elucidating the Design Space of Text-to-Audio Models](../../ICML2025/image_generation/etta_elucidating_the_design_space_of_text-to-audio_models.md)
 - [\[ICLR 2026\] Visual Autoregressive Modeling for Instruction-Guided Image Editing](../../ICLR2026/image_generation/visual_autoregressive_modeling_for_instruction-guided_image_editing.md)
 - [\[ECCV 2024\] Local Action-Guided Motion Diffusion Model for Text-to-Motion Generation](../../ECCV2024/image_generation/local_action-guided_motion_diffusion_model_for_text-to-motion_generation.md)

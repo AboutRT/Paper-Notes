@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AceCoder: Acing Coder RL via Automated Test-Case Synthesis
 description: >-
-  [ACL 2025][代码生成] 构建 AceCode-87K（87K 编码题 + 138 万自动合成测试用例），训练代码专用 Reward Model（7B 超越 340B Nemotron），Best-of-N 提升 Llama-3.1-8B 平均 8.9 分，R1 风格从 base 直接 RL 仅 80 步 HumanEval+ 提升 22.5%。
+  [ACL 2025][其他] 构建 AceCode-87K（87K 编码题 + 138 万自动合成测试用例），训练代码专用 Reward Model（7B 超越 340B Nemotron），Best-of-N 提升 Llama-3.1-8B 平均 8.9 分，R1 风格从 base 直接 RL 仅 80 步 HumanEval+ 提升 22.5%。
 tags:
   - ACL 2025
-  - 代码生成
+  - 其他
   - 强化学习
   - 奖励模型
   - test case synthesis
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.01718](https://arxiv.org/abs/2502.01718)  
-**代码**: https://tiger-ai-lab.github.io/AceCoder  
-**领域**: 代码生成  
+**代码**: [https://tiger-ai-lab.github.io/AceCoder](https://tiger-ai-lab.github.io/AceCoder)  
+**领域**: 其他  
 **关键词**: 代码生成, 强化学习, 奖励模型, test case synthesis, R1-style training
 
 ## 一句话总结
@@ -143,8 +143,8 @@ RM 训练：标准 Bradley-Terry loss。RL 训练：Reinforcement++ 算法，rol
 
 - [\[ACL 2025\] Learning to Reason from Feedback at Test-Time](learning_to_reason_from_feedback_at_test-time.md)
 - [\[ACL 2025\] FastMCTS: A Simple Sampling Strategy for Data Synthesis](fastmcts_a_simple_sampling_strategy_for_data_synthesis.md)
-- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](a_measure_of_the_system_dependence_of_automated_metrics.md)
-- [\[ACL 2025\] Instruction-Tuning Data Synthesis from Scratch via Web Reconstruction](instruction-tuning_data_synthesis_from_scratch_via_web_reconstruction.md)
+- [\[ACL 2025\] ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow Development](comfyui-copilot_an_intelligent_assistant_for_automated_workflow_development.md)
+- [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
 - [\[ACL 2025\] Understanding Common Ground Misalignment in Goal-Oriented Dialog: A Case-Study with Ubuntu Chat Logs](understanding_common_ground_misalignment_in_goal-oriented_dialog_a_case-study_wi.md)
 
 <!-- RELATED:END -->

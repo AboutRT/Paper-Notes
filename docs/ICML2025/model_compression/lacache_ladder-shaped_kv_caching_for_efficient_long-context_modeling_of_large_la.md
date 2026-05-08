@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2507.14204](https://arxiv.org/abs/2507.14204)  
 **代码**: [GATECH-EIC/LaCache](https://github.com/GATECH-EIC/LaCache)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: KV Cache 压缩, 长上下文推理, 梯形缓存模式, 无训练优化, LLM 高效推理  
 **作者**: Dachuan Shi, Yonggan Fu, Xiangchi Yuan, Zhongzhi Yu, Haoran You, Sixu Li, Xin Dong, Jan Kautz, Pavlo Molchanov, Yingyan (Celine) Lin
 

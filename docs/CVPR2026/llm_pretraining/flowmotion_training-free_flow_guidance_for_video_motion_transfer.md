@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.06289](https://arxiv.org/abs/2603.06289)  
 **代码**: [HKUST-LongGroup/FlowMotion](https://github.com/HKUST-LongGroup/FlowMotion)  
-**领域**: video generation / motion transfer  
+**领域**: LLM预训练  
 **关键词**: video motion transfer, flow matching, training-free, latent prediction, velocity regularization
 
 ## 一句话总结
@@ -149,10 +149,10 @@ Latent prediction 引导仅比纯推理多 1.6 GB，而直接用 velocity 做引
 
 ## 相关论文
 
+- [\[ICCV 2025\] SynCity: Training-Free Generation of 3D Worlds](../../ICCV2025/llm_pretraining/syncity_training-free_generation_of_3d_worlds.md)
 - [\[ICCV 2025\] Make Your Training Flexible: Towards Deployment-Efficient Video Models](../../ICCV2025/llm_pretraining/make_your_training_flexible_towards_deployment-efficient_video_models.md)
 - [\[NeurIPS 2025\] Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training](../../NeurIPS2025/llm_pretraining/through_the_river_understanding_the_benefit_of_schedule-free_methods_for_languag.md)
-- [\[ECCV 2024\] Cross-Domain Learning for Video Anomaly Detection with Limited Supervision](../../ECCV2024/llm_pretraining/cross-domain_learning_for_video_anomaly_detection_with_limited_supervision.md)
-- [\[NeurIPS 2025\] Learning to Flow from Generative Pretext Tasks for Neural Architecture Encoding](../../NeurIPS2025/llm_pretraining/learning_to_flow_from_generative_pretext_tasks_for_neural_architecture_encoding.md)
-- [\[CVPR 2025\] ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model](../../CVPR2025/llm_pretraining/scamo_exploring_the_scaling_law_in_autoregressive_motion_generation_model.md)
+- [\[AAAI 2026\] Learning Procedural-aware Video Representations through State-Grounded Hierarchy Unfolding](../../AAAI2026/llm_pretraining/learning_procedural-aware_video_representations_through_state-grounded_hierarchy.md)
+- [\[ECCV 2024\] I Can't Believe It's Not Scene Flow!](../../ECCV2024/llm_pretraining/i_canapost_believe_itaposs_not_scene_flow.md)
 
 <!-- RELATED:END -->

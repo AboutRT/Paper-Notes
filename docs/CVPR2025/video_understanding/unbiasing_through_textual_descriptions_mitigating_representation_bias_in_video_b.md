@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18637](https://arxiv.org/abs/2503.18637)  
-**代码**: https://utd-project.github.io/ (项目页)  
+**代码**: [https://utd-project.github.io/](https://utd-project.github.io/) (项目页)  
 **领域**: 视频理解  
 **关键词**: 视频基准去偏、表征偏差、文本描述、VLM/LLM、数据集分析
 

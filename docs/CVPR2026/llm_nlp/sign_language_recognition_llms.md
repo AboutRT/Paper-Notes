@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.11225](https://arxiv.org/abs/2604.11225)  
-**代码**: https://github.com/VaJavorek/WLASL_LLM  
-**领域**: 人体理解  
+**代码**: [https://github.com/VaJavorek/WLASL_LLM](https://github.com/VaJavorek/WLASL_LLM)  
+**领域**: LLM/NLP  
 **关键词**: 手语识别, 视觉语言模型, 零样本, 美国手语, 基准测试
 
 ## 一句话总结
@@ -113,8 +113,8 @@ tags:
 
 - [\[ACL 2025\] Argument Mining in the Age of Large Language Models](../../ACL2025/llm_nlp/argument_mining_in_the_age_of_large_language_models.md)
 - [\[ICML 2025\] Theoretical Limitations of Ensembles in the Age of Overparameterization](../../ICML2025/llm_nlp/theoretical_limitations_of_ensembles_in_the_age_of_overparameterization.md)
+- [\[ECCV 2024\] Meta-Prompting for Automating Zero-Shot Visual Recognition with LLMs](../../ECCV2024/llm_nlp/meta-prompting_for_automating_zero-shot_visual_recognition_with_llms.md)
+- [\[ECCV 2024\] Towards Open-Ended Visual Recognition with Large Language Model](../../ECCV2024/llm_nlp/towards_open-ended_visual_recognition_with_large_language_models.md)
 - [\[ACL 2025\] NeKo: Cross-Modality Post-Recognition Error Correction with Tasks-Guided Mixture-of-Experts Language Model](../../ACL2025/llm_nlp/neko_cross-modality_post-recognition_error_correction_with_tasks-guided_mixture-.md)
-- [\[CVPR 2026\] CoPS: Conditional Prompt Synthesis for Zero-Shot Anomaly Detection](cops_conditional_prompt_synthesis_for_zero-shot_anomaly_detection.md)
-- [\[CVPR 2026\] Perception Programs: Unlocking Visual Tool Reasoning in Language Models](perception_programs_visual_tool_reasoning.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.14520](https://arxiv.org/abs/2502.14520)  
 **作者**: Meng Wang, Fan Wu, Ruihui Li, Yunchuan Qin, Zhuo Tang, Kenli Li (湖南大学)
-**代码**: https://github.com/willemeng/FlowScene (有)  
+**代码**: [https://github.com/willemeng/FlowScene](https://github.com/willemeng/FlowScene)  
 **领域**: 自动驾驶 / 3D语义场景补全  
 **关键词**: 3D Semantic Scene Completion, 光流引导, 时序建模, 遮挡感知, 体素细化
 

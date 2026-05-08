@@ -7,7 +7,7 @@ tags:
   - AAAI 2026
   - 内容效应
   - 激活转向
-  - 三段论推理
+  - 多语言翻译
   - 形式逻辑
   - 推理偏见
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2505.12189](https://arxiv.org/abs/2505.12189)  
-**代码**: https://github.com/neuro-symbolic-ai/steering_content_effects  
-**领域**: LLM推理 / 可靠性  
+**代码**: [https://github.com/neuro-symbolic-ai/steering_content_effects](https://github.com/neuro-symbolic-ai/steering_content_effects)  
+**领域**: 多语言翻译  
 **关键词**: 内容效应, 激活转向, 三段论推理, 形式逻辑, 推理偏见
 
 ## 一句话总结
@@ -127,8 +127,8 @@ K-CAST 对静态转向无效的 Llama 3.2 3b 实现 Acc 从 77.79% 提升到 92.
 
 - [\[AAAI 2026\] Consensus-Aligned Neuron Efficient Fine-Tuning Large Language Models for Multi-Domain Machine Translation](consensus-aligned_neuron_efficient_fine-tuning_large_language_models_for_multi-d.md)
 - [\[AAAI 2026\] Focusing on Language: Revealing and Exploiting Language Attention Heads in Multilingual Large Language Models](focusing_on_language_revealing_and_exploiting_language_attention_heads_in_multil.md)
-- [\[ACL 2026\] Exploring Two-Phase Continual Instruction Fine-tuning for Multilingual Adaptation in Large Language Models](../../ACL2026/multilingual_mt/exploring_continual_fine-tuning_for_enhancing_language_ability_in_large_language.md)
-- [\[ACL 2025\] CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis](../../ACL2025/multilingual_mt/culfit_a_fine-grained_cultural-aware_llm_training_paradigm_via_multilingual_crit.md)
+- [\[ACL 2026\] Mitigating Extrinsic Gender Bias for Bangla Classification Tasks](../../ACL2026/multilingual_mt/mitigating_extrinsic_gender_bias_for_bangla_classification_tasks.md)
 - [\[ACL 2026\] Language Models Entangle Language and Culture](../../ACL2026/multilingual_mt/language_models_entangle_language_and_culture.md)
+- [\[ACL 2026\] Exploring Two-Phase Continual Instruction Fine-tuning for Multilingual Adaptation in Large Language Models](../../ACL2026/multilingual_mt/exploring_continual_fine-tuning_for_enhancing_language_ability_in_large_language.md)
 
 <!-- RELATED:END -->

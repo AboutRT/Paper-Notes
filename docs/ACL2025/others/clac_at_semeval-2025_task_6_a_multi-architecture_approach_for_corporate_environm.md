@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025 (SemEval Workshop)  
 **arXiv**: [2505.23538](https://arxiv.org/abs/2505.23538)  
-**代码**: https://github.com/CLaC-Lab/SemEval-2025-Task6  
-**领域**: Others / ESG Text Analysis  
+**代码**: [https://github.com/CLaC-Lab/SemEval-2025-Task6](https://github.com/CLaC-Lab/SemEval-2025-Task6)  
+**领域**: 其他  
 **关键词**: ESG报告, 承诺验证, 多任务学习, 注意力池化, 语言特征工程
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2411.13779](https://arxiv.org/abs/2411.13779)  
 **代码**: [GitHub](https://github.com/alex2awesome/news-interview-question-generation)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 对话策略, 新闻采访, grounding gap, 信息提取, 模拟博弈环境
 
 ## 一句话总结

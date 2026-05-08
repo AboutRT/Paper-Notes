@@ -20,7 +20,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2410.10926](https://arxiv.org/abs/2410.10926)  
 **代码**: [GitHub](https://github.com/zhenqincn/FedHDS)  
-**领域**: 联邦学习 / LLM指令微调  
+**领域**: LLM对齐  
 **关键词**: 联邦学习, 数据高效, 指令微调, 层间特征融合, 层次化数据选择, Coreset, HDBSCAN
 
 ## 一句话总结

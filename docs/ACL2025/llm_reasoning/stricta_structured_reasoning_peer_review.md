@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2409.05367](https://arxiv.org/abs/2409.05367)  
-**代码**: https://github.com/UKPLab/acl2025-stricta  
+**代码**: [https://github.com/UKPLab/acl2025-stricta](https://github.com/UKPLab/acl2025-stricta)  
 **领域**: LLM推理  
 **关键词**: 结构化推理, 同行评审, 因果模型, 文本评估, 人机协作
 

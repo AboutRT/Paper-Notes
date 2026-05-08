@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2510.21078](https://arxiv.org/abs/2510.21078)  
 **作者**: Hancheng Min (上海交通大学), Zhihui Zhu (Ohio State University), René Vidal (University of Pennsylvania)  
 **代码**: 未公开  
-**领域**: others  
+**领域**: LLM预训练  
 **关键词**: Neural Collapse, 梯度流, ReLU网络, 隐式偏置, 正交可分数据, 最大间隔  
 
 ## 一句话总结

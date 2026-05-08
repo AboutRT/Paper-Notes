@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.19189](https://arxiv.org/abs/2509.19189)  
 **代码**: 无  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: scaling law, 学习率调度, 核回归, loss 动力学, WSD schedule
 
 ## 一句话总结

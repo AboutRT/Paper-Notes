@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2502.13606](https://arxiv.org/abs/2502.13606)  
-**代码**: https://github.com/suyamat/LaVCa  
+**代码**: [https://github.com/suyamat/LaVCa](https://github.com/suyamat/LaVCa)  
 **领域**: 3D视觉 / 神经科学  
 **关键词**: 视觉皮层, 体素选择性, LLM, fMRI编码模型, 脑活动预测
 
@@ -144,10 +144,10 @@ ROI 内 shuffle 测试（验证体素间多样性）：
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Meta-Learning an In-Context Transformer Model of Human Higher Visual Cortex](../../NeurIPS2025/3d_vision/meta-learning_an_in-context_transformer_model_of_human_higher_visual_cortex.md)
 - [\[CVPR 2026\] 3DrawAgent: Teaching LLM to Draw in 3D with Early Contrastive Experience](../../CVPR2026/3d_vision/3drawagent_teaching_llm_to_draw_in_3d_with_early_contrastive_experience.md)
-- [\[CVPR 2026\] ArtLLM: Generating Articulated Assets via 3D LLM](../../CVPR2026/3d_vision/artllm_generating_articulated_assets_via_3d_llm.md)
 - [\[ICLR 2026\] Quantized Visual Geometry Grounded Transformer](quantized_visual_geometry_grounded_transformer.md)
-- [\[ECCV 2024\] View Selection for 3D Captioning via Diffusion Ranking](../../ECCV2024/3d_vision/view_selection_for_3d_captioning_via_diffusion_ranking.md)
-- [\[ECCV 2024\] Bi-directional Contextual Attention for 3D Dense Captioning](../../ECCV2024/3d_vision/bi-directional_contextual_attention_for_3d_dense_captioning.md)
+- [\[CVPR 2026\] ArtLLM: Generating Articulated Assets via 3D LLM](../../CVPR2026/3d_vision/artllm_generating_articulated_assets_via_3d_llm.md)
+- [\[AAAI 2026\] NURBGen: High-Fidelity Text-to-CAD Generation through LLM-Driven NURBS Modeling](../../AAAI2026/3d_vision/nurbgen_high-fidelity_text-to-cad_generation_through_llm-driven_nurbs_modeling.md)
 
 <!-- RELATED:END -->

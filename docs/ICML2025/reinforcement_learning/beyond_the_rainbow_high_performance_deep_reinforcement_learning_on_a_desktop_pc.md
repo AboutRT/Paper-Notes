@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2411.03820](https://arxiv.org/abs/2411.03820)  
-**代码**: https://github.com/VIPTankz/BTR  
+**代码**: [https://github.com/VIPTankz/BTR](https://github.com/VIPTankz/BTR)  
 **领域**: 强化学习  
 **关键词**: 深度强化学习, Rainbow DQN, Atari, 计算效率, 3D游戏
 
@@ -130,6 +130,6 @@ Atari-60 benchmark（200M frames）：
 - [\[NeurIPS 2025\] Kimina Lean Server: A High-Performance Lean Server for Large-Scale Verification](../../NeurIPS2025/reinforcement_learning/kimina_lean_server_a_high-performance_lean_server_for_large-scale_verification.md)
 - [\[NeurIPS 2025\] Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](../../NeurIPS2025/reinforcement_learning/beyond_the_8020_rule_highentropy_minority_tokens_drive_effec.md)
 - [\[NeurIPS 2025\] Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/mind_the_gap_the_challenges_of_scale_in_pixel-based_deep_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Confounding Robust Deep Reinforcement Learning: A Causal Approach](../../NeurIPS2025/reinforcement_learning/confounding_robust_deep_reinforcement_learning_a_causal_approach.md)
+- [\[ICML 2025\] Beyond CVaR: Leveraging Static Spectral Risk Measures for Enhanced Decision-Making in Distributional Reinforcement Learning](beyond_cvar_leveraging_static_spectral_risk_measures_for_enhanced_decision-makin.md)
 
 <!-- RELATED:END -->

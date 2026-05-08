@@ -7,7 +7,7 @@ tags:
   - ACL 2025 (Findings)
   - 弱到强泛化
   - reverse KL
-  - 超级对齐
+  - 其他
   - 知识蒸馏
   - loss function
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2502.11107](https://arxiv.org/abs/2502.11107)  
 **代码**: 无  
-**领域**: 对齐RLHF  
+**领域**: 其他  
 **关键词**: 弱到强泛化, reverse KL, 超级对齐, 知识蒸馏, loss function
 
 ## 一句话总结
@@ -137,6 +137,6 @@ W2SG 设置：弱模型 $F_w$ 提供 soft label 监督强模型 $F_{sw} = f \cir
 - [\[ACL 2025\] Synergistic Weak-Strong Collaboration by Aligning Preferences](synergistic_weak-strong_collaboration_by_aligning_preferences.md)
 - [\[ACL 2025\] Well Begun is Half Done: Low-resource Preference Alignment by Weak-to-Strong Decoding](well_begun_is_half_done_low-resource_preference_alignment_by_weak-to-strong_deco.md)
 - [\[ACL 2025\] Behavioural vs. Representational Systematicity in End-to-End Models: An Opinionated Survey](behavioural_vs_representational_systematicity_in_end-to-end_models_an_opinionate.md)
-- [\[ACL 2025\] Hybrid Preferences: Learning to Route Instances for Human vs. AI Feedback](hybrid_preferences_learning_to_route_instances_for_human_vs_ai_feedback.md)
+- [\[ACL 2025\] Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? Revisiting a Petroglyph](why_are_positional_encodings_nonessential_for_deep_autoregressive_transformers_r.md)
 
 <!-- RELATED:END -->

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 图像恢复方向14篇论文解读
+  ICLR2026 图像恢复方向15篇论文解读
 description: >-
-  14篇ICLR2026的图像恢复方向论文解读，涵盖扩散模型、语音、LLM、图像恢复、对抗鲁棒、推荐系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  15篇ICLR2026的图像恢复方向论文解读，涵盖扩散模型、语音、LLM、图像恢复、对抗鲁棒、推荐系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🔬 ICLR2026** · **14** 篇论文解读
+**🔬 ICLR2026** · **15** 篇论文解读
 
 **[Activation Steering for Masked Diffusion Language Models](activation_steering_for_masked_diffusion_language_models.md)**
 
@@ -25,6 +25,10 @@ description: >-
 **[Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes](beyond_scattered_acceptance_fast_and_coherent_inference_for_dlms_via_longest_sta.md)**
 
 :   LSP 调度器通过在每个去噪步骤中原子性地提交最长连续稳定前缀（而非分散接受离散 token），将 DLM 推理加速 3.4 倍，同时保持或略微提升输出质量。
+
+**[Breaking Scale Anchoring: Frequency Representation Learning for Accurate High-Resolution Inference from Low-Resolution Training](breaking_scale_anchoring_frequency_representation_learning_for_accurate_high-res.md)**
+
+:   定义了"Scale Anchoring"新问题（低分辨率训练导致高分辨率推理误差锚定），并提出架构无关的频率表征学习（FRL），通过 Nyquist 归一化频率编码使误差随分辨率提升而下降，在 8 种主流架构上验证有效。
 
 **[DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation](diffusionblocks_block-wise_neural_network_training_via_diffusion_interpretation.md)**
 

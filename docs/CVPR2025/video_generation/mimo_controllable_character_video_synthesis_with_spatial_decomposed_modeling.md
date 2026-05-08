@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2409.16160](https://arxiv.org/abs/2409.16160)  
-**代码**: https://menyifang.github.io/projects/MIMO/index.html  
+**代码**: [https://menyifang.github.io/projects/MIMO/index.html](https://menyifang.github.io/projects/MIMO/index.html)  
 **领域**: 视频生成 / 3D视觉  
 **关键词**: 角色视频合成, 空间分解建模, 扩散模型, 人体动作迁移, 场景交互
 

@@ -9,7 +9,7 @@ tags:
   - RAG
   - 检索增强生成
   - 嵌入模型
-  - 问答系统
+  - 信息检索
 ---
 
 # From Ambiguity to Accuracy: The Transformative Effect of Coreference Resolution on RAG Systems
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.07847](https://arxiv.org/abs/2507.07847)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 信息检索  
 **关键词**: 共指消解, RAG, 检索增强生成, 嵌入模型, 问答系统
 
 ## 一句话总结
@@ -149,9 +149,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] The Distracting Effect: Understanding Irrelevant Passages in RAG](the_distracting_effect_understanding_irrelevant_passages_in_rag.md)
-- [\[ACL 2025\] Investigating Language Preference of Multilingual RAG Systems](investigating_language_preference_of_multilingual_rag_systems.md)
 - [\[ACL 2025\] VoxRAG: A Step Toward Transcription-Free RAG Systems in Spoken Question Answering](voxrag_a_step_toward_transcription-free_rag_systems_in_spoken_question_answering.md)
+- [\[ACL 2025\] Investigating Language Preference of Multilingual RAG Systems](investigating_language_preference_of_multilingual_rag_systems.md)
 - [\[ACL 2025\] KnowShiftQA: How Robust are RAG Systems when Textbook Knowledge Shifts in K-12 Education?](knowshiftqa_rag_knowledge_shifts.md)
-- [\[ACL 2025\] Removal of Hallucination on Hallucination: Debate-Augmented RAG](removal_of_hallucination_on_hallucination_debate-augmented_rag.md)
+- [\[ACL 2025\] REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)
 
 <!-- RELATED:END -->

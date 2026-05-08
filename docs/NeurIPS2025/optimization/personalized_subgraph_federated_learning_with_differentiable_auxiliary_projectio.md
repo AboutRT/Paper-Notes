@@ -55,7 +55,7 @@ FedAux的工作流程：
 
 2. **可微分核聚合替代硬排序**: 早期方法用硬排序+1D卷积来聚合邻近节点信息，但排序操作不可微，导致APV无法通过反向传播优化。本文提出用高斯核实现软排序：
 
-   $$z_{k,i} = \frac{1}{M_i} \sum_{j=1}^{N_k} \kappa(s_{k,i}, s_{k,j}) h_{k,j}, \quad \kappa(s_i, s_j) = \exp\left(-\frac{(s_i - s_j)^2}{\sigma^2}\right)$$
+    $z_{k,i} = \frac{1}{M_i} \sum_{j=1}^{N_k} \kappa(s_{k,i}, s_{k,j}) h_{k,j}, \quad \kappa(s_i, s_j) = \exp\left(-\frac{(s_i - s_j)^2}{\sigma^2}\right)$
 
    这个连续聚合器对APV完全可微——APV的变化平滑地调整每个 $s_{k,i}$，进而调整核权重。
 
@@ -63,7 +63,7 @@ FedAux的工作流程：
 
 4. **服务器端个性化聚合**: 计算客户端APV之间的余弦相似度，通过softmax温控得到聚合权重：
    
-   $$w_{k,l} = \frac{\exp(\alpha \text{Sim}(\mathbf{a}_k, \mathbf{a}_l))}{\sum_{r=1}^K \exp(\alpha \text{Sim}(\mathbf{a}_k, \mathbf{a}_r))}$$
+    $w_{k,l} = \frac{\exp(\alpha \text{Sim}(\mathbf{a}_k, \mathbf{a}_l))}{\sum_{r=1}^K \exp(\alpha \text{Sim}(\mathbf{a}_k, \mathbf{a}_r))}$
    
    然后为每个客户端生成个性化参数 $\theta_k = \sum_l w_{k,l} \theta_l$。这强调了相似客户端的贡献，减少了不相似客户端的干扰。
 

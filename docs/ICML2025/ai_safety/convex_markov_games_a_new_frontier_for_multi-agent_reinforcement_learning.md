@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2410.16600](https://arxiv.org/abs/2410.16600)  
 **代码**: 未开源  
-**领域**: 多Agent强化学习 / 博弈论  
+**领域**: AI安全  
 **关键词**: Convex Markov Game, Nash Equilibrium, Occupancy Measure, Multi-Agent RL, 凸优化, 安全性, 公平性
 
 ## 一句话总结
@@ -137,8 +137,8 @@ $$\mathcal{L}^{\tau}(\pi) = \sum_i \|\Pi_{T\mathcal{U}_i}(\nabla_{\mu_i}^{i\tau}
 
 - [\[ICLR 2026\] Sample-Efficient Distributionally Robust Multi-Agent Reinforcement Learning via Online Interaction](../../ICLR2026/ai_safety/sample-efficient_distributionally_robust_multi-agent_reinforcement_learning_via_.md)
 - [\[ICML 2025\] Adversarial Inception Backdoor Attacks against Reinforcement Learning](adversarial_inception_backdoor_attacks_against_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Reverse Engineering Human Preferences with Reinforcement Learning](../../NeurIPS2025/ai_safety/reverse_engineering_human_preferences_with_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Contextual Integrity in LLMs via Reasoning and Reinforcement Learning](../../NeurIPS2025/ai_safety/contextual_integrity_in_llms_via_reasoning_and_reinforcement_learning.md)
-- [\[AAAI 2026\] From Single to Societal: Analyzing Persona-Induced Bias in Multi-Agent Interactions](../../AAAI2026/ai_safety/from_single_to_societal_analyzing_persona-induced_bias_in_multi-agent_interactio.md)
+- [\[NeurIPS 2025\] Influence Functions for Edge Edits in Non-Convex Graph Neural Networks](../../NeurIPS2025/ai_safety/influence_functions_for_edge_edits_in_non-convex_graph_neural_networks.md)
+- [\[ICML 2025\] Doubly Robust Fusion of Many Treatments for Policy Learning](doubly_robust_fusion_of_many_treatments_for_policy_learning.md)
+- [\[CVPR 2025\] Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning](../../CVPR2025/ai_safety/infighting_in_the_dark_multi-label_backdoor_attack_in_federated_learning.md)
 
 <!-- RELATED:END -->

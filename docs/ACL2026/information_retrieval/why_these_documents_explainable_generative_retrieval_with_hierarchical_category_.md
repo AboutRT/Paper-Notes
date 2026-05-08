@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2411.05572](https://arxiv.org/abs/2411.05572)  
 **代码**: [GitHub](https://augustinlib.github.io/HyPE/)  
-**领域**: information_retrieval  
+**领域**: 信息检索  
 **关键词**: 生成式检索, 可解释检索, 层级类别路径, 文档标识符, 路径感知排序
 
 ## 一句话总结

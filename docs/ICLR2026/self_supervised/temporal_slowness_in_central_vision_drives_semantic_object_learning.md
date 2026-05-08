@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.04462](https://arxiv.org/abs/2602.04462)  
 **代码**: 无  
-**领域**: video_understanding  
+**领域**: 自监督  
 **关键词**: central vision, temporal slowness, self-supervised learning, Ego4D, semantic representation
 
 ## 一句话总结

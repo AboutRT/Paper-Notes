@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.03519](https://arxiv.org/abs/2503.03519)  
-**代码**: https://github.com/nis-research/hfss  
-**领域**: 其他  
+**代码**: [https://github.com/nis-research/hfss](https://github.com/nis-research/hfss)  
+**领域**: LLM评测  
 **关键词**: 频率捷径、OOD泛化、傅里叶分析、纹理偏置、模型鲁棒性
 
 ## 一句话总结

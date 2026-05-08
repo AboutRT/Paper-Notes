@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.12371](https://arxiv.org/abs/2407.12371)  
-**代码**: [项目主页](https://lvxintao.github.io/himo) (有)  
+**代码**: [项目主页](https://lvxintao.github.io/himo)  
 **领域**: 图像生成  
 **关键词**: 人物-物体交互, 多物体, 动作生成, 扩散模型, 时序分割
 
@@ -256,8 +256,8 @@ $$\mathcal{L} = \lambda_{vel}\mathcal{L}_{vel} + \lambda_{pos}\mathcal{L}_{pos} 
 
 - [\[CVPR 2025\] Visual Persona: Foundation Model for Full-Body Human Customization](../../CVPR2025/image_generation/visual_persona_foundation_model_for_full-body_human_customization.md)
 - [\[ECCV 2024\] MagicEraser: Erasing Any Objects via Semantics-Aware Control](magiceraser_erasing_any_objects_via_semantics-aware_control.md)
-- [\[ECCV 2024\] Realistic Human Motion Generation with Cross-Diffusion Models](realistic_human_motion_generation_with_cross-diffusion_models.md)
 - [\[ECCV 2024\] Text2Place: Affordance-aware Text Guided Human Placement](text2place_affordance-aware_text_guided_human_placement.md)
+- [\[ECCV 2024\] Realistic Human Motion Generation with Cross-Diffusion Models](realistic_human_motion_generation_with_cross-diffusion_models.md)
 - [\[ECCV 2024\] Towards Reliable Advertising Image Generation Using Human Feedback](towards_reliable_advertising_image_generation_using_human_fe.md)
 
 <!-- RELATED:END -->

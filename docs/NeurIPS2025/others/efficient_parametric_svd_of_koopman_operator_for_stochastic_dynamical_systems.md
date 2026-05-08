@@ -17,7 +17,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2507.07222](https://arxiv.org/abs/2507.07222)  
 **代码**: [MinchanJeong/NeuralKoopmanSVD](https://github.com/MinchanJeong/NeuralKoopmanSVD)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: Koopman operator, singular value decomposition, dynamical systems, low-rank approximation, deep learning
 
 ## 一句话总结
@@ -152,8 +152,8 @@ $$\mathcal{L}_{\text{lora}}(\mathbf{f}, \mathbf{g}) = -2 \operatorname{tr}(\math
 
 - [\[NeurIPS 2025\] Modeling Neural Activity with Conditionally Linear Dynamical Systems](modeling_neural_activity_with_conditionally_linear_dynamical_systems.md)
 - [\[NeurIPS 2025\] An Empirical Investigation of Neural ODEs and Symbolic Regression for Dynamical Systems](an_empirical_investigation_of_neural_odes_and_symbolic_regression_for_dynamical_.md)
-- [\[NeurIPS 2025\] Coresets for Clustering Under Stochastic Noise](coresets_for_clustering_under_stochastic_noise.md)
 - [\[AAAI 2026\] SVD-NO: Learning PDE Solution Operators with SVD Integral Kernels](../../AAAI2026/others/svd-no_learning_pde_solution_operators_with_svd_integral_kernels.md)
-- [\[NeurIPS 2025\] Inferring Stochastic Dynamics with Growth from Cross-Sectional Data](inferring_stochastic_dynamics_with_growth_from_cross-sectional_data.md)
+- [\[NeurIPS 2025\] Coresets for Clustering Under Stochastic Noise](coresets_for_clustering_under_stochastic_noise.md)
+- [\[NeurIPS 2025\] Deep Learning for Continuous-Time Stochastic Control with Jumps](deep_learning_for_continuous-time_stochastic_control_with_jumps.md)
 
 <!-- RELATED:END -->

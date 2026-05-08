@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.11435](https://arxiv.org/abs/2502.11435)  
-**代码**: https://github.com/qiancheng0/Open-SMARTAgent (有)  
+**代码**: [https://github.com/qiancheng0/Open-SMARTAgent](https://github.com/qiancheng0/Open-SMARTAgent)  
 **领域**: LLM Agent  
 **关键词**: 工具过度使用, 元认知, 自感知Agent, 参数化知识, 工具调用优化
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
-**代码**: https://a-embodied.github.io/A0/  
-**领域**: image_generation / 机器人操控  
+**代码**: [https://a-embodied.github.io/A0/](https://a-embodied.github.io/A0/)  
+**领域**: 图像生成  
 **关键词**: 机器人操控, 空间可供性, 层次化模型, 扩散模型, 跨平台泛化
 
 ## 一句话总结

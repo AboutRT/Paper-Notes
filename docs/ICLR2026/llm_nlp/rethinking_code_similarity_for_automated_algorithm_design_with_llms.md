@@ -19,7 +19,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.02787](https://arxiv.org/abs/2603.02787)  
-**代码**: [https://github.com/RayZhhh/behavesim](https://github.com/RayZhhh/behavesim) (有)  
+**代码**: [https://github.com/RayZhhh/behavesim](https://github.com/RayZhhh/behavesim)  
 **领域**: LLM / 自动算法设计 / 代码相似度  
 **关键词**: LLM-AAD, 代码相似度, 行为相似度, 动态时间规整, FunSearch, EoH, 算法多样性
 
@@ -130,9 +130,9 @@ BehaveSim 的核心思想是：不看代码文本，不看最终输出，而是�
 ## 相关论文
 
 - [\[CVPR 2025\] Rethinking Spiking Self-Attention Mechanism: Implementing a-XNOR Similarity Calculation in Spiking Transformers](../../CVPR2025/llm_nlp/rethinking_spiking_self-attention_mechanism_implementing_a-xnor_similarity_calcu.md)
+- [\[ICLR 2026\] Rethinking Uncertainty Estimation in LLMs: A Principled Single-Sequence Measure](rethinking_uncertainty_estimation_in_llms_a_principled_single-sequence_measure.md)
 - [\[ICLR 2026\] DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas](dreamon_diffusion_language_models_for_code_infilling_beyond_fixed-size_canvas.md)
 - [\[ACL 2025\] AutoExp: Automatic Experiment Design and Execution by LLMs](../../ACL2025/llm_nlp/autoexp_automatic_experiment_design_and_execution_by_llms.md)
 - [\[ICML 2025\] The Lock-in Hypothesis: Stagnation by Algorithm](../../ICML2025/llm_nlp/the_lock-in_hypothesis_stagnation_by_algorithm.md)
-- [\[ACL 2026\] ChatHLS: Towards Systematic Design Automation and Optimization for High-Level Synthesis](../../ACL2026/llm_nlp/chathls_towards_systematic_design_automation_and_optimization_for_high-level_syn.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.11436](https://arxiv.org/abs/2511.11436)  
 **代码**: [MoCo-INR](https://github.com/MeijiTian/MoCo-INR)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 心脏MRI重建, 运动补偿, 隐式神经表示, 无监督学习, 欠采样重建
 
 ## 一句话总结

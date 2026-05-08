@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.15087](https://arxiv.org/abs/2407.15087)  
-**代码**: https://github.com/FanScy/BEVInstructor (有)  
-**领域**: Agent  
+**代码**: [https://github.com/FanScy/BEVInstructor](https://github.com/FanScy/BEVInstructor)  
+**领域**: 自动驾驶  
 **关键词**: Navigation Instruction Generation, BEV Perception, Multi-Modal LLM, Prompt Tuning, Iterative Refinement
 
 ## 一句话总结
@@ -145,8 +145,8 @@ R2R Val Unseen 消融：
 
 - [\[ECCV 2024\] H-V2X: A Large Scale Highway Dataset for BEV Perception](h-v2x_a_large_scale_highway_dataset_for_bev_perception.md)
 - [\[ECCV 2024\] Optimizing Diffusion Models for Joint Trajectory Prediction and Controllable Generation](optimizing_diffusion_models_for_joint_trajectory_prediction_and_controllable_gen.md)
-- [\[ECCV 2024\] Adaptive Human Trajectory Prediction via Latent Corridors](adaptive_human_trajectory_prediction_via_latent_corridors.md)
 - [\[ECCV 2024\] OccGen: Generative Multi-modal 3D Occupancy Prediction for Autonomous Driving](occgen_generative_multi-modal_3d_occupancy_prediction_for_autonomous_driving.md)
+- [\[ECCV 2024\] Adaptive Human Trajectory Prediction via Latent Corridors](adaptive_human_trajectory_prediction_via_latent_corridors.md)
 - [\[ECCV 2024\] Neural Volumetric World Models for Autonomous Driving](neural_volumetric_world_models_for_autonomous_driving.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - RAG distillation
-  - LLM agent
+  - 信息检索
   - hint extraction
   - ALFWorld
   - WebShop
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.01375](https://arxiv.org/abs/2510.01375)  
 **代码**: [匿名仓库](https://anonymous.4open.science/r/anonymized-submission-iclr/README.md)  
-**领域**: 模型压缩/知识蒸馏  
+**领域**: 信息检索  
 **关键词**: RAG distillation, LLM agent, hint extraction, ALFWorld, WebShop
 
 ## 一句话总结
@@ -174,10 +174,10 @@ k=3 在两个环境中均衡最优；k=9 时 hint 过多反而有害。
 
 ## 相关论文
 
-- [\[CVPR 2025\] VladVA: Discriminative Fine-tuning of LVLMs](../../CVPR2025/information_retrieval/vladva_discriminative_fine-tuning_of_lvlms.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/information_retrieval/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
 - [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
-- [\[ICLR 2026\] LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference](lightretriever_a_llm-based_text_retrieval_architecture_with_extremely_faster_que.md)
 - [\[ACL 2026\] Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring](../../ACL2026/information_retrieval/bayesian_active_learning_with_gaussian_processes_guided_by_llm_relevance_scoring.md)
-- [\[ICLR 2026\] Judge's Verdict: A Comprehensive Analysis of LLM Judge Capability Through Human Agreement](judges_verdict_a_comprehensive_analysis_of_llm_judge_capability_through_human_ag.md)
+- [\[ICLR 2026\] LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference](lightretriever_a_llm-based_text_retrieval_architecture_with_extremely_faster_que.md)
+- [\[ACL 2025\] Retrieval-Augmented Fine-Tuning With Preference Optimization For Visual Program Generation](../../ACL2025/information_retrieval/retrieval-augmented_fine-tuning_with_preference_optimization_for_visual_program_.md)
 
 <!-- RELATED:END -->

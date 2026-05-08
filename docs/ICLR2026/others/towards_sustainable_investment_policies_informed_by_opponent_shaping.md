@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2602.11829](https://arxiv.org/abs/2602.11829)
 - **代码**: 将公开
-- **领域**: 多智能体强化学习 / 博弈论 / 气候经济学
+- **领域**: 其他
 - **关键词**: Opponent Shaping, Advantage Alignment, 社会困境, ESG, 气候风险, InvestESG
 
 ## 一句话总结

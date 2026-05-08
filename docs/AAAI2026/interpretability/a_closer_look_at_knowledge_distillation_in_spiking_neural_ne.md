@@ -2,10 +2,10 @@
 title: >-
   [论文解读] A Closer Look at Knowledge Distillation in Spiking Neural Network Training
 description: >-
-  [AAAI 2026][知识蒸馏] 针对ANN→SNN知识蒸馏中教师ANN连续特征/logits与学生SNN离散稀疏spike特征/logits之间分布差异被忽视的问题，提出基于显著性缩放激活图蒸馏（SAMD）和噪声平滑logits蒸馏（NLD）的CKDSNN框架，在CIFAR-10/100、ImageNet-1K和CIFAR10-DVS上均取得SNN训练的新SOTA。
+  [AAAI 2026][可解释性] 针对ANN→SNN知识蒸馏中教师ANN连续特征/logits与学生SNN离散稀疏spike特征/logits之间分布差异被忽视的问题，提出基于显著性缩放激活图蒸馏（SAMD）和噪声平滑logits蒸馏（NLD）的CKDSNN框架，在CIFAR-10/100、ImageNet-1K和CIFAR10-DVS上均取得SNN训练的新SOTA。
 tags:
   - AAAI 2026
-  - 知识蒸馏
+  - 可解释性
   - 脉冲神经网络
   - 激活图对齐
   - 噪声平滑
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.06902](https://arxiv.org/abs/2511.06902)  
 **代码**: [https://github.com/SinoLeu/CKDSNN](https://github.com/SinoLeu/CKDSNN)  
-**领域**: 模型压缩/神经形态计算  
+**领域**: 可解释性  
 **关键词**: 知识蒸馏, 脉冲神经网络, 激活图对齐, 噪声平滑, 能效训练  
 
 ## 一句话总结
@@ -135,6 +135,6 @@ $$\mathcal{L}_{total} = \mathcal{L}_{CE} + \beta \cdot \mathcal{L}_{SAMD} + \gam
 - [\[ACL 2026\] Interpretable Traces, Unexpected Outcomes: Investigating the Disconnect in Trace-Based Knowledge Distillation](../../ACL2026/interpretability/interpretable_traces_unexpected_outcomes_investigating_the_disconnect_in_trace-b.md)
 - [\[NeurIPS 2025\] FaCT: Faithful Concept Traces for Explaining Neural Network Decisions](../../NeurIPS2025/interpretability/fact_faithful_concept_traces_for_explaining_neural_network_decisions.md)
 - [\[AAAI 2026\] Enhancing Binary Encoded Crime Linkage Analysis Using Siamese Network](enhancing_binary_encoded_crime_linkage_analysis_using_siamese_network.md)
-- [\[AAAI 2026\] FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)
+- [\[ICML 2025\] A Cross Modal Knowledge Distillation & Data Augmentation Recipe for Improving Transcriptomics Representations through Morphological Features](../../ICML2025/interpretability/a_cross_modal_knowledge_distillation_data_augmentation_recipe_for_improving_tran.md)
 
 <!-- RELATED:END -->

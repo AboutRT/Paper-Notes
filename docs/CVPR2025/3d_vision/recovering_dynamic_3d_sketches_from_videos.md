@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20321](https://arxiv.org/abs/2503.20321)  
-**代码**: https://jaeah.me/liv3stroke_web (项目页面)  
+**代码**: [https://jaeah.me/liv3stroke_web](https://jaeah.me/liv3stroke_web) (项目页面)  
 **领域**: 3D视觉  
 **关键词**: 动态草图, 三维运动抽象, Bézier曲线, 可微渲染, 运动表征
 

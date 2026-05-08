@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.20483](https://arxiv.org/abs/2503.20483)  
 **代码**: [项目页](https://foundation-model-research.github.io/difflens)  
-**领域**: AI安全 / 扩散模型  
+**领域**: 图像生成  
 **关键词**: 扩散模型偏见, 机制可解释性, 稀疏自编码器, 偏见特征, 偏见缓解
 
 ## 一句话总结
@@ -121,6 +121,6 @@ k-SAE用重建MSE损失训练。偏见分类器用生成样本的属性标签（
 - [\[ICML 2025\] Towards a Mechanistic Explanation of Diffusion Model Generalization](../../ICML2025/image_generation/towards_a_mechanistic_explanation_of_diffusion_model_generalization.md)
 - [\[CVPR 2025\] Implicit Bias Injection Attacks against Text-to-Image Diffusion Models](implicit_bias_injection_attacks_against_text-to-image_diffusion_models.md)
 - [\[ICCV 2025\] DMQ: Dissecting Outliers of Diffusion Models for Post-Training Quantization](../../ICCV2025/image_generation/dmq_dissecting_outliers_of_diffusion_models_for_post-training_quantization.md)
-- [\[NeurIPS 2025\] FairImagen: Post-Processing for Bias Mitigation in Text-to-Image Models](../../NeurIPS2025/image_generation/fairimagen_post-processing_for_bias_mitigation_in_text-to-image_models.md)
+- [\[CVPR 2025\] A Bias-Free Training Paradigm for More General AI-generated Image Detection](a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)
 
 <!-- RELATED:END -->

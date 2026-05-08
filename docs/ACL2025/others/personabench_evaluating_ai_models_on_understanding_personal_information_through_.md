@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 个性化
-  - RAG
+  - 其他
   - 合成数据
   - 用户画像
   - 隐私数据理解
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.20616](https://arxiv.org/abs/2502.20616)  
 **代码**: 未公开  
-**领域**: others  
+**领域**: 其他  
 **关键词**: Personalization, RAG, Synthetic Data, User Profile, Benchmark, Private Data  
 
 ## 一句话总结
@@ -268,9 +268,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Theorem Prover as a Judge for Synthetic Data Generation](theorem_prover_as_a_judge_for_synthetic_data_generation.md)
-- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
 - [\[ACL 2025\] TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data](targa_targeted_synthetic_data_generation_for_practical_reasoning_over_structured.md)
+- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
 - [\[ACL 2025\] Meaning Beyond Truth Conditions: Evaluating Discourse Level Understanding via Anaphora Accessibility](meaning_beyond_truth_conditions_evaluating_discourse_level_understanding_via_ana.md)
-- [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](../../AAAI2026/others/beyond_world_models_rethinking_understanding_in_ai_models.md)
+- [\[ACL 2025\] Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks](principled_generalization_arithmetic.md)
 
 <!-- RELATED:END -->

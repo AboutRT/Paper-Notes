@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.12015](https://arxiv.org/abs/2604.12015)  
-**代码**: https://github.com/Raina-Xin/UCS  
+**代码**: [https://github.com/Raina-Xin/UCS](https://github.com/Raina-Xin/UCS)  
 **领域**: 上下文学习  
 **关键词**: In-Context Learning, 示例选择, 覆盖率估计, Good-Turing估计, 聚类
 

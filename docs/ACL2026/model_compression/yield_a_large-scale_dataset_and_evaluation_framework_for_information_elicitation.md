@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.10968](https://arxiv.org/abs/2604.10968)  
-**代码**: https://github.com/infosenselab/yield (有)  
-**领域**: 对话系统  
+**代码**: [https://github.com/infosenselab/yield](https://github.com/infosenselab/yield)  
+**领域**: 模型压缩  
 **关键词**: 信息引出, 对话数据集, 强化学习, 会话代理, POMDP
 
 ## 一句话总结

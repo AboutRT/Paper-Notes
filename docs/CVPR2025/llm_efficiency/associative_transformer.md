@@ -127,10 +127,10 @@ AiT-Medium（45.9M 参数）超过 ViT-Base（85.7M），参数量仅一半。Im
 
 ## 相关论文
 
-- [\[CVPR 2025\] Spiking Transformer: Introducing Accurate Addition-Only Spiking Self-Attention for Transformer](spiking_transformer_introducing_accurate_addition-only_spiking_self-attention_fo.md)
-- [\[CVPR 2025\] CARE Transformer: Mobile-Friendly Linear Visual Transformer via Decoupled Dual Interaction](care_transformer_linear_attention.md)
-- [\[NeurIPS 2025\] Dense Associative Memory with Epanechnikov Energy](../../NeurIPS2025/llm_efficiency/dense_associative_memory_with_epanechnikov_energy.md)
-- [\[NeurIPS 2025\] Frequency-Aware Token Reduction for Efficient Vision Transformer](../../NeurIPS2025/llm_efficiency/frequency-aware_token_reduction_for_efficient_vision_transformer.md)
 - [\[NeurIPS 2025\] A Unified Framework for Establishing the Universal Approximation of Transformer-Type Architectures](../../NeurIPS2025/llm_efficiency/a_unified_framework_for_establishing_the_universal_approxima.md)
+- [\[ICML 2025\] Curse of High Dimensionality Issue in Transformer for Long-context Modeling](../../ICML2025/llm_efficiency/curse_of_high_dimensionality_issue_in_transformer_for_long-context_modeling.md)
+- [\[NeurIPS 2025\] Linear Attention for Efficient Bidirectional Sequence Modeling](../../NeurIPS2025/llm_efficiency/linear_attention_for_efficient_bidirectional_sequence_modeling.md)
+- [\[CVPR 2025\] Language Guided Concept Bottleneck Models for Interpretable Continual Learning](language_guided_concept_bottleneck_models_for_interpretable_continual_learning.md)
+- [\[CVPR 2025\] LOCORE: Image Re-ranking with Long-Context Sequence Modeling](locore_image_re-ranking_with_long-context_sequence_modeling.md)
 
 <!-- RELATED:END -->

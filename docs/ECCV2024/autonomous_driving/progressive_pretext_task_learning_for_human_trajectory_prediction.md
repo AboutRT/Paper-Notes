@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.11588](https://arxiv.org/abs/2407.11588)  
-**代码**: 有 (https://github.com/iSEE-Laboratory/PPT)  
+**代码**: 有 ([https://github.com/iSEE-Laboratory/PPT](https://github.com/iSEE-Laboratory/PPT))  
 **领域**: 自动驾驶  
 **关键词**: 行人轨迹预测, 渐进式学习, 前置任务, Transformer, 知识蒸馏
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] GOAL: Global-Local Object Alignment Learning
 description: >-
-  [CVPR 2025][全局-局部对齐] 提出GOAL方法，通过局部图-句匹配（LISM）和Token相似性学习（TSL）两个模块增强CLIP对长文本描述的理解能力，在全局对齐的基础上引入局部语义对齐，大幅提升图文检索性能。
+  [CVPR 2025][信息检索] 提出GOAL方法，通过局部图-句匹配（LISM）和Token相似性学习（TSL）两个模块增强CLIP对长文本描述的理解能力，在全局对齐的基础上引入局部语义对齐，大幅提升图文检索性能。
 tags:
   - CVPR 2025
-  - 全局-局部对齐
+  - 信息检索
   - CLIP微调
   - 长文本图文检索
   - SAM分割
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.17782](https://arxiv.org/abs/2503.17782)  
 **代码**: [GitHub](https://perceptualai-lab.github.io/GOAL)  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 全局-局部对齐、CLIP微调、长文本图文检索、SAM分割、Token相似性学习
 
 ## 一句话总结
@@ -148,10 +148,10 @@ GOAL包含两个核心组件：(1) LISM（Local Image-Sentence Matching）用于
 
 ## 相关论文
 
-- [\[CVPR 2025\] Preserving Clusters in Prompt Learning for Unsupervised Domain Adaptation](preserving_clusters_in_prompt_learning_for_unsupervised_domain_adaptation.md)
 - [\[ACL 2025\] Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG](../../ACL2025/information_retrieval/divide_then_align_rag_knowledge_boundary.md)
-- [\[CVPR 2026\] Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval](../../CVPR2026/information_retrieval/beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md)
 - [\[ACL 2026\] To Lie or Not to Lie? Investigating The Biased Spread of Global Lies by LLMs](../../ACL2026/information_retrieval/to_lie_or_not_to_lie_investigating_the_biased_spread_of_global_lies_by_llms.md)
-- [\[ACL 2025\] GainRAG: Preference Alignment in Retrieval-Augmented Generation through Gain Signal Synthesis](../../ACL2025/information_retrieval/gainrag_preference_alignment.md)
+- [\[CVPR 2026\] Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval](../../CVPR2026/information_retrieval/beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md)
+- [\[CVPR 2025\] Preserving Clusters in Prompt Learning for Unsupervised Domain Adaptation](preserving_clusters_in_prompt_learning_for_unsupervised_domain_adaptation.md)
+- [\[AAAI 2026\] OAD-Promoter: Enhancing Zero-shot VQA using Large Language Models with Object Attribute Description](../../AAAI2026/information_retrieval/oad-promoter_enhancing_zero-shot_vqa_using_large_language_models_with_object_att.md)
 
 <!-- RELATED:END -->

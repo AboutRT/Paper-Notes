@@ -8,7 +8,7 @@ tags:
   - 语音
   - product claims
   - in-context learning
-  - LoRA fine-tuning
+  - 音频语音
   - MaxDiff
   - consumer simulation
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.20652](https://arxiv.org/abs/2509.20652)  
 **代码**: 有 (GitHub)  
-**领域**: 文本生成 / LLM应用  
+**领域**: 音频语音  
 **关键词**: product claims, in-context learning, LoRA fine-tuning, MaxDiff, consumer simulation
 
 ## 一句话总结
@@ -128,9 +128,9 @@ Claim Advisor 是一个 MVP Web 应用，包含三大功能模块：(1) **语义
 ## 相关论文
 
 - [\[AAAI 2026\] Aligning Generative Music AI with Human Preferences: Methods and Challenges](../../AAAI2026/audio_speech/aligning_generative_music_ai_with_human_preferences_methods_and_challenges.md)
-- [\[NeurIPS 2025\] Echoes of Humanity: Exploring the Perceived Humanness of AI Music](echoes_of_humanity_exploring_the_perceived_humanness_of_ai_music.md)
 - [\[NeurIPS 2025\] Sensorium Arc: AI Agent System for Oceanic Data Exploration and Interactive Eco-Art](sensorium_arc_ai_agent_system_for_oceanic_data_exploration_and_interactive_eco-a.md)
-- [\[NeurIPS 2025\] Seeing Sound, Hearing Sight: Uncovering Modality Bias and Conflict of AI Models in Sound Localization](seeing_sound_hearing_sight_uncovering_modality_bias_and_conflict_of_ai_models_in.md)
+- [\[NeurIPS 2025\] Echoes of Humanity: Exploring the Perceived Humanness of AI Music](echoes_of_humanity_exploring_the_perceived_humanness_of_ai_music.md)
 - [\[NeurIPS 2025\] Ethics Statements in AI Music Papers: The Effective and the Ineffective](ethics_statements_in_ai_music_papers_the_effective_and_the_ineffective.md)
+- [\[NeurIPS 2025\] From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era](from_generation_to_attribution_music_ai_agent_architectures_for_the_post-streami.md)
 
 <!-- RELATED:END -->

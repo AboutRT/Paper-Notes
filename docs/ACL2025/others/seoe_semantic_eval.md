@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - Open Domain Event Detection
   - Semantic Evaluation
-  - LLM-as-Judge
+  - 其他
   - Benchmark Construction
   - Event Extraction
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.03303](https://arxiv.org/abs/2503.03303)  
 **代码**: [https://github.com/Lyfralston/SEOE](https://github.com/Lyfralston/SEOE)  
-**领域**: NLP 理解  
+**领域**: 其他  
 **关键词**: Open Domain Event Detection, Semantic Evaluation, LLM-as-Judge, Benchmark Construction, Event Extraction  
 
 ## 一句话总结
@@ -177,7 +177,7 @@ SEOE 由两部分组成：**可扩展评估 benchmark** + **语义评估指标**
 - [\[ACL 2025\] Identifying Reliable Evaluation Metrics for Scientific Text Revision](reliable_eval_metrics_scientific.md)
 - [\[ACL 2025\] Explaining Matters: Leveraging Definitions and Semantic Expansion for Sexism Detection](explaining_matters_leveraging_definitions_and_semantic_expansion_for_sexism_dete.md)
 - [\[ACL 2025\] DoMIX: An Efficient Framework for Exploiting Domain Knowledge in Fine-Tuning](domix_an_efficient_framework_for_exploiting.md)
-- [\[ACL 2025\] Explicit and Implicit Data Augmentation for Social Event Detection](explicit_and_implicit_data_augmentation_for_social_event_detection.md)
 - [\[ACL 2025\] SSUF: A Semi-supervised Scalable Unified Framework for E-commerce Query Classification](a_semi-supervised_scalable_unified_framework_for_e-commerce_query_classification.md)
+- [\[ACL 2025\] Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework](learning_to_align_multi-faceted_evaluation_a_unified_and_robust_framework.md)
 
 <!-- RELATED:END -->

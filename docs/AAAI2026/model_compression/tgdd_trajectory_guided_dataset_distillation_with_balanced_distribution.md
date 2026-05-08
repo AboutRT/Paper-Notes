@@ -53,7 +53,7 @@ TGDD 分三步：
 1. **专家轨迹构建（Expert Trajectory Construction）**
 
    训练 N 个随机初始化的神经网络直到收敛（M 个 epoch），保存所有中间快照：
-   $$\mathbf{P} = \{p_{i,j} \mid 0 \leq i \leq N, \ 0 \leq j \leq M\}$$
+    $\mathbf{P} = \{p_{i,j} \mid 0 \leq i \leq N, \ 0 \leq j \leq M\}$
 
    与 MTT 需要 200 条轨迹不同，TGDD 仅需 **5 条轨迹**即可达到竞争性能（图 6(c) 实验验证）。关键优势是轨迹的预训练只使用原始数据，**无需在蒸馏过程中训练网络**，因此可以提前预训练并复用。
 
@@ -61,7 +61,7 @@ TGDD 分三步：
 
    每次蒸馏迭代中，随机选择一条轨迹 $\mathbf{P}_i$，再随机选择一个训练阶段的模型快照 $\theta_{ext} = p_{i,j}$ 作为特征提取器。使用 MMD 对齐每个类别的合成数据和原始数据的特征分布：
 
-   $$L_{MMD} = \sum_{c=1}^{C} \left\| \frac{1}{|B^T_c|} \sum_{i=1}^{|B^T_c|} \psi_{\theta_{ext}}(x_i) - \frac{1}{|B^S_c|} \sum_{i=1}^{|B^S_c|} \psi_{\theta_{ext}}(s_i) \right\|^2$$
+    $L_{MMD} = \sum_{c=1}^{C} \left\| \frac{1}{|B^T_c|} \sum_{i=1}^{|B^T_c|} \psi_{\theta_{ext}}(x_i) - \frac{1}{|B^S_c|} \sum_{i=1}^{|B^S_c|} \psi_{\theta_{ext}}(s_i) \right\|^2$
 
    通过在不同训练阶段采样特征提取器，合成数据被迫在**所有阶段**都与原始数据对齐，从而丰富了语义多样性。
 
@@ -69,7 +69,7 @@ TGDD 分三步：
 
    仅用 MMD 对齐均值不足以保证类间分离。给定特征提取器 $\theta_{ext} = p_{i,j}$，从"专家区域" $P_{er} = \{p_{i,j}, ..., p_{i,j+L-1}\}$ 中随机选择一个专家模型 $\theta_{exp}$，对合成数据施加分类损失：
 
-   $$L_{SDC} = \frac{1}{B^S_c} \sum_{c=1}^{C} \sum_{i=1}^{|B^S_c|} l(\phi_{exp}(s_i), y_i)$$
+    $L_{SDC} = \frac{1}{B^S_c} \sum_{c=1}^{C} \sum_{i=1}^{|B^S_c|} l(\phi_{exp}(s_i), y_i)$
 
    这个损失直接鼓励合成数据在专家模型眼中具有**高类内紧凑度**，从而改善类间分离。使用不同迭代的不同专家实现了**集成效果**而无需额外训练成本。
 
@@ -171,7 +171,7 @@ $$L_{overall} = L_{MMD} + \alpha L_{SDC}$$
 - [\[AAAI 2026\] DP-GenG: Differentially Private Dataset Distillation Guided by DP-Generated Data](dp-geng_differentially_private_dataset_distillation_guided_by_dp-generated_data.md)
 - [\[AAAI 2026\] Rethinking Long-tailed Dataset Distillation: A Uni-Level Framework with Unbiased Recovery and Relabeling](rethinking_long-tailed_dataset_distillation_a_uni-level_framework_with_unbiased_.md)
 - [\[ICCV 2025\] Dataset Distillation via the Wasserstein Metric](../../ICCV2025/model_compression/dataset_distillation_via_the_wasserstein_metric.md)
-- [\[ICLR 2026\] Dataset Distillation as Pushforward Optimal Quantization](../../ICLR2026/model_compression/dataset_distillation_as_pushforward_optimal_quantization.md)
 - [\[ICLR 2026\] Rectified Decoupled Dataset Distillation: A Closer Look for Fair and Comprehensive Evaluation](../../ICLR2026/model_compression/rectified_decoupled_dataset_distillation_a_closer_look_for_fair_and_comprehensiv.md)
+- [\[ICLR 2026\] Dataset Distillation as Pushforward Optimal Quantization](../../ICLR2026/model_compression/dataset_distillation_as_pushforward_optimal_quantization.md)
 
 <!-- RELATED:END -->

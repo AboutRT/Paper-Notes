@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 预训练方向29篇论文解读
+  ICML2025 预训练方向30篇论文解读
 description: >-
-  29篇ICML2025的预训练方向论文解读，涵盖 LLM、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  30篇ICML2025的预训练方向论文解读，涵盖 LLM、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📚 预训练
 
-**🧪 ICML2025** · **29** 篇论文解读
+**🧪 ICML2025** · **30** 篇论文解读
 
 **[A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning](a_square_peg_in_a_square_hole_meta-expert_for_long-tailed_semi-supervised_learni.md)**
 
@@ -97,6 +97,10 @@ description: >-
 **[Revisiting Continuity of Image Tokens for Cross-Domain Few-Shot Learning](revisiting_continuity_of_image_tokens_for_cross-domain_few-shot_learning.md)**
 
 :   发现破坏 ViT 图像 token 的连续性（使相邻 patch 像素不再平滑过渡）在源域性能显著下降但在目标域仅略降，揭示连续性帮助学习的大空间模式更难跨域迁移，据此提出简单有效的 ReCIT 方法来缩小域差距。
+
+**[Scaling Inference-Efficient Language Models](scaling_inference-efficient_language_models.md)**
+
+:   本文提出了推理感知的 Scaling Law，通过在 Chinchilla 损失函数中引入模型宽高比（aspect ratio）项来联合优化参数量、训练 token 数和模型形状，训练 63 个模型拟合该定律后指导设计了 Morph-1B 模型，在保持下游任务精度的同时实现 1.8× 推理延迟提升。
 
 **[The Dark Side of the Forces: Assessing Non-Conservative Force Models for Atomistic Machine Learning](the_dark_side_of_the_forces_assessing_non-conservative_force_models_for_atomisti.md)**
 

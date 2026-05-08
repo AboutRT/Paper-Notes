@@ -9,7 +9,7 @@ tags:
   - 语言化置信度
   - Brier分数
   - proper scoring rule
-  - LLM过度自信
+  - LLM评测
 ---
 
 # ConfTuner: Training Large Language Models to Express Their Confidence Verbally
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.18847](https://arxiv.org/abs/2508.18847)  
 **代码**: [GitHub](https://github.com/liushiliushi/ConfTuner)  
-**领域**: LLM / 不确定性校准  
+**领域**: LLM评测  
 **关键词**: 置信度校准, 语言化置信度, Brier分数, proper scoring rule, LLM过度自信
 
 ## 一句话总结
@@ -142,10 +142,10 @@ Tokenized Brier score + LoRA。LLaMA 用 $\mathcal{T}_{100}$（0-100%），Qwen/
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](hyperbolic_fine-tuning_for_large_language_models.md)
 - [\[NeurIPS 2025\] Can Large Language Models Master Complex Card Games?](can_large_language_models_master_complex_card_games.md)
 - [\[NeurIPS 2025\] LTD-Bench: Evaluating Large Language Models by Letting Them Draw](ltd-bench_evaluating_large_language_models_by_letting_them_draw.md)
-- [\[NeurIPS 2025\] Exploiting Vocabulary Frequency Imbalance in Language Model Pre-training](exploiting_vocabulary_frequency_imbalance_in_language_model_pre-training.md)
 - [\[NeurIPS 2025\] Creativity or Brute Force? Using Brainteasers as a Window into the Problem-Solving Abilities of Large Language Models](creativity_or_brute_force_using_brainteasers_as_a_window_into_the_problem-solvin.md)
-- [\[ICML 2025\] Correlated Errors in Large Language Models](../../ICML2025/llm_evaluation/correlated_errors_in_large_language_models.md)
+- [\[NeurIPS 2025\] Benchmarking Large Language Models for Zero-Shot and Few-Shot Phishing URL Detection](benchmarking_large_language_models_for_zero-shot_and_few-shot_phishing_url_detec.md)
 
 <!-- RELATED:END -->

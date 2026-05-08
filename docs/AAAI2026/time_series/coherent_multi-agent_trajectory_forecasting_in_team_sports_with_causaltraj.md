@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.18248](https://arxiv.org/abs/2511.18248)  
 **作者**: Wei Zhen Teoh
 **代码**: [wezteoh/causaltraj](https://github.com/wezteoh/causaltraj)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: 多智能体轨迹预测, 因果自回归模型, 团队运动分析, 联合指标, 混合高斯分布
 
 ## 一句话总结
@@ -142,6 +142,6 @@ CausalTraj在短时间域（≤2s）单智能体指标上优于所有基线，�
 - [\[AAAI 2026\] M2FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](m2fmoe_multi-resolution_multi-view_frequency_mixture-of-experts_for_extreme-adap.md)
 - [\[AAAI 2026\] FreqCycle: A Multi-Scale Time-Frequency Analysis Method for Time Series Forecasting](freqcycle_a_multi-scale_time-frequency_analysis_method_for_time_series_forecasti.md)
 - [\[ICCV 2025\] V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction](../../ICCV2025/time_series/v2xpnp_vehicle-to-everything_spatio-temporal_fusion_for_multi-agent_perception_a.md)
-- [\[AAAI 2026\] Finding Time Series Anomalies using Granular-ball Vector Data Description](finding_time_series_anomalies_using_granular-ball_vector_data_description.md)
+- [\[AAAI 2026\] Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints](mitigating_error_accumulation_in_co-speech_motion_generation_via_global_rotation.md)
 
 <!-- RELATED:END -->

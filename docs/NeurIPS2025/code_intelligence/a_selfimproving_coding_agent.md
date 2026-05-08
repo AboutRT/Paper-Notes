@@ -2,10 +2,10 @@
 title: >-
   [论文解读] A Self-Improving Coding Agent
 description: >-
-  [NeurIPS 2025][self-improving agent] 提出SICA（Self-Improving Coding Agent），一个能自主编辑自身代码库来提升性能的编程Agent——消除了meta-agent和target-agent的区分，通过迭代式自我改进在SWE-Bench Verified子集上从17%提升到53%。
+  [NeurIPS 2025][代码智能] 提出SICA（Self-Improving Coding Agent），一个能自主编辑自身代码库来提升性能的编程Agent——消除了meta-agent和target-agent的区分，通过迭代式自我改进在SWE-Bench Verified子集上从17%提升到53%。
 tags:
   - NeurIPS 2025
-  - self-improving agent
+  - 代码智能
   - meta-agent
   - coding agent
   - automated agent design
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.15228](https://arxiv.org/abs/2504.15228)  
-**代码**: [https://github.com/MaximeRobeyns/self_improving_coding_agent](https://github.com/MaximeRobeyns/self_improving_coding_agent) (有)  
-**领域**: LLM Agent / 自动化Agent设计  
+**代码**: [https://github.com/MaximeRobeyns/self_improving_coding_agent](https://github.com/MaximeRobeyns/self_improving_coding_agent)  
+**领域**: 代码智能  
 **关键词**: self-improving agent, meta-agent, coding agent, automated agent design, self-referential  
 
 ## 一句话总结
@@ -117,9 +117,9 @@ SICA的核心循环类似ADAS但有本质区别：
 ## 相关论文
 
 - [\[ACL 2025\] SceneGenAgent: Precise Industrial Scene Generation with Coding Agent](../../ACL2025/code_intelligence/scenegenagent_precise_industrial_scene_generation_with_coding_agent.md)
+- [\[ICLR 2026\] ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory](../../ICLR2026/code_intelligence/reasoningbank_scaling_agent_self-evolving_with_reasoning_memory.md)
 - [\[ACL 2025\] DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal](../../ACL2025/code_intelligence/dars_dynamic_action_re-sampling_to_enhance_coding_agent_performance_by_adaptive_.md)
 - [\[NeurIPS 2025\] VeriMaAS: Automated Multi-Agent Workflows for RTL Design](automated_multi-agent_workflows_for_rtl_design.md)
 - [\[ACL 2025\] Revisit Self-Debugging with Self-Generated Tests for Code Generation](../../ACL2025/code_intelligence/revisit_self-debugging_with_self-generated_tests_for_code_generation.md)
-- [\[ACL 2025\] UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](../../ACL2025/code_intelligence/utboost_rigorous_evaluation_of_coding_agents_on_swe-bench.md)
 
 <!-- RELATED:END -->

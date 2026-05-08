@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.09904](https://arxiv.org/abs/2511.09904)  
-**代码**: https://github.com/TeunvdWeij/ctrl-alt-deceit  
-**领域**: ai_safety  
+**代码**: [https://github.com/TeunvdWeij/ctrl-alt-deceit](https://github.com/TeunvdWeij/ctrl-alt-deceit)  
+**领域**: AI安全  
 **关键词**: AI安全评估, 模型破坏, sandbagging, 自动化AI研发, 监控逃避
 
 ## 一句话总结
@@ -135,7 +135,7 @@ Pipeline 分三层：(1) Agent 在 Docker 容器中自主执行 ML 工程任务�
 - [\[NeurIPS 2025\] Understanding Challenges to the Interpretation of Disaggregated Evaluations of AI](understanding_challenges_to_the_interpretation_of_disaggregated_evaluations_of_a.md)
 - [\[NeurIPS 2025\] Matchings Under Biased and Correlated Evaluations](matchings_under_biased_and_correlated_evaluations.md)
 - [\[NeurIPS 2025\] Position: Bridge the Gaps between Machine Unlearning and AI Regulation](position_bridge_the_gaps_between_machine_unlearning_and_ai_regulation.md)
-- [\[NeurIPS 2025\] Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text](adversarial_paraphrasing_a_universal_attack_for_humanizing_ai-generated_text.md)
-- [\[NeurIPS 2025\] When AI Democratizes Exploitation: LLM-Assisted Strategic Manipulation of Fair Division Algorithms](when_ai_democratizes_exploitation_llm-assisted_strategic_manipulation_of_fair_di.md)
+- [\[NeurIPS 2025\] Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy and Research](machine_unlearning_doesnt_do_what_you_think_lessons_for_generative_ai_policy_and.md)
+- [\[NeurIPS 2025\] AI Should Sense Better, Not Just Scale Bigger: Adaptive Sensing as a Paradigm Shift](ai_should_sense_better_not_just_scale_bigger_adaptive_sensin.md)
 
 <!-- RELATED:END -->

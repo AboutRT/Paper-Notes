@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.24427](https://arxiv.org/abs/2510.24427)  
 **代码**: [GitHub](https://github.com/behavioral-data/synthworlds)  
-**领域**: LLM评估 / 推理与记忆  
+**领域**: 机器人  
 **关键词**: Knowledge Advantage Gap, Reasoning vs Memorization, Parallel Corpora, Multi-hop QA, RAG Evaluation
 
 ## 一句话总结

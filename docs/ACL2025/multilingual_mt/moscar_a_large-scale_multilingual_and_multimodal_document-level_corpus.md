@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多语言
-  - 多模态
+  - 多语言翻译
   - 交错图文数据
   - Web爬取
   - few-shot学习
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2406.08707](https://arxiv.org/abs/2406.08707)  
-**代码**: [oscar-project](https://oscar-project.github.io/documentation/versions/mOSCAR/) (有)  
-**领域**: 多模态预训练数据集  
+**代码**: [oscar-project](https://oscar-project.github.io/documentation/versions/mOSCAR/)  
+**领域**: 多语言翻译  
 **关键词**: 多语言、多模态、交错图文数据、Web爬取、few-shot学习  
 
 ## 一句话总结

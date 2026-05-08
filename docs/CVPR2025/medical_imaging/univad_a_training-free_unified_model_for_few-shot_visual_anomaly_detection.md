@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.03342](https://arxiv.org/abs/2412.03342)  
-**代码**: https://github.com/FantasticGNU/UniVAD  
+**代码**: [https://github.com/FantasticGNU/UniVAD](https://github.com/FantasticGNU/UniVAD)  
 **领域**: 医学图像  
 **关键词**: 视觉异常检测, 免训练, few-shot, 跨领域统一模型, 组件分割
 
@@ -144,6 +144,6 @@ C3 模块不同实现方式对比（Image AUC, Pixel AUC）：
 - [\[CVPR 2025\] Knowledge Bridger: Towards Training-Free Missing Modality Completion](knowledge_bridger_towards_training-free_missing_modality_completion.md)
 - [\[CVPR 2025\] FFaceNeRF: Few-Shot Face Editing in Neural Radiance Fields](ffacenerf_few-shot_face_editing_in_neural_radiance_fields.md)
 - [\[ICLR 2026\] Dual Distillation for Few-Shot Anomaly Detection](../../ICLR2026/medical_imaging/dual_distillation_for_few-shot_anomaly_detection.md)
-- [\[CVPR 2025\] Few-Shot Personalized Scanpath Prediction](few-shot_personalized_scanpath_prediction.md)
+- [\[CVPR 2025\] Multi-Resolution Pathology-Language Pre-training Model with Text-Guided Visual Representation](multi-resolution_pathology-language_pre-training_model_with_text-guided_visual_r.md)
 
 <!-- RELATED:END -->

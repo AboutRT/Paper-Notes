@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.00152](https://arxiv.org/abs/2508.00152)  
 **代码**: [项目主页](https://limirs.github.io/GeoExplorer/)  
-**领域**: remote_sensing  
+**领域**: 遥感  
 **关键词**: 主动地理定位, 好奇心驱动探索, 强化学习, UAV 导航, 多模态目标
 
 ## 一句话总结

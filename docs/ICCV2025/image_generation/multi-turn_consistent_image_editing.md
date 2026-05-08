@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2505.04320](https://arxiv.org/abs/2505.04320)  
 **代码**: 待确认  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: multi-turn editing, flow matching, LQR control, attention guidance, FLUX, image inversion
 
 ## 一句话总结

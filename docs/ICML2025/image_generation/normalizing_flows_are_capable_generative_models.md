@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2412.06329](https://arxiv.org/abs/2412.06329)  
 **代码**: [apple/ml-tarflow](https://github.com/apple/ml-tarflow)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: Normalizing Flows, Transformer, 自回归流, 图像生成, 密度估计  
 **作者**: Shuangfei Zhai, Ruixiang Zhang, Preetum Nakkiran, David Berthelot, Jiatao Gu 等 (Apple)
 

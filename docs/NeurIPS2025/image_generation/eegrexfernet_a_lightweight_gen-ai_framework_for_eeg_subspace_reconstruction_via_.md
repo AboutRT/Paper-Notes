@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.02848](https://arxiv.org/abs/2511.02848)  
-**代码**: https://github.com/ShanSarkar75/EEGReXferNet  
+**代码**: [https://github.com/ShanSarkar75/EEGReXferNet](https://github.com/ShanSarkar75/EEGReXferNet)  
 **领域**: 生成模型 / 脑电信号处理  
 **关键词**: EEG重建, 轻量级生成模型, 跨被试迁移学习, 通道感知嵌入, 脑机接口
 

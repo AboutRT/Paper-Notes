@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - MLLM评测
+  - 多模态VLM
   - 中文图像隐含语义
   - 中国传统文化
   - CII-Bench
@@ -20,7 +20,7 @@ tags:
 **代码**: [https://cii-bench.github.io/](https://cii-bench.github.io/)  
 **作者**: Chenhao Zhang, Xi Feng, Yuelin Bai, Xinrun Du 等
 **机构**: 华中科技大学, 中科院深圳先进技术研究院, 中国科技大学, M-A-P, 01.ai 等
-**领域**: 多模态大语言模型 / 基准评测  
+**领域**: 多模态VLM  
 **关键词**: MLLM评测, 中文图像隐含语义, 中国传统文化, CII-Bench, 高阶感知
 
 ## 一句话总结
@@ -164,9 +164,9 @@ GPT-4o总体得分2.71（满分5分），表明模型仅能观察到绘画表面
 ## 相关论文
 
 - [\[ACL 2025\] NegVQA: Can Vision Language Models Understand Negation?](negvqa_can_vision_language_models_understand_negation.md)
+- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relations?](cordial_can_multimodal_large_language_models_effectively_understand_coherence_re.md)
+- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relationships?](cordial-multimodal-llm-coherence-relationships.md)
 - [\[ACL 2025\] Can Vision Language Models Understand Mimed Actions?](can_vision_language_models_understand_mimed_actions.md)
 - [\[ACL 2025\] Can Multimodal Large Language Models Understand Spatial Relations?](spatialmqa_mllm_spatial_relations.md)
-- [\[ACL 2025\] Finding Needles in Images: Can Multi-modal LLMs Locate Fine Details?](finding_needles_in_images_can_multi-modal_llms_locate_fine_details.md)
-- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relationships?](cordial-multimodal-llm-coherence-relationships.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 视觉语言模型
+  - 多模态VLM
   - 数据质量
   - 数据规模定律
   - 课程学习
@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2501.05952](https://arxiv.org/abs/2501.05952)  
 **作者**: Hongyuan Dong*, Zijian Kang*, Weijie Yin*, Xiao Liang, Chao Feng, Jiao Ran (ByteDance Douyin)  
 **代码**: [HuggingFace](https://huggingface.co/BytedanceDouyinContent)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 视觉语言模型, 数据质量, 数据规模定律, 课程学习, 预训练扩展, 指令微调  
 
 ## 一句话总结
@@ -162,9 +162,9 @@ SFT-Instruction数据集质量最高，但SFT-Preference因复杂度过高反而
 ## 相关论文
 
 - [\[CVPR 2025\] Active Data Curation Effectively Distills Large-Scale Multimodal Models](../../CVPR2025/multimodal_vlm/active_data_curation_effectively_distills_large-scale_multimodal_models.md)
-- [\[ACL 2025\] Error-driven Data-efficient Large Multimodal Model Tuning](error-driven_data-efficient_large_multimodal_model_tuning.md)
 - [\[ICCV 2025\] Effective Training Data Synthesis for Improving MLLM Chart Understanding](../../ICCV2025/multimodal_vlm/effective_training_data_synthesis_for_improving_mllm_chart_understanding.md)
-- [\[ICCV 2025\] SCAN: Bootstrapping Contrastive Pre-training for Data Efficiency](../../ICCV2025/multimodal_vlm/scan_bootstrapping_contrastive_pre-training_for_data_efficiency.md)
-- [\[ACL 2025\] R-VLM: Region-Aware Vision Language Model for Precise GUI Grounding](r-vlm_region-aware_vision_language_model_for_precise_gui_grounding.md)
+- [\[ACL 2025\] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data](spare_enhancing_spatial_reasoning_in_vision-language_models_with_synthetic_data.md)
+- [\[ACL 2025\] Error-driven Data-efficient Large Multimodal Model Tuning](error-driven_data-efficient_large_multimodal_model_tuning.md)
+- [\[ACL 2025\] EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models](effivlm_bench_acceleration.md)
 
 <!-- RELATED:END -->

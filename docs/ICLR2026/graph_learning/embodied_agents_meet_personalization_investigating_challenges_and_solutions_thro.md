@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.16348](https://arxiv.org/abs/2505.16348)  
-**代码**: https://github.com/Connoriginal/MEMENTO  
-**领域**: LLM Agent / 具身智能  
+**代码**: [https://github.com/Connoriginal/MEMENTO](https://github.com/Connoriginal/MEMENTO)  
+**领域**: 图学习  
 **关键词**: 个性化具身智能, 记忆利用, 情景记忆, 知识图谱, LLM Agent
 
 ## 一句话总结
@@ -120,8 +120,8 @@ Memento 是一个两阶段评估框架：第一阶段（记忆获取）agent 通
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Disentangling Hyperedges through the Lens of Category Theory](../../NeurIPS2025/graph_learning/disentangling_hyperedges_through_the_lens_of_category_theory.md)
 - [\[NeurIPS 2025\] ESCA: Contextualizing Embodied Agents via Scene-Graph Generation](../../NeurIPS2025/graph_learning/esca_contextualizing_embodied_agents_via_scene-graph_generation.md)
+- [\[CVPR 2026\] Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs](../../CVPR2026/graph_learning/graph2eval_automatic_multimodal_task_generation_for_agents_via_knowledge_graphs.md)
 - [\[AAAI 2026\] EchoLess: Label-Based Pre-Computation for Memory-Efficient Heterogeneous Graph Learning](../../AAAI2026/graph_learning/echoless_label-based_pre-computation_for_memory-efficient_heterogeneous_graph_le.md)
 - [\[ICML 2025\] From RAG to Memory: Non-Parametric Continual Learning for Large Language Models](../../ICML2025/graph_learning/from_rag_to_memory_non-parametric_continual_learning_for_large_language_models.md)
 - [\[AAAI 2026\] Commonality in Few: Few-Shot Multimodal Anomaly Detection via Hypergraph-Enhanced Memory](../../AAAI2026/graph_learning/commonality_in_few_few-shot_multimodal_anomaly_detection_via_hypergraph-enhanced.md)

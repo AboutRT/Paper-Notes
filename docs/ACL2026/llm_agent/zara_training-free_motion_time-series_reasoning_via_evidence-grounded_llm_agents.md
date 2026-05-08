@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2508.04038](https://arxiv.org/abs/2508.04038)  
-**代码**: https://github.com/zechenli03/ZARA (有)  
+**代码**: [https://github.com/zechenli03/ZARA](https://github.com/zechenli03/ZARA)  
 **领域**: LLM Agent  
 **关键词**: 人体活动识别, 时间序列推理, 检索增强生成, 多智能体推理, 免训练
 

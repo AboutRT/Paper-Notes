@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2510.17440](https://arxiv.org/abs/2510.17440)  
 **代码**: [guanqiyuan/CST-Net](https://github.com/guanqiyuan/CST-Net)  
 **机构**: 大连工业大学 / 南京理工大学 / 大连海事大学
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: 夜间图像去雨, 可学习颜色空间变换, YCbCr, 隐式光照引导, HQ-NightRain数据集
 
 ## 一句话总结

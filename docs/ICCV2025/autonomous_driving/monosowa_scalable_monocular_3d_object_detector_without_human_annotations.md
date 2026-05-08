@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2501.09481](https://arxiv.org/abs/2501.09481)  
 **代码**: [github.com/jskvrna/MonoSOWA](https://github.com/jskvrna/MonoSOWA)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 单目3D检测, 弱监督, 自动标注, 伪LiDAR, 无人工标注
 
 ## 一句话总结
@@ -193,7 +193,7 @@ LOMM 是性能提升的关键因素；SCC 在有 LOMM 基础上进一步提升 ~
 
 ## 相关论文
 
-- [\[ICCV 2025\] Adaptive Dual Uncertainty Optimization: Boosting Monocular 3D Object Detection under Test-Time Shifts](adaptive_dual_uncertainty_optimization_boosting_monocular_3d.md)
+- [\[ICCV 2025\] Adaptive Dual Uncertainty Optimization: Boosting Monocular 3D Object Detection under Test-Time Shifts](adaptive_dual_uncertainty_optimization_boosting_monocular_3d_object_detection_un.md)
 - [\[ECCV 2024\] Monocular Occupancy Prediction for Scalable Indoor Scenes](../../ECCV2024/autonomous_driving/monocular_occupancy_prediction_for_scalable_indoor_scenes.md)
 - [\[NeurIPS 2025\] LabelAny3D: Label Any Object 3D in the Wild](../../NeurIPS2025/autonomous_driving/labelany3d_label_any_object_3d_in_the_wild.md)
 - [\[ECCV 2024\] MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection](../../ECCV2024/autonomous_driving/monowad_weather-adaptive_diffusion_model_for_robust_monocular_3d_object_detectio.md)

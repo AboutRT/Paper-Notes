@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Gradient-Regularized Out-of-Distribution Detection
 description: >-
-  [ECCV 2024][OOD检测] 提出 GReg/GReg+，通过正则化 OOD 评分函数的输入梯度范数来学习评分流形的局部平滑性，并结合基于能量评分的聚类采样策略选取高信息量辅助样本，在 CIFAR 和 ImageNet OOD 检测基准上取得 SOTA。
+  [ECCV 2024][LLM评测] 提出 GReg/GReg+，通过正则化 OOD 评分函数的输入梯度范数来学习评分流形的局部平滑性，并结合基于能量评分的聚类采样策略选取高信息量辅助样本，在 CIFAR 和 ImageNet OOD 检测基准上取得 SOTA。
 tags:
   - ECCV 2024
-  - OOD检测
+  - LLM评测
   - 梯度正则化
   - 能量评分
   - Lipschitz分析
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2404.12368](https://arxiv.org/abs/2404.12368)  
 **代码**: [https://github.com/o4lc/Greg-OOD](https://github.com/o4lc/Greg-OOD)  
-**领域**: 其他  
+**领域**: LLM评测  
 **关键词**: OOD检测, 梯度正则化, 能量评分, Lipschitz分析, 辅助数据采样
 
 ## 一句话总结
@@ -47,7 +47,7 @@ GReg+ 由两个核心组件构成：
 
 1. **梯度正则化损失**：基于能量评分函数 $S_\text{En}(x) = -\text{LSE}(f(x))$，在标准能量损失 $\mathcal{L}_{S_\text{En}}$ 的基础上，增加梯度范数正则项：
 
-   $$\mathcal{L}_{\nabla S_\text{En}} = \mathbb{E}_{x_\text{in}} \| \mathbb{I}_{S_\text{En}(x_\text{in}) \leq m_\text{in}} \nabla_{x_\text{in}} S_\text{En}(x_\text{in}) \| + \mathbb{E}_{x_\text{aux}} \| \mathbb{I}_{S_\text{En}(x_\text{aux}) \geq m_\text{aux}} \nabla_{x_\text{aux}} S_\text{En}(x_\text{aux}) \|$$
+    $\mathcal{L}_{\nabla S_\text{En}} = \mathbb{E}_{x_\text{in}} \| \mathbb{I}_{S_\text{En}(x_\text{in}) \leq m_\text{in}} \nabla_{x_\text{in}} S_\text{En}(x_\text{in}) \| + \mathbb{E}_{x_\text{aux}} \| \mathbb{I}_{S_\text{En}(x_\text{aux}) \geq m_\text{aux}} \nabla_{x_\text{aux}} S_\text{En}(x_\text{aux}) \|$
 
    设计要点：**仅对已正确检测的样本施加梯度正则**——对于 ID 样本，只在其能量已足够低（正确归类为 ID）时惩罚梯度；对于 OOD 样本，只在其能量已足够高（正确归类为 OOD）时惩罚梯度。这样能量损失专注于"学会"检测，梯度损失专注于"稳固"已学到的检测。
 
@@ -63,7 +63,7 @@ GReg+ 由两个核心组件构成：
 
 3. **理论保证（Lipschitz 分析）**：如果评分函数在 $x$ 的 $\varepsilon$-邻域内满足局部 Lipschitz 条件，则正确分类为 ID 的样本 $x$ 具有认证半径：
 
-   $$\varepsilon^* = \min\left\{\varepsilon, \frac{\gamma - S(x)}{L_S}\right\}$$
+    $\varepsilon^* = \min\left\{\varepsilon, \frac{\gamma - S(x)}{L_S}\right\}$
 
    减小局部 Lipschitz 常数 $L_S$ 可扩大认证半径。对于 ReLU 网络，局部 Lipschitz 常数等于梯度范数，因此**惩罚梯度范数等价于控制局部 Lipschitz 常数**，为方法提供了鲁棒性理论基础。
 
@@ -153,8 +153,8 @@ GReg+ 在 ImageNet 上将最佳对比方法的 FPR95 降低了 4% 以上。
 
 - [\[CVPR 2026\] Enhancing Out-of-Distribution Detection with Extended Logit Normalization](../../CVPR2026/llm_evaluation/enhancing_out-of-distribution_detection_with_extended_logit_normalization.md)
 - [\[CVPR 2025\] OODD: Test-time Out-of-Distribution Detection with Dynamic Dictionary](../../CVPR2025/llm_evaluation/oodd_test-time_out-of-distribution_detection_with_dynamic_dictionary.md)
-- [\[AAAI 2026\] Graph Out-of-Distribution Detection via Test-Time Calibration with Dual Dynamic Dictionaries](../../AAAI2026/llm_evaluation/graph_out-of-distribution_detection_via_test-time_calibration_with_dual_dynamic_.md)
+- [\[NeurIPS 2025\] SPROD: Spurious-Aware Prototype Refinement for Reliable Out-of-Distribution Detection](../../NeurIPS2025/llm_evaluation/spurious-aware_prototype_refinement_for_reliable_out-of-distribution_detection.md)
 - [\[ICCV 2025\] DisCoPatch: Taming Adversarially-driven Batch Statistics for Improved Out-of-Distribution Detection](../../ICCV2025/llm_evaluation/discopatch_taming_adversarially-driven_batch_statistics_for_improved_out-of-dist.md)
-- [\[ECCV 2024\] Distribution Alignment for Fully Test-Time Adaptation with Dynamic Online Data Streams](distribution_alignment_for_fully_test-time_adaptation_with_dynamic_online_data_s.md)
+- [\[AAAI 2026\] Graph Out-of-Distribution Detection via Test-Time Calibration with Dual Dynamic Dictionaries](../../AAAI2026/llm_evaluation/graph_out-of-distribution_detection_via_test-time_calibration_with_dual_dynamic_.md)
 
 <!-- RELATED:END -->

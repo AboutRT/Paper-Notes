@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12577](https://arxiv.org/abs/2603.12577)  
-**代码**: [https://anonymous.4open.science/r/EPT-B0E4](https://anonymous.4open.science/r/EPT-B0E4) (有)  
-**领域**: LLM效率 / 参数高效微调 / 多任务学习  
+**代码**: [https://anonymous.4open.science/r/EPT-B0E4](https://anonymous.4open.science/r/EPT-B0E4)  
+**领域**: 机器人  
 **关键词**: [PEFT, LoRA, Mixture-of-Experts, 多尺度特征金字塔, 反卷积投影]
 
 ## 一句话总结
@@ -160,7 +160,7 @@ EPT替换Transformer中线性层的LoRA模块。输入token经过router选择top
 - [\[CVPR 2026\] GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer](geco-srt_geometry-aware_continual_adaptation_for_robotic_cross-task_sim-to-real_.md)
 - [\[CVPR 2026\] Learning to See and Act: Task-Aware Virtual View Exploration for Robotic Manipulation](learning_to_see_and_act_task-aware_virtual_view_exploration_for_robotic_manipula.md)
 - [\[CVPR 2026\] Language-Grounded Decoupled Action Representation for Robotic Manipulation](language-grounded_decoupled_action_representation_for_robotic_manipulation.md)
+- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
 - [\[CVPR 2026\] AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots](atomicvla_unlocking_the_potential_of_atomic_skill_learning_in_robots.md)
-- [\[CVPR 2026\] FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation](finecog_nav_fine_grained_cognitive_modules_for_zero_shot_uav_navigation.md)
 
 <!-- RELATED:END -->

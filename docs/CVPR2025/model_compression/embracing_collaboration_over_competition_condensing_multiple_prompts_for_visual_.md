@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.21263](https://arxiv.org/abs/2504.21263)  
-**代码**: https://github.com/gimpong/CVPR25-Condenser  
+**代码**: [https://github.com/gimpong/CVPR25-Condenser](https://github.com/gimpong/CVPR25-Condenser)  
 **领域**: 模型压缩  
 **关键词**: Visual ICL、prompt凝聚、跨注意力融合、MAE-VQGAN、多prompt协作
 
@@ -114,9 +114,9 @@ $\mathcal{L} = \mathcal{L}_{TP} + \lambda \cdot \mathcal{L}_{PA}$。MAE-VQGAN ba
 ## 相关论文
 
 - [\[ACL 2025\] TeamLoRA: Boosting Low-Rank Adaptation with Expert Collaboration and Competition](../../ACL2025/model_compression/teamlora_boosting_low-rank_adaptation_with_expert_collaboration_and_competition.md)
-- [\[CVPR 2025\] NADER: Neural Architecture Design via Multi-Agent Collaboration](nader_neural_architecture_design_via_multi-agent_collaboration.md)
 - [\[CVPR 2025\] ECVC: Exploiting Non-Local Correlations in Multiple Frames for Contextual Video Compression](ecvc_exploiting_non-local_correlations_in_multiple_frames_for_contextual_video_c.md)
 - [\[CVPR 2025\] Mamba-Adaptor: State Space Model Adaptor for Visual Recognition](mamba-adaptor_state_space_model_adaptor_for_visual_recognition.md)
 - [\[CVPR 2025\] MobileMamba: Lightweight Multi-Receptive Visual Mamba Network](mobilemamba_lightweight_multi-receptive_visual_mamba_network.md)
+- [\[ICML 2025\] Context Tuning for In-Context Optimization](../../ICML2025/model_compression/context_tuning_for_in-context_optimization.md)
 
 <!-- RELATED:END -->

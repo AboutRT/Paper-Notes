@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.02973](https://arxiv.org/abs/2501.02973)  
-**代码**: https://github.com/ZJHTerry18/HaWoR (有)  
+**代码**: [https://github.com/ZJHTerry18/HaWoR](https://github.com/ZJHTerry18/HaWoR)  
 **领域**: 3D视觉  
 **关键词**: 手部运动重建, 世界坐标系, 第一人称视频, SLAM, 运动补全
 

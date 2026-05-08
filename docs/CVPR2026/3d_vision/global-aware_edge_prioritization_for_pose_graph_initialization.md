@@ -54,7 +54,7 @@ tags:
 
    在图像嵌入的完全图上进行边-节点消息传播。每条有向边初始化为：
 
-   $$e_{ij}^0 = \text{ReLU}(f_l[d_i, d_j, \langle d_i, d_j \rangle])$$
+    $e_{ij}^0 = \text{ReLU}(f_l[d_i, d_j, \langle d_i, d_j \rangle])$
 
    经两轮消息传播：边特征更新 $e_{ij}^t = f_{\text{edge}}([e_{ij}^{t-1}, d_i^t, d_j^t])$，节点聚合邻居消息 $m_i^t = \frac{1}{N}\sum_j m_{ji}^t$ 后更新 $d_i^{t+1} = f_{\text{update}}([d_i^t, m_i^t])$。最终通过MLP预测边排名 $\hat{r}_{ij} = f_{\text{MLP}}(e_{ij}^2)$。
 
@@ -63,9 +63,9 @@ tags:
 2. **几何自监督信号**
 
    用SfM流程本身生成监督信号，完全无需人工标注：
-   - **RANSAC内点数** $u_{ij}$：衡量两视图几何的即时可验证性
-   - **共同可见3D点数** $v_{ij}$：衡量两视图对全局重建的长期贡献
-   - 归一化组合为 $\tilde{r}_{ij} = \frac{1}{2}(\text{norm}(u_{ij}) + \text{norm}(v_{ij}))$
+    - **RANSAC内点数** $u_{ij}$：衡量两视图几何的即时可验证性
+    - **共同可见3D点数** $v_{ij}$：衡量两视图对全局重建的长期贡献
+    - 归一化组合为 $\tilde{r}_{ij} = \frac{1}{2}(\text{norm}(u_{ij}) + \text{norm}(v_{ij}))$
 
    训练损失采用**NDCGLoss2++**（可微排序损失），优化预测排序与真实排序的NDCG一致性，而非回归绝对值。
 
@@ -75,7 +75,7 @@ tags:
     - 每棵新MST排除已选边（赋 $\infty$ 权重），保证选出互补边集
     - **关键创新**：从第二棵MST起，用图距离调制分数：
 
-   $$s_{ij}^{(m)} = (1-\lambda)\hat{r}_{ij} + \lambda \bar{d}^{(m-1)}(i,j)$$
+    $s_{ij}^{(m)} = (1-\lambda)\hat{r}_{ij} + \lambda \bar{d}^{(m-1)}(i,j)$
 
    其中 $\bar{d}^{(m-1)}(i,j)$ 是当前图中归一化最短路径距离。远距离的强边被提升优先级，有效减小图直径、加固弱连接区域。仅更新每图像top-5候选边，丢弃分数低于0.9的边，防止不可靠边被误提升。
 
@@ -151,8 +151,8 @@ tags:
 
 - [\[CVPR 2026\] E2EGS: Event-to-Edge Gaussian Splatting for Pose-Free 3D Reconstruction](e2egs_event-to-edge_gaussian_splatting_for_pose-free_3d_reconstruction.md)
 - [\[CVPR 2026\] Foundry: Distilling 3D Foundation Models for the Edge](foundry_distilling_3d_foundation_models_for_the_edge.md)
-- [\[CVPR 2026\] MimiCAT: Mimic with Correspondence-Aware Cascade-Transformer for Category-Free 3D Pose Transfer](mimicat_mimic_with_correspondence-aware_cascade-transformer_for_category-free_3d.md)
 - [\[NeurIPS 2025\] Mesh Interpolation Graph Network for Dynamic and Spatially Irregular Global Weather Forecasting](../../NeurIPS2025/3d_vision/mesh_interpolation_graph_network_for_dynamic_and_spatially_irregular_global_weat.md)
+- [\[CVPR 2026\] MimiCAT: Mimic with Correspondence-Aware Cascade-Transformer for Category-Free 3D Pose Transfer](mimicat_mimic_with_correspondence-aware_cascade-transformer_for_category-free_3d.md)
 - [\[AAAI 2026\] Enhancing Rotation-Invariant 3D Learning with Global Pose Awareness and Attention Mechanisms](../../AAAI2026/3d_vision/enhancing_rotation-invariant_3d_learning_with_global_pose_awareness_and_attentio.md)
 
 <!-- RELATED:END -->

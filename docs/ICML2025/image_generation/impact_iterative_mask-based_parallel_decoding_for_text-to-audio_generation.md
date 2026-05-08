@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.00736](https://arxiv.org/abs/2506.00736)  
 **代码**: [项目页](https://audio-impact.github.io/)  
-**领域**: 音频 / 文本到音频生成  
+**领域**: 图像生成  
 **关键词**: text-to-audio, mask-based generative model, parallel decoding, latent diffusion, fast inference
 
 ## 一句话总结

@@ -44,11 +44,11 @@ DICE 从三个粒度优化陈旧性：步级 (step-level)、层级 (layer-level)
 1. **交织并行 (Interweaved Parallelism)** — 步级优化：
 
    传统 displaced 并行的陈旧性为 2 步（dispatch 1 步 + combine 1 步）。交织并行通过重新编排通信和计算的时序，实现：
-   - 异步 dispatch 在交错执行中于当前步内完成（0 步延迟）
-   - 处理专家输出的同时发起下一个 combine 操作
-   - combine 结果在下一步才就绪（1 步延迟）
+    - 异步 dispatch 在交错执行中于当前步内完成（0 步延迟）
+    - 处理专家输出的同时发起下一个 combine 操作
+    - combine 结果在下一步才就绪（1 步延迟）
 
-   $$\text{Staleness}_{\text{interweaved}} = \underbrace{0}_{\text{dispatch}} + \underbrace{1}_{\text{combine}} = 1\text{-step}$$
+    $\text{Staleness}_{\text{interweaved}} = \underbrace{0}_{\text{dispatch}} + \underbrace{1}_{\text{combine}} = 1\text{-step}$
 
    相比 displaced 并行，陈旧性减半，缓存大小减半（only store combine results），且没有额外开销——是一个 **free-lunch** 优化。单独使用即可将 FID 从 8.27 改善至 6.97。
 
@@ -62,7 +62,7 @@ DICE 从三个粒度优化陈旧性：步级 (step-level)、层级 (layer-level)
 
    利用 MoE 路由的固有属性：高路由分数的 token 通过加权求和主导输出，更易受陈旧性扰动。具体来说，陈旧性激活扰动 $\Delta \mathbf{h}_i^e$ 对输出的传播与路由分数 $s_i^e$ 成正比：
 
-   $$\frac{\partial \|\mathbf{y}_i\|}{\partial \mathbf{h}_i^e} = \frac{s_i^e \cdot \mathbf{y}_i}{\|\mathbf{y}_i\|}$$
+    $\frac{\partial \|\mathbf{y}_i\|}{\partial \mathbf{h}_i^e} = \frac{s_i^e \cdot \mathbf{y}_i}{\|\mathbf{y}_i\|}$
 
    因此，高分 token 每步传输以保持新鲜，低分 token 复用缓存值、降低通信频率。该策略无需训练。
 
@@ -153,6 +153,6 @@ DICE 是一个推理优化框架，不涉及训练。核心是在推理时合理
 - [\[ICCV 2025\] Inference-Time Diffusion Model Distillation](inference-time_diffusion_model_distillation.md)
 - [\[NeurIPS 2025\] Accelerating Parallel Diffusion Model Serving with Residual Compression](../../NeurIPS2025/image_generation/accelerating_parallel_diffusion_model_serving_with_residual_compression.md)
 - [\[CVPR 2025\] GLASS: Guided Latent Slot Diffusion for Object-Centric Learning](../../CVPR2025/image_generation/glass_guided_latent_slot_diffusion_for_object-centric_learning.md)
-- [\[ICML 2025\] IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling](../../ICML2025/image_generation/impact_iterative_mask-based_parallel_decoding_for_text-to-audio_generation_with_.md)
+- [\[ICML 2025\] IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling](../../ICML2025/image_generation/impact_iterative_mask-based_parallel_decoding_for_text-to-audio_generation.md)
 
 <!-- RELATED:END -->

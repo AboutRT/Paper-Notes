@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.13217](https://arxiv.org/abs/2503.13217)  
 **代码**: [https://selen-suyue.github.io/DspNet/](https://selen-suyue.github.io/DspNet/)  
-**领域**: 机器人操作策略 / 模仿学习  
+**领域**: 图像生成  
 **关键词**: 自回归策略, 双向扩展, 粗到细生成, 扩散策略, 模仿学习
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025 (Highlight)  
 **arXiv**: [2504.13059](https://arxiv.org/abs/2504.13059)  
-**代码**: https://github.com/robotwin-Platform/RoboTwin  
+**代码**: [https://github.com/robotwin-Platform/RoboTwin](https://github.com/robotwin-Platform/RoboTwin)  
 **领域**: 机器人  
 **关键词**: 双臂机器人, 数字孪生, 3D生成, 大语言模型, 仿真基准
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.08043](https://arxiv.org/abs/2511.08043)  
-**代码**: https://github.com/zhaoxlpku/DynaAct  
+**代码**: [https://github.com/zhaoxlpku/DynaAct](https://github.com/zhaoxlpku/DynaAct)  
 **领域**: LLM推理 / 决策优化  
 **关键词**: 动态动作空间, 子模函数, MCTS, LLM推理, 子集选择
 

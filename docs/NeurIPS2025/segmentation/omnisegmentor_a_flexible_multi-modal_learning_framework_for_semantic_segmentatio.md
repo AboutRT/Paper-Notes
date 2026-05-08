@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.15096](https://arxiv.org/abs/2509.15096)  
-**代码**: https://github.com/VCIP-RGBD/DFormer  
-**领域**: 多模态分割  
+**代码**: [https://github.com/VCIP-RGBD/DFormer](https://github.com/VCIP-RGBD/DFormer)  
+**领域**: 图像分割  
 **关键词**: 多模态预训练, ImageNeXt, 语义分割, 模态对齐, 预训练-微调
 
 ## 一句话总结
@@ -133,6 +133,6 @@ OmniSegmentor 包含两大创新：(1) ImageNeXt 数据集——基于 ImageNet-
 - [\[NeurIPS 2025\] Towards Robust Pseudo-Label Learning in Semantic Segmentation: An Encoding Perspective](towards_robust_pseudo-label_learning_in_semantic_segmentation_an_encoding_perspe.md)
 - [\[NeurIPS 2025\] Diffusion-Driven Two-Stage Active Learning for Low-Budget Semantic Segmentation](diffusion-driven_two-stage_active_learning_for_low-budget_semantic_segmentation.md)
 - [\[NeurIPS 2025\] Robust Egocentric Referring Video Object Segmentation via Dual-Modal Causal Intervention](robust_egocentric_referring_video_object_segmentation_via_dual-modal_causal_inte.md)
-- [\[CVPR 2026\] SemiTooth: a Generalizable Semi-supervised Framework for Multi-Source Tooth Segmentation](../../CVPR2026/segmentation/semitooth_a_generalizable_semisupervised_framework.md)
+- [\[ECCV 2024\] OLAF: A Plug-and-Play Framework for Enhanced Multi-object Multi-part Scene Parsing](../../ECCV2024/segmentation/olaf_a_plug-and-play_framework_for_enhanced_multi-object_multi-part_scene_parsin.md)
 
 <!-- RELATED:END -->

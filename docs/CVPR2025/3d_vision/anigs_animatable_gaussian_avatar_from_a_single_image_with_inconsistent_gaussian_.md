@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.02684](https://arxiv.org/abs/2412.02684)  
-**代码**: https://lingtengqiu.github.io/2024/AniGS/  
+**代码**: [https://lingtengqiu.github.io/2024/AniGS/](https://lingtengqiu.github.io/2024/AniGS/)  
 **领域**: 3D视觉  
 **关键词**: 3D人体重建、高斯溅射、单图生成、视频扩散、4DGS
 
@@ -117,6 +117,6 @@ RGB L1 + SSIM + 法线 L1 + 各向异性正则化。~5 分钟生成 + ~5 分钟�
 - [\[CVPR 2025\] InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction](instanthdr_single-forward_gaussian_splatting_for_high_dynamic_range_3d_reconstru.md)
 - [\[CVPR 2025\] High-fidelity 3D Object Generation from Single Image with RGBN-Volume Gaussian Reconstruction Model](high-fidelity_3d_object_generation_from_single_image_with_rgbn-volume_gaussian_r.md)
 - [\[CVPR 2025\] HRAvatar: High-Quality and Relightable Gaussian Head Avatar](hravatar_high-quality_and_relightable_gaussian_head_avatar.md)
-- [\[CVPR 2025\] Wonderland: Navigating 3D Scenes from a Single Image](wonderland_navigating_3d_scenes_from_a_single_image.md)
+- [\[CVPR 2026\] Zero-Shot Reconstruction of Animatable 3D Avatars with Cloth Dynamics from a Single Image](../../CVPR2026/3d_vision/zero-shot_reconstruction_of_animatable_3d_avatars_with_cloth_dynamics_from_a_sin.md)
 
 <!-- RELATED:END -->

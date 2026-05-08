@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2507.04788](https://arxiv.org/abs/2507.04788)  
 **代码**: 待确认  
-**领域**: robotics  
+**领域**: 机器人  
 **关键词**: 解释引导学习, 小数据学习, 虚假相关, 注意力对齐, 样本效率
 
 ## 一句话总结
@@ -124,8 +124,8 @@ tags:
 
 - [\[ICML 2025\] Learning to Stop: Deep Learning for Mean Field Optimal Stopping](learning_to_stop_deep_learning_for_mean_field_optimal_stopping.md)
 - [\[NeurIPS 2025\] Understanding Prompt Tuning and In-Context Learning via Meta-Learning](../../NeurIPS2025/robotics/understanding_prompt_tuning_and_in-context_learning_via_meta-learning.md)
+- [\[NeurIPS 2025\] Policy Compatible Skill Incremental Learning via Lazy Learning Interface](../../NeurIPS2025/robotics/policy_compatible_skill_incremental_learning_via_lazy_learning_interface.md)
 - [\[ICML 2025\] BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly](biassemble_learning_collaborative_affordance_for_bimanual_geometric_assembly.md)
-- [\[ICML 2025\] Efficient Robotic Policy Learning via Latent Space Backward Planning](efficient_robotic_policy_learning_via_latent_space_backward_planning.md)
-- [\[NeurIPS 2025\] Learning Spatial-Aware Manipulation Ordering](../../NeurIPS2025/robotics/learning_spatial-aware_manipulation_ordering.md)
+- [\[ICML 2025\] Sketch-Plan-Generalize: Learning and Planning with Neuro-Symbolic Programmatic Representations for Inductive Spatial Concepts](sketch-plan-generalize_learning_and_planning_with_neuro-symbolic_programmatic_re.md)
 
 <!-- RELATED:END -->

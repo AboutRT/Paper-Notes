@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16334](https://arxiv.org/abs/2505.16334)  
 **代码**: [https://visual-ai.github.io/pancap/](https://visual-ai.github.io/pancap/)  
-**领域**: 多模态理解 / 图像描述  
+**领域**: 图像分割  
 **关键词**: panoptic captioning, minimum text equivalence, PancapScore, PancapChain, grounding
 
 ## 一句话总结

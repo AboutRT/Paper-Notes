@@ -19,7 +19,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2410.09911](https://arxiv.org/abs/2410.09911)  
 **代码**: [Dev-Mrha/DualPriorsCorrection](https://github.com/Dev-Mrha/DualPriorsCorrection)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: wide-angle portrait correction, generative prior, StyleGAN, symmetry prior, optical flow
 
 ## 一句话总结
@@ -130,9 +130,9 @@ $$\mathcal{L}_{\text{LineCNet}} = \|\Phi_{bg} - \Phi^{gt}_{bg}\|_2^2 + \lambda_3
 ## 相关论文
 
 - [\[CVPR 2025\] Pose Priors from Language Models](../../CVPR2025/human_understanding/pose_priors_from_language_models.md)
-- [\[ICML 2025\] Diffusion Sampling Correction via Approximately 10 Parameters](../../ICML2025/human_understanding/diffusion_sampling_correction_via_approximately_10_parameters.md)
-- [\[ICCV 2025\] WIR3D: Visually-Informed and Geometry-Aware 3D Shape Abstraction](../../ICCV2025/human_understanding/wir3d_visually-informed_and_geometry-aware_3d_shape_abstraction.md)
-- [\[ICLR 2026\] The Geometry of Reasoning: Flowing Logics in Representation Space](../../ICLR2026/human_understanding/the_geometry_of_reasoning_flowing_logics_in_representation_space.md)
-- [\[AAAI 2026\] Self-Correction Distillation for Structured Data Question Answering](../../AAAI2026/human_understanding/self-correction_distillation_for_structured_data_question_answering.md)
+- [\[CVPR 2025\] MoEE: Mixture of Emotion Experts for Audio-Driven Portrait Animation](../../CVPR2025/human_understanding/moee_mixture_of_emotion_experts_for_audio-driven_portrait_animation.md)
+- [\[CVPR 2025\] Sonic: Shifting Focus to Global Audio Perception in Portrait Animation](../../CVPR2025/human_understanding/sonic_shifting_focus_to_global_audio_perception_in_portrait_animation.md)
+- [\[AAAI 2026\] New Synthetic Goldmine: Hand Joint Angle-Driven EMG Data Generation Framework for Micro-Gesture Recognition](../../AAAI2026/human_understanding/new_synthetic_goldmine_hand_joint_angle-driven_emg_data_generation_framework_for.md)
+- [\[CVPR 2025\] Omni-ID: Holistic Identity Representation Designed for Generative Tasks](../../CVPR2025/human_understanding/omni-id_holistic_identity_representation_designed_for_generative_tasks.md)
 
 <!-- RELATED:END -->

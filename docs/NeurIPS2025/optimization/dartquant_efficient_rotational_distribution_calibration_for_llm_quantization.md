@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.04063](https://arxiv.org/abs/2511.04063)  
-**代码**: https://github.com/CAS-CLab/DartQuant  
-**领域**: 模型压缩 / LLM量化  
+**代码**: [https://github.com/CAS-CLab/DartQuant](https://github.com/CAS-CLab/DartQuant)  
+**领域**: 优化  
 **关键词**: LLM量化, 旋转矩阵, 分布校准, 正交优化, 后训练量化
 
 ## 一句话总结
@@ -144,7 +144,7 @@ DartQuant 流程：(1) 少量校准数据前向传播得到各层激活值；(2)
 - [\[NeurIPS 2025\] OrthoGrad Improves Neural Calibration](orthograd_improves_neural_calibration.md)
 - [\[CVPR 2025\] Automatic Joint Structured Pruning and Quantization for Efficient Neural Network Training and Compression](../../CVPR2025/optimization/automatic_joint_structured_pruning_and_quantization_for_efficient_neural_network.md)
 - [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](efficient_adaptive_federated_optimization.md)
+- [\[NeurIPS 2025\] Efficient Adaptive Experimentation with Noncompliance](efficient_adaptive_experimentation_with_noncompliance.md)
 - [\[NeurIPS 2025\] Oracle-Efficient Combinatorial Semi-Bandits](oracle-efficient_combinatorial_semi-bandits.md)
-- [\[NeurIPS 2025\] MeCeFO: Enhancing LLM Training Robustness via Fault-Tolerant Optimization](mecefo_enhancing_llm_training_robustness_via_fault-tolerant_optimization.md)
 
 <!-- RELATED:END -->

@@ -9,15 +9,15 @@ tags:
   - 模型合并
   - 分类器校准
   - 任务向量
-  - 预训练模型
+  - LLM评测
 ---
 
 # Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.00911](https://arxiv.org/abs/2410.00911)  
-**代码**: https://github.com/Estrella-fugaz/CVPR25-Duct  
-**领域**: 其他  
+**代码**: [https://github.com/Estrella-fugaz/CVPR25-Duct](https://github.com/Estrella-fugaz/CVPR25-Duct)  
+**领域**: LLM评测  
 **关键词**: 域增量学习、模型合并、分类器校准、任务向量、预训练模型
 
 ## 一句话总结
@@ -118,10 +118,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICML 2025\] Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative Experts (DCE)](../../ICML2025/llm_evaluation/addressing_imbalanced_domain-incremental_learning_through_dual-balance_collabora.md)
 - [\[ECCV 2024\] Versatile Incremental Learning: Towards Class and Domain-Agnostic Incremental Learning](../../ECCV2024/llm_evaluation/versatile_incremental_learning_towards_class_and_domain-agnostic_incremental_lea.md)
-- [\[NeurIPS 2025\] Your Pre-trained LLM is Secretly an Unsupervised Confidence Calibrator](../../NeurIPS2025/llm_evaluation/your_pre-trained_llm_is_secretly_an_unsupervised_confidence_calibrator.md)
 - [\[CVPR 2025\] Gradient-Guided Annealing for Domain Generalization](gradient-guided_annealing_for_domain_generalization.md)
-- [\[CVPR 2025\] Do ImageNet-trained Models Learn Shortcuts? The Impact of Frequency Shortcuts on Generalization](do_imagenet-trained_models_learn_shortcuts_the_impact_of_frequency_shortcuts_on_.md)
-- [\[CVPR 2025\] Uncertainty Weighted Gradients for Model Calibration](uncertainty_weighted_gradients_for_model_calibration.md)
+- [\[NeurIPS 2025\] Your Pre-trained LLM is Secretly an Unsupervised Confidence Calibrator](../../NeurIPS2025/llm_evaluation/your_pre-trained_llm_is_secretly_an_unsupervised_confidence_calibrator.md)
+- [\[CVPR 2025\] Potential Field Based Deep Metric Learning](potential_field_based_deep_metric_learning.md)
 
 <!-- RELATED:END -->

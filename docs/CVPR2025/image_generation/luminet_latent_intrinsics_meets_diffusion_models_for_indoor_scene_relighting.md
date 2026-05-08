@@ -21,7 +21,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.00177](https://arxiv.org/abs/2412.00177)  
 **代码**: [https://luminet-relight.github.io](https://luminet-relight.github.io)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: relighting, latent intrinsics, diffusion model, ControlNet, StyleGAN, indoor scene, light transfer, cross-attention
 
 ## 一句话总结

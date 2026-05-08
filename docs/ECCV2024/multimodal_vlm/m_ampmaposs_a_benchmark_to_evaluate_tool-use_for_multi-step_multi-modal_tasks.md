@@ -7,7 +7,7 @@ tags:
   - ECCV 2024
   - 多模态
   - 工具使用
-  - LLM规划
+  - 多模态VLM
   - 多步骤多模态
   - 基准评测
   - 规划策略
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.11085](https://arxiv.org/abs/2403.11085)  
-**代码**: [GitHub](https://github.com/RAIVNLab/mms) (有)  
+**代码**: [GitHub](https://github.com/RAIVNLab/mms)  
 **领域**: 多模态VLM  
 **关键词**: 工具使用, LLM规划, 多步骤多模态, 基准评测, 规划策略
 
@@ -184,10 +184,10 @@ m&m's 包含三个核心组件：
 
 ## 相关论文
 
+- [\[ECCV 2024\] ShareGPT4V: Improving Large Multi-modal Models with Better Captions](sharegpt4v_improving_large_multimodal_models_with_better_cap.md)
+- [\[ECCV 2024\] Large Motion Model for Unified Multi-Modal Motion Generation](large_motion_model_for_unified_multi-modal_motion_generation.md)
 - [\[ECCV 2024\] MMBench: Is Your Multi-modal Model an All-Around Player?](mmbench_is_your_multimodal_model_an_allaround_player.md)
-- [\[ECCV 2024\] ShareGPT4V: Improving Large Multi-Modal Models with Better Captions](sharegpt4v_improving_large_multi-modal_models_with_better_captions.md)
 - [\[NeurIPS 2025\] Can Multi-Modal LLMs Provide Live Step-by-Step Task Guidance?](../../NeurIPS2025/multimodal_vlm/can_multi-modal_llms_provide_live_step-by-step_task_guidance.md)
 - [\[ECCV 2024\] MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math?](mathverse_does_your_multimodal_llm_truly_see_the_diagrams_in.md)
-- [\[ECCV 2024\] MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](mathverse_does_your_multi-modal_llm_truly_see_the_diagrams_in_visual_math_proble.md)
 
 <!-- RELATED:END -->

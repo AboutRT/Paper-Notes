@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.17839](https://arxiv.org/abs/2403.17839)  
-**代码**: https://github.com/yyh-rain-song/ReMamber (有)  
+**代码**: [https://github.com/yyh-rain-song/ReMamber](https://github.com/yyh-rain-song/ReMamber)  
 **领域**: 图像分割 / 多模态VLM  
 **关键词**: 指称图像分割, Mamba, 多模态融合, 状态空间模型, 视觉-语言交互
 

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 内存高效微调
-  - Token剪枝
+  - 可解释性
   - 实例感知
   - 激活内存优化
   - PEFT兼容
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2601.19739](https://arxiv.org/abs/2601.19739)  
-**代码**: https://runjia.tech/iclr_tokenseek（项目主页）  
-**领域**: LLM效率  
+**代码**: [https://runjia.tech/iclr_tokenseek（项目主页）](https://runjia.tech/iclr_tokenseek（项目主页）)  
+**领域**: 可解释性  
 **关键词**: 内存高效微调, Token剪枝, 实例感知, 激活内存优化, PEFT兼容
 
 ## 一句话总结
@@ -120,7 +120,7 @@ Token 比例消融（Llama3.2 1B + QLoRA）：10%→52.61, 20%→51.80, 30%→52
 - [\[AAAI 2026\] GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](../../AAAI2026/interpretability/gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)
 - [\[ICLR 2026\] Exploring Interpretability for Visual Prompt Tuning with Cross-layer Concepts](exploring_interpretability_for_visual_prompt_tuning_with_cross-layer_concepts.md)
 - [\[ICLR 2026\] RADAR: Reasoning-Ability and Difficulty-Aware Routing for Reasoning LLMs](radar_reasoning-ability_and_difficulty-aware_routing_for_reasoning_llms.md)
-- [\[ICLR 2026\] ZeroTuning: Unlocking the Initial Token's Power to Enhance Large Language Models Without Training](zerotuning_unlocking_the_initial_tokens_power_to_enhance_large_language_models_w.md)
-- [\[NeurIPS 2025\] Efficient Vision-Language Reasoning via Adaptive Token Pruning](../../NeurIPS2025/interpretability/efficient_vision-language_reasoning_via_adaptive_token_pruning.md)
+- [\[ICLR 2026\] Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability](temporal_sparse_autoencoders_leveraging_the_sequential_nature_of_language_for_in.md)
+- [\[ICLR 2026\] GAVEL: Towards Rule-Based Safety through Activation Monitoring](gavel_towards_rule-based_safety_through_activation_monitoring.md)
 
 <!-- RELATED:END -->

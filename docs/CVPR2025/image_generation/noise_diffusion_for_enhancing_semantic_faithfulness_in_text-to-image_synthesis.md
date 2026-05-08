@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16503](https://arxiv.org/abs/2411.16503)  
-**代码**: https://github.com/Bomingmiao/NoiseDiffusion  
+**代码**: [https://github.com/Bomingmiao/NoiseDiffusion](https://github.com/Bomingmiao/NoiseDiffusion)  
 **领域**: 图像生成  
 **关键词**: 噪声优化、语义忠实度、VLM监督、分布保持、即插即用
 

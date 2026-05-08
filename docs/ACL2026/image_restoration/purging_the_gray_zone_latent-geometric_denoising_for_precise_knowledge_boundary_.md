@@ -10,7 +10,7 @@ tags:
   - 弃权微调
   - 隐空间探针
   - 几何去噪
-  - 幻觉缓解
+  - 图像复原
 ---
 
 # Purging the Gray Zone: Latent-Geometric Denoising for Precise Knowledge Boundary Awareness
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.14324](https://arxiv.org/abs/2604.14324)  
 **代码**: [GitHub](https://github.com/Notbesidemoon/GeoDe)  
-**领域**: LLM安全 / 幻觉缓解  
+**领域**: 图像复原  
 **关键词**: 知识边界感知, 弃权微调, 隐空间探针, 几何去噪, 幻觉缓解
 
 ## 一句话总结
@@ -121,8 +121,8 @@ GeoDe 包含三个步骤：(1) 在源数据 D0 上测试基座模型，按回答
 
 - [\[ICCV 2025\] Generic Event Boundary Detection via Denoising Diffusion (DiffGEBD)](../../ICCV2025/image_restoration/generic_event_boundary_detection_via_denoising_diffusion.md)
 - [\[ICCV 2025\] Consistent Time-of-Flight Depth Denoising via Graph-Informed Geometric Attention](../../ICCV2025/image_restoration/consistent_time-of-flight_depth_denoising_via_graph-informed_geometric_attention.md)
-- [\[NeurIPS 2025\] Latent Harmony: Synergistic Unified UHD Image Restoration via Latent Space Regularization and Controllable Refinement](../../NeurIPS2025/image_restoration/latent_harmony_synergistic_unified_uhd_image_restoration_with_pre-trained_diffus.md)
-- [\[CVPR 2026\] Winner of CVPR2026 NTIRE Challenge on Image Shadow Removal: Semantic and Geometric Guidance for Shadow Removal via Cascaded Refinement](../../CVPR2026/image_restoration/shadow_removal_cascaded_refinement.md)
-- [\[NeurIPS 2025\] Audio Super-Resolution with Latent Bridge Models](../../NeurIPS2025/image_restoration/audio_super-resolution_with_latent_bridge_models.md)
+- [\[NeurIPS 2025\] Latent Harmony: Synergistic Unified UHD Image Restoration via Latent Space Regularization and Controllable Refinement](../../NeurIPS2025/image_restoration/latent_harmony_synergistic_unified_uhd_image_restoration_via_latent_space_regula.md)
+- [\[CVPR 2026\] Learning to Translate Noise for Robust Image Denoising](../../CVPR2026/image_restoration/learning_to_translate_noise_for_robust_image_denoising.md)
+- [\[ACL 2026\] CreditDecoding: Accelerating Parallel Decoding in Diffusion Large Language Models with Trace Credit](creditdecoding_accelerating_parallel_decoding_in_diffusion_large_language_models.md)
 
 <!-- RELATED:END -->

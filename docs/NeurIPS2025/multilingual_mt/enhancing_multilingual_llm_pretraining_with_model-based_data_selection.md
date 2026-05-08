@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.10361](https://arxiv.org/abs/2502.10361)  
 **代码**: [github.com/epfml/fineweb2-hq](https://github.com/epfml/fineweb2-hq)  
-**领域**: llm_nlp  
+**领域**: 多语言翻译  
 **关键词**: multilingual pretraining, data selection, model-based filtering, FineWeb-2, data curation
 
 ## 一句话总结
@@ -173,9 +173,9 @@ MLP MKC+ 一骑绝尘，大幅领先基线。
 ## 相关论文
 
 - [\[ACL 2025\] LangSAMP: Language-Script Aware Multilingual Pretraining](../../ACL2025/multilingual_mt/langsamp_multilingual_pretraining.md)
-- [\[ACL 2025\] CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis](../../ACL2025/multilingual_mt/culfit_a_fine-grained_cultural-aware_llm_training_paradigm_via_multilingual_crit.md)
 - [\[NeurIPS 2025\] ParallelPrompt: Extracting Parallelism from Large Language Model Queries](parallelprompt_extracting_parallelism_from_large_language_model_queries.md)
+- [\[ACL 2025\] CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis](../../ACL2025/multilingual_mt/culfit_a_fine-grained_cultural-aware_llm_training_paradigm_via_multilingual_crit.md)
+- [\[AAAI 2026\] MIDB: Multilingual Instruction Data Booster for Enhancing Cultural Equality in Multilingual Instruction Synthesis](../../AAAI2026/multilingual_mt/midb_multilingual_instruction_data_booster_for_enhancing_cultural_equality_in_mu.md)
 - [\[ACL 2025\] LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation](../../ACL2025/multilingual_mt/laca_crosslingual_absa.md)
-- [\[ACL 2025\] ShifCon: Enhancing Non-Dominant Language Capabilities with a Shift-based Multilingual Contrastive Framework](../../ACL2025/multilingual_mt/shifcon_nondominant_language.md)
 
 <!-- RELATED:END -->

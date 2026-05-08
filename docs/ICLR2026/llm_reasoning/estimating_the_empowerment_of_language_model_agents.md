@@ -20,7 +20,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.22504](https://arxiv.org/abs/2509.22504)  
 **代码**: [GitHub](https://github.com/Jinyeop3110/EELMA)  
-**领域**: llm_reasoning  
+**领域**: LLM推理  
 **关键词**: empowerment, information theory, mutual information, LM agents, goal-agnostic evaluation, InfoNCE, WebArena
 
 ## 一句话总结
@@ -163,10 +163,10 @@ GPT-4o 赋权最高、折扣回报最高；o3 成功率与 GPT-4o 相当但步�
 
 ## 相关论文
 
-- [\[ICLR 2026\] Adaptive Social Learning via Mode Policy Optimization for Language Agents](adaptive_social_learning_via_mode_policy_optimization_for_language_agents.md)
 - [\[ICLR 2026\] Why is Your Language Model a Poor Implicit Reward Model?](why_is_your_language_model_a_poor_implicit_reward_model.md)
+- [\[ICLR 2026\] Adaptive Social Learning via Mode Policy Optimization for Language Agents](adaptive_social_learning_via_mode_policy_optimization_for_language_agents.md)
+- [\[ICLR 2026\] Scaling Generalist Data-Analytic Agents](scaling_generalist_data-analytic_agents.md)
 - [\[ICLR 2026\] Agentified Assessment of Logical Reasoning Agents](agentified_assessment_of_logical_reasoning_agents.md)
-- [\[ACL 2026\] Dissecting Failure Dynamics in Large Language Model Reasoning](../../ACL2026/llm_reasoning/dissecting_failure_dynamics_in_large_language_model_reasoning.md)
-- [\[AAAI 2026\] Incorporating Self-Rewriting into Large Language Model Reasoning Reinforcement](../../AAAI2026/llm_reasoning/incorporating_self-rewriting_into_large_language_model_reasoning_reinforcement.md)
+- [\[ACL 2026\] JTPRO: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents](../../ACL2026/llm_reasoning/jtpro_a_joint_tool-prompt_reflective_optimization_framework_for_language_agents.md)
 
 <!-- RELATED:END -->

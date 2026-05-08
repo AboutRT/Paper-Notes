@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 不完整多模态学习
   - 信息瓶颈
-  - 循环翻译
+  - 多模态VLM
   - 变分近似
   - 模态缺失
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2602.04920](https://arxiv.org/abs/2602.04920)  
-**代码**: [GitHub](https://github.com/RH-Lin/CyIN) (有)  
+**代码**: [GitHub](https://github.com/RH-Lin/CyIN)  
 **领域**: 多模态VLM  
 **关键词**: 不完整多模态学习, 信息瓶颈, 循环翻译, 变分近似, 模态缺失
 
@@ -212,8 +212,8 @@ $$\mathcal{L}_{total} = \mathcal{L}_{task} + \frac{1}{\beta}(\mathcal{L}_{tib} +
 
 - [\[NeurIPS 2025\] VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning](vt-fsl_bridging_vision_and_text_with_llms_for_few-shot_learning.md)
 - [\[NeurIPS 2025\] AntiGrounding: Lifting Robotic Actions into VLM Representation Space for Decision Making](antigrounding_lifting_robotic_actions_into_vlm_representatio.md)
-- [\[NeurIPS 2025\] Multimodal Negative Learning](multimodal_negative_learning.md)
-- [\[NeurIPS 2025\] Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models](test-time_spectrum-aware_latent_steering_for_zero-shot_generalization_in_vision-.md)
+- [\[AAAI 2026\] MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment](../../AAAI2026/multimodal_vlm/mcmoe_completing_missing_modalities_with_mixture_of_experts_for_incomplete_multi.md)
 - [\[NeurIPS 2025\] Continual Multimodal Contrastive Learning](continual_multimodal_contrastive_learning.md)
+- [\[ACL 2025\] MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning](../../ACL2025/multimodal_vlm/mathcoder-vl_bridging_vision_and_code_for_enhanced_multimodal_mathematical_reaso.md)
 
 <!-- RELATED:END -->

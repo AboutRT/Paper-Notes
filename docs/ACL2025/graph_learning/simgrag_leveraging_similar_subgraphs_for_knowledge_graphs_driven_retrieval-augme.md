@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.15272](https://arxiv.org/abs/2412.15272)  
-**代码**: https://github.com/YZ-Cai/SimGRAG  
+**代码**: [https://github.com/YZ-Cai/SimGRAG](https://github.com/YZ-Cai/SimGRAG)  
 **领域**: 图学习  
 **关键词**: 知识图谱问答, 检索增强生成, 图语义距离, 子图同构检索, 事实验证
 

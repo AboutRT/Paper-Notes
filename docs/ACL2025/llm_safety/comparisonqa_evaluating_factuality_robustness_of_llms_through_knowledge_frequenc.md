@@ -9,15 +9,15 @@ tags:
   - knowledge frequency
   - robustness
   - uncertainty
-  - benchmark
+  - LLM安全
 ---
 
 # ComparisonQA: Evaluating Factuality Robustness of LLMs Through Knowledge Frequency Control and Uncertainty
 
 **会议**: ACL 2025  
 **arXiv**: [2412.20251](https://arxiv.org/abs/2412.20251)  
-**代码**: https://github.com/HKUST-KnowComp/ComparisonQA  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/HKUST-KnowComp/ComparisonQA](https://github.com/HKUST-KnowComp/ComparisonQA)  
+**领域**: LLM安全  
 **关键词**: factuality, knowledge frequency, robustness, uncertainty, benchmark
 
 ## 一句话总结
@@ -113,10 +113,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] UAQFact: Evaluating Factual Knowledge Utilization of LLMs on Unanswerable Questions](uaqfact_evaluating_factual_knowledge_utilization_of_llms_on_unanswerable_questio.md)
-- [\[ACL 2025\] Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations](factual_knowledge_in_language_models_robustness_and_anomalies_under_simple_tempo.md)
 - [\[ACL 2025\] Monitoring Decoding: Mitigating Hallucination via Evaluating the Factuality of Partial Response during Generation](monitoring_decoding_mitigating_hallucination_via_evaluating_the_factuality_of_pa.md)
+- [\[ACL 2025\] Ewe: Improving Factuality with Explicit Working Memory](improving_factuality_with_explicit_working_memory.md)
+- [\[ACL 2025\] Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs](hidden-states-factuality-encoding-limits.md)
+- [\[NeurIPS 2025\] Trans-EnV: A Framework for Evaluating the Linguistic Robustness of LLMs Against English Varieties](../../NeurIPS2025/llm_safety/trans-env_a_framework_for_evaluating_the_linguistic_robustness_of_llms_against_e.md)
 - [\[ACL 2025\] UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models](ualign_leveraging_uncertainty_estimations_for_factuality_alignment_on_large_lang.md)
-- [\[ACL 2025\] Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs](are_the_hidden_states_hiding_something_testing_the_limits_of_factuality-encoding.md)
 
 <!-- RELATED:END -->

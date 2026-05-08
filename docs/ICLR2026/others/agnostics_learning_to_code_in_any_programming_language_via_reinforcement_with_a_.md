@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 低资源编程语言
-  - RLVR
+  - 其他
   - 语言无关验证器
   - GRPO
   - 代码执行沙箱
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2508.04865](https://arxiv.org/abs/2508.04865)  
 **代码**: [https://github.com/sunblaze-ucb/agnostics](https://github.com/sunblaze-ucb/agnostics) (agnostics.abgru.me)  
-**领域**: LLM代码生成 / 强化学习  
+**领域**: 其他  
 **关键词**: 低资源编程语言, RLVR, 语言无关验证器, GRPO, 代码执行沙箱  
 
 ## 一句话总结
@@ -126,10 +126,10 @@ Agnostics分两大阶段：(1) **数据准备**——用LLM将现有数据集（
 
 ## 相关论文
 
+- [\[ICLR 2026\] Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch RL](jackpot_optimal_budgeted_rejection_sampling_for_extreme_actor-policy_mismatch_re.md)
 - [\[ICLR 2026\] A Single Architecture for Representing Invariance Under Any Space Group](a_single_architecture_for_representing_invariance_under_any_space_group.md)
 - [\[NeurIPS 2025\] Computable Universal Online Learning](../../NeurIPS2025/others/computable_universal_online_learning.md)
 - [\[ICLR 2026\] AnyUp: Universal Feature Upsampling](anyup_universal_feature_upsampling.md)
-- [\[ICLR 2026\] DA-AC: Distributions as Actions — A Unified RL Framework for Diverse Action Spaces](distributions_as_actions_a_unified_framework_for_diverse_action_spaces.md)
-- [\[ICLR 2026\] Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch RL](jackpot_optimal_budgeted_rejection_sampling_for_extreme_actor-policy_mismatch_re.md)
+- [\[CVPR 2026\] TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size](../../CVPR2026/others/teamhoi_learning_a_unified_policy_for_cooperative_human-object_interactions_with.md)
 
 <!-- RELATED:END -->

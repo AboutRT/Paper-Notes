@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.13303](https://arxiv.org/abs/2512.13303)  
-**代码**: https://lntzm.github.io/showtable-page/  
+**代码**: [https://lntzm.github.io/showtable-page/](https://lntzm.github.io/showtable-page/)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 表格可视化, 自纠错, MLLM推理, 扩散模型, 强化学习
 

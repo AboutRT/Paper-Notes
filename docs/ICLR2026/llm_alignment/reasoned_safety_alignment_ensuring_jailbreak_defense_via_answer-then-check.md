@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.11629](https://arxiv.org/abs/2509.11629)  
-**代码**: https://huggingface.co/datasets/ByteDance-Seed/ReSA  
+**代码**: [https://huggingface.co/datasets/ByteDance-Seed/ReSA](https://huggingface.co/datasets/ByteDance-Seed/ReSA)  
 **领域**: AI安全 / LLM对齐  
 **关键词**: 越狱防御, Answer-Then-Check, 安全推理, 长链思维, 数据高效对齐
 

@@ -11,7 +11,7 @@ tags: [虚假信息检测, 音频平台, 事实核查, 播客, 语音分析]
 **会议**: ACL 2026
 **arXiv**: [2604.16767](https://arxiv.org/abs/2604.16767)
 **代码**: 无
-**领域**: audio_speech
+**领域**: 音频语音
 **关键词**: 音频虚假信息, 事实核查, 播客, 口语特性, 对话性
 
 ## 一句话总结
@@ -106,3 +106,15 @@ N/A（Position Paper）
 - 实验充分度: ⭐⭐⭐ Position paper无实验，但文献综合全面
 - 写作质量: ⭐⭐⭐⭐ 论证逻辑清晰，问题阐述到位
 - 价值: ⭐⭐⭐⭐ 为音频事实核查这一新兴方向提供了重要的理论框架和研究路线图
+
+<!-- RELATED:START -->
+
+## 相关论文
+
+- [\[ACL 2026\] TellWhisper: Tell Whisper Who Speaks When](tellwhisper_tell_whisper_who_speaks_when.md)
+- [\[ICLR 2026\] Knowing When to Quit: Probabilistic Early Exits for Speech Separation](../../ICLR2026/audio_speech/knowing_when_to_quit_probabilistic_early_exits_for_speech_separation.md)
+- [\[ICLR 2026\] When and Where to Reset Matters for Long-Term Test-Time Adaptation](../../ICLR2026/audio_speech/when_and_where_to_reset_matters_for_long-term_test-time_adaptation.md)
+- [\[ICLR 2026\] When Style Breaks Safety: Defending LLMs Against Superficial Style Alignment](../../ICLR2026/audio_speech/when_style_breaks_safety_defending_llms_against_superficial_style_alignment.md)
+- [\[ACL 2026\] SEPT: Semantically Expanded Prompt Tuning for Audio-Language Models](generalizable_prompt_tuning_for_audio-language_models_via_semantic_expansion.md)
+
+<!-- RELATED:END -->

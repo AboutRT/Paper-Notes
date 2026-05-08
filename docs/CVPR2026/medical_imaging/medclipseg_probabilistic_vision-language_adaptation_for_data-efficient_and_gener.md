@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.20423](https://arxiv.org/abs/2602.20423)  
 **代码**: [HealthX-Lab/MedCLIPSeg](https://github.com/HealthX-Lab/MedCLIPSeg)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 医学图像分割, CLIP适配, 概率注意力, 不确定性建模, 跨模态融合, 数据高效
 
 ## 一句话总结

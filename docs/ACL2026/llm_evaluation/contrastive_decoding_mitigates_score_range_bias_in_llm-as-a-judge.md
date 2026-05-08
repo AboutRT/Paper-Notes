@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Contrastive Decoding Mitigates Score Range Bias in LLM-as-a-Judge
 description: >-
-  [ACL2026][LLM评估] 通过对比解码缓解LLM评判器在直接评估中的分数范围偏差
+  [ACL2026][LLM评测] 通过对比解码缓解LLM评判器在直接评估中的分数范围偏差
 tags: [LLM-as-a-Judge, 对比解码, 评估偏差, 分数范围偏差, 摘要评估]
 ---
 
@@ -11,7 +11,7 @@ tags: [LLM-as-a-Judge, 对比解码, 评估偏差, 分数范围偏差, 摘要评
 **会议**: ACL 2026
 **arXiv**: [2510.18196](https://arxiv.org/abs/2510.18196)
 **代码**: 无
-**领域**: llm_evaluation
+**领域**: LLM评测
 **关键词**: LLM评判器, 对比解码, 分数范围偏差, 直接评估, 模型家族偏差
 
 ## 一句话总结

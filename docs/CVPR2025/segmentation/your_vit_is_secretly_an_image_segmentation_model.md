@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19108](https://arxiv.org/abs/2503.19108)  
-**代码**: https://www.tue-mps.org/eomt/ (有)  
+**代码**: [https://www.tue-mps.org/eomt/](https://www.tue-mps.org/eomt/)  
 **领域**: 分割  
 **关键词**: Vision Transformer, 图像分割, 编码器唯一架构, 掩码退火, DINOv2
 

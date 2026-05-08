@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 图像恢复
   - 扩散桥模型
-  - 视觉导航
+  - 图像复原
   - 模仿学习
   - 先验动作
   - 去噪
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.10041](https://arxiv.org/abs/2504.10041)  
-**代码**: https://github.com/hren20/NaiviBridger  
-**领域**: 视觉导航 / 扩散模型  
+**代码**: [https://github.com/hren20/NaiviBridger](https://github.com/hren20/NaiviBridger)  
+**领域**: 图像复原  
 **关键词**: 扩散桥模型, 视觉导航, 模仿学习, 先验动作, 去噪
 
 ## 一句话总结
@@ -138,10 +138,10 @@ NaviBridger 的整体架构由三部分组成：(1) 特征提取模块——用 
 
 ## 相关论文
 
+- [\[ICML 2025\] ε-VAE: Denoising as Visual Decoding](../../ICML2025/image_restoration/epsilon-vae_denoising_as_visual_decoding.md)
 - [\[NeurIPS 2025\] Audio Super-Resolution with Latent Bridge Models](../../NeurIPS2025/image_restoration/audio_super-resolution_with_latent_bridge_models.md)
 - [\[CVPR 2025\] Visual-Instructed Degradation Diffusion for All-in-One Image Restoration](visual-instructed_degradation_diffusion_for_all-in-one_image_restoration.md)
-- [\[ICML 2025\] ε-VAE: Denoising as Visual Decoding](../../ICML2025/image_restoration/epsilon-vae_denoising_as_visual_decoding.md)
 - [\[ICCV 2025\] Exploiting Diffusion Prior for Task-driven Image Restoration](../../ICCV2025/image_restoration/exploiting_diffusion_prior_for_task-driven_image_restoration.md)
-- [\[CVPR 2025\] Efficient Visual State Space Model for Image Deblurring](efficient_visual_state_space_model_for_image_deblurring.md)
+- [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](rotation-equivariant_self-supervised_method_in_image_denoising.md)
 
 <!-- RELATED:END -->

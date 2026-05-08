@@ -19,7 +19,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2410.08820](https://arxiv.org/abs/2410.08820)  
 **代码**: [uni-bamberg.de/nlproc/resources/llms-default-demographics](https://www.uni-bamberg.de/en/nlproc/resources/llms-default-demographics/)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: LLM annotation, demographic bias, socio-demographic prompting, perspectivism, placebo prompting, offensiveness, politeness
 
 ## 一句话总结

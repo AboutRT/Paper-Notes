@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.19762](https://arxiv.org/abs/2603.19762)  
-**代码**: https://github.com/MinLin2022/PCSTracker  
+**代码**: [https://github.com/MinLin2022/PCSTracker](https://github.com/MinLin2022/PCSTracker)  
 **领域**: 3D视觉 / 场景流估计  
 **关键词**: 点云场景流, 长序列轨迹估计, 时空Transformer, 滑动窗口, 三维运动分析
 

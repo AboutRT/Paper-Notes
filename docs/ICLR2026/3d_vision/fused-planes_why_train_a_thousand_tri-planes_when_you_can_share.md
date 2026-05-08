@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2410.23742](https://arxiv.org/abs/2410.23742)  
-**代码**: https://fused-planes.github.io  
+**代码**: [https://fused-planes.github.io](https://fused-planes.github.io)  
 **领域**: 3D视觉 / 大规模3D重建  
 **关键词**: tri-plane, NeRF, shared representation, large-scale 3D, latent space
 

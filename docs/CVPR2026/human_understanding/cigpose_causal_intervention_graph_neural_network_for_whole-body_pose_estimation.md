@@ -154,10 +154,10 @@ CIGPose-x 仅用 COCO-WholeBody 训练就超过了依赖两阶段蒸馏+额外 U
 
 ## 相关论文
 
-- [\[ICCV 2025\] RapVerse: Coherent Vocals and Whole-Body Motion Generation from Text](../../ICCV2025/human_understanding/rapverse_coherent_vocals_and_whole-body_motion_generation_from_text.md)
+- [\[ECCV 2024\] Upper-Body Hierarchical Graph for Skeleton Based Emotion Recognition in Assistive Driving](../../ECCV2024/human_understanding/upper-body_hierarchical_graph_for_skeleton_based_emotion_recognition_in_assistiv.md)
 - [\[ICCV 2025\] CleanPose: Category-Level Object Pose Estimation via Causal Learning and Knowledge Distillation](../../ICCV2025/human_understanding/cleanpose_category-level_object_pose_estimation_via_causal_learning_and_knowledg.md)
-- [\[AAAI 2026\] ParaRevSNN: A Parallel Reversible Spiking Neural Network for Efficient Training and Inference](../../AAAI2026/human_understanding/pararevsnn_a_parallel_reversible_spiking_neural_network_for_efficient_training_a.md)
-- [\[CVPR 2026\] FSMC-Pose: Frequency and Spatial Fusion with Multiscale Self-calibration for Cattle Mounting Pose Estimation](fsmc_pose_frequency_spatial_cattle_mounting_pose.md)
+- [\[ECCV 2024\] Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot](../../ECCV2024/human_understanding/multi-hmr_multi-person_whole-body_human_mesh_recovery_in_a_single_shot.md)
 - [\[CVPR 2026\] COG: Confidence-aware Optimal Geometric Correspondence for Unsupervised Single-reference Novel Object Pose Estimation](cog_confidence-aware_optimal_geometric_correspondence_for_unsupervised_single-re.md)
+- [\[CVPR 2026\] ViBES: A Conversational Agent with Behaviorally-Intelligent 3D Virtual Body](vibes_a_conversational_agent_with_behaviorally_intelligent_3d_virtual_body.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2410.04264](https://arxiv.org/abs/2410.04264)  
 **代码**: 有（附录提供）  
-**领域**: 自监督学习 / 表征学习 / 理论分析  
+**领域**: 可解释性  
 **关键词**: rich dynamics, lazy training, neural collapse, feature learning, CKA
 
 ## 一句话总结
@@ -137,8 +137,8 @@ tags:
 
 - [\[ICLR 2026\] Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md)
 - [\[ICLR 2026\] Uni-NTFM: A Unified Foundation Model for EEG Signal Representation Learning](uni-ntfm_a_unified_foundation_model_for_eeg_signal_representation_learning.md)
+- [\[ICLR 2026\] The Geometry of Reasoning: Flowing Logics in Representation Space](the_geometry_of_reasoning_flowing_logics_in_representation_space.md)
 - [\[NeurIPS 2025\] Time-Evolving Dynamical System for Learning Latent Representations of Mouse Visual Cortex](../../NeurIPS2025/interpretability/time-evolving_dynamical_system_for_learning_latent_representations_of_mouse_visu.md)
 - [\[ICLR 2026\] Information Shapes Koopman Representation](information_shapes_koopman_representation.md)
-- [\[ICLR 2026\] Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data](behavior_learning_bl_learning_hierarchical_optimization_structures_from_data.md)
 
 <!-- RELATED:END -->

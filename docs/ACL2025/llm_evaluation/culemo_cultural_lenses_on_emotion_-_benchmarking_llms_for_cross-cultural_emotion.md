@@ -14,7 +14,7 @@ tags:
 - **会议**: ACL2025
 - **arXiv**: [2503.10688](https://arxiv.org/abs/2503.10688)
 - **代码**: [https://github.com/llm-for-emotion/culemo](https://github.com/llm-for-emotion/culemo)
-- **领域**: LLM NLP
+- **领域**: LLM评测
 - **关键词**: 跨文化情感理解, 多语言LLM评估, 文化感知, 情感预测, 情感分析
 
 ## 一句话总结

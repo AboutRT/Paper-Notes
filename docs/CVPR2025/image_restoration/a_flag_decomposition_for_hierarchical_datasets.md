@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.07782](https://arxiv.org/abs/2502.07782)  
-**代码**: https://github.com/nmank/FD  
+**代码**: [https://github.com/nmank/FD](https://github.com/nmank/FD)  
 **领域**: 图像恢复 / 子空间学习  
 **关键词**: Flag流形, 层次数据, 矩阵分解, 去噪, 少样本学习
 

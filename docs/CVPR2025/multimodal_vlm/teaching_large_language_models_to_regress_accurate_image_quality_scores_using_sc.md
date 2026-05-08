@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 图像质量评估
+  - 多模态VLM
   - MLLM
   - 分数回归
   - 分布离散化
@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.11561](https://arxiv.org/abs/2501.11561)  
-**代码**: https://depictqa.github.io/deqa-score/ (有)  
+**代码**: [https://depictqa.github.io/deqa-score/](https://depictqa.github.io/deqa-score/)  
 **领域**: 多模态VLM  
 **关键词**: 图像质量评估, MLLM, 分数回归, 分布离散化, soft label, 多数据集联合训练
 
@@ -127,10 +127,10 @@ DeQA-Score基于mPLUG-Owl2架构（CLIP ViT-L + Q-Former视觉抽象器 + LLaMA-
 
 ## 相关论文
 
-- [\[AAAI 2026\] DisCode: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning](../../AAAI2026/multimodal_vlm/discode_distribution-aware_score_decoder_for_robust_automatic_evaluation_of_imag.md)
 - [\[CVPR 2025\] COUNTS: Benchmarking Object Detectors and Multimodal Large Language Models under Distribution Shifts](counts_benchmarking_object_detectors_and_multimodal_large_language_models_under_.md)
 - [\[CVPR 2025\] On the Out-of-Distribution Generalization of Multimodal Large Language Models](on_the_out-of-distribution_generalization_of_large_multimodal_models.md)
-- [\[ICML 2025\] SlimLLM: Accurate Structured Pruning for Large Language Models](../../ICML2025/multimodal_vlm/slimllm_accurate_structured_pruning_for_large_language_models.md)
+- [\[AAAI 2026\] DisCode: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning](../../AAAI2026/multimodal_vlm/discode_distribution-aware_score_decoder_for_robust_automatic_evaluation_of_imag.md)
 - [\[CVPR 2025\] RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics](robospatial_teaching_spatial_understanding_to_2d_and_3d_vision-language_models_f.md)
+- [\[CVPR 2025\] CoLLM: A Large Language Model for Composed Image Retrieval](collm_a_large_language_model_for_composed_image_retrieval.md)
 
 <!-- RELATED:END -->

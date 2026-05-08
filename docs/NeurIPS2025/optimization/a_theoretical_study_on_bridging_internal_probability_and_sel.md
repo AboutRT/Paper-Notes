@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.15444](https://arxiv.org/abs/2510.15444)  
-**代码**: [https://wnjxyk.github.io/RPC](https://wnjxyk.github.io/RPC) (有)  
-**领域**: LLM推理 / 测试时缩放  
+**代码**: [https://wnjxyk.github.io/RPC](https://wnjxyk.github.io/RPC)  
+**领域**: 优化  
 **关键词**: Self-Consistency, Perplexity, Test-time Scaling, Confidence Estimation, LLM Reasoning  
 
 ## 一句话总结

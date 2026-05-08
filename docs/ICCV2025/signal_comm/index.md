@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 信号/通信方向2篇论文解读
+  ICCV2025 信号/通信方向3篇论文解读
 description: >-
-  2篇ICCV2025的信号/通信方向论文解读，涵盖多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  3篇ICCV2025的信号/通信方向论文解读，涵盖多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📡 信号/通信
 
-**📹 ICCV2025** · **2** 篇论文解读
+**📹 ICCV2025** · **3** 篇论文解读
 
 **[Boosting Multimodal Learning via Disentangled Gradient Learning](boosting_multimodal_learning_via_disentangled_gradient_learning.md)**
 
@@ -17,3 +17,7 @@ description: >-
 **[Generalizable Non-Line-of-Sight Imaging with Learnable Physical Priors](generalizable_non-line-of-sight_imaging_with_learnable_physical_priors.md)**
 
 :   提出Learnable Path Compensation (LPC)和Adaptive Phasor Field (APF)两个模块，分别解决NLOS成像中辐射强度衰减的材质依赖性问题和不同信噪比条件下的频域去噪问题，仅在合成数据上训练即可在多种真实数据集上实现SOTA泛化性能。
+
+**[Rectifying Magnitude Neglect in Linear Attention](rectifying_magnitude_neglect_in_linear_attention.md)**
+
+:   揭示 Linear Attention 完全忽略 Query 幅值信息导致注意力分数分布与 Softmax Attention 显著偏离，提出 Magnitude-Aware Linear Attention (MALA)，通过引入缩放因子 β 和偏移项 γ 使线性注意力恢复幅值感知能力，在分类、检测、分割、NLP、语音、图像生成等任务上全面超越现有方法。

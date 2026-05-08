@@ -53,13 +53,13 @@ HydroDCM 包含四个模块，分两阶段运行：
 
 1. **空间元属性驱动的伪域标签**：不同于传统 DG 为每个域分配 one-hot 标签，HydroDCM 使用空间元属性向量 $\mathbf{s}_i \in \mathbb{R}^3$（经度、纬度、海拔）作为伪域标识符。具体做法是将元属性和观测数据拼接后通过线性投影得到伪域嵌入 $\mathbf{v}_i = \mathbf{W}[\mathbf{s}_i : \mathbf{X}_i] + \mathbf{b}$，然后用对比学习损失确保地理相近的水库在嵌入空间中更近：
 
-   $$L_{\text{con}} = -\sum_{i=1}^{N} \log \frac{\exp(\text{sim}(\mathbf{v}_i, \mathbf{v}_i^+)/\tau)}{\exp(\text{sim}(\mathbf{v}_i, \mathbf{v}_i^+)/\tau) + \sum_{j \in \mathcal{N}} \exp(\text{sim}(\mathbf{v}_i, \mathbf{v}_j^-)/\tau)}$$
+    $L_{\text{con}} = -\sum_{i=1}^{N} \log \frac{\exp(\text{sim}(\mathbf{v}_i, \mathbf{v}_i^+)/\tau)}{\exp(\text{sim}(\mathbf{v}_i, \mathbf{v}_i^+)/\tau) + \sum_{j \in \mathcal{N}} \exp(\text{sim}(\mathbf{v}_i, \mathbf{v}_j^-)/\tau)}$
 
    **设计动机**：连续的空间元属性比离散域标签更适合多域场景——它天然编码了域间的相似度关系，同时避免了 one-hot 编码在域数量大时的计算爆炸。
 
 2. **对抗训练泛化**：域判别器 $d_\theta$ 试图从时间特征 $\mathbf{h}_i = f_\phi(\mathbf{X}_i)$ 中预测伪域标签 $\mathbf{v}_i$，而特征提取器通过对抗训练被迫去除域相关信息：
 
-   $$L_{\text{adv}} = -\mathbb{E}_{(\mathbf{x}_i, \mathbf{v})} \|d_\theta(\mathbf{h}_i) - \mathbf{v}_i\|_2^2$$
+    $L_{\text{adv}} = -\mathbb{E}_{(\mathbf{x}_i, \mathbf{v})} \|d_\theta(\mathbf{h}_i) - \mathbf{v}_i\|_2^2$
 
    梯度仅通过判别器参数 $\theta$ 传播，方向取反以鼓励判别器失败。这样提取的特征 $\mathbf{z}$ 保留了与标签（入流量）相关的水文动力学信息，同时滤除了域特异性噪声。
 
@@ -67,7 +67,7 @@ HydroDCM 包含四个模块，分两阶段运行：
 
 3. **FiLM 域条件调制**：对抗训练后的不变特征可能丢失了水文意义上有用的域特定信息。FiLM 适配器通过空间元属性生成缩放和平移系数，对不变特征进行仿射变换：
 
-   $$\tilde{\mathbf{z}}_i = \gamma(\mathbf{s}_i) \odot \mathbf{z}_i + \delta(\mathbf{s}_i)$$
+    $\tilde{\mathbf{z}}_i = \gamma(\mathbf{s}_i) \odot \mathbf{z}_i + \delta(\mathbf{s}_i)$
 
    其中 $\gamma$ 和 $\delta$ 由元属性 $\mathbf{s}_i$ 通过轻量 MLP 生成。调制后的特征送入预测头 $p_\omega$ 输出未来 7 天入流量 $\hat{y}_i = \text{MLP}(\tilde{\mathbf{z}}_i)$。
 

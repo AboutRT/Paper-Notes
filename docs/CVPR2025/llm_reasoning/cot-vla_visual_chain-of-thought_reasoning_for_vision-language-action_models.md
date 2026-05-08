@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.22020](https://arxiv.org/abs/2503.22020)  
-**代码**: https://cot-vla.github.io/  
+**代码**: [https://cot-vla.github.io/](https://cot-vla.github.io/)  
 **作者**: Qingqing Zhao, Yao Lu, Moo Jin Kim, Zipeng Fu, Zhuoyang Zhang, Yecheng Wu, Zhaoshuo Li, Qianli Ma, Song Han, Chelsea Finn, Ankur Handa, Ming-Yu Liu, Donglai Xiang, Gordon Wetzstein, Tsung-Yi Lin  
 **机构**: NVIDIA, Stanford University, MIT  
 **领域**: LLM推理  

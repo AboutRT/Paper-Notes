@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025 (MOSS Workshop)  
 **arXiv**: [2507.08018](https://arxiv.org/abs/2507.08018)  
 **作者**: Nikita Mounier, Parsa Ideahpour (University of Pennsylvania)
-**领域**: nlp_generation  
+**领域**: 图像生成  
 **关键词**: masked diffusion model, 过程奖励模型, 迭代优化, remasking, 文本生成, 推理时缩放
 
 ## 一句话总结

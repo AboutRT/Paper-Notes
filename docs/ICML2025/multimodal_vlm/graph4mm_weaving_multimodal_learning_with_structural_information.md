@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2510.16990](https://arxiv.org/abs/2510.16990)  
 **代码**: [GitHub](https://github.com/YennNing/Graph4MM)  
-**领域**: 多模态图学习 / 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: 多模态图, 结构信息融合, Hop-Diffused Attention, QFormer, 零样本分类
 
 ## 一句话总结
@@ -152,6 +152,6 @@ $$\mathbf{H}_P \leftarrow \mathbf{H}_P + \boldsymbol{\mathcal{A}} \mathbf{H}_P$$
 - [\[CVPR 2026\] StructXLIP: Enhancing Vision-Language Models with Multimodal Structural Cues](../../CVPR2026/multimodal_vlm/structxlip_enhancing_vision-language_models_with_multimodal_structural_cues.md)
 - [\[AAAI 2026\] Conditional Information Bottleneck for Multimodal Fusion: Overcoming Shortcut Learning in Sarcasm Detection](../../AAAI2026/multimodal_vlm/conditional_information_bottleneck_for_multimodal_fusion_overcoming_shortcut_lea.md)
 - [\[NeurIPS 2025\] MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agriculture](../../NeurIPS2025/multimodal_vlm/mirage_a_benchmark_for_multimodal_information-seeking_and_reasoning_in_agricultu.md)
-- [\[ICCV 2025\] ReasonVQA: A Multi-hop Reasoning Benchmark with Structural Knowledge for Visual Question Answering](../../ICCV2025/multimodal_vlm/reasonvqa_a_multi-hop_reasoning_benchmark_with_structural_knowledge_for_visual_q.md)
+- [\[CVPR 2025\] Cross-modal Information Flow in Multimodal Large Language Models](../../CVPR2025/multimodal_vlm/cross-modal_information_flow_in_multimodal_large_language_models.md)
 
 <!-- RELATED:END -->

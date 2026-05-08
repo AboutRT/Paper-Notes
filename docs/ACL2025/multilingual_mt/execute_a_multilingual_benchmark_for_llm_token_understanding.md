@@ -8,7 +8,7 @@ tags:
   - multilingual
   - tokenization
   - character understanding
-  - benchmark
+  - 多语言翻译
   - writing system
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.17784](https://arxiv.org/abs/2505.17784)  
-**代码**: https://github.com/Leukas/EXECUTE  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/Leukas/EXECUTE](https://github.com/Leukas/EXECUTE)  
+**领域**: 多语言翻译  
 **关键词**: multilingual, tokenization, character understanding, benchmark, writing system
 
 ## 一句话总结
@@ -117,8 +117,8 @@ tags:
 
 - [\[ACL 2025\] CruxEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution](cruxeval-x_a_benchmark_for_multilingual_code_reasoning_understanding_and_executi.md)
 - [\[ACL 2025\] Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding](code-switching_red-teaming_llm_evaluation_for_safety_and_multilingual_understand.md)
-- [\[ACL 2025\] Context Augmented Token-Level Post-Editing for Human Interpreting](context_augmented_token-level_post-editing_for_human_interpreting.md)
 - [\[ACL 2025\] Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral](are_rules_meant_to_be_broken_understanding_multilingual_moral_reasoning_as_a_com.md)
-- [\[ACL 2025\] CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis](culfit_a_fine-grained_cultural-aware_llm_training_paradigm_via_multilingual_crit.md)
+- [\[ACL 2025\] M3FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset](m3finmeeting_a_multilingual_multi-sector_and_multi-task_financial_meeting_unders.md)
+- [\[ACL 2025\] Context Augmented Token-Level Post-Editing for Human Interpreting](context_augmented_token-level_post-editing_for_human_interpreting.md)
 
 <!-- RELATED:END -->

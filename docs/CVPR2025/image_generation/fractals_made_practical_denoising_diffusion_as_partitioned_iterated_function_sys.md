@@ -142,6 +142,6 @@ tags:
 - [\[CVPR 2025\] DiffSensei: Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation](diffsensei_bridging_multi-modal_llms_and_diffusion_models_for_customized_manga_g.md)
 - [\[CVPR 2025\] Visual Lexicon: Rich Image Features in Language Space](visual_lexicon_rich_image_features_in_language_space.md)
 - [\[CVPR 2025\] Tiled Diffusion](tiled_diffusion.md)
-- [\[CVPR 2025\] Decentralized Diffusion Models](decentralized_diffusion_models.md)
+- [\[CVPR 2025\] Color Alignment in Diffusion](color_alignment_in_diffusion.md)
 
 <!-- RELATED:END -->

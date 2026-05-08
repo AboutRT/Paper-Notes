@@ -8,7 +8,7 @@ tags:
   - 模型合并防御
   - 知识产权保护
   - 权重保护
-  - 对抗性扰动
+  - LLM预训练
   - 模型安全
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2511.11851](https://arxiv.org/abs/2511.11851)  
 **代码**: 无（暂未开源）  
-**领域**: AI Safety / Model IP Protection  
+**领域**: LLM预训练  
 **关键词**: 模型合并防御, 知识产权保护, 权重保护, 对抗性扰动, 模型安全
 
 ## 一句话总结
@@ -126,10 +126,10 @@ MergeGuard的平均精度下降比PaRaMS多 **21.35个百分点**。
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Gradient-Weight Alignment as a Train-Time Proxy for Generalization in Classification Tasks](../../NeurIPS2025/llm_pretraining/gradient-weight_alignment_as_a_train-time_proxy_for_generalization_in_classifica.md)
-- [\[NeurIPS 2025\] Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](../../NeurIPS2025/llm_pretraining/power_lines_scaling_laws_for_weight_decay_and_batch_size_in_llm_pre-training.md)
-- [\[AAAI 2026\] Scaling and Transferability of Annealing Strategies in Large Language Model Training](../../AAAI2026/llm_pretraining/scaling_and_transferability_of_annealing_strategies_in_large_language_model_trai.md)
-- [\[NeurIPS 2025\] Gemstones: A Model Suite for Multi-Faceted Scaling Laws](../../NeurIPS2025/llm_pretraining/gemstones_a_model_suite_for_multi-faceted_scaling_laws.md)
-- [\[ICML 2025\] Metadata Conditioning Accelerates Language Model Pre-training](../../ICML2025/llm_pretraining/metadata_conditioning_accelerates_language_model_pre-training.md)
+- [\[CVPR 2026\] Model Merging in the Essential Subspace](model_merging_in_the_essential_subspace.md)
+- [\[ICLR 2026\] Steering Language Models with Weight Arithmetic](../../ICLR2026/llm_pretraining/steering_language_models_with_weight_arithmetic.md)
+- [\[CVPR 2026\] MXNorm: Reusing MXFP block scales for efficient tensor normalisation](mxnorm_reusing_mxfp_block_scales_for_efficient_ten.md)
+- [\[CVPR 2026\] LottieGPT: Tokenizing Vector Animation for Autoregressive Generation](lottiegpt_vector_animation_generation.md)
+- [\[CVPR 2026\] Evidential Transformation Network: Turning Pretrained Models into Evidential Models for Post-hoc Uncertainty Estimation](evidential_transformation_network_post_hoc_uncertainty_estimation.md)
 
 <!-- RELATED:END -->

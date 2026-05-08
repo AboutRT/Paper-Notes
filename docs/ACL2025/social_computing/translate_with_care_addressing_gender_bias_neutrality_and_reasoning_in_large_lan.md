@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Translate With Care: Addressing Gender Bias, Neutrality, and Reasoning in Large Language Model Translations
 description: >-
-  [ACL2025][机器翻译] 提出 Translate-with-Care (TWC) 数据集（3,950 条跨 6 种无性别语言的翻译挑战），系统揭示 GPT-4、Google Translate 等模型在无性别→有性别语言翻译中的性别偏见和推理错误，并通过微调 mBART-50 在偏见消除和翻译准确率上大幅超越闭源 LLM。
+  [ACL2025][社会计算] 提出 Translate-with-Care (TWC) 数据集（3,950 条跨 6 种无性别语言的翻译挑战），系统揭示 GPT-4、Google Translate 等模型在无性别→有性别语言翻译中的性别偏见和推理错误，并通过微调 mBART-50 在偏见消除和翻译准确率上大幅超越闭源 LLM。
 tags:
   - ACL2025
-  - 机器翻译
+  - 社会计算
   - 性别偏见
   - 无性别语言
   - 代词消歧
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2506.00748](https://arxiv.org/abs/2506.00748)  
 **代码**: [GitHub](https://github.com/PardisTagworksopen/TWC)  
-**领域**: llm_nlp  
+**领域**: 社会计算  
 **关键词**: 机器翻译, 性别偏见, 无性别语言, 代词消歧, 低资源语言, mBART-50
 
 ## 一句话总结
@@ -138,9 +138,9 @@ MT-GenEval 评估句子和段落级别的性别翻译，但同样局限于有性
 ## 相关论文
 
 - [\[ACL 2025\] Exploring Gender Bias in Large Language Models: An In-depth Dive into the German Language](exploring_gender_bias_in_large_language_models_an_in-depth_dive_into_the_german_.md)
+- [\[NeurIPS 2025\] Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector](../../NeurIPS2025/social_computing/any_large_language_model_can_be_a_reliable_judge_debiasing_w.md)
 - [\[ACL 2025\] BiasGuard: A Reasoning-Enhanced Bias Detection Tool for Large Language Models](biasguard_a_reasoning-enhanced_bias_detection_tool_for_large_language_models.md)
-- [\[ICLR 2026\] BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses](../../ICLR2026/social_computing/biasfreebench_a_benchmark_for_mitigating_bias_in_large_language_model_responses.md)
 - [\[ACL 2025\] GG-BBQ: German Gender Bias Benchmark for Question Answering](gg-bbq_german_gender_bias_benchmark_for_question_answering.md)
-- [\[ACL 2025\] How does Misinformation Affect Large Language Model Behaviors and Preferences?](how_does_misinformation_affect_large_language.md)
+- [\[ACL 2025\] taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades](taz2024full_analysing_german_newspapers_for_gender_bias_and_discrimination_acros.md)
 
 <!-- RELATED:END -->

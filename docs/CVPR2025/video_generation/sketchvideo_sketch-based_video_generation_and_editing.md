@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.23284](https://arxiv.org/abs/2503.23284)  
-**代码**: http://geometrylearning.com/SketchVideo/  
-**领域**: 视频理解  
+**代码**: [http://geometrylearning.com/SketchVideo/](http://geometrylearning.com/SketchVideo/)  
+**领域**: 视频生成  
 **关键词**: 草图控制, 视频生成, 视频编辑, DiT架构, 帧间注意力
 
 ## 一句话总结
@@ -146,9 +146,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] ViReS: Video Instance Repainting via Sketch and Text Guided Generation](vires_video_instance_repainting_via_sketch_and_text_guided_generation.md)
-- [\[CVPR 2025\] Pathways on the Image Manifold: Image Editing via Video Generation](pathways_on_the_image_manifold_image_editing_via_video_generation.md)
 - [\[CVPR 2025\] VideoDirector: Precise Video Editing via Text-to-Video Models](videodirector_precise_video_editing_via_text-to-video_models.md)
+- [\[CVPR 2025\] Pathways on the Image Manifold: Image Editing via Video Generation](pathways_on_the_image_manifold_image_editing_via_video_generation.md)
 - [\[CVPR 2025\] Visual Prompting for One-Shot Controllable Video Editing Without Inversion](visual_prompting_for_one-shot_controllable_video_editing_without_inversion.md)
-- [\[ICCV 2025\] VACE: All-in-One Video Creation and Editing](../../ICCV2025/video_generation/vace_all-in-one_video_creation_and_editing.md)
+- [\[CVPR 2025\] VEU-Bench: Towards Comprehensive Understanding of Video Editing](veu-bench_towards_comprehensive_understanding_of_video_editing.md)
 
 <!-- RELATED:END -->

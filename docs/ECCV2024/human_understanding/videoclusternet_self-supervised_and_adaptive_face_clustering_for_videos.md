@@ -60,14 +60,14 @@ VideoClusterNet 分为三个阶段：
 
    **核心思路**: 采用 teacher-student 自蒸馏机制。给预训练 Face ID 模型附加随机初始化的 MLP head，复制为 teacher 和 student 分支。从同一/匹配 track 采样正样本对，通过交叉熵风格的 similarity loss 训练：
 
-   $$L_{ssl} = -1 \times softmax\left(\frac{embed_t - c}{temp}\right) \times \log(softmax(embed_s))$$
+    $L_{ssl} = -1 \times softmax\left(\frac{embed_t - c}{temp}\right) \times \log(softmax(embed_s))$
 
    其中 $embed_t$、$embed_s$ 分别为 teacher/student 输出，$c$ 为 teacher 嵌入的滚动均值。梯度仅通过 student 分支反传，teacher 权重通过 student 的指数移动平均更新。
 
    **设计动机**: 
-   - **仅用正样本对**：完全跳过负样本挖掘，避免错误负样本（如同一角色在不同场景被误认为不同人）导致的次优解
-   - **分阶段训练**：先冻结基模型只训练 head（head 随机初始化），再联合微调——确保训练稳定性
-   - **数据增强**：水平翻转、旋转、色温变化——减少对视频自然变化的依赖
+    - **仅用正样本对**：完全跳过负样本挖掘，避免错误负样本（如同一角色在不同场景被误认为不同人）导致的次优解
+    - **分阶段训练**：先冻结基模型只训练 head（head 随机初始化），再联合微调——确保训练稳定性
+    - **数据增强**：水平翻转、旋转、色温变化——减少对视频自然变化的依赖
 
 2. **粗粒度 Track 匹配 (Coarse Track Matching)**:
 
@@ -82,13 +82,13 @@ VideoClusterNet 分为三个阶段：
    **功能**: 将所有 track 按身份聚类，无需用户指定任何参数。
 
    **核心思路**: 
-   - **距离度量**: 直接使用 SSL 训练损失 $L_{ssl}$ 作为 track 相似度度量（非对称，取两方向均值）
-   - **自适应阈值**: 每个 track 内所有采样人脸两两计算 $L_{ssl}$，取均值作为该 track 的匹配阈值
-   - **层次聚合**: 初始每个 track 为一个 cluster → 两两比较 → 若匹配值低于任一方的阈值则合并 → 传递性合并 → 迭代直到无新合并
+    - **距离度量**: 直接使用 SSL 训练损失 $L_{ssl}$ 作为 track 相似度度量（非对称，取两方向均值）
+    - **自适应阈值**: 每个 track 内所有采样人脸两两计算 $L_{ssl}$，取均值作为该 track 的匹配阈值
+    - **层次聚合**: 初始每个 track 为一个 cluster → 两两比较 → 若匹配值低于任一方的阈值则合并 → 传递性合并 → 迭代直到无新合并
 
    **设计动机**: 
-   - 训练损失恰好在微调过程中优化了嵌入空间，用它作为距离度量比 Euclidean/Cosine 更适配
-   - 每个 track 有独立阈值，适应模型对不同身份的识别信心差异
+    - 训练损失恰好在微调过程中优化了嵌入空间，用它作为距离度量比 Euclidean/Cosine 更适配
+    - 每个 track 有独立阈值，适应模型对不同身份的识别信心差异
 
 ### Track 质量估计
 
@@ -172,8 +172,8 @@ VideoClusterNet 分为三个阶段：
 
 ## 相关论文
 
-- [\[ECCV 2024\] Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection](self-supervised_feature_adaptation_for_3d_industrial_anomaly_detection.md)
 - [\[ECCV 2024\] Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization](pose-aware_self-supervised_learning_with_viewpoint_trajectory_regularization.md)
+- [\[ECCV 2024\] Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection](self-supervised_feature_adaptation_for_3d_industrial_anomaly_detection.md)
 - [\[ECCV 2024\] AdaDistill: Adaptive Knowledge Distillation for Deep Face Recognition](adadistill_adaptive_knowledge_distillation_for_deep_face_rec.md)
 - [\[ICCV 2025\] Bi-Level Optimization for Self-Supervised AI-Generated Face Detection](../../ICCV2025/human_understanding/bi-level_optimization_for_self-supervised_ai-generated_face_detection.md)
 - [\[ECCV 2024\] Interleaving One-Class and Weakly-Supervised Models with Adaptive Thresholding for Unsupervised Video Anomaly Detection](interleaving_one-class_and_weakly-supervised_models_with_adaptive_thresholding_f.md)

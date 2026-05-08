@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.04331](https://arxiv.org/abs/2507.04331)  
-**代码**: https://hhuang-code.github.io/wavelet_policy/  
+**代码**: [https://hhuang-code.github.io/wavelet_policy/](https://hhuang-code.github.io/wavelet_policy/)  
 **领域**: 自动驾驶  
 **关键词**: 策略学习, 小波变换, 提升方案, 长horizon任务, 模仿学习
 

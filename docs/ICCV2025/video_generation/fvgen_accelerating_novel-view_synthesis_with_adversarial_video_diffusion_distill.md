@@ -2,10 +2,10 @@
 title: >-
   [论文解读] FVGen: Accelerating Novel-View Synthesis with Adversarial Video Diffusion Distillation
 description: >-
-  [ICCV 2025][新视角合成] 本文提出 FVGen，一个将多步视频扩散模型（VDM）蒸馏为仅需 4 步采样的快速学生模型的框架，通过 GAN 目标的学生初始化和软化反向 KL 散度优化，实现了保持甚至超越教师模型视觉质量的同时减少 90% 以上的采样时间。
+  [ICCV 2025][视频生成] 本文提出 FVGen，一个将多步视频扩散模型（VDM）蒸馏为仅需 4 步采样的快速学生模型的框架，通过 GAN 目标的学生初始化和软化反向 KL 散度优化，实现了保持甚至超越教师模型视觉质量的同时减少 90% 以上的采样时间。
 tags:
   - ICCV 2025
-  - 新视角合成
+  - 视频生成
   - 视频扩散蒸馏
   - 对抗训练
   - 软化反向KL散度
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.06392](https://arxiv.org/abs/2508.06392)  
 **代码**: [https://wbteng9526.github.io/fvgen/](https://wbteng9526.github.io/fvgen/)  
-**领域**: 3D视觉 / 新视角合成  
+**领域**: 视频生成  
 **关键词**: 新视角合成, 视频扩散蒸馏, 对抗训练, 软化反向KL散度, 少步采样
 
 ## 一句话总结
@@ -135,9 +135,9 @@ GAN 阶段：标准对抗损失 + 双时间尺度更新规则。DMD 阶段：软
 ## 相关论文
 
 - [\[ICCV 2025\] Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis](adversarial_distribution_matching_for_diffusion_distillation_towards_efficient_i.md)
-- [\[CVPR 2025\] StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models](../../CVPR2025/video_generation/streetcrafter_street_view_synthesis_with_controllable_video_diffusion_models.md)
 - [\[ECCV 2024\] SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](../../ECCV2024/video_generation/sv3d_novel_multi-view_synthesis_and_3d_generation_from_a_single_image_using_late.md)
-- [\[AAAI 2026\] Phased One-Step Adversarial Equilibrium for Video Diffusion Models](../../AAAI2026/video_generation/phased_one-step_adversarial_equilibrium_for_video_diffusion_models.md)
-- [\[ICML 2025\] Diffusion Adversarial Post-Training for One-Step Video Generation](../../ICML2025/video_generation/diffusion_adversarial_post-training_for_one-step_video_generation.md)
+- [\[CVPR 2025\] StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models](../../CVPR2025/video_generation/streetcrafter_street_view_synthesis_with_controllable_video_diffusion_models.md)
+- [\[ICCV 2025\] DOLLAR: Few-Step Video Generation via Distillation and Latent Reward Optimization](dollar_few-step_video_generation_via_distillation_and_latent_reward_optimization.md)
+- [\[ICCV 2025\] Causal-Entity Reflected Egocentric Traffic Accident Video Synthesis](causal-entity_reflected_egocentric_traffic_accident_video_synthesis.md)
 
 <!-- RELATED:END -->

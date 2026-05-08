@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Copy-Paste to Mitigate Large Language Model Hallucinations
 description: >-
-  [ICLR 2026][幻觉缓解] 提出 Copy-Paste 生成范式，通过训练 LLM 优先直接复制检索上下文中的片段来生成回答，而非自由改写，配合高复制偏好的 DPO 训练，在反事实 RAG 基准上将忠实度从 80.2% 提升到 92.8%。
+  [ICLR 2026][因果推理] 提出 Copy-Paste 生成范式，通过训练 LLM 优先直接复制检索上下文中的片段来生成回答，而非自由改写，配合高复制偏好的 DPO 训练，在反事实 RAG 基准上将忠实度从 80.2% 提升到 92.8%。
 tags:
   - ICLR 2026
-  - 幻觉缓解
+  - 因果推理
   - RAG
   - 复制粘贴
   - DPO
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.00508](https://arxiv.org/abs/2510.00508)  
-**代码**: https://github.com/longyongchao/CopyPasteLLM (有)  
-**领域**: LLM NLP / 文本生成 / RAG  
+**代码**: [https://github.com/longyongchao/CopyPasteLLM](https://github.com/longyongchao/CopyPasteLLM)  
+**领域**: 因果推理  
 **关键词**: 幻觉缓解, RAG, 复制粘贴, DPO, 忠实性
 
 ## 一句话总结
@@ -110,8 +110,8 @@ tags:
 ## 相关论文
 
 - [\[ACL 2026\] CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification](../../ACL2026/causal_inference/causaldetox_causal_head_selection_and_intervention_for_language_model_detoxifica.md)
-- [\[ACL 2025\] On the Reliability of Large Language Models for Causal Discovery](../../ACL2025/causal_inference/llm_causal_discovery_reliability.md)
 - [\[NeurIPS 2025\] Revealing Multimodal Causality with Large Language Models](../../NeurIPS2025/causal_inference/revealing_multimodal_causality_with_large_language_models.md)
+- [\[ACL 2025\] On the Reliability of Large Language Models for Causal Discovery](../../ACL2025/causal_inference/llm_causal_discovery_reliability.md)
 - [\[AAAI 2026\] Hallucinate Less by Thinking More: Aspect-Based Causal Abstention for Large Language Models](../../AAAI2026/causal_inference/hallucinate_less_by_thinking_more_aspect-based_causal_absten.md)
 - [\[ACL 2025\] Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models](../../ACL2025/causal_inference/counterfactual-consistency_prompting_for_relative_temporal_understanding_in_larg.md)
 

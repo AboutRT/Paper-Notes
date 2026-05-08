@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2412.04140](https://arxiv.org/abs/2412.04140)  
 **代码**: [GitHub](https://github.com/Dongjae0324/sharpness_memorization_diffusion)  
 **作者**: Dongjae Jeon, Dueun Kim, Albert No
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 扩散模型, 记忆, sharpness, Hessian, score function, 隐私
 
 ## 一句话总结
@@ -164,6 +164,6 @@ $$\|H_\theta(\mathbf{x}_t, c) \cdot s_\theta(\mathbf{x}_t, c)\|^2 \quad \text{�
 - [\[ICML 2025\] Localizing and Mitigating Memorization in Image Autoregressive Models](localizing_and_mitigating_memorization_in_image_autoregressive_models.md)
 - [\[ICLR 2026\] Detecting and Mitigating Memorization in Diffusion Models through Anisotropy of the Log-Probability](../../ICLR2026/image_generation/detecting_and_mitigating_memorization_in_diffusion_models_through_anisotropy_of_.md)
 - [\[ICML 2025\] Compositional Scene Understanding through Inverse Generative Modeling](compositional_scene_understanding_through_inverse_generative_modeling.md)
-- [\[ICML 2025\] When Diffusion Models Memorize: Inductive Biases in Probability Flow of Minimum-Norm Shallow Neural Nets](when_diffusion_models_memorize_inductive_biases_in_probability_flow_of_minimum-n.md)
+- [\[ICML 2025\] Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](understanding_and_mitigating_miscalibration_in_prompt_tuning_for_vision-language.md)
 
 <!-- RELATED:END -->

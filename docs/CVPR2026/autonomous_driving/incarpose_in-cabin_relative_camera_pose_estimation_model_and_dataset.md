@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.03814](https://arxiv.org/abs/2604.03814)  
-**代码**: https://github.com/felixstillger/InCaRPose  
+**代码**: [https://github.com/felixstillger/InCaRPose](https://github.com/felixstillger/InCaRPose)  
 **领域**: 自动驾驶 / 3D视觉  
 **关键词**: 相机位姿估计, 车内感知, 鱼眼相机, 合成到真实迁移, Transformer
 
@@ -150,7 +150,7 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](towards_balanced_multi_modal_learning_in_3d_human_pose_estimation.md)
+- [\[CVPR 2026\] Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](towards_balanced_multimodal_learning_in_3d_human_p.md)
 - [\[CVPR 2026\] PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency](ptc-depth_pose-refined_monocular_depth_estimation_with_temporal_consistency.md)
 - [\[CVPR 2026\] EMDUL: Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets](expanding_mmwave_datasets_for_human_pose_estimation_with_unlabeled_data_and_lida.md)
 - [\[CVPR 2026\] VIRD: View-Invariant Representation through Dual-Axis Transformation for Cross-View Pose Estimation](vird_view-invariant_representation_through_dual-axis_transformation_for_cross-vi.md)

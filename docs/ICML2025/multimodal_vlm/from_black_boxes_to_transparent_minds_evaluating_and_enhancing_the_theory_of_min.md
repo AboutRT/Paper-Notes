@@ -8,7 +8,7 @@ tags:
   - 多模态
   - Theory of Mind
   - 多模态大模型
-  - 可解释性
+  - 多模态VLM
   - 注意力干预
   - GridToM
 ---
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.14224](https://arxiv.org/abs/2506.14224)  
 **代码**: [项目页](https://annaisavailable.github.io/GridToM)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: Theory of Mind, 多模态大模型, 可解释性, 注意力干预, GridToM  
 **作者**: Xinyang Li, Siqi Liu, Bochao Zou, Jiansheng Chen, Huimin Ma
 
@@ -167,9 +167,9 @@ $$T_{l+1} = T_l + \sum_{h=1}^{H} \left(Attn_l^h(P_l^h T_l) + \alpha \sigma_l^h \
 ## 相关论文
 
 - [\[CVPR 2026\] Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models](../../CVPR2026/multimodal_vlm/video-only_tom_enhancing_theory_of_mind_in_multimodal_large_language_models.md)
-- [\[ICML 2025\] Overcoming Multi-step Complexity in Multimodal Theory-of-Mind Reasoning: A Scalable Bayesian Planner](overcoming_multi-step_complexity_in_multimodal_theory-of-mind_reasoning_a_scalab.md)
+- [\[ICML 2025\] Overcoming Multi-step Complexity in Multimodal Theory-of-Mind Reasoning: A Scalable Bayesian Planner](overcoming_multi-step_complexity_in_multimodal_theory-of-mind_reasoning.md)
 - [\[ICML 2025\] ERL-VLM: Enhancing Rating-Based RL to Leverage Feedback from Large VLMs](enhancing_rating-based_reinforcement_learning_to_effectively_leverage_feedback_f.md)
-- [\[ICML 2025\] SlimLLM: Accurate Structured Pruning for Large Language Models](slimllm_accurate_structured_pruning_for_large_language_models.md)
 - [\[ICML 2025\] Look Twice Before You Answer: Memory-Space Visual Retracing for Hallucination Mitigation in Multimodal Large Language Models](look_twice_before_you_answer_memory-space_visual_retracing_for_hallucination_mit.md)
+- [\[ICML 2025\] Parrot: Multilingual Visual Instruction Tuning](parrot_multilingual_visual_instruction_tuning.md)
 
 <!-- RELATED:END -->

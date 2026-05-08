@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 语音
   - 语音理解
-  - SpeechLLM
+  - 音频语音
   - 语言学基准
   - 多任务评测
   - 感知与推理
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2506.04779](https://arxiv.org/abs/2506.04779)  
-**代码**: https://huggingface.co/datasets/ddwang2000/MMSU  
-**领域**: 多模态VLM  
+**代码**: [https://huggingface.co/datasets/ddwang2000/MMSU](https://huggingface.co/datasets/ddwang2000/MMSU)  
+**领域**: 音频语音  
 **关键词**: 语音理解, SpeechLLM, 语言学基准, 多任务评测, 感知与推理
 
 ## 一句话总结
@@ -137,7 +137,7 @@ MMSU 包含 5000 条专家标注的多选题（MCQ），覆盖 47 个任务。�
 - [\[ICLR 2026\] Stitch: Simultaneous Thinking and Talking with Chunked Reasoning for Spoken Language Models](stitch_simultaneous_thinking_and_talking_with_chunked_reasoning_for_spoken_langu.md)
 - [\[AAAI 2026\] HPSU: A Benchmark for Human-Level Perception in Real-World Spoken Speech Understanding](../../AAAI2026/audio_speech/hpsu_a_benchmark_for_human-level_perception_in_real-world_spoken_speech_understa.md)
 - [\[ICLR 2026\] EchoMind: An Interrelated Multi-level Benchmark for Evaluating Empathetic Speech Language Models](echomind_an_interrelated_multi-level_benchmark_for_evaluating_empathetic_speech_.md)
-- [\[ICLR 2026\] ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory](reasoningbank_scaling_agent_self-evolving_with_reasoning_memory.md)
+- [\[NeurIPS 2025\] A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings](../../NeurIPS2025/audio_speech/a_multitask_benchmark_for_abusive_language_detection_in_lowr.md)
 - [\[ICLR 2026\] EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning](emotionthinker_prosody-aware_reinforcement_learning_for_explainable_speech_emoti.md)
 
 <!-- RELATED:END -->

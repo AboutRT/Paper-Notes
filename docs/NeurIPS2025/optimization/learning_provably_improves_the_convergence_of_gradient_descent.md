@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2501.18092](https://arxiv.org/abs/2501.18092)  
 **作者**: Qingyu Song (Xiamen University), Wei Lin, Hong Xu (CUHK)  
 **代码**: [GitHub](https://github.com/NetX-lab/MathL2OProof-Official)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: Learn to Optimize, 梯度下降, Neural Tangent Kernel, 收敛性证明, 初始化策略  
 
 ## 一句话总结
@@ -143,8 +143,8 @@ $$F(W^k) \leq \left(1 - 4\eta \frac{\beta_0^2}{\beta^2} \delta_4 \alpha_0^2\righ
 
 - [\[NeurIPS 2025\] Multi-head Transformers Provably Learn Symbolic Multi-step Reasoning via Gradient Descent](multi-head_transformers_provably_learn_symbolic_multi-step_reasoning_via_gradien.md)
 - [\[NeurIPS 2025\] Optimal Rates for Generalization of Gradient Descent for Deep ReLU Classification](optimal_rates_for_generalization_of_gradient_descent_for_deep_relu_classificatio.md)
-- [\[NeurIPS 2025\] OrthoGrad Improves Neural Calibration](orthograd_improves_neural_calibration.md)
 - [\[NeurIPS 2025\] Gradient Descent as Loss Landscape Navigation: a Normative Framework for Deriving Learning Rules](gradient_descent_as_loss_landscape_navigation_a_normative_framework_for_deriving.md)
+- [\[NeurIPS 2025\] OrthoGrad Improves Neural Calibration](orthograd_improves_neural_calibration.md)
 - [\[NeurIPS 2025\] Large Stepsizes Accelerate Gradient Descent for Regularized Logistic Regression](large_stepsizes_accelerate_gradient_descent_for_regularized_logistic_regression.md)
 
 <!-- RELATED:END -->

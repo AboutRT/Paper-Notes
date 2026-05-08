@@ -8,7 +8,7 @@ tags:
   - 图像恢复
   - 光谱超分辨率
   - 深度展开
-  - 对抗学习
+  - 图像复原
   - 高光谱重建
   - 遥感
   - Sentinel-2
@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.00920](https://arxiv.org/abs/2603.00920)  
 **代码**: [IHCLab/UALNet](https://github.com/IHCLab/UALNet)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: 光谱超分辨率, 深度展开, 对抗学习, 高光谱重建, 遥感, Sentinel-2, AVIRIS
 
 ## 一句话总结
@@ -156,10 +156,10 @@ UALNet 在所有三个指标上均超越次优的 Transformer 方法，并且计
 
 ## 相关论文
 
-- [\[ECCV 2024\] Learning Exhaustive Correlation for Spectral Super-Resolution: Where Spatial-Spectral Attention Meets Linear Dependence](../../ECCV2024/image_restoration/learning_exhaustive_correlation_for_spectral_super-resolution_where_spatial-spec.md)
-- [\[ECCV 2024\] Rethinking Image Super-Resolution from Training Data Perspectives](../../ECCV2024/image_restoration/rethinking_image_super-resolution_from_training_data_perspectives.md)
 - [\[CVPR 2025\] Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](../../CVPR2025/image_restoration/vision-language_gradient_descent-driven_all-in-one_deep_unfolding_networks.md)
+- [\[ECCV 2024\] Rethinking Image Super-Resolution from Training Data Perspectives](../../ECCV2024/image_restoration/rethinking_image_super-resolution_from_training_data_perspectives.md)
+- [\[ECCV 2024\] Learning Exhaustive Correlation for Spectral Super-Resolution: Where Spatial-Spectral Attention Meets Linear Dependence](../../ECCV2024/image_restoration/learning_exhaustive_correlation_for_spectral_super-resolution_where_spatial-spec.md)
 - [\[CVPR 2025\] AdcSR: Adversarial Diffusion Compression for Real-World Image Super-Resolution](../../CVPR2025/image_restoration/adversarial_diffusion_compression_for_real-world_image_super-resolution.md)
-- [\[CVPR 2026\] Disentangled Textual Priors for Diffusion-based Image Super-Resolution](disentangled_textual_priors_for_diffusion-based_image_super-resolution.md)
+- [\[CVPR 2026\] Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
 
 <!-- RELATED:END -->

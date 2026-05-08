@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2509.21853](https://arxiv.org/abs/2509.21853)  
 **代码**: [prinasi/HDR-4DGS](https://github.com/prinasi/HDR-4DGS)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: HDR, Dynamic Novel View Synthesis, 4D Gaussian Splatting, Tone Mapping, Radiance Field  
 
 ## 一句话总结

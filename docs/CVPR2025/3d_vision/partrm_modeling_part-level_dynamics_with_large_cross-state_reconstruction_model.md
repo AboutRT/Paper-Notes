@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19913](https://arxiv.org/abs/2503.19913)  
-**代码**: https://PartRM.c7w.tech/  
+**代码**: [https://PartRM.c7w.tech/](https://PartRM.c7w.tech/)  
 **领域**: 3D视觉  
 **关键词**: 部件级动力学, 4D重建, 3D高斯, 拖拽交互, 机器人操作
 

@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 视觉token压缩
   - 大型多模态模型
-  - token剪枝与合并
+  - 多模态VLM
   - 注意力稀疏性
   - 高效推理
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2403.15388](https://arxiv.org/abs/2403.15388)  
-**代码**: https://github.com/yuzhangshang/LLaVA-PruMerge  
+**代码**: [https://github.com/yuzhangshang/LLaVA-PruMerge](https://github.com/yuzhangshang/LLaVA-PruMerge)  
 **领域**: 多模态VLM  
 **关键词**: 视觉token压缩, 大型多模态模型, token剪枝与合并, 注意力稀疏性, 高效推理
 
@@ -126,10 +126,10 @@ PruMerge+在ScienceQA上甚至超过原始LLaVA-1.5，说明去除冗余token实
 
 ## 相关论文
 
-- [\[ACL 2025\] AVG-LLaVA: An Efficient Large Multimodal Model with Adaptive Visual Granularity](../../ACL2025/multimodal_vlm/avg-llava_an_efficient_large_multimodal_model_with_adaptive_visual_granularity.md)
 - [\[ICCV 2025\] Dynamic-VLM: Simple Dynamic Visual Token Compression for VideoLLM](dynamic-vlm_simple_dynamic_visual_token_compression_for_videollm.md)
 - [\[ICCV 2025\] GRAB: A Challenging GRaph Analysis Benchmark for Large Multimodal Models](grab_a_challenging_graph_analysis_benchmark_for_large_multimodal_models.md)
 - [\[ICCV 2025\] FOLDER: Accelerating Multi-modal Large Language Models with Enhanced Performance](folder_accelerating_multi-modal_large_language_models_with_enhanced_performance.md)
 - [\[ICCV 2025\] METEOR: Multi-Encoder Collaborative Token Pruning for Efficient Vision Language Models](meteor_multi-encoder_collaborative_token_pruning_for_efficient_vision_language_m.md)
+- [\[ICCV 2025\] ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers](shortv_efficient_multimodal_large_language_models_by_freezin.md)
 
 <!-- RELATED:END -->

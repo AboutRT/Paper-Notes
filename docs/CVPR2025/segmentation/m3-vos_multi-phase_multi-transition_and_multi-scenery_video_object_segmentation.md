@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.13803](https://arxiv.org/abs/2412.13803)  
-**代码**: https://zixuan-chen.github.io/M-cube-VOS.github.io/  
+**代码**: [https://zixuan-chen.github.io/M-cube-VOS.github.io/](https://zixuan-chen.github.io/M-cube-VOS.github.io/)  
 **领域**: 视频分割 / 视频目标分割  
 **关键词**: 视频目标分割, 物相转变, 逆向传播, 多相态, 基准数据集
 

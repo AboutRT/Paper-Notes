@@ -8,7 +8,7 @@ tags:
   - 上下文归因
   - Jensen-Shannon散度
   - 机制可解释性
-  - RAG幻觉
+  - 可解释性
   - Logit Lens
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16415](https://arxiv.org/abs/2505.16415)  
-**代码**: https://github.com/ruizheliUOA/ARC_JSD  
+**代码**: [https://github.com/ruizheliUOA/ARC_JSD](https://github.com/ruizheliUOA/ARC_JSD)  
 **领域**: RAG / 可解释性  
 **关键词**: 上下文归因, Jensen-Shannon散度, 机制可解释性, RAG幻觉, Logit Lens
 
@@ -128,8 +128,8 @@ ARC-JSD 提出基于 Jensen-Shannon 散度的 RAG 上下文归因方法——通
 
 - [\[ACL 2025\] An Empirical Study of Mechanistic Interpretability Approaches for Factual Recall](../../ACL2025/interpretability/an_empirical_study_of_mechanistic_interpretability_approaches_for_factual_recall.md)
 - [\[NeurIPS 2025\] Better Estimation of the Kullback-Leibler Divergence Between Language Models](better_estimation_of_the_kullback--leibler_divergence_between_language_models.md)
-- [\[NeurIPS 2025\] ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](valuepilot_a_two-phase_framework_for_value-driven_decision-making.md)
 - [\[NeurIPS 2025\] Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals](knowing_when_to_stop_efficient_context_processing_via_latent_sufficiency_signals.md)
 - [\[ACL 2026\] Context-Value-Action Architecture for Value-Driven Large Language Model Agents](../../ACL2026/interpretability/context-value-action_architecture_for_value-driven_large_language_model_agents.md)
+- [\[NeurIPS 2025\] ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](valuepilot_a_two-phase_framework_for_value-driven_decision-making.md)
 
 <!-- RELATED:END -->

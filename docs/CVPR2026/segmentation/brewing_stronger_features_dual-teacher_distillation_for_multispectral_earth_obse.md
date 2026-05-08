@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.19863](https://arxiv.org/abs/2602.19863)  
-**代码**: [项目页](https://wolfilip.github.io/DEO/) (有)  
-**领域**: Segmentation / 遥感基础模型  
+**代码**: [项目页](https://wolfilip.github.io/DEO/)  
+**领域**: 图像分割  
 **关键词**: 遥感基础模型, 多光谱, 知识蒸馏, 对比学习, 双教师训练  
 
 ## 一句话总结

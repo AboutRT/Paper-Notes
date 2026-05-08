@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.14762](https://arxiv.org/abs/2411.14762)  
-**代码**: https://huiwon-jang.github.io/coordtok  
+**代码**: [https://huiwon-jang.github.io/coordtok](https://huiwon-jang.github.io/coordtok)  
 **领域**: 图像/视频生成  
 **关键词**: 视频tokenizer, Triplane表示, 坐标重建, 长视频编码, 视频压缩, 扩散生成
 

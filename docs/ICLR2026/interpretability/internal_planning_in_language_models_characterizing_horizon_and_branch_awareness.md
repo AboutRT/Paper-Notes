@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Internal Planning in Language Models: Characterizing Horizon and Branch Awareness
 description: >-
-  [ICLR 2026][语言模型规划] 提出基于VQ-VAE的信息论框架来分析语言模型内部的规划行为，发现规划视野是任务依赖的、模型隐式保留未选择的正确路径信息、下一token决策主要依赖最近的计算。
+  [ICLR 2026][可解释性] 提出基于VQ-VAE的信息论框架来分析语言模型内部的规划行为，发现规划视野是任务依赖的、模型隐式保留未选择的正确路径信息、下一token决策主要依赖最近的计算。
 tags:
   - ICLR 2026
-  - 语言模型规划
+  - 可解释性
   - 互信息
   - VQ-VAE
   - 前瞻性
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.25260](https://arxiv.org/abs/2509.25260)  
 **代码**: 有（附补充材料）  
-**领域**: 模型压缩  
+**领域**: 可解释性  
 **关键词**: 语言模型规划, 互信息, VQ-VAE, 前瞻性, 分支意识
 
 ## 一句话总结
@@ -113,7 +113,7 @@ LLM展现出令人惊叹的能力，但其训练目标——下一token预测—
 - [\[ICLR 2026\] The Reasoning Trap — Logical Reasoning as a Mechanistic Pathway to Situational Awareness](the_reasoning_trap_--_logical_reasoning_as_a_mechanistic_pathway_to_situational_.md)
 - [\[ICLR 2026\] Position: The Reasoning Trap — Logical Reasoning as a Mechanistic Pathway to Advanced AI Self-Awareness](the_reasoning_trap_--_logical_reasoning_as_a_mechanistic_pathway_to_advanced_jai.md)
 - [\[ICLR 2026\] Beyond Linear Probes: Dynamic Safety Monitoring for Language Models](beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md)
-- [\[NeurIPS 2025\] ConceptScope: Characterizing Dataset Bias via Disentangled Visual Concepts](../../NeurIPS2025/interpretability/conceptscope_characterizing_dataset_bias_via_disentangled_visual_concepts.md)
 - [\[ICLR 2026\] Universal Properties of Activation Sparsity in Modern Large Language Models](universal_properties_of_activation_sparsity_in_modern_large_language_models.md)
+- [\[CVPR 2026\] Edit-As-Act: Goal-Regressive Planning for Open-Vocabulary 3D Indoor Scene Editing](../../CVPR2026/interpretability/edit-as-act_goal-regressive_planning_for_open-vocabulary_3d_indoor_scene_editing.md)
 
 <!-- RELATED:END -->

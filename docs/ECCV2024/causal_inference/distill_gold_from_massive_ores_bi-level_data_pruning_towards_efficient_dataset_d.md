@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - Dataset Distillation
-  - 剪枝
+  - 因果推理
   - Causal Inference
   - Individual Treatment Effect
   - Neural Tangent Kernel
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2305.18381](https://arxiv.org/abs/2305.18381)  
 **代码**: [silicx/GoldFromOres-BiLP](https://github.com/silicx/GoldFromOres-BiLP)  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: Dataset Distillation, Data Pruning, Causal Inference, Individual Treatment Effect, Neural Tangent Kernel
 
 ## 一句话总结
@@ -144,9 +144,9 @@ BiLP 一致性提升 DC (+0.8%) 和 IDC (+1.2%)，在 CIFAR100 等多样化数�
 ## 相关论文
 
 - [\[NeurIPS 2025\] Bi-Level Decision-Focused Causal Learning for Large-Scale Marketing Optimization](../../NeurIPS2025/causal_inference/bi-level_decision-focused_causal_learning_for_large-scale_marketing_optimization.md)
-- [\[AAAI 2026\] Sparse Additive Model Pruning for Order-Based Causal Structure Learning](../../AAAI2026/causal_inference/sparse_additive_model_pruning_for_order-based_causal_structure_learning.md)
 - [\[NeurIPS 2025\] Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations](../../NeurIPS2025/causal_inference/few-shot_knowledge_distillation_of_llms_with_counterfactual_explanations.md)
-- [\[ICLR 2026\] Validating Interpretability in siRNA Efficacy Prediction: A Perturbation-Based, Dataset-Aware Protocol](../../ICLR2026/causal_inference/validating_interpretability_in_sirna_efficacy_prediction_a_perturbation-based_da.md)
-- [\[ICLR 2026\] Efficient Ensemble Conditional Independence Test Framework for Causal Discovery](../../ICLR2026/causal_inference/efficient_ensemble_conditional_independence_test_framework_for_causal_discovery.md)
+- [\[AAAI 2026\] Sparse Additive Model Pruning for Order-Based Causal Structure Learning](../../AAAI2026/causal_inference/sparse_additive_model_pruning_for_order-based_causal_structure_learning.md)
+- [\[ECCV 2024\] Learning Chain of Counterfactual Thought for Bias-Robust Vision-Language Reasoning](learning_chain_of_counterfactual_thought_for_bias-robust_vision-language_reasoni.md)
+- [\[ECCV 2024\] Understanding Physical Dynamics with Counterfactual World Modeling](understanding_physical_dynamics_with_counterfactual_world_modeling.md)
 
 <!-- RELATED:END -->

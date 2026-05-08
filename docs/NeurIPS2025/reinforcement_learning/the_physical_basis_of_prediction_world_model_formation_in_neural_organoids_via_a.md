@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Workshop: Scaling Environments for Agents / Embodied World Models)][神经类器官] 本文提出在人类神经类器官（organoids）中研究世界模型形成的框架，设计了三个渐进式虚拟环境（条件回避、捕食者-猎物、Pong），并引入 LLM 自动生成实验方案的元学习方法，结合多尺度生物物理评估策略量化生物学习的物理基础。
 tags:
-  - "NeurIPS 2025 (Workshop: Scaling Environments for Agents / Embodied World Models)"
+  - 强化学习
   - 神经类器官
   - 世界模型
   - 课程学习
@@ -139,8 +139,8 @@ tags:
 
 - [\[NeurIPS 2025\] Bootstrap Off-policy with World Model](boundary-to-region_supervision_for_offline_safe_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Bootstrap Off-policy with World Model (BOOM)](bootstrap_off-policy_with_world_model.md)
-- [\[CVPR 2025\] Neural Motion Simulator: Pushing the Limit of World Models in Reinforcement Learning](../../CVPR2025/reinforcement_learning/neural_motion_simulator_pushing_the_limit_of_world_models_in_reinforcement_learn.md)
 - [\[NeurIPS 2025\] Learning Interactive World Model for Object-Centric Reinforcement Learning](learning_interactive_world_model_for_object-centric_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Learning Interestingness in Automated Mathematical Theory Formation](learning_interestingness_in_automated_mathematical_theory_formation.md)
+- [\[CVPR 2025\] Neural Motion Simulator: Pushing the Limit of World Models in Reinforcement Learning](../../CVPR2025/reinforcement_learning/neural_motion_simulator_pushing_the_limit_of_world_models_in_reinforcement_learn.md)
 
 <!-- RELATED:END -->

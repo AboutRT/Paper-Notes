@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00894](https://arxiv.org/abs/2506.00894)  
 **代码**: [GitHub](https://github.com/xdshen-ai/Benchmark-of-Code-Migration)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: code migration, benchmark, LLM evaluation, API versioning, software engineering
 
 ## 一句话总结

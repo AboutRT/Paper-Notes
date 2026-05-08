@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 深度度量学习
   - 势能场
-  - 代理
+  - LLM评测
   - 衰减性质
   - 物理启发
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2405.18560](https://arxiv.org/abs/2405.18560)  
 **代码**: 无  
-**领域**: 其他 / 度量学习  
+**领域**: LLM评测  
 **关键词**: 深度度量学习, 势能场, 代理, 衰减性质, 物理启发
 
 ## 一句话总结
@@ -96,10 +96,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Improving Accuracy and Calibration via Differentiated Deep Mutual Learning](improving_accuracy_and_calibration_via_differentiated_deep_mutual_learning.md)
+- [\[ICML 2025\] AAAR-1.0: Assessing AI's Potential to Assist Research](../../ICML2025/llm_evaluation/aaar-10_assessing_ais_potential_to_assist_research.md)
 - [\[NeurIPS 2025\] Conformal Online Learning of Deep Koopman Linear Embeddings](../../NeurIPS2025/llm_evaluation/conformal_online_learning_of_deep_koopman_linear_embeddings.md)
-- [\[ICML 2025\] Improving the Effective Receptive Field of Message-Passing Neural Networks](../../ICML2025/llm_evaluation/improving_the_effective_receptive_field_of_message-passing_neural_networks.md)
 - [\[CVPR 2025\] Sufficient Invariant Learning for Distribution Shift](sufficient_invariant_learning_for_distribution_shift.md)
-- [\[ACL 2025\] Towards Objective Fine-tuning: How LLMs' Prior Knowledge Causes Potential Poor Calibration?](../../ACL2025/llm_evaluation/towards_objective_fine-tuning_how_llms_prior_knowledge_causes_potential_poor_cal.md)
-- [\[CVPR 2025\] Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning](dual_consolidation_for_pre-trained_model-based_domain-incremental_learning.md)
+- [\[CVPR 2025\] KAC: Kolmogorov-Arnold Classifier for Continual Learning](kac_kolmogorov-arnold_classifier_for_continual_learning.md)
 
 <!-- RELATED:END -->

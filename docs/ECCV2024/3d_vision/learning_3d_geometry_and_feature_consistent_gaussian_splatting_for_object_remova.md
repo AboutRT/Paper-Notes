@@ -56,7 +56,7 @@ GScream 基于 Scaffold-GS（轻量化 3DGS 架构）构建，输入多视角带
 
    **核心思路**：由于单目深度估计的尺度与 3DGS 渲染深度不同，采用在线最小二乘对齐。设计加权深度损失区分参考视角（含修复区域）和其他视角（仅背景区域）：
 
-   $$\mathcal{L}_{\text{depth}} = \frac{1}{HW} \sum M'_i \| (w\hat{D}_i + q) - D_i \|$$
+    $\mathcal{L}_{\text{depth}} = \frac{1}{HW} \sum M'_i \| (w\hat{D}_i + q) - D_i \|$
 
    其中 $w, q$ 是通过最小二乘求解的对齐参数，$M'_i$ 是针对不同视角设计的权重掩码：对参考视角，移除区域权重 $\lambda_1$、可见区域权重 $\lambda_2$；对其他视角，仅在背景区域施加权重 $\lambda_3$。
 
@@ -68,8 +68,8 @@ GScream 基于 Scaffold-GS（轻量化 3DGS 架构）构建，输入多视角带
 
    **核心思路**：利用 3DGS 的显式特性，先在 3D 空间中采样修复区域与周围可见区域的 Gaussian anchor，再通过双向交叉注意力促进特征交互：
 
-   $$\hat{f}_{in} = \text{Attention}(\mathbf{Q}=f_{in}, \mathbf{K}=f_{sur}, \mathbf{V}=f_{sur})$$
-   $$\hat{f}_{sur} = \text{Attention}(\mathbf{Q}=f_{sur}, \mathbf{K}=f_{in}, \mathbf{V}=f_{in})$$
+    $\hat{f}_{in} = \text{Attention}(\mathbf{Q}=f_{in}, \mathbf{K}=f_{sur}, \mathbf{V}=f_{sur})$
+    $\hat{f}_{sur} = \text{Attention}(\mathbf{Q}=f_{sur}, \mathbf{K}=f_{in}, \mathbf{V}=f_{in})$
 
    其中 $f_{in}$ 和 $f_{sur}$ 分别是修复区域和周围区域的 Gaussian anchor 特征。
 

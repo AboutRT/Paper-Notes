@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 多模态
   - 多模态大模型
-  - 人脸验证
+  - 多模态VLM
   - 人口统计公平性
   - 偏见基准
   - 族裔和性别偏差
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25613](https://arxiv.org/abs/2603.25613)  
-**代码**: [项目页面](https://www.idiap.ch/paper/mllm-fairness) (有)  
+**代码**: [项目页面](https://www.idiap.ch/paper/mllm-fairness)  
 **领域**: Multimodal / VLM  
 **关键词**: 多模态大模型, 人脸验证, 人口统计公平性, 偏见基准, 族裔和性别偏差
 
@@ -128,10 +128,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] Interpretable Debiasing of Vision-Language Models for Social Fairness](interpretable_debiasing_of_vision-language_models_for_social_fairness.md)
 - [\[CVPR 2026\] Widget2Code: From Visual Widgets to UI Code via Multimodal LLMs](widget2code_from_visual_widgets_to_ui_code_via_multimodal_llms.md)
-- [\[ACL 2025\] MultiMM: Cultural Bias Matters — Cross-Cultural Benchmark for Multimodal Metaphors](../../ACL2025/multimodal_vlm/multimm_cultural_metaphor.md)
+- [\[CVPR 2026\] Interpretable Debiasing of Vision-Language Models for Social Fairness](interpretable_debiasing_of_vision-language_models_for_social_fairness.md)
 - [\[CVPR 2026\] FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Models](fairllava_fairness-aware_parameter-efficient_fine-tuning_for_large_vision-langua.md)
-- [\[ICLR 2026\] Can Vision-Language Models Answer Face to Face Questions in the Real-World?](../../ICLR2026/multimodal_vlm/can_vision-language_models_answer_face_to_face_questions_in_the_real-world.md)
+- [\[NeurIPS 2025\] Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-modal Assistants](../../NeurIPS2025/multimodal_vlm/face-human-bench_a_comprehensive_benchmark_of_face_and_human_understanding_for_m.md)
+- [\[CVPR 2026\] PersonaVLM: Long-Term Personalized Multimodal LLMs](personavlm_long_term_personalized_multimodal_llms.md)
 
 <!-- RELATED:END -->

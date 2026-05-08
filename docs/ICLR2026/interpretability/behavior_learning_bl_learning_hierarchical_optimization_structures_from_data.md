@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 可解释ML
   - 效用最大化
-  - 层次优化结构
+  - 可解释性
   - 可辨识性
   - Gibbs分布
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.20152](https://arxiv.org/abs/2602.20152)  
 **代码**: [https://github.com/MoonYLiang/Behavior-Learning](https://github.com/MoonYLiang/Behavior-Learning) (pip install blnetwork)  
-**领域**: others / 可解释机器学习  
+**领域**: 可解释性  
 **关键词**: 可解释ML, 效用最大化, 层次优化结构, 可辨识性, Gibbs分布  
 
 ## 一句话总结
@@ -135,8 +135,8 @@ BL 在相近参数量下，ID准确率与 E-MLP 持平，但 OOD 检测显著更
 
 - [\[ICLR 2026\] LORE: Jointly Learning the Intrinsic Dimensionality and Relative Similarity Structure from Ordinal Data](lore_jointly_learning_the_intrinsic_dimensionality_and_relative_similarity_struc.md)
 - [\[AAAI 2026\] Data Whitening Improves Sparse Autoencoder Learning](../../AAAI2026/interpretability/data_whitening_improves_sparse_autoencoder_learning.md)
-- [\[ICLR 2026\] Decoupling Dynamical Richness from Representation Learning: Towards Practical Measurement](decoupling_dynamical_richness_from_representation_learning_towards_practical_mea.md)
-- [\[ICLR 2026\] Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning](decomposing_representation_space_into_interpretable_subspaces_with_unsupervised_.md)
+- [\[ICLR 2026\] Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer](towards_understanding_subliminal_learning_when_and_how_hidden_biases_transfer.md)
 - [\[ICLR 2026\] Tokenizing Single-Channel EEG with Time-Frequency Motif Learning](tokenizing_single-channel_eeg_with_time-frequency_motif_learning.md)
+- [\[ICLR 2026\] ExPO-HM: Learning to Explain-then-Detect for Hateful Meme Detection](expo-hm_learning_to_explain-then-detect_for_hateful_meme_detection.md)
 
 <!-- RELATED:END -->

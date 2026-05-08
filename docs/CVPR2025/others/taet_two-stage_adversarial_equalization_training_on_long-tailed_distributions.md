@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 长尾分布
-  - 对抗训练
+  - 其他
   - 均衡化损失
   - 鲁棒性过拟合
   - 平衡鲁棒性指标
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.01924](https://arxiv.org/abs/2503.01924)  
 **代码**: [GitHub](https://github.com/BuhuiOK/TAET-Two-Stage-Adversarial-Equalization-Training-on-Long-Tailed-Distributions)  
-**领域**: Others / Adversarial Robustness  
+**领域**: 其他  
 **关键词**: 长尾分布, 对抗训练, 均衡化损失, 鲁棒性过拟合, 平衡鲁棒性指标
 
 ## 一句话总结
@@ -117,10 +117,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] H2ST: Hierarchical Two-Sample Tests for Continual Out-of-Distribution Detection](h2st_hierarchical_two-sample_tests_for_continual_out-of-distribution_detection.md)
 - [\[CVPR 2025\] TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection](tailedcore_few-shot_sampling_for_unsupervised_long-tail_noisy_anomaly_detection.md)
+- [\[CVPR 2025\] H2ST: Hierarchical Two-Sample Tests for Continual Out-of-Distribution Detection](h2st_hierarchical_two-sample_tests_for_continual_out-of-distribution_detection.md)
 - [\[ICML 2025\] Sampling from Binary Quadratic Distributions via Stochastic Localization](../../ICML2025/others/sampling_from_binary_quadratic_distributions_via_stochastic_localization.md)
-- [\[ICCV 2025\] Failure Cases Are Better Learned But Boundary Says Sorry: Facilitating Smooth Perception Change for Accuracy-Robustness Trade-Off in Adversarial Training](../../ICCV2025/others/failure_cases_are_better_learned_but_boundary_says_sorry_facilitating_smooth_per.md)
 - [\[CVPR 2025\] Towards Million-Scale Adversarial Robustness Evaluation With Stronger Individual Attacks](towards_million-scale_adversarial_robustness_evaluation_with_stronger_individual.md)
+- [\[CVPR 2025\] Subnet-Aware Dynamic Supernet Training for Neural Architecture Search](subnet-aware_dynamic_supernet_training_for_neural_architecture_search.md)
 
 <!-- RELATED:END -->

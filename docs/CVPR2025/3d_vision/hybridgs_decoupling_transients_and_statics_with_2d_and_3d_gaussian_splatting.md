@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.03844](https://arxiv.org/abs/2412.03844)  
-**代码**: 有（https://gujiaqivadin.github.io/hybridgs/）  
+**代码**: 有（[https://gujiaqivadin.github.io/hybridgs/](https://gujiaqivadin.github.io/hybridgs/)）  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 瞬态物体分离, 混合表示, 新视角合成, 2D高斯
 

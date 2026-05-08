@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)][医学图像][数字病理学] 提出 THUNDER，一个面向数字病理学基础模型的 tile 级别综合基准，支持 23 个基础模型在 16 个数据集上的高效比较，覆盖下游任务性能、特征空间分析、鲁棒性和不确定性评估。
 tags:
-  - NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
+  - 医学图像
   - 医学图像
   - 数字病理学
   - benchmark
@@ -18,7 +18,7 @@ tags:
 
 **会议**: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)  
 **arXiv**: [2507.07860](https://arxiv.org/abs/2507.07860)  
-**代码**: 有 (https://github.com/MICS-Lab/thunder)  
+**代码**: 有 ([https://github.com/MICS-Lab/thunder](https://github.com/MICS-Lab/thunder))  
 **领域**: 医学影像 / 数字病理学  
 **关键词**: 数字病理学, benchmark, 基础模型, 鲁棒性, 不确定性, tile级分析
 
@@ -172,6 +172,6 @@ THUNDER 本身不训练模型，评估使用：
 - [\[NeurIPS 2025\] FGBench: A Dataset and Benchmark for Molecular Property Reasoning at Functional Group-Level in Large Language Models](fgbench_a_dataset_and_benchmark_for_molecular_property_reasoning_at_functional_g.md)
 - [\[ECCV 2024\] OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding](../../ECCV2024/medical_imaging/ophnet_a_large-scale_video_benchmark_for_ophthalmic_surgical_workflow_understand.md)
 - [\[NeurIPS 2025\] CXReasonBench: A Benchmark for Evaluating Structured Diagnostic Reasoning in Chest X-rays](cxreasonbench_a_benchmark_for_evaluating_structured_diagnostic_reasoning_in_ches.md)
-- [\[ICCV 2025\] HRScene: How Far Are VLMs from Effective High-Resolution Image Understanding?](../../ICCV2025/medical_imaging/hrscene_how_far_are_vlms_from_effective_high-resolution_image_understanding.md)
+- [\[CVPR 2025\] Interactive Medical Image Segmentation: A Benchmark Dataset and Baseline](../../CVPR2025/medical_imaging/interactive_medical_image_segmentation_a_benchmark_dataset_and_baseline.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - ECCV 2024
   - Compositional Zero-Shot Learning
   - CLIP
-  - LLM
+  - LLM预训练
   - 提示学习
   - Primitive Decomposition
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2305.14428](https://arxiv.org/abs/2305.14428)  
 **代码**: [https://github.com/Cogito2012/PLID](https://github.com/Cogito2012/PLID)  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: Compositional Zero-Shot Learning, CLIP, LLM, Distribution Prompting, Primitive Decomposition
 
 ## 一句话总结
@@ -165,9 +165,9 @@ $$\mathcal{L} = \mathcal{L}_y + \mathcal{L}_s + \mathcal{L}_o$$
 ## 相关论文
 
 - [\[ECCV 2024\] Learning to Obstruct Few-Shot Image Classification over Restricted Classes](learning_to_obstruct_few-shot_image_classification_over_restricted_classes.md)
-- [\[NeurIPS 2025\] ZEUS: Zero-shot Embeddings for Unsupervised Separation of Tabular Data](../../NeurIPS2025/llm_pretraining/zeus_zero-shot_embeddings_for_unsupervised_separation_of_tabular_data.md)
-- [\[ACL 2025\] AutoDS: Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts](../../ACL2025/llm_pretraining/autonomous_data_selection_with_zero-shot_generative_classifiers_for_mathematical.md)
 - [\[ICML 2025\] When Can In-Context Learning Generalize Out of Task Distribution?](../../ICML2025/llm_pretraining/when_can_in-context_learning_generalize_out_of_task_distribution.md)
-- [\[ACL 2025\] Training Dynamics Underlying Language Model Scaling Laws: Loss Deceleration and Zero-Sum Learning](../../ACL2025/llm_pretraining/training_dynamics_underlying_language_model_scaling_laws_loss_deceleration_and_z.md)
+- [\[NeurIPS 2025\] ZEUS: Zero-shot Embeddings for Unsupervised Separation of Tabular Data](../../NeurIPS2025/llm_pretraining/zeus_zero-shot_embeddings_for_unsupervised_separation_of_tabular_data.md)
+- [\[ECCV 2024\] DreamLIP: Language-Image Pre-training with Long Captions](dreamlip_language-image_pre-training_with_long_captions.md)
+- [\[ACL 2025\] AutoDS: Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts](../../ACL2025/llm_pretraining/autonomous_data_selection_with_zero-shot_generative_classifiers_for_mathematical.md)
 
 <!-- RELATED:END -->

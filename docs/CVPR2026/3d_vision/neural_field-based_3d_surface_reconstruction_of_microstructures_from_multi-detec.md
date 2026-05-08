@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2508.04728](https://arxiv.org/abs/2508.04728)  
-**代码**: https://github.com/zju3dv/NFH-SEM  
+**代码**: [https://github.com/zju3dv/NFH-SEM](https://github.com/zju3dv/NFH-SEM)  
 **领域**: 3D视觉  
 **关键词**: 扫描电子显微镜, 3D重建, 神经场, 微观结构, 光度立体
 

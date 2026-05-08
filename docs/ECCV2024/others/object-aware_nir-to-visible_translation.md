@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Object-Aware NIR-to-Visible Translation
 description: >-
-  [ECCV 2024][近红外图像翻译] 本文提出一种对象感知的近红外(NIR)到可见光图像翻译框架，通过将可见光图像分解为与对象无关的光照分量和对象特定的反射分量分别处理，结合分割先验知识，在缺乏大规模配对数据的条件下实现了高质量的NIR彩色化，并构建了首个完全对齐的NIR-可见光大规模配对数据集。
+  [ECCV 2024][其他] 本文提出一种对象感知的近红外(NIR)到可见光图像翻译框架，通过将可见光图像分解为与对象无关的光照分量和对象特定的反射分量分别处理，结合分割先验知识，在缺乏大规模配对数据的条件下实现了高质量的NIR彩色化，并构建了首个完全对齐的NIR-可见光大规模配对数据集。
 tags:
   - ECCV 2024
-  - 近红外图像翻译
+  - 其他
   - 图像分解
   - 语义分割先验
   - 反射率估计
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: N/A  
 **代码**: [https://github.com/Yiiclass/Sherry](https://github.com/Yiiclass/Sherry)  
-**领域**: 图像翻译 / 低层视觉  
+**领域**: 其他  
 **关键词**: 近红外图像翻译, 图像分解, 语义分割先验, 反射率估计, 配对数据集
 
 ## 一句话总结
@@ -124,9 +124,9 @@ tags:
 ## 相关论文
 
 - [\[ECCV 2024\] Shifted Autoencoders for Point Annotation Restoration in Object Counting](shifted_autoencoders_for_point_annotation_restoration_in_object_counting.md)
-- [\[ACL 2025\] Towards Style Alignment in Cross-Cultural Translation](../../ACL2025/others/towards_style_alignment_in_cross-cultural_translation.md)
 - [\[ECCV 2024\] Spatio-Temporal Proximity-Aware Dual-Path Model for Panoramic Activity Recognition](spatio-temporal_proximity-aware_dual-path_model_for_panoramic_activity_recogniti.md)
-- [\[ICCV 2025\] Jigsaw++: Imagining Complete Shape Priors for Object Reassembly](../../ICCV2025/others/jigsaw_imagining_complete_shape_priors_for_object_reassembly.md)
+- [\[ACL 2025\] Towards Style Alignment in Cross-Cultural Translation](../../ACL2025/others/towards_style_alignment_in_cross-cultural_translation.md)
 - [\[ACL 2025\] Using Source-Side Confidence Estimation for Reliable Translation into Unfamiliar Languages](../../ACL2025/others/using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)
+- [\[ICCV 2025\] Jigsaw++: Imagining Complete Shape Priors for Object Reassembly](../../ICCV2025/others/jigsaw_imagining_complete_shape_priors_for_object_reassembly.md)
 
 <!-- RELATED:END -->

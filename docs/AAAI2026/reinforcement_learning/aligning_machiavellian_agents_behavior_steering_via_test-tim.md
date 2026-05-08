@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping
 description: >-
-  [AAAI 2026][测试时对齐] 提出一种测试时策略塑形方法，通过轻量级伦理属性分类器在推理阶段插值修改预训练 RL 智能体的动作概率分布，无需重训练即可实现对多种伦理属性的细粒度行为引导。
+  [AAAI 2026][强化学习] 提出一种测试时策略塑形方法，通过轻量级伦理属性分类器在推理阶段插值修改预训练 RL 智能体的动作概率分布，无需重训练即可实现对多种伦理属性的细粒度行为引导。
 tags:
   - AAAI 2026
-  - 测试时对齐
+  - 强化学习
   - 策略塑形
   - 伦理行为引导
   - 马基雅维利智能体
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.11551v3](https://arxiv.org/abs/2511.11551v3)  
 **代码**: [GitHub](https://github.com/ITM-Kitware/machiavelli-ttps)  
-**领域**: AI Safety / RL Agent Alignment  
+**领域**: 强化学习  
 **关键词**: 测试时对齐, 策略塑形, 伦理行为引导, 马基雅维利智能体, 强化学习  
 
 ## 一句话总结
@@ -149,6 +149,6 @@ tags:
 - [\[ICML 2025\] Test-Time Adaptation with Binary Feedback](../../ICML2025/reinforcement_learning/test-time_adaptation_with_binary_feedback.md)
 - [\[NeurIPS 2025\] Reinforcement Learning Teachers of Test Time Scaling](../../NeurIPS2025/reinforcement_learning/reinforcement_learning_teachers_of_test_time_scaling.md)
 - [\[AAAI 2026\] RLSLM: A Hybrid Reinforcement Learning Framework Aligning Rule-Based Social Locomotion Model with Human Social Norms](rlslm_a_hybrid_reinforcement_learning_framework_aligning_rule-based_social_locom.md)
-- [\[AAAI 2026\] G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation](g-ubs_towards_robust_understanding_of_implicit_feedback_via_group-aware_user_beh.md)
+- [\[ICLR 2026\] P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling](../../ICLR2026/reinforcement_learning/p-genrm_personalized_generative_reward_model_with_test-time_user-based_scaling.md)
 
 <!-- RELATED:END -->

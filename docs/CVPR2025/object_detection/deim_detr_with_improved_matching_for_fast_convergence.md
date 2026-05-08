@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04234](https://arxiv.org/abs/2412.04234)  
-**代码**: https://www.shihuahuang.cn/DEIM/  
+**代码**: [https://www.shihuahuang.cn/DEIM/](https://www.shihuahuang.cn/DEIM/)  
 **领域**: 目标检测  
 **关键词**: DETR加速、一对一匹配改进、稠密监督、Matchability-Aware损失、目标检测
 

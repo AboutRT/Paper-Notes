@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2506.00942v2](https://arxiv.org/abs/2506.00942v2)  
-**代码**: [https://github.com/CuCl-2/anyECG-chat](https://github.com/CuCl-2/anyECG-chat) (有)  
-**领域**: 医学AI / 多模态LLM / 心电图分析  
+**代码**: [https://github.com/CuCl-2/anyECG-chat](https://github.com/CuCl-2/anyECG-chat)  
+**领域**: 多模态VLM  
 **关键词**: ECG-MLLM, 心电图, 多任务理解, 动态输入, 课程学习  
 
 ## 一句话总结

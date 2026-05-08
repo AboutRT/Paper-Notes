@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2510.25924](https://arxiv.org/abs/2510.25924)  
 **代码**: [manueligal/proxy-intervention](https://github.com/manueligal/proxy-intervention)  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: proximal causal inference, domain adaptation, unobserved confounders, proxy variables, interventional distribution
 
 ## 一句话总结

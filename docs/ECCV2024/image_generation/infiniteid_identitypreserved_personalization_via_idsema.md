@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.11781](https://arxiv.org/abs/2403.11781)  
-**代码**: https://infinite-id.github.io/  
-**领域**: LLM/NLP  
+**代码**: [https://infinite-id.github.io/](https://infinite-id.github.io/)  
+**领域**: 图像生成  
 **关键词**: 身份保持个性化, 文生图, Stable Diffusion, ID-语义解耦, 混合注意力
 
 ## 一句话总结
@@ -137,6 +137,6 @@ $$L_{diffusion} = E_{z_t, t, c_{id}, \epsilon}[||\epsilon - \epsilon_\theta(z_t,
 - [\[ECCV 2024\] MagicEraser: Erasing Any Objects via Semantics-Aware Control](magiceraser_erasing_any_objects_via_semantics-aware_control.md)
 - [\[ECCV 2024\] Unveiling Advanced Frequency Disentanglement Paradigm for Low-Light Image Enhancement](unveiling_advanced_frequency_disentanglement_paradigm_for_low-light_image_enhanc.md)
 - [\[ECCV 2024\] DiffiT: Diffusion Vision Transformers for Image Generation](diffit_diffusion_vision_transformers_for_image_generation.md)
-- [\[ECCV 2024\] SMooDi: Stylized Motion Diffusion Model](smoodi_stylized_motion_diffusion_model.md)
+- [\[ECCV 2024\] OMG: Occlusion-friendly Personalized Multi-concept Generation in Diffusion Models](omg_occlusion-friendly_personalized_multi-concept_generation_in_diffusion_models.md)
 
 <!-- RELATED:END -->

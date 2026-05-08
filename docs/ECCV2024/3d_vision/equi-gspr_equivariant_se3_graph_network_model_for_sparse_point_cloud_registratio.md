@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2410.05729](https://arxiv.org/abs/2410.05729)  
-**代码**: https://github.com/alexandor91/se3-equi-graph-registration (有)  
+**代码**: [https://github.com/alexandor91/se3-equi-graph-registration](https://github.com/alexandor91/se3-equi-graph-registration)  
 **领域**: 3D视觉  
 **关键词**: 点云配准, SE(3)等变性, 图神经网络, 特征描述符, 相似度匹配
 
@@ -184,6 +184,6 @@ tags:
 - [\[CVPR 2026\] CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration](../../CVPR2026/3d_vision/cmhanet_a_cross-modal_hybrid_attention_network_for_point_cloud_registration.md)
 - [\[ECCV 2024\] Explicitly Guided Information Interaction Network for Cross-modal Point Cloud Completion](explicitly_guided_information_interaction_network_for_cross-modal_point_cloud_co.md)
 - [\[ECCV 2024\] SegPoint: Segment Any Point Cloud via Large Language Model](segpoint_segment_any_point_cloud_via_large_language_model.md)
-- [\[ICML 2025\] SE(3)-Equivariant Diffusion Policy in Spherical Fourier Space](../../ICML2025/3d_vision/se3-equivariant_diffusion_policy_in_spherical_fourier_space.md)
+- [\[ECCV 2024\] Heterogeneous Graph Learning for Scene Graph Prediction in 3D Point Clouds](heterogeneous_graph_learning_for_scene_graph_prediction_in_3d_point_clouds.md)
 
 <!-- RELATED:END -->

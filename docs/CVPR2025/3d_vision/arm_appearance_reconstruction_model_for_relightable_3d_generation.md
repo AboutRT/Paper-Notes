@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.10825](https://arxiv.org/abs/2411.10825)  
-**代码**: https://arm-aigc.github.io (有)  
+**代码**: [https://arm-aigc.github.io](https://arm-aigc.github.io)  
 **领域**: 3D视觉 / 3D生成  
 **关键词**: 3D重建, 外观分解, PBR材质, UV纹理空间, 重光照
 

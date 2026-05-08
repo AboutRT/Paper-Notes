@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.19294](https://arxiv.org/abs/2505.19294)  
 **代码**: 无  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Large Audio Language Model, Reliability, IDK, 跨模态迁移, 拒答能力
 
 ## 一句话总结

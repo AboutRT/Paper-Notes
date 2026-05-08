@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2305.03713](https://arxiv.org/abs/2305.03713)  
-**代码**: https://research.nvidia.com/labs/nxp/avatar-fingerprinting/  
+**代码**: [https://research.nvidia.com/labs/nxp/avatar-fingerprinting/](https://research.nvidia.com/labs/nxp/avatar-fingerprinting/)  
 **领域**: 人体理解 / 深度伪造检测  
 **关键词**: Avatar指纹识别, 面部运动签名, 说话头生成, 身份验证, 深度伪造
 
@@ -132,10 +132,10 @@ Avatar指纹识别的身份验证性能：
 
 ## 相关论文
 
-- [\[CVPR 2025\] DualTalk: Dual-Speaker Interaction for 3D Talking Head Conversations](../../CVPR2025/human_understanding/dualtalk_dual-speaker_interaction_for_3d_talking_head_conversations.md)
-- [\[CVPR 2025\] Towards High-fidelity 3D Talking Avatar with Personalized Dynamic Texture](../../CVPR2025/human_understanding/towards_high-fidelity_3d_talking_avatar_with_personalized_dynamic_texture.md)
-- [\[ICLR 2026\] Generalizable End-to-End Tool-Use RL with Synthetic CodeGym](../../ICLR2026/human_understanding/generalizable_end-to-end_tool-use_rl_with_synthetic_codegym.md)
+- [\[ECCV 2024\] ScanTalk: 3D Talking Heads from Unregistered Scans](scantalk_3d_talking_heads_from_unregistered_scans.md)
+- [\[CVPR 2025\] FATE: Full-head Gaussian Avatar with Textural Editing from Monocular Video](../../CVPR2025/human_understanding/fate_full-head_gaussian_avatar_with_textural_editing_from_monocular_video.md)
 - [\[ECCV 2024\] VideoClusterNet: Self-Supervised and Adaptive Face Clustering for Videos](videoclusternet_self-supervised_and_adaptive_face_clustering_for_videos.md)
 - [\[ECCV 2024\] Event-based Head Pose Estimation: Benchmark and Method](event-based_head_pose_estimation_benchmark_and_method.md)
+- [\[ICCV 2025\] GGTalker: Talking Head Synthesis with Generalizable Gaussian Priors and Identity-Specific Adaptation](../../ICCV2025/human_understanding/ggtalker_talking_head_systhesis_with_generalizable_gaussian_priors_and_identity-.md)
 
 <!-- RELATED:END -->

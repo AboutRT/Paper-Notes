@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2510.18165](https://arxiv.org/abs/2510.18165)  
 **代码**: [GitHub](https://github.com/zhaoyMa/Saber)  
-**领域**: 代码生成 / 扩散语言模型  
+**领域**: 视频理解  
 **关键词**: 扩散语言模型, 自适应采样, 回溯重遮蔽, 代码生成加速, 速度-质量权衡
 
 ## 一句话总结
@@ -128,9 +128,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] AdaSpark: Adaptive Sparsity for Efficient Long-Video Understanding](../../CVPR2026/video_understanding/adaspark_adaptive_sparsity_for_efficient_long_video_understanding.md)
-- [\[NeurIPS 2025\] Reinforcement Learning with Backtracking Feedback](../../NeurIPS2025/video_understanding/reinforcement_learning_with_backtracking_feedback.md)
+- [\[NeurIPS 2025\] VideoLucy: Deep Memory Backtracking for Long Video Understanding](../../NeurIPS2025/video_understanding/videolucy_deep_memory_backtracking_for_long_video_understanding.md)
 - [\[ICCV 2025\] EgoAdapt: Adaptive Multisensory Distillation and Policy Learning for Efficient Egocentric Perception](../../ICCV2025/video_understanding/egoadapt_adaptive_multisensory_distillation_and_policy_learning_for_efficient_eg.md)
 - [\[AAAI 2026\] TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding](../../AAAI2026/video_understanding/tspo_temporal_sampling_policy_optimization_for_long-form_video_language_understa.md)
-- [\[NeurIPS 2025\] AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding](../../NeurIPS2025/video_understanding/adavideorag_omnicontextual_adaptive_retrievalaugmented_effic.md)
+- [\[ACL 2025\] Sparse-to-Dense: A Free Lunch for Lossless Acceleration of Video Understanding in LLMs](../../ACL2025/video_understanding/sparse-to-dense_a_free_lunch_for_lossless_acceleration_of_video_understanding_in.md)
 
 <!-- RELATED:END -->

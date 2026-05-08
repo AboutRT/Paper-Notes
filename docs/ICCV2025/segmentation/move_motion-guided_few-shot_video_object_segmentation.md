@@ -15,7 +15,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.22061](https://arxiv.org/abs/2507.22061)  
-**代码**: https://henghuiding.com/MOVE/  
+**代码**: [https://henghuiding.com/MOVE/](https://henghuiding.com/MOVE/)  
 **领域**: 分割 / 视频理解 / Few-Shot  
 **关键词**: few-shot video segmentation, motion understanding, video object segmentation, temporal modeling, benchmark
 
@@ -175,6 +175,6 @@ DMA 原型分解：
 - [\[ICCV 2025\] ReferDINO: Referring Video Object Segmentation with Visual Grounding Foundations](referdino_referring_video_object_segmentation_with_visual_grounding_foundations.md)
 - [\[ICCV 2025\] Temporal Rate Reduction Clustering for Human Motion Segmentation](temporal_rate_reduction_clustering_for_human_motion_segmentation.md)
 - [\[ICCV 2025\] Skeleton Motion Words for Unsupervised Skeleton-Based Temporal Action Segmentation](skeleton_motion_words_for_unsupervised_skeleton-based_temporal_action_segmentati.md)
-- [\[NeurIPS 2025\] SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation](../../NeurIPS2025/segmentation/sansa_unleashing_the_hidden_semantics_in_sam2_for_few-shot_segmentation.md)
+- [\[ICCV 2025\] What If: Understanding Motion Through Sparse Interactions](what_if_understanding_motion_through_sparse_interactions.md)
 
 <!-- RELATED:END -->

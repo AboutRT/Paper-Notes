@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2503.12919](https://arxiv.org/abs/2503.12919)  
 **代码**: [ArefEinizade2/COSIMO](https://github.com/ArefEinizade2/COSIMO)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: Simplicial Neural Networks, PDE, Over-smoothing, Hodge Laplacian, 拓扑深度学习  
 
 ## 一句话总结

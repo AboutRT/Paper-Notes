@@ -9,7 +9,7 @@ tags:
   - episodic memory
   - 注意力机制
   - context length extension
-  - retrieval-augmented generation
+  - 其他
 ---
 
 # EpMAN: Episodic Memory AttentioN for Generalizing to Longer Contexts
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 2502.14280  
 **代码**: -  
-**领域**: others  
+**领域**: 其他  
 **关键词**: long context, episodic memory, attention, context length extension, retrieval-augmented generation  
 
 ## 一句话总结
@@ -168,8 +168,8 @@ $$L = \mathbb{E}_\mathcal{D} [\alpha \ln p(l|q, C) + \ln(a|q, C, a_{mem})]$$
 
 - [\[ACL 2025\] Efficient OpAmp Adaptation for Zoom Attention to Golden Contexts](efficient_opamp_adaptation_for_zoom_attention_to_golden_contexts.md)
 - [\[ACL 2025\] If Attention Serves as a Cognitive Model of Human Memory Retrieval, What is the Plausible Memory Representation?](if_attention_serves_as_a_cognitive_model_of_human_memory_retrieval_what_is_the_p.md)
-- [\[ACL 2025\] Unique Hard Attention: A Tale of Two Sides](unique_hard_attention_a_tale_of_two_sides.md)
 - [\[ACL 2025\] Hierarchical Memory Organization for Wikipedia Generation](hierarchical_memory_wikipedia_gen.md)
-- [\[ACL 2025\] DAPE V2: Process Attention Score as Feature Map for Length Extrapolation](dape_v2_process_attention_score_as_feature_map_for_length_extrapolation.md)
+- [\[ACL 2025\] HATA: Trainable and Hardware-Efficient Hash-Aware Top-k Attention for Scalable Large Model Inference](hata_trainable_and_hardware-efficient_hash-aware_top-k_attention_for_scalable_la.md)
+- [\[ACL 2025\] The Hidden Attention of Mamba Models](the_hidden_attention_of_mamba_models.md)
 
 <!-- RELATED:END -->

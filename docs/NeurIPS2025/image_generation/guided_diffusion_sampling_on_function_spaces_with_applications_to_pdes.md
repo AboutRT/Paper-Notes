@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.17004](https://arxiv.org/abs/2505.17004)  
 **代码**: [neuraloperator/FunDPS](https://github.com/neuraloperator/FunDPS)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 函数空间扩散模型, PDE逆问题, 后验采样, Tweedie公式, 神经算子, 分辨率无关
 
 ## 一句话总结

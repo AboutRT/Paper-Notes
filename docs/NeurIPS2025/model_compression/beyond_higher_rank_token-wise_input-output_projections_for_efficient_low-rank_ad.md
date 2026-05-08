@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.23123](https://arxiv.org/abs/2510.23123)  
-**代码**: https://github.com/Leopold1423/toplora-neurips25  
+**代码**: [https://github.com/Leopold1423/toplora-neurips25](https://github.com/Leopold1423/toplora-neurips25)  
 **领域**: 参数高效微调  
 **关键词**: LoRA, 低秩适配, Token级自适应, 输入输出投影, PEFT
 

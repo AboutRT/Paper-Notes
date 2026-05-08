@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Scalable Multi-Task Low-Rank Model Adaptation
 description: >-
-  [ICLR 2026][LoRA] 系统分析多任务 LoRA 在任务数量增大时崩溃的根因（均匀正则化破坏共享知识 + 组件级 LoRA 放大梯度冲突），提出 mtLoRA：谱感知正则化 + 块级适配 + 细粒度路由，在 15-25 个任务上平均超越 SOTA 2.3%，同时减少 47% 参数和 24% 训练时间。
+  [ICLR 2026][社会计算] 系统分析多任务 LoRA 在任务数量增大时崩溃的根因（均匀正则化破坏共享知识 + 组件级 LoRA 放大梯度冲突），提出 mtLoRA：谱感知正则化 + 块级适配 + 细粒度路由，在 15-25 个任务上平均超越 SOTA 2.3%，同时减少 47% 参数和 24% 训练时间。
 tags:
   - ICLR 2026
-  - LoRA
+  - 社会计算
   - multi-task learning
   - spectral-aware regularization
   - block-level adaptation
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.01526](https://arxiv.org/abs/2603.01526)  
 **代码**: [GitHub](https://github.com/doem97/ICLR26_mtLoRA)  
-**领域**: 模型压缩 / 参数高效微调 / 多任务学习  
+**领域**: 社会计算  
 **关键词**: LoRA, multi-task learning, spectral-aware regularization, block-level adaptation, fine-grained routing
 
 ## 一句话总结
@@ -142,10 +142,10 @@ $$\mathcal{L} = \mathcal{L}_{task} + \lambda_1 \mathcal{L}_{spectral} + \lambda_
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings](../../NeurIPS2025/social_computing/a_multitask_benchmark_for_abusive_language_detection_in_lowr.md)
 - [\[ICLR 2026\] Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation](adaptive_debiasing_tsallis_entropy_for_test-time_adaptation.md)
 - [\[ICLR 2026\] BiasFreeBench: a Benchmark for Mitigating Bias in Large Language Model Responses](biasfreebench_a_benchmark_for_mitigating_bias_in_large_language_model_responses.md)
 - [\[ICLR 2026\] Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems](stop_wasting_your_tokens_towards_efficient_runtime_multi-agent_systems.md)
+- [\[ICLR 2026\] When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](when_agents_misremember_collectively_exploring_the_mandela_effect_in_llm-based_m.md)
 - [\[ICLR 2026\] Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI](functional_embeddings_enable_aggregation_of_multi-area_seeg_data_for_robust_bci.md)
 
 <!-- RELATED:END -->

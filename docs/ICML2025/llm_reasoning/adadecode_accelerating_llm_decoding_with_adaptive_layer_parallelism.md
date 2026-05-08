@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.03700](https://arxiv.org/abs/2506.03700)  
-**代码**: https://github.com/weizhepei/AdaDecode  
+**代码**: [https://github.com/weizhepei/AdaDecode](https://github.com/weizhepei/AdaDecode)  
 **领域**: LLM推理加速 / 高效解码  
 **关键词**: 自适应层并行, 早期退出, 轻量级LM Head, 推测解码, 解码加速
 
@@ -161,9 +161,9 @@ AdaDecode 的整体 pipeline 如下：
 ## 相关论文
 
 - [\[ICLR 2026\] FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning](../../ICLR2026/llm_reasoning/fastgrpo_accelerating_policy_optimization_via_concurrency-aware_speculative_deco.md)
+- [\[ICLR 2026\] Temperature as a Meta-Policy: Adaptive Temperature in LLM Reinforcement Learning](../../ICLR2026/llm_reasoning/temperature_as_a_meta-policy_adaptive_temperature_in_llm_reinforcement_learning.md)
+- [\[ICLR 2026\] Evoking User Memory: Personalizing LLM via Recollection-Familiarity Adaptive Retrieval](../../ICLR2026/llm_reasoning/evoking_user_memory_personalizing_llm_via_recollection-familiarity_adaptive_retr.md)
 - [\[NeurIPS 2025\] ARM: Adaptive Reasoning Model](../../NeurIPS2025/llm_reasoning/arm_adaptive_reasoning_model.md)
 - [\[ICML 2025\] Evaluating Judges as Evaluators: The JETTS Benchmark of LLM-as-Judges as Test-Time Scaling Evaluators](evaluating_judges_as_evaluators_the_jetts_benchmark_of_llm-as-judges_as_test-tim.md)
-- [\[ICML 2025\] ProofCompass: Enhancing Specialized Provers with LLM Guidance](proofcompass_enhancing_specialized_provers_with_llm_guidance.md)
-- [\[NeurIPS 2025\] Sampling-Efficient Test-Time Scaling: Self-Estimating the Best-of-N Sampling in Early Decoding](../../NeurIPS2025/llm_reasoning/sampling-efficient_test-time_scaling_self-estimating_the_best-of-n_sampling_in_e.md)
 
 <!-- RELATED:END -->

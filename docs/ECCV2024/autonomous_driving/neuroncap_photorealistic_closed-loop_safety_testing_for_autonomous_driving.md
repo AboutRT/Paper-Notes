@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.07762](https://arxiv.org/abs/2404.07762)  
-**代码**: https://github.com/atonderski/neuro-ncap (有)  
+**代码**: [https://github.com/atonderski/neuro-ncap](https://github.com/atonderski/neuro-ncap)  
 **领域**: 自动驾驶  
 **关键词**: closed-loop simulation, NeRF, safety testing, end-to-end planning, Euro NCAP
 

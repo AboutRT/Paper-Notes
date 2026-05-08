@@ -44,11 +44,11 @@ tags:
 
 ### 关键设计
 1. **ETF-Subspace Unknown Separation (EUS)**: 使用 Simplex ETF 基矩阵 $W^E \in \mathbb{R}^{K \times d}$ 构建正交的已知子空间 $W_\mathcal{K}^E$ 和未知子空间 $W_\mathcal{U}^E$（各取 $K/2$ 个基向量）。对每个 proposal 特征 $f$ 分别计算 Helmholtz 自由能：
-   $$E^{\mathcal{K}}(f) = -\log \sum_{i=1}^{K/2} \exp(W_{\mathcal{K},i}^E \cdot f), \quad E^{\mathcal{U}}(f) = -\log \sum_{i=1}^{K/2} \exp(W_{\mathcal{U},i}^E \cdot f)$$
+    $E^{\mathcal{K}}(f) = -\log \sum_{i=1}^{K/2} \exp(W_{\mathcal{K},i}^E \cdot f), \quad E^{\mathcal{U}}(f) = -\log \sum_{i=1}^{K/2} \exp(W_{\mathcal{U},i}^E \cdot f)$
    定义未知偏移 $\Delta_u(f) = s_u(f) - s_k(f)$，通过 margin 损失和 focal 损失引导已知/未知/背景 proposal 到各自区域。设计动机：现有方法仅在已知空间做能量计算，将非已知对象推离已知区域但无法防止与背景混淆。双空间设计通过在未知空间也建立响应，使未知目标有显式的归属区域。
 
 2. **Energy-based Known Distinction (EKD)**: 将已知类分类器分为 $H_{\text{prev}}$（旧类）和 $H_{\text{curr}}$（新类），分别计算能量分数。通过对比损失确保旧类 proposal 在 $H_{\text{prev}}$ 中能量更高、在 $H_{\text{curr}}$ 中更低，反之亦然：
-   $$\mathcal{L}_{\text{prev}} = \log(1 + \exp[S(f_{\text{prev}}; H_{\text{curr}}) - S(f_{\text{prev}}; H_{\text{prev}})])$$
+    $\mathcal{L}_{\text{prev}} = \log(1 + \exp[S(f_{\text{prev}}; H_{\text{curr}}) - S(f_{\text{prev}}; H_{\text{prev}})])$
    设计动机：随着任务增多、类别增加，联合优化中新旧类的交叉影响加剧。能量区分提供显式的正则化，使每个子分类器专注于自己的类别集合。
 
 3. **推理时校准**: 用标准化的未知偏移 $\tilde{\Delta}_u(f)$ 乘以未知 logit 的标准差来校准最终未知 logit：$z_u' = z_u + \sigma_{z_u} \tilde{\Delta}_u(f)$。
@@ -129,8 +129,8 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{cls}} + \mathcal{L}_{\text{bbo
 
 - [\[CVPR 2026\] EW-DETR: Evolving World Object Detection via Incremental Low-Rank DEtection TRansformer](ewdetr_evolving_world_object_detection.md)
 - [\[CVPR 2026\] Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](show_dont_tell_detecting_novel_objects_by_watching.md)
-- [\[CVPR 2026\] CineSRD: Leveraging Visual, Acoustic, and Linguistic Cues for Open-World Visual Media Speaker Diarization](cinesrd_leveraging_visual_acoustic_and_linguistic_cues_for_open-world_visual_med.md)
-- [\[CVPR 2026\] Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](parameter-efficient_semantic_augmentation_for_enhancing_open-vocabulary_object_d.md)
 - [\[CVPR 2026\] NoOVD: Novel Category Discovery and Embedding for Open-Vocabulary Object Detection](noovd_novel_category_discovery_and_embedding_for_open-vocabulary_object_detectio.md)
+- [\[CVPR 2026\] Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](parameter-efficient_semantic_augmentation_for_enhancing_open-vocabulary_object_d.md)
+- [\[CVPR 2026\] ABRA: Teleporting Fine-Tuned Knowledge Across Domains for Open-Vocabulary Object Detection](abra_teleporting_fine-tuned_knowledge_across_domains_for_open-vocabulary_object_.md)
 
 <!-- RELATED:END -->

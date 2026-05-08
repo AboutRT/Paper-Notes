@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2510.17664](https://arxiv.org/abs/2510.17664)  
-**代码**: https://github.com/llada60/4DSegStreamer (有)  
+**代码**: [https://github.com/llada60/4DSegStreamer](https://github.com/llada60/4DSegStreamer)  
 **领域**: 自动驾驶  
 **关键词**: 4D全景分割, 流式感知, 双线程系统, 运动对齐, 点云序列
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.21655](https://arxiv.org/abs/2509.21655)  
-**代码**: https://github.com/yinuoren/DriftLite  
+**代码**: [https://github.com/yinuoren/DriftLite](https://github.com/yinuoren/DriftLite)  
 **领域**: 扩散模型 / 推理时缩放  
 **关键词**: 扩散模型推理适配, 粒子方法, 漂移控制, Fokker-Planck方程, 方差缩减
 

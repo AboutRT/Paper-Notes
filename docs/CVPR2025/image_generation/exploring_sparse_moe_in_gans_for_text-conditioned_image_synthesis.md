@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2309.03904](https://arxiv.org/abs/2309.03904)  
-**代码**: https://github.com/zhujiapeng/Aurora  
+**代码**: [https://github.com/zhujiapeng/Aurora](https://github.com/zhujiapeng/Aurora)  
 **领域**: 扩散模型  
 **关键词**: 文本生成图像, GAN, 稀疏混合专家, 大规模训练, 快速推理
 

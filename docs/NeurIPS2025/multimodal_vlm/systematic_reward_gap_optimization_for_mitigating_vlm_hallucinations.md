@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - VLM 幻觉
-  - DPO
+  - 多模态VLM
   - 偏好学习
   - Topic-level Rewriting
   - 课程学习
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.17265](https://arxiv.org/abs/2411.17265)  
-**代码**: https://tpr-dpo.github.io (有)  
+**代码**: [https://tpr-dpo.github.io](https://tpr-dpo.github.io)  
 **领域**: 多模态大模型 / VLM 幻觉缓解  
 **关键词**: VLM 幻觉, DPO, 偏好学习, Topic-level Rewriting, 课程学习
 
@@ -126,10 +126,10 @@ TPR-CL 在 ObjHal 上相比基线 LLaVA-1.5 减少了 ~93% 的幻觉（CHs: 53.6
 
 ## 相关论文
 
-- [\[ICCV 2025\] Mitigating Object Hallucinations via Sentence-Level Early Intervention](../../ICCV2025/multimodal_vlm/mitigating_object_hallucinations_via_sentence-level_early_intervention.md)
 - [\[ICCV 2025\] DASH: Detection and Assessment of Systematic Hallucinations of VLMs](../../ICCV2025/multimodal_vlm/dash_detection_and_assessment_of_systematic_hallucinations_of_vlms.md)
 - [\[NeurIPS 2025\] Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models](seeing_is_believing_mitigating_ocr_hallucinations_in_multimodal_large_language_m.md)
 - [\[NeurIPS 2025\] When Semantics Mislead Vision: Mitigating Large Multimodal Models Hallucinations](when_semantics_mislead_vision_mitigating_large_multimodal_models_hallucinations_.md)
+- [\[ICCV 2025\] Mitigating Object Hallucinations via Sentence-Level Early Intervention](../../ICCV2025/multimodal_vlm/mitigating_object_hallucinations_via_sentence-level_early_intervention.md)
 - [\[NeurIPS 2025\] HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation](hermesflow_seamlessly_closing_the_gap_in_multimodal_understanding_and_generation.md)
 
 <!-- RELATED:END -->

@@ -10,14 +10,14 @@ tags:
   - 域泛化
   - 多模态融合
   - 伪标签
-  - 跨模态原型对齐
+  - 多模态VLM
 ---
 
 # Towards Multimodal Domain Generalization with Few Labels
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.22917](https://arxiv.org/abs/2602.22917)  
-**代码**: https://github.com/lihongzhao99/SSMDG  
+**代码**: [https://github.com/lihongzhao99/SSMDG](https://github.com/lihongzhao99/SSMDG)  
 **领域**: 多模态VLM  
 **关键词**: 半监督学习, 域泛化, 多模态融合, 伪标签, 跨模态原型对齐
 
@@ -121,9 +121,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Single Domain Generalization for Few-Shot Counting via Universal Representation Matching](../../CVPR2025/multimodal_vlm/single_domain_generalization_for_few-shot_counting_via_universal_representation_.md)
-- [\[ICLR 2026\] Reasoning-Driven Multimodal LLM for Domain Generalization](../../ICLR2026/multimodal_vlm/reasoning-driven_multimodal_llm_for_domain_generalization.md)
 - [\[CVPR 2026\] BiCLIP: Domain Canonicalization via Structured Geometric Transformation](biclip_domain_canonicalization_via_structured_geometric_transformation.md)
+- [\[ICLR 2026\] Reasoning-Driven Multimodal LLM for Domain Generalization](../../ICLR2026/multimodal_vlm/reasoning-driven_multimodal_llm_for_domain_generalization.md)
 - [\[CVPR 2026\] FlashCache: Frequency-Domain-Guided Outlier-KV-Aware Multimodal KV Cache Compression](flashcache_frequency_kv_cache_compression.md)
-- [\[CVPR 2026\] Activation Matters: Test-time Activated Negative Labels for OOD Detection with Vision-Language Models](activation_matters_test-time_activated_negative_labels_for_ood_detection_with_vi.md)
+- [\[CVPR 2026\] Conditional Factuality Controlled LLMs with Generalization Certificates via Conformal Sampling](conditional_factuality_controlled_llms_with_generalization_certificates_via_conf.md)
 
 <!-- RELATED:END -->

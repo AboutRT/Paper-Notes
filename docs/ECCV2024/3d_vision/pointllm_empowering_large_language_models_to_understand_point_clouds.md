@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV2024  
 **arXiv**: [2308.16911](https://arxiv.org/abs/2308.16911)  
-**代码**: https://github.com/OpenRobotLab/PointLLM  
-**领域**: 3d_vision  
+**代码**: [https://github.com/OpenRobotLab/PointLLM](https://github.com/OpenRobotLab/PointLLM)  
+**领域**: 3D视觉  
 **关键词**: 点云理解, 多模态LLM, 3D物体描述, 指令微调, LLaMA
 
 ## 一句话总结
@@ -139,7 +139,7 @@ tags:
 - [\[AAAI 2026\] RadarLLM: Empowering Large Language Models to Understand Human Motion from Millimeter-Wave Point Cloud Sequence](../../AAAI2026/3d_vision/radarllm_empowering_large_language_models_to_understand_human_motion_from_millim.md)
 - [\[CVPR 2025\] Empowering Large Language Models with 3D Situation Awareness](../../CVPR2025/3d_vision/empowering_large_language_models_with_3d_situation_awareness.md)
 - [\[ECCV 2024\] SegPoint: Segment Any Point Cloud via Large Language Model](segpoint_segment_any_point_cloud_via_large_language_model.md)
+- [\[ECCV 2024\] Heterogeneous Graph Learning for Scene Graph Prediction in 3D Point Clouds](heterogeneous_graph_learning_for_scene_graph_prediction_in_3d_point_clouds.md)
 - [\[ECCV 2024\] Progressive Classifier and Feature Extractor Adaptation for Unsupervised Domain Adaptation on Point Clouds](progressive_classifier_and_feature_extractor_adaptation_for_unsupervised_domain_.md)
-- [\[ECCV 2024\] SEED: A Simple and Effective 3D DETR in Point Clouds](seed_a_simple_and_effective_3d_detr_in_point_clouds.md)
 
 <!-- RELATED:END -->

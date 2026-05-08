@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.14052](https://arxiv.org/abs/2603.14052)  
-**代码**: [https://github.com/git-disl/A4VL](https://github.com/git-disl/A4VL) (有)  
+**代码**: [https://github.com/git-disl/A4VL](https://github.com/git-disl/A4VL)  
 **领域**: 多模态VLM / 视频理解  
 **关键词**: 多Agent联盟, 长视频推理, 感知-行动探索, 交叉审查共识, 事件驱动分区, Agent剪枝  
 

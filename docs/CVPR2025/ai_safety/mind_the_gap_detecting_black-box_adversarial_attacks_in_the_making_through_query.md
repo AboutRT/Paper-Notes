@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.02986](https://arxiv.org/abs/2503.02986)  
-**代码**: https://github.com/jpark04-qub/GWAD  
+**代码**: [https://github.com/jpark04-qub/GWAD](https://github.com/jpark04-qub/GWAD)  
 **领域**: AI安全  
 **关键词**: 对抗攻击检测, 黑盒攻击, 查询分析, Delta相似度, 状态化防御
 
@@ -137,7 +137,7 @@ GWAD 框架持续监控发送到被保护模型的查询序列。对于每三个
 - [\[ACL 2025\] Multi-task Adversarial Attacks against Black-box Model with Few-shot Queries](../../ACL2025/ai_safety/multi-task_adversarial_attacks_against_black-box_model_with_few-shot_queries.md)
 - [\[CVPR 2025\] Detecting Backdoor Attacks in Federated Learning via Direction Alignment Inspection](detecting_backdoor_attacks_in_federated_learning_via_direction_alignment_inspect.md)
 - [\[ICLR 2026\] Traceable Black-box Watermarks for Federated Learning](../../ICLR2026/ai_safety/traceable_black-box_watermarks_for_federated_learning.md)
-- [\[NeurIPS 2025\] Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks Against LLMs](../../NeurIPS2025/ai_safety/bits_leaked_per_query_information-theoretic_bounds_on_adversarial_attacks_agains.md)
-- [\[AAAI 2026\] GraphTextack: A Realistic Black-Box Node Injection Attack on LLM-Enhanced GNNs](../../AAAI2026/ai_safety/graphtextack_a_realistic_black-box_node_injection_attack_on_llm-enhanced_gnns.md)
+- [\[CVPR 2025\] Gradient Inversion Attacks on Parameter-Efficient Fine-Tuning](gradient_inversion_attacks_on_parameter-efficient_fine-tuning.md)
+- [\[CVPR 2025\] Data-free Universal Adversarial Perturbation with Pseudo-Semantic Prior](data-free_universal_adversarial_perturbation_with_pseudo-semantic_prior.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.07789](https://arxiv.org/abs/2603.07789)  
 **代码**: [https://github.com/zx-pan/SGI](https://github.com/zx-pan/SGI)  
-**领域**: 模型压缩 / 图像表征  
+**领域**: 3D视觉  
 **关键词**: 2D高斯溅射, 图像表征, 结构化高斯, 熵编码, 多尺度拟合
 
 ## 一句话总结

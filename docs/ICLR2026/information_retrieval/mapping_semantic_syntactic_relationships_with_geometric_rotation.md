@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 嵌入几何
   - 超球面旋转
-  - 跨语言泛化
+  - 信息检索
   - 语义变换
   - 线性表示假说
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.09790](https://arxiv.org/abs/2510.09790)  
-**代码**: https://github.com/fuelix/RISE-steering (有)  
+**代码**: [https://github.com/fuelix/RISE-steering](https://github.com/fuelix/RISE-steering)  
 **领域**: 表示学习 / 嵌入可解释性  
 **关键词**: 嵌入几何, 超球面旋转, 跨语言泛化, 语义变换, 线性表示假说
 
@@ -144,7 +144,7 @@ RISE通过三步实现语义变换的几何表示：(1) 规范化（Canonicaliza
 - [\[ACL 2025\] Semantic Outlier Removal with Embedding Models and LLMs](../../ACL2025/information_retrieval/semantic_outlier_removal_with_embedding_models_and_llms.md)
 - [\[AAAI 2026\] Magnitude Matters: A Superior Class of Similarity Metrics for Holistic Semantic Understanding](../../AAAI2026/information_retrieval/magnitude_matters_a_superior_class_of_similarity_metrics_for_holistic_semantic_u.md)
 - [\[AAAI 2026\] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](../../AAAI2026/information_retrieval/himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)
+- [\[NeurIPS 2025\] SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG](../../NeurIPS2025/information_retrieval/secon-rag_a_two-stage_semantic_filtering_and_conflict-free_framework_for_trustwo.md)
 - [\[ACL 2025\] CART: A Generative Cross-Modal Retrieval Framework with Coarse-To-Fine Semantic Modeling](../../ACL2025/information_retrieval/cart_a_generative_cross-modal_retrieval_framework_with_coarse-to-fine_semantic_m.md)
-- [\[ACL 2025\] Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Embedding Space](../../ACL2025/information_retrieval/psycholinguistic_visual_semantic.md)
 
 <!-- RELATED:END -->

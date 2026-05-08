@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2511.22305](https://arxiv.org/abs/2511.22305)  
 **代码**: 待确认  
-**领域**: ai_safety / federated_learning  
+**领域**: AI安全  
 **关键词**: 聚类联邦学习, 描述符, 分布偏移, 测试时适配, DBSCAN, Wasserstein距离
 
 ## 一句话总结
@@ -158,6 +158,6 @@ $$\{\theta^{(k),*}\}, \psi^*, \lambda^* = \arg\max \sum_{k=1}^{K} \left[ \log P(
 - [\[NeurIPS 2025\] DictPFL: Efficient and Private Federated Learning on Encrypted Gradients](dictpfl_efficient_and_private_federated_learning_on_encrypted_gradients.md)
 - [\[NeurIPS 2025\] Cost Efficient Fairness Audit Under Partial Feedback](cost_efficient_fairness_audit_under_partial_feedback.md)
 - [\[CVPR 2025\] A Simple Data Augmentation for Feature Distribution Skewed Federated Learning](../../CVPR2025/ai_safety/a_simple_data_augmentation_for_feature_distribution_skewed_federated_learning.md)
-- [\[ICML 2025\] Rethinking the Bias of Foundation Model under Long-tailed Distribution](../../ICML2025/ai_safety/rethinking_the_bias_of_foundation_model_under_long-tailed_distribution.md)
+- [\[CVPR 2025\] Geometric Knowledge-Guided Localized Global Distribution Alignment for Federated Learning](../../CVPR2025/ai_safety/geometric_knowledge-guided_localized_global_distribution_alignment_for_federated.md)
 
 <!-- RELATED:END -->

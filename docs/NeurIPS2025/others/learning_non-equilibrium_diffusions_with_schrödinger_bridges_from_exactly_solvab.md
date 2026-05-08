@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16644](https://arxiv.org/abs/2505.16644)  
 **代码**: 无  
-**领域**: others / 概率建模  
+**领域**: 其他  
 **关键词**: Schrödinger桥, 非平衡扩散, Ornstein-Uhlenbeck过程, Flow Matching, 最优传输
 
 ## 一句话总结

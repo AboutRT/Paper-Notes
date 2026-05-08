@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2408.07116](https://arxiv.org/abs/2408.07116)  
-**代码**: https://github.com/seanjliu/generative_photomontage  
+**代码**: [https://github.com/seanjliu/generative_photomontage](https://github.com/seanjliu/generative_photomontage)  
 **领域**: 扩散模型  
 **关键词**: 图像合成, 扩散特征, 图割优化, 自注意力注入, ControlNet
 
@@ -122,9 +122,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Generative Image Layer Decomposition with Visual Effects](generative_image_layer_decomposition_with_visual_effects.md)
-- [\[CVPR 2025\] GIF: Generative Inspiration for Face Recognition at Scale](gif_generative_inspiration_for_face_recognition_at_scale.md)
 - [\[CVPR 2025\] ObjectMover: Generative Object Movement with Video Prior](objectmover_generative_object_movement_with_video_prior.md)
-- [\[CVPR 2025\] Learning Visual Generative Priors without Text](learning_visual_generative_priors_without_text.md)
 - [\[CVPR 2025\] Symbolic Representation for Any-to-Any Generative Tasks](symbolic_representation_for_any-to-any_generative_tasks.md)
+- [\[CVPR 2025\] Learning Visual Generative Priors without Text](learning_visual_generative_priors_without_text.md)
+- [\[CVPR 2025\] GIF: Generative Inspiration for Face Recognition at Scale](gif_generative_inspiration_for_face_recognition_at_scale.md)
 
 <!-- RELATED:END -->

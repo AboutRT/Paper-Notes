@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2509.20829](https://arxiv.org/abs/2509.20829)  
 **代码**: [keitaroskmt/collapse-dynamics](https://github.com/keitaroskmt/collapse-dynamics)  
-**领域**: others  
+**领域**: LLM预训练  
 **关键词**: Grokking, 信息瓶颈, Neural Collapse, 训练动态, 类内方差, 泛化理论, Lyapunov 时间尺度
 
 ## 一句话总结

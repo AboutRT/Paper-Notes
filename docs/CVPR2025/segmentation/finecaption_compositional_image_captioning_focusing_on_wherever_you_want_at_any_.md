@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.15411](https://arxiv.org/abs/2411.15411)  
-**代码**: https://hanghuacs.github.io/FineCaption/  
+**代码**: [https://hanghuacs.github.io/FineCaption/](https://hanghuacs.github.io/FineCaption/)  
 **领域**: 分割 / 多模态VLM  
 **关键词**: 区域描述, 视觉语言模型, mask引用, 高分辨率编码, 组合式属性
 

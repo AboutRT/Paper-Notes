@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.02091](https://arxiv.org/abs/2502.02091)  
-**代码**: https://hanbyelcho.info/instruct-4dgs/  
+**代码**: [https://hanbyelcho.info/instruct-4dgs/](https://hanbyelcho.info/instruct-4dgs/)  
 **领域**: 3D视觉 / 场景编辑  
 **关键词**: 4D高斯, 动态场景编辑, 静态-动态分离, InstructPix2Pix, Score Distillation, Hexplane
 
@@ -131,7 +131,7 @@ Instruct-4DGS 分三步进行：(1) 用多相机视频数据训练目标 4DGS �
 - [\[CVPR 2025\] Ctrl-D: Controllable Dynamic 3D Scene Editing with Personalized 2D Diffusion](ctrl-d_controllable_dynamic_3d_scene_editing_with_personalized_2d_diffusion.md)
 - [\[CVPR 2025\] MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds](mosca_dynamic_gaussian_fusion_from_casual_videos_via_4d_motion_scaffolds.md)
 - [\[ICCV 2025\] MEGA: Memory-Efficient 4D Gaussian Splatting for Dynamic Scenes](../../ICCV2025/3d_vision/mega_memory-efficient_4d_gaussian_splatting_for_dynamic_scenes.md)
+- [\[CVPR 2025\] Dynamic Neural Surfaces for Elastic 4D Shape Representation and Analysis](dynamic_neural_surfaces_for_elastic_4d_shape_representation_and_analysis.md)
 - [\[CVPR 2026\] Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation](../../CVPR2026/3d_vision/catalyst4d_high-fidelity_3d-to-4d_scene_editing_via_dynamic_propagation.md)
-- [\[CVPR 2025\] Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera](dyn-hamr_recovering_4d_interacting_hand_motion_from_a_dynamic_camera.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - 视觉线索关联
-  - 多图推理
+  - 多模态VLM
   - VLM基准
   - 视觉提示
   - 身份追踪
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.12084](https://arxiv.org/abs/2502.12084)  
-**代码**: https://vlm2-bench.github.io/  
-**领域**: LLM评估  
+**代码**: [https://vlm2-bench.github.io/](https://vlm2-bench.github.io/)  
+**领域**: 多模态VLM  
 **关键词**: 视觉线索关联, 多图推理, VLM基准, 视觉提示, 身份追踪
 
 ## 一句话总结
@@ -126,10 +126,10 @@ VLM2-Bench 包含3大类9个子任务，3060个测试用例，覆盖判断题、
 
 ## 相关论文
 
-- [\[ACL 2025\] ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding](vigil3d_a_linguistically_diverse_dataset_for_3d_visual_grounding.md)
-- [\[ACL 2025\] Weaving Context Across Images: Improving Vision-Language Models through Focus-Centric Visual Chains](weaving_context_across_images_improving_vision-language_models_through_focus-cen.md)
-- [\[ACL 2025\] CoSyn: Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](cosyn_code_guided_synthetic_data.md)
 - [\[ACL 2025\] Can Vision-Language Models Evaluate Handwritten Math?](can_vision-language_models_evaluate_handwritten_math.md)
 - [\[ACL 2025\] Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues](speaking_beyond_language.md)
+- [\[ACL 2025\] Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs](chart-based_reasoning_transferring_capabilities_from_llms_to_vlms.md)
+- [\[ACL 2025\] Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder](exploring_how_generative_mllms_perceive_more.md)
+- [\[ACL 2025\] EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models](effivlm_bench_acceleration.md)
 
 <!-- RELATED:END -->

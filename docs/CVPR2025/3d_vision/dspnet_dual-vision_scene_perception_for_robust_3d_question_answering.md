@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.03190](https://arxiv.org/abs/2503.03190)  
-**代码**: https://github.com/LZ-CH/DSPNet (有)  
+**代码**: [https://github.com/LZ-CH/DSPNet](https://github.com/LZ-CH/DSPNet)  
 **领域**: 3D视觉 / 多模态VLM  
 **关键词**: 3D问答, 双视觉感知, 多视图融合, 点云特征增强, 跨模态推理
 
@@ -130,7 +130,7 @@ DSPNet 输入 3D 点云、多视图图像和问题文本，输出答案。流程
 - [\[CVPR 2025\] DepthCues: Evaluating Monocular Depth Perception in Large Vision Models](depthcues_evaluating_monocular_depth_perception_in_large_vision_models.md)
 - [\[NeurIPS 2025\] Robust Neural Rendering in the Wild with Asymmetric Dual 3D Gaussian Splatting](../../NeurIPS2025/3d_vision/robust_neural_rendering_in_the_wild_with_asymmetric_dual_3d_gaussian_splatting.md)
 - [\[CVPR 2025\] Continuous 3D Perception Model with Persistent State](continuous_3d_perception_model_with_persistent_state.md)
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
 - [\[CVPR 2025\] Dual Exposure Stereo for Extended Dynamic Range 3D Imaging](dual_exposure_stereo_extended_dr_3d.md)
+- [\[CVPR 2025\] SphereUFormer: A U-Shaped Transformer for Spherical 360 Perception](sphereuformer_a_u-shaped_transformer_for_spherical_360_perception.md)
 
 <!-- RELATED:END -->

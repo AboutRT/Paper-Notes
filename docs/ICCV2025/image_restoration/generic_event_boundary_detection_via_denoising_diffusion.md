@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 图像恢复
-  - 通用事件边界检测
+  - 图像复原
   - 扩散模型
   - Classifier-Free Guidance
   - 多样性评估
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.12084](https://arxiv.org/abs/2508.12084)  
-**代码**: https://cvlab.postech.ac.kr/research/DiffGEBD  
-**领域**: 视频理解 / 事件边界检测  
+**代码**: [https://cvlab.postech.ac.kr/research/DiffGEBD](https://cvlab.postech.ac.kr/research/DiffGEBD)  
+**领域**: 图像复原  
 **关键词**: 通用事件边界检测, 扩散模型, Classifier-Free Guidance, 多样性评估, 时序自相似性
 
 ## 一句话总结
@@ -156,9 +156,9 @@ Kinetics-GEBD 数据集，每个模型生成 $N_P=5$ 个预测：
 ## 相关论文
 
 - [\[ACL 2026\] Purging the Gray Zone: Latent-Geometric Denoising for Precise Knowledge Boundary Awareness](../../ACL2026/image_restoration/purging_the_gray_zone_latent-geometric_denoising_for_precise_knowledge_boundary_.md)
-- [\[ICCV 2025\] Low-Light Image Enhancement using Event-Based Illumination Estimation (RetinEV)](low-light_image_enhancement_using_event-based_illumination_estimation.md)
-- [\[ICCV 2025\] UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control](uniphys_unified_planner_and_controller_with_diffusion_for_flexible_physics-based.md)
-- [\[ECCV 2024\] EDformer: Transformer-Based Event Denoising Across Varied Noise Levels](../../ECCV2024/image_restoration/edformer_transformer-based_event_denoising_across_varied_noise_levels.md)
 - [\[ICCV 2025\] PRE-Mamba: A 4D State Space Model for Ultra-High-Frequent Event Camera Deraining](pre-mamba_a_4d_state_space_model_for_ultra-high-frequent_event_camera_deraining.md)
+- [\[AAAI 2026\] Blur-Robust Detection via Feature Restoration: An End-to-End Framework for Prior-Guided Infrared UAV Target Detection](../../AAAI2026/image_restoration/blur-robust_detection_via_feature_restoration_an_end-to-end_framework_for_prior-.md)
+- [\[ICCV 2025\] Low-Light Image Enhancement using Event-Based Illumination Estimation (RetinEV)](low-light_image_enhancement_using_event-based_illumination_estimation.md)
+- [\[ECCV 2024\] EDformer: Transformer-Based Event Denoising Across Varied Noise Levels](../../ECCV2024/image_restoration/edformer_transformer-based_event_denoising_across_varied_noise_levels.md)
 
 <!-- RELATED:END -->

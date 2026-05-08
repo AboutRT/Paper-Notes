@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2512.24143](https://arxiv.org/abs/2512.24143)  
 **代码**: 有  
-**领域**: AI安全 / 扩散模型  
+**领域**: 图像复原  
 **关键词**: activation steering, masked diffusion LM, safety, refusal direction, LLaDA  
 
 ## 一句话总结

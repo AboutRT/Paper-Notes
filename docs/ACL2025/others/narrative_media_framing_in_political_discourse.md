@@ -8,7 +8,7 @@ tags:
   - 叙事框架
   - 媒体分析
   - 政治话语
-  - LLM
+  - 其他
   - 气候变化
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00737](https://arxiv.org/abs/2506.00737)  
 **代码**: [有 (GitHub)](https://github.com/julia-nixie/narratives)  
-**领域**: NLP / 计算社会科学  
+**领域**: 其他  
 **关键词**: 叙事框架, 媒体分析, 政治话语, LLM, 气候变化
 
 ## 一句话总结

@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.03993](https://arxiv.org/abs/2510.03993)  
-**代码**: https://github.com/yaxinhou/CPG (有)  
+**代码**: [https://github.com/yaxinhou/CPG](https://github.com/yaxinhou/CPG)  
 **领域**: 半监督学习 / 长尾学习  
 **关键词**: 长尾分布, 半监督学习, 伪标签, 分布不匹配, Logit Adjustment
 

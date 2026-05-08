@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.13737](https://arxiv.org/abs/2505.13737)  
-**代码**: https://github.com/andrewnam/causal_head_gating  
-**领域**: LLM推理  
+**代码**: [https://github.com/andrewnam/causal_head_gating](https://github.com/andrewnam/causal_head_gating)  
+**领域**: 可解释性  
 **关键词**: mechanistic interpretability, attention head, causal taxonomy, circuit discovery, Llama
 
 ## 一句话总结
@@ -133,8 +133,8 @@ NLL + L1 正则化。先用 $\lambda=0$ 拟合初始化 $G$，再分别用 $\lam
 
 - [\[NeurIPS 2025\] Cognitive Mirrors: Exploring the Diverse Functional Roles of Attention Heads in LLM Reasoning](cognitive_mirrors_exploring_the_diverse_functional_roles_of_attention_heads_in_l.md)
 - [\[NeurIPS 2025\] Learning to Focus: Causal Attention Distillation via Gradient-Guided Token Pruning](learning_to_focus_causal_attention_distillation_via_gradient-guided_token_prunin.md)
+- [\[NeurIPS 2025\] Discovering Transformer Circuits via a Hybrid Attribution and Pruning Framework](discovering_transformer_circuits_via_a_hybrid_attribution_and_pruning_framework.md)
 - [\[NeurIPS 2025\] Why Is Attention Sparse in Particle Transformer?](why_is_attention_sparse_in_particle_transformer.md)
 - [\[NeurIPS 2025\] Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms](tropical_attention_neural_algorithmic_reasoning_for_combinatorial_algorithms.md)
-- [\[NeurIPS 2025\] What Happens During the Loss Plateau? Understanding Abrupt Learning in Transformers](what_happens_during_the_loss_plateau_understanding_abrupt_learning_in_transforme.md)
 
 <!-- RELATED:END -->

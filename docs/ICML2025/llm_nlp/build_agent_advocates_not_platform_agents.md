@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.04345](https://arxiv.org/abs/2505.04345)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: LLM/NLP  
 **关键词**: LLM Agent, 平台经济, 用户自主权, 数字权利, Agent Advocates
 
 ## 一句话总结
@@ -141,7 +141,7 @@ Position paper，指出LMA（语言模型代理）若被平台公司控制将成
 - [\[ACL 2025\] AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents](../../ACL2025/llm_nlp/axis_efficient_human-agent-computer_interaction_with_api-first_llm-based_agents.md)
 - [\[ACL 2025\] Culture is Not Trivia: Sociocultural Theory for Cultural NLP](../../ACL2025/llm_nlp/culture_is_not_trivia_sociocultural_theory_for_cultural_nlp.md)
 - [\[ACL 2025\] MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents](../../ACL2025/llm_nlp/membench_towards_more_comprehensive_evaluation_on_the_memory_of_llm-based_agents.md)
-- [\[ACL 2025\] Not Quite Sherlock Holmes: Language Model Predictions Do Not Reliably Differentiate Impossible from Improbable Events](../../ACL2025/llm_nlp/not_quite_sherlock_holmes_language_model_predictions_do_not_reliably_differentia.md)
 - [\[ACL 2025\] AgentDropout: Dynamic Agent Elimination for Token-Efficient and High-Performance LLM-Based Multi-Agent Collaboration](../../ACL2025/llm_nlp/agentdropout_dynamic_agent_elimination_for_token-efficient_and_high-performance_.md)
+- [\[ACL 2025\] Not Quite Sherlock Holmes: Language Model Predictions Do Not Reliably Differentiate Impossible from Improbable Events](../../ACL2025/llm_nlp/not_quite_sherlock_holmes_language_model_predictions_do_not_reliably_differentia.md)
 
 <!-- RELATED:END -->

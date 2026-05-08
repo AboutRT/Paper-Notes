@@ -8,7 +8,7 @@ tags:
   - 语音
   - 音频描述
   - 视频无障碍
-  - 多模态大语言模型
+  - 音频语音
   - 用户定制化
   - 视觉问答
 ---
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.14662](https://arxiv.org/abs/2603.14662)  
-**代码**: https://vidscribe.org/  
-**领域**: 其他 / 无障碍AI  
+**代码**: [https://vidscribe.org/](https://vidscribe.org/)  
+**领域**: 音频语音  
 **关键词**: 音频描述, 视频无障碍, 多模态大语言模型, 用户定制化, 视觉问答
 
 ## 一句话总结
@@ -129,8 +129,8 @@ ViDscribe 使用 React 前端 + AWS Lambda 后端，核心引擎为 Gemini 3 Pro
 
 - [\[CVPR 2026\] Tri-Subspaces Disentanglement for Multimodal Sentiment Analysis](tri-subspaces_disentanglement_for_multimodal_sentiment_analysis.md)
 - [\[CVPR 2026\] UniM: A Unified Any-to-Any Interleaved Multimodal Benchmark](unim_a_unified_any-to-any_interleaved_multimodal_benchmark.md)
-- [\[CVPR 2026\] Team LEYA in 10th ABAW Competition: Multimodal Ambivalence/Hesitancy Recognition Approach](team_leya_in_10th_abaw_competition_multimodal_ambivalencehesitancy_recognition_a.md)
 - [\[CVPR 2026\] Semantic Audio-Visual Navigation in Continuous Environments](semantic_audio-visual_navigation_in_continuous_environments.md)
-- [\[CVPR 2026\] OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text](omnisonic_towards_universal_and_holistic_audio_generation_from_video_and_text.md)
+- [\[CVPR 2026\] Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models](echoes_over_time_unlocking_length_generalization_in_video-to-audio_generation_mo.md)
+- [\[CVPR 2026\] Unlocking Strong Supervision: A Data-Centric Study of General-Purpose Audio Pre-Training Methods](unlocking_strong_supervision_a_data-centric_study_of_general-purpose_audio_pre-t.md)
 
 <!-- RELATED:END -->

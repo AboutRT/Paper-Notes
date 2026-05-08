@@ -8,7 +8,7 @@ tags:
   - 足部接触估计
   - 鞋款风格不变性
   - 地面感知学习
-  - 对抗训练
+  - 其他
   - 密集接触预测
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2511.22184](https://arxiv.org/abs/2511.22184)  
 **代码**: [dqj5182/FECO_RELEASE](https://github.com/dqj5182/FECO_RELEASE)  
-**领域**: human_understanding  
+**领域**: 其他  
 **关键词**: 足部接触估计, 鞋款风格不变性, 地面感知学习, 对抗训练, 密集接触预测
 
 ## 一句话总结
@@ -148,10 +148,10 @@ FECO 在 MMVP 上 F1 超 BSTRO 11.3%，超 DECO 16.8%。在关节级足部接触
 
 ## 相关论文
 
-- [\[ICCV 2025\] Magic Insert: Style-Aware Drag-and-Drop](../../ICCV2025/others/magic_insert_style-aware_drag-and-drop.md)
-- [\[AAAI 2026\] Spike Imaging Velocimetry: Dense Motion Estimation of Fluids Using Spike Cameras](../../AAAI2026/others/spike_imaging_velocimetry_dense_motion_estimation_of_fluids_using_spike_cameras.md)
+- [\[NeurIPS 2025\] Learning Dense Hand Contact Estimation from Imbalanced Data](../../NeurIPS2025/others/learning_dense_hand_contact_estimation_from_imbalanced_data.md)
 - [\[CVPR 2026\] NaiLIA: Multimodal Nail Design Retrieval Based on Dense Intent Descriptions and Palette Queries](nailia_multimodal_nail_design_retrieval_based_on_dense_intent_descriptions_and_p.md)
-- [\[NeurIPS 2025\] Uncertainty Estimation by Flexible Evidential Deep Learning](../../NeurIPS2025/others/uncertainty_estimation_by_flexible_evidential_deep_learning.md)
+- [\[AAAI 2026\] Spike Imaging Velocimetry: Dense Motion Estimation of Fluids Using Spike Cameras](../../AAAI2026/others/spike_imaging_velocimetry_dense_motion_estimation_of_fluids_using_spike_cameras.md)
+- [\[CVPR 2026\] Mitigating Instance Entanglement in Instance-Dependent Partial Label Learning](mitigating_instance_entanglement_in_instance-dependent_partial_label_learning.md)
 - [\[CVPR 2026\] V-Nutri: Dish-Level Nutrition Estimation from Egocentric Cooking Videos](v_nutri_nutrition_estimation_cooking_videos.md)
 
 <!-- RELATED:END -->

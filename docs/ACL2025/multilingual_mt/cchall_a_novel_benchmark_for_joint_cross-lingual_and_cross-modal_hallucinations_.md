@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models
 description: >-
-  [ACL2025][幻觉检测] 提出首个**联合跨语言与跨模态**幻觉检测基准 CCHall，覆盖 9 种语言和 4 类多模态数据集，系统评估 6 款主流 MLLM 在联合场景下的幻觉表现，揭示当前模型在该联合场景中 F1 比单独跨模态低 10.9、比单独跨语言低 3.4，且提出多语提示和外部工具辅助两条缓解路径。
+  [ACL2025][多语言翻译] 提出首个**联合跨语言与跨模态**幻觉检测基准 CCHall，覆盖 9 种语言和 4 类多模态数据集，系统评估 6 款主流 MLLM 在联合场景下的幻觉表现，揭示当前模型在该联合场景中 F1 比单独跨模态低 10.9、比单独跨语言低 3.4，且提出多语提示和外部工具辅助两条缓解路径。
 tags:
   - ACL2025
-  - 幻觉检测
+  - 多语言翻译
   - 跨语言
   - 跨模态
   - benchmark
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2505.19108](https://arxiv.org/abs/2505.19108)  
 **代码**: [GitHub](https://github.com/BRZ911/CCHall)  
-**领域**: llm_nlp  
+**领域**: 多语言翻译  
 **关键词**: 幻觉检测, 跨语言, 跨模态, benchmark, 多模态大模型
 
 ## 一句话总结
@@ -137,6 +137,6 @@ tags:
 - [\[ACL 2025\] Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](crosslingual_pitfalls.md)
 - [\[ACL 2025\] Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention](bridging_the_language_gaps_in_large_language_models_with_inference-time_cross-li.md)
 - [\[ACL 2025\] Lost in Multilinguality: Dissecting Cross-lingual Factual Inconsistency in Transformer Language Models](lost_in_multilinguality_dissecting_cross-lingual_factual_inconsistency_in_transf.md)
-- [\[ACL 2025\] CC-Tuning: A Cross-Lingual Connection Mechanism for Improving Joint Multilingual Supervised Fine-Tuning](cc-tuning_a_cross-lingual_connection_mechanism_for_improving_joint_multilingual_.md)
+- [\[ACL 2025\] Semantic Aware Linear Transfer by Recycling Pre-trained Language Models for Cross-Lingual Transfer](semantic_aware_linear_transfer_by_recycling_pre-trained_language_models_for_cros.md)
 
 <!-- RELATED:END -->

@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.10852](https://arxiv.org/abs/2502.10852)  
-**代码**: https://github.com/asd765973346/xlm-swcm  
-**领域**: 多语言NLP / 低资源语言  
+**代码**: [https://github.com/asd765973346/xlm-swcm](https://github.com/asd765973346/xlm-swcm)  
+**领域**: 多语言翻译  
 **关键词**: 权重共享, 多语言编码器, 低资源语言, 中国少数民族语言, XLM-SWCM
 
 ## 一句话总结

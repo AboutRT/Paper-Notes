@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - HDR成像
   - 自动曝光
-  - 强化学习
+  - 其他
   - 运动模糊
   - 曝光融合
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.13503](https://arxiv.org/abs/2508.13503)  
 **代码**: 无（未公开）  
-**领域**: 图像恢复  
+**领域**: 其他  
 **关键词**: HDR成像, 自动曝光, 强化学习, 运动模糊, 曝光融合  
 
 ## 一句话总结
@@ -143,9 +143,9 @@ AdaptiveAE的pipeline分为两部分：**训练**和**推理**。
 ## 相关论文
 
 - [\[ICCV 2025\] AFUNet: Cross-Iterative Alignment-Fusion Synergy for HDR Reconstruction via Deep Unfolding Paradigm](afunet_crossiterative_alignmentfusion_synergy_for_hdr_recons.md)
-- [\[ICCV 2025\] Recovering Parametric Scenes from Very Few Time-of-Flight Pixels](recovering_parametric_scenes_from_very_few_time-of-flight_pixels.md)
 - [\[ACL 2025\] SOTOPIA-Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents](../../ACL2025/others/sotopia-ensuremathomega_dynamic_strategy_injection_learning_and_social_instructi.md)
 - [\[ACL 2025\] Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking](../../ACL2025/others/inner_thinking_transformer_leveraging_dynamic_depth_scaling_to_foster_adaptive_i.md)
-- [\[ECCV 2024\] Intrinsic Single-Image HDR Reconstruction](../../ECCV2024/others/intrinsic_single-image_hdr_reconstruction.md)
+- [\[ICCV 2025\] Recovering Parametric Scenes from Very Few Time-of-Flight Pixels](recovering_parametric_scenes_from_very_few_time-of-flight_pixels.md)
+- [\[ACL 2025\] FastMCTS: A Simple Sampling Strategy for Data Synthesis](../../ACL2025/others/fastmcts_a_simple_sampling_strategy_for_data_synthesis.md)
 
 <!-- RELATED:END -->

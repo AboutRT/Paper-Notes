@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.05295](https://arxiv.org/abs/2502.05295)  
 **代码**: [moprescu/GSTUNet](https://github.com/moprescu/GSTUNet)  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: 时空因果推断, G-computation, UNet, 时变混杂, 潜在结果
 
 ## 一句话总结

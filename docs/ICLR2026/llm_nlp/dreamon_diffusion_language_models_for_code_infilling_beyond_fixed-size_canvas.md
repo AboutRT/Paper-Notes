@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.01326](https://arxiv.org/abs/2602.01326)  
-**代码**: https://github.com/DreamLM/DreamOn  
-**领域**: 文本生成  
+**代码**: [https://github.com/DreamLM/DreamOn](https://github.com/DreamLM/DreamOn)  
+**领域**: LLM/NLP  
 **关键词**: diffusion language model, code infilling, variable-length generation, discrete diffusion, DLM
 
 ## 一句话总结
@@ -133,7 +133,7 @@ DreamOn 使 DLM 在 multi-line infilling 上甚至**超越** SOTA 自回归模�
 - [\[ICLR 2026\] Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerabilities](toward_safer_diffusion_language_models_discovery_and_mitigation_of_priming_vulne.md)
 - [\[ICLR 2026\] d²Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching](d2cache_accelerating_diffusion-based_llms_via_dual_adaptive_caching.md)
 - [\[ICLR 2026\] Stopping Computation for Converged Tokens in Masked Diffusion-LM Decoding](stopping_computation_for_converged_tokens_in_masked_diffusion-lm_decoding.md)
-- [\[ACL 2025\] Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models](../../ACL2025/llm_nlp/segment_level_diffusion.md)
 - [\[NeurIPS 2025\] Characterizing the Expressivity of Fixed-Precision Transformer Language Models](../../NeurIPS2025/llm_nlp/characterizing_the_expressivity_of_fixed-precision_transformer_language_models.md)
+- [\[ACL 2025\] Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models](../../ACL2025/llm_nlp/segment_level_diffusion.md)
 
 <!-- RELATED:END -->

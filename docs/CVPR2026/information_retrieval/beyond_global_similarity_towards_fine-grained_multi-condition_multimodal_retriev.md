@@ -8,7 +8,7 @@ tags:
   - multi-condition retrieval
   - fine-grained matching
   - dual-evidence
-  - MLLM reranking
+  - 信息检索
   - 跨模态
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.01082](https://arxiv.org/abs/2603.01082)  
 **代码**: [github.com/EIT-NLP/MCMR](https://github.com/EIT-NLP/MCMR)  
-**领域**: 多模态检索  
+**领域**: 信息检索  
 **关键词**: multi-condition retrieval, fine-grained matching, dual-evidence, MLLM reranking, cross-modal reasoning
 
 ## 一句话总结
@@ -159,7 +159,7 @@ tags:
 - [\[CVPR 2026\] MuCo: Multi-turn Contrastive Learning for Multimodal Embedding Model](muco_multi-turn_contrastive_learning_for_multimodal_embedding_model.md)
 - [\[CVPR 2026\] M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG](m4-rag_a_massive-scale_multilingual_multi-cultural_multimodal_rag.md)
 - [\[ACL 2025\] Atomic LLM: A Fine-Grained Information Retrieval Evaluation Benchmark for Language Models](../../ACL2025/information_retrieval/atomic_llm_a_fine-grained_information_retrieval_evaluation_benchmark_for_languag.md)
-- [\[AAAI 2026\] Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score](../../AAAI2026/information_retrieval/beyond_perplexity_let_the_reader_select_retrieval_summaries_via_spectrum_project.md)
-- [\[ACL 2026\] Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation](../../ACL2026/information_retrieval/beyond_black-box_interventions_latent_probing_for_faithful_retrieval-augmented_g.md)
+- [\[ACL 2026\] Beyond Explicit Refusals: Soft-Failure Attacks on Retrieval-Augmented Generation](../../ACL2026/information_retrieval/beyond_explicit_refusals_soft-failure_attacks_on_retrieval-augmented_generation.md)
+- [\[AAAI 2026\] Magnitude Matters: A Superior Class of Similarity Metrics for Holistic Semantic Understanding](../../AAAI2026/information_retrieval/magnitude_matters_a_superior_class_of_similarity_metrics_for_holistic_semantic_u.md)
 
 <!-- RELATED:END -->

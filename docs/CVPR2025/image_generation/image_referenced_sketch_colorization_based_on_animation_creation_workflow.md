@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.19937](https://arxiv.org/abs/2502.19937)  
-**代码**: https://github.com/tellurion-kanata/colorizeDiffusion  
+**代码**: [https://github.com/tellurion-kanata/colorizeDiffusion](https://github.com/tellurion-kanata/colorizeDiffusion)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 草图上色, 扩散模型, 分割交叉注意力, LoRA, 动画制作流程
 

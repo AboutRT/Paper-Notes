@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2510.11017](https://arxiv.org/abs/2510.11017)  
 **代码**: 无  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: Video Human Pose Estimation, Mamba, State Space Model, Spatiotemporal Modeling, High-Resolution
 
 ## 一句话总结
@@ -173,10 +173,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Learning Phase Distortion with Selective State Space Models for Video Turbulence Mitigation](../../CVPR2025/human_understanding/learning_phase_distortion_with_selective_state_space_models_for_video_turbulence.md)
-- [\[ICCV 2025\] SAMO: A Lightweight Sharpness-Aware Approach for Multi-Task Optimization with Joint Global-Local Perturbation](samo_a_lightweight_sharpness-aware_approach_for_multi-task_optimization_with_joi.md)
-- [\[ICCV 2025\] HccePose(BF): Predicting Front & Back Surfaces to Construct Ultra-Dense 2D-3D Correspondences for Pose Estimation](hcceposebf_predicting_front_back_surfaces_to_construct_ultra-dense_2d-3d_corresp.md)
-- [\[CVPR 2025\] L2GTX: From Local to Global Time Series Explanations](../../CVPR2025/human_understanding/l2gtx_from_local_to_global_time_series_explanations.md)
 - [\[CVPR 2026\] E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation](../../CVPR2026/human_understanding/e-3dpsm_a_state_machine_for_event-based_egocentric_3d_human_pose_estimation.md)
+- [\[CVPR 2025\] GCE-Pose: Global Context Enhancement for Category-Level Object Pose Estimation](../../CVPR2025/human_understanding/gce-pose_global_context_enhancement_for_category-level_object_pose_estimation.md)
+- [\[ECCV 2024\] SemanticHuman-HD: High-Resolution Semantic Disentangled 3D Human Generation](../../ECCV2024/human_understanding/semantichuman-hd_high-resolution_semantic_disentangled_3d_human_generation.md)
+- [\[ICCV 2025\] HccePose(BF): Predicting Front & Back Surfaces to Construct Ultra-Dense 2D-3D Correspondences for Pose Estimation](hcceposebf_predicting_front_back_surfaces_to_construct_ultra-dense_2d-3d_corresp.md)
+- [\[ECCV 2024\] WorldPose: A World Cup Dataset for Global 3D Human Pose Estimation](../../ECCV2024/human_understanding/worldpose_a_world_cup_dataset_for_global_3d_human_pose_estimation.md)
 
 <!-- RELATED:END -->

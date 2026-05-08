@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.16216](https://arxiv.org/abs/2411.16216)  
-**代码**: https://github.com/SMGDiff/SMGDiff  
+**代码**: [https://github.com/SMGDiff/SMGDiff](https://github.com/SMGDiff/SMGDiff)  
 **领域**: 图像生成  
 **关键词**: motion generation, diffusion model, soccer animation, human-object interaction, character control
 

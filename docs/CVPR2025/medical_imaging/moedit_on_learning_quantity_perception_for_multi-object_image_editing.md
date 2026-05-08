@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.10112](https://arxiv.org/abs/2503.10112)  
 **代码**: [Tear-kitty/MoEdit](https://github.com/Tear-kitty/MoEdit)  
-**领域**: image_generation（注：原分类为 medical_imaging，实际为图像编辑方向）  
+**领域**: 医学图像  
 **关键词**: multi-object editing, quantity perception, feature compensation, Stable Diffusion, SDXL
 
 ## 一句话总结

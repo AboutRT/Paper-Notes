@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.03737](https://arxiv.org/abs/2506.03737)  
-**代码**: https://github.com/Longin-Yu/ComRoPE  
-**领域**: 优化  
+**代码**: [https://github.com/Longin-Yu/ComRoPE](https://github.com/Longin-Yu/ComRoPE)  
+**领域**: LLM/NLP  
 **关键词**: 位置编码, 旋转位置嵌入, Transformer, 可训练矩阵, 可扩展性
 
 ## 一句话总结
@@ -126,9 +126,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Robust Message Embedding via Attention Flow-Based Steganography](robust_message_embedding_via_attention_flow-based_steganography.md)
-- [\[CVPR 2025\] Breaking the Low-Rank Dilemma of Linear Attention](breaking_the_low-rank_dilemma_of_linear_attention.md)
-- [\[CVPR 2025\] Spiking Transformer with Spatial-Temporal Attention](spiking_transformer_with_spatial-temporal_attention.md)
+- [\[CVPR 2025\] Spiking Transformer: Introducing Accurate Addition-Only Spiking Self-Attention for Transformer](spiking_transformer_introducing_accurate_addition-only_spiking_self-attention_fo.md)
 - [\[CVPR 2025\] Rethinking Spiking Self-Attention Mechanism: Implementing a-XNOR Similarity Calculation in Spiking Transformers](rethinking_spiking_self-attention_mechanism_implementing_a-xnor_similarity_calcu.md)
-- [\[CVPR 2025\] Let Samples Speak: Mitigating Spurious Correlation by Exploiting the Clusterness](let_samples_speak_mitigating_spurious_correlation_by_exploiting_the_clusterness_.md)
+- [\[CVPR 2025\] Spiking Transformer with Spatial-Temporal Attention](spiking_transformer_with_spatial-temporal_attention.md)
+- [\[CVPR 2025\] Learning Textual Prompts for Open-World Semi-Supervised Learning](learning_textual_prompts_for_open-world_semi-supervised_learning.md)
 
 <!-- RELATED:END -->

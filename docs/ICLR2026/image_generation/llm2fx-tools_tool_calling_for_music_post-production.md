@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2512.01559](https://arxiv.org/abs/2512.01559)  
 **代码**: [Demo](https://seungheondoh.github.io/llm2fx-tools-demo/)  
-**领域**: 音频处理 / LLM 工具调用  
+**领域**: 图像生成  
 **关键词**: 音效链估计, 工具调用, 思维链推理, 音乐后期制作, 多模态LLM
 
 ## 一句话总结

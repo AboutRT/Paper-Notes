@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.11748](https://arxiv.org/abs/2502.11748)  
-**代码**: https://github.com/ilias-vrg/ilias (有)  
+**代码**: [https://github.com/ilias-vrg/ilias](https://github.com/ilias-vrg/ilias)  
 **领域**: 图像检索 / 基准数据集  
 **关键词**: 实例级检索, 大规模评测, 基础模型, 视觉语言模型, 数据集基准
 

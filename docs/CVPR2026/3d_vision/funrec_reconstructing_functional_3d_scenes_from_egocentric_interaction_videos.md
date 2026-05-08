@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.05621](https://arxiv.org/abs/2604.05621)  
-**代码**: https://functionalscenes.github.io/  
+**代码**: [https://functionalscenes.github.io/](https://functionalscenes.github.io/)  
 **领域**: 3D视觉  
 **关键词**: 功能性3D重建, 自我中心视频, 关节物体重建, 数字孪生, 运动估计
 

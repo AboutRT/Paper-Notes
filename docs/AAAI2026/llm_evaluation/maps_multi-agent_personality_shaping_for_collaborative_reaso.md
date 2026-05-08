@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 大五人格理论
-  - 多Agent协作
+  - LLM评测
   - 苏格拉底批评
   - 多模态科学推理
   - 性格塑造
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2503.16905](https://arxiv.org/abs/2503.16905)  
 **代码**: [https://github.com/exoskeletonzj/MAPS](https://github.com/exoskeletonzj/MAPS)  
-**领域**: LLM Agent / 多Agent协作推理 / 多模态推理  
+**领域**: LLM评测  
 **关键词**: 大五人格理论, 多Agent协作, 苏格拉底批评, 多模态科学推理, 性格塑造  
 
 ## 一句话总结
@@ -129,9 +129,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] Which LLM Multi-Agent Protocol to Choose?](../../ICLR2026/llm_evaluation/which_llm_multi-agent_protocol_to_choose.md)
+- [\[CVPR 2025\] NADER: Neural Architecture Design via Multi-Agent Collaboration](../../CVPR2025/llm_evaluation/nader_neural_architecture_design_via_multi-agent_collaboration.md)
 - [\[NeurIPS 2025\] Belief-Calibrated Multi-Agent Consensus Seeking for Complex NLP Tasks](../../NeurIPS2025/llm_evaluation/belief-calibrated_multi-agent_consensus_seeking_for_complex_nlp_tasks.md)
-- [\[ACL 2025\] EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework](../../ACL2025/llm_evaluation/educationq_evaluating_llms_teaching_capabilities_through_multi-agent_dialogue_fr.md)
-- [\[CVPR 2025\] TraF-Align: Trajectory-aware Feature Alignment for Asynchronous Multi-agent Perception](../../CVPR2025/llm_evaluation/traf-align_trajectory-aware_feature_alignment_for_asynchronous_multi-agent_perce.md)
 - [\[AAAI 2026\] Where Norms and References Collide: Evaluating LLMs on Normative Reasoning](where_norms_and_references_collide_evaluating_llms_on_normative_reasoning.md)
+- [\[CVPR 2025\] TraF-Align: Trajectory-aware Feature Alignment for Asynchronous Multi-agent Perception](../../CVPR2025/llm_evaluation/traf-align_trajectory-aware_feature_alignment_for_asynchronous_multi-agent_perce.md)
 
 <!-- RELATED:END -->

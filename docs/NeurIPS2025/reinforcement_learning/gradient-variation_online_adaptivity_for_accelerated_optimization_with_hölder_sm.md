@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.02276](https://arxiv.org/abs/2511.02276)  
 **作者**: Yuheng Zhao, Yu-Hu Yan, Kfir Yehuda Levy, Peng Zhao (Nanjing University / Technion)
 **代码**: 待确认  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: online learning, Hölder smoothness, gradient variation, acceleration, universality, online-to-batch conversion
 
 ## 一句话总结

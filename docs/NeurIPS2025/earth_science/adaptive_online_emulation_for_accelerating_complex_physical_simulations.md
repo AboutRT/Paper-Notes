@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 在线学习
-  - 神经网络代理模型
+  - 地球科学
   - 时间步进模拟
   - ELM
   - 大气建模

@@ -53,7 +53,7 @@ tags:
 ### 关键设计
 
 1. **统一损失函数**：将腐蚀鲁棒性 $\mathcal{R}_c$ 和腐蚀稳定性 $\mathcal{S}_c$ 组合：
-   $$\mathcal{U}_c = -(\mathcal{R}_c + \lambda \mathcal{S}_c) = \mathbb{E}\left[\sum_t \delta(f(\varepsilon_t(\bm{x}_t)), \bm{y}_t) + \lambda \sum_{t} \delta(f(\varepsilon_t(\bm{x}_t)), f(\varepsilon_{t+1}(\bm{x}_{t+1})))\right]$$
+    $\mathcal{U}_c = -(\mathcal{R}_c + \lambda \mathcal{S}_c) = \mathbb{E}\left[\sum_t \delta(f(\varepsilon_t(\bm{x}_t)), \bm{y}_t) + \lambda \sum_{t} \delta(f(\varepsilon_t(\bm{x}_t)), f(\varepsilon_{t+1}(\bm{x}_{t+1})))\right]$
    其中 $\lambda$ 控制稳定性与精度的权衡。
 
 2. **Oracle Bound ($\lambda < 1/2$)**：当距离 $\delta$ 可表示为范数时，只要 $\lambda < 1/2$，ground truth 始终是损失在预测空间的全局最小值——完美模型不会被激励偏离正确预测以换取更高稳定性。
@@ -61,12 +61,12 @@ tags:
 3. **Collapse Bound ($\lambda > \tau - 1$)**：当 $\lambda$ 超过序列长度减一时，损失的全局最小值变为"重复初始预测"（预测坍缩）。由于 $\tau - 1 > 0.5$，oracle bound 和 collapse bound 互斥。
 
 4. **EMA 稳定器**：基本单元为指数移动平均：
-   $$\tilde{z}_t = \beta z_t + (1-\beta) \tilde{z}_{t-1}$$
+    $\tilde{z}_t = \beta z_t + (1-\beta) \tilde{z}_{t-1}$
    $\beta \in [0,1]$ 控制稳定程度（$\beta=1$ 表示无稳定化）。
 
 5. **稳定化控制器**：由共享骨干网络 $g$ 和每层头部 $h_i$ 组成，根据当前/前一帧输入和特征预测逐像素的衰减率 $\bm{\beta}$：
-   $$\tilde{\bm{z}}_{i,t} = \bm{\beta}_{i,t} \odot \bm{z}_{i,t} + (1-\bm{\beta}_{i,t}) \odot \tilde{\bm{z}}_{i,t-1}$$
-   $$\bm{\beta}_{i,t} = \sigma(h_i(g(\bm{x}_t, \bm{x}_{t-1}), \bm{z}_{i,t}, \tilde{\bm{z}}_{i,t-1}, \bm{z}_{i,t-1}))$$
+    $\tilde{\bm{z}}_{i,t} = \bm{\beta}_{i,t} \odot \bm{z}_{i,t} + (1-\bm{\beta}_{i,t}) \odot \tilde{\bm{z}}_{i,t-1}$
+    $\bm{\beta}_{i,t} = \sigma(h_i(g(\bm{x}_t, \bm{x}_{t-1}), \bm{z}_{i,t}, \tilde{\bm{z}}_{i,t-1}, \bm{z}_{i,t-1}))$
 
 6. **空间融合扩展**：控制器预测空间衰减核 $\bm{\eta}$（而非单一 $\beta$），在空间邻域内做加权融合，允许运动补偿，可追踪的最大运动量由核空间范围决定。
 
@@ -163,8 +163,8 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles](styl3r_instant_3d_stylized_reconstruction_for_arbitrary_scenes_and_styles.md)
 - [\[CVPR 2025\] Video Depth Without Video Models](../../CVPR2025/3d_vision/video_depth_without_video_models.md)
+- [\[NeurIPS 2025\] Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles](styl3r_instant_3d_stylized_reconstruction_for_arbitrary_scenes_and_styles.md)
 - [\[NeurIPS 2025\] High Resolution UDF Meshing via Iterative Networks](high_resolution_udf_meshing_via_iterative_networks.md)
 - [\[NeurIPS 2025\] Copresheaf Topological Neural Networks: A Generalized Deep Learning Framework](copresheaf_topological_neural_networks_a_generalized_deep_learning_framework.md)
 - [\[NeurIPS 2025\] More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models](more_than_generation_unifying_generation_and_depth_estimation_via_text-to-image_.md)

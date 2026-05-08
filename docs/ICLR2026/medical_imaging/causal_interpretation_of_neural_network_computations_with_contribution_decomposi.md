@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.06557](https://arxiv.org/abs/2603.06557)  
 **代码**: [https://github.com/baccuslab/CODEC_ICLR_2026](https://github.com/baccuslab/CODEC_ICLR_2026)  
-**领域**: 优化/理论  
+**领域**: 医学图像  
 **关键词**: neural network interpretability, contribution decomposition, sparse autoencoder, causal analysis, retinal modeling
 
 ## 一句话总结

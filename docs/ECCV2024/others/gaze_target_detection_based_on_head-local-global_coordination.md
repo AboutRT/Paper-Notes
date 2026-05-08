@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Gaze Target Detection Based on Head-Local-Global Coordination
 description: >-
-  [ECCV 2024][注视目标检测] 提出了一种基于头部-局部-全局三视图协调的注视目标检测方法，通过引入基于FOV（视野范围）的局部视图，并设计全局-局部位置与表示一致性机制，显著提升了注视目标预测的准确性。
+  [ECCV 2024][其他] 提出了一种基于头部-局部-全局三视图协调的注视目标检测方法，通过引入基于FOV（视野范围）的局部视图，并设计全局-局部位置与表示一致性机制，显著提升了注视目标预测的准确性。
 tags:
   - ECCV 2024
-  - 注视目标检测
+  - 其他
   - 头部-局部-全局协调
   - 视野范围
   - 多视图融合
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: 无  
 **代码**: 无  
-**领域**: 人体理解 / 目光检测  
+**领域**: 其他  
 **关键词**: 注视目标检测, 头部-局部-全局协调, 视野范围, 多视图融合, 注视预测
 
 ## 一句话总结
@@ -142,10 +142,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] GazeOnce360: Fisheye-Based 360° Multi-Person Gaze Estimation with Global-Local Feature Fusion](../../CVPR2026/others/gazeonce360_fisheye-based_360_multi-person_gaze_estimation_with_global-local_fea.md)
+- [\[ICCV 2025\] Multi-view Gaze Target Estimation](../../ICCV2025/others/multi-view_gaze_target_estimation.md)
 - [\[ECCV 2024\] De-confounded Gaze Estimation](de-confounded_gaze_estimation.md)
+- [\[CVPR 2026\] GazeOnce360: Fisheye-Based 360° Multi-Person Gaze Estimation with Global-Local Feature Fusion](../../CVPR2026/others/gazeonce360_fisheye-based_360_multi-person_gaze_estimation_with_global-local_fea.md)
 - [\[ECCV 2024\] Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection](learning_anomalies_with_normality_prior_for_unsupervised_video_anomaly_detection.md)
 - [\[ECCV 2024\] Momentum Auxiliary Network for Supervised Local Learning](momentum_auxiliary_network_for_supervised_local_learning.md)
-- [\[ECCV 2024\] GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths](gazexplain_learning_to_predict_natural_language_explanations_of_visual_scanpaths.md)
 
 <!-- RELATED:END -->

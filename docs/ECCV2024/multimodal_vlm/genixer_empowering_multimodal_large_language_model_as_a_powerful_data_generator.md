@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV2024
   - 多模态
-  - 多模态大语言模型
+  - 多模态VLM
   - 视觉指令微调
   - 数据生成
   - 数据过滤
@@ -19,7 +19,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2312.06731](https://arxiv.org/abs/2312.06731)  
 **代码**: [zhaohengyuan1/Genixer](https://github.com/zhaohengyuan1/Genixer)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 多模态大语言模型, 视觉指令微调, 数据生成, 数据过滤, VQA, 视觉定位
 
 ## 一句话总结
@@ -154,10 +154,10 @@ $$\max \sum_{i=1}^{L} \log p_\theta(x_i | X_G, X_S, X_I, X_{o,<i})$$
 
 ## 相关论文
 
+- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_lan.md)
+- [\[ECCV 2024\] MMBench: Is Your Multi-modal Model an All-Around Player?](mmbench_is_your_multi-modal_model_an_all-around_player.md)
+- [\[ECCV 2024\] AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting](adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md)
 - [\[ECCV 2024\] FreeMotion: MoCap-Free Human Motion Synthesis with Multimodal Large Language Models](freemotion_mocap-free_human_motion_synthesis_with_multimodal_large_language_mode.md)
 - [\[ECCV 2024\] Merlin: Empowering Multimodal LLMs with Foresight Minds](merlin_empowering_multimodal_llms_with_foresight_minds.md)
-- [\[ECCV 2024\] CAT: Enhancing Multimodal Large Language Model to Answer Questions in Dynamic Audio-Visual Scenarios](cat_audio_visual_qa.md)
-- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_lan.md)
-- [\[ECCV 2024\] Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models](groma_localized_visual_tokenization_for_grounding_multimodal.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2407.17929](https://arxiv.org/abs/2407.17929)  
-**代码**: https://visinf.github.io/glass/ (有)  
+**代码**: [https://visinf.github.io/glass/](https://visinf.github.io/glass/)  
 **领域**: 扩散模型 / 多模态VLM  
 **关键词**: 物体中心学习, Slot Attention, 扩散模型, 语义引导, 实例分割
 

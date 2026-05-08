@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.15993](https://arxiv.org/abs/2505.15993)  
 **代码**: 待公开  
-**领域**: LLM推理与解释性  
+**领域**: 模型压缩  
 **关键词**: LLM reasoning, Sudoku, explanation generation, human-AI collaboration, puzzle solving  
 
 ## 一句话总结
@@ -116,8 +116,8 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression](gist_token_context_compression.md)
-- [\[AAAI 2026\] CoEvo: Continual Evolution of Symbolic Solutions Using Large Language Models](../../AAAI2026/model_compression/coevo_continual_evolution_of_symbolic_solutions_using_large_language_models.md)
 - [\[NeurIPS 2025\] A Granular Study of Safety Pretraining under Model Abliteration](../../NeurIPS2025/model_compression/a_granular_study_of_safety_pretraining_under_model_abliteration.md)
+- [\[NeurIPS 2025\] Navigating Simply, Aligning Deeply: Winning Solutions for Mouse vs. AI 2025](../../NeurIPS2025/model_compression/navigating_simply_aligning_deeply_winning_solutions_for_mouse_vs_ai_2025.md)
 - [\[ACL 2025\] Wanda++: Pruning Large Language Models via Regional Gradients](wanda_pruning_large_language_models_via_regional_gradients.md)
 - [\[ACL 2025\] Unveiling Language-Specific Features in Large Language Models via Sparse Autoencoders](language_specific_features.md)
 

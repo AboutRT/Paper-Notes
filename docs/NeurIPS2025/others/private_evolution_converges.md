@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Private Evolution Converges
 description: >-
-  [NeurIPS 2025][差分隐私] 为Private Evolution（PE）合成数据生成算法提供了首个不依赖不现实假设的收敛性理论保证，证明在正确的超参数设置下PE输出的 $(ε,δ)$-DP 合成数据集的1-Wasserstein距离为 $\tilde{O}(d(nε)^{-1/d})$。
+  [NeurIPS 2025][其他] 为Private Evolution（PE）合成数据生成算法提供了首个不依赖不现实假设的收敛性理论保证，证明在正确的超参数设置下PE输出的 $(ε,δ)$-DP 合成数据集的1-Wasserstein距离为 $\tilde{O}(d(nε)^{-1/d})$。
 tags:
   - NeurIPS 2025
-  - 差分隐私
+  - 其他
   - 合成数据
   - Private Evolution
   - Wasserstein距离
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.08312](https://arxiv.org/abs/2506.08312)  
 **代码**: 暂无  
-**领域**: 差分隐私 / 合成数据生成  
+**领域**: 其他  
 **关键词**: 差分隐私, 合成数据, Private Evolution, Wasserstein距离, 收敛性分析
 
 ## 一句话总结
@@ -148,10 +148,10 @@ $$\mathbb{E}[W_1(\mu_S, \mu_{S_T})] \leq \tilde{O}\left(dD\left(\frac{\sqrt{\log
 
 ## 相关论文
 
-- [\[AAAI 2026\] Improved Differentially Private Algorithms for Rank Aggregation](../../AAAI2026/others/improved_differentially_private_algorithms_for_rank_aggregation.md)
-- [\[AAAI 2026\] Private Frequency Estimation via Residue Number Systems](../../AAAI2026/others/private_frequency_estimation_via_residue_number_systems.md)
-- [\[ICLR 2026\] Missing Mass for Differentially Private Domain Discovery](../../ICLR2026/others/missing_mass_for_differentially_private_domain_discovery.md)
 - [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](../../ACL2025/others/personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
+- [\[AAAI 2026\] Private Frequency Estimation via Residue Number Systems](../../AAAI2026/others/private_frequency_estimation_via_residue_number_systems.md)
+- [\[AAAI 2026\] Improved Differentially Private Algorithms for Rank Aggregation](../../AAAI2026/others/improved_differentially_private_algorithms_for_rank_aggregation.md)
+- [\[ICLR 2026\] Missing Mass for Differentially Private Domain Discovery](../../ICLR2026/others/missing_mass_for_differentially_private_domain_discovery.md)
 - [\[ICLR 2026\] Learning Structure-Semantic Evolution Trajectories for Graph Domain Adaptation](../../ICLR2026/others/learning_structure-semantic_evolution_trajectories_for_graph_domain_adaptation.md)
 
 <!-- RELATED:END -->

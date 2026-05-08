@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2410.04153](https://arxiv.org/abs/2410.04153)  
 **代码**: [GitHub](https://github.com/chensyCN/NeuSymEA-NeurIPS25)  
-**领域**: 知识图谱、实体对齐  
+**领域**: 优化  
 **关键词**: 实体对齐, 神经符号推理, 变分推断, 知识图谱, 马尔可夫随机场
 
 ## 一句话总结
@@ -122,8 +122,8 @@ NeuSymEA-D 在 ZH-EN 上 Hit@1 比最强基线 LightEA 提升 **7.6%**。
 ## 相关论文
 
 - [\[NeurIPS 2025\] VIKING: Deep Variational Inference with Stochastic Projections](viking_deep_variational_inference_with_stochastic_projections.md)
-- [\[NeurIPS 2025\] Least Squares Variational Inference](least_squares_variational_inference.md)
 - [\[NeurIPS 2025\] Brain-like Variational Inference](brain-like_variational_inference.md)
+- [\[NeurIPS 2025\] Least Squares Variational Inference](least_squares_variational_inference.md)
 - [\[NeurIPS 2025\] VERA: Variational Inference Framework for Jailbreaking Large Language Models](vera_variational_inference_framework_for_jailbreaking_large_language_models.md)
 - [\[NeurIPS 2025\] Natural Gradient Descent for Improving Variational Inference Based Classification of Radio Galaxies](natural_gradient_descent_for_improving_variational_inference_based_classificatio.md)
 

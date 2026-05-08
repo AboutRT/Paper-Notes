@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2601.16359](https://arxiv.org/abs/2601.16359)  
 **作者**: Ayan Banerjee (ASU), Komandoor Srivathsan, Sandeep K.S. Gupta (ASU)  
 **代码**: 未公开  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 单域泛化, 稀有类检测, 专家知识集成, 医学影像部署, 糖尿病视网膜病变, 癫痫灶定位, 冠状动脉疾病  
 
 ## 一句话总结
@@ -134,7 +134,7 @@ K1在盲测上PPV和NPV分别比纯ViT高29%和27%，5折交叉验证ROC AUC达9
 
 ## 相关论文
 
-- [\[CVPR 2026\] Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization](../../CVPR2026/medical_imaging/human_knowledge_integrated_multi-modal_learning_for_single_source_domain_general.md)
+- [\[CVPR 2026\] Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization](../../CVPR2026/medical_imaging/human_knowledge_integrated_multimodal_learning_for.md)
 - [\[AAAI 2026\] PulseMind: A Multi-Modal Medical Model for Real-World Clinical Diagnosis](pulsemind_a_multi-modal_medical_model_for_real-world_clinical_diagnosis.md)
 - [\[ACL 2026\] OmniCompliance-100K: A Multi-Domain Rule-Grounded Real-World Safety Compliance Dataset](../../ACL2026/medical_imaging/omnicompliance-100k_a_multi-domain_rule-grounded_real-world_safety_compliance_da.md)
 - [\[ICML 2025\] LangDAug: Langevin Data Augmentation for Multi-Source Domain Generalization in Medical Imaging](../../ICML2025/medical_imaging/langdaug_langevin_data_augmentation_for_multi-source_domain_generalization_in_me.md)

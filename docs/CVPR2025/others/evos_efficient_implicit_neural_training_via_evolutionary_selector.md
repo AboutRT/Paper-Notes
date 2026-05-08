@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.10153](https://arxiv.org/abs/2412.10153)  
-**代码**: https://weixiang-zhang.github.io/proj-evos/  
+**代码**: [https://weixiang-zhang.github.io/proj-evos/](https://weixiang-zhang.github.io/proj-evos/)  
 **领域**: 其他  
 **关键词**: 隐式神经表示、进化采样、频率引导、训练加速、稀疏训练
 
@@ -116,10 +116,10 @@ EVOS不仅更快（1.85×），质量还更好（PSNR +0.71dB）。
 
 ## 相关论文
 
+- [\[CVPR 2025\] Subnet-Aware Dynamic Supernet Training for Neural Architecture Search](subnet-aware_dynamic_supernet_training_for_neural_architecture_search.md)
 - [\[CVPR 2025\] ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
 - [\[CVPR 2025\] VKDNW: Training-free Neural Architecture Search through Variance of Knowledge of Deep Network Weights](training-free_neural_architecture_search_through_variance_of_knowledge_of_deep_n.md)
+- [\[AAAI 2026\] ParaRevSNN: A Parallel Reversible Spiking Neural Network for Efficient Training and Inference](../../AAAI2026/others/pararevsnn_a_parallel_reversible_spiking_neural_network_for_efficient_training_a.md)
 - [\[NeurIPS 2025\] Evolutionary Prediction Games](../../NeurIPS2025/others/evolutionary_prediction_games.md)
-- [\[ECCV 2024\] Superpixel-Informed Implicit Neural Representation for Multi-Dimensional Data](../../ECCV2024/others/superpixel-informed_implicit_neural_representation_for_multi-dimensional_data.md)
-- [\[ICML 2025\] SUICA: Learning Super-high Dimensional Sparse Implicit Neural Representations for Spatial Transcriptomics](../../ICML2025/others/suica_learning_super-high_dimensional_sparse_implicit_neural_representations_for.md)
 
 <!-- RELATED:END -->

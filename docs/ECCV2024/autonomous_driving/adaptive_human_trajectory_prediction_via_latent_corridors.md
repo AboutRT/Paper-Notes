@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2312.06653](https://arxiv.org/abs/2312.06653)  
 **代码**: [https://neerja.me/atp_latent_corridors/](https://neerja.me/atp_latent_corridors/) (项目页)  
-**领域**: 视频理解 / 行人轨迹预测  
+**领域**: 自动驾驶  
 **关键词**: 行人轨迹预测, 自适应预测, 测试时训练, 图像prompt tuning, 低秩表示  
 
 ## 一句话总结
@@ -115,8 +115,8 @@ tags:
 
 - [\[ECCV 2024\] Progressive Pretext Task Learning for Human Trajectory Prediction](progressive_pretext_task_learning_for_human_trajectory_prediction.md)
 - [\[CVPR 2025\] Certified Human Trajectory Prediction](../../CVPR2025/autonomous_driving/certified_human_trajectory_prediction.md)
+- [\[ECCV 2024\] Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction](adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md)
 - [\[ECCV 2024\] UniTraj: A Unified Framework for Scalable Vehicle Trajectory Prediction](unitraj_a_unified_framework_for_scalable_vehicle_trajectory_prediction.md)
 - [\[ECCV 2024\] VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions](visiontrap_visionaugmented_trajectory_prediction_guided.md)
-- [\[ECCV 2024\] Optimizing Diffusion Models for Joint Trajectory Prediction and Controllable Generation](optimizing_diffusion_models_for_joint_trajectory_prediction_and_controllable_gen.md)
 
 <!-- RELATED:END -->

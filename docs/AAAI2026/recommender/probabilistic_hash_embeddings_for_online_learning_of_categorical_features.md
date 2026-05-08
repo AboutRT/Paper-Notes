@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Probabilistic Hash Embeddings for Online Learning of Categorical Features
 description: >-
-  [AAAI 2026][hash embedding] 提出概率哈希嵌入 (PHE)，将哈希嵌入表建模为随机变量并通过贝叶斯在线学习进行后验推断，解决了确定性哈希嵌入在流式数据场景下因参数共享导致的灾难性遗忘问题，在分类、序列建模和推荐系统中显著优于确定性基线，且仅需无碰撞嵌入表 2%~4% 的内存。
+  [AAAI 2026][推荐系统] 提出概率哈希嵌入 (PHE)，将哈希嵌入表建模为随机变量并通过贝叶斯在线学习进行后验推断，解决了确定性哈希嵌入在流式数据场景下因参数共享导致的灾难性遗忘问题，在分类、序列建模和推荐系统中显著优于确定性基线，且仅需无碰撞嵌入表 2%~4% 的内存。
 tags:
   - AAAI 2026
-  - hash embedding
+  - 推荐系统
   - Bayesian online learning
   - categorical features
   - continual learning
@@ -129,9 +129,9 @@ PHE 作为即插即用模块在不同任务上的应用效果：
 ## 相关论文
 
 - [\[AAAI 2026\] MultiTab: A Scalable Foundation for Multitask Learning on Tabular Data](multitab_a_scalable_foundation_for_multitask_learning_on_tabular_data.md)
-- [\[ICML 2025\] LCRON: Learning Cascade Ranking as One Network](../../ICML2025/recommender/learning_cascade_ranking_as_one_network.md)
-- [\[ICLR 2026\] C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems](../../ICLR2026/recommender/c2al_cohort-contrastive_auxiliary_learning_for_large-scale_recommendation_system.md)
+- [\[NeurIPS 2025\] FACE: A General Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens](../../NeurIPS2025/recommender/face_a_general_framework_for_mapping_collaborative_filtering_embeddings_into_llm.md)
 - [\[ACL 2026\] Learning to Retrieve User History and Generate User Profiles for Personalized Persuasiveness Prediction](../../ACL2026/recommender/learning_to_retrieve_user_history_and_generate_user_profiles_for_personalized_pe.md)
-- [\[ICML 2025\] Not All Explanations for Deep Learning Phenomena Are Equally Valuable](../../ICML2025/recommender/not_all_explanations_for_deep_learning_phenomena_are_equally_valuable.md)
+- [\[ICML 2025\] LCRON: Learning Cascade Ranking as One Network](../../ICML2025/recommender/learning_cascade_ranking_as_one_network.md)
+- [\[NeurIPS 2025\] Semantic Retrieval Augmented Contrastive Learning for Sequential Recommendation](../../NeurIPS2025/recommender/semantic_retrieval_augmented_contrastive_learning_for_sequential_recommendation.md)
 
 <!-- RELATED:END -->

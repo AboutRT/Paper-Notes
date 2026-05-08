@@ -2,10 +2,10 @@
 title: >-
   [论文解读] STELAR-Vision: Self-Topology-Aware Efficient Learning for Aligned Reasoning in Vision
 description: >-
-  [AAAI 2026][拓扑推理] 提出 STELAR-Vision，一个拓扑感知的视觉语言推理训练框架，通过 TopoAug 数据生成管线引入 Chain/Tree/Graph 多种推理拓扑结构，配合 SFT+RL 后训练，在分布内外数据集上分别提升 9.7% 和最高 28.4% 的准确率，并通过 Frugal Learning 减少 18.1% 的输出长度。
+  [AAAI 2026][强化学习] 提出 STELAR-Vision，一个拓扑感知的视觉语言推理训练框架，通过 TopoAug 数据生成管线引入 Chain/Tree/Graph 多种推理拓扑结构，配合 SFT+RL 后训练，在分布内外数据集上分别提升 9.7% 和最高 28.4% 的准确率，并通过 Frugal Learning 减少 18.1% 的输出长度。
 tags:
   - AAAI 2026
-  - 拓扑推理
+  - 强化学习
   - 视觉语言模型
   - 思维链/树/图
   - 强化学习
@@ -189,9 +189,9 @@ STELAR-Vision-Short† 减少 18.1% 输出长度，仍超基座模型 +2.5%。
 ## 相关论文
 
 - [\[AAAI 2026\] Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach](vision-language_reasoning_for_geolocalization_a_reinforcement_learning_approach.md)
-- [\[NeurIPS 2025\] Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](../../NeurIPS2025/reinforcement_learning/open_vision_reasoner_transferring_linguistic_cognitive_behavior_for_visual_reaso.md)
-- [\[AAAI 2026\] BAMAS: Structuring Budget-Aware Multi-Agent Systems](bamas_structuring_budget-aware_multi-agent_systems.md)
-- [\[AAAI 2026\] Where and What Matters: Sensitivity-Aware Task Vectors for Many-Shot Multimodal In-Context Learning](where_and_what_matters_sensitivity-aware_task_vectors_for_many-shot_multimodal_i.md)
+- [\[ICLR 2026\] From Narrow to Panoramic Vision: Attention-Guided Cold-Start Reshapes Multimodal Reasoning](../../ICLR2026/reinforcement_learning/from_narrow_to_panoramic_vision_attention-guided_cold-start_reshapes_multimodal_.md)
 - [\[AAAI 2026\] In-Token Rationality Optimization: Towards Accurate and Concise LLM Reasoning via Self-Feedback](in-token_rationality_optimization_towards_accurate_and_concise_llm_reasoning_via.md)
+- [\[NeurIPS 2025\] Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](../../NeurIPS2025/reinforcement_learning/open_vision_reasoner_transferring_linguistic_cognitive_behavior_for_visual_reaso.md)
+- [\[ICLR 2026\] REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning](../../ICLR2026/reinforcement_learning/rea-rl_reflection-aware_online_reinforcement_learning_for_efficient_reasoning.md)
 
 <!-- RELATED:END -->

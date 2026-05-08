@@ -53,7 +53,7 @@ $$\mathbf{e}_t = \mathrm{EmbedTime}(t) + W_{\text{text}}\mathbf{c}_{\text{text}}
 
    构建因果交错序列建模双人时序影响和角色切换。对 A/B 两人的运动 token $\mathbf{x}_c^A, \mathbf{x}_c^B \in \mathbb{R}^{L \times C}$，构建交错序列 $\mathbf{x}_{\mathrm{cii}}$ 和角色互换对称序列 $\mathbf{x}_{\mathrm{sym}}$：
 
-   $$\mathbf{x}_{\mathrm{cii}}(2\ell-1) = \mathbf{x}_c^A(\ell), \quad \mathbf{x}_{\mathrm{cii}}(2\ell) = \mathbf{x}_c^B(\ell)$$
+    $\mathbf{x}_{\mathrm{cii}}(2\ell-1) = \mathbf{x}_c^A(\ell), \quad \mathbf{x}_{\mathrm{cii}}(2\ell) = \mathbf{x}_c^B(\ell)$
 
    拼接后经 Transformer 处理，再反交错+角色视角融合得到全局特征，辅以 LPA（Localized Pattern Amplification）分支提取短程时间模式。
 
@@ -61,7 +61,7 @@ $$\mathbf{e}_t = \mathrm{EmbedTime}(t) + W_{\text{text}}\mathbf{c}_{\text{text}}
 
    附加 $N_M=16$ 个可学习 Plan Token $\mathbf{P} \in \mathbb{R}^{N_M \times 2C}$ 到 denoiser 序列。在 Transformer block $L_p$ 处投射到语义空间并与冻结运动教师编码器提取的目标运动嵌入 $\mathbf{z}_{\text{tgt}} = f_T(\mathbf{x}_0)$ 对齐：
 
-   $$\mathcal{L}_{\text{plan}} = \frac{1}{N_M}\sum_{k=1}^{N_M}\left[-\log\frac{\exp((\tilde{\mathbf{z}}^{(k)})^\top \tilde{\mathbf{z}}_{\text{tgt}} / \tau)}{\sum_n \exp((\tilde{\mathbf{z}}^{(k)})^\top \tilde{\mathbf{z}}_{\text{tgt}}^{(n)} / \tau)}\right]$$
+    $\mathcal{L}_{\text{plan}} = \frac{1}{N_M}\sum_{k=1}^{N_M}\left[-\log\frac{\exp((\tilde{\mathbf{z}}^{(k)})^\top \tilde{\mathbf{z}}_{\text{tgt}} / \tau)}{\sum_n \exp((\tilde{\mathbf{z}}^{(k)})^\top \tilde{\mathbf{z}}_{\text{tgt}}^{(n)} / \tau)}\right]$
 
    通过 InfoNCE 损失对齐，Plan Token 在自注意力中为运动 token 提供高层编辑语义引导。
 
@@ -69,7 +69,7 @@ $$\mathbf{e}_t = \mathrm{EmbedTime}(t) + W_{\text{text}}\mathbf{c}_{\text{text}}
 
    构建交互信号：均值 $\mathbf{z}_S = (\mathbf{x}^A + \mathbf{x}^B)/2$（同步分量）和差值 $\mathbf{z}_D = \mathbf{x}^A - \mathbf{x}^B$（对抗分量），对其进行 DCT 变换并按低/中/高三频段池化得到6个频带能量描述符：
 
-   $$\mathbf{E}(\mathbf{C};b) = \sqrt{\frac{1}{|b|}\sum_{k \in b} \mathbf{C}[k]^2 + \epsilon}$$
+    $\mathbf{E}(\mathbf{C};b) = \sqrt{\frac{1}{|b|}\sum_{k \in b} \mathbf{C}[k]^2 + \epsilon}$
 
    将频带能量投射为6个 Frequency Token 注入序列，在 block $L_f$ 处解码并以加权回归损失对齐目标运动的频带能量：$\mathcal{L}_{\text{freq}} = \frac{1}{N_f}\sum_i w_i \|\hat{\mathbf{g}}_i - \mathbf{g}_i(\mathbf{x}_0)\|_2^2$。训练时高频项降权0.25，频率 token 以概率 $p_f=0.04$ 随机丢弃防过拟合。
 

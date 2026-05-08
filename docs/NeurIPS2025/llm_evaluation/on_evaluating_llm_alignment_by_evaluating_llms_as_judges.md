@@ -2,10 +2,10 @@
 title: >-
   [论文解读] On Evaluating LLM Alignment by Evaluating LLMs as Judges
 description: >-
-  [NeurIPS 2025][LLM alignment] 本文系统研究了 LLM 的生成能力与评估能力之间的一致性（GE-consistency），发现两者在强偏好预言机下高度相关（Spearman ρ=0.96），据此提出 AlignEval 基准——通过评估 LLM 作为评判者的能力来衡量其对齐水平，无需 LLM-as-Judge 直接评估模型输出，与 AlpacaEval/Arena-Hard 相当甚至更优。
+  [NeurIPS 2025][LLM评测] 本文系统研究了 LLM 的生成能力与评估能力之间的一致性（GE-consistency），发现两者在强偏好预言机下高度相关（Spearman ρ=0.96），据此提出 AlignEval 基准——通过评估 LLM 作为评判者的能力来衡量其对齐水平，无需 LLM-as-Judge 直接评估模型输出，与 AlpacaEval/Arena-Hard 相当甚至更优。
 tags:
   - NeurIPS 2025
-  - LLM alignment
+  - LLM评测
   - LLM-as-Judge
   - evaluation benchmark
   - generation-evaluation consistency
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.20604](https://arxiv.org/abs/2511.20604)  
 **代码**: [yale-nlp/AlignEval](https://github.com/yale-nlp/AlignEval)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: LLM alignment, LLM-as-Judge, evaluation benchmark, generation-evaluation consistency, preference oracle
 
 ## 一句话总结
@@ -160,9 +160,9 @@ Arena-Hard 上 GE-consistency 显著高于 AlpacaEval，可能因为 Arena-Hard 
 ## 相关论文
 
 - [\[NeurIPS 2025\] PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation](parrot_a_benchmark_for_evaluating_llms_in_cross-system_sql_translation.md)
-- [\[ACL 2025\] JuStRank: Benchmarking LLM Judges for System Ranking](../../ACL2025/llm_evaluation/justrank_llm_judge_system_ranking.md)
 - [\[ACL 2025\] EvoWiki: Evaluating LLMs on Evolving Knowledge](../../ACL2025/llm_evaluation/evowiki_evaluating_llms_on_evolving_knowledge.md)
-- [\[NeurIPS 2025\] Leveraging Robust Optimization for LLM Alignment under Distribution Shifts](leveraging_robust_optimization_for_llm_alignment_under_distribution_shifts.md)
 - [\[ACL 2025\] Where Are We? Evaluating LLM Performance on African Languages](../../ACL2025/llm_evaluation/where_are_we_evaluating_llm_performance_on_african_languages.md)
+- [\[NeurIPS 2025\] Leveraging Robust Optimization for LLM Alignment under Distribution Shifts](leveraging_robust_optimization_for_llm_alignment_under_distribution_shifts.md)
+- [\[NeurIPS 2025\] Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](beyond_the_surface_enhancing_llm-as-a-judge_alignment_with_human_via_internal_re.md)
 
 <!-- RELATED:END -->

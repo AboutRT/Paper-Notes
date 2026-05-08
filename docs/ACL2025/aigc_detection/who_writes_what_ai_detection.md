@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Who Writes What: Unveiling the Impact of Author Roles on AI-generated Text Detection
 description: >-
-  [ACL 2025][AI文本检测] 揭示作者的社会语言学属性（性别、CEFR水平、学科领域、语言环境）会系统性地影响AI生成文本检测器的准确率，其中语言水平和语言环境的偏差最为显著且一致，提出了基于多因素WLS+ANOVA的偏差量化框架。
+  [ACL 2025][AIGC检测] 揭示作者的社会语言学属性（性别、CEFR水平、学科领域、语言环境）会系统性地影响AI生成文本检测器的准确率，其中语言水平和语言环境的偏差最为显著且一致，提出了基于多因素WLS+ANOVA的偏差量化框架。
 tags:
   - ACL 2025
-  - AI文本检测
+  - AIGC检测
   - 社会语言学偏差
   - 作者属性
   - ANOVA
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.12611](https://arxiv.org/abs/2502.12611)  
 **代码**: [https://github.com/leejamesss/AuthorAwareDetection](https://github.com/leejamesss/AuthorAwareDetection)  
-**领域**: NLP生成  
+**领域**: AIGC检测  
 **关键词**: AI文本检测, 社会语言学偏差, 作者属性, ANOVA, 公平性  
 
 ## 一句话总结
@@ -130,9 +130,9 @@ CEFR水平对Binoculars检测器的调整准确率：
 ## 相关论文
 
 - [\[ACL 2025\] People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](chatgpt_user_ai_text_detection.md)
-- [\[ACL 2025\] Learning to Rewrite: Generalized LLM-Generated Text Detection](learning_to_rewrite_generalized_llm-generated_text_detection.md)
 - [\[ACL 2025\] HACo-Det: A Study Towards Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring](haco-det-fine-grained-detection-under-human-ai-coauthoring.md)
-- [\[ACL 2025\] Cognitive Framework for Detecting AI-Generated Fiction](cognitive_framework_for_detecting_ai-generated_fiction.md)
 - [\[ACL 2025\] An Empirical Study on Detecting AI-Generated Text in Financial Reports](an_empirical_study_on_detecting_ai-generated_text_in_financial_reports.md)
+- [\[ACL 2025\] Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media](aigt_social_media_monitoring.md)
+- [\[ACL 2025\] Learning to Rewrite: Generalized LLM-Generated Text Detection](learning_to_rewrite_generalized_llm-generated_text_detection.md)
 
 <!-- RELATED:END -->

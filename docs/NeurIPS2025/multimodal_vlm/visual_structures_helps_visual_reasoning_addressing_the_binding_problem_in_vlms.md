@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 多模态
-  - 视觉推理
+  - 多模态VLM
   - 绑定问题
   - 视觉提示
   - LVLM
@@ -150,7 +150,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.22146](https://arxiv.org/abs/2506.22146)  
-**代码**: https://sharif-ml-lab.github.io/VISER/  
+**代码**: [https://sharif-ml-lab.github.io/VISER/](https://sharif-ml-lab.github.io/VISER/)  
 **领域**: 多模态VLM  
 **关键词**: 视觉推理, 绑定问题, 视觉提示, LVLM, 空间结构
 
@@ -229,7 +229,7 @@ tags:
 - [\[ICCV 2025\] MolParser: End-to-end Visual Recognition of Molecule Structures in the Wild](../../ICCV2025/multimodal_vlm/molparser_end-to-end_visual_recognition_of_molecule_structures_in_the_wild.md)
 - [\[CVPR 2025\] MarkushGrapher: Joint Visual and Textual Recognition of Markush Structures](../../CVPR2025/multimodal_vlm/markushgrapher_joint_visual_and_textual_recognition_of_markush_structures.md)
 - [\[NeurIPS 2025\] PhysVLM-AVR: Active Visual Reasoning for Multimodal Large Language Models in Physical Environments](physvlm-avr_active_visual_reasoning_for_multimodal_large_language_models_in_phys.md)
+- [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](visual_instruction_bottleneck_tuning.md)
 - [\[CVPR 2025\] Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning](../../CVPR2025/multimodal_vlm/critic-v_vlm_critics_help_catch_vlm_errors_in_multimodal_reasoning.md)
-- [\[NeurIPS 2025\] To Think or Not To Think: A Study of Explicit Thinking in Rule-Based Visual Reinforcement Fine-Tuning](think_or_not_think_a_study_of_explicit_thinking_in_rule-based_visual_reinforceme.md)
 
 <!-- RELATED:END -->

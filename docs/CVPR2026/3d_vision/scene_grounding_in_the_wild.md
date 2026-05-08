@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.26584](https://arxiv.org/abs/2603.26584)  
-**代码**: https://tau-vailab.github.io/SceneGround/  
+**代码**: [https://tau-vailab.github.io/SceneGround/](https://tau-vailab.github.io/SceneGround/)  
 **领域**: 3D视觉  
 **关键词**: 场景接地, 3D重建, 高斯泼溅, 语义特征, 跨域对齐
 

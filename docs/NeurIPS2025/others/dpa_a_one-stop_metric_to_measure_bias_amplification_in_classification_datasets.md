@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2412.11060](https://arxiv.org/abs/2412.11060)  
 **代码**: 有  
-**领域**: others  
+**领域**: 其他  
 **关键词**: 偏差放大, 公平性度量, 可预测性, 方向性偏差, 分类公平
 
 ## 一句话总结
@@ -131,8 +131,8 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](../../ACL2025/others/a_measure_of_the_system_dependence_of_automated_metrics.md)
-- [\[NeurIPS 2025\] One Sample is Enough to Make Conformal Prediction Robust](one_sample_is_enough_to_make_conformal_prediction_robust.md)
 - [\[NeurIPS 2025\] The Persistence of Neural Collapse Despite Low-Rank Bias](the_persistence_of_neural_collapse_despite_low-rank_bias.md)
+- [\[NeurIPS 2025\] One Sample is Enough to Make Conformal Prediction Robust](one_sample_is_enough_to_make_conformal_prediction_robust.md)
 - [\[NeurIPS 2025\] Training the Untrainable: Introducing Inductive Bias via Representational Alignment](training_the_untrainable_introducing_inductive_bias_via_representational_alignme.md)
 - [\[ICML 2025\] Improved Learning via k-DTW: A Novel Dissimilarity Measure for Curves](../../ICML2025/others/improved_learning_via_k-dtw_a_novel_dissimilarity_measure_for_curves.md)
 

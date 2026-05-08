@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models
 description: >-
-  [NeurIPS 2025][hallucination] 系统性审计推理大模型（RLLM）中幻觉的产生与传播机制，发现长 CoT 中的反思（reflection）会通过元认知偏差放大幻觉而非纠正它，即使在幻觉源头进行干预也难以改变最终结果（chain disloyalty），揭示现有幻觉检测方法在多步推理场景下严重不足。
+  [NeurIPS 2025][可解释性] 系统性审计推理大模型（RLLM）中幻觉的产生与传播机制，发现长 CoT 中的反思（reflection）会通过元认知偏差放大幻觉而非纠正它，即使在幻觉源头进行干预也难以改变最终结果（chain disloyalty），揭示现有幻觉检测方法在多步推理场景下严重不足。
 tags:
   - NeurIPS 2025
-  - hallucination
+  - 可解释性
   - reasoning LLM
   - Chain-of-Thought
   - metacognition
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.13143](https://arxiv.org/abs/2505.13143)  
-**代码**: https://github.com/ (已开源)  
-**领域**: LLM推理  
+**代码**: [https://github.com/](https://github.com/) (已开源)  
+**领域**: 可解释性  
 **关键词**: hallucination, reasoning LLM, Chain-of-Thought, metacognition, reflection
 
 ## 一句话总结
@@ -128,9 +128,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](the_trilemma_of_truth_in_large_language_models.md)
+- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](table_as_a_modality_for_large_language_models.md)
 - [\[NeurIPS 2025\] scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](scpilot_large_language_model_reasoning_toward_automated_single-cell_analysis_and.md)
 - [\[NeurIPS 2025\] Cognitive Mirrors: Exploring the Diverse Functional Roles of Attention Heads in LLM Reasoning](cognitive_mirrors_exploring_the_diverse_functional_roles_of_attention_heads_in_l.md)
 - [\[AAAI 2026\] Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models](../../AAAI2026/interpretability/beyond_hallucinations_a_composite_score_for_measuring_reliability_in_open-source.md)
-- [\[ACL 2025\] Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework](../../ACL2025/interpretability/towards_explainable_temporal_reasoning_in_large_language_models_a_structure-awar.md)
 
 <!-- RELATED:END -->

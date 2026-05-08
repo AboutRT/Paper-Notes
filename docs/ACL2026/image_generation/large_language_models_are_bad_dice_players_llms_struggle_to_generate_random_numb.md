@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.05414](https://arxiv.org/abs/2601.05414)  
 **代码**: [GitHub](https://github.com/Mininda/LLM_Bad_Dice_Player)  
-**领域**: LLM能力评估  
+**领域**: 图像生成  
 **关键词**: 概率采样, 随机数生成, 分布保真度, LLM内在能力, 下游偏差
 
 ## 一句话总结

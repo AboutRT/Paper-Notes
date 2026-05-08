@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2502.04684](https://arxiv.org/abs/2502.04684)  
 **代码**: 无  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: genotype-to-phenotype, diffusion model, multiple sequence alignment, cross-species, evolutionary biology
 
 ## 一句话总结
@@ -141,7 +141,7 @@ G2PDiffusion包含三个核心组件：(1) MSA检索引擎从外部数据库检�
 
 ## 相关论文
 
-- [\[CVPR 2026\] Forecasting Epileptic Seizures from Contactless Camera via Cross-Species Transfer Learning](../../CVPR2026/medical_imaging/forecasting_epileptic_seizures_from_contactless_camera_via_cross-species_transfe.md)
+- [\[CVPR 2026\] Forecasting Epileptic Seizures from Contactless Camera via Cross-Species Transfer Learning](../../CVPR2026/medical_imaging/forecasting_epileptic_seizures_from_contactless_ca.md)
 - [\[NeurIPS 2025\] FAPEX: Fractional Amplitude-Phase Expressor for Robust Cross-Subject Seizure Prediction](../../NeurIPS2025/medical_imaging/fapex_fractional_amplitude-phase_expressor_for_robust_cross-subject_seizure_pred.md)
 - [\[ICCV 2025\] SciVid: Cross-Domain Evaluation of Video Models in Scientific Applications](scivid_cross-domain_evaluation_of_video_models_in_scientific_applications.md)
 - [\[AAAI 2026\] Cross-Sample Augmented Test-Time Adaptation for Personalized Intraoperative Hypotension Prediction](../../AAAI2026/medical_imaging/cross-sample_augmented_test-time_adaptation_for_personalized_intraoperative_hypo.md)

@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13227](https://arxiv.org/abs/2603.13227)  
 **代码**: [GitHub](https://github.com/helenqu/physical-representation-learning)  
-**领域**: self_supervised  
+**领域**: 自监督  
 **关键词**: 自监督学习, 时空物理系统, JEPA, 表征学习, 参数估计, 掩码自编码器, 物理建模
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[CVPR 2025\] CheXWorld: Image World Modeling for Radiograph Representation Learning](chexworld_exploring_image_world_modeling_for_radiograph_representation_learning.md)
 - [\[ACL 2025\] QAEncoder: Towards Aligned Representation Learning in Question Answering Systems](../../ACL2025/self_supervised/qaencoder_aligned_representation.md)
-- [\[CVPR 2025\] Escaping Plato's Cave: Towards the Alignment of 3D and Text Latent Spaces](escaping_platos_cave_towards_the_alignment_of_3d_and_text_latent_spaces.md)
 - [\[CVPR 2025\] AutoSSVH: Automated Frame Sampling for Self-Supervised Video Hashing](autossvh_exploring_automated_frame_sampling_for_efficient_self-supervised_video_.md)
+- [\[CVPR 2025\] Escaping Plato's Cave: Towards the Alignment of 3D and Text Latent Spaces](escaping_platos_cave_towards_the_alignment_of_3d_and_text_latent_spaces.md)
 - [\[CVPR 2025\] Spectral State Space Model for Rotation-Invariant Visual Representation Learning](spectral_state_space_model_for_rotation-invariant_visual_representation_learning.md)
 
 <!-- RELATED:END -->

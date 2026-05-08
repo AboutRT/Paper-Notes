@@ -12,7 +12,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2510.09087](https://arxiv.org/abs/2510.09087)  
-**代码**: https://3dagentworld.github.io/leader_follower  
+**代码**: [https://3dagentworld.github.io/leader_follower](https://3dagentworld.github.io/leader_follower)  
 **领域**: 强化学习 / 社交推理游戏  
 **关键词**: 说服性通信, 社交推理游戏, Stackelberg博弈, GRPO, LLM智能体
 

@@ -22,7 +22,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.22429](https://arxiv.org/abs/2511.22429)  
 **代码**: [visual-ai/fin3r](https://github.com/visual-ai/fin3r)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D重建, 前馈式重建, 知识蒸馏, LoRA微调, 单目深度估计, DUSt3R, MASt3R, CUT3R, VGGT  
 
 ## 一句话总结

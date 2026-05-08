@@ -5,7 +5,7 @@ description: >-
   [ICLR 2026 Oral][long-context reasoning] 提出 LoongRL，通过构建 KeyChain 合成数据进行强化学习训练，使 LLM 涌现出 plan–retrieve–reason–recheck 的长上下文推理模式，仅在 16K 上下文上训练即可泛化到 128K，14B 模型达到 74.2 分接近 o3-mini (74.5) 和 DeepSeek-R1 (74.9)。
 tags:
   - ICLR 2026 Oral
-  - long-context reasoning
+  - 强化学习
   - reinforcement-learning
   - GRPO
   - multi-hop QA
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026 Oral  
 **arXiv**: [2510.19363](https://arxiv.org/abs/2510.19363)  
 **代码**: 有（附补充材料提供训练代码和 KeyChain 数据合成代码）  
-**领域**: LLM推理 / 长上下文推理  
+**领域**: 强化学习  
 **关键词**: long-context reasoning, reinforcement-learning, GRPO, multi-hop QA, emergent reasoning patterns
 
 ## 一句话总结
@@ -140,7 +140,7 @@ LoongRL 的 pipeline：(1) 从现有多跳 QA 数据集出发 → (2) 通过 Key
 - [\[ICLR 2026\] Echo: Towards Advanced Audio Comprehension via Audio-Interleaved Reasoning](echo_towards_advanced_audio_comprehension_via_audio-interleaved_reasoning.md)
 - [\[ICLR 2026\] LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning](longwriter-zero_mastering_ultra-long_text_generation_via_reinforcement_learning.md)
 - [\[ICLR 2026\] LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards](longrlvr_long-context_reinforcement_learning_requires_verifiable_context_rewards.md)
+- [\[NeurIPS 2025\] Incentivizing Reasoning for Advanced Instruction-Following of Large Language Models](../../NeurIPS2025/reinforcement_learning/incentivizing_reasoning_for_advanced_instruction-following_of_large_language_mod.md)
 - [\[AAAI 2026\] Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation](../../AAAI2026/reinforcement_learning/intention-guided_cognitive_reasoning_for_egocentric_long-term_action_anticipatio.md)
-- [\[ICLR 2026\] SPELL: Self-Play Reinforcement Learning for Evolving Long-Context Language Models](spell_self-play_reinforcement_learning_for_evolving_long-context_language_models.md)
 
 <!-- RELATED:END -->

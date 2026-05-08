@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2503.06084](https://arxiv.org/abs/2503.06084)  
 **代码**: [github.com/ThomasWangY/IVPT](https://github.com/ThomasWangY/IVPT)  
-**领域**: 多模态VLM / 自监督  
+**领域**: 可解释性  
 **关键词**: Visual Prompt Tuning, 可解释性, 概念原型, 跨层融合, 细粒度分类
 
 ## 一句话总结
@@ -133,9 +133,9 @@ IVPT在所有三个维度（可解释性+准确率）上均为最优。
 ## 相关论文
 
 - [\[ICLR 2026\] Concepts' Information Bottleneck Models](concepts_information_bottleneck_models.md)
-- [\[NeurIPS 2025\] ConceptScope: Characterizing Dataset Bias via Disentangled Visual Concepts](../../NeurIPS2025/interpretability/conceptscope_characterizing_dataset_bias_via_disentangled_visual_concepts.md)
 - [\[ACL 2026\] Evian: Towards Explainable Visual Instruction-tuning Data Auditing](../../ACL2026/interpretability/evian_towards_explainable_visual_instruction-tuning_data_auditing.md)
+- [\[ICLR 2026\] Evolution of Concepts in Language Model Pre-Training](evolution_of_concepts_in_language_model_pre-training.md)
 - [\[AAAI 2026\] Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations](../../AAAI2026/interpretability/concepts_from_representations_post-hoc_concept_bottleneck_models_via_sparse_deco.md)
-- [\[ICLR 2026\] Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings](cross-modal_redundancy_and_the_geometry_of_vision-language_embeddings.md)
+- [\[ICLR 2026\] TokenSeek: Memory Efficient Fine Tuning via Instance-Aware Token Ditching](tokenseek_memory_efficient_fine_tuning_via_instance-aware_token_ditching.md)
 
 <!-- RELATED:END -->

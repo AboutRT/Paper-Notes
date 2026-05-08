@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - memorization
-  - generalization
+  - 知识编辑
   - knowledge_injection
   - LLM_learning_dynamics
 ---
@@ -16,7 +16,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2507.21914](https://arxiv.org/abs/2507.21914)  
 **代码**: [QinyuanWu0710/memorize-then-generalize](https://github.com/QinyuanWu0710/memorize-then-generalize)  
-**领域**: LLM/NLP  
+**领域**: 知识编辑  
 **关键词**: memorization, generalization, knowledge_injection, LLM_learning_dynamics  
 
 ## 一句话总结
@@ -174,9 +174,9 @@ $$\mathcal{L}_{\text{Phase-2}} = -\log P(o | p(s))$$
 ## 相关论文
 
 - [\[ICLR 2026\] Rote Learning Considered Useful: Generalizing over Memorized Data in LLMs](rote_learning_considered_useful_generalizing_over_memorized_data_in_llms.md)
-- [\[ICLR 2026\] GOT-Edit: Geometry-Aware Generic Object Tracking via Online Model Editing](got-edit_geometry-aware_generic_object_tracking_via_online_model_editing.md)
 - [\[ICLR 2026\] EAMET: Robust Massive Model Editing via Embedding Alignment Optimization](eamet_robust_massive_model_editing_via_embedding_alignment_optimization.md)
+- [\[ICLR 2026\] When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations](when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat.md)
 - [\[ICLR 2026\] Fine-tuning Done Right in Model Editing](fine-tuning_done_right_in_model_editing.md)
-- [\[ICLR 2026\] PICS: Pairwise Image Compositing with Spatial Interactions](pics_pairwise_image_compositing_with_spatial_interactions.md)
+- [\[ICLR 2026\] Energy-Regularized Sequential Model Editing on Hyperspheres](energy-regularized_sequential_model_editing_on_hyperspheres.md)
 
 <!-- RELATED:END -->

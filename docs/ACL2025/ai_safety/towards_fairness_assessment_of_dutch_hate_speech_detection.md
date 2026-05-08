@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.12502](https://arxiv.org/abs/2506.12502)  
-**代码**: https://github.com/Juulba/Dutch-counterfactual-fairness  
+**代码**: [https://github.com/Juulba/Dutch-counterfactual-fairness](https://github.com/Juulba/Dutch-counterfactual-fairness)  
 **领域**: AI安全  
 **关键词**: 仇恨言论检测, 反事实公平性, 荷兰语NLP, 偏见缓解, 数据增强  
 
@@ -178,7 +178,7 @@ tags:
 - [\[ICLR 2026\] Bridging Fairness and Explainability: Can Input-Based Explanations Promote Fairness in Hate Speech Detection?](../../ICLR2026/ai_safety/bridging_fairness_and_explainability_can_input-based_explanations_promote_fairne.md)
 - [\[ACL 2025\] SpeechFake: A Large-Scale Multilingual Speech Deepfake Dataset Incorporating Cutting-Edge Generation Methods](speechfake_a_largescale_multilingual_speech_deepfake.md)
 - [\[ACL 2025\] Gender Inclusivity Fairness Index (GIFI): A Multilevel Framework](gifi_gender_fairness.md)
-- [\[ACL 2025\] Improving Fairness of Large Language Models in Multi-document Summarization](improving_fairness_of_large_language_models_in_multi-document_summarization.md)
 - [\[ACL 2025\] FairI Tales: Evaluation of Fairness in Indian Contexts with a Focus on Bias and Stereotypes](fairi_tales_evaluation_of_fairness_in_indian_contexts_with_a_focus_on_bias_and_s.md)
+- [\[ACL 2025\] WET: Overcoming Paraphrasing Vulnerabilities in Embeddings-as-a-Service with Linear Transformation Watermark](wet_eaas_watermark.md)
 
 <!-- RELATED:END -->

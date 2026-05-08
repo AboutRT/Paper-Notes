@@ -18,8 +18,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: 2509.17430  
-**代码**: https://gchhablani.github.io/embodied-splat (项目页面)  
-**领域**: 3d_vision  
+**代码**: [https://gchhablani.github.io/embodied-splat](https://gchhablani.github.io/embodied-splat) (项目页面)  
+**领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 具身导航, sim-to-real迁移, 场景重建, 个性化策略训练, ImageNav
 
 ## 一句话总结
@@ -144,6 +144,6 @@ tags:
 - [\[ICLR 2026\] D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping](../../ICLR2026/3d_vision/d-rex_differentiable_real-to-sim-to-real_engine_for_learning_dexterous_grasping.md)
 - [\[ICCV 2025\] HouseTour: A Virtual Real Estate A(I)gent](housetour_a_virtual_real_estate_aigent.md)
 - [\[ICCV 2025\] A Lesson in Splats: Teacher-Guided Diffusion for 3D Gaussian Splats Generation with 2D Supervision](a_lesson_in_splats_teacherguided_diffusion_for_3d_gaussian_s.md)
-- [\[ICCV 2025\] Revisiting Point Cloud Completion: Are We Ready For The Real-World?](revisiting_point_cloud_completion_are_we_ready_for_the_real-world.md)
+- [\[ICCV 2025\] Radiant Foam: Real-Time Differentiable Ray Tracing](radiant_foam_real-time_differentiable_ray_tracing.md)
 
 <!-- RELATED:END -->

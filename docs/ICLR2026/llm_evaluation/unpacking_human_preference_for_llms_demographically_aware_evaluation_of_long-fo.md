@@ -9,7 +9,7 @@ tags:
   - preference heterogeneity
   - demographic bias
   - Bradley-Terry-Davidson
-  - LLM leaderboard
+  - LLM评测
   - psychometrics
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.04409](https://arxiv.org/abs/2603.04409)  
 **代码**: [Leaderboard](https://huggingface.co/spaces/ProlificAI/humaine-leaderboard) / [Dataset](https://huggingface.co/datasets/ProlificAI/humaine-evaluation-dataset)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: human evaluation, preference heterogeneity, demographic bias, Bradley-Terry-Davidson, LLM leaderboard, psychometrics
 
 ## 一句话总结
@@ -281,8 +281,8 @@ Gemini-2.5-pro 的优势在于**全维度一致性**；其他模型各有偏科�
 ## 相关论文
 
 - [\[ICLR 2026\] Preference Leakage: A Contamination Problem in LLM-as-a-judge](preference_leakage_a_contamination_problem_in_llm-as-a-judge.md)
-- [\[ICLR 2026\] Disentangling Shared and Private Neural Dynamics with SPIRE: A Latent Modeling Framework for Deep Brain Stimulation](disentangling_shared_and_private_neural_dynamics_with_spire_a_latent_modeling_fr.md)
 - [\[ICLR 2026\] Can Vision–Language Models Assess Graphic Design Aesthetics? A Benchmark, Evaluation, and Dataset Perspective](can_vision_language_models_assess_graphic_design_aesthetics_a_benchmark_evaluati.md)
+- [\[ICLR 2026\] Spectral Attention Steering for Prompt Highlighting](spectral_attention_steering_for_prompt_highlighting.md)
 - [\[ICLR 2026\] Subliminal Signals in Preference Labels](subliminal_signals_in_preference_labels.md)
 - [\[ICLR 2026\] Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis](talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md)
 

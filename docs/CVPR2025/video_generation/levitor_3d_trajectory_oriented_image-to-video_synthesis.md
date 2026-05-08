@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.15214](https://arxiv.org/abs/2412.15214)  
-**代码**: https://github.com/ant-research/LeviTor  
+**代码**: [https://github.com/ant-research/LeviTor](https://github.com/ant-research/LeviTor)  
 **领域**: 扩散模型/视频生成  
 **关键词**: 3D轨迹控制, 图像到视频, 视频扩散模型, K-means聚类点, 深度信息
 

@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.02336](https://arxiv.org/abs/2506.02336)  
 **代码**: 无  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: gradient descent, large stepsizes, edge of stability, logistic regression, acceleration, condition number
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.01749](https://arxiv.org/abs/2604.01749)  
-**代码**: https://github.com/ZJUDataIntelligence/Ultrasound-CLIP  
+**代码**: [https://github.com/ZJUDataIntelligence/Ultrasound-CLIP](https://github.com/ZJUDataIntelligence/Ultrasound-CLIP)  
 **领域**: 医学图像 / 超声多模态理解  
 **关键词**: 超声图文预训练、诊断 taxonomy、语义软标签、异构图编码、跨模态检索
 

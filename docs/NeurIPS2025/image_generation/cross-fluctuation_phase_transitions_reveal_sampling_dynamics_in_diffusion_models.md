@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.00124](https://arxiv.org/abs/2511.00124)  
 **代码**: 无  
-**领域**: image_generation / diffusion_models  
+**领域**: 图像生成  
 **关键词**: 扩散模型, 相变, 交叉涨落, 采样动力学, 条件生成  
 **arXiv**: [2511.00124](https://arxiv.org/abs/2511.00124)  
 **代码**: 无  

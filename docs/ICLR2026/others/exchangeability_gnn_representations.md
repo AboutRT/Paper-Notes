@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Exchangeability of GNN Representations with Applications to Graph Retrieval
 description: >-
-  [ICLR 2026 Oral][图神经网络] 发现训练好的 GNN 节点嵌入沿特征维度是可交换随机变量（即 $p(\mathbf{X}) = p(\mathbf{X}\pi)$ 对任意维度排列 $\pi$ 成立），利用此性质通过维度排序将基于传输距离（EMD/Wasserstein）的图相似度近似为欧氏距离，构建统一的局部敏感哈希（LSH）框架 GraphHash，在子图匹配和图编辑距离（GED）检索任务上以 AUC 指标一致超越 FourierHashNet、DiskANN、IVF、CORGII、SWWL 等基线，可扩展到 100 万图语料库。
+  [ICLR 2026 Oral][其他] 发现训练好的 GNN 节点嵌入沿特征维度是可交换随机变量（即 $p(\mathbf{X}) = p(\mathbf{X}\pi)$ 对任意维度排列 $\pi$ 成立），利用此性质通过维度排序将基于传输距离（EMD/Wasserstein）的图相似度近似为欧氏距离，构建统一的局部敏感哈希（LSH）框架 GraphHash，在子图匹配和图编辑距离（GED）检索任务上以 AUC 指标一致超越 FourierHashNet、DiskANN、IVF、CORGII、SWWL 等基线，可扩展到 100 万图语料库。
 tags:
   - ICLR 2026 Oral
-  - 图神经网络
+  - 其他
   - exchangeability
   - graph retrieval
   - LSH
@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026 Oral  
 **OpenReview**: [HQcCd0laFq](https://openreview.net/forum?id=HQcCd0laFq)  
 **代码**: 有  
-**领域**: 图神经网络 / 图检索  
+**领域**: 其他  
 **关键词**: GNN, exchangeability, graph retrieval, LSH, GraphHash, transportation distance, Wasserstein distance
 
 ## 一句话总结
@@ -125,8 +125,8 @@ Pipeline: GNN 编码器 → 节点嵌入矩阵 $\mathbf{X} \in \mathbb{R}^{n \ti
 
 - [\[AAAI 2026\] LeanRAG: Knowledge-Graph-Based Generation with Semantic Aggregation and Hierarchical Retrieval](../../AAAI2026/others/leanrag_knowledge-graph-based_generation_with_semantic_aggregation_and_hierarchi.md)
 - [\[ICLR 2026\] Addressing Divergent Representations from Causal Interventions on Neural Networks](addressing_divergent_representations_causal.md)
-- [\[ICML 2025\] On the Importance of Gaussianizing Representations](../../ICML2025/others/on_the_importance_of_gaussianizing_representations.md)
 - [\[AAAI 2026\] Learning Fair Representations with Kolmogorov-Arnold Networks](../../AAAI2026/others/learning_fair_representations_with_kolmogorov-arnold_networks.md)
 - [\[AAAI 2026\] ParaMETA: Towards Learning Disentangled Paralinguistic Speaking Styles Representations](../../AAAI2026/others/parameta_towards_learning_disentangled_paralinguistic_speaking_styles_representa.md)
+- [\[ICLR 2026\] OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection](owleye_zero-shot_learner_for_cross-domain_graph_data_anomaly_detection.md)
 
 <!-- RELATED:END -->

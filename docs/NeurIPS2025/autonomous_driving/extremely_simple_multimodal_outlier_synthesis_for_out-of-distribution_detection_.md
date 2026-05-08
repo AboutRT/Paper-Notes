@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16985](https://arxiv.org/abs/2505.16985)  
 **代码**: [https://github.com/mona4399/FeatureMixing](https://github.com/mona4399/FeatureMixing)  
-**领域**: autonomous_driving / OOD检测  
+**领域**: 自动驾驶  
 **关键词**: OOD检测, OOD分割, 多模态, 异常值合成, Feature Mixing  
 
 ## 一句话总结

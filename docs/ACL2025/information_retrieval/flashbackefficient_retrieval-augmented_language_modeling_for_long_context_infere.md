@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 检索增强生成
-  - KV Cache
+  - 信息检索
   - 推理加速
   - LoRA
   - 上下文模式
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2405.04065](https://arxiv.org/abs/2405.04065)  
-**代码**: https://github.com/BIT-NLP-GROUP/FlashBack (有)  
-**领域**: LLM效率  
+**代码**: [https://github.com/BIT-NLP-GROUP/FlashBack](https://github.com/BIT-NLP-GROUP/FlashBack)  
+**领域**: 信息检索  
 **关键词**: 检索增强生成, KV Cache, 推理加速, LoRA, 上下文模式
 
 ## 一句话总结
@@ -120,10 +120,10 @@ FlashBack 的 PPL 接近 prepending 上限（差距 <0.5），但推理速度提
 
 ## 相关论文
 
-- [\[ICLR 2026\] RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference](../../ICLR2026/information_retrieval/raee_a_robust_retrieval-augmented_early_exit_framework_for_efficient_inference.md)
-- [\[ICML 2025\] RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding](../../ICML2025/information_retrieval/rapid_long-context_inference_with_retrieval-augmented_speculative_decoding.md)
 - [\[ACL 2025\] Accelerating Adaptive Retrieval Augmented Generation via Instruction-Driven Representation Reduction of Retrieval Overlaps](accelerating_adaptive_retrieval_augmented_generation_via_instruction-driven_repr.md)
 - [\[ACL 2025\] FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation](faithfulrag_fact_level_conflict.md)
-- [\[ACL 2025\] RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models](rare_retrieval_augmented_reasoning.md)
+- [\[ICLR 2026\] RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference](../../ICLR2026/information_retrieval/raee_a_robust_retrieval-augmented_early_exit_framework_for_efficient_inference.md)
+- [\[ICML 2025\] RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding](../../ICML2025/information_retrieval/rapid_long-context_inference_with_retrieval-augmented_speculative_decoding.md)
+- [\[ACL 2025\] VISA: Retrieval Augmented Generation with Visual Source Attribution](visa_retrieval_augmented_generation_with_visual_source_attribution.md)
 
 <!-- RELATED:END -->

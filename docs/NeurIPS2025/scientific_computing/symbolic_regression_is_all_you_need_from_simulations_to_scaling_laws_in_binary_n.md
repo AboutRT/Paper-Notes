@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (AI for Science Workshop)  
 **arXiv**: [2511.08784](https://arxiv.org/abs/2511.08784)  
 **代码**: 使用 PySR 和 PyOperon 开源框架  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: Symbolic Regression, Binary Neutron Stars, Gravitational Waves, Kilonova, Equation of State  
 
 ## 一句话总结
@@ -142,10 +142,10 @@ PyOperon 以复杂度仅 9 的表达式 $M_{\text{disk}} = 0.1188 - 0.1430 \time
 
 ## 相关论文
 
-- [\[ICLR 2026\] Deep Learning for Subspace Regression](../../ICLR2026/scientific_computing/deep_learning_for_subspace_regression.md)
 - [\[NeurIPS 2025\] GyroSwin: 5D Surrogates for Gyrokinetic Plasma Turbulence Simulations](gyroswin_5d_surrogates_for_gyrokinetic_plasma_turbulence_simulations.md)
 - [\[NeurIPS 2025\] EddyFormer: Accelerated Neural Simulations of Three-Dimensional Turbulence at Scale](eddyformer_accelerated_neural_simulations_of_three-dimensional_turbulence_at_sca.md)
+- [\[ICLR 2026\] Deep Learning for Subspace Regression](../../ICLR2026/scientific_computing/deep_learning_for_subspace_regression.md)
+- [\[CVPR 2025\] Improve Representation for Imbalanced Regression through Geometric Constraints](../../CVPR2025/scientific_computing/improve_representation_for_imbalanced_regression_through_geometric_constraints.md)
 - [\[ICML 2025\] Closed-form Symbolic Solutions: A New Perspective on Solving Partial Differential Equations](../../ICML2025/scientific_computing/closed-form_solutions_a_new_perspective_on_solving_differential_equations.md)
-- [\[ICLR 2026\] One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers](../../ICLR2026/scientific_computing/one_operator_to_rule_them_all_on_boundary-indexed_operator_families_in_neural_pd.md)
 
 <!-- RELATED:END -->

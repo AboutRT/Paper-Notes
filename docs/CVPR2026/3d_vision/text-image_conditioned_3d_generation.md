@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21295](https://arxiv.org/abs/2603.21295)  
-**代码**: https://jumpat.github.io/tigon-page  
+**代码**: [https://jumpat.github.io/tigon-page](https://jumpat.github.io/tigon-page)  
 **领域**: 3D视觉 / 三维生成  
 **关键词**: 文本-图像联合条件, 3D生成, 双分支DiT, 跨模态融合, 整流流
 

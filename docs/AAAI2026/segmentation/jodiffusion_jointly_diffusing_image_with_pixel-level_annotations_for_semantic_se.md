@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2512.13014](https://arxiv.org/abs/2512.13014)  
 **作者**: Haoyu Wang, Lei Zhang (通讯), Wenrui Liu, Dengyang Jiang, Wei Wei (西北工业大学), Chen Ding
 **代码**: [GitHub](https://github.com/00why00/JoDiffusion)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 语义分割, 数据集生成, 扩散模型, 联合生成, 标注掩码, 潜在空间
 
 ## 一句话总结
@@ -160,8 +160,8 @@ JoDiffusion在不需要手工标注掩码作为输入的前提下，仍然一致
 
 ## 相关论文
 
-- [\[AAAI 2026\] From Attribution to Action: Jointly ALIGNing Predictions and Explanations](from_attribution_to_action_jointly_aligning_predictions_and_explanations.md)
 - [\[ACL 2025\] Pixel-Level Reasoning Segmentation via Multi-turn Conversations](../../ACL2025/segmentation/pixel-level_reasoning_segmentation_via_multi-turn_conversations.md)
+- [\[AAAI 2026\] From Attribution to Action: Jointly ALIGNing Predictions and Explanations](from_attribution_to_action_jointly_aligning_predictions_and_explanations.md)
 - [\[CVPR 2026\] Reasoning with Pixel-level Precision: QVLM Architecture and SQuID Dataset for Quantitative Geospatial Analytics](../../CVPR2026/segmentation/reasoning_with_pixel-level_precision_qvlm_architecture_and_squid_dataset_for_qua.md)
 - [\[CVPR 2025\] DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment](../../CVPR2025/segmentation/dinov2_meets_text_a_unified_framework_for_image-_and_pixel-level_vision-language.md)
 - [\[NeurIPS 2025\] UniPixel: Unified Object Referring and Segmentation for Pixel-Level Visual Reasoning](../../NeurIPS2025/segmentation/unipixel_unified_object_referring_and_segmentation_for_pixel-level_visual_reason.md)

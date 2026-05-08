@@ -8,7 +8,7 @@ tags:
   - 代码生成
   - 仓库级开发
   - 新特性实现
-  - benchmark
+  - 代码智能
   - 增量开发
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.06680](https://arxiv.org/abs/2503.06680)  
 **代码**: [https://github.com/microsoft/FEA-Bench](https://github.com/microsoft/FEA-Bench)  
-**领域**: 文本生成  
+**领域**: 代码智能  
 **关键词**: 代码生成, 仓库级开发, 新特性实现, benchmark, 增量开发
 
 ## 一句话总结
@@ -128,7 +128,7 @@ tags:
 - [\[ACL 2025\] TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs](texpert_a_multi-level_benchmark_for_evaluating_latex_code_generation_by_llms.md)
 - [\[ACL 2025\] DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation](dynacode_a_dynamic_complexity-aware_code_benchmark_for_evaluating_large_language.md)
 - [\[ACL 2025\] CoCo-Bench: A Comprehensive Code Benchmark for Multi-task Large Language Model Evaluation](coco-bench_a_comprehensive_code_benchmark_for_multi-task_large_language_model_ev.md)
-- [\[NeurIPS 2025\] MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research](../../NeurIPS2025/code_intelligence/mlr-bench_evaluating_ai_agents_on_open-ended_machine_learning_research.md)
-- [\[ACL 2025\] GiFT: Gibbs Fine-Tuning for Code Generation](gift_gibbs_fine_tuning_code_gen.md)
+- [\[ACL 2025\] ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation](reflectioncoder_learning_from_reflection_sequence_for_enhanced_one-off_code_gene.md)
+- [\[ACL 2025\] CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation](codeif_benchmarking_the_instruction-following_capabilities_of_large_language_mod.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.05950](https://arxiv.org/abs/2505.05950)  
 **代码**: 待确认  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: MoE推理, 专家卸载, 激活稀疏性, 超低比特量化, GPU内存受限, 推理加速
 
 ## 一句话总结
@@ -142,6 +142,6 @@ FloE 由三个核心模块组成：专家混合压缩、稀疏性预测器、系
 - [\[NeurIPS 2025\] KeyDiff: Key Similarity-Based KV Cache Eviction for Long-Context LLM Inference in Resource-Constrained Environments](../../NeurIPS2025/model_compression/keydiff_key_similarity-based_kv_cache_eviction_for_long-context_llm_inference_in.md)
 - [\[ICML 2025\] MKA: Memory-Keyed Attention for Efficient Long-Context Reasoning](mka_memory-keyed_attention_for_efficient_long-context_reasoning.md)
 - [\[ICML 2025\] Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams](lego_sketch_a_scalable_memory-augmented_neural_network_for_sketching_data_stream.md)
-- [\[ICML 2025\] OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM Inference](orthorank_token_selection_via_sink_token_orthogonality_for_efficient_llm_inferen.md)
+- [\[ICML 2025\] Sparse Spectral Training and Inference on Euclidean and Hyperbolic Neural Networks](sparse_spectral_training_and_inference_on_euclidean_and_hyperbolic_neural_networ.md)
 
 <!-- RELATED:END -->

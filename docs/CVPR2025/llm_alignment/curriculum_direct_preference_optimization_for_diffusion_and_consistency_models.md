@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.13637](https://arxiv.org/abs/2405.13637)  
-**代码**: https://github.com/CroitoruAlin/Curriculum-DPO  
+**代码**: [https://github.com/CroitoruAlin/Curriculum-DPO](https://github.com/CroitoruAlin/Curriculum-DPO)  
 **领域**: LLM对齐/RLHF  
 **关键词**: DPO, 课程学习, 扩散模型, consistency model, 偏好优化
 

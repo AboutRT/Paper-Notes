@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.07865](https://arxiv.org/abs/2506.07865)  
-**代码**: https://github.com/vLAR-group/FreeGave  
+**代码**: [https://github.com/vLAR-group/FreeGave](https://github.com/vLAR-group/FreeGave)  
 **领域**: 3D视觉 / 动态场景重建  
 **关键词**: 3D物理学习, 高斯速度场, 无散度速度场, 动态3DGS, 未来帧预测
 

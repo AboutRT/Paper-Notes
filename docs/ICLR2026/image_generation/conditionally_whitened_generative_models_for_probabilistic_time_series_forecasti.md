@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2509.20928](https://arxiv.org/abs/2509.20928)  
 **代码**: 待确认  
-**领域**: 时间序列  
+**领域**: 图像生成  
 **关键词**: probabilistic forecasting, diffusion model, flow matching, conditional whitening, covariance estimation
 
 ## 一句话总结

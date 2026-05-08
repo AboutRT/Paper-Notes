@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2508.01858](https://arxiv.org/abs/2508.01858)  
 **代码**: [github.com/Gnonymous/Web-CogReasoner](https://github.com/Gnonymous/Web-CogReasoner)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: Web Agent, 认知推理, Bloom分类法, 知识驱动CoT, 课程学习
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.06873](https://arxiv.org/abs/2503.06873)  
-**代码**: https://github.com/tadeephuy/InteractCSR  
+**代码**: [https://github.com/tadeephuy/InteractCSR](https://github.com/tadeephuy/InteractCSR)  
 **领域**: 医学图像 / 可解释AI  
 **关键词**: 可解释医学影像, 概念瓶颈模型, 原型学习, 空间交互, 相似性推理
 

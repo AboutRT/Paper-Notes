@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2507.04678](https://arxiv.org/abs/2507.04678)  
-**代码**: [GitHub](https://github.com/zhenghuizhao/ChangeBridge) (有)  
+**代码**: [GitHub](https://github.com/zhenghuizhao/ChangeBridge)  
 **领域**: Image Generation  
 **关键词**: 遥感变化生成, 扩散桥模型, 时空图像生成, 多模态条件, 变化检测数据引擎
 
@@ -52,7 +52,7 @@ tags:
 2. **异步漂移扩散**：定义 $\mathbf{d}_{map} = \mathbf{M}_{fg} \cdot \gamma^{fg} + (1-\mathbf{M}_{fg}) \cdot \gamma^{bg}$（$\gamma^{fg}=1.0, \gamma^{bg}=0.8$），修改漂移系数 $\tilde{m}_t(i,j) = m_t \cdot \mathbf{z}_d(i,j)$。设计动机：前景需大幅度生成，背景只需轻微演化，统一漂移会导致失衡。
 
 3. **漂移感知去噪**：去噪网络以 $\mathbf{z}_d$（漂移图潜在表示）和 $\mathbf{z}_c$（前事件上下文）为条件。损失：
-   $$\mathcal{L}_{asy} = \mathbb{E}\left[\|\tilde{m}_t(\mathbf{z}_a - \mathbf{z}_b) + \sqrt{\delta_t}\epsilon - \epsilon_\theta(\mathbf{z}_t, t, \mathbf{z}_a, \mathbf{z}_c, \mathbf{z}_d)\|^2\right]$$
+    $\mathcal{L}_{asy} = \mathbb{E}\left[\|\tilde{m}_t(\mathbf{z}_a - \mathbf{z}_b) + \sqrt{\delta_t}\epsilon - \epsilon_\theta(\mathbf{z}_t, t, \mathbf{z}_a, \mathbf{z}_c, \mathbf{z}_d)\|^2\right]$
 
 ### 损失函数 / 训练策略
 
@@ -114,7 +114,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2507.04678](https://arxiv.org/abs/2507.04678)  
-**代码**: https://github.com/zhenghuizhao/ChangeBridge (有)  
+**代码**: [https://github.com/zhenghuizhao/ChangeBridge](https://github.com/zhenghuizhao/ChangeBridge)  
 **领域**: 遥感 / 图像生成  
 **关键词**: 时空图像生成, 扩散桥, 异步漂移, 变化检测, 遥感
 

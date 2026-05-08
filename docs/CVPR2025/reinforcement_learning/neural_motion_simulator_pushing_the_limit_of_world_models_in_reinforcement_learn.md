@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.07095](https://arxiv.org/abs/2504.07095)  
-**代码**: https://oamics.github.io/mosim_page/ (有)  
+**代码**: [https://oamics.github.io/mosim_page/](https://oamics.github.io/mosim_page/)  
 **领域**: 强化学习 / 世界模型  
 **关键词**: 世界模型, 神经运动模拟器, Neural ODE, 刚体动力学, 零样本强化学习
 

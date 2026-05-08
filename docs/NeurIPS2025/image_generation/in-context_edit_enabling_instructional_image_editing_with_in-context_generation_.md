@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2504.20690](https://arxiv.org/abs/2504.20690)  
 **代码**: [项目主页](https://river-zhang.github.io/ICEdit-gh-pages)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 指令图像编辑, 扩散 Transformer, 上下文学习, LoRA-MoE, 推理时缩放
 
 ## 一句话总结

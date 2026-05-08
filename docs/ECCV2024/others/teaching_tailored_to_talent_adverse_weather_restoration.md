@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint
 description: >-
-  [ECCV 2024][恶劣天气图像恢复] 提出 T3-DiffWeather，采用 prompt pool 自主组合子 prompt 构建天气退化信息，结合 Depth-Anything 约束的通用 prompt 提供场景信息，以对比 prompt 损失约束两类 prompt，在恶劣天气图像恢复任务上仅用 WeatherDiffusion 十分之一的采样步数达到 SOTA。
+  [ECCV 2024][其他] 提出 T3-DiffWeather，采用 prompt pool 自主组合子 prompt 构建天气退化信息，结合 Depth-Anything 约束的通用 prompt 提供场景信息，以对比 prompt 损失约束两类 prompt，在恶劣天气图像恢复任务上仅用 WeatherDiffusion 十分之一的采样步数达到 SOTA。
 tags:
   - ECCV 2024
-  - 恶劣天气图像恢复
+  - 其他
   - 扩散模型
   - 提示学习
   - Depth-Anything
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.15739](https://arxiv.org/abs/2409.15739)  
-**代码**: https://ephemeral182.github.io/T3-DiffWeather  
-**领域**: LLM/NLP  
+**代码**: [https://ephemeral182.github.io/T3-DiffWeather](https://ephemeral182.github.io/T3-DiffWeather)  
+**领域**: 其他  
 **关键词**: 恶劣天气图像恢复, 扩散模型, Prompt Pool, Depth-Anything, 对比学习
 
 ## 一句话总结
@@ -147,8 +147,8 @@ T3-DiffWeather 在多个合成和真实世界数据集上达到 SOTA，且采样
 
 - [\[ECCV 2024\] Active Generation for Image Classification](active_generation_for_image_classification.md)
 - [\[ECCV 2024\] ET: The Exceptional Trajectories - Text-to-Camera-Trajectory Generation with Character Awareness](et_the_exceptional_trajectories_text-to-camera-trajectory_generation_with_charac.md)
-- [\[ECCV 2024\] Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals](brain_netflix_scaling_data_to_reconstruct_videos_from_brain_signals.md)
-- [\[ECCV 2024\] AddMe: Zero-Shot Group-Photo Synthesis by Inserting People Into Scenes](addme_zero-shot_group-photo_synthesis_by_inserting_people_into_scenes.md)
 - [\[ECCV 2024\] Shifted Autoencoders for Point Annotation Restoration in Object Counting](shifted_autoencoders_for_point_annotation_restoration_in_object_counting.md)
+- [\[ECCV 2024\] Functional Transform-Based Low-Rank Tensor Factorization for Multi-Dimensional Data Recovery](functional_transform-based_low-rank_tensor_factorization_for_multi-dimensional_d.md)
+- [\[ECCV 2024\] Event-based Mosaicing Bundle Adjustment](event-based_mosaicing_bundle_adjustment.md)
 
 <!-- RELATED:END -->

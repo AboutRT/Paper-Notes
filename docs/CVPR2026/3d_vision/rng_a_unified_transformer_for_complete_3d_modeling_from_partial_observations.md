@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.01194](https://arxiv.org/abs/2603.01194)  
-**代码**: https://npucvr.github.io/RnG  
+**代码**: [https://npucvr.github.io/RnG](https://npucvr.github.io/RnG)  
 **领域**: 3D视觉  
 **关键词**: 3D reconstruction, novel view synthesis, transformer, KV-Cache, feed-forward
 

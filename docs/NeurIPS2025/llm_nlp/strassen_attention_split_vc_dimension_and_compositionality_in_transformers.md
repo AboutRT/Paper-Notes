@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2501.19215](https://arxiv.org/abs/2501.19215)  
 **代码**: 未公开  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: Transformer 理论, 注意力机制, 组合推理, VC 维度, 复杂度下界  
 
 ## 一句话总结
@@ -163,6 +163,6 @@ $$a_{ijk} = \text{Softmax}_{j,k}\left(\frac{f_i g_j + g_j h_k + h_k f_i}{\sqrt{d
 - [\[NeurIPS 2025\] Spectral Conditioning of Attention Improves Transformer Performance](spectral_conditioning_of_attention_improves_transformer_performance.md)
 - [\[AAAI 2026\] Vision Transformers are Circulant Attention Learners](../../AAAI2026/llm_nlp/vision_transformers_are_circulant_attention_learners.md)
 - [\[NeurIPS 2025\] Linear Transformers Implicitly Discover Unified Numerical Algorithms](linear_transformers_implicitly_discover_unified_numerical_algorithms.md)
-- [\[CVPR 2025\] Rethinking Spiking Self-Attention Mechanism: Implementing a-XNOR Similarity Calculation in Spiking Transformers](../../CVPR2025/llm_nlp/rethinking_spiking_self-attention_mechanism_implementing_a-xnor_similarity_calcu.md)
+- [\[NeurIPS 2025\] In-Context Learning of Linear Dynamical Systems with Transformers: Approximation Bounds and Depth-Separation](in-context_learning_of_linear_dynamical_systems_with_transformers_approximation_.md)
 
 <!-- RELATED:END -->

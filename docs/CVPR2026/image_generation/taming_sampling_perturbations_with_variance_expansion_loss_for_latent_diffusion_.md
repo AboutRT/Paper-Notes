@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21085](https://arxiv.org/abs/2603.21085)  
-**代码**: https://github.com/CVL-UESTC/VE-Loss  
+**代码**: [https://github.com/CVL-UESTC/VE-Loss](https://github.com/CVL-UESTC/VE-Loss)  
 **领域**: 扩散模型  
 **关键词**: 潜在扩散模型、方差扩展损失、采样鲁棒性、方差坍缩、VAE tokenizer
 

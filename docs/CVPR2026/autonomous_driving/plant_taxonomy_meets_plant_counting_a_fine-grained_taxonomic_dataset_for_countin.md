@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21229](https://arxiv.org/abs/2603.21229)  
-**代码**: https://github.com/tiny-smart/TPC-268  
-**领域**: 目标检测 / 数据集  
+**代码**: [https://github.com/tiny-smart/TPC-268](https://github.com/tiny-smart/TPC-268)  
+**领域**: 自动驾驶  
 **关键词**: 植物计数, 类无关计数, 分类学层次结构, 细粒度数据集, 密度估计
 
 ## 一句话总结

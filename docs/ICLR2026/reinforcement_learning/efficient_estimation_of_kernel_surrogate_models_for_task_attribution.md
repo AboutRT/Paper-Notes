@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.03783](https://arxiv.org/abs/2602.03783)  
-**代码**: https://github.com/VirtuosoResearch/Kernel-surrogate-models  
-**领域**: 可解释性 / 数据归因  
+**代码**: [https://github.com/VirtuosoResearch/Kernel-surrogate-models](https://github.com/VirtuosoResearch/Kernel-surrogate-models)  
+**领域**: 强化学习  
 **关键词**: task attribution, kernel surrogate model, influence function, data attribution, kernel ridge regression
 
 ## 一句话总结

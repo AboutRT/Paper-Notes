@@ -5,7 +5,7 @@ description: >-
   [NeurIPS 2025 (Workshop: MLxOR)][自适应鲁棒优化] 揭示自适应鲁棒优化（ARO）中策略脆弱性与机器学习过拟合的类比关系：自适应策略在不确定性集内表现优异但集外易失效，提出约束特定的不确定性集大小作为"正则化"手段来平衡鲁棒性和自适应性。
 tags:
   - "NeurIPS 2025 (Workshop: MLxOR)"
-  - 自适应鲁棒优化
+  - 其他
   - 过拟合
   - 正则化
   - 不确定性集
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025 (Workshop: MLxOR)  
 **arXiv**: [2509.16451](https://arxiv.org/abs/2509.16451)  
 **代码**: 无  
-**领域**: 优化理论 / 运筹学  
+**领域**: 其他  
 **关键词**: 自适应鲁棒优化, 过拟合, 正则化, 不确定性集, 仿射决策规则
 
 ## 一句话总结
@@ -160,10 +160,10 @@ $$\|\boldsymbol{V}^\top \boldsymbol{a}_i - \boldsymbol{d}_i\|_2 \leq \frac{b_i -
 
 ## 相关论文
 
-- [\[ICML 2025\] Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](../../ICML2025/others/sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)
 - [\[NeurIPS 2025\] Adaptive Data Analysis for Growing Data](adaptive_data_analysis_for_growing_data.md)
-- [\[NeurIPS 2025\] Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression](transfer_learning_for_benign_overfitting_in_high-dimensional_linear_regression.md)
 - [\[ACL 2025\] How to Mitigate Overfitting in Weak-to-Strong Generalization?](../../ACL2025/others/how_to_mitigate_overfitting_in_weak-to-strong_generalization.md)
 - [\[NeurIPS 2025\] Distributionally Robust Feature Selection](distributionally_robust_feature_selection.md)
+- [\[NeurIPS 2025\] Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression](transfer_learning_for_benign_overfitting_in_high-dimensional_linear_regression.md)
+- [\[NeurIPS 2025\] Learning (Approximately) Equivariant Networks via Constrained Optimization](learning_approximately_equivariant_networks_via_constrained_optimization.md)
 
 <!-- RELATED:END -->

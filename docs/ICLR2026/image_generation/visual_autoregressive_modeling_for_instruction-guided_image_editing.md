@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2508.15772](https://arxiv.org/abs/2508.15772)  
 **代码**: [GitHub](https://github.com/HiDream-ai/VAREdit)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 图像编辑, 视觉自回归, 多尺度预测, 指令引导, 尺度对齐
 
 ## 一句话总结
@@ -138,6 +138,6 @@ EMU-Edit和PIE-Bench上的定量对比：
 - [\[CVPR 2026\] Depth Adaptive Efficient Visual Autoregressive Modeling](../../CVPR2026/image_generation/depthvar_depth_adaptive_var.md)
 - [\[ICCV 2025\] Early Timestep Zero-Shot Candidate Selection for Instruction-Guided Image Editing](../../ICCV2025/image_generation/early_timestep_zero-shot_candidate_selection_for_instruction-guided_image_editin.md)
 - [\[NeurIPS 2025\] InfinityStar: Unified Spacetime AutoRegressive Modeling for Visual Generation](../../NeurIPS2025/image_generation/infinitystar_unified_spacetime_autoregressive_modeling_for_v.md)
-- [\[ICLR 2026\] EditScore: Unlocking Online RL for Image Editing via High-Fidelity Reward Modeling](editscore_unlocking_online_rl_for_image_editing_via_high-fidelity_reward_modelin.md)
+- [\[ICLR 2026\] Training-Free Reward-Guided Image Editing via Trajectory Optimal Control](training-free_reward-guided_image_editing_via_trajectory_optimal_control.md)
 
 <!-- RELATED:END -->

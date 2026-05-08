@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LOTUS: A Leaderboard for Detailed Image Captioning from Quality to Societal Bias and User Preferences
 description: >-
-  [ACL 2025][图像描述评估] 提出 LOTUS 排行榜，从描述质量（对齐性、描述性、语言复杂度）、副作用（幻觉、有害性）和社会偏见（性别、肤色）三个维度统一评估大型视觉语言模型的详细图像描述能力，并支持基于用户偏好的定制化评估。
+  [ACL 2025][推荐系统] 提出 LOTUS 排行榜，从描述质量（对齐性、描述性、语言复杂度）、副作用（幻觉、有害性）和社会偏见（性别、肤色）三个维度统一评估大型视觉语言模型的详细图像描述能力，并支持基于用户偏好的定制化评估。
 tags:
   - ACL 2025
-  - 图像描述评估
+  - 推荐系统
   - 大型视觉语言模型
   - 社会偏见
   - 用户偏好
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.19362](https://arxiv.org/abs/2507.19362)  
-**代码**: https://huggingface.co/spaces/nvidia/lotus-vlm-bias-leaderboard (有，Leaderboard)  
-**领域**: recommender  
+**代码**: [https://huggingface.co/spaces/nvidia/lotus-vlm-bias-leaderboard](https://huggingface.co/spaces/nvidia/lotus-vlm-bias-leaderboard) (有，Leaderboard)  
+**领域**: 推荐系统  
 **关键词**: 图像描述评估, 大型视觉语言模型, 社会偏见, 用户偏好, 评估基准
 
 ## 一句话总结
@@ -179,8 +179,8 @@ COCO Karpathy 测试集（5000张图像）上的统一评估（N-avg，归一化
 
 ## 相关论文
 
-- [\[CVPR 2025\] FineVQ: Fine-Grained User Generated Content Video Quality Assessment](../../CVPR2025/recommender/finevq_fine-grained_user_generated_content_video_quality_assessment.md)
 - [\[ICML 2025\] Aligning LLMs by Predicting Preferences from User Writing Samples](../../ICML2025/recommender/aligning_llms_by_predicting_preferences_from_user_writing_samples.md)
+- [\[CVPR 2025\] FineVQ: Fine-Grained User Generated Content Video Quality Assessment](../../CVPR2025/recommender/finevq_fine-grained_user_generated_content_video_quality_assessment.md)
 - [\[ICML 2025\] QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval](../../ICML2025/recommender/qure_query-relevant_retrieval_through_hard_negative_sampling_in_composed_image_r.md)
 - [\[ACL 2026\] Personalized Benchmarking: Evaluating LLMs by Individual Preferences](../../ACL2026/recommender/personalized_benchmarking_evaluating_llms_by_individual_preferences.md)
 - [\[ACL 2026\] Learning to Retrieve User History and Generate User Profiles for Personalized Persuasiveness Prediction](../../ACL2026/recommender/learning_to_retrieve_user_history_and_generate_user_profiles_for_personalized_pe.md)

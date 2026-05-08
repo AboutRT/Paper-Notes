@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 图像恢复
   - 过程奖励模型
-  - Monte Carlo估计
+  - 图像复原
   - 噪声标签
   - 自去噪
   - 数学推理
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.16548](https://arxiv.org/abs/2509.16548)  
 **代码**: [有](https://scan-prm.github.io)  
-**领域**: 大语言模型推理 / 过程奖励模型  
+**领域**: 图像复原  
 **关键词**: 过程奖励模型, Monte Carlo估计, 噪声标签, 自去噪, 数学推理
 
 ## 一句话总结
@@ -134,9 +134,9 @@ $$\mathcal{L}_{\text{SCAN}}(\theta) = -\mathbb{E}_{(x_{\leq t}, y_t) \sim D_{\te
 ## 相关论文
 
 - [\[ACL 2025\] A Self-Denoising Model for Robust Few-Shot Relation Extraction](../../ACL2025/image_restoration/a_self-denoising_model_for_robust_few-shot_relation_extraction.md)
-- [\[CVPR 2026\] Learning to Translate Noise for Robust Image Denoising](../../CVPR2026/image_restoration/learning_to_translate_noise_for_robust_image_denoising.md)
-- [\[CVPR 2025\] Classic Video Denoising in a Machine Learning World: Robust, Fast, and Controllable](../../CVPR2025/image_restoration/classic_video_denoising_in_a_machine_learning_world_robust_fast_and_controllable.md)
 - [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
+- [\[CVPR 2026\] Learning to Translate Noise for Robust Image Denoising](../../CVPR2026/image_restoration/learning_to_translate_noise_for_robust_image_denoising.md)
 - [\[NeurIPS 2025\] MRO: Enhancing Reasoning in Diffusion Language Models via Multi-Reward Optimization](mro_enhancing_reasoning_in_diffusion_language_models_via_multi-reward_optimizati.md)
+- [\[CVPR 2025\] Classic Video Denoising in a Machine Learning World: Robust, Fast, and Controllable](../../CVPR2025/image_restoration/classic_video_denoising_in_a_machine_learning_world_robust_fast_and_controllable.md)
 
 <!-- RELATED:END -->

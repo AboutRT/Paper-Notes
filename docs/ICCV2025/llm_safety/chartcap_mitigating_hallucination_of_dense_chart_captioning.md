@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 图表理解
-  - 视觉语言模型
+  - LLM安全
   - 幻觉缓解
   - 图表描述
   - 数据集构建
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.03164](https://arxiv.org/abs/2508.03164)  
-**代码**: https://junyoung-00.github.io/ChartCap/  
-**领域**: 多模态 / NLP  
+**代码**: [https://junyoung-00.github.io/ChartCap/](https://junyoung-00.github.io/ChartCap/)  
+**领域**: LLM安全  
 **关键词**: 图表理解, 视觉语言模型, 幻觉缓解, 图表描述, 数据集构建
 
 ## 一句话总结
@@ -149,9 +149,9 @@ ChartCap测试集上各模型表现：
 ## 相关论文
 
 - [\[ACL 2025\] Monitoring Decoding: Mitigating Hallucination via Evaluating the Factuality of Partial Response during Generation](../../ACL2025/llm_safety/monitoring_decoding_mitigating_hallucination_via_evaluating_the_factuality_of_pa.md)
-- [\[ACL 2025\] Automated Explanation Generation and Hallucination Detection for Heritage Image Retrieval](../../ACL2025/llm_safety/automated_explanation_generation_and_hallucination_detection_for_heritage_image_.md)
 - [\[ACL 2025\] On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation](../../ACL2025/llm_safety/on-policy_self-alignment_with_fine-grained_knowledge_feedback_for_hallucination_.md)
-- [\[CVPR 2026\] The Blind Spot of Adaptation: Quantifying and Mitigating Forgetting in Fine-tuned Driving Models](../../CVPR2026/llm_safety/blind_spot_of_adaptation_quantifying_and_mitigating_forgetting_in_fine_tuned_driving_models.md)
-- [\[ACL 2025\] HD-NDEs: Neural Differential Equations for Hallucination Detection in LLMs](../../ACL2025/llm_safety/hd-ndes_neural_differential_equations_for_hallucination_detection_in_llms.md)
+- [\[ACL 2025\] Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence](../../ACL2025/llm_safety/cracking_hallucination_vhd.md)
+- [\[CVPR 2026\] HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in LVLMs](../../CVPR2026/llm_safety/hulluedit_subspace_editing_hallucination.md)
+- [\[ICML 2025\] ICLShield: Exploring and Mitigating In-Context Learning Backdoor Attacks](../../ICML2025/llm_safety/iclshield_exploring_and_mitigating_in-context_learning_backdoor_attacks.md)
 
 <!-- RELATED:END -->

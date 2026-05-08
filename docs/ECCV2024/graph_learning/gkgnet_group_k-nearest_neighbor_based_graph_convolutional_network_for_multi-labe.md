@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2308.14378](https://arxiv.org/abs/2308.14378)  
 **代码**: [jin-s13/GKGNet](https://github.com/jin-s13/GKGNet)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: multi-label image recognition, graph convolutional network, group KNN, label-region correlation
 
 ## 一句话总结
@@ -159,8 +159,8 @@ GKGNet 的核心差异在于**统一的图表示**——patch 和 label 在相�
 ## 相关论文
 
 - [\[ECCV 2024\] Confidence Self-Calibration for Multi-Label Class-Incremental Learning](confidence_self-calibration_for_multi-label_class-incremental_learning.md)
-- [\[CVPR 2025\] DVHGNN: Multi-Scale Dilated Vision HGNN for Efficient Vision Recognition](../../CVPR2025/graph_learning/dvhgnn_multi-scale_dilated_vision_hgnn_for_efficient_vision_recognition.md)
 - [\[ACL 2025\] Disentangled Multi-span Evolutionary Network against Temporal Knowledge Graph Reasoning](../../ACL2025/graph_learning/disentangled_multi-span_evolutionary_network_against_temporal_knowledge_graph_re.md)
+- [\[CVPR 2025\] DVHGNN: Multi-Scale Dilated Vision HGNN for Efficient Vision Recognition](../../CVPR2025/graph_learning/dvhgnn_multi-scale_dilated_vision_hgnn_for_efficient_vision_recognition.md)
 - [\[CVPR 2026\] Adaptive Learned Image Compression with Graph Neural Networks](../../CVPR2026/graph_learning/adaptive_learned_image_compression_with_graph_neural_networks.md)
 - [\[AAAI 2026\] On Stealing Graph Neural Network Models](../../AAAI2026/graph_learning/on_stealing_graph_neural_network_models.md)
 

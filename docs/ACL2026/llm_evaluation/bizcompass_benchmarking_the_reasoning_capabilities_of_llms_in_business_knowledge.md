@@ -2,7 +2,7 @@
 title: >-
   [论文解读] BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications
 description: >-
-  [ACL2026][LLM评估] 提出BizCompass基准，通过知识层和应用层双轴设计评估LLM商业推理能力
+  [ACL2026][LLM评测] 提出BizCompass基准，通过知识层和应用层双轴设计评估LLM商业推理能力
 tags: [LLM评估, 商业推理, 基准测试, 知识应用, 多领域评估]
 ---
 
@@ -11,7 +11,7 @@ tags: [LLM评估, 商业推理, 基准测试, 知识应用, 多领域评估]
 **会议**: ACL 2026 Findings
 **arXiv**: [2604.17305](https://arxiv.org/abs/2604.17305)
 **代码**: [https://bizcompass.dev.ypemc.com/](https://bizcompass.dev.ypemc.com/)
-**领域**: LLM 评估
+**领域**: LLM评测
 **关键词**: 商业推理基准, 知识与应用评估, LLM能力诊断, 金融经济, 双轴设计
 
 ## 一句话总结
@@ -114,3 +114,15 @@ BizCompass 分为两个层次。知识层覆盖四个核心领域：金融（FIN
 - 实验充分度: ⭐⭐⭐⭐⭐ 评估了大量开源和闭源模型，指标多元，分析深入
 - 写作质量: ⭐⭐⭐⭐ 结构清晰，但过于冗长（40页）
 - 价值: ⭐⭐⭐⭐ 填补了商业领域 LLM 评估的空白，对行业应用有参考价值
+
+<!-- RELATED:START -->
+
+## 相关论文
+
+- [\[ACL 2026\] Do LLMs Overthink Basic Math Reasoning? Benchmarking the Accuracy-Efficiency Tradeoff](do_llms_overthink_basic_math_reasoning_benchmarking_the_accuracy-efficiency_trad.md)
+- [\[ACL 2025\] VoxEval: Benchmarking the Knowledge Understanding Capabilities of End-to-End Spoken Language Models](../../ACL2025/llm_evaluation/voxeval_benchmarking_the_knowledge_understanding_capabilities_of_end-to-end_spok.md)
+- [\[ACL 2026\] ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](researchbench_benchmarking_llms_in_scientific_discovery_via_inspiration-based_ta.md)
+- [\[ICLR 2026\] Benchmarking Overton Pluralism in LLMs](../../ICLR2026/llm_evaluation/benchmarking_overton_pluralism_in_llms.md)
+- [\[ACL 2025\] EvoWiki: Evaluating LLMs on Evolving Knowledge](../../ACL2025/llm_evaluation/evowiki_evaluating_llms_on_evolving_knowledge.md)
+
+<!-- RELATED:END -->

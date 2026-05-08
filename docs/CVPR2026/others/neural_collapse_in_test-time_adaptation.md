@@ -8,7 +8,7 @@ tags:
   - 神经坍缩
   - 测试时自适应
   - 分布外鲁棒性
-  - 特征-分类器对齐
+  - 其他
   - 混合目标
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.10421](https://arxiv.org/abs/2512.10421)  
-**代码**: https://github.com/Cevaaa/NCTTA  
+**代码**: [https://github.com/Cevaaa/NCTTA](https://github.com/Cevaaa/NCTTA)  
 **领域**: 其他 (分布外泛化/测试时自适应)  
 **关键词**: 神经坍缩, 测试时自适应, 分布外鲁棒性, 特征-分类器对齐, 混合目标
 
@@ -135,7 +135,7 @@ NCTTA在ImageNet-C上比Tent提升14.59%，比DeYO提升2.97%。
 - [\[NeurIPS 2025\] SPACE: SPike-Aware Consistency Enhancement for Test-Time Adaptation in Spiking Neural Networks](../../NeurIPS2025/others/space_spike-aware_consistency_enhancement_for_test-time_adaptation_in_spiking_ne.md)
 - [\[CVPR 2026\] ViT3: Unlocking Test-Time Training in Vision](vit3_unlocking_test_time_training_in_vision.md)
 - [\[ECCV 2024\] MemBN: Robust Test-Time Adaptation via Batch Norm with Statistics Memory](../../ECCV2024/others/membn_robust_test-time_adaptation_via_batch_norm_with_statistics_memory.md)
+- [\[CVPR 2025\] Detecting Out-of-Distribution through the Lens of Neural Collapse](../../CVPR2025/others/detecting_out-of-distribution_through_the_lens_of_neural_collapse.md)
 - [\[CVPR 2025\] Effortless Active Labeling for Long-Term Test-Time Adaptation](../../CVPR2025/others/effortless_active_labeling_for_long-term_test-time_adaptation.md)
-- [\[ICML 2025\] Beyond Entropy: Region Confidence Proxy for Wild Test-Time Adaptation](../../ICML2025/others/beyond_entropy_region_confidence_proxy_for_wild_test-time_adaptation.md)
 
 <!-- RELATED:END -->

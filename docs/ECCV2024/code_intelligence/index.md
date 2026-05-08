@@ -1,14 +1,18 @@
 ---
 title: >-
-  ECCV2024 代码智能方向1篇论文解读
+  ECCV2024 代码智能方向2篇论文解读
 description: >-
-  1篇ECCV2024的代码智能方向论文解读，涵盖人脸/视线等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  2篇ECCV2024的代码智能方向论文解读，涵盖人脸/视线等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💻 代码智能
 
-**🎞️ ECCV2024** · **1** 篇论文解读
+**🎞️ ECCV2024** · **2** 篇论文解读
+
+**[CoMo: Controllable Motion Generation Through Language Guided Pose Code Editing](como_controllable_motion_generation_through_language_guided_pose_code_editing.md)**
+
+:   提出 CoMo，通过将动作序列分解为语义明确的 pose code（如"左膝微弯"），实现基于文本的可控动作生成与基于 LLM 的零样本动作编辑。
 
 **[DreamStruct: Understanding Slides and User Interfaces via Synthetic Data Generation](dreamstruct_understanding_slides_and_user_interfaces_via_synthetic_data_generati.md)**
 

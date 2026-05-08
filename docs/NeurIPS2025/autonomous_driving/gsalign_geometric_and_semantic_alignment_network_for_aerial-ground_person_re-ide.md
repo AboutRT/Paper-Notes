@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22268](https://arxiv.org/abs/2510.22268)  
 **代码**: 待确认  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: Aerial-Ground Person Re-Identification, Thin Plate Spline, Geometric Alignment, Semantic Masking, Vision Transformer  
 
 ## 一句话总结

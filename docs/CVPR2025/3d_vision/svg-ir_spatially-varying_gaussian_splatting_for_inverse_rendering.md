@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.06815](https://arxiv.org/abs/2504.06815)  
-**代码**: https://github.com/learner-shx/SVG-IR  
+**代码**: [https://github.com/learner-shx/SVG-IR](https://github.com/learner-shx/SVG-IR)  
 **领域**: 3D视觉  
 **关键词**: 逆渲染, 3D高斯溅射, 空间变化材质, 物理间接光照, 重光照
 

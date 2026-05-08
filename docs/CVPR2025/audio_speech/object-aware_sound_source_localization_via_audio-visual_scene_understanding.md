@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 语音
   - 声源定位
-  - MLLM 监督
+  - 音频语音
   - Object-aware contrastive
   - Wasserstein 区域分离
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.18557](https://arxiv.org/abs/2506.18557)  
-**代码**: https://github.com/VisualAIKHU/OA-SSL  
+**代码**: [https://github.com/VisualAIKHU/OA-SSL](https://github.com/VisualAIKHU/OA-SSL)  
 **领域**: 音频视觉学习 / 声源定位 / 多模态对比  
 **关键词**: 声源定位、MLLM 监督、Object-aware contrastive、Wasserstein 区域分离
 
@@ -131,7 +131,7 @@ tags:
 - [\[CVPR 2025\] Improving Sound Source Localization with Joint Slot Attention on Image and Audio](improving_sound_source_localization_with_joint_slot_attention_on_image_and_audio.md)
 - [\[CVPR 2025\] Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation](crab_a_unified_audio-visual_scene_understanding_model_with_explicit_cooperation.md)
 - [\[CVPR 2025\] Towards Open-Vocabulary Audio-Visual Event Localization](towards_open-vocabulary_audio-visual_event_localization.md)
+- [\[CVPR 2025\] MultiFoley: Video-Guided Foley Sound Generation with Multimodal Controls](video-guided_foley_sound_generation_with_multimodal_controls.md)
 - [\[NeurIPS 2025\] DeepASA: An Object-Oriented Multi-Purpose Network for Auditory Scene Analysis](../../NeurIPS2025/audio_speech/deepasa_an_object-oriented_multi-purpose_network_for_auditory_scene_analysis.md)
-- [\[NeurIPS 2025\] Seeing Sound, Hearing Sight: Uncovering Modality Bias and Conflict of AI Models in Sound Localization](../../NeurIPS2025/audio_speech/seeing_sound_hearing_sight_uncovering_modality_bias_and_conflict_of_ai_models_in.md)
 
 <!-- RELATED:END -->

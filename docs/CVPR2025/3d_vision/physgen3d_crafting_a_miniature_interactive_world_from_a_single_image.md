@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20746](https://arxiv.org/abs/2503.20746)  
-**代码**: 无（项目页面: https://by-luckk.github.io/PhysGen3D）  
+**代码**: 无（项目页面: [https://by-luckk.github.io/PhysGen3D](https://by-luckk.github.io/PhysGen3D)）  
 **领域**: 3D视觉 / 物理仿真 / 图像到视频  
 **关键词**: 单图3D重建, 物理模拟, 物理渲染, 交互式场景, 图像到视频
 

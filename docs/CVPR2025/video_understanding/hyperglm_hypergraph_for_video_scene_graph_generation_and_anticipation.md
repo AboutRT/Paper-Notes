@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.18042](https://arxiv.org/abs/2411.18042)  
-**代码**: https://uark-cviu.github.io/projects/HyperGLM  
+**代码**: [https://uark-cviu.github.io/projects/HyperGLM](https://uark-cviu.github.io/projects/HyperGLM)  
 **领域**: 视频理解/场景图生成  
 **关键词**: 视频场景图, 超图, 大语言模型, 关系推理, 场景图预测
 

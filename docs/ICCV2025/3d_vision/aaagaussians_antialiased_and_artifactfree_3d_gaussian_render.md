@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.12811](https://arxiv.org/abs/2504.12811)  
-**代码**: [GitHub](https://github.com/DerThomy/AAA-Gaussians) (有)  
+**代码**: [GitHub](https://github.com/DerThomy/AAA-Gaussians)  
 **领域**: 3D视觉 / 新视角合成 / 实时渲染  
 **关键词**: 3D Gaussian Splatting, 抗锯齿, 无伪影渲染, 视锥剔除, 视角一致性  
 

@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Findings)][无文本语音翻译] 本文提出"单元语言"（unit language）的概念，通过n-gram语言建模将语音离散单元构造为类文本表示，并利用多任务学习引导无文本语音到语音翻译（S2ST）模型的训练过程，同时提出任务提示建模来缓解源端和目标端单元语言同时使用时的冲突，在VoxPopuli四语数据集上取得显著提升。
 tags:
   - ACL 2025 (Findings)
-  - 无文本语音翻译
+  - 其他
   - 单元语言
   - 多任务学习
   - 任务提示
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2505.15333](https://arxiv.org/abs/2505.15333)  
 **代码**: 无  
-**领域**: 语音翻译 / NLP理解  
+**领域**: 其他  
 **关键词**: 无文本语音翻译, 单元语言, 多任务学习, 任务提示, 跨模态建模
 
 ## 一句话总结
@@ -133,8 +133,8 @@ tags:
 
 - [\[ACL 2025\] QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning](qualispeech_a_speech_quality_assessment_dataset_with_natural_language_reasoning_.md)
 - [\[ACL 2025\] It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems](its_not_a_walk_in_the_park_challenges_of_idiom_translation_in_speech-to-text_sys.md)
-- [\[ACL 2025\] (RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding](rsatexttwosuperior_a_rhetorical-strategy-aware_rational_speech_act_framework_for.md)
 - [\[ACL 2025\] Unlocking Speech Instruction Data Potential with Query Rewriting](unlocking_speech_instruction_data_potential_with_query_rewriting.md)
-- [\[ACL 2025\] ChildMandarin: A Comprehensive Mandarin Speech Dataset for Young Children Aged 3-5](childmandarin_a_comprehensive_mandarin_speech_dataset_for_young_children_aged_3-.md)
+- [\[AAAI 2026\] MF-Speech: Achieving Fine-Grained and Compositional Control in Speech Generation via Factor Disentanglement](../../AAAI2026/others/mf-speech_achieving_fine-grained_and_compositional_control_in_speech_generation_.md)
+- [\[ACL 2025\] (RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding](rsatexttwosuperior_a_rhetorical-strategy-aware_rational_speech_act_framework_for.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.14819](https://arxiv.org/abs/2603.14819)  
 **代码**: [raviranjan-ai/RAZOR-cvpr2026](https://github.com/raviranjan-ai/RAZOR-cvpr2026)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: machine unlearning, vision transformer, diffusion model, CLIP, model editing, ratio-aware saliency
 
 ## 一句话总结
@@ -185,8 +185,8 @@ RAZOR 虽然比 SLUG 慢一倍，但综合遗忘精度后的性能-效率权衡�
 
 - [\[CVPR 2026\] CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing](care-edit_condition-aware_routing_of_experts_for_contextual_image_editing.md)
 - [\[CVPR 2026\] Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers](pluggable_pruning_with_contiguous_layer_distillation_for_diffusion_transformers.md)
+- [\[CVPR 2026\] Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers](just-in-time_training-free_spatial_acceleration_for_diffusion_transformers.md)
 - [\[CVPR 2026\] One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers](one_model_many_budgets_elastic_latent_interfaces_for_diffusion_transformers.md)
 - [\[CVPR 2026\] Guiding Diffusion Models with Semantically Degraded Conditions](guiding_diffusion_models_with_semantically_degraded_conditions.md)
-- [\[CVPR 2026\] TINA: Text-Free Inversion Attack for Unlearned Text-to-Image Diffusion Models](tina_text-free_inversion_attack_for_unlearned_text-to-image_diffusion_models.md)
 
 <!-- RELATED:END -->

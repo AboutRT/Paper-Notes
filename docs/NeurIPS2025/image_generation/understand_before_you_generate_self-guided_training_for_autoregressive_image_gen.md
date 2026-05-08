@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.15185](https://arxiv.org/abs/2509.15185)  
-**代码**: https://github.com/yuexy/ST-AR  
+**代码**: [https://github.com/yuexy/ST-AR](https://github.com/yuexy/ST-AR)  
 **领域**: 自回归图像生成 / 自监督学习  
 **关键词**: 自回归模型, 视觉理解, 对比学习, 掩码图像建模, LlamaGen
 

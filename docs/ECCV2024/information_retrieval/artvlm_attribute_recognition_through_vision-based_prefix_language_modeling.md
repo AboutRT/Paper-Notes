@@ -8,7 +8,7 @@ tags:
   - 属性识别
   - 生成式检索
   - PrefixLM
-  - 对比学习
+  - 信息检索
   - 条件依赖建模
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2408.04102](https://arxiv.org/abs/2408.04102)  
 **代码**: 无（数据集VGARank已发布）  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 属性识别, 生成式检索, PrefixLM, 对比学习, 条件依赖建模
 
 ## 一句话总结
@@ -162,9 +162,9 @@ tags:
 ## 相关论文
 
 - [\[ECCV 2024\] Grounding Language Models for Visual Entity Recognition](grounding_language_models_for_visual_entity_recognition.md)
-- [\[ECCV 2024\] Towards Open-Ended Visual Recognition with Large Language Model](towards_open-ended_visual_recognition_with_large_language_models.md)
-- [\[ECCV 2024\] Multi-Label Cluster Discrimination for Visual Representation Learning](multi-label_cluster_discrimination_for_visual_representation_learning.md)
 - [\[ECCV 2024\] OneRestore: A Universal Restoration Framework for Composite Degradation](onerestore_a_universal_restoration_framework_for_composite_degradation.md)
 - [\[AAAI 2026\] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](../../AAAI2026/information_retrieval/himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)
+- [\[ICLR 2026\] Revela: Dense Retriever Learning via Language Modeling](../../ICLR2026/information_retrieval/revela_dense_retriever_learning_via_language_modeling.md)
+- [\[ACL 2025\] FlashBack: Efficient Retrieval-Augmented Language Modeling for Fast Inference](../../ACL2025/information_retrieval/flashbackefficient_retrieval-augmented_language_modeling_for_long_context_infere.md)
 
 <!-- RELATED:END -->

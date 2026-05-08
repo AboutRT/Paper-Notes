@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.02256](https://arxiv.org/abs/2312.02256)  
-**代码**: [GitHub](https://github.com/Frank-ZY-Dou/EMDM) (有)  
+**代码**: [GitHub](https://github.com/Frank-ZY-Dou/EMDM)  
 **领域**: 图像生成  
 **关键词**: 人体动作生成, 扩散模型, GAN, 高效采样, 文本驱动运动
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.04970](https://arxiv.org/abs/2510.04970)  
 **代码**: [https://github.com/CausalDisco/flopsearch](https://github.com/CausalDisco/flopsearch)  
-**领域**: 因果发现 / 图模型学习  
+**领域**: 图像生成  
 **关键词**: 因果结构学习, 离散搜索, 得分优化, DAG学习, 线性模型
 
 ## 一句话总结

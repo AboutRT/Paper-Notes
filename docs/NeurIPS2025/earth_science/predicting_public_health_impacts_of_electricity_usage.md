@@ -9,14 +9,14 @@ tags:
   - 电力系统
   - 空气污染
   - 端到端预测
-  - 电动汽车充电优化
+  - 地球科学
 ---
 
 # Predicting Public Health Impacts of Electricity Usage
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.22031](https://arxiv.org/abs/2511.22031)  
-**代码**: https://github.com/Ren-Research/Health-Impact-Predictor  
+**代码**: [https://github.com/Ren-Research/Health-Impact-Predictor](https://github.com/Ren-Research/Health-Impact-Predictor)  
 **领域**: 地球科学 / AI for Social Good  
 **关键词**: 公共健康, 电力系统, 空气污染, 端到端预测, 电动汽车充电优化
 
@@ -121,10 +121,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] A Probabilistic U-Net Approach to Downscaling Climate Simulations](a_probabilistic_unet_approach_to_downscaling_climate_simulat.md)
 - [\[NeurIPS 2025\] Adaptive Online Emulation for Accelerating Complex Physical Simulations](adaptive_online_emulation_for_accelerating_complex_physical_simulations.md)
-- [\[NeurIPS 2025\] ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts](controlfusion_a_controllable_image_fusion_framework_with_language-vision_degrada.md)
 - [\[NeurIPS 2025\] Reasoning With a Star: A Heliophysics Dataset and Benchmark for Agentic Scientific Reasoning](reasoning_with_a_star_a_heliophysics_dataset_and_benchmark_for_agentic_scientifi.md)
+- [\[NeurIPS 2025\] ControlFusion: A Controllable Image Fusion Framework with Language-Vision Degradation Prompts](controlfusion_a_controllable_image_fusion_framework_with_language-vision_degrada.md)
+- [\[NeurIPS 2025\] A Probabilistic U-Net Approach to Downscaling Climate Simulations](a_probabilistic_unet_approach_to_downscaling_climate_simulat.md)
 - [\[ECCV 2024\] Semi-supervised Video Desnowing Network via Temporal Decoupling Experts and Distribution-Driven Contrastive Regularization](../../ECCV2024/earth_science/semi-supervised_video_desnowing_network_via_temporal_decoupling_experts_and_dist.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2501.04678](https://arxiv.org/abs/2501.04678)  
-**代码**: https://github.com/MrGiovanni/RadGPT  
+**代码**: [https://github.com/MrGiovanni/RadGPT](https://github.com/MrGiovanni/RadGPT)  
 **领域**: 医学图像 / 报告生成  
 **关键词**: CT报告生成, 肿瘤数据集, 分割辅助报告, 腹部CT, 结构化报告
 

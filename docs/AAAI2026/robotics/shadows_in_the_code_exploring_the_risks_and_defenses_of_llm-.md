@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.18467](https://arxiv.org/abs/2511.18467)  
 **代码**: [https://github.com/wxqkk0808/IMBIA](https://github.com/wxqkk0808/IMBIA)  
-**领域**: AI安全 / LLM Agent / 多Agent软件开发  
+**领域**: 机器人  
 **关键词**: 多Agent安全, 恶意代码注入, 软件开发Agent, 对抗性防御, 恶意软件家族  
 
 ## 一句话总结

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents
 description: >-
-  [AAAI 2026][LLM 智能体] 提出 TowerMind，一个基于塔防游戏的轻量级多模态环境，用于评估 LLM 的长期规划和决策能力，揭示了当前 LLM 与人类专家之间仍存在显著性能差距（最佳模型仅达人类专家 42% 的得分），并识别出规划验证不足、缺乏多终态思维、动作空间利用不充分等行为缺陷。
+  [AAAI 2026][强化学习] 提出 TowerMind，一个基于塔防游戏的轻量级多模态环境，用于评估 LLM 的长期规划和决策能力，揭示了当前 LLM 与人类专家之间仍存在显著性能差距（最佳模型仅达人类专家 42% 的得分），并识别出规划验证不足、缺乏多终态思维、动作空间利用不充分等行为缺陷。
 tags:
   - AAAI 2026
-  - LLM 智能体
+  - 强化学习
   - 塔防游戏
   - 实时策略游戏
   - benchmark
@@ -178,9 +178,9 @@ TowerMind 的地图定义在以 (0,0) 为中心、边长为 6 的正方形区域
 ## 相关论文
 
 - [\[ICLR 2026\] Toward a Dynamic Stackelberg Game-Theoretic Framework for Agent-Based Conversational AI Defense Against LLM Jailbreaking](../../ICLR2026/reinforcement_learning/toward_a_dynamic_stackelberg_game-theoretic_framework_for_agent-based_conversat.md)
-- [\[AAAI 2026\] Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning](well_begun_half_done_reinforcement_learning_with_prefix_optimization_for_llm_rea.md)
 - [\[AAAI 2026\] Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping](aligning_machiavellian_agents_behavior_steering_via_test-tim.md)
+- [\[AAAI 2026\] Distributionally Robust Online Markov Game with Linear Function Approximation](distributionally_robust_online_markov_game_with_linear_function_approximation.md)
+- [\[AAAI 2026\] Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning](well_begun_half_done_reinforcement_learning_with_prefix_optimization_for_llm_rea.md)
 - [\[ICLR 2026\] Learning to Orchestrate Agents in Natural Language with the Conductor](../../ICLR2026/reinforcement_learning/learning_to_orchestrate_agents_in_natural_language_with_the_conductor.md)
-- [\[NeurIPS 2025\] Meta-World+: An Improved, Standardized, RL Benchmark](../../NeurIPS2025/reinforcement_learning/meta-world_an_improved_standardized_rl_benchmark.md)
 
 <!-- RELATED:END -->

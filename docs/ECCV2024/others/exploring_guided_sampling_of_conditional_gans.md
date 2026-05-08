@@ -8,7 +8,7 @@ tags:
   - GAN
   - 引导采样
   - 隐空间操控
-  - 图像生成质量
+  - 其他
   - 扩散模型对比
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: 无  
 **代码**: [GitHub](https://github.com/zyf0619sjtu/GANdance)  
-**领域**: 图像生成  
+**领域**: 其他  
 **关键词**: 条件GAN, 引导采样, 隐空间操控, 图像生成质量, 扩散模型对比
 
 ## 一句话总结
@@ -118,9 +118,9 @@ GANdance框架建立在预训练的条件GAN之上。其核心思路是：在已
 ## 相关论文
 
 - [\[ECCV 2024\] CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction](clr-gan_improving_gans_stability_and_quality_via_consistent_latent_representatio.md)
+- [\[ICLR 2026\] Condition Matters in Full-head 3D GANs](../../ICLR2026/others/condition_matters_in_full-head_3d_gans.md)
 - [\[ECCV 2024\] A Framework for Efficient Model Evaluation through Stratification, Sampling, and Estimation](a_framework_for_efficient_model_evaluation_through_stratific.md)
 - [\[ECCV 2024\] Wavelength-Embedding-guided Filter-Array Transformer for Spectral Demosaicing](wavelength-embedding-guided_filter-array_transformer_for_spectral_demosaicing.md)
-- [\[ICCV 2025\] despite exploring contrastive deep skeletonpointcloudimutext](../../ICCV2025/others/despite_exploring_contrastive_deep_skeletonpointcloudimutext.md)
-- [\[NeurIPS 2025\] Kernel Conditional Tests from Learning-Theoretic Bounds](../../NeurIPS2025/others/kernel_conditional_tests_from_learning-theoretic_bounds.md)
+- [\[ICLR 2026\] Harpoon: Generalised Manifold Guidance for Conditional Tabular Diffusion](../../ICLR2026/others/harpoon_generalised_manifold_guidance_for_conditional_tabular_diffusion.md)
 
 <!-- RELATED:END -->

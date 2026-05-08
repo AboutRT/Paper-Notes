@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2405.20404](https://arxiv.org/abs/2405.20404)  
-**代码**: https://github.com/yuruic/JoPA  
+**代码**: [https://github.com/yuruic/JoPA](https://github.com/yuruic/JoPA)  
 **领域**: LLM/NLP  
 **关键词**: prompt attribution, interpretability, counterfactual, combinatorial optimization, generation explanation
 
@@ -128,6 +128,6 @@ tags:
 - [\[ACL 2025\] SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition](songcomposer_llm_lyric_melody_generation.md)
 - [\[ACL 2025\] OPTS: Bandit-Based Prompt Design Strategy Selection Improves Prompt Optimizers](bandit-based_prompt_design_strategy_selection_improves_prompt_optimizers.md)
 - [\[ACL 2025\] What Makes a Good Natural Language Prompt?](good_natural_language_prompt.md)
-- [\[ACL 2025\] Representation Bending for Large Language Model Safety](repbend_representation_bending_safety.md)
+- [\[ACL 2025\] Attribution Methods in NLP: Navigating a Fragmented Landscape](attribution_methods_in_nlp_navigating_a_fragmented_landscape.md)
 
 <!-- RELATED:END -->

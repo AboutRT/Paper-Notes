@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.07009](https://arxiv.org/abs/2410.07009)  
 **代码**: [有](https://github.com/boschresearch/Pap2Pat)  
-**领域**: NLP / 长文本生成  
+**领域**: LLM评测  
 **关键词**: 专利生成, 长文档生成, 大纲引导, Patent-Paper Pairs, 分块生成
 
 ## 一句话总结

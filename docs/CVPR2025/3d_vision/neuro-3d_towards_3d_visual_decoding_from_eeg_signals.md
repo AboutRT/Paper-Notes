@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.12248](https://arxiv.org/abs/2411.12248)  
-**代码**: https://github.com/gzq17/neuro-3D  
+**代码**: [https://github.com/gzq17/neuro-3D](https://github.com/gzq17/neuro-3D)  
 **领域**: 3D视觉  
 **关键词**: EEG解码、脑机接口、3D点云重建、动态静态融合、CLIP对齐
 

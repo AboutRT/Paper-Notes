@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.10604](https://arxiv.org/abs/2410.10604)  
-**代码**: https://github.com/openmedlab/BrainMVP  
+**代码**: [https://github.com/openmedlab/BrainMVP](https://github.com/openmedlab/BrainMVP)  
 **领域**: 医学图像 / 自监督预训练  
 **关键词**: 多模态MRI预训练, 跨模态重建, 模态数据蒸馏, 模态感知对比学习, 脑部MRI
 

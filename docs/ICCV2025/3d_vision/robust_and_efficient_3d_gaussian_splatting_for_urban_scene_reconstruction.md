@@ -18,7 +18,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.23006](https://arxiv.org/abs/2507.23006)  
-**代码**: [https://yzslab.github.io/REUrbanGS](https://yzslab.github.io/REUrbanGS) (有)  
+**代码**: [https://yzslab.github.io/REUrbanGS](https://yzslab.github.io/REUrbanGS)  
 **领域**: 3D视觉  
 **关键词**: 3DGS, 城市场景重建, LOD策略, 外观变换, 分区训练, 实时渲染
 

@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2508.16623](https://arxiv.org/abs/2508.16623)  
 **代码**: [RWLinno/RAST](https://github.com/RWLinno/RAST)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: traffic prediction, retrieval-augmented, spatio-temporal forecasting, memory bank, STGNN  
 
 ## 一句话总结

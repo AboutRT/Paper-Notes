@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.11712](https://arxiv.org/abs/2506.11712)  
 **代码**: [https://github.com/Liuwq-bit/SymMPO](https://github.com/Liuwq-bit/SymMPO)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: DPO, 多模态幻觉, 偏好优化, 视觉理解, 对称偏好学习
 
 ## 一句话总结

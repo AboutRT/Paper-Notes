@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.09621](https://arxiv.org/abs/2504.09621)  
-**代码**: https://github.com/CastleChen339/DehazeXL  
+**代码**: [https://github.com/CastleChen339/DehazeXL](https://github.com/CastleChen339/DehazeXL)  
 **领域**: 图像复原 / 去雾  
 **关键词**: 大图像去雾, 全局注意力, patch tokenization, 高分辨率, 归因分析
 
@@ -131,8 +131,8 @@ DehazeXL 提出了一种端到端的大图像去雾方法，将输入图像分�
 
 - [\[ICLR 2026\] Mechanism of Task-oriented Information Removal in In-context Learning](../../ICLR2026/image_restoration/mechanism_of_task-oriented_information_removal_in_in-context_learning.md)
 - [\[CVPR 2025\] Detail-Preserving Latent Diffusion for Stable Shadow Removal](detail-preserving_latent_diffusion_for_stable_shadow_removal.md)
-- [\[CVPR 2026\] NTIRE 2026 The Second Challenge on Day and Night Raindrop Removal for Dual-Focused Images](../../CVPR2026/image_restoration/ntire_2026_raindrop_removal_challenge.md)
+- [\[CVPR 2025\] Reversible Decoupling Network for Single Image Reflection Removal](reversible_decoupling_network_for_single_image_reflection_removal.md)
 - [\[ICCV 2025\] MobileIE: An Extremely Lightweight and Effective ConvNet for Real-Time Image Enhancement on Mobile Devices](../../ICCV2025/image_restoration/mobileie_an_extremely_lightweight_and_effective_convnet_for_real-time_image_enha.md)
-- [\[NeurIPS 2025\] Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmark](../../NeurIPS2025/image_restoration/enhancing_infrared_vision_progressive_prompt_fusion_network_and_benchmark.md)
+- [\[CVPR 2026\] NTIRE 2026 The Second Challenge on Day and Night Raindrop Removal for Dual-Focused Images](../../CVPR2026/image_restoration/ntire_2026_raindrop_removal_challenge.md)
 
 <!-- RELATED:END -->

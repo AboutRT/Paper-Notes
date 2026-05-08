@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 视频扩散模型
-  - 自监督追踪
+  - 视频生成
   - 运动表示
   - 相似外观物体
   - 标签传播
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.02339](https://arxiv.org/abs/2512.02339)  
 **代码**: 无  
-**领域**: 图像生成 / 目标追踪  
+**领域**: 视频生成  
 **关键词**: 视频扩散模型, 自监督追踪, 运动表示, 相似外观物体, 标签传播
 
 ## 一句话总结
@@ -143,9 +143,9 @@ TED (Temporal Enhanced Diffusion) 框架：(1) 从视频扩散模型提取运动
 ## 相关论文
 
 - [\[CVPR 2025\] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](../../CVPR2025/video_generation/videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
-- [\[CVPR 2025\] Exploring Temporally-Aware Features for Point Tracking](../../CVPR2025/video_generation/exploring_temporally-aware_features_for_point_tracking.md)
 - [\[CVPR 2025\] Articulated Kinematics Distillation from Video Diffusion Models](../../CVPR2025/video_generation/articulated_kinematics_distillation_from_video_diffusion_models.md)
-- [\[CVPR 2025\] InterDyn: Controllable Interactive Dynamics with Video Diffusion Models](../../CVPR2025/video_generation/interdyn_controllable_interactive_dynamics_with_video_diffusion_models.md)
+- [\[NeurIPS 2025\] S²Q-VDiT: Accurate Quantized Video Diffusion Transformer with Salient Data and Sparse Token Distillation](s2q-vdit_accurate_quantized_video_diffusion_transformer_with_salient_data_and_sp.md)
 - [\[NeurIPS 2025\] VMDT: Decoding the Trustworthiness of Video Foundation Models](vmdt_decoding_the_trustworthiness_of_video_foundation_models.md)
+- [\[CVPR 2025\] StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models](../../CVPR2025/video_generation/streetcrafter_street_view_synthesis_with_controllable_video_diffusion_models.md)
 
 <!-- RELATED:END -->

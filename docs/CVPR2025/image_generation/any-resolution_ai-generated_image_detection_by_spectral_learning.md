@@ -1,10 +1,10 @@
 ---
 title: "[论文解读] SPAI: Any-Resolution AI-Generated Image Detection by Spectral Learning"
 description: >-
-  [CVPR 2025][AI生成图像检测] 提出SPAI，通过自监督频率重建学习真实图像的频谱分布，利用频谱重建相似度和频谱上下文注意力检测任意分辨率AI生成图像，在13种生成模型上平均AUC达91.0%，超越SOTA 5.5%。
+  [CVPR 2025][图像生成] 提出SPAI，通过自监督频率重建学习真实图像的频谱分布，利用频谱重建相似度和频谱上下文注意力检测任意分辨率AI生成图像，在13种生成模型上平均AUC达91.0%，超越SOTA 5.5%。
 tags:
   - CVPR 2025
-  - AIGC检测
+  - 图像生成
   - 频谱学习
   - 自监督
   - 分布外检测
@@ -15,8 +15,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.19417](https://arxiv.org/abs/2411.19417)  
-**代码**: https://mever-team.github.io/spai  
-**领域**: AI生成图像检测  
+**代码**: [https://mever-team.github.io/spai](https://mever-team.github.io/spai)  
+**领域**: 图像生成  
 **关键词**: 频谱学习, 自监督, 频率重建, OOD检测, 任意分辨率
 
 ## 一句话总结
@@ -139,10 +139,10 @@ SPAI 以 91.0% 平均 AUC 领先次优方法 5.5%，且在 SD3、DALLE3、Firefl
 
 ## 相关论文
 
+- [\[CVPR 2025\] A Bias-Free Training Paradigm for More General AI-generated Image Detection](a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)
 - [\[CVPR 2025\] Where's the Liability in the Generative Era? Recovery-Based Black-Box Detection of AI-Generated Content](wheres_the_liability_in_the_generative_era_recovery-based_black-box_detection_of.md)
 - [\[NeurIPS 2025\] Epistemic Uncertainty for Generated Image Detection](../../NeurIPS2025/image_generation/epistemic_uncertainty_for_generated_image_detection.md)
 - [\[NeurIPS 2025\] Physics-Driven Spatiotemporal Modeling for AI-Generated Video Detection](../../NeurIPS2025/image_generation/physics-driven_spatiotemporal_modeling_for_ai-generated_video_detection.md)
-- [\[AAAI 2026\] Aggregating Diverse Cue Experts for AI-Generated Image Detection](../../AAAI2026/image_generation/aggregating_diverse_cue_experts_for_ai-generated_image_detec.md)
 - [\[CVPR 2025\] Symbolic Representation for Any-to-Any Generative Tasks](symbolic_representation_for_any-to-any_generative_tasks.md)
 
 <!-- RELATED:END -->

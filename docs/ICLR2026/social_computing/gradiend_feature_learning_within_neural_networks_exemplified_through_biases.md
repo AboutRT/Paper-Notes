@@ -9,7 +9,7 @@ tags:
   - 性别偏见消除
   - 梯度编码器-解码器
   - Transformer
-  - 可解释性
+  - 社会计算
 ---
 
 # GRADIEND: Feature Learning within Neural Networks Exemplified through Biases
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2502.01406](https://arxiv.org/abs/2502.01406)  
 **代码**: [https://github.com/aieng-lab/gradiend](https://github.com/aieng-lab/gradiend)  
-**领域**: Others (AI Fairness / Interpretability)  
+**领域**: 社会计算  
 **关键词**: 单语义特征学习, 性别偏见消除, 梯度编码器-解码器, Transformer去偏, 可解释性
 
 ## 一句话总结
@@ -147,10 +147,10 @@ AI系统经常表现出并放大社会偏见（如性别偏见），在法律、
 
 ## 相关论文
 
-- [\[CVPR 2025\] Learning from Neighbors: Category Extrapolation for Long-Tail Learning](../../CVPR2025/social_computing/learning_from_neighbors_category_extrapolation_for_long-tail_learning.md)
 - [\[ACL 2025\] BanStereoSet: A Dataset to Measure Stereotypical Social Biases in LLMs for Bangla](../../ACL2025/social_computing/banstereoset_a_dataset_to_measure_stereotypical_social_biases_in_llms_for_bangla.md)
 - [\[ACL 2025\] Measuring Social Biases in Masked Language Models by Proxy of Prediction Quality](../../ACL2025/social_computing/measuring_social_biases_in_masked_language_models_by_proxy_of_prediction_quality.md)
+- [\[CVPR 2025\] Learning from Neighbors: Category Extrapolation for Long-Tail Learning](../../CVPR2025/social_computing/learning_from_neighbors_category_extrapolation_for_long-tail_learning.md)
+- [\[ICCV 2025\] Learning Visual Proxy for Compositional Zero-Shot Learning](../../ICCV2025/social_computing/learning_visual_proxy_for_compositional_zero-shot_learning.md)
 - [\[NeurIPS 2025\] Noise-Robustness Through Noise: A Framework Combining Asymmetric LoRA with Poisoning MoE](../../NeurIPS2025/social_computing/noise-robustness_through_noise_a_framework_combining_asymmetric_lora_with_poison.md)
-- [\[CVPR 2026\] Learning from Synthetic Data via Provenance-Based Input Gradient Guidance](../../CVPR2026/social_computing/learning_from_synthetic_data_via_provenance-based_input_gradient_guidance.md)
 
 <!-- RELATED:END -->

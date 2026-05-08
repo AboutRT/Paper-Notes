@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 Main  
 **arXiv**: [2507.18171](https://arxiv.org/abs/2507.18171)  
 **代码**: [GitHub](https://github.com/March-7/StickyToken)  
-**领域**: NLP理解  
+**领域**: 信息检索  
 **关键词**: 文本嵌入、粘性token、词表异常、tokenization鲁棒性、嵌入模型分析
 
 ## 一句话总结

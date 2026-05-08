@@ -5,7 +5,7 @@ description: >-
   [ICLR 2026][Reasoning-Induced Misalignment] 发现并机制性地解释"推理诱导失对齐"（RIM）现象：增强推理能力（CoT prompting 或数学微调）会削弱安全守护，原因是推理和安全共享神经元资源，训练推理时安全关键神经元的激活发生不成比例的偏移。
 tags:
   - ICLR 2026
-  - Reasoning-Induced Misalignment
+  - 可解释性
   - 安全对齐
   - 机制分析
   - 注意力头
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.00544](https://arxiv.org/abs/2509.00544)  
-**代码**: https://github.com/seacowx/When-Thinking-Backfires  
-**领域**: LLM推理  
+**代码**: [https://github.com/seacowx/When-Thinking-Backfires](https://github.com/seacowx/When-Thinking-Backfires)  
+**领域**: 可解释性  
 **关键词**: Reasoning-Induced Misalignment, 安全对齐, 机制分析, 注意力头, 灾难性遗忘
 
 ## 一句话总结

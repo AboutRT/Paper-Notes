@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.10573](https://arxiv.org/abs/2604.10573)  
-**代码**: https://bobochow.github.io/UniSplat  
+**代码**: [https://bobochow.github.io/UniSplat](https://bobochow.github.io/UniSplat)  
 **领域**: 3D视觉  
 **关键词**: 3D表示学习, 空间智能, 高斯溅射, 自监督学习, 无位姿多视角
 

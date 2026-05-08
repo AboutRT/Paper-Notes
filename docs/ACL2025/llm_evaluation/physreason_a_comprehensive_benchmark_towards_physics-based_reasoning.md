@@ -2,10 +2,10 @@
 title: >-
   [论文解读] PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning
 description: >-
-  [ACL 2025][物理推理] 提出 PhysReason 基准，包含 1200 道物理题（平均 8.1 步解题），设计了答案级和步骤级两层自动评估框架 PSAS，揭示顶尖模型（Deepseek-R1、o3-mini）在物理推理上准确率不足 60%，并识别出四大推理瓶颈。
+  [ACL 2025][LLM评测] 提出 PhysReason 基准，包含 1200 道物理题（平均 8.1 步解题），设计了答案级和步骤级两层自动评估框架 PSAS，揭示顶尖模型（Deepseek-R1、o3-mini）在物理推理上准确率不足 60%，并识别出四大推理瓶颈。
 tags:
   - ACL 2025
-  - 物理推理
+  - LLM评测
   - benchmark
   - 步骤级评估
   - 多模态
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.12054](https://arxiv.org/abs/2502.12054)  
 **代码**: [dxzxy12138/PhysReason](https://dxzxy12138.github.io/PhysReason/)  
-**领域**: 其他  
+**领域**: LLM评测  
 **关键词**: 物理推理, benchmark, 步骤级评估, 多模态, 大语言模型
 
 ## 一句话总结
@@ -157,8 +157,8 @@ PSAS 框架的评估准确率超过 98%，远超 LLM 直接评估。
 
 - [\[ICCV 2025\] 3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark](../../ICCV2025/llm_evaluation/3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)
 - [\[ACL 2025\] FinanceReasoning: Benchmarking Financial Numerical Reasoning More Credible, Comprehensive and Challenging](financereasoning_benchmarking_financial_numerical_reasoning_more.md)
-- [\[ACL 2025\] ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](elaboration_competitive_programming.md)
 - [\[ACL 2025\] KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding](kitab-bench_a_comprehensive_multi-domain_benchmark_for_arabic_ocr_and_document_u.md)
-- [\[ACL 2025\] CFBench: A Comprehensive Constraints-Following Benchmark for LLMs](cfbench_a_comprehensive_constraints-following_benchmark_for_llms.md)
+- [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](com2_causal_commonsense.md)
+- [\[ACL 2025\] ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](elaboration_competitive_programming.md)
 
 <!-- RELATED:END -->

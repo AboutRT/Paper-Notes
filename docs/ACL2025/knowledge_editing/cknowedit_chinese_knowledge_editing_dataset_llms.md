@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2409.05806](https://arxiv.org/abs/2409.05806)  
-**代码**: https://github.com/zjunlp/EasyEdit  
+**代码**: [https://github.com/zjunlp/EasyEdit](https://github.com/zjunlp/EasyEdit)  
 **领域**: 知识编辑 / 中文NLP  
 **关键词**: 知识编辑, 中文数据集, 语言学, 逻辑陷阱, 文化知识
 
@@ -127,8 +127,8 @@ CKnowEdit 的构建流程为：**多源数据收集 → Qwen-7B-Chat 过滤（�
 
 - [\[ACL 2025\] ToxEdit: Adaptive Detoxification Safeguarding General Capabilities of LLMs through Toxicity-Aware Knowledge Editing](adaptive_detoxification_safeguarding_general_capabilities_of_llms_through_toxici.md)
 - [\[ICML 2025\] WikiBigEdit: Understanding the Limits of Lifelong Knowledge Editing in LLMs](../../ICML2025/knowledge_editing/wikibigedit_understanding_the_limits_of_lifelong_knowledge_editing_in_llms.md)
+- [\[NeurIPS 2025\] Edit Less, Achieve More: Dynamic Sparse Neuron Masking for Lifelong Knowledge Editing in LLMs](../../NeurIPS2025/knowledge_editing/edit_less_achieve_more_dynamic_sparse_neuron_masking_for_lifelong_knowledge_edit.md)
 - [\[ACL 2025\] SAKE: Steering Activations for Knowledge Editing](sake_steering_activations_for_knowledge_editing.md)
 - [\[ACL 2025\] ScEdit: Script-based Assessment of Knowledge Editing](scedit_script-based_assessment_of_knowledge_editing.md)
-- [\[ACL 2025\] Revealing the Deceptiveness of Knowledge Editing: A Mechanistic Analysis of Superficial Editing](revealing_the_deceptiveness_of_knowledge_editing_a_mechanistic_analysis_of_super.md)
 
 <!-- RELATED:END -->

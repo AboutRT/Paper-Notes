@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21780](https://arxiv.org/abs/2503.21780)  
-**代码**: https://thegoodailab.org/semla  
+**代码**: [https://thegoodailab.org/semla](https://thegoodailab.org/semla)  
 **领域**: 分割 / 域适应  
 **关键词**: 开放词汇语义分割, LoRA适配器, 域适应, 测试时适应, CLIP
 

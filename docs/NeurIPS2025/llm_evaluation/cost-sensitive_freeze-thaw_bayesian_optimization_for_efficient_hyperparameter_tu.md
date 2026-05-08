@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Cost-Sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning
 description: >-
-  [NeurIPS 2025][超参优化] CFBO 将用户定义的效用函数（成本 vs 性能的权衡）引入冻结-解冻贝叶斯优化框架，结合自适应停止准则和基于 LC mixup 的迁移学习，在多保真度 HPO 基准上实现了成本-性能最优权衡。
+  [NeurIPS 2025][LLM评测] CFBO 将用户定义的效用函数（成本 vs 性能的权衡）引入冻结-解冻贝叶斯优化框架，结合自适应停止准则和基于 LC mixup 的迁移学习，在多保真度 HPO 基准上实现了成本-性能最优权衡。
 tags:
   - NeurIPS 2025
-  - 超参优化
+  - LLM评测
   - 贝叶斯优化
   - 冻结-解冻
   - 成本敏感
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21379](https://arxiv.org/abs/2510.21379)  
 **代码**: [GitHub](https://github.com/db-Lee/CFBO)  
-**领域**: others (AutoML / 超参优化)  
+**领域**: LLM评测  
 **关键词**: 超参优化, 贝叶斯优化, 冻结-解冻, 成本敏感, 学习曲线外推, 迁移学习
 
 ## 一句话总结
@@ -144,8 +144,8 @@ $\lambda_1, \lambda_2 \sim \text{Uniform}(0,1)$。可无限采样训练数据，
 
 - [\[ICML 2025\] Provably Cost-Sensitive Adversarial Defense via Randomized Smoothing](../../ICML2025/llm_evaluation/provably_cost-sensitive_adversarial_defense_via_randomized_smoothing.md)
 - [\[ICML 2025\] Hyperband-based Bayesian Optimization for Black-box Prompt Selection](../../ICML2025/llm_evaluation/hyperband-based_bayesian_optimization_for_black-box_prompt_selection.md)
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](bayesian_evaluation_of_large_language_model_behavior.md)
-- [\[NeurIPS 2025\] HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization](hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md)
+- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](hyperbolic_fine-tuning_for_large_language_models.md)
 - [\[NeurIPS 2025\] Efficient Semantic Uncertainty Quantification in Language Models via Diversity-Steered Sampling](efficient_semantic_uncertainty_quantification_in_language_models_via_diversity-s.md)
+- [\[NeurIPS 2025\] Conformal Prediction in The Loop: A Feedback-Based Uncertainty Model for Trajectory Optimization](conformal_prediction_in_the_loop_a_feedback-based_uncertainty_model_for_trajecto.md)
 
 <!-- RELATED:END -->

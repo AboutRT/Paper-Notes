@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **PDF**: [ECVA](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03403.pdf)
-**代码**: https://github.com/zhixue-fang/VPSAM (有)  
+**代码**: [https://github.com/zhixue-fang/VPSAM](https://github.com/zhixue-fang/VPSAM)  
 **领域**: 分割  
 **关键词**: 视频息肉分割, SAM适配, 语义解耦, 时空建模, 频域分析
 

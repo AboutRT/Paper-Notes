@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2403.13965](https://arxiv.org/abs/2403.13965)  
 **代码**: [eceo-epfl/ConGeo](https://eceo-epfl.github.io/ConGeo/)  
-**领域**: remote_sensing  
+**领域**: 遥感  
 **关键词**: cross-view geo-localization, contrastive learning, orientation invariance, field of view, image retrieval
 
 ## 一句话总结

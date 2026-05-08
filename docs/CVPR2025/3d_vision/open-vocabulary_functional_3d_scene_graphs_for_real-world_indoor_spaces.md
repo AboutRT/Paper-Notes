@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19199](https://arxiv.org/abs/2503.19199)  
-**代码**: https://openfungraph.github.io  
+**代码**: [https://openfungraph.github.io](https://openfungraph.github.io)  
 **领域**: 3D视觉  
 **关键词**: 3D场景图, 功能关系, 交互元素, 基础模型, 开放词汇
 

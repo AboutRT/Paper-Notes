@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.18397](https://arxiv.org/abs/2504.18397)  
-**代码**: https://github.com/kesenzhao/UV-CoT  
+**代码**: [https://github.com/kesenzhao/UV-CoT](https://github.com/kesenzhao/UV-CoT)  
 **领域**: LLM Reasoning / Multimodal  
 **关键词**: Visual CoT, 偏好优化, 无监督学习, 多模态推理, Bounding Box
 

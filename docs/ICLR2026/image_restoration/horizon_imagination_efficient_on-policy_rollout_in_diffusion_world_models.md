@@ -8,7 +8,7 @@ tags:
   - 图像恢复
   - 扩散世界模型
   - on-policy rollout
-  - 强化学习
+  - 图像复原
   - 样本效率
   - Atari
 ---
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.08032](https://arxiv.org/abs/2602.08032)  
-**代码**: https://github.com/leor-c/horizon-imagination  
-**领域**: 强化学习 / 世界模型  
+**代码**: [https://github.com/leor-c/horizon-imagination](https://github.com/leor-c/horizon-imagination)  
+**领域**: 图像复原  
 **关键词**: 扩散世界模型, on-policy rollout, 强化学习, 样本效率, Atari
 
 ## 一句话总结
@@ -117,7 +117,7 @@ tags:
 - [\[ICLR 2026\] wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models](wd1_weighted_policy_optimization_for_reasoning_in_diffusion_language_models.md)
 - [\[ICLR 2026\] Activation Steering for Masked Diffusion Language Models](activation_steering_for_masked_diffusion_language_models.md)
 - [\[ICLR 2026\] Are Deep Speech Denoising Models Robust to Adversarial Noise?](are_deep_speech_denoising_models_robust_to_adversarial_noise.md)
-- [\[AAAI 2026\] RefiDiff: Progressive Refinement Diffusion for Efficient Missing Data Imputation](../../AAAI2026/image_restoration/refidiff_progressive_refinement_diffusion_for_efficient_missing_data_imputation.md)
 - [\[ACL 2026\] Lost in Diffusion: Uncovering Hallucination Patterns and Failure Modes in Diffusion Large Language Models](../../ACL2026/image_restoration/lost_in_diffusion_uncovering_hallucination_patterns_and_failure_modes_in_diffusi.md)
+- [\[ICLR 2026\] AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size](adablock-dllm_semantic-aware_diffusion_llm_inference_via_adaptive_block_size.md)
 
 <!-- RELATED:END -->

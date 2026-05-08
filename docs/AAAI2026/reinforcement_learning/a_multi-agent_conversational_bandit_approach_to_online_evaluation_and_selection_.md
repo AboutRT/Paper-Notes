@@ -7,7 +7,7 @@ tags:
   - AAAI 2026
   - multi-agent bandit
   - conversational bandit
-  - LLM response selection
+  - 强化学习
   - user preference alignment
   - regret bound
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2501.01849](https://arxiv.org/abs/2501.01849)  
 **代码**: [GitHub](https://github.com/TarferSoul/MACO)  
-**领域**: Agent / Online Learning  
+**领域**: 强化学习  
 **关键词**: multi-agent bandit, conversational bandit, LLM response selection, user preference alignment, regret bound
 
 ## 一句话总结
@@ -116,10 +116,10 @@ StyleEval 数据集上不同 embedding 模型和 agent 数量的累积 regret：
 
 ## 相关论文
 
-- [\[AAAI 2026\] Provably Efficient Multi-Objective Bandit Algorithms under Preference-Centric Customization](provably_efficient_multi-objective_bandit_algorithms_under_preference-centric_cu.md)
 - [\[ICLR 2026\] Toward a Dynamic Stackelberg Game-Theoretic Framework for Agent-Based Conversational AI Defense Against LLM Jailbreaking](../../ICLR2026/reinforcement_learning/toward_a_dynamic_stackelberg_game-theoretic_framework_for_agent-based_conversat.md)
-- [\[AAAI 2026\] Perturbing Best Responses in Zero-Sum Games](perturbing_best_responses_in_zero-sum_games.md)
-- [\[ACL 2026\] Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization](../../ACL2026/reinforcement_learning/optimizing_user_profiles_via_contextual_bandits_for_retrieval-augmented_llm_pers.md)
+- [\[AAAI 2026\] Provably Efficient Multi-Objective Bandit Algorithms under Preference-Centric Customization](provably_efficient_multi-objective_bandit_algorithms_under_preference-centric_cu.md)
 - [\[AAAI 2026\] BAMAS: Structuring Budget-Aware Multi-Agent Systems](bamas_structuring_budget-aware_multi-agent_systems.md)
+- [\[AAAI 2026\] Explaining Decentralized Multi-Agent Reinforcement Learning Policies](explaining_decentralized_multi-agent_reinforcement_learning_policies.md)
+- [\[AAAI 2026\] Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach](vision-language_reasoning_for_geolocalization_a_reinforcement_learning_approach.md)
 
 <!-- RELATED:END -->

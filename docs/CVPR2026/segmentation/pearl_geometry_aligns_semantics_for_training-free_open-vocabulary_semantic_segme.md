@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21528](https://arxiv.org/abs/2603.21528)  
-**代码**: https://github.com/PGSmall/PEARL  
+**代码**: [https://github.com/PGSmall/PEARL](https://github.com/PGSmall/PEARL)  
 **领域**: 语义分割 / 开放词汇  
 **关键词**: 开放词汇语义分割, 训练免微调, Procrustes对齐, 拉普拉斯传播, CLIP
 

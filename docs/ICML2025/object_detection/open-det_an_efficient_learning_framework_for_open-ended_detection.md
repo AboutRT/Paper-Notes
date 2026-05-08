@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.20639](https://arxiv.org/abs/2505.20639)  
-**代码**: https://github.com/Med-Process/Open-Det  
+**代码**: [https://github.com/Med-Process/Open-Det](https://github.com/Med-Process/Open-Det)  
 **领域**: 目标检测 / 开放词汇检测 / 多模态VLM  
 **关键词**: Open-Ended Detection, Vision-Language Alignment, knowledge distillation, LoRa Head, Masked Alignment Loss
 

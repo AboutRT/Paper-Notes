@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - preference learning
   - subliminal signals
-  - LLM-as-a-judge
+  - LLM评测
   - alignment safety
   - covert communication
   - superalignment
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.01204](https://arxiv.org/abs/2603.01204)  
 **代码**: [GitHub](https://github.com/ETH-DISCO/subliminal-signals-in-preference-labels)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: preference learning, subliminal signals, LLM-as-a-judge, alignment safety, covert communication, superalignment
 
 ## 一句话总结
@@ -168,8 +168,8 @@ DPO 的迭代对齐信号反而减弱，可能与 DPO 的 KL 正则化有关。
 
 - [\[ICLR 2026\] Preference Leakage: A Contamination Problem in LLM-as-a-judge](preference_leakage_a_contamination_problem_in_llm-as-a-judge.md)
 - [\[ICLR 2026\] Unpacking Human Preference for LLMs: Demographically Aware Evaluation with the HUMAINE Framework](unpacking_human_preference_for_llms_demographically_aware_evaluation_with_the_hu.md)
-- [\[NeurIPS 2025\] Semi-Supervised Regression with Heteroscedastic Pseudo-Labels](../../NeurIPS2025/llm_evaluation/semi-supervised_regression_with_heteroscedastic_pseudo-labels.md)
 - [\[NeurIPS 2025\] ComPO: Preference Alignment via Comparison Oracles](../../NeurIPS2025/llm_evaluation/compo_preference_alignment_via_comparison_oracles.md)
+- [\[NeurIPS 2025\] Semi-Supervised Regression with Heteroscedastic Pseudo-Labels](../../NeurIPS2025/llm_evaluation/semi-supervised_regression_with_heteroscedastic_pseudo-labels.md)
 - [\[NeurIPS 2025\] Reliably Detecting Model Failures in Deployment Without Labels](../../NeurIPS2025/llm_evaluation/reliably_detecting_model_failures_in_deployment_without_labels.md)
 
 <!-- RELATED:END -->

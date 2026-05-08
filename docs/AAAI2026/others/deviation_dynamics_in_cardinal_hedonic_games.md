@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.11531](https://arxiv.org/abs/2511.11531)  
 **代码**: 无  
-**领域**: 博弈论 / 算法  
+**领域**: 其他  
 **关键词**: 享乐博弈, 偏离动态, 稳定分区, 计算复杂度, 个体理性
 
 ## 一句话总结
@@ -130,6 +130,6 @@ tags:
 - [\[AAAI 2026\] A Phase Transition for Opinion Dynamics with Competing Biases](a_phase_transition_for_opinion_dynamics_with_competing_biase.md)
 - [\[AAAI 2026\] LILAD: Learning In-context Lyapunov-stable Adaptive Dynamics Models](lilad_learning_in-context_lyapunov-stable_adaptive_dynamics_models.md)
 - [\[NeurIPS 2025\] Evolutionary Prediction Games](../../NeurIPS2025/others/evolutionary_prediction_games.md)
-- [\[NeurIPS 2025\] Normalization in Attention Dynamics](../../NeurIPS2025/others/normalization_in_attention_dynamics.md)
+- [\[NeurIPS 2025\] Efficient Kernelized Learning in Polyhedral Games Beyond Full-Information: From Colonel Blotto to Congestion Games](../../NeurIPS2025/others/efficient_kernelized_learning_in_polyhedral_games_beyond_full-information_from_c.md)
 
 <!-- RELATED:END -->

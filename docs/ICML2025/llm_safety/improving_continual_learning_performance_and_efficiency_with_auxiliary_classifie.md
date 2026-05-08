@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - continual learning
-  - early-exit networks
+  - LLM安全
   - catastrophic forgetting
   - task-recency bias
   - dynamic inference
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2403.07404](https://arxiv.org/abs/2403.07404)  
-**代码**: https://anonymous.4open.science/r/ContinualEE (待公开)  
+**代码**: [https://anonymous.4open.science/r/ContinualEE](https://anonymous.4open.science/r/ContinualEE) (待公开)  
 **领域**: 持续学习 / 高效推理  
 **关键词**: continual learning, early-exit networks, catastrophic forgetting, task-recency bias, dynamic inference
 

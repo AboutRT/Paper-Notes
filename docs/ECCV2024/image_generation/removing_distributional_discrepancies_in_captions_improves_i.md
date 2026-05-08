@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2410.00905](https://arxiv.org/abs/2410.00905)  
-**代码**: https://yuheng-li.github.io/LLaVA-score/ (有)  
-**领域**: 多模态VLM  
+**代码**: [https://yuheng-li.github.io/LLaVA-score/](https://yuheng-li.github.io/LLaVA-score/)  
+**领域**: 图像生成  
 **关键词**: 图文对齐, 负样本生成, 分布偏差, LLaVA, 组合理解
 
 ## 一句话总结
@@ -134,8 +134,8 @@ tags:
 
 - [\[ECCV 2024\] LCM-Lookahead for Encoder-based Text-to-Image Personalization](lcm-lookahead_for_encoder-based_text-to-image_personalization.md)
 - [\[ECCV 2024\] Latent Guard: a Safety Framework for Text-to-Image Generation](latent_guard_a_safety_framework_for_text-to-image_generation.md)
-- [\[ECCV 2024\] Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](powerful_and_flexible_personalized_text-to-image_generation_via_reinforcement_le.md)
 - [\[ECCV 2024\] LivePhoto: Real Image Animation with Text-guided Motion Control](livephoto_real_image_animation_with_text-guided_motion_control.md)
+- [\[ECCV 2024\] Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](powerful_and_flexible_personalized_text-to-image_generation_via_reinforcement_le.md)
 - [\[ECCV 2024\] MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization](mixdq_memory-efficient_few-step_text-to-image_diffusion_models_with_metric-decou.md)
 
 <!-- RELATED:END -->

@@ -47,15 +47,15 @@ tags:
 
 1. **多视图一致噪声采样（Multiview Consistent Noise Sampling）**: 给定低分辨率（LR）输入图像集 $\{L^i\}$ 和相机位姿 $\{P^i\}$，先用LR图像预训练3DGS模型。在扩散采样初始步骤，随机初始化噪声潜变量 $x_t^i$，SR模型估计干净潜变量 $\hat{x}_0^i$，解码为中间高分辨率图像 $H^i$。关键步骤是用 $H^i$ 更新3DGS表示，然后从3DGS渲染获得3D一致的高分辨率图像 $R^i$。将 $R^i$ 重新编码为潜空间得到3D一致潜变量 $\ddot{x}_0^i$，用于替代原始估计 $\hat{x}_0^i$ 进行去噪：
 
-   $$x_{t-1}^i = \sqrt{\alpha_{t-1}} \ddot{x}_0^i + \eta_t \epsilon_\theta(x_t^i, t) + \sigma_t \epsilon_t$$
+    $x_{t-1}^i = \sqrt{\alpha_{t-1}} \ddot{x}_0^i + \eta_t \epsilon_\theta(x_t^i, t) + \sigma_t \epsilon_t$
 
 2. **子采样正则化训练目标（Subsampling-based Regularization）**: 总损失函数包含高分辨率监督和低分辨率一致性两项：
 
-   $$\mathcal{L}_{\text{all}} = \mathcal{L}_{\text{hr}}(H^i, R^i) + \lambda \mathcal{L}_{\text{lr}}(L^i, R_{lr}^i)$$
+    $\mathcal{L}_{\text{all}} = \mathcal{L}_{\text{hr}}(H^i, R^i) + \lambda \mathcal{L}_{\text{lr}}(L^i, R_{lr}^i)$
 
    其中 $R_{lr}^i$ 是将渲染图下采样到LR分辨率后的结果。两项损失均使用 $\ell_1$ 损失和D-SSIM损失的组合：
 
-   $$\mathcal{L}_\alpha = (1-\delta)\mathcal{L}_1^\alpha + \delta \mathcal{L}_{\text{D-SSIM}}^\alpha$$
+    $\mathcal{L}_\alpha = (1-\delta)\mathcal{L}_1^\alpha + \delta \mathcal{L}_{\text{D-SSIM}}^\alpha$
 
 3. **即插即用的SR模型兼容性**: 框架中的扩散SR模型不限于单图ISR或视频VSR，可兼容未来更先进的SR方法。与SuperGaussian不同，本方法无需微调视频模型，通过显式3D表示更直接地强制一致性。
 

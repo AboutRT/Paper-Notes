@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2504.06827](https://arxiv.org/abs/2504.06827)  
 **代码**: [https://lulusindazc.github.io/IAAOproject/](https://lulusindazc.github.io/IAAOproject/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: articulated objects, affordance, 3D Gaussian Splatting, foundation models, motion recovery, scene understanding
 
 ## 一句话总结

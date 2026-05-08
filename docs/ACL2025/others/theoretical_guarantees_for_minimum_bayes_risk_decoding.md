@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.12685](https://arxiv.org/abs/2502.12685)  
 **代码**: 无  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: 最小贝叶斯风险解码、MBR解码、收敛性保证、MAP解码比较、理论分析
 
 ## 一句话总结
@@ -132,6 +132,6 @@ tags:
 - [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
 - [\[ACL 2025\] ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search](arise_risk_adaptive_search.md)
 - [\[ACL 2025\] Consultant Decoding: Yet Another Synergistic Mechanism](consultant_decoding_yet_another_synergistic_mechanism.md)
-- [\[ACL 2025\] REP: Keys to Robust Edits — From Theoretical Insights to Practical Advances](rep_robust_knowledge_editing.md)
+- [\[ACL 2025\] When to Speak, When to Abstain: Contrastive Decoding with Abstention](when_to_speak_when_to_abstain.md)
 
 <!-- RELATED:END -->

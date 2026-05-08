@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2601.21872](https://arxiv.org/abs/2601.21872)  
 **代码**: [WebArbiter Project Page](https://webarbiter.github.io/)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: Web Agent, 过程奖励模型, 推理优先, 原则引导, 强化学习, 推理蒸馏
 
 ## 一句话总结

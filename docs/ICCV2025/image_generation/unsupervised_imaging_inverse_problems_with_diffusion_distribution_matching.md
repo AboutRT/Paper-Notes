@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2506.14605](https://arxiv.org/abs/2506.14605)  
-**代码**: https://github.com/inria-thoth/ddm4ip  
+**代码**: [https://github.com/inria-thoth/ddm4ip](https://github.com/inria-thoth/ddm4ip)  
 **领域**: 扩散模型  
 **关键词**: 无监督图像复原、逆问题、条件流匹配、分布匹配、前向模型学习
 

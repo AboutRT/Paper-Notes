@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.01552](https://arxiv.org/abs/2506.01552)  
-**代码**: https://github.com/RomanPlaud/hierarchical_decision_rules  
+**代码**: [https://github.com/RomanPlaud/hierarchical_decision_rules](https://github.com/RomanPlaud/hierarchical_decision_rules)  
 **领域**: 分类学习 / 层次分类  
 **关键词**: hierarchical classification, decision rules, optimal decoding, F-beta score, probabilistic classifiers
 

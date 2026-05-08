@@ -59,7 +59,7 @@ F3DGS分三个阶段：
    
    **核心思路**: 使用Umeyama $\mathcal{S}im(3)$ 估计计算尺度 $s_k$、旋转 $R_k$ 和平移 $\mathbf{t}_k$：
    
-   $$s_k, R_k, \mathbf{t}_k = \arg\min_{s,R,\mathbf{t}} \sum_j \|\mathbf{p}_j^{\text{anchor}} - (sR\mathbf{p}_j^{\text{client}} + \mathbf{t})\|^2$$
+    $s_k, R_k, \mathbf{t}_k = \arg\min_{s,R,\mathbf{t}} \sum_j \|\mathbf{p}_j^{\text{anchor}} - (sR\mathbf{p}_j^{\text{client}} + \mathbf{t})\|^2$
    
    为防止边界不连续，使用指数衰减SE(3)校正进行平滑：$T_t^{\text{smooth}} = \text{Exp}(\beta(t) \cdot \text{Log}(\Delta T)) \cdot T_t^{\text{aligned}}$
    
@@ -70,7 +70,7 @@ F3DGS分三个阶段：
    **功能**: 在局部训练中仅更新外观参数，保持位置固定
    
    **核心思路**: 
-   $$\mu_i^{(k)} = \mu_i \quad \forall k, \forall \text{steps}$$
+    $\mu_i^{(k)} = \mu_i \quad \forall k, \forall \text{steps}$
    
    仅外观参数 $\theta_{\text{app}} = \{s_i, q_i, \alpha_i, \mathbf{c_i}\}_{i=1}^M$（尺度、旋转、不透明度、球谐系数）接受梯度更新。同时维护可见性计数器 $v_{k,i}$，记录高斯 $i$ 在客户端 $k$ 训练时被光栅化的次数。
    
@@ -82,7 +82,7 @@ F3DGS分三个阶段：
    
    **核心思路**: 聚合权重与可见性成正比：
    
-   $$\alpha_{k,i} = \frac{v_{k,i}}{\sum_{j=1}^K v_{j,i} + \epsilon}$$
+    $\alpha_{k,i} = \frac{v_{k,i}}{\sum_{j=1}^K v_{j,i} + \epsilon}$
    
    全局属性为加权组合：$a_i = \sum_{k=1}^K \alpha_{k,i} a_{k,i}$
    
@@ -159,7 +159,7 @@ $$\mathcal{L}_k = \sum_{t \in \mathcal{I}_k} [(1-\lambda)\|I_t - \hat{I}_t\|_1 +
 ## 相关论文
 
 - [\[CVPR 2026\] Efficient Equivariant Transformer for Self-Driving Agent Modeling](efficient_equivariant_transformer_for_self-driving_agent_modeling.md)
-- [\[CVPR 2026\] LR-SGS: Robust LiDAR-Reflectance-Guided Salient Gaussian Splatting for Self-Driving Scene Reconstruction](lr-sgs_robust_lidar-reflectance-guided_salient_gaussian_splatting_for_self-drivi.md)
+- [\[CVPR 2026\] LR-SGS: Robust LiDAR-Reflectance-Guided Salient Gaussian Splatting for Self-Driving Scene Reconstruction](lrsgs_robust_lidarreflectanceguided_salient_gaussi.md)
 - [\[NeurIPS 2025\] Regret Lower Bounds for Decentralized Multi-Agent Stochastic Shortest Path Problems](../../NeurIPS2025/autonomous_driving/regret_lower_bounds_for_decentralized_multi-agent_stochastic_shortest_path_probl.md)
 - [\[CVPR 2026\] U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences](u4d_uncertainty-aware_4d_world_modeling_from_lidar_sequences.md)
 - [\[CVPR 2026\] FedBPrompt: Federated Domain Generalization Person Re-Identification via Body Distribution Aware Visual Prompts](fedbprompt_federated_domain_generalization_person.md)

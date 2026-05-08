@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 关系学习
-  - 知识图谱
+  - 其他
   - 统计关系AI
   - 评估方法
   - 实体预测
@@ -127,8 +127,8 @@ tags:
 
 - [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](beyond_world_models_rethinking_understanding_in_ai_models.md)
 - [\[NeurIPS 2025\] 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](../../NeurIPS2025/others/4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)
-- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](../../ACL2025/others/generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
-- [\[CVPR 2026\] Crowdsourcing of Real-world Image Annotation via Visual Properties](../../CVPR2026/others/crowdsourcing_of_real_world_image_annotation_via_visual_properties.md)
 - [\[ACL 2025\] Predicting Through Generation: Why Generation Is Better for Prediction](../../ACL2025/others/predicting_through_generation_why_generation_is_better_for_prediction.md)
+- [\[AAAI 2026\] Bandit Learning in Housing Markets](bandit_learning_in_housing_markets.md)
+- [\[ICML 2025\] General Agents Contain World Models](../../ICML2025/others/general_agents_contain_world_models.md)
 
 <!-- RELATED:END -->

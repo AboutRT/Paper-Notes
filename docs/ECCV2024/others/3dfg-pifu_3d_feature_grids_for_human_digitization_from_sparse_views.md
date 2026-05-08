@@ -2,10 +2,10 @@
 title: >-
   [论文解读] 3DFG-PIFu: 3D Feature Grids for Human Digitization from Sparse Views
 description: >-
-  [ECCV 2024][人体重建] 本文提出 3DFG-PIFu，通过引入3D特征网格（3D Feature Grids）在整个 pipeline 中全局融合多视图特征，替代传统逐点局部融合方式，并结合迭代网格精炼机制和基于 SDF 的 SMPL-X 特征，显著超越现有稀疏视图人体数字化 SOTA 方法。
+  [ECCV 2024][其他] 本文提出 3DFG-PIFu，通过引入3D特征网格（3D Feature Grids）在整个 pipeline 中全局融合多视图特征，替代传统逐点局部融合方式，并结合迭代网格精炼机制和基于 SDF 的 SMPL-X 特征，显著超越现有稀疏视图人体数字化 SOTA 方法。
 tags:
   - ECCV 2024
-  - 人体重建
+  - 其他
   - 多视图重建
   - 像素对齐隐式函数
   - 3D特征网格
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/kcyt/3DFG-PIFu  
-**领域**: 3D视觉  
+**代码**: [https://github.com/kcyt/3DFG-PIFu](https://github.com/kcyt/3DFG-PIFu)  
+**领域**: 其他  
 **关键词**: 人体重建, 多视图重建, 像素对齐隐式函数, 3D特征网格, SMPL-X
 
 ## 一句话总结
@@ -132,9 +132,9 @@ tags:
 ## 相关论文
 
 - [\[ECCV 2024\] High-Fidelity 3D Textured Shapes Generation by Sparse Encoding and Adversarial Decoding](high-fidelity_3d_textured_shapes_generation_by_sparse_encoding_and_adversarial_d.md)
+- [\[ECCV 2024\] Align before Collaborate: Mitigating Feature Misalignment for Robust Multi-Agent Perception](align_before_collaborate_mitigating_feature_misalignment_for_robust_multi-agent_.md)
 - [\[ACL 2025\] Adaptive Feature-based Low Rank Plus Sparse Decomposition for Subspace Clustering](../../ACL2025/others/adaptive_feature-based_low_rank_plus_sparse_decomposition_for_subspace_clusterin.md)
 - [\[ECCV 2024\] HPFF: Hierarchical Locally Supervised Learning with Patch Feature Fusion](hpff_hierarchical_locally_supervised_learning_with_patch_feature_fusion.md)
-- [\[ECCV 2024\] Align before Collaborate: Mitigating Feature Misalignment for Robust Multi-Agent Perception](align_before_collaborate_mitigating_feature_misalignment_for_robust_multi-agent_.md)
-- [\[ICML 2025\] Symmetry-Robust 3D Orientation Estimation](../../ICML2025/others/symmetry-robust_3d_orientation_estimation.md)
+- [\[NeurIPS 2025\] Distributionally Robust Feature Selection](../../NeurIPS2025/others/distributionally_robust_feature_selection.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.14882](https://arxiv.org/abs/2603.14882)  
-**代码**: https://empactlab.github.io/LLMind-CVPR-2026/  
+**代码**: [https://empactlab.github.io/LLMind-CVPR-2026/](https://empactlab.github.io/LLMind-CVPR-2026/)  
 **领域**: 多模态VLM  
 **关键词**: 仿生视觉采样, Möbius变换, 训练免调, 像素预算, VQA
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Predicting Training Re-evaluation Curves Enables Effective Data Curriculums
 description: >-
-  [ICLR 2026][训练再评估曲线] 提出训练再评估曲线（TREC）诊断工具，通过分析训练完成后模型在各时间步训练数据上的损失来指导高质量数据的最优放置位置，并证明 TREC 形状可通过 AdamW 的隐式 EMA 系数预测，无需实际训练即可设计数据课程。
+  [ICLR 2026][LLM预训练] 提出训练再评估曲线（TREC）诊断工具，通过分析训练完成后模型在各时间步训练数据上的损失来指导高质量数据的最优放置位置，并证明 TREC 形状可通过 AdamW 的隐式 EMA 系数预测，无需实际训练即可设计数据课程。
 tags:
   - ICLR 2026
-  - 训练再评估曲线
+  - LLM预训练
   - 数据课程学习
   - AdamW时间尺度
   - 高质量数据放置
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.25380](https://arxiv.org/abs/2509.25380)  
 **代码**: 无  
-**领域**: LLM 训练优化 / 数据课程学习  
+**领域**: LLM预训练  
 **关键词**: 训练再评估曲线, 数据课程学习, AdamW时间尺度, 高质量数据放置, 持续预训练
 
 ## 一句话总结
@@ -171,7 +171,7 @@ tags:
 - [\[ACL 2025\] Model Performance-Guided Evaluation Data Selection for Effective Prompt Optimization](../../ACL2025/llm_pretraining/model_performance-guided_evaluation_data_selection_for_effective_prompt_optimiza.md)
 - [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](../../ACL2025/llm_pretraining/towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
 - [\[ICLR 2026\] A Law of Data Reconstruction for Random Features (and Beyond)](a_law_of_data_reconstruction_for_random_features_and_beyond.md)
-- [\[ICLR 2026\] Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training](common_corpus_ethical_data_for_llm_pretraining.md)
-- [\[ICLR 2026\] Intrinsic Training Dynamics of Deep Neural Networks](intrinsic_training_dynamics_of_deep_neural_networks.md)
+- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](token-level_data_selection_for_safe_llm_fine-tuning.md)
+- [\[NeurIPS 2025\] PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation](../../NeurIPS2025/llm_pretraining/prescribe_predicting_single-cell_responses_with_bayesian_estimation.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.02845](https://arxiv.org/abs/2604.02845)  
-**代码**: [链接](https://github.com/linchengxing/DeformPIC) (有)  
+**代码**: [链接](https://github.com/linchengxing/DeformPIC)  
 **领域**: 3D Vision  
 **关键词**: 点云上下文学习, 形变网络, 几何推理, 掩码点建模, 多任务通用模型
 
@@ -46,7 +46,7 @@ tags:
 1. **Deformation Extraction Network (DEN)**: 用 mini-PointNet 编码 prompt 的输入和目标 token，拼接可学习的 task token，通过 Transformer 提取 $\hat{T}_{\text{task}} = \mathcal{E}([T_{\text{task}} \| T_{P_i} \| T_{P_t}])$。设计动机：PIC 将 prompt 和 query 联合处理，但任务语义提取和几何重建是不同目标，解耦后更高效。
 
 2. **Deformation Transfer Network (DTN)**: 使用 AdaLN-Zero 将任务 token 注入 Transformer：
-   $$h^{(l+1)} = h^{(l)} + \sigma^{(l)} \cdot \mathcal{A}[(1+\eta^{(l)}) \cdot \text{LN}(h^{(l)}) + \kappa^{(l)}]$$
+    $h^{(l+1)} = h^{(l)} + \sigma^{(l)} \cdot \mathcal{A}[(1+\eta^{(l)}) \cdot \text{LN}(h^{(l)}) + \kappa^{(l)}]$
    其中 $\sigma, \eta, \kappa$ 由 $\hat{T}_{\text{task}}$ 通过零初始化的 MLP 生成。设计动机：AdaLN-Zero 来自 DiT，允许细粒度的逐层条件化。
 
 3. **训练-推理一致性**: 训练和推理时执行相同的形变过程——输入查询点云，输出形变后的点云，无需掩码操作。
@@ -128,7 +128,7 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] Mamba Learns in Context: Structure-Aware Domain Generalization for Multi-Task Point Cloud Understanding](mamba_learns_in_context_structure-aware_domain_generalization_for_multi-task_poi.md)
-- [\[ECCV 2024\] DG-PIC: Domain Generalized Point-In-Context Learning for Point Cloud Understanding](../../ECCV2024/3d_vision/dg-pic_domain_generalized_point-in-context_learning_for_point_cloud_understandin.md)
+- [\[ECCV 2024\] DG-PIC: Domain Generalized Point-In-Context Learning for Point Cloud Understanding](../../ECCV2024/3d_vision/dgpic_domain_generalized_pointincontext_learning_for_po.md)
 - [\[CVPR 2026\] Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning](adapting_point_cloud_analysis_via_multimodal_bayesian_distribution_learning.md)
 - [\[CVPR 2026\] STS-Mixer: Spatio-Temporal-Spectral Mixer for 4D Point Cloud Video Understanding](sts_mixer_4d_point_cloud.md)
 - [\[CVPR 2026\] PointINS: Instance-Aware Self-Supervised Learning for Point Clouds](pointins_instance-aware_self-supervised_learning_for_point_clouds.md)

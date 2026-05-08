@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.19756](https://arxiv.org/abs/2411.19756)  
-**代码**: https://github.com/AaltoML/desplat/ (有)  
+**代码**: [https://github.com/AaltoML/desplat/](https://github.com/AaltoML/desplat/)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 干扰物去除, 场景分解, 新视角合成, alpha合成
 

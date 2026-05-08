@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2603.11876](https://arxiv.org/abs/2603.11876)  
 **代码**: 无  
-**领域**: AI安全 / 图像隐写分析  
+**领域**: 可解释性  
 **关键词**: 图像隐写术, 隐写分析, 独立成分分析, 小波分解, 深度隐写网络
 
 ## 一句话总结
@@ -120,7 +120,7 @@ tags:
 - [\[CVPR 2025\] Sample- and Parameter-Efficient Auto-Regressive Image Models](sample-_and_parameter-efficient_auto-regressive_image_models.md)
 - [\[CVPR 2025\] Interpretable Image Classification via Non-parametric Part Prototype Learning](interpretable_image_classification_via_non-parametric_part_prototype_learning.md)
 - [\[CVPR 2025\] Why Does It Look There? Structured Explanations for Image Classification](why_does_it_look_there_structured_explanations_for_image_classification.md)
-- [\[CVPR 2025\] Learning on Model Weights using Tree Experts](learning_on_model_weights_using_tree_experts.md)
-- [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
+- [\[CVPR 2025\] Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck Model with Better Interpretability and Scalability](albm_attribute_concept_space.md)
+- [\[CVPR 2025\] Prompt-CAM: Making Vision Transformers Interpretable for Fine-Grained Analysis](prompt-cam_making_vision_transformers_interpretable_for_fine-grained_analysis.md)
 
 <!-- RELATED:END -->

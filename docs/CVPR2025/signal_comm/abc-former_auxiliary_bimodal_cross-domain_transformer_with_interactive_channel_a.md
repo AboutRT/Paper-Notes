@@ -30,7 +30,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: 无公开预印本  
-**代码**: https://github.com/ytpeng-aimlab/ABC-Former  
+**代码**: [https://github.com/ytpeng-aimlab/ABC-Former](https://github.com/ytpeng-aimlab/ABC-Former)  
 **领域**: 图像处理 / 白平衡  
 **关键词**: 白平衡, 双模态, 跨域Transformer, 交互通道注意力, CIELab直方图
 
@@ -145,7 +145,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: 待公开  
-**代码**: https://github.com/ytpeng-aimlab/ABC-Former  
+**代码**: [https://github.com/ytpeng-aimlab/ABC-Former](https://github.com/ytpeng-aimlab/ABC-Former)  
 **领域**: 图像处理 / 白平衡  
 **关键词**: 白平衡, 双模态, 跨域Transformer, 通道注意力, 色彩矫正
 
@@ -185,10 +185,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Breaking the Low-Rank Dilemma of Linear Attention](breaking_the_low-rank_dilemma_of_linear_attention.md)
+- [\[ICCV 2025\] Rectifying Magnitude Neglect in Linear Attention](../../ICCV2025/signal_comm/rectifying_magnitude_neglect_in_linear_attention.md)
 - [\[ICLR 2026\] FASA: Frequency-Aware Sparse Attention](../../ICLR2026/signal_comm/fasa_frequency-aware_sparse_attention.md)
 - [\[ICML 2025\] Fourier Position Embedding: Enhancing Attention's Periodic Extension for Length Generalization](../../ICML2025/signal_comm/fourier_position_embedding_enhancing_attentions_periodic_extension_for_length_ge.md)
 - [\[AAAI 2026\] Text-Guided Channel Perturbation and Pretrained Knowledge Integration for Unified Multi-Modality Image Fusion](../../AAAI2026/signal_comm/text-guided_channel_perturbation_and_pretrained_knowledge_integration_for_unifie.md)
-- [\[CVPR 2025\] DiTASK: Multi-Task Fine-Tuning with Diffeomorphic Transformations](ditask_multi-task_fine-tuning_with_diffeomorphic_transformations.md)
-- [\[CVPR 2025\] Neural Video Compression with Context Modulation](neural_video_compression_with_context_modulation.md)
 
 <!-- RELATED:END -->

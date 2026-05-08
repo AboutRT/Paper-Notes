@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12054](https://arxiv.org/abs/2511.12054)  
 **代码**: [GitHub](https://github.com/chenqi142/UniABG)  
-**领域**: remote_sensing  
+**领域**: 遥感  
 **关键词**: cross-view geo-localization, unsupervised, adversarial learning, graph filtering, pseudo-label  
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.11110](https://arxiv.org/abs/2501.11110)  
-**代码**: https://github.com/microsoft/CoR (有)  
+**代码**: [https://github.com/microsoft/CoR](https://github.com/microsoft/CoR)  
 **领域**: LLM推理 / 数学推理  
 **关键词**: 数学推理, 多范式推理, 自然语言推理, 符号推理, 定理证明
 

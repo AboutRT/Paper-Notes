@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.22399](https://arxiv.org/abs/2503.22399)  
 **代码**: [GitHub](https://github.com/VITAL-Framework)  
-**领域**: 其他  
+**领域**: 可解释性  
 **关键词**: 特征可视化, 可解释AI, 分布匹配, 层级相关传播, 机械可解释性
 
 ## 一句话总结

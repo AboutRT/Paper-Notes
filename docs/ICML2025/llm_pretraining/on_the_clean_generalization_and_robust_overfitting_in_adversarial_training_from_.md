@@ -2,10 +2,10 @@
 title: >-
   [论文解读] On the Clean Generalization and Robust Overfitting in Adversarial Training from Two Theoretical Views: Representation Complexity and Training Dynamics
 description: >-
-  [ICML2025][对抗训练] 本文从**表示复杂度**和**训练动态**两个视角，理论解释了对抗训练中"干净泛化与鲁棒过拟合共存"(CGRO)现象：CGRO分类器仅需额外 $\tilde{O}(ND)$ 参数即可通过鲁棒记忆实现，而真正的鲁棒泛化在最坏情况下需要指数级模型容量；在结构化数据上，对抗训练的三阶段相变过程会使网络部分学习真特征、完全记忆噪声，从而可证地收敛到CGRO状态。
+  [ICML2025][LLM预训练] 本文从**表示复杂度**和**训练动态**两个视角，理论解释了对抗训练中"干净泛化与鲁棒过拟合共存"(CGRO)现象：CGRO分类器仅需额外 $\tilde{O}(ND)$ 参数即可通过鲁棒记忆实现，而真正的鲁棒泛化在最坏情况下需要指数级模型容量；在结构化数据上，对抗训练的三阶段相变过程会使网络部分学习真特征、完全记忆噪声，从而可证地收敛到CGRO状态。
 tags:
   - ICML2025
-  - 对抗训练
+  - LLM预训练
   - 鲁棒过拟合
   - 干净泛化
   - 表示复杂度
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2306.01271](https://arxiv.org/abs/2306.01271)  
 **代码**: 无  
-**领域**: 其他/对抗训练理论  
+**领域**: LLM预训练  
 **关键词**: 对抗训练, 鲁棒过拟合, 干净泛化, 表示复杂度, 训练动态, 特征学习
 
 ## 一句话总结
@@ -148,10 +148,10 @@ $$\underbrace{\text{Clean Classifier}}_{\text{poly}(D)} \lesssim \underbrace{\te
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Disaggregation Reveals Hidden Training Dynamics: The Case of Agreement Attraction](../../NeurIPS2025/llm_pretraining/disaggregation_reveals_hidden_training_dynamics_the_case_of_agreement_attraction.md)
 - [\[ICCV 2025\] ConstStyle: Robust Domain Generalization with Unified Style Transformation](../../ICCV2025/llm_pretraining/conststyle_robust_domain_generalization_with_unified_style_transformation.md)
-- [\[ICLR 2026\] Intrinsic Training Dynamics of Deep Neural Networks](../../ICLR2026/llm_pretraining/intrinsic_training_dynamics_of_deep_neural_networks.md)
+- [\[NeurIPS 2025\] Disaggregation Reveals Hidden Training Dynamics: The Case of Agreement Attraction](../../NeurIPS2025/llm_pretraining/disaggregation_reveals_hidden_training_dynamics_the_case_of_agreement_attraction.md)
 - [\[ACL 2025\] Adversarial Tokenization](../../ACL2025/llm_pretraining/adversarial_tokenization.md)
 - [\[ECCV 2024\] PreLAR: World Model Pre-training with Learnable Action Representation](../../ECCV2024/llm_pretraining/prelar_world_model_pre-training_with_learnable_action_representation.md)
+- [\[ICML 2025\] Benign Overfitting in Token Selection of Attention Mechanism](benign_overfitting_in_token_selection_of_attention_mechanism.md)
 
 <!-- RELATED:END -->

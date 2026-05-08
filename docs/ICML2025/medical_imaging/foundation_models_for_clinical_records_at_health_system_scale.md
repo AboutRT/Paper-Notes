@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2507.00574](https://arxiv.org/abs/2507.00574)  
 **作者**: Haresh Rengaraj Rajamohan, Xiang Gao, Weicheng Zhu, Shih-Lun Huang, Long Chen, Kyunghyun Cho, Cem M. Deniz, Narges Razavian (NYU Langone Health / NYU)  
 **代码**: 未公开  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 电子健康记录, 基础模型, 生成式预训练, 零样本预测, 疾病预测, Transformer  
 
 ## 一句话总结

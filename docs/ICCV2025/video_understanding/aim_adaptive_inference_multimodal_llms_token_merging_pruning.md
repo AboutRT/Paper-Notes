@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.03248](https://arxiv.org/abs/2412.03248)  
-**代码**: https://github.com/LaVi-Lab/AIM  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/LaVi-Lab/AIM](https://github.com/LaVi-Lab/AIM)  
+**领域**: 视频理解  
 **关键词**: 多模态LLM, 自适应推理, token合并, token剪枝, 视频理解效率
 
 ## 一句话总结

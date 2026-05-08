@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.12245](https://arxiv.org/abs/2603.12245)  
-**代码**: https://snap-research.github.io/elit  
+**代码**: [https://snap-research.github.io/elit](https://snap-research.github.io/elit)  
 **领域**: 图像生成  
 **关键词**: DiT, 弹性推理, latent token, 计算分配, 变长接口
 

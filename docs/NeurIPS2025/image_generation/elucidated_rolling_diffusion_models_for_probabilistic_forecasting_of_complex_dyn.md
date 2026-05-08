@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.20024](https://arxiv.org/abs/2506.20024)  
 **代码**: [NVlabs/ERDM](https://github.com/NVlabs/ERDM)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: rolling diffusion, EDM, probabilistic forecasting, weather prediction, Navier-Stokes
 
 ## 一句话总结

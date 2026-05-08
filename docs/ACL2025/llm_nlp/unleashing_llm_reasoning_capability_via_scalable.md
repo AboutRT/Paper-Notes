@@ -18,8 +18,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.18693](https://arxiv.org/abs/2410.18693)  
-**代码**: https://scalequest.github.io  
-**领域**: LLM推理 / 数据合成  
+**代码**: [https://scalequest.github.io](https://scalequest.github.io)  
+**领域**: LLM/NLP  
 **关键词**: math reasoning, question synthesis, QFT, QPO, data scaling, instruction tuning
 
 ## 一句话总结
@@ -143,9 +143,9 @@ ScaleQuest 包含三个核心阶段：(1) QFT 激活解题模型的出题能力�
 ## 相关论文
 
 - [\[ACL 2025\] A Modular Dataset to Demonstrate LLM Abstraction Capability](a_modular_dataset_to_demonstrate_llm_abstraction_capability.md)
-- [\[ACL 2025\] CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis](cot-based_synthesizer_enhancing_llm_performance_through_answer_synthesis.md)
 - [\[ACL 2025\] Just a Scratch: Enhancing LLM Capabilities for Self-Harm Detection through Intent Refinement](just_a_scratch_enhancing_llm_capabilities_for_self-harm_detection_through_intent.md)
 - [\[ACL 2025\] Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](condor_enhance_llm_alignment_with_knowledge-driven_data_synthesis_and_refinement.md)
 - [\[ACL 2025\] Re-TASK: Revisiting LLM Tasks from Capability, Skill, and Knowledge Perspectives](re-task_revisiting_llm_tasks_from_capability_skill_and_knowledge_perspectives.md)
+- [\[AAAI 2026\] Scalable and Accurate Graph Reasoning with LLM-Based Multi-Agents](../../AAAI2026/llm_nlp/scalable_and_accurate_graph_reasoning_with_llm-based_multi-agents.md)
 
 <!-- RELATED:END -->

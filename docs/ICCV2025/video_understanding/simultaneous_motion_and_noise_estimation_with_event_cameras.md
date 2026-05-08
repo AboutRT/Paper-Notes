@@ -57,11 +57,11 @@ tags:
 
    CMax 框架假设事件由移动边缘产生，根据运动模型 $\mathbf{W}$ 变换事件坐标，将事件集 $\mathcal{E} = \{e_k\}_{k=1}^{N_e}$ 变换到参考时刻：
 
-   $$e_k = (\mathbf{x}_k, t_k, p_k) \mapsto e'_k = (\mathbf{x}'_k, t_{ref}, p_k)$$
+    $e_k = (\mathbf{x}_k, t_k, p_k) \mapsto e'_k = (\mathbf{x}'_k, t_{ref}, p_k)$
 
    变换后的事件在像素网格上聚合生成 warped event image (IWE)：
 
-   $$I(\mathbf{x}; \boldsymbol{\theta}) = \sum_{k=1}^{N_e} \delta(\mathbf{x} - \mathbf{x}'_k)$$
+    $I(\mathbf{x}; \boldsymbol{\theta}) = \sum_{k=1}^{N_e} \delta(\mathbf{x} - \mathbf{x}'_k)$
 
    其中 Dirac delta 用高斯近似。优化目标是最大化 IWE 的对比度（图像方差），从而找到使事件最大程度对齐的运动参数。
 
@@ -73,14 +73,14 @@ tags:
 
    对每个事件 $e_k$ 计算得分 $c_k$：
 
-   $$c_k = I(\mathbf{x}'_k)$$
+    $c_k = I(\mathbf{x}'_k)$
 
    即该事件在运动补偿后的 IWE 中的局部值（局部对比度）。IWE 值越高，说明更多事件支持同一场景边缘，该事件越可能是信号。
 
    按得分排序后阈值化分类：
 
-   $$\mathcal{E}_{signal} = \{e_k \in \mathcal{E} \mid c_k > T(\eta)\}$$
-   $$\mathcal{E}_{noise} = \mathcal{E} \setminus \mathcal{E}_{signal}$$
+    $\mathcal{E}_{signal} = \{e_k \in \mathcal{E} \mid c_k > T(\eta)\}$
+    $\mathcal{E}_{noise} = \mathcal{E} \setminus \mathcal{E}_{signal}$
 
    其中 $\tau = 1 - \eta$ 为信号事件比例，$\eta$ 为噪声比例（先验或估计值）。
 
@@ -93,9 +93,9 @@ tags:
    信号/噪声分类和运动估计构成循环依赖——分类需要真实运动，运动估计需要信号事件。
 
    解决方案是**迭代交替优化**：
-   - 初始化：随机划分事件为信号和噪声集
-   - 每次迭代：①用当前信号事件做 CMax 运动估计（1步即可）→ ②用估计运动对所有事件做 warping → ③计算所有事件的评分 $c_k$ → ④重新划分信号/噪声集
-   - 收敛判据：运动参数收敛
+    - 初始化：随机划分事件为信号和噪声集
+    - 每次迭代：①用当前信号事件做 CMax 运动估计（1步即可）→ ②用估计运动对所有事件做 warping → ③计算所有事件的评分 $c_k$ → ④重新划分信号/噪声集
+    - 收敛判据：运动参数收敛
 
    **计算复杂度**：单次迭代 $O(N_p + N_e \log N_e)$，仅比原始 CMax 的 $O(N_p + N_e)$ 多了一个排序的 $\log$ 因子。
 

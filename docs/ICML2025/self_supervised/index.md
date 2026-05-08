@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 自监督方向22篇论文解读
+  ICML2025 自监督/表示学习方向24篇论文解读
 description: >-
-  22篇ICML2025的自监督方向论文解读，涵盖自监督学习、少样本学习、强化学习、扩散模型、LLM、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  24篇ICML2025的自监督/表示学习方向论文解读，涵盖自监督学习、少样本学习、强化学习、扩散模型、LLM、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🔄 自监督
+# 🔄 自监督/表示学习
 
-**🧪 ICML2025** · **22** 篇论文解读
+**🧪 ICML2025** · **24** 篇论文解读
 
 **[A Bayesian Model Selection Criterion for Selecting Pretraining Checkpoints](a_bayesian_model_selection_criterion_for_selecting_pretraining_checkpoints.md)**
 
@@ -46,6 +46,10 @@ description: >-
 
 :   本文是一篇 position paper，论证深度学习中被认为"神秘"的泛化现象（良性过拟合、双重下降、过参数化的成功）并非深度学习独有，也不神秘，可以通过长期存在的泛化框架（PAC-Bayes、可数假设界）形式化描述，并提出**软归纳偏置（soft inductive biases）**作为统一解释原则。
 
+**[Discovering Global False Negatives On the Fly for Self-supervised Contrastive Learning](discovering_global_false_negatives_on_the_fly_for_self-supervised_contrastive_le.md)**
+
+:   提出 GloFND，通过为每个锚点样本学习动态阈值，在训练过程中实时发现并过滤全局假阴性（false negatives），以低额外开销提升对比学习表示质量。
+
 **[Foundation Model Insights and a Multi-Model Approach for Superior Fine-Grained One-shot Subset Selection](foundation_model_insights_and_a_multi-model_approach_for_superior_fine-grained_o.md)**
 
 :   本文系统研究了基础模型（FM）替代传统信息提取器（IE）用于子集选择的优劣，发现 FM 在细粒度数据集上显著优于传统 IE，并提出 RAM-APL 方法，利用多个 FM（DINOv2 + CLIP）从类内和类间两个维度联合衡量样本重要性，在三个细粒度数据集上达到 SOTA。
@@ -53,6 +57,10 @@ description: >-
 **[Generalization Analysis for Supervised Contrastive Representation Learning under Non-IID Settings](generalization_analysis_for_supervised_contrastive_representation_learning_under.md)**
 
 :   本文首次在非独立同分布（non-IID）条件下为监督对比表征学习（CRL）建立了泛化界，利用 U-统计量分解技术处理训练元组重叠样本的依赖性问题，给出了以标记样本数 $N$ 为自变量的 excess risk 收敛速率。
+
+**[Global Context-aware Representation Learning for Spatially Resolved Transcriptomics](global_context-aware_representation_learning_for_spatially_resolved_transcriptom.md)**
+
+:   提出 Spotscape 框架，通过 Similarity Telescope 模块捕获 spot 间的全局相似关系（而非仅依赖空间局部邻居），并引入原型对比学习和相似度尺度匹配策略处理多切片批次效应，在空间域识别、轨迹推断、多切片整合与对齐等任务上全面超越现有方法。
 
 **[Griffin: Towards a Graph-Centric Relational Database Foundation Model](griffin_towards_a_graph-centric_relational_database_foundation_model.md)**
 

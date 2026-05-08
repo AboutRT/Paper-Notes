@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17163](https://arxiv.org/abs/2411.17163)  
-**代码**: https://github.com/jkwang28/OSDFace  
+**代码**: [https://github.com/jkwang28/OSDFace](https://github.com/jkwang28/OSDFace)  
 **领域**: 图像生成  
 **关键词**: 人脸修复, 单步扩散, 向量量化, 视觉先验, GAN引导
 
@@ -127,6 +127,6 @@ OSDFace 的训练分两个阶段。第一阶段：训练视觉表示嵌入器（
 - [\[CVPR 2025\] SwiftEdit: Lightning Fast Text-Guided Image Editing via One-Step Diffusion](swiftedit_lightning_fast_text-guided_image_editing_via_one-step_diffusion.md)
 - [\[CVPR 2025\] GenDeg: Diffusion-based Degradation Synthesis for Generalizable All-In-One Image Restoration](gendeg_diffusion-based_degradation_synthesis_for_generalizable_all-in-one_image_.md)
 - [\[NeurIPS 2025\] DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution](../../NeurIPS2025/image_generation/dove_efficient_one-step_diffusion_model_for_real-world_video_super-resolution.md)
-- [\[ICCV 2025\] Unlocking the Potential of Diffusion Priors in Blind Face Restoration](../../ICCV2025/image_generation/unlocking_the_potential_of_diffusion_priors_in_blind_face_restoration.md)
+- [\[CVPR 2025\] One-for-More: Continual Diffusion Model for Anomaly Detection](one-for-more_continual_diffusion_model_for_anomaly_detection.md)
 
 <!-- RELATED:END -->

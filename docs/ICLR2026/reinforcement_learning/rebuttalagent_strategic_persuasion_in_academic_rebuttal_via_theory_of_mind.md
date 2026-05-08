@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2601.15715](https://arxiv.org/abs/2601.15715)  
 **代码**: [GitHub](https://github.com/Zhitao-He/RebuttalAgent)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: academic rebuttal, Theory of Mind, strategic persuasion, GRPO, self-reward, reward model  
 
 ## 一句话总结

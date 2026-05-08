@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.11938](https://arxiv.org/abs/2603.11938)  
 **代码**: 待发布  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: structured radiology reporting, prototype learning, knowledge base, free-text mining, late fusion, VQA
 
 ## 一句话总结

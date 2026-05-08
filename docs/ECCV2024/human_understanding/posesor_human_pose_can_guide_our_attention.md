@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: N/A  
-**代码**: https://github.com/guanhuankang/ECCV24PoseSOR (有)  
+**代码**: [https://github.com/guanhuankang/ECCV24PoseSOR](https://github.com/guanhuankang/ECCV24PoseSOR)  
 **领域**: 人体理解 / 显著性检测  
 **关键词**: 显著目标排序, 人体姿态, 注意力引导, 高层交互, 姿态感知
 

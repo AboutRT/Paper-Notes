@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 多模态评估
   - 金融基准
-  - 幻觉惩罚
+  - 多模态VLM
   - 图表理解
   - MLLM
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24714](https://arxiv.org/abs/2505.24714)  
-**代码**: https://github.com/luo-junyu/FinMME (有)  
+**代码**: [https://github.com/luo-junyu/FinMME](https://github.com/luo-junyu/FinMME)  
 **领域**: 多模态大模型评估 / 金融NLP  
 **关键词**: 多模态评估, 金融基准, 幻觉惩罚, 图表理解, MLLM
 
@@ -156,9 +156,9 @@ FinScore 将领域归一化性能与幻觉惩罚相结合：
 ## 相关论文
 
 - [\[ACL 2025\] AGRI-CM3: A Chinese Massive Multi-Modal Multi-Level Benchmark for Agricultural Understanding](agri-cm3_a_chinese_massive_multi-modal_multi-level_benchmark_for_agricultural_un.md)
-- [\[ACL 2025\] REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)
-- [\[ICCV 2025\] ToolVQA: A Dataset for Multi-step Reasoning VQA with External Tools](../../ICCV2025/multimodal_vlm/toolvqa_a_dataset_for_multistep_reasoning_vqa_with_external.md)
-- [\[ACL 2025\] Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach](multimodal_coreference_resolution_for_chinese_social_media_dialogues_dataset_and.md)
 - [\[CVPR 2025\] Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation](../../CVPR2025/multimodal_vlm/beyond_final_answers_crystal_benchmark_for_transparent_multimodal_reasoning_eval.md)
+- [\[ICCV 2025\] ToolVQA: A Dataset for Multi-step Reasoning VQA with External Tools](../../ICCV2025/multimodal_vlm/toolvqa_a_dataset_for_multistep_reasoning_vqa_with_external.md)
+- [\[ACL 2025\] Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal Long CoT Reasoning](tvc_mitigating_visual_forgetting.md)
+- [\[ACL 2025\] AkaCE: A Multimodal Multi-party Dataset for Emotion Recognition in Movie Dialogues](akan_cinematic_emotions_ace_a_multimodal_multi-party_dataset_for_emotion_recogni.md)
 
 <!-- RELATED:END -->

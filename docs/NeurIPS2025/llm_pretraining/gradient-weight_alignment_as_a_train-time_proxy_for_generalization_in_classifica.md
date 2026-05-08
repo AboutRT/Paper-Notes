@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Gradient-Weight Alignment as a Train-Time Proxy for Generalization in Classification Tasks
 description: >-
-  [NeurIPS 2025][generalization] 提出 Gradient-Weight Alignment (GWA)，通过量化每个训练样本梯度与模型权重的方向一致性（cosine similarity），在训练过程中无需验证集即可准确预测泛化性能、确定最佳早停时机，并定位有影响力的训练样本。
+  [NeurIPS 2025][LLM预训练] 提出 Gradient-Weight Alignment (GWA)，通过量化每个训练样本梯度与模型权重的方向一致性（cosine similarity），在训练过程中无需验证集即可准确预测泛化性能、确定最佳早停时机，并定位有影响力的训练样本。
 tags:
   - NeurIPS 2025
-  - generalization
+  - LLM预训练
   - gradient-weight alignment
   - early stopping
   - training dynamics
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.25480](https://arxiv.org/abs/2510.25480)  
 **代码**: [hlzl/gwa](https://github.com/hlzl/gwa)  
-**领域**: 优化理论 / 泛化性  
+**领域**: LLM预训练  
 **关键词**: generalization, gradient-weight alignment, early stopping, training dynamics, sample influence
 
 ## 一句话总结
@@ -174,9 +174,9 @@ ViT/B-16 从 ImageNet-21k fine-tune 的结果：GWA 在 ImageNet Val (84.15)、V
 ## 相关论文
 
 - [\[NeurIPS 2025\] Learning to Flow from Generative Pretext Tasks for Neural Architecture Encoding](learning_to_flow_from_generative_pretext_tasks_for_neural_architecture_encoding.md)
-- [\[NeurIPS 2025\] Flatness is Necessary, Neural Collapse is Not: Rethinking Generalization via Grokking](flatness_is_necessary_neural_collapse_is_not_rethinking_generalization_via_grokk.md)
 - [\[NeurIPS 2025\] Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](power_lines_scaling_laws_for_weight_decay_and_batch_size_in_llm_pre-training.md)
-- [\[NeurIPS 2025\] Generalization Bounds for Rank-sparse Neural Networks](generalization_bounds_for_rank-sparse_neural_networks.md)
+- [\[NeurIPS 2025\] Flatness is Necessary, Neural Collapse is Not: Rethinking Generalization via Grokking](flatness_is_necessary_neural_collapse_is_not_rethinking_generalization_via_grokk.md)
 - [\[NeurIPS 2025\] Leveraging Importance Sampling to Detach Alignment Modules from Large Language Models](leveraging_importance_sampling_to_detach_alignment_modules_from_large_language_m.md)
+- [\[AAAI 2026\] Learning Time in Static Classifiers](../../AAAI2026/llm_pretraining/learning_time_in_static_classifiers.md)
 
 <!-- RELATED:END -->

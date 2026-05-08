@@ -19,7 +19,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.16652](https://arxiv.org/abs/2502.16652)  
-**代码**: https://drsplat.github.io/  
+**代码**: [https://drsplat.github.io/](https://drsplat.github.io/)  
 **领域**: 3D视觉 / 场景理解  
 **关键词**: 开放词汇3D理解, 3D高斯, CLIP嵌入, 乘积量化, 特征注册, 语义分割, 3D定位
 

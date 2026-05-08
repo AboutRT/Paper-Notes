@@ -8,7 +8,7 @@ tags:
   - 语音
   - 抹香鲸声学
   - 生成式音频模型
-  - 声学翻译
+  - 音频语音
   - Masked Acoustic Token Model
   - 跨域风格迁移
 ---

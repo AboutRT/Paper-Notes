@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.10848](https://arxiv.org/abs/2511.10848)  
-**代码**: https://github.com/autonlab/STAMP  
+**代码**: [https://github.com/autonlab/STAMP](https://github.com/autonlab/STAMP)  
 **领域**: 脑电信号 / 基础模型适配  
 **关键词**: EEG分类, TSFM适配器, 时空编码, 多头池化, 参数高效
 
@@ -128,9 +128,9 @@ EEG 数据（$S$ 通道 × $T$ 时间步）→ TSFM（冻结，如 MOMENT-L 385M
 ## 相关论文
 
 - [\[CVPR 2026\] T-Gated Adapter: A Lightweight Temporal Adapter for Vision-Language Medical Segmentation](../../CVPR2026/medical_imaging/t-gated_adapter_a_lightweight_temporal_adapter_for_vision-language_medical_segme.md)
-- [\[NeurIPS 2025\] Interpretable Next-token Prediction via the Generalized Induction Head](interpretable_next-token_prediction_via_the_generalized_induction_head.md)
 - [\[NeurIPS 2025\] 3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks](3drad_a_comprehensive_3d_radiology_medvqa_dataset_with_multi.md)
 - [\[NeurIPS 2025\] Learning Relative Gene Expression Trends from Pathology Images in Spatial Transcriptomics](learning_relative_gene_expression_trends_from_pathology_images_in_spatial_transc.md)
+- [\[NeurIPS 2025\] RAD: Towards Trustworthy Retrieval-Augmented Multi-modal Clinical Diagnosis](rad_towards_trustworthy_retrieval-augmented_multi-modal_clinical_diagnosis.md)
 - [\[NeurIPS 2025\] A Unified Solution to Video Fusion: From Multi-Frame Learning to Benchmarking](a_unified_solution_to_video_fusion_from_multi-frame_learning_to_benchmarking.md)
 
 <!-- RELATED:END -->

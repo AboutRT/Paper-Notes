@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2412.06141](https://arxiv.org/abs/2412.06141)  
-**代码**: https://github.com/aiming-lab/MMedPO (有)  
+**代码**: [https://github.com/aiming-lab/MMedPO](https://github.com/aiming-lab/MMedPO)  
 **领域**: LLM对齐/RLHF  
 **关键词**: 医学VLM, 偏好优化, 临床相关性, 多模态对齐, 幻觉缓解
 

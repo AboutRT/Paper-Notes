@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2505.05469](https://arxiv.org/abs/2505.05469)  
 **代码**: [项目主页](https://avalovelace1.github.io/BrickGPT/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: text-to-3D, brick assembly, physical stability, autoregressive LLM, LEGO generation  
 
 ## 一句话总结

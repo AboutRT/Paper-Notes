@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2404.10304](https://arxiv.org/abs/2404.10304)  
-**代码**: https://github.com/RinCloud/TrickCatcher  
+**代码**: [https://github.com/RinCloud/TrickCatcher](https://github.com/RinCloud/TrickCatcher)  
 **领域**: LLM NLP  
 **关键词**: test case generation, bug detection, plausible programs, differential testing, LLM
 
@@ -121,7 +121,7 @@ TrickCatcher输入为程序规范、待测程序（PUT）和现有测试套件�
 - [\[ACL 2025\] Leveraging Human Production-Interpretation Asymmetries to Test LLM Cognitive Plausibility](leveraging_human_production-interpretation_asymmetries_to_test_llm_cognitive_pla.md)
 - [\[ACL 2025\] Do LLMs Give Psychometrically Plausible Responses in Educational Assessments?](do_llms_give_psychometrically_plausible_responses_in_educational_assessments.md)
 - [\[ACL 2025\] Is It JUST Semantics? A Case Study of Discourse Particle Understanding in LLMs](is_it_just_semantics_a_case_study_of_discourse_particle_understanding_in_llms.md)
-- [\[ACL 2025\] From Selection to Generation: A Survey of LLM-based Active Learning](from_selection_to_generation_a_survey.md)
 - [\[ACL 2025\] Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs](can_llms_interpret_and_leverage_structured_linguistic_representations_a_case_stu.md)
+- [\[ACL 2025\] From Selection to Generation: A Survey of LLM-based Active Learning](from_selection_to_generation_a_survey.md)
 
 <!-- RELATED:END -->

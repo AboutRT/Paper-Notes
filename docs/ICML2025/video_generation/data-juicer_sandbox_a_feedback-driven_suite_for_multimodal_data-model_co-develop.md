@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 数据-模型协同开发
-  - 多模态大模型
+  - 视频生成
   - 数据处理算子
   - 沙箱实验
   - 数据质量与多样性
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2407.11784](https://arxiv.org/abs/2407.11784)  
 **代码**: [modelscope/data-juicer](https://modelscope.github.io/data-juicer/en/main/docs/Sandbox.html)  
-**领域**: 视频理解  
+**领域**: 视频生成  
 **关键词**: 数据-模型协同开发, 多模态大模型, 数据处理算子, 沙箱实验, 数据质量与多样性
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.04887](https://arxiv.org/abs/2603.04887)  
 **代码**: [GitHub](https://github.com/ccarliu/FedMEPD)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: federated learning, brain tumor segmentation, multimodal MRI, personalized FL, missing modality
 
 ## 一句话总结

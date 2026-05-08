@@ -10,14 +10,14 @@ tags:
   - 多模态对话
   - 面部表情
   - 肢体语言
-  - 向量量化
+  - 多模态VLM
 ---
 
 # Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues
 
 **会议**: ACL 2025  
 **arXiv**: [2506.00958](https://arxiv.org/abs/2506.00958)  
-**领域**: LLM NLP  
+**领域**: 多模态VLM  
 **关键词**: 非语言沟通, 多模态对话, 面部表情, 肢体语言, 向量量化  
 
 ## 一句话总结
@@ -151,6 +151,6 @@ tags:
 - [\[ACL 2025\] Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach](multimodal_coreference_resolution_for_chinese_social_media_dialogues_dataset_and.md)
 - [\[ACL 2025\] Filter-And-Refine: A MLLM Based Cascade System for Industrial-Scale Video Content Moderation](filter-and-refine_a_mllm_based_cascade_system_for_industrial-scale_video_content.md)
 - [\[ACL 2025\] GODBench: A Benchmark for Multimodal Large Language Models in Video Comment Art](godbench_a_benchmark_for_multimodal_large_language_models_in_video_comment_art.md)
-- [\[ACL 2025\] ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding](vigil3d_a_linguistically_diverse_dataset_for_3d_visual_grounding.md)
+- [\[ACL 2025\] Evaluating Multimodal Large Language Models on Video Captioning via Monte Carlo Tree Search](mcts_video_captioning_eval.md)
 
 <!-- RELATED:END -->

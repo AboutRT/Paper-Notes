@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 视频基础模型
-  - 可信度评估
+  - 视频生成
   - 安全性
   - 公平性
   - 对抗鲁棒性
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.05682](https://arxiv.org/abs/2511.05682)  
 **代码**: [有](https://sunblaze-ucb.github.io/VMDT-page/)  
-**领域**: video_understanding  
+**领域**: 视频生成  
 **关键词**: 视频基础模型, 可信度评估, 安全性, 公平性, 对抗鲁棒性
 
 ## 一句话总结
@@ -157,10 +157,10 @@ VMDT 平台评估两类模型：T2V（文本到视频，7 个模型）和 V2T（
 
 ## 相关论文
 
-- [\[CVPR 2026\] Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors](../../CVPR2026/video_generation/orbital_video_3d_foundation_priors.md)
 - [\[NeurIPS 2025\] Video Diffusion Models Excel at Tracking Similar-Looking Objects Without Supervision](video_diffusion_models_excel_at_tracking_similar-looking_objects_without_supervi.md)
+- [\[CVPR 2026\] Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors](../../CVPR2026/video_generation/orbital_video_3d_foundation_priors.md)
 - [\[NeurIPS 2025\] Force Prompting: Video Generation Models Can Learn and Generalize Physics-based Control Signals](force_prompting_video_generation_models_can_learn_and_generalize_physics-based_c.md)
-- [\[NeurIPS 2025\] Video Killed the Energy Budget: Characterizing the Latency and Power Regimes of Open Text-to-Video Models](video_killed_the_energy_budget_characterizing_the_latency_and_power_regimes_of_o.md)
 - [\[CVPR 2025\] Navigation World Models](../../CVPR2025/video_generation/navigation_world_models.md)
+- [\[NeurIPS 2025\] Video Killed the Energy Budget: Characterizing the Latency and Power Regimes of Open Text-to-Video Models](video_killed_the_energy_budget_characterizing_the_latency_and_power_regimes_of_o.md)
 
 <!-- RELATED:END -->

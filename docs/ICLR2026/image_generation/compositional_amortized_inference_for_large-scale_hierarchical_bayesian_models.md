@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2505.14429](https://arxiv.org/abs/2505.14429)  
 **代码**: 待确认  
-**领域**: 优化/理论  
+**领域**: 图像生成  
 **关键词**: amortized Bayesian inference, hierarchical model, compositional score matching, diffusion model, scalability
 
 ## 一句话总结

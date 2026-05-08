@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.04668](https://arxiv.org/abs/2505.04668)  
-**代码**: https://github.com/Martinyxr/SGCR  
+**代码**: [https://github.com/Martinyxr/SGCR](https://github.com/Martinyxr/SGCR)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯, 球形高斯, 3D曲线重建, 多视图, 边缘检测
 

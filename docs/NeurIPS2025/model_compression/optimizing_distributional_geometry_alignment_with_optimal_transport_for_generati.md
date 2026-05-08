@@ -46,15 +46,15 @@ $$W(\mu_{\text{true}}, \nu_{\text{new}}) \leq \underbrace{E_y[W(\mu_{\text{true}
 ### 关键设计
 
 1. **OT引导扩散采样（OTG）**：在扩散模型的逆向采样过程中，计算累积合成图像与真实图像批次在隐空间中的OT距离作为引导函数。对每一类 $c$，在生成第 $n$ 个隐变量时，通过Sinkhorn算法高效计算OT矩阵 $\mathbf{P}^{\lambda_1}$，得到引导梯度。采样更新公式为：
-   $$\mathbf{z}_{t-1}^c = s(\mathbf{z}_t^c, t, \epsilon_\phi) - \rho_t \nabla \mathcal{G}_I - \gamma_t \nabla \mathcal{G}_D - \beta_1 \nabla \mathcal{G}_W(\mathbf{z}_t^c)$$
+    $\mathbf{z}_{t-1}^c = s(\mathbf{z}_t^c, t, \epsilon_\phi) - \rho_t \nabla \mathcal{G}_I - \gamma_t \nabla \mathcal{G}_D - \beta_1 \nabla \mathcal{G}_W(\mathbf{z}_t^c)$
    其中 $\mathcal{G}_W$ 是OT引导项，能同时考虑全局和局部结构信息，促进细粒度几何对齐。
 
 2. **标签-图像对齐软重标注（LIA）**：根据IPC大小自适应选择教师模型集合。低IPC时图像分布表达力弱，使用少量教师生成低熵简化软标签避免过拟合；高IPC时使用更多教师生成细粒度软标签以捕捉真实标签空间结构。公式为：
-   $$\mathbf{t}(\mathbf{x}_i) = \frac{1}{|\mathbb{T}(\text{IPC})|} \sum_{t \in \mathbb{T}(\text{IPC})} F_t(\mathbf{x}_i)$$
+    $\mathbf{t}(\mathbf{x}_i) = \frac{1}{|\mathbb{T}(\text{IPC})|} \sum_{t \in \mathbb{T}(\text{IPC})} F_t(\mathbf{x}_i)$
    这确保软标签分布的复杂度与蒸馏图像容量匹配，减小收缩因子 $\alpha$。
 
 3. **OT logit匹配（OTM）**：在训练学生模型时，采用批次级OT距离对齐学生logit输出与软标签分布。不同于传统逐样本的KL散度或MSE，OT匹配能捕获样本间关系。使用Sinkhorn方法计算批次级代价矩阵和传输矩阵，总损失为：
-   $$\mathcal{L} = \kappa_1 \mathcal{L}_{\text{CE}} + \kappa_2 \mathcal{L}_{\text{MSE}} + \beta_2 \mathcal{L}_{\text{SD}}$$
+    $\mathcal{L} = \kappa_1 \mathcal{L}_{\text{CE}} + \kappa_2 \mathcal{L}_{\text{MSE}} + \beta_2 \mathcal{L}_{\text{SD}}$
 
 ### 损失函数 / 训练策略
 
@@ -124,8 +124,8 @@ $$W(\mu_{\text{true}}, \nu_{\text{new}}) \leq \underbrace{E_y[W(\mu_{\text{true}
 
 - [\[ICLR 2026\] Dataset Distillation as Pushforward Optimal Quantization](../../ICLR2026/model_compression/dataset_distillation_as_pushforward_optimal_quantization.md)
 - [\[NeurIPS 2025\] Hyperbolic Dataset Distillation](hyperbolic_dataset_distillation.md)
-- [\[ICCV 2025\] Dataset Distillation via the Wasserstein Metric](../../ICCV2025/model_compression/dataset_distillation_via_the_wasserstein_metric.md)
 - [\[AAAI 2026\] Lightweight Optimal-Transport Harmonization on Edge Devices](../../AAAI2026/model_compression/lightweight_optimal-transport_harmonization_on_edge_devices.md)
+- [\[ICCV 2025\] Dataset Distillation via the Wasserstein Metric](../../ICCV2025/model_compression/dataset_distillation_via_the_wasserstein_metric.md)
 - [\[NeurIPS 2025\] Rectifying Soft-Label Entangled Bias in Long-Tailed Dataset Distillation](rectifying_soft-label_entangled_bias_in_long-tailed_dataset_distillation.md)
 
 <!-- RELATED:END -->

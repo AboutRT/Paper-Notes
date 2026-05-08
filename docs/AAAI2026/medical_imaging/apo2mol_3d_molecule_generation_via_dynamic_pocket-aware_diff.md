@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.14559v1](https://arxiv.org/abs/2511.14559v1)  
-**代码**: [https://github.com/AIDD-LiLab/Apo2Mol](https://github.com/AIDD-LiLab/Apo2Mol) (有)  
+**代码**: [https://github.com/AIDD-LiLab/Apo2Mol](https://github.com/AIDD-LiLab/Apo2Mol)  
 **领域**: AI for Science / 药物设计 / 扩散模型  
 **关键词**: 结构药物设计, apo-holo构象变化, 蛋白质口袋动力学, 3D分子生成, SE(3)等变  
 

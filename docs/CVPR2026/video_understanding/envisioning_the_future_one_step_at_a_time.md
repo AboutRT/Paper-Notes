@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.09527](https://arxiv.org/abs/2604.09527)  
-**代码**: http://compvis.github.io/myriad  
+**代码**: [http://compvis.github.io/myriad](http://compvis.github.io/myriad)  
 **领域**: 视频理解/运动预测  
 **关键词**: 开放集运动预测, 稀疏轨迹, 自回归扩散模型, 未来预测, 世界模型
 
@@ -125,7 +125,7 @@ tags:
 - [\[CVPR 2026\] TCEI: Dual-level Adaptation for Multi-Object Tracking via Test-Time Calibration](tcei_dual_level_adaptation_multi_object_tracking.md)
 - [\[NeurIPS 2025\] Token Bottleneck: One Token to Remember Dynamics](../../NeurIPS2025/video_understanding/token_bottleneck_one_token_to_remember_dynamics.md)
 - [\[CVPR 2026\] How Should Video LLMs Output Time? An Analysis of Efficient Temporal Grounding Paradigms](how_should_video_llms_output_time.md)
-- [\[CVPR 2026\] Dual-level Adaptation for Multi-Object Tracking: Building Test-Time Calibration from Experience and Intuition](tcei_test_time_calibration_experience_intuition_mot.md)
+- [\[CVPR 2026\] Dual-level Adaptation for Multi-Object Tracking: Building Test-Time Calibration from Experience and Intuition](dual-level_adaptation_for_multiobject_tracking_building_testtime_calibration_from.md)
 - [\[NeurIPS 2025\] PreFM: Online Audio-Visual Event Parsing via Predictive Future Modeling](../../NeurIPS2025/video_understanding/prefm_online_audio-visual_event_parsing_via_predictive_future_modeling.md)
 
 <!-- RELATED:END -->

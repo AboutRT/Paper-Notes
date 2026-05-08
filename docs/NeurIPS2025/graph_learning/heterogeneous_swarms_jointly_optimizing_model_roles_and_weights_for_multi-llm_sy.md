@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.04510](https://arxiv.org/abs/2502.04510)  
-**代码**: https://github.com/BunsenFeng/heterogeneous_swarm (有)  
-**领域**: 多LLM系统 / 图优化  
+**代码**: [https://github.com/BunsenFeng/heterogeneous_swarm](https://github.com/BunsenFeng/heterogeneous_swarm)  
+**领域**: 图学习  
 **关键词**: Multi-LLM系统, 粒子群优化, DAG图学习, 模型协作, 角色与权重联合优化
 
 ## 一句话总结
@@ -133,7 +133,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.04510](https://arxiv.org/abs/2502.04510)  
-**代码**: https://github.com/BunsenFeng/heterogeneous_swarm (有)  
+**代码**: [https://github.com/BunsenFeng/heterogeneous_swarm](https://github.com/BunsenFeng/heterogeneous_swarm)  
 **领域**: 多LLM系统 / 图学习  
 **关键词**: 多LLM协作, 粒子群优化, DAG结构学习, 模型角色优化, 模型权重优化
 
@@ -241,6 +241,6 @@ tags:
 - [\[NeurIPS 2025\] FastJAM: a Fast Joint Alignment Model for Images](fastjam_a_fast_joint_alignment_model_for_images.md)
 - [\[NeurIPS 2025\] GFM-RAG: Graph Foundation Model for Retrieval Augmented Generation](gfm-rag_graph_foundation_model_for_retrieval_augmented_generation.md)
 - [\[AAAI 2026\] S-DAG: A Subject-Based Directed Acyclic Graph for Multi-Agent Heterogeneous Reasoning](../../AAAI2026/graph_learning/s-dag_a_subject-based_directed_acyclic_graph_for_multi-agent.md)
-- [\[NeurIPS 2025\] S'MoRE: Structural Mixture of Residual Experts for Parameter-Efficient LLM Fine-tuning](smore_structural_mixture_of_residual_experts_for_parameter-efficient_llm_fine-tu.md)
+- [\[NeurIPS 2025\] ReMindRAG: Low-Cost LLM-Guided Knowledge Graph Traversal for Efficient RAG](remindrag_low-cost_llm-guided_knowledge_graph_traversal_for_efficient_rag.md)
 
 <!-- RELATED:END -->

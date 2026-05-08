@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.00740](https://arxiv.org/abs/2501.00740)  
-**代码**: https://github.com/leeruibin/RORem  
+**代码**: [https://github.com/leeruibin/RORem](https://github.com/leeruibin/RORem)  
 **领域**: 图像生成  
 **关键词**: 目标移除, 人在回路中, 半监督学习, 图像修复, 扩散模型蒸馏
 

@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.13026](https://arxiv.org/abs/2404.13026)  
-**代码**: [physdreamer.github.io](https://physdreamer.github.io/) (有)  
-**领域**: 3D视觉  
+**代码**: [physdreamer.github.io](https://physdreamer.github.io/)  
+**领域**: 视频生成  
 **关键词**: 物理仿真, 3D高斯, 视频生成先验, 材料属性估计, 交互动力学  
 
 ## 一句话总结

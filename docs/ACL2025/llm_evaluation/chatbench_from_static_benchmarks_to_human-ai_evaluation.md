@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.07114](https://arxiv.org/abs/2504.07114)  
 **代码**: [有](https://huggingface.co/datasets/microsoft/ChatBench)  
-**领域**: NLP / LLM评估  
+**领域**: LLM评测  
 **关键词**: 基准评估, 人机交互, 用户模拟, MMLU, 动态评估
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.13602](https://arxiv.org/abs/2412.13602)  
 **代码**: [https://github.com/Visual-AI/GAMEBoT](https://github.com/Visual-AI/GAMEBoT)  
-**领域**: LLM推理  
+**领域**: LLM/NLP  
 **关键词**: LLM评测, 游戏推理, 思维链, 中间推理验证, 数据污染
 
 ## 一句话总结

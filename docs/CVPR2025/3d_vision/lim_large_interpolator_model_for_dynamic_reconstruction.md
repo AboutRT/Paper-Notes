@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.22537](https://arxiv.org/abs/2503.22537)  
 **代码**: 项目页面提供  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 4D reconstruction, triplane interpolation, feed-forward, mesh tracking, causal consistency
 
 ## 一句话总结

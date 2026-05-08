@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.05303](https://arxiv.org/abs/2504.05303)  
-**代码**: https://interactvlm.is.tue.mpg.de  
+**代码**: [https://interactvlm.is.tue.mpg.de](https://interactvlm.is.tue.mpg.de)  
 **领域**: 3D视觉  
 **关键词**: 人物交互重建, 3D接触估计, 视觉语言模型, 多视图定位, 语义接触
 
@@ -143,6 +143,6 @@ F1提升20.6%，测地距离从21.32cm大幅降低到2.89cm。
 - [\[CVPR 2025\] Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](perception_tokens_enhance_visual_reasoning_in_multimodal_language_models.md)
 - [\[ICCV 2025\] Repurposing 2D Diffusion Models with Gaussian Atlas for 3D Generation](../../ICCV2025/3d_vision/repurposing_2d_diffusion_models_with_gaussian_atlas_for_3d_generation.md)
 - [\[CVPR 2025\] 3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning](3d-mem_3d_scene_memory_for_embodied_exploration_and_reasoning.md)
-- [\[CVPR 2025\] DUNE: Distilling a Universal Encoder from Heterogeneous 2D and 3D Teachers](dune_universal_encoder_distillation.md)
+- [\[CVPR 2025\] HybridGS: Decoupling Transients and Statics with 2D and 3D Gaussian Splatting](hybridgs_decoupling_transients_and_statics_with_2d_and_3d_gaussian_splatting.md)
 
 <!-- RELATED:END -->

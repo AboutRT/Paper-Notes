@@ -20,7 +20,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.11483](https://arxiv.org/abs/2505.11483)  
 **代码**: [GitHub](https://github.com/TinyPART/msf-CNN)  
-**领域**: model_compression  
+**领域**: LLM/NLP  
 **关键词**: TinyML, CNN fusion, microcontroller, patch-based inference, memory optimization, DAG shortest path, IoT
 
 ## 一句话总结
@@ -174,6 +174,6 @@ RAM 压缩比：msf-CNN 相比 Vanilla 减少 87%–96%，相比 MCUNetV2/Stream
 - [\[NeurIPS 2025\] CAT: Circular-Convolutional Attention for Sub-Quadratic Transformers](cat_circular-convolutional_attention_for_sub-quadratic_transformers.md)
 - [\[NeurIPS 2025\] Opinion Maximization in Social Networks by Modifying Internal Opinions](opinion_maximization_in_social_networks_by_modifying_internal_opinions.md)
 - [\[NeurIPS 2025\] Large Language Models Miss the Multi-Agent Mark](large_language_models_miss_the_multi-agent_mark.md)
-- [\[NeurIPS 2025\] SYMPHONY: Synergistic Multi-agent Planning with Heterogeneous Language Model Assemblies](symphony_synergistic_multi-agent_planning_with_heterogeneous_language_model_asse.md)
+- [\[NeurIPS 2025\] PluralisticBehaviorSuite: Stress-Testing Multi-Turn Adherence to Custom Behavioral Policies](pluralistic_behavior_suite_stress-testing_multi-turn_adherence_to_custom_behavio.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.00557](https://arxiv.org/abs/2508.00557)  
 **代码**: [GitHub](https://github.com/chenqi1126/FreeCP)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 开放词汇语义分割, 训练免费, 类别净化, CLIP, 类别冗余, 视觉-语言歧义
 
 ## 一句话总结

@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.02129](https://arxiv.org/abs/2412.02129)  
 **代码**: [ailovejinx/GSOT3D](https://github.com/ailovejinx/GSOT3D)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D单目标跟踪, 通用跟踪, 点云, 多模态, 基准数据集, 9DoF
 
 ## 一句话总结
@@ -164,7 +164,7 @@ $$\mathcal{R}_t = \text{MLP}(\mathbf{x}^{N+1}_t), \quad b_t = \mathcal{B}_t(h), 
 - [\[ECCV 2024\] 3D Single-Object Tracking in Point Clouds with High Temporal Variation](../../ECCV2024/3d_vision/3d_single-object_tracking_in_point_clouds_with_high_temporal_variation.md)
 - [\[ICCV 2025\] Multi-View 3D Point Tracking](multi-view_3d_point_tracking.md)
 - [\[ICCV 2025\] AR-1-to-3: Single Image to Consistent 3D Object Generation via Next-View Prediction](ar1to3_single_image_to_consistent_3d_object_via_nextview_pre.md)
-- [\[ICCV 2025\] WildSeg3D: Segment Any 3D Objects in the Wild from 2D Images](wildseg3d_segment_any_3d_objects_in_the_wild_from_2d_images.md)
 - [\[CVPR 2025\] HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos](../../CVPR2025/3d_vision/hot3d_hand_and_object_tracking_in_3d_from_egocentric_multi-view_videos.md)
+- [\[CVPR 2025\] Reconstructing In-the-Wild Open-Vocabulary Human-Object Interactions](../../CVPR2025/3d_vision/reconstructing_in-the-wild_open-vocabulary_human-object_interactions.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.00940](https://arxiv.org/abs/2512.00940)  
-**代码**: https://snimm.github.io/mira_web/ (有)  
+**代码**: [https://snimm.github.io/mira_web/](https://snimm.github.io/mira_web/)  
 **领域**: 持续学习 / 领域泛化  
 **关键词**: 联想记忆, Hopfield网络, 适配器, 持续学习, 领域泛化
 
@@ -140,10 +140,10 @@ MIRA 基于一个冻结的 ViT-B/16 骨干网络（CLIP 初始化），在每一
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] The Last Vote: A Multi-Stakeholder Framework for Language Model Governance](the_last_vote_a_multi-stakeholder_framework_for_language_model_governance.md)
 - [\[AAAI 2026\] Text-Guided Channel Perturbation and Pretrained Knowledge Integration for Unified Multi-Modality Image Fusion](../../AAAI2026/signal_comm/text-guided_channel_perturbation_and_pretrained_knowledge_integration_for_unifie.md)
 - [\[NeurIPS 2025\] Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning](contrastive_consolidation_of_top-down_modulations_achieves_sparsely_supervised_c.md)
 - [\[NeurIPS 2025\] The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning](the_surprising_effectiveness_of_negative_reinforcement_in_llm_reasoning.md)
-- [\[NeurIPS 2025\] ConTextTab: 语义感知的表格上下文学习器](contexttab_a_semantics-aware_tabular_in-context_learner.md)
-- [\[NeurIPS 2025\] Masked Symbol Modeling for Demodulation of Oversampled Baseband Communication Signals](masked_symbol_modeling_for_demodulation_of_oversampled_baseband_communication_si.md)
+- [\[NeurIPS 2025\] Estimation of Stochastic Optimal Transport Maps](estimation_of_stochastic_optimal_transport_maps.md)
 
 <!-- RELATED:END -->

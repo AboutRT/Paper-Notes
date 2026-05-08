@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Rethinking Flow and Diffusion Bridge Models for Speech Enhancement
 description: >-
-  [AAAI 2026][语音增强] 本文提出了一个统一的理论框架，将语音增强中的 flow matching、score-based diffusion 和 Schrödinger bridge 模型统一为在配对数据之间构造不同高斯概率路径的过程，并揭示了这类生成模型每一步采样本质上等价于预测式语音增强，进而利用预测范式中的高性能骨干网络、改进损失函数和微调策略来增强桥模型性能。
+  [AAAI 2026][其他] 本文提出了一个统一的理论框架，将语音增强中的 flow matching、score-based diffusion 和 Schrödinger bridge 模型统一为在配对数据之间构造不同高斯概率路径的过程，并揭示了这类生成模型每一步采样本质上等价于预测式语音增强，进而利用预测范式中的高性能骨干网络、改进损失函数和微调策略来增强桥模型性能。
 tags:
   - AAAI 2026
-  - 语音增强
+  - 其他
   - 扩散桥模型
   - 流匹配
   - Schrödinger桥
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2602.18355](https://arxiv.org/abs/2602.18355)  
 **代码**: [GitHub](https://github.com/Dahan-Wang/Rethinking-Flow-and-Diffusion-Bridge-Models-for-Speech-Enhancement)  
-**领域**: 语音增强 / 生成模型  
+**领域**: 其他  
 **关键词**: 语音增强, 扩散桥模型, 流匹配, Schrödinger桥, 统一框架
 
 ## 一句话总结
@@ -170,8 +170,8 @@ $$\mathbf{x}_{t_0} = \sum_{n=1}^{N} w_n \mathbf{s}_{t_n} + w_y \mathbf{y}$$
 
 - [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](beyond_world_models_rethinking_understanding_in_ai_models.md)
 - [\[AAAI 2026\] MF-Speech: Achieving Fine-Grained and Compositional Control in Speech Generation via Factor Disentanglement](mf-speech_achieving_fine-grained_and_compositional_control_in_speech_generation_.md)
-- [\[AAAI 2026\] Cash Flow Underwriting with Bank Transaction Data: Advancing MSME Financial Inclusion in Malaysia](cash_flow_underwriting_with_bank_transaction_data_advancing_msme_financial_inclu.md)
 - [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
-- [\[AAAI 2026\] ASAG: Toward the Frontiers of Reliable Diffusion Sampling via Adversarial Sinkhorn Attention Guidance](toward_the_frontiers_of_reliable_diffusion_sampling_via_adversarial_sinkhorn_att.md)
+- [\[AAAI 2026\] Cash Flow Underwriting with Bank Transaction Data: Advancing MSME Financial Inclusion in Malaysia](cash_flow_underwriting_with_bank_transaction_data_advancing_msme_financial_inclu.md)
+- [\[AAAI 2026\] TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models](taylorpoda_a_taylor_expansion-based_method_to_improve_post-hoc_attributions_for_.md)
 
 <!-- RELATED:END -->

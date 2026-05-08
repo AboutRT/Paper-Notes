@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.23672](https://arxiv.org/abs/2510.23672)  
 **代码**: [https://github.com/decisionintelligence/DBLoss](https://github.com/decisionintelligence/DBLoss)  
-**领域**: autonomous_driving / 时间序列预测  
+**领域**: 自动驾驶  
 **关键词**: 时间序列预测, 损失函数, 季节性-趋势分解, EMA, 通用损失  
 
 ## 一句话总结

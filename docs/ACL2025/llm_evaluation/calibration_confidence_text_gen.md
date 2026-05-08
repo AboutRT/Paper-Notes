@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025 (Short)
   - 置信度校准
-  - 文本生成
+  - LLM评测
   - 概率分布
   - 尾部稀薄度
   - 生成不确定性
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Short)  
 **arXiv**: [2506.00637](https://arxiv.org/abs/2506.00637)  
 **代码**: [https://github.com/ljyflores/calibrated-confidence-for-nlg](https://github.com/ljyflores/calibrated-confidence-for-nlg)  
-**领域**: 文本生成  
+**领域**: LLM评测  
 **关键词**: 置信度校准, 文本生成, 概率分布, 尾部稀薄度, 生成不确定性  
 
 ## 一句话总结
@@ -136,9 +136,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Structured Language Generation Model: Loss Calibration and Formatted Decoding for Efficient Text](../../AAAI2026/llm_evaluation/structured_language_generation_model_loss_calibration_and_formatted_decoding_for.md)
-- [\[ACL 2025\] Pap2Pat: Benchmarking Outline-Guided Long-Text Patent Generation with Patent-Paper Pairs](pap2pat_benchmarking_outline-guided_long-text_patent_generation_with_patent-pape.md)
-- [\[NeurIPS 2025\] Let the Experts Speak: Improving Survival Prediction & Calibration via Mixture-of-Experts Heads](../../NeurIPS2025/llm_evaluation/let_the_experts_speak_improving_survival_prediction_calibration_via_mixture-of-e.md)
+- [\[CVPR 2025\] Improving Accuracy and Calibration via Differentiated Deep Mutual Learning](../../CVPR2025/llm_evaluation/improving_accuracy_and_calibration_via_differentiated_deep_mutual_learning.md)
 - [\[NeurIPS 2025\] ConfTuner: Training Large Language Models to Express Their Confidence Verbally](../../NeurIPS2025/llm_evaluation/conftuner_training_large_language_models_to_express_their_confidence_verbally.md)
-- [\[ACL 2025\] GRACE: A Granular Benchmark for Evaluating Model Calibration Against Human Calibration](grace_a_granular_benchmark_for_evaluating_model_calibration_against_human_calibr.md)
+- [\[ACL 2026\] Text-to-Distribution Prediction with Quantile Tokens and Neighbor Context](../../ACL2026/llm_evaluation/text-to-distribution_prediction_with_quantile_tokens_and_neighbor_context.md)
+- [\[ACL 2025\] Pap2Pat: Benchmarking Outline-Guided Long-Text Patent Generation with Patent-Paper Pairs](pap2pat_benchmarking_outline-guided_long-text_patent_generation_with_patent-pape.md)
 
 <!-- RELATED:END -->

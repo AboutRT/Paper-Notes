@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Dynamic Reflections: Probing Video Representations with Text Alignment
 description: >-
-  [ICLR 2026][视频表示对齐] 本文首次将柏拉图表示假说 (PRH) 从静态图像-文本扩展到时序视频-文本领域，通过对 121 个视觉与语言模型的系统评估，揭示了测试时增加帧数与描述数可将对齐分数提升近一倍的现象，并提出 $R^2 > 0.98$ 的饱和式缩放律来量化这一行为。
+  [ICLR 2026][可解释性] 本文首次将柏拉图表示假说 (PRH) 从静态图像-文本扩展到时序视频-文本领域，通过对 121 个视觉与语言模型的系统评估，揭示了测试时增加帧数与描述数可将对齐分数提升近一倍的现象，并提出 $R^2 > 0.98$ 的饱和式缩放律来量化这一行为。
 tags:
   - ICLR 2026
-  - 视频表示对齐
+  - 可解释性
   - 柏拉图表示假说
   - 测试时缩放律
   - 跨模态对齐
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2511.02767](https://arxiv.org/abs/2511.02767)  
-**代码**: https://video-prh.github.io (有)  
+**代码**: [https://video-prh.github.io](https://video-prh.github.io)  
 **领域**: 可解释性 / 表示学习  
 **关键词**: 视频表示对齐, 柏拉图表示假说, 测试时缩放律, 跨模态对齐, 自监督学习
 
@@ -139,9 +139,9 @@ $$\text{score}(n_f, n_c) = S_{\infty} - (C_f \cdot n_f^{-\alpha} + C_c \cdot n_c
 ## 相关论文
 
 - [\[ICLR 2026\] Dynamic Reflections: Probing Video Representations with Text-Driven Reasoning](dynamic_reflections_probing_video_representations_with_text_driven_reasoning.md)
+- [\[ICLR 2026\] One Language, Two Scripts: Probing Script-Invariance in LLM Concept Representations](one_language_two_scripts_probing_script-invariance_in_llm_concept_representation.md)
 - [\[ICLR 2026\] Beyond Linear Probes: Dynamic Safety Monitoring for Language Models](beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md)
 - [\[ICLR 2026\] Uncovering Grounding IDs: How External Cues Shape Multimodal Binding](uncovering_grounding_ids_how_external_cues_shape_multimodal_binding.md)
-- [\[ICLR 2026\] Uni-NTFM: A Unified Foundation Model for EEG Signal Representation Learning](uni-ntfm_a_unified_foundation_model_for_eeg_signal_representation_learning.md)
-- [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](../../CVPR2026/interpretability/text-guided_fine-grained_video_anomaly_understanding.md)
+- [\[ICLR 2026\] Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability](temporal_sparse_autoencoders_leveraging_the_sequential_nature_of_language_for_in.md)
 
 <!-- RELATED:END -->

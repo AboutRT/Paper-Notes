@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.08363](https://arxiv.org/abs/2503.08363)  
 **代码**: [项目页](https://parametric-completion.github.io)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 点云补全, 参数化基元, 多面体表面重建, 二分匹配, 序列生成
 
 ## 一句话总结
@@ -120,8 +120,8 @@ $$\mathcal{L}_{total} = \sum_{i=1}^{M} (\mathcal{L}_{cls}^{(i)} + \beta_1 \mathc
 
 ## 相关论文
 
-- [\[CVPR 2025\] PCDreamer: Point Cloud Completion Through Multi-view Diffusion Priors](pcdreamer_point_cloud_completion_through_multi-view_diffusion_priors.md)
 - [\[CVPR 2025\] GenPC: Zero-shot Point Cloud Completion via 3D Generative Priors](genpc_zero-shot_point_cloud_completion_via_3d_generative_priors.md)
+- [\[CVPR 2025\] PCDreamer: Point Cloud Completion Through Multi-view Diffusion Priors](pcdreamer_point_cloud_completion_through_multi-view_diffusion_priors.md)
 - [\[ICCV 2025\] Revisiting Point Cloud Completion: Are We Ready For The Real-World?](../../ICCV2025/3d_vision/revisiting_point_cloud_completion_are_we_ready_for_the_real-world.md)
 - [\[AAAI 2026\] Rethinking Multimodal Point Cloud Completion: A Completion-by-Correction Perspective](../../AAAI2026/3d_vision/rethinking_multimodal_point_cloud_completion_a_completion-by-correction_perspect.md)
 - [\[ICCV 2025\] CstNet: Constraint-Aware Feature Learning for Parametric Point Cloud](../../ICCV2025/3d_vision/constraint-aware_feature_learning_for_parametric_point_cloud.md)

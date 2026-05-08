@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13842](https://arxiv.org/abs/2407.13842)  
-**代码**: https://airvlab.github.io/grasp-anything (有)  
+**代码**: [https://airvlab.github.io/grasp-anything](https://airvlab.github.io/grasp-anything)  
 **领域**: 3D视觉  
 **关键词**: 6-DoF抓取检测, 语言引导, 扩散模型, 负提示引导, 机器人操控
 

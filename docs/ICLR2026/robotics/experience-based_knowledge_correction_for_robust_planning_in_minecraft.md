@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2505.24157](https://arxiv.org/abs/2505.24157)  
 **代码**: 无  
-**领域**: AI安全 / Agent 鲁棒规划  
+**领域**: 机器人  
 **关键词**: LLM planning, knowledge correction, Minecraft, embodied agent, self-correction failure
 
 ## 一句话总结

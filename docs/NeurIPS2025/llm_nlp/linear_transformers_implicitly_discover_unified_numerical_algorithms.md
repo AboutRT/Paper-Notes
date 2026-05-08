@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.19702](https://arxiv.org/abs/2509.19702)  
 **代码**: 待确认  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: in-context learning, linear transformer, numerical algorithm discovery, matrix completion, Newton-Schulz
 
 ## 一句话总结
@@ -167,6 +167,6 @@ EAGLE 在 $\kappa=10^4$ 时比 CG 快约 100 倍。
 - [\[NeurIPS 2025\] Composing Linear Layers from Irreducibles](composing_linear_layers_from_irreducibles.md)
 - [\[NeurIPS 2025\] What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains](what_one_cannot_two_can_two-layer_transformers_provably_represent_induction_head.md)
 - [\[NeurIPS 2025\] Strassen Attention, Split VC Dimension and Compositionality in Transformers](strassen_attention_split_vc_dimension_and_compositionality_in_transformers.md)
-- [\[ACL 2025\] How Numerical Precision Affects Arithmetical Reasoning Capabilities of LLMs](../../ACL2025/llm_nlp/how_numerical_precision_affects_arithmetical_reasoning_capabilities_of_llms.md)
+- [\[NeurIPS 2025\] CAT: Circular-Convolutional Attention for Sub-Quadratic Transformers](cat_circular-convolutional_attention_for_sub-quadratic_transformers.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.26074](https://arxiv.org/abs/2509.26074)  
 **代码**: [https://github.com/deeplearning-wisc/lens](https://github.com/deeplearning-wisc/lens)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: reward modeling, latent space synthesis, VAE, preference data augmentation, RLHF
 
 ## 一句话总结

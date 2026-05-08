@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.22538](https://arxiv.org/abs/2602.22538)  
 **代码**: [GitHub](https://github.com/K1nght/RAIN-Merging)  
-**领域**: llm_reasoning  
+**领域**: LLM推理  
 **关键词**: 模型合并, 指令遵循, 推理模型, 零空间投影, 无梯度方法
 
 ## 一句话总结

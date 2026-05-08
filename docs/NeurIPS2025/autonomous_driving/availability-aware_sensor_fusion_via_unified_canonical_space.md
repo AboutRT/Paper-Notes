@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.07029](https://arxiv.org/abs/2503.07029)  
-**代码**: https://github.com/kaist-avelab/k-radar  
+**代码**: [https://github.com/kaist-avelab/k-radar](https://github.com/kaist-avelab/k-radar)  
 **领域**: 自动驾驶 / 传感器融合  
 **关键词**: 多传感器融合, 传感器降级鲁棒性, 统一规范空间, 4D Radar, CASAP
 
@@ -131,6 +131,6 @@ K-Radar 数据集 3D 物体检测（IoU=0.5）：
 - [\[ICCV 2025\] Self-Supervised Sparse Sensor Fusion for Long Range Perception](../../ICCV2025/autonomous_driving/self-supervised_sparse_sensor_fusion_for_long_range_perception.md)
 - [\[NeurIPS 2025\] UniMotion: A Unified Motion Framework for Simulation, Prediction and Planning](unimotion_a_unified_motion_framework_for_simulation_prediction_and_planning.md)
 - [\[ICLR 2026\] x²-Fusion: Cross-Modality and Cross-Dimension Flow Estimation in Event Edge Space](../../ICLR2026/autonomous_driving/x2-fusion_cross-modality_and_cross-dimension_flow_estimation_in_event_edge_space.md)
-- [\[CVPR 2025\] CAWM-Mamba: A Unified Model for Infrared-Visible Image Fusion and Compound Adverse Weather Restoration](../../CVPR2025/autonomous_driving/cawm-mamba_a_unified_model_for_infrared-visible_image_fusion_and_compound_advers.md)
+- [\[CVPR 2025\] GDFusion: Rethinking Temporal Fusion with a Unified Gradient Descent View for 3D Semantic Occupancy Prediction](../../CVPR2025/autonomous_driving/gdfusion_temporal_fusion_occupancy.md)
 
 <!-- RELATED:END -->

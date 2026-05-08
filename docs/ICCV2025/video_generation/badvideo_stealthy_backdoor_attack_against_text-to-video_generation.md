@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.16907](https://arxiv.org/abs/2504.16907)  
-**代码**: https://wrt2000.github.io/BadVideo2025/ （项目主页）  
+**代码**: [https://wrt2000.github.io/BadVideo2025/](https://wrt2000.github.io/BadVideo2025/) （项目主页）  
 **领域**: 图像/视频生成安全  
 **关键词**: 文本到视频生成, backdoor attack, 冗余信息利用, 时空组合, 内容安全
 

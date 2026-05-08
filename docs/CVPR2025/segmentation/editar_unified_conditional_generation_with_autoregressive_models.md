@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.04699](https://arxiv.org/abs/2501.04699)  
-**代码**: https://jitengmu.github.io/EditAR/ (有)  
-**领域**: 图像生成 / 图像编辑  
+**代码**: [https://jitengmu.github.io/EditAR/](https://jitengmu.github.io/EditAR/)  
+**领域**: 图像分割  
 **关键词**: 自回归模型, 统一条件生成, 图像编辑, 图像翻译, 知识蒸馏
 
 ## 一句话总结

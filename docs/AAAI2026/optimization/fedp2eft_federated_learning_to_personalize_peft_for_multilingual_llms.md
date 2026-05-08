@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2502.04387](https://arxiv.org/abs/2502.04387)  
 **作者**: Royson Lee, Minyoung Kim, Fady Rezk, Rui Li, Stylianos I. Venieris, Timothy Hospedales (Samsung AI / Univ. of Edinburgh)  
 **代码**: [GitHub](https://github.com/SamsungLabs/fedp2eft)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 联邦学习, 个性化PEFT, LoRA rank选择, 多语言LLM, Bayesian稀疏选择  
 
 ## 一句话总结

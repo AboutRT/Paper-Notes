@@ -51,8 +51,8 @@ OpenRSD基于RTMDet改进，包含三个核心组件：
 1. **多模态提示构建 (Prompt Construction)**
 
    支持文本和图像两种提示输入：
-   - **文本提示**：使用SkyCLIP文本编码器提取嵌入，用GPT-4为每个类别生成10-15个多样化文本提示
-   - **图像提示**：将GT框扩大1.25倍裁剪，用DINOv2提取视觉嵌入；通过DINOv2+MLP分类器筛选置信度最高的100张图作为提示集
+    - **文本提示**：使用SkyCLIP文本编码器提取嵌入，用GPT-4为每个类别生成10-15个多样化文本提示
+    - **图像提示**：将GT框扩大1.25倍裁剪，用DINOv2提取视觉嵌入；通过DINOv2+MLP分类器筛选置信度最高的100张图作为提示集
 
    提示嵌入通过独立MLP映射到256维空间，训练时每次随机选择一种提示类型，每类随机采样3-7个嵌入。随机采样负类别以增强鲁棒性。
 
@@ -60,19 +60,19 @@ OpenRSD基于RTMDet改进，包含三个核心组件：
 
    适合大词汇量快速检测。计算检测特征与提示嵌入的相似度进行分类：
 
-   $$s_i^c = \max_{j \in \{j|l_j=c\}} \left(\alpha \frac{z_i \cdot p_j}{\|p_j\|} + \beta\right)$$
+    $s_i^c = \max_{j \in \{j|l_j=c\}} \left(\alpha \frac{z_i \cdot p_j}{\|p_j\|} + \beta\right)$
 
    额外引入监督对比损失稳定特征对齐：
 
-   $$\mathcal{L}_{\text{ct}} = \sum_i -\frac{1}{|P(i)|} \sum_{j \in P(i)} \log \frac{e^{(z_i^* \cdot p_j / \tau)}}{\sum_{k \in A(i)} e^{(z_i^* \cdot p_j / \tau)}}$$
+    $\mathcal{L}_{\text{ct}} = \sum_i -\frac{1}{|P(i)|} \sum_{j \in P(i)} \log \frac{e^{(z_i^* \cdot p_j / \tau)}}{\sum_{k \in A(i)} e^{(z_i^* \cdot p_j / \tau)}}$
 
    总损失 $\mathcal{L}_{\text{aln}} = \mathcal{L}_{\text{ct}} + \mathcal{L}_{\text{cls}} + \mathcal{L}_{\text{box}}$，同时支持水平框和旋转框回归。
 
 3. **融合头 (Fusion Head)**
 
    引入轻量跨模态融合增强检测性能。使用三层交叉注意力实现提示嵌入与图像特征的双向交互：
-   - 提示嵌入→图像特征的cross-attention
-   - 图像特征→更新后提示嵌入的cross-attention
+    - 提示嵌入→图像特征的cross-attention
+    - 图像特征→更新后提示嵌入的cross-attention
 
    引入可学习的类别嵌入（class embedding），为每个类别分配随机ID并映射为嵌入，防止不同粒度任务间的冲突。
 

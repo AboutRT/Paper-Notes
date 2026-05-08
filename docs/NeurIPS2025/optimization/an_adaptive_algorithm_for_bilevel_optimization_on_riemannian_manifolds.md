@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.06042](https://arxiv.org/abs/2504.06042)  
-**代码**: https://github.com/RufengXiao/AdaRHD  
+**代码**: [https://github.com/RufengXiao/AdaRHD](https://github.com/RufengXiao/AdaRHD)  
 **领域**: 黎曼优化 / 双层优化  
 **关键词**: 黎曼流形, 双层优化, 自适应步长, 超梯度, 共轭梯度
 
@@ -126,10 +126,10 @@ AdaRHD 是首个无需预知问题参数（强凸常数、Lipschitz 界、流形
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds](finite-time_analysis_of_stochastic_nonconvex_nonsmooth_optimization_on_the_riema.md)
 - [\[NeurIPS 2025\] Problem-Parameter-Free Decentralized Bilevel Optimization](problem-parameter-free_decentralized_bilevel_optimization.md)
 - [\[NeurIPS 2025\] A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization](a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md)
 - [\[NeurIPS 2025\] Learning Theory for Kernel Bilevel Optimization](learning_theory_for_kernel_bilevel_optimization.md)
 - [\[NeurIPS 2025\] Set Smoothness Unlocks Clarke Hyper-stationarity in Bilevel Optimization](set_smoothness_unlocks_clarke_hyper-stationarity_in_bilevel_optimization.md)
+- [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](efficient_adaptive_federated_optimization.md)
 
 <!-- RELATED:END -->

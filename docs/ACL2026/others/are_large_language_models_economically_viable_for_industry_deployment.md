@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 部署经济性
   - 生命周期基准
-  - 能效评估
+  - 其他
   - 量化保真度
   - 边缘推理
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.19342](https://arxiv.org/abs/2604.19342)  
-**代码**: https://github.com/Abdullah4152/EDGE-EVAL  
-**领域**: LLM部署效率 / 模型评估  
+**代码**: [https://github.com/Abdullah4152/EDGE-EVAL](https://github.com/Abdullah4152/EDGE-EVAL)  
+**领域**: 其他  
 **关键词**: 部署经济性, 生命周期基准, 能效评估, 量化保真度, 边缘推理
 
 ## 一句话总结
@@ -131,10 +131,10 @@ QLoRA能耗悖论（LoRA-FP16 vs QLoRA-INT4）：
 
 ## 相关论文
 
-- [\[CVPR 2026\] SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](../../CVPR2026/others/sldprtnet_a_large-scale_multimodal_dataset_for_cad_generation_in_language-driven.md)
+- [\[CVPR 2026\] SldprtNet: A Large-Scale Multimodal Dataset for CAD Generation in Language-Driven 3D Design](../../CVPR2026/others/sldprtnet_a_largescale_multimodal_dataset_for_cad.md)
 - [\[ACL 2025\] Mixture of Small and Large Models for Chinese Spelling Check](../../ACL2025/others/mixture_of_small_and_large_models_for_chinese_spelling_check.md)
-- [\[AAAI 2026\] Intermediate N-Gramming: Deterministic and Fast N-Grams For Large N and Large Datasets](../../AAAI2026/others/intermediate_n-gramming_deterministic_and_fast_n-grams_for_large_n_and_large_dat.md)
 - [\[NeurIPS 2025\] Radar: Benchmarking Language Models on Imperfect Tabular Data](../../NeurIPS2025/others/radar_benchmarking_language_models_on_imperfect_tabular_data.md)
-- [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](../../AAAI2026/others/beyond_world_models_rethinking_understanding_in_ai_models.md)
+- [\[AAAI 2026\] Intermediate N-Gramming: Deterministic and Fast N-Grams For Large N and Large Datasets](../../AAAI2026/others/intermediate_n-gramming_deterministic_and_fast_n-grams_for_large_n_and_large_dat.md)
+- [\[ACL 2025\] Code-Switching and Syntax: A Large-Scale Experiment](../../ACL2025/others/code-switching_and_syntax_a_large-scale_experiment.md)
 
 <!-- RELATED:END -->

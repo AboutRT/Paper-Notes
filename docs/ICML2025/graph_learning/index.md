@@ -118,9 +118,9 @@ description: >-
 
 :   提出 TINED，将 GNN 中特征变换（FT）的参数直接注入 MLP（Teacher Injection），并用 Dirichlet 能量蒸馏传递 GNN 层中 FT 与图传播（GP）的对立平滑特性，在 7 个数据集上超越 GNN 教师，推理速度提升 94 倍。
 
-**[Toward Data-centric Directed Graph Learning: An Entropy-driven Approach](toward_data-centric_directed_graph_learning_an_entropy-driven_approach.md)**
+**[TopInG: Topologically Interpretable Graph Learning via Persistent Rationale Filtration](toping_topologically_interpretable_graph_learning_via_persistent_rationale_filtr.md)**
 
-:   提出 EDEN（Entropy-driven Digraph Knowledge Distillation），从数据中心视角构建层级知识树（HKT），通过有向拓扑结构度量和节点互信息量化，揭示有向图中拓扑与节点属性的潜在关联，作为即插即用模块可为任意 DiGNN 带来平均 2-5% 的性能提升，在 14 个数据集和 4 个下游任务上取得 SOTA。
+:   TopInG 提出了一种基于持久同调的拓扑可解释图学习框架，通过学习"基本原理过滤"（rationale filtration）来识别稳定且持久的基本原理子图，引入"拓扑差异"（topological discrepancy）约束来强化基本原理子图与无关子图之间的拓扑区分，在处理多变形态的基本原理子图时显著优于现有方法。
 
 **[Towards Graph Foundation Models: Learning Generalities Across Graphs via Task-Trees](towards_graph_foundation_models_learning_generalities_across_graphs_via_task-tre.md)**
 

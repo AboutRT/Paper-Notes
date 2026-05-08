@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2502.14317](https://arxiv.org/abs/2502.14317)  
 **代码**: [GitHub](https://github.com/menik1126/ParallelComp)  
-**领域**: LLM Efficiency / Long Context  
+**领域**: 模型压缩  
 **关键词**: length extrapolation, KV cache eviction, parallel attention, attention sink, training-free  
 
 ## 一句话总结
@@ -132,6 +132,6 @@ $$k \leq w - \exp\left(O\left(\frac{\log^2(\epsilon \cdot w)}{R^2}\right)\right)
 - [\[ICLR 2026\] InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models](../../ICLR2026/model_compression/inftythink_breaking_the_length_limits_of_long-context_reasoning_in_large_languag.md)
 - [\[ICML 2025\] RocketKV: Accelerating Long-Context LLM Inference via Two-Stage KV Cache Compression](rocketkv_accelerating_long-context_llm_inference_via_two-stage_kv_cache_compress.md)
 - [\[NeurIPS 2025\] KeyDiff: Key Similarity-Based KV Cache Eviction for Long-Context LLM Inference in Resource-Constrained Environments](../../NeurIPS2025/model_compression/keydiff_key_similarity-based_kv_cache_eviction_for_long-context_llm_inference_in.md)
-- [\[ACL 2025\] APB: Accelerating Distributed Long-Context Inference by Passing Compressed Context Blocks across GPUs](../../ACL2025/model_compression/apb_distributed_long_context.md)
+- [\[ICML 2025\] Context Tuning for In-Context Optimization](context_tuning_for_in-context_optimization.md)
 
 <!-- RELATED:END -->

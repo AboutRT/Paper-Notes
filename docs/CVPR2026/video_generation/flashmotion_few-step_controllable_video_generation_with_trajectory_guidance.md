@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 轨迹可控视频生成
-  - 蒸馏加速
+  - 视频生成
   - 少步推理
   - 对抗训练
   - 扩散模型
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12146](https://arxiv.org/abs/2603.12146)  
 **代码**: 无  
-**领域**: 视频理解  
+**领域**: 视频生成  
 **关键词**: 轨迹可控视频生成, 蒸馏加速, 少步推理, 对抗训练, 扩散模型
 
 > ⚠️ 本笔记基于 arXiv 摘要撰写（本地缓存仅含摘要页，~4.7KB），方法和实验细节有限。
@@ -126,8 +126,8 @@ FlashMotion 采用三阶段训练流程：
 
 - [\[CVPR 2026\] PoseGen: In-Context LoRA Finetuning for Pose-Controllable Long Human Video Generation](posegen_in-context_lora_finetuning_for_pose-controllable_long_human_video_genera.md)
 - [\[CVPR 2026\] Lighting-grounded Video Generation with Renderer-based Agent Reasoning](lighting-grounded_video_generation_with_renderer-based_agent_reasoning.md)
-- [\[CVPR 2026\] Gloria: Consistent Character Video Generation via Content Anchors](gloria_consistent_character_video_generation_via_content_anchors.md)
-- [\[CVPR 2026\] CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video](cubecomposer_spatio-temporal_autoregressive_4k_360_video_generation_from_perspec.md)
+- [\[CVPR 2026\] SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls](switchcraft_training-free_multi-event_video_generation_with_attention_controls.md)
 - [\[CVPR 2026\] UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions](uniavgen_unified_audio_and_video_generation_with_asymmetric_cross-modal_interact.md)
+- [\[CVPR 2026\] LAMP: Language-Assisted Motion Planning for Controllable Video Generation](lamp_language-assisted_motion_planning_for_controllable_video_generation.md)
 
 <!-- RELATED:END -->

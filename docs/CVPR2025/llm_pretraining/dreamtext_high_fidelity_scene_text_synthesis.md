@@ -9,14 +9,14 @@ tags:
   - 扩散模型
   - 字符注意力
   - 均衡监督
-  - 交替优化
+  - LLM预训练
 ---
 
 # DreamText: High Fidelity Scene Text Synthesis
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.14701](https://arxiv.org/abs/2405.14701)  
-**代码**: https://github.com/OpenBMB/DreamText (有)  
+**代码**: [https://github.com/OpenBMB/DreamText](https://github.com/OpenBMB/DreamText)  
 **领域**: 扩散模型 / 文字生成  
 **关键词**: 场景文字合成, 扩散模型, 字符注意力, 均衡监督, 交替优化
 
@@ -132,8 +132,8 @@ DreamText基于stable diffusion的inpainting管线。输入包括原始图像、
 
 - [\[CVPR 2025\] The Scene Language: Representing Scenes with Programs, Words, and Embeddings](the_scene_language_representing_scenes_with_programs_words_and_embeddings.md)
 - [\[ACL 2025\] Data-Constrained Synthesis of Training Data for De-Identification](../../ACL2025/llm_pretraining/data-constrained_synthesis_of_training_data_for_de-identification.md)
-- [\[ICML 2025\] How to Synthesize Text Data without Model Collapse?](../../ICML2025/llm_pretraining/how_to_synthesize_text_data_without_model_collapse.md)
 - [\[ECCV 2024\] Plan, Posture and Go: Towards Open-Vocabulary Text-to-Motion Generation](../../ECCV2024/llm_pretraining/plan_posture_and_go_towards_open-vocabulary_text-to-motion_generation.md)
-- [\[ICCV 2025\] ACE-G: Improving Generalization of Scene Coordinate Regression Through Query Pre-Training](../../ICCV2025/llm_pretraining/ace-g_improving_generalization_of_scene_coordinate_regression_through_query_pre-.md)
+- [\[ECCV 2024\] I Can't Believe It's Not Scene Flow!](../../ECCV2024/llm_pretraining/i_canapost_believe_itaposs_not_scene_flow.md)
+- [\[ACL 2025\] Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning](../../ACL2025/llm_pretraining/making_llms_better_many-to-many_speech-to-text_translators_with_curriculum_learn.md)
 
 <!-- RELATED:END -->

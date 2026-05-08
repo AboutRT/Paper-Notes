@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Memorization Inheritance in Sequence-Level Knowledge Distillation for Neural Machine Translation
 description: >-
-  [ACL 2025][知识蒸馏] 本文首次系统研究了序列级知识蒸馏（SeqKD）中教师模型的记忆行为如何传递给学生模型，发现学生模型虽未直接接触原始训练数据，但其提取式记忆率比基线模型高 57%，幻觉率也增加，并提出 Adaptive-SeqKD 通过在高质量子集上微调教师来缓解这些问题。
+  [ACL 2025][多语言翻译] 本文首次系统研究了序列级知识蒸馏（SeqKD）中教师模型的记忆行为如何传递给学生模型，发现学生模型虽未直接接触原始训练数据，但其提取式记忆率比基线模型高 57%，幻觉率也增加，并提出 Adaptive-SeqKD 通过在高质量子集上微调教师来缓解这些问题。
 tags:
   - ACL 2025
-  - 知识蒸馏
+  - 多语言翻译
   - 记忆
   - 幻觉
   - 机器翻译
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.01491](https://arxiv.org/abs/2502.01491)  
-**代码**: https://github.com/vernadankers/memseqkd  
-**领域**: 模型压缩 / NLP理解  
+**代码**: [https://github.com/vernadankers/memseqkd](https://github.com/vernadankers/memseqkd)  
+**领域**: 多语言翻译  
 **关键词**: 知识蒸馏, 记忆, 幻觉, 机器翻译, SeqKD
 
 ## 一句话总结
@@ -128,9 +128,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Multi-perspective Alignment for Increasing Naturalness in Neural Machine Translation](multi-perspective_alignment_for_increasing_naturalness_in_neural_machine_transla.md)
-- [\[ACL 2025\] Registering Source Tokens to Target Language Spaces in Multilingual Neural Machine Translation](registering_source_tokens_to_target_language_spaces_in_multilingual_neural_machi.md)
 - [\[ACL 2025\] THOR-MoE: Hierarchical Task-Guided and Context-Responsive Routing for Neural Machine Translation](thor-moe_hierarchical_task-guided_and_context-responsive_routing_for_neural_mach.md)
-- [\[ACL 2025\] Exploring In-context Example Generation for Machine Translation](exploring_in-context_example_generation_for_machine_translation.md)
-- [\[ACL 2025\] Unveiling the Power of Source: Source-based Minimum Bayes Risk Decoding for Neural Machine Translation](unveiling_the_power_of_source_source-based_minimum_bayes_risk_decoding_for_neura.md)
+- [\[ACL 2025\] Registering Source Tokens to Target Language Spaces in Multilingual Neural Machine Translation](registering_source_tokens_to_target_language_spaces_in_multilingual_neural_machi.md)
+- [\[ACL 2025\] Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation](watching_the_watchers_exposing_gender_disparities_in_machine_translation_quality.md)
+- [\[ACL 2025\] Team ACK at SemEval-2025 Task 2: Beyond Word-for-Word Machine Translation for English-Korean Pairs](team_ack_at_semeval-2025_task_2_beyond_word-for-word_machine_translation_for_eng.md)
 
 <!-- RELATED:END -->

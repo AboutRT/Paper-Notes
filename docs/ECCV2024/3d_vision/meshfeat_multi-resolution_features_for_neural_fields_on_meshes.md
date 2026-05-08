@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13592](https://arxiv.org/abs/2407.13592)  
-**代码**: https://maharajamihir.github.io/MeshFeat/ (有)  
+**代码**: [https://maharajamihir.github.io/MeshFeat/](https://maharajamihir.github.io/MeshFeat/)  
 **领域**: 3D视觉  
 **关键词**: 参数化特征编码, 多分辨率网格, 神经场, 网格简化, 纹理重建
 

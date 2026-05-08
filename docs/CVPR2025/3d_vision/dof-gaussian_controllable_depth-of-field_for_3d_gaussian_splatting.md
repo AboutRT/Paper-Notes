@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.00746](https://arxiv.org/abs/2503.00746)  
-**代码**: https://dof-gaussian.github.io/  
+**代码**: [https://dof-gaussian.github.io/](https://dof-gaussian.github.io/)  
 **领域**: 3D视觉 / 新视角合成  
 **关键词**: 3D高斯, 景深控制, 散焦去模糊, 透镜成像模型, 深度先验, 弥散圆
 

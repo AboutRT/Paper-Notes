@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TabReX: Tabular Referenceless eXplainable Evaluation
 description: >-
-  [ACL 2026][表格评估指标] 提出 TabReX，一种基于图推理的无参考表格生成评估框架，将源文本和生成表格转化为知识图谱三元组并对齐，计算可解释的属性驱动分数，在人类判断相关性上大幅超越现有方法；同时构建 TabReX-Bench 大规模基准。
+  [ACL 2026][可解释性] 提出 TabReX，一种基于图推理的无参考表格生成评估框架，将源文本和生成表格转化为知识图谱三元组并对齐，计算可解释的属性驱动分数，在人类判断相关性上大幅超越现有方法；同时构建 TabReX-Bench 大规模基准。
 tags:
   - ACL 2026
-  - 表格评估指标
+  - 可解释性
   - 无参考评估
   - 知识图谱对齐
   - 可解释评估
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2512.15907](https://arxiv.org/abs/2512.15907)  
 **代码**: [GitHub](https://github.com/TabReX)  
-**领域**: 表格生成评估  
+**领域**: 可解释性  
 **关键词**: 表格评估指标, 无参考评估, 知识图谱对齐, 可解释评估, 结构化生成
 
 ## 一句话总结
@@ -130,10 +130,10 @@ TabReX 在无参考条件下接近最强有参考方法 TabXEval 的相关性，
 
 ## 相关论文
 
-- [\[ACL 2026\] Evian: Towards Explainable Visual Instruction-tuning Data Auditing](evian_towards_explainable_visual_instruction-tuning_data_auditing.md)
 - [\[ACL 2025\] EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations](../../ACL2025/interpretability/expert_an_explainable_image_captioning_evaluation_metric_with_structured_explana.md)
+- [\[ACL 2026\] Evian: Towards Explainable Visual Instruction-tuning Data Auditing](evian_towards_explainable_visual_instruction-tuning_data_auditing.md)
+- [\[ICLR 2026\] STRIDE: Subset-Free Functional Decomposition for XAI in Tabular Settings](../../ICLR2026/interpretability/stride_subset-free_functional_decomposition_for_xai_in_tabular_settings.md)
 - [\[AAAI 2026\] Explainable Melanoma Diagnosis with Contrastive Learning and LLM-based Report Generation](../../AAAI2026/interpretability/explainable_melanoma_diagnosis_with_contrastive_learning_and_llm-based_report_ge.md)
-- [\[AAAI 2026\] Probing Preference Representations: A Multi-Dimensional Evaluation and Analysis Method for Reward Models](../../AAAI2026/interpretability/probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)
-- [\[NeurIPS 2025\] SpEx: A Spectral Approach to Explainable Clustering](../../NeurIPS2025/interpretability/spex_a_spectral_approach_to_explainable_clustering.md)
+- [\[ACL 2025\] Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis](../../ACL2025/interpretability/shortcut_neuron_eval.md)
 
 <!-- RELATED:END -->

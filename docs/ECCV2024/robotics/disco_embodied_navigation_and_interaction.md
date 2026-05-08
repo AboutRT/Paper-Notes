@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.14758](https://arxiv.org/abs/2407.14758)  
-**代码**: https://github.com/AllenXuuu/DISCO (有)  
-**领域**: Agent  
+**代码**: [https://github.com/AllenXuuu/DISCO](https://github.com/AllenXuuu/DISCO)  
+**领域**: 机器人  
 **关键词**: Embodied Instruction Following, Differentiable Scene Representation, Dual-level Control, Mobile Manipulation, ALFRED
 
 ## 一句话总结
@@ -137,10 +137,10 @@ ALFRED Test 数据集结果：
 
 ## 相关论文
 
+- [\[ECCV 2024\] Octopus: Embodied Vision-Language Programmer from Environmental Feedback](octopus_embodied_visionlanguage_programmer_from_environmental_feedback.md)
 - [\[ECCV 2024\] AFF-ttention! Affordances and Attention models for Short-Term Object Interaction Anticipation](aff-ttention_affordances_and_attention_models_for_short-term_object_interaction_.md)
 - [\[ECCV 2024\] See and Think: Embodied Agent in Virtual Environment](see_and_think_embodied_agent_in_virtual_environment.md)
 - [\[ECCV 2024\] ReALFRED: An Embodied Instruction Following Benchmark in Photo-Realistic Environments](realfred_an_embodied_instruction_following_benchmark_in_photo-realistic_environm.md)
 - [\[ECCV 2024\] Prioritized Semantic Learning for Zero-Shot Instance Navigation](prioritized_semantic_learning_for_zeroshot_instance_navigation.md)
-- [\[ECCV 2024\] LLM as Copilot for Coarse-Grained Vision-and-Language Navigation](llm_as_copilot_for_coarse-grained_vision-and-language_navigation.md)
 
 <!-- RELATED:END -->

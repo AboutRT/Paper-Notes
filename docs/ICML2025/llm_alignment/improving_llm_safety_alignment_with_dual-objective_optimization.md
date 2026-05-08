@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2503.03710](https://arxiv.org/abs/2503.03710)  
-**代码**: https://github.com/wicai24/DOOR-Alignment (有)  
+**代码**: [https://github.com/wicai24/DOOR-Alignment](https://github.com/wicai24/DOOR-Alignment)  
 **领域**: LLM对齐/RLHF  
 **关键词**: 安全对齐, 越狱攻击防御, DPO局限性, 双目标优化, token级加权
 
@@ -160,6 +160,6 @@ $$\mathcal{L}_{\text{Total}} = \alpha\mathcal{L}_{\text{Align}} + (1-\alpha)\mat
 - [\[NeurIPS 2025\] LLM Safety Alignment is Divergence Estimation in Disguise](../../NeurIPS2025/llm_alignment/llm_safety_alignment_is_divergence_estimation_in_disguise.md)
 - [\[ICML 2025\] Safety Alignment Can Be Not Superficial With Explicit Safety Signals](safety_alignment_can_be_not_superficial_with_explicit_safety_signals.md)
 - [\[ACL 2025\] Safety Alignment via Constrained Knowledge Unlearning](../../ACL2025/llm_alignment/safety_alignment_via_constrained_knowledge_unlearning.md)
-- [\[ICML 2025\] AlphaPO: Reward Shape Matters for LLM Alignment](alphapo_reward_shape_matters_for_llm_alignment.md)
+- [\[ICML 2025\] Improving Model Alignment through Collective Intelligence of Open-Source LLMs](improving_model_alignment_through_collective_intelligence_of_open-source_llms.md)
 
 <!-- RELATED:END -->

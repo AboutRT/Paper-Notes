@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.10025](https://arxiv.org/abs/2511.10025)  
 **代码**: [GitHub](https://github.com/2noamk/SVDNO.git)  
-**领域**: 科学计算 / 神经算子 (Scientific Computing / Neural Operators)  
+**领域**: 其他  
 **关键词**: 神经算子, 奇异值分解, 偏微分方程, 积分核, 低秩近似
 
 ## 一句话总结

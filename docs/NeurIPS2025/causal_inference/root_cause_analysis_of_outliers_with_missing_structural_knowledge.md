@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - Root Cause Analysis
   - 因果推断
-  - 异常检测
+  - 因果推理
   - 信息论异常分数
   - Polytree
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2406.05014](https://arxiv.org/abs/2406.05014)  
 **代码**: [amazon-science/RCAWithMissingStructuralKnowledgeCode](https://github.com/amazon-science/RCAWithMissingStructuralKnowledgeCode)  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: Root Cause Analysis, 因果推断, 异常检测, 信息论异常分数, Polytree
 
 ## 一句话总结
@@ -135,8 +135,8 @@ tags:
 
 - [\[ICLR 2026\] AgentTrace: Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems](../../ICLR2026/causal_inference/agenttrace_causal_graph_tracing_for_root_cause_analysis_in_deployed_multi-agent_.md)
 - [\[NeurIPS 2025\] Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations](few-shot_knowledge_distillation_of_llms_with_counterfactual_explanations.md)
-- [\[NeurIPS 2025\] An Analysis of Causal Effect Estimation Using Outcome Invariant Data Augmentation](an_analysis_of_causal_effect_estimation_using_outcome_invariant_data_augmentatio.md)
-- [\[NeurIPS 2025\] Cyclic Counterfactuals under Shift–Scale Interventions](cyclic_counterfactuals_under_shift-scale_interventions.md)
 - [\[NeurIPS 2025\] A Principle of Targeted Intervention for Multi-Agent Reinforcement Learning](a_principle_of_targeted_intervention_for_multi-agent_reinforcement_learning.md)
+- [\[NeurIPS 2025\] An Analysis of Causal Effect Estimation Using Outcome Invariant Data Augmentation](an_analysis_of_causal_effect_estimation_using_outcome_invariant_data_augmentatio.md)
+- [\[ACL 2025\] Counterfactual Explanations for Aspect-Based Sentiment Analysis](../../ACL2025/causal_inference/counterfactual_explanations_for_aspect-based_sentiment_analysis.md)
 
 <!-- RELATED:END -->

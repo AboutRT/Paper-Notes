@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 一阶逻辑蕴涵
   - Transformer
-  - 知识图谱查询回答
+  - 其他
   - OOD泛化
   - 位置编码
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.00759](https://arxiv.org/abs/2501.00759)  
 **代码**: [https://github.com/HKUST-KnowComp/TEGA](https://github.com/HKUST-KnowComp/TEGA)  
-**领域**: LLM 推理  
+**领域**: 其他  
 **关键词**: 一阶逻辑蕴涵, Transformer, 知识图谱查询回答, OOD泛化, 位置编码  
 
 ## 一句话总结
@@ -167,9 +167,9 @@ FB15k 上的 MRR(%) 结果：
 ## 相关论文
 
 - [\[ACL 2025\] Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? Revisiting a Petroglyph](why_are_positional_encodings_nonessential_for_deep_autoregressive_transformers_r.md)
-- [\[ECCV 2024\] SpatialFormer: Towards Generalizable Vision Transformers with Explicit Spatial Understanding](../../ECCV2024/others/spatialformer_towards_generalizable_vision_transformers_with_explicit_spatial_un.md)
 - [\[ACL 2025\] RoToR: Towards More Reliable Responses for Order-Invariant Inputs](rotor_towards_more_reliable_responses_for_order-invariant_inputs.md)
-- [\[ICML 2025\] GPU-friendly and Linearly Convergent First-order Methods for Certifying Optimal $k$-sparse GLMs](../../ICML2025/others/gpu-friendly_and_linearly_convergent_first-order_methods_for_certifying_optimal_.md)
+- [\[ECCV 2024\] SpatialFormer: Towards Generalizable Vision Transformers with Explicit Spatial Understanding](../../ECCV2024/others/spatialformer_towards_generalizable_vision_transformers_with_explicit_spatial_un.md)
+- [\[ACL 2025\] Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks](principled_generalization_arithmetic.md)
 - [\[ACL 2025\] Implicit Reasoning in Transformers is Reasoning through Shortcuts](implicit_reasoning_in_transformers_is_reasoning_through_shortcuts.md)
 
 <!-- RELATED:END -->

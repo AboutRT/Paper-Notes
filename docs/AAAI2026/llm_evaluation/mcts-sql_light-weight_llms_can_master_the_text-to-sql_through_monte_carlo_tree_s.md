@@ -9,7 +9,7 @@ tags:
   - 蒙特卡洛树搜索
   - 轻量模型
   - 前缀缓存
-  - Schema剪枝
+  - LLM评测
 ---
 
 # MCTS-SQL: Light-Weight LLMs can Master the Text-to-SQL through Monte Carlo Tree Search
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2501.16607](https://arxiv.org/abs/2501.16607)  
 **代码**: 有  
-**领域**: LLM推理 / 代码生成  
+**领域**: LLM评测  
 **关键词**: Text-to-SQL, 蒙特卡洛树搜索, 轻量模型, 前缀缓存, Schema剪枝
 
 ## 一句话总结
@@ -125,9 +125,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation](../../NeurIPS2025/llm_evaluation/parrot_a_benchmark_for_evaluating_llms_in_cross-system_sql_translation.md)
-- [\[AAAI 2026\] GDBA Revisited: Unleashing the Power of Guided Local Search for Distributed Constraint Optimization](gdba_revisited_unleashing_the_power_of_guided_local_search_for_distributed_const.md)
 - [\[NeurIPS 2025\] Can Large Language Models Master Complex Card Games?](../../NeurIPS2025/llm_evaluation/can_large_language_models_master_complex_card_games.md)
 - [\[NeurIPS 2025\] OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling](../../NeurIPS2025/llm_evaluation/optitree_hierarchical_thoughts_generation_with_tree_search_for_llm_optimization_.md)
+- [\[AAAI 2026\] Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution](think_how_your_teammates_think_active_inference_can_benefit_decentralized_execut.md)
 - [\[AAAI 2026\] Benchmarking LLMs for Political Science: A United Nations Perspective](benchmarking_llms_for_political_science_a_united_nations_perspective.md)
 
 <!-- RELATED:END -->

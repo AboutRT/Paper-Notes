@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 个性化工具使用
-  - 大语言模型
+  - 信号通信
   - 用户画像
   - 环境因素
   - 基准测试
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.13176](https://arxiv.org/abs/2505.13176)  
-**代码**: https://github.com/BUAA-IRIP-LLM/ToolSpectrum  
-**领域**: LLM Agent / 工具学习  
+**代码**: [https://github.com/BUAA-IRIP-LLM/ToolSpectrum](https://github.com/BUAA-IRIP-LLM/ToolSpectrum)  
+**领域**: 信号通信  
 **关键词**: 个性化工具使用, 大语言模型, 用户画像, 环境因素, 基准测试
 
 ## 一句话总结
@@ -129,8 +129,8 @@ ToolSpectrum的构建分为四个阶段：(1) 工具集收集——从9个常用
 
 - [\[ICML 2025\] SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator](../../ICML2025/signal_comm/sepllm_accelerate_large_language_models_by_compressing_one_segment_into_one_sepa.md)
 - [\[ACL 2026\] PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models](../../ACL2026/signal_comm/policyllm_towards_excellent_comprehension_of_public_policy_for_large_language_mo.md)
-- [\[ICML 2025\] Large Language Model (LLM)-enabled In-context Learning for Wireless Network Optimization](../../ICML2025/signal_comm/large_language_model_llm-enabled_in-context_learning_for_wireless_network_optimi.md)
 - [\[NeurIPS 2025\] Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)](../../NeurIPS2025/signal_comm/artificial_hivemind_the_open-ended_homogeneity_of_language_models_and_beyond.md)
+- [\[ICML 2025\] Large Language Model (LLM)-enabled In-context Learning for Wireless Network Optimization](../../ICML2025/signal_comm/large_language_model_llm-enabled_in-context_learning_for_wireless_network_optimi.md)
 - [\[ACL 2025\] WirelessMathBench: A Mathematical Modeling Benchmark for LLMs in Wireless Communications](wirelessmathbench_a_mathematical_modeling_benchmark_for_llms_in_wireless_communi.md)
 
 <!-- RELATED:END -->

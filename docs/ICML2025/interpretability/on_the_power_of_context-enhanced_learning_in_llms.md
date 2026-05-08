@@ -9,7 +9,7 @@ tags:
   - In-Context Learning
   - Sample Efficiency
   - Gradient Signal
-  - Multi-Step Reasoning
+  - 可解释性
   - Data Security
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025 (Main Conference)  
 **arXiv**: [2503.01821](https://arxiv.org/abs/2503.01821)  
 **代码**: —  
-**领域**: LLM推理 / 学习理论 / In-Context Learning  
+**领域**: 可解释性  
 **关键词**: Context-Enhanced Learning, In-Context Learning, Sample Efficiency, Gradient Signal, Multi-Step Reasoning, Data Security  
 
 ## 一句话总结
@@ -153,8 +153,8 @@ CEL 在小样本场景下优势尤为显著。
 
 - [\[ICML 2025\] Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective](evolving_prompts_in-context_an_open-ended_self-replicating_perspective.md)
 - [\[NeurIPS 2025\] Beyond Accuracy: Dissecting Mathematical Reasoning for LLMs Under Reinforcement Learning](../../NeurIPS2025/interpretability/beyond_accuracy_dissecting_mathematical_reasoning_for_llms_u.md)
-- [\[ACL 2026\] Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection](../../ACL2026/interpretability/multi-view_attention_multiple-instance_learning_enhanced_by_llm_reasoning_for_co.md)
+- [\[ACL 2025\] Safety is Not Only About Refusal: Reasoning-Enhanced Fine-tuning for Interpretable LLM Safety](../../ACL2025/interpretability/safety_is_not_only_about_refusal_reasoning-enhanced_fine-tuning_for_interpretabl.md)
+- [\[ICML 2025\] Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)
 - [\[ICML 2025\] LANTERN: Modeling User Behavior from Adaptive Surveys with Supplemental Context](modeling_user_behavior_from_adaptive_surveys_with_supplemental_context.md)
-- [\[NeurIPS 2025\] Evaluating LLMs in Open-Source Games](../../NeurIPS2025/interpretability/evaluating_llms_in_open-source_games.md)
 
 <!-- RELATED:END -->

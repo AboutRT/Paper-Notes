@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.20749](https://arxiv.org/abs/2505.20749)  
 **代码**: [https://github.com/alfin06/AgentIssue-Bench](https://github.com/alfin06/AgentIssue-Bench)  
-**领域**: Agent / 软件工程  
+**领域**: 机器人  
 **关键词**: Agent系统维护, Issue自动修复, 软件工程Agent, Bug分类, benchmark
 
 ## 一句话总结

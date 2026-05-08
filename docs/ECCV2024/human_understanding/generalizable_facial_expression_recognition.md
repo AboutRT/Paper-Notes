@@ -60,12 +60,12 @@ CAFE 包含三个核心组件：
 
    **核心思路**：FER 模型（ResNet-18）提取特征 $\mathbf{f}$，经 reshape 后生成 Mask $\mathbf{M}$，再通过 Sigmoid 函数正则化：
 
-   $$\mathbf{M}_s = \text{Sigmoid}(\mathbf{M})$$
-   $$\widetilde{\mathbf{F}} = \mathbf{M}_s \mathbf{F}$$
+    $\mathbf{M}_s = \text{Sigmoid}(\mathbf{M})$
+    $\widetilde{\mathbf{F}} = \mathbf{M}_s \mathbf{F}$
 
    选取后的特征 $\widetilde{\mathbf{F}}$ 送入标准分类损失：
 
-   $$l_{cls} = -\frac{1}{N} \sum_{i=1}^{N} \log \frac{e^{\mathbf{W}_{y_i} \widetilde{\mathbf{F}}_i}}{\sum_j^L e^{\mathbf{W}_j \widetilde{\mathbf{F}}_i}}$$
+    $l_{cls} = -\frac{1}{N} \sum_{i=1}^{N} \log \frac{e^{\mathbf{W}_{y_i} \widetilde{\mathbf{F}}_i}}{\sum_j^L e^{\mathbf{W}_j \widetilde{\mathbf{F}}_i}}$
 
    **设计动机**：（a）固定 CLIP 特征可防止 FER 模型优化人脸特征导致过拟合训练集，保持泛化性；（b）Sigmoid 函数将 Mask 值限制在 $[0, 1]$，提供概率化的特征选择语义——每个通道的值代表该特征被选中的概率，类似人类从人脸特征中选择表情特征的过程；（c）Sigmoid 的非线性引入有助于捕获非线性模式，同时归一化效果降低了 Mask 的过拟合能力。
 
@@ -75,7 +75,7 @@ CAFE 包含三个核心组件：
 
    **核心思路**：将 $\widetilde{\mathbf{F}}$ 按通道分为 $\{\widetilde{\mathbf{F}}_1, ..., \widetilde{\mathbf{F}}_7\}$（各约 73 通道），对每组应用随机通道丢弃后 MaxPool：
 
-   $$\overline{\mathbf{F}}^d = \{\max(\widetilde{\mathbf{F}}_1 \mathbf{M}_1), \max(\widetilde{\mathbf{F}}_2 \mathbf{M}_2), ..., \max(\widetilde{\mathbf{F}}_L \mathbf{M}_L)\}$$
+    $\overline{\mathbf{F}}^d = \{\max(\widetilde{\mathbf{F}}_1 \mathbf{M}_1), \max(\widetilde{\mathbf{F}}_2 \mathbf{M}_2), ..., \max(\widetilde{\mathbf{F}}_L \mathbf{M}_L)\}$
 
    基于 $\overline{\mathbf{F}}^d$ 计算分离损失 $l_{sep}$。
 
@@ -87,7 +87,7 @@ CAFE 包含三个核心组件：
 
    **核心思路**：
 
-   $$l_{div} = 1 - \frac{1}{Nc} \sum_{i=1}^{N} \sum_{j=1}^{L} \widetilde{\mathbf{F}}_{\max_{ij}}$$
+    $l_{div} = 1 - \frac{1}{Nc} \sum_{i=1}^{N} \sum_{j=1}^{L} \widetilde{\mathbf{F}}_{\max_{ij}}$
 
    其中 $\widetilde{\mathbf{F}}_{\max}$ 是对每组特征取 MaxPool 后的结果，$c=73$ 为归一化常数。
 
@@ -171,10 +171,10 @@ CAFE 的跨域均值达到 63.48%，相比最佳基线 EAC（53.70%）提升 **+
 
 ## 相关论文
 
+- [\[ICCV 2025\] SynFER: Towards Boosting Facial Expression Recognition with Synthetic Data](../../ICCV2025/human_understanding/synfer_towards_boosting_facial_expression_recognition_with_synthetic_data.md)
 - [\[CVPR 2026\] A Two-Stage Dual-Modality Model for Facial Expression Recognition](../../CVPR2026/human_understanding/a_two_stage_dual_modality_model_for_facial_expression_recognition.md)
-- [\[ECCV 2024\] How Video Meetings Change Your Expression](how_video_meetings_change_your_expression.md)
 - [\[ECCV 2024\] TF-FAS: Twofold-Element Fine-Grained Semantic Guidance for Generalizable Face Anti-Spoofing](tf-fas_twofold-element_fine-grained_semantic_guidance_for_generalizable_face_ant.md)
+- [\[ECCV 2024\] How Video Meetings Change Your Expression](how_video_meetings_change_your_expression.md)
 - [\[ECCV 2024\] Facial Affective Behavior Analysis with Instruction Tuning](facial_affective_behavior_analysis_with_instruction_tuning.md)
-- [\[AAAI 2026\] Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis](../../AAAI2026/human_understanding/facial-r1_aligning_reasoning_and_recognition_for_facial_emotion_analysis.md)
 
 <!-- RELATED:END -->

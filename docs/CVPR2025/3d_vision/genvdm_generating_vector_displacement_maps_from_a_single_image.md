@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.00605](https://arxiv.org/abs/2503.00605)  
-**代码**: https://yyuezhi.github.io/GenVDM/  
+**代码**: [https://yyuezhi.github.io/GenVDM/](https://yyuezhi.github.io/GenVDM/)  
 **领域**: 3D视觉  
 **关键词**: 向量位移图, 单图3D重建, 多视图法线生成, 神经变形场, 3D建模
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.06731](https://arxiv.org/abs/2312.06731)  
-**代码**: https://github.com/zhaohengyuan1/Genixer (有)  
+**代码**: [https://github.com/zhaohengyuan1/Genixer](https://github.com/zhaohengyuan1/Genixer)  
 **领域**: 多模态VLM  
 **关键词**: 数据生成, 视觉指令微调, MLLM, VQA, REC
 

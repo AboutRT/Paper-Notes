@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 成员推断攻击
-  - 代码版权
+  - LLM预训练
   - 语法感知
   - 预训练数据检测
   - Python
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.07033](https://arxiv.org/abs/2511.07033)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: 成员推断攻击, 代码版权, 语法感知, 预训练数据检测, Python
 
 ## 一句话总结
@@ -128,10 +128,10 @@ tags:
 
 ## 相关论文
 
+- [\[AAAI 2026\] Learning Procedural-aware Video Representations through State-Grounded Hierarchy Unfolding](learning_procedural-aware_video_representations_through_state-grounded_hierarchy.md)
 - [\[NeurIPS 2025\] Efficient Pre-Training of LLMs via Topology-Aware Communication Alignment on More Than 9600 GPUs](../../NeurIPS2025/llm_pretraining/efficient_pre-training_of_llms_via_topology-aware_communication_alignment_on_mor.md)
 - [\[NeurIPS 2025\] Enhancing Training Data Attribution with Representational Optimization](../../NeurIPS2025/llm_pretraining/enhancing_training_data_attribution_with_representational_optimization.md)
-- [\[ICLR 2026\] Identifying and Evaluating Inactive Heads in Pretrained LLMs](../../ICLR2026/llm_pretraining/identifying_and_evaluating_inactive_heads_in_pretrained_llms.md)
-- [\[NeurIPS 2025\] Final-Model-Only Data Attribution with a Unifying View of Gradient-Based Methods](../../NeurIPS2025/llm_pretraining/final-model-only_data_attribution_with_a_unifying_view_of_gradient-based_methods.md)
 - [\[ACL 2025\] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models](../../ACL2025/llm_pretraining/leancode_understanding_models_better_for_code_simplification_of_pre-trained_larg.md)
+- [\[ICLR 2026\] Identifying and Evaluating Inactive Heads in Pretrained LLMs](../../ICLR2026/llm_pretraining/identifying_and_evaluating_inactive_heads_in_pretrained_llms.md)
 
 <!-- RELATED:END -->

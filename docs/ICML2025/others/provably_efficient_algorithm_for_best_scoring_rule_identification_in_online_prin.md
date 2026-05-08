@@ -7,7 +7,7 @@ tags:
   - ICML 2025
   - 在线信息获取
   - 最优评分规则
-  - 委托-代理博弈
+  - 其他
   - 多臂赌博机
   - 最佳臂识别
   - 样本复杂度
@@ -180,9 +180,9 @@ $$C(k, k') = v_S(k) - v_S(k'), \quad \forall S \in V_k \cap V_{k'}$$
 ## 相关论文
 
 - [\[ICML 2025\] Near Optimal Best Arm Identification for Clustered Bandits](near_optimal_best_arm_identification_for_clustered_bandits.md)
+- [\[ICLR 2026\] An Efficient, Provably Optimal Algorithm for the 0-1 Loss Linear Classification Problem](../../ICLR2026/others/an_efficient_provably_optimal_algorithm_for_the_0-1_loss_linear_classification_p.md)
 - [\[ICML 2025\] Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification](fixing_the_loose_brake_exponential-tailed_stopping_time_in_best_arm_identificati.md)
 - [\[ICML 2025\] OOD-Chameleon: Is Algorithm Selection for OOD Generalization Learnable?](ood-chameleon_is_algorithm_selection_for_ood_generalization_learnable.md)
-- [\[ACL 2025\] TACLR: A Scalable and Efficient Retrieval-Based Method for Industrial Product Attribute Value Identification](../../ACL2025/others/taclr_a_scalable_and_efficient_retrieval-based_method_for_industrial_product_att.md)
-- [\[ICML 2025\] Modified K-means Algorithm with Local Optimality Guarantees](modified_k-means_algorithm_with_local_optimality_guarantees.md)
+- [\[ICML 2025\] Online Sparsification of Bipartite-Like Clusters in Graphs](online_sparsification_of_bipartite-like_clusters_in_graphs.md)
 
 <!-- RELATED:END -->

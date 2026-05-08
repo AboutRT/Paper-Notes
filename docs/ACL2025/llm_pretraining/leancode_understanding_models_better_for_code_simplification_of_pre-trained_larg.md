@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models
 description: >-
-  [ACL 2025][代码简化] 本文提出LeanCode，一种基于上下文感知注意力分数的代码简化方法，利用CLS注意力（分类任务）和编码器-解码器注意力（生成任务）来衡量token重要性，在代码搜索和代码摘要任务上分别比SOTA方法DietCode/SlimCode提升最高60%和29%，同时减少高达40.9%的推理时间。
+  [ACL 2025][LLM预训练] 本文提出LeanCode，一种基于上下文感知注意力分数的代码简化方法，利用CLS注意力（分类任务）和编码器-解码器注意力（生成任务）来衡量token重要性，在代码搜索和代码摘要任务上分别比SOTA方法DietCode/SlimCode提升最高60%和29%，同时减少高达40.9%的推理时间。
 tags:
   - ACL 2025
-  - 代码简化
+  - LLM预训练
   - 注意力分数
   - 预训练模型
   - 代码搜索
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.14759](https://arxiv.org/abs/2505.14759)  
 **代码**: 有  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: 代码简化, 注意力分数, 预训练模型, 代码搜索, 代码摘要
 
 ## 一句话总结
@@ -125,10 +125,10 @@ LeanCode的整体流程：先在训练集上对模型进行正常微调，在最
 
 ## 相关论文
 
-- [\[ACL 2025\] Chinese Grammatical Error Correction With Pre-trained Models and Linguistic Clues](chinese_grammatical_error_correction_with_pre-trained_models_and_linguistic_clue.md)
-- [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
 - [\[ACL 2025\] Large Vocabulary Size Improves Large Language Models](large_vocabulary_size_improves_large_language_models.md)
 - [\[ACL 2025\] Retrofitting Large Language Models with Dynamic Tokenization](retrofitting_large_language_models_with_dynamic_tokenization.md)
+- [\[ACL 2025\] Chinese Grammatical Error Correction With Pre-trained Models and Linguistic Clues](chinese_grammatical_error_correction_with_pre-trained_models_and_linguistic_clue.md)
+- [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
 - [\[ACL 2025\] DavIR: Data Selection via Implicit Reward for Large Language Models](davir_data_selection_via_implicit_reward_for_large_language_models.md)
 
 <!-- RELATED:END -->

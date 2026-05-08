@@ -5,7 +5,7 @@
 - **会议**: ACL 2025
 - **arXiv**: [2406.17507](https://arxiv.org/abs/2406.17507)
 - **代码**: 未公开
-- **领域**: 其他 / 跨模态检索 (Others)
+- **领域**: 信息检索
 - **关键词**: 生成式检索, 跨模态检索, 语义标识符, K-Means, RQ-VAE, 粗到细
 - **一句话总结**: 提出首个支持文本到图像/音频/视频的生成式跨模态检索框架 CART，通过 K-Means + RQ-VAE 构建粗到细语义标识符，结合特征融合策略，在检索性能和效率之间实现优异平衡。
 
@@ -179,7 +179,7 @@ CART 大幅超越 GRACE（使用预定义标识符），在 Flickr30K R@1 上 81
 - [\[CVPR 2025\] NeighborRetr: Balancing Hub Centrality in Cross-Modal Retrieval](../../CVPR2025/information_retrieval/neighborretr_balancing_hub_centrality_in_cross-modal_retrieval.md)
 - [\[ACL 2025\] Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval](maximal_matching_matters_preventing_representation_collapse_for_robust_cross-mod.md)
 - [\[CVPR 2025\] GENIUS: A Generative Framework for Universal Multimodal Search](../../CVPR2025/information_retrieval/genius_a_generative_framework_for_universal_multimodal_search.md)
-- [\[AAAI 2026\] Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval](../../AAAI2026/information_retrieval/neighbor-aware_instance_refining_with_noisy_labels_for_cross-modal_retrieval.md)
+- [\[ICML 2025\] FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](../../ICML2025/information_retrieval/fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)
 - [\[ACL 2025\] PRISM: A Framework for Producing Interpretable Political Bias Embeddings with Political-Aware Cross-Encoder](prism_political_bias_embeddings.md)
 
 <!-- RELATED:END -->

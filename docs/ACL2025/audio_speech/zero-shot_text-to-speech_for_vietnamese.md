@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.01322](https://arxiv.org/abs/2506.01322)  
-**代码**: https://huggingface.co/datasets/thivux/phoaudiobook（数据集）  
+**代码**: [https://huggingface.co/datasets/thivux/phoaudiobook（数据集）](https://huggingface.co/datasets/thivux/phoaudiobook（数据集）)  
 **领域**: Audio & Speech / TTS  
 **关键词**: 零样本TTS, 越南语, PhoAudiobook, 语音合成, 低资源语言
 

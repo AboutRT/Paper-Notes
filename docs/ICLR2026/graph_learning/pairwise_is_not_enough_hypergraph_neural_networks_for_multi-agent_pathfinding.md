@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.06733](https://arxiv.org/abs/2602.06733)  
 **代码**: [GitHub](https://github.com/proroklab/HMAGAT)  
-**领域**: llm_agent / multi-agent pathfinding  
+**领域**: 图学习  
 **关键词**: MAPF, 超图神经网络, 注意力机制, 模仿学习, 群体交互  
 
 ## 一句话总结

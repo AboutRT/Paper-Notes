@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.15951](https://arxiv.org/abs/2403.15951)  
-**代码**: 有 (https://map-tracker.github.io)  
+**代码**: 有 ([https://map-tracker.github.io](https://map-tracker.github.io))  
 **领域**: 自动驾驶 / 高精地图  
 **关键词**: 向量高精地图, 追踪范式, 记忆机制, BEV感知, 时间一致性
 
@@ -65,10 +65,10 @@ MapTracker的核心是**双表示记忆机制**，包含两类记忆缓冲区：
 
    VEC记忆 $\mathbf{M}_{\text{VEC}}(t) \in \{\mathbb{R}^{512}\}$ 是一组向量潜在表示，每个对应一个活跃的道路元素。初始化时分为两部分：
 
-   $$\mathbf{M}_{\text{VEC}}(t) = [\mathbf{M}_{\text{VEC}}^{\text{prop}}(t), \mathbf{M}_{\text{VEC}}^{\text{new}}(t)]$$
+    $\mathbf{M}_{\text{VEC}}(t) = [\mathbf{M}_{\text{VEC}}^{\text{prop}}(t), \mathbf{M}_{\text{VEC}}^{\text{new}}(t)]$
 
-   - $\mathbf{M}_{\text{VEC}}^{\text{prop}}(t)$：**传播查询**，从 $\mathbf{M}_{\text{VEC}}(t-1)$ 中继承的已追踪道路元素，通过PropMLP对齐坐标系。PropMLP接收运动变换 $P_{t-1}^t$ 的旋转四元数和平移向量的位置编码，与向量潜在拼接后映射。
-   - $\mathbf{M}_{\text{VEC}}^{\text{new}}(t)$：**新检测查询**，100个可学习embedding $\mathbf{M}_{\text{VEC}}^{\text{init}}$，用于发现新进入视野的道路元素。
+    - $\mathbf{M}_{\text{VEC}}^{\text{prop}}(t)$：**传播查询**，从 $\mathbf{M}_{\text{VEC}}(t-1)$ 中继承的已追踪道路元素，通过PropMLP对齐坐标系。PropMLP接收运动变换 $P_{t-1}^t$ 的旋转四元数和平移向量的位置编码，与向量潜在拼接后映射。
+    - $\mathbf{M}_{\text{VEC}}^{\text{new}}(t)$：**新检测查询**，100个可学习embedding $\mathbf{M}_{\text{VEC}}^{\text{init}}$，用于发现新进入视野的道路元素。
 
    **向量记忆融合**：对每个道路元素，从缓冲区中选择同一元素的历史潜在向量（相同距离步进策略），通过cross-attention融合。查询是当前帧的传播潜在，键/值是历史帧的对齐潜在。
 
@@ -188,7 +188,7 @@ MapTracker在两个数据集上均大幅领先：mAP提升**8%+**，C-mAP提升*
 - [\[ECCV 2024\] MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation](mapdistill_boosting_efficient_camera-based_hd_map_construction_via_camera-lidar_.md)
 - [\[ECCV 2024\] Risk-Aware Self-Consistent Imitation Learning for Trajectory Planning in Autonomous Driving](risk-aware_self-consistent_imitation_learning_for_trajectory_planning_in_autonom.md)
 - [\[ECCV 2024\] Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention](accelerating_online_mapping_and_behavior_prediction_via_dire.md)
-- [\[ECCV 2024\] Stream Query Denoising for Vectorized HD-Map Construction](stream_query_denoising_for_vectorized_hd-map_construction.md)
-- [\[ECCV 2024\] LiDAR-Event Stereo Fusion with Hallucinations](lidarevent_stereo_fusion_with_hallucinations.md)
+- [\[ECCV 2024\] LiDAR-Event Stereo Fusion with Hallucinations](lidar-event_stereo_fusion_with_hallucinations.md)
+- [\[ICCV 2025\] Occupancy Learning with Spatiotemporal Memory](../../ICCV2025/autonomous_driving/occupancy_learning_with_spatiotemporal_memory.md)
 
 <!-- RELATED:END -->

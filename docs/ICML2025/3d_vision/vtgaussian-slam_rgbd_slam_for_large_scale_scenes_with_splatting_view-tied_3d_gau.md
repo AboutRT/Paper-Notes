@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.02741](https://arxiv.org/abs/2506.02741)  
 **代码**: [项目主页](https://machineperceptionlab.github.io/VTGaussian-SLAM-Project)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: SLAM, 3D高斯泼溅, 视图绑定高斯, 大规模场景, RGBD, 相机追踪, 场景重建
 
 ## 一句话总结

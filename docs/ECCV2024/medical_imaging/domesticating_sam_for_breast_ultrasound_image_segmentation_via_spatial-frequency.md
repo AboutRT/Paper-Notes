@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/dodooo1/SFRecSAM  
+**代码**: [https://github.com/dodooo1/SFRecSAM](https://github.com/dodooo1/SFRecSAM)  
 **领域**: 医学图像  
 **关键词**: 乳腺超声分割、SAM微调、空间频率融合、不确定性估计、假阳性假阴性校正
 

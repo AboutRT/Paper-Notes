@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 多模态
   - 模态缺失
-  - 知识蒸馏
+  - 多模态VLM
   - 元学习
   - 扩散对齐
   - 多模态融合
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.05584](https://arxiv.org/abs/2604.05584)  
-**代码**: https://github.com/Vongolia11/PTA  
+**代码**: [https://github.com/Vongolia11/PTA](https://github.com/Vongolia11/PTA)  
 **领域**: 多模态VLM / 人体感知  
 **关键词**: 模态缺失, 知识蒸馏, 元学习, 扩散对齐, 多模态融合
 
@@ -148,6 +148,6 @@ MM-Fi上的模块消融（MPJPE mm ↓）：
 - [\[CVPR 2026\] BALM: A Model-Agnostic Framework for Balanced Multimodal Learning under Imbalanced Missing Rates](balm_a_model-agnostic_framework_for_balanced_multimodal_learning_under_imbalance.md)
 - [\[CVPR 2026\] Disentangle-then-Align: Non-Iterative Hybrid Multimodal Image Registration via Cross-Scale Feature Disentanglement](disentangle-then-align_non-iterative_hybrid_multimodal_image_registration_via_cr.md)
 - [\[CVPR 2026\] Uncertainty-Aware Knowledge Distillation for Multimodal Large Language Models](uncertainty-aware_knowledge_distillation_for_multimodal_large_language_models.md)
-- [\[CVPR 2026\] GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](gtr-turbo_merged_checkpoint_is_secretly_a_free_teacher_for_agentic_vlm_training.md)
+- [\[CVPR 2026\] See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models](av_speakerbench_audiovisual_human_speech_understanding_mllms.md)
 
 <!-- RELATED:END -->

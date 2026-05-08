@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 无监督关键短语生成
   - 信息量估计
-  - 参考对齐
+  - 其他
   - 短语性建模
   - 文本检索
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24219](https://arxiv.org/abs/2505.24219)  
-**代码**: https://github.com/louisdo/eru-kg  
-**领域**: NLP理解  
+**代码**: [https://github.com/louisdo/eru-kg](https://github.com/louisdo/eru-kg)  
+**领域**: 其他  
 **关键词**: 无监督关键短语生成、信息量估计、参考对齐、短语性建模、文本检索
 
 ## 一句话总结
@@ -132,8 +132,8 @@ ERU-KG 在所有基准上均超越无监督基线，平均达到有监督模型 
 
 - [\[ACL 2025\] An Analysis of Datasets, Metrics and Models in Keyphrase Generation](an_analysis_of_datasets_metrics_and_models_in_keyphrase_generation.md)
 - [\[ACL 2025\] CoachMe: Decoding Sport Elements with a Reference-Based Coaching Instruction Generation Model](coachme_sport_instruction.md)
-- [\[ACL 2025\] HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation](hash-rag_bridging_deep_hashing_with_retriever_for_efficient_fine_retrieval_and_a.md)
-- [\[ICCV 2025\] EDFFDNet: Towards Accurate and Efficient Unsupervised Multi-Grid Image Registration](../../ICCV2025/others/edffdnet_towards_accurate_and_efficient_unsupervised_multi-grid_image_registrati.md)
-- [\[ACL 2025\] MindRef: Mimicking Human Memory for Hierarchical Reference Retrieval with Fine-Grained Location Awareness](mindref_mimicking_human_memory_hierarchical_reference_retrieval.md)
+- [\[ACL 2025\] GeAR: Generation Augmented Retrieval](gear_generation_augmented_retrieval.md)
+- [\[ACL 2025\] Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race](aligned_but_blind_implicit_bias.md)
+- [\[ACL 2025\] Sightation Counts: Leveraging Sighted User Feedback in Building a BLV-aligned Dataset of Diagram Descriptions](sightation-blv-aligned-diagram-descriptions.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 语音
-  - LLM安全
+  - 音频语音
   - 越狱攻击
   - 风格对齐
   - ASR膨胀
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2506.07452](https://arxiv.org/abs/2506.07452)  
-**代码**: https://github.com/xiaoyuxin1002/SafeStyle  
-**领域**: AI安全 / LLM  
+**代码**: [https://github.com/xiaoyuxin1002/SafeStyle](https://github.com/xiaoyuxin1002/SafeStyle)  
+**领域**: 音频语音  
 **关键词**: LLM安全, 越狱攻击, 风格对齐, ASR膨胀, 安全防御
 
 ## 一句话总结
@@ -126,10 +126,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICLR 2026\] The Devil behind the Mask: An Emergent Safety Vulnerability of Diffusion LLMs](the_devil_behind_the_mask_an_emergent_safety_vulnerability_of_diffusion_llms.md)
+- [\[ACL 2026\] Robustness via Referencing: Defending against Prompt Injection Attacks by Referencing the Executed Instruction](../../ACL2026/audio_speech/robustness_via_referencing_defending_against_prompt_injection_attacks_by_referen.md)
 - [\[ACL 2025\] ControlSpeech: Towards Simultaneous and Independent Zero-shot Speaker Cloning and Zero-shot Language Style Control](../../ACL2025/audio_speech/controlspeech_zero_shot.md)
 - [\[ICLR 2026\] Knowing When to Quit: Probabilistic Early Exits for Speech Separation](knowing_when_to_quit_probabilistic_early_exits_for_speech_separation.md)
-- [\[ACL 2026\] TellWhisper: Tell Whisper Who Speaks When](../../ACL2026/audio_speech/tellwhisper_tell_whisper_who_speaks_when.md)
-- [\[NeurIPS 2025\] LeVo: High-Quality Song Generation with Multi-Preference Alignment](../../NeurIPS2025/audio_speech/levo_high-quality_song_generation_with_multi-processing_refined_supervision.md)
-- [\[AAAI 2026\] Do LLMs Feel? Teaching Emotion Recognition with Prompts, Retrieval, and Curriculum Learning](../../AAAI2026/audio_speech/do_llms_feel_teaching_emotion_recognition_with_prompts_retrieval_and_curriculum_.md)
+- [\[ACL 2025\] Soundwave: Less is More for Speech-Text Alignment in LLMs](../../ACL2025/audio_speech/soundwave_less_is_more_for_speech-text_alignment_in_llms.md)
 
 <!-- RELATED:END -->

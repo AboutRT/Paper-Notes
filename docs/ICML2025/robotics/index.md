@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 具身智能方向15篇论文解读
+  ICML2025 机器人/具身智能方向16篇论文解读
 description: >-
-  15篇ICML2025的具身智能方向论文解读，涵盖机器人、Agent、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  16篇ICML2025的机器人/具身智能方向论文解读，涵盖机器人、Agent、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🤖 具身智能
+# 🤖 机器人/具身智能
 
-**🧪 ICML2025** · **15** 篇论文解读
+**🧪 ICML2025** · **16** 篇论文解读
 
 **[BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly](biassemble_learning_collaborative_affordance_for_bimanual_geometric_assembly.md)**
 
@@ -53,6 +53,10 @@ description: >-
 **[PoisonBench: Assessing Large Language Model Vulnerability to Data Poisoning](poisonbench_assessing_large_language_model_vulnerability_to_data_poisoning.md)**
 
 :   提出 PoisonBench——首个系统评估 LLM 在偏好学习阶段面对数据投毒攻击脆弱性的基准，涵盖内容注入与对齐退化两类攻击，在 22 个模型上揭示了投毒比例与攻击效果的对数线性关系及欺骗性对齐的初步证据。
+
+**[Sketch-Plan-Generalize: Learning and Planning with Neuro-Symbolic Programmatic Representations for Inductive Spatial Concepts](sketch-plan-generalize_learning_and_planning_with_neuro-symbolic_programmatic_re.md)**
+
+:   提出 SPG（Sketch-Plan-Generalize）——一种神经符号智能体框架，将归纳式概念学习分解为三阶段流水线：概念签名推断（Sketch）、基于 MCTS 的 grounded 动作序列搜索（Plan）、以及 LLM 驱动的程序归纳泛化（Generalize），在从少量演示中学习可组合、可泛化的空间抽象概念方面显著优于纯 LLM 和纯神经方法。
 
 **[STAR: Learning Diverse Robot Skill Abstractions through Rotation-Augmented Vector Quantization](star_learning_diverse_robot_skill_abstractions_through_rotation-augmented_vector.md)**
 

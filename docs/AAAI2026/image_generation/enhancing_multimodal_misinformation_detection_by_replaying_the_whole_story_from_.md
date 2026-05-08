@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.06284](https://arxiv.org/abs/2511.06284)  
-**代码**: https://github.com/wangbing1416/RETSIMD  
+**代码**: [https://github.com/wangbing1416/RETSIMD](https://github.com/wangbing1416/RETSIMD)  
 **领域**: Image Generation / Multimodal  
 **关键词**: 多模态虚假信息检测, 文本转图像, 图神经网络, 模态贡献, 信息增益
 
@@ -147,6 +147,6 @@ RetSimd 包含四个核心模块：
 - [\[AAAI 2026\] Infinite-Story: A Training-Free Consistent Text-to-Image Generation](infinite-story_a_training-free_consistent_text-to-image_gene.md)
 - [\[AAAI 2026\] TSGDiff: Rethinking Synthetic Time Series Generation from a Pure Graph Perspective](tsgdiff_rethinking_synthetic_time_series_generation_from_a_pure_graph_perspectiv.md)
 - [\[ICLR 2026\] When One Modality Rules Them All: Backdoor Modality Collapse in Multimodal Diffusion Models](../../ICLR2026/image_generation/when_one_modality_rules_them_all_backdoor_modality_collapse_in_multimodal_diffus.md)
-- [\[AAAI 2026\] Aggregating Diverse Cue Experts for AI-Generated Image Detection](aggregating_diverse_cue_experts_for_ai-generated_image_detec.md)
+- [\[CVPR 2026\] Enhancing Image Aesthetics with Dual-Conditioned Diffusion Models Guided by Multimodal Perception](../../CVPR2026/image_generation/enhancing_image_aesthetics_with_dual-conditioned_diffusion_models_guided_by_mult.md)
 
 <!-- RELATED:END -->

@@ -48,7 +48,7 @@ GNN 面临局部与全局信息的根本矛盾：
 ### 关键设计
 
 1. **分形节点的构造**：不同于简单均值池化（仅保留 DC 分量/最低频信号），使用 LPF+HPF 双通道：
-   $$f_c^{(\ell+1)} = \text{LPF}(\{h_{v,c}\}) + \omega_c^{(\ell)} \cdot \text{HPF}(\{h_{v,c}\})$$
+    $f_c^{(\ell+1)} = \text{LPF}(\{h_{v,c}\}) + \omega_c^{(\ell)} \cdot \text{HPF}(\{h_{v,c}\})$
    LPF 为子图均值（全局信息），HPF = 节点特征 - LPF（局部细节），$\omega$ 为可学习参数控制高频贡献。分类任务倾向高频，回归任务倾向低频
 
 2. **阻力缩减定理（Theorem 4.1）**：对原图 $\mathcal{G}$ 任意节点 u, v，增强图 $\mathcal{G}_f$ 中的有效电阻 $R_f(u,v) \leq R(u,v)$。分形节点通过单跳快捷连接直接降低有效电阻，从理论上保证改善 over-squashing
@@ -130,10 +130,10 @@ GNN 面临局部与全局信息的根本矛盾：
 
 ## 相关论文
 
-- [\[ICLR 2026\] Improving Long-Range Interactions in Graph Neural Simulators via Hamiltonian Dynamics](../../ICLR2026/graph_learning/improving_long-range_interactions_in_graph_neural_simulators_via_hamiltonian_dyn.md)
 - [\[ICML 2025\] On Measuring Long-Range Interactions in Graph Neural Networks](../../ICML2025/graph_learning/on_measuring_long-range_interactions_in_graph_neural_networks.md)
 - [\[ICML 2025\] Beyond Message Passing: Neural Graph Pattern Machine](../../ICML2025/graph_learning/beyond_message_passing_neural_graph_pattern_machine.md)
-- [\[NeurIPS 2025\] What Expressivity Theory Misses: Message Passing Complexity for GNNs](../../NeurIPS2025/graph_learning/what_expressivity_theory_misses_message_passing_complexity_for_gnns.md)
 - [\[NeurIPS 2025\] Sketch-Augmented Features Improve Learning Long-Range Dependencies in Graph Neural Networks](../../NeurIPS2025/graph_learning/sketch-augmented_features_improve_learning_long-range_dependencies_in_graph_neur.md)
+- [\[NeurIPS 2025\] What Expressivity Theory Misses: Message Passing Complexity for GNNs](../../NeurIPS2025/graph_learning/what_expressivity_theory_misses_message_passing_complexity_for_gnns.md)
+- [\[CVPR 2025\] Hypergraph Vision Transformers: Images are More than Nodes, More than Edges](../../CVPR2025/graph_learning/hypergraph_vision_transformers_images_are_more_than_nodes_more_than_edges.md)
 
 <!-- RELATED:END -->

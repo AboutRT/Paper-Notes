@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.11451](https://arxiv.org/abs/2504.11451)  
-**代码**: https://research.nvidia.com/labs/toronto-ai/partfield-release/ (项目页)  
+**代码**: [https://research.nvidia.com/labs/toronto-ai/partfield-release/](https://research.nvidia.com/labs/toronto-ai/partfield-release/) (项目页)  
 **领域**: 语义分割  
 **关键词**: 3D 部件分割, 特征场, 对比学习, 前馈模型, 层级分解
 

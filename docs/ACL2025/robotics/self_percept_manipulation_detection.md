@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.20679](https://arxiv.org/abs/2505.20679)  
 **代码**: [https://github.com/danushkhanna/self-percept](https://github.com/danushkhanna/self-percept)  
-**领域**: LLM/NLP  
+**领域**: 机器人  
 **关键词**: mental manipulation detection, multi-turn dialogue, multi-person conversation, prompting framework, Self-Perception Theory
 
 ## 一句话总结
@@ -139,8 +139,8 @@ SELF-PERCEPT 是一个两阶段 prompting 框架，模拟人类"行为观察→�
 
 ## 相关论文
 
-- [\[ICLR 2026\] JULI: Jailbreak Large Language Models by Self-Introspection](../../ICLR2026/robotics/juli_jailbreak_large_language_models_by_self-introspection.md)
 - [\[CVPR 2025\] ASAP: Advancing Semantic Alignment for Multi-Modal Manipulation Detection](../../CVPR2025/robotics/asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_detecting_an.md)
+- [\[ICLR 2026\] JULI: Jailbreak Large Language Models by Self-Introspection](../../ICLR2026/robotics/juli_jailbreak_large_language_models_by_self-introspection.md)
 - [\[ACL 2025\] Vulnerability of LLMs to Vertically Aligned Text Manipulations](vulnerability_of_llms_to_vertically_aligned_text_manipulations.md)
 - [\[NeurIPS 2025\] Zero-Shot Embedding Drift Detection: A Lightweight Defense Against Prompt Injections in LLMs](../../NeurIPS2025/robotics/zero-shot_embedding_drift_detection_a_lightweight_defense_against_prompt_injecti.md)
 - [\[ACL 2025\] Rolling the DICE on Idiomaticity: How LLMs Fail to Grasp Context](dice_idiomaticity.md)

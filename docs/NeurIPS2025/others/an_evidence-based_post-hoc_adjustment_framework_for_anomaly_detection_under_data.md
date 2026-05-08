@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21296](https://arxiv.org/abs/2510.21296)  
 **代码**: [GitHub](https://github.com/sukanyapatra1997/EPHAD)  
-**领域**: 异常检测  
+**领域**: 其他  
 **关键词**: anomaly detection, data contamination, test-time adaptation, CLIP, post-hoc adjustment
 
 ## 一句话总结

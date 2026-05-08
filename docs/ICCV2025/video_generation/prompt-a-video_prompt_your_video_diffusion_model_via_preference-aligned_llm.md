@@ -13,7 +13,7 @@ tags:
 - **会议**: ICCV 2025
 - **arXiv**: [2412.15156](https://arxiv.org/abs/2412.15156)
 - **代码**: [GitHub](https://github.com/jiyt17/Prompt-A-Video)
-- **领域**: 扩散模型 · 提示词优化
+- **领域**: 视频生成
 - **关键词**: 视频生成, 提示词增强, LLM, DPO, 奖励引导进化
 
 ## 一句话总结

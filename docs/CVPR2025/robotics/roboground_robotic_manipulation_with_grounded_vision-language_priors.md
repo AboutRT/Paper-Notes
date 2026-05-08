@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.21530](https://arxiv.org/abs/2504.21530)  
-**代码**: https://robo-ground.github.io (有)  
+**代码**: [https://robo-ground.github.io](https://robo-ground.github.io)  
 **领域**: 机器人操作  
 **关键词**: 视觉语言接地, 分割掩码, 机器人操作, Grounded Perceiver, 零样本泛化
 

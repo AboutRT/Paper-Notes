@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - VisRAG
   - 鲁棒性
-  - 因果推理
+  - 信息检索
   - 视觉退化
   - 双路径编码
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2602.22013](https://arxiv.org/abs/2602.22013)  
 **代码**: [https://robustvisrag.github.io/](https://robustvisrag.github.io/)  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: VisRAG, 鲁棒性, 因果推理, 视觉退化, 双路径编码
 
 ## 一句话总结
@@ -125,8 +125,8 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2026\] NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval](nanovdr_distilling_a_2b_vision-language_retriever_into_a_70m_text-only_encoder_f.md)
 - [\[AAAI 2026\] Knowledge Completes the Vision: A Multimodal Entity-aware Retrieval-Augmented Generation Framework for News Image Captioning](../../AAAI2026/information_retrieval/knowledge_completes_the_vision_a_multimodal_entity-aware_retrieval-augmented_gen.md)
-- [\[CVPR 2026\] NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval](nanovdr_distilling_a_2b_visionlanguage_retriever_i.md)
 - [\[ACL 2025\] VISA: Retrieval Augmented Generation with Visual Source Attribution](../../ACL2025/information_retrieval/visa_retrieval_augmented_generation_with_visual_source_attribution.md)
 - [\[CVPR 2026\] CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering](cc-vqa_conflict-_and_correlation-aware_method_for_mitigating_knowledge_conflict_.md)
 - [\[ACL 2025\] SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation](../../ACL2025/information_retrieval/seakr_self-aware_knowledge_retrieval_for_adaptive_retrieval_augmented_generation.md)

@@ -8,7 +8,7 @@ tags:
   - Consultant Decoding
   - 推测解码
   - NLL验证
-  - 推理加速
+  - 其他
   - 大模型推理
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.02391](https://arxiv.org/abs/2506.02391)  
 **代码**: 无  
-**领域**: LLM 推理加速 / Speculative Decoding  
+**领域**: 其他  
 **关键词**: Consultant Decoding, 推测解码, NLL验证, 推理加速, 大模型推理
 
 ## 一句话总结
@@ -133,8 +133,8 @@ CD 是一种无需训练的推理时方法，不涉及额外训练或损失函�
 
 - [\[ACL 2025\] Synergistic Weak-Strong Collaboration by Aligning Preferences](synergistic_weak-strong_collaboration_by_aligning_preferences.md)
 - [\[ACL 2025\] MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection](macp_minimal_yet_mighty_adaptation_via_hierarchical_cosine_projection.md)
-- [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
 - [\[ACL 2025\] Literature Meets Data: A Synergistic Approach to Hypothesis Generation](literature_meets_data_hypothesis.md)
+- [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
 - [\[ACL 2025\] Theoretical Guarantees for Minimum Bayes Risk Decoding](theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
 
 <!-- RELATED:END -->

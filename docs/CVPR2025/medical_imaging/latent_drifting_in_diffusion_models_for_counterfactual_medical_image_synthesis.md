@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.20651](https://arxiv.org/abs/2412.20651)  
-**代码**: https://latentdrifting.github.io/ (项目页)  
+**代码**: [https://latentdrifting.github.io/](https://latentdrifting.github.io/) (项目页)  
 **领域**: 医学图像 / 扩散模型  
 **关键词**: 反事实图像生成, 扩散模型微调, 隐空间漂移, 医学影像合成, 分布迁移
 
@@ -128,6 +128,6 @@ Prompt 格式对照实验表明简单的 Diverse + Patient Info 组合最佳（F
 - [\[CVPR 2025\] ZoomLDM: Latent Diffusion Model for Multi-Scale Image Generation](zoomldm_latent_diffusion_model_for_multi-scale_image_generation.md)
 - [\[CVPR 2025\] SeaLion: Semantic Part-Aware Latent Point Diffusion Models for 3D Generation](sealion_semantic_part-aware_latent_point_diffusion_models_for_3d_generation.md)
 - [\[CVPR 2025\] Are General-Purpose Vision Models All We Need for 2D Medical Image Segmentation?](are_general-purpose_vision_models_all_we_need_for_2d_medical_image_segmentation_.md)
-- [\[NeurIPS 2025\] Scalable Diffusion Transformer for Conditional 4D fMRI Synthesis](../../NeurIPS2025/medical_imaging/scalable_diffusion_transformer_for_conditional_4d_fmri_synthesis.md)
+- [\[NeurIPS 2025\] Semantic and Visual Crop-Guided Diffusion Models for Heterogeneous Tissue Synthesis in Histopathology](../../NeurIPS2025/medical_imaging/semantic_and_visual_crop-guided_diffusion_models_for_heterogeneous_tissue_synthe.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.08107](https://arxiv.org/abs/2410.08107)  
-**代码**: https://github.com/WU-CVGL/IncEventGS (有)  
+**代码**: [https://github.com/WU-CVGL/IncEventGS](https://github.com/WU-CVGL/IncEventGS)  
 **领域**: 3D视觉  
 **关键词**: 事件相机, 3D高斯溅射, 增量重建, 视觉里程计, SLAM
 

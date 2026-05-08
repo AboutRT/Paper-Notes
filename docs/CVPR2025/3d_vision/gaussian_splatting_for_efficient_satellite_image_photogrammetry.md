@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.13047](https://arxiv.org/abs/2412.13047)  
-**代码**: https://mezzelfo.github.io/EOGS/ (有)  
+**代码**: [https://mezzelfo.github.io/EOGS/](https://mezzelfo.github.io/EOGS/)  
 **领域**: 3D视觉  
 **关键词**: 高斯溅射, 卫星摄影测量, 数字高程模型, 阴影建模, 遥感
 

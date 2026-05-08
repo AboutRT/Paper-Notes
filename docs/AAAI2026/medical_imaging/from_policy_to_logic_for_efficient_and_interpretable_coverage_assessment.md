@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.01266](https://arxiv.org/abs/2601.01266)  
 **代码**: 无  
-**领域**: 神经符号推理 / 医疗NLP / 法律文本分析  
+**领域**: 医学图像  
 **关键词**: 神经符号推理, 覆盖政策, 规则引擎, 检索增强, 可解释AI
 
 ## 一句话总结
@@ -147,9 +147,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Training-Free Policy Violation Detection via Activation-Space Whitening in LLMs](training-free_policy_violation_detection_via_activation-space_whitening_in_llms.md)
-- [\[CVPR 2026\] Similarity-as-Evidence: Calibrating Overconfident VLMs for Interpretable and Label-Efficient Medical Active Learning](../../CVPR2026/medical_imaging/similarity-as-evidence_calibrating_overconfident_vlms_for_interpretable_and_labe.md)
 - [\[AAAI 2026\] A Principle-Driven Adaptive Policy for Group Cognitive Stimulation Dialogue for Elderly with Cognitive Impairment](a_principle-driven_adaptive_policy_for_group_cognitive_stimu.md)
 - [\[ACL 2026\] Stable On-Policy Distillation through Adaptive Target Reformulation](../../ACL2026/medical_imaging/stable_on-policy_distillation_through_adaptive_target_reformulation.md)
+- [\[AAAI 2026\] DeepGB-TB: A Risk-Balanced Cross-Attention Gradient-Boosted Convolutional Network for Rapid, Interpretable Tuberculosis Screening](deepgb-tb_a_risk-balanced_cross-attention_gradient-boosted_convolutional_network.md)
 - [\[AAAI 2026\] Efficient Chromosome Parallelization for Precision Medicine Genomic Workflows](efficient_chromosome_parallelization_for_precision_medicine_genomic_workflows.md)
 
 <!-- RELATED:END -->

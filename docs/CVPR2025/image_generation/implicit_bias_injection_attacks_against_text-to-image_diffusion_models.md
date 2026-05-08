@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.01819](https://arxiv.org/abs/2504.01819)  
-**代码**: https://github.com/Hannah1102/IBI-attacks  
-**领域**: AI安全 / 扩散模型  
+**代码**: [https://github.com/Hannah1102/IBI-attacks](https://github.com/Hannah1102/IBI-attacks)  
+**领域**: 图像生成  
 **关键词**: 隐式偏见注入, 文生图扩散模型, 对抗攻击, 嵌入空间操纵, 自适应特征选择
 
 ## 一句话总结

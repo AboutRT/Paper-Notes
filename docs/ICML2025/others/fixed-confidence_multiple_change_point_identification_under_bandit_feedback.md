@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - change point detection
-  - multi-armed bandits
+  - 其他
   - pure exploration
   - fixed-confidence
   - Track-and-Stop
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2507.08994](https://arxiv.org/abs/2507.08994)  
 **代码**: 无  
-**领域**: bandits  
+**领域**: 其他  
 **关键词**: change point detection, multi-armed bandits, pure exploration, fixed-confidence, Track-and-Stop, sample complexity
 
 ## 一句话总结
@@ -152,8 +152,8 @@ $$\limsup_{\delta \to 0} \frac{\mathbb{E}[\tau_\delta]}{\log(1/\delta)} \leq 8\s
 
 - [\[ICML 2025\] Learning-Augmented Algorithms for MTS with Bandit Access to Multiple Predictors](learning-augmented_algorithms_for_mts_with_bandit_access_to_multiple_predictors.md)
 - [\[ICML 2025\] Near Optimal Best Arm Identification for Clustered Bandits](near_optimal_best_arm_identification_for_clustered_bandits.md)
-- [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](multiple-policy_evaluation_via_density_estimation.md)
-- [\[ICML 2025\] Bipartite Ranking From Multiple Labels: On Loss Versus Label Aggregation](bipartite_ranking_from_multiple_labels_on_loss_versus_label_aggregation.md)
 - [\[ICML 2025\] Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification](fixing_the_loose_brake_exponential-tailed_stopping_time_in_best_arm_identificati.md)
+- [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](multiple-policy_evaluation_via_density_estimation.md)
+- [\[ICML 2025\] Adversarial Combinatorial Semi-bandits with Graph Feedback](adversarial_combinatorial_semi-bandits_with_graph_feedback.md)
 
 <!-- RELATED:END -->

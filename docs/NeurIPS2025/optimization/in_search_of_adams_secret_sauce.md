@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.21829](https://arxiv.org/abs/2505.21829)  
 **代码**: [GitHub](https://github.com/aorvieto/SecretSauce)  
-**领域**: optimization / 语言模型训练  
+**领域**: 优化  
 **关键词**: Adam, Signum, implicit bias, variational inference, signal-to-noise ratio, language modeling
 
 ## 一句话总结

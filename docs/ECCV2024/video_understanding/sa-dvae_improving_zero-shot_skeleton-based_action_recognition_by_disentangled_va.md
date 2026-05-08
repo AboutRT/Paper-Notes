@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13460](https://arxiv.org/abs/2407.13460)  
-**代码**: https://github.com/pha123661/SA-DVAE (有)  
+**代码**: [https://github.com/pha123661/SA-DVAE](https://github.com/pha123661/SA-DVAE)  
 **领域**: 视频理解  
 **关键词**: 骨架动作识别, 零样本学习, 特征解耦, 变分自编码器, 跨模态对齐
 

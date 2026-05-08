@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 事实性评估
-  - 对抗反馈
+  - LLM安全
   - 实时新闻
   - 检索增强
   - 虚假信息检测
@@ -129,9 +129,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation](on-policy_self-alignment_with_fine-grained_knowledge_feedback_for_hallucination_.md)
-- [\[NeurIPS 2025\] Buffer Layers for Test-Time Adaptation](../../NeurIPS2025/llm_safety/buffer_layers_for_test-time_adaptation.md)
 - [\[ACL 2025\] Chinese SimpleQA: A Chinese Factuality Evaluation for Large Language Models](chinese_simpleqa_a_chinese_factuality_evaluation_for_large_language_models.md)
 - [\[ACL 2025\] Ewe: Improving Factuality with Explicit Working Memory](improving_factuality_with_explicit_working_memory.md)
-- [\[ICCV 2025\] Adversarial Robust Memory-Based Continual Learner](../../ICCV2025/llm_safety/adversarial_robust_memory-based_continual_learner.md)
+- [\[NeurIPS 2025\] Reinforcement Learning with Backtracking Feedback](../../NeurIPS2025/llm_safety/reinforcement_learning_with_backtracking_feedback.md)
+- [\[ACL 2025\] Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs](hidden-states-factuality-encoding-limits.md)
 
 <!-- RELATED:END -->

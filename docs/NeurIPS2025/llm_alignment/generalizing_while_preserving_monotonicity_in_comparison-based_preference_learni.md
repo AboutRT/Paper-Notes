@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.08616](https://arxiv.org/abs/2506.08616)  
 **代码**: [github.com/pevab/gbtlab2](https://github.com/pevab/gbtlab2)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: preference learning, monotonicity, Bradley-Terry, diffusion prior, alignment
 
 ## 一句话总结
@@ -150,7 +150,7 @@ $$\frac{d\theta_{\lambda a}^*}{d\lambda}\bigg|_{\lambda=\mu} = (r-s) \cdot e_a^T
 - [\[NeurIPS 2025\] Alignment of Large Language Models with Constrained Learning](alignment_of_large_language_models_with_constrained_learning.md)
 - [\[NeurIPS 2025\] Reinforcement Learning Finetunes Small Subnetworks in Large Language Models](reinforcement_learning_finetunes_small_subnetworks_in_large_language_models.md)
 - [\[NeurIPS 2025\] LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](laser_learning_to_adaptively_select_reward_models_with_multi-armed_bandits.md)
+- [\[NeurIPS 2025\] Preference Learning with Lie Detectors can Induce Honesty or Evasion](preference_learning_with_lie_detectors_can_induce_honesty_or_evasion.md)
 - [\[NeurIPS 2025\] ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning](responserank_data-efficient_reward_modeling_through_preference_strength_learning.md)
-- [\[NeurIPS 2025\] Limited Preference Data? Learning Better Reward Model with Latent Space Synthesis](limited_preference_data_learning_better_reward_model_with_latent_space_synthesis.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2406.02645](https://arxiv.org/abs/2406.02645)  
-**代码**: [https://github.com/4gnskq5g2s-collab/Astral](https://github.com/4gnskq5g2s-collab/Astral) (有)  
+**代码**: [https://github.com/4gnskq5g2s-collab/Astral](https://github.com/4gnskq5g2s-collab/Astral)  
 **领域**: 科学计算 / 物理信息神经网络  
 **关键词**: PiNN, 后验误差估计, 误差上界, PDE求解, 损失函数设计  
 
@@ -138,6 +138,6 @@ tags:
 - [\[NeurIPS 2025\] Physics-Informed Neural Networks with Fourier Features and Attention-Driven Decoding](../../NeurIPS2025/scientific_computing/physics-informed_neural_networks_with_fourier_features_and_attention-driven_deco.md)
 - [\[NeurIPS 2025\] Neuro-Spectral Architectures for Causal Physics-Informed Networks](../../NeurIPS2025/scientific_computing/neuro-spectral_architectures_for_causal_physics-informed_networks.md)
 - [\[ICLR 2026\] Empirical Stability Analysis of Kolmogorov-Arnold Networks in Hard-Constrained Recurrent Physics-Informed Discovery](empirical_stability_analysis_of_kolmogorov-arnold_networks_in_hard-constrained_r.md)
-- [\[AAAI 2026\] PhysicsCorrect: A Training-Free Approach for Stable Neural PDE Simulations](../../AAAI2026/scientific_computing/physicscorrect_a_training-free_approach_for_stable_neural_pde_simulations.md)
+- [\[ICLR 2026\] DGNet: Discrete Green Networks for Data-Efficient Learning of Spatiotemporal PDEs](dgnet_discrete_green_networks_for_data-efficient_learning_of_spatiotemporal_pdes.md)
 
 <!-- RELATED:END -->

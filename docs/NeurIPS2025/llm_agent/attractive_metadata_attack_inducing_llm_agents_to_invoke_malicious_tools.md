@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.02110](https://arxiv.org/abs/2508.02110)  
-**代码**: https://github.com/SEAIC-M/AMA  
+**代码**: [https://github.com/SEAIC-M/AMA](https://github.com/SEAIC-M/AMA)  
 **领域**: AI安全 / LLM Agent  
 **关键词**: 工具调用攻击, 元数据操纵, 隐私泄露, LLM Agent安全, MCP
 

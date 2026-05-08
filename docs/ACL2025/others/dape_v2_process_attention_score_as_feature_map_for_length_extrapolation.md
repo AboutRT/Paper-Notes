@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.04798](https://arxiv.org/abs/2410.04798)  
 **代码**: [https://github.com/chuanyang-Zheng/DAPE](https://github.com/chuanyang-Zheng/DAPE)  
-**领域**: LLM效率  
+**领域**: 其他  
 **关键词**: 长度外推、注意力机制、位置编码、卷积处理、特征图
 
 ## 一句话总结

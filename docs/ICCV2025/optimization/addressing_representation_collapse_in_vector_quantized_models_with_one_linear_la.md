@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.02038](https://arxiv.org/abs/2411.02038)  
-**代码**: https://github.com/youngsheen/SimVQ  
-**领域**: 向量量化 / 表示学习  
+**代码**: [https://github.com/youngsheen/SimVQ](https://github.com/youngsheen/SimVQ)  
+**领域**: 优化  
 **关键词**: 向量量化, 表示崩塌, 码本利用率, 线性变换, 多模态
 
 ## 一句话总结

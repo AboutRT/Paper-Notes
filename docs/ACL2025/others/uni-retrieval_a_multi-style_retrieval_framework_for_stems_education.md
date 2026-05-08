@@ -9,7 +9,7 @@ tags:
   - 多风格检索
   - 提示学习
   - 原型学习
-  - 视觉语言模型
+  - 其他
 ---
 
 # Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.05863](https://arxiv.org/abs/2502.05863)  
 **代码**: 无  
-**领域**: 多模态VLM / 教育AI  
+**领域**: 其他  
 **关键词**: STEM教育检索, 多风格检索, Prompt Bank, 原型学习, 视觉语言模型
 
 ## 一句话总结
@@ -141,9 +141,9 @@ SER 数据集上的检索性能:
 ## 相关论文
 
 - [\[ACL 2025\] ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval](acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md)
-- [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
 - [\[ACL 2025\] GeAR: Generation Augmented Retrieval](gear_generation_augmented_retrieval.md)
-- [\[ACL 2025\] Multi-Facet Blending for Faceted Query-by-Example Retrieval](multi-facet_blending_for_faceted_query-by-example_retrieval.md)
-- [\[ACL 2025\] HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation](hash-rag_bridging_deep_hashing_with_retriever_for_efficient_fine_retrieval_and_a.md)
+- [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
+- [\[ACL 2025\] Improve Rule Retrieval and Reasoning with Self-Induction and Relevance ReEstimate](improve_rule_retrieval_and_reasoning_with_self-induction_and_relevance_reestimat.md)
+- [\[ACL 2025\] Hard Negative Mining for Domain-Specific Retrieval in Enterprise Systems](hard_negative_mining_for_domain-specific_retrieval_in_enterprise_systems.md)
 
 <!-- RELATED:END -->

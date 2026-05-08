@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.20824](https://arxiv.org/abs/2509.20824)  
 **代码**: [项目主页](https://jblei.site/proj/armesh)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D mesh generation, autoregressive model, level-of-detail, mesh simplification, simplicial complex  
 **单位**: 香港中文大学（深圳）、香港大学、腾讯混元  
 

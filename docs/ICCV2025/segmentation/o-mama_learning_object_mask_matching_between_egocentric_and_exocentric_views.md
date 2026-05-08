@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.06026](https://arxiv.org/abs/2506.06026)  
 **代码**: [Maria-SanVil/O-MaMa](https://github.com/Maria-SanVil/O-MaMa)  
-**领域**: Segmentation / Cross-View Understanding  
+**领域**: 图像分割  
 **关键词**: Cross-View Segmentation, Mask Matching, Ego-Exo Correspondences, Contrastive Learning, DINOv2
 
 ## 一句话总结
@@ -175,6 +175,6 @@ DINOv2 mask 池化特征远优于 CLIP 和其他池化策略。
 - [\[ICCV 2025\] HiMTok: Learning Hierarchical Mask Tokens for Image Segmentation with Large Multimodal Model](himtok_learning_hierarchical_mask_tokens_for_image_segmentation_with_large_multi.md)
 - [\[CVPR 2025\] LiVOS: Light Video Object Segmentation with Gated Linear Matching](../../CVPR2025/segmentation/livos_light_video_object_segmentation_with_gated_linear_matching.md)
 - [\[CVPR 2026\] Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction](../../CVPR2026/segmentation/learning_cross-view_object_correspondence_via_cycle-consistent_mask_prediction.md)
-- [\[ICCV 2025\] Refer to Any Segmentation Mask Group With Vision-Language Prompts](refer_to_any_segmentation_mask_group_with_vision-language_prompts.md)
+- [\[NeurIPS 2025\] Robust Egocentric Referring Video Object Segmentation via Dual-Modal Causal Intervention](../../NeurIPS2025/segmentation/robust_egocentric_referring_video_object_segmentation_via_dual-modal_causal_inte.md)
 
 <!-- RELATED:END -->

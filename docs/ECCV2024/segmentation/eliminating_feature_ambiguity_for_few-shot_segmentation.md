@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.09842](https://arxiv.org/abs/2407.09842)  
-**代码**: 有 (https://github.com/Sam1224/AENet)  
+**代码**: 有 ([https://github.com/Sam1224/AENet](https://github.com/Sam1224/AENet))  
 **领域**: 图像分割  
 **关键词**: 少样本分割, 特征歧义, 交叉注意力, 判别性先验掩码, 插件网络
 

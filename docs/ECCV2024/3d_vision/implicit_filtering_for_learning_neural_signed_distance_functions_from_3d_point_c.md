@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13342](https://arxiv.org/abs/2407.13342)  
-**代码**: https://list17.github.io/ImplicitFilter (有项目页)  
+**代码**: [https://list17.github.io/ImplicitFilter](https://list17.github.io/ImplicitFilter) (有项目页)  
 **领域**: 3D视觉  
 **关键词**: 隐式场, 符号距离函数, 点云重建, 双边滤波, 特征保持
 
@@ -157,10 +157,10 @@ $$L = L_{zero} + \alpha_1 L_{field} + \alpha_2 L_{dist} + \alpha_3 L_{CD}$$
 
 ## 相关论文
 
+- [\[ECCV 2024\] Heterogeneous Graph Learning for Scene Graph Prediction in 3D Point Clouds](heterogeneous_graph_learning_for_scene_graph_prediction_in_3d_point_clouds.md)
 - [\[ECCV 2024\] Ray-Distance Volume Rendering for Neural Scene Reconstruction](ray-distance_volume_rendering_for_neural_scene_reconstruction.md)
 - [\[ECCV 2024\] WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians](wast-3d_wasserstein-2_distance_for_scene-to-scene_stylization_on_3d_gaussians.md)
+- [\[ECCV 2024\] A Probability-guided Sampler for Neural Implicit Surface Rendering](a_probabilityguided_sampler_for_neural_implicit_surface_rend.md)
 - [\[ECCV 2024\] SEED: A Simple and Effective 3D DETR in Point Clouds](seed_a_simple_and_effective_3d_detr_in_point_clouds.md)
-- [\[ECCV 2024\] Heterogeneous Graph Learning for Scene Graph Prediction in 3D Point Clouds](heterogeneous_graph_learning_for_scene_graph_prediction_in_3d_point_clouds.md)
-- [\[ECCV 2024\] 3D Single-Object Tracking in Point Clouds with High Temporal Variation](3d_single-object_tracking_in_point_clouds_with_high_temporal_variation.md)
 
 <!-- RELATED:END -->

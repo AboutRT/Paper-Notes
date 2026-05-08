@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2601.20637](https://arxiv.org/abs/2601.20637)  
 **代码**: 有 (基于 JAX/Diffrax + PySR)  
-**领域**: 科学计算 / 科学发现  
+**领域**: LLM预训练  
 **关键词**: Neural ODE, symbolic regression, dynamical systems, extrapolation, scientific discovery
 
 ## 一句话总结

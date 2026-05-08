@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.16155](https://arxiv.org/abs/2412.16155)  
-**代码**: https://Inter-Pose.github.io (项目页)  
-**领域**: 3D视觉 / 扩散模型  
+**代码**: [https://Inter-Pose.github.io](https://Inter-Pose.github.io) (项目页)  
+**领域**: 图像生成  
 **关键词**: 位姿估计, 视频生成模型, 帧插值, 自一致性评分, 少重叠图像
 
 ## 一句话总结

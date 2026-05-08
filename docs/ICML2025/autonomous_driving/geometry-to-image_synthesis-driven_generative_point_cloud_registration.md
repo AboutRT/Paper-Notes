@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2512.09407](https://arxiv.org/abs/2512.09407)  
 **代码**: 无（未公开）  
-**领域**: 3D 视觉 / 点云配准  
+**领域**: 自动驾驶  
 **关键词**: 点云配准, 生成式配准, ControlNet, 跨视图一致性, 几何-颜色融合
 
 ## 一句话总结
@@ -133,9 +133,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Unlocking Generalization Power in LiDAR Point Cloud Registration](../../CVPR2025/autonomous_driving/unlocking_generalization_power_in_lidar_point_cloud_registration.md)
-- [\[CVPR 2026\] IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration](../../CVPR2026/autonomous_driving/igasa_integrated_geometry-aware_and_skip-attention_modules_for_enhanced_point_cl.md)
+- [\[CVPR 2026\] IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration](../../CVPR2026/autonomous_driving/igasa_integrated_geometryaware_and_skipattention_m.md)
 - [\[ICCV 2025\] MGSfM: Multi-Camera Geometry Driven Global Structure-from-Motion](../../ICCV2025/autonomous_driving/mgsfm_multi-camera_geometry_driven_global_structure-from-motion.md)
-- [\[ICML 2025\] Don't be so Negative! Score-based Generative Modeling with Oracle-assisted Guidance](dont_be_so_negative_score-based_generative_modeling_with_oracle-assisted_guidanc.md)
 - [\[ICCV 2025\] SkyDiffusion: Leveraging BEV Paradigm for Ground-to-Aerial Image Synthesis](../../ICCV2025/autonomous_driving/leveraging_bev_paradigm_for_ground-to-aerial_image_synthesis.md)
+- [\[ICML 2025\] Don't be so Negative! Score-based Generative Modeling with Oracle-assisted Guidance](dont_be_so_negative_score-based_generative_modeling_with_oracle-assisted_guidanc.md)
 
 <!-- RELATED:END -->

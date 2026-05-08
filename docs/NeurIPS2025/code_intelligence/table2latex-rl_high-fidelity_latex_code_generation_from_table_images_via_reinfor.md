@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 表格识别
   - LaTeX生成
-  - GRPO强化学习
+  - 代码智能
   - 双奖励机制
   - 多模态大模型
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.17589](https://arxiv.org/abs/2509.17589)  
 **代码**: [GitHub](https://github.com/newLLing/Table2LaTeX-RL)  
-**领域**: 多模态VLM  
+**领域**: 代码智能  
 **关键词**: 表格识别, LaTeX生成, GRPO强化学习, 双奖励机制, 多模态大模型
 
 ## 一句话总结

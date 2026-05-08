@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.18609](https://arxiv.org/abs/2412.18609)  
-**代码**: https://jh-yi.github.io/Video-Panda  
+**代码**: [https://jh-yi.github.io/Video-Panda](https://jh-yi.github.io/Video-Panda)  
 **领域**: 视频理解  
 **关键词**: 无编码器视频语言模型, 时空对齐, 参数高效, 视频问答, 轻量化
 

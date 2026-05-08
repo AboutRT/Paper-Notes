@@ -8,7 +8,7 @@ tags:
   - 学习型视频压缩
   - 特征级注意力
   - Transformer
-  - 率失真优化
+  - 时间序列
   - 全局感知
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: 无公开预印本  
-**代码**: https://github.com/Z-CV-code/FLAVC  
+**代码**: [https://github.com/Z-CV-code/FLAVC](https://github.com/Z-CV-code/FLAVC)  
 **领域**: 视频压缩  
 **关键词**: 学习型视频压缩, 特征级注意力, Transformer, 全局上下文矩阵, Dense Patcher
 
@@ -126,8 +126,8 @@ FLAVC 的编码流程：当前帧的特征通过 Transformer-CNN 混合编码器
 
 - [\[CVPR 2025\] DejaVid: Encoder-Agnostic Learned Temporal Matching for Video Classification](dejavid_encoder-agnostic_learned_temporal_matching_for_video_classification.md)
 - [\[NeurIPS 2025\] AttentionPredictor: Temporal Patterns Matter for KV Cache Compression](../../NeurIPS2025/time_series/attentionpredictor_temporal_patterns_matter_for_kv_cache_com.md)
-- [\[NeurIPS 2025\] Learning Time-Scale Invariant Population-Level Neural Representations](../../NeurIPS2025/time_series/learning_time-scale_invariant_population-level_neural_representations.md)
 - [\[ICML 2025\] Customizing the Inductive Biases of Softmax Attention using Structured Matrices](../../ICML2025/time_series/customizing_the_inductive_biases_of_softmax_attention_using_structured_matrices.md)
-- [\[ICLR 2026\] Relational Feature Caching for Accelerating Diffusion Transformers](../../ICLR2026/time_series/relational_feature_caching_for_accelerating_diffusion_transformers.md)
+- [\[NeurIPS 2025\] Learning Time-Scale Invariant Population-Level Neural Representations](../../NeurIPS2025/time_series/learning_time-scale_invariant_population-level_neural_representations.md)
+- [\[NeurIPS 2025\] MAESTRO: Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series](../../NeurIPS2025/time_series/maestro_adaptive_sparse_attention_and_robust_learning_for_multimodal_dynamic_tim.md)
 
 <!-- RELATED:END -->

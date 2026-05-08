@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.10836](https://arxiv.org/abs/2411.10836)  
-**代码**: https://github.com/yu-shaonian/Animate_Anything  
+**代码**: [https://github.com/yu-shaonian/Animate_Anything](https://github.com/yu-shaonian/Animate_Anything)  
 **领域**: 视频理解 / 可控视频生成  
 **关键词**: 可控视频生成, 光流统一表示, 相机轨迹控制, 频域稳定, 多条件融合
 

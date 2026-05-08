@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.25601](https://arxiv.org/abs/2509.25601)  
 **代码**: [GitHub](https://github.com/uai-ufmg/hp-study)  
-**领域**: audio_speech / human_understanding  
+**领域**: 音频语音  
 **关键词**: AI音乐感知, 图灵测试, 随机对照交叉试验, 混合方法内容分析, 人类感知  
 
 ## 一句话总结
@@ -139,6 +139,6 @@ tags:
 - [\[NeurIPS 2025\] From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era](from_generation_to_attribution_music_ai_agent_architectures_for_the_post-streami.md)
 - [\[NeurIPS 2025\] Accelerate Creation of Product Claims Using Generative AI](accelerate_creation_of_product_claims_using_generative_ai.md)
 - [\[AAAI 2026\] Aligning Generative Music AI with Human Preferences: Methods and Challenges](../../AAAI2026/audio_speech/aligning_generative_music_ai_with_human_preferences_methods_and_challenges.md)
-- [\[CVPR 2025\] Exploring Timeline Control for Facial Motion Generation](../../CVPR2025/audio_speech/exploring_timeline_control_for_facial_motion_generation.md)
+- [\[NeurIPS 2025\] BNMusic: Blending Environmental Noises into Personalized Music](bnmusic_blending_environmental_noises_into_personalized_music.md)
 
 <!-- RELATED:END -->

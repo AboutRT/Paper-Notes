@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2508.13601](https://arxiv.org/abs/2508.13601)  
 **代码**: [D-Robotics-AI-Lab/FoundationSSC](https://github.com/D-Robotics-AI-Lab/FoundationSSC)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 3D scene completion, vision foundation model, semantic-geometric decoupling, stereo cost volume, autonomous driving
 
 ## 一句话总结

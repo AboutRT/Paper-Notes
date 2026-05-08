@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.23473](https://arxiv.org/abs/2505.23473)  
 **代码**: [GitHub](https://github.com/FishT0ucher/EVOREFUSE)  
-**领域**: LLM安全 / prompt优化  
+**领域**: LLM对齐  
 **关键词**: over-refusal, pseudo-malicious, evolutionary search, ELBO, safety alignment, DPO
 
 ## 一句话总结

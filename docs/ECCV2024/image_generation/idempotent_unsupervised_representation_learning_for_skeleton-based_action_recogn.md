@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2410.20349](https://arxiv.org/abs/2410.20349)  
-**代码**: [GitHub](https://github.com/LanglandsLin/IGM) (有)  
+**代码**: [GitHub](https://github.com/LanglandsLin/IGM)  
 **领域**: 图像生成  
 **关键词**: 幂等生成模型, 骨架动作识别, 自监督学习, 对比学习, 扩散模型
 
@@ -184,8 +184,8 @@ KNN 评估（NTU 60 数据集）：
 
 ## 相关论文
 
-- [\[ICCV 2025\] Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition](../../ICCV2025/image_generation/bridging_the_skeleton_text_modality_gap_diffusion_powered_modality_alignment_for.md)
-- [\[ECCV 2024\] LEGO: Learning EGOcentric Action Frame Generation via Visual Instruction Tuning](lego_learning_egocentric_action_frame_generation_via_visual_instruction_tuning.md)
+- [\[ICCV 2025\] Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition](../../ICCV2025/image_generation/bridging_the_skeleton-text_modality_gap_diffusion-powered_modality_alignment_for.md)
+- [\[CVPR 2026\] Learning by Neighbor-Aware Semantics, Deciding by Open-form Flows: Towards Robust Zero-Shot Skeleton Action Recognition](../../CVPR2026/image_generation/learning_by_neighbor-aware_semantics_deciding_by_open-form_flows_towards_robust_.md)
 - [\[ECCV 2024\] MacDiff: Unified Skeleton Modeling with Masked Conditional Diffusion](macdiff_unified_skeleton_modeling_with_masked_conditional_diffusion.md)
 - [\[ECCV 2024\] SAIR: Learning Semantic-aware Implicit Representation](sair_learning_semantic-aware_implicit_representation.md)
 - [\[ECCV 2024\] Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers](difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md)

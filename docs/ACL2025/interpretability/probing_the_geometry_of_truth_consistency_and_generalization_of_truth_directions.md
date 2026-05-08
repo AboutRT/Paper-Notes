@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 真值方向
   - 真实性探测
-  - LLM内部表征
+  - 可解释性
   - 线性探针
   - 泛化性
 ---
@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2506.00823](https://arxiv.org/abs/2506.00823)  
 **作者**: Yuntai Bao, Xuhong Zhang, Tianyu Du, Xinkui Zhao, Zhengwen Feng, Hao Peng, Jianwei Yin (浙江大学, 浙江师范大学)
 **代码**: [GitHub](https://github.com/colored-dye/truthfulness_probe_generalization)  
-**领域**: nlp_understanding  
+**领域**: 可解释性  
 **关键词**: 真值方向, 真实性探测, LLM内部表征, 线性探针, 泛化性
 
 ## 一句话总结
@@ -171,7 +171,7 @@ $$\underset{\Phi}{\arg\min} \frac{1}{M} \sum_{i=1}^{M} J(\Phi, \boldsymbol{h}_i,
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](../../NeurIPS2025/interpretability/the_trilemma_of_truth_in_large_language_models.md)
 - [\[NeurIPS 2025\] Emergence of Linear Truth Encodings in Language Models](../../NeurIPS2025/interpretability/emergence_of_linear_truth_encodings_in_language_models.md)
 - [\[ACL 2025\] Probing Subphonemes in Morphology Models](probing_subphonemes_in_morphology_models.md)
-- [\[CVPR 2025\] Geometry-Guided Camera Motion Understanding in VideoLLMs](../../CVPR2025/interpretability/geometry-guided_camera_motion_understanding_in_videollms.md)
 - [\[ACL 2025\] Around the World in 24 Hours: Probing LLM Knowledge of Time and Place](around_the_world_in_24_hours_probing_llm_knowledge_of_time_and_place.md)
+- [\[CVPR 2025\] Geometry-Guided Camera Motion Understanding in VideoLLMs](../../CVPR2025/interpretability/geometry-guided_camera_motion_understanding_in_videollms.md)
 
 <!-- RELATED:END -->

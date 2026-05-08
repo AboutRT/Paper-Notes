@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.00185](https://arxiv.org/abs/2504.00185)  
-**代码**: https://trishullab.github.io/escher-web (有)  
+**代码**: [https://trishullab.github.io/escher-web](https://trishullab.github.io/escher-web)  
 **领域**: 多模态VLM  
 **关键词**: 概念瓶颈模型、库学习、视觉概念进化、VLM评判、细粒度分类
 

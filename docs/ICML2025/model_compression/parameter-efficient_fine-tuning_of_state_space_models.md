@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2410.09016](https://arxiv.org/abs/2410.09016)  
-**代码**: [GitHub](https://github.com/furiosa-ai/ssm-peft) (有)  
+**代码**: [GitHub](https://github.com/furiosa-ai/ssm-peft)  
 **领域**: 模型压缩/参数高效微调  
 **关键词**: 状态空间模型, 参数高效微调, LoRA, Mamba, 稀疏维度调优
 

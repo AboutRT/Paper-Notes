@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR2026  
 **arXiv**: [2603.14772](https://arxiv.org/abs/2603.14772)  
-**代码**: https://juhyeon-kwon.github.io/DynaAvatar.github.io/ (项目页)  
+**代码**: [https://juhyeon-kwon.github.io/DynaAvatar.github.io/](https://juhyeon-kwon.github.io/DynaAvatar.github.io/) (项目页)  
 **领域**: 3D视觉  
 **关键词**: 3D人体重建, 可动画化Avatar, 布料动态, 3D Gaussian Splatting, 单图重建
 

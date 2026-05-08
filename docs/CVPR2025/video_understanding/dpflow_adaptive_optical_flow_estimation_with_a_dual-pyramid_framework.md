@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.14880](https://arxiv.org/abs/2503.14880)  
-**代码**: https://github.com/hmorimitsu/ptlflow/tree/main/ptlflow/models/dpflow (有)  
+**代码**: [https://github.com/hmorimitsu/ptlflow/tree/main/ptlflow/models/dpflow](https://github.com/hmorimitsu/ptlflow/tree/main/ptlflow/models/dpflow)  
 **领域**: 视频理解  
 **关键词**: 光流估计, 高分辨率泛化, 双金字塔编码器, 循环网络, Cross-Gated Unit
 
@@ -133,6 +133,6 @@ DPFlow采用循环编码器-解码器结构。编码器为新提出的**双金�
 - [\[CVPR 2026\] U2Flow: Uncertainty-Aware Unsupervised Optical Flow Estimation](../../CVPR2026/video_understanding/u2flow_uncertainty_aware_unsupervised_optical_flow_estimation.md)
 - [\[ICCV 2025\] MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation](../../ICCV2025/video_understanding/memfof_high-resolution_training_for_memory-efficient_multi-frame_optical_flow_es.md)
 - [\[ICCV 2025\] Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras](../../ICCV2025/video_understanding/unsupervised_joint_learning_of_optical_flow_and_intensity_with_event_cameras.md)
-- [\[ICCV 2025\] PriOr-Flow: Enhancing Primitive Panoramic Optical Flow with Orthogonal View](../../ICCV2025/video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_orthogonal_view.md)
+- [\[ICCV 2025\] PriOr-Flow: Enhancing Primitive Panoramic Optical Flow with Orthogonal View](../../ICCV2025/video_understanding/prior-flow_enhancing_primitive_panoramic_optical_flow_with_o.md)
 
 <!-- RELATED:END -->

@@ -47,7 +47,7 @@ tags:
 1. **结构采样（Structure Sampling）**：使用 Barabási-Albert 模型采样有向图，去除孤立节点和反向边后得到 DAG。根节点数据用多维向量初始化（从正态/伽马分布采样），每个节点定义传播函数 $g_i: \mathbb{R}^{|\text{pa}(i)| \cdot n} \to \mathbb{R}^n$（单层全连接神经网络 + 随机非线性激活函数如 ReLU、logabs）。**与 TabPFN 的关键区别**：分类特征的生成不嵌入传播函数中，而是在读出阶段才离散化——这保证了后续节点接收到连续向量而非被类别数限制的状态。读出通过 pooling 函数（norm、mean、median 等）将 n 维向量投影为标量。
 
 2. **预采样（Pre-Sampling）**：为了让噪声尺度与数据分布匹配，先进行一次无噪声的"预跑"：独立采样根节点数据并传播到全图，计算每个节点的 10% 和 90% 分位数 $q_{0.1}(i), q_{0.9}(i)$。主采样中，噪声按分位数差缩放：
-   $$x_i = g_i(x_{\text{pa}(i)}) + (q_{0.9}(i) - q_{0.1}(i)) \varepsilon_i$$
+    $x_i = g_i(x_{\text{pa}(i)}) + (q_{0.9}(i) - q_{0.1}(i)) \varepsilon_i$
    这确保传播信号 $g_i$ 仍是主要信息源，噪声是适度扰动。对分类节点，使用 k-means 将预采样数据聚类为 K 个类别，定义分类 pooling 函数为最近质心分配。
 
 3. **关系数据扩展（核心贡献）**：独立采样两个 DAG $\mathcal{G}_{\text{main}}$ 和 $\mathcal{G}_{\text{add}}$，引入耦合节点 C 连接二者（C 由 $\mathcal{G}_{\text{add}}$ 的汇节点导致，指向 $\mathcal{G}_{\text{main}}$ 的特征节点）。为建模隐因果影响，额外将 $\mathcal{G}_{\text{add}}$ 的特征节点连接到 $\mathcal{G}_{\text{main}}$ 的目标节点（黄色边）。数据分两次采样：一次在合并图上（生成主表），一次仅在 $\mathcal{G}_{\text{add}}$+C 上（生成附加表），两表通过 C 列关联，样本量可不同。
@@ -119,9 +119,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Radar: Benchmarking Language Models on Imperfect Tabular Data](../../NeurIPS2025/others/radar_benchmarking_language_models_on_imperfect_tabular_data.md)
+- [\[ICML 2025\] Provably Improving Generalization of Few-Shot Models with Synthetic Data](../../ICML2025/others/provably_improving_generalization_of_few-shot_models_with_synthetic_data.md)
 - [\[ACL 2025\] Theorem Prover as a Judge for Synthetic Data Generation](theorem_prover_as_a_judge_for_synthetic_data_generation.md)
 - [\[ACL 2025\] TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data](targa_targeted_synthetic_data_generation_for_practical_reasoning_over_structured.md)
 - [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
-- [\[ACL 2025\] Causal Estimation of Tokenisation Bias](causal_tokenisation_bias.md)
 
 <!-- RELATED:END -->

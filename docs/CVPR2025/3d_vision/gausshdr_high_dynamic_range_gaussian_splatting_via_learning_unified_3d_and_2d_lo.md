@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.10143](https://arxiv.org/abs/2503.10143)  
-**代码**: https://liujf1226.github.io/GaussHDR (项目页)  
+**代码**: [https://liujf1226.github.io/GaussHDR](https://liujf1226.github.io/GaussHDR) (项目页)  
 **领域**: 3D视觉  
 **关键词**: HDR新视角合成, 高斯溅射, 色调映射, 不确定性学习, 局部色调映射
 

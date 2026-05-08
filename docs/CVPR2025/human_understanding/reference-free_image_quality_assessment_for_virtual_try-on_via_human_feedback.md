@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13057](https://arxiv.org/abs/2603.13057)  
 **代码**: [GitHub](https://github.com/litelightlite/VTON-IQA)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: virtual try-on, image quality assessment, human feedback, cross-attention, benchmark
 
 ## 一句话总结
@@ -124,9 +124,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] VTON 360: High-Fidelity Virtual Try-On from Any Viewing Direction](vton_360_high-fidelity_virtual_try-on_from_any_viewing_direction.md)
+- [\[CVPR 2025\] UNOPose: Unseen Object Pose Estimation with an Unposed RGB-D Reference Image](unopose_unseen_object_pose_estimation_with_an_unposed_rgb-d_reference_image.md)
 - [\[CVPR 2025\] X-Dyna: Expressive Dynamic Human Image Animation](x-dyna_expressive_dynamic_human_image_animation.md)
 - [\[CVPR 2025\] FreeCloth: Free-Form Generation Enhances Challenging Clothed Human Modeling](freecloth_free-form_generation_enhances_challenging_clothed_human_modeling.md)
 - [\[CVPR 2025\] NBAvatar: Neural Billboards Avatars with Realistic Hand-Face Interaction](nbavatar_neural_billboards_avatars_with_realistic_hand-face_interaction.md)
-- [\[CVPR 2025\] Team RAS in 10th ABAW Competition: Multimodal Valence and Arousal Estimation Approach](team_ras_in_10th_abaw_competition_multimodal_valence_and_arousal_estimation_appr.md)
 
 <!-- RELATED:END -->

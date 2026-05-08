@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.20941](https://arxiv.org/abs/2505.20941)  
-**代码**: https://github.com/zyh16143998882/PMA  
+**代码**: [https://github.com/zyh16143998882/PMA](https://github.com/zyh16143998882/PMA)  
 **领域**: 3D视觉  
 **关键词**: 点云理解, 参数高效微调, Mamba, 中间层特征融合, 状态空间模型
 

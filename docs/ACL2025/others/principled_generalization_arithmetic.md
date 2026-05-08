@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - Transformer
-  - 算术推理
+  - 其他
   - 长度泛化
   - 位置编码
   - 理论分析
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2407.17963](https://arxiv.org/abs/2407.17963)  
 **代码**: [https://github.com/xingchengxu/ArithmeticLLM](https://github.com/xingchengxu/ArithmeticLLM)  
-**领域**: 文本生成  
+**领域**: 其他  
 **关键词**: Transformer泛化, 算术推理, 长度泛化, 位置编码, 理论分析  
 
 ## 一句话总结
@@ -128,9 +128,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Measuring the Effect of Transcription Noise on Downstream Language Understanding Tasks](measuring_the_effect_of_transcription_noise_on_downstream_language_understanding.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
-- [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
 - [\[ACL 2025\] Implicit Reasoning in Transformers is Reasoning through Shortcuts](implicit_reasoning_in_transformers_is_reasoning_through_shortcuts.md)
+- [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
 - [\[ACL 2025\] AmbiK: Dataset of Ambiguous Tasks in Kitchen Environment](ambik_dataset_of_ambiguous_tasks_in_kitchen_environment.md)
+- [\[ACL 2025\] DeepRTL2: A Versatile Model for RTL-Related Tasks](deeprtl2_a_versatile_model_for_rtl-related_tasks.md)
 
 <!-- RELATED:END -->

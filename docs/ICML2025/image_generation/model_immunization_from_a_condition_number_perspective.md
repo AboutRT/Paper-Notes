@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.23760](https://arxiv.org/abs/2505.23760)  
 **代码**: [amberyzheng/model-immunization-cond-num](https://github.com/amberyzheng/model-immunization-cond-num)  
-**领域**: AI安全 / 模型鲁棒性  
+**领域**: 图像生成  
 **关键词**: 模型免疫, 条件数, Hessian矩阵, 正则化, 迁移学习
 
 ## 一句话总结

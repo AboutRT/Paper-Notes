@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.19041](https://arxiv.org/abs/2502.19041)  
-**代码**: https://github.com/ShiyuXiang77/EDDF  
+**代码**: [https://github.com/ShiyuXiang77/EDDF](https://github.com/ShiyuXiang77/EDDF)  
 **领域**: LLM对齐 / AI安全  
 **关键词**: 越狱防御, 攻击本质, 向量检索, 输入过滤, 即插即用
 

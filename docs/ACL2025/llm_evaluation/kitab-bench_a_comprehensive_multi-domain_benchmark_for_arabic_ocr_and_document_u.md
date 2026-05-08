@@ -8,7 +8,7 @@ tags:
   - OCR
   - 文档理解
   - benchmark
-  - 视觉语言模型
+  - LLM评测
   - 多领域评测
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.14949](https://arxiv.org/abs/2502.14949)  
 **代码**: [有](https://mbzuai-oryx.github.io/KITAB-Bench/)  
-**领域**: NLP / 文档理解 / OCR  
+**领域**: LLM评测  
 **关键词**: 阿拉伯语OCR, 文档理解, benchmark, 视觉语言模型, 多领域评测
 
 ## 一句话总结
@@ -156,10 +156,10 @@ KITAB-Bench 包含三大核心组成：（1）多来源数据收集策略；（2
 
 ## 相关论文
 
-- [\[ECCV 2024\] VisFocus: Prompt-Guided Vision Encoders for OCR-Free Dense Document Understanding](../../ECCV2024/llm_evaluation/visfocus_prompt-guided_vision_encoders_for_ocr-free_dense_document_understanding.md)
+- [\[ECCV 2024\] VisFocus: Prompt-Guided Vision Encoders for OCR-Free Dense Document Understanding](../../ECCV2024/llm_evaluation/visfocus_promptguided_vision_encoders_for_ocrfree_dense.md)
 - [\[ACL 2025\] PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning](physreason_a_comprehensive_benchmark_towards_physics-based_reasoning.md)
-- [\[ACL 2025\] READoc: A Unified Benchmark for Realistic Document Structured Extraction](readoc_a_unified_benchmark_for_realistic_document_structured_extraction.md)
 - [\[ACL 2025\] MDBench: A Synthetic Multi-Document Reasoning Benchmark Generated with Knowledge Guidance](mdbench_a_synthetic_multi-document_reasoning_benchmark_generated_with_knowledge_.md)
-- [\[ACL 2025\] MMLU-CF: A Contamination-free Multi-task Language Understanding Benchmark](mmlu-cf_a_contamination-free_multi-task_language_understanding_benchmark.md)
+- [\[NeurIPS 2025\] RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases](../../NeurIPS2025/llm_evaluation/rdb2g-bench_a_comprehensive_benchmark_for_automatic_graph_modeling_of_relational.md)
+- [\[ACL 2025\] StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following](structflowbench_a_structured_flow_benchmark_for_multi-turn_instruction_following.md)
 
 <!-- RELATED:END -->

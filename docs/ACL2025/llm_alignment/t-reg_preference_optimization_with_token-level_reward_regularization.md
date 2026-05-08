@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.02685](https://arxiv.org/abs/2412.02685)  
-**代码**: https://github.com/wzhouad/T-REG  
+**代码**: [https://github.com/wzhouad/T-REG](https://github.com/wzhouad/T-REG)  
 **领域**: 对齐RLHF  
 **关键词**: 偏好优化, token级奖励, 信用分配, DPO正则化, 对比提示
 

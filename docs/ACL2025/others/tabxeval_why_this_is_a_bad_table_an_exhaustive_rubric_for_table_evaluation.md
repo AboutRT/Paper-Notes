@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation
 description: >-
-  [ACL 2025][表格评估] TabXEval 提出了一个基于 rubric（评分细则）的两阶段表格评估框架——先通过 TabAlign 进行结构对齐，再通过 TabCompare 进行语义和语法细粒度比较，并配套发布了多领域基准 TabXBench。
+  [ACL 2025][其他] TabXEval 提出了一个基于 rubric（评分细则）的两阶段表格评估框架——先通过 TabAlign 进行结构对齐，再通过 TabCompare 进行语义和语法细粒度比较，并配套发布了多领域基准 TabXBench。
 tags:
   - ACL 2025
-  - 表格评估
+  - 其他
   - rubric
   - 结构对齐
   - 语义比较
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.22176](https://arxiv.org/abs/2505.22176)  
-**代码**: 有 (https://coral-lab-asu.github.io/tabxeval/)  
-**领域**: NLP / 表格评估  
+**代码**: 有 ([https://coral-lab-asu.github.io/tabxeval/](https://coral-lab-asu.github.io/tabxeval/))  
+**领域**: 其他  
 **关键词**: 表格评估, rubric-based评估, 结构对齐, 语义比较, benchmark
 
 ## 一句话总结
@@ -141,7 +141,7 @@ TabXEval 是一个两阶段评估框架：
 
 **会议**: ACL 2025  
 **arXiv**: [2505.22176](https://arxiv.org/abs/2505.22176)  
-**代码**: 有 (https://coral-lab-asu.github.io/tabxeval/)  
+**代码**: 有 ([https://coral-lab-asu.github.io/tabxeval/](https://coral-lab-asu.github.io/tabxeval/))  
 **领域**: NLP / 表格评估  
 **关键词**: 表格评估, rubric, 结构对齐, 语义比较, LLM-as-Judge
 
@@ -259,9 +259,9 @@ TabXEval 是一个两阶段框架：
 ## 相关论文
 
 - [\[ACL 2025\] Map&Make: Schema Guided Text to Table Generation](mapmake_schema_guided_text_to_table_generation.md)
-- [\[CVPR 2025\] LATTE-MV: Learning to Anticipate Table Tennis Hits from Monocular Videos](../../CVPR2025/others/latte-mv_learning_to_anticipate_table_tennis_hits_from_monocular_videos.md)
 - [\[ACL 2025\] Rubrik's Cube: Testing a New Rubric for Evaluating Explanations on the CUBE Dataset](rubriks_cube_testing_a_new_rubric_for_evaluating_explanations_on_the_cube_datase.md)
+- [\[CVPR 2025\] LATTE-MV: Learning to Anticipate Table Tennis Hits from Monocular Videos](../../CVPR2025/others/latte-mv_learning_to_anticipate_table_tennis_hits_from_monocular_videos.md)
 - [\[ACL 2025\] Identifying Reliable Evaluation Metrics for Scientific Text Revision](reliable_eval_metrics_scientific.md)
-- [\[ACL 2025\] DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing](dress_dataset_rubric_based_essay_scoring_efl_writing.md)
+- [\[ACL 2025\] Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? Revisiting a Petroglyph](why_are_positional_encodings_nonessential_for_deep_autoregressive_transformers_r.md)
 
 <!-- RELATED:END -->

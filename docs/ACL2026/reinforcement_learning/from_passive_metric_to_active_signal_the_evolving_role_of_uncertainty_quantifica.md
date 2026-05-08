@@ -2,10 +2,10 @@
 title: >-
   [论文解读] From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models
 description: >-
-  [ACL 2026][不确定性量化] 本文系统综述了 LLM 中不确定性量化从"被动诊断指标"到"主动控制信号"的功能演化，覆盖三大前沿领域：高级推理（引导计算分配和自我纠正）、自主代理（驱动工具使用和信息获取的元认知决策）、以及强化学习（缓解奖励黑客并通过内在奖励实现自我改进）。
+  [ACL 2026][强化学习] 本文系统综述了 LLM 中不确定性量化从"被动诊断指标"到"主动控制信号"的功能演化，覆盖三大前沿领域：高级推理（引导计算分配和自我纠正）、自主代理（驱动工具使用和信息获取的元认知决策）、以及强化学习（缓解奖励黑客并通过内在奖励实现自我改进）。
 tags:
   - ACL 2026
-  - 不确定性量化
+  - 强化学习
   - 主动控制信号
   - 推理优化
   - 自主代理
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.15690](https://arxiv.org/abs/2601.15690)  
 **代码**: 无  
-**领域**: LLM 可靠性 / 不确定性量化  
+**领域**: 强化学习  
 **关键词**: 不确定性量化, 主动控制信号, 推理优化, 自主代理, 奖励建模
 
 ## 一句话总结
@@ -129,6 +129,6 @@ tags:
 - [\[ACL 2026\] Table Question Answering in the Era of Large Language Models: A Comprehensive Survey](table_question_answering_in_the_era_of_large_language_models_a_comprehensive_sur.md)
 - [\[ACL 2026\] Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](feedback-driven_tool-use_improvements_in_large_language_models_via_automated_bui.md)
 - [\[ACL 2026\] A Survey of Reinforcement Learning for Large Language Models under Data Scarcity: Challenges and Solutions](a_survey_of_reinforcement_learning_for_large_language_models_under_data_scarcity.md)
-- [\[ICLR 2026\] SPELL: Self-Play Reinforcement Learning for Evolving Long-Context Language Models](../../ICLR2026/reinforcement_learning/spell_self-play_reinforcement_learning_for_evolving_long-context_language_models.md)
+- [\[ICLR 2026\] VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models](../../ICLR2026/reinforcement_learning/verifybench_benchmarking_reference-based_reward_systems_for_large_language_model.md)
 
 <!-- RELATED:END -->

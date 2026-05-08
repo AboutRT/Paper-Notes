@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.06857v2](https://arxiv.org/abs/2511.06857v2)  
-**代码**: [https://github.com/PerceptionComputingLab/ATFM](https://github.com/PerceptionComputingLab/ATFM) (有)  
-**领域**: medical_imaging  
+**代码**: [https://github.com/PerceptionComputingLab/ATFM](https://github.com/PerceptionComputingLab/ATFM)  
+**领域**: 医学图像  
 **关键词**: 模糊医学图像分割, 截断扩散模型, Flow Matching, 高斯截断表示, 语义一致性  
 
 ## 一句话总结

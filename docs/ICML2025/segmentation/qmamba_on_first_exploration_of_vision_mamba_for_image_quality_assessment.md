@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2406.09546](https://arxiv.org/abs/2406.09546)  
 **代码**: [GitHub](https://github.com/bingo-G/QMamba)  
-**领域**: 图像质量评估 (IQA)  
+**领域**: 图像分割  
 **关键词**: State Space Model, Mamba, 图像质量评估, transfer learning, prompt tuning
 
 ## 一句话总结

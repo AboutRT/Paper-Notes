@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.19842](https://arxiv.org/abs/2502.19842)  
-**代码**: https://clip-oscope.github.io/  
+**代码**: [https://clip-oscope.github.io/](https://clip-oscope.github.io/)  
 **领域**: 图像生成  
 **关键词**: CLIP偏差分析、多目标表征、文本编码器偏差、对比学习、ComCO数据集
 

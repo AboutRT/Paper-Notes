@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.22492](https://arxiv.org/abs/2505.22492)  
 **代码**: 无  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: off-policy evaluation, importance sampling, behavior policy estimation, history-dependent, bias-variance trade-off
 
 ## 一句话总结
@@ -128,10 +128,10 @@ $$h^* = \arg\min_h \left[2n\hat{\text{Var}}(h) - h\log(n)\right]$$
 
 ## 相关论文
 
+- [\[ICML 2025\] Log-Sum-Exponential Estimator for Off-Policy Evaluation and Learning](log-sum-exponential_estimator_for_off-policy_evaluation_and_learning.md)
 - [\[ICLR 2026\] A Unifying View of Coverage in Linear Off-Policy Evaluation](../../ICLR2026/reinforcement_learning/a_unifying_view_of_coverage_in_linear_off-policy_evaluation.md)
 - [\[ICML 2025\] Wasserstein Policy Optimization](wasserstein_policy_optimization.md)
 - [\[NeurIPS 2025\] Bootstrap Off-policy with World Model](../../NeurIPS2025/reinforcement_learning/boundary-to-region_supervision_for_offline_safe_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Bootstrap Off-policy with World Model (BOOM)](../../NeurIPS2025/reinforcement_learning/bootstrap_off-policy_with_world_model.md)
-- [\[ICML 2025\] Extreme Value Policy Optimization for Safe Reinforcement Learning](extreme_value_policy_optimization_for_safe_reinforcement_learning.md)
 
 <!-- RELATED:END -->

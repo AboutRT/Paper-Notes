@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2402.02870](https://arxiv.org/abs/2402.02870)  
 **代码**: 无（Position Paper，无代码实现）  
-**领域**: others / 可解释性 / XAI  
+**领域**: 可解释性  
 **关键词**: Explainable ML, Applied Statistics, Post-hoc Explanations, SHAP, Interpretation
 
 ## 一句话总结
@@ -175,8 +175,8 @@ tags:
 
 - [\[ICLR 2026\] When Machine Learning Gets Personal: Evaluating Prediction and Explanation](../../ICLR2026/interpretability/when_machine_learning_gets_personal_evaluating_prediction_and_explanation.md)
 - [\[AAAI 2026\] Explainable Melanoma Diagnosis with Contrastive Learning and LLM-based Report Generation](../../AAAI2026/interpretability/explainable_melanoma_diagnosis_with_contrastive_learning_and_llm-based_report_ge.md)
+- [\[CVPR 2026\] Rethinking Concept Bottleneck Models: From Pitfalls to Solutions](../../CVPR2026/interpretability/rethinking_concept_bottleneck_models_from_pitfalls_to_solutions.md)
+- [\[NeurIPS 2025\] Dynamic Features Adaptation in Networking: Toward Flexible Training and Explainable Inference](../../NeurIPS2025/interpretability/dynamic_features_adaptation_in_networking_toward_flexible_training_and_explainab.md)
 - [\[NeurIPS 2025\] SpEx: A Spectral Approach to Explainable Clustering](../../NeurIPS2025/interpretability/spex_a_spectral_approach_to_explainable_clustering.md)
-- [\[ICML 2025\] On the Power of Context-Enhanced Learning in LLMs](on_the_power_of_context-enhanced_learning_in_llms.md)
-- [\[ACL 2025\] The Anatomy of Evidence: An Investigation Into Explainable ICD Coding](../../ACL2025/interpretability/the_anatomy_of_evidence_an_investigation_into_explainable_icd_coding.md)
 
 <!-- RELATED:END -->

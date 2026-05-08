@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2506.22095](https://arxiv.org/abs/2506.22095)  
-**代码**: https://github.com/filiprydin/GMS  
+**代码**: [https://github.com/filiprydin/GMS](https://github.com/filiprydin/GMS)  
 **领域**: 组合优化 / 图神经网络 / 车辆路径规划  
 **关键词**: 多目标路由, 多重图, 图神经网络, 自回归构造, Pareto优化
 

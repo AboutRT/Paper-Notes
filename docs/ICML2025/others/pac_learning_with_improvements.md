@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2503.03184](https://arxiv.org/abs/2503.03184)  
-**代码**: https://github.com/idanattias/PAC-Learning-with-Improvements  
+**代码**: [https://github.com/idanattias/PAC-Learning-with-Improvements](https://github.com/idanattias/PAC-Learning-with-Improvements)  
 **领域**: 学习理论  
 **关键词**: PAC learning, strategic improvement, sample complexity, VC dimension, intersection-closed, zero-error
 
@@ -130,6 +130,6 @@ tags:
 - [\[ICML 2025\] Learning-Augmented Hierarchical Clustering](learning-augmented_hierarchical_clustering.md)
 - [\[ICML 2025\] Learning Distances from Data with Normalizing Flows and Score Matching](learning_distances_from_data_with_normalizing_flows_and_score_matching.md)
 - [\[ICML 2025\] AutoAL: Automated Active Learning with Differentiable Query Strategy Search](autoal_automated_active_learning_with_differentiable_query_strategy_search.md)
-- [\[ICML 2025\] SUICA: Learning Super-high Dimensional Sparse Implicit Neural Representations for Spatial Transcriptomics](suica_learning_super-high_dimensional_sparse_implicit_neural_representations_for.md)
+- [\[ICML 2025\] Truly Self-Improving Agents Require Intrinsic Metacognitive Learning](truly_self-improving_agents_require_intrinsic_metacognitive_learning.md)
 
 <!-- RELATED:END -->

@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.21846](https://arxiv.org/abs/2511.21846)  
-**代码**: https://github.com/amitjena1992/LILAD  
-**领域**: 优化/理论 / 系统辨识  
+**代码**: [https://github.com/amitjena1992/LILAD](https://github.com/amitjena1992/LILAD)  
+**领域**: 其他  
 **关键词**: Lyapunov稳定性, 上下文学习, 自适应系统辨识, 非平稳动力学, GPT-2
 
 ## 一句话总结
@@ -127,9 +127,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Deviation Dynamics in Cardinal Hedonic Games](deviation_dynamics_in_cardinal_hedonic_games.md)
-- [\[AAAI 2026\] A Phase Transition for Opinion Dynamics with Competing Biases](a_phase_transition_for_opinion_dynamics_with_competing_biase.md)
-- [\[ICLR 2026\] LPWM: Latent Particle World Models for Object-Centric Stochastic Dynamics](../../ICLR2026/others/latent_particle_world_models_self-supervised_object-centric_stochastic_dynamics_.md)
 - [\[ICLR 2026\] In-Context Algebra](../../ICLR2026/others/in-context_algebra.md)
-- [\[AAAI 2026\] Beyond World Models: Rethinking Understanding in AI Models](beyond_world_models_rethinking_understanding_in_ai_models.md)
+- [\[AAAI 2026\] A Phase Transition for Opinion Dynamics with Competing Biases](a_phase_transition_for_opinion_dynamics_with_competing_biase.md)
+- [\[NeurIPS 2025\] Stable Matching with Ties: Approximation Ratios and Learning](../../NeurIPS2025/others/stable_matching_with_ties_approximation_ratios_and_learning.md)
+- [\[ICLR 2026\] LPWM: Latent Particle World Models for Object-Centric Stochastic Dynamics](../../ICLR2026/others/latent_particle_world_models_self-supervised_object-centric_stochastic_dynamics_.md)
 
 <!-- RELATED:END -->

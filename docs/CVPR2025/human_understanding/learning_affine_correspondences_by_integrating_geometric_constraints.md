@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2504.04834](https://arxiv.org/abs/2504.04834)  
 **代码**: [GitHub](https://github.com/stilcrad/DenseAffine)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: affine correspondence, dense matching, epipolar geometry, Sampson distance, pose estimation
 
 ## 一句话总结
@@ -158,10 +158,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Improve Representation for Imbalanced Regression through Geometric Constraints](improve_representation_for_imbalanced_regression_through_geometric_constraints.md)
 - [\[CVPR 2025\] RUBIK: A Structured Benchmark for Image Matching across Geometric Challenges](rubik_a_structured_benchmark_for_image_matching_across_geometric_challenges.md)
 - [\[CVPR 2025\] SemGeoMo: Dynamic Contextual Human Motion Generation with Semantic and Geometric Guidance](semgeomo_dynamic_contextual_human_motion_generation_with_semantic_and_geometric_.md)
-- [\[ICCV 2025\] HccePose(BF): Predicting Front & Back Surfaces to Construct Ultra-Dense 2D-3D Correspondences for Pose Estimation](../../ICCV2025/human_understanding/hcceposebf_predicting_front_back_surfaces_to_construct_ultra-dense_2d-3d_corresp.md)
 - [\[CVPR 2025\] WildAvatar: Learning In-the-Wild 3D Avatars from the Web](wildavatar_learning_in-the-wild_3d_avatars_from_the_web.md)
+- [\[CVPR 2025\] Probabilistic Prompt Distribution Learning for Animal Pose Estimation](probabilistic_prompt_distribution_learning_for_animal_pose_estimation.md)
+- [\[CVPR 2025\] Structure-Aware Correspondence Learning for Relative Pose Estimation](structure-aware_correspondence_learning_for_relative_pose_estimation.md)
 
 <!-- RELATED:END -->

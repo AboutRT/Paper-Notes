@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.11077](https://arxiv.org/abs/2412.11077)  
-**代码**: https://github.com/Pter61/osrcir2024/  
-**领域**: 信息检索  
+**代码**: [https://github.com/Pter61/osrcir2024/](https://github.com/Pter61/osrcir2024/)  
+**领域**: LLM推理  
 **关键词**: 组合图像检索, 零样本, 链式推理, 多模态大模型, 免训练
 
 ## 一句话总结

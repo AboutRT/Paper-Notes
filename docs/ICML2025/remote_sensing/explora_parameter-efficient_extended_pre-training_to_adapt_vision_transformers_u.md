@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2406.10973](https://arxiv.org/abs/2406.10973)  
 **代码**: [https://samar-khanna.github.io/ExPLoRA/](https://samar-khanna.github.io/ExPLoRA/)  
-**领域**: remote_sensing  
+**领域**: 遥感  
 **关键词**: 参数高效微调, LoRA, 域迁移, 视觉基础模型, 遥感, 自监督预训练
 
 ## 一句话总结
@@ -128,7 +128,7 @@ ExPLoRA（M-[1,L]-r32）在仅 29.7M 预训练参数、320 GPU 小时下达到 6
 
 - [\[CVPR 2025\] Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning](../../CVPR2025/remote_sensing/meta-learning_hyperparameters_for_parameter_efficient_fine-tuning.md)
 - [\[NeurIPS 2025\] ChA-MAEViT: Unifying Channel-Aware Masked Autoencoders and Multi-Channel Vision Transformers for Improved Cross-Channel Learning](../../NeurIPS2025/remote_sensing/chamaevit_unifying_channelaware_masked_autoencoders_and_mult.md)
-- [\[ICCV 2025\] Towards a Unified Copernicus Foundation Model for Earth Vision](../../ICCV2025/remote_sensing/towards_a_unified_copernicus_foundation_model_for_earth_visi.md)
+- [\[ICCV 2025\] Towards a Unified Copernicus Foundation Model for Earth Vision](../../ICCV2025/remote_sensing/towards_a_unified_copernicus_foundation_model_for_earth_vision.md)
 - [\[ICCV 2025\] RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model](../../ICCV2025/remote_sensing/rs-vheat_heat_conduction_guided_efficient_remote_sensing_foundation_model.md)
 - [\[CVPR 2026\] AVION: Aerial Vision-Language Instruction from Offline Teacher to Prompt-Tuned Network](../../CVPR2026/remote_sensing/avion_aerial_vision-language_instruction_from_offline_teacher_to_prompt-tuned_ne.md)
 

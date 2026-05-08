@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.08730](https://arxiv.org/abs/2510.08730)  
 **代码**: [dill-lab/micro-benchmarking-reliability](https://github.com/dill-lab/micro-benchmarking-reliability)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: micro-benchmarking, evaluation reliability, MDAD, pairwise ranking, random sampling, MMLU-Pro, BIG-bench Hard  
 
 ## 一句话总结
@@ -159,6 +159,6 @@ MDAD 越低越好：MDAD = 2 意味着该 micro-benchmark 能可靠区分完整 
 - [\[AAAI 2026\] Lost in Benchmarks? Rethinking Large Language Model Benchmarking with Item Response Theory](../../AAAI2026/llm_evaluation/lost_in_benchmarks_rethinking_large_language_model_benchmarking_with_item_respon.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Model Task Adaptation](prompt_and_parameter_co-optimization_for_large_language_model_task_adaptation.md)
 - [\[ACL 2026\] Language Model as Planner and Formalizer under Constraints](../../ACL2026/llm_evaluation/language_model_as_planner_and_formalizer_under_constraints.md)
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](../../NeurIPS2025/llm_evaluation/bayesian_evaluation_of_large_language_model_behavior.md)
+- [\[ICML 2025\] Communicating Activations Between Language Model Agents](../../ICML2025/llm_evaluation/communicating_activations_between_language_model_agents.md)
 
 <!-- RELATED:END -->

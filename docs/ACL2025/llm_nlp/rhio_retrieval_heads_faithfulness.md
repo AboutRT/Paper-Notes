@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.13573](https://arxiv.org/abs/2501.13573)  
-**代码**: https://github.com/LuckyyySTA/faithful-LFQA  
+**代码**: [https://github.com/LuckyyySTA/faithful-LFQA](https://github.com/LuckyyySTA/faithful-LFQA)  
 **领域**: LLM NLP  
 **关键词**: 上下文忠实性, 检索头, 长篇问答, 幻觉缓解, 对比解码
 

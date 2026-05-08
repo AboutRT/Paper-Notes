@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2407.19259](https://arxiv.org/abs/2407.19259)  
 **代码**: [Zhuzi24/SBG](https://github.com/Zhuzi24/SBG)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: Scene Graph Generation, Long-Tailed Distribution, Bias Correction, GAN, Fine-Grained Relationships
 
 ## 一句话总结

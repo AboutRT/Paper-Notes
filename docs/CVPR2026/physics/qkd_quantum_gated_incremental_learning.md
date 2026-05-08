@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 类增量学习
   - 量子计算
-  - 知识蒸馏
+  - 物理学
   - 预训练模型
   - 适配器
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.11112](https://arxiv.org/abs/2604.11112)  
-**代码**: https://github.com/Frank-lilinjie/CVPR26-QKD  
-**领域**: 自监督/增量学习  
+**代码**: [https://github.com/Frank-lilinjie/CVPR26-QKD](https://github.com/Frank-lilinjie/CVPR26-QKD)  
+**领域**: 物理学  
 **关键词**: 类增量学习, 量子计算, 知识蒸馏, 预训练模型, 适配器
 
 ## 一句话总结
@@ -114,6 +114,6 @@ QKD 将量子门控引入类增量学习，通过参数化量子电路在高维 
 - [\[NeurIPS 2025\] Simulation-Based Inference for Neutrino Interaction Model Parameter Tuning](../../NeurIPS2025/physics/simulation-based_inference_for_neutrino_interaction_model_parameter_tuning.md)
 - [\[ICML 2025\] Rethink the Role of Deep Learning towards Large-scale Quantum Systems](../../ICML2025/physics/rethink_the_role_of_deep_learning_towards_large-scale_quantum_systems.md)
 - [\[ICLR 2026\] Sublinear Time Quantum Algorithm for Attention Approximation](../../ICLR2026/physics/sublinear_time_quantum_algorithm_for_attention_approximation.md)
-- [\[NeurIPS 2025\] Transfer Learning Beyond the Standard Model](../../NeurIPS2025/physics/transfer_learning_beyond_the_standard_model.md)
+- [\[AAAI 2026\] Data Verification is the Future of Quantum Computing Copilots](../../AAAI2026/physics/data_verification_is_the_future_of_quantum_computing_copilots.md)
 
 <!-- RELATED:END -->

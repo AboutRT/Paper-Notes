@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2306.12968](https://arxiv.org/abs/2306.12968)  
 **代码**: 无  
-**领域**: 社区检测 / 图聚类理论  
+**领域**: 其他  
 **关键词**: 标签随机块模型, 实例最优, 谱聚类, 极大似然改进, 信息论下界
 
 ## 一句话总结
@@ -144,6 +144,6 @@ IAC 无需训练。在似然改进阶段使用经验估计的标签概率 $\hat{
 - [\[ICML 2025\] Revisiting the Predictability of Performative, Social Events](revisiting_the_predictability_of_performative_social_events.md)
 - [\[CVPR 2026\] Mitigating Instance Entanglement in Instance-Dependent Partial Label Learning](../../CVPR2026/others/mitigating_instance_entanglement_in_instance-dependent_partial_label_learning.md)
 - [\[NeurIPS 2025\] Revisiting Agnostic Boosting](../../NeurIPS2025/others/revisiting_agnostic_boosting.md)
-- [\[ICML 2025\] Hierarchical Refinement: Optimal Transport to Infinity and Beyond](hierarchical_refinement_optimal_transport_to_infinity_and_beyond.md)
+- [\[NeurIPS 2025\] Ultrametric Cluster Hierarchies: I Want 'em All!](../../NeurIPS2025/others/ultrametric_cluster_hierarchies_i_want_em_all.md)
 
 <!-- RELATED:END -->

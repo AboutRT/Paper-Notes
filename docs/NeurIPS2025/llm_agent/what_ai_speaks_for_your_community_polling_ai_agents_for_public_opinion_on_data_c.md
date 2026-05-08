@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.22037](https://arxiv.org/abs/2511.22037)  
 **代码**: 无  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: AI agent polling, public opinion, data center, LLM simulation, community engagement  
 
 ## 一句话总结

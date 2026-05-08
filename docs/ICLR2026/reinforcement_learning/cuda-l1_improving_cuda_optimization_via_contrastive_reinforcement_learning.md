@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning
 description: >-
-  [ICLR 2026][CUDA optimization] 提出 CUDA-L1，一个基于对比强化学习（Contrastive RL）的三阶段流水线框架，将初始 CUDA 能力较弱的 LLM 训练为高效的 CUDA 优化器，在 KernelBench 的 250 个 CUDA 内核上实现平均 3.12× 加速，峰值达 120×，并可跨 GPU 架构迁移。
+  [ICLR 2026][强化学习] 提出 CUDA-L1，一个基于对比强化学习（Contrastive RL）的三阶段流水线框架，将初始 CUDA 能力较弱的 LLM 训练为高效的 CUDA 优化器，在 KernelBench 的 250 个 CUDA 内核上实现平均 3.12× 加速，峰值达 120×，并可跨 GPU 架构迁移。
 tags:
   - ICLR 2026
-  - CUDA optimization
+  - 强化学习
   - 强化学习
   - LLM
   - code generation
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2507.14111](https://arxiv.org/abs/2507.14111)  
 **代码**: [GitHub](https://github.com/deepreinforce-ai/CUDA-L1)  
-**领域**: human_understanding / LLM 代码优化  
+**领域**: 强化学习  
 **关键词**: CUDA optimization, contrastive reinforcement learning, LLM, code generation, GPU efficiency
 
 ## 一句话总结
@@ -169,6 +169,6 @@ CUDA-L1 采用三阶段递进式训练策略：
 - [\[ICLR 2026\] Self-Improving Skill Learning for Robust Skill-based Meta-Reinforcement Learning](self-improving_skill_learning_for_robust_skill-based_meta-reinforcement_learning.md)
 - [\[ICLR 2026\] PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning](policyflow_policy_optimization_with_continuous_normalizing_flow_in_reinforcement.md)
 - [\[ACL 2026\] Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with Constraints](../../ACL2026/reinforcement_learning/deliberative_searcher_improving_llm_reliability_via_reinforcement_learning_with_.md)
-- [\[ICLR 2026\] ReMoT: Reinforcement Learning with Motion Contrast Triplets](remot_reinforcement_learning_with_motion_contrast_triplets.md)
+- [\[ICLR 2026\] AutoQD: Automatic Discovery of Diverse Behaviors with Quality-Diversity Optimization](autoqd_diverse_behaviors.md)
 
 <!-- RELATED:END -->

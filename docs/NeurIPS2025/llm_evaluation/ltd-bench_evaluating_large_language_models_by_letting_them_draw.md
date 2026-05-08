@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LTD-Bench: Evaluating Large Language Models by Letting Them Draw
 description: >-
-  [NeurIPS 2025][LLM评估] LTD-Bench 通过让 LLM 画画（生成点阵或代码绘图）来评估其空间推理能力，将抽象的评分指标转化为直观可视的输出，揭示了当前先进 LLM 在建立语言与空间概念双向映射方面的严重不足。
+  [NeurIPS 2025][LLM评测] LTD-Bench 通过让 LLM 画画（生成点阵或代码绘图）来评估其空间推理能力，将抽象的评分指标转化为直观可视的输出，揭示了当前先进 LLM 在建立语言与空间概念双向映射方面的严重不足。
 tags:
   - NeurIPS 2025
-  - LLM评估
+  - LLM评测
   - 空间推理
   - 视觉生成
   - benchmark
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.02347](https://arxiv.org/abs/2511.02347)  
 **代码**: [walktaster/LTD-Bench](https://github.com/walktaster/LTD-Bench)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: LLM评估, 空间推理, 视觉生成, benchmark, 绘图能力
 
 ## 一句话总结
@@ -157,8 +157,8 @@ LTD-Bench 包含 **183 个任务**，设计了三个核心原则：
 
 - [\[ACL 2025\] Batayan: A Filipino NLP Benchmark for Evaluating Large Language Models](../../ACL2025/llm_evaluation/batayan_a_filipino_nlp_benchmark_for_evaluating_large_language_models.md)
 - [\[NeurIPS 2025\] Creativity or Brute Force? Using Brainteasers as a Window into the Problem-Solving Abilities of Large Language Models](creativity_or_brute_force_using_brainteasers_as_a_window_into_the_problem-solvin.md)
-- [\[ACL 2025\] WXImpactBench: A Disruptive Weather Impact Understanding Benchmark for Evaluating Large Language Models](../../ACL2025/llm_evaluation/wximpactbench_a_disruptive_weather_impact_understanding_benchmark_for_evaluating.md)
-- [\[ACL 2025\] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science](../../ACL2025/llm_evaluation/seedbench_a_multi-task_benchmark_for_evaluating_large_language_models_in_seed_sc.md)
-- [\[ACL 2025\] PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory](../../ACL2025/llm_evaluation/papersplease_a_benchmark_for_evaluating_motivational_values_of_large_language_mo.md)
+- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](hyperbolic_fine-tuning_for_large_language_models.md)
+- [\[NeurIPS 2025\] Can Large Language Models Master Complex Card Games?](can_large_language_models_master_complex_card_games.md)
+- [\[NeurIPS 2025\] ConfTuner: Training Large Language Models to Express Their Confidence Verbally](conftuner_training_large_language_models_to_express_their_confidence_verbally.md)
 
 <!-- RELATED:END -->

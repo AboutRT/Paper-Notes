@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples
 description: >-
-  [CVPR 2026][异常检测] 针对工业异常检测中"正常"定义随规格变更而变化的实际问题，提出了两种新场景（A2N/N2A）、一个新评价指标（S-AUROC）和一种训练增强方法 RePaste，通过将高异常分数区域重新粘贴到训练图片中来增加其出现频率，使模型灵活适应正常样本定义的变化。
+  [CVPR 2026][其他] 针对工业异常检测中"正常"定义随规格变更而变化的实际问题，提出了两种新场景（A2N/N2A）、一个新评价指标（S-AUROC）和一种训练增强方法 RePaste，通过将高异常分数区域重新粘贴到训练图片中来增加其出现频率，使模型灵活适应正常样本定义的变化。
 tags:
   - CVPR 2026
-  - 异常检测
+  - 其他
   - 规格变更
   - 正常样本定义模糊
   - 伪异常
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.07097](https://arxiv.org/abs/2604.07097)  
-**代码**: https://github.com/ReijiSoftmaxSaito/Scenario  
-**领域**: 异常检测  
+**代码**: [https://github.com/ReijiSoftmaxSaito/Scenario](https://github.com/ReijiSoftmaxSaito/Scenario)  
+**领域**: 其他  
 **关键词**: 异常检测, 规格变更, 正常样本定义模糊, 伪异常, 工业缺陷检测
 
 ## 一句话总结
@@ -132,7 +132,7 @@ RePaste 纯粹是训练时数据增强，不修改模型架构和损失函数。
 - [\[CVPR 2026\] Integration of Deep Generative Anomaly Detection Algorithm in High-Speed Industrial Line](integration_of_deep_generative_anomaly_detection_algorithm_in_high-speed_industr.md)
 - [\[CVPR 2025\] AnomalyNCD: Towards Novel Anomaly Class Discovery in Industrial Scenarios](../../CVPR2025/others/anomalyncd_towards_novel_anomaly_class_discovery_in_industrial_scenarios.md)
 - [\[AAAI 2026\] RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection](../../AAAI2026/others/rcae_recursive_reconstruction_framework_for_unsupervised_industrial_anomaly_dete.md)
-- [\[CVPR 2026\] ELogitNorm: Enhancing OOD Detection with Extended Logit Normalization](enhancing_outofdistribution_detection_with_extende.md)
-- [\[CVPR 2025\] Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection](../../CVPR2025/others/distribution_prototype_diffusion_learning_for_open-set_supervised_anomaly_detect.md)
+- [\[NeurIPS 2025\] ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining](../../NeurIPS2025/others/adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md)
+- [\[AAAI 2026\] CASL: Curvature-Augmented Self-supervised Learning for 3D Anomaly Detection](../../AAAI2026/others/casl_curvature-augmented_self-supervised_learning_for_3d_anomaly_detection.md)
 
 <!-- RELATED:END -->

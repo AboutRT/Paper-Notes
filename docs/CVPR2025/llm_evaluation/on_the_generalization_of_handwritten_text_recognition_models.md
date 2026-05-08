@@ -8,7 +8,7 @@ tags:
   - 手写文本识别
   - 域泛化
   - 分布外泛化
-  - 跨语言
+  - LLM评测
   - 因子分析
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17332](https://arxiv.org/abs/2411.17332)  
-**代码**: https://github.com/carlos10garrido/HTR-OOD  
+**代码**: [https://github.com/carlos10garrido/HTR-OOD](https://github.com/carlos10garrido/HTR-OOD)  
 **领域**: OCR/文本识别  
 **关键词**: 手写文本识别, 域泛化, 分布外泛化, 跨语言, 因子分析
 
@@ -127,10 +127,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] SVTRv2: CTC Beats Encoder-Decoder Models in Scene Text Recognition](../../ICCV2025/llm_evaluation/svtrv2_ctc_beats_encoder-decoder_models_in_scene_text_recognition.md)
 - [\[CVPR 2025\] Gradient-Guided Annealing for Domain Generalization](gradient-guided_annealing_for_domain_generalization.md)
+- [\[ICCV 2025\] SVTRv2: CTC Beats Encoder-Decoder Models in Scene Text Recognition](../../ICCV2025/llm_evaluation/svtrv2_ctc_beats_encoder-decoder_models_in_scene_text_recognition.md)
 - [\[CVPR 2025\] Do ImageNet-trained Models Learn Shortcuts? The Impact of Frequency Shortcuts on Generalization](do_imagenet-trained_models_learn_shortcuts_the_impact_of_frequency_shortcuts_on_.md)
 - [\[CVPR 2025\] ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval](context-cir_learning_from_concepts_in_text_for_composed_image_retrieval.md)
-- [\[ICML 2025\] Set-Valued Predictions for Robust Domain Generalization](../../ICML2025/llm_evaluation/set_valued_predictions_for_robust_domain_generalization.md)
+- [\[CVPR 2025\] Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models](out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md)
 
 <!-- RELATED:END -->

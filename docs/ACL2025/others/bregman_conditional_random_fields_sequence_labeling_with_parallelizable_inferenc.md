@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00732](https://arxiv.org/abs/2506.00732)  
 **代码**: [GitHub](https://github.com/FilippoC/lightspeed-crf)  
-**领域**: NLP理解/结构化预测  
+**领域**: 其他  
 **关键词**: CRF, sequence labeling, Bregman projection, parallel inference, structured prediction
 
 ## 一句话总结
@@ -127,7 +127,7 @@ Bcrf 用 $B_Y(\mathbf{w}) = \max_{\mathbf{q} \in \text{conv}(Y)} \langle \mathbf
 - [\[ICML 2025\] DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers](../../ICML2025/others/dsp_dynamic_sequence_parallelism_for_multi-dimensional_transformers.md)
 - [\[ACL 2025\] FEAT: A Preference Feedback Dataset through a Cost-Effective Auto-Generation and Labeling Framework for English AI Tutoring](feat_a_preference_feedback_dataset_through_a_cost-effective_auto-generation_and_.md)
 - [\[NeurIPS 2025\] Kernel Conditional Tests from Learning-Theoretic Bounds](../../NeurIPS2025/others/kernel_conditional_tests_from_learning-theoretic_bounds.md)
-- [\[NeurIPS 2025\] Statistical Inference Under Performativity](../../NeurIPS2025/others/statistical_inference_under_performativity.md)
 - [\[ACL 2025\] HelpSteer3: Human-Annotated Feedback and Edit Data to Empower Inference-Time Scaling](helpsteer3_human-annotated_feedback_and_edit_data_to_empower_inference-time_scal.md)
+- [\[NeurIPS 2025\] Statistical Inference Under Performativity](../../NeurIPS2025/others/statistical_inference_under_performativity.md)
 
 <!-- RELATED:END -->

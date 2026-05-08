@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.02397](https://arxiv.org/abs/2504.02397)  
-**代码**: https://github.com/ (项目主页: http://cvlab.postech.ac.kr/research/AVIGATE)  
+**代码**: [https://github.com/](https://github.com/) (项目主页: [http://cvlab.postech.ac.kr/research/AVIGATE](http://cvlab.postech.ac.kr/research/AVIGATE))  
 **领域**: 视频理解 / 多模态  
 **关键词**: 视频-文本检索, 音频引导, 门控注意力, 对比学习, 多粒度对齐
 

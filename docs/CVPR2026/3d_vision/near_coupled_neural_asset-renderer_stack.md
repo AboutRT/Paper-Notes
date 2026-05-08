@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.18600](https://arxiv.org/abs/2511.18600)  
-**代码**: https://near-project.github.io/ (项目页)  
+**代码**: [https://near-project.github.io/](https://near-project.github.io/) (项目页)  
 **领域**: 3D视觉 / 扩散模型  
 **关键词**: 神经渲染, 光照均匀化, 3D高斯溅射, 可重光照, 资产-渲染器联合设计
 

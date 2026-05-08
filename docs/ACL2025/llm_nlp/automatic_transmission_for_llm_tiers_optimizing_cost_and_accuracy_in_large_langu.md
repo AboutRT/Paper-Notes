@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.20921](https://arxiv.org/abs/2505.20921)  
 **代码**: [GitHub](https://github.com/hyudsl/LLM-AT)  
-**领域**: LLM效率 / 模型路由  
+**领域**: LLM/NLP  
 **关键词**: LLM分层, 模型选择, 成本优化, 自动升级, 准确率估计, 无训练路由
 
 ## 一句话总结

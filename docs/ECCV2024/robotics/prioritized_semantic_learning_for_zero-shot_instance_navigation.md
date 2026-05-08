@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.11650](https://arxiv.org/abs/2403.11650)  
-**代码**: https://github.com/XinyuSun/PSL-InstanceNav (有)  
+**代码**: [https://github.com/XinyuSun/PSL-InstanceNav](https://github.com/XinyuSun/PSL-InstanceNav)  
 **领域**: 机器人（具身导航）  
 **关键词**: 零样本导航, 实例导航, 语义学习, CLIP, 具身智能
 
@@ -56,7 +56,7 @@ PSL方法由三部分组成：(1) PSL Agent架构——增加CLIP语义观测编
 
    核心思路：在ZSON基础上增加一个冻结的CLIP编码器提取语义级观测 $\mathbf{z}_S$，然后用一个MLP瓶颈层将目标嵌入 $\mathbf{z}_G$ 和语义观测 $\mathbf{z}_S$ 压缩为低维语义感知嵌入 $\mathbf{z}_{SP} \in \mathbb{R}^{C_2}$（$C_2 < 2 \times C_1$）。策略网络基于语义感知和观测嵌入做决策：
 
-   $$\mathbf{s}_t, \mathbf{h}_t = \pi_\theta(\mathbf{z}_{SP} \oplus \mathbf{z}_O \oplus \mathbf{a}_{t-1} | \mathbf{h}_{t-1})$$
+    $\mathbf{s}_t, \mathbf{h}_t = \pi_\theta(\mathbf{z}_{SP} \oplus \mathbf{z}_O \oplus \mathbf{a}_{t-1} | \mathbf{h}_{t-1})$
 
    使用PPO训练actor-critic网络，预测6种动作（前进、左转、右转、停止、抬头、低头）。
 
@@ -68,13 +68,13 @@ PSL方法由三部分组成：(1) PSL Agent架构——增加CLIP语义观测编
 
    **熵最小化目标视图选择**：对每个目标点旋转 $\Omega$ 次渲染不同视角图像，用CLIP对6个物体类别计算分类熵，选择熵最小的视图（即有明确主体物体的图像）作为目标：
 
-   $$\omega^* = \arg\min_{\omega \in \Omega} -\frac{1}{\log(|\mathcal{C}|)}\sum_{c \in \mathcal{C}} \mathbf{p}_c \log \mathbf{p}_c$$
+    $\omega^* = \arg\min_{\omega \in \Omega} -\frac{1}{\log(|\mathcal{C}|)}\sum_{c \in \mathcal{C}} \mathbf{p}_c \log \mathbf{p}_c$
 
    其中 $\mathbf{p}_c = \text{softmax}(\tau \cdot \frac{\mathbf{v}_\omega^T \mathbf{q}_c}{\|\mathbf{v}_\omega\|_2\|\mathbf{q}_c\|_2})$。
 
    **视角奖励放松**：在多个俯仰角和偏航角渲染额外图像后选择，并修改PPO奖励函数，仅鼓励Agent朝向目标的x-z平面方向，忽略pitch角度匹配：
 
-   $$R_t^{PSL} = \underbrace{\gamma^{suc}\mathbb{1}\{d_t < \epsilon^d\}}_{\text{到达位置}} + \underbrace{\gamma^{suc}\mathbb{1}\{d_t<\epsilon^d\}\mathbb{1}\{\text{extract}_Y(\mathbf{a}_t)<\epsilon^a\}}_{\text{朝向匹配}} + r_d + r_a - \gamma^{delay}$$
+    $R_t^{PSL} = \underbrace{\gamma^{suc}\mathbb{1}\{d_t < \epsilon^d\}}_{\text{到达位置}} + \underbrace{\gamma^{suc}\mathbb{1}\{d_t<\epsilon^d\}\mathbb{1}\{\text{extract}_Y(\mathbf{a}_t)<\epsilon^a\}}_{\text{朝向匹配}} + r_d + r_a - \gamma^{delay}$
 
    设计动机：原始数据中大量目标图像是墙壁、空房间等无意义场景，这些歧义目标加剧了语义忽视问题。放松奖励使Agent关注语义对应而非精确几何匹配。
 
@@ -84,7 +84,7 @@ PSL方法由三部分组成：(1) PSL Agent架构——增加CLIP语义观测编
 
    核心思路：训练时维护一个支持集 $\mathcal{V}$（约0.1M个多样化图像嵌入，两两相似度低于阈值 $\lambda=0.8$）。推理时，给定文本描述生成 $\mathbf{z}_T$，通过加权检索生成目标嵌入：
 
-   $$\mathbf{z}_R = \sum_{\mathbf{v}_i \in \mathcal{V}} \frac{\exp(g(\mathbf{z}_T, \mathbf{v}_i))}{\sum_{\mathbf{v}_j \in \mathcal{V}} \exp(g(\mathbf{z}_T, \mathbf{v}_j))} \ast \mathbf{v}_i$$
+    $\mathbf{z}_R = \sum_{\mathbf{v}_i \in \mathcal{V}} \frac{\exp(g(\mathbf{z}_T, \mathbf{v}_i))}{\sum_{\mathbf{v}_j \in \mathcal{V}} \exp(g(\mathbf{z}_T, \mathbf{v}_j))} \ast \mathbf{v}_i$
 
    设计动机：文本嵌入和图像嵌入存在模态间隙和粒度差异。用图像特征扩展文本查询，使推理时的目标嵌入粒度与训练时一致。
 
@@ -187,6 +187,6 @@ PSL方法由三部分组成：(1) PSL Agent架构——增加CLIP语义观测编
 - [\[ECCV 2024\] SemGrasp: Semantic Grasp Generation via Language Aligned Discretization](semgrasp_semantic_grasp_generation_via_language_aligned.md)
 - [\[ECCV 2024\] LLM as Copilot for Coarse-Grained Vision-and-Language Navigation](llm_as_copilot_for_coarse-grained_vision-and-language_navigation.md)
 - [\[ECCV 2024\] DISCO: Embodied Navigation and Interaction via Differentiable Scene Semantics and Dual-Level Control](disco_embodied_navigation_and_interaction.md)
-- [\[ECCV 2024\] An Economic Framework for 6-DoF Grasp Detection](an_economic_framework_for_6-dof_grasp_detection.md)
+- [\[ECCV 2024\] Learning Cross-Hand Policies of High-DOF Reaching and Grasping](learning_cross-hand_policies_of_high-dof_reaching_and_grasping.md)
 
 <!-- RELATED:END -->

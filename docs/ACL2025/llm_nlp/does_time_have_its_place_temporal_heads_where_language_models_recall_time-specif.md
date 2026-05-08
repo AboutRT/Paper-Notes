@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.14258](https://arxiv.org/abs/2502.14258)  
-**代码**: https://github.com/dmis-lab/TemporalHead (有)  
-**领域**: LLM可解释性  
+**代码**: [https://github.com/dmis-lab/TemporalHead](https://github.com/dmis-lab/TemporalHead)  
+**领域**: LLM/NLP  
 **关键词**: 时间头, 注意力头, 知识电路, EAP-IG, 时间知识编辑
 
 ## 一句话总结

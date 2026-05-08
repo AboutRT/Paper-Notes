@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2407.02779](https://arxiv.org/abs/2407.02779)  
 **代码**: 基于 OpenKE 框架实现  
-**领域**: LLM / NLP  
+**领域**: 图学习  
 **关键词**: knowledge graph embedding, croppable model, mutual learning, multi-dimensional, parameter sharing
 
 ## 一句话总结
@@ -163,6 +163,6 @@ Adam 优化器 + 线性学习率衰减，batch size 1024，每个正样本生成
 - [\[ACL 2025\] RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph](rscf_relationsemantics_consistent_filter_for_entity.md)
 - [\[ACL 2025\] Agent Steerable Search for Knowledge Graph Question Answering](agent_steerable_search_for_knowledge_graph_question_answering.md)
 - [\[ACL 2025\] Beyond Completion: A Foundation Model for General Knowledge Graph Reasoning](beyond_completion_a_foundation_model_for_general_knowledge_graph_reasoning.md)
-- [\[ACL 2025\] Predicate-Conditional Conformalized Answer Sets for Knowledge Graph Embeddings](predicate-conditional_conformalized_answer_sets_for_knowledge_graph_embeddings.md)
+- [\[ACL 2025\] Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation (K-RagRec)](kg_rag_recommendation.md)
 
 <!-- RELATED:END -->

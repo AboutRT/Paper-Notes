@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12918](https://arxiv.org/abs/2603.12918)  
 **代码**: 待确认  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: cross-view pose estimation, geo-localization, view-invariant representation, polar transformation, positional attention
 
 ## 一句话总结

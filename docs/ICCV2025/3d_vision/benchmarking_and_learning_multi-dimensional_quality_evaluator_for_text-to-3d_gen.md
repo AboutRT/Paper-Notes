@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.11170](https://arxiv.org/abs/2412.11170)  
-**代码**: https://mate-3d.github.io/  
+**代码**: [https://mate-3d.github.io/](https://mate-3d.github.io/)  
 **领域**: 3D Vision  
 **关键词**: 文本到3D生成, 质量评估, 多维度评价, 超网络, benchmark
 

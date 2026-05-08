@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2410.02197](https://arxiv.org/abs/2410.02197)  
-**代码**: https://github.com/general-preference/general-preference-model  
+**代码**: [https://github.com/general-preference/general-preference-model](https://github.com/general-preference/general-preference-model)  
 **领域**: 图像生成/LLM对齐  
 **关键词**: 偏好建模, Bradley-Terry, 偏好嵌入, 不可传递偏好, 奖励模型
 
@@ -149,6 +149,6 @@ RewardBench 基准（偏好模型评估）：
 - [\[ECCV 2024\] Stable Preference: Redefining Training Paradigm of Human Preference Model for Text-to-Image Synthesis](../../ECCV2024/image_generation/stable_preference_redefining_training_paradigm_of_human_preference_model_for_tex.md)
 - [\[ICCV 2025\] A0: An Affordance-Aware Hierarchical Model for General Robotic Manipulation](../../ICCV2025/image_generation/a0_an_affordance-aware_hierarchical_model_for_general_robotic_manipulation.md)
 - [\[NeurIPS 2025\] Continuous Diffusion Model for Language Modeling](../../NeurIPS2025/image_generation/continuous_diffusion_model_for_language_modeling.md)
-- [\[ICCV 2025\] Enhancing Reward Models for High-quality Image Generation: Beyond Text-Image Alignment](../../ICCV2025/image_generation/enhancing_reward_models_for_high-quality_image_generation_beyond_text-image_alig.md)
+- [\[ICML 2025\] GRAM: A Generative Foundation Reward Model for Reward Generalization](gram_a_generative_foundation_reward_model_for_reward_generalization.md)
 
 <!-- RELATED:END -->

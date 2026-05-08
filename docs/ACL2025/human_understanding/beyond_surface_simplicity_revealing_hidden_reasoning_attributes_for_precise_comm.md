@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 无  
 **代码**: 无  
-**领域**: 常识推理/人类理解  
+**领域**: 人体理解  
 **关键词**: 常识推理诊断、隐藏推理属性、推理难度分析、精确诊断、细粒度评估
 
 ## 一句话总结
@@ -118,10 +118,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2026\] Planning Beyond Text: Graph-based Reasoning for Complex Narrative Generation](../../ACL2026/human_understanding/planning_beyond_text_graph-based_reasoning_for_complex_narrative_generation.md)
-- [\[NeurIPS 2025\] Learning Skill-Attributes for Transferable Assessment in Video](../../NeurIPS2025/human_understanding/learning_skill-attributes_for_transferable_assessment_in_video.md)
-- [\[ICLR 2026\] SocialHarmBench: Revealing LLM Vulnerabilities to Socially Harmful Requests](../../ICLR2026/human_understanding/socialharmbench_revealing_llm_vulnerabilities_to_socially_harmful_requests.md)
-- [\[ICLR 2026\] Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates](../../ICLR2026/human_understanding/inference-time_backdoors_via_hidden_instructions_in_llm_chat_templates.md)
-- [\[NeurIPS 2025\] Preference-based Reinforcement Learning beyond Pairwise Comparisons: Benefits of Multiple Options](../../NeurIPS2025/human_understanding/preference-based_reinforcement_learning_beyond_pairwise_comparisons_benefits_of_.md)
+- [\[NeurIPS 2025\] Mechanistic Interpretability of RNNs Emulating Hidden Markov Models](../../NeurIPS2025/human_understanding/mechanistic_interpretability_of_rnns_emulating_hidden_markov_models.md)
+- [\[CVPR 2026\] 4DSurf: High-Fidelity Dynamic Scene Surface Reconstruction](../../CVPR2026/human_understanding/textit4dsurf_high-fidelity_dynamic_scene_surface_reconstruction.md)
+- [\[NeurIPS 2025\] K-DeCore: Facilitating Knowledge Transfer in Continual Structured Knowledge Reasoning](../../NeurIPS2025/human_understanding/k-decore_facilitating_knowledge_transfer_in_continual_structured_knowledge_reaso.md)
+- [\[CVPR 2025\] PoseBH: Prototypical Multi-Dataset Training Beyond Human Pose Estimation](../../CVPR2025/human_understanding/posebh_prototypical_multi-dataset_training_beyond_human_pose_estimation.md)
+- [\[NeurIPS 2025\] Foundation Cures Personalization: Improving Personalized Models' Prompt Consistency via Hidden Foundation Knowledge](../../NeurIPS2025/human_understanding/foundation_cures_personalization_improving_personalized_models_prompt_consistenc.md)
 
 <!-- RELATED:END -->

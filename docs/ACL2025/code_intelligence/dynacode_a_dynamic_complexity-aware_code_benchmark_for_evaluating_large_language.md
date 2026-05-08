@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 代码生成
-  - 动态评估
+  - 代码智能
   - 数据污染
   - 复杂度感知
   - 调用图
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.10452](https://arxiv.org/abs/2503.10452)  
-**代码**: https://github.com/HWH-2000/DynaCode (有)  
-**领域**: 文本生成  
+**代码**: [https://github.com/HWH-2000/DynaCode](https://github.com/HWH-2000/DynaCode)  
+**领域**: 代码智能  
 **关键词**: 代码生成, 动态评估, 数据污染, 复杂度感知, 调用图
 
 ## 一句话总结
@@ -136,9 +136,9 @@ DynaCode 构建分为四步：(1) 收集代码问题并按圈复杂度分类（C
 ## 相关论文
 
 - [\[ACL 2025\] TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs](texpert_a_multi-level_benchmark_for_evaluating_latex_code_generation_by_llms.md)
-- [\[ACL 2025\] FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](feabench_repo_code_gen.md)
 - [\[ACL 2025\] CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation](codeif_benchmarking_the_instruction-following_capabilities_of_large_language_mod.md)
-- [\[ACL 2025\] Personality-Guided Code Generation Using Large Language Models](personality_guided_code_gen.md)
+- [\[ACL 2025\] FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](feabench_repo_code_gen.md)
 - [\[ACL 2025\] CodeReviewQA: The Code Review Comprehension Assessment for Large Language Models](codereviewqa_the_code_review_comprehension_assessment_for_large_language_models.md)
+- [\[ACL 2025\] Personality-Guided Code Generation Using Large Language Models](personality_guided_code_gen.md)
 
 <!-- RELATED:END -->

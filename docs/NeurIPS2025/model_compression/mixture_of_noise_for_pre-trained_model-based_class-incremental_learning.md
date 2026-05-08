@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.16738](https://arxiv.org/abs/2509.16738)  
-**代码**: https://github.com/ASCIIJK/MiN-NeurIPS2025  
+**代码**: [https://github.com/ASCIIJK/MiN-NeurIPS2025](https://github.com/ASCIIJK/MiN-NeurIPS2025)  
 **领域**: 模型压缩 / 增量学习  
 **关键词**: 增量学习, 预训练模型, 参数漂移, 正向噪声, 灾难遗忘抑制
 

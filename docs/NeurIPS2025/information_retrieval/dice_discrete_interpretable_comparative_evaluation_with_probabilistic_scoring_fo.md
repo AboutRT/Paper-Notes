@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025 (ResponsibleFM Workshop)
   - RAG evaluation
-  - LLM-as-judge
+  - 信息检索
   - pairwise comparison
   - Swiss tournament
   - probabilistic scoring
@@ -114,7 +114,7 @@ DICE 框架包含：(1) Stage I 证据耦合深度分析——LLM 评审员对�
 - [\[NeurIPS 2025\] RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering](rag-igbench_innovative_evaluation_for_rag-based_interleaved_generation_in_open-d.md)
 - [\[ACL 2025\] GaRAGe: A Benchmark with Grounding Annotations for RAG Evaluation](../../ACL2025/information_retrieval/garage_a_benchmark_with_grounding_annotations_for_rag_evaluation.md)
 - [\[ACL 2025\] RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework](../../ACL2025/information_retrieval/rageval_scenario_specific_rag_evaluation_dataset_generation_framework.md)
-- [\[ACL 2025\] Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening](../../ACL2025/information_retrieval/llm_psychological_assessor.md)
-- [\[ACL 2025\] Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening through Psychometric Practice](../../ACL2025/information_retrieval/are_llms_effective_psychological_assessors_leveraging_adaptive_rag_for_interpret.md)
+- [\[ACL 2026\] Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring](../../ACL2026/information_retrieval/bayesian_active_learning_with_gaussian_processes_guided_by_llm_relevance_scoring.md)
+- [\[ACL 2025\] Unanswerability Evaluation for Retrieval Augmented Generation](../../ACL2025/information_retrieval/unanswerability_evaluation_for_retrieval_augmented_generation.md)
 
 <!-- RELATED:END -->

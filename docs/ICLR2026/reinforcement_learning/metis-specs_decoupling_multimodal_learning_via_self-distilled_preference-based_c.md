@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - Cold Start
-  - DPO
+  - 强化学习
   - 解耦学习
   - 自蒸馏
   - VLM推理
@@ -129,10 +129,10 @@ Stage 3 使用 GRPO，奖励函数 $R_{\text{total}} = R_{\text{format}} + R_{\t
 
 ## 相关论文
 
-- [\[ACL 2026\] Quality Over Clicks: Intrinsic Quality-Driven Iterative RL for Cold-Start E-Commerce Query Suggestion](../../ACL2026/reinforcement_learning/quality_over_clicks_intrinsic_quality-driven_iterative_reinforcement_learning_fo.md)
+- [\[ICLR 2026\] From Narrow to Panoramic Vision: Attention-Guided Cold-Start Reshapes Multimodal Reasoning](from_narrow_to_panoramic_vision_attention-guided_cold-start_reshapes_multimodal_.md)
 - [\[ICLR 2026\] Self-Harmony: Learning to Harmonize Self-Supervision and Self-Play in Test-Time Reinforcement Learning](self-harmony_learning_to_harmonize_self-supervision_and_self-play_in_test-time_r.md)
 - [\[ICLR 2026\] Spotlight on Token Perception for Multimodal Reinforcement Learning](spotlight_on_token_perception_for_multimodal_reinforcement_learning.md)
-- [\[ICLR 2026\] Self-Improving Skill Learning for Robust Skill-based Meta-Reinforcement Learning](self-improving_skill_learning_for_robust_skill-based_meta-reinforcement_learning.md)
-- [\[ICLR 2026\] PreferThinker: Reasoning-based Personalized Image Preference Assessment](preferthinker_reasoning-based_personalized_image_preference_assessment.md)
+- [\[ACL 2026\] Quality Over Clicks: Intrinsic Quality-Driven Iterative RL for Cold-Start E-Commerce Query Suggestion](../../ACL2026/reinforcement_learning/quality_over_clicks_intrinsic_quality-driven_iterative_reinforcement_learning_fo.md)
+- [\[ICLR 2026\] MARS-Sep: Multimodal-Aligned Reinforced Sound Separation](mars-sep_multimodal-aligned_reinforced_sound_separation.md)
 
 <!-- RELATED:END -->

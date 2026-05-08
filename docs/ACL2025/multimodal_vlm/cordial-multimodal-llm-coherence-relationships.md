@@ -10,14 +10,14 @@ tags:
   - 连贯关系
   - 图文关系
   - VLM评估
-  - 语用推理
+  - 多模态VLM
 ---
 
 # CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relationships?
 
 **会议**: ACL 2025  
 **arXiv**: [2502.11300](https://arxiv.org/abs/2502.11300)  
-**代码**: https://aashish2000.github.io/CORDIAL/  
+**代码**: [https://aashish2000.github.io/CORDIAL/](https://aashish2000.github.io/CORDIAL/)  
 **领域**: 多模态VLM  
 **关键词**: 多模态话语分析, 连贯关系, 图文关系, VLM评估, 语用推理
 
@@ -119,9 +119,9 @@ CORDIAL 包含三个话语域的数据集（灾害管理 DisRel、社交媒体 T
 ## 相关论文
 
 - [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relations?](cordial_can_multimodal_large_language_models_effectively_understand_coherence_re.md)
-- [\[ACL 2025\] Can Multimodal Large Language Models Understand Spatial Relations?](spatialmqa_mllm_spatial_relations.md)
 - [\[ACL 2025\] NegVQA: Can Vision Language Models Understand Negation?](negvqa_can_vision_language_models_understand_negation.md)
-- [\[ACL 2025\] Can Vision Language Models Understand Mimed Actions?](can_vision_language_models_understand_mimed_actions.md)
 - [\[ACL 2025\] Can MLLMs Understand the Deep Implication Behind Chinese Images?](can_mllms_understand_the_deep_implication_behind_chinese_images.md)
+- [\[ACL 2025\] Can Multimodal Large Language Models Understand Spatial Relations?](spatialmqa_mllm_spatial_relations.md)
+- [\[ACL 2025\] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](mmmupro_a_more_robust_multidiscipline_multimodal.md)
 
 <!-- RELATED:END -->

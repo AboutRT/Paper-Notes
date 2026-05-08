@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2506.04764](https://arxiv.org/abs/2506.04764)  
-**代码**: https://suhan-woo.github.io/HypeVPR/ (Project Page)  
+**代码**: [https://suhan-woo.github.io/HypeVPR/](https://suhan-woo.github.io/HypeVPR/) (Project Page)  
 **领域**: 其他  
 **关键词**: 视觉位置识别, 双曲空间, 全景图像, 层次化嵌入, 透视-全景匹配
 
@@ -116,7 +116,7 @@ HypeVPR 包含两路网络：(1) 查询网络 $\mathcal{F}_q$ 从透视图生成
 - [\[ICCV 2025\] Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval](../../ICCV2025/others/learning_visual_hierarchies_in_hyperbolic_space_for_image_retrieval.md)
 - [\[ICCV 2025\] A Hyperdimensional One Place Signature to Represent Them All: Stackable Descriptors For Visual Place Recognition](../../ICCV2025/others/a_hyperdimensional_one_place_signature_to_represent_them_all_stackable_descripto.md)
 - [\[CVPR 2026\] UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting](unispector_towards_universal_open-set_defect_recognition_via_spectral-contrastiv.md)
-- [\[ICLR 2026\] Out of the Shadows: Exploring a Latent Space for Neural Network Verification](../../ICLR2026/others/out_of_the_shadows_exploring_a_latent_space_for_neural_network_verification.md)
 - [\[ICLR 2026\] HEEGNet: Hyperbolic Embeddings for EEG](../../ICLR2026/others/heegnet_hyperbolic_embeddings_for_eeg.md)
+- [\[ICLR 2026\] Out of the Shadows: Exploring a Latent Space for Neural Network Verification](../../ICLR2026/others/out_of_the_shadows_exploring_a_latent_space_for_neural_network_verification.md)
 
 <!-- RELATED:END -->

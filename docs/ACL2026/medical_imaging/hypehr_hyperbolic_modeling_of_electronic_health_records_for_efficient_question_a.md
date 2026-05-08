@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026 (Findings)  
 **arXiv**: [2604.21027](https://arxiv.org/abs/2604.21027)  
-**代码**: https://github.com/yuyuliu11037/HypEHR  
+**代码**: [https://github.com/yuyuliu11037/HypEHR](https://github.com/yuyuliu11037/HypEHR)  
 **领域**: 医学图像 / 医疗NLP  
 **关键词**: 电子病历问答, 双曲空间, Lorentz模型, ICD层级建模, 轻量化临床模型
 
@@ -123,7 +123,7 @@ HypEHR 分两阶段：（1）患者编码器预训练——在双曲空间学习
 - [\[AAAI 2026\] CliCARE: Grounding Large Language Models in Clinical Guidelines for Decision Support over Longitudinal Cancer Electronic Health Records](../../AAAI2026/medical_imaging/clicare_grounding_large_language_models_in_clinical_guidelines_for_decision_supp.md)
 - [\[ACL 2026\] Query Pipeline Optimization for Cancer Patient Question Answering Systems](query_pipeline_optimization_for_cancer_patient_question_answering_systems.md)
 - [\[ICLR 2026\] Q-FSRU: Quantum-Augmented Frequency-Spectral Fusion for Medical Visual Question Answering](../../ICLR2026/medical_imaging/q-fsru_quantum-augmented_frequency-spectral_for_medical_visual_question_answerin.md)
-- [\[ICML 2025\] Foundation Models for Clinical Records at Health System Scale](../../ICML2025/medical_imaging/foundation_models_for_clinical_records_at_health_system_scale.md)
 - [\[AAAI 2026\] Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering](../../AAAI2026/medical_imaging/expert-guided_prompting_and_retrieval-augmented_generation_for_emergency_medical.md)
+- [\[ICML 2025\] Foundation Models for Clinical Records at Health System Scale](../../ICML2025/medical_imaging/foundation_models_for_clinical_records_at_health_system_scale.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Counterfactual Effect Decomposition in Multi-Agent Sequential Decision Making
 description: >-
-  [ICML 2025][反事实推理] 提出一种双层因果分解框架，将多智能体序列决策中某动作的总反事实效应（TCFE）系统地分解为"通过智能体行为传播的效应"（tot-ASE）和"通过状态转移传播的效应"（r-SSE），并分别用 Shapley 值和内在因果贡献（ICC）进一步归因到每个智能体和每个状态变量。
+  [ICML 2025][强化学习] 提出一种双层因果分解框架，将多智能体序列决策中某动作的总反事实效应（TCFE）系统地分解为"通过智能体行为传播的效应"（tot-ASE）和"通过状态转移传播的效应"（r-SSE），并分别用 Shapley 值和内在因果贡献（ICC）进一步归因到每个智能体和每个状态变量。
 tags:
   - ICML 2025
-  - 反事实推理
+  - 强化学习
   - 因果解释
   - 多智能体MDP
   - Shapley值
@@ -186,9 +186,9 @@ $$\text{ICC}(S_k \to \Delta Y | \tau) = \text{Unc}^{<S_k} - \text{Unc}^{\leq S_k
 ## 相关论文
 
 - [\[NeurIPS 2025\] Sequential Multi-Agent Dynamic Algorithm Configuration](../../NeurIPS2025/reinforcement_learning/sequential_multi-agent_dynamic_algorithm_configuration.md)
-- [\[CVPR 2025\] Decision SpikeFormer: Spike-Driven Transformer for Decision Making](../../CVPR2025/reinforcement_learning/decision_spikeformer_spike-driven_transformer_for_decision_making.md)
 - [\[ICML 2025\] Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning](divide_and_conquer_grounding_llms_as_efficient_decision-making_agents_via_offlin.md)
-- [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](../../NeurIPS2025/reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)
+- [\[ICML 2025\] Beyond CVaR: Leveraging Static Spectral Risk Measures for Enhanced Decision-Making in Distributional Reinforcement Learning](beyond_cvar_leveraging_static_spectral_risk_measures_for_enhanced_decision-makin.md)
+- [\[ICML 2025\] Enhancing Decision-Making of Large Language Models via Actor-Critic](enhancing_decision-making_of_large_language_models_via_actor-critic.md)
 - [\[AAAI 2026\] Think, Speak, Decide: Language-Augmented Multi-Agent Reinforcement Learning for Economic Decision-Making](../../AAAI2026/reinforcement_learning/think_speak_decide_language-augmented_multi-agent_reinforcement_learning_for_eco.md)
 
 <!-- RELATED:END -->

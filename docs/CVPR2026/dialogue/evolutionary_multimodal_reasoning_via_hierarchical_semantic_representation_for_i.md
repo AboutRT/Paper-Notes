@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Evolutionary Multimodal Reasoning via Hierarchical Semantic Representation for Intent Recognition
 description: >-
-  [CVPR 2026][多模态意图识别] 提出 HIER，通过层次语义表示（token→概念→关系三级）结合基于 MLLM 反馈的自进化推理机制，在三个多模态意图识别 benchmark 上一致超越 SOTA 方法和领先 MLLM（1-3% 增益）。
+  [CVPR 2026][对话系统] 提出 HIER，通过层次语义表示（token→概念→关系三级）结合基于 MLLM 反馈的自进化推理机制，在三个多模态意图识别 benchmark 上一致超越 SOTA 方法和领先 MLLM（1-3% 增益）。
 tags:
   - CVPR 2026
-  - 多模态意图识别
+  - 对话系统
   - 层次语义表示
   - 自进化推理
   - 概念聚类
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.03827](https://arxiv.org/abs/2603.03827)  
 **代码**: [GitHub](https://github.com/thuiar/HIER)  
-**领域**: 多模态VLM  
+**领域**: 对话系统  
 **关键词**: 多模态意图识别, 层次语义表示, 自进化推理, 概念聚类, CoT
 
 ## 一句话总结
@@ -133,9 +133,9 @@ $\mathcal{L}_{\text{task}}$ 为自回归语言模型损失，$\mathcal{L}_{\text
 ## 相关论文
 
 - [\[ICLR 2026\] ReIn: Conversational Error Recovery with Reasoning Inception](../../ICLR2026/dialogue/rein_conversational_error_recovery_with_reasoning_inception.md)
+- [\[ACL 2026\] Agentic Conversational Search with Contextualized Reasoning via Reinforcement Learning](../../ACL2026/dialogue/agentic_conversational_search_with_contextualized_reasoning_via_reinforcement_le.md)
+- [\[ICLR 2026\] Think-While-Generating: On-the-Fly Reasoning for Personalized Long-Form Generation](../../ICLR2026/dialogue/think-while-generating_on-the-fly_reasoning_for_personalized_long-form_generatio.md)
 - [\[ACL 2026\] Author-in-the-Loop Response Generation and Evaluation: Integrating Author Expertise and Intent in Responses to Peer Review](../../ACL2026/dialogue/author-in-the-loop_response_generation_and_evaluation_integrating_author_experti.md)
-- [\[ACL 2025\] Enabling Chatbots with Eyes and Ears: An Immersive Multimodal Conversation System](../../ACL2025/dialogue/enabling_chatbots_with_eyes_and_ears_an_immersive_multimodal_conversation_system.md)
-- [\[ECCV 2024\] BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation](../../ECCV2024/dialogue/bi-mdrg_bridging_image_history_in_multimodal_dialogue_response_generation.md)
-- [\[ACL 2025\] ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generation via a RL-Diffusion Framework](../../ACL2025/dialogue/reflectdiffu_empathetic_response.md)
+- [\[AAAI 2026\] TalkSketch: Multimodal Generative AI for Real-time Sketch Ideation with Speech](../../AAAI2026/dialogue/talksketch_multimodal_generative_ai_for_real-time_sketch_ideation_with_speech.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.12976](https://arxiv.org/abs/2603.12976)  
 **代码**: 无  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 联邦学习, coreset selection, 长尾分布, Vision-Language Model, 数据剪枝
 
 ## 一句话总结

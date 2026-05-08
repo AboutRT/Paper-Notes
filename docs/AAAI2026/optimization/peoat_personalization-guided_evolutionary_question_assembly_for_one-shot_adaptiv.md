@@ -230,6 +230,6 @@ $$P(x_j \in \mathcal{Z}) = \frac{\mathbf{I}_j}{\sum_{k \in \mathcal{Z}} \mathbf{
 - [\[ICCV 2025\] Class-Wise Federated Averaging for Efficient Personalization](../../ICCV2025/optimization/class-wise_federated_averaging_for_efficient_personalization.md)
 - [\[AAAI 2026\] Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization](pareto-grid-guided_large_language_models_for_fast_and_high-quality_heuristics_de.md)
 - [\[NeurIPS 2025\] Evaluating LLMs for Combinatorial Optimization: One-Phase and Two-Phase Heuristics for 2D Bin-Packing](../../NeurIPS2025/optimization/evaluating_llms_for_combinatorial_optimization_one-phase_and_two-phase_heuristic.md)
-- [\[NeurIPS 2025\] Verbalized Algorithms: Zero-shot Classical Algorithmic Reasoning for Correctness and Runtime Guarantees](../../NeurIPS2025/optimization/verbalized_algorithms.md)
+- [\[ICLR 2026\] COLD-Steer: Steering Large Language Models via In-Context One-step Learning Dynamics](../../ICLR2026/optimization/cold-steer_steering_large_language_models_via_in-context_one-step_learning_dynam.md)
 
 <!-- RELATED:END -->

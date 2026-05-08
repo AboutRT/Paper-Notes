@@ -45,13 +45,13 @@ $$\mathcal{L} = \mathcal{L}_{\text{recon}} + \mathcal{L}_{\text{reg}}$$
 
 1. **可学习虚拟节点编码器**: 核心创新是在分子点云后附加 $N_Z$ 个可学习虚拟节点（设为10，以确保在3D空间中形成非退化单纯形来编码手性信息），与真实原子一起通过E(3)等变神经网络联合更新。更新完成后，丢弃真实原子的嵌入，仅保留虚拟节点的嵌入作为固定长度的潜在编码：
 
-   $$(\_ , [\mathbf{z}_x, \mathbf{z}_h]) = \boldsymbol{\phi}_\theta([\mathbf{x}_M, \mathbf{v}_M], [\mathbf{x}_Z, \mathbf{v}_Z])$$
+    $(\_ , [\mathbf{z}_x, \mathbf{z}_h]) = \boldsymbol{\phi}_\theta([\mathbf{x}_M, \mathbf{v}_M], [\mathbf{x}_Z, \mathbf{v}_Z])$
 
    其中 $\mathbf{z}_x \in \mathbb{R}^{N_Z \times 3}$ 是E(3)等变的空间分量，$\mathbf{z}_h \in \mathbb{R}^{N_Z \times D_f}$ 是E(3)不变的特征分量。这种设计使得空间和语义特征能部分解耦——$\mathbf{z}_x$ 编码形状和朝向，$\mathbf{z}_h$ 编码子结构组成。
 
 2. **VAE正则化**: 对潜在空间施加KL散度正则化以确保平滑和连续：
 
-   $$\mathcal{L}_{\text{reg}} = \text{KL}\left(\mathcal{N}([\boldsymbol{\mu}_x, \boldsymbol{\mu}_h], [\boldsymbol{\sigma}_x^2, \boldsymbol{\sigma}_h^2]) \| \mathcal{N}([0,0], [\text{var}_x, \text{var}_h]\mathbf{I})\right)$$
+    $\mathcal{L}_{\text{reg}} = \text{KL}\left(\mathcal{N}([\boldsymbol{\mu}_x, \boldsymbol{\mu}_h], [\boldsymbol{\sigma}_x^2, \boldsymbol{\sigma}_h^2]) \| \mathcal{N}([0,0], [\text{var}_x, \text{var}_h]\mathbf{I})\right)$
 
    其中 $\boldsymbol{\mu}_x = \mathbf{z}_x$，$[\boldsymbol{\sigma}_x^2, \boldsymbol{\mu}_h, \boldsymbol{\sigma}_h^2] = \text{Linear}(\mathbf{z}_h)$。这鼓励潜在空间的平滑性，便于分子间的插值。
 

@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.19585](https://arxiv.org/abs/2506.19585)  
 **代码**: [https://gsumbul.github.io/SMARTIES](https://gsumbul.github.io/SMARTIES)  
-**领域**: remote_sensing  
+**领域**: 遥感  
 **关键词**: 遥感基础模型, 多传感器, 光谱感知, 掩码自编码器, 传感器无关表示
 
 ## 一句话总结
@@ -54,7 +54,7 @@ SMARTIES 由四部分组成：
 1. **光谱感知投影层**：根据波长范围定义 17 个投影层 $\mathcal{F} = \{f_1, ..., f_{17}\}$，其中 $f_1$-$f_{12}$ 对应 Sentinel-2 的 12 个波段，$f_{13}$-$f_{15}$ 对应 Maxar RGB，$f_{16}$-$f_{17}$ 对应 Sentinel-1 SAR。每个投影层 $f_i: \mathbb{R}^{S \times S} \to \mathbb{R}^D$ 为全连接层。对给定传感器图像的每个 patch，用其波段对应的投影层分别嵌入后取平均，再乘 $C_{\text{max}}=12$ 缩放以避免不同波段数的传感器间失衡。添加新传感器仅需添加新的投影层。
 
 2. **跨传感器 Token 混合**：输入一对来自不同传感器但同一地区的配对图像 $(\mathbf{I}_a, \mathbf{I}_b)$，通过二值掩码 $\mathcal{M}$ 交换 token：
-   $$\mathbf{T}_{a'} = \mathcal{M} \odot \mathbf{T}_a + (1-\mathcal{M}) \odot \mathbf{T}_b$$
+    $\mathbf{T}_{a'} = \mathcal{M} \odot \mathbf{T}_a + (1-\mathcal{M}) \odot \mathbf{T}_b$
    同时做镜像混合保留所有信息。这防止模型对特定光谱组合产生偏置。
 
 3. **未见传感器的插值迁移**：对新传感器的未见波段，如果其中心波长 $\lambda_n^c$ 落在已学习层 $f_i$ 和 $f_j$ 的中心波长之间，通过距离加权平均组合两个投影层的输出。限制条件：仅适用于预训练频谱范围内的插值，不支持外推。
@@ -157,10 +157,10 @@ EuroSAT 场景分类 Top-1 准确率：
 
 ## 相关论文
 
+- [\[ICCV 2025\] SkySense V2: A Unified Foundation Model for Multi-Modal Remote Sensing](skysense_v2_a_unified_foundation_model_for_multi-modal_remote_sensing.md)
 - [\[ECCV 2024\] Masked Angle-Aware Autoencoder for Remote Sensing Images](../../ECCV2024/remote_sensing/masked_angle-aware_autoencoder_for_remote_sensing_images.md)
 - [\[ICCV 2025\] RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model](rs-vheat_heat_conduction_guided_efficient_remote_sensing_foundation_model.md)
 - [\[NeurIPS 2025\] GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data](../../NeurIPS2025/remote_sensing/geolink_empowering_remote_sensing_foundation_model_with_openstreetmap_data.md)
 - [\[CVPR 2025\] Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing](../../CVPR2025/remote_sensing/think_and_answer_me_benchmarking_and_exploring_multi-entity_reasoning_grounding_.md)
-- [\[CVPR 2026\] Asking like Socrates: Socrates helps VLMs understand remote sensing images](../../CVPR2026/remote_sensing/asking_like_socrates_socrates_helps_vlms_understand_remote_sensing_images.md)
 
 <!-- RELATED:END -->

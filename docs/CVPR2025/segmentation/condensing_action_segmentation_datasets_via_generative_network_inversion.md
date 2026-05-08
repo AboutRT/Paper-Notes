@@ -7,7 +7,7 @@ tags:
   - Dataset Condensation
   - Action Segmentation
   - Network Inversion
-  - Generative Model
+  - 图像分割
 ---
 
 # Condensing Action Segmentation Datasets via Generative Network Inversion
@@ -121,7 +121,7 @@ $$z^* = \arg\min_{z} \| D(z, a, c) - x \|^2$$
 
 ## 相关论文
 
-- [\[ICML 2025\] ActionPiece: Contextually Tokenizing Action Sequences for Generative Recommendation](../../ICML2025/segmentation/actionpiece_contextually_tokenizing_action_sequences_generative_recommendation.md)
+- [\[ICML 2025\] ActionPiece: Contextually Tokenizing Action Sequences for Generative Recommendation](../../ICML2025/segmentation/actionpiece_contextually_tokenizing_action_sequences_for_generative_recommendati.md)
 - [\[CVPR 2025\] Scale Efficient Training for Large Datasets](scale_efficient_training_for_large_datasets.md)
 - [\[CVPR 2025\] Generative Video Propagation](generative_video_propagation.md)
 - [\[CVPR 2025\] Golden Cudgel Network for Real-Time Semantic Segmentation](golden_cudgel_network_for_real-time_semantic_segmentation.md)

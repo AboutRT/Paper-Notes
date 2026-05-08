@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2512.11219](https://arxiv.org/abs/2512.11219)  
-**代码**: https://github.com/MarkDana/Latent-Selection  
-**领域**: causal_inference  
+**代码**: [https://github.com/MarkDana/Latent-Selection](https://github.com/MarkDana/Latent-Selection)  
+**领域**: 因果推理  
 **关键词**: 潜变量因果发现, 选择偏差, 秩约束, 线性高斯模型, 单因子模型
 
 ## 一句话总结
@@ -150,8 +150,8 @@ tags:
 
 - [\[ICML 2025\] Causal Discovery of Latent Variables in Galactic Archaeology](causal_discovery_of_latent_variables_in_galactic_archaeology.md)
 - [\[ICML 2025\] Causal Abstraction Inference under Lossy Representations](causal_abstraction_inference_under_lossy_representations.md)
-- [\[NeurIPS 2025\] Dynamic Causal Discovery in Alzheimer's Disease through Latent Pseudotime Modelling](../../NeurIPS2025/causal_inference/dynamic_causal_discovery_in_alzheimers_disease_through_latent_pseudotime_modelli.md)
 - [\[ICLR 2026\] Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models](../../ICLR2026/causal_inference/distributional_equivalence_in_linear_non-gaussian_latent-variable_cyclic_causal_.md)
 - [\[ACL 2025\] On the Reliability of Large Language Models for Causal Discovery](../../ACL2025/causal_inference/llm_causal_discovery_reliability.md)
+- [\[ACL 2025\] IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](../../ACL2025/causal_inference/iris_an_iterative_and_integrated_framework.md)
 
 <!-- RELATED:END -->

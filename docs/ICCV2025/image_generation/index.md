@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 图像生成方向215篇论文解读
+  ICCV2025 图像生成方向221篇论文解读
 description: >-
-  215篇ICCV2025的图像生成方向论文解读，涵盖扩散模型、文生图、图像编辑、对抗鲁棒、少样本学习、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  221篇ICCV2025的图像生成方向论文解读，涵盖扩散模型、文生图、图像编辑、对抗鲁棒、少样本学习、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📹 ICCV2025** · **215** 篇论文解读
+**📹 ICCV2025** · **221** 篇论文解读
 
 **[A0: An Affordance-Aware Hierarchical Model for General Robotic Manipulation](a0_affordance_aware_hierarchical_model_robotic_manipulation.md)**
 
@@ -62,9 +62,17 @@ description: >-
 
 :   AIComposer 提出了首个不依赖文本提示的跨域图像合成方法，通过 MLP 网络融合前景和背景的 CLIP 特征，并结合 backward inversion + forward denoising 和局部交叉注意力策略，在无需训练扩散模型的前提下实现了自然风格化和无缝合成，LPIPS 和 CSD 指标分别提升 30.5% 和 18.1%。
 
+**[AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction](aid_adapting_image2video_diffusion_models_for_instruction-guided_video_predictio.md)**
+
+:   提出AID框架，将预训练的Image2Video扩散模型（SVD）迁移至文本引导视频预测任务，通过MLLM辅助的视频状态预测、双查询Transformer条件注入和时空适配器，在多个数据集上FVD指标超越前SOTA 50%以上。
+
 **[ALE: Attribute-Leakage-free Editing for Text-based Image Editing](ale_attribute_leakage_free_editing.md)**
 
 :   揭示文本引导图像编辑中属性泄漏的根本原因是自回归文本编码器中 EOS 嵌入的语义纠缠，提出 ALE 框架通过目标受限嵌入(ORE)、区域引导交叉注意力遮蔽(RGB-CAM)和背景融合(BB)三个组件消除属性泄漏，并构建了专门的 ALE-Bench 评测基准。
+
+**[Anchor Token Matching: Implicit Structure Locking for Training-free AR Image Editing](anchor_token_matching_implicit_structure_locking_for_training-free_ar_image_edit.md)**
+
+:   提出 ISLock，首个面向自回归(AR)视觉生成模型的无训练图像编辑方法，通过锚点 Token 匹配(ATM)在隐空间中隐式对齐自注意力模式，实现结构一致的文本引导图像编辑。
 
 **[AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction](animegamer_infinite_anime_life_simulation_with_next_game_state_prediction.md)**
 
@@ -77,6 +85,10 @@ description: >-
 **[AnyPortal: Zero-Shot Consistent Video Background Replacement](anyportal_zero-shot_consistent_video_background_replacement.md)**
 
 :   AnyPortal 提出了一个零样本、免训练的视频背景替换框架，通过协同利用 IC-Light 的重光照能力和视频扩散模型（CogVideoX）的时序先验，配合新提出的 Refinement Projection Algorithm (RPA) 实现像素级前景保持，在单张 24GB GPU 上即可高效运行。
+
+**[Attention to Neural Plagiarism: Diffusion Models Can Plagiarize Your Copyrighted Images!](attention_to_neural_plagiarism_diffusion_models_can_plagiarize_your_copyrighted_.md)**
+
+:   揭示"神经抄袭"威胁——扩散模型可轻松复制受版权保护的图像（包括受水印保护的图像），提出基于"锚点与垫片"的通用攻击框架，通过在交叉注意力机制中搜索扰动实现从粗到细的语义修改，绕过从可见商标到隐形水印的各类版权保护。
 
 **[AutoPrompt: Automated Red-Teaming of Text-to-Image Models via LLM-Driven Adversarial Prompts](autoprompt_automated_red-teaming_of_text-to-image_models_via_llm-driven_adversar.md)**
 
@@ -105,10 +117,6 @@ description: >-
 **[BVINet: Unlocking Blind Video Inpainting with Zero Annotations](bvinet_unlocking_blind_video_inpainting_with_zero_annotations.md)**
 
 :   首次定义并解决"盲视频修复"（blind video inpainting）任务——在无需任何损坏区域标注的情况下，端到端地同时完成"哪里需要修复"和"如何修复"，通过 mask 预测网络与视频补全网络的一致性约束互相增强，在合成数据和真实应用（弹幕去除/划痕修复）中均取得优异效果。
-
-**[Calibrating MLLM-as-a-Judge via Multimodal Bayesian Prompt Ensembles](calibrating_mllm-as-a-judge_via_multimodal_bayesian_prompt_ensembles.md)**
-
-:   提出Multimodal Mixture-of-Bayesian Prompt Ensembles (MMB)，通过基于图像聚类的多模态感知提示权重学习，显著改善MLLM作为评判者时的校准性和判断准确性，解决了标准提示集成方法在多模态场景下失效的问题。
 
 **[CaO2: Rectifying Inconsistencies in Diffusion-Based Dataset Distillation](cao2_rectifying_inconsistencies_in_diffusion-based_dataset_distillation.md)**
 
@@ -209,6 +217,10 @@ description: >-
 **[DICE: Staleness-Centric Optimizations for Parallel Diffusion MoE Inference](dice_staleness-centric_optimizations_for_parallel_diffusion_moe_inference.md)**
 
 :   针对 MoE 扩散模型并行推理中的"陈旧性"问题 (staleness)，提出 DICE 框架，通过步级交织并行、层级选择性同步和 token 级条件通信三层优化策略，在 DiT-MoE 上实现 1.26× 加速且质量损失极小。
+
+**[DiffDoctor: Diagnosing Image Diffusion Models Before Treating](diffdoctor_diagnosing_image_diffusion_models_before_treating.md)**
+
+:   提出 DiffDoctor，首个利用像素级反馈微调扩散模型的方法：先训练鲁棒的 artifact 检测器（1M+ 样本，类别平衡策略），再通过最小化合成图中每个像素的 artifact 置信度反向传播梯度到扩散模型，使其在未见 prompt 上也能显著减少 artifact 生成。
 
 **[DiffSim: Taming Diffusion Models for Evaluating Visual Similarity](diffsim_taming_diffusion_models_for_evaluating_visual_similarity.md)**
 
@@ -346,6 +358,10 @@ description: >-
 
 :   FlowTok 提出将文本和图像都编码为紧凑的 1D token 表示（77×16），通过 flow matching 直接在文本与图像 token 之间进行流动转换，无需复杂的条件机制或噪声调度，实现了高效的跨模态生成。
 
+**[ForgeLens: Data-Efficient Forgery Focus for Generalizable Forgery Image Detection](forgelens_data-efficient_forgery_focus_for_generalizable_forgery_image_detection.md)**
+
+:   提出 ForgeLens，一个基于冻结 CLIP-ViT 的特征引导框架，通过轻量级的权重共享引导模块（WSGM）和伪造感知特征集成器（FAFormer），引导冻结预训练网络聚焦伪造特征，仅用 1% 训练数据即达到 SOTA 泛化性能。
+
 **[Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency](free4d_tuning-free_4d_scene_generation_with_spatial-temporal_consistency.md)**
 
 :   提出 Free4D，首个无需微调的单图像 4D 场景生成框架，通过 4D 几何结构初始化、自适应引导去噪保证空间一致性、参考潜变量替换保证时序一致性、基于调制的精化融合多视角信息为一致的 4D 高斯表示，实现实时可控渲染。
@@ -369,6 +385,10 @@ description: >-
 **[GameFactory: Creating New Games with Generative Interactive Videos](gamefactory_creating_new_games_with_generative_interactive_videos.md)**
 
 :   提出 GameFactory，通过在预训练视频扩散模型上**解耦游戏风格与动作控制**的多阶段训练策略，实现了从小规模 Minecraft 数据学到的动作控制能力**泛化到开放域任意场景**的交互式游戏视频生成——这是首个提供完整技术论文且验证复杂动作空间（7键+鼠标）的场景泛化方法。
+
+**[GAP: Gaussianize Any Point Clouds with Text Guidance](gap_gaussianize_any_point_clouds_with_text_guidance.md)**
+
+:   提出GAP框架,利用深度感知图像扩散模型将无色点云转化为高保真3D Gaussian表示,通过表面锚定机制确保几何精度,并设计基于扩散的inpainting策略补全难以观测区域。
 
 **[Generating Multi-Image Synthetic Data for Text-to-Image Customization](generating_multi-image_synthetic_data_for_text-to-image_customization.md)**
 
@@ -717,6 +737,10 @@ description: >-
 **[SDMatte: Grafting Diffusion Models for Interactive Matting](sdmatte_grafting_diffusion_models_for_interactive_matting.md)**
 
 :   本文提出 SDMatte，基于 Stable Diffusion 的交互式抠图模型，通过视觉提示驱动交叉注意力、坐标/不透明度嵌入和掩码自注意力三项设计，将扩散模型的文本交互能力转化为视觉提示交互能力，在多个数据集上显著超越 SAM-based 方法。
+
+**[Semantic Discrepancy-aware Detector for Image Forgery Identification](semantic_discrepancy-aware_detector_for_image_forgery_identification.md)**
+
+:   提出语义差异感知检测器（SDD），通过语义 token 采样、概念级伪造差异学习和低层伪造特征增强三个模块，利用重建学习将 CLIP 的视觉语义概念空间与伪造空间进行细粒度对齐，在 UnivFD 和 SynRIS 基准上取得 SOTA 性能（$ap_m$ 98.51%，AUROC 95.1%）。
 
 **[Semantic Watermarking Reinvented: Enhancing Robustness and Generation Quality with Fourier Integrity](semantic_watermarking_reinvented_enhancing_robustness_and_generation_quality_wit.md)**
 

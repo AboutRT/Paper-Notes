@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - cross-lingual knowledge editing
   - in-context learning
-  - multilingual benchmark
+  - 知识编辑
   - script type
   - language confusion
 ---
@@ -134,7 +134,7 @@ Llama3.2-3B 同样的趋势但整体更低：8-shot metric-specific 的 CF loc �
 ## 相关论文
 
 - [\[ACL 2025\] Context-Robust Knowledge Editing for Language Models](context-robust_knowledge_editing_for_language_models.md)
-- [\[ACL 2025\] Efficient Knowledge Editing via Minimal Precomputation](efficient_knowledge_editing.md)
+- [\[CVPR 2025\] MoKus: Leveraging Cross-Modal Knowledge Transfer for Knowledge-Aware Concept Customization](../../CVPR2025/knowledge_editing/mokus_leveraging_cross-modal_knowledge_transfer_for_knowledge-aware_concept_cust.md)
 - [\[ACL 2025\] ScEdit: Script-based Assessment of Knowledge Editing](scedit_script-based_assessment_of_knowledge_editing.md)
 - [\[ACL 2025\] SAKE: Steering Activations for Knowledge Editing](sake_steering_activations_for_knowledge_editing.md)
 - [\[ACL 2025\] Revealing the Deceptiveness of Knowledge Editing: A Mechanistic Analysis of Superficial Editing](revealing_the_deceptiveness_of_knowledge_editing_a_mechanistic_analysis_of_super.md)

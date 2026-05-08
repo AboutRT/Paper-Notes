@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2411.07130](https://arxiv.org/abs/2411.07130)  
-**代码**: https://github.com/launchnlp/ManyICLBench  
+**代码**: [https://github.com/launchnlp/ManyICLBench](https://github.com/launchnlp/ManyICLBench)  
 **领域**: LLM Efficiency / 长上下文评估  
 **关键词**: Many-shot ICL, Long-context Evaluation, ManyICLBench, Similar-Sample Learning, All-Sample Learning
 
@@ -133,7 +133,7 @@ tags:
 - [\[ACL 2025\] Efficient Many-Shot In-Context Learning with Dynamic Block-Sparse Attention](efficient_many-shot_in-context_learning_with_dynamic_block-sparse_attention.md)
 - [\[ACL 2025\] What Really Matters in Many-Shot Attacks? An Empirical Study of Long-Context Vulnerabilities in LLMs](many_shot_attacks_long_context.md)
 - [\[ACL 2025\] Ref-Long: Benchmarking the Long-Context Referencing Capability of Long-Context Language Models](ref-long_benchmarking_the_long-context_referencing_capability_of_long-context_la.md)
-- [\[ACL 2025\] FocusLLM: Precise Understanding of Long Context by Dynamic Condensing](focusllm_precise_understanding_of_long_context_by_dynamic_condensing.md)
-- [\[ACL 2025\] How to Train Long-Context Language Models (Effectively)](train_long_context_effectively.md)
+- [\[ACL 2025\] SEAL: Scaling to Emphasize Attention for Long-Context Retrieval](seal_scaling_to_emphasize_attention_for_long-context_retrieval.md)
+- [\[NeurIPS 2025\] Technical Debt in In-Context Learning: Diminishing Efficiency in Long Context](../../NeurIPS2025/llm_efficiency/technical_debt_in_in-context_learning_diminishing_efficiency_in_long_context.md)
 
 <!-- RELATED:END -->

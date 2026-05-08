@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2507.09318](https://arxiv.org/abs/2507.09318)  
-**代码**: https://github.com/k2-fsa/ZipVoice (有)  
-**领域**: 语音生成  
+**代码**: [https://github.com/k2-fsa/ZipVoice](https://github.com/k2-fsa/ZipVoice)  
+**领域**: 图像生成  
 **关键词**: 对话语音生成, 非自回归, 流匹配, 说话人轮次, 课程学习
 
 ## 一句话总结

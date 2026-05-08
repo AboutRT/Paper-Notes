@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.12590](https://arxiv.org/abs/2511.12590)  
 **作者**: Guoqing Xu, Yiheng Li, Yang Yang (北京理工大学)  
 **代码**: [GitHub](https://github.com/GXmmm18/TopoFG)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 车道拓扑推理, 细粒度查询, BEV感知, 边界点拓扑, 去噪训练  
 
 ## 一句话总结

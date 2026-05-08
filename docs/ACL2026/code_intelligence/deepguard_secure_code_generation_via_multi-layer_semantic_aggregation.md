@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 安全代码生成
   - 多层聚合
-  - 漏洞检测
+  - 代码智能
   - 对比学习
   - 推理引导
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.09089](https://arxiv.org/abs/2604.09089)  
-**代码**: https://github.com/unknownhl/DeepGuard  
+**代码**: [https://github.com/unknownhl/DeepGuard](https://github.com/unknownhl/DeepGuard)  
 **领域**: 代码智能 / 安全  
 **关键词**: 安全代码生成, 多层聚合, 漏洞检测, 对比学习, 推理引导
 
@@ -115,9 +115,9 @@ $\mathcal{L}_{total} = \mathcal{L}_{gen} + w_{sec}\mathcal{L}_{sec} + w_{kl}\mat
 ## 相关论文
 
 - [\[ACL 2026\] Sense and Sensitivity: Examining the Influence of Semantic Recall on Long Context Code Understanding](sense_and_sensitivity_examining_the_influence_of_semantic_recall_on_long_context.md)
-- [\[ACL 2026\] MARS²: Scaling Multi-Agent Tree Search via Reinforcement Learning for Code Generation](mars2_scaling_multi_agent_tree_search_via_reinforcement_learning_for_code_genera.md)
 - [\[ACL 2026\] MARS2: Scaling Multi-Agent Tree Search via Reinforcement Learning for Code Generation](mars2_scaling_multi-agent_tree_search_via_reinforcement_learning_for_code_genera.md)
 - [\[AAAI 2026\] MoSE: Hierarchical Self-Distillation Enhances Early Layer Embeddings](../../AAAI2026/code_intelligence/mose_hierarchical_self-distillation_enhances_early_layer_embeddings.md)
 - [\[ACL 2025\] TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs](../../ACL2025/code_intelligence/texpert_a_multi-level_benchmark_for_evaluating_latex_code_generation_by_llms.md)
+- [\[ACL 2026\] CollabCoder: Plan-Code Co-Evolution via Collaborative Decision-Making for Efficient Code Generation](collabcoder_plan-code_co-evolution_via_collaborative_decision-making_for_efficie.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.20056](https://arxiv.org/abs/2502.20056)  
-**代码**: https://github.com/mk-runner/MLRG (有)  
+**代码**: [https://github.com/mk-runner/MLRG](https://github.com/mk-runner/MLRG)  
 **领域**: 医学图像  
 **关键词**: 放射报告生成, 多视角纵向数据, 对比学习, 缺失数据处理, 胸部X光
 

@@ -8,7 +8,7 @@ tags:
   - hallucination detection
   - faithfulness evaluation
   - traceability
-  - multi-generative-step
+  - LLM安全
   - DAG
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2505.21786](https://arxiv.org/abs/2505.21786)  
 **代码**: [数据集](https://aka.ms/veritrail-datasets)  
-**领域**: llm_nlp  
+**领域**: LLM安全  
 **关键词**: hallucination detection, faithfulness evaluation, traceability, multi-generative-step, DAG
 
 ## 一句话总结
@@ -202,7 +202,7 @@ tags:
 - [\[ICLR 2026\] Enhancing Hallucination Detection through Noise Injection](enhancing_hallucination_detection_through_noise_injection.md)
 - [\[ICLR 2026\] Understanding Sensitivity of Differential Attention through the Lens of Adversarial Robustness](understanding_sensitivity_of_differential_attention_through_the_lens_of_softmax_.md)
 - [\[ACL 2026\] Enhancing Hallucination Detection via Future Context](../../ACL2026/llm_safety/enhancing_hallucination_detection_via_future_context.md)
+- [\[CVPR 2026\] Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations](../../CVPR2026/llm_safety/beyond_global_scores_fine_grained_token_grounding_as_robust_detector_of_lvlm_hallucinations.md)
 - [\[ICLR 2026\] LH-Deception: Simulating and Understanding LLM Deceptive Behaviors in Long-Horizon Interactions](lh-deception_simulating_and_understanding_llm_deceptive_behaviors_in_long-horizo.md)
-- [\[ICLR 2026\] Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers](perturbation-induced_linearization_constructing_unlearnable_data_with_solely_lin.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2406.18958](https://arxiv.org/abs/2406.18958)  
-**代码**: https://any-control.github.io (有)  
-**领域**: 多模态VLM  
+**代码**: [https://any-control.github.io](https://any-control.github.io)  
+**领域**: 图像生成  
 **关键词**: 可控图像生成, 多条件融合, Text-to-Image, ControlNet, 注意力机制
 
 ## 一句话总结
@@ -126,7 +126,7 @@ AnyControl锁定预训练SD模型，设计Multi-Control Encoder提取多控制em
 - [\[ECCV 2024\] LivePhoto: Real Image Animation with Text-guided Motion Control](livephoto_real_image_animation_with_text-guided_motion_control.md)
 - [\[ECCV 2024\] Latent Guard: a Safety Framework for Text-to-Image Generation](latent_guard_a_safety_framework_for_text-to-image_generation.md)
 - [\[ECCV 2024\] Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](powerful_and_flexible_personalized_text-to-image_generation_via_reinforcement_le.md)
+- [\[ECCV 2024\] Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation](be_yourself_bounded_attention_for_multi-subject_text-to-image_generation.md)
 - [\[ECCV 2024\] MagicEraser: Erasing Any Objects via Semantics-Aware Control](magiceraser_erasing_any_objects_via_semantics-aware_control.md)
-- [\[ECCV 2024\] LCM-Lookahead for Encoder-based Text-to-Image Personalization](lcm-lookahead_for_encoder-based_text-to-image_personalization.md)
 
 <!-- RELATED:END -->

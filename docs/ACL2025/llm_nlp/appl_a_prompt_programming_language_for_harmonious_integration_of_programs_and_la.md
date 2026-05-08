@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2406.13161](https://arxiv.org/abs/2406.13161)  
-**代码**: https://github.com/appl-team/appl (有)  
+**代码**: [https://github.com/appl-team/appl](https://github.com/appl-team/appl)  
 **领域**: LLM / 提示工程  
 **关键词**: 提示编程语言, LLM工作流, Python集成, 异步执行, 可复现性
 

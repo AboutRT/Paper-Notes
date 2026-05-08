@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.11879](https://arxiv.org/abs/2504.11879)  
-**代码**: https://github.com/Bunny-Black/PrunNet (有)  
+**代码**: [https://github.com/Bunny-Black/PrunNet](https://github.com/Bunny-Black/PrunNet)  
 **领域**: 模型压缩 / 非对称检索  
 **关键词**: 可剪枝网络, 非对称检索, 子网络兼容性, 冲突感知梯度, 训练后剪枝
 
@@ -97,7 +97,7 @@ GLDv2 地标检索 mAP（20%/40%/60%/80%/100% 容量）：
 - [\[CVPR 2025\] TADFormer: Task-Adaptive Dynamic Transformer for Efficient Multi-Task Learning](tadformer_task-adaptive_dynamic_transformer_for_efficient_multi-task_learning.md)
 - [\[NeurIPS 2025\] Find your Needle: Small Object Image Retrieval via Multi-Object Attention Optimization](../../NeurIPS2025/model_compression/find_your_needle_small_object_image_retrieval_via_multi-object_attention_optimiz.md)
 - [\[CVPR 2025\] Understanding Multi-layered Transmission Matrices](understanding_multi-layered_transmission_matrices.md)
-- [\[NeurIPS 2025\] Mitigating Semantic Collapse in Partially Relevant Video Retrieval](../../NeurIPS2025/model_compression/mitigating_semantic_collapse_in_partially_relevant_video_retrieval.md)
-- [\[ACL 2025\] Efficient Long Context Language Model Retrieval with Compression](../../ACL2025/model_compression/efficient_long_context_language_model_retrieval_with_compression.md)
+- [\[ICML 2025\] GPTAQ: Efficient Finetuning-Free Quantization for Asymmetric Calibration](../../ICML2025/model_compression/gptaq_efficient_finetuning-free_quantization_for_asymmetric_calibration.md)
+- [\[CVPR 2025\] MobileMamba: Lightweight Multi-Receptive Visual Mamba Network](mobilemamba_lightweight_multi-receptive_visual_mamba_network.md)
 
 <!-- RELATED:END -->

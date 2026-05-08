@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.11211](https://arxiv.org/abs/2409.11211)  
-**代码**: https://github.com/markomih/SplatFields  
+**代码**: [https://github.com/markomih/SplatFields](https://github.com/markomih/SplatFields)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 稀疏视图重建, 隐式神经场正则化, 空间自相关, 动态重建
 

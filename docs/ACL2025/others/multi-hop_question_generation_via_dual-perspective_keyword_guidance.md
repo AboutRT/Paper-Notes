@@ -9,7 +9,7 @@ tags:
   - 双视角关键词
   - 答案感知注意力
   - 关键词引导
-  - HotpotQA
+  - 其他
 ---
 
 # Multi-Hop Question Generation via Dual-Perspective Keyword Guidance
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.15299](https://arxiv.org/abs/2505.15299)  
 **代码**: [GitHub](https://github.com/imaodong/DPKG)  
-**领域**: NLP / 问题生成  
+**领域**: 其他  
 **关键词**: 多跳问题生成, 双视角关键词, 答案感知注意力, 关键词引导, HotpotQA
 
 ## 一句话总结
@@ -175,8 +175,8 @@ DPKG 框架包含三个主要组件：
 
 - [\[ACL 2025\] Follow-up Question Generation for Enhanced Patient-Provider Conversations](follow-up_question_generation_for_enhanced_patient-provider_conversations.md)
 - [\[ACL 2025\] FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning](fcmr_robust_evaluation_of_financial_cross-modal_multi-hop_reasoning.md)
+- [\[ACL 2025\] Bone Soups: A Seek-and-Soup Model Merging Approach for Controllable Multi-Objective Generation](bone_soups_multi_objective_gen.md)
+- [\[ACL 2025\] Counterspeech the Ultimate Shield! Multi-Conditioned Counterspeech Generation through Attributed Prefix Learning](hippro_counterspeech_gen.md)
 - [\[ACL 2025\] AIDE: Attribute-Guided Multi-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning](aide_attribute-guided_multi-hop_data_expansion_for_data_scarcity_in_task-specifi.md)
-- [\[ACL 2025\] DRS: Deep Question Reformulation With Structured Output](drs_deep_question_reformulation_with_structured_output.md)
-- [\[ACL 2025\] DocAgent: A Multi-Agent System for Automated Code Documentation Generation](docagent_a_multi-agent_system_for_automated_code_documentation_generation.md)
 
 <!-- RELATED:END -->

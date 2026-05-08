@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2501.08727](https://arxiv.org/abs/2501.08727)  
-**代码**: https://github.com/taozerui/tlora_diffusion  
+**代码**: [https://github.com/taozerui/tlora_diffusion](https://github.com/taozerui/tlora_diffusion)  
 **领域**: 图像生成  
 **关键词**: 参数高效微调, LoRA, 张量分解, 文本到图像, 主题驱动生成
 

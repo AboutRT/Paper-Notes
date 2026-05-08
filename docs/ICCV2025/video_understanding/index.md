@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 视频理解方向62篇论文解读
+  ICCV2025 视频理解方向59篇论文解读
 description: >-
-  62篇ICCV2025的视频理解方向论文解读，涵盖目标跟踪、LLM、人体姿态、模型压缩、动态场景、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  59篇ICCV2025的视频理解方向论文解读，涵盖目标跟踪、LLM、人体姿态、模型压缩、动态场景、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 视频理解
 
-**📹 ICCV2025** · **62** 篇论文解读
+**📹 ICCV2025** · **59** 篇论文解读
 
 **[4D-Bench: Benchmarking Multi-Modal Large Language Models for 4D Object Understanding](4d-bench_benchmarking_multi-modal_large_language_models_for_4d_object_understand.md)**
 
@@ -98,10 +98,6 @@ description: >-
 
 :   本文提出 EMoTive，一个基于事件相机的 3D 运动估计框架，通过 Event Kymograph 编码精细时序演化信息，并使用事件密度引导的非均匀 NURBS 参数曲线建模时空轨迹，从轨迹中导出光流和深度运动场，在自建 CarlaEvent3D 数据集和真实世界基准上取得 SOTA 性能。
 
-**[Estimating 2D Camera Motion with Hybrid Motion Basis](estimating_2d_camera_motion_with_hybrid_motion_basis.md)**
-
-:   提出 CamFlow，通过混合运动基（12 个物理基 + 随机噪声基）表示复杂的 2D 相机运动，揭示了多个单应性流场叠加的非线性特性，结合基于 Laplace 分布的概率损失函数，在标准和跨数据集零样本条件下均大幅超越现有单应性和 meshflow 方法。
-
 **[Factorized Learning for Temporally Grounded Video-Language Models](factorized_learning_for_temporally_grounded_video-language_models.md)**
 
 :   提出D2VLM框架，通过将视频理解分解为"先定位证据再基于证据生成回答"的范式，引入证据token捕捉事件级视觉语义，并设计分解式偏好优化(FPO)同时提升时序定位和文本回答能力。
@@ -117,10 +113,6 @@ description: >-
 **[FlowSeek: Optical Flow Made Easier with Depth Foundation Models and Motion Bases](flowseek_optical_flow_made_easier_with_depth_foundation_models_and_motion_bases.md)**
 
 :   FlowSeek 将深度基础模型（Depth Anything V2）的先验知识和经典的低维运动参数化（motion bases）融入光流网络，在仅使用单张消费级 GPU 训练的条件下即可实现 SOTA 的跨数据集泛化性能。
-
-**[Free-MoRef: Instantly Multiplexing Context Perception Capabilities of Video-MLLMs within Single Inference](free-moref_instantly_multiplexing_context_perception_capabilities_of_video-mllms.md)**
-
-:   提出免训练方法Free-MoRef，受MoE启发将长视频token分割为多个短序列作为多参考(multi-reference)，通过MoRef注意力机制并行查询并融合统一激活值，在单卡A100上实现2×到8×更长帧输入的高效全面理解，在VideoMME/MLVU/LongVideoBench上超越专训长视频模型。
 
 **[Frequency-Semantic Enhanced Variational Autoencoder for Zero-Shot Skeleton-based Action Recognition](frequency-semantic_enhanced_variational_autoencoder_for_zero-shot_skeleton-based.md)**
 
@@ -166,10 +158,6 @@ description: >-
 
 :   提出首个多模态多平台行人重识别基准 MP-ReID（含 RGB、红外、热成像三种模态 + 地面和无人机两种平台）和统一提示学习框架 Uni-Prompt ReID，通过模态感知、平台感知和视觉增强提示显著提升复杂场景下的 ReID 性能。
 
-**[No More Sibling Rivalry: Debiasing Human-Object Interaction Detection](no_more_sibling_rivalry_debiasing_human-object_interaction_detection.md)**
-
-:   发现并系统分析了 HOI 检测中的"有毒兄弟"偏差问题——高度相似的 HOI 三元组在输入端和输出端相互干扰竞争，提出"对比后校准"（C2C）和"合并后拆分"（M2S）两种去偏学习目标，在 HICO-DET 上超越 baseline +9.18% mAP、超越前 SOTA +3.59%。
-
 **[Online Dense Point Tracking with Streaming Memory](online_dense_point_tracking_with_streaming_memory.md)**
 
 :   提出 SPOT 框架，通过定制的记忆读取模块、感知记忆（sensory memory）和可见性引导的 splatting 实现在线稠密长程点跟踪，以 10× 更少参数和 2× 更快速度达到 CVO 基准上的 SOTA，在多个稀疏跟踪基准上也超越或媲美离线方法。
@@ -202,6 +190,10 @@ description: >-
 
 :   首次提出事件相机运动估计与噪声估计的联合方法，利用对比度最大化（CMax）框架中运动补偿后的局部对比度对每个事件评分，通过交替优化同时获得运动参数和信号/噪声分类，在 E-MLB 去噪基准上达到 SOTA。
 
+**[Sparse-Dense Side-Tuner for Efficient Video Temporal Grounding](sparse-dense_side-tuner_for_efficient_video_temporal_grounding.md)**
+
+:   提出 SDST（Sparse-Dense Side-Tuner），首个无锚框（anchor-free）的 Side-Tuning 架构，通过稀疏-稠密双流设计同时处理时刻检索（MR）和高光检测（HD），并提出 Reference-based Deformable Self-Attention（RDSA）解决可变形注意力的上下文缺失问题，在 QVHighlights、TACoS、Charades-STA 上取得 SOTA 或高度竞争性结果，同时将可训练参数量减少至现有 SOTA 的 27%。
+
 **[TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding](timeexpert_an_expert-guided_video_llm_for_video_temporal_grounding.md)**
 
 :   提出TimeExpert——首个基于MoE的Video-LLM框架，通过**任务感知动态门控**和**token自适应路由**将时间戳、显著性分数和文本描述路由到专门的专家，配合任务依赖辅助损失，在Dense Video Captioning、Moment Retrieval和Video Highlight Detection三类VTG任务上全面超越SOTA。
@@ -217,10 +209,6 @@ description: >-
 **[Towards Video Thinking Test: A Holistic Benchmark for Advanced Video Reasoning and Understanding](towards_video_thinking_test_a_holistic_benchmark_for_advanced_video_reasoning_an.md)**
 
 :   提出 Video Thinking Test (Video-TT)，一个评估视频大语言模型正确性和鲁棒性的基准，包含 1000 个 YouTube Shorts 视频和 5000 个问题，通过视觉/叙事复杂性因子和自然对抗问题揭示了当前最强模型（GPT-4o 36.6%）与人类（84.3%）之间的巨大差距。
-
-**[Training-free Generation of Temporally Consistent Rewards from VLMs](training-free_generation_of_temporally_consistent_rewards_from_vlms.md)**
-
-:   T²-VLM 提出了一种免训练、时间一致的奖励生成框架，通过仅在每个 episode 开始时查询一次 VLM 生成空间感知子目标，然后用贝叶斯粒子滤波跟踪子目标完成状态来生成结构化 RL 奖励，在机器人操作基准上达到 SOTA 且计算成本大幅降低。
 
 **[Trokens: Semantic-Aware Relational Trajectory Tokens for Few-Shot Action Recognition](trokens_semantic-aware_relational_trajectory_tokens_for_few-shot_action_recognit.md)**
 

@@ -17,7 +17,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2511.05299](https://arxiv.org/abs/2511.05299)  
 **代码**: [yzy-bupt/LiveStar](https://github.com/yzy-bupt/LiveStar)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: online video understanding, streaming decoding, video-language alignment, live streaming, response timing  
 
 ## 一句话总结

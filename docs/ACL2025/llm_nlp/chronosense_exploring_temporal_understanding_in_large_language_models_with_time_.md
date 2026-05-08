@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2501.03040](https://arxiv.org/abs/2501.03040)  
 **代码**: [duyguislakoglu/chronosense](https://github.com/duyguislakoglu/chronosense)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 时间推理, Allen区间关系, benchmark, 时间算术, LLM评估
 
 ## 一句话总结
@@ -159,8 +159,8 @@ ChronoSense 包含两大类 True/False 判别题，时间粒度统一为「年�
 ## 相关论文
 
 - [\[ACL 2025\] Does Time Have Its Place? Temporal Heads Where Language Models Recall Time-specific Information](does_time_have_its_place_temporal_heads_where_language_models_recall_time-specif.md)
-- [\[ACL 2025\] SynapticRAG: Enhancing Temporal Memory Retrieval in Large Language Models through Synaptic Mechanisms](synapticrag_enhancing_temporal_memory_retrieval_in_large_language_models_through.md)
 - [\[ACL 2025\] DeAL: Decoding-time Alignment for Large Language Models](deal_decoding_time_alignment.md)
+- [\[ACL 2025\] SynapticRAG: Enhancing Temporal Memory Retrieval in Large Language Models through Synaptic Mechanisms](synapticrag_enhancing_temporal_memory_retrieval_in_large_language_models_through.md)
 - [\[ACL 2025\] Synergizing Unsupervised Episode Detection with LLMs for Large-Scale News Events](synergizing_unsupervised_episode_detection_with_llms_for_large-scale_news_events.md)
 - [\[ACL 2025\] Understanding the Repeat Curse in Large Language Models from a Feature Perspective](understanding_the_repeat_curse_in_large_language_models_from_a_feature_perspecti.md)
 

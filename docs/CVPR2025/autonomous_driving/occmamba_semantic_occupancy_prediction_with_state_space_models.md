@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2408.09859](https://arxiv.org/abs/2408.09859)  
-**代码**: https://github.com/USTCLH/OccMamba  
+**代码**: [https://github.com/USTCLH/OccMamba](https://github.com/USTCLH/OccMamba)  
 **领域**: 自动驾驶 / 3D 感知 / 语义占据预测  
 **关键词**: 语义占据、Mamba、Hilbert 曲线、LiDAR-Camera 融合、长程建模
 
@@ -133,6 +133,6 @@ OccMamba 把 SSM/Mamba 引入户外语义占据预测，用 height-prioritized 2
 - [\[CVPR 2025\] O3N: Omnidirectional Open-Vocabulary Occupancy Prediction](o3n_omnidirectional_open-vocabulary_occupancy_prediction.md)
 - [\[CVPR 2025\] Panoramic Multimodal Semantic Occupancy Prediction for Quadruped Robots](panoramic_multimodal_semantic_occupancy_prediction_for_quadruped_robots.md)
 - [\[CVPR 2025\] M²-Occ: Resilient 3D Semantic Occupancy Prediction for Autonomous Driving with Incomplete Camera Inputs](m2-occ_resilient_3d_semantic_occupancy_prediction_for_autonomous_driving_with_in.md)
-- [\[CVPR 2025\] GDFusion: Rethinking Temporal Fusion with a Unified Gradient Descent View for 3D Semantic Occupancy Prediction](gdfusion_temporal_fusion_occupancy.md)
+- [\[CVPR 2025\] GDFusion: Rethinking Temporal Fusion with a Unified Gradient Descent View for 3D Semantic Occupancy Prediction](rethinking_temporal_fusion_with_a_unified_gradient_descent_view_for_3d_semantic_.md)
 
 <!-- RELATED:END -->

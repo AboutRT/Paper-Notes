@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.19947](https://arxiv.org/abs/2505.19947)  
 **代码**: [GitHub](https://github.com/laminair/mess-plus)  
-**领域**: LLM系统优化 / 模型选择 / 动态路由  
+**领域**: 优化  
 **关键词**: 成本优化, LLM路由, 虚拟队列, SLA保证, 在线学习
 
 ## 一句话总结

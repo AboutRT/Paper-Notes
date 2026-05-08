@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.08531](https://arxiv.org/abs/2504.08531)  
-**代码**: https://hsp-iit.github.io/embodied-captioning/  
+**代码**: [https://hsp-iit.github.io/embodied-captioning/](https://hsp-iit.github.io/embodied-captioning/)  
 **领域**: LLM Agent / 具身智能  
 **关键词**: 具身感知, 图像描述, 自监督学习, 伪标注, 对比学习
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.09862](https://arxiv.org/abs/2604.09862)  
-**代码**: https://chaoyizh.github.io/ff3r_project  
+**代码**: [https://chaoyizh.github.io/ff3r_project](https://chaoyizh.github.io/ff3r_project)  
 **领域**: 3D视觉  
 **关键词**: 3D重建, 语义理解, 前馈架构, 3D高斯, 无标注训练
 

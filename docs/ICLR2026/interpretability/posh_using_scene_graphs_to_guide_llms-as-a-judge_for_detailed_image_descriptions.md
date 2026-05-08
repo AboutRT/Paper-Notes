@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - detailed image description
   - scene graph
-  - LLM-as-Judge
+  - 可解释性
   - fine-grained evaluation
   - assistive text
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.19060](https://arxiv.org/abs/2510.19060)  
 **代码**: [GitHub](https://github.com/amith-ananthram/posh)  
-**领域**: 多模态评估  
+**领域**: 可解释性  
 **关键词**: detailed image description, scene graph, LLM-as-Judge, fine-grained evaluation, assistive text
 
 ## 一句话总结
@@ -126,10 +126,10 @@ PoSh是推理时指标，无训练过程。QA评分器Ψ使用Qwen3-14B，存在
 
 ## 相关论文
 
-- [\[CVPR 2026\] On the Possible Detectability of Image-in-Image Steganography](../../CVPR2026/interpretability/on_the_possible_detectability_of_imageinimage_steg.md)
 - [\[ICLR 2026\] RADAR: Reasoning-Ability and Difficulty-Aware Routing for Reasoning LLMs](radar_reasoning-ability_and_difficulty-aware_routing_for_reasoning_llms.md)
-- [\[ACL 2025\] Enhancing Automated Interpretability with Output-Centric Feature Descriptions](../../ACL2025/interpretability/output_centric_interpretability.md)
 - [\[CVPR 2026\] Edit-As-Act: Goal-Regressive Planning for Open-Vocabulary 3D Indoor Scene Editing](../../CVPR2026/interpretability/edit-as-act_goal-regressive_planning_for_open-vocabulary_3d_indoor_scene_editing.md)
+- [\[CVPR 2026\] On the Possible Detectability of Image-in-Image Steganography](../../CVPR2026/interpretability/on_the_possible_detectability_of_image-in-image_steganography.md)
 - [\[NeurIPS 2025\] URLs Help, Topics Guide: Understanding Metadata Utility in LLM Training](../../NeurIPS2025/interpretability/urls_help_topics_guide_understanding_metadata_utility_in_llm_training.md)
+- [\[ACL 2025\] Enhancing Automated Interpretability with Output-Centric Feature Descriptions](../../ACL2025/interpretability/output_centric_interpretability.md)
 
 <!-- RELATED:END -->

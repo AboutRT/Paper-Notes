@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12369](https://arxiv.org/abs/2603.12369)  
 **代码**: [GitHub](https://github.com/IMPACTLabASU/GenEval)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: domain generalization, vision-language model, diabetic retinopathy, conformal inference, LoRA
 
 ## 一句话总结

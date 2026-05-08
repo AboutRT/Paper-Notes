@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 4D世界模型
-  - 高斯泼溅
+  - 视频生成
   - 单目视频
   - 新视角生成
   - 前馈重建
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2601.00393](https://arxiv.org/abs/2601.00393)  
-**代码**: https://neoverse-4d.github.io (即将开源)  
-**领域**: 视频理解 / 3D视觉 / 4D重建  
+**代码**: [https://neoverse-4d.github.io](https://neoverse-4d.github.io) (即将开源)  
+**领域**: 视频生成  
 **关键词**: 4D世界模型, 高斯泼溅, 单目视频, 新视角生成, 前馈重建
 
 ## 一句话总结
@@ -140,10 +140,10 @@ NeoVerse 分为两个阶段：(1) **重建阶段**：基于 VGGT 构建前馈式
 
 ## 相关论文
 
-- [\[CVPR 2026\] SeeU: Seeing the Unseen World via 4D Dynamics-aware Generation](seeu_seeing_the_unseen_world_via_4d_dynamics-aware_generation.md)
 - [\[AAAI 2026\] 3D4D: An Interactive Editable 4D World Model via 3D Video Generation](../../AAAI2026/video_generation/3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md)
+- [\[CVPR 2026\] SeeU: Seeing the Unseen World via 4D Dynamics-aware Generation](seeu_seeing_the_unseen_world_via_4d_dynamics-aware_generation.md)
 - [\[CVPR 2026\] ActivityForensics: A Comprehensive Benchmark for Localizing Manipulated Activity in Videos](activityforensics_a_comprehensive_benchmark_for_localizing_manipulated_activity_.md)
-- [\[CVPR 2026\] The Devil is in the Details: Enhancing Video Virtual Try-On via Keyframe-Driven Details Injection](the_devil_is_in_the_details_enhancing_video_virtual_try-on_via_keyframe-driven_d.md)
 - [\[CVPR 2026\] DriveLaW: Unifying Planning and Video Generation in a Latent Driving World](drivelaw_unifying_planning_and_video_generation_in_a_latent_driving_world.md)
+- [\[ICCV 2025\] Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning](../../ICCV2025/video_generation/disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)
 
 <!-- RELATED:END -->

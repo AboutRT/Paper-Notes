@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RLP: Reinforcement as a Pretraining Objective
 description: >-
-  [ICLR 2026][预训练] 提出RLP（Reinforcement Learning Pretraining），一种信息增益驱动的RL预训练目标，通过奖励能提升下一token预测概率的思维链（CoT），将RL从后训练阶段前移到预训练阶段，实现无验证器的密集奖励信号。
+  [ICLR 2026][强化学习] 提出RLP（Reinforcement Learning Pretraining），一种信息增益驱动的RL预训练目标，通过奖励能提升下一token预测概率的思维链（CoT），将RL从后训练阶段前移到预训练阶段，实现无验证器的密集奖励信号。
 tags:
   - ICLR 2026
-  - 预训练
+  - 强化学习
   - 信息增益
   - Chain-of-Thought
   - 强化学习
@@ -121,8 +121,8 @@ RLP**不包含标准NTP损失**，仅优化信息增益目标：$\max_\theta J(\
 
 - [\[ICLR 2026\] Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control](towards_bridging_the_gap_between_large-scale_pretraining_and_efficient_finetunin.md)
 - [\[ICLR 2026\] Robust Multi-Objective Controlled Decoding of Large Language Models](robust_multi-objective_controlled_decoding_of_large_language_models.md)
+- [\[ICLR 2026\] AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification](amped_adaptive_multi-objective_projection_for_balancing_exploration_and_skill_di.md)
 - [\[AAAI 2026\] Scalable Multi-Objective and Meta Reinforcement Learning via Gradient Estimation](../../AAAI2026/reinforcement_learning/scalable_multi-objective_and_meta_reinforcement_learning_via_gradient_estimation.md)
 - [\[NeurIPS 2025\] Provable Ordering and Continuity in Vision-Language Pretraining for Generalizable Embodied Agents](../../NeurIPS2025/reinforcement_learning/provable_ordering_and_continuity_in_vision-language_pretraining_for_generalizabl.md)
-- [\[ICML 2025\] BEAVER: Building Environments with Assessable Variation for Evaluating Multi-Objective Reinforcement Learning](../../ICML2025/reinforcement_learning/beaver_building_environments_with_assessable_variation_for_evaluating_multi-obje.md)
 
 <!-- RELATED:END -->

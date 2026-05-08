@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Machine Translation Models are Zero-Shot Detectors of Translation Direction
 description: >-
-  [ACL 2025][翻译方向检测] 提出一种基于 NMT 模型翻译概率的无监督翻译方向检测方法：若 $p(\text{translation}|\text{original}) > p(\text{original}|\text{translation})$，则可零样本判断平行文本的原始翻译方向，NMT 翻译的文档级检测准确率达 96%。
+  [ACL 2025][多语言翻译] 提出一种基于 NMT 模型翻译概率的无监督翻译方向检测方法：若 $p(\text{translation}|\text{original}) > p(\text{original}|\text{translation})$，则可零样本判断平行文本的原始翻译方向，NMT 翻译的文档级检测准确率达 96%。
 tags:
   - ACL 2025
-  - 翻译方向检测
+  - 多语言翻译
   - 翻译体
   - 无监督方法
   - 机器翻译概率
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2401.06769](https://arxiv.org/abs/2401.06769)  
-**代码**: [GitHub](https://github.com/ZurichNLP/translation-direction-detection) (有)  
-**领域**: 文本生成  
+**代码**: [GitHub](https://github.com/ZurichNLP/translation-direction-detection)  
+**领域**: 多语言翻译  
 **关键词**: 翻译方向检测, 翻译体, 无监督方法, 机器翻译概率, 法证语言学  
 
 ## 一句话总结
@@ -163,7 +163,7 @@ $B=0$ 表示无偏差，$B=1$ 表示完全偏向一个方向。
 - [\[ACL 2025\] Translation and Fusion Improves Zero-shot Cross-lingual Information Extraction](translation_and_fusion_improves_cross-lingual_information_extraction.md)
 - [\[ACL 2025\] A Case Study of Cross-Lingual Zero-Shot Generalization for Classical Languages in LLMs](a_case_study_of_cross-lingual_zero-shot_generalization_for_classical_languages_i.md)
 - [\[ACL 2025\] Trans-Zero: Self-Play Incentivizes Large Language Models for Multilingual Translation](trans-zero_self-play_incentivizes_large_language_models_for_multilingual_transla.md)
-- [\[ACL 2025\] Exploring In-context Example Generation for Machine Translation](exploring_in-context_example_generation_for_machine_translation.md)
-- [\[ACL 2025\] Has Machine Translation Evaluation Achieved Human Parity?](mt_eval_human_parity.md)
+- [\[ACL 2025\] Accessible Machine Translation Evaluation For Low-Resource Languages](accessible_machine_translation_evaluation_for_low-resource_languages.md)
+- [\[ACL 2025\] Exploring In-Image Machine Translation with Real-World Background](exploring_in-image_machine_translation_with_real-world_background.md)
 
 <!-- RELATED:END -->

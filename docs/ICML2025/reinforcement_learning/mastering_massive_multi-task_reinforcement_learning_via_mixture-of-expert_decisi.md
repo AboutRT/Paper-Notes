@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.24378](https://arxiv.org/abs/2505.24378)  
 **代码**: 待确认  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 多任务强化学习, Decision Transformer, Mixture-of-Experts, 任务可扩展性, 参数可扩展性
 
 ## 一句话总结

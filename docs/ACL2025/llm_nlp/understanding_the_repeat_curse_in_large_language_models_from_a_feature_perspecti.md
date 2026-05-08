@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2504.14218](https://arxiv.org/abs/2504.14218)  
-**代码**: https://github.com/kaustpradalab/repeat-curse-llm (有)  
+**代码**: [https://github.com/kaustpradalab/repeat-curse-llm](https://github.com/kaustpradalab/repeat-curse-llm)  
 **领域**: LLM NLP  
 **关键词**: 重复生成, Sparse Autoencoder, 机制可解释性, 特征引导, 去毒
 
@@ -135,7 +135,7 @@ tags:
 - [\[ACL 2025\] Perspective Transition of Large Language Models for Solving Subjective Tasks](perspective_transition_of_large_language_models_for_solving_subjective_tasks.md)
 - [\[ACL 2025\] Evaluating Implicit Bias in Large Language Models by Attacking from a Psychometric Perspective](evaluating_implicit_bias_in_large_language_models_by_attacking_from_a_psychometr.md)
 - [\[ACL 2025\] A Statistical and Multi-Perspective Revisiting of the Membership Inference Attack in Large Language Models](a_statistical_and_multi-perspective_revisiting_of_the_membership_inference_attac.md)
+- [\[ACL 2025\] TableLoRA: Low-rank Adaptation on Table Structure Understanding for Large Language Models](table_lora_structure_understanding.md)
 - [\[ACL 2025\] ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events](chronosense_exploring_temporal_understanding_in_large_language_models_with_time_.md)
-- [\[ACL 2025\] Cross-Modal Alignment for LLM-Enhanced Spoken Language Understanding](cross-modal_alignment_for_llm-enhanced_spoken_language_understanding.md)
 
 <!-- RELATED:END -->

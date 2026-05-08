@@ -22,7 +22,7 @@ tags:
 **arXiv**: [2411.07019](https://arxiv.org/abs/2411.07019)  
 **作者**: Zhiqiang Liu, Yin Hua, Mingyang Chen, Yichi Zhang, Zhuo Chen, Lei Liang, Wen Zhang (ZJU)  
 **代码**: [zjukg/UniHR](https://github.com/zjukg/UniHR)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: 知识图谱, Link Prediction, 超关系KG, 时序KG, 嵌套KG, 统一表示学习, 层次化消息传递  
 
 ## 一句话总结
@@ -160,8 +160,8 @@ $$\mathbf{h}_i^{l+1} = \sum_{(r,j) \in \mathcal{N}(i)} \sigma(\omega_{\tau(r)}^l
 
 - [\[AAAI 2026\] Feature-Centric Unsupervised Node Representation Learning Without Homophily Assumption](feature-centric_unsupervised_node_representation_learning_without_homophily_assu.md)
 - [\[NeurIPS 2025\] TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction](../../NeurIPS2025/graph_learning/tami_taming_heterogeneity_in_temporal_interactions_for_temporal_graph_link_predi.md)
-- [\[ICML 2025\] Banyan: Improved Representation Learning with Explicit Structure](../../ICML2025/graph_learning/banyan_improved_representation_learning_with_explicit_structure.md)
 - [\[ICML 2025\] L-STEP: Learnable Spatial-Temporal Positional Encoding for Link Prediction](../../ICML2025/graph_learning/learnable_spatial-temporal_positional_encoding_for_link_prediction.md)
+- [\[ICML 2025\] Banyan: Improved Representation Learning with Explicit Structure](../../ICML2025/graph_learning/banyan_improved_representation_learning_with_explicit_structure.md)
 - [\[NeurIPS 2025\] OCN: Effectively Utilizing Higher-Order Common Neighbors for Better Link Prediction](../../NeurIPS2025/graph_learning/ocn_effectively_utilizing_higher-order_common_neighbors_for_better_link_predicti.md)
 
 <!-- RELATED:END -->

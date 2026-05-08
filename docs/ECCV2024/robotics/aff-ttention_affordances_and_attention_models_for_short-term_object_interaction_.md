@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2406.01194](https://arxiv.org/abs/2406.01194)  
-**代码**: https://github.com/lmur98/AFFttention (有)  
-**领域**: 视频理解 / Agent  
+**代码**: [https://github.com/lmur98/AFFttention](https://github.com/lmur98/AFFttention)  
+**领域**: 机器人  
 **关键词**: Short-Term Anticipation, Affordances, Egocentric Video, Attention, Object Interaction
 
 ## 一句话总结
@@ -133,7 +133,7 @@ tags:
 
 - [\[ECCV 2024\] DISCO: Embodied Navigation and Interaction via Differentiable Scene Semantics and Dual-Level Control](disco_embodied_navigation_and_interaction.md)
 - [\[AAAI 2026\] Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning](../../AAAI2026/robotics/attention_as_binding_a_vector-symbolic_perspective_on_transformer_reasoning.md)
-- [\[ICLR 2026\] Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping](../../ICLR2026/robotics/constructive_distortion_improving_mllms_with_attention-guided_image_warping.md)
+- [\[AAAI 2026\] Theory of Mind for Explainable Human-Robot Interaction](../../AAAI2026/robotics/theory_of_mind_for_explainable_human-robot_interaction.md)
 - [\[CVPR 2025\] Influence Malleability in Linearized Attention: Dual Implications of Non-Convergent NTK Dynamics](../../CVPR2025/robotics/influence_malleability_in_linearized_attention_dual_implications_of_non-converge.md)
 - [\[NeurIPS 2025\] C-NAV: Towards Self-Evolving Continual Object Navigation in Open World](../../NeurIPS2025/robotics/c-nav_towards_self-evolving_continual_object_navigation_in_open_world.md)
 

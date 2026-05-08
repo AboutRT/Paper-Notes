@@ -49,9 +49,9 @@ DIQ 将每个训练样本投射到二维空间：(1) **难度分数** — 模型
 1. **难度估计**：使用在多个医学 QA 数据集上微调的 BiomedBERT 分类器，从知识 (Knowledge)、推理 (Reasoning)、综合 (Overall) 三个维度评估难度。选择其中一个维度作为标量分数 $D(z) \triangleq D_\phi(z)$，以百分位阈值 $\tau_d$ 划分高/低难度。该分数是模型无关的，计算一次可复用。
 
 2. **Dot-Product 影响力**：定义训练样本 $z$ 的影响力为其梯度与验证集均值梯度的内积：
-   $$\text{Dot}(z) \triangleq g(z; \hat{\boldsymbol{\theta}})^\top \bar{g}_{\text{val}}(\hat{\boldsymbol{\theta}})$$
+    $\text{Dot}(z) \triangleq g(z; \hat{\boldsymbol{\theta}})^\top \bar{g}_{\text{val}}(\hat{\boldsymbol{\theta}})$
    物理含义：对验证集平均损失的一步下降量的一阶近似
-   $$\Delta \bar{\ell}_{\text{val}} = -\eta \cdot \text{Dot}(z) + O(\eta^2)$$
+    $\Delta \bar{\ell}_{\text{val}} = -\eta \cdot \text{Dot}(z) + O(\eta^2)$
    实现上使用 Johnson-Lindenstrauss 随机投影将梯度降到 4096 维，复杂度为 $O(|\mathcal{D}_{\text{val}}| + |\mathcal{D}|)$，无需计算 Hessian。
 
 3. **象限优先级选择**：以难度阈值 $\tau_d$ 和影响力中位数 $m_{\text{dot}}$ 将数据分为四象限。$\mathcal{Q}_1$（高难度+高影响力）最优先选取——同时包含复杂临床推理和强梯度信号。各象限内按 Dot 降序排列，相同 Dot 按难度降序打破平局。

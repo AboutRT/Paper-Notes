@@ -157,6 +157,6 @@ $$(-1)^b \sum_i X_{ik}^{(a)} \left(\frac{Z_i}{P_i} - \frac{1-Z_i}{1-P_i}\right) 
 - [\[ICML 2025\] Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation](sparse_causal_discovery_with_generative_intervention_for_unsupervised_graph_doma.md)
 - [\[ICML 2025\] SDP-CROWN: Efficient Bound Propagation for Neural Network Verification with Tightness of Semidefinite Programming](sdp-crown_efficient_bound_propagation_for_neural_network_verification_with_tight.md)
 - [\[AAAI 2026\] A Distributed Asynchronous Generalized Momentum Algorithm Without Delay Bounds](../../AAAI2026/optimization/a_distributed_asynchronous_generalized_momentum_algorithm_wi.md)
-- [\[ICLR 2026\] Deep FlexQP: Accelerated Nonlinear Programming via Deep Unfolding](../../ICLR2026/optimization/deep_flexqp_accelerated_nonlinear_programming_via_deep_unfolding.md)
+- [\[ICML 2025\] Random Feature Representation Boosting](random_feature_representation_boosting.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13437](https://arxiv.org/abs/2407.13437)  
-**代码**: https://sohyun-l.github.io/frest (有)  
+**代码**: [https://sohyun-l.github.io/frest](https://sohyun-l.github.io/frest)  
 **领域**: 图像分割  
 **关键词**: semantic segmentation, feature restoration, source-free domain adaptation, adverse conditions, robustness
 

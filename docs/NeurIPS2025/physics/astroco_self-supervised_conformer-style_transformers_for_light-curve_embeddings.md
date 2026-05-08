@@ -5,7 +5,7 @@ description: >-
   [NeurIPS 2025 (ML4PS Workshop)][自监督学习] 提出 AstroCo，一种将 Conformer（注意力 + 深度可分离卷积 + 门控）引入天文不规则光变曲线的自监督编码器，在 MACHO 数据集上重建误差比 Astromer v1/v2 降低 61-70%，少样本分类 macro-F1 提升约 7%。
 tags:
   - NeurIPS 2025 (ML4PS Workshop)
-  - 自监督学习
+  - 物理学
   - Conformer
   - 光变曲线
   - 天文时间序列
@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025 (ML4PS Workshop)  
 **arXiv**: [2509.24134](https://arxiv.org/abs/2509.24134)  
 **代码**: 待公开  
-**领域**: self_supervised  
+**领域**: 物理学  
 **关键词**: 自监督学习, Conformer, 光变曲线, 天文时间序列, 掩码重建, 少样本分类  
 
 ---
@@ -174,9 +174,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Quantum Doubly Stochastic Transformers](quantum_doubly_stochastic_transformers.md)
+- [\[NeurIPS 2025\] Vision Transformers for Cosmological Fields: Application to Weak Lensing Mass Maps](vision_transformers_for_cosmological_fields_application_to_weak_lensing_mass_map.md)
+- [\[NeurIPS 2025\] Exoplanet Formation Inference Using Conditional Invertible Neural Networks](exoplanet_formation_inference_using_conditional_invertible_neural_networks.md)
 - [\[NeurIPS 2025\] Toward Complete Merger Identification at Cosmic Noon with Deep Learning](toward_complete_merger_identification_at_cosmic_noon_with_deep_learning.md)
-- [\[NeurIPS 2025\] POLARIS: A High-contrast Polarimetric Imaging Benchmark Dataset for Exoplanetary Disk Representation Learning](polaris_a_high-contrast_polarimetric_imaging_benchmark_dataset_for_exoplanetary_.md)
-- [\[NeurIPS 2025\] Neural Deprojection of Galaxy Stellar Mass Profiles](neural_deprojection_of_galaxy_stellar_mass_profiles.md)
-- [\[NeurIPS 2025\] From Simulations to Surveys: Domain Adaptation for Galaxy Observations](from_simulations_to_surveys_domain_adaptation_for_galaxy_observations.md)
+- [\[NeurIPS 2025\] Latent Representation Learning in Heavy-Ion Collisions with MaskPoint Transformer](latent_representation_learning_in_heavy-ion_collisions_with_maskpoint_transforme.md)
 
 <!-- RELATED:END -->

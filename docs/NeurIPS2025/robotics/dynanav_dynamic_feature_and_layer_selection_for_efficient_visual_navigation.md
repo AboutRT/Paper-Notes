@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.21930](https://arxiv.org/abs/2509.21930)  
 **代码**: 待确认  
-**领域**: robotics  
+**领域**: 机器人  
 **关键词**: visual navigation, dynamic inference, early exit, feature selection, efficient deployment  
 
 ## 一句话总结

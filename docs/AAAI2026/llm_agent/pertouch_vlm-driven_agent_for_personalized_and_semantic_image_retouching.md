@@ -18,7 +18,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.12998](https://arxiv.org/abs/2511.12998)  
-**代码**: https://github.com/Auroral703/PerTouch  
+**代码**: [https://github.com/Auroral703/PerTouch](https://github.com/Auroral703/PerTouch)  
 **领域**: LLM智能体  
 **关键词**: VLM Agent, 图像修图, 个性化编辑, 语义感知, 扩散模型, 场景记忆  
 

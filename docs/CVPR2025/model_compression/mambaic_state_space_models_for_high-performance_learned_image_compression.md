@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.12461](https://arxiv.org/abs/2503.12461)  
 **代码**: [GitHub](https://github.com/AuroraZengfh/MambaIC)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: learned image compression, state space model, Mamba, entropy model, context modeling, window-based local attention
 
 ## 一句话总结

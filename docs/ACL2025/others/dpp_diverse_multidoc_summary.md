@@ -8,7 +8,7 @@ tags:
   - multi-document summarization
   - DPP
   - content selection
-  - source coverage
+  - 其他
   - personalized summary
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.21859](https://arxiv.org/abs/2505.21859)  
 **代码**: 未公开  
-**领域**: 文本摘要/多文档摘要  
+**领域**: 其他  
 **关键词**: multi-document summarization, DPP, content selection, source coverage, personalized summary  
 
 ## 一句话总结

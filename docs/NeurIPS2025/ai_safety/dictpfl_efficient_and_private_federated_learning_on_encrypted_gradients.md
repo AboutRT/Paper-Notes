@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21086](https://arxiv.org/abs/2510.21086)  
 **代码**: [UCF-ML-Research/DictPFL](https://github.com/UCF-ML-Research/DictPFL)  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: federated learning, Homomorphic Encryption, Privacy-Preserving, Gradient Pruning, Dictionary Decomposition
 
 ## 一句话总结
@@ -175,10 +175,10 @@ DictPFL 包含两个核心模块：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA](fedsvd_adaptive_orthogonalization_for_private_federated_learning_with_lora.md)
-- [\[NeurIPS 2025\] FedRW: Efficient Privacy-Preserving Data Reweighting for Enhancing Federated Learning of Language Models](fedrw_efficient_privacy-preserving_data_reweighting_for_enhancing_federated_lear.md)
 - [\[NeurIPS 2025\] Enabling Differentially Private Federated Learning for Speech Recognition: Benchmarks, Adaptive Optimizers and Gradient Clipping](enabling_differentially_private_federated_learning_for_speech_recognition_benchm.md)
-- [\[NeurIPS 2025\] Differentially Private Federated Low Rank Adaptation Beyond Fixed-Matrix](differentially_private_federated_low_rank_adaptation_beyond_fixed-matrix.md)
 - [\[NeurIPS 2025\] Differentially Private Bilevel Optimization: Efficient Algorithms with Near-Optimal Rates](differentially_private_bilevel_optimization_efficient_algorithms_with_near-optim.md)
+- [\[NeurIPS 2025\] DESIGN: Encrypted GNN Inference via Server-Side Input Graph Pruning](design_encrypted_gnn_inference_via_server-side_input_graph_pruning.md)
+- [\[NeurIPS 2025\] MARS: A Malignity-Aware Backdoor Defense in Federated Learning](mars_a_malignity-aware_backdoor_defense_in_federated_learning.md)
+- [\[ICML 2025\] An Efficient Private GPT Never Autoregressively Decodes](../../ICML2025/ai_safety/an_efficient_private_gpt_never_autoregressively_decodes.md)
 
 <!-- RELATED:END -->

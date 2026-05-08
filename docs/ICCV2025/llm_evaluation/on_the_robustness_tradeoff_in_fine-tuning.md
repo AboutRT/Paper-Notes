@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 微调鲁棒性
-  - 对抗鲁棒性
+  - LLM评测
   - 参数高效微调
   - Pareto前沿
   - OOD鲁棒性
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.14836](https://arxiv.org/abs/2503.14836)  
-**代码**: [https://github.com/kyangl/robustness-finetuning](https://github.com/kyangl/robustness-finetuning) (有)  
-**领域**: 其他/模型鲁棒性  
+**代码**: [https://github.com/kyangl/robustness-finetuning](https://github.com/kyangl/robustness-finetuning)  
+**领域**: LLM评测  
 **关键词**: 微调鲁棒性, 对抗鲁棒性, 参数高效微调, Pareto前沿, OOD鲁棒性  
 
 ## 一句话总结
@@ -140,10 +140,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Towards Objective Fine-tuning: How LLMs' Prior Knowledge Causes Potential Poor Calibration?](../../ACL2025/llm_evaluation/towards_objective_fine-tuning_how_llms_prior_knowledge_causes_potential_poor_cal.md)
-- [\[AAAI 2026\] Low-Rank Curvature for Zeroth-Order Optimization in LLM Fine-Tuning](../../AAAI2026/llm_evaluation/low-rank_curvature_for_zeroth-order_optimization_in_llm_fine-tuning.md)
-- [\[ICLR 2026\] Towards Anomaly-Aware Pre-Training and Fine-Tuning for Graph Anomaly Detection](../../ICLR2026/llm_evaluation/towards_anomaly-aware_pre-training_and_fine-tuning_for_graph_anomaly_detection.md)
+- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](../../NeurIPS2025/llm_evaluation/hyperbolic_fine-tuning_for_large_language_models.md)
 - [\[ICCV 2025\] OmniDiff: A Comprehensive Benchmark for Fine-grained Image Difference Captioning](omnidiff_a_comprehensive_benchmark_for_fine-grained_image_difference_captioning.md)
-- [\[ICML 2025\] IBDR: Promoting Ensemble Diversity with Interactive Bayesian Distributional Robustness](../../ICML2025/llm_evaluation/promoting_ensemble_diversity_with_interactive_bayesian_distributional_robustness.md)
+- [\[AAAI 2026\] Low-Rank Curvature for Zeroth-Order Optimization in LLM Fine-Tuning](../../AAAI2026/llm_evaluation/low-rank_curvature_for_zeroth-order_optimization_in_llm_fine-tuning.md)
+- [\[ACL 2025\] Towards Objective Fine-tuning: How LLMs' Prior Knowledge Causes Potential Poor Calibration?](../../ACL2025/llm_evaluation/towards_objective_fine-tuning_how_llms_prior_knowledge_causes_potential_poor_cal.md)
+- [\[ICLR 2026\] Towards Anomaly-Aware Pre-Training and Fine-Tuning for Graph Anomaly Detection](../../ICLR2026/llm_evaluation/towards_anomaly-aware_pre-training_and_fine-tuning_for_graph_anomaly_detection.md)
 
 <!-- RELATED:END -->

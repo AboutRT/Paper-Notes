@@ -2,10 +2,10 @@
 title: >-
   [论文解读] NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation
 description: >-
-  [NeurIPS 2025][视觉推理] 提出NoisyRollout，一种零额外训练成本的数据增强方法，在GRPO训练VLM时混合来自干净和适度扰动图像的rollout以增强策略探索多样性，仅用2.1K样本在5个域外基准上达到开源RL微调模型SOTA。
+  [NeurIPS 2025][强化学习] 提出NoisyRollout，一种零额外训练成本的数据增强方法，在GRPO训练VLM时混合来自干净和适度扰动图像的rollout以增强策略探索多样性，仅用2.1K样本在5个域外基准上达到开源RL微调模型SOTA。
 tags:
   - NeurIPS 2025
-  - 视觉推理
+  - 强化学习
   - 策略探索
   - 数据增强
   - GRPO
@@ -119,10 +119,10 @@ Qwen2.5-VL-7B-Instruct，仅2.1K Geometry3K样本：
 
 ## 相关论文
 
-- [\[ICML 2025\] Zero-Shot Generalization of Vision-Based RL Without Data Augmentation](../../ICML2025/reinforcement_learning/zero-shot_generalization_of_vision-based_rl_without_data_augmentation.md)
 - [\[NeurIPS 2025\] RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning](rl_tango_reinforcing_generator_and_verifier_together_for_lan.md)
-- [\[NeurIPS 2025\] Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](open_vision_reasoner_transferring_linguistic_cognitive_behavior_for_visual_reaso.md)
 - [\[ICLR 2026\] MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding](../../ICLR2026/reinforcement_learning/mergemix_a_unified_augmentation_paradigm_for_visual_and_multi-modal_understandin.md)
-- [\[ICLR 2026\] AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking](../../ICLR2026/reinforcement_learning/abstral_augmenting_llms_reasoning_by_reinforcing_abstract_thinking.md)
+- [\[NeurIPS 2025\] Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](open_vision_reasoner_transferring_linguistic_cognitive_behavior_for_visual_reaso.md)
+- [\[ICML 2025\] Zero-Shot Generalization of Vision-Based RL Without Data Augmentation](../../ICML2025/reinforcement_learning/zero-shot_generalization_of_vision-based_rl_without_data_augmentation.md)
+- [\[NeurIPS 2025\] Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](robot-r1_reinforcement_learning_for_enhanced_embodied_reasoning_in_robotics.md)
 
 <!-- RELATED:END -->

@@ -20,7 +20,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.17773](https://arxiv.org/abs/2505.17773)  
 **代码**: [GitHub](https://github.com/ahra99/c_lora)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: LoRA, 不确定性估计, 贝叶斯微调, 参数高效微调, LLM, 变分推断, 数据依赖  
 
 ## 一句话总结
@@ -138,6 +138,6 @@ C-LoRA 在标准 LoRA 的 $\mathbf{B} \in \mathbb{R}^{d \times r}$ 和 $\mathbf{
 - [\[NeurIPS 2025\] Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](data_efficient_adaptation_in_large_language_models_via_continuous_low-rank_fine-.md)
 - [\[NeurIPS 2025\] GoRA: Gradient-Driven Adaptive Low Rank Adaptation](gora_gradient-driven_adaptive_low_rank_adaptation.md)
 - [\[NeurIPS 2025\] RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models](reflora_refactored_low-rank_adaptation_for_efficient_fine-tuning_of_large_models.md)
-- [\[ACL 2025\] DenseLoRA: Dense Low-Rank Adaptation of Large Language Models](../../ACL2025/model_compression/denselora_dense_low-rank_adaptation_of_large_language_models.md)
+- [\[NeurIPS 2025\] Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation](beyond_higher_rank_token-wise_input-output_projections_for_efficient_low-rank_ad.md)
 
 <!-- RELATED:END -->

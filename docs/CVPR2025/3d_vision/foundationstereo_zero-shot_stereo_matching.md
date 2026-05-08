@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.09898](https://arxiv.org/abs/2501.09898)  
-**代码**: https://nvlabs.github.io/FoundationStereo/  
+**代码**: [https://nvlabs.github.io/FoundationStereo/](https://nvlabs.github.io/FoundationStereo/)  
 **领域**: 3D视觉 / 立体匹配  
 **关键词**: 零样本立体匹配, 基础模型, 单目深度先验, 合成数据, 代价体过滤
 

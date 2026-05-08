@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 图像恢复
-  - 自监督去噪
+  - 图像复原
   - 非高斯噪声
   - 自然指数族
   - 无偏估计
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04648](https://arxiv.org/abs/2412.04648)  
-**代码**: https://github.com/bemc22/GeneralizedR2R (有)  
+**代码**: [https://github.com/bemc22/GeneralizedR2R](https://github.com/bemc22/GeneralizedR2R)  
 **领域**: 图像复原  
 **关键词**: 自监督去噪, 非高斯噪声, 自然指数族, 无偏估计, Recorrupted-to-Recorrupted
 
@@ -120,7 +120,7 @@ tags:
 - [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](rotation-equivariant_self-supervised_method_in_image_denoising.md)
 - [\[ICCV 2025\] Blind2Sound: Self-Supervised Image Denoising without Residual Noise](../../ICCV2025/image_restoration/blind2sound_self-supervised_image_denoising_without_residual_noise.md)
 - [\[NeurIPS 2025\] The Effect of Optimal Self-Distillation in Noisy Gaussian Mixture Model](../../NeurIPS2025/image_restoration/the_effect_of_optimal_self-distillation_in_noisy_gaussian_mixture_model.md)
-- [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](../../NeurIPS2025/image_restoration/moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
 - [\[ICML 2025\] TimeDART: A Diffusion Autoregressive Transformer for Self-Supervised Time Series Representation](../../ICML2025/image_restoration/timedart_a_diffusion_autoregressive_transformer_for_self-supervised_time_series_.md)
+- [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](../../NeurIPS2025/image_restoration/moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
 
 <!-- RELATED:END -->

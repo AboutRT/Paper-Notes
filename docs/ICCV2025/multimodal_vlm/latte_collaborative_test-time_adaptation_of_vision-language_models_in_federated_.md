@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 多模态
   - 测试时自适应
-  - 联邦学习
+  - 多模态VLM
   - 视觉语言模型
   - 记忆缓存
   - CLIP
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.21494](https://arxiv.org/abs/2507.21494)  
 **代码**: [GitHub](https://github.com/baowenxuan/Latte)  
-**领域**: 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: 测试时自适应, 联邦学习, 视觉语言模型, 记忆缓存, CLIP
 
 ## 一句话总结
@@ -133,10 +133,10 @@ Latte 在所有基准上均取得最佳性能。值得注意的是，在 TerraIn
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] DOTA: DistributiOnal Test-time Adaptation of Vision-Language Models](../../NeurIPS2025/multimodal_vlm/dota_distributional_testtime_adaptation_of_visionlanguage_mo.md)
 - [\[ICCV 2025\] Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models](multi-cache_enhanced_prototype_learning_for_test-time_generalization_of_vision-l.md)
+- [\[ICCV 2025\] Is Less More? Exploring Token Condensation as Training-free Test-time Adaptation](is_less_more_exploring_token_condensation_as_training-free_test-time_adaptation.md)
+- [\[NeurIPS 2025\] DOTA: DistributiOnal Test-time Adaptation of Vision-Language Models](../../NeurIPS2025/multimodal_vlm/dota_distributional_testtime_adaptation_of_visionlanguage_mo.md)
 - [\[NeurIPS 2025\] The Illusion of Progress? A Critical Look at Test-Time Adaptation for Vision-Language Models](../../NeurIPS2025/multimodal_vlm/the_illusion_of_progress_a_critical_look_at_testtime_adaptat.md)
 - [\[CVPR 2025\] Realistic Test-Time Adaptation of Vision-Language Models](../../CVPR2025/multimodal_vlm/realistic_test-time_adaptation_of_vision-language_models.md)
-- [\[ICCV 2025\] FedMVP: Federated Multimodal Visual Prompt Tuning for Vision-Language Models](fedmvp_federated_multimodal_visual_prompt_tuning_for_vision-language_models.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.12390](https://arxiv.org/abs/2501.12390)  
 **代码**: [项目页面](https://cfeng16.github.io/gps-gen/)  
-**领域**: image_generation / 3d_vision  
+**领域**: 图像生成  
 **关键词**: GPS conditioning, diffusion model, geotagged photos, NeRF, score distillation sampling, compositional generation
 
 ## 一句话总结

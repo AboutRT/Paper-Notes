@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.13652](https://arxiv.org/abs/2412.13652)  
-**代码**: https://relationfield.github.io/  
+**代码**: [https://relationfield.github.io/](https://relationfield.github.io/)  
 **领域**: 3D视觉  
 **关键词**: 神经辐射场, 关系理解, 3D场景图, 开放词汇, 知识蒸馏
 

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 具身智能方向24篇论文解读
+  ICCV2025 机器人/具身智能方向26篇论文解读
 description: >-
-  24篇ICCV2025的具身智能方向论文解读，涵盖机器人、多模态、导航、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  26篇ICCV2025的机器人/具身智能方向论文解读，涵盖机器人、多模态、导航、对齐/RLHF、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🤖 具身智能
+# 🤖 机器人/具身智能
 
-**📹 ICCV2025** · **24** 篇论文解读
+**📹 ICCV2025** · **26** 篇论文解读
 
 **[Adaptive Articulated Object Manipulation On The Fly with Foundation Model Reasoning and Part Grounding](adaptive_articulated_object_manipulation_on_the_fly_with_foundation_model_reason.md)**
 
@@ -50,6 +50,10 @@ description: >-
 
 :   提出 EvolvingGrasp，通过 Handpose-wise Preference Optimization (HPO) 和 Physics-Aware Consistency Model (PCM) 实现灵巧抓取姿态的高效进化式生成与人类偏好对齐，在四个基准数据集上取得 SOTA，并实现 30 倍加速。
 
+**[GUIOdyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices](guiodyssey_a_comprehensive_dataset_for_cross-app_gui_navigation_on_mobile_device.md)**
+
+:   提出 GUIOdyssey，首个面向移动端跨应用 GUI 导航的综合数据集（8334 episodes、212 apps、1357 app 组合），以及 OdysseyAgent——配备历史重采样模块的多模态导航智能体，在平衡性能与推理效率的同时显著提升跨应用任务表现。
+
 **[iManip: Skill-Incremental Learning for Robotic Manipulation](imanip_skill-incremental_learning_for_robotic_manipulation.md)**
 
 :   提出 iManip 框架，通过时序回放策略和可扩展 PerceiverIO 架构，使机器人能够在不重新训练的情况下持续学习新的操作技能，同时缓解对已学技能的灾难性遗忘，在 RLBench 上比传统增量基线平均提升 9.4%。
@@ -74,6 +78,10 @@ description: >-
 
 :   提出 PacGDC，利用 2D 到 3D 投影中固有的形状歧义和位置歧义来合成大量伪几何数据（通过多个深度基础模型作为尺度操纵器），以最小的标注代价实现可泛化的深度补全，在零样本和少样本设置中均达到 SOTA。
 
+**[PASG: A Closed-Loop Framework for Automated Geometric Primitive Extraction and Semantic Anchoring in Robotic Manipulation](pasg_a_closed-loop_framework_for_automated_geometric_primitive_extraction_and_se.md)**
+
+:   提出 PASG（Primitive-Aware Semantic Grounding），一个闭环框架，通过自动化几何基元提取（关键点、功能轴、主轴）和 VLM 驱动的语义锚定，将低层几何特征与高层任务语义动态耦合，在机器人操作任务中实现了接近人工标注的性能，并构建了 Robocasa-PA 基准和微调模型 Qwen2.5VL-PA。
+
 **[Rep-MTL: Unleashing the Power of Representation-Level Task Saliency for Multi-Task Learning](rep-mtl_unleashing_the_power_of_representation-level_task_saliency_for_multi-tas.md)**
 
 :   提出 Rep-MTL，一种基于表示空间任务显著性（task saliency）的多任务优化方法，通过熵正则化保留任务特定学习模式（TSR）和样本级跨任务对比对齐（CSA）来缓解负迁移并显式促进任务互补性，无需修改优化器或网络架构。
@@ -86,6 +94,10 @@ description: >-
 
 :   提出选择性对比学习方法用于弱监督可供性定位，通过原型级对比学习和像素级对比学习，在目标和部件两个粒度上自适应学习可供性相关线索，有效避免模型关注与动作无关的显著特征，在 AGD20K 和 HICO-IIF 上全面超越了使用更强基础模型（GPT-4、LLAVA 等）的竞争方法。
 
+**[Self-supervised Learning of Hybrid Part-aware 3D Representations of 2D Gaussians and Superquadrics](self-supervised_learning_of_hybrid_part-aware_3d_representations_of_2d_gaussians.md)**
+
+:   提出 PartGS，一个自监督的部件感知3D重建框架，将2D Gaussian Splatting与超二次曲面混合耦合，通过参数共享和多种正则化实现同时高质量几何分解和纹理重建，在DTU、ShapeNet和真实场景上在重建精度上比SOTA提升75.9%，PSNR提升16.13dB。
+
 **[SITE: towards Spatial Intelligence Thorough Evaluation](site_towards_spatial_intelligence_thorough_evaluation.md)**
 
 :   本文提出 SITE，一个基于认知科学三重分类体系的空间智能综合基准，涵盖 8,068 个多选 VQA 任务（覆盖 31 个数据集、图像+视频），评估结果显示当前最强 VLM（GPT-4o）在整体空间推理上仍落后人类专家约 32%，且 VLM 的空间智能与机器人操控任务的成功率呈高度正相关（Pearson $r=0.902$）。
@@ -97,10 +109,6 @@ description: >-
 **[UnZipLoRA: Separating Content and Style from a Single Image](unziplora_separating_content_and_style_from_a_single_image.md)**
 
 :   提出 UnZipLoRA 方法，从单张图像中同时训练两个解耦且兼容的 LoRA（内容 LoRA 和风格 LoRA），通过 prompt 分离、列分离和块分离三种策略实现内容与风格的有效解耦，支持独立操控和自由重组，用户偏好率全面超越 DreamBooth-LoRA、Inspiration Tree 和 B-LoRA。
-
-**[VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers](vq-vla_improving_vision-language-action_models_via_scaling_vector-quantized_acti.md)**
-
-:   本文提出基于卷积残差 VQ-VAE 的动作 tokenizer，在比先前方法多 100 倍的训练数据（含大量合成数据）上训练后可零样本迁移到各种下游 VLA 任务，在真实机器人上将长时域任务成功率提升最高 30%，推理速度提升近 3 倍。
 
 **[Weakly-Supervised Learning of Dense Functional Correspondences](weakly-supervised_learning_of_dense_functional_correspondences.md)**
 

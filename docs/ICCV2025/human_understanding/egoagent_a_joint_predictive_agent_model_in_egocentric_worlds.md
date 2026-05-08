@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2502.05857](https://arxiv.org/abs/2502.05857)  
 **代码**: [https://github.com/zju3dv/EgoAgent](https://github.com/zju3dv/EgoAgent)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: egocentric vision, agent model, world model, 3D human motion prediction, joint embedding predictive architecture
 
 ## 一句话总结
@@ -142,10 +142,10 @@ EgoAgent-1B在世界状态预测上超越DoRA +16.28% Top1，在动作预测上�
 
 ## 相关论文
 
-- [\[CVPR 2025\] ShowUI: One Vision-Language-Action Model for GUI Visual Agent](../../CVPR2025/human_understanding/showui_one_vision-language-action_model_for_gui_visual_agent.md)
-- [\[ICCV 2025\] SAMO: A Lightweight Sharpness-Aware Approach for Multi-Task Optimization with Joint Global-Local Perturbation](samo_a_lightweight_sharpness-aware_approach_for_multi-task_optimization_with_joi.md)
+- [\[CVPR 2026\] FusionAgent: A Multimodal Agent with Dynamic Model Selection for Human Recognition](../../CVPR2026/human_understanding/fusionagent_a_multimodal_agent_with_dynamic_model_selection_for_human_recognitio.md)
 - [\[ICCV 2025\] GENMO: A GENeralist Model for Human MOtion](genmo_a_generalist_model_for_human_motion.md)
-- [\[ICCV 2025\] FREE-Merging: Fourier Transform for Efficient Model Merging](free-merging_fourier_transform_for_efficient_model_merging.md)
-- [\[ICML 2025\] What Limits Virtual Agent Application? OmniBench: A Scalable Multi-Dimensional Benchmark for Essential Virtual Agent Capabilities](../../ICML2025/human_understanding/what_limits_virtual_agent_application_omnibench_a_scalable_multi-dimensional_ben.md)
+- [\[ICCV 2025\] AJAHR: Amputated Joint Aware 3D Human Mesh Recovery](ajahr_amputated_joint_aware_3d_human_mesh_recovery.md)
+- [\[ICCV 2025\] ImHead: A Large-scale Implicit Morphable Model for Localized Head Modeling](imhead_a_large-scale_implicit_morphable_model_for_localized_head_modeling.md)
+- [\[ICCV 2025\] Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars](avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md)
 
 <!-- RELATED:END -->

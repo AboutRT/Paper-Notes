@@ -8,7 +8,7 @@ tags:
   - 语音
   - noise blending
   - auditory masking
-  - music generation
+  - 音频语音
   - 图像修复
   - psychoacoustics
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.10754](https://arxiv.org/abs/2506.10754)  
-**代码**: https://d-fas.github.io/BNMusic_page/  
+**代码**: [https://d-fas.github.io/BNMusic_page/](https://d-fas.github.io/BNMusic_page/)  
 **领域**: 音频生成  
 **关键词**: noise blending, auditory masking, music generation, spectrogram inpainting, psychoacoustics
 
@@ -129,10 +129,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] MemoryTalker: Personalized Speech-Driven 3D Facial Animation via Audio-Guided Stylization](../../ICCV2025/audio_speech/memorytalker_personalized_speech-driven_3d_facial_animation_via_audio-guided_sty.md)
-- [\[NeurIPS 2025\] Echoes of Humanity: Exploring the Perceived Humanness of AI Music](echoes_of_humanity_exploring_the_perceived_humanness_of_ai_music.md)
-- [\[NeurIPS 2025\] Ethics Statements in AI Music Papers: The Effective and the Ineffective](ethics_statements_in_ai_music_papers_the_effective_and_the_ineffective.md)
 - [\[NeurIPS 2025\] Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization](unifying_symbolic_music_arrangement_track-aware_reconstruction_and_structured_to.md)
+- [\[NeurIPS 2025\] Echoes of Humanity: Exploring the Perceived Humanness of AI Music](echoes_of_humanity_exploring_the_perceived_humanness_of_ai_music.md)
 - [\[NeurIPS 2025\] Perceptually Aligning Representations of Music via Noise-Augmented Autoencoders](perceptually_aligning_representations_of_music_via_noise-augmented_autoencoders.md)
+- [\[NeurIPS 2025\] Ethics Statements in AI Music Papers: The Effective and the Ineffective](ethics_statements_in_ai_music_papers_the_effective_and_the_ineffective.md)
+- [\[NeurIPS 2025\] LUMIA: A Handheld Vision-to-Music System for Real-Time, Embodied Composition](lumia_a_handheld_vision-to-music_system_for_real-time_embodied_composition.md)
 
 <!-- RELATED:END -->

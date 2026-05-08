@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.20818](https://arxiv.org/abs/2603.20818)  
-**代码**: https://github.com/3dv-casia/PlanaReLoc (有，代码六月发布，数据集已发布)  
-**领域**: 3D视觉 / 相机重定位  
+**代码**: [https://github.com/3dv-casia/PlanaReLoc](https://github.com/3dv-casia/PlanaReLoc) (有，代码六月发布，数据集已发布)  
+**领域**: 模型压缩  
 **关键词**: 相机重定位, 平面基元, 结构匹配, 6-DoF位姿估计, 轻量化地图
 
 ## 一句话总结
@@ -134,8 +134,8 @@ PlanaReLoc 的 pipeline 包含三个阶段：(1) **平面基元提取**——从
 
 - [\[CVPR 2026\] GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for Parametric 3D Design](geofusion-cad_structure-aware_diffusion_with_geometric_state_space_for_parametri.md)
 - [\[CVPR 2026\] 4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation](4d_rgpt_toward_region_level_4d_understanding_via_perceptual_distillation.md)
+- [\[AAAI 2026\] Renormalization Group Guided Tensor Network Structure Search](../../AAAI2026/model_compression/renormalization_group_guided_tensor_network_structure_search.md)
 - [\[AAAI 2026\] CAMERA: Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis](../../AAAI2026/model_compression/camera_multi-matrix_joint_compression_for_moe_models_via_mic.md)
 - [\[ICLR 2026\] Distillation of Large Language Models via Concrete Score Matching](../../ICLR2026/model_compression/distillation_of_large_language_models_via_concrete_score_matching.md)
-- [\[CVPR 2025\] Enhancing Dataset Distillation via Non-Critical Region Refinement](../../CVPR2025/model_compression/enhancing_dataset_distillation_via_non-critical_region_refinement.md)
 
 <!-- RELATED:END -->

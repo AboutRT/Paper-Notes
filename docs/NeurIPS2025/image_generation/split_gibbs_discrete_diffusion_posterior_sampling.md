@@ -44,7 +44,7 @@ tags:
 ### 关键设计
 
 1. **基于 Hamming 距离的正则化势函数（核心创新）**：为了使先验步能够精确对应离散扩散模型的去噪过程，设计了特殊的势函数：
-   $$D(\mathbf{x}, \mathbf{z}; \eta) = d(\mathbf{x}, \mathbf{z}) \log \frac{1+(N-1)e^{-\eta}}{(N-1)(1-e^{-\eta})}$$
+    $D(\mathbf{x}, \mathbf{z}; \eta) = d(\mathbf{x}, \mathbf{z}) \log \frac{1+(N-1)e^{-\eta}}{(N-1)(1-e^{-\eta})}$
    其中 $d(\mathbf{x}, \mathbf{z})$ 是 Hamming 距离。设计动机：当 $\eta \to 0^+$ 时，$D \to \infty$（除非 $\mathbf{x}=\mathbf{z}$），保证收敛；同时使先验采样步 $\mathbf{x}^{(k+1)} \sim \pi(\mathbf{x}, \mathbf{z}=\mathbf{z}^{(k)}; \eta) \propto p_0(\mathbf{x})(\tilde\beta/(1-\tilde\beta))^{d(\mathbf{z}^{(k)}, \mathbf{x})}$ 精确等价于离散扩散模型从噪声水平 $\sigma_t = \eta$ 对 $\mathbf{z}^{(k)}$ 的条件去噪。
 
 2. **似然采样步**：每次迭代的似然步从 $\pi(\mathbf{x}=\mathbf{x}^{(k)}, \mathbf{z}; \eta) \propto \exp(-f(\mathbf{z};\mathbf{y}) - D(\mathbf{x}^{(k)}, \mathbf{z}; \eta))$ 中采样。由于非归一化概率密度可直接计算，可使用 Metropolis-Hastings 等 MCMC 方法高效采样。关键优势：不需要似然函数的梯度，天然适配离散空间。
@@ -144,6 +144,6 @@ SGDD 在 XOR 任务上 PSNR 提升 **8.36 dB**。
 - [\[NeurIPS 2025\] Constrained Discrete Diffusion](constrained_discrete_diffusion.md)
 - [\[NeurIPS 2025\] Information-Theoretic Discrete Diffusion](information-theoretic_discrete_diffusion.md)
 - [\[NeurIPS 2025\] Learnable Sampler Distillation for Discrete Diffusion Models](learnable_sampler_distillation_for_discrete_diffusion_models.md)
-- [\[NeurIPS 2025\] Non-Markovian Discrete Diffusion with Causal Language Models](non-markovian_discrete_diffusion_with_causal_language_models.md)
+- [\[NeurIPS 2025\] Remasking Discrete Diffusion Models with Inference-Time Scaling](remasking_discrete_diffusion_models_with_inference-time_scaling.md)
 
 <!-- RELATED:END -->

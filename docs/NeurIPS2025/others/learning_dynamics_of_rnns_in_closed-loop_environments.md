@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.13567](https://arxiv.org/abs/2505.13567)  
-**代码**: [GitHub](https://github.com/yoavger/closed_loop_rnn_learning_dynamics) (有)  
+**代码**: [GitHub](https://github.com/yoavger/closed_loop_rnn_learning_dynamics)  
 **领域**: 理论 / 循环神经网络 / 控制论  
 **关键词**: RNN学习动力学, 闭环学习, 开环vs闭环, 控制理论, 内部表征
 
@@ -50,13 +50,13 @@ tags:
 ### 关键设计
 
 1. **联合闭环系统**：将环境状态 $\bm{x}_t$ 和 RNN 隐状态 $\bm{h}_t$ 合并为联合状态 $\bm{s}_t = (\bm{x}_t, \bm{h}_t)^\top$，得到线性动力系统：
-   $$\bm{s}_{t+1} = \bm{P} \bm{s}_t, \quad \bm{P} = \begin{bmatrix} \bm{A} & \bm{B}\bm{z}^\top \\ \bm{m}\bm{C}\bm{A} & \bm{W} \end{bmatrix}$$
+    $\bm{s}_{t+1} = \bm{P} \bm{s}_t, \quad \bm{P} = \begin{bmatrix} \bm{A} & \bm{B}\bm{z}^\top \\ \bm{m}\bm{C}\bm{A} & \bm{W} \end{bmatrix}$
    系统稳定性由 $\bm{P}$ 的特征值决定。
 
 2. **有效低维系统**：在秩-1 连接权重假设下（$\bm{W} = \bm{u}\bm{v}^\top$），隐状态被限制在 $\bm{m}$ 和 $\bm{u}$ 张成的子空间中，系统降维为 4 维，由 4 个标量序参量（overlap）控制：$\sigma_{\bm{z}\bm{m}}, \sigma_{\bm{z}\bm{u}}, \sigma_{\bm{v}\bm{m}}, \sigma_{\bm{v}\bm{u}}$。
 
 3. **有效反馈增益**：将高维非线性 RNN 策略嵌入到 2D 可解释空间 $(k_1, k_2)$ 中：
-   $$u_t \approx -k_1 x_t^{(1)} - k_2 x_t^{(2)}$$
+    $u_t \approx -k_1 x_t^{(1)} - k_2 x_t^{(2)}$
    通过闭环矩阵 $\bm{M}_{\text{cl}} = \bm{A} - \bm{B}\bm{K}$ 分析稳定性区域。
 
 ### 三阶段学习动态

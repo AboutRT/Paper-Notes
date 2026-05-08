@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 多模态
-  - 图像质量评估
+  - 多模态VLM
   - 空间定位
   - 多模态LLM
   - 细粒度感知
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2411.17237](https://arxiv.org/abs/2411.17237)  
-**代码**: https://github.com/zhengchen1999/Grounding-IQA (有)  
+**代码**: [https://github.com/zhengchen1999/Grounding-IQA](https://github.com/zhengchen1999/Grounding-IQA)  
 **领域**: 目标检测 / 多模态VLM / 图像质量评估  
 **关键词**: 图像质量评估, 空间定位, 多模态LLM, 细粒度感知, grounding
 
@@ -123,8 +123,8 @@ tags:
 
 - [\[ICLR 2026\] Self-Evolving Vision-Language Models for Image Quality Assessment via Voting and Ranking](self-evolving_vision-language_models_for_image_quality_assessment_via_voting_and.md)
 - [\[ICLR 2026\] VisJudge-Bench: Aesthetics and Quality Assessment of Visualizations](visjudge-bench_aesthetics_and_quality_assessment_of_visualizations.md)
-- [\[ECCV 2024\] Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models](../../ECCV2024/multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md)
+- [\[ICCV 2025\] Enrich and Detect: Video Temporal Grounding with Multimodal LLMs](../../ICCV2025/multimodal_vlm/enrich_and_detect_video_temporal_grounding_with_multimodal_llms.md)
 - [\[CVPR 2026\] FluoCLIP: Stain-Aware Focus Quality Assessment in Fluorescence Microscopy](../../CVPR2026/multimodal_vlm/fluoclip_stain-aware_focus_quality_assessment_in_fluorescence_microscopy.md)
-- [\[AAAI 2026\] MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment](../../AAAI2026/multimodal_vlm/mcmoe_completing_missing_modalities_with_mixture_of_experts_for_incomplete_multi.md)
+- [\[CVPR 2026\] GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding](../../CVPR2026/multimodal_vlm/groundvts_visual_token_sampling_in_multimodal_large_language_models_for_video_te.md)
 
 <!-- RELATED:END -->

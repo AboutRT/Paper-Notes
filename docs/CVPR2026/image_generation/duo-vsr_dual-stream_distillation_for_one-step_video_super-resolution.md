@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.22271](https://arxiv.org/abs/2603.22271)  
-**代码**: https://cszy98.github.io/DUO-VSR/  
+**代码**: [https://cszy98.github.io/DUO-VSR/](https://cszy98.github.io/DUO-VSR/)  
 **领域**: 图像生成 / 视频超分  
 **关键词**: 视频超分辨率, 扩散蒸馏, 单步生成, GAN, 分布匹配蒸馏
 

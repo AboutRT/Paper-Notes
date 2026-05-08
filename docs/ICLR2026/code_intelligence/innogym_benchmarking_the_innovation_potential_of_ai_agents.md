@@ -2,10 +2,10 @@
 title: >-
   [论文解读] InnoGym: Benchmarking the Innovation Potential of AI Agents
 description: >-
-  [ICLR 2026][AI agent benchmark] 提出 InnoGym，第一个系统评估 AI Agent 创新能力的基准和框架，引入 Performance Gain 和 Novelty 两个互补指标，通过 18 个可改进任务发现当前 Agent 具备一定创新性但缺乏将创新转化为可靠性能提升的鲁棒性。
+  [ICLR 2026][代码智能] 提出 InnoGym，第一个系统评估 AI Agent 创新能力的基准和框架，引入 Performance Gain 和 Novelty 两个互补指标，通过 18 个可改进任务发现当前 Agent 具备一定创新性但缺乏将创新转化为可靠性能提升的鲁棒性。
 tags:
   - ICLR 2026
-  - AI agent benchmark
+  - 代码智能
   - innovation evaluation
   - performance gain
   - novelty
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2512.01822](https://arxiv.org/abs/2512.01822)  
-**代码**: https://github.com/zjunlp/igym  
-**领域**: Agent  
+**代码**: [https://github.com/zjunlp/igym](https://github.com/zjunlp/igym)  
+**领域**: 代码智能  
 **关键词**: AI agent benchmark, innovation evaluation, performance gain, novelty, improvable tasks
 
 ## 一句话总结

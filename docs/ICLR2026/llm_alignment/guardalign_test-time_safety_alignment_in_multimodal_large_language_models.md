@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.24027](https://arxiv.org/abs/2602.24027)  
 **代码**: 无  
-**领域**: AI安全 / 多模态VLM  
+**领域**: LLM对齐  
 **关键词**: LVLM安全, 最优传输, 注意力校准, 推理时防御, 视觉安全检测
 
 ## 一句话总结
@@ -125,6 +125,6 @@ tags:
 - [\[ICLR 2026\] A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models](a2d_any-order_any-step_safety_alignment_for_diffusion_language_models.md)
 - [\[ACL 2025\] SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings](../../ACL2025/llm_alignment/sea_lowresource_safety_alignment_for_multimodal.md)
 - [\[ICLR 2026\] Towards Understanding Valuable Preference Data for Large Language Model Alignment](towards_understanding_valuable_preference_data_for_large_language_model_alignmen.md)
-- [\[ICLR 2026\] Superficial Safety Alignment Hypothesis](superficial_safety_alignment_hypothesis.md)
+- [\[AAAI 2026\] W2S-AlignTree: Weak-to-Strong Inference-Time Alignment for Large Language Models via Monte Carlo Tree Search](../../AAAI2026/llm_alignment/w2s-aligntree_weak-to-strong_inference-time_alignment_for_large_language_models_.md)
 
 <!-- RELATED:END -->

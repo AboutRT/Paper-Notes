@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.16858](https://arxiv.org/abs/2504.16858)  
 **代码**: [https://github.com/ninglab/DiffTOD](https://github.com/ninglab/DiffTOD)  
-**领域**: LLM Agent  
+**领域**: 图像生成  
 **关键词**: 对话规划, 扩散模型, 目标导向对话, 非顺序规划, 轨迹生成  
 
 ## 一句话总结

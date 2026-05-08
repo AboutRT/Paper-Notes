@@ -55,7 +55,7 @@ tags:
 2. **SemiTrust-and-Switch 框架**：引入长度阈值 $\tau$。在 trust phase 中，长度超过 $\tau$ 的区间直接贪心接受（不依赖预测），长度低于 $\tau$ 的区间才依赖预测。这样即使预测不准，也不会错过高价值的长区间。代价是一致性从 1 退化为 $(1 + k/\tau)$，但鲁棒性显著提升为 $|Opt| \leq \max(\theta, \Delta+1) \cdot |Alg| + \tau$。阈值 $\tau$ 可调，控制一致性和鲁棒性之间的权衡曲线。
 
 3. **SmoothMerge 随机算法**：并行模拟 Trust 和 Greedy 两个策略。对每个到达的区间，如果两策略一致（都接受或都拒绝），则按一致决策执行；如果不一致，以概率 $p_t$（Trust 概率）或 $p_g$（Greedy 概率）随机接受。核心保证：
-   $$\mathbb{E}[|Alg|] \geq \max\left\{|Opt| \cdot (1-\eta) \cdot p_t \cdot (1-p_g),\quad \frac{p_g - p_t p_g}{1 - p_t p_g} \cdot |Greedy|\right\}$$
+    $\mathbb{E}[|Alg|] \geq \max\left\{|Opt| \cdot (1-\eta) \cdot p_t \cdot (1-p_g),\quad \frac{p_g - p_t p_g}{1 - p_t p_g} \cdot |Greedy|\right\}$
    其中 $\eta$ 是预测误差。通过调节 $p_t, p_g$ 可在平滑性和鲁棒性之间连续插值。
 
 ### 预测模型
@@ -125,8 +125,8 @@ tags:
 
 - [\[NeurIPS 2025\] Non-Clairvoyant Scheduling with Progress Bars](../../NeurIPS2025/others/non-clairvoyant_scheduling_with_progress_bars.md)
 - [\[AAAI 2026\] Enhancing Control Policy Smoothness by Aligning Actions with Predictions from Preceding States](enhancing_control_policy_smoothness_by_aligning_actions_with_predictions_from_pr.md)
-- [\[NeurIPS 2025\] Learning-Augmented Online Bipartite Fractional Matching](../../NeurIPS2025/others/learning-augmented_online_bipartite_fractional_matching.md)
 - [\[AAAI 2026\] DeToNATION: Decoupled Torch Network-Aware Training on Interlinked Online Nodes](detonation_decoupled_torch_network-aware_training_on_interlinked_online_nodes.md)
+- [\[NeurIPS 2025\] Learning-Augmented Online Bipartite Fractional Matching](../../NeurIPS2025/others/learning-augmented_online_bipartite_fractional_matching.md)
 - [\[ACL 2025\] Minimal Pair-Based Evaluation of Code-Switching](../../ACL2025/others/minimal_pair-based_evaluation_of_code-switching.md)
 
 <!-- RELATED:END -->

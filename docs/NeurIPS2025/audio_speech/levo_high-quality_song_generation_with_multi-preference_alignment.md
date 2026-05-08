@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 语音
   - 歌曲生成
-  - 语言模型
+  - 音频语音
   - 多偏好对齐
   - DPO
   - 音乐编解码器
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.07520](https://arxiv.org/abs/2506.07520)  
-**代码**: [GitHub](https://github.com/tencent-ailab/songgeneration) (有)  
+**代码**: [GitHub](https://github.com/tencent-ailab/songgeneration)  
 **领域**: 音频与语音生成  
 **关键词**: 歌曲生成, 语言模型, 多偏好对齐, DPO, 音乐编解码器
 
@@ -164,9 +164,9 @@ DPO 多偏好对齐策略对比：
 ## 相关论文
 
 - [\[NeurIPS 2025\] A TRIANGLE Enables Multimodal Alignment Beyond Cosine Similarity](a_triangle_enables_multimodal_alignment_beyond_cosine_simila.md)
-- [\[NeurIPS 2025\] Multi-head Temporal Latent Attention](multi-head_temporal_latent_attention.md)
 - [\[ACL 2025\] Advancing Zero-shot Text-to-Speech Intelligibility across Diverse Domains via Preference Alignment](../../ACL2025/audio_speech/advancing_zero-shot_text-to-speech_intelligibility_across_diverse_domains_via_pr.md)
-- [\[NeurIPS 2025\] DeepASA: An Object-Oriented Multi-Purpose Network for Auditory Scene Analysis](deepasa_an_object-oriented_multi-purpose_network_for_auditory_scene_analysis.md)
 - [\[NeurIPS 2025\] MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation](megadance_mixture-of-experts_architecture_for_genre-aware_3d_dance_generation.md)
+- [\[NeurIPS 2025\] Resounding Acoustic Fields with Reciprocity](resounding_acoustic_fields_with_reciprocity.md)
+- [\[NeurIPS 2025\] SimulMEGA: MoE Routers are Advanced Policy Makers for Simultaneous Speech Translation](simulmega_moe_routers_are_advanced_policy_makers_for_simultaneous_speech_transla.md)
 
 <!-- RELATED:END -->

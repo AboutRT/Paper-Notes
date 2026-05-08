@@ -54,7 +54,7 @@ LightCtrl 基于 Stable Diffusion 骨干：
 
    轻量编码器-解码器 $E_\phi$ 从源图预测紧凑潜在代理 $\hat{\mathcal{B}} = \{a, n, r, m\} \in \mathbb{R}^{H \times W \times 8}$（albedo、法线、粗糙度、金属度）。仅在少量样本上使用 PBR 监督训练：
 
-   $$\mathcal{L}_{\text{proxy}} = \lambda_a\|a-\hat{a}\|_1 + \lambda_n(1-\langle n, \hat{n}\rangle) + \lambda_r\|r-\hat{r}\|_1 + \lambda_m \mathrm{BCE}(m, \hat{m})$$
+    $\mathcal{L}_{\text{proxy}} = \lambda_a\|a-\hat{a}\|_1 + \lambda_n(1-\langle n, \hat{n}\rangle) + \lambda_r\|r-\hat{r}\|_1 + \lambda_m \mathrm{BCE}(m, \hat{m})$
 
    Proxy maps 经空间池化+投射为条件 token $t_{\text{proxy}} = f_{\text{proj}}(E_\phi(x_s^{\ell_s})) \in \mathbb{R}^{1 \times 768}$ 注入去噪器。设计动机：不追求精确 intrinsic 重建，只需"够用"的材质-几何暗示来约束去噪轨迹。
 
@@ -62,7 +62,7 @@ LightCtrl 基于 Stable Diffusion 骨干：
 
    光照变化通常仅影响少量像素（阴影边界、高光区域）。基于源-目标对的线性亮度差异导出软 ground-truth mask：
 
-   $$M_{\mathrm{gt}} = \mathcal{N}\left(\alpha|\log Y_t - \log Y_s| + (1-\alpha)D_{\mathrm{robust}}(Y_s, Y_t)\right)$$
+    $M_{\mathrm{gt}} = \mathcal{N}\left(\alpha|\log Y_t - \log Y_s| + (1-\alpha)D_{\mathrm{robust}}(Y_s, Y_t)\right)$
 
    训练时无法访问目标图，因此轻量预测器 $M_\theta = m_\theta(x_s^{\ell_s}, \Delta\ell)$ 从源图+光照变化推断 mask（BCE+Dice loss 监督）。Mask 转化为空间权重图 $W$ 调制噪声重建损失，引导去噪器关注光照敏感区域。
 

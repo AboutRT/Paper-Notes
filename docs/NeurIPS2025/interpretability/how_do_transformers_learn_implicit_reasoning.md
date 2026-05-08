@@ -2,10 +2,10 @@
 title: >-
   [论文解读] How Do Transformers Learn Implicit Reasoning?
 description: >-
-  [NeurIPS 2025][implicit reasoning] 在精细控制的符号环境中从零训练 Transformer，发现多跳隐式推理经历"记忆→分布内泛化→跨分布泛化"三个阶段，核心机制不是中间实体的可解码性，而是其在余弦空间中的聚类一致性——同一中间实体的表示在不同查询中形成紧密聚类时，推理能力才涌现。
+  [NeurIPS 2025][可解释性] 在精细控制的符号环境中从零训练 Transformer，发现多跳隐式推理经历"记忆→分布内泛化→跨分布泛化"三个阶段，核心机制不是中间实体的可解码性，而是其在余弦空间中的聚类一致性——同一中间实体的表示在不同查询中形成紧密聚类时，推理能力才涌现。
 tags:
   - NeurIPS 2025
-  - implicit reasoning
+  - 可解释性
   - multi-hop
   - grokking
   - cosine clustering
@@ -149,10 +149,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding](../../ICLR2026/interpretability/how_do_transformers_learn_to_associate_tokens_gradient_leading_terms_bring_mecha.md)
 - [\[NeurIPS 2025\] How Intrinsic Motivation Shapes Learned Representations in Decision Transformers: A Cognitive Interpretability Analysis](toward_explainable_offline_rl_analyzing_representations_in_intrinsically_motivat.md)
 - [\[NeurIPS 2025\] Base Models Know How to Reason, Thinking Models Learn When](base_models_know_how_to_reason_thinking_models_learn_when.md)
+- [\[ICLR 2026\] How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding](../../ICLR2026/interpretability/how_do_transformers_learn_to_associate_tokens_gradient_leading_terms_bring_mecha.md)
 - [\[NeurIPS 2025\] Uncovering Graph Reasoning in Decoder-only Transformers with Circuit Tracing](uncovering_graph_reasoning_in_decoder-only_transformers_with_circuit_tracing.md)
-- [\[NeurIPS 2025\] What Happens During the Loss Plateau? Understanding Abrupt Learning in Transformers](what_happens_during_the_loss_plateau_understanding_abrupt_learning_in_transforme.md)
+- [\[NeurIPS 2025\] Do Different Prompting Methods Yield a Common Task Representation?](do_different_prompting_methods_yield_a_common_task_representation_in_language_mo.md)
 
 <!-- RELATED:END -->

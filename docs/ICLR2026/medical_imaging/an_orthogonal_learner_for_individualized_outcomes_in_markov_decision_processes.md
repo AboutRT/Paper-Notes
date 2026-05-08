@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.26429](https://arxiv.org/abs/2509.26429)  
 **代码**: [EmilJavurek/Orthogonal-Q-in-MDPs](https://github.com/EmilJavurek/Orthogonal-Q-in-MDPs)  
-**领域**: 因果推断 / 强化学习  
+**领域**: 医学图像  
 **关键词**: Q函数估计, 双重鲁棒, Neyman正交, 因果推断, 离线策略评估
 
 ## 一句话总结

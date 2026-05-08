@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.18777](https://arxiv.org/abs/2511.18777)  
-**代码**: https://github.com/chenhong-zhou/SAOT  
+**代码**: [https://github.com/chenhong-zhou/SAOT](https://github.com/chenhong-zhou/SAOT)  
 **作者**: Chenhong Zhou, Jie Chen, Zaifeng Yang
 **领域**: 科学计算 / 算子学习  
 **关键词**: 神经算子, 小波变换, 傅里叶注意力, 谱Transformer, PDE求解
@@ -179,7 +179,7 @@ SAOT 在 Darcy、NS、Airfoil、Plasticity 上均取得最优，NS 和 Plasticit
 - [\[AAAI 2026\] Knowledge-Guided Masked Autoencoder with Linear Spectral Mixing and Spectral-Angle-Aware Reconstruction](knowledge-guided_masked_autoencoder_with_linear_spectral_mixing_and_spectral-ang.md)
 - [\[ICLR 2026\] DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning](../../ICLR2026/scientific_computing/drift-net_a_spectral--coupled_neural_operator_for_pdes_learning.md)
 - [\[NeurIPS 2025\] DeltaPhi: Physical States Residual Learning for Neural Operators in Data-Limited PDE Solving](../../NeurIPS2025/scientific_computing/deltaphi_physical_states_residual_learning_for_neural_operators_in_data-limited_.md)
+- [\[ICML 2025\] Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems](../../ICML2025/scientific_computing/erwin_a_tree-based_hierarchical_transformer_for_large-scale_physical_systems.md)
 - [\[AAAI 2026\] Towards a Foundation Model for Partial Differential Equations Across Physics Domains](towards_a_foundation_model_for_partial_differential_equations_across_physics_dom.md)
-- [\[CVPR 2026\] NESTOR: A Nested MOE-based Neural Operator for Large-Scale PDE Pre-Training](../../CVPR2026/scientific_computing/nestor_a_nested_moe-based_neural_operator_for_large-scale_pde_pre-training.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - backdoor attack
   - 模型编辑
-  - LLM安全
+  - 知识编辑
   - 生成式后门
   - 触发器隐蔽性
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2408.10722](https://arxiv.org/abs/2408.10722)  
-**代码**: [GitHub](https://github.com/MonoQ-hub/MEGen) (有)  
-**领域**: AI安全  
+**代码**: [GitHub](https://github.com/MonoQ-hub/MEGen)  
+**领域**: 知识编辑  
 **关键词**: backdoor attack, 模型编辑, LLM安全, 生成式后门, 触发器隐蔽性
 
 ## 一句话总结

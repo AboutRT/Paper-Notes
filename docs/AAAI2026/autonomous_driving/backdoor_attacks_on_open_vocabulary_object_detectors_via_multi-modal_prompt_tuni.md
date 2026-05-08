@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.12735](https://arxiv.org/abs/2511.12735)  
 **代码**: [rajankita/TrAP](https://github.com/rajankita/TrAP)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: backdoor attack, open-vocabulary object detection, prompt tuning, Grounding DINO, GLIP, adversarial security
 
 ## 一句话总结

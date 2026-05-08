@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.03307](https://arxiv.org/abs/2503.03307)  
-**代码**: https://github.com/jizhaox/relpose-event  
+**代码**: [https://github.com/jizhaox/relpose-event](https://github.com/jizhaox/relpose-event)  
 **领域**: 其他  
 **关键词**: 事件相机、自运动估计、几何求解器、6-DoF位姿、共面约束
 
@@ -131,8 +131,8 @@ tags:
 
 - [\[CVPR 2025\] Order-One Rolling Shutter Cameras](order-one_rolling_shutter_cameras.md)
 - [\[AAAI 2026\] Spike Imaging Velocimetry: Dense Motion Estimation of Fluids Using Spike Cameras](../../AAAI2026/others/spike_imaging_velocimetry_dense_motion_estimation_of_fluids_using_spike_cameras.md)
-- [\[CVPR 2025\] A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering](a2z-10m_geometric_deep_learning_with_a-to-z_brep_annotations_for_ai-assisted_cad.md)
 - [\[NeurIPS 2025\] OrthoLoC: UAV 6-DoF Localization and Calibration Using Orthographic Geodata](../../NeurIPS2025/others/ortholoc_uav_6-dof_localization_and_calibration_using_orthographic_geodata.md)
 - [\[ECCV 2024\] Event-based Mosaicing Bundle Adjustment](../../ECCV2024/others/event-based_mosaicing_bundle_adjustment.md)
+- [\[ICML 2025\] Lightspeed Geometric Dataset Distance via Sliced Optimal Transport](../../ICML2025/others/lightspeed_geometric_dataset_distance_via_sliced_optimal_transport.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 图像恢复
-  - 扩散语言模型
+  - 图像复原
   - 强化学习
   - 策略优化
   - 推理能力
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2507.08838](https://arxiv.org/abs/2507.08838)  
-**代码**: https://github.com/xiaohangt/wd1  
-**领域**: LLM推理 / 扩散语言模型  
+**代码**: [https://github.com/xiaohangt/wd1](https://github.com/xiaohangt/wd1)  
+**领域**: 图像复原  
 **关键词**: 扩散语言模型, 强化学习, 策略优化, 推理能力, dLLM
 
 ## 一句话总结
@@ -137,6 +137,6 @@ tags:
 - [\[ICLR 2026\] Horizon Imagination: Efficient On-Policy Rollout in Diffusion World Models](horizon_imagination_efficient_on-policy_rollout_in_diffusion_world_models.md)
 - [\[ICLR 2026\] Activation Steering for Masked Diffusion Language Models](activation_steering_for_masked_diffusion_language_models.md)
 - [\[ACL 2026\] Lost in Diffusion: Uncovering Hallucination Patterns and Failure Modes in Diffusion Large Language Models](../../ACL2026/image_restoration/lost_in_diffusion_uncovering_hallucination_patterns_and_failure_modes_in_diffusi.md)
-- [\[ACL 2026\] CreditDecoding: Accelerating Parallel Decoding in Diffusion Large Language Models with Trace Credit](../../ACL2026/image_restoration/creditdecoding_accelerating_parallel_decoding_in_diffusion_large_language_models.md)
+- [\[ICLR 2026\] Are Deep Speech Denoising Models Robust to Adversarial Noise?](are_deep_speech_denoising_models_robust_to_adversarial_noise.md)
 
 <!-- RELATED:END -->

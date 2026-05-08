@@ -14,7 +14,7 @@ tags:
 - **会议**: ACL 2025
 - **arXiv**: [2503.01763](https://arxiv.org/abs/2503.01763)
 - **代码**: [https://github.com/shizhl/Tool-Retrieval-Benchmark](https://github.com/shizhl/Tool-Retrieval-Benchmark)
-- **领域**: LLM评估 / 工具检索
+- **领域**: LLM评测
 - **关键词**: Tool Retrieval, Tool Learning, Information Retrieval, Benchmark, LLM Agent
 
 ## 一句话总结
@@ -116,8 +116,8 @@ ToolRet基准的构建包含三个阶段：(1) 数据收集——从AI顶会论�
 
 - [\[ACL 2025\] CodeMEnv: Benchmarking Large Language Models on Code Migration](codemenv_benchmarking_large_language_models_on_code_migration.md)
 - [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
-- [\[ACL 2025\] Mis-prompt: Benchmarking Large Language Models for Proactive Error Handling](mis-prompt_benchmarking_large_language_models_for_proactive_error_handling.md)
 - [\[ACL 2025\] Benchmarking Uncertainty Quantification Methods for Large Language Models with LM-Polygraph](benchmarking_uncertainty_quantification_methods_for_large_language_models_with_l.md)
-- [\[ICML 2025\] Correlated Errors in Large Language Models](../../ICML2025/llm_evaluation/correlated_errors_in_large_language_models.md)
+- [\[ACL 2025\] Mis-prompt: Benchmarking Large Language Models for Proactive Error Handling](mis-prompt_benchmarking_large_language_models_for_proactive_error_handling.md)
+- [\[ICML 2025\] PhantomWiki: On-Demand Datasets for Reasoning and Retrieval Evaluation](../../ICML2025/llm_evaluation/phantomwiki_on-demand_datasets_for_reasoning_and_retrieval_evaluation.md)
 
 <!-- RELATED:END -->

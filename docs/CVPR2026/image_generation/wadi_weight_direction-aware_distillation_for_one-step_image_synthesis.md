@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.08258](https://arxiv.org/abs/2603.08258)  
-**代码**: https://github.com/gudaochangsheng/WaDi  
+**代码**: [https://github.com/gudaochangsheng/WaDi](https://github.com/gudaochangsheng/WaDi)  
 **领域**: 图像生成  
 **关键词**: 扩散蒸馏, 权重方向, 低秩旋转, 一步生成, 参数高效
 

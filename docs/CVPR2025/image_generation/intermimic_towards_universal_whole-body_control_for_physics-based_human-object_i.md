@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.20390](https://arxiv.org/abs/2502.20390)  
-**代码**: https://sirui-xu.github.io/InterMimic  
-**领域**: 3D视觉  
+**代码**: [https://sirui-xu.github.io/InterMimic](https://sirui-xu.github.io/InterMimic)  
+**领域**: 图像生成  
 **关键词**: 物理仿真, 人物交互, 动作模仿, 教师-学生蒸馏, 全身控制
 
 ## 一句话总结

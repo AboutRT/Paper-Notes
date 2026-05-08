@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.07925](https://arxiv.org/abs/2511.07925)  
-**代码**: https://github.com/PKU-ICST-MIPL/HD2-AAAI2026  
+**代码**: [https://github.com/PKU-ICST-MIPL/HD2-AAAI2026](https://github.com/PKU-ICST-MIPL/HD2-AAAI2026)  
 **领域**: Autonomous Driving  
 **关键词**: Semantic Scene Completion, 维度间隙, 密度间隙, 语义解耦, 体素对齐
 

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.04616](https://arxiv.org/abs/2412.04616)  
 **代码**: [https://lezhang7.github.io/sail.github.io/](https://lezhang7.github.io/sail.github.io/)  
-**领域**: 分割(视觉语言对齐)  
+**领域**: 图像分割  
 **关键词**: 视觉语言对齐, DINOv2, CLIP, 迁移学习, 高效训练
 
 ## 一句话总结

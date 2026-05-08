@@ -10,7 +10,7 @@ tags:
   - 激活引导
   - 稀疏自编码器
   - 概念字典
-  - 越狱防御
+  - 多模态VLM
 ---
 
 # Dictionary-Aligned Concept Control for Safeguarding Multimodal LLMs
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.08846](https://arxiv.org/abs/2604.08846)  
 **代码**: 无  
-**领域**: AI安全  
+**领域**: 多模态VLM  
 **关键词**: 多模态安全, 激活引导, 稀疏自编码器, 概念字典, 越狱防御
 
 ## 一句话总结
@@ -125,7 +125,7 @@ SAE 训练使用标准重构+稀疏损失（Eq. 3），支持 L1 正则化和 To
 - [\[CVPR 2026\] LLaVAShield: Safeguarding Multimodal Multi-Turn Dialogues in Vision-Language Models](llavashield_safeguarding_multimodal_multi-turn_dialogues_in_vision-language_mode.md)
 - [\[CVPR 2026\] Concept-wise Attention for Fine-grained Concept Bottleneck Models](coat_cbm_concept_wise_attention.md)
 - [\[CVPR 2026\] Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild](joint-aligned_latent_action_towards_scalable_vla_pretraining_in_the_wild.md)
-- [\[CVPR 2026\] PersonaVLM: Long-Term Personalized Multimodal LLMs](personavlm_long_term_personalized_multimodal_llms.md)
 - [\[CVPR 2026\] Customized Visual Storytelling with Unified Multimodal LLMs](customized_visual_storytelling_with_unified_multimodal_llms.md)
+- [\[CVPR 2026\] PersonaVLM: Long-Term Personalized Multimodal LLMs](personavlm_long_term_personalized_multimodal_llms.md)
 
 <!-- RELATED:END -->

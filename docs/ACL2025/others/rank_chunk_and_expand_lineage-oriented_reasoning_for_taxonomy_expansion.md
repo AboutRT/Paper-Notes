@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 分类体系扩展
-  - LLM结构推理
+  - 其他
   - 判别式排序
   - 生成式推理
   - 分类路径
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.13282](https://arxiv.org/abs/2505.13282)  
 **代码**: [有](https://github.com/sahilmishra0012/LOREx)  
-**领域**: NLP / 知识图谱  
+**领域**: 其他  
 **关键词**: 分类体系扩展, LLM结构推理, 判别式排序, 生成式推理, 分类路径
 
 ## 一句话总结
@@ -167,8 +167,8 @@ LORex（图 2）分为四个模块：
 
 - [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](cola_collaborative_low-rank_adaptation.md)
 - [\[ACL 2025\] Explaining Matters: Leveraging Definitions and Semantic Expansion for Sexism Detection](explaining_matters_leveraging_definitions_and_semantic_expansion_for_sexism_dete.md)
-- [\[ACL 2025\] SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning](sorft_issue_resolving_with_subtask-oriented_reinforced_fine-tuning.md)
 - [\[ACL 2025\] ProxAnn: Use-Oriented Evaluations of Topic Models and Document Clustering](proxann_topic_model_eval.md)
+- [\[ACL 2025\] SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning](sorft_issue_resolving_with_subtask-oriented_reinforced_fine-tuning.md)
 - [\[ACL 2025\] Low-Rank Interconnected Adaptation across Layers](low-rank_interconnected_adaptation_across_layers.md)
 
 <!-- RELATED:END -->

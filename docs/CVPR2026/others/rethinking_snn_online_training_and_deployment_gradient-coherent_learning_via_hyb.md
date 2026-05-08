@@ -45,12 +45,12 @@ $$\mathbf{s}_t^{l,*} = \begin{cases} \mathbf{m}_t^l - \theta_t^l, & \mathbf{m}_t
 ### 关键设计
 
 1. **梯度可分离性 (Theorem 4.2)**：HD-LIF 的关键理论贡献——由于 $\frac{\partial s_t^{l,*}}{\partial m_t^l}$ 在阈值上下区域分别为常数（0 或 1），代理梯度不依赖膜电位值。这使得时间梯度贡献权重 $\epsilon^l[i,t] = \chi^l[i,i] \prod_{j=t+1}^{i} \chi^l[j,j-1]$，其中 $\chi^l[i,i] \in \{0,1\}$, $\chi^l[j,j-1] \in \{0, \lambda_j^l\}$ 均为有限集合中的常数。因此在线训练的梯度可以无缝地从 STBP 梯度转换而来：
-   $$\left(\frac{\partial \mathcal{L}}{\partial m_t^l}\right)_{\text{Online}} = \frac{\chi^l[t,t]}{\chi^l[t,t] + \sum_{i=t+1}^{T} \chi^l[i,i] \prod_{j=t+1}^{i} \chi^l[j,j-1]} \left(\frac{\partial \mathcal{L}}{\partial m_t^l}\right)_{\text{STBP}}$$
+    $\left(\frac{\partial \mathcal{L}}{\partial m_t^l}\right)_{\text{Online}} = \frac{\chi^l[t,t]}{\chi^l[t,t] + \sum_{i=t+1}^{T} \chi^l[i,i] \prod_{j=t+1}^{i} \chi^l[j,j-1]} \left(\frac{\partial \mathcal{L}}{\partial m_t^l}\right)_{\text{STBP}}$
 
 2. **Parallel HD-LIF**：将发火简化为 $\mathbf{s}_t^{l,*} := (\mathbf{I}_t^l \geq \theta_t^l)$，去除漏电和充电过程，神经元层的 NOPs 仅由 $T$ 次 ADD 操作组成，显著降低推理开销。在网络中按一定比例混入以平衡精度和效率。
 
 3. **Mem-BN HD-LIF**：在膜电位维度引入时间方向的批归一化，通过可学习参数 $\alpha_t^l$、$\beta_t^l$ 调节归一化程度。关键特性是可通过重参数化融入膜相关参数，推理时不引入额外计算：
-   $$\hat{\lambda}_t^l = \alpha_t^{l,*} \lambda_t^l, \quad \hat{\mathbf{I}}_t^l = \alpha_t^{l,*} \mathbf{I}_t^l - \beta_t^{l,*}$$
+    $\hat{\lambda}_t^l = \alpha_t^{l,*} \lambda_t^l, \quad \hat{\mathbf{I}}_t^l = \alpha_t^{l,*} \mathbf{I}_t^l - \beta_t^{l,*}$
    当 $\alpha_t^l=1, \beta_t^l=0$ 时退化为 vanilla HD-LIF，保证性能下界。
 
 4. **SECA 高效通道注意力**：参数量仅 $O(K)$、计算量 $O(KC)$ 的轻量注意力模块，脉冲序列在时间维度共享 SECA 权重。提出两个变体：$\text{SECA}_\text{I}$（标准）和 $\text{SECA}_\text{II}$（融合突触前后层输入电流以补偿压缩权重的特征提取不足）。
@@ -128,7 +128,7 @@ SECA 注意力模块效果（CIFAR-100, ResNet-18）：78.45% → 79.33%（+0.88
 - [\[CVPR 2026\] ViT3: Unlocking Test-Time Training in Vision](vit3_unlocking_test_time_training_in_vision.md)
 - [\[CVPR 2026\] ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training](zo-sam_zero-order_sharpness-aware_minimization_for_efficient_sparse_training.md)
 - [\[CVPR 2026\] IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](irisfp_adversarial-example-based_model_fingerprinting_with_enhanced_uniqueness_a.md)
+- [\[CVPR 2026\] TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size](teamhoi_learning_a_unified_policy_for_cooperative_human-object_interactions_with.md)
 - [\[CVPR 2026\] Rooftop Wind Field Reconstruction Using Sparse Sensors: From Deterministic to Generative Learning Methods](rooftop_wind_field_reconstruction_using_sparse_sen.md)
-- [\[CVPR 2026\] UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting](unispector_towards_universal_open-set_defect_recognition_via_spectral-contrastiv.md)
 
 <!-- RELATED:END -->

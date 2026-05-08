@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.11505](https://arxiv.org/abs/2411.11505)  
-**代码**: https://derrickwang005.github.io/LaVin-DiT/ (有)  
+**代码**: [https://derrickwang005.github.io/LaVin-DiT/](https://derrickwang005.github.io/LaVin-DiT/)  
 **领域**: 扩散模型 / 多模态VLM  
 **关键词**: 大视觉模型, 扩散Transformer, In-Context Learning, 统一视觉框架, 多任务学习
 

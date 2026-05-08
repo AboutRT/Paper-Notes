@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.05347](https://arxiv.org/abs/2506.05347)  
-**代码**: https://anaghmalik.com/InvProp  
+**代码**: [https://anaghmalik.com/InvProp](https://anaghmalik.com/InvProp)  
 **领域**: 自动驾驶  
 **关键词**: 时间分辨逆渲染、LiDAR、间接光照、辐射缓存、物理渲染
 

@@ -8,7 +8,7 @@ tags:
   - 概念解释
   - 激活图融合
   - Grad-CAM
-  - VLM知识迁移
+  - 可解释性
   - 可解释性
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2509.23849](https://arxiv.org/abs/2509.23849)  
 **代码**: 无  
-**领域**: 多模态VLM / 可解释AI  
+**领域**: 可解释性  
 **关键词**: 概念解释, 激活图融合, Grad-CAM, VLM知识迁移, 可解释性
 
 ## 一句话总结
@@ -56,12 +56,12 @@ CE-FAM的工作流程：
 
    与仅使用最后一层嵌入的传统方法不同，CE-FAM利用CNN各层的嵌入向量捕获从低级到高级的全部特征：
 
-   $$\mathbf{z}^l = \text{AvgPool}(A^l)$$
-   $$\mathbf{z}_{\text{cat}} = \text{Concat}(\mathbf{z}^1, \mathbf{z}^2, \ldots, \mathbf{z}^L)$$
+    $\mathbf{z}^l = \text{AvgPool}(A^l)$
+    $\mathbf{z}_{\text{cat}} = \text{Concat}(\mathbf{z}^1, \mathbf{z}^2, \ldots, \mathbf{z}^L)$
 
    通过translator函数 $h$（简单MLP）将 $\mathbf{z}_{\text{cat}}$ 投影到CLIP嵌入空间。训练损失：
 
-   $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{emb}} + \lambda \mathcal{L}_{\text{sim}}$$
+    $\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{emb}} + \lambda \mathcal{L}_{\text{sim}}$
 
    其中 $\mathcal{L}_{\text{emb}} = \text{MSE}(h(\mathbf{z}_{\text{cat}}) - E_{\text{image}}(\mathbf{x}))$ 模拟VLM嵌入，$\mathcal{L}_{\text{sim}} = \text{MSE}(S^t - S_{\text{VLM}}^t)$ 匹配概念预测分数。
 
@@ -71,8 +71,8 @@ CE-FAM的工作流程：
 
    扩展Grad-CAM思想，对每个概念 $t$ 在每层 $l$ 生成区域图：
 
-   $$R_t^l = \text{ReLU}\left(\sum_k \beta_k^t A_k^l\right)$$
-   $$\beta_k^t = \frac{1}{\gamma} \sum_i \sum_j \frac{\partial S^t}{\partial A_k^l(i,j)}$$
+    $R_t^l = \text{ReLU}\left(\sum_k \beta_k^t A_k^l\right)$
+    $\beta_k^t = \frac{1}{\gamma} \sum_i \sum_j \frac{\partial S^t}{\partial A_k^l(i,j)}$
 
    用概念预测分数 $S^t$ 的梯度作为权重（而非类别预测分数 $p^c$），生成概念特异的区域图。
 
@@ -81,16 +81,16 @@ CE-FAM的工作流程：
 3. **概念贡献量化 (Concept Contribution)**
 
    不限于最后一层，可量化任意层的概念贡献：
-   - 计算方式与关联度评分相同，但目标改为类别预测分数 $p^c$
-   - 逐步遮蔽最重要通道，记录 $p^c$ 的下降曲线AUC
-   - 负贡献（遮蔽后分数上升）也有意义，表示该概念对预测有负面影响
+    - 计算方式与关联度评分相同，但目标改为类别预测分数 $p^c$
+    - 逐步遮蔽最重要通道，记录 $p^c$ 的下降曲线AUC
+    - 负贡献（遮蔽后分数上升）也有意义，表示该概念对预测有负面影响
 
 4. **NRA评估指标 (Normalized Region Accuracy)**
 
    现有指标的问题：IoU受阈值选择影响，VEA (AUC)在大mask区域时即使随机结果也会得高分。
 
    NRA通过归一化消除样本分布影响：
-   $$\text{NRA} = \frac{\text{AUC} - \text{AUC}_{\text{low}}}{\text{AUC}_{\text{high}} - \text{AUC}_{\text{low}}}$$
+    $\text{NRA} = \frac{\text{AUC} - \text{AUC}_{\text{low}}}{\text{AUC}_{\text{high}} - \text{AUC}_{\text{low}}}$
 
    其中 $\text{AUC}_{\text{high}}$ 为理想（GT分割）下的AUC，$\text{AUC}_{\text{low}}$ 为随机区域的AUC。NRA衡量预测区域在随机和理想之间的相对位置。
 
@@ -179,8 +179,8 @@ ImageNet-S数据集上（ViT-B/16分类器）：
 
 - [\[ICCV 2025\] ArgoTweak: Towards Self-Updating HD Maps through Structured Priors](argotweak_towards_self-updating_hd_maps_through_structured_priors.md)
 - [\[ICCV 2025\] Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations](granular_concept_circuits_toward_a_fine-grained_circuit_discovery_for_concept_re.md)
-- [\[ACL 2025\] Separating Tongue from Thought: Activation Patching Reveals Language-Agnostic Concept Representations in Transformers](../../ACL2025/interpretability/separating_tongue_from_thought_activation_patching_reveals_language-agnostic_con.md)
-- [\[ICLR 2026\] When Machine Learning Gets Personal: Evaluating Prediction and Explanation](../../ICLR2026/interpretability/when_machine_learning_gets_personal_evaluating_prediction_and_explanation.md)
+- [\[ACL 2025\] Separating Tongue from Thought: Activation Patching Reveals Language-Agnostic Concept Representations in Transformers](../../ACL2025/interpretability/language_agnostic_concepts.md)
 - [\[NeurIPS 2025\] Probabilistic Token Alignment for Large Language Model Fusion](../../NeurIPS2025/interpretability/probabilistic_token_alignment_for_large_language_model_fusion.md)
+- [\[ICLR 2026\] When Machine Learning Gets Personal: Evaluating Prediction and Explanation](../../ICLR2026/interpretability/when_machine_learning_gets_personal_evaluating_prediction_and_explanation.md)
 
 <!-- RELATED:END -->

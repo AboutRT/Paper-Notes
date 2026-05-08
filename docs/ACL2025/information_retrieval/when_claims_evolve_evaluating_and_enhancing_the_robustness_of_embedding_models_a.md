@@ -2,10 +2,10 @@
 title: >-
   [论文解读] When Claims Evolve: Evaluating and Enhancing the Robustness of Embedding Models Against Misinformation Edits
 description: >-
-  [ACL 2025 Findings][事实核查] 提出一个扰动框架来系统评估句子嵌入模型在处理经过编辑的虚假信息声明时的鲁棒性，发现标准嵌入模型性能显著下降，并通过知识蒸馏和声明规范化两种缓解方法将领域内鲁棒性提升最高 17 个百分点、跨域泛化提升 10 个百分点。
+  [ACL 2025 Findings][信息检索] 提出一个扰动框架来系统评估句子嵌入模型在处理经过编辑的虚假信息声明时的鲁棒性，发现标准嵌入模型性能显著下降，并通过知识蒸馏和声明规范化两种缓解方法将领域内鲁棒性提升最高 17 个百分点、跨域泛化提升 10 个百分点。
 tags:
   - ACL 2025 Findings
-  - 事实核查
+  - 信息检索
   - 声明匹配
   - 嵌入模型鲁棒性
   - 虚假信息变体
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025 Findings  
 **arXiv**: [2503.03417](https://arxiv.org/abs/2503.03417)  
-**代码**: https://github.com/JabezNzomo99/claim-matching-robustness  
-**领域**: NLP理解  
+**代码**: [https://github.com/JabezNzomo99/claim-matching-robustness](https://github.com/JabezNzomo99/claim-matching-robustness)  
+**领域**: 信息检索  
 **关键词**: 事实核查、声明匹配、嵌入模型鲁棒性、虚假信息变体、检索系统
 
 ## 一句话总结
@@ -132,7 +132,7 @@ tags:
 - [\[NeurIPS 2025\] Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals](../../NeurIPS2025/information_retrieval/worse_than_zero-shot_a_fact-checking_dataset_for_evaluating_the_robustness_of_ra.md)
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
 - [\[ACL 2025\] Semantic Outlier Removal with Embedding Models and LLMs](semantic_outlier_removal_with_embedding_models_and_llms.md)
-- [\[ACL 2025\] Optimized Text Embedding Models and Benchmarks for Amharic Passage Retrieval](optimized_text_embedding_models_and_benchmarks_for_amharic_passage_retrieval.md)
-- [\[ACL 2025\] Sticking to the Mean: Detecting Sticky Tokens in Text Embedding Models](sticking_to_the_mean_detecting_sticky_tokens_in_text_embedding_models.md)
+- [\[ACL 2025\] Beyond True or False: Retrieval-Augmented Hierarchical Analysis of Nuanced Claims](beyond_true_or_false_retrieval-augmented_hierarchical_analysis_of_nuanced_claims.md)
+- [\[ACL 2025\] Investigating the Robustness of Retrieval-Augmented Generation at the Query Level](investigating_the_robustness_of_retrieval-augmented_generation_at_the_query_leve.md)
 
 <!-- RELATED:END -->

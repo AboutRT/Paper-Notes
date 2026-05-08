@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 以物体为中心的世界模型
-  - 因果注意力
+  - 强化学习
   - 基于模型的强化学习
   - 注意力机制
   - Transformer
@@ -60,9 +60,9 @@ STICA 由三个组件构成：
 2. **Transformer 动力学模型**：以 Transformer-XL 为核心的聚合模型，接收历史奖励 $r_{1:t-1}$、隐状态 $(z_{1:t}^1, ..., z_{1:t}^n)$ 和动作 $a_{1:t}$ 作为 token，通过因果掩码确保不访问未来时间步。创新点在于位置编码**仅依赖时间 $t$，不依赖物体索引 $1,...,n$**，保证输出对隐状态顺序的等变性。
 
    预测器包括：
-   - **隐状态预测器**：$p_\psi^{\hat{z}}(\hat{z}_{t+1}^k | h_t^k)$，categorical 分布
-   - **奖励预测器**：$p_\psi^{\hat{r}}(\hat{r}_t | h_t')$，正态分布
-   - **折扣因子预测器**：$p_\psi^{\hat{\gamma}}(\hat{\gamma}_t | h_t')$，Bernoulli 变量
+    - **隐状态预测器**：$p_\psi^{\hat{z}}(\hat{z}_{t+1}^k | h_t^k)$，categorical 分布
+    - **奖励预测器**：$p_\psi^{\hat{r}}(\hat{r}_t | h_t')$，正态分布
+    - **折扣因子预测器**：$p_\psi^{\hat{\gamma}}(\hat{\gamma}_t | h_t')$，Bernoulli 变量
 
    损失函数：$\mathcal{L}_\psi^{dyn} = \mathbb{E}_B[\frac{1}{T}\sum_{t=1}^{T}(\mathcal{J}_{cross}^{t+1} + \beta_1 \mathcal{J}_{rew.}^t + \beta_2 \mathcal{J}_{dis.}^t)]$
 
@@ -171,7 +171,7 @@ STICA 由三个组件构成：
 - [\[AAAI 2026\] Object-Centric Latent Action Learning](object-centric_latent_action_learning.md)
 - [\[NeurIPS 2025\] Learning Interactive World Model for Object-Centric Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/learning_interactive_world_model_for_object-centric_reinforcement_learning.md)
 - [\[ICLR 2026\] WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control](../../ICLR2026/reinforcement_learning/wimle_uncertainty-aware_world_models_with_imle_for_sample-efficient_continuous_c.md)
-- [\[AAAI 2026\] MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](mars_a_meta-adaptive_reinforcement_learning_framework_for_risk-aware_multi-agent.md)
-- [\[AAAI 2026\] Provably Efficient Multi-Objective Bandit Algorithms under Preference-Centric Customization](provably_efficient_multi-objective_bandit_algorithms_under_preference-centric_cu.md)
+- [\[AAAI 2026\] STELAR-Vision: Self-Topology-Aware Efficient Learning for Aligned Reasoning in Vision](stelar-vision_self-topology-aware_efficient_learning_for_aligned_reasoning_in_vi.md)
+- [\[AAAI 2026\] BAMAS: Structuring Budget-Aware Multi-Agent Systems](bamas_structuring_budget-aware_multi-agent_systems.md)
 
 <!-- RELATED:END -->

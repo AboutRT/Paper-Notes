@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2603.18834](https://arxiv.org/abs/2603.18834)  
 **作者**: Hesong Li, Ziqi Wu, Ruiwen Shao, Ying Fu
 **代码**: [HeasonLee/SCGN](https://github.com/HeasonLee/SCGN)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: HRTEM 去噪, 统计特征引导, 频域去噪, 空间偏差加权, 噪声标定
 
 ## 一句话总结
@@ -149,6 +149,6 @@ SCGN 在三个指标上均取得最优：PSNR 超过 Restormer **0.58 dB**，IoU
 - [\[ECCV 2024\] DenoiSplit: A Method for Joint Microscopy Image Splitting and Unsupervised Denoising](../../ECCV2024/image_restoration/denoisplit_a_method_for_joint_microscopy_image_splitting_and_unsupervised_denois.md)
 - [\[CVPR 2026\] POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction](polishing_the_sky_wide-field_and_high-dynamic_range_interferometric_image_recons.md)
 - [\[CVPR 2026\] Learning to Translate Noise for Robust Image Denoising](learning_to_translate_noise_for_robust_image_denoising.md)
-- [\[CVPR 2026\] SAT: Selective Aggregation Transformer for Image Super-Resolution](sat_selective_aggregation_transformer_for_image_super_resolution.md)
+- [\[CVPR 2026\] TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising](tm-bsn_triangular-masked_blind-spot_network_for_real-world_self-supervised_image.md)
 
 <!-- RELATED:END -->

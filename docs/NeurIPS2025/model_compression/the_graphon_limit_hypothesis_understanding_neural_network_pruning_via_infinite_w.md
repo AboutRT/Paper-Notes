@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.17515](https://arxiv.org/abs/2510.17515)  
 **代码**: 待确认  
-**领域**: model_compression / 稀疏网络理论  
+**领域**: 模型压缩  
 **关键词**: Neural Network Pruning, Graphon, Graph Limit Theory, Neural Tangent Kernel, Sparse Networks, Infinite Width
 
 ## 一句话总结

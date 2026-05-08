@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 图像恢复方向40篇论文解读
+  CVPR2025 图像恢复方向43篇论文解读
 description: >-
-  40篇CVPR2025的图像恢复方向论文解读，涵盖图像恢复、扩散模型、超分辨率、对抗鲁棒、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  43篇CVPR2025的图像恢复方向论文解读，涵盖图像恢复、扩散模型、超分辨率、对抗鲁棒、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**📷 CVPR2025** · **40** 篇论文解读
+**📷 CVPR2025** · **43** 篇论文解读
 
 **[A Flag Decomposition for Hierarchical Datasets](a_flag_decomposition_for_hierarchical_datasets.md)**
 
@@ -116,6 +116,10 @@ description: >-
 
 :   提出PiSA-SR，通过双LoRA模块将像素级回归和语义级增强解耦到两个独立权重空间，实现单步扩散高质量超分辨率，并支持推理时通过两个引导尺度灵活调节保真度和感知质量。
 
+**[PolarFree: Polarization-based Reflection-Free Imaging](polarfree_polarization-based_reflection-free_imaging.md)**
+
+:   构建 6500 对的大规模 RGB-偏振图像数据集 PolaRGB，并提出 PolarFree 两阶段网络——先用条件扩散模型生成无反射先验，再用去反射骨干网络分离透射层，在偏振引导的反射去除任务上超越先前方法约 2dB PSNR。
+
 **[POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction with Application to Strong Lens Discovery](polishing_the_sky_wide-field_and_high-dynamic_range_interferometric_image_recons.md)**
 
 :   在 POLISH 框架基础上提出 POLISH+/++，通过**分块训练+拼接推理**和**arcsinh 非线性变换**两项改进，使深度学习方法首次能处理宽视场（12,960×12,960 像素）、高动态范围（~10⁶）的射电干涉成像，并展示了超分辨率对强引力透镜发现的 10× 提升潜力。
@@ -136,9 +140,17 @@ description: >-
 
 :   提出 QMambaBSR，通过 Query State Space Model（QSSM）实现帧间查询和帧内扫描的联合子像素提取与噪声抑制，结合自适应上采样模块，在合成和真实连拍超分辨率任务上达到 SOTA。
 
+**[Reversible Decoupling Network for Single Image Reflection Removal](reversible_decoupling_network_for_single_image_reflection_removal.md)**
+
+:   RDNet 提出了一种基于可逆解耦架构的单图像反射去除方法，通过多列可逆编码器保证多尺度语义信息在前向传播中的无损传递，并设计传输率感知提示生成器来自适应不同反射强度，在五个基准数据集上全面超越 SOTA，赢得 NTIRE 2025 挑战赛。
+
 **[Rotation-Equivariant Self-Supervised Method in Image Denoising](rotation-equivariant_self-supervised_method_in_image_denoising.md)**
 
 :   首次将旋转等变卷积引入自监督图像去噪，严格分析了上/下采样算子对等变性的影响并给出 U-Net 完整网络的等变误差界，进一步提出自适应旋转等变网络 AdaReNet，通过 Mask 融合模块自动决定图像哪些区域更适合使用旋转等变网络，在 N2N、N2V、R2R 三种典型自监督方法上均取得一致性能提升。
+
+**[SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal](softshadow_leveraging_soft_masks_for_penumbra-aware_shadow_removal.md)**
+
+:   提出SoftShadow框架，用连续灰度软掩码替代传统二值硬掩码来表示阴影区域，通过SAM+LoRA预测软掩码并引入半影形成约束损失联合训练检测与去阴影网络，在SRD/ISTD+/LRSS/UIUC四个数据集上达到SOTA且无需外部掩码输入。
 
 **[Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images](tokenize_image_patches_global_context_fusion_for_effective_haze_removal_in_large.md)**
 

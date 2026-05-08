@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.12636](https://arxiv.org/abs/2504.12636)  
-**代码**: https://a-embodied.github.io/A0/  
-**领域**: 智能体  
+**代码**: [https://a-embodied.github.io/A0/](https://a-embodied.github.io/A0/)  
+**领域**: 图像生成  
 **关键词**: 机器人操作, 空间可供性, 分层模型, 扩散模型, 跨平台泛化
 
 ## 一句话总结

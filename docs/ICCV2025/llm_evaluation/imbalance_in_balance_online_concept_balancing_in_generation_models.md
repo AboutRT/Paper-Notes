@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.13345](https://arxiv.org/abs/2507.13345)  
 **代码**: [https://github.com/KwaiVGI/IMBA-Loss](https://github.com/KwaiVGI/IMBA-Loss)  
-**领域**: Image Generation / Diffusion Models  
+**领域**: LLM评测  
 **关键词**: 概念组合, 数据不平衡, IMBA Loss, 扩散模型训练, 长尾分布
 
 ## 一句话总结
@@ -152,8 +152,8 @@ Token-wise 重加权优于 sample-wise，因为它能对图像中不同概念区
 
 - [\[ACL 2025\] Ad-hoc Concept Forming in the Game Codenames as a Means for Evaluating Large Language Models](../../ACL2025/llm_evaluation/ad-hoc_concept_forming_in_the_game_codenames_as_a_means_for_evaluating_large_lan.md)
 - [\[ICCV 2025\] BATCLIP: Bimodal Online Test-Time Adaptation for CLIP](batclip_bimodal_online_test-time_adaptation_for_clip.md)
+- [\[ICCV 2025\] Lay2Story: Extending Diffusion Transformers for Layout-Togglable Story Generation](lay2story_extending_diffusion_transformers_for_layout-togglable_story_generation.md)
 - [\[NeurIPS 2025\] Exploiting Vocabulary Frequency Imbalance in Language Model Pre-training](../../NeurIPS2025/llm_evaluation/exploiting_vocabulary_frequency_imbalance_in_language_model_pre-training.md)
-- [\[CVPR 2025\] PosterO: Structuring Layout Trees to Enable Language Models in Generalized Content-Aware Layout Generation](../../CVPR2025/llm_evaluation/postero_structuring_layout_trees_to_enable_language_models_in_generalized_conten.md)
-- [\[ICML 2025\] Improved and Oracle-Efficient Online $\ell_1$-Multicalibration](../../ICML2025/llm_evaluation/improved_and_oracle-efficient_online_ell_1-multicalibration.md)
+- [\[ICML 2025\] Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative Experts (DCE)](../../ICML2025/llm_evaluation/addressing_imbalanced_domain-incremental_learning_through_dual-balance_collabora.md)
 
 <!-- RELATED:END -->

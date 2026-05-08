@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2408.02544](https://arxiv.org/abs/2408.02544)  
-**代码**: https://github.com/xbmxb/EnvDistraction  
+**代码**: [https://github.com/xbmxb/EnvDistraction](https://github.com/xbmxb/EnvDistraction)  
 **领域**: LLM Agent / GUI Agent / 安全  
 **关键词**: GUI agent, environmental distraction, faithfulness, multimodal agent, robustness
 

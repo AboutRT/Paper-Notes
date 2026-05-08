@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.19773](https://arxiv.org/abs/2505.19773)  
 **代码**: 无  
-**领域**: ai_safety  
+**领域**: LLM效率  
 **关键词**: many-shot jailbreaking, 长上下文, LLM 安全, 对齐, context length vulnerability
 
 ## 一句话总结

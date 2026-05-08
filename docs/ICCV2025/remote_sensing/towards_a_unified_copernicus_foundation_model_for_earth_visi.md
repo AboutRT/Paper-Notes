@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.11849](https://arxiv.org/abs/2503.11849)  
-**代码**: [https://github.com/zhu-xlab/Copernicus-FM](https://github.com/zhu-xlab/Copernicus-FM) (有)  
+**代码**: [https://github.com/zhu-xlab/Copernicus-FM](https://github.com/zhu-xlab/Copernicus-FM)  
 **领域**: 遥感 / 地球观测基础模型  
 **关键词**: 地球观测基础模型, 动态超网络, 多传感器融合, 元数据编码, Copernicus Sentinel  
 
@@ -211,10 +211,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICCV 2025\] SkySense V2: A Unified Foundation Model for Multi-Modal Remote Sensing](skysense_v2_a_unified_foundation_model_for_multi-modal_remote_sensing.md)
 - [\[ICCV 2025\] RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model](rs-vheat_heat_conduction_guided_efficient_remote_sensing_foundation_model.md)
-- [\[ICCV 2025\] GeoDistill: Geometry-Guided Self-Distillation for Weakly Supervised Cross-View Localization](geodistill_geometry-guided_self-distillation_for_weakly_supervised_cross-view_lo.md)
+- [\[ICCV 2025\] WildSAT: Learning Satellite Image Representations from Wildlife Observations](wildsat_learning_satellite_image_representations_from_wildlife_observations.md)
 - [\[ICCV 2025\] GeoExplorer: Active Geo-Localization with Curiosity-Driven Exploration](geoexplorer_active_geo-localization_with_curiosity-driven_exploration.md)
-- [\[ICCV 2025\] Information-Bottleneck Driven Binary Neural Network for Change Detection](information-bottleneck_driven_binary_neural_network_for_change_detection.md)
-- [\[ICCV 2025\] SMARTIES: Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images](smarties_spectrum-aware_multi-sensor_auto-encoder_for_remote_sensing_images.md)
+- [\[ICCV 2025\] CityNav: A Large-Scale Dataset for Real-World Aerial Navigation](citynav_a_large-scale_dataset_for_real-world_aerial_navigation.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.01658](https://arxiv.org/abs/2602.01658)  
-**代码**: [GitHub](https://github.com/hadi-hosseini/adversarial-attacks-offline-bandits) (有)  
-**领域**: 对抗攻击 / 多臂老虎机  
+**代码**: [GitHub](https://github.com/hadi-hosseini/adversarial-attacks-offline-bandits)  
+**领域**: 图像生成  
 **关键词**: 离线多臂老虎机, 对抗攻击, 奖励模型, 高维数据, 生成模型评估
 
 ## 一句话总结

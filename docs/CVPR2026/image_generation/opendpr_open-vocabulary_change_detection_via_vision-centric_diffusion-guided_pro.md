@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27645](https://arxiv.org/abs/2603.27645)  
-**代码**: https://github.com/guoqi2002/OpenDPR (有，代码即将释放)  
-**领域**: 遥感 / 扩散模型  
+**代码**: [https://github.com/guoqi2002/OpenDPR](https://github.com/guoqi2002/OpenDPR) (有，代码即将释放)  
+**领域**: 图像生成  
 **关键词**: 开放词汇变化检测, 遥感图像, 扩散模型, 原型检索, 视觉基础模型
 
 ## 一句话总结

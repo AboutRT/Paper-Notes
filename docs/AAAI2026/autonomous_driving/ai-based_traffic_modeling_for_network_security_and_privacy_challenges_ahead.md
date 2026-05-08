@@ -21,7 +21,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2503.22161](https://arxiv.org/abs/2503.22161)  
 **代码**: 无（综述/展望论文）  
-**领域**: ai_safety / 网络安全  
+**领域**: 自动驾驶  
 **关键词**: network traffic analysis, network security, 隐私, 深度学习, 基础模型, 可解释性, 异常检测, website fingerprinting
 
 ## 一句话总结

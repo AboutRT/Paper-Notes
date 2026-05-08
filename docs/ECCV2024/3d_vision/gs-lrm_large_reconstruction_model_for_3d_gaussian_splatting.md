@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.19702](https://arxiv.org/abs/2404.19702)  
-**代码**: https://sai-bi.github.io/project/gs-lrm/  
+**代码**: [https://sai-bi.github.io/project/gs-lrm/](https://sai-bi.github.io/project/gs-lrm/)  
 **领域**: 3D视觉  
 **关键词**: 大规模重建模型, 3D高斯溅射, Transformer, 稀疏视角重建, 前馈3D重建
 
@@ -140,8 +140,8 @@ GS-LRM的架构极其简洁：输入 $N$ 张多视角图像及相机参数 → �
 ## 相关论文
 
 - [\[ECCV 2024\] GRM: Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation](grm_large_gaussian_reconstruction_model_for_efficient_3d_reconstruction_and_gene.md)
-- [\[ECCV 2024\] CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization](cor-gs_sparse-view_3d_gaussian_splatting_via_co-regularization.md)
 - [\[ECCV 2024\] Texture-GS: Disentangling the Geometry and Texture for 3D Gaussian Splatting Editing](texture-gs_disentangling_the_geometry_and_texture_for_3d_gaussian_splatting_edit.md)
+- [\[ECCV 2024\] CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization](cor-gs_sparse-view_3d_gaussian_splatting_via_co-regularization.md)
 - [\[ECCV 2024\] Pixel-GS: Density Control with Pixel-aware Gradient for 3D Gaussian Splatting](pixel-gs_density_control_with_pixel-aware_gradient_for_3d_gaussian_splatting.md)
 - [\[ECCV 2024\] Surface Reconstruction from 3D Gaussian Splatting via Local Structural Hints](surface_reconstruction_from_3d_gaussian_splatting_via_local_structural_hints.md)
 

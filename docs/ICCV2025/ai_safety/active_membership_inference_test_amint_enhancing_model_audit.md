@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2509.07879](https://arxiv.org/abs/2509.07879)  
-**代码**: [https://github.com/DanieldeAlcala/Membership-Inference-Test.git](https://github.com/DanieldeAlcala/Membership-Inference-Test.git) (有)  
+**代码**: [https://github.com/DanieldeAlcala/Membership-Inference-Test.git](https://github.com/DanieldeAlcala/Membership-Inference-Test.git)  
 **领域**: AI安全/隐私  
 **关键词**: 成员推断, 模型可审计性, 多任务学习, 数据隐私, 训练数据检测  
 
@@ -141,7 +141,7 @@ $$\mathcal{L}_{\text{Multi-task}} = \lambda_1 \frac{\mathcal{L}_{\text{Audited}}
 - [\[ICCV 2025\] Find a Scapegoat: Poisoning Membership Inference Attack and Defense to Federated Learning](find_a_scapegoat_poisoning_membership_inference_attack_and_defense_to_federated_.md)
 - [\[ICCV 2025\] Vulnerability-Aware Spatio-Temporal Learning for Generalizable Deepfake Video Detection](vulnerability-aware_spatio-temporal_learning_for_generalizable_deepfake_video_de.md)
 - [\[ICCV 2025\] FRET: Feature Redundancy Elimination for Test Time Adaptation](fret_feature_redundancy_elimination_for_test_time_adaptation.md)
-- [\[ICCV 2025\] Enhancing Adversarial Transferability by Balancing Exploration and Exploitation with Gradient-Guided Sampling](enhancing_adversarial_transferability_by_balancing_exploration_and_exploitation_.md)
 - [\[ICCV 2025\] Backdooring Self-Supervised Contrastive Learning by Noisy Alignment](backdooring_self-supervised_contrastive_learning_by_noisy_alignment.md)
+- [\[ICCV 2025\] FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields](fedmenf_privacy-preserving_federated_meta-learning_for_neural_fields.md)
 
 <!-- RELATED:END -->

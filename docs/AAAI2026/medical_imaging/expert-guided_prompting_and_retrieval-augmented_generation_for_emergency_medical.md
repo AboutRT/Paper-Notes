@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.10900](https://arxiv.org/abs/2511.10900)  
 **代码**: [EMSQA](https://uva-dsa.github.io/EMSQA)  
-**领域**: 医学NLP / RAG  
+**领域**: 医学图像  
 **关键词**: RAG, chain-of-thought, EMS, domain expertise, MCQA
 
 ## 一句话总结

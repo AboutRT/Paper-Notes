@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2508.05712](https://arxiv.org/abs/2508.05712)  
 **代码**: 无  
-**领域**: 量子RL / 量子计算  
+**领域**: 图像生成  
 **关键词**: 量子算法, 有限时域MDP, 量子值迭代, 量子加速, 样本复杂度下界
 
 ## 一句话总结
@@ -145,7 +145,7 @@ $$V_h^*(s) = \max_{a \in \mathcal{A}} \left\{ r_h(s,a) + \sum_{s'} P_h(s'|s,a) V
 - [\[NeurIPS 2025\] Flow Matching Neural Processes](../../NeurIPS2025/image_generation/flow_matching_neural_processes.md)
 - [\[NeurIPS 2025\] Recurrent Memory for Online Interdomain Gaussian Processes](../../NeurIPS2025/image_generation/recurrent_memory_for_online_interdomain_gaussian_processes.md)
 - [\[NeurIPS 2025\] ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering](../../NeurIPS2025/image_generation/alebench_a_benchmark_for_longhorizon_objectivedriven_algorit.md)
-- [\[NeurIPS 2025\] Fast Solvers for Discrete Diffusion Models: Theory and Applications of High-Order Algorithms](../../NeurIPS2025/image_generation/fast_solvers_for_discrete_diffusion_models_theory_and_applications_of_high-order.md)
 - [\[CVPR 2025\] Finite Difference Flow Optimization for RL Post-Training of Text-to-Image Models](../../CVPR2025/image_generation/finite_difference_flow_optimization_for_rl_post-training_of_text-to-image_models.md)
+- [\[NeurIPS 2025\] Fast Solvers for Discrete Diffusion Models: Theory and Applications of High-Order Algorithms](../../NeurIPS2025/image_generation/fast_solvers_for_discrete_diffusion_models_theory_and_applications_of_high-order.md)
 
 <!-- RELATED:END -->

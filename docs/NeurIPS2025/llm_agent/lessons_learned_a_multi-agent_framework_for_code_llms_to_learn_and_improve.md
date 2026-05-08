@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.23946](https://arxiv.org/abs/2505.23946)  
-**代码**: https://github.com/MITIBM-FastCoder/LessonL  
+**代码**: [https://github.com/MITIBM-FastCoder/LessonL](https://github.com/MITIBM-FastCoder/LessonL)  
 **领域**: LLM Agent  
 **关键词**: 多智能体协作, 代码优化, Lesson机制, 互相学习, 性能优化
 
@@ -128,10 +128,10 @@ LessonL 框架的核心循环：初始解生成 → Lesson 提取 → Lesson 存
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Distilling LLM Agent into Small Models with Retrieval and Code Tools](distilling_llm_agent_into_small_models_with_retrieval_and_co.md)
 - [\[CVPR 2026\] Nerfify: A Multi-Agent Framework for Turning NeRF Papers into Code](../../CVPR2026/llm_agent/nerfify_multiagent_nerf_paper_to_code.md)
+- [\[NeurIPS 2025\] Distilling LLM Agent into Small Models with Retrieval and Code Tools](distilling_llm_agent_into_small_models_with_retrieval_and_co.md)
 - [\[NeurIPS 2025\] R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization](rd-agent-quant_a_multi-agent_framework_for_data-centric_factors_and_model_joint_.md)
-- [\[ACL 2026\] Scaling External Knowledge Input Beyond Context Windows of LLMs via Multi-Agent Collaboration](../../ACL2026/llm_agent/scaling_external_knowledge_input_beyond_context_windows_of_llms_via_multi-agent_.md)
 - [\[NeurIPS 2025\] AgentChangeBench: A Multi-Dimensional Evaluation Framework for Goal-Shift Robustness](agentchangebench_a_multi-dimensional_evaluation_framework_for_goal-shift_robustn.md)
+- [\[NeurIPS 2025\] MAT-Agent: Adaptive Multi-Agent Training Optimization](mat-agent_adaptive_multi-agent_training_optimization.md)
 
 <!-- RELATED:END -->

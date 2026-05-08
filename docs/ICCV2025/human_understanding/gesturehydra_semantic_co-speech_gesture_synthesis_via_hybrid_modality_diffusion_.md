@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.22731](https://arxiv.org/abs/2507.22731)  
 **代码**: [项目主页](https://mumuwei.github.io/GestureHYDRA/)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: 共语手势生成, 扩散模型, Transformer, 检索增强生成, 语义手势
 
 ## 一句话总结
@@ -174,9 +174,9 @@ $$\mathcal{L} = \lambda_t \mathcal{L}_t + \lambda_{vec} \mathcal{L}_{vec} + \lam
 ## 相关论文
 
 - [\[ICCV 2025\] SemGes: Semantics-aware Co-Speech Gesture Generation using Semantic Coherence and Relevance Learning](semges_semantics-aware_co-speech_gesture_generation_using_semantic_coherence_and.md)
-- [\[ICCV 2025\] SyncDiff: Synchronized Motion Diffusion for Multi-Body Human-Object Interaction Synthesis](syncdiff_synchronized_motion_diffusion_for_multi-body_human-object_interaction_s.md)
-- [\[ICCV 2025\] SemTalk: Holistic Co-speech Motion Generation with Frame-level Semantic Emphasis](semtalk_holistic_co-speech_motion_generation_with_frame-level_semantic_emphasis.md)
-- [\[CVPR 2025\] Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis](../../CVPR2025/human_understanding/retrieving_semantics_from_the_deep_an_rag_solution_for_gesture_synthesis.md)
-- [\[ICCV 2025\] Understanding Co-speech Gestures in-the-wild](understanding_co-speech_gestures_in-the-wild.md)
+- [\[AAAI 2026\] Streaming Generation of Co-Speech Gestures via Accelerated Rolling Diffusion](../../AAAI2026/human_understanding/streaming_generation_of_co-speech_gestures_via_accelerated_rolling_diffusion.md)
+- [\[NeurIPS 2025\] VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models](../../NeurIPS2025/human_understanding/vimorag_video-based_retrieval-augmented_3d_motion_generation_for_motion_language.md)
+- [\[ICCV 2025\] Signs as Tokens: A Retrieval-Enhanced Multilingual Sign Language Generator](signs_as_tokens_a_retrieval-enhanced_multilingual_sign_language_generator.md)
+- [\[ICCV 2025\] GenM3: Generative Pretrained Multi-path Motion Model for Text Conditional Human Motion Generation](genm3_generative_pretrained_multi-path_motion_model_for_text_conditional_human_m.md)
 
 <!-- RELATED:END -->

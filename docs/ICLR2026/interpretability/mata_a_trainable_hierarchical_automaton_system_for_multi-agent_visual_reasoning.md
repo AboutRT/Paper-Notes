@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MATA: A Trainable Hierarchical Automaton System for Multi-Agent Visual Reasoning
 description: >-
-  [ICLR 2026][多Agent系统] 提出MATA（Multi-Agent hierarchical Trainable Automaton），将多Agent视觉推理建模为层次有限状态自动机，顶层状态转移由可训练的hyper agent（基于LLM的状态控制器）学习，每个Agent内部使用规则化的子自动机，通过共享内存实现协作与竞争，在多个视觉推理基准上达到SOTA。
+  [ICLR 2026][可解释性] 提出MATA（Multi-Agent hierarchical Trainable Automaton），将多Agent视觉推理建模为层次有限状态自动机，顶层状态转移由可训练的hyper agent（基于LLM的状态控制器）学习，每个Agent内部使用规则化的子自动机，通过共享内存实现协作与竞争，在多个视觉推理基准上达到SOTA。
 tags:
   - ICLR 2026
-  - 多Agent系统
+  - 可解释性
   - 层次有限状态自动机
   - 视觉推理
   - 可训练状态控制器
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.19204](https://arxiv.org/abs/2601.19204)  
 **代码**: [GitHub](https://github.com/ControlNet/MATA)  
-**领域**: 多模态VLM  
+**领域**: 可解释性  
 **关键词**: 多Agent系统, 层次有限状态自动机, 视觉推理, 可训练状态控制器, 协作与竞争
 
 ## 一句话总结
@@ -174,6 +174,6 @@ MATA承接ViperGPT → HYDRA → NAVER的发展脉络，首次实现可学习的
 - [\[AAAI 2026\] ToC: Tree-of-Claims Search with Multi-Agent Language Models](../../AAAI2026/interpretability/toc_tree-of-claims_search_with_multi-agent_language_models.md)
 - [\[AAAI 2026\] iMAD: Intelligent Multi-Agent Debate for Efficient and Accurate LLM Inference](../../AAAI2026/interpretability/imad_intelligent_multi-agent_debate_for_efficient_and_accura.md)
 - [\[ACL 2026\] Forest Before Trees: Latent Superposition for Efficient Visual Reasoning](../../ACL2026/interpretability/forest_before_trees_latent_superposition_for_efficient_visual_reasoning.md)
-- [\[ACL 2026\] To Trust or Not to Trust: Attention-Based Trust Management for LLM Multi-Agent Systems](../../ACL2026/interpretability/to_trust_or_not_to_trust_attention-based_trust_management_for_llm_multi-agent_sy.md)
+- [\[ICLR 2026\] Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data](behavior_learning_bl_learning_hierarchical_optimization_structures_from_data.md)
 
 <!-- RELATED:END -->

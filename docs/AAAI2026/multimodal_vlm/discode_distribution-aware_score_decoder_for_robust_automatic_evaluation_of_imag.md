@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 多模态
-  - 图像描述评估
+  - 多模态VLM
   - 大型视觉语言模型
   - 测试时自适应
   - 评分鲁棒性
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.14420](https://arxiv.org/abs/2512.14420)  
 **代码**: 未公开  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 图像描述评估, 大型视觉语言模型, 测试时自适应, 评分鲁棒性, 分布先验
 
 ## 一句话总结
@@ -145,10 +145,10 @@ DISCODE 在真实域同样一致领先 FLEUR，在 Flickr8k-CF 上超越 GPT-4o 
 
 ## 相关论文
 
+- [\[AAAI 2026\] Leveraging Textual Compositional Reasoning for Robust Change Captioning](leveraging_textual_compositional_reasoning_for_robust_change_captioning.md)
 - [\[ICML 2025\] Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage](../../ICML2025/multimodal_vlm/toward_robust_hyper-detailed_image_captioning_a_multiagent_approach_and_dual_eva.md)
 - [\[CVPR 2025\] Teaching Large Language Models to Regress Accurate Image Quality Scores Using Score Distribution](../../CVPR2025/multimodal_vlm/teaching_large_language_models_to_regress_accurate_image_quality_scores_using_sc.md)
 - [\[AAAI 2026\] Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment](aligning_the_true_semantics_constrained_decoupling_and_distr.md)
 - [\[AAAI 2026\] CreBench: Human-Aligned Creativity Evaluation from Idea to Process to Product](crebench_human-aligned_creativity_evaluation_from_idea_to_process_to_product.md)
-- [\[AAAI 2026\] SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models](sdeval_safety_dynamic_evaluation_for_multimodal_large_language_models.md)
 
 <!-- RELATED:END -->

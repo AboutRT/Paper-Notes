@@ -60,22 +60,22 @@ tags:
    **核心思路**：受"平直方图"（flat histogram）原理启发，通过展平后验分布来降低模式间的能量壁垒，使模型更容易跨越局部最优。
 
    将高斯基元的配置视为概率分布：
-   $$P(g) \propto \exp\left(-\frac{\mathcal{L}_{total}(g)}{\tau}\right)$$
+    $P(g) \propto \exp\left(-\frac{\mathcal{L}_{total}(g)}{\tau}\right)$
 
    将样本空间按能量水平划分为 $m$ 个子区域 $\mathcal{G}_n = \{g: u_{n-1} < \mathcal{L}_{total}(g) < u_n\}$。
 
    构造展平分布 $\rho(g)$：
-   $$\rho(g) \propto \frac{P(g)}{\Psi^\zeta(\Theta, \mathcal{L}_{total}(g))}$$
+    $\rho(g) \propto \frac{P(g)}{\Psi^\zeta(\Theta, \mathcal{L}_{total}(g))}$
    其中 $\zeta > 0$ 控制展平程度，$\Psi$ 是基于能量的分段指数插值加权函数，权重向量 $\Theta$ 通过随机近似在线更新。
 
    展平分布引入额外的**梯度乘子** $\nu$：
-   $$\nu = 1 + \zeta\tau \frac{\log\theta(J(g)) - \log(\theta(J(g)-1) \vee 1)}{\Delta u}$$
+    $\nu = 1 + \zeta\tau \frac{\log\theta(J(g)) - \log(\theta(J(g)-1) \vee 1)}{\Delta u}$
 
    将梯度乘子融入 SGLD 更新：
-   $$g_k \leftarrow g_{k-1} - \lambda_{lr} \cdot \nu \cdot \nabla_g \mathbb{E}[\mathcal{L}_{total}(g_{k-1})] + \lambda_{noise} \cdot \epsilon$$
+    $g_k \leftarrow g_{k-1} - \lambda_{lr} \cdot \nu \cdot \nabla_g \mathbb{E}[\mathcal{L}_{total}(g_{k-1})] + \lambda_{noise} \cdot \epsilon$
 
    权重向量 $\Theta$ 的更新使用随机近似：
-   $$\theta_k(i) = \theta_{k-1}(i) + \lambda_\theta \theta_{k-1}^\zeta(J(g_k)) \cdot (1_{i=J(g_k)} - \theta_{k-1}(i))$$
+    $\theta_k(i) = \theta_{k-1}(i) + \lambda_\theta \theta_{k-1}^\zeta(J(g_k)) \cdot (1_{i=J(g_k)} - \theta_{k-1}(i))$
 
    **设计动机**：直接增大噪声 $\lambda_{noise}$ 不鲁棒（场景复杂度不同），自适应加权方法根据能量分布自动调整探索强度，通过展平后验实现更均匀的模式探索。高能量区域（重建差的区域）获得更大的探索促进。
 
@@ -84,16 +84,16 @@ tags:
    **核心思路**：在利用阶段，对每个高斯基元独立应用 L-BFGS 估计拟牛顿方向，作为 Adam 的伪梯度输入，获得曲率感知的更新方向。
 
    具体步骤：
-   - 对每个高斯基元的位置 $\mu$ 独立执行 L-BFGS（历史长度 $K=5$），估计拟牛顿方向 $\mathbb{D}$
-   - 将 $\mathbb{D}$ 作为伪梯度输入 Adam，计算最终更新方向 $\text{Adam}(\mathbb{D})$
-   - 在 MCMC 框架下的更新规则：
-   $$\mu_{t+1} = \mu_t - \lambda_{lr} \cdot \text{Adam}(\mathbb{D}) + \lambda_{noise} \cdot \epsilon_\mu$$
+    - 对每个高斯基元的位置 $\mu$ 独立执行 L-BFGS（历史长度 $K=5$），估计拟牛顿方向 $\mathbb{D}$
+    - 将 $\mathbb{D}$ 作为伪梯度输入 Adam，计算最终更新方向 $\text{Adam}(\mathbb{D})$
+    - 在 MCMC 框架下的更新规则：
+    $\mu_{t+1} = \mu_t - \lambda_{lr} \cdot \text{Adam}(\mathbb{D}) + \lambda_{noise} \cdot \epsilon_\mu$
 
    **关键设计选择**：
-   - "局部"：每个高斯基元独立处理，可在 CUDA 上并行
-   - 无需线搜索：用 Adam 代替传统拟牛顿方法的线搜索，保持鲁棒性
-   - L-BFGS 不需要计算 Hessian 矩阵，与各种损失函数兼容
-   - 利用阶段将 L1 损失替换为 L2 损失，禁用梯度乘子 $\nu$
+    - "局部"：每个高斯基元独立处理，可在 CUDA 上并行
+    - 无需线搜索：用 Adam 代替传统拟牛顿方法的线搜索，保持鲁棒性
+    - L-BFGS 不需要计算 Hessian 矩阵，与各种损失函数兼容
+    - 利用阶段将 L1 损失替换为 L2 损失，禁用梯度乘子 $\nu$
 
    **设计动机**：基于 3DGS² 的观察，位置属性对渲染质量影响最大，且高斯基元间弱耦合，因此适合对位置做独立的拟牛顿优化。
 

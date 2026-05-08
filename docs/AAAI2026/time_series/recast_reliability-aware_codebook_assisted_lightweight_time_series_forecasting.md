@@ -50,12 +50,12 @@ ReCast 包含三大模块：
 
 1. **Patch-wise 向量量化与下采样**：输入序列 $\mathbf{X} \in \mathbb{R}^{C \times L}$ 先经实例归一化，然后分割为 $N = \lceil L/L_p \rceil$ 个 patch $\mathbf{p}_i \in \mathbb{R}^{L_p}$。每个 patch 下采样到 $L_p/2$ 维后与可学习码本 $\mathbf{S} = \{\mathbf{s}_k\}_{k=1}^K$ 做最近邻匹配：
 
-   $$q_i = \arg\min_{\mathbf{s}_k \in \mathbf{S}} \|\tilde{\mathbf{p}}_i - \mathbf{s}_k\|_2^2$$
+    $q_i = \arg\min_{\mathbf{s}_k \in \mathbf{S}} \|\tilde{\mathbf{p}}_i - \mathbf{s}_k\|_2^2$
 
    **设计动机**：
-   - 下采样：基于"局部模式跨尺度不变性"假设，低分辨率保留显著结构、抑制冗余波动，同时大幅减少码本匹配和存储计算量
-   - 共享码本：所有变量共用一个码本，隐式促进跨变量交互，避免了通道独立架构的性能瓶颈
-   - 随机 patch 采样：训练和码本更新时仅使用随机采样的 patch 子集，降低过拟合风险
+    - 下采样：基于"局部模式跨尺度不变性"假设，低分辨率保留显著结构、抑制冗余波动，同时大幅减少码本匹配和存储计算量
+    - 共享码本：所有变量共用一个码本，隐式促进跨变量交互，避免了通道独立架构的性能瓶颈
+    - 随机 patch 采样：训练和码本更新时仅使用随机采样的 patch 子集，降低过拟合风险
 
 2. **双路径预测架构**：
 
@@ -69,17 +69,17 @@ ReCast 包含三大模块：
 
 3. **可靠性感知码本更新**：每个 epoch 通过聚类生成伪码本 $\hat{\mathbf{S}}^t$，然后增量更新实际码本：
 
-   $$\mathbf{S}^t = \mathbf{S}^{t-1} + \frac{1}{t}(\hat{\mathbf{W}}^t \hat{\mathbf{S}}^t - \mathbf{S}^{t-1})$$
+    $\mathbf{S}^t = \mathbf{S}^{t-1} + \frac{1}{t}(\hat{\mathbf{W}}^t \hat{\mathbf{S}}^t - \mathbf{S}^{t-1})$
 
    核心在于更新权重 $\hat{\mathbf{W}}^t$ 的计算，融合三个互补的可靠性因子：
 
-   - **表示质量 $w_{rep}$**：评估伪码字对其所属 patch 的重建精度，质量高则权重大
-   - **历史一致性 $w_\Delta$**：衡量伪码字与上一 epoch 码字的偏移，偏移大说明旧码本不足以拟合新数据，应给更大更新权重
-   - **OOD 敏感性 $w_{je}$**：基于联合能量函数检测低频分配的码字，防止嵌入空间坍缩到少数固定码字
+    - **表示质量 $w_{rep}$**：评估伪码字对其所属 patch 的重建精度，质量高则权重大
+    - **历史一致性 $w_\Delta$**：衡量伪码字与上一 epoch 码字的偏移，偏移大说明旧码本不足以拟合新数据，应给更大更新权重
+    - **OOD 敏感性 $w_{je}$**：基于联合能量函数检测低频分配的码字，防止嵌入空间坍缩到少数固定码字
 
    三个因子通过 **分布鲁棒优化(DRO)** 融合——在均匀分布附近的 KL 邻域内求最坏情况期望，有闭式解：
 
-   $$\hat{w}_k^t = -\gamma \cdot \log \sum_{i=1}^{3} \exp(-z_{k,i}^t / \gamma)$$
+    $\hat{w}_k^t = -\gamma \cdot \log \sum_{i=1}^{3} \exp(-z_{k,i}^t / \gamma)$
 
    这是一种 soft-minimum 操作，让最可靠的因子主导，同时软惩罚其他因子。
 
@@ -172,9 +172,9 @@ ReCast 在 16 个 MSE/MAE 指标中取得 12 个最优。
 ## 相关论文
 
 - [\[ICML 2025\] LightGTS: A Lightweight General Time Series Forecasting Model](../../ICML2025/time_series/lightgts_a_lightweight_general_time_series_forecasting_model.md)
+- [\[AAAI 2026\] XLinear: A Lightweight and Accurate MLP-Based Model for Long-Term Time Series Forecasting with Exogenous Inputs](xlinear_a_lightweight_and_accurate_mlp-based_model_for_long-term_time_series_for.md)
 - [\[AAAI 2026\] A Unified Shape-Aware Foundation Model for Time Series Classification](a_unified_shape-aware_foundation_model_for_time_series_class.md)
 - [\[NeurIPS 2025\] SEMPO: Lightweight Foundation Models for Time Series Forecasting](../../NeurIPS2025/time_series/sempo_lightweight_foundation_models_for_time_series_forecasting.md)
 - [\[AAAI 2026\] Task-Aware Retrieval Augmentation for Dynamic Recommendation](task-aware_retrieval_augmentation_for_dynamic_recommendation.md)
-- [\[AAAI 2026\] Harmonic Dataset Distillation for Time Series Forecasting](harmonic_dataset_distillation_for_time_series_forecasting.md)
 
 <!-- RELATED:END -->

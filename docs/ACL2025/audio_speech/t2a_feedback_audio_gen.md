@@ -10,7 +10,7 @@ tags:
   - AI反馈
   - 偏好调优
   - 多事件音频
-  - 细粒度评估
+  - 音频语音
 ---
 
 # T2A-Feedback: Improving Basic Capabilities of Text-to-Audio Generation via Fine-grained AI Feedback
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.10561](https://arxiv.org/abs/2505.10561)  
 **代码**: [https://T2Afeedback.github.io](https://T2Afeedback.github.io)  
-**领域**: 文本生成  
+**领域**: 音频语音  
 **关键词**: 文本转音频, AI反馈, 偏好调优, 多事件音频, 细粒度评估  
 
 ## 一句话总结
@@ -130,6 +130,6 @@ tags:
 - [\[ACL 2026\] Towards Fine-Grained and Multi-Granular Contrastive Language-Speech Pre-training](../../ACL2026/audio_speech/towards_fine-grained_and_multi-granular_contrastive_language-speech_pre-training.md)
 - [\[ACL 2025\] In-the-wild Audio Spatialization with Flexible Text-guided Localization](tas_audio_spatialization.md)
 - [\[ACL 2025\] Double Entendre: Robust Audio-Based AI-Generated Lyrics Detection via Multi-View Fusion](double_entendre_robust_audio-based_ai-generated_lyrics_detection_via_multi-view_.md)
-- [\[CVPR 2025\] VinTAGe: Joint Video and Text Conditioning for Holistic Audio Generation](../../CVPR2025/audio_speech/vintage_joint_video_and_text_conditioning_for_holistic_audio_generation.md)
+- [\[ACL 2025\] WavRAG: Audio-Integrated Retrieval Augmented Generation for Spoken Dialogue Models](wavrag_audio-integrated_retrieval_augmented_generation_for_spoken_dialogue_model.md)
 
 <!-- RELATED:END -->

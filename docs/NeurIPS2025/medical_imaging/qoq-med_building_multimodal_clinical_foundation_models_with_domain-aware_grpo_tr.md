@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.00711](https://arxiv.org/abs/2506.00711)  
 **代码**: 权重和训练管线已发布  
-**领域**: 医学多模态 / 临床推理  
+**领域**: 医学图像  
 **关键词**: 多模态临床, GRPO, 领域感知强化学习, ECG+影像+文本, 可解释推理
 
 ## 一句话总结
@@ -141,6 +141,6 @@ QoQ-Med 构建了覆盖 9 个临床模态（1D ECG + 6 类 2D 影像 + 2 类 3D 
 - [\[ICML 2025\] Foundation Models for Clinical Records at Health System Scale](../../ICML2025/medical_imaging/foundation_models_for_clinical_records_at_health_system_scale.md)
 - [\[NeurIPS 2025\] CureAgent: A Training-Free Executor-Analyst Framework for Clinical Reasoning](cureagent_a_training-free_executor-analyst_framework_for_clinical_reasoning.md)
 - [\[NeurIPS 2025\] MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology](mtbbench_a_multimodal_sequential_clinical_decision-making_benchmark_in_oncology.md)
-- [\[NeurIPS 2025\] Brain Harmony: A Multimodal Foundation Model Unifying Morphology and Function into 1D Tokens](brain_harmony_a_multimodal_foundation_model_unifying_morphology_and_function_int.md)
+- [\[NeurIPS 2025\] Towards Self-Supervised Foundation Models for Critical Care Time Series](towards_self-supervised_foundation_models_for_critical_care_time_series.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.11223](https://arxiv.org/abs/2411.11223)  
-**代码**: https://github.com/chenhaoxing/ETL4Video (有)  
+**代码**: [https://github.com/chenhaoxing/ETL4Video](https://github.com/chenhaoxing/ETL4Video)  
 **领域**: 视频理解  
 **关键词**: 参数高效微调, 视频动作识别, 多模态适配器, 迁移学习, 泛化能力
 
@@ -129,7 +129,7 @@ $$\mathcal{L} = \mathcal{L}_{CE} + \alpha \mathcal{L}_{CC}$$
 - [\[CVPR 2025\] Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models](video-panda_parameter-efficient_alignment_for_encoder-free_video-language_models.md)
 - [\[ECCV 2024\] R²-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding](../../ECCV2024/video_understanding/r2tuning_efficient_imagetovideo_transfer_learning_for_video.md)
 - [\[CVPR 2025\] Video Summarization with Large Language Models](video_summarization_with_large_language_models.md)
-- [\[CVPR 2025\] On the Consistency of Video Large Language Models in Temporal Comprehension](on_the_consistency_of_video_large_language_models_in_temporal_comprehension.md)
 - [\[CVPR 2025\] PAVE: Patching and Adapting Video Large Language Models](pave_patching_and_adapting_video_large_language_models.md)
+- [\[CVPR 2025\] On the Consistency of Video Large Language Models in Temporal Comprehension](on_the_consistency_of_video_large_language_models_in_temporal_comprehension.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12493](https://arxiv.org/abs/2603.12493)  
 **作者**: Ali Mosleh, Faraz Ali, Fengjia Zhang, Stavros Tsogkas, Junyong Lee, Alex Levinshtein, Michael S. Brown (Samsung AI Center-Toronto)
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: super-resolution, RAW domain, degradation modeling, smartphone camera, blur kernel calibration, sensor noise
 
 ## 一句话总结
@@ -161,7 +161,7 @@ MTF50 方面差距更显著：S24U Tele 2 上本方法 MTF50=2.00（即 SR 后 5
 - [\[CVPR 2026\] SAT: Selective Aggregation Transformer for Image Super-Resolution](sat_selective_aggregation_transformer_for_image_super_resolution.md)
 - [\[CVPR 2026\] Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
 - [\[CVPR 2026\] DRFusion: Degradation-Robust Fusion via Degradation-Aware Diffusion Framework](drfusion_degradation_robust_fusion_via_degradation_aware_diffusion_framework.md)
-- [\[CVPR 2026\] BHCast: Unlocking Black Hole Plasma Dynamics from a Single Blurry Image with Long-Term Forecasting](bhcast_unlocking_black_hole_plasma_dynamics_from_a_single_blurry_image_with_long.md)
 - [\[CVPR 2026\] Beyond the Ground Truth: Enhanced Supervision for Image Restoration](beyond_the_ground_truth_enhanced_supervision_for_image_restoration.md)
+- [\[CVPR 2026\] POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction](polishing_the_sky_wide-field_and_high-dynamic_range_interferometric_image_recons.md)
 
 <!-- RELATED:END -->

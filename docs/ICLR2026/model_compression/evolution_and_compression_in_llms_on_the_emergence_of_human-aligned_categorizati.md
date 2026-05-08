@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2509.08093](https://arxiv.org/abs/2509.08093)  
 **代码**: [infocoglab/evolution-compression-llms](https://infocoglab.github.io/evolution-compression-llms)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: information bottleneck, color naming, iterated learning, semantic categories, LLM alignment
 
 ## 一句话总结
@@ -138,9 +138,9 @@ $$\mathcal{F}_\beta[q] = I_q(M;W) - \beta \cdot I_q(W;U)$$
 ## 相关论文
 
 - [\[ICLR 2026\] LLM DNA: Tracing Model Evolution via Functional Representations](llm_dna_tracing_model_evolution_via_functional_representations.md)
-- [\[ICLR 2026\] Human-LLM Collaborative Feature Engineering for Tabular Learning](human-llm_collaborative_feature_engineering_for_tabular_data.md)
-- [\[AAAI 2026\] CoEvo: Continual Evolution of Symbolic Solutions Using Large Language Models](../../AAAI2026/model_compression/coevo_continual_evolution_of_symbolic_solutions_using_large_language_models.md)
 - [\[CVPR 2026\] Preference-Aligned LoRA Merging: Preserving Subspace Coverage and Addressing Directional Anisotropy](../../CVPR2026/model_compression/preference-aligned_lora_merging_preserving_subspace_coverage_and_addressing_dire.md)
 - [\[NeurIPS 2025\] TokenSqueeze: Performance-Preserving Compression for Reasoning LLMs](../../NeurIPS2025/model_compression/tokensqueeze_performance-preserving_compression_for_reasoning_llms.md)
+- [\[CVPR 2026\] MEMO: Human-like Crisp Edge Detection Using Masked Edge Prediction](../../CVPR2026/model_compression/memo_human-like_crisp_edge_detection_using_masked_edge_prediction.md)
+- [\[ICML 2025\] A Mathematical Framework for AI-Human Integration in Work](../../ICML2025/model_compression/a_mathematical_framework_for_ai-human_integration_in_work.md)
 
 <!-- RELATED:END -->

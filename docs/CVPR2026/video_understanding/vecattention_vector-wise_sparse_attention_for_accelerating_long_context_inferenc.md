@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.29494](https://arxiv.org/abs/2603.29494)  
-**代码**: https://github.com/anminliu/VecAttention  
+**代码**: [https://github.com/anminliu/VecAttention](https://github.com/anminliu/VecAttention)  
 **领域**: 视频理解  
 **关键词**: 稀疏注意力、向量级稀疏、长上下文加速、视频理解、视频生成
 

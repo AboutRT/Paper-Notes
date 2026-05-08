@@ -8,7 +8,7 @@ tags:
   - Hard Negative Mining
   - Domain-Specific Retrieval
   - Reranking
-  - Ensemble Embeddings
+  - 其他
   - Enterprise RAG
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.18366](https://arxiv.org/abs/2505.18366)  
 **代码**: 无  
-**领域**: NLP / 信息检索 / 企业搜索  
+**领域**: 其他  
 **关键词**: Hard Negative Mining, Domain-Specific Retrieval, Reranking, Ensemble Embeddings, Enterprise RAG
 
 ## 一句话总结
@@ -51,7 +51,7 @@ tags:
 
 1. **多模型嵌入集成**：使用 6 个嵌入模型 E₁...E₆，每个模型基于不同训练数据和架构，捕捉互补的语义视角。对每个文本 x，拼接所有模型的嵌入：
 
-   $$\mathbf{X}_{concat} = [\mathbf{e}_1(x); \mathbf{e}_2(x); \ldots; \mathbf{e}_6(x)]$$
+    $\mathbf{X}_{concat} = [\mathbf{e}_1(x); \mathbf{e}_2(x); \ldots; \mathbf{e}_6(x)]$
 
    设计动机：单个嵌入模型在特定领域可能有盲区，集成多模型可以提供更全面的语义表示。
 
@@ -152,9 +152,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] BIG-Bench Extra Hard](big-bench_extra_hard.md)
-- [\[ACL 2025\] Unique Hard Attention: A Tale of Two Sides](unique_hard_attention_a_tale_of_two_sides.md)
 - [\[ACL 2025\] Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education](uni-retrieval_a_multi-style_retrieval_framework_for_stems_education.md)
 - [\[ACL 2025\] ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval](acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md)
 - [\[ACL 2025\] GeAR: Generation Augmented Retrieval](gear_generation_augmented_retrieval.md)
+- [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
 
 <!-- RELATED:END -->

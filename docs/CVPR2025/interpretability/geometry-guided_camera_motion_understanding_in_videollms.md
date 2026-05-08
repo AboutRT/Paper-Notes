@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - camera motion
-  - VideoLLM
+  - 可解释性
   - 3D foundation model
   - 提示学习
   - VGGT
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2603.13119](https://arxiv.org/abs/2603.13119)  
 **代码**: 待确认  
-**领域**: multimodal_vlm  
+**领域**: 可解释性  
 **关键词**: camera motion, VideoLLM, 3D foundation model, structured prompting, VGGT
 
 ## 一句话总结
@@ -140,8 +140,8 @@ tags:
 
 - [\[CVPR 2025\] Prompt-CAM: Making Vision Transformers Interpretable for Fine-Grained Analysis](prompt-cam_making_vision_transformers_interpretable_for_fine-grained_analysis.md)
 - [\[CVPR 2025\] KVQ: Boosting Video Quality Assessment via Saliency-Guided Local Perception](kvq_boosting_video_quality_assessment_via_saliency-guided_local_perception.md)
-- [\[CVPR 2025\] Towards Human-Understandable Multi-Dimensional Concept Discovery](towards_human-understandable_multi-dimensional_concept_discovery.md)
-- [\[CVPR 2025\] TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction](tide_training_locally_interpretable_domain_generalization_models_enables_test_time_correction.md)
-- [\[CVPR 2025\] Sample- and Parameter-Efficient Auto-Regressive Image Models](sample-_and_parameter-efficient_auto-regressive_image_models.md)
+- [\[CVPR 2025\] L-SWAG: Layer-Sample Wise Activation with Gradients information for Zero-Shot NAS on Vision Transformers](lswag_zero_shot_nas.md)
+- [\[CVPR 2025\] Scaling Vision Pre-Training to 4K Resolution](scaling_vision_pre-training_to_4k_resolution.md)
+- [\[CVPR 2025\] Learning Visual Composition through Improved Semantic Guidance](learning_visual_composition_through_improved_semantic_guidance.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.07786](https://arxiv.org/abs/2604.07786)  
-**代码**: [https://chanhyeok-choi.github.io/C-MET/](https://chanhyeok-choi.github.io/C-MET/) (有)  
+**代码**: [https://chanhyeok-choi.github.io/C-MET/](https://chanhyeok-choi.github.io/C-MET/)  
 **领域**: 图像生成 / 说话人脸  
 **关键词**: 情感编辑, 跨模态迁移, 说话人脸生成, 情感语义向量, 扩展情感
 
@@ -129,8 +129,8 @@ C-MET 由三个部分组成：(a) 预训练编码器提取语音/视觉嵌入并
 ## 相关论文
 
 - [\[CVPR 2026\] DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization](diflowdubber_discrete_flow_matching_for_automated_video_dubbing_via_cross-modal_.md)
-- [\[CVPR 2025\] EmoDubber: Towards High Quality and Emotion Controllable Movie Dubbing](../../CVPR2025/image_generation/emodubber_towards_high_quality_and_emotion_controllable_movie_dubbing.md)
 - [\[CVPR 2026\] MOS: Mitigating Optical-SAR Modality Gap for Cross-Modal Ship Re-Identification](mos_mitigating_optical-sar_modality_gap_for_cross-modal_ship_re-identification.md)
+- [\[CVPR 2025\] EmoDubber: Towards High Quality and Emotion Controllable Movie Dubbing](../../CVPR2025/image_generation/emodubber_towards_high_quality_and_emotion_controllable_movie_dubbing.md)
 - [\[CVPR 2026\] Preserving Source Video Realism: High-Fidelity Face Swapping for Cinematic Quality](preserving_source_video_realism_high-fidelity_face_swapping_for_cinematic_qualit.md)
 - [\[AAAI 2026\] Multi-Aspect Cross-modal Quantization for Generative Recommendation](../../AAAI2026/image_generation/multi-aspect_cross-modal_quantization_for_generative_recommendation.md)
 

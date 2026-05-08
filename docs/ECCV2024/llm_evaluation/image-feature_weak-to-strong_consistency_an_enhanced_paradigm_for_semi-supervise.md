@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.12614](https://arxiv.org/abs/2408.12614)  
-**代码**: https://github.com/wuzhiyu/IFMatch (有)  
-**领域**: 其他  
+**代码**: [https://github.com/wuzhiyu/IFMatch](https://github.com/wuzhiyu/IFMatch)  
+**领域**: LLM评测  
 **关键词**: 半监督学习, 特征扰动, 一致性正则化, 朴素样本识别, 数据增强
 
 ## 一句话总结

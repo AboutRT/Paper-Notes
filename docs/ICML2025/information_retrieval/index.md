@@ -14,6 +14,10 @@ description: >-
 
 :   本文提出 VRAG 框架，通过构建对抗补丁数据库 + 视觉检索增强生成（VRAG）+ VLM 推理的免训练 pipeline，实现对多种对抗补丁攻击的高效检测，Gemini-2.0 达到 98% 准确率，开源模型 UI-TARS-72B-DPO 达 95%。
 
+**[FedRAG: A Framework for Fine-Tuning Retrieval-Augmented Generation Systems](fedrag_a_framework_for_fine-tuning_retrieval-augmented_generation_systems.md)**
+
+:   FedRAG 提出了一个同时支持集中式和联邦式架构的 RAG 系统微调框架，填补了 RAG 生态系统中缺乏统一微调工具的空白，并通过轻量级抽象实现了从集中式到联邦式训练的无缝转换。
+
 **[POQD: Performance-Oriented Query Decomposer for Multi-Vector Retrieval](poqd_performance-oriented_query_decomposer_for_multi-vector_retrieval.md)**
 
 :   提出 POQD，一个面向性能的查询分解框架，利用 LLM-based Prompt Optimizer 迭代优化查询分解 prompt，并通过交替训练算法联合优化 prompt 和下游 RAG 模型参数，在检索和端到端 QA 任务上大幅超越现有方法。
@@ -21,10 +25,6 @@ description: >-
 **[RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding](rapid_long-context_inference_with_retrieval-augmented_speculative_decoding.md)**
 
 :   提出 RAPID，将 RAG 与 Speculative Decoding 结合：用 RAG drafter（在短检索上下文上运行的 LLM）为长上下文目标 LLM 生成候选 token，并通过推理时知识迁移增强目标分布，在长上下文推理中同时实现 >2× 加速和生成质量提升。
-
-**[Rethinking Addressing in Language Models via Contextualized Equivariant Positional Encoding](rethinking_addressing_in_language_models_via_contexualized_equivariant_positiona.md)**
-
-:   本文提出 TAPE（contexTualized equivariAnt Position Encoding），通过在各层动态地根据序列内容更新位置编码来取代传统的固定位置模式，同时强制排列和正交等变性以保证稳定性，在语言建模、算术推理和长上下文检索任务上显著超越现有位置编码方法。
 
 **[Understanding Synthetic Context Extension via Retrieval Heads](understanding_synthetic_context_extension_via_retrieval_heads.md)**
 

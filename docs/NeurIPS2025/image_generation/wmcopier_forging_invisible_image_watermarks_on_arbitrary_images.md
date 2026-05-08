@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.22330](https://arxiv.org/abs/2503.22330)  
 **代码**: [GitHub](https://github.com/holdrain/WMCopier)  
-**领域**: 图像水印安全 / 扩散模型  
+**领域**: 图像生成  
 **关键词**: 水印伪造攻击, 扩散模型, DDIM 反演, 不可见水印, No-Box 攻击
 
 ## 一句话总结

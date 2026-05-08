@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.10105](https://arxiv.org/abs/2312.10105)  
-**代码**: 有 (https://github.com/naver-ai/seit)  
+**代码**: 有 ([https://github.com/naver-ai/seit](https://github.com/naver-ai/seit))  
 **领域**: 分割 / 图像分类  
 **关键词**: 存储高效训练, 向量量化, 掩码建模, 数据增强, 自监督学习
 
@@ -189,7 +189,7 @@ $$\mathcal{C}(Z_{T_1}, Z_{T_2}) = \sigma(Z_{T_2})\frac{Z_{T_1} - \mu(Z_{T_1})}{\
 - [\[ICCV 2025\] Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling](../../ICCV2025/segmentation/harnessing_massive_satellite_imagery_with_efficient_masked_image_modeling.md)
 - [\[CVPR 2026\] Masked Representation Modeling for Domain-Adaptive Segmentation](../../CVPR2026/segmentation/masked_representation_modeling_for_domain-adaptive_segmentation.md)
 - [\[ECCV 2024\] ColorMAE: Exploring Data-Independent Masking Strategies in Masked AutoEncoders](colormae_exploring_data-independent_masking_strategies_in_masked_autoencoders.md)
-- [\[ECCV 2024\] DreamLIP: Language-Image Pre-training with Long Captions](dreamlip_language-image_pre-training_with_long_captions.md)
 - [\[ECCV 2024\] ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback](controlnet_improving_conditional_controls_with_efficient_consistency_feedback.md)
+- [\[ECCV 2024\] Efficient and Versatile Robust Fine-Tuning of Zero-shot Models](efficient_and_versatile_robust_fine-tuning_of_zero-shot_models.md)
 
 <!-- RELATED:END -->

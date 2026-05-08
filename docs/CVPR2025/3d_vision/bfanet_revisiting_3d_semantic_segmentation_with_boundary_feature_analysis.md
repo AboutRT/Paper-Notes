@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.12539](https://arxiv.org/abs/2503.12539)  
-**代码**: https://github.com/weiguangzhao/BFANet (有)  
+**代码**: [https://github.com/weiguangzhao/BFANet](https://github.com/weiguangzhao/BFANet)  
 **领域**: 3D视觉 / 3D语义分割  
 **关键词**: 3D语义分割, 边界特征分析, 八叉树, 注意力机制, 分割误差分类
 

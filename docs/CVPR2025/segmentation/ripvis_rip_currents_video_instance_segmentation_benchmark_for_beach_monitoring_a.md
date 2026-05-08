@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.01128](https://arxiv.org/abs/2504.01128)  
-**代码**: https://ripvis.ai  
+**代码**: [https://ripvis.ai](https://ripvis.ai)  
 **领域**: 分割  
 **关键词**: 离岸流分割, 视频实例分割, 海滩安全, 时序置信度聚合, 无定形物体检测
 

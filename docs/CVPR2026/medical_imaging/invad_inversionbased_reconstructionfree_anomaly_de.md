@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2504.05662](https://arxiv.org/abs/2504.05662)  
 **代码**: [https://github.com/SkyShunsuke/InversionAD](https://github.com/SkyShunsuke/InversionAD)  
-**领域**: 异常检测 / 扩散模型  
+**领域**: 医学图像  
 **关键词**: anomaly detection, diffusion model, DDIM inversion, reconstruction-free, industrial inspection
 
 ## 一句话总结

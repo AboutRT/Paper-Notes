@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - reward model
   - Multilingual
-  - RLHF
+  - 多语言翻译
   - Preference Benchmark
   - 偏好漂移
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.15522](https://arxiv.org/abs/2410.15522)  
-**代码**: https://github.com/for-ai/m-rewardbench (有)  
+**代码**: [https://github.com/for-ai/m-rewardbench](https://github.com/for-ai/m-rewardbench)  
 **领域**: LLM对齐 / 多语言 / 奖励模型评估  
 **关键词**: reward model, Multilingual, RLHF, Preference Benchmark, 偏好漂移
 
@@ -124,8 +124,8 @@ tags:
 
 - [\[ACL 2025\] Disentangling Language and Culture for Evaluating Multilingual Large Language Models](disentangle_language_culture.md)
 - [\[ACL 2025\] Do Large Language Models Have an English Accent? Evaluating and Improving the Naturalness of Multilingual LLMs](multilingual_llm_english_accent.md)
+- [\[NeurIPS 2025\] XIFBench: Evaluating Large Language Models on Multilingual Instruction Following](../../NeurIPS2025/multilingual_mt/xifbench_evaluating_large_language_models_on_multilingual_instruction_following.md)
 - [\[ACL 2025\] X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System](x-webagentbench_a_multilingual_interactive_web_benchmark_for_evaluating_global_a.md)
 - [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
-- [\[ACL 2025\] ZIPA: A Family of Efficient Models for Multilingual Phone Recognition](zipa_a_family_of_efficient_models_for_multilingual_phone_recognition.md)
 
 <!-- RELATED:END -->

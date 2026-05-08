@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.02040](https://arxiv.org/abs/2407.02040)  
-**代码**: https://github.com/theEricMa/ScaleDreamer  
+**代码**: [https://github.com/theEricMa/ScaleDreamer](https://github.com/theEricMa/ScaleDreamer)  
 **领域**: 图像生成  
 **关键词**: 文本到3D, 分数蒸馏, 扩散模型, 异步时间步, 大规模3D生成
 
@@ -145,8 +145,8 @@ VSD在10万提示下完全崩溃（R@1=0.000），ASD保持有效。SDS在3DConv
 
 - [\[ECCV 2024\] Learning Differentially Private Diffusion Models via Stochastic Adversarial Distillation](learning_differentially_private_diffusion_models_via_stochastic_adversarial_dist.md)
 - [\[ECCV 2024\] ShapeFusion: A 3D Diffusion Model for Localized Shape Editing](shapefusion_a_3d_diffusion_model_for_localized_shape_editing.md)
+- [\[ECCV 2024\] UDiffText: A Unified Framework for High-quality Text Synthesis in Arbitrary Images via Character-aware Diffusion Models](udifftext_a_unified_framework_for_high-quality_text_synthesis_in_arbitrary_image.md)
 - [\[ECCV 2024\] Editable Image Elements for Controllable Synthesis](editable_image_elements_for_controllable_synthesis.md)
 - [\[ECCV 2024\] Ponymation: Learning Articulated 3D Animal Motions from Unlabeled Online Videos](ponymation_learning_articulated_3d_animal_motions_from_unlabeled_online_videos.md)
-- [\[ECCV 2024\] Rejection Sampling IMLE: Designing Priors for Better Few-Shot Image Synthesis](rejection_sampling_imle_designing_priors_for_better_few-shot_image_synthesis.md)
 
 <!-- RELATED:END -->

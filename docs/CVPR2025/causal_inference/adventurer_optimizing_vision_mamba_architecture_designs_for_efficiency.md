@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.07599](https://arxiv.org/abs/2410.07599)  
-**代码**: https://github.com/wangf3014/Adventurer  
+**代码**: [https://github.com/wangf3014/Adventurer](https://github.com/wangf3014/Adventurer)  
 **领域**: 模型架构 / 视觉骨干网络  
 **关键词**: Vision Mamba, 因果图像建模, 线性复杂度, 状态空间模型, 高效视觉架构
 
@@ -129,9 +129,9 @@ Channel mixer 消融：纯 Mamba 层 81.6%，+标准 MLP 81.7%，+SwiGLU 81.8%�
 
 ## 相关论文
 
+- [\[ACL 2026\] Cross-Modal Taxonomic Generalization in (Vision-) Language Models](../../ACL2026/causal_inference/cross-modal_taxonomic_generalization_in_vision-_language_models.md)
 - [\[ECCV 2024\] Learning Chain of Counterfactual Thought for Bias-Robust Vision-Language Reasoning](../../ECCV2024/causal_inference/learning_chain_of_counterfactual_thought_for_bias-robust_vision-language_reasoni.md)
 - [\[CVPR 2025\] Image Quality Assessment: Investigating Causal Perceptual Effects with Abductive Counterfactual Inference](image_quality_assessment_investigating_causal_perceptual_effects_with_abductive_.md)
-- [\[CVPR 2025\] Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding](seeing_far_and_clearly_mitigating_hallucinations_in_mllms_with_attention_causal_.md)
 - [\[CVPR 2025\] FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition](towards_fine-grained_interpretability_counterfactual_explanations_for_misclassif.md)
 - [\[CVPR 2025\] Antidote: A Unified Framework for Mitigating LVLM Hallucinations in Counterfactual Presupposition and Object Perception](antidote_a_unified_framework_for_mitigating_lvlm_hallucinations_in_counterfactua.md)
 

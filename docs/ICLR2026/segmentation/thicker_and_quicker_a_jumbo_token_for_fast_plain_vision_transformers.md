@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2502.15021](https://arxiv.org/abs/2502.15021)  
 **代码**: 无  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: Vision Transformer, CLS Token, 高效架构, Registers, 时间序列, ImageNet
 
 ## 一句话总结

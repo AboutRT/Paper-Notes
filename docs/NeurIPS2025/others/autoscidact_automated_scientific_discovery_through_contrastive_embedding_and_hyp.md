@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing
 description: >-
-  [NeurIPS 2025][对比学习] 提出 AutoSciDACT 管线：先用有监督对比学习将高维科学数据压缩到 4 维嵌入空间，再用 NPLM（New Physics Learning Machine）似然比检验对嵌入空间中的分布偏差进行统计量化，在天文、粒子物理、病理、图像和合成数据集上以 ≤1% 的信号注入比例实现 ≥3σ 发现。
+  [NeurIPS 2025][其他] 提出 AutoSciDACT 管线：先用有监督对比学习将高维科学数据压缩到 4 维嵌入空间，再用 NPLM（New Physics Learning Machine）似然比检验对嵌入空间中的分布偏差进行统计量化，在天文、粒子物理、病理、图像和合成数据集上以 ≤1% 的信号注入比例实现 ≥3σ 发现。
 tags:
   - NeurIPS 2025
-  - 对比学习
+  - 其他
   - 异常检测
   - 假设检验
   - novelty detection
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21935](https://arxiv.org/abs/2510.21935)  
 **代码**: 待确认  
-**领域**: self_supervised  
+**领域**: 其他  
 **关键词**: 对比学习, 异常检测, 假设检验, novelty detection, scientific discovery
 
 ## 一句话总结
@@ -148,9 +148,9 @@ $$\mathcal{L}_{\text{NPLM}} = \sum_{(x,y)} \left[ w_R (1-y) \log(1+e^{f_w}) + y 
 ## 相关论文
 
 - [\[ACL 2025\] IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery](../../ACL2025/others/iris_interactive_research_ideation_system_for_accelerating_scientific_discovery.md)
-- [\[NeurIPS 2025\] Rethinking PCA Through Duality](rethinking_pca_through_duality.md)
 - [\[ECCV 2024\] Auto-GAS: Automated Proxy Discovery for Training-Free Generative Architecture Search](../../ECCV2024/others/auto-gas_automated_proxy_discovery_for_training-free_generative_architecture_sea.md)
-- [\[ICCV 2025\] despite exploring contrastive deep skeletonpointcloudimutext](../../ICCV2025/others/despite_exploring_contrastive_deep_skeletonpointcloudimutext.md)
-- [\[NeurIPS 2025\] Improving Decision Trees through the Lens of Parameterized Local Search](improving_decision_trees_through_the_lens_of_parameterized_local_search.md)
+- [\[ACL 2025\] LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers](../../ACL2025/others/ladder_language-driven_slice_discovery_and_error_rectification_in_vision_classif.md)
+- [\[ACL 2025\] Literature Meets Data: A Synergistic Approach to Hypothesis Generation](../../ACL2025/others/literature_meets_data_hypothesis.md)
+- [\[NeurIPS 2025\] Rethinking PCA Through Duality](rethinking_pca_through_duality.md)
 
 <!-- RELATED:END -->

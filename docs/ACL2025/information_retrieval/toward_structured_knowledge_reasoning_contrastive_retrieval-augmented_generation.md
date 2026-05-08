@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Toward Structured Knowledge Reasoning: Contrastive Retrieval-Augmented Generation on Experience
 description: >-
-  [ACL 2025 Findings][结构化知识推理] 本文提出 CoRE 框架，通过蒙特卡洛树搜索（MCTS）构建包含成功和失败经验的记忆库，并在推理时通过对比式上下文学习（Contrastive ICL）检索正负样例来增强 LLM 对结构化数据（表格、数据库）的推理能力，在 Text-to-SQL 和 TableQA 上分别平均提升 3.44% 和 4.24%。
+  [ACL 2025 Findings][信息检索] 本文提出 CoRE 框架，通过蒙特卡洛树搜索（MCTS）构建包含成功和失败经验的记忆库，并在推理时通过对比式上下文学习（Contrastive ICL）检索正负样例来增强 LLM 对结构化数据（表格、数据库）的推理能力，在 Text-to-SQL 和 TableQA 上分别平均提升 3.44% 和 4.24%。
 tags:
   - ACL 2025 Findings
-  - 结构化知识推理
+  - 信息检索
   - 对比检索增强生成
   - 经验记忆
   - 蒙特卡洛树搜索
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 Findings  
 **arXiv**: [2506.00842](https://arxiv.org/abs/2506.00842)  
 **代码**: [GitHub](https://github.com/Kuvvius/CoRE)  
-**领域**: NLP理解  
+**领域**: 信息检索  
 **关键词**: 结构化知识推理、对比检索增强生成、经验记忆、蒙特卡洛树搜索、Text-to-SQL
 
 ## 一句话总结
@@ -144,7 +144,7 @@ GPT-4 在 2-shot 设置下的对比方式分析（MAC-SQL + Bird）：
 - [\[NeurIPS 2025\] HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](../../NeurIPS2025/information_retrieval/hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)
 - [\[ACL 2025\] SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation](seakr_self-aware_knowledge_retrieval_for_adaptive_retrieval_augmented_generation.md)
 - [\[ICLR 2026\] G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge](../../ICLR2026/information_retrieval/g-reasoner_foundation_models_for_unified_reasoning_over_graph-structured_knowled.md)
-- [\[ACL 2025\] HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases](hybgrag_hybrid_rag_skb.md)
 - [\[ACL 2025\] RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models](rare_retrieval_augmented_reasoning.md)
+- [\[ACL 2025\] Unanswerability Evaluation for Retrieval Augmented Generation](unanswerability_evaluation_for_retrieval_augmented_generation.md)
 
 <!-- RELATED:END -->

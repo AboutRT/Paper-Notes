@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2303.10126](https://arxiv.org/abs/2303.10126)  
-**代码**: [GitHub](https://github.com/yakt00/IRGen) (有)  
+**代码**: [GitHub](https://github.com/yakt00/IRGen)  
 **领域**: 图像生成  
 **关键词**: 图像检索, 自回归模型, 生成式检索, 语义分词器, 序列到序列
 

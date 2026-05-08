@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2409.02813](https://arxiv.org/abs/2409.02813)  
-**代码**: https://mmmu-benchmark.github.io/#leaderboard  
+**代码**: [https://mmmu-benchmark.github.io/#leaderboard](https://mmmu-benchmark.github.io/#leaderboard)  
 **领域**: 多模态VLM / Benchmark  
 **关键词**: multimodal benchmark, MMMU, vision-only evaluation, shortcut exploitation, robust evaluation
 

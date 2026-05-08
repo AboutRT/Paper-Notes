@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.08840](https://arxiv.org/abs/2510.08840)  
-**代码**: https://github.com/pth1993/FairTTE (有)  
+**代码**: [https://github.com/pth1993/FairTTE](https://github.com/pth1993/FairTTE)  
 **领域**: 医学影像 / AI公平性  
 **关键词**: 公平性, 时间-事件预测, 因果分析, 医学影像, 分布偏移
 
@@ -141,7 +141,7 @@ FairTTE框架包含三个层次：(1) 基于因果推理的偏差分析理论框
 - [\[NeurIPS 2025\] FairGRPO: Fair Reinforcement Learning for Equitable Clinical Reasoning](fairgrpo_fair_reinforcement_learning_for_equitable_clinical_reasoning.md)
 - [\[ACL 2025\] One Size Fits None: Rethinking Fairness in Medical AI](../../ACL2025/medical_imaging/one_size_fits_none_rethinking_fairness_in_medical_ai.md)
 - [\[AAAI 2026\] DualFete: Revisiting Teacher-Student Interactions from a Feedback Perspective for Semi-supervised Medical Image Segmentation](../../AAAI2026/medical_imaging/dualfete_revisiting_teacher-student_interactions_from_a_feedback_perspective_for.md)
+- [\[NeurIPS 2025\] Dynamic Causal Discovery in Alzheimer's Disease through Latent Pseudotime Modelling](dynamic_causal_discovery_in_alzheimers_disease_through_latent_pseudotime_modelli.md)
 - [\[NeurIPS 2025\] Doctor Approved: Generating Medically Accurate Skin Disease Images through AI-Expert Feedback](doctor_approved_generating_medically_accurate_skin_disease_images_through_ai-exp.md)
-- [\[CVPR 2025\] CholecTrack20: A Multi-Perspective Tracking Dataset for Surgical Tools](../../CVPR2025/medical_imaging/cholectrack20_a_multi-perspective_tracking_dataset_for_surgical_tools.md)
 
 <!-- RELATED:END -->

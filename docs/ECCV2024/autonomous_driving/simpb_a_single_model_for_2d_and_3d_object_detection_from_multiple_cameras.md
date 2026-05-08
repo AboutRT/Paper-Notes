@@ -56,15 +56,15 @@ SimPB 遵循 DETR-like 框架：
 ### 关键设计
 
 1. **Dynamic Query Allocation（动态 Query 分配）**：将 3D query 动态分配到各相机形成 2D query。通过相机内外参数将 3D anchor 的 K 个关键点（中心 + 8 个角点）投影到各图像平面，根据是否落入图像范围判断有效性。构建 3D→2D 映射矩阵 $T \in \mathbb{R}^{N \times M}$：
-   $$Q_{2d} = T^T \cdot Q_{3d}$$
+    $Q_{2d} = T^T \cdot Q_{3d}$
    其中 M 是所有相机的有效 2D query 总数（动态变化）。相比均匀分配，动态分配利用了相机几何信息，更精准。
 
 2. **Query-Group Attention（分组注意力）**：2D query 按相机分组，组内自注意力和交叉注意力使用 attention mask 限制——同组 query 可互相 attend，跨组 query 不能。避免不同相机的 2D query 互相干扰：
-   $$\mathbf{X} = \text{softmax}(\mathcal{M} + \frac{\mathbf{Q}\mathbf{K}^T}{\sqrt{C}})\mathbf{V}$$
+    $\mathbf{X} = \text{softmax}(\mathcal{M} + \frac{\mathbf{Q}\mathbf{K}^T}{\sqrt{C}})\mathbf{V}$
    其中 $\mathcal{M}(i,j) = 0$（同组）或 $-\infty$（不同组）。
 
 3. **Adaptive Query Aggregation（自适应 Query 聚合）**：2D 检测后将 2D query 聚合回 3D query。先用截断指示器增强 2D query $\tilde{Q}_{2d} = Q_{2d} \cdot \text{MLP}(\text{Concat}(Q_{2d}, \mathbb{1}_{center}))$，然后通过映射矩阵加权平均：
-   $$Q_{2d}^{fused} = \frac{T \cdot \tilde{Q}_{2d}}{\sum_j^M T_j}$$
+    $Q_{2d}^{fused} = \frac{T \cdot \tilde{Q}_{2d}}{\sum_j^M T_j}$
    再用残差连接和自注意力合并到 3D query：$Q_{3d}^{agg} = \text{Self-Attn}(Q_{3d} + Q_{2d}^{fused})$。附加 3D 辅助监督进一步引导聚合后的 query。
 
 ### 损失函数 / 训练策略
@@ -160,10 +160,10 @@ SimPB 遵循 DETR-like 框架：
 
 ## 相关论文
 
-- [\[ECCV 2024\] Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene](approaching_outside_scaling_unsupervised_3d_object_detection_from_2d_scene.md)
 - [\[ECCV 2024\] MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection](monowad_weather-adaptive_diffusion_model_for_robust_monocular_3d_object_detectio.md)
 - [\[ECCV 2024\] Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains](rethinking_lidar_domain_generalization_single_source_as_multiple_density_domains.md)
 - [\[ECCV 2024\] OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](open_object-wise_position_embedding_for_multi-view_3d_object_detection.md)
-- [\[ECCV 2024\] Weakly Supervised 3D Object Detection via Multi-Level Visual Guidance](weakly_supervised_3d_object_detection_via_multi-level_visual_guidance.md)
+- [\[ECCV 2024\] Detecting As Labeling: Rethinking LiDAR-camera Fusion in 3D Object Detection](detecting_as_labeling_rethinking_lidar-camera_fusion_in_3d_object_detection.md)
+- [\[ECCV 2024\] FSD-BEV: Foreground Self-Distillation for Multi-View 3D Object Detection](fsd-bev_foreground_self-distillation_for_multi-view_3d_object_detection.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2502.13143](https://arxiv.org/abs/2502.13143)  
 **作者**: Zekun Qi, Wenyao Zhang, Yufei Ding, Runpei Dong 等 (清华大学, 上海交大, Galbot, 北京大学, UIUC, 上海科技大学)
 **代码**: [SoFar](https://github.com/SoFar-LGO/SoFar)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: semantic orientation, 6-DoF manipulation, spatial reasoning, 3D scene graph, point cloud
 
 ## 一句话总结
@@ -164,8 +164,8 @@ SoFar 总体 43.9%，较次优方法提升超过 **18%**（相对增幅），在
 
 - [\[NeurIPS 2025\] Orientation Matters: Making 3D Generative Models Orientation-Aligned](orientation_matters_making_3d_generative_models_orientation-aligned.md)
 - [\[CVPR 2026\] Scalable Object Relation Encoding for Better 3D Spatial Reasoning in Large Language Models](../../CVPR2026/3d_vision/scalable_object_relation_encoding_for_better_3d_spatial_reasoning_in_large_langu.md)
-- [\[NeurIPS 2025\] Orientation-anchored Hyper-Gaussian for 4D Reconstruction from Casual Videos](orientation-anchored_hyper-gaussian_for_4d_reconstruction_from_casual_videos.md)
 - [\[NeurIPS 2025\] Concerto: Joint 2D-3D Self-Supervised Learning Emerges Spatial Representations](concerto_joint_2d-3d_self-supervised_learning_emerges_spatial_representations.md)
+- [\[NeurIPS 2025\] Orientation-anchored Hyper-Gaussian for 4D Reconstruction from Casual Videos](orientation-anchored_hyper-gaussian_for_4d_reconstruction_from_casual_videos.md)
 - [\[CVPR 2026\] Masking Matters: Unlocking the Spatial Reasoning Capabilities of LLMs for 3D Scene-Language Understanding](../../CVPR2026/3d_vision/masking_matters_unlocking_the_spatial_reasoning_capabilities_of_llms_for_3d_scen.md)
 
 <!-- RELATED:END -->

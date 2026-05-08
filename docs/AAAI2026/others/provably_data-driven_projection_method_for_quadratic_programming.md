@@ -9,7 +9,7 @@ tags:
   - 投影方法
   - 泛化保证
   - 伪维度
-  - 数据驱动优化
+  - 其他
 ---
 
 # Provably Data-Driven Projection Method for Quadratic Programming
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2509.04524](https://arxiv.org/abs/2509.04524)  
 **代码**: 无  
-**领域**: 优化理论 / 数据驱动算法设计  
+**领域**: 其他  
 **关键词**: 二次规划, 投影方法, 泛化保证, 伪维度, 数据驱动优化
 
 ## 一句话总结
@@ -65,8 +65,8 @@ $$\ell(\boldsymbol{P}, \boldsymbol{\pi}) = \min_{\boldsymbol{y} \in \mathbb{R}^k
 1. **Tikhonov 正则化扰动（Lemma 5.1, Proposition 5.2）**
 
    将 $\boldsymbol{Q}$ 替换为 $\boldsymbol{Q}_\gamma = \boldsymbol{Q} + \gamma \boldsymbol{I}_n$，得到扰动 QP。这一扰动有两个关键性质：
-   - 扰动后的目标函数是**严格凸**的，因此 PQP 有**唯一最优解**；
-   - 扰动带来的目标值偏差有界：$0 \leq \ell(\boldsymbol{P}, \boldsymbol{\pi}_\gamma) - \ell(\boldsymbol{P}, \boldsymbol{\pi}) \leq \frac{\gamma R^2}{2}$，其中 $R$ 是可行域的半径上界。
+    - 扰动后的目标函数是**严格凸**的，因此 PQP 有**唯一最优解**；
+    - 扰动带来的目标值偏差有界：$0 \leq \ell(\boldsymbol{P}, \boldsymbol{\pi}_\gamma) - \ell(\boldsymbol{P}, \boldsymbol{\pi}) \leq \frac{\gamma R^2}{2}$，其中 $R$ 是可行域的半径上界。
 
    这意味着当 $\gamma \to 0^+$ 时，扰动函数类可以**任意精度逼近**原始函数类。
 
@@ -74,17 +74,17 @@ $$\ell(\boldsymbol{P}, \boldsymbol{\pi}) = \min_{\boldsymbol{y} \in \mathbb{R}^k
 
    扰动 PQP 的最优解 $\boldsymbol{y}^*$ 满足 KKT 条件。利用 KKT 条件中的互补松弛性和驻点条件，可以将梯度表示为活跃约束法向量的锥组合。关键洞察是运用**锥 Carathéodory 定理**：可以找到一个子集 $\mathcal{B} \subseteq \mathcal{A}(\boldsymbol{y}^*)$，使得 $\boldsymbol{A}_\mathcal{B}$ 的行线性无关，且 $\boldsymbol{y}^*$ 是以下等式约束 QP 的唯一解：
 
-   $$\min_{\boldsymbol{y}} \left\{ \frac{1}{2} \boldsymbol{y}^\top \tilde{\boldsymbol{Q}} \boldsymbol{y} + \tilde{\boldsymbol{c}}^\top \boldsymbol{y} \mid \tilde{\boldsymbol{A}}_\mathcal{B} \boldsymbol{y} = \boldsymbol{b}_\mathcal{B} \right\}$$
+    $\min_{\boldsymbol{y}} \left\{ \frac{1}{2} \boldsymbol{y}^\top \tilde{\boldsymbol{Q}} \boldsymbol{y} + \tilde{\boldsymbol{c}}^\top \boldsymbol{y} \mid \tilde{\boldsymbol{A}}_\mathcal{B} \boldsymbol{y} = \boldsymbol{b}_\mathcal{B} \right\}$
 
    由此可以通过 KKT 矩阵的逆直接计算 $\boldsymbol{y}^*$。
 
 3. **展开主动集方法（Algorithm 1, Lemma 5.4-5.5）**
 
    这是本文的核心算法贡献。算法遍历所有可能的活跃集 $\mathcal{A} \subset \{1, \dots, m\}$（$|\mathcal{A}| \leq \min\{m, k\}$），对每个候选子集：
-   - 构建 KKT 矩阵 $\boldsymbol{K}$ 并检查其是否可逆；
-   - 若可逆，通过 $\boldsymbol{K}^{-1}$ 计算候选解 $(\boldsymbol{y}_\mathrm{cand}, \boldsymbol{\lambda}_\mathrm{cand})$；
-   - 验证原始可行性（$\tilde{\boldsymbol{A}}_j^\top \boldsymbol{y}_\mathrm{cand} \leq \boldsymbol{b}_j$）和对偶可行性（$\boldsymbol{\lambda}_{\mathrm{cand},j} \geq 0$）；
-   - 若全部通过则输出最优值。
+    - 构建 KKT 矩阵 $\boldsymbol{K}$ 并检查其是否可逆；
+    - 若可逆，通过 $\boldsymbol{K}^{-1}$ 计算候选解 $(\boldsymbol{y}_\mathrm{cand}, \boldsymbol{\lambda}_\mathrm{cand})$；
+    - 验证原始可行性（$\tilde{\boldsymbol{A}}_j^\top \boldsymbol{y}_\mathrm{cand} \leq \boldsymbol{b}_j$）和对偶可行性（$\boldsymbol{\lambda}_{\mathrm{cand},j} \geq 0$）；
+    - 若全部通过则输出最优值。
 
    此算法被证明是一个 **GJ 算法**，度（degree）为 $\mathcal{O}(m+k)$，谓词复杂度（predicate complexity）为 $\mathcal{O}(m \min(2^m, (em/k)^k))$。
 
@@ -228,10 +228,10 @@ $$\mathbb{E}[\ell_{\hat{P}}(\boldsymbol{\pi})] \leq \inf_{\boldsymbol{P}} \mathb
 
 ## 相关论文
 
-- [\[AAAI 2026\] Cost-Free Neutrality for the River Method](cost-free_neutrality_for_the_river_method.md)
-- [\[ICLR 2026\] t-SNE Exaggerates Clusters, Provably](../../ICLR2026/others/t-sne_exaggerates_clusters_provably.md)
+- [\[ICML 2025\] Provably Improving Generalization of Few-Shot Models with Synthetic Data](../../ICML2025/others/provably_improving_generalization_of_few-shot_models_with_synthetic_data.md)
 - [\[AAAI 2026\] Whispering Agents: An Event-Driven Covert Communication Protocol for the Internet of Agents](whispering_agents_an_event-driven_covert_communication_protocol_for_the_internet.md)
 - [\[AAAI 2026\] TaylorPODA: A Taylor Expansion-Based Method to Improve Post-Hoc Attributions for Opaque Models](taylorpoda_a_taylor_expansion-based_method_to_improve_post-hoc_attributions_for_.md)
-- [\[ICML 2025\] Sampling from Binary Quadratic Distributions via Stochastic Localization](../../ICML2025/others/sampling_from_binary_quadratic_distributions_via_stochastic_localization.md)
+- [\[AAAI 2026\] Cost-Free Neutrality for the River Method](cost-free_neutrality_for_the_river_method.md)
+- [\[ICLR 2026\] t-SNE Exaggerates Clusters, Provably](../../ICLR2026/others/t-sne_exaggerates_clusters_provably.md)
 
 <!-- RELATED:END -->

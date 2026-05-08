@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.08549](https://arxiv.org/abs/2501.08549)  
 **代码**: [VRS-HQ](https://github.com/sitong-gong/VRS-HQ)  
-**领域**: Segmentation / Video Reasoning  
+**领域**: 图像分割  
 **关键词**: 视频推理分割, 时间token聚合, 关键帧选择, SAM2, 多模态大模型
 
 ## 一句话总结
@@ -125,8 +125,8 @@ VRS-HQ 由四个模块组成：(1) 基于 Chat-UniVi 的 MLLM 进行时间 token
 
 - [\[CVPR 2025\] ROS-SAM: High-Quality Interactive Segmentation for Remote Sensing Moving Object](ros-sam_high-quality_interactive_segmentation_for_remote_sensing_moving_object.md)
 - [\[CVPR 2025\] Exploiting Temporal State Space Sharing for Video Semantic Segmentation](exploiting_temporal_state_space_sharing_for_video_semantic_segmentation.md)
-- [\[CVPR 2025\] Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation](mask-adapter_the_devil_is_in_the_masks_for_open-vocabulary_segmentation.md)
 - [\[CVPR 2025\] Image Quality Assessment: From Human to Machine Preference](image_quality_assessment_from_human_to_machine_preference.md)
+- [\[CVPR 2025\] Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation](mask-adapter_the_devil_is_in_the_masks_for_open-vocabulary_segmentation.md)
 - [\[ACL 2026\] TemporalVLM: Video LLMs for Temporal Reasoning in Long Videos](../../ACL2026/segmentation/temporalvlm_video_llms_for_temporal_reasoning_in_long_videos.md)
 
 <!-- RELATED:END -->

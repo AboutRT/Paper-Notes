@@ -57,12 +57,12 @@ FACT-GS基于2D Gaussian Splatting构建，采用两阶段优化：
    **功能**: 为每个高斯学习一个变形场 $\mathbf{D}_i \in \mathbb{R}^{\tau \times \tau \times 2}$，预测逐纹素位移
    
    **核心思路**: 变形坐标通过残差形式获得：
-   $$(u', v') = (u, v) + \lambda \mathbf{D}_i(u, v)$$
+    $(u', v') = (u, v) + \lambda \mathbf{D}_i(u, v)$
    
    这定义了连续映射 $\Phi_i$，其Jacobian行列式 $|\det J_{\Phi_i}(u,v)|$ 决定局部采样密度。更大的 $|\det J_\Phi|$ 意味着更高的局部纹理容量。
    
    **设计动机**: 根据自适应采样理论，采样密度应随信号局部频率增加而增加。目标密度为：
-   $$\rho^\star(u,v) \propto (\|\nabla C(u,v)\| + \epsilon)^\alpha$$
+    $\rho^\star(u,v) \propto (\|\nabla C(u,v)\| + \epsilon)^\alpha$
    
    变形场通过光度损失端到端训练，光度梯度自然集中在高频区域，驱动 $\Phi$ 在这些区域扩展采样，使 $|\det J_\Phi|$ 自然趋近 $\rho^\star$。
 
@@ -71,7 +71,7 @@ FACT-GS基于2D Gaussian Splatting构建，采用两阶段优化：
    **功能**: 变形场自动调制纹理的局部梯度场
    
    **核心思路**: 通过链式法则，变形纹理的梯度为：
-   $$\nabla c_i^{\text{tex}}(u,v) = J_{\Phi_i}(u,v)^\top \nabla \mathbf{T}_i^{\text{RGB}}(\Phi_i(u,v))$$
+    $\nabla c_i^{\text{tex}}(u,v) = J_{\Phi_i}(u,v)^\top \nabla \mathbf{T}_i^{\text{RGB}}(\Phi_i(u,v))$
    
    $J_\Phi$ 的奇异值分别放大或衰减原始纹理梯度分量，使变形后的纹理能够忠实响应地面真实颜色函数的高频变化。
    

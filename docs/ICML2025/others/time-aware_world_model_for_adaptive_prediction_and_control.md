@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Time-Aware World Model for Adaptive Prediction and Control
 description: >-
-  [ICML 2025][world model] 提出时间感知世界模型 TAWM，通过将时间步长 $\Delta t$ 作为显式输入条件并在训练中混合多种 $\Delta t$ 采样，使模型能以单步预测适应任意时间分辨率的推理，且不增加训练样本量。
+  [ICML 2025][其他] 提出时间感知世界模型 TAWM，通过将时间步长 $\Delta t$ 作为显式输入条件并在训练中混合多种 $\Delta t$ 采样，使模型能以单步预测适应任意时间分辨率的推理，且不增加训练样本量。
 tags:
   - ICML 2025
-  - world model
+  - 其他
   - model-based RL
   - time-step conditioning
   - Nyquist-Shannon theorem
@@ -18,8 +18,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.08441](https://arxiv.org/abs/2506.08441)  
-**代码**: https://github.com/anh-nn01/Time-Aware-World-Model (有)  
-**领域**: 强化学习  
+**代码**: [https://github.com/anh-nn01/Time-Aware-World-Model](https://github.com/anh-nn01/Time-Aware-World-Model)  
+**领域**: 其他  
 **关键词**: world model, model-based RL, time-step conditioning, Nyquist-Shannon theorem, multi-scale dynamics
 
 ## 一句话总结
@@ -138,9 +138,9 @@ TAWM 基于 TD-MPC2 架构进行修改。编码器 $h$ 将观测 $o_t$ 映射到
 ## 相关论文
 
 - [\[ICML 2025\] Prediction-Powered Adaptive Shrinkage Estimation](prediction-powered_adaptive_shrinkage_estimation.md)
+- [\[NeurIPS 2025\] Deep Learning for Continuous-Time Stochastic Control with Jumps](../../NeurIPS2025/others/deep_learning_for_continuous-time_stochastic_control_with_jumps.md)
 - [\[ICML 2025\] General Agents Contain World Models](general_agents_contain_world_models.md)
 - [\[AAAI 2026\] UniShape: A Unified Shape-Aware Foundation Model for Time Series Classification](../../AAAI2026/others/a_unified_shape-aware_foundation_model_for_time_series_class.md)
-- [\[ICML 2025\] Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)
-- [\[CVPR 2025\] Test-Time Augmentation Improves Efficiency in Conformal Prediction](../../CVPR2025/others/test-time_augmentation_improves_efficiency_in_conformal_prediction.md)
+- [\[ICML 2025\] Symmetry-Aware GFlowNets](symmetry-aware_gflownets.md)
 
 <!-- RELATED:END -->

@@ -52,38 +52,38 @@ Gaia2 构建在消费者环境（consumer environment）之上，基于开源的
 1. **动态异步环境**:
 
    与传统基准的"请求-响应"模式不同，Gaia2 的环境是**持续运行的**。环境状态会随着"时间"推进而变化，新信息会异步到达。Agent 必须：
-   - 在时间窗口内做出决策（否则机会消失）
-   - 监控环境变化并相应调整策略
-   - 处理意外事件和状态转换
+    - 在时间窗口内做出决策（否则机会消失）
+    - 监控环境变化并相应调整策略
+    - 处理意外事件和状态转换
 
    这一设计强制 Agent 在不确定性下决策，测试了超越简单规划的适应性能力。
 
 2. **多维度能力测试**:
 
    Gaia2 的场景被设计为覆盖多个核心能力维度：
-   - **时间敏感决策**：在限时条件下选择最优行动
-   - **噪声鲁棒性**：在不完整或矛盾信息中提取关键事实
-   - **歧义解析**：主动寻求澄清或在多义理解中选择最合理的解释
-   - **多 Agent 协作**：与其他 Agent 交换信息、协调行动
-   - **环境适应**：响应动态变化并修正计划
+    - **时间敏感决策**：在限时条件下选择最优行动
+    - **噪声鲁棒性**：在不完整或矛盾信息中提取关键事实
+    - **歧义解析**：主动寻求澄清或在多义理解中选择最合理的解释
+    - **多 Agent 协作**：与其他 Agent 交换信息、协调行动
+    - **环境适应**：响应动态变化并修正计划
 
 3. **写操作验证器（Write-Action Verifier）**:
 
    这是 Gaia2 最重要的技术创新之一。传统基准通常只评估最终答案，而 Gaia2 评估 Agent 在任务过程中的**每个关键行动**。
 
-   - 每个场景定义了若干"写操作"检查点
-   - 在每个检查点，验证器评估 Agent 的操作是否正确
-   - 评估粒度从"最终结果对错"细化到"过程中每步决策质量"
+    - 每个场景定义了若干"写操作"检查点
+    - 在每个检查点，验证器评估 Agent 的操作是否正确
+    - 评估粒度从"最终结果对错"细化到"过程中每步决策质量"
 
    更重要的是，这种可验证的奖励信号使 Gaia2 可以**直接用于强化学习训练**——RLVR（Reinforcement Learning from Verifiable Rewards），为从基准到训练的闭环提供了基础设施。
 
 4. **基于 ARE 平台的可扩展架构**:
 
    Gaia2 构建在开源的 ARE（Agents Research Environments）框架之上，设计为易于扩展：
-   - 新场景可以通过标准接口添加
-   - 环境逻辑和验证逻辑分离
-   - 支持多种 Agent 框架的集成
-   - 消费者环境（如购物、旅行规划）贴近日常应用
+    - 新场景可以通过标准接口添加
+    - 环境逻辑和验证逻辑分离
+    - 支持多种 Agent 框架的集成
+    - 消费者环境（如购物、旅行规划）贴近日常应用
 
 ### 评估协议
 
@@ -165,8 +165,8 @@ Gaia2 构建在消费者环境（consumer environment）之上，基于开源的
 
 - [\[CVPR 2025\] Sketchtopia: A Dataset and Foundational Agents for Benchmarking Asynchronous Multimodal Communication with Iconic Feedback](../../CVPR2025/llm_agent/sketchtopia_a_dataset_and_foundational_agents_for_benchmarking_asynchronous_mult.md)
 - [\[ICLR 2026\] NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents](newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md)
-- [\[AAAI 2026\] LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs](../../AAAI2026/llm_agent/llmtm_benchmarking_and_optimizing_llms_for_temporal_motif_analysis_in_dynamic_gr.md)
 - [\[AAAI 2026\] AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments](../../AAAI2026/llm_agent/agentsense_virtual_sensor_data_generation_using_llm_agents_i.md)
+- [\[AAAI 2026\] LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs](../../AAAI2026/llm_agent/llmtm_benchmarking_and_optimizing_llms_for_temporal_motif_analysis_in_dynamic_gr.md)
 - [\[AAAI 2026\] D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](../../AAAI2026/llm_agent/d-gara_a_dynamic_benchmarking_framework_for_gui_agent_robust.md)
 
 <!-- RELATED:END -->

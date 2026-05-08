@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2303.16078](https://arxiv.org/abs/2303.16078)  
 **代码**: [https://github.com/kocurvik/threeview](https://github.com/kocurvik/threeview)  
-**领域**: 3D视觉  
+**领域**: LLM评测  
 **关键词**: 三视图相对位姿, 最小求解器, 均值点对应, RANSAC, 多视图几何
 
 ## 一句话总结
@@ -141,7 +141,7 @@ Cambridge Landmarks数据集：
 - [\[CVPR 2025\] Scene-Agnostic Pose Regression for Visual Localization](scene-agnostic_pose_regression_for_visual_localization.md)
 - [\[ACL 2025\] Benchmarking LLMs and LLM-based Agents in Practical Vulnerability Detection for Code Repositories](../../ACL2025/llm_evaluation/benchmarking_llms_and_llm-based_agents_in_practical_vulnerability_detection_for_.md)
 - [\[ACL 2025\] Language Model Probabilities are Not Calibrated in Numeric Contexts](../../ACL2025/llm_evaluation/language_model_probabilities_are_not_calibrated_in_numeric_contexts.md)
+- [\[ICLR 2026\] GuidedSampling: Steering LLMs Towards Diverse Candidate Solutions at Inference-Time](../../ICLR2026/llm_evaluation/guidedsampling_steering_llms_towards_diverse_candidate_solutions_at_inference-ti.md)
 - [\[CVPR 2026\] SparseCam4D: Spatio-Temporally Consistent 4D Reconstruction from Sparse Cameras](../../CVPR2026/llm_evaluation/sparsecam4d_spatio-temporally_consistent_4d_reconstruction_from_sparse_cameras.md)
-- [\[NeurIPS 2025\] Belief-Calibrated Multi-Agent Consensus Seeking for Complex NLP Tasks](../../NeurIPS2025/llm_evaluation/belief-calibrated_multi-agent_consensus_seeking_for_complex_nlp_tasks.md)
 
 <!-- RELATED:END -->

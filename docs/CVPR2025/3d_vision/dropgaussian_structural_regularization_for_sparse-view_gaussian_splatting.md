@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.00773](https://arxiv.org/abs/2504.00773)  
-**代码**: https://github.com/DCVL-3D/DropGaussian_release (有)  
+**代码**: [https://github.com/DCVL-3D/DropGaussian_release](https://github.com/DCVL-3D/DropGaussian_release)  
 **领域**: 3D视觉  
 **关键词**: 稀疏视角新视角合成, 3D高斯泼溅, 过拟合正则化, Dropout, 无先验方法
 

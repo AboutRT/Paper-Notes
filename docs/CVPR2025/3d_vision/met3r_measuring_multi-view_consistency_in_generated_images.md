@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.06336](https://arxiv.org/abs/2501.06336)  
-**代码**: https://geometric-rl.mpi-inf.mpg.de/met3r/ (有)  
+**代码**: [https://geometric-rl.mpi-inf.mpg.de/met3r/](https://geometric-rl.mpi-inf.mpg.de/met3r/)  
 **领域**: 3D视觉 / 多模态VLM  
 **关键词**: 多视角一致性, 评价指标, 扩散模型, DUSt3R, 特征相似度
 
@@ -139,6 +139,6 @@ MEt3R本身是评价指标不需要训练。MV-LDM使用标准扩散训练。
 - [\[CVPR 2025\] 3D Gaussian Inpainting with Depth-Guided Cross-View Consistency](3d_gaussian_inpainting_with_depth-guided_cross-view_consistency.md)
 - [\[CVPR 2025\] MVGD: Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](zero-shot_novel_view_and_depth_synthesis_with_multi-view_geometric_diffusion.md)
 - [\[ICCV 2025\] Auto-Regressively Generating Multi-View Consistent Images](../../ICCV2025/3d_vision/auto-regressively_generating_multi-view_consistent_images.md)
-- [\[CVPR 2025\] MVPaint: Synchronized Multi-View Diffusion for Painting Anything 3D](mvpaint_synchronized_multi-view_diffusion_for_painting_anything_3d.md)
+- [\[CVPR 2025\] IMFine: 3D Inpainting via Geometry-guided Multi-view Refinement](imfine_3d_inpainting_via_geometry-guided_multi-view_refinement.md)
 
 <!-- RELATED:END -->

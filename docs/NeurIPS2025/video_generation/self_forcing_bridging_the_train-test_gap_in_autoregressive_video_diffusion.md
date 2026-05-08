@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.08009](https://arxiv.org/abs/2506.08009)  
-**代码**: https://github.com/self-forcing (项目页面: https://self-forcing.github.io/)  
+**代码**: [https://github.com/self-forcing](https://github.com/self-forcing) (项目页面: [https://self-forcing.github.io/](https://self-forcing.github.io/))  
 **领域**: 视频生成 / 自回归扩散模型  
 **关键词**: 自回归视频生成, 暴露偏差, 分布匹配, 实时视频生成, KV缓存
 
@@ -129,7 +129,7 @@ Self Forcing 在 VBench 上超越了初始化权重 Wan2.1（一个速度慢 150
 ## 相关论文
 
 - [\[NeurIPS 2025\] Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation](autoregressive_adversarial_posttraining_for_realtime_interac.md)
-- [\[ECCV 2024\] FreeInit: Bridging Initialization Gap in Video Diffusion Models](../../ECCV2024/video_generation/freeinit_bridging_initialization_gap_in_video_diffusion.md)
+- [\[ECCV 2024\] FreeInit: Bridging Initialization Gap in Video Diffusion Models](../../ECCV2024/video_generation/freeinit_bridging_initialization_gap_in_video_diffusion_models.md)
 - [\[CVPR 2025\] Taming Teacher Forcing for Masked Autoregressive Video Generation](../../CVPR2025/video_generation/taming_teacher_forcing_for_masked_autoregressive_video_generation.md)
 - [\[CVPR 2025\] From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](../../CVPR2025/video_generation/from_slow_bidirectional_to_fast_autoregressive_video_diffusion_models.md)
 - [\[CVPR 2026\] Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout](../../CVPR2026/video_generation/infinity-rope_action-controllable_infinite_video_generation_emerges_from_autoreg.md)

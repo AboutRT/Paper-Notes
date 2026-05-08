@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets & Benchmarks)][图像生成][扩散模型] 全面研究零样本扩散分类器在组合理解任务上的判别能力：覆盖3个扩散模型(SD 1.5/2.0/3-m)×10个数据集×30+任务，引入Self-Bench诊断基准（用扩散模型自己生成的图像消除域差异），发现扩散分类器确实理解组合性但受域差距和时间步加权影响——"条件适用"。
 tags:
-  - "NeurIPS 2025 (Datasets & Benchmarks)"
+  - 图像生成
   - 图像生成
   - 扩散模型
   - compositionality
@@ -164,8 +164,8 @@ $$\mathcal{L}_{\mathrm{RF}}(\mathbf{x}_0) = \mathbb{E}_{t,\epsilon}[w_t \|\epsil
 
 ## 相关论文
 
-- [\[CVPR 2026\] Exploring Conditions for Diffusion Models in Robotic Control](../../CVPR2026/image_generation/exploring_conditions_for_diffusion_models_in_robotic_control.md)
 - [\[CVPR 2026\] Guiding Diffusion Models with Semantically Degraded Conditions](../../CVPR2026/image_generation/guiding_diffusion_models_with_semantically_degraded_conditions.md)
+- [\[CVPR 2026\] Exploring Conditions for Diffusion Models in Robotic Control](../../CVPR2026/image_generation/exploring_conditions_for_diffusion_models_in_robotic_control.md)
 - [\[NeurIPS 2025\] Understand Before You Generate: Self-Guided Training for Autoregressive Image Generation](understand_before_you_generate_self-guided_training_for_autoregressive_image_gen.md)
 - [\[NeurIPS 2025\] OmniVCus: Feedforward Subject-driven Video Customization with Multimodal Control Conditions](omnivcus_feedforward_subject-driven_video_customization_with_multimodal_control_.md)
 - [\[AAAI 2026\] DiffA: Large Language Diffusion Models Can Listen and Understand](../../AAAI2026/image_generation/diffa_large_language_diffusion_models_can_listen_and_understand.md)

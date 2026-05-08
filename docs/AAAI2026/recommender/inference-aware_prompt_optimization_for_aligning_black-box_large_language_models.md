@@ -5,7 +5,7 @@ description: >-
   [AAAI 2026][Inference-Aware Optimization] 揭示 prompt 选择与推理策略（Best-of-N、Majority Voting）之间存在非平凡交互关系，提出 IAPO 框架将 prompt 设计与推理规模联合优化为上下文最优臂识别问题，并设计 PSST 固定预算训练算法，在 6 个任务上相比推理无关方法提升最高 50%。
 tags:
   - AAAI 2026
-  - Inference-Aware Optimization
+  - 推荐系统
   - 提示学习
   - Best-of-N Sampling
   - Contextual Bandits
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.10030](https://arxiv.org/abs/2508.10030)  
 **代码**: [https://iapo-aaai25.github.io/](https://iapo-aaai25.github.io/)  
-**领域**: 对齐RLHF / Prompt优化  
+**领域**: 推荐系统  
 **关键词**: Inference-Aware Optimization, Prompt Optimization, Best-of-N Sampling, Contextual Bandits, Black-Box Alignment  
 
 ## 一句话总结
@@ -129,7 +129,7 @@ IAPO（Inference-Aware Prompt Optimization）框架定义臂 $a = (p, N) \in \ma
 - [\[NeurIPS 2025\] Inference-Time Reward Hacking in Large Language Models](../../NeurIPS2025/recommender/inference-time_reward_hacking_in_large_language_models.md)
 - [\[ICLR 2026\] From Evaluation to Defense: Advancing Safety in Video Large Language Models](../../ICLR2026/recommender/from_evaluation_to_defense_advancing_safety_in_video_large_language_models.md)
 - [\[AAAI 2026\] Moral Change or Noise? On Problems of Aligning AI With Temporally Unstable Human Feedback](moral_change_or_noise_on_problems_of_aligning_ai_with_temporally_unstable_human_.md)
+- [\[AAAI 2026\] TraveLLaMA: A Multimodal Travel Assistant with Large-Scale Dataset and Structured Reasoning](travellama_a_multimodal_travel_assistant_with_large-scale_dataset_and_structured.md)
 - [\[ICLR 2026\] GoalRank: Group-Relative Optimization for a Large Ranking Model](../../ICLR2026/recommender/goalrank_group-relative_optimization_for_a_large_ranking_model.md)
-- [\[ACL 2025\] KERL: Knowledge-Enhanced Personalized Recipe Recommendation using Large Language Models](../../ACL2025/recommender/kerl_knowledge-enhanced_personalized_recipe_recommendation_using_large_language_.md)
 
 <!-- RELATED:END -->

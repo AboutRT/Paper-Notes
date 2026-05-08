@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.09760](https://arxiv.org/abs/2603.09760)  
-**代码**: https://github.com/GL-ZHU925/PanoAffordanceNet  
+**代码**: [https://github.com/GL-ZHU925/PanoAffordanceNet](https://github.com/GL-ZHU925/PanoAffordanceNet)  
 **领域**: 机器人 / 3D理解  
 **关键词**: 全景affordance, 360度场景, ERP畸变, 球面传播, one-shot学习
 
@@ -130,8 +130,8 @@ tags:
 
 - [\[CVPR 2025\] Coordinated Manipulation of Hybrid Deformable-Rigid Objects in Constrained Environments](coordinated_manipulation_hybrid_deformable_rigid_objects.md)
 - [\[CVPR 2025\] ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding](asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_de.md)
-- [\[CVPR 2025\] Towards Long-Horizon Vision-Language Navigation: Platform, Benchmark and Method](towards_long-horizon_vision-language_navigation_platform_benchmark_and_method.md)
-- [\[CVPR 2025\] UniAct: Universal Actions for Enhanced Embodied Foundation Models](universal_actions_for_enhanced_embodied_foundation_models.md)
-- [\[CVPR 2025\] Robotic Visual Instruction](robotic_visual_instruction.md)
+- [\[CVPR 2025\] Prof. Robot: Differentiable Robot Rendering without Static and Self-Collisions](prof_robot_differentiable_robot_rendering_without_static_and_self-collisions.md)
+- [\[CVPR 2025\] Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation](think_small_act_big_primitive_prompt_learning_for_lifelong_robot_manipulation.md)
+- [\[CVPR 2025\] RoboGround: Robotic Manipulation with Grounded Vision-Language Priors](roboground_robotic_manipulation_with_grounded_vision-language_priors.md)
 
 <!-- RELATED:END -->

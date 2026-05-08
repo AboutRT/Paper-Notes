@@ -2,10 +2,10 @@
 title: >-
   [论文解读] UniShape: A Unified Shape-Aware Foundation Model for Time Series Classification
 description: >-
-  [AAAI 2026][时间序列分类] 提出UniShape——首个面向时间序列分类(TSC)的形状感知基础模型：通过多尺度子序列(shape)自适应聚合的shape-aware adapter捕获类别判别性时序模式，结合原型预训练模块在实例级和shape级联合学习可迁移的shapelet表示；在189万样本上预训练后，128个UCR数据集上达到0.8708平均准确率，超越所有基线。
+  [AAAI 2026][其他] 提出UniShape——首个面向时间序列分类(TSC)的形状感知基础模型：通过多尺度子序列(shape)自适应聚合的shape-aware adapter捕获类别判别性时序模式，结合原型预训练模块在实例级和shape级联合学习可迁移的shapelet表示；在189万样本上预训练后，128个UCR数据集上达到0.8708平均准确率，超越所有基线。
 tags:
   - AAAI 2026
-  - 时间序列分类
+  - 其他
   - 基础模型
   - Shapelet
   - 多尺度
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.06429](https://arxiv.org/abs/2601.06429)  
 **代码**: [https://github.com/qianlima-lab/UniShape](https://github.com/qianlima-lab/UniShape)  
-**领域**: 时间序列分类 / 基础模型  
+**领域**: 其他  
 **关键词**: 时间序列分类, 基础模型, Shapelet, 多尺度, 原型学习
 
 ## 一句话总结
@@ -127,9 +127,9 @@ UniShape采用预训练+微调范式：(1) Shape-Aware Adapter将变长子序列
 ## 相关论文
 
 - [\[ICML 2025\] Time-Aware World Model for Adaptive Prediction and Control](../../ICML2025/others/time-aware_world_model_for_adaptive_prediction_and_control.md)
-- [\[AAAI 2026\] From Decision Trees to Boolean Logic: A Fast and Unified SHAP Algorithm](from_decision_trees_to_boolean_logic_a_fast_and_unified_shap_algorithm.md)
-- [\[AAAI 2026\] Lost in Time? A Meta-Learning Framework for Time-Shift-Tolerant Physiological Signal Transformation](lost_in_time_a_meta-learning_framework_for_time-shift-tolerant_physiological_sig.md)
-- [\[AAAI 2026\] A Mind Cannot Be Smeared Across Time](a_mind_cannot_be_smeared_across_time.md)
-- [\[AAAI 2026\] Model Change for Description Logic Concepts](model_change_for_description_logic_concepts.md)
+- [\[AAAI 2026\] Measuring Model Performance in the Presence of an Intervention](measuring_model_performance_in_the_presence_of_an_intervention.md)
+- [\[AAAI 2026\] Agent-SAMA: State-Aware Mobile Assistant](agent-sama_state-aware_mobile_assistant.md)
+- [\[ACL 2025\] SSUF: A Semi-supervised Scalable Unified Framework for E-commerce Query Classification](../../ACL2025/others/a_semi-supervised_scalable_unified_framework_for_e-commerce_query_classification.md)
+- [\[AAAI 2026\] DeToNATION: Decoupled Torch Network-Aware Training on Interlinked Online Nodes](detonation_decoupled_torch_network-aware_training_on_interlinked_online_nodes.md)
 
 <!-- RELATED:END -->

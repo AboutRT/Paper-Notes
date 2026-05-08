@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.17064](https://arxiv.org/abs/2506.17064)  
 **代码**: 有（开源）  
-**领域**: medical_imaging / computational_biology  
+**领域**: 医学图像  
 **关键词**: 蛋白质构象生成, 潜在扩散, 图神经网络, 全原子建模, GPCR  
 **arXiv**: [2506.17064](https://arxiv.org/abs/2506.17064)  
 **代码**: 无  

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV2024
   - 多模态
-  - 开放词汇目标检测
+  - 多模态VLM
   - 伪标签学习
   - CLIP
   - 在线挖掘
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2407.21465](https://arxiv.org/abs/2407.21465)  
 **代码**: [https://github.com/wkfdb/MarvelOVD](https://github.com/wkfdb/MarvelOVD)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 开放词汇目标检测, 伪标签学习, CLIP, 在线挖掘, 自适应重加权
 
 ## 一句话总结
@@ -189,9 +189,9 @@ burn-in 步数影响很小（模型收敛后伪标签质量趋同），阈值 0.
 ## 相关论文
 
 - [\[ECCV 2024\] MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection](marvelovd_marrying_object_recognition_and_visionlanguage_mod.md)
-- [\[ECCV 2024\] CLAP: Isolating Content from Style through Contrastive Learning with Augmented Prompts](clap_isolating_content_from_style_through_contrastive_learning_with_augmented_pr.md)
 - [\[ECCV 2024\] SpLIP: 通过多模态提示学习提升所有零样本草图检索任务](elevating_all_zero-shot_sketch-based_image_retrieval_through_multimodal_prompt_l.md)
+- [\[ECCV 2024\] CLAP: Isolating Content from Style through Contrastive Learning with Augmented Prompts](clap_isolating_content_from_style_through_contrastive_learning_with_augmented_pr.md)
 - [\[ECCV 2024\] MMBench: Is Your Multi-modal Model an All-Around Player?](mmbench_is_your_multi-modal_model_an_all-around_player.md)
-- [\[ECCV 2024\] Meta-Prompting for Automating Zero-Shot Visual Recognition with LLMs](meta-prompting_for_automating_zero-shot_visual_recognition_with_llms.md)
+- [\[ECCV 2024\] The Hard Positive Truth About Vision-Language Compositionality](the_hard_positive_truth_about_visionlanguage_compositionalit.md)
 
 <!-- RELATED:END -->

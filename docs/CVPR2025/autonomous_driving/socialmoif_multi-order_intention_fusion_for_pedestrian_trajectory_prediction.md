@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.15616](https://arxiv.org/abs/2504.15616)  
-**代码**: https://github.com/XiaodZhao/SocialMOIF  
+**代码**: [https://github.com/XiaodZhao/SocialMOIF](https://github.com/XiaodZhao/SocialMOIF)  
 **领域**: 自动驾驶  
 **关键词**: 行人轨迹预测, 多阶意图交互, 全局轨迹优化, KAN网络, 分布近似
 
@@ -153,6 +153,6 @@ ETH/UCY 平均 ADE/FDE（米）：
 - [\[CVPR 2025\] Certified Human Trajectory Prediction](certified_human_trajectory_prediction.md)
 - [\[AAAI 2026\] CaTFormer: Causal Temporal Transformer with Dynamic Contextual Fusion for Driving Intention Prediction](../../AAAI2026/autonomous_driving/catformer_causal_temporal_transformer_with_dynamic_contextual_fusion_for_driving.md)
 - [\[CVPR 2025\] Physical Plausibility-aware Trajectory Prediction via Locomotion Embodiment](physical_plausibility-aware_trajectory_prediction_via_locomotion_embodiment.md)
-- [\[CVPR 2025\] GDFusion: Rethinking Temporal Fusion with a Unified Gradient Descent View for 3D Semantic Occupancy Prediction](gdfusion_temporal_fusion_occupancy.md)
+- [\[CVPR 2025\] GDFusion: Rethinking Temporal Fusion with a Unified Gradient Descent View for 3D Semantic Occupancy Prediction](rethinking_temporal_fusion_with_a_unified_gradient_descent_view_for_3d_semantic_.md)
 
 <!-- RELATED:END -->

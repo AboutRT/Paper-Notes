@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.08686](https://arxiv.org/abs/2506.08686)  
-**代码**: https://github.com/sohampoddar26/LLM-brevity (有)  
+**代码**: [https://github.com/sohampoddar26/LLM-brevity](https://github.com/sohampoddar26/LLM-brevity)  
 **领域**: LLM / 效率与可持续性  
 **关键词**: 响应长度, 能源效率, 提示工程, 输出压缩, 绿色AI
 

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.10809](https://arxiv.org/abs/2503.10809)  
 **代码**: [GitHub](https://github.com/AIchberger/mip-against-agent)  
-**领域**: AI安全  
+**领域**: 机器人  
 **关键词**: adversarial attack, OS agent, malicious image patch, VLM security, computer worm
 
 ## 一句话总结

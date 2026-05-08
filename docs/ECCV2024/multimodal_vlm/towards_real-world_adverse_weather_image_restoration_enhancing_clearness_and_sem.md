@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 恶劣天气图像复原
+  - 多模态VLM
   - 视觉-语言模型
   - 半监督学习
   - 伪标签
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.02101](https://arxiv.org/abs/2409.02101)  
-**代码**: [GitHub](https://github.com/jiaqixuac/WResVLM) (有)  
+**代码**: [GitHub](https://github.com/jiaqixuac/WResVLM)  
 **领域**: 多模态VLM / 图像复原  
 **关键词**: 恶劣天气图像复原, 视觉-语言模型, 半监督学习, 伪标签, 天气提示学习
 
@@ -148,8 +148,8 @@ $$\mathcal{L} = \mathcal{L}_{sup} + w_1 \mathcal{L}_{ps} + w_2 \mathcal{L}_{wpl}
 
 - [\[ECCV 2024\] AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization](addressclip_empowering_vision-language_models_for_city-wide_image_address_locali.md)
 - [\[ECCV 2024\] MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection](marvelovd_marrying_object_recognition_and_visionlanguage_mod.md)
-- [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](attention_prompting_on_image_for_large_vision-language_models.md)
-- [\[ECCV 2024\] FlexAttention for Efficient High-Resolution Vision-Language Models](flexattention_for_efficient_highresolution_visionlanguage_mo.md)
 - [\[ECCV 2024\] CAT: Enhancing Multimodal Large Language Model to Answer Questions in Dynamic Audio-Visual Scenarios](cat_enhancing_multimodal_large_language_model_to_answer_questions_in_dynamic_aud.md)
+- [\[ECCV 2024\] Quantized Prompt for Efficient Generalization of Vision-Language Models](quantized_prompt_for_efficient_generalization_of_vision-language_models.md)
+- [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](brave_broadening_the_visual_encoding_of_vision-language_models.md)
 
 <!-- RELATED:END -->

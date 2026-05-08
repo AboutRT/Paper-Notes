@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.19853](https://arxiv.org/abs/2412.19853)  
-**代码**: https://nadavc220.github.io/conditional-balance.github.io/  
+**代码**: [https://nadavc220.github.io/conditional-balance.github.io/](https://nadavc220.github.io/conditional-balance.github.io/)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 多条件生成, 风格-结构平衡, 层级敏感性分析, 选择性条件注入, 无训练
 
@@ -111,10 +111,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in Diffusion Models](enhancing_privacy-utility_trade-offs_to_mitigate_memorization_in_diffusion_model.md)
 - [\[ICCV 2025\] Trade-offs in Image Generation: How Do Different Dimensions Interact?](../../ICCV2025/image_generation/trade-offs_in_image_generation_how_do_different_dimensions_interact.md)
 - [\[CVPR 2025\] Improving Editability in Image Generation with Layer-wise Memory](improving_editability_in_image_generation_with_layer-wise_memory.md)
 - [\[CVPR 2025\] Rectified Diffusion Guidance for Conditional Generation](rectified_diffusion_guidance_for_conditional_generation.md)
 - [\[CVPR 2025\] Enhancing Dance-to-Music Generation via Negative Conditioning Latent Diffusion Model](enhancing_dance-to-music_generation_via_negative_conditioning_latent_diffusion_m.md)
-- [\[CVPR 2025\] Random Conditioning for Diffusion Model Compression with Distillation](random_conditioning_for_diffusion_model_compression_with_distillation.md)
 
 <!-- RELATED:END -->

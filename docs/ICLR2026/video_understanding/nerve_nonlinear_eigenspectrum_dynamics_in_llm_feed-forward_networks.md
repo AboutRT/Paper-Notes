@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.06922](https://arxiv.org/abs/2603.06922)  
 **代码**: [项目主页](https://nerve-eigenspectrum.github.io/)  
-**领域**: LLM 分析 / 深度学习可解释性  
+**领域**: 视频理解  
 **关键词**: FFN 分析, 特征谱动力学, 方差重注入, 优化器几何, 频谱诊断
 
 ## 一句话总结
@@ -165,8 +165,8 @@ GPT-2 基线模型不同配置的困惑度：
 
 - [\[ICLR 2026\] Log Probability Tracking of LLM APIs](log_probability_tracking_of_llm_apis.md)
 - [\[ICLR 2026\] Emergence of Superposition: Unveiling the Training Dynamics of Chain of Continuous Thought](emergence_of_superposition_unveiling_the_training_dynamics_of_chain_of_continuou.md)
-- [\[AAAI 2026\] Decomposition and Preprocessing of Ternary Constraint Networks](../../AAAI2026/video_understanding/decomposition_and_preprocessing_of_ternary_constraint_networks.md)
 - [\[ICLR 2026\] Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning](stabilizing_policy_gradients_for_sample-efficient_reinforcement_learning_in_llm_.md)
-- [\[ACL 2026\] ViLL-E: Video LLM Embeddings for Retrieval](../../ACL2026/video_understanding/vill-e_video_llm_embeddings_for_retrieval.md)
+- [\[AAAI 2026\] Learning Topology-Driven Multi-Subspace Fusion for Grassmannian Deep Networks](../../AAAI2026/video_understanding/learning_topology-driven_multi-subspace_fusion_for_grassmannian_deep_network.md)
+- [\[AAAI 2026\] Distillation Dynamics: Towards Understanding Feature-Based Distillation in Vision Transformers](../../AAAI2026/video_understanding/distillation_dynamics_towards_understanding_feature-based_di.md)
 
 <!-- RELATED:END -->

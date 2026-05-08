@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.09277](https://arxiv.org/abs/2501.09277)  
 **代码**: 无（未提及）  
-**领域**: 视频理解 / 扩散模型  
+**领域**: 图像生成  
 **关键词**: 隐式神经表示, 视频建模, 偏置调制, 慢动作生成, 视频修复
 
 ## 一句话总结
@@ -123,7 +123,7 @@ ActINR 由两个网络组成。**Frame INR** 接收空间坐标 $(x,y)$，输出
 - [\[CVPR 2025\] Implicit Bias Injection Attacks against Text-to-Image Diffusion Models](implicit_bias_injection_attacks_against_text-to-image_diffusion_models.md)
 - [\[ICLR 2026\] COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations](../../ICLR2026/image_generation/cosmo-inr_complex_sinusoidal_modulation_for_implicit_neural_representations.md)
 - [\[CVPR 2025\] Dissecting and Mitigating Diffusion Bias via Mechanistic Interpretability](dissecting_and_mitigating_diffusion_bias_via_mechanistic_interpretability.md)
-- [\[AAAI 2026\] How Bias Binds: Measuring Hidden Associations for Bias Control in Text-to-Image Compositions](../../AAAI2026/image_generation/how_bias_binds_measuring_hidden_associations_for_bias_control_in_text-to-image_c.md)
-- [\[NeurIPS 2025\] FairImagen: Post-Processing for Bias Mitigation in Text-to-Image Models](../../NeurIPS2025/image_generation/fairimagen_post-processing_for_bias_mitigation_in_text-to-image_models.md)
+- [\[CVPR 2025\] Reanimating Images using Neural Representations of Dynamic Stimuli](reanimating_images_using_neural_representations_of_dynamic_stimuli.md)
+- [\[CVPR 2025\] A Bias-Free Training Paradigm for More General AI-generated Image Detection](a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)
 
 <!-- RELATED:END -->

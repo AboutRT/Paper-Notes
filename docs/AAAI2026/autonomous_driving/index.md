@@ -2,7 +2,7 @@
 title: >-
   AAAI2026 自动驾驶方向58篇论文解读
 description: >-
-  58篇AAAI2026的自动驾驶方向论文解读，涵盖自动驾驶、对抗鲁棒、3D 目标检测、扩散模型、Agent、重识别等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  58篇AAAI2026的自动驾驶方向论文解读，涵盖自动驾驶、3D 目标检测、对抗鲁棒、扩散模型、Agent、重识别等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -77,6 +77,10 @@ description: >-
 **[ExpertAD: Enhancing Autonomous Driving Systems with Mixture of Experts](expertad_enhancing_autonomous_driving_systems_with_mixture_of_experts.md)**
 
 :   提出 ExpertAD，将混合专家（MoE）架构引入端到端自动驾驶系统的感知和预测模块——Perception Adapter 动态重加权 BEV 特征以放大任务关键语义，Mixture of Sparse Experts 通过路由器动态激活相关驾驶任务专家并用稀疏注意力降低计算量，在保持或提升规划效果的同时降低约 25% 推理延迟。
+
+**[Exploring Surround-View Fisheye Camera 3D Object Detection](exploring_surround-view_fisheye_camera_3d_object_detection.md)**
+
+:   本文系统研究了环视鱼眼相机的3D目标检测问题：构建了同时包含针孔和鱼眼相机数据的Fisheye3DOD基准数据集，并提出FisheyeBEVDet和FisheyePETR两个框架，通过球面特征表征将鱼眼几何建模嵌入主流检测范式，相比矫正baseline提升最高6.2个FDS点。
 
 **[FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning](fastdrivevla_efficient_end-to-end_driving_via_plug-and-play_.md)**
 
@@ -221,10 +225,6 @@ description: >-
 **[Unlocking Efficient Vehicle Dynamics Modeling via Analytic World Models](unlocking_efficient_vehicle_dynamics_modeling_via_analytic_world_models.md)**
 
 :   提出解析世界模型（Analytic World Models, AWMs），利用可微分模拟器的可微性设计三种世界建模任务（相对里程计、最优规划器、逆最优状态估计），无需试错搜索即可端到端高效训练状态预测器，在Waymax自动驾驶模拟器上验证了其有效性。
-
-**[VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness](vilta_a_vlm-in-the-loop_adversary_for_enhancing_driving_poli.md)**
-
-:   VILTA 将 VLM（Gemini-2.5-Flash）直接嵌入自动驾驶 RL 训练循环中，通过"Vision-Language-Editing"（VLE）范式让 VLM 编辑周围车辆的未来轨迹来生成具有挑战性的危险场景，训练出的驾驶策略在 CARLA 挑战场景中路线完成率提升 13.3%、碰撞率降低 28.5%。
 
 **[Vision-Only Gaussian Splatting for Collaborative Semantic Occupancy Prediction](visiononly_gaussian_splatting_for_collaborative_semantic_occupancy_p.md)**
 

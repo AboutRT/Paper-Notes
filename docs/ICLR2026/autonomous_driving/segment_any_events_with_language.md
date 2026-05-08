@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.23159](https://arxiv.org/abs/2601.23159)  
 **代码**: [https://0nandon.github.io/SEAL](https://0nandon.github.io/SEAL)（即将公开）  
-**领域**: autonomous_driving, event_camera, segmentation  
+**领域**: 自动驾驶  
 **关键词**: 事件相机, 开放词汇实例分割, SAM, CLIP, 多模态融合, 无标注训练  
 
 ## 一句话总结

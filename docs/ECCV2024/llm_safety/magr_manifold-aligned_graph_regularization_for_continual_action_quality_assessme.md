@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 持续学习
-  - 动作质量评估
+  - LLM安全
   - 特征回放
   - 流形对齐
   - 图正则化
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.04398](https://arxiv.org/abs/2403.04398)  
 **代码**: [GitHub](https://github.com/ZhouKanglei/MAGR_CAQA)  
-**领域**: 其他  
+**领域**: LLM安全  
 **关键词**: 持续学习, 动作质量评估, 特征回放, 流形对齐, 图正则化
 
 ## 一句话总结
@@ -150,9 +150,9 @@ Joint Training 上界分别为 0.9360 / 0.9075 / 0.8460 / 0.7556。
 ## 相关论文
 
 - [\[ACL 2025\] Real-time Factuality Assessment from Adversarial Feedback](../../ACL2025/llm_safety/real-time_factuality_assessment_from_adversarial_feedback.md)
-- [\[NeurIPS 2025\] Finding Structure in Continual Learning](../../NeurIPS2025/llm_safety/finding_structure_in_continual_learning.md)
-- [\[CVPR 2025\] Order-Robust Class Incremental Learning: Graph-Driven Dynamic Similarity Grouping](../../CVPR2025/llm_safety/order-robust_class_incremental_learning_graph-driven_dynamic_similarity_grouping.md)
 - [\[ICCV 2025\] Adversarial Robust Memory-Based Continual Learner](../../ICCV2025/llm_safety/adversarial_robust_memory-based_continual_learner.md)
-- [\[ICML 2025\] BECAME: BayEsian Continual Learning with Adaptive Model MErging](../../ICML2025/llm_safety/became_bayesian_continual_learning_with_adaptive_model_merging.md)
+- [\[AAAI 2026\] Attention Retention for Continual Learning with Vision Transformers](../../AAAI2026/llm_safety/attention_retention_for_continual_learning_with_vision_transformers.md)
+- [\[NeurIPS 2025\] Finding Structure in Continual Learning](../../NeurIPS2025/llm_safety/finding_structure_in_continual_learning.md)
+- [\[ICML 2025\] Federated In-Context Learning: Iterative Refinement for Improved Answer Quality](../../ICML2025/llm_safety/federated_in-context_learning_iterative_refinement_for_improved_answer_quality.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.23190](https://arxiv.org/abs/2510.23190)  
 **代码**: [GitHub](https://github.com/pascalbenschopTU/VLLM_AnomalyRecognition)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: Vision-LLM, 零样本异常检测, 监控视频, 隐私保护, 自然语言推理  
 
 ## 一句话总结
@@ -132,10 +132,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content](can_llms_write_faithfully_an_agent-based_evaluation_of_llm-generated_islamic_con.md)
 - [\[NeurIPS 2025\] NerfBaselines: Consistent and Reproducible Evaluation of Novel View Synthesis Methods](nerfbaselines_consistent_and_reproducible_evaluation_of_novel_view_synthesis_met.md)
 - [\[NeurIPS 2025\] OpenLex3D: A Tiered Evaluation Benchmark for Open-Vocabulary 3D Scene Representations](openlex3d_a_tiered_evaluation_benchmark_for_open-vocabulary_3d_scene_representat.md)
-- [\[NeurIPS 2025\] Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors](learning_from_videos_for_3d_world_enhancing_mllms_with_3d_vision_geometry_priors.md)
-- [\[NeurIPS 2025\] Instant Video Models: Universal Adapters for Stabilizing Image-Based Networks](instant_video_models_universal_adapters_for_stabilizing_image-based_networks.md)
+- [\[CVPR 2026\] Ego-1K: A Large-Scale Multiview Video Dataset for Egocentric Vision](../../CVPR2026/3d_vision/ego-1k_--_a_large-scale_multiview_video_dataset_for_egocentric_vision.md)
+- [\[CVPR 2025\] Gen3DEval: Using vLLMs for Automatic Evaluation of Generated 3D Objects](../../CVPR2025/3d_vision/gen3deval_using_vllms_for_automatic_evaluation_of_generated_3d_objects.md)
+- [\[CVPR 2025\] Eval3D: Interpretable and Fine-grained Evaluation for 3D Generation](../../CVPR2025/3d_vision/eval3d_interpretable_and_fine-grained_evaluation_for_3d_generation.md)
 
 <!-- RELATED:END -->

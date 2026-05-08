@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24884](https://arxiv.org/abs/2510.24884)  
-**代码**: https://github.com/olawalesalaudeen/OODSELECT  
+**代码**: [https://github.com/olawalesalaudeen/OODSELECT](https://github.com/olawalesalaudeen/OODSELECT)  
 **领域**: OOD 泛化 / 鲁棒性  
 **关键词**: OOD泛化, 虚假相关, 聚合偏差, accuracy-on-the-line, 子集分析
 
@@ -122,10 +122,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] SPROD: Spurious-Aware Prototype Refinement for Reliable Out-of-Distribution Detection](spurious-aware_prototype_refinement_for_reliable_out-of-distribution_detection.md)
 - [\[NeurIPS 2025\] Reliably Detecting Model Failures in Deployment Without Labels](reliably_detecting_model_failures_in_deployment_without_labels.md)
+- [\[NeurIPS 2025\] Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era](towards_implicit_aggregation_robust_image_representation_for_place_recognition_i.md)
 - [\[NeurIPS 2025\] Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention](generalization_error_analysis_for_selective_state-space_models_through_the_lens_.md)
 - [\[ICLR 2026\] Mitigating Spurious Correlation via Distributionally Robust Learning with Hierarchical Ambiguity Sets](../../ICLR2026/llm_evaluation/mitigating_spurious_correlation_via_distributionally_robust_learning_with_hierar.md)
-- [\[CVPR 2025\] On the Generalization of Handwritten Text Recognition Models](../../CVPR2025/llm_evaluation/on_the_generalization_of_handwritten_text_recognition_models.md)
-- [\[CVPR 2025\] Gradient-Guided Annealing for Domain Generalization](../../CVPR2025/llm_evaluation/gradient-guided_annealing_for_domain_generalization.md)
 
 <!-- RELATED:END -->

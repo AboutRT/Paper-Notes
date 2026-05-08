@@ -2,10 +2,10 @@
 title: >-
   [论文解读] PatchVSR: Breaking Video Diffusion Resolution Limits with Patch-Wise Video Super-Resolution
 description: >-
-  [CVPR 2025][视频超分辨率] PatchVSR 首次将预训练视频扩散模型（T2V）用于 patch 级别的视频超分辨率，通过双分支适配器（局部 patch 分支 + 全局上下文分支）和无训练的多 patch 联合调制方案，基于 512×512 分辨率的基础模型实现了高保真的 4K 视频超分辨率，同时大幅提升计算效率。
+  [CVPR 2025][视频生成] PatchVSR 首次将预训练视频扩散模型（T2V）用于 patch 级别的视频超分辨率，通过双分支适配器（局部 patch 分支 + 全局上下文分支）和无训练的多 patch 联合调制方案，基于 512×512 分辨率的基础模型实现了高保真的 4K 视频超分辨率，同时大幅提升计算效率。
 tags:
   - CVPR 2025
-  - 视频超分辨率
+  - 视频生成
   - 扩散模型
   - Patch处理
   - 任意分辨率
@@ -150,7 +150,7 @@ VideoGen30 各组件消融：
 - [\[CVPR 2025\] VideoGigaGAN: Towards Detail-rich Video Super-Resolution](videogigagan_towards_detail-rich_video_super-resolution.md)
 - [\[CVPR 2025\] BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution](bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatia.md)
 - [\[ICCV 2025\] VSRM: A Robust Mamba-Based Framework for Video Super-Resolution](../../ICCV2025/video_generation/vsrm_a_robust_mamba-based_framework_for_video_super-resolution.md)
-- [\[CVPR 2025\] Generative Inbetweening through Frame-wise Conditions-Driven Video Generation](generative_inbetweening_through_frame-wise_conditions-driven_video_generation.md)
 - [\[CVPR 2026\] Compressed-Domain-Aware Online Video Super-Resolution](../../CVPR2026/video_generation/compressed-domain-aware_online_video_super-resolution.md)
+- [\[ECCV 2024\] Kalman-Inspired Feature Propagation for Video Face Super-Resolution](../../ECCV2024/video_generation/kalman-inspired_feature_propagation_for_video_face_super-resolution.md)
 
 <!-- RELATED:END -->

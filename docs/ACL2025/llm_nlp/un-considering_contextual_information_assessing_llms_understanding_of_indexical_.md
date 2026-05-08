@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2506.01089](https://arxiv.org/abs/2506.01089)  
 **代码**: [metehanoguzz/LLMs-Indexicals-English](https://github.com/metehanoguzz/LLMs-Indexicals-English)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 指示词理解, 共指消解, LLM语言能力评估, 语用学
 
 ## 一句话总结
@@ -130,8 +130,8 @@ tags:
 
 - [\[ACL 2025\] SkillVerse: Assessing and Enhancing LLMs with Tree Evaluation](skillverse_tree_eval.md)
 - [\[ACL 2025\] Assessing the Vulnerability of LLMs to Cognitive Biases in Scientific Research](assessing_the_vulnerability_of_llms_to_cognitive_biases_in_scientific_research.md)
-- [\[ACL 2025\] Understanding the Dark Side of LLMs' Intrinsic Self-Correction](understanding_the_dark_side_of_llms_intrinsic_self-correction.md)
+- [\[ACL 2025\] LongDPO: Unlock Better Long-form Generation Abilities for LLMs via Critique-augmented Stepwise Information](longdpo_unlock_better_long-form_generation_abilities_for_llms_via_critique-augme.md)
 - [\[ACL 2025\] Is It JUST Semantics? A Case Study of Discourse Particle Understanding in LLMs](is_it_just_semantics_a_case_study_of_discourse_particle_understanding_in_llms.md)
-- [\[ACL 2025\] Multi-Prompting Decoder Helps Better Language Understanding](multi-prompting_decoder_helps_better_language_understanding.md)
+- [\[ACL 2025\] Revisiting Compositional Generalization Capability of Large Language Models Considering Instruction Following Ability](compositional_generalization_instruction.md)
 
 <!-- RELATED:END -->

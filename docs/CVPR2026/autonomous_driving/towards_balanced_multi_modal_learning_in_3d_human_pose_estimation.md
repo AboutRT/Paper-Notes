@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2501.05264](https://arxiv.org/abs/2501.05264)  
 **代码**: [GitHub](https://github.com/MICLAB-BUPT/AWC)  
-**领域**: 3D人体姿态估计 / 多模态学习  
+**领域**: 自动驾驶  
 **关键词**: 多模态融合, 模态不平衡, Shapley值, Fisher信息矩阵, 3D HPE
 
 ## 一句话总结

@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 周期性任务
-  - 多模态大语言模型
+  - 多模态VLM
   - 渐进式训练
   - 梯度优化
   - 重复计数
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.24476](https://arxiv.org/abs/2505.24476)  
-**代码**: https://github.com/keke-nice/Period-LLM (有)  
+**代码**: [https://github.com/keke-nice/Period-LLM](https://github.com/keke-nice/Period-LLM)  
 **领域**: 多模态VLM  
 **关键词**: 周期性任务, 多模态大语言模型, 渐进式训练, 梯度优化, 重复计数
 

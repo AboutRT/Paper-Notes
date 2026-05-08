@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.18976](https://arxiv.org/abs/2604.18976)  
-**代码**: https://github.com/selectstar-ai/STAR-Teaming-paper  
+**代码**: [https://github.com/selectstar-ai/STAR-Teaming-paper](https://github.com/selectstar-ai/STAR-Teaming-paper)  
 **领域**: LLM对齐  
 **关键词**: 红队测试、LLM安全、多路复用网络、策略采样、越狱攻击
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ArgHiTZ at ArchEHR-QA 2025: A Two-Step Divide and Conquer Approach to Patient Question Answering for Top Factuality
 description: >-
-  [ACL 2025][患者问答] 在 ArchEHR-QA 2025 共享任务中提出两阶段"分治"方法：先用重排序模型从电子健康记录中提取关键句子，再用小型医学 LLM 生成回复，在不使用外部知识的情况下取得事实性排名第一、总分第 8/30 的成绩。
+  [ACL 2025][LLM安全] 在 ArchEHR-QA 2025 共享任务中提出两阶段"分治"方法：先用重排序模型从电子健康记录中提取关键句子，再用小型医学 LLM 生成回复，在不使用外部知识的情况下取得事实性排名第一、总分第 8/30 的成绩。
 tags:
   - ACL 2025
-  - 患者问答
+  - LLM安全
   - 电子健康记录
   - 共享任务
   - 两阶段方法
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.12886](https://arxiv.org/abs/2506.12886)  
-**代码**: https://github.com/hitz-zentroa/ArchEHR-ArgHiTZ  
-**领域**: NLP理解 / 医学NLP  
+**代码**: [https://github.com/hitz-zentroa/ArchEHR-ArgHiTZ](https://github.com/hitz-zentroa/ArchEHR-ArgHiTZ)  
+**领域**: LLM安全  
 **关键词**: 患者问答, 电子健康记录, 共享任务, 两阶段方法, 事实性
 
 ## 一句话总结

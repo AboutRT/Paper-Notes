@@ -9,7 +9,7 @@ tags:
   - OCR
   - 提示学习
   - Transformer
-  - 文档VQA
+  - LLM评测
 ---
 
 # VisFocus: Prompt-Guided Vision Encoders for OCR-Free Dense Document Understanding
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.12594](https://arxiv.org/abs/2407.12594)  
 **代码**: 未开源  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 文档理解, OCR-Free, Prompt引导视觉编码, Swin Transformer, 文档VQA
 
 ## 一句话总结
@@ -124,7 +124,7 @@ VisFocus 由三个组件构成:
 - [\[ACL 2025\] KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding](../../ACL2025/llm_evaluation/kitab-bench_a_comprehensive_multi-domain_benchmark_for_arabic_ocr_and_document_u.md)
 - [\[ECCV 2024\] SIGMA: Sinkhorn-Guided Masked Video Modeling](sigma_sinkhorn-guided_masked_video_modeling.md)
 - [\[ECCV 2024\] OGNI-DC: Robust Depth Completion with Optimization-Guided Neural Iterations](ogni-dc_robust_depth_completion_with_optimization-guided_neural_iterations.md)
-- [\[ECCV 2024\] ColorMNet: A Memory-based Deep Spatial-Temporal Feature Propagation Network for Video Colorization](colormnet_a_memory-based_deep_spatial-temporal_feature_propagation_network_for_v.md)
-- [\[ECCV 2024\] Deep Cost Ray Fusion for Sparse Depth Video Completion](deep_cost_ray_fusion_for_sparse_depth_video_completion.md)
+- [\[ECCV 2024\] Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence](learn_from_the_learnt_source-free_active_domain_adaptation_via_contrastive_sampl.md)
+- [\[ECCV 2024\] Distribution Alignment for Fully Test-Time Adaptation with Dynamic Online Data Streams](distribution_alignment_for_fully_test-time_adaptation_with_dynamic_online_data_s.md)
 
 <!-- RELATED:END -->

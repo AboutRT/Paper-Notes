@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.07101](https://arxiv.org/abs/2507.07101)  
-**代码**: https://github.com/martin-marek/batch-size (有)  
+**代码**: [https://github.com/martin-marek/batch-size](https://github.com/martin-marek/batch-size)  
 **领域**: 优化  
 **关键词**: 小批量训练, SGD, Adam, 梯度累积, 语言模型
 

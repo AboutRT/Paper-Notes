@@ -8,7 +8,7 @@ tags:
   - 机器遗忘
   - 模型合并
   - TIES-Merging
-  - 隐私保护
+  - LLM安全
   - LLM安全
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.21088](https://arxiv.org/abs/2503.21088)  
-**代码**: 有 (https://github.com/zjunlp/unlearn/tree/main/semeval25)  
+**代码**: 有 ([https://github.com/zjunlp/unlearn/tree/main/semeval25](https://github.com/zjunlp/unlearn/tree/main/semeval25))  
 **领域**: NLP / 机器遗忘  
 **关键词**: 机器遗忘, 模型合并, TIES-Merging, 隐私保护, LLM安全
 
@@ -46,21 +46,21 @@ tags:
 
 1. **训练阶段——两个互补模型**：
    使用 LoRA（低秩适应）微调 OLMo-7B-0724-Instruct，训练目标相同但超参数不同，分别产生：
-   - **model₁（过度遗忘）**：Task Aggregate 高（0.968），but MIA Score 低（0.022）——遗忘太多，连不该忘的也忘了
-   - **model₂（遗忘不足）**：Task Aggregate 低（0.659），but MIA Score 高（0.818）——保留了太多应该遗忘的信息
+    - **model₁（过度遗忘）**：Task Aggregate 高（0.968），but MIA Score 低（0.022）——遗忘太多，连不该忘的也忘了
+    - **model₂（遗忘不足）**：Task Aggregate 低（0.659），but MIA Score 高（0.818）——保留了太多应该遗忘的信息
 
    训练损失函数包含三个组件：
-   - **NPO（负偏好优化）**：在遗忘集上最小化目标 token 的概率
-   - **GDR（保留集梯度下降）**：在保留集上保持模型原有能力
-   - **KLR（保留集 KL 散度最小化）**：确保遗忘后模型在保留集上的输出分布不偏移
+    - **NPO（负偏好优化）**：在遗忘集上最小化目标 token 的概率
+    - **GDR（保留集梯度下降）**：在保留集上保持模型原有能力
+    - **KLR（保留集 KL 散度最小化）**：确保遗忘后模型在保留集上的输出分布不偏移
 
    总损失：L_total = α·L_npo + β·L_gdr + γ·L_klr
 
 2. **合并阶段——TIES-Merging**：
    对两个模型的 LoRA 适配器进行三步合并：
-   - **Trimming（修剪）**：按密度阈值保留最重要的参数，将其余置零。密度 0.8 取得最佳效果——低密度过度裁剪，高密度引入冗余
-   - **Electing（选举）**：基于参数绝对值创建统一符号向量，解决参数方向冲突
-   - **Disjoint Merging（析取合并）**：仅对符号一致的非零参数取平均，丢弃冲突参数
+    - **Trimming（修剪）**：按密度阈值保留最重要的参数，将其余置零。密度 0.8 取得最佳效果——低密度过度裁剪，高密度引入冗余
+    - **Electing（选举）**：基于参数绝对值创建统一符号向量，解决参数方向冲突
+    - **Disjoint Merging（析取合并）**：仅对符号一致的非零参数取平均，丢弃冲突参数
 
 ### 损失函数 / 训练策略
 
@@ -139,10 +139,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2025\] Merge Hijacking: Backdoor Attacks to Model Merging of Large Language Models](merge_hijacking_backdoor_attacks_to_model_merging_of_large_language_models.md)
 - [\[ICML 2025\] NegMerge: Sign-Consensual Weight Merging for Machine Unlearning](../../ICML2025/llm_safety/negmerge_sign-consensual_weight_merging_for_machine_unlearning.md)
-- [\[ICML 2025\] BECAME: BayEsian Continual Learning with Adaptive Model MErging](../../ICML2025/llm_safety/became_bayesian_continual_learning_with_adaptive_model_merging.md)
-- [\[ACL 2025\] CLIPErase: Efficient Unlearning of Visual-Textual Associations in CLIP](cliperase_efficient_unlearning_of_visual-textual_associations_in_clip.md)
 - [\[ACL 2025\] ReLearn: Unlearning via Learning for Large Language Models](relearn_unlearning_via_learning_for_large_language_models.md)
-- [\[ACL 2025\] ArgHiTZ at ArchEHR-QA 2025: A Two-Step Divide and Conquer Approach to Patient Question Answering for Top Factuality](arghitz_at_archehr-qa_2025_a_two-step_divide_and_conquer_approach_to_patient_que.md)
+- [\[ACL 2025\] CLIPErase: Efficient Unlearning of Visual-Textual Associations in CLIP](cliperase_efficient_unlearning_of_visual-textual_associations_in_clip.md)
+- [\[ACL 2025\] REVS: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space](revs_unlearning_sensitive_information_in_language_models_via_rank_editing_in_the.md)
 
 <!-- RELATED:END -->

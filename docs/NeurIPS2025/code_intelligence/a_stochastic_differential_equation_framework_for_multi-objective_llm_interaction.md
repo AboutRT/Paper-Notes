@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - stochastic differential equation
-  - multi-objective optimization
+  - 代码智能
   - LLM interaction
   - interference matrix
   - code generation
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.10739](https://arxiv.org/abs/2510.10739)  
 **代码**: 无  
-**领域**: LLM推理 / 多目标优化  
+**领域**: 代码智能  
 **关键词**: stochastic differential equation, multi-objective optimization, LLM interaction, interference matrix, code generation
 
 ## 一句话总结

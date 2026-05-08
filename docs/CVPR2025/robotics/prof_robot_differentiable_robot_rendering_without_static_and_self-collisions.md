@@ -103,6 +103,6 @@ $\mathcal{L} = \mathcal{L}_{render} + \lambda_1 \mathcal{L}_{static} + \lambda_2
 - [\[CVPR 2025\] Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation](mitigating_the_human-robot_domain_discrepancy_in_visual_pre-training_for_robotic.md)
 - [\[CVPR 2025\] Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation](think_small_act_big_primitive_prompt_learning_for_lifelong_robot_manipulation.md)
 - [\[CVPR 2025\] RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins](robotwin_dual-arm_robot_benchmark_with_generative_digital_twins.md)
-- [\[ICLR 2026\] Evaluating VLMs' Spatial Reasoning Over Robot Motion: A Step Towards Robot Planning with Motion Preferences](../../ICLR2026/robotics/evaluating_vlms_spatial_reasoning_over_robot_motion_a_step_towards_robot_plannin.md)
+- [\[NeurIPS 2025\] COOPERA: Continual Open-Ended Human-Robot Assistance](../../NeurIPS2025/robotics/coopera_continual_open_ended_human_robot_assistance.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.07667](https://arxiv.org/abs/2506.07667)  
 **代码**: [有](https://github.com/weiyinc11/HateSpeechModerationTwitch)  
-**领域**: NLP / 内容审核 / 算法审计  
+**领域**: 社会计算  
 **关键词**: 仇恨言论检测, 内容审核, 算法审计, Twitch, AutoMod
 
 ## 一句话总结

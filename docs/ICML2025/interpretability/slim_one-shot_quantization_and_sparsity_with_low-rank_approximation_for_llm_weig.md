@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - one-shot compression
-  - 量化
+  - 可解释性
   - sparsity
   - low-rank adapter
   - SLiM-Quant
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2410.09615](https://arxiv.org/abs/2410.09615)  
 **代码**: [GitHub](https://github.com/Mohammad-Mozaffari/slim)  
-**领域**: Model Compression / Quantization / Pruning  
+**领域**: 可解释性  
 **关键词**: one-shot compression, quantization, sparsity, low-rank adapter, SLiM-Quant, SLiM-LoRA  
 
 ## 一句话总结
@@ -134,9 +134,9 @@ $$diag(\mathbf{x})\mathcal{L}, \mathcal{R} = -SVD(diag(\mathbf{x})(E_Q + E_S))$$
 ## 相关论文
 
 - [\[ACL 2026\] From Signal Degradation to Computation Collapse: Uncovering the Two Failure Modes of LLM Quantization](../../ACL2026/interpretability/from_signal_degradation_to_computation_collapse_uncovering_the_two_failure_modes.md)
+- [\[ICLR 2026\] One Language, Two Scripts: Probing Script-Invariance in LLM Concept Representations](../../ICLR2026/interpretability/one_language_two_scripts_probing_script-invariance_in_llm_concept_representation.md)
 - [\[NeurIPS 2025\] Conditional Distribution Compression via the Kernel Conditional Mean Embedding](../../NeurIPS2025/interpretability/conditional_distribution_compression_via_the_kernel_conditional_mean_embedding.md)
 - [\[ICCV 2025\] SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning](../../ICCV2025/interpretability/svip_semantically_contextualized_visual_patches_for_zero-shot_learning.md)
-- [\[AAAI 2026\] FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](../../AAAI2026/interpretability/fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)
 - [\[NeurIPS 2025\] A Unified Reasoning Framework for Holistic Zero-Shot Video Anomaly Analysis](../../NeurIPS2025/interpretability/a_unified_reasoning_framework_for_holistic_zeroshot_video_an.md)
 
 <!-- RELATED:END -->

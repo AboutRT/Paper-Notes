@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2602.20517](https://arxiv.org/abs/2602.20517)  
-**代码**: [项目主页](https://mimic-research.github.io) (有)  
+**代码**: [项目主页](https://mimic-research.github.io)  
 **领域**: 强化学习 / 模仿学习  
 **关键词**: 模仿学习, 内心语言, 行为多样性, 人机协作, 扩散策略
 

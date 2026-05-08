@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2506.14625](https://arxiv.org/abs/2506.14625)  
 **作者**: Chenchen Yuan, Zheyu Zhang, Shuo Yang, Bardh Prenkaj, Gjergji Kasneci (TU Munich)  
 **代码**: [GitHub](https://github.com/yuanchencn/Collective-Moral-Reasoning)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 道德推理, LLM对齐, 多模型聚合, 截断正态EM, 嵌入优化, 集体共识  
 
 ## 一句话总结

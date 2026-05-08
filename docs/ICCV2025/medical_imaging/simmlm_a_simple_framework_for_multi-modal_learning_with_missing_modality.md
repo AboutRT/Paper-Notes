@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.19264](https://arxiv.org/abs/2507.19264)  
-**代码**: https://github.com/LezJ/SimMLM  
-**领域**: medical_imaging  
+**代码**: [https://github.com/LezJ/SimMLM](https://github.com/LezJ/SimMLM)  
+**领域**: 医学图像  
 **关键词**: multi-modal learning, missing modality, mixture of experts, ranking loss, brain tumor segmentation
 
 ## 一句话总结

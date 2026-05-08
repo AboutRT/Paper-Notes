@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00829](https://arxiv.org/abs/2506.00829)  
 **代码**: [GitHub](https://github.com/kzjkzj666/CompKE)  
-**领域**: NLP理解  
+**领域**: 知识编辑  
 **关键词**: 知识编辑, 复杂问答, 知识图谱, 多跳推理, LLM评估
 
 ## 一句话总结

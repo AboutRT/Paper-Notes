@@ -49,19 +49,19 @@ tags:
 
    核心SDE为：
 
-   $$\frac{d\theta_t^i}{dt} = \frac{1}{N}\sum_{j=1}^{N}K(t)\sin(\theta_t^j - \theta_t^i) + K_{\text{ref}}(t)\sin(\psi_{\text{ref}} - \theta_t^i) + \sqrt{2D_t}\xi^i$$
+    $\frac{d\theta_t^i}{dt} = \frac{1}{N}\sum_{j=1}^{N}K(t)\sin(\theta_t^j - \theta_t^i) + K_{\text{ref}}(t)\sin(\psi_{\text{ref}} - \theta_t^i) + \sqrt{2D_t}\xi^i$
 
    三个力学项各有作用：(a) 振荡器间的Kuramoto正弦耦合拉近相似相位；(b) 吸引到全局参考相位 $\psi_{\text{ref}}$ 确保最终收敛方向；(c) 随机噪声 $\sqrt{2D_t}\xi^i$ 注入破坏性扰动。维持 $K_{\text{ref}}(t) > D_t > K(t)$ 的关系来平衡结构与噪声。
 
    在准平衡态下，终端分布近似为von Mises分布（圆上的高斯分布）：
 
-   $$p_{\text{st}}(\theta) \approx \frac{1}{Z}\exp\left(\frac{K(T)r(T)+K_{\text{ref}}(T)}{D_T}\cos(\psi_{\text{ref}}-\theta)\right)$$
+    $p_{\text{st}}(\theta) \approx \frac{1}{Z}\exp\left(\frac{K(T)r(T)+K_{\text{ref}}(T)}{D_T}\cos(\psi_{\text{ref}}-\theta)\right)$
 
 2. **局部耦合变体**
 
    全局耦合要求每个振荡器与所有其他振荡器交互，计算开销大且不符合图像的空间局部性。局部耦合变体将交互限制在邻域 $\mathcal{N}_i$ 内：
 
-   $$\frac{d\theta_t^i}{dt} = \frac{1}{|\mathcal{N}_i|}\sum_{j \in \mathcal{N}_i}K(t)\sin(\theta_t^j - \theta_t^i) + K_{\text{ref}}(t)\sin(\psi_{\text{ref}} - \theta_t^i) + \sqrt{2D_t}\xi^i$$
+    $\frac{d\theta_t^i}{dt} = \frac{1}{|\mathcal{N}_i|}\sum_{j \in \mathcal{N}_i}K(t)\sin(\theta_t^j - \theta_t^i) + K_{\text{ref}}(t)\sin(\psi_{\text{ref}} - \theta_t^i) + \sqrt{2D_t}\xi^i$
 
    局部耦合引入空间非均匀性，产生类似热扩散的模糊效果，更符合图像数据的空间相关性。
 
@@ -69,7 +69,7 @@ tags:
 
    由于相位缠绕，局部转移概率遵循Wrapped Gaussian分布（截断求和近似，$K=3$项）。score网络采用正弦嵌入 $[\sin(\theta), \cos(\theta)]$ 作为输入，网络输出两个笛卡尔分量 $s_1, s_2$，通过角域投影保证周期一致性：
 
-   $$s(\theta, t) = s_1(\theta, t)\cos(\theta) + s_2(\theta, t)\sin(\theta)$$
+    $s(\theta, t) = s_1(\theta, t)\cos(\theta) + s_2(\theta, t)\sin(\theta)$
 
 ### 损失函数 / 训练策略
 
@@ -139,8 +139,8 @@ $$\mathcal{L} = \frac{1}{M}\sum_{m=0}^{M-1}\left(2D_t\|s(\theta_t^m, t) - \nabla
 
 - [\[NeurIPS 2025\] Orient Anything V2: Unifying Orientation and Rotation Understanding](orient_anything_v2_unifying_orientation_and_rotation_understanding.md)
 - [\[NeurIPS 2025\] Understanding Representation Dynamics of Diffusion Models via Low-Dimensional Models](understanding_representation_dynamics_of_diffusion_models_via_low-dimensional_mo.md)
-- [\[NeurIPS 2025\] System-Embedded Diffusion Bridge Models](system-embedded_diffusion_bridge_models.md)
 - [\[NeurIPS 2025\] Token Perturbation Guidance for Diffusion Models](token_perturbation_guidance_for_diffusion_models.md)
 - [\[NeurIPS 2025\] Diffusion Models Meet Contextual Bandits](diffusion_models_meet_contextual_bandits.md)
+- [\[NeurIPS 2025\] System-Embedded Diffusion Bridge Models](system-embedded_diffusion_bridge_models.md)
 
 <!-- RELATED:END -->

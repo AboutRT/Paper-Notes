@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.12934](https://arxiv.org/abs/2510.12934)  
 **代码**: [alexgower/OIM-Equilibrium-Propagation](https://github.com/alexgower/OIM-Equilibrium-Propagation)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: equilibrium propagation, oscillator Ising machine, neuromorphic computing, energy-based model, local learning rule
 
 ## 一句话总结

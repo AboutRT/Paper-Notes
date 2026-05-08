@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.28760](https://arxiv.org/abs/2603.28760)  
-**代码**: https://show3d-dataset.github.io/  
-**领域**: 3D视觉 / 手-物体交互  
+**代码**: [https://show3d-dataset.github.io/](https://show3d-dataset.github.io/)  
+**领域**: 视频理解  
 **关键词**: 手物交互数据集, 野外3D标注, 多相机采集, 自我中心视觉, 手部姿态估计
 
 ## 一句话总结

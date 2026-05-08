@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.09374](https://arxiv.org/abs/2603.09374)  
 **代码**: 已开源  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: Multiple Instance Learning, mammography, foundation model, precomputed features, attention pooling
 
 ## 一句话总结

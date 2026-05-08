@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2409.20063](https://arxiv.org/abs/2409.20063)  
-**代码**: https://github.com/Q-Future/Q-Bench-Video  
+**代码**: [https://github.com/Q-Future/Q-Bench-Video](https://github.com/Q-Future/Q-Bench-Video)  
 **领域**: 视频理解 / 质量评估  
 **关键词**: 视频质量评估, 大模型基准, LMM, AIGC失真, 时序一致性
 

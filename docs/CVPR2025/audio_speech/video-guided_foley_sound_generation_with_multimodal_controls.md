@@ -9,7 +9,7 @@ tags:
   - Foley音效生成
   - 视频到音频
   - 扩散模型
-  - 多模态控制
+  - 音频语音
   - 音视频同步
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17698](https://arxiv.org/abs/2411.17698)  
-**代码**: https://ificl.github.io/MultiFoley/ (有)  
+**代码**: [https://ificl.github.io/MultiFoley/](https://ificl.github.io/MultiFoley/)  
 **领域**: 音频语音 / 生成模型  
 **关键词**: Foley音效生成, 视频到音频, 扩散模型, 多模态控制, 音视频同步
 
@@ -138,9 +138,9 @@ VGGSound 测试集（8702 视频）上的 V2A 生成对比：
 ## 相关论文
 
 - [\[ICLR 2026\] AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer](../../ICLR2026/audio_speech/ac-foley_reference-audio-guided_video-to-audio_synthesis_with_acoustic_transfer.md)
-- [\[CVPR 2025\] VinTAGe: Joint Video and Text Conditioning for Holistic Audio Generation](vintage_joint_video_and_text_conditioning_for_holistic_audio_generation.md)
-- [\[CVPR 2025\] Exploring Timeline Control for Facial Motion Generation](exploring_timeline_control_for_facial_motion_generation.md)
-- [\[ICCV 2025\] How Would It Sound? Material-Controlled Multimodal Acoustic Profile Generation for Objects](../../ICCV2025/audio_speech/how_would_it_sound_material-controlled_multimodal_acoustic_profile_generation_fo.md)
 - [\[CVPR 2025\] Object-aware Sound Source Localization via Audio-Visual Scene Understanding](object-aware_sound_source_localization_via_audio-visual_scene_understanding.md)
+- [\[CVPR 2025\] VinTAGe: Joint Video and Text Conditioning for Holistic Audio Generation](vintage_joint_video_and_text_conditioning_for_holistic_audio_generation.md)
+- [\[CVPR 2025\] Improving Sound Source Localization with Joint Slot Attention on Image and Audio](improving_sound_source_localization_with_joint_slot_attention_on_image_and_audio.md)
+- [\[NeurIPS 2025\] Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video](../../NeurIPS2025/audio_speech/node-based_editing_for_multimodal_generation_of_text_audio_image_and_video.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (AI for Science Workshop)  
 **arXiv**: [2510.05385](https://arxiv.org/abs/2510.05385)  
 **代码**: 已开源（论文中提供链接）  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: PINNs, Transformer, Fourier Features, Spectral Bias, PDE Solving  
 
 ## 一句话总结

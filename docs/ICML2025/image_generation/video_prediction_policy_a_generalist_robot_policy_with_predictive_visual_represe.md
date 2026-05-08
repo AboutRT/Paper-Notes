@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025 (Spotlight)  
 **arXiv**: [2412.14803](https://arxiv.org/abs/2412.14803)  
 **代码**: [项目主页](https://video-prediction-policy.github.io)  
-**领域**: 机器人策略学习 / 视觉表征 / 视频扩散模型  
+**领域**: 图像生成  
 **关键词**: Video Diffusion Model, Predictive Visual Representation, Inverse Dynamics, Robot Manipulation, Generalist Policy
 
 ## 一句话总结

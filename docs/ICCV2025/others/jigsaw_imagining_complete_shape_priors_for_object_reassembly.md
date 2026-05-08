@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 物体重组
   - 3D形状补全
-  - 点云生成
+  - 其他
   - Rectified Flow
   - 形状先验
 ---
@@ -137,9 +137,9 @@ $$\mathbf{x}_0 = \alpha \hat{\mathbf{x}}_0 + \sqrt{1-\alpha^2}\xi, \quad \xi \si
 ## 相关论文
 
 - [\[ACL 2025\] Tokenisation is NP-Complete](../../ACL2025/others/tokenisation_is_np-complete.md)
+- [\[ICCV 2025\] SyncDiff: Synchronized Motion Diffusion for Multi-Body Human-Object Interaction Synthesis](syncdiff_synchronized_motion_diffusion_for_multi-body_human-object_interaction_s.md)
+- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](../../CVPR2025/others/4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
+- [\[CVPR 2025\] Multi-Sensor Object Anomaly Detection: Unifying Appearance, Geometry, and Internal Properties](../../CVPR2025/others/multi-sensor_object_anomaly_detection_unifying_appearance_geometry_and_internal_.md)
 - [\[ACL 2025\] Meta-Learning Neural Mechanisms rather than Bayesian Priors](../../ACL2025/others/meta-learning_neural_mechanisms_rather_than_bayesian_priors.md)
-- [\[CVPR 2025\] MOS: Modeling Object-Scene Associations in Generalized Category Discovery](../../CVPR2025/others/mos_modeling_object-scene_associations_in_generalized_category_discovery.md)
-- [\[ECCV 2024\] Object-Aware NIR-to-Visible Translation](../../ECCV2024/others/object-aware_nir-to-visible_translation.md)
-- [\[CVPR 2026\] Order Matters: 3D Shape Generation from Sequential VR Sketches](../../CVPR2026/others/order_matters_3d_shape_generation_from_sequential_vr_sketches.md)
 
 <!-- RELATED:END -->

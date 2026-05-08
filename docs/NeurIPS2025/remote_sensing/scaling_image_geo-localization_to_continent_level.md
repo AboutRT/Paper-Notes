@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.26795](https://arxiv.org/abs/2510.26795)  
-**代码**: https://scaling-geoloc.github.io  
+**代码**: [https://scaling-geoloc.github.io](https://scaling-geoloc.github.io)  
 **领域**: 遥感 / 视觉定位  
 **关键词**: 地理定位, 跨视图检索, 分类原型, 航拍-地面匹配, 大规模
 

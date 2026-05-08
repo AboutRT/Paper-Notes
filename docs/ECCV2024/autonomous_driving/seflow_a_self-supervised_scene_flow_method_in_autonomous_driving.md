@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.01702](https://arxiv.org/abs/2407.01702)  
-**代码**: https://github.com/KTH-RPL/SeFlow  
+**代码**: [https://github.com/KTH-RPL/SeFlow](https://github.com/KTH-RPL/SeFlow)  
 **领域**: 自动驾驶  
 **关键词**: Scene Flow, 自监督学习, 点云, 动态感知, 自动驾驶
 

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL2025
   - 多模态
-  - ECG report generation
+  - 多模态VLM
   - instruction tuning
   - ECG-text alignment
   - medical AI
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2403.04945](https://arxiv.org/abs/2403.04945)  
 **代码**: [AIoT-MLSys-Lab/MEIT](https://github.com/AIoT-MLSys-Lab/MEIT)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: ECG report generation, instruction tuning, multimodal LLM, ECG-text alignment, medical AI
 
 ## 一句话总结
@@ -164,10 +164,10 @@ LLaMA-3 在诊断准确性上达到 3.98/5，接近人类专家水平。
 
 ## 相关论文
 
-- [\[ICCV 2025\] MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](../../ICCV2025/multimodal_vlm/metamorph_multimodal_understanding_and_generation_via_instruction_tuning.md)
-- [\[ACL 2025\] MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale](mammoth_vl_multimodal_reasoning.md)
+- [\[ICCV 2025\] MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](../../ICCV2025/multimodal_vlm/metamorph_multimodal_understanding_and_generation_via_instru.md)
 - [\[ACL 2025\] Enhancing Multimodal Continual Instruction Tuning with BranchLoRA](branchlora_continual_instruction.md)
 - [\[ACL 2025\] HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model](hidellava_hierarchical_decoupling_for_continual_instruction.md)
-- [\[ACL 2025\] Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities](con_instruction_universal_jailbreaking_of_multimodal_large_language_models_via_n.md)
+- [\[ACL 2025\] MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale](mammoth_vl_multimodal_reasoning.md)
+- [\[NeurIPS 2025\] Visual Instruction Bottleneck Tuning](../../NeurIPS2025/multimodal_vlm/visual_instruction_bottleneck_tuning.md)
 
 <!-- RELATED:END -->

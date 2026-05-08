@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.19076](https://arxiv.org/abs/2603.19076)  
 **代码**: [MoyangLi00/DROID-W](https://github.com/MoyangLi00/DROID-W.git)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: SLAM, dynamic scenes, uncertainty estimation, bundle adjustment, DINOv2
 
 ## 一句话总结
@@ -209,7 +209,7 @@ DROID-W 在"通用动态鲁棒性"和"实时性"之间取得了最好的平衡�
 - [\[CVPR 2026\] VGGT-SLAM++: Visual SLAM with DEM-Based Covisibility and Local Bundle Adjustment](vggt-slam.md)
 - [\[AAAI 2026\] FoundationSLAM: 释放深度基础模型在端到端稠密视觉SLAM中的潜力](../../AAAI2026/3d_vision/foundationslam_unleashing_the_power_of_depth_foundation_models_for.md)
 - [\[CVPR 2026\] Unblur-SLAM: Dense Neural SLAM for Blurry Inputs](unblur-slam_dense_neural_slam_for_blurry_inputs.md)
-- [\[CVPR 2026\] VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM](varsplat_uncertainty-aware_3d_gaussian_splatting_for_robust_rgb-d_slam.md)
 - [\[CVPR 2026\] Scene Grounding In the Wild](scene_grounding_in_the_wild.md)
+- [\[CVPR 2026\] VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM](varsplat_uncertainty-aware_3d_gaussian_splatting_for_robust_rgb-d_slam.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.14483](https://arxiv.org/abs/2503.14483)  
-**代码**: https://zju3dv.github.io/murre/  
+**代码**: [https://zju3dv.github.io/murre/](https://zju3dv.github.io/murre/)  
 **领域**: 3D视觉 / 多视角重建  
 **关键词**: 多视角重建, SfM引导, 单目深度估计, 扩散模型, 深度补全
 

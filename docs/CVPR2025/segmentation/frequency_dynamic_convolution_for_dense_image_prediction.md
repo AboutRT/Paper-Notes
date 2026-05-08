@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18783](https://arxiv.org/abs/2503.18783)  
-**代码**: https://github.com/Linwei-Chen/FDConv  
+**代码**: [https://github.com/Linwei-Chen/FDConv](https://github.com/Linwei-Chen/FDConv)  
 **领域**: 分割  
 **关键词**: 动态卷积, 频率域, 密集预测, 分割, 目标检测
 

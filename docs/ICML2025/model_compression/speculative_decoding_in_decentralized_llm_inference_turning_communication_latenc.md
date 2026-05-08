@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.11733](https://arxiv.org/abs/2511.11733)  
 **作者**: Jingwei Song (HKU / Gradient Network), Wanyi Chen (Soochow Univ), Xinyuan Song (Emory Univ), Max, Chris Tong, Gufeng Chen, Tianyi Zhao, Eric Yang, Bill Shi, Lynn Ai — Gradient Network
 **代码**: 未公开  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 推测解码, 去中心化推理, LLM加速, 通信延迟优化, 自适应验证
 
 ## 一句话总结

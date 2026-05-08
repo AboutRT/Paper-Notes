@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.06908](https://arxiv.org/abs/2504.06908)  
-**代码**: https://emmanuelleb985.github.io/ukbob  
+**代码**: [https://emmanuelleb985.github.io/ukbob](https://emmanuelleb985.github.io/ukbob)  
 **领域**: 医学图像分割 / 基础模型 / 数据集  
 **关键词**: 医学图像分割, UK Biobank, 大规模数据集, 自动标注质量控制, 测试时适应
 
@@ -183,8 +183,8 @@ Pipeline：UK Biobank MRI数据 → TotalVibeSegmentator自动标注72类器官 
 
 - [\[ICCV 2025\] IDF: Iterative Dynamic Filtering Networks for Generalizable Image Denoising](idf_iterative_dynamic_filtering_networks_for_generalizable_image_denoising.md)
 - [\[CVPR 2025\] Towards All-in-One Medical Image Re-Identification](../../CVPR2025/medical_imaging/towards_all-in-one_medical_image_re-identification.md)
-- [\[CVPR 2025\] Revisiting MAE Pre-Training for 3D Medical Image Segmentation](../../CVPR2025/medical_imaging/revisiting_mae_pre-training_for_3d_medical_image_segmentation.md)
-- [\[ICCV 2025\] MRGen: Segmentation Data Engine for Underrepresented MRI Modalities](mrgen_segmentation_data_engine_for_underrepresented_mri_modalities.md)
 - [\[ICCV 2025\] DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary Lookup](dictas_a_framework_for_class-generalizable_few-shot_anomaly_segmentation_via_dic.md)
+- [\[CVPR 2025\] Revisiting MAE Pre-Training for 3D Medical Image Segmentation](../../CVPR2025/medical_imaging/revisiting_mae_pre-training_for_3d_medical_image_segmentation.md)
+- [\[ICCV 2025\] Progressive Test Time Energy Adaptation for Medical Image Segmentation](progressive_test_time_energy_adaptation_for_medical_image_segmentation.md)
 
 <!-- RELATED:END -->

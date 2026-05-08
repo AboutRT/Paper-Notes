@@ -20,7 +20,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2504.02010](https://arxiv.org/abs/2504.02010)  
 **代码**: [github.com/psunlpgroup/Compression-Effects](https://github.com/psunlpgroup/Compression-Effects)  
-**领域**: llm_reasoning  
+**领域**: LLM推理  
 **关键词**: 模型压缩, 推理模型, 量化, 蒸馏, 剪枝, 可解释性, DeepSeek-R1
 
 ## 一句话总结

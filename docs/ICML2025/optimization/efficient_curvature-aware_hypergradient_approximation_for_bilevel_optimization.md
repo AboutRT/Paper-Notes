@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.02101](https://arxiv.org/abs/2505.02101)  
 **代码**: 待确认  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: bilevel optimization, hypergradient, inexact Newton, curvature information, meta-learning
 
 ## 一句话总结
@@ -146,10 +146,10 @@ $$\min_{0 \leq k \leq K-1} \|\nabla\Phi(x^k)\|^2 \leq O(\kappa^3 / K)$$
 
 ## 相关论文
 
+- [\[ICML 2025\] Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)
 - [\[ICML 2025\] Tilted Sharpness-Aware Minimization](tilted_sharpness-aware_minimization.md)
 - [\[ACL 2025\] ScaleBiO: Scalable Bilevel Optimization for LLM Data Reweighting](../../ACL2025/optimization/scalebio_bilevel_data_reweighting.md)
+- [\[NeurIPS 2025\] A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization](../../NeurIPS2025/optimization/a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md)
 - [\[NeurIPS 2025\] Learning Theory for Kernel Bilevel Optimization](../../NeurIPS2025/optimization/learning_theory_for_kernel_bilevel_optimization.md)
-- [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](../../NeurIPS2025/optimization/efficient_adaptive_federated_optimization.md)
-- [\[NeurIPS 2025\] An Adaptive Algorithm for Bilevel Optimization on Riemannian Manifolds](../../NeurIPS2025/optimization/an_adaptive_algorithm_for_bilevel_optimization_on_riemannian_manifolds.md)
 
 <!-- RELATED:END -->

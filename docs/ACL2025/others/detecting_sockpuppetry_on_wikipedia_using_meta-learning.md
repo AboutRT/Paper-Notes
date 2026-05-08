@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Detecting Sockpuppetry on Wikipedia Using Meta-Learning
 description: >-
-  [ACL 2025][马甲账号检测] 本文将元学习（meta-learning）应用于维基百科的恶意马甲账号（sockpuppet）检测任务，通过跨多个马甲组的训练优化模型的快速适应能力，在数据稀缺场景下显著提升了检测精度，并发布了新的马甲调查数据集。
+  [ACL 2025][其他] 本文将元学习（meta-learning）应用于维基百科的恶意马甲账号（sockpuppet）检测任务，通过跨多个马甲组的训练优化模型的快速适应能力，在数据稀缺场景下显著提升了检测精度，并发布了新的马甲调查数据集。
 tags:
   - ACL 2025
-  - 马甲账号检测
+  - 其他
   - 元学习
   - 维基百科
   - 写作风格
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.10314](https://arxiv.org/abs/2506.10314)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 其他  
 **关键词**: 马甲账号检测、元学习、维基百科、写作风格、少样本学习
 
 ## 一句话总结
@@ -129,9 +129,9 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Meta-Learning Neural Mechanisms rather than Bayesian Priors](meta-learning_neural_mechanisms_rather_than_bayesian_priors.md)
 - [\[ACL 2025\] Meta-Reflection: A Feedback-Free Reflection Learning Framework](meta-reflection_a_feedback-free_reflection_learning_framework.md)
 - [\[ACL 2025\] Hierarchical Memory Organization for Wikipedia Generation](hierarchical_memory_wikipedia_gen.md)
+- [\[ACL 2025\] Meta-Learning Neural Mechanisms rather than Bayesian Priors](meta-learning_neural_mechanisms_rather_than_bayesian_priors.md)
 - [\[ICCV 2025\] Is Meta-Learning Out? Rethinking Unsupervised Few-Shot Classification with Limited Entropy](../../ICCV2025/others/is_meta-learning_out_rethinking_unsupervised_few-shot_classification_with_limite.md)
 - [\[NeurIPS 2025\] Meta-learning three-factor plasticity rules for structured credit assignment with sparse feedback](../../NeurIPS2025/others/meta-learning_three-factor_plasticity_rules_for_structured_credit_assignment_wit.md)
 

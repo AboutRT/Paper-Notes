@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.00443](https://arxiv.org/abs/2508.00443)  
-**代码**: https://github.com/vivoCameraResearch/SDMatte  
+**代码**: [https://github.com/vivoCameraResearch/SDMatte](https://github.com/vivoCameraResearch/SDMatte)  
 **领域**: 扩散模型 / 图像抠图  
 **关键词**: 交互式抠图, 扩散模型先验, 视觉提示, Alpha Matte, 注意力机制
 
@@ -138,6 +138,6 @@ $$\mathbf{X} = \text{softmax}\left(\mathbf{M} + \frac{\mathbf{Q}\mathbf{K}^T}{\s
 - [\[ICCV 2025\] StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation](streamdiffusion_a_pipeline-level_solution_for_real-time_interactive_generation.md)
 - [\[ICCV 2025\] MotionDiff: Training-Free Zero-Shot Interactive Motion Editing via Flow-Assisted Multi-View Diffusion](motiondiff_training-free_zero-shot_interactive_motion_editing_via_flow-assisted_.md)
 - [\[ECCV 2024\] Lazy Diffusion Transformer for Interactive Image Editing](../../ECCV2024/image_generation/lazy_diffusion_transformer_for_interactive_image_editing.md)
-- [\[CVPR 2025\] SemanticDraw: Towards Real-Time Interactive Content Creation from Image Diffusion](../../CVPR2025/image_generation/semanticdraw_towards_real-time_interactive_content_creation_from_image_diffusion.md)
+- [\[CVPR 2026\] StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars](../../CVPR2026/image_generation/streamavatar_streaming_diffusion_models_for_real-time_interactive_human_avatars.md)
 
 <!-- RELATED:END -->

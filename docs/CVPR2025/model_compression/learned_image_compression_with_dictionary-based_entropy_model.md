@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2504.00496](https://arxiv.org/abs/2504.00496)  
 **代码**: [GitHub](https://github.com/LabShuHangGU/DCAE)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: learned image compression, entropy model, dictionary learning, cross attention, rate-distortion
 
 ## 一句话总结

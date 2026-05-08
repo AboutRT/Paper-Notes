@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16927](https://arxiv.org/abs/2505.16927)  
 **代码**: 无  
-**领域**: model_compression  
+**领域**: 可解释性  
 **关键词**: 自我改进, 隐式原则发现, EM算法, Constitutional AI, 自我修正
 
 ## 一句话总结

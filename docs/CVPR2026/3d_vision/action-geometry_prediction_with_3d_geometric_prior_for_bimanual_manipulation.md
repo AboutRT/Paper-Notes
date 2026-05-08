@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR2026  
 **arXiv**: [2602.23814](https://arxiv.org/abs/2602.23814)  
-**代码**: https://github.com/Chongyang-99/GAP.git  
-**领域**: 3d_vision  
+**代码**: [https://github.com/Chongyang-99/GAP.git](https://github.com/Chongyang-99/GAP.git)  
+**领域**: 3D视觉  
 **关键词**: 双臂操控, 3D几何先验, 扩散策略, 点云预测, 模仿学习
 
 ## 一句话总结
@@ -168,7 +168,7 @@ Pipeline分四阶段：(1) 三路并行编码器提取特征 → (2) Transformer
 - [\[CVPR 2026\] Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty](rethinking_pose_refinement_in_3d_gaussian_splatting_under_pose_prior_and_geometr.md)
 - [\[CVPR 2026\] Action-guided Generation of 3D Functionality Segmentation Data](action-guided_generation_of_3d_functionality_segmentation_data.md)
 - [\[ICLR 2026\] Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation](../../ICLR2026/3d_vision/ctrlshift_high-quality_geometry-aware_object_manipulation_in_visual_generation.md)
-- [\[CVPR 2026\] Pano360: Perspective to Panoramic Vision with Geometric Consistency](pano360_perspective_to_panoramic_vision_with_geometric_consistency.md)
 - [\[CVPR 2026\] Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation](ada3drift_adaptive_trainingtime_drifting_for_onest.md)
+- [\[CVPR 2026\] Pano360: Perspective to Panoramic Vision with Geometric Consistency](pano360_perspective_to_panoramic_vision_with_geometric_consistency.md)
 
 <!-- RELATED:END -->

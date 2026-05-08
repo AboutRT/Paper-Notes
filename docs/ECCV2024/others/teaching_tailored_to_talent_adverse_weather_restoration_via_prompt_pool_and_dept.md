@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.15739](https://arxiv.org/abs/2409.15739)  
-**代码**: https://github.com/Ephemeral182/T3-DiffWeather (有)  
-**领域**: 图像恢复 / 恶劣天气去除  
+**代码**: [https://github.com/Ephemeral182/T3-DiffWeather](https://github.com/Ephemeral182/T3-DiffWeather)  
+**领域**: 其他  
 **关键词**: Adverse Weather Restoration, Prompt Pool, Depth-Anything, diffusion model, All-in-One Restoration
 
 ## 一句话总结
@@ -208,10 +208,10 @@ $$\mathcal{L}_{total} = \lambda_1 \mathcal{L}_{res} + \lambda_2 \mathcal{L}_{cp}
 
 ## 相关论文
 
-- [\[ECCV 2024\] AddMe: Zero-Shot Group-Photo Synthesis by Inserting People Into Scenes](addme_zero-shot_group-photo_synthesis_by_inserting_people_into_scenes.md)
-- [\[ECCV 2024\] Active Generation for Image Classification](active_generation_for_image_classification.md)
-- [\[ECCV 2024\] Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals](brain_netflix_scaling_data_to_reconstruct_videos_from_brain_signals.md)
 - [\[ECCV 2024\] ET: The Exceptional Trajectories - Text-to-Camera-Trajectory Generation with Character Awareness](et_the_exceptional_trajectories_text-to-camera-trajectory_generation_with_charac.md)
+- [\[ECCV 2024\] AddMe: Zero-Shot Group-Photo Synthesis by Inserting People Into Scenes](addme_zero-shot_group-photo_synthesis_by_inserting_people_into_scenes.md)
+- [\[ECCV 2024\] Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals](brain_netflix_scaling_data_to_reconstruct_videos_from_brain_signals.md)
+- [\[ECCV 2024\] Active Generation for Image Classification](active_generation_for_image_classification.md)
 - [\[ECCV 2024\] Shifted Autoencoders for Point Annotation Restoration in Object Counting](shifted_autoencoders_for_point_annotation_restoration_in_object_counting.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21786](https://arxiv.org/abs/2603.21786)  
-**代码**: https://github.com/（已声明开源，附带 NoiseZoo 数据集）  
+**代码**: [https://github.com/](https://github.com/)（已声明开源，附带 NoiseZoo 数据集）  
 **领域**: 扩散模型 / 表示学习  
 **关键词**: 隐空间高斯性, 生成-编码统一, DDIM反演, 线性语义编辑, 表示几何
 
@@ -146,9 +146,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] Monocular Normal Estimation via Shading Sequence Estimation](../../ICLR2026/image_generation/monocular_normal_estimation_via_shading_sequence_estimation.md)
+- [\[CVPR 2026\] SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](slice_semantic_latent_injection_via_compartmentalized_embedding_for_image_waterm.md)
 - [\[ICCV 2025\] OminiControl: Minimal and Universal Control for Diffusion Transformer](../../ICCV2025/image_generation/ominicontrol_minimal_and_universal_control_for_diffusion_transformer.md)
 - [\[ICLR 2026\] Bridging Degradation Discrimination and Generation for Universal Image Restoration](../../ICLR2026/image_generation/bridging_degradation_discrimination_and_generation_for_universal_image_restorati.md)
 - [\[ICCV 2025\] REGEN: Learning Compact Video Embedding with (Re-)Generative Decoder](../../ICCV2025/image_generation/regen_learning_compact_video_embedding_with_re-generative_decoder.md)
-- [\[CVPR 2025\] ReNeg: Learning Negative Embedding with Reward Guidance](../../CVPR2025/image_generation/reneg_learning_negative_embedding_with_reward_guidance.md)
 
 <!-- RELATED:END -->

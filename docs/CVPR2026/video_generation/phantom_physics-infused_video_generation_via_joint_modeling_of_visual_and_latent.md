@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.08503](https://arxiv.org/abs/2604.08503)  
-**代码**: https://plan-lab.github.io/phantom  
+**代码**: [https://plan-lab.github.io/phantom](https://plan-lab.github.io/phantom)  
 **领域**: 视频生成 / 物理一致性  
 **关键词**: 物理一致视频生成, 流匹配, 双分支架构, V-JEPA2, 潜在物理动力学
 

@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2509.19814](https://arxiv.org/abs/2509.19814)  
 **代码**: 暂无  
-**领域**: 因果推断 / 贝叶斯统计 / 营销分析  
+**领域**: 机器人  
 **关键词**: 阈值操纵, 贝叶斯混合模型, 异质因果效应, 断点回归, 消费行为
 
 ## 一句话总结
@@ -145,6 +145,6 @@ HBMTM 的 MAE 比 RDD 降低约 10 倍。
 - [\[AAAI 2026\] More Than Irrational: Modeling Belief-Biased Agents](more_than_irrational_modeling_belief-biased_agents.md)
 - [\[AAAI 2026\] Cross Modal Fine-Grained Alignment via Granularity-Aware and Region-Uncertain Modeling](cross_modal_fine-grained_alignment_via_granularity-aware_and_region-uncertain_mo.md)
 - [\[AAAI 2026\] SpatialActor: Exploring Disentangled Spatial Representations for Robust Robotic Manipulation](spatialactor_exploring_disentangled_spatial_representations_for_robust_robotic_m.md)
-- [\[AAAI 2026\] Gaming the Answer Matcher: Examining the Impact of Text Manipulation on Automated Judgment](gaming_the_answer_matcher_examining_the_impact_of_text_manipulation_on_automated.md)
+- [\[AAAI 2026\] SemanticVLA: Semantic-Aligned Sparsification and Enhancement for Efficient Robotic Manipulation](semanticvla_semantic-aligned_sparsification_and_enhancement_for_efficient_roboti.md)
 
 <!-- RELATED:END -->

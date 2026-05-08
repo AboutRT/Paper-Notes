@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2505.22499](https://arxiv.org/abs/2505.22499)  
 **代码**: [项目页](https://npucvr.github.io/SABER)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 对抗攻击, BEV 3D检测, 非侵入式攻击, 可微渲染, 通用对抗物体, 多视角一致性
 
 ## 一句话总结

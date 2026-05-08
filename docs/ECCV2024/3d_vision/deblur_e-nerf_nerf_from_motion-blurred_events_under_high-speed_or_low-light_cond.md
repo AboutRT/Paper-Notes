@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.17988](https://arxiv.org/abs/2409.17988)  
-**代码**: https://github.com/wengflow/deblur-e-nerf (有)  
+**代码**: [https://github.com/wengflow/deblur-e-nerf](https://github.com/wengflow/deblur-e-nerf)  
 **领域**: 3D视觉  
 **关键词**: 事件相机, NeRF, 运动模糊, 像素带宽模型, 低光照
 

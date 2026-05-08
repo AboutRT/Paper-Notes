@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2406.15245](https://arxiv.org/abs/2406.15245)  
 **代码**: [GitHub](https://github.com/martianmartina/TreeTokenizer)  
-**领域**: llm_nlp  
+**领域**: LLM预训练  
 **关键词**: tokenization, morphology, unsupervised parsing, composition model, BPE
 
 ## 一句话总结

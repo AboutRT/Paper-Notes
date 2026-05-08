@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2406.07320](https://arxiv.org/abs/2406.07320)  
 **代码**: [https://github.com/amazon-science/ssepy](https://github.com/amazon-science/ssepy)  
-**领域**: 模型评估 / 高效标注 / 统计推断  
+**领域**: 其他  
 **关键词**: 分层抽样, Horvitz-Thompson估计, 差分估计器, k-means聚类, 标注成本  
 
 ## 一句话总结
@@ -112,6 +112,6 @@ tags:
 - [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](../../ICML2025/others/multiple-policy_evaluation_via_density_estimation.md)
 - [\[NeurIPS 2025\] Active Measurement: Efficient Estimation at Scale](../../NeurIPS2025/others/active_measurement_efficient_estimation_at_scale.md)
 - [\[ECCV 2024\] De-confounded Gaze Estimation](de-confounded_gaze_estimation.md)
-- [\[ECCV 2024\] AttnZero: Efficient Attention Discovery for Vision Transformers](attnzero_efficient_attention_discovery_for_vision_transformers.md)
+- [\[ECCV 2024\] An Incremental Unified Framework for Small Defect Inspection](an_incremental_unified_framework_for_small_defect_inspection.md)
 
 <!-- RELATED:END -->

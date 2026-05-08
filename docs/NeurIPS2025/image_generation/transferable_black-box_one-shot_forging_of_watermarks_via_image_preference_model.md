@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20468](https://arxiv.org/abs/2510.20468)  
-**代码**: https://github.com/facebookresearch/videoseal/tree/main/wmforger  
-**领域**: AI安全 / 图像水印攻击  
+**代码**: [https://github.com/facebookresearch/videoseal/tree/main/wmforger](https://github.com/facebookresearch/videoseal/tree/main/wmforger)  
+**领域**: 图像生成  
 **关键词**: 水印伪造, 偏好模型, 单样本攻击, 黑盒攻击, 后处理水印
 
 ## 一句话总结

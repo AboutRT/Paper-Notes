@@ -54,7 +54,7 @@ HPFF 由两个互补组件构成：
 
    关键特性：相邻级联模块之间存在重叠（滑动窗口式），每个局部模块接收 $k+1$ 次监督（1 次来自独立级 + $k$ 次来自级联级）。参数更新规则：
 
-   $$\theta_j \leftarrow \theta_j - \eta_d \nabla_{\theta_j} \mathcal{L}(\hat{y_j}, y) - \sum_{n=i}^{i+k-1} \eta_c \nabla_{\theta_j} \mathcal{L}(\hat{y_n}, y)$$
+    $\theta_j \leftarrow \theta_j - \eta_d \nabla_{\theta_j} \mathcal{L}(\hat{y_j}, y) - \sum_{n=i}^{i+k-1} \eta_c \nabla_{\theta_j} \mathcal{L}(\hat{y_n}, y)$
 
    实验中设 $k=2$，即每个级联模块包含两个基础模块。$k$ 过大会退化为 BP 并增加内存。
 
@@ -62,7 +62,7 @@ HPFF 由两个互补组件构成：
 
 2. **Patch 特征融合（PFF）**：将局部模块输出特征 $x_{j+1}$ 切分为 $n \times n$ 个 patch，分别送入辅助网络后平均融合：
 
-   $$\hat{y_j} = \frac{\sum_{k=1}^{n} \sum_{l=1}^{n} g_{\gamma_j}(x_{j+1}^{(k,l)})}{n^2}$$
+    $\hat{y_j} = \frac{\sum_{k=1}^{n} \sum_{l=1}^{n} g_{\gamma_j}(x_{j+1}^{(k,l)})}{n^2}$
 
    内存分析：原始方法辅助网络的内存为 $O(D + P + L \times D)$；PFF 下每次仅处理一个 patch，内存降为 $O(D/n^2 + P + L \times D/n^2)$。实验中 $n=2$，理论上辅助网络相关内存降至 $1/4$。
 
@@ -167,9 +167,9 @@ HPFF 由两个互补组件构成：
 ## 相关论文
 
 - [\[ECCV 2024\] Momentum Auxiliary Network for Supervised Local Learning](momentum_auxiliary_network_for_supervised_local_learning.md)
+- [\[ECCV 2024\] DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_.md)
 - [\[ECCV 2024\] Rebalancing Using Estimated Class Distribution for Imbalanced Semi-Supervised Learning under Class Distribution Mismatch](rebalancing_using_estimated_class_distribution_for_imbalanced_semi-supervised_le.md)
 - [\[NeurIPS 2025\] Depth-Supervised Fusion Network for Seamless-Free Image Stitching](../../NeurIPS2025/others/depth-supervised_fusion_network_for_seamless-free_image_stitching.md)
-- [\[CVPR 2026\] OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion](../../CVPR2026/others/omnifood8k_nutrition_estimation.md)
-- [\[ECCV 2024\] 3DFG-PIFu: 3D Feature Grids for Human Digitization from Sparse Views](3dfg-pifu_3d_feature_grids_for_human_digitization_from_sparse_views.md)
+- [\[ECCV 2024\] Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)
 
 <!-- RELATED:END -->

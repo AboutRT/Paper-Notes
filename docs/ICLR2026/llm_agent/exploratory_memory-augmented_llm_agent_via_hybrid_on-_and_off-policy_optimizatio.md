@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.23008](https://arxiv.org/abs/2602.23008)  
-**代码**: https://github.com/agent-lightning/empo2  
+**代码**: [https://github.com/agent-lightning/empo2](https://github.com/agent-lightning/empo2)  
 **领域**: Agent  
 **关键词**: LLM Agent, 强化学习, 探索, 外部记忆, 混合策略优化
 

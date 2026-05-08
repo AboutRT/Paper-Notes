@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 视频时刻检索
   - 视频查询
-  - 序列对齐
+  - 视频生成
   - 自监督预训练
   - Transformer
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.15439](https://arxiv.org/abs/2508.15439)  
 **代码**: [GitHub](https://github.com/vl2g/MATR)  
-**领域**: self_supervised  
+**领域**: 视频生成  
 **关键词**: 视频时刻检索, 视频查询, 序列对齐, 自监督预训练, Transformer
 
 ## 一句话总结

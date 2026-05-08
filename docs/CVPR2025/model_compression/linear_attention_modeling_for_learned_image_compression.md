@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.05741](https://arxiv.org/abs/2502.05741)  
 **代码**: [sjtu-medialab/RwkvCompress](https://github.com/sjtu-medialab/RwkvCompress)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: learned image compression, linear attention, RWKV, Bi-RWKV, entropy modeling, rate-distortion
 
 ## 一句话总结

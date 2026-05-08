@@ -14,7 +14,7 @@ tags:
 - **会议**: ACL 2025
 - **arXiv**: [2410.24024](https://arxiv.org/abs/2410.24024)
 - **代码**: [https://github.com/THUDM/Android-Lab](https://github.com/THUDM/Android-Lab)
-- **领域**: LLM评估 / 移动端智能体
+- **领域**: LLM评测
 - **关键词**: Android Agent, 移动端智能体, 基准测试, 指令微调, 多模态模型
 
 ## 一句话总结
@@ -119,7 +119,7 @@ AndroidLab包含三个组件：(1) 标准化操作环境，统一LLM和LMM的动
 - [\[ACL 2025\] Benchmarking LLMs and LLM-based Agents in Practical Vulnerability Detection for Code Repositories](benchmarking_llms_and_llm-based_agents_in_practical_vulnerability_detection_for_.md)
 - [\[CVPR 2025\] ComfyBench: Benchmarking LLM-based Agents in ComfyUI for Autonomously Designing Collaborative AI Systems](../../CVPR2025/llm_evaluation/comfybench_benchmarking_llm-based_agents_in_comfyui_for_autonomously_designing_c.md)
 - [\[ICLR 2026\] AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite](../../ICLR2026/llm_evaluation/astabench_benchmarking_ai_agents.md)
+- [\[AAAI 2026\] MicroEvoEval: A Systematic Evaluation Framework for Image-Based Microstructure Evolution Prediction](../../AAAI2026/llm_evaluation/microevoeval_a_systematic_evaluation_framework_for_image-based_microstructure_ev.md)
 - [\[ICML 2025\] Communicating Activations Between Language Model Agents](../../ICML2025/llm_evaluation/communicating_activations_between_language_model_agents.md)
-- [\[ICML 2025\] UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](../../ICML2025/llm_evaluation/ui-evol_automatic_knowledge_evolving_for_computer_use_agents.md)
 
 <!-- RELATED:END -->

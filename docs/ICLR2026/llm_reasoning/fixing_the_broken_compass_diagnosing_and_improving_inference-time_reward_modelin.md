@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2503.05188](https://arxiv.org/abs/2503.05188)  
 **代码**: [GitHub](https://github.com/BugMakerzzz/CRISP)  
-**领域**: LLM 推理 / 推理时优化  
+**领域**: LLM推理  
 **关键词**: [奖励模型, inference-time scaling, CRISP, Best-of-N, MCTS]
 
 ## 一句话总结

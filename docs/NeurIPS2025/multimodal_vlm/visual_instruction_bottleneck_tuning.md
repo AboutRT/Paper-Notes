@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - 信息瓶颈
-  - 多模态大语言模型
+  - 多模态VLM
   - 分布偏移鲁棒性
   - 指令微调
   - 表征学习
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2505.13946](https://arxiv.org/abs/2505.13946)  
 **作者**: Changdae Oh, Jiatong Li, Shawn Im, Sharon Li (University of Wisconsin–Madison)  
 **代码**: [deeplearning-wisc/vittle](https://github.com/deeplearning-wisc/vittle)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 信息瓶颈, 多模态大语言模型, 分布偏移鲁棒性, 指令微调, 表征学习  
 
 ## 一句话总结
@@ -163,7 +163,7 @@ Vittle将干净-扰动样本的JSD从0.068降至0.047（降幅31%），验证了
 - [\[NeurIPS 2025\] Learning to Instruct for Visual Instruction Tuning](learning_to_instruct_for_visual_instruction_tuning.md)
 - [\[NeurIPS 2025\] CoIDO: Efficient Data Selection for Visual Instruction Tuning via Coupled Importance-Diversity Optimization](coido_efficient_data_selection_for_visual_instruction_tuning_via_coupled_importa.md)
 - [\[ICML 2025\] Parrot: Multilingual Visual Instruction Tuning](../../ICML2025/multimodal_vlm/parrot_multilingual_visual_instruction_tuning.md)
-- [\[ICCV 2025\] MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](../../ICCV2025/multimodal_vlm/metamorph_multimodal_understanding_and_generation_via_instruction_tuning.md)
-- [\[ACL 2025\] Enhancing Multimodal Continual Instruction Tuning with BranchLoRA](../../ACL2025/multimodal_vlm/branchlora_continual_instruction.md)
+- [\[ICCV 2025\] From Holistic to Localized: Local Enhanced Adapters for Efficient Visual Instruction Fine-Tuning](../../ICCV2025/multimodal_vlm/from_holistic_to_localized_local_enhanced_adapters_for_efficient_visual_instruct.md)
+- [\[ICCV 2025\] SMoLoRA: Exploring and Defying Dual Catastrophic Forgetting in Continual Visual Instruction Tuning](../../ICCV2025/multimodal_vlm/smolora_exploring_and_defying_dual_catastrophic_forgetting_in_continual_visual_i.md)
 
 <!-- RELATED:END -->

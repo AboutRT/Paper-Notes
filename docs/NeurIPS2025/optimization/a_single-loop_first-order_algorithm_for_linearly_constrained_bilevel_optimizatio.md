@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24710](https://arxiv.org/abs/2510.24710)  
 **代码**: [ShenGroup/SFLCB](https://github.com/ShenGroup/SFLCB)  
-**领域**: others (优化理论)  
+**领域**: 优化  
 **关键词**: bilevel optimization, constrained optimization, first-order methods, augmented Lagrangian, single-loop algorithm  
 **作者**: Wei Shen, Jiawei Zhang, Minhui Huang, Cong Shen (UVA, UW-Madison, Meta)  
 

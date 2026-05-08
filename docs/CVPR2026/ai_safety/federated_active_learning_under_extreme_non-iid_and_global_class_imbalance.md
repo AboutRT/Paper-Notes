@@ -52,11 +52,11 @@ FairFAL 基于三个实证观察设计了三个核心组件：
 1. **自适应模型选择（Adaptive Model Selection）**：通过轻量级预测差异估计全局不平衡程度和本地-全局分布偏差，自适应选择查询模型。
 
    **全局类别不平衡估计**：对每个客户端构建类别平衡子集 $\mathcal{B}^{(k)}$，利用全局模型预测先验 $\hat{\boldsymbol{\pi}}_g^{(k)}$ 估计不平衡比：
-   $$\gamma_k = \frac{\min_{c \in \mathcal{C}_k^+} \hat{\pi}_{g,c}}{\max_{c \in \mathcal{C}_k^+} \hat{\pi}_{g,c}} \in (0,1]$$
+    $\gamma_k = \frac{\min_{c \in \mathcal{C}_k^+} \hat{\pi}_{g,c}}{\max_{c \in \mathcal{C}_k^+} \hat{\pi}_{g,c}} \in (0,1]$
    各客户端上传标量 $\gamma_k$，服务器平均得到全局系数 $\bar{\gamma}$（仅第一轮计算）。
 
    **本地-全局分布偏差估计**：
-   $$d_k = \frac{1}{C}\sum_{c=1}^{C}\frac{|\hat{\pi}_{g,c} - \hat{\pi}_{\ell,c}^{(k)}|}{\hat{\pi}_{g,c} + \hat{\pi}_{\ell,c}^{(k)}}$$
+    $d_k = \frac{1}{C}\sum_{c=1}^{C}\frac{|\hat{\pi}_{g,c} - \hat{\pi}_{\ell,c}^{(k)}|}{\hat{\pi}_{g,c} + \hat{\pi}_{\ell,c}^{(k)}}$
 
    **模型选择分数**：$s_k = 1 - \frac{1}{2}(d_k + \bar{\gamma})$，当 $s_k > \delta=0.75$ 时选全局模型，否则选本地模型。直觉：全局严重不平衡（$\bar{\gamma}$ 小）且本地与全局分布接近（$d_k$ 小）时，$s_k$ 大，选全局模型。
 
@@ -73,7 +73,7 @@ FairFAL 基于三个实证观察设计了三个核心组件：
    **阶段1-类别候选选择**：对每类以均匀预算 $b_c^{(k)}$ 分配标注配额，选取 $\kappa \cdot b_c^{(k)}$ 个最高不确定性样本组成过完备候选池 $\mathcal{H}_c^{(k)}$（$\kappa=4$）
    
    **阶段2-多样性精炼**：在全局模型的梯度嵌入空间 $\mathbf{g}^{(k)}(x) = \psi(x; \phi^g, f^g)$ 中执行 $k$-center 采样，最小化最大距离：
-   $$\mathcal{Q}_c^{(k)} = \arg\min_{\mathcal{Q}'} \max_{x \in \mathcal{H}_c^{(k)}} \min_{a \in \mathcal{A}_c^{(k)} \cup \mathcal{Q}'} d(\mathbf{g}^{(k)}(x), \mathbf{g}^{(k)}(a))$$
+    $\mathcal{Q}_c^{(k)} = \arg\min_{\mathcal{Q}'} \max_{x \in \mathcal{H}_c^{(k)}} \min_{a \in \mathcal{A}_c^{(k)} \cup \mathcal{Q}'} d(\mathbf{g}^{(k)}(x), \mathbf{g}^{(k)}(a))$
    使用贪心 $k$-center 算法获得 2-近似解。
 
 ### 损失函数 / 训练策略
@@ -156,9 +156,9 @@ FairFAL 在所有数据集和异构性设置下均一致优于所有基线，且
 ## 相关论文
 
 - [\[CVPR 2026\] FecalFed: Privacy-Preserving Poultry Disease Detection via Federated Learning](fecalfed_privacy-preserving_poultry_disease_detection_via_federated_learning.md)
-- [\[CVPR 2026\] Domain-Skewed Federated Learning with Feature Decoupling and Calibration](domain-skewed_federated_learning_with_feature_decoupling_and_calibration.md)
+- [\[CVPR 2026\] FedDAP: Domain-Aware Prototype Learning for Federated Learning under Domain Shift](feddap_domain-aware_prototype_learning_for_federated_learning_under_domain_shift.md)
 - [\[CVPR 2026\] FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation](fedafd_multimodal_federated_learning_via_adversarial_fusion_and_distillation.md)
-- [\[CVPR 2026\] ProxyFL: A Proxy-Guided Framework for Federated Semi-Supervised Learning](proxyfl_a_proxy-guided_framework_for_federated_semi-supervised_learning.md)
+- [\[CVPR 2026\] Domain-Skewed Federated Learning with Feature Decoupling and Calibration](domain-skewed_federated_learning_with_feature_decoupling_and_calibration.md)
 - [\[CVPR 2026\] FedRE: A Representation Entanglement Framework for Model-Heterogeneous Federated Learning](fedre_a_representation_entanglement_framework_for_model-heterogeneous_federated_.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Deep Research Brings Deeper Harm
 description: >-
-  [NeurIPS 2025][deep research agent] 揭示 Deep Research (DR) 智能体的严重安全隐患——即使底层 LLM 能正确拒绝有害请求，部署为 DR 智能体后仍能生成详细专业的危险报告；提出 Plan Injection 和 Intent Hijack 两种针对性越狱方法，以及 DeepREJECT 评估指标，在 6 个 LLM 上验证了 DR 智能体系统性地削弱了对齐机制。
+  [NeurIPS 2025][信息检索] 揭示 Deep Research (DR) 智能体的严重安全隐患——即使底层 LLM 能正确拒绝有害请求，部署为 DR 智能体后仍能生成详细专业的危险报告；提出 Plan Injection 和 Intent Hijack 两种针对性越狱方法，以及 DeepREJECT 评估指标，在 6 个 LLM 上验证了 DR 智能体系统性地削弱了对齐机制。
 tags:
   - NeurIPS 2025
-  - deep research agent
+  - 信息检索
   - jailbreak
   - safety alignment
   - biosecurity
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.11851](https://arxiv.org/abs/2510.11851)  
 **代码**: 有（论文中提及）  
-**领域**: AI安全 / LLM对齐  
+**领域**: 信息检索  
 **关键词**: deep research agent, jailbreak, safety alignment, biosecurity, plan injection
 
 ## 一句话总结
@@ -119,10 +119,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis](../../CVPR2025/information_retrieval/retrieving_semantics_from_the_deep_an_rag_solution_for_gesture_synthesis.md)
 - [\[ICLR 2026\] Digging Deeper: Learning Multi-Level Concept Hierarchies](../../ICLR2026/information_retrieval/digging_deeper_learning_multi-level_concept_hierarchies.md)
 - [\[ICLR 2026\] Hybrid Deep Searcher: Scalable Parallel and Sequential Search Reasoning](../../ICLR2026/information_retrieval/hybrid_deep_searcher_scalable_parallel_and_sequential_search_reasoning.md)
-- [\[NeurIPS 2025\] Generalized Contrastive Learning for Universal Multimodal Retrieval](generalized_contrastive_learning_for_universal_multimodal_re.md)
-- [\[NeurIPS 2025\] Scaling Language-Centric Omnimodal Representation Learning](scaling_language-centric_omnimodal_representation_learning.md)
-- [\[NeurIPS 2025\] RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering](rag-igbench_innovative_evaluation_for_rag-based_interleaved_generation_in_open-d.md)
+- [\[ACL 2025\] HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation](../../ACL2025/information_retrieval/hash-rag_bridging_deep_hashing_with_retriever_for_efficient_fine_retrieval_and_a.md)
+- [\[NeurIPS 2025\] Retrieval is Not Enough: Enhancing RAG Reasoning through Test-Time Critique and Optimization](retrieval_is_not_enough_enhancing_rag_reasoning_through_test-time_critique_and_o.md)
 
 <!-- RELATED:END -->

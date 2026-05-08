@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2407.18559](https://arxiv.org/abs/2407.18559)  
 **代码**: [GitHub](https://github.com/YuHengsss/VSSD)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 状态空间模型, Mamba2, 非因果SSD, 视觉骨干网络, 线性复杂度
 
 ## 一句话总结

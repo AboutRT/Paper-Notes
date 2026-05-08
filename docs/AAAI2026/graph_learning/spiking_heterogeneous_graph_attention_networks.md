@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2601.02401](https://arxiv.org/abs/2601.02401)  
-**代码**: https://github.com/QianPeng369/SpikingHAN  
+**代码**: [https://github.com/QianPeng369/SpikingHAN](https://github.com/QianPeng369/SpikingHAN)  
 **领域**: 图学习 / 脉冲神经网络  
 **关键词**: 异构图, 脉冲神经网络, 元路径, 图注意力, 能效计算
 

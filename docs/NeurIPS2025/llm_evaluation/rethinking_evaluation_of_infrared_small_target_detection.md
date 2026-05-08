@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Rethinking Evaluation of Infrared Small Target Detection
 description: >-
-  [NeurIPS 2025][红外小目标检测] 系统性地揭示了红外小目标检测（IRSTD）现有评估协议的三大局限，提出包含混合层级指标hIoU、系统化错误分析方法和跨数据集评估设置的层次化分析框架。
+  [NeurIPS 2025][LLM评测] 系统性地揭示了红外小目标检测（IRSTD）现有评估协议的三大局限，提出包含混合层级指标hIoU、系统化错误分析方法和跨数据集评估设置的层次化分析框架。
 tags:
   - NeurIPS 2025
-  - 红外小目标检测
+  - LLM评测
   - 评估指标
   - 跨数据集评估
   - 层次化IoU
@@ -154,9 +154,9 @@ $$\text{hIoU} = \text{IoU}_{tgt}^{loc} \times \text{IoU}_{pix}^{seg}$$
 ## 相关论文
 
 - [\[ICCV 2025\] DISTA-Net: Dynamic Closely-Spaced Infrared Small Target Unmixing](../../ICCV2025/llm_evaluation/dista-net_dynamic_closely-spaced_infrared_small_target_unmixing.md)
-- [\[NeurIPS 2025\] Rethinking Losses for Diffusion Bridge Samplers](rethinking_losses_for_diffusion_bridge_samplers.md)
 - [\[NeurIPS 2025\] Normal-Abnormal Guided Generalist Anomaly Detection](normal-abnormal_guided_generalist_anomaly_detection.md)
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](bayesian_evaluation_of_large_language_model_behavior.md)
-- [\[NeurIPS 2025\] Benchmarking Large Language Models for Zero-Shot and Few-Shot Phishing URL Detection](benchmarking_large_language_models_for_zero-shot_and_few-shot_phishing_url_detec.md)
+- [\[NeurIPS 2025\] Robust Hallucination Detection in LLMs via Adaptive Token Selection](robust_hallucination_detection_in_llms_via_adaptive_token_selection.md)
+- [\[NeurIPS 2025\] SPROD: Spurious-Aware Prototype Refinement for Reliable Out-of-Distribution Detection](spurious-aware_prototype_refinement_for_reliable_out-of-distribution_detection.md)
+- [\[NeurIPS 2025\] Rethinking Losses for Diffusion Bridge Samplers](rethinking_losses_for_diffusion_bridge_samplers.md)
 
 <!-- RELATED:END -->

@@ -50,10 +50,10 @@ tags:
 1. **几何感知特征适配器**：训练一个轻量MLP $E_\theta$ 将DINOv2特征转换为几何感知特征。使用来自ShapeNet的9类CAD模型渲染+扩散模型增广数据（共300K图像），双目标训练：
 
    **NOC预测损失**：鼓励特征包含3D位置信息
-   $$\mathcal{L}_{\text{NOC}} = \frac{1}{n \cdot h \cdot w}\sum_{i=1}^{n}\|D_\phi(E_\theta(\text{DINO}(\mathbf{R}_i))) - \mathbf{N}_i\|_2^2$$
+    $\mathcal{L}_{\text{NOC}} = \frac{1}{n \cdot h \cdot w}\sum_{i=1}^{n}\|D_\phi(E_\theta(\text{DINO}(\mathbf{R}_i))) - \mathbf{N}_i\|_2^2$
 
    **几何一致性三元组损失**：确保同一部件跨视角特征一致，几何上远离的部件特征不同
-   $$\mathcal{L}_{\text{triplet}} = \frac{1}{|\mathcal{T}|}\sum_{(\mathbf{a},\mathbf{p},\mathbf{n})\in\mathcal{T}}[d(\mathbf{a},\mathbf{n}) - d(\mathbf{a},\mathbf{p}) + \alpha]_+$$
+    $\mathcal{L}_{\text{triplet}} = \frac{1}{|\mathcal{T}|}\sum_{(\mathbf{a},\mathbf{p},\mathbf{n})\in\mathcal{T}}[d(\mathbf{a},\mathbf{n}) - d(\mathbf{a},\mathbf{p}) + \alpha]_+$
    正样本：3D距离 $\leq \tau_{\text{dist}}^+=0.02$ 的点；负样本：距离 $\geq \tau_{\text{dist}}^-=0.4$ 且特征余弦相似度 $> \tau_{\text{feat}}^-=0.75$ 的点（**困难负样本挖掘**，专门针对DINOv2无法区分的对称部件）。
 
    最终特征融合DINOv2和适配器输出：$E_f(\mathbf{I}) = (1-\omega)\cdot\hat{\text{DINO}}(\mathbf{I}) \oplus \omega\cdot\hat{E}_\theta(\text{DINO}(\mathbf{I}))$（$\omega=0.5$）。
@@ -154,6 +154,6 @@ tags:
 - [\[ICCV 2025\] MonoMobility: Zero-Shot 3D Mobility Analysis from Monocular Videos](monomobility_zero-shot_3d_mobility_analysis_from_monocular_videos.md)
 - [\[ECCV 2024\] ZeST: Zero-Shot Material Transfer from a Single Image](../../ECCV2024/3d_vision/zest_zero-shot_material_transfer_from_a_single_image.md)
 - [\[ICCV 2025\] ZeroStereo: Zero-shot Stereo Matching from Single Images](zerostereo_zero-shot_stereo_matching_from_single_images.md)
-- [\[ICCV 2025\] CAD-Recode: Reverse Engineering CAD Code from Point Clouds](cadrecode_reverse_engineering_cad_code_from_point_clouds.md)
+- [\[ICCV 2025\] BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes](buffer-x_towards_zero-shot_point_cloud_registration_in_diverse_scenes.md)
 
 <!-- RELATED:END -->

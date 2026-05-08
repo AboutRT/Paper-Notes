@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Sloth: Scaling Laws for LLM Skills to Predict Multi-Benchmark Performance Across Families
 description: >-
-  [NeurIPS 2025][scaling laws] 提出Skills Scaling Laws (Sloth)，通过假设LLM性能由低维潜在技能（如推理、指令遵循）驱动，利用benchmark间的相关性构建跨模型家族的缩放定律，用少量家族数据即可预测大模型在多个benchmark上的表现。
+  [NeurIPS 2025][可解释性] 提出Skills Scaling Laws (Sloth)，通过假设LLM性能由低维潜在技能（如推理、指令遵循）驱动，利用benchmark间的相关性构建跨模型家族的缩放定律，用少量家族数据即可预测大模型在多个benchmark上的表现。
 tags:
   - NeurIPS 2025
-  - scaling laws
+  - 可解释性
   - LLM benchmarks
   - latent skills
   - factor analysis
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2412.06540](https://arxiv.org/abs/2412.06540)  
-**代码**: https://github.com/felipemaiapolo/sloth  
-**领域**: LLM效率 / 缩放定律  
+**代码**: [https://github.com/felipemaiapolo/sloth](https://github.com/felipemaiapolo/sloth)  
+**领域**: 可解释性  
 **关键词**: scaling laws, LLM benchmarks, latent skills, factor analysis, performance prediction
 
 ## 一句话总结
@@ -120,9 +120,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Towards Scaling Laws for Symbolic Regression](towards_scaling_laws_for_symbolic_regression.md)
-- [\[ICLR 2026\] Closing the Curvature Gap: Full Transformer Hessians and Their Implications for Scaling Laws](../../ICLR2026/interpretability/closing_the_curvature_gap_full_transformer_hessians_and_their_implications_for_s.md)
 - [\[NeurIPS 2025\] Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences](deep_value_benchmark_measuring_whether_models_generalize_deep_values_or_shallow_.md)
 - [\[NeurIPS 2025\] AgentiQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation](agentiql_an_agent-inspired_multi-expert_framework_for_text-to-sql_generation.md)
 - [\[NeurIPS 2025\] ARECHO: Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation](arecho_autoregressive_evaluation_via_chain-based_hypothesis_optimization_for_spe.md)
+- [\[ICLR 2026\] Closing the Curvature Gap: Full Transformer Hessians and Their Implications for Scaling Laws](../../ICLR2026/interpretability/closing_the_curvature_gap_full_transformer_hessians_and_their_implications_for_s.md)
 
 <!-- RELATED:END -->

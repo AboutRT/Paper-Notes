@@ -8,7 +8,7 @@ tags:
   - 街景合成
   - 视频扩散模型
   - LiDAR条件
-  - 新视角合成
+  - 视频生成
   - 3DGS蒸馏
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.13188](https://arxiv.org/abs/2412.13188)  
 **代码**: [GitHub](https://zju3dv.github.io/street_crafter)  
-**领域**: 自动驾驶  
+**领域**: 视频生成  
 **关键词**: 街景合成, 视频扩散模型, LiDAR条件, 新视角合成, 3DGS蒸馏
 
 ## 一句话总结
@@ -128,9 +128,9 @@ $$\mathcal{L}_{\text{novel}} = \lambda_{\text{novel}} \mathcal{L}_{\text{lpips}}
 ## 相关论文
 
 - [\[CVPR 2025\] InterDyn: Controllable Interactive Dynamics with Video Diffusion Models](interdyn_controllable_interactive_dynamics_with_video_diffusion_models.md)
+- [\[CVPR 2025\] Articulated Kinematics Distillation from Video Diffusion Models](articulated_kinematics_distillation_from_video_diffusion_models.md)
 - [\[ICCV 2025\] FVGen: Accelerating Novel-View Synthesis with Adversarial Video Diffusion Distillation](../../ICCV2025/video_generation/fvgen_accelerating_novel-view_synthesis_with_adversarial_video_diffusion_distill.md)
+- [\[CVPR 2025\] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
 - [\[CVPR 2025\] Geometry-guided Online 3D Video Synthesis with Multi-View Temporal Consistency](geometry-guided_online_3d_video_synthesis_with_multi-view_temporal_consistency.md)
-- [\[CVPR 2025\] SpatialDreamer: Self-supervised Stereo Video Synthesis from Monocular Input](spatialdreamer_self-supervised_stereo_video_synthesis_from_monocular_input.md)
-- [\[CVPR 2025\] MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](mimo_controllable_character_video_synthesis_with_spatial_decomposed_modeling.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01317](https://arxiv.org/abs/2506.01317)  
 **代码**: [GitHub](https://github.com/Dynamite321/T-SHIRT)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: 指令微调, 数据选择, Token 级信息量, 鲁棒性, IFD 分数  
 
 ## 一句话总结

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Reinforcement Learning for Long-Horizon Multi-Turn Search Agents
 description: >-
-  [NeurIPS 2025 Workshop][RL agent] 展示 RL 训练的 14B 参数搜索 agent 在法律文档检索任务上通过多轮交互可以超越 frontier 模型（85% vs GPT o3 的 81%），关键在于精心设计的分段奖励结构和允许长 horizon 多轮交互。
+  [NeurIPS 2025 Workshop][强化学习] 展示 RL 训练的 14B 参数搜索 agent 在法律文档检索任务上通过多轮交互可以超越 frontier 模型（85% vs GPT o3 的 81%），关键在于精心设计的分段奖励结构和允许长 horizon 多轮交互。
 tags:
   - NeurIPS 2025 Workshop
-  - RL agent
+  - 强化学习
   - multi-turn search
   - legal document retrieval
   - GRPO
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025 Workshop  
 **arXiv**: [2510.24126](https://arxiv.org/abs/2510.24126)  
 **代码**: 无  
-**领域**: Agent  
+**领域**: 强化学习  
 **关键词**: RL agent, multi-turn search, legal document retrieval, GRPO, tool use
 
 ## 一句话总结
@@ -120,9 +120,9 @@ GRPO (Group Relative Policy Optimization)。Base model: Qwen3-14B + LoRA adapter
 ## 相关论文
 
 - [\[AAAI 2026\] Thinker: Training LLMs in Hierarchical Thinking for Deep Search via Multi-Turn Interaction](../../AAAI2026/reinforcement_learning/thinker_training_llms_in_hierarchical_thinking_for_deep_search_via_multi-turn_in.md)
-- [\[ICLR 2026\] Strict Subgoal Execution: Reliable Long-Horizon Planning in Hierarchical Reinforcement Learning](../../ICLR2026/reinforcement_learning/strict_subgoal_execution_reliable_long-horizon_planning_in_hierarchical_reinforc.md)
 - [\[NeurIPS 2025\] DeepDiver: Adaptive Search Intensity Scaling via Open-Web Reinforcement Learning](deepdiver_adaptive_search_intensity_scaling_via_open-web_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Horizon Reduction Makes RL Scalable](horizon_reduction_makes_rl_scalable.md)
 - [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
+- [\[NeurIPS 2025\] TensorRL-QAS: Reinforcement Learning with Tensor Networks for Improved Quantum Architecture Search](tensorrl-qas_reinforcement_learning_with_tensor_networks_for_improved_quantum_ar.md)
+- [\[AAAI 2026\] ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation](../../AAAI2026/reinforcement_learning/manilong-shot_interaction-aware_one-shot_imitation_learning_for_long-horizon_man.md)
 
 <!-- RELATED:END -->

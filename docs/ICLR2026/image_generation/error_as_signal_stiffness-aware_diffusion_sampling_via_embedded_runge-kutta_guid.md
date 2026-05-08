@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.03692](https://arxiv.org/abs/2603.03692)  
 **代码**: [mlvlab/ERK-Guid](https://github.com/mlvlab/ERK-Guid)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: diffusion sampling, stiffness, local truncation error, embedded Runge-Kutta, guidance  
 
 ## 一句话总结

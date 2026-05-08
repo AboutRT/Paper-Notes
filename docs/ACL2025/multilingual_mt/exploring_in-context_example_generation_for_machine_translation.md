@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00507](https://arxiv.org/abs/2506.00507)  
 **代码**: [GitHub](https://github.com/aiclaudev/DAT)  
-**领域**: 文本生成  
+**领域**: 多语言翻译  
 **关键词**: 机器翻译, 上下文学习, 低资源语言, 示例生成, Maximal Marginal Relevance
 
 ## 一句话总结

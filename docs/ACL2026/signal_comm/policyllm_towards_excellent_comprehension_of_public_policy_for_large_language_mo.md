@@ -9,15 +9,15 @@ tags:
   - 跨体制基准
   - Bloom认知层次
   - 混合专家模型
-  - 政策推理
+  - 信号通信
 ---
 
 # PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models
 
 **会议**: ACL 2026 (Findings)  
 **arXiv**: [2604.12995](https://arxiv.org/abs/2604.12995)  
-**代码**: https://github.com/wad3birch/PolicyLLM (有)  
-**领域**: NLP理解 / LLM评估  
+**代码**: [https://github.com/wad3birch/PolicyLLM](https://github.com/wad3birch/PolicyLLM)  
+**领域**: 信号通信  
 **关键词**: 公共政策理解, 跨体制基准, Bloom认知层次, 混合专家模型, 政策推理
 
 ## 一句话总结

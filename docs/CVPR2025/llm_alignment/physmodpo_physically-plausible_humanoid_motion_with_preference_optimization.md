@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.13228](https://arxiv.org/abs/2603.13228)  
-**代码**: https://mael-zys.github.io/PhysMoDPO/  
+**代码**: [https://mael-zys.github.io/PhysMoDPO/](https://mael-zys.github.io/PhysMoDPO/)  
 **领域**: LLM对齐 / 人体运动生成  
 **关键词**: 运动生成, DPO, 物理合理性, 人形机器人, 全身控制器
 

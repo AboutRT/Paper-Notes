@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.01725](https://arxiv.org/abs/2603.01725)  
 **代码**: [GitHub](https://github.com/GuangluDong0728/DATPRL-IR)  
-**领域**: 图像复原 / 计算机视觉  
+**领域**: 医学图像  
 **关键词**: 全能图像复原, 多域复原, 提示学习, 双提示池, 跨模态对齐
 
 ## 一句话总结
@@ -122,6 +122,6 @@ tags:
 - [\[CVPR 2025\] Towards All-in-One Medical Image Re-Identification](../../CVPR2025/medical_imaging/towards_all-in-one_medical_image_re-identification.md)
 - [\[CVPR 2026\] Interpretable Cross-Domain Few-Shot Learning with Rectified Target-Domain Local Alignment](../../CVPR2026/medical_imaging/interpretable_cross-domain_few-shot_learning_with_rectified_target-domain_local_.md)
 - [\[AAAI 2026\] Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust Molecular Modeling](../../AAAI2026/medical_imaging/learning_cell-aware_hierarchical_multi-modal_representations.md)
-- [\[CVPR 2026\] Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization](../../CVPR2026/medical_imaging/human_knowledge_integrated_multimodal_learning_for.md)
+- [\[CVPR 2026\] Human Knowledge Integrated Multi-modal Learning for Single Source Domain Generalization](../../CVPR2026/medical_imaging/human_knowledge_integrated_multi-modal_learning_for_single_source_domain_general.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.08674](https://arxiv.org/abs/2410.08674)  
 **代码**: 有（公开数据集和标注指南）  
-**领域**: NLP / 文本可读性评估  
+**领域**: 其他  
 **关键词**: Arabic Readability, Sentence-level Annotation, Fine-grained Leveling, Corpus Construction, Text Complexity
 
 ## 一句话总结

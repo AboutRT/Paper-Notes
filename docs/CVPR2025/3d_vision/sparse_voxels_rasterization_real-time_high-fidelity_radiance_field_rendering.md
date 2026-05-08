@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04459](https://arxiv.org/abs/2412.04459)  
-**代码**: https://github.com/NVlabs/svraster  
+**代码**: [https://github.com/NVlabs/svraster](https://github.com/NVlabs/svraster)  
 **领域**: 3D视觉  
 **关键词**: 稀疏体素, 光栅化, 辐射场渲染, 无神经网络, 新视角合成
 

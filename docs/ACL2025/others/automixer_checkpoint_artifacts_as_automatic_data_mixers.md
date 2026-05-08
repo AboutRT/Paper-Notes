@@ -8,7 +8,7 @@ tags:
   - 数据混合
   - 检查点利用
   - 影响函数
-  - 预训练
+  - 其他
   - 推理基准
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.21910](https://arxiv.org/abs/2506.21910)  
 **代码**: 无  
-**领域**: 预训练数据优化  
+**领域**: 其他  
 **关键词**: 数据混合、检查点利用、影响函数、预训练、推理基准
 
 ## 一句话总结
@@ -120,10 +120,10 @@ AutoMixer 通过两步过程优化预训练数据：(1) **数据重新分组（D
 
 ## 相关论文
 
-- [\[ICML 2025\] Efficient Network Automatic Relevance Determination](../../ICML2025/others/efficient_network_automatic_relevance_determination.md)
+- [\[NeurIPS 2025\] FACE: Faithful Automatic Concept Extraction](../../NeurIPS2025/others/face_faithful_automatic_concept_extraction.md)
 - [\[ACL 2025\] TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data](targa_targeted_synthetic_data_generation_for_practical_reasoning_over_structured.md)
-- [\[ACL 2025\] AIDE: Attribute-Guided Multi-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning](aide_attribute-guided_multi-hop_data_expansion_for_data_scarcity_in_task-specifi.md)
+- [\[ICML 2025\] Efficient Network Automatic Relevance Determination](../../ICML2025/others/efficient_network_automatic_relevance_determination.md)
+- [\[ACL 2025\] VAQUUM: Are Vague Quantifiers Grounded in Visual Data?](vaquum_are_vague_quantifiers_grounded_in_visual_data.md)
 - [\[ACL 2025\] FastMCTS: A Simple Sampling Strategy for Data Synthesis](fastmcts_a_simple_sampling_strategy_for_data_synthesis.md)
-- [\[ACL 2025\] Is Linguistically-Motivated Data Augmentation Worth It?](is_linguistically-motivated_data_augmentation_worth_it.md)
 
 <!-- RELATED:END -->

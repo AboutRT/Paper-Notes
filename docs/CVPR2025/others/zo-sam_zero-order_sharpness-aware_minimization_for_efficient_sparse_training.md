@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR2025
   - 稀疏训练
-  - 零阶优化
+  - 其他
   - Sharpness-Aware Minimization
   - 梯度方差
   - 模型压缩
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13115](https://arxiv.org/abs/2603.13115)  
 **代码**: 待确认  
-**领域**: others  
+**领域**: 其他  
 **关键词**: 稀疏训练, 零阶优化, Sharpness-Aware Minimization, 梯度方差, 模型压缩
 
 ## 一句话总结
@@ -121,10 +121,10 @@ ZO-SAM 的核心思想是在 SAM 的两步过程中**选择性**使用零阶/一
 
 ## 相关论文
 
-- [\[CVPR 2025\] EVOS: Efficient Implicit Neural Training via EVOlutionary Selector](evos_efficient_implicit_neural_training_via_evolutionary_selector.md)
-- [\[ICML 2025\] Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](../../ICML2025/others/sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)
+- [\[NeurIPS 2025\] Sharpness-Aware Minimization with Z-Score Gradient Filtering](../../NeurIPS2025/others/sharpness-aware_minimization_with_z-score_gradient_filtering.md)
 - [\[NeurIPS 2025\] Sign-In to the Lottery: Reparameterized Sparse Training from Scratch](../../NeurIPS2025/others/sign-in_to_the_lottery_reparameterizing_sparse_training_from_scratch.md)
-- [\[CVPR 2025\] SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification](sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md)
+- [\[CVPR 2025\] EVOS: Efficient Implicit Neural Training via EVOlutionary Selector](evos_efficient_implicit_neural_training_via_evolutionary_selector.md)
 - [\[CVPR 2025\] SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules](shrec_a_spectral_embedding-based_approach_for_ab-initio_reconstruction_of_helica.md)
+- [\[CVPR 2025\] Subnet-Aware Dynamic Supernet Training for Neural Architecture Search](subnet-aware_dynamic_supernet_training_for_neural_architecture_search.md)
 
 <!-- RELATED:END -->

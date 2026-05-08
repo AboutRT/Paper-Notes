@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.10982](https://arxiv.org/abs/2506.10982)  
 **代码**: [GitHub](https://github.com/sanokows/RethinkingLossesForDiffusionBridgeSamplers)  
-**领域**: 生成模型 / 扩散模型采样  
+**领域**: LLM评测  
 **关键词**: 扩散桥采样器, 损失函数, 反向KL散度, Log Variance损失, 可学习扩散系数
 
 ## 一句话总结
@@ -125,9 +125,9 @@ $$\nabla_\nu D_{LV}^{q_{\alpha,\nu}^*}(q_{\alpha,\nu}, p_{\phi,\nu}) = \mathbb{E
 ## 相关论文
 
 - [\[NeurIPS 2025\] Rethinking Evaluation of Infrared Small Target Detection](rethinking_evaluation_of_infrared_small_target_detection.md)
-- [\[CVPR 2025\] Erase Diffusion: Empowering Object Removal Through Calibrating Diffusion Pathways (EraDiff)](../../CVPR2025/llm_evaluation/erase_diffusion_empowering_object_removal_through_calibrating_diffusion_pathways.md)
 - [\[ICML 2025\] Gradient Aligned Regression via Pairwise Losses](../../ICML2025/llm_evaluation/gradient_aligned_regression_via_pairwise_losses.md)
-- [\[ICCV 2025\] Rethinking Few Shot CLIP Benchmarks: A Critical Analysis in the Inductive Setting](../../ICCV2025/llm_evaluation/rethinking_few_shot_clip_benchmarks_a_critical_analysis_in_the_inductive_setting.md)
-- [\[AAAI 2026\] Lost in Benchmarks? Rethinking Large Language Model Benchmarking with Item Response Theory](../../AAAI2026/llm_evaluation/lost_in_benchmarks_rethinking_large_language_model_benchmarking_with_item_respon.md)
+- [\[CVPR 2025\] Erase Diffusion: Empowering Object Removal Through Calibrating Diffusion Pathways (EraDiff)](../../CVPR2025/llm_evaluation/erase_diffusion_empowering_object_removal_through_calibrating_diffusion_pathways.md)
+- [\[ICCV 2025\] Degradation-Modeled Multipath Diffusion for Tunable Metalens Photography](../../ICCV2025/llm_evaluation/degradation-modeled_multipath_diffusion_for_tunable_metalens_photography.md)
+- [\[ICCV 2025\] Lay2Story: Extending Diffusion Transformers for Layout-Togglable Story Generation](../../ICCV2025/llm_evaluation/lay2story_extending_diffusion_transformers_for_layout-togglable_story_generation.md)
 
 <!-- RELATED:END -->

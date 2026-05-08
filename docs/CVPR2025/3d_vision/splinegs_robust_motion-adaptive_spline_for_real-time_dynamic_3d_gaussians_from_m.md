@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.09982](https://arxiv.org/abs/2412.09982)  
-**代码**: https://kaist-viclab.github.io/splinegs-site/  
+**代码**: [https://kaist-viclab.github.io/splinegs-site/](https://kaist-viclab.github.io/splinegs-site/)  
 **领域**: 3D视觉  
 **关键词**: 动态场景重建, 3D高斯泼溅, 样条曲线, 单目视频, 无COLMAP
 
@@ -143,9 +143,9 @@ NVIDIA 数据集新视角合成（COLMAP-free）：
 ## 相关论文
 
 - [\[CVPR 2025\] MP-SfM: Monocular Surface Priors for Robust Structure-from-Motion](mp-sfm_monocular_surface_priors_for_robust_structure-from-motion.md)
-- [\[CVPR 2025\] MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos](megasam_accurate_fast_and_robust_structure_and_motion_from_casual_dynamic_videos.md)
 - [\[CVPR 2025\] SAT-HMR: Real-Time Multi-Person 3D Mesh Estimation via Scale-Adaptive Tokens](sat-hmr_real-time_multi-person_3d_mesh_estimation_via_scale-adaptive_tokens.md)
 - [\[CVPR 2025\] SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](slam3r_real-time_dense_scene_reconstruction_from_monocular_rgb_videos.md)
+- [\[CVPR 2025\] MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos](megasam_accurate_fast_and_robust_structure_and_motion_from_casual_dynamic_videos.md)
 - [\[CVPR 2025\] 4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video](4dequine_disentangling_motion_and_appearance_for_4d_equine_reconstruction_from_m.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2512.07237](https://arxiv.org/abs/2512.07237)  
 **代码**: [https://github.com/chengzhag/UCPE](https://github.com/chengzhag/UCPE)  
-**领域**: 图像生成 / 3D视觉  
+**领域**: 视频生成  
 **关键词**: 相机位置编码, 视频生成, 镜头畸变, 扩散Transformer, 相机可控生成
 
 ## 一句话总结

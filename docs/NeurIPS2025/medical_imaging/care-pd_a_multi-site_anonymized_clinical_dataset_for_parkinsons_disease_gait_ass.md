@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.04312](https://arxiv.org/abs/2510.04312)  
 **代码**: [Website](https://neurips2025.care-pd.ca)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 帕金森病, 步态分析, SMPL 3D 网格, 多站点数据集, 运动表征学习
 
 ## 一句话总结

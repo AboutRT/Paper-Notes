@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.03590](https://arxiv.org/abs/2404.03590)  
-**代码**: https://kailinli.github.io/SemGrasp (有)  
-**领域**: LLM/NLP  
+**代码**: [https://kailinli.github.io/SemGrasp](https://kailinli.github.io/SemGrasp)  
+**领域**: 机器人  
 **关键词**: semantic grasp generation, VQ-VAE, MLLM, hand-object interaction, discrete representation
 
 ## 一句话总结
@@ -147,10 +147,10 @@ MPVPE 降低 45%，渗透深度降低 15%。
 
 ## 相关论文
 
+- [\[ECCV 2024\] Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation](decomposed_vector-quantized_variational_autoencoder_for_human_grasp_generation.md)
 - [\[ECCV 2024\] An Economic Framework for 6-DoF Grasp Detection](an_economic_framework_for_6-dof_grasp_detection.md)
 - [\[ECCV 2024\] Prioritized Semantic Learning for Zero-Shot Instance Navigation](prioritized_semantic_learning_for_zeroshot_instance_navigation.md)
+- [\[ECCV 2024\] Octopus: Embodied Vision-Language Programmer from Environmental Feedback](octopus_embodied_visionlanguage_programmer_from_environmental_feedback.md)
 - [\[ECCV 2024\] LLM as Copilot for Coarse-Grained Vision-and-Language Navigation](llm_as_copilot_for_coarse-grained_vision-and-language_navigation.md)
-- [\[ECCV 2024\] ReALFRED: An Embodied Instruction Following Benchmark in Photo-Realistic Environments](realfred_an_embodied_instruction_following_benchmark_in_photo-realistic_environm.md)
-- [\[ECCV 2024\] AFF-ttention! Affordances and Attention models for Short-Term Object Interaction Anticipation](aff-ttention_affordances_and_attention_models_for_short-term_object_interaction_.md)
 
 <!-- RELATED:END -->

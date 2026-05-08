@@ -8,7 +8,7 @@ tags:
   - 科学可视化
   - 天文代码生成
   - 领域特定基准
-  - VLM评估
+  - 代码智能
   - Jupyter Notebook
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.20538](https://arxiv.org/abs/2505.20538)  
-**代码**: https://astrovisbench.github.io  
+**代码**: [https://astrovisbench.github.io](https://astrovisbench.github.io)  
 **领域**: LLM 代码生成 / 天文学  
 **关键词**: 科学可视化, 天文代码生成, 领域特定基准, VLM评估, Jupyter Notebook
 

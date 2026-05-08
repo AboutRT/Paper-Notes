@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.10546](https://arxiv.org/abs/2604.10546)  
-**代码**: https://github.com/CVL-UESTC/RDVQ  
+**代码**: [https://github.com/CVL-UESTC/RDVQ](https://github.com/CVL-UESTC/RDVQ)  
 **领域**: 图像压缩/恢复  
 **关键词**: 向量量化, 率失真优化, 生成式图像压缩, 熵模型, 可微松弛
 

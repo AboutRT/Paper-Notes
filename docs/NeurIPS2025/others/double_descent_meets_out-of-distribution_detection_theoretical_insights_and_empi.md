@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - double descent
-  - OOD检测
+  - 其他
   - 模型复杂度
   - 随机矩阵理论
   - Neural Collapse
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.02184](https://arxiv.org/abs/2411.02184)  
 **代码**: 有（论文中提供链接）  
-**领域**: others  
+**领域**: 其他  
 **关键词**: double descent, OOD检测, 模型复杂度, 随机矩阵理论, Neural Collapse
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[NeurIPS 2025\] Redundancy-Aware Test-Time Graph Out-of-Distribution Detection](redundancy-aware_test-time_graph_out-of-distribution_detection.md)
 - [\[NeurIPS 2025\] Harnessing Feature Resonance under Arbitrary Target Alignment for Out-of-Distribution Node Detection](harnessing_feature_resonance_under_arbitrary_target_alignment_for_out-of-distrib.md)
+- [\[NeurIPS 2025\] Out-of-distribution Generalisation is Hard: Evidence from ARC-like Tasks](out-of-distribution_generalisation_is_hard_evidence_from_arc-like_tasks.md)
 - [\[CVPR 2025\] H2ST: Hierarchical Two-Sample Tests for Continual Out-of-Distribution Detection](../../CVPR2025/others/h2st_hierarchical_two-sample_tests_for_continual_out-of-distribution_detection.md)
 - [\[AAAI 2026\] Theoretical and Empirical Analysis of Lehmer Codes to Search Permutation Spaces with Evolutionary Algorithms](../../AAAI2026/others/theoretical_and_empirical_analysis_of_lehmer_codes_to_search_permutation_spaces_.md)
-- [\[ACL 2025\] REP: Keys to Robust Edits — From Theoretical Insights to Practical Advances](../../ACL2025/others/rep_robust_knowledge_editing.md)
 
 <!-- RELATED:END -->

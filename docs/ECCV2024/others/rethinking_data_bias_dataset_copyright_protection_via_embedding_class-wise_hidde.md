@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Rethinking Data Bias: Dataset Copyright Protection via Embedding Class-Wise Hidden Bias
 description: >-
-  [ECCV 2024][数据集水印] 本文提出"Undercover Bias"数据集水印方法，通过在训练数据中嵌入与目标任务无关但与标签对应的隐蔽水印图案，使未授权使用者训练的模型不自觉地学会分类这些水印，水印分类能力作为未授权使用的不可抵赖证据，实现了隐蔽、模型无关、对目标任务无损的数据集版权保护。
+  [ECCV 2024][其他] 本文提出"Undercover Bias"数据集水印方法，通过在训练数据中嵌入与目标任务无关但与标签对应的隐蔽水印图案，使未授权使用者训练的模型不自觉地学会分类这些水印，水印分类能力作为未授权使用的不可抵赖证据，实现了隐蔽、模型无关、对目标任务无损的数据集版权保护。
 tags:
   - ECCV 2024
-  - 数据集水印
+  - 其他
   - 版权保护
   - 隐蔽偏差
   - 模型取证
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: N/A  
-**代码**: https://github.com/jjh6297/UndercoverBias (有)  
-**领域**: AI安全 / 数据集保护  
+**代码**: [https://github.com/jjh6297/UndercoverBias](https://github.com/jjh6297/UndercoverBias)  
+**领域**: 其他  
 **关键词**: 数据集水印, 版权保护, 隐蔽偏差, 模型取证, 知识产权
 
 ## 一句话总结
@@ -126,10 +126,10 @@ Undercover Bias 的工作流程分为三个阶段：(1) 水印嵌入：为数据
 
 ## 相关论文
 
-- [\[ACL 2025\] Causal Estimation of Tokenisation Bias](../../ACL2025/others/causal_tokenisation_bias.md)
 - [\[ACL 2025\] Are Bias Evaluation Methods Biased?](../../ACL2025/others/are_bias_evaluation_methods_biased.md)
-- [\[ECCV 2024\] Rebalancing Using Estimated Class Distribution for Imbalanced Semi-Supervised Learning under Class Distribution Mismatch](rebalancing_using_estimated_class_distribution_for_imbalanced_semi-supervised_le.md)
+- [\[ACL 2025\] Causal Estimation of Tokenisation Bias](../../ACL2025/others/causal_tokenisation_bias.md)
+- [\[ICML 2025\] NeuronTune: Towards Self-Guided Spurious Bias Mitigation](../../ICML2025/others/neurontune_towards_self-guided_spurious_bias_mitigation.md)
+- [\[NeurIPS 2025\] Training the Untrainable: Introducing Inductive Bias via Representational Alignment](../../NeurIPS2025/others/training_the_untrainable_introducing_inductive_bias_via_representational_alignme.md)
 - [\[ECCV 2024\] ABC Easy as 123: A Blind Counter for Exemplar-Free Multi-Class Class-Agnostic Counting](abc_easy_as_123_a_blind_counter_for_exemplar-free_multi-class_class-agnostic_cou.md)
-- [\[ICLR 2026\] Implicit Bias of Per-sample Adam on Separable Data: Departure from the Full-batch Regime](../../ICLR2026/others/implicit_bias_of_per-sample_adam_on_separable_data_departure_from_the_full-batch.md)
 
 <!-- RELATED:END -->

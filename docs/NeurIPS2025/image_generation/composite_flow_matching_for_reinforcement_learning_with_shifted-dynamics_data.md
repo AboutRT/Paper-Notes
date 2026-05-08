@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.23062](https://arxiv.org/abs/2505.23062)  
 **代码**: [GitHub](https://github.com/Haichuan23/CompositeFlow)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 强化学习, 流匹配, 最优传输, 动态偏移, Wasserstein距离, 离线数据
 
 ## 一句话总结

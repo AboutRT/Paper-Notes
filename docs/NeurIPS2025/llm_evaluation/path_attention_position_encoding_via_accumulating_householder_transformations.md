@@ -8,7 +8,7 @@ tags:
   - position encoding
   - Householder transformation
   - 注意力机制
-  - state tracking
+  - LLM评测
   - RoPE
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16381](https://arxiv.org/abs/2505.16381)  
 **代码**: [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: position encoding, Householder transformation, attention mechanism, state tracking, RoPE
 
 ## 一句话总结
@@ -169,10 +169,10 @@ PaTH 在 FFLM 任务上几乎完美解决（错误率趋近 0），而其他方�
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention](generalization_error_analysis_for_selective_state-space_models_through_the_lens_.md)
 - [\[ICLR 2026\] Spectral Attention Steering for Prompt Highlighting](../../ICLR2026/llm_evaluation/spectral_attention_steering_for_prompt_highlighting.md)
+- [\[ICML 2025\] Position: Theory of Mind Benchmarks are Broken for Large Language Models](../../ICML2025/llm_evaluation/position_theory_of_mind_benchmarks_are_broken_for_large_language_models.md)
+- [\[NeurIPS 2025\] Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention](generalization_error_analysis_for_selective_state-space_models_through_the_lens_.md)
+- [\[CVPR 2026\] Anchoring and Rescaling Attention for Semantically Coherent Inbetweening](../../CVPR2026/llm_evaluation/anchoring_and_rescaling_attention_for_semantically_coherent_inbetweening.md)
 - [\[ICML 2025\] Position: AI Evaluation Should Learn from How We Test Humans](../../ICML2025/llm_evaluation/position_ai_evaluation_should_learn_from_how_we_test_humans.md)
-- [\[ICLR 2026\] Breaking the Correlation Plateau: On the Optimization and Capacity Limits of Attention-Based Regressors](../../ICLR2026/llm_evaluation/breaking_the_correlation_plateau_on_the_optimization_and_capacity_limits_of_atte.md)
-- [\[NeurIPS 2025\] A Standardized Benchmark for Multilabel Antimicrobial Peptide Classification](a_standardized_benchmark_for_multilabel_antimicrobial_peptide_classification.md)
 
 <!-- RELATED:END -->

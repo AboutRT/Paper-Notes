@@ -8,7 +8,7 @@ tags:
   - 自一致性
   - 特征归因
   - 解释忠实性
-  - DPO优化
+  - 可解释性
   - 归因对齐
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2506.07523](https://arxiv.org/abs/2506.07523)  
 **代码**: [GitHub](https://github.com/saharad1/ConstLLM)  
-**领域**: Interpretability / LLM Alignment  
+**领域**: 可解释性  
 **关键词**: 自一致性, 特征归因, 解释忠实性, DPO优化, 归因对齐
 
 ## 一句话总结
@@ -121,7 +121,7 @@ PSCB构建流程：(1) 对QA决策计算特征归因向量；(2) 对每个决策
 - [\[ACL 2026\] Do LLMs Know Tool Irrelevance? Demystifying Structural Alignment Bias in Tool Invocations](do_llms_know_tool_irrelevance_demystifying_structural_alignment_bias_in_tool_inv.md)
 - [\[ACL 2026\] Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models](revitalizing_black-box_interpretability_actionable_interpretability_for_llms_via.md)
 - [\[ACL 2025\] Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs](../../ACL2025/interpretability/llama_see_llama_do_entrainment.md)
-- [\[AAAI 2026\] LLM Circuit Analyses Are Consistent Across Training and Scale](../../AAAI2026/interpretability/llm_circuit_analyses_consistent_across_training_and_scale.md)
 - [\[ACL 2026\] Understanding New-Knowledge-Induced Factual Hallucinations in LLMs: Analysis and Interpretation](understanding_new-knowledge-induced_factual_hallucinations_in_llms_analysis_and_.md)
+- [\[AAAI 2026\] LLM Circuit Analyses Are Consistent Across Training and Scale](../../AAAI2026/interpretability/llm_circuit_analyses_consistent_across_training_and_scale.md)
 
 <!-- RELATED:END -->

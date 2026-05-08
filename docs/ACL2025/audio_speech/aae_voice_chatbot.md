@@ -8,7 +8,7 @@ tags:
   - 语音
   - 语音对话
   - 方言生成
-  - 聊天机器人
+  - 音频语音
   - 个性化
   - 非裔美式英语
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.03441](https://arxiv.org/abs/2501.03441)  
-**代码**: https://github.com/emorynlp/AAVE-Chat  
+**代码**: [https://github.com/emorynlp/AAVE-Chat](https://github.com/emorynlp/AAVE-Chat)  
 **领域**: 音频与语音 / 对话系统  
 **关键词**: 语音对话, 方言生成, 聊天机器人, 个性化, 非裔美式英语
 
@@ -137,9 +137,9 @@ SODA 多轮对话数据集 → SAE 回复生成 → LLM 方言翻译（SAE→AAE
 ## 相关论文
 
 - [\[ACL 2025\] Does Your Voice Assistant Remember? Analyzing Conversational Context Recall and Utilization in Voice Interaction Models](does_your_voice_assistant_remember_analyzing_conversational_context_recall_and_u.md)
-- [\[ACL 2025\] OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation](omniflatten_an_end-to-end_gpt_model_for_seamless_voice_conversation.md)
 - [\[ACL 2025\] Distilling an End-to-End Voice Assistant Without Instruction Training Data](distilling_an_end-to-end_voice_assistant_without_instruction_training_data.md)
-- [\[ACL 2025\] TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis](tcsinger_2_customizable_multilingual_zero-shot_singing_voice_synthesis.md)
+- [\[ACL 2025\] OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation](omniflatten_an_end-to-end_gpt_model_for_seamless_voice_conversation.md)
 - [\[ACL 2025\] SpeechIQ: Speech-Agentic Intelligence Quotient Across Cognitive Levels in Voice Understanding by Large Language Models](speechiq_speechagentic_intelligence_quotient_across_cognitive.md)
+- [\[ACL 2025\] TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis](tcsinger_2_customizable_multilingual_zero-shot_singing_voice_synthesis.md)
 
 <!-- RELATED:END -->

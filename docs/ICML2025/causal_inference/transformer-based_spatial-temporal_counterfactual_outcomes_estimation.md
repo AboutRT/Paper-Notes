@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.21154](https://arxiv.org/abs/2506.21154)  
 **代码**: 有（论文附链接）  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: 因果推断, 反事实结果估计, 时空数据, Transformer, 逆概率加权, 空间点过程
 
 ## 一句话总结
@@ -153,6 +153,6 @@ $$\mathcal{L} = -\sum_{i=1}^{|S|} \ln(\text{net}(s_i)) + \int_\Omega \text{net}(
 - [\[NeurIPS 2025\] LLM Interpretability with Identifiable Temporal-Instantaneous Representation](../../NeurIPS2025/causal_inference/llm_interpretability_with_identifiable_temporal-instantaneous_representation.md)
 - [\[NeurIPS 2025\] Causality-Induced Positional Encoding for Transformer-Based Representation Learning of Non-Sequential Features](../../NeurIPS2025/causal_inference/causality-induced_positional_encoding_for_transformer-based_representation_learn.md)
 - [\[NeurIPS 2025\] Do-PFN: In-Context Learning for Causal Effect Estimation](../../NeurIPS2025/causal_inference/do-pfn_in-context_learning_for_causal_effect_estimation.md)
-- [\[NeurIPS 2025\] It's Hard to Be Normal: The Impact of Noise on Structure-agnostic Estimation](../../NeurIPS2025/causal_inference/its_hard_to_be_normal_the_impact_of_noise_on_structure-agnostic_estimation.md)
+- [\[NeurIPS 2025\] An Analysis of Causal Effect Estimation Using Outcome Invariant Data Augmentation](../../NeurIPS2025/causal_inference/an_analysis_of_causal_effect_estimation_using_outcome_invariant_data_augmentatio.md)
 
 <!-- RELATED:END -->

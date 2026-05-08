@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.23766](https://arxiv.org/abs/2505.23766)  
-**代码**: https://yunzeman.github.io/argus/ (项目页)  
+**代码**: [https://yunzeman.github.io/argus/](https://yunzeman.github.io/argus/) (项目页)  
 **领域**: LLM推理  
 **关键词**: 视觉链式思维, 视觉注意力接地, 多模态推理, RoI重新关注, 混合视觉专家
 

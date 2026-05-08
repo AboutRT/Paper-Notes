@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12514](https://arxiv.org/abs/2603.12514)  
 **代码**: [github.com/shivasmic/3d-trauma-detection-ssl](https://github.com/shivasmic/3d-trauma-detection-ssl)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 3D object detection, Self-Supervised Learning, Semi-Supervised Learning, Trauma Detection, VDETR
 
 ## 一句话总结

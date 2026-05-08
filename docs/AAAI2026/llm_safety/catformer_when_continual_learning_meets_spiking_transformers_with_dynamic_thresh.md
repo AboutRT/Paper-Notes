@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026 (Neuro for AI & AI for Neuro Workshop, PMLR)  
 **arXiv**: [2603.15184](https://arxiv.org/abs/2603.15184)  
 **代码**: 无  
-**领域**: 其他  
+**领域**: LLM安全  
 **关键词**: 脉冲神经网络, 持续学习, 动态阈值, 类增量学习, Vision Transformer
 
 ## 一句话总结
@@ -151,10 +151,10 @@ $$\min_{\{\phi^{(k)}, W_k\}} \mathbb{E}_{(x,y) \sim \mathcal{D}^k} [\mathcal{L}_
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Finding Structure in Continual Learning](../../NeurIPS2025/llm_safety/finding_structure_in_continual_learning.md)
+- [\[AAAI 2026\] Attention Retention for Continual Learning with Vision Transformers](attention_retention_for_continual_learning_with_vision_transformers.md)
 - [\[CVPR 2026\] Elastic Weight Consolidation Done Right for Continual Learning](../../CVPR2026/llm_safety/elastic_weight_consolidation_done_right_for_continual_learning.md)
-- [\[CVPR 2025\] Order-Robust Class Incremental Learning: Graph-Driven Dynamic Similarity Grouping](../../CVPR2025/llm_safety/order-robust_class_incremental_learning_graph-driven_dynamic_similarity_grouping.md)
-- [\[ICML 2025\] BECAME: BayEsian Continual Learning with Adaptive Model MErging](../../ICML2025/llm_safety/became_bayesian_continual_learning_with_adaptive_model_merging.md)
+- [\[NeurIPS 2025\] Finding Structure in Continual Learning](../../NeurIPS2025/llm_safety/finding_structure_in_continual_learning.md)
+- [\[AAAI 2026\] Uncovering Bias Paths with LLM-guided Causal Discovery: An Active Learning and Dynamic Scoring Approach](uncovering_bias_paths_with_llm-guided_causal_discovery_an_active_learning_and_dy.md)
 - [\[AAAI 2026\] PANDA: Patch and Distribution-Aware Augmentation for Long-Tailed Exemplar-Free Continual Learning](panda_--_patch_and_distribution-aware_augmentation_for_long-tailed_exemplar-free.md)
 
 <!-- RELATED:END -->

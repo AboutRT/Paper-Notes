@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.10128](https://arxiv.org/abs/2603.10128)  
 **代码**: [zdc233/HG-Lane](https://github.com/zdc233/HG-Lane)  
-**领域**: 车道检测 / 数据生成  
+**领域**: 自动驾驶  
 **关键词**: lane detection, adverse weather, diffusion model, ControlNet, data augmentation, CULane, TuSimple
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.13443](https://arxiv.org/abs/2412.13443)  
-**代码**: https://github.com/cidautai/DarkIR  
+**代码**: [https://github.com/cidautai/DarkIR](https://github.com/cidautai/DarkIR)  
 **领域**: 图像恢复  
 **关键词**: 低光照恢复、多任务、频域MLP、空洞注意力、高效CNN
 

@@ -21,7 +21,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2503.08677](https://arxiv.org/abs/2503.08677)  
 **代码**: [GitHub](https://github.com/yeates/OmniPaint)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: object removal, object insertion, inpainting, diffusion model, CycleFlow, FLUX, flow matching, CFD metric
 
 ## 一句话总结

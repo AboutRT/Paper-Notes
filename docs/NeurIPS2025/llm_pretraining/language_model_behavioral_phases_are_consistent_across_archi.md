@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Language Model Behavioral Phases are Consistent Across Architecture, Training Data, and Scale
 description: >-
-  [NeurIPS 2025][语言模型训练动态] 通过对超过 1,400 个语言模型检查点（涵盖 Transformer/Mamba/RWKV 三种架构、14M–12B 参数规模、两种训练数据集）在 11 万+ token 上的系统分析，发现所有自回归语言模型在预训练过程中展现出高度一致的行为阶段——预测概率依次过拟合到递增阶数的 n-gram 概率，且词频、n-gram 概率和语义相似度三个简单启发式可解释高达 98% 的行为方差。
+  [NeurIPS 2025][LLM预训练] 通过对超过 1,400 个语言模型检查点（涵盖 Transformer/Mamba/RWKV 三种架构、14M–12B 参数规模、两种训练数据集）在 11 万+ token 上的系统分析，发现所有自回归语言模型在预训练过程中展现出高度一致的行为阶段——预测概率依次过拟合到递增阶数的 n-gram 概率，且词频、n-gram 概率和语义相似度三个简单启发式可解释高达 98% 的行为方差。
 tags:
   - NeurIPS 2025
-  - 语言模型训练动态
+  - LLM预训练
   - n-gram行为阶段
   - 跨架构一致性
   - 预训练分析
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24963](https://arxiv.org/abs/2510.24963)  
-**代码**: https://github.com/jmichaelov/lm-behavioral-phases  
+**代码**: [https://github.com/jmichaelov/lm-behavioral-phases](https://github.com/jmichaelov/lm-behavioral-phases)  
 **领域**: LLM预训练  
 **关键词**: 语言模型训练动态, n-gram行为阶段, 跨架构一致性, 预训练分析, 语义相似度
 
@@ -137,9 +137,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Nemotron-CLIMB: CLustering-based Iterative Data Mixture Bootstrapping for Language Model Pre-training](nemotron-climb_clustering-based_iterative_data_mixture_bootstrapping_for_languag.md)
-- [\[NeurIPS 2025\] Memory Mosaics at Scale](memory_mosaics_at_scale.md)
 - [\[NeurIPS 2025\] Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training](through_the_river_understanding_the_benefit_of_schedule-free_methods_for_languag.md)
-- [\[NeurIPS 2025\] Final-Model-Only Data Attribution with a Unifying View of Gradient-Based Methods](final-model-only_data_attribution_with_a_unifying_view_of_gradient-based_methods.md)
 - [\[NeurIPS 2025\] Learning to Flow from Generative Pretext Tasks for Neural Architecture Encoding](learning_to_flow_from_generative_pretext_tasks_for_neural_architecture_encoding.md)
+- [\[NeurIPS 2025\] Scalable Fingerprinting of Large Language Models](scalable_fingerprinting_of_large_language_models.md)
+- [\[NeurIPS 2025\] Scaling Embedding Layers in Language Models](scaling_embedding_layers_in_language_models.md)
 
 <!-- RELATED:END -->

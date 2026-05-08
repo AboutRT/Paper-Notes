@@ -148,10 +148,10 @@ SyncOOD 包含两个核心阶段：(1) **OOD 数据合成**——利用基础模
 
 ## 相关论文
 
-- [\[ECCV 2024\] On Calibration of Object Detectors: Pitfalls, Evaluation and Baselines](on_calibration_of_object_detectors_pitfalls_evaluation_and_baselines.md)
-- [\[CVPR 2025\] Interpreting Object-level Foundation Models via Visual Precision Search](../../CVPR2025/object_detection/interpreting_object-level_foundation_models_via_visual_precision_search.md)
 - [\[ECCV 2024\] YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](yolov9_learning_what_you_want_to_learn_using_programmable_gradient_information.md)
-- [\[ECCV 2024\] Implicit Concept Removal of Diffusion Models](implicit_concept_removal_of_diffusion_models.md)
-- [\[NeurIPS 2025\] Preference Learning with Lie Detectors can Induce Honesty or Evasion](../../NeurIPS2025/object_detection/preference_learning_with_lie_detectors_can_induce_honesty_or_evasion.md)
+- [\[CVPR 2025\] Interpreting Object-level Foundation Models via Visual Precision Search](../../CVPR2025/object_detection/interpreting_object-level_foundation_models_via_visual_precision_search.md)
+- [\[ECCV 2024\] On Calibration of Object Detectors: Pitfalls, Evaluation and Baselines](on_calibration_of_object_detectors_pitfalls_evaluation_and_baselines.md)
+- [\[ACL 2026\] Retrievals Can Be Detrimental: Unveiling the Backdoor Vulnerability of Retrieval-Augmented Diffusion Models](../../ACL2026/object_detection/retrievals_can_be_detrimental_unveiling_the_backdoor_vulnerability_of_retrieval-.md)
+- [\[ECCV 2024\] Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection](weak-to-strong_compositional_learning_from_generative_models_for_language-based_.md)
 
 <!-- RELATED:END -->

@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.12345](https://arxiv.org/abs/2407.12345)  
-**代码**: https://moonseokha.github.io/VisionTrap  
-**领域**: LLM/NLP  
+**代码**: [https://moonseokha.github.io/VisionTrap](https://moonseokha.github.io/VisionTrap)  
+**领域**: 自动驾驶  
 **关键词**: 轨迹预测, 视觉语义, 文本引导, 自动驾驶, 多模态对比学习
 
 ## 一句话总结

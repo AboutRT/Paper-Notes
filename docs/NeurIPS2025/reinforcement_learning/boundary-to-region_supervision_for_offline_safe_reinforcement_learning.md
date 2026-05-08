@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.00423](https://arxiv.org/abs/2511.00423)  
 **代码**: [molumitu/BOOM_MBRL](https://github.com/molumitu/BOOM_MBRL)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 基于模型的强化学习, online planning, 离策略学习, actor divergence, 世界模型, MPPI
 
 ## 一句话总结
@@ -137,9 +137,9 @@ BOOM 在 H-Bench 全部 7 个任务上均为最优，平均 TAR 820.6 较 Dreame
 ## 相关论文
 
 - [\[NeurIPS 2025\] Bootstrap Off-policy with World Model (BOOM)](bootstrap_off-policy_with_world_model.md)
+- [\[NeurIPS 2025\] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](succeed_or_learn_slowly_sample_efficient_off-policy_reinforcement_learning_for_m.md)
 - [\[NeurIPS 2025\] Foundation Models as World Models: A Foundational Study in Text-Based GridWorlds](foundation_models_as_world_models_a_foundational_study_in_text-based_gridworlds.md)
 - [\[NeurIPS 2025\] Learning Interactive World Model for Object-Centric Reinforcement Learning](learning_interactive_world_model_for_object-centric_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination with Embodied World Models](communicating_plans_not_percepts_scalable_multi-agent_coordination_with_embodied.md)
-- [\[NeurIPS 2025\] The Physical Basis of Prediction: World Model Formation in Neural Organoids via an LLM-Generated Curriculum](the_physical_basis_of_prediction_world_model_formation_in_neural_organoids_via_a.md)
 
 <!-- RELATED:END -->

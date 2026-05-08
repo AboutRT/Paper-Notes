@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - situational awareness
-  - AI safety
+  - 可解释性
   - logical reasoning
   - deceptive alignment
   - RAISE framework
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.09200](https://arxiv.org/abs/2603.09200)  
 **代码**: 无  
-**领域**: llm_reasoning  
+**领域**: 可解释性  
 **关键词**: situational awareness, AI safety, logical reasoning, deceptive alignment, RAISE framework
 
 ## 一句话总结
@@ -150,8 +150,8 @@ RAISE（Reasoning Advancing Into Self Examination）框架基于一个基础观�
 
 - [\[ICLR 2026\] The Reasoning Trap — Logical Reasoning as a Mechanistic Pathway to Situational Awareness](the_reasoning_trap_--_logical_reasoning_as_a_mechanistic_pathway_to_situational_.md)
 - [\[ICLR 2026\] ActivationReasoning: Logical Reasoning in Latent Activation Spaces](activationreasoning_logical_reasoning_in_latent_activation_spaces.md)
-- [\[ICLR 2026\] Modal Logical Neural Networks for Financial AI](modal_logical_neural_networks_for_financial_ai.md)
 - [\[ICLR 2026\] When Thinking Backfires: Mechanistic Insights Into Reasoning-Induced Misalignment](when_thinking_backfires_mechanistic_insights_into_reasoning-induced_misalignment.md)
 - [\[ICLR 2026\] RADAR: Reasoning-Ability and Difficulty-Aware Routing for Reasoning LLMs](radar_reasoning-ability_and_difficulty-aware_routing_for_reasoning_llms.md)
+- [\[ICLR 2026\] Dynamic Reflections: Probing Video Representations with Text-Driven Reasoning](dynamic_reflections_probing_video_representations_with_text_driven_reasoning.md)
 
 <!-- RELATED:END -->

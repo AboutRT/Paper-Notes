@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.03734](https://arxiv.org/abs/2510.03734)  
 **代码**: 随论文提供（supplementary）  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: fairness audit, partial feedback, equalized odds, rejection sampling, exponential family mixture  
 
 ## 一句话总结
@@ -163,7 +163,7 @@ $$\text{cost} \leq \widetilde{O}\left(\sum_{a \in \mathcal{A}} \left(\frac{c_{fe
 - [\[NeurIPS 2025\] Fairness under Competition](fairness_under_competition.md)
 - [\[NeurIPS 2025\] Efficient Fairness-Performance Pareto Front Computation](efficient_fairness-performance_pareto_front_computation.md)
 - [\[ICML 2025\] Accelerating Spectral Clustering under Fairness Constraints](../../ICML2025/ai_safety/accelerating_spectral_clustering_under_fairness_constraints.md)
-- [\[NeurIPS 2025\] InvisibleInk: High-Utility and Low-Cost Text Generation with Differential Privacy](invisibleink_high-utility_and_low-cost_text_generation_with_differential_privacy.md)
+- [\[NeurIPS 2025\] FLUX: Efficient Descriptor-Driven Clustered Federated Learning under Arbitrary Distribution Shifts](flux_efficient_descriptor-driven_clustered_federated_learning_under_arbitrary_di.md)
 - [\[NeurIPS 2025\] Matchings Under Biased and Correlated Evaluations](matchings_under_biased_and_correlated_evaluations.md)
 
 <!-- RELATED:END -->

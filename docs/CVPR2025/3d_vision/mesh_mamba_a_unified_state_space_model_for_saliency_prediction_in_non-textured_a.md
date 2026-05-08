@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.01466](https://arxiv.org/abs/2504.01466)  
-**代码**: https://github.com/kaviezhang/MeshMamba (有)  
+**代码**: [https://github.com/kaviezhang/MeshMamba](https://github.com/kaviezhang/MeshMamba)  
 **领域**: 3D视觉  
 **关键词**: 网格显著性, 状态空间模型, Mamba, 纹理对齐, 子图嵌入
 

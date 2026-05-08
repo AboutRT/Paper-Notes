@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Lost in Translation, Found in Context: Sign Language Translation with Contextual Cues
 description: >-
-  [CVPR 2025][LLM/NLP][手语翻译] 通过引入背景视频描述、历史翻译和伪词汇表三种上下文线索，结合Llama3-8B的LoRA微调，实现了连续手语到文本的精确翻译，在BOBSL数据集上相比SOTA提升40%以上。
+  [CVPR 2025][LLM预训练][手语翻译] 通过引入背景视频描述、历史翻译和伪词汇表三种上下文线索，结合Llama3-8B的LoRA微调，实现了连续手语到文本的精确翻译，在BOBSL数据集上相比SOTA提升40%以上。
 tags:
   - CVPR 2025
-  - LLM/NLP
+  - LLM预训练
   - 手语翻译
   - 上下文学习
   - LLM微调
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.09754](https://arxiv.org/abs/2501.09754)  
-**代码**: https://www.robots.ox.ac.uk/~vgg/research/litfic/ (有)  
-**领域**: 手语翻译 / 多模态学习  
+**代码**: [https://www.robots.ox.ac.uk/~vgg/research/litfic/](https://www.robots.ox.ac.uk/~vgg/research/litfic/)  
+**领域**: LLM预训练  
 **关键词**: 手语翻译、上下文学习、LLM微调、多模态融合、伪词汇表
 
 ## 一句话总结
@@ -96,10 +96,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](../../NeurIPS2025/llm_pretraining/ricl_temporal_credit.md)
+- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](../../NeurIPS2025/llm_pretraining/retrospective_incontext_learning_for_temporal_credit_assignm.md)
+- [\[NeurIPS 2025\] The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation](../../NeurIPS2025/llm_pretraining/the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md)
 - [\[ACL 2026\] SAGE: Sign-Adaptive Gradient for Memory-Efficient LLM Optimization](../../ACL2026/llm_pretraining/sage_sign-adaptive_gradient_for_memory-efficient_llm_optimization.md)
-- [\[ICML 2025\] In-Context Adaptation to Concept Drift for Learned Database Operations](../../ICML2025/llm_pretraining/in-context_adaptation_to_concept_drift_for_learned_database_operations.md)
 - [\[ICML 2025\] When Can In-Context Learning Generalize Out of Task Distribution?](../../ICML2025/llm_pretraining/when_can_in-context_learning_generalize_out_of_task_distribution.md)
-- [\[CVPR 2025\] The Scene Language: Representing Scenes with Programs, Words, and Embeddings](the_scene_language_representing_scenes_with_programs_words_and_embeddings.md)
+- [\[ICML 2025\] In-Context Adaptation to Concept Drift for Learned Database Operations](../../ICML2025/llm_pretraining/in-context_adaptation_to_concept_drift_for_learned_database_operations.md)
 
 <!-- RELATED:END -->

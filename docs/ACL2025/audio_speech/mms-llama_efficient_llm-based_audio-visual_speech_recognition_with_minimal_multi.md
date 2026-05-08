@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.11315](https://arxiv.org/abs/2503.11315)  
-**代码**: https://github.com/JeongHun0716/MMS-LLaMA (有)  
+**代码**: [https://github.com/JeongHun0716/MMS-LLaMA](https://github.com/JeongHun0716/MMS-LLaMA)  
 **领域**: 语音  
 **关键词**: 音视频语音识别, LLM语音识别, Token压缩, Q-Former, 语速预测
 

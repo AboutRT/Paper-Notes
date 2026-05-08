@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL
 description: >-
-  [CVPR 2026][多智能体强化学习] 首个在物理仿真中实现接触式人-人辅助行为模仿学习的多智能体RL框架，通过运动先验初始化、动态参考重定向和接触促进奖励使MARL在高接触设置中可行。
+  [CVPR 2026][其他] 首个在物理仿真中实现接触式人-人辅助行为模仿学习的多智能体RL框架，通过运动先验初始化、动态参考重定向和接触促进奖励使MARL在高接触设置中可行。
 tags:
   - CVPR 2026
-  - 多智能体强化学习
+  - 其他
   - 物理仿真
   - 辅助行为
   - 运动模仿
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.11346](https://arxiv.org/abs/2603.11346)  
 **代码**: [项目页](https://yutoshibata07.github.io/AssistMimic/)  
-**领域**: 具身智能 / 人形机器人控制  
+**领域**: 其他  
 **关键词**: 多智能体强化学习, 物理仿真, 辅助行为, 运动模仿, 接触式交互  
 
 ## 一句话总结
@@ -115,10 +115,10 @@ tags:
 
 ## 相关论文
 
-- [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](../../AAAI2026/others/local_guidance_for_configuration-based_multi-agent_pathfinding.md)
 - [\[AAAI 2026\] Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit](../../AAAI2026/others/area-optimal_control_strategies_for_heterogeneous_multi-agen.md)
-- [\[ACL 2025\] Multi-Agent Collaboration via Cross-Team Orchestration](../../ACL2025/others/multi-agent_collaboration_via_cross-team_orchestration.md)
-- [\[ACL 2025\] Voting or Consensus? Decision-Making in Multi-Agent Debate](../../ACL2025/others/voting_or_consensus_decision-making_in_multi-agent_debate.md)
-- [\[ACL 2025\] Preventing Rogue Agents Improves Multi-Agent Collaboration](../../ACL2025/others/preventing_rogue_agents_improves_multi-agent_collaboration.md)
+- [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](../../AAAI2026/others/local_guidance_for_configuration-based_multi-agent_pathfinding.md)
+- [\[ICLR 2026\] Completing Missing Annotation: Multi-Agent Debate for Accurate and Scalable Relevance Assessment](../../ICLR2026/others/completing_missing_annotation_multi-agent_debate_for_accurate_and_scalable_relev.md)
+- [\[NeurIPS 2025\] MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](../../NeurIPS2025/others/maszero_designing_multiagent_systems_with_zero_supervision.md)
+- [\[AAAI 2026\] Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents](../../AAAI2026/others/symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)
 
 <!-- RELATED:END -->

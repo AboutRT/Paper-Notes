@@ -19,7 +19,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.20417](https://arxiv.org/abs/2602.20417)  
-**代码**: https://github.com/Aryan-Garg/gQIR  
+**代码**: [https://github.com/Aryan-Garg/gQIR](https://github.com/Aryan-Garg/gQIR)  
 **领域**: 图像生成 / 计算成像  
 **关键词**: 单光子成像, SPAD, 扩散模型, 去噪去马赛克, 低光重建, VAE对齐, burst融合
 

@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.09607](https://arxiv.org/abs/2412.09607)  
 **作者**: Carlos Esteves, Mohammed Suhail, Ameesh Makadia (Google Research)
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: image tokenizer, discrete wavelet transform, autoregressive generation, coarse-to-fine, multiscale, VQ-VAE
 
 ## 一句话总结

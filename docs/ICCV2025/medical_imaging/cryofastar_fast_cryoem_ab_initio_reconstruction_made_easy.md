@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.05864](https://arxiv.org/abs/2506.05864)  
 **代码**: 无  
-**领域**: 3D视觉 / 计算生物学  
+**领域**: 医学图像  
 **关键词**: cryo-EM, ab initio reconstruction, geometric foundation model, pose estimation, Fourier planar map
 
 ## 一句话总结
@@ -154,8 +154,8 @@ $$\mathcal{L}_{3D} = \sum_{i=1}^{N} C_{i,1} \| \bar{X}_{i,1} - X_{i,1} \|_2 - \a
 
 - [\[ICCV 2025\] NEURONS: Emulating the Human Visual Cortex Improves Fidelity and Interpretability in fMRI-to-Video Reconstruction](neurons_emulating_the_human_visual_cortex_improves_fidelity_and_interpretability.md)
 - [\[ICCV 2025\] GDKVM: Echocardiography Video Segmentation via Spatiotemporal Key-Value Memory with Gated Delta Rule](gdkvm_echocardiography_video_segmentation_via_spatiotemporal_key-value_memory_wi.md)
-- [\[ICCV 2025\] Predict-Optimize-Distill: A Self-Improving Cycle for 4D Object Understanding](predict-optimize-distill_a_self-improving_cycle_for_4d_object_understanding.md)
-- [\[ICCV 2025\] HRScene: How Far Are VLMs from Effective High-Resolution Image Understanding?](hrscene_how_far_are_vlms_from_effective_high-resolution_image_understanding.md)
-- [\[ICCV 2025\] SciVid: Cross-Domain Evaluation of Video Models in Scientific Applications](scivid_cross-domain_evaluation_of_video_models_in_scientific_applications.md)
+- [\[ICCV 2025\] Controllable Latent Space Augmentation for Digital Pathology](controllable_latent_space_augmentation_for_digital_pathology.md)
+- [\[ICCV 2025\] MultiverSeg: Scalable Interactive Segmentation of Biomedical Imaging Datasets with In-Context Guidance](multiverseg_scalable_interactive_segmentation_of_biomedical_imaging_datasets_wit.md)
+- [\[ICCV 2025\] Semi-supervised Deep Transfer for Regression without Domain Alignment](semi-supervised_deep_transfer_for_regression_without_domain_alignment.md)
 
 <!-- RELATED:END -->

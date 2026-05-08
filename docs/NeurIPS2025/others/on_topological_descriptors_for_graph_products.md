@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.08846](https://arxiv.org/abs/2511.08846)  
 **代码**: [GitHub](https://github.com/Aalto-QuML/tda_graph_product)  
-**领域**: 图学习 / 拓扑数据分析  
+**领域**: 其他  
 **关键词**: topological descriptors, graph products, Euler characteristic, persistent homology, graph classification
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[NeurIPS 2025\] Graph Alignment via Birkhoff Relaxation](graph_alignment_via_birkhoff_relaxation.md)
 - [\[AAAI 2026\] A Topological Rewriting of Tarski's Mereogeometry](../../AAAI2026/others/a_topological_rewriting_of_tarskis_mereogeometry.md)
-- [\[NeurIPS 2025\] Semi-supervised Graph Anomaly Detection via Robust Homophily Learning](semi-supervised_graph_anomaly_detection_via_robust_homophily_learning.md)
 - [\[NeurIPS 2025\] Redundancy-Aware Test-Time Graph Out-of-Distribution Detection](redundancy-aware_test-time_graph_out-of-distribution_detection.md)
+- [\[NeurIPS 2025\] Semi-supervised Graph Anomaly Detection via Robust Homophily Learning](semi-supervised_graph_anomaly_detection_via_robust_homophily_learning.md)
 - [\[ICCV 2025\] A Hyperdimensional One Place Signature to Represent Them All: Stackable Descriptors For Visual Place Recognition](../../ICCV2025/others/a_hyperdimensional_one_place_signature_to_represent_them_all_stackable_descripto.md)
 
 <!-- RELATED:END -->

@@ -54,38 +54,38 @@ MMAssist 基于 teacher-student 自训练框架（DTS），包含两个阶段：
 1. **跨域特征对齐（以图像/文本为桥梁）**
 
    对每个 3D 标注框（GT 或伪标签），通过相机内外参投影到 2D 图像平面，得到 2D 框。然后：
-   - **图像特征**：用 RoIAlign 从预训练 GroundingDINO 骨干提取 2D 框的图像特征 $\mathbf{f}_i^{img} \in \mathbb{R}^{C^{img}}$
-   - **文本特征**：用 LLaVA 生成目标的文本描述（"There is a {class} in the area ..., please describe the characteristics"），再用 SLIP 文本编码器提取文本特征 $\mathbf{f}_i^{text} \in \mathbb{R}^{C^{text}}$
+    - **图像特征**：用 RoIAlign 从预训练 GroundingDINO 骨干提取 2D 框的图像特征 $\mathbf{f}_i^{img} \in \mathbb{R}^{C^{img}}$
+    - **文本特征**：用 LLaVA 生成目标的文本描述（"There is a {class} in the area ..., please describe the characteristics"），再用 SLIP 文本编码器提取文本特征 $\mathbf{f}_i^{text} \in \mathbb{R}^{C^{text}}$
 
    对检测器预测的 3D 框，提取其 3D 特征后通过 MLP 映射到图像和文本空间，与对应的图像/文本特征对齐。
 
    **图像对齐损失**（对比学习风格，拉近正样本、推远背景）：
-   $$\mathcal{L}_{align}^{img} = \frac{1}{L'}\sum_{i=1}^{L'}\max\left(\frac{1}{N^{bg}}\sum_{j=1}^{N^{bg}}\text{sim}(\hat{\mathbf{f}}_i^{img}, \mathbf{g}_j^{bg}) - \text{sim}(\hat{\mathbf{f}}_i^{img}, \hat{\mathbf{g}}_i^{img}) + \sigma, 0\right)$$
+    $\mathcal{L}_{align}^{img} = \frac{1}{L'}\sum_{i=1}^{L'}\max\left(\frac{1}{N^{bg}}\sum_{j=1}^{N^{bg}}\text{sim}(\hat{\mathbf{f}}_i^{img}, \mathbf{g}_j^{bg}) - \text{sim}(\hat{\mathbf{f}}_i^{img}, \hat{\mathbf{g}}_i^{img}) + \sigma, 0\right)$
 
    **文本对齐损失**（余弦相似度）：
-   $$\mathcal{L}_{align}^{text} = \frac{1}{L'}\sum_{i=1}^{L'}\left(1 - \text{sim}(\hat{\mathbf{f}}_i^{text}, \hat{\mathbf{g}}_i^{text})\right)$$
+    $\mathcal{L}_{align}^{text} = \frac{1}{L'}\sum_{i=1}^{L'}\left(1 - \text{sim}(\hat{\mathbf{f}}_i^{text}, \hat{\mathbf{g}}_i^{text})\right)$
 
    **设计动机**：在源域和目标域分别进行 3D-图像/文本对齐，由于图像和文本特征的跨域一致性好，3D 特征也被间接拉近，实现了跨域的隐式对齐。
 
 2. **多模态特征融合**
 
    将 3D 特征、图像对齐特征和文本对齐特征融合用于最终预测：
-   - 先用 MLP 统一三者维度
-   - 将三者拼接输入另一个 MLP 学习权重向量 $\mathbf{w} \in \mathbb{R}^3$
-   - 加权融合：$\mathbf{f}^{fused} = \mathbf{w}_0 \mathbf{f}^{3D} + \mathbf{w}_1 \mathbf{f}^{img} + \mathbf{w}_2 \mathbf{f}^{text}$
+    - 先用 MLP 统一三者维度
+    - 将三者拼接输入另一个 MLP 学习权重向量 $\mathbf{w} \in \mathbb{R}^3$
+    - 加权融合：$\mathbf{f}^{fused} = \mathbf{w}_0 \mathbf{f}^{3D} + \mathbf{w}_1 \mathbf{f}^{img} + \mathbf{w}_2 \mathbf{f}^{text}$
 
    融合特征用于 PV-RCNN 的第二阶段 refined、PointPillar 的检测 refined、SECOND-IoU 的 IoU 预测。
 
 3. **Student-Teacher 3D 特征对齐**
 
    在自训练阶段，额外对齐 student 和 teacher 模型预测的匹配框的 3D 特征：
-   $$\mathcal{L}_{ST} = \frac{1}{G}\sum_{i=1}^{G}\left(1 - \text{sim}(\hat{\mathbf{f}}_i^S, \hat{\mathbf{f}}_i^T)\right)$$
+    $\mathcal{L}_{ST} = \frac{1}{G}\sum_{i=1}^{G}\left(1 - \text{sim}(\hat{\mathbf{f}}_i^S, \hat{\mathbf{f}}_i^T)\right)$
 
 4. **基于 2D 检测的伪标签增强**
 
    使用 GroundingDINO 在目标域图像上检测 2D 框，再通过几何推理提升到 3D 空间。基于两个条件筛选新伪标签：
-   - **距离条件**：仅保留距离 ≥ τ（30m）的远距离 3D 框
-   - **重叠条件**：与 teacher 伪标签的 IoU ≤ ξ（0.5），避免重复
+    - **距离条件**：仅保留距离 ≥ τ（30m）的远距离 3D 框
+    - **重叠条件**：与 teacher 伪标签的 IoU ≤ ξ（0.5），避免重复
 
    最终伪标签 = teacher 伪标签 ∪ 图像新增伪标签。
 
@@ -171,7 +171,7 @@ MMAssist 基于 teacher-student 自训练框架（DTS），包含两个阶段：
 - [\[CVPR 2026\] CLIPoint3D: Language-Grounded Few-Shot Unsupervised 3D Point Cloud Domain Adaptation](../../CVPR2026/3d_vision/clipoint3d_language-grounded_few-shot_unsupervised_3d_point_cloud_domain_adaptat.md)
 - [\[CVPR 2026\] QD-PCQA: Quality-Aware Domain Adaptation for Point Cloud Quality Assessment](../../CVPR2026/3d_vision/qd-pcqa_quality-aware_domain_adaptation_for_point_cloud_quality_assessment.md)
 - [\[AAAI 2026\] DAPointMamba: Domain Adaptive Point Mamba for Point Cloud Completion](dapointmamba_domain_adaptive_point_mamba_for_point_cloud_completion.md)
-- [\[AAAI 2026\] Exploring Surround-View Fisheye Camera 3D Object Detection](exploring_surround-view_fisheye_camera_3d_object_detection.md)
 - [\[AAAI 2026\] Distilling Future Temporal Knowledge with Masked Feature Reconstruction for 3D Object Detection](distilling_future_temporal_knowledge_with_masked_feature_reconstruction_for_3d_o.md)
+- [\[ECCV 2024\] Progressive Classifier and Feature Extractor Adaptation for Unsupervised Domain Adaptation on Point Clouds](../../ECCV2024/3d_vision/progressive_classifier_and_feature_extractor_adaptation_for_unsupervised_domain_.md)
 
 <!-- RELATED:END -->

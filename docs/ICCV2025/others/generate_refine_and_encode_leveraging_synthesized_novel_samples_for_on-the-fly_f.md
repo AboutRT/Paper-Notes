@@ -9,7 +9,7 @@ tags:
   - 扩散模型
   - 属性组合生成
   - 细粒度识别
-  - 在线聚类推理
+  - 其他
 ---
 
 # Generate, Refine, and Encode: Leveraging Synthesized Novel Samples for On-the-Fly Fine-Grained Category Discovery
@@ -198,9 +198,9 @@ $$\mathcal{L} = \mathcal{L}_{sup} + \mathcal{L}_{reg} + \alpha \cdot \mathcal{L}
 ## 相关论文
 
 - [\[ICCV 2025\] A Hidden Stumbling Block in Generalized Category Discovery: Distracted Attention](a_hidden_stumbling_block_in_generalized_category_discovery_d.md)
-- [\[CVPR 2025\] MOS: Modeling Object-Scene Associations in Generalized Category Discovery](../../CVPR2025/others/mos_modeling_object-scene_associations_in_generalized_category_discovery.md)
-- [\[CVPR 2025\] AnomalyNCD: Towards Novel Anomaly Class Discovery in Industrial Scenarios](../../CVPR2025/others/anomalyncd_towards_novel_anomaly_class_discovery_in_industrial_scenarios.md)
-- [\[ICML 2025\] On Fine-Grained Distinct Element Estimation](../../ICML2025/others/on_fine-grained_distinct_element_estimation.md)
+- [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
 - [\[ACL 2025\] ChartLens: Fine-Grained Visual Attribution in Charts](../../ACL2025/others/chartlens_fine-grained_visual_attribution_in_charts.md)
+- [\[ACL 2025\] FRACTAL: Fine-Grained Scoring from Aggregate Text Labels](../../ACL2025/others/fractal_fine-grained_scoring_from_aggregate_text_labels.md)
+- [\[ICML 2025\] On Fine-Grained Distinct Element Estimation](../../ICML2025/others/on_fine-grained_distinct_element_estimation.md)
 
 <!-- RELATED:END -->

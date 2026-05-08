@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.07098](https://arxiv.org/abs/2503.07098)  
-**代码**: https://github.com/Ding-Zhong/OmniSAM  
-**领域**: segmentation  
+**代码**: [https://github.com/Ding-Zhong/OmniSAM](https://github.com/Ding-Zhong/OmniSAM)  
+**领域**: 图像分割  
 **关键词**: panoramic segmentation, SAM2, unsupervised domain adaptation, prototypical adaptation, pseudo label
 
 ## 一句话总结
@@ -151,8 +151,8 @@ OmniSAM 框架包含以下关键组件：
 
 - [\[CVPR 2025\] SAM2-LOVE: Segment Anything Model 2 in Language-Aided Audio-Visual Scenes](../../CVPR2025/segmentation/sam2-love_segment_anything_model_2_in_language-aided_audio-visual_scenes.md)
 - [\[AAAI 2026\] Segment and Matte Anything in a Unified Model (SAMA)](../../AAAI2026/segmentation/segment_and_matte_anything_in_a_unified_model.md)
-- [\[ICCV 2025\] E-SAM: Training-Free Segment Every Entity Model](e-sam_training-free_segment_every_entity_model.md)
 - [\[ICML 2025\] InfoSAM: Fine-Tuning the Segment Anything Model from An Information-Theoretic Perspective](../../ICML2025/segmentation/infosam_fine-tuning_the_segment_anything_model_from_an_information-theoretic_per.md)
+- [\[ICCV 2025\] E-SAM: Training-Free Segment Every Entity Model](e-sam_training-free_segment_every_entity_model.md)
 - [\[AAAI 2026\] SAQ-SAM: Semantically-Aligned Quantization for Segment Anything Model](../../AAAI2026/segmentation/saq-sam_semantically-aligned_quantization_for_segment_anything_model.md)
 
 <!-- RELATED:END -->

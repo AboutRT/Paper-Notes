@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27970](https://arxiv.org/abs/2603.27970)  
-**代码**: [Project Page](https://aioz-ai.github.io/AffordMatcher/) (有)  
+**代码**: [Project Page](https://aioz-ai.github.io/AffordMatcher/)  
 **领域**: 3D Vision / Scene Understanding  
 **关键词**: 可供性学习, 3D 场景理解, 视觉信号, 跨模态对齐, 零样本分割
 

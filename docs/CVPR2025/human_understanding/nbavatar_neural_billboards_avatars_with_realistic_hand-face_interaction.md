@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12063](https://arxiv.org/abs/2603.12063)  
 **代码**: [Project Page](https://david-svitov.github.io/NBAvatar_project_page)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: head avatar, hand-face interaction, neural rendering, billboard splatting, deferred neural rendering
 
 ## 一句话总结
@@ -135,9 +135,9 @@ SSIM 更高，但 PSNR 低于 IA（预处理差异导致）。定性对比显示
 ## 相关论文
 
 - [\[ICCV 2025\] Dynamic Reconstruction of Hand-Object Interaction with Distributed Force-aware Contact Representation](../../ICCV2025/human_understanding/dynamic_reconstruction_of_hand-object_interaction_with_distributed_force-aware_c.md)
-- [\[CVPR 2025\] DualTalk: Dual-Speaker Interaction for 3D Talking Head Conversations](dualtalk_dual-speaker_interaction_for_3d_talking_head_conversations.md)
 - [\[CVPR 2025\] UniHOPE: A Unified Approach for Hand-Only and Hand-Object Pose Estimation](unihope_a_unified_approach_for_hand-only_and_hand-object_pose_estimation.md)
+- [\[CVPR 2025\] VI3NR: Variance Informed Initialization for Implicit Neural Representations](vi3nr_variance_informed_initialization_for_implicit_neural_representations.md)
 - [\[CVPR 2025\] GaussianIP: Identity-Preserving Realistic 3D Human Generation via Human-Centric Diffusion Prior](gaussianip_identity-preserving_realistic_3d_human_generation_via_human-centric_d.md)
-- [\[CVPR 2025\] WildAvatar: Learning In-the-Wild 3D Avatars from the Web](wildavatar_learning_in-the-wild_3d_avatars_from_the_web.md)
+- [\[CVPR 2025\] FreeUV: Ground-Truth-Free Realistic Facial UV Texture Recovery via Cross-Assembly](freeuv_ground-truth-free_realistic_facial_uv_texture_recovery_via_cross-assembly.md)
 
 <!-- RELATED:END -->

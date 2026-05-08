@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.05393](https://arxiv.org/abs/2604.05393)  
-**代码**: [项目页](https://hahajun1101.github.io/OACIR/) (有)  
+**代码**: [项目页](https://hahajun1101.github.io/OACIR/)  
 **领域**: 目标检测/图像检索  
 **关键词**: 组合图像检索, 实例级一致性, 注意力调制, 细粒度检索, 视觉锚定
 
@@ -116,10 +116,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2026\] TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval](../../ACL2026/object_detection/tema_anchor_the_image_follow_the_text_for_multi-modification_composed_image_retr.md)
 - [\[CVPR 2026\] Beyond Caption-Based Queries for Video Moment Retrieval](beyond_caption-based_queries_for_video_moment_retrieval.md)
 - [\[ECCV 2024\] Spherical Linear Interpolation and Text-Anchoring for Zero-shot Composed Image Retrieval](../../ECCV2024/object_detection/spherical_linear_interpolation_and_text-anchoring_for_zero-shot_composed_image_r.md)
-- [\[AAAI 2026\] Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces](../../AAAI2026/object_detection/beyond_fact_retrieval_episodic_memory_for_rag_with_generative_semantic_workspace.md)
-- [\[CVPR 2026\] SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](slice_semantic_latent_injection_via_compartmentalized_embedding_for_image_waterm.md)
+- [\[CVPR 2026\] Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](parameter-efficient_semantic_augmentation_for_enhancing_open-vocabulary_object_d.md)
+- [\[CVPR 2026\] Beyond Prompt Degradation: Prototype-Guided Dual-Pool Prompting for Incremental Object Detection](beyond_prompt_degradation_prototype-guided_dual-pool_prompting_for_incremental_o.md)
+- [\[CVPR 2026\] MRD: Multi-resolution Retrieval-Detection Fusion for High-Resolution Image Understanding](mrd_multi-resolution_retrieval-detection_fusion_for_high-resolution_image_unders.md)
 
 <!-- RELATED:END -->

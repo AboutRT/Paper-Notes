@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.07399](https://arxiv.org/abs/2604.07399)  
-**代码**: [https://github.com/laymond1/cps-prompt](https://github.com/laymond1/cps-prompt) (有)  
+**代码**: [https://github.com/laymond1/cps-prompt](https://github.com/laymond1/cps-prompt)  
 **领域**: 模型压缩 / 持续学习  
 **关键词**: 持续学习, 边缘设备, Prompt-based CL, Token Reduction, 训练效率
 
@@ -134,7 +134,7 @@ CPS-Prompt 沿用 PCL 标准两阶段架构：(1) 冻结 query encoder $f_q$ 前
 
 - [\[NeurIPS 2025\] REP: Resource-Efficient Prompting for Rehearsal-Free Continual Learning](../../NeurIPS2025/model_compression/rep_resource-efficient_prompting_for_rehearsal-free_continual_learning.md)
 - [\[CVPR 2026\] MEMO: Human-like Crisp Edge Detection Using Masked Edge Prediction](memo_human-like_crisp_edge_detection_using_masked_edge_prediction.md)
-- [\[CVPR 2026\] CHEEM: Continual Learning by Reuse, New, Adapt and Skip -- A Hierarchical Exploration-Exploitation Approach](cheem_continual_learning_by_reuse_new_adapt_and_skip_--_a_hierarchical_explorati.md)
+- [\[ICLR 2026\] FASA: Frequency-aware Sparse Attention](../../ICLR2026/model_compression/fasa_frequency-aware_sparse_attention.md)
 - [\[ICLR 2026\] IDER: IDempotent Experience Replay for Reliable Continual Learning](../../ICLR2026/model_compression/ider_idempotent_experience_replay_for_reliable_continual_learning.md)
 - [\[ICLR 2026\] Rethinking Continual Learning with Progressive Neural Collapse](../../ICLR2026/model_compression/rethinking_continual_learning_with_progressive_neural_collapse.md)
 

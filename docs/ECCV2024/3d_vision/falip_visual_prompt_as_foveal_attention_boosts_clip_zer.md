@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.05578](https://arxiv.org/abs/2407.05578)  
-**代码**: https://pumpkin805.github.io/FALIP/  
-**领域**: LLM/NLP  
+**代码**: [https://pumpkin805.github.io/FALIP/](https://pumpkin805.github.io/FALIP/)  
+**领域**: 3D视觉  
 **关键词**: CLIP, 零样本学习, 视觉提示, 注意力机制, 区域感知
 
 ## 一句话总结
@@ -144,6 +144,6 @@ With Ensemble + Post-processing：FALIP 超越现有方法约 3%。
 - [\[ECCV 2024\] ZeST: Zero-Shot Material Transfer from a Single Image](zest_zero-shot_material_transfer_from_a_single_image.md)
 - [\[ECCV 2024\] TPA3D: Triplane Attention for Fast Text-to-3D Generation](tpa3d_triplane_attention_for_fast_text-to-3d_generation.md)
 - [\[ECCV 2024\] NGP-RT: Fusing Multi-Level Hash Features with Lightweight Attention for Real-Time Novel View Synthesis](ngp-rt_fusing_multi-level_hash_features_with_lightweight_attention_for_real-time.md)
-- [\[ECCV 2024\] WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians](wast-3d_wasserstein-2_distance_for_scene-to-scene_stylization_on_3d_gaussians.md)
+- [\[ECCV 2024\] Track Everything Everywhere Fast and Robustly](track_everything_everywhere_fast_and_robustly.md)
 
 <!-- RELATED:END -->

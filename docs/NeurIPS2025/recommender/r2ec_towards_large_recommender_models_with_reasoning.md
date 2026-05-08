@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.16994](https://arxiv.org/abs/2505.16994)  
 **代码**: [GitHub](https://github.com/YRYangang/RRec)  
-**领域**: 强化学习  
+**领域**: 推荐系统  
 **关键词**: 推荐系统, 大语言模型推理, 强化学习, 双头架构, 测试时缩放
 
 ## 一句话总结
@@ -67,13 +67,13 @@ R²ec建立在两个支柱上：
 
     - **融合奖励**：单纯使用排名指标（如NDCG）作为奖励不够——很多质量不同的轨迹可能产出相同的top-K排名。因此设计融合奖励：
 
-   $$R = \beta R_c + (1 - \beta) R_d$$
+    $R = \beta R_c + (1 - \beta) R_d$
 
    其中$R_d = \text{NDCG}@k(\text{rank}(v^+))$是离散排名奖励，$R_c = \frac{\exp(\mathbf{h}_T^\top \mathbf{h}_{v^+}/\tau)}{\sum_{v \in \mathcal{V}} \exp(\mathbf{h}_T^\top \mathbf{h}_v/\tau)}$是连续相似度奖励。$\beta \approx 0.05$保持排名项主导，同时让连续项为相同排名的轨迹提供区分度。
 
-   - **联合训练目标**：将token级推理决策和物品级推荐决策统一在一个RL目标中：
+    - **联合训练目标**：将token级推理决策和物品级推荐决策统一在一个RL目标中：
 
-   $$\mathcal{J}(\theta) = \frac{1}{G}\sum_{i=1}^{G}\left[\sum_{t=1}^{T_i}\ell_\epsilon(r_{i,t}(\theta), A_i) + \delta_{i,i^\star}\ell_\epsilon(r_{i,T+1}(\theta), A_i)\right]$$
+    $\mathcal{J}(\theta) = \frac{1}{G}\sum_{i=1}^{G}\left[\sum_{t=1}^{T_i}\ell_\epsilon(r_{i,t}(\theta), A_i) + \delta_{i,i^\star}\ell_\epsilon(r_{i,T+1}(\theta), A_i)\right]$
 
    关键设计：所有轨迹都贡献推理token的策略更新，但只有优势最大的轨迹（$i^\star = \arg\max_j A_j$）贡献推荐动作的梯度。这确保了推理探索的多样性，同时将推荐学习聚焦于最有希望的推理路径。
 
@@ -148,8 +148,8 @@ R²ec相对最佳基线的提升：CDs上H@5提升63.7%，N@10提升72.3%；Inst
 
 - [\[NeurIPS 2025\] Think before Recommendation: Autonomous Reasoning-enhanced Recommender](think_before_recommendation_autonomous_reasoning-enhanced_recommender.md)
 - [\[NeurIPS 2025\] Inference-Time Reward Hacking in Large Language Models](inference-time_reward_hacking_in_large_language_models.md)
-- [\[NeurIPS 2025\] Radial Neighborhood Smoothing Recommender System](radial_neighborhood_smoothing_recommender_system.md)
 - [\[ACL 2025\] KERL: Knowledge-Enhanced Personalized Recipe Recommendation using Large Language Models](../../ACL2025/recommender/kerl_knowledge-enhanced_personalized_recipe_recommendation_using_large_language_.md)
 - [\[ICLR 2026\] From Evaluation to Defense: Advancing Safety in Video Large Language Models](../../ICLR2026/recommender/from_evaluation_to_defense_advancing_safety_in_video_large_language_models.md)
+- [\[NeurIPS 2025\] Radial Neighborhood Smoothing Recommender System](radial_neighborhood_smoothing_recommender_system.md)
 
 <!-- RELATED:END -->

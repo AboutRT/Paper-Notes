@@ -51,7 +51,7 @@ tags:
 
    核心思想是：通过元学习循环（采样任务→生成数据→最小化对数损失）训练的神经网络，在收敛后等价于贝叶斯预测器。给定任务分布 $P(\tau)$ 和条件分布 $P(x_{1:N}|\tau)$，边际分布（即贝叶斯混合）为：
 
-   $$\xi(x_n|x_{<n}) = \int P(x_n|x_{<n},\tau) P(\tau|x_{<n}) d\tau$$
+    $\xi(x_n|x_{<n}) = \int P(x_n|x_{<n},\tau) P(\tau|x_{<n}) d\tau$
 
    元学习的目标是最小化 $D_{KL}(\xi||\pi_\theta)$，当网络足够表达且充分收敛时，$\pi_{\hat\theta}(x_n|x_{<n}) \approx \xi(x_n|x_{<n})$，即网络仅通过激活实现贝叶斯最优预测。
 
@@ -61,7 +61,7 @@ tags:
 
    将前缀 $s_{1:L} \in \mathcal{S}^L$ 添加到观测序列前，优化目标为：
 
-   $$\min_{s_{1:L} \in \mathcal{S}^L} \frac{1}{K} \sum_{k=1}^K \sum_{n=1}^N -\log P_\theta(x_n^k | x_{<n}^k, s_{1:L})$$
+    $\min_{s_{1:L} \in \mathcal{S}^L} \frac{1}{K} \sum_{k=1}^K \sum_{n=1}^N -\log P_\theta(x_n^k | x_{<n}^k, s_{1:L})$
 
    文章考察四种前缀方法：硬token搜索（HardPT, $\mathcal{S}=\mathcal{A}$）、概率单纯形（SimplexPT）、实数前缀（RealPT）和软提示（SoftPT, $\mathcal{S}=\mathbb{R}^{d_{emb}}$）。
 
@@ -151,10 +151,10 @@ $$\mathscr{R}_{\tilde\theta}^{P^{Target}}(N) = \mathbb{E}_{\tau^*} \mathbb{E}_{P
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] MaNGO: Adaptable Graph Network Simulators via Meta-Learning](mango_-_adaptable_graph_network_simulators_via_meta-learning.md)
-- [\[NeurIPS 2025\] Learning Spatial-Aware Manipulation Ordering](learning_spatial-aware_manipulation_ordering.md)
 - [\[CVPR 2025\] Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation](../../CVPR2025/robotics/think_small_act_big_primitive_prompt_learning_for_lifelong_robot_manipulation.md)
+- [\[NeurIPS 2025\] Policy Compatible Skill Incremental Learning via Lazy Learning Interface](policy_compatible_skill_incremental_learning_via_lazy_learning_interface.md)
 - [\[ACL 2026\] DeCoVec: Building Decoding Space based Task Vector for Large Language Models via In-Context Learning](../../ACL2026/robotics/decovec_building_decoding_space_based_task_vector_for_large_language_models_via_.md)
+- [\[NeurIPS 2025\] Learning Spatial-Aware Manipulation Ordering](learning_spatial-aware_manipulation_ordering.md)
 - [\[ICML 2025\] Learning to Stop: Deep Learning for Mean Field Optimal Stopping](../../ICML2025/robotics/learning_to_stop_deep_learning_for_mean_field_optimal_stopping.md)
 
 <!-- RELATED:END -->

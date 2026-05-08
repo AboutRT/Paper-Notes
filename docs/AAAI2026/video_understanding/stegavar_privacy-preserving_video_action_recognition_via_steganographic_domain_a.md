@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2512.12586](https://arxiv.org/abs/2512.12586)  
 **代码**: 即将公开  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: privacy-preserving, video action recognition, steganography, wavelet transform, cross-band attention
 
 ## 一句话总结

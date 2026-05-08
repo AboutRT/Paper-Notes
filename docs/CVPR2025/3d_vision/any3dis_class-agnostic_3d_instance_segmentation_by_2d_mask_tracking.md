@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16183](https://arxiv.org/abs/2411.16183)  
-**代码**: https://any3dis.github.io/ (有)  
+**代码**: [https://any3dis.github.io/](https://any3dis.github.io/)  
 **领域**: 3D视觉 / 3D实例分割  
 **关键词**: 3D实例分割, 2D掩码跟踪, SAM-2, 类别无关, 动态规划优化
 

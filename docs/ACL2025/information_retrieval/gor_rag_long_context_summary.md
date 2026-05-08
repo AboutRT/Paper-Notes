@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - RAG
-  - 图神经网络
+  - 信息检索
   - 长文本摘要
   - 历史响应利用
   - BERTScore目标
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.11001](https://arxiv.org/abs/2410.11001)  
 **代码**: [https://github.com/ulab-uiuc/GoR](https://github.com/ulab-uiuc/GoR)  
-**领域**: 文本生成  
+**领域**: 信息检索  
 **关键词**: RAG, 图神经网络, 长文本摘要, 历史响应利用, BERTScore目标  
 
 ## 一句话总结
@@ -127,9 +127,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Hierarchical Document Refinement for Long-context Retrieval-augmented Generation](hierarchical_document_refinement_for_long-context_retrieval-augmented_generation.md)
-- [\[ACL 2025\] A Reality Check on Context Utilisation for Retrieval-Augmented Generation](a_reality_check_on_context_utilisation_for_retrieval-augmented_generation.md)
 - [\[ACL 2025\] EXIT: Context-Aware Extractive Compression for Enhancing Retrieval-Augmented Generation](exit_context-aware_extractive_compression_for_enhancing_retrieval-augmented_gene.md)
-- [\[ACL 2025\] Reranking-based Generation for Unbiased Perspective Summarization](reranking-based_generation_for_unbiased_perspective_summarization.md)
 - [\[ACL 2025\] FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation](faithfulrag_fact_level_conflict.md)
+- [\[ACL 2025\] Reranking-based Generation for Unbiased Perspective Summarization](reranking-based_generation_for_unbiased_perspective_summarization.md)
+- [\[ACL 2025\] A Reality Check on Context Utilisation for Retrieval-Augmented Generation](a_reality_check_on_context_utilisation_for_retrieval-augmented_generation.md)
 
 <!-- RELATED:END -->

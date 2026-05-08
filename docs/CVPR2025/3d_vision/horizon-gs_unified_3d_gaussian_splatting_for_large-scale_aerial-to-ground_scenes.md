@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01745](https://arxiv.org/abs/2412.01745)  
-**代码**: https://city-super.github.io/horizon-gs/  
+**代码**: [https://city-super.github.io/horizon-gs/](https://city-super.github.io/horizon-gs/)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 航空-地面统一重建, 粗到精训练, 多尺度LOD, 大场景渲染
 

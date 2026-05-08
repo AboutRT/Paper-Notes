@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.12191](https://arxiv.org/abs/2505.12191)  
-**代码**: https://github.com/wenquanlu/noisy_dinov2  
-**领域**: medical_imaging  
+**代码**: [https://github.com/wenquanlu/noisy_dinov2](https://github.com/wenquanlu/noisy_dinov2)  
+**领域**: 医学图像  
 **关键词**: 自监督学习, 噪声鲁棒性, 课程学习, DINOv2, 去噪器无关
 
 ## 一句话总结

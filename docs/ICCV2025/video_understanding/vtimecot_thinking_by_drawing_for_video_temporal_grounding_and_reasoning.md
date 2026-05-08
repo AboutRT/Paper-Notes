@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2510.14672](https://arxiv.org/abs/2510.14672)  
 **代码**: [项目页面](https://vtimecot.github.io)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: video temporal grounding, chain-of-thought, progress bar, visual prompt, training-free  
 
 ## 一句话总结
@@ -176,6 +176,6 @@ VTimeCoT 在 QVHighlights 上 mIoU 提升 16.83%（GPT4o 基线）。
 - [\[ICCV 2025\] Towards Video Thinking Test: A Holistic Benchmark for Advanced Video Reasoning and Understanding](towards_video_thinking_test_a_holistic_benchmark_for_advanced_video_reasoning_an.md)
 - [\[ICCV 2025\] TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding](timeexpert_an_expert-guided_video_llm_for_video_temporal_grounding.md)
 - [\[ICCV 2025\] Moment Quantization for Video Temporal Grounding](moment_quantization_for_video_temporal_grounding.md)
-- [\[ICCV 2025\] Hierarchical Event Memory for Accurate and Low-latency Online Video Temporal Grounding](hierarchical_event_memory_for_accurate_and_low-latency_online_video_temporal_gro.md)
+- [\[ICCV 2025\] Sparse-Dense Side-Tuner for Efficient Video Temporal Grounding](sparse-dense_side-tuner_for_efficient_video_temporal_grounding.md)
 
 <!-- RELATED:END -->

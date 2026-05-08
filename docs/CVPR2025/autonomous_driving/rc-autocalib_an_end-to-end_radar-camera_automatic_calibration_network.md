@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.22427](https://arxiv.org/abs/2505.22427)  
-**代码**: https://github.com/nycu-acm/RC-AutoCalib  
+**代码**: [https://github.com/nycu-acm/RC-AutoCalib](https://github.com/nycu-acm/RC-AutoCalib)  
 **领域**: 自动驾驶 / 传感器标定  
 **关键词**: 雷达-相机标定, 在线自标定, 双视角表示, 特征匹配, 噪声抗性
 

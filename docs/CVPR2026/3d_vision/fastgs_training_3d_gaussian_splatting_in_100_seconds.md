@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2511.04283](https://arxiv.org/abs/2511.04283)  
 **代码**: [fastgs.github.io](https://fastgs.github.io)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 训练加速, 多视角一致性, Gaussian 密度控制, 剪枝策略
 
 ## 一句话总结

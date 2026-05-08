@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 科学计算方向7篇论文解读
+  ICML2025 科学计算方向8篇论文解读
 description: >-
-  7篇ICML2025的科学计算方向论文解读，涵盖少样本学习、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  8篇ICML2025的科学计算方向论文解读，涵盖少样本学习、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧮 科学计算
 
-**🧪 ICML2025** · **7** 篇论文解读
+**🧪 ICML2025** · **8** 篇论文解读
 
 **[Causal-PIK: Causality-based Physical Reasoning with a Physics-Informed Kernel](causal-pik_causality-based_physical_reasoning_with_a_physics-informed_kernel.md)**
 
@@ -21,6 +21,10 @@ description: >-
 **[Differentiable Stellar Atmospheres with Physics-Informed Neural Networks](differentiable_stellar_atmospheres_with_physics-informed_neural_networks.md)**
 
 :   提出 Kurucz-a1，一个物理约束神经网络（PINN），用于模拟一维恒星大气模型（LTE 假设），解决了可微恒星光谱学中大气结构求解器不可微的关键瓶颈，在流体静力平衡和太阳光谱一致性上甚至优于经典 ATLAS-12 代码。
+
+**[Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems](erwin_a_tree-based_hierarchical_transformer_for_large-scale_physical_systems.md)**
+
+:   提出 Erwin，一种基于 ball tree 分层结构的 Transformer 架构，通过将注意力计算限制在固定大小的局部球区域内，实现线性时间复杂度，同时通过渐进式粗化/细化和跨球交互机制捕获多尺度特征，在宇宙学、分子动力学、PDE 求解和粒子流体动力学多个领域达到 SOTA。
 
 **[Improving Memory Efficiency for Training KANs via Meta Learning](improving_memory_efficiency_for_training_kans_via_meta_learning.md)**
 

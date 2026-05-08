@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2601.13758](https://arxiv.org/abs/2601.13758)  
 **代码**: [lingling-dai/GOMPSNR](https://github.com/lingling-dai/GOMPSNR)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: signal-to-noise ratio, phase derivatives, audio quality metric, loss function, neural vocoder  
 
 ## 一句话总结

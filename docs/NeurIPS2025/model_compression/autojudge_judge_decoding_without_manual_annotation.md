@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.20039](https://arxiv.org/abs/2504.20039)  
-**代码**: https://github.com/garipovroma/autojudge  
-**领域**: 高效推理 / 投机解码  
+**代码**: [https://github.com/garipovroma/autojudge](https://github.com/garipovroma/autojudge)  
+**领域**: 模型压缩  
 **关键词**: 投机解码, Judge Decoding, 重要token, 自动标注, 推理加速
 
 ## 一句话总结
@@ -131,7 +131,7 @@ AutoJudge 自动化了 Judge Decoding 中"重要 token"的标注——通过半�
 - [\[NeurIPS 2025\] Elastic ViTs from Pretrained Models without Retraining](elastic_vits_from_pretrained_models_without_retraining.md)
 - [\[NeurIPS 2025\] Traversal Verification for Speculative Tree Decoding](traversal_verification_for_speculative_tree_decoding.md)
 - [\[NeurIPS 2025\] Robustifying Learning-Augmented Caching Efficiently without Compromising 1-Consistency](robustifying_learning-augmented_caching_efficiently_without_compromising_1-consi.md)
-- [\[NeurIPS 2025\] The Structure of Relation Decoding Linear Operators in Large Language Models](the_structure_of_relation_decoding_linear_operators_in_large_language_models.md)
 - [\[NeurIPS 2025\] Reject Only Critical Tokens: Pivot-Aware Speculative Decoding](reject_only_critical_tokens_pivot-aware_speculative_decoding.md)
+- [\[NeurIPS 2025\] The Structure of Relation Decoding Linear Operators in Large Language Models](the_structure_of_relation_decoding_linear_operators_in_large_language_models.md)
 
 <!-- RELATED:END -->

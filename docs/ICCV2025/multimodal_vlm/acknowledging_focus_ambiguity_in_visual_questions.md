@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
-**代码**: 无 (数据集公开于 https://vizwiz.org/)  
-**领域**: multimodal_vlm  
+**代码**: 无 (数据集公开于 [https://vizwiz.org/](https://vizwiz.org/))  
+**领域**: 多模态VLM  
 **关键词**: 视觉问答, 焦点歧义, 数据集, 视觉定位, 多模态基准
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 有毒数据
-  - 预训练数据质量
+  - 社会计算
   - 去毒化
   - 特征纠缠
   - 推理时干预
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.04741](https://arxiv.org/abs/2505.04741)  
 **代码**: 无  
-**领域**: LLM效率 / 对齐RLHF / AI安全  
+**领域**: 社会计算  
 **关键词**: 有毒数据, 预训练数据质量, 去毒化, 特征纠缠, 推理时干预
 
 ## 一句话总结
@@ -172,6 +172,6 @@ tags:
 - [\[NeurIPS 2025\] DATE-LM: Benchmarking Data Attribution Evaluation for Large Language Models](../../NeurIPS2025/social_computing/date-lm_benchmarking_data_attribution_evaluation_for_large_language_models.md)
 - [\[ICML 2025\] OR-Bench: An Over-Refusal Benchmark for Large Language Models](or-bench_an_over-refusal_benchmark_for_large_language_models.md)
 - [\[ICML 2025\] Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing](raising_the_bar_investigating_the_values_of_large_language_models_via_generative.md)
-- [\[ACL 2025\] K/DA: Automated Data Generation Pipeline for Detoxifying Implicitly Offensive Language in Korean](../../ACL2025/social_computing/kda_automated_data_generation_pipeline_for_detoxifying_implicitly_offensive_lang.md)
+- [\[ICLR 2026\] When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](../../ICLR2026/social_computing/when_agents_misremember_collectively_exploring_the_mandela_effect_in_llm-based_m.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2408.13509](https://arxiv.org/abs/2408.13509)  
-**代码**: https://github.com/yinyjin/DualAnoDiff  
+**代码**: [https://github.com/yinyjin/DualAnoDiff](https://github.com/yinyjin/DualAnoDiff)  
 **领域**: 图像生成 / 异常检测  
 **关键词**: 异常图像生成, 少样本生成, 双扩散模型, 工业缺陷检测, 图像-掩码对
 

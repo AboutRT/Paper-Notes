@@ -46,11 +46,11 @@ InvTag 将 Tagged MRI 分析建模为一个**非线性盲逆问题**。给定低
 ### 关键设计
 
 1. **基于物理的前向模型**：将观测到的 Tagged 图像建模为
-   $$g_t^{\Box} = h_\gamma^{\Box} * \phi_{\theta_t}^* [a \cdot f_{\beta_t}(q_\alpha^{\Box})] + n_t^{\Box}$$
+    $g_t^{\Box} = h_\gamma^{\Box} * \phi_{\theta_t}^* [a \cdot f_{\beta_t}(q_\alpha^{\Box})] + n_t^{\Box}$
    其中 $a$ 为参考帧解剖图，$q_\alpha^{\Box}$ 为 SPAMM 物理参数化的正弦标签模式，$f_{\beta_t}$ 为仿射衰减模型，$h_\gamma^{\Box}$ 为各向异性高斯 PSF，$\phi_{\theta_t}$ 为基于 PINN 的微分同胚变形场（通过指数映射 $\phi_t = \exp\{v_t\}$ 保证微分同胚性）。所有时间帧共享同一解剖 $a$，仅通过 $\phi_t$ 产生几何变化，天然保证时序一致性。
 
 2. **扩散生成先验**：使用在 80,000+ 张 1mm 各向同性 T1w 3D 头部体积上预训练的扩散模型作为解剖先验。通过 DPS (Diffusion Posterior Sampling) 将数据保真项整合到反向扩散 SDE 中：
-   $$da_\tau = -\eta_\tau \Big[\frac{1}{2}a_\tau + s_\vartheta(a_\tau, \tau) - \rho \nabla_{a_\tau} \mathcal{L}_{\text{rec}}(\hat{a}_0(a_\tau))\Big] d\tau + \sqrt{\eta_\tau} d\bar{w}$$
+    $da_\tau = -\eta_\tau \Big[\frac{1}{2}a_\tau + s_\vartheta(a_\tau, \tau) - \rho \nabla_{a_\tau} \mathcal{L}_{\text{rec}}(\hat{a}_0(a_\tau))\Big] d\tau + \sqrt{\eta_\tau} d\bar{w}$
    扩散项 $s_\vartheta$ 将采样拉向解剖流形，数据保真项使重建与观测一致。
 
 3. **坐标下降与扩散先验 (CDDP)**：交替优化两步：(A) 固定前向模型参数，通过扩散后验采样更新解剖 $a$；(B) 固定 $a$，最大似然估计前向模型参数。低维参数 ($\gamma, \alpha, \beta_t$) 使用有界差分进化优化器（处理高度非凸景观），高维运动参数 $\theta_t$ 使用 Adam。第一帧联合估计 $(a^\star, \alpha^\star, \gamma^\star)$ 后固定，后续帧仅更新衰减和运动参数。

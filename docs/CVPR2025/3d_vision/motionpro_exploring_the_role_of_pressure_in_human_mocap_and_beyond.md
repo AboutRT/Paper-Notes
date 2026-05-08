@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2504.05046](https://arxiv.org/abs/2504.05046)  
 **代码**: [项目页](https://nju-cite-mocaphumanoid.github.io/MotionPRO/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: human motion capture, pressure sensing, multi-modal fusion, global trajectory, humanoid robot
 
 ## 一句话总结
@@ -138,10 +138,10 @@ FRAPPE 在 RTE 上较 WHAM 降低 **96%**，WBCE 降低 **91%**。
 
 ## 相关论文
 
-- [\[AAAI 2026\] PressTrack-HMR: Pressure-Based Top-Down Multi-Person Global Human Mesh Recovery](../../AAAI2026/3d_vision/presstrack-hmr_pressure-based_top-down_multi-person_global_human_mesh_recovery.md)
+- [\[CVPR 2025\] EgoPressure: A Dataset for Hand Pressure and Pose Estimation in Egocentric Vision](egopressure_a_dataset_for_hand_pressure_and_pose_estimation_in_egocentric_vision.md)
 - [\[CVPR 2025\] Gaussian Eigen Models for Human Heads](gaussian_eigen_models_for_human_heads.md)
-- [\[CVPR 2025\] PromptHMR: Promptable Human Mesh Recovery](prompthmr_promptable_human_mesh_recovery.md)
 - [\[NeurIPS 2025\] Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span](../../NeurIPS2025/3d_vision/gaze_beyond_the_frame_forecasting_egocentric_3d_visual_span.md)
 - [\[NeurIPS 2025\] Cue3D: Quantifying the Role of Image Cues in Single-Image 3D Generation](../../NeurIPS2025/3d_vision/cue3d_quantifying_the_role_of_image_cues_in_single-image_3d_generation.md)
+- [\[CVPR 2025\] Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning](reconstructing_close_human_interaction_with_appearance_and_proxemics_reasoning.md)
 
 <!-- RELATED:END -->

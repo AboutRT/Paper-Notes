@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.12951](https://arxiv.org/abs/2407.12951)  
-**代码**: [https://github.com/GoatWu/AdaLog](https://github.com/GoatWu/AdaLog) (有)  
-**领域**: 模型压缩 / 后训练量化 / Vision Transformer  
+**代码**: [https://github.com/GoatWu/AdaLog](https://github.com/GoatWu/AdaLog)  
+**领域**: 图像分割  
 **关键词**: PTQ, 非均匀量化, 自适应对数底, 超参搜索, ViT量化  
 
 ## 一句话总结
@@ -111,6 +111,6 @@ AdaLog作用于标准ViT block中的post-Softmax层(MatMul2)和post-GELU层(FC2)
 - [\[ECCV 2024\] EAFormer: Scene Text Segmentation with Edge-Aware Transformers](eaformer_scene_text_segmentation_with_edge-aware_transformers.md)
 - [\[CVPR 2026\] MPM: Mutual Pair Merging for Efficient Vision Transformers](../../CVPR2026/segmentation/mpm_mutual_pair_merging_for_efficient_vision_transformers.md)
 - [\[ICLR 2026\] Revisiting \[CLS\] and Patch Token Interaction in Vision Transformers](../../ICLR2026/segmentation/revisiting_cls_and_patch_token_interaction_in_vision_transformers.md)
-- [\[ECCV 2024\] DreamLIP: Language-Image Pre-training with Long Captions](dreamlip_language-image_pre-training_with_long_captions.md)
+- [\[ECCV 2024\] Rotary Position Embedding for Vision Transformer](rotary_position_embedding_for_vision_transformer.md)
 
 <!-- RELATED:END -->

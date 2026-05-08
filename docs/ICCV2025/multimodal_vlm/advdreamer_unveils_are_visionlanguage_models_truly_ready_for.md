@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 多模态
   - VLM鲁棒性
-  - 对抗3D变换
+  - 多模态VLM
   - 单目姿态操作
   - 自然度奖励模型
   - 视觉定位
@@ -107,10 +107,10 @@ VLM在2D对抗扰动、风格变化等方面的鲁棒性已被研究，但真实
 
 ## 相关论文
 
+- [\[ICCV 2025\] STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?](sti-bench_are_mllms_ready_for_precise_spatial-temporal_world_understanding.md)
 - [\[NeurIPS 2025\] Are Vision Language Models Ready for Clinical Diagnosis? A 3D Medical Benchmark for Tumor-centric Visual Question Answering](../../NeurIPS2025/multimodal_vlm/are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md)
-- [\[ACL 2025\] REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark](../../ACL2025/multimodal_vlm/real-mm-rag_a_real-world_multi-modal_retrieval_benchmark.md)
-- [\[CVPR 2025\] STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection](../../CVPR2025/multimodal_vlm/sting-bee_towards_vision-language_model_for_real-world_x-ray_baggage_security_in.md)
 - [\[ICLR 2026\] Can Vision-Language Models Answer Face to Face Questions in the Real-World?](../../ICLR2026/multimodal_vlm/can_vision-language_models_answer_face_to_face_questions_in_the_real-world.md)
+- [\[CVPR 2025\] STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection](../../CVPR2025/multimodal_vlm/sting-bee_towards_vision-language_model_for_real-world_x-ray_baggage_security_in.md)
 - [\[ICCV 2025\] Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection](exploiting_vision_language_model_for_training-free_3d_point_cloud_ood_detection_.md)
 
 <!-- RELATED:END -->

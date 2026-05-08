@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - Turing Test
-  - Long-term Dialogue
+  - 其他
   - Burst Dialogue
   - Dialogue Generation
   - Human Evaluation
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2408.09853](https://arxiv.org/abs/2408.09853)  
 **代码**: [https://github.com/vickywu1022/X-Turing](https://github.com/vickywu1022/X-Turing)  
-**领域**: LLM Agent  
+**领域**: 其他  
 **关键词**: Turing Test, Long-term Dialogue, Burst Dialogue, Dialogue Generation, Human Evaluation  
 
 ## 一句话总结
@@ -156,9 +156,9 @@ $$\text{Pass Rate} = 1 - \frac{1}{N} \sum_{i=1}^{N} \left(\frac{C_i}{K}\right)$$
 ## 相关论文
 
 - [\[ACL 2025\] In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents](in_prospect_and_retrospect_reflective_memory_management_for_long-term_personaliz.md)
-- [\[ACL 2025\] SHARE: Shared Memory-Aware Open-Domain Long-Term Dialogue Dataset Constructed from Movie Script](share_shared_memory-aware_open-domain_long-term_dialogue_dataset_constructed_fro.md)
-- [\[CVPR 2025\] Effortless Active Labeling for Long-Term Test-Time Adaptation](../../CVPR2025/others/effortless_active_labeling_for_long-term_test-time_adaptation.md)
-- [\[ACL 2025\] Sparse Rewards Can Self-Train Dialogue Agents](sparse_rewards_can_self-train_dialogue_agents.md)
 - [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
+- [\[CVPR 2025\] Effortless Active Labeling for Long-Term Test-Time Adaptation](../../CVPR2025/others/effortless_active_labeling_for_long-term_test-time_adaptation.md)
+- [\[ACL 2025\] Follow-up Question Generation for Enhanced Patient-Provider Conversations](follow-up_question_generation_for_enhanced_patient-provider_conversations.md)
+- [\[ACL 2025\] Learning to Reason from Feedback at Test-Time](learning_to_reason_from_feedback_at_test-time.md)
 
 <!-- RELATED:END -->

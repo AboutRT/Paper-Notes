@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.23575](https://arxiv.org/abs/2602.23575)  
 **代码**: [JeongbinHong/CycleBEV](https://github.com/JeongbinHong/CycleBEV)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: BEV语义分割, 视角变换, 循环一致性, 逆视角变换, 正则化
 
 ## 一句话总结

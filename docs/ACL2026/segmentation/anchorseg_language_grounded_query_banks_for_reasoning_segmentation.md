@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.18562](https://arxiv.org/abs/2604.18562)  
-**代码**: https://github.com/rui-qian/AnchorSeg  
+**代码**: [https://github.com/rui-qian/AnchorSeg](https://github.com/rui-qian/AnchorSeg)  
 **领域**: 推理分割 / 多模态VLM  
 **关键词**: 推理分割, 语言引导查询库, 空间先验, Token-Mask一致性, SAM
 

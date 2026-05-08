@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.13928](https://arxiv.org/abs/2501.13928)  
 **代码**: [https://fast3r-3d.github.io](https://fast3r-3d.github.io)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D reconstruction, multi-view, Transformer, pointmap regression, DUSt3R, scalability
 
 ## 一句话总结

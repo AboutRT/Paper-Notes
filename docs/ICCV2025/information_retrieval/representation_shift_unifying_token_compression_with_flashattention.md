@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Representation Shift: Unifying Token Compression with FlashAttention
 description: >-
-  [ICCV 2025][剪枝] 提出 Representation Shift，一种无需训练、模型无关的 token 重要性度量方法，通过计算 token 在网络层前后的表征变化量来衡量重要性，从而首次实现 token 压缩与 FlashAttention 的兼容，在视频理解和图像分类上取得高达 5.5× 的加速。
+  [ICCV 2025][信息检索] 提出 Representation Shift，一种无需训练、模型无关的 token 重要性度量方法，通过计算 token 在网络层前后的表征变化量来衡量重要性，从而首次实现 token 压缩与 FlashAttention 的兼容，在视频理解和图像分类上取得高达 5.5× 的加速。
 tags:
   - ICCV 2025
-  - 剪枝
+  - 信息检索
   - 注意力机制
   - Representation Shift
   - Transformer
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.00367](https://arxiv.org/abs/2508.00367)  
 **代码**: [https://github.com/mlvlab/Representation-Shift](https://github.com/mlvlab/Representation-Shift)  
-**领域**: Model Compression / Token Compression  
+**领域**: 信息检索  
 **关键词**: Token Pruning, FlashAttention, Representation Shift, Vision Transformer, 模型加速
 
 ## 一句话总结
@@ -140,8 +140,8 @@ tags:
 
 - [\[ICLR 2026\] Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding](../../ICLR2026/information_retrieval/token-guard_towards_token-level_hallucination_control_via_self-checking_decoding.md)
 - [\[NeurIPS 2025\] Scaling Language-Centric Omnimodal Representation Learning](../../NeurIPS2025/information_retrieval/scaling_language-centric_omnimodal_representation_learning.md)
-- [\[ACL 2026\] TPA: Next Token Probability Attribution for Detecting Hallucinations in RAG](../../ACL2026/information_retrieval/tpa_next_token_probability_attribution_for_detecting_hallucinations_in_rag.md)
 - [\[ACL 2025\] EXIT: Context-Aware Extractive Compression for Enhancing Retrieval-Augmented Generation](../../ACL2025/information_retrieval/exit_context-aware_extractive_compression_for_enhancing_retrieval-augmented_gene.md)
-- [\[NeurIPS 2025\] HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](../../NeurIPS2025/information_retrieval/hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)
+- [\[ACL 2025\] Any Information Is Just Worth One Single Screenshot: Unifying Search With Visualized Information Retrieval](../../ACL2025/information_retrieval/any_information_is_just_worth_one_single_screenshot_unifying_search_with_visuali.md)
+- [\[ACL 2025\] Accelerating Adaptive Retrieval Augmented Generation via Instruction-Driven Representation Reduction of Retrieval Overlaps](../../ACL2025/information_retrieval/accelerating_adaptive_retrieval_augmented_generation_via_instruction-driven_repr.md)
 
 <!-- RELATED:END -->

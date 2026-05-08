@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.05721](https://arxiv.org/abs/2604.05721)  
-**代码**: https://weiqi-zhang.github.io/GaussianGrow (有)  
+**代码**: [https://weiqi-zhang.github.io/GaussianGrow](https://weiqi-zhang.github.io/GaussianGrow)  
 **领域**: 3D视觉 / 3D生成  
 **关键词**: 3D高斯溅射, 点云, 文本引导, 多视图扩散, 外观生成
 
@@ -121,10 +121,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] GAP: Gaussianize Any Point Clouds with Text Guidance](../../ICCV2025/3d_vision/gap_gaussianize_any_point_clouds_with_text_guidance.md)
 - [\[CVPR 2026\] PointINS: Instance-Aware Self-Supervised Learning for Point Clouds](pointins_instance-aware_self-supervised_learning_for_point_clouds.md)
 - [\[ICCV 2025\] Egocentric Action-aware Inertial Localization in Point Clouds with Vision-Language Guidance](../../ICCV2025/3d_vision/egocentric_action-aware_inertial_localization_in_point_clouds_with_vision-langua.md)
 - [\[CVPR 2026\] GS-CLIP: Zero-shot 3D Anomaly Detection by Geometry-Aware Prompt and Synergistic View Representation Learning](gs-clip_zero-shot_3d_anomaly_detection_by_geometry-aware_prompt_and_synergistic_.md)
 - [\[CVPR 2026\] Motion-Aware Animatable Gaussian Avatars Deblurring](motion-aware_animatable_gaussian_avatars_deblurring.md)
+- [\[CVPR 2026\] Cross-Instance Gaussian Splatting Registration via Geometry-Aware Feature-Guided Alignment](cross-instance_gaussian_splatting_registration_via_geometry-aware_feature-guided.md)
 
 <!-- RELATED:END -->

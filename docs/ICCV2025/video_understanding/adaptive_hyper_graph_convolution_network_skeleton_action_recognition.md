@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: 无 (CVF Open Access)  
-**代码**: https://github.com/6UOOON9/Hyper-GCN  
+**代码**: [https://github.com/6UOOON9/Hyper-GCN](https://github.com/6UOOON9/Hyper-GCN)  
 **领域**: 视频理解  
 **关键词**: 骨架动作识别, 超图卷积, 虚拟连接, 自适应拓扑, 图卷积网络
 

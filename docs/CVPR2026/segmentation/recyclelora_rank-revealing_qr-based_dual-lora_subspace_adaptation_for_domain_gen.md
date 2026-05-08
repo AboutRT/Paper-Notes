@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.28142](https://arxiv.org/abs/2603.28142)  
-**代码**: https://github.com/chanseul01/RecycleLoRA.git  
+**代码**: [https://github.com/chanseul01/RecycleLoRA.git](https://github.com/chanseul01/RecycleLoRA.git)  
 **领域**: 语义分割 / 域泛化 / 参数高效微调  
 **关键词**: 域泛化语义分割, LoRA, RRQR分解, 双适配器, 子空间结构
 

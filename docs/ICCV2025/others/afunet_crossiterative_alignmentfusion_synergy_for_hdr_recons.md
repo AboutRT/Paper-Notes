@@ -8,7 +8,7 @@ tags:
   - HDR成像
   - 深度展开网络
   - MAP估计
-  - 对齐-融合交替优化
+  - 其他
   - 去鬼影
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.23537](https://arxiv.org/abs/2506.23537)  
 **代码**: [https://github.com/eezkni/AFUNet](https://github.com/eezkni/AFUNet)  
-**领域**: 图像恢复 / HDR重建  
+**领域**: 其他  
 **关键词**: HDR成像, 深度展开网络, MAP估计, 对齐-融合交替优化, 去鬼影  
 
 ## 一句话总结
@@ -110,9 +110,9 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] AdaptiveAE: An Adaptive Exposure Strategy for HDR Capturing in Dynamic Scenes](adaptiveae_an_adaptive_exposure_strategy_for_hdr_capturing_i.md)
-- [\[ECCV 2024\] Intrinsic Single-Image HDR Reconstruction](../../ECCV2024/others/intrinsic_single-image_hdr_reconstruction.md)
 - [\[ACL 2025\] Towards Style Alignment in Cross-Cultural Translation](../../ACL2025/others/towards_style_alignment_in_cross-cultural_translation.md)
-- [\[ICCV 2025\] Revisiting Image Fusion for Multi-Illuminant White-Balance Correction](revisiting_image_fusion_for_multi-illuminant_white-balance_correction.md)
+- [\[ECCV 2024\] Intrinsic Single-Image HDR Reconstruction](../../ECCV2024/others/intrinsic_single-image_hdr_reconstruction.md)
 - [\[ACL 2025\] ALGEN: Few-Shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment](../../ACL2025/others/algen_few-shot_inversion_attacks_on_textual_embeddings_via_cross-model_alignment.md)
+- [\[AAAI 2026\] Shrinking the Teacher: An Adaptive Teaching Paradigm for Asymmetric EEG-Vision Alignment](../../AAAI2026/others/shrinking_the_teacher_an_adaptive_teaching_paradigm_for_asymmetric_eeg-vision_al.md)
 
 <!-- RELATED:END -->

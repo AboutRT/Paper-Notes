@@ -5,7 +5,7 @@ description: >-
   [AAAI 2026 (Oral)][扩散语言模型] 首次系统分析扩散大语言模型（dLLM）的安全特性，发现与自回归 LLM 不同，dLLM 中**中间 token** 对安全性更关键，且攻击者受限于模型固有的顺序生成倾向难以操控中间 token，基于此不对称性提出 MOSA（Middle-tOken Safety Alignment）防御方法。
 tags:
   - AAAI 2026 (Oral)
-  - 扩散语言模型
+  - 强化学习
   - 安全对齐
   - 中间token
   - 越狱防御
@@ -185,8 +185,8 @@ MOSA 对通用能力的影响极小，与原始模型基本持平。
 
 - [\[AAAI 2026\] Formal Verification of Diffusion Auctions](formal_verification_of_diffusion_auctions.md)
 - [\[AAAI 2026\] Language Model Distillation: A Temporal Difference Imitation Learning Perspective](language_model_distillation_a_temporal_difference_imitation_learning_perspective.md)
+- [\[ICLR 2026\] VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models](../../ICLR2026/reinforcement_learning/verifybench_benchmarking_reference-based_reward_systems_for_large_language_model.md)
+- [\[ICLR 2026\] Robust Multi-Objective Controlled Decoding of Large Language Models](../../ICLR2026/reinforcement_learning/robust_multi-objective_controlled_decoding_of_large_language_models.md)
 - [\[AAAI 2026\] Where and What Matters: Sensitivity-Aware Task Vectors for Many-Shot Multimodal In-Context Learning](where_and_what_matters_sensitivity-aware_task_vectors_for_many-shot_multimodal_i.md)
-- [\[NeurIPS 2025\] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment](../../NeurIPS2025/reinforcement_learning/teaching_language_models_to_evolve_with_users_dynamic_profile_modeling_for_perso.md)
-- [\[ACL 2026\] A Survey of Reinforcement Learning for Large Language Models under Data Scarcity: Challenges and Solutions](../../ACL2026/reinforcement_learning/a_survey_of_reinforcement_learning_for_large_language_models_under_data_scarcity.md)
 
 <!-- RELATED:END -->

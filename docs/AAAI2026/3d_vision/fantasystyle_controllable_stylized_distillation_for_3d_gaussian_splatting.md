@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2508.08136](https://arxiv.org/abs/2508.08136)  
-**代码**: https://github.com/yangyt46/FantasyStyle (有)  
+**代码**: [https://github.com/yangyt46/FantasyStyle](https://github.com/yangyt46/FantasyStyle)  
 **领域**: 3D Vision / Style Transfer  
 **关键词**: 3DGS风格迁移, 扩散模型蒸馏, 多视图一致性, 频率分析, 负引导
 

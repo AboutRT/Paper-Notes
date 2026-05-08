@@ -8,7 +8,7 @@ tags:
   - 视频编辑
   - 文本到视频模型
   - 时空解耦引导
-  - Null-Text优化
+  - 视频生成
   - 注意力控制
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17592](https://arxiv.org/abs/2411.17592)  
-**代码**: https://VideoDirector.com  
+**代码**: [https://VideoDirector.com](https://VideoDirector.com)  
 **领域**: 扩散模型 / 视频编辑  
 **关键词**: 视频编辑, 文本到视频模型, 时空解耦引导, Null-Text优化, 注意力控制
 
@@ -131,8 +131,8 @@ VideoDirector 是无需训练的方法。Pivotal Inversion 阶段通过优化 Nu
 
 - [\[CVPR 2025\] Mimir: Improving Video Diffusion Models for Precise Text Understanding](mimir_improving_video_diffusion_models_for_precise_text_understanding.md)
 - [\[CVPR 2025\] SketchVideo: Sketch-Based Video Generation and Editing](sketchvideo_sketch-based_video_generation_and_editing.md)
-- [\[CVPR 2025\] Towards Precise Scaling Laws for Video Diffusion Transformers](towards_precise_scaling_laws_for_video_diffusion_transformers.md)
-- [\[CVPR 2025\] ShotAdapter: Text-to-Multi-Shot Video Generation with Diffusion Models](shotadapter_text-to-multi-shot_video_generation_with_diffusion_models.md)
 - [\[CVPR 2025\] Visual Prompting for One-Shot Controllable Video Editing Without Inversion](visual_prompting_for_one-shot_controllable_video_editing_without_inversion.md)
+- [\[CVPR 2025\] Towards Precise Scaling Laws for Video Diffusion Transformers](towards_precise_scaling_laws_for_video_diffusion_transformers.md)
+- [\[CVPR 2025\] NeuS-V: Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](neuro-symbolic_evaluation_of_text-to-video_models_using_formal_verification.md)
 
 <!-- RELATED:END -->

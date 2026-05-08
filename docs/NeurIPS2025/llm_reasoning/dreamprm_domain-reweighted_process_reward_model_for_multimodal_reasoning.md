@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.20241](https://arxiv.org/abs/2505.20241)  
-**代码**: [GitHub](https://github.com/coder-qicao/DreamPRM) (有)  
+**代码**: [GitHub](https://github.com/coder-qicao/DreamPRM)  
 **领域**: LLM推理  
 **关键词**: 过程奖励模型, multimodal reasoning, domain reweighting, 双层优化, 测试时缩放
 

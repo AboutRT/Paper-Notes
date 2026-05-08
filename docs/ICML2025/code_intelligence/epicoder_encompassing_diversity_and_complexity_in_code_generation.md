@@ -9,7 +9,7 @@ tags:
   - 特征树
   - 数据合成
   - 指令微调
-  - 代码LLM
+  - 代码智能
 ---
 
 # EpiCoder: Encompassing Diversity and Complexity in Code Generation
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.04694](https://arxiv.org/abs/2501.04694)  
 **代码**: [microsoft/EpiCoder](https://github.com/microsoft/EpiCoder)  
-**领域**: NLP生成  
+**领域**: 代码智能  
 **关键词**: 代码生成, 特征树, 数据合成, 指令微调, 代码LLM
 
 ## 一句话总结
@@ -170,7 +170,7 @@ EpiCoder-Qwen-7B 在 7B 规模实现了 SOTA 平均表现，BCB-Hard Completion 
 - [\[ACL 2025\] DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation](../../ACL2025/code_intelligence/dynacode_a_dynamic_complexity-aware_code_benchmark_for_evaluating_large_language.md)
 - [\[ICML 2025\] Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation](reasoning_through_execution_unifying_process_and_outcome_rewards_for_code_genera.md)
 - [\[ICML 2025\] EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning](efficoder_enhancing_code_generation_in_large_language_models_through_efficiency-.md)
-- [\[ACL 2025\] GiFT: Gibbs Fine-Tuning for Code Generation](../../ACL2025/code_intelligence/gift_gibbs_fine_tuning_code_gen.md)
-- [\[ACL 2025\] Rethinking Repetition Problems of LLMs in Code Generation](../../ACL2025/code_intelligence/rethinking_repetition_problems_of_llms_in_code_generation.md)
+- [\[ACL 2025\] Tree-of-Code: A Tree-Structured Exploring Framework for End-to-End Code Generation](../../ACL2025/code_intelligence/tree-of-code_a_tree-structured_exploring_framework_for_end-to-end_code_generatio.md)
+- [\[ACL 2025\] ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation](../../ACL2025/code_intelligence/reflectioncoder_learning_from_reflection_sequence_for_enhanced_one-off_code_gene.md)
 
 <!-- RELATED:END -->

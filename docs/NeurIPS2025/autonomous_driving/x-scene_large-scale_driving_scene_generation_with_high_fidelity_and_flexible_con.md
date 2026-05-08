@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.13558](https://arxiv.org/abs/2506.13558)  
-**代码**: https://x-scene.github.io/  
+**代码**: [https://x-scene.github.io/](https://x-scene.github.io/)  
 **领域**: Autonomous Driving / Scene Generation  
 **关键词**: 大规模场景生成, 多粒度控制, Occupancy生成, 3DGS重建, 自动驾驶仿真
 

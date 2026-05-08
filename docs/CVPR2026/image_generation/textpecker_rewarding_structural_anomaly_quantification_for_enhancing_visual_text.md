@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2602.20903](https://arxiv.org/abs/2602.20903)  
 **代码**: [GitHub](https://github.com/CIawevy/TextPecker)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: visual text rendering, structural anomaly, reinforcement-learning, reward model, OCR
 
 ## 一句话总结

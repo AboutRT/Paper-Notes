@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.01916](https://arxiv.org/abs/2504.01916)  
-**代码**: https://github.com/tiiuae/FineLIP  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/tiiuae/FineLIP](https://github.com/tiiuae/FineLIP)  
+**领域**: 图像生成  
 **关键词**: CLIP扩展, 长文本, 细粒度对齐, token级对比, 检索
 
 ## 一句话总结

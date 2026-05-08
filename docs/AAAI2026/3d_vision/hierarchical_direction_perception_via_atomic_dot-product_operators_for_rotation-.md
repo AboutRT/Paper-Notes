@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.08240](https://arxiv.org/abs/2511.08240)  
 **代码**: [DiPVNet](https://github.com/wxszreal0/DiPVNet)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 点云, 旋转不变性, dot-product operator, spherical Fourier transform, 等变性
 
 ## 一句话总结

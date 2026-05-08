@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2408.10123](https://arxiv.org/abs/2408.10123)  
 **代码**: [https://reagan1311.github.io/affgrasp](https://reagan1311.github.io/affgrasp)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: Affordance Learning, Egocentric Video, Robotic Manipulation, Affordance Segmentation, Tool Grasping
 
 ## 一句话总结

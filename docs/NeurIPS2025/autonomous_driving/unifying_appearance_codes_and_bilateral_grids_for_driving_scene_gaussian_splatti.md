@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.05280](https://arxiv.org/abs/2506.05280)  
-**代码**: https://bigcileng.github.io/bilateral-driving  
+**代码**: [https://bigcileng.github.io/bilateral-driving](https://bigcileng.github.io/bilateral-driving)  
 **领域**: 自动驾驶 / 神经渲染  
 **关键词**: Gaussian Splatting, 双边网格, 外观建模, 驾驶场景, 光度一致性
 

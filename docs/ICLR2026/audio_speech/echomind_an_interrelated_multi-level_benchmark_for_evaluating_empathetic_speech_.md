@@ -7,7 +7,7 @@ tags:
   - ICLR2026
   - 语音
   - Speech Language Model
-  - Empathetic Dialogue
+  - 音频语音
   - benchmark
   - Vocal Cue
   - Evaluation
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.22758](https://arxiv.org/abs/2510.22758)  
 **代码**: [项目主页](https://hlt-cuhksz.github.io/EchoMind/)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Speech Language Model, Empathetic Dialogue, benchmark, Vocal Cue, Evaluation
 
 ## 一句话总结

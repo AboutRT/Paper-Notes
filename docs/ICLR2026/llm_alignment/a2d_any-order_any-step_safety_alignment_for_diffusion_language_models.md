@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.23286](https://arxiv.org/abs/2509.23286)  
 **代码**: 有  
-**领域**: AI安全 / 扩散模型  
+**领域**: LLM对齐  
 **关键词**: diffusion language model, safety alignment, token-level defense, jailbreak, masked diffusion
 
 ## 一句话总结

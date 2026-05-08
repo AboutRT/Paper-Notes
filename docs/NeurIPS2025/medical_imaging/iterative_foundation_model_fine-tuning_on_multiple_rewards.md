@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.00220](https://arxiv.org/abs/2511.00220)  
-**代码**: [GitHub](https://github.com/pouyamghari/IterativeRS) (有)  
+**代码**: [GitHub](https://github.com/pouyamghari/IterativeRS)  
 **领域**: 医学影像 / 多目标强化学习微调  
 **关键词**: 多目标微调, 强化学习, 基础模型, 迭代合并, Rewarded Soups
 
@@ -162,6 +162,6 @@ $m$ 值对性能的影响揭示了一个关键规律：
 - [\[NeurIPS 2025\] Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning](flow_density_control_generative_optimization_beyond_entropy-regularized_fine-tun.md)
 - [\[NeurIPS 2025\] JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model](janusdna_a_powerful_bi-directional_hybrid_dna_foundation_model.md)
 - [\[ICLR 2026\] Thompson Sampling via Fine-Tuning of LLMs](../../ICLR2026/medical_imaging/thompson_sampling_via_fine-tuning_of_llms.md)
-- [\[NeurIPS 2025\] Self Iterative Label Refinement via Robust Unlabeled Learning](self_iterative_label_refinement_via_robust_unlabeled_learning.md)
+- [\[NeurIPS 2025\] Brain Harmony: A Multimodal Foundation Model Unifying Morphology and Function into 1D Tokens](brain_harmony_a_multimodal_foundation_model_unifying_morphology_and_function_int.md)
 
 <!-- RELATED:END -->

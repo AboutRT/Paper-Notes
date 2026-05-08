@@ -9,7 +9,7 @@ tags:
   - 图像描述
   - 可控生成
   - 连续条件化
-  - 视觉语言模型
+  - 多模态VLM
   - 语言模式控制
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.01409](https://arxiv.org/abs/2507.01409)  
-**代码**: https://github.com/omron-sinicx/captionsmiths  
+**代码**: [https://github.com/omron-sinicx/captionsmiths](https://github.com/omron-sinicx/captionsmiths)  
 **领域**: Multimodal / VLM  
 **关键词**: 图像描述, 可控生成, 连续条件化, 视觉语言模型, 语言模式控制
 
@@ -134,8 +134,8 @@ CaptionSmiths在CIDEr上分别提升9.3%/59.1%/257.8%，在长描述数据集上
 
 ## 相关论文
 
-- [\[ICCV 2025\] SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning](sc-captioner_improving_image_captioning_with_self-correction_by_reinforcement_le.md)
 - [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](controlling_multimodal_llms_via_rewardguided_decoding.md)
+- [\[ICCV 2025\] SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning](sc-captioner_improving_image_captioning_with_self-correction_by_reinforcement_le.md)
 - [\[CVPR 2026\] Text-Only Training for Image Captioning with Retrieval Augmentation and Modality Gap Correction](../../CVPR2026/multimodal_vlm/text-only_training_for_image_captioning_with_retrieval_augmentation_and_modality.md)
 - [\[ICML 2025\] Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage](../../ICML2025/multimodal_vlm/toward_robust_hyper-detailed_image_captioning_a_multiagent_approach_and_dual_eva.md)
 - [\[AAAI 2026\] DisCode: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning](../../AAAI2026/multimodal_vlm/discode_distribution-aware_score_decoder_for_robust_automatic_evaluation_of_imag.md)

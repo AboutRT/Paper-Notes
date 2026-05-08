@@ -2,10 +2,10 @@
 title: >-
   [论文解读] When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling
 description: >-
-  [ICLR 2026][LLM集成] 提出 SAFE（Stable And Fast LLM Ensembling），通过 Generate-Verify-Ensemble 循环在 token 级别选择性地集成多个异构分词器 LLM，解决长序列生成中分词不匹配导致的 OOV-like 污染问题，仅在不到 1% 的 token 上集成即可提升效果，MATH500 上将 UniTE 从 59.6% 提升到 77.4%。
+  [ICLR 2026][LLM评测] 提出 SAFE（Stable And Fast LLM Ensembling），通过 Generate-Verify-Ensemble 循环在 token 级别选择性地集成多个异构分词器 LLM，解决长序列生成中分词不匹配导致的 OOV-like 污染问题，仅在不到 1% 的 token 上集成即可提升效果，MATH500 上将 UniTE 从 59.6% 提升到 77.4%。
 tags:
   - ICLR 2026
-  - LLM集成
+  - LLM评测
   - 分词不匹配
   - OOV-like token
   - 投机式集成
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.15346](https://arxiv.org/abs/2510.15346)  
-**代码**: https://github.com/yoon6503/SAFE  
-**领域**: LLM NLP / 模型集成  
+**代码**: [https://github.com/yoon6503/SAFE](https://github.com/yoon6503/SAFE)  
+**领域**: LLM评测  
 **关键词**: LLM集成, 分词不匹配, OOV-like token, 投机式集成, 概率分布对齐
 
 ## 一句话总结
@@ -161,9 +161,9 @@ SAFE 是无训练的推理时方法，不涉及损失函数。是即插即用（
 ## 相关论文
 
 - [\[ICLR 2026\] Enabling Fine-Grained Operating Points for Black-Box LLMs](enabling_fine-grained_operating_points_for_black-box_llms.md)
-- [\[ACL 2026\] CAST: Achieving Stable LLM-based Text Analysis for Data Analytics](../../ACL2026/llm_evaluation/cast_achieving_stable_llm-based_text_analysis_for_data_analytics.md)
 - [\[ICLR 2026\] When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining](when_priors_backfire_on_the_vulnerability_of_unlearnable_examples_to_pretraining.md)
-- [\[ICLR 2026\] When and Where to Reset Matters for Long-Term Test-Time Adaptation](when_and_where_to_reset_matters_for_long-term_test-time_adaptation.md)
+- [\[ACL 2026\] CAST: Achieving Stable LLM-based Text Analysis for Data Analytics](../../ACL2026/llm_evaluation/cast_achieving_stable_llm-based_text_analysis_for_data_analytics.md)
+- [\[ICLR 2026\] LLM Unlearning with LLM Beliefs](llm_unlearning_with_llm_beliefs.md)
 - [\[ACL 2026\] MultiFileTest: A Multi-File-Level LLM Unit Test Generation Benchmark and Impact of Error Fixing Mechanisms](../../ACL2026/llm_evaluation/multifiletest_a_multi-file-level_llm_unit_test_generation_benchmark_and_impact_o.md)
 
 <!-- RELATED:END -->

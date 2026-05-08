@@ -18,7 +18,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.06893](https://arxiv.org/abs/2511.06893)  
-**代码**: https://github.com/Anoise/DeepBooTS  
+**代码**: [https://github.com/Anoise/DeepBooTS](https://github.com/Anoise/DeepBooTS)  
 **领域**: 时间序列预测  
 **关键词**: 时间序列预测, 概念漂移, 集成学习, 残差boosting, 偏差方差分解
 
@@ -136,6 +136,6 @@ DeepBooTS 由双流架构组成：
 - [\[AAAI 2026\] FreqCycle: A Multi-Scale Time-Frequency Analysis Method for Time Series Forecasting](freqcycle_a_multi-scale_time-frequency_analysis_method_for_time_series_forecasti.md)
 - [\[ACL 2026\] A Unified Framework for Modeling Heterogeneous Financial Data via Dual-Granularity Prompting](../../ACL2026/time_series/a_unified_framework_for_modeling_heterogeneous_financial_data_via_dual-granulari.md)
 - [\[AAAI 2026\] HN-MVTS: HyperNetwork-based Multivariate Time Series Forecasting](hn-mvts_hypernetwork-based_multivariate_time_series_forecasting.md)
-- [\[AAAI 2026\] ReCast: Reliability-aware Codebook Assisted Lightweight Time Series Forecasting](recast_reliability-aware_codebook_assisted_lightweight_time_series_forecasting.md)
+- [\[CVPR 2026\] Stable Spike: Dual Consistency Optimization via Bitwise AND Operations for Spiking Neural Networks](../../CVPR2026/time_series/stable_spike_dual_consistency_optimization_via_bitwise_and_operations_for_spikin.md)
 
 <!-- RELATED:END -->

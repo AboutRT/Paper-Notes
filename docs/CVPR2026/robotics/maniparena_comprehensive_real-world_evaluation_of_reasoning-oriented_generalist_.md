@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.28545](https://arxiv.org/abs/2603.28545)  
-**代码**: https://github.com/maniparena/maniparena-repo  
+**代码**: [https://github.com/maniparena/maniparena-repo](https://github.com/maniparena/maniparena-repo)  
 **领域**: 机器人操作 / Benchmark  
 **关键词**: 机器人操作评估、VLA模型、真实世界基准、推理导向操作、Sim-to-Real
 

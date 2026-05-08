@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.08227](https://arxiv.org/abs/2411.08227)  
-**代码**: https://github.com/lili0415/DPU-OOD-Detection (有)  
+**代码**: [https://github.com/lili0415/DPU-OOD-Detection](https://github.com/lili0415/DPU-OOD-Detection)  
 **领域**: 视频理解  
 **关键词**: 多模态OOD检测, 动态原型更新, 类内变异, 对比学习, 差异增强
 
@@ -142,6 +142,6 @@ DPU在所有9种基础OOD方法上均实现显著提升，FPR95降低最高达**
 - [\[CVPR 2025\] DynFocus: Dynamic Cooperative Network Empowers LLMs with Video Understanding](dynfocus_dynamic_cooperative_network_empowers_llms_with_video_understanding.md)
 - [\[CVPR 2025\] STOP: Integrated Spatial-Temporal Dynamic Prompting for Video Understanding](stop_integrated_spatial-temporal_dynamic_prompting_for_video_understanding.md)
 - [\[CVPR 2025\] Localizing Events in Videos with Multimodal Queries](localizing_events_in_videos_with_multimodal_queries.md)
-- [\[CVPR 2026\] Out of Sight, Out of Track: Adversarial Attacks on Propagation-based Multi-Object Trackers via Query State Manipulation](../../CVPR2026/video_understanding/out_of_sight_out_of_track_adversarial_attacks_on_propagation-based_multi-object_.md)
+- [\[CVPR 2025\] Context-Enhanced Memory-Refined Transformer for Online Action Detection](context-enhanced_memory-refined_transformer_for_online_action_detection.md)
 
 <!-- RELATED:END -->

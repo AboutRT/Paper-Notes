@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.15193](https://arxiv.org/abs/2509.15193)  
 **代码**: GitHub (开源)  
-**领域**: Physics / Quantum Computing  
+**领域**: 物理学  
 **关键词**: VQE, 参数冻结, barren plateau, 量子化学, 深度学习辅助量子计算
 
 ## 一句话总结
@@ -121,7 +121,7 @@ tags:
 - [\[ICML 2025\] Rethink the Role of Deep Learning towards Large-scale Quantum Systems](../../ICML2025/physics/rethink_the_role_of_deep_learning_towards_large-scale_quantum_systems.md)
 - [\[NeurIPS 2025\] Simulation-Based Inference for Neutrino Interaction Model Parameter Tuning](simulation-based_inference_for_neutrino_interaction_model_parameter_tuning.md)
 - [\[NeurIPS 2025\] FEAT: Free Energy Estimators with Adaptive Transport](feat_free_energy_estimators_with_adaptive_transport.md)
-- [\[CVPR 2025\] Galaxy Walker: Geometry-aware VLMs For Galaxy-scale Understanding](../../CVPR2025/physics/galaxy_walker_geometry-aware_vlms_for_galaxy-scale_understanding.md)
 - [\[CVPR 2025\] ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks](../../CVPR2025/physics/atp_adaptive_threshold_pruning_for_efficient_data_encoding_in_quantum_neural_net.md)
+- [\[NeurIPS 2025\] Knowledge is Overrated: A Zero-Knowledge ML and Cryptographic Hashing-Based Framework for Verifiable, Low Latency Inference at the LHC](knowledge_is_overrated_a_zero-knowledge_machine_learning_and_cryptographic_hashi.md)
 
 <!-- RELATED:END -->

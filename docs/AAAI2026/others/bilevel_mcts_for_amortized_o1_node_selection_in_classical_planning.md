@@ -18,7 +18,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2508.08385](https://arxiv.org/abs/2508.08385)  
-**代码**: https://github.com/guicho271828/downward-mcts  
+**代码**: [https://github.com/guicho271828/downward-mcts](https://github.com/guicho271828/downward-mcts)  
 **领域**: 经典规划 / 搜索算法  
 **关键词**: MCTS, 经典规划, O(1)节点选择, 树崩塌, UCB1-Normal2, IPC基准, 敏捷规划
 
@@ -153,9 +153,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Extreme Value Monte Carlo Tree Search for Classical Planning](extreme_value_monte_carlo_tree_search_for_classical_planning.md)
-- [\[AAAI 2026\] MeshA*: Efficient Path Planning With Motion Primitives](mesha_efficient_path_planning_with_motion_primitives.md)
 - [\[AAAI 2026\] Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents](symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)
 - [\[ICLR 2026\] Compositional Diffusion with Guided Search for Long-Horizon Planning](../../ICLR2026/others/compositional_diffusion_long_horizon_planning.md)
+- [\[AAAI 2026\] Deadline-Aware, Energy-Efficient Control of Domestic Immersion Hot Water Heaters](deadline-aware_energy-efficient_control_of_domestic_immersion_hot_water_heater.md)
 - [\[ICML 2025\] Sparse-Pivot: Dynamic Correlation Clustering for Node Insertions](../../ICML2025/others/sparse-pivot_dynamic_correlation_clustering_for_node_insertions.md)
 
 <!-- RELATED:END -->

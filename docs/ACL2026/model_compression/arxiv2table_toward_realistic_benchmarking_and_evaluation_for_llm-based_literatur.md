@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2504.10284](https://arxiv.org/abs/2504.10284)  
 **代码**: [GitHub](https://github.com/JHU-CLSP/arXiv2Table)  
-**领域**: NLP / Scientific Document Processing  
+**领域**: 模型压缩  
 **关键词**: 文献综述表格生成, 基准评估, LLM, 干扰论文, QA评估
 
 ## 一句话总结
@@ -128,10 +128,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation](../../ICLR2026/model_compression/biasscope_towards_automated_detection_of_bias_in_llm-as-a-judge_evaluation.md)
-- [\[ACL 2026\] Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](memory-augmented_llm-based_multi-agent_system_for_automated_feature_generation_o.md)
 - [\[ACL 2026\] YIELD: A Large-Scale Dataset and Evaluation Framework for Information Elicitation Agents](yield_a_large-scale_dataset_and_evaluation_framework_for_information_elicitation.md)
 - [\[ICLR 2026\] BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models](../../ICLR2026/model_compression/beyondbench_contamination-resistant_evaluation_of_reasoning_in_language_models.md)
+- [\[NeurIPS 2025\] Offline Policy Evaluation of Multi-Turn LLM Health Coaching with Real Users](../../NeurIPS2025/model_compression/offline_policy_evaluation_of_multi-turn_llm_health_coaching_with_real_users.md)
 - [\[ACL 2026\] Supplement Generation Training for Enhancing Agentic Task Performance](supplement_generation_training_for_enhancing_agentic_task_performance.md)
+- [\[ACL 2026\] No-Worse Context-Aware Decoding: Preventing Neutral Regression in Context-Conditioned Generation](no-worse_context-aware_decoding_preventing_neutral_regression_in_context-conditi.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.13109](https://arxiv.org/abs/2603.13109)  
-**代码**: [GitHub](https://github.com/dhuseljic/dal-toolbox) (有)  
+**代码**: [GitHub](https://github.com/dhuseljic/dal-toolbox)  
 **领域**: 主动学习 / 数据选择  
 **关键词**: 主动学习, Oracle策略, 策略集成, 批次选择, 深度神经网络
 
@@ -164,6 +164,6 @@ $$\mathcal{B}^{\star}=\arg\min_{\mathcal{B}\in\{\mathcal{B}_1,\dots,\mathcal{B}_
 - [\[CVPR 2026\] TrackMAE: Video Representation Learning via Track, Mask, and Predict](trackmae_video_representation_learning_via_track_mask_and_predict.md)
 - [\[CVPR 2026\] A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](a_stitch_in_time_learning_procedural_workflow_via_self_supervised_plackett_luce_r.md)
 - [\[CVPR 2026\] Group-DINOmics: Incorporating People Dynamics into DINO for Self-supervised Group Activity Feature Learning](group_dinomics_incorporating_people_dynamics_into_dino_for_self_supervised_group_activity_feature_learning.md)
-- [\[CVPR 2026\] UniGeoCLIP: Unified Geospatial Contrastive Learning](unigeoclip_geospatial_contrastive.md)
+- [\[CVPR 2026\] Representation Learning for Spatiotemporal Physical Systems](representation_learning_for_spatiotemporal_physica.md)
 
 <!-- RELATED:END -->

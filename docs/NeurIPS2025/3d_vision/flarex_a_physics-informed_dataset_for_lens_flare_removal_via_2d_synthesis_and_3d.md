@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.09995](https://arxiv.org/abs/2510.09995)  
-**代码**: https://github.com/qulishen/FlareX  
+**代码**: [https://github.com/qulishen/FlareX](https://github.com/qulishen/FlareX)  
 **领域**: 3D视觉 / 图像复原  
 **关键词**: 镜头光晕去除, 数据集, 物理仿真, 2D合成, 3D渲染
 

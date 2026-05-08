@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 视频扩散模型
   - 目标驱动奖励
-  - 强化学习
+  - 视频生成
   - 前向后向表示
   - 世界知识迁移
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.00961](https://arxiv.org/abs/2512.00961)  
-**代码**: https://qiwang067.github.io/genreward  
+**代码**: [https://qiwang067.github.io/genreward](https://qiwang067.github.io/genreward)  
 **领域**: 扩散模型 / 强化学习  
 **关键词**: 视频扩散模型、目标驱动奖励、强化学习、前向后向表示、世界知识迁移
 
@@ -117,10 +117,10 @@ GenReward 包含三个阶段：(a) 微调预训练视频扩散模型（CogVideoX
 
 ## 相关论文
 
+- [\[ICCV 2025\] Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning](../../ICCV2025/video_generation/disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)
 - [\[NeurIPS 2025\] RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation](../../NeurIPS2025/video_generation/rlgf_reinforcement_learning_with_geometric_feedback_for_autonomous_driving_video.md)
 - [\[CVPR 2026\] Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization](identity-preserving_image-to-video_generation_via_reward-guided_optimization.md)
-- [\[ICCV 2025\] Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning](../../ICCV2025/video_generation/disentangled_world_models_learning_to_transfer_semantic_knowledge_from_distracti.md)
 - [\[CVPR 2026\] Diff4Splat: Repurposing Video Diffusion Models for Dynamic Scene Generation](diff4splat_controllable_4d_scene_generation_with_latent_dynamic_reconstruction_m.md)
-- [\[CVPR 2026\] Generative Neural Video Compression via Video Diffusion Prior](generative_neural_video_compression_via_video_diffusion_prior.md)
+- [\[CVPR 2026\] I'm a Map! Interpretable Motion-Attentive Maps: Spatio-Temporally Localizing Concepts in Video Diffusion Transformers](interpretable_motion-attentive_maps_spatio-temporally_localizing_concepts_in_vid.md)
 
 <!-- RELATED:END -->

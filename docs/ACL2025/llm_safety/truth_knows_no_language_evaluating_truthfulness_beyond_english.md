@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Truth Knows No Language: Evaluating Truthfulness Beyond English
 description: >-
-  [ACL 2025][真实性评估] 构建首个专业翻译的多语言 TruthfulQA 基准（巴斯克语、加泰罗尼亚语、加利西亚语、西班牙语），发现 LLM 的跨语言真实性差异小于预期，且 LLM-as-a-Judge 比多选题指标更贴合人类判断。
+  [ACL 2025][LLM安全] 构建首个专业翻译的多语言 TruthfulQA 基准（巴斯克语、加泰罗尼亚语、加利西亚语、西班牙语），发现 LLM 的跨语言真实性差异小于预期，且 LLM-as-a-Judge 比多选题指标更贴合人类判断。
 tags:
   - ACL 2025
-  - 真实性评估
+  - LLM安全
   - TruthfulQA
   - 多语言
   - LLM-as-a-Judge
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.09387](https://arxiv.org/abs/2502.09387)  
 **代码**: [github.com/hitz-zentroa/truthfulqa-multi](https://github.com/hitz-zentroa/truthfulqa-multi)  
-**领域**: 其他（多语言评估/真实性评估）  
+**领域**: LLM安全  
 **关键词**: 真实性评估, TruthfulQA, 多语言, LLM-as-a-Judge, 低资源语言
 
 ## 一句话总结
@@ -170,9 +170,9 @@ LLM-as-a-Judge 的训练使用学习率 0.01，训练 5 个 epoch。核心是对
 ## 相关论文
 
 - [\[ACL 2025\] Beyond Facts: Evaluating Intent Hallucination in Large Language Models](intent_hallucination_eval.md)
-- [\[ACL 2025\] UAQFact: Evaluating Factual Knowledge Utilization of LLMs on Unanswerable Questions](uaqfact_evaluating_factual_knowledge_utilization_of_llms_on_unanswerable_questio.md)
-- [\[ACL 2025\] ComparisonQA: Evaluating Factuality Robustness of LLMs Through Knowledge Frequency Control and Uncertainty](comparisonqa_evaluating_factuality_robustness_of_llms_through_knowledge_frequenc.md)
+- [\[NeurIPS 2025\] Trans-EnV: A Framework for Evaluating the Linguistic Robustness of LLMs Against English Varieties](../../NeurIPS2025/llm_safety/trans-env_a_framework_for_evaluating_the_linguistic_robustness_of_llms_against_e.md)
 - [\[ACL 2025\] Monitoring Decoding: Mitigating Hallucination via Evaluating the Factuality of Partial Response during Generation](monitoring_decoding_mitigating_hallucination_via_evaluating_the_factuality_of_pa.md)
+- [\[ACL 2025\] ComparisonQA: Evaluating Factuality Robustness of LLMs Through Knowledge Frequency Control and Uncertainty](comparisonqa_evaluating_factuality_robustness_of_llms_through_knowledge_frequenc.md)
 - [\[ACL 2025\] ReLearn: Unlearning via Learning for Large Language Models](relearn_unlearning_via_learning_for_large_language_models.md)
 
 <!-- RELATED:END -->

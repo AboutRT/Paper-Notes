@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25738](https://arxiv.org/abs/2603.25738)  
-**代码**: https://henghuiding.com/PSDesigner/  
+**代码**: [https://henghuiding.com/PSDesigner/](https://henghuiding.com/PSDesigner/)  
 **领域**: 图像生成 / 自动设计  
 **关键词**: 自动图形设计, PSD文件操作, 工具调用, 强化学习, 创意工作流
 

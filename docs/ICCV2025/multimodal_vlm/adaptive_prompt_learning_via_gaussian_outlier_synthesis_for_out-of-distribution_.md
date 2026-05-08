@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - OOD检测
+  - 多模态VLM
   - 提示学习
   - 高斯离群合成
   - 视觉-语言模型
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
 **代码**: 无  
-**领域**: multimodal_vlm / OOD Detection  
+**领域**: 多模态VLM  
 **关键词**: OOD检测, 提示学习, 高斯离群合成, 视觉-语言模型, 对比学习
 
 ## 一句话总结
@@ -201,9 +201,9 @@ $$\mathcal{L} = \xi_1[\gamma_1 \tau \mathcal{L}_{align}^{id} + \gamma_2(1-\tau)\
 ## 相关论文
 
 - [\[ICCV 2025\] FA: Forced Prompt Learning of Vision-Language Models for Out-of-Distribution Detection](fa_forced_prompt_learning_of_vision-language_models_for_out-of-distribution_dete.md)
-- [\[ICCV 2025\] Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection](exploiting_vision_language_model_for_training-free_3d_point_cloud_ood_detection_.md)
 - [\[ICCV 2025\] PRO-VPT: Distribution-Adaptive Visual Prompt Tuning via Prompt Relocation](pro-vpt_distribution-adaptive_visual_prompt_tuning_via_prompt_relocation.md)
-- [\[ICCV 2025\] Attention to the Burstiness in Visual Prompt Tuning!](attention_to_the_burstiness_in_visual_prompt_tuning.md)
-- [\[ICCV 2025\] Synergistic Prompting for Robust Visual Recognition with Missing Modalities](synergistic_prompting_for_robust_visual_recognition_with_missing_modalities.md)
+- [\[ICCV 2025\] Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection](exploiting_vision_language_model_for_training-free_3d_point_cloud_ood_detection_.md)
+- [\[ICCV 2025\] CoA-VLA: Improving Vision-Language-Action Models via Visual-Textual Chain-of-Affordance](coavla_improving_visionlanguageaction_models_via_visualtext.md)
+- [\[ICCV 2025\] One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models](one_perturbation_is_enough_on_generating_universal_adversarial_perturbations_aga.md)
 
 <!-- RELATED:END -->

@@ -9,14 +9,14 @@ tags:
   - 数据集
   - 夜间图像
   - 双焦点
-  - 图像恢复
+  - 其他
 ---
 
 # Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.16957](https://arxiv.org/abs/2407.16957)  
-**代码**: 有 (https://github.com/jinyeying/RaindropClarity)  
+**代码**: 有 ([https://github.com/jinyeying/RaindropClarity](https://github.com/jinyeying/RaindropClarity))  
 **领域**: 其他  
 **关键词**: 雨滴去除, 数据集, 夜间图像, 双焦点, 图像恢复
 
@@ -144,9 +144,9 @@ $$\tilde{\mathbf{x}} = (1 - \mathbf{M}) \odot \mathbf{x}_0 + \mathbf{D}$$
 ## 相关论文
 
 - [\[ECCV 2024\] Spatio-Temporal Proximity-Aware Dual-Path Model for Panoramic Activity Recognition](spatio-temporal_proximity-aware_dual-path_model_for_panoramic_activity_recogniti.md)
+- [\[ECCV 2024\] Rethinking Data Bias: Dataset Copyright Protection via Embedding Class-Wise Hidden Bias](rethinking_data_bias_dataset_copyright_protection_via_embedding_class-wise_hidde.md)
 - [\[AAAI 2026\] From Sequential to Recursive: Enhancing Decision-Focused Learning with Bidirectional Feedback](../../AAAI2026/others/from_sequential_to_recursive_enhancing_decision-focused_learning_with_bidirectio.md)
 - [\[AAAI 2026\] Depth-Synergized Mamba Meets Memory Experts for All-Day Image Reflection Separation](../../AAAI2026/others/depth-synergized_mamba_meets_memory_experts_for_all-day_image_reflection_separat.md)
-- [\[ECCV 2024\] Rethinking Data Bias: Dataset Copyright Protection via Embedding Class-Wise Hidden Bias](rethinking_data_bias_dataset_copyright_protection_via_embedding_class-wise_hidde.md)
-- [\[ACL 2025\] Unveiling Dual Quality in Product Reviews: An NLP-Based Approach](../../ACL2025/others/unveiling_dual_quality_in_product_reviews_an_nlp-based_approach.md)
+- [\[ACL 2025\] A Dual-Mind Framework for Strategic and Expressive Negotiation Agent](../../ACL2025/others/a_dual-mind_framework_for_strategic_and_expressive_negotiation_agent.md)
 
 <!-- RELATED:END -->

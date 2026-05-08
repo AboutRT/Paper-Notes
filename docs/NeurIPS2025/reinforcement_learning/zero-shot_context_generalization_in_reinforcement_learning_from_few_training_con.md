@@ -8,7 +8,7 @@ tags:
   - 上下文泛化
   - 上下文MDP
   - 数据增强
-  - Bellman方程
+  - 强化学习
   - 零样本迁移
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.07348](https://arxiv.org/abs/2507.07348)  
-**代码**: https://github.com/chapman20j/ZeroShotGeneralization-CMDPs (有)  
+**代码**: [https://github.com/chapman20j/ZeroShotGeneralization-CMDPs](https://github.com/chapman20j/ZeroShotGeneralization-CMDPs)  
 **领域**: Reinforcement Learning  
 **关键词**: 上下文泛化, 上下文MDP, 数据增强, Bellman方程, 零样本迁移
 
@@ -127,6 +127,6 @@ tags:
 - [\[ICML 2025\] Zero-Shot Generalization of Vision-Based RL Without Data Augmentation](../../ICML2025/reinforcement_learning/zero-shot_generalization_of_vision-based_rl_without_data_augmentation.md)
 - [\[NeurIPS 2025\] Towards Provable Emergence of In-Context Reinforcement Learning](towards_provable_emergence_of_in-context_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
-- [\[ICML 2025\] Pessimism Principle Can Be Effective: Towards a Framework for Zero-Shot Transfer RL](../../ICML2025/reinforcement_learning/pessimism_principle_can_be_effective_towards_a_framework_for_zero-shot_transfer_.md)
+- [\[NeurIPS 2025\] Time Reversal Symmetry for Efficient Robotic Manipulations in Deep Reinforcement Learning](time_reversal_symmetry_for_efficient_robotic_manipulations_in_deep_reinforcement.md)
 
 <!-- RELATED:END -->

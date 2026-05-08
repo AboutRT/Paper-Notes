@@ -21,7 +21,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2502.13283](https://arxiv.org/abs/2502.13283)  
 **代码**: 无（理论工作）  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: early stopping, implicit regularization, logistic regression, overparameterization, gradient descent, calibration, maximum margin
 
 ## 一句话总结

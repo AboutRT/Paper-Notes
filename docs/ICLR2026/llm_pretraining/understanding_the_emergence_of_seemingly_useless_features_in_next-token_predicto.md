@@ -9,15 +9,15 @@ tags:
   - 特征涌现
   - pre-caching
   - circuit sharing
-  - 机械可解释性
+  - LLM预训练
 ---
 
 # Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.14087](https://arxiv.org/abs/2603.14087)  
-**代码**: https://github.com/Markfryazino/useless-features-iclr-code  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/Markfryazino/useless-features-iclr-code](https://github.com/Markfryazino/useless-features-iclr-code)  
+**领域**: LLM预训练  
 **关键词**: 下一token预测, 特征涌现, pre-caching, circuit sharing, 机械可解释性
 
 ## 一句话总结
@@ -132,9 +132,9 @@ Conditioned Majority 需要类似 induction head 的两层注意力构造，myop
 ## 相关论文
 
 - [\[ICLR 2026\] A Law of Data Reconstruction for Random Features (and Beyond)](a_law_of_data_reconstruction_for_random_features_and_beyond.md)
-- [\[ICLR 2026\] Identifying and Evaluating Inactive Heads in Pretrained LLMs](identifying_and_evaluating_inactive_heads_in_pretrained_llms.md)
+- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](token-level_data_selection_for_safe_llm_fine-tuning.md)
 - [\[ICLR 2026\] MoMa: A Simple Modular Deep Learning Framework for Material Property Prediction](moma_a_modular_deep_learning_framework_for_material_property_prediction.md)
-- [\[ICLR 2026\] TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](taste_text-aligned_speech_tokenization_and_embedding_for_spoken_language_modelin.md)
 - [\[ICLR 2026\] Predicting Training Re-evaluation Curves Enables Effective Data Curriculums](predicting_training_re-evaluation_curves_enables_effective_data_curriculums_for_.md)
+- [\[ICLR 2026\] FictionalQA: A Dataset for Studying Memorization and Knowledge Acquisition](fictionalqa_a_dataset_for_studying_memorization_and_knowledge_acquisition.md)
 
 <!-- RELATED:END -->

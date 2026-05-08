@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2509.16968](https://arxiv.org/abs/2509.16968)  
-**代码**: https://github.com/HaoyXu7/Object_Completeness  
+**代码**: [https://github.com/HaoyXu7/Object_Completeness](https://github.com/HaoyXu7/Object_Completeness)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 物体完整性, RandomCrop, 注意力约束, 训练免费, 边界惩罚
 

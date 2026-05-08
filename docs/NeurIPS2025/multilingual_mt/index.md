@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 多语言/翻译方向11篇论文解读
+  NeurIPS2025 多语言/翻译方向13篇论文解读
 description: >-
-  11篇NeurIPS2025的多语言/翻译方向论文解读，涵盖 LLM、异常检测、翻译、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  13篇NeurIPS2025的多语言/翻译方向论文解读，涵盖 LLM、翻译、异常检测、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🌐 多语言/翻译
 
-**🧠 NeurIPS2025** · **11** 篇论文解读
+**🧠 NeurIPS2025** · **13** 篇论文解读
 
 **[Adaptive Originality Filtering: Rejection-Based Prompting and RiddleScore for Culturally Grounded Multilingual Riddle Generation](adaptive_originality_filtering_rejection_based_prompting_and_riddlescore_for_cul.md)**
 
@@ -49,6 +49,14 @@ description: >-
 **[Quantifying Climate Policy Action and Its Links to Development Outcomes: A Cross-National Data-Driven Analysis](quantifying_climate_policy_action_and_its_links_to_development_outcomes_a_cross-.md)**
 
 :   本文构建了一个NLP-计量经济学一体化框架，先用微调的多语言DistilBERT对全球气候政策文档按主题（减缓/适应/灾害风险管理/损失与损害）自动分类（F1=0.90），再与世界银行发展指标做固定效应面板回归，发现减缓政策与较高GDP/GNI显著正相关，而损失与损害政策全球仍然缺乏实质性实施。
+
+**[Reflective Translation: Improving Low-Resource Machine Translation via Structured Self-Reflection](reflective_translation_improving_low-resource_machine_translation_via_structured.md)**
+
+:   提出 Reflective Translation 框架，让 LLM 在推理时对自身的初始翻译进行结构化自我批判（识别误译/遗漏/语义扭曲），再根据批判生成修正翻译，无需微调或额外标注数据即可在 isiZulu/isiXhosa 等低资源非洲语言上取得 BLEU 和 COMET 的统计显著提升。
+
+**[XIFBench: Evaluating Large Language Models on Multilingual Instruction Following](xifbench_evaluating_large_language_models_on_multilingual_instruction_following.md)**
+
+:   提出XIFBench——首个系统评估LLM多语言指令遵循能力的约束驱动基准，包含558条指令（0-5个约束，5大类21维度）×6种语言（高/中/低资源），并引入英语需求锚定评估协议，实现94.7%的跨语言评估一致性。
 
 **[Zero-Shot Performance Prediction for Probabilistic Scaling Laws](zero-shot_performance_prediction_for_probabilistic_scaling_laws.md)**
 

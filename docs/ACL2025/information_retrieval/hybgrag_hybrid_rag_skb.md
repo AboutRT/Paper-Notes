@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.16311](https://arxiv.org/abs/2412.16311)  
 **代码**: 无  
-**领域**: llm_nlp  
+**领域**: 信息检索  
 **关键词**: RAG, Graph RAG, hybrid question answering, semi-structured knowledge base, self-reflection
 
 ## 一句话总结
@@ -114,8 +114,8 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation](seakr_self-aware_knowledge_retrieval_for_adaptive_retrieval_augmented_generation.md)
-- [\[NeurIPS 2025\] Mind the Gap: Aligning Knowledge Bases with User Needs to Enhance Mental Health Retrieval](../../NeurIPS2025/information_retrieval/mind_the_gap_aligning_knowledge_bases_with_user_needs_to_enhance_mental_health_r.md)
 - [\[ACL 2025\] Toward Structured Knowledge Reasoning: Contrastive Retrieval-Augmented Generation on Experience](toward_structured_knowledge_reasoning_contrastive_retrieval-augmented_generation.md)
+- [\[ACL 2025\] NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering](neusym_rag_pdf_qa.md)
 - [\[ACL 2025\] Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation](towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md)
 - [\[ACL 2025\] A Reality Check on Context Utilisation for Retrieval-Augmented Generation](a_reality_check_on_context_utilisation_for_retrieval-augmented_generation.md)
 

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.01163](https://arxiv.org/abs/2501.01163)  
 **代码**: [https://github.com/djiajunustc/3D-LLaVA](https://github.com/djiajunustc/3D-LLaVA)  
-**领域**: 多模态VLM / 3D场景理解 / 大语言模型  
+**领域**: 3D视觉  
 **关键词**: 3D LMM, Superpoint Transformer, Visual Connector, Referring Segmentation, Scene Understanding  
 **作者**: Jiajun Deng, Tianyu He, Li Jiang, Tianyu Wang, Feras Dayoub, Ian Reid
 
@@ -121,8 +121,8 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D Capabilities](../../ICCV2025/3d_vision/llava-3d_a_simple_yet_effective_pathway_to_empowering_lmms_with_3d_capabilities.md)
-- [\[CVPR 2025\] VGGT: Visual Geometry Grounded Transformer](vggt_visual_geometry_grounded_transformer.md)
 - [\[CVPR 2025\] GA3CE: Unconstrained 3D Gaze Estimation with Gaze-Aware 3D Context Encoding](ga3ce_unconstrained_3d_gaze_estimation_with_gaze-aware_3d_context_encoding.md)
+- [\[CVPR 2025\] VGGT: Visual Geometry Grounded Transformer](vggt_visual_geometry_grounded_transformer.md)
 - [\[CVPR 2025\] SphereUFormer: A U-Shaped Transformer for Spherical 360 Perception](sphereuformer_a_u-shaped_transformer_for_spherical_360_perception.md)
 - [\[CVPR 2025\] RDD: Robust Feature Detector and Descriptor Using Deformable Transformer](rdd_robust_feature_detector_and_descriptor_using_deformable_transformer.md)
 

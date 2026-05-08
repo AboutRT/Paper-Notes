@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20414](https://arxiv.org/abs/2510.20414)  
 **代码**: [GitHub](https://github.com/undes1red/IFNMTPP)  
-**领域**: 时间序列 / 事件建模  
+**领域**: 其他  
 **关键词**: 标记时间点过程, 标记不平衡, 阈值方法, 无积分近似, 事件预测
 
 ## 一句话总结
@@ -130,6 +130,6 @@ tags:
 - [\[ACL 2025\] A Spatio-Temporal Point Process for Fine-Grained Modeling of Reading Behavior](../../ACL2025/others/a_spatio-temporal_point_process_for_fine-grained_modeling_of_reading_behavior.md)
 - [\[ICLR 2026\] Addressing Divergent Representations from Causal Interventions on Neural Networks](../../ICLR2026/others/addressing_divergent_representations_causal.md)
 - [\[NeurIPS 2025\] Position: There Is No Free Bayesian Uncertainty Quantification](position_there_is_no_free_bayesian_uncertainty_quantification.md)
-- [\[NeurIPS 2025\] Weight Weaving: Parameter Pooling for Data-Free Model Merging](weight_weaving_parameter_pooling_for_data-free_model_merging.md)
+- [\[NeurIPS 2025\] Alias-Free ViT: Fractional Shift Invariance via Linear Attention](alias-free_vit_fractional_shift_invariance_via_linear_attention.md)
 
 <!-- RELATED:END -->

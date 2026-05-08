@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.13690](https://arxiv.org/abs/2503.13690)  
-**代码**: https://github.com/XelfXendr/peft_unlearning  
+**代码**: [https://github.com/XelfXendr/peft_unlearning](https://github.com/XelfXendr/peft_unlearning)  
 **领域**: LLM对齐 / 机器遗忘  
 **关键词**: 机器遗忘, NPO, LoRA, KL正则化, OLMo
 
@@ -128,6 +128,6 @@ tags:
 - [\[ACL 2025\] AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs](automixalign_adaptive_data_mixing.md)
 - [\[ACL 2025\] World Modeling Makes a Better Planner: Dual Preference Optimization for Embodied Task Planning](world_modeling_makes_a_better_planner_dual_preference_optimization_for_embodied_.md)
 - [\[CVPR 2025\] Task Preference Optimization: Improving Multimodal Large Language Models with Vision Task Alignment](../../CVPR2025/llm_alignment/task_preference_optimization_improving_multimodal_large_language_models_with_vis.md)
-- [\[ACL 2025\] SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings](sea_lowresource_safety_alignment_for_multimodal.md)
+- [\[ACL 2025\] Probability-Consistent Preference Optimization for Enhanced LLM Reasoning](probability-consistent_preference_optimization_for_enhanced_llm_reasoning.md)
 
 <!-- RELATED:END -->

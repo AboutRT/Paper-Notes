@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.22886](https://arxiv.org/abs/2507.22886)  
 **代码**: [OmniAVS](https://henghuiding.com/OmniAVS/)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 音频-视觉分割, 全模态指代, 推理分割, 多模态大语言模型, 查询传播
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 共形预测
-  - 轨迹优化
+  - LLM评测
   - 不确定性量化
   - 闭环反馈
   - 风险分配
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.16376](https://arxiv.org/abs/2510.16376)  
 **代码**: [github.com/DOCU-Lab/Feedback-based_Conformal_Prediction](https://github.com/DOCU-Lab/Feedback-based_Conformal_Prediction)  
-**领域**: others  
+**领域**: LLM评测  
 **关键词**: 共形预测, 轨迹优化, 不确定性量化, 闭环反馈, 风险分配
 
 ## 一句话总结
@@ -135,9 +135,9 @@ $$\sum_{\tau=t+1}^{T} \alpha_\tau \leq \alpha - \sum_{\tau=0}^{t} \beta_\tau$$
 ## 相关论文
 
 - [\[ICML 2025\] On Temperature Scaling and Conformal Prediction of Deep Classifiers](../../ICML2025/llm_evaluation/on_temperature_scaling_and_conformal_prediction_of_deep_classifiers.md)
+- [\[NeurIPS 2025\] Document Summarization with Conformal Importance Guarantees](document_summarization_with_conformal_importance_guarantees.md)
 - [\[ICLR 2026\] Conformal Prediction Adaptive to Unknown Subpopulation Shifts](../../ICLR2026/llm_evaluation/conformal_prediction_adaptive_to_unknown_subpopulation_shifts.md)
 - [\[CVPR 2026\] Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score](../../CVPR2026/llm_evaluation/semi-supervised_conformal_prediction_with_unlabeled_nonconformity_score.md)
 - [\[NeurIPS 2025\] Asymmetric Duos: Sidekicks Improve Uncertainty](asymmetric_duos_sidekicks_improve_uncertainty.md)
-- [\[CVPR 2025\] Uncertainty Weighted Gradients for Model Calibration](../../CVPR2025/llm_evaluation/uncertainty_weighted_gradients_for_model_calibration.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.20122](https://arxiv.org/abs/2502.20122)  
-**代码**: https://github.com/TergelMunkhbat/concise-reasoning (有)  
-**领域**: LLM推理  
+**代码**: [https://github.com/TergelMunkhbat/concise-reasoning](https://github.com/TergelMunkhbat/concise-reasoning)  
+**领域**: LLM/NLP  
 **关键词**: 简洁推理, 自训练, Best-of-N采样, Few-shot条件化, token效率
 
 ## 一句话总结
@@ -154,7 +154,7 @@ Pipeline 分为三个阶段：
 - [\[ACL 2025\] Cool-Fusion: Fuse Large Language Models without Training](cool-fusion_fuse_large_language_models_without_training.md)
 - [\[ACL 2025\] Disentangling Memory and Reasoning Ability in Large Language Models](disentangle_memory_reasoning.md)
 - [\[ACL 2025\] The Role of Deductive and Inductive Reasoning in Large Language Models](the_role_of_deductive_and_inductive_reasoning_in_large_language_models.md)
+- [\[ACL 2025\] GradOT: Training-free Gradient-preserving Offsite-tuning for Large Language Models](gradot_offsite_tuning.md)
 - [\[ACL 2025\] ExpliCa: Evaluating Explicit Causal Reasoning in Large Language Models](explica_evaluating_explicit_causal_reasoning_in_large_language_models.md)
-- [\[ACL 2025\] ProgCo: Program Helps Self-Correction of Large Language Models](progco_program_helps_self-correction_of_large_language_models.md)
 
 <!-- RELATED:END -->

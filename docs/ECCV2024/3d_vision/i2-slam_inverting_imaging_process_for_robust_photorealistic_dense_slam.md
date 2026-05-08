@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.11347](https://arxiv.org/abs/2407.11347)  
-**代码**: https://3d.snu.ac.kr/publications/I2SLAM (项目页)  
+**代码**: [https://3d.snu.ac.kr/publications/I2SLAM](https://3d.snu.ac.kr/publications/I2SLAM) (项目页)  
 **领域**: 3D视觉  
 **关键词**: SLAM, 运动模糊, HDR重建, 3D高斯溅射, 神经辐射场
 

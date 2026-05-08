@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.03448](https://arxiv.org/abs/2604.03448)  
-**代码**: https://github.com/kenantang/ExpressEdit  
+**代码**: [https://github.com/kenantang/ExpressEdit](https://github.com/kenantang/ExpressEdit)  
 **领域**: 扩散模型  
 **关键词**: 表情编辑, Photoshop插件, 扩散模型, 风格化角色, 检索增强生成
 

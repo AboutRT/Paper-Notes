@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.03768](https://arxiv.org/abs/2508.03768)  
 **代码**: 无  
-**领域**: 强化学习/分布鲁棒优化  
+**领域**: 图像生成  
 **关键词**: Distributionally Robust RL, online learning, f-divergence, Minimax Optimal, Sample Complexity
 
 ## 一句话总结

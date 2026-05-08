@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.12446](https://arxiv.org/abs/2502.12446)  
-**代码**: https://github.com/duykhuongnguyen/MAT-Steer  
+**代码**: [https://github.com/duykhuongnguyen/MAT-Steer](https://github.com/duykhuongnguyen/MAT-Steer)  
 **领域**: LLM / NLP  
 **关键词**: inference-time intervention, steering vectors, multi-attribute alignment, gating mechanism, representation alignment
 

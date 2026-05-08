@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.12891](https://arxiv.org/abs/2505.12891)  
 **代码**: [GitHub](https://github.com/ShaohangWei/TimE)  
-**领域**: LLM 推理  
+**领域**: LLM推理  
 **关键词**: 时间推理, 基准评估, 大语言模型, 多层级任务, 真实世界场景
 
 ## 一句话总结

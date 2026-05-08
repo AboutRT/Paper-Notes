@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.06961](https://arxiv.org/abs/2504.06961)  
-**代码**: https://tea-lab.github.io/TwoByTwo/  
+**代码**: [https://tea-lab.github.io/TwoByTwo/](https://tea-lab.github.io/TwoByTwo/)  
 **领域**: 人体/物体理解  
 **关键词**: 3D组装, 成对物体装配, SE(3)位姿估计, 等变特征, 机器人操作
 
@@ -132,9 +132,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Two is Better than One: Efficient Ensemble Defense for Robust and Compact Models](two_is_better_than_one_efficient_ensemble_defense_for_robust_and_compact_models.md)
-- [\[CVPR 2025\] ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning](maniptrans_efficient_dexterous_bimanual_manipulation_transfer_via_residual_learn.md)
 - [\[ICCV 2025\] AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning](../../ICCV2025/human_understanding/ar-vrm_imitating_human_motions_for_visual_robot_manipulation_with_analogical_rea.md)
+- [\[CVPR 2025\] FSFM: A Generalizable Face Security Foundation Model via Self-Supervised Facial Representation Learning](fsfm_a_generalizable_face_security_foundation_model_via_self-supervised_facial_r.md)
 - [\[CVPR 2026\] A Two-Stage Dual-Modality Model for Facial Expression Recognition](../../CVPR2026/human_understanding/a_two_stage_dual_modality_model_for_facial_expression_recognition.md)
-- [\[NeurIPS 2025\] Preference-based Reinforcement Learning beyond Pairwise Comparisons: Benefits of Multiple Options](../../NeurIPS2025/human_understanding/preference-based_reinforcement_learning_beyond_pairwise_comparisons_benefits_of_.md)
+- [\[CVPR 2025\] FreeUV: Ground-Truth-Free Realistic Facial UV Texture Recovery via Cross-Assembly](freeuv_ground-truth-free_realistic_facial_uv_texture_recovery_via_cross-assembly.md)
 
 <!-- RELATED:END -->

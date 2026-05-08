@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.12002](https://arxiv.org/abs/2403.12002)  
-**代码**: 有 (项目页面: https://hyeonho99.github.io/dreammotion)  
+**代码**: 有 (项目页面: [https://hyeonho99.github.io/dreammotion](https://hyeonho99.github.io/dreammotion))  
 **领域**: 扩散模型 / 视频编辑  
 **关键词**: Score Distillation, 视频编辑, 自相似性, 扩散模型, 零样本
 
@@ -54,7 +54,7 @@ DreamMotion的优化策略由三个部分组成：
 
    DDS通过引入参考文本-图像对消除SDS中的噪声方向：
 
-   $$\mathcal{L}_{\text{V-DDS}}(\theta;y) = \|\boldsymbol{\epsilon}_\phi^w(\boldsymbol{x}_t^{1:N}(\theta), t, y) - \boldsymbol{\epsilon}_\phi^w(\hat{\boldsymbol{x}}_t^{1:N}, t, \hat{y})\|_2^2$$
+    $\mathcal{L}_{\text{V-DDS}}(\theta;y) = \|\boldsymbol{\epsilon}_\phi^w(\boldsymbol{x}_t^{1:N}(\theta), t, y) - \boldsymbol{\epsilon}_\phi^w(\hat{\boldsymbol{x}}_t^{1:N}, t, \hat{y})\|_2^2$
 
    同时使用二值掩码 $m^{1:N}$ 过滤梯度（$\nabla_\theta \mathcal{L}_{\text{V-DDS}} \odot m^{1:N}$），确保非编辑区域不受影响，避免模糊和过饱和。掩码由现成目标检测模型生成的边界框得到。
 
@@ -66,9 +66,9 @@ DreamMotion的优化策略由三个部分组成：
 
    具体做法：向原始和编辑视频添加相同噪声，通过视频扩散U-Net提取attention key特征 $K(\boldsymbol{x}_t^{1:N}), K(\hat{\boldsymbol{x}}_t^{1:N}) \in \mathbb{R}^{N \times (H \times W) \times C}$，计算每帧的空间自相似图：
 
-   $$SS_{i,j}^n(\boldsymbol{x}_t^{1:N}) = \cos(K_i^n(x_t^{1:N}), K_j^n(x_t^{1:N}))$$
+    $SS_{i,j}^n(\boldsymbol{x}_t^{1:N}) = \cos(K_i^n(x_t^{1:N}), K_j^n(x_t^{1:N}))$
 
-   $$\mathcal{L}_{\text{S-SSM}} = \frac{1}{N}\sum_{n=1}^{N}\|SS^n(\boldsymbol{x}_t^{1:N}) - SS^n(\hat{\boldsymbol{x}}_t^{1:N})\|_2^2$$
+    $\mathcal{L}_{\text{S-SSM}} = \frac{1}{N}\sum_{n=1}^{N}\|SS^n(\boldsymbol{x}_t^{1:N}) - SS^n(\hat{\boldsymbol{x}}_t^{1:N})\|_2^2$
 
    **设计动机**：自相似性对局部纹理模式具有鲁棒性，同时能保留全局布局和物体形状。这是首次将深层扩散特征的自相似性应用于视频编辑中的结构保持。
 
@@ -76,13 +76,13 @@ DreamMotion的优化策略由三个部分组成：
 
    S-SSM是逐帧独立优化，不考虑帧间相关性，可能导致局部扭曲和闪烁。T-SSM通过空间边际均值将key特征压缩为全局描述符：
 
-   $$M[K(\boldsymbol{x}_t^{1:N})] = \frac{1}{H \cdot W}\sum_{i=1}^{H \cdot W}K_i(\boldsymbol{x}_t^{1:N}) \in \mathbb{R}^{N \times C}$$
+    $M[K(\boldsymbol{x}_t^{1:N})] = \frac{1}{H \cdot W}\sum_{i=1}^{H \cdot W}K_i(\boldsymbol{x}_t^{1:N}) \in \mathbb{R}^{N \times C}$
 
    然后在时间维度计算自相似性：
 
-   $$TS_{i,j}(\boldsymbol{x}_t^{1:N}) = \cos(M_i[K(\boldsymbol{x}_t^{1:N})], M_j[K(\boldsymbol{x}_t^{1:N})])$$
+    $TS_{i,j}(\boldsymbol{x}_t^{1:N}) = \cos(M_i[K(\boldsymbol{x}_t^{1:N})], M_j[K(\boldsymbol{x}_t^{1:N})])$
 
-   $$\mathcal{L}_{\text{T-SSM}} = \|TS(\boldsymbol{x}_t^{1:N}) - TS(\hat{\boldsymbol{x}}_t^{1:N})\|_2^2$$
+    $\mathcal{L}_{\text{T-SSM}} = \|TS(\boldsymbol{x}_t^{1:N}) - TS(\hat{\boldsymbol{x}}_t^{1:N})\|_2^2$
 
    **设计动机**：空间边际均值作为一阶统计量，能在压缩空间信息的同时保留关键空间细节，已被证明是有效的全局描述符。
 

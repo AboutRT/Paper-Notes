@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.13716](https://arxiv.org/abs/2512.13716)  
 **代码**: 未公开  
-**领域**: llm_nlp  
+**领域**: 可解释性  
 **关键词**: value-driven decision-making, personalized AI, PROMETHEE, multi-criteria decision-making, human values
 
 ## 一句话总结

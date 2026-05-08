@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.00216](https://arxiv.org/abs/2507.00216)  
 **代码**: [shreyahavaldar/style_alignment](https://github.com/shreyahavaldar/style_alignment)  
-**领域**: NLP / 机器翻译 / 跨文化风格迁移  
+**领域**: 其他  
 **关键词**: Style Alignment, Cross-Cultural Translation, RASTA, Stylistic Concepts, Retrieval-Augmented Translation
 
 ## 一句话总结
@@ -132,7 +132,7 @@ RASTA (Retrieval-Augmented STylistic Alignment) 的流程：(1) 在多语言嵌�
 - [\[ACL 2025\] ALGEN: Few-Shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment](algen_few-shot_inversion_attacks_on_textual_embeddings_via_cross-model_alignment.md)
 - [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
 - [\[ACL 2025\] Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education](uni-retrieval_a_multi-style_retrieval_framework_for_stems_education.md)
-- [\[ACL 2025\] Model Extrapolation Expedites Alignment](expo_model_extrapolation.md)
 - [\[ACL 2025\] Using Source-Side Confidence Estimation for Reliable Translation into Unfamiliar Languages](using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)
+- [\[ACL 2025\] Improving Language and Modality Transfer in Translation by Character-level Modeling](improving_language_and_modality_transfer_in.md)
 
 <!-- RELATED:END -->

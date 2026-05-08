@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2407.18743](https://arxiv.org/abs/2407.18743)  
-**代码**: https://github.com/RUC-GSAI/Llama-3-SynE  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/RUC-GSAI/Llama-3-SynE](https://github.com/RUC-GSAI/Llama-3-SynE)  
+**领域**: LLM预训练  
 **关键词**: 持续预训练, 合成数据, 灾难性遗忘, 数据课程学习, 双语适配
 
 ## 一句话总结

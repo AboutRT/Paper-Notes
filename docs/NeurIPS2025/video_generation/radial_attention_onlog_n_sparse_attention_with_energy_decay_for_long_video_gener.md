@@ -9,14 +9,14 @@ tags:
   - 时空能量衰减
   - O(n log n)
   - 长视频生成
-  - LoRA 微调
+  - 视频生成
 ---
 
 # Radial Attention: O(n log n) Sparse Attention with Energy Decay for Long Video Generation
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.19852](https://arxiv.org/abs/2506.19852)  
-**代码**: https://github.com/mit-han-lab/radial-attention  
+**代码**: [https://github.com/mit-han-lab/radial-attention](https://github.com/mit-han-lab/radial-attention)  
 **领域**: 高效视频生成 / 稀疏注意力  
 **关键词**: 稀疏注意力, 时空能量衰减, O(n log n), 长视频生成, LoRA 微调
 
@@ -149,8 +149,8 @@ Radial Attention 是一种静态稀疏注意力机制，使用预定义的掩码
 
 - [\[NeurIPS 2025\] VSA: Faster Video Diffusion with Trainable Sparse Attention](vsa_faster_video_diffusion_with_trainable_sparse_attention.md)
 - [\[NeurIPS 2025\] VORTA: Efficient Video Diffusion via Routing Sparse Attention](vorta_efficient_video_diffusion_via_routing_sparse_attention.md)
-- [\[CVPR 2025\] Presto: Long Video Diffusion Generation with Segmented Cross-Attention and Content-Rich Video Data Curation](../../CVPR2025/video_generation/long_video_diffusion_generation_with_segmented_cross-attention_and_content-rich_.md)
 - [\[NeurIPS 2025\] S²Q-VDiT: Accurate Quantized Video Diffusion Transformer with Salient Data and Sparse Token Distillation](s2q-vdit_accurate_quantized_video_diffusion_transformer_with_salient_data_and_sp.md)
+- [\[CVPR 2025\] Presto: Long Video Diffusion Generation with Segmented Cross-Attention and Content-Rich Video Data Curation](../../CVPR2025/video_generation/long_video_diffusion_generation_with_segmented_cross-attention_and_content-rich_.md)
 - [\[NeurIPS 2025\] Scaling RL to Long Videos](scaling_rl_to_long_videos.md)
 
 <!-- RELATED:END -->

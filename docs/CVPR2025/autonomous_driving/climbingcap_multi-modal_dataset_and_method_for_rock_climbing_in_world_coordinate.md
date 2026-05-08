@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21268](https://arxiv.org/abs/2503.21268)  
-**代码**: http://www.lidarhumanmotion.net/climbingcap/  
-**领域**: 人体理解  
+**代码**: [http://www.lidarhumanmotion.net/climbingcap/](http://www.lidarhumanmotion.net/climbingcap/)  
+**领域**: 自动驾驶  
 **关键词**: motion capture, climbing, multi-modal dataset, SMPL, LiDAR
 
 ## 一句话总结
@@ -129,7 +129,7 @@ tags:
 - [\[CVPR 2025\] LiSu: A Dataset and Method for LiDAR Surface Normal Estimation](lisu_a_dataset_and_method_for_lidar_surface_normal_estimation.md)
 - [\[CVPR 2025\] Towards Satellite Image Road Graph Extraction: A Global-Scale Dataset and A Novel Method](towards_satellite_image_road_graph_extraction_a_global-scale_dataset_and_a_novel.md)
 - [\[CVPR 2025\] Multi-modal Knowledge Distillation-based Human Trajectory Forecasting](multi-modal_knowledge_distillation-based_human_trajectory_forecasting.md)
+- [\[CVPR 2025\] Neural Inverse Rendering from Propagating Light](neural_inverse_rendering_from_propagating_light.md)
 - [\[CVPR 2025\] Open-Canopy: Towards Very High Resolution Forest Monitoring](open-canopy_towards_very_high_resolution_forest_monitoring.md)
-- [\[CVPR 2025\] RENO: Real-Time Neural Compression for 3D LiDAR Point Clouds](reno_real-time_neural_compression_for_3d_lidar_point_clouds.md)
 
 <!-- RELATED:END -->

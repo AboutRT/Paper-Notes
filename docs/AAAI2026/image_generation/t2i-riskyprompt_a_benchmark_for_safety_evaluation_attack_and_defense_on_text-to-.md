@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2510.22300](https://arxiv.org/abs/2510.22300)  
-**代码**: https://github.com/datar001/T2I-RiskyPrompt  
+**代码**: [https://github.com/datar001/T2I-RiskyPrompt](https://github.com/datar001/T2I-RiskyPrompt)  
 **领域**: 扩散模型  
 **关键词**: T2I安全, 风险评估, 层次化风险分类, Jailbreak攻击, 安全过滤器
 

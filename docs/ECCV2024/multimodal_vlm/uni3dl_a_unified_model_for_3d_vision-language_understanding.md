@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 3D视觉-语言统一模型
+  - 多模态VLM
   - 点云理解
   - Transformer
   - 多任务学习
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.03026](https://arxiv.org/abs/2312.03026)  
-**代码**: https://uni3dl.github.io/ (有)  
+**代码**: [https://uni3dl.github.io/](https://uni3dl.github.io/)  
 **领域**: 多模态VLM / 3D视觉  
 **关键词**: 3D视觉-语言统一模型, 点云理解, Query Transformer, 多任务学习, 功能统一
 
@@ -191,10 +191,10 @@ Uni3DL 在 6 大任务上的表现（Table 3）：
 
 ## 相关论文
 
-- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_lan.md)
+- [\[ECCV 2024\] Large Motion Model for Unified Multi-Modal Motion Generation](large_motion_model_for_unified_multi-modal_motion_generation.md)
+- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_language_models.md)
 - [\[ECCV 2024\] UMBRAE: Unified Multimodal Brain Decoding](umbrae_unified_multimodal_brain_decoding.md)
-- [\[NeurIPS 2025\] UniTok: A Unified Tokenizer for Visual Generation and Understanding](../../NeurIPS2025/multimodal_vlm/unitok_a_unified_tokenizer_for_visual_generation_and_understanding.md)
-- [\[CVPR 2026\] HiSpatial: Taming Hierarchical 3D Spatial Understanding in Vision-Language Models](../../CVPR2026/multimodal_vlm/hispatial_taming_hierarchical_3d_spatial_understanding_in_vision-language_models.md)
 - [\[ICLR 2026\] UniHM: Unified Dexterous Hand Manipulation with Vision Language Model](../../ICLR2026/multimodal_vlm/unihm_unified_dexterous_hand_manipulation_with_vision_language_model.md)
+- [\[NeurIPS 2025\] UniTok: A Unified Tokenizer for Visual Generation and Understanding](../../NeurIPS2025/multimodal_vlm/unitok_a_unified_tokenizer_for_visual_generation_and_understanding.md)
 
 <!-- RELATED:END -->

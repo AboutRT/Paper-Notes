@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2407.01887](https://arxiv.org/abs/2407.01887)  
 **代码**: 待确认  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: 上下文强化学习, Dueling Bandits, LLM决策, LEAD框架, 遗憾界
 
 ## 一句话总结

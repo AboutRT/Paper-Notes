@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.09160](https://arxiv.org/abs/2504.09160)  
-**代码**: https://scflow2.github.io  
+**代码**: [https://scflow2.github.io](https://scflow2.github.io)  
 **领域**: 3D视觉 / 6D 位姿估计  
 **关键词**: 6D位姿精修, 场景流, 形状约束, 即插即用, 零样本泛化
 
@@ -145,6 +145,6 @@ $$\mathcal{L} = \sum_{k=1}^{N} \gamma^{N-k} (\mathcal{L}_{pose}^k + \alpha \math
 - [\[ECCV 2024\] Protecting NeRFs' Copyright via Plug-And-Play Watermarking Base Model](../../ECCV2024/3d_vision/protecting_nerfsapos_copyright_via_plug-and-play_watermarking_base_model.md)
 - [\[CVPR 2025\] DualPM: Dual Posed-Canonical Point Maps for 3D Shape and Pose Reconstruction](dualpm_dual_point_maps_shape_pose.md)
 - [\[CVPR 2025\] Floxels: Fast Unsupervised Voxel Based Scene Flow Estimation](floxels_fast_unsupervised_voxel_based_scene_flow_estimation.md)
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
+- [\[CVPR 2025\] Flow-NeRF: Joint Learning of Geometry, Poses, and Dense Flow within Unified Neural Representations](flow-nerf_joint_learning_of_geometry_poses_and_dense_flow_within_unified_neural_.md)
 
 <!-- RELATED:END -->

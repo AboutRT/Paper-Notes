@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.01844](https://arxiv.org/abs/2602.01844)  
-**代码**: https://github.com/whynot-zyl/CloDS  
+**代码**: [https://github.com/whynot-zyl/CloDS](https://github.com/whynot-zyl/CloDS)  
 **领域**: 3D视觉  
 **关键词**: 布料动力学, 无监督学习, 高斯溅射, 可微渲染, 直觉物理
 

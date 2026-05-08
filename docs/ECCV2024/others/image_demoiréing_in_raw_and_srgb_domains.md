@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.09063](https://arxiv.org/abs/2312.09063)  
-**代码**: https://github.com/rebeccaeexu/RRID  
-**领域**: 图像复原  
+**代码**: [https://github.com/rebeccaeexu/RRID](https://github.com/rebeccaeexu/RRID)  
+**领域**: 其他  
 **关键词**: 图像去摩尔纹, RAW域处理, ISP学习, 频域滤波, 双域融合
 
 ## 一句话总结
@@ -128,6 +128,6 @@ RRID的输入是配对的RAW图像 $\mathbf{I}_{raw} \in \mathbb{R}^{H/2 \times 
 - [\[CVPR 2026\] POLISH'ing the Sky: Wide-Field and High-Dynamic Range Interferometric Image Reconstruction](../../CVPR2026/others/polishing_the_sky_widefield_and_highdynamic_range.md)
 - [\[ECCV 2024\] Intrinsic Single-Image HDR Reconstruction](intrinsic_single-image_hdr_reconstruction.md)
 - [\[ECCV 2024\] COIN-Matting: Confounder Intervention for Image Matting](coin-matting_confounder_intervention_for_image_matting.md)
-- [\[ICLR 2026\] Predicting Kernel Regression Learning Curves from Only Raw Data Statistics](../../ICLR2026/others/predicting_kernel_regression_learning_curves_from_only_raw_data_statistics.md)
+- [\[CVPR 2025\] Removing Reflections from RAW Photos](../../CVPR2025/others/removing_reflections_from_raw_photos.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.09723](https://arxiv.org/abs/2502.09723)  
-**代码**: https://github.com/horizonsinzqs/QueryAttack (有)  
+**代码**: [https://github.com/horizonsinzqs/QueryAttack](https://github.com/horizonsinzqs/QueryAttack)  
 **领域**: LLM对齐 / 越狱攻击  
 **关键词**: 越狱攻击, 结构化查询, 编程语言, 安全对齐, 黑盒攻击
 

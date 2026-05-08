@@ -8,7 +8,7 @@ tags:
   - 语音
   - 音视频语音分离
   - 离散唇语语义
-  - 向量量化
+  - 音频语音
   - 全局-局部注意力
   - 轻量化
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.23610](https://arxiv.org/abs/2509.23610)  
-**代码**: 有（https://cslikai.cn/Dolphin）  
+**代码**: 有（[https://cslikai.cn/Dolphin](https://cslikai.cn/Dolphin)）  
 **领域**: 音频语音  
 **关键词**: 音视频语音分离, 离散唇语语义, 向量量化, 全局-局部注意力, 轻量化
 
@@ -178,10 +178,10 @@ HDA 层 vs Conv1D：HDA 达到 16.9 dB SI-SNRi，优于 Conv1D 的 16.5 dB，参
 
 ## 相关论文
 
+- [\[ICLR 2026\] MAPSS: Manifold-Based Assessment of Perceptual Source Separation](mapss_manifold-based_assessment_of_perceptual_source_separation.md)
 - [\[ICLR 2026\] Knowing When to Quit: Probabilistic Early Exits for Speech Separation](knowing_when_to_quit_probabilistic_early_exits_for_speech_separation.md)
 - [\[ICLR 2026\] Pay Attention to CTC: Fast and Robust Pseudo-Labelling for Unified Speech Recognition](pay_attention_to_ctc_fast_and_robust_pseudo-labelling_for_unified_speech_recogni.md)
-- [\[ICLR 2026\] MAPSS: Manifold-Based Assessment of Perceptual Source Separation](mapss_manifold-based_assessment_of_perceptual_source_separation.md)
-- [\[ACL 2025\] MMS-LLaMA: Efficient LLM-based Audio-Visual Speech Recognition with Minimal Multimodal Speech Tokens](../../ACL2025/audio_speech/mms-llama_efficient_llm-based_audio-visual_speech_recognition_with_minimal_multi.md)
-- [\[NeurIPS 2025\] Multi-head Temporal Latent Attention](../../NeurIPS2025/audio_speech/multi-head_temporal_latent_attention.md)
+- [\[ICLR 2026\] Query-Guided Spatial-Temporal-Frequency Interaction for Music Audio-Visual Question Answering](query-guided_spatial-temporal-frequency_interaction_for_music_audio-visual_quest.md)
+- [\[AAAI 2026\] Multi-granularity Interactive Attention Framework for Residual Hierarchical Pronunciation Assessment](../../AAAI2026/audio_speech/multi-granularity_interactive_attention_framework_for_residual_hierarchical_pron.md)
 
 <!-- RELATED:END -->

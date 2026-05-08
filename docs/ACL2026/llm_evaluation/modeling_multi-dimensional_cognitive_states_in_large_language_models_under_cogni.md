@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.17174](https://arxiv.org/abs/2604.17174)  
 **代码**: [GitHub](https://github.com/Chips98/HyCoLLM_for_ACL2026)  
-**领域**: LLM评估 / 认知建模  
+**领域**: LLM评测  
 **关键词**: 认知状态建模, 认知拥挤, 双曲空间, 多维度联合预测, CognitiveBench
 
 ## 一句话总结

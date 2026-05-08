@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.19264](https://arxiv.org/abs/2511.19264)  
-**代码**: [GitHub](https://github.com/amirtha-montai/synflownet_public/tree/main/src/interpretability) (有)  
+**代码**: [GitHub](https://github.com/amirtha-montai/synflownet_public/tree/main/src/interpretability)  
 **领域**: 药物发现 / 可解释AI  
 **关键词**: GFlowNet, 可解释性, 药物发现, 稀疏自编码器, 反事实分析
 
@@ -158,6 +158,6 @@ tags:
 - [\[NeurIPS 2025\] Compressing Biology: Evaluating the Stable Diffusion VAE for Phenotypic Drug Discovery](compressing_biology_evaluating_the_stable_diffusion_vae_for_phenotypic_drug_disc.md)
 - [\[ICML 2025\] GenMol: A Drug Discovery Generalist with Discrete Diffusion](../../ICML2025/medical_imaging/genmol_a_drug_discovery_generalist_with_discrete_diffusion.md)
 - [\[NeurIPS 2025\] From Black Box to Biomarker: Sparse Autoencoders for Interpreting Speech Models of Parkinson's Disease](from_black_box_to_biomarker_sparse_autoencoders_for_interpreting_speech_models_o.md)
-- [\[NeurIPS 2025\] Online Feedback Efficient Active Target Discovery in Partially Observable Environments](online_feedback_efficient_active_target_discovery_in_partially_observable_enviro.md)
+- [\[NeurIPS 2025\] Pharmacophore-Guided Generative Design of Novel Drug-Like Molecules](pharmacophore-guided_generative_design_of_novel_drug-like_molecules.md)
 
 <!-- RELATED:END -->

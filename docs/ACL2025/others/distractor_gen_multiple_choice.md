@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 干扰项生成
   - 多选题
-  - DPO
+  - 其他
   - 学生选择预测
   - 教育评估
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.13125](https://arxiv.org/abs/2501.13125)  
-**代码**: [GitHub](https://github.com/holi-lab/distractor-generator) (有)  
-**领域**: 教育NLP / 自动出题  
+**代码**: [GitHub](https://github.com/holi-lab/distractor-generator)  
+**领域**: 其他  
 **关键词**: 干扰项生成, 多选题, DPO, 学生选择预测, 教育评估
 
 ## 一句话总结
@@ -126,9 +126,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] The Publication Choice Problem](../../AAAI2026/others/the_publication_choice_problem.md)
-- [\[ACL 2025\] Knowledge Tracing in Programming Education Integrating Students' Questions](knowledge_tracing_in_programming_education_integrating_students_questions.md)
-- [\[ICLR 2026\] Optimizer Choice Matters for the Emergence of Neural Collapse](../../ICLR2026/others/optimizer_choice_matters_for_the_emergence_of_neural_collapse.md)
 - [\[ACL 2025\] Infogen: Generating Complex Statistical Infographics from Documents](infogen_generating_complex_statistical_infographics_from_documents.md)
 - [\[ACL 2025\] Cautious Next Token Prediction](cautious_next_token_prediction.md)
+- [\[ACL 2025\] QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation](qg-sms_enhancing_test_item_analysis_via_student_modeling_and_simulation.md)
+- [\[ACL 2025\] On Support Samples of Next Word Prediction](on_support_samples_of_next_word_prediction.md)
 
 <!-- RELATED:END -->

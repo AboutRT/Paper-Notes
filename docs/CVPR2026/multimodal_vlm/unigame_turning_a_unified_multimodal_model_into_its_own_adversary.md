@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 多模态
   - 统一多模态模型
-  - 自对抗训练
+  - 多模态VLM
   - 一致性
   - 后训练
   - 极小极大优化
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.19413](https://arxiv.org/abs/2511.19413)  
-**代码**: https://github.com/AIFrontierLab/TorchUMM  
+**代码**: [https://github.com/AIFrontierLab/TorchUMM](https://github.com/AIFrontierLab/TorchUMM)  
 **领域**: 多模态VLM  
 **关键词**: 统一多模态模型, 自对抗训练, 一致性, 后训练, 极小极大优化
 
@@ -138,9 +138,9 @@ UniGame 在标准 UMM（如 Janus-Pro-7B）上添加两个轻量模块：(1) 扰
 ## 相关论文
 
 - [\[CVPR 2026\] Customized Visual Storytelling with Unified Multimodal LLMs](customized_visual_storytelling_with_unified_multimodal_llms.md)
+- [\[CVPR 2026\] UNICBench: UNIfied Counting Benchmark for MLLM](unicbench_unified_counting_benchmark_for_mllm.md)
 - [\[ICLR 2026\] UniHM: Unified Dexterous Hand Manipulation with Vision Language Model](../../ICLR2026/multimodal_vlm/unihm_unified_dexterous_hand_manipulation_with_vision_language_model.md)
-- [\[ECCV 2024\] Uni3DL: Unified Model for 3D and Language Understanding](../../ECCV2024/multimodal_vlm/uni3dl_a_unified_model_for_3d_vision-language_understanding.md)
-- [\[CVPR 2026\] VecGlypher: Unified Vector Glyph Generation with Language Models](vecglypher_unified_vector_glyph_generation_with_language_models.md)
 - [\[CVPR 2026\] Revisiting Model Stitching in the Foundation Model Era](revisiting_model_stitching_in_the_foundation_model.md)
+- [\[CVPR 2026\] VecGlypher: Unified Vector Glyph Generation with Language Models](vecglypher_unified_vector_glyph_generation_with_language_models.md)
 
 <!-- RELATED:END -->

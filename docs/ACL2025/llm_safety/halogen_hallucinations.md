@@ -9,7 +9,7 @@ tags:
   - 原子事实验证
   - 错误分类学
   - 自动验证器
-  - 多领域评估
+  - LLM安全
 ---
 
 # HALoGEN: Fantastic LLM Hallucinations and Where to Find Them
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Outstanding Paper)  
 **arXiv**: N/A (ACL Anthology: 2025.acl-long.71)  
 **代码**: [有](https://github.com/google/halogen)  
-**领域**: LLM评估 / 幻觉检测 / AI安全  
+**领域**: LLM安全  
 **关键词**: 幻觉基准, 原子事实验证, 错误分类学, 自动验证器, 多领域评估
 
 ## 一句话总结
@@ -126,10 +126,10 @@ HALoGEN 由两大核心组成：(1) 涵盖 9 个领域的 10,923 条生成式 pr
 
 ## 相关论文
 
-- [\[ACL 2026\] Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning](../../ACL2026/llm_safety/maximizing_local_entropy_where_it_matters_prefix-aware_localized_llm_unlearning.md)
-- [\[NeurIPS 2025\] Teaming LLMs to Detect and Mitigate Hallucinations](../../NeurIPS2025/llm_safety/teaming_llms_to_detect_and_mitigate_hallucinations.md)
-- [\[ACL 2025\] Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning](alleviating_hallucinations_from_knowledge_misalignment_in_large_language_models_.md)
+- [\[NeurIPS 2025\] ALMGuard: Safety Shortcuts and Where to Find Them as Guardrails for Audio-Language Models](../../NeurIPS2025/llm_safety/almguard_safety_shortcuts_and_where_to_find_them_as_guardrails_for_audio-languag.md)
 - [\[ACL 2025\] Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization in LLMs](stochastic_chameleons_irrelevant_context_hallucinations_reveal_class-based_misge.md)
+- [\[NeurIPS 2025\] Teaming LLMs to Detect and Mitigate Hallucinations](../../NeurIPS2025/llm_safety/teaming_llms_to_detect_and_mitigate_hallucinations.md)
+- [\[ACL 2026\] Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning](../../ACL2026/llm_safety/maximizing_local_entropy_where_it_matters_prefix-aware_localized_llm_unlearning.md)
 - [\[ACL 2025\] Faithful and Robust LLM-Driven Theorem Proving for NLI Explanations](faithful_and_robust_llm-driven_theorem_proving_for_nli_explanations.md)
 
 <!-- RELATED:END -->

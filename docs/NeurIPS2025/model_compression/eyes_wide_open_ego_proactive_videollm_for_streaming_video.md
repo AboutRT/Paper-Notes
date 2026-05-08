@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.14560](https://arxiv.org/abs/2510.14560)  
 **代码**: [https://zhangyl4.github.io/publications/eyes-wide-open/](https://zhangyl4.github.io/publications/eyes-wide-open/)  
-**领域**: 视频理解 / 流式处理 / 第一视角  
+**领域**: 模型压缩  
 **关键词**: streaming video, proactive response, ego-centric, just-in-time, dynamic compression, ESTP-Bench  
 **作者**: Yulin Zhang (ShanghaiTech), Cheng Shi (HKU), Yang Wang (ShanghaiTech), Sibei Yang† (SYSU)
 
@@ -131,10 +131,10 @@ $$\text{ESTP-F1} = \frac{2 \times \sum_{k=1}^{M} S(g_k)}{2\sum_{k=1}^{M} S(g_k) 
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](recurrent_attention-based_token_selection_for_efficient_streaming_video-llms.md)
 - [\[NeurIPS 2025\] 4DGCPro: Efficient Hierarchical 4D Gaussian Compression for Progressive Volumetric Video Streaming](4dgcpro_efficient_hierarchical_4d_gaussian_compression_for_p.md)
 - [\[NeurIPS 2025\] Smooth Regularization for Efficient Video Recognition](smooth_regularization_for_efficient_video_recognition.md)
 - [\[NeurIPS 2025\] AI-Generated Video Detection via Perceptual Straightening](ai-generated_video_detection_via_perceptual_straightening.md)
 - [\[NeurIPS 2025\] Mitigating Semantic Collapse in Partially Relevant Video Retrieval](mitigating_semantic_collapse_in_partially_relevant_video_retrieval.md)
-- [\[NeurIPS 2025\] VESSA: Video-based objEct-centric Self-Supervised Adaptation for Visual Foundation Models](vessa_video-based_object-centric_self-supervised_adaptation_for_visual_foundatio.md)
 
 <!-- RELATED:END -->

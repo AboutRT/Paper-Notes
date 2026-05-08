@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01244](https://arxiv.org/abs/2412.01244)  
-**代码**: https://github.com/zhang-lingyun/ConceptReplacer  
+**代码**: [https://github.com/zhang-lingyun/ConceptReplacer](https://github.com/zhang-lingyun/ConceptReplacer)  
 **领域**: 扩散模型 / AI安全  
 **关键词**: 概念擦除, 精确定位, 少样本分割, 双提示交叉注意力, 内容安全
 

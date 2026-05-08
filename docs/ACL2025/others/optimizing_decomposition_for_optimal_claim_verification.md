@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - Decompose-Then-Verify
   - atomicity
-  - 强化学习
+  - 其他
   - PPO
   - fact-checking
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.15354](https://arxiv.org/abs/2503.15354)  
 **代码**: [github.com/yining610/dynamic-decomposition](https://github.com/yining610/dynamic-decomposition)  
-**领域**: 事实核查 / 文本分解 / 强化学习  
+**领域**: 其他  
 **关键词**: Decompose-Then-Verify, atomicity, reinforcement learning, PPO, fact-checking  
 
 ## 一句话总结
@@ -143,10 +143,10 @@ $$L^{\text{PPO}} = \mathbb{E}_t\left[L^{\text{clip}} - c_1 \hat{A}_t^2 + c_2 S[\
 
 ## 相关论文
 
-- [\[ACL 2025\] Adaptive Feature-based Low Rank Plus Sparse Decomposition for Subspace Clustering](adaptive_feature-based_low_rank_plus_sparse_decomposition_for_subspace_clusterin.md)
-- [\[ACL 2025\] Entropy-UID: A Method for Optimizing Information Density](entropy-uid_a_method_for_optimizing_information_density.md)
 - [\[ACL 2025\] RePanda: Pandas-powered Tabular Verification and Reasoning](repanda_pandas-powered_tabular_verification_and_reasoning.md)
 - [\[ACL 2025\] LegalReasoner: Step-wised Verification-Correction for Legal Judgment Reasoning](legalreasoner_step-wised_verification-correction_for_legal_judgment_reasoning.md)
 - [\[ACL 2025\] RMoA: Optimizing Mixture-of-Agents through Diversity Maximization and Residual Compensation](rmoa_optimizing_mixture-of-agents_through_diversity_maximization_and_residual_co.md)
+- [\[ACL 2025\] Entropy-UID: A Method for Optimizing Information Density](entropy-uid_a_method_for_optimizing_information_density.md)
+- [\[ACL 2025\] Adaptive Feature-based Low Rank Plus Sparse Decomposition for Subspace Clustering](adaptive_feature-based_low_rank_plus_sparse_decomposition_for_subspace_clusterin.md)
 
 <!-- RELATED:END -->

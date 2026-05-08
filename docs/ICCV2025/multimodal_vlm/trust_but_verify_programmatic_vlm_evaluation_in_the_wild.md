@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 多模态
   - VLM评测
-  - 幻觉检测
+  - 多模态VLM
   - 场景图
   - 程序化验证
   - 开放式问答
@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2410.13121](https://arxiv.org/abs/2410.13121)  
 **代码**: [项目页面](https://prove-explorer.netlify.app/)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: VLM评测, 幻觉检测, 场景图, 程序化验证, 开放式问答, 有用性-真实性权衡
 
 ## 一句话总结
@@ -171,8 +171,8 @@ $$\text{tscore}(\hat{\mathcal{A}}) = \frac{\sum_{t' \in g(\hat{\mathcal{A}})} \m
 
 - [\[NeurIPS 2025\] Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling](../../NeurIPS2025/multimodal_vlm/generate_but_verify_reducing_hallucination_in_visionlanguage.md)
 - [\[ICCV 2025\] SimpleVQA: Multimodal Factuality Evaluation for Multimodal Large Language Models](simplevqa_multimodal_factuality_evaluation_for_multimodal_large_language_models.md)
-- [\[ICCV 2025\] MolParser: End-to-end Visual Recognition of Molecule Structures in the Wild](molparser_end-to-end_visual_recognition_of_molecule_structures_in_the_wild.md)
-- [\[NeurIPS 2025\] Reading Recognition in the Wild](../../NeurIPS2025/multimodal_vlm/reading_recognition_in_the_wild.md)
 - [\[ICCV 2025\] Fine-Grained Evaluation of Large Vision-Language Models in Autonomous Driving](fine-grained_evaluation_of_large_vision-language_models_in_autonomous_driving.md)
+- [\[ICCV 2025\] Dynamic-VLM: Simple Dynamic Visual Token Compression for VideoLLM](dynamic-vlm_simple_dynamic_visual_token_compression_for_videollm.md)
+- [\[ICCV 2025\] SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference](sparsevila_decoupling_visual_sparsity_for_efficient_vlm_infe.md)
 
 <!-- RELATED:END -->

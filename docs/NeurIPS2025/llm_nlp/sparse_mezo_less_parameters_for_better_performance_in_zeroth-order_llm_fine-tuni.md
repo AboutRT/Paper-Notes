@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2402.15751](https://arxiv.org/abs/2402.15751)  
 **代码**: [GitHub](https://github.com/NUS-HPC-AI-Lab/SparseMeZO)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 零阶优化, 稀疏微调, 内存高效, LLM微调, 梯度噪声  
 
 ## 一句话总结
@@ -160,10 +160,10 @@ S-MeZO 在 RTE 上 **+9.0%**，BoolQ 上 **+5.0%**，平均 **+3.7%**。
 
 ## 相关论文
 
-- [\[ICCV 2025\] Zeroth-Order Fine-Tuning of LLMs in Random Subspaces](../../ICCV2025/llm_nlp/zeroth-order_fine-tuning_of_llms_in_random_subspaces.md)
 - [\[NeurIPS 2025\] Triplets Better Than Pairs: Towards Stable and Effective Self-Play Fine-Tuning for LLMs](triplets_better_than_pairs_towards_stable_and_effective_self-play_fine-tuning_fo.md)
 - [\[ACL 2025\] Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](../../ACL2025/llm_nlp/refining_salience-aware_sparse_fine-tuning_strategies_for_language_models.md)
 - [\[NeurIPS 2025\] Synergy over Discrepancy: A Partition-Based Approach to Multi-Domain LLM Fine-Tuning](synergy_over_discrepancy_a_partition-based_approach_to_multi-domain_llm_fine-tun.md)
 - [\[NeurIPS 2025\] SPACE: Noise Contrastive Estimation Stabilizes Self-Play Fine-Tuning for Large Language Models](space_noise_contrastive_estimation_stabilizes_self-play_fine-tuning_for_large_la.md)
+- [\[NeurIPS 2025\] MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery](moose-chem2_exploring_llm_limits_in_fine-grained_scientific_hypothesis_discovery.md)
 
 <!-- RELATED:END -->

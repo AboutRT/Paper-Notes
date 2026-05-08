@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.14945](https://arxiv.org/abs/2503.14945)  
-**代码**: https://yanhaowu.github.io/UMGen (项目页)  
+**代码**: [https://yanhaowu.github.io/UMGen](https://yanhaowu.github.io/UMGen) (项目页)  
 **领域**: 自动驾驶 / 场景生成  
 **关键词**: 多模态场景生成, 自回归模型, 驾驶仿真, 下一场景预测, 时序一致性
 

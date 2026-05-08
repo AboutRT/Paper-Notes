@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.01759](https://arxiv.org/abs/2603.01759)  
-**代码**: https://github.com/doem97/metalora (有)  
+**代码**: [https://github.com/doem97/metalora](https://github.com/doem97/metalora)  
 **领域**: 遥感 / 模型微调  
 **关键词**: 参数高效微调, 元学习, LoRA, 长尾分布, 遥感图像
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.13592](https://arxiv.org/abs/2512.13592)  
-**代码**: https://github.com/G-U-N/consolver  
+**代码**: [https://github.com/G-U-N/consolver](https://github.com/G-U-N/consolver)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 扩散模型加速, ODE求解器, 强化学习, 预览-细化, 采样效率
 

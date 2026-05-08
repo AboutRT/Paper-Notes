@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CityWalker: Learning Embodied Urban Navigation from Web-Scale Videos
 description: >-
-  [CVPR 2025][城市导航] 利用互联网上超过 2000 小时的城市步行和驾驶视频，通过视觉里程计 (VO) 自动提取动作标签进行大规模模仿学习，训练出能在复杂动态城市环境中导航的具身智能体，真实部署成功率达 77.3%，显著超越现有方法。
+  [CVPR 2025][强化学习] 利用互联网上超过 2000 小时的城市步行和驾驶视频，通过视觉里程计 (VO) 自动提取动作标签进行大规模模仿学习，训练出能在复杂动态城市环境中导航的具身智能体，真实部署成功率达 77.3%，显著超越现有方法。
 tags:
   - CVPR 2025
-  - 城市导航
+  - 强化学习
   - 模仿学习
   - 视觉里程计
   - 网络视频训练
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17820](https://arxiv.org/abs/2411.17820)  
-**代码**: https://ai4ce.github.io/CityWalker/  
+**代码**: [https://ai4ce.github.io/CityWalker/](https://ai4ce.github.io/CityWalker/)  
 **领域**: 具身导航 / 强化学习  
 **关键词**: 城市导航, 模仿学习, 视觉里程计, 网络视频训练, 具身智能
 
@@ -123,9 +123,9 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] Embodied Navigation with Auxiliary Task of Action Description Prediction](../../ICCV2025/reinforcement_learning/embodied_navigation_with_auxiliary_task_of_action_description_prediction.md)
+- [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
 - [\[ICCV 2025\] NavQ: Learning a Q-Model for Foresighted Vision-and-Language Navigation](../../ICCV2025/reinforcement_learning/navq_learning_a_q-model_for_foresighted_vision-and-language_navigation.md)
 - [\[NeurIPS 2025\] DeepDiver: Adaptive Search Intensity Scaling via Open-Web Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/deepdiver_adaptive_search_intensity_scaling_via_open-web_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
 - [\[ICCV 2025\] RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints](../../ICCV2025/reinforcement_learning/robofactory_exploring_embodied_agent_collaboration_with_compositional_constraint.md)
 
 <!-- RELATED:END -->

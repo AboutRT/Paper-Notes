@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.29185](https://arxiv.org/abs/2603.29185)  
-**代码**: https://hqitao.github.io/SplatHLoc  
+**代码**: [https://hqitao.github.io/SplatHLoc](https://hqitao.github.io/SplatHLoc)  
 **领域**: 3D视觉  
 **关键词**: 视觉重定位, 高斯溅射, 特征匹配, 新视角合成, 层级定位
 
@@ -137,7 +137,7 @@ FGS 训练遵循标准 3DGS，损失为 $\mathcal{L} = \mathcal{L}_{\text{rgb}} 
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.29185](https://arxiv.org/abs/2603.29185)  
-**代码**: https://hqitao.github.io/SplatHLoc  
+**代码**: [https://hqitao.github.io/SplatHLoc](https://hqitao.github.io/SplatHLoc)  
 **领域**: 3D视觉  
 **关键词**: 视觉重定位, 高斯溅射, 特征匹配, 新视角合成, 分层定位
 
@@ -245,7 +245,7 @@ SplatHLoc 是一个分层重定位流水线：输入查询图像，先通过 VPR
 - [\[CVPR 2026\] Physically Inspired Gaussian Splatting for HDR Novel View Synthesis](physically_inspired_gaussian_splatting_for_hdr_novel_view_synthesis.md)
 - [\[CVPR 2026\] Scaling View Synthesis Transformers (SVSM)](scaling_view_synthesis_transformers.md)
 - [\[CVPR 2026\] DropAnSH-GS: Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting](dropping_anchor_and_spherical_harmonics_for_sparse-view_gaussian_splatting.md)
-- [\[CVPR 2026\] GeodesicNVS: Probability Density Geodesic Flow Matching for Novel View Synthesis](geodesicnvs_probability_density_geodesic_flow_matching_for_novel_view_synthesis.md)
+- [\[CVPR 2026\] GeodesicNVS: Probability Density Geodesic Flow Matching for Novel View Synthesis](geodesicnvs_flow_matching_novel_view_synthesis.md)
 - [\[CVPR 2026\] SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering](sgs-intrinsic_semantic-invariant_gaussian_splatting_for_sparse-view_indoor_invers.md)
 
 <!-- RELATED:END -->

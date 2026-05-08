@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2510.21635](https://arxiv.org/abs/2510.21635)  
-**代码**: https://github.com/CVI-SZU/DAP-MAE  
+**代码**: [https://github.com/CVI-SZU/DAP-MAE](https://github.com/CVI-SZU/DAP-MAE)  
 **领域**: 3D视觉 / 点云分析 / 自监督学习  
 **关键词**: masked autoencoder, cross-domain learning, 点云, 域适应, 自监督学习
 
@@ -223,9 +223,9 @@ HDA 和 DFG 各自独立贡献 +0.34%，两者协同再额外提升 0.52%。
 ## 相关论文
 
 - [\[ICCV 2025\] StruMamba3D: Exploring Structural Mamba for Self-supervised Point Cloud Representation Learning](strumamba3d_exploring_structural_mamba_for_self-supervised_point_cloud_represent.md)
-- [\[ICCV 2025\] CAD-Recode: Reverse Engineering CAD Code from Point Clouds](cadrecode_reverse_engineering_cad_code_from_point_clouds.md)
 - [\[ICCV 2025\] RayletDF: Raylet Distance Fields for Generalizable 3D Surface Reconstruction from Point Clouds or Gaussians](rayletdf_raylet_distance_fields_for_generalizable_3d_surface_reconstruction_from.md)
 - [\[ICCV 2025\] Towards More Diverse and Challenging Pre-training for Point Cloud Learning: Self-Supervised Cross Reconstruction with Decoupled Views](towards_more_diverse_and_challenging_pre-training_for_point_cloud_learning_self-.md)
 - [\[ICCV 2025\] CstNet: Constraint-Aware Feature Learning for Parametric Point Cloud](constraint-aware_feature_learning_for_parametric_point_cloud.md)
+- [\[ICCV 2025\] RayZer: A Self-supervised Large View Synthesis Model](rayzer_a_self-supervised_large_view_synthesis_model.md)
 
 <!-- RELATED:END -->

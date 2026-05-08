@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.20645](https://arxiv.org/abs/2511.20645)  
-**代码**: https://github.com/  
+**代码**: [https://github.com/](https://github.com/)  
 **领域**: 图像生成  
 **关键词**: 像素扩散, 双层Transformer, 端到端生成, 像素建模, 文本到图像
 

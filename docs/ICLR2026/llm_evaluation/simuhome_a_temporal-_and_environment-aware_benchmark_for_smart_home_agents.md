@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - smart_home
-  - LLM_agent
+  - LLM评测
   - benchmark
   - temporal_reasoning
   - workflow_scheduling
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.24282](https://arxiv.org/abs/2509.24282)  
 **代码**: [holi-lab/SimuHome](https://github.com/holi-lab/SimuHome)  
-**领域**: LLM Agent  
+**领域**: LLM评测  
 **关键词**: smart_home, LLM_agent, benchmark, temporal_reasoning, workflow_scheduling  
 
 ## 一句话总结
@@ -209,10 +209,10 @@ SimuHome 包含两个核心贡献：
 
 ## 相关论文
 
-- [\[ICLR 2026\] In-Context Learning of Temporal Point Processes with Foundation Inference Models](in-context_learning_of_temporal_point_processes_with_foundation_inference_models.md)
 - [\[ACL 2025\] Access Denied Inc: The First Benchmark Environment for Sensitivity Awareness](../../ACL2025/llm_evaluation/access_denied_inc_the_first_benchmark_environment_for_sensitivity_awareness.md)
 - [\[ICLR 2026\] Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization](noise-aware_generalization_robustness_to_in-domain_noise_and_out-of-domain_gener.md)
-- [\[ICLR 2026\] Unpacking Human Preference for LLMs: Demographically Aware Evaluation with the HUMAINE Framework](unpacking_human_preference_for_llms_demographically_aware_evaluation_with_the_hu.md)
+- [\[ICLR 2026\] In-Context Learning of Temporal Point Processes with Foundation Inference Models](in-context_learning_of_temporal_point_processes_with_foundation_inference_models.md)
 - [\[ICLR 2026\] Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis](talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md)
+- [\[ACL 2026\] Rethinking Meeting Effectiveness: A Benchmark and Framework for Temporal Fine-grained Automatic Meeting Effectiveness Evaluation](../../ACL2026/llm_evaluation/rethinking_meeting_effectiveness_a_benchmark_and_framework_for_temporal_fine-gra.md)
 
 <!-- RELATED:END -->

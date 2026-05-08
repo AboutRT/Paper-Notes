@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - visual invariance
-  - gradient-free optimization
+  - 可解释性
   - adversarial examples
   - feature visualization
   - CNN interpretability
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.17040](https://arxiv.org/abs/2506.17040)  
 **代码**: [GitHub](https://github.com/zoccolan-lab/SnS)  
-**领域**: llm_efficiency  
+**领域**: 可解释性  
 **关键词**: visual invariance, gradient-free optimization, adversarial examples, feature visualization, CNN interpretability, robust models
 
 ## 一句话总结
@@ -148,10 +148,10 @@ SnS 发现的不变图像比仿射变换更"极端"（像素距离更大），�
 
 ## 相关论文
 
+- [\[ICLR 2026\] One Language, Two Scripts: Probing Script-Invariance in LLM Concept Representations](one_language_two_scripts_probing_script-invariance_in_llm_concept_representation.md)
 - [\[ICLR 2026\] Hidden Breakthroughs in Language Model Training](hidden_breakthroughs_in_language_model_training.md)
 - [\[ICLR 2026\] Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer](towards_understanding_subliminal_learning_when_and_how_hidden_biases_transfer.md)
-- [\[ICLR 2026\] How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding](how_do_transformers_learn_to_associate_tokens_gradient_leading_terms_bring_mecha.md)
+- [\[ICLR 2026\] STRIDE: Subset-Free Functional Decomposition for XAI in Tabular Settings](stride_subset-free_functional_decomposition_for_xai_in_tabular_settings.md)
 - [\[ICLR 2026\] Beyond Linear Probes: Dynamic Safety Monitoring for Language Models](beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md)
-- [\[ICLR 2026\] Exploring Interpretability for Visual Prompt Tuning with Cross-layer Concepts](exploring_interpretability_for_visual_prompt_tuning_with_cross-layer_concepts.md)
 
 <!-- RELATED:END -->

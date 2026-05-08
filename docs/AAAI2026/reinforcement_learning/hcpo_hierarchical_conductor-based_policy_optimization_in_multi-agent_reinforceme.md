@@ -2,10 +2,10 @@
 title: >-
   [论文解读] HCPO: Hierarchical Conductor-Based Policy Optimization in Multi-Agent Reinforcement Learning
 description: >-
-  [AAAI2026][multi-agent RL] 提出 HCPO 算法，通过引入 conductor（指挥者）机制增强多智能体联合策略的表达能力和探索效率，构建类似 Gaussian mixture model 的联合策略框架，并证明两级策略更新的单调改进保证。
+  [AAAI2026][强化学习] 提出 HCPO 算法，通过引入 conductor（指挥者）机制增强多智能体联合策略的表达能力和探索效率，构建类似 Gaussian mixture model 的联合策略框架，并证明两级策略更新的单调改进保证。
 tags:
   - AAAI2026
-  - multi-agent RL
+  - 强化学习
   - cooperative MARL
   - joint policy optimization
   - hierarchical framework
@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI2026  
 **arXiv**: [2511.12123](https://arxiv.org/abs/2511.12123)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: multi-agent RL, cooperative MARL, joint policy optimization, hierarchical framework, trust region
 
 ## 一句话总结
@@ -104,10 +104,10 @@ $$w_{k+1} = \arg\max_{\bar{w}} \left[\mathbb{E}_{s,M\sim\bar{w}} A(M|s) - C \cdo
 
 ## 相关论文
 
-- [\[AAAI 2026\] Behaviour Policy Optimization: Provably Lower Variance Return Estimates for Off-Policy Reinforcement Learning](behaviour_policy_optimization_provably_lower_variance_return_estimates_for_off-p.md)
 - [\[AAAI 2026\] DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients](diffop_reinforcement_learning_of_optimization-based_control_policies_via_implici.md)
-- [\[AAAI 2026\] Explaining Decentralized Multi-Agent Reinforcement Learning Policies](explaining_decentralized_multi-agent_reinforcement_learning_policies.md)
 - [\[AAAI 2026\] Thinker: Training LLMs in Hierarchical Thinking for Deep Search via Multi-Turn Interaction](thinker_training_llms_in_hierarchical_thinking_for_deep_search_via_multi-turn_in.md)
+- [\[AAAI 2026\] Explaining Decentralized Multi-Agent Reinforcement Learning Policies](explaining_decentralized_multi-agent_reinforcement_learning_policies.md)
+- [\[AAAI 2026\] Behaviour Policy Optimization: Provably Lower Variance Return Estimates for Off-Policy Reinforcement Learning](behaviour_policy_optimization_provably_lower_variance_return_estimates_for_off-p.md)
 - [\[AAAI 2026\] MARS: Multi-Agent Adaptive Reasoning with Socratic Guidance for Automated Prompt Optimization](mars_multi-agent_adaptive_reasoning_with_socratic_guidance_f.md)
 
 <!-- RELATED:END -->

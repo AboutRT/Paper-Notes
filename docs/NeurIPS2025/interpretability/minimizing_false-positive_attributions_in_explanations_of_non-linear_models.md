@@ -8,7 +8,7 @@ tags:
   - XAI
   - suppressor variables
   - local explanations
-  - generative explanation
+  - 可解释性
   - LIME
 ---
 
@@ -46,10 +46,10 @@ PatternLocal是一个**两阶段**的模型无关XAI方法：
 ### 关键设计
 1. **抑制变量消除（核心原理）**: Pattern方法的核心思想是：判别式模型权重 $\mathbf{W}$ 对应一个唯一的前向模型 $\mathbf{A} = \Sigma_\mathbf{X} \mathbf{W} \Sigma_\mathbf{M}^{-1}$。前向模型的激活模式只保留与目标统计相关的特征，天然消除抑制变量。PatternLocal将此原理推广到非线性的**局部**设定中。
 2. **核加权局部回归**: PatternLocal的形式化目标为：
-   $$\mathbf{a} = \arg\min_\mathbf{u} \mathbb{E}_{\mathbf{x} \sim \mathbb{P}_\mathcal{X}} \left[ \Pi_{\mathbf{x}'_\star}(\mathbf{h}(\mathbf{x})) \| \mathbf{h}(\mathbf{x}) - \mathbf{u} \tilde{y} \|_2^2 \right] + \lambda Q(\mathbf{u})$$
+    $\mathbf{a} = \arg\min_\mathbf{u} \mathbb{E}_{\mathbf{x} \sim \mathbb{P}_\mathcal{X}} \left[ \Pi_{\mathbf{x}'_\star}(\mathbf{h}(\mathbf{x})) \| \mathbf{h}(\mathbf{x}) - \mathbf{u} \tilde{y} \|_2^2 \right] + \lambda Q(\mathbf{u})$
    其中 $\Pi$ 是局部核函数确保解释的局部性，$Q$ 为正则化项。
 3. **闭式解（Ridge回归形式）**: 当 $Q(\mathbf{u}) = \|\mathbf{u}\|_2^2$ 时，存在闭式解：
-   $$\mathbf{a}_{\ell_2} = \frac{\text{Cov}_\Pi[\mathbf{h}(\mathbf{x}), \tilde{y}]}{\text{Var}_\Pi[\tilde{y}] + \lambda}$$
+    $\mathbf{a}_{\ell_2} = \frac{\text{Cov}_\Pi[\mathbf{h}(\mathbf{x}), \tilde{y}]}{\text{Var}_\Pi[\tilde{y}] + \lambda}$
    即核加权条件下，简化特征与代理响应的协方差，除以正则化方差。
 4. **输入简化方案**: 支持三种输入简化 $\mathbf{h}$：(a) 恒等映射（原始特征）；(b) 超像素表示；(c) 低秩近似。不同场景适用不同方案。
 
@@ -127,7 +127,7 @@ PatternLocal是一个**两阶段**的模型无关XAI方法：
 - [\[NeurIPS 2025\] The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability?](the_non-linear_representation_dilemma_is_causal_abstraction_enough_for_mechanist.md)
 - [\[NeurIPS 2025\] Emergence of Linear Truth Encodings in Language Models](emergence_of_linear_truth_encodings_in_language_models.md)
 - [\[NeurIPS 2025\] Improving Perturbation-based Explanations by Understanding the Role of Uncertainty Calibration](improving_perturbation-based_explanations_by_understanding_the_role_of_uncertain.md)
+- [\[NeurIPS 2025\] Base Models Know How to Reason, Thinking Models Learn When](base_models_know_how_to_reason_thinking_models_learn_when.md)
 - [\[NeurIPS 2025\] Are Greedy Task Orderings Better Than Random in Continual Linear Regression?](are_greedy_task_orderings_better_than_random_in_continual_linear_regression.md)
-- [\[ICML 2025\] Towards Attributions of Input Variables in a Coalition](../../ICML2025/interpretability/towards_attributions_of_input_variables_in_a_coalition.md)
 
 <!-- RELATED:END -->

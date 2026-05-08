@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.06940](https://arxiv.org/abs/2506.06940)  
 **代码**: 未提供  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: sharpness dynamics, progressive sharpening, edge of stability, deep linear networks, dataset difficulty
 
 ## 一句话总结
@@ -142,6 +142,6 @@ $Q$ 随 $N$ 增大而急剧增长，与 progressive sharpening 趋势一致。
 - [\[ICML 2025\] Tilted Sharpness-Aware Minimization](tilted_sharpness-aware_minimization.md)
 - [\[ICML 2025\] How Transformers Learn Regular Language Recognition: A Theoretical Study on Training Dynamics and Implicit Bias](how_transformers_learn_regular_language_recognition_a_theoretical_study_on_train.md)
 - [\[ICLR 2026\] Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization](../../ICLR2026/optimization/minor_first_major_last_a_depth-induced_implicit_bias_of_sharpness-aware_minimiza.md)
-- [\[ICML 2025\] In-Context Linear Regression Demystified: Training Dynamics and Mechanistic Interpretability of Multi-Head Softmax Attention](in-context_linear_regression_demystified_training_dynamics_and_mechanistic_inter.md)
+- [\[ICML 2025\] On Understanding Attention-Based In-Context Learning for Categorical Data](on_understanding_attention-based_in-context_learning_for_categorical_data.md)
 
 <!-- RELATED:END -->

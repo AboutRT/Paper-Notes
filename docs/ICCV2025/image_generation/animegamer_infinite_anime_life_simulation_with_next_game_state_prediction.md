@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.01014](https://arxiv.org/abs/2504.01014)  
-**代码**: https://github.com/TencentARC/AnimeGamer  
+**代码**: [https://github.com/TencentARC/AnimeGamer](https://github.com/TencentARC/AnimeGamer)  
 **领域**: 图像/视频生成  
 **关键词**: 无限游戏生成, 动漫生活模拟, 多模态大语言模型, 视频扩散模型, 游戏状态预测
 

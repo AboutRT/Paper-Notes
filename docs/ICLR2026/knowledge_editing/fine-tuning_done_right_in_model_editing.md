@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.22072](https://arxiv.org/abs/2509.22072)  
-**代码**: https://github.com/ICT-STAR/LocFT  
-**领域**: NLP理解  
+**代码**: [https://github.com/ICT-STAR/LocFT](https://github.com/ICT-STAR/LocFT)  
+**领域**: 知识编辑  
 **关键词**: Model Editing, Fine-tuning, 知识编辑, 灾难性遗忘, 局部化微调
 
 ## 一句话总结
@@ -128,10 +128,10 @@ LocFT-BF = 标准广度优先 mini-batch 训练 + 局部化参数更新（仅调
 
 ## 相关论文
 
-- [\[ACL 2026\] FABLE: Fine-grained Fact Anchoring for Unstructured Model Editing](../../ACL2026/knowledge_editing/fable_fine-grained_fact_anchoring_for_unstructured_model_editing.md)
 - [\[ICLR 2026\] Energy-Regularized Sequential Model Editing on Hyperspheres](energy-regularized_sequential_model_editing_on_hyperspheres.md)
+- [\[ACL 2026\] FABLE: Fine-grained Fact Anchoring for Unstructured Model Editing](../../ACL2026/knowledge_editing/fable_fine-grained_fact_anchoring_for_unstructured_model_editing.md)
 - [\[ICLR 2026\] EAMET: Robust Massive Model Editing via Embedding Alignment Optimization](eamet_robust_massive_model_editing_via_embedding_alignment_optimization.md)
 - [\[ICLR 2026\] Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing](bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed.md)
-- [\[ICLR 2026\] GOT-Edit: Geometry-Aware Generic Object Tracking via Online Model Editing](got-edit_geometry-aware_generic_object_tracking_via_online_model_editing.md)
+- [\[ICLR 2026\] When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations](when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat.md)
 
 <!-- RELATED:END -->

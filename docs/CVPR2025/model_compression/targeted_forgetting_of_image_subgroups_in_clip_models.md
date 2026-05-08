@@ -4,7 +4,7 @@ description: >-
   [CVPR 2025][模型遗忘] 提出三阶段CLIP子群图像遗忘方法（遗忘-提醒-恢复），通过相对Fisher信息选层、分布对齐微调和模型合并，在不访问预训练数据的情况下精准遗忘特定子群图像同时保持零样本性能。
 tags:
   - CVPR 2025
-  - 机器遗忘
+  - 模型压缩
   - CLIP
   - 子群遗忘
   - Fisher信息
@@ -132,7 +132,7 @@ tags:
 - [\[CVPR 2025\] Logits DeConfusion with CLIP for Few-Shot Learning](logits_deconfusion_with_clip_for_few-shot_learning.md)
 - [\[CVPR 2025\] Parameter Efficient Mamba Tuning via Projector-targeted Diagonal-centric Linear Transformation](parameter_efficient_mamba_tuning_via_projector-targeted_diagonal-centric_linear_.md)
 - [\[CVPR 2025\] MambaIC: State Space Models for High-Performance Learned Image Compression](mambaic_state_space_models_for_high-performance_learned_image_compression.md)
+- [\[AAAI 2026\] CLIPPan: Adapting CLIP as A Supervisor for Unsupervised Pansharpening](../../AAAI2026/model_compression/clippan_adapting_clip_as_a_supervisor_for_unsupervised_pansharpening.md)
 - [\[CVPR 2025\] Layered Image Vectorization via Semantic Simplification](layered_image_vectorization_via_semantic_simplification.md)
-- [\[ECCV 2024\] Improving Zero-Shot Generalization for CLIP with Variational Adapter](../../ECCV2024/model_compression/improving_zero-shot_generalization_for_clip_with_variational_adapter.md)
 
 <!-- RELATED:END -->

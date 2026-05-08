@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.02619](https://arxiv.org/abs/2603.02619)  
 **代码**: [项目页](https://seunguk-do.github.io/drpose)  
-**领域**: 3D 人体重建 / 扩散模型对齐  
+**领域**: 图像生成  
 **关键词**: single-view 3D human reconstruction, multi-view diffusion, direct reward fine-tuning, pose alignment, PoseScore  
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 信息密度均匀性
-  - 推理质量评估
+  - LLM评测
   - 熵分析
   - Best-of-N 选择
   - 思维链
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2510.06953](https://arxiv.org/abs/2510.06953)  
 **代码**: [GitHub](https://github.com/talzoomanzoo/uid-reasoning)  
-**领域**: LLM 评估 / 推理分析  
+**领域**: LLM评测  
 **关键词**: 信息密度均匀性, 推理质量评估, 熵分析, Best-of-N 选择, 思维链
 
 ## 一句话总结

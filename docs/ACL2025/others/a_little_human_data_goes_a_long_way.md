@@ -8,7 +8,7 @@ tags:
   - 合成数据
   - 人工标注
   - 事实验证
-  - 问答系统
+  - 其他
   - 数据效率
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.13098](https://arxiv.org/abs/2410.13098)  
-**代码**: [GitHub](https://github.com/DhananjayAshok/LittleHumanData) (有)  
-**领域**: others  
+**代码**: [GitHub](https://github.com/DhananjayAshok/LittleHumanData)  
+**领域**: 其他  
 **关键词**: 合成数据, 人工标注, 事实验证, 问答系统, 数据效率
 
 ## 一句话总结

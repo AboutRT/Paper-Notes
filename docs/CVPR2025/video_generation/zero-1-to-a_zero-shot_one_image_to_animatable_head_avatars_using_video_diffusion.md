@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.15851](https://arxiv.org/abs/2503.15851)  
 **代码**: [GitHub](https://github.com/ZhenglinZhou/Zero-1-to-A)  
-**领域**: 图像生成 / 三维视觉  
+**领域**: 视频生成  
 **关键词**: 头部虚拟形象, 视频扩散, 3D高斯, 渐进式学习, 零样本生成
 
 ## 一句话总结

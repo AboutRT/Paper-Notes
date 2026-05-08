@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.14405](https://arxiv.org/abs/2503.14405)  
-**代码**: https://europe.naverlabs.com/dune  
-**领域**: 自监督学习 / 知识蒸馏  
+**代码**: [https://europe.naverlabs.com/dune](https://europe.naverlabs.com/dune)  
+**领域**: 3D视觉  
 **关键词**: 多教师蒸馏, 异构教师, 通用编码器, 2D-3D统一, DINOv2
 
 ## 一句话总结
@@ -103,10 +103,10 @@ DUNE（ViT-Base）性能：
 
 ## 相关论文
 
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
 - [\[CVPR 2025\] Symmetry Strikes Back: From Single-Image Symmetry Detection to 3D Generation](symmetry_strikes_back_from_single-image_symmetry_detection_to_3d_generation.md)
 - [\[CVPR 2025\] Multi-View Pose-Agnostic Change Localization with Zero Labels](mv_3dcd_multiview_change_detection.md)
 - [\[CVPR 2025\] UniK3D: Universal Camera Monocular 3D Estimation](unik3d_universal_camera_monocular_3d_estimation.md)
 - [\[CVPR 2025\] MAGiC-SLAM: Multi-Agent Gaussian Globally Consistent SLAM](magic-slam_multi-agent_gaussian_globally_consistent_slam.md)
+- [\[CVPR 2025\] Olympus: A Universal Task Router for Computer Vision Tasks](olympus_a_universal_task_router_for_computer_vision_tasks.md)
 
 <!-- RELATED:END -->

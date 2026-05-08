@@ -136,6 +136,6 @@ tags:
 - [\[NeurIPS 2025\] Constrained Network Slice Assignment via Large Language Models](constrained_network_slice_assignment_via_llms.md)
 - [\[NeurIPS 2025\] VIKING: Deep Variational Inference with Stochastic Projections](viking_deep_variational_inference_with_stochastic_projections.md)
 - [\[NeurIPS 2025\] NeuSymEA: Neuro-symbolic Entity Alignment via Variational Inference](neuro-symbolic_entity_alignment_via_variational_inference.md)
-- [\[NeurIPS 2025\] Large Language Bayes](large_language_bayes.md)
+- [\[NeurIPS 2025\] Least Squares Variational Inference](least_squares_variational_inference.md)
 
 <!-- RELATED:END -->

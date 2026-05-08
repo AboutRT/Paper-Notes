@@ -45,7 +45,7 @@ Word2Vec和GloVe等模型基于词共现概率 $P(i,j)$ 构建词嵌入 $W_i$，
 
    在属性独立性假设下，共现概率分解为各属性贡献的乘积：
 
-   $$P(i,j) = P(i)P(j)\prod_{k=1}^{d}P^{(k)}(\alpha_i^{(k)}, \alpha_j^{(k)})$$
+    $P(i,j) = P(i)P(j)\prod_{k=1}^{d}P^{(k)}(\alpha_i^{(k)}, \alpha_j^{(k)})$
 
    每个 $P^{(k)}$ 是 $2 \times 2$ 矩阵，由信号强度 $s_k$ 和不对称性 $q_k = p_k/(1-p_k)$ 参数化。由此 $M(i,j) = \prod_k P^{(k)}$ 恰好是 $d$ 个 $2 \times 2$ 矩阵的Kronecker积，其特征向量可解析计算。
 
@@ -55,7 +55,7 @@ Word2Vec和GloVe等模型基于词共现概率 $P(i,j)$ 构建词嵌入 $W_i$，
 
    对 $M$ 取对数得到PMI矩阵，乘积结构变为加法结构：
 
-   $$\log M(i,j) = \delta + \bm{\eta}^\top \bm{\alpha}_i + \bm{\eta}^\top \bm{\alpha}_j + \bm{\alpha}_i^\top D \bm{\alpha}_j$$
+    $\log M(i,j) = \delta + \bm{\eta}^\top \bm{\alpha}_i + \bm{\eta}^\top \bm{\alpha}_j + \bm{\alpha}_i^\top D \bm{\alpha}_j$
 
    其中 $D = \text{diag}(\gamma_1, \ldots, \gamma_d)$。这意味着 $\log M$ 的秩至多为 $d+1$，其特征向量是属性向量的仿射函数。因此当 $K \geq d$ 时，线性类比 $W_A - W_B + W_C = W_D$（只要属性满足 $\bm{\alpha}_D = \bm{\alpha}_A - \bm{\alpha}_B + \bm{\alpha}_C$）**精确成立**，且不依赖于信号强度 $\{s_k\}$ 的分布。
 

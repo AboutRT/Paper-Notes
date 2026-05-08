@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16198](https://arxiv.org/abs/2411.16198)  
-**代码**: https://github.com/RuoyuChen10/VPS  
+**代码**: [https://github.com/RuoyuChen10/VPS](https://github.com/RuoyuChen10/VPS)  
 **领域**: 目标检测  
 **关键词**: 模型可解释性, 目标检测, 视觉精确搜索, 子模函数, 归因分析
 

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 可解释性方向29篇论文解读
+  ICML2025 可解释性方向33篇论文解读
 description: >-
-  29篇ICML2025的可解释性方向论文解读，涵盖 LLM、推理、知识蒸馏、域适应、代码智能、生物分子等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  33篇ICML2025的可解释性方向论文解读，涵盖 LLM、推理、知识蒸馏、域适应、代码智能、生物分子等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 可解释性
 
-**🧪 ICML2025** · **29** 篇论文解读
+**🧪 ICML2025** · **33** 篇论文解读
 
 **[A Cross Modal Knowledge Distillation & Data Augmentation Recipe for Improving Transcriptomics Representations through Morphological Features](a_cross_modal_knowledge_distillation_data_augmentation_recipe_for_improving_tran.md)**
 
@@ -90,9 +90,17 @@ description: >-
 
 :   提出 AlgEval 框架，倡导系统性地研究生成式 AI 学习和使用的算法——包括算法原语（vocabulary）及其组合（grammar）——作为替代纯粹规模扩展的理解路径，并通过图导航任务的案例研究展示了 top-down 假说与 bottom-up 验证相结合的方法论。
 
+**[Reactivation: Empirical NTK Dynamics Under Task Shifts](reactivation_empirical_ntk_dynamics_under_task_shifts.md)**
+
+:   首次系统实证研究了持续学习中NTK的动态行为，发现任务切换会一致性地触发NTK的突变——即使在lazy学习体制下，NTK的范数、速度和对齐指标都在任务边界出现急剧偏差，揭示了一种被称为"重激活"（reactivation）的特征学习现象，并通过区分概念性和频率性分布偏移精确定位了驱动因素。
+
 **[Rethinking Explainable Machine Learning as Applied Statistics](rethinking_explainable_machine_learning_as_applied_statistics.md)**
 
 :   本文是一篇立场论文，提出可解释机器学习应被视为"高维函数的应用统计学"——解释算法本质上是函数的统计量（functionals），应当像传统统计量（如 p 值、置信区间）一样关注其**解释**（interpretation）问题，而非仅研究数学性质；当前文献最大的缺陷正是忽视了"解释算法的输出到底回答了哪个直觉问题"这一核心议题。
+
+**[SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability](saebench_a_comprehensive_benchmark_for_sparse_autoencoders_in_language_model_int.md)**
+
+:   提出 SAEBench——一个包含 8 项评估指标的综合基准，系统评测稀疏自编码器（SAE）在语言模型可解释性中的表现，揭示了代理指标（稀疏-保真度）与下游任务性能之间的严重脱节。
 
 **[SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior](safetyanalyst_interpretable_transparent_and_steerable_safety_moderation_for_ai_b.md)**
 
@@ -101,6 +109,10 @@ description: >-
 **[SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression](slim_one-shot_quantization_and_sparsity_with_low-rank_approximation_for_llm_weig.md)**
 
 :   提出 SLiM，一种一次性压缩框架，将硬件友好的均匀量化、半结构化稀疏和基于显著性的低秩适配器无缝整合，在 4-bit + 2:4 稀疏条件下准确率提升最高 5.66%。
+
+**[Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)**
+
+:   SOP 提出了一种将任意可微分模型转换为基于分组的自归因神经网络（SANN）的框架，通过端到端学习特征分组实现了在 SANN 中的 SOTA 性能，并从理论上证明了逐特征 SANN 的误差下界和分组 SANN 的零误差可达性。
 
 **[Supernova Event Dataset: Interpreting Large Language Models' Personality through Critical Event Analysis](supernova_event_dataset_interpreting_large_language_models_personality_through_c.md)**
 
@@ -118,10 +130,14 @@ description: >-
 
 :   将深度视觉模型的知识表示从"刻在权重里"转变为"存在外部数据库里"，用预训练编码器 + kNN 检索构建灵活的 Visual Memory，实现数据的即插即拔（添加/删除/扩展）和可解释分类，ImageNet 上达到 88.5% top-1 准确率。
 
+**[Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)**
+
+:   FlashTrace 提出了一种高效的多 token 归因方法，通过跨度聚合（span-wise aggregation）将多 token 目标的归因复杂度从 $\mathcal{O}(M \cdot N)$ 降至 $\mathcal{O}(N)$，并通过递归归因（recursive attribution）机制追溯推理链中的重要性传播，实现了 130 倍以上的速度提升。
+
+**[Validating Mechanistic Interpretations: An Axiomatic Approach](validating_mechanistic_interpretations_an_axiomatic_approach.md)**
+
+:   借鉴程序分析中抽象解释的思想，提出一组公理化框架来形式化定义和验证神经网络的机制解释（mechanistic interpretation），并在 2-SAT 求解器和模加法两个案例中验证了该框架的有效性。
+
 **[What Makes an Ensemble (Un)interpretable?](what_makes_an_ensemble_un_interpretable.md)**
 
 :   系统研究集成学习方法的可解释性问题——什么因素使集成模型难以解释，以及如何在保持预测性能的同时提高集成的可解释性，提出了量化集成可解释性的理论框架和实用的可解释集成构建方法。
-
-**[Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas](why_is_spatial_reasoning_hard_for_vlms_an_attention_mechanism_perspective_on_foc.md)**
-
-:   从机制可解释性视角研究 VLM 空间推理失败的原因，发现图像 token 虽占输入 90% 但仅获 10% 注意力，且注意力的几何分布才是关键；提出 AdaptVis——基于推理时置信度自适应调整图像注意力温度的无训练解码方法，在 WhatsUp 上实现高达 50% 绝对提升。

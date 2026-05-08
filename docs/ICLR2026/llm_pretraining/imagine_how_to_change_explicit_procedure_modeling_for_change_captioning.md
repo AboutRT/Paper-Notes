@@ -10,7 +10,7 @@ tags:
   - 帧插值
   - 掩码重建
   - 可学习查询
-  - 视觉语言
+  - LLM预训练
 ---
 
 # Imagine How To Change: Explicit Procedure Modeling for Change Captioning
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.05969](https://arxiv.org/abs/2603.05969)  
 **代码**: [GitHub](https://github.com/BlueberryOreo/ProCap)  
-**领域**: llm_nlp  
+**领域**: LLM预训练  
 **关键词**: 变化描述, 过程建模, 帧插值, 掩码重建, 可学习查询, 视觉语言  
 
 ## 一句话总结
@@ -178,6 +178,6 @@ k=2 最优且效率合理。
 - [\[ICLR 2026\] RECON: Robust symmetry discovery via Explicit Canonical Orientation Normalization](recon_robust_symmetry_discovery_via_explicit_canonical_orientation_normalization.md)
 - [\[ICLR 2026\] TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling](taste_text-aligned_speech_tokenization_and_embedding_for_spoken_language_modelin.md)
 - [\[NeurIPS 2025\] How Does Sequence Modeling Architecture Influence Base Capabilities of Pre-trained Language Models?](../../NeurIPS2025/llm_pretraining/how_does_sequence_modeling_architecture_influence_base_capabilities_of_pre-train.md)
-- [\[ICML 2025\] How to Synthesize Text Data without Model Collapse?](../../ICML2025/llm_pretraining/how_to_synthesize_text_data_without_model_collapse.md)
+- [\[ICLR 2026\] FictionalQA: A Dataset for Studying Memorization and Knowledge Acquisition](fictionalqa_a_dataset_for_studying_memorization_and_knowledge_acquisition.md)
 
 <!-- RELATED:END -->

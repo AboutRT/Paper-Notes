@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.23104](https://arxiv.org/abs/2603.23104)  
-**代码**: https://github.com/yy0007/NeurINO  
+**代码**: [https://github.com/yy0007/NeurINO](https://github.com/yy0007/NeurINO)  
 **领域**: 医学图像 / 3D分割  
 **关键词**: 神经元分割, DINOv3, 2D-3D迁移, 拓扑感知损失, 数据高效学习
 

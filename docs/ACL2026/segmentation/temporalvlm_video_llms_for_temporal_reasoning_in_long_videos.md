@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2412.02930](https://arxiv.org/abs/2412.02930)  
 **代码**: 无  
-**领域**: 视频理解 / 时序推理  
+**领域**: 图像分割  
 **关键词**: 视频大语言模型, 时间感知编码, BiLSTM, 长视频理解, 工业装配数据集
 
 ## 一句话总结
@@ -135,6 +135,6 @@ tags:
 - [\[ECCV 2024\] Long-Tail Temporal Action Segmentation with Group-wise Temporal Logit Adjustment](../../ECCV2024/segmentation/long-tail_temporal_action_segmentation_with_group-wise_temporal_logit_adjustment.md)
 - [\[ACL 2026\] AnchorSeg: Language Grounded Query Banks for Reasoning Segmentation](anchorseg_language_grounded_query_banks_for_reasoning_segmentation.md)
 - [\[CVPR 2026\] VIRST: Video-Instructed Reasoning Assistant for SpatioTemporal Segmentation](../../CVPR2026/segmentation/virst_video-instructed_reasoning_assistant_for_spatiotemporal_segmentation.md)
-- [\[CVPR 2026\] SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs](../../CVPR2026/segmentation/sparrow_learning_spatial_precision_and_temporal_re.md)
+- [\[CVPR 2026\] HippoMM: Hippocampal-inspired Multimodal Memory for Long Audiovisual Event Understanding](../../CVPR2026/segmentation/hippomm_hippocampal-inspired_multimodal_memory_for_long_audiovisual_event_unders.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2601.05573](https://arxiv.org/abs/2601.05573)  
-**代码**: 有 (https://orient-anythingv2.github.io/)  
+**代码**: 有 ([https://orient-anythingv2.github.io/](https://orient-anythingv2.github.io/))  
 **领域**: 计算机视觉 / 3D理解  
 **关键词**: 方向估计, 旋转对称性, 6DoF位姿估计, 合成数据, 基础模型
 
@@ -165,6 +165,6 @@ V2 在所有数据集上显著优于 V1，ARKitScenes 上中位误差从 77.58°
 - [\[CVPR 2025\] CustAny: Customizing Anything from A Single Example](../../CVPR2025/image_generation/custany_customizing_anything_from_a_single_example.md)
 - [\[NeurIPS 2025\] Co-Reinforcement Learning for Unified Multimodal Understanding and Generation](coreinforcement_learning_for_unified_multimodal_understandin.md)
 - [\[NeurIPS 2025\] Understanding Representation Dynamics of Diffusion Models via Low-Dimensional Models](understanding_representation_dynamics_of_diffusion_models_via_low-dimensional_mo.md)
-- [\[CVPR 2025\] Uni-Renderer: Unifying Rendering and Inverse Rendering via Dual Stream Diffusion](../../CVPR2025/image_generation/uni-renderer_unifying_rendering_and_inverse_rendering_via_dual_stream_diffusion.md)
+- [\[NeurIPS 2025\] Toward a Unified Geometry Understanding: Riemannian Diffusion Framework for Graph Generation and Prediction](toward_a_unified_geometry_understanding_riemannian_diffusion_framework_for_graph.md)
 
 <!-- RELATED:END -->

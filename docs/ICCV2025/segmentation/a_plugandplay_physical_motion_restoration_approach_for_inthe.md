@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.17377](https://arxiv.org/abs/2412.17377)  
-**代码**: [项目页](https://physicalmotionrestoration.github.io/) (有)  
+**代码**: [项目页](https://physicalmotionrestoration.github.io/)  
 **领域**: 人体运动/物理仿真  
 **关键词**: 物理运动修复, 运动模仿, 测试时适应, 扩散模型, 高难度动作  
 

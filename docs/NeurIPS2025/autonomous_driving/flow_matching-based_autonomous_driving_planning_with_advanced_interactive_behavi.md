@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.11083](https://arxiv.org/abs/2510.11083)  
 **代码**: [https://github.com/DiffusionAD/Flow-Planner](https://github.com/DiffusionAD/Flow-Planner)  
-**领域**: autonomous_driving / 规划  
+**领域**: 自动驾驶  
 **关键词**: 自动驾驶规划, Flow Matching, 交互行为建模, Classifier-Free Guidance, 轨迹生成  
 
 ## 一句话总结

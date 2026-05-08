@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Supernova Event Dataset: Interpreting Large Language Models' Personality through Critical Event Analysis
 description: >-
-  [ICML 2025][LLM人格分析] 提出 Supernova Event Dataset（包含传记、历史事件、新闻、科学发现的 Wikipedia 文章），通过让 LLM 从长文本中抽取并排序关键事件，再由另一个 LLM 作为评判者推断目标模型的"人格特质"，揭示不同 LLM 在主观决策中的一致性行为模式差异。
+  [ICML 2025][可解释性] 提出 Supernova Event Dataset（包含传记、历史事件、新闻、科学发现的 Wikipedia 文章），通过让 LLM 从长文本中抽取并排序关键事件，再由另一个 LLM 作为评判者推断目标模型的"人格特质"，揭示不同 LLM 在主观决策中的一致性行为模式差异。
 tags:
   - ICML 2025
-  - LLM人格分析
+  - 可解释性
   - 事件抽取与排序
   - 可解释性
   - LLM-as-Judge
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.12189](https://arxiv.org/abs/2506.12189)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: 可解释性  
 **关键词**: LLM人格分析, 事件抽取与排序, 可解释性, LLM-as-Judge, 主观推理
 
 ## 一句话总结
@@ -178,9 +178,9 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Inference-Time Decomposition of Activations (ITDA): A Scalable Approach to Interpreting Large Language Models](inference-time_decomposition_of_activations_itda_a_scalable_approach_to_interpre.md)
-- [\[ACL 2025\] Cracking Factual Knowledge: A Comprehensive Analysis of Degenerate Knowledge Neurons in Large Language Models](../../ACL2025/interpretability/degenerate_knowledge_neurons.md)
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](../../NeurIPS2025/interpretability/the_trilemma_of_truth_in_large_language_models.md)
+- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](../../NeurIPS2025/interpretability/table_as_a_modality_for_large_language_models.md)
 - [\[AAAI 2026\] HSKBenchmark: Modeling and Benchmarking Chinese Second Language Acquisition in Large Language Models through Curriculum Tuning](../../AAAI2026/interpretability/hskbenchmark_modeling_and_benchmarking_chinese_second_language_acquisition_in_la.md)
-- [\[ACL 2025\] Towards Explainable Temporal Reasoning in Large Language Models: A Structure-Aware Generative Framework](../../ACL2025/interpretability/towards_explainable_temporal_reasoning_in_large_language_models_a_structure-awar.md)
+- [\[NeurIPS 2025\] scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](../../NeurIPS2025/interpretability/scpilot_large_language_model_reasoning_toward_automated_single-cell_analysis_and.md)
 
 <!-- RELATED:END -->

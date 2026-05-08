@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2505.02192](https://arxiv.org/abs/2505.02192)  
-**代码**: https://wenc-k.github.io/dualreal-customization (项目页)  
-**领域**: 视频理解  
+**代码**: [https://wenc-k.github.io/dualreal-customization](https://wenc-k.github.io/dualreal-customization) (项目页)  
+**领域**: 视频生成  
 **关键词**: 视频定制生成, 身份-运动融合, 联合训练, 扩散 Transformer, 自适应控制
 
 ## 一句话总结

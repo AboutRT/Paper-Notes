@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.15686](https://arxiv.org/abs/2503.15686)  
-**代码**: https://github.com/jqliu09/mcld  
+**代码**: [https://github.com/jqliu09/mcld](https://github.com/jqliu09/mcld)  
 **领域**: 扩散模型 / 人物图像生成  
 **关键词**: 姿态引导人物图像生成, 潜在扩散模型, 多焦点条件, 人脸身份保持, 外观纹理保持
 

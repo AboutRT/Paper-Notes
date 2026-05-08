@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.10462](https://arxiv.org/abs/2406.10462)  
-**代码**: [GitHub](https://github.com/HKUST-LongGroup/CoMM) (有)  
+**代码**: [GitHub](https://github.com/HKUST-LongGroup/CoMM)  
 **领域**: 多模态VLM / 数据集  
 **关键词**: 交错图文数据集, 多模态连贯性, Few-shot学习, 图文生成, 偏好数据集
 

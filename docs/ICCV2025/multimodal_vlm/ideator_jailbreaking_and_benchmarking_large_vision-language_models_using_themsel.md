@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 多模态
   - VLM安全性
-  - 越狱攻击
+  - 多模态VLM
   - 红队测试
   - 多模态安全基准
   - 对抗性图文对
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.00827](https://arxiv.org/abs/2411.00827)  
-**代码**: https://github.com/roywang021/IDEATOR  
+**代码**: [https://github.com/roywang021/IDEATOR](https://github.com/roywang021/IDEATOR)  
 **领域**: 多模态VLM  
 **关键词**: VLM安全性, 越狱攻击, 红队测试, 多模态安全基准, 对抗性图文对
 

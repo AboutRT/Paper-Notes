@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.12559](https://arxiv.org/abs/2511.12559)  
-**代码**: https://github.com/YanGuihao/SEMC  
+**代码**: [https://github.com/YanGuihao/SEMC](https://github.com/YanGuihao/SEMC)  
 **领域**: 医学图像 / 超声影像  
 **关键词**: 超声标准切面识别, 混合专家, 对比学习, 语义结构融合, 肝脏超声
 

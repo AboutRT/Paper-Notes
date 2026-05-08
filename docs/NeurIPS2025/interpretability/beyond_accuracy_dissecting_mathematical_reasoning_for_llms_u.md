@@ -10,7 +10,7 @@ tags:
   - plan following
   - knowledge integration
   - subproblem decomposition
-  - multi-stage RL
+  - 可解释性
 ---
 
 # Beyond Accuracy: Dissecting Mathematical Reasoning for LLMs Under Reinforcement Learning
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.04723](https://arxiv.org/abs/2506.04723)  
 **代码**: [https://sparkle-reasoning.github.io/](https://sparkle-reasoning.github.io/)  
-**领域**: LLM推理 / 强化学习分析  
+**领域**: 可解释性  
 **关键词**: SPARKLE, GRPO, plan following, knowledge integration, subproblem decomposition, multi-stage RL  
 
 ## 一句话总结
@@ -124,10 +124,10 @@ Stage 2-pss 比 Stage 1 平均提升 2.02%，AIME24 达到 50.42%（可比 32B �
 
 ## 相关论文
 
-- [\[ICCV 2025\] Learnable Fractional Reaction-Diffusion Dynamics for Under-Display ToF Imaging and Beyond](../../ICCV2025/interpretability/learnable_fractional_reaction-diffusion_dynamics_for_under-display_tof_imaging_a.md)
 - [\[ICML 2025\] On the Power of Context-Enhanced Learning in LLMs](../../ICML2025/interpretability/on_the_power_of_context-enhanced_learning_in_llms.md)
 - [\[ICLR 2026\] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](../../ICLR2026/interpretability/gepa_reflective_prompt_evolution_can_outperform_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Dynamic Algorithm for Explainable k-medians Clustering under lp Norm](dynamic_algorithm_for_explainable_k-medians_clustering_under_lp_norm.md)
+- [\[ACL 2026\] Curing "Miracle Steps" in LLM Mathematical Reasoning with Rubric Rewards](../../ACL2026/interpretability/curing_miracle_steps_in_llm_mathematical_reasoning_with_rubric_rewards.md)
+- [\[ICCV 2025\] Learnable Fractional Reaction-Diffusion Dynamics for Under-Display ToF Imaging and Beyond](../../ICCV2025/interpretability/learnable_fractional_reaction-diffusion_dynamics_for_under-display_tof_imaging_a.md)
 - [\[NeurIPS 2025\] Evaluating LLMs in Open-Source Games](evaluating_llms_in_open-source_games.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04424](https://arxiv.org/abs/2412.04424)  
-**代码**: https://github.com/JiuhaiChen/Florence-VL  
+**代码**: [https://github.com/JiuhaiChen/Florence-VL](https://github.com/JiuhaiChen/Florence-VL)  
 **领域**: 多模态VLM  
 **关键词**: 生成式视觉编码器、Florence-2、深度-广度融合、多任务特征提取、OCR增强
 
@@ -122,6 +122,6 @@ tags:
 - [\[CVPR 2025\] SPA-VL: A Comprehensive Safety Preference Alignment Dataset for Vision Language Models](spa-vl_a_comprehensive_safety_preference_alignment_dataset_for_vision_language_m.md)
 - [\[CVPR 2025\] VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge](vila-m3_enhancing_vision-language_models_with_medical_expert_knowledge.md)
 - [\[ICCV 2025\] EVEv2: Improved Baselines for Encoder-Free Vision-Language Models](../../ICCV2025/multimodal_vlm/evev2_improved_baselines_for_encoderfree_visionlanguage_mode.md)
-- [\[NeurIPS 2025\] SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models](../../NeurIPS2025/multimodal_vlm/sd-vlm_spatial_measuring_and_understanding_with_depth-encoded_vision-language_mo.md)
+- [\[ICCV 2025\] Instruction-Grounded Visual Projectors for Continual Learning of Generative Vision-Language Models](../../ICCV2025/multimodal_vlm/instruction-grounded_visual_projectors_for_continual_learning_of_generative_visi.md)
 
 <!-- RELATED:END -->

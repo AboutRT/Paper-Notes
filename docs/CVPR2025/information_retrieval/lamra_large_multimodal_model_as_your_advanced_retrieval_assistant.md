@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant
 description: >-
-  [CVPR 2025][多模态检索] 将生成式大语言模型（LMM）改造为通用多模态检索器+重排器，通过两阶段训练（语言预训练+多模态指令微调）和联合逐点/列表重排训练，仅插入轻量LoRA模块即可在16种检索任务上显著超越双编码器方法，且在10个未见数据集上展现强泛化能力。
+  [CVPR 2025][信息检索] 将生成式大语言模型（LMM）改造为通用多模态检索器+重排器，通过两阶段训练（语言预训练+多模态指令微调）和联合逐点/列表重排训练，仅插入轻量LoRA模块即可在16种检索任务上显著超越双编码器方法，且在10个未见数据集上展现强泛化能力。
 tags:
   - CVPR 2025
-  - 多模态检索
+  - 信息检索
   - 大语言模型
   - 通用检索
   - 重排序
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01720](https://arxiv.org/abs/2412.01720)  
-**代码**: https://github.com/Code-kunkun/LamRA (有)  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/Code-kunkun/LamRA](https://github.com/Code-kunkun/LamRA)  
+**领域**: 信息检索  
 **关键词**: 多模态检索、大语言模型、通用检索、重排序、LoRA微调
 
 ## 一句话总结
@@ -131,10 +131,10 @@ LamRA = LamRA-Ret（检索）+ LamRA-Rank（重排序）。检索部分：在LMM
 
 ## 相关论文
 
-- [\[ICLR 2026\] Your Language Model Secretly Contains Personality Subnetworks](../../ICLR2026/information_retrieval/your_language_model_secretly_contains_personality_subnetworks.md)
 - [\[CVPR 2025\] GENIUS: A Generative Framework for Universal Multimodal Search](genius_a_generative_framework_for_universal_multimodal_search.md)
+- [\[NeurIPS 2025\] The Transparent Earth: A Multimodal Foundation Model for the Earth's Subsurface](../../NeurIPS2025/information_retrieval/the_transparent_earth_a_multimodal_foundation_model_for_the_earths_subsurface.md)
+- [\[ICLR 2026\] Your Language Model Secretly Contains Personality Subnetworks](../../ICLR2026/information_retrieval/your_language_model_secretly_contains_personality_subnetworks.md)
+- [\[CVPR 2025\] DocoPilot: Improving Multimodal Models for Document-Level Understanding](docopilot_improving_multimodal_models_for_document-level_understanding.md)
 - [\[ACL 2025\] SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model](../../ACL2025/information_retrieval/saferag_benchmarking_security_in_retrieval-augmented_generation_of_large_languag.md)
-- [\[ECCV 2024\] Towards Open-Ended Visual Recognition with Large Language Model](../../ECCV2024/information_retrieval/towards_open-ended_visual_recognition_with_large_language_models.md)
-- [\[NeurIPS 2025\] MITRA: An AI Assistant for Knowledge Retrieval in Physics Collaborations](../../NeurIPS2025/information_retrieval/mitra_an_ai_assistant_for_knowledge_retrieval_in_physics_collaborations.md)
 
 <!-- RELATED:END -->

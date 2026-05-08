@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.21120](https://arxiv.org/abs/2511.21120)  
-**代码**: https://github.com/limengran98/CHMR  
+**代码**: [https://github.com/limengran98/CHMR](https://github.com/limengran98/CHMR)  
 **领域**: 医学图像 / 多模态学习  
 **关键词**: 分子性质预测, 细胞感知表征, 层次化向量量化, 模态缺失, 多模态融合
 

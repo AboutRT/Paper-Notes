@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.04859](https://arxiv.org/abs/2604.04859)  
-**代码**: https://mapooon.github.io/FMLPage  
+**代码**: [https://mapooon.github.io/FMLPage](https://mapooon.github.io/FMLPage)  
 **领域**: 图像生成  
 **关键词**: 户型图生成、标记语言、自回归序列模型、约束解码、向量化表示
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VideoStir: Understanding Long Videos via Spatio-Temporally Structured and Intent-Aware RAG
 description: >-
-  [ACL 2026][长视频理解] VideoStir 提出了一种结构化且意图感知的长视频 RAG 框架，通过将视频建模为时空图进行多跳 clip 检索 + 训练意图相关性评分器进行帧级筛选，在不依赖辅助文本工具的前提下达到了与 SOTA 长视频 RAG 方法可比的性能。
+  [ACL 2026][信息检索] VideoStir 提出了一种结构化且意图感知的长视频 RAG 框架，通过将视频建模为时空图进行多跳 clip 检索 + 训练意图相关性评分器进行帧级筛选，在不依赖辅助文本工具的前提下达到了与 SOTA 长视频 RAG 方法可比的性能。
 tags:
   - ACL 2026
-  - 长视频理解
+  - 信息检索
   - 检索增强生成
   - 时空图结构
   - 意图感知检索
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.05418](https://arxiv.org/abs/2604.05418)  
 **代码**: [https://github.com/RomGai/VideoStir](https://github.com/RomGai/VideoStir)  
-**领域**: information_retrieval  
+**领域**: 信息检索  
 **关键词**: 长视频理解, 检索增强生成, 时空图结构, 意图感知检索, 多跳推理
 
 ## 一句话总结
@@ -126,7 +126,7 @@ VideoStir 分三个阶段：(1) 时空拓扑建模——事件边界检测器分
 - [\[ACL 2026\] Understanding Structured Financial Data with LLMs: A Case Study on Fraud Detection](understanding_structured_financial_data_with_llms_a_case_study_on_fraud_detectio.md)
 - [\[ACL 2026\] All Languages Matter: Understanding and Mitigating Language Bias in Multilingual RAG](all_languages_matter_understanding_and_mitigating_language_bias_in_multilingual_.md)
 - [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](../../ICLR2026/information_retrieval/beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
-- [\[ACL 2026\] A Survey on MLLM-based Visually Rich Document Understanding: Methods, Challenges, and Emerging Trends](a_survey_on_mllm-based_visually_rich_document_understanding_methods_challenges_a.md)
-- [\[ACL 2025\] The Distracting Effect: Understanding Irrelevant Passages in RAG](../../ACL2025/information_retrieval/the_distracting_effect_understanding_irrelevant_passages_in_rag.md)
+- [\[ACL 2026\] Is Agentic RAG Worth It? An Experimental Comparison of RAG Approaches](is_agentic_rag_worth_it_an_experimental_comparison_of_rag_approaches.md)
+- [\[ACL 2026\] How Retrieved Context Shapes Internal Representations in RAG](how_retrieved_context_shapes_internal_representations_in_rag.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.17699](https://arxiv.org/abs/2503.17699)  
-**代码**: https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking (有)  
+**代码**: [https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking](https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking)  
 **领域**: 视频理解  
 **关键词**: 多光谱跟踪, 无人机目标跟踪, 非对称Transformer, 光谱提示, 背景消除
 

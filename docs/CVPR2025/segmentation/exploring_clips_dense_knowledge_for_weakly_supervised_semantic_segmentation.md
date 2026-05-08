@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20826](https://arxiv.org/abs/2503.20826)  
-**代码**: https://github.com/zwyang6/ExCEL  
+**代码**: [https://github.com/zwyang6/ExCEL](https://github.com/zwyang6/ExCEL)  
 **领域**: 语义分割  
 **关键词**: 弱监督语义分割, CLIP, patch-text对齐, 类激活图, 视觉-语言预训练
 

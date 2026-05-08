@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.12251](https://arxiv.org/abs/2510.12251)  
 **代码**: 无  
-**领域**: NLP理解 / 长文本问答 / 注意力优化  
+**领域**: 视频理解  
 **关键词**: Multi-doc QA, attention sharpening, lost-in-the-middle, plug-and-play, information flow
 
 ## 一句话总结

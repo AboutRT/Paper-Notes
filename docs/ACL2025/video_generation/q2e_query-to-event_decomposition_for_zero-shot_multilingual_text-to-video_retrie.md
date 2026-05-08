@@ -8,7 +8,7 @@ tags:
   - 文本到视频检索
   - 事件分解
   - 零样本
-  - LLM知识迁移
+  - 视频生成
   - 多模态融合
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.10202](https://arxiv.org/abs/2506.10202)  
 **代码**: [有](https://dipta007.github.io/Q2E/)  
-**领域**: 多模态 / 视频检索  
+**领域**: 视频生成  
 **关键词**: 文本到视频检索, 事件分解, 零样本, LLM知识迁移, 多模态融合
 
 ## 一句话总结
@@ -162,9 +162,9 @@ Q2E 系统（图 2）包含四个核心模块：
 ## 相关论文
 
 - [\[CVPR 2025\] Zero-1-to-A: Zero-Shot One Image to Animatable Head Avatars Using Video Diffusion](../../CVPR2025/video_generation/zero-1-to-a_zero-shot_one_image_to_animatable_head_avatars_using_video_diffusion.md)
-- [\[CVPR 2025\] ConMo: Controllable Motion Disentanglement and Recomposition for Zero-Shot Motion Transfer](../../CVPR2025/video_generation/conmo_controllable_motion_disentanglement_and_recomposition_for_zero-shot_motion.md)
 - [\[CVPR 2025\] Identity-Preserving Text-to-Video Generation by Frequency Decomposition](../../CVPR2025/video_generation/identity-preserving_text-to-video_generation_by_frequency_decomposition.md)
-- [\[ECCV 2024\] DreamMotion: Space-Time Self-Similar Score Distillation for Zero-Shot Video Editing](../../ECCV2024/video_generation/dreammotion_space-time_self-similar_score_distillation_for_zero-shot_video_editi.md)
-- [\[CVPR 2025\] Video-ColBERT: Contextualized Late Interaction for Text-to-Video Retrieval](../../CVPR2025/video_generation/video-colbert_contextualized_late_interaction_for_text-to-video_retrieval.md)
+- [\[CVPR 2025\] ConMo: Controllable Motion Disentanglement and Recomposition for Zero-Shot Motion Transfer](../../CVPR2025/video_generation/conmo_controllable_motion_disentanglement_and_recomposition_for_zero-shot_motion.md)
+- [\[ICCV 2025\] Quantifying and Narrowing the Unknown: Interactive Text-to-Video Retrieval via Uncertainty Minimization](../../ICCV2025/video_generation/quantifying_and_narrowing_the_unknown_interactive_text-to-video_retrieval_via_un.md)
+- [\[CVPR 2025\] The Devil is in the Prompts: Retrieval-Augmented Prompt Optimization for Text-to-Video Generation](../../CVPR2025/video_generation/the_devil_is_in_the_prompts_retrieval-augmented_prompt_optimization_for_text-to-.md)
 
 <!-- RELATED:END -->

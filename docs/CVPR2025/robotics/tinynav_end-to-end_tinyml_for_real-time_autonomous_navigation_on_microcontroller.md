@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.11071](https://arxiv.org/abs/2603.11071)  
 **代码**: [regularpooria/TinyNav](https://github.com/regularpooria/TinyNav)  
-**领域**: robotics  
+**领域**: 机器人  
 **关键词**: TinyML, 自主导航, 微控制器, ESP32, 端到端学习, 模型量化, 边缘推理
 
 ## 一句话总结
@@ -143,8 +143,8 @@ tags:
 
 - [\[NeurIPS 2025\] SutureBot: A Precision Framework & Benchmark for Autonomous End-to-End Suturing](../../NeurIPS2025/robotics/suturebot_a_precision_framework_benchmark_for_autonomous_end-to-end_suturing.md)
 - [\[CVPR 2025\] SortScrews: A Dataset and Baseline for Real-time Screw Classification](sortscrews_a_dataset_and_baseline_for_real-time_screw_classification.md)
+- [\[CVPR 2025\] ASAP: Advancing Semantic Alignment for Multi-Modal Manipulation Detection](asap_advancing_semantic_alignment_promotes_multi-modal_manipulation_detecting_an.md)
+- [\[CVPR 2025\] UniGoal: Towards Universal Zero-shot Goal-oriented Navigation](unigoal_towards_universal_zero-shot_goal-oriented_navigation.md)
 - [\[CVPR 2025\] Towards Long-Horizon Vision-Language Navigation: Platform, Benchmark and Method](towards_long-horizon_vision-language_navigation_platform_benchmark_and_method.md)
-- [\[CVPR 2025\] Influence Malleability in Linearized Attention: Dual Implications of Non-Convergent NTK Dynamics](influence_malleability_in_linearized_attention_dual_implications_of_non-converge.md)
-- [\[ICLR 2026\] Real-Time Robot Execution with Masked Action Chunking](../../ICLR2026/robotics/real-time_robot_execution_with_masked_action_chunking.md)
 
 <!-- RELATED:END -->

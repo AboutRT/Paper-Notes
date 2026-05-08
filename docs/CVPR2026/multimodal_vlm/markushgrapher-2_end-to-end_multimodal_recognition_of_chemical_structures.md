@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.28550](https://arxiv.org/abs/2603.28550)  
-**代码**: https://github.com/DS4SD/MarkushGrapher  
+**代码**: [https://github.com/DS4SD/MarkushGrapher](https://github.com/DS4SD/MarkushGrapher)  
 **领域**: 多模态VLM / 文档理解  
 **关键词**: 化学结构识别、Markush结构、多模态编码、专利文档分析、OCR
 

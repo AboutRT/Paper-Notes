@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.13121](https://arxiv.org/abs/2603.13121)  
-**代码**: https://github.com/HuiWei-SYSU/FDeID-Toolbox (有)  
+**代码**: [https://github.com/HuiWei-SYSU/FDeID-Toolbox](https://github.com/HuiWei-SYSU/FDeID-Toolbox)  
 **领域**: 扩散模型 / 隐私保护  
 **关键词**: 人脸去标识化, 隐私保护, 工具箱, 统一评估, 生成模型
 

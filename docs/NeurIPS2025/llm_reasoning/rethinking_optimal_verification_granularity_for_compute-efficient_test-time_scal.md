@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.11730](https://arxiv.org/abs/2505.11730)  
-**代码**: https://github.com/hmarkc/VG-Search  
+**代码**: [https://github.com/hmarkc/VG-Search](https://github.com/hmarkc/VG-Search)  
 **领域**: LLM推理 / 测试时计算  
 **关键词**: 测试时缩放, verification granularity, 束搜索, 过程奖励模型, compute efficiency
 

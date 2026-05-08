@@ -9,7 +9,7 @@ tags:
   - 保形预测
   - 工具使用
   - 多模态推理
-  - 不确定性量化
+  - 多模态VLM
   - 自适应计算
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.00324](https://arxiv.org/abs/2603.00324)  
-**代码**: https://github.com/AryaFayyazi/PoP  
+**代码**: [https://github.com/AryaFayyazi/PoP](https://github.com/AryaFayyazi/PoP)  
 **领域**: 多模态推理 / 可靠AI  
 **关键词**: 保形预测, 工具使用, 多模态推理, 不确定性量化, 自适应计算
 

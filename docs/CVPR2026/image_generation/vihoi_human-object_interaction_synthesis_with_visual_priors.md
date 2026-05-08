@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.24383](https://arxiv.org/abs/2603.24383)  
-**代码**: https://github.com/MPI-Lab/ViHOI  
+**代码**: [https://github.com/MPI-Lab/ViHOI](https://github.com/MPI-Lab/ViHOI)  
 **领域**: 图像生成 / 运动生成  
 **关键词**: 人物交互生成, 视觉先验, 扩散模型, VLM, Q-Former
 
@@ -135,7 +135,7 @@ ViHOI由两个核心组件构成：VLM-based Prior Extractor和Vision-aware HOI 
 - [\[CVPR 2025\] HOI-IDiff: An Image-like Diffusion Method for Human-Object Interaction Detection](../../CVPR2025/image_generation/an_image-like_diffusion_method_for_human-object_interaction_detection.md)
 - [\[ICCV 2025\] ScoreHOI: Physically Plausible Reconstruction of Human-Object Interaction via Score-Guided Diffusion](../../ICCV2025/image_generation/scorehoi_physically_plausible_reconstruction_of_human-object_interaction_via_sco.md)
 - [\[CVPR 2026\] Object-WIPER: Training-Free Object and Associated Effect Removal in Videos](object-wiper_training-free_object_and_associated_effect_removal_in_videos.md)
-- [\[CVPR 2025\] InterAct: Advancing Large-Scale Versatile 3D Human-Object Interaction Generation](../../CVPR2025/image_generation/interact_advancing_large-scale_versatile_3d_human-object_interaction_generation.md)
 - [\[CVPR 2026\] HaltNav: Reactive Visual Halting over Lightweight Topological Priors for Robust Vision-Language Navigation](haltnav_reactive_visual_halting_over_lightweight_topological_priors_for_robust_v.md)
+- [\[CVPR 2025\] InterAct: Advancing Large-Scale Versatile 3D Human-Object Interaction Generation](../../CVPR2025/image_generation/interact_advancing_large-scale_versatile_3d_human-object_interaction_generation.md)
 
 <!-- RELATED:END -->

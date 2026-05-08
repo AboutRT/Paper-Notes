@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.09402](https://arxiv.org/abs/2503.09402)  
 **代码**: [GitHub](https://github.com/showlab/VLog)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 视频理解, 生成式检索, 叙事词汇表, 视频语言模型, 高效推理
 
 ## 一句话总结

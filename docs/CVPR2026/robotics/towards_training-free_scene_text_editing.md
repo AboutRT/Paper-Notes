@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.24571](https://arxiv.org/abs/2603.24571)  
-**代码**: https://github.com/lyb18758/TextFlow  
-**领域**: 图像生成 / 场景文字编辑  
+**代码**: [https://github.com/lyb18758/TextFlow](https://github.com/lyb18758/TextFlow)  
+**领域**: 机器人  
 **关键词**: 场景文字编辑, 免训练, 扩散模型, 注意力增强, 流匹配
 
 ## 一句话总结
@@ -137,10 +137,10 @@ TextFlow基于FLUX-Kontext的流匹配架构构建。输入包括源图像、源
 
 ## 相关论文
 
+- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
 - [\[CVPR 2026\] Pixel-level Scene Understanding in One Token: Visual States Need What-is-Where Composition](pixel-level_scene_understanding_in_one_token_visual_states_need_what-is-where_co.md)
 - [\[ACL 2025\] Vulnerability of LLMs to Vertically Aligned Text Manipulations](../../ACL2025/robotics/vulnerability_of_llms_to_vertically_aligned_text_manipulations.md)
 - [\[AAAI 2026\] Gaming the Answer Matcher: Examining the Impact of Text Manipulation on Automated Judgment](../../AAAI2026/robotics/gaming_the_answer_matcher_examining_the_impact_of_text_manipulation_on_automated.md)
 - [\[ICLR 2026\] RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots](../../ICLR2026/robotics/robocasa365_a_large-scale_simulation_framework_for_training_and_benchmarking_gen.md)
-- [\[NeurIPS 2025\] Rethinking the Simulation vs. Rendering Dichotomy: No Free Lunch in Spatial World Modelling](../../NeurIPS2025/robotics/rethinking_the_simulation_vs_rendering_dichotomy_no_free_lunch_in_spatial_world_.md)
 
 <!-- RELATED:END -->

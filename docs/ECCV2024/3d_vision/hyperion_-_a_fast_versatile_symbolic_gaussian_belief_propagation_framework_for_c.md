@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.07074](https://arxiv.org/abs/2407.07074)  
-**代码**: https://github.com/VIS4ROB-lab/hyperion  
+**代码**: [https://github.com/VIS4ROB-lab/hyperion](https://github.com/VIS4ROB-lab/hyperion)  
 **领域**: 3D视觉 / 机器人  
 **关键词**: 连续时间SLAM, 高斯置信传播, B样条, 分布式优化, 符号计算
 

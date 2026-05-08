@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.09182](https://arxiv.org/abs/2601.09182)  
 **代码**: 无  
-**领域**: NLP理解 / 学术审稿  
+**领域**: LLM/NLP  
 **关键词**: LLM辅助审稿, 同行评审, 导师制, 审稿质量, 立场论文
 
 ## 一句话总结
@@ -139,7 +139,7 @@ tags:
 - [\[ACL 2025\] AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions](../../ACL2025/llm_nlp/aimscheck_modern_slavery.md)
 - [\[AAAI 2026\] Scaling Equitable Reflection Assessment in Education via Large Language Models and Role-Based Feedback Agents](scaling_equitable_reflection_assessment_in_education_via_large_language_models_a.md)
 - [\[ACL 2025\] Computation Mechanism Behind LLM Position Generalization](../../ACL2025/llm_nlp/computation_mechanism_behind_llm_position_generalization.md)
+- [\[ICML 2025\] Position: LLM Social Simulations Are a Promising Research Method](../../ICML2025/llm_nlp/llm_social_simulations_are_a_promising_research_method.md)
 - [\[AAAI 2026\] STEM: Efficient Relative Capability Evaluation of LLMs through Structured Transitive Evaluation Model](stem_efficient_relative_capability_evaluation_of_llms_through_structured_transit.md)
-- [\[ICLR 2026\] KVComm: Enabling Efficient LLM Communication through Selective KV Sharing](../../ICLR2026/llm_nlp/kvcomm_enabling_efficient_llm_communication_through_selective_kv_sharing.md)
 
 <!-- RELATED:END -->

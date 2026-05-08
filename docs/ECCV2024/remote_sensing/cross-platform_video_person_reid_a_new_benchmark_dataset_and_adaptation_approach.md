@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.07500](https://arxiv.org/abs/2408.07500)  
-**代码**: https://github.com/FHR-L/VSLA-CLIP (有)  
-**领域**: 遥感（地空跨平台行人重识别）  
+**代码**: [https://github.com/FHR-L/VSLA-CLIP](https://github.com/FHR-L/VSLA-CLIP)  
+**领域**: 遥感  
 **关键词**: 跨平台行人重识别, 视频ReID, CLIP适配, 视觉-语义对齐, 无人机
 
 ## 一句话总结
@@ -59,9 +59,9 @@ tags:
 
    核心思路：为每个身份ID学习一组可学习的描述token $[\mathbf{S}]_i$ 和共享文本提示 $[\mathbf{P}]_i$，输入CLIP的Text Encoder生成语义特征 $\mathbf{T}$。然后使用视觉到语义交叉熵损失 $\mathcal{L}_{v2sce}$ 将视频视觉嵌入 $\mathbf{V}_i$ 对齐到语义特征：
 
-   $$\mathbf{V}_i = \frac{1}{T}\sum_{j}^{T}\mathbf{E}_i(\mathcal{V}_{ij})$$
+    $\mathbf{V}_i = \frac{1}{T}\sum_{j}^{T}\mathbf{E}_i(\mathcal{V}_{ij})$
 
-   $$\mathcal{L}_{v2sce}(i) = \sum_{k=1}^{N}-q_k\log\frac{\exp(s(\mathbf{V}_i, \mathbf{T}_{y_k}))}{\sum_{y_j=1}^{N}\exp(s(\mathbf{V}_i, \mathbf{T}_{y_j}))}$$
+    $\mathcal{L}_{v2sce}(i) = \sum_{k=1}^{N}-q_k\log\frac{\exp(s(\mathbf{V}_i, \mathbf{T}_{y_k}))}{\sum_{y_j=1}^{N}\exp(s(\mathbf{V}_i, \mathbf{T}_{y_j}))}$
 
    设计动机：不同平台的视觉特征在视觉空间中差异巨大，但在语义空间中，同一个人的描述应该是一致的。通过语义空间作为桥梁，间接实现跨平台特征对齐。
 
@@ -71,11 +71,11 @@ tags:
 
    VSLA由两个组件构成：
 
-   - **Intra-Frame Adapter (IFA)**：与ViT每层的MLP并行运行的瓶颈结构，提供帧内外观表示适配：
-     $$\text{IFA}(\mathbf{x}_i') = \sigma(\mathbf{x}_i'\mathbf{W}_{down})\mathbf{W}_{up}$$
-     仅占整个Image Encoder参数的5.5%（$\alpha=256$时）。
+    - **Intra-Frame Adapter (IFA)**：与ViT每层的MLP并行运行的瓶颈结构，提供帧内外观表示适配：
+    $\text{IFA}(\mathbf{x}_i') = \sigma(\mathbf{x}_i'\mathbf{W}_{down})\mathbf{W}_{up}$
+      仅占整个Image Encoder参数的5.5%（$\alpha=256$时）。
 
-   - **Cross-Frame Attention Adapter (CFAA)**：跨帧注意力适配器，通过将输入 $\mathbf{x} \in \mathbb{R}^{T\times(N+1)\times\alpha}$ 重塑为 $\mathbb{R}^{(N+1)\times T\times\alpha}$，在帧维度上做注意力，聚合互补信息。
+    - **Cross-Frame Attention Adapter (CFAA)**：跨帧注意力适配器，通过将输入 $\mathbf{x} \in \mathbb{R}^{T\times(N+1)\times\alpha}$ 重塑为 $\mathbb{R}^{(N+1)\times T\times\alpha}$，在帧维度上做注意力，聚合互补信息。
 
    核心观点：**将视频视为无序帧集合而非时序序列**。航拍视角下时序信息有限（严重自遮挡），互补信息比时序建模更重要。模型对帧顺序不变：$\mathbf{M}(\{\mathcal{V}_{ij}\}) = \mathbf{M}(\{\mathcal{V}_{i\pi(j)}\})$。
 
@@ -85,7 +85,7 @@ tags:
 
    核心思路：在Image Encoder的前 $d$ 层MSA中，根据输入来源插入平台特定的可学习提示：
 
-   $$f_k(\mathbf{h}, \mathbf{p}_k) = \begin{cases} \text{MSA}_k([\mathbf{h}:\mathbf{p}_k^{ground}]) & \text{if } \mathbf{h} \in Set^{ground} \\ \text{MSA}_k([\mathbf{h}:\mathbf{p}_k^{uav}]) & \text{if } \mathbf{h} \in Set^{uav} \end{cases}$$
+    $f_k(\mathbf{h}, \mathbf{p}_k) = \begin{cases} \text{MSA}_k([\mathbf{h}:\mathbf{p}_k^{ground}]) & \text{if } \mathbf{h} \in Set^{ground} \\ \text{MSA}_k([\mathbf{h}:\mathbf{p}_k^{uav}]) & \text{if } \mathbf{h} \in Set^{uav} \end{cases}$
 
    设计动机：提示作为显式指令引导预训练模型关注学习平台不变特征，自动抽象出与平台无关的表示。
 
@@ -173,9 +173,9 @@ $$\mathcal{L}_{stage2} = \mathcal{L}_{v2sce} + \beta\mathcal{L}_{tri} + \gamma\m
 ## 相关论文
 
 - [\[CVPR 2026\] Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark](../../CVPR2026/remote_sensing/cross-modal_fuzzy_alignment_network_for_text-aerial_person_retrieval_and_a_large.md)
+- [\[ECCV 2024\] SCPNet: Unsupervised Cross-modal Homography Estimation via Intra-modal Self-supervised Learning](scpnet_unsupervised_cross-modal_homography_estimation_via_intra-modal_self-super.md)
 - [\[ECCV 2024\] Adapting Fine-Grained Cross-View Localization to Areas without Fine Ground Truth](adapting_fine-grained_cross-view_localization_to_areas_without_fine_ground_truth.md)
 - [\[ECCV 2024\] ConGeo: Robust Cross-View Geo-Localization Across Ground View Variations](congeo_robust_cross-view_geo-localization_across_ground_view_variations.md)
 - [\[ICCV 2025\] CityNav: A Large-Scale Dataset for Real-World Aerial Navigation](../../ICCV2025/remote_sensing/citynav_a_large-scale_dataset_for_real-world_aerial_navigation.md)
-- [\[CVPR 2026\] No Labels, No Look-Ahead: Unsupervised Online Video Stabilization with Classical Priors](../../CVPR2026/remote_sensing/no_labels_no_look-ahead_unsupervised_online_video_stabilization_with_classical_p.md)
 
 <!-- RELATED:END -->

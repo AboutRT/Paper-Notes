@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 分形
-  - 视觉数学推理
+  - 代码智能
   - 程序合成
   - MLLM评测
   - 递归抽象
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.06522](https://arxiv.org/abs/2511.06522)  
-**代码**: https://github.com/NaiveNeuron/FractalBench  
-**领域**: multimodal_vlm  
+**代码**: [https://github.com/NaiveNeuron/FractalBench](https://github.com/NaiveNeuron/FractalBench)  
+**领域**: 代码智能  
 **关键词**: 分形, 视觉数学推理, 程序合成, MLLM评测, 递归抽象
 
 ## 一句话总结
@@ -147,7 +147,7 @@ FractalBench 包含 12 种经典分形（Cantor 集、Koch 曲线、Sierpiński 
 - [\[NeurIPS 2025\] Once Upon an Input: Reasoning via Per-Instance Program Synthesis](once_upon_an_input_reasoning_via_per-instance_program_synthesis.md)
 - [\[ACL 2025\] Program Synthesis Benchmark for Visual Programming in XLogoOnline Environment](../../ACL2025/code_intelligence/program_synthesis_benchmark_for_visual_programming_in_xlogoonline_environment.md)
 - [\[NeurIPS 2025\] Program Synthesis via Test-Time Transduction](program_synthesis_via_test-time_transduction.md)
-- [\[ICLR 2026\] MathFimer: Enhancing Mathematical Reasoning by Expanding Reasoning Steps through Fill-in-the-Middle Task](../../ICLR2026/code_intelligence/mathfimer_enhancing_mathematical_reasoning_by_expanding_reasoning_steps_through_.md)
+- [\[NeurIPS 2025\] Searching Latent Program Spaces](searching_latent_program_spaces.md)
 - [\[NeurIPS 2025\] CoRe: Benchmarking LLMs' Code Reasoning Capabilities through Static Analysis Tasks](core_benchmarking_llms_code_reasoning_capabilities_through_static_analysis_tasks.md)
 
 <!-- RELATED:END -->

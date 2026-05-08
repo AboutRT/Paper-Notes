@@ -9,7 +9,7 @@ tags:
   - 跨模态一致性
   - 循环一致性
   - 等变性
-  - 多模态评估
+  - 其他
 ---
 
 # Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.24211](https://arxiv.org/abs/2505.24211)  
 **代码**: [github](https://github.com/JiwanChung/ACON)  
-**领域**: 其他（多模态一致性评估）  
+**领域**: 其他  
 **关键词**: any-to-any模型, 跨模态一致性, 循环一致性, 等变性, 多模态评估
 
 ## 一句话总结
@@ -154,9 +154,9 @@ Any-to-any 生成模型旨在用统一框架同时理解和生成多种模态（
 ## 相关论文
 
 - [\[ACL 2025\] CORAL: Learning Consistent Representations across Multi-step Training with Lighter Speculative Drafter](coral_speculative_drafting.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
 - [\[ACL 2025\] One for All: Update Parameterized Knowledge Across Multiple Models with Once Edit](one_for_all_update_parameterized_knowledge_across_multiple_models_with_once_edit.md)
-- [\[ICLR 2026\] A Single Architecture for Representing Invariance Under Any Space Group](../../ICLR2026/others/a_single_architecture_for_representing_invariance_under_any_space_group.md)
 - [\[ACL 2025\] I0T: Embedding Standardization Method Towards Zero Modality Gap](i0t_embedding_standardization_method_towards_zero_modality_gap.md)
+- [\[ACL 2025\] Low-Rank Interconnected Adaptation across Layers](low-rank_interconnected_adaptation_across_layers.md)
+- [\[ACL 2025\] Consistent Client Simulation for Motivational Interviewing-based Counseling](consistent_client_simulation_for_motivational_interviewing-based_counseling.md)
 
 <!-- RELATED:END -->

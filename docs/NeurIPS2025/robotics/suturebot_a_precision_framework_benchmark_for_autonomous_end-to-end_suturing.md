@@ -50,9 +50,9 @@ tags:
 1. **大规模数据集构建**
 
    使用dVRK Si版本，通过标准远程操作控制台收集1890条演示：
-   - 取针：628条（含148条恢复演示）
-   - 缝合穿刺：310条（含96条恢复演示）
-   - 打结：952条（含210条恢复演示）
+    - 取针：628条（含148条恢复演示）
+    - 缝合穿刺：310条（含96条恢复演示）
+    - 打结：952条（含210条恢复演示）
 
    恢复演示受DAgger启发：先用初始策略部署识别常见失败模式，再收集从失败状态恢复到成功完成的额外演示。数据包含同步的视觉（腕部相机640×480@30Hz + 立体内窥镜960×540@30Hz）和运动学数据（6-DoF笛卡尔位姿、下颌角度等）。通过变化机器人关节配置、RCM位置、缝合垫放置、针初始姿态和相机安装来引入多样性。
 
@@ -61,19 +61,19 @@ tags:
 2. **目标条件表示**
 
    为实现精度控制的缝合，探索三种目标条件格式：
-   - **点标签（Point Labels）**：在内窥镜图像上叠加不透明蓝色像素（插入点）和绿色像素（出针点）
-   - **二值掩码（Binary Masks）**：三通道图像，分通道编码插入掩码和出针掩码
-   - **距离图（Distance Maps）**：三通道图像，前两通道编码归一化像素偏移向量(dx,dy)指向插入点，第三通道编码强度热力图
+    - **点标签（Point Labels）**：在内窥镜图像上叠加不透明蓝色像素（插入点）和绿色像素（出针点）
+    - **二值掩码（Binary Masks）**：三通道图像，分通道编码插入掩码和出针掩码
+    - **距离图（Distance Maps）**：三通道图像，前两通道编码归一化像素偏移向量(dx,dy)指向插入点，第三通道编码强度热力图
 
    设计动机：点标签直接将目标嵌入任务图像，提供最显式直观的目标表示；掩码和距离图作为独立输入可能增加了模型整合信息的认知负担。
 
 3. **多VLA模型系统评估**
 
    比较四种低层策略：
-   - **π0**：基于预训练VLM + flow-matching动作头
-   - **GR00T N1**：类似架构但预训练侧重人形机器人
-   - **OpenVLA-OFT**：使用并行解码+L1回归+FiLM条件化
-   - **多任务ACT**：非VLA基线，不依赖预训练VLM骨干网络
+    - **π0**：基于预训练VLM + flow-matching动作头
+    - **GR00T N1**：类似架构但预训练侧重人形机器人
+    - **OpenVLA-OFT**：使用并行解码+L1回归+FiLM条件化
+    - **多任务ACT**：非VLA基线，不依赖预训练VLM骨干网络
 
    ACT和OpenVLA使用L1回归（至少10000步），π0和GR00T使用MSE（更少步数，容易过拟合）。所有训练在DGX A100（8×A100 80GB）上进行。
 
@@ -164,7 +164,7 @@ tags:
 - [\[CVPR 2025\] TinyNav: End-to-End TinyML for Real-Time Autonomous Navigation on Microcontrollers](../../CVPR2025/robotics/tinynav_end-to-end_tinyml_for_real-time_autonomous_navigation_on_microcontroller.md)
 - [\[NeurIPS 2025\] DexFlyWheel: A Scalable Self-Improving Data Generation Framework for Dexterous Manipulation](dexflywheel_a_scalable_and_self-improving_data_generation_framework_for_dexterou.md)
 - [\[NeurIPS 2025\] MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark](mmtu_a_massive_multi-task_table_understanding_and_reasoning_benchmark.md)
-- [\[NeurIPS 2025\] LabUtopia: High-Fidelity Simulation and Hierarchical Benchmark for Scientific Embodied Agents](labutopia_high-fidelity_simulation_and_hierarchical_benchmark_for_scientific_emb.md)
 - [\[NeurIPS 2025\] RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation](robocerebra_a_large-scale_benchmark_for_long-horizon_robotic_manipulation_evalua.md)
+- [\[NeurIPS 2025\] LabUtopia: High-Fidelity Simulation and Hierarchical Benchmark for Scientific Embodied Agents](labutopia_high-fidelity_simulation_and_hierarchical_benchmark_for_scientific_emb.md)
 
 <!-- RELATED:END -->

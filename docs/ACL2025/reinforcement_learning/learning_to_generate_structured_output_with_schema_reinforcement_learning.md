@@ -5,7 +5,7 @@ description: >-
   [ACL 2025][structured generation] 提出 SchemaBench 基准（约4万条 JSON schema）和 Schema Reinforcement Learning (SRL) 训练框架，通过细粒度 schema 验证器提供密集奖励信号，结合 Thoughts of Structure (ToS) 推理机制，将 LLM 的复杂 JSON 生成准确率提升高达16%，同时不损害通用推理能力。
 tags:
   - ACL 2025
-  - structured generation
+  - 强化学习
   - JSON schema
   - reinforcement-learning
   - LLM
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.18878](https://arxiv.org/abs/2502.18878)  
-**代码**: https://github.com/thunlp/SchemaReinforcementLearning  
+**代码**: [https://github.com/thunlp/SchemaReinforcementLearning](https://github.com/thunlp/SchemaReinforcementLearning)  
 **领域**: 强化学习  
 **关键词**: structured generation, JSON schema, reinforcement-learning, LLM, benchmark
 
@@ -156,7 +156,7 @@ ToS 贡献最大（+13.74%），细粒度验证器也有显著提升（+4.44%）
 - [\[ICLR 2026\] Learning to Generate Unit Test via Adversarial Reinforcement Learning](../../ICLR2026/reinforcement_learning/learning_to_generate_unit_test_via_adversarial_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](../../NeurIPS2025/reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)
 - [\[ACL 2025\] Prompt-based Personality Profiling: Reinforcement Learning for Relevance Filtering](prompt-based_personality_profiling_reinforcement_learning_for_relevance_filterin.md)
+- [\[ACL 2025\] TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](treerl_tree_search_rl.md)
 - [\[ICML 2025\] Robust Offline Reinforcement Learning with Linearly Structured f-Divergence Regularization](../../ICML2025/reinforcement_learning/robust_offline_reinforcement_learning_with_linearly_structured_f-divergence_regu.md)
-- [\[NeurIPS 2025\] Learning to Focus: Prioritizing Informative Histories with Structured Attention Mechanisms in Partially Observable Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/learning_to_focus_prioritizing_informative_histories_with_structured_attention_m.md)
 
 <!-- RELATED:END -->

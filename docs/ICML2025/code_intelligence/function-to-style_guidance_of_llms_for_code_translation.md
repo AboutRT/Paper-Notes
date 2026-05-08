@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - code translation
-  - LLM fine-tuning
+  - 代码智能
   - functional learning
   - style learning
   - readability
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2507.11083](https://arxiv.org/abs/2507.11083)  
 **代码**: 有（论文提及模型和 benchmark 已公开）  
-**领域**: LLM / NLP  
+**领域**: 代码智能  
 **关键词**: code translation, LLM fine-tuning, functional learning, style learning, readability
 
 ## 一句话总结

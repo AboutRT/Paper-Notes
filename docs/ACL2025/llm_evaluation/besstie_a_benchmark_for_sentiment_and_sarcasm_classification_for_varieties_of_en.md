@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 英语变体
-  - 情感分析
+  - LLM评测
   - 讽刺检测
   - 语言公平性
   - benchmark
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.04726](https://arxiv.org/abs/2412.04726)  
-**代码**: https://huggingface.co/datasets/unswnlporg/BESSTIE  
-**领域**: NLP理解 / 公平性  
+**代码**: [https://huggingface.co/datasets/unswnlporg/BESSTIE](https://huggingface.co/datasets/unswnlporg/BESSTIE)  
+**领域**: LLM评测  
 **关键词**: 英语变体, 情感分析, 讽刺检测, 语言公平性, benchmark
 
 ## 一句话总结

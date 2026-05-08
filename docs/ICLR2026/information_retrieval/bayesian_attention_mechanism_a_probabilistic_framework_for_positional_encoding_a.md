@@ -9,7 +9,7 @@ tags:
   - 位置编码
   - 上下文外推
   - 广义高斯分布
-  - 长上下文
+  - 信息检索
 ---
 
 # Bayesian Attention Mechanism: A Probabilistic Framework for Positional Encoding and Context Length Extrapolation
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2505.22842](https://arxiv.org/abs/2505.22842)  
 **代码**: [https://github.com/ArthurSBianchessi/BAM](https://github.com/ArthurSBianchessi/BAM)  
-**领域**: LLM效率 / 位置编码  
+**领域**: 信息检索  
 **关键词**: 贝叶斯注意力, 位置编码, 上下文外推, 广义高斯分布, 长上下文  
 
 ## 一句话总结
@@ -116,10 +116,10 @@ BAM 将注意力权重分解为 $p_{ij} = p(f_{\text{cont}}(\mathbf{q}_i, \mathb
 
 ## 相关论文
 
-- [\[ICML 2025\] Rethinking Addressing in Language Models via Contextualized Equivariant Positional Encoding](../../ICML2025/information_retrieval/rethinking_addressing_in_language_models_via_contexualized_equivariant_positiona.md)
-- [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
 - [\[ICLR 2026\] Embedding-Based Context-Aware Reranker](embedding-based_context-aware_reranker.md)
-- [\[NeurIPS 2025\] The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation](../../NeurIPS2025/information_retrieval/the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md)
-- [\[ACL 2025\] SEAL: Scaling to Emphasize Attention for Long-Context Retrieval](../../ACL2025/information_retrieval/seal_scaling_to_emphasize_attention_for_long-context_retrieval.md)
+- [\[ACL 2026\] Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring](../../ACL2026/information_retrieval/bayesian_active_learning_with_gaussian_processes_guided_by_llm_relevance_scoring.md)
+- [\[ICLR 2026\] Attributing Response to Context: A Jensen-Shannon Divergence Driven Mechanistic Study of Context Attribution in Retrieval-Augmented Generation](attributing_response_to_context_a_jensen-shannon_divergence_driven_mechanistic_s.md)
+- [\[AAAI 2026\] SR-KI: Scalable and Real-Time Knowledge Integration into LLMs via Supervised Attention](../../AAAI2026/information_retrieval/sr-ki_scalable_and_real-time_knowledge_integration_into_llms_via_supervised_atte.md)
+- [\[AAAI 2026\] Positional Bias in Multimodal Embedding Models: Do They Favor the Beginning, the Middle, or the End?](../../AAAI2026/information_retrieval/positional_bias_in_multimodal_embedding_models_do_they_favor_the_beginning_the_m.md)
 
 <!-- RELATED:END -->

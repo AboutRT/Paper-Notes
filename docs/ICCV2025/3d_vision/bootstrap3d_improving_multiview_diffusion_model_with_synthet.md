@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2406.00093](https://arxiv.org/abs/2406.00093)  
-**代码**: [https://github.com/SunzeY/Bootstrap3D](https://github.com/SunzeY/Bootstrap3D) (有)  
+**代码**: [https://github.com/SunzeY/Bootstrap3D](https://github.com/SunzeY/Bootstrap3D)  
 **领域**: 3D视觉 / 3D内容生成  
 **关键词**: 多视图扩散模型, 合成数据, 数据增强, 3D生成, 多模态大语言模型  
 

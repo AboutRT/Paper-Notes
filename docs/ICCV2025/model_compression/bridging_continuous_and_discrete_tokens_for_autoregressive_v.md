@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.16430](https://arxiv.org/abs/2503.16430)  
 **代码**: [https://yuqingwang1029.github.io/TokenBridge](https://yuqingwang1029.github.io/TokenBridge) (项目页，代码暂无公开)  
-**领域**: 图像生成 / 自回归视觉生成  
+**领域**: 模型压缩  
 **关键词**: 自回归生成, 视觉Token化, 后训练量化, 离散-连续桥接, 维度级预测  
 
 ## 一句话总结
@@ -149,8 +149,8 @@ TokenBridge颠覆了传统"在tokenizer训练中引入量化"的范式，改为*
 
 - [\[ICCV 2025\] Bridging Continuous and Discrete Tokens for Autoregressive Visual Generation](bridging_continuous_and_discrete_tokens_for_autoregressive_visual_generation.md)
 - [\[ICCV 2025\] FastVAR: Linear Visual Autoregressive Modeling via Cached Token Pruning](fastvar_linear_visual_autoregressive_modeling_via_cached_token_pruning.md)
-- [\[ICCV 2025\] SynCity: Training-Free Generation of 3D Worlds](syncity_training-free_generation_of_3d_worlds.md)
-- [\[ICCV 2025\] Competitive Distillation: A Simple Learning Strategy for Improving Visual Classification](competitive_distillation_a_simple_learning_strategy_for_improving_visual_classif.md)
 - [\[ICCV 2025\] B-VLLM: A Vision Large Language Model with Balanced Spatio-Temporal Tokens](b-vllm_a_vision_large_language_model_with_balanced_spatio-temporal_tokens.md)
+- [\[ICCV 2025\] Competitive Distillation: A Simple Learning Strategy for Improving Visual Classification](competitive_distillation_a_simple_learning_strategy_for_improving_visual_classif.md)
+- [\[ICCV 2025\] VQ-SGen: A Vector Quantized Stroke Representation for Creative Sketch Generation](vq-sgen_a_vector_quantized_stroke_representation_for_creative_sketch_generation.md)
 
 <!-- RELATED:END -->

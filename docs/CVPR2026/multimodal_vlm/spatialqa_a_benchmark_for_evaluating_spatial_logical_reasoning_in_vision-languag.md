@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 多模态
-  - 空间逻辑推理
+  - 多模态VLM
   - VLM基准
   - 场景图
   - 室内场景理解
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.20901](https://arxiv.org/abs/2602.20901)  
-**代码**: https://github.com/xieyc99/SpatiaLQA  
+**代码**: [https://github.com/xieyc99/SpatiaLQA](https://github.com/xieyc99/SpatiaLQA)  
 **领域**: 多模态VLM  
 **关键词**: 空间逻辑推理, VLM基准, 场景图, 室内场景理解, 多步推理
 

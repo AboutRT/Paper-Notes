@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.20185](https://arxiv.org/abs/2603.20185)  
-**代码**: https://github.com/jylins/videoseek  
+**代码**: [https://github.com/jylins/videoseek](https://github.com/jylins/videoseek)  
 **领域**: 视频理解 / Agent  
 **关键词**: 视频Agent, 长视频理解, 工具调用, 逻辑流, think-act-observe
 

@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Findings)][隐式推理] 本文通过在受控的多步数学推理数据集上从零训练 GPT-2，系统研究了语言模型的隐式推理机制，发现隐式推理本质上是基于模式匹配的捷径学习——在固定模式数据上能泛化，在非固定模式数据上则过拟合，这一发现在 SOTA 大模型上同样成立。
 tags:
   - ACL 2025 (Findings)
-  - 隐式推理
+  - 其他
   - Transformer
   - 捷径学习
   - 多步数学推理
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2503.07604](https://arxiv.org/abs/2503.07604)  
 **代码**: [GitHub](https://github.com/TianheL/LM-Implicit-Reasoning)  
-**领域**: LLM推理  
+**领域**: 其他  
 **关键词**: 隐式推理, Transformer, 捷径学习, 多步数学推理, 泛化能力
 
 ## 一句话总结
@@ -127,10 +127,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning](getreason_enhancing_image_context_extraction_through_hierarchical_multi-agent_re.md)
 - [\[ACL 2025\] Commonsense Reasoning in Arab Culture](commonsense_arab_culture.md)
 - [\[ACL 2025\] Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks](principled_generalization_arithmetic.md)
-- [\[ACL 2025\] RePanda: Pandas-powered Tabular Verification and Reasoning](repanda_pandas-powered_tabular_verification_and_reasoning.md)
 - [\[ACL 2025\] Temporal Reasoning for Timeline Summarisation in Social Media](temporal_reasoning_for_timeline_summarisation_in_social_media.md)
+- [\[ACL 2025\] RePanda: Pandas-powered Tabular Verification and Reasoning](repanda_pandas-powered_tabular_verification_and_reasoning.md)
+- [\[ICML 2025\] Discrete Neural Algorithmic Reasoning](../../ICML2025/others/discrete_neural_algorithmic_reasoning.md)
 
 <!-- RELATED:END -->

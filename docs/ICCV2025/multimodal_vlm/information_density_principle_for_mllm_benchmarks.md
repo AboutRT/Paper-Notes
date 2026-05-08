@@ -9,7 +9,7 @@ tags:
   - 基准评价
   - 信息密度
   - MLLM评估
-  - benchmark质量
+  - 多模态VLM
   - 元评估
 ---
 
@@ -148,6 +148,6 @@ $$E(I) \propto (1 - D_{fal}) \cdot D_{dif} \cdot (1 - D_{red}) \cdot D_{div}$$
 - [\[ICCV 2025\] Boosting MLLM Reasoning with Text-Debiased Hint-GRPO](boosting_mllm_reasoning_with_text-debiased_hint-grpo.md)
 - [\[ICCV 2025\] Effective Training Data Synthesis for Improving MLLM Chart Understanding](effective_training_data_synthesis_for_improving_mllm_chart_understanding.md)
 - [\[ICCV 2025\] Pi-GPS: Enhancing Geometry Problem Solving by Unleashing the Power of Diagrammatic Information](pi-gps_enhancing_geometry_problem_solving_by_unleashing_the_power_of_diagrammati.md)
-- [\[ICML 2025\] Learning Optimal Multimodal Information Bottleneck Representations](../../ICML2025/multimodal_vlm/learning_optimal_multimodal_information_bottleneck_representations.md)
+- [\[ICCV 2025\] Calibrating MLLM-as-a-Judge via Multimodal Bayesian Prompt Ensembles](calibrating_mllm-as-a-judge_via_multimodal_bayesian_prompt_ensembles.md)
 
 <!-- RELATED:END -->

@@ -42,10 +42,10 @@ Langevin 动力学是 EBM（能量模型）和 SGM（分数匹配生成模型）
 ### 关键设计
 
 1. **PID 控制的 Langevin 动力学**: 核心更新公式为：
-   $$x_{t+1} = x_t + \epsilon\left(k_p \nabla_x U_\theta(x_t) + \frac{k_i}{t}\sum_{s=0}^{t}\nabla_x U_\theta(x_s) + k_d(\nabla_x U_\theta(x_t) - \nabla_x U_\theta(x_{t-1}))\right) + \sqrt{2\epsilon}\xi_t$$
-   - **P 项**（$k_p$）：标准梯度引导，响应当前误差
-   - **I 项**（$k_i/t \cdot \sum$）：累积梯度历史创造动量效应，帮助穿越能量壁垒和不稳定平衡点。$1/t$ 归一化防止积分项随时间主导
-   - **D 项**（$k_d$）：捕捉梯度变化率，在梯度持续下降方向加速运动，在梯度持续上升处抑制运动，减少超调
+    $x_{t+1} = x_t + \epsilon\left(k_p \nabla_x U_\theta(x_t) + \frac{k_i}{t}\sum_{s=0}^{t}\nabla_x U_\theta(x_s) + k_d(\nabla_x U_\theta(x_t) - \nabla_x U_\theta(x_{t-1}))\right) + \sqrt{2\epsilon}\xi_t$
+    - **P 项**（$k_p$）：标准梯度引导，响应当前误差
+    - **I 项**（$k_i/t \cdot \sum$）：累积梯度历史创造动量效应，帮助穿越能量壁垒和不稳定平衡点。$1/t$ 归一化防止积分项随时间主导
+    - **D 项**（$k_d$）：捕捉梯度变化率，在梯度持续下降方向加速运动，在梯度持续上升处抑制运动，减少超调
 
 2. **指数衰减的积分增益调度**: 积分项的增益随时间衰减 $k_i(t) = \gamma^t \cdot k_i$（$\gamma < 1$）。这是受控制理论中增益调度的启发：早期需要高积分增益构建动量穿越壁垒，后期需要低增益避免不稳定。衰减确保采样最终回归标准 Langevin 动力学，保证理论收敛性。
 

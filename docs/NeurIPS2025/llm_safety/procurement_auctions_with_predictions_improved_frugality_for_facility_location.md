@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.09367](https://arxiv.org/abs/2512.09367)  
 **代码**: 无  
-**领域**: 算法博弈论 / 机制设计  
+**领域**: LLM安全  
 **关键词**: 采购拍卖, 设施选址, 节俭性, 学习增强机制, VCG拍卖
 
 ## 一句话总结
@@ -154,10 +154,10 @@ $$o'_\ell(S) = \begin{cases} \frac{2}{\epsilon} \cdot o_\ell, & \text{if } S = \
 
 ## 相关论文
 
+- [\[ACL 2025\] Improved Unbiased Watermark for Large Language Models](../../ACL2025/llm_safety/improved_unbiased_watermark_for_large_language.md)
+- [\[ICML 2025\] Federated In-Context Learning: Iterative Refinement for Improved Answer Quality](../../ICML2025/llm_safety/federated_in-context_learning_iterative_refinement_for_improved_answer_quality.md)
+- [\[NeurIPS 2025\] A Cramér–von Mises Approach to Incentivizing Truthful Data Sharing](a_cramrvon_mises_approach_to_incentivizing_truthful_data_sha.md)
+- [\[NeurIPS 2025\] TRUST -- Transformer-Driven U-Net for Sparse Target Recovery](trust_--_transformer-driven_u-net_for_sparse_target_recovery.md)
 - [\[NeurIPS 2025\] A Reliable Cryptographic Framework for Empirical Machine Unlearning Evaluation](a_reliable_cryptographic_framework_for_empirical_machine_unl.md)
-- [\[NeurIPS 2025\] SIMU: Selective Influence Machine Unlearning](simu_selective_influence_machine_unlearning.md)
-- [\[NeurIPS 2025\] Buffer Layers for Test-Time Adaptation](buffer_layers_for_test-time_adaptation.md)
-- [\[NeurIPS 2025\] Teaming LLMs to Detect and Mitigate Hallucinations](teaming_llms_to_detect_and_mitigate_hallucinations.md)
-- [\[NeurIPS 2025\] Demystifying Language Model Forgetting with Low-Rank Example Associations](demystifying_language_model_forgetting_with_low-rank_example_associations.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2503.05255](https://arxiv.org/abs/2503.05255)  
 **代码**: [https://github.com/zhangguanghao523/CMMCoT](https://github.com/zhangguanghao523/CMMCoT)  
-**领域**: 多模态VLM  
+**领域**: LLM推理  
 **关键词**: 多图理解, 多模态思维链, 测试时记忆增强, 视觉推理, 慢思考  
 
 ## 一句话总结

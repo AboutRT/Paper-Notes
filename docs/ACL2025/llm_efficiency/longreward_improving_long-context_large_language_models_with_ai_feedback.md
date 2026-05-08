@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2410.21252](https://arxiv.org/abs/2410.21252)  
 **代码**: [THUDM/LongReward](https://github.com/THUDM/LongReward)  
-**领域**: llm_efficiency  
+**领域**: LLM效率  
 **关键词**: 长上下文对齐, AI Feedback, DPO, 幻觉抑制, 长文档问答
 
 ## 研究背景与动机

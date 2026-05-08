@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 数学推理评测
+  - 多模态VLM
   - 视觉数学
   - 文本冗余
   - CoT评估
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.14624](https://arxiv.org/abs/2403.14624)  
-**代码**: https://mathverse-cuhk.github.io (有)  
+**代码**: [https://mathverse-cuhk.github.io](https://mathverse-cuhk.github.io)  
 **领域**: 多模态VLM  
 **关键词**: 数学推理评测, 视觉数学, 文本冗余, CoT评估, 多模态理解
 
@@ -141,6 +141,6 @@ MathVerse是评测基准，不涉及训练。数据构建流程：
 - [\[ECCV 2024\] MMBench: Is Your Multi-modal Model an All-Around Player?](mmbench_is_your_multimodal_model_an_allaround_player.md)
 - [\[ECCV 2024\] m&m's: A Benchmark to Evaluate Tool-Use for Multi-step Multi-modal Tasks](m_ampmaposs_a_benchmark_to_evaluate_tool-use_for_multi-step_multi-modal_tasks.md)
 - [\[ECCV 2024\] ShareGPT4V: Improving Large Multi-modal Models with Better Captions](sharegpt4v_improving_large_multimodal_models_with_better_cap.md)
-- [\[ECCV 2024\] BLINK: Multimodal Large Language Models Can See but Not Perceive](blink_multimodal_large_language_models_can_see_but_not_perceive.md)
+- [\[ECCV 2024\] Large Motion Model for Unified Multi-Modal Motion Generation](large_motion_model_for_unified_multi-modal_motion_generation.md)
 
 <!-- RELATED:END -->

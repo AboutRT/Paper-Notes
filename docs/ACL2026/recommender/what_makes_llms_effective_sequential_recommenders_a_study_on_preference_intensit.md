@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 序列推荐
-  - 偏好对齐
+  - 推荐系统
   - 偏好强度
   - 时间上下文
   - DPO
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2506.02261](https://arxiv.org/abs/2506.02261)  
-**代码**: https://github.com/zyouyang/RecPO  
+**代码**: [https://github.com/zyouyang/RecPO](https://github.com/zyouyang/RecPO)  
 **领域**: 推荐系统  
 **关键词**: 序列推荐, 偏好对齐, 偏好强度, 时间上下文, DPO
 
@@ -128,7 +128,7 @@ RecPO 在 Qwen-7B 上同样显著优于所有基线，HR@1 提升幅度在 10%-3
 - [\[ACL 2026\] What Makes an Ideal Quote? Recommending "Unexpected yet Rational" Quotations via Novelty](what_makes_an_ideal_quote_recommending_34unexpected_yet_rational34_quotations_vi.md)
 - [\[ACL 2026\] Personalized Benchmarking: Evaluating LLMs by Individual Preferences](personalized_benchmarking_evaluating_llms_by_individual_preferences.md)
 - [\[ACL 2026\] Where and What: Reasoning Dynamic and Implicit Preferences in Situated Conversational Recommendation](where_and_what_reasoning_dynamic_and_implicit_preferences_in_situated_conversati.md)
-- [\[AAAI 2026\] HyMoERec: Hybrid Mixture-of-Experts for Sequential Recommendation](../../AAAI2026/recommender/hymoerec_hybrid_mixture-of-experts_for_sequential_recommendation.md)
+- [\[ICLR 2026\] CollectiveKV: Decoupling and Sharing Collaborative Information in Sequential Recommendation](../../ICLR2026/recommender/collectivekv_decoupling_and_sharing_collaborative_information_in_sequential_reco.md)
 - [\[ICLR 2026\] Search Arena: Analyzing Search-Augmented LLMs](../../ICLR2026/recommender/search_arena_analyzing_search-augmented_llms.md)
 
 <!-- RELATED:END -->

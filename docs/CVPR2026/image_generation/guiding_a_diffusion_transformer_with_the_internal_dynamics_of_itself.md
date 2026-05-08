@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.24176](https://arxiv.org/abs/2512.24176)  
-**代码**: https://github.com/xy-chou/Internal-Guidance (项目页面)  
+**代码**: [https://github.com/xy-chou/Internal-Guidance](https://github.com/xy-chou/Internal-Guidance) (项目页面)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 内部引导, 中间层监督, 扩散Transformer, 采样引导, 训练加速
 

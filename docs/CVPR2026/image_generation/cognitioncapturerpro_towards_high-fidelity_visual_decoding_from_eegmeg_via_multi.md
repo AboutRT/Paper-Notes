@@ -51,19 +51,19 @@ tags:
 
 1. **不确定性加权遮蔽（Uncertainty-Weighted Masking, UM）**：模拟人类中央凹视觉机制，对图像施加空间变化的模糊处理。核心公式为：
 
-   $$\mathbf{M}_{\text{fovea}}(i,j) = r_{\text{edge}} + (r_{\text{centre}} - r_{\text{edge}}) \cdot \exp\left(-\lambda \frac{d_{ij}}{d_{\max}}\right)$$
+    $\mathbf{M}_{\text{fovea}}(i,j) = r_{\text{edge}} + (r_{\text{centre}} - r_{\text{edge}}) \cdot \exp\left(-\lambda \frac{d_{ij}}{d_{\max}}\right)$
 
    通过 EMA 记忆库追踪每个样本的对齐得分 $\hat{s}_i$，动态调整模糊强度 $\sigma$："简单"样本增大模糊防止过拟合，"困难"样本减小模糊聚焦核心特征。设计动机是用课程学习思想应对 EEG 信号的保真度差异。
 
 2. **相似度-类别遮蔽损失（SCM-Loss）**：解决 EEG 数据集中一对多映射导致的 InfoNCE 训练悖论——同一语义类别的样本同时被拉近又推远。SCM-Loss 定义遮蔽概率矩阵：
 
-   $$M_{ij} = \frac{\exp(S_{ij} \cdot m_{ij})}{\sum_{l=1}^{B} \exp(S_{il} \cdot m_{il})}$$
+    $M_{ij} = \frac{\exp(S_{ij} \cdot m_{ij})}{\sum_{l=1}^{B} \exp(S_{il} \cdot m_{il})}$
 
    其中 $m_{ij} = 1$ 当且仅当 $y_i = y_j$ 且 $j \in \text{top-}k(S_{i,\cdot})$，确保仅语义相同且高相似度的样本作为正对。Top-k 设为 10。贡献最大的模块，单独引入提升 Top-1 准确率 6.0%。
 
 3. **共享主干与多头对齐（STH-Align）**：取代计算昂贵的扩散先验（Diffusion Prior），使用轻量级 4 层 MLP 共享主干处理拼接后的四模态嵌入 $\mathbf{x}_{\text{cat}} = [\mathbf{e}^{\text{img}}; \mathbf{e}^{\text{txt}}; \mathbf{e}^{\text{depth}}; \mathbf{e}^{\text{edge}}] \in \mathbb{R}^{4d}$，各模态专有投影头输出 L2 归一化特征。损失函数：
 
-   $$\mathcal{L}_{\text{STH}} = \sum_m \left[\lambda_{\text{mse}}\|\hat{\mathbf{e}}^m - \mathbf{v}^m\|_2^2 + \lambda_{\text{cos}}(1 - \cos(\hat{\mathbf{e}}^m, \mathbf{v}^m)) + \lambda_{\text{reg}}\|\hat{\mathbf{e}}^m\|_2^2\right]$$
+    $\mathcal{L}_{\text{STH}} = \sum_m \left[\lambda_{\text{mse}}\|\hat{\mathbf{e}}^m - \mathbf{v}^m\|_2^2 + \lambda_{\text{cos}}(1 - \cos(\hat{\mathbf{e}}^m, \mathbf{v}^m)) + \lambda_{\text{reg}}\|\hat{\mathbf{e}}^m\|_2^2\right]$
 
    训练时随机丢弃一个模态增强鲁棒性，推理时仅需 EEG 输入。
 
@@ -138,7 +138,7 @@ tags:
 - [\[CVPR 2026\] High-Fidelity Diffusion Face Swapping with ID-Constrained Facial Conditioning](high-fidelity_diffusion_face_swapping_with_id-constrained_facial_conditioning.md)
 - [\[CVPR 2026\] PixelRush: Ultra-Fast, Training-Free High-Resolution Image Generation via One-step Diffusion](pixelrush_ultra-fast_training-free_high-resolution_image_generation_via_one-step.md)
 - [\[CVPR 2026\] Image Generation as a Visual Planner for Robotic Manipulation](image_generation_as_a_visual_planner_for_robotic_manipulation.md)
-- [\[CVPR 2026\] Low-Resolution Editing is All You Need for High-Resolution Editing](low-resolution_editing_is_all_you_need_for_high-resolution_editing.md)
 - [\[CVPR 2026\] ViHOI: Human-Object Interaction Synthesis with Visual Priors](vihoi_human-object_interaction_synthesis_with_visual_priors.md)
+- [\[CVPR 2026\] Language-Free Generative Editing from One Visual Example](language-free_generative_editing_from_one_visual_example.md)
 
 <!-- RELATED:END -->

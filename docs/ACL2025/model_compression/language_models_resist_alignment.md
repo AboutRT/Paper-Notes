@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Best Paper Award)  
 **arXiv**: [2406.06144](https://arxiv.org/abs/2406.06144)  
 **代码**: [pku-lm-resist-alignment.github.io](https://pku-lm-resist-alignment.github.io)  
-**领域**: AI安全 / LLM对齐 / 信息论  
+**领域**: 模型压缩  
 **关键词**: elasticity, inverse alignment, compression theory, alignment fragility, Hooke's Law analogy  
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.23361](https://arxiv.org/abs/2506.23361)  
-**代码**: https://caiyuanhao1998.github.io/project/OmniVCus/ (项目页面)  
+**代码**: [https://caiyuanhao1998.github.io/project/OmniVCus/](https://caiyuanhao1998.github.io/project/OmniVCus/) (项目页面)  
 **领域**: 扩散模型 / 视频定制生成  
 **关键词**: 主体驱动视频定制, 多模态控制, DiT, 多主体生成, 前馈生成
 

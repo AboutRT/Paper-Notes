@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Interpretable Traces, Unexpected Outcomes: Investigating the Disconnect in Trace-Based Knowledge Distillation
 description: >-
-  [ACL 2026][CoT推理链] 通过规则化问题分解方法构建可验证的中间推理链数据集，揭示 CoT 推理链的语义正确性与最终答案准确率不可靠地相关（正确链仅 28% 导致正确答案），且最可解释的推理链并非最提升性能的——冗长的 R1 链性能最优但用户评为最不可解释。
+  [ACL 2026][可解释性] 通过规则化问题分解方法构建可验证的中间推理链数据集，揭示 CoT 推理链的语义正确性与最终答案准确率不可靠地相关（正确链仅 28% 导致正确答案），且最可解释的推理链并非最提升性能的——冗长的 R1 链性能最优但用户评为最不可解释。
 tags:
   - ACL 2026
-  - CoT推理链
+  - 可解释性
   - 知识蒸馏
   - 语义正确性
   - 可解释性
@@ -122,8 +122,8 @@ CoTemp QA 数据集上的结果：
 
 - [\[AAAI 2026\] A Closer Look at Knowledge Distillation in Spiking Neural Network Training](../../AAAI2026/interpretability/a_closer_look_at_knowledge_distillation_in_spiking_neural_ne.md)
 - [\[ACL 2026\] Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models](experiments_or_outcomes_probing_scientific_feasibility_in_large_language_models.md)
-- [\[ACL 2026\] Tracing Relational Knowledge Recall in Large Language Models](tracing_relational_knowledge_recall_in_large_language_models.md)
 - [\[ACL 2026\] Understanding New-Knowledge-Induced Factual Hallucinations in LLMs: Analysis and Interpretation](understanding_new-knowledge-induced_factual_hallucinations_in_llms_analysis_and_.md)
-- [\[ICLR 2026\] Narrow Finetuning Leaves Clearly Readable Traces in Activation Differences](../../ICLR2026/interpretability/narrow_finetuning_leaves_clearly_readable_traces_in_activation_differences.md)
+- [\[ACL 2026\] Tracing Relational Knowledge Recall in Large Language Models](tracing_relational_knowledge_recall_in_large_language_models.md)
+- [\[ICML 2025\] A Cross Modal Knowledge Distillation & Data Augmentation Recipe for Improving Transcriptomics Representations through Morphological Features](../../ICML2025/interpretability/a_cross_modal_knowledge_distillation_data_augmentation_recipe_for_improving_tran.md)
 
 <!-- RELATED:END -->

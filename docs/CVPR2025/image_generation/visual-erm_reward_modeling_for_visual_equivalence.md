@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13224](https://arxiv.org/abs/2603.13224)  
 **代码**: [GitHub](https://github.com/InternLM/Visual-ERM)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 奖励模型, vision-to-code, 强化学习, visual equivalence, chart-to-code, 测试时缩放
 
 ## 一句话总结

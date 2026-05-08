@@ -8,7 +8,7 @@ tags:
   - reward hacking
   - shortcut learning
   - group-invariant kernel
-  - RLHF
+  - 可解释性
   - preference alignment
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.19050](https://arxiv.org/abs/2510.19050)  
 **代码**: 待确认  
-**领域**: llm_alignment  
+**领域**: 可解释性  
 **关键词**: reward hacking, shortcut learning, group-invariant kernel, RLHF, preference alignment
 
 ## 一句话总结
@@ -191,7 +191,7 @@ PRISM 在所有三个 shortcut 维度上都实现了近零相关系数，直接�
 - [\[AAAI 2026\] Probing Preference Representations: A Multi-Dimensional Evaluation and Analysis Method for Reward Models](../../AAAI2026/interpretability/probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)
 - [\[NeurIPS 2025\] Self-Supervised Contrastive Learning is Approximately Supervised Contrastive Learning](self-supervised_contrastive_learning_is_approximately_supervised_contrastive_lea.md)
 - [\[ACL 2025\] Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis](../../ACL2025/interpretability/shortcut_neuron_eval.md)
+- [\[NeurIPS 2025\] Learning to Focus: Causal Attention Distillation via Gradient-Guided Token Pruning](learning_to_focus_causal_attention_distillation_via_gradient-guided_token_prunin.md)
 - [\[ICML 2025\] Configurable Preference Tuning with Rubric-Guided Synthetic Data](../../ICML2025/interpretability/configurable_preference_tuning_with_rubric-guided_synthetic_data.md)
-- [\[NeurIPS 2025\] FastDINOv2: Frequency Based Curriculum Learning Improves Robustness and Training Speed](fastdinov2_frequency_based_curriculum_learning_improves_robustness_and_training_.md)
 
 <!-- RELATED:END -->

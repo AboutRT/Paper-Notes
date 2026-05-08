@@ -18,7 +18,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.01512](https://arxiv.org/abs/2506.01512)  
-**代码**: https://github.com/limengnlp/llm-fff  
+**代码**: [https://github.com/limengnlp/llm-fff](https://github.com/limengnlp/llm-fff)  
 **领域**: LLM/NLP  
 **关键词**: epistemic modality, modal auxiliaries, attitude verbs, uncertainty expression, Theory of Mind, linguistic knowledge
 

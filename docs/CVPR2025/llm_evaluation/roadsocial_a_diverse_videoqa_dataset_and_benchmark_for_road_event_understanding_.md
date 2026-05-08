@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives
 description: >-
-  [CVPR 2025][LLM/NLP][VideoQA] 本文提出RoadSocial，一个来源于社交媒体的大规模多样化VideoQA数据集（13.2K视频、260K问答对），覆盖全球多地域多视角的道路事件场景，通过半自动标注框架和12类QA任务系统性评测了18种Video LLM的道路事件理解能力。
+  [CVPR 2025][LLM评测][VideoQA] 本文提出RoadSocial，一个来源于社交媒体的大规模多样化VideoQA数据集（13.2K视频、260K问答对），覆盖全球多地域多视角的道路事件场景，通过半自动标注框架和12类QA任务系统性评测了18种Video LLM的道路事件理解能力。
 tags:
   - CVPR 2025
-  - LLM/NLP
+  - LLM评测
   - VideoQA
   - 道路事件
   - 社交媒体
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: 待公开  
 **代码**: 无  
-**领域**: 视频问答 / 交通理解  
+**领域**: LLM评测  
 **关键词**: VideoQA, 道路事件, 社交媒体, 数据集, Video LLM
 
 ## 一句话总结
@@ -94,7 +94,7 @@ RoadSocial的构建流程：(1) 数据收集——从社交媒体平台按关键
 
 - [\[CVPR 2025\] Event Ellipsometer: Event-based Mueller-Matrix Video Imaging](event_ellipsometer_event-based_mueller-matrix_video_imaging.md)
 - [\[CVPR 2025\] VinaBench: Benchmark for Faithful and Consistent Visual Narratives](vinabench_benchmark_for_faithful_and_consistent_visual_narratives.md)
-- [\[ACL 2025\] CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming](../../ACL2025/llm_evaluation/culturalbench_a_robust_diverse_and_challenging_cultural_benchmark_by_human-ai_cu.md)
+- [\[ICCV 2025\] StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition](../../ICCV2025/llm_evaluation/streammind_unlocking_full_frame_rate_streaming_video_dialogue_through_event-gate.md)
 - [\[CVPR 2025\] Out of Sight, Out of Mind? Evaluating State Evolution in Video World Models](out_of_sight_out_of_mind_evaluating_state_evolution_in_video_world_models.md)
 - [\[CVPR 2026\] Pioneering Perceptual Video Fluency Assessment: A Novel Task with Benchmark Dataset and Baseline](../../CVPR2026/llm_evaluation/pioneering_perceptual_video_fluency_assessment_a_novel_task_with_benchmark_datas.md)
 

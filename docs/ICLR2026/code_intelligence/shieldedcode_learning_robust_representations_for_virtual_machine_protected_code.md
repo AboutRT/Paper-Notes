@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 虚拟机保护
   - 代码表征学习
-  - 对比学习
+  - 代码智能
   - 多态生成
   - 软件安全
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.20679](https://arxiv.org/abs/2601.20679)  
 **代码**: 无  
-**领域**: 文本生成  
+**领域**: 代码智能  
 **关键词**: 虚拟机保护, 代码表征学习, 对比学习, 多态生成, 软件安全
 
 ## 一句话总结
@@ -148,8 +148,8 @@ $$\mathcal{M}(x_t^k) = \underbrace{\{x_t^1,...,x_t^m, [\text{VINST}]_t\}}_{\text
 ## 相关论文
 
 - [\[ICLR 2026\] Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](paper2code_automating_code_generation_from_scientific_papers_in_machine_learning.md)
-- [\[ICML 2025\] Robust Learning of Diverse Code Edits (NextCoder)](../../ICML2025/code_intelligence/robust_learning_of_diverse_code_edits.md)
 - [\[ICLR 2026\] DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models](dro-instructzero_distributionally_robust_prompt_optimization_for_instruction_fol.md)
+- [\[ICML 2025\] Robust Learning of Diverse Code Edits (NextCoder)](../../ICML2025/code_intelligence/robust_learning_of_diverse_code_edits.md)
 - [\[ICLR 2026\] Learning to Reason without External Rewards](learning_to_reason_without_external_rewards.md)
 - [\[ICLR 2026\] Breaking the SFT Plateau: Multimodal Structured Reinforcement Learning for Chart-to-Code Generation](breaking_the_sft_plateau_multimodal_structured_reinforcement_learning_for_chart-.md)
 

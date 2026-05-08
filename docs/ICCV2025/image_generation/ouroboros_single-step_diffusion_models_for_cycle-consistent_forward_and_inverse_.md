@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.14461](https://arxiv.org/abs/2508.14461)  
-**代码**: https://siwensun.github.io/ouroboros-project/  
+**代码**: [https://siwensun.github.io/ouroboros-project/](https://siwensun.github.io/ouroboros-project/)  
 **领域**: 扩散模型 / 3D视觉  
 **关键词**: 逆渲染, 前向渲染, 循环一致性, 单步扩散, 内在图像分解
 

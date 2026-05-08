@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.08334](https://arxiv.org/abs/2511.08334)  
 **代码**: [ettof/Diveseg](https://github.com/ettof/Diveseg)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: underwater instance segmentation, DINOv2, domain adaptation, Fourier style transfer, foundation model fine-tuning
 
 ## 一句话总结
@@ -168,10 +168,10 @@ Full Fine-tuning 效果差可能因灾难性遗忘；AquaStyle Aligner 通过显
 
 ## 相关论文
 
-- [\[AAAI 2026\] Empowering Semantic-Sensitive Underwater Image Enhancement with VLM](empowering_semantic-sensitive_underwater_image_enhancement_with_vlm.md)
-- [\[CVPR 2026\] A Mixed Diet Makes DINO An Omnivorous Vision Encoder](../../CVPR2026/segmentation/mixed_diet_dino_omnivorous_encoder.md)
 - [\[ECCV 2024\] UniFS: Universal Few-Shot Instance Perception with Point Representations](../../ECCV2024/segmentation/unifs_universal_few-shot_instance_perception_with_point_representations.md)
+- [\[CVPR 2026\] A Mixed Diet Makes DINO An Omnivorous Vision Encoder](../../CVPR2026/segmentation/mixed_diet_dino_omnivorous_encoder.md)
 - [\[CVPR 2026\] ELVIS: Enhance Low-Light for Video Instance Segmentation in the Dark](../../CVPR2026/segmentation/elvis_enhance_low-light_for_video_instance_segmentation_in_the_dark.md)
 - [\[CVPR 2026\] Phrase-Instance Alignment for Generalized Referring Segmentation](../../CVPR2026/segmentation/phrase-instance_alignment_for_generalized_referring_segmentation.md)
+- [\[CVPR 2025\] Foveated Instance Segmentation](../../CVPR2025/segmentation/foveated_instance_segmentation.md)
 
 <!-- RELATED:END -->

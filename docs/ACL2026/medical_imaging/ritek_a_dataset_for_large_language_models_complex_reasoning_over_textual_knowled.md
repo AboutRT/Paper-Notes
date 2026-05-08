@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2410.13987](https://arxiv.org/abs/2410.13987)  
 **代码**: [https://github.com/ToneLi/Medical-Textual-KG-Reasoning-Benchmark](https://github.com/ToneLi/Medical-Textual-KG-Reasoning-Benchmark)  
-**领域**: 医学NLP/知识图谱  
+**领域**: 医学图像  
 **关键词**: 文本知识图谱, 医学问答, 复杂推理, 检索系统, 拓扑结构
 
 ## 一句话总结

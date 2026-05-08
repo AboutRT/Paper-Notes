@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2407.09392](https://arxiv.org/abs/2407.09392)  
-**代码**: https://github.com/fajwel/Open-Canopy (有)  
-**领域**: 遥感 / 分割  
+**代码**: [https://github.com/fajwel/Open-Canopy](https://github.com/fajwel/Open-Canopy)  
+**领域**: 自动驾驶  
 **关键词**: 树冠高度估计, 超高分辨率遥感, LiDAR, 卫星图像, 森林监测
 
 ## 一句话总结

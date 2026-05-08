@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.10917](https://arxiv.org/abs/2409.10917)  
-**代码**: https://gabrielegoletto.github.io/AMEGO/ (有)  
+**代码**: [https://gabrielegoletto.github.io/AMEGO/](https://gabrielegoletto.github.io/AMEGO/)  
 **领域**: 视频理解 / 第一人称视觉  
 **关键词**: Egocentric Video, Long Video Understanding, Episodic Memory, Hand-Object Interaction, Structured Representation
 
@@ -125,10 +125,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] Spherical World-Locking for Audio-Visual Localization in Egocentric Videos](spherical_world-locking_for_audio-visual_localization_in_egocentric_videos.md)
 - [\[ECCV 2024\] Goldfish: Vision-Language Understanding of Arbitrarily Long Videos](goldfish_vision-language_understanding_of_arbitrarily_long_videos.md)
 - [\[ECCV 2024\] RGNet: A Unified Clip Retrieval and Grounding Network for Long Videos](rgnet_a_unified_clip_retrieval_and_grounding_network_for_long_videos.md)
 - [\[CVPR 2025\] ReWind: Understanding Long Videos with Instructed Learnable Memory](../../CVPR2025/video_understanding/rewind_understanding_long_videos_with_instructed_learnable_memory.md)
 - [\[ICCV 2025\] Fine-grained Spatiotemporal Grounding on Egocentric Videos](../../ICCV2025/video_understanding/fine-grained_spatiotemporal_grounding_on_egocentric_videos.md)
+- [\[ECCV 2024\] Benchmarks and Challenges in Pose Estimation for Egocentric Hand Interactions with Objects](benchmarks_and_challenges_in_pose_estimation_for_egocentric_hand_interactions_wi.md)
 
 <!-- RELATED:END -->

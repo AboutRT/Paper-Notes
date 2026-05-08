@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.08173](https://arxiv.org/abs/2503.08173)  
 **代码**: [GitHub](https://github.com/tianyuan168326/All-in-One-MedReID-Pytorch)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 医学图像重识别, 模态自适应, 参数适配器, 医学先验, 隐私保护
 
 ## 一句话总结

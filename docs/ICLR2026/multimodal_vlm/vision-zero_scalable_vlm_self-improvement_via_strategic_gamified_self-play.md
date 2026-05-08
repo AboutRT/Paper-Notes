@@ -12,7 +12,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2509.25541](https://arxiv.org/abs/2509.25541)
 - **代码**: [GitHub](https://github.com/Vision-Zero-AI/Vision-Zero)
-- **领域**: 多模态视觉语言模型
+- **领域**: 多模态VLM
 - **关键词**: VLM, Self-Play, Reinforcement Learning, Zero-Shot, Gamification, Self-Improvement
 
 ## 一句话总结

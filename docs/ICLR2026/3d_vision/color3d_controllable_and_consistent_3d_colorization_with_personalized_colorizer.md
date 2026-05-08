@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.10152](https://arxiv.org/abs/2510.10152)  
-**代码**: https://yecongwan.github.io/Color3D/ (Project Page)  
+**代码**: [https://yecongwan.github.io/Color3D/](https://yecongwan.github.io/Color3D/) (Project Page)  
 **领域**: 3D视觉 / 图像生成  
 **关键词**: 3D上色, 高斯溅射, 个性化微调, Lab颜色空间, 视觉一致性
 

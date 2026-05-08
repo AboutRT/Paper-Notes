@@ -8,7 +8,7 @@ tags:
   - contextual bandits
   - multinomial logit
   - 非线性效用函数
-  - 组合选品优化
+  - 强化学习
   - UCB
   - 神经网络
 ---
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2601.06913](https://arxiv.org/abs/2601.06913)  
 **作者**: Taehyun Hwang, Dahngoon Kim, Min-hwan Oh (Seoul National University)  
 **代码**: 未公开  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: contextual bandits, multinomial logit, 非线性效用函数, 组合选品优化, UCB, 神经网络  
 
 ## 一句话总结

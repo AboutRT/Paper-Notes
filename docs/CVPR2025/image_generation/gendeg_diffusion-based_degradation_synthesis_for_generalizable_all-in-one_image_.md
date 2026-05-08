@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17687](https://arxiv.org/abs/2411.17687)  
-**代码**: https://sudraj2002.github.io/gendegpage/ (项目页面)  
-**领域**: 图像复原  
+**代码**: [https://sudraj2002.github.io/gendegpage/](https://sudraj2002.github.io/gendegpage/) (项目页面)  
+**领域**: 图像生成  
 **关键词**: 图像退化合成, 扩散模型, All-In-One复原, 域外泛化, 合成数据
 
 ## 一句话总结

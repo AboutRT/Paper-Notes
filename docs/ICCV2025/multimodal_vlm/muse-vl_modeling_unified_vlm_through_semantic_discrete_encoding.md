@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV2025
   - 多模态
-  - 统一视觉语言模型
+  - 多模态VLM
   - 视觉离散化
   - 语义编码
   - 视觉理解与生成
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2411.17762](https://arxiv.org/abs/2411.17762)  
 **作者**: Rongchang Xie, Chen Du, Ping Song, Chang Liu (ByteDance)
 **代码**: 未开源  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 统一视觉语言模型, 视觉离散化, 语义编码, 视觉理解与生成, 自回归
 
 ## 一句话总结
@@ -176,9 +176,9 @@ SDE 比 VQGAN 提升 +26.2% (AVG)，比 SEED/LaVIT 提升 +6.4~7.5%。
 ## 相关论文
 
 - [\[ICCV 2025\] Unified Multimodal Understanding via Byte-Pair Visual Encoding](unified_multimodal_understanding_via_byte-pair_visual_encoding.md)
-- [\[ICCV 2025\] MaTVLM: Hybrid Mamba-Transformer for Efficient Vision-Language Modeling](matvlm_hybrid_mamba-transformer_for_efficient_vision-language_modeling.md)
-- [\[ICCV 2025\] R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization](r1-vl_learning_to_reason_with_multimodal_large_language_models_via_step-wise_gro.md)
-- [\[ICCV 2025\] Visual Interestingness Decoded: How GPT-4o Mirrors Human Interests](visual_interestingness_decoded_how_gpt-4o_mirrors_human_interests.md)
 - [\[ICCV 2025\] LLaVA-KD: A Framework of Distilling Multimodal Large Language Models](llava-kd_a_framework_of_distilling_multimodal_large_language_models.md)
+- [\[ICCV 2025\] WikiAutoGen: Towards Multi-Modal Wikipedia-Style Article Generation](wikiautogen_towards_multi-modal_wikipedia-style_article_generation.md)
+- [\[ICCV 2025\] Multimodal LLMs as Customized Reward Models for Text-to-Image Generation](multimodal_llms_as_customized_reward_models_for_text-to-image_generation.md)
+- [\[ICCV 2025\] Dynamic-VLM: Simple Dynamic Visual Token Compression for VideoLLM](dynamic-vlm_simple_dynamic_visual_token_compression_for_videollm.md)
 
 <!-- RELATED:END -->

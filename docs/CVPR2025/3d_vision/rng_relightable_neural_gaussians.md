@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2409.19702](https://arxiv.org/abs/2409.19702)  
-**代码**: https://whois-jiahui.fun/project_pages/RNG  
+**代码**: [https://whois-jiahui.fun/project_pages/RNG](https://whois-jiahui.fun/project_pages/RNG)  
 **领域**: 3D视觉 / 重光照  
 **关键词**: 3D高斯溅射, 重光照, 神经高斯, 阴影映射, 混合渲染
 

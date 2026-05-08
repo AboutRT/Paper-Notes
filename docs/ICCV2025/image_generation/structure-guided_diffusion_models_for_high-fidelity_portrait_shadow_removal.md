@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.04692](https://arxiv.org/abs/2507.04692)  
-**代码**: https://github.com/wanchang-yu/Structure-Guided-Diffusion-for-Portrait-Shadow-Removal  
-**领域**: 图像修复 / 扩散模型  
+**代码**: [https://github.com/wanchang-yu/Structure-Guided-Diffusion-for-Portrait-Shadow-Removal](https://github.com/wanchang-yu/Structure-Guided-Diffusion-for-Portrait-Shadow-Removal)  
+**领域**: 图像生成  
 **关键词**: 人像阴影去除, 扩散Inpainting, 结构图引导, 细节恢复, 重光照数据合成
 
 ## 一句话总结
@@ -141,7 +141,7 @@ $$\mathbf{e}_t = \epsilon_\theta(x_t, I_M, S, M, t)$$
 - [\[CVPR 2025\] MetaShadow: Object-Centered Shadow Detection, Removal, and Synthesis](../../CVPR2025/image_generation/metashadow_object-centered_shadow_detection_removal_and_synthesis.md)
 - [\[ICCV 2025\] PersonalVideo: High ID-Fidelity Video Customization without Dynamic and Semantic Degradation](personalvideo_high_id-fidelity_video_customization_without_dynamic_and_semantic_.md)
 - [\[ICCV 2025\] Domain Generalizable Portrait Style Transfer](domain_generalizable_portrait_style_transfer.md)
-- [\[ICCV 2025\] Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal](compression-aware_one-step_diffusion_model_for_jpeg_artifact_removal.md)
 - [\[CVPR 2026\] FG-Portrait: 3D Flow Guided Editable Portrait Animation](../../CVPR2026/image_generation/fg-portrait_3d_flow_guided_editable_portrait_animation.md)
+- [\[ICCV 2025\] Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal](compression-aware_one-step_diffusion_model_for_jpeg_artifact_removal.md)
 
 <!-- RELATED:END -->

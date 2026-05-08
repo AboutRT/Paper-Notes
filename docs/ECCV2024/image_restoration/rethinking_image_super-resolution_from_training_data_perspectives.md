@@ -9,7 +9,7 @@ tags:
   - 超分辨率
   - 训练数据
   - 数据集构建
-  - 图像质量评估
+  - 图像复原
   - 目标多样性
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.00768](https://arxiv.org/abs/2409.00768)  
-**代码**: https://github.com/gohtanii/DiverSeg-dataset (有)  
+**代码**: [https://github.com/gohtanii/DiverSeg-dataset](https://github.com/gohtanii/DiverSeg-dataset)  
 **领域**: 图像恢复  
 **关键词**: 超分辨率, 训练数据, 数据集构建, 图像质量评估, 目标多样性
 
@@ -150,8 +150,8 @@ tags:
 ## 相关论文
 
 - [\[ECCV 2024\] Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks](overcoming_distribution_mismatch_in_quantizing_image_super-resolution_networks.md)
+- [\[ECCV 2024\] XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution](xpsr_cross-modal_priors_for_diffusion-based_image_super-resolution.md)
 - [\[ICCV 2025\] Outlier-Aware Post-Training Quantization for Image Super-Resolution](../../ICCV2025/image_restoration/outlier-aware_post-training_quantization_for_image_super-resolution.md)
-- [\[ECCV 2024\] Accelerating Image Super-Resolution Networks with Pixel-Level Classification](accelerating_image_super-resolution_networks_with_pixel-level_classification.md)
 - [\[ECCV 2024\] Contourlet Residual for Prompt Learning Enhanced Infrared Image Super-Resolution](contourlet_residual_for_prompt_learning_enhanced_infrared_image_super-resolution.md)
 - [\[ECCV 2024\] Pairwise Distance Distillation for Unsupervised Real-World Image Super-Resolution](pairwise_distance_distillation_for_unsupervised_real-world_image_super-resolutio.md)
 

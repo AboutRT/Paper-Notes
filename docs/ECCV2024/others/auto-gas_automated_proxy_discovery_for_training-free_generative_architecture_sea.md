@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 生成架构搜索
-  - 免训练代理
+  - 其他
   - 进化算法
   - GAN
   - 零成本代理
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/lliai/Auto-GAS  
-**领域**: 模型压缩 / 神经架构搜索  
+**代码**: [https://github.com/lliai/Auto-GAS](https://github.com/lliai/Auto-GAS)  
+**领域**: 其他  
 **关键词**: 生成架构搜索, 免训练代理, 进化算法, GAN压缩, 零成本代理
 
 ## 一句话总结
@@ -128,9 +128,9 @@ Auto-GAS 的整体流程分为两个阶段：(1) **代理发现阶段**——构
 ## 相关论文
 
 - [\[CVPR 2025\] VKDNW: Training-free Neural Architecture Search through Variance of Knowledge of Deep Network Weights](../../CVPR2025/others/training-free_neural_architecture_search_through_variance_of_knowledge_of_deep_n.md)
-- [\[ECCV 2024\] AttnZero: Efficient Attention Discovery for Vision Transformers](attnzero_efficient_attention_discovery_for_vision_transformers.md)
 - [\[ICLR 2026\] Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search](../../ICLR2026/others/enhancing_generative_auto_bidding.md)
-- [\[ICCV 2025\] Loss Functions for Predictor-based Neural Architecture Search](../../ICCV2025/others/loss_functions_for_predictor-based_neural_architecture_search.md)
-- [\[ECCV 2024\] Free-Viewpoint Video of Outdoor Sports Using a Flying Camera](free-viewpoint_video_of_outdoor_sports_using_a_flying_camera.md)
+- [\[CVPR 2025\] Subnet-Aware Dynamic Supernet Training for Neural Architecture Search](../../CVPR2025/others/subnet-aware_dynamic_supernet_training_for_neural_architecture_search.md)
+- [\[ECCV 2024\] AttnZero: Efficient Attention Discovery for Vision Transformers](attnzero_efficient_attention_discovery_for_vision_transformers.md)
+- [\[ECCV 2024\] FreeAugment: Data Augmentation Search Across All Degrees of Freedom](freeaugment_data_augmentation_search_across_all_degrees_of_freedom.md)
 
 <!-- RELATED:END -->

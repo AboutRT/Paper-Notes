@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12719](https://arxiv.org/abs/2603.12719)  
-**代码**: [https://github.com/DongXu-Zhang/IGASA](https://github.com/DongXu-Zhang/IGASA) (有)  
+**代码**: [https://github.com/DongXu-Zhang/IGASA](https://github.com/DongXu-Zhang/IGASA)  
 **领域**: 3D视觉 / 点云配准 / 自动驾驶  
 **关键词**: [点云配准, 层级金字塔架构, 跳跃注意力, 几何感知迭代精细化, 粗到精]  
 

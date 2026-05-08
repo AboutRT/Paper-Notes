@@ -56,22 +56,22 @@ tags:
 1. **正交空间解耦（OSD）模块**：将各层特征拼接后投影到低维正交空间，显式地解耦不同语义模式并分配权重。
 
    具体流程：将$L$组特征沿通道拼接得到$F_{con}^* \in \mathbb{R}^{Ld \times n \times n}$，通过三层结构处理：
-   - 全连接层$W_{in} \in \mathbb{R}^{Ld \times r}$降维到低秩空间
-   - 卷积层$W_{orth} \in \mathbb{R}^{r \times r \times 1 \times 1}$施加正交约束
-   - 全连接层$W_{out} \in \mathbb{R}^{r \times Ld}$映射回原空间并拆分
+    - 全连接层$W_{in} \in \mathbb{R}^{Ld \times r}$降维到低秩空间
+    - 卷积层$W_{orth} \in \mathbb{R}^{r \times r \times 1 \times 1}$施加正交约束
+    - 全连接层$W_{out} \in \mathbb{R}^{r \times Ld}$映射回原空间并拆分
 
    正交正则化损失（将$F_{orth}$reshape为$\mathbb{R}^{r \times n^2}$后计算）：
-   $$L_{orth} = \|F_{orth} F_{orth}^T - I\|_F^2$$
+    $L_{orth} = \|F_{orth} F_{orth}^T - I\|_F^2$
 
    **设计动机**：通过正交约束促进各通道特征之间的独立性，实现语义解耦。互信息实验验证了效果——使用OSD后支持/查询特征间的MI显著降低（如Chest X-ray从0.91降至0.65）。rank $r$默认设为8以平衡性能与参数量。源域训练时$W_{in}$和$W_{out}$与编码器联合训练；目标域微调时仅微调紧凑的$W_{orth}$（仅64个参数），其余冻结。
 
 2. **交叉模式比较（CPC）模块**：将解耦后的支持集原型和查询特征进行交叉比较，生成$L^2$组score maps进行重组合。
 
    首先通过Mask Average Pooling从支持特征中获取$L$组前景原型$P_{fg} \in \mathbb{R}^{L \times d \times 1 \times 1}$和背景原型$P_{bg} \in \mathbb{R}^{L \times d \times 1 \times 1}$。然后对$L$组query特征与$L$组原型进行交叉比较：
-   $$C_{bg/fg} = distance(F^q, P_{bg/fg}), \quad C = concat(C_{bg}, C_{fg})$$
+    $C_{bg/fg} = distance(F^q, P_{bg/fg}), \quad C = concat(C_{bg}, C_{fg})$
 
    其中$C$被reshape为$\mathbb{R}^{L^2 \times 2 \times n \times n}$，2代表背景和前景。默认使用余弦相似度：
-   $$distance_{cos} = \frac{F^q \cdot P_{bg/fg}}{\|F^q\| \|P_{bg/fg}\|}$$
+    $distance_{cos} = \frac{F^q \cdot P_{bg/fg}}{\|F^q\| \|P_{bg/fg}\|}$
 
    **设计动机**：由于ViT的自注意力机制具有动态性，不同层提取的特征可能存在正确的跨层语义对应关系，因此交叉比较比逐位匹配更有效（实验：59.50% vs 55.14%）。
 
@@ -188,8 +188,8 @@ $$L = L_{BCE} + \lambda L_{orth}$$
 ## 相关论文
 
 - [\[ICML 2025\] Adapter Naturally Serves as Decoupler for Cross-Domain Few-Shot Semantic Segmentation](adapter_naturally_serves_as_decoupler_for_cross-domain_few-shot_semantic_segment.md)
-- [\[CVPR 2025\] The Devil is in Low-Level Features for Cross-Domain Few-Shot Segmentation](../../CVPR2025/segmentation/the_devil_is_in_low-level_features_for_cross-domain_few-shot_segmentation.md)
 - [\[CVPR 2025\] Dual-Agent Optimization framework for Cross-Domain Few-Shot Segmentation](../../CVPR2025/segmentation/dual-agent_optimization_framework_for_cross-domain_few-shot_segmentation.md)
+- [\[CVPR 2025\] The Devil is in Low-Level Features for Cross-Domain Few-Shot Segmentation](../../CVPR2025/segmentation/the_devil_is_in_low-level_features_for_cross-domain_few-shot_segmentation.md)
 - [\[AAAI 2026\] Bridging Granularity Gaps: Hierarchical Semantic Learning for Cross-Domain Few-Shot Segmentation](../../AAAI2026/segmentation/bridging_granularity_gaps_hierarchical_semantic_learning_for_cross-domain_few-sh.md)
 - [\[ICCV 2025\] Object-level Correlation for Few-Shot Segmentation](../../ICCV2025/segmentation/object-level_correlation_for_few-shot_segmentation.md)
 

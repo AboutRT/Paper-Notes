@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.20998](https://arxiv.org/abs/2504.20998)  
-**代码**: https://thaoshibe.github.io/YoChameleon  
+**代码**: [https://thaoshibe.github.io/YoChameleon](https://thaoshibe.github.io/YoChameleon)  
 **领域**: 多模态VLM / 图像生成  
 **关键词**: 个性化生成, 大型多模态模型, soft prompt, 图文统一生成, 少样本学习
 
@@ -136,7 +136,7 @@ tags:
 - [\[CVPR 2025\] Do Visual Imaginations Improve Vision-and-Language Navigation Agents?](do_visual_imaginations_improve_vision-and-language_navigation_agents.md)
 - [\[CVPR 2025\] Enhancing Vision-Language Compositional Understanding with Multimodal Synthetic Data (SPARCL)](enhancing_vision-language_compositional_understanding_with_multimodal_synthetic_.md)
 - [\[CVPR 2025\] PersonaBooth: Personalized Text-to-Motion Generation](personabooth_personalized_text-to-motion_generation.md)
-- [\[CVPR 2025\] DreamCache: Finetuning-Free Lightweight Personalized Image Generation via Feature Caching](dreamcache_finetuning-free_lightweight_personalized_image_generation_via_feature.md)
 - [\[CVPR 2025\] ConceptGuard: Continual Personalized Text-to-Image Generation with Forgetting and Confusion Mitigation](conceptguard_continual_personalized_text-to-image_generation_with_forgetting_and.md)
+- [\[CVPR 2025\] DreamCache: Finetuning-Free Lightweight Personalized Image Generation via Feature Caching](dreamcache_finetuning-free_lightweight_personalized_image_generation_via_feature.md)
 
 <!-- RELATED:END -->

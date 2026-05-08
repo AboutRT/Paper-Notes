@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2506.22099](https://arxiv.org/abs/2506.22099)  
-**代码**: [github.com/fudan-zvg/BezierGS](https://github.com/fudan-zvg/BezierGS) (有)  
+**代码**: [github.com/fudan-zvg/BezierGS](https://github.com/fudan-zvg/BezierGS)  
 **领域**: 3D视觉 / 自动驾驶场景重建  
 **关键词**: 3D Gaussian Splatting, Bézier曲线, 动态场景重建, 轨迹建模, 自动驾驶仿真  
 **作者**: Zipei Ma, Junzhe Jiang, Yurui Chen, Li Zhang (复旦大学)

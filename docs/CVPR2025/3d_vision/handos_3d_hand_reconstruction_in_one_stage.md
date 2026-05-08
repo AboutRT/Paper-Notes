@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01537](https://arxiv.org/abs/2412.01537)  
-**代码**: https://github.com/idea-research/HandOS (有)  
+**代码**: [https://github.com/idea-research/HandOS](https://github.com/idea-research/HandOS)  
 **领域**: 3D视觉  
 **关键词**: 手部重建, 单阶段检测, 2D-3D交互解码, 端到端姿态估计, DETR
 

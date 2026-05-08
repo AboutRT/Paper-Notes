@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 自监督学习
-  - 对抗学习
+  - 自监督
   - 无偏估计
   - 迁移学习
   - 理论保证
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2408.08533](https://arxiv.org/abs/2408.08533)  
 **代码**: [GitHub](https://github.com/vincen-github/Adv-SSL)  
-**领域**: self_supervised  
+**领域**: 自监督  
 **关键词**: 自监督学习, 对抗学习, 无偏估计, 迁移学习, 理论保证, 小样本学习
 
 ## 一句话总结
@@ -145,8 +145,8 @@ $$\hat{\mathcal{L}}(f, G) = \underbrace{\frac{1}{n_s}\sum_{i=1}^{n_s}\|f(\mathtt
 
 - [\[NeurIPS 2025\] Understanding Ice Crystal Habit Diversity with Self-Supervised Learning](understanding_ice_crystal_habit_diversity_with_self-supervised_learning.md)
 - [\[NeurIPS 2025\] T-REGS: Minimum Spanning Tree Regularization for Self-Supervised Learning](t-regs_minimum_spanning_tree_regularization_for_self-supervised_learning.md)
+- [\[NeurIPS 2025\] Asymptotic and Finite-Time Guarantees for Langevin-Based Temperature Annealing in InfoNCE](asymptotic_and_finite-time_guarantees_for_langevin-based_temperature_annealing_i.md)
 - [\[ACL 2025\] SHuBERT: Self-Supervised Sign Language Representation Learning via Multi-Stream Cluster Prediction](../../ACL2025/self_supervised/shubert_self-supervised_sign_language_representation_learning_via_multi-stream_c.md)
 - [\[NeurIPS 2025\] STaRFormer: Semi-Supervised Task-Informed Representation Learning via Dynamic Attention-Based Regional Masking](starformer_semi-supervised_task-informed_representation_learning_via_dynamic_att.md)
-- [\[ICML 2025\] ReSA: Clustering Properties of Self-Supervised Learning](../../ICML2025/self_supervised/clustering_properties_of_self-supervised_learning.md)
 
 <!-- RELATED:END -->

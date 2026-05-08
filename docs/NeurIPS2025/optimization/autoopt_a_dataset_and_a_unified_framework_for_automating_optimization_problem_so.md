@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21436](https://arxiv.org/abs/2510.21436)  
-**代码**: https://github.com/Shobhit1201/AutoOpt  
+**代码**: [https://github.com/Shobhit1201/AutoOpt](https://github.com/Shobhit1201/AutoOpt)  
 **领域**: 优化自动化  
 **关键词**: 图像OCR, LaTeX转PYOMO, 双层优化求解, 数学规划, 手写识别
 

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.15573](https://arxiv.org/abs/2504.15573)  
 **代码**: [GitHub](https://github.com/YJiangcm/WebR)  
-**领域**: NLP / 指令微调数据合成  
+**领域**: 其他  
 **关键词**: 指令微调, 数据合成, Web重构, 双视角范式, 全自动化
 
 ## 一句话总结

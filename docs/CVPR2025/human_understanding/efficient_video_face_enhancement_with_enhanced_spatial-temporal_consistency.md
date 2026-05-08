@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16468](https://arxiv.org/abs/2411.16468)  
-**代码**: https://github.com/Dixin-Lab/BFVR-STC  
+**代码**: [https://github.com/Dixin-Lab/BFVR-STC](https://github.com/Dixin-Lab/BFVR-STC)  
 **领域**: 人体理解 / 视频理解  
 **关键词**: 盲人脸视频修复, 时空码本, 3D-VQGAN, 去闪烁, 视频增强
 
@@ -142,10 +142,10 @@ VFHQ-Test 上盲人脸视频修复对比（24帧/1秒视频）：
 
 ## 相关论文
 
+- [\[ICCV 2025\] IDFace: Face Template Protection for Efficient and Secure Identification](../../ICCV2025/human_understanding/idface_face_template_protection_for_efficient_and_secure_identification.md)
 - [\[CVPR 2025\] GCE-Pose: Global Context Enhancement for Category-Level Object Pose Estimation](gce-pose_global_context_enhancement_for_category-level_object_pose_estimation.md)
 - [\[ECCV 2024\] RePOSE: 3D Human Pose Estimation via Spatio-Temporal Depth Relational Consistency](../../ECCV2024/human_understanding/repose_3d_human_pose_estimation_via_spatio-temporal_depth_relational_consistency.md)
 - [\[CVPR 2025\] ShowMak3r++: Compositional Entertainment Video Reconstruction](showmak3r_compositional_tv_show_reconstruction.md)
-- [\[ICCV 2025\] IDFace: Face Template Protection for Efficient and Secure Identification](../../ICCV2025/human_understanding/idface_face_template_protection_for_efficient_and_secure_identification.md)
-- [\[NeurIPS 2025\] Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](../../NeurIPS2025/human_understanding/recurrent_attention-based_token_selection_for_efficient_streaming_video-llms.md)
+- [\[CVPR 2025\] Two is Better than One: Efficient Ensemble Defense for Robust and Compact Models](two_is_better_than_one_efficient_ensemble_defense_for_robust_and_compact_models.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2409.03550](https://arxiv.org/abs/2409.03550)  
-**代码**: https://github.com/qianlong0502/DKDM  
+**代码**: [https://github.com/qianlong0502/DKDM](https://github.com/qianlong0502/DKDM)  
 **领域**: 扩散模型  
 **关键词**: 无数据知识蒸馏, 扩散模型, 动态迭代蒸馏, 跨架构蒸馏, 生成模型压缩
 

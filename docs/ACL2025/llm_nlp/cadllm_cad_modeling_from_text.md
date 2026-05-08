@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.19490](https://arxiv.org/abs/2505.19490)  
 **代码**: [https://jianxliao.github.io/cadllm-page/](https://jianxliao.github.io/cadllm-page/)  
-**领域**: 文本生成  
+**领域**: LLM/NLP  
 **关键词**: CAD modeling, text-to-CAD, Transformer, LLM, computer-automated design
 
 ## 一句话总结

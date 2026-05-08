@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.17765](https://arxiv.org/abs/2505.17765)  
 **代码**: 待确认  
-**领域**: 核方法优化  
+**领域**: 模型压缩  
 **关键词**: 核方法, 大规模学习, 对偶优化, 块坐标下降, 信赖域方法, 随机傅里叶特征, 低内存
 
 ## 一句话总结
@@ -145,8 +145,8 @@ $$\boldsymbol{K}_{\mathcal{B},:}\boldsymbol{\alpha} = \boldsymbol{\psi}(\boldsym
 
 ## 相关论文
 
+- [\[ICCV 2025\] SAMO: A Lightweight Sharpness-Aware Approach for Multi-Task Optimization with Joint Global-Local Perturbation](../../ICCV2025/model_compression/samo_a_lightweight_sharpness-aware_approach_for_multi-task_optimization_with_joi.md)
 - [\[CVPR 2025\] JamMa: Ultra-lightweight Local Feature Matching with Joint Mamba](../../CVPR2025/model_compression/jamma_ultra-lightweight_local_feature_matching_with_joint_mamba.md)
-- [\[NeurIPS 2025\] Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs](../../NeurIPS2025/model_compression/adaptive_kernel_design_for_bayesian_optimization_is_a_piece_of_cake_with_llms.md)
 - [\[ACL 2025\] Direct Behavior Optimization: Unlocking the Potential of Lightweight LLMs](../../ACL2025/model_compression/direct_behavior_optimization_unlocking_the_potential_of_lightweight_llms.md)
 - [\[ECCV 2024\] SpaceJAM: a Lightweight and Regularization-free Method for Fast Joint Alignment of Images](../../ECCV2024/model_compression/spacejam_a_lightweight_and_regularization-free_method_for_fast_joint_alignment_o.md)
 - [\[AAAI 2026\] AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization](../../AAAI2026/model_compression/adafuse_accelerating_dynamic_adapter_inference_via_token-lev.md)

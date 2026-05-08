@@ -53,10 +53,10 @@ $$D_{c_1} \cdots D_{c_\ell} f \neq 0$$
 $$\mathcal{U}_\sigma(C^1, I) \subsetneq \mathcal{U}_\sigma(\mathbb{R}^n, \mathbb{R}^n, \mathbb{R}) \subsetneq \mathcal{U}_\sigma(\mathbb{R}^n, \mathbb{R}^{S_n}, \mathbb{R})$$
 
    具体证明策略：
-   - **CNN(width 1) 无法逼近** $(x_1 + \cdots + x_n)^n$：因为 $\partial_n \cdots \partial_1 (x_1 + \cdots + x_n)^n = n! \neq 0$
-   - **PointNet 可以逼近** $(x_1 + \cdots + x_n)^n$：通过 $f(x_i, x_1+\cdots+x_n)$ 的求和形式
-   - **PointNet 无法逼近** $x_1 \cdots x_n$：构造方向向量验证 Theorem 14 的条件
-   - **正则表示网络可以逼近** $x_1 \cdots x_n$：由 Theorem 6 (Ravanbakhsh) 保证
+    - **CNN(width 1) 无法逼近** $(x_1 + \cdots + x_n)^n$：因为 $\partial_n \cdots \partial_1 (x_1 + \cdots + x_n)^n = n! \neq 0$
+    - **PointNet 可以逼近** $(x_1 + \cdots + x_n)^n$：通过 $f(x_i, x_1+\cdots+x_n)$ 的求和形式
+    - **PointNet 无法逼近** $x_1 \cdots x_n$：构造方向向量验证 Theorem 14 的条件
+    - **正则表示网络可以逼近** $x_1 \cdots x_n$：由 Theorem 6 (Ravanbakhsh) 保证
 
 4. **正群论条件下的通用性（Theorem 18）**: 如果隐藏表示来自群 $G$ 的**正规子群** $H$ 的陪集空间 $\mathbb{R}^{G/H}$，则对应的浅层网络是分离约束通用的。但对置换群 $S_n$（$n \geq 5$）来说，唯一非平凡正规子群是交替群 $A_n$，其陪集只有 2 个元素，隐藏表示太小而无用。阿贝尔群的所有子群都是正规的，因此循环 CNN 具有分离约束通用性。
 

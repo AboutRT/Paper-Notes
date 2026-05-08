@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025 (Long Paper)
   - 多模态
-  - 机器遗忘
+  - 多模态VLM
   - MLLM
   - 神经元剪枝
   - 模态感知
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025 (Long Paper)  
 **arXiv**: [2502.15910](https://arxiv.org/abs/2502.15910)  
-**代码**: [GitHub](https://github.com/franciscoliu/MANU) (有)  
+**代码**: [GitHub](https://github.com/franciscoliu/MANU)  
 **领域**: AI安全 / 多模态VLM  
 **关键词**: 机器遗忘, MLLM, 神经元剪枝, 模态感知, 隐私保护
 

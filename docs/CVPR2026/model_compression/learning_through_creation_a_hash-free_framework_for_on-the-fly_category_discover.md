@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.13858](https://arxiv.org/abs/2603.13858)  
 **代码**: [brandinzhang/LTC](https://github.com/brandinzhang/LTC)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: On-the-Fly Category Discovery, 伪未知类生成, 无哈希框架, 动态原型字典, 最大间隔损失
 
 ## 一句话总结
@@ -121,8 +121,8 @@ LTC 框架由三部分组成：(1) 基于连续特征空间的动态原型字典
 
 - [\[CVPR 2026\] TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery](talon_test-time_adaptive_learning_for_on-the-fly_category_discovery.md)
 - [\[ECCV 2024\] Category Adaptation Meets Projected Distillation in Generalized Continual Category Discovery](../../ECCV2024/model_compression/category_adaptation_meets_projected_distillation_in_generalized_continual_catego.md)
-- [\[CVPR 2026\] Stronger Normalization-Free Transformers](stronger_normalization-free_transformers.md)
-- [\[AAAI 2026\] Break the Tie: Learning Cluster-Customized Category Relationships for Categorical Data Clustering](../../AAAI2026/model_compression/break_the_tie_learning_cluster-customized_category_relationships_for_categorical.md)
 - [\[CVPR 2026\] UniComp: Rethinking Video Compression Through Informational Uniqueness](unicomp_rethinking_video_compression_through_informational_uniqueness.md)
+- [\[AAAI 2026\] Beyond Sharpness: A Flatness Decomposition Framework for Efficient Continual Learning](../../AAAI2026/model_compression/beyond_sharpness_a_flatness_decomposition_framework_for_efficient_continual_lear.md)
+- [\[CVPR 2026\] HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers](hiap_a_multigranular_stochastic_autopruning_framew.md)
 
 <!-- RELATED:END -->

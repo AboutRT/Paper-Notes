@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.07499](https://arxiv.org/abs/2501.07499)  
 **代码**: [GitHub](https://github.com/kocurvik/hf)  
-**领域**: Others / Camera Calibration  
+**领域**: 其他  
 **关键词**: 焦距恢复, 三视图单应性, 自标定, 多项式求解器, 平面场景
 
 ## 一句话总结
@@ -122,9 +122,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] Focal Split: Untethered Snapshot Depth from Differential Defocus](focal_split_untethered_snapshot_depth_from_differential_defocus.md)
-- [\[CVPR 2025\] Which Viewpoint Shows it Best? Language for Weakly Supervising View Selection in Multi-view Instructional Videos](which_viewpoint_shows_it_best_language_for_weakly_supervising_view_selection_in_.md)
 - [\[CVPR 2025\] Deconstructing the Failure of Ideal Noise Correction: A Three-Pillar Diagnosis](deconstructing_the_failure_of_ideal_noise_correction_a_three-pillar_diagnosis.md)
-- [\[ACL 2025\] Length-Induced Embedding Collapse in PLM-based Models](../../ACL2025/others/length-induced_embedding_collapse_in_plm-based_models.md)
-- [\[ICCV 2025\] Thermal Polarimetric Multi-view Stereo](../../ICCV2025/others/thermal_polarimetric_multi-view_stereo.md)
+- [\[CVPR 2025\] Which Viewpoint Shows it Best? Language for Weakly Supervising View Selection in Multi-view Instructional Videos](which_viewpoint_shows_it_best_language_for_weakly_supervising_view_selection_in_.md)
+- [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](../../ICCV2025/others/intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
+- [\[ICCV 2025\] Switch-a-View: View Selection Learned from Unlabeled In-the-wild Videos](../../ICCV2025/others/switch-a-view_view_selection_learned_from_unlabeled_in-the-wild_videos.md)
 
 <!-- RELATED:END -->

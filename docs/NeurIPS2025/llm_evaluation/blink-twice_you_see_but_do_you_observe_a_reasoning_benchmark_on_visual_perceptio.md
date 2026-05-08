@@ -2,10 +2,10 @@
 title: >-
   [论文解读] BLINK-Twice: You See But Do You Observe? A Reasoning Benchmark on Visual Perception
 description: >-
-  [NeurIPS 2025][视觉推理] 提出视觉中心推理 benchmark BLINK-Twice（345 张视觉挑战图 + 103 个对抗样本 + 896 个 VQA + 1725 个推理步骤标注），通过 7 类视觉错觉场景评估 MLLM "看到但未观察到"的推理能力，发现最强模型 Gemini-2.5 Pro 的 G-Acc 仅 26.9%，多轮图像观察和主动视觉交互是提升方向。
+  [NeurIPS 2025][LLM评测] 提出视觉中心推理 benchmark BLINK-Twice（345 张视觉挑战图 + 103 个对抗样本 + 896 个 VQA + 1725 个推理步骤标注），通过 7 类视觉错觉场景评估 MLLM "看到但未观察到"的推理能力，发现最强模型 Gemini-2.5 Pro 的 G-Acc 仅 26.9%，多轮图像观察和主动视觉交互是提升方向。
 tags:
   - NeurIPS 2025
-  - 视觉推理
+  - LLM评测
   - VLM评估
   - 感知vs推理
   - 自然对抗样本
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.09361](https://arxiv.org/abs/2510.09361)  
 **代码**: [GitHub](https://github.com/PicoTrex/BLINK-Twice)  
-**领域**: 多模态VLM / 视觉推理  
+**领域**: LLM评测  
 **关键词**: 视觉推理, VLM评估, 感知vs推理, 自然对抗样本, 推理链评估, benchmark
 
 ## 一句话总结
@@ -131,10 +131,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] Can You Hear Me Now? A Benchmark for Long-Range Graph Propagation and Beyond](../../ICLR2026/llm_evaluation/can_you_hear_me_now_a_benchmark_for_long-range_graph_propagation_and_beyond.md)
 - [\[ACL 2025\] Can You Really Trust Code Copilots? Evaluating Large Language Models from a Code Security Perspective](../../ACL2025/llm_evaluation/cov-eval-code-security-evaluation-benchmark.md)
 - [\[ACL 2025\] PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning](../../ACL2025/llm_evaluation/physreason_a_comprehensive_benchmark_towards_physics-based_reasoning.md)
+- [\[ICLR 2026\] Can You Hear Me Now? A Benchmark for Long-Range Graph Propagation and Beyond](../../ICLR2026/llm_evaluation/can_you_hear_me_now_a_benchmark_for_long-range_graph_propagation_and_beyond.md)
 - [\[ACL 2025\] CoV-Eval: Can You Really Trust Code Copilots? Evaluating Large Language Models from a Code Security Perspective](../../ACL2025/llm_evaluation/cov_eval_evaluating_llms_from_code_security_perspective.md)
-- [\[CVPR 2025\] VinaBench: Benchmark for Faithful and Consistent Visual Narratives](../../CVPR2025/llm_evaluation/vinabench_benchmark_for_faithful_and_consistent_visual_narratives.md)
+- [\[ICCV 2025\] 3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark](../../ICCV2025/llm_evaluation/3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)
 
 <!-- RELATED:END -->

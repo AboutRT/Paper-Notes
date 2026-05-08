@@ -46,7 +46,7 @@ $$\text{LASER}(X) = \log\!\Big(\text{softmax}(QK^\top) \cdot \exp(V)\Big)$$
 1. **梯度分析与动机推导**
 
    作者从最简单的 $N=2, d=1$ 情形出发推导。标准注意力的 Jacobian 元素为：
-   $$\frac{\partial o_1}{\partial \tilde{a}_{11}} = (v_1 - v_2) \cdot \sigma(\tilde{a}_{11} - \tilde{a}_{12})(1 - \sigma(\tilde{a}_{11} - \tilde{a}_{12}))$$
+    $\frac{\partial o_1}{\partial \tilde{a}_{11}} = (v_1 - v_2) \cdot \sigma(\tilde{a}_{11} - \tilde{a}_{12})(1 - \sigma(\tilde{a}_{11} - \tilde{a}_{12}))$
    其中 $\sigma$ 是 sigmoid 函数。当 $\tilde{a}_{11} - \tilde{a}_{12}$ 的绝对值较大时（即注意力集中在某一 token 上），$\sigma(1-\sigma)$ 趋近于 0，梯度消失。
 
    推广到一般序列长度 $N$，softmax 的 Jacobian 为 $\text{diag}(a) - aa^\top$，其元素为 $a_j(\mathbb{1}\{i=j\} - a_i)$。当注意力概率 $a_i, a_j$ 很小时，Jacobian 整体很小。
@@ -57,16 +57,16 @@ $$\text{LASER}(X) = \log\!\Big(\text{softmax}(QK^\top) \cdot \exp(V)\Big)$$
 
    直接计算 $\exp(V)$ 可能导致数值溢出（尤其在大模型中）。受 Log-Sum-Exp 技巧启发，作者提出 Log-Weighted-Sum-Exp trick：
 
-   - 对 $V$ 的每一列取最大值 $m_j = \max_i V_{ij}$
-   - 构造平移矩阵 $\hat{V}_{ij} = V_{ij} - m_j$（保证 $\exp(\hat{V})$ 不溢出）
-   - 用 $\hat{V}$ 代替 $V$ 做标准注意力：$O_{ij} = \log\!\big(\text{softmax}(QK^\top) \exp(\hat{V})\big)_{ij} + m_j$
+    - 对 $V$ 的每一列取最大值 $m_j = \max_i V_{ij}$
+    - 构造平移矩阵 $\hat{V}_{ij} = V_{ij} - m_j$（保证 $\exp(\hat{V})$ 不溢出）
+    - 用 $\hat{V}$ 代替 $V$ 做标准注意力：$O_{ij} = \log\!\big(\text{softmax}(QK^\top) \exp(\hat{V})\big)_{ij} + m_j$
 
    关键优势：只需修改注意力的**输入**（$V \to \exp(\hat{V})$）和**输出**（$\log(\cdot) + m$），不改变中间 attention 函数本身。
 
 3. **与 max 函数的理论联系**
 
    LASER 输出具有 log-sum-exp 结构，可视为 max 函数的可微逼近。由 Boyd & Vandenberghe 的经典结论：
-   $$\max(x_1, \ldots, x_n) \leq \text{LSE}(x_1, \ldots, x_n) \leq \max(x_1, \ldots, x_n) + \log n$$
+    $\max(x_1, \ldots, x_n) \leq \text{LSE}(x_1, \ldots, x_n) \leq \max(x_1, \ldots, x_n) + \log n$
    因此 LASER 从某种意义上实现了一种**可微的"最大值注意力"**，在传递梯度的同时保持了对关键信息的选择性。
 
 ### 损失函数 / 训练策略
@@ -148,6 +148,6 @@ $$\text{LASER}(X) = \log\!\Big(\text{softmax}(QK^\top) \cdot \exp(V)\Big)$$
 - [\[NeurIPS 2025\] Spectral Conditioning of Attention Improves Transformer Performance](../../NeurIPS2025/llm_nlp/spectral_conditioning_of_attention_improves_transformer_performance.md)
 - [\[NeurIPS 2025\] Strassen Attention, Split VC Dimension and Compositionality in Transformers](../../NeurIPS2025/llm_nlp/strassen_attention_split_vc_dimension_and_compositionality_in_transformers.md)
 - [\[CVPR 2025\] Spiking Transformer with Spatial-Temporal Attention](../../CVPR2025/llm_nlp/spiking_transformer_with_spatial-temporal_attention.md)
-- [\[CVPR 2025\] Breaking the Low-Rank Dilemma of Linear Attention](../../CVPR2025/llm_nlp/breaking_the_low-rank_dilemma_of_linear_attention.md)
+- [\[ACL 2025\] Enhancing Transformation from Natural Language to Signal Temporal Logic Using LLMs with Diverse External Knowledge](../../ACL2025/llm_nlp/enhancing_transformation_from_natural_language_to_signal_temporal_logic_using_ll.md)
 
 <!-- RELATED:END -->

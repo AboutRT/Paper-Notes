@@ -1,14 +1,18 @@
 ---
 title: >-
-  ICML2025 其他方向88篇论文解读
+  ICML2025 其他方向93篇论文解读
 description: >-
-  88篇ICML2025的其他方向论文解读，涵盖对抗鲁棒、推理、Agent、域适应、生物分子等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  93篇ICML2025的其他方向论文解读，涵盖对抗鲁棒、推理、Agent、少样本学习、域适应、生物分子等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🧪 ICML2025** · **88** 篇论文解读
+**🧪 ICML2025** · **93** 篇论文解读
+
+**[Access Controls Will Solve the Dual-Use Dilemma](access_controls_will_solve_the_dual-use_dilemma.md)**
+
+:   提出基于访问控制的概念框架来解决AI安全中的双用途困境（dual-use dilemma），通过用户身份验证获取真实世界上下文，结合内容分类实现细粒度的权限管理，同时缓解过度拒绝（over-refusal）和不足拒绝（under-refusal）问题。
 
 **[Adversarial Combinatorial Semi-bandits with Graph Feedback](adversarial_combinatorial_semi-bandits_with_graph_feedback.md)**
 
@@ -38,9 +42,9 @@ description: >-
 
 :   通过连续时间ODE建模，系统揭示了Heavy Ball动量在min-max博弈中与极小化问题截然不同的行为：**更小的动量**（包括负动量）能扩大收敛步长范围并引导轨迹走向更浅梯度区域，而**交替更新**比同步更新收敛更快且放大了这一正则化效应。
 
-**[Cover Learning for Large-Scale Topology Representation](cover_learning_for_large-scale_topology_representation.md)**
+**[Curvature Enhanced Data Augmentation for Regression](curvature_enhanced_data_augmentation_for_regression.md)**
 
-:   提出 Cover Learning 作为一种统一的无监督学习问题，基于优化的视角设计三项损失函数（测度、几何、拓扑）学习数据集的拓扑忠实覆盖，所得单纯复形在拓扑推断中比标准几何复形更紧凑，在大规模拓扑可视化中比 Mapper 图能表示更高维信息。
+:   提出 CEMS（Curvature-Enhanced Manifold Sampling），利用数据流形的二阶近似（曲率信息）生成合成样本，用于回归任务的数据增强，在分布内和分布外场景均取得 SOTA 或接近 SOTA 的性能。
 
 **[DRO-BAS: Decision Making under the Exponential Family DRO with Bayesian Ambiguity Sets](decision_making_under_the_exponential_family_distributionally_robust_optimisatio.md)**
 
@@ -134,6 +138,14 @@ description: >-
 
 :   通过训练Transformer在合成程序上做变量解引用(dereference)，揭示了三阶段发展轨迹：(1)随机预测→(2)浅层启发式→(3)系统性解引用机制，因果干预证明模型学会将残差流用作可寻址内存空间。
 
+**[If Open Source Is to Win, It Must Go Public](if_open_source_is_to_win_it_must_go_public.md)**
+
+:   本文论证了开源 AI 在当前实践下无法独立实现 AI 民主化——模型权重只是"惰性代码"，需要大量资本才能激活——必须嵌入公共 AI 基础设施（公共资金 + 公共访问 + 公共治理 + 私人承诺）才能成为真正的公共产品。
+
+**[Improved Exploration in GFlowNets via Enhanced Epistemic Neural Networks](improved_exploration_in_gflownets_via_enhanced_epistemic_neural_networks.md)**
+
+:   将 Epistemic Neural Networks (ENN/epinet) 集成到 GFlowNets 中实现不确定性驱动的探索，提出 ENN-GFN-Enhanced 算法，在 HyperGrid 和序列生成任务上显著改善模式发现效率和分布学习质量。
+
 **[Improved Generalization Bounds for Transductive Learning by Transductive Local Complexity and Its Applications](improved_generalization_bounds_for_transductive_learning_by_transductive_local_c.md)**
 
 :   提出转导局部复杂度（TLC）框架，将经典的局部 Rademacher 复杂度扩展到转导学习设定，获得了与归纳学习几乎一致的超额风险界（仅差对数因子），并解决了十年未决的开放问题。
@@ -206,6 +218,10 @@ description: >-
 
 :   基于信息论动机（正态分布同时是最优信号与最差噪声分布），提出 Normality Normalization 层：在常规归一化之后用 Power Transform 高斯化激活值，并注入缩放高斯噪声进行正则化，在 ViT/ResNet 上普遍提升泛化与鲁棒性，且不引入额外可学习参数。
 
+**[Online Sparsification of Bipartite-Like Clusters in Graphs](online_sparsification_of_bipartite-like_clusters_in_graphs.md)**
+
+:   提出了一种**近线性时间的在线图稀疏化算法**，能在保留图的二部图式聚类（bipartite-like clusters）结构的前提下，将边数压缩到 $\widetilde{O}(n)$，同时适用于无向图和有向图，显著加速现有聚类算法。
+
 **[OOD-Chameleon: Is Algorithm Selection for OOD Generalization Learnable?](ood-chameleon_is_algorithm_selection_for_ood_generalization_learnable.md)**
 
 :   将 OOD 泛化的训练算法选择形式化为可学习的多标签分类问题，在"数据集的数据集"上训练选择器，仅凭数据集统计特征（偏移程度、数据规模等）即可先验地预测最佳训练算法（ERM / GroupDRO / 重采样 / Logits 调整），在合成、视觉、语言 7 个应用上验证了选择器学到了可迁移的非平凡决策规则。
@@ -258,6 +274,10 @@ description: >-
 
 :   本文在委托-代理（principal-agent）在线信息获取框架下研究最佳评分规则识别（Best Scoring Rule Identification, BSRI）问题，提出 OIAFC（固定置信度）和 OIAFB（固定预算）两种算法，首次建立了实例依赖的样本复杂度上界 $\widetilde{O}(MH_\Delta)$，并将实例无关的样本复杂度从已有工作的 $\widetilde{O}(C_O^3 K^6 \epsilon^{-3})$ 大幅改进至 $\widetilde{O}(MK\epsilon^{-2})$。
 
+**[Provably Improving Generalization of Few-Shot Models with Synthetic Data](provably_improving_generalization_of_few-shot_models_with_synthetic_data.md)**
+
+:   提出一个理论框架量化合成数据与真实数据的分布差异对少样本分类泛化能力的影响，并基于该理论设计了联合优化数据划分与模型训练的算法，在10个基准数据集上超越SOTA。
+
 **[Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)**
 
 :   证明了对一大类欧氏最大化问题（最大匹配、最大TSP、最大生成树、子图多样性等），使用数据无关的高斯 JL 变换将维度降至 $O(\lambda)$（$\lambda$ 为数据集倍增维度）即可近似保持所有候选解的值，并证明该依赖是紧的。
@@ -285,10 +305,6 @@ description: >-
 **[Sampling from Binary Quadratic Distributions via Stochastic Localization](sampling_from_binary_quadratic_distributions_via_stochastic_localization.md)**
 
 :   首次将随机局部化 (Stochastic Localization, SL) 框架应用于一般二元二次分布 (BQD) 采样，证明经过足够SL迭代后后验分布几乎处处满足 Poincaré 不等式，从而保证离散 MCMC 采样器多项式时间混合，并在 QUBO 组合优化问题上验证了一致的采样效率提升。
-
-**[Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)**
-
-:   提出 Sassha 优化器，将 sharpness-aware minimization（SAM）引入二阶优化框架，通过稳定 Hessian 近似和 lazy 更新策略，使二阶方法首次在泛化性能上全面超越 SGD、AdamW 和 SAM 等一阶方法。
 
 **[Scalable Equilibrium Sampling with Sequential Boltzmann Generators](scalable_equilibrium_sampling_with_sequential_boltzmann_generators.md)**
 
@@ -349,6 +365,10 @@ description: >-
 **[To Each Metric Its Decoding: Post-Hoc Optimal Decision Rules of Probabilistic Hierarchical Classifiers](to_each_metric_its_decoding_post-hoc_optimal_decision_rules_of_probabilistic_hie.md)**
 
 :   本文提出了针对概率层次分类器的后处理最优解码框架，为不同评价指标（如层次 $F_\beta$）推导了最优决策规则，在候选集限于节点集时给出通用算法，对子集预测推导了专门的层次 $hF_\beta$ 最优策略。
+
+**[Truly Self-Improving Agents Require Intrinsic Metacognitive Learning](truly_self-improving_agents_require_intrinsic_metacognitive_learning.md)**
+
+:   本文提出一个形式化框架论证了真正的自我改进 Agent 需要具备内在元认知学习能力（而非外在的、人为设计的固定循环），该框架包含三个组件：元认知知识、元认知规划和元认知评估，并分析了现有自改进 Agent 的不足和实现内在元认知的路径。
 
 **[Understanding Mode Connectivity via Parameter Space Symmetry](understanding_mode_connectivity_via_parameter_space_symmetry.md)**
 

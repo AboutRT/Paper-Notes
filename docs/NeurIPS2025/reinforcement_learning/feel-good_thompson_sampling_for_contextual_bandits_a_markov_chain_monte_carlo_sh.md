@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.15290](https://arxiv.org/abs/2507.15290)  
 **代码**: [GitHub](https://github.com/SarahLiaw/ctx-bandits-mcmc-showdown)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: Thompson Sampling, 上下文赌博机, MCMC, 探索-利用, 后验采样
 
 ## 一句话总结

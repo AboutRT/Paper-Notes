@@ -7,7 +7,7 @@ tags:
   - ICLR2026
   - concept drift
   - structural causal model
-  - synthetic data generation
+  - 其他
   - data streams
   - time dependence
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.20329](https://arxiv.org/abs/2602.20329)  
 **代码**: [https://github.com/eduardovlb/CaDrift](https://github.com/eduardovlb/CaDrift)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: concept drift, structural causal model, synthetic data generation, data streams, time dependence
 
 ## 一句话总结
@@ -136,10 +136,10 @@ CaDrift 是生成框架而非训练模型。映射函数在初始化时拟合一
 
 ## 相关论文
 
-- [\[ICLR 2026\] Improving Black-Box Generative Attacks via Generator Semantic Consistency](improving_black-box_generative_attacks_via_generator_semantic_consistency.md)
-- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](../../ACL2025/others/generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
 - [\[ICLR 2026\] Addressing Divergent Representations from Causal Interventions on Neural Networks](addressing_divergent_representations_causal.md)
 - [\[AAAI 2026\] How to Marginalize in Causal Structure Learning?](../../AAAI2026/others/how_to_marginalize_in_causal_structure_learning.md)
 - [\[CVPR 2026\] Mitigating Instance Entanglement in Instance-Dependent Partial Label Learning](../../CVPR2026/others/mitigating_instance_entanglement_in_instance-dependent_partial_label_learning.md)
+- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](../../ACL2025/others/generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
+- [\[ACL 2025\] Causal Estimation of Tokenisation Bias](../../ACL2025/others/causal_tokenisation_bias.md)
 
 <!-- RELATED:END -->

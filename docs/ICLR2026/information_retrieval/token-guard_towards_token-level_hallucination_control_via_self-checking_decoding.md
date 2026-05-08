@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding
 description: >-
-  [ICLR 2026][LLM 幻觉控制] 提出 Token-Guard，一种基于自检验解码的 token 级幻觉控制方法，通过隐空间中的 token 级/段级评分和迭代修正机制，在解码过程中检测并抑制幻觉生成，F1 平均提升 16.3%。
+  [ICLR 2026][信息检索] 提出 Token-Guard，一种基于自检验解码的 token 级幻觉控制方法，通过隐空间中的 token 级/段级评分和迭代修正机制，在解码过程中检测并抑制幻觉生成，F1 平均提升 16.3%。
 tags:
   - ICLR 2026
-  - LLM 幻觉控制
+  - 信息检索
   - Token 级解码
   - 自检验
   - 段级评分
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.21969](https://arxiv.org/abs/2601.21969)  
 **代码**: [https://github.com/rhq945/Token-Guard](https://github.com/rhq945/Token-Guard)  
-**领域**: 模型压缩  
+**领域**: 信息检索  
 **关键词**: LLM 幻觉控制, Token 级解码, 自检验, 段级评分, 迭代修正
 
 ## 一句话总结
@@ -163,9 +163,9 @@ $$F_{\text{global}}(R) = \frac{F_{\text{fact}}(R) \cdot F_{\text{logic}}(R)}{F_{
 ## 相关论文
 
 - [\[ICLR 2026\] TokMem: One-Token Procedural Memory for Large Language Models](tokmem_one-token_procedural_memory_for_large_language_models.md)
-- [\[ACL 2026\] TPA: Next Token Probability Attribution for Detecting Hallucinations in RAG](../../ACL2026/information_retrieval/tpa_next_token_probability_attribution_for_detecting_hallucinations_in_rag.md)
 - [\[ICCV 2025\] Representation Shift: Unifying Token Compression with FlashAttention](../../ICCV2025/information_retrieval/representation_shift_unifying_token_compression_with_flashattention.md)
-- [\[ICLR 2026\] Query-Level Uncertainty in Large Language Models](query-level_uncertainty_in_large_language_models.md)
-- [\[ICLR 2026\] Digging Deeper: Learning Multi-Level Concept Hierarchies](digging_deeper_learning_multi-level_concept_hierarchies.md)
+- [\[ACL 2026\] TPA: Next Token Probability Attribution for Detecting Hallucinations in RAG](../../ACL2026/information_retrieval/tpa_next_token_probability_attribution_for_detecting_hallucinations_in_rag.md)
+- [\[ACL 2025\] Removal of Hallucination on Hallucination: Debate-Augmented RAG](../../ACL2025/information_retrieval/removal_of_hallucination_on_hallucination_debate-augmented_rag.md)
+- [\[ACL 2026\] RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding](../../ACL2026/information_retrieval/racer_retrieval-augmented_contextual_rapid_speculative_decoding.md)
 
 <!-- RELATED:END -->

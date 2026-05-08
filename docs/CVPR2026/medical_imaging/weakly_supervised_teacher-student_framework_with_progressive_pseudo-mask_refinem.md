@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.08605](https://arxiv.org/abs/2603.08605)  
 **作者**: Hikmat Khan, Wei Chen, Muhammad Khalid Khan Niazi (The Ohio State University Wexner Medical Center)
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 弱监督语义分割, 教师-学生框架, 伪掩码精炼, 腺体分割, 结直肠癌病理
 
 ## 一句话总结

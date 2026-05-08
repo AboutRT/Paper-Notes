@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 自监督学习
-  - 线段检测
+  - 自监督
   - HAT场
   - 大规模训练
   - 伪标签
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.09369](https://arxiv.org/abs/2506.09369)  
-**代码**: https://github.com/ant-research/scalelsd  
+**代码**: [https://github.com/ant-research/scalelsd](https://github.com/ant-research/scalelsd)  
 **领域**: 自监督学习 / 底层视觉  
 **关键词**: 线段检测, 自监督学习, HAT场, 大规模训练, 伪标签
 
@@ -127,10 +127,10 @@ ScaleLSD 的元架构基于 HAWPv3 精简而来。输入图像经 ViT-Base backb
 
 ## 相关论文
 
+- [\[CVPR 2025\] GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md)
 - [\[CVPR 2025\] BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning](boss_a_best-of-strategies_selector_as_an_oracle_for_deep_active_learning.md)
 - [\[ICML 2025\] Neighbour-Driven Gaussian Process Variational Autoencoders for Scalable Structured Latent Modelling](../../ICML2025/self_supervised/neighbour-driven_gaussian_process_variational_autoencoders_for_scalable_structur.md)
 - [\[ECCV 2024\] Rethinking Unsupervised Outlier Detection via Multiple Thresholding](../../ECCV2024/self_supervised/rethinking_unsupervised_outlier_detection_via_multiple_thresholding.md)
-- [\[ECCV 2024\] FlowCon: Out-of-Distribution Detection using Flow-Based Contrastive Learning](../../ECCV2024/self_supervised/flowcon_out-of-distribution_detection_using_flow-based_contrastive_learning.md)
 - [\[ICML 2025\] Deep Learning is Not So Mysterious or Different](../../ICML2025/self_supervised/deep_learning_is_not_so_mysterious_or_different.md)
 
 <!-- RELATED:END -->

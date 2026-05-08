@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Learning Intractable Multimodal Policies with Reparameterization and Diversity Regularization
 description: >-
-  [NeurIPS 2025][多模态策略] 提出Diversity-regularized Actor Critic（DrAC）算法，通过将不可解析的多模态策略（amortized actor和diffusion actor）统一为stochastic-mapping formulation，利用重参数化技巧直接进行策略梯度优化，并设计基于距离的多样性正则化替代传统熵正则化，在多目标导航和生成式RL等多样性关键任务中展现显著优势。
+  [NeurIPS 2025][强化学习] 提出Diversity-regularized Actor Critic（DrAC）算法，通过将不可解析的多模态策略（amortized actor和diffusion actor）统一为stochastic-mapping formulation，利用重参数化技巧直接进行策略梯度优化，并设计基于距离的多样性正则化替代传统熵正则化，在多目标导航和生成式RL等多样性关键任务中展现显著优势。
 tags:
   - NeurIPS 2025
-  - 多模态策略
+  - 强化学习
   - 重参数化
   - 多样性正则化
   - 扩散策略
@@ -153,10 +153,10 @@ $$\mathcal{L}_\alpha = \mathbb{E}_{s \sim \mathcal{D}}[\alpha(\tilde{D}_\theta(s
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering](knowledge-based_visual_question_answer_with_multimodal_processing_retrieval_and_.md)
 - [\[NeurIPS 2025\] Certifying Stability of Reinforcement Learning Policies using Generalized Lyapunov Functions](certifying_stability_of_reinforcement_learning_policies_using_generalized_lyapun.md)
 - [\[ICML 2025\] Robust Offline Reinforcement Learning with Linearly Structured f-Divergence Regularization](../../ICML2025/reinforcement_learning/robust_offline_reinforcement_learning_with_linearly_structured_f-divergence_regu.md)
+- [\[AAAI 2026\] Explaining Decentralized Multi-Agent Reinforcement Learning Policies](../../AAAI2026/reinforcement_learning/explaining_decentralized_multi-agent_reinforcement_learning_policies.md)
 - [\[NeurIPS 2025\] Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies](act_to_see_see_to_act_diffusion-driven_perception-action_interplay_for_adaptive_.md)
-- [\[ICML 2025\] Learning to Trust Bellman Updates: Selective State-Adaptive Regularization for Offline RL](../../ICML2025/reinforcement_learning/learning_to_trust_bellman_updates_selective_state-adaptive_regularization_for_of.md)
-- [\[NeurIPS 2025\] Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering](knowledge-based_visual_question_answer_with_multimodal_processing_retrieval_and_.md)
 
 <!-- RELATED:END -->

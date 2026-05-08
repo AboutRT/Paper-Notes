@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Learning Temporally Consistent Video Depth from Video Diffusion Priors
 description: >-
-  [CVPR 2025][视频深度估计] 提出 ChronoDepth——基于 Stable Video Diffusion (SVD) 的视频深度估计方法，通过在训练时为每帧独立采样噪声水平并在推理时使用无噪声前序帧作为上下文（Consistent Context-Aware Strategy），在保持空间精度的同时实现了 SOTA 的时序一致性，MFC 指标平均排名第一。
+  [CVPR 2025][视频生成] 提出 ChronoDepth——基于 Stable Video Diffusion (SVD) 的视频深度估计方法，通过在训练时为每帧独立采样噪声水平并在推理时使用无噪声前序帧作为上下文（Consistent Context-Aware Strategy），在保持空间精度的同时实现了 SOTA 的时序一致性，MFC 指标平均排名第一。
 tags:
   - CVPR 2025
-  - 视频深度估计
+  - 视频生成
   - 时序一致性
   - 视频扩散模型
   - 上下文感知推理
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.01493](https://arxiv.org/abs/2406.01493)  
-**代码**: https://xdimlab.github.io/ChronoDepth  
-**领域**: 3D视觉 / 深度估计 / 视频理解  
+**代码**: [https://xdimlab.github.io/ChronoDepth](https://xdimlab.github.io/ChronoDepth)  
+**领域**: 视频生成  
 **关键词**: 视频深度估计, 时序一致性, 视频扩散模型, 上下文感知推理, SVD微调
 
 ## 一句话总结
@@ -134,8 +134,8 @@ tags:
 
 - [\[ICCV 2025\] NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors](../../ICCV2025/video_generation/normalcrafter_learning_temporally_consistent_normals_from_video_diffusion_priors.md)
 - [\[CVPR 2025\] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
-- [\[CVPR 2025\] Optical-Flow Guided Prompt Optimization for Coherent Video Generation](optical-flow_guided_prompt_optimization_for_coherent_video_generation.md)
-- [\[CVPR 2025\] Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better](tracktention_leveraging_point_tracking_to_attend_videos_faster_and_better.md)
 - [\[CVPR 2025\] StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text](streamingt2v_consistent_dynamic_and_extendable_long_video_generation_from_text.md)
+- [\[CVPR 2025\] Articulated Kinematics Distillation from Video Diffusion Models](articulated_kinematics_distillation_from_video_diffusion_models.md)
+- [\[CVPR 2025\] VideoDPO: Omni-Preference Alignment for Video Diffusion Generation](videodpo_omni-preference_alignment_for_video_diffusion_generation.md)
 
 <!-- RELATED:END -->

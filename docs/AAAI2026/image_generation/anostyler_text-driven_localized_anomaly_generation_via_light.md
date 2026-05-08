@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.06687v1](https://arxiv.org/abs/2511.06687v1)  
-**代码**: [https://github.com/yulimso/AnoStyler](https://github.com/yulimso/AnoStyler) (有)  
-**领域**: 异常检测 / 异常生成 / 风格迁移  
+**代码**: [https://github.com/yulimso/AnoStyler](https://github.com/yulimso/AnoStyler)  
+**领域**: 图像生成  
 **关键词**: 异常生成, 零样本, 风格迁移, CLIP, 工业缺陷检测  
 
 ## 一句话总结

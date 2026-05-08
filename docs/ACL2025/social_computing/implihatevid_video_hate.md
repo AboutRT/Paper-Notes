@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 隐性仇恨言论
   - 视频内容审核
-  - 多模态
+  - 社会计算
   - 对比学习
   - 数据集
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2508.06570](https://arxiv.org/abs/2508.06570)  
 **代码**: [GitHub](https://github.com/videohatespeech/Implicit_Video_Hate)  
-**领域**: NLP理解  
+**领域**: 社会计算  
 **关键词**: 隐性仇恨言论, 视频内容审核, 多模态, 对比学习, 数据集
 
 ## 一句话总结

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICML2025 3D视觉方向12篇论文解读
+  ICML2025 3D 视觉方向11篇论文解读
 description: >-
-  12篇ICML2025的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、语义分割、图像编辑、点云、新视角合成、三维重建等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  11篇ICML2025的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、图像编辑、点云、新视角合成、三维重建、语义分割等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🧊 3D视觉
+# 🧊 3D 视觉
 
-**🧪 ICML2025** · **12** 篇论文解读
+**🧪 ICML2025** · **11** 篇论文解读
 
 **[EvoMesh: Adaptive Physical Simulation with Hierarchical Graph Evolutions](evomesh_adaptive_physical_simulation_with_hierarchical_graph_evolutions.md)**
 
@@ -33,10 +33,6 @@ description: >-
 **[PhysicsNeRF: Physics-Guided 3D Reconstruction from Sparse Views](physicsnerf_physics-guided_3d_reconstruction_from_sparse_views.md)**
 
 :   PhysicsNeRF 提出了一个基于物理先验的稀疏视角 NeRF 框架，通过深度排序、跨视角一致性、稀疏性正则和渐进训练四种互补约束，在仅 8 个视角下实现 21.4 dB 的 PSNR，并对稀疏视角下过拟合的本质进行了深入的理论分析。
-
-**[Probabilistic Interactive 3D Segmentation with Hierarchical Neural Processes](probabilistic_interactive_3d_segmentation_with_hierarchical_neural_processes.md)**
-
-:   NPISeg3D提出了首个基于层次化神经过程（Hierarchical Neural Processes）的概率交互式3D分割框架，通过场景级和物体级双层潜变量结构以及概率原型调制器，在少量点击下实现了优于AGILE3D的分割精度，同时提供可靠的不确定性估计。
 
 **[ReferSplat: Referring Segmentation in 3D Gaussian Splatting](refersplat_referring_segmentation_in_3d_gaussian_splatting.md)**
 

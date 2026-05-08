@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.17513](https://arxiv.org/abs/2509.17513)  
 **代码**: [项目页](https://mediax-sjtu.github.io/4DGCPro)（代码将开源）  
-**领域**: 3D视觉/体积视频压缩  
+**领域**: 模型压缩  
 **关键词**: 4D Gaussian Splatting, 渐进式流媒体, 体积视频压缩, 层级表示, 熵编码  
 
 ## 一句话总结
@@ -152,10 +152,10 @@ $$\mathcal{L}_{key} = \sum_{l=1}^{L} \lambda_l \left( \mathcal{L}_{color}^l + \l
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](recurrent_attention-based_token_selection_for_efficient_streaming_video-llms.md)
 - [\[ICCV 2025\] Learned Image Compression with Hierarchical Progressive Context Modeling](../../ICCV2025/model_compression/learned_image_compression_with_hierarchical_progressive_context_modeling.md)
 - [\[NeurIPS 2025\] Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video](eyes_wide_open_ego_proactive_videollm_for_streaming_video.md)
 - [\[NeurIPS 2025\] Smooth Regularization for Efficient Video Recognition](smooth_regularization_for_efficient_video_recognition.md)
 - [\[NeurIPS 2025\] Twilight: Adaptive Attention Sparsity with Hierarchical Top-p Pruning](twilight_adaptive_attention_sparsity_with_hierarchical_top-p_pruning.md)
-- [\[ICML 2025\] FGFP: A Fractional Gaussian Filter and Pruning for DNN Compression](../../ICML2025/model_compression/fgfp_a_fractional_gaussian_filter_and_pruning_for_deep_neural_networks_compression.md)
 
 <!-- RELATED:END -->

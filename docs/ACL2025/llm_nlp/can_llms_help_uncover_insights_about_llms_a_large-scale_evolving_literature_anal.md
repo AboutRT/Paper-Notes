@@ -19,7 +19,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2502.18791](https://arxiv.org/abs/2502.18791)  
 **代码**: [JJumSSu/meta-analysis-frontier-LLMs](https://github.com/JJumSSu/meta-analysis-frontier-LLMs)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 文献分析, 自动数据抽取, LLM评估, Chain-of-Thought, 上下文学习, 提示策略
 
 ## 一句话总结

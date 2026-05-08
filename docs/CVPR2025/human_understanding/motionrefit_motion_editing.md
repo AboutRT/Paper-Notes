@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20724](https://arxiv.org/abs/2503.20724)  
-**代码**: https://awfuact.github.io/motionrefit/  
+**代码**: [https://awfuact.github.io/motionrefit/](https://awfuact.github.io/motionrefit/)  
 **领域**: 人体理解 / 动作编辑  
 **关键词**: 文本引导动作编辑, 动作混合, 扩散模型, 自回归, 风格迁移
 
@@ -108,8 +108,8 @@ MotionCutMix 产生大量训练三元组 → MotionReFit（自回归条件扩散
 
 - [\[CVPR 2025\] SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction](simmotionedit_text-based_human_motion_editing_with_motion_similarity_prediction.md)
 - [\[CVPR 2025\] SemGeoMo: Dynamic Contextual Human Motion Generation with Semantic and Geometric Guidance](semgeomo_dynamic_contextual_human_motion_generation_with_semantic_and_geometric_.md)
-- [\[CVPR 2025\] Human Motion Instruction Tuning](human_motion_instruction_tuning.md)
+- [\[CVPR 2025\] Exploring Timeline Control for Facial Motion Generation](exploring_timeline_control_for_facial_motion_generation.md)
 - [\[CVPR 2025\] X-Dyna: Expressive Dynamic Human Image Animation](x-dyna_expressive_dynamic_human_image_animation.md)
-- [\[CVPR 2025\] Towards High-fidelity 3D Talking Avatar with Personalized Dynamic Texture](towards_high-fidelity_3d_talking_avatar_with_personalized_dynamic_texture.md)
+- [\[CVPR 2025\] Human Motion Instruction Tuning](human_motion_instruction_tuning.md)
 
 <!-- RELATED:END -->

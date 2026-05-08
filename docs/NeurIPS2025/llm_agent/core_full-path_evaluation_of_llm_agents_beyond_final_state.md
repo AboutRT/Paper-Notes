@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.20998](https://arxiv.org/abs/2509.20998)  
-**代码**: https://github.com/Synkrasis-Labs/CORE  
+**代码**: [https://github.com/Synkrasis-Labs/CORE](https://github.com/Synkrasis-Labs/CORE)  
 **领域**: Agent  
 **关键词**: Agent评估, 全路径评估, 确定有限自动机, 安全性, 工具调用
 

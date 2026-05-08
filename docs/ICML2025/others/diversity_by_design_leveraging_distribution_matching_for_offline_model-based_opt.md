@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Diversity By Design: Leveraging Distribution Matching for Offline Model-Based Optimization
 description: >-
-  [ICML 2025][离线优化] 提出 DynAMO，通过将设计多样性显式建模为分布匹配问题，在离线模型基础优化（MBO）中同时发现高质量和高多样性的候选设计方案。
+  [ICML 2025][其他] 提出 DynAMO，通过将设计多样性显式建模为分布匹配问题，在离线模型基础优化（MBO）中同时发现高质量和高多样性的候选设计方案。
 tags:
   - ICML 2025
-  - 离线优化
+  - 其他
   - 模型基础优化
   - 设计多样性
   - 分布匹配
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.18768](https://arxiv.org/abs/2501.18768)  
 **代码**: 无  
-**领域**: 机器学习优化  
+**领域**: 其他  
 **关键词**: 离线优化, 模型基础优化, 设计多样性, 分布匹配, 对抗训练
 
 ## 一句话总结
@@ -114,9 +114,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Achieving Certification-by-Design Through Model-Driven Development](../../ACL2025/others/achieving_certification-by-design_through_model-driven_development.md)
-- [\[ICML 2025\] Learning Distances from Data with Normalizing Flows and Score Matching](learning_distances_from_data_with_normalizing_flows_and_score_matching.md)
-- [\[ICML 2025\] Score Matching with Missing Data](score_matching_with_missing_data.md)
+- [\[NeurIPS 2025\] 3DID: Direct 3D Inverse Design for Aerodynamics with Physics-Aware Optimization](../../NeurIPS2025/others/3did_direct_3d_inverse_design_for_aerodynamics_with_physics-aware_optimization.md)
 - [\[ICML 2025\] Fully Dynamic Euclidean Bi-Chromatic Matching in Sublinear Update Time](fully_dynamic_euclidean_bi-chromatic_matching_in_sublinear_update_time.md)
-- [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
+- [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](../../ACL2025/others/evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
+- [\[ICML 2025\] Learning Distances from Data with Normalizing Flows and Score Matching](learning_distances_from_data_with_normalizing_flows_and_score_matching.md)
 
 <!-- RELATED:END -->

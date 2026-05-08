@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.09137](https://arxiv.org/abs/2603.09137)  
 **代码**: 待确认  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: HR-pQCT, SegFormer, radiomics, osteoporosis, multi-region segmentation
 
 ## 一句话总结

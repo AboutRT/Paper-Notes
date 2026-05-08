@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2505.18817](https://arxiv.org/abs/2505.18817)  
 **代码**: [seongsukim-ml/QHFlow](https://github.com/seongsukim-ml/QHFlow)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: flow matching, DFT, Hamiltonian prediction, SE(3)-equivariance, quantum chemistry, SCF acceleration  
 
 ## 一句话总结

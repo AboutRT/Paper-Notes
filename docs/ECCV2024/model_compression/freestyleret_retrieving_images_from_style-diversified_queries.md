@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.02428](https://arxiv.org/abs/2312.02428)  
-**代码**: https://github.com/CuriseJia/FreeStyleRet  
+**代码**: [https://github.com/CuriseJia/FreeStyleRet](https://github.com/CuriseJia/FreeStyleRet)  
 **领域**: 模型压缩（轻量化检索）  
 **关键词**: 风格多样化检索, Gram矩阵, prompt tuning, 跨风格图像检索, 即插即用框架
 
@@ -157,10 +157,10 @@ FreestyleRet-BLIP在所有4种查询风格上均取得最优R@1，Sketch提升14
 
 ## 相关论文
 
+- [\[ECCV 2024\] ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs](ziplora_any_subject_in_any_style_by_effectively_merging_loras.md)
+- [\[ECCV 2024\] Implicit Style-Content Separation using B-LoRA](implicit_style-content_separation_using_b-lora.md)
 - [\[ECCV 2024\] SpaceJAM: a Lightweight and Regularization-free Method for Fast Joint Alignment of Images](spacejam_a_lightweight_and_regularization-free_method_for_fast_joint_alignment_o.md)
-- [\[ECCV 2024\] Is Retain Set All You Need in Machine Unlearning? Restoring Performance of Unlearned Models with Out-Of-Distribution Images](is_retain_set_all_you_need_in_machine_unlearning_restoring_performance_of_unlear.md)
 - [\[CVPR 2025\] Style Quantization for Data-Efficient GAN Training](../../CVPR2025/model_compression/style_quantization_for_data-efficient_gan_training.md)
 - [\[ICCV 2025\] DuoLoRA: Cycle-Consistent and Rank-Disentangled Content-Style Personalization](../../ICCV2025/model_compression/duolora_cycle-consistent_and_rank-disentangled_content-style_personalization.md)
-- [\[ICLR 2026\] A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA](../../ICLR2026/model_compression/a_fano-style_accuracy_upper_bound_for_llm_single-pass_reasoning_in_multi-hop_qa.md)
 
 <!-- RELATED:END -->

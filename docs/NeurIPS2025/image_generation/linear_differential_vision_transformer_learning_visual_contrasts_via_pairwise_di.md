@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.00833](https://arxiv.org/abs/2511.00833)  
-**代码**: https://github.com/LeapLabTHU/LinearDiff  
+**代码**: [https://github.com/LeapLabTHU/LinearDiff](https://github.com/LeapLabTHU/LinearDiff)  
 **领域**: 视觉Transformer / 高效注意力  
 **关键词**: Vision Transformer, 线性注意力, 差分注意力, 图像分类, 图像生成
 

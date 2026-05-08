@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.14837](https://arxiv.org/abs/2502.14837)  
 **代码**: [https://github.com/JT-Ushio/MHA2MLA](https://github.com/JT-Ushio/MHA2MLA)  
-**领域**: LLM效率  
+**领域**: LLM/NLP  
 **关键词**: Multi-Head Latent Attention, KV cache compression, partial RoPE, SVD, reasoning efficiency
 
 ## 一句话总结

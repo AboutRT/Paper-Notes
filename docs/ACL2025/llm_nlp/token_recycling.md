@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Outstanding Paper)  
 **arXiv**: [2504.15754](https://arxiv.org/abs/2504.15754)  
 **代码**: 无  
-**领域**: 模型压缩 / 高效推理 / 投机解码  
+**领域**: LLM/NLP  
 **关键词**: Token Recycling, 投机解码, 邻接矩阵, BFS树构建, 无训练加速  
 
 ## 一句话总结

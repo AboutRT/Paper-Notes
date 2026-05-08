@@ -9,7 +9,7 @@ tags:
   - GUI Grounding
   - visual grounding
   - 多模态大模型
-  - GUI Agent
+  - 多模态VLM
   - Action History
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.16256](https://arxiv.org/abs/2412.16256)  
-**代码**: https://github.com/AriaUI/Aria-UI (有)  
+**代码**: [https://github.com/AriaUI/Aria-UI](https://github.com/AriaUI/Aria-UI)  
 **领域**: 多模态 / GUI Agent  
 **关键词**: GUI Grounding, visual grounding, 多模态大模型, GUI Agent, Action History
 
@@ -144,8 +144,8 @@ Aria-UI 在 ScreenSpot 系列所有子基准上均超越了纯视觉方法和依
 
 - [\[ACL 2025\] R-VLM: Region-Aware Vision Language Model for Precise GUI Grounding](r-vlm_region-aware_vision_language_model_for_precise_gui_grounding.md)
 - [\[ACL 2025\] ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding](vigil3d_a_linguistically_diverse_dataset_for_3d_visual_grounding.md)
-- [\[ACL 2026\] What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning](../../ACL2026/multimodal_vlm/what39s_missing_in_screen-to-action_towards_a_ui-in-the-loop_paradigm_for_multim.md)
 - [\[CVPR 2026\] Widget2Code: From Visual Widgets to UI Code via Multimodal LLMs](../../CVPR2026/multimodal_vlm/widget2code_from_visual_widgets_to_ui_code_via_multimodal_llms.md)
-- [\[ICCV 2025\] DOGR: Towards Versatile Visual Document Grounding and Referring](../../ICCV2025/multimodal_vlm/dogr_towards_versatile_visual_document_grounding_and_referring.md)
+- [\[ACL 2026\] What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning](../../ACL2026/multimodal_vlm/what39s_missing_in_screen-to-action_towards_a_ui-in-the-loop_paradigm_for_multim.md)
+- [\[CVPR 2025\] VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos](../../CVPR2025/multimodal_vlm/videoglamm_a_large_multimodal_model_for_pixel-level_visual_grounding_in_videos.md)
 
 <!-- RELATED:END -->

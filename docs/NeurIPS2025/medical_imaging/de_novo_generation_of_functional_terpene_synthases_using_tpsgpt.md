@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.08772](https://arxiv.org/abs/2512.08772)  
-**代码**: https://github.com/colorfulcereal/TpsGPT  
+**代码**: [https://github.com/colorfulcereal/TpsGPT](https://github.com/colorfulcereal/TpsGPT)  
 **领域**: 蛋白质设计 / 酶工程  
 **关键词**: 萜烯合酶, 蛋白质语言模型, ProtGPT2, 从头设计, 湿实验验证
 

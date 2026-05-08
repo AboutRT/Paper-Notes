@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.16349](https://arxiv.org/abs/2506.16349)  
-**代码**: https://github.com/facebookresearch/wmar (有)  
+**代码**: [https://github.com/facebookresearch/wmar](https://github.com/facebookresearch/wmar)  
 **领域**: 图像生成 / AI 水印  
 **关键词**: 自回归图像生成, 水印, 反向循环一致性, Token 级水印, LLM 水印适配
 

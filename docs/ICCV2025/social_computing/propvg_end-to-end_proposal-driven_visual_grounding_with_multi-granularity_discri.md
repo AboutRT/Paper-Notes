@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - visual grounding
   - proposal-based
-  - 对比学习
+  - 社会计算
   - referring expression
   - target existence discrimination
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2509.04833](https://arxiv.org/abs/2509.04833)  
 **代码**: [GitHub](https://github.com/Dmmm1997/PropVG)  
-**领域**: 多模态VLM / 视觉定位 / 指代表达理解  
+**领域**: 社会计算  
 **关键词**: visual grounding, proposal-based, contrastive learning, referring expression, target existence discrimination
 
 ## 一句话总结
@@ -177,10 +177,10 @@ PropVG在GREC上F1超SimVG +10.1%，"无目标"判别准确率超+18.1%。
 
 ## 相关论文
 
+- [\[ECCV 2024\] Multi-Label Cluster Discrimination for Visual Representation Learning](../../ECCV2024/social_computing/multi-label_cluster_discrimination_for_visual_representation_learning.md)
+- [\[ICCV 2025\] Learning Visual Proxy for Compositional Zero-Shot Learning](learning_visual_proxy_for_compositional_zero-shot_learning.md)
 - [\[ACL 2025\] taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades](../../ACL2025/social_computing/taz2024full_analysing_german_newspapers_for_gender_bias_and_discrimination_acros.md)
 - [\[CVPR 2025\] Classifier-to-Bias: Toward Unsupervised Automatic Bias Detection for Visual Classifiers](../../CVPR2025/social_computing/classifier-to-bias_toward_unsupervised_automatic_bias_detection_for_visual_class.md)
 - [\[NeurIPS 2025\] DeepTraverse: A Depth-First Search Inspired Network for Algorithmic Visual Understanding](../../NeurIPS2025/social_computing/deeptraverse_a_depth-first_search_inspired_network_for_algorithmic_visual_unders.md)
-- [\[ECCV 2024\] GRACE: Graph-Based Contextual Debiasing for Fair Visual Question Answering](../../ECCV2024/social_computing/grace_graph-based_contextual_debiasing_for_fair_visual_question_answering.md)
-- [\[CVPR 2025\] Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification](../../CVPR2025/social_computing/classifier-guided_clip_distillation_for_unsupervised_multi-label_classification.md)
 
 <!-- RELATED:END -->

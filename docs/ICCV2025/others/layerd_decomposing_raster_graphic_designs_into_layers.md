@@ -8,7 +8,7 @@ tags:
   - 图层分解
   - 图形设计
   - 迭代抠图
-  - 调色板优化
+  - 其他
   - 评估协议
 ---
 
@@ -64,15 +64,15 @@ LayerD 将分解任务公式化为**迭代的顶层抠图 + 背景补全**过程
 
    利用图形设计的域先验——**大量纹理平坦（flat）区域**（如纯色背景、矢量形状、文字）：
 
-   - **背景精炼**：将补全目标区域按连通域分割，计算周围区域的颜色梯度。若零梯度区域占主导，提取主色调（palette），将补全结果映射到最近的 palette 颜色（在 Lab 空间）。消除补全模型在平坦区域产生的伪影。
+    - **背景精炼**：将补全目标区域按连通域分割，计算周围区域的颜色梯度。若零梯度区域占主导，提取主色调（palette），将补全结果映射到最近的 palette 颜色（在 Lab 空间）。消除补全模型在平坦区域产生的伪影。
    
-   - **前景精炼**：同样分析连通域的颜色梯度，对被分类为平坦区域的部分：从原图或中间补全背景中提取与 palette 颜色匹配的区域，若与预测 alpha 的重叠度超过阈值，用该区域生成新的 alpha mask。显著改善边界质量和细装饰层（线条、边框）的检测。
+    - **前景精炼**：同样分析连通域的颜色梯度，对被分类为平坦区域的部分：从原图或中间补全背景中提取与 palette 颜色匹配的区域，若与预测 alpha 的重叠度超过阈值，用该区域生成新的 alpha mask。显著改善边界质量和细装饰层（线条、边框）的检测。
 
 3. **前景颜色估计 (Foreground Color Estimation)**：
 
    不同于现有方法简单用分割 mask 替换原图 alpha，LayerD 通过已知的 alpha map 和补全背景，利用逆 alpha blending 精确计算前景 RGB：
 
-   $$\hat{l}_m^C = \frac{\hat{x}_m^C - \hat{x}_{m-1}^C \odot (1 - \hat{l}_m^A)}{\hat{l}_m^A}$$
+    $\hat{l}_m^C = \frac{\hat{x}_m^C - \hat{x}_{m-1}^C \odot (1 - \hat{l}_m^A)}{\hat{l}_m^A}$
 
    对于透明像素（alpha < 1），这比直接替换能更好地处理前景-背景混合。
 
@@ -158,9 +158,9 @@ LayerD 将分解任务公式化为**迭代的顶层抠图 + 背景补全**过程
 ## 相关论文
 
 - [\[ACL 2025\] Low-Rank Interconnected Adaptation across Layers](../../ACL2025/others/low-rank_interconnected_adaptation_across_layers.md)
-- [\[ICML 2025\] Enhancing Certified Robustness via Block Reflector Orthogonal Layers and Logit Annealing Loss](../../ICML2025/others/enhancing_certified_robustness_via_block_reflector_orthogonal_layers_and_logit_a.md)
 - [\[ACL 2026\] Agree, Disagree, Explain: Decomposing Human Label Variation in NLI through the Lens of Explanations](../../ACL2026/others/agree_disagree_explain_decomposing_human_label_variation_in_nli_through_the_lens.md)
-- [\[ICCV 2025\] A Linear N-Point Solver for Structure and Motion from Asynchronous Tracks](a_linear_n-point_solver_for_structure_and_motion_from_asynchronous_tracks.md)
-- [\[ICCV 2025\] C4D: 4D Made from 3D through Dual Correspondences](c4d_4d_made_from_3d_through_dual_correspondences.md)
+- [\[ICML 2025\] Enhancing Certified Robustness via Block Reflector Orthogonal Layers and Logit Annealing Loss](../../ICML2025/others/enhancing_certified_robustness_via_block_reflector_orthogonal_layers_and_logit_a.md)
+- [\[ICCV 2025\] I Am Big, You Are Little; I Am Right, You Are Wrong](i_am_big_you_are_little_i_am_right_you_are_wrong.md)
+- [\[ICCV 2025\] Generate, Refine, and Encode: Leveraging Synthesized Novel Samples for On-the-Fly Fine-Grained Category Discovery](generate_refine_and_encode_leveraging_synthesized_novel_samples_for_on-the-fly_f.md)
 
 <!-- RELATED:END -->

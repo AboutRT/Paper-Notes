@@ -2,10 +2,10 @@
 title: >-
   [论文解读] BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution
 description: >-
-  [CVPR 2025][视频超分辨率] 提出 BF-STVSR 框架，用 B-spline Mapper 建模时间运动插值、Fourier Mapper 捕获空间高频细节，无需外部光流网络即可实现连续时空视频超分辨率的 SOTA 性能。
+  [CVPR 2025][视频生成] 提出 BF-STVSR 框架，用 B-spline Mapper 建模时间运动插值、Fourier Mapper 捕获空间高频细节，无需外部光流网络即可实现连续时空视频超分辨率的 SOTA 性能。
 tags:
   - CVPR 2025
-  - 视频超分辨率
+  - 视频生成
   - B样条
   - 傅里叶
   - 连续时空超分
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2501.11043](https://arxiv.org/abs/2501.11043)  
 **代码**: 有（论文中提及）  
-**领域**: 视频理解  
+**领域**: 视频生成  
 **关键词**: 视频超分辨率, B样条, 傅里叶, 连续时空超分, 运动插值
 
 ## 一句话总结
@@ -50,7 +50,7 @@ BF-STVSR 的整体流程：给定两帧低分辨率输入 ^L, I_1^L \in \mathbb{
     - 做什么：预测高分辨率运动向量 {0 	o t}^H, M_{1 	o t}^H$ 和可靠性图
     - 核心思路：不直接预测到目标时刻 $ 的运动，而是预测 B 样条系数 $ 和节点 $，通过 B 样条基函数 $eta^n$ 在时间轴上平滑插值：\psi(z_r, \delta_r, \hat{t}) = c_r \odot eta^n\left(rac{\hat{t} - k_r}{d}
 ight)$。系数/节点由三层 SIREN 网络从编码特征估计，膨胀因子 $ 由帧间隔 $ 预测
-   - 设计动机：B 样条天然适合建模连续平滑信号，视频中物体运动本身就是平滑连续的，比 MLP 直接预测运动向量更优雅。同时直接从编码特征而非外部光流网络估计运动，消除了对 RAFT 的依赖
+    - 设计动机：B 样条天然适合建模连续平滑信号，视频中物体运动本身就是平滑连续的，比 MLP 直接预测运动向量更优雅。同时直接从编码特征而非外部光流网络估计运动，消除了对 RAFT 的依赖
 
 2. **Fourier Mapper（空间频率建模）**:
     - 做什么：从低分辨率特征预测高分辨率空间特征 ^H, F_1^H$
@@ -133,8 +133,8 @@ ight)$。系数/节点由三层 SIREN 网络从编码特征估计，膨胀因子
 
 - [\[CVPR 2025\] PatchVSR: Breaking Video Diffusion Resolution Limits with Patch-Wise Video Super-Resolution](patchvsr_breaking_video_diffusion_resolution_limits_with_patch-wise_video_super-.md)
 - [\[CVPR 2025\] VideoGigaGAN: Towards Detail-rich Video Super-Resolution](videogigagan_towards_detail-rich_video_super-resolution.md)
-- [\[CVPR 2025\] MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](mimo_controllable_character_video_synthesis_with_spatial_decomposed_modeling.md)
-- [\[CVPR 2025\] Geometry-guided Online 3D Video Synthesis with Multi-View Temporal Consistency](geometry-guided_online_3d_video_synthesis_with_multi-view_temporal_consistency.md)
 - [\[CVPR 2025\] OSV: One Step is Enough for High-Quality Image to Video Generation](osv_one_step_is_enough_for_high-quality_image_to_video_generation.md)
+- [\[CVPR 2025\] Pathways on the Image Manifold: Image Editing via Video Generation](pathways_on_the_image_manifold_image_editing_via_video_generation.md)
+- [\[CVPR 2025\] VideoDirector: Precise Video Editing via Text-to-Video Models](videodirector_precise_video_editing_via_text-to-video_models.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2406.08404](https://arxiv.org/abs/2406.08404)  
 **作者**: Yuhui Wang, Qingyuan Wu, Dylan R. Ashley, Francesco Faccio, Weida Li, Chao Huang, Jürgen Schmidhuber
 **代码**: 待确认  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: Value Iteration Network, 长期规划, 动态转移核, 自适应Highway Loss, 深度网络训练
 
 ## 一句话总结

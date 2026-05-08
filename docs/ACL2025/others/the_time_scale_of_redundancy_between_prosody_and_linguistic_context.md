@@ -9,7 +9,7 @@ tags:
   - 语言冗余性
   - 互信息
   - 上下文长度
-  - 语音交流
+  - 其他
 ---
 
 # The Time Scale of Redundancy between Prosody and Linguistic Context
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.11630](https://arxiv.org/abs/2503.11630)  
 **代码**: [GitHub](https://github.com/Chief-Buka/contextual-redundancy)  
-**领域**: NLP理解 / 语音韵律  
+**领域**: 其他  
 **关键词**: 韵律特征, 语言冗余性, 互信息, 上下文长度, 语音交流
 
 ## 一句话总结
@@ -130,9 +130,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Redundancy-Aware Test-Time Graph Out-of-Distribution Detection](../../NeurIPS2025/others/redundancy-aware_test-time_graph_out-of-distribution_detection.md)
-- [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
 - [\[ACL 2025\] Entailed Between the Lines: Incorporating Implication into NLI](entailed_between_the_lines_incorporating_implication_into_nli.md)
-- [\[ACL 2025\] Inducing Lexicons of In-Group Language with Socio-Temporal Context](inducing_lexicons_of_in-group_language_with_socio-temporal_context.md)
 - [\[ACL 2025\] Autalic: A Dataset for Anti-Autistic Ableist Language In Context](autalic_a_dataset_for_anti-autistic_ableist_language_in_context.md)
+- [\[ACL 2025\] Balancing the Budget: Understanding Trade-offs Between Supervised and Preference-Based Finetuning](balancing_the_budget_understanding_trade-offs_between_supervised_and_preference-.md)
+- [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
 
 <!-- RELATED:END -->

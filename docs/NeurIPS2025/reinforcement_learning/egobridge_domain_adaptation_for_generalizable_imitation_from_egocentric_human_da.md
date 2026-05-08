@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.19626](https://arxiv.org/abs/2509.19626)  
 **代码**: [ego-bridge.github.io](https://ego-bridge.github.io/)  
-**领域**: reinforcement_learning / 模仿学习  
+**领域**: 强化学习  
 **关键词**: cross-embodiment, 域适应, 最优传输, egocentric, 模仿学习
 
 ## 一句话总结

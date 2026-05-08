@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01183](https://arxiv.org/abs/2506.01183)  
-**代码**: https://github.com/DRPO4LLM/DRPO4LLM  
-**领域**: LLM对齐 / 强化学习  
+**代码**: [https://github.com/DRPO4LLM/DRPO4LLM](https://github.com/DRPO4LLM/DRPO4LLM)  
+**领域**: 优化  
 **关键词**: RLHF, 双重稳健, 偏好优化, DPO, 模型鲁棒性
 
 ## 一句话总结

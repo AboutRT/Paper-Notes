@@ -8,7 +8,7 @@ tags:
   - 多模态
   - LVLM-as-a-Judge
   - Chart Comprehension
-  - Evaluation Benchmark
+  - 多模态VLM
   - 视觉语言
   - Bias Analysis
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.08468](https://arxiv.org/abs/2505.08468)  
-**代码**: https://github.com/tahmedge/chart_lvlm_judge (有)  
+**代码**: [https://github.com/tahmedge/chart_lvlm_judge](https://github.com/tahmedge/chart_lvlm_judge)  
 **领域**: Multimodal & VLM  
 **关键词**: LVLM-as-a-Judge, Chart Comprehension, Evaluation Benchmark, Vision-Language Model, Bias Analysis
 
@@ -134,6 +134,6 @@ tags:
 - [\[ACL 2025\] Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs](chart-based_reasoning_transferring_capabilities_from_llms_to_vlms.md)
 - [\[ACL 2025\] ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](chartcoder_chart_to_code.md)
 - [\[ACL 2025\] NegVQA: Can Vision Language Models Understand Negation?](negvqa_can_vision_language_models_understand_negation.md)
-- [\[ACL 2025\] Can Multimodal Large Language Models Understand Spatial Relations?](spatialmqa_mllm_spatial_relations.md)
+- [\[ACL 2025\] CORDIAL: Can Multimodal Large Language Models Effectively Understand Coherence Relations?](cordial_can_multimodal_large_language_models_effectively_understand_coherence_re.md)
 
 <!-- RELATED:END -->

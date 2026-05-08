@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.04947](https://arxiv.org/abs/2507.04947)  
-**代码**: https://github.com/dc-ai-projects/DC-AR  
-**领域**: image_generation  
+**代码**: [https://github.com/dc-ai-projects/DC-AR](https://github.com/dc-ai-projects/DC-AR)  
+**领域**: 图像生成  
 **关键词**: 自回归图像生成, 图像标记器, 掩码自回归, 深度压缩, 文本到图像
 
 ## 一句话总结

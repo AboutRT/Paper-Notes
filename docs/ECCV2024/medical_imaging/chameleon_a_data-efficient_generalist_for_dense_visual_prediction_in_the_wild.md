@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2404.18459](https://arxiv.org/abs/2404.18459)  
 **代码**: [GitGyun/chameleon](https://github.com/GitGyun/chameleon)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: vision generalist, low-shot learning, dense prediction, meta-learning, token matching
 
 ## 一句话总结

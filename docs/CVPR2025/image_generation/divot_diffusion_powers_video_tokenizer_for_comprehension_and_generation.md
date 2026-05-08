@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.04432](https://arxiv.org/abs/2412.04432)  
 **代码**: [GitHub](https://github.com/TencentARC/Divot)  
-**领域**: 多模态VLM / 视频生成  
+**领域**: 图像生成  
 **关键词**: 视频Tokenizer, 扩散模型, 视频理解与生成统一, 高斯混合模型, 大语言模型
 
 ## 一句话总结

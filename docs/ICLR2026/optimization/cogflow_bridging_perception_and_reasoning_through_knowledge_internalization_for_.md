@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2601.01874](https://arxiv.org/abs/2601.01874)  
-**代码**: https://shchen233.github.io/cogflow/  
-**领域**: 多模态VLM  
+**代码**: [https://shchen233.github.io/cogflow/](https://shchen233.github.io/cogflow/)  
+**领域**: 优化  
 **关键词**: 视觉数学推理, 知识内化, GRPO, 感知-推理对齐, 认知启发
 
 ## 一句话总结

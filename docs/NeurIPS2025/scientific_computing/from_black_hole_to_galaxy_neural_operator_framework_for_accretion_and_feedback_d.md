@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.01576](https://arxiv.org/abs/2512.01576)  
 **代码**: 无  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: Neural Operator, 黑洞吸积, 多尺度模拟, 子网格模型, GRMHD
 
 ## 一句话总结

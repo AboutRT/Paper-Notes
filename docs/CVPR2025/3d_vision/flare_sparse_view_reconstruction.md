@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.12138](https://arxiv.org/abs/2502.12138)  
-**代码**: https://zhanghe3z.github.io/FLARE/  
+**代码**: [https://zhanghe3z.github.io/FLARE/](https://zhanghe3z.github.io/FLARE/)  
 **领域**: 3D视觉 / 稀疏视角重建  
 **关键词**: 稀疏视角重建, 相机估计, 3D高斯, 前馈, 点图
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025 (Workshop: Efficient Reasoning)  
 **arXiv**: [2511.15694](https://arxiv.org/abs/2511.15694)  
-**代码**: https://github.com/d-matrix-ai/rlquant  
-**领域**: 模型压缩  
+**代码**: [https://github.com/d-matrix-ai/rlquant](https://github.com/d-matrix-ai/rlquant)  
+**领域**: LLM推理  
 **关键词**: 量化, 推理模型, 强化学习, GRPO, QLoRA
 
 ## 一句话总结
@@ -128,7 +128,7 @@ tags:
 - [\[NeurIPS 2025\] Reasoning Models Hallucinate More: Factuality-Aware Reinforcement Learning for Large Reasoning Models](reasoning_models_hallucinate_more_factuality-aware_reinforcement_learning_for_la.md)
 - [\[NeurIPS 2025\] SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning](sql-r1_training_natural_language_to_sql_reasoning_model_by_reinforcement_learnin.md)
 - [\[ACL 2026\] Revisiting Entropy in Reinforcement Learning for Large Reasoning Models](../../ACL2026/llm_reasoning/revisiting_entropy_in_reinforcement_learning_for_large_reasoning_models.md)
+- [\[NeurIPS 2025\] ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning](expo_unlocking_hard_reasoning_with_self-explanation-guided_reinforcement_learnin.md)
 - [\[AAAI 2026\] Incorporating Self-Rewriting into Large Language Model Reasoning Reinforcement](../../AAAI2026/llm_reasoning/incorporating_self-rewriting_into_large_language_model_reasoning_reinforcement.md)
-- [\[NeurIPS 2025\] ARM: Adaptive Reasoning Model](arm_adaptive_reasoning_model.md)
 
 <!-- RELATED:END -->

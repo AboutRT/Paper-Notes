@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2407.01521](https://arxiv.org/abs/2407.01521)  
-**代码**: https://github.com/zhangbingliang2019/DAPS (有)  
+**代码**: [https://github.com/zhangbingliang2019/DAPS](https://github.com/zhangbingliang2019/DAPS)  
 **领域**: 扩散模型  
 **关键词**: 逆问题求解, 后验采样, 噪声退火, 扩散模型, 图像恢复
 

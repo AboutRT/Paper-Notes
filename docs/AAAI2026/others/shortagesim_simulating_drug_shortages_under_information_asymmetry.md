@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 药品短缺
-  - 多智能体模拟
+  - 其他
   - 大语言模型
   - 信息不对称
   - 监管政策
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2509.01813](https://arxiv.org/abs/2509.01813)  
-**代码**: https://github.com/Lemutisme/ShortageSim  
-**领域**: LLM Agent / 供应链模拟  
+**代码**: [https://github.com/Lemutisme/ShortageSim](https://github.com/Lemutisme/ShortageSim)  
+**领域**: 其他  
 **关键词**: 药品短缺, 多智能体模拟, 大语言模型, 信息不对称, 监管政策
 
 ## 一句话总结
@@ -124,10 +124,10 @@ tags:
 
 ## 相关论文
 
-- [\[AAAI 2026\] On the Information Processing of One-Dimensional Wasserstein Distances with Finite Samples](on_the_information_processing_of_one-dimensional_wasserstein_distances_with_fini.md)
 - [\[AAAI 2026\] Optimal Welfare in Noncooperative Network Formation under Attack](optimal_welfare_in_noncooperative_network_formation_under_attack.md)
 - [\[AAAI 2026\] Predict and Resist: Long-Term Accident Anticipation under Sensor Noise](predict_and_resist_long-term_accident_anticipation_under_sensor_noise.md)
-- [\[AAAI 2026\] Data Complexity of Querying Description Logic Knowledge Bases under Cost-Based Semantics](data_complexity_of_querying_description_logic_knowledge_bases_under_cost-based_s.md)
 - [\[NeurIPS 2025\] Neural Network for Simulating Radio Emission from Extensive Air Showers](../../NeurIPS2025/others/neural_network_for_simulating_radio_emission_from_extensive_air_showers.md)
+- [\[AAAI 2026\] On the Information Processing of One-Dimensional Wasserstein Distances with Finite Samples](on_the_information_processing_of_one-dimensional_wasserstein_distances_with_fini.md)
+- [\[AAAI 2026\] Data Complexity of Querying Description Logic Knowledge Bases under Cost-Based Semantics](data_complexity_of_querying_description_logic_knowledge_bases_under_cost-based_s.md)
 
 <!-- RELATED:END -->

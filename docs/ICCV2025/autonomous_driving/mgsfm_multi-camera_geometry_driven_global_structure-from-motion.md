@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.03306](https://arxiv.org/abs/2507.03306)  
 **代码**: [3dv-casia/MGSfM](https://github.com/3dv-casia/MGSfM)  
-**领域**: autonomous_driving / 3d_vision  
+**领域**: 自动驾驶  
 **关键词**: Structure-from-Motion, 多相机系统, 全局运动平均, 旋转平均, 平移平均, 三维重建, 自动驾驶
 
 ## 一句话总结
@@ -170,7 +170,7 @@ MGSfM 在所有场景上均大幅优于 GLOMAP，精度提升 10-40 个百分点
 ## 相关论文
 
 - [\[ICML 2025\] Geometry-to-Image Synthesis-Driven Generative Point Cloud Registration](../../ICML2025/autonomous_driving/geometry-to-image_synthesis-driven_generative_point_cloud_registration.md)
-- [\[ICCV 2025\] 3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation](3d_gaussian_splatting_driven_multiview_robust_physical_adver.md)
+- [\[ICCV 2025\] 3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation](3d_gaussian_splatting_driven_multi-view_robust_physical_adversarial_camouflage_g.md)
 - [\[ICCV 2025\] Language Driven Occupancy Prediction (LOcc)](language_driven_occupancy_prediction.md)
 - [\[ICCV 2025\] Future-Aware Interaction Network For Motion Forecasting](future-aware_interaction_network_for_motion_forecasting.md)
 - [\[ICCV 2025\] Foresight in Motion: Reinforcing Trajectory Prediction with Reward Heuristics](foresight_in_motion_reinforcing_trajectory_prediction_with_reward_heuristics.md)

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.16023](https://arxiv.org/abs/2504.16023)  
-**代码**: https://github.com/songw-zju/PointLoRA  
+**代码**: [https://github.com/songw-zju/PointLoRA](https://github.com/songw-zju/PointLoRA)  
 **领域**: 3D视觉  
 **关键词**: 点云学习, 参数高效微调, LoRA, Token选择, 预训练模型
 

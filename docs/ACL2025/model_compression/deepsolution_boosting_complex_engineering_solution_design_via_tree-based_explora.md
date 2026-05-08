@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2502.20730](https://arxiv.org/abs/2502.20730)  
 **代码**: [GitHub](https://github.com/Li-Z-Q/DeepSolution)  
 **arXiv**: [2502.20730](https://arxiv.org/abs/2502.20730)  
-**代码**: https://github.com/Li-Z-Q/DeepSolution  
+**代码**: [https://github.com/Li-Z-Q/DeepSolution](https://github.com/Li-Z-Q/DeepSolution)  
 **领域**: 模型压缩  
 **关键词**: RAG, tree search, engineering solution design, bi-point thinking, benchmark  
 **作者**: Zhuoqun Li, Haiyang Yu, Xuanang Chen, Hongyu Lin, Yaojie Lu, Fei Huang, Xianpei Han, Yongbin Li, Le Sun (中科院软件所 & 通义实验室)  
@@ -142,9 +142,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Pre-training Distillation for Large Language Models: A Design Space Exploration](pre-training_distillation_for_large_language_models_a_design_space_exploration.md)
-- [\[ICML 2025\] Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration](../../ICML2025/model_compression/soft_reasoning_navigating_solution_spaces_in_large_language_models_through_contr.md)
 - [\[ACL 2025\] TeamLoRA: Boosting Low-Rank Adaptation with Expert Collaboration and Competition](teamlora_boosting_low-rank_adaptation_with_expert_collaboration_and_competition.md)
 - [\[ACL 2025\] Data Laundering: Artificially Boosting Benchmark Results through Knowledge Distillation](data_laundering_artificially_boosting_benchmark_results_through_knowledge_distil.md)
-- [\[ACL 2025\] RISE: Reasoning Enhancement via Iterative Self-Exploration in Multi-hop Question Answering](rise_reasoning_enhancement_via_iterative_self-exploration_in_multi-hop_question_.md)
+- [\[ACL 2025\] CAMI: A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Exploration](cami_a_counselor_agent_supporting_motivational_interviewing_through_state_infere.md)
+- [\[NeurIPS 2025\] Traversal Verification for Speculative Tree Decoding](../../NeurIPS2025/model_compression/traversal_verification_for_speculative_tree_decoding.md)
 
 <!-- RELATED:END -->

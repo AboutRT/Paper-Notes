@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.00589](https://arxiv.org/abs/2603.00589)  
 **代码**: 无  
-**领域**: 图像超分辨率 / 视觉自回归  
+**领域**: 图像生成  
 **关键词**: 视觉自回归, 图像超分辨率, 空间一致性, 层级一致性, Next-Scale预测
 
 ## 一句话总结
@@ -162,6 +162,6 @@ AlignVAR 比 PASD 快 **13.8×**，比 DiffBIR 快 **11.7×**，比 VARSR 也快
 - [\[CVPR 2026\] VOSR: A Vision-Only Generative Model for Image Super-Resolution](vosr_a_vision_only_generative_model_for_image_super_resolution.md)
 - [\[CVPR 2026\] OARS: Process-Aware Online Alignment for Generative Real-World Image Super-Resolution](oars_processaware_online_alignment_for_generative.md)
 - [\[CVPR 2026\] DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution](duo-vsr_dual-stream_distillation_for_one-step_video_super-resolution.md)
-- [\[CVPR 2026\] Cycle-Consistent Tuning for Layered Image Decomposition](cycle-consistent_tuning_for_layered_image_decomposition.md)
+- [\[AAAI 2026\] Realism Control One-step Diffusion for Real-World Image Super-Resolution](../../AAAI2026/image_generation/realism_control_one-step_diffusion_for_real-world_image_super-resolution.md)
 
 <!-- RELATED:END -->

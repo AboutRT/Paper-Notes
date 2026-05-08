@@ -9,7 +9,7 @@ tags:
   - 多模态评估器
   - LMM-as-a-Judge
   - 偏好学习
-  - 评估指令数据
+  - 多模态VLM
   - 奖励信号
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.02712](https://arxiv.org/abs/2410.02712)  
-**代码**: https://github.com/LLaVA-VL/LLaVA-NeXT (有)  
+**代码**: [https://github.com/LLaVA-VL/LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT)  
 **领域**: 多模态VLM  
 **关键词**: 多模态评估器, LMM-as-a-Judge, 偏好学习, 评估指令数据, 奖励信号
 

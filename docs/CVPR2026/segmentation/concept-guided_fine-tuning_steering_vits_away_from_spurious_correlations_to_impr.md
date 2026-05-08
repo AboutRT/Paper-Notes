@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.08309](https://arxiv.org/abs/2603.08309)  
 **代码**: [GitHub](https://github.com/yonisGit/cft)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 虚假相关, ViT鲁棒性, 概念引导微调, AttnLRP, 零样本分割, OOD泛化
 
 ## 一句话总结

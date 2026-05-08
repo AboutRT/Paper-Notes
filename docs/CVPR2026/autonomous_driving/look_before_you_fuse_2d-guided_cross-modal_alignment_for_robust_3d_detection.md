@@ -67,12 +67,12 @@ LiDAR-Camera融合是自动驾驶3D感知的主流范式。Camera提供丰富的
 
    **2D引导深度对齐模块(DAM)**：YOLOv9在图像上生成2D检测框 $\{B_j^{(i)}\}$。对框内的每个LiDAR投影点 $p$（深度 $d_p$），用KD-Tree找10个最近邻 $\mathcal{N}_p$，从中选出**深度最小的2个**和**深度最大的2个**，组成4个关键邻居 $\mathcal{N}_{\text{critical}}$。这种选择策略同时捕获了物体自身的深度一致性和前景-背景深度突变。将原始深度与4个邻居深度拼接为5通道特征，通过轻量卷积块得到校正后的深度：
 
-   $$f_p = \text{concat}(d_p, \{d_q\}_{q \in \mathcal{N}_{\text{critical}}})$$
-   $$d'_{\text{aligned}}(p) = \text{ReLU}(\text{BN}(\text{Conv}(f_p)))$$
+    $f_p = \text{concat}(d_p, \{d_q\}_{q \in \mathcal{N}_{\text{critical}}})$
+    $d'_{\text{aligned}}(p) = \text{ReLU}(\text{BN}(\text{Conv}(f_p)))$
 
    **2D特征增强模块(FEM)**：用类别特定的超参数 $\alpha_k$ 放大检测框内的图像特征：
 
-   $$F_{\text{enhanced}}(p,c) = \alpha_k \cdot F_{\text{img}}(p,c)$$
+    $F_{\text{enhanced}}(p,c) = \alpha_k \cdot F_{\text{img}}(p,c)$
 
    小目标（行人、锥桶）设更大的 $\alpha_k$，大目标（卡车、巴士）设更小的。之后通过SE block做通道自适应重标定。动机：小目标特征容易在融合中被淹没，需要更强的增强。
 
@@ -81,8 +81,8 @@ LiDAR-Camera融合是自动驾驶3D感知的主流范式。Camera提供丰富的
    **差异掩码**：计算 $\Delta = |D_{\text{raw}} - D_{\text{aligned}}|$，差异超过原深度10%的像素被视为不可靠并掩除——这是PGDC的**自纠正机制**：当2D先验不准确导致过度平滑时，差异会很大，被自动抑制。
 
    **分块稠密化 + 梯度提取**：将掩除后的稀疏图分为20×20不重叠块，每块计算两个统计量：
-   - 平均深度 $d_{\text{avg}}$：块内所有有效点的均值 → 稠密化（广播到整块）
-   - 最大梯度 $g_{\max}$：块内点对间的最大深度差 → 标识深度突变区域
+    - 平均深度 $d_{\text{avg}}$：块内所有有效点的均值 → 稠密化（广播到整块）
+    - 最大梯度 $g_{\max}$：块内点对间的最大深度差 → 标识深度突变区域
 
    最终输出2通道特征图：$F_{\text{FA}} = [D_{\text{dense}} \oplus G_{\text{dense}}]$
 

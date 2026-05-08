@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.01773](https://arxiv.org/abs/2512.01773)  
-**代码**: https://chenghaogu.github.io/IGen/  
-**领域**: LLM Agent  
+**代码**: [https://chenghaogu.github.io/IGen/](https://chenghaogu.github.io/IGen/)  
+**领域**: 机器人  
 **关键词**: 机器人学习, 数据生成, 开放世界图像, 视觉运动策略, 3D重建
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.20897](https://arxiv.org/abs/2502.20897)  
-**代码**: https://github.com/morlikowski/beyond-demographics  
+**代码**: [https://github.com/morlikowski/beyond-demographics](https://github.com/morlikowski/beyond-demographics)  
 **领域**: LLM/NLP  
 **关键词**: 社会人口学提示、标注者建模、主观文本感知、个体差异、LLM微调
 
@@ -120,8 +120,8 @@ tags:
 
 - [\[ACL 2025\] HFT: Half Fine-Tuning for Large Language Models](hft_half_fine-tuning_for_large_language_models.md)
 - [\[ACL 2025\] Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models](salience_sparse_fine_tuning.md)
-- [\[ACL 2025\] EdiText: Controllable Coarse-to-Fine Text Editing with Diffusion Language Models](editext_diffusion_text_editing.md)
 - [\[ACL 2025\] PiFi: Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models](plugin_finetuning_bridge.md)
 - [\[ACL 2025\] Perspective Transition of Large Language Models for Solving Subjective Tasks](perspective_transition_of_large_language_models_for_solving_subjective_tasks.md)
+- [\[ACL 2025\] Efficient Ensemble for Fine-tuning Language Models on Multiple Datasets](efficient_ensemble_for_fine-tuning_language_models_on_multiple_datasets.md)
 
 <!-- RELATED:END -->

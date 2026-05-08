@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25316](https://arxiv.org/abs/2603.25316)  
-**代码**: https://github.com/UnoC-727/GLIC  
+**代码**: [https://github.com/UnoC-727/GLIC](https://github.com/UnoC-727/GLIC)  
 **领域**: 图学习 / 学习图像压缩  
 **关键词**: 图像压缩、GNN、双尺度采样、RMS 梯度、内容自适应连接
 

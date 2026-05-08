@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12240](https://arxiv.org/abs/2603.12240)  
-**代码**: https://github.com/Greenoso/BiGain  
+**代码**: [https://github.com/Greenoso/BiGain](https://github.com/Greenoso/BiGain)  
 **领域**: 扩散模型 / 推理加速  
 **关键词**: Token Compression, 频率感知, 扩散模型分类, 拉普拉斯滤波, KV下采样
 

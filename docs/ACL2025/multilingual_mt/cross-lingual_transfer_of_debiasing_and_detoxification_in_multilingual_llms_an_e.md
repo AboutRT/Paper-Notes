@@ -8,7 +8,7 @@ tags:
   - 跨语言迁移
   - 去偏见
   - 去毒化
-  - 多语言LLM
+  - 多语言翻译
   - DPO
   - 监督微调
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2412.14050](https://arxiv.org/abs/2412.14050)  
 **代码**: [GitHub](https://github.com/Veranep/crosslingualdetoxdebias)  
-**领域**: llm_nlp  
+**领域**: 多语言翻译  
 **关键词**: 跨语言迁移, 去偏见, 去毒化, 多语言LLM, DPO, 监督微调
 
 ## 一句话总结
@@ -170,8 +170,8 @@ tags:
 
 - [\[ACL 2025\] Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs](mid_layer_crosslingual_alignment.md)
 - [\[ACL 2025\] Cross-Lingual Transfer of Cultural Knowledge: An Asymmetric Phenomenon](cross-lingual_transfer_of_cultural_knowledge_an_asymmetric_phenomenon.md)
-- [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 - [\[ACL 2025\] Cross-Lingual Auto Evaluation for Assessing Multilingual LLMs](cross-lingual_auto_evaluation_for_assessing_multilingual_llms.md)
-- [\[ACL 2025\] Implicit Cross-Lingual Rewarding for Efficient Multilingual Preference Alignment](implicit_cross-lingual_rewarding_for_efficient_multilingual_preference_alignment.md)
+- [\[ACL 2025\] Semantic Aware Linear Transfer by Recycling Pre-trained Language Models for Cross-Lingual Transfer](semantic_aware_linear_transfer_by_recycling_pre-trained_language_models_for_cros.md)
+- [\[ACL 2025\] Language Fusion for Parameter-Efficient Cross-lingual Transfer (FLARE)](flare_crosslingual_lora.md)
 
 <!-- RELATED:END -->

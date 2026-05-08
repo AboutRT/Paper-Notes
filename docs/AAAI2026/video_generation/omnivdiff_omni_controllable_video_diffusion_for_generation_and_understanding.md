@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 视频扩散模型
-  - 多模态生成
+  - 视频生成
   - 可控视频生成
   - 视频理解
   - 统一框架
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2504.10825](https://arxiv.org/abs/2504.10825)  
-**代码**: https://tele-ai.github.io/OmniVDiff/ (有项目页)  
-**领域**: Segmentation / Video Generation  
+**代码**: [https://tele-ai.github.io/OmniVDiff/](https://tele-ai.github.io/OmniVDiff/) (有项目页)  
+**领域**: 视频生成  
 **关键词**: 视频扩散模型, 多模态生成, 可控视频生成, 视频理解, 统一框架
 
 ## 一句话总结
@@ -151,9 +151,9 @@ $$\mathcal{L} = \sum_{m, m \notin Cond} \mathbb{E}_{x_m, t, \epsilon, m} [\|\eps
 ## 相关论文
 
 - [\[CVPR 2025\] VideoDPO: Omni-Preference Alignment for Video Diffusion Generation](../../CVPR2025/video_generation/videodpo_omni-preference_alignment_for_video_diffusion_generation.md)
-- [\[AAAI 2026\] MotionCharacter: Fine-Grained Motion Controllable Human Video Generation](motioncharacter_fine-grained_motion_controllable_human_video_generation.md)
 - [\[CVPR 2025\] Mimir: Improving Video Diffusion Models for Precise Text Understanding](../../CVPR2025/video_generation/mimir_improving_video_diffusion_models_for_precise_text_understanding.md)
-- [\[CVPR 2026\] FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance](../../CVPR2026/video_generation/flashmotion_fewstep_controllable_video_generation.md)
-- [\[CVPR 2025\] InterDyn: Controllable Interactive Dynamics with Video Diffusion Models](../../CVPR2025/video_generation/interdyn_controllable_interactive_dynamics_with_video_diffusion_models.md)
+- [\[AAAI 2026\] MotionCharacter: Fine-Grained Motion Controllable Human Video Generation](motioncharacter_fine-grained_motion_controllable_human_video_generation.md)
+- [\[CVPR 2025\] StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models](../../CVPR2025/video_generation/streetcrafter_street_view_synthesis_with_controllable_video_diffusion_models.md)
+- [\[CVPR 2025\] VEU-Bench: Towards Comprehensive Understanding of Video Editing](../../CVPR2025/video_generation/veu-bench_towards_comprehensive_understanding_of_video_editing.md)
 
 <!-- RELATED:END -->

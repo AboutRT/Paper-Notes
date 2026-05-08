@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.05435](https://arxiv.org/abs/2412.05435)  
-**代码**: https://arlo0o.github.io/uniscene/ (项目主页)  
+**代码**: [https://arlo0o.github.io/uniscene/](https://arlo0o.github.io/uniscene/) (项目主页)  
 **领域**: 自动驾驶 / 场景生成  
 **关键词**: 占用网格生成, 高斯渲染, 视频生成, LiDAR生成, 扩散Transformer
 

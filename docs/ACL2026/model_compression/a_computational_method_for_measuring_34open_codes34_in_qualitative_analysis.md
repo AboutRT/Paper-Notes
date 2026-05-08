@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2411.12142](https://arxiv.org/abs/2411.12142)  
 **代码**: [GitHub](https://github.com/) (开源软件包)  
-**领域**: NLP Applications / Qualitative Analysis  
+**领域**: 模型压缩  
 **关键词**: 归纳编码, 定性分析, LLM辅助评估, 代码空间聚合, 团队协作评估
 
 ## 一句话总结
@@ -122,7 +122,7 @@ tags:
 - [\[ACL 2026\] A Layer-wise Analysis of Supervised Fine-Tuning](a_layer-wise_analysis_of_supervised_fine-tuning.md)
 - [\[ACL 2026\] Analytical FFN-to-MoE Restructuring via Activation Pattern Analysis](analytical_ffn-to-moe_restructuring_via_activation_pattern_analysis.md)
 - [\[ACL 2026\] WISCA: A Lightweight Model Transition Method to Improve LLM Training via Weight Scaling](wisca_a_lightweight_model_transition_method_to_improve_llm_training_via_weight_s.md)
-- [\[ICLR 2026\] Einstein Fields: A Neural Perspective To Computational General Relativity](../../ICLR2026/model_compression/einstein_fields_a_neural_perspective_to_computational_general_relativity.md)
-- [\[ICLR 2026\] Why Attention Patterns Exist: A Unifying Temporal Perspective Analysis](../../ICLR2026/model_compression/why_attention_patterns_exist_a_unifying_temporal_perspective_analysis.md)
+- [\[ECCV 2024\] Anytime Continual Learning for Open Vocabulary Classification](../../ECCV2024/model_compression/anytime_continual_learning_for_open_vocabulary_classification.md)
+- [\[ECCV 2024\] BaSIC: BayesNet Structure Learning for Computational Scalable Neural Image Compression](../../ECCV2024/model_compression/basic_bayesnet_structure_learning_for_computational_scalable_neural_image_compre.md)
 
 <!-- RELATED:END -->

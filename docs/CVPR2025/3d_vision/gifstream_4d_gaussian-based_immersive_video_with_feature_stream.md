@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.07539](https://arxiv.org/abs/2505.07539)  
-**代码**: https://xdimlab.github.io/GIFStream  
+**代码**: [https://xdimlab.github.io/GIFStream](https://xdimlab.github.io/GIFStream)  
 **领域**: 3D视觉  
 **关键词**: 沉浸式视频, 4D高斯泼溅, 动态场景压缩, 特征流, 端到端压缩
 

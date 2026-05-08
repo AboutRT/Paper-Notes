@@ -5,7 +5,7 @@ description: >-
   [ACL 2025][commonsense reasoning] 构建首个大规模双语（中英）LLM 常识推理鲁棒性评估基准 HellaSwag-Pro，通过 7 种推理形式变体对 1,600 道原始题生成 11,200 道变体题，在 41 个 LLM 上的系统评估表明所有模型在常识推理鲁棒性上远未达标——否定变换平均准确率仅 9.01%，人机差距显著。
 tags:
   - ACL 2025
-  - commonsense reasoning
+  - LLM评测
   - robustness evaluation
   - bilingual benchmark
   - question variants
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.11393](https://arxiv.org/abs/2502.11393)  
 **代码**: 无  
-**领域**: llm_evaluation  
+**领域**: LLM评测  
 **关键词**: commonsense reasoning, robustness evaluation, bilingual benchmark, question variants, HellaSwag
 
 ## 一句话总结
@@ -151,6 +151,6 @@ tags:
 - [\[ACL 2025\] Batayan: A Filipino NLP Benchmark for Evaluating Large Language Models](batayan_a_filipino_nlp_benchmark_for_evaluating_large_language_models.md)
 - [\[ACL 2025\] PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory](papersplease_a_benchmark_for_evaluating_motivational_values_of_large_language_mo.md)
 - [\[ACL 2025\] GuessArena: Guess Who I Am? A Self-Adaptive Framework for Evaluating LLMs in Domain-Specific Knowledge and Reasoning](guessarena_guess_who_i_am_a.md)
-- [\[ACL 2025\] TiC-LM: A Web-Scale Benchmark for Time-Continual LLM Pretraining](tic-lm_a_web-scale_benchmark_for_time-continual_llm_pretraining.md)
+- [\[ACL 2025\] EvoWiki: Evaluating LLMs on Evolving Knowledge](evowiki_evaluating_llms_on_evolving_knowledge.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Navigating Rifts in Human-LLM Grounding: Study and Benchmark
 description: >-
-  [ACL2025][对话grounding] 系统研究人与 LLM 对话中的 grounding（建立共识）失败问题，发现 LLM 主动澄清的频率仅为人类的 1/3、主动追问的频率仅为 1/16，提出 Rifts 基准（约 1.8K 任务）评测 LLM 的 grounding 能力，并通过 grounding forecaster 实现初步干预。
+  [ACL2025][LLM评测] 系统研究人与 LLM 对话中的 grounding（建立共识）失败问题，发现 LLM 主动澄清的频率仅为人类的 1/3、主动追问的频率仅为 1/16，提出 Rifts 基准（约 1.8K 任务）评测 LLM 的 grounding 能力，并通过 grounding forecaster 实现初步干预。
 tags:
   - ACL2025
-  - 对话grounding
+  - LLM评测
   - 人机交互
   - 对话行为分析
   - 基准评测
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2503.13975](https://arxiv.org/abs/2503.13975)  
 **代码**: [GitHub](https://github.com/microsoft/rifts)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: 对话grounding, 人机交互, 对话行为分析, 基准评测, 澄清请求, 指令跟随
 
 ## 一句话总结
@@ -143,8 +143,8 @@ Grounding forecaster 使用标准的因果语言建模目标（causal language m
 
 - [\[ACL 2025\] ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](elaboration_competitive_programming.md)
 - [\[ACL 2025\] Towards Dynamic Theory of Mind: Evaluating LLM Adaptation to Temporal Evolution of Human States](towards_dynamic_theory_of_mind_evaluating_llm_adaptation_to_temporal_evolution_o.md)
-- [\[ACL 2025\] Influences on LLM Calibration: A Study of Response Agreement, Loss Functions, and Prompt Styles](influences_on_llm_calibration_a_study_of_response_agreement_loss_functions_and_p.md)
 - [\[ACL 2025\] HalluLens: LLM Hallucination Benchmark](hallulens_llm_hallucination_benchmark.md)
-- [\[NeurIPS 2025\] RGB-to-Polarization Estimation: A New Task and Benchmark Study](../../NeurIPS2025/llm_evaluation/rgb-to-polarization_estimation_a_new_task_and_benchmark_study.md)
+- [\[ACL 2025\] RealHiTBench: A Comprehensive Realistic Hierarchical Table Benchmark for Evaluating LLM-Based Table Analysis](realhitbench_a_comprehensive_realistic_hierarchical_table_benchmark_for_evaluati.md)
+- [\[ACL 2025\] GRACE: A Granular Benchmark for Evaluating Model Calibration Against Human Calibration](grace_a_granular_benchmark_for_evaluating_model_calibration_against_human_calibr.md)
 
 <!-- RELATED:END -->

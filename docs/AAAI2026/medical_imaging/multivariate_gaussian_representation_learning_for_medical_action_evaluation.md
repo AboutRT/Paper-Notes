@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.10060](https://arxiv.org/abs/2511.10060)  
-**代码**: https://github.com/HaoxianLiu/GaussMedAct  
+**代码**: [https://github.com/HaoxianLiu/GaussMedAct](https://github.com/HaoxianLiu/GaussMedAct)  
 **领域**: 医学图像 / 动作识别  
 **关键词**: CPR评估, 高斯混合模型, 骨架动作识别, 时空表示, 医学数据集
 

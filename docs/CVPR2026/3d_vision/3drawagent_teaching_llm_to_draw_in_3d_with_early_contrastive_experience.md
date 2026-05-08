@@ -42,22 +42,22 @@ tags:
 ### 关键设计
 1. **3D草图的语言化表示**：
    将3D Bezier曲线用结构化文本表达：$a_t = \text{draw\_bezier}[(\mathbf{P}^{(0)}, \mathbf{P}^{(1)}, \mathbf{P}^{(2)}, \mathbf{P}^{(3)})]$，每个控制点 $\mathbf{P}^{(k)} \in \mathbb{R}^3$。整个草图是动作序列 $\mathcal{A} = \{a_1, ..., a_N\}$。
-   - 精心的 prompt 设计包含：角色指令、输出格式规范、数据类型约束、坐标系定义、GT示例、边界规则
-   - 设计动机：让LLM在其熟悉的文本空间工作，避免跨模态转换
+    - 精心的 prompt 设计包含：角色指令、输出格式规范、数据类型约束、坐标系定义、GT示例、边界规则
+    - 设计动机：让LLM在其熟悉的文本空间工作，避免跨模态转换
 
 2. **对比经验提取（CKE）**：
    核心创新——将 training-free GRPO 推广到成对对比设置：
-   - 对每个查询采样 $K=5$ 个候选草图
-   - 使用 CLIP 多视角评分：$r_{\text{CLIP}} = \frac{1}{V}\sum_{v=1}^{V} \cos(E_I(I_v), E_T(\mathcal{T}))$
-   - 构建对比对 $(\mathcal{S}_i^+, \mathcal{S}_j^-)$，其中 $r_i > r_j$
-   - LLM 作为"语义优势判官"分析好坏原因
-   - 提取的知识更新经验库：$\mathcal{E} \leftarrow \text{Update}(\mathcal{E}, A^{\text{text}})$
-   - 设计动机：不需要GT 3D草图、不需要梯度、不需要结构化group rollout
+    - 对每个查询采样 $K=5$ 个候选草图
+    - 使用 CLIP 多视角评分：$r_{\text{CLIP}} = \frac{1}{V}\sum_{v=1}^{V} \cos(E_I(I_v), E_T(\mathcal{T}))$
+    - 构建对比对 $(\mathcal{S}_i^+, \mathcal{S}_j^-)$，其中 $r_i > r_j$
+    - LLM 作为"语义优势判官"分析好坏原因
+    - 提取的知识更新经验库：$\mathcal{E} \leftarrow \text{Update}(\mathcal{E}, A^{\text{text}})$
+    - 设计动机：不需要GT 3D草图、不需要梯度、不需要结构化group rollout
 
 3. **经验引导的3D绘图**：
    将经验库 $\mathcal{E}$ 注入 context window 作为额外 prompt 段：$o = p_\theta(o | \mathcal{T}, \mathcal{E})$
-   - 经验编码了可迁移的几何原则（曲率连续性、对称拓扑保持等）
-   - 通过迭代积累，LLM 逐步内化3D感知策略
+    - 经验编码了可迁移的几何原则（曲率连续性、对称拓扑保持等）
+    - 通过迭代积累，LLM 逐步内化3D感知策略
 
 ### 损失函数 / 训练策略
 - **完全免训练**：冻结 LLM（DeepSeek-V3.2-Exp / Gemini-2.5Pro）
@@ -126,6 +126,6 @@ tags:
 - [\[CVPR 2026\] ArtLLM: Generating Articulated Assets via 3D LLM](artllm_generating_articulated_assets_via_3d_llm.md)
 - [\[ICLR 2026\] LaVCa: LLM-assisted Visual Cortex Captioning](../../ICLR2026/3d_vision/lavca_llm-assisted_visual_cortex_captioning.md)
 - [\[AAAI 2026\] UniC-Lift: Unified 3D Instance Segmentation via Contrastive Learning](../../AAAI2026/3d_vision/unic-lift_unified_3d_instance_segmentation_via_contrastive_learning.md)
-- [\[ECCV 2024\] PCF-Lift: Panoptic Lifting by Probabilistic Contrastive Fusion](../../ECCV2024/3d_vision/pcf-lift_panoptic_lifting_by_probabilistic_contrastive_fusion.md)
+- [\[AAAI 2026\] NURBGen: High-Fidelity Text-to-CAD Generation through LLM-Driven NURBS Modeling](../../AAAI2026/3d_vision/nurbgen_high-fidelity_text-to-cad_generation_through_llm-driven_nurbs_modeling.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.22463](https://arxiv.org/abs/2506.22463)  
-**代码**: https://github.com/WeizhiGao/MoDiff (有)  
+**代码**: [https://github.com/WeizhiGao/MoDiff](https://github.com/WeizhiGao/MoDiff)  
 **领域**: Image Generation  
 **关键词**: 扩散模型加速, 量化, 缓存, 误差补偿, 训练后量化
 
@@ -138,8 +138,8 @@ MoDiff 提出了调制量化(Modulated Quantization)与误差补偿相结合的�
 
 - [\[ICML 2025\] Efficient Generative Modeling with Residual Vector Quantization-Based Tokens](efficient_generative_modeling_with_residual_vector_quantization-based_tokens.md)
 - [\[ICML 2025\] Generative Audio Language Modeling with Continuous-Valued Tokens and Masked Next-Token Prediction](generative_audio_language_modeling_with_continuous-valued_tokens_and_masked_next.md)
-- [\[ICML 2025\] Compositional Scene Understanding through Inverse Generative Modeling](compositional_scene_understanding_through_inverse_generative_modeling.md)
 - [\[ICCV 2025\] Accelerating Diffusion Sampling via Exploiting Local Transition Coherence](../../ICCV2025/image_generation/accelerating_diffusion_sampling_via_exploiting_local_transition_coherence.md)
 - [\[ICCV 2025\] From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers](../../ICCV2025/image_generation/from_reusing_to_forecasting_accelerating_diffusion_models_with_taylorseers.md)
+- [\[ICML 2025\] Compositional Scene Understanding through Inverse Generative Modeling](compositional_scene_understanding_through_inverse_generative_modeling.md)
 
 <!-- RELATED:END -->

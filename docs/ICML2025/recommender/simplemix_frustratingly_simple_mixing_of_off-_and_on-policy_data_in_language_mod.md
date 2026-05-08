@@ -2,10 +2,10 @@
 title: >-
   [论文解读] SIMPLEMIX: Frustratingly Simple Mixing of Off- and On-policy Data in Language Model Preference Learning
 description: >-
-  [ICML 2025][DPO] SIMPLEMIX 发现 on-policy 数据擅长推理任务而 off-policy 数据擅长开放式任务，通过简单地混合两类数据源即可在 Alpaca Eval 2.0 上平均提升 6.03%，超越 HyPO 等复杂方法 3.05%。
+  [ICML 2025][推荐系统] SIMPLEMIX 发现 on-policy 数据擅长推理任务而 off-policy 数据擅长开放式任务，通过简单地混合两类数据源即可在 Alpaca Eval 2.0 上平均提升 6.03%，超越 HyPO 等复杂方法 3.05%。
 tags:
   - ICML 2025
-  - DPO
+  - 推荐系统
   - 偏好优化
   - on-policy
   - off-policy
@@ -189,9 +189,9 @@ $$\mathcal{L}_{\text{DPO}}(\pi_\theta; \pi_{\text{ref}}) = -\mathbb{E}_{(x, y_w,
 ## 相关论文
 
 - [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
-- [\[AAAI 2026\] MultiTab: A Scalable Foundation for Multitask Learning on Tabular Data](../../AAAI2026/recommender/multitab_a_scalable_foundation_for_multitask_learning_on_tabular_data.md)
 - [\[NeurIPS 2025\] Measuring What Matters: Construct Validity in Large Language Model Benchmarks](../../NeurIPS2025/recommender/measuring_what_matters_construct_validity_in_large_language_model_benchmarks.md)
 - [\[ICML 2025\] Adaptive Elicitation of Latent Information Using Natural Language](adaptive_elicitation_of_latent_information_using_natural_language.md)
+- [\[ICML 2025\] Recommendations with Sparse Comparison Data: Provably Fast Convergence for Nonconvex Matrix Factorization](recommendations_with_sparse_comparison_data_provably_fast_convergence_for_noncon.md)
 - [\[ICML 2025\] LCRON: Learning Cascade Ranking as One Network](learning_cascade_ranking_as_one_network.md)
 
 <!-- RELATED:END -->

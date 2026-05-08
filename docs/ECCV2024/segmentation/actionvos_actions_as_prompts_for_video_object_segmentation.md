@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.07402](https://arxiv.org/abs/2407.07402)  
-**代码**: [https://github.com/ut-vision/ActionVOS](https://github.com/ut-vision/ActionVOS) (有)  
+**代码**: [https://github.com/ut-vision/ActionVOS](https://github.com/ut-vision/ActionVOS)  
 **领域**: 视频理解 / 视频物体分割  
 **关键词**: Referring Video Object Segmentation, 动作提示, 主动物体分割, 第一人称视觉, 伪标签  
 

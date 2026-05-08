@@ -2,10 +2,10 @@
 title: >-
   [论文解读] SDD: Self-Degraded Defense against Malicious Fine-tuning
 description: >-
-  [ACL 2025][LLM安全] SDD通过训练LLM对有害指令生成高质量但无关的良性回复来实现防御：当攻击者进行恶意微调时，模型的通用能力会显著下降，从而无法有效执行恶意指令。
+  [ACL 2025][其他] SDD通过训练LLM对有害指令生成高质量但无关的良性回复来实现防御：当攻击者进行恶意微调时，模型的通用能力会显著下降，从而无法有效执行恶意指令。
 tags:
   - ACL 2025
-  - LLM安全
+  - 其他
   - 恶意微调防御
   - 安全对齐
   - 自退化防御
@@ -158,8 +158,8 @@ L = -Σ log p(y_irrelevant | x_harmful)
 
 - [\[ACL 2025\] DoMIX: An Efficient Framework for Exploiting Domain Knowledge in Fine-Tuning](domix_an_efficient_framework_for_exploiting.md)
 - [\[ACL 2025\] SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning](sorft_issue_resolving_with_subtask-oriented_reinforced_fine-tuning.md)
-- [\[ACL 2025\] Intuitive Fine-Tuning: Towards Simplifying Alignment into a Single Process](intuitive_fine_tuning.md)
 - [\[CVPR 2025\] STRAP-ViT: Segregated Tokens with Randomized Transformations for Defense against Adversarial Patches in ViTs](../../CVPR2025/others/strap-vit_segregated_tokens_with_randomized_--_transformations_for_defense_again.md)
-- [\[ACL 2025\] AIDE: Attribute-Guided Multi-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning](aide_attribute-guided_multi-hop_data_expansion_for_data_scarcity_in_task-specifi.md)
+- [\[ACL 2025\] Intuitive Fine-Tuning: Towards Simplifying Alignment into a Single Process](intuitive_fine_tuning.md)
+- [\[ACL 2025\] Towards Robust ESG Analysis Against Greenwashing Risks: A3CG](a3cg_esg_greenwashing.md)
 
 <!-- RELATED:END -->

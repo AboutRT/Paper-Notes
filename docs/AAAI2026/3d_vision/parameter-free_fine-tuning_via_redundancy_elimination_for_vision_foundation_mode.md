@@ -57,7 +57,7 @@ tags:
 1. **问题形式化**
 
    目标：找到最优替换对组合 $P^*$ 使在下游数据集 $S$ 上性能最大化：
-   $$P^* = \arg\max_P \text{mIoU}(S, P)$$
+    $P^* = \arg\max_P \text{mIoU}(S, P)$
    其中 $P = \{(i,j)_1, (i,j)_2, ..., (i,j)_k\}$，$(i,j)$ 表示用第 $j$ 通道替换第 $i$ 通道。
 
    直接枚举所有组合不可行：$C=256$ 时需 $2^{C^2}$ 次推理。
@@ -68,7 +68,7 @@ tags:
 
    **(1) 基于输出差异搜索**：
    给定搜索数据集 $\mathbf{S}$，编码器输出特征 $X \in \mathbb{R}^{D \times C \times W \times H}$。对每个替换对 $(i,j)$，计算：
-   $$\Delta\text{Acc}_{(i \to j)} = D(X') - D(X)$$
+    $\Delta\text{Acc}_{(i \to j)} = D(X') - D(X)$
    其中 $D(X)$ 和 $D(X')$ 分别是原始和替换后特征经解码器的输出。
 
    构建字典 $\mathcal{D} = \{(i,j): \Delta\text{Acc}_{(i \to j)}\}$，选取 top $N$ 对组成 $\mathcal{D}_{topN}$。
@@ -86,7 +86,7 @@ tags:
 3. **通道替换的实现**
 
    给定替换对 $(i,j)$，特征变换为：
-   $$X'_{d,c,w,h} = X_{d, f_{i \to j}(c), w,h}$$
+    $X'_{d,c,w,h} = X_{d, f_{i \to j}(c), w,h}$
    其中 $f_{i \to j}(\cdot)$ 是将第 $i$ 通道映射为第 $j$ 通道的映射函数。
 
    这不是随机洗牌（shuffle），而是有选择性地用有效通道替换冗余通道，过程完全确定。

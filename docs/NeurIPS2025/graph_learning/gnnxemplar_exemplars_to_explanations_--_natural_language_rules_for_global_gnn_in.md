@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.18376](https://arxiv.org/abs/2509.18376)  
-**代码**: [GitHub](https://github.com/idea-iitd/GnnXemplar.git) (有)  
+**代码**: [GitHub](https://github.com/idea-iitd/GnnXemplar.git)  
 **领域**: Graph Learning / GNN Interpretability  
 **关键词**: 图神经网络可解释性, 全局解释, 样例理论, 自然语言规则, 覆盖最大化
 
@@ -155,8 +155,8 @@ NA=不适用（需离散属性），NF=无法生成公式，OOM=内存溢出
 
 - [\[NeurIPS 2025\] DuetGraph: Coarse-to-Fine Knowledge Graph Reasoning with Dual-Pathway Global-Local Fusion](duetgraph_coarse-to-fine_knowledge_graph_reasoning_with_dual-pathway_global-loca.md)
 - [\[NeurIPS 2025\] GraphFaaS: Serverless GNN Inference for Burst-Resilient, Real-Time Intrusion Detection](graphfaas_serverless_gnn_inference_for_burst-resilient_real-time_intrusion_detec.md)
-- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](table_as_a_modality_for_large_language_models.md)
 - [\[ICLR 2026\] LogicXGNN: Grounded Logical Rules for Explaining Graph Neural Networks](../../ICLR2026/graph_learning/logicxgnn_grounded_logical_rules_for_explaining_graph_neural_networks.md)
 - [\[ACL 2025\] GraphNarrator: Generating Textual Explanations for Graph Neural Networks](../../ACL2025/graph_learning/graphnarrator.md)
+- [\[ICLR 2026\] Learning Concept Bottleneck Models from Mechanistic Explanations](../../ICLR2026/graph_learning/learning_concept_bottleneck_models_from_mechanistic_explanations.md)
 
 <!-- RELATED:END -->

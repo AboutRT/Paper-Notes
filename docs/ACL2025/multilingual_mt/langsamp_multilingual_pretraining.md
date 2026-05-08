@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - multilingual pretraining
-  - language embedding
+  - 多语言翻译
   - script embedding
   - crosslingual transfer
   - language neutrality
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2409.18199](https://arxiv.org/abs/2409.18199)  
 **代码**: [GitHub](https://github.com/cisnlp/LangSAMP)  
-**领域**: llm_nlp  
+**领域**: 多语言翻译  
 **关键词**: multilingual pretraining, language embedding, script embedding, crosslingual transfer, language neutrality  
 
 ## 一句话总结
@@ -117,8 +117,8 @@ tags:
 
 - [\[ACL 2025\] LexGen: Domain-aware Multilingual Lexicon Generation](lexgen_domain-aware_multilingual_lexicon_generation.md)
 - [\[ACL 2025\] Semantic Aware Linear Transfer by Recycling Pre-trained Language Models for Cross-Lingual Transfer](semantic_aware_linear_transfer_by_recycling_pre-trained_language_models_for_cros.md)
+- [\[ACL 2026\] Multilingual Language Models Encode Script Over Linguistic Structure](../../ACL2026/multilingual_mt/multilingual_language_models_encode_script_over_linguistic_structure.md)
+- [\[ACL 2025\] Disentangling Language and Culture for Evaluating Multilingual Large Language Models](disentangle_language_culture.md)
 - [\[NeurIPS 2025\] Enhancing Multilingual LLM Pretraining with Model-Based Data Selection](../../NeurIPS2025/multilingual_mt/enhancing_multilingual_llm_pretraining_with_model-based_data_selection.md)
-- [\[ACL 2025\] Multilingual Encoder Knows More Than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages](multilingual_encoder_knows_more_than_you_realize_shared_weights_pretraining_for_.md)
-- [\[ACL 2025\] CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis](culfit_a_fine-grained_cultural-aware_llm_training_paradigm_via_multilingual_crit.md)
 
 <!-- RELATED:END -->

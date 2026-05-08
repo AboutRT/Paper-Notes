@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.16302](https://arxiv.org/abs/2507.16302)  
-**代码**: https://github.com/ (代码和预训练模型已公开)  
+**代码**: [https://github.com/](https://github.com/) (代码和预训练模型已公开)  
 **领域**: 图像生成 / AI安全  
 **关键词**: 扩散模型, 安全卸载, 微调韧性, 元学习, Moreau包络
 

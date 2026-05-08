@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.12278](https://arxiv.org/abs/2506.12278)  
 **代码**: [FlowRays/TestCase-Eval](https://github.com/FlowRays/TestCase-Eval)  
-**领域**: 代码评测  
+**领域**: LLM/NLP  
 **关键词**: 测试用例生成, LLM评测, 故障覆盖, 故障暴露, 竞赛编程  
 
 ## 一句话总结
@@ -138,7 +138,7 @@ TestCase-Eval包含两个核心评测任务：(1) **Fault Coverage**: 给定题�
 - [\[ACL 2025\] Can LLMs Identify Critical Limitations within Scientific Research? A Systematic Evaluation on AI Research Papers](can_llms_identify_critical_limitations_within_scientific_research_a_systematic_e.md)
 - [\[CVPR 2025\] Exposure-slot: Exposure-centric Representations Learning with Slot-in-Slot Attention](../../CVPR2025/llm_nlp/exposure-slot_exposure-centric_representations_learning_with_slot-in-slot_attent.md)
 - [\[ACL 2025\] SCULPT: Systematic Tuning of Long Prompts](sculpt_systematic_tuning_of_long_prompts.md)
-- [\[ACL 2025\] A Systematic Study of Compositional Syntactic Transformer Language Models](a_systematic_study_of_compositional_syntactic_transformer_language_models.md)
 - [\[ACL 2025\] Systematic Generalization in Language Models Scales with Information Entropy](systematic_generalization_in_language_models_scales_with_information_entropy.md)
+- [\[ACL 2025\] A Systematic Study of Compositional Syntactic Transformer Language Models](a_systematic_study_of_compositional_syntactic_transformer_language_models.md)
 
 <!-- RELATED:END -->

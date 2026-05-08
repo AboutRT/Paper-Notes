@@ -9,7 +9,7 @@ tags:
   - Representation Shattering
   - Transformer
   - Knowledge Graphs
-  - mechanistic interpretability
+  - 知识编辑
 ---
 
 # Representation Shattering in Transformers: A Synthetic Study with Knowledge Editing
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2410.17194](https://arxiv.org/abs/2410.17194)  
 **代码**: 无  
-**领域**: graph_learning  
+**领域**: 知识编辑  
 **关键词**: knowledge editing, Representation Shattering, Transformers, Knowledge Graphs, mechanistic interpretability
 
 ## 一句话总结
@@ -142,8 +142,8 @@ $$R(D_*) = \frac{\|D_* - D_\varnothing\|_F}{\|D_\varnothing\|_F}$$
 
 - [\[ICLR 2026\] Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing](../../ICLR2026/knowledge_editing/bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed.md)
 - [\[ICML 2025\] WikiBigEdit: Understanding the Limits of Lifelong Knowledge Editing in LLMs](wikibigedit_understanding_the_limits_of_lifelong_knowledge_editing_in_llms.md)
-- [\[ACL 2025\] Efficient Knowledge Editing via Minimal Precomputation](../../ACL2025/knowledge_editing/efficient_knowledge_editing.md)
 - [\[NeurIPS 2025\] UniEdit: A Unified Knowledge Editing Benchmark for Large Language Models](../../NeurIPS2025/knowledge_editing/uniedit_a_unified_knowledge_editing_benchmark_for_large_language_models.md)
 - [\[NeurIPS 2025\] Edit Less, Achieve More: Dynamic Sparse Neuron Masking for Lifelong Knowledge Editing in LLMs](../../NeurIPS2025/knowledge_editing/edit_less_achieve_more_dynamic_sparse_neuron_masking_for_lifelong_knowledge_edit.md)
+- [\[ACL 2025\] ScEdit: Script-based Assessment of Knowledge Editing](../../ACL2025/knowledge_editing/scedit_script-based_assessment_of_knowledge_editing.md)
 
 <!-- RELATED:END -->

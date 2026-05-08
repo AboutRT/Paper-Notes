@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 图表问答
+  - 多模态VLM
   - VLM推理
   - 知识蒸馏
   - ChartQA

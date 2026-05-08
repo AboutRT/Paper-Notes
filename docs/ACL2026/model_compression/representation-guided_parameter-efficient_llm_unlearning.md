@@ -14,7 +14,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.17396](https://arxiv.org/abs/2604.17396)  
 **代码**: [https://github.com/sustech-nlp/ReGLU](https://github.com/sustech-nlp/ReGLU)  
-**领域**: LLM安全 / 机器遗忘  
+**领域**: 模型压缩  
 **关键词**: LLM遗忘, 表示空间几何, LoRA初始化, 正交正则化, 参数高效
 
 ## 一句话总结

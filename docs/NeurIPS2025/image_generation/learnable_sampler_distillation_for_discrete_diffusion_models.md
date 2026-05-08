@@ -54,27 +54,27 @@ LSD采用师生蒸馏框架：教师采样器用 $N$ 步（小步长、高保真
 1. **可学习采样系数 (Learnable Coefficients)**
 
    对标准Euler采样器的更新规则引入可学习的时间相关系数 $\Phi(t_k)$：
-   $$p(x^i_{t_{k+1}}|x^i_{t_k}) = \delta_{x^i_{t_k}}(x^i_{t_{k+1}}) + \Delta t \cdot Q_{t_k}(x^i_{t_k}, x^i_{t_{k+1}}) \cdot (\Phi(t_k) s_\theta(x_{t_k}, t_k))_{i, x^i_{t_{k+1}}}$$
+    $p(x^i_{t_{k+1}}|x^i_{t_k}) = \delta_{x^i_{t_k}}(x^i_{t_{k+1}}) + \Delta t \cdot Q_{t_k}(x^i_{t_k}, x^i_{t_{k+1}}) \cdot (\Phi(t_k) s_\theta(x_{t_k}, t_k))_{i, x^i_{t_{k+1}}}$
    
    系数 $\Phi(t_k)$ 自适应调节每步混凝土分数的影响强度，补偿大步长带来的累积误差。通过最小化学生与教师在各时间步的分数差异来优化：
-   $$\mathcal{L}_k(\Phi(t_k)) = \mathbb{E}_{x_{t_0}\sim\pi} \left[ d(s^*_k, \Phi(t_k) s_k) \right]$$
+    $\mathcal{L}_k(\Phi(t_k)) = \mathbb{E}_{x_{t_0}\sim\pi} \left[ d(s^*_k, \Phi(t_k) s_k) \right]$
    
    动机：直接最小化最终输出距离 $d(x_\epsilon, x^*_\epsilon)$ 因离散采样不可微而不可行，而中间分数轨迹对齐提供了可微的优化路径。
 
 2. **可学习非均匀时间调度 (LSD+)**
 
    在LSD基础上，额外学习非均匀步长 $\{\kappa_k\}_{k=1}^M$（初始化为 $\Delta t$），生成学习时间步 $\tau_k = T - \sum_{\ell=1}^k \kappa_\ell$。通过对齐学生和教师在逆过程中的**有效转移项**来更新步长：
-   $$\tilde{\mathcal{L}}_k(\kappa_k) = \mathbb{E}_{x_{t_0}\sim\pi} \left[ d\left(\kappa_k s_\theta(x_{\tau_k}, \tau_k), \frac{T-\epsilon}{N} s_\theta(x^*_{t_k}, t_k)\right) \right]$$
+    $\tilde{\mathcal{L}}_k(\kappa_k) = \mathbb{E}_{x_{t_0}\sim\pi} \left[ d\left(\kappa_k s_\theta(x_{\tau_k}, \tau_k), \frac{T-\epsilon}{N} s_\theta(x^*_{t_k}, t_k)\right) \right]$
    
    动机：逆向扩散动态在不同时间段变化显著，自适应分配步长能更好地捕跨这种变化，进一步减少累积误差。
 
 3. **松弛目标 (Relaxed Objective)**
 
    允许学生采样器从扰动起始点 $\tilde{x}_{t_0}$（在原始 $x_{t_0}$ 的Hamming距离 $\zeta$ 内）开始匹配教师轨迹：
-   $$d_H(x_{t_0}, \tilde{x}_{t_0}) \leq \zeta$$
+    $d_H(x_{t_0}, \tilde{x}_{t_0}) \leq \zeta$
    
    $\zeta$ 设为序列长度的约5%。松弛后的目标：
-   $$\mathcal{L}_{\text{relaxed},k}(\Phi(t_k)) = \mathbb{E}_{x_{t_0}, \tilde{x}_{t_0}} \left[ d(s_\theta(x^*_{t_k}, t_k), \Phi(t_k) s_\theta(\tilde{x}_{t_k}, t_k)) \right]$$
+    $\mathcal{L}_{\text{relaxed},k}(\Phi(t_k)) = \mathbb{E}_{x_{t_0}, \tilde{x}_{t_0}} \left[ d(s_\theta(x^*_{t_k}, t_k), \Phi(t_k) s_\theta(\tilde{x}_{t_k}, t_k)) \right]$
    
    动机：容量受限的学生采样器难以严格匹配教师输出，松弛使优化更可行。推理时仍使用原始未扰动输入。
 

@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.01943](https://arxiv.org/abs/2506.01943)  
 **代码**: [项目页面](https://fuxiao0719.github.io/projects/robomaster/)  
-**领域**: image_generation  
+**领域**: 视频生成  
 **关键词**: 视频生成, 机器人操作, 协作轨迹, 扩散模型, 交互建模
 
 ## 一句话总结

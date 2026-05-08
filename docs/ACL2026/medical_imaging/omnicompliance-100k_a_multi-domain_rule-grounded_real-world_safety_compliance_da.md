@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2603.13933](https://arxiv.org/abs/2603.13933)  
 **代码**: [GitHub](https://github.com/HKUST-KnowComp/OmniCompliance-100K)  
-**领域**: LLM 安全 / 合规评估  
+**领域**: 医学图像  
 **关键词**: 安全合规, 真实案例数据集, 多领域法规, Web搜索智能体, LLM基准测试
 
 ## 一句话总结

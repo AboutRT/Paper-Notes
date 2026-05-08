@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MMhops-R1: Multimodal Multi-hop Reasoning
 description: >-
-  [AAAI 2026][多模态多跳推理] 提出了 MMhops 基准（31K 样本、3-4 跳推理深度）和 MMhops-R1 框架，通过强化学习训练 MLLM 自主规划推理路径、动态调用图像/文本检索器，实现多模态多跳推理，7B 模型超越 72B 基线和现有 mRAG 方法。
+  [AAAI 2026][强化学习] 提出了 MMhops 基准（31K 样本、3-4 跳推理深度）和 MMhops-R1 框架，通过强化学习训练 MLLM 自主规划推理路径、动态调用图像/文本检索器，实现多模态多跳推理，7B 模型超越 72B 基线和现有 mRAG 方法。
 tags:
   - AAAI 2026
-  - 多模态多跳推理
+  - 强化学习
   - 强化学习
   - 检索增强生成
   - 知识库VQA
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.13573](https://arxiv.org/abs/2512.13573)  
 **代码**: [https://github.com/taoszhang/MMhops-R1](https://github.com/taoszhang/MMhops-R1)  
-**领域**: 多模态VLM / 知识增强推理  
+**领域**: 强化学习  
 **关键词**: 多模态多跳推理, 强化学习, 检索增强生成, 知识库VQA, 动态规划  
 
 ## 一句话总结
@@ -100,7 +100,7 @@ MMhops-R1 包含两部分：(1) MMhops 数据集的构建；(2) 基于 RL 的动
 - [\[ICLR 2026\] Learning from Synthetic Data Improves Multi-hop Reasoning](../../ICLR2026/reinforcement_learning/learning_from_synthetic_data_improves_multi-hop_reasoning.md)
 - [\[AAAI 2026\] TextShield-R1: Reinforced Reasoning for Tampered Text Detection](textshield-r1_reinforced_reasoning_for_tampered_text_detection.md)
 - [\[ICLR 2026\] UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings](../../ICLR2026/reinforcement_learning/ume-r1_exploring_reasoning-driven_generative_multimodal_embeddings.md)
-- [\[ICCV 2025\] R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization](../../ICCV2025/reinforcement_learning/r1-onevision_advancing_generalized_multimodal_reasoning_through_cross-modal_form.md)
 - [\[ICLR 2026\] RM-R1: Reward Modeling as Reasoning](../../ICLR2026/reinforcement_learning/rm-r1_reward_modeling_as_reasoning.md)
+- [\[AAAI 2026\] MARS: Multi-Agent Adaptive Reasoning with Socratic Guidance for Automated Prompt Optimization](mars_multi-agent_adaptive_reasoning_with_socratic_guidance_f.md)
 
 <!-- RELATED:END -->

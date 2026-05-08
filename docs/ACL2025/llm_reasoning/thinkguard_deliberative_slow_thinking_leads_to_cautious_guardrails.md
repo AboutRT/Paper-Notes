@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.13458](https://arxiv.org/abs/2502.13458)  
-**代码**: https://github.com/luka-group/ThinkGuard (有)  
+**代码**: [https://github.com/luka-group/ThinkGuard](https://github.com/luka-group/ThinkGuard)  
 **领域**: LLM推理/安全  
 **关键词**: 安全护栏, 慢思考, 批判增强, 知识蒸馏, LLaMA Guard
 
@@ -154,6 +154,6 @@ ThinkGuard 分三步：(1) 用 GPT-4o/DeepSeek-R1 对已标注的安全数据生
 - [\[NeurIPS 2025\] Controlling Thinking Speed in Reasoning Models](../../NeurIPS2025/llm_reasoning/controlling_thinking_speed_in_reasoning_models.md)
 - [\[ACL 2025\] Unlocking General Long Chain-of-Thought Reasoning Capabilities of Large Language Models via Representation Engineering](glore_long_cot_representation.md)
 - [\[ACL 2025\] Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning](unveiling_the_key_factors_for_distilling_chain-of-thought_reasoning.md)
-- [\[NeurIPS 2025\] Towards Thinking-Optimal Scaling of Test-Time Compute for LLM Reasoning](../../NeurIPS2025/llm_reasoning/towards_thinking-optimal_scaling_of_test-time_compute_for_llm_reasoning.md)
+- [\[ACL 2025\] Improve Vision Language Model Chain-of-thought Reasoning](improve_vlm_cot_reasoning.md)
 
 <!-- RELATED:END -->

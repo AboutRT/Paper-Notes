@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.01291](https://arxiv.org/abs/2603.01291)  
-**代码**: https://github.com/kanekomasahiro/jail_news_bench (有)  
+**代码**: [https://github.com/kanekomasahiro/jail_news_bench](https://github.com/kanekomasahiro/jail_news_bench)  
 **领域**: 对齐RLHF  
 **关键词**: 假新闻生成, 越狱攻击, 多语言安全, LLM安全评估, 区域安全不平衡
 

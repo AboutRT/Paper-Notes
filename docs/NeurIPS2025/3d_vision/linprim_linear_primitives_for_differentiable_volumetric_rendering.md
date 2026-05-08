@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2501.16312](https://arxiv.org/abs/2501.16312)  
 **代码**: [GitHub](https://nicolasvonluetzow.github.io/LinPrim/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 新视角合成, 可微渲染, 体积渲染, 多面体基元, 3D高斯溅射
 
 ## 一句话总结

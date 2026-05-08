@@ -8,7 +8,7 @@ tags:
   - grokking
   - weight decay
   - gradient flow
-  - Riemannian optimization
+  - 其他
   - implicit regularization
   - two-timescale dynamics
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2505.20172](https://arxiv.org/abs/2505.20172)  
 **代码**: 无  
-**领域**: others  
+**领域**: 其他  
 **关键词**: grokking, weight decay, gradient flow, Riemannian optimization, implicit regularization, two-timescale dynamics
 
 ## 一句话总结
@@ -138,9 +138,9 @@ $$\dot{\tilde{w}}^\circ(t)=-\mathrm{grad}_{\mathcal{M}}\ell_2(\tilde{w}^\circ(t)
 ## 相关论文
 
 - [\[NeurIPS 2025\] Impact of Layer Norm on Memorization and Generalization in Transformers](impact_of_layer_norm_on_memorization_and_generalization_in_transformers.md)
+- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](../../CVPR2025/others/4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
+- [\[NeurIPS 2025\] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds](finite-time_analysis_of_stochastic_nonconvex_nonsmooth_optimization_on_the_riema.md)
 - [\[ICML 2025\] Efficient Optimization with Orthogonality Constraint: a Randomized Riemannian Submanifold Method](../../ICML2025/others/efficient_optimization_with_orthogonality_constraint_a_randomized_riemannian_sub.md)
-- [\[ACL 2025\] Theoretical Guarantees for Minimum Bayes Risk Decoding](../../ACL2025/others/theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
 - [\[NeurIPS 2025\] Double Descent Meets Out-of-Distribution Detection: Theoretical Insights and Empirical Analysis](double_descent_meets_out-of-distribution_detection_theoretical_insights_and_empi.md)
-- [\[ACL 2025\] REP: Keys to Robust Edits — From Theoretical Insights to Practical Advances](../../ACL2025/others/rep_robust_knowledge_editing.md)
 
 <!-- RELATED:END -->

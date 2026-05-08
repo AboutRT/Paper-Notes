@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 全景视频生成
-  - 偏移移位去噪
+  - 视频生成
   - 360度全景
   - 无训练
   - 可扩展
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.11100](https://arxiv.org/abs/2412.11100)  
-**代码**: https://dynamic-scaler.pages.dev/new  
+**代码**: [https://dynamic-scaler.pages.dev/new](https://dynamic-scaler.pages.dev/new)  
 **领域**: 视频生成 / 全景生成  
 **关键词**: 全景视频生成, 偏移移位去噪, 360度全景, 无训练, 可扩展
 
@@ -107,8 +107,8 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Spatiotemporal Skip Guidance for Enhanced Video Diffusion Sampling](spatiotemporal_skip_guidance_for_enhanced_video_diffusion_sampling.md)
 - [\[CVPR 2025\] VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step](videoscene_distilling_video_diffusion_model_to_generate_3d_scenes_in_one_step.md)
+- [\[CVPR 2025\] Pathways on the Image Manifold: Image Editing via Video Generation](pathways_on_the_image_manifold_image_editing_via_video_generation.md)
 - [\[CVPR 2025\] SketchVideo: Sketch-Based Video Generation and Editing](sketchvideo_sketch-based_video_generation_and_editing.md)
 - [\[CVPR 2025\] Video-Bench: Human-Aligned Video Generation Benchmark](video-bench_human-aligned_video_generation_benchmark.md)
 - [\[CVPR 2025\] TransPixeler: Advancing Text-to-Video Generation with Transparency](transpixeler_advancing_text-to-video_generation_with_transparency.md)

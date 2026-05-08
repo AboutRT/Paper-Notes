@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2510.14376](https://arxiv.org/abs/2510.14376)  
-**代码**: https://github.com/dongnami/DOS  
+**代码**: [https://github.com/dongnami/DOS](https://github.com/dongnami/DOS)  
 **领域**: 图像生成  
 **关键词**: 多物体图像生成, 文本嵌入分离, 对象融合, CLIP嵌入, 方向性分离
 

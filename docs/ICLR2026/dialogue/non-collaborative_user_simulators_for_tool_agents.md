@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 非协作用户模拟
-  - 工具Agent鲁棒性
+  - 对话系统
   - 对话系统压力测试
   - 用户行为建模
   - 多轮对话评测
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.23124](https://arxiv.org/abs/2509.23124)  
-**代码**: https://github.com/holi-lab/NCUser  
+**代码**: [https://github.com/holi-lab/NCUser](https://github.com/holi-lab/NCUser)  
 **领域**: 对话系统 / LLM Agent评测  
 **关键词**: 非协作用户模拟, 工具Agent鲁棒性, 对话系统压力测试, 用户行为建模, 多轮对话评测
 
@@ -141,7 +141,7 @@ M = MultiWOZ, τ = τ-bench。SR为4次试验平均值。
 - [\[ACL 2025\] Know You First and Be You Better: Modeling Human-Like User Simulators via Implicit Profiles](../../ACL2025/dialogue/know_you_first_and_be_you_better_modeling_human-like_user_simulators_via_implici.md)
 - [\[ACL 2026\] Disambiguation-Centric Finetuning Makes Enterprise Tool-Calling LLMs More Realistic and Less Risky](../../ACL2026/dialogue/disambiguation-centric_finetuning_makes_enterprise_tool-calling_llms_more_realis.md)
 - [\[ICML 2025\] Investigating Non-Transitivity in LLM-as-a-Judge](../../ICML2025/dialogue/investigating_non-transitivity_in_llm-as-a-judge.md)
-- [\[ICML 2025\] Position: Uncertainty Quantification Needs Reassessment for Large-language Model Agents](../../ICML2025/dialogue/position_uncertainty_quantification_needs_reassessment_for_large-language_model_.md)
 - [\[NeurIPS 2025\] SciArena: An Open Evaluation Platform for Non-Verifiable Scientific Literature-Grounded Tasks](../../NeurIPS2025/dialogue/sciarena_an_open_evaluation_platform_for_non-verifiable_scientific_literature-gr.md)
+- [\[ICML 2025\] Position: Uncertainty Quantification Needs Reassessment for Large-language Model Agents](../../ICML2025/dialogue/position_uncertainty_quantification_needs_reassessment_for_large-language_model_.md)
 
 <!-- RELATED:END -->

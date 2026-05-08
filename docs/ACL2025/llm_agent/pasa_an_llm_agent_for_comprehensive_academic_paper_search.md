@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2501.10120](https://arxiv.org/abs/2501.10120)  
 **代码**: [bytedance/pasa](https://github.com/bytedance/pasa)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: 学术论文搜索, LLM Agent, 强化学习, 引用网络, 论文检索  
 
 ## 一句话总结

@@ -8,7 +8,7 @@ tags:
   - 定理证明器
   - 合成数据
   - 自动形式化
-  - 强化学习
+  - 其他
   - 数学推理
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.13137](https://arxiv.org/abs/2502.13137)  
 **代码**: [GitHub](https://github.com/joshuaongg21/RLTPF)  
-**领域**: LLM / 数学推理  
+**领域**: 其他  
 **关键词**: 定理证明器, 合成数据, 自动形式化, 强化学习, 数学推理
 
 ## 一句话总结
@@ -125,8 +125,8 @@ TP-as-a-Judge 包含三个关键阶段：(1) LLM 数据生成，通过 Reverse Q
 
 - [\[ACL 2025\] TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data](targa_targeted_synthetic_data_generation_for_practical_reasoning_over_structured.md)
 - [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
-- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
-- [\[ACL 2025\] KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding](kodcode_a_diverse_challenging_and_verifiable_synthetic_dataset_for_coding.md)
 - [\[ACL 2025\] Literature Meets Data: A Synergistic Approach to Hypothesis Generation](literature_meets_data_hypothesis.md)
+- [\[ACL 2025\] A Little Human Data Goes A Long Way](a_little_human_data_goes_a_long_way.md)
+- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
 
 <!-- RELATED:END -->

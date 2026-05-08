@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2503.18234](https://arxiv.org/abs/2503.18234)  
 **代码**: 待确认  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 探索策略协调, 稀疏奖励, Soft Actor-Critic, 新颖性探索, RND, NovelD
 
 ## 一句话总结

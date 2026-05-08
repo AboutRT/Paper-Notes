@@ -9,7 +9,7 @@ tags:
   - Query Decomposition
   - RAG
   - 提示学习
-  - LLM-based Optimizer
+  - 信息检索
 ---
 
 # POQD: Performance-Oriented Query Decomposer for Multi-Vector Retrieval
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.19189](https://arxiv.org/abs/2505.19189)  
 **代码**: [PKU-SDS-lab/POQD-ICML25](https://github.com/PKU-SDS-lab/POQD-ICML25)  
-**领域**: LLM/NLP  
+**领域**: 信息检索  
 **关键词**: Multi-Vector Retrieval, Query Decomposition, RAG, Prompt Optimization, LLM-based Optimizer
 
 ## 一句话总结
@@ -188,8 +188,8 @@ $$\mathcal{L}(\Theta^*(p^{\text{old}}); p^{\text{old}}) - \mathcal{L}(\Theta^*(p
 
 - [\[ACL 2026\] Hybrid-Vector Retrieval for Visually Rich Documents: Combining Single-Vector Efficiency and Multi-Vector Accuracy](../../ACL2026/information_retrieval/hybrid-vector_retrieval_for_visually_rich_documents_combining_single-vector_effi.md)
 - [\[NeurIPS 2025\] Reliable Decision Making via Calibration Oriented Retrieval Augmented Generation](../../NeurIPS2025/information_retrieval/reliable_decision_making_via_calibration_oriented_retrieval_augmented_generation.md)
+- [\[AAAI 2026\] OPERA: A Reinforcement Learning--Enhanced Orchestrated Planner-Executor Architecture for Reasoning-Oriented Multi-Hop Retrieval](../../AAAI2026/information_retrieval/opera_a_reinforcement_learning--enhanced_orchestrated_planner-executor_architect.md)
 - [\[ACL 2026\] Prune-then-Merge: Towards Efficient Multi-Vector Visual Document Retrieval](../../ACL2026/information_retrieval/sculpting_the_vector_space_towards_efficient_multi-vector_visual_document_retrie.md)
 - [\[ACL 2025\] Investigating the Robustness of Retrieval-Augmented Generation at the Query Level](../../ACL2025/information_retrieval/investigating_the_robustness_of_retrieval-augmented_generation_at_the_query_leve.md)
-- [\[ACL 2025\] Mitigating Lost-in-Retrieval Problems in RAG Multi-Hop QA](../../ACL2025/information_retrieval/mitigating_lost-in-retrieval_problems_in_retrieval_augmented_multi-hop_question_.md)
 
 <!-- RELATED:END -->

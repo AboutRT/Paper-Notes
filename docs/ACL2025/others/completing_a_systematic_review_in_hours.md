@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - systematic review
-  - multi-agent
+  - 其他
   - interactive AI
   - human-in-the-loop
   - evidence synthesis
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2504.14822](https://arxiv.org/abs/2504.14822)  
-**代码**: https://github.com/OSU-NLP-Group/InsightAgent  
-**领域**: Agent  
+**代码**: [https://github.com/OSU-NLP-Group/InsightAgent](https://github.com/OSU-NLP-Group/InsightAgent)  
+**领域**: 其他  
 **关键词**: systematic review, multi-agent, interactive AI, human-in-the-loop, evidence synthesis
 
 ## 一句话总结
@@ -128,6 +128,6 @@ tags:
 - [\[NeurIPS 2025\] Evaluating In Silico Creativity: An Expert Review of AI Chess Compositions](../../NeurIPS2025/others/evaluating_in_silico_creativity_an_expert_review_of_ai_chess_compositions.md)
 - [\[ACL 2025\] STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond](stricta_structured_reasoning_in_critical_text_assessment_for_peer_review_and_bey.md)
 - [\[ACL 2025\] What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation](what_matters_in_evaluating_book-length_stories_a_systematic_study_of_long_story_.md)
-- [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
+- [\[ACL 2025\] ACT: Knowledgeable Agents to Design and Perform Complex Tasks](act_knowledgeable_agents_to_design_and_perform_complex_tasks.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 3D场景生成
   - 4D场景生成
   - 几何引导
-  - 推理时引导
+  - 视频生成
   - 视频生成
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.12024](https://arxiv.org/abs/2503.12024)  
 **代码**: [https://github.com/byeongjun-park/SteerX](https://github.com/byeongjun-park/SteerX)  
-**领域**: 3D视觉 / 视频理解  
+**领域**: 视频生成  
 **关键词**: 3D场景生成, 4D场景生成, 几何引导, 推理时引导, 视频生成
 
 ## 一句话总结
@@ -129,10 +129,10 @@ SteerX 在 3D 和 4D 场景生成上均取得了显著提升，支持多种视�
 
 ## 相关论文
 
+- [\[ICCV 2025\] Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction](geo4d_leveraging_video_generators_for_geometric_4d_scene_reconstruction.md)
 - [\[ICCV 2025\] Free-Form Motion Control: Controlling the 6D Poses of Camera and Objects in Video Generation](free-form_motion_control_controlling_the_6d_poses_of_camera_and_objects_in_video.md)
 - [\[CVPR 2025\] VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step](../../CVPR2025/video_generation/videoscene_distilling_video_diffusion_model_to_generate_3d_scenes_in_one_step.md)
 - [\[ICCV 2025\] ReCamMaster: Camera-Controlled Generative Rendering from A Single Video](recammaster_camera-controlled_generative_rendering_from_a_single_video.md)
-- [\[ICCV 2025\] DACoN: DINO for Anime Paint Bucket Colorization with Any Number of Reference Images](dacon_dino_for_anime_paint_bucket_colorization_with_any_number_of_reference_imag.md)
 - [\[CVPR 2025\] GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](../../CVPR2025/video_generation/gen3c_3d-informed_world-consistent_video_generation_with_precise_camera_control.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.02216](https://arxiv.org/abs/2502.02216)  
 **代码**: [AutoGraph](https://github.com/BorgwardtLab/AutoGraph)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: graph generation, autoregressive model, Eulerian trail, language model, scalability
 
 ## 一句话总结

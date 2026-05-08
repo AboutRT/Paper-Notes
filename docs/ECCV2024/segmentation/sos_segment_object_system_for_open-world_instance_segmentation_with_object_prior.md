@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.14627](https://arxiv.org/abs/2409.14627)  
-**代码**: [https://github.com/chwilms/SOS](https://github.com/chwilms/SOS) (有)  
+**代码**: [https://github.com/chwilms/SOS](https://github.com/chwilms/SOS)  
 **领域**: 分割  
 **关键词**: open-world instance segmentation, pseudo annotation, SAM prompting, object prior, DINO self-attention
 
@@ -199,10 +199,10 @@ SOS 的伪标注精度是 GGN 的 **2.6 倍**，验证了 DINO 聚焦物体的�
 
 ## 相关论文
 
+- [\[ECCV 2024\] Unleashing the Power of Prompt-driven Nucleus Instance Segmentation](unleashing_the_power_of_prompt-driven_nucleus_instance_segmentation.md)
 - [\[ECCV 2024\] Learning Camouflaged Object Detection from Noisy Pseudo Label](learning_camouflaged_object_detection_from_noisy_pseudo_label.md)
 - [\[ECCV 2024\] ActionVOS: Actions as Prompts for Video Object Segmentation](actionvos_actions_as_prompts_for_video_object_segmentation.md)
-- [\[ECCV 2024\] VISA: Reasoning Video Object Segmentation via Large Language Models](visa_reasoning_video_object_segmentation_via_large_language_models.md)
 - [\[ECCV 2024\] Unsupervised Moving Object Segmentation with Atmospheric Turbulence](unsupervised_moving_object_segmentation_with_atmospheric_turbulence.md)
-- [\[CVPR 2025\] V-CLR: View-Consistent Learning for Open-World Instance Segmentation](../../CVPR2025/segmentation/v-clr_view-consistent_learning_for_open-world_instance_segmentation.md)
+- [\[ECCV 2024\] VISA: Reasoning Video Object Segmentation via Large Language Models](visa_reasoning_video_object_segmentation_via_large_language_models.md)
 
 <!-- RELATED:END -->

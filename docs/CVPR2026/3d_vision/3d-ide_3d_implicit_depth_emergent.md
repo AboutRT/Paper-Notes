@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.03296](https://arxiv.org/abs/2604.03296)  
-**代码**: [GitHub](https://github.com/ChushanZhang/3D-IDE) (有)  
+**代码**: [GitHub](https://github.com/ChushanZhang/3D-IDE)  
 **领域**: 3D视觉 / 多模态VLM  
 **关键词**: 3D场景理解, 多模态大语言模型, 隐式几何涌现, 深度估计, 推理时零开销
 

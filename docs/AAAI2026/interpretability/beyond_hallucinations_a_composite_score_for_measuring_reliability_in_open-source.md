@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models
 description: >-
-  [AAAI 2026][LLM reliability] 提出 Composite Reliability Score (CRS)，将校准度、鲁棒性和不确定性量化三个维度统一为单一可解释指标，对 10 个开源 LLM 在 5 个 QA 数据集上进行系统评估，发现 Mistral-8x22B 综合可靠性最高（CRS=0.81），而模型大小并不直接决定可靠性。
+  [AAAI 2026][可解释性] 提出 Composite Reliability Score (CRS)，将校准度、鲁棒性和不确定性量化三个维度统一为单一可解释指标，对 10 个开源 LLM 在 5 个 QA 数据集上进行系统评估，发现 Mistral-8x22B 综合可靠性最高（CRS=0.81），而模型大小并不直接决定可靠性。
 tags:
   - AAAI 2026
-  - LLM reliability
+  - 可解释性
   - 校准
   - 鲁棒性
   - 不确定性量化
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2512.24058](https://arxiv.org/abs/2512.24058)  
-**代码**: https://github.com/rohitsalla/CRS.git  
-**领域**: LLM NLP / 可靠性评估  
+**代码**: [https://github.com/rohitsalla/CRS.git](https://github.com/rohitsalla/CRS.git)  
+**领域**: 可解释性  
 **关键词**: LLM reliability, 校准, 鲁棒性, 不确定性量化, composite metric
 
 ## 一句话总结
@@ -129,6 +129,6 @@ CRS 由三个 pillar 组成，每个归一化到 [0,1]，等权加权（$\alpha=
 - [\[NeurIPS 2025\] Evaluating LLMs in Open-Source Games](../../NeurIPS2025/interpretability/evaluating_llms_in_open-source_games.md)
 - [\[AAAI 2026\] HSKBenchmark: Modeling and Benchmarking Chinese Second Language Acquisition in Large Language Models through Curriculum Tuning](hskbenchmark_modeling_and_benchmarking_chinese_second_language_acquisition_in_la.md)
 - [\[ICLR 2026\] Beyond Linear Probes: Dynamic Safety Monitoring for Language Models](../../ICLR2026/interpretability/beyond_linear_probes_dynamic_safety_monitoring_for_language_models.md)
-- [\[ACL 2026\] Tracing Relational Knowledge Recall in Large Language Models](../../ACL2026/interpretability/tracing_relational_knowledge_recall_in_large_language_models.md)
+- [\[AAAI 2026\] ToC: Tree-of-Claims Search with Multi-Agent Language Models](toc_tree-of-claims_search_with_multi-agent_language_models.md)
 
 <!-- RELATED:END -->

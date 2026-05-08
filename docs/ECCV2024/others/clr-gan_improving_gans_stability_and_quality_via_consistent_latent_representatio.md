@@ -7,7 +7,7 @@ tags:
   - ECCV 2024
   - GAN
   - 隐空间一致性
-  - 生成对抗网络
+  - 其他
   - 图像生成质量
   - 判别器重建
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/Petecheco/CLR-GAN  
-**领域**: 图像生成  
+**代码**: [https://github.com/Petecheco/CLR-GAN](https://github.com/Petecheco/CLR-GAN)  
+**领域**: 其他  
 **关键词**: GAN训练稳定性, 隐空间一致性, 生成对抗网络, 图像生成质量, 判别器重建
 
 ## 一句话总结
@@ -140,8 +140,8 @@ CLR-GAN在标准GAN训练的基础上增加了两个额外任务：（1）隐码
 
 - [\[ECCV 2024\] Exploring Guided Sampling of Conditional GANs](exploring_guided_sampling_of_conditional_gans.md)
 - [\[ICCV 2025\] Φ-GAN: Physics-Inspired GAN for Generating SAR Images Under Limited Data](../../ICCV2025/others/ph-gan_physics-inspired_gan_for_generating_sar_images_under_limited_data.md)
-- [\[ECCV 2024\] Intrinsic Single-Image HDR Reconstruction](intrinsic_single-image_hdr_reconstruction.md)
-- [\[ECCV 2024\] Superpixel-Informed Implicit Neural Representation for Multi-Dimensional Data](superpixel-informed_implicit_neural_representation_for_multi-dimensional_data.md)
 - [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
+- [\[ICLR 2026\] Condition Matters in Full-head 3D GANs](../../ICLR2026/others/condition_matters_in_full-head_3d_gans.md)
+- [\[ECCV 2024\] PISR: Polarimetric Neural Implicit Surface Reconstruction for Textureless and Specular Objects](pisr_polarimetric_neural_implicit_surface_reconstruction_for_textureless_and_spe.md)
 
 <!-- RELATED:END -->

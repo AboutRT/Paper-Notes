@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.12355](https://arxiv.org/abs/2411.12355)  
-**代码**: https://github.com/Simon98-AI/DynFocus (有)  
+**代码**: [https://github.com/Simon98-AI/DynFocus](https://github.com/Simon98-AI/DynFocus)  
 **领域**: 视频理解  
 **关键词**: 视频理解, 动态编码, 内存高效, 大语言模型, token压缩
 

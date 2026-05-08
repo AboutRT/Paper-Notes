@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01316](https://arxiv.org/abs/2412.01316)  
-**代码**: https://presto-video.github.io (项目页面)  
+**代码**: [https://presto-video.github.io](https://presto-video.github.io) (项目页面)  
 **领域**: 扩散模型 / 视频生成  
 **关键词**: 长视频生成, 分段交叉注意力, 视频数据策展, 渐进式子描述, DiT
 

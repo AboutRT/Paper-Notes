@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.17069](https://arxiv.org/abs/2503.17069)  
-**代码**: https://github.com/PVChat  
-**领域**: medical_imaging  
+**代码**: [https://github.com/PVChat](https://github.com/PVChat)  
+**领域**: 医学图像  
 **关键词**: personalized video LLM, one-shot learning, mixture-of-heads, video question answering, identity-aware
 
 ## 一句话总结
@@ -147,10 +147,10 @@ PVChat 基于 Mistral-7B-Instruct-v0.3，包含视觉编码器、ReMoH 增强的
 
 ## 相关论文
 
-- [\[CVPR 2025\] Few-Shot Personalized Scanpath Prediction](../../CVPR2025/medical_imaging/few-shot_personalized_scanpath_prediction.md)
+- [\[ICCV 2025\] AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images](aczerots_active_learning_for_zeroshot_tissue_segmentation_in.md)
+- [\[NeurIPS 2025\] A Unified Solution to Video Fusion: From Multi-Frame Learning to Benchmarking](../../NeurIPS2025/medical_imaging/a_unified_solution_to_video_fusion_from_multi-frame_learning_to_benchmarking.md)
 - [\[ICCV 2025\] SciVid: Cross-Domain Evaluation of Video Models in Scientific Applications](scivid_cross-domain_evaluation_of_video_models_in_scientific_applications.md)
 - [\[ICCV 2025\] UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation](ukbob_one_billion_mri_labeled_masks_for_generalizable_3d_medical_image_segmentat.md)
 - [\[ICCV 2025\] ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users](progait_a_multi-purpose_video_dataset_and_benchmark_for_transfemoral_prosthesis_.md)
-- [\[ICCV 2025\] GDKVM: Echocardiography Video Segmentation via Spatiotemporal Key-Value Memory with Gated Delta Rule](gdkvm_echocardiography_video_segmentation_via_spatiotemporal_key-value_memory_wi.md)
 
 <!-- RELATED:END -->

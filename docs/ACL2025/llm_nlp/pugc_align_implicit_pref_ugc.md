@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.04463](https://arxiv.org/abs/2506.04463)  
 **代码**: [https://zhaoxuan.info/PUGC.github.io/](https://zhaoxuan.info/PUGC.github.io/)  
-**领域**: 文本生成  
+**领域**: LLM/NLP  
 **关键词**: LLM对齐, 隐式偏好, 用户生成内容, DPO, 可扩展对齐  
 
 ## 一句话总结

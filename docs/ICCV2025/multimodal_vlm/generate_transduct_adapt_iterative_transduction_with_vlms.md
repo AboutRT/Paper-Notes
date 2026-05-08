@@ -9,7 +9,7 @@ tags:
   - Transductive Learning
   - Zero-shot Classification
   - CLIP
-  - Attribute Generation
+  - 多模态VLM
   - VLM
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2501.06031](https://arxiv.org/abs/2501.06031)  
 **代码**: [https://github.com/cvl-umass/GTA-CLIP](https://github.com/cvl-umass/GTA-CLIP)  
-**领域**: 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: Transductive Learning, Zero-shot Classification, CLIP, Attribute Generation, VLM
 
 ## 一句话总结
@@ -142,9 +142,9 @@ $$\mathcal{L} = -\frac{1}{N}\sum_i \mathbf{z}_i^\top \log(\mathbf{p}_i) - \sum_{
 ## 相关论文
 
 - [\[ICCV 2025\] CLIPSym: Delving into Symmetry Detection with CLIP](clipsym_delving_into_symmetry_detection_with_clip.md)
-- [\[ICCV 2025\] DASH: Detection and Assessment of Systematic Hallucinations of VLMs](dash_detection_and_assessment_of_systematic_hallucinations_of_vlms.md)
 - [\[NeurIPS 2025\] Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling](../../NeurIPS2025/multimodal_vlm/generate_but_verify_reducing_hallucination_in_visionlanguage.md)
 - [\[ICLR 2026\] Breaking the Limits of Open-Weight CLIP: An Optimization Framework for Self-supervised Fine-tuning of CLIP](../../ICLR2026/multimodal_vlm/breaking_the_limits_of_open-weight_clip_an_optimization_framework_for_self-super.md)
-- [\[ICCV 2025\] BabyVLM: Data-Efficient Pretraining of VLMs Inspired by Infant Learning](babyvlm_data-efficient_pretraining_of_vlms_inspired_by_infant_learning.md)
+- [\[ICCV 2025\] DASH: Detection and Assessment of Systematic Hallucinations of VLMs](dash_detection_and_assessment_of_systematic_hallucinations_of_vlms.md)
+- [\[ICML 2025\] LADA: Scalable Label-Specific CLIP Adapter for Continual Learning](../../ICML2025/multimodal_vlm/lada_scalable_label-specific_clip_adapter_for_continual_learning.md)
 
 <!-- RELATED:END -->

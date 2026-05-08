@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 无  
 **代码**: [GitHub](https://github.com/zhuqiangLu/B-VLLM)  
-**领域**: 视频理解 / 多模态大语言模型  
+**领域**: 模型压缩  
 **关键词**: video LLM, spatio-temporal balance, frame selection, token merging, adaptive token sampling
 
 ## 一句话总结

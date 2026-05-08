@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.23645](https://arxiv.org/abs/2602.23645)  
-**代码**: [项目页](https://ai4city-hkust.github.io/BuildAnyPoint/) (有)  
+**代码**: [项目页](https://ai4city-hkust.github.io/BuildAnyPoint/)  
 **领域**: Autonomous Driving / 3D Vision / 城市重建  
 **关键词**: 建筑抽象重建, 点云补全, 潜在扩散, 自回归Mesh生成, 级联生成框架  
 

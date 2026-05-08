@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12816](https://arxiv.org/abs/2603.12816)  
 **代码**: 待确认  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 持续学习, domain-incremental learning, prompt-based learning, 灾难性遗忘, 知识蒸馏, sparse selection
 
 ## 一句话总结

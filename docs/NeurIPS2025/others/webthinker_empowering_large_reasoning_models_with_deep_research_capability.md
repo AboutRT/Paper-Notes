@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 深度研究
-  - Web导航
+  - 其他
   - 交互搜索
   - DPO训练
   - 多步推理
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.21776](https://arxiv.org/abs/2504.21776)  
 **代码**: [GitHub](https://github.com/RUC-NLPIR/WebThinker)  
-**领域**: LLM推理, 信息检索, 报告生成  
+**领域**: 其他  
 **关键词**: 深度研究, Web导航, 交互搜索, DPO训练, 多步推理
 
 ## 一句话总结
@@ -115,9 +115,9 @@ $$\mathcal{L}_{DPO} = -\mathbb{E}[\log\sigma(\beta\log\frac{\pi_\theta(\mathcal{
 ## 相关论文
 
 - [\[NeurIPS 2025\] 笔记5：ReSearch - 学习通过搜索推理](research_learning_to_reason_with_search_for_llms_via_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Are Pixel-Wise Metrics Reliable for Sparse-View Computed Tomography Reconstruction?](are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md)
-- [\[NeurIPS 2025\] ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining](adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md)
-- [\[NeurIPS 2025\] Alias-Free ViT: Fractional Shift Invariance via Linear Attention](alias-free_vit_fractional_shift_invariance_via_linear_attention.md)
-- [\[NeurIPS 2025\] Efficient Kernelized Learning in Polyhedral Games Beyond Full-Information: From Colonel Blotto to Congestion Games](efficient_kernelized_learning_in_polyhedral_games_beyond_full-information_from_c.md)
+- [\[NeurIPS 2025\] Position: There Is No Free Bayesian Uncertainty Quantification](position_there_is_no_free_bayesian_uncertainty_quantification.md)
+- [\[NeurIPS 2025\] 笔记7：价值引导搜索 - 高效链式思考推理](polymath_evaluating_mathematical_reasoning_in_multilingual_contexts.md)
+- [\[NeurIPS 2025\] Sign-In to the Lottery: Reparameterized Sparse Training from Scratch](sign-in_to_the_lottery_reparameterizing_sparse_training_from_scratch.md)
+- [\[NeurIPS 2025\] Training the Untrainable: Introducing Inductive Bias via Representational Alignment](training_the_untrainable_introducing_inductive_bias_via_representational_alignme.md)
 
 <!-- RELATED:END -->

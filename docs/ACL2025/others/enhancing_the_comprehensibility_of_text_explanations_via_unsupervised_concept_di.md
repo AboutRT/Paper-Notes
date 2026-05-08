@@ -7,7 +7,7 @@ tags:
   - ACL 2025 (Findings)
   - 概念瓶颈模型
   - 注意力机制
-  - LLM 作为人类代理
+  - 其他
   - 自监督概念发现
   - 可理解性
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2505.20293](https://arxiv.org/abs/2505.20293)  
 **代码**: [项目页面](https://vicki-sun.github.io/projects/ECO-Concept)  
-**领域**: NLP / 可解释性 / 概念发现  
+**领域**: 其他  
 **关键词**: 概念瓶颈模型, Slot Attention, LLM 作为人类代理, 自监督概念发现, 可理解性
 
 ## 一句话总结
@@ -153,7 +153,7 @@ ECO-Concept 由三个模块组成：
 - [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
 - [\[ACL 2025\] Self-Foveate: Enhancing Diversity and Difficulty of Synthesized Instructions from Unsupervised Text via Multi-Level Foveation](self-foveate_enhancing_diversity_and_difficulty_of_synthesized_instructions_from.md)
 - [\[CVPR 2026\] U-F²-CBM: CLIP-Free, Label Free, Unsupervised Concept Bottleneck Models](../../CVPR2026/others/clipfree_label_free_unsupervised_concept_bottlenec.md)
-- [\[ACL 2025\] Partial Colexifications Improve Concept Embeddings](partial_colexifications_improve_concept_embeddings.md)
+- [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
 - [\[ACL 2025\] Synthia: Novel Concept Design with Affordance Composition](synthia_novel_concept_design_with_affordance_composition.md)
 
 <!-- RELATED:END -->

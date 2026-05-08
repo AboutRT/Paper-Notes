@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2407.13772](https://arxiv.org/abs/2407.13772)  
 **代码**: [GitHub](https://github.com/Amshaker/GroupMamba)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: state space model, Mamba, group convolution, channel modulation, knowledge distillation, ImageNet
 
 ## 一句话总结

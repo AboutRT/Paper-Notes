@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 性能约束合成
-  - 代码效率评估
+  - AIGC检测
   - Fuzzing
   - LLM代码优化
   - PerfForge
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.23471](https://arxiv.org/abs/2505.23471)  
 **代码**: [https://github.com/UChiSeclab/perfforge](https://github.com/UChiSeclab/perfforge)  
-**领域**: 代码优化 / LLM评测  
+**领域**: AIGC检测  
 **关键词**: 性能约束合成, 代码效率评估, Fuzzing, LLM代码优化, PerfForge  
 
 ## 一句话总结

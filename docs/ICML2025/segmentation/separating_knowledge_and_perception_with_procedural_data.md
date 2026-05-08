@@ -20,7 +20,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2508.11697](https://arxiv.org/abs/2508.11697)  
 **代码**: 待确认  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: procedural data, visual memory, KNN classification, 语义分割, data privacy, 差分隐私, 自监督学习  
 **作者**: Adrián Rodríguez-Muñoz, Manel Baradad, Phillip Isola, Antonio Torralba (MIT)
 

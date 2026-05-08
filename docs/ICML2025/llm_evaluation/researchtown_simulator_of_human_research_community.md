@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ResearchTown: Simulator of Human Research Community
 description: >-
-  [ICML 2025][多智能体模拟] 提出 ResearchTown，一个基于 agent-data 图和 TextGNN（文本空间消息传递）的多智能体框架，将人类科研社区建模为异构图，统一模拟论文阅读、论文写作和审稿三大核心研究活动，并通过节点掩码预测任务 (ResearchBench) 进行可扩展、客观的仿真质量评估。
+  [ICML 2025][LLM评测] 提出 ResearchTown，一个基于 agent-data 图和 TextGNN（文本空间消息传递）的多智能体框架，将人类科研社区建模为异构图，统一模拟论文阅读、论文写作和审稿三大核心研究活动，并通过节点掩码预测任务 (ResearchBench) 进行可扩展、客观的仿真质量评估。
 tags:
   - ICML 2025
-  - 多智能体模拟
+  - LLM评测
   - 图神经网络
   - 科研社区仿真
   - 文本消息传递
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2412.17767](https://arxiv.org/abs/2412.17767)  
 **代码**: [ulab-uiuc/research-town](https://github.com/ulab-uiuc/research-town)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 多智能体模拟, 图神经网络, 科研社区仿真, 文本消息传递, 自动化科研
 
 ## 一句话总结
@@ -197,10 +197,10 @@ $$\mathbf{r}_v = f_g\Big([\mathbf{h}_v, \{f_a([\mathbf{h}_a, \mathbf{h}_v, \math
 
 ## 相关论文
 
+- [\[ICML 2025\] AAAR-1.0: Assessing AI's Potential to Assist Research](aaar-10_assessing_ais_potential_to_assist_research.md)
 - [\[ICCV 2025\] HiERO: Understanding the Hierarchy of Human Behavior Enhances Reasoning on Egocentric Videos](../../ICCV2025/llm_evaluation/hiero_understanding_the_hierarchy_of_human_behavior_enhances_reasoning_on_egocen.md)
-- [\[ACL 2025\] AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research](../../ACL2025/llm_evaluation/abgen_evaluating_large_language_models_in.md)
 - [\[ICLR 2026\] AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite](../../ICLR2026/llm_evaluation/astabench_benchmarking_ai_agents.md)
-- [\[ACL 2025\] ChatBench: From Static Benchmarks to Human-AI Evaluation](../../ACL2025/llm_evaluation/chatbench_from_static_benchmarks_to_human-ai_evaluation.md)
 - [\[ACL 2025\] Navigating Rifts in Human-LLM Grounding: Study and Benchmark](../../ACL2025/llm_evaluation/navigating_rifts_in_human-llm_grounding_study_and_benchmark.md)
+- [\[ACL 2025\] PATCH: Psychometrics-Assisted Benchmarking of LLMs Against Human Populations](../../ACL2025/llm_evaluation/patch_psychometrics-assisted_benchmarking_of_large_language_models_against_human.md)
 
 <!-- RELATED:END -->

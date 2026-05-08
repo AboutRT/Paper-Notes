@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.02807](https://arxiv.org/abs/2509.02807)  
-**代码**: https://github.com/MSiam/PixFoundation-2.0  
+**代码**: [https://github.com/MSiam/PixFoundation-2.0](https://github.com/MSiam/PixFoundation-2.0)  
 **领域**: 视频理解 / 视觉接地  
 **关键词**: 运动中心评估, 视觉接地, 视频 MLLM, 指称分割, 运动理解
 

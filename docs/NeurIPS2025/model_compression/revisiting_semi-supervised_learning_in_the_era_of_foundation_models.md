@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.09707](https://arxiv.org/abs/2503.09707)  
 **代码**: [https://github.com/OSU-MLB/SSL-Foundation-Models](https://github.com/OSU-MLB/SSL-Foundation-Models)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 半监督学习, 视觉基础模型, 参数高效微调, 伪标签集成, 自训练
 
 ## 一句话总结

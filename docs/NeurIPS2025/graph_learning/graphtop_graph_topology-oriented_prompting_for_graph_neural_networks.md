@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22451](https://arxiv.org/abs/2510.22451)  
-**代码**: https://github.com/xbfu/GraphTOP (有)  
+**代码**: [https://github.com/xbfu/GraphTOP](https://github.com/xbfu/GraphTOP)  
 **领域**: 图学习 / Graph Prompting  
 **关键词**: Graph Prompting, Topology, Edge Rewiring, Pre-training, Gumbel-Softmax
 

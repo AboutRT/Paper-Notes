@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.19516](https://arxiv.org/abs/2604.19516)  
 **代码**: [https://github.com/Wu-beining/MAGEO](https://github.com/Wu-beining/MAGEO)  
-**领域**: 生成引擎优化 / 多智能体  
+**领域**: 模型压缩  
 **关键词**: 生成引擎优化, 多智能体框架, 策略复用, 引文忠实度, 可见性优化
 
 ## 一句话总结
@@ -130,9 +130,9 @@ MAGEO 是基于 LLM 的多智能体推理框架，不涉及神经网络训练。
 ## 相关论文
 
 - [\[AAAI 2026\] SafeSieve: From Heuristics to Experience in Progressive Pruning for LLM-based Multi-Agent Communication](../../AAAI2026/model_compression/safesieve_from_heuristics_to_experience_in_progressive_pruning_for_llm-based_mul.md)
-- [\[ICLR 2026\] ExGRPO: Learning to Reason from Experience](../../ICLR2026/model_compression/exgrpo_learning_to_reason_from_experience.md)
-- [\[ACL 2026\] Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](memory-augmented_llm-based_multi-agent_system_for_automated_feature_generation_o.md)
 - [\[AAAI 2026\] Parametric Pareto Set Learning for Expensive Multi-Objective Optimization](../../AAAI2026/model_compression/parametric_pareto_set_learning_for_expensive_multi-objective_optimization.md)
 - [\[ACL 2026\] MAESTRO: Meta-learning Adaptive Estimation of Scalarization Trade-offs for Reward Optimization](maestro_meta-learning_adaptive_estimation_of_scalarization_trade-offs_for_reward.md)
+- [\[ACL 2026\] Mem^p: Exploring Agent Procedural Memory](memp_exploring_agent_procedural_memory.md)
+- [\[ICLR 2026\] IDER: IDempotent Experience Replay for Reliable Continual Learning](../../ICLR2026/model_compression/ider_idempotent_experience_replay_for_reliable_continual_learning.md)
 
 <!-- RELATED:END -->

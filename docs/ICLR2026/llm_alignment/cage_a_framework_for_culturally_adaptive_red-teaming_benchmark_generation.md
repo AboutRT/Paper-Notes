@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.20170](https://arxiv.org/abs/2602.20170)  
 **代码**: [https://github.com/selectstar-ai/CAGE-paper](https://github.com/selectstar-ai/CAGE-paper)  
-**领域**: AI安全 / Red-Teaming  
+**领域**: LLM对齐  
 **关键词**: red teaming, cultural adaptation, semantic mold, multilingual safety, benchmark generation
 
 ## 一句话总结

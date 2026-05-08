@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.04412](https://arxiv.org/abs/2503.04412)  
 **代码**: [GitHub](https://github.com/SakanaAI/treequest)  
-**领域**: LLM推理 / 推理时计算扩展  
+**领域**: LLM/NLP  
 **关键词**: MCTS, 推理时计算, 自适应分支, Thompson采样, 代码生成
 
 ## 一句话总结

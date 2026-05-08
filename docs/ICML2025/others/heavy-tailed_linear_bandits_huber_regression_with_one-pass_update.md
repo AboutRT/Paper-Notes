@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Heavy-Tailed Linear Bandits: Huber Regression with One-Pass Update
 description: >-
-  [ICML2025][heavy-tailed bandits] 提出基于 Online Mirror Descent 的单遍 Huber 回归算法 Hvt-UCB，用于重尾噪声线性 bandit，将每轮计算复杂度从 $\mathcal{O}(t\log T)$ 降至 $\mathcal{O}(1)$，同时保持最优且依赖实例的 regret 界。
+  [ICML2025][其他] 提出基于 Online Mirror Descent 的单遍 Huber 回归算法 Hvt-UCB，用于重尾噪声线性 bandit，将每轮计算复杂度从 $\mathcal{O}(t\log T)$ 降至 $\mathcal{O}(1)$，同时保持最优且依赖实例的 regret 界。
 tags:
   - ICML2025
-  - heavy-tailed bandits
+  - 其他
   - Huber regression
   - online mirror descent
   - linear bandits
@@ -148,10 +148,10 @@ $$\text{Reg}_T \leq \widetilde{\mathcal{O}}\!\left(d\, T^{\frac{1-\varepsilon}{2
 
 ## 相关论文
 
-- [\[ACL 2025\] One for All: Update Parameterized Knowledge Across Multiple Models with Once Edit](../../ACL2025/others/one_for_all_update_parameterized_knowledge_across_multiple_models_with_once_edit.md)
-- [\[NeurIPS 2025\] Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression](../../NeurIPS2025/others/transfer_learning_for_benign_overfitting_in_high-dimensional_linear_regression.md)
-- [\[NeurIPS 2025\] Information-Computation Tradeoffs for Noiseless Linear Regression with Oblivious Contamination](../../NeurIPS2025/others/information-computation_tradeoffs_for_noiseless_linear_regression_with_oblivious.md)
+- [\[NeurIPS 2025\] Infrequent Exploration in Linear Bandits](../../NeurIPS2025/others/infrequent_exploration_in_linear_bandits.md)
 - [\[ICML 2025\] Regression for the Mean: Auto-Evaluation and Inference with Few Labels through Post-hoc Regression](regression_for_the_mean_auto-evaluation_and_inference_with_few_labels_through_po.md)
-- [\[AAAI 2026\] Online Linear Regression with Paid Stochastic Features](../../AAAI2026/others/online_linear_regression_with_paid_stochastic_features.md)
+- [\[ACL 2025\] One for All: Update Parameterized Knowledge Across Multiple Models with Once Edit](../../ACL2025/others/one_for_all_update_parameterized_knowledge_across_multiple_models_with_once_edit.md)
+- [\[ICML 2025\] Near Optimal Best Arm Identification for Clustered Bandits](near_optimal_best_arm_identification_for_clustered_bandits.md)
+- [\[ICML 2025\] Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification](fixing_the_loose_brake_exponential-tailed_stopping_time_in_best_arm_identificati.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] SparK: Query-Aware Unstructured Sparsity with Recoverable KV Cache Channel Pruning
 description: >-
-  [AAAI 2026][KV Cache压缩] 提出SparK——一种training-free的KV cache通道级非结构化剪枝方法，通过query-aware的saliency评估选择关键通道+recovery机制恢复被剪枝通道的贡献，在80%剪枝率下性能损失<5%，与token eviction方法正交互补，可额外减少30%+ KV cache存储。
+  [AAAI 2026][可解释性] 提出SparK——一种training-free的KV cache通道级非结构化剪枝方法，通过query-aware的saliency评估选择关键通道+recovery机制恢复被剪枝通道的贡献，在80%剪枝率下性能损失<5%，与token eviction方法正交互补，可额外减少30%+ KV cache存储。
 tags:
   - AAAI 2026
-  - KV Cache压缩
+  - 可解释性
   - 通道剪枝
   - 非结构化稀疏
   - 长上下文推理
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.15212](https://arxiv.org/abs/2508.15212)  
 **代码**: 待公开  
-**领域**: 模型压缩  
+**领域**: 可解释性  
 **关键词**: KV Cache压缩, 通道剪枝, 非结构化稀疏, 长上下文推理, 注意力机制
 
 ## 一句话总结
@@ -130,9 +130,9 @@ SparK在80%剪枝下Avg=31.16 vs ThinK的16.97，差距巨大！
 ## 相关论文
 
 - [\[AAAI 2026\] GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning](gatera_token-aware_modulation_for_parameter-efficient_fine-tuning.md)
-- [\[ICLR 2026\] Tokenizing Single-Channel EEG with Time-Frequency Motif Learning](../../ICLR2026/interpretability/tokenizing_single-channel_eeg_with_time-frequency_motif_learning.md)
 - [\[AAAI 2026\] ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees](shapbpt_image_feature_attributions_using_data-aware_binary_partition_trees.md)
-- [\[ICLR 2026\] Universal Properties of Activation Sparsity in Modern Large Language Models](../../ICLR2026/interpretability/universal_properties_of_activation_sparsity_in_modern_large_language_models.md)
+- [\[ICLR 2026\] Tokenizing Single-Channel EEG with Time-Frequency Motif Learning](../../ICLR2026/interpretability/tokenizing_single-channel_eeg_with_time-frequency_motif_learning.md)
 - [\[AAAI 2026\] DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment](drexperts_differential_refinement_of_distortion-aware_experts_for_blind_image_qu.md)
+- [\[ICLR 2026\] Universal Properties of Activation Sparsity in Modern Large Language Models](../../ICLR2026/interpretability/universal_properties_of_activation_sparsity_in_modern_large_language_models.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - uncertainty quantification
   - aleatoric
   - epistemic
-  - LLM agents
+  - 对话系统
   - position paper
 ---
 
@@ -18,7 +18,7 @@ tags:
 **作者**: Michael Kirchhof, Gjergji Kasneci, Enkelejda Kasneci  
 **arXiv**: [2505.22655](https://arxiv.org/abs/2505.22655)  
 **代码**: 无  
-**领域**: 不确定性量化, LLM Agent  
+**领域**: 对话系统  
 **关键词**: uncertainty quantification, aleatoric, epistemic, LLM agents, position paper  
 
 ## 一句话总结
@@ -142,9 +142,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations](../../ACL2025/dialogue/uniconv_retrieval_response_gen.md)
+- [\[ACL 2025\] Beyond Dialogue: A Profile-Dialogue Alignment Framework Towards General Role-Playing Language Model](../../ACL2025/dialogue/beyond_dialogue_roleplay.md)
 - [\[ICLR 2026\] Non-Collaborative User Simulators for Tool Agents](../../ICLR2026/dialogue/non-collaborative_user_simulators_for_tool_agents.md)
-- [\[ICLR 2026\] Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding](../../ICLR2026/dialogue/understanding_language_prior_of_lvlms_by_contrasting_chain-of-embedding.md)
-- [\[ICML 2025\] Agent WARPP: Workflow Adherence via Runtime Parallel Personalization](agent_warpp_workflow_adherence_via_runtime_parallel_personalization.md)
-- [\[ICML 2025\] Investigating Non-Transitivity in LLM-as-a-Judge](investigating_non-transitivity_in_llm-as-a-judge.md)
+- [\[ACL 2025\] Sparse Rewards Can Self-Train Dialogue Agents](../../ACL2025/dialogue/sparse_rewards_can_self-train_dialogue_agents.md)
+- [\[ECCV 2024\] A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis](../../ECCV2024/dialogue/a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)
 
 <!-- RELATED:END -->

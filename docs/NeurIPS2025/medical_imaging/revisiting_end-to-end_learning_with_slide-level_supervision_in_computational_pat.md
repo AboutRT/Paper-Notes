@@ -57,7 +57,7 @@ $$\{\hat{\theta}, \hat{\phi}, \hat{\eta}\} \leftarrow \arg\min_{\theta, \phi, \e
 
    采用简单随机采样替代复杂的注意力/聚类采样策略，引入多尺度信息。给定目标采样数 $s$ 和尺度集合 $\{I_1, \ldots, I_t\}$，按比例 $\{\sigma_1, \ldots, \sigma_t\}$ 分配每个尺度的采样数：
 
-   $$\hat{s}_j = \lceil s \times \sigma_j \rceil, \quad \sum_{j=1}^{t} \sigma_j = 1$$
+    $\hat{s}_j = \lceil s \times \sigma_j \rceil, \quad \sum_{j=1}^{t} \sigma_j = 1$
 
    不同尺度的patch统一resize到同一分辨率，合并为最终采样集。这模拟了病理学家多尺度观察的诊断习惯，且计算开销远低于注意力采样(9h vs 68h)。
 
@@ -65,7 +65,7 @@ $$\{\hat{\theta}, \hat{\phi}, \hat{\eta}\} \leftarrow \arg\min_{\theta, \phi, \e
 
    将特征 $\mathbf{E}$ 分为 $m$ 个头特征 $\{\mathbf{H}^1, \ldots, \mathbf{H}^m\}$，每个头独立计算稀疏注意力 $\mathbf{A}^j = \text{MLP}(\mathbf{H}^j)$，然后在各头内独立聚合：
 
-   $$\mathbf{Z} = \text{Concat}(\mathbf{Z}^1, \ldots, \mathbf{Z}^m), \quad \mathbf{Z}^j = \text{Softmax}(\mathcal{G}(\mathbf{A}^j))^T \mathbf{H}^j$$
+    $\mathbf{Z} = \text{Concat}(\mathbf{Z}^1, \ldots, \mathbf{Z}^m), \quad \mathbf{Z}^j = \text{Softmax}(\mathcal{G}(\mathbf{A}^j))^T \mathbf{H}^j$
 
    设计动机：E2E训练中MIL注意力的"假阳性"通常呈随机分布。多个独立头的投票可以**抑制对冗余实例的过度关注**，同时从不同特征子空间提供更全面的判别区域覆盖。
 
@@ -73,7 +73,7 @@ $$\{\hat{\theta}, \hat{\phi}, \hat{\eta}\} \leftarrow \arg\min_{\theta, \phi, \e
 
    利用patch间的全局相似性来校正局部稀疏注意力。计算头内的相似性矩阵 $\mathbf{U}^j$，将注意力在相似patch间传播：
 
-   $$\mathcal{G}(\mathbf{A}^j) = \mathbf{A}^j + \alpha \cdot \text{Softmax}\left(\frac{\mathbf{Q}^j {\mathbf{K}^j}^T}{\sqrt{\lceil D'/m \rceil}}\right) \mathbf{A}^j$$
+    $\mathcal{G}(\mathbf{A}^j) = \mathbf{A}^j + \alpha \cdot \text{Softmax}\left(\frac{\mathbf{Q}^j {\mathbf{K}^j}^T}{\sqrt{\lceil D'/m \rceil}}\right) \mathbf{A}^j$
 
    其中 $\alpha$ 是可学习的缩放因子。关键insight是：具有相似病理特征的组织通常具有高度相似的特征，因此判别性patch的注意力应传播到其相似邻居。A+模块中传播权重 $P_{abx}(i) = \mathbf{A}_k^j \sum_{k=1}^{s} \mathbf{U}_{k,i}^j$ 同时受注意力值和相似性调节，确保只有高注意力区域才大量传播。
 
@@ -155,8 +155,8 @@ $$\{\hat{\theta}, \hat{\phi}, \hat{\eta}\} \leftarrow \arg\min_{\theta, \phi, \e
 
 - [\[NeurIPS 2025\] UniSite: The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection](unisite_the_first_cross-structure_dataset_and_learning_framework_for_end-to-end_.md)
 - [\[ICML 2025\] Protriever: End-to-End Differentiable Protein Homology Search for Fitness Prediction](../../ICML2025/medical_imaging/protriever_end-to-end_differentiable_protein_homology_search_for_fitness_predict.md)
-- [\[CVPR 2026\] Momentum Memory for Knowledge Distillation in Computational Pathology](../../CVPR2026/medical_imaging/momentum_memory_for_knowledge_distillation_in_computational_pathology.md)
 - [\[CVPR 2025\] Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning](../../CVPR2025/medical_imaging/unsupervised_foundation_model-agnostic_slide-level_representation_learning.md)
+- [\[CVPR 2026\] Momentum Memory for Knowledge Distillation in Computational Pathology](../../CVPR2026/medical_imaging/momentum_memory_for_knowledge_distillation_in_computational_pathology.md)
 - [\[NeurIPS 2025\] Learning Relative Gene Expression Trends from Pathology Images in Spatial Transcriptomics](learning_relative_gene_expression_trends_from_pathology_images_in_spatial_transc.md)
 
 <!-- RELATED:END -->

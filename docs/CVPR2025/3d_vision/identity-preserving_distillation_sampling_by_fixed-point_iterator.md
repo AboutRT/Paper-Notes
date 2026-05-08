@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.19930](https://arxiv.org/abs/2502.19930)  
 **代码**: [https://github.com/shhh0620/IDS](https://github.com/shhh0620/IDS)  
-**领域**: 3d_vision / image_generation  
+**领域**: 3D视觉  
 **关键词**: score distillation, image editing, NeRF editing, identity preservation, fixed-point iteration, DDS
 
 ## 一句话总结

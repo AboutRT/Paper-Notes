@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 经验回放
   - 自我改进
-  - 语言智能体
+  - 其他
   - 上下文学习
   - 网页导航
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.06698](https://arxiv.org/abs/2506.06698)  
 **代码**: 无  
-**领域**: LLM Agent / 网页导航  
+**领域**: 其他  
 **关键词**: 经验回放, 自我改进, 语言智能体, 上下文学习, 网页导航
 
 ## 一句话总结
@@ -134,10 +134,10 @@ CER 在 WebArena 上达到 36.7%，相对 GPT-4o baseline 提升了 **51.0%**。
 
 ## 相关论文
 
-- [\[ACL 2025\] Sparse Rewards Can Self-Train Dialogue Agents](sparse_rewards_can_self-train_dialogue_agents.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
-- [\[ACL 2025\] STaR-SQL: Self-Taught Reasoner for Text-to-SQL](star-sql_self-taught_reasoner_for_text-to-sql.md)
-- [\[NeurIPS 2025\] Contextual Dynamic Pricing with Heterogeneous Buyers](../../NeurIPS2025/others/contextual_dynamic_pricing_with_heterogeneous_buyers.md)
+- [\[ICML 2025\] Truly Self-Improving Agents Require Intrinsic Metacognitive Learning](../../ICML2025/others/truly_self-improving_agents_require_intrinsic_metacognitive_learning.md)
 - [\[ACL 2025\] Cooperating and Competing Through Natural Language](cooperating_and_competing_through_natural_language.md)
+- [\[ACL 2025\] ACT: Knowledgeable Agents to Design and Perform Complex Tasks](act_knowledgeable_agents_to_design_and_perform_complex_tasks.md)
+- [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
+- [\[ACL 2025\] Improve Rule Retrieval and Reasoning with Self-Induction and Relevance ReEstimate](improve_rule_retrieval_and_reasoning_with_self-induction_and_relevance_reestimat.md)
 
 <!-- RELATED:END -->

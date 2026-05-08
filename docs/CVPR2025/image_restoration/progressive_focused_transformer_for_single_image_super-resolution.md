@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20337](https://arxiv.org/abs/2503.20337)  
-**代码**: https://github.com/LabShuHangGU/PFT-SR  
+**代码**: [https://github.com/LabShuHangGU/PFT-SR](https://github.com/LabShuHangGU/PFT-SR)  
 **领域**: 图像复原  
 **关键词**: 超分辨率, 稀疏注意力, Transformer, 渐进聚焦, 注意力传递
 

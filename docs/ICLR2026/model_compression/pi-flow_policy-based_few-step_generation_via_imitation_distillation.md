@@ -78,19 +78,19 @@ tags:
 
     - 传统蒸馏在教师轨迹上训练学生
     - 模仿蒸馏在**学生自己的轨迹**上训练：
-     1. 使用学生策略生成子步点 $x_s$
-     2. 在这些点上查询教师的速度 $v_{teacher}(x_s, s)$
-     3. 最小化学生策略在这些点上的速度与教师速度的 $\ell_2$ 差异
+      1. 使用学生策略生成子步点 $x_s$
+      2. 在这些点上查询教师的速度 $v_{teacher}(x_s, s)$
+      3. 最小化学生策略在这些点上的速度与教师速度的 $\ell_2$ 差异
    
    这本质上是强化学习中"模仿学习（imitation learning）"的思想：
-   - 教师 = 专家
-   - 学生策略 = 模仿者
-   - 在模仿者自己的状态分布上匹配专家行为，避免分布偏移（distribution shift）
+    - 教师 = 专家
+    - 学生策略 = 模仿者
+    - 在模仿者自己的状态分布上匹配专家行为，避免分布偏移（distribution shift）
 
 3. **标准流匹配损失** → 保持格式一致性 → 设计动机是简化训练过程
 
    由于学生输出的是速度场的参数化策略，蒸馏损失就是标准的 $\ell_2$ 流匹配损失：
-   $$\mathcal{L} = \mathbb{E}_{t, x_0, \epsilon} \|v_{student}(x_t, t) - v_{teacher}(x_t, t)\|_2^2$$
+    $\mathcal{L} = \mathbb{E}_{t, x_0, \epsilon} \|v_{student}(x_t, t) - v_{teacher}(x_t, t)\|_2^2$
    
    无需对抗训练、分布匹配损失或额外的判别器。
 
@@ -189,10 +189,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICLR 2026\] UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation](uniflow_a_unified_pixel_flow_tokenizer_for_visual_understanding_and_generation.md)
 - [\[CVPR 2026\] Adversarial Concept Distillation for One-Step Diffusion Personalization](../../CVPR2026/model_compression/adversarial_concept_distillation_for_one-step_diffusion_personalization.md)
-- [\[ACL 2026\] Think Outside the Policy: In-Context Steered Policy Optimization](../../ACL2026/model_compression/think_outside_the_policy_in-context_steered_policy_optimization.md)
 - [\[CVPR 2026\] WPT: World-to-Policy Transfer via Online World Model Distillation](../../CVPR2026/model_compression/wpt_world-to-policy_transfer_via_online_world_model_distillation.md)
 - [\[CVPR 2026\] OPAD: Adversarial Concept Distillation for One-Step Diffusion Personalization](../../CVPR2026/model_compression/opad_adversarial_concept_distillation_for_one-step_diffusion_personalization.md)
-- [\[ICLR 2026\] Temperature as a Meta-Policy: Adaptive Temperature in LLM Reinforcement Learning](temperature_as_a_meta-policy_adaptive_temperature_in_llm_reinforcement_learning.md)
+- [\[NeurIPS 2025\] One-Step Diffusion-Based Image Compression with Semantic Distillation](../../NeurIPS2025/model_compression/one-step_diffusion-based_image_compression_with_semantic_distillation.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01820](https://arxiv.org/abs/2412.01820)  
-**代码**: https://jyrao.github.io/UniSoccer/  
+**代码**: [https://jyrao.github.io/UniSoccer/](https://jyrao.github.io/UniSoccer/)  
 **领域**: 视频理解  
 **关键词**: 足球视频理解, 多模态数据集, 视觉编码器, 时空注意力, 评论生成
 

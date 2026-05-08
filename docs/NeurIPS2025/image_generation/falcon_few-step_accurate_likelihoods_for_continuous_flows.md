@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2512.09914](https://arxiv.org/abs/2512.09914)  
 **代码**: 待确认  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: Continuous Normalizing Flows, Boltzmann Generators, Flow Matching, Importance Sampling, Molecular Sampling  
 
 ## 一句话总结
@@ -152,9 +152,9 @@ FALCON 是首个同时满足四项条件的方法，核心区别在于引入可�
 ## 相关论文
 
 - [\[ICCV 2025\] SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation](../../ICCV2025/image_generation/sanasprint_onestep_diffusion_with_continuoustime_consistency.md)
-- [\[NeurIPS 2025\] Multimodal Generative Flows for LHC Jets](multimodal_generative_flows_for_lhc_jets.md)
 - [\[NeurIPS 2025\] Amortized Sampling with Transferable Normalizing Flows](amortized_sampling_with_transferable_normalizing_flows.md)
-- [\[NeurIPS 2025\] BoltzNCE: Learning Likelihoods for Boltzmann Generation with Stochastic Interpolants](boltznce_learning_likelihoods_for_boltzmann_generation_with_stochastic_interpola.md)
+- [\[NeurIPS 2025\] Multimodal Generative Flows for LHC Jets](multimodal_generative_flows_for_lhc_jets.md)
 - [\[ICCV 2025\] Learning Few-Step Diffusion Models by Trajectory Distribution Matching](../../ICCV2025/image_generation/learning_few-step_diffusion_models_by_trajectory_distribution_matching.md)
+- [\[NeurIPS 2025\] Continuous Diffusion Model for Language Modeling](continuous_diffusion_model_for_language_modeling.md)
 
 <!-- RELATED:END -->

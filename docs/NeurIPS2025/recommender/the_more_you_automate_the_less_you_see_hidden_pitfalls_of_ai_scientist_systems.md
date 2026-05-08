@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - AI scientist
   - scientific integrity
-  - benchmark selection
+  - 推荐系统
   - data leakage
   - reward hacking
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.08713](https://arxiv.org/abs/2509.08713)  
 **代码**: [GitHub](https://github.com/niharshah/AIScientistPitfalls)  
-**领域**: AI Safety / AI for Science  
+**领域**: 推荐系统  
 **关键词**: AI scientist, scientific integrity, benchmark selection, data leakage, reward hacking
 
 ## 一句话总结
@@ -153,8 +153,8 @@ AI Scientist v2 的偏差更严重：操纵组中 49% 的时间选择训练/验�
 
 - [\[NeurIPS 2025\] Who You Are Matters: Bridging Topics and Social Roles via LLM-Enhanced Logical Recommendation](who_you_are_matters_bridging_topics_and_social_roles_via_llm-enhanced_logical_re.md)
 - [\[ICML 2025\] How to Set AdamW's Weight Decay as You Scale Model and Dataset Size](../../ICML2025/recommender/how_to_set_adamws_weight_decay_as_you_scale_model_and_dataset_size.md)
-- [\[NeurIPS 2025\] Validating LLM-as-a-Judge Systems under Rating Indeterminacy](validating_llm-as-a-judge_systems_under_rating_indeterminacy.md)
 - [\[NeurIPS 2025\] Position: Towards Bidirectional Human-AI Alignment](position_towards_bidirectional_human-ai_alignment.md)
-- [\[NeurIPS 2025\] NeurIPS Should Lead Scientific Consensus on AI Policy](neurips_should_lead_scientific_consensus_on_ai_policy.md)
+- [\[NeurIPS 2025\] Validating LLM-as-a-Judge Systems under Rating Indeterminacy](validating_llm-as-a-judge_systems_under_rating_indeterminacy.md)
+- [\[NeurIPS 2025\] EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration](empathia_multi-faceted_human-ai_collaboration_for_refugee_integration.md)
 
 <!-- RELATED:END -->

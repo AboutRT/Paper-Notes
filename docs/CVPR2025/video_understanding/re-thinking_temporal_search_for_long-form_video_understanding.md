@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.02259](https://arxiv.org/abs/2504.02259)  
-**代码**: https://github.com/longvideohaystack/tstar  
+**代码**: [https://github.com/longvideohaystack/tstar](https://github.com/longvideohaystack/tstar)  
 **领域**: 视频理解  
 **关键词**: 长视频理解, 关键帧搜索, 时序定位, 自适应缩放, LV-Haystack
 

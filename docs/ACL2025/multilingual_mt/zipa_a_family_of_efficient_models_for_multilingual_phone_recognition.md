@@ -10,15 +10,15 @@ tags:
   - Zipformer
   - CTC
   - 多语言
-  - 社会语音学
+  - 多语言翻译
 ---
 
 # ZIPA: A Family of Efficient Models for Multilingual Phone Recognition
 
 **会议**: ACL 2025  
 **arXiv**: [2505.23170](https://arxiv.org/abs/2505.23170)  
-**代码**: 有 (https://github.com/lingjzhu/zipa)  
-**领域**: 语音处理 / 多语言语音识别  
+**代码**: 有 ([https://github.com/lingjzhu/zipa](https://github.com/lingjzhu/zipa))  
+**领域**: 多语言翻译  
 **关键词**: 音素识别, IPA, Zipformer, CTC, 多语言, 社会语音学
 
 ## 一句话总结
@@ -150,9 +150,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models](statement-tuning_enables_efficient_cross-lingual_generalization_in_encoder-only_.md)
-- [\[ACL 2025\] Less, but Better: Efficient Multilingual Expansion for LLMs via Layer-wise Mixture-of-Experts](less_but_better_efficient_multilingual_expansion.md)
 - [\[ACL 2025\] Implicit Cross-Lingual Rewarding for Efficient Multilingual Preference Alignment](implicit_cross-lingual_rewarding_for_efficient_multilingual_preference_alignment.md)
 - [\[ACL 2025\] Language Fusion for Parameter-Efficient Cross-lingual Transfer (FLARE)](flare_crosslingual_lora.md)
+- [\[ACL 2025\] M-RewardBench: Evaluating Reward Models in Multilingual Settings](m_rewardbench.md)
 - [\[ACL 2026\] Efficient Training for Cross-lingual Speech Language Models](../../ACL2026/multilingual_mt/efficient_training_for_cross-lingual_speech_language_models.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2404.01133](https://arxiv.org/abs/2404.01133)  
 **代码**: [dekuliutesla/citygs](https://github.com/DekuLiuTesworworla/citygs)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, Large-Scale Scene Reconstruction, Level-of-Detail, Divide-and-Conquer, novel view synthesis
 
 ## 一句话总结

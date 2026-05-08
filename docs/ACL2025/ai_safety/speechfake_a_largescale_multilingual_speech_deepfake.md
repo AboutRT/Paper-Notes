@@ -110,10 +110,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICML 2025\] Ferret: Federated Full-Parameter Tuning at Scale for Large Language Models](../../ICML2025/ai_safety/ferret_federated_full-parameter_tuning_at_scale_for_large_language_models.md)
 - [\[ACL 2025\] Towards Fairness Assessment of Dutch Hate Speech Detection](towards_fairness_assessment_of_dutch_hate_speech_detection.md)
-- [\[NeurIPS 2025\] SAEMark: Steering Personalized Multilingual LLM Watermarks with Sparse Autoencoders](../../NeurIPS2025/ai_safety/saemark_steering_personalized_multilingual_llm_watermarks_with_sparse_autoencode.md)
-- [\[ACL 2025\] Ensemble Watermarks for Large Language Models](ensemble_watermarks_llm.md)
-- [\[ACL 2025\] Improved Unbiased Watermark for Large Language Models](improved_unbiased_watermark_for_large_language.md)
+- [\[NeurIPS 2025\] Influence Functions for Edge Edits in Non-Convex Graph Neural Networks](../../NeurIPS2025/ai_safety/influence_functions_for_edge_edits_in_non-convex_graph_neural_networks.md)
+- [\[ICLR 2026\] Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective](../../ICLR2026/ai_safety/adaptive_methods_are_preferable_in_high_privacy_settings_an_sde_perspective.md)
+- [\[AAAI 2026\] Truth, Justice, and Secrecy: Cake Cutting Under Privacy Constraints](../../AAAI2026/ai_safety/truth_justice_and_secrecy_cake_cutting_under_privacy_constraints.md)
+- [\[ICML 2025\] SecEmb: Sparsity-Aware Secure Federated Learning of On-Device Recommender System with Large Embedding](../../ICML2025/ai_safety/secemb_sparsity-aware_secure_federated_learning_of_on-device_recommender_system_.md)
 
 <!-- RELATED:END -->

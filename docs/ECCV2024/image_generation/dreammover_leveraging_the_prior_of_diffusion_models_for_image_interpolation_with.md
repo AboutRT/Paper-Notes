@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.09605](https://arxiv.org/abs/2409.09605)  
-**代码**: [项目页面](https://dreamm0ver.github.io) (有)  
+**代码**: [项目页面](https://dreamm0ver.github.io)  
 **领域**: 图像生成  
 **关键词**: 图像插值, 扩散模型先验, 光流估计, 语义一致性, 大运动
 

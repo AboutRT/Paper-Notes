@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.12113](https://arxiv.org/abs/2511.12113)  
-**代码**: https://github.com/Qlanxue/MetaGDPO  
+**代码**: [https://github.com/Qlanxue/MetaGDPO](https://github.com/Qlanxue/MetaGDPO)  
 **领域**: 对齐RLHF  
 **关键词**: 灾难性遗忘, 知识蒸馏, DPO, 元认知知识, 小模型推理
 

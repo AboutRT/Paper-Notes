@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2406.00410](https://arxiv.org/abs/2406.00410)  
-**代码**: https://github.com/ml-postech/PosteL  
+**代码**: [https://github.com/ml-postech/PosteL](https://github.com/ml-postech/PosteL)  
 **领域**: 图学习  
 **关键词**: Label Smoothing, 节点分类, 后验分布, 同质/异质图, 伪标签迭代
 

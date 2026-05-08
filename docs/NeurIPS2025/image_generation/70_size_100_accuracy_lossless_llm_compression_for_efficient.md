@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.11651](https://arxiv.org/abs/2504.11651)  
 **代码**: [https://github.com/LeanModels/DFloat11](https://github.com/LeanModels/DFloat11)  
-**领域**: 模型压缩  
+**领域**: 图像生成  
 **关键词**: 无损压缩, Huffman编码, BFloat16, GPU推理, 熵编码  
 
 ## 一句话总结
@@ -143,6 +143,6 @@ DFloat11 是目前唯一同时实现**无损 + GPU 推理友好 + 开源**的压
 - [\[NeurIPS 2025\] Counterfactual Identifiability via Dynamic Optimal Transport](counterfactual_identifiability_via_dynamic_optimal_transport.md)
 - [\[ICLR 2026\] Unsupervised Conformal Inference: Bootstrapping and Alignment to Control LLM Uncertainty](../../ICLR2026/image_generation/unsupervised_conformal_inference_bootstrapping_and_alignment_to_control_llm_unce.md)
 - [\[NeurIPS 2025\] LLM Meets Diffusion: A Hybrid Framework for Crystal Material Generation](llm_meets_diffusion_a_hybrid_framework_for_crystal_material_generation.md)
-- [\[NeurIPS 2025\] Dynamic Diffusion Schrödinger Bridge in Astrophysical Observational Inversions](dynamic_diffusion_schrödinger_bridge_in_astrophysical_observational_inversions.md)
+- [\[CVPR 2025\] DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression](../../CVPR2025/image_generation/dit-ic_aligned_diffusion_transformer_for_efficient_image_compression.md)
 
 <!-- RELATED:END -->

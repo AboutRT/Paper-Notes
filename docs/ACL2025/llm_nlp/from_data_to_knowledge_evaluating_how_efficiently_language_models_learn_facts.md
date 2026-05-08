@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.16912](https://arxiv.org/abs/2506.16912)  
-**代码**: https://github.com/Jabbawukis/sample-efficiency-evaluation  
+**代码**: [https://github.com/Jabbawukis/sample-efficiency-evaluation](https://github.com/Jabbawukis/sample-efficiency-evaluation)  
 **领域**: LLM/NLP  
 **关键词**: sample efficiency, fact learning, knowledge probing, pre-training, power law
 
@@ -119,8 +119,8 @@ Wikipedia 语料统计事实频率 -> 在同一语料上预训练多种模型 ->
 
 - [\[ACL 2025\] Evaluating Language Models as Synthetic Data Generators](evaluating_lms_synthetic_data_gen.md)
 - [\[ACL 2025\] KazMMLU: Evaluating Language Models on Kazakh, Russian, and Regional Knowledge of Kazakhstan](kazmmlu_evaluating_language_models_on_kazakh_russian_and_regional_knowledge_of_k.md)
+- [\[ACL 2025\] UAQFact: Evaluating Factual Knowledge Utilization of LLMs on Unanswerable Questions](uaqfact_evaluating_factual_knowledge_utilization_of_llms_on_unanswerable_questio.md)
 - [\[ACL 2025\] Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](condor_enhance_llm_alignment_with_knowledge-driven_data_synthesis_and_refinement.md)
 - [\[ACL 2025\] CogSteer: Cognition-Inspired Selective Layer Intervention for Efficiently Steering Large Language Models](cogsteer_cognition-inspired_selective_layer_intervention_for_efficiently_steerin.md)
-- [\[ACL 2025\] How Humans and LLMs Organize Conceptual Knowledge: Exploring Subordinate Categories in Italian](conceptual_knowledge_org.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.14860](https://arxiv.org/abs/2412.14860)  
 **代码**: [https://github.com/nusnlp/Think-Cite](https://github.com/nusnlp/Think-Cite)  
-**领域**: 文本生成  
+**领域**: LLM对齐  
 **关键词**: 归因文本生成, 蒙特卡洛树搜索, 自反思, 引用生成, 进度奖励建模  
 
 ## 一句话总结
@@ -137,6 +137,6 @@ tags:
 - [\[ACL 2025\] AgentRM: Enhancing Agent Generalization with Reward Modeling](agentrm_enhancing_agent_generalization_with_reward_modeling.md)
 - [\[ACL 2025\] Dynamic Scaling of Unit Tests for Code Reward Modeling](dynamic_scaling_of_unit_tests_for_code_reward_modeling.md)
 - [\[ACL 2025\] SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs](synthesizeme_persona_prompts.md)
-- [\[ACL 2025\] RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation](rpo_retrieval_preference_optimization_for_robust_retrieval-augmented_generation.md)
+- [\[ACL 2026\] ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training](../../ACL2026/llm_alignment/consistrm_improving_generative_reward_models_via_consistency-aware_self-training.md)
 
 <!-- RELATED:END -->

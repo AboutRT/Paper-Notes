@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2404.15611](https://arxiv.org/abs/2404.15611)  
 **代码**: [xyq7/PoisonedFL](https://github.com/xyq7/PoisonedFL/)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: federated learning, model poisoning, multi-round consistency, untargeted attack, Byzantine robustness
 
 ## 一句话总结

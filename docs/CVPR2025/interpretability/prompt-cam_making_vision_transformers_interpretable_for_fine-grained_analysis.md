@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.09333](https://arxiv.org/abs/2501.09333)  
-**代码**: https://github.com/Imageomics/Prompt_CAM (有)  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/Imageomics/Prompt_CAM](https://github.com/Imageomics/Prompt_CAM)  
+**领域**: 可解释性  
 **关键词**: 可解释性, Vision Transformer, 细粒度分析, Prompt学习, 注意力图
 
 ## 一句话总结
@@ -139,8 +139,8 @@ Prompt-CAM 基于 Visual Prompt Tuning (VPT) 的框架，核心修改是将预�
 
 - [\[CVPR 2025\] L-SWAG: Layer-Sample Wise Activation with Gradients information for Zero-Shot NAS on Vision Transformers](lswag_zero_shot_nas.md)
 - [\[ICCV 2025\] Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations](../../ICCV2025/interpretability/granular_concept_circuits_toward_a_fine-grained_circuit_discovery_for_concept_re.md)
-- [\[NeurIPS 2025\] How Intrinsic Motivation Shapes Learned Representations in Decision Transformers: A Cognitive Interpretability Analysis](../../NeurIPS2025/interpretability/toward_explainable_offline_rl_analyzing_representations_in_intrinsically_motivat.md)
 - [\[CVPR 2026\] Text-guided Fine-Grained Video Anomaly Understanding](../../CVPR2026/interpretability/text-guided_fine-grained_video_anomaly_understanding.md)
-- [\[CVPR 2026\] FINER: MLLMs Hallucinate under Fine-grained Negative Queries](../../CVPR2026/interpretability/finer_mllms_hallucinate_under_fine-grained_negative_queries.md)
+- [\[NeurIPS 2025\] How Intrinsic Motivation Shapes Learned Representations in Decision Transformers: A Cognitive Interpretability Analysis](../../NeurIPS2025/interpretability/toward_explainable_offline_rl_analyzing_representations_in_intrinsically_motivat.md)
+- [\[CVPR 2025\] Scaling Vision Pre-Training to 4K Resolution](scaling_vision_pre-training_to_4k_resolution.md)
 
 <!-- RELATED:END -->

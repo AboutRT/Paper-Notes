@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.14621](https://arxiv.org/abs/2403.14621)  
-**代码**: https://justimyhxu.github.io/projects/grm/ (有)  
+**代码**: [https://justimyhxu.github.io/projects/grm/](https://justimyhxu.github.io/projects/grm/)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯, 稀疏视图重建, 3D生成, Transformer, 前馈式重建
 
@@ -176,7 +176,7 @@ $$\mathbf{s} = s_{min} \cdot \sigma(\mathbf{s}_o) + s_{max} \cdot (1 - \sigma(\m
 - [\[ECCV 2024\] GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting](gs-lrm_large_reconstruction_model_for_3d_gaussian_splatting.md)
 - [\[ECCV 2024\] LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](lgm_large_multi-view_gaussian_model_for_high-resolution_3d_content_creation.md)
 - [\[ECCV 2024\] SplatFields: Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](splatfields_neural_gaussian_splats_for_sparse_3d_and_4d_reconstruction.md)
-- [\[ECCV 2024\] AnimatableDreamer: Text-Guided Non-rigid 3D Model Generation and Reconstruction with Canonical Score Distillation](animatabledreamer_text-guided_non-rigid_3d_model_generation_and_reconstruction_w.md)
+- [\[ECCV 2024\] CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model](crm_single_image_to_3d_textured_mesh_with_convolutional_reconstruction_model.md)
 - [\[ECCV 2024\] LaRa: Efficient Large-Baseline Radiance Fields](lara_efficient_large-baseline_radiance_fields.md)
 
 <!-- RELATED:END -->

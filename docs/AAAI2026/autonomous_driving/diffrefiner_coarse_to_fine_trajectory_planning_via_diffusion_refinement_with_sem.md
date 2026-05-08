@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.17150](https://arxiv.org/abs/2511.17150)  
 **代码**: [nullmax-vision/DiffRefiner](https://github.com/nullmax-vision/DiffRefiner)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: end-to-end autonomous driving, diffusion model, trajectory planning, coarse-to-fine, semantic interaction
 
 ## 一句话总结

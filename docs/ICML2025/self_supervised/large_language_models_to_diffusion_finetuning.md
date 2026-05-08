@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 自监督学习
-  - LLM微调
+  - 自监督
   - 扩散框架
   - 测试时缩放
   - LoRA
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.15781](https://arxiv.org/abs/2501.15781)  
 **代码**: [github.com/SakanaAI/L2D](https://github.com/SakanaAI/L2D)  
-**领域**: LLM / 测试时计算缩放  
+**领域**: 自监督  
 **关键词**: LLM微调, 扩散框架, 测试时缩放, LoRA, Classifier-free Guidance
 
 ## 一句话总结
@@ -117,10 +117,10 @@ L2D在冻结的LLM主路径旁引入一条并行"扩散路径"。训练时，对
 
 ## 相关论文
 
-- [\[ICLR 2026\] PonderLM: Pretraining Language Models to Ponder in Continuous Space](../../ICLR2026/self_supervised/ponderlm_pretraining_language_models_to_ponder_in_continuous_space.md)
-- [\[AAAI 2026\] From Pretrain to Pain: Adversarial Vulnerability of Video Foundation Models without Finetuning](../../AAAI2026/self_supervised/from_pretrain_to_pain_adversarial_vulnerability_of_video_foundation_models_witho.md)
-- [\[ICCV 2025\] Scaling Language-Free Visual Representation Learning](../../ICCV2025/self_supervised/scaling_languagefree_visual_representation_learning.md)
-- [\[ICML 2025\] Towards Benchmarking Foundation Models for Tabular Data With Text](towards_benchmarking_foundation_models_for_tabular_data_with_text.md)
+- [\[ICCV 2025\] Improving Large Vision and Language Models by Learning from a Panel of Peers](../../ICCV2025/self_supervised/improving_large_vision_and_language_models_by_learning_from_a_panel_of_peers.md)
+- [\[NeurIPS 2025\] M-GRPO: Stabilizing Self-Supervised Reinforcement Learning for Large Language Models with Momentum-Anchored Policy Optimization](../../NeurIPS2025/self_supervised/m-grpo_stabilizing_self-supervised_reinforcement_learning_for_large_language_mod.md)
+- [\[ICML 2025\] Test-Time Canonicalization by Foundation Models for Robust Perception](test-time_canonicalization_by_foundation_models_for_robust_perception.md)
 - [\[ICML 2025\] AdaWorld: Learning Adaptable World Models with Latent Actions](adaworld_learning_adaptable_world_models_with_latent_actions.md)
+- [\[ICML 2025\] Towards Benchmarking Foundation Models for Tabular Data With Text](towards_benchmarking_foundation_models_for_tabular_data_with_text.md)
 
 <!-- RELATED:END -->

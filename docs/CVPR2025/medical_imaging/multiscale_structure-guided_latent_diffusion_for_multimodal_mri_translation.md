@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.12581](https://arxiv.org/abs/2603.12581)  
 **代码**: [GitHub](https://github.com/ziyi-start/MSG-LDM)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: MRI合成, 潜在扩散模型, 多模态翻译, 结构引导, 缺失模态
 
 ## 一句话总结

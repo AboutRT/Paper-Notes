@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.10446](https://arxiv.org/abs/2505.10446)  
 **代码**: [GitHub](https://github.com/maple-research-lab/LLaDOU)  
-**领域**: 扩散语言模型 / 推理  
+**领域**: 图像生成  
 **关键词**: 扩散语言模型, 横向思维, 强化学习, GRPO, Plackett-Luce
 
 ## 一句话总结
@@ -59,7 +59,7 @@ $$\mathcal{L}_{\theta,n} = -\frac{1}{G}\sum_{g=1}^{G}\frac{\pi_{\theta,n}(x_n^g|
 
    SEDD学习concrete score $s_\theta(x,t)_y \approx p_t(y)/p_t(x)$，用于估计逆向转移率。通过τ-leaping将序列级策略定义为所有token转移概率的乘积：
 
-   $$\pi_{\theta,n}(x_n|x_{n-1}) = \prod_{i=1}^{|x_n|}p_{\theta,t_n}(x_n^i|x_{n-1})$$
+    $\pi_{\theta,n}(x_n|x_{n-1}) = \prod_{i=1}^{|x_n|}p_{\theta,t_n}(x_n^i|x_{n-1})$
 
    其中每个token的转移概率可从concrete score和转移率矩阵 $Q_t$ 闭式计算。这使得整条轨迹的策略概率可微，可直接用GRPO训练。
 
@@ -67,13 +67,13 @@ $$\mathcal{L}_{\theta,n} = -\frac{1}{G}\sum_{g=1}^{G}\frac{\pi_{\theta,n}(x_n^g|
 
    LLaDA是离散时间掩码扩散模型，每步选择部分掩码token揭露为文本。作者发现**去掩码顺序对推理至关重要**——应该先揭露确信度高的token。为此引入Unmask Policy Module（UPM）：
 
-   - UPM为每个token预测排名分数 $h_{\theta,n}^i$，使用Plackett-Luce模型定义排序抽样策略：
+    - UPM为每个token预测排名分数 $h_{\theta,n}^i$，使用Plackett-Luce模型定义排序抽样策略：
 
-   $$\pi_{\theta,n}^{\text{unmask}}(\mathcal{U}_n|x_{n-1}) = \prod_{k=1}^{K}\frac{\exp(h_{\theta,n}^{u_n(k)})}{\sum_{j=k}^{K}\exp(h_{\theta,n}^{u_n(j)}) + \sum_{j \in \mathcal{M}_n}\exp(h_{\theta,n}^{u_n(j)})}$$
+    $\pi_{\theta,n}^{\text{unmask}}(\mathcal{U}_n|x_{n-1}) = \prod_{k=1}^{K}\frac{\exp(h_{\theta,n}^{u_n(k)})}{\sum_{j=k}^{K}\exp(h_{\theta,n}^{u_n(j)}) + \sum_{j \in \mathcal{M}_n}\exp(h_{\theta,n}^{u_n(j)})}$
 
-   - token生成策略：$\pi_{\theta,n}^{\text{token}}(x_n|x_{n-1},\mathcal{U}_n) = \prod_{i \in \mathcal{U}_n}p_{\theta,n}(x_n^i|x_{n-1})$
+    - token生成策略：$\pi_{\theta,n}^{\text{token}}(x_n|x_{n-1},\mathcal{U}_n) = \prod_{i \in \mathcal{U}_n}p_{\theta,n}(x_n^i|x_{n-1})$
 
-   - 完整策略为两者之积：$\pi_{\theta,n}(x_n|x_{n-1}) = \pi_{\theta,n}^{\text{unmask}} \cdot \pi_{\theta,n}^{\text{token}}$
+    - 完整策略为两者之积：$\pi_{\theta,n}(x_n|x_{n-1}) = \pi_{\theta,n}^{\text{unmask}} \cdot \pi_{\theta,n}^{\text{token}}$
 
    UPM仅含一个Transformer block，通过自适应层归一化嵌入扩散步 $n$ 和掩码指示信息，计算开销很小。该模型命名为LLaDOU。
 

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 多模态
-  - 长上下文 VLM
+  - 多模态VLM
   - Prefill 加速
   - 动态稀疏注意力
   - 模态边界
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2504.16083](https://arxiv.org/abs/2504.16083)  
-**代码**: https://aka.ms/MMInference  
+**代码**: [https://aka.ms/MMInference](https://aka.ms/MMInference)  
 **领域**: multimodal_vlm（长上下文 VLM 推理加速）  
 **关键词**: 长上下文 VLM, Prefill 加速, 动态稀疏注意力, 模态边界, Grid Pattern
 
@@ -239,10 +239,10 @@ MMInference 的策略是：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] PermLLM: Learnable Channel Permutation for N:M Sparse Large Language Models](../../NeurIPS2025/multimodal_vlm/permllm_learnable_channel_permutation_for_nm_sparse_large_language_models.md)
 - [\[ACL 2025\] MadaKV: Adaptive Modality-Perception KV Cache Eviction for Efficient Multimodal Long-Context Inference](../../ACL2025/multimodal_vlm/madakv_adaptive_modality-perception_kv_cache_eviction_for_efficient_multimodal_l.md)
-- [\[ICML 2025\] CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization](cocoa-mix_confusion-and-confidence-aware_mixture_model_for_context_optimization.md)
 - [\[CVPR 2025\] Context-Aware Multimodal Pretraining](../../CVPR2025/multimodal_vlm/context-aware_multimodal_pretraining.md)
+- [\[NeurIPS 2025\] In-Context Compositional Learning via Sparse Coding Transformer](../../NeurIPS2025/multimodal_vlm/in-context_compositional_learning_via_sparse_coding_transformer.md)
+- [\[ICML 2025\] Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas](why_is_spatial_reasoning_hard_for_vlms_an_attention_mechanism_perspective_on_foc.md)
 - [\[NeurIPS 2025\] NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables](../../NeurIPS2025/multimodal_vlm/needleinatable_exploring_long-context_capability_of_large_language_models_toward.md)
 
 <!-- RELATED:END -->

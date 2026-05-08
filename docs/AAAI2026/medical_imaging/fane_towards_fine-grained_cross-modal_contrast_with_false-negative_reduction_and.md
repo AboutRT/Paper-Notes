@@ -14,7 +14,7 @@ tags:
 - **会议**: AAAI 2026
 - **arXiv**: [2511.12215](https://arxiv.org/abs/2511.12215)
 - **代码**: [https://github.com/Aventador8/FaNe](https://github.com/Aventador8/FaNe)
-- **领域**: 医学视觉-语言预训练 (Medical VLP)
+- **领域**: 医学图像
 - **关键词**: 视觉-语言预训练, 假阴性消除, 稀疏注意力, 细粒度对齐, 对比学习, 医学影像
 
 ## 一句话总结

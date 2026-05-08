@@ -2,7 +2,7 @@
 title: >-
   CVPR2025 信息检索/RAG方向17篇论文解读
 description: >-
-  17篇CVPR2025的信息检索/RAG 方向论文解读，涵盖多模态、少样本学习、RAG等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  17篇CVPR2025的信息检索/RAG 方向论文解读，涵盖多模态、RAG、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -66,6 +66,10 @@ description: >-
 
 :   提出RANGE，通过检索增强策略将高分辨率视觉信息近似注入地理位置嵌入，解决了对比学习（如SatCLIP）丢弃模态特有信息的问题，在分类任务上提升高达13.1%，回归任务上提升0.145 $R^2$。
 
+**[Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis](retrieving_semantics_from_the_deep_an_rag_solution_for_gesture_synthesis.md)**
+
+:   RAG-Gesture 提出了一种基于检索增强生成（RAG）的手势合成框架，利用显式语言学知识从手势数据库中检索语义相关的示例动作，并通过 DDIM 反演和检索引导在推理时注入扩散模型生成过程，无需训练即可产生语义丰富且自然的共语手势。
+
 **[Towards Smart Point-and-Shoot Photography](towards_smart_point-and-shoot_photography.md)**
 
 :   提出智能"傻瓜相机"摄影系统：先用 CLIP 文本嵌入的构图质量评估器（CCQA）判断当前构图质量，再用专家混合（MoE）相机姿态调整模型（CPAM）预测偏航/俯仰调整角度，在 PCARD 数据集（320K 图像，从 4K 全景图生成）上实现 79.3% AUC 的调整建议和 0.613 IoU 的调整精度。
@@ -73,7 +77,3 @@ description: >-
 **[VDocRAG: Retrieval-Augmented Generation over Visually-Rich Documents](vdocrag_retrieval-augmented_generation_over_visually-rich_documents.md)**
 
 :   构建首个直接以文档图像（而非解析文本）为输入的 RAG 框架，用 LVLM 作为双编码器检索器 + 两种自监督预训练任务（对比+生成）实现文档图像检索，在 ChartQA 上比文本 RAG 高 24 个点。
-
-**[VladVA: Discriminative Fine-tuning of LVLMs](vladva_discriminative_fine-tuning_of_lvlms.md)**
-
-:   提出VladVA框架，通过混合短/长caption数据策略、对比损失+自回归损失的联合训练、以及soft prompting+LoRA的参数高效适配，将生成式LVLM（LLaVA）转化为强判别式模型，在图文检索和组合性理解基准上大幅超越CLIP类模型和18B EVA-CLIP。

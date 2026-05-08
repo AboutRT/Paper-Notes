@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 模型融合
   - VLM推理
-  - 感知与推理解耦
+  - 多模态VLM
   - 跨模态迁移
   - 层级分析
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.05464](https://arxiv.org/abs/2505.05464)  
-**代码**: https://github.com/shiqichen17/VLM_Merging  
+**代码**: [https://github.com/shiqichen17/VLM_Merging](https://github.com/shiqichen17/VLM_Merging)  
 **领域**: 多模态VLM  
 **关键词**: 模型融合, VLM推理, 感知与推理解耦, 跨模态迁移, 层级分析
 
@@ -117,9 +117,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Transferring Textual Preferences to Vision-Language Understanding through Model Merging](../../ACL2025/multimodal_vlm/transferring_textual_preferences_to_vision-language_understanding_through_model_.md)
-- [\[NeurIPS 2025\] RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](../../NeurIPS2025/multimodal_vlm/rtv-bench_benchmarking_mllm_continuous_perception_understanding_and_reasoning_th.md)
-- [\[ICML 2025\] Defending LVLMs Against Vision Attacks through Partial-Perception Supervision](defending_lvlms_against_vision_attacks_through_partial-perception_supervision.md)
-- [\[ICML 2025\] MODA: MOdular Duplex Attention for Multimodal Perception, Cognition, and Emotion Understanding](moda_modular_duplex_attention_for_multimodal_perception_cognition_and_emotion_un.md)
+- [\[NeurIPS 2025\] RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](../../NeurIPS2025/multimodal_vlm/rtv_bench_benchmarking_mllm_continuous_perception_through_realtime_video.md)
+- [\[ICML 2025\] Enhancing Target-unspecific Tasks through a Features Matrix](enhancing_target-unspecific_tasks_through_a_features_matrix.md)
 - [\[ICML 2025\] Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](understanding_and_mitigating_miscalibration_in_prompt_tuning_for_vision-language.md)
+- [\[ICCV 2025\] FREE-Merging: Fourier Transform for Efficient Model Merging](../../ICCV2025/multimodal_vlm/free-merging_fourier_transform_for_efficient_model_merging.md)
 
 <!-- RELATED:END -->

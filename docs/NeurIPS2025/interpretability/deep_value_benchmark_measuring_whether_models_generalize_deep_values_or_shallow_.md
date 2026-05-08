@@ -8,7 +8,7 @@ tags:
   - AI alignment
   - deep values
   - shallow preferences
-  - benchmark
+  - 可解释性
   - value generalization
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.02109](https://arxiv.org/abs/2511.02109)  
-**代码**: [GitHub](https://github.com/josh-ashkinaze/deep-value-benchmark-neurips) (有)  
-**领域**: LLM推理  
+**代码**: [GitHub](https://github.com/josh-ashkinaze/deep-value-benchmark-neurips)  
+**领域**: 可解释性  
 **关键词**: AI alignment, deep values, shallow preferences, benchmark, value generalization
 
 ## 一句话总结
@@ -120,9 +120,9 @@ DVB 使用 in-context learning 范式：训练阶段展示用户偏好（深层�
 ## 相关论文
 
 - [\[NeurIPS 2025\] Deep Modularity Networks with Diversity-Preserving Regularization](deep_modularity_networks_with_diversity-preserving_regularization.md)
-- [\[NeurIPS 2025\] SHAP Values via Sparse Fourier Representation](shap_values_via_sparse_fourier_representation.md)
 - [\[NeurIPS 2025\] An Analysis of Concept Bottleneck Models: Measuring, Understanding, and Mitigating the Impact of Noisy Annotations](an_analysis_of_concept_bottleneck_models_measuring_understanding_and_mitigating_.md)
 - [\[ACL 2026\] Style over Story: Measuring LLM Narrative Preferences via Structured Selection](../../ACL2026/interpretability/style_over_story_measuring_llm_narrative_preferences_via_structured_selection.md)
-- [\[AAAI 2026\] FourierPET: Deep Fourier-based Unrolled Network for Low-count PET Reconstruction](../../AAAI2026/interpretability/fourierpet_deep_fourier-based_unrolled_network_for_low-count_pet_reconstruction.md)
+- [\[NeurIPS 2025\] SHAP Values via Sparse Fourier Representation](shap_values_via_sparse_fourier_representation.md)
+- [\[NeurIPS 2025\] Transformer Key-Value Memories Are Nearly as Interpretable as Sparse Autoencoders](transformer_key-value_memories_are_nearly_as_interpretable_as_sparse_autoencoder.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.26346](https://arxiv.org/abs/2509.26346)  
-**代码**: [GitHub](https://tiger-ai-lab.github.io/EditReward) (有)  
+**代码**: [GitHub](https://tiger-ai-lab.github.io/EditReward)  
 **领域**: 图像编辑 / 奖励模型  
 **关键词**: 图像编辑, 奖励模型, 人类偏好, 数据筛选, VLM
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.12857](https://arxiv.org/abs/2507.12857)  
-**代码**: [https://github.com/HuangShiqi128/SCORE](https://github.com/HuangShiqi128/SCORE) (有)  
-**领域**: 遥感/地球观测  
+**代码**: [https://github.com/HuangShiqi128/SCORE](https://github.com/HuangShiqi128/SCORE)  
+**领域**: 图像分割  
 **关键词**: 开放词汇实例分割, 遥感, 场景上下文, 视觉语言模型, 跨数据集泛化  
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2406.14026](https://arxiv.org/abs/2406.14026)  
 **代码**: [GitHub](https://github.com/AuCson/low-rank-forgetting)  
-**领域**: LLM/NLP  
+**领域**: LLM安全  
 **关键词**: 灾难性遗忘, 低秩关联, 矩阵补全, 遗忘预测, 选择性回放
 
 ## 一句话总结
@@ -121,10 +121,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Differentially Private Federated Low Rank Adaptation Beyond Fixed-Matrix](differentially_private_federated_low_rank_adaptation_beyond_fixed-matrix.md)
+- [\[CVPR 2025\] Low-Rank Adaptation in Multilinear Operator Networks for Security-Preserving Incremental Learning](../../CVPR2025/llm_safety/low-rank_adaptation_in_multilinear_operator_networks_for_security-preserving_inc.md)
 - [\[ACL 2025\] Exploring Forgetting in Large Language Model Pre-Training](../../ACL2025/llm_safety/exploring_forgetting_in_large_language_model_pre-training.md)
-- [\[ACL 2025\] REVS: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space](../../ACL2025/llm_safety/revs_unlearning_sensitive_information_in_language_models_via_rank_editing_in_the.md)
-- [\[ACL 2025\] Unveiling and Addressing Pseudo Forgetting in Large Language Models](../../ACL2025/llm_safety/unveiling_and_addressing_pseudo_forgetting_in_large_language_models.md)
-- [\[ICLR 2026\] Self-Destructive Language Model](../../ICLR2026/llm_safety/self-destructive_language_model.md)
-- [\[ACL 2025\] CLIPErase: Efficient Unlearning of Visual-Textual Associations in CLIP](../../ACL2025/llm_safety/cliperase_efficient_unlearning_of_visual-textual_associations_in_clip.md)
+- [\[NeurIPS 2025\] Self-Refining Language Model Anonymizers via Adversarial Distillation](self-refining_language_model_anonymizers_via_adversarial_distillation.md)
+- [\[NeurIPS 2025\] InvisibleInk: High-Utility and Low-Cost Text Generation with Differential Privacy](invisibleink_high-utility_and_low-cost_text_generation_with_differential_privacy.md)
 
 <!-- RELATED:END -->

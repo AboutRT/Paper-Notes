@@ -9,7 +9,7 @@ tags:
   - 体育视频
   - 类别不平衡
   - 时序依赖
-  - 对比学习
+  - LLM预训练
 ---
 
 # Precise Event Spotting in Sports Videos: Solving Long-Range Dependency and Class Imbalance
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.00147](https://arxiv.org/abs/2503.00147)  
 **代码**: 无  
-**领域**: 其他/视频事件检测  
+**领域**: LLM预训练  
 **关键词**: 精确事件定位, 体育视频, 类别不平衡, 时序依赖, 对比学习
 
 ## 一句话总结
@@ -137,10 +137,10 @@ $$\mathcal{L}_{final} = \mathcal{L}_{BCE} + \lambda_{SIC} \cdot \mathcal{L}_{SIC
 
 ## 相关论文
 
-- [\[ICLR 2026\] Reducing Class-Wise Performance Disparity via Margin Regularization](../../ICLR2026/llm_pretraining/reducing_class-wise_performance_disparity_via_margin_regularization.md)
-- [\[ACL 2025\] Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset](../../ACL2025/llm_pretraining/nemotron_cc_pretraining_data.md)
-- [\[CVPR 2026\] Watch and Learn: Learning to Use Computers from Online Videos](../../CVPR2026/llm_pretraining/watch_and_learn_learning_to_use_computers_from_online_videos.md)
-- [\[ICML 2025\] A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning](../../ICML2025/llm_pretraining/a_square_peg_in_a_square_hole_meta-expert_for_long-tailed_semi-supervised_learni.md)
+- [\[ICCV 2025\] Synchronization of Multiple Videos](../../ICCV2025/llm_pretraining/synchronization_of_multiple_videos.md)
+- [\[NeurIPS 2025\] Deep Compositional Phase Diffusion for Long Motion Sequence Generation](../../NeurIPS2025/llm_pretraining/deep_compositional_phase_diffusion_for_long_motion_sequence_generation.md)
+- [\[CVPR 2026\] Watch and Learn: Learning to Use Computers from Online Videos](../../CVPR2026/llm_pretraining/watch_and_learn_computer_use_from_videos.md)
 - [\[AAAI 2026\] No-Regret Strategy Solving in Imperfect-Information Games via Pre-Trained Embedding](../../AAAI2026/llm_pretraining/no-regret_strategy_solving_in_imperfect-information_games_via_pre-trained_embedd.md)
+- [\[ICLR 2026\] Reducing Class-Wise Performance Disparity via Margin Regularization](../../ICLR2026/llm_pretraining/reducing_class-wise_performance_disparity_via_margin_regularization.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 语音
   - Emotion Recognition in Conversation
   - 提示学习
-  - Retrieval-Augmented Generation
+  - 音频语音
   - Curriculum Learning
   - LLM Fine-tuning
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.07061](https://arxiv.org/abs/2511.07061)  
 **代码**: [LiXinran6/PRC-Emo](https://github.com/LiXinran6/PRC-Emo)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Emotion Recognition in Conversation, Prompt Engineering, Retrieval-Augmented Generation, Curriculum Learning, LLM Fine-tuning
 
 ## 一句话总结
@@ -156,8 +156,8 @@ Prompt 模块贡献最大（去掉后 IEMOCAP 下降 2.20），说明显式/隐�
 ## 相关论文
 
 - [\[AAAI 2026\] Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition](let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md)
-- [\[ICML 2025\] Teaching Physical Awareness to LLMs through Sounds](../../ICML2025/audio_speech/teaching_physical_awareness_to_llms_through_sounds.md)
 - [\[AAAI 2026\] Cross-Space Synergy: A Unified Framework for Multimodal Emotion Recognition in Conversation](cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md)
+- [\[ICML 2025\] Teaching Physical Awareness to LLMs through Sounds](../../ICML2025/audio_speech/teaching_physical_awareness_to_llms_through_sounds.md)
 - [\[ICLR 2026\] Dynamic Parameter Memory: Temporary LoRA-Enhanced LLM for Long-Sequence Emotion Recognition in Conversation](../../ICLR2026/audio_speech/dynamic_parameter_memory_temporary_lora-enhanced_llm_for_long-sequence_emotion_r.md)
 - [\[ICLR 2026\] EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning](../../ICLR2026/audio_speech/emotionthinker_prosody-aware_reinforcement_learning_for_explainable_speech_emoti.md)
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.04453](https://arxiv.org/abs/2506.04453)  
-**代码**: https://github.com/info-ucr/PEFTLeak  
+**代码**: [https://github.com/info-ucr/PEFTLeak](https://github.com/info-ucr/PEFTLeak)  
 **领域**: AI安全  
 **关键词**: 隐私攻击、梯度反演、PEFT安全、联邦学习、Adapter漏洞
 
@@ -116,10 +116,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] Geminio: Language-Guided Gradient Inversion Attacks in Federated Learning](../../ICCV2025/ai_safety/geminio_language-guided_gradient_inversion_attacks_in_federated_learning.md)
 - [\[AAAI 2026\] Plug-and-Play Parameter-Efficient Tuning of Embeddings for Federated Recommendation](../../AAAI2026/ai_safety/plug-and-play_parameter-efficient_tuning_of_embeddings_for_federated_recommendat.md)
-- [\[ICML 2025\] Ferret: Federated Full-Parameter Tuning at Scale for Large Language Models](../../ICML2025/ai_safety/ferret_federated_full-parameter_tuning_at_scale_for_large_language_models.md)
-- [\[NeurIPS 2025\] Adaptive LoRA Experts Allocation and Selection for Federated Fine-Tuning](../../NeurIPS2025/ai_safety/adaptive_lora_experts_allocation_and_selection_for_federated_fine-tuning.md)
 - [\[ICCV 2025\] LoRA-FAIR: Federated LoRA Fine-Tuning with Aggregation and Initialization Refinement](../../ICCV2025/ai_safety/lora-fair_federated_lora_fine-tuning_with_aggregation_and_initialization_refinem.md)
+- [\[CVPR 2025\] Detecting Backdoor Attacks in Federated Learning via Direction Alignment Inspection](detecting_backdoor_attacks_in_federated_learning_via_direction_alignment_inspect.md)
+- [\[AAAI 2026\] Fine-Grained DINO Tuning with Dual Supervision for Face Forgery Detection](../../AAAI2026/ai_safety/fine-grained_dino_tuning_with_dual_supervision_for_face_forgery_detection.md)
+- [\[CVPR 2025\] DEAL: Data-Efficient Adversarial Learning for High-Quality Infrared Imaging](deal_data-efficient_adversarial_learning_for_high-quality_infrared_imaging.md)
 
 <!-- RELATED:END -->

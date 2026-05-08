@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.15211](https://arxiv.org/abs/2412.15211)  
-**代码**: https://relight-to-reconstruct.github.io/ (项目页)  
+**代码**: [https://relight-to-reconstruct.github.io/](https://relight-to-reconstruct.github.io/) (项目页)  
 **领域**: 3D视觉 / 三维重建  
 **关键词**: 多视图重光照, 3D重建, 扩散模型, 极端光照变化, NeRF
 

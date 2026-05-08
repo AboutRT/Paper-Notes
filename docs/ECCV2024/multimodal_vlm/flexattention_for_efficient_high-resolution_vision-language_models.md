@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.20228](https://arxiv.org/abs/2407.20228)  
-**代码**: https://vis-www.cs.umass.edu/flexattention  
+**代码**: [https://vis-www.cs.umass.edu/flexattention](https://vis-www.cs.umass.edu/flexattention)  
 **领域**: 多模态VLM  
 **关键词**: 高分辨率VLM, 注意力机制, 动态token选择, 层次化自注意力, 计算效率
 
@@ -180,7 +180,7 @@ FlexAttention的TFLOPs比LLaVA-HD降低约31%，比LLaVA-XAttn降低约37%。实
 - [\[ECCV 2024\] FlexAttention for Efficient High-Resolution Vision-Language Models](flexattention_for_efficient_highresolution_visionlanguage_mo.md)
 - [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](attention_prompting_on_image_for_large_visionlanguage_models.md)
 - [\[ECCV 2024\] Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding](classact_active_learning.md)
-- [\[ECCV 2024\] DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_.md)
-- [\[ECCV 2024\] Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs](metaprompting_for_automating_zeroshot_visual_recognitio.md)
+- [\[ECCV 2024\] Zero-shot Object Counting with Good Exemplars (VA-Count)](zero-shot_object_counting_with_good_exemplars.md)
+- [\[ECCV 2024\] Merlin: Empowering Multimodal LLMs with Foresight Minds](merlin_empowering_multimodal_llms_with_foresight_minds.md)
 
 <!-- RELATED:END -->

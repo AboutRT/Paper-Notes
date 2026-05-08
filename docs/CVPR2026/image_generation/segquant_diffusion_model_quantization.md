@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2507.14811](https://arxiv.org/abs/2507.14811)  
-**代码**: [https://github.com/OptiSys-ZJU/segquant](https://github.com/OptiSys-ZJU/segquant) (有)  
-**领域**: 模型压缩 / 扩散模型  
+**代码**: [https://github.com/OptiSys-ZJU/segquant](https://github.com/OptiSys-ZJU/segquant)  
+**领域**: 图像生成  
 **关键词**: 后训练量化, 语义感知分段, 极性保持, 部署友好, DiT量化  
 
 ## 一句话总结
@@ -125,9 +125,9 @@ SegLinear 在敏感层上大幅降低量化误差。
 ## 相关论文
 
 - [\[CVPR 2026\] TRACE: Structure-Aware Character Encoding for Robust and Generalizable Document Watermarking](trace_structure-aware_character_encoding_for_robust_and_generalizable_document_w.md)
-- [\[CVPR 2026\] Smoothing the Score Function for Generalization in Diffusion Models: An Optimization-based Explanation Framework](smoothing_the_score_function_for_generalization_in_diffusion_models.md)
+- [\[CVPR 2026\] Learning by Neighbor-Aware Semantics, Deciding by Open-form Flows: Towards Robust Zero-Shot Skeleton Action Recognition](learning_by_neighbor-aware_semantics_deciding_by_open-form_flows_towards_robust_.md)
+- [\[CVPR 2026\] Smoothing the Score Function for Generalization in Diffusion Models: An Optimization-based Explanation Framework](smoothing_score_function_generalization_diffusion_models.md)
 - [\[CVPR 2026\] Neighbor-Aware Localized Concept Erasure in Text-to-Image Diffusion Models](neighbor-aware_localized_concept_erasure_in_text-to-image_diffusion_models.md)
 - [\[CVPR 2026\] Quantization with Unified Adaptive Distillation to enable multi-LoRA based one-for-all Generative Vision Models on edge](quantization_with_unified_adaptive_distillation_to_enable_multi-lora_based_one-f.md)
-- [\[CVPR 2026\] RAZOR: Ratio-Aware Layer Editing for Targeted Unlearning in Vision Transformers and Diffusion Models](razor_ratio_aware_unlearning_vit_diffusion.md)
 
 <!-- RELATED:END -->

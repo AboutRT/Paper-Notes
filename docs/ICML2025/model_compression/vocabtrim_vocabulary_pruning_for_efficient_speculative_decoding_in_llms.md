@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.22694](https://arxiv.org/abs/2506.22694)  
 **代码**: -  
-**领域**: LLM Inference / Speculative Decoding  
+**领域**: 模型压缩  
 **关键词**: speculative decoding, vocabulary pruning, LM head, EAGLE, inference acceleration  
 
 ## 一句话总结

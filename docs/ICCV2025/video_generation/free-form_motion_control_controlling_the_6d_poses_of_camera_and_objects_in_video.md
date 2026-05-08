@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2501.01425](https://arxiv.org/abs/2501.01425)  
-**代码**: https://henghuiding.com/SynFMC/  
-**领域**: 3d_vision / 视频生成运动控制  
+**代码**: [https://henghuiding.com/SynFMC/](https://henghuiding.com/SynFMC/)  
+**领域**: 视频生成  
 **关键词**: 视频生成, 6D位姿控制, 相机运动, 物体运动, 合成数据集, 文本到视频
 
 ## 一句话总结

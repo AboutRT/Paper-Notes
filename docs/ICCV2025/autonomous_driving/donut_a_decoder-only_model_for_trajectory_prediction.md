@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2506.06854](https://arxiv.org/abs/2506.06854)  
-**代码**: https://vision.rwth-aachen.de/donut  
-**领域**: autonomous_driving  
+**代码**: [https://vision.rwth-aachen.de/donut](https://vision.rwth-aachen.de/donut)  
+**领域**: 自动驾驶  
 **关键词**: 轨迹预测, decoder-only, 自回归模型, 运动预测, 自动驾驶
 
 ## 一句话总结

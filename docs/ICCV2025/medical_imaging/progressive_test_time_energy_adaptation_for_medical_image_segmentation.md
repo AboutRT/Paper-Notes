@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2503.16616](https://arxiv.org/abs/2503.16616)  
 **代码**: 无  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: test-time adaptation, energy-based model, medical image segmentation, domain shift, shape prior
 
 ## 一句话总结

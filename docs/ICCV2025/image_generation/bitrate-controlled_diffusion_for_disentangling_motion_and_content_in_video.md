@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2509.08376](https://arxiv.org/abs/2509.08376)  
 **代码**: 无  
-**领域**: 视频生成 / 表征学习  
+**领域**: 图像生成  
 **关键词**: 视频解耦, 运动与内容分离, 信息瓶颈, 矢量量化, 扩散模型
 
 ## 一句话总结
@@ -148,8 +148,8 @@ $$\mathcal{L} = \mathcal{L}_d + \lambda \mathcal{L}_{VQ} = \text{MSE}(z, \tilde{
 
 - [\[ICCV 2025\] StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross Fusion](stylemotif_multi-modal_motion_stylization_using_style-content_cross_fusion.md)
 - [\[ICCV 2025\] Video Motion Graphs](video_motion_graphs.md)
+- [\[CVPR 2025\] DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning](../../CVPR2025/image_generation/dreamvideo-omni_omni-motion_controlled_multi-subject_video_customization_with_la.md)
 - [\[ICCV 2025\] SummDiff: Generative Modeling of Video Summarization with Diffusion](summdiff_generative_modeling_of_video_summarization_with_diffusion.md)
-- [\[ECCV 2024\] WildVidFit: Video Virtual Try-On in the Wild via Image-Based Controlled Diffusion Models](../../ECCV2024/image_generation/wildvidfit_video_virtual_try-on_in_the_wild_via_image-based_controlled_diffusion.md)
 - [\[ICCV 2025\] SMGDiff: Soccer Motion Generation using Diffusion Probabilistic Models](smgdiff_soccer_motion_generation_using_diffusion_probabilistic_models.md)
 
 <!-- RELATED:END -->

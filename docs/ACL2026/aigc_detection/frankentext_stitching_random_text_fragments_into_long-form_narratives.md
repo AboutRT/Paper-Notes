@@ -11,7 +11,7 @@ tags: [AIGC检测, 混合作者归因, 文本生成, LLM, 可控生成]
 **会议**: ACL 2026
 **arXiv**: [2505.18128](https://arxiv.org/abs/2505.18128)
 **代码**: [GitHub](https://github.com/chtmp223/Frankentext)
-**领域**: aigc_detection
+**领域**: AIGC检测
 **关键词**: AIGC检测, 混合作者归因, 可控文本生成, AI文本检测器, 人机协作写作
 
 ## 一句话总结
@@ -116,3 +116,15 @@ Frankentext pipeline包含两个主要阶段：首先，从大型书籍语料库
 - 实验充分度: ⭐⭐⭐⭐⭐ 5个模型系列、3个检测器、人类评估、多个消融实验，覆盖面极广
 - 写作质量: ⭐⭐⭐⭐ 论文结构清晰，弗兰肯斯坦的类比生动，但某些部分可再精炼
 - 价值: ⭐⭐⭐⭐⭐ 对AI文本检测领域具有重要警示意义，推动了从二分类向细粒度检测的转变
+
+<!-- RELATED:START -->
+
+## 相关论文
+
+- [\[ACL 2026\] Reasoning-Based Refinement of Unsupervised Text Clusters with LLMs](reasoning-based_refinement_of_unsupervised_text_clusters_with_llms.md)
+- [\[ICLR 2026\] DMAP: A Distribution Map for Text](../../ICLR2026/aigc_detection/dmap_a_distribution_map_for_text.md)
+- [\[ACL 2026\] Temporal Flattening in LLM-Generated Text: Comparing Human and LLM Writing Trajectories](temporal_flattening_in_llm-generated_text_comparing_human_and_llm_writing_trajec.md)
+- [\[AAAI 2026\] Optimized Algorithms for Text Clustering with LLM-Generated Constraints](../../AAAI2026/aigc_detection/optimized_algorithms_for_text_clustering_with_llm-generated_constraints.md)
+- [\[ACL 2026\] When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection](when_personalization_tricks_detectors_the_feature-inversion_trap_in_machine-gene.md)
+
+<!-- RELATED:END -->

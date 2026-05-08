@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Cut to the Chase: Training-free Multimodal Summarization via Chain-of-Events
 description: >-
-  [CVPR 2026][多模态摘要] 提出 CoE，一个免训练的多模态摘要框架，通过构建层次事件图（HEG）引导链式事件推理，在8个数据集上超越SOTA视频CoT基线，平均提升 +3.04 ROUGE、+9.51 CIDEr、+1.88 BERTScore。
+  [CVPR 2026][可解释性] 提出 CoE，一个免训练的多模态摘要框架，通过构建层次事件图（HEG）引导链式事件推理，在8个数据集上超越SOTA视频CoT基线，平均提升 +3.04 ROUGE、+9.51 CIDEr、+1.88 BERTScore。
 tags:
   - CVPR 2026
-  - 多模态摘要
+  - 可解释性
   - 免训练
   - 事件链推理
   - 层次事件图
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.06213](https://arxiv.org/abs/2603.06213)  
 **代码**: [GitHub](https://github.com/youxiaoxing/CoE)  
-**领域**: 多模态VLM  
+**领域**: 可解释性  
 **关键词**: 多模态摘要, 免训练, 事件链推理, 层次事件图, 跨域泛化
 
 ## 一句话总结
@@ -129,7 +129,7 @@ CoE 包含四个模块：(1) 层次事件图（HEG）构建 → (2) 跨模态空
 - [\[CVPR 2026\] SubspaceAD: Training-Free Few-Shot Anomaly Detection via Subspace Modeling](subspacead_training-free_few-shot_anomaly_detection_via_subspace_modeling.md)
 - [\[CVPR 2026\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
 - [\[CVPR 2026\] Reallocating Attention Across Layers to Reduce Multimodal Hallucination](reallocating_attention_reduce_hallucination.md)
-- [\[CVPR 2026\] From Weights to Concepts: Data-Free Interpretability of CLIP via Singular Vector Decomposition](from_weights_to_concepts_data-free_interpretability_of_clip_via_singular_vector_.md)
-- [\[NeurIPS 2025\] Curvature Tuning: Provable Training-free Model Steering From a Single Parameter](../../NeurIPS2025/interpretability/curvature_tuning_provable_training-free_model_steering_from_a_single_parameter.md)
+- [\[NeurIPS 2025\] VADTree: Explainable Training-Free Video Anomaly Detection via Hierarchical Granularity](../../NeurIPS2025/interpretability/vadtree_explainable_training-free_video_anomaly_detection_via_hierarchical_granu.md)
+- [\[ACL 2026\] ThreadSumm: Summarization of Nested Discourse Threads Using Tree of Thoughts](../../ACL2026/interpretability/threadsumm_summarization_of_nested_discourse_threads_using_tree_of_thoughts.md)
 
 <!-- RELATED:END -->

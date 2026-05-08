@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2311.13958](https://arxiv.org/abs/2311.13958)  
 **代码**: [jzheng20/MOTC](https://github.com/jzheng20/MOTC)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: tensor completion, tensor SVD, multi-objective optimization, learnable tensor nuclear norm, non-smooth tensor recovery
 
 ## 一句话总结
@@ -154,10 +154,10 @@ MOTC 在视频修复中超越第三名方法 **3.5 dB 以上**，部分视频改
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Stochastic Momentum Methods for Non-smooth Non-Convex Finite-Sum Coupled Compositional Optimization](../../NeurIPS2025/optimization/stochastic_momentum_methods_for_non-smooth_non-convex_finite-sum_coupled_composi.md)
 - [\[AAAI 2026\] MOTIF: Multi-strategy Optimization via Turn-based Interactive Framework](../../AAAI2026/optimization/motif_multi-strategy_optimization_via_turn-based_interactive_framework.md)
 - [\[NeurIPS 2025\] MOBO-OSD: Batch Multi-Objective Bayesian Optimization via Orthogonal Search Directions](../../NeurIPS2025/optimization/mobo-osd_batch_multi-objective_bayesian_optimization_via_orthogonal_search_direc.md)
-- [\[NeurIPS 2025\] Memory-Augmented Potential Field Theory: A Framework for Adaptive Control in Non-Convex Domains](../../NeurIPS2025/optimization/memory-augmented_potential_field_theory_a_framework_for_adaptive_control_in_non-.md)
 - [\[AAAI 2026\] Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization](../../AAAI2026/optimization/pareto-grid-guided_large_language_models_for_fast_and_high-quality_heuristics_de.md)
-- [\[ICLR 2026\] Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization](../../ICLR2026/optimization/faster_gradient_methods_for_highly-smooth_stochastic_bilevel_optimization.md)
+- [\[NeurIPS 2025\] Memory-Augmented Potential Field Theory: A Framework for Adaptive Control in Non-Convex Domains](../../NeurIPS2025/optimization/memory-augmented_potential_field_theory_a_framework_for_adaptive_control_in_non-.md)
 
 <!-- RELATED:END -->

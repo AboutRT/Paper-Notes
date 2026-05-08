@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.09434](https://arxiv.org/abs/2403.09434)  
-**代码**: https://zlicheng.com/spring_gaus  
+**代码**: [https://zlicheng.com/spring_gaus](https://zlicheng.com/spring_gaus)  
 **领域**: 3D视觉 / 物理仿真  
 **关键词**: 3D高斯, 弹性物体, 弹簧质点模型, 系统辨识, 物理仿真
 

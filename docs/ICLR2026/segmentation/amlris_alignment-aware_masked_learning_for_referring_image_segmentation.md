@@ -16,7 +16,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.22740](https://arxiv.org/abs/2602.22740)  
 **代码**: [GitHub](https://github.com/pipashu1/AMLRIS)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: referring image segmentation, vision-language alignment, masked learning, cross-modal similarity  
 
 ## 一句话总结

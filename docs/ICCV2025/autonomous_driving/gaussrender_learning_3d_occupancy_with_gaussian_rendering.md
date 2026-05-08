@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.05040](https://arxiv.org/abs/2502.05040)  
-**代码**: https://github.com/valeoai/GaussRender (有)  
+**代码**: [https://github.com/valeoai/GaussRender](https://github.com/valeoai/GaussRender)  
 **领域**: 自动驾驶  
 **关键词**: 3D Occupancy Prediction, Gaussian Splatting, Differentiable Rendering, Projective Consistency, autonomous driving
 

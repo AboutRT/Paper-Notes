@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.18361](https://arxiv.org/abs/2503.18361)  
-**代码**: https://wen-yuan-zhang.github.io/NeRFPrior/  
+**代码**: [https://wen-yuan-zhang.github.io/NeRFPrior/](https://wen-yuan-zhang.github.io/NeRFPrior/)  
 **领域**: 3D视觉  
 **关键词**: NeRF先验、SDF重建、多视图一致性、深度先验、室内场景
 
@@ -128,6 +128,6 @@ $\mathcal{L} = \mathcal{L}_{rgb} + \lambda_1 \mathcal{L}_\sigma + \lambda_2 \mat
 - [\[CVPR 2025\] Depth-Guided Bundle Sampling for Efficient Generalizable Neural Radiance Field Reconstruction](depth-guided_bundle_sampling_for_efficient_generalizable_neural_radiance_field_r.md)
 - [\[CVPR 2025\] ProbeSDF: Light Field Probes for Neural Surface Reconstruction](probesdf_light_field_probes_for_neural_surface_reconstruction.md)
 - [\[CVPR 2025\] LookCloser: Frequency-aware Radiance Field for Tiny-Detail Scene (FA-NeRF)](lookcloser_frequency-aware_radiance_field_for_tiny-detail_scene.md)
-- [\[CVPR 2025\] Global-Local Tree Search in VLMs for 3D Indoor Scene Generation](global-local_tree_search_in_vlms_for_3d_indoor_scene_generation.md)
+- [\[CVPR 2025\] Sparse Voxels Rasterization: Real-time High-fidelity Radiance Field Rendering](sparse_voxels_rasterization_real-time_high-fidelity_radiance_field_rendering.md)
 
 <!-- RELATED:END -->

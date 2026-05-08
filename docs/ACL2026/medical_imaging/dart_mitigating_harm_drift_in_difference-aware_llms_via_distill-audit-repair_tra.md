@@ -14,7 +14,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.16845](https://arxiv.org/abs/2604.16845)  
 **代码**: [GitHub](https://github.com/dart-framework)  
-**领域**: AI安全 / LLM对齐  
+**领域**: 医学图像  
 **关键词**: 差异感知, 危害漂移, 蒸馏-审计-修复, 安全对齐, 过度拒绝
 
 ## 一句话总结

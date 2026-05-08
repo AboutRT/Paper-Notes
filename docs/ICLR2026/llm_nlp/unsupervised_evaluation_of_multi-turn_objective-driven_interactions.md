@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2511.03047](https://arxiv.org/abs/2511.03047)  
 **代码**: 未公开（论文提及最终版将发布）  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: Unsupervised Evaluation, Multi-Turn Dialogue, Goal Completion, LLM Uncertainty, Response Tree, LLM-Guided Clustering  
 **作者**: Emi Soroka, Tanmay Chopra, Krish Desai, Sanjay Lall（Stanford & Emissary Technologies）
 

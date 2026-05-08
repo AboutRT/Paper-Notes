@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 社会计算方向5篇论文解读
+  CVPR2025 社会计算方向6篇论文解读
 description: >-
-  5篇CVPR2025的社会计算方向论文解读，收录 As Language Models Scale, Low-、As Language Models Scale, Low-、Classifier-guided CLIP Distill等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  6篇CVPR2025的社会计算方向论文解读，涵盖对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 👥 社会计算
 
-**📷 CVPR2025** · **5** 篇论文解读
+**📷 CVPR2025** · **6** 篇论文解读
 
 **[As Language Models Scale, Low-order Linear Depth Dynamics Emerge](as_language_models_scale_low-order_linear_depth_dynamics_emerge.md)**
 
@@ -29,3 +29,7 @@ description: >-
 **[Learning from Neighbors: Category Extrapolation for Long-Tail Learning](learning_from_neighbors_category_extrapolation_for_long-tail_learning.md)**
 
 :   发现更细粒度的类别划分天然减轻长尾不平衡的影响，提出用 LLM 发现与现有类别相关的细粒度辅助类 + 网络爬虫收集图像 + 邻近静默损失防止辅助类喧宾夺主，在 ImageNet-LT 上 Few 类提升 16 个百分点（41.4→57.4）。
+
+**[Project-Probe-Aggregate: Efficient Fine-Tuning for Group Robustness](project-probe-aggregate_efficient_fine-tuning_for_group_robustness.md)**
+
+:   提出 PPA（Project-Probe-Aggregate）三步方法，通过投影去除类代理信息放大偏差、以组先验校正探测组标签、聚合组权重，仅需不到 0.01% 可训练参数即可在无组标注情况下提升基础模型的群组鲁棒性。

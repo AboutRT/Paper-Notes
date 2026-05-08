@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2504.17921](https://arxiv.org/abs/2504.17921)  
-**代码**: https://github.com/mateoespinosa/cem  
-**领域**: 其他/可解释AI  
+**代码**: [https://github.com/mateoespinosa/cem](https://github.com/mateoespinosa/cem)  
+**领域**: 可解释性  
 **关键词**: 概念瓶颈模型, 概念干预, 分布偏移, 泄漏中毒, 可解释性
 
 ## 一句话总结
@@ -146,10 +146,10 @@ CUB-200（鸟类分类，不同类型OOD偏移）：
 
 ## 相关论文
 
+- [\[ICML 2025\] Reactivation: Empirical NTK Dynamics Under Task Shifts](reactivation_empirical_ntk_dynamics_under_task_shifts.md)
 - [\[ICML 2025\] Concept-Based Unsupervised Domain Adaptation](concept-based_unsupervised_domain_adaptation.md)
+- [\[ICML 2025\] Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)
+- [\[ICML 2025\] Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)
 - [\[NeurIPS 2025\] Conditional Distribution Compression via the Kernel Conditional Mean Embedding](../../NeurIPS2025/interpretability/conditional_distribution_compression_via_the_kernel_conditional_mean_embedding.md)
-- [\[ICCV 2025\] Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations](../../ICCV2025/interpretability/granular_concept_circuits_toward_a_fine-grained_circuit_discovery_for_concept_re.md)
-- [\[AAAI 2026\] Flexible Concept Bottleneck Model](../../AAAI2026/interpretability/flexible_concept_bottleneck_model.md)
-- [\[CVPR 2026\] Towards Faithful Multimodal Concept Bottleneck Models](../../CVPR2026/interpretability/towards_faithful_multimodal_concept_bottleneck_models.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Are Bias Evaluation Methods Biased?
 description: >-
-  [ACL 2025][偏见评估] 严格控制变量后比较三种主流偏见评估方法（结构化问答 BBQ、LLM-as-a-Judge、情感分析），发现不同方法对同一组 LLM 产生显著不同的偏见排名——偏见评估方法本身就是有偏的，企业不应依赖单一偏见基准来选择模型。
+  [ACL 2025][其他] 严格控制变量后比较三种主流偏见评估方法（结构化问答 BBQ、LLM-as-a-Judge、情感分析），发现不同方法对同一组 LLM 产生显著不同的偏见排名——偏见评估方法本身就是有偏的，企业不应依赖单一偏见基准来选择模型。
 tags:
   - ACL 2025
-  - 偏见评估
+  - 其他
   - 排名一致性
   - 社会偏见
   - 基准鲁棒性
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.17111](https://arxiv.org/abs/2506.17111)  
 **代码**: 无  
-**领域**: LLM公平性 / 评测方法论  
+**领域**: 其他  
 **关键词**: 偏见评估, 排名一致性, 社会偏见, 基准鲁棒性, 元评估
 
 ## 一句话总结
@@ -125,8 +125,8 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Causal Estimation of Tokenisation Bias](causal_tokenisation_bias.md)
 - [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
+- [\[ACL 2025\] Causal Estimation of Tokenisation Bias](causal_tokenisation_bias.md)
 - [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
 - [\[ACL 2025\] Minimal Pair-Based Evaluation of Code-Switching](minimal_pair-based_evaluation_of_code-switching.md)
 - [\[ACL 2025\] Towards Better Evaluation for Generated Patent Claims](patclaimeval_patent_evaluation.md)

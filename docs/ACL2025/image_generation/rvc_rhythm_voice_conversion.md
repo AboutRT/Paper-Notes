@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01014](https://arxiv.org/abs/2506.01014)  
 **代码**: [https://r-vc929.github.io/r-vc/](https://r-vc929.github.io/r-vc/)  
-**领域**: LLM效率  
+**领域**: 图像生成  
 **关键词**: voice conversion, flow matching, rhythm control, DiT, duration modeling
 
 ## 一句话总结

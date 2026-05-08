@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2409.12957](https://arxiv.org/abs/2409.12957)  
-**代码**: https://github.com/3DTopia/3DTopia-XL (有)  
+**代码**: [https://github.com/3DTopia/3DTopia-XL](https://github.com/3DTopia/3DTopia-XL)  
 **领域**: 3D生成 / 图像生成  
 **关键词**: 3D生成, PBR材质, 原语表示, 扩散Transformer, 纹理网格
 
@@ -138,7 +138,7 @@ tags:
 - [\[CVPR 2025\] OmniStyle: Filtering High Quality Style Transfer Data at Scale](omnistyle_filtering_high_quality_style_transfer_data_at_scale.md)
 - [\[CVPR 2025\] EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation](eden_enhanced_diffusion_for_high-quality_large-motion_video_frame_interpolation.md)
 - [\[CVPR 2025\] EmoDubber: Towards High Quality and Emotion Controllable Movie Dubbing](emodubber_towards_high_quality_and_emotion_controllable_movie_dubbing.md)
-- [\[CVPR 2025\] ArtiFade: Learning to Generate High-quality Subject from Blemished Images](artifade_learning_to_generate_high-quality_subject_from_blemished_images.md)
 - [\[CVPR 2025\] StableAnimator: High-Quality Identity-Preserving Human Image Animation](stableanimator_high-quality_identity-preserving_human_image_animation.md)
+- [\[CVPR 2025\] ArtiFade: Learning to Generate High-quality Subject from Blemished Images](artifade_learning_to_generate_high-quality_subject_from_blemished_images.md)
 
 <!-- RELATED:END -->

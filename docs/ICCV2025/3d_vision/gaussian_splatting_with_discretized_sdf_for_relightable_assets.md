@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.15629](https://arxiv.org/abs/2507.15629)  
-**代码**: https://github.com/NK-CS-ZZL/DiscretizedSDF  
+**代码**: [https://github.com/NK-CS-ZZL/DiscretizedSDF](https://github.com/NK-CS-ZZL/DiscretizedSDF)  
 **领域**: 3D视觉  
 **关键词**: 逆渲染, 3D高斯溅射, 离散化SDF, 几何正则化, 重光照
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Measuring Model Performance in the Presence of an Intervention
 description: >-
-  [AAAI 2026][模型评估] 针对存在干预（intervention）时 AI 模型评估偏差的问题，提出 Nuisance Parameter Weighting (NPW) 方法，通过对 RCT 治疗组数据进行因果加权，实现无偏的 AUROC 估计，使样本效率提升 5 倍，显著改善了模型选择和假设检验的统计功效。
+  [AAAI 2026][其他] 针对存在干预（intervention）时 AI 模型评估偏差的问题，提出 Nuisance Parameter Weighting (NPW) 方法，通过对 RCT 治疗组数据进行因果加权，实现无偏的 AUROC 估计，使样本效率提升 5 倍，显著改善了模型选择和假设检验的统计功效。
 tags:
   - AAAI 2026
-  - 模型评估
+  - 其他
   - 随机对照试验
   - AUROC
   - 干预效应
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.05805](https://arxiv.org/abs/2511.05805)  
 **代码**: [GitHub](https://github.com/MLD3/NPW)  
-**领域**: AI 评估方法 / 因果推断  
+**领域**: 其他  
 **关键词**: 模型评估, 随机对照试验, AUROC, 干预效应, 因果推断
 
 ## 一句话总结
@@ -138,9 +138,9 @@ NPW 本身不涉及模型训练，而是一种评估方法。其 nuisance parame
 ## 相关论文
 
 - [\[ACL 2025\] Rationales Are Not Silver Bullets: Measuring the Impact of Rationales on Model Performance and Reliability](../../ACL2025/others/rationales_are_not_silver_bullets_measuring_the_impact_of_rationales_on_model_pe.md)
+- [\[AAAI 2026\] UniShape: A Unified Shape-Aware Foundation Model for Time Series Classification](a_unified_shape-aware_foundation_model_for_time_series_class.md)
+- [\[AAAI 2026\] Tractable Weighted First-Order Model Counting with Bounded Treewidth Binary Evidence](tractable_weighted_first-order_model_counting_with_bounded_treewidth_binary_evid.md)
 - [\[AAAI 2026\] I2E: Real-Time Image-to-Event Conversion for High-Performance Spiking Neural Networks](i2e_real-time_image-to-event_conversion_for_high-performance_spiking_neural_netw.md)
 - [\[AAAI 2026\] Model Change for Description Logic Concepts](model_change_for_description_logic_concepts.md)
-- [\[AAAI 2026\] Model Counting for Dependency Quantified Boolean Formulas](model_counting_for_dependency_quantified_boolean_formulas.md)
-- [\[ECCV 2024\] COIN-Matting: Confounder Intervention for Image Matting](../../ECCV2024/others/coin-matting_confounder_intervention_for_image_matting.md)
 
 <!-- RELATED:END -->

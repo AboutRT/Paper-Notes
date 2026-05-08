@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.09491](https://arxiv.org/abs/2504.09491)  
-**代码**: https://xuyx55.github.io/DropoutGS/ (有)  
+**代码**: [https://xuyx55.github.io/DropoutGS/](https://xuyx55.github.io/DropoutGS/)  
 **领域**: 3D视觉  
 **关键词**: 稀疏视角渲染, 3D高斯泼溅, Dropout正则化, 边缘引导分裂, 过拟合缓解
 
@@ -127,6 +127,6 @@ DropoutGS 由两个互补模块组成：（1）Random Dropout Regularization（R
 - [\[CVPR 2025\] DropGaussian: Structural Regularization for Sparse-view Gaussian Splatting](dropgaussian_structural_regularization_for_sparse-view_gaussian_splatting.md)
 - [\[CVPR 2026\] DropAnSH-GS: Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting](../../CVPR2026/3d_vision/dropping_anchor_and_spherical_harmonics_for_sparse-view_gaussian_splatting.md)
 - [\[CVPR 2025\] Sparse Voxels Rasterization: Real-time High-fidelity Radiance Field Rendering](sparse_voxels_rasterization_real-time_high-fidelity_radiance_field_rendering.md)
-- [\[CVPR 2025\] Learnable Infinite Taylor Gaussian for Dynamic View Rendering](learnable_infinite_taylor_gaussian_for_dynamic_view_rendering.md)
+- [\[CVPR 2025\] Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives](speedy-splat_fast_3d_gaussian_splatting_with_sparse_pixels_and_sparse_primitives.md)
 
 <!-- RELATED:END -->

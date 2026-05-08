@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2409.17458](https://arxiv.org/abs/2409.17458)  
-**代码**: https://github.com/kriti-hippo/red_queen  
+**代码**: [https://github.com/kriti-hippo/red_queen](https://github.com/kriti-hippo/red_queen)  
 **领域**: AI安全 / 对齐RLHF  
 **关键词**: Jailbreak Attack, Multi-Turn, Theory of Mind, 意图隐藏, DPO防御
 

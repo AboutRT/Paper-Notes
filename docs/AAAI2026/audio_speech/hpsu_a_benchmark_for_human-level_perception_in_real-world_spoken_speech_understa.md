@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI2026
   - 语音
-  - Speech LLM
+  - 音频语音
   - benchmark
   - spoken language understanding
   - emotion reasoning
@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.23178](https://arxiv.org/abs/2511.23178)  
 **代码**: [Ichen12/HPSU-Benchmark](https://github.com/Ichen12/HPSU-Benchmark)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: Speech LLM, benchmark, spoken language understanding, emotion reasoning, adversarial evaluation
 
 ## 一句话总结

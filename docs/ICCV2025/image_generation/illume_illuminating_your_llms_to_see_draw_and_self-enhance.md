@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.06673](https://arxiv.org/abs/2412.06673)  
 **代码**: 无公开  
-**领域**: image_generation / multimodal_vlm  
+**领域**: 图像生成  
 **关键词**: 统一多模态模型, 视觉理解与生成, 语义视觉分词器, 自增强对齐, 下一token预测
 
 ## 一句话总结
@@ -172,6 +172,6 @@ ILLUME 在 12 个基准中的 10 个获得第一或第二名。相比 Janus，MM
 - [\[ICCV 2025\] Your Text Encoder Can Be An Object-Level Watermarking Controller](your_text_encoder_can_be_an_object-level_watermarking_controller.md)
 - [\[ICCV 2025\] PanoLlama: Generating Endless and Coherent Panoramas with Next-Token-Prediction LLMs](panollama_generating_endless_and_coherent_panoramas_with_next-token-prediction_l.md)
 - [\[CVPR 2025\] See Further When Clear: Curriculum Consistency Model](../../CVPR2025/image_generation/see_further_when_clear_curriculum_consistency_model.md)
-- [\[ICCV 2025\] Lay-Your-Scene: Natural Scene Layout Generation with Diffusion Transformers](lay-your-scene_natural_scene_layout_generation_with_diffusion_transformers.md)
+- [\[ICCV 2025\] Attention to Neural Plagiarism: Diffusion Models Can Plagiarize Your Copyrighted Images!](attention_to_neural_plagiarism_diffusion_models_can_plagiarize_your_copyrighted_.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2507.22264](https://arxiv.org/abs/2507.22264)  
-**代码**: https://github.com/Mid-Push/SmartCLIP  
+**代码**: [https://github.com/Mid-Push/SmartCLIP](https://github.com/Mid-Push/SmartCLIP)  
 **领域**: 多模态VLM  
 **关键词**: CLIP, 视觉语言对齐, 模块化表征, 潜在变量识别, 表征解耦
 

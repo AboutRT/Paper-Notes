@@ -56,7 +56,7 @@ HERMES 采用流式处理架构：视频按窗口逐步输入冻结的 ViT-G/14 
 
    维护一个最大容量为 $E$ 的内存缓冲区。每当新窗口特征 $\mathcal{W}_k$ 到来时：
 
-   $$\mathcal{M} = \begin{cases} \mathcal{M} \oplus \mathcal{W}_k & \text{if } \|\mathcal{M}\| + \|\mathcal{W}_k\| \leq E \\ \text{ECO}(\mathcal{M}, \mathcal{W}_k) & \text{otherwise} \end{cases}$$
+    $\mathcal{M} = \begin{cases} \mathcal{M} \oplus \mathcal{W}_k & \text{if } \|\mathcal{M}\| + \|\mathcal{W}_k\| \leq E \\ \text{ECO}(\mathcal{M}, \mathcal{W}_k) & \text{otherwise} \end{cases}$
 
    压缩算法：(1) 拼接缓冲区和新特征 → (2) 找到余弦相似度最高的帧对 $(i^*, j^*)$ → (3) 取均值合并 → (4) 移除被合并帧 → 重复至帧数 $\leq E$。
 
@@ -66,10 +66,10 @@ HERMES 采用流式处理架构：视频按窗口逐步输入冻结的 ViT-G/14 
 
    捕获分散在整个视频中的高层语义信息。给定特征张量 $F \in \mathbb{R}^{B \times N \times T \times C}$：
 
-   - 归一化特征
-   - 按步长 $k$ 分为两组：$X$（每第 $k$ 帧）和 $Y$（其余帧）
-   - 计算 $X$ 和 $Y$ 之间的点积相似度
-   - 将 $Y$ 中每帧合并到 $X$ 中最相似的帧
+    - 归一化特征
+    - 按步长 $k$ 分为两组：$X$（每第 $k$ 帧）和 $Y$（其余帧）
+    - 计算 $X$ 和 $Y$ 之间的点积相似度
+    - 将 $Y$ 中每帧合并到 $X$ 中最相似的帧
 
    效果：帧数从 $N$ 降至 $N/k$，最优 keep ratio 为 20%（即 $k=5$，减少 80% 的帧）。
 
@@ -182,7 +182,7 @@ LVU 上相比前 SOTA 提升 **+7.3%**。
 - [\[ICCV 2025\] Flow4Agent: Long-form Video Understanding via Motion Prior from Optical Flow](flow4agent_long-form_video_understanding_via_motion_prior_from_optical_flow.md)
 - [\[CVPR 2025\] T*: Re-thinking Temporal Search for Long-Form Video Understanding](../../CVPR2025/video_understanding/re-thinking_temporal_search_for_long-form_video_understanding.md)
 - [\[AAAI 2026\] TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding](../../AAAI2026/video_understanding/tspo_temporal_sampling_policy_optimization_for_long-form_video_language_understa.md)
-- [\[ICCV 2025\] Vamba: Understanding Hour-Long Videos with Hybrid Mamba-Transformers](vamba_understanding_hour-long_videos_with_hybrid_mamba-transformers.md)
 - [\[ICCV 2025\] VideoLLaMB: Long Streaming Video Understanding with Recurrent Memory Bridges](videollamb_long_streaming_video_understanding_with_recurrent_memory_bridges.md)
+- [\[ICCV 2025\] Vamba: Understanding Hour-Long Videos with Hybrid Mamba-Transformers](vamba_understanding_hour-long_videos_with_hybrid_mamba-transformers.md)
 
 <!-- RELATED:END -->

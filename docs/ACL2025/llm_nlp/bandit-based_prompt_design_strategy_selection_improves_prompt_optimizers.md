@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.01163](https://arxiv.org/abs/2503.01163)  
 **代码**: [GitHub](https://github.com/shiralab/OPTS)  
-**领域**: Prompt 优化  
+**领域**: LLM/NLP  
 **关键词**: Prompt策略选择, Thompson采样, 多臂老虎机, EvoPrompt, BIG-Bench Hard
 
 ## 一句话总结
@@ -134,6 +134,6 @@ OPTS 可以同时与 EvoPrompt(DE) 和 EvoPrompt(GA) 集成。在 DE 变体中�
 - [\[ACL 2025\] What Makes a Good Natural Language Prompt?](good_natural_language_prompt.md)
 - [\[ACL 2025\] RiOT: Efficient Prompt Refinement with Residual Optimization Tree](riot_efficient_prompt_refinement_with_residual_optimization_tree.md)
 - [\[ACL 2025\] Efficient and Accurate Prompt Optimization: the Benefit of Memory in Exemplar-Guided Reflection](erm_prompt_optimization_memory.md)
-- [\[ACL 2025\] JoPA: Explaining Large Language Model's Generation via Joint Prompt Attribution](jopa_explaining_large_language_models_generation_via_joint_prompt_attribution.md)
+- [\[ACL 2025\] SEE: Strategic Exploration and Exploitation for Cohesive In-Context Prompt Optimization](see_strategic_exploration_exploitation_prompt_optimization.md)
 
 <!-- RELATED:END -->

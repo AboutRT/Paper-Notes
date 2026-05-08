@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 数据污染
-  - LLM推理
+  - 强化学习
   - 虚假奖励
   - RLVR
   - 数学推理评估
@@ -181,9 +181,9 @@ $$\nabla_\theta J_{\text{CLIP}} = \nabla_\theta r_{i,t} \cdot G(r_{i,t})$$
 ## 相关论文
 
 - [\[ICLR 2026\] Learning from Synthetic Data Improves Multi-hop Reasoning](../../ICLR2026/reinforcement_learning/learning_from_synthetic_data_improves_multi-hop_reasoning.md)
-- [\[AAAI 2026\] Reasoning with Exploration: An Entropy Perspective](reasoning_with_exploration_an_entropy_perspective.md)
 - [\[AAAI 2026\] Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning](well_begun_half_done_reinforcement_learning_with_prefix_optimization_for_llm_rea.md)
 - [\[AAAI 2026\] Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach](vision-language_reasoning_for_geolocalization_a_reinforcement_learning_approach.md)
-- [\[ICLR 2026\] $\textbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving](../../ICLR2026/reinforcement_learning/textbfre2_unlocking_llm_reasoning_via_reinforcement_learning_with_re-solving.md)
+- [\[AAAI 2026\] Reasoning with Exploration: An Entropy Perspective](reasoning_with_exploration_an_entropy_perspective.md)
+- [\[NeurIPS 2025\] NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation](../../NeurIPS2025/reinforcement_learning/noisyrollout_reinforcing_visual_reasoning_with_data_augmenta.md)
 
 <!-- RELATED:END -->

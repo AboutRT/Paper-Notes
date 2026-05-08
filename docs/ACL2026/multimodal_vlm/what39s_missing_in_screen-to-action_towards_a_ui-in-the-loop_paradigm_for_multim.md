@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 多模态
-  - GUI推理
+  - 多模态VLM
   - UI理解
   - 强化学习微调
   - 多模态Agent

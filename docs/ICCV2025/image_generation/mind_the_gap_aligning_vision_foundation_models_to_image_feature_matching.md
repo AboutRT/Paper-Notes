@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.10318](https://arxiv.org/abs/2507.10318)  
 **代码**: 无  
-**领域**: 3D视觉 / 特征匹配  
+**领域**: 图像生成  
 **关键词**: 特征匹配, 视觉基础模型, 扩散模型, 跨图像交互, 多实例匹配
 
 ## 一句话总结
@@ -171,8 +171,8 @@ ScanNet 上 AUC@5° 比 PRISM 提升 24.6%，IMIM 多实例匹配提升 ~12% 相
 
 - [\[ICLR 2026\] AlignTok: Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models](../../ICLR2026/image_generation/aligntok_aligning_visual_foundation_encoders_to_tokenizers_for_diffusion_models.md)
 - [\[ICCV 2025\] Rethinking the Embodied Gap in Vision-and-Language Navigation: A Holistic Study of Physical and Visual Disparities](rethinking_the_embodied_gap_in_vision-and-language_navigation_a_holistic_study_o.md)
+- [\[ICCV 2025\] GAP: Gaussianize Any Point Clouds with Text Guidance](gap_gaussianize_any_point_clouds_with_text_guidance.md)
 - [\[ICCV 2025\] Balanced Image Stylization with Style Matching Score](balanced_image_stylization_with_style_matching_score.md)
 - [\[ICCV 2025\] LazyMAR: Accelerating Masked Autoregressive Models via Feature Caching](lazymar_accelerating_masked_autoregressive_models_via_feature_caching.md)
-- [\[ICML 2025\] Improving Flow Matching by Aligning Flow Divergence](../../ICML2025/image_generation/improving_flow_matching_by_aligning_flow_divergence.md)
 
 <!-- RELATED:END -->

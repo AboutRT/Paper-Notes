@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Φ-GAN: Physics-Inspired GAN for Generating SAR Images Under Limited Data
 description: >-
-  [ICCV 2025][SAR图像生成] 提出Φ-GAN，将SAR的理想点散射中心（PSC）电磁散射物理模型以可微神经模块形式集成到GAN训练中，通过双物理损失（生成器物理一致性约束+判别器电磁特征蒸馏）显著提升数据稀缺场景下SAR图像生成的质量和稳定性。
+  [ICCV 2025][其他] 提出Φ-GAN，将SAR的理想点散射中心（PSC）电磁散射物理模型以可微神经模块形式集成到GAN训练中，通过双物理损失（生成器物理一致性约束+判别器电磁特征蒸馏）显著提升数据稀缺场景下SAR图像生成的质量和稳定性。
 tags:
   - ICCV 2025
-  - SAR图像生成
+  - 其他
   - GAN
   - 点散射中心模型
   - 物理约束
@@ -71,10 +71,10 @@ $$\mathbf{p}^{(k)} = S_{\rho^{(k)}}(\mathbf{p}^{(k-1)} + t^{(k)} \mathbf{\Psi}^H
 3. **双物理损失**: 
 
    **生成器物理损失** $\mathcal{L}_{\text{phy}}^G$：约束生成图像具有与真实图像一致的物理参数，包含图像级和特征级两部分：
-   $$\mathcal{L}_{\text{phy}}^G = \beta \cdot \text{MSE}(s, \tilde{s}) + \gamma \sum_{i=1}^M \frac{1}{C^i H^i W^i} \|F_{\text{phy}}^i(s) - F_{\text{img}}^i(\tilde{u})\|_2$$
+    $\mathcal{L}_{\text{phy}}^G = \beta \cdot \text{MSE}(s, \tilde{s}) + \gamma \sum_{i=1}^M \frac{1}{C^i H^i W^i} \|F_{\text{phy}}^i(s) - F_{\text{img}}^i(\tilde{u})\|_2$
    
    **判别器物理损失** $\mathcal{L}_{\text{phy}}^D$：通过将 $\mathcal{D}_{\text{phy}}$ 的电磁特征蒸馏到 $\mathcal{D}_{\text{img}}$，迫使图像判别器**基于电磁散射特征（而非散斑噪声模式）**做决判：
-   $$\mathcal{L}_{\text{phy}}^D = \gamma \sum_{i=1}^M \frac{1}{C^i H^i W^i} (\|F_{\text{img}}^i(\tilde{u}) - F_{\text{phy}}^i(\tilde{s})\|_2 + \|F_{\text{img}}^i(u) - F_{\text{phy}}^i(s)\|_2)$$
+    $\mathcal{L}_{\text{phy}}^D = \gamma \sum_{i=1}^M \frac{1}{C^i H^i W^i} (\|F_{\text{img}}^i(\tilde{u}) - F_{\text{phy}}^i(\tilde{s})\|_2 + \|F_{\text{img}}^i(u) - F_{\text{phy}}^i(s)\|_2)$
 
 ### 损失函数 / 训练策略
 
@@ -161,8 +161,8 @@ $$\mathbf{p}^{(k)} = S_{\rho^{(k)}}(\mathbf{p}^{(k-1)} + t^{(k)} \mathbf{\Psi}^H
 
 - [\[ICCV 2025\] Auto-Regressively Generating Multi-View Consistent Images (MV-AR)](autoregressively_generating_multiview_consistent_images.md)
 - [\[ECCV 2024\] CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction](../../ECCV2024/others/clr-gan_improving_gans_stability_and_quality_via_consistent_latent_representatio.md)
-- [\[CVPR 2025\] CADCrafter: Generating Computer-Aided Design Models from Unconstrained Images](../../CVPR2025/others/cadcrafter_generating_computer-aided_design_models_from_unconstrained_images.md)
 - [\[ECCV 2024\] HiEI: A Universal Framework for Generating High-quality Emerging Images from Natural Images](../../ECCV2024/others/hiei_a_universal_framework_for_generating_high-quality_emerging_images_from_natu.md)
-- [\[ICCV 2025\] Is Meta-Learning Out? Rethinking Unsupervised Few-Shot Classification with Limited Entropy](is_meta-learning_out_rethinking_unsupervised_few-shot_classification_with_limite.md)
+- [\[CVPR 2025\] CADCrafter: Generating Computer-Aided Design Models from Unconstrained Images](../../CVPR2025/others/cadcrafter_generating_computer-aided_design_models_from_unconstrained_images.md)
+- [\[ICCV 2025\] Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging](hi3dgen_high-fidelity_3d_geometry_generation_from_images_via_normal_bridging.md)
 
 <!-- RELATED:END -->

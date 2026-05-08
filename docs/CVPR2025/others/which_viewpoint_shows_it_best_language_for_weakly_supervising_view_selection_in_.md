@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.08753](https://arxiv.org/abs/2411.08753)  
 **代码**: [https://vision.cs.utexas.edu/projects/which-view-shows-it-best](https://vision.cs.utexas.edu/projects/which-view-shows-it-best)  
-**领域**: 视频理解 / 多视角视频  
+**领域**: 其他  
 **关键词**: 视角选择、弱监督、多视角教学视频、语言引导、伪标签
 
 ## 一句话总结
@@ -113,10 +113,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICCV 2025\] Switch-a-View: View Selection Learned from Unlabeled In-the-wild Videos](../../ICCV2025/others/switch-a-view_view_selection_learned_from_unlabeled_in-the-wild_videos.md)
 - [\[CVPR 2025\] Three-View Focal Length Recovery From Homographies](three-view_focal_length_recovery_from_homographies.md)
+- [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](../../ICCV2025/others/intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
 - [\[ICCV 2025\] Thermal Polarimetric Multi-view Stereo](../../ICCV2025/others/thermal_polarimetric_multi-view_stereo.md)
-- [\[ECCV 2024\] Mahalanobis Distance-Based Multi-View Optimal Transport for Multi-View Crowd Localization](../../ECCV2024/others/mahalanobis_distance-based_multi-view_optimal_transport_for_multi-view_crowd_loc.md)
-- [\[ICCV 2025\] Auto-Regressively Generating Multi-View Consistent Images (MV-AR)](../../ICCV2025/others/autoregressively_generating_multiview_consistent_images.md)
-- [\[ECCV 2024\] FisherRF: Active View Selection and Mapping with Radiance Fields Using Fisher Information](../../ECCV2024/others/fisherrf_active_view_selection_and_mapping_with_radiance_fields_using_fisher_inf.md)
+- [\[ICCV 2025\] Multi-view Gaze Target Estimation](../../ICCV2025/others/multi-view_gaze_target_estimation.md)
 
 <!-- RELATED:END -->

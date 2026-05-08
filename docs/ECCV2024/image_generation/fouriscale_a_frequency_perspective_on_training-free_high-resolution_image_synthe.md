@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.12963](https://arxiv.org/abs/2403.12963)  
-**代码**: [GitHub](https://github.com/LeonHLJ/FouriScale) (有)  
+**代码**: [GitHub](https://github.com/LeonHLJ/FouriScale)  
 **领域**: 图像生成  
 **关键词**: 扩散模型, 高分辨率生成, 免训练, 频域分析, 膨胀卷积
 

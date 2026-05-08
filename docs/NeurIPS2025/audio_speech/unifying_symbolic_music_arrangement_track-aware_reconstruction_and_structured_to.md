@@ -10,14 +10,14 @@ tags:
   - 符号音乐
   - 多轨音乐生成
   - 音乐token化
-  - 自监督学习
+  - 音频语音
 ---
 
 # Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2408.15176](https://arxiv.org/abs/2408.15176)  
-**代码**: https://www.oulongshen.xyz/automatic_arrangement (有)  
+**代码**: [https://www.oulongshen.xyz/automatic_arrangement](https://www.oulongshen.xyz/automatic_arrangement)  
 **领域**: 音频与语音 / 符号音乐生成  
 **关键词**: 音乐编排, 符号音乐, 多轨音乐生成, 音乐token化, 自监督学习
 
@@ -154,9 +154,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] SyncTrack: Rhythmic Stability and Synchronization in Multi-Track Music Generation](../../ICLR2026/audio_speech/synctrack_rhythmic_stability_and_synchronization_in_multi-track_music_generation.md)
+- [\[NeurIPS 2025\] Segment-Factorized Full-Song Generation on Symbolic Piano Music](segment-factorized_full-song_generation_on_symbolic_piano_music.md)
 - [\[NeurIPS 2025\] MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation](megadance_mixture-of-experts_architecture_for_genre-aware_3d_dance_generation.md)
 - [\[ACL 2026\] Jamendo-MT-QA: A Benchmark for Multi-Track Comparative Music Question Answering](../../ACL2026/audio_speech/jamendo-mt-qa_a_benchmark_for_multi-track_comparative_music_question_answering.md)
-- [\[AAAI 2026\] Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition](../../AAAI2026/audio_speech/let_the_model_learn_to_feel_mode-guided_tonality_injection_f.md)
 - [\[NeurIPS 2025\] BNMusic: Blending Environmental Noises into Personalized Music](bnmusic_blending_environmental_noises_into_personalized_music.md)
 
 <!-- RELATED:END -->

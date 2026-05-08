@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.19527](https://arxiv.org/abs/2510.19527)  
-**代码**: https://github.com/maoqingsunny/PoseCrafter  
-**领域**: 3D视觉  
+**代码**: [https://github.com/maoqingsunny/PoseCrafter](https://github.com/maoqingsunny/PoseCrafter)  
+**领域**: 视频生成  
 **关键词**: 极端位姿估计, 视频扩散, 混合视频生成, 特征匹配选择, 稀疏重叠
 
 ## 一句话总结
@@ -126,6 +126,6 @@ tags:
 - [\[ICML 2025\] MimicMotion: High-Quality Human Motion Video Generation with Confidence-aware Pose Guidance](../../ICML2025/video_generation/mimicmotion_high-quality_human_motion_video_generation_with_confidence-aware_pos.md)
 - [\[CVPR 2026\] PerformRecast: Expression and Head Pose Disentanglement for Portrait Video Editing](../../CVPR2026/video_generation/performrecast_expression_and_head_pose_disentanglement_for_portrait_video_editin.md)
 - [\[CVPR 2025\] LeviTor: 3D Trajectory Oriented Image-to-Video Synthesis](../../CVPR2025/video_generation/levitor_3d_trajectory_oriented_image-to-video_synthesis.md)
-- [\[CVPR 2025\] MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](../../CVPR2025/video_generation/mimo_controllable_character_video_synthesis_with_spatial_decomposed_modeling.md)
+- [\[ICCV 2025\] Causal-Entity Reflected Egocentric Traffic Accident Video Synthesis](../../ICCV2025/video_generation/causal-entity_reflected_egocentric_traffic_accident_video_synthesis.md)
 
 <!-- RELATED:END -->

@@ -5,7 +5,7 @@ description: >-
   [NeurIPS 2025 (SEA Workshop, Oral)][multi-agent system] MAS-ZERO 是首个推理时自动 MAS 设计框架，通过 meta-agent 迭代设计、批评和改进 MAS 配置（包括任务分解和 sub-MAS 分配），无需验证集和训练，在推理（+16.69%）、编程（+16.66%）和搜索代理（+5.45%）任务上均超越手动和自动 MAS baseline，同时保持 Pareto 最优的准确率-成本权衡。
 tags:
   - NeurIPS 2025 (SEA Workshop, Oral)
-  - multi-agent system
+  - 其他
   - automatic MAS design
   - meta-agent
   - zero supervision
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025 (SEA Workshop, Oral)  
 **arXiv**: [2505.14996](https://arxiv.org/abs/2505.14996)  
 **代码**: [https://github.com/SalesforceAIResearch/MAS-Zero](https://github.com/SalesforceAIResearch/MAS-Zero)  
-**领域**: LLM Agent / 多智能体系统  
+**领域**: 其他  
 **关键词**: multi-agent system, automatic MAS design, meta-agent, zero supervision, inference-time optimization
 
 ## 一句话总结
@@ -128,10 +128,10 @@ MAS-Verify 是最关键组件——去掉后性能暴跌 21.70%。Oracle verifie
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Optimism Without Regularization: Constant Regret in Zero-Sum Games](optimism_without_regularization_constant_regret_in_zero-sum_games.md)
-- [\[ACL 2025\] Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems](../../ACL2025/others/beyond_frameworks_multi_agent_collaboration.md)
 - [\[ACL 2025\] Zero-Shot Conversational Stance Detection: Dataset and Approaches](../../ACL2025/others/zero-shot_conversational_stance_detection_dataset_and_approaches.md)
 - [\[ACL 2025\] I0T: Embedding Standardization Method Towards Zero Modality Gap](../../ACL2025/others/i0t_embedding_standardization_method_towards_zero_modality_gap.md)
-- [\[AAAI 2026\] Designing Incident Reporting Systems for Harms from General-Purpose AI](../../AAAI2026/others/designing_incident_reporting_systems_for_harms_from_general-purpose_ai.md)
+- [\[NeurIPS 2025\] Zebra: Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding](zebra_towards_zero-shot_cross-subject_generalization_for_universal_brain_visual_.md)
+- [\[CVPR 2025\] Zero-Shot Head Swapping in Real-World Scenarios](../../CVPR2025/others/zero-shot_head_swapping_in_real-world_scenarios.md)
+- [\[NeurIPS 2025\] Optimism Without Regularization: Constant Regret in Zero-Sum Games](optimism_without_regularization_constant_regret_in_zero-sum_games.md)
 
 <!-- RELATED:END -->

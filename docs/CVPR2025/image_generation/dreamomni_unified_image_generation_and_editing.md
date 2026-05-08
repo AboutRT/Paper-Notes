@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.17098](https://arxiv.org/abs/2412.17098)  
-**代码**: https://zj-binxia.github.io/DreamOmni-ProjectPage/  
+**代码**: [https://zj-binxia.github.io/DreamOmni-ProjectPage/](https://zj-binxia.github.io/DreamOmni-ProjectPage/)  
 **领域**: 图像生成  
 **关键词**: 统一生成编辑、DIT架构、合成数据、VLM编码器、多任务模型
 

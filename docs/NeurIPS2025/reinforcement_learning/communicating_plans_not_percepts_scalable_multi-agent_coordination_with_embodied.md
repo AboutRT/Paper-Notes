@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多智能体强化学习
   - 世界模型
-  - 通信协议
+  - 强化学习
   - 意图通信
   - Dec-POMDP
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.02912](https://arxiv.org/abs/2508.02912)  
 **代码**: 待确认  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 多智能体强化学习, 世界模型, 通信协议, 意图通信, Dec-POMDP
 
 ## 一句话总结
@@ -160,8 +160,8 @@ LDC 在全观察 6×6 网格中的通信消融：
 
 - [\[NeurIPS 2025\] Oryx: a Scalable Sequence Model for Many-Agent Coordination in Offline MARL](oryx_a_scalable_sequence_model_for_many-agent_coordination_in_offline_marl.md)
 - [\[NeurIPS 2025\] Foundation Models as World Models: A Foundational Study in Text-Based GridWorlds](foundation_models_as_world_models_a_foundational_study_in_text-based_gridworlds.md)
-- [\[NeurIPS 2025\] Self-Improving Embodied Foundation Models](self-improving_embodied_foundation_models.md)
 - [\[NeurIPS 2025\] Sequential Multi-Agent Dynamic Algorithm Configuration](sequential_multi-agent_dynamic_algorithm_configuration.md)
-- [\[NeurIPS 2025\] VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](viki-r_coordinating_embodied_multi-agent_cooperation_via_reinforcement_learning.md)
+- [\[NeurIPS 2025\] Self-Improving Embodied Foundation Models](self-improving_embodied_foundation_models.md)
+- [\[NeurIPS 2025\] Robust and Diverse Multi-Agent Learning via Rational Policy Gradient](robust_and_diverse_multi-agent_learning_via_rational_policy_gradient.md)
 
 <!-- RELATED:END -->

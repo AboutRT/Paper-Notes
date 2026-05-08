@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22995](https://arxiv.org/abs/2510.22995)  
-**代码**: https://github.com/SLDGroup/LoMix  
+**代码**: [https://github.com/SLDGroup/LoMix](https://github.com/SLDGroup/LoMix)  
 **领域**: 医学图像分割  
 **关键词**: 多尺度融合, Logits混合, 深度监督, NAS, U-Net
 

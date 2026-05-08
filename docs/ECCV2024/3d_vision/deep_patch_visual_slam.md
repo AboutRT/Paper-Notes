@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.01654](https://arxiv.org/abs/2408.01654)  
-**代码**: https://github.com/princeton-vl/DPVO (有)  
+**代码**: [https://github.com/princeton-vl/DPVO](https://github.com/princeton-vl/DPVO)  
 **领域**: 3D视觉  
 **关键词**: 视觉SLAM, 回环检测, 稀疏光流, 深度网络, 单目视觉
 
@@ -147,8 +147,8 @@ DPV-SLAM 以 DPVO 视觉里程计为基础，引入两种回环检测机制：(1
 
 ## 相关论文
 
-- [\[ECCV 2024\] I²-SLAM: Inverting Imaging Process for Robust Photorealistic Dense SLAM](i2-slam_inverting_imaging_process_for_robust_photorealistic_dense_slam.md)
 - [\[ECCV 2024\] SGS-SLAM: Semantic Gaussian Splatting for Neural Dense SLAM](sgs-slam_semantic_gaussian_splatting_for_neural_dense_slam.md)
+- [\[ECCV 2024\] I²-SLAM: Inverting Imaging Process for Robust Photorealistic Dense SLAM](i2-slam_inverting_imaging_process_for_robust_photorealistic_dense_slam.md)
 - [\[ECCV 2024\] CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-Aware 3D Gaussian Field](cg-slam_efficient_dense_rgb-d_slam_in_a_consistent_uncertainty-aware_3d_gaussian.md)
 - [\[CVPR 2026\] VGGT-SLAM++: Visual SLAM with DEM-Based Covisibility and Local Bundle Adjustment](../../CVPR2026/3d_vision/vggt-slam.md)
 - [\[ICCV 2025\] Benchmarking Egocentric Visual-Inertial SLAM at City Scale](../../ICCV2025/3d_vision/benchmarking_egocentric_visualinertial_slam_at_city_scale.md)

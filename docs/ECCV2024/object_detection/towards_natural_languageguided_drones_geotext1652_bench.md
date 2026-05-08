@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2311.12751](https://arxiv.org/abs/2311.12751)  
-**代码**: https://multimodalgeo.github.io/GeoText/  
-**领域**: LLM/NLP  
+**代码**: [https://multimodalgeo.github.io/GeoText/](https://multimodalgeo.github.io/GeoText/)  
+**领域**: 目标检测  
 **关键词**: 自然语言引导, 无人机导航, 地理定位, 空间关系匹配, 跨模态检索
 
 ## 一句话总结
@@ -144,7 +144,7 @@ $\mathcal{L}_{total} = \mathcal{L}_{itc} + \mathcal{L}_{itm} + \lambda(\mathcal{
 - [\[ECCV 2024\] ReGround: Improving Textual and Spatial Grounding at No Cost](reground_improving_textual_and_spatial_grounding_at_no_cost.md)
 - [\[ECCV 2024\] Tensorial Template Matching for Fast Cross-Correlation with Rotations and Its Application for Tomography](tensorial_template_matching_for_fast_cross-correlation_with_rotations_and_its_ap.md)
 - [\[ECCV 2024\] LaMI-DETR: Open-Vocabulary Detection with Language Model Instruction](lami-detr_open-vocabulary_detection_with_language_model_instruction.md)
+- [\[ECCV 2024\] A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis](a_multimodal_benchmark_dataset_and_model_for_crop_disease_di.md)
 - [\[ECCV 2024\] Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection](weak-to-strong_compositional_learning_from_generative_models_for_language-based_.md)
-- [\[ECCV 2024\] Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction](adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md)
 
 <!-- RELATED:END -->

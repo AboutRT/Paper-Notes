@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.09989](https://arxiv.org/abs/2506.09989)  
-**代码**: https://www.yimingdou.com/hearing_hands/ (项目页面)  
+**代码**: [https://www.yimingdou.com/hearing_hands/](https://www.yimingdou.com/hearing_hands/) (项目页面)  
 **领域**: 3D视觉  
 **关键词**: 3D场景交互, 声音生成, 手部动作, Gaussian Splatting, Rectified Flow
 
@@ -127,8 +127,8 @@ tags:
 
 - [\[CVPR 2025\] HOI3DGen: Generating High-Quality Human-Object-Interactions in 3D](hoi3dgen_generating_high-quality_human-object-interactions_in_3d.md)
 - [\[ICCV 2025\] Bolt3D: Generating 3D Scenes in Seconds](../../ICCV2025/3d_vision/bolt3d_generating_3d_scenes_in_seconds.md)
-- [\[CVPR 2025\] Grounding 3D Object Affordance with Language Instructions, Visual Observations and Interactions](grounding_3d_object_affordance_with_language_instructions_visual_observations_an.md)
 - [\[CVPR 2025\] Generating 3D-Consistent Videos from Unposed Internet Photos](generating_3d-consistent_videos_from_unposed_internet_photos.md)
 - [\[CVPR 2025\] Functionality Understanding and Segmentation in 3D Scenes](functionality_understanding_and_segmentation_in_3d_scenes.md)
+- [\[CVPR 2025\] Grounding 3D Object Affordance with Language Instructions, Visual Observations and Interactions](grounding_3d_object_affordance_with_language_instructions_visual_observations_an.md)
 
 <!-- RELATED:END -->

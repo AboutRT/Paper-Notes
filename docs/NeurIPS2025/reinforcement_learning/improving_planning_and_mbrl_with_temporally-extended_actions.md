@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.15754](https://arxiv.org/abs/2505.15754)  
 **代码**: 无  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: temporally-extended actions, model-based RL, planning, action duration, multi-armed bandit
 
 ## 一句话总结
@@ -137,7 +137,7 @@ CEM 每决策步输出 $(a_k, \delta t_k)$。回报：$J_2 = \sum_k \gamma^{e_{<
 - [\[NeurIPS 2025\] Parameter-Free Algorithms for the Stochastically Extended Adversarial Model](parameter-free_algorithms_for_the_stochastically_extended_adversarial_model.md)
 - [\[NeurIPS 2025\] Self-Improving Embodied Foundation Models](self-improving_embodied_foundation_models.md)
 - [\[NeurIPS 2025\] Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning](improving_retrieval-augmented_generation_through_multi-agent_reinforcement_learn.md)
-- [\[NeurIPS 2025\] Retrosynthesis Planning via Worst-path Policy Optimisation in Tree-structured MDPs](retrosynthesis_planning_via_worst-path_policy_optimisation_in_tree-structured_md.md)
 - [\[NeurIPS 2025\] FedRAIN-Lite: Federated Reinforcement Algorithms for Improving Idealised Numerical Weather and Climate Models](fedrain-lite_federated_reinforcement_algorithms_for_improving_idealised_numerica.md)
+- [\[NeurIPS 2025\] Retrosynthesis Planning via Worst-path Policy Optimisation in Tree-structured MDPs](retrosynthesis_planning_via_worst-path_policy_optimisation_in_tree-structured_md.md)
 
 <!-- RELATED:END -->

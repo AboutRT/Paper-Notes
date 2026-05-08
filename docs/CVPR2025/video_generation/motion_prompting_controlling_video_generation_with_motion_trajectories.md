@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.02700](https://arxiv.org/abs/2412.02700)  
 **代码**: [https://motion-prompting.github.io/](https://motion-prompting.github.io/)  
-**领域**: image_generation  
+**领域**: 视频生成  
 **关键词**: motion prompting, video diffusion, point trajectories, ControlNet, camera control, object control, motion transfer
 
 ## 一句话总结

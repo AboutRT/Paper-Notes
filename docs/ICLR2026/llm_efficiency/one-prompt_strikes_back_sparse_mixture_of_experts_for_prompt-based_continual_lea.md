@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.24483](https://arxiv.org/abs/2509.24483)  
-**代码**: https://github.com/Minhchuyentoancbn/SMoPE  
+**代码**: [https://github.com/Minhchuyentoancbn/SMoPE](https://github.com/Minhchuyentoancbn/SMoPE)  
 **领域**: LLM效率  
 **关键词**: continual learning, prompt tuning, Mixture of Experts, Sparse MoE, Prefix Tuning
 
@@ -138,10 +138,10 @@ SMoPE 的输入是 ViT 的 patch token 序列 $\mathbf{X} \in \mathbb{R}^{N \tim
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] One Prompt Fits All: Universal Graph Adaptation for Pretrained Models](../../NeurIPS2025/llm_efficiency/one_prompt_fits_all_universal_graph_adaptation_for_pretrained_models.md)
+- [\[AAAI 2026\] Resource Efficient Sleep Staging via Multi-Level Masking and Prompt Learning](../../AAAI2026/llm_efficiency/resource_efficient_sleep_staging_via_multi-level_masking_and_prompt_learning.md)
+- [\[AAAI 2026\] How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts](../../AAAI2026/llm_efficiency/how_many_experts_are_enough_towards_optimal_semantic_specialization_for_mixture-.md)
 - [\[ICML 2025\] Mixture of Lookup Experts](../../ICML2025/llm_efficiency/mixture_of_lookup_experts.md)
-- [\[AAAI 2026\] Attention Retention for Continual Learning with Vision Transformers](../../AAAI2026/llm_efficiency/attention_retention_for_continual_learning_with_vision_transformers.md)
+- [\[ICLR 2026\] Expert Divergence Learning for MoE-based Language Models](expert_divergence_learning_for_moe-based_language_models.md)
 - [\[ICLR 2026\] Understanding and Improving Length Generalization in Hierarchical Sparse Attention Models](understanding_and_improving_length_generalization_in_hierarchical_sparse_attenti.md)
-- [\[CVPR 2025\] KAC: Kolmogorov-Arnold Classifier for Continual Learning](../../CVPR2025/llm_efficiency/kac_kolmogorov-arnold_classifier_for_continual_learning.md)
 
 <!-- RELATED:END -->

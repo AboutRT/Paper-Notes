@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2505.20291](https://arxiv.org/abs/2505.20291)  
 **代码**: [GitHub](https://github.com/xiaowu0162/Visualize-then-Retrieve)  
-**领域**: 多模态检索 / 文本到图像检索  
+**领域**: 图像生成  
 **关键词**: 文本到图像检索, 可视化查询, 跨模态对齐, 检索增强生成, 模态投影
 
 ## 一句话总结

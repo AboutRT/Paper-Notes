@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24095](https://arxiv.org/abs/2510.24095)  
-**代码**: [GitHub](https://github.com/guptbot/DEPS) (有)  
+**代码**: [GitHub](https://github.com/guptbot/DEPS)  
 **领域**: Optimization (机器人学习/技能发现)  
 **关键词**: 参数化技能, 示范学习, 层次策略, 变分推断, 机器人操作
 
@@ -156,8 +156,8 @@ DEPS 训练一个三层层次结构：
 ## 相关论文
 
 - [\[NeurIPS 2025\] Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data](learning_reconfigurable_representations_for_multimodal_federated_learning_with_m.md)
-- [\[NeurIPS 2025\] Learning from Interval Targets](learning_from_interval_targets.md)
 - [\[NeurIPS 2025\] Wasserstein Transfer Learning](wasserstein_transfer_learning.md)
+- [\[NeurIPS 2025\] Learning from Interval Targets](learning_from_interval_targets.md)
 - [\[NeurIPS 2025\] Streaming Federated Learning with Markovian Data](streaming_federated_learning_with_markovian_data.md)
 - [\[NeurIPS 2025\] Learning Theory for Kernel Bilevel Optimization](learning_theory_for_kernel_bilevel_optimization.md)
 

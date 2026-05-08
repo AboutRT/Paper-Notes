@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21777](https://arxiv.org/abs/2503.21777)  
-**代码**: https://github.com/Jiahao000/VICT  
-**领域**: 自监督学习 / 视觉上下文学习  
+**代码**: [https://github.com/Jiahao000/VICT](https://github.com/Jiahao000/VICT)  
+**领域**: LLM/NLP  
 **关键词**: 上下文学习, 测试时训练, 循环一致性, 分布偏移, Painter
 
 ## 一句话总结
@@ -122,8 +122,8 @@ tags:
 
 - [\[ICML 2025\] BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](../../ICML2025/llm_nlp/best-route_adaptive_llm_routing_with_test-time_optimal_compute.md)
 - [\[ACL 2025\] Exploring Explanations Improves the Robustness of In-Context Learning](../../ACL2025/llm_nlp/exploring_explanations_improves_the_robustness_of_in-context_learning.md)
-- [\[ACL 2025\] Leveraging In-Context Learning for Political Bias Testing of LLMs](../../ACL2025/llm_nlp/leveraging_in-context_learning_for_political_bias_testing_of_llms.md)
 - [\[ACL 2025\] LLM-Powered Test Case Generation for Detecting Bugs in Plausible Programs](../../ACL2025/llm_nlp/llm_test_case_gen_bugs.md)
 - [\[ACL 2025\] Leveraging Human Production-Interpretation Asymmetries to Test LLM Cognitive Plausibility](../../ACL2025/llm_nlp/leveraging_human_production-interpretation_asymmetries_to_test_llm_cognitive_pla.md)
+- [\[ACL 2025\] Leveraging In-Context Learning for Political Bias Testing of LLMs](../../ACL2025/llm_nlp/leveraging_in-context_learning_for_political_bias_testing_of_llms.md)
 
 <!-- RELATED:END -->

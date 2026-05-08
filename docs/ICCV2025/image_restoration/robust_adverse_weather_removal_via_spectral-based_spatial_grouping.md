@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 图像恢复
-  - All-in-One天气去除
+  - 图像复原
   - 光谱分解
   - 空间分组
   - Transformer
@@ -19,7 +19,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.22498](https://arxiv.org/abs/2507.22498)  
-**代码**: https://github.com/jeongyh98/SSGformer  
+**代码**: [https://github.com/jeongyh98/SSGformer](https://github.com/jeongyh98/SSGformer)  
 **领域**: 图像复原 / 恶劣天气去除  
 **关键词**: All-in-One天气去除, 光谱分解, 空间分组, Transformer, Sobel算子, SVD, 注意力机制
 

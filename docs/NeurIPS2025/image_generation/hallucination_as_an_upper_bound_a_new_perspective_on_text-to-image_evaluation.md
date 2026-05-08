@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Workshop: Generative and Protective AI for Content Creation)][图像生成][幻觉] 提出将文本到图像（T2I）模型中的幻觉定义为**偏差驱动的偏离**，建立了包含属性、关系和物体三类幻觉的分类学，并论证幻觉评估作为提示对齐评估的"上界"，可揭示模型隐藏偏差。
 tags:
-  - "NeurIPS 2025 (Workshop: Generative and Protective AI for Content Creation)"
+  - 图像生成
   - 图像生成
   - 幻觉
   - T2I 评估
@@ -194,8 +194,8 @@ tags:
 
 - [\[CVPR 2025\] PhD: A ChatGPT-Prompted Visual Hallucination Evaluation Dataset](../../CVPR2025/image_generation/phd_a_chatgpt-prompted_visual_hallucination_evaluation_dataset.md)
 - [\[NeurIPS 2025\] OVERT: A Benchmark for Over-Refusal Evaluation on Text-to-Image Models](overt_a_benchmark_for_over-refusal_evaluation_on_text-to-image_models.md)
-- [\[ACL 2025\] Generating Pedagogically Meaningful Visuals for Math Word Problems: A New Benchmark and Analysis of Text-to-Image Models](../../ACL2025/image_generation/generating_pedagogically_meaningful_visuals_for_math_word_problems_a_new_benchma.md)
 - [\[ICCV 2025\] Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning](../../ICCV2025/image_generation/holistic_unlearning_benchmark_a_multi-faceted_evaluation_for_text-to-image_diffu.md)
+- [\[ACL 2025\] Generating Pedagogically Meaningful Visuals for Math Word Problems: A New Benchmark and Analysis of Text-to-Image Models](../../ACL2025/image_generation/generating_pedagogically_meaningful_visuals_for_math_word_problems_a_new_benchma.md)
 - [\[ICCV 2025\] CAP: Evaluation of Persuasive and Creative Image Generation](../../ICCV2025/image_generation/cap_evaluation_of_persuasive_and_creative_image_generation.md)
 
 <!-- RELATED:END -->

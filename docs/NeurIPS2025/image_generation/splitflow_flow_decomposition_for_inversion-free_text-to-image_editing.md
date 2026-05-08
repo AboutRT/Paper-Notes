@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.25970](https://arxiv.org/abs/2510.25970)  
-**代码**: https://github.com/Harvard-AI-and-Robotics-Lab/SplitFlow  
+**代码**: [https://github.com/Harvard-AI-and-Robotics-Lab/SplitFlow](https://github.com/Harvard-AI-and-Robotics-Lab/SplitFlow)  
 **领域**: 图像编辑 / 扩散模型  
 **关键词**: 矫正流, 无反转编辑, 流分解, 梯度冲突, 多任务学习
 

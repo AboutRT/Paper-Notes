@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - law design
-  - multiagent systems
+  - 其他
   - vertex cover
   - hypergraph
   - responsibility gap
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.06361](https://arxiv.org/abs/2511.06361)  
 **代码**: 无  
-**领域**: Agent / Multi-Agent Systems  
+**领域**: 其他  
 **关键词**: law design, multiagent systems, vertex cover, hypergraph, responsibility gap
 
 ## 一句话总结
@@ -115,9 +115,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
-- [\[AAAI 2026\] Higher-Order Responsibility](higher-order_responsibility.md)
 - [\[AAAI 2026\] Private Frequency Estimation via Residue Number Systems](private_frequency_estimation_via_residue_number_systems.md)
 - [\[AAAI 2026\] Theoretical and Empirical Analysis of Lehmer Codes to Search Permutation Spaces with Evolutionary Algorithms](theoretical_and_empirical_analysis_of_lehmer_codes_to_search_permutation_spaces_.md)
 - [\[AAAI 2026\] Designing Incident Reporting Systems for Harms from General-Purpose AI](designing_incident_reporting_systems_for_harms_from_general-purpose_ai.md)
+- [\[AAAI 2026\] LeanRAG: Knowledge-Graph-Based Generation with Semantic Aggregation and Hierarchical Retrieval](leanrag_knowledge-graph-based_generation_with_semantic_aggregation_and_hierarchi.md)
 
 <!-- RELATED:END -->

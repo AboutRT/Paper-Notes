@@ -10,7 +10,7 @@ tags:
   - CT tokenization
   - causal convolution
   - wavelet transform
-  - report generation
+  - 多模态VLM
   - text-to-CT synthesis
 ---
 
@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20639](https://arxiv.org/abs/2510.20639)  
 **代码**: [ibrahimethemhamamci/BTB3D](https://github.com/ibrahimethemhamamci/BTB3D)  
-**领域**: medical_imaging  
+**领域**: 多模态VLM  
 **关键词**: 3D medical VLM, CT tokenization, causal convolution, wavelet transform, report generation, text-to-CT synthesis  
 
 ## 一句话总结
@@ -170,9 +170,9 @@ $$\mathcal{L} = \underbrace{\|x - \hat{x}\|_1}_{\text{重建 (L1)}} + \lambda_{\
 ## 相关论文
 
 - [\[CVPR 2025\] ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models](../../CVPR2025/multimodal_vlm/forensiczip_more_tokens_are_better_but_not_necessary_in_forensic_vision-language.md)
+- [\[NeurIPS 2025\] Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors](learning_from_videos_for_3d_world_enhancing_mllms_with_3d_vision_geometry_priors.md)
 - [\[NeurIPS 2025\] Are Vision Language Models Ready for Clinical Diagnosis? A 3D Medical Benchmark for Tumor-centric Visual Question Answering](are_vision_language_models_ready_for_clinical_diagnosis_a_3d_medical_benchmark_f.md)
 - [\[NeurIPS 2025\] Text to Robotic Assembly of Multi Component Objects using 3D Generative AI and Vision Language Models](text_to_robotic_assembly_of_multi_component_objects_using_3d_generative_ai_and_v.md)
-- [\[NeurIPS 2025\] SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards](spatialthinker_reinforcing_3d_reasoning_in_multimodal_llms_via_spatial_rewards.md)
-- [\[NeurIPS 2025\] Situat3DChange: Situated 3D Change Understanding Dataset for Multimodal Large Language Models](situat3dchange_situated_3d_change_understanding_dataset_for_multimodal_large_lan.md)
+- [\[NeurIPS 2025\] AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models](affordbot_3d_fine-grained_embodied_reasoning_via_multimodal_large_language_model.md)
 
 <!-- RELATED:END -->

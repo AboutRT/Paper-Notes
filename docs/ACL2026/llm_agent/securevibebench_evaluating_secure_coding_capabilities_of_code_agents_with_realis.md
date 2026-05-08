@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2509.22097](https://arxiv.org/abs/2509.22097)  
 **代码**: [GitHub](https://github.com/iCSawyer/SecureVibeBench)  
-**领域**: 代码安全  
+**领域**: LLM Agent  
 **关键词**: 安全编码, 代码智能体, 漏洞引入, 基准测试, 仓库级代码生成
 
 ## 一句话总结

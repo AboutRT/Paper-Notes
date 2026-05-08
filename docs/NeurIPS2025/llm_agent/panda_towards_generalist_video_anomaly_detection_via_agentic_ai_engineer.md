@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2509.26386](https://arxiv.org/abs/2509.26386)  
 **代码**: [GitHub](https://github.com/showlab/PANDA)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: video anomaly detection, agentic AI, RAG, self-reflection, chain-of-memory
 
 ## 一句话总结

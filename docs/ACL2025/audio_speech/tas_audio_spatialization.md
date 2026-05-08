@@ -10,7 +10,7 @@ tags:
   - binaural audio
   - text-guided
   - 扩散模型
-  - spatial reasoning
+  - 音频语音
 ---
 
 # In-the-wild Audio Spatialization with Flexible Text-guided Localization
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00927](https://arxiv.org/abs/2506.00927)  
 **代码**: [GitHub](https://github.com/Alice01010101/TASU)  
-**领域**: others  
+**领域**: 音频语音  
 **关键词**: audio spatialization, binaural audio, text-guided, latent diffusion, spatial reasoning
 
 ## 一句话总结
@@ -114,9 +114,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] SpeechWeave: Diverse Multilingual Synthetic Text & Audio Data Generation Pipeline for Training Text to Speech Models](speechweave_diverse_multilingual_synthetic_text_audio_data_generation_pipeline_f.md)
-- [\[CVPR 2025\] Towards Open-Vocabulary Audio-Visual Event Localization](../../CVPR2025/audio_speech/towards_open-vocabulary_audio-visual_event_localization.md)
-- [\[ICCV 2025\] MemoryTalker: Personalized Speech-Driven 3D Facial Animation via Audio-Guided Stylization](../../ICCV2025/audio_speech/memorytalker_personalized_speech-driven_3d_facial_animation_via_audio-guided_sty.md)
-- [\[ACL 2025\] ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](atri-mitigating-multilingual-audio-text-retrieval-inconsistencies.md)
+- [\[ACL 2025\] ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](atri_mitigating_multilingual_audio_text_retrieval_inconsistencies_by_reducing_da.md)
 - [\[ACL 2025\] T2A-Feedback: Improving Basic Capabilities of Text-to-Audio Generation via Fine-grained AI Feedback](t2a_feedback_audio_gen.md)
+- [\[CVPR 2025\] Object-aware Sound Source Localization via Audio-Visual Scene Understanding](../../CVPR2025/audio_speech/object-aware_sound_source_localization_via_audio-visual_scene_understanding.md)
+- [\[CVPR 2025\] Towards Open-Vocabulary Audio-Visual Event Localization](../../CVPR2025/audio_speech/towards_open-vocabulary_audio-visual_event_localization.md)
 
 <!-- RELATED:END -->

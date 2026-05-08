@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24061](https://arxiv.org/abs/2510.24061)  
-**代码**: https://github.com/iamkanghyunchoi/falqon  
+**代码**: [https://github.com/iamkanghyunchoi/falqon](https://github.com/iamkanghyunchoi/falqon)  
 **领域**: 模型压缩  
 **关键词**: LoRA加速, FP8量化, 低精度训练, 大模型微调, 量化开销
 

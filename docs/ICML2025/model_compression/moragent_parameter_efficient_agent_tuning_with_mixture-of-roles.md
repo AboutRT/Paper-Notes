@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2512.21708](https://arxiv.org/abs/2512.21708)  
 **代码**: [https://mor-agent.github.io/](https://mor-agent.github.io/)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: Agent Tuning, parameter-efficient fine-tuning, LoRA, Mixture-of-Experts, Function Calling
 
 ## 一句话总结

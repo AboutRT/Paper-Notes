@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.16665](https://arxiv.org/abs/2604.16665)  
 **代码**: [GitHub](https://github.com/aaniksahaa/CBRS)  
-**领域**: NLP应用 / 社交媒体  
+**领域**: 模型压缩  
 **关键词**: 血液捐献请求, 双语数据集, 双层过滤, 低资源语言, 信息提取
 
 ## 一句话总结
@@ -122,10 +122,10 @@ CBRS 提出一个多平台框架，通过双层过滤架构（轻量分类器 + 
 
 ## 相关论文
 
+- [\[CVPR 2026\] DualReg: Dual-Space Filtering and Reinforcement for Rigid Registration](../../CVPR2026/model_compression/dualreg_dual-space_filtering_and_reinforcement_for_rigid_registration.md)
 - [\[ICLR 2026\] Understanding Dataset Distillation via Spectral Filtering](../../ICLR2026/model_compression/understanding_dataset_distillation_via_spectral_filtering.md)
 - [\[ACL 2026\] Adaptive Layer Selection for Layer-Wise Token Pruning in LLM Inference](adaptive_layer_selection_for_layer-wise_token_pruning_in_llm_inference.md)
 - [\[ACL 2026\] A Layer-wise Analysis of Supervised Fine-Tuning](a_layer-wise_analysis_of_supervised_fine-tuning.md)
-- [\[ACL 2026\] Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](memory-augmented_llm-based_multi-agent_system_for_automated_feature_generation_o.md)
 - [\[ACL 2026\] Efficient Learned Data Compression via Dual-Stream Feature Decoupling](efficient_learned_data_compression_via_dual-stream_feature_decoupling.md)
 
 <!-- RELATED:END -->

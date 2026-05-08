@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2502.19002](https://arxiv.org/abs/2502.19002)  
 **代码**: [GitHub](https://github.com/Wongboo/BlockwiseLearningRate)  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: Transformer优化, 学习率调度, Hessian分析, 预训练加速, 块级锐度
 
 ## 一句话总结

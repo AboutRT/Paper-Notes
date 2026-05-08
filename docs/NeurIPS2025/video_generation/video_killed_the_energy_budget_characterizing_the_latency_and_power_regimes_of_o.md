@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.19222](https://arxiv.org/abs/2509.19222)  
 **代码**: [GitHub](https://github.com/anonymized)  
-**领域**: 图像修复 / 可持续计算  
+**领域**: 视频生成  
 **关键词**: 文本到视频生成, 能耗分析, 延迟基准测试, 扩散模型, 可持续AI
 
 ## 一句话总结
@@ -156,6 +156,6 @@ tags:
 - [\[NeurIPS 2025\] DisMo: Disentangled Motion Representations for Open-World Motion Transfer](dismo_disentangled_motion_representations_for_openworld_moti.md)
 - [\[CVPR 2025\] VideoDirector: Precise Video Editing via Text-to-Video Models](../../CVPR2025/video_generation/videodirector_precise_video_editing_via_text-to-video_models.md)
 - [\[CVPR 2025\] Multi-subject Open-set Personalization in Video Generation](../../CVPR2025/video_generation/multi-subject_open-set_personalization_in_video_generation.md)
-- [\[ICCV 2025\] VPO: Aligning Text-to-Video Generation Models with Prompt Optimization](../../ICCV2025/video_generation/vpo_aligning_text-to-video_generation_models_with_prompt_optimization.md)
+- [\[CVPR 2025\] Mimir: Improving Video Diffusion Models for Precise Text Understanding](../../CVPR2025/video_generation/mimir_improving_video_diffusion_models_for_precise_text_understanding.md)
 
 <!-- RELATED:END -->

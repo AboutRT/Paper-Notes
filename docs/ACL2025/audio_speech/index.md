@@ -1,14 +1,14 @@
 ---
 title: >-
-  ACL2025 音频/语音方向39篇论文解读
+  ACL2025 音频/语音方向41篇论文解读
 description: >-
-  39篇ACL2025的音频/语音方向论文解读，涵盖语音、对话系统、少样本学习、LLM、对抗鲁棒、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  41篇ACL2025的音频/语音方向论文解读，涵盖语音、对话系统、少样本学习、LLM、对抗鲁棒、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎵 音频/语音
 
-**💬 ACL2025** · **39** 篇论文解读
+**💬 ACL2025** · **41** 篇论文解读
 
 **[Finding A Voice: Exploring the Potential of African American Dialect and Voice Generation for Chatbots](aae_voice_chatbot.md)**
 
@@ -25,6 +25,10 @@ description: >-
 **[AI4Reading: Chinese Audiobook Interpretation System Based on Multi-Agent Collaboration](ai4reading_chinese_audiobook_interpretation_system_based_on_multi-agent_collabor.md)**
 
 :   提出 AI4Reading，一个基于 11 个专业化 LLM Agent 协作的中文有声书解读系统，通过主题分析、案例扩展、编辑润色、口语化改写和整合修订等阶段自动生成解读稿，并用 TTS 合成音频，在解读脚本质量（简洁性、完整性、准确性、连贯性）上超过专业人工解读平台樊登读书。
+
+**[Amplifying Trans and Nonbinary Voices: A Community-Centred Harm Taxonomy for LLMs](amplifying_trans_and_nonbinary_voices_a_community-centred_harm_taxonomy_for_llms.md)**
+
+:   本文采用社区导向（community-centred）的研究方法，通过与跨性别和非二元性别（Trans and Nonbinary, TNB）群体的深入合作，构建了一套专门针对LLM输出中对TNB群体伤害的分类体系（harm taxonomy），揭示了现有LLM安全评估未覆盖的TNB特有伤害类型。
 
 **[ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](atri-mitigating-multilingual-audio-text-retrieval-inconsistencies.md)**
 
@@ -117,6 +121,10 @@ description: >-
 **[Predicting Turn-Taking and Backchannel in Human-Machine Conversations Using Linguistic, Acoustic, and Visual Signals](predicting_turn-taking_and_backchannel_in_human-machine_conversations_using_ling.md)**
 
 :   提出首个融合语言、声学和视觉三模态信号预测对话中轮换（turn-taking）和反馈通道（backchannel）动作的端到端框架，并构建了包含 210+ 小时的 MM-F2F 面对面对话数据集，turn-taking F1 提升 10%，backchannel F1 提升 33%。
+
+**[Soundwave: Less is More for Speech-Text Alignment in LLMs](soundwave_less_is_more_for_speech-text_alignment_in_llms.md)**
+
+:   提出 Soundwave 模型，通过高效训练策略和新颖架构解决语音和文本之间的表示空间差距与序列长度不一致问题，仅用五十分之一的训练数据即超越 Qwen2-Audio 在语音翻译和 AIR-Bench 语音任务上的表现。
 
 **[Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens](spark-tts_an_efficient_llm-based_text-to-speech_model_with_single-stream_decoupl.md)**
 

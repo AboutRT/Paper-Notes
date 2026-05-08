@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.11439](https://arxiv.org/abs/2503.11439)  
-**代码**: https://shjo-april.github.io/COIN/  
+**代码**: [https://shjo-april.github.io/COIN/](https://shjo-april.github.io/COIN/)  
 **领域**: 医学影像  
 **关键词**: 细胞实例分割, 无标注, 置信度评分, 自蒸馏, 最优传输
 

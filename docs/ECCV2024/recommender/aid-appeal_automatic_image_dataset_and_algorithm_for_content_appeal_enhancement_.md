@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.05546](https://arxiv.org/abs/2407.05546)  
-**代码**: https://github.com/SherryXTChen/AID-Appeal (有)  
+**代码**: [https://github.com/SherryXTChen/AID-Appeal](https://github.com/SherryXTChen/AID-Appeal)  
 **领域**: 图像质量评估 / 推荐系统  
 **关键词**: Image Content Appeal, Aesthetics Assessment, Dataset Creation, Stable Diffusion, Textual Inversion
 

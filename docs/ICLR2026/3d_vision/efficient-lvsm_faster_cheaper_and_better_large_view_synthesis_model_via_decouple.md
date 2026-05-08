@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.06478](https://arxiv.org/abs/2602.06478)  
 **代码**: [efficient-lvsm.github.io](https://efficient-lvsm.github.io/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: novel view synthesis, Transformer, Dual-Stream Architecture, KV-Cache, Attention Decoupling
 
 ## 一句话总结

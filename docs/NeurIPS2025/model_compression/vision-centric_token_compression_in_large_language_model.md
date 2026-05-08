@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.00791](https://arxiv.org/abs/2502.00791)  
-**代码**: https://github.com/CSU-JPG/VIST (有)  
+**代码**: [https://github.com/CSU-JPG/VIST](https://github.com/CSU-JPG/VIST)  
 **领域**: 模型压缩 / Token压缩  
 **关键词**: token compression, vision encoder, long context, in-context learning, frequency-based masking
 
@@ -131,7 +131,7 @@ Vist（Vision-centric Token Compression）采用慢-快双路径设计：
 ## 相关论文
 
 - [\[NeurIPS 2025\] VQToken: Neural Discrete Token Representation Learning for Extreme Token Reduction in Video Large Language Models](vqtoken_neural_discrete_token_representation_learning_for_extreme_token_reductio.md)
-- [\[ICCV 2025\] B-VLLM: A Vision Large Language Model with Balanced Spatio-Temporal Tokens](../../ICCV2025/model_compression/b-vllm_a_vision_large_language_model_with_balanced_spatio-temporal_tokens.md)
+- [\[ICCV 2025\] B-VLLM: A Vision Large Language Model with Balanced Spatio-Temporal Tokens](../../ICCV2025/model_compression/b_vllm_a_vision_large_language_model_with_balanced_spatio_temporal_tokens.md)
 - [\[ICML 2025\] RADIO: Rate-Distortion Optimization for Large Language Model Compression](../../ICML2025/model_compression/radio_rate-distortion_optimization_for_large_language_model_compression.md)
 - [\[ACL 2025\] Quantification of Large Language Model Distillation](../../ACL2025/model_compression/quantification_of_large_language_model_distillation.md)
 - [\[ACL 2025\] AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation](../../ACL2025/model_compression/aligndistil_token_level_alignment.md)

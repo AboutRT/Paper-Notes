@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 自动驾驶方向96篇论文解读
+  CVPR2025 自动驾驶方向95篇论文解读
 description: >-
-  96篇CVPR2025的自动驾驶方向论文解读，涵盖自动驾驶、3D 目标检测、扩散模型、3D 高斯渲染、点云、语义分割等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  95篇CVPR2025的自动驾驶方向论文解读，涵盖自动驾驶、3D 目标检测、扩散模型、3D 高斯渲染、点云、语义分割等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**📷 CVPR2025** · **96** 篇论文解读
+**📷 CVPR2025** · **95** 篇论文解读
 
 **[3D-AVS: LiDAR-based 3D Auto-Vocabulary Segmentation](3d-avs_lidar-based_3d_auto-vocabulary_segmentation.md)**
 
@@ -172,6 +172,10 @@ description: >-
 
 :   本文将MAE式掩码重建任务与扩散生成过程相结合，提出MaskGWM驾驶世界模型，通过扩散相关掩码token、行式掩码注意力和行式跨视角模块三项创新设计，在长时序预测和多视角生成两个场景下均显著超越了现有SOTA。
 
+**[MITracker: Multi-View Integration for Visual Object Tracking](mitracker_multi-view_integration_for_visual_object_tracking.md)**
+
+:   提出多视角目标跟踪数据集 MVTrack（234K 帧，27 类目标）和方法 MITracker，通过将 2D 特征投影到 3D 特征体并压缩为 BEV 平面进行跨视角融合，结合空间增强注意力修正各视角跟踪结果，实现从遮挡中快速恢复跟踪。
+
 **[Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification](modeling_thousands_of_human_annotators_for_generalizable_text-to-image_person_re.md)**
 
 :   提出 Human Annotator Modeling (HAM) 方法，通过对人类标注描述进行风格特征提取和聚类，用可学习提示让 MLLM 模拟数千种人类标注风格，再结合 Uniform Prototype Sampling (UPS) 进一步增加风格多样性，自动构建大规模高质量文本-图像行人 ReID 数据集，在多个基准上大幅提升了 ReID 模型的泛化能力。
@@ -223,10 +227,6 @@ description: >-
 **[Pixel-Aligned RGB-NIR Stereo Imaging and Dataset for Robot Vision](pixel-aligned_rgb-nir_stereo_imaging_and_dataset_for_robot_vision.md)**
 
 :   本文开发了一套基于棱镜分光的像素对齐 RGB-NIR 立体相机系统，搭建在移动机器人上采集了大规模多光照条件数据集，并提出了图像融合和特征融合两种方法，使现有 RGB 预训练视觉模型无需/少量微调即可利用 NIR 信息，在深度估计、目标检测和 SfM 等任务上取得显著提升。
-
-**[PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes](planarsplatting_accurate_planar_surface_reconstruction_in_3_minutes.md)**
-
-:   本文提出 PlanarSplatting，通过直接优化可学习的 3D 矩形平面基元，利用新设计的矩形 splatting 函数将平面可微地渲染为深度和法线图，仅需 3 分钟即可从多视角图像重建精确的室内平面场景，无需任何平面标注。
 
 **[Point-to-Region Loss for Semi-Supervised Point-Based Crowd Counting](point-to-region_loss_for_semi-supervised_point-based_crowd_counting.md)**
 
@@ -335,10 +335,6 @@ description: >-
 **[Towards Autonomous Micromobility through Scalable Urban Simulation](towards_autonomous_micromobility_through_scalable_urban_simulation.md)**
 
 :   本文提出 URBAN-SIM（高性能城市机器人学习仿真平台）和 URBAN-BENCH（8 项微出行任务 benchmark），通过层级化城市场景生成、交互式动态生成和异步场景采样三大模块，实现大规模多样化城市环境中的具身智能体训练与评测，是推动自主微出行领域的系统性仿真方案。
-
-**[Towards In-the-Wild 3D Plane Reconstruction from a Single Image](towards_in-the-wild_3d_plane_reconstruction_from_a_single_image.md)**
-
-:   ZeroPlane 提出了首个跨域零样本3D平面重建框架，通过构建包含14个数据集/56万标注的大规模平面基准数据集，并设计法向量-偏移解耦的分类-回归范式和像素几何增强嵌入模块，实现了在室内外多样场景中显著优于现有方法的泛化性能。
 
 **[Towards Satellite Image Road Graph Extraction: A Global-Scale Dataset and A Novel Method](towards_satellite_image_road_graph_extraction_a_global-scale_dataset_and_a_novel.md)**
 

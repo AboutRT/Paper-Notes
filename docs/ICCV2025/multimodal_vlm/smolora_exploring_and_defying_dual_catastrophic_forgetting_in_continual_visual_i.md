@@ -9,7 +9,7 @@ tags:
   - 持续学习
   - 视觉指令微调
   - 灾难性遗忘
-  - 混合专家LoRA
+  - 多模态VLM
   - 可分离路由
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.13949](https://arxiv.org/abs/2411.13949)  
-**代码**: https://github.com/Minato-Zackie/SMoLoRA  
+**代码**: [https://github.com/Minato-Zackie/SMoLoRA](https://github.com/Minato-Zackie/SMoLoRA)  
 **领域**: 多模态VLM  
 **关键词**: 持续学习, 视觉指令微调, 灾难性遗忘, 混合专家LoRA, 可分离路由
 

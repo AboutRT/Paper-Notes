@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2602.19083](https://arxiv.org/abs/2602.19083)  
-**代码**: 有 (项目页: https://chordedit.github.io)  
+**代码**: 有 (项目页: [https://chordedit.github.io](https://chordedit.github.io))  
 **领域**: 图像生成  
 **关键词**: 图像编辑, 最优传输, 单步推理, 扩散蒸馏模型, 无训练编辑
 

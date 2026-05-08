@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.09432](https://arxiv.org/abs/2410.09432)  
-**代码**: https://github.com/RaghavSinghal10/fedex-lora  
-**领域**: LLM效率 / 联邦学习  
+**代码**: [https://github.com/RaghavSinghal10/fedex-lora](https://github.com/RaghavSinghal10/fedex-lora)  
+**领域**: 模型压缩  
 **关键词**: LoRA, 联邦学习, 精确聚合, 参数高效微调, 残差修正
 
 ## 一句话总结
@@ -151,7 +151,7 @@ NLU 任务（RoBERTa-base, GLUE, r=4）:
 - [\[ACL 2025\] L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on Large Language Models](l4q_parameter_efficient_quantization_aware_finetuning.md)
 - [\[ACL 2025\] C3A: Parameter-Efficient Fine-Tuning via Circular Convolution](parameter-efficient_fine-tuning_via_circular_convolution.md)
 - [\[NeurIPS 2025\] Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](../../NeurIPS2025/model_compression/data_efficient_adaptation_in_large_language_models_via_continuous_low-rank_fine-.md)
-- [\[NeurIPS 2025\] Hyperbolic Fine-Tuning for Large Language Models](../../NeurIPS2025/model_compression/hyperbolic_fine-tuning_for_large_language_models.md)
-- [\[ACL 2025\] DenseLoRA: Dense Low-Rank Adaptation of Large Language Models](denselora_dense_low-rank_adaptation_of_large_language_models.md)
+- [\[NeurIPS 2025\] RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models](../../NeurIPS2025/model_compression/reflora_refactored_low-rank_adaptation_for_efficient_fine-tuning_of_large_models.md)
+- [\[ICML 2025\] Parameter-Efficient Fine-Tuning of State Space Models](../../ICML2025/model_compression/parameter-efficient_fine-tuning_of_state_space_models.md)
 
 <!-- RELATED:END -->

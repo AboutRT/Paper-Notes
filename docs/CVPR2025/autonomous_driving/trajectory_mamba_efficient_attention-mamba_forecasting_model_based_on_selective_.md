@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.10898](https://arxiv.org/abs/2503.10898)  
 **代码**: [GitHub](https://github.com/YiZhou-H/Trajectory-Mamba-CVPR)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 轨迹预测, 状态空间模型, Mamba, 注意力机制, 自动驾驶
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.01694](https://arxiv.org/abs/2412.01694)  
-**代码**: https://zhengrongz.github.io/AoTD/  
+**代码**: [https://zhengrongz.github.io/AoTD/](https://zhengrongz.github.io/AoTD/)  
 **领域**: Video Understanding / Agent  
 **关键词**: Agent蒸馏、视频问答、推理链、时空定位、多步推理
 

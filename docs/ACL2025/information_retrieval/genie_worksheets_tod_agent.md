@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Controllable and Reliable Knowledge-Intensive Task-Oriented Conversational Agents with Declarative Genie Worksheets
 description: >-
-  [ACL 2025][任务导向对话] Genie 提出了一个可编程的知识密集型任务导向对话框架，通过声明式 Worksheet 规范定义 Agent 策略，将 LLM 限制在语义解析和回复生成两个角色，由算法化运行时系统强制执行策略，实现从 21.8% 到 82.8% 的真实任务完成率提升。
+  [ACL 2025][信息检索] Genie 提出了一个可编程的知识密集型任务导向对话框架，通过声明式 Worksheet 规范定义 Agent 策略，将 LLM 限制在语义解析和回复生成两个角色，由算法化运行时系统强制执行策略，实现从 21.8% 到 82.8% 的真实任务完成率提升。
 tags:
   - ACL 2025
-  - 任务导向对话
+  - 信息检索
   - 声明式规范
   - 可控Agent
   - 知识密集对话
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2407.05674](https://arxiv.org/abs/2407.05674)  
 **代码**: [https://github.com/stanford-oval/genie-worksheets](https://github.com/stanford-oval/genie-worksheets)  
-**领域**: LLM Agent  
+**领域**: 信息检索  
 **关键词**: 任务导向对话, 声明式规范, 可控Agent, 知识密集对话, 对话状态管理  
 
 ## 一句话总结

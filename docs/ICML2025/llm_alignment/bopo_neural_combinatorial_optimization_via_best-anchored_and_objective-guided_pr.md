@@ -19,7 +19,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2503.07580](https://arxiv.org/abs/2503.07580)  
-**代码**: https://github.com/L-Z-7/BOPO  
+**代码**: [https://github.com/L-Z-7/BOPO](https://github.com/L-Z-7/BOPO)  
 **领域**: 对齐RLHF  
 **关键词**: preference optimization, neural combinatorial optimization, job-shop scheduling, TSP, DPO, SimPO, sample efficiency
 

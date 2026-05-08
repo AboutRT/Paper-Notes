@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多模态
   - GUI grounding
-  - 视觉语言模型
+  - 多模态VLM
   - 区域感知
   - IoU损失
   - 两阶段放大
@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2507.05673](https://arxiv.org/abs/2507.05673)  
 **作者**: Joonhyung Park (KAIST), Peng Tang, Sagnik Das, Srikar Appalaraju, Kunwar Yashraj Singh, R. Manmatha, Shabnam Ghadar (AWS AI Labs)  
 **代码**: 未公开  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: GUI grounding, 视觉语言模型, 区域感知, IoU损失, 两阶段放大, GUI自动化  
 
 ## 一句话总结
@@ -162,8 +162,8 @@ AITW上R-VLM平均action matching score达64.9%（+5.6%），click准确率71.0%
 
 - [\[ACL 2025\] Aria-UI: Visual Grounding for GUI Instructions](aria-ui_visual_grounding_for_gui_instructions.md)
 - [\[ACL 2025\] RATE-Nav: Region-Aware Termination Enhancement for Zero-shot Object Navigation with Vision-Language Models](rate-nav_region-aware_termination_enhancement_for_zero-shot_object_navigation_wi.md)
-- [\[ICLR 2026\] Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs](../../ICLR2026/multimodal_vlm/grasp_any_region_towards_precise_contextual_pixel_understanding_for_multimodal_l.md)
 - [\[ACL 2025\] Activating Distributed Visual Region within LLMs for Efficient and Effective Vision-Language Training and Inference](activating_distributed_visual_region_within_llms_for_efficient_and_effective_vis.md)
-- [\[ACL 2025\] ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding](vigil3d_a_linguistically_diverse_dataset_for_3d_visual_grounding.md)
+- [\[ICLR 2026\] Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs](../../ICLR2026/multimodal_vlm/grasp_any_region_towards_precise_contextual_pixel_understanding_for_multimodal_l.md)
+- [\[ACL 2025\] Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback](improving_medical_large_vision-language_models_with_abnormal-aware_feedback.md)
 
 <!-- RELATED:END -->

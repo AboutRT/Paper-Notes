@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - 多模态
-  - 多模态RAG
+  - 多模态VLM
   - VQA
   - 推理上下文
   - 蒙特卡罗树搜索

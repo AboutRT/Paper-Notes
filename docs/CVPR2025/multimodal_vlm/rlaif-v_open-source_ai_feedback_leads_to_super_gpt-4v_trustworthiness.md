@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - AI反馈
-  - 幻觉抑制
+  - 多模态VLM
   - 偏好学习
   - 开源对齐
   - 推理时扩展
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.17220](https://arxiv.org/abs/2405.17220)  
-**代码**: https://github.com/RLHF-V/RLAIF-V (有)  
+**代码**: [https://github.com/RLHF-V/RLAIF-V](https://github.com/RLHF-V/RLAIF-V)  
 **领域**: 多模态VLM  
 **关键词**: AI反馈, 幻觉抑制, 偏好学习, 开源对齐, 推理时扩展
 

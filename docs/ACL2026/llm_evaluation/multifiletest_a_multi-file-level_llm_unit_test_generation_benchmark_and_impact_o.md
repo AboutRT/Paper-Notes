@@ -9,7 +9,7 @@ tags:
   - 多文件基准
   - 跨文件依赖
   - 错误修复
-  - 代码质量
+  - LLM评测
 ---
 
 # MultiFileTest: A Multi-File-Level LLM Unit Test Generation Benchmark and Impact of Error Fixing Mechanisms
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2502.06556](https://arxiv.org/abs/2502.06556)  
 **代码**: [GitHub](https://github.com/MultiFileTest)  
-**领域**: LLM评估 / 代码生成  
+**领域**: LLM评测  
 **关键词**: 单元测试生成, 多文件基准, 跨文件依赖, 错误修复, 代码质量
 
 ## 一句话总结

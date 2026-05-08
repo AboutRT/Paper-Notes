@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - tokenisation bias
-  - causal inference
+  - 其他
   - regression discontinuity
   - BPE
   - WordPiece
@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2506.03149](https://arxiv.org/abs/2506.03149)  
 **代码**: [GitHub](https://github.com/pietrolesci/tokenisation-bias)  
 **机构**: University of Cambridge & ETH Zürich
-**领域**: AI安全  
+**领域**: 其他  
 **关键词**: tokenisation bias, causal inference, regression discontinuity, BPE, WordPiece, vocabulary, language model
 
 ## 一句话总结
@@ -145,8 +145,8 @@ tags:
 
 - [\[ACL 2025\] Tokenisation is NP-Complete](tokenisation_is_np-complete.md)
 - [\[ACL 2025\] Are Bias Evaluation Methods Biased?](are_bias_evaluation_methods_biased.md)
-- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
 - [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
 - [\[ACL 2025\] Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race](aligned_but_blind_implicit_bias.md)
+- [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI2026
   - RAG
-  - Long Narrative Reasoning
+  - 信息检索
   - GAN
   - Metacognitive Regulation
   - Stateful Reasoning
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2508.10419](https://arxiv.org/abs/2508.10419)  
 **代码**: [EternityJune25/ComoRAG](https://github.com/EternityJune25/ComoRAG)  
-**领域**: model_compression  
+**领域**: 信息检索  
 **关键词**: RAG, Long Narrative Reasoning, Memory-Organized, Metacognitive Regulation, Stateful Reasoning  
 
 ## 一句话总结
@@ -155,7 +155,7 @@ ComoRAG 的核心差异在于引入了显式的记忆工作空间和目标导向
 - [\[AAAI 2026\] Cog-RAG: Cognitive-Inspired Dual-Hypergraph with Theme Alignment Retrieval-Augmented Generation](cog-rag_cognitive-inspired_dual-hypergraph_with_theme_alignment_retrieval-augmen.md)
 - [\[AAAI 2026\] PRIME: Planning and Retrieval-Integrated Memory for Enhanced Reasoning](prime_planning_and_retrieval-integrated_memory_for_enhanced_reasoning.md)
 - [\[AAAI 2026\] Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction](mem-pal_towards_memory-based_personalized_dialogue_assistants_for_long-term_user.md)
-- [\[AAAI 2026\] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)
-- [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](../../ICLR2026/information_retrieval/beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
+- [\[ICLR 2026\] AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](../../ICLR2026/information_retrieval/amemgym_interactive_memory_benchmarking_for_assistants_in_long-horizon_conversat.md)
+- [\[AAAI 2026\] OPERA: A Reinforcement Learning--Enhanced Orchestrated Planner-Executor Architecture for Reasoning-Oriented Multi-Hop Retrieval](opera_a_reinforcement_learning--enhanced_orchestrated_planner-executor_architect.md)
 
 <!-- RELATED:END -->

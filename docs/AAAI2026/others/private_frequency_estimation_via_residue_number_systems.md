@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Private Frequency Estimation via Residue Number Systems
 description: >-
-  [AAAI 2026][本地差分隐私] 提出 ModularSubsetSelection (MSS)，一种基于剩余数系统（RNS）的本地差分隐私频率估计协议，在保持与 SubsetSelection 和 PGR 相当的估计精度的同时，显著降低通信开销（比 SS 减少达一半）、大幅加速服务器解码（比 PGR 快 11-448 倍）、并实现最低的数据重建攻击成功率。
+  [AAAI 2026][其他] 提出 ModularSubsetSelection (MSS)，一种基于剩余数系统（RNS）的本地差分隐私频率估计协议，在保持与 SubsetSelection 和 PGR 相当的估计精度的同时，显著降低通信开销（比 SS 减少达一半）、大幅加速服务器解码（比 PGR 快 11-448 倍）、并实现最低的数据重建攻击成功率。
 tags:
   - AAAI 2026
-  - 本地差分隐私
+  - 其他
   - 频率估计
   - 剩余数系统
   - 通信效率
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.11569](https://arxiv.org/abs/2511.11569)  
 **代码**: [GitHub](https://github.com/hharcolezi/private-frequency-oracle-rns)  
-**领域**: 差分隐私 / 联邦分析  
+**领域**: 其他  
 **关键词**: 本地差分隐私, 频率估计, 剩余数系统, 通信效率, 数据重建攻击
 
 ## 一句话总结
@@ -175,7 +175,7 @@ MSS 在所有隐私预算下均大幅快于 PGR，加速比从 11× 到 448×。
 - [\[CVPR 2026\] OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion](../../CVPR2026/others/omnifood8k_nutrition_estimation.md)
 - [\[AAAI 2026\] Improved Differentially Private Algorithms for Rank Aggregation](improved_differentially_private_algorithms_for_rank_aggregation.md)
 - [\[AAAI 2026\] A Graph-Theoretical Perspective on Law Design for Multiagent Systems](a_graph-theoretical_perspective_on_law_design_for_multiagent.md)
-- [\[AAAI 2026\] Reward Redistribution via Gaussian Process Likelihood Estimation](reward_redistribution_via_gaussian_process_likelihood_estimation.md)
 - [\[AAAI 2026\] Designing Incident Reporting Systems for Harms from General-Purpose AI](designing_incident_reporting_systems_for_harms_from_general-purpose_ai.md)
+- [\[AAAI 2026\] Scalable Vision-Guided Crop Yield Estimation](scalable_vision-guided_crop_yield_estimation.md)
 
 <!-- RELATED:END -->

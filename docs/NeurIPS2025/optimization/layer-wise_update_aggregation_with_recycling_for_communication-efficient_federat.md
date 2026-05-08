@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.11146](https://arxiv.org/abs/2503.11146)  
 **代码**: [swblaster/FedLUAR](https://github.com/swblaster/FedLUAR)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: federated learning, communication efficiency, gradient recycling, layer-wise aggregation, non-IID
 
 ## 一句话总结

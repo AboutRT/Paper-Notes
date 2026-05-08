@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 图像恢复
   - 盲点网络
-  - 自监督去噪
+  - 图像复原
   - 三角掩码卷积
   - 空间相关噪声
   - 知识蒸馏
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.04484](https://arxiv.org/abs/2604.04484)  
-**代码**: https://github.com/parkjun210/TM-BSN  
+**代码**: [https://github.com/parkjun210/TM-BSN](https://github.com/parkjun210/TM-BSN)  
 **领域**: 图像恢复 / 自监督去噪  
 **关键词**: 盲点网络, 自监督去噪, 三角掩码卷积, 空间相关噪声, 知识蒸馏
 
@@ -126,8 +126,8 @@ tags:
 
 - [\[CVPR 2026\] SelfHVD: Self-Supervised Handheld Video Deblurring](selfhvd_self-supervised_handheld_video_deblurring.md)
 - [\[ECCV 2024\] Asymmetric Mask Scheme for Self-supervised Real Image Denoising](../../ECCV2024/image_restoration/asymmetric_mask_scheme_for_self-supervised_real_image_denoising.md)
-- [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](../../CVPR2025/image_restoration/rotation-equivariant_self-supervised_method_in_image_denoising.md)
-- [\[ICCV 2025\] Blind2Sound: Self-Supervised Image Denoising without Residual Noise](../../ICCV2025/image_restoration/blind2sound_self-supervised_image_denoising_without_residual_noise.md)
 - [\[CVPR 2026\] Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration](beyond_ground-truth_leveraging_image_quality_priors_for_real-world_image_restora.md)
+- [\[CVPR 2026\] Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
+- [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](../../CVPR2025/image_restoration/rotation-equivariant_self-supervised_method_in_image_denoising.md)
 
 <!-- RELATED:END -->

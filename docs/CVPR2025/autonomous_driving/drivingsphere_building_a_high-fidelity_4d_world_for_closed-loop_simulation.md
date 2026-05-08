@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.11252](https://arxiv.org/abs/2411.11252)  
-**代码**: https://yanty123.github.io/DrivingSphere/  
+**代码**: [https://yanty123.github.io/DrivingSphere/](https://yanty123.github.io/DrivingSphere/)  
 **领域**: 自动驾驶  
 **关键词**: 闭环仿真、4D世界模型、占用网格扩散、视频生成、自动驾驶
 

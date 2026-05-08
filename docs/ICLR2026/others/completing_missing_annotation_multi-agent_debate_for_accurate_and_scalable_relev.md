@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Completing Missing Annotation: Multi-Agent Debate for Accurate and Scalable Relevance Assessment
 description: >-
-  [ICLR 2026][信息检索评测] 提出DREAM——基于对立立场初始化的多Agent多轮辩论框架用于IR相关性标注：一致时自动标注、分歧时交给人工(含辩论历史辅助)。达到95.2% balanced accuracy且仅3.5%需人工介入，据此构建BRIDGE基准数据集，发现29,824个原有基准缺失的相关标注(原标注的428%)，修正了检索系统排名偏差和RAG中检索-生成性能不匹配问题。
+  [ICLR 2026][其他] 提出DREAM——基于对立立场初始化的多Agent多轮辩论框架用于IR相关性标注：一致时自动标注、分歧时交给人工(含辩论历史辅助)。达到95.2% balanced accuracy且仅3.5%需人工介入，据此构建BRIDGE基准数据集，发现29,824个原有基准缺失的相关标注(原标注的428%)，修正了检索系统排名偏差和RAG中检索-生成性能不匹配问题。
 tags:
   - ICLR 2026
-  - 信息检索评测
+  - 其他
   - 多Agent辩论
   - 相关性标注
   - 人机协作
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.06526](https://arxiv.org/abs/2602.06526)  
 **代码**: [GitHub](https://github.com/DISL-Lab/DREAM-ICLR-26)  
-**领域**: 信息检索 / 评测方法论  
+**领域**: 其他  
 **关键词**: 信息检索评测, 多Agent辩论, 相关性标注, 人机协作, BRIDGE基准
 
 ## 一句话总结
@@ -158,10 +158,10 @@ DREAM用3.5%的人工介入达到95.2% bAcc，超过Human-Only的93.8%。LARA需
 
 ## 相关论文
 
-- [\[ACL 2025\] Voting or Consensus? Decision-Making in Multi-Agent Debate](../../ACL2025/others/voting_or_consensus_decision-making_in_multi-agent_debate.md)
-- [\[ACL 2025\] CortexDebate: Debating Sparsely and Equally for Multi-Agent Debate](../../ACL2025/others/cortexdebate_debating_sparsely_and_equally_for_multi-agent_debate.md)
+- [\[ACL 2025\] Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis](../../ACL2025/others/tree-of-debate_multi-persona_debate_trees_elicit_critical_thinking_for_scientifi.md)
 - [\[ICLR 2026\] Missing Mass for Differentially Private Domain Discovery](missing_mass_for_differentially_private_domain_discovery.md)
-- [\[ICLR 2026\] A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction](a_scalable_inter-edge_correlation_modeling_in_copulagnn_for_link_sign_prediction.md)
-- [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](../../AAAI2026/others/local_guidance_for_configuration-based_multi-agent_pathfinding.md)
+- [\[ACL 2025\] A Multi-Persona Framework for Argument Quality Assessment](../../ACL2025/others/a_multi-persona_framework_for_argument_quality_assessment.md)
+- [\[CVPR 2026\] AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL](../../CVPR2026/others/assistmimic_physics_grounded_humanoid_assistance.md)
+- [\[AAAI 2026\] Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit](../../AAAI2026/others/area-optimal_control_strategies_for_heterogeneous_multi-agen.md)
 
 <!-- RELATED:END -->

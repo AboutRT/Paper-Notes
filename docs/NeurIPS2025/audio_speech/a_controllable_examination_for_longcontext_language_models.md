@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 语音
-  - 长上下文评估
+  - 音频语音
   - LongBioBench
   - 合成基准
   - 可控实验
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.02921](https://arxiv.org/abs/2506.02921)  
 **代码**: 无公开代码  
-**领域**: LLM评估 / 长上下文建模  
+**领域**: 音频语音  
 **关键词**: 长上下文评估, LongBioBench, 合成基准, 可控实验, 传记生成  
 
 ## 一句话总结
@@ -107,8 +107,8 @@ LongBioBench的核心idea非常简洁：用**虚构传记**同时作为needle和
 
 - [\[NeurIPS 2025\] AudSemThinker: Enhancing Audio-Language Models through Reasoning over Semantics of Sound](audsemthinker_enhancing_audio-language_models_through_reasoning_over_semantics_o.md)
 - [\[ACL 2025\] Does Your Voice Assistant Remember? Analyzing Conversational Context Recall and Utilization in Voice Interaction Models](../../ACL2025/audio_speech/does_your_voice_assistant_remember_analyzing_conversational_context_recall_and_u.md)
-- [\[AAAI 2026\] End-to-end Contrastive Language-Speech Pretraining Model For Long-form Spoken Question Answering](../../AAAI2026/audio_speech/end-to-end_contrastive_language-speech_pretraining_model_for_long-form_spoken_qu.md)
+- [\[NeurIPS 2025\] Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers](physics_of_language_models_part_41_architecture_design_and_the_magic_of_canon_la.md)
 - [\[NeurIPS 2025\] Associative Syntax and Maximal Repetitions Reveal Context-Dependent Complexity in Fruit Bat Communication](associative_syntax_and_maximal_repetitions_reveal_context-dependent_complexity_i.md)
-- [\[ICCV 2025\] Latent Swap Joint Diffusion for 2D Long-Form Latent Generation](../../ICCV2025/audio_speech/latent_swap_joint_diffusion_for_2d_long-form_latent_generation.md)
+- [\[AAAI 2026\] End-to-end Contrastive Language-Speech Pretraining Model For Long-form Spoken Question Answering](../../AAAI2026/audio_speech/end-to-end_contrastive_language-speech_pretraining_model_for_long-form_spoken_qu.md)
 
 <!-- RELATED:END -->

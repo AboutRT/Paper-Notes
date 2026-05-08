@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - ranking
-  - generator-only
+  - 推荐系统
   - group-relative optimization
   - scaling law
   - recommendation

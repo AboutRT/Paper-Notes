@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 视觉对应
   - 多模态大模型
-  - 对比学习
+  - 多模态VLM
   - 视觉匹配
   - benchmark
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2501.04670](https://arxiv.org/abs/2501.04670)  
-**代码**: https://zhouyiks.github.io/projects/CoLVA/  
+**代码**: [https://zhouyiks.github.io/projects/CoLVA/](https://zhouyiks.github.io/projects/CoLVA/)  
 **领域**: Multimodal VLM  
 **关键词**: 视觉对应, 多模态大模型, 对比学习, 视觉匹配, benchmark
 
@@ -134,9 +134,9 @@ CoLVA仅用4B参数即超越GPT-4o 7.15%，超越Qwen2-VL-72B 11.72%。
 ## 相关论文
 
 - [\[ICCV 2025\] MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs](mm-spatial_exploring_3d_spatial_understanding_in_multimodal_llms.md)
-- [\[ACL 2025\] Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder](../../ACL2025/multimodal_vlm/exploring_how_generative_mllms_perceive_more.md)
-- [\[ACL 2025\] Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](../../ACL2025/multimodal_vlm/exploring_compositional_generalization_of_multimodal_llms_for_medical_imaging.md)
 - [\[ICCV 2025\] Visual Chronicles: Using Multimodal LLMs to Analyze Massive Collections of Images](visual_chronicles_using_multimodal_llms_to_analyze_massive_collections_of_images.md)
-- [\[ACL 2025\] Insight Over Sight: Exploring the Vision-Knowledge Conflicts in Multimodal LLMs](../../ACL2025/multimodal_vlm/conflictvis_vision_knowledge_conflict.md)
+- [\[ACL 2025\] Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder](../../ACL2025/multimodal_vlm/exploring_how_generative_mllms_perceive_more.md)
+- [\[ICCV 2025\] SMoLoRA: Exploring and Defying Dual Catastrophic Forgetting in Continual Visual Instruction Tuning](smolora_exploring_and_defying_dual_catastrophic_forgetting_in_continual_visual_i.md)
+- [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](controlling_multimodal_llms_via_rewardguided_decoding.md)
 
 <!-- RELATED:END -->

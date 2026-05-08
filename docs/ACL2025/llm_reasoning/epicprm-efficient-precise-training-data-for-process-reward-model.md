@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.02382](https://arxiv.org/abs/2503.02382)  
-**代码**: https://github.com/xiaolizh1/EpicPRM  
+**代码**: [https://github.com/xiaolizh1/EpicPRM](https://github.com/xiaolizh1/EpicPRM)  
 **领域**: LLM推理  
 **关键词**: 过程奖励模型, 数学推理, 蒙特卡洛估计, 自适应二分搜索, 数据质量
 

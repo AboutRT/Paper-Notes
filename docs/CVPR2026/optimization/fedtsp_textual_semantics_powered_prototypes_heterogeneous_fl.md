@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2503.13543](https://arxiv.org/abs/2503.13543)  
 **代码**: [https://github.com/XinghaoWu/FedTSP](https://github.com/XinghaoWu/FedTSP)  
-**领域**: 联邦学习 / 原型学习  
+**领域**: 优化  
 **关键词**: 联邦原型学习, 预训练语言模型, 语义关系保持, 异构联邦学习, 跨模态对齐
 
 ## 一句话总结

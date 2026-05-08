@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - disinformation
   - personalization
-  - LLM safety
+  - 社会计算
   - safety filter
   - 文本检测
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.13666](https://arxiv.org/abs/2412.13666)  
 **代码**: [GitHub](https://github.com/kinit-sk/personalized-disinfo)（数据集，需申请）  
-**领域**: ai_safety  
+**领域**: 社会计算  
 **关键词**: disinformation, personalization, LLM safety, safety filter, machine-generated text detection
 
 ## 一句话总结

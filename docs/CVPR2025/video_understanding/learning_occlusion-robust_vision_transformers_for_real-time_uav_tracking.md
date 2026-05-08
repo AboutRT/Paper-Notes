@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.09228](https://arxiv.org/abs/2504.09228)  
-**代码**: https://github.com/wuyou3474/ORTrack  
+**代码**: [https://github.com/wuyou3474/ORTrack](https://github.com/wuyou3474/ORTrack)  
 **领域**: 视频理解 / 目标跟踪  
 **关键词**: 无人机跟踪, 遮挡鲁棒, Vision Transformer, 知识蒸馏, 空间Cox过程
 

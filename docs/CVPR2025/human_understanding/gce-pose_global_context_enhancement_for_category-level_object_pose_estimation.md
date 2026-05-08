@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.04293](https://arxiv.org/abs/2502.04293)  
-**代码**: https://colin-de.github.io/GCE-Pose/  
+**代码**: [https://colin-de.github.io/GCE-Pose/](https://colin-de.github.io/GCE-Pose/)  
 **领域**: 3D视觉 / 人体理解  
 **关键词**: 类别级位姿估计, 全局上下文, 语义形状重建, 深度线性形状模型, 特征融合
 
@@ -130,9 +130,9 @@ GCE-Pose 由四个模块组成：(A) 从 RGB-D 输入提取点云和图像特征
 ## 相关论文
 
 - [\[ICCV 2025\] CleanPose: Category-Level Object Pose Estimation via Causal Learning and Knowledge Distillation](../../ICCV2025/human_understanding/cleanpose_category-level_object_pose_estimation_via_causal_learning_and_knowledg.md)
+- [\[ECCV 2024\] U-COPE: Taking a Further Step to Universal 9D Category-Level Object Pose Estimation](../../ECCV2024/human_understanding/u-cope_taking_a_further_step_to_universal_9d_category-level_object_pose_estimati.md)
 - [\[CVPR 2025\] Co-op: Correspondence-based Novel Object Pose Estimation](co-op_correspondence-based_novel_object_pose_estimation.md)
 - [\[ECCV 2024\] GS-Pose: Category-Level Object Pose Estimation via Geometric and Semantic Correspondence](../../ECCV2024/human_understanding/gs-pose_category-level_object_pose_estimation_via_geometric_and_semantic_corresp.md)
-- [\[ECCV 2024\] U-COPE: Taking a Further Step to Universal 9D Category-Level Object Pose Estimation](../../ECCV2024/human_understanding/u-cope_taking_a_further_step_to_universal_9d_category-level_object_pose_estimati.md)
-- [\[CVPR 2025\] One2Any: One-Reference 6D Pose Estimation for Any Object](one2any_one-reference_6d_pose_estimation_for_any_object.md)
+- [\[CVPR 2025\] Recurrent Feature Mining and Keypoint Mixup Padding for Category-Agnostic Pose Estimation](recurrent_feature_mining_and_keypoint_mixup_padding_for_category-agnostic_pose_e.md)
 
 <!-- RELATED:END -->

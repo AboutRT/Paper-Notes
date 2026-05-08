@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2507.18224](https://arxiv.org/abs/2507.18224)  
-**代码**: [https://github.com/Shiy-Li/ARG-Designer](https://github.com/Shiy-Li/ARG-Designer) (有)  
-**领域**: LLM Agent / 多Agent系统  
+**代码**: [https://github.com/Shiy-Li/ARG-Designer](https://github.com/Shiy-Li/ARG-Designer)  
+**领域**: 图学习  
 **关键词**: 多Agent拓扑设计, 自回归图生成, 协作图, 课程学习, 可扩展Agent  
 
 ## 一句话总结
@@ -121,9 +121,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] S-DAG: A Subject-Based Directed Acyclic Graph for Multi-Agent Heterogeneous Reasoning](s-dag_a_subject-based_directed_acyclic_graph_for_multi-agent.md)
+- [\[CVPR 2026\] Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs](../../CVPR2026/graph_learning/graph2eval_multimodal_task_generation_agents.md)
 - [\[ICLR 2026\] Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding](../../ICLR2026/graph_learning/pairwise_is_not_enough_hypergraph_neural_networks_for_multi-agent_pathfinding.md)
 - [\[CVPR 2026\] M3KG-RAG: Multi-hop Multimodal Knowledge Graph-enhanced Retrieval-Augmented Generation](../../CVPR2026/graph_learning/m3kg_rag_multi_hop_multimodal_knowledge_graph_enhanced_retrieval_augmented_genera.md)
 - [\[AAAI 2026\] MyGram: Modality-aware Graph Transformer with Global Distribution for Multi-modal Entity Alignment](mygram_modality-aware_graph_transformer_with_global_distribution_for_multi-modal.md)
-- [\[NeurIPS 2025\] GraphTOP: Graph Topology-Oriented Prompting for Graph Neural Networks](../../NeurIPS2025/graph_learning/graphtop_graph_topology-oriented_prompting_for_graph_neural_networks.md)
 
 <!-- RELATED:END -->

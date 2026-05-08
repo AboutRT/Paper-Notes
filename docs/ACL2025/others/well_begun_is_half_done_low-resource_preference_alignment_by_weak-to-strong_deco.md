@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Well Begun is Half Done: Low-resource Preference Alignment by Weak-to-Strong Decoding
 description: >-
-  [ACL 2025][偏好对齐] 提出 Weak-to-Strong Decoding (WSD) 框架，利用一个小型对齐模型为大型基座模型起草对齐的开头，再由大模型续写，以低资源方式实现偏好对齐且不产生 alignment tax。
+  [ACL 2025][其他] 提出 Weak-to-Strong Decoding (WSD) 框架，利用一个小型对齐模型为大型基座模型起草对齐的开头，再由大模型续写，以低资源方式实现偏好对齐且不产生 alignment tax。
 tags:
   - ACL 2025
-  - 偏好对齐
+  - 其他
   - 低资源
   - 弱到强解码
   - 投机解码
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.07434](https://arxiv.org/abs/2506.07434)  
 **代码**: 有（已开源代码、数据集和 Pilot-3B 模型）  
-**领域**: NLP / LLM Alignment  
+**领域**: 其他  
 **关键词**: 偏好对齐, 低资源, 弱到强解码, 投机解码, alignment tax
 
 ## 一句话总结
@@ -121,10 +121,10 @@ WSD 框架的核心思想是：用一个小型对齐模型（draft model）m 生
 
 ## 相关论文
 
-- [\[ACL 2025\] Synergistic Weak-Strong Collaboration by Aligning Preferences](synergistic_weak-strong_collaboration_by_aligning_preferences.md)
 - [\[ACL 2025\] Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling](understanding_cross-domain_adaptation_in_low-resource_topic_modeling.md)
+- [\[ACL 2025\] Synergistic Weak-Strong Collaboration by Aligning Preferences](synergistic_weak-strong_collaboration_by_aligning_preferences.md)
 - [\[ACL 2025\] How to Mitigate Overfitting in Weak-to-Strong Generalization?](how_to_mitigate_overfitting_in_weak-to-strong_generalization.md)
 - [\[ACL 2025\] Revisiting Weak-to-Strong Generalization: Reverse KL vs. Forward KL](revisiting_weak-to-strong_generalization_in_theory_and_practice_reverse_kl_vs_fo.md)
-- [\[ACL 2025\] Model Extrapolation Expedites Alignment](expo_model_extrapolation.md)
+- [\[ACL 2025\] Balancing the Budget: Understanding Trade-offs Between Supervised and Preference-Based Finetuning](balancing_the_budget_understanding_trade-offs_between_supervised_and_preference-.md)
 
 <!-- RELATED:END -->

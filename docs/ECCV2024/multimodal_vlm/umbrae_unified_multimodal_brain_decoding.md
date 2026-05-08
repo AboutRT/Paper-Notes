@@ -9,7 +9,7 @@ tags:
   - 脑信号解码
   - fMRI
   - 跨被试训练
-  - 多模态LLM
+  - 多模态VLM
   - 脑-视觉对齐
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.07202](https://arxiv.org/abs/2404.07202)  
-**代码**: https://weihaox.github.io/UMBRAE (有)  
+**代码**: [https://weihaox.github.io/UMBRAE](https://weihaox.github.io/UMBRAE)  
 **领域**: 多模态VLM  
 **关键词**: 脑信号解码, fMRI, 跨被试训练, 多模态LLM, 脑-视觉对齐
 
@@ -143,9 +143,9 @@ UMBRAE由三部分组成：(1) 脑编码器（被试特定tokenizer + 通用perc
 ## 相关论文
 
 - [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_language_models.md)
-- [\[ACL 2025\] Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucination in Multimodal LLMs](../../ACL2025/multimodal_vlm/mixture_of_decoding_an_attention-inspired_adaptive_decoding_strategy_to_mitigate.md)
 - [\[ECCV 2024\] Uni3DL: Unified Model for 3D and Language Understanding](uni3dl_a_unified_model_for_3d_vision-language_understanding.md)
+- [\[ECCV 2024\] Large Motion Model for Unified Multi-Modal Motion Generation](large_motion_model_for_unified_multi-modal_motion_generation.md)
 - [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](../../ICCV2025/multimodal_vlm/controlling_multimodal_llms_via_rewardguided_decoding.md)
-- [\[CVPR 2026\] Customized Visual Storytelling with Unified Multimodal LLMs](../../CVPR2026/multimodal_vlm/customized_visual_storytelling_with_unified_multimodal_llms.md)
+- [\[ACL 2025\] Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucination in Multimodal LLMs](../../ACL2025/multimodal_vlm/mixture_of_decoding_an_attention-inspired_adaptive_decoding_strategy_to_mitigate.md)
 
 <!-- RELATED:END -->

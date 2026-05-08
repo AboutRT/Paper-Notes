@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 自监督学习
-  - 语音-文本对齐
+  - 自监督
   - Whisper
   - 对比学习
   - 心理学表征
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.16344](https://arxiv.org/abs/2501.16344)  
-**代码**: https://github.com/humanlab/WhiSPA (有)  
+**代码**: [https://github.com/humanlab/WhiSPA](https://github.com/humanlab/WhiSPA)  
 **领域**: 自监督学习 / 语音理解  
 **关键词**: 语音-文本对齐, Whisper, 对比学习, 心理学表征, 情感分析
 
@@ -117,10 +117,10 @@ NCE 对比损失（温度 τ=0.1）在 50 万+语音段上训练，数据来自 
 
 ## 相关论文
 
-- [\[ACL 2025\] QAEncoder: Towards Aligned Representation Learning in Question Answering Systems](qaencoder_aligned_representation.md)
-- [\[ICML 2025\] Collapse-Proof Non-Contrastive Self-Supervised Learning](../../ICML2025/self_supervised/collapse-proof_non-contrastive_self-supervised_learning.md)
 - [\[ACL 2025\] Contrastive Learning on LLM Back Generation Treebank for Cross-domain Constituency Parsing](llm_back_gen_treebank.md)
-- [\[ECCV 2024\] ViC-MAE: Self-Supervised Representation Learning from Images and Video with Contrastive Masked Autoencoders](../../ECCV2024/self_supervised/vic-mae_self-supervised_representation_learning_from_images_and_video_with_contr.md)
+- [\[ACL 2025\] QAEncoder: Towards Aligned Representation Learning in Question Answering Systems](qaencoder_aligned_representation.md)
+- [\[ICML 2025\] Discovering Global False Negatives On the Fly for Self-supervised Contrastive Learning](../../ICML2025/self_supervised/discovering_global_false_negatives_on_the_fly_for_self-supervised_contrastive_le.md)
+- [\[ICML 2025\] Collapse-Proof Non-Contrastive Self-Supervised Learning](../../ICML2025/self_supervised/collapse-proof_non-contrastive_self-supervised_learning.md)
 - [\[ACL 2025\] Improving Low-Resource Morphological Inflection via Self-Supervised Objectives](improving_low-resource_morphological_inflection_via_self-supervised_objectives.md)
 
 <!-- RELATED:END -->

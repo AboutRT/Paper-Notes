@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2026
   - 语音
-  - 大型音频语言模型
+  - 音频语音
   - 说话人一致性
   - 多轮对话
   - 基准测试
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.04029](https://arxiv.org/abs/2601.04029)  
 **代码**: [https://github.com/holi-lab/SpeakerSleuth](https://github.com/holi-lab/SpeakerSleuth)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: 大型音频语言模型, 说话人一致性, 多轮对话, 基准测试, 模态偏差
 
 ## 一句话总结

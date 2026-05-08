@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.05234](https://arxiv.org/abs/2512.05234)  
-**代码**: https://github.com/felix-fjm/mar-fl  
+**代码**: [https://github.com/felix-fjm/mar-fl](https://github.com/felix-fjm/mar-fl)  
 **领域**: 优化 / 联邦学习  
 **关键词**: 联邦学习, P2P通信, Moshpit All-Reduce, 差分隐私, 知识蒸馏
 

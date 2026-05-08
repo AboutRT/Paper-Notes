@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16738](https://arxiv.org/abs/2411.16738)  
-**代码**: https://github.com/SonyResearch/mitigating_memorization  
+**代码**: [https://github.com/SonyResearch/mitigating_memorization](https://github.com/SonyResearch/mitigating_memorization)  
 **领域**: 扩散模型 / AI安全  
 **关键词**: 扩散模型记忆化, 吸引盆地, 分类器无关引导, 隐私泄露, 缓解策略
 
@@ -123,7 +123,7 @@ tags:
 - [\[CVPR 2025\] TCFG: Tangential Damping Classifier-Free Guidance](tcfg_tangential_damping_classifier-free_guidance.md)
 - [\[AAAI 2026\] Studying Classifier(-Free) Guidance From A Classifier-Centric Perspective](../../AAAI2026/image_generation/studying_classifier-free_guidance_from_a_classifier-centric_perspective.md)
 - [\[ICCV 2025\] TeEFusion: Blending Text Embeddings to Distill Classifier-Free Guidance](../../ICCV2025/image_generation/teefusion_blending_text_embeddings_to_distill_classifier-free_guidance.md)
+- [\[CVPR 2025\] Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in Diffusion Models](enhancing_privacy-utility_trade-offs_to_mitigate_memorization_in_diffusion_model.md)
 - [\[NeurIPS 2025\] Towards a Golden Classifier-Free Guidance Path via Foresight Fixed Point Iterations](../../NeurIPS2025/image_generation/towards_a_golden_classifier-free_guidance_path_via_foresight_fixed_point_iterati.md)
-- [\[CVPR 2025\] ReNeg: Learning Negative Embedding with Reward Guidance](reneg_learning_negative_embedding_with_reward_guidance.md)
 
 <!-- RELATED:END -->

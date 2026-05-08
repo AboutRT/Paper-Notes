@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - cross-lingual consistency
-  - mechanistic interpretability
+  - 多语言翻译
   - language transition
   - factual knowledge
   - multilingual LM
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2504.04264](https://arxiv.org/abs/2504.04264)  
-**代码**: https://github.com/boschresearch/KLAR-CLC  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/boschresearch/KLAR-CLC](https://github.com/boschresearch/KLAR-CLC)  
+**领域**: 多语言翻译  
 **关键词**: cross-lingual consistency, mechanistic interpretability, language transition, factual knowledge, multilingual LM
 
 ## 一句话总结

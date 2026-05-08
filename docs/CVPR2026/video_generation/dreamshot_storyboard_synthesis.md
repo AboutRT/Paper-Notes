@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.17195](https://arxiv.org/abs/2604.17195)  
 **代码**: [https://ll3rd.github.io/DreamShot/](https://ll3rd.github.io/DreamShot/)  
-**领域**: 图像生成  
+**领域**: 视频生成  
 **关键词**: 故事板生成, 视频扩散模型, 角色一致性, 多角色参考, 注意力约束
 
 ## 一句话总结

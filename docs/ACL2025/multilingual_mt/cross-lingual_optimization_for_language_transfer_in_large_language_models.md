@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - cross-lingual transfer
-  - DPO
+  - 多语言翻译
   - multilingual
   - low-resource language
   - language adaptation
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.14297](https://arxiv.org/abs/2505.14297)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: 多语言翻译  
 **关键词**: cross-lingual transfer, DPO, multilingual, low-resource language, language adaptation, attention-only tuning
 
 ## 一句话总结

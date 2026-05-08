@@ -125,9 +125,9 @@ O2MAG 在所有指标上全面领先，分类准确率比最佳训练方法高 1
 ## 相关论文
 
 - [\[AAAI 2026\] Matrix-Free Two-to-Infinity and One-to-Two Norms Estimation](../../AAAI2026/ai_safety/matrix-free_two-to-infinity_and_one-to-two_norms_estimation.md)
-- [\[ICLR 2026\] Unmasking Backdoors: An Explainable Defense via Gradient-Attention Anomaly Scoring for Pre-trained Language Models](../../ICLR2026/ai_safety/unmasking_backdoors_an_explainable_defense_via_gradient-attention_anomaly_scorin.md)
-- [\[NeurIPS 2025\] InvisibleInk: High-Utility and Low-Cost Text Generation with Differential Privacy](../../NeurIPS2025/ai_safety/invisibleink_high-utility_and_low-cost_text_generation_with_differential_privacy.md)
-- [\[ICLR 2026\] Attention Smoothing Is All You Need For Unlearning](../../ICLR2026/ai_safety/attention_smoothing_is_all_you_need_for_unlearning.md)
+- [\[AAAI 2026\] Towards Multiple Missing Values-Resistant Unsupervised Graph Anomaly Detection](../../AAAI2026/ai_safety/towards_multiple_missing_values-resistant_unsupervised_graph_anomaly_detection.md)
 - [\[ICLR 2026\] Less is More: Towards Simple Graph Contrastive Learning](../../ICLR2026/ai_safety/less_is_more_towards_simple_graph_contrastive_learning.md)
+- [\[ICLR 2026\] Efficient Resource-Constrained Training of Transformers via Subspace Optimization](../../ICLR2026/ai_safety/efficient_resource-constrained_training_of_transformers_via_subspace_optimizatio.md)
+- [\[ICLR 2026\] Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective](../../ICLR2026/ai_safety/adaptive_methods_are_preferable_in_high_privacy_settings_an_sde_perspective.md)
 
 <!-- RELATED:END -->

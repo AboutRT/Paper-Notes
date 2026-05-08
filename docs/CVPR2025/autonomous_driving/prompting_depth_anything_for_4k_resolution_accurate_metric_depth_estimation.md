@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.14015](https://arxiv.org/abs/2412.14015)  
-**代码**: https://PromptDA.github.io/  
-**领域**: 3D视觉 / 深度估计  
+**代码**: [https://PromptDA.github.io/](https://PromptDA.github.io/)  
+**领域**: 自动驾驶  
 **关键词**: 深度基础模型, 度量深度估计, LiDAR提示, 深度补全, 4K分辨率
 
 ## 一句话总结

@@ -47,11 +47,11 @@ LrcSSM 架构包含：输入编码器 → 归一化层 → 多层非线性 LRC S
 
 1. **对角化 LRC 模型设计**：原始 LRC 方程中，每个神经元的遗忘电导 $f_i$ 和更新电导 $z_i$ 依赖于**所有**神经元的膜电位。LrcSSM 将其修改为仅依赖**自身**膜电位（状态依赖部分）和**全部外部输入**（输入依赖部分）：
 
-   $$f_i^*(x_i, \mathbf{u}) = \underbrace{g_i^{max,x} \sigma(a_i^x x_i + b_i^x)}_{x_i \text{ 状态依赖}} + \underbrace{g_i^{max,u} \sigma(\sum_j a_{ji}^u u_j + b_j^u)}_{\mathbf{u} \text{ 输入依赖}} + g_i^{leak}$$
+    $f_i^*(x_i, \mathbf{u}) = \underbrace{g_i^{max,x} \sigma(a_i^x x_i + b_i^x)}_{x_i \text{ 状态依赖}} + \underbrace{g_i^{max,u} \sigma(\sum_j a_{ji}^u u_j + b_j^u)}_{\mathbf{u} \text{ 输入依赖}} + g_i^{leak}$
 
    同理修改 $z_i^*$ 和弹性 $\epsilon_i^*$。这使得 Jacobian 矩阵 $\mathbf{A}(\mathbf{x}, \mathbf{u})$ 天然为对角形式：
 
-   $$\mathbf{A}(\mathbf{x}, \mathbf{u}) = \text{diag}[-\sigma(f_i^*) \sigma(\epsilon_i^*)]$$
+    $\mathbf{A}(\mathbf{x}, \mathbf{u}) = \text{diag}[-\sigma(f_i^*) \sigma(\epsilon_i^*)]$
 
 2. **精确并行化**：由于 Jacobian 天然对角，无需 quasi 近似。直接使用 DEER/ELK 的并行扫描算法，计算复杂度为 $\mathcal{O}(TD)$，序列深度仅 $\mathcal{O}(\log T)$。关键优势：不再需要 Algorithm 1 中的 Line 8 `$J_s \leftarrow \text{Diag}(J_s)$`，因为 $J_s$ 本身就是对角的。
 
@@ -123,9 +123,9 @@ LrcSSM 架构包含：输入编码器 → 归一化层 → 多层非线性 LRC S
 ## 相关论文
 
 - [\[NeurIPS 2025\] RiverMamba: A State Space Model for Global River Discharge and Flood Forecasting](rivermamba_a_state_space_model_for_global_river_discharge_and_flood_forecasting.md)
+- [\[ICML 2025\] A Generalizable Physics-Enhanced State Space Model for Long-Term Dynamics Forecasting in Complex Environments](../../ICML2025/time_series/a_generalizable_physics-enhanced_state_space_model_for_long-term_dynamics_foreca.md)
 - [\[ICML 2025\] TimePro: Efficient Multivariate Long-term Time Series Forecasting with Variable- and Time-Aware Hyper-state](../../ICML2025/time_series/timepro_efficient_multivariate_long-term_time_series_forecasting_with_variable-_.md)
 - [\[AAAI 2026\] Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios](../../AAAI2026/time_series/scaling_llm_speculative_decoding_non-autoregressive_forecasting_in_large-batch_s.md)
 - [\[NeurIPS 2025\] Physics-informed Reduced Order Modeling of Time-dependent PDEs via Differentiable Solvers](physics-informed_reduced_order_modeling_of_time-dependent_pdes_via_differentiabl.md)
-- [\[NeurIPS 2025\] Simple and Efficient Heterogeneous Temporal Graph Neural Network](simple_and_efficient_heterogeneous_temporal_graph_neural_network.md)
 
 <!-- RELATED:END -->

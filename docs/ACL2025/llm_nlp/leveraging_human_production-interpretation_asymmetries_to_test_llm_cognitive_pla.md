@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.17579](https://arxiv.org/abs/2503.17579)  
 **代码**: [GitHub](https://github.com/LingMechLab/Production-Interpretation_Asymmetries_ACL2025)  
-**领域**: NLP理解 / 认知科学  
+**领域**: LLM/NLP  
 **关键词**: 认知合理性, 代词产出与解读, 隐含因果动词, 大语言模型, 产出-解读不对称
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Game Development as Human-LLM Interaction](game_development_as_human-llm_interaction.md)
 - [\[ACL 2025\] LLM-Powered Test Case Generation for Detecting Bugs in Plausible Programs](llm_test_case_gen_bugs.md)
+- [\[ACL 2025\] Game Development as Human-LLM Interaction](game_development_as_human-llm_interaction.md)
 - [\[ACL 2025\] Leveraging In-Context Learning for Political Bias Testing of LLMs](leveraging_in-context_learning_for_political_bias_testing_of_llms.md)
 - [\[ACL 2025\] Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents](simulating_diverse_students.md)
 - [\[ACL 2025\] Assessing the Vulnerability of LLMs to Cognitive Biases in Scientific Research](assessing_the_vulnerability_of_llms_to_cognitive_biases_in_scientific_research.md)

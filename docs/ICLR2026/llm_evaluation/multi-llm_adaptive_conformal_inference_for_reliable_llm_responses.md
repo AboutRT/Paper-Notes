@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR2026
   - Conformal Inference
-  - LLM Factuality
+  - LLM评测
   - Multi-LLM Ensemble
   - False-Claim Filtering
   - Distribution-Free Guarantee
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.01285](https://arxiv.org/abs/2602.01285)  
 **代码**: [GitHub](https://github.com/MLAI-Yonsei/MACI)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: Conformal Inference, LLM Factuality, Multi-LLM Ensemble, False-Claim Filtering, Distribution-Free Guarantee  
 **作者**: Kangjun Noh, Seongchan Lee, Ilmun Kim, Kyungwoo Song（延世大学 & KAIST）
 
@@ -177,8 +177,8 @@ MACI 单次评分 + 轻量校准，总时间仅为 CCI 的 **36%**。
 
 - [\[ICLR 2026\] Conformal Prediction Adaptive to Unknown Subpopulation Shifts](conformal_prediction_adaptive_to_unknown_subpopulation_shifts.md)
 - [\[ICLR 2026\] Which LLM Multi-Agent Protocol to Choose?](which_llm_multi-agent_protocol_to_choose.md)
-- [\[ICLR 2026\] How Reliable is Language Model Micro-Benchmarking?](how_reliable_is_language_model_micro-benchmarking.md)
+- [\[ICLR 2026\] LLM Unlearning with LLM Beliefs](llm_unlearning_with_llm_beliefs.md)
 - [\[ICLR 2026\] Preference Leakage: A Contamination Problem in LLM-as-a-judge](preference_leakage_a_contamination_problem_in_llm-as-a-judge.md)
-- [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Model](predicting_llm_reasoning_performance_with_small_proxy_model.md)
+- [\[ICLR 2026\] How Reliable is Language Model Micro-Benchmarking?](how_reliable_is_language_model_micro-benchmarking.md)
 
 <!-- RELATED:END -->

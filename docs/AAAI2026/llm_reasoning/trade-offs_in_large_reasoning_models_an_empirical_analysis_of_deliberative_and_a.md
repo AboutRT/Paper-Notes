@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2503.17979](https://arxiv.org/abs/2503.17979)  
-**代码**: https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM  
+**代码**: [https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM](https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM)  
 **领域**: LLM推理  
 **关键词**: Large Reasoning Models, 推理-基础能力权衡, 自适应推理, Zero-Thinking, 安全性
 
@@ -141,6 +141,6 @@ s1.1-32B在IFEval上下降47.38%的同时推理成本增加250%！
 - [\[ACL 2026\] How Should We Enhance the Safety of Large Reasoning Models: An Empirical Study](../../ACL2026/llm_reasoning/how_should_we_enhance_the_safety_of_large_reasoning_models_an_empirical_study.md)
 - [\[AAAI 2026\] Text-to-Scene with Large Reasoning Models](text-to-scene_with_large_reasoning_models.md)
 - [\[NeurIPS 2025\] Are Large Reasoning Models Good Translation Evaluators? Analysis and Performance Boost](../../NeurIPS2025/llm_reasoning/are_large_reasoning_models_good_translation_evaluators_analysis_and_performance_.md)
-- [\[AAAI 2026\] The Curious Case of Analogies: Investigating Analogical Reasoning in Large Language Models](the_curious_case_of_analogies_investigating_analogical_reasoning_in_large_langua.md)
+- [\[AAAI 2026\] LLMs for Game Theory: Entropy-Guided In-Context Learning and Adaptive CoT Reasoning](llms_for_game_theory_entropy-guided_in-context_learning_and_adaptive_cot_reasoni.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.02487](https://arxiv.org/abs/2512.02487)  
-**代码**: https://github.com/Jyerim/3D-SLIM  
+**代码**: [https://github.com/Jyerim/3D-SLIM](https://github.com/Jyerim/3D-SLIM)  
 **领域**: 3D视觉 / 场景理解  
 **关键词**: 3D场景理解、注意力掩码、空间推理、LLM解码器、对象中心表示
 

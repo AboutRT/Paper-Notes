@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - VLM可解释性
+  - 多模态VLM
   - 注意力机制
   - 视觉信息压缩
   - 中间层分析
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17491](https://arxiv.org/abs/2411.17491)  
-**代码**: https://vision-of-vlm.github.io/ (有项目页面)  
+**代码**: [https://vision-of-vlm.github.io/](https://vision-of-vlm.github.io/) (有项目页面)  
 **领域**: 多模态VLM  
 **关键词**: VLM可解释性, 注意力机制, 视觉信息压缩, 中间层分析, Image Re-prompting
 
@@ -127,8 +127,8 @@ VLM 在图像描述、VQA 等任务上展现了惊人能力，但其内部视觉
 
 - [\[CVPR 2025\] Identifying and Mitigating Position Bias of Multi-image Vision-Language Models](identifying_and_mitigating_position_bias_of_multi-image_vision-language_models.md)
 - [\[CVPR 2025\] Cropper: Vision-Language Model for Image Cropping through In-Context Learning](cropper_vision-language_model_for_image_cropping_through_in-context_learning.md)
-- [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](../../ECCV2024/multimodal_vlm/attention_prompting_on_image_for_large_visionlanguage_models.md)
+- [\[CVPR 2025\] CleanSight: Test-Time Attention Purification for Backdoored Large Vision Language Models](test-time_attention_purification_for_backdoored_large_vision_language_models.md)
+- [\[CVPR 2025\] TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models](tapt_test-time_adversarial_prompt_tuning_for_robust_inference_in_vision-language.md)
 - [\[ACL 2026\] What Do Vision-Language Models Encode for Personalized Image Aesthetics Assessment?](../../ACL2026/multimodal_vlm/what_do_vision-language_models_encode_for_personalized_image_aesthetics_assessme.md)
-- [\[CVPR 2025\] MMRL: Multi-Modal Representation Learning for Vision-Language Models](mmrl_multi-modal_representation_learning_for_vision-language_models.md)
 
 <!-- RELATED:END -->

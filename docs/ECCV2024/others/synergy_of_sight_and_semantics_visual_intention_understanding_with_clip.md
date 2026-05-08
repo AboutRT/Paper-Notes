@@ -18,7 +18,7 @@ tags:
 **arXiv**: 无公开arXiv版本  
 **PDF**: [ECVA](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01721.pdf) / [作者版](https://marswhu.github.io/publications/files/ECCV24_IntCLIP.pdf)
 **代码**: [https://github.com/yan9qu/IntCLIP](https://github.com/yan9qu/IntCLIP)  
-**领域**: 多模态VLM / 意图理解  
+**领域**: 其他  
 **关键词**: 多标签意图理解, CLIP, 双分支架构, 层次类别整合, 视觉语义融合
 
 ## 一句话总结

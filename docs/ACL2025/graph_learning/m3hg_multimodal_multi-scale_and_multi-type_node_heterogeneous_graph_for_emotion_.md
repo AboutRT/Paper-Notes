@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2508.18740](https://arxiv.org/abs/2508.18740)  
-**代码**: https://github.com/redifinition/M3HG  
+**代码**: [https://github.com/redifinition/M3HG](https://github.com/redifinition/M3HG)  
 **领域**: 图学习  
 **关键词**: 多模态情感原因分析, 异构图注意力网络, 情感-原因三元组提取, 多尺度语义融合, 对话情感分析
 

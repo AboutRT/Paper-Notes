@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2503.13444](https://arxiv.org/abs/2503.13444)  
-**代码**: [https://github.com/yeliudev/VideoMind](https://videomind.github.io/) (有)  
+**代码**: [https://github.com/yeliudev/VideoMind](https://videomind.github.io/)  
 **领域**: LLM Agent  
 **关键词**: 视频推理, 时序定位, LoRA, 多模态Agent, 视频问答
 

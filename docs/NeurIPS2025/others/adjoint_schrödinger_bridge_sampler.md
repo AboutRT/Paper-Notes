@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.22565](https://arxiv.org/abs/2506.22565)  
-**代码**: https://github.com/facebookresearch/adjoint_samplers  
+**代码**: [https://github.com/facebookresearch/adjoint_samplers](https://github.com/facebookresearch/adjoint_samplers)  
 **领域**: 扩散模型 / 采样方法 / 分子模拟  
 **关键词**: Schrödinger Bridge, Diffusion Sampler, Boltzmann分布, Adjoint Matching, 随机最优控制
 
@@ -127,7 +127,7 @@ ASBS 学习一个 SDE $dX_t = [f_t(X_t) + \sigma_t u_t^\theta(X_t)] dt + \sigma_
 - [\[NeurIPS 2025\] Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge](modeling_cell_dynamics_and_interactions_with_unbalanced_mean_field_schrödinger_b.md)
 - [\[NeurIPS 2025\] Learning non-equilibrium diffusions with Schrödinger bridges: from exactly solvable to simulation-free](learning_non-equilibrium_diffusions_with_schrödinger_bridges_from_exactly_solvab.md)
 - [\[NeurIPS 2025\] Are Pixel-Wise Metrics Reliable for Sparse-View Computed Tomography Reconstruction?](are_pixel-wise_metrics_reliable_for_sparse-view_computed_tomography_reconstructi.md)
+- [\[NeurIPS 2025\] 3DID: Direct 3D Inverse Design for Aerodynamics with Physics-Aware Optimization](3did_direct_3d_inverse_design_for_aerodynamics_with_physics-aware_optimization.md)
 - [\[ACL 2025\] LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers](../../ACL2025/others/ladder_language-driven_slice_discovery_and_error_rectification_in_vision_classif.md)
-- [\[ECCV 2024\] DC-Solver: Improving Predictor-Corrector Diffusion Sampler via Dynamic Compensation](../../ECCV2024/others/dc-solver_improving_predictor-corrector_diffusion_sampler_via_dynamic_compensati.md)
 
 <!-- RELATED:END -->

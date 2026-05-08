@@ -8,7 +8,7 @@ tags:
   - 有害微调防御
   - 自毁模型
   - 梯度耦合
-  - 对齐安全
+  - LLM安全
   - Hessian-free优化
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.12186](https://arxiv.org/abs/2505.12186)  
-**代码**: https://github.com/ZJUWYH/seam  
-**领域**: AI安全 / LLM对齐  
+**代码**: [https://github.com/ZJUWYH/seam](https://github.com/ZJUWYH/seam)  
+**领域**: LLM安全  
 **关键词**: 有害微调防御, 自毁模型, 梯度耦合, 对齐安全, Hessian-free优化
 
 ## 一句话总结
@@ -128,10 +128,10 @@ Seam 在所有攻击强度下有害性最低，高强度攻击触发模型自毁
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Self-Refining Language Model Anonymizers via Adversarial Distillation](../../NeurIPS2025/llm_safety/self-refining_language_model_anonymizers_via_adversarial_distillation.md)
 - [\[ACL 2026\] KoCo: Conditioning Language Model Pre-training on Knowledge Coordinates](../../ACL2026/llm_safety/koco_conditioning_language_model_pre-training_on_knowledge_coordinates.md)
-- [\[ACL 2025\] Exploring Forgetting in Large Language Model Pre-Training](../../ACL2025/llm_safety/exploring_forgetting_in_large_language_model_pre-training.md)
-- [\[NeurIPS 2025\] Demystifying Language Model Forgetting with Low-Rank Example Associations](../../NeurIPS2025/llm_safety/demystifying_language_model_forgetting_with_low-rank_example_associations.md)
-- [\[ACL 2025\] Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training](../../ACL2025/llm_safety/hallucination_detox_send.md)
+- [\[ICLR 2026\] Understanding Sensitivity of Differential Attention through the Lens of Adversarial Robustness](understanding_sensitivity_of_differential_attention_through_the_lens_of_adversar.md)
 - [\[ACL 2025\] On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation](../../ACL2025/llm_safety/on-policy_self-alignment_with_fine-grained_knowledge_feedback_for_hallucination_.md)
+- [\[ICLR 2026\] Enhancing Hallucination Detection through Noise Injection](enhancing_hallucination_detection_through_noise_injection.md)
 
 <!-- RELATED:END -->

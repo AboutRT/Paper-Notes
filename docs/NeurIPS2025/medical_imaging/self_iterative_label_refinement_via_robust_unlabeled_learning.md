@@ -41,13 +41,13 @@ tags:
 
 1. **无标签-无标签（UU）学习框架**: 核心思想是利用两个具有不同正类先验比例的无标注数据集来训练分类器。给定两个无标注语料 $\widetilde{\mathcal{C}}_p$ 和 $\widetilde{\mathcal{C}}_n$，其正类比例分别为 $\theta_p$ 和 $\theta_n$（$\theta_p > \theta_n$），UU学习的风险函数为：
 
-   $$R_{\text{uu}}(g) = aR_{\tilde{p}}^+(g) - bR_{\tilde{p}}^-(g) - cR_{\tilde{n}}^+(g) + dR_{\tilde{n}}^-(g)$$
+    $R_{\text{uu}}(g) = aR_{\tilde{p}}^+(g) - bR_{\tilde{p}}^-(g) - cR_{\tilde{n}}^+(g) + dR_{\tilde{n}}^-(g)$
 
    其中系数 $a, b, c, d$ 由 $\pi_+, \theta_p, \theta_n$ 计算得出。当 $\theta_p=1, \theta_n=0$ 时，退化为标准有监督学习。这意味着通过LLM伪标签划分的两个子集天然满足UU学习的条件——伪正类集中正类比例更高。
 
 2. **鲁棒UU学习（Robust UU Learning）**: 原始UU风险函数包含负项（如 $-bR_{\tilde{p}}^-(g)$），容易导致过拟合。鲁棒版本引入广义Leaky ReLU函数 $f$ 来调节负风险：
 
-   $$R_{\text{ruu}}(g) = f(aR_{\tilde{p}}^+(g) - cR_{\tilde{n}}^+(g)) + f(dR_{\tilde{n}}^-(g) - bR_{\tilde{p}}^-(g))$$
+    $R_{\text{ruu}}(g) = f(aR_{\tilde{p}}^+(g) - cR_{\tilde{n}}^+(g)) + f(dR_{\tilde{n}}^-(g) - bR_{\tilde{p}}^-(g))$
 
    其中 $f(x) = x$ 当 $x > 0$，$f(x) = \lambda x$ 当 $x < 0$（$\lambda < 0$）。这保留正风险值，同时将负风险转换为正值，有效减少过拟合。
 
@@ -134,6 +134,6 @@ tags:
 - [\[CVPR 2025\] A Semi-Supervised Framework for Breast Ultrasound Segmentation with Training-Free Pseudo-Label Generation and Label Refinement](../../CVPR2025/medical_imaging/a_semi-supervised_framework_for_breast_ultrasound_segmentation_with_training-fre.md)
 - [\[NeurIPS 2025\] Iterative Foundation Model Fine-Tuning on Multiple Rewards](iterative_foundation_model_fine-tuning_on_multiple_rewards.md)
 - [\[NeurIPS 2025\] Self-supervised Learning of Echocardiographic Video Representations via Online Cluster Distillation](self-supervised_learning_of_echocardiographic_video_representations_via_online_c.md)
-- [\[NeurIPS 2025\] Self-Supervised Learning via Flow-Guided Neural Operator on Time-Series Data](self-supervised_learning_via_flow-guided_neural_operator_on_time-series_data.md)
+- [\[NeurIPS 2025\] Ditch the Denoiser: Emergence of Noise Robustness in Self-Supervised Learning from Data Curriculum](ditch_the_denoiser_emergence_of_noise_robustness_in_self-supervised_learning_fro.md)
 
 <!-- RELATED:END -->

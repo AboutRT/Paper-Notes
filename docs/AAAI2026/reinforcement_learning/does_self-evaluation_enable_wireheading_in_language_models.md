@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - Wireheading
-  - 自我评估
+  - 强化学习
   - 奖励操纵
   - 语言模型对齐
   - POMDP
@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.23092](https://arxiv.org/abs/2511.23092)  
-**代码**: https://github.com/DavidDemitriAfrica/llm-wireheading-experiment (有)  
+**代码**: [https://github.com/DavidDemitriAfrica/llm-wireheading-experiment](https://github.com/DavidDemitriAfrica/llm-wireheading-experiment)  
 **领域**: Reinforcement Learning / AI Safety  
 **关键词**: Wireheading, 自我评估, 奖励操纵, 语言模型对齐, POMDP
 
@@ -127,8 +127,8 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] SPELL: Self-Play Reinforcement Learning for Evolving Long-Context Language Models](../../ICLR2026/reinforcement_learning/spell_self-play_reinforcement_learning_for_evolving_long-context_language_models.md)
 - [\[ICLR 2026\] Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models](../../ICLR2026/reinforcement_learning/co-rewarding_stable_self-supervised_rl_for_eliciting_reasoning_in_large_language.md)
+- [\[ICLR 2026\] SPELL: Self-Play Reinforcement Learning for Evolving Long-Context Language Models](../../ICLR2026/reinforcement_learning/spell_self-play_reinforcement_learning_for_evolving_long-context_language_models.md)
 - [\[ICLR 2026\] Towards Strategic Persuasion with Language Models](../../ICLR2026/reinforcement_learning/towards_strategic_persuasion_with_language_models.md)
 - [\[AAAI 2026\] A Course Correction in Steerability Evaluation: Revealing Miscalibration and Side Effects in LLMs](a_course_correction_in_steerability_evaluation_revealing_mis.md)
 - [\[NeurIPS 2025\] Self-Improving Embodied Foundation Models](../../NeurIPS2025/reinforcement_learning/self-improving_embodied_foundation_models.md)

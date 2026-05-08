@@ -13,7 +13,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.05540](https://arxiv.org/abs/2604.05540)  
-**代码**: https://github.com/FredJDean/CoT2Edit  
+**代码**: [https://github.com/FredJDean/CoT2Edit](https://github.com/FredJDean/CoT2Edit)  
 **领域**: LLM推理 / 知识编辑  
 **关键词**: 知识编辑, 思维链, GRPO, RAG, 多跳推理
 

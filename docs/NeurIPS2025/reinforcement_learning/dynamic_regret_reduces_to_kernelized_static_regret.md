@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - dynamic regret
-  - online convex optimization
+  - 强化学习
   - RKHS
   - kernel methods
   - path-length
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.05478](https://arxiv.org/abs/2507.05478)  
 **代码**: 无  
-**领域**: reinforcement_learning / 在线学习  
+**领域**: 强化学习  
 **关键词**: dynamic regret, online convex optimization, RKHS, kernel methods, path-length
 
 ## 一句话总结
@@ -131,10 +131,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Simultaneous Swap Regret Minimization via KL-Calibration](simultaneous_swap_regret_minimization_via_kl-calibration.md)
 - [\[ICML 2025\] On the Dynamic Regret of Following the Regularized Leader: Optimism with History Pruning](../../ICML2025/reinforcement_learning/on_the_dynamic_regret_of_following_the_regularized_leader_optimism_with_history_.md)
 - [\[NeurIPS 2025\] Improved Regret Bounds for GP-UCB in Bayesian Optimization](improved_regret_bounds_for_gaussian_process_upper_confidence_bound_in_bayesian_o.md)
+- [\[NeurIPS 2025\] Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret in Noise-Free Gaussian Process Bandits](gaussian_process_upper_confidence_bound_achieves_nearly-optimal_regret_in_noise-.md)
 - [\[ICML 2025\] Non-stationary Online Learning for Curved Losses: Improved Dynamic Regret via Mixability](../../ICML2025/reinforcement_learning/non-stationary_online_learning_for_curved_losses_improved_dynamic_regret_via_mix.md)
-- [\[NeurIPS 2025\] Generalized Linear Bandits: Almost Optimal Regret with One-Pass Update](generalized_linear_bandits_almost_optimal_regret_with_one-pass_update.md)
+- [\[NeurIPS 2025\] Simultaneous Swap Regret Minimization via KL-Calibration](simultaneous_swap_regret_minimization_via_kl-calibration.md)
 
 <!-- RELATED:END -->

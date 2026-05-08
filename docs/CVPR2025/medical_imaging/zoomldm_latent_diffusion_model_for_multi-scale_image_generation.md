@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16969](https://arxiv.org/abs/2411.16969)  
-**代码**: https://github.com/cvlab-stonybrook/ZoomLDM  
+**代码**: [https://github.com/cvlab-stonybrook/ZoomLDM](https://github.com/cvlab-stonybrook/ZoomLDM)  
 **领域**: 医学图像/扩散模型  
 **关键词**: 多尺度生成, 潜在扩散模型, 病理图像, 自监督学习, 大图像合成
 

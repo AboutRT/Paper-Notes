@@ -53,13 +53,13 @@ $$x_{t-1} = x'_{t-1} - A_t \times \nabla_{x_t} \| \acute{y} - k_t \otimes x^0_t 
 
 2. **动态起始步查找表（DSST）**：基于关键观察——高质量图像 $x_0$ 和其模糊版本 $\tilde{y}^{std}_0$ 经前向扩散后会在某个时间步 $t$ 统计收敛。该收敛点即为模糊观测 $\acute{y}$ 的最佳引导插入点。公式为：
 
-   $$t_{std} = \underset{t}{argmin} \left( log(\mathbf{X}_t) - log(\tilde{\mathbf{Y}}^{std}_t) \leq tol \right)$$
+    $t_{std} = \underset{t}{argmin} \left( log(\mathbf{X}_t) - log(\tilde{\mathbf{Y}}^{std}_t) \leq tol \right)$
 
    预计算不同 $std$ 对应的最优起始步，存储为查找表。推理时根据 SE 估计的 $\hat{std^*}$ 直接查表获取 $t_{start}$，避免欠扩散和过扩散。实验表明采样步骤范围从固定的 1000 缩减到 [690, 925]。
 
 3. **动态引导缩放调整器（DGSA）**：一个轻量 CNN（3 层卷积），输出范围 $[0,1]$ 的区域引导缩放图 $A_t$。输入为当前测量 $\acute{y}$、高质量预测 $x^0_t$ 和时间步 $t$。在高频纹理区域（头发、皱纹）输出较小的 $A_t$（减弱引导，让扩散模型自由生成细节），在低频结构区域（轮廓、皮肤）输出较大的 $A_t$（增强引导，保持保真度）。训练使用平稳小波变换分频带监督和 DISTS 感知损失：
 
-   $$L_{DGSA} = \sum_i \gamma_i \mathbb{D}(SWT(x^0_{t-1})_i, SWT(x_0)_i) + DISTS(x^0_{t-1}, x_0)$$
+    $L_{DGSA} = \sum_i \gamma_i \mathbb{D}(SWT(x^0_{t-1})_i, SWT(x_0)_i) + DISTS(x^0_{t-1}, x_0)$
 
 ### 损失函数 / 训练策略
 
@@ -144,10 +144,10 @@ $$x_{t-1} = x'_{t-1} - A_t \times \nabla_{x_t} \| \acute{y} - k_t \otimes x^0_t 
 
 ## 相关论文
 
-- [\[ICCV 2025\] A Quality-Guided Mixture of Score-Fusion Experts Framework for Human Recognition](a_quality-guided_mixture_of_score-fusion_experts_framework_for_human_recognition.md)
-- [\[CVPR 2025\] Optimal Transport-Guided Source-Free Adaptation for Face Anti-Spoofing](../../CVPR2025/human_understanding/optimal_transport-guided_source-free_adaptation_for_face_anti-spoofing.md)
-- [\[ICCV 2025\] Degradation-Modeled Multipath Diffusion for Tunable Metalens Photography](degradation-modeled_multipath_diffusion_for_tunable_metalens_photography.md)
-- [\[ICCV 2025\] Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging](hi3dgen_high-fidelity_3d_geometry_generation_from_images_via_normal_bridging.md)
-- [\[ICCV 2025\] Lay2Story: Extending Diffusion Transformers for Layout-Togglable Story Generation](lay2story_extending_diffusion_transformers_for_layout-togglable_story_generation.md)
+- [\[ICCV 2025\] Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars](avat3r_large_animatable_gaussian_reconstruction_model_for_hi.md)
+- [\[ICCV 2025\] TriDi: Trilateral Diffusion of 3D Humans, Objects, and Interactions](tridi_trilateral_diffusion_of_3d_humans_objects_and_interactions.md)
+- [\[ICCV 2025\] IDFace: Face Template Protection for Efficient and Secure Identification](idface_face_template_protection_for_efficient_and_secure_identification.md)
+- [\[ICCV 2025\] PHD: Personalized 3D Human Body Fitting with Point Diffusion](phd_personalized_3d_human_body_fitting_with_point_diffusion.md)
+- [\[ICCV 2025\] RayPose: Ray Bundling Diffusion for Template Views in Unseen 6D Object Pose Estimation](raypose_ray_bundling_diffusion_for_template_views_in_unseen_6d_object_pose_estim.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.06842](https://arxiv.org/abs/2506.06842)  
-**代码**: [GitHub](https://github.com/ArkadiusDS/PCoT) (有)  
+**代码**: [GitHub](https://github.com/ArkadiusDS/PCoT)  
 **领域**: LLM推理 / 虚假信息检测  
 **关键词**: PCoT, 说服增强, 假新闻检测, Chain-of-Thought, 零样本分类
 
@@ -127,7 +127,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.06842](https://arxiv.org/abs/2506.06842)  
-**代码**: [GitHub](https://github.com/ArkadiusDS/PCoT) (有)  
+**代码**: [GitHub](https://github.com/ArkadiusDS/PCoT)  
 **领域**: LLM推理 / 虚假信息检测  
 **关键词**: PCoT, 说服增强, 假新闻检测, Chain-of-Thought, 零样本分类  
 

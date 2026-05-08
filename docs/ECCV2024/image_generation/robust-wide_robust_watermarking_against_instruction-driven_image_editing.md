@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2402.12688](https://arxiv.org/abs/2402.12688)  
-**代码**: https://github.com/hurunyi/Robust-Wide  
+**代码**: [https://github.com/hurunyi/Robust-Wide](https://github.com/hurunyi/Robust-Wide)  
 **领域**: 图像生成  
 **关键词**: 鲁棒水印, 图像编辑, InstructPix2Pix, 语义级扰动, 扩散模型
 

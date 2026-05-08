@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2409.17981](https://arxiv.org/abs/2409.17981)  
 **代码**: [GitHub](https://github.com/ColieShen/BlinkTrack)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: 事件相机, 特征跟踪, 卡尔曼滤波, 多模态融合, 高帧率跟踪
 
 ## 一句话总结

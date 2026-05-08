@@ -9,7 +9,7 @@ tags:
   - 跨领域用户建模
   - 长期行为预测
   - 时序泛化
-  - LLM推荐
+  - 推荐系统
 ---
 
 # HORIZON: A Benchmark for in-the-wild User Behaviour Modeling

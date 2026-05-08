@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.14351](https://arxiv.org/abs/2502.14351)  
-**代码**: https://github.com/ (项目页面将公开)  
+**代码**: [https://github.com/](https://github.com/) (项目页面将公开)  
 **领域**: 医学图像  
 **关键词**: PET分割, 基础模型, 3D分割, 噪声标注学习, SAM适配
 

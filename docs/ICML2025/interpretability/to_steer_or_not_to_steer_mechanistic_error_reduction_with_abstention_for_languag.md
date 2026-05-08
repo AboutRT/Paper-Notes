@@ -8,7 +8,7 @@ tags:
   - activation steering
   - mechanistic intervention
   - error mitigation
-  - hallucination
+  - 可解释性
   - language models
   - abstention
   - probe-based steering
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2510.13290](https://arxiv.org/abs/2510.13290)  
 **代码**: 未提供  
-**领域**: LLM/NLP  
+**领域**: 可解释性  
 **关键词**: activation steering, mechanistic intervention, error mitigation, hallucination, language models, abstention, probe-based steering
 
 ## 一句话总结
@@ -171,8 +171,8 @@ MERA 在各error percentile上均表现出正面或中性影响，尤其对高er
 
 - [\[ACL 2025\] Mechanistic Interpretability of Emotion Inference in Large Language Models](../../ACL2025/interpretability/mechanistic_interpretability_of_emotion_inference_in_large_language_models.md)
 - [\[ACL 2025\] Reasoning Circuits in Language Models: A Mechanistic Interpretation of Syllogistic Inference](../../ACL2025/interpretability/reasoning_circuits_in_language_models_a_mechanistic_interpretation_of_syllogisti.md)
+- [\[ICML 2025\] Validating Mechanistic Interpretations: An Axiomatic Approach](validating_mechanistic_interpretations_an_axiomatic_approach.md)
 - [\[ICML 2025\] MIB: A Mechanistic Interpretability Benchmark](mib_a_mechanistic_interpretability_benchmark.md)
-- [\[ACL 2025\] CLEME2.0: Towards Interpretable Evaluation by Disentangling Edits for Grammatical Error Correction](../../ACL2025/interpretability/cleme2_gec_evaluation.md)
-- [\[NeurIPS 2025\] Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models](../../NeurIPS2025/interpretability/auditing_meta-cognitive_hallucinations_in_reasoning_large_language_models.md)
+- [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](../../NeurIPS2025/interpretability/the_trilemma_of_truth_in_large_language_models.md)
 
 <!-- RELATED:END -->

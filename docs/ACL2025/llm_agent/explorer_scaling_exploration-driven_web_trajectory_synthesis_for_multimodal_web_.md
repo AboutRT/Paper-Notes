@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.11357](https://arxiv.org/abs/2502.11357)  
-**代码**: https://osu-nlp-group.github.io/Explorer/ (有)  
+**代码**: [https://osu-nlp-group.github.io/Explorer/](https://osu-nlp-group.github.io/Explorer/)  
 **领域**: LLM Agent  
 **关键词**: Web Agent, 轨迹合成, 多模态, 数据扩展, 多智能体
 

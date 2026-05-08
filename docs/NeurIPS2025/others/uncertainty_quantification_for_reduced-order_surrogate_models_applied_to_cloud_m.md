@@ -9,7 +9,7 @@ tags:
   - 共形预测
   - 云微物理
   - 自编码器-SINDy
-  - 代理模型
+  - 其他
 ---
 
 # Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.04534](https://arxiv.org/abs/2511.04534)  
 **代码**: [GitHub](https://github.com/jonaskat87/UQ_AE-SINDy)  
-**领域**: 不确定性量化, 科学计算, 气候建模  
+**领域**: 其他  
 **关键词**: 降阶模型, 共形预测, 云微物理, 自编码器-SINDy, 代理模型, 预测区间
 
 ## 一句话总结
@@ -272,6 +272,6 @@ tags:
 - [\[NeurIPS 2025\] SMRS: Advocating a Unified Reporting Standard for Surrogate Models in the Artificial Intelligence Era](smrs_advocating_a_unified_reporting_standard_for_surrogate_models_in_the_artific.md)
 - [\[NeurIPS 2025\] Adjusted Count Quantification Learning on Graphs](adjusted_count_quantification_learning_on_graphs.md)
 - [\[NeurIPS 2025\] Uncertainty Estimation by Flexible Evidential Deep Learning](uncertainty_estimation_by_flexible_evidential_deep_learning.md)
-- [\[ICML 2025\] UnHiPPO: Uncertainty-Aware Initialization for State Space Models](../../ICML2025/others/unhippo_uncertainty-aware_initialization_for_state_space_models.md)
+- [\[NeurIPS 2025\] Radar: Benchmarking Language Models on Imperfect Tabular Data](radar_benchmarking_language_models_on_imperfect_tabular_data.md)
 
 <!-- RELATED:END -->

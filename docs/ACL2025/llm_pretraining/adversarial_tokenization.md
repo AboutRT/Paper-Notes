@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - adversarial tokenization
   - BPE
-  - jailbreak
+  - LLM预训练
   - LLM safety
   - subword models
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.02174](https://arxiv.org/abs/2503.02174)  
 **代码**: 无  
-**领域**: LLM安全 / 对抗攻击  
+**领域**: LLM预训练  
 **关键词**: adversarial tokenization, BPE, jailbreak, LLM safety, subword models
 
 ## 一句话总结
@@ -124,10 +124,10 @@ Pipeline 分为三步：
 
 ## 相关论文
 
-- [\[ACL 2025\] Splintering Nonconcatenative Languages for Better Tokenization](splintering_nonconcatenative_languages_for_better_tokenization.md)
-- [\[ACL 2025\] Tokenization is Sensitive to Language Variation](tokenization_is_sensitive_to_language_variation.md)
 - [\[ACL 2025\] Incorporating Domain Knowledge into Materials Tokenization](incorporating_domain_knowledge_into_materials_tokenization.md)
+- [\[ACL 2025\] Splintering Nonconcatenative Languages for Better Tokenization](splintering_nonconcatenative_languages_for_better_tokenization.md)
 - [\[ACL 2025\] Retrofitting Large Language Models with Dynamic Tokenization](retrofitting_large_language_models_with_dynamic_tokenization.md)
+- [\[ACL 2025\] Tokenization is Sensitive to Language Variation](tokenization_is_sensitive_to_language_variation.md)
 - [\[NeurIPS 2025\] Differentiable Hierarchical Visual Tokenization](../../NeurIPS2025/llm_pretraining/differentiable_hierarchical_visual_tokenization.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - friction alignment
-  - collaborative dialogue
+  - 其他
   - belief misalignment
   - preference optimization
   - human-AI collaboration
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.19428](https://arxiv.org/abs/2505.19428)  
 **代码**: [https://github.com/csu-signal/FAAF_ACL](https://github.com/csu-signal/FAAF_ACL)  
-**领域**: LLM Agent  
+**领域**: 其他  
 **关键词**: friction alignment, collaborative dialogue, belief misalignment, preference optimization, human-AI collaboration
 
 ## 一句话总结
@@ -164,9 +164,9 @@ FAAF 的核心是一个双策略（two-player）对抗优化目标：
 ## 相关论文
 
 - [\[ACL 2025\] A Dual-Mind Framework for Strategic and Expressive Negotiation Agent](a_dual-mind_framework_for_strategic_and_expressive_negotiation_agent.md)
-- [\[ACL 2025\] Model Extrapolation Expedites Alignment](expo_model_extrapolation.md)
 - [\[ACL 2025\] Unifying Language Agent Algorithms with Graph-based Orchestration Engine for Reproducible Agent Research](unifying_language_agent_algorithms_with_graph-based_orchestration_engine_for_rep.md)
-- [\[ACL 2025\] Towards Style Alignment in Cross-Cultural Translation](towards_style_alignment_in_cross-cultural_translation.md)
-- [\[ACL 2025\] Multi-Agent Collaboration via Cross-Team Orchestration](multi-agent_collaboration_via_cross-team_orchestration.md)
+- [\[ACL 2025\] Model Extrapolation Expedites Alignment](expo_model_extrapolation.md)
+- [\[ACL 2025\] From Lists to Emojis: How Format Bias Affects Model Alignment](from_lists_to_emojis_how_format_bias_affects_model_alignment.md)
+- [\[ACL 2025\] A Multi-Persona Framework for Argument Quality Assessment](a_multi-persona_framework_for_argument_quality_assessment.md)
 
 <!-- RELATED:END -->

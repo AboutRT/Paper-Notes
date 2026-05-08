@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2506.02264](https://arxiv.org/abs/2506.02264)  
 **代码**: [https://github.com/radinshayanfar/CoDial](https://github.com/radinshayanfar/CoDial)  
-**领域**: 对话系统 / 任务型对话  
+**领域**: 图像生成  
 **关键词**: 任务型对话, LLM护栏, 可解释性, 对话流对齐, 零样本泛化
 
 ## 一句话总结

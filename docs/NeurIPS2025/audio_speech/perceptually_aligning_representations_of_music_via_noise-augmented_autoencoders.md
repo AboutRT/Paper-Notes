@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025 (AI for Music Workshop)
   - 语音
-  - 感知对齐
+  - 音频语音
   - 噪声增强自编码器
   - 潜在扩散
   - 音乐惊奇感
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025 (AI for Music Workshop)  
 **arXiv**: [2511.05350](https://arxiv.org/abs/2511.05350)  
-**代码**: https://github.com/CPJKU/pa-audioic  
+**代码**: [https://github.com/CPJKU/pa-audioic](https://github.com/CPJKU/pa-audioic)  
 **领域**: 音频 / 音乐表征学习  
 **关键词**: 感知对齐, 噪声增强自编码器, 潜在扩散, 音乐惊奇感, EEG预测
 
@@ -124,7 +124,7 @@ tags:
 - [\[AAAI 2026\] Aligning Generative Music AI with Human Preferences: Methods and Challenges](../../AAAI2026/audio_speech/aligning_generative_music_ai_with_human_preferences_methods_and_challenges.md)
 - [\[NeurIPS 2025\] Ethics Statements in AI Music Papers: The Effective and the Ineffective](ethics_statements_in_ai_music_papers_the_effective_and_the_ineffective.md)
 - [\[NeurIPS 2025\] BNMusic: Blending Environmental Noises into Personalized Music](bnmusic_blending_environmental_noises_into_personalized_music.md)
-- [\[NeurIPS 2025\] Echoes of Humanity: Exploring the Perceived Humanness of AI Music](echoes_of_humanity_exploring_the_perceived_humanness_of_ai_music.md)
-- [\[NeurIPS 2025\] From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era](from_generation_to_attribution_music_ai_agent_architectures_for_the_post-streami.md)
+- [\[NeurIPS 2025\] Segment-Factorized Full-Song Generation on Symbolic Piano Music](segment-factorized_full-song_generation_on_symbolic_piano_music.md)
+- [\[ACL 2025\] WavRAG: Audio-Integrated Retrieval Augmented Generation for Spoken Dialogue Models](../../ACL2025/audio_speech/wavrag_audio-integrated_retrieval_augmented_generation_for_spoken_dialogue_model.md)
 
 <!-- RELATED:END -->

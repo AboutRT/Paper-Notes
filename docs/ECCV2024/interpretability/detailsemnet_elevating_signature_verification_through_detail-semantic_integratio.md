@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2511.16364](https://arxiv.org/abs/2511.16364)  
-**代码**: https://github.com/nycu-acm/DetailSemNet_OSV  
-**领域**: 其他 / 离线签名验证  
+**代码**: [https://github.com/nycu-acm/DetailSemNet_OSV](https://github.com/nycu-acm/DetailSemNet_OSV)  
+**领域**: 可解释性  
 **关键词**: 离线签名验证, 局部结构匹配, 特征解耦, Earth Mover距离, 细节-语义集成
 
 ## 一句话总结

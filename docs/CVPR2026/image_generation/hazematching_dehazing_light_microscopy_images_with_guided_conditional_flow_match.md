@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2506.22397](https://arxiv.org/abs/2506.22397)  
-**代码**: https://github.com/juglab/HazeMatching  
+**代码**: [https://github.com/juglab/HazeMatching](https://github.com/juglab/HazeMatching)  
 **领域**: 图像生成 / 医学图像  
 **关键词**: 荧光显微镜去雾, 条件流匹配, 感知-保真权衡, 后验采样, 校准分析
 

@@ -8,7 +8,7 @@ tags:
   - 图像恢复
   - 质谱分析
   - 分子指纹
-  - 预训练-微调-对齐
+  - 图像复原
   - BART
   - 结构解析
 ---
@@ -53,9 +53,9 @@ MS-Bart 遵循 NLP 中的 **预训练→微调→对齐** 范式：
    **功能**：将质谱（以指纹表示）和分子结构统一到同一 token 空间。
 
    **核心思路**：
-   - **指纹 token**：4096 位 Morgan 指纹中，每个激活位 $FP_i = 1$ 转换为 token `<fp{i:04d}>`（如 `<fp0123>`）
-   - **分子 token**：使用 185 个 SELFIES token 编码分子结构，保证化学有效性
-   - 特殊分隔 token `<fps_sep>` 连接两种模态
+    - **指纹 token**：4096 位 Morgan 指纹中，每个激活位 $FP_i = 1$ 转换为 token `<fp{i:04d}>`（如 `<fp0123>`）
+    - **分子 token**：使用 185 个 SELFIES token 编码分子结构，保证化学有效性
+    - 特殊分隔 token `<fps_sep>` 连接两种模态
 
    **设计动机**：统一词表使得模型可以在同一序列空间中同时学习谱表示和分子表示，实现真正的跨模态学习。
 
@@ -64,9 +64,9 @@ MS-Bart 遵循 NLP 中的 **预训练→微调→对齐** 范式：
    **功能**：通过 4 种自监督/跨模态任务学习指纹和分子的表示。
 
    **核心思路**：
-   - **SELFIES 去噪**：随机掩码 30% 的 SELFIES token 并恢复
-   - **指纹→分子翻译**：从指纹 token 生成完整 SELFIES
-   - **混合去噪**：将指纹和被掩码的 SELFIES 以不同顺序拼接，预测完整 SELFIES
+    - **SELFIES 去噪**：随机掩码 30% 的 SELFIES token 并恢复
+    - **指纹→分子翻译**：从指纹 token 生成完整 SELFIES
+    - **混合去噪**：将指纹和被掩码的 SELFIES 以不同顺序拼接，预测完整 SELFIES
 
    所有任务统一使用交叉熵损失：$\mathcal{L}_{ce} = -\sum_i \log P(y_i | y_{<i}, X; \theta)$
 
@@ -78,7 +78,7 @@ MS-Bart 遵循 NLP 中的 **预训练→微调→对齐** 范式：
 
    **核心思路**：给定指纹，生成 $n$ 个候选分子，以 Tanimoto 相似度作为偏好评分。引入对比排序损失：
 
-   $$\mathcal{L}_{rank}(C) = \sum_i \sum_{j>i} \max(0, P_\theta(S_j) - P_\theta(S_i) + \gamma_{ij})$$
+    $\mathcal{L}_{rank}(C) = \sum_i \sum_{j>i} \max(0, P_\theta(S_j) - P_\theta(S_i) + \gamma_{ij})$
 
    其中 $\gamma_{ij} = (j-i) \times \gamma$ 为间隔。总损失 $\mathcal{L} = \mathcal{L}_{ce} + \alpha \mathcal{L}_{rank}$。
 
@@ -159,8 +159,8 @@ MS-Bart 在 NPLIB1 上相似度指标全面领先：MCES 改善 19.16%，Tanimot
 
 - [\[CVPR 2026\] UniBlendNet: Unified Global, Multi-Scale, and Region-Adaptive Modeling for Ambient Lighting Normalization](../../CVPR2026/image_restoration/uniblendnet_unified_global_multi_scale_and_region_adaptive_modeling_for_ambient_lighting_normalization.md)
 - [\[NeurIPS 2025\] Latent Harmony: Synergistic Unified UHD Image Restoration via Latent Space Regularization and Controllable Refinement](latent_harmony_synergistic_unified_uhd_image_restoration_via_latent_space_regula.md)
-- [\[ICLR 2026\] Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs](../../ICLR2026/image_restoration/skip_to_the_good_part_representation_structure_inference-time_layer_skipping_in_.md)
-- [\[ICCV 2025\] UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control](../../ICCV2025/image_restoration/uniphys_unified_planner_and_controller_with_diffusion_for_flexible_physics-based.md)
 - [\[ECCV 2024\] TTT-MIM: Test-Time Training with Masked Image Modeling for Denoising Distribution Shifts](../../ECCV2024/image_restoration/ttt-mim_test-time_training_with_masked_image_modeling_for_denoising_distribution.md)
+- [\[ICLR 2026\] Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs](../../ICLR2026/image_restoration/skip_to_the_good_part_representation_structure_inference-time_layer_skipping_in_.md)
+- [\[NeurIPS 2025\] DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration](denoiserotator_enhance_pruning_robustness_for_llms_via_importance_concentration.md)
 
 <!-- RELATED:END -->

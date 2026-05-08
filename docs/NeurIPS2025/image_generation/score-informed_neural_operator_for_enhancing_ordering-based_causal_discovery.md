@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.12650](https://arxiv.org/abs/2508.12650)  
 **代码**: 无  
-**领域**: 因果发现 / 机器学习  
+**领域**: 图像生成  
 **关键词**: causal discovery, neural operator, score matching, Hessian diagonal, causal ordering
 
 ## 一句话总结
@@ -124,8 +124,8 @@ SciNO 分两步：(1) 在光滑函数空间中训练神经算子来近似 score 
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Neural Entropy](neural_entropy.md)
 - [\[NeurIPS 2025\] What We Don't C: Manifold Disentanglement for Structured Discovery](what_we_dont_c_manifold_disentanglement_for_structured_discovery.md)
+- [\[NeurIPS 2025\] Neural Entropy](neural_entropy.md)
 - [\[NeurIPS 2025\] Flow Matching Neural Processes](flow_matching_neural_processes.md)
 - [\[NeurIPS 2025\] Coupling Generative Modeling and an Autoencoder with the Causal Bridge](coupling_generative_modeling_and_an_autoencoder_with_the_causal_bridge.md)
 - [\[NeurIPS 2025\] Non-Markovian Discrete Diffusion with Causal Language Models](non-markovian_discrete_diffusion_with_causal_language_models.md)

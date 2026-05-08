@@ -2,10 +2,10 @@
 title: >-
   [论文解读] From Classification to Ranking: Enhancing LLM Reasoning for MBTI Personality Detection
 description: >-
-  [AAAI 2026][LLM对齐][MBTI] 将MBTI人格检测从传统的四维二分类重构为listwise排序任务，通过SFT冷启动+GRPO强化学习（NDCG+维度相似度双奖励），在Kaggle和PANDORA数据集上以7B模型达到SOTA。
+  [AAAI 2026][LLM/NLP][MBTI] 将MBTI人格检测从传统的四维二分类重构为listwise排序任务，通过SFT冷启动+GRPO强化学习（NDCG+维度相似度双奖励），在Kaggle和PANDORA数据集上以7B模型达到SOTA。
 tags:
   - AAAI 2026
-  - LLM对齐
+  - LLM/NLP
   - MBTI
   - 排序学习
   - GRPO
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.18582](https://arxiv.org/abs/2601.18582)  
 **代码**: 无  
-**领域**: 对齐RLHF / 人格检测  
+**领域**: LLM/NLP  
 **关键词**: MBTI, 排序学习, GRPO, NDCG, 人格检测
 
 ## 一句话总结
@@ -131,8 +131,8 @@ tags:
 
 - [\[AAAI 2026\] PERSIST: Persistent Instability in LLM's Personality Measurements](persistent_instability_in_llms_personality_measurements_effects_of_scale_reasoni.md)
 - [\[AAAI 2026\] Scalable and Accurate Graph Reasoning with LLM-Based Multi-Agents](scalable_and_accurate_graph_reasoning_with_llm-based_multi-agents.md)
+- [\[AAAI 2026\] Collaborative LLM Numerical Reasoning with Local Data Protection](collaborative_llm_numerical_reasoning_with_local_data_protection.md)
 - [\[ACL 2025\] Just a Scratch: Enhancing LLM Capabilities for Self-Harm Detection through Intent Refinement](../../ACL2025/llm_nlp/just_a_scratch_enhancing_llm_capabilities_for_self-harm_detection_through_intent.md)
-- [\[AAAI 2026\] PromptMoE: Generalizable Zero-Shot Anomaly Detection via Visually-Guided Prompt Mixing of Experts](promptmoe_generalizable_zero-shot_anomaly_detection_via_visually-guided_prompt_m.md)
-- [\[ACL 2025\] Ranking Unraveled: Recipes for LLM Rankings in Head-to-Head AI Combat](../../ACL2025/llm_nlp/ranking_unraveled_recipes_for_llm_rankings_in_head-to-head_ai_combat.md)
+- [\[ACL 2026\] HCRE: LLM-based Hierarchical Classification for Cross-Document Relation Extraction](../../ACL2026/llm_nlp/hcre_llm-based_hierarchical_classification_for_cross-document_relation_extractio.md)
 
 <!-- RELATED:END -->

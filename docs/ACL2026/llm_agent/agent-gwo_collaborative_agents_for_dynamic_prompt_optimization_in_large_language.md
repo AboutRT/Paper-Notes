@@ -114,3 +114,15 @@ Agent-GWO 将 N 个 agent 组成种群，每个 agent 由一个共享的冻结 L
 - 实验充分度: ⭐⭐⭐⭐⭐ 11个基准、3个backbone、7个baseline，实验非常全面
 - 写作质量: ⭐⭐⭐⭐ 框架描述清晰，但理论分析可以更深入
 - 价值: ⭐⭐⭐⭐ 提供了实用的推理时优化方案，在资源受限场景下特别有价值
+
+<!-- RELATED:START -->
+
+## 相关论文
+
+- [\[ACL 2026\] ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination](atlas_adaptive_trading_with_llm_agents_through_dynamic_prompt_optimization_and_m.md)
+- [\[ICLR 2026\] ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models](../../ICLR2026/llm_agent/toolweaver_weaving_collaborative_semantics_for_scalable_tool_use_in_large_langua.md)
+- [\[ACL 2026\] ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models](implicitmembench_measuring_unconscious_behavioral_adaptation_in_large_language_m.md)
+- [\[AAAI 2026\] COVR: Collaborative Optimization of VLMs and RL Agent for Visual-Based Control](../../AAAI2026/llm_agent/covrcollaborative_optimization_of_vlms_and_rl_agent_for_visu.md)
+- [\[ACL 2025\] FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models](../../ACL2025/llm_agent/fact_audit_factcheck.md)
+
+<!-- RELATED:END -->

@@ -14,7 +14,7 @@ tags:
 - **会议**: ACL 2025
 - **arXiv**: [2502.14856](https://arxiv.org/abs/2502.14856)
 - **代码**: [https://github.com/thunlp/FR-Spec](https://github.com/thunlp/FR-Spec)
-- **领域**: LLM推理加速 / 投机采样
+- **领域**: LLM预训练
 - **关键词**: 投机采样, 大词表, 频率排序, LM Head优化, EAGLE-2
 
 ## 一句话总结
@@ -116,6 +116,6 @@ FR-Spec是一个即插即用的频率排序投机采样框架，在draft阶段�
 - [\[NeurIPS 2025\] Leveraging Importance Sampling to Detach Alignment Modules from Large Language Models](../../NeurIPS2025/llm_pretraining/leveraging_importance_sampling_to_detach_alignment_modules_from_large_language_m.md)
 - [\[ACL 2025\] Retrofitting Large Language Models with Dynamic Tokenization](retrofitting_large_language_models_with_dynamic_tokenization.md)
 - [\[ACL 2025\] Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation](emergent_abilities_continued_pt.md)
-- [\[ACL 2025\] DavIR: Data Selection via Implicit Reward for Large Language Models](davir_data_selection_via_implicit_reward_for_large_language_models.md)
+- [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
 
 <!-- RELATED:END -->

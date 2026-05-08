@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Principled Algorithms for Optimizing Generalized Metrics in Binary Classification
 description: >-
-  [ICML 2025][generalized metrics] 本文提出了优化广义分类指标（如 $F_\beta$、Jaccard、加权准确率等）的有原则算法 METRO，基于 $H$-一致性界和代理损失理论，将指标优化重新表述为广义代价敏感学习问题，具有有限样本泛化保证。
+  [ICML 2025][其他] 本文提出了优化广义分类指标（如 $F_\beta$、Jaccard、加权准确率等）的有原则算法 METRO，基于 $H$-一致性界和代理损失理论，将指标优化重新表述为广义代价敏感学习问题，具有有限样本泛化保证。
 tags:
   - ICML 2025
-  - generalized metrics
+  - 其他
   - F-measure
   - H-consistency
   - surrogate loss
@@ -130,8 +130,8 @@ Pipeline：
 
 - [\[ICML 2025\] Sampling from Binary Quadratic Distributions via Stochastic Localization](sampling_from_binary_quadratic_distributions_via_stochastic_localization.md)
 - [\[ACL 2025\] Optimizing Decomposition for Optimal Claim Verification](../../ACL2025/others/optimizing_decomposition_for_optimal_claim_verification.md)
-- [\[NeurIPS 2025\] Generalized Linear Mode Connectivity for Transformers](../../NeurIPS2025/others/generalized_linear_mode_connectivity_for_transformers.md)
-- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](../../ACL2025/others/a_measure_of_the_system_dependence_of_automated_metrics.md)
-- [\[ACL 2025\] Entropy-UID: A Method for Optimizing Information Density](../../ACL2025/others/entropy-uid_a_method_for_optimizing_information_density.md)
+- [\[ICML 2025\] Learning-Augmented Algorithms for MTS with Bandit Access to Multiple Predictors](learning-augmented_algorithms_for_mts_with_bandit_access_to_multiple_predictors.md)
+- [\[ACL 2025\] An Analysis of Datasets, Metrics and Models in Keyphrase Generation](../../ACL2025/others/an_analysis_of_datasets_metrics_and_models_in_keyphrase_generation.md)
+- [\[ACL 2025\] Principled Understanding of Generalization for Generative Transformer Models in Arithmetic Reasoning Tasks](../../ACL2025/others/principled_generalization_arithmetic.md)
 
 <!-- RELATED:END -->

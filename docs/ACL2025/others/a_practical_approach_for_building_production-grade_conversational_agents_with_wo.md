@@ -2,10 +2,10 @@
 title: >-
   [论文解读] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs
 description: >-
-  [ACL 2025][对话代理] 提出基于有向无环图(DAG)的工作流框架，通过将LLM agent的复杂业务约束分解到图中不同状态节点，并结合响应掩码微调策略，构建满足生产级要求的电商对话代理，在任务准确率和格式遵循方面均大幅超越GPT-4o基线。
+  [ACL 2025][其他] 提出基于有向无环图(DAG)的工作流框架，通过将LLM agent的复杂业务约束分解到图中不同状态节点，并结合响应掩码微调策略，构建满足生产级要求的电商对话代理，在任务准确率和格式遵循方面均大幅超越GPT-4o基线。
 tags:
   - ACL 2025
-  - 对话代理
+  - 其他
   - 工作流图
   - DAG框架
   - 电商agent
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.23006](https://arxiv.org/abs/2505.23006)  
 **代码**: 无  
-**领域**: LLM Agent / 对话系统  
+**领域**: 其他  
 **关键词**: 对话代理, 工作流图, DAG框架, 电商agent, 微调策略
 
 ## 一句话总结
@@ -135,6 +135,6 @@ tags:
 - [\[ACL 2025\] ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow Development](comfyui-copilot_an_intelligent_assistant_for_automated_workflow_development.md)
 - [\[ACL 2025\] Enhancing Conversational Agents with Theory of Mind: Aligning Beliefs, Desires, and Intentions for Human-Like Interaction](enhancing_conversational_agents_with_theory_of_mind_aligning_beliefs_desires_and.md)
 - [\[ACL 2025\] Zero-Shot Conversational Stance Detection: Dataset and Approaches](zero-shot_conversational_stance_detection_dataset_and_approaches.md)
-- [\[ACL 2025\] REP: Keys to Robust Edits — From Theoretical Insights to Practical Advances](rep_robust_knowledge_editing.md)
+- [\[ACL 2025\] TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data](targa_targeted_synthetic_data_generation_for_practical_reasoning_over_structured.md)
 
 <!-- RELATED:END -->

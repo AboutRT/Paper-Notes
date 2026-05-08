@@ -5,7 +5,7 @@ description: >-
   [NeurIPS 2025 (LLM Persona Workshop)][AI安全][LLM Persona] 提出 LLM persona 设计的四象限技术分类框架，沿"虚拟 vs 具身"和"情感陪伴 vs 功能增强"两轴，系统化分析了从虚拟伴侣、游戏 NPC 到护理机器人等不同场景下的技术栈、核心挑战和伦理风险。
 tags:
   - NeurIPS 2025 (LLM Persona Workshop)
-  - AI安全
+  - LLM/NLP
   - LLM Persona
   - AI Companion
   - Taxonomy
@@ -240,9 +240,9 @@ LLM 不再只是文本生成工具，已成为驱动各类个性化 AI agent 的
 ## 相关论文
 
 - [\[ACL 2025\] TaxoAdapt: Aligning LLM-Based Multidimensional Taxonomy Construction to Evolving Research Corpora](../../ACL2025/llm_nlp/taxoadapt_aligning_llm-based_multidimensional_taxonomy_construction_to_evolving_.md)
+- [\[NeurIPS 2025\] Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs](adaptive_kernel_design_for_bayesian_optimization_is_a_piece_of_cake_with_llms.md)
 - [\[ACL 2025\] Ranking Unraveled: Recipes for LLM Rankings in Head-to-Head AI Combat](../../ACL2025/llm_nlp/ranking_unraveled_recipes_for_llm_rankings_in_head-to-head_ai_combat.md)
 - [\[ACL 2025\] LLMs + Persona-Plug = Personalized LLMs](../../ACL2025/llm_nlp/llms_persona-plug_personalized_llms.md)
-- [\[ACL 2025\] AutoExp: Automatic Experiment Design and Execution by LLMs](../../ACL2025/llm_nlp/autoexp_automatic_experiment_design_and_execution_by_llms.md)
 - [\[NeurIPS 2025\] Writing in Symbiosis: Mapping Human Creative Agency in the AI Era](writing_in_symbiosis_mapping_human_creative_agency_in_the_ai_era.md)
 
 <!-- RELATED:END -->

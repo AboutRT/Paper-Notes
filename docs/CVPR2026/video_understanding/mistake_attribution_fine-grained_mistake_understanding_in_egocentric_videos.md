@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.20525](https://arxiv.org/abs/2511.20525)  
-**代码**: https://yayuanli.github.io/MATT  
+**代码**: [https://yayuanli.github.io/MATT](https://yayuanli.github.io/MATT)  
 **领域**: 视频理解  
 **关键词**: 错误归因、第一人称视频、语义角色标注、时空定位、指令对齐
 

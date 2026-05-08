@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (AI4Tab Workshop)  
 **arXiv**: [2511.06582](https://arxiv.org/abs/2511.06582)  
 **代码**: [有](https://github.com/jacobyhsi/TabRAG)  
-**领域**: RAG / 文档问答  
+**领域**: 图像分割  
 **关键词**: 表格问答, RAG, 结构化表示, 视觉语言模型, 文档解析
 
 ## 一句话总结

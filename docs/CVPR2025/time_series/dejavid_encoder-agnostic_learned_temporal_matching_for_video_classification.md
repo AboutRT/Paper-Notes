@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.12585](https://arxiv.org/abs/2506.12585)  
-**代码**: https://github.com/darrylho/DejaVid  
+**代码**: [https://github.com/darrylho/DejaVid](https://github.com/darrylho/DejaVid)  
 **领域**: 时间序列 / 视频理解  
 **关键词**: 视频分类, Dynamic Time Warping, 时序嵌入序列, 编码器无关, 轻量级后处理
 
@@ -122,8 +122,8 @@ tags:
 
 - [\[CVPR 2025\] FLAVC: Learned Video Compression with Feature Level Attention](flavc_learned_video_compression_with_feature_level_attention.md)
 - [\[NeurIPS 2025\] TimePerceiver: An Encoder-Decoder Framework for Generalized Time-Series Forecasting](../../NeurIPS2025/time_series/timeperceiver_an_encoder-decoder_framework_for_generalized_time-series_forecasti.md)
+- [\[NeurIPS 2025\] Multi-Scale Finetuning for Encoder-based Time Series Foundation Models](../../NeurIPS2025/time_series/multi-scale_finetuning_for_encoder-based_time_series_foundation_models.md)
 - [\[ACL 2025\] LETS-C: Leveraging Text Embedding for Time Series Classification](../../ACL2025/time_series/lets-c_leveraging_text_embedding_for_time_series_classification.md)
 - [\[ICML 2025\] Learning Soft Sparse Shapes for Efficient Time-Series Classification](../../ICML2025/time_series/learning_soft_sparse_shapes_for_efficient_time-series_classification.md)
-- [\[AAAI 2026\] SELDON: Supernova Explosions Learned by Deep ODE Networks](../../AAAI2026/time_series/seldon_supernova_explosions_learned_by_deep_ode_networks.md)
 
 <!-- RELATED:END -->

@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.13840](https://arxiv.org/abs/2512.13840)  
-**代码**: https://hynann.github.io/molingo/MoLingo.html  
-**领域**: 视频理解 / 人体动作生成  
+**代码**: [https://hynann.github.io/molingo/MoLingo.html](https://hynann.github.io/molingo/MoLingo.html)  
+**领域**: 人体理解  
 **关键词**: 文本驱动动作生成, 语义对齐潜空间, 交叉注意力条件注入, 自回归扩散, 连续潜空间
 
 ## 一句话总结
@@ -137,7 +137,7 @@ MARDM-67 评估协议下，MoLingo (VAE) 取得最优 FID，MoLingo (SAE) 取得
 - [\[CVPR 2026\] LaMoGen: Language to Motion Generation Through LLM-Guided Symbolic Inference](lamogen_language_to_motion_generation_through_llm-guided_symbolic_inference.md)
 - [\[CVPR 2026\] ParTY: Part-Guidance for Expressive Text-to-Motion Synthesis](party_part-guidance_for_expressive_text-to-motion_synthesis.md)
 - [\[CVPR 2026\] HandX: Scaling Bimanual Motion and Interaction Generation](handx_scaling_bimanual_motion_and_interaction_generation.md)
-- [\[AAAI 2026\] FineXtrol: Controllable Motion Generation via Fine-Grained Text](../../AAAI2026/human_understanding/finextrol_controllable_motion_generation_via_fine-grained_text.md)
-- [\[CVPR 2026\] RAM: Recover Any 3D Human Motion in-the-Wild](ram_recover_any_3d_human_motion_in-the-wild.md)
+- [\[ICCV 2025\] GenM3: Generative Pretrained Multi-path Motion Model for Text Conditional Human Motion Generation](../../ICCV2025/human_understanding/genm3_generative_pretrained_multi-path_motion_model_for_text_conditional_human_m.md)
+- [\[NeurIPS 2025\] VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models](../../NeurIPS2025/human_understanding/vimorag_video-based_retrieval-augmented_3d_motion_generation_for_motion_language.md)
 
 <!-- RELATED:END -->

@@ -52,9 +52,9 @@ tags:
 1. **三层级基础插值（Basic Interpolation）**：
 
    在源和目标之间以权重 $(1-\alpha)$ 和 $\alpha$ 在三个层级进行插值：
-   - **初始噪声插值**：通过扩散反演获取源和目标的输入噪声，使用球面线性插值（SLERP）生成中间噪声 $[\mathbf{z}_T^\alpha, \mathbf{z}_G^\alpha]$，以保持高斯噪声属性
-   - **模型参数插值**：分别对源和目标进行LoRA微调，线性插值两组LoRA参数，得到morphing模型 $\epsilon_G^\alpha$ 和 $\epsilon_T^\alpha$
-   - **条件特征插值**：通过CLIP编码器将源和目标的文本提示编码为 $\mathbf{c}^{src}$ 和 $\mathbf{c}^{tgt}$，线性插值得到 $\mathbf{c}^\alpha$
+    - **初始噪声插值**：通过扩散反演获取源和目标的输入噪声，使用球面线性插值（SLERP）生成中间噪声 $[\mathbf{z}_T^\alpha, \mathbf{z}_G^\alpha]$，以保持高斯噪声属性
+    - **模型参数插值**：分别对源和目标进行LoRA微调，线性插值两组LoRA参数，得到morphing模型 $\epsilon_G^\alpha$ 和 $\epsilon_T^\alpha$
+    - **条件特征插值**：通过CLIP编码器将源和目标的文本提示编码为 $\mathbf{c}^{src}$ 和 $\mathbf{c}^{tgt}$，线性插值得到 $\mathbf{c}^\alpha$
    
    但基础插值存在两个问题：突变（非线性多步去噪导致映射变异性）和伪影（条件空间与扩散空间的错位）。
 
@@ -62,7 +62,7 @@ tags:
 
    将源、目标和插值的噪声同时输入morphing模型，获取三组(Q, K, V)，然后通过融合注意力增强平滑性：
    
-   $$\text{Fused-Attn}(Q^\alpha, K^\alpha, V^\alpha) = \text{Attn}(Q^\alpha, [(1-\alpha)K^{src} + \alpha K^{tgt}, K^\alpha], [(1-\alpha)V^{src} + \alpha V^{tgt}, V^\alpha])$$
+    $\text{Fused-Attn}(Q^\alpha, K^\alpha, V^\alpha) = \text{Attn}(Q^\alpha, [(1-\alpha)K^{src} + \alpha K^{tgt}, K^\alpha], [(1-\alpha)V^{src} + \alpha V^{tgt}, V^\alpha])$
    
    该策略结合了自注意力和交叉注意力融合，使用微调模型的统一注意力特征来增强平滑性。但过度的Attention Fusion会导致结构坍塌和表面质量问题。
 
@@ -72,7 +72,7 @@ tags:
    
    实现方式：在DiT block之间重排序源和目标token序列，使语义相似的token对齐到相同索引位置：
    
-   $$\text{minimize} \sum_{j=1}^{M} \|h_j^{src} - h_{\sigma(j)}^{tgt}\|$$
+    $\text{minimize} \sum_{j=1}^{M} \|h_j^{src} - h_{\sigma(j)}^{tgt}\|$
    
    根据 $\alpha$ 值设定不同策略：$\alpha \in [0, 0.5)$ 时基于源重排目标；$\alpha \in [0.5, 1]$ 时基于目标重排源。
 
@@ -82,8 +82,8 @@ tags:
 
    实现方式：通过FFT将token变换到频域，增强低频信号后通过IFFT变换回来：
    
-   $$F'_{\omega < \omega_0}(h) = F_{\omega < \omega_0}(h) \odot scale$$
-   $$h' = \text{IFFT}([F'_{\omega < \omega_0}(h), F_{\omega \geq \omega_0}(h)])$$
+    $F'_{\omega < \omega_0}(h) = F_{\omega < \omega_0}(h) \odot scale$
+    $h' = \text{IFFT}([F'_{\omega < \omega_0}(h), F_{\omega \geq \omega_0}(h)])$
    
    其中 $scale = 5$，$\omega_0 = 0.1\pi$。
 
@@ -160,8 +160,8 @@ tags:
 
 - [\[ICCV 2025\] HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars](haircup_hair_compositional_universal_prior_for_3d_gaussian_avatars.md)
 - [\[ICCV 2025\] Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework](bridging_diffusion_models_and_3d_representations_a_3d_consistent_super-resolutio.md)
-- [\[NeurIPS 2025\] Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation](../../NeurIPS2025/3d_vision/jasmine_harnessing_diffusion_prior_for_self-supervised_depth_estimation.md)
 - [\[ICCV 2025\] Boost 3D Reconstruction using Diffusion-based Monocular Camera Calibration](boost_3d_reconstruction_using_diffusion-based_monocular_camera_calibration.md)
+- [\[NeurIPS 2025\] Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation](../../NeurIPS2025/3d_vision/jasmine_harnessing_diffusion_prior_for_self-supervised_depth_estimation.md)
 - [\[ICCV 2025\] MoGA: 3D Generative Avatar Prior for Monocular Gaussian Avatar Reconstruction](moga_3d_generative_avatar_prior_for_monocular_gaussian_avatar_reconstruction.md)
 
 <!-- RELATED:END -->

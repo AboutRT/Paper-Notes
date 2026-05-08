@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Exposing Numeracy Gaps: A Benchmark to Evaluate Fundamental Numerical Abilities in Large Language Models
 description: >-
-  [ACL2025][numerical reasoning] 提出 NumericBench 综合基准，通过 6 类数据集评估 LLM 的 6 种基本数值能力（数字识别、算术运算、上下文检索、比较、汇总、逻辑推理），发现包括 GPT-4o、DeepSeek-V3 在内的 SOTA 模型在简单数值任务上仍表现极差，并深入分析了 5 种根因。
+  [ACL2025][LLM评测] 提出 NumericBench 综合基准，通过 6 类数据集评估 LLM 的 6 种基本数值能力（数字识别、算术运算、上下文检索、比较、汇总、逻辑推理），发现包括 GPT-4o、DeepSeek-V3 在内的 SOTA 模型在简单数值任务上仍表现极差，并深入分析了 5 种根因。
 tags:
   - ACL2025
-  - numerical reasoning
+  - LLM评测
   - benchmark
   - arithmetic
   - number understanding
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2502.11075](https://arxiv.org/abs/2502.11075)  
 **代码**: [TreeAI-Lab/NumericBench](https://github.com/TreeAI-Lab/NumericBench)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: numerical reasoning, benchmark, arithmetic, number understanding, LLM evaluation, tokenizer
 
 ## 一句话总结
@@ -173,9 +173,9 @@ GSM8K 测试多步数学应用题，MathBench 覆盖代数/几何等结构化问
 ## 相关论文
 
 - [\[ACL 2025\] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science](seedbench_a_multi-task_benchmark_for_evaluating_large_language_models_in_seed_sc.md)
-- [\[ACL 2025\] WXImpactBench: A Disruptive Weather Impact Understanding Benchmark for Evaluating Large Language Models](wximpactbench_a_disruptive_weather_impact_understanding_benchmark_for_evaluating.md)
 - [\[NeurIPS 2025\] Creativity or Brute Force? Using Brainteasers as a Window into the Problem-Solving Abilities of Large Language Models](../../NeurIPS2025/llm_evaluation/creativity_or_brute_force_using_brainteasers_as_a_window_into_the_problem-solvin.md)
-- [\[ACL 2025\] CodeMEnv: Benchmarking Large Language Models on Code Migration](codemenv_benchmarking_large_language_models_on_code_migration.md)
 - [\[ACL 2025\] Batayan: A Filipino NLP Benchmark for Evaluating Large Language Models](batayan_a_filipino_nlp_benchmark_for_evaluating_large_language_models.md)
+- [\[ACL 2025\] WXImpactBench: A Disruptive Weather Impact Understanding Benchmark for Evaluating Large Language Models](wximpactbench_a_disruptive_weather_impact_understanding_benchmark_for_evaluating.md)
+- [\[ACL 2025\] Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](com2_causal_commonsense.md)
 
 <!-- RELATED:END -->

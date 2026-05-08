@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025 (Oral, SAC Highlight)  
 **arXiv**: [2505.12727](https://arxiv.org/abs/2505.12727)  
-**代码**: https://github.com/HanMeng2004/Mental-Health-Stigma-Interview-Corpus  
-**领域**: NLP理解  
+**代码**: [https://github.com/HanMeng2004/Mental-Health-Stigma-Interview-Corpus](https://github.com/HanMeng2004/Mental-Health-Stigma-Interview-Corpus)  
+**领域**: 其他  
 **关键词**: 心理健康污名、语料库构建、归因理论、专家标注、文本分类
 
 ## 一句话总结
@@ -132,7 +132,7 @@ tags:
 - [\[ACL 2025\] ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval](acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md)
 - [\[ACL 2025\] CoAM: Corpus of All-Type Multiword Expressions](coam_corpus_of_all-type_multiword_expressions.md)
 - [\[ACL 2025\] VAQUUM: Are Vague Quantifiers Grounded in Visual Data?](vaquum_are_vague_quantifiers_grounded_in_visual_data.md)
-- [\[ACL 2025\] Mapping the Podcast Ecosystem with the Structured Podcast Research Corpus](mapping_the_podcast_ecosystem_with_the_structured_podcast_research_corpus.md)
 - [\[ACL 2025\] LAQuer: Localized Attribution Queries in Content-grounded Generation](laquer_localized_attribution.md)
+- [\[ACL 2025\] Mapping the Podcast Ecosystem with the Structured Podcast Research Corpus](mapping_the_podcast_ecosystem_with_the_structured_podcast_research_corpus.md)
 
 <!-- RELATED:END -->

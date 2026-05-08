@@ -12,7 +12,7 @@ tags:
 - **会议**: ACL 2025
 - **arXiv**: [2408.09429](https://arxiv.org/abs/2408.09429)
 - **代码**: [JackChen-seu/Reefknot](https://github.com/JackChen-seu/Reefknot)
-- **领域**: multimodal_vlm
+- **领域**: 多模态VLM
 - **关键词**: 关系幻觉, 多模态大模型, 幻觉基准, 置信度校准, 场景图
 
 ## 一句话总结

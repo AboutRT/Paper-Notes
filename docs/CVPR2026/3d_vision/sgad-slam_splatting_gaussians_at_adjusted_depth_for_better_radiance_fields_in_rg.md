@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21055](https://arxiv.org/abs/2603.21055)  
-**代码**: https://machineperceptionlab.github.io/SGAD-SLAM-Project  
+**代码**: [https://machineperceptionlab.github.io/SGAD-SLAM-Project](https://machineperceptionlab.github.io/SGAD-SLAM-Project)  
 **领域**: 3D视觉  
 **关键词**: 3DGS、RGBD SLAM、像素对齐高斯、深度偏移、广义ICP
 

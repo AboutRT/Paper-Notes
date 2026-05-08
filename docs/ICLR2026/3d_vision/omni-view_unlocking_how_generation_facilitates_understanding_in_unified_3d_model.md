@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2511.07222](https://arxiv.org/abs/2511.07222)  
-**代码**: https://github.com/AIDC-AI/Omni-View  
+**代码**: [https://github.com/AIDC-AI/Omni-View](https://github.com/AIDC-AI/Omni-View)  
 **领域**: 3D视觉 / 多视图理解  
 **关键词**: 统一理解与生成, 3D场景理解, 新视角合成, 空间推理, 多视图
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.09413](https://arxiv.org/abs/2505.09413)  
-**代码**: https://github.com/murcherful/GauPCRender  
+**代码**: [https://github.com/murcherful/GauPCRender](https://github.com/murcherful/GauPCRender)  
 **领域**: 3D视觉  
 **关键词**: 点云渲染, 2D高斯溅射, 稀疏点云, 跨类泛化, 新视角合成
 

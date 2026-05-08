@@ -170,8 +170,8 @@ Structure from Motion (SfM) 是 3D 计算机视觉的核心课题。传统 SfM �
 
 - [\[CVPR 2026\] Reparameterized Tensor Ring Functional Decomposition for Multi-Dimensional Data Recovery](reparameterized_tensor_ring_functional_decomposition_for_multi-dimensional_data_.md)
 - [\[ECCV 2024\] MIGS: Multi-Identity Gaussian Splatting via Tensor Decomposition](../../ECCV2024/3d_vision/migs_multi-identity_gaussian_splatting_via_tensor_decomposition.md)
-- [\[AAAI 2026\] ProbFM: Probabilistic Time Series Foundation Model with Uncertainty Decomposition](../../AAAI2026/3d_vision/probfm_probabilistic_time_series_foundation_model_with_uncertainty_decomposition.md)
 - [\[ICCV 2025\] Proactive Scene Decomposition and Reconstruction](../../ICCV2025/3d_vision/proactive_scene_decomposition_and_reconstruction.md)
+- [\[ICCV 2025\] InstaScene: Towards Complete 3D Instance Decomposition and Reconstruction from Cluttered Scenes](../../ICCV2025/3d_vision/instascene_towards_complete_3d_instance_decomposition_and_reconstruction_from_cl.md)
 - [\[NeurIPS 2025\] VisualSync: Multi-Camera Synchronization via Cross-View Object Motion](../../NeurIPS2025/3d_vision/visual_sync_multi-camera_synchronization_via_cross-view_object_motion.md)
 
 <!-- RELATED:END -->

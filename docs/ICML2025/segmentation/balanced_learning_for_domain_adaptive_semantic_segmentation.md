@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2512.06886](https://arxiv.org/abs/2512.06886)  
-**代码**: https://github.com/Woof6/BLDA  
+**代码**: [https://github.com/Woof6/BLDA](https://github.com/Woof6/BLDA)  
 **领域**: 语义分割  
 **关键词**: domain adaptation, semantic segmentation, class imbalance, logit calibration, self-training
 
@@ -129,8 +129,8 @@ BLDA 构建在标准的自训练 UDA 框架之上。输入是源域有标注图�
 
 - [\[ICML 2025\] Dual form Complementary Masking for Domain-Adaptive Image Segmentation](dual_form_complementary_masking_for_domain-adaptive_image_segmentation.md)
 - [\[CVPR 2026\] Heuristic Self-Paced Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](../../CVPR2026/segmentation/heuristic_self-paced_learning_for_domain_adaptive_semantic_segmentation_under_ad.md)
-- [\[CVPR 2026\] Masked Representation Modeling for Domain-Adaptive Segmentation](../../CVPR2026/segmentation/mrm_masked_representation_modeling_domain_adaptive.md)
 - [\[CVPR 2025\] Universal Domain Adaptation for Semantic Segmentation](../../CVPR2025/segmentation/universal_domain_adaptation_for_semantic_segmentation.md)
+- [\[CVPR 2026\] Masked Representation Modeling for Domain-Adaptive Segmentation](../../CVPR2026/segmentation/masked_representation_modeling_for_domain-adaptive_segmentation.md)
 - [\[ICCV 2025\] Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation](../../ICCV2025/segmentation/exploiting_domain_properties_in_language-driven_domain_generalization_for_semant.md)
 
 <!-- RELATED:END -->

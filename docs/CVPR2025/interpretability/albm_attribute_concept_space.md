@@ -9,14 +9,14 @@ tags:
   - 可解释分类
   - 属性空间
   - 视觉提示学习
-  - VLM
+  - 可解释性
 ---
 
 # Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck Model with Better Interpretability and Scalability
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20301](https://arxiv.org/abs/2503.20301)  
-**代码**: https://github.com/tiggers23/ALBM  
+**代码**: [https://github.com/tiggers23/ALBM](https://github.com/tiggers23/ALBM)  
 **领域**: 可解释性  
 **关键词**: 概念瓶颈模型, 可解释分类, 属性空间, 视觉提示学习, VLM
 
@@ -127,8 +127,8 @@ LLM生成类描述(Description) → 摘要属性集(Summary) → 补充缺失属
 
 - [\[AAAI 2026\] Flexible Concept Bottleneck Model](../../AAAI2026/interpretability/flexible_concept_bottleneck_model.md)
 - [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
-- [\[ICLR 2026\] There Was Never a Bottleneck in Concept Bottleneck Models](../../ICLR2026/interpretability/there_was_never_a_bottleneck_in_concept_bottleneck_models.md)
+- [\[AAAI 2026\] Partially Shared Concept Bottleneck Models](../../AAAI2026/interpretability/partially_shared_concept_bottleneck_models.md)
 - [\[NeurIPS 2025\] An Analysis of Concept Bottleneck Models: Measuring, Understanding, and Mitigating the Impact of Noisy Annotations](../../NeurIPS2025/interpretability/an_analysis_of_concept_bottleneck_models_measuring_understanding_and_mitigating_.md)
-- [\[CVPR 2025\] Learning on Model Weights using Tree Experts](learning_on_model_weights_using_tree_experts.md)
+- [\[ICML 2025\] SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability](../../ICML2025/interpretability/saebench_a_comprehensive_benchmark_for_sparse_autoencoders_in_language_model_int.md)
 
 <!-- RELATED:END -->

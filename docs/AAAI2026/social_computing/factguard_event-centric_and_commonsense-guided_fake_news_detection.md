@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI2026
   - fake news detection
-  - LLM reasoning
+  - 社会计算
   - 知识蒸馏
   - commonsense reasoning
   - style debiasing
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.10281](https://arxiv.org/abs/2511.10281)  
 **代码**: [ryliu68/FACTGUARD](https://github.com/ryliu68/FACTGUARD)  
-**领域**: model_compression  
+**领域**: 社会计算  
 **关键词**: fake news detection, LLM reasoning, knowledge distillation, commonsense reasoning, style debiasing
 
 ## 一句话总结

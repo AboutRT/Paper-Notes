@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.02187](https://arxiv.org/abs/2503.02187)  
-**代码**: https://github.com/nktoan/h-edit  
+**代码**: [https://github.com/nktoan/h-edit](https://github.com/nktoan/h-edit)  
 **领域**: 扩散模型 / 图像编辑  
 **关键词**: 图像编辑, Doob h变换, 扩散桥, 免训练编辑, 奖励模型编辑
 

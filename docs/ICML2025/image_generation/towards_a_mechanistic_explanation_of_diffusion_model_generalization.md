@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2411.19339](https://arxiv.org/abs/2411.19339)  
-**代码**: https://github.com/plai-group/pspc  
+**代码**: [https://github.com/plai-group/pspc](https://github.com/plai-group/pspc)  
 **领域**: 图像生成  
 **关键词**: 扩散模型, 泛化机制, 归纳偏置, 局部去噪, Patch Set Posterior Composites
 

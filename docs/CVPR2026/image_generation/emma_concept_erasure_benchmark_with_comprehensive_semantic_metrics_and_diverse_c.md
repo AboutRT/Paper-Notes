@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.17320](https://arxiv.org/abs/2512.17320)  
-**代码**: https://github.com/lobsterlulu/EMMA  
+**代码**: [https://github.com/lobsterlulu/EMMA](https://github.com/lobsterlulu/EMMA)  
 **领域**: 扩散模型 / AI安全  
 **关键词**: 概念擦除, 文本到图像生成, 基准测试, 隐式提示, 偏见评估
 

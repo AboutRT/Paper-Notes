@@ -8,7 +8,7 @@ tags:
   - AI Tutoring
   - Preference Dataset
   - Teacher Feedback
-  - 知识蒸馏
+  - 其他
   - Ranking Model
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.19325](https://arxiv.org/abs/2506.19325)  
 **代码**: [hyenee/FEAT](https://github.com/hyenee/FEAT)  
-**领域**: NLP / 教育AI / 偏好学习  
+**领域**: 其他  
 **关键词**: AI Tutoring, Preference Dataset, Teacher Feedback, knowledge distillation, Ranking Model
 
 ## 一句话总结
@@ -148,10 +148,10 @@ FEAT（Feedback Dataset Generation Framework for English AI Tutoring）由三个
 
 ## 相关论文
 
-- [\[ACL 2025\] Dolphin: Moving Towards Closed-loop Auto-research through Thinking, Practice, and Feedback](dolphin_moving_towards_closed-loop_auto-research_through_thinking_practice_and_f.md)
 - [\[ACL 2025\] Meta-Reflection: A Feedback-Free Reflection Learning Framework](meta-reflection_a_feedback-free_reflection_learning_framework.md)
-- [\[ACL 2025\] Hybrid Preferences: Learning to Route Instances for Human vs. AI Feedback](hybrid_preferences_learning_to_route_instances_for_human_vs_ai_feedback.md)
+- [\[ACL 2025\] Dolphin: Moving Towards Closed-loop Auto-research through Thinking, Practice, and Feedback](dolphin_moving_towards_closed-loop_auto-research_through_thinking_practice_and_f.md)
 - [\[ACL 2025\] Predicting Through Generation: Why Generation Is Better for Prediction](predicting_through_generation_why_generation_is_better_for_prediction.md)
 - [\[ICML 2025\] Practical Principles for AI Cost and Compute Accounting](../../ICML2025/others/practical_principles_for_ai_cost_and_compute_accounting.md)
+- [\[ACL 2025\] Sightation Counts: Leveraging Sighted User Feedback in Building a BLV-aligned Dataset of Diagram Descriptions](sightation-blv-aligned-diagram-descriptions.md)
 
 <!-- RELATED:END -->

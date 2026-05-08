@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.04546](https://arxiv.org/abs/2508.04546)  
-**代码**: https://github.com/minghangz/OnVTG  
-**领域**: video_understanding / 在线视频时序定位  
+**代码**: [https://github.com/minghangz/OnVTG](https://github.com/minghangz/OnVTG)  
+**领域**: 视频理解  
 **关键词**: 在线视频时序定位, 层级事件记忆, 事件提议, 未来预测, 低延迟
 
 ## 一句话总结

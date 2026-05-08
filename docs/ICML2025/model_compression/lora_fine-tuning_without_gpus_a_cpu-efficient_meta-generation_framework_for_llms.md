@@ -2,7 +2,7 @@
 title: >-
   [论文解读] LoRA Fine-Tuning without GPUs: A CPU-Efficient Meta-Generation Framework for LLMs
 description: >-
-  [ICML 2025][模型压缩 / LLM效率] 提出在 CPU 上高效进行 LoRA 微调的元生成框架，通过预计算和缓存策略避免 GPU 依赖，使资源受限环境下的 LLM 微调成为可能。
+  [ICML 2025][模型压缩] 提出在 CPU 上高效进行 LoRA 微调的元生成框架，通过预计算和缓存策略避免 GPU 依赖，使资源受限环境下的 LLM 微调成为可能。
 tags:
   - ICML 2025
   - 模型压缩
@@ -123,6 +123,6 @@ tags:
 - [\[NeurIPS 2025\] EMLoC: Emulator-based Memory-efficient Fine-tuning with LoRA Correction](../../NeurIPS2025/model_compression/emloc_emulator-based_memory-efficient_fine-tuning_with_lora_correction.md)
 - [\[NeurIPS 2025\] Loquetier: A Virtualized Multi-LoRA Framework for Unified LLM Fine-tuning and Serving](../../NeurIPS2025/model_compression/loquetier_a_virtualized_multi-lora_framework_for_unified_llm_fine-tuning_and_ser.md)
 - [\[ACL 2025\] CFSP: An Efficient Structured Pruning Framework for LLMs with Coarse-to-Fine Activation Information](../../ACL2025/model_compression/cfsp_an_efficient_structured_pruning_framework_for_llms_with_coarse-to-fine_acti.md)
-- [\[ACL 2025\] FedEx-LoRA: Exact Aggregation for Federated and Efficient Fine-Tuning of Large Language Models](../../ACL2025/model_compression/fedex_lora_federated_exact_aggregation.md)
+- [\[ICML 2025\] VocabTrim: Vocabulary Pruning for Efficient Speculative Decoding in LLMs](vocabtrim_vocabulary_pruning_for_efficient_speculative_decoding_in_llms.md)
 
 <!-- RELATED:END -->

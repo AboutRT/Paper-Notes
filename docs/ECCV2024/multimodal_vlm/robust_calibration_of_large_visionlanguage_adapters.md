@@ -10,7 +10,7 @@ tags:
   - logit range
   - OOD
   - 提示学习
-  - adapter
+  - 多模态VLM
 ---
 
 # Robust Calibration of Large Vision-Language Adapters
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.13588](https://arxiv.org/abs/2407.13588)  
 **代码**: [GitHub](https://github.com/Bala93/CLIPCalib)  
-**领域**: 视觉语言模型 / 模型校准  
+**领域**: 多模态VLM  
 **关键词**: CLIP calibration, logit range, OOD, prompt learning, adapter
 
 ## 一句话总结
@@ -136,10 +136,10 @@ ZS-Norm和Penalty在各适配方法的原始训练流程中集成（CoOp 50 epoc
 
 ## 相关论文
 
-- [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](attention_prompting_on_image_for_large_visionlanguage_models.md)
-- [\[ECCV 2024\] Quantized Prompt for Efficient Generalization of Vision-Language Models](quantized_prompt_for_efficient_generalization_of_vision-language_models.md)
+- [\[ECCV 2024\] Quantized Prompt for Efficient Generalization of Vision-Language Models](quantized_prompt_for_efficient_generalization_of_visionlangu.md)
 - [\[ECCV 2024\] MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection](marvelovd_marrying_object_recognition_and_visionlanguage_mod.md)
-- [\[ECCV 2024\] Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs](metaprompting_for_automating_zeroshot_visual_recognitio.md)
-- [\[ECCV 2024\] Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models](vary_scaling_up_the_vision_vocabulary_for_large_vision-language_model.md)
+- [\[ECCV 2024\] Attention Prompting on Image for Large Vision-Language Models](attention_prompting_on_image_for_large_visionlanguage_models.md)
+- [\[ECCV 2024\] SQ-LLaVA: Self-Questioning for Large Vision-Language Assistant](sq-llava_self-questioning_for_large_vision-language_assistant.md)
+- [\[ECCV 2024\] NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models](navgpt2_unleashing_navigational_reasoning_capability.md)
 
 <!-- RELATED:END -->

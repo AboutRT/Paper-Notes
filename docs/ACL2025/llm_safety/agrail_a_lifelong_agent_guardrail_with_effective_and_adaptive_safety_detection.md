@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection
 description: >-
-  [ACL 2025][LLM Agent] 提出 AGrail，一个终身学习的 LLM Agent 安全护栏框架，通过双 LLM 协作（Analyzer + Executor）和记忆模块，在测试时自适应地生成和优化安全检查策略，有效防御任务特定风险和系统性风险。
+  [ACL 2025][LLM安全] 提出 AGrail，一个终身学习的 LLM Agent 安全护栏框架，通过双 LLM 协作（Analyzer + Executor）和记忆模块，在测试时自适应地生成和优化安全检查策略，有效防御任务特定风险和系统性风险。
 tags:
   - ACL 2025
-  - LLM Agent
+  - LLM安全
   - Guardrail
   - Safety Detection
   - test-time adaptation
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.11448](https://arxiv.org/abs/2502.11448)  
 **代码**: [https://eddyluo1232.github.io/AGrail/](https://eddyluo1232.github.io/AGrail/)  
-**领域**: LLM Agent Safety  
+**领域**: LLM安全  
 **关键词**: LLM Agent, Guardrail, Safety Detection, test-time adaptation, Memory Module
 
 ## 一句话总结
@@ -136,10 +136,10 @@ AGrail (Claude-3.5) 保留了 95.6% 的正常动作，同时将 Prompt Injection
 
 ## 相关论文
 
-- [\[ACL 2025\] SafeRoute: Adaptive Model Selection for Efficient and Accurate Safety Guardrails in Large Language Models](saferoute_adaptive_model_selection_for_efficient_and_accurate_safety_guardrails_.md)
 - [\[ACL 2025\] Towards Effective Extraction and Evaluation of Factual Claims](towards_effective_extraction_and_evaluation_of_factual_claims.md)
+- [\[ACL 2025\] SafeRoute: Adaptive Model Selection for Efficient and Accurate Safety Guardrails in Large Language Models](saferoute_adaptive_model_selection_for_efficient_and_accurate_safety_guardrails_.md)
+- [\[NeurIPS 2025\] Poly-Guard: Massive Multi-Domain Safety Policy-Grounded Guardrail Dataset](../../NeurIPS2025/llm_safety/poly-guard_massive_multi-domain_safety_policy-grounded_guardrail_dataset.md)
 - [\[ACL 2025\] Aligning Large Language Models to Follow Instructions and Hallucinate Less via Effective Data Filtering](aligning_large_language_models_to_follow_instructions_and_hallucinate_less_via_e.md)
 - [\[ACL 2025\] Automated Explanation Generation and Hallucination Detection for Heritage Image Retrieval](automated_explanation_generation_and_hallucination_detection_for_heritage_image_.md)
-- [\[ACL 2025\] HD-NDEs: Neural Differential Equations for Hallucination Detection in LLMs](hd-ndes_neural_differential_equations_for_hallucination_detection_in_llms.md)
 
 <!-- RELATED:END -->

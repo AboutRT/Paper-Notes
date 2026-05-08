@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21311](https://arxiv.org/abs/2510.21311)  
 **代码**: [https://iiau-zhanglu.github.io/FINERS/](https://iiau-zhanglu.github.io/FINERS/)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: small object segmentation, MLLM, reinforcement-learning, GRPO, coarse-to-fine, high-resolution, UAV
 
 ## 一句话总结

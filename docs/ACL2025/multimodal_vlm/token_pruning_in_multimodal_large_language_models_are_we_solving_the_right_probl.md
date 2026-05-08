@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 剪枝
+  - 多模态VLM
   - 多模态大模型
   - 视觉token压缩
   - 注意力偏差
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2502.11501](https://arxiv.org/abs/2502.11501)  
 **作者**: Zichen Wen, Yifeng Gao (SJTU), Weijia Li (中山大学), Conghui He (上海AI Lab), Linfeng Zhang (SJTU)
 **代码**: 未公开  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: token pruning, 多模态大模型, 视觉token压缩, 注意力偏差, 推理加速
 
 ## 一句话总结
@@ -155,9 +155,9 @@ FLOPs最低的MustDrop（11.5%）延迟反而最高，FastV FLOPs稍高但延迟
 ## 相关论文
 
 - [\[ACL 2025\] Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models](unsolvable_problem_detection.md)
-- [\[ICCV 2025\] Pi-GPS: Enhancing Geometry Problem Solving by Unleashing the Power of Diagrammatic Information](../../ICCV2025/multimodal_vlm/pi-gps_enhancing_geometry_problem_solving_by_unleashing_the_power_of_diagrammati.md)
-- [\[ACL 2025\] Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models](manu_modality_aware_unlearning.md)
 - [\[ECCV 2024\] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](../../ECCV2024/multimodal_vlm/ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)
+- [\[ACL 2025\] Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models](manu_modality_aware_unlearning.md)
 - [\[ACL 2025\] GODBench: A Benchmark for Multimodal Large Language Models in Video Comment Art](godbench_a_benchmark_for_multimodal_large_language_models_in_video_comment_art.md)
+- [\[ICCV 2025\] Pi-GPS: Enhancing Geometry Problem Solving by Unleashing the Power of Diagrammatic Information](../../ICCV2025/multimodal_vlm/pi-gps_enhancing_geometry_problem_solving_by_unleashing_the_power_of_diagrammati.md)
 
 <!-- RELATED:END -->

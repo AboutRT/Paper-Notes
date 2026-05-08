@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2603.07162](https://arxiv.org/abs/2603.07162)  
 **代码**: 未公开  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: Transformer, 注意力机制, 条件数, 谱调节, Jacobian  
 
 ## 一句话总结
@@ -168,9 +168,9 @@ $$\mathbf{SpecA}(X) = \text{softmax}(X(W_Q + C_Q)(W_K + C_K)^T X^T) X(W_V + C_V)
 ## 相关论文
 
 - [\[CVPR 2025\] Spiking Transformer with Spatial-Temporal Attention](../../CVPR2025/llm_nlp/spiking_transformer_with_spatial-temporal_attention.md)
+- [\[CVPR 2025\] Spiking Transformer: Introducing Accurate Addition-Only Spiking Self-Attention for Transformer](../../CVPR2025/llm_nlp/spiking_transformer_introducing_accurate_addition-only_spiking_self-attention_fo.md)
 - [\[NeurIPS 2025\] Strassen Attention, Split VC Dimension and Compositionality in Transformers](strassen_attention_split_vc_dimension_and_compositionality_in_transformers.md)
 - [\[NeurIPS 2025\] On the Role of Hidden States of Modern Hopfield Network in Transformer](on_the_role_of_hidden_states_of_modern_hopfield_network_in_transformer.md)
 - [\[NeurIPS 2025\] Characterizing the Expressivity of Fixed-Precision Transformer Language Models](characterizing_the_expressivity_of_fixed-precision_transformer_language_models.md)
-- [\[ACL 2025\] MHA2MLA: Towards Economical Inference by Enabling DeepSeek's Multi-Head Latent Attention in Any Transformer-based LLMs](../../ACL2025/llm_nlp/mha2mla_deepseek_latent_attention.md)
 
 <!-- RELATED:END -->

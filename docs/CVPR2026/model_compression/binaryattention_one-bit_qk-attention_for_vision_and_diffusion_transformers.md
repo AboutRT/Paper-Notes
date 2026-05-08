@@ -16,7 +16,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.09582](https://arxiv.org/abs/2603.09582)  
 **代码**: [EdwardChasel/BinaryAttention](https://github.com/EdwardChasel/BinaryAttention)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: attention quantization, binary quantization, vision transformer, diffusion transformer, 1-bit attention, FlashAttention
 
 ## 一句话总结
@@ -151,8 +151,8 @@ BinaryAttention 由三个核心组件组成：(1) **Scaled Binary Representation
 
 - [\[CVPR 2026\] PPCL: Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers](ppcl_pluggable_pruning_dit_distillation.md)
 - [\[CVPR 2026\] FlashVGGT: Efficient and Scalable Visual Geometry Transformers with Compressed Descriptor Attention](flashvggt_efficient_and_scalable_visual_geometry_transformers_with_compressed_descr.md)
-- [\[CVPR 2026\] Adversarial Concept Distillation for One-Step Diffusion Personalization](adversarial_concept_distillation_for_one-step_diffusion_personalization.md)
 - [\[CVPR 2026\] HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers](hiap_a_multi-granular_stochastic_auto-pruning_framework_for_vision_transformers.md)
+- [\[CVPR 2026\] Adversarial Concept Distillation for One-Step Diffusion Personalization](adversarial_concept_distillation_for_one-step_diffusion_personalization.md)
 - [\[CVPR 2026\] On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors](on_the_robustness_of_diffusion-based_image_compression_to_bit-flip_errors.md)
 
 <!-- RELATED:END -->

@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.19684](https://arxiv.org/abs/2511.19684)  
 **作者**: Vivek Chavan (Fraunhofer IPK / TU Berlin), Yasmina Imgrund, Tung Dao, Sanwantri Bai, Bosong Wang, Ze Lu, Oliver Heimann, Jörg Krüger  
 **代码**: [项目页](https://indego-dataset.github.io/) / [HuggingFace](https://huggingface.co/datasets/FraunhoferIPK/IndEgo)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 第一人称视觉, 工业场景, 多模态数据集, 协作工作, 错误检测, 视频问答  
 
 ## 一句话总结
@@ -155,8 +155,8 @@ tags:
 
 - [\[NeurIPS 2025\] Look and Tell: A Dataset for Multimodal Grounding Across Egocentric and Exocentric Views](look_and_tell_a_dataset_for_multimodal_grounding_across_egocentric_and_exocentri.md)
 - [\[CVPR 2025\] HD-EPIC: A Highly-Detailed Egocentric Video Dataset](../../CVPR2025/3d_vision/hd-epic_a_highly-detailed_egocentric_video_dataset.md)
+- [\[CVPR 2025\] EgoPressure: A Dataset for Hand Pressure and Pose Estimation in Egocentric Vision](../../CVPR2025/3d_vision/egopressure_a_dataset_for_hand_pressure_and_pose_estimation_in_egocentric_vision.md)
 - [\[NeurIPS 2025\] Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span](gaze_beyond_the_frame_forecasting_egocentric_3d_visual_span.md)
 - [\[CVPR 2026\] Ego-1K: A Large-Scale Multiview Video Dataset for Egocentric Vision](../../CVPR2026/3d_vision/ego-1k_--_a_large-scale_multiview_video_dataset_for_egocentric_vision.md)
-- [\[NeurIPS 2025\] FlareX: A Physics-Informed Dataset for Lens Flare Removal via 2D Synthesis and 3D Rendering](flarex_a_physics-informed_dataset_for_lens_flare_removal_via_2d_synthesis_and_3d.md)
 
 <!-- RELATED:END -->

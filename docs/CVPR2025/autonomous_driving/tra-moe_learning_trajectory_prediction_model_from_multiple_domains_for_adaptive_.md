@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.14519](https://arxiv.org/abs/2411.14519)  
-**代码**: https://github.com/MCG-NJU/Tra-MoE  
+**代码**: [https://github.com/MCG-NJU/Tra-MoE](https://github.com/MCG-NJU/Tra-MoE)  
 **领域**: 自动驾驶/机器人  
 **关键词**: 轨迹预测, 混合专家, 跨域学习, 策略条件化, 机器人操控
 

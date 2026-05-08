@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2506.23596](https://arxiv.org/abs/2506.23596)  
 **作者**: Min-Yeong Park, Won-Jeong Lee, Seong Tae Kim, Gyeong-Moon Park (Korea University)
 **代码**: [KU-VGI/AP](https://github.com/KU-VGI/AP)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: 异常预测, 时间序列预测, 异常检测, prompt learning, 合成异常
 
 ## 一句话总结

@@ -155,6 +155,6 @@ $$L_{\text{stage2}} = L_{\text{traj}} + L_{\text{action}}$$
 - [\[ICCV 2025\] Efficient Spiking Point Mamba for Point Cloud Analysis](efficient_spiking_point_mamba_for_point_cloud_analysis.md)
 - [\[CVPR 2025\] Multi-View Pose-Agnostic Change Localization with Zero Labels](../../CVPR2025/3d_vision/multi-view_pose-agnostic_change_localization_with_zero_labels.md)
 - [\[CVPR 2025\] DualPM: Dual Posed-Canonical Point Maps for 3D Shape and Pose Reconstruction](../../CVPR2025/3d_vision/dualpm_dual_posed-canonical_point_maps_for_3d_shape_and_pose_reconstruction.md)
-- [\[ICCV 2025\] Unleashing Vecset Diffusion Model for Fast Shape Generation (FlashVDM)](unleashing_vecset_diffusion_model_for_fast_shape_generation.md)
+- [\[ICCV 2025\] Disentangling Instance and Scene Contexts for 3D Semantic Scene Completion](disentangling_instance_and_scene_contexts_for_3d_semantic_scene_completion.md)
 
 <!-- RELATED:END -->

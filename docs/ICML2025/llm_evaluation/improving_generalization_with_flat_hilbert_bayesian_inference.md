@@ -9,7 +9,7 @@ tags:
   - Sharpness-Aware Minimization
   - RKHS
   - SVGD
-  - LoRA
+  - LLM评测
   - 泛化性
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2410.04196](https://arxiv.org/abs/2410.04196)  
 **代码**: 待确认  
-**领域**: 贝叶斯优化  
+**领域**: LLM评测  
 **关键词**: Bayesian Inference, Sharpness-Aware Minimization, RKHS, SVGD, LoRA, 泛化性
 
 ## 一句话总结
@@ -139,9 +139,9 @@ $$f_{k+1} = f_k - \epsilon \nabla_f D_{\text{KL}}(q_{[I+f]} \| p(\cdot|\mathcal{
 ## 相关论文
 
 - [\[ICML 2025\] Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces](function_encoders_a_principled_approach_to_transfer_learning_in_hilbert_spaces.md)
-- [\[ICML 2025\] IBDR: Promoting Ensemble Diversity with Interactive Bayesian Distributional Robustness](promoting_ensemble_diversity_with_interactive_bayesian_distributional_robustness.md)
-- [\[ICML 2025\] Set-Valued Predictions for Robust Domain Generalization](set_valued_predictions_for_robust_domain_generalization.md)
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](../../NeurIPS2025/llm_evaluation/bayesian_evaluation_of_large_language_model_behavior.md)
 - [\[ICML 2025\] Hyperband-based Bayesian Optimization for Black-box Prompt Selection](hyperband-based_bayesian_optimization_for_black-box_prompt_selection.md)
+- [\[ICML 2025\] Unlocking Post-hoc Dataset Inference with Synthetic Data](unlocking_post-hoc_dataset_inference_with_synthetic_data.md)
+- [\[ICML 2025\] IBDR: Promoting Ensemble Diversity with Interactive Bayesian Distributional Robustness](promoting_ensemble_diversity_with_interactive_bayesian_distributional_robustness.md)
+- [\[ICML 2025\] FEDTAIL: Federated Long-Tailed Domain Generalization with Sharpness-Guided Gradient Matching](fedtail_federated_long-tailed_domain_generalization_with_sharpness-guided_gradie.md)
 
 <!-- RELATED:END -->

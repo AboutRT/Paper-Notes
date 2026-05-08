@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01675](https://arxiv.org/abs/2506.01675)  
 **代码**: [GitHub](https://github.com/luciusssss/cross-lingual-culture)  
-**领域**: 多语言NLP / 文化知识  
+**领域**: 多语言翻译  
 **关键词**: 跨语言迁移, 文化知识, 低资源语言, 语言适应, 频率假说
 
 ## 一句话总结
@@ -156,8 +156,8 @@ tags:
 
 - [\[ACL 2025\] Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs](mid_layer_crosslingual_alignment.md)
 - [\[ACL 2025\] Dictionaries to the Rescue: Cross-Lingual Vocabulary Transfer for Low-Resource Languages Using Bilingual Dictionaries](dictionaries_to_the_rescue_cross-lingual_vocabulary_transfer_for_low-resource_la.md)
-- [\[ACL 2025\] Edit Once, Update Everywhere: A Simple Framework for Cross-Lingual Knowledge Synchronization in LLMs](edit_once_update_everywhere_a_simple_framework_for_cross-lingual_knowledge_synch.md)
 - [\[ACL 2025\] Semantic Aware Linear Transfer by Recycling Pre-trained Language Models for Cross-Lingual Transfer](semantic_aware_linear_transfer_by_recycling_pre-trained_language_models_for_cros.md)
 - [\[ACL 2025\] Language Fusion for Parameter-Efficient Cross-lingual Transfer (FLARE)](flare_crosslingual_lora.md)
+- [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 
 <!-- RELATED:END -->

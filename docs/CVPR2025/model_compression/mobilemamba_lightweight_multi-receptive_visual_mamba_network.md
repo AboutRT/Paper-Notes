@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.15941](https://arxiv.org/abs/2411.15941)  
 **代码**: [GitHub](https://github.com/lewandofskee/MobileMamba)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: lightweight network, Mamba, SSM, multi-receptive field, wavelet transform, efficient inference
 
 ## 一句话总结
@@ -168,6 +168,6 @@ MobileMamba-S6†（带训练策略）在 652M FLOPs 下达到 80.7%，超越所
 - [\[CVPR 2025\] Binarized Mamba-Transformer for Lightweight Quad Bayer HybridEVS Demosaicing](binarized_mamba-transformer_for_lightweight_quad_bayer_hybridevs_demosaicing.md)
 - [\[CVPR 2025\] Mamba-Adaptor: State Space Model Adaptor for Visual Recognition](mamba-adaptor_state_space_model_adaptor_for_visual_recognition.md)
 - [\[CVPR 2025\] EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality](efficientvim_efficient_vision_mamba_with_hidden_state_mixer_based_state_space_du.md)
-- [\[CVPR 2025\] Reversible Decoupling Network for Single Image Reflection Removal](reversible_decoupling_network_for_single_image_reflection_removal.md)
+- [\[CVPR 2025\] Parameter Efficient Mamba Tuning via Projector-targeted Diagonal-centric Linear Transformation](parameter_efficient_mamba_tuning_via_projector-targeted_diagonal-centric_linear_.md)
 
 <!-- RELATED:END -->

@@ -9,7 +9,7 @@ tags:
   - controllable merging
   - Pareto front
   - representation correction
-  - multi-objective optimization
+  - 推荐系统
 ---
 
 # From Parameter to Representation: A Closed-Form Approach for Controllable Model Merging
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.10943](https://arxiv.org/abs/2511.10943)  
 **代码**: 无  
-**领域**: 对齐RLHF / 模型压缩  
+**领域**: 推荐系统  
 **关键词**: model merging, controllable merging, Pareto front, representation correction, multi-objective optimization
 
 ## 一句话总结
@@ -128,6 +128,6 @@ ReACT 分为两个阶段：
 - [\[ICLR 2026\] Token-Efficient Item Representation via Images for LLM Recommender Systems](../../ICLR2026/recommender/token-efficient_item_representation_via_images_for_llm_recommender_systems.md)
 - [\[ACL 2025\] Laser: Bi-Tuning with Collaborative Information for Controllable LLM-Based Sequential Recommendation](../../ACL2025/recommender/bi-tuning_with_collaborative_information_for_controllable_llm-based_sequential_r.md)
 - [\[ICLR 2026\] GoalRank: Group-Relative Optimization for a Large Ranking Model](../../ICLR2026/recommender/goalrank_group-relative_optimization_for_a_large_ranking_model.md)
-- [\[NeurIPS 2025\] Measuring What Matters: Construct Validity in Large Language Model Benchmarks](../../NeurIPS2025/recommender/measuring_what_matters_construct_validity_in_large_language_model_benchmarks.md)
+- [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](../../ICML2025/recommender/parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
 
 <!-- RELATED:END -->

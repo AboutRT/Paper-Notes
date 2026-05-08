@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.18879](https://arxiv.org/abs/2506.18879)  
-**代码**: https://github.com/UMass-Embodied-AGI/CommVQ  
+**代码**: [https://github.com/UMass-Embodied-AGI/CommVQ](https://github.com/UMass-Embodied-AGI/CommVQ)  
 **领域**: 机器人/模型压缩  
 **关键词**: KV缓存压缩, 向量量化, RoPE交换性, 长上下文推理, 1-bit量化
 
@@ -121,9 +121,9 @@ LLaMA-3.1 8B 长上下文基准：
 ## 相关论文
 
 - [\[ICML 2025\] STAR: Learning Diverse Robot Skill Abstractions through Rotation-Augmented Vector Quantization](star_learning_diverse_robot_skill_abstractions_through_rotation-augmented_vector.md)
-- [\[NeurIPS 2025\] VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching](../../NeurIPS2025/robotics/vla-cache_efficient_vision-language-action_manipulation_via_adaptive_token_cachi.md)
-- [\[ICCV 2025\] VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers](../../ICCV2025/robotics/vq-vla_improving_vision-language-action_models_via_scaling_vector-quantized_acti.md)
+- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](../../CVPR2026/robotics/quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
 - [\[AAAI 2026\] Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning](../../AAAI2026/robotics/attention_as_binding_a_vector-symbolic_perspective_on_transformer_reasoning.md)
+- [\[ECCV 2024\] Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation](../../ECCV2024/robotics/decomposed_vector-quantized_variational_autoencoder_for_human_grasp_generation.md)
 - [\[ICLR 2026\] PERSONA: Dynamic and Compositional Inference-Time Personality Control via Activation Vector Algebra](../../ICLR2026/robotics/persona_dynamic_and_compositional_inference-time_personality_control_via_activat.md)
 
 <!-- RELATED:END -->

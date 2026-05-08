@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.26268](https://arxiv.org/abs/2510.26268)  
-**代码**: https://github.com/lxq-jnu/HCLFuse  
+**代码**: [https://github.com/lxq-jnu/HCLFuse](https://github.com/lxq-jnu/HCLFuse)  
 **领域**: 图像融合 / 生成模型  
 **关键词**: 红外-可见光融合, 变分信息瓶颈, 最优传输, 物理引导扩散, Wasserstein距离
 
@@ -121,10 +121,10 @@ HCLFuse 基于信息瓶颈原理和最优传输理论进行模态对齐，设计
 
 ## 相关论文
 
+- [\[AAAI 2026\] CtrlFuse: Mask-Prompt Guided Controllable Infrared and Visible Image Fusion](../../AAAI2026/segmentation/ctrlfuse_mask-prompt_guided_controllable_infrared_and_visible_image_fusion.md)
 - [\[CVPR 2025\] Task-driven Image Fusion with Learnable Fusion Loss](../../CVPR2025/segmentation/task-driven_image_fusion_with_learnable_fusion_loss.md)
-- [\[CVPR 2025\] Image Quality Assessment: From Human to Machine Preference](../../CVPR2025/segmentation/image_quality_assessment_from_human_to_machine_preference.md)
-- [\[NeurIPS 2025\] HumanCrafter: Synergizing Generalizable Human Reconstruction and Semantic 3D Segmentation](humancrafter_synergizing_generalizable_human_reconstruction_and_semantic_3d_segm.md)
 - [\[NeurIPS 2025\] HAODiff: Human-Aware One-Step Diffusion via Dual-Prompt Guidance](haodiff_human-aware_one-step_diffusion_via_dual-prompt_guidance.md)
+- [\[NeurIPS 2025\] HumanCrafter: Synergizing Generalizable Human Reconstruction and Semantic 3D Segmentation](humancrafter_synergizing_generalizable_human_reconstruction_and_semantic_3d_segm.md)
 - [\[NeurIPS 2025\] ARGenSeg: Image Segmentation with Autoregressive Image Generation Model](argenseg_image_segmentation_with_autoregressive_image_generation_model.md)
 
 <!-- RELATED:END -->

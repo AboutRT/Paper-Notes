@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.18537](https://arxiv.org/abs/2507.18537)  
 **代码**: [GitHub](https://github.com/ali-vilab/TTS-VAR)  
-**领域**: 图像生成 / 测试时扩展  
+**领域**: LLM推理  
 **关键词**: test-time scaling, visual auto-regressive, VAR, path searching, image generation
 
 ## 一句话总结

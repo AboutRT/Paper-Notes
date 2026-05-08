@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.18883](https://arxiv.org/abs/2412.18883)  
 **代码**: [https://github.com/vita-epfl/MotionMap](https://github.com/vita-epfl/MotionMap)  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: human pose forecasting, multimodality, heatmap, codebook, t-SNE, uncertainty estimation, mode coverage
 
 ## 一句话总结
@@ -150,9 +150,9 @@ MotionMap在多模态度量MMADE/MMFDE上全面最优。
 ## 相关论文
 
 - [\[CVPR 2025\] HiPART: Hierarchical Pose AutoRegressive Transformer for Occluded 3D Human Pose Estimation](hipart_hierarchical_pose_autoregressive_transformer_for_occluded_3d_human_pose_e.md)
-- [\[NeurIPS 2025\] BubbleFormer: Forecasting Boiling with Transformers](../../NeurIPS2025/human_understanding/bubbleformer_forecasting_boiling_with_transformers.md)
-- [\[CVPR 2025\] UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing](unipose_a_unified_multimodal_framework_for_human_pose_comprehension_generation_a.md)
-- [\[CVPR 2025\] PoseBH: Prototypical Multi-Dataset Training Beyond Human Pose Estimation](posebh_prototypical_multi-dataset_training_beyond_human_pose_estimation.md)
 - [\[ECCV 2024\] Human Motion Forecasting in Dynamic Domain Shifts: A Homeostatic Continual Test-Time Adaptation Framework](../../ECCV2024/human_understanding/human_motion_forecasting_in_dynamic_domain_shifts_a_homeostatic_continual_test-t.md)
+- [\[CVPR 2025\] PoseBH: Prototypical Multi-Dataset Training Beyond Human Pose Estimation](posebh_prototypical_multi-dataset_training_beyond_human_pose_estimation.md)
+- [\[CVPR 2025\] UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing](unipose_a_unified_multimodal_framework_for_human_pose_comprehension_generation_a.md)
+- [\[CVPR 2025\] GCE-Pose: Global Context Enhancement for Category-Level Object Pose Estimation](gce-pose_global_context_enhancement_for_category-level_object_pose_estimation.md)
 
 <!-- RELATED:END -->

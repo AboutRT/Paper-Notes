@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.12696](https://arxiv.org/abs/2603.12696)  
 **代码**: 无  
-**领域**: 视觉语言导航 / 具身智能  
+**领域**: 图像生成  
 **关键词**: VLN, 拓扑先验, osmAG, 反应式中断, 层级化导航
 
 ## 一句话总结
@@ -50,15 +50,15 @@ tags:
 1. **osmAG 拓扑先验与全局规划**
 
    osmAG 用层级化 XML/JSON 文本节点表示环境：area（闭合多边形）为节点，passage（两区域共享的通道线）为边。构建 passage-level 图，用 A* 在渲染的 2D 占用栅格子图上计算通道间代价。特点：
-   - **纯文本格式**，天然与 LLM 的语言模态对齐
-   - **轻量级**：仅包含房间和门的信息，无需密集视觉重建
-   - 可从平面图或 CAD 文件生成
+    - **纯文本格式**，天然与 LLM 的语言模态对齐
+    - **轻量级**：仅包含房间和门的信息，无需密集视觉重建
+    - 可从平面图或 CAD 文件生成
 
 2. **Graph-Grounded Task Dispatcher (GGTD)**
 
    LLM 直接读取 osmAG 的文本结构化 prompt $\mathcal{P}(\mathcal{G}_t)$ 做路径规划：
 
-   $$m_i = \text{GGTD}(\mathcal{P}(\mathcal{G}_t), I_{\text{target}}, \mathcal{H}_{i-1})$$
+    $m_i = \text{GGTD}(\mathcal{P}(\mathcal{G}_t), I_{\text{target}}, \mathcal{H}_{i-1})$
 
    将全局路由分解为门到门（door-to-door）的局部执行片段，为 VLN 执行器提供先验锚定的、目标驱动的子指令。
 
@@ -66,20 +66,20 @@ tags:
 
    终止函数 $\beta(o_t, m_i)$ 融合两种信号：
 
-   $$\beta(o_t, m_i) = \left[\underbrace{\sum_{j=0}^{k-1} c_{t-j}}_{\text{碰撞累积}} \geq \tau_c \;\vee\; \underbrace{s_{\text{MLLM}}(o_t, m_i)}_{\text{通行性判断}}\right]$$
+    $\beta(o_t, m_i) = \left[\underbrace{\sum_{j=0}^{k-1} c_{t-j}}_{\text{碰撞累积}} \geq \tau_c \;\vee\; \underbrace{s_{\text{MLLM}}(o_t, m_i)}_{\text{通行性判断}}\right]$
 
-   - **Bottom-up 启发式中断**：滑动窗口内碰撞次数超过阈值 $\tau_c$（物理安全网）
-   - **Top-down 反思式中断**：MLLM（Qwen-2.5-VL-7B）评估当前视觉观测的通行性（识别未映射的拥挤走廊、关闭的门等）
+    - **Bottom-up 启发式中断**：滑动窗口内碰撞次数超过阈值 $\tau_c$（物理安全网）
+    - **Top-down 反思式中断**：MLLM（Qwen-2.5-VL-7B）评估当前视觉观测的通行性（识别未映射的拥挤走廊、关闭的门等）
 
    当中断触发时，**直接修改 osmAG 拓扑**（将被阻通道的代价设为 $\infty$），而非用文本描述障碍（会导致上下文溢出和空间幻觉）：
 
-   $$C_{t+1}(p_i, p_j) = \begin{cases} \infty, & \text{检测到视觉异常} \\ C_t(p_i, p_j), & \text{否则} \end{cases}$$
+    $C_{t+1}(p_i, p_j) = \begin{cases} \infty, & \text{检测到视觉异常} \\ C_t(p_i, p_j), & \text{否则} \end{cases}$
 
 4. **Failure-Injection 数据合成管线**
 
    为训练 RVH 的障碍检测能力，双引擎合成：
-   - **物理引擎**：Habitat 模拟器中提取专家轨迹，在拓扑瓶颈处随机放置 3D 障碍
-   - **生成扰动引擎**：用预训练扩散模型对真实导航图像做定向 inpainting，合成高保真反事实异常（如未映射的物理路障、行人拥堵）
+    - **物理引擎**：Habitat 模拟器中提取专家轨迹，在拓扑瓶颈处随机放置 3D 障碍
+    - **生成扰动引擎**：用预训练扩散模型对真实导航图像做定向 inpainting，合成高保真反事实异常（如未映射的物理路障、行人拥堵）
 
    构建 SFT 数据集 $\mathcal{D} = \{(X_p, Y_{\text{no-halt}}), (X_a, Y_{\text{halt}})\}$，用 LoRA 微调 MLLM。
 
@@ -170,6 +170,6 @@ tags:
 - [\[CVPR 2026\] Language-Free Generative Editing from One Visual Example](language-free_generative_editing_from_one_visual_example.md)
 - [\[CVPR 2026\] VOSR: A Vision-Only Generative Model for Image Super-Resolution](vosr_a_vision_only_generative_model_for_image_super_resolution.md)
 - [\[CVPR 2026\] Organizing Unstructured Image Collections using Natural Language](organizing_unstructured_image_collections_using_natural_language.md)
-- [\[CVPR 2026\] SPDMark: Selective Parameter Displacement for Robust Video Watermarking](spdmark_selective_parameter_displacement_for_robust_video_watermarking.md)
+- [\[CVPR 2026\] Towards Robust Content Watermarking Against Removal and Forgery Attacks](towards_robust_content_watermarking_against_removal_and_forgery_attacks.md)
 
 <!-- RELATED:END -->

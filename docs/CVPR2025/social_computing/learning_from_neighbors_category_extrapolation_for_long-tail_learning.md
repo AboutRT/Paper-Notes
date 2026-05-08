@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 长尾学习
   - 类别外推
-  - LLM数据增强
+  - 社会计算
   - 邻近类发现
   - 分类器掩蔽
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2410.15980](https://arxiv.org/abs/2410.15980)  
 **代码**: 待公开  
-**领域**: 自监督学习  
+**领域**: 社会计算  
 **关键词**: 长尾学习、类别外推、LLM数据增强、邻近类发现、分类器掩蔽
 
 ## 一句话总结
@@ -125,8 +125,8 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] Gradient Extrapolation for Debiased Representation Learning](../../ICCV2025/social_computing/gradient_extrapolation_for_debiased_representation_learning.md)
+- [\[ICCV 2025\] Learning Visual Proxy for Compositional Zero-Shot Learning](../../ICCV2025/social_computing/learning_visual_proxy_for_compositional_zero-shot_learning.md)
 - [\[ECCV 2024\] Distribution-Aware Robust Learning from Long-Tailed Data with Noisy Labels](../../ECCV2024/social_computing/distribution-aware_robust_learning_from_long-tailed_data_with_noisy_labels.md)
-- [\[ICML 2025\] Learning Survival Distributions with the Asymmetric Laplace Distribution](../../ICML2025/social_computing/learning_survival_distributions_with_the_asymmetric_laplace_distribution.md)
 - [\[NeurIPS 2025\] GraphKeeper: Graph Domain-Incremental Learning via Knowledge Disentanglement and Preservation](../../NeurIPS2025/social_computing/graphkeeper_graph_domain-incremental_learning_via_knowledge_disentanglement_and_.md)
 - [\[NeurIPS 2025\] Precise Information Control in Long-Form Text Generation](../../NeurIPS2025/social_computing/precise_information_control_in_long-form_text_generation.md)
 

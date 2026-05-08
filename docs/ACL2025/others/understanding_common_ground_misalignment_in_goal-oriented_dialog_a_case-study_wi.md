@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - Common Ground
-  - 对话摩擦
+  - 其他
   - 目标导向对话
   - Ubuntu IRC
   - LLM对话理解
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.12370](https://arxiv.org/abs/2503.12370)  
-**代码**: 有 (https://github.com/styx97/cg-misalignment)  
-**领域**: NLP / 对话系统 / 语用学  
+**代码**: 有 ([https://github.com/styx97/cg-misalignment](https://github.com/styx97/cg-misalignment))  
+**领域**: 其他  
 **关键词**: Common Ground, 对话摩擦, 目标导向对话, Ubuntu IRC, LLM对话理解
 
 ## 一句话总结
@@ -158,8 +158,8 @@ tags:
 
 - [\[ACL 2025\] AceCoder: Acing Coder RL via Automated Test-Case Synthesis](acecoder_acing_coder_rl_via_automated.md)
 - [\[ACL 2025\] Anything Goes? A Crosslinguistic Study of (Im)possible Language Learning in LMs](anything_goes_a_crosslinguistic_study_of_impossible_language_learning_in_lms.md)
-- [\[ACL 2025\] Making FETCH! Happen: Finding Emergent Dog Whistles Through Common Habitats](making_fetch_happen_finding_emergent_dog_whistles_through_common_habitats.md)
-- [\[ACL 2025\] ProxAnn: Use-Oriented Evaluations of Topic Models and Document Clustering](proxann_topic_model_eval.md)
+- [\[ACL 2025\] Rank, Chunk, and Expand: Lineage-Oriented Reasoning for Taxonomy Expansion](rank_chunk_and_expand_lineage-oriented_reasoning_for_taxonomy_expansion.md)
 - [\[ACL 2025\] SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning](sorft_issue_resolving_with_subtask-oriented_reinforced_fine-tuning.md)
+- [\[ACL 2025\] ProxAnn: Use-Oriented Evaluations of Topic Models and Document Clustering](proxann_topic_model_eval.md)
 
 <!-- RELATED:END -->

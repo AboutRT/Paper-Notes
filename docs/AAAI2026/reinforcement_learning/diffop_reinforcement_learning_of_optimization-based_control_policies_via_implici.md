@@ -5,7 +5,7 @@ description: >-
   [AAAI2026][optimization-based control] 提出 DiffOP 框架，将优化型控制策略（如 MPC）视为可微分模块，通过隐式微分推导解析策略梯度，实现端到端强化学习训练，并给出首个非渐近收敛保证。
 tags:
   - AAAI2026
-  - optimization-based control
+  - 强化学习
   - implicit differentiation
   - policy gradient
   - model predictive control
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2411.07484](https://arxiv.org/abs/2411.07484)  
 **代码**: [alwaysbyx/DiffOP](https://github.com/alwaysbyx/DiffOP)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: optimization-based control, implicit differentiation, policy gradient, model predictive control, bilevel optimization
 
 ## 一句话总结
@@ -169,10 +169,10 @@ DiffOP 在瞬态代价上取得所有方法中最优，稳态代价与 TASRL 持
 
 ## 相关论文
 
-- [\[AAAI 2026\] Behaviour Policy Optimization: Provably Lower Variance Return Estimates for Off-Policy Reinforcement Learning](behaviour_policy_optimization_provably_lower_variance_return_estimates_for_off-p.md)
 - [\[AAAI 2026\] HCPO: Hierarchical Conductor-Based Policy Optimization in Multi-Agent Reinforcement Learning](hcpo_hierarchical_conductor-based_policy_optimization_in_multi-agent_reinforceme.md)
-- [\[AAAI 2026\] Test-driven Reinforcement Learning in Continuous Control](test-driven_reinforcement_learning_in_continuous_control.md)
+- [\[AAAI 2026\] Behaviour Policy Optimization: Provably Lower Variance Return Estimates for Off-Policy Reinforcement Learning](behaviour_policy_optimization_provably_lower_variance_return_estimates_for_off-p.md)
 - [\[AAAI 2026\] Explaining Decentralized Multi-Agent Reinforcement Learning Policies](explaining_decentralized_multi-agent_reinforcement_learning_policies.md)
+- [\[AAAI 2026\] Test-driven Reinforcement Learning in Continuous Control](test-driven_reinforcement_learning_in_continuous_control.md)
 - [\[ICLR 2026\] PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning](../../ICLR2026/reinforcement_learning/policyflow_policy_optimization_with_continuous_normalizing_flow_in_reinforcement.md)
 
 <!-- RELATED:END -->

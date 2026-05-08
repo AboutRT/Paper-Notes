@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Measuring What Matters: Construct Validity in Large Language Model Benchmarks
 description: >-
-  [NeurIPS 2025][LLM评测] 本文由29位专家对445篇LLM benchmark论文进行系统性综述，从构念效度 (construct validity) 角度审视现有LLM评测基准在现象定义、任务设计、评分指标和结论声明方面的不足，并提出8条改进建议。
+  [NeurIPS 2025][推荐系统] 本文由29位专家对445篇LLM benchmark论文进行系统性综述，从构念效度 (construct validity) 角度审视现有LLM评测基准在现象定义、任务设计、评分指标和结论声明方面的不足，并提出8条改进建议。
 tags:
   - NeurIPS 2025
-  - LLM评测
+  - 推荐系统
   - benchmark
   - 构念效度
   - 系统综述
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.04703](https://arxiv.org/abs/2511.04703)  
 **代码**: 无  
-**领域**: ai_safety  
+**领域**: 推荐系统  
 **关键词**: LLM评测, benchmark, 构念效度, 系统综述, 评测方法论
 
 ## 一句话总结
@@ -132,8 +132,8 @@ tags:
 
 - [\[NeurIPS 2025\] Inference-Time Reward Hacking in Large Language Models](inference-time_reward_hacking_in_large_language_models.md)
 - [\[ICLR 2026\] From Evaluation to Defense: Advancing Safety in Video Large Language Models](../../ICLR2026/recommender/from_evaluation_to_defense_advancing_safety_in_video_large_language_models.md)
-- [\[ICML 2025\] Deprecating Benchmarks: Criteria and Framework](../../ICML2025/recommender/deprecating_benchmarks_criteria_and_framework.md)
 - [\[NeurIPS 2025\] Who You Are Matters: Bridging Topics and Social Roles via LLM-Enhanced Logical Recommendation](who_you_are_matters_bridging_topics_and_social_roles_via_llm-enhanced_logical_re.md)
+- [\[ICML 2025\] Deprecating Benchmarks: Criteria and Framework](../../ICML2025/recommender/deprecating_benchmarks_criteria_and_framework.md)
 - [\[ACL 2025\] KERL: Knowledge-Enhanced Personalized Recipe Recommendation using Large Language Models](../../ACL2025/recommender/kerl_knowledge-enhanced_personalized_recipe_recommendation_using_large_language_.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation
 description: >-
-  [ACL 2025][代码补全] 提出覆盖18种编程语言的大规模多语言仓库级代码补全基准 M2rc-Eval，配合基于 AST 的桶级和语义级细粒度标注，并构建 M2rc-Instruct 指令语料以提升模型性能。
+  [ACL 2025][多语言翻译] 提出覆盖18种编程语言的大规模多语言仓库级代码补全基准 M2rc-Eval，配合基于 AST 的桶级和语义级细粒度标注，并构建 M2rc-Instruct 指令语料以提升模型性能。
 tags:
   - ACL 2025
-  - 代码补全
+  - 多语言翻译
   - 仓库级代码
   - 多语言评估
   - 抽象语法树
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.21157](https://arxiv.org/abs/2410.21157)  
 **代码**: [github.com/M2RC-Eval-Team/M2RC-Eval](https://github.com/M2RC-Eval-Team/M2RC-Eval)  
-**领域**: 其他（代码生成/代码补全）  
+**领域**: 多语言翻译  
 **关键词**: 代码补全, 仓库级代码, 多语言评估, 抽象语法树, 细粒度标注
 
 ## 一句话总结
@@ -166,7 +166,7 @@ M2rc-Instruct 的微调采用标准的代码补全目标——给定文件内上
 - [\[ACL 2025\] Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding](code-switching_red-teaming_llm_evaluation_for_safety_and_multilingual_understand.md)
 - [\[ACL 2025\] KnowCoder-X: Boosting Multilingual Information Extraction via Code](knowcoder-x_boosting_multilingual_information_extraction_via_code.md)
 - [\[ACL 2025\] mOSCAR: A Large-scale Multilingual and Multimodal Document-level Corpus](moscar_a_large-scale_multilingual_and_multimodal_document-level_corpus.md)
-- [\[ACL 2025\] MiLiC-Eval: Benchmarking Multilingual LLMs for China's Minority Languages](milic-eval_benchmarking_multilingual_llms_for_chinas_minority_languages.md)
 - [\[ACL 2025\] CruxEval-X: A Benchmark for Multilingual Code Reasoning, Understanding and Execution](cruxeval-x_a_benchmark_for_multilingual_code_reasoning_understanding_and_executi.md)
+- [\[ACL 2025\] MaXIFE: Multilingual and Cross-lingual Instruction Following Evaluation](maxife_multilingual_and_cross-lingual_instruction_following_evaluation.md)
 
 <!-- RELATED:END -->

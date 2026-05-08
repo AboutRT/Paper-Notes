@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2603.17529](https://arxiv.org/abs/2603.17529)  
 **代码**: [github.com/w2obin/airdde-aaai](https://github.com/w2obin/airdde-aaai)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: air quality forecasting, neural delay differential equations, physics-guided, spatiotemporal graph  
 
 ## 一句话总结

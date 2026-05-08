@@ -61,7 +61,7 @@ $$\mathbf{z}_v = \mathcal{F}_{\text{proj}}(\mathcal{E}(v_1, \ldots, v_{N_v})) \i
 
    实现方式：将输入序列均匀分为 $k$ 段每段 $n$ 个 token，轻量级 token selector（浅层 Transformer 编码器加线性层）为每段选择 1 个 token，训练时使用 Gumbel-Softmax 保持可微：
 
-   $$\mathbf{g}^{(i)} = \text{TokenSelector}(z_1^{(i)}, \ldots, z_n^{(i)}) \in \mathbb{R}^n$$
+    $\mathbf{g}^{(i)} = \text{TokenSelector}(z_1^{(i)}, \ldots, z_n^{(i)}) \in \mathbb{R}^n$
 
    从 $k$ 段中选出 $k$ 个 token 作为浓缩表征（如 $k=40$ 仅保留约 6% 原始 token）。TBM 实现三重价值：可解释性（直接查看被选中 token 作为决策证据）、可干预性（支持测试时人工修正）、高效性（仅新增 0.7M 参数，推理加速 5 倍）。
 

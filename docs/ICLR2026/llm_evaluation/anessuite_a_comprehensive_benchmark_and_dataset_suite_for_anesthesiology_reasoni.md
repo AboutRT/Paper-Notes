@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning
 description: >-
-  [ICLR 2026][麻醉学推理] 构建首个面向麻醉学推理的综合数据集套件AnesSuite，包含评测基准AnesBench（7972道三级认知难度双语选择题）和三组训练数据集（AnesCorpus/AnesQA/AnesR1），基于此训练的Morpheus模型通过SFT+GRPO让7B模型追平14B基线，同时揭示了当前最强LLM在复杂临床推理（System 2）上的显著瓶颈。
+  [ICLR 2026][LLM评测] 构建首个面向麻醉学推理的综合数据集套件AnesSuite，包含评测基准AnesBench（7972道三级认知难度双语选择题）和三组训练数据集（AnesCorpus/AnesQA/AnesR1），基于此训练的Morpheus模型通过SFT+GRPO让7B模型追平14B基线，同时揭示了当前最强LLM在复杂临床推理（System 2）上的显著瓶颈。
 tags:
   - ICLR 2026
-  - 麻醉学推理
+  - LLM评测
   - 医疗基准
   - 双语评测
   - 认知需求分级
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2504.02404](https://arxiv.org/abs/2504.02404)  
 **代码**: [MiliLab/AnesSuite](https://github.com/MiliLab/AnesSuite)  
-**领域**: 医疗AI / 大语言模型评测  
+**领域**: LLM评测  
 **关键词**: 麻醉学推理, 医疗基准, 双语评测, 认知需求分级, GRPO强化学习
 
 ## 一句话总结
@@ -168,7 +168,7 @@ SFT阶段使用标准的next-token prediction损失。GRPO阶段采用group rela
 - [\[ACL 2025\] PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning](../../ACL2025/llm_evaluation/physreason_a_comprehensive_benchmark_towards_physics-based_reasoning.md)
 - [\[ICCV 2025\] 3DSRBench: A Comprehensive 3D Spatial Reasoning Benchmark](../../ICCV2025/llm_evaluation/3dsrbench_a_comprehensive_3d_spatial_reasoning_benchmark.md)
 - [\[ICLR 2026\] PlanetAlign: A Comprehensive Python Library for Benchmarking Network Alignment](planetalign_a_comprehensive_python_library_for_benchmarking_network_alignment.md)
-- [\[CVPR 2026\] R2G: A Multi-View Circuit Graph Benchmark Suite from RTL to GDSII](../../CVPR2026/llm_evaluation/r2g_multi_view_circuit_graph_benchmark_suite_from_rtl_to_gdsii.md)
 - [\[ICLR 2026\] AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite](astabench_benchmarking_ai_agents.md)
+- [\[CVPR 2026\] R2G: A Multi-View Circuit Graph Benchmark Suite from RTL to GDSII](../../CVPR2026/llm_evaluation/r2g_multi_view_circuit_graph_benchmark_suite_from_rtl_to_gdsii.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 自监督学习
   - 分子属性预测
-  - 三模态对齐
+  - 自监督
   - 层次分类标注
   - 体积对比损失
   - 局部对齐
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.21028](https://arxiv.org/abs/2506.21028)  
 **代码**: [GitHub](https://github.com/uta-smile/TRIDENT)  
-**领域**: 多模态VLM / 分子表示学习  
+**领域**: 自监督  
 **关键词**: 分子属性预测, 三模态对齐, 层次分类标注, 体积对比损失, 局部对齐
 
 ## 一句话总结
@@ -137,10 +137,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] SCPNet: Unsupervised Cross-modal Homography Estimation via Intra-modal Self-supervised Learning](../../ECCV2024/self_supervised/scpnet_unsupervised_cross-modal_homography_estimation_via_intra-modal_self-super.md)
-- [\[NeurIPS 2025\] Soft Task-Aware Routing of Experts for Equivariant Representation Learning](soft_task-aware_routing_of_experts_for_equivariant_representation_learning.md)
 - [\[ICLR 2026\] Enhancing Molecular Property Predictions by Learning from Bond Modelling and Interactions](../../ICLR2026/self_supervised/enhancing_molecular_property_predictions_by_learning_from_bond_modelling_and_int.md)
 - [\[NeurIPS 2025\] Adv-SSL: Adversarial Self-Supervised Representation Learning with Theoretical Guarantees](adv-ssl_adversarial_self-supervised_representation_learning_with_theoretical_gua.md)
+- [\[NeurIPS 2025\] Soft Task-Aware Routing of Experts for Equivariant Representation Learning](soft_task-aware_routing_of_experts_for_equivariant_representation_learning.md)
 - [\[NeurIPS 2025\] Connecting Jensen-Shannon and Kullback-Leibler Divergences: A New Bound for Representation Learning](connecting_jensenshannon_and_kullbackleibler_divergences_a_n.md)
+- [\[ICCV 2025\] Scaling Language-Free Visual Representation Learning](../../ICCV2025/self_supervised/scaling_languagefree_visual_representation_learning.md)
 
 <!-- RELATED:END -->

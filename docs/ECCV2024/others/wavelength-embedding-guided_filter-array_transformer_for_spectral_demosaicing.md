@@ -122,9 +122,9 @@ WeFAT（Wavelength Embedding guided Filter Array Attention Transformer）接受 
 ## 相关论文
 
 - [\[ECCV 2024\] Online Temporal Action Localization with Memory-Augmented Transformer](online_temporal_action_localization_with_memory-augmented_transformer.md)
-- [\[ECCV 2024\] Adaptive High-Frequency Transformer for Diverse Wildlife Re-Identification](adaptive_highfrequency_transformer_for_diverse_wildlife_reid.md)
-- [\[CVPR 2026\] SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules](../../CVPR2026/others/shrec_a_spectral_embeddingbased_approach_for_abini.md)
+- [\[CVPR 2026\] SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules](../../CVPR2026/others/shrec_a_spectral_embedding-based_approach_for_ab-initio_reconstruction_of_helica.md)
 - [\[ECCV 2024\] Exploring Guided Sampling of Conditional GANs](exploring_guided_sampling_of_conditional_gans.md)
 - [\[ECCV 2024\] Rethinking Data Bias: Dataset Copyright Protection via Embedding Class-Wise Hidden Bias](rethinking_data_bias_dataset_copyright_protection_via_embedding_class-wise_hidde.md)
+- [\[AAAI 2026\] Guided Perturbation Sensitivity (GPS): Detecting Adversarial Text via Embedding Stability and Word Importance](../../AAAI2026/others/guided_perturbation_sensitivity_gps_detecting_adversarial_text_via_embedding_sta.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR2026
   - activation sparsity
-  - LLM acceleration
+  - 可解释性
   - GLU architecture
   - critical sparsity
   - top-p sparsification
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2509.00454](https://arxiv.org/abs/2509.00454)  
 **代码**: [GitHub](https://github.com/fszatkowski/activation-sparsity-benchmarking)  
-**领域**: llm_nlp  
+**领域**: 可解释性  
 **关键词**: activation sparsity, LLM acceleration, GLU architecture, critical sparsity, top-p sparsification, diffusion LLM
 
 ## 一句话总结
@@ -157,10 +157,10 @@ LLaDA-8B 的临界稀疏度显著高于同规模自回归 LLaMA3.1-8B——扩�
 
 ## 相关论文
 
-- [\[ACL 2026\] Tracing Relational Knowledge Recall in Large Language Models](../../ACL2026/interpretability/tracing_relational_knowledge_recall_in_large_language_models.md)
 - [\[NeurIPS 2025\] The Trilemma of Truth in Large Language Models](../../NeurIPS2025/interpretability/the_trilemma_of_truth_in_large_language_models.md)
-- [\[ICLR 2026\] ZeroTuning: Unlocking the Initial Token's Power to Enhance Large Language Models Without Training](zerotuning_unlocking_the_initial_tokens_power_to_enhance_large_language_models_w.md)
+- [\[NeurIPS 2025\] Table as a Modality for Large Language Models](../../NeurIPS2025/interpretability/table_as_a_modality_for_large_language_models.md)
 - [\[ACL 2026\] Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models](../../ACL2026/interpretability/experiments_or_outcomes_probing_scientific_feasibility_in_large_language_models.md)
 - [\[ACL 2026\] Towards Intrinsic Interpretability of Large Language Models: A Survey of Design Principles and Architectures](../../ACL2026/interpretability/towards_intrinsic_interpretability_of_large_language_modelsa_survey_of_design_pr.md)
+- [\[ACL 2026\] Tracing Relational Knowledge Recall in Large Language Models](../../ACL2026/interpretability/tracing_relational_knowledge_recall_in_large_language_models.md)
 
 <!-- RELATED:END -->

@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2506.24119](https://arxiv.org/abs/2506.24119)
 - **代码**: [https://github.com/spiral-rl/spiral](https://github.com/spiral-rl/spiral)
-- **领域**: reinforcement_learning
+- **领域**: 强化学习
 - **关键词**: self-play, zero-sum games, multi-agent RL, reasoning, LLM, transfer learning
 
 ## 一句话总结

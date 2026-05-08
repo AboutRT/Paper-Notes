@@ -10,14 +10,14 @@ tags:
   - 图注意力网络
   - 能量模型
   - 细粒度关系学习
-  - 跨模态对齐
+  - 多模态VLM
 ---
 
 # EagleNet: Energy-Aware Fine-Grained Relationship Learning Network for Text-Video Retrieval
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25267](https://arxiv.org/abs/2603.25267)  
-**代码**: https://github.com/draym28/EagleNet  
+**代码**: [https://github.com/draym28/EagleNet](https://github.com/draym28/EagleNet)  
 **领域**: 多模态VLM / 视频理解  
 **关键词**: 文本视频检索, 图注意力网络, 能量模型, 细粒度关系学习, 跨模态对齐
 
@@ -135,8 +135,8 @@ EagleNet 以 CLIP 为骨干网络，包含两个核心模块：(1) **Fine-Graine
 
 - [\[CVPR 2026\] CoVR-R: Reason-Aware Composed Video Retrieval](covr-rreason-aware_composed_video_retrieval.md)
 - [\[CVPR 2026\] CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception](cropvlm_learning_to_zoom_for_fine_grained_vision_language_perception.md)
-- [\[AAAI 2026\] Heterogeneous Uncertainty-Guided Composed Image Retrieval with Fine-Grained Probabilistic Learning](../../AAAI2026/multimodal_vlm/heterogeneous_uncertainty-guided_composed_image_retrieval_with_fine-grained_prob.md)
-- [\[CVPR 2026\] VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion](videofusion_a_spatiotemporal_collaborative_network.md)
 - [\[CVPR 2026\] Fine-Grained Post-Training Quantization for Large Vision Language Models with Quantization-Aware Integrated Gradients](fine-grained_post-training_quantization_for_large_vision_language_models_with_qu.md)
+- [\[CVPR 2026\] MA-Bench: Towards Fine-grained Micro-Action Understanding](ma-bench_towards_fine-grained_micro-action_understanding.md)
+- [\[CVPR 2026\] ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps](reasonmap_towards_finegrained_visual_reasoning_fro.md)
 
 <!-- RELATED:END -->

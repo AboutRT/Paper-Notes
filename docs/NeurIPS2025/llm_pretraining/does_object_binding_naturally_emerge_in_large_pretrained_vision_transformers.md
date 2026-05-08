@@ -8,7 +8,7 @@ tags:
   - 目标绑定
   - Transformer
   - IsSameObject
-  - 自监督学习
+  - LLM预训练
   - 探针分析
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.24709](https://arxiv.org/abs/2510.24709)  
 **代码**: [GitHub](https://github.com/liyihao0302/vit-object-binding)  
-**领域**: llm_nlp  
+**领域**: LLM预训练  
 **关键词**: 目标绑定, Vision Transformer, IsSameObject, 自监督学习, 探针分析
 
 ## 一句话总结
@@ -155,10 +155,10 @@ $$h^{(\ell)}(x_t) = f^{(\ell)}(x_t, c) + b^{(\ell)}(x_t)$$
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] One Prompt Fits All: Universal Graph Adaptation for Pretrained Models](one_prompt_fits_all_universal_graph_adaptation_for_pretrained_models.md)
 - [\[NeurIPS 2025\] How Does Sequence Modeling Architecture Influence Base Capabilities of Pre-trained Language Models?](how_does_sequence_modeling_architecture_influence_base_capabilities_of_pre-train.md)
-- [\[NeurIPS 2025\] The Curse of Depth in Large Language Models](the_curse_of_depth_in_large_language_models.md)
 - [\[CVPR 2025\] Bridging the Vision-Brain Gap with an Uncertainty-Aware Blur Prior](../../CVPR2025/llm_pretraining/bridging_the_vision-brain_gap_with_an_uncertainty-aware_blur_prior.md)
-- [\[ICML 2025\] Does Data Scaling Lead to Visual Compositional Generalization?](../../ICML2025/llm_pretraining/does_data_scaling_lead_to_visual_compositional_generalization.md)
-- [\[ICML 2025\] The Sharpness Disparity Principle in Transformers for Accelerating Language Model Pre-Training](../../ICML2025/llm_pretraining/the_sharpness_disparity_principle_in_transformers_for_accelerating_language_mode.md)
+- [\[NeurIPS 2025\] The Curse of Depth in Large Language Models](the_curse_of_depth_in_large_language_models.md)
+- [\[NeurIPS 2025\] Scalable Fingerprinting of Large Language Models](scalable_fingerprinting_of_large_language_models.md)
 
 <!-- RELATED:END -->

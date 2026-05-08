@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.19584](https://arxiv.org/abs/2504.19584)  
-**代码**: https://nstar1125.github.io/showmak3r/ (项目页)  
+**代码**: [https://nstar1125.github.io/showmak3r/](https://nstar1125.github.io/showmak3r/) (项目页)  
 **领域**: 人体理解  
 **关键词**: 动态辐射场, 3D高斯, 电视节目重建, 人体定位, 人脸拟合
 
@@ -120,8 +120,8 @@ tags:
 
 - [\[CVPR 2025\] 3D Face Reconstruction From Radar Images](3d_face_reconstruction_from_radar_images.md)
 - [\[CVPR 2025\] FRESA: Feedforward Reconstruction of Personalized Skinned Avatars from Few Images](fresa_feedforward_reconstruction_of_personalized_skinned_avatars_from_few_images.md)
-- [\[NeurIPS 2025\] In-Context Compositional Learning via Sparse Coding Transformer](../../NeurIPS2025/human_understanding/in-context_compositional_learning_via_sparse_coding_transformer.md)
-- [\[CVPR 2025\] MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning](mm-condchain_a_programmatically_verified_benchmark_for_visually_grounded_deep_co.md)
-- [\[ICCV 2025\] Learning Visual Proxy for Compositional Zero-Shot Learning](../../ICCV2025/human_understanding/learning_visual_proxy_for_compositional_zero-shot_learning.md)
+- [\[CVPR 2025\] Efficient Video Face Enhancement with Enhanced Spatial-Temporal Consistency](efficient_video_face_enhancement_with_enhanced_spatial-temporal_consistency.md)
+- [\[CVPR 2025\] D3-Human: Dynamic Disentangled Digital Human from Monocular Video](d3-human_dynamic_disentangled_digital_human_from_monocular_video.md)
+- [\[CVPR 2025\] FATE: Full-head Gaussian Avatar with Textural Editing from Monocular Video](fate_full-head_gaussian_avatar_with_textural_editing_from_monocular_video.md)
 
 <!-- RELATED:END -->

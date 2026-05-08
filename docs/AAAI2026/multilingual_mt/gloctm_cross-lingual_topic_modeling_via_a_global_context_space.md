@@ -9,15 +9,15 @@ tags:
   - 主题模型
   - VAE
   - 多语言嵌入
-  - CKA对齐
+  - 多语言翻译
 ---
 
 # GloCTM: Cross-Lingual Topic Modeling via a Global Context Space
 
 **会议**: AAAI 2026  
 **arXiv**: [2601.11872](https://arxiv.org/abs/2601.11872)  
-**代码**: https://github.com/tienphat140205/GloCTM  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/tienphat140205/GloCTM](https://github.com/tienphat140205/GloCTM)  
+**领域**: 多语言翻译  
 **关键词**: 跨语言, 主题模型, VAE, 多语言嵌入, CKA对齐
 
 ## 一句话总结

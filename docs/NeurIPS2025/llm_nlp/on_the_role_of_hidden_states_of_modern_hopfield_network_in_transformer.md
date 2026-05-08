@@ -20,7 +20,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.20698](https://arxiv.org/abs/2511.20698)  
 **代码**: 待确认  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: Modern Hopfield Network, self-attention, rank collapse, token uniformity, hidden state, Vision Transformer, GPT-2
 
 ## 一句话总结

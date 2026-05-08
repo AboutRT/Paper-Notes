@@ -59,9 +59,9 @@ COD-VAE采用两阶段自编码器方案：
    
    每个编码器block执行渐进转换：
    
-   $$\mathcal{H}^{(l)} = \text{SelfAttn}^3(\text{CrossAttn}(\mathcal{H}^{(l-1)}, \mathcal{G}^{(l-1)}))$$
-   $$\mathcal{F}^{(l)} = \text{SelfAttn}(\text{CrossAttn}(\mathcal{F}^{(l-1)}, \mathcal{H}^{(l)}))$$
-   $$\mathcal{G}^{(l)} = \text{CrossAttn}(\mathcal{G}^{(l-1)}, \mathcal{F}^{(l)})$$
+    $\mathcal{H}^{(l)} = \text{SelfAttn}^3(\text{CrossAttn}(\mathcal{H}^{(l-1)}, \mathcal{G}^{(l-1)}))$
+    $\mathcal{F}^{(l)} = \text{SelfAttn}(\text{CrossAttn}(\mathcal{F}^{(l-1)}, \mathcal{H}^{(l)}))$
+    $\mathcal{G}^{(l)} = \text{CrossAttn}(\mathcal{G}^{(l-1)}, \mathcal{F}^{(l)})$
    
    核心思想：高分辨率 → 中等分辨率 → 紧凑向量的渐进压缩，再将全局信息回传到高分辨率点以进一步精炼。这种渐进方式比VecSet的直接cross-attention映射实现了更高的压缩比。
 
@@ -69,10 +69,10 @@ COD-VAE采用两阶段自编码器方案：
 
    与VecSet直接将潜在向量映射到查询点occupancy值不同，COD-VAE先重建密集triplane特征，再用bilinear插值 + 浅层MLP解码neural fields。
    
-   - 使用可学习token序列 $\mathbf{e} \in \mathbb{R}^{(R/f \times R/f) \times C}$ 表示triplane tokens位置
-   - 初始化：通过cross-attention从解压向量 $\mathcal{F}'$ 查询初始triplane tokens
-   - Token处理：ViT-style transformer blocks处理（含不确定性剪枝）
-   - 最终：linear层将tokens投影为triplane特征
+    - 使用可学习token序列 $\mathbf{e} \in \mathbb{R}^{(R/f \times R/f) \times C}$ 表示triplane tokens位置
+    - 初始化：通过cross-attention从解压向量 $\mathcal{F}'$ 查询初始triplane tokens
+    - Token处理：ViT-style transformer blocks处理（含不确定性剪枝）
+    - 最终：linear层将tokens投影为triplane特征
    
    对查询点 $\mathbf{q}$，从三个平面检索特征并求和，通过浅层MLP得到occupancy值。这消除了VecSet中处理200万+查询点的cross-attention瓶颈。
 
@@ -82,7 +82,7 @@ COD-VAE采用两阶段自编码器方案：
    
    设计：在解码器开头使用辅助不确定性head预测重建误差：
    
-   $$u(\mathbf{q}) = \psi_{xy}(U_{xy}, \mathbf{q}) \cdot \psi_{yz}(U_{yz}, \mathbf{q}) \cdot \psi_{xz}(U_{xz}, \mathbf{q})$$
+    $u(\mathbf{q}) = \psi_{xy}(U_{xy}, \mathbf{q}) \cdot \psi_{yz}(U_{yz}, \mathbf{q}) \cdot \psi_{xz}(U_{xz}, \mathbf{q})$
    
    只保留不确定性最高的25% tokens进行后续处理，剪枝75%的简单区域计算。不确定性head通过MSE损失训练预测重建误差 $\mathcal{L}_{rec}(\mathbf{q})$。
 
@@ -199,6 +199,6 @@ Triplane解码器重建速度达42.68 sample/s，是VecSet CrossAttn的12.4×，
 - [\[ICCV 2025\] Sat2City: 3D City Generation from A Single Satellite Image with Cascaded Latent Diffusion](sat2city_3d_city_generation_from_a_single_satellite_image_with_cascaded_latent_d.md)
 - [\[ICCV 2025\] Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework](bridging_diffusion_models_and_3d_representations_a_3d_consistent_super-resolutio.md)
 - [\[ICCV 2025\] Repurposing 2D Diffusion Models with Gaussian Atlas for 3D Generation](repurposing_2d_diffusion_models_with_gaussian_atlas_for_3d_generation.md)
-- [\[CVPR 2025\] LT3SD: Latent Trees for 3D Scene Diffusion](../../CVPR2025/3d_vision/lt3sd_latent_trees_for_3d_scene_diffusion.md)
+- [\[ICCV 2025\] Learning 3D Object Spatial Relationships from Pre-trained 2D Diffusion Models](learning_3d_object_spatial_relationships_from_pre-trained_2d_diffusion_models.md)
 
 <!-- RELATED:END -->

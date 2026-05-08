@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.01434](https://arxiv.org/abs/2410.01434)  
-**代码**: https://github.com/mainlp/circuit-compositions  
+**代码**: [https://github.com/mainlp/circuit-compositions](https://github.com/mainlp/circuit-compositions)  
 **领域**: LLM/NLP  
 **关键词**: 机械可解释性, 电路发现, 模块化结构, 连续稀疏化, 子网络组合
 

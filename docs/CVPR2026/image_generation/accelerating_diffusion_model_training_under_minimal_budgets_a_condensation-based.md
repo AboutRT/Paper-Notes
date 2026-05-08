@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2507.05914](https://arxiv.org/abs/2507.05914)  
 **代码**: 待确认  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: dataset condensation, diffusion model, training acceleration, data-centric, efficient training
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.03716](https://arxiv.org/abs/2604.03716)  
-**代码**: [项目页](https://humansensinglab.github.io/CGHair/) (有)  
+**代码**: [项目页](https://humansensinglab.github.io/CGHair/)  
 **领域**: 3D Vision  
 **关键词**: 3D高斯溅射, 头发重建, 发片聚类, 紧凑表示, 外观压缩
 

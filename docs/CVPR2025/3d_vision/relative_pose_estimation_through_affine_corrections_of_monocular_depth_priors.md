@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.05446](https://arxiv.org/abs/2501.05446)  
-**代码**: https://github.com/MarkYu98/madpose  
+**代码**: [https://github.com/MarkYu98/madpose](https://github.com/MarkYu98/madpose)  
 **领域**: 3D视觉  
 **关键词**: 相对位姿估计, 单目深度先验, 仿射校正, RANSAC, 几何求解器
 

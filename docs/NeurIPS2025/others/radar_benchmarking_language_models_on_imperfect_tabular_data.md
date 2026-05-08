@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Radar: Benchmarking Language Models on Imperfect Tabular Data
 description: >-
-  [NeurIPS 2025][表格推理] 提出 Radar 基准，通过对真实表格数据注入五类数据工件（缺失值、错误值、异常值、格式不一致、逻辑不一致），系统评估语言模型在不完美表格数据上的数据感知推理能力，揭示即使是前沿模型在引入数据工件后性能也大幅下降。
+  [NeurIPS 2025][其他] 提出 Radar 基准，通过对真实表格数据注入五类数据工件（缺失值、错误值、异常值、格式不一致、逻辑不一致），系统评估语言模型在不完美表格数据上的数据感知推理能力，揭示即使是前沿模型在引入数据工件后性能也大幅下降。
 tags:
   - NeurIPS 2025
-  - 表格推理
+  - 其他
   - 数据感知
   - 数据工件
   - 语言模型基准
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.08249](https://arxiv.org/abs/2506.08249)  
 **代码**: [GitHub](https://github.com/kenqgu/RADAR) / [HuggingFace](https://huggingface.co/datasets/kenqgu/RADAR)  
-**领域**: 表格推理 / 数据质量感知 / LLM 评测  
+**领域**: 其他  
 **关键词**: 表格推理, 数据感知, 数据工件, 语言模型基准, 鲁棒性评估
 
 ## 一句话总结
@@ -132,7 +132,7 @@ o4-mini 在 Code Agent 下干净表格达到 100% 精确匹配，但引入数据
 - [\[ACL 2025\] Generating Synthetic Relational Tabular Data via Structural Causal Models](../../ACL2025/others/generating_synthetic_relational_tabular_data_via_structural_causal_models.md)
 - [\[NeurIPS 2025\] Product Distribution Learning with Imperfect Advice](product_distribution_learning_with_imperfect_advice.md)
 - [\[NeurIPS 2025\] Adaptive Data Analysis for Growing Data](adaptive_data_analysis_for_growing_data.md)
-- [\[NeurIPS 2025\] Inferring Stochastic Dynamics with Growth from Cross-Sectional Data](inferring_stochastic_dynamics_with_growth_from_cross-sectional_data.md)
-- [\[NeurIPS 2025\] Brain-Like Processing Pathways Form in Models With Heterogeneous Experts](brain-like_processing_pathways_form_in_models_with_heterogeneous_experts.md)
+- [\[NeurIPS 2025\] MiCADangelo: Fine-Grained Reconstruction of Constrained CAD Models from 3D Scans](micadangelo_fine-grained_reconstruction_of_constrained_cad_models_from_3d_scans.md)
+- [\[NeurIPS 2025\] Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics](uncertainty_quantification_for_reduced-order_surrogate_models_applied_to_cloud_m.md)
 
 <!-- RELATED:END -->

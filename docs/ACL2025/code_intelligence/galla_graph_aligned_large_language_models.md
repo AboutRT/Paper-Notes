@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - code understanding
   - graph alignment
-  - 图神经网络
+  - 代码智能
   - AST/DFG
   - model-agnostic
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2409.04183](https://arxiv.org/abs/2409.04183)  
-**代码**: https://github.com/codefuse-ai/GALLa  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/codefuse-ai/GALLa](https://github.com/codefuse-ai/GALLa)  
+**领域**: 代码智能  
 **关键词**: code understanding, graph alignment, GNN, AST/DFG, model-agnostic
 
 ## 一句话总结
@@ -117,8 +117,8 @@ tags:
 
 - [\[ACL 2025\] LongCodeU: Benchmarking Long-Context Language Models on Long Code Understanding](benchmarking_long-context_language_models_on_long_code_understanding.md)
 - [\[ACL 2025\] Personality-Guided Code Generation Using Large Language Models](personality_guided_code_gen.md)
-- [\[ACL 2025\] CodeDPO: Aligning Code Models with Self Generated and Verified Source Code](codedpo_code_alignment.md)
 - [\[ACL 2025\] CodeReviewQA: The Code Review Comprehension Assessment for Large Language Models](codereviewqa_the_code_review_comprehension_assessment_for_large_language_models.md)
+- [\[ACL 2025\] CodeDPO: Aligning Code Models with Self Generated and Verified Source Code](codedpo_code_alignment.md)
 - [\[ACL 2025\] CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation](codeif_benchmarking_the_instruction-following_capabilities_of_large_language_mod.md)
 
 <!-- RELATED:END -->

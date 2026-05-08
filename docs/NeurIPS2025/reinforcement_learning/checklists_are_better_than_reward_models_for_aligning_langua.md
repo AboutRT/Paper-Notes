@@ -8,7 +8,7 @@ tags:
   - RLCF
   - checklist
   - 奖励模型
-  - DPO
+  - 强化学习
   - 指令遵循
   - 对齐
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.18624](https://arxiv.org/abs/2507.18624)  
 **代码**: 已开源（WildChecklists 数据集 + 模型 + 代码）  
-**领域**: LLM 对齐 / 指令跟随  
+**领域**: 强化学习  
 **关键词**: RLCF, checklist, 奖励模型, DPO, 指令遵循, 对齐
 
 ## 一句话总结
@@ -125,9 +125,9 @@ RLCF 是唯一在所有 5 个 benchmark 上都有正向提升的方法。RM-base
 ## 相关论文
 
 - [\[NeurIPS 2025\] Training Language Models to Reason Efficiently](training_language_models_to_reason_efficiently.md)
-- [\[NeurIPS 2025\] Behavior Injection: Preparing Language Models for Reinforcement Learning](behavior_injection_preparing_language_models_for_reinforcement_learning.md)
 - [\[ICLR 2026\] ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-Aware Speech-to-Speech Interaction](../../ICLR2026/reinforcement_learning/paras2s_benchmarking_and_aligning_spoken_language_models_for_paralinguistic-awar.md)
 - [\[NeurIPS 2025\] When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners](when_less_language_is_more_language-reasoning_disentanglement_makes_llms_better_.md)
+- [\[NeurIPS 2025\] Behavior Injection: Preparing Language Models for Reinforcement Learning](behavior_injection_preparing_language_models_for_reinforcement_learning.md)
 - [\[NeurIPS 2025\] RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models](repic_reinforced_post-training_for_personalizing_multi-modal_language_models.md)
 
 <!-- RELATED:END -->

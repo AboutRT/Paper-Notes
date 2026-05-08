@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2405.18716](https://arxiv.org/abs/2405.18716)  
 **代码**: 无  
-**领域**: Image Generation / Sketch Colourisation  
+**领域**: LLM/NLP  
 **关键词**: Sketch Colourisation, Diffusion Models, training-free, Latent Composition, Self-Attention Injection
 
 ## 一句话总结
@@ -154,6 +154,6 @@ SketchDeco采用两阶段的分治策略（图2）：
 - [\[ACL 2025\] Training-free LLM Merging for Multi-task Learning](../../ACL2025/llm_nlp/training-free_llm_merging_for_multi-task_learning.md)
 - [\[ACL 2025\] A Training-free LLM-based Approach to General Chinese Character Error Correction](../../ACL2025/llm_nlp/a_training-free_llm-based_approach_to_general_chinese_character_error_correction.md)
 - [\[NeurIPS 2025\] SubSpec: Speculate Deep and Accurate — Lossless and Training-Free Acceleration for Offloaded LLMs](../../NeurIPS2025/llm_nlp/speculate_deep_and_accurate_lossless_and_training-free_acceleration_for_offloade.md)
-- [\[AAAI 2026\] An Invariant Latent Space Perspective on Language Model Inversion](../../AAAI2026/llm_nlp/an_invariant_latent_space_perspective_on_language_model_inve.md)
+- [\[ACL 2025\] GradOT: Training-free Gradient-preserving Offsite-tuning for Large Language Models](../../ACL2025/llm_nlp/gradot_offsite_tuning.md)
 
 <!-- RELATED:END -->

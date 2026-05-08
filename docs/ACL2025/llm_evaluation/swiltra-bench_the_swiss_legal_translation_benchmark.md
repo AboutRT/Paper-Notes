@@ -2,10 +2,10 @@
 title: >-
   [论文解读] SwiLTra-Bench: The Swiss Legal Translation Benchmark
 description: >-
-  [ACL 2025][法律翻译] 构建了 SwiLTra-Bench——一个包含超过 18 万对齐瑞士法律翻译对的大规模多语言基准（覆盖法律、判例摘要、新闻稿，涵盖德法意罗英五种语言），系统评估了前沿 LLM 和微调开源 SLM 在法律翻译上的表现，并提出 SwiLTra-Judge 自动评估方法。
+  [ACL 2025][LLM评测] 构建了 SwiLTra-Bench——一个包含超过 18 万对齐瑞士法律翻译对的大规模多语言基准（覆盖法律、判例摘要、新闻稿，涵盖德法意罗英五种语言），系统评估了前沿 LLM 和微调开源 SLM 在法律翻译上的表现，并提出 SwiLTra-Judge 自动评估方法。
 tags:
   - ACL 2025
-  - 法律翻译
+  - LLM评测
   - 多语言基准
   - 瑞士法律
   - LLM翻译评估
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.01372](https://arxiv.org/abs/2503.01372)  
 **代码**: 有（论文提供了 Datasets 和 Code 链接）  
-**领域**: 机器翻译 / 法律NLP  
+**领域**: LLM评测  
 **关键词**: 法律翻译, 多语言基准, 瑞士法律, LLM翻译评估, 微调
 
 ## 一句话总结
@@ -135,8 +135,8 @@ tags:
 
 - [\[ACL 2025\] KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding](kitab-bench_a_comprehensive_multi-domain_benchmark_for_arabic_ocr_and_document_u.md)
 - [\[NeurIPS 2025\] PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation](../../NeurIPS2025/llm_evaluation/parrot_a_benchmark_for_evaluating_llms_in_cross-system_sql_translation.md)
-- [\[ACL 2026\] MSU-Bench: Musical Score Understanding Benchmark](../../ACL2026/llm_evaluation/musical_score_understanding_benchmark_evaluating_large_language_models39_compreh.md)
 - [\[NeurIPS 2025\] RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases](../../NeurIPS2025/llm_evaluation/rdb2g-bench_a_comprehensive_benchmark_for_automatic_graph_modeling_of_relational.md)
-- [\[ACL 2025\] TUMLU: A Unified and Native Language Understanding Benchmark for Turkic Languages](tumlu_a_unified_and_native_language_understanding_benchmark_for_turkic_languages.md)
+- [\[CVPR 2026\] VGA-Bench: A Unified Benchmark for Video Aesthetics and Generation Quality Evaluation](../../CVPR2026/llm_evaluation/vga_bench_unified_benchmark_for_video_aesthetics_and_generation_quality.md)
+- [\[ACL 2025\] HalluLens: LLM Hallucination Benchmark](hallulens_llm_hallucination_benchmark.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.05540](https://arxiv.org/abs/2407.05540)  
-**代码**: https://gtp-4-o.github.io/  
+**代码**: [https://gtp-4-o.github.io/](https://gtp-4-o.github.io/)  
 **领域**: 医学图像 / 多模态学习  
 **关键词**: 异构图, 多模态融合, 模态缺失, 图提示, 生存预测
 

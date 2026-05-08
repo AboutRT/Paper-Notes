@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2505.24862](https://arxiv.org/abs/2505.24862)  
-**代码**: https://github.com/ViStoryBench/ViStoryBench  
+**代码**: [https://github.com/ViStoryBench/ViStoryBench](https://github.com/ViStoryBench/ViStoryBench)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 故事可视化、基准测试、角色一致性、多维度评估、叙事生成
 

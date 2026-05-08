@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2407.10632](https://arxiv.org/abs/2407.10632)  
 **代码**: [GitHub](https://github.com/LIUZhening111/BiSIC)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: stereo image compression, bidirectional coding, 3D convolution, cross-dimensional entropy model, learned image compression
 
 ## 一句话总结
@@ -165,9 +165,9 @@ BiSIC 的核心优势在于用 3D 卷积实现联合处理（而非分别处理�
 ## 相关论文
 
 - [\[CVPR 2025\] Learned Image Compression with Dictionary-based Entropy Model](../../CVPR2025/model_compression/learned_image_compression_with_dictionary-based_entropy_model.md)
+- [\[ECCV 2024\] Bi-TTA: Bidirectional Test-Time Adapter for Remote Physiological Measurement](bi-tta_bidirectional_test-time_adapter_for_remote_physiological_measurement.md)
 - [\[ECCV 2024\] BaSIC: BayesNet Structure Learning for Computational Scalable Neural Image Compression](basic_bayesnet_structure_learning_for_computational_scalable_neural_image_compre.md)
 - [\[CVPR 2026\] Generative Video Compression with One-Dimensional Latent Representation](../../CVPR2026/model_compression/generative_video_compression_with_one-dimensional_latent_representation.md)
 - [\[CVPR 2025\] LALIC: Linear Attention Modeling for Learned Image Compression](../../CVPR2025/model_compression/linear_attention_modeling_for_learned_image_compression.md)
-- [\[NeurIPS 2025\] A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings](../../NeurIPS2025/model_compression/a-thought_efficient_reasoning_via_bidirectional_compression_for_low-resource_set.md)
 
 <!-- RELATED:END -->

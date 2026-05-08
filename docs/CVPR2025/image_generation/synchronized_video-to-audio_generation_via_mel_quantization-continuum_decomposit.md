@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.06984](https://arxiv.org/abs/2503.06984)  
 **代码**: [项目页](https://wjc2830.github.io/MelQCD/)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 视频生成音频, Mel频谱分解, 向量量化, ControlNet, 扩散模型
 
 ## 一句话总结

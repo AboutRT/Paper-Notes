@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 规则检索
-  - 语义对齐
+  - 其他
   - 自归纳
   - 重排序
   - LLM推理
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.10870](https://arxiv.org/abs/2505.10870)  
 **代码**: 无  
-**领域**: NLP / 检索与推理  
+**领域**: 其他  
 **关键词**: 规则检索, 语义对齐, 自归纳, 重排序, LLM推理
 
 ## 一句话总结
@@ -158,7 +158,7 @@ tags:
 - [\[ACL 2025\] Learning to Reason Over Time: Timeline Self-Reflection for Temporal Reasoning](tiser_timeline_self_reflection_temporal.md)
 - [\[ACL 2025\] Adaptive Retrieval without Self-Knowledge? Bringing Uncertainty Back Home](adaptive_retrieval_without_self-knowledge_bringing_uncertainty_back_home.md)
 - [\[ACL 2025\] Micro-Act: Mitigate Knowledge Conflict in QA via Actionable Self-Reasoning](micro_act_knowledge_conflict_reasoning.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
 - [\[ACL 2025\] Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education](uni-retrieval_a_multi-style_retrieval_framework_for_stems_education.md)
+- [\[ACL 2025\] ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval](acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md)
 
 <!-- RELATED:END -->

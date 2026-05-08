@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2411.17404](https://arxiv.org/abs/2411.17404)  
-**代码**: https://github.com/LLM4OR/StructuredOR  
+**代码**: [https://github.com/LLM4OR/StructuredOR](https://github.com/LLM4OR/StructuredOR)  
 **领域**: LLM推理  
 **关键词**: Tree-of-Thought, 数学建模, 过程奖励模型, Beam Search, 运筹学
 

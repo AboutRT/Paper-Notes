@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML 2025
   - benchmark
-  - reasoning evaluation
+  - LLM评测
   - retrieval evaluation
   - synthetic data
   - data contamination
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2502.20377](https://arxiv.org/abs/2502.20377)  
 **代码**: [github.com/kilian-group/phantom-wiki](https://github.com/kilian-group/phantom-wiki)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: benchmark, reasoning evaluation, retrieval evaluation, synthetic data, data contamination
 
 ## 一句话总结
@@ -175,8 +175,8 @@ PhantomWiki 本身是评测工具而非训练方法。但论文探索了在 Phan
 
 - [\[ACL 2025\] Retrieval Models Aren't Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models](../../ACL2025/llm_evaluation/retrieval_models_arent_tool-savvy_benchmarking_tool_retrieval_for_large_language.md)
 - [\[CVPR 2025\] ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval](../../CVPR2025/llm_evaluation/context-cir_learning_from_concepts_in_text_for_composed_image_retrieval.md)
-- [\[ACL 2025\] MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset](../../ACL2025/llm_evaluation/mars_benchmarking_the_metaphysical_reasoning_abilities_of_language_models_with_a.md)
 - [\[ECCV 2024\] Sync from the Sea: Retrieving Alignable Videos from Large-Scale Datasets](../../ECCV2024/llm_evaluation/sync_from_the_sea_retrieving_alignable_videos_from_large-scale_datasets.md)
-- [\[ICML 2025\] Position: AI Evaluation Should Learn from How We Test Humans](position_ai_evaluation_should_learn_from_how_we_test_humans.md)
+- [\[ACL 2025\] PhysReason: A Comprehensive Benchmark towards Physics-Based Reasoning](../../ACL2025/llm_evaluation/physreason_a_comprehensive_benchmark_towards_physics-based_reasoning.md)
+- [\[ICML 2025\] Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation](leveraging_online_olympiad-level_math_problems_for_llms_training_and_contaminati.md)
 
 <!-- RELATED:END -->

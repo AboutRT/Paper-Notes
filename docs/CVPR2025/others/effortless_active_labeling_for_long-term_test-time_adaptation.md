@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.14564](https://arxiv.org/abs/2503.14564)  
-**代码**: https://github.com/flash1803/EATTA  
+**代码**: [https://github.com/flash1803/EATTA](https://github.com/flash1803/EATTA)  
 **领域**: 其他  
 **关键词**: 测试时适应、主动学习、伪标签、梯度归一化、长期适应
 

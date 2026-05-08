@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.09352](https://arxiv.org/abs/2407.09352)  
-**代码**: 有 (https://luo-ziyuan.github.io/Imaging-Interiors)  
-**领域**: 其他  
+**代码**: 有 ([https://luo-ziyuan.github.io/Imaging-Interiors](https://luo-ziyuan.github.io/Imaging-Interiors))  
+**领域**: LLM评测  
 **关键词**: 电磁逆散射, 隐式神经表示, 计算成像, 前向估计, 非侵入式成像
 
 ## 一句话总结
@@ -145,9 +145,9 @@ $$\mathcal{L} = \lambda_{\text{data}} \mathcal{L}_{\text{data}} + \lambda_{\text
 
 ## 相关论文
 
-- [\[CVPR 2025\] PolarFree: Polarization-based Reflection-Free Imaging](../../CVPR2025/llm_evaluation/polarfree_polarization-based_reflection-free_imaging.md)
-- [\[ICCV 2025\] A Real-world Display Inverse Rendering Dataset](../../ICCV2025/llm_evaluation/a_realworld_display_inverse_rendering_dataset.md)
 - [\[CVPR 2025\] Event Ellipsometer: Event-based Mueller-Matrix Video Imaging](../../CVPR2025/llm_evaluation/event_ellipsometer_event-based_mueller-matrix_video_imaging.md)
+- [\[ICCV 2025\] A Real-world Display Inverse Rendering Dataset](../../ICCV2025/llm_evaluation/a_real-world_display_inverse_rendering_dataset.md)
+- [\[CVPR 2025\] TensoFlow: Tensorial Flow-based Sampler for Inverse Rendering](../../CVPR2025/llm_evaluation/tensoflow_tensorial_flow-based_sampler_for_inverse_rendering.md)
 - [\[ICML 2025\] DiLQR: Differentiable Iterative Linear Quadratic Regulator via Implicit Differentiation](../../ICML2025/llm_evaluation/dilqr_differentiable_iterative_linear_quadratic_regulator_via_implicit_different.md)
 - [\[ICML 2025\] Leveraging Online Olympiad-Level Math Problems for LLMs Training and Contamination-Resistant Evaluation](../../ICML2025/llm_evaluation/leveraging_online_olympiad-level_math_problems_for_llms_training_and_contaminati.md)
 

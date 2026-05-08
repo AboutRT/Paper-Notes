@@ -142,7 +142,7 @@ MetaWorld MT50: STAR达92.7%，超越所有基线2.1%-5.4%。
 
 **会议**: ICML 2025  
 **arXiv**: [2506.03863](https://arxiv.org/abs/2506.03863)  
-**代码**: https://STAR.github.io (有)  
+**代码**: [https://STAR.github.io](https://STAR.github.io)  
 **领域**: 机器人  
 **关键词**: 技能抽象, 向量量化, codebook collapse, 自回归技能合成, 机器人操作
 
@@ -152,8 +152,8 @@ MetaWorld MT50: STAR达92.7%，超越所有基线2.1%-5.4%。
 
 - [\[ICML 2025\] CommVQ: Commutative Vector Quantization for KV Cache Compression](commvq_commutative_vector_quantization_for_kv_cache_compression.md)
 - [\[ICCV 2025\] iManip: Skill-Incremental Learning for Robotic Manipulation](../../ICCV2025/robotics/imanip_skill-incremental_learning_for_robotic_manipulation.md)
-- [\[ACL 2025\] DRAE: Dynamic Retrieval-Augmented Expert Networks for Lifelong Learning and Task Adaptation in Robotics](../../ACL2025/robotics/drae_dynamic_retrieval-augmented_expert_networks_for_lifelong_learning_and_task_.md)
+- [\[NeurIPS 2025\] Policy Compatible Skill Incremental Learning via Lazy Learning Interface](../../NeurIPS2025/robotics/policy_compatible_skill_incremental_learning_via_lazy_learning_interface.md)
 - [\[ICCV 2025\] Certifiably Optimal Anisotropic Rotation Averaging](../../ICCV2025/robotics/certifiably_optimal_anisotropic_rotation_averaging.md)
-- [\[ICCV 2025\] Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos](../../ICCV2025/robotics/moto_latent_motion_token_as_the_bridging_language_for_learning_robot_manipulatio.md)
+- [\[ACL 2025\] DRAE: Dynamic Retrieval-Augmented Expert Networks for Lifelong Learning and Task Adaptation in Robotics](../../ACL2025/robotics/drae_dynamic_retrieval-augmented_expert_networks_for_lifelong_learning_and_task_.md)
 
 <!-- RELATED:END -->

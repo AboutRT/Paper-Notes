@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV2024
   - 图像恢复
-  - 自监督学习
+  - 图像复原
   - blind spot network
   - mask strategy
   - 去噪
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2407.06514](https://arxiv.org/abs/2407.06514)  
 **代码**: [lll143653/amsnet](https://github.com/lll143653/amsnet)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: self-supervised denoising, blind spot network, mask strategy, real image denoising, asymmetric scheme
 
 ## 一句话总结
@@ -142,8 +142,8 @@ PD 策略破坏了图像结构完整性，导致去噪结果出现棋盘格伪�
 
 - [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](../../CVPR2025/image_restoration/rotation-equivariant_self-supervised_method_in_image_denoising.md)
 - [\[CVPR 2026\] TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising](../../CVPR2026/image_restoration/tm-bsn_triangular-masked_blind-spot_network_for_real-world_self-supervised_image.md)
-- [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](../../NeurIPS2025/image_restoration/moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
 - [\[ICCV 2025\] Blind2Sound: Self-Supervised Image Denoising without Residual Noise](../../ICCV2025/image_restoration/blind2sound_self-supervised_image_denoising_without_residual_noise.md)
+- [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](../../NeurIPS2025/image_restoration/moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
 - [\[CVPR 2026\] SelfHVD: Self-Supervised Handheld Video Deblurring](../../CVPR2026/image_restoration/selfhvd_self-supervised_handheld_video_deblurring.md)
 
 <!-- RELATED:END -->

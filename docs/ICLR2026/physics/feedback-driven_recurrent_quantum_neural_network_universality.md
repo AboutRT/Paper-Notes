@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2506.16332](https://arxiv.org/abs/2506.16332)  
 **代码**: 无  
-**领域**: physics  
+**领域**: 物理学  
 **关键词**: quantum reservoir computing, recurrent quantum neural network, universal approximation, fading memory filter, NISQ  
 
 ## 一句话总结

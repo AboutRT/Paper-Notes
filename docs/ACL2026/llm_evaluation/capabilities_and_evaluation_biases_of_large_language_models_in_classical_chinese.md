@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 古诗生成
   - 唐诗
-  - LLM评估偏差
+  - LLM评测
   - 回声室效应
   - 人机评估
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2510.15313](https://arxiv.org/abs/2510.15313)  
 **代码**: [https://github.com/boleima/Tang-Poetry](https://github.com/boleima/Tang-Poetry)  
-**领域**: LLM 评估/创意生成  
+**领域**: LLM评测  
 **关键词**: 古诗生成, 唐诗, LLM评估偏差, 回声室效应, 人机评估
 
 ## 一句话总结
@@ -119,10 +119,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models](../../ACL2025/llm_evaluation/mcbe_a_multi-task_chinese_bias_evaluation_benchmark_for_large_language_models.md)
 - [\[ACL 2026\] Exploring the Capability Boundaries of LLMs in Mastering of Chinese Chouxiang Language](exploring_the_capability_boundaries_of_llms_in_mastering_of_chinese_chouxiang_la.md)
 - [\[ACL 2026\] Closing the Modality Reasoning Gap for Speech Large Language Models](closing_the_modality_reasoning_gap_for_speech_large_language_models.md)
-- [\[ACL 2025\] AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research](../../ACL2025/llm_evaluation/abgen_evaluating_large_language_models_in.md)
 - [\[ACL 2026\] E2EDev: Benchmarking Large Language Models in End-to-End Software Development Task](e2edev_benchmarking_large_language_models_in_end-to-end_software_development_tas.md)
+- [\[ACL 2026\] AnchorMem: Anchored Facts with Associative Contexts for Building Memory in Large Language Models](anchormem_anchored_facts_with_associative_contexts_for_building_memory_in_large_.md)
+- [\[ACL 2026\] MTR-DuplexBench: Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models](mtr-duplexbench_towards_a_comprehensive_evaluation_of_multi-round_conversations_.md)
 
 <!-- RELATED:END -->

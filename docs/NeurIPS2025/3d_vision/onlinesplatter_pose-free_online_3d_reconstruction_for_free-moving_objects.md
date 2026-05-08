@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20605](https://arxiv.org/abs/2510.20605)  
-**代码**: https://markhh.com/OnlineSplatter (有)  
+**代码**: [https://markhh.com/OnlineSplatter](https://markhh.com/OnlineSplatter)  
 **领域**: 3D视觉  
 **关键词**: 在线3D重建, 3D高斯溅射, 无位姿重建, 自由移动物体, 记忆模块
 

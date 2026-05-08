@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - 动态遗憾
-  - 在线凸优化
+  - 强化学习
   - mixability
   - exp-concavity
   - 非平稳在线学习
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.10616](https://arxiv.org/abs/2506.10616)  
 **代码**: 无  
-**领域**: reinforcement_learning / online_learning  
+**领域**: 强化学习  
 **关键词**: 动态遗憾, 在线凸优化, mixability, exp-concavity, 非平稳在线学习, 指数权重方法, fixed-share
 
 ## 一句话总结
@@ -159,10 +159,10 @@ Fixed-share 等价于一个**两层在线集成**：
 
 ## 相关论文
 
-- [\[ICML 2025\] On the Dynamic Regret of Following the Regularized Leader: Optimism with History Pruning](on_the_dynamic_regret_of_following_the_regularized_leader_optimism_with_history_.md)
 - [\[NeurIPS 2025\] Forecasting in Offline Reinforcement Learning for Non-stationary Environments](../../NeurIPS2025/reinforcement_learning/forecasting_in_offline_reinforcement_learning_for_non-stationary_environments.md)
+- [\[ICML 2025\] On the Dynamic Regret of Following the Regularized Leader: Optimism with History Pruning](on_the_dynamic_regret_of_following_the_regularized_leader_optimism_with_history_.md)
 - [\[NeurIPS 2025\] Dynamic Regret Reduces to Kernelized Static Regret](../../NeurIPS2025/reinforcement_learning/dynamic_regret_reduces_to_kernelized_static_regret.md)
-- [\[NeurIPS 2025\] Establishing Linear Surrogate Regret Bounds for Convex Smooth Losses via Convolutional Fenchel–Young Losses](../../NeurIPS2025/reinforcement_learning/establishing_linear_surrogate_regret_bounds_for_convex_smooth_losses_via_convolu.md)
+- [\[ICML 2025\] Online Pre-Training for Offline-to-Online Reinforcement Learning](online_pre-training_for_offline-to-online_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Improved Regret Bounds for GP-UCB in Bayesian Optimization](../../NeurIPS2025/reinforcement_learning/improved_regret_bounds_for_gaussian_process_upper_confidence_bound_in_bayesian_o.md)
 
 <!-- RELATED:END -->

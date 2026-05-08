@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.12085](https://arxiv.org/abs/2502.12085)  
 **代码**: [https://github.com/thunlp/APB](https://github.com/thunlp/APB)  
-**领域**: LLM效率  
+**领域**: 模型压缩  
 **关键词**: long-context inference, sequence parallelism, KV cache compression, distributed inference, approximate attention
 
 ## 一句话总结

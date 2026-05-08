@@ -54,15 +54,15 @@ tags:
    核心思想：对注意力模块中间特征做 PCA，得到按信息量排序的主成分变换矩阵，然后将其"吸收"到相邻的线性层中，实现**保函数等价变换**。
 
    **V/O 投影变换**：对 Value 投影输出 $X_v \in \mathbb{R}^{n \times d}$ 计算加权协方差矩阵并做特征分解，得到变换矩阵 $W^{(vo)}_{Trans}$，然后变换权重：
-   $$W_v \leftarrow W^{(vo)}_{Trans} W_v, \quad b_v \leftarrow W^{(vo)}_{Trans} b_v, \quad W_o \leftarrow W_o (W^{(vo)}_{Trans})^{-1}$$
+    $W_v \leftarrow W^{(vo)}_{Trans} W_v, \quad b_v \leftarrow W^{(vo)}_{Trans} b_v, \quad W_o \leftarrow W_o (W^{(vo)}_{Trans})^{-1}$
 
    **Q/K 投影变换**：联合计算 Q 和 K 输出的协方差矩阵（求和后分解），利用正交矩阵的性质 $W^T W = I$ 保证注意力得分不变：
-   $$\text{sim}_{(i,j)} \equiv (W_q x_i + b_q)^T (W^{(qk)}_{Trans})^T W^{(qk)}_{Trans} (W_k x_j + b_k)$$
+    $\text{sim}_{(i,j)} \equiv (W_q x_i + b_q)^T (W^{(qk)}_{Trans})^T W^{(qk)}_{Trans} (W_k x_j + b_k)$
 
    **MLP 变换**：由于非线性激活的存在无法直接 PCA，改为按 Taylor 重要性排序维度，构造排列矩阵 $W_{sort}$ 重排权重。
 
    **加权策略**：传统 PCA 对所有 token 等权处理，但不同 token 对预测的贡献不同。WPAC 使用一阶 Taylor 估计计算 token 级重要性：
-   $$\Theta_{TE}(h_i) \approx \left|\frac{\delta \mathcal{C}}{\delta h_i} \cdot h_i\right|$$
+    $\Theta_{TE}(h_i) \approx \left|\frac{\delta \mathcal{C}}{\delta h_i} \cdot h_i\right|$
    然后对中心化后的 token 特征按 $\sqrt{\Theta^{\text{token}}_{TE}}$ 加权后再计算协方差矩阵。
 
 2. **PIAD — 渐进式重要性感知 Dropout**
@@ -72,9 +72,9 @@ tags:
    **可丢弃单元**：将 MHSA 的中间维度分为 8 组、MLP 分为 32 组，每组作为一个"可丢弃单元"。
 
    **重要性评估**分两步：
-   - 模块敏感度 $\gamma_m$：跳过模块 $m$ 后代价函数的相对增加
-   - 维度级重要性 $I^{(m)}_i = \gamma_m \cdot \alpha^{(m)}_i$，其中 $\alpha^{(m)}_i$ 是模块内归一化的 Taylor 重要性
-   - 最终单元重要性按 MACs 归一化：$I_u = \frac{\sum_{i \in u} I^{(m)}_i}{\text{MACs}(u)}$
+    - 模块敏感度 $\gamma_m$：跳过模块 $m$ 后代价函数的相对增加
+    - 维度级重要性 $I^{(m)}_i = \gamma_m \cdot \alpha^{(m)}_i$，其中 $\alpha^{(m)}_i$ 是模块内归一化的 Taylor 重要性
+    - 最终单元重要性按 MACs 归一化：$I_u = \frac{\sum_{i \in u} I^{(m)}_i}{\text{MACs}(u)}$
 
    **渐进更新**：设目标最大压缩比为 $r$，分 $P_e$ 个 epoch 渐进构建 Dropout List。每个 epoch 开始时追加最不重要的单元，直到列表累积 MACs 达到目标值。
 
@@ -172,8 +172,8 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] EfficientFSL: Enhancing Few-Shot Classification via Query-Only Tuning in Vision Transformers](efficientfsl_enhancing_few-shot_classification_via_query-only_tuning_in_vision_t.md)
-- [\[AAAI 2026\] Compensating Distribution Drifts in Class-incremental Learning of Pre-trained Vision Transformers](compensating_distribution_drifts_in_class-incremental_learning_of_pre-trained_vi.md)
 - [\[CVPR 2026\] FlashVGGT: Efficient and Scalable Visual Geometry Transformers with Compressed Descriptor Attention](../../CVPR2026/model_compression/flashvggt_efficient_and_scalable_visual_geometry_transformers_with_compressed_descr.md)
+- [\[AAAI 2026\] Compensating Distribution Drifts in Class-incremental Learning of Pre-trained Vision Transformers](compensating_distribution_drifts_in_class-incremental_learning_of_pre-trained_vi.md)
 - [\[CVPR 2026\] BinaryAttention: One-Bit QK-Attention for Vision and Diffusion Transformers](../../CVPR2026/model_compression/binaryattention_one-bit_qk-attention_for_vision_and_diffusion_transformers.md)
 - [\[ACL 2026\] Task-Stratified Knowledge Scaling Laws for Post-Training Quantized LLMs](../../ACL2026/model_compression/task-stratified_knowledge_scaling_laws_for_post-training_quantized_large_languag.md)
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.14097](https://arxiv.org/abs/2511.14097)  
-**代码**: https://github.com/wakinghours-github/BCE3S  
+**代码**: [https://github.com/wakinghours-github/BCE3S](https://github.com/wakinghours-github/BCE3S)  
 **领域**: 自监督 / 长尾识别  
 **关键词**: 长尾识别, 二元交叉熵, 对比学习, 分类器均匀性, 神经坍缩
 

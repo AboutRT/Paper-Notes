@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 语音
   - 有声书解读
-  - 多智能体协作
+  - 音频语音
   - LLM
   - 语音合成
   - MetaGPT
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2512.23300](https://arxiv.org/abs/2512.23300)  
-**代码**: https://github.com/9624219/AI4reading  
+**代码**: [https://github.com/9624219/AI4reading](https://github.com/9624219/AI4reading)  
 **领域**: 语音 / LLM Agent  
 **关键词**: 有声书解读, 多智能体协作, LLM, 语音合成, MetaGPT
 
@@ -142,10 +142,10 @@ tags:
 
 ## 相关论文
 
+- [\[AAAI 2026\] Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases](../../AAAI2026/audio_speech/thucy_an_llm-based_multi-agent_system_for_claim_verification_across_relational_d.md)
 - [\[NeurIPS 2025\] Sensorium Arc: AI Agent System for Oceanic Data Exploration and Interactive Eco-Art](../../NeurIPS2025/audio_speech/sensorium_arc_ai_agent_system_for_oceanic_data_exploration_and_interactive_eco-a.md)
-- [\[AAAI 2026\] DeepDebater: A Superpersuasive Autonomous Policy Debating System](../../AAAI2026/audio_speech/a_superpersuasive_autonomous_policy_debating_system.md)
 - [\[ACL 2025\] Double Entendre: Robust Audio-Based AI-Generated Lyrics Detection via Multi-View Fusion](double_entendre_robust_audio-based_ai-generated_lyrics_detection_via_multi-view_.md)
-- [\[ACL 2025\] GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages](gigaspeech2_low_resource_asr.md)
-- [\[NeurIPS 2025\] From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era](../../NeurIPS2025/audio_speech/from_generation_to_attribution_music_ai_agent_architectures_for_the_post-streami.md)
+- [\[ACL 2025\] Autoregressive Speech Synthesis without Vector Quantization](autoregressive_speech_synthesis_without_vq.md)
+- [\[AAAI 2026\] DeepDebater: A Superpersuasive Autonomous Policy Debating System](../../AAAI2026/audio_speech/a_superpersuasive_autonomous_policy_debating_system.md)
 
 <!-- RELATED:END -->

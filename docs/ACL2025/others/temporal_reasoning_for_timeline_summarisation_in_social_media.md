@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Temporal Reasoning for Timeline Summarisation in Social Media
 description: >-
-  [ACL 2025][时序推理] 本文提出通过构建新的叙事时序推理数据集 NarrativeReason 来增强 LLM 的时序推理能力，并通过知识蒸馏框架将时序推理知识迁移到小模型中，同时训练其完成时间线摘要任务，在跨域心理健康摘要任务上取得最优效果并显著减少幻觉。
+  [ACL 2025][其他] 本文提出通过构建新的叙事时序推理数据集 NarrativeReason 来增强 LLM 的时序推理能力，并通过知识蒸馏框架将时序推理知识迁移到小模型中，同时训练其完成时间线摘要任务，在跨域心理健康摘要任务上取得最优效果并显著减少幻觉。
 tags:
   - ACL 2025
-  - 时序推理
+  - 其他
   - 时间线摘要
   - 知识蒸馏
   - 社交媒体
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.00152](https://arxiv.org/abs/2501.00152)  
 **代码**: 无  
-**领域**: NLP理解  
+**领域**: 其他  
 **关键词**: 时序推理, 时间线摘要, 知识蒸馏, 社交媒体, 心理健康
 
 ## 一句话总结
@@ -147,6 +147,6 @@ Student 模型的总损失由语言建模损失 $L_{language}$（用于时间线
 - [\[ACL 2025\] Graphically Speaking: Unmasking Abuse in Social Media with Conversation Insights](graphically_speaking_unmasking_abuse_in_social_media_with_conversation_insights.md)
 - [\[ACL 2025\] Narrative Media Framing in Political Discourse](narrative_media_framing_in_political_discourse.md)
 - [\[ACL 2025\] RePanda: Pandas-powered Tabular Verification and Reasoning](repanda_pandas-powered_tabular_verification_and_reasoning.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
+- [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
 
 <!-- RELATED:END -->

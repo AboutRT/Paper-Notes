@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning
 description: >-
-  [AAAI 2026][对比学习] 本文提出CL4D框架，通过对比学习对预训练的decoder-only代码生成模型进行继续预训练，使其能够有效提取代码表示并在代码搜索和克隆检测等理解任务上达到甚至超越同规模encoder-only模型的性能。
+  [AAAI 2026][代码智能] 本文提出CL4D框架，通过对比学习对预训练的decoder-only代码生成模型进行继续预训练，使其能够有效提取代码表示并在代码搜索和克隆检测等理解任务上达到甚至超越同规模encoder-only模型的性能。
 tags:
   - AAAI 2026
-  - 对比学习
+  - 代码智能
   - Decoder-Only模型
   - 代码理解
   - 代码搜索
@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2406.12326](https://arxiv.org/abs/2406.12326)  
-**代码**: https://github.com/JiayiLin1024/CL4D (有)  
+**代码**: [https://github.com/JiayiLin1024/CL4D](https://github.com/JiayiLin1024/CL4D)  
 **领域**: Self-Supervised Learning / Code Understanding  
 **关键词**: 对比学习, Decoder-Only模型, 代码理解, 代码搜索, 克隆检测
 

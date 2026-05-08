@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.16198](https://arxiv.org/abs/2410.16198)  
 **代码**: [https://github.com/RifleZhang/LLaVA-Reasoner-DPO](https://github.com/RifleZhang/LLaVA-Reasoner-DPO)  
-**领域**: VLM推理  
+**领域**: LLM推理  
 **关键词**: Chain-of-thought, CoT推理, 知识蒸馏, DPO, 强化学习, VLM  
 
 ## 一句话总结

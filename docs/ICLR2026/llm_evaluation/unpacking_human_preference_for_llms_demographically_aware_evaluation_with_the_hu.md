@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2603.04409](https://arxiv.org/abs/2603.04409)  
-**代码**: https://huggingface.co/spaces/ProlificAI/humaine-leaderboard (排行榜+数据集开源)  
-**领域**: LLM/NLP  
+**代码**: [https://huggingface.co/spaces/ProlificAI/humaine-leaderboard](https://huggingface.co/spaces/ProlificAI/humaine-leaderboard) (排行榜+数据集开源)  
+**领域**: LLM评测  
 **关键词**: LLM evaluation, human preference, demographic bias, Bradley-Terry model, multi-dimensional evaluation
 
 ## 一句话总结
@@ -163,7 +163,7 @@ HUMAINE 基于心理测量学原理，包含四个层次：
 - [\[ICLR 2026\] RankLLM: Weighted Ranking of LLMs by Quantifying Question Difficulty](rankllm_weighted_ranking_of_llms_by_quantifying_question_difficulty.md)
 - [\[ICLR 2026\] Talk, Evaluate, Diagnose: User-aware Agent Evaluation with Automated Error Analysis](talk_evaluate_diagnose_user-aware_agent_evaluation_with_automated_error_analysis.md)
 - [\[ICLR 2026\] Subliminal Signals in Preference Labels](subliminal_signals_in_preference_labels.md)
+- [\[ICLR 2026\] Human-LLM Collaborative Feature Engineering for Tabular Learning](human-llm_collaborative_feature_engineering_for_tabular_data.md)
 - [\[ICLR 2026\] SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home Agents](simuhome_a_temporal-_and_environment-aware_benchmark_for_smart_home_agents.md)
-- [\[ICLR 2026\] Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization](noise-aware_generalization_robustness_to_in-domain_noise_and_out-of-domain_gener.md)
 
 <!-- RELATED:END -->

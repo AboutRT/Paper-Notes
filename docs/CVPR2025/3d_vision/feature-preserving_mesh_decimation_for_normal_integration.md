@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2504.00867](https://arxiv.org/abs/2504.00867)  
 **代码**: [https://moritzheep.github.io/anisotropic-screen-meshing](https://moritzheep.github.io/anisotropic-screen-meshing)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: mesh decimation, normal integration, quadric error metric, anisotropic meshing, Delaunay triangulation
 
 ## 一句话总结

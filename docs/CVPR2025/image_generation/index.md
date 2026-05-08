@@ -1,18 +1,22 @@
 ---
 title: >-
-  CVPR2025 图像生成方向300篇论文解读
+  CVPR2025 图像生成方向306篇论文解读
 description: >-
-  300篇CVPR2025的图像生成方向论文解读，涵盖扩散模型、文生图、个性化生成、对抗鲁棒、布局/合成、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  306篇CVPR2025的图像生成方向论文解读，涵盖扩散模型、文生图、个性化生成、对抗鲁棒、布局/合成、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📷 CVPR2025** · **300** 篇论文解读
+**📷 CVPR2025** · **306** 篇论文解读
 
 **[3DTopia-XL: Scaling High-Quality 3D Asset Generation via Primitive Diffusion](3dtopia-xl_scaling_high-quality_3d_asset_generation_via_primitive_diffusion.md)**
 
 :   提出基于新型原语表示PrimX和Diffusion Transformer的原生3D生成模型3DTopia-XL，能从文本或图像输入生成带有高分辨率几何、纹理和PBR材质的高质量3D资产，在质量和效率上显著超越现有方法。
+
+**[A Bias-Free Training Paradigm for More General AI-generated Image Detection](a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)**
+
+:   提出B-Free训练范式——通过stable diffusion的自条件重构从真实图像生成语义对齐的假图，结合inpainting内容增强，消除格式/内容/分辨率等偏差，使检测器聚焦于生成器特有的伪影痕迹，在27种生成模型（含FLUX、SD 3.5等最新模型）上泛化AUC>99%，balanced accuracy达95.2%。
 
 **[A Comprehensive Study of Decoder-Only LLMs for Text-to-Image Generation](a_comprehensive_study_of_decoder-only_llms_for_text-to-image_generation.md)**
 
@@ -114,6 +118,10 @@ description: >-
 
 :   系统揭示 CLIP 在多目标场景中的两类偏差——文本编码器偏向先提到的物体、图像编码器偏向大物体，并追溯偏差根源至对比训练过程中训练数据里大物体被先提到的统计规律。
 
+**[Co-Spy: Combining Semantic and Pixel Features to Detect Synthetic Images by AI](co-spy_combining_semantic_and_pixel_features_to_detect_synthetic_images_by_ai.md)**
+
+:   提出 Co-Spy 融合 VAE 重建伪影特征和 CLIP 语义特征两条互补检测路径——VAE 伪影跨模型泛化但怕 JPEG 压缩，CLIP 语义抗 JPEG 但泛化差——自适应调节器根据输入动态分配两路权重，在 22 个生成模型上建立新 SOTA。
+
 **[coDrawAgents: A Multi-Agent Dialogue Framework for Compositional Image Generation](codrawagents_a_multi-agent_dialogue_framework_for_compositional_image_generation.md)**
 
 :   提出 coDrawAgents，由 Interpreter、Planner、Checker、Painter 四个专家 agent 组成的交互式多智能体对话框架，通过分而治之的增量布局规划、视觉上下文感知推理和显式错误纠正，在 GenEval 上达到 0.94（SOTA）、DPG-Bench 上 85.17（SOTA）。
@@ -190,13 +198,13 @@ description: >-
 
 :   本文提出 ADMMDiff，用交替方向乘子法（ADMM）将无训练条件扩散生成中的"无条件生成"和"条件引导"解耦为两个独立子问题，自动平衡两者无需手调权重超参数，在多种条件生成任务上超越现有方法。
 
-**[Denoising Functional Maps: Diffusion Models for Shape Correspondence](denoising_functional_maps_diffusion_models_for_shape_correspondence.md)**
-
-:   本文提出 DenoisFM，首次用去噪扩散模型直接预测形状间的功能图（functional map），通过模板匹配降低学习复杂度，并提出无监督方法解决拉普拉斯特征向量符号歧义问题，在人体和动物形状匹配上取得有竞争力的性能。
-
 **[Derivative-Free Diffusion Manifold-Constrained Gradient for Unified XAI](derivative-free_diffusion_manifold-constrained_gradient_for_unified_xai.md)**
 
 :   本文提出 FreeMCG，利用扩散模型生成流形上的粒子集合并结合集成卡尔曼滤波近似模型梯度在数据流形上的投影，首次统一了特征归因和反事实解释两大 XAI 任务，且仅需黑盒模型访问。
+
+**[Detecting Adversarial Data Using Perturbation Forgery](detecting_adversarial_data_using_perturbation_forgery.md)**
+
+:   通过建模对抗噪声的高斯分布并证明其近邻性，提出 Perturbation Forgery 方法在训练时持续扰动噪声分布形成开覆盖，配合稀疏掩码生成伪对抗数据训练二分类器，仅需 FGSM 一种攻击的噪声分布就能泛化检测梯度、GAN、扩散和物理等各类未见攻击，AUROC 达 0.99+ 且推理开销极低。
 
 **[DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness](dexgrasp_anything_towards_universal_robotic_dexterous_grasping_with_physics_awar.md)**
 
@@ -278,6 +286,10 @@ description: >-
 
 :   DreamRelation 提出了一种关系感知的定制化图像生成框架，通过精心构建的解耦数据引擎、关键点匹配损失（KML）和局部 token 注入三大设计，在保持多目标身份一致性的同时准确生成文本指定的目标间关系（如拥抱、骑行等），在 RelationBench 上全面超越现有方法。
 
+**[DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning](dreamvideo-omni_omni-motion_controlled_multi-subject_video_customization_with_la.md)**
+
+:   提出 DreamVideo-Omni，通过渐进式两阶段训练范式（Omni-Motion SFT + Latent Identity Reward Feedback Learning），在统一的 DiT 框架中实现多主体定制与全运动控制（全局 bbox + 局部轨迹 + 相机运动）的协同生成。
+
 **[DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation](dual-interrelated_diffusion_model_for_few-shot_anomaly_image_generation.md)**
 
 :   提出 DualAnoDiff，通过双相互关联扩散模型（全局分支生成整体异常图像+异常分支生成局部异常部分）同时生成高质量的异常图像-掩码对，并引入背景补偿模块维持背景和物体形状的一致性，显著提升下游异常检测/定位/分类的性能。
@@ -353,6 +365,10 @@ description: >-
 **[Enhancing Image Aesthetics with Dual-Conditioned Diffusion Models Guided by Multimodal Perception](enhancing_image_aesthetics_with_dual-conditioned_diffusion_models_guided_by_mult.md)**
 
 :   提出 DIAE，通过多模态美学感知模块（MAP）将模糊美学指令转化为 HSV/轮廓图+文本的多模态控制信号，并构建"非完美配对"数据集 IIAEData 配合双分支监督策略实现弱监督美学增强，在 LAION 和 MLLM 美学评分上达 SOTA。
+
+**[Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in Diffusion Models](enhancing_privacy-utility_trade-offs_to_mitigate_memorization_in_diffusion_model.md)**
+
+:   本文提出 PRSS 方法，通过 Prompt Re-anchoring（将记忆化 prompt 重新用作 CFG 的锚点引导生成偏离记忆内容）和 Semantic Prompt Search（用 LLM 搜索语义相似但不触发记忆的替代 prompt）两个策略，在不修改模型和不需要训练数据的推理阶段改进 CFG 方程，实现了扩散模型记忆化缓解中的最优隐私-效用平衡。
 
 **[Enhancing Vision-Language Compositional Understanding with Multimodal Synthetic Data (SPARCL)](enhancing_vision-language_compositional_understanding_with_multimodal_synthetic_.md)**
 
@@ -430,10 +446,6 @@ description: >-
 
 :   提出一种姿态关联参考选择扩散网络，通过姿态相关性模块计算目标-参考姿态间的关联图并自适应选择最相关的参考特征，支持在大幅视角变化（包括镜头推拉）下进行高质量人体动画生成，同时引入了 MSTed 多机位 TED 视频数据集。
 
-**[FreeUV: Ground-Truth-Free Realistic Facial UV Texture Recovery via Cross-Assembly](freeuv_ground-truth-free_realistic_facial_uv_texture_recovery_via_cross-assembly.md)**
-
-:   FreeUV 提出了一种不需要 ground-truth UV 纹理数据的面部 UV 纹理恢复框架，通过分别训练关注真实外观的 UV-to-2D 网络和关注结构一致性的 2D-to-UV 网络，在推理时将两者的 UV 相关模块跨装配（Cross-Assembly）到预训练 Stable Diffusion 中，实现高保真的 UV-to-UV 纹理生成。
-
 **[From Elements to Design: A Layered Approach for Automatic Graphic Design Composition](from_elements_to_design_a_layered_approach_for_automatic_graphic_design_composit.md)**
 
 :   LaDeCo 将平面设计的分层设计原则引入大型多模态模型（LMM），先用 GPT-4o 对多模态设计元素进行语义层规划，再按层逐步预测元素属性并渲染中间结果反馈给模型，将复杂的设计合成任务分解为可管理的子步骤，在设计合成质量上大幅超越基线方法。
@@ -457,6 +469,14 @@ description: >-
 **[Generative Image Layer Decomposition with Visual Effects](generative_image_layer_decomposition_with_visual_effects.md)**
 
 :   LayerDecomp 提出了一个基于 Diffusion Transformer 的图像图层分解框架，将输入图像分解为干净的 RGB 背景层和带有透明视觉效果（阴影、反射）的 RGBA 前景层，通过一致性损失在无标注数据上也能学到正确的前景表示，大幅超越现有物体移除和空间编辑方法。
+
+**[Generative Modeling of Class Probability for Multi-Modal Representation Learning](generative_modeling_of_class_probability_for_multi-modal_representation_learning.md)**
+
+:   CALM 通过类锚点（class anchors）将视频和文本特征映射到统一的概率分布空间，再用跨模态 VAE 建模模态间不确定性，在域内检索（MSR-VTT R@1 50.8%）和跨域检索（MSR-VTT→DiDeMo R@1 41.2%）上均超越 SOTA，仅增加 0.5M 参数。
+
+**[Generative Modeling of Class Probability for Multi-Modal Representation Learning](generative_modeling_of_class_probability_for_multi_modal_representation_learning.md)**
+
+:   CALM（Class-anchor-ALigned generative Modeling）提出用独立类别标签作为锚点，生成各模态与锚点的概率分布并通过跨模态概率 VAE 对齐，有效缓解视频文本之间的信息不平衡和模态差异问题，在四个benchmark上显著超越SOTA，尤其在跨域泛化性上表现突出。
 
 **[Generative Multimodal Pretraining with Discrete Diffusion Timestep Tokens](generative_multimodal_pretraining_with_discrete_diffusion_timestep_tokens.md)**
 
@@ -686,10 +706,6 @@ description: >-
 
 :   提出 MixerMDM，首个可学习的运动扩散模型组合技术，通过 Transformer-based Mixer 模块预测动态混合权重，以对抗训练方式学习如何融合个体运动和交互运动扩散模型，实现细粒度可控的人-人交互运动生成。
 
-**[MLLM-as-a-Judge for Image Safety without Human Labeling](mllm-as-a-judge_for_image_safety_without_human_labeling.md)**
-
-:   提出 CLUE 框架，通过规则客观化、CLIP 相关性扫描、前置条件链分解和去偏 token 概率分析，实现无需人工标注的零样本图像安全判定，在多个 MLLM 上大幅超越基线。
-
 **[MMAR: Towards Lossless Multi-Modal Auto-Regressive Probabilistic Modeling](mmar_towards_lossless_multi-modal_auto-regressive_probabilistic_modeling.md)**
 
 :   首次将连续图像表示与离散文本表示整合到统一自回归概率建模框架中，通过轻量扩散头替代 VQ 离散化避免信息损失，并推导出 v-prediction 为最优参数化以解决低精度训练下的数值误差问题。
@@ -846,6 +862,10 @@ description: >-
 
 :   PICD 提出了一种通用的感知图像压缩框架，通过将文本信息无损编码并与压缩图像一起用扩散模型"渲染"融合，在三个层次（领域级、适配器级、实例级）改进条件扩散模型，同时实现屏幕内容和自然图像的高视觉质量与高文本精确度。
 
+**[Pippo: High-Resolution Multi-View Humans from a Single Image](pippo_high-resolution_multi-view_humans_from_a_single_image.md)**
+
+:   Pippo提出了一种多视图扩散Transformer，从单张随手拍照片生成1K分辨率的人体环绕视频，通过三阶段训练策略（预训练30亿人体图像+中训+后训）和推理时注意力偏置技术，实现超过训练视图数5倍的生成能力。
+
 **[PQPP: A Joint Benchmark for Text-to-Image Prompt and Query Performance Prediction](pqpp_a_joint_benchmark_for_text-to-image_prompt_and_query_performance_prediction.md)**
 
 :   提出 PQPP，首个联合文本到图像生成和检索的 Prompt/Query 性能预测基准，包含超过 10K 查询和 160 万条人工标注，发现生成与检索的查询难度几乎不相关（Pearson 仅 0.135）。
@@ -885,6 +905,10 @@ description: >-
 **[Re-HOLD: Video Hand Object Interaction Reenactment via Adaptive Layout-instructed Diffusion Model](re-hold_video_hand_object_interaction_reenactment_via_adaptive_layout-instructed.md)**
 
 :   提出 Re-HOLD，首个以人为中心的手物交互(HOI)视频重演框架，通过分离式布局表示解耦手和物体建模，结合交互纹理增强模块和自适应布局调整策略，实现跨物体高保真 HOI 视频生成。
+
+**[Reanimating Images using Neural Representations of Dynamic Stimuli](reanimating_images_using_neural_representations_of_dynamic_stimuli.md)**
+
+:   提出 BrainNRDS 框架，将静态图像表征与运动生成解耦，利用 fMRI 脑活动解码光流信息，结合运动条件扩散模型从初始帧生成视频，同时发现视频编码器（VideoMAE）在预测脑活动方面优于图像编码器。
 
 **[Rectified Diffusion Guidance for Conditional Generation](rectified_diffusion_guidance_for_conditional_generation.md)**
 
@@ -997,10 +1021,6 @@ description: >-
 **[StableAnimator: High-Quality Identity-Preserving Human Image Animation](stableanimator_high-quality_identity-preserving_human_image_animation.md)**
 
 :   StableAnimator 提出首个端到端的身份保持视频扩散框架，通过全局内容感知 Face Encoder 和分布感知 ID Adapter 在训练中维护身份一致性，并在推理时利用 Hamilton-Jacobi-Bellman（HJB）方程优化面部质量，无需任何后处理工具即可生成高保真的人物动画视频。
-
-**[StdGEN: Semantic-Decomposed 3D Character Generation from Single Images](stdgen_semantic-decomposed_3d_character_generation_from_single_images.md)**
-
-:   StdGEN 提出了一个从单张图像高效生成语义分解（身体/衣服/头发分离）的高质量 3D 角色的流水线，核心是 Semantic-aware Large Reconstruction Model (S-LRM)，通过在 NeRF/SDF 中引入语义场实现前馈式的几何-颜色-语义联合重建，3 分钟内即可生成可直接用于游戏/动画的分层 3D 角色。
 
 **[Stretching Each Dollar: Diffusion Training from Scratch on a Micro-Budget](stretching_each_dollar_diffusion_training_from_scratch_on_a_micro-budget.md)**
 
@@ -1153,6 +1173,10 @@ description: >-
 **[V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration](v-bridge_bridging_video_generative_priors_to_versatile_few-shot_image_restoratio.md)**
 
 :   将图像复原重新定义为**渐进式视频生成过程**，利用预训练视频生成模型（Wan2.2-TI2V-5B）的先验知识，仅用 1,000 个多任务训练样本（不到现有方法的 2%）即可实现竞争力的多任务图像复原。
+
+**[VerbDiff: Text-Only Diffusion Models with Enhanced Interaction Awareness](verbdiff_text-only_diffusion_models_with_enhanced_interaction_awareness.md)**
+
+:   提出 VerbDiff，一个无需额外条件（如边界框）即可生成准确人物交互图像的文本到图像扩散模型，通过关系解耦引导（RDG）消除交互词偏差，利用交互区域模块（IR Module）从交叉注意力图中提取局部交互区域进行方向引导。
 
 **[VideoWorld: Exploring Knowledge Learning from Unlabeled Videos](videoworld_exploring_knowledge_learning_from_unlabeled_videos.md)**
 

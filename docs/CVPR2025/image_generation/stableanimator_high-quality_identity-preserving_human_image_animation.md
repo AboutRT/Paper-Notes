@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.17697](https://arxiv.org/abs/2411.17697)  
-**代码**: https://francis-rings.github.io/StableAnimator  
+**代码**: [https://francis-rings.github.io/StableAnimator](https://francis-rings.github.io/StableAnimator)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 人物图像动画, 身份保持, 视频扩散模型, HJB方程, 面部优化
 
@@ -137,7 +137,7 @@ StableAnimator 基于 Stable Video Diffusion（SVD）。参考图像通过三条
 - [\[ICML 2025\] FlexiClip: Locality-Preserving Free-Form Character Animation](../../ICML2025/image_generation/flexiclip_locality-preserving_free-form_character_animation.md)
 - [\[CVPR 2025\] Free-viewpoint Human Animation with Pose-correlated Reference Selection](free-viewpoint_human_animation_with_pose-correlated_reference_selection.md)
 - [\[CVPR 2025\] EmoDubber: Towards High Quality and Emotion Controllable Movie Dubbing](emodubber_towards_high_quality_and_emotion_controllable_movie_dubbing.md)
-- [\[CVPR 2025\] OmniStyle: Filtering High Quality Style Transfer Data at Scale](omnistyle_filtering_high_quality_style_transfer_data_at_scale.md)
 - [\[CVPR 2025\] ArtiFade: Learning to Generate High-quality Subject from Blemished Images](artifade_learning_to_generate_high-quality_subject_from_blemished_images.md)
+- [\[CVPR 2025\] OmniStyle: Filtering High Quality Style Transfer Data at Scale](omnistyle_filtering_high_quality_style_transfer_data_at_scale.md)
 
 <!-- RELATED:END -->

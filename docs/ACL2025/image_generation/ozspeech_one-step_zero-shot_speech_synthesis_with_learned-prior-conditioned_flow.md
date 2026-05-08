@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2505.12800](https://arxiv.org/abs/2505.12800)  
 **代码**: [OZSpeech Demo](https://ozspeech.github.io/OZSpeech_Web/)  
-**领域**: 语音合成 / Zero-Shot TTS  
+**领域**: 图像生成  
 **关键词**: Flow Matching, Zero-Shot TTS, One-Step Sampling, Learned Prior, Neural Codec  
 
 ## 一句话总结

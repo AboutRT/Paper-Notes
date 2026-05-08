@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.18825](https://arxiv.org/abs/2510.18825)  
-**代码**: https://github.com/null-xyj/M3Dphormer  
+**代码**: [https://github.com/null-xyj/M3Dphormer](https://github.com/null-xyj/M3Dphormer)  
 **领域**: 图学习  
 **关键词**: Graph Transformer, Attention Mask, Mixture of Experts, Hierarchical Interaction, Node Classification
 

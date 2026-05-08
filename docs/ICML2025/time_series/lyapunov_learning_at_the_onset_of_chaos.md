@@ -53,13 +53,13 @@ Lyapunov Learning 的整体思路可以分为三步：
 
 1. **Lyapunov 指数计算模块**：  
    对于神经网络生成的序列，在每个时间步计算网络关于输入的 Jacobian 矩阵 $\mathbf{J}(\mathbf{x}_t)$，然后通过有限时间 $T$ 的矩阵乘积估计 Lyapunov 指数：
-   $$\Lambda = \lim_{T \to \infty} \frac{1}{T} \ln \left| \prod_{t=0}^{T} \mathbf{J}(\mathbf{x}_t) \right|$$
+    $\Lambda = \lim_{T \to \infty} \frac{1}{T} \ln \left| \prod_{t=0}^{T} \mathbf{J}(\mathbf{x}_t) \right|$
    实际实现中使用 QR 分解来稳定地估计矩阵乘积的特征值。关键在于整个计算过程对网络权重 $\mathbf{w}$ 是可微分的，因此可以直接通过反向传播优化。  
    **设计动机**：Lyapunov 指数是判断动力系统混沌性的标准工具——正值代表轨迹指数发散（混沌），负值代表收敛（稳定），零值代表周期行为。通过控制这些指数，可以精确操控网络的动力学行为。
 
 2. **混沌边缘正则化**：  
    总损失函数设计为：
-   $$\mathcal{L}(\mathbf{x}_t, \hat{\mathbf{x}}_t) = \mathcal{L}_{\text{MSE}}(\mathbf{x}_t, \hat{\mathbf{x}}_t) + \alpha |\lambda|$$
+    $\mathcal{L}(\mathbf{x}_t, \hat{\mathbf{x}}_t) = \mathcal{L}_{\text{MSE}}(\mathbf{x}_t, \hat{\mathbf{x}}_t) + \alpha |\lambda|$
    其中 $\lambda$ 是最大 Lyapunov 指数，$\alpha$ 控制正则化强度。使用 $|\lambda|$ 而非 $\lambda$ 是因为目标是将最大 Lyapunov 指数推向零——即混沌边缘——而非让系统变得完全混沌。  
    **设计动机**：在混沌边缘，系统具有最大的适应性——既有足够的不稳定性来探索新的解空间方向，又保持足够的稳定性不至于发散。这正对应了 Kauffman 的 Adjacent Possible 概念：系统通过对已知元素的微小修改来扩展可能性空间。
 

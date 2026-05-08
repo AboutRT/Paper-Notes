@@ -5,7 +5,7 @@ description: >-
   [ICML2025][Generative Flow Networks] 提出 Ergodic Generative Flows (EGFs)，通过有限个全局微分同胚构建生成流，利用遍历性 (ergodicity) 保证通用性，并设计 KL-weakFM 损失实现无需独立奖励模型的模仿学习训练，在 NASA 地球科学数据集上以 30 倍更小的模型超越基线。
 tags:
   - ICML2025
-  - Generative Flow Networks
+  - 强化学习
   - 遍历性
   - 微分同胚
   - flow-matching
@@ -164,8 +164,8 @@ $$\mathcal{L}^{\text{div}}_{\text{FM}} = \mathbb{E}_{\underline{s}} \sum_{t=1}^\
 
 - [\[ICLR 2026\] Value Flows](../../ICLR2026/reinforcement_learning/value_flows.md)
 - [\[NeurIPS 2025\] A Theory of Multi-Agent Generative Flow Networks](../../NeurIPS2025/reinforcement_learning/a_theory_of_multi-agent_generative_flow_networks.md)
-- [\[ICLR 2026\] ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation](../../ICLR2026/reinforcement_learning/reform_reflected_flows_for_on-support_offline_rl_via_noise_manipulation.md)
-- [\[AAAI 2026\] One-Step Generative Policies with Q-Learning: A Reformulation of MeanFlow](../../AAAI2026/reinforcement_learning/one-step_generative_policies_with_q-learning_a_reformulation_of_meanflow.md)
+- [\[ICML 2025\] Action-Constrained Imitation Learning](action-constrained_imitation_learning.md)
 - [\[ICLR 2026\] UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings](../../ICLR2026/reinforcement_learning/ume-r1_exploring_reasoning-driven_generative_multimodal_embeddings.md)
+- [\[ICLR 2026\] ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation](../../ICLR2026/reinforcement_learning/reform_reflected_flows_for_on-support_offline_rl_via_noise_manipulation.md)
 
 <!-- RELATED:END -->

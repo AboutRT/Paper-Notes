@@ -54,11 +54,11 @@ Performative prediction 的 RRM 更新为 $\theta^{t+1} = \arg\min_\theta \mathb
 
    **Mofakhami 框架下**（Theorem 2）：存在问题实例使得
 
-   $$\|f_{\theta^t} - f_{\theta_{\text{PS}}}\|_{f_{\theta_{\text{PS}}}} = \Omega\left(\left(\frac{\sqrt{\epsilon}M}{\gamma}\right)^t\right)$$
+    $\|f_{\theta^t} - f_{\theta_{\text{PS}}}\|_{f_{\theta_{\text{PS}}}} = \Omega\left(\left(\frac{\sqrt{\epsilon}M}{\gamma}\right)^t\right)$
 
    **Perdomo 框架下**（Theorem 3）：存在问题实例使得
 
-   $$\|\theta^t - \theta_{\text{PS}}\| = \Omega\left(\left(\frac{\epsilon\beta}{\gamma}\right)^t \|\theta_0 - \theta_{\text{PS}}\|\right)$$
+    $\|\theta^t - \theta_{\text{PS}}\| = \Omega\left(\left(\frac{\epsilon\beta}{\gamma}\right)^t \|\theta_0 - \theta_{\text{PS}}\|\right)$
 
    **证明技术**：受 Nesterov 凸优化下界证明的启发，构造一个特殊的矩阵 $A$（下三角全 1 矩阵），每次 RRM 迭代"发现"一个新维度。损失函数取 $\ell(f_\theta(x),y) = \frac{\gamma}{2}\|\theta - \frac{\beta}{\gamma}z\|^2$，分布映射取 $\mathcal{D}(\theta) = \mathcal{N}(\frac{\epsilon}{2}A\theta + e_1, \sigma^2)$。这确保 RRM 更新遵循 $\theta^{t+1} = \frac{\beta}{\gamma}(\frac{\epsilon}{2}A\theta^t + e_1)$，通过未发现维度的贡献累积得到下界。
 
@@ -66,7 +66,7 @@ Performative prediction 的 RRM 更新为 $\theta^{t+1} = \arg\min_\theta \mathb
 
 3. **Affine Risk Minimizers (ARM)（Section 5）**：核心创新——利用历史快照数据的仿射组合：
 
-   $$D_t = \sum_{i=0}^{t-1} \alpha_i^{(t)} D(f_{\theta^i}), \quad \sum_{i=0}^{t-1}\alpha_i^{(t)} = 1$$
+    $D_t = \sum_{i=0}^{t-1} \alpha_i^{(t)} D(f_{\theta^i}), \quad \sum_{i=0}^{t-1}\alpha_i^{(t)} = 1$
 
    **Lemma 1（2-Snapshots ARM）**：仅使用最近两次快照的平均 $D_t = \frac{1}{2}D(f_{\theta^t}) + \frac{1}{2}D(f_{\theta^{t-1}})$，收敛条件从 $\frac{\sqrt{\epsilon}M}{\gamma} < 1$ 放宽到 $\frac{\sqrt{3}}{2}\frac{\sqrt{\epsilon}M}{\gamma} < 1$，等价于 $\frac{\sqrt{\epsilon}M}{\gamma} < \frac{2}{\sqrt{3}} \approx 1.155$。
 
@@ -141,10 +141,10 @@ ARM 的实际实现是在每步 $t$ 对最近 $\tau$ 个快照的数据做均匀
 
 ## 相关论文
 
-- [\[ACL 2025\] Movie101v2: Improved Movie Narration Benchmark](../../ACL2025/llm_evaluation/movie101v2_improved_movie_narration_benchmark.md)
+- [\[AAAI 2026\] Towards a Rigorous Understanding of the Population Dynamics of the NSGA-III: Tight Runtime Bounds](../../AAAI2026/llm_evaluation/towards_a_rigorous_understanding_of_the_population_dynamics_of_the_nsga-iii_tigh.md)
 - [\[NeurIPS 2025\] Conformal Prediction in The Loop: A Feedback-Based Uncertainty Model for Trajectory Optimization](conformal_prediction_in_the_loop_a_feedback-based_uncertainty_model_for_trajecto.md)
+- [\[ACL 2025\] Movie101v2: Improved Movie Narration Benchmark](../../ACL2025/llm_evaluation/movie101v2_improved_movie_narration_benchmark.md)
 - [\[ICML 2025\] Improved and Oracle-Efficient Online $\ell_1$-Multicalibration](../../ICML2025/llm_evaluation/improved_and_oracle-efficient_online_ell_1-multicalibration.md)
-- [\[ICLR 2026\] Non-Clashing Teaching in Graphs: Algorithms, Complexity, and Bounds](../../ICLR2026/llm_evaluation/non-clashing_teaching_in_graphs_algorithms_complexity_and_bounds.md)
-- [\[NeurIPS 2025\] Let the Experts Speak: Improving Survival Prediction & Calibration via Mixture-of-Experts Heads](let_the_experts_speak_improving_survival_prediction_calibration_via_mixture-of-e.md)
+- [\[ICCV 2025\] DisCoPatch: Taming Adversarially-driven Batch Statistics for Improved Out-of-Distribution Detection](../../ICCV2025/llm_evaluation/discopatch_taming_adversarially-driven_batch_statistics_for_improved_out-of-dist.md)
 
 <!-- RELATED:END -->

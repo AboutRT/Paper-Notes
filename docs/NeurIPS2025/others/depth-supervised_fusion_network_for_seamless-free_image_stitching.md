@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 图像拼接
   - 深度监督
-  - 大视差对齐
+  - 其他
   - 软缝合融合
   - 重参数化
 ---
@@ -172,10 +172,10 @@ DSFN 是最快的方法——尽管引入了深度估计和推理过程。
 
 ## 相关论文
 
-- [\[ICCV 2025\] Revisiting Image Fusion for Multi-Illuminant White-Balance Correction](../../ICCV2025/others/revisiting_image_fusion_for_multi-illuminant_white-balance_correction.md)
 - [\[ECCV 2024\] Momentum Auxiliary Network for Supervised Local Learning](../../ECCV2024/others/momentum_auxiliary_network_for_supervised_local_learning.md)
-- [\[NeurIPS 2025\] Depth-Bounds for Neural Networks via the Braid Arrangement](depth-bounds_for_neural_networks_via_the_braid_arrangement.md)
-- [\[ECCV 2024\] HPFF: Hierarchical Locally Supervised Learning with Patch Feature Fusion](../../ECCV2024/others/hpff_hierarchical_locally_supervised_learning_with_patch_feature_fusion.md)
-- [\[NeurIPS 2025\] Prediction-Powered Semi-Supervised Learning with Online Power Tuning](prediction-powered_semi-supervised_learning_with_online_power_tuning.md)
+- [\[NeurIPS 2025\] Semi-supervised Graph Anomaly Detection via Robust Homophily Learning](semi-supervised_graph_anomaly_detection_via_robust_homophily_learning.md)
+- [\[ICCV 2025\] Revisiting Image Fusion for Multi-Illuminant White-Balance Correction](../../ICCV2025/others/revisiting_image_fusion_for_multi-illuminant_white-balance_correction.md)
+- [\[NeurIPS 2025\] FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees](fsnet_feasibility-seeking_neural_network_for_constrained_optimization_with_guara.md)
+- [\[NeurIPS 2025\] Neural Network for Simulating Radio Emission from Extensive Air Showers](neural_network_for_simulating_radio_emission_from_extensive_air_showers.md)
 
 <!-- RELATED:END -->

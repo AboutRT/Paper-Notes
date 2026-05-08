@@ -10,14 +10,14 @@ tags:
   - Transformer
   - 高效VLM
   - token压缩
-  - TTFT优化
+  - 多模态VLM
 ---
 
 # FastVLM: Efficient Vision Encoding for Vision Language Models
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.13303](https://arxiv.org/abs/2412.13303)  
-**代码**: https://github.com/apple/ml-fastvlm  
+**代码**: [https://github.com/apple/ml-fastvlm](https://github.com/apple/ml-fastvlm)  
 **领域**: 多模态VLM  
 **关键词**: 视觉编码器、混合卷积-Transformer、高效VLM、token压缩、TTFT优化
 
@@ -121,10 +121,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Skip Tuning: Pre-trained Vision-Language Models are Effective and Efficient Adapters Themselves](skip_tuning_pre-trained_vision-language_models_are_effective_and_efficient_adapt.md)
-- [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](../../ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_vision-language_models.md)
-- [\[CVPR 2025\] NVILA: Efficient Frontier Visual Language Models](nvila_efficient_frontier_visual_language_models.md)
 - [\[CVPR 2025\] ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models](forensiczip_more_tokens_are_better_but_not_necessary_in_forensic_vision-language.md)
+- [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](../../ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_visionlanguage_model.md)
+- [\[CVPR 2025\] NVILA: Efficient Frontier Visual Language Models](nvila_efficient_frontier_visual_language_models.md)
 - [\[CVPR 2025\] What's in the Image? A Deep-Dive into the Vision of Vision Language Models](whats_in_the_image_a_deep-dive_into_the_vision_of_vision_language_models.md)
+- [\[CVPR 2025\] Taxonomy-Aware Evaluation of Vision-Language Models](taxonomy-aware_evaluation_of_vision-language_models.md)
 
 <!-- RELATED:END -->

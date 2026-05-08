@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2510.15337](https://arxiv.org/abs/2510.15337)  
 **作者**: Yeichan Kim (Yonsei University), Ilmun Kim (KAIST), Seyoung Park (Yonsei University)  
 **代码**: 未公开  
-**领域**: others  
+**领域**: 其他  
 **关键词**: 迁移学习, 良性过拟合, 高维线性回归, 最小范数插值, 协变量偏移, 模型偏移  
 
 ## 一句话总结

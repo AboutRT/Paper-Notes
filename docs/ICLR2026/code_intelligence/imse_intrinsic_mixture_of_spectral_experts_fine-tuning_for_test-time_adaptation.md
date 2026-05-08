@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.07926](https://arxiv.org/abs/2603.07926)  
 **代码**: [github](https://github.com/baek85/IMSE)  
-**领域**: llm_efficiency  
+**领域**: 代码智能  
 **关键词**: test-time adaptation, singular value decomposition, mixture of experts, continual adaptation, distribution shift
 
 ## 一句话总结

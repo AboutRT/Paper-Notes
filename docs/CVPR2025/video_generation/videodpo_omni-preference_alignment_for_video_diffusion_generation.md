@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 视频扩散模型
-  - DPO偏好对齐
+  - 视频生成
   - 视频质量评估
   - 数据重加权
   - 文本到视频
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.14167](https://arxiv.org/abs/2412.14167)  
-**代码**: https://videodpo.github.io/  
+**代码**: [https://videodpo.github.io/](https://videodpo.github.io/)  
 **领域**: 扩散模型 / 视频生成  
 **关键词**: 视频扩散模型, DPO偏好对齐, 视频质量评估, 数据重加权, 文本到视频
 
@@ -138,8 +138,8 @@ VBench 综合评测（Total = Quality + Semantics 加权）：
 
 - [\[AAAI 2026\] OmniVDiff: Omni Controllable Video Diffusion for Generation and Understanding](../../AAAI2026/video_generation/omnivdiff_omni_controllable_video_diffusion_for_generation_and_understanding.md)
 - [\[CVPR 2025\] Can Text-to-Video Generation Help Video-Language Alignment?](can_text-to-video_generation_help_video-language_alignment.md)
-- [\[ICCV 2025\] V.I.P.: Iterative Online Preference Distillation for Efficient Video Diffusion Models](../../ICCV2025/video_generation/vip_iterative_online_preference_distillation_for_efficient_video_diffusion_model.md)
-- [\[ICCV 2025\] Prompt-A-Video: Prompt Your Video Diffusion Model via Preference-Aligned LLM](../../ICCV2025/video_generation/prompt-a-video_prompt_your_video_diffusion_model_via_preference-aligned_llm.md)
 - [\[CVPR 2025\] Articulated Kinematics Distillation from Video Diffusion Models](articulated_kinematics_distillation_from_video_diffusion_models.md)
+- [\[CVPR 2025\] Learning Temporally Consistent Video Depth from Video Diffusion Priors](learning_temporally_consistent_video_depth_from_video_diffusion_priors.md)
+- [\[CVPR 2025\] StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models](streetcrafter_street_view_synthesis_with_controllable_video_diffusion_models.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.14433](https://arxiv.org/abs/2503.14433)  
 **代码**: [GitHub](https://github.com/MeLeLBGU/Splintering)  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: tokenization, nonconcatenative morphology, Hebrew, Arabic, Malay, BPE, subword
 
 ## 一句话总结
@@ -128,7 +128,7 @@ Schmidt et al. 指出压缩率不应是评估分词器的唯一标准。Splinter
 - [\[ACL 2025\] Adversarial Tokenization](adversarial_tokenization.md)
 - [\[ACL 2025\] Tokenization is Sensitive to Language Variation](tokenization_is_sensitive_to_language_variation.md)
 - [\[ICML 2025\] Evaluating Morphological Alignment of Tokenizers in 70 Languages](../../ICML2025/llm_pretraining/evaluating_morphological_alignment_of_tokenizers_in_70_languages.md)
-- [\[ACL 2025\] Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning](making_llms_better_many-to-many_speech-to-text_translators_with_curriculum_learn.md)
 - [\[ACL 2025\] Between Circuits and Chomsky: Pre-pretraining on Formal Languages Imparts Linguistic Biases](between_circuits_chomsky.md)
+- [\[ACL 2025\] Incorporating Domain Knowledge into Materials Tokenization](incorporating_domain_knowledge_into_materials_tokenization.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 视频描述
-  - benchmark
+  - 视频生成
   - 文生视频
   - caption评估
   - 多维度评价
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.12782](https://arxiv.org/abs/2502.12782)  
-**代码**: https://github.com/VidCapBench/VidCapBench (有)  
+**代码**: [https://github.com/VidCapBench/VidCapBench](https://github.com/VidCapBench/VidCapBench)  
 **领域**: 视频理解 / 视频生成  
 **关键词**: 视频描述, benchmark, 文生视频, caption评估, 多维度评价
 
@@ -133,9 +133,9 @@ Pearson 相关系数 r > 0.8，证明 VidCapBench 分数与 T2V 质量高度正�
 ## 相关论文
 
 - [\[CVPR 2026\] ActivityForensics: A Comprehensive Benchmark for Localizing Manipulated Activity in Videos](../../CVPR2026/video_generation/activityforensics_a_comprehensive_benchmark_for_localizing_manipulated_activity_.md)
-- [\[CVPR 2025\] Video-Bench: Human-Aligned Video Generation Benchmark](../../CVPR2025/video_generation/video-bench_human-aligned_video_generation_benchmark.md)
-- [\[ICCV 2025\] VMBench: A Benchmark for Perception-Aligned Video Motion Generation](../../ICCV2025/video_generation/vmbench_a_benchmark_for_perception-aligned_video_motion_generation.md)
 - [\[CVPR 2025\] VEU-Bench: Towards Comprehensive Understanding of Video Editing](../../CVPR2025/video_generation/veu-bench_towards_comprehensive_understanding_of_video_editing.md)
 - [\[CVPR 2026\] SLVMEval: Synthetic Meta Evaluation Benchmark for Text-to-Long Video Generation](../../CVPR2026/video_generation/slvmeval_synthetic_meta_evaluation_benchmark_for_text-to-long_video_generation.md)
+- [\[CVPR 2025\] Video-Bench: Human-Aligned Video Generation Benchmark](../../CVPR2025/video_generation/video-bench_human-aligned_video_generation_benchmark.md)
+- [\[ICCV 2025\] WorldScore: A Unified Evaluation Benchmark for World Generation](../../ICCV2025/video_generation/worldscore_a_unified_evaluation_benchmark_for_world_generation.md)
 
 <!-- RELATED:END -->

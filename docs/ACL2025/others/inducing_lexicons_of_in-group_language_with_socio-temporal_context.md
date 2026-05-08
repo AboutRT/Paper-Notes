@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2409.19257](https://arxiv.org/abs/2409.19257)  
 **代码**: [GitHub](https://github.com/unimelb-nlp/listn)  
-**领域**: NLP / 计算社会语言学  
+**领域**: 其他  
 **关键词**: 词汇归纳, 群体内语言, 动态嵌入, 社会时序建模, manosphere
 
 ## 一句话总结
@@ -185,8 +185,8 @@ LISTN 分为两步：
 
 - [\[ACL 2025\] Autalic: A Dataset for Anti-Autistic Ableist Language In Context](autalic_a_dataset_for_anti-autistic_ableist_language_in_context.md)
 - [\[ACL 2025\] Attention Entropy is a Key Factor for Parallel Context Encoding](attention_entropy_parallel_encoding.md)
+- [\[ACL 2025\] The Time Scale of Redundancy between Prosody and Linguistic Context](the_time_scale_of_redundancy_between_prosody_and_linguistic_context.md)
 - [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
 - [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
-- [\[ACL 2025\] Temporal Reasoning for Timeline Summarisation in Social Media](temporal_reasoning_for_timeline_summarisation_in_social_media.md)
 
 <!-- RELATED:END -->

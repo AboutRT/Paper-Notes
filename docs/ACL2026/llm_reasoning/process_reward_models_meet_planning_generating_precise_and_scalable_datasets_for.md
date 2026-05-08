@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.17957](https://arxiv.org/abs/2604.17957)  
-**代码**: https://github.com/Babelscape/prm-meets-planning/  
+**代码**: [https://github.com/Babelscape/prm-meets-planning/](https://github.com/Babelscape/prm-meets-planning/)  
 **领域**: LLM推理  
 **关键词**: 过程奖励模型, PDDL, 规划问题, 步骤级奖励, 推理评估
 

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13007](https://arxiv.org/abs/2603.13007)  
 **代码**: 未公开  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: Diffusion Probabilistic Models, MRI Reconstruction, Foundation Models, Stroke MRI, Fine-tuning
 
 ## 一句话总结

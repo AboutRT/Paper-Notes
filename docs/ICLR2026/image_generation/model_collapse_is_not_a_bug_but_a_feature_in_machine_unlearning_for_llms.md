@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2507.04219](https://arxiv.org/abs/2507.04219)  
 **代码**: [TUM DAML - Partial Model Collapse](https://www.cs.cit.tum.de/daml/partial-model-collapse/)  
-**领域**: AI Safety / LLM Unlearning  
+**领域**: 图像生成  
 **关键词**: machine unlearning, model collapse, partial model collapse, LLM privacy, iterative relearning
 
 ## 一句话总结

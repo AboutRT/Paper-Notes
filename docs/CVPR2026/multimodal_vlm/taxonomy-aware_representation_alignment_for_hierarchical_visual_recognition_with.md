@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 层次化视觉识别
   - 生物分类学
-  - 表示对齐
+  - 多模态VLM
   - 生物基础模型
   - 强化学习微调
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.00431](https://arxiv.org/abs/2603.00431)  
-**代码**: https://github.com/PKU-ICST-MIPL/TARA_CVPR2026  
+**代码**: [https://github.com/PKU-ICST-MIPL/TARA_CVPR2026](https://github.com/PKU-ICST-MIPL/TARA_CVPR2026)  
 **领域**: 多模态VLM  
 **关键词**: 层次化视觉识别, 生物分类学, 表示对齐, 生物基础模型, 强化学习微调
 
@@ -119,9 +119,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] Predictive Regularization Against Visual Representation Degradation in Multimodal Large Language Models](predictive_regularization_against_visual_representation_degradation_in_multimoda.md)
-- [\[CVPR 2026\] CoVFT: Context-aware Visual Fine-tuning for Multimodal Large Language Models](covft_context-aware_visual_fine-tuning_for_multimodal_large_language_models.md)
 - [\[CVPR 2026\] The LLM Bottleneck: Why Open-Source Vision LLMs Struggle with Hierarchical Visual Recognition](the_llm_bottleneck_why_open-source_vision_llms_struggle_with_hierarchical_visual.md)
 - [\[CVPR 2026\] HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models](hawk_head_importance-aware_visual_token_pruning_in_multimodal_models.md)
 - [\[CVPR 2026\] Beyond Recognition: Evaluating Visual Perspective Taking in Vision Language Models](beyond_recognition_evaluating_visual_perspective_taking_in_vision_language_model.md)
+- [\[CVPR 2026\] MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models](masquant_modality-aware_smoothing_quantization_for_multimodal_large_language_mod.md)
 
 <!-- RELATED:END -->

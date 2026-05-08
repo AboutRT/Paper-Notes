@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18601](https://arxiv.org/abs/2505.18601)  
 **代码**: [https://flex-judge.github.io](https://flex-judge.github.io)  
-**领域**: image_generation / multimodal evaluation  
+**领域**: 图像生成  
 **关键词**: LLM-as-a-Judge, 多模态评估, 推理引导, 跨模态迁移, 零样本泛化, 偏好优化  
 
 ## 一句话总结
@@ -174,7 +174,7 @@ Flex-VL-7B 配合多数投票，总体性能超过 GPT-4o。
 - [\[NeurIPS 2025\] Towards Robust Zero-Shot Reinforcement Learning](towards_robust_zero-shot_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Evaluating the Evaluators: Metrics for Compositional Text-to-Image Generation](evaluating_the_evaluators_metrics_for_compositional_text-to-image_generation.md)
 - [\[NeurIPS 2025\] Semantic Surgery: Zero-Shot Concept Erasure in Diffusion Models](semantic_surgery_zero-shot_concept_erasure_in_diffusion_models.md)
-- [\[ICCV 2025\] Calibrating MLLM-as-a-Judge via Multimodal Bayesian Prompt Ensembles](../../ICCV2025/image_generation/calibrating_mllm-as-a-judge_via_multimodal_bayesian_prompt_ensembles.md)
 - [\[CVPR 2025\] Emuru: Zero-Shot Styled Text Image Generation, but Make It Autoregressive](../../CVPR2025/image_generation/zero-shot_styled_text_image_generation_but_make_it_autoregressive.md)
+- [\[ICCV 2025\] AnyPortal: Zero-Shot Consistent Video Background Replacement](../../ICCV2025/image_generation/anyportal_zero-shot_consistent_video_background_replacement.md)
 
 <!-- RELATED:END -->

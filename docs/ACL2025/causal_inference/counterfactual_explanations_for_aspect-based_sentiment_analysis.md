@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 反事实解释
-  - 方面情感分析
+  - 因果推理
   - 可解释AI
   - 因果推理
   - 情感极性翻转
@@ -15,7 +15,7 @@ tags:
 # Counterfactual Explanations for Aspect-Based Sentiment Analysis
 
 **会议**: ACL 2025  
-**领域**: NLP理解  
+**领域**: 因果推理  
 **关键词**: 反事实解释、方面情感分析、可解释AI、因果推理、情感极性翻转
 
 ## 一句话总结

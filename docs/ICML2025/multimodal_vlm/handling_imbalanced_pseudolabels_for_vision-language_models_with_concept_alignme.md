@@ -9,7 +9,7 @@ tags:
   - VLM伪标签
   - CLIP微调
   - 伪标签不平衡
-  - 概念对齐
+  - 多模态VLM
   - 校准边距
   - 无监督/半监督学习
 ---
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.02056](https://arxiv.org/abs/2505.02056)  
 **代码**: [GitHub](https://anonymous.4open.science/r/CAP-C642/)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: VLM伪标签, CLIP微调, 伪标签不平衡, 概念对齐, 校准边距, 无监督/半监督学习
 
 ## 一句话总结
@@ -137,10 +137,10 @@ $$\mathcal{L}_m(y, \mathbf{z}) = -\log \frac{e^{z_y}}{e^{z_y} + \sum_{c \neq y} 
 
 ## 相关论文
 
-- [\[ICML 2025\] CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization](cocoa-mix_confusion-and-confidence-aware_mixture_model_for_context_optimization.md)
-- [\[CVPR 2026\] CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](../../CVPR2026/multimodal_vlm/capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)
 - [\[ICLR 2026\] Unified Vision-Language Modeling via Concept Space Alignment](../../ICLR2026/multimodal_vlm/unified_vision-language_modeling_via_concept_space_alignment.md)
 - [\[ICML 2025\] Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models](kernel-based_unsupervised_embedding_alignment_for_enhanced_visual_representation.md)
+- [\[ICML 2025\] CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization](cocoa-mix_confusion-and-confidence-aware_mixture_model_for_context_optimization.md)
+- [\[CVPR 2026\] CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](../../CVPR2026/multimodal_vlm/capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)
 - [\[ICCV 2025\] SAUCE: Selective Concept Unlearning in Vision-Language Models with Sparse Autoencoders](../../ICCV2025/multimodal_vlm/sauce_selective_concept_unlearning_in_vision-language_models_with_sparse_autoenc.md)
 
 <!-- RELATED:END -->

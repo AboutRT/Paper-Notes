@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2602.05414](https://arxiv.org/abs/2602.05414)  
 **代码**: [SKKUAutoLab/TSBOW](https://github.com/SKKUAutoLab/TSBOW)  
 **作者**: Ngoc Doan-Minh Huynh, Duong Nguyen-Ngoc Tran, Long Hoang Pham 等 (Sungkyunkwan University)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 目标检测, 交通监控, benchmark数据集, 遮挡检测, 恶劣天气, CCTV  
 
 ## 一句话总结

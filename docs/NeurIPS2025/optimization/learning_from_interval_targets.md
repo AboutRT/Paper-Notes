@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20925](https://arxiv.org/abs/2510.20925)  
 **代码**: [bloomberg/interval_targets](https://github.com/bloomberg/interval_targets)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: interval regression, weak supervision, generalization bound, Lipschitz constraint, minmax learning
 
 ## 一句话总结

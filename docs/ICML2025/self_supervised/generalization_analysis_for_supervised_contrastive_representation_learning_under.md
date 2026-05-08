@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.04937](https://arxiv.org/abs/2505.04937)  
 **代码**: 未提供  
-**领域**: self_supervised  
+**领域**: 自监督  
 **关键词**: 对比学习, 泛化界, U-统计量, 非独立同分布, 表征学习
 
 ## 一句话总结
@@ -134,9 +134,9 @@ $$ER_{un}(\hat{f}_{\mathcal{U}}) \leq \mathcal{O}\left[\sum_c\rho(c)\frac{K_{\ma
 ## 相关论文
 
 - [\[ICML 2025\] Collapse-Proof Non-Contrastive Self-Supervised Learning](collapse-proof_non-contrastive_self-supervised_learning.md)
+- [\[ICML 2025\] Discovering Global False Negatives On the Fly for Self-supervised Contrastive Learning](discovering_global_false_negatives_on_the_fly_for_self-supervised_contrastive_le.md)
 - [\[ECCV 2024\] ViC-MAE: Self-Supervised Representation Learning from Images and Video with Contrastive Masked Autoencoders](../../ECCV2024/self_supervised/vic-mae_self-supervised_representation_learning_from_images_and_video_with_contr.md)
 - [\[ICML 2025\] CLARIFY: Contrastive Preference Reinforcement Learning for Untangling Ambiguous Queries](clarify_contrastive_preference_reinforcement_learning_for_untangling_ambiguous_q.md)
-- [\[ACL 2025\] WhiSPA: Semantically and Psychologically Aligned Whisper with Self-Supervised Contrastive and Student-Teacher Learning](../../ACL2025/self_supervised/whispa_semantically_and_psychologically_aligned_whisper_with_self-supervised_con.md)
-- [\[CVPR 2025\] Learning to Normalize on the SPD Manifold under Bures-Wasserstein Geometry](../../CVPR2025/self_supervised/learning_to_normalize_on_the_spd_manifold_under_bures-wasserstein_geometry.md)
+- [\[NeurIPS 2025\] Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning](../../NeurIPS2025/self_supervised/contrastive_consolidation_of_top-down_modulations_achieves_sparsely_supervised_c.md)
 
 <!-- RELATED:END -->

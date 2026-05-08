@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.14784](https://arxiv.org/abs/2511.14784)  
-**代码**: https://tinyurl.com/2v3dx75x (有)  
-**领域**: Optimization / Clustering  
+**代码**: [https://tinyurl.com/2v3dx75x](https://tinyurl.com/2v3dx75x)  
+**领域**: 优化  
 **关键词**: 凸聚类, 中位数均值估计, 鲁棒聚类, 异常值检测, ADAM优化
 
 ## 一句话总结

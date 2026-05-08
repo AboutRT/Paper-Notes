@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Provable Ordering and Continuity in Vision-Language Pretraining for Generalizable Embodied Agents
 description: >-
-  [NeurIPS 2025][视觉语言预训练] 提出 AcTOL，通过视觉-语言排序损失和布朗桥约束来学习有序且连续的视觉-语言表征，无需刚性目标到达假设，在模拟和真实机器人操作任务上显著提升下游表现。
+  [NeurIPS 2025][强化学习] 提出 AcTOL，通过视觉-语言排序损失和布朗桥约束来学习有序且连续的视觉-语言表征，无需刚性目标到达假设，在模拟和真实机器人操作任务上显著提升下游表现。
 tags:
   - NeurIPS 2025
-  - 视觉语言预训练
+  - 强化学习
   - 体化智能
   - 模仿学习
   - 时序一致性
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.01218](https://arxiv.org/abs/2502.01218)  
-**代码**: https://actol-pretrain.github.io/  
+**代码**: [https://actol-pretrain.github.io/](https://actol-pretrain.github.io/)  
 **领域**: 强化学习  
 **关键词**: 视觉语言预训练, 体化智能, 模仿学习, 时序一致性, 布朗桥
 
@@ -97,9 +97,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
-- [\[NeurIPS 2025\] EgoBridge: Domain Adaptation for Generalizable Imitation from Egocentric Human Data](egobridge_domain_adaptation_for_generalizable_imitation_from_egocentric_human_da.md)
 - [\[NeurIPS 2025\] Towards Provable Emergence of In-Context Reinforcement Learning](towards_provable_emergence_of_in-context_reinforcement_learning.md)
-- [\[ECCV 2024\] Octopus: Embodied Vision-Language Programmer from Environmental Feedback](../../ECCV2024/reinforcement_learning/octopus_embodied_vision-language_programmer_from_environmental_feedback.md)
 - [\[NeurIPS 2025\] Self-Improving Embodied Foundation Models](self-improving_embodied_foundation_models.md)
+- [\[ICCV 2025\] NavQ: Learning a Q-Model for Foresighted Vision-and-Language Navigation](../../ICCV2025/reinforcement_learning/navq_learning_a_q-model_for_foresighted_vision-and-language_navigation.md)
+- [\[NeurIPS 2025\] EgoBridge: Domain Adaptation for Generalizable Imitation from Egocentric Human Data](egobridge_domain_adaptation_for_generalizable_imitation_from_egocentric_human_da.md)
 
 <!-- RELATED:END -->

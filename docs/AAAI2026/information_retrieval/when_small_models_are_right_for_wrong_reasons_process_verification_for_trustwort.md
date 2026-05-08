@@ -2,10 +2,10 @@
 title: >-
   [论文解读] When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents
 description: >-
-  [AAAI 2026][小模型推理] 通过分析 10,734 条推理轨迹揭示小型语言模型（7-9B）存在严重的"答对但理由错"（RWR）现象——50-69% 的正确答案包含根本性推理缺陷；提出推理完整性评分（RIS）作为过程级指标，发现 RAG 能有效改善推理质量而元认知干预反而有害，并蒸馏出快速分类器（0.86 F1, 100× 加速）用于实时部署。
+  [AAAI 2026][信息检索] 通过分析 10,734 条推理轨迹揭示小型语言模型（7-9B）存在严重的"答对但理由错"（RWR）现象——50-69% 的正确答案包含根本性推理缺陷；提出推理完整性评分（RIS）作为过程级指标，发现 RAG 能有效改善推理质量而元认知干预反而有害，并蒸馏出快速分类器（0.86 F1, 100× 加速）用于实时部署。
 tags:
   - AAAI 2026
-  - 小模型推理
+  - 信息检索
   - 过程验证
   - 推理完整性
   - RAG
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.00513](https://arxiv.org/abs/2601.00513)  
 **代码**: 无  
-**领域**: 模型压缩  
+**领域**: 信息检索  
 **关键词**: 小模型推理, 过程验证, 推理完整性, RAG, 元认知
 
 ## 一句话总结
@@ -57,9 +57,9 @@ tags:
 1. **推理完整性评分（Reasoning Integrity Score, RIS）**
 
    RIS 是一个过程级指标，对推理轨迹中的每一步打分：
-   - 1.0 = 完全正确
-   - 0.5 = 部分缺陷
-   - 0.0 = 错误
+    - 1.0 = 完全正确
+    - 0.5 = 部分缺陷
+    - 0.0 = 错误
 
    每条轨迹的 RIS = 所有步骤得分的平均值。RIS < 0.8 的轨迹被判定为"推理有缺陷"。
 
@@ -76,18 +76,18 @@ tags:
 3. **错误分类体系**
 
    对 1000 个缺陷步骤人工分类为四类：
-   - **计算错误**：错误的算术、数字或事实应用
-   - **幻觉**：编造信息
-   - **逻辑跳跃**：无效推理
-   - **其他**
+    - **计算错误**：错误的算术、数字或事实应用
+    - **幻觉**：编造信息
+    - **逻辑跳跃**：无效推理
+    - **其他**
 
 4. **蒸馏验证系统**
 
    训练一个轻量 MLP 分类器预测推理缺陷：
-   - 输入：Sentence-BERT 嵌入（384D）+ 7 个结构特征（步数、轨迹长度等）
-   - 架构：5 层 MLP，约 300K 参数
-   - 训练：80% 数据，Focal Loss（γ=2.0, α=0.25），AdamW
-   - 性能：0.86 macro F1，~5-10ms 推理，100× 加速
+    - 输入：Sentence-BERT 嵌入（384D）+ 7 个结构特征（步数、轨迹长度等）
+    - 架构：5 层 MLP，约 300K 参数
+    - 训练：80% 数据，Focal Loss（γ=2.0, α=0.25），AdamW
+    - 性能：0.86 macro F1，~5-10ms 推理，100× 加速
 
 ### 损失函数 / 训练策略
 
@@ -186,6 +186,6 @@ $$FL(p_t) = -\alpha_t (1 - p_t)^\gamma \log(p_t)$$
 - [\[ICLR 2026\] FutureMind: Equipping Small Language Models with Strategic Thinking-Pattern Priors via Adaptive Knowledge Distillation](../../ICLR2026/information_retrieval/futuremind_equipping_small_language_models_with_strategic_thinking-pattern_prior.md)
 - [\[ACL 2025\] When Claims Evolve: Evaluating and Enhancing the Robustness of Embedding Models Against Misinformation Edits](../../ACL2025/information_retrieval/when_claims_evolve_evaluating_and_enhancing_the_robustness_of_embedding_models_a.md)
 - [\[NeurIPS 2025\] SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG](../../NeurIPS2025/information_retrieval/secon-rag_a_two-stage_semantic_filtering_and_conflict-free_framework_for_trustwo.md)
-- [\[AAAI 2026\] Positional Bias in Multimodal Embedding Models: Do They Favor the Beginning, the Middle, or the End?](positional_bias_in_multimodal_embedding_models_do_they_favor_the_beginning_the_m.md)
+- [\[ACL 2026\] Enhancing LLM-based Search Agents via Contribution Weighted Group Relative Policy Optimization](../../ACL2026/information_retrieval/enhancing_llm-based_search_agents_via_contribution_weighted_group_relative_polic.md)
 
 <!-- RELATED:END -->

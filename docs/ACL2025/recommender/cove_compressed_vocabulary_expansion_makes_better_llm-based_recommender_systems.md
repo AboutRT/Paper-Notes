@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.19993](https://arxiv.org/abs/2506.19993)  
-**代码**: [GitHub](https://github.com/HaochenZhang717/CoVE-official-Repo) (有)  
-**领域**: recommender  
+**代码**: [GitHub](https://github.com/HaochenZhang717/CoVE-official-Repo)  
+**领域**: 推荐系统  
 **关键词**: LLM推荐系统, 词表扩展, 嵌入压缩, 序列推荐, 哈希压缩
 
 ## 一句话总结

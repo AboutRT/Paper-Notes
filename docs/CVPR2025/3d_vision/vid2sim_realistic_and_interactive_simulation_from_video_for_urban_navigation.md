@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.06693](https://arxiv.org/abs/2501.06693)  
-**代码**: https://metadriverse.github.io/vid2sim/  
+**代码**: [https://metadriverse.github.io/vid2sim/](https://metadriverse.github.io/vid2sim/)  
 **领域**: 3D视觉 / 自动驾驶  
 **关键词**: Sim2Real, 3D高斯溅射, 场景重建, 视觉导航, 混合场景表示
 

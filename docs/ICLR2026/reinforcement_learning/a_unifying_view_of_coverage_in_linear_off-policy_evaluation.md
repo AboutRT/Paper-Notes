@@ -2,10 +2,10 @@
 title: >-
   [论文解读] A Unifying View of Coverage in Linear Off-Policy Evaluation
 description: >-
-  [ICLR 2026][离策略评估] 提出了一种新的覆盖性参数——**特征-动态覆盖**（feature-dynamics coverage），通过工具变量视角对经典算法 LSTDQ 进行新颖的有限样本分析，统一了线性离策略评估中各种不同覆盖性定义，解决了该领域长期存在的碎片化问题。
+  [ICLR 2026][强化学习] 提出了一种新的覆盖性参数——**特征-动态覆盖**（feature-dynamics coverage），通过工具变量视角对经典算法 LSTDQ 进行新颖的有限样本分析，统一了线性离策略评估中各种不同覆盖性定义，解决了该领域长期存在的碎片化问题。
 tags:
   - ICLR 2026
-  - 离策略评估
+  - 强化学习
   - 覆盖性
   - 线性函数逼近
   - LSTDQ
@@ -131,8 +131,8 @@ $$\text{评估误差} \leq \text{poly}(C^\pi, d, 1/n, \log(1/\delta))$$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] A Unifying View of Linear Function Approximation in Off-Policy RL Through Matrix Splitting and Preconditioning](../../NeurIPS2025/reinforcement_learning/a_unifying_view_of_linear_function_approximation_in_offpolic.md)
 - [\[ICLR 2026\] Is Pure Exploitation Sufficient in Exogenous MDPs with Linear Function Approximation?](is_pure_exploitation_sufficient_in_exogenous_mdps_with_linear_function_approxima.md)
+- [\[NeurIPS 2025\] A Unifying View of Linear Function Approximation in Off-Policy RL Through Matrix Splitting and Preconditioning](../../NeurIPS2025/reinforcement_learning/a_unifying_view_of_linear_function_approximation_in_offpolic.md)
 - [\[ICLR 2026\] Spectral Bellman Method: Unifying Representation and Exploration in RL](spectral_bellman_method_unifying_representation_and_exploration_in_rl.md)
 - [\[ICLR 2026\] MVR: Multi-view Video Reward Shaping for Reinforcement Learning](mvr_multi-view_video_reward_shaping_for_reinforcement_learning.md)
 - [\[ICLR 2026\] Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning](rethinking_policy_diversity_in_ensemble_policy_gradient_in_large-scale_reinforce.md)

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.10223](https://arxiv.org/abs/2507.10223)  
-**代码**: https://github.com/pittisl/ProGait  
-**领域**: medical_imaging  
+**代码**: [https://github.com/pittisl/ProGait](https://github.com/pittisl/ProGait)  
+**领域**: 医学图像  
 **关键词**: 步态分析, 假肢检测, 视频数据集, 人体姿态估计, 视频目标分割
 
 ## 一句话总结

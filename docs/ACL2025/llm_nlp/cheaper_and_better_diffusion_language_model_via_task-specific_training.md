@@ -16,7 +16,7 @@ tags:
 # Cheaper and Better Diffusion Language Model via Task-Specific Training
 
 **会议**: ACL 2025  
-**领域**: 文本生成  
+**领域**: LLM/NLP  
 **关键词**: 扩散语言模型, 任务特定训练, 文本生成, 去噪效率, 推理加速
 
 ## 一句话总结
@@ -123,6 +123,6 @@ tags:
 - [\[ACL 2025\] Training-free LLM Merging for Multi-task Learning](training-free_llm_merging_for_multi-task_learning.md)
 - [\[ACL 2025\] Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs](token_prepending_training_free.md)
 - [\[ACL 2025\] OLMoTrace: Tracing Language Model Outputs Back to Trillions of Training Tokens](olmotrace_tracing_language_model_outputs_back_to_trillions_of_training_tokens.md)
-- [\[ACL 2025\] TESS 2: A Large-Scale Generalist Diffusion Language Model](tess_2_a_large-scale_generalist_diffusion_language_model.md)
+- [\[ACL 2025\] A Survey on Efficient Large Language Model Training: From Data-centric Perspectives](a_survey_on_efficient_large_language.md)
 
 <!-- RELATED:END -->

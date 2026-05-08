@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Argumentative Debates for Transparent Bias Detection
 description: >-
-  [AAAI 2026][AI安全][偏见检测] 提出 ABIDE（Argumentative BIas Detection by DEbate），通过基于邻域属性的论证方案（argument schemes）构建量化双极论证框架（QBAF），将偏见检测过程建模为结构化辩论，实现从单邻域到全局的透明偏见推理，并形式化证明 QBAF 语义与偏见检测期望行为之间的对应关系。
+  [AAAI 2026][社会计算][偏见检测] 提出 ABIDE（Argumentative BIas Detection by DEbate），通过基于邻域属性的论证方案（argument schemes）构建量化双极论证框架（QBAF），将偏见检测过程建模为结构化辩论，实现从单邻域到全局的透明偏见推理，并形式化证明 QBAF 语义与偏见检测期望行为之间的对应关系。
 tags:
   - AAAI 2026
-  - AI安全
+  - 社会计算
   - 偏见检测
   - 论证框架
   - QBAF
@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.04511](https://arxiv.org/abs/2508.04511)  
 **代码**: [ABIDE](https://github.com/hamed-ayoobi/ABIDE)  
-**领域**: AI 公平性与可解释性  
+**领域**: 社会计算  
 **关键词**: 偏见检测, 论证框架, QBAF, 透明度, 公平性, 辩论
 
 ## 一句话总结
@@ -137,8 +137,8 @@ ABIDE 在 COMPAS 数据集上识别出 ChatGPT-4o 对 African-American 群体存
 
 - [\[CVPR 2025\] Classifier-to-Bias: Toward Unsupervised Automatic Bias Detection for Visual Classifiers](../../CVPR2025/social_computing/classifier-to-bias_toward_unsupervised_automatic_bias_detection_for_visual_class.md)
 - [\[ACL 2025\] BiasGuard: A Reasoning-Enhanced Bias Detection Tool for Large Language Models](../../ACL2025/social_computing/biasguard_a_reasoning-enhanced_bias_detection_tool_for_large_language_models.md)
+- [\[AAAI 2026\] Bias Association Discovery Framework for Open-Ended LLM Generations](bias_association_discovery_framework_for_open-ended_llm_generations.md)
 - [\[AAAI 2026\] Reasoning About the Unsaid: Misinformation Detection with Omission-Aware Graph Inference](reasoning_about_the_unsaid_misinformation_detection_with_omission-aware_graph_in.md)
 - [\[AAAI 2026\] Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion](beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)
-- [\[AAAI 2026\] T2Agent: A Tool-augmented Multimodal Misinformation Detection Agent with Monte Carlo Tree Search](t2agent_a_tool-augmented_multimodal_misinformation_detection_agent_with_monte_ca.md)
 
 <!-- RELATED:END -->

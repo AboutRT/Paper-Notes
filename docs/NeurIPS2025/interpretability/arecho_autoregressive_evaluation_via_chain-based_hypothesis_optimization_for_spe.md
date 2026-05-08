@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ARECHO: Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation
 description: >-
-  [NeurIPS 2025][语音多指标评估] ARECHO 将语音多指标评估建模为链式自回归 token 预测任务——设计统一的语音信息 token 化管线处理 87 个异质指标（数值/类别/有界/无界），通过动态分类链显式捕捉指标间依赖关系（如可懂度-自然度相关性），配合两步置信度导向解码减少误差传播，在增强/生成/噪声三类语音评估中全面超越 UniVERSA 基线（Avg Test MSE 23.26 vs 96.99，-76%）。
+  [NeurIPS 2025][可解释性] ARECHO 将语音多指标评估建模为链式自回归 token 预测任务——设计统一的语音信息 token 化管线处理 87 个异质指标（数值/类别/有界/无界），通过动态分类链显式捕捉指标间依赖关系（如可懂度-自然度相关性），配合两步置信度导向解码减少误差传播，在增强/生成/噪声三类语音评估中全面超越 UniVERSA 基线（Avg Test MSE 23.26 vs 96.99，-76%）。
 tags:
   - NeurIPS 2025
-  - 语音多指标评估
+  - 可解释性
   - 自回归分类链
   - Token化
   - 置信度解码
@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.24518](https://arxiv.org/abs/2505.24518)  
-**代码**: https://github.com/ftshijt/espnet/tree/universa_plus  
-**领域**: 语音评估  
+**代码**: [https://github.com/ftshijt/espnet/tree/universa_plus](https://github.com/ftshijt/espnet/tree/universa_plus)  
+**领域**: 可解释性  
 **关键词**: 语音多指标评估, 自回归分类链, Token化, 置信度解码, 依赖建模
 
 ## 一句话总结
@@ -136,6 +136,6 @@ ARECHO 将语音多指标评估建模为链式自回归 token 预测任务——
 - [\[NeurIPS 2025\] Better Estimation of the Kullback-Leibler Divergence Between Language Models](better_estimation_of_the_kullback--leibler_divergence_between_language_models.md)
 - [\[NeurIPS 2025\] AgentiQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation](agentiql_an_agent-inspired_multi-expert_framework_for_text-to-sql_generation.md)
 - [\[NeurIPS 2025\] Sloth: Scaling Laws for LLM Skills to Predict Multi-Benchmark Performance Across Families](sloth_scaling_laws_for_llm_skills_to_predict_multi-benchmark_performance_across_.md)
-- [\[AAAI 2026\] Probing Preference Representations: A Multi-Dimensional Evaluation and Analysis Method for Reward Models](../../AAAI2026/interpretability/probing_preference_representations_a_multi-dimensional_evaluation_and_analysis_m.md)
+- [\[AAAI 2026\] Hypothesis Generation via LLM-Automated Language Bias for ILP](../../AAAI2026/interpretability/hypothesis_generation_via_llm-automated_language_bias_for_ilp.md)
 
 <!-- RELATED:END -->

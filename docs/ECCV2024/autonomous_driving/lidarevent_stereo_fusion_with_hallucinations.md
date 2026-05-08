@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.04633](https://arxiv.org/abs/2408.04633)  
-**代码**: https://eventvppstereo.github.io/ (有)  
-**领域**: LLM/NLP  
+**代码**: [https://eventvppstereo.github.io/](https://eventvppstereo.github.io/)  
+**领域**: 自动驾驶  
 **关键词**: 事件相机, LiDAR融合, 立体匹配, 幻觉事件注入, 深度估计
 
 ## 一句话总结

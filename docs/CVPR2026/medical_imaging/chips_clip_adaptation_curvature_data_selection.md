@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.18519](https://arxiv.org/abs/2511.18519)  
-**代码**: https://github.com/mihara-bot/CHIPS (开源)  
+**代码**: [https://github.com/mihara-bot/CHIPS](https://github.com/mihara-bot/CHIPS) (开源)  
 **领域**: 医学影像 / 数据选择 / CLIP适配  
 **关键词**: CLIP领域适配, 数据选择, 曲率感知影响函数, InfoNCE, 持续预训练
 

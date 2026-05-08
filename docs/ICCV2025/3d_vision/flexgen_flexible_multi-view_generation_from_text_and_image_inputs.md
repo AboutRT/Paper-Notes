@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2410.10745](https://arxiv.org/abs/2410.10745)  
-**代码**: https://xxu068.github.io/flexgen.github.io/ (有项目页)  
+**代码**: [https://xxu068.github.io/flexgen.github.io/](https://xxu068.github.io/flexgen.github.io/) (有项目页)  
 **领域**: 3D视觉  
 **关键词**: 多视角生成, 3D-aware文本标注, 可控生成, 扩散模型, 材质编辑
 

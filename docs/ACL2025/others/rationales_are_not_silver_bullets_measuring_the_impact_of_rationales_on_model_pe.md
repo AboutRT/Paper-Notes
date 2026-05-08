@@ -8,7 +8,7 @@ tags:
   - 理由增强
   - 模型可靠性
   - 校准
-  - 训练数据质量
+  - 其他
   - 任务难度
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 Findings  
 **arXiv**: [2505.24147](https://arxiv.org/abs/2505.24147)  
 **代码**: [https://github.com/Ignoramus0817/rationales](https://github.com/Ignoramus0817/rationales)  
-**领域**: LLM对齐 / 训练数据质量  
+**领域**: 其他  
 **关键词**: 理由增强, 模型可靠性, 校准, 训练数据质量, 任务难度
 
 ## 一句话总结
@@ -133,7 +133,7 @@ tags:
 - [\[AAAI 2026\] Measuring Model Performance in the Presence of an Intervention](../../AAAI2026/others/measuring_model_performance_in_the_presence_of_an_intervention.md)
 - [\[ACL 2025\] EpiCoDe: Boosting Model Performance Beyond Training with Extrapolation and Contrastive Decoding](epicode_boosting_model_performance_beyond_training_with_extrapolation_and_contra.md)
 - [\[ACL 2025\] Do not Abstain! Identify and Solve the Uncertainty](do_not_abstain_identify_and_solve_the_uncertainty.md)
-- [\[NeurIPS 2025\] A Unified Framework for Variable Selection in Model-Based Clustering with Missing Not at Random](../../NeurIPS2025/others/a_unified_framework_for_variable_selection_in_modelbased_clu.md)
 - [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
+- [\[ACL 2025\] LaTIM: Measuring Latent Token-to-Token Interactions in Mamba Models](latim_measuring_latent_token-to-token_interactions_in_mamba_models.md)
 
 <!-- RELATED:END -->

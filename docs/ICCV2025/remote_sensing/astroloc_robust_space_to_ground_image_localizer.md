@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.07003](https://arxiv.org/abs/2502.07003)  
-**代码**: 无（数据集可在 https://eol.jsc.nasa.gov/ 获取）  
+**代码**: 无（数据集可在 [https://eol.jsc.nasa.gov/](https://eol.jsc.nasa.gov/) 获取）  
 **领域**: 遥感 / 图像检索 / 地理定位  
 **关键词**: 宇航员照片定位, 跨域图像检索, 对比学习, 无监督挖掘, 太空对地观测
 

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 注意力机制
-  - RAG
+  - 其他
   - noisy context
   - operational amplifier
   - adapter
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 2502.12502  
 **代码**: -  
-**领域**: others  
+**领域**: 其他  
 **关键词**: attention denoising, RAG, noisy context, operational amplifier, adapter, PEFT  
 
 ## 一句话总结
@@ -147,7 +147,7 @@ $$\bar{M} = A_d(M^+ - M^-) + \frac{A_c}{2}(M^+ + M^-)$$
 - [\[ACL 2025\] EpMAN: Episodic Memory AttentioN for Generalizing to Longer Contexts](epman_episodic_memory_attention_for_generalizing_to_longer_contexts.md)
 - [\[ACL 2025\] HATA: Trainable and Hardware-Efficient Hash-Aware Top-k Attention for Scalable Large Model Inference](hata_trainable_and_hardware-efficient_hash-aware_top-k_attention_for_scalable_la.md)
 - [\[ACL 2025\] Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients](federated_lora_heterogeneous.md)
-- [\[ACL 2025\] Unique Hard Attention: A Tale of Two Sides](unique_hard_attention_a_tale_of_two_sides.md)
-- [\[ACL 2025\] DAPE V2: Process Attention Score as Feature Map for Length Extrapolation](dape_v2_process_attention_score_as_feature_map_for_length_extrapolation.md)
+- [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](cola_collaborative_low-rank_adaptation.md)
+- [\[ACL 2025\] The Hidden Attention of Mamba Models](the_hidden_attention_of_mamba_models.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal
 description: >-
-  [ACL 2025][编程智能体] 本文提出 DARS（动态动作重采样），一种针对编程智能体的推理时计算扩展方法，在智能体做出次优决策的关键节点上动态分支并尝试替代动作，在 SWE-Bench Lite 上以 Claude 3.5 Sonnet V2 实现 55% 的 pass@k 和 47% 的 pass@1，超越当时开源 SOTA 框架。
+  [ACL 2025][代码智能] 本文提出 DARS（动态动作重采样），一种针对编程智能体的推理时计算扩展方法，在智能体做出次优决策的关键节点上动态分支并尝试替代动作，在 SWE-Bench Lite 上以 Claude 3.5 Sonnet V2 实现 55% 的 pass@k 和 47% 的 pass@1，超越当时开源 SOTA 框架。
 tags:
   - ACL 2025
-  - 编程智能体
+  - 代码智能
   - 推理时计算扩展
   - 树搜索
   - 动态重采样
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.14269](https://arxiv.org/abs/2503.14269)  
 **代码**: 无  
-**领域**: LLM Agent  
+**领域**: 代码智能  
 **关键词**: 编程智能体、推理时计算扩展、树搜索、动态重采样、SWE-Bench
 
 ## 一句话总结
@@ -129,8 +129,8 @@ DARS 是一种纯推理时方法，不需要额外训练。它直接利用现有
 ## 相关论文
 
 - [\[ACL 2025\] SceneGenAgent: Precise Industrial Scene Generation with Coding Agent](scenegenagent_precise_industrial_scene_generation_with_coding_agent.md)
-- [\[NeurIPS 2025\] A Self-Improving Coding Agent](../../NeurIPS2025/code_intelligence/a_selfimproving_coding_agent.md)
 - [\[ACL 2025\] Tree-of-Code: A Tree-Structured Exploring Framework for End-to-End Code Generation](tree-of-code_a_tree-structured_exploring_framework_for_end-to-end_code_generatio.md)
+- [\[NeurIPS 2025\] A Self-Improving Coding Agent](../../NeurIPS2025/code_intelligence/a_selfimproving_coding_agent.md)
 - [\[ACL 2025\] UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](utboost_rigorous_evaluation_of_coding_agents_on_swe-bench.md)
 - [\[ACL 2026\] MARS2: Scaling Multi-Agent Tree Search via Reinforcement Learning for Code Generation](../../ACL2026/code_intelligence/mars2_scaling_multi-agent_tree_search_via_reinforcement_learning_for_code_genera.md)
 

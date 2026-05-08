@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.02148](https://arxiv.org/abs/2603.02148)  
 **代码**: 待确认  
-**领域**: 优化/理论  
+**领域**: 其他  
 **关键词**: low-rank approximation, streaming algorithm, consistency, recourse, online algorithm
 
 ## 一句话总结

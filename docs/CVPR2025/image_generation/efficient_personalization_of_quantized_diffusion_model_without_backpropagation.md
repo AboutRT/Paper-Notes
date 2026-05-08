@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.14868](https://arxiv.org/abs/2503.14868)  
-**代码**: https://github.com/ignoww/ZOODiP_project (有)  
+**代码**: [https://github.com/ignoww/ZOODiP_project](https://github.com/ignoww/ZOODiP_project)  
 **领域**: 扩散模型  
 **关键词**: 扩散模型个性化, 量化模型, 零阶优化, 内存高效微调, 边缘设备
 
@@ -135,6 +135,6 @@ ZOODiP 基于 Textual Inversion 框架：输入是少量参考图片和包含新
 - [\[CVPR 2025\] CleanDIFT: Diffusion Features without Noise](cleandift_diffusion_features_without_noise.md)
 - [\[CVPR 2025\] Learning Visual Generative Priors without Text](learning_visual_generative_priors_without_text.md)
 - [\[CVPR 2025\] Data-Free Group-Wise Fully Quantized Winograd Convolution via Learnable Scales](data-free_group-wise_fully_quantized_winograd_convolution_via_learnable_scales.md)
-- [\[CVPR 2025\] MLLM-as-a-Judge for Image Safety without Human Labeling](mllm-as-a-judge_for_image_safety_without_human_labeling.md)
+- [\[CVPR 2025\] Hierarchical Flow Diffusion for Efficient Frame Interpolation](hierarchical_flow_diffusion_for_efficient_frame_interpolation.md)
 
 <!-- RELATED:END -->

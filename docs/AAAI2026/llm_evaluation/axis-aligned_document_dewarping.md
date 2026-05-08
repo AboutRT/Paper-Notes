@@ -14,8 +14,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2507.15000](https://arxiv.org/abs/2507.15000)  
-**代码**: https://github.com/chaoyunwang/AADD  
-**领域**: 其他  
+**代码**: [https://github.com/chaoyunwang/AADD](https://github.com/chaoyunwang/AADD)  
+**领域**: LLM评测  
 **关键词**: document dewarping, geometric constraint, image rectification  
 
 ## 一句话总结
@@ -161,8 +161,8 @@ $$\mathcal{L}_{all} = \alpha \mathcal{L}_{2D} + \beta \mathcal{L}_{3D} + \gamma 
 
 - [\[AAAI 2026\] HybriDLA: Hybrid Generation for Document Layout Analysis](hybridla_hybrid_generation_for_document_layout_analysis.md)
 - [\[ICML 2025\] Gradient Aligned Regression via Pairwise Losses](../../ICML2025/llm_evaluation/gradient_aligned_regression_via_pairwise_losses.md)
-- [\[ICCV 2025\] ForCenNet: Foreground-Centric Network for Document Image Rectification](../../ICCV2025/llm_evaluation/forcennet_foreground-centric_network_for_document_image_rectification.md)
+- [\[NeurIPS 2025\] Document Summarization with Conformal Importance Guarantees](../../NeurIPS2025/llm_evaluation/document_summarization_with_conformal_importance_guarantees.md)
 - [\[ACL 2025\] READoc: A Unified Benchmark for Realistic Document Structured Extraction](../../ACL2025/llm_evaluation/readoc_a_unified_benchmark_for_realistic_document_structured_extraction.md)
-- [\[ACL 2025\] MDBench: A Synthetic Multi-Document Reasoning Benchmark Generated with Knowledge Guidance](../../ACL2025/llm_evaluation/mdbench_a_synthetic_multi-document_reasoning_benchmark_generated_with_knowledge_.md)
+- [\[ICCV 2025\] ForCenNet: Foreground-Centric Network for Document Image Rectification](../../ICCV2025/llm_evaluation/forcennet_foreground-centric_network_for_document_image_rectification.md)
 
 <!-- RELATED:END -->

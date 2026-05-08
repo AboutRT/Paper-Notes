@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.09511](https://arxiv.org/abs/2412.09511)  
-**代码**: https://github.com/DylanOrange/geal (有)  
+**代码**: [https://github.com/DylanOrange/geal](https://github.com/DylanOrange/geal)  
 **领域**: 3D视觉  
 **关键词**: 3D功能可供性, 跨模态对齐, 高斯溅射, 鲁棒性基准, 2D-3D知识迁移
 

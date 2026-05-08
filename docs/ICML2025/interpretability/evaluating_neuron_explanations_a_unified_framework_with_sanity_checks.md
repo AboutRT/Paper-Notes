@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - 神经元解释
-  - 评估指标
+  - 可解释性
   - 统一框架
   - 合理性检验
   - 机制可解释性
@@ -137,6 +137,6 @@ $$\text{Decrease Acc} = \frac{1}{|K|} \sum_{k \in K} \mathbb{1}[\Delta s(k) < -\
 - [\[ACL 2025\] Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis](../../ACL2025/interpretability/shortcut_neuron_eval.md)
 - [\[NeurIPS 2025\] Evaluating LLMs in Open-Source Games](../../NeurIPS2025/interpretability/evaluating_llms_in_open-source_games.md)
 - [\[ICCV 2025\] Minerva: Evaluating Complex Video Reasoning](../../ICCV2025/interpretability/minerva_evaluating_complex_video_reasoning.md)
-- [\[ICML 2025\] Explaining, Fast and Slow: Abstraction and Refinement of Provable Explanations](explaining_fast_and_slow_abstraction_and_refinement_of_provable_explanations.md)
+- [\[NeurIPS 2025\] VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set](../../NeurIPS2025/interpretability/vlsae_interpreting_and_enhancing_visionlanguage_alignment_wi.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision
 description: >-
-  [CVPR 2026][人体理解][虚拟试穿] Vanast 提出一种统一框架，通过 Dual Module 架构（HAM + GTM）和三阶段合成数据构建流水线，在单阶段内同时完成服装迁移和人体动画生成，在 Internet 数据集上 PSNR 达到 17.95dB（+5.5dB vs 最佳两阶段方案），LPIPS 仅 0.237。
+  [CVPR 2026][视频生成][虚拟试穿] Vanast 提出一种统一框架，通过 Dual Module 架构（HAM + GTM）和三阶段合成数据构建流水线，在单阶段内同时完成服装迁移和人体动画生成，在 Internet 数据集上 PSNR 达到 17.95dB（+5.5dB vs 最佳两阶段方案），LPIPS 仅 0.237。
 tags:
   - CVPR 2026
-  - 人体理解
+  - 视频生成
   - 虚拟试穿
   - 人体动画
   - 合成三元组
@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.04934](https://arxiv.org/abs/2604.04934)  
-**代码**: https://hyunsoocha.github.io/vanast/  
-**领域**: 人体理解  
+**代码**: [https://hyunsoocha.github.io/vanast/](https://hyunsoocha.github.io/vanast/)  
+**领域**: 视频生成  
 **关键词**: 虚拟试穿、人体动画、合成三元组、Dual Module、视频扩散
 
 ## 一句话总结
@@ -121,8 +121,8 @@ Vanast 提出一种统一框架，通过 Dual Module 架构（HAM + GTM）和三
 ## 相关论文
 
 - [\[CVPR 2026\] The Devil is in the Details: Enhancing Video Virtual Try-On via Keyframe-Driven Details Injection](the_devil_is_in_the_details_enhancing_video_virtual_try-on_via_keyframe-driven_d.md)
-- [\[ICCV 2025\] Multi-identity Human Image Animation with Structural Video Diffusion](../../ICCV2025/video_generation/multi-identity_human_image_animation_with_structural_video_diffusion.md)
 - [\[CVPR 2026\] SLVMEval: Synthetic Meta Evaluation Benchmark for Text-to-Long Video Generation](slvmeval_synthetic_meta_evaluation_benchmark_for_text-to-long_video_generation.md)
+- [\[ICCV 2025\] Multi-identity Human Image Animation with Structural Video Diffusion](../../ICCV2025/video_generation/multi-identity_human_image_animation_with_structural_video_diffusion.md)
 - [\[CVPR 2026\] PoseGen: In-Context LoRA Finetuning for Pose-Controllable Long Human Video Generation](posegen_in-context_lora_finetuning_for_pose-controllable_long_human_video_genera.md)
 - [\[CVPR 2026\] Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization](identity-preserving_image-to-video_generation_via_reward-guided_optimization.md)
 

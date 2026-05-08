@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - SVG生成
-  - 图像矢量化
+  - 多模态VLM
   - 多模态大语言模型
   - 代码生成
   - 矢量图形
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2312.11556](https://arxiv.org/abs/2312.11556)  
-**代码**: https://github.com/joanrod/star-vector (有)  
+**代码**: [https://github.com/joanrod/star-vector](https://github.com/joanrod/star-vector)  
 **领域**: 多模态VLM  
 **关键词**: SVG生成、图像矢量化、多模态大语言模型、代码生成、矢量图形
 
@@ -130,8 +130,8 @@ StarVector 由三部分组成：(1) 图像编码器（CLIP ViT）将输入图像
 
 - [\[CVPR 2026\] Reason-SVG: Enhancing Structured Reasoning for Vector Graphics Generation with Reinforcement Learning](../../CVPR2026/multimodal_vlm/reason-svg_enhancing_structured_reasoning_for_vector_graphics_generation_with_re.md)
 - [\[CVPR 2026\] OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens](../../CVPR2026/multimodal_vlm/omnilottie_generating_vector_animations_via_parameterized_lottie_tokens.md)
-- [\[ACL 2025\] CoSyn: Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](../../ACL2025/multimodal_vlm/cosyn_code_guided_synthetic_data.md)
 - [\[CVPR 2025\] Recognition-Synergistic Scene Text Editing](recognition-synergistic_scene_text_editing.md)
 - [\[ACL 2025\] Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](../../ACL2025/multimodal_vlm/code_guided_text_rich_image.md)
+- [\[CVPR 2025\] CodePercept: Code-Grounded Visual STEM Perception for MLLMs](codepercept_code-grounded_visual_stem_perception_for_mllms.md)
 
 <!-- RELATED:END -->

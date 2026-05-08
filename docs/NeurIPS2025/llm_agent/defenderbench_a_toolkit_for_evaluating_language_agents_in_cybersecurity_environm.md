@@ -16,8 +16,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.00739](https://arxiv.org/abs/2506.00739)  
-**代码**: https://github.com/microsoft/DefenderBench  
-**领域**: llm_agent  
+**代码**: [https://github.com/microsoft/DefenderBench](https://github.com/microsoft/DefenderBench)  
+**领域**: LLM Agent  
 **关键词**: 网络安全, LLM Agent, 评测基准, 漏洞检测, 网络入侵模拟
 
 ## 一句话总结

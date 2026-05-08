@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2405.17421](https://arxiv.org/abs/2405.17421)  
 **代码**: [https://www.cis.upenn.edu/~leijh/projects/mosca](https://www.cis.upenn.edu/~leijh/projects/mosca)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 4D reconstruction, dynamic scene, Gaussian splatting, motion scaffold, deformation graph, pose-free
 
 ## 一句话总结

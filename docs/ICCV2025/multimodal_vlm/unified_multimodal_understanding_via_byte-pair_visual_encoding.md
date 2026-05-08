@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV2025  
 **arXiv**: [2506.23639](https://arxiv.org/abs/2506.23639)  
-**代码**: https://beingbeyond.github.io/Being-VL-0.5  
+**代码**: [https://beingbeyond.github.io/Being-VL-0.5](https://beingbeyond.github.io/Being-VL-0.5)  
 **领域**: 多模态VLM  
 **关键词**: BPE Visual Tokenization, Discrete Visual Tokens, Multimodal LLM, Vocabulary Construction, Curriculum Training
 
@@ -127,7 +127,7 @@ tags:
 - [\[ICCV 2025\] Harmonizing Visual Representations for Unified Multimodal Understanding and Generation](harmonizing_visual_representations_for_unified_multimodal_un.md)
 - [\[ICCV 2025\] MUSE-VL: Modeling Unified VLM through Semantic Discrete Encoding](muse-vl_modeling_unified_vlm_through_semantic_discrete_encoding.md)
 - [\[NeurIPS 2025\] UniTok: A Unified Tokenizer for Visual Generation and Understanding](../../NeurIPS2025/multimodal_vlm/unitok_a_unified_tokenizer_for_visual_generation_and_understanding.md)
+- [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](../../ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_visionlanguage_model.md)
 - [\[CVPR 2026\] Customized Visual Storytelling with Unified Multimodal LLMs](../../CVPR2026/multimodal_vlm/customized_visual_storytelling_with_unified_multimodal_llms.md)
-- [\[ECCV 2024\] BRAVE: Broadening the Visual Encoding of Vision-Language Models](../../ECCV2024/multimodal_vlm/brave_broadening_the_visual_encoding_of_vision-language_models.md)
 
 <!-- RELATED:END -->

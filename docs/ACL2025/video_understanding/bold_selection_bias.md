@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.14248](https://arxiv.org/abs/2410.14248)  
-**代码**: https://github.com/ologin/BOLD  
-**领域**: LLM评估  
+**代码**: [https://github.com/ologin/BOLD](https://github.com/ologin/BOLD)  
+**领域**: 视频理解  
 **关键词**: 选择偏差, 视频语言模型, 多选题, 偏差校准, 基准评估
 
 ## 一句话总结
@@ -127,9 +127,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Generative Frame Sampler for Long Video Understanding](generative_frame_sampler_for_long_video_understanding.md)
-- [\[ACL 2025\] Sparse-to-Dense: A Free Lunch for Lossless Acceleration of Video Understanding in LLMs](sparse-to-dense_a_free_lunch_for_lossless_acceleration_of_video_understanding_in.md)
 - [\[ACL 2025\] RAVEN: Robust Advertisement Video Violation Temporal Grounding via Reinforcement Reasoning](raven_robust_advertisement_video_violation_temporal_grounding_via_reinforcement_.md)
+- [\[ACL 2025\] Sparse-to-Dense: A Free Lunch for Lossless Acceleration of Video Understanding in LLMs](sparse-to-dense_a_free_lunch_for_lossless_acceleration_of_video_understanding_in.md)
+- [\[ACL 2025\] ICR Probe: Tracking Hidden State Dynamics for Reliable Hallucination Detection in LLMs](icr_probe_tracking_hidden_state_dynamics_for_reliable_hallucination_detection_in.md)
 - [\[ACL 2025\] From Teacher to Student: Tracking Memorization Through Model Distillation](from_teacher_to_student_tracking_memorization_through_model_distillation.md)
-- [\[ACL 2025\] Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Key-Frame Extraction](attention-seeker_dynamic_self-attention_scoring_for_unsupervised_key-frame_extra.md)
 
 <!-- RELATED:END -->

@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2601.10328](https://arxiv.org/abs/2601.10328)  
 **代码**: [zouyiqing-221/MetaDG](https://github.com/zouyiqing-221/MetaDG)  
 **作者**: Yiqing Zou, Hanning Yuan, Qianyu Yang, Ziqiang Yuan, Shuliang Wang, Sijie Ruan (Beijing Institute of Technology)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 交通流预测, 时空图, 动态图, 元学习, GCN, GRU, 时空异质性  
 
 ## 一句话总结
@@ -163,7 +163,7 @@ $$\tilde{\boldsymbol{A}_t} = \text{asym}(\boldsymbol{\phi}_t \odot \boldsymbol{A
 - [\[AAAI 2026\] RAST: A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction](rast_a_retrieval_augmented_spatio-temporal_framework_for_traffic_prediction.md)
 - [\[ACL 2025\] Embracing Large Language Models in Traffic Flow Forecasting](../../ACL2025/autonomous_driving/embracing_large_language_models_in_traffic_flow_forecasting.md)
 - [\[AAAI 2026\] CaTFormer: Causal Temporal Transformer with Dynamic Contextual Fusion for Driving Intention Prediction](catformer_causal_temporal_transformer_with_dynamic_contextual_fusion_for_driving.md)
-- [\[CVPR 2026\] MetaDAT: Generalizable Trajectory Prediction via Meta Pre-training and Data-Adaptive Test-Time Updating](../../CVPR2026/autonomous_driving/metadat_generalizable_trajectory_prediction_via_meta_pre-training_and_data-adapt.md)
+- [\[CVPR 2026\] MetaDAT: Generalizable Trajectory Prediction via Meta Pre-training and Data-Adaptive Test-Time Updating](../../CVPR2026/autonomous_driving/metadat_generalizable_trajectory_prediction_via_me.md)
 - [\[AAAI 2026\] Global-Lens Transformers: Adaptive Token Mixing for Dynamic Link Prediction](global-lens_transformers_adaptive_token_mixing_for_dynamic_link_prediction.md)
 
 <!-- RELATED:END -->

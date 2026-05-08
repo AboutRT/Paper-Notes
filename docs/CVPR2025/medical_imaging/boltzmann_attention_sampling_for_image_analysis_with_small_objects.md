@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.02841](https://arxiv.org/abs/2503.02841)  
-**代码**: https://aka.ms/boltzformer  
+**代码**: [https://aka.ms/boltzformer](https://aka.ms/boltzformer)  
 **领域**: 医学图像 / 小目标分割  
 **关键词**: Boltzmann采样, 稀疏注意力, 小目标检测与分割, 退火温度调度, 文本提示分割
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2406.00955](https://arxiv.org/abs/2406.00955)  
-**代码**: https://facet.cs.columbia.edu (有)  
+**代码**: [https://facet.cs.columbia.edu](https://facet.cs.columbia.edu)  
 **领域**: 人体理解  
 **关键词**: facial expression, video conferencing, interpretability, generative domain translation, β-VAE
 
@@ -172,9 +172,9 @@ FacET（可变chunks + predicted translator）显著优于所有消融变体。�
 ## 相关论文
 
 - [\[ECCV 2024\] Generalizable Facial Expression Recognition](generalizable_facial_expression_recognition.md)
-- [\[ACL 2026\] HistLens: Mapping Idea Change across Concepts and Corpora](../../ACL2026/human_understanding/histlens_mapping_idea_change_across_concepts_and_corpora.md)
+- [\[CVPR 2026\] How to Take a Memorable Picture? Empowering Users with Actionable Feedback](../../CVPR2026/human_understanding/how_to_take_a_memorable_picture_empowering_users_with_actionable_feedback.md)
+- [\[ECCV 2024\] ReLoo: Reconstructing Humans Dressed in Loose Garments from Monocular Video in the Wild](reloo_reconstructing_humans_dressed_in_loose_garments_from_monocular_video_in_th.md)
 - [\[ECCV 2024\] Interleaving One-Class and Weakly-Supervised Models with Adaptive Thresholding for Unsupervised Video Anomaly Detection](interleaving_one-class_and_weakly-supervised_models_with_adaptive_thresholding_f.md)
-- [\[CVPR 2025\] MagicArticulate: Make Your 3D Models Articulation-Ready](../../CVPR2025/human_understanding/magicarticulate_make_your_3d_models_articulation-ready.md)
-- [\[ACL 2026\] The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination](../../ACL2026/human_understanding/the_reasoning_trap_how_enhancing_llm_reasoning_amplifies_tool_hallucination.md)
+- [\[ICCV 2025\] SynFER: Towards Boosting Facial Expression Recognition with Synthetic Data](../../ICCV2025/human_understanding/synfer_towards_boosting_facial_expression_recognition_with_synthetic_data.md)
 
 <!-- RELATED:END -->

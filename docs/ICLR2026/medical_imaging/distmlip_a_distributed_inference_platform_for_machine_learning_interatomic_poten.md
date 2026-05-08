@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.02023](https://arxiv.org/abs/2506.02023)  
 **代码**: 无（平台项目，支持多种 MLIP）  
-**领域**: human_understanding / 科学计算与分子模拟  
+**领域**: 医学图像  
 **关键词**: MLIP, distributed inference, graph neural networks, molecular dynamics, GPU parallelization
 
 ## 一句话总结

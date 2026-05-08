@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20168](https://arxiv.org/abs/2503.20168)  
-**代码**: https://xdimlab.github.io/EVolSplat/ (有)  
+**代码**: [https://xdimlab.github.io/EVolSplat/](https://xdimlab.github.io/EVolSplat/)  
 **领域**: 自动驾驶 / 新视角合成  
 **关键词**: 3D高斯泼溅, 城市场景, 前馈重建, 稀疏3D卷积, 实时渲染
 

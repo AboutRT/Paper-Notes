@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 语音
   - 提示调优
-  - 音频语言模型
+  - 音频语音
   - 语义扩展
   - Base-New权衡
   - 泛化性
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.20867](https://arxiv.org/abs/2601.20867)  
 **代码**: 无  
-**领域**: 音频语言模型 / 提示调优  
+**领域**: 音频语音  
 **关键词**: 提示调优, 音频语言模型, 语义扩展, Base-New权衡, 泛化性
 
 ## 一句话总结
@@ -129,10 +129,10 @@ SEPT 是即插即用框架，可集成到任何提示调优方法中。流程：
 
 ## 相关论文
 
-- [\[ACL 2026\] Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models](temporal_contrastive_decoding_a_training-free_method_for_large_audio-language_mo.md)
 - [\[ACL 2026\] HalluAudio: A Comprehensive Benchmark for Hallucination Detection in Large Audio-Language Models](halluaudio_a_comprehensive_benchmark_for_hallucination_detection_in_large_audio-.md)
+- [\[ACL 2026\] Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models](temporal_contrastive_decoding_a_training-free_method_for_large_audio-language_mo.md)
 - [\[AAAI 2026\] AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions](../../AAAI2026/audio_speech/ahamask_reliable_task_specification_for_large_audio_language.md)
+- [\[ACL 2026\] Robustness via Referencing: Defending against Prompt Injection Attacks by Referencing the Executed Instruction](robustness_via_referencing_defending_against_prompt_injection_attacks_by_referen.md)
 - [\[ACL 2026\] How Hypocritical Is Your LLM Judge? Listener–Speaker Asymmetries in the Pragmatic Competence of Large Language Models](how_hypocritical_is_your_llm_judge_listener-speaker_asymmetries_in_the_pragmatic.md)
-- [\[ACL 2025\] Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](../../ACL2025/audio_speech/audio_dialogue_benchmark.md)
 
 <!-- RELATED:END -->

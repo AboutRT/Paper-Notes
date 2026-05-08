@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.04464](https://arxiv.org/abs/2412.04464)  
-**代码**: https://dualpm.github.io  
+**代码**: [https://dualpm.github.io](https://dualpm.github.io)  
 **领域**: 3D视觉 / 可变形物体重建  
 **关键词**: 双点图, 可变形物体重建, 规范空间, 姿态估计, 四足动物
 
@@ -113,7 +113,7 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
+- [\[CVPR 2025\] Denoising Functional Maps: Diffusion Models for Shape Correspondence](denoising_functional_maps_diffusion_models_for_shape_correspondence.md)
 - [\[CVPR 2025\] SCFlow2: Plug-and-Play Object Pose Refiner with Shape-Constraint Scene Flow](scflow2_plug-and-play_object_pose_refiner_with_shape-constraint_scene_flow.md)
 - [\[CVPR 2025\] Touch2Shape: Touch-Conditioned 3D Diffusion for Shape Exploration and Reconstruction](touch2shape_touch-conditioned_3d_diffusion_for_shape_exploration_and_reconstruct.md)
 - [\[CVPR 2025\] A Lightweight UDF Learning Framework for 3D Reconstruction Based on Local Shape Functions](a_lightweight_udf_learning_framework_for_3d_reconstruction_based_on_local_shape_.md)

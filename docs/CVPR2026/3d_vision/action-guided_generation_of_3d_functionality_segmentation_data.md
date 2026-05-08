@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.23230](https://arxiv.org/abs/2511.23230)  
-**代码**: [项目页](https://tev-fbk.github.io/synthfun3d) (有)  
+**代码**: [项目页](https://tev-fbk.github.io/synthfun3d)  
 **领域**: 3D视觉 / 具身AI  
 **关键词**: 3D功能性分割, 合成数据生成, 动作描述, LLM检索, 场景布局
 
@@ -124,6 +124,6 @@ tags:
 - [\[CVPR 2025\] Functionality Understanding and Segmentation in 3D Scenes](../../CVPR2025/3d_vision/functionality_understanding_and_segmentation_in_3d_scenes.md)
 - [\[CVPR 2026\] Lifting Unlabeled Internet-level Data for 3D Scene Understanding](lifting_unlabeled_internet-level_data_for_3d_scene_understanding.md)
 - [\[CVPR 2026\] GAP: Action-Geometry Prediction with 3D Geometric Prior for Bimanual Manipulation](action-geometry_prediction_with_3d_geometric_prior_for_bimanual_manipulation.md)
-- [\[CVPR 2026\] SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation](scope_scene-contextualized_incremental_few-shot_3d_segmentation.md)
+- [\[CVPR 2026\] SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation](scope_scenecontextualized_incremental_fewshot_3d_s.md)
 
 <!-- RELATED:END -->

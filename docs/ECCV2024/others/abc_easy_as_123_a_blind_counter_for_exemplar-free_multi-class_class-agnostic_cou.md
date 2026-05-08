@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2309.04820](https://arxiv.org/abs/2309.04820)  
-**代码**: [https://ABC123.active.vision](https://ABC123.active.vision) (有)  
+**代码**: [https://ABC123.active.vision](https://ABC123.active.vision)  
 **领域**: 目标计数 / 类别无关计数  
 **关键词**: class-agnostic counting, exemplar-free, multi-class, density map regression, Hungarian matching  
 

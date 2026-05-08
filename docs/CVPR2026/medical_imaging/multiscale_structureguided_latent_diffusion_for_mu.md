@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12581](https://arxiv.org/abs/2603.12581)  
-**代码**: [https://github.com/ziyi-start/MSG-LDM](https://github.com/ziyi-start/MSG-LDM) (有)  
+**代码**: [https://github.com/ziyi-start/MSG-LDM](https://github.com/ziyi-start/MSG-LDM)  
 **领域**: 医学图像 / MRI合成 / 扩散模型  
 **关键词**: 多模态MRI翻译, 潜在扩散模型, 风格-结构解耦, 多尺度特征增强, 缺失模态  
 

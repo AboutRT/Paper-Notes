@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.16310](https://arxiv.org/abs/2507.16310)  
 **代码**: [项目页面](https://motionshot.github.io/)  
-**领域**: video_understanding  
+**领域**: 视频生成  
 **关键词**: motion transfer, text-to-video, training-free, TPS warping, temporal attention guidance
 
 ## 一句话总结

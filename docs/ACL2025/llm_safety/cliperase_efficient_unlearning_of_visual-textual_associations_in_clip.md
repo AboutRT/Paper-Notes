@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 机器遗忘
   - CLIP
-  - 多模态
+  - LLM安全
   - 视觉-文本对齐
   - 隐私保护
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.23330](https://arxiv.org/abs/2410.23330)  
 **代码**: [https://tianyu-yang-anna.github.io/ClipErase-ACL/](https://tianyu-yang-anna.github.io/ClipErase-ACL/)  
-**领域**: 其他  
+**领域**: LLM安全  
 **关键词**: 机器遗忘, CLIP, 多模态, 视觉-文本对齐, 隐私保护
 
 ## 一句话总结
@@ -123,10 +123,10 @@ $$\mathcal{L} = \lambda_1 \mathcal{L}_{RM} + \lambda_2 \mathcal{L}_{FM} + \lambd
 
 ## 相关论文
 
+- [\[AAAI 2026\] AUVIC: Adversarial Unlearning of Visual Concepts for Multi-modal Large Language Models](../../AAAI2026/llm_safety/auvic_adversarial_unlearning_of_visual_concepts_for_multi-mo.md)
 - [\[ACL 2025\] ZJUKLAB at SemEval-2025 Task 4: Unlearning via Model Merging](zjuklab_at_semeval-2025_task_4_unlearning_via_model_merging.md)
-- [\[ACL 2025\] SafeRoute: Adaptive Model Selection for Efficient and Accurate Safety Guardrails in Large Language Models](saferoute_adaptive_model_selection_for_efficient_and_accurate_safety_guardrails_.md)
-- [\[NeurIPS 2025\] Demystifying Language Model Forgetting with Low-Rank Example Associations](../../NeurIPS2025/llm_safety/demystifying_language_model_forgetting_with_low-rank_example_associations.md)
 - [\[ACL 2025\] ReLearn: Unlearning via Learning for Large Language Models](relearn_unlearning_via_learning_for_large_language_models.md)
-- [\[ACL 2025\] SEUF: Is Unlearning One Expert Enough for Mixture-of-Experts LLMs?](seuf_is_unlearning_one_expert_enough_for_mixture-of-experts_llms.md)
+- [\[ACL 2025\] REVS: Unlearning Sensitive Information in Language Models via Rank Editing in the Vocabulary Space](revs_unlearning_sensitive_information_in_language_models_via_rank_editing_in_the.md)
+- [\[ACL 2025\] Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities](con_instruction_universal_jailbreaking_of_multimodal_large_language_models_via_n.md)
 
 <!-- RELATED:END -->

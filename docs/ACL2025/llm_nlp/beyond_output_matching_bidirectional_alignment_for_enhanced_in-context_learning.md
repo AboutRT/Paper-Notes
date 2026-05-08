@@ -60,9 +60,9 @@ $$\mathcal{L}^{\text{KL}} = \sum_{i=1}^{m} \sum_{j=1}^{t} D_{\text{KL}}(P_j(\mat
 
 $$\mathcal{L}^{\text{rank}} = \sum_i \sum_{R^+, R^- \in R_i^{\text{all}}} \max\{0, \underbrace{\frac{\log Q^S(R^-) - \log Q^S(R^+)}{\max \log Q^S - \min \log Q^S}}_{\text{Left: 学生偏好差异}} + \underbrace{\frac{1}{N-1}(\text{rank}(Q^T(R^-)) - \text{rank}(Q^T(R^+)))}_{\text{Right: 教师排名差异}}\}$$
 
-   - Left 部分度量学生对正负示例集的归一化偏好差异
-   - Right 部分反映教师对正负示例集的**相对排名**差异（用 rank 函数而非原始分数，减少分数量级变化的影响）
-   - 正/负由教师的偏好分数决定：偏好分数高的为正
+    - Left 部分度量学生对正负示例集的归一化偏好差异
+    - Right 部分反映教师对正负示例集的**相对排名**差异（用 rank 函数而非原始分数，减少分数量级变化的影响）
+    - 正/负由教师的偏好分数决定：偏好分数高的为正
 
 5. **总损失**: $\mathcal{L} = \mathcal{L}^{\text{KL}} + \lambda \mathcal{L}^{\text{rank}}$
 
@@ -134,10 +134,10 @@ $$\mathcal{L}^{\text{rank}} = \sum_i \sum_{R^+, R^- \in R_i^{\text{all}}} \max\{
 
 ## 相关论文
 
-- [\[ACL 2025\] Exploring Explanations Improves the Robustness of In-Context Learning](exploring_explanations_improves_the_robustness_of_in-context_learning.md)
 - [\[ACL 2025\] Beyond In-Context Learning: Aligning Long-form Generation of LLMs via Task-Inherent Attribute Guidelines](beyond_in-context_learning_aligning_long-form_generation_of_large_language_model.md)
-- [\[ACL 2025\] Leveraging In-Context Learning for Political Bias Testing of LLMs](leveraging_in-context_learning_for_political_bias_testing_of_llms.md)
+- [\[ACL 2025\] Exploring Explanations Improves the Robustness of In-Context Learning](exploring_explanations_improves_the_robustness_of_in-context_learning.md)
 - [\[ACL 2025\] Cross-Modal Alignment for LLM-Enhanced Spoken Language Understanding](cross-modal_alignment_for_llm-enhanced_spoken_language_understanding.md)
+- [\[ACL 2025\] Leveraging In-Context Learning for Political Bias Testing of LLMs](leveraging_in-context_learning_for_political_bias_testing_of_llms.md)
 - [\[ACL 2025\] Can Input Attributions Explain Inductive Reasoning in In-Context Learning?](can_input_attributions_explain_inductive_reasoning_in_in-context_learning.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.14267](https://arxiv.org/abs/2603.14267)  
-**代码**: [Demo](https://nngocson2002.github.io/projects/diflowdubber) (有)  
+**代码**: [Demo](https://nngocson2002.github.io/projects/diflowdubber)  
 **领域**: Image Generation / 多模态语音生成  
 **关键词**: 视频配音, 离散流匹配, 跨模态对齐, 语音合成, 唇音同步  
 

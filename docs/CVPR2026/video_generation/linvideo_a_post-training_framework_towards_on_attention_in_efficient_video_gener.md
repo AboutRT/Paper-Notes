@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2510.08318](https://arxiv.org/abs/2510.08318)  
 **代码**: 无  
-**领域**: image_generation / video_generation  
+**领域**: 视频生成  
 **关键词**: linear attention, video diffusion, post-training, efficient inference, distribution matching
 
 ## 一句话总结
@@ -163,6 +163,6 @@ Wan 14B (720p) 上 LinVideo 达 **1.71×** 加速（1127s vs 1931s），结合 D
 - [\[CVPR 2026\] When to Lock Attention: Training-Free KV Control in Video Diffusion](when_to_lock_attention_training-free_kv_control_in_video_diffusion.md)
 - [\[CVPR 2026\] UniTalking: A Unified Audio-Video Framework for Talking Portrait Generation](unitalking_a_unified_audio-video_framework_for_talking_portrait_generation.md)
 - [\[CVPR 2026\] U-Mind: A Unified Framework for Real-Time Multimodal Interaction with Audiovisual Generation](u-mind_a_unified_framework_for_real-time_multimodal_interaction_with_audiovisual.md)
-- [\[CVPR 2026\] Lighting-grounded Video Generation with Renderer-based Agent Reasoning](lighting-grounded_video_generation_with_renderer-based_agent_reasoning.md)
+- [\[CVPR 2026\] Gloria: Consistent Character Video Generation via Content Anchors](gloria_consistent_character_video_generation_via_content_anchors.md)
 
 <!-- RELATED:END -->

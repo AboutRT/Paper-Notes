@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.11049](https://arxiv.org/abs/2508.11049)  
 **代码**: [Project Page](https://colinyu1.github.io/genflowrl)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 强化学习, 物体中心流, 奖励塑形, 机器人操控, 跨具身, 视频生成模型
 
 ## 一句话总结

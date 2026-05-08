@@ -9,7 +9,7 @@ tags:
   - 护栏策略
   - 提示注入防御
   - 最小权限原则
-  - 策略即代码
+  - 社会计算
 ---
 
 # Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.23994](https://arxiv.org/abs/2509.23994)  
 **代码**: 无  
-**领域**: AI Safety / AI Governance  
+**领域**: 社会计算  
 **关键词**: AI治理, 护栏策略, 提示注入防御, 最小权限原则, 策略即代码
 
 ## 一句话总结
@@ -134,9 +134,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] Position Paper: If Innovation in AI Systematically Violates Fundamental Rights, Is It Innovation at All?](position_paper_if_innovation_in_ai_systematically_violates_fundamental_rights_is.md)
-- [\[AAAI 2026\] Factor(U,T): Controlling Untrusted AI by Monitoring their Plans](../../AAAI2026/social_computing/factorut_controlling_untrusted_ai_by_monitoring_their_plans.md)
-- [\[NeurIPS 2025\] OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](os-harm_a_benchmark_for_measuring_safety_of_computer_use_agents.md)
 - [\[ICLR 2026\] Propaganda AI: An Analysis of Semantic Divergence in Large Language Models](../../ICLR2026/social_computing/propaganda_ai_an_analysis_of_semantic_divergence_in_large_language_models.md)
-- [\[NeurIPS 2025\] DATE-LM: Benchmarking Data Attribution Evaluation for Large Language Models](date-lm_benchmarking_data_attribution_evaluation_for_large_language_models.md)
+- [\[NeurIPS 2025\] OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](os-harm_a_benchmark_for_measuring_safety_of_computer_use_agents.md)
+- [\[NeurIPS 2025\] VDRP: Visual Diversity and Region-aware Prompt Learning for Zero-shot HOI Detection](visual_diversity_and_region-aware_prompt_learning_for_zero-shot_hoi_detection.md)
+- [\[NeurIPS 2025\] Auto-Search and Refinement: An Automated Framework for Gender Bias Mitigation in LLMs](auto-search_and_refinement_an_automated_framework_for_gender_bias_mitigation_in_.md)
 
 <!-- RELATED:END -->

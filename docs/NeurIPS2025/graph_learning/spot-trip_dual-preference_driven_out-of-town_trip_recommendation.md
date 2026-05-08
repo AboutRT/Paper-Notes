@@ -49,11 +49,11 @@ SPOT-Trip包含三大模块：知识增强静态偏好学习（KSPL）、基于O
 
    构建POI属性知识图谱 $\mathcal{G}_k = (v, r, e)$，编码POI与属性实体之间的语义关系（如"Balboa Park → Located in → San Diego"）。通过关系感知注意力聚合机制生成增强的POI嵌入：
 
-   $$\bar{\mathbf{v}} = \mathbf{v} + \sum_{e \in \mathcal{N}_v} \alpha(e, r_{e,v}, v) \mathbf{e}$$
+    $\bar{\mathbf{v}} = \mathbf{v} + \sum_{e \in \mathcal{N}_v} \alpha(e, r_{e,v}, v) \mathbf{e}$
 
    其中注意力权重 $\alpha$ 编码实体-关系特定的语义关联。静态偏好对齐通过MLP将家乡偏好映射到异地：
 
-   $$\bar{\mathbf{P}}^o = \phi(\mathbf{W}_S \bar{\mathbf{u}}^h + \mathbf{b}_S)$$
+    $\bar{\mathbf{P}}^o = \phi(\mathbf{W}_S \bar{\mathbf{u}}^h + \mathbf{b}_S)$
 
    用欧氏距离损失桥接推断偏好与真实异地偏好：$\mathcal{L}_S = \sum_u \|\bar{\mathbf{P}}^o - \bar{\mathbf{u}}^o\|_2^2$
 
@@ -63,15 +63,15 @@ SPOT-Trip包含三大模块：知识增强静态偏好学习（KSPL）、基于O
 
    使用神经ODE建模用户动态偏好在连续时间上的漂移：
 
-   $$\frac{d\tilde{\mathbf{p}}_t^o}{dt} = f(\tilde{\mathbf{p}}_{t_1}^o)$$
+    $\frac{d\tilde{\mathbf{p}}_t^o}{dt} = f(\tilde{\mathbf{p}}_{t_1}^o)$
 
    结合时间点过程描述每个行为发生的瞬时概率，通过非齐次泊松过程的强度函数 $\lambda(\cdot)$ 刻画：
 
-   $$t_n \sim \text{NHPP}(\lambda(\tilde{\mathbf{p}}_t^o))$$
+    $t_n \sim \text{NHPP}(\lambda(\tilde{\mathbf{p}}_t^o))$
 
    使用变分推断估计潜在初始状态的后验，通过Transformer编码器聚合家乡行为序列获得变分参数。动态学习损失基于ELBO：
 
-   $$\mathcal{L}_D = -\sum_{u \in \mathcal{U}} \left[\underbrace{\text{重构行为对数似然}}_{(i)} + \underbrace{\text{时间点过程对数似然}}_{(ii)} - \underbrace{\text{KL散度}}_{(iii)}\right]$$
+    $\mathcal{L}_D = -\sum_{u \in \mathcal{U}} \left[\underbrace{\text{重构行为对数似然}}_{(i)} + \underbrace{\text{时间点过程对数似然}}_{(ii)} - \underbrace{\text{KL散度}}_{(iii)}\right]$
 
    设计动机：签到数据的时间采样不规则，神经ODE天然处理连续时间建模，点过程可量化行为发生概率。
 
@@ -79,7 +79,7 @@ SPOT-Trip包含三大模块：知识增强静态偏好学习（KSPL）、基于O
 
    将查询表示、静态偏好和动态偏好序列拼接，通过非线性预测头计算每个POI的logit：
 
-   $$z_{u,n,i} = \phi(\mathbf{W}_R [\mathbf{Q}^o \| \bar{\mathbf{P}}^o \| \tilde{\mathbf{P}}^o] + \mathbf{b}_R)$$
+    $z_{u,n,i} = \phi(\mathbf{W}_R [\mathbf{Q}^o \| \bar{\mathbf{P}}^o \| \tilde{\mathbf{P}}^o] + \mathbf{b}_R)$
 
 ### 损失函数 / 训练策略
 
@@ -160,6 +160,6 @@ $$\mathcal{L} = \beta_1 \mathcal{L}_S + \beta_2 \mathcal{L}_D + \beta_3 \mathcal
 - [\[NeurIPS 2025\] DuetGraph: Coarse-to-Fine Knowledge Graph Reasoning with Dual-Pathway Global-Local Fusion](duetgraph_coarse-to-fine_knowledge_graph_reasoning_with_dual-pathway_global-loca.md)
 - [\[ACL 2025\] Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation (K-RagRec)](../../ACL2025/graph_learning/kg_rag_recommendation.md)
 - [\[CVPR 2025\] Unbiased Video Scene Graph Generation via Visual and Semantic Dual Debiasing](../../CVPR2025/graph_learning/unbiased_video_scene_graph_generation_via_visual_and_semantic_dual_debiasing.md)
-- [\[ICML 2025\] Toward Data-centric Directed Graph Learning: An Entropy-driven Approach](../../ICML2025/graph_learning/toward_data-centric_directed_graph_learning_an_entropy-driven_approach.md)
+- [\[NeurIPS 2025\] ReMindRAG: Low-Cost LLM-Guided Knowledge Graph Traversal for Efficient RAG](remindrag_low-cost_llm-guided_knowledge_graph_traversal_for_efficient_rag.md)
 
 <!-- RELATED:END -->

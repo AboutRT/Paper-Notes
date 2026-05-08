@@ -20,7 +20,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.14968](https://arxiv.org/abs/2602.14968)  
 **代码**: [项目页面](https://physcensis.github.io)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: 3D scene generation, physics engine, LLM agent, physical plausibility, predicate-based placement, probabilistic programming, robotic manipulation
 
 ## 一句话总结

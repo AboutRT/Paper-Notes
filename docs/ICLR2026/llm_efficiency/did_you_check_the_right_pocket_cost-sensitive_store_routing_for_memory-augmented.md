@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026 Workshop  
 **arXiv**: [2603.15658](https://arxiv.org/abs/2603.15658)  
 **代码**: 无  
-**领域**: Agent  
+**领域**: LLM效率  
 **关键词**: memory-augmented agents, store routing, cost-sensitive retrieval, RAG, memory architecture  
 
 ## 一句话总结
@@ -141,9 +141,9 @@ tags:
 ## 相关论文
 
 - [\[ICLR 2026\] Universe Routing: Why Self-Evolving Agents Need Epistemic Control](universe_routing_why_self-evolving_agents_need_epistemic_control.md)
+- [\[ICLR 2026\] IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling](iterresearch_rethinking_long-horizon_agents_with_interaction_scaling.md)
 - [\[ICLR 2026\] TokenSeek: Memory Efficient Fine Tuning via Instance-Aware Token Selection](tokenseek_memory_efficient_fine_tuning_via_instance-aware_token_selection.md)
 - [\[NeurIPS 2025\] Tensor Product Attention Is All You Need](../../NeurIPS2025/llm_efficiency/tensor_product_attention_is_all_you_need.md)
-- [\[NeurIPS 2025\] Obliviator Reveals the Cost of Nonlinear Guardedness in Concept Erasure](../../NeurIPS2025/llm_efficiency/obliviator_reveals_the_cost_of_nonlinear_guardedness_in_concept_erasure.md)
-- [\[ICML 2025\] CostFilter-AD: Enhancing Anomaly Detection through Matching Cost Filtering](../../ICML2025/llm_efficiency/costfilter-ad_enhancing_anomaly_detection_through_matching_cost_filtering.md)
+- [\[NeurIPS 2025\] Efficient Training-Free Online Routing for High-Volume Multi-LLM Serving](../../NeurIPS2025/llm_efficiency/efficient_training-free_online_routing_for_high-volume_multi-llm_serving.md)
 
 <!-- RELATED:END -->

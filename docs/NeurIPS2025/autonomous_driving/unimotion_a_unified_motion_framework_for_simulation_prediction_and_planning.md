@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2602.00566](https://arxiv.org/abs/2602.00566)  
-**代码**: https://github.com/LogosRoboticsGroup/UniMotion (有)  
+**代码**: [https://github.com/LogosRoboticsGroup/UniMotion](https://github.com/LogosRoboticsGroup/UniMotion)  
 **领域**: 自动驾驶  
 **关键词**: 运动预测, 轨迹仿真, 自动驾驶规划, 统一框架, GPT式模型
 

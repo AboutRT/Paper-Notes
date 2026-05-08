@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.21765](https://arxiv.org/abs/2509.21765)  
 **代码**: [github](https://github.com/PeiJY/LLR-BC)  
-**领域**: llm_safety  
+**领域**: LLM安全  
 **关键词**: 终身学习, 车辆路径问题, 灾难性遗忘, 经验回放, 行为巩固
 
 ## 一句话总结
@@ -191,8 +191,8 @@ LLR-BC 的 AP 比所有基线低一个数量级（CVRP: 4.2 vs 23.5+；TSP: 3.4 
 
 - [\[CVPR 2026\] Elastic Weight Consolidation Done Right for Continual Learning](../../CVPR2026/llm_safety/elastic_weight_consolidation_done_right_for_continual_learning.md)
 - [\[CVPR 2026\] Association and Consolidation: Evolutionary Memory-Enhanced Incremental Multi-View Clustering](../../CVPR2026/llm_safety/association_and_consolidation_evolutionary_memory-enhanced_incremental_multi-vie.md)
+- [\[NeurIPS 2025\] Angular Steering: Behavior Control via Rotation in Activation Space](../../NeurIPS2025/llm_safety/angular_steering_behavior_control_via_rotation_in_activation_space.md)
 - [\[ACL 2025\] AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection](../../ACL2025/llm_safety/agrail_a_lifelong_agent_guardrail_with_effective_and_adaptive_safety_detection.md)
-- [\[NeurIPS 2025\] Finding Structure in Continual Learning](../../NeurIPS2025/llm_safety/finding_structure_in_continual_learning.md)
-- [\[CVPR 2026\] Learning from Oblivion: Predicting Knowledge-Overflowed Weights via Retrodiction of Forgetting](../../CVPR2026/llm_safety/learning_from_oblivion_predicting_knowledge_overflowed_weights_via_retrodiction_.md)
+- [\[AAAI 2026\] PRISM: Privacy-Aware Routing for Adaptive Cloud-Edge LLM Inference via Semantic Sketch Collaboration](../../AAAI2026/llm_safety/prism_privacy-aware_routing_for_adaptive_cloud-edge_llm_inference_via_semantic_s.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.18466](https://arxiv.org/abs/2411.18466)  
-**代码**: https://eduardzamfir.github.io/MoCE-IR/  
+**代码**: [https://eduardzamfir.github.io/MoCE-IR/](https://eduardzamfir.github.io/MoCE-IR/)  
 **领域**: 图像修复 / 模型压缩  
 **关键词**: 全合一图像修复, 混合专家, 复杂度感知路由, 任务判别学习, 稀疏计算
 

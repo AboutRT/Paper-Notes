@@ -56,7 +56,7 @@ PINO的输入包含两部分：（1）有序的参与者列表，指定每组两
 
    对于第 $p$ 个目标角色，其噪声优化为：
 
-   $$\hat{\mathbf{x}}_T^p \leftarrow \arg\min_{\mathbf{x}_T^p} \mathcal{L}\left(G_\theta^{mask}(\mathbf{x}_T^p, \hat{\mathbf{x}}_0^{k_p}, c_{k_p, p}), \{\mathbf{x}_0^{i \in \mathcal{I}}\}\right)$$
+    $\hat{\mathbf{x}}_T^p \leftarrow \arg\min_{\mathbf{x}_T^p} \mathcal{L}\left(G_\theta^{mask}(\mathbf{x}_T^p, \hat{\mathbf{x}}_0^{k_p}, c_{k_p, p}), \{\mathbf{x}_0^{i \in \mathcal{I}}\}\right)$
 
    其中 $\mathcal{I}$ 是预定义的参与优化的已有角色子集。
 
@@ -64,19 +64,19 @@ PINO的输入包含两部分：（1）有序的参与者列表，指定每组两
 
    **重叠避免损失**：当两人的根节点位置距离小于阈值 $\delta$ 时施加惩罚：
 
-   $$\mathcal{L}_{overlap} = \sum_i \sum_n \max\left(0, \delta - \|\mathbf{p}_{root}^p(n) - \hat{\mathbf{p}}_{root}^i(n)\|_2\right)$$
+    $\mathcal{L}_{overlap} = \sum_i \sum_n \max\left(0, \delta - \|\mathbf{p}_{root}^p(n) - \hat{\mathbf{p}}_{root}^i(n)\|_2\right)$
 
    **时空运动控制损失** $\mathcal{L}_{control}$ 包含四种可微分惩罚：
-   - 根节点位置惩罚：约束角色在特定时刻到达指定位置
-   - 运动区域惩罚：限制角色在定义区域内移动
-   - 朝向惩罚：控制特定帧的面朝方向
-   - 相对位置惩罚：维持角色间的期望距离或朝向关系
+    - 根节点位置惩罚：约束角色在特定时刻到达指定位置
+    - 运动区域惩罚：限制角色在定义区域内移动
+    - 朝向惩罚：控制特定帧的面朝方向
+    - 相对位置惩罚：维持角色间的期望距离或朝向关系
 
    总优化损失为：$\mathcal{L} = \mathcal{L}_{overlap} + \mathcal{L}_{control}$
 
 3. **长时序运动生成**：通过运动修复（inpainting）技术扩展交互时长。从已有序列的最后 $n$ 帧作为上下文参考，在每个去噪步骤中通过二值掩码替换初始帧：
 
-   $$\mathbf{x}_t^i \leftarrow \mathbf{m} \odot \hat{\mathbf{x}}^i + (1 - \mathbf{m}) \odot \mathbf{x}_t^i$$
+    $\mathbf{x}_t^i \leftarrow \mathbf{m} \odot \hat{\mathbf{x}}^i + (1 - \mathbf{m}) \odot \mathbf{x}_t^i$
 
    同时添加边界惩罚以最小化关节加速度，确保新旧段之间的运动过渡自然。结合prompt切换，可在长序列中实现角色交替（如三人轮流握手）。
 
@@ -164,7 +164,7 @@ PINO的输入包含两部分：（1）有序的参与者列表，指定每组两
 - [\[ICCV 2025\] Straighten Viscous Rectified Flow via Noise Optimization](straighten_viscous_rectified_flow_via_noise_optimization.md)
 - [\[ICCV 2025\] InfiniDreamer: Arbitrarily Long Human Motion Generation via Segment Score Distillation](infinidreamer_arbitrarily_long_human_motion_generation_via_segment_score_distill.md)
 - [\[ICCV 2025\] A Unified Framework for Motion Reasoning and Generation in Human Interaction](a_unified_framework_for_motion_reasoning_and_generation_in_human_interaction.md)
+- [\[ICLR 2026\] Diverse Text-to-Image Generation via Contrastive Noise Optimization](../../ICLR2026/image_generation/diverse_text-to-image_generation_via_contrastive_noise_optimization.md)
 - [\[ICCV 2025\] Video Motion Graphs](video_motion_graphs.md)
-- [\[ICCV 2025\] ScoreHOI: Physically Plausible Reconstruction of Human-Object Interaction via Score-Guided Diffusion](scorehoi_physically_plausible_reconstruction_of_human-object_interaction_via_sco.md)
 
 <!-- RELATED:END -->

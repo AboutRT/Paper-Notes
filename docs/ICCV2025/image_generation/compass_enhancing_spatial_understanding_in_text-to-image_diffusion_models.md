@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.13195](https://arxiv.org/abs/2412.13195)  
-**代码**: https://github.com/blurgyy/CoMPaSS  
-**领域**: image_generation  
+**代码**: [https://github.com/blurgyy/CoMPaSS](https://github.com/blurgyy/CoMPaSS)  
+**领域**: 图像生成  
 **关键词**: 文本到图像生成, 空间理解, 扩散模型, 数据引擎, token位置编码
 
 ## 一句话总结

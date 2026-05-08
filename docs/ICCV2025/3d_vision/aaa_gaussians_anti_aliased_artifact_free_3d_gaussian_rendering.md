@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: 无 (CVF Open Access)  
-**代码**: https://github.com/DerThomy/AAA-Gaussians  
+**代码**: [https://github.com/DerThomy/AAA-Gaussians](https://github.com/DerThomy/AAA-Gaussians)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 抗锯齿, 伪影消除, 3D评估, 实时渲染
 

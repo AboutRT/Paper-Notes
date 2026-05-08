@@ -2,10 +2,10 @@
 title: >-
   [论文解读] How Does Alignment Enhance LLMs' Multilingual Capabilities? A Language Neurons Perspective
 description: >-
-  [AAAI 2026][multilingual LLM] 提出三元神经元分类（语言特定/语言相关/通用），将 LLM 多语言推理分为四阶段分析，发现多语言对齐通过增加语言相关神经元（减少语言特定神经元）来提升性能，且在未训练语言上也产生"自发多语言对齐"效应。
+  [AAAI 2026][多语言翻译] 提出三元神经元分类（语言特定/语言相关/通用），将 LLM 多语言推理分为四阶段分析，发现多语言对齐通过增加语言相关神经元（减少语言特定神经元）来提升性能，且在未训练语言上也产生"自发多语言对齐"效应。
 tags:
   - AAAI 2026
-  - multilingual LLM
+  - 多语言翻译
   - language neurons
   - alignment mechanism
   - ternary classification
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2505.21505](https://arxiv.org/abs/2505.21505)  
 **代码**: [https://github.com/NJUNLP/Language-Neurons-Alignment](https://github.com/NJUNLP/Language-Neurons-Alignment)  
-**领域**: 对齐RLHF  
+**领域**: 多语言翻译  
 **关键词**: multilingual LLM, language neurons, alignment mechanism, ternary classification, spontaneous alignment
 
 ## 一句话总结
@@ -130,9 +130,9 @@ MAPO-DPO 训练。翻译模型 NLLB-200 计算对齐分数，每目标语言 10,
 ## 相关论文
 
 - [\[ACL 2025\] Multi-perspective Alignment for Increasing Naturalness in Neural Machine Translation](../../ACL2025/multilingual_mt/multi-perspective_alignment_for_increasing_naturalness_in_neural_machine_transla.md)
-- [\[ACL 2025\] Just Go Parallel: Improving the Multilingual Capabilities of Large Language Models](../../ACL2025/multilingual_mt/just_go_parallel_improving_the_multilingual_capabilities_of_large_language_model.md)
-- [\[ACL 2025\] ShifCon: Enhancing Non-Dominant Language Capabilities with a Shift-based Multilingual Contrastive Framework](../../ACL2025/multilingual_mt/shifcon_nondominant_language.md)
 - [\[AAAI 2026\] Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages](bridging_the_multilingual_safety_divide_efficient_culturally-aware_alignment_for.md)
 - [\[AAAI 2026\] Focusing on Language: Revealing and Exploiting Language Attention Heads in Multilingual Large Language Models](focusing_on_language_revealing_and_exploiting_language_attention_heads_in_multil.md)
+- [\[ACL 2025\] Just Go Parallel: Improving the Multilingual Capabilities of Large Language Models](../../ACL2025/multilingual_mt/just_go_parallel_improving_the_multilingual_capabilities_of_large_language_model.md)
+- [\[ACL 2025\] Cross-Lingual Generalization and Compression: From Language-Specific to Shared Neurons](../../ACL2025/multilingual_mt/cross_lingual_neurons_compression.md)
 
 <!-- RELATED:END -->

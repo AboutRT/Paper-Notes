@@ -84,7 +84,7 @@ $$\mathbf{x}_{\text{ref}} = R_\phi(P_\theta(\mathbf{x}_{\text{adv}}), \mathbf{\L
 
    训练目标（denoising score matching）：
 
-   $$\mathcal{L}(\phi) = \mathbb{E}\left[\left\|s_\phi(\mathbf{m}_\tau, [\mathbf{m}_{\text{pur}}, \mathbf{\Lambda}], \tau) + \frac{\mathbf{z}}{\sigma(\tau)}\right\|_2^2\right]$$
+    $\mathcal{L}(\phi) = \mathbb{E}\left[\left\|s_\phi(\mathbf{m}_\tau, [\mathbf{m}_{\text{pur}}, \mathbf{\Lambda}], \tau) + \frac{\mathbf{z}}{\sigma(\tau)}\right\|_2^2\right]$
 
    设计动机：直接将对抗样本映射到干净样本非常困难（因为对抗扰动的分布未知），但 Purification 阶段的一个关键观察使问题变得可行：净化后的干净样本和净化后的受保护样本具有相似的分布。因此，仅用干净样本配对训练的映射可以泛化到受保护样本。
 
@@ -93,9 +93,9 @@ $$\mathbf{x}_{\text{ref}} = R_\phi(P_\theta(\mathbf{x}_{\text{adv}}), \mathbf{\L
    做什么→利用音素信息作为 Refinement 阶段的引导条件。
 
    核心思路：
-   - 使用 Montreal Forced Aligner（MFA）对训练样本进行音素对齐
-   - 计算每个音素在所有训练样本中的平均幅度谱 $\mathbf{\Lambda}$
-   - 推理时，将输入音频的音素序列对应的平均幅度谱拼接到输入中：$[\mathbf{m}_{\text{pur}}, \mathbf{\Lambda}]$
+    - 使用 Montreal Forced Aligner（MFA）对训练样本进行音素对齐
+    - 计算每个音素在所有训练样本中的平均幅度谱 $\mathbf{\Lambda}$
+    - 推理时，将输入音频的音素序列对应的平均幅度谱拼接到输入中：$[\mathbf{m}_{\text{pur}}, \mathbf{\Lambda}]$
 
    设计动机：保护性扰动主要针对 VC 模型的说话人特征编码器设计，旨在破坏说话人特定特征，而非语音内容信息。因此音素信息（编码语音内容）受扰动影响很小，可以作为可靠的引导线索帮助 Refinement 模型恢复干净语音的细节。
 
@@ -186,8 +186,8 @@ $$\mathbf{x}_{\text{ref}} = R_\phi(P_\theta(\mathbf{x}_{\text{adv}}), \mathbf{\L
 
 - [\[ICML 2025\] Adversarial Inception Backdoor Attacks against Reinforcement Learning](adversarial_inception_backdoor_attacks_against_reinforcement_learning.md)
 - [\[ICML 2025\] Theoretically Unmasking Inference Attacks Against LDP-Protected Clients in Federated Vision Models](theoretically_unmasking_inference_attacks_against_ldp-protected_clients_in_feder.md)
-- [\[ICML 2025\] De-mark: Watermark Removal in Large Language Models](de-mark_watermark_removal_in_large_language_models.md)
 - [\[ICML 2025\] Do Not Mimic My Voice: Speaker Identity Unlearning for Zero-Shot Text-to-Speech](do_not_mimic_my_voice_speaker_identity_unlearning_for_zero-shot_text-to-speech.md)
 - [\[ICML 2025\] Rethinking the Bias of Foundation Model under Long-tailed Distribution](rethinking_the_bias_of_foundation_model_under_long-tailed_distribution.md)
+- [\[ICML 2025\] Theoretically Unmasking Inference Attacks Against LDP-Protected Client Data in Federated Vision Models](theoretically_unmasking_inference_attacks_against_ldp-protected_client_data_in_.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2312.05984](https://arxiv.org/abs/2312.05984)  
-**代码**: https://justachetan.github.io/hnf-derivatives/  
+**代码**: [https://justachetan.github.io/hnf-derivatives/](https://justachetan.github.io/hnf-derivatives/)  
 **领域**: 科学计算 / 3D视觉  
 **关键词**: 混合神经场, 微分算子, 局部多项式拟合, 高频噪声, SDF
 

@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2507.17651](https://arxiv.org/abs/2507.17651)  
 **代码**: [odunkel/CNS-Bench](https://github.com/odunkel/CNS-Bench)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: OOD鲁棒性, 连续干扰偏移, LoRA适配器, 扩散模型, 图像分类器基准测试
 
 ## 一句话总结

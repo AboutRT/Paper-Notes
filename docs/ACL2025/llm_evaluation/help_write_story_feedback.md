@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 写作反馈
   - 创意写作
-  - LLM评估
+  - LLM评测
   - 故事生成
   - 人工评估
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2507.16007](https://arxiv.org/abs/2507.16007)  
-**代码**: https://github.com/google-deepmind/igen  
-**领域**: LLM评估  
+**代码**: [https://github.com/google-deepmind/igen](https://github.com/google-deepmind/igen)  
+**领域**: LLM评测  
 **关键词**: 写作反馈, 创意写作, LLM评估, 故事生成, 人工评估
 
 ## 一句话总结
@@ -134,9 +134,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] EvoWiki: Evaluating LLMs on Evolving Knowledge](evowiki_evaluating_llms_on_evolving_knowledge.md)
-- [\[ACL 2025\] HomeBench: Evaluating LLMs in Smart Homes with Valid and Invalid Instructions Across Single and Multiple Devices](homebench_evaluating_llms_in_smart_homes_with_valid_and_invalid_instructions_acr.md)
-- [\[ACL 2025\] GuessArena: Guess Who I Am? A Self-Adaptive Framework for Evaluating LLMs in Domain-Specific Knowledge and Reasoning](guessarena_guess_who_i_am_a.md)
 - [\[ACL 2025\] From Tools to Teammates: Evaluating LLMs in Multi-Session Coding Interactions](from_tools_to_teammates_evaluating_llms_in_multi-session_coding_interactions.md)
 - [\[NeurIPS 2025\] On Evaluating LLM Alignment by Evaluating LLMs as Judges](../../NeurIPS2025/llm_evaluation/on_evaluating_llm_alignment_by_evaluating_llms_as_judges.md)
+- [\[ACL 2025\] HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning](hellaswag-pro_a_large-scale_bilingual_benchmark_for_evaluating_the_robustness_of.md)
+- [\[ICCV 2025\] Lay2Story: Extending Diffusion Transformers for Layout-Togglable Story Generation](../../ICCV2025/llm_evaluation/lay2story_extending_diffusion_transformers_for_layout-togglable_story_generation.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2501.02771](https://arxiv.org/abs/2501.02771)  
-**代码**: https://eth-ait.github.io/WorldPoseDataset/ (数据集页面)  
+**代码**: [https://eth-ait.github.io/WorldPoseDataset/](https://eth-ait.github.io/WorldPoseDataset/) (数据集页面)  
 **领域**: 人体理解  
 **关键词**: 多人姿态估计, 全局轨迹, SMPL, 数据集, 体育分析
 

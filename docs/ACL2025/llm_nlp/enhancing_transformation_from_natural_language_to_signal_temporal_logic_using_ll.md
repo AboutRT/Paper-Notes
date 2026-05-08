@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.20658](https://arxiv.org/abs/2505.20658)  
-**代码**: https://github.com/YueFang0618/STL-DivEn  
+**代码**: [https://github.com/YueFang0618/STL-DivEn](https://github.com/YueFang0618/STL-DivEn)  
 **领域**: LLM/NLP - 形式化规约  
 **关键词**: signal temporal logic, NL-to-STL, formal specification, knowledge-guided refinement, dataset construction
 
@@ -120,6 +120,6 @@ tags:
 - [\[ACL 2025\] What Makes a Good Natural Language Prompt?](good_natural_language_prompt.md)
 - [\[ACL 2025\] Problem-Solving Logic Guided Curriculum In-Context Learning for LLMs Complex Reasoning](problem-solving_logic_guided_curriculum_in-context_learning_for_llms_complex_rea.md)
 - [\[ACL 2025\] Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs](palm_a_culturally_inclusive_and_linguistically_diverse_dataset_for_arabic_llms.md)
-- [\[ACL 2025\] How LLMs Comprehend Temporal Meaning in Narratives: A Case Study in Cognitive Evaluation of LLMs](how_llms_comprehend_temporal_meaning_in_narratives_a_case_study_in_cognitive_eva.md)
+- [\[ACL 2025\] Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations](factual_knowledge_in_language_models_robustness_and_anomalies_under_simple_tempo.md)
 
 <!-- RELATED:END -->

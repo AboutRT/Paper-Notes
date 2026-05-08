@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - MLLM可解释性
+  - 多模态VLM
   - 概念漂移
   - 表征偏移
   - 模型引导
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2501.03012](https://arxiv.org/abs/2501.03012)  
 **代码**: [项目页面](https://pegah-kh.github.io/projects/lmm-finetuning-analysis-and-steering/)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: MLLM可解释性, 概念漂移, 表征偏移, 模型引导, 去偏
 
 ## 一句话总结
@@ -124,10 +124,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] Hints of Prompt: Enhancing Visual Representation for Multimodal LLMs in Autonomous Driving](hints_of_prompt_enhancing_visual_representation_for_multimodal_llms_in_autonomou.md)
 - [\[NeurIPS 2025\] Learning to Steer: Input-dependent Steering for Multimodal LLMs](../../NeurIPS2025/multimodal_vlm/learning_to_steer_input-dependent_steering_for_multimodal_llms.md)
-- [\[ICLR 2026\] Steering and Rectifying Latent Representation Manifolds in Frozen Multi-Modal LLMs for Video Anomaly Detection](../../ICLR2026/multimodal_vlm/steering_and_rectifying_latent_representation_manifolds_in_frozen_multi-modal_ll.md)
+- [\[ICCV 2025\] Hints of Prompt: Enhancing Visual Representation for Multimodal LLMs in Autonomous Driving](hints_of_prompt_enhancing_visual_representation_for_multimodal_llms_in_autonomou.md)
 - [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](controlling_multimodal_llms_via_rewardguided_decoding.md)
+- [\[ICLR 2026\] Steering and Rectifying Latent Representation Manifolds in Frozen Multi-Modal LLMs for Video Anomaly Detection](../../ICLR2026/multimodal_vlm/steering_and_rectifying_latent_representation_manifolds_in_frozen_multi-modal_ll.md)
 - [\[ICCV 2025\] Enrich and Detect: Video Temporal Grounding with Multimodal LLMs](enrich_and_detect_video_temporal_grounding_with_multimodal_llms.md)
 
 <!-- RELATED:END -->

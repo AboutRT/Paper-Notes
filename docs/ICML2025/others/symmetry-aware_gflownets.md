@@ -9,15 +9,15 @@ tags:
   - graph symmetry
   - automorphism group
   - equivalent actions
-  - molecule generation
+  - 其他
 ---
 
 # Symmetry-Aware GFlowNets
 
 **会议**: ICML 2025  
 **arXiv**: [2506.02685](https://arxiv.org/abs/2506.02685)  
-**代码**: https://github.com/hohyun312/sagfn  
-**领域**: 生成模型 / 图生成  
+**代码**: [https://github.com/hohyun312/sagfn](https://github.com/hohyun312/sagfn)  
+**领域**: 其他  
 **关键词**: GFlowNets, graph symmetry, automorphism group, equivalent actions, molecule generation
 
 ## 一句话总结
@@ -125,10 +125,10 @@ SA-GFN 的核心修改极其简洁：在现有 GFlowNet 管线中，仅将奖励
 
 ## 相关论文
 
+- [\[ICML 2025\] Improved Exploration in GFlowNets via Enhanced Epistemic Neural Networks](improved_exploration_in_gflownets_via_enhanced_epistemic_neural_networks.md)
 - [\[ICML 2025\] Symmetry-Robust 3D Orientation Estimation](symmetry-robust_3d_orientation_estimation.md)
 - [\[ICML 2025\] Understanding Mode Connectivity via Parameter Space Symmetry](understanding_mode_connectivity_via_parameter_space_symmetry.md)
 - [\[ICML 2025\] Time-Aware World Model for Adaptive Prediction and Control](time-aware_world_model_for_adaptive_prediction_and_control.md)
-- [\[ICML 2025\] Constrained Hamiltonian Systems on Observation-Induced Fiber Bundles: Theory of Symmetry and Integrability](constrained_hamiltonian_systems_on_observation-induced_fiber_bundles_theory_of_s.md)
 - [\[ICML 2025\] Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry](sparse_training_from_random_initialization_aligning_lottery_ticket_masks_using_w.md)
 
 <!-- RELATED:END -->

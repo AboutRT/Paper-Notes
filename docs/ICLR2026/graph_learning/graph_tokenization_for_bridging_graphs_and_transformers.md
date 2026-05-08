@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.11099](https://arxiv.org/abs/2603.11099)  
 **代码**: 有（补充材料中提供）  
-**领域**: 自监督学习 / 图表示学习  
+**领域**: 图学习  
 **关键词**: graph tokenization, BPE, graph serialization, Transformer, graph classification
 
 ## 一句话总结
@@ -141,6 +141,6 @@ GT+GTE 在 14 个 benchmark 中多数达到 SOTA，且使用标准 off-the-shelf
 - [\[ACL 2025\] Multimodal Transformers are Hierarchical Modal-wise Heterogeneous Graphs](../../ACL2025/graph_learning/multimodal_transformers_are_hierarchical_modal-wise_heterogeneous_graphs.md)
 - [\[NeurIPS 2025\] Relieving the Over-Aggregating Effect in Graph Transformers](../../NeurIPS2025/graph_learning/relieving_the_over-aggregating_effect_in_graph_transformers.md)
 - [\[ICLR 2026\] Explore-on-Graph: Incentivizing Autonomous Exploration of LLMs on Knowledge Graphs](explore-on-graph_incentivizing_autonomous_exploration_of_large_language_models_o.md)
-- [\[ICLR 2026\] Towards Improved Sentence Representations using Token Graphs](towards_improved_sentence_representations_using_token_graphs.md)
+- [\[AAAI 2026\] MoToRec: Sparse-Regularized Multimodal Tokenization for Cold-Start Recommendation](../../AAAI2026/graph_learning/motorec_sparse-regularized_multimodal_tokenization_for_cold-start_recommendation.md)
 
 <!-- RELATED:END -->

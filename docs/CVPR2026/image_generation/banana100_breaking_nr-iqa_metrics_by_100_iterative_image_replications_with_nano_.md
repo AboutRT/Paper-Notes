@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.03400](https://arxiv.org/abs/2604.03400)  
-**代码**: [https://huggingface.co/datasets/kenantang/Banana100](https://huggingface.co/datasets/kenantang/Banana100) (有)  
+**代码**: [https://huggingface.co/datasets/kenantang/Banana100](https://huggingface.co/datasets/kenantang/Banana100)  
 **领域**: 图像生成 / 图像质量评估  
 **关键词**: Image Quality Assessment, NR-IQA, Iterative Degradation, image editing, Multi-turn
 

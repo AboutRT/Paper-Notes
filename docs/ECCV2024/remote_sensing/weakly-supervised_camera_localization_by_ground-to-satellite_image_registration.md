@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.06471](https://arxiv.org/abs/2409.06471)  
-**代码**: https://github.com/YujiaoShi/G2SWeakly  
+**代码**: [https://github.com/YujiaoShi/G2SWeakly](https://github.com/YujiaoShi/G2SWeakly)  
 **领域**: 遥感 / 跨视角相机定位  
 **关键词**: 弱监督定位, 地面-卫星图像配准, 自监督旋转估计, 对比学习, 跨视角特征匹配
 

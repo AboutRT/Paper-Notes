@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.06120](https://arxiv.org/abs/2504.06120)  
-**代码**: https://visual-ai.github.io/hypcd/  
+**代码**: [https://visual-ai.github.io/hypcd/](https://visual-ai.github.io/hypcd/)  
 **领域**: 自监督学习  
 **关键词**: 广义类别发现、双曲空间、Poincaré球、层次结构、混合相似度
 

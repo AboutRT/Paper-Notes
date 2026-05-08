@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.13443](https://arxiv.org/abs/2503.13443)  
-**代码**: https://github.com/JREion/DPC  
+**代码**: [https://github.com/JREion/DPC](https://github.com/JREion/DPC)  
 **领域**: 多模态VLM  
 **关键词**: prompt tuning、base-new trade-off、双提示协作、硬负样本、CLIP微调
 

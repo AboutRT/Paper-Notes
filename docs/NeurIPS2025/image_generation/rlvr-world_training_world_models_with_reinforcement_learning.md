@@ -53,11 +53,11 @@ RLVR-World 将不同模态的世界模型统一到自回归序列建模框架下
 1. **统一序列建模**：无论是文本、视频还是传感器数据，都通过模态特定的 tokenization 转化为 token 序列。语言用 BPE，图像/视频用离散视觉 tokenizer（iVideoGPT 的压缩 tokenizer），低维连续值用均匀分箱。这种统一使得 RLVR 可以跨模态通用。
 
 2. **预测指标作为可验证奖励**：给定输入 $q(s,a)$，模型生成一组样本 $\{o_i\}_{i=1}^G$，解码出预测状态 $\hat{s}_i'$，通过与真值 $s'$ 比较计算奖励：
-   $$R_i = \text{sign}(D) \cdot D(\hat{s}_i', s')$$
+    $R_i = \text{sign}(D) \cdot D(\hat{s}_i', s')$
    其中 $\text{sign}(D) = -1$ 表示越低越好的指标（如 MSE、LPIPS），$\text{sign}(D) = 1$ 反之。这种设计的核心优势在于奖励是完全可验证的、无需人工标注。
 
 3. **GRPO 优化算法**：采用群体相对策略优化（GRPO），不需要独立的价值函数。给定问题 $q$，采样一组回答 $\{o_i\}_{i=1}^G$，组内归一化计算优势：
-   $$\hat{A}_{i,t} = \frac{R_i - \text{mean}(\{R_i\}_{i=1}^G)}{\text{std}(\{R_i\}_{i=1}^G)}$$
+    $\hat{A}_{i,t} = \frac{R_i - \text{mean}(\{R_i\}_{i=1}^G)}{\text{std}(\{R_i\}_{i=1}^G)}$
    配合裁剪目标和 KL 散度惩罚进行策略更新。
 
 ### 损失函数 / 训练策略

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.08048](https://arxiv.org/abs/2604.08048)  
-**代码**: https://github.com/VISION-SJTU/SSG  
+**代码**: [https://github.com/VISION-SJTU/SSG](https://github.com/VISION-SJTU/SSG)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 采样引导, 无条件引导, Token交换, 自扰动, 图像保真度
 

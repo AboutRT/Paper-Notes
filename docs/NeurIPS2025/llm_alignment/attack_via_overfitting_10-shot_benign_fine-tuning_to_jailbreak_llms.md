@@ -18,7 +18,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.02833](https://arxiv.org/abs/2510.02833)  
-**代码**: [GitHub](https://github.com/ZHIXINXIE/ten_benign) (有)  
+**代码**: [GitHub](https://github.com/ZHIXINXIE/ten_benign)  
 **领域**: 对齐RLHF  
 **关键词**: 越狱攻击, 微调安全性, 过拟合, 对齐脆弱性, FaaS安全, 灾难性遗忘
 

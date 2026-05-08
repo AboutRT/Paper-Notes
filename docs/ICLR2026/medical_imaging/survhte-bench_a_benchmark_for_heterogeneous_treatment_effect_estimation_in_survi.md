@@ -21,7 +21,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.05483](https://arxiv.org/abs/2603.05483)  
 **代码**: [GitHub](https://github.com/Shahriarnz14/SurvHTE-Bench)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: heterogeneous treatment effects, survival analysis, right-censored data, causal inference, benchmark, CATE, meta-learners, precision medicine
 
 ## 一句话总结

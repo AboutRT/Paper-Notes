@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2505.17730](https://arxiv.org/abs/2505.17730)  
 **代码**: [GitHub](https://github.com/google-deepmind/rem)  
-**领域**: 其他  
+**领域**: LLM安全  
 **关键词**: 机器遗忘, 数据修复, 投毒防御, 分类器鲁棒性, 记忆化
 
 ## 一句话总结
@@ -136,10 +136,10 @@ $$\mathcal{L}_{step3} = \underbrace{\frac{2}{\beta}\mathbb{E}\log\sigma\left(-\b
 
 ## 相关论文
 
+- [\[ICLR 2026\] OFMU: Optimization-Driven Framework for Machine Unlearning](ofmu_optimization-driven_framework_for_machine_unlearning.md)
+- [\[ICLR 2026\] Erase or Hide? Suppressing Spurious Unlearning Neurons for Robust Unlearning](erase_or_hide_suppressing_spurious_unlearning_neurons_for_robust_unlearning.md)
+- [\[AAAI 2026\] Perturb Your Data: Paraphrase-Guided Training Data Watermarking](../../AAAI2026/llm_safety/perturb_your_data_paraphrase-guided_training_data_watermarking.md)
 - [\[ICLR 2026\] Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers](perturbation-induced_linearization_constructing_unlearnable_data_with_solely_lin.md)
 - [\[ICCV 2025\] Adversarial Robust Memory-Based Continual Learner](../../ICCV2025/llm_safety/adversarial_robust_memory-based_continual_learner.md)
-- [\[ACL 2025\] Ewe: Improving Factuality with Explicit Working Memory](../../ACL2025/llm_safety/improving_factuality_with_explicit_working_memory.md)
-- [\[CVPR 2026\] Association and Consolidation: Evolutionary Memory-Enhanced Incremental Multi-View Clustering](../../CVPR2026/llm_safety/association_and_consolidation_evolutionary_memory-enhanced_incremental_multi-vie.md)
-- [\[ACL 2025\] From Misleading Queries to Accurate Answers: A Three-Stage Fine-Tuning Method for LLMs](../../ACL2025/llm_safety/from_misleading_queries_to_accurate_answers_a_three-stage_fine-tuning_method_for.md)
 
 <!-- RELATED:END -->

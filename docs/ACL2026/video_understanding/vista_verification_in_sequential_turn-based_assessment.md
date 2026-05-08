@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2510.27052](https://arxiv.org/abs/2510.27052)  
 **代码**: [https://github.com/ashleylew/VISTA](https://github.com/ashleylew/VISTA)  
-**领域**: 对话事实性评估  
+**领域**: 视频理解  
 **关键词**: 幻觉检测, 对话事实性, 声明级验证, 顺序一致性追踪, 多轮对话
 
 ## 一句话总结

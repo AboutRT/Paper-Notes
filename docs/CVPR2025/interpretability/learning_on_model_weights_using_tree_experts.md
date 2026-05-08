@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2410.13569](https://arxiv.org/abs/2410.13569)  
-**代码**: https://horwitz.ai/probex/  
-**领域**: 模型压缩 / 权重空间学习 / 模型搜索  
+**代码**: [https://horwitz.ai/probex/](https://horwitz.ai/probex/)  
+**领域**: 可解释性  
 **关键词**: 权重空间学习, Model Tree, Probing Expert, 零样本模型分类, 模型仓库搜索
 
 ## 一句话总结
@@ -127,7 +127,7 @@ tags:
 - [\[CVPR 2026\] Draft and Refine with Visual Experts](../../CVPR2026/interpretability/draft_and_refine_with_visual_experts.md)
 - [\[AAAI 2026\] DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment](../../AAAI2026/interpretability/drexperts_differential_refinement_of_distortion-aware_experts_for_blind_image_qu.md)
 - [\[ICLR 2026\] Uni-NTFM: A Unified Foundation Model for EEG Signal Representation Learning](../../ICLR2026/interpretability/uni-ntfm_a_unified_foundation_model_for_eeg_signal_representation_learning.md)
-- [\[AAAI 2026\] ToC: Tree-of-Claims Search with Multi-Agent Language Models](../../AAAI2026/interpretability/toc_tree-of-claims_search_with_multi-agent_language_models.md)
+- [\[ACL 2026\] ThreadSumm: Summarization of Nested Discourse Threads Using Tree of Thoughts](../../ACL2026/interpretability/threadsumm_summarization_of_nested_discourse_threads_using_tree_of_thoughts.md)
 - [\[CVPR 2025\] Learning Visual Composition through Improved Semantic Guidance](learning_visual_composition_through_improved_semantic_guidance.md)
 
 <!-- RELATED:END -->

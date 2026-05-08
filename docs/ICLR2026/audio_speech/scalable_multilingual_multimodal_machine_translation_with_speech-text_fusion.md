@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 语音
   - 语音引导翻译
-  - 多模态LLM
+  - 音频语音
   - 自我进化
   - TTS
   - 多语言翻译
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.21646](https://arxiv.org/abs/2602.21646)  
-**代码**: https://github.com/yxduir/LLM-SRT  
+**代码**: [https://github.com/yxduir/LLM-SRT](https://github.com/yxduir/LLM-SRT)  
 **领域**: 多模态翻译 / 语音  
 **关键词**: 语音引导翻译, 多模态LLM, 自我进化, TTS, 多语言翻译
 
@@ -115,10 +115,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] Latent Speech-Text Transformer](latent_speech_text_transformer.md)
-- [\[ACL 2025\] SpeechWeave: Diverse Multilingual Synthetic Text & Audio Data Generation Pipeline for Training Text to Speech Models](../../ACL2025/audio_speech/speechweave_diverse_multilingual_synthetic_text_audio_data_generation_pipeline_f.md)
+- [\[ICLR 2026\] SPARTA: Scalable and Principled Benchmark of Tree-Structured Multi-hop QA over Text and Tables](sparta_scalable_and_principled_benchmark_of_tree-structured_multi-hop_qa_over_te.md)
 - [\[ICLR 2026\] TripleSumm: Adaptive Triple-Modality Fusion for Video Summarization](triplesumm_adaptive_triple-modality_fusion_for_video_summarization.md)
+- [\[ACL 2025\] SpeechWeave: Diverse Multilingual Synthetic Text & Audio Data Generation Pipeline for Training Text to Speech Models](../../ACL2025/audio_speech/speechweave_diverse_multilingual_synthetic_text_audio_data_generation_pipeline_f.md)
 - [\[ICLR 2026\] VowelPrompt: Hearing Speech Emotions from Text via Vowel-level Prosodic Augmentation](vowelprompt_hearing_speech_emotions_from_text_via_vowel-level_prosodic_augmentat.md)
-- [\[NeurIPS 2025\] EuroSpeech: A Multilingual Speech Corpus](../../NeurIPS2025/audio_speech/eurospeech_a_multilingual_speech_corpus.md)
+- [\[ICLR 2026\] Latent Speech-Text Transformer](latent_speech_text_transformer.md)
 
 <!-- RELATED:END -->

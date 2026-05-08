@@ -2,10 +2,10 @@
 title: >-
   [论文解读] RefineVAD: Semantic-Guided Feature Recalibration for Weakly Supervised Video Anomaly Detection
 description: >-
-  [AAAI 2026][弱监督视频异常检测] 提出 RefineVAD 框架，通过运动感知时序注意力重校准（MoTAR）和类别导向特征精炼（CORE）两个模块，联合建模时序运动动态与异常类别语义，在弱监督视频异常检测任务上实现了对异常事件的精准定位与可解释检测。
+  [AAAI 2026][LLM评测] 提出 RefineVAD 框架，通过运动感知时序注意力重校准（MoTAR）和类别导向特征精炼（CORE）两个模块，联合建模时序运动动态与异常类别语义，在弱监督视频异常检测任务上实现了对异常事件的精准定位与可解释检测。
 tags:
   - AAAI 2026
-  - 弱监督视频异常检测
+  - LLM评测
   - 多实例学习
   - 语义引导
   - 时序建模
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.13204](https://arxiv.org/abs/2511.13204)  
 **代码**: [GitHub](https://github.com/VisualScienceLab-KHU/RefineVAD)  
-**领域**: 视频异常检测 / 弱监督学习  
+**领域**: LLM评测  
 **关键词**: 弱监督视频异常检测, 多实例学习, 语义引导, 时序建模, 类别原型
 
 ## 一句话总结
@@ -121,9 +121,9 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{MIL}} + \lambda_1 \mathcal{L}_
 ## 相关论文
 
 - [\[CVPR 2026\] Weakly Supervised Video Anomaly Detection with Anomaly-Connected Components and Intention Reasoning](../../CVPR2026/llm_evaluation/weakly_supervised_video_anomaly_detection_with_anomaly-connected_components_and_.md)
-- [\[AAAI 2026\] Sampling Control for Imbalanced Calibration in Semi-Supervised Learning](sampling_control_for_imbalanced_calibration_in_semi-supervised_learning.md)
-- [\[NeurIPS 2025\] Normal-Abnormal Guided Generalist Anomaly Detection](../../NeurIPS2025/llm_evaluation/normal-abnormal_guided_generalist_anomaly_detection.md)
-- [\[AAAI 2026\] Scalable Vision-Guided Crop Yield Estimation](scalable_vision-guided_crop_yield_estimation.md)
 - [\[AAAI 2026\] DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning](dicap_distribution-calibrated_pseudo-labeling_for_semi-supervised_multi-label_le.md)
+- [\[NeurIPS 2025\] Normal-Abnormal Guided Generalist Anomaly Detection](../../NeurIPS2025/llm_evaluation/normal-abnormal_guided_generalist_anomaly_detection.md)
+- [\[AAAI 2026\] GranAlign: Granularity-Aware Alignment Framework for Zero-Shot Video Moment Retrieval](granalign_granularity-aware_alignment_framework_for_zero-shot_video_moment_retri.md)
+- [\[AAAI 2026\] ConInstruct: Evaluating Large Language Models on Conflict Detection and Resolution in Instructions](coninstruct_evaluating_large_language_models_on_conflict_detection_and_resolutio.md)
 
 <!-- RELATED:END -->

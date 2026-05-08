@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 网络量化
+  - 多模态VLM
   - 后训练量化
   - 补偿模块
   - 闭式解
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.13918](https://arxiv.org/abs/2411.13918)  
-**代码**: https://github.com/wujx2001/QwT (有)  
+**代码**: [https://github.com/wujx2001/QwT](https://github.com/wujx2001/QwT)  
 **领域**: 多模态VLM  
 **关键词**: 网络量化, 后训练量化, 补偿模块, 闭式解, 模型压缩
 
@@ -123,8 +123,8 @@ QwT 的核心范式转变：允许量化后的网络结构从 $S^{\mathbb{Z}} = 
 
 - [\[CVPR 2025\] MBQ: Modality-Balanced Quantization for Large Vision-Language Models](mbq_modality-balanced_quantization_for_large_vision-language_models.md)
 - [\[CVPR 2025\] It's a (Blind) Match! Towards Vision-Language Correspondence without Parallel Data](its_a_blind_match_towards_vision-language_correspondence_without_parallel_data.md)
+- [\[CVPR 2025\] MLLM-as-a-Judge for Image Safety without Human Labeling](mllm-as-a-judge_for_image_safety_without_human_labeling.md)
 - [\[CVPR 2026\] Fine-Grained Post-Training Quantization for Large Vision Language Models with Quantization-Aware Integrated Gradients](../../CVPR2026/multimodal_vlm/fine-grained_post-training_quantization_for_large_vision_language_models_with_qu.md)
 - [\[ICML 2025\] Ranked from Within: Ranking Large Multimodal Models Without Labels](../../ICML2025/multimodal_vlm/ranked_from_within_ranking_large_multimodal_models_without_labels.md)
-- [\[CVPR 2026\] MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models](../../CVPR2026/multimodal_vlm/masquant_modality-aware_smoothing_quantization_for_multimodal_large_language_mod.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.09320](https://arxiv.org/abs/2503.09320)  
-**代码**: https://sites.google.com/view/2handedafforder  
+**代码**: [https://sites.google.com/view/2handedafforder](https://sites.google.com/view/2handedafforder)  
 **领域**: 分割 / 机器人操作 / Affordance  
 **关键词**: bimanual affordance, affordance segmentation, VLM, hand-object interaction, egocentric video
 

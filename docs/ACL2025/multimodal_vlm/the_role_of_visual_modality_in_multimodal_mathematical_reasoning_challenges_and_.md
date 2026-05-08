@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 多模态数学推理
+  - 多模态VLM
   - 视觉依赖性
   - 基准评估
   - 图像编码器
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.04167](https://arxiv.org/abs/2503.04167)  
 **代码**: [GitHub](https://github.com/Yufang-Liu/visual_modality_role)  
-**领域**: 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: 多模态数学推理, 视觉依赖性, 基准评估, 图像编码器, 数据集构建
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - 群组检测
+  - 多模态VLM
   - CLIP
   - 时序图聚类
   - 社交行为分析
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2509.04758](https://arxiv.org/abs/2509.04758)  
-**代码**: https://github.com/irajisamurai/VLM-GroupDetection.git  
+**代码**: [https://github.com/irajisamurai/VLM-GroupDetection.git](https://github.com/irajisamurai/VLM-GroupDetection.git)  
 **领域**: 多模态VLM  
 **关键词**: 群组检测, CLIP, 时序图聚类, 社交行为分析, Louvain算法
 
@@ -141,9 +141,9 @@ tags:
 ## 相关论文
 
 - [\[ICCV 2025\] Dynamic-VLM: Simple Dynamic Visual Token Compression for VideoLLM](dynamic-vlm_simple_dynamic_visual_token_compression_for_videollm.md)
-- [\[ICCV 2025\] Dynamic Multimodal Prototype Learning in Vision-Language Models](dynamic_multimodal_prototype_learning_in_vision-language_models.md)
 - [\[ICCV 2025\] CLIPSym: Delving into Symmetry Detection with CLIP](clipsym_delving_into_symmetry_detection_with_clip.md)
+- [\[ICCV 2025\] CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers](cad-assistant_tool-augmented_vllms_as_generic_cad_task_solvers.md)
 - [\[CVPR 2026\] DynamicGTR: Leveraging Graph Topology Representation Preferences to Boost VLM Capabilities on Graph QAs](../../CVPR2026/multimodal_vlm/dynamicgtr_leveraging_graph_topology_representation_preferences_to_boost_vlm_cap.md)
-- [\[ICCV 2025\] Enrich and Detect: Video Temporal Grounding with Multimodal LLMs](enrich_and_detect_video_temporal_grounding_with_multimodal_llms.md)
+- [\[ICCV 2025\] GRAB: A Challenging GRaph Analysis Benchmark for Large Multimodal Models](grab_a_challenging_graph_analysis_benchmark_for_large_multimodal_models.md)
 
 <!-- RELATED:END -->

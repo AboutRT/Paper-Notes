@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 事故预测
-  - 扩散去噪
+  - 其他
   - Actor-Critic强化学习
   - 传感器噪声
   - 长期时间推理
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.08640](https://arxiv.org/abs/2511.08640)  
 **代码**: 无  
-**领域**: 自动驾驶 / 事故预测  
+**领域**: 其他  
 **关键词**: 事故预测, 扩散去噪, Actor-Critic强化学习, 传感器噪声, 长期时间推理
 
 ## 一句话总结
@@ -56,41 +56,41 @@ $$\Delta t = \tau - t_o \quad \text{其中} \quad t_o = \min\{t \in \{1,\ldots,T
 
 2. **自适应目标感知模块（Self-Adaptive Object-Aware Module）**：根据时间上下文和目标间交互，动态关注最具信息量的交通参与者。注意力机制计算如下：
 
-   $$\mathbf{e}_t = \tanh(\mathbf{W}_{wa}\mathbf{h}_{t-1} + \mathbf{W}_{ua}\mathbf{F}_{obj} + \mathbf{b}_a)$$
-   $$\alpha_t = \text{softmax}(\mathbf{W}_w \mathbf{e}_t)$$
-   $$\bar{\mathbf{F}}_{obj} = \alpha_t \odot \mathbf{F}_{obj}$$
+    $\mathbf{e}_t = \tanh(\mathbf{W}_{wa}\mathbf{h}_{t-1} + \mathbf{W}_{ua}\mathbf{F}_{obj} + \mathbf{b}_a)$
+    $\alpha_t = \text{softmax}(\mathbf{W}_w \mathbf{e}_t)$
+    $\bar{\mathbf{F}}_{obj} = \alpha_t \odot \mathbf{F}_{obj}$
 
    该机制自适应地优先关注高风险目标，同时编码关键的时间交互信息。
 
 3. **基于扩散的层次化特征增强（Diffusion-Based Hierarchical Feature Enhancement）**：这是本文的核心创新之一，在图像级和目标级分别进行扩散去噪。
 
    **前向扩散过程**采用方差保持的马尔可夫链：
-   $$\mathbf{F}_{img}^{noisy} = \sqrt{\bar{\alpha}_t}\mathbf{F}_{img} + \sqrt{1-\bar{\alpha}_t}\epsilon, \quad \epsilon \sim \mathcal{N}(0, \mathbf{I})$$
+    $\mathbf{F}_{img}^{noisy} = \sqrt{\bar{\alpha}_t}\mathbf{F}_{img} + \sqrt{1-\bar{\alpha}_t}\epsilon, \quad \epsilon \sim \mathcal{N}(0, \mathbf{I})$
 
    线性噪声调度从 $\beta_{start} = 0.001$ 到 $\beta_{end} = 0.02$。
 
    **去噪网络**为轻量级前馈网络：
-   $$p_\theta(\mathbf{F}_{img}^{noisy}, t) = W_2(\text{ReLU}(W_1\mathbf{F}_{img}^{noisy} + b_1)) + b_2$$
+    $p_\theta(\mathbf{F}_{img}^{noisy}, t) = W_2(\text{ReLU}(W_1\mathbf{F}_{img}^{noisy} + b_1)) + b_2$
 
    **残差融合策略**保持语义保真度：
-   $$\mathbf{F}_{img}^{enhanced} = \mathbf{F}_{img} + \lambda \cdot p_\theta(\mathbf{F}_{img}^{noisy}, t), \quad \lambda = 0.15$$
+    $\mathbf{F}_{img}^{enhanced} = \mathbf{F}_{img} + \lambda \cdot p_\theta(\mathbf{F}_{img}^{noisy}, t), \quad \lambda = 0.15$
 
    对目标级特征 $\bar{\mathbf{F}}_{obj}$ 也应用相同的残差增强。该设计的本质是概率特征稳定器，类似于贝叶斯证据累积——通过迭代细化噪声输入为结构忠实且时间一致的表示，减少抖动和虚假激活。
 
 4. **时间融合与GRU推理**：增强后的图像和目标特征拼接后送入GRU捕获序列依赖：
-   $$\mathbf{X}_t, \mathbf{h}_t = \text{GRU}(\text{concat}(\mathbf{F}_{img}^{enhanced}, \mathbf{F}_{obj}^{enhanced}))$$
+    $\mathbf{X}_t, \mathbf{h}_t = \text{GRU}(\text{concat}(\mathbf{F}_{img}^{enhanced}, \mathbf{F}_{obj}^{enhanced}))$
    MLP预测帧级事故概率 $p_t = \text{MLP}(\mathbf{X}_t)$，时间权重层计算时间权重损失 $w_t = \text{fc}(\mathbf{h}_t)$。
 
 5. **Actor-Critic长期决策模块**：采用滚动缓冲区存储最近 $W$ 个隐藏状态，通过均值池化获得摘要向量 $\bar{\mathbf{h}}_t$。
 
    **Actor**将历史状态映射为离散动作分布：
-   $$\pi_t = \text{softmax}(\mathbf{W}_p \bar{\mathbf{h}}_t + \mathbf{b}_p)$$
+    $\pi_t = \text{softmax}(\mathbf{W}_p \bar{\mathbf{h}}_t + \mathbf{b}_p)$
 
    **Critic**预测期望累积奖励：
-   $$V_t = \mathbf{w}_v^\top \bar{\mathbf{h}}_t + b_v$$
+    $V_t = \mathbf{w}_v^\top \bar{\mathbf{h}}_t + b_v$
 
    **奖励函数**平衡预测正确性和时间紧迫性：
-   $$r_t = \mathbb{I}(a_t = y_t) \cdot e^{-t/\tau} + \mathbb{I}(a_t \neq y_t) \cdot \gamma$$
+    $r_t = \mathbb{I}(a_t = y_t) \cdot e^{-t/\tau} + \mathbb{I}(a_t \neq y_t) \cdot \gamma$
    其中正确预测的奖励随时间指数衰减（鼓励早期预测），错误预测给予固定惩罚（$\tau=5, \gamma=-0.5$）。
 
 ### 损失函数 / 训练策略
@@ -212,8 +212,8 @@ $$\mathcal{L}_{total} = \mathcal{L}_{an} + \alpha(\mathcal{L}_{actor} + \beta \m
 
 - [\[ECCV 2024\] Non-parametric Sensor Noise Modeling and Synthesis](../../ECCV2024/others/non-parametric_sensor_noise_modeling_and_synthesis.md)
 - [\[NeurIPS 2025\] Coresets for Clustering Under Stochastic Noise](../../NeurIPS2025/others/coresets_for_clustering_under_stochastic_noise.md)
-- [\[CVPR 2025\] Effortless Active Labeling for Long-Term Test-Time Adaptation](../../CVPR2025/others/effortless_active_labeling_for_long-term_test-time_adaptation.md)
 - [\[AAAI 2026\] ShortageSim: Simulating Drug Shortages under Information Asymmetry](shortagesim_simulating_drug_shortages_under_information_asymmetry.md)
-- [\[AAAI 2026\] Optimal Welfare in Noncooperative Network Formation under Attack](optimal_welfare_in_noncooperative_network_formation_under_attack.md)
+- [\[AAAI 2026\] Enhancing Noise Resilience in Face Clustering via Sparse Differential Transformer](enhancing_noise_resilience_in_face_clustering_via_sparse_differential_transforme.md)
+- [\[ACL 2025\] X-Turing: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents](../../ACL2025/others/xturing_enhanced_turing_test.md)
 
 <!-- RELATED:END -->

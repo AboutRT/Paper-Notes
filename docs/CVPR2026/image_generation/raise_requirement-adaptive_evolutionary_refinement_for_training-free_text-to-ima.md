@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.00483](https://arxiv.org/abs/2603.00483)  
-**代码**: https://github.com/LiyaoJiang1998/RAISE  
+**代码**: [https://github.com/LiyaoJiang1998/RAISE](https://github.com/LiyaoJiang1998/RAISE)  
 **领域**: 图像生成  
 **关键词**: 推理时计算缩放, 文本-图像对齐, 进化优化, 需求驱动, 多智能体
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.01525](https://arxiv.org/abs/2407.01525)  
-**代码**: https://github.com/ZCMax/ScanReason (有)  
-**领域**: LLM推理  
+**代码**: [https://github.com/ZCMax/ScanReason](https://github.com/ZCMax/ScanReason)  
+**领域**: 3D视觉  
 **关键词**: 3D visual grounding, reasoning, MLLM, chain-of-grounding, 3D scene understanding
 
 ## 一句话总结

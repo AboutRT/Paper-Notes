@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ELSPR: Evaluator LLM Training Data Self-Purification on Non-Transitive Preferences
 description: >-
-  [AAAI 2026][LLM评估] ELSPR 将 LLM 评估器的成对偏好建模为锦标赛图，通过强连通分量 (SCC) 识别非传递偏好，提出归一化有向图结构熵指标，并基于图重构过滤有问题的训练数据——过滤后的评估器非传递性降低 13.8%、结构熵降低 0.088，且丢弃数据的人类一致性仅 34.4%（vs 保留数据 52.6%）。
+  [AAAI 2026][LLM预训练] ELSPR 将 LLM 评估器的成对偏好建模为锦标赛图，通过强连通分量 (SCC) 识别非传递偏好，提出归一化有向图结构熵指标，并基于图重构过滤有问题的训练数据——过滤后的评估器非传递性降低 13.8%、结构熵降低 0.088，且丢弃数据的人类一致性仅 34.4%（vs 保留数据 52.6%）。
 tags:
   - AAAI 2026
-  - LLM评估
+  - LLM预训练
   - 非传递偏好
   - 锦标赛图
   - 数据清洗
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2505.17691](https://arxiv.org/abs/2505.17691)  
-**代码**: https://github.com/yy0525/ELSPR  
-**领域**: LLM效率 / 评估  
+**代码**: [https://github.com/yy0525/ELSPR](https://github.com/yy0525/ELSPR)  
+**领域**: LLM预训练  
 **关键词**: LLM评估, 非传递偏好, 锦标赛图, 数据清洗, 结构熵
 
 ## 一句话总结
@@ -109,10 +109,10 @@ ELSPR 将 LLM 评估器的成对偏好建模为锦标赛图，通过强连通分
 
 ## 相关论文
 
-- [\[ICLR 2026\] Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training](../../ICLR2026/llm_pretraining/common_corpus_ethical_data_for_llm_pretraining.md)
 - [\[ACL 2025\] CritiQ: Mining Data Quality Criteria from Human Preferences](../../ACL2025/llm_pretraining/critiq_mining_data_quality_criteria_from_human_preferences.md)
 - [\[ICLR 2026\] Stochastic Self-Organization in Multi-Agent Systems](../../ICLR2026/llm_pretraining/stochastic_self-organization_in_multi-agent_systems.md)
-- [\[ICLR 2026\] Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning](../../ICLR2026/llm_pretraining/pre-training_llm_without_learning_rate_decay_enhances_supervised_fine-tuning.md)
+- [\[ICLR 2026\] Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training](../../ICLR2026/llm_pretraining/common_corpus_ethical_data_for_llm_pretraining.md)
+- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](../../ICLR2026/llm_pretraining/token-level_data_selection_for_safe_llm_fine-tuning.md)
 - [\[ICML 2025\] LLM Data Selection and Utilization via Dynamic Bi-level Optimization](../../ICML2025/llm_pretraining/llm_data_selection_and_utilization_via_dynamic_bi-level_optimization.md)
 
 <!-- RELATED:END -->

@@ -9,7 +9,7 @@ tags:
   - 分布偏移
   - 合成数据
   - MQM标注
-  - 翻译质量评估
+  - 多语言翻译
 ---
 
 # Alleviating Distribution Shift in Synthetic Data for Machine Translation Quality Estimation
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.19941](https://arxiv.org/abs/2502.19941)  
 **代码**: [https://github.com/NJUNLP/njuqe](https://github.com/NJUNLP/njuqe)  
-**领域**: NLP Generation / Machine Translation  
+**领域**: 多语言翻译  
 **关键词**: Quality Estimation, 分布偏移, 合成数据, MQM标注, 翻译质量评估
 
 ## 一句话总结

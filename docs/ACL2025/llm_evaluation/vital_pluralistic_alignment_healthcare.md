@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare
 description: >-
-  [ACL 2025][多元对齐] 本文构建了首个面向医疗健康领域的多元化对齐（pluralistic alignment）基准数据集 VITAL，包含 13.1K 价值观情境和 5.4K 多选题，并通过对 8 个 LLM 的广泛评估表明，现有多元化对齐技术（尤其是 ModPlural）在医疗场景下表现不佳，简单的 prompting 反而效果更好。
+  [ACL 2025][LLM评测] 本文构建了首个面向医疗健康领域的多元化对齐（pluralistic alignment）基准数据集 VITAL，包含 13.1K 价值观情境和 5.4K 多选题，并通过对 8 个 LLM 的广泛评估表明，现有多元化对齐技术（尤其是 ModPlural）在医疗场景下表现不佳，简单的 prompting 反而效果更好。
 tags:
   - ACL 2025
-  - 多元对齐
+  - LLM评测
   - healthcare
   - LLM 基准
   - value diversity
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.13775](https://arxiv.org/abs/2502.13775)  
 **代码**: [https://github.com/anudeex/VITAL.git](https://github.com/anudeex/VITAL.git)  
-**领域**: 医学图像 / LLM 对齐  
+**领域**: LLM评测  
 **关键词**: 多元对齐, healthcare, LLM 基准, value diversity, 数据集
 
 ## 一句话总结
@@ -124,7 +124,7 @@ tags:
 - [\[ACL 2025\] MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset](mars_benchmarking_the_metaphysical_reasoning_abilities_of_language_models_with_a.md)
 - [\[NeurIPS 2025\] CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance](../../NeurIPS2025/llm_evaluation/codeassistbench_cab_dataset_benchmarking_for_multi-turn_chat-based_code_assistan.md)
 - [\[ICLR 2026\] PlanetAlign: A Comprehensive Python Library for Benchmarking Network Alignment](../../ICLR2026/llm_evaluation/planetalign_a_comprehensive_python_library_for_benchmarking_network_alignment.md)
-- [\[ICCV 2025\] A Real-world Display Inverse Rendering Dataset](../../ICCV2025/llm_evaluation/a_realworld_display_inverse_rendering_dataset.md)
-- [\[NeurIPS 2025\] RGB-to-Polarization Estimation: A New Task and Benchmark Study](../../NeurIPS2025/llm_evaluation/rgb-to-polarization_estimation_a_new_task_and_benchmark_study.md)
+- [\[ACL 2025\] WebWalker: Benchmarking LLMs in Web Traversal](webwalker_benchmarking_llms_in_web_traversal.md)
+- [\[ICML 2025\] LLM-SRBench: A New Benchmark for Scientific Equation Discovery with LLMs](../../ICML2025/llm_evaluation/llm-srbench_a_new_benchmark_for_scientific_equation_discovery_with_large_languag.md)
 
 <!-- RELATED:END -->

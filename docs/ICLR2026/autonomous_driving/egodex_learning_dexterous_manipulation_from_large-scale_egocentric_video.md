@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.11709](https://arxiv.org/abs/2505.11709)  
-**代码**: https://github.com/apple/ml-egodex (有)  
+**代码**: [https://github.com/apple/ml-egodex](https://github.com/apple/ml-egodex)  
 **领域**: 自动驾驶/机器人  
 **关键词**: 第一人称视频, dexterous manipulation, 模仿学习, hand pose, 数据集
 

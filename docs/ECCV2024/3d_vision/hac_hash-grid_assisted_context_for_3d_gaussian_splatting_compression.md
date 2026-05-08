@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.14530](https://arxiv.org/abs/2403.14530)  
-**代码**: https://github.com/YihangChen-ee/HAC (有)  
+**代码**: [https://github.com/YihangChen-ee/HAC](https://github.com/YihangChen-ee/HAC)  
 **领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 模型压缩, 上下文建模, 熵编码, 哈希网格
 

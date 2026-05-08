@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2403.11116](https://arxiv.org/abs/2403.11116)  
-**代码**: https://github.com/jiazhen-code/PhD  
-**领域**: 多模态VLM / 幻觉评估  
+**代码**: [https://github.com/jiazhen-code/PhD](https://github.com/jiazhen-code/PhD)  
+**领域**: 图像生成  
 **关键词**: 视觉幻觉, 多模态大语言模型, 评估基准, ChatGPT辅助构建, 二值VQA
 
 ## 一句话总结
@@ -127,9 +127,9 @@ PhD 基于 TDIUC 数据集的标注进行改造，通过四个核心模块构建
 ## 相关论文
 
 - [\[NeurIPS 2025\] Hallucination as an Upper Bound: A New Perspective on Text-to-Image Evaluation](../../NeurIPS2025/image_generation/hallucination_as_an_upper_bound_a_new_perspective_on_text-to-image_evaluation.md)
-- [\[ICCV 2025\] ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation](../../ICCV2025/image_generation/adiee_automatic_dataset_creation_and_scorer_for_instruction-guided_image_editing.md)
+- [\[ICCV 2025\] ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation](../../ICCV2025/image_generation/adiee_automatic_dataset_creation_and_scorer_for_instruction_guided_image_editing_evaluation.md)
 - [\[CVPR 2025\] ORIDa: Object-Centric Real-World Image Composition Dataset](orida_object-centric_real-world_image_composition_dataset.md)
-- [\[CVPR 2025\] lbGen: Low-Biased General Annotated Dataset Generation](low-biased_general_annotated_dataset_generation.md)
 - [\[CVPR 2025\] ViUniT: Visual Unit Tests for More Robust Visual Programming](viunit_visual_unit_tests_for_more_robust_visual_programming.md)
+- [\[CVPR 2025\] lbGen: Low-Biased General Annotated Dataset Generation](low-biased_general_annotated_dataset_generation.md)
 
 <!-- RELATED:END -->

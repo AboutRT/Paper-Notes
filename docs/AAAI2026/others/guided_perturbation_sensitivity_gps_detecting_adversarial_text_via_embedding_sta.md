@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Guided Perturbation Sensitivity (GPS): Detecting Adversarial Text via Embedding Stability and Word Importance
 description: >-
-  [AAAI 2026][文本检测] 提出 Guided Perturbation Sensitivity (GPS) 框架，通过对重要词进行遮蔽并测量嵌入表示的稳定性变化来检测对抗文本样本，在3个数据集、3种攻击、2个模型上实现85%+检测准确率，且无需重训练即可跨数据集/攻击/模型泛化。
+  [AAAI 2026][其他] 提出 Guided Perturbation Sensitivity (GPS) 框架，通过对重要词进行遮蔽并测量嵌入表示的稳定性变化来检测对抗文本样本，在3个数据集、3种攻击、2个模型上实现85%+检测准确率，且无需重训练即可跨数据集/攻击/模型泛化。
 tags:
   - AAAI 2026
-  - 文本检测
+  - 其他
   - embedding stability
   - word importance
   - BiLSTM
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.11667](https://arxiv.org/abs/2508.11667)  
 **代码**: [GitHub](https://github.com/ReDASers/Guided-Perturbation-Sensitivity)  
-**领域**: NLP / 对抗攻击检测  
+**领域**: 其他  
 **关键词**: adversarial text detection, embedding stability, word importance, BiLSTM, perturbation sensitivity
 
 ## 一句话总结
@@ -150,10 +150,10 @@ K=5 即可达到峰值性能的 98%，性能随 K 增大变化极小（<0.015 F1
 
 ## 相关论文
 
-- [\[ECCV 2024\] Wavelength-Embedding-guided Filter-Array Transformer for Spectral Demosaicing](../../ECCV2024/others/wavelength-embedding-guided_filter-array_transformer_for_spectral_demosaicing.md)
 - [\[AAAI 2026\] Boosting Adversarial Transferability via Ensemble Non-Attention](boosting_adversarial_transferability_via_ensemble_non-attention.md)
 - [\[ACL 2025\] Map&Make: Schema Guided Text to Table Generation](../../ACL2025/others/mapmake_schema_guided_text_to_table_generation.md)
-- [\[ICML 2025\] On the Importance of Gaussianizing Representations](../../ICML2025/others/on_the_importance_of_gaussianizing_representations.md)
+- [\[AAAI 2026\] Scalable Vision-Guided Crop Yield Estimation](scalable_vision-guided_crop_yield_estimation.md)
 - [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
+- [\[AAAI 2026\] Verification-Guided Context Optimization for Tool Calling via Hierarchical LLMs-as-editors](verification-guided_context_optimization_for_tool_calling_via_hierarchical_llms-.md)
 
 <!-- RELATED:END -->

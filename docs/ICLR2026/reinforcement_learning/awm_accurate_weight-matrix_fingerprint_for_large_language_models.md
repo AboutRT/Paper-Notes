@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.06738](https://arxiv.org/abs/2510.06738)  
 **代码**: [https://github.com/LUMIA-Group/AWM](https://github.com/LUMIA-Group/AWM)  
-**领域**: 多模态VLM  
+**领域**: 强化学习  
 **关键词**: model fingerprinting, intellectual property, weight manipulation, CKA, linear assignment problem  
 
 ## 一句话总结

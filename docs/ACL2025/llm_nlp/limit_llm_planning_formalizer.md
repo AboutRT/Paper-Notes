@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.09879](https://arxiv.org/abs/2412.09879)  
 **代码**: [https://github.com/CassieHuang22/llm-as-pddl-formalizer](https://github.com/CassieHuang22/llm-as-pddl-formalizer)  
-**领域**: LLM Agent  
+**领域**: LLM/NLP  
 **关键词**: PDDL, 规划形式化, LLM推理, 神经符号, 自然语言到形式语言  
 
 ## 一句话总结

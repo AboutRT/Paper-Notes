@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.04227](https://arxiv.org/abs/2412.04227)  
 **代码**: 无  
-**领域**: 评估理论 / 分类器排名  
+**领域**: 机器人  
 **关键词**: 性能排名理论, 公理化定义, 排名分数, 二分类, 序理论
 
 ## 一句话总结
@@ -155,10 +155,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Prof. Robot: Differentiable Robot Rendering without Static and Self-Collisions](prof_robot_differentiable_robot_rendering_without_static_and_self-collisions.md)
-- [\[CVPR 2025\] SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics](sapave_towards_active_perception_and_manipulation_in_vision-language-action_mode.md)
 - [\[CVPR 2025\] Robotic Visual Instruction](robotic_visual_instruction.md)
-- [\[CVPR 2025\] Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation](lift3d_policy_lifting_2d_foundation_models_for_robust_3d_robotic_manipulation.md)
-- [\[CVPR 2025\] A Data-Centric Revisit of Pre-Trained Vision Models for Robot Learning](a_data-centric_revisit_of_pre-trained_vision_models_for_robot_learning.md)
+- [\[CVPR 2025\] MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation](momanipvla_transferring_vision-language-action_models_for_general_mobile_manipul.md)
+- [\[CVPR 2025\] Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction](phoenix_a_motion-based_self-reflection_framework_for_fine-grained_robotic_action.md)
+- [\[CVPR 2025\] Learning Physics-Based Full-Body Human Reaching and Grasping from Brief Walking References](learning_physics-based_full-body_human_reaching_and_grasping_from_brief_walking_.md)
+- [\[CVPR 2025\] Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation](think_small_act_big_primitive_prompt_learning_for_lifelong_robot_manipulation.md)
 
 <!-- RELATED:END -->

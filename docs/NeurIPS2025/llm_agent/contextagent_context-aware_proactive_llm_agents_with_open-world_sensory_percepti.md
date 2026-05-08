@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.14668](https://arxiv.org/abs/2505.14668)  
-**代码**: https://github.com/openaiotlab/ContextAgent  
+**代码**: [https://github.com/openaiotlab/ContextAgent](https://github.com/openaiotlab/ContextAgent)  
 **领域**: Agent  
 **关键词**: 主动式Agent, 情境感知, 可穿戴传感器, 工具调用, benchmark
 

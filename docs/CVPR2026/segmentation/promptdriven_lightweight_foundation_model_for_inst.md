@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12624](https://arxiv.org/abs/2603.12624)  
-**代码**: [https://github.com/MVME-HBUT/SAM_FTI-FDet.git](https://github.com/MVME-HBUT/SAM_FTI-FDet.git) (有)  
+**代码**: [https://github.com/MVME-HBUT/SAM_FTI-FDet.git](https://github.com/MVME-HBUT/SAM_FTI-FDet.git)  
 **领域**: 实例分割 / 工业检测 / 基础模型适配  
 **关键词**: SAM, 自提示生成, 轻量化, 货运列车故障检测, 基础模型迁移  
 

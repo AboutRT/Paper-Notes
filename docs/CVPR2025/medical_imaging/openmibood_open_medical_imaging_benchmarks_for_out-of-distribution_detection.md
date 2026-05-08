@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.16247](https://arxiv.org/abs/2503.16247)  
-**代码**: https://github.com/remic-othr/OpenMIBOOD (有)  
+**代码**: [https://github.com/remic-othr/OpenMIBOOD](https://github.com/remic-othr/OpenMIBOOD)  
 **领域**: 医学图像  
 **关键词**: 分布外检测, 医学影像, OOD基准, 后验方法, 可信AI
 

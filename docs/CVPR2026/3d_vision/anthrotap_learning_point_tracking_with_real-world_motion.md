@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2507.06233](https://arxiv.org/abs/2507.06233)  
-**代码**: [Project Page](https://cvlab-kaist.github.io/AnthroTAP/) (有)  
+**代码**: [Project Page](https://cvlab-kaist.github.io/AnthroTAP/)  
 **领域**: 3D Vision / Point Tracking  
 **关键词**: 点跟踪, 人体运动, 伪标签, SMPL, 光流一致性
 

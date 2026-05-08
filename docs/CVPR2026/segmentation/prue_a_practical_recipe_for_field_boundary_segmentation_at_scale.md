@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27101](https://arxiv.org/abs/2603.27101)  
-**代码**: https://github.com/fieldsoftheworld/ftw-prue  
+**代码**: [https://github.com/fieldsoftheworld/ftw-prue](https://github.com/fieldsoftheworld/ftw-prue)  
 **领域**: 语义分割 / 遥感  
 **关键词**: 农田边界分割, 地理空间基础模型, U-Net, 部署鲁棒性, 大规模制图
 

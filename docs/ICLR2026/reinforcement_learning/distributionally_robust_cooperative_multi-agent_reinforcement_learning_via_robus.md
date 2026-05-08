@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Distributionally Robust Cooperative Multi-Agent Reinforcement Learning via Robust Value Factorization
 description: >-
-  [ICLR 2026][分布鲁棒优化] 提出 Distributionally Robust IGM (DrIGM) 原则，将分布鲁棒优化引入协作多智能体 RL 的值分解框架，使得 VDN/QMIX/QTRAN 等经典方法能够在训练环境与部署环境存在分布偏移时仍保持稳健的去中心化执行性能。
+  [ICLR 2026][强化学习] 提出 Distributionally Robust IGM (DrIGM) 原则，将分布鲁棒优化引入协作多智能体 RL 的值分解框架，使得 VDN/QMIX/QTRAN 等经典方法能够在训练环境与部署环境存在分布偏移时仍保持稳健的去中心化执行性能。
 tags:
   - ICLR 2026
-  - 分布鲁棒优化
+  - 强化学习
   - 多智能体强化学习
   - 值分解
   - CTDE
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.11437](https://arxiv.org/abs/2602.11437)  
 **代码**: [https://github.com/crqu/robust-coMARL](https://github.com/crqu/robust-coMARL)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 分布鲁棒优化, 多智能体强化学习, 值分解, CTDE, 环境不确定性
 
 ## 一句话总结
@@ -146,10 +146,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning](continuous-time_value_iteration_for_multi-agent_reinforcement_learning.md)
+- [\[ICLR 2026\] Retaining Suboptimal Actions to Follow Shifting Optima in Multi-Agent RL](retaining_suboptimal_actions_to_follow_shifting_optima_in_multi-agent_reinforcem.md)
 - [\[ICLR 2026\] ROMI: Model-based Offline RL via Robust Value-Aware Model Learning with Implicitly Differentiable Adaptive Weighting](model-based_offline_rl_via_robust_value-aware_model_learning_with_implicitly_dif.md)
-- [\[AAAI 2026\] Beyond Monotonicity: Revisiting Factorization Principles in Multi-Agent Q-Learning](../../AAAI2026/reinforcement_learning/beyond_monotonicity_revisiting_factorization_principles_in_multi-agent_q-learnin.md)
-- [\[NeurIPS 2025\] Robust and Diverse Multi-Agent Learning via Rational Policy Gradient](../../NeurIPS2025/reinforcement_learning/robust_and_diverse_multi-agent_learning_via_rational_policy_gradient.md)
 - [\[ICLR 2026\] Robust Multi-Objective Controlled Decoding of Large Language Models](robust_multi-objective_controlled_decoding_of_large_language_models.md)
+- [\[ICLR 2026\] Robust Deep Reinforcement Learning against Adversarial Behavior Manipulation](robust_deep_reinforcement_learning_against_adversarial_behavior_manipulation.md)
+- [\[NeurIPS 2025\] Robust and Diverse Multi-Agent Learning via Rational Policy Gradient](../../NeurIPS2025/reinforcement_learning/robust_and_diverse_multi-agent_learning_via_rational_policy_gradient.md)
 
 <!-- RELATED:END -->

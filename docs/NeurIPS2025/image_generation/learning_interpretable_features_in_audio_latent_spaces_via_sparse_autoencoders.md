@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.23802](https://arxiv.org/abs/2510.23802)  
-**代码**: 无（有匿名音频样本: https://anonymous.4open.science/r/audio_samples-A301/ ）  
-**领域**: 音频生成 / 可解释性  
+**代码**: 无（有匿名音频样本: [https://anonymous.4open.science/r/audio_samples-A301/](https://anonymous.4open.science/r/audio_samples-A301/) ）  
+**领域**: 图像生成  
 **关键词**: 稀疏自编码器, 音频潜空间, 可解释性, 音乐生成, 控制向量
 
 ## 一句话总结
@@ -174,6 +174,6 @@ $s_t^{(a)} \in [0, 1]$ 衡量从初始噪声 ($t=0$) 到最终音频结构 ($t=T
 - [\[NeurIPS 2025\] Guided Diffusion Sampling on Function Spaces with Applications to PDEs](guided_diffusion_sampling_on_function_spaces_with_applications_to_pdes.md)
 - [\[NeurIPS 2025\] MGE-LDM: Joint Latent Diffusion for Simultaneous Music Generation and Source Extraction](mge-ldm_joint_latent_diffusion_for_simultaneous_music_generation_and_source_extr.md)
 - [\[NeurIPS 2025\] Exploring Variational Graph Autoencoders for Distribution Grid Data Generation](exploring_variational_graph_autoencoders_for_distribution_grid_data_generation.md)
-- [\[ICCV 2025\] Latent Diffusion Models with Masked AutoEncoders](../../ICCV2025/image_generation/latent_diffusion_models_with_masked_autoencoders.md)
+- [\[NeurIPS 2025\] Emergence and Evolution of Interpretable Concepts in Diffusion Models](emergence_and_evolution_of_interpretable_concepts_in_diffusi.md)
 
 <!-- RELATED:END -->

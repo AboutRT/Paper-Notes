@@ -264,3 +264,148 @@
   contain-intrinsic-size: 0 80px;
 }
 
+/* ── Conference index intro block (above paper list) ── */
+
+/* 1) Stats bar: 4 numbers (notes / official / areas / coverage) */
+.md-typeset .conf-stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.6rem 1.2rem;
+  margin: 0.8rem 0 1.4rem;
+  padding: 0.9rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+}
+.md-typeset .conf-stats-bar .cs-item {
+  text-align: center;
+  flex: 1 1 110px;
+}
+.md-typeset .conf-stats-bar .cs-num {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--md-accent-fg-color);
+  line-height: 1.1;
+}
+.md-typeset .conf-stats-bar .cs-lab {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.15rem;
+}
+[data-md-color-scheme="slate"] .md-typeset .conf-stats-bar {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 2) Top areas pill bar */
+.md-typeset .conf-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.4rem 0 1.2rem;
+}
+.md-typeset .conf-pills .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.32rem 0.7rem;
+  border-radius: 999px;
+  background: var(--md-primary-fg-color--light, rgba(63, 81, 181, 0.1));
+  color: var(--md-default-fg-color) !important;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s;
+}
+.md-typeset .conf-pills .pill b {
+  font-weight: 700;
+  color: var(--md-accent-fg-color);
+  font-size: 0.85rem;
+}
+.md-typeset .conf-pills .pill:hover {
+  background: var(--md-accent-fg-color--transparent, rgba(0, 188, 212, 0.15));
+  border-color: var(--md-accent-fg-color);
+}
+[data-md-color-scheme="slate"] .md-typeset .conf-pills .pill {
+  background: rgba(255, 255, 255, 0.06);
+}
+[data-md-color-scheme="slate"] .md-typeset .conf-pills .pill:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* 3) Hot subtopics chips (extracted from paper titles) */
+.md-typeset .conf-hot-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.4rem 0 1.2rem;
+}
+.md-typeset .conf-hot-topics .topic {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  font-size: 0.82rem;
+}
+.md-typeset .conf-hot-topics .topic em {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+  font-size: 0.78rem;
+}
+[data-md-color-scheme="slate"] .md-typeset .conf-hot-topics .topic {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* 4) Related conferences cards */
+.md-typeset .conf-related {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.4rem 0 1.4rem;
+}
+.md-typeset .conf-related .rel-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.55rem 0.9rem;
+  min-width: 180px;
+  flex: 1 1 200px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color) !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s, transform 0.1s;
+}
+.md-typeset .conf-related .rel-card:hover {
+  border-color: var(--md-accent-fg-color);
+  transform: translateY(-1px);
+}
+.md-typeset .conf-related .rel-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--md-accent-fg-color);
+}
+.md-typeset .conf-related .rel-desc {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+}
+[data-md-color-scheme="slate"] .md-typeset .conf-related .rel-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile tweaks for the intro block */
+@media (max-width: 600px) {
+  .md-typeset .conf-stats-bar .cs-num { font-size: 1.25rem; }
+  .md-typeset .conf-stats-bar .cs-lab { font-size: 0.72rem; }
+  .md-typeset .conf-related .rel-card { min-width: 140px; flex-basis: 140px; }
+}
+

@@ -9,7 +9,7 @@ tags:
   - zero-shot
   - conversational
   - speaker interaction
-  - 对比学习
+  - 其他
 ---
 
 # Zero-Shot Conversational Stance Detection: Dataset and Approaches
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.17693](https://arxiv.org/abs/2506.17693)  
 **代码**: [GitHub](https://github.com/whu-yzding/ZS-CSD)  
-**领域**: NLP / 立场检测  
+**领域**: 其他  
 **关键词**: stance detection, zero-shot, conversational, speaker interaction, prototypical contrastive learning
 
 ## 一句话总结
@@ -154,8 +154,8 @@ SITPCL（Speaker Interaction and Target-aware Prototypical Contrastive Learning�
 
 - [\[ACL 2025\] USDC: A Dataset of User Stance and Dogmatism in Long Conversations](usdc_a_dataset_of_underlineuser_underlinestance_and_underlinedogmatism_in_long_u.md)
 - [\[ACL 2025\] Graph-guided Cross-composition Feature Disentanglement for Compositional Zero-shot Learning](graph-guided_cross-composition_feature_disentanglement_for_compositional_zero-sh.md)
-- [\[ICLR 2026\] OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection](../../ICLR2026/others/owleye_zero-shot_learner_for_cross-domain_graph_data_anomaly_detection.md)
 - [\[ACL 2025\] INJONGO: A Multicultural Intent Detection and Slot-filling Dataset for 16 African Languages](injongo_a_multicultural_intent_detection_and_slot-filling_dataset_for_16_african.md)
-- [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
+- [\[ICLR 2026\] OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection](../../ICLR2026/others/owleye_zero-shot_learner_for_cross-domain_graph_data_anomaly_detection.md)
+- [\[CVPR 2025\] Zero-Shot Head Swapping in Real-World Scenarios](../../CVPR2025/others/zero-shot_head_swapping_in_real-world_scenarios.md)
 
 <!-- RELATED:END -->

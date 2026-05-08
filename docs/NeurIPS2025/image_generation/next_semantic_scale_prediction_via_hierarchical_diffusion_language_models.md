@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.08632](https://arxiv.org/abs/2510.08632)  
-**代码**: https://github.com/zhouc20/HDLM  
+**代码**: [https://github.com/zhouc20/HDLM](https://github.com/zhouc20/HDLM)  
 **领域**: Image Generation / Diffusion Language Model  
 **关键词**: 离散扩散模型, 层级词汇表, 语义尺度预测, 语言建模, CTMC
 

@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19543](https://arxiv.org/abs/2503.19543)  
-**代码**: https://github.com/junweizheng93/SPR  
-**领域**: 3D视觉 / 视觉定位  
+**代码**: [https://github.com/junweizheng93/SPR](https://github.com/junweizheng93/SPR)  
+**领域**: LLM评测  
 **关键词**: 视觉定位, 位姿回归, 场景无关, 全景图, Mamba
 
 ## 一句话总结

@@ -53,7 +53,7 @@ MOBO-OSD的流程可概括为四步：
 
 2. **正交搜索方向与子问题**: OSD定义为经过近似CHIM上某点、沿法向量 $\mathbf{n}$ 方向的直线。子问题为约束优化：
 
-   $$(\mathbf{x}^{\text{OSD}}, \lambda^{\text{OSD}}) \in \max_{\mathbf{x} \in \mathcal{X}} \lambda \quad \text{s.t.} \quad \gamma(\mathbf{x}; \boldsymbol{\beta}, \mathbf{n}) \in \mathcal{Q}(\mathbf{x})$$
+    $(\mathbf{x}^{\text{OSD}}, \lambda^{\text{OSD}}) \in \max_{\mathbf{x} \in \mathcal{X}} \lambda \quad \text{s.t.} \quad \gamma(\mathbf{x}; \boldsymbol{\beta}, \mathbf{n}) \in \mathcal{Q}(\mathbf{x})$
 
    其中将目标值替换为GP后验均值 $\boldsymbol{\mu}(\mathbf{x})$，并将等式约束松弛为置信区间约束 $\mathcal{Q}(\mathbf{x})$。使用SLSQP求解器，多起点策略后通过超体积贡献选择最优解。
 
@@ -134,7 +134,7 @@ MOBO-OSD的流程可概括为四步：
 - [\[NeurIPS 2025\] In Search of Adam's Secret Sauce](in_search_of_adams_secret_sauce.md)
 - [\[NeurIPS 2025\] Learning Orthogonal Multi-Index Models: A Fine-Grained Information Exponent Analysis](learning_orthogonal_multi-index_models_a_fine-grained_information_exponent_analy.md)
 - [\[NeurIPS 2025\] Optimistic Online-to-Batch Conversions for Accelerated Convergence and Universality](optimistic_online-to-batch_conversions_for_accelerated_convergence_and_universal.md)
-- [\[NeurIPS 2025\] Multi-head Transformers Provably Learn Symbolic Multi-step Reasoning via Gradient Descent](multi-head_transformers_provably_learn_symbolic_multi-step_reasoning_via_gradien.md)
+- [\[AAAI 2026\] Beyond the Mean: Fisher-Orthogonal Projection for Natural Gradient Descent in Large Batch Training](../../AAAI2026/optimization/beyond_the_mean_fisher-orthogonal_projection_for_natural_gradient_descent_in_lar.md)
 - [\[AAAI 2026\] Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization](../../AAAI2026/optimization/pareto-grid-guided_large_language_models_for_fast_and_high-quality_heuristics_de.md)
 
 <!-- RELATED:END -->

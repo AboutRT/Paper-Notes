@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2601.08198](https://arxiv.org/abs/2601.08198)  
 **代码**: 待确认  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: self-play fine-tuning, triplet learning, LLM alignment, reference-free training, data scarcity
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.03524](https://arxiv.org/abs/2603.03524)  
 **代码**: 无  
-**领域**: LLM 推理 / 元学习  
+**领域**: 优化  
 **关键词**: 元学习, test-time training, 双层优化, 合成数据, self-adaptation
 
 ## 一句话总结

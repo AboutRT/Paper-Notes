@@ -18,7 +18,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2507.18901](https://arxiv.org/abs/2507.18901)  
 **代码**: [GitHub](https://github.com/uiuc-kang-lab/REPRO-Bench)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: AI Agent, 可复现性评估, 社会科学, benchmark, 代码执行
 
 ## 一句话总结

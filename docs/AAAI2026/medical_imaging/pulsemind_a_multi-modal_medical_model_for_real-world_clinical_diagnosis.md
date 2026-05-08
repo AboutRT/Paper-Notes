@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2601.07344](https://arxiv.org/abs/2601.07344)  
 **代码**: [GitHub](https://github.com/AQ-MedAI/PulseMind)  
-**领域**: 医学多模态 / 临床诊断对话  
+**领域**: 医学图像  
 **关键词**: 医学多模态模型, 多轮诊断对话, 强化学习, 比较式奖励, 临床评估基准
 
 ## 一句话总结
@@ -54,24 +54,24 @@ PulseMind 包含三个核心组件（见图2）：
 1. **MediScope 数据集构建**
 
    数据集构建遵循严格的四阶段流水线：
-   - **收集（Collection）**：从真实临床场景收集去标识化数据，涵盖检查报告、多轮医患对话等
-   - **匿名化（Anonymization）**：使用 OCR 和 NER 技术对文本和图像进行二次匿名检查，确保完全移除个人身份信息
-   - **扩展（Expansion）**：使用 GPT-4o 和 Gemini 等 LLM 修缮和扩展医生回复——过滤无意义填充语、增补临床相关内容
-   - **审校（Proofreading）**：医学专家和执证医师全面审校，确保临床有效性和伦理合规
+    - **收集（Collection）**：从真实临床场景收集去标识化数据，涵盖检查报告、多轮医患对话等
+    - **匿名化（Anonymization）**：使用 OCR 和 NER 技术对文本和图像进行二次匿名检查，确保完全移除个人身份信息
+    - **扩展（Expansion）**：使用 GPT-4o 和 Gemini 等 LLM 修缮和扩展医生回复——过滤无意义填充语、增补临床相关内容
+    - **审校（Proofreading）**：医学专家和执证医师全面审校，确保临床有效性和伦理合规
 
    最终数据集包含 **98,000 条真实多轮问诊对话**和 **601,500 张医学影像**，覆盖 **10+ 个主要临床科室**和 **200+ 个亚专科**。数据类型包括化验结果、检查报告、处方、医学影像和手术记录等。40.9% 的对话包含 6-10 轮，6% 超过 20 轮。
 
 2. **PulseMind Benchmark 评估基准**
 
    评估基准由两个子集组成，共 1200+ 样本：
-   - **MedDiagnose**（237 样本）：自建多模态问诊集，包含影像和专家验证对话
-   - **CMtMedQA-test**（1000 样本）：扩展的纯文本多轮推理问诊集
+    - **MedDiagnose**（237 样本）：自建多模态问诊集，包含影像和专家验证对话
+    - **CMtMedQA-test**（1000 样本）：扩展的纯文本多轮推理问诊集
 
    四维评估协议：
-   - **主动性（Proactiveness）**：模型是否主动追问缺失但关键的信息
-   - **准确性（Accuracy）**：诊断建议是否医学上合理、无事实错误
-   - **实用性（Usefulness）**：回复的实际价值，包括清晰度、可操作性
-   - **语言质量（Language Quality）**：流畅度、专业性和沟通效果
+    - **主动性（Proactiveness）**：模型是否主动追问缺失但关键的信息
+    - **准确性（Accuracy）**：诊断建议是否医学上合理、无事实错误
+    - **实用性（Usefulness）**：回复的实际价值，包括清晰度、可操作性
+    - **语言质量（Language Quality）**：流畅度、专业性和沟通效果
 
    采用 GPT-4 作为自动评估器，通过 pairwise 比较计算 win rate 作为主要指标。
 
@@ -81,11 +81,11 @@ PulseMind 包含三个核心组件（见图2）：
 
    具体流程如下：给定查询 $q$，策略模型生成 $G$ 个候选回复 $\{o_1, \dots, o_G\}$。然后对每个候选回复 $o_g$，与 5 个对标模型（counterpart models）$\{CP_1, \dots, CP_5\}$ 的回复在 4 个维度上进行比较：
 
-   $$r_{g,c,d} = \begin{cases} 1, & \text{if } o_g \succ CP_c \text{ on dimension } d \\ 0, & \text{otherwise} \end{cases}$$
+    $r_{g,c,d} = \begin{cases} 1, & \text{if } o_g \succ CP_c \text{ on dimension } d \\ 0, & \text{otherwise} \end{cases}$
 
    候选回复的奖励为所有对标模型和维度的平均：
 
-   $$R_g = \frac{1}{C \times D} \sum_{c=1}^{C} \sum_{d=1}^{D} r_{g,c,d}$$
+    $R_g = \frac{1}{C \times D} \sum_{c=1}^{C} \sum_{d=1}^{D} r_{g,c,d}$
 
    其中 $C=5$（对标模型数），$D=4$（评估维度数）。后续的 advantage 计算和损失函数与 GRPO 相同。
 
@@ -167,6 +167,6 @@ PulseMind 包含三个核心组件（见图2）：
 - [\[AAAI 2026\] MedEyes: Learning Dynamic Visual Focus for Medical Progressive Diagnosis](medeyes_learning_dynamic_visual_focus_for_medical_progressive_diagnosis.md)
 - [\[NeurIPS 2025\] RAD: Towards Trustworthy Retrieval-Augmented Multi-modal Clinical Diagnosis](../../NeurIPS2025/medical_imaging/rad_towards_trustworthy_retrieval-augmented_multi-modal_clinical_diagnosis.md)
 - [\[NeurIPS 2025\] MIRA: Medical Time Series Foundation Model for Real-World Health Data](../../NeurIPS2025/medical_imaging/mira_medical_time_series_foundation_model_for_real-world_health_data.md)
-- [\[AAAI 2026\] MAPI-GNN: Multi-Activation Plane Interaction Graph Neural Network for Multimodal Medical Diagnosis](mapi-gnn_multi-activation_plane_interaction_graph_neural_network_for_multimodal_.md)
+- [\[AAAI 2026\] GIIM: Graph-based Learning of Inter- and Intra-view Dependencies for Multi-view Medical Image Diagnosis](giim_graph-based_learning_of_inter-_and_intra-view_dependencies_for_multi-view_m.md)
 
 <!-- RELATED:END -->

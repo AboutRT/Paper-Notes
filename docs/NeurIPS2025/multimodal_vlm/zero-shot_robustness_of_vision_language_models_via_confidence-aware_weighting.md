@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - 多模态
   - CLIP
-  - 对抗鲁棒性
+  - 多模态VLM
   - 零样本
   - 对抗微调
   - 置信度加权
@@ -46,19 +46,19 @@ CAW使用冻结的原始CLIP模型和可微调的目标CLIP模型（仅微调图
 
 1. **Confidence-Aware Loss（置信度感知损失）**：核心思想是用KL散度对齐冻结CLIP在干净图像上的预测分布 $P^{\text{clean}}$ 和微调CLIP在对抗图像上的预测分布 $P^{\text{adv}}$，并以 $(1 - P^{\text{adv}}_{i,y_i})$ 作为权重因子放大困难样本的贡献：
 
-   $$L_{\text{CA}} = \frac{1}{N}\sum_{i=1}^{N}\left[\text{KL}(P^{\text{adv}}_i \| P^{\text{clean}}_i)(1 - P^{\text{adv}}_{i,y_i})\right]$$
+    $L_{\text{CA}} = \frac{1}{N}\sum_{i=1}^{N}\left[\text{KL}(P^{\text{adv}}_i \| P^{\text{clean}}_i)(1 - P^{\text{adv}}_{i,y_i})\right]$
 
    其中 $P^{\text{adv}}_{i,y_i}$ 是对抗输入下真实类别的预测概率——概率越低说明模型越不确定，权重越大，训练越关注该样本。与ARoW方法不同，CAW使用 $\text{KL}(P^{\text{adv}} \| P^{\text{clean}})$ 的方向（对抗分布在前），实验表明这产生更好的效果。
 
 2. **Feature Alignment Regularization（特征对齐正则化）**：通过最小化微调编码器和冻结编码器在对抗输入上的特征$\ell_2$距离，在文本对齐之前的图像特征层面保持语义一致性：
 
-   $$L_{\text{Reg}} = \frac{1}{N}\sum_{i=0}^{N}\|f(x_{\text{adv}})_{\text{tar}} - f(x_{\text{adv}})_{\text{ori}}\|_2$$
+    $L_{\text{Reg}} = \frac{1}{N}\sum_{i=0}^{N}\|f(x_{\text{adv}})_{\text{tar}} - f(x_{\text{adv}})_{\text{ori}}\|_2$
 
    跟蒸馏而不是在logit层做对齐，这在更丰富的特征空间中保留了预训练CLIP的视觉语义知识，减少微调时的过拟合风险。
 
 3. **总损失函数**：
 
-   $$L_{\text{total}} = L_{\text{CE}} + \alpha \cdot L_{\text{CA}} + \beta \cdot L_{\text{Reg}}$$
+    $L_{\text{total}} = L_{\text{CE}} + \alpha \cdot L_{\text{CA}} + \beta \cdot L_{\text{Reg}}$
 
    $L_{\text{CE}}$ 是标准交叉熵损失，$\alpha$ 和 $\beta$ 控制各项权重。
 
@@ -142,10 +142,10 @@ CAW使用冻结的原始CLIP模型和可微调的目标CLIP模型（仅微调图
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models](test-time_spectrum-aware_latent_steering_for_zero-shot_generalization_in_vision-.md)
-- [\[CVPR 2026\] AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models](../../CVPR2026/multimodal_vlm/agft_alignment-guided_fine-tuning_for_zero-shot_adversarial_robustness_of_vision.md)
 - [\[NeurIPS 2025\] iFinder: Structured Zero-Shot VLM Grounding for Dash-Cam Video Reasoning](ifinder_structured_zero-shot_vision-based_llm_grounding_for_dash-cam_video_reaso.md)
-- [\[NeurIPS 2025\] TOMCAT: Test-time Comprehensive Knowledge Accumulation for Compositional Zero-Shot Learning](tomcat_test-time_comprehensive_knowledge_accumulation_for_compositional_zero-sho.md)
+- [\[NeurIPS 2025\] Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models](test-time_spectrum-aware_latent_steering_for_zero-shot_generalization_in_vision-.md)
+- [\[CVPR 2025\] Conformal Prediction for Zero-Shot Models](../../CVPR2025/multimodal_vlm/conformal_prediction_for_zero-shot_models.md)
+- [\[CVPR 2026\] AGFT: Alignment-Guided Fine-Tuning for Zero-Shot Adversarial Robustness of Vision-Language Models](../../CVPR2026/multimodal_vlm/agft_alignment-guided_fine-tuning_for_zero-shot_adversarial_robustness_of_vision.md)
 - [\[ACL 2025\] RATE-Nav: Region-Aware Termination Enhancement for Zero-shot Object Navigation with Vision-Language Models](../../ACL2025/multimodal_vlm/rate-nav_region-aware_termination_enhancement_for_zero-shot_object_navigation_wi.md)
 
 <!-- RELATED:END -->

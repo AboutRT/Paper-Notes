@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.07767](https://arxiv.org/abs/2412.07767)  
-**代码**: https://ant-research.github.io/lumos (项目页)  
+**代码**: [https://ant-research.github.io/lumos](https://ant-research.github.io/lumos) (项目页)  
 **领域**: 图像生成  
 **关键词**: 图像到图像生成, 视觉生成先验, 自监督学习, 预训练, 扩散模型
 

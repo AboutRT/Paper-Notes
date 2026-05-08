@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 幻觉缓解
-  - 强化学习
+  - LLM安全
   - 自对齐
   - 细粒度反馈
   - 在策略学习
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2406.12221](https://arxiv.org/abs/2406.12221)  
 **代码**: [有 (GitHub)](https://github.com/AlignRM/RLFH)  
-**领域**: NLP / 大语言模型对齐  
+**领域**: LLM安全  
 **关键词**: 幻觉缓解, 强化学习, 自对齐, 细粒度反馈, 在策略学习
 
 ## 一句话总结
@@ -175,9 +175,9 @@ $$r_{\text{info}} = \beta \log(\mu + \max(\epsilon, \sum_i^N g(k_{\text{info}}^i
 ## 相关论文
 
 - [\[ACL 2025\] Fine-grained Hallucination Detection and Mitigation in Long-form Question Answering](localizing_and_mitigating_errors_in_long-form_question_answering.md)
-- [\[ACL 2025\] Improving Model Factuality with Fine-grained Critique-based Evaluator](improving_model_factuality_with_fine-grained_critique-based_evaluator.md)
-- [\[ACL 2025\] Real-time Factuality Assessment from Adversarial Feedback](real-time_factuality_assessment_from_adversarial_feedback.md)
-- [\[ACL 2025\] Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning](alleviating_hallucinations_from_knowledge_misalignment_in_large_language_models_.md)
 - [\[ACL 2025\] Monitoring Decoding: Mitigating Hallucination via Evaluating the Factuality of Partial Response during Generation](monitoring_decoding_mitigating_hallucination_via_evaluating_the_factuality_of_pa.md)
+- [\[ACL 2025\] Real-time Factuality Assessment from Adversarial Feedback](real-time_factuality_assessment_from_adversarial_feedback.md)
+- [\[ACL 2025\] Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence](cracking_hallucination_vhd.md)
+- [\[ACL 2025\] Improving Model Factuality with Fine-grained Critique-based Evaluator](improving_model_factuality_with_fine-grained_critique-based_evaluator.md)
 
 <!-- RELATED:END -->

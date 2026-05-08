@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.25159](https://arxiv.org/abs/2603.25159)  
-**代码**: [项目页](https://spoiuy3.github.io/SeDiR/) (有)  
+**代码**: [项目页](https://spoiuy3.github.io/SeDiR/)  
 **领域**: 3D视觉 / 异常检测  
 **关键词**: 3D异常检测, 统一模型, 语义解纠缠, 类别间纠缠, 对比学习
 
@@ -129,6 +129,6 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{C3L}} + \mathcal{L}_{\text{rec
 - [\[CVPR 2026\] GS-CLIP: Zero-shot 3D Anomaly Detection by Geometry-Aware Prompt and Synergistic View Representation Learning](gs-clip_zero-shot_3d_anomaly_detection_by_geometry-aware_prompt_and_synergistic_.md)
 - [\[ICCV 2025\] Unified Category-Level Object Detection and Pose Estimation from RGB Images using 3D Prototypes](../../ICCV2025/3d_vision/unified_category-level_object_detection_and_pose_estimation_from_rgb_images_usin.md)
 - [\[CVPR 2026\] Changes in Real Time: Online Scene Change Detection with Multi-View Fusion](changes_in_real_time_online_scene_change_detection_with_multi-view_fusion.md)
-- [\[AAAI 2026\] CASL: Curvature-Augmented Self-supervised Learning for 3D Anomaly Detection](../../AAAI2026/3d_vision/casl_curvature-augmented_self-supervised_learning_for_3d_anomaly_detection.md)
+- [\[CVPR 2026\] CARI4D: Category Agnostic 4D Reconstruction of Human-Object Interaction](cari4d_category_agnostic_4d_reconstruction_of_human_object_interaction.md)
 
 <!-- RELATED:END -->

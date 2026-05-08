@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.07990](https://arxiv.org/abs/2604.07990)  
-**代码**: https://wangyunnan.github.io/SceneScribe-1M  
+**代码**: [https://wangyunnan.github.io/SceneScribe-1M](https://wangyunnan.github.io/SceneScribe-1M)  
 **领域**: 3D视觉 / 视频理解  
 **关键词**: 视频数据集, 几何标注, 语义标注, 世界基础模型, 深度估计
 

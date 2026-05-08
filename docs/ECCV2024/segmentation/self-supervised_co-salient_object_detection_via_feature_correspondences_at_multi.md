@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2403.11107](https://arxiv.org/abs/2403.11107)  
 **代码**: [https://github.com/sourachakra/SCoSPARC](https://github.com/sourachakra/SCoSPARC)  
-**领域**: 显著性目标检测 / 自监督学习  
+**领域**: 图像分割  
 **关键词**: Co-salient Object Detection, Self-supervised, Feature Correspondence, Vision Transformer, Adaptive Thresholding
 
 ## 一句话总结

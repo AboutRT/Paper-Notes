@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 图像恢复
-  - 扩散语言模型
+  - 图像复原
   - 多奖励优化
   - token相关性
   - 强化学习
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21473](https://arxiv.org/abs/2510.21473)  
 **代码**: 无  
-**领域**: 扩散语言模型 / LLM推理  
+**领域**: 图像复原  
 **关键词**: 扩散语言模型, 多奖励优化, token相关性, 强化学习, SGRO
 
 ## 一句话总结
@@ -149,6 +149,6 @@ tags:
 - [\[NeurIPS 2025\] Rethinking Circuit Completeness in Language Models: AND, OR, and ADDER Gates](rethinking_circuit_completeness_in_language_models_and_or_and_adder_gates.md)
 - [\[NeurIPS 2025\] Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmark](enhancing_infrared_vision_progressive_prompt_fusion_network_and_benchmark.md)
 - [\[NeurIPS 2025\] SCAN: Self-Denoising Monte Carlo Annotation for Robust Process Reward Learning](scan_self-denoising_monte_carlo_annotation_for_robust_process_reward_learning.md)
-- [\[NeurIPS 2025\] Adaptive Discretization for Consistency Models](adaptive_discretization_for_consistency_models.md)
+- [\[AAAI 2026\] Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework](../../AAAI2026/image_restoration/large_language_models_meet_extreme_multi-label_classification_scaling_and_multi-.md)
 
 <!-- RELATED:END -->

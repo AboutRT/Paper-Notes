@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.19401](https://arxiv.org/abs/2404.19401)  
-**代码**: https://github.com/jin-s13/UniFS (有)  
+**代码**: [https://github.com/jin-s13/UniFS](https://github.com/jin-s13/UniFS)  
 **领域**: 分割  
 **关键词**: 少样本学习, 统一模型, 点表示, 实例感知, 多任务学习
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025 (Spotlight)  
 **arXiv**: [2410.03655](https://arxiv.org/abs/2410.03655)  
-**代码**: https://github.com/GraphPKU/GeoRCG (有)  
+**代码**: [https://github.com/GraphPKU/GeoRCG](https://github.com/GraphPKU/GeoRCG)  
 **领域**: Medical Imaging (Molecular Generation)  
 **关键词**: 分子生成, 等变扩散, 几何表示条件, 两阶段生成, 条件分子生成
 

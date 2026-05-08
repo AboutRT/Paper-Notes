@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2410.10209](https://arxiv.org/abs/2410.10209)  
 **代码**: [GitHub - EffiCoder](https://github.com/huangd1999/EffiCoder)  
-**领域**: nlp_generation  
+**领域**: 代码智能  
 **关键词**: 代码生成, 效率感知微调, 指令微调, 执行时间, 内存开销
 
 ## 一句话总结

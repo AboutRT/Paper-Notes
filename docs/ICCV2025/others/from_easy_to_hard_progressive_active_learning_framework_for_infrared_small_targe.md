@@ -2,10 +2,10 @@
 title: >-
   [论文解读] From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision
 description: >-
-  [ICCV 2025][红外小目标检测] 提出渐进式主动学习（PAL）框架，通过"模型预启动→模型增强→模型精炼"三阶段训练策略，驱动红外小目标检测网络从易到难地主动识别和学习困难样本，在单点监督条件下显著缩小了与全监督方法之间的性能差距（IoU 提升 8.53%–29.1%）。
+  [ICCV 2025][其他] 提出渐进式主动学习（PAL）框架，通过"模型预启动→模型增强→模型精炼"三阶段训练策略，驱动红外小目标检测网络从易到难地主动识别和学习困难样本，在单点监督条件下显著缩小了与全监督方法之间的性能差距（IoU 提升 8.53%–29.1%）。
 tags:
   - ICCV 2025
-  - 红外小目标检测
+  - 其他
   - 单点监督
   - 渐进式主动学习
   - 课程学习
@@ -197,9 +197,9 @@ $$L_{n+1} = \lambda L_n \odot (1 - N_n) + \frac{L_n + P_n}{2} \odot N_n$$
 ## 相关论文
 
 - [\[CVPR 2025\] Instance-wise Supervision-level Optimization in Active Learning](../../CVPR2025/others/instance-wise_supervision-level_optimization_in_active_learning.md)
+- [\[ICCV 2025\] Multi-view Gaze Target Estimation](multi-view_gaze_target_estimation.md)
 - [\[NeurIPS 2025\] MutualVPR: A Mutual Learning Framework for Resolving Supervision Inconsistencies via Adaptive Clustering](../../NeurIPS2025/others/mutualvpr_a_mutual_learning_framework_for_resolving_supervision_inconsistencies_.md)
-- [\[ICCV 2025\] A Linear N-Point Solver for Structure and Motion from Asynchronous Tracks](a_linear_n-point_solver_for_structure_and_motion_from_asynchronous_tracks.md)
-- [\[NeurIPS 2025\] On Agnostic PAC Learning in the Small Error Regime](../../NeurIPS2025/others/on_agnostic_pac_learning_in_the_small_error_regime.md)
-- [\[ECCV 2024\] Gaze Target Detection Based on Head-Local-Global Coordination](../../ECCV2024/others/gaze_target_detection_based_on_head-local-global_coordination.md)
+- [\[ICCV 2025\] Adversarial Data Augmentation for Single Domain Generalization via Lyapunov Exponents](adversarial_data_augmentation_for_single_domain_generalization_via_lyapunov_expo.md)
+- [\[ECCV 2024\] An Incremental Unified Framework for Small Defect Inspection](../../ECCV2024/others/an_incremental_unified_framework_for_small_defect_inspection.md)
 
 <!-- RELATED:END -->

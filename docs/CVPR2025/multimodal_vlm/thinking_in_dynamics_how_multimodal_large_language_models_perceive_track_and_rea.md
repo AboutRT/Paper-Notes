@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 多模态
   - 多模态大模型
-  - 时空推理
+  - 多模态VLM
   - 4D世界理解
   - 动态感知
   - 基准评测
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.12746](https://arxiv.org/abs/2603.12746)  
-**代码**: https://dyn-bench.github.io/ (有)  
+**代码**: [https://dyn-bench.github.io/](https://dyn-bench.github.io/)  
 **领域**: 多模态VLM  
 **关键词**: 多模态大模型, 时空推理, 4D世界理解, 动态感知, 基准评测
 
@@ -128,9 +128,9 @@ Dyn-Bench 本身是评估基准，不涉及训练。Mask-Guided Fusion 和 ST-TC
 ## 相关论文
 
 - [\[CVPR 2025\] 4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models](4d_langsplat_4d_language_gaussian_splatting_via_multimodal_large_language_models.md)
-- [\[CVPR 2025\] Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](thinking_in_space_how_multimodal_large_language_models_see_remember_and_recall_s.md)
 - [\[CVPR 2025\] VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos](videoglamm_a_large_multimodal_model_for_pixel-level_visual_grounding_in_videos.md)
+- [\[CVPR 2025\] Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces](thinking_in_space_how_multimodal_large_language_models_see_remember_and_recall_s.md)
 - [\[CVPR 2025\] Stop Learning It All to Mitigate Visual Hallucination, Focus on the Hallucination Target](stop_learning_it_all_to_mitigate_visual_hallucination_focus_on_the_hallucination.md)
-- [\[CVPR 2025\] How to Merge Your Multimodal Models Over Time?](how_to_merge_your_multimodal_models_over_time.md)
+- [\[CVPR 2025\] Towards Understanding How Knowledge Evolves in Large Vision-Language Models](towards_understanding_how_knowledge_evolves_in_large_vision-language_models.md)
 
 <!-- RELATED:END -->

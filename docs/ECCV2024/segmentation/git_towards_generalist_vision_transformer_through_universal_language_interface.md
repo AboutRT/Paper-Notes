@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.09394](https://arxiv.org/abs/2403.09394)  
-**代码**: https://github.com/Haiyang-W/GiT  
+**代码**: [https://github.com/Haiyang-W/GiT](https://github.com/Haiyang-W/GiT)  
 **领域**: 语义分割 / 多任务视觉建模  
 **关键词**: generalist vision model, universal language interface, multi-task learning, ViT, auto-regressive
 
@@ -135,9 +135,9 @@ GiT 的架构极度简洁：一个 window-based ViT（与 SAM 使用的相同结
 ## 相关论文
 
 - [\[ECCV 2024\] Rotary Position Embedding for Vision Transformer](rotary_position_embedding_for_vision_transformer.md)
-- [\[ECCV 2024\] SiLC: Improving Vision Language Pretraining with Self-Distillation](silc_improving_vision_language_pretraining_with_self-distillation.md)
 - [\[ECCV 2024\] SCLIP: Rethinking Self-Attention for Dense Vision-Language Inference](sclip_rethinking_self-attention_for_dense_vision-language_inference.md)
 - [\[ICLR 2026\] Locality-Attending Vision Transformer](../../ICLR2026/segmentation/locality-attending_vision_transformer.md)
 - [\[ECCV 2024\] UniFS: Universal Few-Shot Instance Perception with Point Representations](unifs_universal_few-shot_instance_perception_with_point_representations.md)
+- [\[CVPR 2025\] MambaVision: A Hybrid Mamba-Transformer Vision Backbone](../../CVPR2025/segmentation/mambavision_a_hybrid_mamba-transformer_vision_backbone.md)
 
 <!-- RELATED:END -->

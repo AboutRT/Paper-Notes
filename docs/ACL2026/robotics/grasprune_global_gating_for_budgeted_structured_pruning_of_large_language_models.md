@@ -14,7 +14,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.19398](https://arxiv.org/abs/2604.19398)  
 **代码**: [GitHub](https://github.com/ZiY-Wang/GRASPrune)  
-**领域**: 模型压缩 / LLM效率  
+**领域**: 机器人  
 **关键词**: 结构化剪枝, 全局预算, 门控学习, KV头剪枝, 投影STE
 
 ## 一句话总结

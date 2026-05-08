@@ -11,7 +11,7 @@ tags:
   - ALiBi
   - Lie群
   - 旋转编码
-  - 长上下文
+  - 信号通信
 ---
 
 # Group Representational Position Encoding (GRAPE)
@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2512.07805](https://arxiv.org/abs/2512.07805)  
 **代码**: [github.com/model-architectures/GRAPE](https://github.com/model-architectures/GRAPE)  
-**领域**: llm_efficiency  
+**领域**: 信号通信  
 **关键词**: 位置编码, 群论, RoPE, ALiBi, Lie群, 旋转编码, 长上下文  
 
 ## 一句话总结
@@ -157,9 +157,9 @@ $$\psi_h(t,\ell) = \alpha_h \cdot g\left(\frac{1}{d}\langle\mathbf{p}_{t,h},\, \
 ## 相关论文
 
 - [\[ICML 2025\] Fourier Position Embedding: Enhancing Attention's Periodic Extension for Length Generalization](../../ICML2025/signal_comm/fourier_position_embedding_enhancing_attentions_periodic_extension_for_length_ge.md)
-- [\[ICLR 2026\] FASA: Frequency-Aware Sparse Attention](fasa_frequency-aware_sparse_attention.md)
 - [\[ICLR 2026\] Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability](spectrum_tuning_post-training_for_distributional_coverage_and_in-context_steerab.md)
-- [\[ICLR 2026\] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)
 - [\[ICLR 2026\] Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional](multi-modal_data_spectrum_multi-modal_datasets_are_multi-dimensional.md)
+- [\[ICLR 2026\] FASA: Frequency-Aware Sparse Attention](fasa_frequency-aware_sparse_attention.md)
+- [\[ICLR 2026\] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)
 
 <!-- RELATED:END -->

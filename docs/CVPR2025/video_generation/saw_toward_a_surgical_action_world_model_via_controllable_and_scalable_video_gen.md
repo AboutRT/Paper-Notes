@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR2025
   - surgical video generation
-  - world model
+  - 视频生成
   - 扩散模型
   - tool-tissue interaction
   - 动作识别
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.13024](https://arxiv.org/abs/2603.13024)  
 **代码**: 待确认  
-**领域**: medical_imaging  
+**领域**: 视频生成  
 **关键词**: surgical video generation, world model, video diffusion, tool-tissue interaction, action recognition, surgical simulation
 
 ## 一句话总结
@@ -124,7 +124,7 @@ tags:
 - [\[CVPR 2025\] World2Act: Latent Action Post-Training via Skill-Compositional World Models](world2act_latent_action_post-training_via_skill-compositional_world_models.md)
 - [\[ICML 2025\] How Far is Video Generation from World Model: A Physical Law Perspective](../../ICML2025/video_generation/how_far_is_video_generation_from_world_model_a_physical_law_perspective.md)
 - [\[CVPR 2026\] Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout](../../CVPR2026/video_generation/infinity-rope_action-controllable_infinite_video_generation_emerges_from_autoreg.md)
-- [\[CVPR 2025\] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes](dynamicscaler_seamless_and_scalable_video_generation_for_panoramic_scenes.md)
-- [\[AAAI 2026\] 3D4D: An Interactive Editable 4D World Model via 3D Video Generation](../../AAAI2026/video_generation/3d4d_an_interactive_editable_4d_world_model_via_3d_video_generation.md)
+- [\[CVPR 2025\] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes](dynamicscaler_panoramic_video.md)
+- [\[CVPR 2025\] World-Consistent Video Diffusion with Explicit 3D Modeling](world-consistent_video_diffusion_with_explicit_3d_modeling.md)
 
 <!-- RELATED:END -->

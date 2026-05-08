@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV2025  
 **arXiv**: [2510.13316](https://arxiv.org/abs/2510.13316)  
-**代码**: https://github.com/fiabdu/Visual-Interestingness-Decoded  
+**代码**: [https://github.com/fiabdu/Visual-Interestingness-Decoded](https://github.com/fiabdu/Visual-Interestingness-Decoded)  
 **领域**: 多模态VLM / 视觉理解  
 **关键词**: Visual Interestingness, GPT-4o, Large Multimodal Models, Human-AI Alignment, Learning to Rank
 
@@ -139,7 +139,7 @@ tags:
 - [\[NeurIPS 2025\] A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](../../NeurIPS2025/multimodal_vlm/a_frustratingly_simple_yet_highly_effective_attack_baseline.md)
 - [\[ACL 2025\] Evaluating Visual and Cultural Interpretation: The K-Viscuit Benchmark with Human-VLM Collaboration](../../ACL2025/multimodal_vlm/evaluating_visual_and_cultural_interpretation_the_k-viscuit_benchmark_with_human.md)
 - [\[CVPR 2025\] RLAIF-V: Open-Source AI Feedback Leads to Super GPT-4V Trustworthiness](../../CVPR2025/multimodal_vlm/rlaif-v_open-source_ai_feedback_leads_to_super_gpt-4v_trustworthiness.md)
-- [\[ACL 2025\] VLM2-Bench: A Closer Look at How Well VLMs Implicitly Link Explicit Matching Visual Cues](../../ACL2025/multimodal_vlm/vlm2-bench_a_closer_look_at_how_well_vlms_implicitly_link_explicit_matching_visu.md)
-- [\[CVPR 2025\] How to Merge Your Multimodal Models Over Time?](../../CVPR2025/multimodal_vlm/how_to_merge_your_multimodal_models_over_time.md)
+- [\[ICLR 2026\] VLM-SubtleBench: How Far Are VLMs from Human-Level Subtle Comparative Reasoning?](../../ICLR2026/multimodal_vlm/vlm-subtlebench_how_far_are_vlms_from_human-level_subtle_comparative_reasoning.md)
+- [\[ACL 2025\] VLM2-Bench: A Closer Look at How Well VLMs Implicitly Link Explicit Matching Visual Cues](../../ACL2025/multimodal_vlm/vlm2-bench-visual-cue-linking.md)
 
 <!-- RELATED:END -->

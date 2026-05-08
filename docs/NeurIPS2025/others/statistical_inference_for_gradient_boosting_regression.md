@@ -66,7 +66,7 @@ $$\hat{f}^{(b+1)} \leftarrow \frac{b-1}{b}\hat{f}^{(b)} + \frac{\lambda}{b} t^{(
 每轮同时训练 $K$ 棵树，使用 leave-one-out 策略：
 1. 第一轮：用 $K$ 步标准boosting热身
 2. 后续每轮：并行训练 $K$ 棵树，每棵树的残差通过留出自己的"列"计算：
-   $$z_{i,k} = y_i - \frac{1}{b-1}\sum_{s=1}^{b-1}\sum_{l \neq k} t^{(s,l)}(\mathbf{x}_i)$$
+    $z_{i,k} = y_i - \frac{1}{b-1}\sum_{s=1}^{b-1}\sum_{l \neq k} t^{(s,l)}(\mathbf{x}_i)$
 3. 预测：$\hat{f}^{(b+1)} = \frac{1}{b}\sum_{s=1}^b \sum_{k=1}^K t^{(s,k)}$（无需除以 $K$）
 
 **信号恢复**：收敛到完整信号 $f$（无需rescaling），相对效率改进 $\geq 4\times$

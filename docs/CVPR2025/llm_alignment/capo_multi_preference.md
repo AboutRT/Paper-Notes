@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.02588](https://arxiv.org/abs/2502.02588)  
-**代码**: https://kyungmnlee.github.io/capo.github.io/  
+**代码**: [https://kyungmnlee.github.io/capo.github.io/](https://kyungmnlee.github.io/capo.github.io/)  
 **领域**: 扩散模型  
 **关键词**: 偏好优化, 扩散模型, 奖励校准, 多目标优化, Pareto前沿
 

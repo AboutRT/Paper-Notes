@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2403.13778](https://arxiv.org/abs/2403.13778)  
-**代码**: https://s-attack.github.io/  
+**代码**: [https://s-attack.github.io/](https://s-attack.github.io/)  
 **领域**: 自动驾驶 / 轨迹预测  
 **关键词**: 认证鲁棒性, 轨迹预测, 随机平滑, 扩散去噪器, 对抗攻击防御
 

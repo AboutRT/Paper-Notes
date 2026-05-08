@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.04226](https://arxiv.org/abs/2506.04226)  
 **代码**: [https://github.com/scalable-model-editing/efficient-model-editing](https://github.com/scalable-model-editing/efficient-model-editing)  
-**领域**: LLM效率  
+**领域**: 知识编辑  
 **关键词**: knowledge editing, MEMIT, precomputation, covariance matrix, locate-then-edit
 
 ## 一句话总结

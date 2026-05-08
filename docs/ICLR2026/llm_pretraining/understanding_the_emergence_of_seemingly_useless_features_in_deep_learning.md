@@ -10,7 +10,7 @@ tags:
   - 预缓存
   - 电路共享
   - 世界模型
-  - 机制可解释性
+  - LLM预训练
 ---
 
 # Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.14087](https://arxiv.org/abs/2603.14087)  
 **代码**: [GitHub](https://github.com/Markfryazino/useless-features-iclr-code)  
-**领域**: llm_nlp  
+**领域**: LLM预训练  
 **关键词**: 特征涌现, 下一token预测, 预缓存, 电路共享, 世界模型, 机制可解释性
 
 ## 一句话总结
@@ -176,10 +176,10 @@ $Q(w)$ 高表示该特征主要由预缓存驱动。
 
 ## 相关论文
 
-- [\[ICLR 2026\] Explaining Grokking and Information Bottleneck through Neural Collapse Emergence](explaining_grokking_and_information_bottleneck_through_neural_collapse_emergence.md)
-- [\[ICLR 2026\] A Law of Data Reconstruction for Random Features (and Beyond)](a_law_of_data_reconstruction_for_random_features_and_beyond.md)
-- [\[ICLR 2026\] Block-Sample MAC-Bayes Generalization Bounds](block-sample_mac-bayes_generalization_bounds.md)
 - [\[ICLR 2026\] CHAMMI-75: Pre-training multi-channel models with heterogeneous microscopy images](chammi-75_pre-training_multi-channel_models_with_heterogeneous_microscopy_images.md)
-- [\[ICLR 2026\] Deconstructing Positional Information: From Attention Logits to Training Biases](deconstructing_positional_information_from_attention_logits_to_training_biases.md)
+- [\[ICLR 2026\] A Law of Data Reconstruction for Random Features (and Beyond)](a_law_of_data_reconstruction_for_random_features_and_beyond.md)
+- [\[ICLR 2026\] Explaining Grokking and Information Bottleneck through Neural Collapse Emergence](explaining_grokking_and_information_bottleneck_through_neural_collapse_emergence.md)
+- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](token-level_data_selection_for_safe_llm_fine-tuning.md)
+- [\[ICLR 2026\] MoMa: A Simple Modular Deep Learning Framework for Material Property Prediction](moma_a_modular_deep_learning_framework_for_material_property_prediction.md)
 
 <!-- RELATED:END -->

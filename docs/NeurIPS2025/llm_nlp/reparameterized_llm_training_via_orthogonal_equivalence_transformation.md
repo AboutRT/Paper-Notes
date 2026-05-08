@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.08001](https://arxiv.org/abs/2506.08001)  
 **代码**: [spherelab.ai/poet](https://spherelab.ai/poet)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: reparameterized training, orthogonal transformation, spectrum preservation, LLM pretraining, efficient training
 
 ## 一句话总结

@@ -10,14 +10,14 @@ tags:
   - 低光增强
   - 运动去模糊
   - 跨模态融合
-  - 时序对齐
+  - 图像复原
 ---
 
 # Towards Real-world Event-guided Low-light Video Enhancement and Deblurring
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.14916](https://arxiv.org/abs/2408.14916)  
-**代码**: https://github.com/intelpro/ELEDNet  
+**代码**: [https://github.com/intelpro/ELEDNet](https://github.com/intelpro/ELEDNet)  
 **领域**: 图像修复 / 低光视频增强与去模糊  
 **关键词**: 事件相机, 低光增强, 运动去模糊, 跨模态融合, 时序对齐
 
@@ -166,8 +166,8 @@ SFCM-FE 模块内部消融：
 
 - [\[ECCV 2024\] Unrolled Decomposed Unpaired Learning for Controllable Low-Light Video Enhancement](unrolled_decomposed_unpaired_learning_for_controllable_low-light_video_enhanceme.md)
 - [\[ICCV 2025\] Low-Light Image Enhancement using Event-Based Illumination Estimation (RetinEV)](../../ICCV2025/image_restoration/low-light_image_enhancement_using_event-based_illumination_estimation.md)
+- [\[ECCV 2024\] Pairwise Distance Distillation for Unsupervised Real-World Image Super-Resolution](pairwise_distance_distillation_for_unsupervised_real-world_image_super-resolutio.md)
 - [\[ECCV 2024\] Domain-Adaptive Video Deblurring via Test-Time Blurring](domain-adaptive_video_deblurring_via_test-time_blurring.md)
 - [\[ECCV 2024\] Joint RGB-Spectral Decomposition Model Guided Image Enhancement in Mobile Photography](joint_rgb-spectral_decomposition_model_guided_image_enhancement_in_mobile_photog.md)
-- [\[AAAI 2026\] Zero-Reference Joint Low-Light Enhancement and Deblurring via Visual Autoregressive Modeling with VLM-Derived Modulation](../../AAAI2026/image_restoration/zero-reference_joint_low-light_enhancement_and_deblurring_via_visual_autoregress.md)
 
 <!-- RELATED:END -->

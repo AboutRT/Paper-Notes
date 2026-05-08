@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (SPIGM Workshop)  
 **arXiv**: [2511.05844](https://arxiv.org/abs/2511.05844)  
 **代码**: [ajavid34/guided-info-diffusion](https://github.com/ajavid34/guided-info-diffusion)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: classifier guidance, diffusion model, f-divergence, calibration, conditional generation
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - 语音
-  - 多模态
+  - 音频语音
   - vision-speech interaction
   - end-to-end speech
   - three-stage training
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2501.01957](https://arxiv.org/abs/2501.01957)  
-**代码**: https://github.com/VITA-MLLM/VITA (有)  
+**代码**: [https://github.com/VITA-MLLM/VITA](https://github.com/VITA-MLLM/VITA)  
 **领域**: 多模态LLM / 语音交互  
 **关键词**: multimodal LLM, vision-speech interaction, end-to-end speech, three-stage training, omni model
 
@@ -176,10 +176,10 @@ VITA-1.5 的模型架构包含：
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] LUMIA: A Handheld Vision-to-Music System for Real-Time, Embodied Composition](lumia_a_handheld_vision-to-music_system_for_real-time_embodied_composition.md)
 - [\[AAAI 2026\] HPSU: A Benchmark for Human-Level Perception in Real-World Spoken Speech Understanding](../../AAAI2026/audio_speech/hpsu_a_benchmark_for_human-level_perception_in_real-world_spoken_speech_understa.md)
+- [\[NeurIPS 2025\] AVRobustBench: Benchmarking the Robustness of Audio-Visual Recognition Models at Test-Time](textttavrobustbench_benchmarking_the_robustness_of_audio-visual_recognition_mode.md)
 - [\[NeurIPS 2025\] E-BATS: Efficient Backpropagation-Free Test-Time Adaptation for Speech Foundation Models](e-bats_efficient_backpropagation-free_test-time_adaptation_for_speech_foundation.md)
 - [\[NeurIPS 2025\] Instance-Specific Test-Time Training for Speech Editing in the Wild](instance-specific_test-time_training_for_speech_editing_in_the_wild.md)
-- [\[NeurIPS 2025\] AVRobustBench: Benchmarking the Robustness of Audio-Visual Recognition Models at Test-Time](textttavrobustbench_benchmarking_the_robustness_of_audio-visual_recognition_mode.md)
-- [\[ACL 2025\] OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation](../../ACL2025/audio_speech/omniflatten_an_end-to-end_gpt_model_for_seamless_voice_conversation.md)
 
 <!-- RELATED:END -->

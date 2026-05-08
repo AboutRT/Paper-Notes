@@ -8,7 +8,7 @@ tags:
   - 多语言术语
   - AI术语翻译
   - 众包翻译
-  - 后翻译优化
+  - 多语言翻译
   - LLM-Human混合框架
 ---
 
@@ -162,6 +162,6 @@ GIST 构建流程为：**术语抽取 → 人工众包翻译 → LLM 最佳候�
 - [\[ACL 2025\] mOSCAR: A Large-scale Multilingual and Multimodal Document-level Corpus](moscar_a_large-scale_multilingual_and_multimodal_document-level_corpus.md)
 - [\[ACL 2025\] Group then Scale: Dynamic Mixture-of-Experts Multilingual Language Model](group_then_scale_dynamic_mixture-of-experts_multilingual_language_model.md)
 - [\[ACL 2025\] LangMark: A Multilingual Dataset for Automatic Post-Editing](langmark_a_multilingual_dataset_for_automatic_post-editing.md)
-- [\[ACL 2025\] LEMONADE: A Large Multilingual Expert-Annotated Abstractive Event Dataset for the Real World](lemonade_a_large_multilingual_expert-annotated_abstractive_event_dataset_for_the.md)
+- [\[ACL 2025\] An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)](an_expanded_massive_multilingual_dataset_for_high-performance_language_technolog.md)
 
 <!-- RELATED:END -->

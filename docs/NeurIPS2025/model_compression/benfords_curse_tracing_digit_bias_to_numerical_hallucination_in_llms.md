@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01734](https://arxiv.org/abs/2506.01734)  
-**代码**: https://github.com/shamy28/Benford-Curse  
-**领域**: LLM分析 / 数值推理  
+**代码**: [https://github.com/shamy28/Benford-Curse](https://github.com/shamy28/Benford-Curse)  
+**领域**: 模型压缩  
 **关键词**: Benford定律, 数字偏差, 数值幻觉, FFN神经元, 选择性剪枝
 
 ## 一句话总结

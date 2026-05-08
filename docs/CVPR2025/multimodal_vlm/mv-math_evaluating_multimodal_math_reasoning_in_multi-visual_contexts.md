@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - 多图数学推理
+  - 多模态VLM
   - 多模态基准
   - K-12数学
   - 多图理解
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.20808](https://arxiv.org/abs/2502.20808)  
-**代码**: https://eternal8080.github.io/MV-MATH.github.io/  
+**代码**: [https://eternal8080.github.io/MV-MATH.github.io/](https://eternal8080.github.io/MV-MATH.github.io/)  
 **领域**: 多模态VLM  
 **关键词**: 多图数学推理, 多模态基准, K-12数学, 多图理解, MLLM评估
 

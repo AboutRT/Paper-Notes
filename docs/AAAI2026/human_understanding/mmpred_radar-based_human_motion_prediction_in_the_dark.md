@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2512.00345](https://arxiv.org/abs/2512.00345)  
 **作者**: Junqiao Fan, Haocong Rao, Jiarui Zhang, Jianfei Yang, Lihua Xie (南洋理工大学)  
 **代码**: 未公开  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: 毫米波雷达, 人体运动预测, 扩散模型, 频域表示, 双域融合
 
 ## 一句话总结
@@ -155,7 +155,7 @@ FDM在mm-Fi（点云更稀疏）上提升最为显著，S-Transformer使肢体�
 - [\[CVPR 2025\] SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction](../../CVPR2025/human_understanding/simmotionedit_text-based_human_motion_editing_with_motion_similarity_prediction.md)
 - [\[AAAI 2026\] Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction](spatiotemporal-untrammelled_mixture_of_experts_for_multi-person_motion_predictio.md)
 - [\[AAAI 2026\] SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control](soscontrol_enhancing_human_motion_generation_through_saliency-aware_symbolic_ori.md)
-- [\[AAAI 2026\] Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast](radar-aplanc_unsupervised_radar-based_heartbeat_sensing_via_augmented_pseudo-lab.md)
-- [\[AAAI 2026\] FineXtrol: Controllable Motion Generation via Fine-Grained Text](finextrol_controllable_motion_generation_via_fine-grained_text.md)
+- [\[CVPR 2025\] Stochastic Human Motion Prediction with Memory of Action Transition and Action Characteristic](../../CVPR2025/human_understanding/stochastic_human_motion_prediction_with_memory_of_action_transition_and_action_c.md)
+- [\[AAAI 2026\] Improving Sparse IMU-based Motion Capture with Motion Label Smoothing](improving_sparse_imu-based_motion_capture_with_motion_label_smoothing.md)
 
 <!-- RELATED:END -->

@@ -49,11 +49,11 @@ SCoTS 采用三阶段流程：(1) 学习时间距离保持的潜表示；(2) 基
 
    核心目标是将原始状态映射到潜空间 $\mathcal{Z}$，使欧氏距离近似最优时间距离。定义目标条件值函数：
 
-   $$V(\boldsymbol{s}, \boldsymbol{g}) \coloneqq -\|\phi(\boldsymbol{s}) - \phi(\boldsymbol{g})\|_2$$
+    $V(\boldsymbol{s}, \boldsymbol{g}) \coloneqq -\|\phi(\boldsymbol{s}) - \phi(\boldsymbol{g})\|_2$
 
    训练采用 IQL 启发的时间差分目标：
 
-   $$\mathcal{L}_\phi \coloneqq \mathbb{E}_{(\boldsymbol{s},\boldsymbol{a},\boldsymbol{s}',\boldsymbol{g})\sim\mathcal{D}}\left[\ell_\xi^2\left(-\mathbb{1}(\boldsymbol{s}\neq\boldsymbol{g}) - \gamma\|\bar{\phi}(\boldsymbol{s}')-\bar{\phi}(\boldsymbol{g})\|_2 + \|\phi(\boldsymbol{s})-\phi(\boldsymbol{g})\|_2\right)\right]$$
+    $\mathcal{L}_\phi \coloneqq \mathbb{E}_{(\boldsymbol{s},\boldsymbol{a},\boldsymbol{s}',\boldsymbol{g})\sim\mathcal{D}}\left[\ell_\xi^2\left(-\mathbb{1}(\boldsymbol{s}\neq\boldsymbol{g}) - \gamma\|\bar{\phi}(\boldsymbol{s}')-\bar{\phi}(\boldsymbol{g})\|_2 + \|\phi(\boldsymbol{s})-\phi(\boldsymbol{g})\|_2\right)\right]$
 
    设计动机：直接使用原始状态空间距离会忽略动态可达性，导致拼接出时间上不连贯的轨迹。学习到的潜空间虽非完美度量，但在**局部**检索可达候选片段的任务中足够可靠。
 
@@ -61,10 +61,10 @@ SCoTS 采用三阶段流程：(1) 学习时间距离保持的潜表示；(2) 基
 
    每条新轨迹随机采样一个初始片段和一个固定的潜空间探索方向 $\boldsymbol{z}$（单位向量）。在每次拼接迭代中：
 
-   - 通过 Top-K 近邻检索候选片段
-   - 计算**方向进展分数** $P_j = \langle \phi(\text{end}(\boldsymbol{\tau}_j)) - \phi(\boldsymbol{s}_{1,j}), \boldsymbol{z} \rangle$
-   - 计算**新颖性分数** $N_j$（基于粒子估计器估计端点相对于已访问状态的熵）
-   - 综合选择：$S_j = P_j + \beta N_j$
+    - 通过 Top-K 近邻检索候选片段
+    - 计算**方向进展分数** $P_j = \langle \phi(\text{end}(\boldsymbol{\tau}_j)) - \phi(\boldsymbol{s}_{1,j}), \boldsymbol{z} \rangle$
+    - 计算**新颖性分数** $N_j$（基于粒子估计器估计端点相对于已访问状态的熵）
+    - 综合选择：$S_j = P_j + \beta N_j$
 
    设计动机：单纯方向引导会导致覆盖有限（$\beta=0$），过高新颖性权重会丧失方向区分度（$\beta=20$），$\beta=2$ 实现了最佳平衡。
 
@@ -72,7 +72,7 @@ SCoTS 采用三阶段流程：(1) 学习时间距离保持的潜表示；(2) 基
 
    训练一个条件扩散模型 $p_\theta^{\text{stitcher}}$，以当前轨迹末端和候选片段末端为边界条件，生成中间过渡状态：
 
-   $$\boldsymbol{\tau}' \sim p_\theta^{\text{stitcher}}(\cdot \mid \boldsymbol{s}_1 = \text{end}(\boldsymbol{\tau}_{\text{comp}}), \boldsymbol{s}_H = \text{end}(\boldsymbol{\tau}_{\text{best}}))$$
+    $\boldsymbol{\tau}' \sim p_\theta^{\text{stitcher}}(\cdot \mid \boldsymbol{s}_1 = \text{end}(\boldsymbol{\tau}_{\text{comp}}), \boldsymbol{s}_H = \text{end}(\boldsymbol{\tau}_{\text{best}}))$
 
    设计动机：拼接点处可能存在微小的动态不一致，扩散模型能平滑过渡、确保动态可行性。
 
@@ -148,8 +148,8 @@ SCoTS 采用三阶段流程：(1) 学习时间距离保持的潜表示；(2) 基
 
 - [\[NeurIPS 2025\] Hierarchical Koopman Diffusion: Fast Generation with Interpretable Diffusion Trajectory](hierarchical_koopman_diffusion_fast_generation_with_interpretable_diffusion_traj.md)
 - [\[ICML 2025\] Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces](../../ICML2025/image_generation/diffuse_everything_multimodal_diffusion_models_on_arbitrary_state_spaces.md)
-- [\[ICCV 2025\] Long-Context State-Space Video World Models](../../ICCV2025/image_generation/long-context_state-space_video_world_models.md)
-- [\[ICML 2025\] Multidimensional Adaptive Coefficient for Inference Trajectory Optimization in Flow and Diffusion](../../ICML2025/image_generation/multidimensional_adaptive_coefficient_for_inference_trajectory_optimization_in_f.md)
 - [\[ICCV 2025\] Learning Few-Step Diffusion Models by Trajectory Distribution Matching](../../ICCV2025/image_generation/learning_few-step_diffusion_models_by_trajectory_distribution_matching.md)
+- [\[ICML 2025\] Multidimensional Adaptive Coefficient for Inference Trajectory Optimization in Flow and Diffusion](../../ICML2025/image_generation/multidimensional_adaptive_coefficient_for_inference_trajectory_optimization_in_f.md)
+- [\[ICML 2025\] Parameter-Efficient Fine-Tuning of State Space Models](../../ICML2025/image_generation/parameter-efficient_fine-tuning_of_state_space_models.md)
 
 <!-- RELATED:END -->

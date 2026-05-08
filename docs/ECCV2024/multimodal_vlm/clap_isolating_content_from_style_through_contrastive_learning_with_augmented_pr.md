@@ -8,7 +8,7 @@ tags:
   - 多模态
   - CLIP
   - 内容-风格解耦
-  - 对比学习
+  - 多模态VLM
   - 文本增强
   - 因果表征学习
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2311.16445](https://arxiv.org/abs/2311.16445)  
 **代码**: [YichaoCai1/CLAP](https://github.com/YichaoCai1/CLAP)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: CLIP, 内容-风格解耦, 对比学习, 文本增强, 因果表征学习
 
 ## 一句话总结
@@ -189,10 +189,10 @@ CLAP 在所有 prompt 形式和所有数据集上均超越 CLIP 和 Im.Aug。特
 
 ## 相关论文
 
-- [\[ECCV 2024\] X-Former: Unifying Contrastive and Reconstruction Learning for MLLMs](x-former_unifying_contrastive_and_reconstruction_learning_for_mllms.md)
-- [\[ECCV 2024\] AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization](addressclip_empowering_vision-language_models_for_city-wide_image_address_locali.md)
-- [\[ECCV 2024\] Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models](omniview-tuning_boosting_viewpoint_invariance_of_vision-language_pre-training_mo.md)
-- [\[ECCV 2024\] SpLIP: 通过多模态提示学习提升所有零样本草图检索任务](elevating_all_zero-shot_sketch-based_image_retrieval_through_multimodal_prompt_l.md)
 - [\[ECCV 2024\] MarvelOVD: 融合目标检测器与视觉语言模型实现鲁棒开放词汇目标检测](marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md)
+- [\[ECCV 2024\] SpLIP: 通过多模态提示学习提升所有零样本草图检索任务](elevating_all_zero-shot_sketch-based_image_retrieval_through_multimodal_prompt_l.md)
+- [\[ECCV 2024\] Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding](classact_active_learning.md)
+- [\[ECCV 2024\] MMBench: Is Your Multi-modal Model an All-Around Player?](mmbench_is_your_multi-modal_model_an_all-around_player.md)
+- [\[ECCV 2024\] X-Former: Unifying Contrastive and Reconstruction Learning for MLLMs](x-former_unifying_contrastive_and_reconstruction_learning_for_mllms.md)
 
 <!-- RELATED:END -->

@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.11925](https://arxiv.org/abs/2502.11925)  
 **代码**: 待开源  
-**领域**: image_generation / multimodal  
+**领域**: 图像生成  
 **关键词**: multimodal attributed graph, MLLM, graph linearization, hierarchical aligner, Q-Former, DreamLLM, Stable Diffusion
 
 ## 一句话总结
@@ -170,6 +170,6 @@ $$\mathcal{L} = \mathcal{L}_{MLLM}^{GraphGPT-o} + \mathcal{L}_{SD}^{GraphGPT-o}$
 - [\[CVPR 2025\] JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation](janusflow_harmonizing_autoregression_and_rectified_flow_for_unified_multimodal_u.md)
 - [\[NeurIPS 2025\] Janus-Pro-R1: Advancing Collaborative Visual Comprehension and Generation via Reinforcement Learning](../../NeurIPS2025/image_generation/janus-pro-r1_advancing_collaborative_visual_comprehension_and_generation_via_rei.md)
 - [\[ICCV 2025\] Video Motion Graphs](../../ICCV2025/image_generation/video_motion_graphs.md)
-- [\[CVPR 2025\] WeGen: A Unified Model for Interactive Multimodal Generation as We Chat](wegen_a_unified_model_for_interactive_multimodal_generation_as_we_chat.md)
+- [\[CVPR 2025\] TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation](tokenflow_unified_image_tokenizer_for_multimodal_understanding_and_generation.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.09176](https://arxiv.org/abs/2411.09176)  
-**代码**: https://github.com/ZhangLab-DeepNeuroCogLab/visual-forager  
+**代码**: [https://github.com/ZhangLab-DeepNeuroCogLab/visual-forager](https://github.com/ZhangLab-DeepNeuroCogLab/visual-forager)  
 **领域**: 强化学习  
 **关键词**: 视觉搜索、眼动建模、强化学习、注视策略、混合搜索
 
@@ -108,9 +108,9 @@ PPO强化学习，奖励信号为成功拾取目标的价值、步数惩罚$-0.0
 ## 相关论文
 
 - [\[CVPR 2025\] Decision SpikeFormer: Spike-Driven Transformer for Decision Making](decision_spikeformer_spike-driven_transformer_for_decision_making.md)
-- [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](../../NeurIPS2025/reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)
 - [\[ICML 2025\] Counterfactual Effect Decomposition in Multi-Agent Sequential Decision Making](../../ICML2025/reinforcement_learning/counterfactual_effect_decomposition_in_multi-agent_sequential_decision_making.md)
-- [\[NeurIPS 2025\] Inner Speech as Behavior Guides: Steerable Imitation of Diverse Behaviors for Human-AI Coordination](../../NeurIPS2025/reinforcement_learning/inner_speech_as_behavior_guides_steerable_imitation_of_diverse_behaviors_for_hum.md)
+- [\[ICML 2025\] Enhancing Decision-Making of Large Language Models via Actor-Critic](../../ICML2025/reinforcement_learning/enhancing_decision-making_of_large_language_models_via_actor-critic.md)
 - [\[NeurIPS 2025\] Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems](../../NeurIPS2025/reinforcement_learning/spatial-aware_decision-making_with_ring_attractors_in_reinforcement_learning_sys.md)
+- [\[NeurIPS 2025\] Structured Reinforcement Learning for Combinatorial Decision-Making](../../NeurIPS2025/reinforcement_learning/structured_reinforcement_learning_for_combinatorial_decision-making.md)
 
 <!-- RELATED:END -->

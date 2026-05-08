@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2507.21071](https://arxiv.org/abs/2507.21071)  
-**代码**: https://github.com/tsinghua-fib-lab/FingerTip-20K  
+**代码**: [https://github.com/tsinghua-fib-lab/FingerTip-20K](https://github.com/tsinghua-fib-lab/FingerTip-20K)  
 **领域**: Agent  
 **关键词**: mobile agent, proactive suggestion, personalized execution, GUI agent, benchmark
 

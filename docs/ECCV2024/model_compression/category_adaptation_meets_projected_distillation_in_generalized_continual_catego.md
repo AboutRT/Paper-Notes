@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2308.12112](https://arxiv.org/abs/2308.12112)  
 **代码**: [GitHub](https://github.com/grypesc/CAMP)  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: Generalized Continual Category Discovery, knowledge distillation, continual learning, Category Adaptation, Projected Distillation
 
 ## 一句话总结
@@ -171,6 +171,6 @@ $$\mathcal{L}_{PA} = \sum_{i \in B} \| \mathcal{F}^t(x_i) - \psi^{(t-1) \to t}(\
 - [\[CVPR 2026\] Learning through Creation: A Hash-Free Framework for On-the-Fly Category Discovery](../../CVPR2026/model_compression/learning_through_creation_a_hash-free_framework_for_on-the-fly_category_discover.md)
 - [\[ECCV 2024\] Anytime Continual Learning for Open Vocabulary Classification](anytime_continual_learning_for_open_vocabulary_classification.md)
 - [\[ECCV 2024\] Auto-DAS: Automated Proxy Discovery for Training-free Distillation-aware Architecture Search](auto-das_automated_proxy_discovery_for_training-free_distillation-aware_architec.md)
-- [\[AAAI 2026\] Break the Tie: Learning Cluster-Customized Category Relationships for Categorical Data Clustering](../../AAAI2026/model_compression/break_the_tie_learning_cluster-customized_category_relationships_for_categorical.md)
+- [\[ECCV 2024\] Adversarially Robust Distillation by Reducing the Student-Teacher Variance Gap](adversarially_robust_distillation_by_reducing_the_student-teacher_variance_gap.md)
 
 <!-- RELATED:END -->

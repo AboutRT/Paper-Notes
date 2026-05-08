@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - 层次强化学习
-  - 因果发现
+  - 强化学习
   - 子目标结构
   - 干预采样
   - 长时域稀疏奖励
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2507.04373](https://arxiv.org/abs/2507.04373)  
 **代码**: [GitHub](https://github.com/sadegh16/HRC)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 层次强化学习, 因果发现, 子目标结构, 干预采样, 长时域稀疏奖励
 
 ## 一句话总结
@@ -154,10 +154,10 @@ SSD 多边数远低于 SDI，总体 SHD 降低 38%。
 
 ## 相关论文
 
+- [\[ICML 2025\] Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals](hierarchical_reinforcement_learning_with_uncertainty-guided_diffusional_subgoals.md)
 - [\[ICML 2025\] Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning](graph-assisted_stitching_for_offline_hierarchical_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Confounding Robust Deep Reinforcement Learning: A Causal Approach](../../NeurIPS2025/reinforcement_learning/confounding_robust_deep_reinforcement_learning_a_causal_approach.md)
-- [\[NeurIPS 2025\] Structural Information-based Hierarchical Diffusion for Offline Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/structural_information-based_hierarchical_diffusion_for_offline_reinforcement_le.md)
 - [\[ICML 2025\] Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning](divide_and_conquer_grounding_llms_as_efficient_decision-making_agents_via_offlin.md)
-- [\[AAAI 2026\] HCPO: Hierarchical Conductor-Based Policy Optimization in Multi-Agent Reinforcement Learning](../../AAAI2026/reinforcement_learning/hcpo_hierarchical_conductor-based_policy_optimization_in_multi-agent_reinforceme.md)
+- [\[NeurIPS 2025\] Structural Information-based Hierarchical Diffusion for Offline Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/structural_information-based_hierarchical_diffusion_for_offline_reinforcement_le.md)
 
 <!-- RELATED:END -->

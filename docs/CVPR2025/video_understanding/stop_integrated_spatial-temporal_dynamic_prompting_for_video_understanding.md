@@ -123,6 +123,6 @@ $$\mathcal{L}_{act} = -\frac{1}{B}\sum_{i=1}^{B}\log\frac{e^{c(\mathbf{v}_i, \ma
 - [\[CVPR 2025\] DynFocus: Dynamic Cooperative Network Empowers LLMs with Video Understanding](dynfocus_dynamic_cooperative_network_empowers_llms_with_video_understanding.md)
 - [\[CVPR 2025\] Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Models](coarse_correspondences_boost_spatial-temporal_reasoning_in_multimodal_language_m.md)
 - [\[CVPR 2025\] VCBench: A Streaming Counting Benchmark for Spatial-Temporal State Maintenance in Long Videos](vcbench_a_streaming_counting_benchmark_for_spatial-temporal_state_maintenance_in.md)
-- [\[NeurIPS 2025\] In the Eye of MLLM: Benchmarking Egocentric Video Intent Understanding with Gaze-Guided Prompting](../../NeurIPS2025/video_understanding/in_the_eye_of_mllm_benchmarking_egocentric_video_intent_understanding_with_gaze-.md)
+- [\[CVPR 2025\] T*: Re-thinking Temporal Search for Long-Form Video Understanding](re-thinking_temporal_search_for_long-form_video_understanding.md)
 
 <!-- RELATED:END -->

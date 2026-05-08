@@ -14,7 +14,7 @@ tags:
 - **会议**: AAAI 2026
 - **arXiv**: [2403.07247](https://arxiv.org/abs/2403.07247)
 - **代码**: [https://github.com/OvO1111/GuideGen](https://github.com/OvO1111/GuideGen)
-- **领域**: 医学图像生成 / 3D CT 合成
+- **领域**: 医学图像
 - **关键词**: CT生成, 文本引导, 解剖掩码合成, 全躯干, 分类扩散模型, 高动态范围, 分割数据增强
 
 ## 一句话总结

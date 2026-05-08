@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.04526](https://arxiv.org/abs/2404.04526)  
-**代码**: https://datenerf.github.io/DATENeRF/ (项目页面)  
+**代码**: [https://datenerf.github.io/DATENeRF/](https://datenerf.github.io/DATENeRF/) (项目页面)  
 **领域**: 3D视觉  
 **关键词**: NeRF编辑, 扩散模型, 深度引导, 文本驱动3D编辑, 多视角一致性
 
@@ -51,17 +51,17 @@ tags:
 
 2. **深度条件化ControlNet编辑**：将NeRF渲染的深度图转换为视差图，作为ControlNet的条件信号，结合Blended Diffusion进行掩码区域内的文本引导修复：
 
-   $$I_k^e = \text{Blended-Diffusion}(\text{ControlNet}(I_k, D_k), M_k)$$
+    $I_k^e = \text{Blended-Diffusion}(\text{ControlNet}(I_k, D_k), M_k)$
 
    设计动机：与IN2N使用原始图像作为条件不同，深度条件使模型能生成与输入图像外观差异较大的内容（如将熊变成斑马），同时保持几何对齐。
 
 3. **投影修复方案 (Projection Inpainting)**：给定编辑后的参考视角 $I_{\text{ref}}^e$，利用NeRF深度将编辑后的像素重投影到其他视角：
 
-   $$I_k^p = R_{\text{ref} \to k}(I_{\text{ref}}^e), \quad M_k^{\text{vis}} = R_{\text{ref} \to k}(M_{\text{ref}})$$
+    $I_k^p = R_{\text{ref} \to k}(I_{\text{ref}}^e), \quad M_k^{\text{vis}} = R_{\text{ref} \to k}(M_{\text{ref}})$
 
    然而直接使用重投影像素会因几何误差和采样拉伸导致质量退化。为此提出**混合修复方案**：在扩散去噪的前 $N=5$ 步保留重投影像素（约束整体外观），后续步骤切换为完整掩码区域的修复（允许扩散模型修复遮挡区域和重投影伪影）。
 
-   $$I_k^e = \text{Blended-Diffusion}(\text{ControlNet}(I_k^p, D_k), M_k^p)$$
+    $I_k^e = \text{Blended-Diffusion}(\text{ControlNet}(I_k^p, D_k), M_k^p)$
 
    其中 $M_k^p = M_k \cdot (1 - M_k^{\text{vis}})$ 为需修复的遮挡区域。
 

@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.00518](https://arxiv.org/abs/2508.00518)  
 **代码**: [https://github.com/LaVi-Lab/EgoMask](https://github.com/LaVi-Lab/EgoMask)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: egocentric video, spatiotemporal grounding, pixel-level segmentation, benchmark, video understanding
 
 ## 一句话总结
@@ -151,6 +151,6 @@ Sa2VA 关键帧有效性影响：当前 5 帧不包含目标对象时，性能�
 - [\[ICML 2025\] Fine-Grained Captioning of Long Videos through Scene Graph Consolidation](../../ICML2025/video_understanding/fine-grained_captioning_of_long_videos_through_scene_graph_consolidation.md)
 - [\[ICCV 2025\] VideoMiner: Iteratively Grounding Key Frames of Hour-Long Videos via Tree-based Group Relative Policy Optimization](videominer_iteratively_grounding_key_frames_of_hour-long_videos_via_tree-based_g.md)
 - [\[ICCV 2025\] Beyond the Frame: Generating 360° Panoramic Videos from Perspective Videos](beyond_the_frame_generating_360deg_panoramic_videos_from_perspective_videos.md)
-- [\[ICCV 2025\] Moment Quantization for Video Temporal Grounding](moment_quantization_for_video_temporal_grounding.md)
+- [\[ECCV 2024\] AMEGO: Active Memory from Long EGOcentric Videos](../../ECCV2024/video_understanding/amego_active_memory_from_long_egocentric_videos.md)
 
 <!-- RELATED:END -->

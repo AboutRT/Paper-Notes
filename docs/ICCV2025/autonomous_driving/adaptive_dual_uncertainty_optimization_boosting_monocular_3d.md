@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.20488](https://arxiv.org/abs/2508.20488)  
-**代码**: https://github.com/hzcar/DUO (有)  
+**代码**: [https://github.com/hzcar/DUO](https://github.com/hzcar/DUO)  
 **领域**: 自动驾驶  
 **关键词**: 单目3D检测, 测试时自适应, 双重不确定性, 共轭焦点损失, 法线场约束
 

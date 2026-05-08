@@ -20,7 +20,7 @@ tags:
 **作者**: Xiong Peng, Bo Han, Fengfei Yu, Tongliang Liu, Feng Liu, Mingyuan Zhou
 **机构**: 香港浸会大学, 悉尼大学, 墨尔本大学, 德克萨斯大学奥斯汀分校
 **代码**: [tmlr-group/AlignMI](https://github.com/tmlr-group/AlignMI)  
-**领域**: 隐私安全 / 模型逆向攻击  
+**领域**: 图像生成  
 **关键词**: 模型逆向攻击, 流形假说, 梯度-流形对齐, GAN, 隐私安全
 
 ## 一句话总结

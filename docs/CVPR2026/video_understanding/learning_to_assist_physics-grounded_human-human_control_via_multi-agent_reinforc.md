@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.11346](https://arxiv.org/abs/2603.11346)  
 **代码**: [AssistMimic](https://yutoshibata07.github.io/AssistMimic/)  
-**领域**: video_understanding  
+**领域**: 视频理解  
 **关键词**: multi-agent reinforcement learning, physics-based character control, human-human interaction, assistive motion imitation, motion tracking
 
 ## 一句话总结

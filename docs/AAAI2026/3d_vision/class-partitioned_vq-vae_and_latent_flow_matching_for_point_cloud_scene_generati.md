@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2601.12391](https://arxiv.org/abs/2601.12391)  
 **代码**: [ddsediri/CPVQ-VAE-LFMM](https://github.com/ddsediri/CPVQ-VAE-LFMM)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: point cloud generation, scene generation, VQ-VAE, flow matching, codebook partitioning
 
 ## 一句话总结

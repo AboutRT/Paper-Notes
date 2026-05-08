@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12659](https://arxiv.org/abs/2603.12659)  
-**代码**: https://github.com/yuhu990424/AVION (有)  
+**代码**: [https://github.com/yuhu990424/AVION](https://github.com/yuhu990424/AVION)  
 **领域**: 遥感  
 **关键词**: 视觉-语言模型, 知识蒸馏, 参数高效微调, 遥感场景分类, 提示学习
 
@@ -133,7 +133,7 @@ AVION 采用教师-学生蒸馏架构：冻结的大型教师模型（GeoRSCLIP 
 - [\[CVPR 2026\] Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark](cross-modal_fuzzy_alignment_network_for_text-aerial_person_retrieval_and_a_large.md)
 - [\[CVPR 2026\] Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments](olbedo_an_albedo_and_shading_aerial_dataset_for_large-scale_outdoor_environments.md)
 - [\[CVPR 2026\] ACPV-Net: All-Class Polygonal Vectorization for Seamless Vector Map Generation from Aerial Imagery](acpv-net_all-class_polygonal_vectorization_for_seamless_vector_map_generation_fr.md)
-- [\[CVPR 2026\] Conflated Inverse Modeling for Urban Vegetation Patterns](conflated_inverse_urban_vegetation.md)
-- [\[CVPR 2026\] Asking like Socrates: Socrates helps VLMs understand remote sensing images](asking_like_socrates_socrates_helps_vlms_understand_remote_sensing_images.md)
+- [\[CVPR 2026\] Joint and Streamwise Distributed MIMO Satellite Communications with Multi-Antenna Ground Users](joint_and_streamwise_distributed_mimo_satellite_co.md)
+- [\[CVPR 2026\] Exploring Spatiotemporal Feature Propagation for Video-Level Compressive Spectral Reconstruction](exploring_spatiotemporal_feature_propagation_for_video-level_compressive_spectra.md)
 
 <!-- RELATED:END -->

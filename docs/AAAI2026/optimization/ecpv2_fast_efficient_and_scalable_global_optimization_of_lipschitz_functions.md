@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.16575](https://arxiv.org/abs/2511.16575)  
 **作者**: Fares Fourati (KAUST), Mohamed-Slim Alouini (KAUST), Vaneet Aggarwal (Purdue)  
 **代码**: [GitHub](https://github.com/fouratifares/ECP)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 全局优化, Lipschitz函数, 黑盒优化, 随机投影, no-regret  
 
 ## 一句话总结
@@ -135,6 +135,6 @@ $$\mathcal{R}_{\text{ECPv2},f}(n) \leq k \cdot \text{diam}(\mathcal{X}) \cdot \l
 - [\[AAAI 2026\] Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization](pareto-grid-guided_large_language_models_for_fast_and_high-quality_heuristics_de.md)
 - [\[NeurIPS 2025\] Efficient Adaptive Federated Optimization](../../NeurIPS2025/optimization/efficient_adaptive_federated_optimization.md)
 - [\[CVPR 2026\] BlazeFL: Fast and Deterministic Federated Learning Simulation](../../CVPR2026/optimization/blazefl_fast_and_deterministic_federated_learning_simulation.md)
-- [\[ICCV 2025\] Memory-Efficient 4-bit Preconditioned Stochastic Optimization](../../ICCV2025/optimization/memory-efficient_4-bit_preconditioned_stochastic_optimization.md)
+- [\[AAAI 2026\] Efficient and Reliable Hitting-Set Computations for the Implicit Hitting Set Approach](efficient_and_reliable_hitting-set_computations_for_the_implicit_hitting_set_app.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19307](https://arxiv.org/abs/2503.19307)  
-**代码**: https://github.com/delaprada/HandSynthesis  
+**代码**: [https://github.com/delaprada/HandSynthesis](https://github.com/delaprada/HandSynthesis)  
 **领域**: 人体理解 / 3D手势估计  
 **关键词**: 合成数据到真实域迁移, 3D手势估计, 域差距分析, 数据合成管线, 遮挡分析
 
@@ -134,9 +134,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] UniHOPE: A Unified Approach for Hand-Only and Hand-Object Pose Estimation](unihope_a_unified_approach_for_hand-only_and_hand-object_pose_estimation.md)
-- [\[CVPR 2025\] EgoPressure: A Dataset for Hand Pressure and Pose Estimation in Egocentric Vision](egopressure_a_dataset_for_hand_pressure_and_pose_estimation_in_egocentric_vision.md)
-- [\[CVPR 2025\] HiPART: Hierarchical Pose AutoRegressive Transformer for Occluded 3D Human Pose Estimation](hipart_hierarchical_pose_autoregressive_transformer_for_occluded_3d_human_pose_e.md)
 - [\[ECCV 2024\] 3D Hand Pose Estimation in Everyday Egocentric Images](../../ECCV2024/human_understanding/3d_hand_pose_estimation_in_everyday_egocentric_images.md)
-- [\[CVPR 2025\] Co-op: Correspondence-based Novel Object Pose Estimation](co-op_correspondence-based_novel_object_pose_estimation.md)
+- [\[CVPR 2025\] HiPART: Hierarchical Pose AutoRegressive Transformer for Occluded 3D Human Pose Estimation](hipart_hierarchical_pose_autoregressive_transformer_for_occluded_3d_human_pose_e.md)
+- [\[CVPR 2025\] Remote Photoplethysmography in Real-World and Extreme Lighting Scenarios](remote_photoplethysmography_in_real-world_and_extreme_lighting_scenarios.md)
+- [\[CVPR 2025\] Quaffure: Real-Time Quasi-Static Neural Hair Simulation](quaffure_real-time_quasi-static_neural_hair_simulation.md)
 
 <!-- RELATED:END -->

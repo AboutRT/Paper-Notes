@@ -2,10 +2,10 @@
 title: >-
   [论文解读] IF-GUIDE: Influence Function-Guided Detoxification of LLMs
 description: >-
-  [NeurIPS 2025][LLM去毒化] 提出 IF-Guide，利用影响函数在 token 粒度识别训练数据中的有毒内容，并通过惩罚式训练目标在预训练/微调阶段主动抑制模型学习有毒行为，显著优于 DPO 和 RAD 等被动对齐方法。
+  [NeurIPS 2025][社会计算] 提出 IF-Guide，利用影响函数在 token 粒度识别训练数据中的有毒内容，并通过惩罚式训练目标在预训练/微调阶段主动抑制模型学习有毒行为，显著优于 DPO 和 RAD 等被动对齐方法。
 tags:
   - NeurIPS 2025
-  - LLM去毒化
+  - 社会计算
   - 影响函数
   - 训练数据归因
   - token级抑制
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01790](https://arxiv.org/abs/2506.01790)  
 **代码**: [GitHub](https://github.com/ztcoalson/IF-Guide)  
-**领域**: llm_alignment  
+**领域**: 社会计算  
 **关键词**: LLM去毒化, 影响函数, 训练数据归因, token级抑制, 主动安全
 
 ## 一句话总结
@@ -157,10 +157,10 @@ IF-Guide 在隐性毒性上也优于 RAD，EMT 降低 2.2×、TP 降低 2.4×。
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Position Paper: If Innovation in AI Systematically Violates Fundamental Rights, Is It Innovation at All?](position_paper_if_innovation_in_ai_systematically_violates_fundamental_rights_is.md)
 - [\[NeurIPS 2025\] Auto-Search and Refinement: An Automated Framework for Gender Bias Mitigation in LLMs](auto-search_and_refinement_an_automated_framework_for_gender_bias_mitigation_in_.md)
+- [\[NeurIPS 2025\] Position Paper: If Innovation in AI Systematically Violates Fundamental Rights, Is It Innovation at All?](position_paper_if_innovation_in_ai_systematically_violates_fundamental_rights_is.md)
 - [\[CVPR 2025\] Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification](../../CVPR2025/social_computing/classifier-guided_clip_distillation_for_unsupervised_multi-label_classification.md)
 - [\[AAAI 2026\] FactGuard: Event-Centric and Commonsense-Guided Fake News Detection](../../AAAI2026/social_computing/factguard_event-centric_and_commonsense-guided_fake_news_detection.md)
-- [\[ACL 2025\] Exploring the Impact of Instruction-Tuning on LLMs' Susceptibility to Misinformation](../../ACL2025/social_computing/exploring_the_impact_of_instruction-tuning_on_llms_susceptibility_to_misinformat.md)
+- [\[ACL 2025\] BanStereoSet: A Dataset to Measure Stereotypical Social Biases in LLMs for Bangla](../../ACL2025/social_computing/banstereoset_a_dataset_to_measure_stereotypical_social_biases_in_llms_for_bangla.md)
 
 <!-- RELATED:END -->

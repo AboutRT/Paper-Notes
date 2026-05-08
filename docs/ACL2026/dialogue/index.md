@@ -2,7 +2,7 @@
 title: >-
   ACL2026 对话系统方向9篇论文解读
 description: >-
-  9篇ACL2026的对话系统方向论文解读，涵盖对话系统、情感分析、LLM、对齐/RLHF、Agent、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  9篇ACL2026的对话系统方向论文解读，涵盖对话系统、推理、强化学习、对齐/RLHF、情感分析、Agent等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,13 +10,13 @@ description: >-
 
 **💬 ACL2026** · **9** 篇论文解读
 
+**[Agentic Conversational Search with Contextualized Reasoning via Reinforcement Learning](agentic_conversational_search_with_contextualized_reasoning_via_reinforcement_le.md)**
+
+:   提出ConvAgent，通过将RL训练奖励分解为结果奖励、信息增益奖励和混合主动行为奖励三个互补组件，训练对话式搜索智能体在多轮交互中交替进行搜索和推理。
+
 **[Author-in-the-Loop Response Generation and Evaluation: Integrating Author Expertise and Intent in Responses to Peer Review](author-in-the-loop_response_generation_and_evaluation_integrating_author_experti.md)**
 
 :   本文将学术论文作者回复（rebuttal）生成重新定义为"作者在回路"任务，提出 Re3Align 数据集（3.4K 论文、440K 句级编辑标注、15K 审稿-回复-修改三元组）、REspGen 可控生成框架和 REspEval 20+ 指标评估套件，在 5 个 SOTA LLM 上系统验证了作者输入、可控性和评估引导精修的效果。
-
-**[Cognitive Policy-Driven LLM for Diagnosis and Intervention of Cognitive Distortions in Emotional Support Conversation](cognitive_policy-driven_llm_for_diagnosis_and_intervention_of_cognitive_distorti.md)**
-
-:   提出CoPoLLM框架，通过构建首个带认知扭曲标注的情感支持对话数据集CogBiasESC，结合认知策略强化学习（CPRL）引擎和双流条件优化（DSCO），使LLM能诊断8类认知扭曲并生成策略感知的干预回复，在15个SOTA基线上全面领先。
 
 **[Disambiguation-Centric Finetuning Makes Enterprise Tool-Calling LLMs More Realistic and Less Risky](disambiguation-centric_finetuning_makes_enterprise_tool-calling_llms_more_realis.md)**
 

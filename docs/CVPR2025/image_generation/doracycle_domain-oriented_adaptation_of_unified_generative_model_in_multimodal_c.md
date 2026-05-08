@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.03651](https://arxiv.org/abs/2503.03651)  
-**代码**: https://github.com/showlab/DoraCycle  
+**代码**: [https://github.com/showlab/DoraCycle](https://github.com/showlab/DoraCycle)  
 **领域**: 图像生成  
 **关键词**: 域适应、统一生成模型、循环一致性、无配对训练、多模态循环
 
@@ -118,6 +118,6 @@ $\mathcal{L} = \mathcal{L}_{real} + \mathcal{L}_{syn}$，T cycle 用 token-level
 - [\[CVPR 2025\] Everything to the Synthetic: Diffusion-driven Test-time Adaptation via Synthetic-Domain Alignment](everything_to_the_synthetic_diffusion-driven_test-time_adaptation_via_synthetic-.md)
 - [\[CVPR 2025\] TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation](tokenflow_unified_image_tokenizer_for_multimodal_understanding_and_generation.md)
 - [\[NeurIPS 2025\] Diffusion-Driven Progressive Target Manipulation for Source-Free Domain Adaptation](../../NeurIPS2025/image_generation/diffusion-driven_progressive_target_manipulation_for_source-free_domain_adaptati.md)
-- [\[CVPR 2025\] JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation](janusflow_harmonizing_autoregression_and_rectified_flow_for_unified_multimodal_u.md)
+- [\[CVPR 2025\] Generative Multimodal Pretraining with Discrete Diffusion Timestep Tokens](generative_multimodal_pretraining_with_discrete_diffusion_timestep_tokens.md)
 
 <!-- RELATED:END -->

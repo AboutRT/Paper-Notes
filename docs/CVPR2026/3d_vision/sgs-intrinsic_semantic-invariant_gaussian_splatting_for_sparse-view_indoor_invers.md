@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27516](https://arxiv.org/abs/2603.27516)  
-**代码**: https://github.com/GrumpySloths/SGS_Intrinsic.github.io  
+**代码**: [https://github.com/GrumpySloths/SGS_Intrinsic.github.io](https://github.com/GrumpySloths/SGS_Intrinsic.github.io)  
 **领域**: 3D视觉  
 **关键词**: 逆渲染, 稀疏视图, 高斯溅射, 材质分解, 室内场景
 

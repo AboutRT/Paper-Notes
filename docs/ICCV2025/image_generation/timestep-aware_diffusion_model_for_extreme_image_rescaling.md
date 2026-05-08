@@ -11,7 +11,7 @@ tags:
 
 > **会议**: ICCV 2025
 > **arXiv**: [2408.09151](https://arxiv.org/abs/2408.09151)
-> **领域**: 图像缩放·扩散模型·超分辨率
+> **领域**: 图像生成
 > **关键词**: image rescaling, timestep alignment, diffusion model, decoupled feature rescaling, extreme downscaling
 
 ## 一句话总结

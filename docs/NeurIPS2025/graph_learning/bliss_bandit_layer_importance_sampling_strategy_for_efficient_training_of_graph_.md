@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.22388](https://arxiv.org/abs/2512.22388)  
-**代码**: https://github.com/linhthi/BLISS-GNN  
+**代码**: [https://github.com/linhthi/BLISS-GNN](https://github.com/linhthi/BLISS-GNN)  
 **领域**: 图神经网络 / 高效训练  
 **关键词**: 图采样, 层级重要性采样, 多臂老虎机, GNN训练, 可扩展性
 

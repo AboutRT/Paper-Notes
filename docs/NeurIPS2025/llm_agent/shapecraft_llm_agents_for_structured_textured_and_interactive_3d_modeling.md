@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2510.17603](https://arxiv.org/abs/2510.17603)  
 **代码**: [GitHub](https://sanbingyouyong.github.io/shapecraft)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: text-to-3D, multi-agent, procedural modeling, shape program, Blender
 
 ## 一句话总结
@@ -168,6 +168,6 @@ ShapeCraft 在 IoGT、CLIP Score、VQA Pass Rate 三项最优，Hausdorff 距离
 - [\[NeurIPS 2025\] TrajAgent: An LLM-Agent Framework for Trajectory Modeling via Large-and-Small Model Collaboration](trajagent_an_llm-agent_framework_for_trajectory_modeling_via_large-and-small_mod.md)
 - [\[NeurIPS 2025\] Traj-CoA: Patient Trajectory Modeling via Chain-of-Agents for Lung Cancer Risk Prediction](traj-coa_patient_trajectory_modeling_via_chain-of-agents_for_lung_cancer_risk_pr.md)
 - [\[ACL 2025\] BookWorld: From Novels to Interactive Agent Societies for Story Creation](../../ACL2025/llm_agent/bookworld_from_novels_to_interactive_agent_societies_for_story_creation.md)
-- [\[ACL 2026\] CodeStruct: Code Agents over Structured Action Spaces](../../ACL2026/llm_agent/codestruct_code_agents_over_structured_action_spaces.md)
+- [\[NeurIPS 2025\] A-MEM: Agentic Memory for LLM Agents](a-mem_agentic_memory_for_llm_agents.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations
 description: >-
-  [NeurIPS 2025][知识蒸馏] 提出 CoD（Counterfactual-explanation-infused Distillation），通过将反事实解释注入少样本训练集来精确映射 teacher 决策边界，在 6 个数据集上仅用 8–512 样本即显著超越标准蒸馏方法。
+  [NeurIPS 2025][因果推理] 提出 CoD（Counterfactual-explanation-infused Distillation），通过将反事实解释注入少样本训练集来精确映射 teacher 决策边界，在 6 个数据集上仅用 8–512 样本即显著超越标准蒸馏方法。
 tags:
   - NeurIPS 2025
-  - 知识蒸馏
+  - 因果推理
   - Counterfactual Explanation
   - few-shot learning
   - LLM Compression
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21631](https://arxiv.org/abs/2510.21631)  
 **代码**: [FaisalHamman/CoD](https://github.com/FaisalHamman/CoD)  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: knowledge distillation, Counterfactual Explanation, few-shot learning, LLM Compression, Decision Boundary
 
 ## 一句话总结
@@ -165,8 +165,8 @@ $$\mathcal{L} = \mathcal{L}_{\text{hard}} + \alpha \cdot \mathcal{L}_{\text{KD}}
 
 - [\[AAAI 2026\] KTCF: Actionable Recourse in Knowledge Tracing via Counterfactual Explanations for Education](../../AAAI2026/causal_inference/ktcf_actionable_recourse_in_knowledge_tracing_via_counterfactual_explanations_fo.md)
 - [\[NeurIPS 2025\] Root Cause Analysis of Outliers with Missing Structural Knowledge](root_cause_analysis_of_outliers_with_missing_structural_knowledge.md)
-- [\[NeurIPS 2025\] Performative Validity of Recourse Explanations](performative_validity_of_recourse_explanations.md)
 - [\[ACL 2025\] Counterfactual Explanations for Aspect-Based Sentiment Analysis](../../ACL2025/causal_inference/counterfactual_explanations_for_aspect-based_sentiment_analysis.md)
-- [\[NeurIPS 2025\] Practical do-Shapley Explanations with Estimand-Agnostic Causal Inference](practical_do-shapley_explanations_with_estimand-agnostic_causal_inference.md)
+- [\[NeurIPS 2025\] Performative Validity of Recourse Explanations](performative_validity_of_recourse_explanations.md)
+- [\[ICLR 2026\] On the Eligibility of LLMs for Counterfactual Reasoning: A Decompositional Study](../../ICLR2026/causal_inference/on_the_eligibility_of_llms_for_counterfactual_reasoning_a_decompositional_study.md)
 
 <!-- RELATED:END -->

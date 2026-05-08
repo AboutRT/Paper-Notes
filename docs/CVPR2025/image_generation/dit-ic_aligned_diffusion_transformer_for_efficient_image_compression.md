@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.13162](https://arxiv.org/abs/2603.13162)  
-**代码**: https://njuvision.github.io/DiT-IC/  
+**代码**: [https://njuvision.github.io/DiT-IC/](https://njuvision.github.io/DiT-IC/)  
 **领域**: 图像压缩 / 扩散模型  
 **关键词**: 扩散 Transformer, 图像压缩, 单步推理, 方差引导, 自蒸馏
 

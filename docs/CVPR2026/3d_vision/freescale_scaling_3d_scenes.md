@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.10512](https://arxiv.org/abs/2604.10512)  
-**代码**: https://mvp-ai-lab.github.io/FreeScale  
+**代码**: [https://mvp-ai-lab.github.io/FreeScale](https://mvp-ai-lab.github.io/FreeScale)  
 **领域**: 3D视觉  
 **关键词**: 新视角合成, 数据增强, 3D高斯溅射, 前馈重建, 确定性采样
 

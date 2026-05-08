@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - topic model evaluation
   - proxy annotator
-  - LLM evaluation
+  - 其他
   - document clustering
   - qualitative content analysis
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.00828](https://arxiv.org/abs/2507.00828)  
 **代码**: [github.com/ahoho/proxann](https://github.com/ahoho/proxann)  
-**领域**: 主题模型评估  
+**领域**: 其他  
 **关键词**: topic model evaluation, proxy annotator, LLM evaluation, document clustering, qualitative content analysis  
 
 ## 一句话总结
@@ -126,9 +126,9 @@ LLM使用凝缩的指令和相同的样本文档执行相同任务，Fit Step使
 ## 相关论文
 
 - [\[ACL 2025\] Using Shapley Interactions to Understand How Models Use Structure](using_shapley_interactions_to_understand_how_models_use_structure.md)
-- [\[ACL 2025\] S2WTM: Spherical Sliced-Wasserstein Autoencoder for Topic Modeling](s2wtm_spherical_sliced-wasserstein_autoencoder_for_topic_modeling.md)
-- [\[ACL 2025\] MDCure: A Scalable Pipeline for Multi-Document Instruction-Following](mdcure_a_scalable_pipeline_for_multi-document_instruction-following.md)
 - [\[ACL 2025\] Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling](understanding_cross-domain_adaptation_in_low-resource_topic_modeling.md)
 - [\[ACL 2025\] Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries](dpp_diverse_multidoc_summary.md)
+- [\[ACL 2025\] SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning](sorft_issue_resolving_with_subtask-oriented_reinforced_fine-tuning.md)
+- [\[ACL 2025\] Rank, Chunk, and Expand: Lineage-Oriented Reasoning for Taxonomy Expansion](rank_chunk_and_expand_lineage-oriented_reasoning_for_taxonomy_expansion.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - AAAI 2026
   - 多模态
   - 动态神经元扰动
-  - 层次强化学习
+  - 多模态VLM
   - 推理时干预
   - 因果追踪
   - 自适应掩码
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.18623](https://arxiv.org/abs/2512.18623)  
 **代码**: 即将开源  
-**领域**: LLM安全 / 幻觉缓解  
+**领域**: 多模态VLM  
 **关键词**: 动态神经元扰动, 层次强化学习, 推理时干预, 因果追踪, 自适应掩码  
 
 ## 一句话总结
@@ -123,10 +123,10 @@ PPO 优化两级策略网络。掩码参数 $\theta_{\text{mask}}$ 和 RL 策略
 
 ## 相关论文
 
-- [\[CVPR 2025\] Octopus: Alleviating Hallucination via Dynamic Contrastive Decoding](../../CVPR2025/multimodal_vlm/octopus_alleviating_hallucination_via_dynamic_contrastive_decoding.md)
 - [\[AAAI 2026\] Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models](cross-modal_unlearning_via_influential_neuron_path_editing_i.md)
+- [\[CVPR 2025\] Octopus: Alleviating Hallucination via Dynamic Contrastive Decoding](../../CVPR2025/multimodal_vlm/octopus_alleviating_hallucination_via_dynamic_contrastive_decoding.md)
 - [\[ICLR 2026\] Dynamic Multimodal Activation Steering for Hallucination Mitigation in Large Vision-Language Models](../../ICLR2026/multimodal_vlm/dynamic_multimodal_activation_steering_for_hallucination_mitigation_in_large_vis.md)
 - [\[NeurIPS 2025\] Metacognitive Sensitivity for Test-Time Dynamic Model Selection](../../NeurIPS2025/multimodal_vlm/metacognitive_sensitivity_for_test-time_dynamic_model_selection.md)
-- [\[NeurIPS 2025\] RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](../../NeurIPS2025/multimodal_vlm/rtv-bench_benchmarking_mllm_continuous_perception_understanding_and_reasoning_th.md)
+- [\[AAAI 2026\] SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models](sdeval_safety_dynamic_evaluation_for_multimodal_large_language_models.md)
 
 <!-- RELATED:END -->

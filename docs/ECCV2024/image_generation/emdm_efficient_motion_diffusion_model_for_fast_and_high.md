@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.02256](https://arxiv.org/abs/2312.02256)  
-**代码**: https://github.com/Frank-ZY-Dou/EMDM (有)  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/Frank-ZY-Dou/EMDM](https://github.com/Frank-ZY-Dou/EMDM)  
+**领域**: 图像生成  
 **关键词**: motion generation, diffusion model, GAN, text-to-motion, efficient sampling
 
 ## 一句话总结

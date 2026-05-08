@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.19495](https://arxiv.org/abs/2403.19495)  
-**代码**: https://people.engr.tamu.edu/nimak/Papers/CoherentGS (项目页面)  
+**代码**: [https://people.engr.tamu.edu/nimak/Papers/CoherentGS](https://people.engr.tamu.edu/nimak/Papers/CoherentGS) (项目页面)  
 **领域**: 3D视觉  
 **关键词**: 稀疏视图合成, 3D高斯分裂, 隐式解码器, 深度初始化, 正则化优化
 

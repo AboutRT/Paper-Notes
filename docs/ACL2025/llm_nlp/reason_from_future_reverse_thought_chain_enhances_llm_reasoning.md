@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.03673](https://arxiv.org/abs/2506.03673)  
 **代码**: 无  
-**领域**: LLM推理  
+**领域**: LLM/NLP  
 **关键词**: 逆向推理, 双向思维链, 搜索空间缩减, 目标驱动推理, Chain-of-Thought
 
 ## 一句话总结
@@ -179,6 +179,6 @@ RFF 用 Llama3-8B 达到 89%，超越 GPT-4+CR(n=1) 的 84%，且访问状态数
 - [\[ACL 2025\] LR²Bench: Evaluating Long-chain Reflective Reasoning Capabilities of Large Language Models via Constraint Satisfaction Problems](lr2bench_evaluating_long-chain_reflective_reasoning_capabilities_of_large_langua.md)
 - [\[ACL 2025\] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions](a_survey_of_large_language_models_in_psychotherapy_current_landscape_and_future_.md)
 - [\[ACL 2025\] Structural Reasoning Improves Molecular Understanding of LLM](structural_reasoning_improves_molecular_understanding_of_llm.md)
-- [\[ACL 2025\] Stepwise Reasoning Disruption Attack of LLMs](stepwise_reasoning_disruption_attack_of_llms.md)
+- [\[ACL 2025\] Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering](contrastive_prompting_embeddings.md)
 
 <!-- RELATED:END -->

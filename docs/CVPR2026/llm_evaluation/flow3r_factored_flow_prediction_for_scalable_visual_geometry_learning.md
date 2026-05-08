@@ -7,7 +7,7 @@ tags:
   - CVPR2026
   - visual geometry
   - factored flow
-  - 3D重建
+  - LLM评测
   - unlabeled video
   - correspondence learning
   - dynamic scenes
@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.20157](https://arxiv.org/abs/2602.20157)  
 **代码**: [flow3r-project.github.io](https://flow3r-project.github.io/)  
-**领域**: others (3D视觉 / 多视图重建)  
+**领域**: LLM评测  
 **关键词**: visual geometry, factored flow, 3D reconstruction, unlabeled video, correspondence learning, dynamic scenes
 
 ## 一句话总结
@@ -158,8 +158,8 @@ Flow3r 在全部 4 个动态数据集的全部指标上取得最优，位姿和�
 
 - [\[CVPR 2026\] Reframing Long-Tailed Learning via Loss Landscape Geometry](reframing_long-tailed_learning_via_loss_landscape_geometry.md)
 - [\[CVPR 2026\] Free-Grained Hierarchical Visual Recognition](free-grained_hierarchical_visual_recognition.md)
-- [\[AAAI 2026\] LLM-as-a-Judge for Scalable Test Coverage Evaluation](../../AAAI2026/llm_evaluation/llm-as-a-judge_for_scalable_test_coverage_evaluation_accuracy_operational_reliab.md)
-- [\[AAAI 2026\] Scalable Vision-Guided Crop Yield Estimation](../../AAAI2026/llm_evaluation/scalable_vision-guided_crop_yield_estimation.md)
 - [\[CVPR 2026\] Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score](semi-supervised_conformal_prediction_with_unlabeled_nonconformity_score.md)
+- [\[AAAI 2026\] LLM-as-a-Judge for Scalable Test Coverage Evaluation](../../AAAI2026/llm_evaluation/llm-as-a-judge_for_scalable_test_coverage_evaluation_accuracy_operational_reliab.md)
+- [\[AAAI 2026\] BCWildfire: A Long-term Multi-factor Dataset and Deep Learning Benchmark for Boreal Wildfire Risk Prediction](../../AAAI2026/llm_evaluation/bcwildfire_a_long-term_multi-factor_dataset_and_deep_learning_benchmark_for_bore.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.16024](https://arxiv.org/abs/2503.16024)  
-**代码**: https://github.com/rhyang2021/CGI  
+**代码**: [https://github.com/rhyang2021/CGI](https://github.com/rhyang2021/CGI)  
 **领域**: Agent  
 **关键词**: 自然语言反馈, Actor-Critic, 迭代精炼, 交互式环境, Agent训练
 

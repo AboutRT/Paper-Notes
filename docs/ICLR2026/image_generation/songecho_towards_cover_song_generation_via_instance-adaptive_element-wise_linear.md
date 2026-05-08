@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.19976](https://arxiv.org/abs/2602.19976)  
 **代码**: [GitHub](https://github.com/lsfhuihuiff/SongEcho_ICLR2026)  
-**领域**: 音乐生成 / 扩散模型 / 可控生成  
+**领域**: 图像生成  
 **关键词**: 翻唱歌曲生成, FiLM, 元素级线性调制, 旋律控制, 参数高效
 
 ## 一句话总结

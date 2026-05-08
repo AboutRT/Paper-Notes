@@ -18,7 +18,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.16465](https://arxiv.org/abs/2503.16465)  
-**代码**: https://github.com/Wuzheng02/OS-Kairos  
+**代码**: [https://github.com/Wuzheng02/OS-Kairos](https://github.com/Wuzheng02/OS-Kairos)  
 **领域**: LLM Agent / GUI 自动化  
 **关键词**: GUI Agent, 置信度驱动交互, 人机协作, 过度执行, 自适应交互, 协作探测框架
 

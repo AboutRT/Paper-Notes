@@ -1,14 +1,14 @@
 ---
 title: >-
-  NeurIPS2025 推荐系统方向22篇论文解读
+  NeurIPS2025 推荐系统方向24篇论文解读
 description: >-
-  22篇NeurIPS2025的推荐系统方向论文解读，涵盖 LLM、推荐系统、人脸/视线、个性化生成、对齐/RLHF、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  24篇NeurIPS2025的推荐系统方向论文解读，涵盖 LLM、推荐系统、人脸/视线、个性化生成、对齐/RLHF、推理等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎁 推荐系统
 
-**🧠 NeurIPS2025** · **22** 篇论文解读
+**🧠 NeurIPS2025** · **24** 篇论文解读
 
 **[ASAP: An Agentic Solution to Auto-Optimize Performance of Large-Scale LLM Training](asap_an_agentic_solution_to_auto-optimize_performance_of_large-scale_llm_trainin.md)**
 
@@ -25,6 +25,10 @@ description: >-
 **[Estimating Hitting Times Locally At Scale](estimating_hitting_times_locally_at_scale.md)**
 
 :   提出两种局部（亚线性）算法估计图上的命中时间——基于相遇时间的 Algorithm 1 和基于谱截断的 Algorithm 3，无需全图访问仅通过以 $u,v$ 为中心的短随机游走完成估计，在合成和真实图上相对误差 <1.4%，并证明了游走采样的最优样本复杂度下界。
+
+**[FACE: A General Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens](face_a_general_framework_for_mapping_collaborative_filtering_embeddings_into_llm.md)**
+
+:   FACE 提出将协同过滤（CF）嵌入通过解纠缠投影 + 残差量化映射为 LLM 预训练 token（描述符），再用对比学习对齐语义，无需微调 LLM 即可实现 CF 嵌入的语义解读和推荐性能增强。
 
 **[Inference-Time Reward Hacking in Large Language Models](inference-time_reward_hacking_in_large_language_models.md)**
 
@@ -61,6 +65,10 @@ description: >-
 **[Radial Neighborhood Smoothing Recommender System](radial_neighborhood_smoothing_recommender_system.md)**
 
 :   提出 Radial Neighborhood Estimator (RNE)，通过将隐空间距离用观测矩阵的行/列 L2 范数近似估计，构建同时包含重叠和部分重叠用户-物品对的径向邻域，用局部核回归做平滑插补，在理论保证和实验中均优于传统协同过滤和矩阵分解方法，并天然缓解冷启动问题。
+
+**[Semantic Retrieval Augmented Contrastive Learning for Sequential Recommendation](semantic_retrieval_augmented_contrastive_learning_for_sequential_recommendation.md)**
+
+:   提出SRA-CL框架，利用LLM的语义理解能力构建高质量对比样本对，通过语义检索+可学习样本合成器增强序列推荐的对比学习，以即插即用的方式在4个数据集上取得SOTA。
 
 **[The Coming Crisis of Multi-Agent Misalignment: AI Alignment Must Be a Dynamic and Social Process](the_coming_crisis_of_multi-agent_misalignment_ai_alignment_must_be_a_dynamic_and.md)**
 

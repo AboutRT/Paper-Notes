@@ -19,7 +19,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.04002](https://arxiv.org/abs/2603.04002)  
-**代码**: [https://github.com/mrazhou/DPAD](https://github.com/mrazhou/DPAD) (有)  
+**代码**: [https://github.com/mrazhou/DPAD](https://github.com/mrazhou/DPAD)  
 **领域**: 推理分割  
 **关键词**: [推理分割, 强化学习, GRPO, 判别性感知, CLIP, 锚定描述, 奖励设计]  
 

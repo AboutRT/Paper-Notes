@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2510.11092](https://arxiv.org/abs/2510.11092)  
 **代码**: [LogosRoboticsGroup/SeerDrive](https://github.com/LogosRoboticsGroup/SeerDrive)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: end-to-end driving, world model, BEV, trajectory planning, iterative refinement
 
 ## 一句话总结

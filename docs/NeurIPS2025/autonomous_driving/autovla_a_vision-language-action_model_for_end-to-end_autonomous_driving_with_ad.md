@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.13757](https://arxiv.org/abs/2506.13757)  
-**代码**: https://autovla.github.io/ (有)  
+**代码**: [https://autovla.github.io/](https://autovla.github.io/)  
 **领域**: 自动驾驶 / 多模态VLM  
 **关键词**: 视觉语言动作模型, 端到端自动驾驶, 动作token化, 强化微调, 自适应推理
 

@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.01183](https://arxiv.org/abs/2511.01183)  
-**代码**: https://github.com/ (未提供)  
-**领域**: 代码生成 / 神经编译  
+**代码**: [https://github.com/](https://github.com/) (未提供)  
+**领域**: 视频理解  
 **关键词**: 神经编译, LLM, IR到汇编翻译, 自进化提示优化, 编译器
 
 ## 一句话总结

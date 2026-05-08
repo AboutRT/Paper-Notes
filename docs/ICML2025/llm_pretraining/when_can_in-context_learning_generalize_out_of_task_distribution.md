@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - in-context learning
-  - out-of-distribution generalization
+  - LLM预训练
   - task diversity
   - phase transition
   - linear regression
@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.05574](https://arxiv.org/abs/2506.05574)  
 **代码**: [GitHub](https://github.com/cwgoddard/OOD_ICL)  
-**领域**: LLM/NLP  
+**领域**: LLM预训练  
 **关键词**: in-context learning, out-of-distribution generalization, task diversity, phase transition, linear regression, transformer, specialization
 
 ## 一句话总结
@@ -177,7 +177,7 @@ $$\hat{w} = \frac{\int dw \, p(w) w \prod_{k=1}^{n-1} p(y_k | x_k, w)}{\int dw \
 - [\[ACL 2025\] Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning](../../ACL2025/llm_pretraining/data_whisperer_data_selection.md)
 - [\[ICML 2025\] In-Context Adaptation to Concept Drift for Learned Database Operations](in-context_adaptation_to_concept_drift_for_learned_database_operations.md)
 - [\[ECCV 2024\] Prompting Language-Informed Distribution for Compositional Zero-Shot Learning](../../ECCV2024/llm_pretraining/prompting_language-informed_distribution_for_compositional_zero-shot_learning.md)
-- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](../../NeurIPS2025/llm_pretraining/ricl_temporal_credit.md)
-- [\[NeurIPS 2025\] Quantifying Task-Relevant Representational Similarity Using Decision Variable Correlation](../../NeurIPS2025/llm_pretraining/quantifying_task-relevant_representational_similarity_using_decision_variable_co.md)
+- [\[NeurIPS 2025\] The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation](../../NeurIPS2025/llm_pretraining/the_atlas_of_in-context_learning_how_attention_heads_shape_in-context_retrieval_.md)
+- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](../../NeurIPS2025/llm_pretraining/retrospective_incontext_learning_for_temporal_credit_assignm.md)
 
 <!-- RELATED:END -->

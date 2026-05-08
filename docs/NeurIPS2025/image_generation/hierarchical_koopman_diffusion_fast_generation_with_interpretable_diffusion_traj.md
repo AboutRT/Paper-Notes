@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.12220](https://arxiv.org/abs/2510.12220)  
 **作者**: Hanru Bai (Fudan University), Weiyang Ding (Fudan University), Difan Zou (The University of Hong Kong)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 扩散模型加速, 一步生成, Koopman算子, 可解释生成, 层次化动力学, 谱分析  
 
 ## 一句话总结

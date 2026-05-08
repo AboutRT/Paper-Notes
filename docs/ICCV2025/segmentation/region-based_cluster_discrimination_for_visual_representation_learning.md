@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.20025](https://arxiv.org/abs/2507.20025)  
 **代码**: [GitHub](https://github.com/deepglint/MVT)  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: 区域表示学习, 聚类判别, OCR感知, 视觉编码器, 多模态大语言模型
 
 ## 一句话总结

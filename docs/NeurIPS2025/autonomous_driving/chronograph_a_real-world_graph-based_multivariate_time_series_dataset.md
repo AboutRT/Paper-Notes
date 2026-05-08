@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2509.04449](https://arxiv.org/abs/2509.04449)  
 **代码**: [https://github.com/bit-ml/ChronoGraph](https://github.com/bit-ml/ChronoGraph)  
-**领域**: autonomous_driving / time_series  
+**领域**: 自动驾驶  
 **关键词**: 微服务遥测, 图时间序列, 异常检测, 真实世界数据集, 服务依赖图  
 
 ## 一句话总结

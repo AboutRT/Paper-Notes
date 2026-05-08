@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.09338](https://arxiv.org/abs/2506.09338)  
-**代码**: http://young-j-park.github.io/know-what-you-dont-know  
+**代码**: [http://young-j-park.github.io/know-what-you-dont-know](http://young-j-park.github.io/know-what-you-dont-know)  
 **领域**: LLM推理  
 **关键词**: 过程奖励模型, 校准, 分位数回归, 推理时缩放, 自适应采样
 

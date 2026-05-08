@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research
 description: >-
-  [NeurIPS 2025][AI研究代理] 提出 MLR-Bench，一个包含 201 个开放式 ML 研究任务的综合基准，配套 MLR-Judge（LLM 评审框架）和 MLR-Agent（模块化研究代理），发现当前最先进的编码代理在约 80% 的情况下会生成伪造或未验证的实验结果，揭示了 AI 自动化科学研究的核心瓶颈。
+  [NeurIPS 2025][代码智能] 提出 MLR-Bench，一个包含 201 个开放式 ML 研究任务的综合基准，配套 MLR-Judge（LLM 评审框架）和 MLR-Agent（模块化研究代理），发现当前最先进的编码代理在约 80% 的情况下会生成伪造或未验证的实验结果，揭示了 AI 自动化科学研究的核心瓶颈。
 tags:
   - NeurIPS 2025
-  - AI研究代理
+  - 代码智能
   - benchmark
   - LLM评审
   - 自动化科学发现
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.19955](https://arxiv.org/abs/2505.19955)  
 **代码**: [https://github.com/chchenhui/mlrbench](https://github.com/chchenhui/mlrbench)  
-**领域**: llm_nlp  
+**领域**: 代码智能  
 **关键词**: AI研究代理, benchmark, LLM评审, 自动化科学发现, 实验结果幻觉
 
 ## 一句话总结
@@ -174,9 +174,9 @@ MLR-Bench 包含三个核心组件和两种评估模式：
 
 ## 相关论文
 
-- [\[ACL 2025\] FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](../../ACL2025/code_intelligence/feabench_repo_code_gen.md)
 - [\[ACL 2025\] UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](../../ACL2025/code_intelligence/utboost_rigorous_evaluation_of_coding_agents_on_swe-bench.md)
 - [\[ICLR 2026\] InnoGym: Benchmarking the Innovation Potential of AI Agents](../../ICLR2026/code_intelligence/innogym_benchmarking_the_innovation_potential_of_ai_agents.md)
+- [\[ACL 2025\] FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation](../../ACL2025/code_intelligence/feabench_repo_code_gen.md)
 - [\[ACL 2026\] CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases](../../ACL2026/code_intelligence/codewiki_evaluating_ai39s_ability_to_generate_holistic_documentation_for_large-s.md)
 - [\[ICLR 2026\] ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code](../../ICLR2026/code_intelligence/shieldedcode_learning_robust_representations_for_virtual_machine_protected_code.md)
 

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2603.15563](https://arxiv.org/abs/2603.15563)  
 **代码**: [https://pokeagentchallenge.com](https://pokeagentchallenge.com)  
-**领域**: LLM Agent / Game AI / Benchmark  
+**领域**: LLM效率  
 **关键词**: 游戏AI基准, 宝可梦对战, 长期规划, 强化学习, LLM Agent
 
 ## 一句话总结
@@ -174,9 +174,9 @@ PokéAgent Challenge 包含两个互补赛道：
 ## 相关论文
 
 - [\[NeurIPS 2025\] Technical Debt in In-Context Learning: Diminishing Efficiency in Long Context](technical_debt_in_in-context_learning_diminishing_efficiency_in_long_context.md)
+- [\[NeurIPS 2025\] Scale-invariant Attention](scale-invariant_attention.md)
 - [\[ACL 2025\] On Many-Shot In-Context Learning for Long-Context Evaluation](../../ACL2025/llm_efficiency/on_many-shot_in-context_learning_for_long-context_evaluation.md)
 - [\[NeurIPS 2025\] Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures](mozart_modularized_and_efficient_moe_training_on_35d_wafer-scale_chiplet_archite.md)
-- [\[NeurIPS 2025\] Learning in Compact Spaces with Approximately Normalized Transformer](learning_in_compact_spaces_with_approximately_normalized_transformer.md)
 - [\[NeurIPS 2025\] Hierarchical Balance Packing: Towards Efficient Supervised Fine-tuning for Long-Context LLM](hierarchical_balance_packing_towards_efficient_supervised_fine-tuning_for_long-c.md)
 
 <!-- RELATED:END -->

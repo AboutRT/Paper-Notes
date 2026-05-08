@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Maximum Coverage in Turnstile Streams with Applications to Fingerprinting Measures
 description: >-
-  [ICML2025][maximum coverage] 首次在 turnstile 流模型（支持任意插入/删除）下给出最大覆盖问题的单遍流算法，空间 $\tilde{O}(d/\varepsilon^3)$、更新时间 $\tilde{O}(1)$，并将其推广到隐私指纹识别（fingerprinting）场景，实验比先前方法快 210×。
+  [ICML2025][其他] 首次在 turnstile 流模型（支持任意插入/删除）下给出最大覆盖问题的单遍流算法，空间 $\tilde{O}(d/\varepsilon^3)$、更新时间 $\tilde{O}(1)$，并将其推广到隐私指纹识别（fingerprinting）场景，实验比先前方法快 210×。
 tags:
   - ICML2025
-  - maximum coverage
+  - 其他
   - turnstile streaming
   - linear sketch
   - fingerprinting
@@ -126,9 +126,9 @@ $$\text{草图大小} = \tilde{O}(\gamma^{-2/(p-1)}), \quad \text{近似比} = (
 ## 相关论文
 
 - [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
-- [\[ICML 2025\] Improved Generalization Bounds for Transductive Learning by Transductive Local Complexity and Its Applications](improved_generalization_bounds_for_transductive_learning_by_transductive_local_c.md)
 - [\[NeurIPS 2025\] Emergency Response Measures for Catastrophic AI Risk](../../NeurIPS2025/others/emergency_response_measures_for_catastrophic_ai_risk.md)
-- [\[ICLR 2026\] Exchangeability of GNN Representations with Applications to Graph Retrieval](../../ICLR2026/others/exchangeability_gnn_representations.md)
+- [\[ICML 2025\] Improved Generalization Bounds for Transductive Learning by Transductive Local Complexity and Its Applications](improved_generalization_bounds_for_transductive_learning_by_transductive_local_c.md)
 - [\[CVPR 2026\] IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](../../CVPR2026/others/irisfp_adversarial-example-based_model_fingerprinting_with_enhanced_uniqueness_a.md)
+- [\[ICLR 2026\] CaDrift: A Time-dependent Causal Generator of Drifting Data Streams](../../ICLR2026/others/cadrift_a_time-dependent_causal_generator_of_drifting_data_streams.md)
 
 <!-- RELATED:END -->

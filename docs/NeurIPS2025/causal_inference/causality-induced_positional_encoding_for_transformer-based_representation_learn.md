@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - positional encoding
   - causal structure learning
-  - hyperbolic embedding
+  - 因果推理
   - rotary position encoding
   - multi-omics
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.16629](https://arxiv.org/abs/2509.16629)  
-**代码**: https://github.com/Catchxu/CAPE  
+**代码**: [https://github.com/Catchxu/CAPE](https://github.com/Catchxu/CAPE)  
 **领域**: 因果推断 / Transformer  
 **关键词**: positional encoding, causal structure learning, hyperbolic embedding, rotary position encoding, multi-omics
 

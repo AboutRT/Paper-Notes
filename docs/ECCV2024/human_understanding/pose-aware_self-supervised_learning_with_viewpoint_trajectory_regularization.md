@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.14973](https://arxiv.org/abs/2403.14973)  
-**代码**: http://pwang.pw/trajSSL/ (有)  
+**代码**: [http://pwang.pw/trajSSL/](http://pwang.pw/trajSSL/)  
 **领域**: 人体理解  
 **关键词**: 自监督学习, 姿态估计, 视角轨迹正则化, 几何表征, 对比学习
 
@@ -145,10 +145,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICLR 2026\] Soft Equivariance Regularization for Invariant Self-Supervised Learning](../../ICLR2026/human_understanding/soft_equivariance_regularization_for_invariant_self-supervised_learning.md)
 - [\[ECCV 2024\] VideoClusterNet: Self-Supervised and Adaptive Face Clustering for Videos](videoclusternet_self-supervised_and_adaptive_face_clustering_for_videos.md)
 - [\[ECCV 2024\] Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection](self-supervised_feature_adaptation_for_3d_industrial_anomaly_detection.md)
-- [\[ECCV 2024\] Cut Out the Middleman: Revisiting Pose-Based Gait Recognition](cut_out_the_middleman_revisiting_pose-based_gait_recognition.md)
-- [\[ECCV 2024\] ADen: Adaptive Density Representations for Sparse-view Camera Pose Estimation](aden_adaptive_density_representations_for_sparseview_camera.md)
+- [\[CVPR 2025\] FSFM: A Generalizable Face Security Foundation Model via Self-Supervised Facial Representation Learning](../../CVPR2025/human_understanding/fsfm_a_generalizable_face_security_foundation_model_via_self-supervised_facial_r.md)
+- [\[ECCV 2024\] TRAM: Global Trajectory and Motion of 3D Humans from in-the-wild Videos](tram_global_trajectory_and_motion_of_3d_humans_from_in-the-wild_videos.md)
+- [\[CVPR 2025\] Structure-Aware Correspondence Learning for Relative Pose Estimation](../../CVPR2025/human_understanding/structure-aware_correspondence_learning_for_relative_pose_estimation.md)
 
 <!-- RELATED:END -->

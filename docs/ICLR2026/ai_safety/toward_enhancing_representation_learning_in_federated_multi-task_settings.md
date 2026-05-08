@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2602.01626](https://arxiv.org/abs/2602.01626)  
 **代码**: 有（补充材料提供）  
 **机构**: Huawei Noah's Ark Lab, Montreal
-**领域**: 联邦学习/表示学习  
+**领域**: AI安全  
 **关键词**: 联邦多任务学习, 对比学习, Muscle损失, 模型异构, 互信息最大化
 
 ## 一句话总结
@@ -158,6 +158,6 @@ $$I(\bm{z}_i^n; \{\bm{z}_i^m\}_{m \neq n}) \geq (N-1)\log(B) - \mathbb{E}\mathca
 - [\[ICCV 2025\] Active Membership Inference Test (aMINT): Enhancing Model Auditability with Multi-Task Learning](../../ICCV2025/ai_safety/active_membership_inference_test_amint_enhancing_model_audit.md)
 - [\[ICLR 2026\] Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective](adaptive_methods_are_preferable_in_high_privacy_settings_an_sde_perspective.md)
 - [\[AAAI 2026\] CoRe-Fed: Bridging Collaborative and Representation Fairness via Federated Embedding Distillation](../../AAAI2026/ai_safety/core-fed_bridging_collaborative_and_representation_fairness_via_federated_embedd.md)
-- [\[ICLR 2026\] Traceable Black-box Watermarks for Federated Learning](traceable_black-box_watermarks_for_federated_learning.md)
+- [\[ICLR 2026\] Sample-Efficient Distributionally Robust Multi-Agent Reinforcement Learning via Online Interaction](sample-efficient_distributionally_robust_multi-agent_reinforcement_learning_via_.md)
 
 <!-- RELATED:END -->

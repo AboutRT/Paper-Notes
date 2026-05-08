@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.11481](https://arxiv.org/abs/2403.11481)  
-**代码**: https://github.com/YueFan1014/VideoAgent (有)  
+**代码**: [https://github.com/YueFan1014/VideoAgent](https://github.com/YueFan1014/VideoAgent)  
 **领域**: LLM Agent / 视频理解  
 **关键词**: 视频理解Agent, 结构化记忆, 多模态工具使用, 长视频理解, LLM Agent
 
@@ -193,6 +193,6 @@ VideoAgent 是一个**零样本框架**，无需针对特定任务训练：
 - [\[ECCV 2024\] Agent3D-Zero: An Agent for Zero-shot 3D Understanding](agent3d-zero_an_agent_for_zero-shot_3d_understanding.md)
 - [\[CVPR 2026\] Think, Then Verify: A Hypothesis-Verification Multi-Agent Framework for Long Video Understanding](../../CVPR2026/llm_agent/think_then_verify_a_hypothesis-verification_multi-agent_framework_for_long_video.md)
 - [\[CVPR 2026\] Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search](../../CVPR2026/llm_agent/haven_hierarchical_long_video_understanding_audiovisual_entity.md)
-- [\[CVPR 2026\] HAVEN: Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search](../../CVPR2026/llm_agent/haven_hierarchical_long_video_understanding_with_audiovisual_entity_cohesion.md)
+- [\[ICLR 2026\] VideoMind: A Chain-of-LoRA Agent for Temporal-Grounded Video Understanding](../../ICLR2026/llm_agent/videomind_a_chain-of-lora_agent_for_temporal-grounded_video_understanding.md)
 
 <!-- RELATED:END -->

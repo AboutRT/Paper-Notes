@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.02425](https://arxiv.org/abs/2512.02425)  
-**代码**: https://worldmm.github.io  
+**代码**: [https://worldmm.github.io](https://worldmm.github.io)  
 **领域**: 视频理解 / LLM Agent / 长视频推理  
 **关键词**: 多模态记忆、长视频理解、自适应检索、知识图谱、多时间尺度
 

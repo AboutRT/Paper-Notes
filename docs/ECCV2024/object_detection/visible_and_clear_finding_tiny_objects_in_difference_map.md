@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2405.11276](https://arxiv.org/abs/2405.11276)  
-**代码**: https://github.com/Hiyuur/SR-TOD (有)  
+**代码**: [https://github.com/Hiyuur/SR-TOD](https://github.com/Hiyuur/SR-TOD)  
 **领域**: 目标检测  
 **关键词**: 微小目标检测, 自重建, 差异图, 特征增强, 反无人机
 
@@ -177,10 +177,10 @@ AI-TOD 数据集结果：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] The Complexity of Finding Local Optima in Contrastive Learning](../../NeurIPS2025/object_detection/the_complexity_of_finding_local_optima_in_contrastive_learning.md)
 - [\[ECCV 2024\] GRA: Detecting Oriented Objects Through Group-Wise Rotating and Attention](gra_detecting_oriented_objects_through_group-wise_rotating_and_attention.md)
 - [\[CVPR 2026\] Saliency-R1: Enforcing Interpretable and Faithful Vision-language Reasoning via Saliency-map Alignment Reward](../../CVPR2026/object_detection/saliency-r1_enforcing_interpretable_and_faithful_vision-language_reasoning_via_s.md)
-- [\[CVPR 2026\] Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images](../../CVPR2026/object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md)
-- [\[CVPR 2025\] Any6D: Model-free 6D Pose Estimation of Novel Objects](../../CVPR2025/object_detection/any6d_model-free_6d_pose_estimation_of_novel_objects.md)
+- [\[CVPR 2025\] Small Target Detection Based on Mask-Enhanced Attention Fusion of Visible and Infrared Remote Sensing Images](../../CVPR2025/object_detection/small_target_detection_based_on_mask-enhanced_attention_fusion_of_visible_and_in.md)
+- [\[CVPR 2026\] Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](../../CVPR2026/object_detection/show_dont_tell_detecting_novel_objects_by_watching.md)
+- [\[CVPR 2026\] Detecting Unknown Objects via Energy-Based Separation for Open World Object Detection](../../CVPR2026/object_detection/detecting_unknown_objects_via_energy-based_separation.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2509.17328](https://arxiv.org/abs/2509.17328)  
 **代码**: [GitHub](https://github.com/ZJULiHongxin/UIPro)  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: GUI 智能体, 统一动作空间, GUI grounding, 视觉语言模型, 多平台交互
 
 ## 一句话总结

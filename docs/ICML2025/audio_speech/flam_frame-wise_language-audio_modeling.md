@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - 语音
-  - 开放词汇声音事件检测
+  - 音频语音
   - 帧级对比学习
   - logit调整
   - 音频语言对齐
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.05335](https://arxiv.org/abs/2505.05335)  
 **代码**: [flam-model.github.io](https://flam-model.github.io/)  
-**领域**: 音频语言模型 / 声音事件检测  
+**领域**: 音频语音  
 **关键词**: 开放词汇声音事件检测, 帧级对比学习, logit调整, 音频语言对齐, 数据增强
 
 ## 一句话总结
@@ -150,9 +150,9 @@ FLAM 在检索任务上与 FLAM-Global 性能接近（AudioCaps T2A R@1: 32.1 vs
 ## 相关论文
 
 - [\[NeurIPS 2025\] Efficient Speech Language Modeling via Energy Distance in Continuous Latent Space](../../NeurIPS2025/audio_speech/efficient_speech_language_modeling_via_energy_distance_in_continuous_latent_spac.md)
-- [\[ICLR 2026\] FlexiCodec: A Dynamic Neural Audio Codec for Low Frame Rates](../../ICLR2026/audio_speech/flexicodec_a_dynamic_neural_audio_codec_for_low_frame_rates.md)
 - [\[ICCV 2025\] Everything is a Video: Unifying Modalities through Next-Frame Prediction](../../ICCV2025/audio_speech/everything_is_a_video_unifying_modalities_through_next-frame_prediction.md)
-- [\[ACL 2025\] Towards Reliable Large Audio Language Model](../../ACL2025/audio_speech/towards_reliable_large_audio_language_model.md)
 - [\[ACL 2025\] Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models](../../ACL2025/audio_speech/audio_dialogue_benchmark.md)
+- [\[ICLR 2026\] FlexiCodec: A Dynamic Neural Audio Codec for Low Frame Rates](../../ICLR2026/audio_speech/flexicodec_a_dynamic_neural_audio_codec_for_low_frame_rates.md)
+- [\[ACL 2025\] Who Can Withstand Chat-Audio Attacks? An Evaluation Benchmark for Large Audio-Language Models](../../ACL2025/audio_speech/who_can_withstand_chat-audio_attacks_an_evaluation_benchmark_for_large_audio-lan.md)
 
 <!-- RELATED:END -->

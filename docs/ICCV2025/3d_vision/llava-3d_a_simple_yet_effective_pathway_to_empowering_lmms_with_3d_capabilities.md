@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2409.18125](https://arxiv.org/abs/2409.18125)  
-**代码**: https://zcmax.github.io/projects/LLaVA-3D  
+**代码**: [https://zcmax.github.io/projects/LLaVA-3D](https://zcmax.github.io/projects/LLaVA-3D)  
 **领域**: 3D视觉 / 多模态VLM  
 **关键词**: 3D场景理解, 大型多模态模型, 3D Patch, 位置编码, 视觉定位
 

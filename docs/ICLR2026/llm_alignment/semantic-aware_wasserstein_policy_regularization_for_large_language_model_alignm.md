@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.01685](https://arxiv.org/abs/2602.01685)  
-**代码**: https://github.com/aailab-kaist/WPR (有)  
+**代码**: [https://github.com/aailab-kaist/WPR](https://github.com/aailab-kaist/WPR)  
 **领域**: 对齐RLHF  
 **关键词**: Wasserstein距离, RLHF正则化, 语义感知, 最优传输, Sinkhorn算法
 

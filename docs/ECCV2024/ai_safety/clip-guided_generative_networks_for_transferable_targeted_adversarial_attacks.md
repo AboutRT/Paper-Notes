@@ -19,7 +19,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.10179](https://arxiv.org/abs/2407.10179)  
 **代码**: [ffhibnese/CGNC_Targeted_Adversarial_Attacks](https://github.com/ffhibnese/CGNC_Targeted_Adversarial_Attacks)  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: adversarial attack, targeted transferability, CLIP, generative model, cross-attention, multi-target attack
 
 ## 一句话总结
@@ -152,10 +152,10 @@ CLIP 文本嵌入和交叉注意力模块各自贡献显著，完整 CGNC 在 DN
 
 ## 相关论文
 
-- [\[ICML 2025\] X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](../../ICML2025/ai_safety/x-transfer_attacks_towards_super_transferable_adversarial_attacks_on_clip.md)
 - [\[AAAI 2026\] Rethinking Target Label Conditioning in Adversarial Attacks: A 2D Tensor-Guided Generative Approach](../../AAAI2026/ai_safety/rethinking_target_label_conditioning_in_adversarial_attacks_a_2d_tensor-guided_g.md)
 - [\[ECCV 2024\] Any Target Can Be Offense: Adversarial Example Generation via Generalized Latent Infection](any_target_can_be_offense_adversarial_example_generation_via_generalized_latent_.md)
+- [\[ICLR 2026\] Robust Spiking Neural Networks Against Adversarial Attacks](../../ICLR2026/ai_safety/robust_spiking_neural_networks_against_adversarial_attacks.md)
 - [\[ECCV 2024\] Resilience of Entropy Model in Distributed Neural Networks](resilience_of_entropy_model_in_distributed_neural_networks.md)
-- [\[ECCV 2024\] Unveiling Privacy Risks in Stochastic Neural Networks Training: Effective Image Reconstruction from Gradients](unveiling_privacy_risks_in_stochastic_neural_networks_training_effective_image_r.md)
+- [\[AAAI 2026\] Transferable Backdoor Attacks for Code Models via Sharpness-Aware Adversarial Perturbation](../../AAAI2026/ai_safety/transferable_backdoor_attacks_for_code_models_via_sharpness-aware_adversarial_pe.md)
 
 <!-- RELATED:END -->

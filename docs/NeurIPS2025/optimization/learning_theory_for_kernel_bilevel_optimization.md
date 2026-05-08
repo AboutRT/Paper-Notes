@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2502.08457](https://arxiv.org/abs/2502.08457)  
 **作者**: Fares El Khoury (INRIA/Université Grenoble Alpes), Edouard Pauwels (Toulouse School of Economics), Samuel Vaiter (CNRS/Université Côte d'Azur), Michael Arbel (INRIA/Université Grenoble Alpes)  
 **代码**: [fareselkhoury/KBO](https://github.com/fareselkhoury/KBO)  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: 双层优化, 核方法, 泛化理论, RKHS, 经验过程, U-process, 隐式微分  
 
 ## 一句话总结
@@ -151,8 +151,8 @@ $\lambda$同时控制：(1) 内层强凸性常数；(2) 内层解的有界性和
 
 - [\[NeurIPS 2025\] An Adaptive Algorithm for Bilevel Optimization on Riemannian Manifolds](an_adaptive_algorithm_for_bilevel_optimization_on_riemannian_manifolds.md)
 - [\[NeurIPS 2025\] Problem-Parameter-Free Decentralized Bilevel Optimization](problem-parameter-free_decentralized_bilevel_optimization.md)
-- [\[NeurIPS 2025\] Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive Regularization](kernel_learning_with_adversarial_features_numerical_efficiency_and_adaptive_regu.md)
 - [\[NeurIPS 2025\] Set Smoothness Unlocks Clarke Hyper-stationarity in Bilevel Optimization](set_smoothness_unlocks_clarke_hyper-stationarity_in_bilevel_optimization.md)
+- [\[NeurIPS 2025\] Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive Regularization](kernel_learning_with_adversarial_features_numerical_efficiency_and_adaptive_regu.md)
 - [\[NeurIPS 2025\] A Single-Loop First-Order Algorithm for Linearly Constrained Bilevel Optimization](a_single-loop_first-order_algorithm_for_linearly_constrained_bilevel_optimizatio.md)
 
 <!-- RELATED:END -->

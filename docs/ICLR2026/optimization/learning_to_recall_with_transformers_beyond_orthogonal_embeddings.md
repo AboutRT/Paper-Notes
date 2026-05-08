@@ -56,8 +56,8 @@ tags:
 1. **Token 检索任务的形式化**:
 
    给定长度为 L 的 token 序列，其中恰好有一个"信息 token"（informative token），模型需要：
-   - 通过注意力机制识别并选择这个信息 token
-   - 学习从该 token 到对应标签的映射
+    - 通过注意力机制识别并选择这个信息 token
+    - 学习从该 token 到对应标签的映射
 
    这个任务捕捉了 LLM 中事实检索的核心计算结构：在上下文中找到相关信息并正确输出。
 
@@ -74,9 +74,9 @@ tags:
    成功检索所需条件大致为：$N \cdot d \cdot L$ 满足特定的缩放关系
 
    具体来说：
-   - **样本量 N**：需要足够多的样本来学习 token-标签映射
-   - **嵌入维度 d**：更高维度减少 token 间干扰，提高存储容量
-   - **序列长度 L**：更长序列增加了注意力选择的难度
+    - **样本量 N**：需要足够多的样本来学习 token-标签映射
+    - **嵌入维度 d**：更高维度减少 token 间干扰，提高存储容量
+    - **序列长度 L**：更长序列增加了注意力选择的难度
 
    三者之间的乘法耦合是非正交嵌入的直接后果——在正交嵌入下，这些因素可以独立分析。
 
@@ -161,7 +161,7 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated learning](../../CVPR2026/optimization/scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md)
+- [\[CVPR 2026\] SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated Learning](../../CVPR2026/optimization/scope_semantic_coreset_with_orthogonal_projection.md)
 - [\[ICLR 2026\] Markovian Transformers for Informative Language Modeling](markovian_transformers_for_informative_language_modeling.md)
 - [\[ICLR 2026\] The Affine Divergence: Aligning Activation Updates Beyond Normalisation](the_affine_divergence_aligning_activation_updates_beyond_normalisation.md)
 - [\[AAAI 2026\] Beyond the Mean: Fisher-Orthogonal Projection for Natural Gradient Descent in Large Batch Training](../../AAAI2026/optimization/beyond_the_mean_fisher-orthogonal_projection_for_natural_gradient_descent_in_lar.md)

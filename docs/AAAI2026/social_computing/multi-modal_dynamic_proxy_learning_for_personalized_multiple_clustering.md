@@ -7,7 +7,7 @@ tags:
   - AAAI 2026
   - 多重聚类
   - 跨模态融合
-  - 代理学习
+  - 社会计算
   - 动态候选词管理
   - CLIP
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.07274](https://arxiv.org/abs/2511.07274)  
 **代码**: 无（论文提到Supplementary Material中有匿名代码仓库）  
-**领域**: 多模态VLM  
+**领域**: 社会计算  
 **关键词**: 多重聚类, 跨模态融合, 代理学习, 动态候选词管理, CLIP
 
 ## 一句话总结
@@ -174,9 +174,9 @@ $$\mathcal{L} = \underbrace{\frac{1}{D}\sum_{i=1}^{D}(1-\cos(\mathbf{f}_i, \math
 ## 相关论文
 
 - [\[AAAI 2026\] Cross-modal Prompting for Balanced Incomplete Multi-modal Emotion Recognition](cross-modal_prompting_for_balanced_incomplete_multi-modal_emotion_recognition.md)
+- [\[ICCV 2025\] Learning Visual Proxy for Compositional Zero-Shot Learning](../../ICCV2025/social_computing/learning_visual_proxy_for_compositional_zero-shot_learning.md)
+- [\[ECCV 2024\] Multi-Label Cluster Discrimination for Visual Representation Learning](../../ECCV2024/social_computing/multi-label_cluster_discrimination_for_visual_representation_learning.md)
 - [\[AAAI 2026\] SceneJailEval: A Scenario-Adaptive Multi-Dimensional Framework for Jailbreak Evaluation](scenejaileval_a_scenario-adaptive_multi-dimensional_framework_for_jailbreak_eval.md)
 - [\[AAAI 2026\] Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion](beyond_detection_exploring_evidence-based_multi-agent_debate_for_misinformation_.md)
-- [\[NeurIPS 2025\] Evaluating Multiple Models Using Labeled and Unlabeled Data](../../NeurIPS2025/social_computing/evaluating_multiple_models_using_labeled_and_unlabeled_data.md)
-- [\[ACL 2025\] Evaluation of LLM Vulnerabilities to Being Misused for Personalized Disinformation Generation](../../ACL2025/social_computing/llm_personalized_disinformation.md)
 
 <!-- RELATED:END -->

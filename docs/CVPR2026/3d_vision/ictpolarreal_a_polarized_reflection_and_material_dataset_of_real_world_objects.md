@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.24912](https://arxiv.org/abs/2603.24912)  
-**代码**: https://jingyangcarl.github.io/ICTPolarReal (项目页)  
+**代码**: [https://jingyangcarl.github.io/ICTPolarReal](https://jingyangcarl.github.io/ICTPolarReal) (项目页)  
 **领域**: 3D视觉  
 **关键词**: 偏振成像, 材质数据集, 逆渲染, 反射分离, Light Stage
 

@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2303.10371](https://arxiv.org/abs/2303.10371)  
 **作者**: Liang Yan, Shengzhong Zhang, Bisheng Li, Menglin Yang, Chen Yang, Min Zhou, Weiyang Ding, Yutong Xie, Zengfeng Huang (Fudan University, HKUST(GZ), MBZUAI, Logs AI)
 **代码**: [yanliang3612/UNREAL](https://github.com/yanliang3612/UNREAL)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: geometric imbalance, semi-supervised node classification, self-training, pseudo-label, GNN, Riemannian manifold
 
 ## 一句话总结
@@ -149,7 +149,7 @@ $$G(u^j) = \frac{\|\tilde{h}_{u^j}^{(l)} - \tilde{\mu}_{y^{u^j}}\|^2}{\sum_{\mat
 - [\[NeurIPS 2025\] Uncertain Knowledge Graph Completion via Semi-Supervised Confidence Distribution Learning](uncertain_knowledge_graph_completion_via_semi-supervised_confidence_distribution.md)
 - [\[NeurIPS 2025\] PKD: Preference-driven Knowledge Distillation for Few-shot Node Classification](preference-driven_knowledge_distillation_for_few-shot_node_classification.md)
 - [\[AAAI 2026\] Posterior Label Smoothing for Node Classification](../../AAAI2026/graph_learning/posterior_label_smoothing_for_node_classification.md)
-- [\[NeurIPS 2025\] Self-Supervised Discovery of Neural Circuits in Spatially Patterned Neural Responses with Graph Neural Networks](self-supervised_discovery_of_neural_circuits_in_spatially_patterned_neural_respo.md)
 - [\[NeurIPS 2025\] Logical Expressiveness of Graph Neural Networks with Hierarchical Node Individualization](logical_expressiveness_of_graph_neural_networks_with_hierarchical_node_individua.md)
+- [\[NeurIPS 2025\] Self-Supervised Discovery of Neural Circuits in Spatially Patterned Neural Responses with Graph Neural Networks](self-supervised_discovery_of_neural_circuits_in_spatially_patterned_neural_respo.md)
 
 <!-- RELATED:END -->

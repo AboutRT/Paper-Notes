@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.19793](https://arxiv.org/abs/2505.19793)  
-**代码**: https://github.com/KLMAV-CUC/GDB-NeRF (有)  
+**代码**: [https://github.com/KLMAV-CUC/GDB-NeRF](https://github.com/KLMAV-CUC/GDB-NeRF)  
 **领域**: 3D视觉  
 **关键词**: 新视角合成, 泛化NeRF, 束采样, 深度引导, 高效渲染
 

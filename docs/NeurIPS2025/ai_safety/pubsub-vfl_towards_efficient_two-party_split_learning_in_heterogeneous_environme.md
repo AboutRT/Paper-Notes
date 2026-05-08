@@ -46,11 +46,11 @@ PubSub-VFL通过三层设计解决上述问题：(1) 使用Pub/Sub架构实现**
 1. **发布/订阅架构与通道设计**: 引入嵌入通道和梯度通道两类通信通道。每个训练batch分配唯一的batch ID用于标记通道，使worker可以独立地向对应通道发布/订阅中间结果，无需等待对方。对于 $n$ 个样本和batch大小 $B$，系统维护 $\lceil n/B \rceil$ 个通道。为防止通道拥塞，设计了**缓冲机制**（FIFO淘汰过期数据，容量为 $p$ 个embedding/$q$ 个gradient）和**等待截止时间机制**（超时 $T_{ddl}$ 未收到数据则丢弃当前batch并重新分配）。
 
 2. **党内半异步机制**: 在PS框架内进一步引入自适应同步间隔，定义为：
-   $$\Delta T_t = \left\lceil \frac{\Delta T_0}{2} \cdot \tanh\left(\frac{2t}{\Delta T_0} - 2\right) + \frac{\Delta T_0}{2} \right\rceil$$
+    $\Delta T_t = \left\lceil \frac{\Delta T_0}{2} \cdot \tanh\left(\frac{2t}{\Delta T_0} - 2\right) + \frac{\Delta T_0}{2} \right\rceil$
    其中 $\Delta T_0$ 是初始间隔，$t$ 是当前训练轮次。训练初期间隔短以保证稳定学习，随精度提升逐渐增大间隔减少同步频率。与Pub/Sub的党间异步共同构成分层异步机制。
 
 3. **系统画像与动态规划优化**: 对双方的计算和通信延迟建模：前向传播时间 $T_f^{(a)}(B) = \frac{\lambda_a B^{\gamma_a} w_a}{C_a}$，后向传播类似。优化目标为最小化双方的最大迭代时间：
-   $$\min \mathcal{O}(w_A, w_P, B) = \min_{w_a, w_p, B \leq B_{max}} \left\{ \max(T_A, T_P) \right\}$$
+    $\min \mathcal{O}(w_A, w_P, B) = \min_{w_a, w_p, B \leq B_{max}} \left\{ \max(T_A, T_P) \right\}$
    受内存约束 $B_{max} = \min\left\{\left(\frac{\bar{M}_A - M_{A0}}{\rho_A}\right)^{1/\chi}, \left(\frac{\bar{M}_P - M_{P0}}{\rho_P}\right)^{1/\chi}\right\}$。使用动态规划在离散空间 $(w_a, w_p, B)$ 中搜索最优配置。
 
 ### 隐私保护
@@ -140,9 +140,9 @@ PubSub-VFL通过三层设计解决上述问题：(1) 使用Pub/Sub架构实现**
 ## 相关论文
 
 - [\[NeurIPS 2025\] DictPFL: Efficient and Private Federated Learning on Encrypted Gradients](dictpfl_efficient_and_private_federated_learning_on_encrypted_gradients.md)
-- [\[NeurIPS 2025\] FedRW: Efficient Privacy-Preserving Data Reweighting for Enhancing Federated Learning of Language Models](fedrw_efficient_privacy-preserving_data_reweighting_for_enhancing_federated_lear.md)
 - [\[AAAI 2026\] Matrix-Free Two-to-Infinity and One-to-Two Norms Estimation](../../AAAI2026/ai_safety/matrix-free_two-to-infinity_and_one-to-two_norms_estimation.md)
 - [\[ECCV 2024\] Fisher Calibration for Backdoor-Robust Heterogeneous Federated Learning](../../ECCV2024/ai_safety/fisher_calibration_for_backdoor-robust_heterogeneous_federated_learning.md)
 - [\[CVPR 2025\] Split Adaptation for Pre-trained Vision Transformers](../../CVPR2025/ai_safety/split_adaptation_for_pre-trained_vision_transformers.md)
+- [\[NeurIPS 2025\] Efficient Verified Machine Unlearning for Distillation](efficient_verified_machine_unlearning_for_distillation.md)
 
 <!-- RELATED:END -->

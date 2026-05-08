@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2406.05516](https://arxiv.org/abs/2406.05516)  
-**代码**: [https://github.com/xingbpshen/agentic-reasoning-vpgm](https://github.com/xingbpshen/agentic-reasoning-vpgm) (有)  
+**代码**: [https://github.com/xingbpshen/agentic-reasoning-vpgm](https://github.com/xingbpshen/agentic-reasoning-vpgm)  
 **领域**: LLM推理 / Agent  
 **关键词**: 贝叶斯推理, 概率图模型, LLM Agent, 不确定性校准, 置信度估计  
 

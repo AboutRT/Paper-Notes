@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - KV cache compression
+  - 多模态VLM
   - 视觉语言
   - elite observation window
   - adaptive budget allocation
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 无  
 **代码**: 无  
-**领域**: 多模态大语言模型效率  
+**领域**: 多模态VLM  
 **关键词**: KV cache compression, vision-language model, elite observation window, adaptive budget allocation, attention analysis
 
 ## 一句话总结
@@ -108,8 +108,8 @@ AirCache在prefill完成后介入KV缓存存储过程，包含两个组件：(1)
 
 - [\[ICCV 2025\] Scaling Inference-Time Search with Vision Value Model for Improved Visual Comprehension](scaling_inferencetime_search_with_vision_value_model_for_imp.md)
 - [\[ICCV 2025\] Vision-Language Models Can't See the Obvious](vision-language_models_cant_see_the_obvious.md)
-- [\[ICCV 2025\] The Inter-Intra Modal Measure: A Predictive Lens on Fine-Tuning Outcomes in Vision-Language Models](the_inter-intra_modal_measure_a_predictive_lens_on_fine-tuning_outcomes_in_visio.md)
 - [\[ICCV 2025\] TAB: Transformer Attention Bottlenecks enable User Intervention and Debugging in Vision-Language Models](tab_transformer_attention_bottlenecks_enable_user_intervention_and_debugging_in_.md)
-- [\[ICCV 2025\] SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference](sparsevila_decoupling_visual_sparsity_for_efficient_vlm_infe.md)
+- [\[ICCV 2025\] The Inter-Intra Modal Measure: A Predictive Lens on Fine-Tuning Outcomes in Vision-Language Models](the_inter-intra_modal_measure_a_predictive_lens_on_fine-tuning_outcomes_in_visio.md)
+- [\[ICCV 2025\] Adaptive Prompt Learning via Gaussian Outlier Synthesis for Out-of-distribution Detection](adaptive_prompt_learning_via_gaussian_outlier_synthesis_for_out_of_distribution_detection.md)
 
 <!-- RELATED:END -->

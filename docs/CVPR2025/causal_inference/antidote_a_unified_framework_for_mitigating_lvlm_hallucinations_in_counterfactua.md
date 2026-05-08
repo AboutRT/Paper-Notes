@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Antidote: A Unified Framework for Mitigating LVLM Hallucinations in Counterfactual Presupposition and Object Perception
 description: >-
-  [CVPR 2025][LVLM幻觉] 提出Antidote统一后训练框架和CP-Bench基准，通过合成数据驱动的自校正偏好优化，同时缓解LVLM在反事实预设问题和物体感知上的幻觉。
+  [CVPR 2025][因果推理] 提出Antidote统一后训练框架和CP-Bench基准，通过合成数据驱动的自校正偏好优化，同时缓解LVLM在反事实预设问题和物体感知上的幻觉。
 tags:
   - CVPR 2025
-  - LVLM幻觉
+  - 因果推理
   - 反事实预设
   - 偏好优化
   - CP-Bench
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2504.20468](https://arxiv.org/abs/2504.20468)  
 **代码**: 无  
-**领域**: LVLM 幻觉缓解  
+**领域**: 因果推理  
 **关键词**: LVLM幻觉, 反事实预设, 偏好优化, CP-Bench, 自校正
 
 ## 一句话总结
@@ -122,10 +122,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding](seeing_far_and_clearly_mitigating_hallucinations_in_mllms_with_attention_causal_.md)
 - [\[ACL 2026\] Dialectic-Med: Mitigating Diagnostic Hallucinations via Counterfactual Adversarial Multi-Agent Debate](../../ACL2026/causal_inference/dialectic-med_mitigating_diagnostic_hallucinations_via_counterfactual_adversaria.md)
-- [\[CVPR 2026\] Fighting Hallucinations with Counterfactuals: Diffusion-Guided Perturbations for LVLM Hallucination Suppression](../../CVPR2026/causal_inference/fighting_hallucinations_with_counterfactuals_diffusion-guided_perturbations_for_.md)
+- [\[CVPR 2026\] Fighting Hallucinations with Counterfactuals: Diffusion-Guided Perturbations for LVLM Hallucination Suppression](../../CVPR2026/causal_inference/cipher_counterfactual_diffusion_hallucination_sup.md)
 - [\[ACL 2025\] FitCF: A Framework for Automatic Feature Importance-guided Counterfactual Example Generation](../../ACL2025/causal_inference/fitcf_a_framework_for_automatic_feature_importance-guided_counterfactual_example.md)
-- [\[ACL 2025\] IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](../../ACL2025/causal_inference/iris_an_iterative_and_integrated_framework.md)
+- [\[CVPR 2025\] Image Quality Assessment: Investigating Causal Perceptual Effects with Abductive Counterfactual Inference](image_quality_assessment_investigating_causal_perceptual_effects_with_abductive_.md)
+- [\[CVPR 2025\] FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition](towards_fine-grained_interpretability_counterfactual_explanations_for_misclassif.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 时间反转对称
   - 数据增强
   - 奖励塑形
-  - 机器人操作
+  - 强化学习
   - 样本效率
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.13925](https://arxiv.org/abs/2505.13925)  
-**代码**: https://github.com/jyp9961/TR-DRL  
+**代码**: [https://github.com/jyp9961/TR-DRL](https://github.com/jyp9961/TR-DRL)  
 **领域**: 强化学习  
 **关键词**: 时间反转对称, 数据增强, 奖励塑形, 机器人操作, 样本效率
 
@@ -130,10 +130,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning](counteractive_rl_rethinking_core_principles_for_efficient_and_scalable_deep_rein.md)
 - [\[NeurIPS 2025\] Reinforcement Learning Teachers of Test Time Scaling](reinforcement_learning_teachers_of_test_time_scaling.md)
-- [\[NeurIPS 2025\] Confounding Robust Deep Reinforcement Learning: A Causal Approach](confounding_robust_deep_reinforcement_learning_a_causal_approach.md)
+- [\[NeurIPS 2025\] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](succeed_or_learn_slowly_sample_efficient_off-policy_reinforcement_learning_for_m.md)
 - [\[NeurIPS 2025\] Enhancing Interpretability in Deep Reinforcement Learning through Semantic Clustering](enhancing_interpretability_in_deep_reinforcement_learning_through_semantic_clust.md)
-- [\[NeurIPS 2025\] Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning](mind_the_gap_the_challenges_of_scale_in_pixel-based_deep_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
 
 <!-- RELATED:END -->

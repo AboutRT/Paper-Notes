@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 证据检索
   - 概念树
-  - LLM推理
+  - 其他
   - 领域自适应
   - 道德基础理论
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.07228](https://arxiv.org/abs/2504.07228)  
 **代码**: [有 (HuggingFace数据集)](https://huggingface.co/datasets/ecaplan/conceptcarve)  
-**领域**: 信息检索 / 社会科学 NLP  
+**领域**: 其他  
 **关键词**: 证据检索, 概念树, 领域自适应, 道德基础理论, LLM辅助检索
 
 ## 一句话总结
@@ -292,9 +292,9 @@ ConceptCarve 不需要任何训练或微调。它的核心优势在于：
 ## 相关论文
 
 - [\[ACL 2025\] Inter-Passage Verification for Multi-evidence Multi-answer QA](inter-passage_verification_for_multi-evidence_multi-answer_qa.md)
-- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
-- [\[ACL 2025\] Dynamic Label Name Refinement for Few-Shot Dialogue Intent Classification](dynamic_label_name_refinement_for_few-shot_dialogue_intent_classification.md)
-- [\[ACL 2025\] Enhancing Hyperbole and Metaphor Detection with Their Bidirectional Dynamic Interaction and Emotion Knowledge](hyperbole_metaphor_detection.md)
+- [\[NeurIPS 2025\] Out-of-distribution Generalisation is Hard: Evidence from ARC-like Tasks](../../NeurIPS2025/others/out-of-distribution_generalisation_is_hard_evidence_from_arc-like_tasks.md)
 - [\[ACL 2025\] Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking](inner_thinking_transformer_leveraging_dynamic_depth_scaling_to_foster_adaptive_i.md)
+- [\[ACL 2025\] Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos](tuna_temporal_understanding.md)
+- [\[NeurIPS 2025\] Contextual Dynamic Pricing with Heterogeneous Buyers](../../NeurIPS2025/others/contextual_dynamic_pricing_with_heterogeneous_buyers.md)
 
 <!-- RELATED:END -->

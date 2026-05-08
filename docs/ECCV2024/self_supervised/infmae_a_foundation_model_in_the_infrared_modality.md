@@ -54,8 +54,8 @@ InfMAE 由三个核心模块组成：
 1. **Inf30 数据集构建**
 
    从多个网站收集约 50 万张红外图像，经过两步预处理：
-   - **去重**：选取锚图像，去除场景高度相似的冗余图像
-   - **质量过滤**：移除宽高均小于 20 像素的低分辨率图像
+    - **去重**：选取锚图像，去除场景高度相似的冗余图像
+    - **质量过滤**：移除宽高均小于 20 像素的低分辨率图像
 
    最终得到 **305,241 张红外图像**，涵盖天空、海洋、森林、城市、郊区等多种场景，包含船舶、车辆、行人、建筑等目标。分辨率范围从 40×23 到 6912×1024。
 
@@ -63,11 +63,11 @@ InfMAE 由三个核心模块组成：
 
    针对红外图像信息分布不均匀的特点，设计了基于信息量的自适应掩码策略，避免随机掩码过多遮挡信息贫乏区域：
 
-   - 输入图像 $x \in \mathbb{R}^{H \times W \times C}$ 通过卷积（kernel=16, stride=16）得到强度特征图
-   - 沿通道取均值得到灰度值图 $I \in \mathbb{R}^{\frac{H}{16} \times \frac{W}{16}}$
-   - 将 $N$ 个 token 按灰度值**降序排列**（值越大信息越丰富）
-   - 以采样步长 $S$ 等间隔采样：采样到的为可见 token，其余为掩码 token
-   - 将掩码模板上采样 2 倍和 4 倍，生成 mask\_block1 和 mask\_block2 供多尺度编码器使用
+    - 输入图像 $x \in \mathbb{R}^{H \times W \times C}$ 通过卷积（kernel=16, stride=16）得到强度特征图
+    - 沿通道取均值得到灰度值图 $I \in \mathbb{R}^{\frac{H}{16} \times \frac{W}{16}}$
+    - 将 $N$ 个 token 按灰度值**降序排列**（值越大信息越丰富）
+    - 以采样步长 $S$ 等间隔采样：采样到的为可见 token，其余为掩码 token
+    - 将掩码模板上采样 2 倍和 4 倍，生成 mask\_block1 和 mask\_block2 供多尺度编码器使用
 
    这种策略无需额外的语义感知分支（不同于 ATTMask、SemMAE），简单有效地确保信息密集区域被保留。
 
@@ -75,9 +75,9 @@ InfMAE 由三个核心模块组成：
 
    受 MCMAE 和 ConvNeXt 启发，设计三层编码器：
 
-   - **Encoder Layer 1**（CNN）：Patch Embedding 1 → Conv Attention + FFN → 特征 $F_1 \in \mathbb{R}^{\frac{H}{4} \times \frac{W}{4} \times C_1}$，与 mask\_block1 相乘实现掩码
-   - **Encoder Layer 2**（CNN）：Patch Embedding 2 → Conv Attention + FFN → 特征 $F_2 \in \mathbb{R}^{\frac{H}{8} \times \frac{W}{8} \times C_2}$，与 mask\_block2 相乘
-   - **Encoder Layer 3**（ViT Transformer）：展平 + 选择可见 token → 自注意力 → 学习到的可见 token $T_s \in \mathbb{R}^{N_v \times C_3}$
+    - **Encoder Layer 1**（CNN）：Patch Embedding 1 → Conv Attention + FFN → 特征 $F_1 \in \mathbb{R}^{\frac{H}{4} \times \frac{W}{4} \times C_1}$，与 mask\_block1 相乘实现掩码
+    - **Encoder Layer 2**（CNN）：Patch Embedding 2 → Conv Attention + FFN → 特征 $F_2 \in \mathbb{R}^{\frac{H}{8} \times \frac{W}{8} \times C_2}$，与 mask\_block2 相乘
+    - **Encoder Layer 3**（ViT Transformer）：展平 + 选择可见 token → 自注意力 → 学习到的可见 token $T_s \in \mathbb{R}^{N_v \times C_3}$
 
    这种设计让低层 CNN 处理局部纹理（即使红外纹理较少），高层 Transformer 捕获全局语义，多尺度特征图 $F_1, F_2, F_3, F_4$ 可直接用于各种下游任务的特征金字塔。
 
@@ -191,10 +191,10 @@ $$\mathcal{L}_{mse} = \frac{1}{M} \sum_{i=1}^{M} (y_i - x_i)^2$$
 
 ## 相关论文
 
+- [\[ECCV 2024\] OmniSat: Self-Supervised Modality Fusion for Earth Observation](omnisat_self-supervised_modality_fusion_for_earth_observation.md)
 - [\[ECCV 2024\] MarineInst: A Foundation Model for Marine Image Analysis with Instance Visual Description](marineinst_a_foundation_model_for_marine_image_analysis_with_instance_visual_des.md)
 - [\[ICML 2025\] Griffin: Towards a Graph-Centric Relational Database Foundation Model](../../ICML2025/self_supervised/griffin_towards_a_graph-centric_relational_database_foundation_model.md)
 - [\[CVPR 2026\] MOMO: Mars Orbital Model — Foundation Model for Mars Orbital Applications](../../CVPR2026/self_supervised/momo_mars_orbital_model_foundation_model_for_mars_orbital_applications.md)
-- [\[CVPR 2026\] OmniGCD: Abstracting Generalized Category Discovery for Modality Agnosticism](../../CVPR2026/self_supervised/omnigcd_abstracting_generalized_category_discovery_for_modality_agnosticism.md)
-- [\[AAAI 2026\] Spikingformer: A Key Foundation Model for Spiking Neural Networks](../../AAAI2026/self_supervised/spikingformer_a_key_foundation_model_for_spiking_neural_networks.md)
+- [\[ECCV 2024\] WeCromCL: Weakly Supervised Cross-Modality Contrastive Learning for Transcription-only Supervised Text Spotting](wecromcl_weakly_supervised_cross-modality_contrastive_learning_for_transcription.md)
 
 <!-- RELATED:END -->

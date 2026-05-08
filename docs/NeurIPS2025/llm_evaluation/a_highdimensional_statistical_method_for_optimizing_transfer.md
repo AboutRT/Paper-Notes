@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.04242](https://arxiv.org/abs/2502.04242)  
-**代码**: [https://github.com/zqy0126/OTQMS](https://github.com/zqy0126/OTQMS) (有)  
+**代码**: [https://github.com/zqy0126/OTQMS](https://github.com/zqy0126/OTQMS)  
 **领域**: 迁移学习 / 多源迁移学习 / 高维统计  
 **关键词**: 多源迁移学习, 最优迁移量, K-L散度, Fisher信息矩阵, 数据效率  
 
@@ -117,8 +117,8 @@ tags:
 
 - [\[NeurIPS 2025\] Unlocking Transfer Learning for Open-World Few-Shot Recognition](unlocking_transfer_learning_for_open-world_few-shot_recognition.md)
 - [\[ICML 2025\] Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces](../../ICML2025/llm_evaluation/function_encoders_a_principled_approach_to_transfer_learning_in_hilbert_spaces.md)
+- [\[ICCV 2025\] PHATNet: A Physics-guided Haze Transfer Network for Domain-adaptive Real-world Image Dehazing](../../ICCV2025/llm_evaluation/phatnet_a_physics-guided_haze_transfer_network_for_domain-adaptive_real-world_im.md)
+- [\[ICLR 2026\] Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces](../../ICLR2026/llm_evaluation/discount_model_search_for_quality_diversity_optimization_in_high-dimensional_mea.md)
 - [\[AAAI 2026\] SpikCommander: A High-Performance Spiking Transformer with Multi-View Learning for Efficient Speech Command Recognition](../../AAAI2026/llm_evaluation/spikcommander_a_high-performance_spiking_transformer_with_multi-view_learning_fo.md)
-- [\[ACL 2026\] SciImpact: A Multi-Dimensional, Multi-Field Benchmark for Scientific Impact Prediction](../../ACL2026/llm_evaluation/sciimpact_a_multi-dimensional_multi-field_benchmark_for_scientific_impact_predic.md)
-- [\[NeurIPS 2025\] Learning Generalizable Shape Completion with SIM(3) Equivariance](learning_generalizable_shape_completion_with_sim3_equivariance.md)
 
 <!-- RELATED:END -->

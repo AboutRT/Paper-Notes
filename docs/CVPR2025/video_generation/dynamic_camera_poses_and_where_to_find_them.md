@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.17788](https://arxiv.org/abs/2504.17788)  
-**代码**: https://research.nvidia.com/labs/dir/dynpose-100k (有)  
-**领域**: 视频理解  
+**代码**: [https://research.nvidia.com/labs/dir/dynpose-100k](https://research.nvidia.com/labs/dir/dynpose-100k)  
+**领域**: 视频生成  
 **关键词**: 动态相机位姿, 大规模数据集, 视频过滤, 结构光恢复, 点跟踪
 
 ## 一句话总结

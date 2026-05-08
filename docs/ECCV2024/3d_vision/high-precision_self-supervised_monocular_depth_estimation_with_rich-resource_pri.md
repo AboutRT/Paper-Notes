@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2408.00361](https://arxiv.org/abs/2408.00361)  
-**代码**: https://github.com/wencheng256/RPrDepth (有)  
+**代码**: [https://github.com/wencheng256/RPrDepth](https://github.com/wencheng256/RPrDepth)  
 **领域**: 3D视觉  
 **关键词**: 自监督深度估计, 单目深度估计, 知识蒸馏, 先验融合, 注意力特征选择
 
@@ -55,17 +55,17 @@ tags:
 
    **像素级融合 (Pixel-wise Fusion)**: 通过亲和矩阵从参考特征中检索最相似像素。目标特征 $F_s$ 和参考特征 $F_r$ 通过维度对齐后计算亲和度：
 
-   $$\mathcal{A} = \text{Softmax}(F_s \otimes F_r)$$
+    $\mathcal{A} = \text{Softmax}(F_s \otimes F_r)$
 
    利用亲和矩阵构建像素级参考特征和参考深度：
 
-   $$F_c = \mathcal{A} \times f_r, \quad D_c = \mathcal{A} \times D_r$$
+    $F_c = \mathcal{A} \times f_r, \quad D_c = \mathcal{A} \times D_r$
 
    $F_c$ 提供空间几何先验，$D_c$ 提供直接的深度先验。
 
    **深度提示融合 (Depth-hint Fusion)**: 使用Transformer的多头注意力机制，以目标特征 $F_s$ 作为Query，参考特征 $f_r$ 作为Key和Value：
 
-   $$F_d = \text{MHA}(Q, K, V)$$
+    $F_d = \text{MHA}(Q, K, V)$
 
    这种全局注意力融合捕获更宏观的先验信息，与像素级融合互补。
 
@@ -75,11 +75,11 @@ tags:
 
    **视点重建损失**: 利用富资源输入（高分辨率多帧）作为重建目标，提供比低分辨率源图像更精确的监督信号：
 
-   $$\mathcal{L}_{\text{vp}} = l_{vp}(\text{Resize}(D_o), I_r)$$
+    $\mathcal{L}_{\text{vp}} = l_{vp}(\text{Resize}(D_o), I_r)$
 
    **一致性损失**: 利用富资源模型的深度预测作为伪标签。由于自监督模型预测的是相对视差而非绝对深度，不同模型存在尺度差异，因此最小化**梯度差异**而非直接值差异：
 
-   $$\mathcal{L}_c = \|\tilde{G}_{x,y}(D_o) - \tilde{G}_{x,y}(D_p)\|_1$$
+    $\mathcal{L}_c = \|\tilde{G}_{x,y}(D_o) - \tilde{G}_{x,y}(D_p)\|_1$
 
    其中 $\tilde{G}_{x,y}(\cdot)$ 为归一化后的x/y方向梯度之和。这迫使模型在边缘处生成与富资源模型一致的深度不连续性。
 

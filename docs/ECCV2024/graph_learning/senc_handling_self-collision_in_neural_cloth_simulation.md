@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2407.12479](https://arxiv.org/abs/2407.12479)  
 **代码**: [zycliao/senc](https://zycliao.github.io/senc)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: cloth simulation, self-collision, graph neural network, self-supervised learning, Global Intersection Analysis  
 **机构**: 香港大学
 

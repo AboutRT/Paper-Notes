@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 医学图像方向43篇论文解读
+  ICCV2025 医学图像方向41篇论文解读
 description: >-
-  43篇ICCV2025的医学图像方向论文解读，涵盖医学影像、语义分割、自监督学习、少样本学习、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  41篇ICCV2025的医学图像方向论文解读，涵盖医学影像、语义分割、自监督学习、少样本学习、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**📹 ICCV2025** · **43** 篇论文解读
+**📹 ICCV2025** · **41** 篇论文解读
 
 **[AcZeroTS: Active Learning for Zero-shot Tissue Segmentation in Pathology Images](aczerots_active_learning_for_zeroshot_tissue_segmentation_in.md)**
 
@@ -82,10 +82,6 @@ description: >-
 
 :   构建了当前最大的胸部X光 VQA 数据集 GEMeX（151K 图像、1.6M 问题），首次同时提供文本推理解释和视觉区域定位，涵盖四种问题类型，并系统评估了 12 个代表性大视觉语言模型。
 
-**[HRScene: How Far Are VLMs from Effective High-Resolution Image Understanding?](hrscene_how_far_are_vlms_from_effective_high-resolution_image_understanding.md)**
-
-:   提出 HRScene 基准，涵盖 25 个真实场景和 2 个诊断数据集（分辨率 1K-35K），评估 28 个 VLM 后发现：当前最强模型在真实高分辨率任务上平均准确率仅约 50%，且存在显著的区域差异和 lost-in-middle 问题。
-
 **[IDF: Iterative Dynamic Filtering Networks for Generalizable Image Denoising](idf_iterative_dynamic_filtering_networks_for_generalizable_image_denoising.md)**
 
 :   提出迭代动态滤波网络 (IDF)，仅用约 0.04M 参数，通过逐像素动态核预测 + 自适应迭代精炼策略，仅在单一级别高斯噪声上训练即可泛化到各种未见噪声类型（高斯/泊松/椒盐/蒙特卡洛渲染/真实噪声），实现出色的 OOD 去噪性能。
@@ -113,10 +109,6 @@ description: >-
 **[NEURONS: Emulating the Human Visual Cortex Improves Fidelity and Interpretability in fMRI-to-Video Reconstruction](neurons_emulating_the_human_visual_cortex_improves_fidelity_and_interpretability.md)**
 
 :   提出 NEURONS 框架，受人类视觉皮层层级结构启发，将 fMRI 到视频的重建解耦为四个子任务（关键物体分割、概念识别、场景描述、模糊视频重建），模拟 V1/V2/V4/ITC 等脑区的功能特化，在视频一致性（26.6%）和语义准确度（19.1%）上显著超越 SOTA。
-
-**[Predict-Optimize-Distill: A Self-Improving Cycle for 4D Object Understanding](predict-optimize-distill_a_self-improving_cycle_for_4d_object_understanding.md)**
-
-:   提出 Predict-Optimize-Distill (POD) 框架，通过预测-优化-蒸馏的自改进循环，从单目长视频中恢复铰接物体的4D部件姿态，性能随视频长度和迭代次数持续提升。
 
 **[ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users](progait_a_multi-purpose_video_dataset_and_benchmark_for_transfemoral_prosthesis_.md)**
 

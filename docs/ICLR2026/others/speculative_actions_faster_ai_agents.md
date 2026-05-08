@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026 Oral
   - speculative execution
-  - AI agents
+  - 其他
   - latency reduction
   - lossless acceleration
   - MDP
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026 Oral  
 **OpenReview**: [P0GOk5wslg](https://openreview.net/forum?id=P0GOk5wslg)  
 **代码**: 无  
-**领域**: LLM Agent / 系统优化  
+**领域**: 其他  
 **关键词**: speculative execution, AI agents, latency reduction, lossless acceleration, MDP  
 
 ## 一句话总结
@@ -128,7 +128,7 @@ Actor（大模型）和 Speculator（小模型）并行运行。Speculator 先�
 - [\[ICLR 2026\] DA-AC: Distributions as Actions — A Unified RL Framework for Diverse Action Spaces](distributions_as_actions_a_unified_framework_for_diverse_action_spaces.md)
 - [\[ICLR 2026\] ANO: Faster is Better in Noisy Landscapes](ano_faster_is_better_in_noisy_landscape.md)
 - [\[ACL 2025\] Completing A Systematic Review in Hours instead of Months with Interactive AI Agents](../../ACL2025/others/completing_a_systematic_review_in_hours.md)
-- [\[AAAI 2026\] Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables](../../AAAI2026/others/faster_certified_symmetry_breaking_using_orders_with_auxiliary_variables.md)
 - [\[AAAI 2026\] Whispering Agents: An Event-Driven Covert Communication Protocol for the Internet of Agents](../../AAAI2026/others/whispering_agents_an_event-driven_covert_communication_protocol_for_the_internet.md)
+- [\[AAAI 2026\] Enhancing Control Policy Smoothness by Aligning Actions with Predictions from Preceding States](../../AAAI2026/others/enhancing_control_policy_smoothness_by_aligning_actions_with_predictions_from_pr.md)
 
 <!-- RELATED:END -->

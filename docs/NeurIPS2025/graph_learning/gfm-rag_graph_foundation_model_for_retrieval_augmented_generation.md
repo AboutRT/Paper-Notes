@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.01113](https://arxiv.org/abs/2502.01113)  
-**代码**: https://github.com/rmanluo/gfm-rag (有)  
+**代码**: [https://github.com/rmanluo/gfm-rag](https://github.com/rmanluo/gfm-rag)  
 **领域**: 图学习 / RAG / 知识图谱  
 **关键词**: Graph Foundation Model, RAG, Knowledge Graph, Multi-hop Reasoning, GNN
 

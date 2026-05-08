@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Where and What Matters: Sensitivity-Aware Task Vectors for Many-Shot Multimodal In-Context Learning
 description: >-
-  [AAAI 2026][多模态上下文学习] 提出 STV 框架，通过激活差值（activation delta）识别对上下文信息敏感的注意力头位置，并利用强化学习从预聚类的激活库中选择最优任务向量进行插入，在不增加输入长度的前提下实现高效的多模态 many-shot 上下文学习。
+  [AAAI 2026][强化学习] 提出 STV 框架，通过激活差值（activation delta）识别对上下文信息敏感的注意力头位置，并利用强化学习从预聚类的激活库中选择最优任务向量进行插入，在不增加输入长度的前提下实现高效的多模态 many-shot 上下文学习。
 tags:
   - AAAI 2026
-  - 多模态上下文学习
+  - 强化学习
   - 任务向量
   - 注意力头敏感性
   - 强化学习
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.08246](https://arxiv.org/abs/2511.08246)  
 **代码**: [https://github.com/AMAP-ML/STV](https://github.com/AMAP-ML/STV)  
-**领域**: 多模态学习 / 上下文学习  
+**领域**: 强化学习  
 **关键词**: 多模态上下文学习, 任务向量, 注意力头敏感性, 强化学习, 激活空间调制
 
 ## 一句话总结
@@ -186,8 +186,8 @@ $$\mathcal{L}_{\text{policy}} = -\sum_{i=1}^{N} \sum_{k=1}^{K} \log p_{i_k}^{(k)
 
 - [\[AAAI 2026\] ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation](manilong-shot_interaction-aware_one-shot_imitation_learning_for_long-horizon_man.md)
 - [\[ICLR 2026\] Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task VRPs](../../ICLR2026/reinforcement_learning/chain-of-context_learning_dynamic_constraint_understanding_for_multi-task_vrps.md)
+- [\[NeurIPS 2025\] Zero-Shot Context Generalization in Reinforcement Learning from Few Training Contexts](../../NeurIPS2025/reinforcement_learning/zero-shot_context_generalization_in_reinforcement_learning_from_few_training_con.md)
 - [\[AAAI 2026\] Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-shot Document-level Event Arguments Extraction](learning_to_generate_and_extract_a_multi-agent_collaboration_framework_for_zero-.md)
-- [\[AAAI 2026\] STELAR-Vision: Self-Topology-Aware Efficient Learning for Aligned Reasoning in Vision](stelar-vision_self-topology-aware_efficient_learning_for_aligned_reasoning_in_vi.md)
 - [\[AAAI 2026\] MMhops-R1: Multimodal Multi-hop Reasoning](mmhops-r1_multimodal_multi-hop_reasoning.md)
 
 <!-- RELATED:END -->

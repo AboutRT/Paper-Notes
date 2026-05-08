@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.12096](https://arxiv.org/abs/2412.12096)  
-**代码**: https://github.com/chengzhag/PanSplat (有)  
+**代码**: [https://github.com/chengzhag/PanSplat](https://github.com/chengzhag/PanSplat)  
 **领域**: 3D视觉 / 自动驾驶  
 **关键词**: 全景图合成, 高斯溅射, 前馈式, 4K分辨率, 球面表示
 

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2604.07723](https://arxiv.org/abs/2604.07723)  
 **代码**: [GitHub](https://github.com/liblacklucy/DSLO)  
-**领域**: Segmentation / Open-Vocabulary  
+**领域**: 图像分割  
 **关键词**: 开放词汇语义分割, 免训练, 分布差异, 最优传输, 马尔可夫过程
 
 ## 一句话总结

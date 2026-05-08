@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Near-Optimal Second-Order Guarantees for Model-Based Adversarial Imitation Learning
 description: >-
-  [ICLR 2026][对抗模仿学习] 提出 MB-AIL（基于模型的对抗模仿学习）算法，在一般函数逼近下建立了无视域（horizon-free）的二阶样本复杂度上界，结合新构建的困难实例上的信息论下界，证明 MB-AIL 在在线交互的样本复杂度上达到极小极大最优（相差对数因子）。
+  [ICLR 2026][强化学习] 提出 MB-AIL（基于模型的对抗模仿学习）算法，在一般函数逼近下建立了无视域（horizon-free）的二阶样本复杂度上界，结合新构建的困难实例上的信息论下界，证明 MB-AIL 在在线交互的样本复杂度上达到极小极大最优（相差对数因子）。
 tags:
   - ICLR 2026
-  - 对抗模仿学习
+  - 强化学习
   - 基于模型的方法
   - 二阶界
   - 样本复杂度
@@ -66,25 +66,25 @@ MB-AIL 的核心假设是：策略空间 $\Pi$ 可以分解为奖励类 $\mathca
 1. **对抗奖励学习（Procedure A）** → 估计未知奖励 → 设计动机是在AIL框架下无需真实奖励
 
    给定在线收集的轨迹和离线专家数据，通过最小化以下经验损失来学习奖励：
-   $$\mathcal{L}_{k-1}(r) = \hat{V}_{1,P^*,r}^{\pi_{k-1}}(s_1) - \hat{V}_{1,P^*,r}^{\pi_E}(s_1)$$
+    $\mathcal{L}_{k-1}(r) = \hat{V}_{1,P^*,r}^{\pi_{k-1}}(s_1) - \hat{V}_{1,P^*,r}^{\pi_E}(s_1)$
    
    使用 Follow-the-Regularized-Leader (FTRL) 作为无遗憾在线优化算法，获得 $O(1/\sqrt{K})$ 的优化误差。
 
 2. **基于模型的学习（Procedure B）** → 利用问题结构分解 → 设计动机是将模型学习利用环境数据效率最大化
 
    使用简单的最大似然估计（MLE）构建版本空间：
-   $$\hat{\mathcal{P}}_k = \{P \in \mathcal{P}: \sum_{(s,a,s') \in \mathcal{D}_k} \log P(s'|s,a) \geq \max_{\tilde{P}} \sum \log \tilde{P}(s'|s,a) - \beta\}$$
+    $\hat{\mathcal{P}}_k = \{P \in \mathcal{P}: \sum_{(s,a,s') \in \mathcal{D}_k} \log P(s'|s,a) \geq \max_{\tilde{P}} \sum \log \tilde{P}(s'|s,a) - \beta\}$
    
    然后在版本空间内进行乐观规划：
-   $$(\pi_k, P_k) = \arg\max_{\pi, P \in \hat{\mathcal{P}}_k} V_{1,P,r_k}^\pi(s_1)$$
+    $(\pi_k, P_k) = \arg\max_{\pi, P \in \hat{\mathcal{P}}_k} V_{1,P,r_k}^\pi(s_1)$
 
 3. **二阶分析技术** → 获得方差相关界 → 设计动机是精确刻画随机性的影响
 
    核心分析步骤：
-   - 将遗憾分解为奖励误差和策略误差
-   - 奖励误差通过 Bernstein 型集中不等式获得方差相关界
-   - 策略误差利用 Eluder 维度和方差转换引理（Variance Conversion Lemma）获得二阶界
-   - 最终界仅对视域 $H$ 有对数依赖（horizon-free）
+    - 将遗憾分解为奖励误差和策略误差
+    - 奖励误差通过 Bernstein 型集中不等式获得方差相关界
+    - 策略误差利用 Eluder 维度和方差转换引理（Variance Conversion Lemma）获得二阶界
+    - 最终界仅对视域 $H$ 有对数依赖（horizon-free）
 
 ### 损失函数 / 训练策略
 
@@ -192,7 +192,7 @@ MB-AIL 的核心假设是：策略空间 $\Pi$ 可以分解为奖励类 $\mathca
 - [\[ICLR 2026\] Model Predictive Adversarial Imitation Learning for Planning from Observation](model_predictive_adversarial_imitation_learning_for_planning_from_observation.md)
 - [\[ICLR 2026\] On Discovering Algorithms for Adversarial Imitation Learning](on_discovering_algorithms_for_adversarial_imitation_learning.md)
 - [\[ICLR 2026\] Latent Wasserstein Adversarial Imitation Learning](latent_wasserstein_adversarial_imitation_learning.md)
-- [\[NeurIPS 2025\] A Near-optimal, Scalable and Parallelizable Framework for Stochastic Bandits Robust to Adversarial Corruptions and Beyond](../../NeurIPS2025/reinforcement_learning/a_nearoptimal_scalable_and_parallelizable_framework_for_stoc.md)
-- [\[ICLR 2026\] The Sample Complexity of Online Reinforcement Learning: A Multi-Model Perspective](the_sample_complexity_of_online_reinforcement_learning_a_multi-model_perspective.md)
+- [\[ICLR 2026\] Learning to Generate Unit Test via Adversarial Reinforcement Learning](learning_to_generate_unit_test_via_adversarial_reinforcement_learning.md)
+- [\[ICLR 2026\] Robust Deep Reinforcement Learning against Adversarial Behavior Manipulation](robust_deep_reinforcement_learning_against_adversarial_behavior_manipulation.md)
 
 <!-- RELATED:END -->

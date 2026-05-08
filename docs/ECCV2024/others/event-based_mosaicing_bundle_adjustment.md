@@ -8,7 +8,7 @@ tags:
   - 事件相机
   - Bundle Adjustment
   - 全景拼接
-  - 稀疏优化
+  - 其他
   - 梯度图重建
 ---
 
@@ -165,9 +165,9 @@ EMBA 的流程：(1) 用前端方法获取初始相机旋转和梯度图；(2) �
 ## 相关论文
 
 - [\[ECCV 2024\] Power Variable Projection for Initialization-Free Large-Scale Bundle Adjustment](power_variable_projection_for_initialization-free_large-scale_bundle_adjustment.md)
-- [\[CVPR 2025\] Full-DoF Egomotion Estimation for Event Cameras Using Geometric Solvers](../../CVPR2025/others/full-dof_egomotion_estimation_for_event_cameras_using_geometric_solvers.md)
-- [\[ACL 2025\] Explicit and Implicit Data Augmentation for Social Event Detection](../../ACL2025/others/explicit_and_implicit_data_augmentation_for_social_event_detection.md)
-- [\[NeurIPS 2025\] EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination](../../NeurIPS2025/others/an_evidence-based_post-hoc_adjustment_framework_for_anomaly_detection_under_data.md)
-- [\[ECCV 2024\] FisherRF: Active View Selection and Mapping with Radiance Fields Using Fisher Information](fisherrf_active_view_selection_and_mapping_with_radiance_fields_using_fisher_inf.md)
+- [\[ECCV 2024\] De-confounded Gaze Estimation](de-confounded_gaze_estimation.md)
+- [\[ECCV 2024\] An Incremental Unified Framework for Small Defect Inspection](an_incremental_unified_framework_for_small_defect_inspection.md)
+- [\[ECCV 2024\] Enhancing Optimization Robustness in 1-bit Neural Networks through Stochastic Sign Descent](enhancing_optimization_robustness_in_1-bit_neural_networks_through_stochastic_si.md)
+- [\[ECCV 2024\] Real-Data-Driven 2000 FPS Color Video from Mosaicked Chromatic Spikes](real-data-driven_2000_fps_color_video_from_mosaicked_chromatic_spikes.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2601.19175](https://arxiv.org/abs/2601.19175)  
 **代码**: 无  
-**领域**: 图神经网络  
+**领域**: 其他  
 **关键词**: 签名图, 链接符号预测, 高斯Copula, 边间相关性, Gramian矩阵  
 
 ## 一句话总结
@@ -115,10 +115,10 @@ tags:
 
 ## 相关论文
 
+- [\[ICCV 2025\] Intra-view and Inter-view Correlation Guided Multi-view Novel Class Discovery](../../ICCV2025/others/intra-view_and_inter-view_correlation_guided_multi-view_novel_class_discovery.md)
 - [\[ICLR 2026\] Learning on a Razor's Edge: Identifiability and Singularity of Polynomial Neural Networks](learning_on_a_razors_edge_identifiability_and_singularity_of_polynomial_neural_n.md)
 - [\[ICLR 2026\] Completing Missing Annotation: Multi-Agent Debate for Accurate and Scalable Relevance Assessment](completing_missing_annotation_multi-agent_debate_for_accurate_and_scalable_relev.md)
-- [\[NeurIPS 2025\] Sign-In to the Lottery: Reparameterized Sparse Training from Scratch](../../NeurIPS2025/others/sign-in_to_the_lottery_reparameterizing_sparse_training_from_scratch.md)
-- [\[NeurIPS 2025\] Learning-Augmented Streaming Algorithms for Correlation Clustering](../../NeurIPS2025/others/learning-augmented_streaming_algorithms_for_correlation_clustering.md)
-- [\[ACL 2025\] Inter-Passage Verification for Multi-evidence Multi-answer QA](../../ACL2025/others/inter-passage_verification_for_multi-evidence_multi-answer_qa.md)
+- [\[ICLR 2026\] Scalable Random Wavelet Features: Efficient Non-Stationary Kernel Approximation with Convergence Guarantees](scalable_random_wavelet_features_efficient_non-stationary_kernel_approximation_w.md)
+- [\[AAAI 2026\] Scalable Vision-Guided Crop Yield Estimation](../../AAAI2026/others/scalable_vision-guided_crop_yield_estimation.md)
 
 <!-- RELATED:END -->

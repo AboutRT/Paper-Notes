@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025 (Findings)
   - 挪威语评测
-  - 语言模型基准
+  - LLM评测
   - 低资源语言
   - 多任务评估
   - 人类基线
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2504.07749](https://arxiv.org/abs/2504.07749)  
-**代码**: https://github.com/ltgoslo/noreval  
+**代码**: [https://github.com/ltgoslo/noreval](https://github.com/ltgoslo/noreval)  
 **领域**: NLP理解 / 评测基准  
 **关键词**: 挪威语评测、语言模型基准、低资源语言、多任务评估、人类基线
 

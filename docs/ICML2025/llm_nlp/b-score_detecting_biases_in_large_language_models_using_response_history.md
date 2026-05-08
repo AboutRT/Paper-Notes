@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.18545](https://arxiv.org/abs/2505.18545)  
 **代码**: [b-score.github.io](https://b-score.github.io/)  
-**领域**: NLP理解  
+**领域**: LLM/NLP  
 **关键词**: LLM偏见检测, 多轮对话, 自我去偏, 置信度校准, 答案验证
 
 ## 一句话总结
@@ -152,9 +152,9 @@ Random类问题去偏最显著：单轮最高选择概率从0.77降至0.29。
 ## 相关论文
 
 - [\[ICML 2025\] Binary Hypothesis Testing for Softmax Models and Leverage Score Models](binary_hypothesis_testing_for_softmax_models_and_leverage_score_models.md)
-- [\[ACL 2025\] Detecting Referring Expressions in Visually Grounded Dialogue with Autoregressive Language Models](../../ACL2025/llm_nlp/detecting_referring_expressions_in_visually_grounded_dialogue_with_autoregressiv.md)
-- [\[ACL 2025\] Revisiting Uncertainty Quantification Evaluation in Language Models: Spurious Interactions with Response Length Bias Results](../../ACL2025/llm_nlp/revisiting_uncertainty_quantification_evaluation_in_language_models_spurious_int.md)
-- [\[NeurIPS 2025\] Detecting High-Stakes Interactions with Activation Probes](../../NeurIPS2025/llm_nlp/detecting_high-stakes_interactions_with_activation_probes.md)
 - [\[ACL 2025\] Assessing the Vulnerability of LLMs to Cognitive Biases in Scientific Research](../../ACL2025/llm_nlp/assessing_the_vulnerability_of_llms_to_cognitive_biases_in_scientific_research.md)
+- [\[NeurIPS 2025\] Detecting High-Stakes Interactions with Activation Probes](../../NeurIPS2025/llm_nlp/detecting_high-stakes_interactions_with_activation_probes.md)
+- [\[ACL 2025\] Revisiting Uncertainty Quantification Evaluation in Language Models: Spurious Interactions with Response Length Bias Results](../../ACL2025/llm_nlp/revisiting_uncertainty_quantification_evaluation_in_language_models_spurious_int.md)
+- [\[ICML 2025\] Emergent Symbolic Mechanisms Support Abstract Reasoning in Large Language Models](emergent_symbolic_mechanisms_support_abstract_reasoning_in_large_language_models.md)
 
 <!-- RELATED:END -->

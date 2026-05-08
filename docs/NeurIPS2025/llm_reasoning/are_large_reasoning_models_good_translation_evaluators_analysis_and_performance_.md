@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20780](https://arxiv.org/abs/2510.20780)  
-**代码**: https://github.com/ThinMQM (有)  
+**代码**: [https://github.com/ThinMQM](https://github.com/ThinMQM)  
 **领域**: LLM推理  
 **关键词**: LRM-as-a-judge, 机器翻译评估, MQM, 思维预算校准, ThinMQM
 

@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12472](https://arxiv.org/abs/2511.12472)  
 **代码**: [cwru-db-group/serenQA](https://cwru-db-group.github.io/serenQA)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: Serendipity, Knowledge Graph Question Answering, LLM Evaluation, Drug Repurposing, information theory
 
 ## 一句话总结

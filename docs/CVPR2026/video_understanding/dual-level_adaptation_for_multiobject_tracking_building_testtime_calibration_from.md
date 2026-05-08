@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.21629](https://arxiv.org/abs/2603.21629)  
-**代码**: https://github.com/1941Zpf/TCEI  
+**代码**: [https://github.com/1941Zpf/TCEI](https://github.com/1941Zpf/TCEI)  
 **领域**: 视频理解 / 多目标跟踪  
 **关键词**: 多目标跟踪, 测试时自适应, 双系统理论, 缓存机制, 分布偏移
 

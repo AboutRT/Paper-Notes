@@ -9,7 +9,7 @@ tags:
   - VLM
   - 实体知识提取
   - 跨模态差距
-  - 机制可解释性
+  - 多模态VLM
   - POPVQA
 ---
 
@@ -131,8 +131,8 @@ VLM 在图像理解任务上表现优异，但一个关键问题被忽略了：*
 
 - [\[ACL 2025\] Vision-Language Models Struggle to Align Entities across Modalities](vision-language_models_struggle_to_align_entities_across_modalities.md)
 - [\[CVPR 2025\] Self-Supervised Spatial Correspondence Across Modalities](../../CVPR2025/multimodal_vlm/self-supervised_spatial_correspondence_across_modalities.md)
+- [\[ACL 2025\] Weaving Context Across Images: Improving Vision-Language Models through Focus-Centric Visual Chains](weaving_context_across_images_improving_vision-language_models_through_focus-cen.md)
+- [\[ACL 2025\] RATE-Nav: Region-Aware Termination Enhancement for Zero-shot Object Navigation with Vision-Language Models](rate-nav_region-aware_termination_enhancement_for_zero-shot_object_navigation_wi.md)
 - [\[CVPR 2025\] A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks](../../CVPR2025/multimodal_vlm/a_closed-form_solution_for_debiasing_vision-language_models_with_utility_guarant.md)
-- [\[ACL 2025\] Weaving Context Across Images: Improving Vision-Language Models through Focus-Centric Visual Chains](visc-focus-centric-visual-chains-for-multi-image-reasoning.md)
-- [\[ACL 2025\] Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities](con_instruction_universal_jailbreaking_of_multimodal_large_language_models_via_n.md)
 
 <!-- RELATED:END -->

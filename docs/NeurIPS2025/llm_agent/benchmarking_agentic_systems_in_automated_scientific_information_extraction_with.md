@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.00795](https://arxiv.org/abs/2510.00795)  
-**代码**: [ChemX](https://ai-chem.github.io/ChemX) (有)  
+**代码**: [ChemX](https://ai-chem.github.io/ChemX)  
 **领域**: Agent / 科学信息提取  
 **关键词**: 化学信息提取, 多模态Benchmark, Agent评估, 纳米材料, 小分子
 
@@ -135,6 +135,6 @@ ChemX 包含两个层面：(1) **基准数据集层**——10 个手工标注数
 - [\[AAAI 2026\] ProBench: Benchmarking GUI Agents with Accurate Process Information](../../AAAI2026/llm_agent/probench_benchmarking_gui_agents_with_accurate_process_infor.md)
 - [\[ICML 2025\] TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems](../../ICML2025/llm_agent/tamas_benchmarking_adversarial_risks_in_multi-agent_llm_systems.md)
 - [\[ICLR 2026\] NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents](../../ICLR2026/llm_agent/newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md)
-- [\[NeurIPS 2025\] LC-Opt: Benchmarking Reinforcement Learning and Agentic AI for End-to-End Liquid Cooling Optimization in Data Centers](lc-opt_benchmarking_reinforcement_learning_and_agentic_ai_for_end-to-end_liquid_.md)
+- [\[NeurIPS 2025\] Zero-Shot Large Language Model Agents for Fully Automated Radiotherapy Treatment Planning](zero-shot_large_language_model_agents_for_fully_automated_radiotherapy_treatment.md)
 
 <!-- RELATED:END -->

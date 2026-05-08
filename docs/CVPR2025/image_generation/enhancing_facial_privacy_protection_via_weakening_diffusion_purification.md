@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.10350](https://arxiv.org/abs/2503.10350)  
-**代码**: https://github.com/parham1998/Facial-Privacy-Protection (有)  
+**代码**: [https://github.com/parham1998/Facial-Privacy-Protection](https://github.com/parham1998/Facial-Privacy-Protection)  
 **领域**: 扩散模型 / 人脸隐私保护  
 **关键词**: 人脸隐私保护, 扩散模型, 对抗样本, 扩散净化, 自注意力引导
 
@@ -122,10 +122,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2025\] Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in Diffusion Models](enhancing_privacy-utility_trade-offs_to_mitigate_memorization_in_diffusion_model.md)
 - [\[CVPR 2025\] Divide and Conquer: Heterogeneous Noise Integration for Diffusion-based Adversarial Purification](divide_and_conquer_heterogeneous_noise_integration_for_diffusion-based_adversari.md)
 - [\[CVPR 2025\] Enhancing Creative Generation on Stable Diffusion-based Models](enhancing_creative_generation_on_stable_diffusion-based_models.md)
 - [\[CVPR 2025\] Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models](nearly_zero-cost_protection_against_mimicry_by_personalized_diffusion_models.md)
 - [\[NeurIPS 2025\] Perturb a Model, Not an Image: Towards Robust Privacy Protection via Anti-Personalized Diffusion Models](../../NeurIPS2025/image_generation/perturb_a_model_not_an_image_towards_robust_privacy_protection_via_anti-personal.md)
-- [\[CVPR 2025\] Instant Adversarial Purification with Adversarial Consistency Distillation](instant_adversarial_purification_with_adversarial_consistency_distillation.md)
 
 <!-- RELATED:END -->

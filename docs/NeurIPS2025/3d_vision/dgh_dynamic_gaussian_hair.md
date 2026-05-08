@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.17094](https://arxiv.org/abs/2512.17094)  
 **代码**: [项目页面](https://junyingw.github.io/paper/dgh)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 动态头发建模, 3D Gaussian Splatting, 头发动力学, 新视角合成, 数字人  
 
 ## 一句话总结

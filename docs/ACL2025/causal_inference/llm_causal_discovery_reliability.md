@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 因果发现
-  - LLM可靠性
+  - 因果推理
   - 记忆化
   - 预训练数据
   - 上下文影响
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2407.19638](https://arxiv.org/abs/2407.19638)  
 **代码**: [https://github.com/WilliamsToTo/causality_llm](https://github.com/WilliamsToTo/causality_llm)  
-**领域**: LLM / NLP  
+**领域**: 因果推理  
 **关键词**: 因果发现, LLM可靠性, 记忆化, 预训练数据, 上下文影响  
 
 ## 一句话总结
@@ -115,7 +115,7 @@ tags:
 - [\[NeurIPS 2025\] Revealing Multimodal Causality with Large Language Models](../../NeurIPS2025/causal_inference/revealing_multimodal_causality_with_large_language_models.md)
 - [\[ACL 2025\] Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models](counterfactual-consistency_prompting_for_relative_temporal_understanding_in_larg.md)
 - [\[NeurIPS 2025\] Counterfactual Reasoning for Steerable Pluralistic Value Alignment of Large Language Models](../../NeurIPS2025/causal_inference/counterfactual_reasoning_for_steerable_pluralistic_value_alignment_of_large_lang.md)
-- [\[AAAI 2026\] Hallucinate Less by Thinking More: Aspect-Based Causal Abstention for Large Language Models](../../AAAI2026/causal_inference/hallucinate_less_by_thinking_more_aspect-based_causal_absten.md)
 - [\[ACL 2025\] IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](iris_an_iterative_and_integrated_framework.md)
+- [\[AAAI 2026\] Hallucinate Less by Thinking More: Aspect-Based Causal Abstention for Large Language Models](../../AAAI2026/causal_inference/hallucinate_less_by_thinking_more_aspect-based_causal_absten.md)
 
 <!-- RELATED:END -->

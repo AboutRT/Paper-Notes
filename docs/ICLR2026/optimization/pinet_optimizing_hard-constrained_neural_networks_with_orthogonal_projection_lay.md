@@ -58,9 +58,9 @@ tags:
 1. **约束集分解** → 使投影可计算 → 设计动机是将一般凸约束拆分为易投影的子集
 
    将约束集 $\mathcal{C}$ 表示为 $\mathcal{C} = \Pi_d(\mathcal{A} \cap \mathcal{K})$，其中：
-   - $\mathcal{A}$ 是仿射子空间（超平面），由矩阵 $A$ 和偏移 $b$ 定义
-   - $\mathcal{K} = \mathcal{K}_1 \times \mathcal{K}_2$ 是笛卡尔积形式的简单集合（如盒约束）
-   - 两者各自的投影 $\Pi_\mathcal{A}$ 和 $\Pi_\mathcal{K}$ 都有闭式解
+    - $\mathcal{A}$ 是仿射子空间（超平面），由矩阵 $A$ 和偏移 $b$ 定义
+    - $\mathcal{K} = \mathcal{K}_1 \times \mathcal{K}_2$ 是笛卡尔积形式的简单集合（如盒约束）
+    - 两者各自的投影 $\Pi_\mathcal{A}$ 和 $\Pi_\mathcal{K}$ 都有闭式解
 
    这种分解覆盖了大量实际约束：多面体、二阶锥、稀疏约束、单纯形及其交集等。
 
@@ -69,9 +69,9 @@ tags:
    将投影问题重写为复合优化 $\min_z g(z) + h(z)$，其中 $g = \mathcal{I}_\mathcal{A}$，$h = \|y - y_{raw}\|^2 + \mathcal{I}_\mathcal{K}$。
 
    Douglas-Rachford 迭代：
-   - $z_{k+1} = \Pi_\mathcal{A}(s_k)$（仿射投影，有闭式解）
-   - $t_{k+1} = \Pi_\mathcal{K}(\cdot)$（盒或锥投影，有闭式解）
-   - $s_{k+1} = s_k + \omega(t_{k+1} - z_{k+1})$
+    - $z_{k+1} = \Pi_\mathcal{A}(s_k)$（仿射投影，有闭式解）
+    - $t_{k+1} = \Pi_\mathcal{K}(\cdot)$（盒或锥投影，有闭式解）
+    - $s_{k+1} = s_k + \omega(t_{k+1} - z_{k+1})$
 
    在严格可行性条件下，迭代收敛到真实投影。
 
@@ -175,7 +175,7 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2026\] SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated learning](../../CVPR2026/optimization/scope_semantic_coreset_with_orthogonal_projection_embeddings_for_federated_learn.md)
+- [\[CVPR 2026\] SCOPE: Semantic Coreset with Orthogonal Projection Embeddings for Federated Learning](../../CVPR2026/optimization/scope_semantic_coreset_with_orthogonal_projection.md)
 - [\[AAAI 2026\] Beyond the Mean: Fisher-Orthogonal Projection for Natural Gradient Descent in Large Batch Training](../../AAAI2026/optimization/beyond_the_mean_fisher-orthogonal_projection_for_natural_gradient_descent_in_lar.md)
 - [\[ICLR 2026\] Neural Networks Learn Generic Multi-Index Models Near Information-Theoretic Limit](neural_networks_learn_generic_multi-index_models_near_information-theoretic_limi.md)
 - [\[ICLR 2026\] Directional Convergence, Benign Overfitting of Gradient Descent in leaky ReLU two-layer Neural Networks](directional_convergence_benign_overfitting_of_gradient_descent_in_leaky_relu_two.md)

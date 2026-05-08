@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2506.12633](https://arxiv.org/abs/2506.12633)  
 **作者**: Changhyun Choi, Sungha Kim, H. Jin Kim
 **代码**: [initno official](https://github.com/xiefan-guo/initno)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: inference-time scaling, text-to-image diffusion, initial noise optimization, Best-of-N, performance plateau, attention maps
 
 ## 一句话总结
@@ -171,7 +171,7 @@ tags:
 - [\[NeurIPS 2025\] Remasking Discrete Diffusion Models with Inference-Time Scaling](../../NeurIPS2025/image_generation/remasking_discrete_diffusion_models_with_inference-time_scaling.md)
 - [\[ICML 2025\] One Image is Worth a Thousand Words: A Usability Preservable Text-Image Collaborative Erasing Framework](one_image_is_worth_a_thousand_words_a_usability_preservable_text-image_collabora.md)
 - [\[NeurIPS 2025\] Inference-Time Scaling for Flow Models via Stochastic Generation and Rollover Budget Forcing](../../NeurIPS2025/image_generation/inference-time_scaling_for_flow_models_via_stochastic_generation_and_rollover_bu.md)
-- [\[NeurIPS 2025\] Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities](../../NeurIPS2025/image_generation/progressive_inference-time_annealing_of_diffusion_models_for_sampling_from_boltz.md)
 - [\[CVPR 2026\] Tiny Inference-Time Scaling with Latent Verifiers](../../CVPR2026/image_generation/tiny_inference-time_scaling_with_latent_verifiers.md)
+- [\[NeurIPS 2025\] Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities](../../NeurIPS2025/image_generation/progressive_inference-time_annealing_of_diffusion_models_for_sampling_from_boltz.md)
 
 <!-- RELATED:END -->

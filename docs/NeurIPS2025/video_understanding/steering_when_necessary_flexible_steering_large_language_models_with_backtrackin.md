@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.17621](https://arxiv.org/abs/2508.17621)  
-**代码**: https://github.com/gjw185/FASB  
+**代码**: [https://github.com/gjw185/FASB](https://github.com/gjw185/FASB)  
 **领域**: Video Understanding / LLM Alignment  
 **关键词**: 激活引导, 表征工程, 回溯机制, 真实性, 动态干预
 
@@ -147,6 +147,6 @@ TruthfulQA 开放生成任务（LLaMA2-7B-CHAT）：
 - [\[NeurIPS 2025\] SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models](sama_towards_multi-turn_referential_grounded_video_chat_with_large_language_mode.md)
 - [\[CVPR 2025\] Video Summarization with Large Language Models](../../CVPR2025/video_understanding/video_summarization_with_large_language_models.md)
 - [\[NeurIPS 2025\] Seeing the Arrow of Time in Large Multimodal Models](seeing_the_arrow_of_time_in_large_multimodal_models.md)
-- [\[NeurIPS 2025\] Reinforcement Learning with Backtracking Feedback](reinforcement_learning_with_backtracking_feedback.md)
+- [\[CVPR 2025\] VoCo-LLaMA: Towards Vision Compression with Large Language Models](../../CVPR2025/video_understanding/voco-llama_towards_vision_compression_with_large_language_models.md)
 
 <!-- RELATED:END -->

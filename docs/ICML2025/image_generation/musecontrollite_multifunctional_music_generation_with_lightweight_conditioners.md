@@ -19,7 +19,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.18729](https://arxiv.org/abs/2506.18729)  
-**代码**: https://MuseControlLite.github.io/web/ (有)  
+**代码**: [https://MuseControlLite.github.io/web/](https://MuseControlLite.github.io/web/)  
 **领域**: 扩散模型  
 **关键词**: music generation, controllable generation, diffusion transformer, decoupled cross-attention, positional embedding
 

@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 自监督学习
   - 行为基础模型
-  - 零样本RL
+  - 自监督
   - 潜空间动力学预测
   - 正交正则化
   - 状态特征学习
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.15857](https://arxiv.org/abs/2603.15857)  
 **代码**: 无  
-**领域**: 强化学习 / 表示学习  
+**领域**: 自监督  
 **关键词**: 行为基础模型, 零样本RL, 潜空间动力学预测, 正交正则化, 状态特征学习
 
 ## 一句话总结
@@ -42,17 +42,17 @@ RLDP 的 pipeline 分为两个阶段：
 
 1. **潜空间下一状态预测 (Latent Next-State Prediction)**: 
    给定状态 $s$ 和动作 $a$，编码器 $\phi$ 将状态映射到潜空间 $z = \phi(s)$，动力学模型 $f$ 预测下一个潜状态 $\hat{z}' = f(z, a)$。训练目标是最小化预测误差：
-   $$\mathcal{L}_{\text{dynamics}} = \|f(\phi(s), a) - \phi(s')\|_2^2$$
+    $\mathcal{L}_{\text{dynamics}} = \|f(\phi(s), a) - \phi(s')\|_2^2$
    
    这个目标直觉上会学到对环境动力学有用的特征。然而，作者发现一个退化问题：模型会倾向于让所有状态的特征向量坍塌到相近的方向（即特征相似度增加），因为这可以用很小的幅度变化就编码动力学信息，但代价是大幅缩小特征的 span。
 
 2. **正交正则化 (Orthogonality Regularization)**:
    为防止特征坍塌，RLDP 对特征矩阵施加正交性约束：
-   $$\mathcal{L}_{\text{ortho}} = \|\Phi^T \Phi - I\|_F^2$$
+    $\mathcal{L}_{\text{ortho}} = \|\Phi^T \Phi - I\|_F^2$
    其中 $\Phi$ 是 batch 内所有状态特征组成的矩阵。这一正则化鼓励不同状态的特征尽可能正交，维持特征空间的丰富度和多样性。
 
 3. **总训练目标**:
-   $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{dynamics}} + \lambda \mathcal{L}_{\text{ortho}}$$
+    $\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{dynamics}} + \lambda \mathcal{L}_{\text{ortho}}$
    整个目标函数仅包含潜空间动力学预测和正交正则化两项，远比现有 BFM 方法（如需要前向-后向模型、对比学习、多样性目标等）简单得多。
 
 4. **零样本策略恢复**: 预训练完成后，对于新奖励函数 $r$，利用 successor features 框架：学习到的特征 $\phi(s)$ 使得奖励可以近似为 $r(s) \approx w^T \phi(s)$，通过求解线性回归得到 $w$，再利用 successor features 的线性组合计算 Q 值，从而零样本得到策略。
@@ -128,10 +128,10 @@ RLDP 相对于 SOTA 方法的关键优势在低数据覆盖率场景中更为突
 
 ## 相关论文
 
-- [\[ICML 2025\] Beyond Sensor Data: Foundation Models of Behavioral Data from Wearables Improve Health Predictions](../../ICML2025/self_supervised/beyond_sensor_data_foundation_models_of_behavioral_data_from_wearables_improve_h.md)
-- [\[NeurIPS 2025\] Uncertainty-Guided Model Selection for Tabular Foundation Models in Biomolecule Efficacy Prediction](../../NeurIPS2025/self_supervised/uncertainty-guided_model_selection_for_tabular_foundation_models_in_biomolecule_.md)
 - [\[ICLR 2026\] SNAP-UQ: Self-supervised Next-Activation Prediction for Single-Pass Uncertainty](snap-uq_self-supervised_next-activation_prediction_for_single-pass_uncertainty_i.md)
 - [\[AAAI 2026\] Robust Tabular Foundation Models](../../AAAI2026/self_supervised/robust_tabular_foundation_models.md)
+- [\[ICML 2025\] Beyond Sensor Data: Foundation Models of Behavioral Data from Wearables Improve Health Predictions](../../ICML2025/self_supervised/beyond_sensor_data_foundation_models_of_behavioral_data_from_wearables_improve_h.md)
+- [\[NeurIPS 2025\] Uncertainty-Guided Model Selection for Tabular Foundation Models in Biomolecule Efficacy Prediction](../../NeurIPS2025/self_supervised/uncertainty-guided_model_selection_for_tabular_foundation_models_in_biomolecule_.md)
 - [\[ICML 2025\] AdaWorld: Learning Adaptable World Models with Latent Actions](../../ICML2025/self_supervised/adaworld_learning_adaptable_world_models_with_latent_actions.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.11850](https://arxiv.org/abs/2603.11850)  
 **作者**: Johan Andreas Balle Rubak, Sara Haghighat, Sanyam Jain, Mostafa Aldesoki, Akhilanand Chaurasia, Sarah Sadat Ehsani, Faezeh Dehghan Ghanatkaman, Ahmad Badruddin Ghazali, Julien Issa, Basel Khalil, Rishi Ramani, Ruben Pauwels
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: 第三磨牙, 下颌管, 全景X光片, 联邦学习, 深度学习分类
 
 ## 一句话总结
@@ -150,7 +150,7 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] OmniFM: Toward Modality-Robust and Task-Agnostic Federated Learning for Heterogeneous Medical Imaging](omnifm_toward_modality-robust_and_task-agnostic_federated_learning_for_heterogen.md)
-- [\[CVPR 2026\] Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation](federated_modalityspecific_encoders_and_partially.md)
+- [\[CVPR 2026\] Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation](federated_modality-specific_encoders_and_partially_personalized_fusion_decoder_f.md)
 - [\[CVPR 2026\] Unlocking Multi-Site Clinical Data: A Federated Approach to Privacy-First Child Autism Behavior Analysis](unlocking_multi-site_clinical_data_a_federated_approach_to_privacy-first_child_a.md)
 - [\[CVPR 2026\] Interpretable Cross-Domain Few-Shot Learning with Rectified Target-Domain Local Alignment](interpretable_cross-domain_few-shot_learning_with_rectified_target-domain_local_.md)
 - [\[CVPR 2026\] FedVG: Gradient-Guided Aggregation for Enhanced Federated Learning](fedvg_gradient-guided_aggregation_for_enhanced_federated_learning.md)

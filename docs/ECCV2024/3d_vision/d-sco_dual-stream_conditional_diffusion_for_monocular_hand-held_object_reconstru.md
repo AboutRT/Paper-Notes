@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2311.14189](https://arxiv.org/abs/2311.14189)  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 手持物体重建, 扩散模型, 手-物交互, 双流去噪, 质心固定
 
 ## 一句话总结
@@ -144,6 +144,6 @@ DexYCB 上 F-5 0.63 vs gSDF 的 0.44（+43%）。
 - [\[ECCV 2024\] Deceptive-NeRF/3DGS: Diffusion-Generated Pseudo-observations for High-Quality Sparse-View Reconstruction](deceptive-nerf3dgs_diffusion-generated_pseudo-observations_for_high-quality_spar.md)
 - [\[ECCV 2024\] DiffusionDepth: Diffusion Denoising Approach for Monocular Depth Estimation](diffusiondepth_diffusion_denoising_approach_for_monocular_depth_estimation.md)
 - [\[ECCV 2024\] Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions](diffusion_models_for_monocular_depth_estimation_overcoming_challenging_condition.md)
-- [\[CVPR 2026\] DuoMo: Dual Motion Diffusion for World-Space Human Reconstruction](../../CVPR2026/3d_vision/duomo_dual_motion_diffusion_for_world-space_human_reconstruction.md)
+- [\[ECCV 2024\] NOVUM: Neural Object Volumes for Robust Object Classification](novum_neural_object_volumes_for_robust_object_classification.md)
 
 <!-- RELATED:END -->

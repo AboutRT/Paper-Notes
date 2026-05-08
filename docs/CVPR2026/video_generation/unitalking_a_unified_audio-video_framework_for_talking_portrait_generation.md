@@ -9,7 +9,7 @@ tags:
   - 音视频联合生成
   - Transformer
   - 唇音同步
-  - 语音克隆
+  - 视频生成
 ---
 
 # UniTalking: A Unified Audio-Video Framework for Talking Portrait Generation
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.01418](https://arxiv.org/abs/2603.01418)  
 **代码**: 无  
-**领域**: 视频理解  
+**领域**: 视频生成  
 **关键词**: 说话人生成, 音视频联合生成, 扩散Transformer, 唇音同步, 语音克隆
 
 ## 一句话总结
@@ -176,7 +176,7 @@ tags:
 - [\[CVPR 2026\] UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions](uniavgen_unified_audio_and_video_generation_with_asymmetric_cross-modal_interact.md)
 - [\[CVPR 2026\] U-Mind: A Unified Framework for Real-Time Multimodal Interaction with Audiovisual Generation](u-mind_a_unified_framework_for_real-time_multimodal_interaction_with_audiovisual.md)
 - [\[ICLR 2026\] JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation](../../ICLR2026/video_generation/javisdit_unified_modeling_and_optimization_for_joint_audio-video_generation.md)
+- [\[CVPR 2026\] VideoCoF: Unified Video Editing with Temporal Reasoner](videocof_unified_video_editing_with_temporal_reasoner.md)
 - [\[CVPR 2026\] LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation](linvideo_linear_attention_video_generation.md)
-- [\[CVPR 2026\] PerformRecast: Expression and Head Pose Disentanglement for Portrait Video Editing](performrecast_expression_and_head_pose_disentanglement_for_portrait_video_editin.md)
 
 <!-- RELATED:END -->

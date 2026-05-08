@@ -20,7 +20,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.02216](https://arxiv.org/abs/2603.02216)  
 **代码**: [https://github.com/Quark-Medical/ATPO](https://github.com/Quark-Medical/ATPO)  
-**领域**: 医学对话 / 强化学习  
+**领域**: 医学图像  
 **关键词**: 多轮医疗对话, 树搜索, 策略优化, 不确定性引导, 层级MDP, 值函数估计, LLM对齐  
 
 ## 一句话总结

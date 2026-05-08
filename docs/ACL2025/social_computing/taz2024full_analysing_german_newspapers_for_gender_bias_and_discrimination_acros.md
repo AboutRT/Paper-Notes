@@ -9,7 +9,7 @@ tags:
   - 性别偏见
   - 媒体分析
   - 纵向研究
-  - NER
+  - 社会计算
 ---
 
 # taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades

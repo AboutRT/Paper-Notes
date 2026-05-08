@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.22725](https://arxiv.org/abs/2503.22725)  
-**代码**: https://github.com/Jinxu-Lin/BSCE-GRA  
+**代码**: [https://github.com/Jinxu-Lin/BSCE-GRA](https://github.com/Jinxu-Lin/BSCE-GRA)  
 **领域**: 模型校准  
 **关键词**: 模型校准, 不确定性加权, 梯度缩放, Brier Score, Focal Loss
 

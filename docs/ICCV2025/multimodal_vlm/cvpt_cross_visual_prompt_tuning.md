@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV2025  
 **arXiv**: [2408.14961](https://arxiv.org/abs/2408.14961)  
-**代码**: https://github.com/Lingyun0419/CVPT  
+**代码**: [https://github.com/Lingyun0419/CVPT](https://github.com/Lingyun0419/CVPT)  
 **领域**: 多模态VLM / 参数高效微调  
 **关键词**: Visual Prompt Tuning, Cross-Attention, PEFT, parameter-efficient fine-tuning, Weight Sharing
 

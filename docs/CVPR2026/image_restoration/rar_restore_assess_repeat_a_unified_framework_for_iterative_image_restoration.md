@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 图像恢复
   - 图像修复
-  - 图像质量评估
+  - 图像复原
   - 迭代修复
   - 复合退化
   - 流匹配
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.26385](https://arxiv.org/abs/2603.26385)  
-**代码**: https://restore-assess-repeat.github.io/  
+**代码**: [https://restore-assess-repeat.github.io/](https://restore-assess-repeat.github.io/)  
 **领域**: 图像修复  
 **关键词**: 图像修复, 图像质量评估, 迭代修复, 复合退化, 流匹配
 
@@ -124,7 +124,7 @@ RAR 在感知指标（MANIQA、CLIP-IQA）上大幅领先，速度比 AgenticIR 
 - [\[CVPR 2026\] Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
 - [\[CVPR 2026\] Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration](beyond_ground-truth_leveraging_image_quality_priors_for_real-world_image_restora.md)
 - [\[CVPR 2026\] DRFusion: Degradation-Robust Fusion via Degradation-Aware Diffusion Framework](drfusion_degradation_robust_fusion_via_degradation_aware_diffusion_framework.md)
-- [\[CVPR 2026\] UniRain: Unified Image Deraining with RAG-based Dataset Distillation and Multi-objective Reweighted Optimization](unirain_unified_image_deraining_with_rag_based_dataset_distillation_and_multi_obje.md)
-- [\[ICCV 2025\] MP-HSIR: A Multi-Prompt Framework for Universal Hyperspectral Image Restoration](../../ICCV2025/image_restoration/mp-hsir_a_multi-prompt_framework_for_universal_hyperspectral_image_restoration.md)
+- [\[CVPR 2026\] UniRain: Unified Image Deraining with RAG-based Dataset Distillation and Multi-objective Reweighted Optimization](unirain_unified_image_deraining_with_rag-based_dataset_distillation_and_multi-ob.md)
+- [\[CVPR 2026\] UCAN: Unified Convolutional Attention Network for Expansive Receptive Fields in Lightweight Super-Resolution](ucan_unified_convolutional_attention_lightweight_sr.md)
 
 <!-- RELATED:END -->

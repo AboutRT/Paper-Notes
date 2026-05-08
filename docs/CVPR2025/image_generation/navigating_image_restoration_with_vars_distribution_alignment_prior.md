@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.21063](https://arxiv.org/abs/2412.21063)  
-**代码**: https://github.com/siywang541/Varformer  
+**代码**: [https://github.com/siywang541/Varformer](https://github.com/siywang541/Varformer)  
 **领域**: 图像生成/图像恢复  
 **关键词**: 图像恢复, VAR, 生成先验, 多尺度分布对齐, 通用退化恢复, VarFormer
 

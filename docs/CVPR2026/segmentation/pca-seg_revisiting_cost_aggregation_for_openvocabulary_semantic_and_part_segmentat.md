@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.17520](https://arxiv.org/abs/2603.17520)  
-**代码**: https://github.com/NUST-Machine-Intelligence-Laboratory/PCA-Seg  
+**代码**: [https://github.com/NUST-Machine-Intelligence-Laboratory/PCA-Seg](https://github.com/NUST-Machine-Intelligence-Laboratory/PCA-Seg)  
 **领域**: 语义分割 / 开放词汇分割  
 **关键词**: 开放词汇分割, 代价聚合, 并行架构, 专家驱动学习, 特征正交解耦
 

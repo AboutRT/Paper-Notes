@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.09796](https://arxiv.org/abs/2506.09796)  
-**代码**: https://github.com/mainlp/llm-psychometrics  
+**代码**: [https://github.com/mainlp/llm-psychometrics](https://github.com/mainlp/llm-psychometrics)  
 **领域**: LLM/NLP, 教育评估  
 **关键词**: 心理测量学, 项目反应理论, 经典测试理论, 教育评估, LLM评估
 

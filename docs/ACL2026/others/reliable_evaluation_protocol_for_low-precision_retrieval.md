@@ -2,7 +2,7 @@
 title: >-
   [论文解读] Reliable Evaluation Protocol for Low-Precision Retrieval
 description: >-
-  [ACL2026][检索评估] 揭示低精度检索中的虚假并列问题，提出HPS高精度打分和TRM并列感知指标两种策略实现可靠评估
+  [ACL2026][其他] 揭示低精度检索中的虚假并列问题，提出HPS高精度打分和TRM并列感知指标两种策略实现可靠评估
 tags: [低精度检索, 评估协议, 量化, 并列问题, 检索系统]
 ---
 
@@ -11,7 +11,7 @@ tags: [低精度检索, 评估协议, 量化, 并列问题, 检索系统]
 **会议**: ACL 2026
 **arXiv**: [2508.03306](https://arxiv.org/abs/2508.03306)
 **代码**: 无
-**领域**: 检索评估
+**领域**: 其他
 **关键词**: 低精度检索, 虚假并列, 评估协议, 高精度打分, 并列感知指标
 
 ## 一句话总结
@@ -110,3 +110,15 @@ tags: [低精度检索, 评估协议, 量化, 并列问题, 检索系统]
 - 实验充分度: ⭐⭐⭐⭐ 多打分函数、多精度、多数据集的系统实验设计完善
 - 写作质量: ⭐⭐⭐⭐⭐ 问题阐述非常清晰，解决方案简洁优雅
 - 价值: ⭐⭐⭐⭐ 为低精度检索社区提供了重要的评估基础设施，有实际推动作用
+
+<!-- RELATED:START -->
+
+## 相关论文
+
+- [\[ACL 2025\] Identifying Reliable Evaluation Metrics for Scientific Text Revision](../../ACL2025/others/reliable_eval_metrics_scientific.md)
+- [\[ACL 2025\] SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](../../ACL2025/others/seoe_semantic_eval.md)
+- [\[AAAI 2026\] Whispering Agents: An Event-Driven Covert Communication Protocol for the Internet of Agents](../../AAAI2026/others/whispering_agents_an_event-driven_covert_communication_protocol_for_the_internet.md)
+- [\[ICLR 2026\] Consistent Low-Rank Approximation](../../ICLR2026/others/consistent_low-rank_approximation.md)
+- [\[CVPR 2026\] What Is the Optimal Ranking Score Between Precision and Recall? We Can Always Find It and It Is Rarely F₁](../../CVPR2026/others/what_is_the_optimal_ranking_score_between_precision_and_recall_we_can_always_fin.md)
+
+<!-- RELATED:END -->

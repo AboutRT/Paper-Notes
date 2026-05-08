@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.20288](https://arxiv.org/abs/2505.20288)  
-**代码**: https://github.com/HiDream-ai/himar  
+**代码**: [https://github.com/HiDream-ai/himar](https://github.com/HiDream-ai/himar)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 自回归模型, 层次化生成, 掩码自回归, 全局上下文, Diffusion Transformer Head
 

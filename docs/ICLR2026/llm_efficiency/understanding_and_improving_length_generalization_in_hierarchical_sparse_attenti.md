@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.17196](https://arxiv.org/abs/2510.17196)  
-**代码**: https://github.com/jacky-leng/length-generalizable-sparse-attention  
+**代码**: [https://github.com/jacky-leng/length-generalizable-sparse-attention](https://github.com/jacky-leng/length-generalizable-sparse-attention)  
 **领域**: LLM效率  
 **关键词**: 长上下文, 稀疏注意力, 长度泛化, Chunk-based Attention, Hierarchical Sparse Attention
 
@@ -123,10 +123,10 @@ SWA+HSA（Sliding Window Attention + Hierarchical Sparse Attention）架构：�
 
 ## 相关论文
 
+- [\[ICML 2025\] Fourier Position Embedding: Enhancing Attention's Periodic Extension for Length Generalization](../../ICML2025/llm_efficiency/fourier_position_embedding_enhancing_attentions_periodic_extension_for_length_ge.md)
 - [\[NeurIPS 2025\] Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](../../NeurIPS2025/llm_efficiency/long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)
 - [\[NeurIPS 2025\] Hardware-aligned Hierarchical Sparse Attention for Efficient Long-term Memory Access](../../NeurIPS2025/llm_efficiency/hardware-aligned_hierarchical_sparse_attention_for_efficient_long-term_memory_ac.md)
-- [\[ACL 2025\] Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](../../ACL2025/llm_efficiency/native_sparse_attention.md)
 - [\[ICLR 2026\] LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding](lycheedecode_accelerating_long-context_llm_inference_via_hybrid_speculative_deco.md)
-- [\[ACL 2025\] Squeezed Attention: Accelerating Long Context Length LLM Inference](../../ACL2025/llm_efficiency/squeezed_attention_accelerating_long_context_length_llm_inference.md)
+- [\[ACL 2025\] Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](../../ACL2025/llm_efficiency/native_sparse_attention.md)
 
 <!-- RELATED:END -->

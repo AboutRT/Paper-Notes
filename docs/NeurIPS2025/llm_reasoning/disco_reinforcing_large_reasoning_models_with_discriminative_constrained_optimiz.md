@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.12366](https://arxiv.org/abs/2505.12366)  
-**代码**: https://github.com/Optimization-AI/DisCO  
+**代码**: [https://github.com/Optimization-AI/DisCO](https://github.com/Optimization-AI/DisCO)  
 **领域**: LLM推理  
 **关键词**: GRPO, 判别优化, AUC最大化, 约束优化, 数据不平衡
 

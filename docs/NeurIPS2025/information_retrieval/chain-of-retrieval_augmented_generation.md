@@ -7,7 +7,7 @@ tags:
   - NeurIPS 2025
   - RAG
   - Chain-of-Retrieval
-  - 多跳推理
+  - 信息检索
   - 拒绝采样
   - 检索链
   - 测试时计算扩展
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2501.14342](https://arxiv.org/abs/2501.14342)  
 **代码**: [microsoft/LMOps/corag](https://github.com/microsoft/LMOps/tree/main/corag)  
-**领域**: self_supervised  
+**领域**: 信息检索  
 **关键词**: RAG, Chain-of-Retrieval, 多跳推理, 拒绝采样, 检索链, 测试时计算扩展
 
 ## 一句话总结
@@ -148,8 +148,8 @@ CoRAG-8B 在 9/10 任务上取得 SOTA：Entity Linking (AIDA 93.9)、Slot Filli
 
 - [\[NeurIPS 2025\] Retrieval-Augmented Generation for Reliable Interpretation of Radio Regulations](retrieval-augmented_generation_for_reliable_interpretation_of_radio_regulations.md)
 - [\[NeurIPS 2025\] Reliable Decision Making via Calibration Oriented Retrieval Augmented Generation](reliable_decision_making_via_calibration_oriented_retrieval_augmented_generation.md)
-- [\[NeurIPS 2025\] Windsock is Dancing: Adaptive Multimodal Retrieval-Augmented Generation](windsock_is_dancing_adaptive_multimodal_retrieval-augmented_generation.md)
 - [\[NeurIPS 2025\] Cooperative Retrieval-Augmented Generation for Question Answering: Mutual Information Exchange and Ranking by Contrasting Layers](cooperative_retrieval-augmented_generation_for_question_answering_mutual_informa.md)
 - [\[NeurIPS 2025\] Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering](benchmarking_retrievalaugmented_multimodal_generation_for_do.md)
+- [\[ACL 2025\] Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation](../../ACL2025/information_retrieval/towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md)
 
 <!-- RELATED:END -->

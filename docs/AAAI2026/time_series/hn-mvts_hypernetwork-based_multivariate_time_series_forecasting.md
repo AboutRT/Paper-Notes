@@ -52,7 +52,7 @@ HN-MVTS 在任意基础预测模型之上添加一个超网络模块：
 
 1. **超网络参数生成**：核心思路是只用超网络生成最后预测层的权重，而非整个网络。对于第 $n$ 个通道，最后一层的权重由一个简单的 MLP（甚至可以是线性变换）生成：
 
-   $$\mathbf{W}_K^{(n)} = \mathbf{W}_\phi^{(n)} \cdot \mathbf{z}^{(n)}$$
+    $\mathbf{W}_K^{(n)} = \mathbf{W}_\phi^{(n)} \cdot \mathbf{z}^{(n)}$
 
    其中 $\mathbf{W}_\phi^{(n)} \in \mathbb{R}^{H \times D \times d}$ 是超网络的权重。这种设计的优势在于新增参数量仅为 $N \cdot H \cdot D \cdot d$，远小于为每个通道训练独立模型的参数量。
 
@@ -139,9 +139,9 @@ HN-MVTS 在任意基础预测模型之上添加一个超网络模块：
 
 ## 相关论文
 
-- [\[AAAI 2026\] Transparent Networks for Multivariate Time Series](transparent_networks_for_multivariate_time_series.md)
 - [\[AAAI 2026\] Revitalizing Canonical Pre-Alignment for Irregular Multivariate Time Series Forecasting](revitalizing_canonical_pre-alignment_for_irregular_multivariate_time_series_fore.md)
-- [\[ICLR 2026\] CPiRi: Channel Permutation-Invariant Relational Interaction for Multivariate Time Series Forecasting](../../ICLR2026/time_series/cpiri_channel_permutation-invariant_relational_interaction_for_multivariate_time_se.md)
+- [\[AAAI 2026\] Transparent Networks for Multivariate Time Series](transparent_networks_for_multivariate_time_series.md)
+- [\[ICLR 2026\] CPiRi: Channel Permutation-Invariant Relational Interaction for Multivariate Time Series Forecasting](../../ICLR2026/time_series/cpiri_channel_permutation-invariant_relational_interaction_for_multivariate_time.md)
 - [\[ICLR 2026\] Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval](../../ICLR2026/time_series/enhancing_multivariate_time_series_forecasting_with_global_temporal_retrieval.md)
 - [\[AAAI 2026\] Counterfactual Explainable AI (XAI) Method for Deep Learning-Based Multivariate Time Series Classification](counterfactual_explainable_ai_xai_method_for_deep_learning-based_multivariate_ti.md)
 

@@ -19,7 +19,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2407.14758](https://arxiv.org/abs/2407.14758)  
 **代码**: [AllenXuuu/DISCO](https://github.com/AllenXuuu/DISCO)  
-**领域**: robotics  
+**领域**: 机器人  
 **关键词**: embodied navigation, mobile manipulation, differentiable scene representation, affordance, dual-level control, ALFRED
 
 ## 一句话总结
@@ -151,10 +151,10 @@ DISCO 的优势在于：(1) 可微表示比离散 cell 更鲁棒；(2) 双层控
 
 ## 相关论文
 
+- [\[ECCV 2024\] Octopus: Embodied Vision-Language Programmer from Environmental Feedback](octopus_embodied_vision-language_programmer_from_environmental_feedback.md)
 - [\[ECCV 2024\] Hierarchically Structured Neural Bones for Reconstructing Animatable Objects from Casual Videos](hierarchically_structured_neural_bones_for_reconstructing_animatable_objects_fro.md)
 - [\[ECCV 2024\] AFF-ttention! Affordances and Attention models for Short-Term Object Interaction Anticipation](aff-ttention_affordances_and_attention_models_for_short-term_object_interaction_.md)
 - [\[ECCV 2024\] See and Think: Embodied Agent in Virtual Environment](see_and_think_embodied_agent_in_virtual_environment.md)
 - [\[ECCV 2024\] ReALFRED: An Embodied Instruction Following Benchmark in Photo-Realistic Environments](realfred_an_embodied_instruction_following_benchmark_in_photo-realistic_environm.md)
-- [\[ECCV 2024\] Prioritized Semantic Learning for Zero-shot Instance Navigation](prioritized_semantic_learning_for_zero-shot_instance_navigation.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2410.22330](https://arxiv.org/abs/2410.22330)  
-**代码**: https://github.com/g-luo/vlm_cross_modal_reps  
+**代码**: [https://github.com/g-luo/vlm_cross_modal_reps](https://github.com/g-luo/vlm_cross_modal_reps)  
 **领域**: 多模态VLM  
 **关键词**: 任务向量, 跨模态表征, VLM内部机理, 跨模态迁移, 上下文学习
 

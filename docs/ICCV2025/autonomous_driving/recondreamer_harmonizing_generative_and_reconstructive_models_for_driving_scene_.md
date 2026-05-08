@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.18438](https://arxiv.org/abs/2503.18438)  
-**代码**: https://recondreamer-plus.github.io (项目页面)  
+**代码**: [https://recondreamer-plus.github.io](https://recondreamer-plus.github.io) (项目页面)  
 **领域**: 自动驾驶  
 **关键词**: 驾驶场景重建, 3D高斯溅射, 新视角合成, 域差距弥合, 地面建模
 

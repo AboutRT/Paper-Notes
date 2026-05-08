@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2603.12469](https://arxiv.org/abs/2603.12469)  
 **代码**: [GitHub](https://anonymous.4open.science/r/hrct-report-generation-video-vlm-728C/)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: HRCT 报告生成, 视频语言模型, Chain-of-Thought, DPO, 异常检测, 3D 医学影像
 
 ## 一句话总结

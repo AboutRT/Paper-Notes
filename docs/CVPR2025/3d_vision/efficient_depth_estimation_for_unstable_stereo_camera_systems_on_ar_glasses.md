@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.10013](https://arxiv.org/abs/2411.10013)  
-**代码**: https://github.com/UCI-ISA-Lab/MultiHeadDepth-HomoDepth  
+**代码**: [https://github.com/UCI-ISA-Lab/MultiHeadDepth-HomoDepth](https://github.com/UCI-ISA-Lab/MultiHeadDepth-HomoDepth)  
 **领域**: 3D视觉  
 **关键词**: 立体深度估计, AR眼镜, 代价体积优化, 单应性估计, 矫正位置编码
 

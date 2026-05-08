@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.23502](https://arxiv.org/abs/2603.23502)  
-**代码**: https://github.com/valeoai/OccAny (有)  
+**代码**: [https://github.com/valeoai/OccAny](https://github.com/valeoai/OccAny)  
 **领域**: 自动驾驶  
 **关键词**: 3D占用预测, 泛化, 无约束场景, 视觉几何基础模型, 语义分割
 

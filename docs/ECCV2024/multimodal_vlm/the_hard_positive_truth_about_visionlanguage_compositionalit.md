@@ -10,14 +10,14 @@ tags:
   - CLIP
   - hard positives
   - hard negatives
-  - 视觉-语言对齐
+  - 多模态VLM
 ---
 
 # The Hard Positive Truth About Vision-Language Compositionality
 
 **会议**: ECCV 2024  
 **arXiv**: [2409.17958](https://arxiv.org/abs/2409.17958)  
-**代码**: https://github.com/amitakamath/hard_positives (有)  
+**代码**: [https://github.com/amitakamath/hard_positives](https://github.com/amitakamath/hard_positives)  
 **领域**: 多模态VLM  
 **关键词**: 组合性理解, CLIP, hard positives, hard negatives, 视觉-语言对齐
 
@@ -120,10 +120,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization](addressclip_empowering_visionlanguage_models_for_citywide_im.md)
 - [\[ECCV 2024\] Quantized Prompt for Efficient Generalization of Vision-Language Models](quantized_prompt_for_efficient_generalization_of_visionlangu.md)
-- [\[ECCV 2024\] Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models](omniviewtuning_boosting_viewpoint_invariance_of_visionlangua.md)
+- [\[ECCV 2024\] AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization](addressclip_empowering_visionlanguage_models_for_citywide_im.md)
+- [\[ECCV 2024\] Omniview-Tuning: Boosting Viewpoint Invariance of Vision-Language Pre-training Models](omniview-tuning_boosting_viewpoint_invariance_of_vision-language_pre-training_mo.md)
 - [\[ECCV 2024\] MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection](marvelovd_marrying_object_recognition_and_visionlanguage_mod.md)
-- [\[ECCV 2024\] Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs](metaprompting_for_automating_zeroshot_visual_recognitio.md)
+- [\[ECCV 2024\] CLAP: Isolating Content from Style Through Contrastive Learning with Augmented Prompts](clap_isolating_content_from_style_through_contrastive_learni.md)
 
 <!-- RELATED:END -->

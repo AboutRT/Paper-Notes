@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.23504](https://arxiv.org/abs/2602.23504)  
-**代码**: https://tinyurl.com/2rbkb3zu  
+**代码**: [https://tinyurl.com/2rbkb3zu](https://tinyurl.com/2rbkb3zu)  
 **领域**: 优化 / 联邦学习  
 **关键词**: 聚类联邦学习, 数据异构性, 双编码器架构, 跨集群知识共享, 自适应聚类
 

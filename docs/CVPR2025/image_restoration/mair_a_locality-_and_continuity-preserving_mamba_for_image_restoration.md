@@ -20,7 +20,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.20066](https://arxiv.org/abs/2412.20066)  
 **代码**: [GitHub](https://github.com/XLearning-SCU/2025-CVPR-MaIR)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: Mamba, state space model, image restoration, scanning strategy, NSS, SSA, super-resolution, denoising
 
 ## 一句话总结

@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2411.12164](https://arxiv.org/abs/2411.12164)  
 **代码**: [tsinghua-fib-lab/UrbanDiT](https://github.com/tsinghua-fib-lab/UrbanDiT)  
-**领域**: time_series  
+**领域**: 时间序列  
 **关键词**: Diffusion Transformer, Spatiotemporal Foundation Model, Urban Computing, Prompt Learning, Zero-shot
 
 ## 一句话总结
@@ -155,9 +155,9 @@ UrbanDiT 是唯一在所有五个维度上都满足的模型。与 CSDI（第二
 ## 相关论文
 
 - [\[NeurIPS 2025\] Diffusion Transformers for Imputation: Statistical Efficiency and Uncertainty Quantification](diffusion_transformers_for_imputation_statistical_efficiency_and_uncertainty_qua.md)
+- [\[NeurIPS 2025\] BubbleFormer: Forecasting Boiling with Transformers](bubbleformer_forecasting_boiling_with_transformers.md)
 - [\[ICLR 2026\] Relational Feature Caching for Accelerating Diffusion Transformers](../../ICLR2026/time_series/relational_feature_caching_for_accelerating_diffusion_transformers.md)
-- [\[NeurIPS 2025\] How Foundational are Foundation Models for Time Series Forecasting?](how_foundational_are_foundation_models_for_time_series_forecasting.md)
 - [\[NeurIPS 2025\] SEMPO: Lightweight Foundation Models for Time Series Forecasting](sempo_lightweight_foundation_models_for_time_series_forecasting.md)
-- [\[NeurIPS 2025\] In-Context Learning of Stochastic Differential Equations with Foundation Inference Models](in-context_learning_of_stochastic_differential_equations_with_foundation_inferen.md)
+- [\[NeurIPS 2025\] How Foundational are Foundation Models for Time Series Forecasting?](how_foundational_are_foundation_models_for_time_series_forecasting.md)
 
 <!-- RELATED:END -->

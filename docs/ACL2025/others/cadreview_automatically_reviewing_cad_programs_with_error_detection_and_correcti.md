@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - CAD 程序审查
   - 3D 建模
-  - 多模态大语言模型
+  - 其他
   - 错误检测与纠正
   - 几何组件识别
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.22304](https://arxiv.org/abs/2505.22304)  
 **代码**: [有](https://cgl-pro.github.io/cadreview)  
-**领域**: NLP / 多模态代码编辑  
+**领域**: 其他  
 **关键词**: CAD 程序审查, 3D 建模, 多模态大语言模型, 错误检测与纠正, 几何组件识别
 
 ## 一句话总结
@@ -165,10 +165,10 @@ $$\mathcal{L}_{sgo} = w_i \cdot \mathcal{L}_i, \quad w_i = \begin{cases} 2, & \t
 
 ## 相关论文
 
-- [\[ACL 2025\] SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
-- [\[NeurIPS 2025\] On Agnostic PAC Learning in the Small Error Regime](../../NeurIPS2025/others/on_agnostic_pac_learning_in_the_small_error_regime.md)
 - [\[ACL 2025\] LegalReasoner: Step-wised Verification-Correction for Legal Judgment Reasoning](legalreasoner_step-wised_verification-correction_for_legal_judgment_reasoning.md)
 - [\[ACL 2025\] LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers](ladder_language-driven_slice_discovery_and_error_rectification_in_vision_classif.md)
 - [\[ICML 2025\] How Do Transformers Learn Variable Binding in Symbolic Programs?](../../ICML2025/others/how_do_transformers_learn_variable_binding_in_symbolic_programs.md)
+- [\[ACL 2025\] Zero-Shot Conversational Stance Detection: Dataset and Approaches](zero-shot_conversational_stance_detection_dataset_and_approaches.md)
+- [\[NeurIPS 2025\] On Agnostic PAC Learning in the Small Error Regime](../../NeurIPS2025/others/on_agnostic_pac_learning_in_the_small_error_regime.md)
 
 <!-- RELATED:END -->

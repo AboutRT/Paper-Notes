@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.03011](https://arxiv.org/abs/2504.03011)  
-**代码**: https://junyingw.github.io/paper/relighting (项目页)  
+**代码**: [https://junyingw.github.io/paper/relighting](https://junyingw.github.io/paper/relighting) (项目页)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 人体重光照, 背景协调, 粗到精扩散, 时间一致性, 视频重光照
 

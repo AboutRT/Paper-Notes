@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.24646](https://arxiv.org/abs/2505.24646)  
 **代码**: [https://github.com/dukesun99/ACL-PRISM](https://github.com/dukesun99/ACL-PRISM)  
-**领域**: 可解释性 / 政治偏见嵌入  
+**领域**: 信息检索  
 **关键词**: 政治偏见嵌入、可解释嵌入、交叉编码器、偏见分类、多样化检索
 
 ## 一句话总结

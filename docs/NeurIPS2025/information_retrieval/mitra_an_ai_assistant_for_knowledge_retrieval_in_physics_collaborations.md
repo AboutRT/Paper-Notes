@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2603.09800](https://arxiv.org/abs/2603.09800)  
 **代码**: 待确认  
-**领域**: llm_nlp  
+**领域**: 信息检索  
 **关键词**: RAG, 科学协作, 本地部署, 知识检索, 物理实验
 
 ## 一句话总结
@@ -152,9 +152,9 @@ MITRA 的工作流程分为**离线数据库创建**和**在线推理**两部分
 ## 相关论文
 
 - [\[CVPR 2025\] LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant](../../CVPR2025/information_retrieval/lamra_large_multimodal_model_as_your_advanced_retrieval_assistant.md)
-- [\[NeurIPS 2025\] Mind the Gap: Aligning Knowledge Bases with User Needs to Enhance Mental Health Retrieval](mind_the_gap_aligning_knowledge_bases_with_user_needs_to_enhance_mental_health_r.md)
 - [\[NeurIPS 2025\] HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation](hypergraphrag_retrieval-augmented_generation_via_hypergraph-structured_knowledge.md)
 - [\[ACL 2025\] HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases](../../ACL2025/information_retrieval/hybgrag_hybrid_rag_skb.md)
 - [\[ACL 2025\] Parenting: Optimizing Knowledge Selection of Retrieval-Augmented Language Models with Parameter Decoupling and Tailored Tuning](../../ACL2025/information_retrieval/parenting_optimizing_knowledge_selection_of_retrievalaugmented.md)
+- [\[NeurIPS 2025\] Retrieval-Augmented Generation for Reliable Interpretation of Radio Regulations](retrieval-augmented_generation_for_reliable_interpretation_of_radio_regulations.md)
 
 <!-- RELATED:END -->

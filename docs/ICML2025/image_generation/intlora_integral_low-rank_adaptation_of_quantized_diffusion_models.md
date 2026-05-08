@@ -19,7 +19,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2410.21759](https://arxiv.org/abs/2410.21759)  
 **代码**: [csguoh/IntLoRA](https://github.com/csguoh/IntLoRA)  
-**领域**: 扩散模型量化  
+**领域**: 图像生成  
 **关键词**: LoRA, 网络量化, 扩散模型, 低秩适配, 整数运算, 推理加速
 
 ## 一句话总结

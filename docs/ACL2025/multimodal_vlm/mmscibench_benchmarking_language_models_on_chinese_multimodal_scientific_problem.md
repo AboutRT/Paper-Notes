@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 科学推理基准
+  - 多模态VLM
   - 多模态评估
   - 中文科学题
   - 视觉-语言模型
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.01891](https://arxiv.org/abs/2503.01891)  
 **代码**: [GitHub](https://github.com/xinwuye/MMSciBench-code) | [HuggingFace](https://huggingface.co/datasets/XinwuYe/MMSciBench)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 科学推理基准, 多模态评估, 中文科学题, 视觉-语言模型, 数学物理推理
 
 ## 一句话总结
@@ -198,8 +198,8 @@ MMSciBench 在中文科学基准中独特地结合了多模态评估、三级知
 
 - [\[ACL 2025\] AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models](alignmmbench_evaluating_chinese_multimodal_alignment_in_large_vision-language_mo.md)
 - [\[ACL 2025\] SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](sciver_evaluating_foundation_models_for_multimodal_scientific_claim_verification.md)
-- [\[ACL 2025\] PunchBench: Benchmarking MLLMs in Multimodal Punchline Comprehension](punchbench_mllm_punchline.md)
-- [\[ACL 2025\] Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach](multimodal_coreference_resolution_for_chinese_social_media_dialogues_dataset_and.md)
-- [\[ACL 2025\] Table Understanding and (Multimodal) LLMs: A Cross-Domain Case Study on Scientific Tables](table_understanding_and_multimodal_llms_a_cross-domain_case_study_on_scientific_.md)
+- [\[ACL 2025\] MMINA: Benchmarking Multihop Multimodal Internet Agents](mmina_benchmarking_multihop_multimodal_internet_agents.md)
+- [\[ICML 2025\] Reasoning Limitations of Multimodal Large Language Models. A Case Study of Bongard Problems](../../ICML2025/multimodal_vlm/reasoning_limitations_of_multimodal_large_language_models_a_case_study_of_bongar.md)
+- [\[ACL 2025\] Can MLLMs Understand the Deep Implication Behind Chinese Images?](can_mllms_understand_the_deep_implication_behind_chinese_images.md)
 
 <!-- RELATED:END -->

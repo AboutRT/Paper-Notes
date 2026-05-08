@@ -47,7 +47,7 @@ $$f(\mathbf{x}) = (\mathcal{Y}_{\text{pred}}, \mathbf{p})$$
 ### 关键设计
 1. **时间序列分解**: 将输入历史 $\mathbf{x} \in \mathbb{R}^{L \times D}$ 通过移动平均分解为趋势分量 $\mathbf{x}_{\text{trend}}$ 和季节分量 $\mathbf{x}_{\text{season}}$。
 2. **趋势+季节线性层**: 趋势层生成 $M$ 个趋势预测，季节层生成 $K$ 个季节预测，通过组合得到 $N = M \times K$ 个场景：
-   $$\mathcal{Y}_{\text{pred}} = \{\mathbf{y}_{t,m} + \mathbf{y}_{s,k} \mid m \in [M], k \in [K]\}$$
+    $\mathcal{Y}_{\text{pred}} = \{\mathbf{y}_{t,m} + \mathbf{y}_{s,k} \mid m \in [M], k \in [K]\}$
    这种组合设计使参数复杂度仅为 $\mathcal{O}(\sqrt{N})$，远优于直接生成 $N$ 个场景。
 3. **概率层**: 第三个线性层以原始未分解历史为输入，输出 $N$ 维 logits 向量 $\boldsymbol{\pi}$，经 Softmax 转为概率向量。
 
@@ -126,9 +126,9 @@ $N=625$ 时性能收益趋于饱和。
 ## 相关论文
 
 - [\[AAAI 2026\] Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios](../../AAAI2026/time_series/scaling_llm_speculative_decoding_non-autoregressive_forecasting_in_large-batch_s.md)
+- [\[AAAI 2026\] ProbFM: Probabilistic Time Series Foundation Model with Uncertainty Decomposition](../../AAAI2026/time_series/probfm_probabilistic_time_series_foundation_model_with_uncertainty_decomposition.md)
 - [\[ICML 2025\] Winner-takes-all for Multivariate Probabilistic Time Series Forecasting](../../ICML2025/time_series/winner-takes-all_for_multivariate_probabilistic_time_series_forecasting.md)
 - [\[NeurIPS 2025\] Benchmarking Probabilistic Time Series Forecasting Models on Neural Activity](../../NeurIPS2025/time_series/benchmarking_probabilistic_time_series_forecasting_models_on_neural_activity.md)
 - [\[ICML 2025\] Risk and Cross Validation in Ridge Regression with Correlated Samples](../../ICML2025/time_series/risk_and_cross_validation_in_ridge_regression_with_correlated_samples.md)
-- [\[NeurIPS 2025\] AERO: A Redirection-Based Optimization Framework Inspired by Judo for Robust Probabilistic Forecasting](../../NeurIPS2025/time_series/aero_a_redirection-based_optimization_framework_inspired_by_judo_for_robust_prob.md)
 
 <!-- RELATED:END -->

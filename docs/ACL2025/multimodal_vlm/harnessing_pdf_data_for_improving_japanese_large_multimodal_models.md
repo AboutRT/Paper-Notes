@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 多模态
-  - 日语大模型
+  - 多模态VLM
   - PDF数据
   - 多模态训练
   - 数据管道
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.14778](https://arxiv.org/abs/2502.14778)  
-**代码**: https://github.com/ku21fan/PDF-JLMM (有)  
+**代码**: [https://github.com/ku21fan/PDF-JLMM](https://github.com/ku21fan/PDF-JLMM)  
 **领域**: Multimodal / VLM  
 **关键词**: 日语大模型, PDF数据, 多模态训练, 数据管道, 持续微调
 
@@ -148,10 +148,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Error-driven Data-efficient Large Multimodal Model Tuning](error-driven_data-efficient_large_multimodal_model_tuning.md)
 - [\[ACL 2025\] Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback](improving_medical_large_vision-language_models_with_abnormal-aware_feedback.md)
 - [\[ACL 2025\] Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning](benchmarking_and_improving_large_vision-language_models_for_fundamental_visual_g.md)
 - [\[ICCV 2025\] CompCap: Improving Multimodal Large Language Models with Composite Captions](../../ICCV2025/multimodal_vlm/compcap_improving_multimodal_large_language_models_with_composite_captions.md)
-- [\[ACL 2025\] CoSyn: Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation](cosyn_code_guided_synthetic_data.md)
+- [\[ACL 2025\] Error-driven Data-efficient Large Multimodal Model Tuning](error-driven_data-efficient_large_multimodal_model_tuning.md)
+- [\[ACL 2025\] MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval](megapairs_massive_data_synthesis_for_universal_multimodal_retrieval.md)
 
 <!-- RELATED:END -->

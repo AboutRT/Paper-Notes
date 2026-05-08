@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2503.24378](https://arxiv.org/abs/2503.24378)  
 **代码**: [https://ibm.github.io/ACPBench](https://ibm.github.io/ACPBench)  
-**领域**: LLM推理 / 规划  
+**领域**: 模型压缩  
 **关键词**: planning benchmark, PDDL, generative evaluation, symbolic validator, action reasoning
 
 ## 一句话总结
@@ -135,10 +135,10 @@ ACPBench Hard 将规划能力分解为动作级、状态级、计划级三个层
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning](../../NeurIPS2025/model_compression/expo_unlocking_hard_reasoning_with_self-explanation-guided_reinforcement_learnin.md)
 - [\[ICLR 2026\] Efficient Reasoning with Balanced Thinking](efficient_reasoning_with_balanced_thinking.md)
-- [\[ICLR 2026\] A State-Transition Framework for Efficient LLM Reasoning](a_state-transition_framework_for_efficient_llm_reasoning.md)
 - [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](../../CVPR2026/model_compression/quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
-- [\[ICLR 2026\] BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models](beyondbench_contamination-resistant_evaluation_of_reasoning_in_language_models.md)
+- [\[ICLR 2026\] A State-Transition Framework for Efficient LLM Reasoning](a_state-transition_framework_for_efficient_llm_reasoning.md)
+- [\[AAAI 2026\] Satisficing and Optimal Generalised Planning via Goal Regression (Extended Version)](../../AAAI2026/model_compression/satisficing_and_optimal_generalised_planning_via_goal_regression_extended_versio.md)
+- [\[CVPR 2026\] Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model](../../CVPR2026/model_compression/planning_in_8_tokens_a_compact_discrete_tokenizer_for_latent_world_model.md)
 
 <!-- RELATED:END -->

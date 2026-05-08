@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.13552](https://arxiv.org/abs/2604.13552)  
-**代码**: https://github.com/KevinSCUTer/TF-TTCL  
+**代码**: [https://github.com/KevinSCUTer/TF-TTCL](https://github.com/KevinSCUTer/TF-TTCL)  
 **领域**: 模型压缩/测试时适应  
 **关键词**: 测试时适应, 对比学习, 无训练适应, 经验规则, 多智能体
 
@@ -132,6 +132,6 @@ TF-TTCL 在闭合题推理任务和开放题评估任务上均一致优于 zero-
 - [\[CVPR 2026\] TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery](../../CVPR2026/model_compression/talon_test-time_adaptive_learning_for_on-the-fly_category_discovery.md)
 - [\[ACL 2026\] SeLaR: Selective Latent Reasoning in Large Language Models](selar_selective_latent_reasoning_in_large_language_models.md)
 - [\[ACL 2026\] Compositional Steering of Large Language Models with Steering Tokens](compositional_steering_of_large_language_models_with_steering_tokens.md)
-- [\[AAAI 2026\] Correcting False Alarms from Unseen: Adapting Graph Anomaly Detectors at Test Time](../../AAAI2026/model_compression/correcting_false_alarms_from_unseen_adapting_graph_anomaly_detectors_at_test_tim.md)
+- [\[ACL 2026\] JudgeMeNot: Personalizing Large Language Models to Emulate Judicial Reasoning in Hebrew](judgemenot_personalizing_large_language_models_to_emulate_judicial_reasoning_in_.md)
 
 <!-- RELATED:END -->

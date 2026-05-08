@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - learning curves
-  - scaling laws
+  - LLM评测
   - model selection
   - ill-behavior
   - tabular data
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.15657](https://arxiv.org/abs/2505.15657)  
 **代码**: [GitHub](https://github.com/learning-curve-research/LCDB-1.1)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: learning curves, scaling laws, model selection, ill-behavior, tabular data, benchmark
 
 ## 一句话总结
@@ -174,7 +174,7 @@ $$\epsilon_{\text{conv}} = \max\left(0, \max_{1 \leq h < i < j \leq N} (C(n_i) -
 - [\[NeurIPS 2025\] Thought Communication in Multiagent Collaboration](thought_communication_in_multiagent_collaboration.md)
 - [\[NeurIPS 2025\] CLIMB: Class-Imbalanced Learning Benchmark on Tabular Data](climb_class-imbalanced_learning_benchmark_on_tabular_data.md)
 - [\[ACL 2025\] FinanceReasoning: Benchmarking Financial Numerical Reasoning More Credible, Comprehensive and Challenging](../../ACL2025/llm_evaluation/financereasoning_benchmarking_financial_numerical_reasoning_more.md)
-- [\[NeurIPS 2025\] EvaLearn: Quantifying the Learning Capability and Efficiency of LLMs via Sequential Problem Solving](evalearn_quantifying_the_learning_capability_and_efficiency_of_llms_via_sequenti.md)
-- [\[ACL 2025\] WiCkeD: A Simple Method to Make Multiple Choice Benchmarks More Challenging](../../ACL2025/llm_evaluation/wicked_a_simple_method_to_make_multiple_choice_benchmarks_more_challenging.md)
+- [\[ACL 2025\] CoPrUS: Consistency Preserving Utterance Synthesis Towards More Realistic Benchmark](../../ACL2025/llm_evaluation/coprus_consistency_preserving_utterance_synthesis_towards_more_realistic_benchma.md)
+- [\[NeurIPS 2025\] Learning Generalizable Shape Completion with SIM(3) Equivariance](learning_generalizable_shape_completion_with_sim3_equivariance.md)
 
 <!-- RELATED:END -->

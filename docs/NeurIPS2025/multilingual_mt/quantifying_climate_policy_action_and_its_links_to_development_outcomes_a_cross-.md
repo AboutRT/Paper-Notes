@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Quantifying Climate Policy Action and Its Links to Development Outcomes: A Cross-National Data-Driven Analysis
 description: >-
-  [NeurIPS 2025][气候政策] 本文构建了一个NLP-计量经济学一体化框架，先用微调的多语言DistilBERT对全球气候政策文档按主题（减缓/适应/灾害风险管理/损失与损害）自动分类（F1=0.90），再与世界银行发展指标做固定效应面板回归，发现减缓政策与较高GDP/GNI显著正相关，而损失与损害政策全球仍然缺乏实质性实施。
+  [NeurIPS 2025][多语言翻译] 本文构建了一个NLP-计量经济学一体化框架，先用微调的多语言DistilBERT对全球气候政策文档按主题（减缓/适应/灾害风险管理/损失与损害）自动分类（F1=0.90），再与世界银行发展指标做固定效应面板回归，发现减缓政策与较高GDP/GNI显著正相关，而损失与损害政策全球仍然缺乏实质性实施。
 tags:
   - NeurIPS 2025
-  - 气候政策
+  - 多语言翻译
   - 文本分类
   - DistilBERT
   - 面板回归
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.17425](https://arxiv.org/abs/2510.17425)  
 **代码**: [GitHub](https://github.com/booktrackerGirl/climate_change_policy_analysis)  
-**领域**: NLP应用 / 社会计算  
+**领域**: 多语言翻译  
 **关键词**: 气候政策, 文本分类, DistilBERT, 面板回归, 跨国分析
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[ACL 2025\] LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation](../../ACL2025/multilingual_mt/laca_crosslingual_absa.md)
 - [\[ACL 2025\] Comparative Analysis of Multilingual Hate Speech Detection](../../ACL2025/multilingual_mt/comparative_analysis_of_multilingual_hate_speech_detection.md)
-- [\[NeurIPS 2025\] Enhancing Multilingual LLM Pretraining with Model-Based Data Selection](enhancing_multilingual_llm_pretraining_with_model-based_data_selection.md)
-- [\[NeurIPS 2025\] How Data Mixing Shapes In-Context Learning: Asymptotic Equivalence for Transformers with MLPs](how_data_mixing_shapes_in-context_learning_asymptotic_equivalence_for_transforme.md)
 - [\[NeurIPS 2025\] DCAD-2000: A Multilingual Dataset across 2000+ Languages with Data Cleaning as Anomaly Detection](dcad-2000_a_multilingual_dataset_across_2000_languages_with_data_cleaning_as_ano.md)
+- [\[ACL 2025\] SeqPO-SiMT: Sequential Policy Optimization for Simultaneous Machine Translation](../../ACL2025/multilingual_mt/seqpo-simt_sequential_policy_optimization_for_simultaneous_machine_translation.md)
+- [\[NeurIPS 2025\] Enhancing Multilingual LLM Pretraining with Model-Based Data Selection](enhancing_multilingual_llm_pretraining_with_model-based_data_selection.md)
 
 <!-- RELATED:END -->

@@ -49,7 +49,7 @@ VaMP由三个核心组件构成：(1) 基于图像特征的样本特异性提示
 
    不同于MaPLe/MMRL使用固定共享提示，VaMP根据输入图像动态生成文本侧提示。给定输入图像 $x$，首先通过冻结的CLIP图像编码器提取全局表征 $f_x$，然后使用 $H$ 个层特定的MLP生成器 $\{\Phi_i\}$ 为各Transformer层产生提示token：
 
-   $$z_i = \Phi_i(f_x) \in \mathbb{R}^{M \times d}, \quad i = J, \dots, J+H-1$$
+    $z_i = \Phi_i(f_x) \in \mathbb{R}^{M \times d}, \quad i = J, \dots, J+H-1$
 
    视觉侧则使用共享的可学习提示token $\tilde{z}_i$，跨样本不变。这种非对称设计使文本侧能实现实例级适应，而视觉侧保持稳定的共享表征。
 
@@ -57,11 +57,11 @@ VaMP由三个核心组件构成：(1) 基于图像特征的样本特异性提示
 
    核心创新是将文本侧提示 $z_i$ 从确定性参数升级为**隐变量**。对每层引入一个MLP $\phi_i$ 预测后验分布参数：
 
-   $$[\mu_i, \sigma_i] = \phi_i(\bar{f}_x), \quad q_\phi(z_i|x) = \mathcal{N}(\mu_i, \text{diag}(\sigma_i^2))$$
+    $[\mu_i, \sigma_i] = \phi_i(\bar{f}_x), \quad q_\phi(z_i|x) = \mathcal{N}(\mu_i, \text{diag}(\sigma_i^2))$
 
    训练目标最大化变分证据下界（ELBO）：
 
-   $$\mathcal{L}_{\text{ELBO}} = \mathbb{E}_{q_\phi(z|x)}[\log p(y|x,t,z)] - \text{KL}(q_\phi(z|x) \| p(z))$$
+    $\mathcal{L}_{\text{ELBO}} = \mathbb{E}_{q_\phi(z|x)}[\log p(y|x,t,z)] - \text{KL}(q_\phi(z|x) \| p(z))$
 
    通过重参数化技巧 $z_i = \mu_i + \sigma_i \odot \epsilon_i$ 实现端到端训练。推理时通过蒙特卡罗采样 $S=10$ 次并平均预测结果，实现推理时集成。
 
@@ -69,7 +69,7 @@ VaMP由三个核心组件构成：(1) 基于图像特征的样本特异性提示
 
    标准高斯先验 $\mathcal{N}(0, I)$ 缺乏语义结构。VaMP构建类感知先验以提供全局语义锚定。训练时计算每类样本后验均值的类原型 $o_y$，再通过层特定的先验网络 $\psi_i$ 映射为先验分布参数：
 
-   $$[\hat{\mu}_i, \hat{\sigma}_i] = \psi_i(c_y), \quad p_\psi(z_i|o_y) = \mathcal{N}(\hat{\mu}_i, \text{diag}(\hat{\sigma}_i^2))$$
+    $[\hat{\mu}_i, \hat{\sigma}_i] = \psi_i(c_y), \quad p_\psi(z_i|o_y) = \mathcal{N}(\hat{\mu}_i, \text{diag}(\hat{\sigma}_i^2))$
 
    最终ELBO在各层上求和，使同类样本的提示分布在隐空间中聚集，提升类内一致性。测试时因标签不可用，退化为标准高斯先验。
 

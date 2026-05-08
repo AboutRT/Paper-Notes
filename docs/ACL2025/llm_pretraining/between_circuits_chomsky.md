@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.19249](https://arxiv.org/abs/2502.19249)  
 **代码**: [GitHub](https://github.com/michahu/pre-pretraining)  
-**领域**: 语言模型预训练 / 形式语言 / 数据效率  
+**领域**: LLM预训练  
 **关键词**: pre-pretraining, 形式语言, Chomsky层级, 电路复杂度, 归纳偏置
 
 ## 一句话总结

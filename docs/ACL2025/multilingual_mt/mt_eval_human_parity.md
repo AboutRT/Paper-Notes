@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 机器翻译评估
   - 人类基线
-  - 元评估
+  - 多语言翻译
   - 自动指标
   - 人类对等
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.19571](https://arxiv.org/abs/2506.19571)  
 **代码**: [https://github.com/SapienzaNLP/human-parity-mt-eval](https://github.com/SapienzaNLP/human-parity-mt-eval)  
-**领域**: NLP 理解  
+**领域**: 多语言翻译  
 **关键词**: 机器翻译评估, 人类基线, 元评估, 自动指标, 人类对等  
 
 ## 一句话总结
@@ -121,9 +121,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Accessible Machine Translation Evaluation For Low-Resource Languages](accessible_machine_translation_evaluation_for_low-resource_languages.md)
-- [\[ACL 2025\] M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation](m-mad_multidimensional_multi-agent_debate_for_advanced_machine_translation_evalu.md)
+- [\[ACL 2025\] Rethinking Evaluation Metrics for Grammatical Error Correction: Why Use a Different Evaluation Process than Human?](rethinking_evaluation_metrics_for_grammatical_error_correction_why_use_a_differe.md)
 - [\[ACL 2025\] AskQE: Question Answering as Automatic Evaluation for Machine Translation](askqe_question_answering_as_automatic_evaluation_for_machine_translation.md)
 - [\[ACL 2025\] Machine Translation Models are Zero-Shot Detectors of Translation Direction](machine_translation_models_are_zero-shot_detectors_of_translation_direction.md)
-- [\[ACL 2025\] Context Augmented Token-Level Post-Editing for Human Interpreting](context_augmented_token-level_post-editing_for_human_interpreting.md)
+- [\[ACL 2025\] Exploring In-Image Machine Translation with Real-World Background](exploring_in-image_machine_translation_with_real-world_background.md)
 
 <!-- RELATED:END -->

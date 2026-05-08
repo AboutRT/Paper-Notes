@@ -61,16 +61,16 @@ $$\mathbf{A}_{t \to v} = \text{Attn}(h_t', h_v', h_v'), \quad \mathbf{A}_{v \to 
 
     - **Sentence-to-Evidence**：将每个生成句子 $\hat{s}_i$ 与临床证据集 $\mathcal{E}=\{e_1,\ldots,e_K\}$ 做多对多匹配。采用多正例 InfoNCE 损失，双向计算（evidence→sentence + sentence→evidence）：
 
-   $$\mathcal{L}_{\text{SE}} = \frac{1}{N}\sum_{i=1}^{N}(\ell_i^{e \to s} + \ell_i^{s \to e})$$
+    $\mathcal{L}_{\text{SE}} = \frac{1}{N}\sum_{i=1}^{N}(\ell_i^{e \to s} + \ell_i^{s \to e})$
 
-   - **Evidence-to-Anatomy**：如果证据带有解剖指针，用 evidence-conditioned 3D 分割网络定位对应脑区。在 Segformer3D decoder 每层的 self-attention 后插入轻量 cross-attention block，使视觉 token attend to 证据文本 token，输出体素级概率掩码 $\hat{\mathbf{M}}_i = \sigma(\text{Head}(\mathbf{Y}^{(L)}))$，用 Dice + BCE 损失训练
+    - **Evidence-to-Anatomy**：如果证据带有解剖指针，用 evidence-conditioned 3D 分割网络定位对应脑区。在 Segformer3D decoder 每层的 self-attention 后插入轻量 cross-attention block，使视觉 token attend to 证据文本 token，输出体素级概率掩码 $\hat{\mathbf{M}}_i = \sigma(\text{Head}(\mathbf{Y}^{(L)}))$，用 Dice + BCE 损失训练
 
 2. **GTX-Distill（Grounding Transfer Distillation）**：标签高效的 grounding 蒸馏策略
 
     - **Stage 1**：在小规模标注子集上训练 Teacher Grounder $G_T$，学习 sentence→evidence 分布 $q(e|s_i)$ 和解剖掩码
     - **Stage 2**：冻结 $G_T$，在大规模模型生成报告上训练 Student Grounder $G_\theta$，通过温度缩放 KL 散度蒸馏：
 
-   $$\mathcal{L}^{\text{distill}} = \tau^2 \sum_i \text{KL}(q_\tau(\cdot|\hat{s}_i) \| p_{\theta,\tau}(\cdot|\hat{s}_i))$$
+    $\mathcal{L}^{\text{distill}} = \tau^2 \sum_i \text{KL}(q_\tau(\cdot|\hat{s}_i) \| p_{\theta,\tau}(\cdot|\hat{s}_i))$
 
    仅需 25% grounding 标注即可保留 teacher 95% 的 R@3 性能
 
@@ -78,9 +78,9 @@ $$\mathbf{A}_{t \to v} = \text{Attn}(h_t', h_v', h_v'), \quad \mathbf{A}_{v \to 
 
    总奖励聚合三个可执行组件：$R = w_F R_F + w_{\text{NIA}} R_{\text{NIA-AA}} + w_C R_{\text{consistency}}$
 
-   - **格式奖励 $R_F$**：检查 Reasoning/Diagnosis/Confidence 三个标签是否完整
-   - **NIA-AA 诊断奖励 $R_{\text{NIA-AA}}$**：包含类别对齐（CN/MCI/Dementia）、生物标志物一致性（Aβ/tTau/pTau 阈值检查）、临床特征覆盖度
-   - **推理一致性奖励 $R_{\text{consistency}}$**：用 NLI 模型验证 Reasoning⇒Diagnosis 的蕴含关系，防止逻辑矛盾
+    - **格式奖励 $R_F$**：检查 Reasoning/Diagnosis/Confidence 三个标签是否完整
+    - **NIA-AA 诊断奖励 $R_{\text{NIA-AA}}$**：包含类别对齐（CN/MCI/Dementia）、生物标志物一致性（Aβ/tTau/pTau 阈值检查）、临床特征覆盖度
+    - **推理一致性奖励 $R_{\text{consistency}}$**：用 NLI 模型验证 Reasoning⇒Diagnosis 的蕴含关系，防止逻辑矛盾
 
 ### 损失函数 / 训练策略
 

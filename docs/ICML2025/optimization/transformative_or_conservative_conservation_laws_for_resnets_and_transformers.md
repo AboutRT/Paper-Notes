@@ -21,7 +21,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2506.06194](https://arxiv.org/abs/2506.06194)  
 **代码**: 待确认  
-**领域**: optimization  
+**领域**: 优化  
 **关键词**: conservation laws, 梯度流, ResNet, Transformer, 训练动态, 隐式偏差, Lie algebra
 
 ## 一句话总结

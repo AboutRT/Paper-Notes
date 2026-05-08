@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2410.07812](https://arxiv.org/abs/2410.07812)  
-**代码**: https://github.com/luckeciano/TD-VCL (有)  
+**代码**: [https://github.com/luckeciano/TD-VCL](https://github.com/luckeciano/TD-VCL)  
 **领域**: 强化学习 / 持续学习  
 **关键词**: 持续学习, 变分推断, 时序差分, 灾难性遗忘, 贝叶斯学习
 
@@ -46,13 +46,13 @@ $$\mathcal{L}_{VCL}^t = \mathbb{E}[\log p(\mathcal{D}_t|\boldsymbol{\theta})] - 
 
 1. **n-Step KL正则化目标（Proposition 4.1）**: 将标准VCL目标等价改写为：
 
-   $$q_t = \arg\max_q \mathbb{E}\left[\sum_{i=0}^{n-1}\frac{n-i}{n}\log p(\mathcal{D}_{t-i}|\boldsymbol{\theta})\right] - \sum_{i=0}^{n-1}\frac{1}{n}D_{KL}(q_t \| q_{t-i-1})$$
+    $q_t = \arg\max_q \mathbb{E}\left[\sum_{i=0}^{n-1}\frac{n-i}{n}\log p(\mathcal{D}_{t-i}|\boldsymbol{\theta})\right] - \sum_{i=0}^{n-1}\frac{1}{n}D_{KL}(q_t \| q_{t-i-1})$
 
    这个目标的KL正则化项均匀分布在 $n$ 个过去后验上。如果某个 $q_{t-i}$ 偏差很大，它仅影响 $1/n$ 的正则化项。似然项包含多个任务的似然并按时间远近加权，**数据回放自然地从目标函数中涌现**。
 
 2. **TD(λ)-VCL目标（Proposition 4.2）**: 在n-Step KL基础上引入几何衰减权重 $\lambda^i$，使最近的后验估计获得更大权重：
 
-   $$\text{KL权重} \propto \frac{\lambda^i(1-\lambda)}{1-\lambda^n}, \quad \text{似然权重} \propto \frac{\lambda^i(1-\lambda^{n-i})}{1-\lambda^n}$$
+    $\text{KL权重} \propto \frac{\lambda^i(1-\lambda)}{1-\lambda^n}, \quad \text{似然权重} \propto \frac{\lambda^i(1-\lambda^{n-i})}{1-\lambda^n}$
 
    这提供了更精细的控制：$\lambda \to 0$ 退化为VCL，$\lambda = 1$ 退化为n-Step KL。该目标等价于多个TD目标的加权和（Proposition 4.4），形成了与强化学习中λ-return的精确对应。
 

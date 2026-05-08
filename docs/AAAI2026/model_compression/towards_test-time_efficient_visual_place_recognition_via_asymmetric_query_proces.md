@@ -56,11 +56,11 @@ tags:
 1. **地理记忆库（Geographical Memory Bank）**
 
    利用 VPR 数据集自带的 GPS 坐标，将同一地理位置的图库特征聚合为位置质心：
-   $$\mathcal{M} = \{\mathbf{c}_j\}_{j=1}^M \subset \mathbb{R}^d$$
+    $\mathcal{M} = \{\mathbf{c}_j\}_{j=1}^M \subset \mathbb{R}^d$
    其中每个质心 $\mathbf{c}_j$ 是同一地理位置所有图库特征的平均值。
 
    基于这些质心构建**非对称对比学习损失**：
-   $$\mathcal{L}_{\text{asym}} = -\log \frac{e^{\mathbf{q} \cdot \mathbf{g} / \tau}}{e^{\mathbf{q} \cdot \mathbf{g} / \tau} + \sum_{j \in \mathcal{N}(x)} e^{\mathbf{q} \cdot \mathbf{c}_j / \tau}}$$
+    $\mathcal{L}_{\text{asym}} = -\log \frac{e^{\mathbf{q} \cdot \mathbf{g} / \tau}}{e^{\mathbf{q} \cdot \mathbf{g} / \tau} + \sum_{j \in \mathcal{N}(x)} e^{\mathbf{q} \cdot \mathbf{c}_j / \tau}}$
 
    这里查询嵌入 $\mathbf{q}$ 需与对应的图库嵌入 $\mathbf{g}$ 对齐，同时远离不同位置的质心。
 
@@ -73,7 +73,7 @@ tags:
    **显式增强**：从多元正态分布采样增强嵌入 $\tilde{\mathbf{g}} \sim \mathcal{N}(\mathbf{g}, \gamma \Sigma)$，其中 $\Sigma$ 是该位置的特征协方差矩阵。
 
    **隐式推导**：当采样数 $K \to \infty$ 时，利用 Jensen 不等式和多元高斯的矩生成函数，可以推导出上界的闭式解：
-   $$\mathcal{L}_{\text{asym}^+} = -\log \frac{e^{\mathbf{q} \cdot \mathbf{g} / \tau}}{e^{\mathbf{q} \cdot \mathbf{g} / \tau} + \sum_{j \in \mathcal{N}(x)} e^{\mathbf{q} \cdot \mathbf{c}_j / \tau + (\gamma / 2\tau^2) \mathbf{q}^T \Sigma \mathbf{q}}}$$
+    $\mathcal{L}_{\text{asym}^+} = -\log \frac{e^{\mathbf{q} \cdot \mathbf{g} / \tau}}{e^{\mathbf{q} \cdot \mathbf{g} / \tau} + \sum_{j \in \mathcal{N}(x)} e^{\mathbf{q} \cdot \mathbf{c}_j / \tau + (\gamma / 2\tau^2) \mathbf{q}^T \Sigma \mathbf{q}}}$
 
    **正则化效果**：通过特征分解 $\mathbf{q}^T \Sigma \mathbf{q} = \sum_j \lambda_j (v_j^T \mathbf{q})^2$，高方差方向（通常对应视角变化、光照等类内变异）会受到更强的惩罚，引导查询模型**聚焦于稳定的、位置区分性的特征**。
 
@@ -173,9 +173,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] Correcting False Alarms from Unseen: Adapting Graph Anomaly Detectors at Test Time](correcting_false_alarms_from_unseen_adapting_graph_anomaly_detectors_at_test_tim.md)
-- [\[NeurIPS 2025\] Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era](../../NeurIPS2025/model_compression/towards_implicit_aggregation_robust_image_representation_for_place_recognition_i.md)
 - [\[CVPR 2026\] TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery](../../CVPR2026/model_compression/talon_test-time_adaptive_learning_for_on-the-fly_category_discovery.md)
-- [\[ACL 2026\] Training-Free Test-Time Contrastive Learning for Large Language Models](../../ACL2026/model_compression/training-free_test-time_contrastive_learning_for_large_language_models.md)
 - [\[ICLR 2026\] Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models](../../ICLR2026/model_compression/specialization_after_generalization_towards_understanding_test-time_training_in_.md)
+- [\[ACL 2026\] Training-Free Test-Time Contrastive Learning for Large Language Models](../../ACL2026/model_compression/training-free_test-time_contrastive_learning_for_large_language_models.md)
+- [\[CVPR 2025\] Mamba-Adaptor: State Space Model Adaptor for Visual Recognition](../../CVPR2025/model_compression/mamba-adaptor_state_space_model_adaptor_for_visual_recognition.md)
 
 <!-- RELATED:END -->

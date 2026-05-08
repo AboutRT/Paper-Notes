@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/worldlife123/cbench_BaSIC  
+**代码**: [https://github.com/worldlife123/cbench_BaSIC](https://github.com/worldlife123/cbench_BaSIC)  
 **领域**: 模型压缩 / 图像压缩  
 **关键词**: 神经图像压缩, 贝叶斯网络, 计算可扩展性, 自回归模型, 结构学习
 
@@ -129,10 +129,10 @@ BaSIC 将 NIC 的计算可扩展性问题分解为两个贝叶斯网络结构学
 
 ## 相关论文
 
-- [\[ICLR 2026\] Einstein Fields: A Neural Perspective To Computational General Relativity](../../ICLR2026/model_compression/einstein_fields_a_neural_perspective_to_computational_general_relativity.md)
-- [\[ECCV 2024\] Bidirectional Stereo Image Compression with Cross-Dimensional Entropy Model](bidirectional_stereo_image_compression_with_cross-dimensional_entropy_model.md)
 - [\[ACL 2025\] Basic Reading Distillation](../../ACL2025/model_compression/basic_reading_distillation.md)
+- [\[ECCV 2024\] Bidirectional Stereo Image Compression with Cross-Dimensional Entropy Model](bidirectional_stereo_image_compression_with_cross-dimensional_entropy_model.md)
 - [\[ICLR 2026\] Rethinking Continual Learning with Progressive Neural Collapse](../../ICLR2026/model_compression/rethinking_continual_learning_with_progressive_neural_collapse.md)
-- [\[ECCV 2024\] ELSE: Efficient Deep Neural Network Inference through Line-based Sparsity Exploration](else_efficient_deep_neural_network_inference_through_line-based_sparsity_explora.md)
+- [\[ICML 2025\] Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams](../../ICML2025/model_compression/lego_sketch_a_scalable_memory-augmented_neural_network_for_sketching_data_stream.md)
+- [\[ECCV 2024\] Lagrangian Hashing for Compressed Neural Field Representations](lagrangian_hashing_for_compressed_neural_field_representations.md)
 
 <!-- RELATED:END -->

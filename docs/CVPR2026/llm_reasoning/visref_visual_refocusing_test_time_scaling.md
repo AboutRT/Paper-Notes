@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.00207](https://arxiv.org/abs/2603.00207)  
 **代码**: 无  
-**领域**: 多模态推理 / Test-time Scaling  
+**领域**: LLM推理  
 **关键词**: visual refocusing, test-time scaling, multimodal reasoning, DPP, visual token selection, training-free
 
 ## 一句话总结
@@ -144,7 +144,7 @@ VisRef 完全不需要训练。所有操作在推理时完成：视觉 token 选
 
 ## 相关论文
 
-- [\[CVPR 2026\] Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought](rationale-enhanced_decoding_for_multi-modal_chain-of-thought.md)
+- [\[CVPR 2026\] Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought](red_rationale_enhanced_decoding_cot.md)
 - [\[CVPR 2026\] Step-CoT: Stepwise Visual Chain-of-Thought for Medical Visual Question Answering](step-cot_stepwise_visual_chain-of-thought_for_medical_visual_question_answering.md)
 - [\[ICLR 2026\] Efficient Test-Time Scaling for Small Vision-Language Models](../../ICLR2026/llm_reasoning/efficient_test-time_scaling_for_small_vision-language_models.md)
 - [\[CVPR 2026\] Harnessing Chain-of-Thought Reasoning in Multimodal Large Language Models for Face Anti-Spoofing](harnessing_chain-of-thought_reasoning_in_multimodal_large_language_models_for_fa.md)

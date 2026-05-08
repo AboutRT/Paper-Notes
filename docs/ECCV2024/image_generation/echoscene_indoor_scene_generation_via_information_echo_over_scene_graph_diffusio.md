@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2405.00915](https://arxiv.org/abs/2405.00915)  
-**代码**: [GitHub](https://github.com/ymxlzgy/echoscene) (有)  
+**代码**: [GitHub](https://github.com/ymxlzgy/echoscene)  
 **领域**: 图像生成  
 **关键词**: 3D 室内场景生成, 场景图扩散, 信息回声, 双分支扩散模型, 可控生成
 

@@ -182,9 +182,9 @@ K=3000在质量和效率间取得良好平衡。
 ## 相关论文
 
 - [\[ICCV 2025\] GAS: Generative Avatar Synthesis from a Single Image](gas_generative_avatar_synthesis_from_a_single_image.md)
-- [\[ICCV 2025\] MoGA: 3D Generative Avatar Prior for Monocular Gaussian Avatar Reconstruction](moga_3d_generative_avatar_prior_for_monocular_gaussian_avatar_reconstruction.md)
 - [\[CVPR 2025\] Perturb-and-Revise: Flexible 3D Editing with Generative Trajectories](../../CVPR2025/3d_vision/perturb-and-revise_flexible_3d_editing_with_generative_trajectories.md)
+- [\[ICCV 2025\] MoGA: 3D Generative Avatar Prior for Monocular Gaussian Avatar Reconstruction](moga_3d_generative_avatar_prior_for_monocular_gaussian_avatar_reconstruction.md)
 - [\[ICCV 2025\] SeHDR: Single-Exposure HDR Novel View Synthesis via 3D Gaussian Bracketing](sehdr_single-exposure_hdr_novel_view_synthesis_via_3d_gaussian_bracketing.md)
-- [\[CVPR 2025\] Decompositional Neural Scene Reconstruction with Generative Diffusion Prior](../../CVPR2025/3d_vision/decompositional_neural_scene_reconstruction_with_generative_diffusion_prior.md)
+- [\[ICCV 2025\] HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars](haircup_hair_compositional_universal_prior_for_3d_gaussian_avatars.md)
 
 <!-- RELATED:END -->

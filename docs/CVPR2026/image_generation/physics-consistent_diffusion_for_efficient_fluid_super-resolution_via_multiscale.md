@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2603.00149](https://arxiv.org/abs/2603.00149)  
 **代码**: [lizhihao2022/ReMD](https://github.com/lizhihao2022/ReMD)  
 **作者**: Zhihao Li, Shengwei Dong, Chuang Yi, Junxuan Gao, Zhilu Lai, Zhiqiang Liu, Wei Wang, Guangtao Zhang
-**领域**: 科学计算 / 流体超分辨率 / 扩散模型  
+**领域**: 图像生成  
 **关键词**: 流体超分辨率, 扩散模型, 多重网格残差修正, 多小波基, 物理一致性, equation-free
 
 ## 一句话总结
@@ -154,8 +154,8 @@ ReMD 在仅用 20 步采样时即在 RMSE 和谱保真度上超越 100 步的标
 
 - [\[CVPR 2026\] AlignVAR: Towards Globally Consistent Visual Autoregression for Image Super-Resolution](alignvar_towards_globally_consistent_visual_autoregression_for_image_super-resol.md)
 - [\[ICLR 2026\] Step-Aware Residual-Guided Diffusion for EEG Spatial Super-Resolution](../../ICLR2026/image_generation/step-aware_residual-guided_diffusion_for_eeg_spatial_super-resolution.md)
+- [\[ICCV 2025\] 3DSR: Bridging Diffusion Models and 3D Representations for 3D Consistent Super-Resolution](../../ICCV2025/image_generation/bridging_diffusion_models_and_3d_representations_a_3d_consis.md)
 - [\[CVPR 2026\] VOSR: A Vision-Only Generative Model for Image Super-Resolution](vosr_a_vision_only_generative_model_for_image_super_resolution.md)
 - [\[ECCV 2024\] Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models](../../ECCV2024/image_generation/enhancing_perceptual_quality_in_video_super-resolution_through_temporally-consis.md)
-- [\[ICCV 2025\] 3DSR: Bridging Diffusion Models and 3D Representations for 3D Consistent Super-Resolution](../../ICCV2025/image_generation/bridging_diffusion_models_and_3d_representations_a_3d_consis.md)
 
 <!-- RELATED:END -->

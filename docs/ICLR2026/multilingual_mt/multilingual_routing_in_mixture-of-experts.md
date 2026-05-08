@@ -9,7 +9,7 @@ tags:
   - multilingual routing
   - cross-lingual transfer
   - expert steering
-  - interpretability
+  - 多语言翻译
 ---
 
 # Multilingual Routing in Mixture-of-Experts
@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2510.04694](https://arxiv.org/abs/2510.04694)  
 **作者**: Lucas Bandarkar, Chenyuan Yang, Mohsen Fayyaz, Junlin Hu, Nanyun Peng (UCLA, Fudan University)  
 **代码**: 未开源  
-**领域**: LLM Efficiency / MoE可解释性与多语言  
+**领域**: 多语言翻译  
 **关键词**: mixture-of-experts, multilingual routing, cross-lingual transfer, expert steering, interpretability
 
 ## 一句话总结
@@ -163,7 +163,7 @@ $$z'_k \leftarrow \max(\bm{z}) + \varepsilon, \quad \varepsilon \sim \mathcal{N}
 - [\[ACL 2025\] Group then Scale: Dynamic Mixture-of-Experts Multilingual Language Model](../../ACL2025/multilingual_mt/group_then_scale_dynamic_mixture-of-experts_multilingual_language_model.md)
 - [\[ACL 2025\] Less, but Better: Efficient Multilingual Expansion for LLMs via Layer-wise Mixture-of-Experts](../../ACL2025/multilingual_mt/less_but_better_efficient_multilingual_expansion.md)
 - [\[ICLR 2026\] ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality](atlas_adaptive_transfer_scaling_laws_for_multilingual_pretraining_finetuning_and.md)
-- [\[ACL 2026\] No One Fits All: From Fixed Prompting to Learned Routing in Multilingual LLMs](../../ACL2026/multilingual_mt/no_one_fits_all_from_fixed_prompting_to_learned_routing_in_multilingual_llms.md)
 - [\[ACL 2025\] THOR-MoE: Hierarchical Task-Guided and Context-Responsive Routing for Neural Machine Translation](../../ACL2025/multilingual_mt/thor-moe_hierarchical_task-guided_and_context-responsive_routing_for_neural_mach.md)
+- [\[ACL 2026\] No One Fits All: From Fixed Prompting to Learned Routing in Multilingual LLMs](../../ACL2026/multilingual_mt/no_one_fits_all_from_fixed_prompting_to_learned_routing_in_multilingual_llms.md)
 
 <!-- RELATED:END -->

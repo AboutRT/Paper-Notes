@@ -10,14 +10,14 @@ tags:
   - 多模态叙事
   - 视觉故事讲述
   - 上下文范围
-  - 语言生成评估
+  - 多模态VLM
 ---
 
 # Coreference as an Indicator of Context Scope in Multimodal Narrative
 
 **会议**: ACL 2025 (GEM2 Workshop)  
 **arXiv**: [2503.05298](https://arxiv.org/abs/2503.05298)  
-**代码**: https://github.com/GU-CLASP/coreference-context-scope  
+**代码**: [https://github.com/GU-CLASP/coreference-context-scope](https://github.com/GU-CLASP/coreference-context-scope)  
 **领域**: 多模态VLM / 语篇分析  
 **关键词**: 共指消解, 多模态叙事, 视觉故事讲述, 上下文范围, 语言生成评估
 
@@ -136,7 +136,7 @@ tags:
 - [\[ACL 2025\] Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach](multimodal_coreference_resolution_for_chinese_social_media_dialogues_dataset_and.md)
 - [\[NeurIPS 2025\] SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodal LLMs](../../NeurIPS2025/multimodal_vlm/scope_saliency-coverage_oriented_token_pruning_for_efficient_multimodel_llms.md)
 - [\[CVPR 2025\] Context-Aware Multimodal Pretraining](../../CVPR2025/multimodal_vlm/context-aware_multimodal_pretraining.md)
-- [\[ACL 2025\] MadaKV: Adaptive Modality-Perception KV Cache Eviction for Efficient Multimodal Long-Context Inference](madakv_adaptive_modality-perception_kv_cache_eviction_for_efficient_multimodal_l.md)
 - [\[CVPR 2025\] Mimic In-Context Learning for Multimodal Tasks](../../CVPR2025/multimodal_vlm/mimic_in-context_learning_for_multimodal_tasks.md)
+- [\[ACL 2025\] MadaKV: Adaptive Modality-Perception KV Cache Eviction for Efficient Multimodal Long-Context Inference](madakv_adaptive_modality-perception_kv_cache_eviction_for_efficient_multimodal_l.md)
 
 <!-- RELATED:END -->

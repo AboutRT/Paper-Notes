@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.04896](https://arxiv.org/abs/2502.04896)  
 **代码**: [项目页面](https://saiyan-world.github.io/goku/)  
-**领域**: image_generation / video_generation  
+**领域**: 图像生成  
 **关键词**: rectified flow, video generation, joint image-video, 3D VAE, Transformer, data curation
 
 ## 一句话总结

@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.19083](https://arxiv.org/abs/2511.19083)  
-**代码**: [https://github.com/MWXGOD/KDR-Agent](https://github.com/MWXGOD/KDR-Agent) (有)  
-**领域**: LLM / NLP / 信息抽取  
+**代码**: [https://github.com/MWXGOD/KDR-Agent](https://github.com/MWXGOD/KDR-Agent)  
+**领域**: LLM Agent  
 **关键词**: 命名实体识别, 多智能体LLM, 上下文学习, 低资源NER, 知识检索  
 
 ## 一句话总结

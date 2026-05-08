@@ -9,7 +9,7 @@ tags:
   - object layers
   - amodal completion
   - 扩散模型
-  - zero-shot generalization
+  - 自监督
   - occlusion ordering
   - scene decomposition
 ---
@@ -158,6 +158,6 @@ CObL 在**不使用任何额外掩码**的情况下，全面超越了使用 orac
 - [\[CVPR 2026\] LaS-Comp: Zero-shot 3D Completion with Latent-Spatial Consistency](../../CVPR2026/self_supervised/las-comp_zero-shot_3d_completion_with_latent-spatial_consistency.md)
 - [\[CVPR 2025\] Transformers without Normalization](../../CVPR2025/self_supervised/transformers_without_normalization.md)
 - [\[CVPR 2025\] Few-Shot Implicit Function Generation via Equivariance](../../CVPR2025/self_supervised/few-shot_implicit_function_generation_via_equivariance.md)
-- [\[ICML 2025\] Proxy-FDA: Proxy-based Feature Distribution Alignment for Fine-tuning Vision Foundation Models without Forgetting](../../ICML2025/self_supervised/proxy-fda_proxy-based_feature_distribution_alignment_for_fine-tuning_vision_foun.md)
+- [\[AAAI 2026\] From Pretrain to Pain: Adversarial Vulnerability of Video Foundation Models without Finetuning](../../AAAI2026/self_supervised/from_pretrain_to_pain_adversarial_vulnerability_of_video_foundation_models_witho.md)
 
 <!-- RELATED:END -->

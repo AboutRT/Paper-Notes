@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 多模态
-  - 开放词汇检测
+  - 多模态VLM
   - 伪标签
   - CLIP
   - 背景感知
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.21465](https://arxiv.org/abs/2407.21465)  
-**代码**: https://github.com/wkfdb/MarvelOVD (有)  
+**代码**: [https://github.com/wkfdb/MarvelOVD](https://github.com/wkfdb/MarvelOVD)  
 **领域**: 多模态VLM  
 **关键词**: 开放词汇检测, 伪标签, CLIP, 背景感知, 在线挖掘
 
@@ -122,7 +122,7 @@ tags:
 
 - [\[ECCV 2024\] MarvelOVD: 融合目标检测器与视觉语言模型实现鲁棒开放词汇目标检测](marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md)
 - [\[ECCV 2024\] Zero-shot Object Counting with Good Exemplars (VA-Count)](zero-shot_object_counting_with_good_exemplars.md)
-- [\[ECCV 2024\] Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models](vary_scaling_up_the_vision_vocabulary_for_large_visionlanguag.md)
+- [\[ECCV 2024\] Elysium: Exploring Object-level Perception in Videos via MLLM](elysium_exploring_object-level_perception_in_videos_via_mllm.md)
 - [\[NeurIPS 2025\] OpenHOI: Open-World Hand-Object Interaction Synthesis with Multimodal Large Language Models](../../NeurIPS2025/multimodal_vlm/openhoi_open-world_hand-object_interaction_synthesis_with_multimodal_large_langu.md)
 - [\[CVPR 2025\] Compositional Caching for Training-free Open-vocabulary Attribute Detection](../../CVPR2025/multimodal_vlm/compositional_caching_for_training-free_open-vocabulary_attribute_detection.md)
 

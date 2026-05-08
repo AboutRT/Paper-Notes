@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 LLM Agent方向47篇论文解读
+  AAAI2026 LLM Agent方向46篇论文解读
 description: >-
-  47篇AAAI2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、对齐/RLHF、多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  46篇AAAI2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、对齐/RLHF、多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🤖 AAAI2026** · **47** 篇论文解读
+**🤖 AAAI2026** · **46** 篇论文解读
 
 **[A2Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators](a2flow_automating_agentic_workflow_generation_via_self-adaptive_abstraction_oper.md)**
 
@@ -173,10 +173,6 @@ description: >-
 **[Structured Personalization: Modeling Constraints as Matroids for Data-Minimal LLM Agents](structured_personalization_modeling_constraints_as_matroids_for_data-minimal_llm.md)**
 
 :   将 LLM Agent 个性化中的结构化约束（逻辑依赖 + 层级配额）形式化为层叠拟阵（laminar matroid），证明贪心算法在此约束下仍具有常数因子近似保证，解决了有依赖关系和层级限制的数据最小化选择问题。
-
-**[Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases](thucy_an_llm-based_multi-agent_system_for_claim_verification_across_relational_d.md)**
-
-:   提出首个跨数据库、跨表的多 Agent 声明验证系统 Thucy，由 Verifier 领导三个专家 Agent（Data/Schema/SQL Expert），对数据源完全无先验知识，能自主发现、推理并生成 SQL 证据，在 TabFact 上超越 SOTA 5.6 个百分点（94.3%）。
 
 **[Time, Identity and Consciousness in Language Model Agents](time_identity_and_consciousness_in_language_model_agents.md)**
 

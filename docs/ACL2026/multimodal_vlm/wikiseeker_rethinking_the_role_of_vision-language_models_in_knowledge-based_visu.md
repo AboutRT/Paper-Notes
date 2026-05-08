@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 多模态
   - 知识型VQA
-  - 多模态RAG
+  - 多模态VLM
   - 查询重写
   - 强化学习
   - 检索增强生成
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.05818](https://arxiv.org/abs/2604.05818)  
-**代码**: https://github.com/zhuyjan/WikiSeeker (有)  
+**代码**: [https://github.com/zhuyjan/WikiSeeker](https://github.com/zhuyjan/WikiSeeker)  
 **领域**: 多模态VLM  
 **关键词**: 知识型VQA, 多模态RAG, 查询重写, 强化学习, 检索增强生成
 
@@ -133,6 +133,6 @@ Refiner 将 EVQA R@1 从 28.0 提升到 44.1（+57.5%），超越所有基线。
 - [\[ICCV 2025\] ReasonVQA: A Multi-hop Reasoning Benchmark with Structural Knowledge for Visual Question Answering](../../ICCV2025/multimodal_vlm/reasonvqa_a_multi-hop_reasoning_benchmark_with_structural_knowledge_for_visual_q.md)
 - [\[ACL 2026\] Rethinking Jailbreak Detection of Large Vision Language Models with Representational Contrastive Scoring](rethinking_jailbreak_detection_of_large_vision_language_models_with_representati.md)
 - [\[ICLR 2026\] Meta-Adaptive Prompt Distillation for Few-Shot Visual Question Answering](../../ICLR2026/multimodal_vlm/meta-adaptive_prompt_distillation_for_few-shot_visual_question_answering.md)
-- [\[AAAI 2026\] MacVQA: Adaptive Memory Allocation and Global Noise Filtering for Continual Visual Question Answering](../../AAAI2026/multimodal_vlm/macvqa_adaptive_memory_allocation_and_global_noise_filtering_for_continual_visua.md)
+- [\[ACL 2026\] Benchmarking Deflection and Hallucination in Large Vision-Language Models](benchmarking_deflection_and_hallucination_in_large_vision-language_models.md)
 
 <!-- RELATED:END -->

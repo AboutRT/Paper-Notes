@@ -8,7 +8,7 @@ tags:
   - instruction-data separation
   - 提示学习
   - orthogonal rotation
-  - token embedding
+  - LLM评测
   - architectural safety
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2503.10566](https://arxiv.org/abs/2503.10566)  
 **代码**: 无  
-**领域**: AI安全 / Prompt Injection 防御  
+**领域**: LLM评测  
 **关键词**: instruction-data separation, prompt injection, orthogonal rotation, token embedding, architectural safety  
 
 ## 一句话总结
@@ -125,8 +125,8 @@ ASIDE 的 utility（AlpacaEval、SEP Utility）与 Vanilla 基本持平。
 
 ## 相关论文
 
-- [\[AAAI 2026\] ConInstruct: Evaluating Large Language Models on Conflict Detection and Resolution in Instructions](../../AAAI2026/llm_evaluation/coninstruct_evaluating_large_language_models_on_conflict_detection_and_resolutio.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](prompt_and_parameter_co-optimization_for_large_language_models.md)
+- [\[AAAI 2026\] ConInstruct: Evaluating Large Language Models on Conflict Detection and Resolution in Instructions](../../AAAI2026/llm_evaluation/coninstruct_evaluating_large_language_models_on_conflict_detection_and_resolutio.md)
 - [\[CVPR 2026\] ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation](../../CVPR2026/llm_evaluation/reflexsplit_single_image_reflection_separation_via_layer_fusion-separation.md)
 - [\[ICLR 2026\] TabStruct: Measuring Structural Fidelity of Tabular Data](tabstruct_measuring_structural_fidelity_of_tabular_data.md)
 - [\[ICLR 2026\] Revisiting the Past: Data Unlearning with Model State History](revisiting_the_past_data_unlearning_with_model_state_history.md)

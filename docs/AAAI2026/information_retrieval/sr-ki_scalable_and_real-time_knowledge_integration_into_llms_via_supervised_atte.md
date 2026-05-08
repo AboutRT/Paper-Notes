@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 知识注入
-  - 大语言模型
+  - 信息检索
   - 监督注意力
   - KV缓存
   - 检索层
@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.06446](https://arxiv.org/abs/2511.06446)  
 **作者**: Bohan Yu, Wei Huang, Kang Liu (百度, 中科院自动化所)  
 **代码**: 待公开  
-**领域**: model_compression  
+**领域**: 信息检索  
 **关键词**: 知识注入, 大语言模型, 监督注意力, KV缓存, 检索层, 知识库压缩, RAG替代  
 
 ## 一句话总结
@@ -178,10 +178,10 @@ SR-KI在40K规模下比Dense Retrieval高9.19个点、比BM25高43.94个点。
 
 ## 相关论文
 
-- [\[ACL 2026\] CURaTE: Continual Unlearning in Real Time with Ensured Preservation of LLM Knowledge](../../ACL2026/information_retrieval/curate_continual_unlearning_in_real_time_with_ensured_preservation_of_llm_knowle.md)
 - [\[ACL 2026\] TaxPraBen: A Scalable Benchmark for Structured Evaluation of LLMs in Chinese Real-World Tax Practice](../../ACL2026/information_retrieval/taxpraben_a_scalable_benchmark_for_structured_evaluation_of_llms_in_chinese_real.md)
+- [\[ACL 2026\] CURaTE: Continual Unlearning in Real Time with Ensured Preservation of LLM Knowledge](../../ACL2026/information_retrieval/curate_continual_unlearning_in_real_time_with_ensured_preservation_of_llm_knowle.md)
 - [\[AAAI 2026\] Towards Inference-Time Scaling for Continuous Space Reasoning](towards_inference-time_scaling_for_continuous_space_reasoning.md)
-- [\[AAAI 2026\] LLMs for Game Theory: Entropy-Guided In-Context Learning and Adaptive CoT Reasoning](llms_for_game_theory_entropy-guided_in-context_learning_and_adaptive_cot_reasoni.md)
 - [\[AAAI 2026\] Does Less Hallucination Mean Less Creativity? An Empirical Investigation in LLMs](does_less_hallucination_mean_less_creativity_an_empirical_investigation_in_llms.md)
+- [\[AAAI 2026\] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)
 
 <!-- RELATED:END -->

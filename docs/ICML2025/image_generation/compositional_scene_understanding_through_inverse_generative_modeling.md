@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2505.21780](https://arxiv.org/abs/2505.21780)  
 **代码**: [energy-based-model/compositional-inference](https://energy-based-model.github.io/compositional-inference)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: compositional generation, inverse generative modeling, diffusion models, scene understanding, object discovery  
 
 ## 一句话总结

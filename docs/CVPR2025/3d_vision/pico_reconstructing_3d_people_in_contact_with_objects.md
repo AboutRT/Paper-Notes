@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.17695](https://arxiv.org/abs/2504.17695)  
-**代码**: https://pico.is.tue.mpg.de  
+**代码**: [https://pico.is.tue.mpg.de](https://pico.is.tue.mpg.de)  
 **领域**: 3D视觉  
 **关键词**: 人物交互重建, 接触估计, 3D物体检索, 人体姿态, 优化拟合
 

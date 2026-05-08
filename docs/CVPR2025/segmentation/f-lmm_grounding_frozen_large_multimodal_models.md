@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.05821](https://arxiv.org/abs/2406.05821)  
-**代码**: https://github.com/wusize/F-LMM  
+**代码**: [https://github.com/wusize/F-LMM](https://github.com/wusize/F-LMM)  
 **领域**: 语义分割 / 多模态VLM  
 **关键词**: 视觉定位, 大型多模态模型, 冻结参数, 注意力图, 参考表达分割
 

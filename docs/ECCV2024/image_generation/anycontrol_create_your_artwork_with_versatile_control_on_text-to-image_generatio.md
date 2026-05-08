@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2406.18958](https://arxiv.org/abs/2406.18958)  
-**代码**: https://any-control.github.io (有)  
+**代码**: [https://any-control.github.io](https://any-control.github.io)  
 **领域**: 图像生成 / 可控生成  
 **关键词**: Multi-Control, text-to-image, Controllable Generation, Spatial Conditions, ControlNet
 

@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.04703](https://arxiv.org/abs/2603.04703)  
 **代码**: 无  
-**领域**: 优化理论 / 深度学习隐式偏差  
+**领域**: LLM预训练  
 **关键词**: 矩阵补全, 深度矩阵分解, 隐式偏差, 低秩偏好, 可塑性损失
 
 ## 一句话总结
@@ -66,9 +66,9 @@ tags:
 
    论文分析了以下场景：先在少量观测值上预训练，然后在更多观测值上继续训练。
 
-   - **深层网络（L≥3）**：预训练阶段的耦合动力学使模型收敛到低秩解。由于继续训练仍满足耦合条件，模型可以从低秩解出发有效适应新数据——深度的隐式偏差具有适应性。
+    - **深层网络（L≥3）**：预训练阶段的耦合动力学使模型收敛到低秩解。由于继续训练仍满足耦合条件，模型可以从低秩解出发有效适应新数据——深度的隐式偏差具有适应性。
 
-   - **depth-2 网络**：如果预训练阶段处于解耦动力学下，模型会收敛到高秩解。尽管继续训练（加入更多观测值）可能满足耦合条件，但**从高秩解出发的梯度流无法收敛到低秩解**。预训练的"印记"阻止了模型适应——这就是可塑性损失的根本原因。
+    - **depth-2 网络**：如果预训练阶段处于解耦动力学下，模型会收敛到高秩解。尽管继续训练（加入更多观测值）可能满足耦合条件，但**从高秩解出发的梯度流无法收敛到低秩解**。预训练的"印记"阻止了模型适应——这就是可塑性损失的根本原因。
 
 ### 理论工具
 
@@ -150,7 +150,7 @@ tags:
 - [\[ICCV 2025\] ETA: Energy-based Test-time Adaptation for Depth Completion](../../ICCV2025/llm_pretraining/eta_energy-based_test-time_adaptation_for_depth_completion.md)
 - [\[ICML 2025\] Inductive Gradient Adjustment for Spectral Bias in Implicit Neural Representations](../../ICML2025/llm_pretraining/inductive_gradient_adjustment_for_spectral_bias_in_implicit_neural_representatio.md)
 - [\[NeurIPS 2025\] Breaking the Frozen Subspace: Importance Sampling for Low-Rank Optimization in LLM Pretraining](../../NeurIPS2025/llm_pretraining/breaking_the_frozen_subspace_importance_sampling_for_low-rank_optimization_in_ll.md)
-- [\[NeurIPS 2025\] Global Minimizers of Sigmoid Contrastive Loss](../../NeurIPS2025/llm_pretraining/global_minimizers_of_sigmoid_contrastive_loss.md)
 - [\[NeurIPS 2025\] The Curse of Depth in Large Language Models](../../NeurIPS2025/llm_pretraining/the_curse_of_depth_in_large_language_models.md)
+- [\[NeurIPS 2025\] Global Minimizers of Sigmoid Contrastive Loss](../../NeurIPS2025/llm_pretraining/global_minimizers_of_sigmoid_contrastive_loss.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 主动信息探测
   - 客服聊天机器人
   - 对话策略
-  - 强化学习
+  - 对话系统
   - 商业智能
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.11077](https://arxiv.org/abs/2604.11077)  
-**代码**: https://github.com/SCUNLP/PROCHATIP  
+**代码**: [https://github.com/SCUNLP/PROCHATIP](https://github.com/SCUNLP/PROCHATIP)  
 **领域**: 对话系统  
 **关键词**: 主动信息探测, 客服聊天机器人, 对话策略, 强化学习, 商业智能
 
@@ -126,9 +126,9 @@ TSR=目标信息成功率, AvgT=平均对话轮数, RPR=被拒率, QRR=查询回
 ## 相关论文
 
 - [\[ACL 2025\] Enabling Chatbots with Eyes and Ears: An Immersive Multimodal Conversation System](../../ACL2025/dialogue/enabling_chatbots_with_eyes_and_ears_an_immersive_multimodal_conversation_system.md)
-- [\[ACL 2026\] Cognitive Policy-Driven LLM for Diagnosis and Intervention of Cognitive Distortions in Emotional Support Conversation](cognitive_policy-driven_llm_for_diagnosis_and_intervention_of_cognitive_distorti.md)
 - [\[ACL 2025\] Dialogue Systems for Emotional Support via Value Reinforcement](../../ACL2025/dialogue/dialogue_systems_for_emotional_support_via_value_reinforcement.md)
-- [\[ACL 2025\] Contradiction Detection in RAG-Based Chatbots](../../ACL2025/dialogue/contradiction_detection_in_rag-based_chatbots.md)
-- [\[ACL 2025\] Enhancing Goal-oriented Proactive Dialogue Systems via Consistency Reflection and Correction](../../ACL2025/dialogue/enhancing_goal-oriented_proactive_dialogue_systems_via_consistency_reflection_an.md)
+- [\[ACL 2026\] Author-in-the-Loop Response Generation and Evaluation: Integrating Author Expertise and Intent in Responses to Peer Review](author-in-the-loop_response_generation_and_evaluation_integrating_author_experti.md)
+- [\[ACL 2026\] VoxMind: An End-to-End Agentic Spoken Dialogue System](voxmind_an_end-to-end_agentic_spoken_dialogue_system.md)
+- [\[ACL 2026\] Disambiguation-Centric Finetuning Makes Enterprise Tool-Calling LLMs More Realistic and Less Risky](disambiguation-centric_finetuning_makes_enterprise_tool-calling_llms_more_realis.md)
 
 <!-- RELATED:END -->

@@ -12,7 +12,7 @@ tags:
 - **会议**: AAAI 2026
 - **arXiv**: [2511.16110](https://arxiv.org/abs/2511.16110)
 - **代码**: [cure-lab/MultiFacetedAttack](https://github.com/cure-lab/MultiFacetedAttack)
-- **领域**: multimodal_vlm / ai_safety
+- **领域**: 多模态VLM
 - **关键词**: VLM安全, 对抗攻击, 越狱攻击, 跨模型迁移, 内容审核绕过, 奖励黑客
 
 ## 一句话总结

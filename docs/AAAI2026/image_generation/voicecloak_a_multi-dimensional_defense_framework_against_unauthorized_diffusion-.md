@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2505.12332](https://arxiv.org/abs/2505.12332)  
 **代码**: [Demo](https://voice-cloak.github.io/VoiceCloak/)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: voice cloning defense, adversarial perturbation, diffusion model, speaker identity, proactive defense
 
 ## 一句话总结

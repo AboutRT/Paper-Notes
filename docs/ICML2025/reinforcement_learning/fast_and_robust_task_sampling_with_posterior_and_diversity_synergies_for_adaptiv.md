@@ -139,6 +139,6 @@ $$\boldsymbol{z}_t \sim q_{\boldsymbol{\phi}}(\boldsymbol{z}_t | H_t), \quad \ha
 - [\[ICML 2025\] Mastering Massive Multi-Task Reinforcement Learning via Mixture-of-Expert Decision Transformer](mastering_massive_multi-task_reinforcement_learning_via_mixture-of-expert_decisi.md)
 - [\[NeurIPS 2025\] Modulation of Temporal Decision-Making in a Deep Reinforcement Learning Agent under the Dual-Task Paradigm](../../NeurIPS2025/reinforcement_learning/modulation_of_temporal_decision-making_in_a_deep_reinforcement_learning_agent_un.md)
 - [\[NeurIPS 2025\] Learning Intractable Multimodal Policies with Reparameterization and Diversity Regularization](../../NeurIPS2025/reinforcement_learning/learning_intractable_multimodal_policies_with_reparameterization_and_diversity_r.md)
-- [\[ICML 2025\] Exploring Large Action Sets with Hyperspherical Embeddings using von Mises-Fisher Sampling](exploring_large_action_sets_with_hyperspherical_embeddings_using_von_mises-fishe.md)
+- [\[AAAI 2026\] TAdaRAG: Task Adaptive Retrieval-Augmented Generation via On-the-Fly Knowledge Graph Construction](../../AAAI2026/reinforcement_learning/tadarag_task_adaptive_retrieval-augmented_generation_via_on-the-fly_knowledge_gr.md)
 
 <!-- RELATED:END -->

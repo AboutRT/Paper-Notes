@@ -2,10 +2,10 @@
 title: >-
   [论文解读] PIPHEN: Physical Interaction Prediction with Hamiltonian Energy Networks
 description: >-
-  [AAAI 2026][多机器人协作] 提出PIPHEN分布式物理认知-控制框架，通过物理交互预测网络（PIPN）进行"语义蒸馏"将高维感知数据压缩至原始数据量的5%以下，再由基于哈密顿能量守恒的HEN控制器生成协调动作，从而解决多机器人系统的"共享大脑困境"。
+  [AAAI 2026][其他] 提出PIPHEN分布式物理认知-控制框架，通过物理交互预测网络（PIPN）进行"语义蒸馏"将高维感知数据压缩至原始数据量的5%以下，再由基于哈密顿能量守恒的HEN控制器生成协调动作，从而解决多机器人系统的"共享大脑困境"。
 tags:
   - AAAI 2026
-  - 多机器人协作
+  - 其他
   - 语义通信
   - 哈密顿能量网络
   - 知识蒸馏
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.16200](https://arxiv.org/abs/2511.16200)  
 **代码**: 无  
-**领域**: 多机器人系统 / 物理交互预测  
+**领域**: 其他  
 **关键词**: 多机器人协作, 语义通信, 哈密顿能量网络, 知识蒸馏, 物理交互预测
 
 ## 一句话总结
@@ -177,9 +177,9 @@ PIPHEN在所有关键指标上均达到最佳性能，成功率较LLaMAR提升13
 ## 相关论文
 
 - [\[CVPR 2025\] FIction: 4D Future Interaction Prediction from Video](../../CVPR2025/others/fiction_4d_future_interaction_prediction_from_video.md)
-- [\[AAAI 2026\] A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles](a_fast_heuristic_search_approach_for_energy-optimal_profile_.md)
 - [\[AAAI 2026\] Deadline-Aware, Energy-Efficient Control of Domestic Immersion Hot Water Heaters](deadline-aware_energy-efficient_control_of_domestic_immersion_hot_water_heater.md)
-- [\[AAAI 2026\] Learning Fair Representations with Kolmogorov-Arnold Networks](learning_fair_representations_with_kolmogorov-arnold_networks.md)
 - [\[AAAI 2026\] Formal Abductive Latent Explanations for Prototype-Based Networks](formal_abductive_latent_explanations_for_prototype-based_networks.md)
+- [\[AAAI 2026\] Learning Fair Representations with Kolmogorov-Arnold Networks](learning_fair_representations_with_kolmogorov-arnold_networks.md)
+- [\[AAAI 2026\] Decomposition and Preprocessing of Ternary Constraint Networks](decomposition_and_preprocessing_of_ternary_constraint_networks.md)
 
 <!-- RELATED:END -->

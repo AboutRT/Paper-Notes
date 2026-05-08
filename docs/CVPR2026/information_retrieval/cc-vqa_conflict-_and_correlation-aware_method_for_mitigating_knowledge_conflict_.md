@@ -7,7 +7,7 @@ tags:
   - CVPR2026
   - 知识冲突
   - 检索增强生成
-  - KB-VQA
+  - 信息检索
   - 视觉推理
   - 对比解码
   - 位置编码压缩
@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2602.23952](https://arxiv.org/abs/2602.23952)  
 **代码**: [github.com/cqu-student/CC-VQA](https://github.com/cqu-student/CC-VQA)  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 知识冲突, 检索增强生成, KB-VQA, 视觉推理, 对比解码, 位置编码压缩
 
 ## 一句话总结
@@ -49,13 +49,13 @@ tags:
 **阶段二：Correlation-Guided Encoding and Decoding**
 
 1. **细粒度相关度**：用 EVA-CLIP 计算每句话与改写后问题 $Q^*$ 和图像 $I$ 的相关度：
-   $$r_{ij} = \frac{1}{2}(\text{EVA-CLIP}(Q^*, s_{ij}) + \text{EVA-CLIP}(I, s_{ij}))$$
+    $r_{ij} = \frac{1}{2}(\text{EVA-CLIP}(Q^*, s_{ij}) + \text{EVA-CLIP}(I, s_{ij}))$
 
 2. **位置编码压缩**：对低相关度句子（底部 $\tau$ 百分位）压缩 RoPE 位置编码步长为 $\alpha=0.5$：
-   $$\text{pos}(t_j) = \begin{cases} \text{pos}(t_{j-1}) + \alpha & \text{if } \text{sent}(t_j) \in \mathcal{L}_\tau \\ \text{pos}(t_{j-1}) + 1 & \text{otherwise} \end{cases}$$
+    $\text{pos}(t_j) = \begin{cases} \text{pos}(t_{j-1}) + \alpha & \text{if } \text{sent}(t_j) \in \mathcal{L}_\tau \\ \text{pos}(t_{j-1}) + 1 & \text{otherwise} \end{cases}$
 
 3. **自适应解码**：在对比解码基础上加入相关度增强的冲突评分：
-   $$s'_t = \sigma(D_t + \Delta H_t + K + \delta)$$
+    $s'_t = \sigma(D_t + \Delta H_t + K + \delta)$
    其中 $K = 1 - (\frac{1}{N}\sum r_i)(1 - \frac{H(\mathbf{r})}{\log M})$ 结合平均相关度和集中度
 
 ## 实验关键数据
@@ -110,10 +110,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2026\] CounterRefine: Answer-Conditioned Counterevidence Retrieval for Inference-Time Knowledge Repair in Factual Question Answering](../../ACL2026/information_retrieval/counterrefine_answer-conditioned_counterevidence_retrieval_for_inference-time_kn.md)
 - [\[ACL 2025\] FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation](../../ACL2025/information_retrieval/faithfulrag_fact_level_conflict.md)
-- [\[ACL 2026\] DQA: Diagnostic Question Answering for IT Support](../../ACL2026/information_retrieval/dqa_diagnostic_question_answering_for_it_support.md)
-- [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](../../ICLR2026/information_retrieval/beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
 - [\[CVPR 2026\] RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations](robustvisrag_causality-aware_vision-based_retrieval-augmented_generation_under_v.md)
+- [\[ACL 2026\] DQA: Diagnostic Question Answering for IT Support](../../ACL2026/information_retrieval/dqa_diagnostic_question_answering_for_it_support.md)
 - [\[AAAI 2026\] REAP: Enhancing RAG with Recursive Evaluation and Adaptive Planning for Multi-Hop Question Answering](../../AAAI2026/information_retrieval/reap_enhancing_rag_with_recursive_evaluation_and_adaptive_planning_for_multi-hop.md)
 
 <!-- RELATED:END -->

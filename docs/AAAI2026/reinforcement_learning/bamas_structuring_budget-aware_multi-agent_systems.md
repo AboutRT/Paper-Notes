@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 预算感知
-  - 多Agent协作
+  - 强化学习
   - 整数线性规划
   - 拓扑选择
   - 强化学习
@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.21572](https://arxiv.org/abs/2511.21572)  
-**代码**: [https://github.com/chunfenri/BAMAS](https://github.com/chunfenri/BAMAS) (有)  
-**领域**: LLM Agent / 多Agent系统  
+**代码**: [https://github.com/chunfenri/BAMAS](https://github.com/chunfenri/BAMAS)  
+**领域**: 强化学习  
 **关键词**: 预算感知, 多Agent协作, 整数线性规划, 拓扑选择, 强化学习  
 
 ## 一句话总结
@@ -127,10 +127,10 @@ MATH 数据集：
 
 ## 相关论文
 
-- [\[AAAI 2026\] MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](mars_a_meta-adaptive_reinforcement_learning_framework_for_risk-aware_multi-agent.md)
 - [\[AAAI 2026\] Explaining Decentralized Multi-Agent Reinforcement Learning Policies](explaining_decentralized_multi-agent_reinforcement_learning_policies.md)
-- [\[NeurIPS 2025\] Multi-Agent Collaboration via Evolving Orchestration](../../NeurIPS2025/reinforcement_learning/multi-agent_collaboration_via_evolving_orchestration.md)
-- [\[AAAI 2026\] Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-shot Document-level Event Arguments Extraction](learning_to_generate_and_extract_a_multi-agent_collaboration_framework_for_zero-.md)
+- [\[AAAI 2026\] MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](mars_a_meta-adaptive_reinforcement_learning_framework_for_risk-aware_multi-agent.md)
 - [\[AAAI 2026\] MARS: Multi-Agent Adaptive Reasoning with Socratic Guidance for Automated Prompt Optimization](mars_multi-agent_adaptive_reasoning_with_socratic_guidance_f.md)
+- [\[AAAI 2026\] A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses](a_multi-agent_conversational_bandit_approach_to_online_evaluation_and_selection_.md)
+- [\[AAAI 2026\] Think, Speak, Decide: Language-Augmented Multi-Agent Reinforcement Learning for Economic Decision-Making](think_speak_decide_language-augmented_multi-agent_reinforcement_learning_for_eco.md)
 
 <!-- RELATED:END -->

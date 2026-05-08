@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.12464](https://arxiv.org/abs/2511.12464)  
 **代码**: 无  
-**领域**: 对齐RLHF / 奖励模型评估  
+**领域**: 可解释性  
 **关键词**: Reward Model Evaluation, Preference Probing, MRMBench, Multi-Dimensional Preferences, Inference-Time Probing  
 
 ## 一句话总结

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.20721](https://arxiv.org/abs/2507.20721)  
-**代码**: https://github.com/sherlhw/AIComposer  
+**代码**: [https://github.com/sherlhw/AIComposer](https://github.com/sherlhw/AIComposer)  
 **领域**: 扩散模型 / 图像合成  
 **关键词**: 跨域图像合成, 无文本提示, CLIP特征融合, 局部交叉注意力, 扩散模型反转
 
@@ -136,7 +136,7 @@ LPIPS 提升 30.5%，CSD 提升 18.1%，用户偏好远超竞争方法。
 - [\[ICCV 2025\] CSD-VAR: Content-Style Decomposition in Visual Autoregressive Models](csd-var_content-style_decomposition_in_visual_autoregressive_models.md)
 - [\[ICCV 2025\] SCFlow: Implicitly Learning Style and Content Disentanglement with Flow Models](scflow_implicitly_learning_style_and_content_disentanglement_with_flow_models.md)
 - [\[ICCV 2025\] StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross Fusion](stylemotif_multi-modal_motion_stylization_using_style-content_cross_fusion.md)
-- [\[ECCV 2024\] ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs](../../ECCV2024/image_generation/ziplora_any_subject_in_any_style_by_effectively_merging_loras.md)
 - [\[ICCV 2025\] Balanced Image Stylization with Style Matching Score](balanced_image_stylization_with_style_matching_score.md)
+- [\[CVPR 2025\] K-LoRA: Unlocking Training-Free Fusion of Any Subject and Style LoRAs](../../CVPR2025/image_generation/k-lora_unlocking_training-free_fusion_of_any_subject_and_style_loras.md)
 
 <!-- RELATED:END -->

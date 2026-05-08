@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22994](https://arxiv.org/abs/2510.22994)  
-**代码**: https://lulupig12138.github.io/SceneDecorator (项目页面)  
+**代码**: [https://lulupig12138.github.io/SceneDecorator](https://lulupig12138.github.io/SceneDecorator) (项目页面)  
 **领域**: 扩散模型 / 故事图像生成  
 **关键词**: 场景一致性, 故事生成, scene planning, 训练无关, 注意力机制
 

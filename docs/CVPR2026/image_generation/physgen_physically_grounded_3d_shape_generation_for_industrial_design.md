@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.00422](https://arxiv.org/abs/2512.00422)  
-**代码**: https://github.com/kasvii/PhysGen  
+**代码**: [https://github.com/kasvii/PhysGen](https://github.com/kasvii/PhysGen)  
 **领域**: 扩散模型 / 3D生成  
 **关键词**: 物理引导、3D形状生成、Flow Matching、气动优化、工业设计
 

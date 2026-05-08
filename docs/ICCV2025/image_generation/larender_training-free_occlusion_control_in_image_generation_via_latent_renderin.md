@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.07647](https://arxiv.org/abs/2508.07647)  
-**代码**: https://xiaohangzhan.github.io/projects/larender/  
-**领域**: image_generation / 遮挡控制  
+**代码**: [https://xiaohangzhan.github.io/projects/larender/](https://xiaohangzhan.github.io/projects/larender/)  
+**领域**: 图像生成  
 **关键词**: 遮挡控制, 体渲染, 潜空间渲染, 免训练, 扩散模型, 图像生成
 
 ## 一句话总结

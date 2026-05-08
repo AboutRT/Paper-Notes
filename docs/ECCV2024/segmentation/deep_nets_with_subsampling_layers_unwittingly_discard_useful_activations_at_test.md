@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2410.01083](https://arxiv.org/abs/2410.01083)  
-**代码**: https://github.com/ca-joe-yang/discard-in-subsampling  
+**代码**: [https://github.com/ca-joe-yang/discard-in-subsampling](https://github.com/ca-joe-yang/discard-in-subsampling)  
 **领域**: 图像分割 / 图像分类  
 **关键词**: 测试时增强, 下采样层, 激活图搜索, 注意力聚合, 语义分割
 

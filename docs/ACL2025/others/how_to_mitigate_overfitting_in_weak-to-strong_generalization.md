@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 弱到强泛化
-  - 超级对齐
+  - 其他
   - overfitting
   - data filtering
   - 自一致性
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2503.04249](https://arxiv.org/abs/2503.04249)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: 其他  
 **关键词**: 弱到强泛化, 超级对齐, overfitting, data filtering, 自一致性
 
 ## 一句话总结

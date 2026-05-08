@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 视觉组合性
   - CLIP
-  - 对比学习
+  - 可解释性
   - 重标注
   - 语义引导
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.15396](https://arxiv.org/abs/2412.15396)  
 **代码**: 无  
-**领域**: 自监督/多模态学习  
+**领域**: 可解释性  
 **关键词**: 视觉组合性, CLIP, 对比学习, 重标注, 语义引导
 
 ## 一句话总结
@@ -125,10 +125,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] DetailSemNet: Elevating Signature Verification through Detail-Semantic Integration](../../ECCV2024/interpretability/detailsemnet_elevating_signature_verification_through_detail-semantic_integratio.md)
-- [\[NeurIPS 2025\] Time-Evolving Dynamical System for Learning Latent Representations of Mouse Visual Cortex](../../NeurIPS2025/interpretability/time-evolving_dynamical_system_for_learning_latent_representations_of_mouse_visu.md)
 - [\[CVPR 2025\] Open Ad-Hoc Categorization with Contextualized Feature Learning](open_ad-hoc_categorization_with_contextualized_feature_learning.md)
-- [\[ACL 2026\] NOSE: Neural Olfactory-Semantic Embedding with Tri-Modal Orthogonal Contrastive Learning](../../ACL2026/interpretability/nose_neural_olfactory-semantic_embedding_with_tri-modal_orthogonal_contrastive_l.md)
 - [\[ICCV 2025\] SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning](../../ICCV2025/interpretability/svip_semantically_contextualized_visual_patches_for_zero-shot_learning.md)
+- [\[NeurIPS 2025\] SynBrain: Enhancing Visual-to-fMRI Synthesis via Probabilistic Representation Learning](../../NeurIPS2025/interpretability/synbrain_enhancing_visual-to-fmri_synthesis_via_probabilistic_representation_lea.md)
+- [\[ECCV 2024\] DetailSemNet: Elevating Signature Verification through Detail-Semantic Integration](../../ECCV2024/interpretability/detailsemnet_elevating_signature_verification_through_detail-semantic_integratio.md)
+- [\[AAAI 2026\] Adaptive Evidential Learning for Temporal-Semantic Robustness in Moment Retrieval](../../AAAI2026/interpretability/adaptive_evidential_learning_for_temporal-semantic_robustnes.md)
 
 <!-- RELATED:END -->

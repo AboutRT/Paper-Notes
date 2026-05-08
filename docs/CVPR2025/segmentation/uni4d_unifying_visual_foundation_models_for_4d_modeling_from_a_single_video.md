@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21761](https://arxiv.org/abs/2503.21761)  
-**代码**: https://davidyao99.github.io/uni4d  
+**代码**: [https://davidyao99.github.io/uni4d](https://davidyao99.github.io/uni4d)  
 **领域**: 4D场景理解 / 3D视觉  
 **关键词**: 4D建模, 视觉基础模型, 动态场景重建, 相机位姿估计, 结构运动恢复
 

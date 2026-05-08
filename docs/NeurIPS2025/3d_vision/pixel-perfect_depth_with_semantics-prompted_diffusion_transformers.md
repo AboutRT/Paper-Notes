@@ -50,7 +50,7 @@ tags:
    核心问题：裸DiT在像素空间无法同时捕获全局语义和局部细节（ablation显示NYUv2 AbsRel 22.5%，几乎不可用）。
 
    解决方案：从预训练视觉基础模型$f$提取高层语义表示$\mathbf{e} = f(\mathbf{c}) \in \mathbb{R}^{T' \times D'}$，注入DiT令牌：
-   $$\mathbf{z'} = h_\phi(\mathbf{z} \oplus \mathcal{B}(\hat{\mathbf{e}}))$$
+    $\mathbf{z'} = h_\phi(\mathbf{z} \oplus \mathcal{B}(\hat{\mathbf{e}}))$
    其中$\mathcal{B}$是双线性插值对齐空间分辨率，$h_\phi$是MLP融合层。
 
    关键细节——**L2归一化**：发现语义表示$\mathbf{e}$的数值量级与DiT令牌的量级差异巨大，直接拼接导致训练不稳定。简单的L2归一化$\hat{\mathbf{e}} = \mathbf{e}/\|\mathbf{e}\|_2$即可解决，但效果提升巨大（NYUv2 AbsRel从22.5%降至4.3%，提升78%）。
@@ -62,15 +62,15 @@ tags:
    观察：DiT中**前期block负责全局/低频结构，后期block负责高频细节**。
 
    基于此设计渐进patch策略：
-   - 前N/2个block（标准DiT）：patch size=16，token数$(H/16)\times(W/16)$——低计算成本，聚焦全局结构
-   - 后N/2个block（SP-DiT）：MLP扩展到$(H/8)\times(W/8)$个token——等效更小patch size，聚焦细粒度细节
+    - 前N/2个block（标准DiT）：patch size=16，token数$(H/16)\times(W/16)$——低计算成本，聚焦全局结构
+    - 后N/2个block（SP-DiT）：MLP扩展到$(H/8)\times(W/8)$个token——等效更小patch size，聚焦细粒度细节
    
    效果：推理时间减少30%（RTX 4090上），同时精度进一步提升。
 
 3. **Flow Matching生成范式**
 
    采用Flow Matching作为生成核心（而非DDPM），学习从噪声到深度样本的连续变换：
-   $$\mathbf{x}_t = t \cdot \mathbf{x}_1 + (1-t) \cdot \mathbf{x}_0, \quad \mathbf{v}_t = \mathbf{x}_1 - \mathbf{x}_0$$
+    $\mathbf{x}_t = t \cdot \mathbf{x}_1 + (1-t) \cdot \mathbf{x}_0, \quad \mathbf{v}_t = \mathbf{x}_1 - \mathbf{x}_0$
    训练目标为MSE速度场损失$\|\mathbf{v}_\theta - \mathbf{v}_t\|^2$。
 
 ### 损失函数 / 训练策略

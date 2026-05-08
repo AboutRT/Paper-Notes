@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2508.08001](https://arxiv.org/abs/2508.08001)  
 **代码**: [yuuki20001/FOMC-sentiment-path](https://github.com/yuuki20001/FOMC-sentiment-path)  
-**领域**: llm_nlp  
+**领域**: 时间序列  
 **关键词**: Fedspeak, monetary policy stance, LLM, uncertainty quantification, financial sentiment analysis
 
 ## 一句话总结
@@ -120,8 +120,8 @@ $$CR(a_t) = \frac{K}{\sum_{k=1}^{K}(\alpha_k + 1)}$$
 ## 相关论文
 
 - [\[ICLR 2026\] HiVid: LLM-Guided Video Saliency For Content-Aware VOD And Live Streaming](../../ICLR2026/time_series/hivid_llm-guided_video_saliency_for_content-aware_vod_and_live_streaming.md)
+- [\[AAAI 2026\] ProbFM: Probabilistic Time Series Foundation Model with Uncertainty Decomposition](probfm_probabilistic_time_series_foundation_model_with_uncertainty_decomposition.md)
 - [\[ICML 2025\] Event-Aware Sentiment Factors from LLM-Augmented Financial Tweets: A Transparent Framework for Interpretable Quant Trading](../../ICML2025/time_series/event-aware_sentiment_factors_from_llm-augmented_financial_tweets_a_transparent_.md)
-- [\[ICLR 2026\] SCRAPL: Scattering Transform with Random Paths for Machine Learning](../../ICLR2026/time_series/scrapl_scattering_transform_with_random_paths_for_machine_learning.md)
 - [\[AAAI 2026\] CometNet: Contextual Motif-guided Long-term Time Series Forecasting](cometnet_contextual_motif-guided_long-term_time_series_forecasting.md)
 - [\[AAAI 2026\] iTimER: Reconstruction Error-Guided Irregularly Sampled Time Series Representation Learning](beyond_observations_reconstruction_error-guided_irregularly_sampled_time_series_.md)
 

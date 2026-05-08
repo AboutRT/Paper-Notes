@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.22356](https://arxiv.org/abs/2505.22356)  
 **代码**: 无  
-**领域**: 模型评估 / 可靠性  
+**领域**: 其他  
 **关键词**: classifier evaluation, covariate shift, deployment safety, hypothesis testing, suitability signals
 
 ## 一句话总结
@@ -128,10 +128,10 @@ Pipeline：
 
 ## 相关论文
 
+- [\[CVPR 2025\] Zero-Shot Head Swapping in Real-World Scenarios](../../CVPR2025/others/zero-shot_head_swapping_in_real-world_scenarios.md)
 - [\[ACL 2025\] Capacity Matters: A Proof-of-Concept for Transformer Memorization on Real-World Data](../../ACL2025/others/capacity_matters_a_proof-of-concept_for_transformer_memorization_on_real-world_d.md)
 - [\[NeurIPS 2025\] 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos](../../NeurIPS2025/others/4dgt_learning_a_4d_gaussian_transformer_using_realworld_mono.md)
 - [\[ICML 2025\] General Agents Contain World Models](general_agents_contain_world_models.md)
 - [\[CVPR 2026\] Crowdsourcing of Real-world Image Annotation via Visual Properties](../../CVPR2026/others/crowdsourcing_of_real_world_image_annotation_via_visual_properties.md)
-- [\[ICML 2025\] Time-Aware World Model for Adaptive Prediction and Control](time-aware_world_model_for_adaptive_prediction_and_control.md)
 
 <!-- RELATED:END -->

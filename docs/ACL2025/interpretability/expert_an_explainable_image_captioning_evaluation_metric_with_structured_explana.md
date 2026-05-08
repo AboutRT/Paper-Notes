@@ -2,10 +2,10 @@
 title: >-
   [论文解读] EXPERT: An Explainable Image Captioning Evaluation Metric with Structured Explanations
 description: >-
-  [ACL 2025][图像描述评估] 本文提出 EXPERT，一种基于 VLM 微调的无参考图像描述评估指标，通过构建大规模结构化解释数据集并设计两阶段评估模板，在多个基准数据集上达到 SOTA 的同时，提供基于流畅度、相关性、描述性三个维度的高质量结构化解释。
+  [ACL 2025][可解释性] 本文提出 EXPERT，一种基于 VLM 微调的无参考图像描述评估指标，通过构建大规模结构化解释数据集并设计两阶段评估模板，在多个基准数据集上达到 SOTA 的同时，提供基于流畅度、相关性、描述性三个维度的高质量结构化解释。
 tags:
   - ACL 2025
-  - 图像描述评估
+  - 可解释性
   - 可解释评估指标
   - 结构化解释
   - VLM微调
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.24016](https://arxiv.org/abs/2506.24016)  
 **代码**: [有](https://github.com/hjkim811/EXPERT)  
-**领域**: 多模态VLM  
+**领域**: 可解释性  
 **关键词**: 图像描述评估, 可解释评估指标, 结构化解释, VLM微调, 参考无关评估
 
 ## 一句话总结
@@ -203,6 +203,6 @@ EXPERT 在所有无参考指标中取得 SOTA（除 Pascal-50S）。甚至超越
 - [\[NeurIPS 2025\] ARECHO: Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation](../../NeurIPS2025/interpretability/arecho_autoregressive_evaluation_via_chain-based_hypothesis_optimization_for_spe.md)
 - [\[ACL 2026\] TabReX: Tabular Referenceless eXplainable Evaluation](../../ACL2026/interpretability/tabrex_tabular_referenceless_explainable_evaluation.md)
 - [\[ACL 2025\] Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis](shortcut_neuron_eval.md)
-- [\[ACL 2025\] The Anatomy of Evidence: An Investigation Into Explainable ICD Coding](the_anatomy_of_evidence_an_investigation_into_explainable_icd_coding.md)
+- [\[ACL 2025\] Bias Attribution in Filipino Language Models: Extending a Bias Interpretability Metric for Application on Agglutinative Languages](bias_attribution_in_filipino_language_models_extending_a_bias_interpretability_m.md)
 
 <!-- RELATED:END -->

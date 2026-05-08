@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Thought Communication in Multiagent Collaboration
 description: >-
-  [NeurIPS 2025][多智能体协作] 提出 ThoughtComm 框架，将多智能体通信形式化为隐变量生成模型，证明了在非参数条件下共享思想和私有思想均可辨识，并通过稀疏正则化自编码器提取潜在思想、经前缀注入回馈给每个智能体，在数学推理任务上相比当前 SOTA 的 Multiagent Finetuning 平均提升 19.06%。
+  [NeurIPS 2025][LLM评测] 提出 ThoughtComm 框架，将多智能体通信形式化为隐变量生成模型，证明了在非参数条件下共享思想和私有思想均可辨识，并通过稀疏正则化自编码器提取潜在思想、经前缀注入回馈给每个智能体，在数学推理任务上相比当前 SOTA 的 Multiagent Finetuning 平均提升 19.06%。
 tags:
   - NeurIPS 2025
-  - 多智能体协作
+  - LLM评测
   - 思想通信
   - 潜变量模型
   - 可辨识性理论
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.20733](https://arxiv.org/abs/2510.20733)  
 **代码**: 未公开  
-**领域**: LLM评估 / 多智能体协作  
+**领域**: LLM评测  
 **关键词**: 多智能体协作, 思想通信, 潜变量模型, 可辨识性理论, 前缀注入, 稀疏自编码器  
 
 ## 一句话总结
@@ -196,9 +196,9 @@ ThoughtComm 的整体 pipeline 如下：在每个通信轮次 $t$，首先收集
 ## 相关论文
 
 - [\[NeurIPS 2025\] LCDB 1.1: A Database Illustrating Learning Curves Are More Ill-Behaved Than Previously Thought](lcdb_11_a_database_illustrating_learning_curves_are_more_ill-behaved_than_previo.md)
-- [\[NeurIPS 2025\] RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases](rdb2g-bench_a_comprehensive_benchmark_for_automatic_graph_modeling_of_relational.md)
-- [\[NeurIPS 2025\] PFΔ: A Benchmark Dataset for Power Flow under Load, Generation, and Topology Variations](pfδ_a_benchmark_dataset_for_power_flow_under_load_generation_and_topology_variat.md)
-- [\[NeurIPS 2025\] Conformal Prediction in The Loop: A Feedback-Based Uncertainty Model for Trajectory Optimization](conformal_prediction_in_the_loop_a_feedback-based_uncertainty_model_for_trajecto.md)
-- [\[NeurIPS 2025\] Normal-Abnormal Guided Generalist Anomaly Detection](normal-abnormal_guided_generalist_anomaly_detection.md)
+- [\[CVPR 2025\] NADER: Neural Architecture Design via Multi-Agent Collaboration](../../CVPR2025/llm_evaluation/nader_neural_architecture_design_via_multi-agent_collaboration.md)
+- [\[NeurIPS 2025\] Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](beyond_the_surface_enhancing_llm-as-a-judge_alignment_with_human_via_internal_re.md)
+- [\[NeurIPS 2025\] OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling](optitree_hierarchical_thoughts_generation_with_tree_search_for_llm_optimization_.md)
+- [\[NeurIPS 2025\] Put CASH on Bandits: A Max K-Armed Problem for Automated Machine Learning](put_cash_on_bandits_a_max_k-armed_problem_for_automated_machine_learning.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.05111](https://arxiv.org/abs/2505.05111)  
 **代码**: [https://github.com/Aatrox103/multilingual-llm-features](https://github.com/Aatrox103/multilingual-llm-features)  
-**领域**: LLM / NLP  
+**领域**: 模型压缩  
 **关键词**: Sparse Autoencoders, Multilingual LLM, Language-Specific Features, mechanistic interpretability, Steering Vectors
 
 ## 一句话总结
@@ -184,8 +184,8 @@ $$v = \frac{1}{|\mathcal{X}_+|}\sum_{x \in \mathcal{X}_+} a_L(x) - \frac{1}{|\ma
 
 - [\[ACL 2025\] Wanda++: Pruning Large Language Models via Regional Gradients](wanda_pruning_large_language_models_via_regional_gradients.md)
 - [\[ICML 2025\] Persistent Topological Features in Large Language Models](../../ICML2025/model_compression/persistent_topological_features_in_large_language_models.md)
-- [\[ACL 2025\] BlockPruner: Fine-grained Pruning for Large Language Models](blockpruner_fine-grained_pruning_for_large_language_models.md)
 - [\[ACL 2025\] 500xCompressor: Generalized Prompt Compression for Large Language Models](500xcompressor_generalized_prompt_compression_for_large_language_models.md)
+- [\[ACL 2025\] BlockPruner: Fine-grained Pruning for Large Language Models](blockpruner_fine-grained_pruning_for_large_language_models.md)
 - [\[ACL 2025\] EfficientQAT: Efficient Quantization-Aware Training for Large Language Models](efficientqat.md)
 
 <!-- RELATED:END -->

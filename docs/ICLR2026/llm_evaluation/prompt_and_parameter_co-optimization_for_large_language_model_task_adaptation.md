@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Prompt and Parameter Co-Optimization for Large Language Model Task Adaptation
 description: >-
-  [ICLR 2026][提示优化] 提出 MetaTuner 框架，通过共享元编码器同时生成查询特定的提示和 LoRA 参数，使提示优化与微调相互增强，并设计监督正则化损失解决离散-连续混合优化问题，在 MATH、GSM8K、HotpotQA、CosmosQA 上一致超越独立的提示优化和微调方法。
+  [ICLR 2026][LLM评测] 提出 MetaTuner 框架，通过共享元编码器同时生成查询特定的提示和 LoRA 参数，使提示优化与微调相互增强，并设计监督正则化损失解决离散-连续混合优化问题，在 MATH、GSM8K、HotpotQA、CosmosQA 上一致超越独立的提示优化和微调方法。
 tags:
   - ICLR 2026
-  - 提示优化
+  - LLM评测
   - 微调
   - 联合优化
   - LoRA
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.24245](https://arxiv.org/abs/2509.24245)  
 **代码**: [GitHub](https://github.com/BoXiaohe/MetaTuner)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: 提示优化, 微调, 联合优化, LoRA, 离散-连续优化
 
 ## 一句话总结
@@ -186,9 +186,9 @@ MetaTuner 在所有 4 个数据集上大幅领先：MATH +4.89（vs DPO），GSM
 ## 相关论文
 
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](prompt_and_parameter_co-optimization_for_large_language_models.md)
-- [\[ICLR 2026\] When and Where to Reset Matters for Long-Term Test-Time Adaptation](when_and_where_to_reset_matters_for_long-term_test-time_adaptation.md)
 - [\[ICLR 2026\] Breaking the Correlation Plateau: On the Optimization and Capacity Limits of Attention-Based Regressors](breaking_the_correlation_plateau_on_the_optimization_and_capacity_limits_of_atte.md)
 - [\[ICLR 2026\] Revisiting the Past: Data Unlearning with Model State History](revisiting_the_past_data_unlearning_with_model_state_history.md)
 - [\[ICLR 2026\] Predicting LLM Reasoning Performance with Small Proxy Model](predicting_llm_reasoning_performance_with_small_proxy_model.md)
+- [\[ICLR 2026\] ASIDE: Architectural Separation of Instructions and Data in Language Models](aside_architectural_separation_of_instructions_and_data_in_language_models.md)
 
 <!-- RELATED:END -->

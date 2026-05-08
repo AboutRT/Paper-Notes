@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2408.01812](https://arxiv.org/abs/2408.01812)  
-**代码**: https://opendatalab.github.io/skydiffusion/  
+**代码**: [https://opendatalab.github.io/skydiffusion/](https://opendatalab.github.io/skydiffusion/)  
 **领域**: 自动驾驶  
 **关键词**: 跨视角图像合成, 鸟瞰图变换, 扩散模型, 地面到航拍生成, 街景到卫星图
 

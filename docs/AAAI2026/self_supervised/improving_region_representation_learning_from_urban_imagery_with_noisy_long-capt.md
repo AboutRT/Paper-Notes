@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.07062](https://arxiv.org/abs/2511.07062)  
 **代码**: 待确认  
-**领域**: self_supervised  
+**领域**: 自监督  
 **关键词**: urban computing, region representation, cross-modal pre-training, CLIP, noise suppression, self-distillation
 
 ## 一句话总结

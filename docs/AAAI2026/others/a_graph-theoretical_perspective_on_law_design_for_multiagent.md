@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 法律设计
-  - 多智能体系统
+  - 其他
   - 超图顶点覆盖
   - 责任缺口
   - 近似算法
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.06361](https://arxiv.org/abs/2511.06361)  
 **代码**: 无  
-**领域**: AI安全 / 多智能体系统 / 规范合成  
+**领域**: 其他  
 **关键词**: 法律设计, 多智能体系统, 超图顶点覆盖, 责任缺口, 近似算法  
 
 ## 一句话总结
@@ -134,10 +134,10 @@ tags:
 
 ## 相关论文
 
-- [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
 - [\[AAAI 2026\] Improved Differentially Private Algorithms for Rank Aggregation](improved_differentially_private_algorithms_for_rank_aggregation.md)
-- [\[AAAI 2026\] Whispering Agents: An Event-Driven Covert Communication Protocol for the Internet of Agents](whispering_agents_an_event-driven_covert_communication_protocol_for_the_internet.md)
+- [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
 - [\[AAAI 2026\] Private Frequency Estimation via Residue Number Systems](private_frequency_estimation_via_residue_number_systems.md)
 - [\[AAAI 2026\] Theoretical and Empirical Analysis of Lehmer Codes to Search Permutation Spaces with Evolutionary Algorithms](theoretical_and_empirical_analysis_of_lehmer_codes_to_search_permutation_spaces_.md)
+- [\[AAAI 2026\] Designing Incident Reporting Systems for Harms from General-Purpose AI](designing_incident_reporting_systems_for_harms_from_general-purpose_ai.md)
 
 <!-- RELATED:END -->

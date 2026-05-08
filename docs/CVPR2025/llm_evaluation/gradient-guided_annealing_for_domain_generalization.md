@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 域泛化
-  - 梯度对齐
+  - LLM评测
   - 模拟退火
   - 域偏移
   - 早期训练
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.20162](https://arxiv.org/abs/2502.20162)  
-**代码**: https://github.com/aristotelisballas/GGA  
-**领域**: 其他  
+**代码**: [https://github.com/aristotelisballas/GGA](https://github.com/aristotelisballas/GGA)  
+**领域**: LLM评测  
 **关键词**: 域泛化、梯度对齐、模拟退火、域偏移、早期训练
 
 ## 一句话总结
@@ -112,8 +112,8 @@ GGA的核心价值：可以即插即用地与任何DG方法组合，为其提供
 
 - [\[ICML 2025\] FEDTAIL: Federated Long-Tailed Domain Generalization with Sharpness-Guided Gradient Matching](../../ICML2025/llm_evaluation/fedtail_federated_long-tailed_domain_generalization_with_sharpness-guided_gradie.md)
 - [\[CVPR 2025\] On the Generalization of Handwritten Text Recognition Models](on_the_generalization_of_handwritten_text_recognition_models.md)
-- [\[ICML 2025\] Set-Valued Predictions for Robust Domain Generalization](../../ICML2025/llm_evaluation/set_valued_predictions_for_robust_domain_generalization.md)
 - [\[ICLR 2026\] Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization](../../ICLR2026/llm_evaluation/noise-aware_generalization_robustness_to_in-domain_noise_and_out-of-domain_gener.md)
+- [\[ICML 2025\] Set-Valued Predictions for Robust Domain Generalization](../../ICML2025/llm_evaluation/set_valued_predictions_for_robust_domain_generalization.md)
 - [\[CVPR 2025\] Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning](dual_consolidation_for_pre-trained_model-based_domain-incremental_learning.md)
 
 <!-- RELATED:END -->

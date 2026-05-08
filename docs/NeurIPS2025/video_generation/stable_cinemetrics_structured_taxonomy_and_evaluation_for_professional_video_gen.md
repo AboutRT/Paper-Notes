@@ -8,7 +8,7 @@ tags:
   - 视频生成评估
   - 电影制作分类体系
   - 专业视频控制
-  - 人工评估
+  - 视频生成
   - VLM评估器
 ---
 
@@ -155,6 +155,6 @@ SCINE 由三部分组成：
 - [\[ICCV 2025\] ETVA: Evaluation of Text-to-Video Alignment via Fine-Grained Question Generation and Answering](../../ICCV2025/video_generation/etva_evaluation_of_text-to-video_alignment_via_fine-grained_question_generation_.md)
 - [\[CVPR 2025\] NeuS-V: Neuro-Symbolic Evaluation of Text-to-Video Models using Formal Verification](../../CVPR2025/video_generation/neuro-symbolic_evaluation_of_text-to-video_models_using_formal_verification.md)
 - [\[CVPR 2026\] SLVMEval: Synthetic Meta Evaluation Benchmark for Text-to-Long Video Generation](../../CVPR2026/video_generation/slvmeval_synthetic_meta_evaluation_benchmark_for_text-to-long_video_generation.md)
-- [\[NeurIPS 2025\] MagCache: Fast Video Generation with Magnitude-Aware Cache](magcache_fast_video_generation_with_magnitudeaware_cache.md)
+- [\[NeurIPS 2025\] Safe-Sora: Safe Text-to-Video Generation via Graphical Watermarking](safesora_safe_texttovideo_generation_via_graphical_watermark.md)
 
 <!-- RELATED:END -->

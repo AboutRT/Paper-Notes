@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.23276](https://arxiv.org/abs/2603.23276)  
-**代码**: [GitHub](https://github.com/IMPL-Lab/CCF.git) (有)  
+**代码**: [GitHub](https://github.com/IMPL-Lab/CCF.git)  
 **领域**: Autonomous Driving  
 **关键词**: 多模态3D检测, 域泛化, 模态不平衡, LiDAR-Camera融合, 跨域鲁棒性
 
@@ -48,11 +48,11 @@ tags:
 ### 关键设计
 
 1. **Query Decoupled Loss (QDL)**：解码器并行执行三次（共享权重）：仅 2D query、仅 3D query、融合 query。各自独立进行匈牙利匹配和损失计算：
-   $$\mathcal{L}_{total} = \mathcal{L}_{2d} + \mathcal{L}_{3d} + \mathcal{L}_{fused}$$
+    $\mathcal{L}_{total} = \mathcal{L}_{2d} + \mathcal{L}_{3d} + \mathcal{L}_{fused}$
    设计动机：标准训练中 3D query 因更好的定位质量垄断匈牙利匹配（37.5:1），2D query 几乎无梯度更新。三次并行而非单次解码后分离，是为了避免 2D query 在自注意力中通过 3D query "搭便车"（shortcut learning）。推理时仅用融合分支，无额外计算开销。
 
 2. **LiDAR-Guided Depth Prior (LGDP)**：对每个 2D 提案，从图像分支获得学习深度分布 $\mathbf{d}_i^{2d} \in \mathbb{R}^D$，从 LiDAR 点云获得几何先验分布 $\mathbf{d}_i^{3d} \in \mathbb{R}^D$（视锥内 LiDAR 点的深度直方图）。通过置信度网络预测融合权重 $\lambda_i \in [0,1]$：
-   $$\mathbf{d}_i^{fused} = \sigma(\lambda_i \cdot \log(\mathbf{d}_i^{2d}) + (1-\lambda_i) \cdot \log(\mathbf{d}_i^{3d}))$$
+    $\mathbf{d}_i^{fused} = \sigma(\lambda_i \cdot \log(\mathbf{d}_i^{2d}) + (1-\lambda_i) \cdot \log(\mathbf{d}_i^{3d}))$
    这是一种 Product-of-Experts 式的对数空间融合。设计动机：纯图像深度预测 MAE 为 1.78m（源域），跨域更差（Rain 3.01m），直接利用 LiDAR 几何信息可大幅改善 2D query 的 3D 定位。自适应权重则能处理远距离 LiDAR 稀疏或雨天 LiDAR 噪声的情况。
 
 3. **Complementary Cross-Modal Masking (CCMM)**：对图像应用 GridMask，对 LiDAR 应用互补掩码（图像被遮蔽的位置保留 LiDAR 点，反之亦然）。采用课程学习（掩码概率从 0 线性增至 $p=0.7$）。

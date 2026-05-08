@@ -21,7 +21,7 @@ tags:
 **arXiv**: [2511.22128](https://arxiv.org/abs/2511.22128)  
 **代码**: [GitHub](https://github.com/john-vastola/varembed-neurreps25)  
 **作者**: John J. Vastola, Samuel J. Gershman, Kanaka Rajan (Harvard University)  
-**领域**: medical_imaging / dimensionality_reduction  
+**领域**: 医学图像  
 **关键词**: 降维, 流形嵌入, 变分框架, PCA, Euler-Lagrange, Noether定理, score vector  
 
 ## 一句话总结
@@ -140,8 +140,8 @@ $$\sum_j \left[ \partial_j(J_{ji}^+) + J_{ji}^+ \partial_j[\log q(\vec{z})] \rig
 
 - [\[NeurIPS 2025\] Variational Autoencoder with Normalizing Flow for X-ray Spectral Fitting](variational_autoencoder_with_normalizing_flow_for_x-ray_spectral_fitting.md)
 - [\[NeurIPS 2025\] DCA: Graph-Guided Deep Embedding Clustering for Brain Atlases](dca_graph-guided_deep_embedding_clustering_for_brain_atlases.md)
-- [\[NeurIPS 2025\] Far from the Shallow: Brain-Predictive Reasoning Embedding through Residual Disentanglement](far_from_the_shallow_brain-predictive_reasoning_embedding_through_residual_disen.md)
 - [\[NeurIPS 2025\] H-DDx: A Hierarchical Evaluation Framework for Differential Diagnosis](h-ddx_a_hierarchical_evaluation_framework_for_differential_diagnosis.md)
 - [\[NeurIPS 2025\] FOXES: A Framework For Operational X-ray Emission Synthesis](foxes_a_framework_for_operational_x-ray_emission_synthesis.md)
+- [\[ICLR 2026\] Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling](../../ICLR2026/medical_imaging/overthinking_reduction_with_decoupled_rewards_and_curriculum_data_scheduling.md)
 
 <!-- RELATED:END -->

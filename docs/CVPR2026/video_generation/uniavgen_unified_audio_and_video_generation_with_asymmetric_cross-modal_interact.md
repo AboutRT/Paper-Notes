@@ -9,15 +9,15 @@ tags:
   - 跨模态交互
   - 扩散模型
   - 唇音同步
-  - 人脸感知调制
+  - 视频生成
 ---
 
 # UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.03334](https://arxiv.org/abs/2511.03334)  
-**代码**: https://mcg-nju.github.io/UniAVGen/ (项目页)  
-**领域**: 多模态生成  
+**代码**: [https://mcg-nju.github.io/UniAVGen/](https://mcg-nju.github.io/UniAVGen/) (项目页)  
+**领域**: 视频生成  
 **关键词**: 音视频联合生成, 跨模态交互, 扩散模型, 唇音同步, 人脸感知调制
 
 ## 一句话总结

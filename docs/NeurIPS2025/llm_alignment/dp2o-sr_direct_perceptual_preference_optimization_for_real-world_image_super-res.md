@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.18851](https://arxiv.org/abs/2510.18851)  
 **代码**: [github.com/cswry/DP2O-SR](https://github.com/cswry/DP2O-SR)  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: 图像超分辨率, 偏好优化, 扩散模型, perceptual quality, DPO
 
 ## 一句话总结

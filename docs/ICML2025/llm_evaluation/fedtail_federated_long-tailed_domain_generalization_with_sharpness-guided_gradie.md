@@ -2,10 +2,10 @@
 title: >-
   [论文解读] FEDTAIL: Federated Long-Tailed Domain Generalization with Sharpness-Guided Gradient Matching
 description: >-
-  [ICML 2025][联邦学习] FedTAIL 提出了一个联邦域泛化框架，通过梯度一致性正则化、逐类锐度感知最小化和曲率感知动态加权三个模块，同时解决域偏移和长尾类别不平衡的双重挑战，在多个基准上达到 SOTA。
+  [ICML 2025][LLM评测] FedTAIL 提出了一个联邦域泛化框架，通过梯度一致性正则化、逐类锐度感知最小化和曲率感知动态加权三个模块，同时解决域偏移和长尾类别不平衡的双重挑战，在多个基准上达到 SOTA。
 tags:
   - ICML 2025
-  - 联邦学习
+  - LLM评测
   - Domain Generalization
   - Long-Tailed
   - Sharpness-Aware Minimization
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.08518](https://arxiv.org/abs/2506.08518)  
-**代码**: https://github.com/sunnyinAI/FedTail  
-**领域**: 联邦学习 / 域泛化  
+**代码**: [https://github.com/sunnyinAI/FedTail](https://github.com/sunnyinAI/FedTail)  
+**领域**: LLM评测  
 **关键词**: federated learning, Domain Generalization, Long-Tailed, Sharpness-Aware Minimization, Gradient Coherence
 
 ## 一句话总结
@@ -109,9 +109,9 @@ FedTAIL 提出了一个联邦域泛化框架，通过梯度一致性正则化、
 ## 相关论文
 
 - [\[CVPR 2025\] Gradient-Guided Annealing for Domain Generalization](../../CVPR2025/llm_evaluation/gradient-guided_annealing_for_domain_generalization.md)
-- [\[ICML 2025\] Set-Valued Predictions for Robust Domain Generalization](set_valued_predictions_for_robust_domain_generalization.md)
 - [\[ICLR 2026\] Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization](../../ICLR2026/llm_evaluation/noise-aware_generalization_robustness_to_in-domain_noise_and_out-of-domain_gener.md)
+- [\[ICML 2025\] G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration](g-sim_generative_simulations_with_large_language_models_and_gradient-free_calibr.md)
 - [\[ICML 2025\] Improving Generalization with Flat Hilbert Bayesian Inference](improving_generalization_with_flat_hilbert_bayesian_inference.md)
-- [\[ICML 2025\] Random Registers for Cross-Domain Few-Shot Learning](random_registers_for_cross-domain_few-shot_learning.md)
+- [\[ICML 2025\] CostFilter-AD: Enhancing Anomaly Detection through Matching Cost Filtering](costfilter-ad_enhancing_anomaly_detection_through_matching_cost_filtering.md)
 
 <!-- RELATED:END -->

@@ -92,7 +92,7 @@ FLD 的创新在于同时利用教师模型的前景和背景预测：
 
 1. 用匈牙利算法对教师和学生的预测进行二部匹配，获得前景和背景的最优排列 $\hat{\sigma}^{fg}$, $\hat{\sigma}^{bg}$
 2. Logit 蒸馏损失：
-   $$\mathcal{L}_{logits} = \sum_{q=1}^{N_q} \alpha \mathcal{L}_{cls}(\hat{c}^S_{\hat{\sigma}_q}, \hat{c}^T_q) + \beta \mathcal{L}_{bbx}(\hat{b}^S_{\hat{\sigma}_q}, \hat{b}^T_q)$$
+    $\mathcal{L}_{logits} = \sum_{q=1}^{N_q} \alpha \mathcal{L}_{cls}(\hat{c}^S_{\hat{\sigma}_q}, \hat{c}^T_q) + \beta \mathcal{L}_{bbx}(\hat{b}^S_{\hat{\sigma}_q}, \hat{b}^T_q)$
    其中 $\hat{\sigma} = \{\hat{\sigma}^{fg}, \hat{\sigma}^{bg}\}$，$\alpha=2.0$，$\beta=0.25$
 
 关键洞察：教师模型因为看到了未来帧，训练更稳定，能提供大量准确的 true negatives，背景查询中的信息也具有价值。
@@ -201,10 +201,10 @@ $$\mathcal{L}_{KD} = \lambda_1 \mathcal{L}_{pv} + \lambda_2 \mathcal{L}_{bev} + 
 
 ## 相关论文
 
-- [\[AAAI 2026\] Exploring Surround-View Fisheye Camera 3D Object Detection](exploring_surround-view_fisheye_camera_3d_object_detection.md)
-- [\[AAAI 2026\] MonoCLUE: Object-Aware Clustering Enhances Monocular 3D Object Detection](monoclue_object-aware_clustering_enhances_monocular_3d_object_detection.md)
 - [\[AAAI 2026\] Multi-Modal Assistance for Unsupervised Domain Adaptation on Point Cloud 3D Object Detection](multi-modal_assistance_for_unsupervised_domain_adaptation_on_point_cloud_3d_obje.md)
-- [\[ECCV 2024\] T-MAE: Temporal Masked Autoencoders for Point Cloud Representation Learning](../../ECCV2024/3d_vision/t-mae_temporal_masked_autoencoders_for_point_cloud_representation_learning.md)
 - [\[NeurIPS 2025\] DynaRend: Learning 3D Dynamics via Masked Future Rendering for Robotic Manipulation](../../NeurIPS2025/3d_vision/dynarend_learning_3d_dynamics_via_masked_future_rendering_for_robotic_manipulati.md)
+- [\[CVPR 2026\] R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection# R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection](../../CVPR2026/3d_vision/r4det_4d_radar_camera_fusion_3d_detection.md)
+- [\[AAAI 2026\] Griffin: Aerial-Ground Cooperative Detection and Tracking Dataset and Benchmark](griffin_aerial-ground_cooperative_detection_and_tracking_dataset_and_benchmark.md)
+- [\[AAAI 2026\] Redundant Queries in DETR-Based 3D Detection: Unnecessary and Prunable](redundant_queries_in_detr-based_3d_detection_methods_unnecessary_and_prunable.md)
 
 <!-- RELATED:END -->

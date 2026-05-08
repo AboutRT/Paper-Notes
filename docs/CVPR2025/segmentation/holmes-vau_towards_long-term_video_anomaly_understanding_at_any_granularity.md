@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.06171](https://arxiv.org/abs/2412.06171)  
-**代码**: https://github.com/pipixin321/HolmesVAU  
-**领域**: 视频理解  
+**代码**: [https://github.com/pipixin321/HolmesVAU](https://github.com/pipixin321/HolmesVAU)  
+**领域**: 图像分割  
 **关键词**: 视频异常理解, 多粒度标注, 异常聚焦采样, 多模态大语言模型, 层次化指令数据
 
 ## 一句话总结

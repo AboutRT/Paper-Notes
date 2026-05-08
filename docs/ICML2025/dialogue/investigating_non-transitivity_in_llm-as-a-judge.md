@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Investigating Non-Transitivity in LLM-as-a-Judge
 description: >-
-  [ICML 2025][LLM评估] 揭示了 LLM-as-a-Judge 框架中评判偏好的**非传递性**问题（A>B, B>C 不能推出 A>C），证明固定基线模型的排名方式不可靠，提出基于循环赛 + Bradley-Terry 模型的排名方法及高效的 Swim 锦标赛策略。
+  [ICML 2025][对话系统] 揭示了 LLM-as-a-Judge 框架中评判偏好的**非传递性**问题（A>B, B>C 不能推出 A>C），证明固定基线模型的排名方式不可靠，提出基于循环赛 + Bradley-Terry 模型的排名方法及高效的 Swim 锦标赛策略。
 tags:
   - ICML 2025
-  - LLM评估
+  - 对话系统
   - 非传递性
   - Bradley-Terry模型
   - 锦标赛排名
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2502.14074](https://arxiv.org/abs/2502.14074)  
 **代码**: [yix8/llm-nontransitivity](https://github.com/yix8/llm-nontransitivity)  
-**领域**: LLM/NLP  
+**领域**: 对话系统  
 **关键词**: LLM评估, 非传递性, Bradley-Terry模型, 锦标赛排名, 位置偏差
 
 ## 一句话总结
@@ -166,10 +166,10 @@ $$\hat{\boldsymbol{\beta}} = \arg\max_{\boldsymbol{\beta}} \sum_i \sum_{j \neq i
 
 ## 相关论文
 
-- [\[ICLR 2026\] Non-Collaborative User Simulators for Tool Agents](../../ICLR2026/dialogue/non-collaborative_user_simulators_for_tool_agents.md)
 - [\[NeurIPS 2025\] Bridging Human and LLM Judgments: Understanding and Narrowing the Gap](../../NeurIPS2025/dialogue/bridging_human_and_llm_judgments_understanding_and_narrowing_the_gap.md)
+- [\[ICLR 2026\] Non-Collaborative User Simulators for Tool Agents](../../ICLR2026/dialogue/non-collaborative_user_simulators_for_tool_agents.md)
 - [\[NeurIPS 2025\] SciArena: An Open Evaluation Platform for Non-Verifiable Scientific Literature-Grounded Tasks](../../NeurIPS2025/dialogue/sciarena_an_open_evaluation_platform_for_non-verifiable_scientific_literature-gr.md)
 - [\[NeurIPS 2025\] HyGen: Efficient LLM Serving via Elastic Online-Offline Request Co-location](../../NeurIPS2025/dialogue/hygen_efficient_llm_serving_via_elastic_online-offline_request_co-location.md)
-- [\[ACL 2026\] Cognitive Policy-Driven LLM for Diagnosis and Intervention of Cognitive Distortions in Emotional Support Conversation](../../ACL2026/dialogue/cognitive_policy-driven_llm_for_diagnosis_and_intervention_of_cognitive_distorti.md)
+- [\[ICML 2025\] Position: Uncertainty Quantification Needs Reassessment for Large-language Model Agents](position_uncertainty_quantification_needs_reassessment_for_large-language_model_.md)
 
 <!-- RELATED:END -->

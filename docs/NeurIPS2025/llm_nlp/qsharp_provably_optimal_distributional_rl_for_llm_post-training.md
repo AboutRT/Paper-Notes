@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.20548](https://arxiv.org/abs/2502.20548)  
-**代码**: https://github.com/jinpz/q_sharp  
-**领域**: 强化学习  
+**代码**: [https://github.com/jinpz/q_sharp](https://github.com/jinpz/q_sharp)  
+**领域**: LLM/NLP  
 **关键词**: LLM后训练, 分布式强化学习, KL正则化, 值函数引导, 数学推理
 
 ## 一句话总结

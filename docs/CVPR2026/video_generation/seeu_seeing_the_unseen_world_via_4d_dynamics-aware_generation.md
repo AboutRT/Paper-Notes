@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.03350](https://arxiv.org/abs/2512.03350)  
-**代码**: https://yuyuanspace.com/SeeU/ (数据和代码公开)  
-**领域**: 视频理解 / 4D生成 / 动态场景重建  
+**代码**: [https://yuyuanspace.com/SeeU/](https://yuyuanspace.com/SeeU/) (数据和代码公开)  
+**领域**: 视频生成  
 **关键词**: 4D动态建模、连续动力学、时空生成、B样条、物理一致性
 
 ## 一句话总结

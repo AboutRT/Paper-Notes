@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026 Oral
   - auto-bidding
-  - generative planning
+  - 其他
   - offline RL
   - trajectory evaluator
   - KL-Lipschitz constraint
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026 Oral  
 **arXiv**: [2509.15927](https://arxiv.org/abs/2509.15927)  
 **代码**: 无  
-**领域**: 强化学习 / 广告竞价  
+**领域**: 其他  
 **关键词**: auto-bidding, generative planning, offline RL, trajectory evaluator, KL-Lipschitz constraint
 
 ## 一句话总结
@@ -129,9 +129,9 @@ AIGB-Pearl 由三部分组成：(1) **生成式规划器**（Planner）：基于
 ## 相关论文
 
 - [\[ECCV 2024\] Auto-GAS: Automated Proxy Discovery for Training-Free Generative Architecture Search](../../ECCV2024/others/auto-gas_automated_proxy_discovery_for_training-free_generative_architecture_sea.md)
-- [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](../../ICML2025/others/multiple-policy_evaluation_via_density_estimation.md)
 - [\[AAAI 2026\] Enhancing Control Policy Smoothness by Aligning Actions with Predictions from Preceding States](../../AAAI2026/others/enhancing_control_policy_smoothness_by_aligning_actions_with_predictions_from_pr.md)
-- [\[ICLR 2026\] Evaluating GFlowNet from Partial Episodes for Stable and Flexible Policy-Based Training](evaluating_gflownet_from_partial_episodes_for_stable_and_flexible_policy-based_t.md)
 - [\[AAAI 2026\] Expressive Temporal Specifications for Reward Monitoring](../../AAAI2026/others/expressive_temporal_specifications_for_reward_monitoring.md)
+- [\[ICML 2025\] Multiple-Policy Evaluation via Density Estimation](../../ICML2025/others/multiple-policy_evaluation_via_density_estimation.md)
+- [\[ICLR 2026\] Evaluating GFlowNet from Partial Episodes for Stable and Flexible Policy-Based Training](evaluating_gflownet_from_partial_episodes_for_stable_and_flexible_policy-based_t.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV2024
   - 多模态
-  - 幻觉评估
+  - 多模态VLM
   - VLM 基准
   - 场景编辑
   - 变化感知指标
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV2024  
 **arXiv**: [2407.13442](https://arxiv.org/abs/2407.13442)  
-**代码**: https://beafbench.github.io/  
-**领域**: multimodal_vlm  
+**代码**: [https://beafbench.github.io/](https://beafbench.github.io/)  
+**领域**: 多模态VLM  
 **关键词**: 幻觉评估, VLM 基准, 场景编辑, 变化感知指标, 视觉问答
 
 ## 一句话总结
@@ -120,9 +120,9 @@ BEAF 是评估基准，不涉及模型训练。所有评估采用零样本推理
 ## 相关论文
 
 - [\[ECCV 2024\] AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting](adashield_safeguarding_multimodal_large_language_models_from_structure-based_att.md)
-- [\[ECCV 2024\] Meta-Prompting for Automating Zero-Shot Visual Recognition with LLMs](meta-prompting_for_automating_zero-shot_visual_recognition_with_llms.md)
 - [\[ECCV 2024\] MMBench: Is Your Multi-modal Model an All-Around Player?](mmbench_is_your_multi-modal_model_an_all-around_player.md)
 - [\[ECCV 2024\] FreeMotion: MoCap-Free Human Motion Synthesis with Multimodal Large Language Models](freemotion_mocap-free_human_motion_synthesis_with_multimodal_large_language_mode.md)
-- [\[ECCV 2024\] Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator](genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md)
+- [\[ECCV 2024\] MarvelOVD: 融合目标检测器与视觉语言模型实现鲁棒开放词汇目标检测](marvelovd_marrying_object_recognition_and_vision-language_models_for_robust_open.md)
+- [\[ECCV 2024\] CLAP: Isolating Content from Style through Contrastive Learning with Augmented Prompts](clap_isolating_content_from_style_through_contrastive_learning_with_augmented_pr.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.11297](https://arxiv.org/abs/2505.11297)  
 **代码**: [有](https://github.com/MeLeLBGU/probing-subphonemes)  
-**领域**: NLP / 计算语言学  
+**领域**: 可解释性  
 **关键词**: 形态学变形, 音韵特征探测, Transformer, 最小描述长度, 音素嵌入
 
 ## 一句话总结

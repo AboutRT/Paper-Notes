@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2501.18739](https://arxiv.org/abs/2501.18739)  
 **代码**: [GitHub - GPM](https://github.com/Zehong-Wang/GPM)  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: 图模式, 随机游走, 消息传递, 子结构编码, Graph Transformer
 
 ## 一句话总结

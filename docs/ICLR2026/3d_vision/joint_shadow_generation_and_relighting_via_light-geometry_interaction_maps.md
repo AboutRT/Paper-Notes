@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.21820](https://arxiv.org/abs/2602.21820)  
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: shadow generation, relighting, light-geometry interaction, bridge matching, monocular depth  
 
 ## 一句话总结

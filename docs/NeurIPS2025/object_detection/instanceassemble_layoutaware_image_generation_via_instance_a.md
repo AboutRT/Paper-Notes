@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.16691](https://arxiv.org/abs/2509.16691)  
 **代码**: [https://github.com/FireRedTeam/InstanceAssemble](https://github.com/FireRedTeam/InstanceAssemble)  
-**领域**: 图像生成 / 布局控制  
+**领域**: 目标检测  
 **关键词**: layout-to-image, instance assembling attention, DiT, LoRA, DenseLayout benchmark
 
 ## 一句话总结
@@ -165,9 +165,9 @@ InstanceAssemble 支持两种 DiT 骨架——Flux.1-dev（28步推理）、Flux
 ## 相关论文
 
 - [\[NeurIPS 2025\] OverLayBench: A Benchmark for Layout-to-Image Generation with Dense Overlaps](overlaybench_a_benchmark_for_layout-to-image_generation_with_dense_overlaps.md)
-- [\[ECCV 2024\] Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation](../../ECCV2024/object_detection/be_yourself_bounded_attention_for_multisubject_texttoimage_g.md)
 - [\[CVPR 2025\] ROICtrl: Boosting Instance Control for Visual Generation](../../CVPR2025/object_detection/roictrl_boosting_instance_control_for_visual_generation.md)
 - [\[NeurIPS 2025\] MSTAR: Box-Free Multi-Query Scene Text Retrieval with Attention Recycling](mstar_box-free_multi-query_scene_text_retrieval_with_attention_recycling.md)
-- [\[NeurIPS 2025\] SSTAG: Structure-Aware Self-Supervised Learning Method for Text-Attributed Graphs](sstag_structure-aware_self-supervised_learning_method_for_text-attributed_graphs.md)
+- [\[ICCV 2025\] YOLO-Count: Differentiable Object Counting for Text-to-Image Generation](../../ICCV2025/object_detection/yolo-count_differentiable_object_counting_for_text-to-image_generation.md)
+- [\[CVPR 2025\] MCCD: Multi-Agent Collaboration-based Compositional Diffusion for Complex Text-to-Image Generation](../../CVPR2025/object_detection/mccd_multi-agent_collaboration-based_compositional_diffusion_for_complex_text-to.md)
 
 <!-- RELATED:END -->

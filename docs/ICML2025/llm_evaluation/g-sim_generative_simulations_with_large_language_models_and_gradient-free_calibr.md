@@ -2,10 +2,10 @@
 title: >-
   [论文解读] G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration
 description: >-
-  [ICML 2025][LLM驱动仿真] 提出 G-Sim 混合框架，利用 LLM 自动设计仿真器的因果结构（子模块与连接关系），再通过无梯度优化（GFO）或仿真推断（SBI）对数值参数进行经验校准，在迭代循环中不断改进，生成可靠、可干预的通用仿真器。
+  [ICML 2025][LLM评测] 提出 G-Sim 混合框架，利用 LLM 自动设计仿真器的因果结构（子模块与连接关系），再通过无梯度优化（GFO）或仿真推断（SBI）对数值参数进行经验校准，在迭代循环中不断改进，生成可靠、可干预的通用仿真器。
 tags:
   - ICML 2025
-  - LLM驱动仿真
+  - LLM评测
   - 无梯度校准
   - 模拟器自动构建
   - 仿真推断
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2506.09272](https://arxiv.org/abs/2506.09272)  
 **代码**: [GitHub](https://github.com/samholt/generative-simulations)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: LLM驱动仿真, 无梯度校准, 模拟器自动构建, 仿真推断, 因果结构
 
 ## 一句话总结
@@ -190,9 +190,9 @@ G-Sim-SBI 在全部三个环境中均取得最佳性能，特别是在复杂的 
 ## 相关论文
 
 - [\[ICML 2025\] Correlated Errors in Large Language Models](correlated_errors_in_large_language_models.md)
+- [\[NeurIPS 2025\] On the Entropy Calibration of Language Models](../../NeurIPS2025/llm_evaluation/on_the_entropy_calibration_of_language_models.md)
+- [\[ICML 2025\] Position: Theory of Mind Benchmarks are Broken for Large Language Models](position_theory_of_mind_benchmarks_are_broken_for_large_language_models.md)
 - [\[ICCV 2025\] Generative Zoo](../../ICCV2025/llm_evaluation/generative_zoo.md)
-- [\[ACL 2025\] CodeMEnv: Benchmarking Large Language Models on Code Migration](../../ACL2025/llm_evaluation/codemenv_benchmarking_large_language_models_on_code_migration.md)
-- [\[NeurIPS 2025\] Can Large Language Models Master Complex Card Games?](../../NeurIPS2025/llm_evaluation/can_large_language_models_master_complex_card_games.md)
-- [\[ACL 2025\] AD-LLM: Benchmarking Large Language Models for Anomaly Detection](../../ACL2025/llm_evaluation/ad-llm_benchmarking_large_language_models_for_anomaly_detection.md)
+- [\[ICML 2025\] Fleet of Agents: Coordinated Problem Solving with Large Language Models](fleet_of_agents_coordinated_problem_solving_with_large_language_models.md)
 
 <!-- RELATED:END -->

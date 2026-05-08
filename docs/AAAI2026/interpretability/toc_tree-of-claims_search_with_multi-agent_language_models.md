@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ToC: Tree-of-Claims Search with Multi-Agent Language Models
 description: >-
-  [AAAI 2026][专利权利要求优化] 提出 Tree-of-Claims (ToC) 框架，将专利权利要求编辑建模为结构化搜索问题，通过 MCTS 与 EditorAgent/ExaminerAgent 多智能体协作，在新颖性、范围保持和语义一致性之间联合优化，比零/少样本 LLM 基线平均提升约 8% 综合分。
+  [AAAI 2026][可解释性] 提出 Tree-of-Claims (ToC) 框架，将专利权利要求编辑建模为结构化搜索问题，通过 MCTS 与 EditorAgent/ExaminerAgent 多智能体协作，在新颖性、范围保持和语义一致性之间联合优化，比零/少样本 LLM 基线平均提升约 8% 综合分。
 tags:
   - AAAI 2026
-  - 专利权利要求优化
+  - 可解释性
   - 蒙特卡洛树搜索
   - 多智能体协作
   - 不确定性感知
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.16972](https://arxiv.org/abs/2511.16972)  
 **代码**: [ysy2003/ToC](https://github.com/ysy2003/ToC)  
-**领域**: LLM推理  
+**领域**: 可解释性  
 **关键词**: 专利权利要求优化, 蒙特卡洛树搜索, 多智能体协作, 不确定性感知, 结构化编辑
 
 ## 一句话总结
@@ -175,7 +175,7 @@ ToC 将专利权利要求优化建模为**序贯决策问题**：给定初始权
 - [\[AAAI 2026\] iMAD: Intelligent Multi-Agent Debate for Efficient and Accurate LLM Inference](imad_intelligent_multi-agent_debate_for_efficient_and_accura.md)
 - [\[AAAI 2026\] SOM Directions are Better than One: Multi-Directional Refusal Suppression in Language Models](som_directions_are_better_than_one_multi-directional_refusal_suppression_in_lang.md)
 - [\[ICLR 2026\] MATA: A Trainable Hierarchical Automaton System for Multi-Agent Visual Reasoning](../../ICLR2026/interpretability/mata_a_trainable_hierarchical_automaton_system_for_multi-agent_visual_reasoning.md)
-- [\[ICLR 2026\] Auditing Cascading Risks in Multi-Agent Systems via Semantic–Geometric Co-evolution](../../ICLR2026/interpretability/auditing_cascading_risks_in_multi-agent_systems_via_semanti-geometric_co-evolut.md)
 - [\[ACL 2026\] To Trust or Not to Trust: Attention-Based Trust Management for LLM Multi-Agent Systems](../../ACL2026/interpretability/to_trust_or_not_to_trust_attention-based_trust_management_for_llm_multi-agent_sy.md)
+- [\[ICLR 2026\] Auditing Cascading Risks in Multi-Agent Systems via Semantic–Geometric Co-evolution](../../ICLR2026/interpretability/auditing_cascading_risks_in_multi-agent_systems_via_semanti-geometric_co-evolut.md)
 
 <!-- RELATED:END -->

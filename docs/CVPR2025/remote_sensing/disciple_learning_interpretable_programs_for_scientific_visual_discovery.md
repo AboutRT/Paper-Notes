@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.10060](https://arxiv.org/abs/2502.10060)  
-**代码**: https://disciple.cs.columbia.edu  
+**代码**: [https://disciple.cs.columbia.edu](https://disciple.cs.columbia.edu)  
 **领域**: 遥感 / 可解释AI  
 **关键词**: 可解释程序合成, 进化算法, LLM引导搜索, 科学发现, 遥感分析
 

@@ -7,7 +7,7 @@ tags:
   - AAAI2026
   - causal discovery
   - sparse additive model
-  - 剪枝
+  - 因果推理
   - group lasso
   - randomized tree embedding
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2602.15306](https://arxiv.org/abs/2602.15306)  
 **代码**: 待确认  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: causal discovery, sparse additive model, DAG pruning, group lasso, randomized tree embedding
 
 ## 一句话总结
@@ -145,8 +145,8 @@ SARTRE 在所有维度上均快于 DAS，且 SHD 和 SID 更优。
 
 - [\[AAAI 2026\] CaDyT: Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis](causal_structure_learning_for_dynamical_systems_with_theoretical_score_analysis.md)
 - [\[AAAI 2026\] I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables](i-cam-uv_integrating_causal_graphs_over_non-identical_variable_sets_using_causal.md)
-- [\[NeurIPS 2025\] Differentiable Structure Learning and Causal Discovery for General Binary Data](../../NeurIPS2025/causal_inference/differentiable_structure_learning_and_causal_discovery_for_general_binary_data.md)
-- [\[ICML 2025\] Learning Time-Aware Causal Representation for Model Generalization in Evolving Domains](../../ICML2025/causal_inference/learning_time-aware_causal_representation_for_model_generalization_in_evolving_d.md)
 - [\[ICML 2025\] Causal Effect Identification in lvLiNGAM from Higher-Order Cumulants](../../ICML2025/causal_inference/causal_effect_identification_in_lvlingam_from_higher-order_cumulants.md)
+- [\[NeurIPS 2025\] Differentiable Structure Learning and Causal Discovery for General Binary Data](../../NeurIPS2025/causal_inference/differentiable_structure_learning_and_causal_discovery_for_general_binary_data.md)
+- [\[ACL 2026\] CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification](../../ACL2026/causal_inference/causaldetox_causal_head_selection_and_intervention_for_language_model_detoxifica.md)
 
 <!-- RELATED:END -->

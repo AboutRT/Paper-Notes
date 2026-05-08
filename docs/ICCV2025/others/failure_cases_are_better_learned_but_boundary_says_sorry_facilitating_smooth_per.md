@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Failure Cases Are Better Learned But Boundary Says Sorry: Facilitating Smooth Perception Change for Accuracy-Robustness Trade-Off in Adversarial Training
 description: >-
-  [ICCV 2025][对抗训练] 揭示了对抗训练中一个反直觉现象——失败样本的模型感知变化反而比成功样本更小（即被"过度学习"），据此提出 Robust Perception Adversarial Training (RPAT)，通过鼓励感知随扰动平滑变化来缓解准确率-鲁棒性权衡问题。
+  [ICCV 2025][其他] 揭示了对抗训练中一个反直觉现象——失败样本的模型感知变化反而比成功样本更小（即被"过度学习"），据此提出 Robust Perception Adversarial Training (RPAT)，通过鼓励感知随扰动平滑变化来缓解准确率-鲁棒性权衡问题。
 tags:
   - ICCV 2025
-  - 对抗训练
+  - 其他
   - 准确率-鲁棒性权衡
   - 感知一致性
   - 决策边界
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2508.02186](https://arxiv.org/abs/2508.02186)  
 **代码**: [https://github.com/FlaAI/RPAT](https://github.com/FlaAI/RPAT)  
-**领域**: others (AI Safety / Adversarial Training)  
+**领域**: 其他  
 **关键词**: 对抗训练, 准确率-鲁棒性权衡, 感知一致性, 决策边界, 鲁棒感知
 
 ## 一句话总结
@@ -136,9 +136,9 @@ RPAT++ vs 12 个 SOTA 方法（PreActResNet-18）：
 ## 相关论文
 
 - [\[ICCV 2025\] On the Complexity-Faithfulness Trade-off of Gradient-Based Explanations](on_the_complexity-faithfulness_trade-off_of_gradient-based_explanations.md)
-- [\[CVPR 2025\] TAET: Two-Stage Adversarial Equalization Training on Long-Tailed Distributions](../../CVPR2025/others/taet_two-stage_adversarial_equalization_training_on_long-tailed_distributions.md)
+- [\[ICCV 2025\] Switch-a-View: View Selection Learned from Unlabeled In-the-wild Videos](switch-a-view_view_selection_learned_from_unlabeled_in-the-wild_videos.md)
 - [\[AAAI 2026\] Forest vs Tree: The (N, K) Trade-off in Reproducible ML Evaluation](../../AAAI2026/others/forest_vs_tree_the_n_k_trade-off_in_reproducible_ml_evaluation.md)
-- [\[ICCV 2025\] FixTalk: Taming Identity Leakage for High-Quality Talking Head Generation in Extreme Cases](fixtalk_taming_identity_leakage_for_high-quality_talking_head_generation_in_extr.md)
+- [\[CVPR 2026\] IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](../../CVPR2026/others/irisfp_adversarial-example-based_model_fingerprinting_with_enhanced_uniqueness_a.md)
 - [\[CVPR 2025\] Towards Million-Scale Adversarial Robustness Evaluation With Stronger Individual Attacks](../../CVPR2025/others/towards_million-scale_adversarial_robustness_evaluation_with_stronger_individual.md)
 
 <!-- RELATED:END -->

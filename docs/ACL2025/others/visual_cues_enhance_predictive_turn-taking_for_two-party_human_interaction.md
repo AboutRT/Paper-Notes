@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - Turn-Taking
-  - 多模态
+  - 其他
   - Facial Action Units
   - Predictive Model
   - Video Conferencing
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.21043](https://arxiv.org/abs/2505.21043)  
 **代码**: [github.com/russelsa/mm-vap](https://github.com/russelsa/mm-vap)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: Turn-Taking, Multimodal, Facial Action Units, Predictive Model, Video Conferencing  
 
 ## 一句话总结
@@ -142,9 +142,9 @@ MM-VAP 在所有沉默时长上都优于 VAP，且两者性能均随沉默时长
 ## 相关论文
 
 - [\[ACL 2025\] Enhancing Conversational Agents with Theory of Mind: Aligning Beliefs, Desires, and Intentions for Human-Like Interaction](enhancing_conversational_agents_with_theory_of_mind_aligning_beliefs_desires_and.md)
-- [\[ACL 2025\] Unique Hard Attention: A Tale of Two Sides](unique_hard_attention_a_tale_of_two_sides.md)
-- [\[ACL 2025\] VAQUUM: Are Vague Quantifiers Grounded in Visual Data?](vaquum_are_vague_quantifiers_grounded_in_visual_data.md)
 - [\[ACL 2025\] CONFETTI: Conversational Function-Calling Evaluation Through Turn-Level Interactions](confetti_conversational_function-calling_evaluation_through_turn-level_interacti.md)
-- [\[ACL 2025\] DEMO: Reframing Dialogue Interaction with Fine-grained Element Modeling](demo_reframing_dialogue_interaction_with_fine-grained_element_modeling.md)
+- [\[ICCV 2025\] SyncDiff: Synchronized Motion Diffusion for Multi-Body Human-Object Interaction Synthesis](../../ICCV2025/others/syncdiff_synchronized_motion_diffusion_for_multi-body_human-object_interaction_s.md)
+- [\[CVPR 2025\] CARE Transformer: Mobile-Friendly Linear Visual Transformer via Decoupled Dual Interaction](../../CVPR2025/others/care_transformer_mobile-friendly_linear_visual_transformer_via_decoupled_dual_in.md)
+- [\[ACL 2025\] A Little Human Data Goes A Long Way](a_little_human_data_goes_a_long_way.md)
 
 <!-- RELATED:END -->

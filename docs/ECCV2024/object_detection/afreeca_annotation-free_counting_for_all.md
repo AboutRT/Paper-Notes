@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.04943](https://arxiv.org/abs/2403.04943)  
-**代码**: https://github.com/adrian-dalessandro/AFreeCA (有)  
+**代码**: [https://github.com/adrian-dalessandro/AFreeCA](https://github.com/adrian-dalessandro/AFreeCA)  
 **领域**: 目标检测 / 计数  
 **关键词**: Object Counting, Unsupervised, diffusion model, synthetic data, Density Estimation
 
@@ -139,10 +139,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] Can OOD Object Detectors Learn from Foundation Models?](can_ood_object_detectors_learn_from_foundation_models.md)
-- [\[ECCV 2024\] Implicit Concept Removal of Diffusion Models](implicit_concept_removal_of_diffusion_models.md)
-- [\[ECCV 2024\] Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation](be_yourself_bounded_attention_for_multisubject_texttoimage_g.md)
 - [\[ECCV 2024\] ReGround: Improving Textual and Spatial Grounding at No Cost](reground_improving_textual_and_spatial_grounding_at_no_cost.md)
-- [\[ECCV 2024\] Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence](learn_from_the_learnt_source-free_active_domain_adaptation_via_contrastive_sampl.md)
+- [\[ECCV 2024\] Can OOD Object Detectors Learn from Foundation Models?](can_ood_object_detectors_learn_from_foundation_models.md)
+- [\[ECCV 2024\] Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction](adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md)
+- [\[ECCV 2024\] Plain-Det: A Plain Multi-Dataset Object Detector](plain-det_a_plain_multi-dataset_object_detector.md)
+- [\[ECCV 2024\] Portrait4D-v2: Pseudo Multi-View Data Creates Better 4D Head Synthesizer](portrait4d-v2_pseudo_multi-view_data_creates_better_4d_head_synthesizer.md)
 
 <!-- RELATED:END -->

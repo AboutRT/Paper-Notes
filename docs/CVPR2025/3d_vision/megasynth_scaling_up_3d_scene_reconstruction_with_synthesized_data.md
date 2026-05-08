@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.14166](https://arxiv.org/abs/2412.14166)  
-**代码**: https://hwjiang1510.github.io/MegaSynth/ (项目页+代码)  
+**代码**: [https://hwjiang1510.github.io/MegaSynth/](https://hwjiang1510.github.io/MegaSynth/) (项目页+代码)  
 **领域**: 3D视觉  
 **关键词**: 合成数据, 大规模重建模型, 程序化生成, 非语义数据, 3D高斯
 

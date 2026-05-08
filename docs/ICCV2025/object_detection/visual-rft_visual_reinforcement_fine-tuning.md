@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.01785](https://arxiv.org/abs/2503.01785)  
-**代码**: https://github.com/Liuziyu77/Visual-RFT  
+**代码**: [https://github.com/Liuziyu77/Visual-RFT](https://github.com/Liuziyu77/Visual-RFT)  
 **领域**: 目标检测 / 多模态推理  
 **关键词**: 强化微调, GRPO, 可验证奖励, 视觉感知, 少样本学习
 
@@ -132,6 +132,6 @@ Visual-RFT将DeepSeek R1的强化学习+可验证奖励(RLVR)范式从数学/代
 - [\[ICCV 2025\] Dynamic-DINO: Fine-Grained Mixture of Experts Tuning for Real-time Open-Vocabulary Object Detection](dynamicdino_finegrained_mixture_of_experts_tuning_for_realti.md)
 - [\[ICCV 2025\] VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](visrl_intention-driven_visual_perception_via_reinforced_reasoning.md)
 - [\[ICCV 2025\] Visual Modality Prompt for Adapting Vision-Language Object Detectors](visual_modality_prompt_for_adapting_vision-language_object_detectors.md)
-- [\[ICCV 2025\] ViewSRD: 3D Visual Grounding via Structured Multi-View Decomposition](viewsrd_3d_visual_grounding_via_structured_multi-view_decomposition.md)
+- [\[CVPR 2025\] ROICtrl: Boosting Instance Control for Visual Generation](../../CVPR2025/object_detection/roictrl_boosting_instance_control_for_visual_generation.md)
 
 <!-- RELATED:END -->

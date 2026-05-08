@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.12719](https://arxiv.org/abs/2603.12719)  
 **代码**: [DongXu-Zhang/IGASA](https://github.com/DongXu-Zhang/IGASA)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 点云配准, 几何感知, Skip-Attention, 分层金字塔, 粗到精匹配, 自动驾驶
 
 ## 一句话总结

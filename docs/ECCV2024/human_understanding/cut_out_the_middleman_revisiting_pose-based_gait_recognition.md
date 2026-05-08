@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/BNU-IVC/FastPoseGait  
+**代码**: [https://github.com/BNU-IVC/FastPoseGait](https://github.com/BNU-IVC/FastPoseGait)  
 **领域**: 人体理解 / 步态识别  
 **关键词**: 步态识别、热力图表示、姿态估计、跨数据集泛化、全局-局部网络
 
@@ -147,7 +147,7 @@ GaitHeat 的 pipeline 如下：（1）使用现成的姿态估计器（如 HRNet
 - [\[CVPR 2026\] MMGait: Towards Multi-Modal Gait Recognition](../../CVPR2026/human_understanding/mmgait_multi_modal_gait_recognition.md)
 - [\[ICCV 2025\] CarGait: Cross-Attention based Re-ranking for Gait Recognition](../../ICCV2025/human_understanding/cargait_cross-attention_based_re-ranking_for_gait_recognition.md)
 - [\[ECCV 2024\] Generalizable Facial Expression Recognition](generalizable_facial_expression_recognition.md)
-- [\[ECCV 2024\] Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization](pose-aware_self-supervised_learning_with_viewpoint_trajectory_regularization.md)
 - [\[ICLR 2026\] GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences](../../ICLR2026/human_understanding/gaitsnippet_gait_recognition_beyond_unordered_sets_and_ordered_sequences.md)
+- [\[ECCV 2024\] Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization](pose-aware_self-supervised_learning_with_viewpoint_trajectory_regularization.md)
 
 <!-- RELATED:END -->

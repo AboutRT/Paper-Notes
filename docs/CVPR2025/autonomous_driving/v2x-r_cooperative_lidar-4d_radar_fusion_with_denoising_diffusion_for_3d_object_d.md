@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.08402](https://arxiv.org/abs/2411.08402)  
-**代码**: https://github.com/ylwhxht/V2X-R  
+**代码**: [https://github.com/ylwhxht/V2X-R](https://github.com/ylwhxht/V2X-R)  
 **领域**: 自动驾驶  
 **关键词**: V2X协同感知, 4D毫米波雷达, LiDAR融合, 扩散去噪, 恶劣天气
 

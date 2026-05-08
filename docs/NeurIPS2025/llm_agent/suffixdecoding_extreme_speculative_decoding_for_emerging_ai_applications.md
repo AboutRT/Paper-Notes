@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.04975](https://arxiv.org/abs/2411.04975)  
-**代码**: https://github.com/snowflakedb/ArcticInference  
+**代码**: [https://github.com/snowflakedb/ArcticInference](https://github.com/snowflakedb/ArcticInference)  
 **领域**: LLM Agent / 推理优化  
 **关键词**: 推测解码, 后缀树, Agent推理, 推理加速, 无训练
 

@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2503.04223](https://arxiv.org/abs/2503.04223)  
 **代码**: [https://github.com/XY-boy/SpikeSR](https://github.com/XY-boy/SpikeSR)  
-**领域**: image_restoration / remote_sensing  
+**领域**: 图像复原  
 **关键词**: 脉冲神经网络, 遥感超分辨率, 注意力机制, 可变形相似度注意力, 能效AI  
 
 ## 一句话总结

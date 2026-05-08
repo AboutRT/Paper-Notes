@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.15028](https://arxiv.org/abs/2507.15028)  
-**代码**: https://github.com/zhangyuanhan-ai/video-tt (有)  
+**代码**: [https://github.com/zhangyuanhan-ai/video-tt](https://github.com/zhangyuanhan-ai/video-tt)  
 **领域**: 视频理解  
 **关键词**: Video Understanding Benchmark, Video LLM, Adversarial Robustness, Visual Complexity, Narrative Complexity
 

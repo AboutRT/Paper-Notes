@@ -18,7 +18,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.04644](https://arxiv.org/abs/2502.04644)  
-**代码**: https://github.com/theworldofagents/Agentic-Reasoning  
+**代码**: [https://github.com/theworldofagents/Agentic-Reasoning](https://github.com/theworldofagents/Agentic-Reasoning)  
 **领域**: LLM Agent / LLM推理  
 **关键词**: agentic reasoning, tool-use, mind-map, knowledge graph, web search, DeepSeek-R1
 
@@ -131,10 +131,10 @@ Agentic Reasoning 提出了一个将 Web 搜索、代码执行和知识图谱记
 
 ## 相关论文
 
-- [\[ICLR 2026\] MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains](../../ICLR2026/llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md)
+- [\[ICLR 2026\] MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains](../../ICLR2026/llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search.md)
 - [\[ACL 2025\] LLM Agents Making Agent Tools](llm_agents_making_agent_tools.md)
 - [\[CVPR 2025\] Visual Agentic AI for Spatial Reasoning with a Dynamic API](../../CVPR2025/llm_agent/visual_agentic_ai_for_spatial_reasoning_with_a_dynamic_api.md)
-- [\[ACL 2025\] Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](table_critic_multi_agent.md)
-- [\[ACL 2025\] Theorem-of-Thought: A Multi-Agent Framework for Abductive, Deductive, and Inductive Reasoning in Language Models](theorem-of-thought_a_multi-agent_framework_for_abductive_deductive_and_inductive.md)
+- [\[ACL 2025\] REPRO-Bench: Can Agentic AI Systems Assess the Reproducibility of Social Science Research?](repro-bench_can_agentic_ai_systems_assess_the_reproducibility_of_research_claims.md)
+- [\[ACL 2025\] Towards Safety Reasoning in LLMs: AI-agentic Deliberation for Policy-embedded CoT Data Creation](towards_safety_reasoning_in_llms_ai-agentic_deliberation_for_policy-embedded_cot.md)
 
 <!-- RELATED:END -->

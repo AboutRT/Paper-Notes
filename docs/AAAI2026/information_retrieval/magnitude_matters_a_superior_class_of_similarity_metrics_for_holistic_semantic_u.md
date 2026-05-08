@@ -8,7 +8,7 @@ tags:
   - Similarity Metrics
   - Sentence Embeddings
   - Anisotropy
-  - Overlap Similarity
+  - 信息检索
   - Hyperbolic Tangent Similarity
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2509.19323](https://arxiv.org/abs/2509.19323)  
 **代码**: 待发布 (MIT License)  
-**领域**: 对齐RLHF / NLP理解  
+**领域**: 信息检索  
 **关键词**: Similarity Metrics, Sentence Embeddings, Anisotropy, Overlap Similarity, Hyperbolic Tangent Similarity  
 
 ## 一句话总结
@@ -126,9 +126,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment](himo-clip_modeling_semantic_hierarchy_and_monotonicity_in_vi.md)
+- [\[ICCV 2025\] External Knowledge Injection for CLIP-Based Class-Incremental Learning](../../ICCV2025/information_retrieval/external_knowledge_injection_for_clip-based_class-incremental_learning.md)
 - [\[CVPR 2026\] Beyond Global Similarity: Towards Fine-Grained, Multi-Condition Multimodal Retrieval](../../CVPR2026/information_retrieval/beyond_global_similarity_towards_fine-grained_multi-condition_multimodal_retriev.md)
 - [\[ICLR 2026\] Mapping Semantic & Syntactic Relationships with Geometric Rotation](../../ICLR2026/information_retrieval/mapping_semantic_syntactic_relationships_with_geometric_rotation.md)
 - [\[NeurIPS 2025\] Improving Consistency in Retrieval-Augmented Systems with Group Similarity Rewards](../../NeurIPS2025/information_retrieval/improving_consistency_in_retrieval-augmented_systems_with_group_similarity_rewar.md)
-- [\[ACL 2025\] Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval](../../ACL2025/information_retrieval/maximal_matching_matters_preventing_representation_collapse_for_robust_cross-mod.md)
 
 <!-- RELATED:END -->

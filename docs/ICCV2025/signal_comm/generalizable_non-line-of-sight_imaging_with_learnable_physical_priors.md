@@ -160,8 +160,8 @@ $$\mathcal{L} = \mathcal{L_I}(I, \hat{I}) + \lambda \mathcal{L_D}(D, \hat{D})$$
 
 - [\[ECCV 2024\] Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging](../../ECCV2024/signal_comm/optimizing_illuminant_estimation_in_dual-exposure_hdr_imaging.md)
 - [\[ICCV 2025\] Boosting Multimodal Learning via Disentangled Gradient Learning](boosting_multimodal_learning_via_disentangled_gradient_learning.md)
-- [\[NeurIPS 2025\] ConTextTab: 语义感知的表格上下文学习器](../../NeurIPS2025/signal_comm/contexttab_a_semantics-aware_tabular_in-context_learner.md)
-- [\[CVPR 2025\] Continuous Space-Time Video Resampling with Invertible Motion Steganography](../../CVPR2025/signal_comm/continuous_space-time_video_resampling_with_invertible_motion_steganography.md)
-- [\[NeurIPS 2025\] Angular Steering: Behavior Control via Rotation in Activation Space](../../NeurIPS2025/signal_comm/angular_steering_behavior_control_via_rotation_in_activation_space.md)
+- [\[ICCV 2025\] Rectifying Magnitude Neglect in Linear Attention](rectifying_magnitude_neglect_in_linear_attention.md)
+- [\[NeurIPS 2025\] Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](../../NeurIPS2025/signal_comm/multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)
+- [\[ACL 2025\] ToolSpectrum: Towards Personalized Tool Utilization for Large Language Models](../../ACL2025/signal_comm/toolspectrum_towards_personalized_tool_utilization_for_large_language_models.md)
 
 <!-- RELATED:END -->

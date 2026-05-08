@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 语音
-  - 多模态
+  - 音频语音
   - modality competition
   - prototype alignment
   - Shapley value
@@ -20,7 +20,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.17585](https://arxiv.org/abs/2511.17585)  
 **代码**: 待确认  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: multimodal sentiment analysis, modality competition, prototype alignment, Shapley value, optimal transport, gradient modulation
 
 ## 一句话总结
@@ -129,6 +129,6 @@ $$\psi_m(u) = \sum_{S \subseteq \mathcal{M} \setminus \{m\}} \frac{|S|!(k-|S|-1)
 - [\[AAAI 2026\] Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection](improving_multimodal_sentiment_analysis_via_modality_optimization_and_dynamic_pr.md)
 - [\[CVPR 2026\] Tri-Subspaces Disentanglement for Multimodal Sentiment Analysis](../../CVPR2026/audio_speech/tri-subspaces_disentanglement_for_multimodal_sentiment_analysis.md)
 - [\[AAAI 2026\] Cross-Space Synergy: A Unified Framework for Multimodal Emotion Recognition in Conversation](cross-space_synergy_a_unified_framework_for_multimodal_emotion_recognition_in_co.md)
-- [\[ICLR 2026\] Incentive-Aligned Multi-Source LLM Summaries](../../ICLR2026/audio_speech/incentive-aligned_multi-source_llm_summaries.md)
+- [\[AAAI 2026\] DualSpeechLM: Towards Unified Speech Understanding and Generation via Dual Speech Token Modeling](dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Adjusted Count Quantification Learning on Graphs
 description: >-
-  [NeurIPS 2025][量化学习] 将经典的 Adjusted Classify & Count (ACC) 量化方法扩展到图结构数据，提出结构重要性采样（SIS）和邻域感知ACC两种技术，分别解决图量化中的结构协变量偏移和非同质性边问题。
+  [NeurIPS 2025][其他] 将经典的 Adjusted Classify & Count (ACC) 量化方法扩展到图结构数据，提出结构重要性采样（SIS）和邻域感知ACC两种技术，分别解决图量化中的结构协变量偏移和非同质性边问题。
 tags:
   - NeurIPS 2025
-  - 量化学习
+  - 其他
   - 图数据
   - 协变量偏移
   - 重要性采样
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.09395](https://arxiv.org/abs/2503.09395)  
 **代码**: 无  
-**领域**: 图学习 / 量化学习  
+**领域**: 其他  
 **关键词**: 量化学习, 图数据, 协变量偏移, 重要性采样, 非同质性
 
 ## 一句话总结
@@ -160,10 +160,10 @@ $$L_{cls} = -\sum_{v \in V_{train}} \log p(y_v | x_v, G)$$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Optimized Learned Count-Min Sketch](optimized_learned_count-min_sketch.md)
 - [\[NeurIPS 2025\] Position: There Is No Free Bayesian Uncertainty Quantification](position_there_is_no_free_bayesian_uncertainty_quantification.md)
 - [\[NeurIPS 2025\] Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics](uncertainty_quantification_for_reduced-order_surrogate_models_applied_to_cloud_m.md)
+- [\[NeurIPS 2025\] Optimized Learned Count-Min Sketch](optimized_learned_count-min_sketch.md)
+- [\[ICML 2025\] Online Sparsification of Bipartite-Like Clusters in Graphs](../../ICML2025/others/online_sparsification_of_bipartite-like_clusters_in_graphs.md)
 - [\[ACL 2025\] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs](../../ACL2025/others/a_practical_approach_for_building_production-grade_conversational_agents_with_wo.md)
-- [\[NeurIPS 2025\] Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression](transfer_learning_for_benign_overfitting_in_high-dimensional_linear_regression.md)
 
 <!-- RELATED:END -->

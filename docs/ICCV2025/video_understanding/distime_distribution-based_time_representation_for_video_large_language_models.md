@@ -47,15 +47,15 @@ DisTime由五个核心组件构成：视觉编码器+投影器、文本编码器
 
 1. **基于分布的时间Token (Distribution-based Time Token)**:
    使用单个可学习token `<TIME_STAMP>` 表示连续时间，将其与文本数字token区分开。核心创新在于**不直接回归绝对时间值**，而是先将token转换为时间分布，再通过加权求和得到时间戳。
-   - 将归一化时间轴 $[0,1]$ 划分为 $reg_{max}+1$ 个离散锚点
-   - 用MLP + softmax将 `<TIME_STAMP>` 的隐藏状态映射为分布向量 $\mathbf{e} \in \mathbb{R}^{2 \times (reg_{max}+1)}$
-   - 通过锚点加权求和得到连续时间戳：$st = \sum_{i=0}^{reg_{max}} \mathbf{e}_{st}^{(i)} \cdot a_i$，其中 $a_i = i/reg_{max}$
+    - 将归一化时间轴 $[0,1]$ 划分为 $reg_{max}+1$ 个离散锚点
+    - 用MLP + softmax将 `<TIME_STAMP>` 的隐藏状态映射为分布向量 $\mathbf{e} \in \mathbb{R}^{2 \times (reg_{max}+1)}$
+    - 通过锚点加权求和得到连续时间戳：$st = \sum_{i=0}^{reg_{max}} \mathbf{e}_{st}^{(i)} \cdot a_i$，其中 $a_i = i/reg_{max}$
 
    分布式解码的优势在于**建模事件边界的模糊性**——例如"一个人喝水"的起始时间是否包含拿杯子的动作？这种标注模糊性使得直接回归容易产生精度误差。
 
 2. **时间编码器 (Time Encoder)**:
    解码器的逆操作，将连续时间戳编码回LLM可处理的时间token。先将时间戳投射为高斯正则化的分布 $p_{st} \sim \mathcal{N}(st, \delta^2)$，离散化后用MLP映射到LLM token空间：
-   $$\tau = \text{MLP}([\hat{\mathbf{e}}_{st}, \hat{\mathbf{e}}_{et}])$$
+    $\tau = \text{MLP}([\hat{\mathbf{e}}_{st}, \hat{\mathbf{e}}_{et}])$
    编码器极其轻量，仅占InternVL2.5-1B参数量的0.36%。
 
 3. **迭代时间精炼 (Iterative Time Refinement)**:
@@ -63,10 +63,10 @@ DisTime由五个核心组件构成：视觉编码器+投影器、文本编码器
 
 4. **InternVid-TG 数据集构建**:
    提出四步标注范式：
-   - **事件提取**: 用GPT-4o从1fps图像序列中识别视频事件（~7事件/视频）
-   - **事件定位**: 用三个专用模型（UniMD、Mr.Blip、TFVTG）独立定位事件边界
-   - **评分集成**: 用InternVideo2计算视频-文本余弦相似度，为每个事件选择最高分模型的定位结果
-   - **指令生成**: 设计5种对话模板转换为单轮训练对话
+    - **事件提取**: 用GPT-4o从1fps图像序列中识别视频事件（~7事件/视频）
+    - **事件定位**: 用三个专用模型（UniMD、Mr.Blip、TFVTG）独立定位事件边界
+    - **评分集成**: 用InternVideo2计算视频-文本余弦相似度，为每个事件选择最高分模型的定位结果
+    - **指令生成**: 设计5种对话模板转换为单轮训练对话
    最终生成179K视频上125万事件标注，规模超ActivityNet-Caption 55倍。
 
 ### 损失函数 / 训练策略
@@ -147,7 +147,7 @@ DisTime由五个核心组件构成：视觉编码器+投影器、文本编码器
 - [\[ICCV 2025\] Aligning Effective Tokens with Video Anomaly in Large Language Models](aligning_effective_tokens_with_video_anomaly_in_large_language_models.md)
 - [\[CVPR 2025\] Video Summarization with Large Language Models](../../CVPR2025/video_understanding/video_summarization_with_large_language_models.md)
 - [\[NeurIPS 2025\] Seeing the Arrow of Time in Large Multimodal Models](../../NeurIPS2025/video_understanding/seeing_the_arrow_of_time_in_large_multimodal_models.md)
-- [\[ICCV 2025\] 4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding](4d_bench_benchmarking_multimodal_llms_for_4d_object_understanding.md)
+- [\[ICCV 2025\] 4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding](4dbench_benchmarking_multimodal_large_language_models_for_4d.md)
 - [\[NeurIPS 2025\] FastVID: Dynamic Density Pruning for Fast Video Large Language Models](../../NeurIPS2025/video_understanding/fastvid_dynamic_density_pruning_for_fast_video_large_languag.md)
 
 <!-- RELATED:END -->

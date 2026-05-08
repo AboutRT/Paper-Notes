@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2405.20931](https://arxiv.org/abs/2405.20931)  
 **作者**: Karolina Drabik, Tomáš Masařík (University of Warsaw)  
 **代码**: 未公开（纯理论工作）  
-**领域**: others  
+**领域**: 其他  
 **关键词**: 参数化复杂性, 多样性解, cliquewidth, 动态规划, MSO1逻辑, Venn多样性度量  
 
 ## 一句话总结
@@ -152,6 +152,6 @@ $$\mathrm{Div}(S_1 \cup P_1, \ldots, S_r \cup P_r) = \mathrm{Div}(S_1, \ldots, S
 - [\[AAAI 2026\] Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents](symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)
 - [\[NeurIPS 2025\] The Parameterized Complexity of Computing the VC-Dimension](../../NeurIPS2025/others/the_parameterized_complexity_of_computing_the_vc-dimension.md)
 - [\[ICLR 2026\] DA-AC: Distributions as Actions — A Unified RL Framework for Diverse Action Spaces](../../ICLR2026/others/distributions_as_actions_a_unified_framework_for_diverse_action_spaces.md)
-- [\[NeurIPS 2025\] Improving Decision Trees through the Lens of Parameterized Local Search](../../NeurIPS2025/others/improving_decision_trees_through_the_lens_of_parameterized_local_search.md)
+- [\[ICML 2025\] Diverse Prototypical Ensembles Improve Robustness to Subpopulation Shift](../../ICML2025/others/diverse_prototypical_ensembles_improve_robustness_to_subpopulation_shift.md)
 
 <!-- RELATED:END -->

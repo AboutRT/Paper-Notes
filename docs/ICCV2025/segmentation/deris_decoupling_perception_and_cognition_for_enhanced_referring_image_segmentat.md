@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.01738](https://arxiv.org/abs/2507.01738)  
 **代码**: 有（论文中提及link）  
-**领域**: segmentation  
+**领域**: 图像分割  
 **关键词**: referring image segmentation, perception-cognition decoupling, loopback synergy, non-referent, GRES
 
 ## 一句话总结

@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - molecular dynamics
-  - 图神经网络
+  - 其他
   - long-stride prediction
   - universal model
   - Hamiltonian dynamics
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2505.19350](https://arxiv.org/abs/2505.19350)  
 **作者**: Filippo Bigi*, Sanggyu Chong* (EPFL), Agustinus Kristiadi (Western/Vector), Michele Ceriotti (EPFL)
 **代码**: [flashmd (PyPI)](https://flashmd.org) | [HuggingFace](https://huggingface.co/) | [Materials Cloud](https://www.materialscloud.org/)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: molecular dynamics, graph neural network, long-stride prediction, universal model, Hamiltonian dynamics, energy conservation
 
 ## 一句话总结
@@ -170,9 +170,9 @@ FlashMD 训练时仅学习 NVE（微正则）轨迹。但论文利用 **split-op
 ## 相关论文
 
 - [\[NeurIPS 2025\] Normalization in Attention Dynamics](normalization_in_attention_dynamics.md)
-- [\[NeurIPS 2025\] Computable Universal Online Learning](computable_universal_online_learning.md)
-- [\[NeurIPS 2025\] Learning Dynamics of RNNs in Closed-Loop Environments](learning_dynamics_of_rnns_in_closed-loop_environments.md)
 - [\[NeurIPS 2025\] Evolutionary Prediction Games](evolutionary_prediction_games.md)
-- [\[NeurIPS 2025\] Inferring Stochastic Dynamics with Growth from Cross-Sectional Data](inferring_stochastic_dynamics_with_growth_from_cross-sectional_data.md)
+- [\[NeurIPS 2025\] Computable Universal Online Learning](computable_universal_online_learning.md)
+- [\[NeurIPS 2025\] Zebra: Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding](zebra_towards_zero-shot_cross-subject_generalization_for_universal_brain_visual_.md)
+- [\[NeurIPS 2025\] Learning Dynamics of RNNs in Closed-Loop Environments](learning_dynamics_of_rnns_in_closed-loop_environments.md)
 
 <!-- RELATED:END -->

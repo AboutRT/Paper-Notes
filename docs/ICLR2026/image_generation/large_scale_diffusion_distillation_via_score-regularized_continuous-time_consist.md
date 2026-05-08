@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.08431](https://arxiv.org/abs/2510.08431)  
 **代码**: [项目页](https://research.nvidia.com/labs/dir/rcm)  
-**领域**: 扩散模型蒸馏  
+**领域**: 图像生成  
 **关键词**: 连续时间一致性模型, Score蒸馏, 大规模蒸馏, JVP, 少步生成
 
 ## 一句话总结

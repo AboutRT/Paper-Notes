@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 视频理解方向80篇论文解读
+  CVPR2025 视频理解方向77篇论文解读
 description: >-
-  80篇CVPR2025的视频理解方向论文解读，涵盖目标跟踪、LLM、多模态、推理、压缩/编码、问答等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  77篇CVPR2025的视频理解方向论文解读，涵盖目标跟踪、LLM、多模态、压缩/编码、推理、问答等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 视频理解
 
-**📷 CVPR2025** · **80** 篇论文解读
+**📷 CVPR2025** · **77** 篇论文解读
 
 **[BehaviorVLM: Unified Finetuning-Free Behavioral Understanding with Vision-Language Reasoning](behaviorvlm_unified_finetuning-free_behavioral_understanding_with_vision-languag.md)**
 
@@ -76,10 +76,6 @@ description: >-
 
 :   提出EDCFlow，利用相邻事件帧之间时间密集的特征差分图与低分辨率代价体积的互补性，在1/4分辨率上实现高质量且轻量的事件光流估计。
 
-**[Efficient Motion-Aware Video MLLM](efficient_motion-aware_video_mllm.md)**
-
-:   本文提出 EMA（Efficient Motion-Aware video MLLM），利用压缩视频中的 GOP 结构融合空间与运动信息，以原生慢-快架构减少冗余并增强运动表示，同时引入 MotionBench 做运动理解基准，在多个视频 QA 和运动理解任务上取得 SOTA。
-
 **[Efficient Transfer Learning for Video-language Foundation Models](efficient_transfer_learning_for_video-language_foundation_models.md)**
 
 :   提出多模态时空适配器MSTA，通过视觉-语言共享投影层和时空描述引导的一致性约束，以仅2-7%的可训练参数实现视频-语言基础模型向下游任务的高效迁移。
@@ -111,6 +107,10 @@ description: >-
 **[FC-Track: Overlap-Aware Post-Association Correction for Online Multi-Object Tracking](fc-track_overlap-aware_post-association_correction_for_online_multi-object_track.md)**
 
 :   提出 FC-Track，一个轻量级的后关联校正框架，通过基于 IoA（Intersection over Area）的外观特征过滤和重叠 tracklet 对内的相似度比较，在线纠正因目标重叠导致的检测-轨迹错误匹配，将长期身份切换比例从 36.86% 降至 29.55%，同时在 MOT17/MOT20 上保持 SOTA 性能。
+
+**[Few-Shot Personalized Scanpath Prediction](few-shot_personalized_scanpath_prediction.md)**
+
+:   提出少样本个性化扫视路径预测（FS-PSP）任务 和 Subject-Embedding Network（SE-Net），通过将主体嵌入学习与扫视路径预测解耦，仅需 1-10 张图像的注视数据即可适配新用户，在 OSIE、COCO-FreeView、COCO-Search18 三个数据集上 ScanMatch 指标超越第二名 5.9%-7.9%，且适配时间仅 3.6 秒、无需微调。
 
 **[FRAME: Floor-aligned Representation for Avatar Motion from Egocentric Video](frame_floor-aligned_representation_for_avatar_motion_from_egocentric_video.md)**
 
@@ -144,10 +144,6 @@ description: >-
 
 :   HyperGLM 提出将实体场景图（捕捉空间关系）和程序图（建模因果时序转换）统一为超图 (HyperGraph)，并将其注入多模态 LLM 实现视频场景图的生成、预测和推理，同时发布包含 190 万帧的 VSGR 数据集支持五类任务。
 
-**[KeyFace: Expressive Audio-Driven Facial Animation for Long Sequences via KeyFrame Interpolation](keyface_expressive_audio-driven_facial_animation_for_long_sequences_via_keyframe.md)**
-
-:   KeyFace 提出一个两阶段扩散框架——先以低帧率生成捕捉关键表情的锚帧，再通过插值模型填充中间帧——解决了现有音频驱动面部动画方法在长序列中身份漂移和质量退化的问题，同时首次支持连续情感（valence/arousal）建模和多种非语音发声 (NSV) 的动画生成。
-
 **[Learning Audio-Guided Video Representation with Gated Attention for Video-Text Retrieval](learning_audio-guided_video_representation_with_gated_attention_for_video-text_r.md)**
 
 :   提出 AVIGATE 框架，通过门控注意力机制选择性地融合音频与视觉信息（过滤无用音频噪声），并设计自适应间距对比损失处理视频-文本之间模糊的正负关系，在多个视频-文本检索基准上取得 SOTA。
@@ -164,10 +160,6 @@ description: >-
 
 :   针对日常生活活动（ADL）理解，构建了多视角多模态指令微调数据集 ADL-X，提出 LLAVIDAL 模型融合视频、3D 骨架和 HOI 线索，采用 MMPro 渐进式训练策略实现 SOTA 性能。
 
-**[Locality-Aware Zero-Shot Human-Object Interaction Detection](locality-aware_zero-shot_human-object_interaction_detection.md)**
-
-:   提出 LAIN 框架，通过局部适配器（LA）和交互适配器（IA）增强 CLIP 表示的局部细粒度感知和交互推理能力，在多种零样本 HOI 检测设定下达到 SOTA。
-
 **[Localizing Events in Videos with Multimodal Queries](localizing_events_in_videos_with_multimodal_queries.md)**
 
 :   提出 ICQ 基准和 ICQ-Highlight 数据集，首次系统研究用多模态查询（图像+文本）替代纯文本查询进行视频事件定位，并设计 3 种查询适配方法和 SUIT 代理微调策略。
@@ -179,10 +171,6 @@ description: >-
 **[MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking](mambavlt_time-evolving_multimodal_state_space_model_for_vision-language_tracking.md)**
 
 :   首个基于 Mamba 的视觉语言跟踪器 MambaVLT，利用状态空间的时间演化特性实现长时序目标信息记忆和多模态参考特征的自适应更新，在多个视觉语言跟踪基准上达到 SOTA。
-
-**[MITracker: Multi-View Integration for Visual Object Tracking](mitracker_multi-view_integration_for_visual_object_tracking.md)**
-
-:   提出多视角目标跟踪数据集 MVTrack（234K 帧，27 类目标）和方法 MITracker，通过将 2D 特征投影到 3D 特征体并压缩为 BEV 平面进行跨视角融合，结合空间增强注意力修正各视角跟踪结果，实现从遮挡中快速恢复跟踪。
 
 **[MLVU: Benchmarking Multi-task Long Video Understanding](mlvu_benchmarking_multi-task_long_video_understanding.md)**
 
@@ -224,6 +212,10 @@ description: >-
 
 :   PAVE 提出了一种通过轻量级"补丁"（patch）适配预训练 Video LLM 的框架，能将音频、3D 线索、多视角视频等侧信道信号以约 0.1% 的额外参数和计算量融入基础模型，在音视频 QA、3D QA 等任务上超越专用模型。
 
+**[PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes](planarsplatting_accurate_planar_surface_reconstruction_in_3_minutes.md)**
+
+:   本文提出 PlanarSplatting，通过直接优化可学习的 3D 矩形平面基元，利用新设计的矩形 splatting 函数将平面可微地渲染为深度和法线图，仅需 3 分钟即可从多视角图像重建精确的室内平面场景，无需任何平面标注。
+
 **[Progress-Aware Video Frame Captioning](progress-aware_video_frame_captioning.md)**
 
 :   本文提出了"进度感知视频帧级描述"这一新任务，并开发了 ProgressCaptioner 模型，通过两阶段训练（帧对→帧序列）和自动化的伪标签筛选机制，生成能精确捕捉动作逐帧演变的细粒度描述，在自建 FrameCapEval 基准上大幅超越 GPT-4o 和 Gemini-1.5-Pro。
@@ -239,10 +231,6 @@ description: >-
 **[T*: Re-thinking Temporal Search for Long-Form Video Understanding](re-thinking_temporal_search_for_long-form_video_understanding.md)**
 
 :   提出轻量级时序搜索框架 T*，将昂贵的时序搜索转化为空间搜索问题，通过自适应缩放机制在时间和空间维度上迭代定位关键帧，配合首个大规模长视频关键帧搜索基准 LV-Haystack，显著提升现有 VLM 在长视频理解上的表现。
-
-**[Reasoning over Video: Evaluating How MLLMs Extract, Integrate, and Reconstruct Spatiotemporal Evidence](reasoning_over_video_evaluating_how_mllms_extract_integrate_and_reconstruct_spat.md)**
-
-:   提出 VAEX-Bench 基准，首次系统评估 MLLM 的"抽象时空推理"能力——不是从单帧提取信息，而是需要跨房间/跨时间整合观察来推断全局空间布局、跨场景计数等，发现所有 SOTA 模型（包括 GPT-5.2、Gemini-3 Pro）在抽象推理上表现远低于人类。
 
 **[ReWind: Understanding Long Videos with Instructed Learnable Memory](rewind_understanding_long_videos_with_instructed_learnable_memory.md)**
 

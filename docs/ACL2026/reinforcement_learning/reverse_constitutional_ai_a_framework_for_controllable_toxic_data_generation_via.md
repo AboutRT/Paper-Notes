@@ -13,7 +13,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.17769](https://arxiv.org/abs/2604.17769)  
 **代码**: [https://github.com/ZeroLoss-Lab/R-CAI](https://github.com/ZeroLoss-Lab/R-CAI)  
-**领域**: AI安全 / 红队测试  
+**领域**: 强化学习  
 **关键词**: 红队对抗, 对抗数据合成, 逆宪法AI, 概率截断, RLAIF
 
 ## 一句话总结

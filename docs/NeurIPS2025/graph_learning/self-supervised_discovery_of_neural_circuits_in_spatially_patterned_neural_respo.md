@@ -48,10 +48,10 @@ tags:
 1. **结构学习模块**：从每个神经元的脉冲序列中学习成对连接强度
 
    对每个神经元 $i$ 的脉冲序列 $\mathbf{x}_i$ 施加1D卷积提取时间特征，经全连接层得到嵌入 $\mathbf{z}_i$：
-   $$\mathbf{z}_i = f_{\text{out}}(\text{vec}(f_{\text{Conv1D}}(\mathbf{x}_i)))$$
+    $\mathbf{z}_i = f_{\text{out}}(\text{vec}(f_{\text{Conv1D}}(\mathbf{x}_i)))$
    
    将每对神经元的嵌入拼接后送入两层MLP估计连接强度：
-   $$w_{ij} = \text{MLP}([\mathbf{z}_i, \mathbf{z}_j])$$
+    $w_{ij} = \text{MLP}([\mathbf{z}_i, \mathbf{z}_j])$
    
    设计动机：通过在核函数空间中学习特征表示来区分真实连接与虚假相关，而非直接从相关矩阵推断。
 
@@ -60,8 +60,8 @@ tags:
    编码器对近期脉冲历史窗口编码：$\mathbf{h}_i^t = f_{\text{enc}}(\mathbf{x}_i^{t-\ell+1:t})$
    
    消息计算与聚合：
-   $$\mathbf{m}_{ij}^t = \phi([\mathbf{h}_i^t, \mathbf{h}_j^t])$$
-   $$\mathbf{h}_i^{t+1} = \psi\left(\sum_{j \in \mathcal{N}(i)} w_{ij} \cdot \mathbf{m}_{ij}^t, \mathbf{h}_i^t\right)$$
+    $\mathbf{m}_{ij}^t = \phi([\mathbf{h}_i^t, \mathbf{h}_j^t])$
+    $\mathbf{h}_i^{t+1} = \psi\left(\sum_{j \in \mathcal{N}(i)} w_{ij} \cdot \mathbf{m}_{ij}^t, \mathbf{h}_i^t\right)$
    
    解码器输出发放率参数：$\log(\lambda_i^{t+1}) = f_{\text{dec}}(\mathbf{h}_i^{t+1})$，服从泊松过程生成脉冲。
    

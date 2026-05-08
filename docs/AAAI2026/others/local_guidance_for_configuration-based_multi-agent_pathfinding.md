@@ -16,8 +16,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2510.19072](https://arxiv.org/abs/2510.19072)  
-**代码**: https://github.com/allegorywrite/lg_lacam  
-**领域**: 优化/理论 / 多智能体路径规划  
+**代码**: [https://github.com/allegorywrite/lg_lacam](https://github.com/allegorywrite/lg_lacam)  
+**领域**: 其他  
 **关键词**: MAPF, 局部引导, LaCAM, 拥塞缓解, 时空搜索
 
 ## 一句话总结
@@ -126,8 +126,8 @@ tags:
 
 - [\[AAAI 2026\] Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents](symbolic_planning_and_multi-agent_path_finding_in_extremely_dense_environments_w.md)
 - [\[AAAI 2026\] Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit](area-optimal_control_strategies_for_heterogeneous_multi-agen.md)
-- [\[AAAI 2026\] ASAG: Toward the Frontiers of Reliable Diffusion Sampling via Adversarial Sinkhorn Attention Guidance](toward_the_frontiers_of_reliable_diffusion_sampling_via_adversarial_sinkhorn_att.md)
 - [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
+- [\[AAAI 2026\] ASAG: Toward the Frontiers of Reliable Diffusion Sampling via Adversarial Sinkhorn Attention Guidance](toward_the_frontiers_of_reliable_diffusion_sampling_via_adversarial_sinkhorn_att.md)
 - [\[ACL 2025\] Multi-Hop Question Generation via Dual-Perspective Keyword Guidance](../../ACL2025/others/multi-hop_question_generation_via_dual-perspective_keyword_guidance.md)
 
 <!-- RELATED:END -->

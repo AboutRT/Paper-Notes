@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.06332](https://arxiv.org/abs/2512.06332)  
-**代码**: [https://cryohype.cs.princeton.edu/](https://cryohype.cs.princeton.edu/) (有)  
-**领域**: 其他 / 冷冻电镜重建  
+**代码**: [https://cryohype.cs.princeton.edu/](https://cryohype.cs.princeton.edu/)  
+**领域**: LLM评测  
 **关键词**: Cryo-EM, 异构重建, Hypernetwork, Transformer, 隐式神经表示
 
 ## 一句话总结
@@ -134,7 +134,7 @@ CryoHype 由五个组件组成：(1) ViT 编码器（tokenizer + Transformer）�
 - [\[ICML 2025\] Disentangling and Integrating Relational and Sensory Information in Transformer Architectures](../../ICML2025/llm_evaluation/disentangling_and_integrating_relational_and_sensory_information_in_transformer_.md)
 - [\[AAAI 2026\] SpikCommander: A High-Performance Spiking Transformer with Multi-View Learning for Efficient Speech Command Recognition](../../AAAI2026/llm_evaluation/spikcommander_a_high-performance_spiking_transformer_with_multi-view_learning_fo.md)
 - [\[NeurIPS 2025\] HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization](../../NeurIPS2025/llm_evaluation/hybridnorm_towards_stable_and_efficient_transformer_training_via_hybrid_normaliz.md)
+- [\[NeurIPS 2025\] Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era](../../NeurIPS2025/llm_evaluation/towards_implicit_aggregation_robust_image_representation_for_place_recognition_i.md)
 - [\[CVPR 2026\] Cross-Scale Pansharpening via ScaleFormer and the PanScale Benchmark](cross-scale_pansharpening_via_scaleformer_and_the_panscale_benchmark.md)
-- [\[CVPR 2026\] Free-Grained Hierarchical Visual Recognition](free-grained_hierarchical_visual_recognition.md)
 
 <!-- RELATED:END -->

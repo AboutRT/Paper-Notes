@@ -7,7 +7,7 @@ tags:
   - ICML2025
   - 专家协作
   - 异构多重网络
-  - 大间隔优化
+  - LLM评测
   - 互信息最大化
   - 图结构学习
 ---
@@ -142,8 +142,8 @@ CoE 在所有 5 个数据集上均取得最优，且标准差最低（如 ACM ±
 
 - [\[NeurIPS 2025\] Small Language Models as Compiler Experts: Auto-Parallelization for Heterogeneous Systems](../../NeurIPS2025/llm_evaluation/small_language_models_as_compiler_experts_auto-parallelization_for_heterogeneous.md)
 - [\[ICML 2025\] Disentangling and Integrating Relational and Sensory Information in Transformer Architectures](disentangling_and_integrating_relational_and_sensory_information_in_transformer_.md)
-- [\[NeurIPS 2025\] Let the Experts Speak: Improving Survival Prediction & Calibration via Mixture-of-Experts Heads](../../NeurIPS2025/llm_evaluation/let_the_experts_speak_improving_survival_prediction_calibration_via_mixture-of-e.md)
-- [\[ICML 2025\] Correlated Errors in Large Language Models](correlated_errors_in_large_language_models.md)
-- [\[ICML 2025\] G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration](g-sim_generative_simulations_with_large_language_models_and_gradient-free_calibr.md)
+- [\[NeurIPS 2025\] Heterogeneous Adversarial Play in Interactive Environments](../../NeurIPS2025/llm_evaluation/heterogeneous_adversarial_play_in_interactive_environments.md)
+- [\[ICML 2025\] Addressing Imbalanced Domain-Incremental Learning through Dual-Balance Collaborative Experts (DCE)](addressing_imbalanced_domain-incremental_learning_through_dual-balance_collabora.md)
+- [\[ICML 2025\] Fleet of Agents: Coordinated Problem Solving with Large Language Models](fleet_of_agents_coordinated_problem_solving_with_large_language_models.md)
 
 <!-- RELATED:END -->

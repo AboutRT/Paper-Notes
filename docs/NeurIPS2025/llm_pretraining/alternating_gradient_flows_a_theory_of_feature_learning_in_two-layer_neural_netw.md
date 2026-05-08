@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.06489](https://arxiv.org/abs/2506.06489)  
-**代码**: https://github.com/danielkunin/alternating-gradient-flows  
+**代码**: [https://github.com/danielkunin/alternating-gradient-flows](https://github.com/danielkunin/alternating-gradient-flows)  
 **领域**: 深度学习理论  
 **关键词**: 特征学习, 鞍点动力学, 交替梯度流, 休眠神经元, 两层网络
 

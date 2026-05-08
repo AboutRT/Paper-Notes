@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.12569](https://arxiv.org/abs/2412.12569)  
 **代码**: [GitHub](https://github.com/ryo-lyo/Semantic-Shift-via-UOT)  
-**领域**: 语义变迁检测  
+**领域**: 其他  
 **关键词**: 语义变迁, 最优传输, 上下文化嵌入, SUS指标, 词义扩展/缩小
 
 ## 一句话总结

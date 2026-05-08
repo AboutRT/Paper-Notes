@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.25035](https://arxiv.org/abs/2509.25035)  
-**代码**: https://github.com/haoyangzheng-ai/didi-instruct (有)  
-**领域**: LLM Efficiency / 离散扩散模型 / 语言生成加速  
+**代码**: [https://github.com/haoyangzheng-ai/didi-instruct](https://github.com/haoyangzheng-ai/didi-instruct)  
+**领域**: 医学图像  
 **关键词**: Discrete Diffusion, Distillation, Masked Diffusion Model, KL Divergence, Few-Step Generation, Policy Gradient
 
 ## 一句话总结

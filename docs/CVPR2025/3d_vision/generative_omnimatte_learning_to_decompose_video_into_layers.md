@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16683](https://arxiv.org/abs/2411.16683)  
-**代码**: https://gen-omnimatte.github.io (项目页)  
-**领域**: 视频理解 / 视频编辑  
+**代码**: [https://gen-omnimatte.github.io](https://gen-omnimatte.github.io) (项目页)  
+**领域**: 3D视觉  
 **关键词**: 视频图层分解, Omnimatte, 视频扩散模型, 物体效果移除, 视频编辑
 
 ## 一句话总结

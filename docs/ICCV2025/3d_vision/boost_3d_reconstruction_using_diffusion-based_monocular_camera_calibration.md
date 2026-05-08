@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2411.17240](https://arxiv.org/abs/2411.17240)  
-**代码**: https://github.com/JunyuanDeng/DM-Calib (有)  
+**代码**: [https://github.com/JunyuanDeng/DM-Calib](https://github.com/JunyuanDeng/DM-Calib)  
 **领域**: 3D视觉  
 **关键词**: 单目相机标定, 扩散模型, 深度估计, 3D重建, Camera Image
 

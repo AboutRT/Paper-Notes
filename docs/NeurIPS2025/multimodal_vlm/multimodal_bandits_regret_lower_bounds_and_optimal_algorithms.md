@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.25811](https://arxiv.org/abs/2510.25811)  
-**代码**: [GitHub](https://github.com/wilrev/MultimodalBandits) (有)  
+**代码**: [GitHub](https://github.com/wilrev/MultimodalBandits)  
 **领域**: 多模态VLM  
 **关键词**: 多模态赌博机, Graves-Lai界, 动态规划, 渐近最优, 多臂老虎机
 
@@ -200,8 +200,8 @@ $$\sup_{\boldsymbol{\mu} \in \mathcal{F}_m} \frac{C_{loc}(m, \boldsymbol{\mu})}{
 
 - [\[ICML 2025\] Learning Optimal Multimodal Information Bottleneck Representations](../../ICML2025/multimodal_vlm/learning_optimal_multimodal_information_bottleneck_representations.md)
 - [\[ACL 2025\] Inference Compute-Optimal Video Vision Language Models](../../ACL2025/multimodal_vlm/inference_compute_optimal_video_vlm.md)
-- [\[AAAI 2026\] Towards a Rigorous Understanding of the Population Dynamics of the NSGA-III: Tight Runtime Bounds](../../AAAI2026/multimodal_vlm/towards_a_rigorous_understanding_of_the_population_dynamics_of_the_nsga-iii_tigh.md)
 - [\[AAAI 2026\] Information Theoretic Optimal Surveillance for Epidemic Prevalence in Networks](../../AAAI2026/multimodal_vlm/information_theoretic_optimal_surveillance_for_epidemic_prevalence_in_networks.md)
 - [\[NeurIPS 2025\] Multimodal Negative Learning](multimodal_negative_learning.md)
+- [\[NeurIPS 2025\] Continual Multimodal Contrastive Learning](continual_multimodal_contrastive_learning.md)
 
 <!-- RELATED:END -->

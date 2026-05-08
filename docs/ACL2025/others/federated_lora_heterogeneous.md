@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Long Paper, pp. 416–429)][联邦学习] 提出 LoRA-A²（Low Rank Adaptation with Alternating freeze and Adaptive rank selection），通过交替冻结 A/B 矩阵解决联邦 LoRA 聚合不一致问题，并结合自适应秩选择机制在大幅压缩上传参数量（最高减少 99.8%）的同时保持鲁棒性，尤其在低秩+高数据异构场景下显著优于现有方法。
 tags:
   - ACL 2025 (Long Paper, pp. 416–429)
-  - 联邦学习
+  - 其他
   - LoRA
   - Aggregation Discordance
   - Alternating Freeze
@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.22815](https://arxiv.org/abs/2410.22815)  
 **代码**: 未公开  
-**领域**: others  
+**领域**: 其他  
 **关键词**: Federated Learning, LoRA, PEFT, Communication Efficiency, Rank Selection  
 
 ## 一句话总结
@@ -243,8 +243,8 @@ LoRA-A² 包含两个核心组件：**交替冻结**（Alternating Freeze）和*
 
 - [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](cola_collaborative_low-rank_adaptation.md)
 - [\[ACL 2025\] Low-Rank Interconnected Adaptation across Layers](low-rank_interconnected_adaptation_across_layers.md)
+- [\[ACL 2025\] Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling](understanding_cross-domain_adaptation_in_low-resource_topic_modeling.md)
 - [\[ACL 2025\] MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning](more_a_mixture_of_low-rank_experts_for_adaptive_multi-task_learning.md)
 - [\[ECCV 2024\] Dropout Mixture Low-Rank Adaptation for Visual Parameters-Efficient Fine-Tuning](../../ECCV2024/others/dropout_mixture_low-rank_adaptation_for_visual_parameters-efficient_fine-tuning.md)
-- [\[ACL 2025\] Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling](understanding_cross-domain_adaptation_in_low-resource_topic_modeling.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.07699](https://arxiv.org/abs/2503.07699)  
 **代码**: 无  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 扩散模型加速, 流匹配, 实例感知路径, 重要性采样, 采样稳定性
 
 ## 一句话总结
@@ -127,6 +127,6 @@ $$\mathcal{L}_{CFM} = \mathbb{E}_{t, p(x_t|\epsilon), p(\epsilon)} [\|v_\theta(x
 - [\[CVPR 2025\] ILIAS: Instance-Level Image Retrieval At Scale](ilias_instance-level_image_retrieval_at_scale.md)
 - [\[CVPR 2026\] TAP: A Token-Adaptive Predictor Framework for Training-Free Diffusion Acceleration](../../CVPR2026/image_generation/tap_a_token-adaptive_predictor_framework_for_training-free_diffusion_acceleratio.md)
 - [\[CVPR 2026\] Adaptive Spectral Feature Forecasting for Diffusion Sampling Acceleration](../../CVPR2026/image_generation/adaptive_spectral_feature_forecasting_for_diffusion_sampling_acceleration.md)
-- [\[CVPR 2026\] LESA: Learnable Stage-Aware Predictors for Diffusion Model Acceleration](../../CVPR2026/image_generation/lesa_learnable_stage-aware_predictors_for_diffusion_model_acceleration.md)
+- [\[ECCV 2024\] AdaDiffSR: Adaptive Region-Aware Dynamic Acceleration Diffusion Model for Real-World Image Super-Resolution](../../ECCV2024/image_generation/adadiffsr_adaptive_region-aware_dynamic_acceleration_diffusion_model_for_real-wo.md)
 
 <!-- RELATED:END -->

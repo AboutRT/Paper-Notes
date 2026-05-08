@@ -20,7 +20,7 @@ tags:
 **代码**: 未公开  
 **作者**: Alessandro Vanzo, Sankalan Pal Chowdhury, Mrinmaya Sachan  
 **机构**: ETH Zürich  
-**领域**: 教育NLP / AI辅助教学  
+**领域**: 其他  
 **关键词**: GPT-4, 作业辅导, 随机对照试验, 学习增益, 学生参与度, 英语教学
 
 ## 一句话总结

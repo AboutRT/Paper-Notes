@@ -16,7 +16,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.13338](https://arxiv.org/abs/2511.13338)  
-**代码**: https://github.com/kentridgeai/Tab-PET (有)  
+**代码**: [https://github.com/kentridgeai/Tab-PET](https://github.com/kentridgeai/Tab-PET)  
 **领域**: 表格数据学习 / Transformer  
 **关键词**: 位置编码, 表格数据, 图拉普拉斯, Transformer, 有效秩
 
@@ -162,8 +162,8 @@ FT-Transformer+PET 在分类上 rank 2.44 排名第一，SAINT+PET 在回归上 
 
 - [\[ACL 2025\] Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? Revisiting a Petroglyph](../../ACL2025/others/why_are_positional_encodings_nonessential_for_deep_autoregressive_transformers_r.md)
 - [\[AAAI 2026\] Structure-Aware Encodings of Argumentation Properties for Clique-width](structure-aware_encodings_of_argumentation_properties_for_clique-width.md)
-- [\[AAAI 2026\] A Graph-Theoretical Perspective on Law Design for Multiagent Systems](a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md)
-- [\[ICLR 2026\] The Counting Power of Transformers](../../ICLR2026/others/the_counting_power_of_transformers.md)
+- [\[AAAI 2026\] A Graph-Theoretical Perspective on Law Design for Multiagent Systems](a_graph-theoretical_perspective_on_law_design_for_multiagent.md)
 - [\[AAAI 2026\] LeanRAG: Knowledge-Graph-Based Generation with Semantic Aggregation and Hierarchical Retrieval](leanrag_knowledge-graph-based_generation_with_semantic_aggregation_and_hierarchi.md)
+- [\[ICLR 2026\] The Counting Power of Transformers](../../ICLR2026/others/the_counting_power_of_transformers.md)
 
 <!-- RELATED:END -->

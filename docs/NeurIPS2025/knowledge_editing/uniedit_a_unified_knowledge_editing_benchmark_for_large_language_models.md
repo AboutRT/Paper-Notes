@@ -4,7 +4,7 @@ title: >-
 description: >-
   [NeurIPS 2025 (Datasets & Benchmarks Track)][knowledge editing] 构建 UniEdit——首个基于开放域知识图谱（Wikidata）的统一 LLM 知识编辑基准，覆盖 5 大类 25 个领域共 311K 条样本，通过邻域多跳链采样（NMCS）算法统一整合多种泛化性和局部性评估标准，系统揭示了现有编辑方法在复杂波纹效应评估下的不足。
 tags:
-  - "NeurIPS 2025 (Datasets & Benchmarks Track)"
+  - 知识编辑
   - knowledge editing
   - LLM benchmark
   - ripple effect
@@ -119,9 +119,9 @@ UniEdit 共包含 311K 条样本，每条包含编辑样本、泛化性样本和
 
 ## 相关论文
 
-- [\[ACL 2025\] Neuron-Level Sequential Editing for Large Language Models](../../ACL2025/knowledge_editing/neuron-level_sequential_editing_for_large_language_models.md)
 - [\[ACL 2025\] Structure-aware Domain Knowledge Injection for Large Language Models](../../ACL2025/knowledge_editing/structure-aware_domain_knowledge_injection_for_large_language_models.md)
 - [\[ACL 2025\] MEGen: Generative Backdoor into Large Language Models via Model Editing](../../ACL2025/knowledge_editing/megen_generative_backdoor_into_large_language_models_via_model_editing.md)
+- [\[ACL 2025\] Neuron-Level Sequential Editing for Large Language Models](../../ACL2025/knowledge_editing/neuron-level_sequential_editing_for_large_language_models.md)
 - [\[NeurIPS 2025\] KScope: A Framework for Characterizing the Knowledge Status of Language Models](kscope_a_framework_for_characterizing_the_knowledge_status_of_language_models.md)
 - [\[ACL 2025\] Context-Robust Knowledge Editing for Language Models](../../ACL2025/knowledge_editing/context-robust_knowledge_editing_for_language_models.md)
 

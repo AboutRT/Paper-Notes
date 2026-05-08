@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026 (Findings)  
 **arXiv**: [2503.17181](https://arxiv.org/abs/2503.17181)  
 **代码**: [GitHub](https://github.com/itsluketwist/llm-code-bias)  
-**领域**: Code Intelligence / LLM Evaluation  
+**领域**: LLM/NLP  
 **关键词**: 代码生成偏好, 库选择偏差, 编程语言偏好, LLM行为分析, 技术多样性
 
 ## 一句话总结
@@ -122,7 +122,7 @@ tags:
 - [\[ACL 2025\] Planning-Driven Programming: A Large Language Model Programming Workflow](../../ACL2025/llm_nlp/planning-driven_programming_a_large_language_model_programming_workflow.md)
 - [\[ACL 2025\] Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations](../../ACL2025/llm_nlp/knowledge_boundary_crosslingual.md)
 - [\[ACL 2025\] Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs](../../ACL2025/llm_nlp/can_llms_interpret_and_leverage_structured_linguistic_representations_a_case_stu.md)
-- [\[ACL 2025\] How LLMs Comprehend Temporal Meaning in Narratives: A Case Study in Cognitive Evaluation of LLMs](../../ACL2025/llm_nlp/how_llms_comprehend_temporal_meaning_in_narratives_a_case_study_in_cognitive_eva.md)
-- [\[ACL 2025\] Is It JUST Semantics? A Case Study of Discourse Particle Understanding in LLMs](../../ACL2025/llm_nlp/is_it_just_semantics_a_case_study_of_discourse_particle_understanding_in_llms.md)
+- [\[ACL 2025\] How LLMs Comprehend Temporal Meaning in Narratives: A Case Study in Cognitive Evaluation of LLMs](../../ACL2025/llm_nlp/llms-comprehend-temporal-meaning-in-narratives.md)
+- [\[NeurIPS 2025\] Are Language Models Efficient Reasoners? A Perspective from Logic Programming](../../NeurIPS2025/llm_nlp/are_language_models_efficient_reasoners_a_perspective_from_logic_programming.md)
 
 <!-- RELATED:END -->

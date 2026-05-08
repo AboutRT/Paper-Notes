@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2410.08192](https://arxiv.org/abs/2410.08192)  
-**代码**: https://sites.google.com/view/hybridbooth  
-**领域**: LLM/NLP  
+**代码**: [https://sites.google.com/view/hybridbooth](https://sites.google.com/view/hybridbooth)  
+**领域**: 图像生成  
 **关键词**: Subject-Driven Generation, Prompt Inversion, 扩散模型, 混合框架, 高效个性化
 
 ## 一句话总结
@@ -145,7 +145,7 @@ $$\mathcal{L} = \mathcal{L}_\epsilon + \alpha_M \mathcal{L}_M$$
 - [\[ECCV 2024\] Prompting Future Driven Diffusion Model for Hand Motion Prediction](prompting_future_driven_diffusion_model_for_hand_motion_prediction.md)
 - [\[ECCV 2024\] Source Prompt Disentangled Inversion for Boosting Image Editability with Diffusion Models](source_prompt_disentangled_inversion_for_boosting_image_editability_with_diffusi.md)
 - [\[ECCV 2024\] Soft Prompt Generation for Domain Generalization](soft_prompt_generation_for_domain_generalization.md)
-- [\[ECCV 2024\] ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](scaledreamer_scalable_textto3d_synthesis_with_asynchronous_s.md)
 - [\[ECCV 2024\] Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers](difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md)
+- [\[ECCV 2024\] ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](scaledreamer_scalable_textto3d_synthesis_with_asynchronous_s.md)
 
 <!-- RELATED:END -->

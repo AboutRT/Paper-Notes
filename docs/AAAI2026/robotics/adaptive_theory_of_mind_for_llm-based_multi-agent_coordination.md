@@ -17,8 +17,8 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2603.16264](https://arxiv.org/abs/2603.16264)  
-**代码**: https://github.com/ChunjiangMonkey/Adaptive-ToM  
-**领域**: 多智能体协作  
+**代码**: [https://github.com/ChunjiangMonkey/Adaptive-ToM](https://github.com/ChunjiangMonkey/Adaptive-ToM)  
+**领域**: 机器人  
 **关键词**: Theory of Mind, LLM多智能体, 零样本协作, 在线学习, 专家建议
 
 ## 一句话总结
@@ -133,9 +133,9 @@ A-ToM智能体维护一组不同ToM阶数的假设智能体 $\{\pi_j^{(k)}\}_{k 
 ## 相关论文
 
 - [\[AAAI 2026\] A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind](a_computable_game-theoretic_framework_for_multi-agent_theory_of_mind.md)
+- [\[AAAI 2026\] Theory of Mind for Explainable Human-Robot Interaction](theory_of_mind_for_explainable_human-robot_interaction.md)
 - [\[AAAI 2026\] Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems](shadows_in_the_code_exploring_the_risks_and_defenses_of_llm-.md)
 - [\[AAAI 2026\] EvoEmpirBench: Dynamic Spatial Reasoning with Agent-ExpVer](evoempirbench_dynamic_spatial_reasoning_with_agent-expver.md)
-- [\[CVPR 2026\] MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](../../CVPR2026/robotics/mindpower_enabling_theoryofmind_reasoning_in_vlmba.md)
-- [\[AAAI 2026\] iSeal: Encrypted Fingerprinting for Reliable LLM Ownership Verification](iseal_encrypted_fingerprinting_for_reliable_llm_ownership_verification.md)
+- [\[NeurIPS 2025\] MindForge: Empowering Embodied Agents with Theory of Mind for Lifelong Cultural Learning](../../NeurIPS2025/robotics/mindforge_empowering_embodied_agents_with_theory_of_mind_for_lifelong_cultural_l.md)
 
 <!-- RELATED:END -->

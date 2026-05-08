@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Pathways on the Image Manifold: Image Editing via Video Generation
 description: >-
-  [CVPR 2025][图像编辑] Frame2Frame (F2F) 将图像编辑重新定义为视频生成任务——利用 image-to-video 模型在图像流形上从源图像到目标编辑生成一条平滑的时间路径，通过 VLM 生成时间编辑描述并自动选帧，在编辑精度和图像保真度之间取得了 SOTA 平衡。
+  [CVPR 2025][视频生成] Frame2Frame (F2F) 将图像编辑重新定义为视频生成任务——利用 image-to-video 模型在图像流形上从源图像到目标编辑生成一条平滑的时间路径，通过 VLM 生成时间编辑描述并自动选帧，在编辑精度和图像保真度之间取得了 SOTA 平衡。
 tags:
   - CVPR 2025
-  - 图像编辑
+  - 视频生成
   - 视频生成
   - 图像流形
   - CogVideoX
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.16819](https://arxiv.org/abs/2411.16819)  
 **代码**: 无（项目主页可见）  
-**领域**: 图像生成 / 图像编辑  
+**领域**: 视频生成  
 **关键词**: 图像编辑, 视频生成, 图像流形, CogVideoX, 时间一致性
 
 ## 一句话总结
@@ -139,10 +139,10 @@ Frame2Frame (F2F) 包含三个步骤：(1) **时间编辑描述生成**——用
 
 ## 相关论文
 
-- [\[CVPR 2025\] MotionPro: A Precise Motion Controller for Image-to-Video Generation](motionpro_a_precise_motion_controller_for_image-to-video_generation.md)
-- [\[CVPR 2025\] MotiF: Making Text Count in Image Animation with Motion Focal Loss](motif_making_text_count_in_image_animation_with_motion_focal_loss.md)
 - [\[CVPR 2025\] Through-The-Mask: Mask-based Motion Trajectories for Image-to-Video Generation](through-the-mask_mask-based_motion_trajectories_for_image-to-video_generation.md)
-- [\[CVPR 2025\] SketchVideo: Sketch-Based Video Generation and Editing](sketchvideo_sketch-based_video_generation_and_editing.md)
 - [\[CVPR 2025\] OSV: One Step is Enough for High-Quality Image to Video Generation](osv_one_step_is_enough_for_high-quality_image_to_video_generation.md)
+- [\[CVPR 2025\] MotionStone: Decoupled Motion Intensity Modulation with Diffusion Transformer for Image-to-Video Generation](motionstone_decoupled_motion_intensity_modulation_with_diffusion_transformer_for.md)
+- [\[CVPR 2025\] IDOL: Instant Photorealistic 3D Human Creation from a Single Image](idol_instant_photorealistic_3d_human_creation_from_a_single_image.md)
+- [\[CVPR 2025\] MotionPro: A Precise Motion Controller for Image-to-Video Generation](motionpro_a_precise_motion_controller_for_image-to-video_generation.md)
 
 <!-- RELATED:END -->

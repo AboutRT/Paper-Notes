@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.07411](https://arxiv.org/abs/2502.07411)  
-**代码**: https://github.com/zhousheng97/EgoTextVQA (有)  
+**代码**: [https://github.com/zhousheng97/EgoTextVQA](https://github.com/zhousheng97/EgoTextVQA)  
 **领域**: 视频理解  
 **关键词**: 第一人称视频问答, 场景文字识别, 多模态大语言模型, 基准数据集, 自中心视觉
 

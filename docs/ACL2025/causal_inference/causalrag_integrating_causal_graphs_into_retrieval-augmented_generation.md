@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation
 description: >-
-  [ACL 2025][检索增强生成] 提出 CausalRAG，将因果图集成到 RAG 的检索过程中——从文档构建文本图并识别因果关系，在查询时通过因果路径发现和因果摘要生成来检索上下文，在文档问答中显著提升上下文精度（92.86%）和检索召回率。
+  [ACL 2025][因果推理] 提出 CausalRAG，将因果图集成到 RAG 的检索过程中——从文档构建文本图并识别因果关系，在查询时通过因果路径发现和因果摘要生成来检索上下文，在文档问答中显著提升上下文精度（92.86%）和检索召回率。
 tags:
   - ACL 2025
-  - 检索增强生成
+  - 因果推理
   - 因果图
   - 知识图谱
   - 文档问答
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.19878](https://arxiv.org/abs/2503.19878)  
-**代码**: https://github.com/Pwnb/CausalRAG (有)  
+**代码**: [https://github.com/Pwnb/CausalRAG](https://github.com/Pwnb/CausalRAG)  
 **领域**: RAG / 因果推理  
 **关键词**: 检索增强生成, 因果图, 知识图谱, 文档问答, 图索引
 
@@ -116,10 +116,10 @@ tags:
 
 ## 相关论文
 
-- [\[AAAI 2026\] I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables](../../AAAI2026/causal_inference/i-cam-uv_integrating_causal_graphs_over_non-identical_variable_sets_using_causal.md)
-- [\[NeurIPS 2025\] Characterization and Learning of Causal Graphs from Hard Interventions](../../NeurIPS2025/causal_inference/characterization_and_learning_of_causal_graphs_from_hard_interventions.md)
 - [\[ACL 2025\] FitCF: A Framework for Automatic Feature Importance-guided Counterfactual Example Generation](fitcf_a_framework_for_automatic_feature_importance-guided_counterfactual_example.md)
-- [\[ECCV 2024\] Integrating Markov Blanket Discovery into Causal Representation Learning for Domain Generalization](../../ECCV2024/causal_inference/integrating_markov_blanket_discovery_into_causal_representation_learning_for_dom.md)
-- [\[ICCV 2025\] A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets](../../ICCV2025/causal_inference/a_visual_leap_in_clip_compositionality_reasoning_through_gen.md)
+- [\[AAAI 2026\] I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables](../../AAAI2026/causal_inference/i-cam-uv_integrating_causal_graphs_over_non-identical_variable_sets_using_causal.md)
+- [\[ACL 2025\] On the Reliability of Large Language Models for Causal Discovery](llm_causal_discovery_reliability.md)
+- [\[ACL 2025\] Causal Graph based Event Reasoning using Semantic Relation Experts](causal_graph_based_event_reasoning_using_semantic_relation_experts.md)
+- [\[ACL 2025\] IRIS: An Iterative and Integrated Framework for Verifiable Causal Discovery](iris_an_iterative_and_integrated_framework.md)
 
 <!-- RELATED:END -->

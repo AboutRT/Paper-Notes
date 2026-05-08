@@ -47,13 +47,13 @@ tags:
 
 1. **逆向模型引导（Reversed Model Guidance）**：将遗忘过程视为微调的逆过程——$\theta$ 可看作在 $\theta'$ 基础上用 $X_0$ 微调的结果。假设从 $\theta'$ 重新学习 $X_0$ 分布的参数化近似为 $p_\theta(x_{i+1}|x_{\leq i}) \propto p_{\theta'}^{1-\lambda}(x_{i+1}|x_{\leq i}) \cdot q^\lambda(x_{i+1}|x_{\leq i})$，通过对数化和重参数化推导出：
 
-   $$\log q(x_{i+1}|x_{\leq i}) = \log p_{\theta'}(x_{i+1}|x_{\leq i}) + w(\log p_\theta(x_{i+1}|x_{\leq i}) - \log p_{\theta'}(x_{i+1}|x_{\leq i}))$$
+    $\log q(x_{i+1}|x_{\leq i}) = \log p_{\theta'}(x_{i+1}|x_{\leq i}) + w(\log p_\theta(x_{i+1}|x_{\leq i}) - \log p_{\theta'}(x_{i+1}|x_{\leq i}))$
 
    其中 $w = 1/\lambda$ 是引导尺度。设计动机：类比扩散模型中的 classifier guidance，利用遗忘前后模型的 logits 差作为引导信号，差异越大的 token 越可能属于被删除数据的分布。
 
 2. **Token 过滤策略**：直接使用 logits 差异可能产生不连贯的生成。借鉴对比解码（Contrastive Decoding），限制候选 token 必须在遗忘前模型 $\theta$ 中有足够高的概率：
 
-   $$V' = \{v \in V \mid p_\theta(v|x_{\leq i}) \geq \gamma \max_{v \in V} p_\theta(v|x_{\leq i})\}$$
+    $V' = \{v \in V \mid p_\theta(v|x_{\leq i}) \geq \gamma \max_{v \in V} p_\theta(v|x_{\leq i})\}$
 
    然后在 $V'$ 中选择引导分布 $\log q$ 最高的 token。设计动机：遗忘前模型仍保留对 $X_0$ 的残留知识，限制在其高概率 token 中选择可消除低频噪声 token，保持生成文本的质量和连贯性。
 
@@ -136,10 +136,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression](imagenet-trained_cnns_are_not_biased_towards_texture_revisiting_feature_reliance.md)
 - [\[CVPR 2025\] Nyxus: A Next Generation Image Feature Extraction Library for the Big Data and AI Era](../../CVPR2025/medical_imaging/nyxus_a_next_generation_image_feature_extraction_library_for_the_big_data_and_ai.md)
 - [\[ACL 2025\] RedactX: An LLM-Powered Framework for Automatic Clinical Data De-Identification](../../ACL2025/medical_imaging/redactor_an_llm-powered_framework_for_automatic_clinical_data_de-identification.md)
-- [\[NeurIPS 2025\] ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression](imagenet-trained_cnns_are_not_biased_towards_texture_revisiting_feature_reliance.md)
 - [\[ACL 2026\] Calibrated? Not for Everyone: How Sexual Orientation and Religious Markers Distort LLM Accuracy and Confidence in Medical QA](../../ACL2026/medical_imaging/calibrated_not_for_everyone_how_sexual_orientation_and_religious_markers_distort.md)
-- [\[NeurIPS 2025\] CodeCrash: Exposing LLM Fragility to Misleading Natural Language in Code Reasoning](codecrash_exposing_llm_fragility_to_misleading_natural_language_in_code_reasonin.md)
+- [\[NeurIPS 2025\] Mind the (Data) Gap: Evaluating Vision Systems in Small Data Applications](mind_the_data_gap_evaluating_vision_systems_in_small_data_applications.md)
 
 <!-- RELATED:END -->

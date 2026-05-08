@@ -8,7 +8,7 @@ tags:
   - 中心极限定理 (CLT)
   - 置信区间
   - 贝叶斯可信区间
-  - LLM 评估
+  - 推荐系统
   - 小样本统计
   - Wilson 得分区间
   - Bootstrap

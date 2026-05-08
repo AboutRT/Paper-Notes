@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.24778](https://arxiv.org/abs/2505.24778)  
-**代码**: https://github.com/HKUST-KnowComp/MarCon  
+**代码**: [https://github.com/HKUST-KnowComp/MarCon](https://github.com/HKUST-KnowComp/MarCon)  
 **领域**: LLM评估  
 **关键词**: 认知标记, 置信度估计, 不确定性, LLM校准, 分布外泛化
 

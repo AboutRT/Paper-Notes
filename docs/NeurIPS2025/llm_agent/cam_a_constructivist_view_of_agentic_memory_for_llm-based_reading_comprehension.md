@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.05520](https://arxiv.org/abs/2510.05520)  
-**代码**: https://github.com/rui9812/CAM  
+**代码**: [https://github.com/rui9812/CAM](https://github.com/rui9812/CAM)  
 **领域**: Agent  
 **关键词**: 智能体记忆, 长文本理解, 层次化记忆, 增量聚类, 建构主义
 

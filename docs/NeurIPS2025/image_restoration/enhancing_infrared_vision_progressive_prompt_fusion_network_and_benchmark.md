@@ -10,7 +10,7 @@ tags:
   - 提示学习
   - All-in-One复原
   - 渐进式训练
-  - TIR Benchmark
+  - 图像复原
 ---
 
 # Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmark

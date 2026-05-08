@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Leveraging Importance Sampling to Detach Alignment Modules from Large Language Models
 description: >-
-  [NeurIPS 2025][LLM alignment] 提出 Residual Alignment Model (RAM)，将 LLM 对齐过程形式化为重要性采样，将大模型分解为冻结的 Proposal Module 和可训练的小型 Residual Aligner，以不到 1/8 参数实现可比甚至超越全参数 SFT/DPO 的对齐效果，同时解决了首 token 延迟问题。
+  [NeurIPS 2025][LLM预训练] 提出 Residual Alignment Model (RAM)，将 LLM 对齐过程形式化为重要性采样，将大模型分解为冻结的 Proposal Module 和可训练的小型 Residual Aligner，以不到 1/8 参数实现可比甚至超越全参数 SFT/DPO 的对齐效果，同时解决了首 token 延迟问题。
 tags:
   - NeurIPS 2025
-  - LLM alignment
+  - LLM预训练
   - importance sampling
   - residual alignment
   - modular alignment
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.19700](https://arxiv.org/abs/2505.19700)  
 **代码**: 待确认  
-**领域**: llm_nlp  
+**领域**: LLM预训练  
 **关键词**: LLM alignment, importance sampling, residual alignment, modular alignment, token-level decoding, parameter-efficient
 
 ## 一句话总结
@@ -188,7 +188,7 @@ PAR 三步流程：
 - [\[NeurIPS 2025\] Breaking the Frozen Subspace: Importance Sampling for Low-Rank Optimization in LLM Pretraining](breaking_the_frozen_subspace_importance_sampling_for_low-rank_optimization_in_ll.md)
 - [\[NeurIPS 2025\] Scalable Fingerprinting of Large Language Models](scalable_fingerprinting_of_large_language_models.md)
 - [\[NeurIPS 2025\] The Curse of Depth in Large Language Models](the_curse_of_depth_in_large_language_models.md)
+- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](retrospective_incontext_learning_for_temporal_credit_assignm.md)
 - [\[ACL 2025\] FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling](../../ACL2025/llm_pretraining/fr_spec_speculative_sampling.md)
-- [\[NeurIPS 2025\] Retrospective In-Context Learning for Temporal Credit Assignment with Large Language Models](ricl_temporal_credit.md)
 
 <!-- RELATED:END -->

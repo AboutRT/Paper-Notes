@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025 (Long Paper)  
 **arXiv**: [2412.13549](https://arxiv.org/abs/2412.13549)  
 **代码**: [https://github.com/qiancheng0/EscapeBench](https://github.com/qiancheng0/EscapeBench)  
-**领域**: Agent  
+**领域**: LLM/NLP  
 **关键词**: creative intelligence, escape room, agent benchmark, tool use, reasoning
 
 ## 一句话总结

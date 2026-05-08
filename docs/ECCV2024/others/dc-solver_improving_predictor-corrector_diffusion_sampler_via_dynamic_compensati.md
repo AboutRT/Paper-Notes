@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2409.03755](https://arxiv.org/abs/2409.03755)  
 **代码**: [wl-zhao/DC-Solver](https://github.com/wl-zhao/DC-Solver)  
-**领域**: others  
+**领域**: 其他  
 **关键词**: diffusion model, Fast Sampling, ODE Solver, Predictor-Corrector, Dynamic Compensation
 
 ## 一句话总结

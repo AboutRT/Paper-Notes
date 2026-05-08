@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.00904](https://arxiv.org/abs/2512.00904)  
 **代码**: 无  
-**领域**: 对齐RLHF / 多模态VLM  
+**领域**: 其他  
 **关键词**: image clustering, semantic alignment, optimal transport, caption-level semantics, training-free
 
 ## 一句话总结
@@ -123,6 +123,6 @@ tags:
 - [\[ICML 2025\] Learning-Augmented Hierarchical Clustering](../../ICML2025/others/learning-augmented_hierarchical_clustering.md)
 - [\[CVPR 2026\] LoViF 2026 Challenge on Human-oriented Semantic Image Quality Assessment](../../CVPR2026/others/lovif_2026_semantic_quality_assessment_challenge.md)
 - [\[CVPR 2026\] OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion](../../CVPR2026/others/omnifood8k_nutrition_estimation.md)
-- [\[AAAI 2026\] Towards Temporal Fusion Beyond the Field of View for Camera-based Semantic Scene Completion](towards_temporal_fusion_beyond_the_field_of_view_for_camera-based_semantic_scene.md)
+- [\[AAAI 2026\] Forget Less by Learning from Parents Through Hierarchical Relationships](forget_less_by_learning_from_parents_through_hierarchical_relationships.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.14466](https://arxiv.org/abs/2508.14466)  
-**代码**: https://sites.google.com/stanford.edu/lookout (项目主页)  
+**代码**: [https://sites.google.com/stanford.edu/lookout](https://sites.google.com/stanford.edu/lookout) (项目主页)  
 **领域**: 自动驾驶 / 具身导航  
 **关键词**: 自我中心导航, 6D头部姿态预测, BEV特征, DINO反投影, 人形机器人
 

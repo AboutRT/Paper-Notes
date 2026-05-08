@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Graphically Speaking: Unmasking Abuse in Social Media with Conversation Insights
 description: >-
-  [ACL 2025][滥用语言检测] 提出一种基于图注意力网络（GAT）的上下文感知滥用语言检测框架，将 Reddit 对话建模为图结构（节点=评论，边=回复关系），利用基于 Reddit 界面渲染逻辑的 affordance-based 图裁剪策略保留关键上下文，3 层 GAT 模型达到 F1=0.7624，显著优于无上下文基线和扁平化上下文方法，在上下文敏感样本上提升尤为明显（+4.75%）。
+  [ACL 2025][其他] 提出一种基于图注意力网络（GAT）的上下文感知滥用语言检测框架，将 Reddit 对话建模为图结构（节点=评论，边=回复关系），利用基于 Reddit 界面渲染逻辑的 affordance-based 图裁剪策略保留关键上下文，3 层 GAT 模型达到 F1=0.7624，显著优于无上下文基线和扁平化上下文方法，在上下文敏感样本上提升尤为明显（+4.75%）。
 tags:
   - ACL 2025
-  - 滥用语言检测
+  - 其他
   - 图注意力网络
   - 对话上下文
   - Reddit
@@ -19,7 +19,7 @@ tags:
 **代码**: 已开源（论文中附链接）  
 **作者**: Célia Nouri, Jean-Philippe Cointet, Chloé Clavel
 **机构**: INRIA ALMAnaCH, Sciences Po médialab, Télécom Paris
-**领域**: 仇恨言论检测 / 图神经网络  
+**领域**: 其他  
 **关键词**: 滥用语言检测, 图注意力网络, 对话上下文, Reddit, 上下文感知分类
 
 ## 一句话总结
@@ -194,8 +194,8 @@ L 层 GAT 后，将目标节点的图嵌入 $\mathbf{x}_i^{(L)}$ 与原始文本
 
 - [\[ACL 2025\] Temporal Reasoning for Timeline Summarisation in Social Media](temporal_reasoning_for_timeline_summarisation_in_social_media.md)
 - [\[ACL 2025\] Narrative Media Framing in Political Discourse](narrative_media_framing_in_political_discourse.md)
-- [\[ACL 2025\] REP: Keys to Robust Edits — From Theoretical Insights to Practical Advances](rep_robust_knowledge_editing.md)
 - [\[ACL 2025\] GA-S3: Comprehensive Social Network Simulation with Group Agents](ga-s3_comprehensive_social_network_simulation_with_group_agents.md)
 - [\[ACL 2025\] SOTOPIA-Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents](sotopia-ensuremathomega_dynamic_strategy_injection_learning_and_social_instructi.md)
+- [\[ACL 2025\] Explicit and Implicit Data Augmentation for Social Event Detection](explicit_and_implicit_data_augmentation_for_social_event_detection.md)
 
 <!-- RELATED:END -->

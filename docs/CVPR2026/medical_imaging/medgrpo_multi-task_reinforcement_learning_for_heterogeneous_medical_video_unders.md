@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2512.06581](https://arxiv.org/abs/2512.06581)  
-**代码**: https://uii-america.github.io/MedGRPO/  
+**代码**: [https://uii-america.github.io/MedGRPO/](https://uii-america.github.io/MedGRPO/)  
 **领域**: 医学图像 / 视频理解  
 **关键词**: 医学视频理解、强化学习、跨数据集奖励归一化、VLM微调、多任务学习
 

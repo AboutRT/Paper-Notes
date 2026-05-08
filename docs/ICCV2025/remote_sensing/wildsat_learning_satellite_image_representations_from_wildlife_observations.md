@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.14428](https://arxiv.org/abs/2412.14428)  
-**代码**: https://github.com/cvl-umass/wildsat (有)  
+**代码**: [https://github.com/cvl-umass/wildsat](https://github.com/cvl-umass/wildsat)  
 **领域**: Remote Sensing / Representation Learning  
 **关键词**: 遥感表征学习, 对比学习, 野生动物观测, 跨模态, 卫星图像
 

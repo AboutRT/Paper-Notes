@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2509.14685](https://arxiv.org/abs/2509.14685)  
-**代码**: https://github.com/kzmngt/DACoN  
-**领域**: 视频理解 / 动画上色  
+**代码**: [https://github.com/kzmngt/DACoN](https://github.com/kzmngt/DACoN)  
+**领域**: 视频生成  
 **关键词**: 动画上色, DINOv2, 线稿着色, 多参考图像, 语义对应
 
 ## 一句话总结
@@ -149,10 +149,10 @@ $$\mathcal{L}_{dc} = \frac{1}{MN} \sum_{m,n} |\hat{S}_{m,n} - \hat{S}'_{m,n}|$$
 
 ## 相关论文
 
-- [\[ICCV 2025\] DIVE: Taming DINO for Subject-Driven Video Editing](dive_taming_dino_for_subject-driven_video_editing.md)
 - [\[ICCV 2025\] SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering](steerx_creating_any_camera-free_3d_and_4d_scenes_with_geometric_steering.md)
+- [\[ICCV 2025\] DIVE: Taming DINO for Subject-Driven Video Editing](dive_taming_dino_for_subject-driven_video_editing.md)
 - [\[CVPR 2026\] Rethinking Position Embedding as a Context Controller for Multi-Reference and Multi-Shot Video Generation](../../CVPR2026/video_generation/rethinking_position_embedding_as_a_context_controller_for_multi-reference_and_mu.md)
-- [\[ICCV 2025\] AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction](aid_adapting_image2video_diffusion_models_for_instruction-guided_video_predictio.md)
-- [\[ICCV 2025\] Dual-Expert Consistency Model for Efficient and High-Quality Video Generation](dual-expert_consistency_model_for_efficient_and_high-quality_video_generation.md)
+- [\[ICCV 2025\] SweetTok: Semantic-Aware Spatial-Temporal Tokenizer for Compact Video Discretization](sweettok_semantic-aware_spatial-temporal_tokenizer_for_compact_video_discretizat.md)
+- [\[ICCV 2025\] DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation](dh-facevid-1k_a_large-scale_high-quality_dataset_for_face_video_generation.md)
 
 <!-- RELATED:END -->

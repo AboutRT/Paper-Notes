@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - RAG knowledge boundary
   - honest alignment
-  - DPO
+  - 信息检索
   - abstention
   - RAFT
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.20871](https://arxiv.org/abs/2505.20871)  
-**代码**: https://github.com/Divide-Then-Align  
+**代码**: [https://github.com/Divide-Then-Align](https://github.com/Divide-Then-Align)  
 **领域**: LLM Agent / RAG / 对齐  
 **关键词**: RAG knowledge boundary, honest alignment, DPO, abstention, RAFT
 
@@ -124,7 +124,7 @@ DTA 提出将 RAG 查询按参数知识边界和检索知识边界划分为四�
 - [\[ACL 2025\] CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG](core_mmrag_knowledge_reconciliation.md)
 - [\[ACL 2025\] DRAG: Distilling RAG for SLMs from LLMs to Transfer Knowledge and Mitigate Hallucination](drag_distilling_rag_slm.md)
 - [\[ACL 2025\] KnowShiftQA: How Robust are RAG Systems when Textbook Knowledge Shifts in K-12 Education?](knowshiftqa_rag_knowledge_shifts.md)
+- [\[ACL 2025\] Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models](astute_rag_knowledge_conflicts.md)
 - [\[ACL 2025\] GainRAG: Preference Alignment in Retrieval-Augmented Generation through Gain Signal Synthesis](gainrag_preference_alignment.md)
-- [\[CVPR 2025\] GOAL: Global-Local Object Alignment Learning](../../CVPR2025/information_retrieval/goal_global-local_object_alignment_learning.md)
 
 <!-- RELATED:END -->

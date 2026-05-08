@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.10712](https://arxiv.org/abs/2511.10712)  
 **代码**: 无  
-**领域**: LLM安全 / 模型知识产权保护  
+**领域**: LLM/NLP  
 **关键词**: 模型合并窃取, MergeBarrier, 正交投影, 权重重参数化, 线性模态连通性
 
 ## 一句话总结
@@ -149,10 +149,10 @@ MergeBarrier保护的模型单独使用时准确率损失可忽略。
 
 ## 相关论文
 
+- [\[ICCV 2025\] FW-Merging: Scaling Model Merging with Frank-Wolfe Optimization](../../ICCV2025/llm_nlp/fw-merging_scaling_model_merging_with_frank-wolfe_optimization.md)
 - [\[ACL 2025\] Not Quite Sherlock Holmes: Language Model Predictions Do Not Reliably Differentiate Impossible from Improbable Events](../../ACL2025/llm_nlp/not_quite_sherlock_holmes_language_model_predictions_do_not_reliably_differentia.md)
 - [\[AAAI 2026\] An Invariant Latent Space Perspective on Language Model Inversion](an_invariant_latent_space_perspective_on_language_model_inve.md)
 - [\[AAAI 2026\] STEM: Efficient Relative Capability Evaluation of LLMs through Structured Transitive Evaluation Model](stem_efficient_relative_capability_evaluation_of_llms_through_structured_transit.md)
-- [\[AAAI 2026\] ICL-Router: In-Context Learned Model Representations for LLM Routing](icl-router_in-context_learned_model_representations_for_llm_routing.md)
 - [\[AAAI 2026\] TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model](transmamba_a_sequence-level_hybrid_transformer-mamba_language_model.md)
 
 <!-- RELATED:END -->

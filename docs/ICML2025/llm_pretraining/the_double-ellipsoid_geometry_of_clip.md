@@ -8,7 +8,7 @@ tags:
   - CLIP
   - modality gap
   - ellipsoid
-  - 对比学习
+  - LLM预训练
   - conformity
   - thin-shell
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2411.14517](https://arxiv.org/abs/2411.14517)  
 **代码**: 无  
-**领域**: 多模态VLM  
+**领域**: LLM预训练  
 **关键词**: CLIP, modality gap, ellipsoid, contrastive learning, conformity, thin-shell
 
 ## 一句话总结
@@ -135,7 +135,7 @@ tags:
 - [\[ICML 2025\] Whitened CLIP as a Likelihood Surrogate of Images and Captions](whitened_clip_as_a_likelihood_surrogate_of_images_and_captions.md)
 - [\[ICML 2025\] Algebra Unveils Deep Learning -- An Invitation to Neuroalgebraic Geometry](algebra_unveils_deep_learning_--_an_invitation_to_neuroalgebraic_geometry.md)
 - [\[NeurIPS 2025\] Predict Training Data Quality via Its Geometry in Metric Space](../../NeurIPS2025/llm_pretraining/predict_training_data_quality_via_its_geometry_in_metric_space.md)
-- [\[ICML 2025\] Language Model Developers Should Report Train-Test Overlap](language_model_developers_should_report_train-test_overlap.md)
-- [\[ICML 2025\] Towards Robust Influence Functions with Flat Validation Minima](towards_robust_influence_functions_with_flat_validation_minima.md)
+- [\[ICML 2025\] Benign Overfitting in Token Selection of Attention Mechanism](benign_overfitting_in_token_selection_of_attention_mechanism.md)
+- [\[ICML 2025\] Metadata Conditioning Accelerates Language Model Pre-training](metadata_conditioning_accelerates_language_model_pre-training.md)
 
 <!-- RELATED:END -->

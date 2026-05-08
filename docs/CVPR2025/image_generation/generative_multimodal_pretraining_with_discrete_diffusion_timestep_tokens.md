@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.14666](https://arxiv.org/abs/2504.14666)  
-**代码**: https://DDT-LLaMA.github.io/ (项目页)  
+**代码**: [https://DDT-LLaMA.github.io/](https://DDT-LLaMA.github.io/) (项目页)  
 **领域**: 多模态VLM / 图像生成  
 **关键词**: 多模态大语言模型, 扩散时间步token, 视觉tokenizer, 递归结构, 统一理解生成
 
@@ -124,6 +124,6 @@ Tokenizer 训练：重建损失 $\mathcal{L} = \mathbb{E}[\|d(t\epsilon + (1-t)x
 - [\[CVPR 2025\] DoraCycle: Domain-Oriented Adaptation of Unified Generative Model in Multimodal Cycles](doracycle_domain-oriented_adaptation_of_unified_generative_model_in_multimodal_c.md)
 - [\[ICCV 2025\] Timestep-Aware Diffusion Model for Extreme Image Rescaling](../../ICCV2025/image_generation/timestep-aware_diffusion_model_for_extreme_image_rescaling.md)
 - [\[CVPR 2025\] VLOGGER: Multimodal Diffusion for Embodied Avatar Synthesis](vlogger_multimodal_diffusion_for_embodied_avatar_synthesis.md)
-- [\[NeurIPS 2025\] Constrained Discrete Diffusion](../../NeurIPS2025/image_generation/constrained_discrete_diffusion.md)
+- [\[NeurIPS 2025\] Multimodal Generative Flows for LHC Jets](../../NeurIPS2025/image_generation/multimodal_generative_flows_for_lhc_jets.md)
 
 <!-- RELATED:END -->

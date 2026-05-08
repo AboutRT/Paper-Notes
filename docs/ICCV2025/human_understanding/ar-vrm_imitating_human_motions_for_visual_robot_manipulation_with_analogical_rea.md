@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.07626](https://arxiv.org/abs/2508.07626)  
-**代码**: https://github.com/idejie/ar  
+**代码**: [https://github.com/idejie/ar](https://github.com/idejie/ar)  
 **领域**: 人体理解 / 机器人操控  
 **关键词**: 视觉机器人操控, 类比推理, 人体关键点, 视觉语言预训练, 人机动作迁移
 
@@ -153,9 +153,9 @@ Few-shot (10% data)：AR-VRM 45.6% vs GR-1 40.0%（**+5.6%**）
 ## 相关论文
 
 - [\[CVPR 2025\] Two by Two: Learning Multi-Task Pairwise Objects Assembly for Generalizable Robot Manipulation](../../CVPR2025/human_understanding/two_by_two_learning_multi-task_pairwise_objects_assembly_for_generalizable_robot.md)
-- [\[ICCV 2025\] DWIM: Towards Tool-aware Visual Reasoning via Discrepancy-aware Workflow Generation & Instruct-Masking Tuning](dwim_towards_tool-aware_visual_reasoning_via_discrepancy-aware_workflow_generati.md)
 - [\[ICML 2025\] Scaling Large Motion Models with Million-Level Human Motions](../../ICML2025/human_understanding/scaling_large_motion_models_with_million-level_human_motions.md)
 - [\[CVPR 2025\] StickMotion: Generating 3D Human Motions by Drawing a Stickman](../../CVPR2025/human_understanding/stickmotion_generating_3d_human_motions_by_drawing_a_stickman.md)
-- [\[AAAI 2026\] Theory of Mind for Explainable Human-Robot Interaction](../../AAAI2026/human_understanding/theory_of_mind_for_explainable_human-robot_interaction.md)
+- [\[ICCV 2025\] What's Making That Sound Right Now? Video-centric Audio-Visual Localization](whats_making_that_sound_right_now_video-centric_audio-visual_localization.md)
+- [\[CVPR 2025\] Shape My Moves: Text-Driven Shape-Aware Synthesis of Human Motions](../../CVPR2025/human_understanding/shape_my_moves_text-driven_shape-aware_synthesis_of_human_motions.md)
 
 <!-- RELATED:END -->

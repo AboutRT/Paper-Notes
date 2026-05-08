@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.09622](https://arxiv.org/abs/2412.09622)  
-**代码**: https://loraclr.github.io  
+**代码**: [https://loraclr.github.io](https://loraclr.github.io)  
 **领域**: 扩散模型 / 个性化图像生成  
 **关键词**: LoRA合并, 对比学习, 多概念生成, 模型融合, 扩散模型定制
 

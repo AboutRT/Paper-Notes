@@ -11,14 +11,14 @@ tags:
   - 指令微调
   - 灾难性遗忘
   - hierarchical decoupling
-  - LoRA fusion
+  - 多模态VLM
 ---
 
 # HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model
 
 **会议**: ACL 2025  
 **arXiv**: [2503.12941](https://arxiv.org/abs/2503.12941)  
-**代码**: https://github.com/Ghy0501/HiDe-LLaVA  
+**代码**: [https://github.com/Ghy0501/HiDe-LLaVA](https://github.com/Ghy0501/HiDe-LLaVA)  
 **领域**: LLM / NLP / 多模态  
 **关键词**: 持续学习, MLLM, 指令微调, 灾难性遗忘, hierarchical decoupling, LoRA fusion
 
@@ -164,7 +164,7 @@ tags:
 - [\[ACL 2025\] Enhancing Multimodal Continual Instruction Tuning with BranchLoRA](branchlora_continual_instruction.md)
 - [\[ICCV 2025\] SMoLoRA: Exploring and Defying Dual Catastrophic Forgetting in Continual Visual Instruction Tuning](../../ICCV2025/multimodal_vlm/smolora_exploring_and_defying_dual_catastrophic_forgetting_in_continual_visual_i.md)
 - [\[ICML 2025\] Dynamic Mixture of Curriculum LoRA Experts for Continual Multimodal Instruction Tuning](../../ICML2025/multimodal_vlm/dynamic_mixture_of_curriculum_lora_experts_for_continual_multimodal_instruction_.md)
+- [\[ACL 2025\] MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation](meit_multimodal_electrocardiogram_instruction_tuning_on_large_language_models_fo.md)
 - [\[ACL 2025\] AVG-LLaVA: An Efficient Large Multimodal Model with Adaptive Visual Granularity](avg-llava_an_efficient_large_multimodal_model_with_adaptive_visual_granularity.md)
-- [\[ACL 2025\] Error-driven Data-efficient Large Multimodal Model Tuning](error-driven_data-efficient_large_multimodal_model_tuning.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2406.04314](https://arxiv.org/abs/2406.04314)  
-**代码**: https://github.com/RockeyCoss/SPO  
+**代码**: [https://github.com/RockeyCoss/SPO](https://github.com/RockeyCoss/SPO)  
 **领域**: 扩散模型  
 **关键词**: 偏好优化, 扩散模型, 图像美学, DPO, 后训练
 

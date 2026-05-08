@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2026  
 **arXiv**: [2604.15591](https://arxiv.org/abs/2604.15591)  
-**代码**: https://github.com/MengfeiLan/BioHiCL  
-**领域**: 信息检索 / 生物医学NLP  
+**代码**: [https://github.com/MengfeiLan/BioHiCL](https://github.com/MengfeiLan/BioHiCL)  
+**领域**: 医学图像  
 **关键词**: 生物医学检索、MeSH层级、对比学习、多标签、参数高效微调
 
 ## 一句话总结

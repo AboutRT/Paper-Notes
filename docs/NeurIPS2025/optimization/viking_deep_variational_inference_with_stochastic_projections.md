@@ -42,13 +42,13 @@ VIKING（Variational Inference with Kernel- and Image-spaces of numerical Gauss-
 ### 关键设计
 
 1. **变分族设计**: 近似后验 $q(\boldsymbol{\theta}) = \mathcal{N}(\boldsymbol{\theta} | \hat{\boldsymbol{\theta}}, \boldsymbol{\Sigma}_{\hat{\boldsymbol{\theta}}})$，其中协方差矩阵为：
-   $$\boldsymbol{\Sigma}_{\hat{\boldsymbol{\theta}}} = \sigma_{\ker}^2 \mathbf{U}_{\hat{\boldsymbol{\theta}}} \mathbf{U}_{\hat{\boldsymbol{\theta}}}^\top + \sigma_{\mathrm{im}}^2 (\mathbb{I} - \mathbf{U}_{\hat{\boldsymbol{\theta}}} \mathbf{U}_{\hat{\boldsymbol{\theta}}}^\top)$$
+    $\boldsymbol{\Sigma}_{\hat{\boldsymbol{\theta}}} = \sigma_{\ker}^2 \mathbf{U}_{\hat{\boldsymbol{\theta}}} \mathbf{U}_{\hat{\boldsymbol{\theta}}}^\top + \sigma_{\mathrm{im}}^2 (\mathbb{I} - \mathbf{U}_{\hat{\boldsymbol{\theta}}} \mathbf{U}_{\hat{\boldsymbol{\theta}}}^\top)$
    这里 $\mathbf{U}_{\hat{\boldsymbol{\theta}}}$ 是核空间的正交基。$\sigma_{\ker}^2$ 控制训练数据支撑外的不确定性，$\sigma_{\mathrm{im}}^2$ 控制训练数据上的不确定性。虽然仅有两个标量参数，但由于包含投影矩阵 $\mathbf{U}\mathbf{U}^\top$，实际上捕获了所有参数之间的全相关结构。
 
 2. **ELBO 优化**: ELBO 包含重构项和 KL 项。KL 项可以闭式计算（因为先验和变分分布均为高斯分布），关键量只需核空间维度 $R$，可通过 Hutchinson 迹估计器估算。重构项通过从 $q(\boldsymbol{\theta})$ 采样并计算对数似然的蒙特卡洛估计。采样的核心难点在于向核空间的投影。
 
 3. **随机交替投影算法**: 这是 VIKING 的核心计算创新。向 Fisher-Rao 核空间投影等价于求解约束最小二乘问题 $\boldsymbol{\epsilon}_{\ker} = \arg\min_{\mathbf{u}} \|\mathbf{u} - \boldsymbol{\epsilon}\|^2 \ \text{s.t.} \ \mathbf{J} \mathbf{u} = \mathbf{0}$，需要求解 $N \times N$ 线性系统，对整个数据集操作。原始的交替投影算法需要多次遍历整个数据集来投影一个向量，不适合小批量优化。作者提出随机扩展：
-   $$\boldsymbol{\epsilon}^{(t)} = \mathbf{U}^{(t)} \mathbf{U}^{(t)\top} (\sqrt{\gamma} \boldsymbol{\epsilon}^{(t-1)} + \sqrt{1-\gamma} \boldsymbol{\eta}^{(t)})$$
+    $\boldsymbol{\epsilon}^{(t)} = \mathbf{U}^{(t)} \mathbf{U}^{(t)\top} (\sqrt{\gamma} \boldsymbol{\epsilon}^{(t-1)} + \sqrt{1-\gamma} \boldsymbol{\eta}^{(t)})$
    超参数 $\gamma \in [0,1]$ 控制历史信息保持程度。$\gamma=1$ 为无噪声的朴素方法，$\gamma=0$ 为仅依赖当前批次。中间值实现了滑动窗口效果，实验表明 $\gamma=0.5$ 附近效果最好。
 
 ### 训练策略
@@ -123,8 +123,8 @@ VIKING（Variational Inference with Kernel- and Image-spaces of numerical Gauss-
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Least Squares Variational Inference](least_squares_variational_inference.md)
 - [\[NeurIPS 2025\] Brain-like Variational Inference](brain-like_variational_inference.md)
+- [\[NeurIPS 2025\] Least Squares Variational Inference](least_squares_variational_inference.md)
 - [\[NeurIPS 2025\] NeuSymEA: Neuro-symbolic Entity Alignment via Variational Inference](neuro-symbolic_entity_alignment_via_variational_inference.md)
 - [\[NeurIPS 2025\] VERA: Variational Inference Framework for Jailbreaking Large Language Models](vera_variational_inference_framework_for_jailbreaking_large_language_models.md)
 - [\[NeurIPS 2025\] Natural Gradient Descent for Improving Variational Inference Based Classification of Radio Galaxies](natural_gradient_descent_for_improving_variational_inference_based_classificatio.md)

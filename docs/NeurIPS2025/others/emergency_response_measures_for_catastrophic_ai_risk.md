@@ -9,7 +9,7 @@ tags:
   - 应急响应
   - 前沿安全政策
   - AI治理
-  - 危险能力评估
+  - 其他
 ---
 
 # Emergency Response Measures for Catastrophic AI Risk
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.05526](https://arxiv.org/abs/2511.05526)  
 **代码**: 无  
-**领域**: AI安全与治理  
+**领域**: 其他  
 **关键词**: 灾难性AI风险, 应急响应, 前沿安全政策, AI治理, 危险能力评估
 
 ## 一句话总结
@@ -128,10 +128,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications](military_ai_needs_technically-informed_regulation_to_safeguard_ai_research_and_i.md)
-- [\[ACL 2025\] Theoretical Guarantees for Minimum Bayes Risk Decoding](../../ACL2025/others/theoretical_guarantees_for_minimum_bayes_risk_decoding.md)
-- [\[ICML 2025\] Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures](../../ICML2025/others/randomized_dimensionality_reduction_for_euclidean_maximization_and_diversity_mea.md)
-- [\[ACL 2025\] ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search](../../ACL2025/others/arise_risk_adaptive_search.md)
+- [\[NeurIPS 2025\] Evolutionary Learning in Spatial Agent-Based Models for Physical Climate Risk Assessment](evolutionary_learning_in_spatial_agent-based_models_for_physical_climate_risk_as.md)
 - [\[ICML 2025\] Maximum Coverage in Turnstile Streams with Applications to Fingerprinting Measures](../../ICML2025/others/maximum_coverage_in_turnstile_streams_with_applications_to_fingerprinting_measur.md)
+- [\[ACL 2025\] ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search](../../ACL2025/others/arise_risk_adaptive_search.md)
+- [\[NeurIPS 2025\] Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications](military_ai_needs_technically-informed_regulation_to_safeguard_ai_research_and_i.md)
+- [\[NeurIPS 2025\] Evaluating In Silico Creativity: An Expert Review of AI Chess Compositions](evaluating_in_silico_creativity_an_expert_review_of_ai_chess_compositions.md)
 
 <!-- RELATED:END -->

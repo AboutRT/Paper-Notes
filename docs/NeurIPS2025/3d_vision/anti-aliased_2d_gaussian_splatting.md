@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2506.11252](https://arxiv.org/abs/2506.11252)  
 **作者**: Mae Younes, Adnane Boukhayma (INRIA France, University of Rennes, CNRS, IRISA)  
 **代码**: [AA-2DGS](https://github.com/maeyounes/AA-2DGS)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 2D Gaussian Splatting, 抗锯齿, 新视角合成, 表面重建, Mip 滤波  
 
 ## 一句话总结
@@ -171,10 +171,10 @@ Mip 滤波的前向和反向传播均通过自定义 CUDA 核实现，相比原�
 
 ## 相关论文
 
-- [\[ICCV 2025\] AAA-Gaussians: Anti-Aliased and Artifact-Free 3D Gaussian Rendering](../../ICCV2025/3d_vision/aaagaussians_antialiased_and_artifactfree_3d_gaussian_render.md)
+- [\[ICCV 2025\] AAA-Gaussians: Anti-Aliased and Artifact-Free 3D Gaussian Rendering](../../ICCV2025/3d_vision/aaa-gaussians_anti-aliased_and_artifact-free_3d_gaussian_rendering.md)
 - [\[ECCV 2024\] Analytic-Splatting: Anti-Aliased 3D Gaussian Splatting via Analytic Integration](../../ECCV2024/3d_vision/analytic-splatting_anti-aliased_3d_gaussian_splatting_via_analytic_integration.md)
 - [\[NeurIPS 2025\] IBGS: Image-Based Gaussian Splatting](ibgs_image-based_gaussian_splatting.md)
 - [\[NeurIPS 2025\] Dynamic Gaussian Splatting from Defocused and Motion-blurred Monocular Videos](dynamic_gaussian_splatting_from_defocused_and_motion-blurred_monocular_videos.md)
-- [\[NeurIPS 2025\] EF-3DGS: Event-Aided Free-Trajectory 3D Gaussian Splatting](ef-3dgs_event-aided_free-trajectory_3d_gaussian_splatting.md)
+- [\[NeurIPS 2025\] VA-GS: Enhancing the Geometric Representation of Gaussian Splatting via View Alignment](va-gs_enhancing_the_geometric_representation_of_gaussian_splatting_via_view_alig.md)
 
 <!-- RELATED:END -->

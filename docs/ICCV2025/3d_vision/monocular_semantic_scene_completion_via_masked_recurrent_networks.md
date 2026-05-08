@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.17661](https://arxiv.org/abs/2507.17661)  
 **代码**: [alanWXZ/MonoMRN](https://github.com/alanWXZ/MonoMRN)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 语义场景补全, 单目视觉, 循环神经网络, 稀疏计算, 3D场景理解
 
 ## 一句话总结

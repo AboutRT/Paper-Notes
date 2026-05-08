@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.04943](https://arxiv.org/abs/2403.04943)  
-**代码**: https://github.com/adrian-dalessandro/AFreeCA (有)  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/adrian-dalessandro/AFreeCA](https://github.com/adrian-dalessandro/AFreeCA)  
+**领域**: 目标检测  
 **关键词**: 无监督计数, 合成数据, 潜在扩散模型, 排序学习, 密度分类
 
 ## 一句话总结
@@ -151,9 +151,9 @@ tags:
 ## 相关论文
 
 - [\[ECCV 2024\] Can OOD Object Detectors Learn from Foundation Models?](can_ood_object_detectors_learn_from_foundation_models.md)
-- [\[ECCV 2024\] Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence](learn_from_the_learnt_source-free_active_domain_adaptation_via_contrastive_sampl.md)
 - [\[ECCV 2024\] Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction](adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md)
-- [\[ECCV 2024\] Rectify the Regression Bias in Long-Tailed Object Detection](rectify_the_regression_bias_in_long-tailed_object_detection.md)
-- [\[ECCV 2024\] Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching](towards_natural_languageguided_drones_geotext1652_bench.md)
+- [\[ECCV 2024\] Plain-Det: A Plain Multi-Dataset Object Detector](plain-det_a_plain_multi-dataset_object_detector.md)
+- [\[ECCV 2024\] LaMI-DETR: Open-Vocabulary Detection with Language Model Instruction](lami-detr_open-vocabulary_detection_with_language_model_instruction.md)
+- [\[ECCV 2024\] Zero-Shot Detection of AI-Generated Images](zero-shot_detection_of_ai-generated_images.md)
 
 <!-- RELATED:END -->

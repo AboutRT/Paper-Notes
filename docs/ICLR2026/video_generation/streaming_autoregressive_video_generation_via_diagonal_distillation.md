@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.09488](https://arxiv.org/abs/2603.09488)  
 **代码**: [项目页面](https://SphereLab.ai/diagdistill)  
-**领域**: image_generation  
+**领域**: 视频生成  
 **关键词**: 视频生成, 自回归生成, 蒸馏, 流式生成, 实时视频
 
 ## 一句话总结
@@ -132,8 +132,8 @@ VBench评测对比（5秒视频生成，单H100 GPU）：
 
 - [\[ICLR 2026\] Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective](lumos-1_on_autoregressive_video_generation_with_discrete_diffusion_from_a_unifie.md)
 - [\[CVPR 2025\] Teller: Real-Time Streaming Audio-Driven Portrait Animation with Autoregressive Motion Generation](../../CVPR2025/video_generation/teller_real-time_streaming_audio-driven_portrait_animation_with_autoregressive_m.md)
-- [\[CVPR 2025\] From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](../../CVPR2025/video_generation/from_slow_bidirectional_to_fast_autoregressive_video_diffusion_models.md)
 - [\[CVPR 2026\] StreamDiT: Real-Time Streaming Text-to-Video Generation](../../CVPR2026/video_generation/streamdit_real-time_streaming_text-to-video_generation.md)
 - [\[CVPR 2025\] Parallelized Autoregressive Visual Generation](../../CVPR2025/video_generation/parallelized_autoregressive_visual_generation.md)
+- [\[CVPR 2025\] From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](../../CVPR2025/video_generation/from_slow_bidirectional_to_fast_autoregressive_video_diffusion_models.md)
 
 <!-- RELATED:END -->

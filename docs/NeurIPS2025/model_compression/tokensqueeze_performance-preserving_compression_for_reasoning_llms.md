@@ -135,6 +135,6 @@ $$\mathcal{L}_{\text{Total}} = \eta \mathcal{L}_{\text{DPO-L}} + (1-\eta) \mathc
 - [\[NeurIPS 2025\] A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings](a-thought_efficient_reasoning_via_bidirectional_compression_for_low-resource_set.md)
 - [\[ACL 2025\] Compression in Transformer Language Models Has a Surprising Relationship with Performance](../../ACL2025/model_compression/compression_in_transformer_language_models_has_a_surprising_relationship_with_pe.md)
 - [\[CVPR 2025\] MambaIC: State Space Models for High-Performance Learned Image Compression](../../CVPR2025/model_compression/mambaic_state_space_models_for_high-performance_learned_image_compression.md)
-- [\[ICML 2025\] MARGE: Improving Math Reasoning for LLMs with Guided Exploration](../../ICML2025/model_compression/marge_improving_math_reasoning_for_llms_with_guided_exploration.md)
+- [\[NeurIPS 2025\] Matryoshka Pilot: Learning to Drive Black-Box LLMs with LLMs](matryoshka_pilot_learning_to_drive_black-box_llms_with_llms.md)
 
 <!-- RELATED:END -->

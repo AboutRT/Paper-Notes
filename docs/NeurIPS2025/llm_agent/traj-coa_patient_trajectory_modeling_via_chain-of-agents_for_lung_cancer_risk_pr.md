@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.10454](https://arxiv.org/abs/2510.10454)  
 **代码**: 无  
-**领域**: llm_agent  
+**领域**: LLM Agent  
 **关键词**: multi-agent system, EHR, patient trajectory, temporal reasoning, lung cancer prediction
 
 ## 一句话总结

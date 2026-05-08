@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Typed-RAG: Type-Aware Decomposition of Non-Factoid Questions for Retrieval-Augmented Generation
 description: >-
-  [ACL 2025][Non-Factoid QA] 提出 Typed-RAG 框架，通过对非事实性问题（NFQ）进行类型感知的分解，将复杂的多方面问题拆解为单方面子查询，针对不同问题类型（辩论、经验、比较等）设计差异化的检索与生成策略，显著提升了 RAG 在 NFQA 中的表现。
+  [ACL 2025][信息检索] 提出 Typed-RAG 框架，通过对非事实性问题（NFQ）进行类型感知的分解，将复杂的多方面问题拆解为单方面子查询，针对不同问题类型（辩论、经验、比较等）设计差异化的检索与生成策略，显著提升了 RAG 在 NFQA 中的表现。
 tags:
   - ACL 2025
-  - Non-Factoid QA
+  - 信息检索
   - RAG
   - 问题类型感知
   - 多方面分解
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.15879](https://arxiv.org/abs/2503.15879)  
-**代码**: 有 (https://github.com/TeamNLP/Typed-RAG)  
+**代码**: 有 ([https://github.com/TeamNLP/Typed-RAG](https://github.com/TeamNLP/Typed-RAG))  
 **领域**: NLP / 问答系统 / 检索增强生成  
 **关键词**: Non-Factoid QA, RAG, 问题类型感知, 多方面分解, Wiki-NFQA
 
@@ -148,7 +148,7 @@ Typed-RAG 的处理流程：
 - [\[ACL 2025\] EXIT: Context-Aware Extractive Compression for Enhancing Retrieval-Augmented Generation](exit_context-aware_extractive_compression_for_enhancing_retrieval-augmented_gene.md)
 - [\[ACL 2025\] SeaKR: Self-aware Knowledge Retrieval for Adaptive Retrieval Augmented Generation](seakr_self-aware_knowledge_retrieval_for_adaptive_retrieval_augmented_generation.md)
 - [\[ACL 2025\] Evaluation of Attribution Bias in Generator-Aware Retrieval-Augmented Large Language Models](evaluation_of_attribution_bias_in_generator-aware_retrieval-augmented_large_lang.md)
-- [\[ACL 2025\] MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation](main-rag_multi-agent_filtering_retrieval-augmented_generation.md)
+- [\[ACL 2025\] Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation](towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md)
 - [\[ACL 2025\] Investigating the Robustness of Retrieval-Augmented Generation at the Query Level](investigating_the_robustness_of_retrieval-augmented_generation_at_the_query_leve.md)
 
 <!-- RELATED:END -->

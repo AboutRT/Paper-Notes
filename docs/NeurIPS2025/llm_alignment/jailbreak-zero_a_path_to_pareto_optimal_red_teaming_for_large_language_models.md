@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2601.03265](https://arxiv.org/abs/2601.03265)  
 **代码**: 未公开  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: 红队测试, LLM 安全, 越狱攻击, Pareto optimization, policy-based evaluation, automated red teaming
 
 ## 一句话总结

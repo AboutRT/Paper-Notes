@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 因果推理方向6篇论文解读
+  CVPR2025 因果推理方向5篇论文解读
 description: >-
-  6篇CVPR2025的因果推理方向论文解读，收录 Adventurer、Antidote、Image Quality Assessment等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  5篇CVPR2025的因果推理方向论文解读，收录 Adventurer、Antidote、Image Quality Assessment等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔗 因果推理
 
-**📷 CVPR2025** · **6** 篇论文解读
+**📷 CVPR2025** · **5** 篇论文解读
 
 **[Adventurer: Optimizing Vision Mamba Architecture Designs for Efficiency](adventurer_optimizing_vision_mamba_architecture_designs_for_efficiency.md)**
 
@@ -25,10 +25,6 @@ description: >-
 **[Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning](joint_scheduling_of_causal_prompts_and_tasks_for_multi-task_learning.md)**
 
 :   提出 JSCPT（Joint Scheduling of Causal Prompts and Tasks）框架，首先设计多任务视觉语言提示（MTVLP）并通过因果干预消除提示中的虚假相关特征，然后通过自适应任务调度器根据训练过程中任务关系的动态变化调整学习顺序和权重，在多个多任务视觉识别基准上取得显著提升。
-
-**[Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding](seeing_far_and_clearly_mitigating_hallucinations_in_mllms_with_attention_causal_.md)**
-
-:   提出 FarSight，一种即插即用的无训练解码策略，通过在因果掩码的上三角矩阵中引入注意力寄存器来吸收异常 token 的过度注意力，并设计递减掩蔽率的位置感知编码增强远距离视觉 token 的信息传播，有效缓解多模态大模型中的初始幻觉和雪球幻觉。
 
 **[FG-VCE: Towards Fine-Grained Interpretability — Counterfactual Explanations for Misclassification with Saliency Partition](towards_fine-grained_interpretability_counterfactual_explanations_for_misclassif.md)**
 

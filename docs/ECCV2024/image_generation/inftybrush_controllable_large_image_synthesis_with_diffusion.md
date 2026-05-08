@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.14709](https://arxiv.org/abs/2407.14709)  
-**代码**: [https://github.com/cvlab-stonybrook/infinity-brush](https://github.com/cvlab-stonybrook/infinity-brush) (有)  
+**代码**: [https://github.com/cvlab-stonybrook/infinity-brush](https://github.com/cvlab-stonybrook/infinity-brush)  
 **领域**: 图像生成 / 扩散模型 / 函数空间生成  
 **关键词**: [无限维扩散模型, 函数空间, 大图像生成, 交叉注意力神经算子, 可控生成]  
 
@@ -150,8 +150,8 @@ $$\theta^* = \arg\min_\theta \mathbb{E}_{\mathbf{u}_0 \sim \mathbb{Q}_{\text{dat
 
 - [\[ECCV 2024\] Editable Image Elements for Controllable Synthesis](editable_image_elements_for_controllable_synthesis.md)
 - [\[ECCV 2024\] DreamMover: Leveraging the Prior of Diffusion Models for Image Interpolation with Large Motion](dreammover_leveraging_the_prior_of_diffusion_models_for_image_interpolation_with.md)
-- [\[ECCV 2024\] Learning Semantic Latent Directions for Accurate and Controllable Human Motion Prediction](learning_semantic_latent_directions_for_accurate_and_controllable_human_motion_p.md)
 - [\[ECCV 2024\] MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model](motionlcm_real-time_controllable_motion_generation_via_latent_consistency_model.md)
+- [\[ECCV 2024\] Learning Semantic Latent Directions for Accurate and Controllable Human Motion Prediction](learning_semantic_latent_directions_for_accurate_and_controllable_human_motion_p.md)
 - [\[ECCV 2024\] Rejection Sampling IMLE: Designing Priors for Better Few-Shot Image Synthesis](rejection_sampling_imle_designing_priors_for_better_few-shot_image_synthesis.md)
 
 <!-- RELATED:END -->

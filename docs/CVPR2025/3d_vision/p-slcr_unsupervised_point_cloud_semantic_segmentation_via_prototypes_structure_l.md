@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2603.06321](https://arxiv.org/abs/2603.06321)  
-**代码**: https://github.com/lixinzhan98/P-SLCR  
+**代码**: [https://github.com/lixinzhan98/P-SLCR](https://github.com/lixinzhan98/P-SLCR)  
 **领域**: 3D视觉  
 **关键词**: 无监督语义分割, 点云, 原型学习, 一致性推理, 结构学习
 
@@ -128,8 +128,8 @@ tags:
 
 - [\[CVPR 2025\] ProtoDepth: Unsupervised Continual Depth Completion with Prototypes](protodepth_unsupervised_continual_depth_completion_with_prototypes.md)
 - [\[CVPR 2025\] ColabSfM: Collaborative Structure-from-Motion by Point Cloud Registration](colabsfm_collaborative_structure-from-motion_by_point_cloud_registration.md)
-- [\[NeurIPS 2025\] Novel Class Discovery for Point Cloud Segmentation via Joint Learning of Causal Representation and Reasoning](../../NeurIPS2025/3d_vision/novel_class_discovery_for_point_cloud_segmentation_via_joint_learning_of_causal_.md)
 - [\[CVPR 2025\] Relation3D: Enhancing Relation Modeling for Point Cloud Instance Segmentation](relation3d_enhancing_relation_modeling_for_point_cloud_instance_segmentation.md)
+- [\[CVPR 2025\] JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas](jopp-3d_joint_open_vocabulary_semantic_segmentation_on_point_clouds_and_panorama.md)
 - [\[CVPR 2025\] Dense-SfM: Structure from Motion with Dense Consistent Matching](dense-sfm_structure_from_motion_with_dense_consistent_matching.md)
 
 <!-- RELATED:END -->

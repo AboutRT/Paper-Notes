@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.06461](https://arxiv.org/abs/2511.06461)  
 **作者**: Shay Moran (Technion & Google Research), Elizaveta Nesterova (Technion)  
 **代码**: 未公开  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: 重建攻击, 隐私保护, 近似距离查询, 度量空间, Chebyshev半径, 伪有限空间  
 
 ## 一句话总结

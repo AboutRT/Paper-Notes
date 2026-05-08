@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025 (Workshop: UrbanAI 2025)  
 **arXiv**: [2511.00345](https://arxiv.org/abs/2511.00345)  
-**代码**: 有 (https://github.com/amir-zsh/OSMGen)  
+**代码**: 有 ([https://github.com/amir-zsh/OSMGen](https://github.com/amir-zsh/OSMGen))  
 **领域**: 图像生成 / 遥感  
 **关键词**: 卫星图像合成, OpenStreetMap, ControlNet, DDIM反演, 变化检测
 

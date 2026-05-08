@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 异步预训练
-  - 语言模型
+  - LLM预训练
   - 分布式训练
   - 梯度延迟
   - 自适应学习率
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: 无公开预印本  
 **代码**: 无  
-**领域**: LLM效率 / 分布式训练  
+**领域**: LLM预训练  
 **关键词**: 异步预训练, 语言模型, 分布式训练, 梯度延迟, 自适应学习率
 
 ## 一句话总结
@@ -123,8 +123,8 @@ AsyncLM采用异步数据并行+流水线并行的混合架构。各计算节点
 
 - [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
 - [\[ACL 2025\] Pre-Training Curriculum for Multi-Token Prediction in Language Models](pre-training_curriculum_for_multi-token_prediction_in_language_models.md)
-- [\[ACL 2025\] Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models](metarater_a_multidimensional_data_selection_method.md)
 - [\[ACL 2025\] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models](leancode_understanding_models_better_for_code_simplification_of_pre-trained_larg.md)
-- [\[ACL 2025\] Stealing Training Data from Large Language Models in Decentralized Training through Activation Inversion Attack](stealing_training_data_from_large_language_models_in_decentralized_training_thro.md)
+- [\[ACL 2025\] Stealing Training Data from Large Language Models in Decentralized Training through Activation Inversion Attack](activation-inversion-attack-stealing-training-data-in-decentralized-training.md)
+- [\[ICML 2025\] Scaling Inference-Efficient Language Models](../../ICML2025/llm_pretraining/scaling_inference-efficient_language_models.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AgentTrace: Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems
 description: >-
-  [ICLR 2026][多智能体调试] 提出AgentTrace框架，从多智能体系统的执行日志中构建因果图，通过反向追踪+轻量级特征排序（五组特征的加权线性组合）定位根因节点，在550个合成故障场景上Hit@1达94.9%，延迟0.12秒，比LLM分析快69倍。
+  [ICLR 2026][因果推理] 提出AgentTrace框架，从多智能体系统的执行日志中构建因果图，通过反向追踪+轻量级特征排序（五组特征的加权线性组合）定位根因节点，在550个合成故障场景上Hit@1达94.9%，延迟0.12秒，比LLM分析快69倍。
 tags:
   - ICLR 2026
-  - 多智能体调试
+  - 因果推理
   - 因果图追踪
   - 根因分析
   - 执行日志分析
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2603.14688](https://arxiv.org/abs/2603.14688)  
 **代码**: [https://github.com/zwang000/AgentTrace](https://github.com/zwang000/AgentTrace)  
-**领域**: LLM Agent / 系统可靠性  
+**领域**: 因果推理  
 **关键词**: 多智能体调试, 因果图追踪, 根因分析, 执行日志分析, 位置特征  
 
 ## 一句话总结

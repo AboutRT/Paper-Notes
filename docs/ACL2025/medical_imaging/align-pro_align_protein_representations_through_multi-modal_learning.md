@@ -16,7 +16,7 @@ tags:
 # Align-Pro: Align Protein Representations Through Multi-Modal Learning
 
 **会议**: ACL 2025  
-**领域**: 其他（生物信息学/多模态学习）  
+**领域**: 医学图像  
 **关键词**: 蛋白质表示学习、多模态对齐、序列-结构-功能、对比学习、预训练
 
 ## 一句话总结
@@ -122,6 +122,6 @@ Align-Pro包含三个编码器：序列编码器（基于ESM-2预训练模型）
 - [\[ACL 2025\] Concept Bottleneck Language Models For Protein Design](concept_bottleneck_language_models_for_protein_design.md)
 - [\[AAAI 2026\] Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust Molecular Modeling](../../AAAI2026/medical_imaging/learning_cell-aware_hierarchical_multi-modal_representations.md)
 - [\[ACL 2025\] Enhancing Medical Dialogue Generation through Knowledge Refinement and Dynamic Prompt Adjustment](enhancing_medical_dialogue_generation_through_knowledge_refinement_and_dynamic_p.md)
-- [\[ICCV 2025\] SimMLM: A Simple Framework for Multi-modal Learning with Missing Modality](../../ICCV2025/medical_imaging/simmlm_a_simple_framework_for_multi-modal_learning_with_missing_modality.md)
+- [\[ACL 2025\] Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening through Psychometric Practice](are_llms_effective_psychological_assessors_leveraging_adaptive_rag_for_interpret.md)
 
 <!-- RELATED:END -->

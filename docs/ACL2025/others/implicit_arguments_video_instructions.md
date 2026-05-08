@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 语义角色标注
   - 隐含论元预测
-  - 过程性视频理解
+  - 其他
   - 多模态LLM
   - 烹饪食谱
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.21068](https://arxiv.org/abs/2505.21068)  
 **代码**: [GitHub](https://github.com/anilbatra2185/implicit-vid-srl)  
-**领域**: LLM/NLP  
+**领域**: 其他  
 **关键词**: 语义角色标注, 隐含论元预测, 过程性视频理解, 多模态LLM, 烹饪食谱  
 
 ## 一句话总结
@@ -132,8 +132,8 @@ tags:
 
 - [\[ACL 2025\] Limited Generalizability in Argument Mining: State-Of-The-Art Models Learn Datasets, Not Arguments](limited_generalizability_in_argument_mining_state-of-the-art_models_learn_datase.md)
 - [\[ACL 2025\] Predicting Through Generation: Why Generation Is Better for Prediction](predicting_through_generation_why_generation_is_better_for_prediction.md)
-- [\[ACL 2025\] Self-Foveate: Enhancing Diversity and Difficulty of Synthesized Instructions from Unsupervised Text via Multi-Level Foveation](self-foveate_enhancing_diversity_and_difficulty_of_synthesized_instructions_from.md)
 - [\[ACL 2025\] Implicit Reasoning in Transformers is Reasoning through Shortcuts](implicit_reasoning_in_transformers_is_reasoning_through_shortcuts.md)
 - [\[ACL 2025\] From Real to Synthetic: Synthesizing Millions of Diversified and Complicated User Instructions with Attributed Grounding](from_real_to_synthetic_synthesizing_millions_of_diversified_and_complicated_user.md)
+- [\[ACL 2025\] Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race](aligned_but_blind_implicit_bias.md)
 
 <!-- RELATED:END -->

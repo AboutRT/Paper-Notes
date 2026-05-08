@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.02101](https://arxiv.org/abs/2503.02101)  
-**代码**: https://github.com/heboyong/Generalized-Diffusion-Detector (有)  
+**代码**: [https://github.com/heboyong/Generalized-Diffusion-Detector](https://github.com/heboyong/Generalized-Diffusion-Detector)  
 **领域**: 目标检测  
 **关键词**: 域泛化, 扩散模型, 知识蒸馏, 域不变特征, 目标检测
 
@@ -118,10 +118,10 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] VerbDiff: Text-Only Diffusion Models with Enhanced Interaction Awareness](verbdiff_text-only_diffusion_models_with_enhanced_interaction_awareness.md)
-- [\[CVPR 2025\] Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in Diffusion Models](enhancing_privacy-utility_trade-offs_to_mitigate_memorization_in_diffusion_model.md)
-- [\[AAAI 2026\] Beyond Semantic Features: Pixel-Level Mapping for Generalized AI-Generated Image Detection](../../AAAI2026/object_detection/beyond_semantic_features_pixel-level_mapping_for_generalized_ai-generated_image_.md)
-- [\[ICCV 2025\] DiffDoctor: Diagnosing Image Diffusion Models Before Treating](../../ICCV2025/object_detection/diffdoctor_diagnosing_image_diffusion_models_before_treating.md)
+- [\[ICCV 2025\] Diffusion Curriculum: Synthetic-to-Real Data Curriculum via Image-Guided Diffusion](../../ICCV2025/object_detection/diffusion_curriculum_synthetic-to-real_data_curriculum_via_image-guided_diffusio.md)
 - [\[CVPR 2025\] Large Self-Supervised Models Bridge the Gap in Domain Adaptive Object Detection](large_self-supervised_models_bridge_the_gap_in_domain_adaptive_object_detection.md)
+- [\[CVPR 2025\] DiffVsgg: Diffusion-Driven Online Video Scene Graph Generation](diffvsgg_diffusion-driven_online_video_scene_graph_generation.md)
+- [\[CVPR 2025\] Mitigating Memorization in Text-to-Image Diffusion via Region-Aware Prompt Augmentation and Multimodal Copy Detection](mitigating_memorization_in_text-to-image_diffusion_via_region-aware_prompt_augme.md)
+- [\[CVPR 2025\] MCCD: Multi-Agent Collaboration-based Compositional Diffusion for Complex Text-to-Image Generation](mccd_multi-agent_collaboration-based_compositional_diffusion_for_complex_text-to.md)
 
 <!-- RELATED:END -->

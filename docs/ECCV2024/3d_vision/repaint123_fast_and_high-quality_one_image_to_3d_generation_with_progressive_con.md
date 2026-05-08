@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.13271](https://arxiv.org/abs/2312.13271)  
-**代码**: https://pku-yuangroup.github.io/repaint123/ (有)  
+**代码**: [https://pku-yuangroup.github.io/repaint123/](https://pku-yuangroup.github.io/repaint123/)  
 **领域**: 3D视觉 / 扩散模型  
 **关键词**: 单图生成3D, 渐进式重绘, 多视角一致性, Score Distillation Sampling, 3D Gaussian Splatting
 

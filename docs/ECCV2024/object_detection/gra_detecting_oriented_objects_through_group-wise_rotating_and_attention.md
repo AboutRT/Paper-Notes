@@ -16,7 +16,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2403.11127](https://arxiv.org/abs/2403.11127)  
 **代码**: [wangjiangshan0725/GRA](https://github.com/wangjiangshan0725/GRA)  
-**领域**: object_detection  
+**领域**: 目标检测  
 **关键词**: Oriented Object Detection, Group-wise Rotating, Spatial Attention, Dynamic Neural Networks  
 **机构**: 清华大学, DAMO Academy (阿里巴巴), ModelTC
 
@@ -160,10 +160,10 @@ Oriented R-CNN + R50_GRA: mAP 72.59%，优于 ARC 的 72.39%。
 
 ## 相关论文
 
-- [\[CVPR 2025\] Detecting Out-of-Distribution through the Lens of Neural Collapse](../../CVPR2025/object_detection/detecting_out-of-distribution_through_the_lens_of_neural_collapse.md)
 - [\[CVPR 2026\] Show, Don't Tell: Detecting Novel Objects by Watching Human Videos](../../CVPR2026/object_detection/show_dont_tell_detecting_novel_objects_by_watching.md)
-- [\[ECCV 2024\] Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation](be_yourself_bounded_attention_for_multi-subject_text-to-image_generation.md)
-- [\[CVPR 2026\] Detecting Unknown Objects via Energy-Based Separation for Open World Object Detection](../../CVPR2026/object_detection/detecting_unknown_objects_via_energy-based_separation.md)
+- [\[CVPR 2026\] Detecting Unknown Objects via Energy-based Separation for Open World Object Detection](../../CVPR2026/object_detection/detecting_unknown_objects_via_energy-based_separation_for_open_world_object_dete.md)
+- [\[ECCV 2024\] Projecting Points to Axes: Oriented Object Detection via Point-Axis Representation](projecting_points_to_axes_oriented_object_detection_via_point-axis_representatio.md)
 - [\[ECCV 2024\] Visible and Clear: Finding Tiny Objects in Difference Map](visible_and_clear_finding_tiny_objects_in_difference_map.md)
+- [\[AAAI 2026\] LampQ: Towards Accurate Layer-wise Mixed Precision Quantization for Vision Transformers](../../AAAI2026/object_detection/lampq_towards_accurate_layer-wise_mixed_precision_quantization_for_vision_transf.md)
 
 <!-- RELATED:END -->

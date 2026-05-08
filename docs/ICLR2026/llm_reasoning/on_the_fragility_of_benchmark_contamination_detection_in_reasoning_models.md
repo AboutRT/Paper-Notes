@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.02386](https://arxiv.org/abs/2510.02386)  
-**代码**: https://github.com/ASTRAL-Group/LRM_Conta_Detection_Arena.git  
-**领域**: AI安全  
+**代码**: [https://github.com/ASTRAL-Group/LRM_Conta_Detection_Arena.git](https://github.com/ASTRAL-Group/LRM_Conta_Detection_Arena.git)  
+**领域**: LLM推理  
 **关键词**: 基准污染, 推理模型, GRPO, 检测脆弱性, 评估完整性
 
 ## 一句话总结

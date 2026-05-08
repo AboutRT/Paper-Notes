@@ -7,7 +7,7 @@ tags:
   - ECCV 2024
   - 图像恢复
   - 红外图像超分辨率
-  - Contourlet变换
+  - 图像复原
   - 提示学习
   - 多尺度多方向分解
   - 视觉语言模型
@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: 无  
-**代码**: https://github.com/hey-it-s-me/CoRPLE  
+**代码**: [https://github.com/hey-it-s-me/CoRPLE](https://github.com/hey-it-s-me/CoRPLE)  
 **领域**: 图像超分辨率 / 红外图像增强  
 **关键词**: 红外图像超分辨率、Contourlet变换、提示学习、多尺度多方向分解、视觉语言模型
 
@@ -133,10 +133,10 @@ CoRPLE 的整体 pipeline 由两大核心部分组成：（1）Contourlet 残差
 
 ## 相关论文
 
-- [\[ECCV 2024\] Seeing the Unseen: A Frequency Prompt Guided Transformer for Image Restoration](seeing_the_unseen_a_frequency_prompt_guided_transformer_for_image_restoration.md)
 - [\[NeurIPS 2025\] Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmark](../../NeurIPS2025/image_restoration/enhancing_infrared_vision_progressive_prompt_fusion_network_and_benchmark.md)
-- [\[CVPR 2026\] Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](../../CVPR2026/image_restoration/real_iisr_infrared_image_super_resolution_autoregressive.md)
-- [\[ECCV 2024\] Learning Exhaustive Correlation for Spectral Super-Resolution: Where Spatial-Spectral Attention Meets Linear Dependence](learning_exhaustive_correlation_for_spectral_super-resolution_where_spatial-spec.md)
+- [\[ECCV 2024\] Seeing the Unseen: A Frequency Prompt Guided Transformer for Image Restoration](seeing_the_unseen_a_frequency_prompt_guided_transformer_for_image_restoration.md)
+- [\[ECCV 2024\] Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks](overcoming_distribution_mismatch_in_quantizing_image_super-resolution_networks.md)
 - [\[ECCV 2024\] Rethinking Image Super-Resolution from Training Data Perspectives](rethinking_image_super-resolution_from_training_data_perspectives.md)
+- [\[ECCV 2024\] XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution](xpsr_cross-modal_priors_for_diffusion-based_image_super-resolution.md)
 
 <!-- RELATED:END -->

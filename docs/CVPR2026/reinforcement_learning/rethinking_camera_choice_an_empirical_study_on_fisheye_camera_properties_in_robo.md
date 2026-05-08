@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 鱼眼相机
-  - 机器人操作
+  - 强化学习
   - 模仿学习
   - 视场角
   - 泛化性
@@ -18,7 +18,7 @@ tags:
 **arXiv**: [2603.02139](https://arxiv.org/abs/2603.02139)  
 **作者**: Han Xue, Min Nan, Xiaotong Liu, Wendi Chen, Yuan Fang, Jun Lv, Cewu Lu, Chuan Wen (上海交通大学, 东南大学, 中科大等)
 **项目页**: [robo-fisheye.github.io](https://robo-fisheye.github.io/)
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 鱼眼相机, 机器人操作, 模仿学习, 视场角, 泛化性
 
 ## 一句话总结
@@ -156,8 +156,8 @@ Baseline 在广角镜头上几乎完全失败（0.003），RSA 将其提升至 0
 
 - [\[ACL 2026\] Scaling Behaviors of LLM Reinforcement Learning Post-Training: An Empirical Study](../../ACL2026/reinforcement_learning/scaling_behaviors_of_llm_reinforcement_learning_post-training_an_empirical_study.md)
 - [\[NeurIPS 2025\] Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/empirical_study_on_robustness_and_resilience_in_cooperative_multi-agent_reinforc.md)
+- [\[AAAI 2026\] Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward](../../AAAI2026/reinforcement_learning/actor-critic_for_continuous_action_chunks_a_reinforcement_le.md)
 - [\[ICLR 2026\] Routing, Cascades, and User Choice for LLMs](../../ICLR2026/reinforcement_learning/routing_cascades_and_user_choice_for_llms.md)
-- [\[NeurIPS 2025\] Time Reversal Symmetry for Efficient Robotic Manipulations in Deep Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/time_reversal_symmetry_for_efficient_robotic_manipulations_in_deep_reinforcement.md)
-- [\[ICLR 2026\] MoMaGen: Generating Demonstrations under Soft and Hard Constraints for Multi-Step Bimanual Mobile Manipulation](../../ICLR2026/reinforcement_learning/momagen_generating_demonstrations_under_soft_and_hard_constraints_for_multi-step.md)
+- [\[CVPR 2026\] RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](radar_closedloop_robotic_data_generation_via_seman.md)
 
 <!-- RELATED:END -->

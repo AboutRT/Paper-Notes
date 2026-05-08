@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.03252](https://arxiv.org/abs/2510.03252)  
 **代码**: 无  
-**领域**: 生成模型 / 多域翻译  
+**领域**: 图像分割  
 **关键词**: Multi-Domain Translation, Diffusion Models, Diffusion Router, Tweedie Refinement, Universal Translation
 
 ## 一句话总结

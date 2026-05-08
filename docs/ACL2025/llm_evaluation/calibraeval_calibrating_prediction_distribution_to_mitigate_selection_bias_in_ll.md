@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias in LLMs-as-Judges
 description: >-
-  [ACL 2025][LLM评估] 提出 CalibraEval，一种无标签的推理时去偏方法，通过将去偏问题形式化为优化任务，利用非参数保序算法（NOA）学习校准函数，将 LLM 评判器的观测概率分布映射到无偏分布，有效缓解 LLM-as-Judge 中的选择偏差。
+  [ACL 2025][LLM评测] 提出 CalibraEval，一种无标签的推理时去偏方法，通过将去偏问题形式化为优化任务，利用非参数保序算法（NOA）学习校准函数，将 LLM 评判器的观测概率分布映射到无偏分布，有效缓解 LLM-as-Judge 中的选择偏差。
 tags:
   - ACL 2025
-  - LLM评估
+  - LLM评测
   - 选择偏差
   - 校准
   - 非参数算法
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2410.15393](https://arxiv.org/abs/2410.15393)  
 **代码**: [github.com/CSHaitao/CalibraEval](https://github.com/CSHaitao/CalibraEval)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: LLM评估, 选择偏差, 校准, 非参数算法, 去偏
 
 ## 一句话总结
@@ -150,9 +150,9 @@ Qwen-72B 上的效果：
 ## 相关论文
 
 - [\[NeurIPS 2025\] On Evaluating LLM Alignment by Evaluating LLMs as Judges](../../NeurIPS2025/llm_evaluation/on_evaluating_llm_alignment_by_evaluating_llms_as_judges.md)
+- [\[NeurIPS 2025\] Robust Hallucination Detection in LLMs via Adaptive Token Selection](../../NeurIPS2025/llm_evaluation/robust_hallucination_detection_in_llms_via_adaptive_token_selection.md)
 - [\[ACL 2025\] JuStRank: Benchmarking LLM Judges for System Ranking](justrank_llm_judge_system_ranking.md)
-- [\[ICCV 2025\] ODP-Bench: Benchmarking Out-of-Distribution Performance Prediction](../../ICCV2025/llm_evaluation/odp-bench_benchmarking_out-of-distribution_performance_prediction.md)
-- [\[ACL 2025\] McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models](mcbe_a_multi-task_chinese_bias_evaluation_benchmark_for_large_language_models.md)
 - [\[ACL 2026\] Text-to-Distribution Prediction with Quantile Tokens and Neighbor Context](../../ACL2026/llm_evaluation/text-to-distribution_prediction_with_quantile_tokens_and_neighbor_context.md)
+- [\[ICCV 2025\] ODP-Bench: Benchmarking Out-of-Distribution Performance Prediction](../../ICCV2025/llm_evaluation/odp-bench_benchmarking_out-of-distribution_performance_prediction.md)
 
 <!-- RELATED:END -->

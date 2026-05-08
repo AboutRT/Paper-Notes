@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2406.12329](https://arxiv.org/abs/2406.12329)  
-**代码**: https://github.com/brightjade/Opt-Out  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/brightjade/Opt-Out](https://github.com/brightjade/Opt-Out)  
+**领域**: LLM安全  
 **关键词**: machine unlearning, entity-level, optimal transport, Wasserstein distance, privacy, GDPR
 
 ## 一句话总结
@@ -154,10 +154,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] ReLearn: Unlearning via Learning for Large Language Models](relearn_unlearning_via_learning_for_large_language_models.md)
 - [\[ACL 2025\] Which Retain Set Matters for LLM Unlearning? A Case Study on Entity Unlearning](which_retain_set_matters_for_llm_unlearning_a_case_study_on_entity_unlearning.md)
-- [\[ACL 2025\] Beyond Facts: Evaluating Intent Hallucination in Large Language Models](intent_hallucination_eval.md)
-- [\[ACL 2025\] Chinese SimpleQA: A Chinese Factuality Evaluation for Large Language Models](chinese_simpleqa_a_chinese_factuality_evaluation_for_large_language_models.md)
-- [\[ACL 2025\] Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning](alleviating_hallucinations_from_knowledge_misalignment_in_large_language_models_.md)
+- [\[ACL 2025\] ReLearn: Unlearning via Learning for Large Language Models](relearn_unlearning_via_learning_for_large_language_models.md)
+- [\[ACL 2025\] Ensemble Watermarks for Large Language Models](ensemble_watermarks_llm.md)
+- [\[ICML 2025\] Watch Out Your Album! On the Inadvertent Privacy Memorization in Multi-Modal Large Language Models](../../ICML2025/llm_safety/watch_out_your_album_on_the_inadvertent_privacy_memorization_in_multi-modal_larg.md)
+- [\[ACL 2025\] Improved Unbiased Watermark for Large Language Models](improved_unbiased_watermark_for_large_language.md)
 
 <!-- RELATED:END -->

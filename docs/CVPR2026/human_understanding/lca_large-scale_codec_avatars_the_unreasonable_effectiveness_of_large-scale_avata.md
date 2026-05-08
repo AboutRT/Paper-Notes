@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.02320](https://arxiv.org/abs/2604.02320)  
-**代码**: https://junxuan-li.github.io/lca  
+**代码**: [https://junxuan-li.github.io/lca](https://junxuan-li.github.io/lca)  
 **领域**: 人体理解 / 3D视觉  
 **关键词**: 3D头像, 大规模预训练, 前馈生成, 高斯溅射, 表情控制
 
@@ -115,10 +115,10 @@ LCA 首次将大规模预训练/后训练范式应用于 3D 头像建模：在 1
 
 ## 相关论文
 
-- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
-- [\[NeurIPS 2025\] GraphChain: Large Language Models for Large-scale Graph Analysis via Tool Chaining](../../NeurIPS2025/human_understanding/graphchain_large_language_models_for_large-scale_graph_analysis_via_tool_chainin.md)
-- [\[CVPR 2026\] CraterBench-R: Instance-Level Crater Retrieval for Planetary Scale](craterbench-r_instance-level_crater_retrieval_for_planetary_scale.md)
-- [\[ECCV 2024\] PetFace: A Large-Scale Dataset and Benchmark for Animal Identification](../../ECCV2024/human_understanding/petface_a_large-scale_dataset_and_benchmark_for_animal_identification.md)
-- [\[ICML 2025\] Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems](../../ICML2025/human_understanding/erwin_a_tree-based_hierarchical_transformer_for_large-scale_physical_systems.md)
+- [\[ICCV 2025\] ImHead: A Large-scale Implicit Morphable Model for Localized Head Modeling](../../ICCV2025/human_understanding/imhead_a_large-scale_implicit_morphable_model_for_localized_head_modeling.md)
+- [\[CVPR 2026\] LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction](laser_layer-wise_scale_alignment_for_training-free_streaming_4d_reconstruction.md)
+- [\[CVPR 2026\] AVATAR: Reinforcement Learning to See, Hear, and Reason Over Video](avatar_reinforcement_learning_to_see_hear_and_reason_over_video.md)
+- [\[CVPR 2026\] FlexAvatar: Learning Complete 3D Head Avatars with Partial Supervision](flexavatar_learning_complete_3d_head_avatars_with_partial_supervision.md)
+- [\[CVPR 2026\] UniLS: End-to-End Audio-Driven Avatars for Unified Listening and Speaking](unils_end-to-end_audio-driven_avatars_for_unified_listening_and_speaking.md)
 
 <!-- RELATED:END -->

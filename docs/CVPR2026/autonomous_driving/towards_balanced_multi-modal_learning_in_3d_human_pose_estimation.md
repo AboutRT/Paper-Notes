@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2501.05264](https://arxiv.org/abs/2501.05264)  
 **代码**: [MICLAB-BUPT/AWC](https://github.com/MICLAB-BUPT/AWC)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 3D human pose estimation, multi-modal learning, modality imbalance, Shapley value, Fisher Information Matrix
 
 ## 一句话总结

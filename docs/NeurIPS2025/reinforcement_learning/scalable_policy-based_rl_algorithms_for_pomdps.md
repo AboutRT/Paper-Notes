@@ -6,7 +6,7 @@ description: >-
 tags:
   - NeurIPS 2025
   - POMDP
-  - Policy Optimization
+  - 强化学习
   - TD Learning
   - Superstate MDP
   - Linear Function Approximation
@@ -50,13 +50,13 @@ tags:
 
 1. **改进的近似保证（Theorem 2）**：
    在均匀滤波器稳定性条件（Assumption 1）下：
-   $$\|V^*({\pi}(H)) - \tilde{V}(\mathcal{G}(H))\|_\infty \leq \frac{2\bar{r}(1-\rho)^l}{1-\gamma} + \frac{2\bar{r}\gamma(1-\rho)^l}{(1-\gamma)((1-\gamma)+\gamma(1-\rho)^l)}$$
+    $\|V^*({\pi}(H)) - \tilde{V}(\mathcal{G}(H))\|_\infty \leq \frac{2\bar{r}(1-\rho)^l}{1-\gamma} + \frac{2\bar{r}\gamma(1-\rho)^l}{(1-\gamma)((1-\gamma)+\gamma(1-\rho)^l)}$
    
    **关键改进**：先前工作的界与 $(1-\gamma)^{-2}$ 或 $(1-\gamma)^{-3}$ 成正比，本文的界在 $(1-\rho)^l$ 足够小时近似为 $\frac{2\bar{r}(1-\rho)^l}{1-\gamma}$，将 horizon 依赖从平方降至线性。且这是最坏情况界而非期望界。
 
 2. **关键代数引理（Lemma 2）**：
    对正向量 $\mathbf{a}, \mathbf{b}, \mathbf{c}, \mathbf{d}$，当 $\sum a_i = \sum c_i = 1$ 时：
-   $$|\sum a_i b_i - \sum c_i d_i| \leq \frac{\|a-c\|_1}{2}\max(\|b\|_\infty, \|d\|_\infty) + \|b-d\|_\infty - \frac{\|a-c\|_1}{4}\|b-d\|_\infty$$
+    $|\sum a_i b_i - \sum c_i d_i| \leq \frac{\|a-c\|_1}{2}\max(\|b\|_\infty, \|d\|_\infty) + \|b-d\|_\infty - \frac{\|a-c\|_1}{4}\|b-d\|_\infty$
    
    传统方法使用分解 + 三角不等式导致松弛，本文的不等式利用概率质量函数的归一化性质获得更紧的上界。这一引理具有独立价值，也可改进 Subramanian & Mahajan (2019) 的结果。
 
@@ -135,8 +135,8 @@ tags:
 
 - [\[NeurIPS 2025\] Sequential Monte Carlo for Policy Optimization in Continuous POMDPs](sequential_monte_carlo_for_policy_optimization_in_continuous_pomdps.md)
 - [\[NeurIPS 2025\] Horizon Reduction Makes RL Scalable](horizon_reduction_makes_rl_scalable.md)
+- [\[NeurIPS 2025\] Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning](counteractive_rl_rethinking_core_principles_for_efficient_and_scalable_deep_rein.md)
 - [\[NeurIPS 2025\] Parameter-Free Algorithms for the Stochastically Extended Adversarial Model](parameter-free_algorithms_for_the_stochastically_extended_adversarial_model.md)
-- [\[NeurIPS 2025\] Prompt Tuning Decision Transformers with Structured and Scalable Bandits](prompt_tuning_decision_transformers_with_structured_and_scalable_bandits.md)
-- [\[NeurIPS 2025\] Scalable Neural Incentive Design with Parameterized Mean-Field Approximation](scalable_neural_incentive_design_with_parameterized_mean-field_approximation.md)
+- [\[NeurIPS 2025\] FedRAIN-Lite: Federated Reinforcement Algorithms for Improving Idealised Numerical Weather and Climate Models](fedrain-lite_federated_reinforcement_algorithms_for_improving_idealised_numerica.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Cognitive Framework for Detecting AI-Generated Fiction
 description: >-
-  [ACL 2025][AI文本检测] 本文提出一种基于认知语言学特征的AI生成小说/虚构文本检测框架，通过建模人类创意写作中的认知模式（如叙事节奏、情感弧线、隐喻密度）来区分人类和AI创作的虚构文本，在长文本场景下显著优于现有检测方法。
+  [ACL 2025][AIGC检测] 本文提出一种基于认知语言学特征的AI生成小说/虚构文本检测框架，通过建模人类创意写作中的认知模式（如叙事节奏、情感弧线、隐喻密度）来区分人类和AI创作的虚构文本，在长文本场景下显著优于现有检测方法。
 tags:
   - ACL 2025
-  - AI文本检测
+  - AIGC检测
   - 虚构文本
   - 认知特征
   - 机器生成文本识别
@@ -120,8 +120,8 @@ tags:
 
 - [\[ACL 2025\] An Empirical Study on Detecting AI-Generated Text in Financial Reports](an_empirical_study_on_detecting_ai-generated_text_in_financial_reports.md)
 - [\[ACL 2025\] KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis](katfishnet_detecting_llm-generated_korean_text_through_linguistic_feature_analys.md)
+- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](mcp-zero-shot-mgt-detection-via-conformal-prediction.md)
+- [\[ACL 2025\] Are We in the AI-Generated Text World Already? Quantifying and Monitoring AIGT on Social Media](aigt_social_media_monitoring.md)
 - [\[ACL 2025\] Who Writes What: Unveiling the Impact of Author Roles on AI-generated Text Detection](who_writes_what_ai_detection.md)
-- [\[ACL 2025\] People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](chatgpt_user_ai_text_detection.md)
-- [\[ACL 2025\] Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction](reliably_bounding_false_positives_a_zero-shot_machine-generated_text_detection_f.md)
 
 <!-- RELATED:END -->

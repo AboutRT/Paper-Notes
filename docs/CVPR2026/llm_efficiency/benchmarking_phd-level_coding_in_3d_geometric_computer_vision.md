@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.30038](https://arxiv.org/abs/2603.30038)  
-**代码**: https://geocodebench.github.io/ (有)  
+**代码**: [https://geocodebench.github.io/](https://geocodebench.github.io/)  
 **领域**: LLM效率 / 代码生成评测  
 **关键词**: 3D视觉代码生成, LLM评测, 几何算法实现, PhD级benchmark, 单元测试
 
@@ -125,10 +125,10 @@ tags:
 
 ## 相关论文
 
-- [\[AAAI 2026\] Attention Retention for Continual Learning with Vision Transformers](../../AAAI2026/llm_efficiency/attention_retention_for_continual_learning_with_vision_transformers.md)
 - [\[ACL 2026\] HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns](../../ACL2026/llm_efficiency/humanllm_benchmarking_and_improving_llm_anthropomorphism_via_human_cognitive_pat.md)
-- [\[ICLR 2026\] Token-level Data Selection for Safe LLM Fine-tuning](../../ICLR2026/llm_efficiency/token-level_data_selection_for_safe_llm_fine-tuning.md)
 - [\[AAAI 2026\] InterMoE: Individual-Specific 3D Human Interaction Generation via Dynamic Temporal-Selective MoE](../../AAAI2026/llm_efficiency/intermoe_individual-specific_3d_human_interaction_generation_via_dynamic_tempora.md)
-- [\[NeurIPS 2025\] Frequency-Aware Token Reduction for Efficient Vision Transformer](../../NeurIPS2025/llm_efficiency/frequency-aware_token_reduction_for_efficient_vision_transformer.md)
+- [\[AAAI 2026\] Resource Efficient Sleep Staging via Multi-Level Masking and Prompt Learning](../../AAAI2026/llm_efficiency/resource_efficient_sleep_staging_via_multi-level_masking_and_prompt_learning.md)
+- [\[ACL 2025\] Ref-Long: Benchmarking the Long-Context Referencing Capability of Long-Context Language Models](../../ACL2025/llm_efficiency/ref-long_benchmarking_the_long-context_referencing_capability_of_long-context_la.md)
+- [\[ACL 2025\] KV-Latent: Dimensional-level KV Cache Reduction with Frequency-aware Rotary Positional Embedding](../../ACL2025/llm_efficiency/kv_latent_cache_reduction.md)
 
 <!-- RELATED:END -->

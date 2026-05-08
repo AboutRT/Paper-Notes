@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR2026
   - zero-shot classification
-  - benchmark
+  - 信息检索
   - reranker
   - embedding model
   - NLI
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.11991](https://arxiv.org/abs/2603.11991)  
 **代码**: [GitHub](https://github.com/IliasAarab/btzsc)  
-**领域**: NLP理解  
+**领域**: 信息检索  
 **关键词**: zero-shot classification, benchmark, reranker, embedding model, NLI
 
 ## 一句话总结
@@ -127,8 +127,8 @@ BTZSC 是一个评测基准而非模型方法。输入为文本样本和候选�
 
 - [\[AAAI 2026\] OAD-Promoter: Enhancing Zero-shot VQA using Large Language Models with Object Attribute Description](../../AAAI2026/information_retrieval/oad-promoter_enhancing_zero-shot_vqa_using_large_language_models_with_object_att.md)
 - [\[CVPR 2026\] Explaining CLIP Zero-shot Predictions Through Concepts](../../CVPR2026/information_retrieval/explaining_clip_zero-shot_predictions_through_concepts.md)
-- [\[CVPR 2025\] EZSR: Event-based Zero-Shot Recognition](../../CVPR2025/information_retrieval/ezsr_event-based_zero-shot_recognition.md)
 - [\[ACL 2025\] Semantic Outlier Removal with Embedding Models and LLMs](../../ACL2025/information_retrieval/semantic_outlier_removal_with_embedding_models_and_llms.md)
+- [\[CVPR 2025\] EZSR: Event-based Zero-Shot Recognition](../../CVPR2025/information_retrieval/ezsr_event-based_zero-shot_recognition.md)
 - [\[ACL 2025\] A Text is Worth Several Tokens: Text Embedding from LLMs Secretly Aligns Well with The Key Tokens](../../ACL2025/information_retrieval/a_text_is_worth_several_tokens_text_embedding_from_llms_secretly_aligns_well_wit.md)
 
 <!-- RELATED:END -->

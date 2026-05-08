@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - bias mitigation
   - debiasing
-  - LLM fairness
+  - 社会计算
   - benchmark
   - Bias-Free Score
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.00232](https://arxiv.org/abs/2510.00232)  
-**代码**: https://github.com/xxupiano/BiasFreeBench  
-**领域**: NLP理解 / 公平性  
+**代码**: [https://github.com/xxupiano/BiasFreeBench](https://github.com/xxupiano/BiasFreeBench)  
+**领域**: 社会计算  
 **关键词**: bias mitigation, debiasing, LLM fairness, benchmark, Bias-Free Score
 
 ## 一句话总结
@@ -137,10 +137,10 @@ BiasFreeBench 的设计包含三个核心组件：(1) 8 种去偏技术的统一
 
 ## 相关论文
 
-- [\[ICML 2025\] OR-Bench: An Over-Refusal Benchmark for Large Language Models](../../ICML2025/social_computing/or-bench_an_over-refusal_benchmark_for_large_language_models.md)
 - [\[ACL 2025\] Translate With Care: Addressing Gender Bias, Neutrality, and Reasoning in Large Language Model Translations](../../ACL2025/social_computing/translate_with_care_addressing_gender_bias_neutrality_and_reasoning_in_large_lan.md)
-- [\[ICLR 2026\] Scalable Multi-Task Low-Rank Model Adaptation](scalable_multi-task_low-rank_model_adaptation.md)
+- [\[NeurIPS 2025\] Any Large Language Model Can Be a Reliable Judge: Debiasing with a Reasoning-based Bias Detector](../../NeurIPS2025/social_computing/any_large_language_model_can_be_a_reliable_judge_debiasing_w.md)
+- [\[ICML 2025\] OR-Bench: An Over-Refusal Benchmark for Large Language Models](../../ICML2025/social_computing/or-bench_an_over-refusal_benchmark_for_large_language_models.md)
 - [\[ICLR 2026\] Propaganda AI: An Analysis of Semantic Divergence in Large Language Models](propaganda_ai_an_analysis_of_semantic_divergence_in_large_language_models.md)
-- [\[ACL 2025\] How does Misinformation Affect Large Language Model Behaviors and Preferences?](../../ACL2025/social_computing/how_does_misinformation_affect_large_language.md)
+- [\[ICLR 2026\] Scalable Multi-Task Low-Rank Model Adaptation](scalable_multi-task_low-rank_model_adaptation.md)
 
 <!-- RELATED:END -->

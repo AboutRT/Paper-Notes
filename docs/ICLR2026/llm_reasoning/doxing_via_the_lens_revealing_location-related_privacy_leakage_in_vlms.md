@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2504.19373](https://arxiv.org/abs/2504.19373)  
 **代码**: [GitHub](https://github.com/SaFo-Lab/DoxBench)  
-**领域**: llm_reasoning  
+**领域**: LLM推理  
 **关键词**: 隐私泄露, 地理定位, 多模态推理模型, MLRM, 视觉线索推理  
 
 ## 一句话总结

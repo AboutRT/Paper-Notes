@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.01259](https://arxiv.org/abs/2508.01259)  
 **代码**: [yanzq95/STDNet](https://github.com/yanzq95/STDNet)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: 视频深度超分辨率, 长尾分布, 空间差异, 时间差异, 可变形卷积  
 
 ## 一句话总结

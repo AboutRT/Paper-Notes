@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2512.09385](https://arxiv.org/abs/2512.09385)  
 **代码**: 待确认  
-**领域**: graph_learning  
+**领域**: 图学习  
 **关键词**: Smart Contract, Vulnerability Detection, graph neural network, Abstract Syntax Tree, Pooling
 
 ## 一句话总结

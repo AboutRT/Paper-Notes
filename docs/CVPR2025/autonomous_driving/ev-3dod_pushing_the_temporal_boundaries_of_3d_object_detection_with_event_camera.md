@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.19630](https://arxiv.org/abs/2502.19630)  
-**代码**: https://github.com/mickeykang16/Ev3DOD (有)  
+**代码**: [https://github.com/mickeykang16/Ev3DOD](https://github.com/mickeykang16/Ev3DOD)  
 **领域**: 自动驾驶 / 事件相机  
 **关键词**: 事件相机, 3D目标检测, 盲区时间, 虚拟3D事件融合, 运动估计
 

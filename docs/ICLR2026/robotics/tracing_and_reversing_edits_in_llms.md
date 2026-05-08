@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.20819](https://arxiv.org/abs/2505.20819)  
-**代码**: https://github.com/paulyoussef/trace-and-reverse/  
-**领域**: AI Safety / 知识编辑  
+**代码**: [https://github.com/paulyoussef/trace-and-reverse/](https://github.com/paulyoussef/trace-and-reverse/)  
+**领域**: 机器人  
 **关键词**: knowledge editing, model security, SVD, edit tracing, edit reversal
 
 ## 一句话总结

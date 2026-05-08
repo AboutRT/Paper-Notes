@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - visual in-context learning
-  - counterfactual reasoning
+  - 因果推理
   - composed image retrieval
   - 视觉语言
   - demonstration selection
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.16737](https://arxiv.org/abs/2603.16737)  
 **代码**: [github.com/gzxiong/CIRCLES](https://github.com/gzxiong/CIRCLES)  
-**领域**: causal_inference  
+**领域**: 因果推理  
 **关键词**: visual in-context learning, counterfactual reasoning, composed image retrieval, vision-language models, demonstration selection
 
 ## 一句话总结
@@ -153,10 +153,10 @@ CIRCLES 是一个 **无训练（training-free）** 框架：
 
 ## 相关论文
 
+- [\[CVPR 2026\] Fighting Hallucinations with Counterfactuals: Diffusion-Guided Perturbations for LVLM Hallucination Suppression](cipher_counterfactual_diffusion_hallucination_sup.md)
 - [\[NeurIPS 2025\] Do-PFN: In-Context Learning for Causal Effect Estimation](../../NeurIPS2025/causal_inference/do-pfn_in-context_learning_for_causal_effect_estimation.md)
 - [\[CVPR 2026\] MaskDiME: Adaptive Masked Diffusion for Precise and Efficient Visual Counterfactual Explanations](maskdime_adaptive_masked_diffusion_for_precise_and_efficient_visual_counterfactu.md)
-- [\[CVPR 2026\] Fighting Hallucinations with Counterfactuals: Diffusion-Guided Perturbations for LVLM Hallucination Suppression](cipher_counterfactual_diffusion_hallucination_sup.md)
-- [\[NeurIPS 2025\] Cyclic Counterfactuals under Shift–Scale Interventions](../../NeurIPS2025/causal_inference/cyclic_counterfactuals_under_shift-scale_interventions.md)
 - [\[ICCV 2025\] A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets](../../ICCV2025/causal_inference/a_visual_leap_in_clip_compositionality_reasoning_through_gen.md)
+- [\[ICML 2025\] RATE: Causal Explainability of Reward Models with Imperfect Counterfactuals](../../ICML2025/causal_inference/rate_causal_explainability_of_reward_models_with_imperfect_counterfactuals.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2601.05175](https://arxiv.org/abs/2601.05175)  
-**代码**: https://ivul-kaust.github.io/projects/videoauto-r1 (有)  
+**代码**: [https://ivul-kaust.github.io/projects/videoauto-r1](https://ivul-kaust.github.io/projects/videoauto-r1)  
 **领域**: 视频理解 / LLM推理  
 **关键词**: 视频推理、自适应思考、链式推理、强化学习、推理效率
 

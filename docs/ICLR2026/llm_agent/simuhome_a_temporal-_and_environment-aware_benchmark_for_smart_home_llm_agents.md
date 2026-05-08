@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2509.24282](https://arxiv.org/abs/2509.24282)  
-**代码**: https://github.com/holi-lab/SimuHome/ (有)  
+**代码**: [https://github.com/holi-lab/SimuHome/](https://github.com/holi-lab/SimuHome/)  
 **领域**: LLM Agent  
 **关键词**: 智能家居, LLM Agent, 工作流调度, 时间推理, 交互式模拟器
 

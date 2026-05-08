@@ -7,7 +7,7 @@ tags:
   - ICLR2026
   - 注意力机制
   - 提示学习
-  - spectral decomposition
+  - LLM评测
   - key embedding editing
 ---
 
@@ -16,7 +16,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2603.01281](https://arxiv.org/abs/2603.01281)  
 **代码**: [waylonli/SEKA](https://github.com/waylonli/SEKA)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: attention steering, prompt highlighting, spectral decomposition, FlashAttention, key embedding editing  
 **作者**: Weixian Waylon Li, Yuchen Niu, Yongxin Yang, Keshuang Li, Tiejun Ma, Shay B. Cohen（University of Edinburgh, RayNeo, Huawei Research, QMUL）
 
@@ -180,8 +180,8 @@ SEKA 几乎零开销，PASTA 内存翻倍、延迟翻三倍。
 
 - [\[ICLR 2026\] vCache: Verified Semantic Prompt Caching](vcache_verified_semantic_prompt_caching.md)
 - [\[ICLR 2026\] Prompt and Parameter Co-Optimization for Large Language Models](prompt_and_parameter_co-optimization_for_large_language_models.md)
+- [\[ICLR 2026\] GuidedSampling: Steering LLMs Towards Diverse Candidate Solutions at Inference-Time](guidedsampling_steering_llms_towards_diverse_candidate_solutions_at_inference-ti.md)
 - [\[ICLR 2026\] Breaking the Correlation Plateau: On the Optimization and Capacity Limits of Attention-Based Regressors](breaking_the_correlation_plateau_on_the_optimization_and_capacity_limits_of_atte.md)
-- [\[ICCV 2025\] Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating](../../ICCV2025/llm_evaluation/spectral_sensitivity_estimation_with_an_uncalibrated_diffraction_grating.md)
 - [\[NeurIPS 2025\] PaTH Attention: Position Encoding via Accumulating Householder Transformations](../../NeurIPS2025/llm_evaluation/path_attention_position_encoding_via_accumulating_householder_transformations.md)
 
 <!-- RELATED:END -->

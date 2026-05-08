@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.21318](https://arxiv.org/abs/2505.21318)  
-**代码**: https://github.com/IDEA-XL/ChemCoTBench/  
+**代码**: [https://github.com/IDEA-XL/ChemCoTBench/](https://github.com/IDEA-XL/ChemCoTBench/)  
 **领域**: LLM推理  
 **关键词**: chemical reasoning, Chain-of-Thought, benchmark, molecular operations, SMILES
 

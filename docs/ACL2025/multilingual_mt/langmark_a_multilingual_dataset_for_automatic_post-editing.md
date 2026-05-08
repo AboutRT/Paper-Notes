@@ -8,7 +8,7 @@ tags:
   - automatic post-editing
   - multilingual dataset
   - machine translation
-  - LLM
+  - 多语言翻译
   - 提示学习
 ---
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.20748](https://arxiv.org/abs/2503.20748)  
-**代码**: https://github.com/1hunters/UniSTD  
+**代码**: [https://github.com/1hunters/UniSTD](https://github.com/1hunters/UniSTD)  
 **领域**: 时空预测学习 / 自监督/统一学习  
 **关键词**: 统一时空学习, 混合专家, 低秩自适应, 多任务学习, Transformer
 
@@ -134,9 +134,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] DiverseDiT: Towards Diverse Representation Learning in Diffusion Transformers](../../CVPR2026/self_supervised/diversedit_towards_diverse_representation_learning_in_diffusion_transformers.md)
+- [\[CVPR 2025\] MaRI: Material Retrieval Integration across Domains](mari_material_retrieval_integration_across_domains.md)
 - [\[NeurIPS 2025\] Contrastive Representations for Temporal Reasoning](../../NeurIPS2025/self_supervised/contrastive_representations_for_temporal_reasoning.md)
 - [\[CVPR 2026\] UniGeoCLIP: Unified Geospatial Contrastive Learning](../../CVPR2026/self_supervised/unigeoclip_geospatial_contrastive.md)
 - [\[ICLR 2026\] Temporal Slowness in Central Vision Drives Semantic Object Learning](../../ICLR2026/self_supervised/temporal_slowness_in_central_vision_drives_semantic_object_learning.md)
-- [\[NeurIPS 2025\] BrainOmni: A Brain Foundation Model for Unified EEG and MEG Signals](../../NeurIPS2025/self_supervised/brainomni_a_brain_foundation_model_for_unified_eeg_and_meg_signals.md)
 
 <!-- RELATED:END -->

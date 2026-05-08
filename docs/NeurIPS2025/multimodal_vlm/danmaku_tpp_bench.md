@@ -9,7 +9,7 @@ tags:
   - 时间点过程
   - 弹幕
   - 多模态基准
-  - 大语言模型
+  - 多模态VLM
   - 时序推理
 ---
 
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.18411](https://arxiv.org/abs/2505.18411)  
 **代码**: [GitHub](https://github.com/FRENKIE-CHIANG/DanmakuTPPBench)  
-**领域**: 多模态视觉语言模型  
+**领域**: 多模态VLM  
 **关键词**: 时间点过程, 弹幕, 多模态基准, 大语言模型, 时序推理
 
 ## 一句话总结
@@ -125,10 +125,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection](monitor_exploiting_large_language_models_with_instruction_for_online_video_anoma.md)
 - [\[NeurIPS 2025\] Efficient Multi-modal Large Language Models via Progressive Consistency Distillation](efficient_multi-modal_large_language_models_via_progressive_consistency_distilla.md)
-- [\[NeurIPS 2025\] VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models](vamp_variational_multi-modal_prompt_learning_for_vision-language_models.md)
 - [\[NeurIPS 2025\] Can Multi-Modal LLMs Provide Live Step-by-Step Task Guidance?](can_multi-modal_llms_provide_live_step-by-step_task_guidance.md)
-- [\[NeurIPS 2025\] VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning](vt-fsl_bridging_vision_and_text_with_llms_for_few-shot_learning.md)
+- [\[NeurIPS 2025\] HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation](hermesflow_seamlessly_closing_the_gap_in_multimodal_understanding_and_generation.md)
+- [\[NeurIPS 2025\] TRoVe: Discovering Error-Inducing Static Feature Biases in Temporal Vision-Language Models](trove_discovering_errorinducing_static_feature_biases_in_tem.md)
+- [\[NeurIPS 2025\] Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-modal Assistants](face-human-bench_a_comprehensive_benchmark_of_face_and_human_understanding_for_m.md)
 
 <!-- RELATED:END -->

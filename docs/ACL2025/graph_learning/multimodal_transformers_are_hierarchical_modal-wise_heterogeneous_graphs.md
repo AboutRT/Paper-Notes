@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.01068](https://arxiv.org/abs/2505.01068)  
-**代码**: https://github.com/thuiar/MMSA  
+**代码**: [https://github.com/thuiar/MMSA](https://github.com/thuiar/MMSA)  
 **领域**: 图学习  
 **关键词**: 多模态情感分析, 图结构, Transformer, 权重共享, 注意力掩码  
 
@@ -139,8 +139,8 @@ GsiT 相比 MulT：参数量减少 67.7%，Acc-2 提升 4+%，Acc-7 提升 11.2%
 
 - [\[NeurIPS 2025\] Unifying and Enhancing Graph Transformers via a Hierarchical Mask Framework](../../NeurIPS2025/graph_learning/unifying_and_enhancing_graph_transformers_via_a_hierarchical_mask_framework.md)
 - [\[ACL 2025\] M3HG: Multimodal, Multi-scale, and Multi-type Node Heterogeneous Graph for Emotion Cause Triplet Extraction in Conversations](m3hg_multimodal_multi-scale_and_multi-type_node_heterogeneous_graph_for_emotion_.md)
-- [\[ICLR 2026\] Graph Tokenization for Bridging Graphs and Transformers](../../ICLR2026/graph_learning/graph_tokenization_for_bridging_graphs_and_transformers.md)
 - [\[ACL 2025\] Fast-and-Frugal Text-Graph Transformers are Effective Link Predictors](fast-and-frugal_text-graph_transformers_are_effective_link_predictors.md)
+- [\[ICLR 2026\] Graph Tokenization for Bridging Graphs and Transformers](../../ICLR2026/graph_learning/graph_tokenization_for_bridging_graphs_and_transformers.md)
 - [\[NeurIPS 2025\] Relieving the Over-Aggregating Effect in Graph Transformers](../../NeurIPS2025/graph_learning/relieving_the_over-aggregating_effect_in_graph_transformers.md)
 
 <!-- RELATED:END -->

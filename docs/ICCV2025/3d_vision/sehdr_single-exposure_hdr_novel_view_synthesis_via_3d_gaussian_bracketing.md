@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2509.20400](https://arxiv.org/abs/2509.20400)  
-**代码**: https://github.com/yiyulics/SeHDR  
+**代码**: [https://github.com/yiyulics/SeHDR](https://github.com/yiyulics/SeHDR)  
 **领域**: 3D视觉 / HDR成像  
 **关键词**: HDR新视角合成, 3D高斯, 曝光包围, 单曝光, 可微渲染
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Reward-Augmented Data Enhances Direct Preference Alignment of LLMs
 description: >-
-  [ICML2025][DPO] 提出一种**奖励增强的数据重标注方法**，通过将偏好对条件化于奖励分数构建扩增数据集，使DPO能感知回复质量全谱，缓解高质量rejected回复被遗忘和低质量chosen回复被盲目学习的问题，在多个基准上一致性大幅提升DPO性能。
+  [ICML2025][信号通信] 提出一种**奖励增强的数据重标注方法**，通过将偏好对条件化于奖励分数构建扩增数据集，使DPO能感知回复质量全谱，缓解高质量rejected回复被遗忘和低质量chosen回复被盲目学习的问题，在多个基准上一致性大幅提升DPO性能。
 tags:
   - ICML2025
-  - DPO
+  - 信号通信
   - 偏好对齐
   - 奖励条件化
   - 数据增强
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2410.08067](https://arxiv.org/abs/2410.08067)  
 **代码**: [shenao-zhang/reward-augmented-preference](https://github.com/shenao-zhang/reward-augmented-preference)  
-**领域**: LLM对齐 / 偏好优化  
+**领域**: 信号通信  
 **关键词**: DPO, 偏好对齐, 奖励条件化, 数据增强, RLHF, LLM 对齐
 
 ## 一句话总结
@@ -137,9 +137,9 @@ $$\min_{\pi} \mathbb{E}_{g, x \sim \mathcal{D}_N, y \sim \pi(\cdot|x,g)} \left[(
 ## 相关论文
 
 - [\[ICLR 2026\] Robust Preference Alignment via Directional Neighborhood Consensus](../../ICLR2026/signal_comm/robust_preference_alignment_via_directional_neighborhood_consensus.md)
-- [\[NeurIPS 2025\] Feature-aware Modulation for Learning from Temporal Tabular Data](../../NeurIPS2025/signal_comm/feature-aware_modulation_for_learning_from_temporal_tabular_data.md)
 - [\[ACL 2025\] WirelessMathBench: A Mathematical Modeling Benchmark for LLMs in Wireless Communications](../../ACL2025/signal_comm/wirelessmathbench_a_mathematical_modeling_benchmark_for_llms_in_wireless_communi.md)
-- [\[ICML 2025\] Eigenspectrum Analysis of Neural Networks without Aspect Ratio Bias](eigenspectrum_analysis_of_neural_networks_without_aspect_ratio_bias.md)
+- [\[NeurIPS 2025\] Feature-aware Modulation for Learning from Temporal Tabular Data](../../NeurIPS2025/signal_comm/feature-aware_modulation_for_learning_from_temporal_tabular_data.md)
+- [\[ICML 2025\] Generative Social Choice: The Next Generation](generative_social_choice_the_next_generation.md)
 - [\[ICLR 2026\] Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional](../../ICLR2026/signal_comm/multi-modal_data_spectrum_multi-modal_datasets_are_multi-dimensional.md)
 
 <!-- RELATED:END -->

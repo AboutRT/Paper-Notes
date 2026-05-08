@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2602.02341](https://arxiv.org/abs/2602.02341)  
 **代码**: [GitHub](https://github.com/MCG-NJU/LongVPO)  
-**领域**: 长视频理解 / VLM对齐  
+**领域**: LLM对齐  
 **关键词**: 长视频理解, DPO, 视觉语言模型, 偏好优化, 短到长迁移
 
 ## 一句话总结

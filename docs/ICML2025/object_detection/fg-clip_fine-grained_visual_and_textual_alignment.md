@@ -18,8 +18,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2505.05071](https://arxiv.org/abs/2505.05071)  
-**代码**: https://github.com/360CVGroup/FG-CLIP  
-**领域**: 多模态视觉-语言  
+**代码**: [https://github.com/360CVGroup/FG-CLIP](https://github.com/360CVGroup/FG-CLIP)  
+**领域**: 目标检测  
 **关键词**: CLIP, 细粒度理解, 长描述, 区域对齐, 硬负样本, 开放词汇检测
 
 ## 一句话总结
@@ -135,9 +135,9 @@ FG-CLIP 采用两阶段训练：
 ## 相关论文
 
 - [\[ICCV 2025\] Visual-RFT: Visual Reinforcement Fine-Tuning](../../ICCV2025/object_detection/visual-rft_visual_reinforcement_fine-tuning.md)
-- [\[CVPR 2026\] BeautyGRPO: Aesthetic Alignment for Face Retouching via Dynamic Path Guidance and Fine-Grained Preference Modeling](../../CVPR2026/object_detection/beautygrpo_aesthetic_alignment_for_face_retouching_via_dynamic_path_guidance_and.md)
-- [\[ICML 2025\] Understanding the Emergence of Multimodal Representation Alignment](understanding_the_emergence_of_multimodal_representation_alignment.md)
-- [\[ICCV 2025\] Advancing Textual Prompt Learning with Anchored Attributes](../../ICCV2025/object_detection/advancing_textual_prompt_learning_with_anchored_attributes.md)
 - [\[ICCV 2025\] Dynamic-DINO: Fine-Grained Mixture of Experts Tuning for Real-time Open-Vocabulary Object Detection](../../ICCV2025/object_detection/dynamicdino_finegrained_mixture_of_experts_tuning_for_realti.md)
+- [\[ICML 2025\] Understanding the Emergence of Multimodal Representation Alignment](understanding_the_emergence_of_multimodal_representation_alignment.md)
+- [\[ICML 2025\] UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction](ui-vision_a_desktop-centric_gui_benchmark_for_visual_perception_and_interaction.md)
+- [\[ICML 2025\] Self-Organizing Visual Prototypes for Non-Parametric Representation Learning](self-organizing_visual_prototypes_for_non-parametric_representation_learning.md)
 
 <!-- RELATED:END -->

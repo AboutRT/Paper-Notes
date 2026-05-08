@@ -8,7 +8,7 @@ tags:
   - 去毒化
   - 因果推断
   - 注意力头选择
-  - 推理时干预
+  - 因果推理
   - PNS
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.14602](https://arxiv.org/abs/2604.14602)  
 **代码**: 无  
-**领域**: AI安全 / 可解释性  
+**领域**: 因果推理  
 **关键词**: 去毒化, 因果推断, 注意力头选择, 推理时干预, PNS
 
 ## 一句话总结
@@ -118,9 +118,9 @@ PNS 引导微调的目标：$\theta^* = \arg\max_\theta \sum_{(l,h) \in \mathcal
 ## 相关论文
 
 - [\[ICLR 2026\] Copy-Paste to Mitigate Large Language Model Hallucinations](../../ICLR2026/causal_inference/copy-paste_to_mitigate_large_language_model_hallucinations.md)
-- [\[ACL 2026\] Better and Worse with Scale: How Contextual Entrainment Diverges with Model Size](better_and_worse_with_scale_how_contextual_entrainment_diverges_with_model_size.md)
-- [\[ICML 2025\] Latent Variable Causal Discovery under Selection Bias](../../ICML2025/causal_inference/latent_variable_causal_discovery_under_selection_bias.md)
 - [\[AAAI 2026\] Sparse Additive Model Pruning for Order-Based Causal Structure Learning](../../AAAI2026/causal_inference/sparse_additive_model_pruning_for_order-based_causal_structure_learning.md)
+- [\[ACL 2026\] Cross-Modal Taxonomic Generalization in (Vision-) Language Models](cross-modal_taxonomic_generalization_in_vision-_language_models.md)
+- [\[ACL 2026\] Better and Worse with Scale: How Contextual Entrainment Diverges with Model Size](better_and_worse_with_scale_how_contextual_entrainment_diverges_with_model_size.md)
 - [\[ICLR 2026\] Learning Robust Intervention Representations with Delta Embeddings](../../ICLR2026/causal_inference/learning_robust_intervention_representations_with_delta_embeddings.md)
 
 <!-- RELATED:END -->

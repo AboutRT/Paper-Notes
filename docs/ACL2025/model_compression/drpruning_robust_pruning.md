@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2411.14055](https://arxiv.org/abs/2411.14055)  
 **代码**: [https://github.com/hexuandeng/DRPruning](https://github.com/hexuandeng/DRPruning)  
-**领域**: LLM效率  
+**领域**: 模型压缩  
 **关键词**: structured pruning, distributionally robust optimization, data scheduling, scaling law, domain balance  
 
 ## 一句话总结
@@ -128,6 +128,6 @@ PPL 下降 -5.59%，下游任务提升 +1.52%。
 - [\[ACL 2025\] Quantification of Large Language Model Distillation](quantification_of_large_language_model_distillation.md)
 - [\[ACL 2025\] BlockPruner: Fine-grained Pruning for Large Language Models](blockpruner_fine-grained_pruning_for_large_language_models.md)
 - [\[ICML 2025\] RADIO: Rate-Distortion Optimization for Large Language Model Compression](../../ICML2025/model_compression/radio_rate-distortion_optimization_for_large_language_model_compression.md)
-- [\[ACL 2025\] Efficient Long Context Language Model Retrieval with Compression](efficient_long_context_language_model_retrieval_with_compression.md)
+- [\[ACL 2025\] Unraveling LoRA Interference: Orthogonal Subspaces for Robust Model Merging](osrm_lora_merging_orthogonal.md)
 
 <!-- RELATED:END -->

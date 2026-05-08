@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.17184](https://arxiv.org/abs/2502.17184)  
-**代码**: https://github.com/UmeanNever/NovelSum  
+**代码**: [https://github.com/UmeanNever/NovelSum](https://github.com/UmeanNever/NovelSum)  
 **领域**: LLM Alignment / 数据工程  
 **关键词**: Data Diversity, instruction tuning, NovelSum, Data Selection, Metric Design
 

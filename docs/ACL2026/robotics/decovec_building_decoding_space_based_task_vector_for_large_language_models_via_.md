@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.11129](https://arxiv.org/abs/2604.11129)  
 **代码**: [GitHub](https://github.com/szu-tera/DeCoVec)  
-**领域**: LLM推理  
+**领域**: 机器人  
 **关键词**: 任务向量, 解码空间, 上下文学习, 无训练LLM引导, logit操控
 
 ## 一句话总结

@@ -55,15 +55,15 @@ tags:
 1. **Direct 4DMesh-to-GS Variation Field VAE**：
 
    **编码过程**：
-   - 将mesh动画序列转换为点云 $\mathcal{P} = \{P_t \in \mathbb{R}^{N \times 3}\}_{t=1}^T$（$N = 8192$）
-   - 计算位移场 $\Delta P_t = P_t - P_1$
-   - 使用预训练Mesh-to-GS编码器获取canonical GS：$G_1 = \mathcal{D}_{GS}(\mathcal{E}_{GS}(M_1))$
+    - 将mesh动画序列转换为点云 $\mathcal{P} = \{P_t \in \mathbb{R}^{N \times 3}\}_{t=1}^T$（$N = 8192$）
+    - 计算位移场 $\Delta P_t = P_t - P_1$
+    - 使用预训练Mesh-to-GS编码器获取canonical GS：$G_1 = \mathcal{D}_{GS}(\mathcal{E}_{GS}(M_1))$
    
    **Mesh-guided插值机制**（关键创新）：为每个canonical高斯位置 $\bm{p}_1^i$ 找K近邻，使用自适应半径加权插值位移场：
    
-   $$\bm{w}_{i,k} = \exp(-\frac{\beta \bm{d}_{i,k}}{r_i^2}), \quad r_i = \sqrt{\frac{1}{K}\sum_{k=1}^K \bm{d}_{i,k}}$$
+    $\bm{w}_{i,k} = \exp(-\frac{\beta \bm{d}_{i,k}}{r_i^2}), \quad r_i = \sqrt{\frac{1}{K}\sum_{k=1}^K \bm{d}_{i,k}}$
    
-   $$\Delta \bm{p}_{t,i}^{interp} = \sum_{k=1}^K \frac{\bm{w}_{i,k}}{\sum_k \bm{w}_{i,k}} \Delta P_{t,n(i,k)}$$
+    $\Delta \bm{p}_{t,i}^{interp} = \sum_{k=1}^K \frac{\bm{w}_{i,k}}{\sum_k \bm{w}_{i,k}} \Delta P_{t,n(i,k)}$
    
    然后对插值后的位移使用FPS采样得到运动感知query $\Delta \bm{p}_t^{fps} \in \mathbb{R}^{L \times 3}$，通过cross-attention编码为潜在表示 $\bm{z} \in \mathbb{R}^{T \times L \times C}$（$L = 512$, $C = 16$），将序列长度从 $N = 8192$ 压缩到 $L = 512$。
    
@@ -72,19 +72,19 @@ tags:
 2. **Gaussian Variation Field扩散模型**：
 
    基于Diffusion Transformer（DiT）架构，核心创新：
-   - **时序自注意力层**：在标准空间自注意力之外加入时序自注意力，捕捉帧间运动连贯性
-   - **双条件注入**：通过cross-attention注入视频视觉特征 $\mathcal{C}^v$（DINOv2提取）和canonical GS几何特征 $\mathcal{C}^{GS}$
-   - **位置先验嵌入**：基于canonical GS位置 $\bm{p}_1^{fps}$ 的位置编码，增强模型对空间位置和变化场对应关系的感知
+    - **时序自注意力层**：在标准空间自注意力之外加入时序自注意力，捕捉帧间运动连贯性
+    - **双条件注入**：通过cross-attention注入视频视觉特征 $\mathcal{C}^v$（DINOv2提取）和canonical GS几何特征 $\mathcal{C}^{GS}$
+    - **位置先验嵌入**：基于canonical GS位置 $\bm{p}_1^{fps}$ 的位置编码，增强模型对空间位置和变化场对应关系的感知
    
    使用velocity prediction参数化，训练目标：
    
-   $$\mathcal{L}_{simple} = \mathbb{E}_{s, \bm{z}^0, \bm{\epsilon}} \left[ \|\hat{\bm{v}}_\theta(\alpha_s \bm{z}^0 + \sigma_s \bm{\epsilon}, s, \mathcal{C}) - \bm{v}^s\|_2^2 \right]$$
+    $\mathcal{L}_{simple} = \mathbb{E}_{s, \bm{z}^0, \bm{\epsilon}} \left[ \|\hat{\bm{v}}_\theta(\alpha_s \bm{z}^0 + \sigma_s \bm{\epsilon}, s, \mathcal{C}) - \bm{v}^s\|_2^2 \right]$
 
 3. **Mesh-guided Loss**：
 
    对齐预测的高斯位移与mesh插值得到的伪GT位移，是运动重建质量的关键：
    
-   $$\mathcal{L}_{mg} = \sum_{t=1}^T \|\Delta \mathbf{p}_t - \Delta \bm{p}_t^{interp}\|_2^2$$
+    $\mathcal{L}_{mg} = \sum_{t=1}^T \|\Delta \mathbf{p}_t - \Delta \bm{p}_t^{interp}\|_2^2$
 
 ### 损失函数 / 训练策略
 

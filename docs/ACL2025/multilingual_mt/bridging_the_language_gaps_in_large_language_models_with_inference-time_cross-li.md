@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 跨语言迁移
-  - 推理时干预
+  - 多语言翻译
   - 多语言LLM
   - 表示对齐
   - 低资源语言
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2410.12462](https://arxiv.org/abs/2410.12462)  
-**代码**: https://github.com/weixuan-wang123/INCLINE  
-**领域**: LLM NLP  
+**代码**: [https://github.com/weixuan-wang123/INCLINE](https://github.com/weixuan-wang123/INCLINE)  
+**领域**: 多语言翻译  
 **关键词**: 跨语言迁移、推理时干预、多语言LLM、表示对齐、低资源语言
 
 ## 一句话总结
@@ -121,10 +121,10 @@ INCLINE的工作流程分为两个阶段：（1）离线学习阶段——收集
 
 ## 相关论文
 
-- [\[ACL 2025\] Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](crosslingual_pitfalls.md)
 - [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
+- [\[ACL 2025\] Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](crosslingual_pitfalls.md)
+- [\[ACL 2025\] Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs](mid_layer_crosslingual_alignment.md)
 - [\[ACL 2025\] Disentangling Language and Culture for Evaluating Multilingual Large Language Models](disentangle_language_culture.md)
-- [\[ACL 2025\] Cross-Lingual Transfer of Cultural Knowledge: An Asymmetric Phenomenon](cross-lingual_transfer_of_cultural_knowledge_an_asymmetric_phenomenon.md)
-- [\[ACL 2025\] Do Large Language Models Have an English Accent? Evaluating and Improving the Naturalness of Multilingual LLMs](multilingual_llm_english_accent.md)
+- [\[ACL 2025\] Lost in Multilinguality: Dissecting Cross-lingual Factual Inconsistency in Transformer Language Models](lost_in_multilinguality_dissecting_cross-lingual_factual_inconsistency_in_transf.md)
 
 <!-- RELATED:END -->

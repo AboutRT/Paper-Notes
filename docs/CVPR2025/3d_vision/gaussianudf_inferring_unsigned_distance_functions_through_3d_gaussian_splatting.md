@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19458](https://arxiv.org/abs/2503.19458)  
-**代码**: https://lisj575.github.io/GaussianUDF/ (有)  
+**代码**: [https://lisj575.github.io/GaussianUDF/](https://lisj575.github.io/GaussianUDF/)  
 **领域**: 3D视觉  
 **关键词**: 无符号距离函数, 3D高斯溅射, 开放曲面重建, 2D高斯, 自监督
 

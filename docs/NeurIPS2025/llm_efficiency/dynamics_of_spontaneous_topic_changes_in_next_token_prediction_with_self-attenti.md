@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2501.06382](https://arxiv.org/abs/2501.06382)  
 **代码**: 无  
-**领域**: LLM理论 / 认知科学  
+**领域**: LLM效率  
 **关键词**: spontaneous thought, topic change, self-attention theory, token priority graph, cognitive gap
 
 ## 一句话总结
@@ -120,8 +120,8 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] L-MTP: Leap Multi-Token Prediction Beyond Adjacent Context for Large Language Models](l-mtp_leap_multi-token_prediction_beyond_adjacent_context_for_large_language_mod.md)
-- [\[NeurIPS 2025\] Frequency-Aware Token Reduction for Efficient Vision Transformer](frequency-aware_token_reduction_for_efficient_vision_transformer.md)
-- [\[CVPR 2025\] Spiking Transformer: Introducing Accurate Addition-Only Spiking Self-Attention for Transformer](../../CVPR2025/llm_efficiency/spiking_transformer_introducing_accurate_addition-only_spiking_self-attention_fo.md)
+- [\[NeurIPS 2025\] Scale-invariant Attention](scale-invariant_attention.md)
+- [\[NeurIPS 2025\] Linear Attention for Efficient Bidirectional Sequence Modeling](linear_attention_for_efficient_bidirectional_sequence_modeling.md)
 - [\[NeurIPS 2025\] Tensor Product Attention Is All You Need](tensor_product_attention_is_all_you_need.md)
 - [\[NeurIPS 2025\] The Emergence of Sparse Attention: Impact of Data Distribution and Benefits of Repetition](the_emergence_of_sparse_attention_impact_of_data_distribution_and_benefits_of_re.md)
 

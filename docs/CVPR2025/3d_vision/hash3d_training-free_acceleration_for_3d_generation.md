@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2404.06091](https://arxiv.org/abs/2404.06091)  
-**代码**: https://github.com/Adamdad/hash3D (有)  
+**代码**: [https://github.com/Adamdad/hash3D](https://github.com/Adamdad/hash3D)  
 **领域**: 3D视觉  
 **关键词**: 3D生成加速, Score Distillation, 特征复用, 哈希表, 扩散模型
 

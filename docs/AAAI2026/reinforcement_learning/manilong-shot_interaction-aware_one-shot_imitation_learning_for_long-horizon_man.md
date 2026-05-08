@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 单次模仿学习
-  - 长序列操作
+  - 强化学习
   - 交互感知
   - 不变区域
   - 任务分解
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.16302](https://arxiv.org/abs/2512.16302)  
 **代码**: [网站](https://sites.google.com/view/manilong-shot)  
-**领域**: 机器人学习 / 模仿学习  
+**领域**: 强化学习  
 **关键词**: 单次模仿学习, 长序列操作, 交互感知, 不变区域, 任务分解
 
 ## 一句话总结
@@ -218,9 +218,9 @@ $$\mathbf{T}_j = \arg\min_{\mathbf{T} \in SE(3)} \|\mathbf{T} \mathbf{T}_i^{-1} 
 ## 相关论文
 
 - [\[AAAI 2026\] Where and What Matters: Sensitivity-Aware Task Vectors for Many-Shot Multimodal In-Context Learning](where_and_what_matters_sensitivity-aware_task_vectors_for_many-shot_multimodal_i.md)
+- [\[AAAI 2026\] Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward](actor-critic_for_continuous_action_chunks_a_reinforcement_le.md)
 - [\[AAAI 2026\] Learning to Generate and Extract: A Multi-Agent Collaboration Framework for Zero-shot Document-level Event Arguments Extraction](learning_to_generate_and_extract_a_multi-agent_collaboration_framework_for_zero-.md)
-- [\[ICLR 2026\] Strict Subgoal Execution: Reliable Long-Horizon Planning in Hierarchical Reinforcement Learning](../../ICLR2026/reinforcement_learning/strict_subgoal_execution_reliable_long-horizon_planning_in_hierarchical_reinforc.md)
-- [\[AAAI 2026\] One-Step Generative Policies with Q-Learning: A Reformulation of MeanFlow](one-step_generative_policies_with_q-learning_a_reformulation_of_meanflow.md)
 - [\[NeurIPS 2025\] Reinforcement Learning for Long-Horizon Multi-Turn Search Agents](../../NeurIPS2025/reinforcement_learning/reinforcement_learning_for_long-horizon_multi-turn_search_agents.md)
+- [\[AAAI 2026\] Language Model Distillation: A Temporal Difference Imitation Learning Perspective](language_model_distillation_a_temporal_difference_imitation_learning_perspective.md)
 
 <!-- RELATED:END -->

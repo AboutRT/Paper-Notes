@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Inverse Optimization Latent Variable Models for Learning Costs Applied to Route Problems
 description: >-
-  [NeurIPS 2025][inverse optimization] 提出 IO-LVM（Inverse Optimization Latent Variable Model），用 VAE 式编码器映射观测的 COP 解到潜在成本空间，通过 Fenchel-Young 损失和黑盒求解器（Dijkstra/TSP solver）在解码端保证可行性，无需 agent 标签即可从路径数据中学到成本函数的分布，成功不可监督地分离不同 agent 的导航偏好。
+  [NeurIPS 2025][强化学习] 提出 IO-LVM（Inverse Optimization Latent Variable Model），用 VAE 式编码器映射观测的 COP 解到潜在成本空间，通过 Fenchel-Young 损失和黑盒求解器（Dijkstra/TSP solver）在解码端保证可行性，无需 agent 标签即可从路径数据中学到成本函数的分布，成功不可监督地分离不同 agent 的导航偏好。
 tags:
   - NeurIPS 2025
-  - inverse optimization
+  - 强化学习
   - latent variable model
   - Fenchel-Young loss
   - route planning
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.15999](https://arxiv.org/abs/2509.15999)  
 **代码**: 无  
-**领域**: 组合优化 / 逆优化 / 生成模型  
+**领域**: 强化学习  
 **关键词**: inverse optimization, latent variable model, Fenchel-Young loss, route planning, TSP, VAE
 
 ## 一句话总结
@@ -118,8 +118,8 @@ tags:
 
 - [\[NeurIPS 2025\] Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm](trust_region_reward_optimization_and_proximal_inverse_reward_optimization_algori.md)
 - [\[NeurIPS 2025\] Complexity Scaling Laws for Neural Models using Combinatorial Optimization](complexity_scaling_laws_for_neural_models_using_combinatorial_optimization.md)
-- [\[NeurIPS 2025\] Strategic Costs of Perceived Bias in Fair Selection](strategic_costs_of_perceived_bias_in_fair_selection.md)
-- [\[NeurIPS 2025\] Dynamics-Aligned Latent Imagination in Contextual World Models for Zero-Shot Generalization](dynamics-aligned_latent_imagination_in_contextual_world_models_for_zero-shot_gen.md)
 - [\[NeurIPS 2025\] Hybrid Latent Reasoning via Reinforcement Learning](hybrid_latent_reasoning_via_reinforcement_learning.md)
+- [\[NeurIPS 2025\] Dynamics-Aligned Latent Imagination in Contextual World Models for Zero-Shot Generalization](dynamics-aligned_latent_imagination_in_contextual_world_models_for_zero-shot_gen.md)
+- [\[NeurIPS 2025\] Adaptively Coordinating with Novel Partners via Learned Latent Strategies](adaptively_coordinating_with_novel_partners_via_learned_latent_strategies.md)
 
 <!-- RELATED:END -->

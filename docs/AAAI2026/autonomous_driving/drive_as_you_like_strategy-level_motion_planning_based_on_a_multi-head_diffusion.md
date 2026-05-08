@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2508.16947](https://arxiv.org/abs/2508.16947)  
 **代码**: 待确认  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: autonomous driving, diffusion model, GRPO, Motion Planning, Driving Preferences
 
 ## 一句话总结

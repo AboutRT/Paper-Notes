@@ -20,7 +20,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.01392](https://arxiv.org/abs/2506.01392)  
 **代码**: 无（基于 DINO-WM 框架）  
-**领域**: Robotics / World Model / Planning  
+**领域**: 机器人  
 **关键词**: world model, sparse tokens, MPC, DINO, VLA, token dropout, planning efficiency
 
 ## 一句话总结

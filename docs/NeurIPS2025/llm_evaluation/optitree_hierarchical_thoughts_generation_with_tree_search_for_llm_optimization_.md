@@ -2,10 +2,10 @@
 title: >-
   [论文解读] OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling
 description: >-
-  [NeurIPS 2025][运筹优化建模] 提出 OptiTree，通过构建建模树（modeling tree）组织运筹优化问题的层次化分类与建模思维，利用树搜索将复杂问题自适应分解为更简单的子问题序列，显著提升 LLM 在优化建模任务上的准确率（在多个困难基准上提升超过 10%）。
+  [NeurIPS 2025][LLM评测] 提出 OptiTree，通过构建建模树（modeling tree）组织运筹优化问题的层次化分类与建模思维，利用树搜索将复杂问题自适应分解为更简单的子问题序列，显著提升 LLM 在优化建模任务上的准确率（在多个困难基准上提升超过 10%）。
 tags:
   - NeurIPS 2025
-  - 运筹优化建模
+  - LLM评测
   - LLM推理
   - 树搜索
   - 子问题分解
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22192](https://arxiv.org/abs/2510.22192)  
 **代码**: [GitHub](https://github.com/MIRALab-USTC/OptiTree/tree/main)  
-**领域**: llm_nlp  
+**领域**: LLM评测  
 **关键词**: 运筹优化建模, LLM推理, 树搜索, 子问题分解, 层次化思维
 
 ## 一句话总结
@@ -175,8 +175,8 @@ $$\mathcal{P}^{(1)} = \underset{\mathcal{P}_t^{(0)}}{\text{argmax}} \; \mathbb{I
 
 - [\[NeurIPS 2025\] Leveraging Robust Optimization for LLM Alignment under Distribution Shifts](leveraging_robust_optimization_for_llm_alignment_under_distribution_shifts.md)
 - [\[ACL 2025\] HPSS: Heuristic Prompting Strategy Search for LLM Evaluators](../../ACL2025/llm_evaluation/hpss_heuristic_prompting_strategy_search_for_llm_evaluators.md)
+- [\[NeurIPS 2025\] RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases](rdb2g-bench_a_comprehensive_benchmark_for_automatic_graph_modeling_of_relational.md)
 - [\[NeurIPS 2025\] Incomplete Multi-view Clustering via Hierarchical Semantic Alignment and Cooperative Completion](incomplete_multi-view_clustering_via_hierarchical_semantic_alignment_and_coopera.md)
-- [\[ACL 2025\] RealHiTBench: A Comprehensive Realistic Hierarchical Table Benchmark for Evaluating LLM-Based Table Analysis](../../ACL2025/llm_evaluation/realhitbench_a_comprehensive_realistic_hierarchical_table_benchmark_for_evaluati.md)
 - [\[AAAI 2026\] MCTS-SQL: Light-Weight LLMs can Master the Text-to-SQL through Monte Carlo Tree Search](../../AAAI2026/llm_evaluation/mcts-sql_light-weight_llms_can_master_the_text-to-sql_through_monte_carlo_tree_s.md)
 
 <!-- RELATED:END -->

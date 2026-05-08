@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.16946](https://arxiv.org/abs/2507.16946)  
-**代码**: https://doi.org/10.5281/zenodo.16283852 (benchmark)  
+**代码**: [https://doi.org/10.5281/zenodo.16283852](https://doi.org/10.5281/zenodo.16283852) (benchmark)  
 **领域**: 医学图像 / 异常检测  
 **关键词**: 长尾异常检测, 在线学习, 类无关概念, VQ-VAE, prompt learning
 

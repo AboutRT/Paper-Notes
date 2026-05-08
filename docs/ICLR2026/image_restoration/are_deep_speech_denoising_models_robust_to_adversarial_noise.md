@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 图像恢复
-  - 对抗攻击
+  - 图像复原
   - 语音去噪
   - 心理声学掩蔽
   - DNS
@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2503.11627](https://arxiv.org/abs/2503.11627)  
 **代码**: [GitHub](https://github.com/audiolabs/speech-denoising-adversarial)（UMass Amherst + Dolby Labs）  
-**领域**: AI Safety / 语音安全  
+**领域**: 图像复原  
 **关键词**: 对抗攻击, 语音去噪, 心理声学掩蔽, DNS, 对抗鲁棒性, PGD  
 
 ## 一句话总结
@@ -141,9 +141,9 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2026\] Learning to Translate Noise for Robust Image Denoising](../../CVPR2026/image_restoration/learning_to_translate_noise_for_robust_image_denoising.md)
-- [\[ICLR 2026\] Activation Steering for Masked Diffusion Language Models](activation_steering_for_masked_diffusion_language_models.md)
-- [\[ACL 2025\] DiffuseDef: Improved Robustness to Adversarial Attacks via Iterative Denoising](../../ACL2025/image_restoration/diffusedef_adversarial_defense.md)
 - [\[ICLR 2026\] Horizon Imagination: Efficient On-Policy Rollout in Diffusion World Models](horizon_imagination_efficient_on-policy_rollout_in_diffusion_world_models.md)
 - [\[ICLR 2026\] wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models](wd1_weighted_policy_optimization_for_reasoning_in_diffusion_language_models.md)
+- [\[ACL 2025\] DiffuseDef: Improved Robustness to Adversarial Attacks via Iterative Denoising](../../ACL2025/image_restoration/diffusedef_adversarial_defense.md)
+- [\[AAAI 2026\] Hard vs. Noise: Resolving Hard-Noisy Sample Confusion in Recommender Systems via Large Language Models](../../AAAI2026/image_restoration/hard_vs_noise_resolving_hard-noisy_sample_confusion_in_recommender_systems_via_l.md)
 
 <!-- RELATED:END -->

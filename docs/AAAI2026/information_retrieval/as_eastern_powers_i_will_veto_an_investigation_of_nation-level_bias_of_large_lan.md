@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.10695](https://arxiv.org/abs/2511.10695)  
 **代码**: [GitHub](https://github.com/concistency/Nation-Level_Bias)  
-**领域**: LLM偏见分析  
+**领域**: 信息检索  
 **关键词**: 国家级偏见, 国际关系, 联合国安理会, 显式偏见, 隐式偏见
 
 ## 一句话总结

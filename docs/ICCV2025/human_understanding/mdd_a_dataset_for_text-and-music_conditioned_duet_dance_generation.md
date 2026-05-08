@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2508.16911](https://arxiv.org/abs/2508.16911)  
-**代码**: https://gprerit96.github.io/mdd-page  
+**代码**: [https://gprerit96.github.io/mdd-page](https://gprerit96.github.io/mdd-page)  
 **领域**: 人体运动理解 / 舞蹈生成  
 **关键词**: 双人舞蹈生成, 多模态数据集, 文本控制运动生成, 动作捕捉, SMPL-X
 
@@ -149,10 +149,10 @@ $$E(\theta, t, \beta) = \lambda_1 \frac{1}{N} \sum_{j \in \mathcal{J}} \lambda_p
 
 ## 相关论文
 
-- [\[ICCV 2025\] RapVerse: Coherent Vocals and Whole-Body Motion Generation from Text](rapverse_coherent_vocals_and_whole-body_motion_generation_from_text.md)
 - [\[ICCV 2025\] HUMOTO: A 4D Dataset of Mocap Human Object Interactions](humoto_a_4d_dataset_of_mocap_human_object_interactions.md)
 - [\[ICCV 2025\] GenM3: Generative Pretrained Multi-path Motion Model for Text Conditional Human Motion Generation](genm3_generative_pretrained_multi-path_motion_model_for_text_conditional_human_m.md)
-- [\[CVPR 2025\] Scalable Video-to-Dataset Generation for Cross-Platform Mobile Agents](../../CVPR2025/human_understanding/scalable_video-to-dataset_generation_for_cross-platform_mobile_agents.md)
-- [\[ICCV 2025\] Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation](align_your_rhythm_generating_highly_aligned_dance_poses_with_gating-enhanced_rhy.md)
+- [\[ICCV 2025\] UDC-VIT: A Real-World Video Dataset for Under-Display Cameras](udc-vit_a_real-world_video_dataset_for_under-display_cameras.md)
+- [\[ECCV 2024\] WordRobe: Text-Guided Generation of Textured 3D Garments](../../ECCV2024/human_understanding/wordrobe_text-guided_generation_of_textured_3d_garments.md)
+- [\[CVPR 2026\] MoLingo: Motion-Language Alignment for Text-to-Human Motion Generation](../../CVPR2026/human_understanding/molingo_motion-language_alignment_for_text-to-motion_generation.md)
 
 <!-- RELATED:END -->

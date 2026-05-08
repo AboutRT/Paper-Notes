@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.03941](https://arxiv.org/abs/2506.03941)  
 **代码**: 有（集成到 ConvoKit）  
-**领域**: NLP / 对话分析 / 心理健康  
+**领域**: 其他  
 **关键词**: Pivotal Moments, Crisis Counseling, Conversational Forecasting, Suspense, Unsupervised Detection
 
 ## 一句话总结
@@ -52,7 +52,7 @@ tags:
 
 1. **PIV 度量（悬念形式化）**：定义关键性度量为——在时刻 k，模拟 n 个可能的咨询员回复 u'_{k+1}，对每个回复用预测模型估计最终结果概率 P(outcome|u₁...uₖu'_{k+1})，然后计算这些概率的方差：
 
-   $$PIV_k = Var_{u'_{k+1}}[P(\text{outcome}|u_1...u_k \mathbf{u'_{k+1}})]$$
+    $PIV_k = Var_{u'_{k+1}}[P(\text{outcome}|u_1...u_k \mathbf{u'_{k+1}})]$
 
    PIV 高意味着对话"悬而未决"，低意味着无论怎么回复，结果大致相同。
 

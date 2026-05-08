@@ -139,10 +139,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2026\] De-Anonymization at Scale via Tournament-Style Attribution](../../ACL2026/ai_safety/de-anonymization_at_scale_via_tournament-style_attribution.md)
 - [\[NeurIPS 2025\] Beyond Last-Click: An Optimal Mechanism for Ad Attribution](../../NeurIPS2025/ai_safety/beyond_last-click_an_optimal_mechanism_for_ad_attribution.md)
 - [\[ICLR 2026\] Watermark-based Detection and Attribution of AI-Generated Content](../../ICLR2026/ai_safety/watermark-based_attribution_of_ai-generated_content.md)
-- [\[ACL 2026\] ForgeryTalker: Generating Attribution Reports for Manipulated Facial Images](../../ACL2026/ai_safety/generating_attribution_reports_for_manipulated_facial_images_a_dataset_and_basel.md)
-- [\[ACL 2025\] Improving Fairness of Large Language Models in Multi-document Summarization](improving_fairness_of_large_language_models_in_multi-document_summarization.md)
+- [\[ACL 2025\] FairI Tales: Evaluation of Fairness in Indian Contexts with a Focus on Bias and Stereotypes](fairi_tales_evaluation_of_fairness_in_indian_contexts_with_a_focus_on_bias_and_s.md)
+- [\[ACL 2025\] Robust and Minimally Invasive Watermarking for EaaS](robust_and_minimally_invasive_watermarking_for_eaas.md)
+- [\[ACL 2025\] CENTAUR: Bridging the Impossible Trinity of Privacy, Efficiency, and Performance in Privacy-Preserving Transformer Inference](centaur_bridging_the_impossible_trinity_of.md)
 
 <!-- RELATED:END -->

@@ -16,7 +16,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.13761](https://arxiv.org/abs/2407.13761)  
-**代码**: https://heshuting555.github.io/SegPoint  
+**代码**: [https://heshuting555.github.io/SegPoint](https://heshuting555.github.io/SegPoint)  
 **领域**: 3D视觉 / 点云分割  
 **关键词**: 3D point cloud segmentation, LLM, unified framework, instruction segmentation, geometric feature
 
@@ -44,34 +44,34 @@ SegPoint 由四个核心部分组成：(1) 预训练点云编码器 $\mathcal{E}
 ### 关键设计
 
 #### 1. **Vanilla Baseline 及其问题**
-   - 功能：直接将点云编码器特征送入 LLM，检测 `<SEG>` token 后生成掩码嵌入 $\vec{h}_{seg} = \gamma(\vec{y}_{[seg]})$，与上采样后的逐点嵌入做点积得到掩码 $\vec{m} = \vec{h}_{seg} \otimes \text{UpS.}(\vec{f}_{point})$
-   - 存在问题：(a) 点云编码器为场景级分类训练，不适合密集预测；(b) FPS 采样从 $N$ 降到 $N_1$ 丢失细节；(c) 从 $N_1$ 直接上采样到 $N$ 引入大量噪声
-   - 设计动机：明确了两个核心瓶颈——局部几何信息缺失和上采样质量差
+    - 功能：直接将点云编码器特征送入 LLM，检测 `<SEG>` token 后生成掩码嵌入 $\vec{h}_{seg} = \gamma(\vec{y}_{[seg]})$，与上采样后的逐点嵌入做点积得到掩码 $\vec{m} = \vec{h}_{seg} \otimes \text{UpS.}(\vec{f}_{point})$
+    - 存在问题：(a) 点云编码器为场景级分类训练，不适合密集预测；(b) FPS 采样从 $N$ 降到 $N_1$ 丢失细节；(c) 从 $N_1$ 直接上采样到 $N$ 引入大量噪声
+    - 设计动机：明确了两个核心瓶颈——局部几何信息缺失和上采样质量差
 
 #### 2. **几何增强模块 (Geometric Enhancer Module, GEM)**
-   - 功能：提取全场景局部几何上下文，通过交叉注意力注入点云编码器的中间特征
-   - 核心思路：
-     - GEM 由 3 个 KPConv + BN + ReLU 块组成，输出几何特征 $\vec{g}_f \in \mathbb{R}^{N \times D}$，保留所有 $N$ 个点的信息
-     - 通过交叉注意力将几何特征注入编码器的每个 block：$\hat{\vec{f}_i} = \vec{f}_i + g_i \cdot \text{softmax}\left(\frac{\vec{f}_i \vec{g}_f^T}{\sqrt{D}}\right) \vec{g}_f$
-     - 可学习门控因子 $g_i$ 初始为零，确保不会突然改变预训练权重的特征分布
-   - 设计动机：KPConv 天然适合提取局部 3D 几何信息（vs 普通线性层）；门控因子保护预训练权重；类似 2D 中 ConvStem 增强 ViT 捕获局部信息的思路
+    - 功能：提取全场景局部几何上下文，通过交叉注意力注入点云编码器的中间特征
+    - 核心思路：
+      - GEM 由 3 个 KPConv + BN + ReLU 块组成，输出几何特征 $\vec{g}_f \in \mathbb{R}^{N \times D}$，保留所有 $N$ 个点的信息
+      - 通过交叉注意力将几何特征注入编码器的每个 block：$\hat{\vec{f}_i} = \vec{f}_i + g_i \cdot \text{softmax}\left(\frac{\vec{f}_i \vec{g}_f^T}{\sqrt{D}}\right) \vec{g}_f$
+      - 可学习门控因子 $g_i$ 初始为零，确保不会突然改变预训练权重的特征分布
+    - 设计动机：KPConv 天然适合提取局部 3D 几何信息（vs 普通线性层）；门控因子保护预训练权重；类似 2D 中 ConvStem 增强 ViT 捕获局部信息的思路
 
 #### 3. **几何引导特征传播 (Geometric-guided Feature Propagation, GFP)**
-   - 功能：从稀疏点特征高质量上采样到密集逐点嵌入
-   - 核心思路：
-     - 高层特征 $\vec{f}_3, \vec{f}_4$ 通过 PointNet++ 传播上采样到 $N_3, N_2$ 个点
-     - 几何特征 $\vec{g}_f$ 通过 FPS 下采样到相同数量的点
-     - 上/下采样特征拼接后通过 FC + ReLU 融合
-     - 最后一层特征 $\vec{f}_5$ 与 LLM 输出的隐层嵌入拼接，感知多模态信息
-     - **Attentive Propagation**：使用交叉注意力实现不同点密度间的信息交换：$\hat{\tilde{\vec{f}}}_4 = \tilde{\vec{f}}_4 + \text{softmax}\left(\frac{\tilde{\vec{f}}_4 \vec{f}_{54}^T}{\sqrt{D}}\right)\vec{f}_{54}$
-   - 设计动机：避免直接上采样导致的信息丢失；几何特征作为"黄金信息"引导上采样过程
+    - 功能：从稀疏点特征高质量上采样到密集逐点嵌入
+    - 核心思路：
+      - 高层特征 $\vec{f}_3, \vec{f}_4$ 通过 PointNet++ 传播上采样到 $N_3, N_2$ 个点
+      - 几何特征 $\vec{g}_f$ 通过 FPS 下采样到相同数量的点
+      - 上/下采样特征拼接后通过 FC + ReLU 融合
+      - 最后一层特征 $\vec{f}_5$ 与 LLM 输出的隐层嵌入拼接，感知多模态信息
+      - **Attentive Propagation**：使用交叉注意力实现不同点密度间的信息交换：$\hat{\tilde{\vec{f}}}_4 = \tilde{\vec{f}}_4 + \text{softmax}\left(\frac{\tilde{\vec{f}}_4 \vec{f}_{54}^T}{\sqrt{D}}\right)\vec{f}_{54}$
+    - 设计动机：避免直接上采样导致的信息丢失；几何特征作为"黄金信息"引导上采样过程
 
 #### 4. **任务统一与 Instruct3D 数据集**
-   - 功能：通过任务特定提示（task-specific prompts）在统一模型中处理4种分割任务
-   - 语义分割模板："Can you segment the {category} in this point cloud?" → "{category} \<SEG\>"
-   - 引用分割模板："Can you segment the object {description}?" → "{category} \<SEG\>"
-   - Instruct3D 包含 2,565 对指令-点云对，来自 ScanNet++ 的 280 个场景，支持多目标和零目标场景
-   - 设计动机：隐含指令需要推理能力（如"哪里可以坐?"→分割椅子），现有数据集不支持
+    - 功能：通过任务特定提示（task-specific prompts）在统一模型中处理4种分割任务
+    - 语义分割模板："Can you segment the {category} in this point cloud?" → "{category} \<SEG\>"
+    - 引用分割模板："Can you segment the object {description}?" → "{category} \<SEG\>"
+    - Instruct3D 包含 2,565 对指令-点云对，来自 ScanNet++ 的 280 个场景，支持多目标和零目标场景
+    - 设计动机：隐含指令需要推理能力（如"哪里可以坐?"→分割椅子），现有数据集不支持
 
 ### 损失函数 / 训练策略
 总损失：$\mathcal{L} = \lambda_{txt}\mathcal{L}_{txt} + \lambda_{bce}\mathcal{L}_{bce} + \lambda_{dice}\mathcal{L}_{dice}$

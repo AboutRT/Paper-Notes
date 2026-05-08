@@ -126,8 +126,8 @@ POST 分为在线阶段和离线阶段：
 
 - [\[ICML 2025\] Breaking the n^{1.5} Additive Error Barrier for Private and Efficient Graph Sparsification](breaking_the_n15_additive_error_barrier_for_private_and_efficient_graph_sparsifi.md)
 - [\[NeurIPS 2025\] DictPFL: Efficient and Private Federated Learning on Encrypted Gradients](../../NeurIPS2025/ai_safety/dictpfl_efficient_and_private_federated_learning_on_encrypted_gradients.md)
-- [\[NeurIPS 2025\] MPCache: MPC-Friendly KV Cache Eviction for Efficient Private LLM Inference](../../NeurIPS2025/ai_safety/mpcache_mpc-friendly_kv_cache_eviction_for_efficient_private_llm_inference.md)
-- [\[ICML 2025\] Cascade: Token-Sharded Private LLM Inference](cascade_token-sharded_private_llm_inference.md)
+- [\[ICML 2025\] Private Model Personalization Revisited](private_model_personalization_revisited.md)
 - [\[NeurIPS 2025\] Differentially Private Bilevel Optimization: Efficient Algorithms with Near-Optimal Rates](../../NeurIPS2025/ai_safety/differentially_private_bilevel_optimization_efficient_algorithms_with_near-optim.md)
+- [\[ICML 2025\] Faster Rates for Private Adversarial Bandits](faster_rates_for_private_adversarial_bandits.md)
 
 <!-- RELATED:END -->

@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2408.03753](https://arxiv.org/abs/2408.03753)  
 **作者**: Zhe Jun Tang, Tat-Jen Cham (NTU S-Lab)  
-**代码**: [https://github.com/TangZJ/3iGS](https://github.com/TangZJ/3iGS) (有)  
+**代码**: [https://github.com/TangZJ/3iGS](https://github.com/TangZJ/3iGS)  
 **领域**: 3D视觉 / 新视角合成  
 **关键词**: 3D Gaussian Splatting, 光照建模, BRDF, 张量分解, 视角依赖效果  
 
@@ -144,8 +144,8 @@ $$\mathcal{F}: \{\rho_i, L_i, \omega_o\} \mapsto \mathbf{c_s}$$
 
 - [\[ECCV 2024\] MIGS: Multi-Identity Gaussian Splatting via Tensor Decomposition](migs_multi-identity_gaussian_splatting_via_tensor_decomposition.md)
 - [\[ECCV 2024\] Analytic-Splatting: Anti-Aliased 3D Gaussian Splatting via Analytic Integration](analytic-splatting_anti-aliased_3d_gaussian_splatting_via_analytic_integration.md)
-- [\[ECCV 2024\] Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal](learning_3d_geometry_and_feature_consistent_gaussian_splatting_for_object_remova.md)
-- [\[ECCV 2024\] HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression](hac_hash-grid_assisted_context_for_3d_gaussian_splatting_compression.md)
 - [\[ECCV 2024\] HeadGaS: Real-Time Animatable Head Avatars via 3D Gaussian Splatting](headgas_real-time_animatable_head_avatars_via_3d_gaussian_splatting.md)
+- [\[ECCV 2024\] MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images](mvsplat_efficient_3d_gaussian_splatting_from_sparse_multi-view_images.md)
+- [\[ECCV 2024\] Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal](learning_3d_geometry_and_feature_consistent_gaussian_splatting_for_object_remova.md)
 
 <!-- RELATED:END -->

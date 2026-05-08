@@ -65,11 +65,11 @@ $$\boldsymbol{\theta} = \arg\max_{\boldsymbol{\theta}} \sum_{1 \leq j \leq n} \l
 1. **层次化 KL 损失加权（Hierarchical KL Loss Weighing）**：解决噪声穿透问题的关键创新。
 
    HVAE 的隐空间是分层的：底层 $Z[i]$（小 $i$）编码精细像素级结构（分辨率高），高层编码大尺度结构。在 μSplit 中，每层的 KL 散度标量化为：
-   $$\text{kl}_i = \alpha \cdot \sum_{j,h,w} \frac{\text{KL}_i[j,h,w]}{h_i \cdot w_i}$$
+    $\text{kl}_i = \alpha \cdot \sum_{j,h,w} \frac{\text{KL}_i[j,h,w]}{h_i \cdot w_i}$
    即按**空间大小取平均**。这导致底层的每个像素位置的 KL 约束权重较小，结果是噪声容易通过底层隐空间"泄露"到输出中。
 
    DenoiSplit 改为**直接求和**（不除以空间大小）：
-   $$\text{kl}_i = \alpha \cdot \sum_{j,h,w} \text{KL}_i[j,h,w]$$
+    $\text{kl}_i = \alpha \cdot \sum_{j,h,w} \text{KL}_i[j,h,w]$
 
    这使底层隐空间受到更强的高斯先验约束，阻止噪声被编码。这个看似微小的改动效果显著——单独使用此修改（称为 Altered μSplit）就能大幅提升含噪数据上的分解质量。
 
@@ -77,10 +77,10 @@ $$\boldsymbol{\theta} = \arg\max_{\boldsymbol{\theta}} \sum_{1 \leq j \leq n} \l
 
    将两个通道各自的对数似然项替换为噪声模型定义的似然：
 
-   $$E_{q(z|x;\phi)}[\log P^{nm}(c_1^N|\hat{c}_1) + \log P^{nm}(c_2^N|\hat{c}_2)] - KL(q(z|x;\phi), P(z))$$
+    $E_{q(z|x;\phi)}[\log P^{nm}(c_1^N|\hat{c}_1) + \log P^{nm}(c_2^N|\hat{c}_2)] - KL(q(z|x;\phi), P(z))$
 
    噪声模型 $P_i^{nm}(c_i^N|c_i)$ 定义了从真实像素强度到含噪观测的映射（反之亦然），在像素间相互独立：
-   $$P_i^{nm}(c_i^N|c_i) = \prod_k P_i^{nm}(c_i^N[k]|c_i[k])$$
+    $P_i^{nm}(c_i^N|c_i) = \prod_k P_i^{nm}(c_i^N[k]|c_i[k])$
 
    这种独立性特别适合显微镜数据中的泊松噪声和高斯噪声。网络不再预测高斯分布参数，而是直接预测无噪像素值 $(\hat{c}_1, \hat{c}_2)$，通过噪声模型计算这些预测值产生观测到的含噪数据的概率。噪声模型可以从显微镜的校准数据中测量获得，也可以从训练数据中估计。
 
@@ -189,8 +189,8 @@ $$\mathcal{L} = -E_{q(z|x;\phi)}[\log P^{nm}(c_1^N|\hat{c}_1) + \log P^{nm}(c_2^
 
 ## 相关论文
 
-- [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](../../CVPR2025/image_restoration/rotation-equivariant_self-supervised_method_in_image_denoising.md)
 - [\[ECCV 2024\] Joint RGB-Spectral Decomposition Model Guided Image Enhancement in Mobile Photography](joint_rgb-spectral_decomposition_model_guided_image_enhancement_in_mobile_photog.md)
+- [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](../../CVPR2025/image_restoration/rotation-equivariant_self-supervised_method_in_image_denoising.md)
 - [\[ECCV 2024\] Pairwise Distance Distillation for Unsupervised Real-World Image Super-Resolution](pairwise_distance_distillation_for_unsupervised_real-world_image_super-resolutio.md)
 - [\[ECCV 2024\] TTT-MIM: Test-Time Training with Masked Image Modeling for Denoising Distribution Shifts](ttt-mim_test-time_training_with_masked_image_modeling_for_denoising_distribution.md)
 - [\[ECCV 2024\] EDformer: Transformer-Based Event Denoising Across Varied Noise Levels](edformer_transformer-based_event_denoising_across_varied_noise_levels.md)

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.01383](https://arxiv.org/abs/2504.01383)  
-**代码**: https://visual-ai.github.io/vclr  
+**代码**: [https://visual-ai.github.io/vclr](https://visual-ai.github.io/vclr)  
 **领域**: 分割  
 **关键词**: 开放世界实例分割, 外观不变表示, 视图一致性, 纹理偏差, 跨类别泛化
 

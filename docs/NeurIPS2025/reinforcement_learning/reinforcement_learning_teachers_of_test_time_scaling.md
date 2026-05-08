@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Reinforcement Learning Teachers of Test Time Scaling
 description: >-
-  [NeurIPS 2025][推理语言模型] 提出强化学习教师（RLT）框架，将问题和答案同时提供给教师模型，训练其生成有效的解释性推理链条，而非从零解题，从而用7B参数的小教师模型产出比数量级更大模型更优的蒸馏数据。
+  [NeurIPS 2025][强化学习] 提出强化学习教师（RLT）框架，将问题和答案同时提供给教师模型，训练其生成有效的解释性推理链条，而非从零解题，从而用7B参数的小教师模型产出比数量级更大模型更优的蒸馏数据。
 tags:
   - NeurIPS 2025
-  - 推理语言模型
+  - 强化学习
   - 知识蒸馏
   - 强化学习
   - 测试时推理
@@ -50,17 +50,17 @@ RLT框架颠覆了传统的RL推理训练范式：
 
     - **学生理解度奖励** $r^{SS}$：衡量学生在看到教师的解释后，对标准答案的理解程度。通过学生对答案token的对数概率来量化：
 
-   $$r^{SS}(o_i, s_i, q_i) = \text{avg}\{\log \pi_s^{s_i}\} + \alpha \min\{\log \pi_s^{s_i}\}$$
+    $r^{SS}(o_i, s_i, q_i) = \text{avg}\{\log \pi_s^{s_i}\} + \alpha \min\{\log \pi_s^{s_i}\}$
 
    其中$\pi_s^{s_i} = \pi_s(s_i | t_{o_i}.q_i)$是学生在看到解释$t_{o_i}$和题目$q_i$后对答案$s_i$的概率。使用avg+min组合确保不忽略任何单个答案token。
 
-   - **逻辑可解释性奖励** $r^{KL}$：确保教师解释中的每一步在学生看来都是合理的逻辑推进。通过教师分布与学生分布在think tokens上的KL散度来衡量：
+    - **逻辑可解释性奖励** $r^{KL}$：确保教师解释中的每一步在学生看来都是合理的逻辑推进。通过教师分布与学生分布在think tokens上的KL散度来衡量：
 
-   $$r^{KL}(o_i, s_i, q_i) = \text{avg}\{\mathbb{D}_{KL}(\pi_\theta^{t_{o_i}} \| \pi_s^{t_{o_i}})\} + \alpha \max\{\mathbb{D}_{KL}(\pi_\theta^{t_{o_i}} \| \pi_s^{t_{o_i}})\}$$
+    $r^{KL}(o_i, s_i, q_i) = \text{avg}\{\mathbb{D}_{KL}(\pi_\theta^{t_{o_i}} \| \pi_s^{t_{o_i}})\} + \alpha \max\{\mathbb{D}_{KL}(\pi_\theta^{t_{o_i}} \| \pi_s^{t_{o_i}})\}$
 
    关键区别在于：教师的分布以题目+答案为条件，学生的分布仅以题目为条件。如果教师的某个解释步骤只有在看到答案时才合理，KL散度就会很大，从而惩罚这种"泄露答案"的解释。
 
-   - **最终奖励**：$r_i^{RLT} = r^{SS}(o_i, s_i, q_i) - \lambda r^{KL}(o_i, s_i, q_i)$
+    - **最终奖励**：$r_i^{RLT} = r^{SS}(o_i, s_i, q_i) - \lambda r^{KL}(o_i, s_i, q_i)$
 
 3. **训练目标**：基于GRPO算法，使用上述RLT奖励替代传统正确性奖励：
 
@@ -134,10 +134,10 @@ $$J^{RLT}(\theta) = \mathbb{E}_{q,s \sim D, \{o\}_1^G \sim \pi_\theta(\cdot|s,q)
 
 ## 相关论文
 
+- [\[ICLR 2026\] P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling](../../ICLR2026/reinforcement_learning/p-genrm_personalized_generative_reward_model_with_test-time_user-based_scaling.md)
 - [\[ICML 2025\] Test-Time Adaptation with Binary Feedback](../../ICML2025/reinforcement_learning/test-time_adaptation_with_binary_feedback.md)
 - [\[NeurIPS 2025\] DeepDiver: Adaptive Search Intensity Scaling via Open-Web Reinforcement Learning](deepdiver_adaptive_search_intensity_scaling_via_open-web_reinforcement_learning.md)
-- [\[ICML 2025\] ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification](../../ICML2025/reinforcement_learning/revise_learning_to_refine_at_test-time_via_intrinsic_self-verification.md)
-- [\[NeurIPS 2025\] Complexity Scaling Laws for Neural Models using Combinatorial Optimization](complexity_scaling_laws_for_neural_models_using_combinatorial_optimization.md)
 - [\[NeurIPS 2025\] Time Reversal Symmetry for Efficient Robotic Manipulations in Deep Reinforcement Learning](time_reversal_symmetry_for_efficient_robotic_manipulations_in_deep_reinforcement.md)
+- [\[ICML 2025\] ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification](../../ICML2025/reinforcement_learning/revise_learning_to_refine_at_test-time_via_intrinsic_self-verification.md)
 
 <!-- RELATED:END -->

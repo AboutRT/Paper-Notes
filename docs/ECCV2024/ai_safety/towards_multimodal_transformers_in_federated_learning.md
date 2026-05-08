@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.12467](https://arxiv.org/abs/2404.12467)  
-**代码**: https://github.com/imguangyu/FedCola (有)  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/imguangyu/FedCola](https://github.com/imguangyu/FedCola)  
+**领域**: AI安全  
 **关键词**: 联邦学习, 多模态Transformer, 跨模态知识迁移, 模态互补, 协作聚合
 
 ## 一句话总结
@@ -121,9 +121,9 @@ tags:
 ## 相关论文
 
 - [\[ECCV 2024\] Fisher Calibration for Backdoor-Robust Heterogeneous Federated Learning](fisher_calibration_for_backdoor-robust_heterogeneous_federated_learning.md)
-- [\[ECCV 2024\] SkyMask: Attack-Agnostic Robust Federated Learning with Fine-Grained Learnable Masks](skymask_attack-agnostic_robust_federated_learning_with_fine-grained_learnable_ma.md)
 - [\[ECCV 2024\] Unveiling Privacy Risks in Stochastic Neural Networks Training: Effective Image Reconstruction from Gradients](unveiling_privacy_risks_in_stochastic_neural_networks_training_effective_image_r.md)
-- [\[ECCV 2024\] Noise-Assisted Prompt Learning for Image Forgery Detection and Localization](noise-assisted_prompt_learning_for_image_forgery_detection_and_localization.md)
+- [\[ECCV 2024\] RingID: Rethinking Tree-Ring Watermarking for Enhanced Multi-Key Identification](ringid_rethinking_tree-ring_watermarking_for_enhanced_multi-key_identification.md)
 - [\[ICLR 2026\] Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](../../ICLR2026/ai_safety/co-lora_collaborative_model_personalization_on_heterogeneous_multi-modal_clients.md)
+- [\[ECCV 2024\] Noise-Assisted Prompt Learning for Image Forgery Detection and Localization](noise-assisted_prompt_learning_for_image_forgery_detection_and_localization.md)
 
 <!-- RELATED:END -->

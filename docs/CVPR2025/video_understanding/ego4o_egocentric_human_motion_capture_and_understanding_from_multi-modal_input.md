@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.08449](https://arxiv.org/abs/2504.08449)  
-**代码**: https://jianwang-mpi.github.io/ego4o (有项目页)  
+**代码**: [https://jianwang-mpi.github.io/ego4o](https://jianwang-mpi.github.io/ego4o) (有项目页)  
 **领域**: 视频理解  
 **关键词**: 第一人称运动捕捉, 多模态融合, IMU传感器, 运动描述生成, VQ-VAE
 

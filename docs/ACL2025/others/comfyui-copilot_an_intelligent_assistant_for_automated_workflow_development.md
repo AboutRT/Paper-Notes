@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - ComfyUI
-  - Multi-Agent Framework
+  - 其他
   - Workflow Generation
   - LLM Agent
   - AIGC
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.05010](https://arxiv.org/abs/2506.05010)  
-**代码**: https://github.com/AIDC-AI/ComfyUI-Copilot (有)  
-**领域**: Others (LLM Agent / AIGC 工具)  
+**代码**: [https://github.com/AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot)  
+**领域**: 其他  
 **关键词**: ComfyUI, Multi-Agent Framework, Workflow Generation, LLM Agent, AIGC
 
 ## 一句话总结
@@ -137,10 +137,10 @@ ComfyUI-Copilot 的目标是降低新手入门门槛，同时提升专家用户�
 
 ## 相关论文
 
-- [\[ACL 2025\] SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL](share_text_to_sql_correction.md)
 - [\[ACL 2025\] Achieving Certification-by-Design Through Model-Driven Development](achieving_certification-by-design_through_model-driven_development.md)
 - [\[ACL 2025\] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs](a_practical_approach_for_building_production-grade_conversational_agents_with_wo.md)
-- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](a_measure_of_the_system_dependence_of_automated_metrics.md)
 - [\[ACL 2025\] ConSim: Measuring Concept-Based Explanations' Effectiveness with Automated Simulatability](consim_measuring_concept-based_explanations_effectiveness_with_automated_simulat.md)
+- [\[ACL 2025\] AceCoder: Acing Coder RL via Automated Test-Case Synthesis](acecoder_acing_coder_rl_via_automated.md)
+- [\[ACL 2025\] A Measure of the System Dependence of Automated Metrics](a_measure_of_the_system_dependence_of_automated_metrics.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection
 description: >-
-  [CVPR 2025][无监督异常检测] TailedCore 解决了无监督异常检测中"正常样本既包含噪声缺陷又服从未知长尾类别分布"的实际场景，提出 TailSampler 通过嵌入相似度的对称性假设预测类别基数来独立采样尾部类样本，构建了既能捕捉尾部类信息又对噪声鲁棒的内存库模型，在多种设置下超过 SOTA。
+  [CVPR 2025][其他] TailedCore 解决了无监督异常检测中"正常样本既包含噪声缺陷又服从未知长尾类别分布"的实际场景，提出 TailSampler 通过嵌入相似度的对称性假设预测类别基数来独立采样尾部类样本，构建了既能捕捉尾部类信息又对噪声鲁棒的内存库模型，在多种设置下超过 SOTA。
 tags:
   - CVPR 2025
-  - 无监督异常检测
+  - 其他
   - 长尾分布
   - 噪声鲁棒
   - 内存库
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.02775](https://arxiv.org/abs/2504.02775)  
-**代码**: https://github.com/YoonGyoJung/TailedCore (有)  
-**领域**: 异常检测  
+**代码**: [https://github.com/YoonGyoJung/TailedCore](https://github.com/YoonGyoJung/TailedCore)  
+**领域**: 其他  
 **关键词**: 无监督异常检测, 长尾分布, 噪声鲁棒, 内存库, 少样本采样
 
 ## 一句话总结
@@ -121,9 +121,9 @@ TailedCore 作为基于内存库的方法不需要额外训练，特征提取使
 ## 相关论文
 
 - [\[ICCV 2025\] Doodle Your Keypoints: Sketch-Based Few-Shot Keypoint Detection](../../ICCV2025/others/doodle_your_keypoints_sketch-based_few-shot_keypoint_detection.md)
-- [\[ICCV 2025\] Is Meta-Learning Out? Rethinking Unsupervised Few-Shot Classification with Limited Entropy](../../ICCV2025/others/is_meta-learning_out_rethinking_unsupervised_few-shot_classification_with_limite.md)
 - [\[CVPR 2025\] Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection](distribution_prototype_diffusion_learning_for_open-set_supervised_anomaly_detect.md)
-- [\[ECCV 2024\] Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection](../../ECCV2024/others/learning_anomalies_with_normality_prior_for_unsupervised_video_anomaly_detection.md)
 - [\[AAAI 2026\] RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection](../../AAAI2026/others/rcae_recursive_reconstruction_framework_for_unsupervised_industrial_anomaly_dete.md)
+- [\[ECCV 2024\] Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection](../../ECCV2024/others/learning_anomalies_with_normality_prior_for_unsupervised_video_anomaly_detection.md)
+- [\[CVPR 2025\] TAET: Two-Stage Adversarial Equalization Training on Long-Tailed Distributions](taet_two-stage_adversarial_equalization_training_on_long-tailed_distributions.md)
 
 <!-- RELATED:END -->

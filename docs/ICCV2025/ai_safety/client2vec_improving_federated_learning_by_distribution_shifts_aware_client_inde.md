@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2405.16233](https://arxiv.org/abs/2405.16233)  
-**代码**: https://github.com/LINs-lab/client2vec  
+**代码**: [https://github.com/LINs-lab/client2vec](https://github.com/LINs-lab/client2vec)  
 **领域**: AI安全/联邦学习  
 **关键词**: 联邦学习, 分布偏移, 客户端索引, CLIP, 非IID数据
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners
 description: >-
-  [NeurIPS 2025][多语言推理] 受认知神经科学启发（人脑的推理与语言处理相对独立），在 LLM 的激活空间中识别并消除语言特定成分，实现语言与推理的解耦，从而在免训练条件下一致性地提升多语言推理性能。
+  [NeurIPS 2025][强化学习] 受认知神经科学启发（人脑的推理与语言处理相对独立），在 LLM 的激活空间中识别并消除语言特定成分，实现语言与推理的解耦，从而在免训练条件下一致性地提升多语言推理性能。
 tags:
   - NeurIPS 2025
-  - 多语言推理
+  - 强化学习
   - 语言-推理解耦
   - 因果干预
   - 激活空间
@@ -123,8 +123,8 @@ $$\hat{\boldsymbol{h}} = \boldsymbol{h} - \lambda \boldsymbol{M}_s^\top \boldsym
 
 - [\[NeurIPS 2025\] Checklists Are Better Than Reward Models For Aligning Language Models](checklists_are_better_than_reward_models_for_aligning_langua.md)
 - [\[NeurIPS 2025\] RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning](rl_tango_reinforcing_generator_and_verifier_together_for_lan.md)
-- [\[NeurIPS 2025\] Horizon Reduction Makes RL Scalable](horizon_reduction_makes_rl_scalable.md)
-- [\[ACL 2026\] LENS: Less Noise, More Voice — Reinforcement Learning for Reasoning via Instruction Purification](../../ACL2026/reinforcement_learning/less_noise_more_voice_reinforcement_learning_for_reasoning_via_instruction_purif.md)
+- [\[NeurIPS 2025\] Incentivizing Reasoning for Advanced Instruction-Following of Large Language Models](incentivizing_reasoning_for_advanced_instruction-following_of_large_language_mod.md)
 - [\[NeurIPS 2025\] Training Language Models to Reason Efficiently](training_language_models_to_reason_efficiently.md)
+- [\[ACL 2026\] LENS: Less Noise, More Voice — Reinforcement Learning for Reasoning via Instruction Purification](../../ACL2026/reinforcement_learning/less_noise_more_voice_reinforcement_learning_for_reasoning_via_instruction_purif.md)
 
 <!-- RELATED:END -->

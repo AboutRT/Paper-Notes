@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2506.09082](https://arxiv.org/abs/2506.09082)  
-**代码**: https://zheda-mai.github.io/AVA-Bench/ (开源)  
+**代码**: [https://zheda-mai.github.io/AVA-Bench/](https://zheda-mai.github.io/AVA-Bench/) (开源)  
 **领域**: 3D视觉 / 视觉基础模型评估  
 **关键词**: VFM评估, 原子视觉能力, benchmark, 能力解耦, 视觉问答
 

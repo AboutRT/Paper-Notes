@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.23478](https://arxiv.org/abs/2510.23478)  
-**代码**: https://github.com/thi-ad/UrbanIng-V2X (有)  
+**代码**: [https://github.com/thi-ad/UrbanIng-V2X](https://github.com/thi-ad/UrbanIng-V2X)  
 **领域**: 自动驾驶 / 协同感知  
 **关键词**: 车路协同, V2X数据集, 协同感知, 多交叉路口, 3D目标检测
 

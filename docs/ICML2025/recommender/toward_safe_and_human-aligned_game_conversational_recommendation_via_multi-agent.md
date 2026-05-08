@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MATCHA: Toward Safe and Human-Aligned Game Conversational Recommendation via Multi-Agent Decomposition
 description: >-
-  [ICML 2025][对话推荐] 提出 MATCHA 多 Agent 框架，将游戏对话推荐分解为六个专用 Agent（意图解析、工具增强候选生成、多 LLM 排序、反思重排、风险控制、可解释生成），在 Roblox 真实用户数据上 Hit@5 提升 20%、流行度偏差降 24%、对抗防御率 97.9%。
+  [ICML 2025][推荐系统] 提出 MATCHA 多 Agent 框架，将游戏对话推荐分解为六个专用 Agent（意图解析、工具增强候选生成、多 LLM 排序、反思重排、风险控制、可解释生成），在 Roblox 真实用户数据上 Hit@5 提升 20%、流行度偏差降 24%、对抗防御率 97.9%。
 tags:
   - ICML 2025
-  - 对话推荐
+  - 推荐系统
   - 多 Agent
   - 游戏推荐
   - 安全控制
@@ -130,9 +130,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2026\] HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation](../../ACL2026/recommender/harpo_hierarchical_agentic_reasoning_for_user-aligned_conversational_recommendat.md)
+- [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
 - [\[ICML 2025\] RLTHF: Targeted Human Feedback for LLM Alignment](rlthf_targeted_human_feedback_for_llm_alignment.md)
 - [\[NeurIPS 2025\] The Coming Crisis of Multi-Agent Misalignment: AI Alignment Must Be a Dynamic and Social Process](../../NeurIPS2025/recommender/the_coming_crisis_of_multi-agent_misalignment_ai_alignment_must_be_a_dynamic_and.md)
-- [\[ICML 2025\] PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model](parm_multi-objective_test-time_alignment_via_preference-aware_autoregressive_rew.md)
-- [\[NeurIPS 2025\] EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration](../../NeurIPS2025/recommender/empathia_multi-faceted_human-ai_collaboration_for_refugee_integration.md)
+- [\[ICML 2025\] Recommendations and Reporting Checklist for Rigorous & Transparent Human Baselines in Model Evaluations](recommendations_and_reporting_checklist_for_rigorous_transparent_human_baselines.md)
 
 <!-- RELATED:END -->

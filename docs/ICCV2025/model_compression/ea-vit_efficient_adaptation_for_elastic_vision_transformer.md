@@ -48,22 +48,22 @@ EA-ViT 分为两个阶段：
 1. **多维弹性架构 (Multi-Dimensional Elastic Architecture)**
 
    在四个维度上引入弹性配置：
-   - MLP扩展比 $R^{(l)}$：控制每层MLP隐藏维度
-   - 注意力头数 $H^{(l)}$：控制每层活跃的注意力头
-   - 嵌入维度 $E$：全层共享的统一嵌入维度
-   - 网络深度 $D^{(l)}$：二值指示器，通过identity mapping跳过特定层
+    - MLP扩展比 $R^{(l)}$：控制每层MLP隐藏维度
+    - 注意力头数 $H^{(l)}$：控制每层活跃的注意力头
+    - 嵌入维度 $E$：全层共享的统一嵌入维度
+    - 网络深度 $D^{(l)}$：二值指示器，通过identity mapping跳过特定层
 
    整体配置空间定义为：
-   $$\theta = (\{R^{(l)}\}_{l=1}^{L}, \{H^{(l)}\}_{l=1}^{L}, E, \{D_{\text{MLP}}^{(l)}, D_{\text{MHA}}^{(l)}\}_{l=1}^{L})$$
+    $\theta = (\{R^{(l)}\}_{l=1}^{L}, \{H^{(l)}\}_{l=1}^{L}, E, \{D_{\text{MLP}}^{(l)}, D_{\text{MHA}}^{(l)}\}_{l=1}^{L})$
 
    以ViT-Base为例，搜索空间可达 $10^{26}$ 种子模型，远超前述方法（最多 $10^{14}$）。采用嵌套式（nested）弹性结构，按重要性排序嵌入维度和注意力头，使关键组件在更多子模型间共享参数。
 
 2. **课程式弹性适配 (Curriculum Elastic Adaptation, CEA)**
 
    同时训练大量子模型会因梯度冲突导致参数干扰。CEA采用课程学习策略，从简单到复杂逐步扩展弹性范围：
-   - 初始阶段仅训练最大子模型（$R_{\min}=R_{\max}$, $H_{\min}=H_{\max}$等）
-   - 训练过程中按预设步骤逐步降低采样下界，引入更小的子模型
-   - 各维度参数从均匀分布中采样：$R \sim \mathcal{U}(R_{\min}^{(t)}, R_{\max})$
+    - 初始阶段仅训练最大子模型（$R_{\min}=R_{\max}$, $H_{\min}=H_{\max}$等）
+    - 训练过程中按预设步骤逐步降低采样下界，引入更小的子模型
+    - 各维度参数从均匀分布中采样：$R \sim \mathcal{U}(R_{\min}^{(t)}, R_{\max})$
 
    这确保了预训练知识的保留和大模型性能不受干扰。
 
@@ -72,7 +72,7 @@ EA-ViT 分为两个阶段：
    **Pareto搜索**：使用定制的NSGA-II进化算法在弹性空间中搜索Pareto前沿上的候选子模型。引入分区选择策略和迭代拥挤距离机制，提高种群多样性和复杂度空间覆盖。
 
    **路由器**：轻量两层MLP，输入归一化的MACs约束 $M_t \in [0,1]$，输出对应的子模型配置 $\theta$。使用Gumbel-Sigmoid技巧实现离散决策的可微分优化：
-   $$y_{\text{soft}} = \text{Sigmoid}\left(\frac{\text{logits} + G_1 - G_2}{\tau}\right)$$
+    $y_{\text{soft}} = \text{Sigmoid}\left(\frac{\text{logits} + G_1 - G_2}{\tau}\right)$
    通过straight-through estimator保持梯度流。
 
 ### 损失函数 / 训练策略

@@ -19,7 +19,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2504.07091](https://arxiv.org/abs/2504.07091)  
-**代码**: https://github.com/cassidylaidlaw/minecraft-building-assistance-game  
+**代码**: [https://github.com/cassidylaidlaw/minecraft-building-assistance-game](https://github.com/cassidylaidlaw/minecraft-building-assistance-game)  
 **领域**: 对齐RLHF  
 **关键词**: assistance game, AlphaZero, MCTS, human modeling, Minecraft, cooperative AI, POMDP
 
@@ -174,9 +174,9 @@ AssistanceZero 减少 42 次人类动作，助手自主完成 27% 目标。
 ## 相关论文
 
 - [\[ICML 2025\] Diverging Preferences: When do Annotators Disagree and do Models Know?](diverging_preferences_when_do_annotators_disagree_and_do_models_know.md)
-- [\[ICML 2025\] MMedPO: Aligning Medical Vision-Language Models with Clinical-Aware Multimodal Preference Optimization](mmedpo_aligning_medical_vision-language_models_with_clinical-aware_multimodal_pr.md)
-- [\[ICML 2025\] TGDPO: Harnessing Token-Level Reward Guidance for Enhancing Direct Preference Optimization](tgdpo_harnessing_token-level_reward_guidance_for_enhancing_direct_preference_opt.md)
-- [\[ICML 2025\] On the Robustness of Reward Models for Language Model Alignment](on_the_robustness_of_reward_models_for_language_model_alignment.md)
+- [\[ICML 2025\] Instruction Tuning of Large Language Models for Tabular Data Generation—in One Day](instruction_tuning_of_large_language_models_for_tabular_data_generation-in_one_d.md)
+- [\[ICML 2025\] DPO Meets PPO: Reinforced Token Optimization for RLHF](dpo_meets_ppo_reinforced_token_optimization_for_rlhf.md)
 - [\[ICML 2025\] Right Now, Wrong Then: Non-Stationary Direct Preference Optimization under Preference Drift](right_now_wrong_then_non-stationary_direct_preference_optimization_under_prefere.md)
+- [\[ICML 2025\] On the Robustness of Reward Models for Language Model Alignment](on_the_robustness_of_reward_models_for_language_model_alignment.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - 语音
   - audio-visual video parsing
   - weakly supervised learning
-  - 对比学习
+  - 音频语音
   - 知识蒸馏
   - 跨模态
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV2024  
 **arXiv**: [2405.10690](https://arxiv.org/abs/2405.10690)  
 **代码**: [GitHub](https://github.com/faeghehsardari/coleaf)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: audio-visual video parsing, weakly supervised learning, contrastive learning, knowledge distillation, cross-modal learning
 
 ## 一句话总结

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Mind the Gap: A Practical Attack on GGUF Quantization
 description: >-
-  [ICML 2025][量化] 首次提出针对 GGUF 量化格式的攻击：利用量化误差作为"自由度"训练恶意量化模型，全精度下正常但量化后注入后门，在不安全代码生成（Δ=88.7%）、定向内容注入（Δ=85.0%）和良性拒绝（Δ=30.1%）上有效。
+  [ICML 2025][代码智能] 首次提出针对 GGUF 量化格式的攻击：利用量化误差作为"自由度"训练恶意量化模型，全精度下正常但量化后注入后门，在不安全代码生成（Δ=88.7%）、定向内容注入（Δ=85.0%）和良性拒绝（Δ=30.1%）上有效。
 tags:
   - ICML 2025
-  - 量化
+  - 代码智能
   - GGUF
   - llama.cpp
   - model security
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.23786](https://arxiv.org/abs/2505.23786)  
 **代码**: 无  
-**领域**: Model Compression / Security  
+**领域**: 代码智能  
 **关键词**: quantization attack, GGUF, llama.cpp, model security, backdoor
 
 ## 一句话总结
@@ -142,8 +142,8 @@ tags:
 
 - [\[ICML 2025\] Towards Practical Defect-Focused Automated Code Review](towards_practical_defect-focused_automated_code_review.md)
 - [\[ACL 2026\] SolidCoder: Bridging the Mental-Reality Gap in LLM Code Generation through Concrete Execution](../../ACL2026/code_intelligence/solidcoder_bridging_the_mental-reality_gap_in_llm_code_generation_through_concre.md)
-- [\[ICML 2025\] Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation](reasoning_through_execution_unifying_process_and_outcome_rewards_for_code_genera.md)
-- [\[ICML 2025\] Function-to-Style Guidance of LLMs for Code Translation](function-to-style_guidance_of_llms_for_code_translation.md)
 - [\[ICML 2025\] DyCodeEval: Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination](dynamic_benchmarking_of_reasoning_capabilities_in_code_large_language_models_und.md)
+- [\[ICML 2025\] AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence](adaptivestep_automatically_dividing_reasoning_step_through_model_confidence.md)
+- [\[ICML 2025\] Training Software Engineering Agents and Verifiers with SWE-Gym](training_software_engineering_agents_and_verifiers_with_swe-gym.md)
 
 <!-- RELATED:END -->

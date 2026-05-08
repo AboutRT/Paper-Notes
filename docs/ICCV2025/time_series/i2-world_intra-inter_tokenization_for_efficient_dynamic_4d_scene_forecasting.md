@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.09144](https://arxiv.org/abs/2507.09144)  
 **代码**: [GitHub](https://github.com/lzzzzzm/II-World)  
-**领域**: 自动驾驶  
+**领域**: 时间序列  
 **关键词**: 4D occupancy forecasting, scene tokenization, 世界模型, 自回归生成, 自动驾驶
 
 ## 一句话总结

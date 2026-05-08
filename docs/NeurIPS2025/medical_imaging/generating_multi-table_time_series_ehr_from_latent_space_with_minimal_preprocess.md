@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2507.06996](https://arxiv.org/abs/2507.06996)  
 **代码**: [eunbyeol-cho/RawMed](https://github.com/eunbyeol-cho/RawMed)  
 **作者**: Eunbyeol Cho, Jiyoun Kim, Minjae Lee, Sungjin Park, Edward Choi (KAIST, FuriosaAI)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: EHR 合成, 时序数据生成, Residual Quantization, 隐私保护, 多表关系数据库, 自回归 Transformer  
 
 ---

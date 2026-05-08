@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.08536](https://arxiv.org/abs/2604.08536)  
-**代码**: https://huggingface.co/onkarsus13/RewardFlow (有)  
+**代码**: [https://huggingface.co/onkarsus13/RewardFlow](https://huggingface.co/onkarsus13/RewardFlow)  
 **领域**: 图像生成/编辑  
 **关键词**: 奖励引导生成, 扩散模型, Langevin动力学, 图像编辑, 组合式生成
 
@@ -133,8 +133,8 @@ RewardFlow 是一个纯推理时的框架，不需要额外训练。其核心"�
 
 - [\[CVPR 2026\] Low-Resolution Editing is All You Need for High-Resolution Editing](low-resolution_editing_is_all_you_need_for_high-resolution_editing.md)
 - [\[CVPR 2026\] Enhancing Spatial Understanding in Image Generation via Reward Modeling](enhancing_spatial_understanding_in_image_generation_via_reward_modeling.md)
-- [\[CVPR 2026\] SimLBR: Learning to Detect Fake Images by Learning to Detect Real Images](simlbr_learning_to_detect_fake_images_by_learning_to_detect_real_images.md)
 - [\[CVPR 2026\] Pixel Motion Diffusion Is What We Need for Robot Control](pixel_motion_diffusion_is_what_we_need_for_robot_control.md)
+- [\[CVPR 2026\] SimLBR: Learning to Detect Fake Images by Learning to Detect Real Images](simlbr_learning_to_detect_fake_images_by_learning_to_detect_real_images.md)
 - [\[NeurIPS 2025\] Understand Before You Generate: Self-Guided Training for Autoregressive Image Generation](../../NeurIPS2025/image_generation/understand_before_you_generate_self-guided_training_for_autoregressive_image_gen.md)
 
 <!-- RELATED:END -->

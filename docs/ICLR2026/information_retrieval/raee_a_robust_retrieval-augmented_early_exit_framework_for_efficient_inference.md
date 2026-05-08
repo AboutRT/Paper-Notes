@@ -8,7 +8,7 @@ tags:
   - 早退机制
   - 检索增强
   - 分布预测
-  - 推理加速
+  - 信息检索
   - 纠错机制
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2405.15198](https://arxiv.org/abs/2405.15198)  
 **代码**: [GitHub](https://github.com/HugeRaabbit/RAEE)  
-**领域**: 模型压缩/高效推理  
+**领域**: 信息检索  
 **关键词**: 早退机制, 检索增强, 分布预测, 推理加速, 纠错机制  
 
 ## 一句话总结
@@ -139,7 +139,7 @@ $$f(x) = \arg\max_l P(z=l|x)$$
 - [\[ACL 2025\] FlashBack: Efficient Retrieval-Augmented Language Modeling for Fast Inference](../../ACL2025/information_retrieval/flashbackefficient_retrieval-augmented_language_modeling_for_long_context_infere.md)
 - [\[ICLR 2026\] LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference](lightretriever_a_llm-based_text_retrieval_architecture_with_extremely_faster_que.md)
 - [\[ICLR 2026\] Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding](beyond_rag_vs_long-context_learning_distraction-aware_retrieval_for_efficient_kn.md)
-- [\[ICLR 2026\] Efficient Discriminative Joint Encoders for Large Scale Vision-Language Re-ranking](efficient_discriminative_joint_encoders_for_large_scale_vision-language_rerankin.md)
 - [\[ICLR 2026\] Leveraging Data to Say No: Memory Augmented Plug-and-Play Selective Prediction](leveraging_data_to_say_no_memory_augmented_plug-and-play_selective_prediction.md)
+- [\[ICLR 2026\] Efficient Discriminative Joint Encoders for Large Scale Vision-Language Re-ranking](efficient_discriminative_joint_encoders_for_large_scale_vision-language_rerankin.md)
 
 <!-- RELATED:END -->

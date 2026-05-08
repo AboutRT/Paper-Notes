@@ -8,7 +8,7 @@ tags:
   - 语音
   - 视觉引导音频增强
   - 声学高亮
-  - 多模态融合
+  - 音频语音
   - 音频混音
   - 电影音频
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.12154](https://arxiv.org/abs/2505.12154)  
-**代码**: https://wikichao.github.io/VisAH/ (项目页)  
+**代码**: [https://wikichao.github.io/VisAH/](https://wikichao.github.io/VisAH/) (项目页)  
 **领域**: 音频/多模态  
 **关键词**: 视觉引导音频增强, 声学高亮, 多模态融合, 音频混音, 电影音频
 
@@ -115,10 +115,10 @@ VisAH在所有5个指标上均大幅领先，MAG降低56%、W-dis降低59%。
 
 ## 相关论文
 
-- [\[CVPR 2025\] LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](livecc_learning_video_llm_with_streaming_speech_transcription_at_scale.md)
 - [\[ICLR 2026\] PACE: Pretrained Audio Continual Learning](../../ICLR2026/audio_speech/pace_pretrained_audio_continual_learning.md)
+- [\[CVPR 2025\] LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](livecc_learning_video_llm_with_streaming_speech_transcription_at_scale.md)
+- [\[CVPR 2025\] Object-aware Sound Source Localization via Audio-Visual Scene Understanding](object-aware_sound_source_localization_via_audio-visual_scene_understanding.md)
 - [\[ICCV 2025\] Zero-AVSR: Zero-Shot Audio-Visual Speech Recognition with LLMs by Learning Language-Agnostic Speech Representations](../../ICCV2025/audio_speech/zero-avsr_zero-shot_audio-visual_speech_recognition_with_llms_by_learning_langua.md)
-- [\[ACL 2026\] Learning Invariant Modality Representation for Robust Multimodal Learning from a Causal Inference Perspective](../../ACL2026/audio_speech/learning_invariant_modality_representation_for_robust_multimodal_learning_from_a.md)
-- [\[ECCV 2024\] CoLeaF: A Contrastive-Collaborative Learning Framework for Weakly Supervised Audio-Visual Video Parsing](../../ECCV2024/audio_speech/coleaf_a_contrastive-collaborative_learning_framework_for_weakly_supervised_audi.md)
+- [\[CVPR 2025\] Learning-enabled Polynomial Lyapunov Function Synthesis via High-Accuracy Counterexample-Guided Framework](learning-enabled_polynomial_lyapunov_function_synthesis_via_high-accuracy_counte.md)
 
 <!-- RELATED:END -->

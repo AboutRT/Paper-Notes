@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - cross-lingual transfer
-  - LoRA
+  - 多语言翻译
   - language fusion
   - adapter bottleneck
   - multilingual NLU
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.06892](https://arxiv.org/abs/2501.06892)  
 **代码**: [https://github.com/pnborchert/FLARE](https://github.com/pnborchert/FLARE)  
-**领域**: LLM效率  
+**领域**: 多语言翻译  
 **关键词**: cross-lingual transfer, LoRA, language fusion, adapter bottleneck, multilingual NLU
 
 ## 一句话总结
@@ -150,7 +150,7 @@ FLARE 在所有模型上平均排名第一。
 - [\[ACL 2025\] Cross-Lingual Optimization for Language Transfer in Large Language Models](cross-lingual_optimization_for_language_transfer_in_large_language_models.md)
 - [\[ACL 2025\] Semantic Aware Linear Transfer by Recycling Pre-trained Language Models for Cross-Lingual Transfer](semantic_aware_linear_transfer_by_recycling_pre-trained_language_models_for_cros.md)
 - [\[ACL 2025\] Translation and Fusion Improves Zero-shot Cross-lingual Information Extraction](translation_and_fusion_improves_cross-lingual_information_extraction.md)
-- [\[ACL 2025\] Cross-Lingual Transfer of Cultural Knowledge: An Asymmetric Phenomenon](cross-lingual_transfer_of_cultural_knowledge_an_asymmetric_phenomenon.md)
-- [\[ACL 2025\] Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models](statement-tuning_enables_efficient_cross-lingual_generalization_in_encoder-only_.md)
+- [\[ACL 2025\] Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs](mid_layer_crosslingual_alignment.md)
+- [\[ACL 2025\] Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](crosslingual_pitfalls.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - AAAI 2026
   - 认知逻辑
-  - agent awareness
+  - 其他
   - de re/de dicto
   - 2D语义学
   - 完备性证明
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.05977v1](https://arxiv.org/abs/2511.05977v1)  
 **代码**: 无  
-**领域**: AI Safety / 形式化验证  
+**领域**: 其他  
 **关键词**: 认知逻辑, agent awareness, de re/de dicto, 2D语义学, 完备性证明  
 
 ## 一句话总结
@@ -144,9 +144,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] A Graph-Theoretical Perspective on Law Design for Multiagent Systems](a_graph-theoretical_perspective_on_law_design_for_multiagent.md)
-- [\[ICML 2025\] Rethinking Aleatoric and Epistemic Uncertainty](../../ICML2025/others/rethinking_aleatoric_and_epistemic_uncertainty.md)
-- [\[AAAI 2026\] Agent-SAMA: State-Aware Mobile Assistant](agent-sama_state-aware_mobile_assistant.md)
-- [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](local_guidance_for_configuration-based_multi-agent_pathfinding.md)
 - [\[AAAI 2026\] Structural Approach to Guiding a Present-Biased Agent](structural_approach_to_guiding_a_present-biased_agent.md)
+- [\[AAAI 2026\] Agent-SAMA: State-Aware Mobile Assistant](agent-sama_state-aware_mobile_assistant.md)
+- [\[AAAI 2026\] Controllable Financial Market Generation with Diffusion Guided Meta Agent](controllable_financial_market_generation_with_diffusion_guided_meta_agent.md)
+- [\[AAAI 2026\] Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit](area-optimal_control_strategies_for_heterogeneous_multi-agen.md)
 
 <!-- RELATED:END -->

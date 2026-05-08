@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization
 description: >-
-  [ICLR 2026][潜在推理] 本文提出潜在思维策略优化（LTPO），一种无需更新模型参数的测试时推理增强框架，通过将中间潜在"思维"向量视为可优化的动态参数，利用在线策略梯度方法和内在置信度奖励信号来增强冻结LLM的推理能力。
+  [ICLR 2026][强化学习] 本文提出潜在思维策略优化（LTPO），一种无需更新模型参数的测试时推理增强框架，通过将中间潜在"思维"向量视为可优化的动态参数，利用在线策略梯度方法和内在置信度奖励信号来增强冻结LLM的推理能力。
 tags:
   - ICLR 2026
-  - 潜在推理
+  - 强化学习
   - 测试时优化
   - 策略梯度
   - 置信度奖励
@@ -160,10 +160,10 @@ $$\max_{\mathbf{z}} \mathbb{E}[R(\mathbf{z})]$$
 
 ## 相关论文
 
+- [\[ICLR 2026\] P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling](p-genrm_personalized_generative_reward_model_with_test-time_user-based_scaling.md)
 - [\[AAAI 2026\] Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping](../../AAAI2026/reinforcement_learning/aligning_machiavellian_agents_behavior_steering_via_test-tim.md)
 - [\[ICLR 2026\] AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking](abstral_augmenting_llms_reasoning_by_reinforcing_abstract_thinking.md)
 - [\[ICLR 2026\] Self-Harmony: Learning to Harmonize Self-Supervision and Self-Play in Test-Time Reinforcement Learning](self-harmony_learning_to_harmonize_self-supervision_and_self-play_in_test-time_r.md)
 - [\[ICLR 2026\] FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning](fapo_flawed-aware_policy_optimization_for_efficient_and_reliable_reasoning.md)
-- [\[ACL 2026\] SpiralThinker: Latent Reasoning through an Iterative Process with Text-Latent Interleaving](../../ACL2026/reinforcement_learning/spiralthinker_latent_reasoning_through_an_iterative_process_with_text-latent_int.md)
 
 <!-- RELATED:END -->

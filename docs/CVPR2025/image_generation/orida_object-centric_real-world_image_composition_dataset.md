@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.08964](https://arxiv.org/abs/2506.08964)  
-**代码**: https://hello-jinwoo.github.io/orida  
+**代码**: [https://hello-jinwoo.github.io/orida](https://hello-jinwoo.github.io/orida)  
 **领域**: 扩散模型 / 图像编辑  
 **关键词**: 图像合成, 物体插入, 数据集, 真实数据, 扩散模型
 

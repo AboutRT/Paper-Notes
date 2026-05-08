@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2508.16753](https://arxiv.org/abs/2508.16753)  
 **代码**: [github.com/ai4society/GenAIResultsComparator](https://github.com/ai4society/GenAIResultsComparator)  
-**领域**: 生成式AI评估  
+**领域**: 时间序列  
 **关键词**: 生成式AI评估, 多模态比较, 评估框架, 可复现性, 复合AI系统
 
 ## 一句话总结

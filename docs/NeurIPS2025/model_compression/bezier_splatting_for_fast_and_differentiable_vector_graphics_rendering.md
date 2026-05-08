@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.16424](https://arxiv.org/abs/2503.16424)  
-**代码**: https://xiliu8006.github.io/Bezier_splatting_project  
+**代码**: [https://xiliu8006.github.io/Bezier_splatting_project](https://xiliu8006.github.io/Bezier_splatting_project)  
 **领域**: 矢量图形渲染  
 **关键词**: 可微渲染, Bézier曲线, Gaussian Splatting, 矢量化, 图像优化
 
@@ -120,8 +120,8 @@ Bézier Splatting 将 Gaussian Splatting 框架与 Bézier 曲线结合，沿曲
 
 - [\[CVPR 2026\] RDVQ: Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression](../../CVPR2026/model_compression/rdvq_differentiable_vq_image_compression.md)
 - [\[NeurIPS 2025\] Uni-LoRA: One Vector is All You Need](uni-lora_one_vector_is_all_you_need.md)
+- [\[NeurIPS 2025\] All You Need is One: Capsule Prompt Tuning with a Single Vector](all_you_need_is_one_capsule_prompt_tuning_with_a_single_vector.md)
 - [\[NeurIPS 2025\] Learning Grouped Lattice Vector Quantizers for Low-Bit LLM Compression](learning_grouped_lattice_vector_quantizers_for_low-bit_llm_compression.md)
-- [\[NeurIPS 2025\] Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training](trajectory_balance_with_asynchrony_decoupling_exploration_and_learning_for_fast_.md)
 - [\[NeurIPS 2025\] Deterministic Continuous Replacement: Fast and Stable Module Replacement in Pretrained Transformers](deterministic_continuous_replacement_fast_and_stable_module_replacement_in_pretr.md)
 
 <!-- RELATED:END -->

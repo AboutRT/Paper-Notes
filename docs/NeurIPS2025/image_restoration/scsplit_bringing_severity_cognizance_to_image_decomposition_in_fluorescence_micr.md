@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2503.22983](https://arxiv.org/abs/2503.22983)  
 **代码**: [juglab/scSplit](https://github.com/juglab/scSplit/)  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: fluorescence microscopy, image decomposition, severity cognizance, mixing ratio, bleedthrough removal  
 
 ## 一句话总结

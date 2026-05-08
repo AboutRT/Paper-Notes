@@ -10,7 +10,7 @@ tags:
   - 残差自编码器
   - 工业部署
   - BFS产线
-  - 实时推理
+  - 其他
 ---
 
 # Integration of deep generative Anomaly Detection algorithm in high-speed industrial line
@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.07577](https://arxiv.org/abs/2603.07577)  
 **代码**: 无（工业闭源）  
-**领域**: 异常检测 / 工业视觉  
+**领域**: 其他  
 **关键词**: Anomaly Detection, GAN, 残差自编码器, 工业部署, BFS产线, 实时推理
 
 ## 一句话总结
@@ -122,7 +122,7 @@ tags:
 
 ## 相关论文
 
-- [\[CVPR 2025\] AnomalyNCD: Towards Novel Anomaly Class Discovery in Industrial Scenarios](anomalyncd_towards_novel_anomaly_class_discovery_in_industrial_scenarios.md)
+- [\[CVPR 2025\] Multi-Sensor Object Anomaly Detection: Unifying Appearance, Geometry, and Internal Properties](multi-sensor_object_anomaly_detection_unifying_appearance_geometry_and_internal_.md)
 - [\[NeurIPS 2025\] ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining](../../NeurIPS2025/others/adpretrain_advancing_industrial_anomaly_detection_via_anomaly_representation_pre.md)
 - [\[CVPR 2025\] Rooftop Wind Field Reconstruction Using Sparse Sensors: From Deterministic to Generative Learning Methods](rooftop_wind_field_reconstruction_using_sparse_sensors_from_deterministic_to_gen.md)
 - [\[CVPR 2025\] Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection](distribution_prototype_diffusion_learning_for_open-set_supervised_anomaly_detect.md)

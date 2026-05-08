@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.07577](https://arxiv.org/abs/2603.07577)  
 **代码**: 无（NDA约束）  
-**领域**: 工业异常检测 / 视觉质量控制  
+**领域**: 其他  
 **关键词**: anomaly detection, GAN, residual autoencoder, high-speed deployment, BFS inspection
 
 ## 一句话总结

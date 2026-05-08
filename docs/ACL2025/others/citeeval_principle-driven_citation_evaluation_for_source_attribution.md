@@ -2,10 +2,10 @@
 title: >-
   [论文解读] CiteEval: Principle-Driven Citation Evaluation for Source Attribution
 description: >-
-  [ACL 2025][引用评估] 本文提出 CiteEval，一个基于原则驱动的引用评估框架，通过考虑完整检索上下文、超越检索的多种上下文以及细粒度评价标准，构建了 CiteBench 基准和 CiteEval-Auto 自动指标，在引用质量评估上显著优于基于 NLI 的现有方法。
+  [ACL 2025][其他] 本文提出 CiteEval，一个基于原则驱动的引用评估框架，通过考虑完整检索上下文、超越检索的多种上下文以及细粒度评价标准，构建了 CiteBench 基准和 CiteEval-Auto 自动指标，在引用质量评估上显著优于基于 NLI 的现有方法。
 tags:
   - ACL 2025
-  - 引用评估
+  - 其他
   - RAG
   - 源归因
   - NLI
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.01829](https://arxiv.org/abs/2506.01829)  
-**代码**: https://github.com/amazon-science/CiteEval (有)  
-**领域**: others  
+**代码**: [https://github.com/amazon-science/CiteEval](https://github.com/amazon-science/CiteEval)  
+**领域**: 其他  
 **关键词**: 引用评估, RAG, 源归因, NLI, 自动评价指标
 
 ## 一句话总结
@@ -136,6 +136,6 @@ CiteEval 将引用评估问题形式化为 $r_i = f_\theta(\mathcal{C}_i; \mathc
 - [\[ACL 2025\] ChartLens: Fine-Grained Visual Attribution in Charts](chartlens_fine-grained_visual_attribution_in_charts.md)
 - [\[ACL 2025\] LAQuer: Localized Attribution Queries in Content-grounded Generation](laquer_localized_attribution.md)
 - [\[ACL 2025\] Using Source-Side Confidence Estimation for Reliable Translation into Unfamiliar Languages](using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)
-- [\[ACL 2025\] Are Bias Evaluation Methods Biased?](are_bias_evaluation_methods_biased.md)
+- [\[ACL 2025\] Achieving Certification-by-Design Through Model-Driven Development](achieving_certification-by-design_through_model-driven_development.md)
 
 <!-- RELATED:END -->

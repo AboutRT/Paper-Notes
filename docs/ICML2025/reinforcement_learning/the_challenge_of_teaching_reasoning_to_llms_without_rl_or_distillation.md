@@ -5,7 +5,7 @@ description: >-
   [ICML 2025 (AI for Math Workshop)][Chain-of-Thought] 仅用 20 个来自推理模型 QwQ-32B-Preview 的长 CoT 样例轻量微调 Qwen2.5-32B 就能超越 72B 的数学指令模型，但用非推理模型或人工生成的 CoT 无法达到同等效果，表明推理 CoT 中存在难以复制的"潜在质量"。
 tags:
   - ICML 2025 (AI for Math Workshop)
-  - Chain-of-Thought
+  - 强化学习
   - 推理能力
   - 微调
   - 长CoT
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025 (AI for Math Workshop)  
 **arXiv**: [2507.09850](https://arxiv.org/abs/2507.09850)  
 **代码**: 无（数据集已发布：nvidia/Nemotron-Math-HumanReasoning）  
-**领域**: LLM推理 / 数据工程  
+**领域**: 强化学习  
 **关键词**: Chain-of-Thought, 推理能力, 微调, 长CoT, 人工标注
 
 ## 一句话总结
@@ -147,9 +147,9 @@ tags:
 ## 相关论文
 
 - [\[ICML 2025\] Zero-Shot Generalization of Vision-Based RL Without Data Augmentation](zero-shot_generalization_of_vision-based_rl_without_data_augmentation.md)
-- [\[ICML 2025\] Flow of Reasoning: Training LLMs for Divergent Reasoning with Minimal Examples](flow_of_reasoning_training_llms_for_divergent_reasoning_with_minimal_examples.md)
 - [\[NeurIPS 2025\] Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/router-r1_teaching_llms_multi-round_routing_and_aggregation_via_reinforcement_le.md)
+- [\[ICML 2025\] Flow of Reasoning: Training LLMs for Divergent Reasoning with Minimal Examples](flow_of_reasoning_training_llms_for_divergent_reasoning_with_minimal_examples.md)
 - [\[ICML 2025\] VinePPO: Refining Credit Assignment in RL Training of LLMs](vineppo_refining_credit_assignment_in_rl_training_of_llms.md)
-- [\[ICML 2025\] T1: Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling](t1_advancing_language_model_reasoning_through_reinforcement_learning_and_inferen.md)
+- [\[ICLR 2026\] Reasoning Boosts Opinion Alignment in LLMs](../../ICLR2026/reinforcement_learning/reasoning_boosts_opinion_alignment_in_llms.md)
 
 <!-- RELATED:END -->

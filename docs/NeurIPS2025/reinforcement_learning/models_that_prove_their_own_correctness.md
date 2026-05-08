@@ -9,7 +9,7 @@ tags:
   - 交互式证明
   - 验证器反馈强化学习
   - 形式验证
-  - LLM可靠性
+  - 强化学习
 ---
 
 # Models That Prove Their Own Correctness

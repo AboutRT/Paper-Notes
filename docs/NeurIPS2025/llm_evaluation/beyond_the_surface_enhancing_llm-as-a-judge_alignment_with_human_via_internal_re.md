@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations
 description: >-
-  [NeurIPS 2025][LLM-as-a-Judge] 提出LAGER框架，通过聚合LLM中间层到最终层的score token logits并计算期望分数，无需微调模型即可将LLM评判与人类评分的对齐度提升最高7.5%，且不需要思维链推理步骤就能匹配或超过推理类方法。
+  [NeurIPS 2025][LLM评测] 提出LAGER框架，通过聚合LLM中间层到最终层的score token logits并计算期望分数，无需微调模型即可将LLM评判与人类评分的对齐度提升最高7.5%，且不需要思维链推理步骤就能匹配或超过推理类方法。
 tags:
   - NeurIPS 2025
-  - LLM-as-a-Judge
+  - LLM评测
   - 隐层表征
   - 跨层聚合
   - 评估对齐
@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2508.03550](https://arxiv.org/abs/2508.03550)  
 **代码**: [https://github.com/sustech-nlp/LAGER](https://github.com/sustech-nlp/LAGER)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: LLM-as-a-Judge, 隐层表征, 跨层聚合, 评估对齐, 即插即用
 
 ## 一句话总结
@@ -117,9 +117,9 @@ LLM生成评判时，在score token位置提取所有L+1层（embedding层到最
 ## 相关论文
 
 - [\[NeurIPS 2025\] On Evaluating LLM Alignment by Evaluating LLMs as Judges](on_evaluating_llm_alignment_by_evaluating_llms_as_judges.md)
-- [\[ACL 2025\] YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering](../../ACL2025/llm_evaluation/yescieval_llm_judge_science.md)
 - [\[NeurIPS 2025\] Leveraging Robust Optimization for LLM Alignment under Distribution Shifts](leveraging_robust_optimization_for_llm_alignment_under_distribution_shifts.md)
+- [\[ACL 2025\] YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering](../../ACL2025/llm_evaluation/yescieval_llm_judge_science.md)
+- [\[NeurIPS 2025\] ComPO: Preference Alignment via Comparison Oracles](compo_preference_alignment_via_comparison_oracles.md)
 - [\[ICLR 2026\] Preference Leakage: A Contamination Problem in LLM-as-a-judge](../../ICLR2026/llm_evaluation/preference_leakage_a_contamination_problem_in_llm-as-a-judge.md)
-- [\[ACL 2025\] Can External Validation Tools Improve Annotation Quality for LLM-as-a-Judge?](../../ACL2025/llm_evaluation/can_external_validation_tools_improve_annotation_quality_for_llm-as-a-judge.md)
 
 <!-- RELATED:END -->

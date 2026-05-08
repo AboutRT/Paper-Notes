@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2502.13764](https://arxiv.org/abs/2502.13764)  
 **代码**: [数据集](https://huggingface.co/datasets/xwk25/RiceCC)  
-**领域**: object_detection  
+**领域**: 目标检测  
 **关键词**: rice quality evaluation, object detection, YOLO-v5, ConvNeXt-Tiny, K-means, SimAM, ECA
 
 ## 一句话总结
@@ -164,9 +164,9 @@ tags:
 ## 相关论文
 
 - [\[AAAI 2026\] YOLO-IOD: Towards Real Time Incremental Object Detection](yolo-iod_towards_real_time_incremental_object_detection.md)
+- [\[AAAI 2026\] Real-Time 3D Object Detection with Inference-Aligned Learning](real-time_3d_object_detection_with_inference-aligned_learning.md)
 - [\[ICCV 2025\] YOLOE: Real-Time Seeing Anything](../../ICCV2025/object_detection/yoloe_realtime_seeing_anything.md)
 - [\[CVPR 2025\] MI-DETR: An Object Detection Model with Multi-time Inquiries Mechanism](../../CVPR2025/object_detection/mi-detr_an_object_detection_model_with_multi-time_inquiries_mechanism.md)
-- [\[CVPR 2026\] StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars](../../CVPR2026/object_detection/streamavatar_streaming_diffusion_models_for_real-time_interactive_human_avatars.md)
-- [\[AAAI 2026\] Perceive, Act and Correct: Confidence Is Not Enough for Hyperspectral Classification](perceive_act_and_correct_confidence_is_not_enough_for_hyperspectral_classificati.md)
+- [\[CVPR 2025\] TornadoNet: Real-Time Building Damage Detection with Ordinal Supervision](../../CVPR2025/object_detection/tornadonet_real-time_building_damage_detection_with_ordinal_supervision.md)
 
 <!-- RELATED:END -->

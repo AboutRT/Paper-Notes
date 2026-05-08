@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.07992](https://arxiv.org/abs/2405.07992)  
-**代码**: https://github.com/yuweihao/MambaOut  
+**代码**: [https://github.com/yuweihao/MambaOut](https://github.com/yuweihao/MambaOut)  
 **领域**: 图像分类 / 视觉骨干网络  
 **关键词**: Mamba, SSM, Gated CNN, 视觉识别, 图像分类
 

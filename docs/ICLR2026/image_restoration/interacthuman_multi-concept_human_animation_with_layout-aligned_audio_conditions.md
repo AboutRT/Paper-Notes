@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - 图像恢复
-  - 多人视频生成
+  - 图像复原
   - 音频驱动动画
   - 掩码预测
   - 布局控制
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2506.09984](https://arxiv.org/abs/2506.09984)  
 **代码**: 部分开源（基于 Wan2.1 的复现版本）  
-**领域**: 视频理解 / 视频生成 / 人体理解  
+**领域**: 图像复原  
 **关键词**: 多人视频生成, 音频驱动动画, 掩码预测, 布局控制, DiT
 
 ## 一句话总结
@@ -139,7 +139,7 @@ tags:
 - [\[CVPR 2025\] EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation](../../CVPR2025/image_restoration/echomimicv2_towards_striking_simplified_and_semi-body_human_animation.md)
 - [\[AAAI 2026\] ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration](../../AAAI2026/image_restoration/clearair_a_human-visual-perception-inspired_all-in-one_image_restoration.md)
 - [\[CVPR 2026\] UDAPose: Unsupervised Domain Adaptation for Low-Light Human Pose Estimation](../../CVPR2026/image_restoration/udapose_unsupervised_domain_adaptation_for_low_light_human_pose_estimation.md)
-- [\[ECCV 2024\] Restoring Images in Adverse Weather Conditions via Histogram Transformer](../../ECCV2024/image_restoration/restoring_images_in_adverse_weather_conditions_via_histogram_transformer.md)
 - [\[AAAI 2026\] Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework](../../AAAI2026/image_restoration/large_language_models_meet_extreme_multi-label_classification_scaling_and_multi-.md)
+- [\[CVPR 2026\] PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors](../../CVPR2026/image_restoration/phasr_generalized_image_shadow_removal_with_physically_aligned_priors.md)
 
 <!-- RELATED:END -->

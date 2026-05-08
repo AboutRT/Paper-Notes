@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2312.06729](https://arxiv.org/abs/2312.06729)  
-**代码**: https://github.com/Tanveer81/RGNet  
+**代码**: [https://github.com/Tanveer81/RGNet](https://github.com/Tanveer81/RGNet)  
 **领域**: 视频理解 / 时序定位  
 **关键词**: long video temporal grounding, clip retrieval, unified network, sparse attention, moment localization
 
@@ -149,6 +149,6 @@ tags:
 - [\[ECCV 2024\] Goldfish: Vision-Language Understanding of Arbitrarily Long Videos](goldfish_vision-language_understanding_of_arbitrarily_long_videos.md)
 - [\[CVPR 2025\] DeCafNet: Delegate and Conquer for Efficient Temporal Grounding in Long Videos](../../CVPR2025/video_understanding/decafnet_delegate_and_conquer_for_efficient_temporal_grounding_in_long_videos.md)
 - [\[ECCV 2024\] SAFNet: Selective Alignment Fusion Network for Efficient HDR Imaging](safnet_selective_alignment_fusion_network_for_efficient_hdr_imaging.md)
-- [\[CVPR 2025\] VideoGEM: Training-Free Action Grounding in Videos](../../CVPR2025/video_understanding/videogem_training-free_action_grounding_in_videos.md)
+- [\[CVPR 2025\] Object-Shot Enhanced Grounding Network for Egocentric Video](../../CVPR2025/video_understanding/object-shot_enhanced_grounding_network_for_egocentric_video.md)
 
 <!-- RELATED:END -->

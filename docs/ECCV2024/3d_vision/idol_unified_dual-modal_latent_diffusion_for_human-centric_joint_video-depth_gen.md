@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.10937](https://arxiv.org/abs/2407.10937)  
-**代码**: https://yhzhai.github.io/idol/ (有项目页)  
+**代码**: [https://yhzhai.github.io/idol/](https://yhzhai.github.io/idol/) (有项目页)  
 **领域**: 3D视觉  
 **关键词**: 视频生成, 深度估计, 双模态扩散, 人体动画, 视频-深度对齐
 
@@ -141,7 +141,7 @@ $$\mathcal{L} = \mathcal{L}_{\text{denoise}} + \sum_{n=1}^{N}(w_{\text{mo}}\math
 - [\[ECCV 2024\] SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](sv3d_novel_multi-view_synthesis_and_3d_generation_from_a_single_image_using_late.md)
 - [\[ECCV 2024\] LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation](ln3diff_scalable_latent_neural_fields_diffusion_for_speedy_3d_generation.md)
 - [\[ECCV 2024\] UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation](unidream_unifying_diffusion_priors_for_relightable_text-to-3d_generation.md)
-- [\[ECCV 2024\] Compress3D: a Compressed Latent Space for 3D Generation from a Single Image](compress3d_a_compressed_latent_space_for_3d_generation_from_a_single_image.md)
 - [\[ICCV 2025\] JointDiT: Enhancing RGB-Depth Joint Modeling with Diffusion Transformers](../../ICCV2025/3d_vision/jointdit_enhancing_rgb-depth_joint_modeling_with_diffusion_transformers.md)
+- [\[ECCV 2024\] Compress3D: a Compressed Latent Space for 3D Generation from a Single Image](compress3d_a_compressed_latent_space_for_3d_generation_from_a_single_image.md)
 
 <!-- RELATED:END -->

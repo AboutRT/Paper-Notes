@@ -13,7 +13,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.15219](https://arxiv.org/abs/2512.15219)  
 **代码**: 无  
-**领域**: LLM推理  
+**领域**: 图学习  
 sync**关键词**: 知识图谱问答, Chain-of-Thought, 关系感知, 自适应跳数, Few-Shot引导  
 
 ## 一句话总结

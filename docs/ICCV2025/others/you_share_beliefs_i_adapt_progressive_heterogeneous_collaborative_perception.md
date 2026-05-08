@@ -9,7 +9,7 @@ tags:
   - 少样本域适应
   - 自训练
   - 伪标签
-  - 推理阶段适配
+  - 其他
 ---
 
 # You Share Beliefs, I Adapt: Progressive Heterogeneous Collaborative Perception
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2509.09310](https://arxiv.org/abs/2509.09310)  
 **代码**: [GitHub](https://github.com/sihaoo1/PHCP)  
-**领域**: 自动驾驶/协同感知  
+**领域**: 其他  
 **关键词**: 异构协同感知, 少样本域适应, 自训练, 伪标签, 推理阶段适配
 
 ## 一句话总结
@@ -172,7 +172,7 @@ tags:
 - [\[ICCV 2025\] I Am Big, You Are Little; I Am Right, You Are Wrong](i_am_big_you_are_little_i_am_right_you_are_wrong.md)
 - [\[ACL 2025\] CoLA: Collaborative Low-Rank Adaptation](../../ACL2025/others/cola_collaborative_low-rank_adaptation.md)
 - [\[NeurIPS 2025\] Contextual Dynamic Pricing with Heterogeneous Buyers](../../NeurIPS2025/others/contextual_dynamic_pricing_with_heterogeneous_buyers.md)
-- [\[NeurIPS 2025\] ResNets Are Deeper Than You Think](../../NeurIPS2025/others/resnets_are_deeper_than_you_think.md)
 - [\[CVPR 2025\] Regor: Progressive Correspondence Regenerator for Robust 3D Registration](../../CVPR2025/others/progressive_correspondence_regenerator_for_robust_3d_registration.md)
+- [\[ICCV 2025\] From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision](from_easy_to_hard_progressive_active_learning_framework_for_infrared_small_targe.md)
 
 <!-- RELATED:END -->

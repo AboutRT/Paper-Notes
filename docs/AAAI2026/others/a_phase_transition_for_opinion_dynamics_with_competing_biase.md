@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.09434](https://arxiv.org/abs/2511.09434)  
 **代码**: 无  
-**领域**: AI Safety / 社会网络动力学 / 观点扩散  
+**领域**: 其他  
 **关键词**: 相变、观点动力学、有向图、偏差竞争、亚稳态  
 
 ## 一句话总结
@@ -123,10 +123,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2026\] Dynamics of Cognitive Heterogeneity: Investigating Behavioral Biases in Multi-Stage Supply Chains with LLM-Based Simulation](../../ACL2026/others/dynamics_of_cognitive_heterogeneity_investigating_behavioral_biases_in_multi-sta.md)
 - [\[AAAI 2026\] Deviation Dynamics in Cardinal Hedonic Games](deviation_dynamics_in_cardinal_hedonic_games.md)
 - [\[AAAI 2026\] LILAD: Learning In-context Lyapunov-stable Adaptive Dynamics Models](lilad_learning_in-context_lyapunov-stable_adaptive_dynamics_models.md)
 - [\[ACL 2025\] Cooperating and Competing Through Natural Language](../../ACL2025/others/cooperating_and_competing_through_natural_language.md)
 - [\[NeurIPS 2025\] Normalization in Attention Dynamics](../../NeurIPS2025/others/normalization_in_attention_dynamics.md)
-- [\[ICLR 2026\] LPWM: Latent Particle World Models for Object-Centric Stochastic Dynamics](../../ICLR2026/others/latent_particle_world_models_self-supervised_object-centric_stochastic_dynamics_.md)
 
 <!-- RELATED:END -->

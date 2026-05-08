@@ -8,7 +8,7 @@ tags:
   - Issue解决
   - 强化微调
   - 子任务分解
-  - 代码生成
+  - 其他
   - SWE-Bench
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.20127](https://arxiv.org/abs/2502.20127)  
 **代码**: 无  
-**领域**: 代码智能 / 软件工程  
+**领域**: 其他  
 **关键词**: Issue解决, 强化微调, 子任务分解, 代码生成, SWE-Bench
 
 ## 一句话总结
@@ -121,10 +121,10 @@ SoRFT 包含三个核心部分：
 
 ## 相关论文
 
-- [\[ACL 2025\] SDD: Self-Degraded Defense against Malicious Fine-tuning](sdd_self-degraded_defense_against_malicious_fine-tuning.md)
 - [\[ACL 2025\] DoMIX: An Efficient Framework for Exploiting Domain Knowledge in Fine-Tuning](domix_an_efficient_framework_for_exploiting.md)
+- [\[ACL 2025\] SDD: Self-Degraded Defense against Malicious Fine-tuning](sdd_self-degraded_defense_against_malicious_fine-tuning.md)
 - [\[ACL 2025\] Intuitive Fine-Tuning: Towards Simplifying Alignment into a Single Process](intuitive_fine_tuning.md)
 - [\[ACL 2025\] AIDE: Attribute-Guided Multi-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning](aide_attribute-guided_multi-hop_data_expansion_for_data_scarcity_in_task-specifi.md)
-- [\[ACL 2025\] ProxAnn: Use-Oriented Evaluations of Topic Models and Document Clustering](proxann_topic_model_eval.md)
+- [\[ACL 2025\] Rank, Chunk, and Expand: Lineage-Oriented Reasoning for Taxonomy Expansion](rank_chunk_and_expand_lineage-oriented_reasoning_for_taxonomy_expansion.md)
 
 <!-- RELATED:END -->

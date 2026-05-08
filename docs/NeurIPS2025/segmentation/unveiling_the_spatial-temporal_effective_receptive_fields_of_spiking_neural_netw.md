@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21403](https://arxiv.org/abs/2510.21403)  
-**代码**: https://github.com/EricZhang1412/Spatial-temporal-ERF (有)  
-**领域**: Segmentation / Spiking Neural Networks  
+**代码**: [https://github.com/EricZhang1412/Spatial-temporal-ERF](https://github.com/EricZhang1412/Spatial-temporal-ERF)  
+**领域**: 图像分割  
 **关键词**: spiking neural networks, effective receptive field, Transformer, channel mixer, visual long-sequence modeling
 
 ## 一句话总结
@@ -166,8 +166,8 @@ SRB 在减少参数的同时大幅提升 mIoU。
 
 - [\[NeurIPS 2025\] STEP: A Unified Spiking Transformer Evaluation Platform for Fair and Reproducible Benchmarking](step_a_unified_spiking_transformer_evaluation_platform_for_fair_and_reproducible.md)
 - [\[NeurIPS 2025\] Seg4Diff: Unveiling Open-Vocabulary Segmentation in Text-to-Image Diffusion Transformers](seg4diff_unveiling_open-vocabulary_segmentation_in_text-to-image_diffusion_trans.md)
-- [\[CVPR 2025\] SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs](../../CVPR2025/segmentation/sparrow_learning_spatial_precision_and_temporal_referential_consistency_in_pixel.md)
 - [\[CVPR 2025\] Effective SAM Combination for Open-Vocabulary Semantic Segmentation](../../CVPR2025/segmentation/effective_sam_combination_for_open-vocabulary_semantic_segmentation.md)
 - [\[ICCV 2025\] PartField: Learning 3D Feature Fields for Part Segmentation and Beyond](../../ICCV2025/segmentation/partfield_learning_3d_feature_fields_for_part_segmentation_and_beyond.md)
+- [\[ICML 2025\] SToFM: a Multi-scale Foundation Model for Spatial Transcriptomics](../../ICML2025/segmentation/stofm_a_multi-scale_foundation_model_for_spatial_transcriptomics.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.09680](https://arxiv.org/abs/2412.09680)  
-**代码**: https://github.com/s3anwu/pbrnerf  
+**代码**: [https://github.com/s3anwu/pbrnerf](https://github.com/s3anwu/pbrnerf)  
 **领域**: 3D视觉  
 **关键词**: 逆渲染, 材质估计, 物理先验, NeRF, BRDF
 

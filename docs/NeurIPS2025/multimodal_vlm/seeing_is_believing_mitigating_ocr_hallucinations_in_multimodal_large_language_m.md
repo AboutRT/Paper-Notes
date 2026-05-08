@@ -8,7 +8,7 @@ tags:
   - 多模态
   - OCR
   - 文档理解
-  - 强化学习
+  - 多模态VLM
   - GRPO
   - 视觉退化
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.20168](https://arxiv.org/abs/2506.20168)  
-**代码**: https://huggingface.co/datasets/bytedance-research/KIE-HVQA (数据集公开)  
+**代码**: [https://huggingface.co/datasets/bytedance-research/KIE-HVQA](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) (数据集公开)  
 **领域**: 多模态VLM  
 **关键词**: OCR幻觉, 文档理解, 强化学习, GRPO, 视觉退化
 

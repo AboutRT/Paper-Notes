@@ -18,7 +18,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01084](https://arxiv.org/abs/2506.01084)  
-**代码**: https://github.com/epfl-dlab/zip2zip  
+**代码**: [https://github.com/epfl-dlab/zip2zip](https://github.com/epfl-dlab/zip2zip)  
 **领域**: 模型压缩  
 **关键词**: 自适应分词, LZW压缩, 超级Token, 推理加速, 词表扩展, 动态嵌入
 
@@ -189,9 +189,9 @@ Byte-level 困惑度（越低越好）：
 ## 相关论文
 
 - [\[NeurIPS 2025\] Inference-Time Hyper-Scaling with KV Cache Compression](inference-time_hyper-scaling_with_kv_cache_compression.md)
-- [\[NeurIPS 2025\] When Worse is Better: Navigating the Compression-Generation Trade-off in Visual Tokenization](when_worse_is_better_navigating_the_compression-generation_tradeoff_in_visual_to.md)
 - [\[NeurIPS 2025\] A Partition Cover Approach for Tokenization](a_partition_cover_approach_to_tokenization.md)
+- [\[NeurIPS 2025\] When Worse is Better: Navigating the Compression-Generation Trade-off in Visual Tokenization](when_worse_is_better_navigating_the_compression-generation_tradeoff_in_visual_to.md)
+- [\[NeurIPS 2025\] Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference](ada-kv_optimizing_kv_cache_eviction_by_adaptive_budget_allocation_for_efficient_.md)
 - [\[NeurIPS 2025\] CAS-Spec: Cascade Adaptive Self-Speculative Decoding for On-the-Fly Lossless Inference Acceleration of LLMs](casspec_cascade_adaptive_selfspeculative_decoding_for_onthef.md)
-- [\[NeurIPS 2025\] ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference](chunkkv_semanticpreserving_kv_cache_compression_for_efficien.md)
 
 <!-- RELATED:END -->

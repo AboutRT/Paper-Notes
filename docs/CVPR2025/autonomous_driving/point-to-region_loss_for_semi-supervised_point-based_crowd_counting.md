@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.21943](https://arxiv.org/abs/2505.21943)  
-**代码**: https://github.com/Elin24/P2RLoss (有)  
+**代码**: [https://github.com/Elin24/P2RLoss](https://github.com/Elin24/P2RLoss)  
 **领域**: 自动驾驶 / 人群计数  
 **关键词**: 半监督人群计数, 点到区域匹配, 伪标签, 梯度诊断, P2R损失
 

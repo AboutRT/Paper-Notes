@@ -55,11 +55,11 @@ KAFNet 由四个模块构成：
 
 1. **Pre-Convolution 序列平滑**：CPA 的零填充导致序列信息分布极不均匀——观测位置有值，大量填充位置为零。直接将这种稀疏序列送入复杂模型会导致学习困难。因此先用两层轻量卷积平滑序列：
 
-   $$\tilde{x}^n = \text{Conv}_{1\times 1}(\sigma(\text{Conv}_{1\times 3}(x^n))) \in \mathbb{R}^L$$
+    $\tilde{x}^n = \text{Conv}_{1\times 1}(\sigma(\text{Conv}_{1\times 3}(x^n))) \in \mathbb{R}^L$
 
    同时，由于 CPA 生成的时间网格索引不再反映真实的时间间隔，引入连续时间嵌入：
 
-   $$\text{TE}(t) = [w_s t + b_s \oplus \sin(\mathbf{w}_p t + \mathbf{b}_p) \oplus \cos(\mathbf{w}_c t + \mathbf{b}_c)]$$
+    $\text{TE}(t) = [w_s t + b_s \oplus \sin(\mathbf{w}_p t + \mathbf{b}_p) \oplus \cos(\mathbf{w}_c t + \mathbf{b}_c)]$
 
    将卷积特征与时间嵌入相加得到时间感知表示 $\hat{x}^n = \tilde{x}^n + \mathbf{w}_t^\top \text{TE}(\mathbf{t}^n)$。
 
@@ -69,34 +69,34 @@ KAFNet 由四个模块构成：
 
    具体做法：在 min-max 归一化后的时间轴 $[0,1]$ 上放置 $K$ 个等间距高斯核 $\{c_k, \sigma_k\}$，带宽 $\sigma_k$ 可学习。每个时刻 $\hat{t}_l^n$ 到第 $k$ 个核的权重为：
 
-   $$w_{l,k}^n = \exp\left[-\frac{1}{2}(\hat{t}_l^n - c_k)^2 / \sigma_k^2\right] \cdot m_l^n$$
+    $w_{l,k}^n = \exp\left[-\frac{1}{2}(\hat{t}_l^n - c_k)^2 / \sigma_k^2\right] \cdot m_l^n$
 
    其中 $m_l^n$ 是 CPA 的 mask（仅对实际观测有贡献）。归一化后加权聚合：
 
-   $$h_k^n = \sum_{l=1}^{L} a_{l,k}^n \hat{x}_l^n, \quad a_{l,k}^n = \frac{w_{l,k}^n}{\sum_j w_{j,k}^n}$$
+    $h_k^n = \sum_{l=1}^{L} a_{l,k}^n \hat{x}_l^n, \quad a_{l,k}^n = \frac{w_{l,k}^n}{\sum_j w_{j,k}^n}$
 
    通过门控 $\tilde{\mathbf{h}}^n = \text{Sigmoid}(\mathbf{g}) \odot \mathbf{h}^n$ 和线性投影得到 $\mathbf{z}^n \in \mathbb{R}^d$。
 
    **设计动机**：
-   - 高斯核形成时间轴上的"**软时间码本**"——每个核覆盖一个时间区域，按亲和度对该区域内的观测加权聚合
-   - mask 机制确保零填充位置不参与聚合，只有真实观测贡献
-   - 压缩后长度 $K$ 与原始长度 $L$ 无关，彻底解决了 CPA 的序列膨胀问题
-   - 可学习带宽允许核自适应调整覆盖范围——稠密区域用窄核细粒度建模，稀疏区域用宽核平滑
+    - 高斯核形成时间轴上的"**软时间码本**"——每个核覆盖一个时间区域，按亲和度对该区域内的观测加权聚合
+    - mask 机制确保零填充位置不参与聚合，只有真实观测贡献
+    - 压缩后长度 $K$ 与原始长度 $L$ 无关，彻底解决了 CPA 的序列膨胀问题
+    - 可学习带宽允许核自适应调整覆盖范围——稠密区域用窄核细粒度建模，稀疏区域用宽核平滑
 
 3. **频域线性注意力(FLA)**：TKA 将每个变量压缩为 $\mathbf{z}^n \in \mathbb{R}^d$，拼接成 $\mathbf{Z} \in \mathbb{R}^{N \times d}$。FLA block 在频域中建模跨变量依赖：
 
    先对 $\mathbf{Z}$ 做 rFFT 转换到频域 $\mathbf{C} \in \mathbb{R}^{N \times 2d_f}$，然后对 $\mathbf{C}$ 做多头注意力，最后 irFFT 回到时域。关键创新是用 **随机傅里叶特征(RFF)** 近似 softmax 核，实现线性复杂度注意力：
 
-   $$\phi(\mathbf{x}) = \frac{1}{\sqrt{R}} [\cos(\mathbf{\Omega}^\top \mathbf{x} + \mathbf{b}), \sin(\mathbf{\Omega}^\top \mathbf{x} + \mathbf{b})] \in \mathbb{R}^R$$
+    $\phi(\mathbf{x}) = \frac{1}{\sqrt{R}} [\cos(\mathbf{\Omega}^\top \mathbf{x} + \mathbf{b}), \sin(\mathbf{\Omega}^\top \mathbf{x} + \mathbf{b})] \in \mathbb{R}^R$
 
-   $$\mathbf{O}^{(h)} = \frac{\phi(\mathbf{Q}^{(h)})(\phi(\mathbf{K}^{(h)})^\top \mathbf{V}^{(h)})}{\phi(\mathbf{Q}^{(h)})(\phi(\mathbf{K}^{(h)})^\top)}$$
+    $\mathbf{O}^{(h)} = \frac{\phi(\mathbf{Q}^{(h)})(\phi(\mathbf{K}^{(h)})^\top \mathbf{V}^{(h)})}{\phi(\mathbf{Q}^{(h)})(\phi(\mathbf{K}^{(h)})^\top)}$
 
    堆叠多层 FLA block，每层包含 attention + FFN + 残差连接。
 
    **设计动机**：
-   - 频域变换：捕获周期性和全局信息更自然，且 rFFT/irFFT 的$O(Nd\log d)$复杂度远低于时域全注意力
-   - RFF 线性化：标准 softmax attention 对变量数 $N$ 是 $O(N^2)$，在变量多时不可行；RFF 近似将复杂度降为 $O(NR)$
-   - 与 CPA 的协同：CPA 已将所有变量对齐到统一时间轴，FLA 可以直接在所有变量间交换信息，而图模型无法做到这一点
+    - 频域变换：捕获周期性和全局信息更自然，且 rFFT/irFFT 的$O(Nd\log d)$复杂度远低于时域全注意力
+    - RFF 线性化：标准 softmax attention 对变量数 $N$ 是 $O(N^2)$，在变量多时不可行；RFF 近似将复杂度降为 $O(NR)$
+    - 与 CPA 的协同：CPA 已将所有变量对齐到统一时间轴，FLA 可以直接在所有变量间交换信息，而图模型无法做到这一点
 
 ### 损失函数 / 训练策略
 
@@ -185,8 +185,8 @@ KAFNet 实现 7.2× 参数减少和 8.4× 训练推理加速。
 
 - [\[ICLR 2026\] Learning Recursive Multi-Scale Representations for Irregular Multivariate Time Series Forecasting](../../ICLR2026/time_series/learning_recursive_multi-scale_representations_for_irregular_multivariate_time_s.md)
 - [\[AAAI 2026\] HN-MVTS: HyperNetwork-based Multivariate Time Series Forecasting](hn-mvts_hypernetwork-based_multivariate_time_series_forecasting.md)
-- [\[AAAI 2026\] Transparent Networks for Multivariate Time Series](transparent_networks_for_multivariate_time_series.md)
 - [\[ICML 2025\] HyperIMTS: Hypergraph Neural Network for Irregular Multivariate Time Series Forecasting](../../ICML2025/time_series/hyperimts_hypergraph_neural_network_for_irregular_multivariate_time_series_forec.md)
+- [\[AAAI 2026\] Transparent Networks for Multivariate Time Series](transparent_networks_for_multivariate_time_series.md)
 - [\[NeurIPS 2025\] Time-IMM: A Dataset and Benchmark for Irregular Multimodal Multivariate Time Series](../../NeurIPS2025/time_series/time-imm_a_dataset_and_benchmark_for_irregular_multimodal_multivariate_time_seri.md)
 
 <!-- RELATED:END -->

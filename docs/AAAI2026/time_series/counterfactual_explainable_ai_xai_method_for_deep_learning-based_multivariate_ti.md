@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.13237](https://arxiv.org/abs/2511.13237)  
-**代码**: https://github.com/serval-uni-lu/confetti (有)  
+**代码**: [https://github.com/serval-uni-lu/confetti](https://github.com/serval-uni-lu/confetti)  
 **领域**: Time Series / Explainable AI  
 **关键词**: 反事实解释, 多变量时间序列, 多目标优化, 可解释AI, NSGA-III
 
@@ -148,6 +148,6 @@ CONFETTI 的优化是一个三目标问题（非深度学习损失）：
 - [\[AAAI 2026\] FreqCycle: A Multi-Scale Time-Frequency Analysis Method for Time Series Forecasting](freqcycle_a_multi-scale_time-frequency_analysis_method_for_time_series_forecasti.md)
 - [\[AAAI 2026\] A Unified Shape-Aware Foundation Model for Time Series Classification](a_unified_shape-aware_foundation_model_for_time_series_class.md)
 - [\[AAAI 2026\] Transparent Networks for Multivariate Time Series](transparent_networks_for_multivariate_time_series.md)
-- [\[AAAI 2026\] GAICo: A Deployed and Extensible Framework for Evaluating Diverse and Multimodal Generative AI Outputs](gaico_a_deployed_and_extensible_framework_for_evaluating_diverse_and_multimodal_.md)
+- [\[AAAI 2026\] HN-MVTS: HyperNetwork-based Multivariate Time Series Forecasting](hn-mvts_hypernetwork-based_multivariate_time_series_forecasting.md)
 
 <!-- RELATED:END -->

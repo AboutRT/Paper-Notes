@@ -2,10 +2,10 @@
 title: >-
   [论文解读] MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining
 description: >-
-  [NeurIPS 2025][多语言数据选择] 提出 MuRating，一个可扩展的多语言数据选择框架：先通过配对比较聚合多个英文数据质量评分器，再借助翻译将质量信号迁移到 17 种语言，训练出语言无关的多语言质量评估模型，在 1.2B 和 7B 规模 LLM 预训练中取得了持续的性能提升。
+  [NeurIPS 2025][信息检索] 提出 MuRating，一个可扩展的多语言数据选择框架：先通过配对比较聚合多个英文数据质量评分器，再借助翻译将质量信号迁移到 17 种语言，训练出语言无关的多语言质量评估模型，在 1.2B 和 7B 规模 LLM 预训练中取得了持续的性能提升。
 tags:
   - NeurIPS 2025
-  - 多语言数据选择
+  - 信息检索
   - 预训练数据质量
   - Bradley-Terry模型
   - 配对比较
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.01785](https://arxiv.org/abs/2507.01785)  
 **代码**: [https://github.com/aialt/MuRater](https://github.com/aialt/MuRater)  
-**领域**: llm_nlp  
+**领域**: 信息检索  
 **关键词**: 多语言数据选择, 预训练数据质量, Bradley-Terry模型, 配对比较, 跨语言对齐
 
 ## 一句话总结
@@ -189,8 +189,8 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{pairwise}} + \lambda \cdot \ma
 ## 相关论文
 
 - [\[ACL 2025\] SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model](../../ACL2025/information_retrieval/saferag_benchmarking_security_in_retrieval-augmented_generation_of_large_languag.md)
-- [\[ECCV 2024\] Towards Open-Ended Visual Recognition with Large Language Model](../../ECCV2024/information_retrieval/towards_open-ended_visual_recognition_with_large_language_models.md)
 - [\[CVPR 2025\] LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant](../../CVPR2025/information_retrieval/lamra_large_multimodal_model_as_your_advanced_retrieval_assistant.md)
+- [\[NeurIPS 2025\] The Transparent Earth: A Multimodal Foundation Model for the Earth's Subsurface](the_transparent_earth_a_multimodal_foundation_model_for_the_earths_subsurface.md)
 - [\[ACL 2025\] Investigating Language Preference of Multilingual RAG Systems](../../ACL2025/information_retrieval/investigating_language_preference_of_multilingual_rag_systems.md)
 - [\[ACL 2025\] Enhancing Lexicon-Based Text Embeddings with Large Language Models](../../ACL2025/information_retrieval/enhancing_lexicon-based_text_embeddings_with_large_language_models.md)
 

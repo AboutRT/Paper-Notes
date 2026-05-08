@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.13057](https://arxiv.org/abs/2603.13057)  
 **代码**: [GitHub](https://github.com/litelightlite/VTON-IQA)  
-**领域**: 图像生成评估 / 虚拟试穿  
+**领域**: 人体理解  
 **关键词**: 虚拟试穿, 无参考质量评估, 人类反馈对齐, 交错交叉注意力, VTON-QBench
 
 ## 一句话总结
@@ -155,9 +155,9 @@ ICA 模块贡献 +21.6% SRCC 提升和 +5.8% 微匹配准确率。
 ## 相关论文
 
 - [\[CVPR 2026\] RefTon: Reference Person Shot Assist Virtual Try-on](refton_reference_person_shot_assist_virtual_try-on.md)
-- [\[CVPR 2026\] Mobile-VTON: High-Fidelity On-Device Virtual Try-On](mobile-vton_high-fidelity_on-device_virtual_try-on.md)
+- [\[CVPR 2026\] Mobile-VTON: High-Fidelity On-Device Virtual Try-On](mobile_vton_ondevice_virtual_tryon.md)
 - [\[CVPR 2026\] rPPG-VQA: A Video Quality Assessment Framework for Unsupervised rPPG Training](rppg_vqa_video_quality_assessment.md)
-- [\[CVPR 2026\] QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](quantvla_scale-calibrated_post-training_quantization_for_vision-language-action_.md)
+- [\[CVPR 2026\] How to Take a Memorable Picture? Empowering Users with Actionable Feedback](how_to_take_a_memorable_picture_empowering_users_with_actionable_feedback.md)
 - [\[CVPR 2026\] ViBES: A Conversational Agent with Behaviorally-Intelligent 3D Virtual Body](vibes_a_conversational_agent_with_behaviorally_intelligent_3d_virtual_body.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.15687](https://arxiv.org/abs/2604.15687)  
 **代码**: 无  
-**领域**: 多智能体谈判  
+**领域**: 视频理解  
 **关键词**: 对手建模, 贝叶斯推理, 偏好估计, 多方谈判, LLM语言信号
 
 ## 一句话总结
@@ -128,6 +128,6 @@ tags:
 - [\[CVPR 2026\] A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](../../CVPR2026/video_understanding/a_multi-agent_perception-action_alliance_for_efficient_long_video_reasoning.md)
 - [\[CVPR 2026\] A4VL: A Multi-Agent Perception-Action Alliance for Efficient Long Video Reasoning](../../CVPR2026/video_understanding/a4vl_multiagent_long_video_reasoning.md)
 - [\[CVPR 2026\] VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning](../../CVPR2026/video_understanding/videochatm1_collaborative_policy_planning_for_vide.md)
-- [\[CVPR 2026\] SVAgent: Storyline-Guided Long Video Understanding via Cross-Modal Multi-Agent Collaboration](../../CVPR2026/video_understanding/svagent_storyline_guided_long_video_understanding_via_cross_modal_multi_agent_collaboration.md)
+- [\[CVPR 2026\] Learning to Assist: Physics-Grounded Human-Human Control via Multi-Agent Reinforcement Learning](../../CVPR2026/video_understanding/learning_to_assist_physics-grounded_human-human_control_via_multi-agent_reinforc.md)
 
 <!-- RELATED:END -->

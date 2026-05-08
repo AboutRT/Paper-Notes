@@ -18,7 +18,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.11754](https://arxiv.org/abs/2505.11754)  
-**代码**: https://github.com/hwy9855/MultiHopQA-Reasoning  
+**代码**: [https://github.com/hwy9855/MultiHopQA-Reasoning](https://github.com/hwy9855/MultiHopQA-Reasoning)  
 **领域**: LLM/NLP  
 **关键词**: multi-hop QA, causal mask, attention analysis, document permutation, encoder-decoder, prefix mask
 
@@ -134,7 +134,7 @@ Flan-T5 在零样本场景下全面碾压参数量大数倍的 decoder-only 模�
 - [\[ACL 2025\] Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?](do_large_language_models_perform_latent_multi-hop_reasoning_without_exploiting_s.md)
 - [\[ACL 2025\] LLMs can Perform Multi-Dimensional Analytic Writing Assessments](llm_writing_assessment.md)
 - [\[ACL 2025\] MIRAGE: Exploring How Large Language Models Perform in Complex Social Interactive Environments](mirage_exploring_how_large_language_models_perform_in_complex_social_interactive.md)
-- [\[ACL 2025\] Team Anotheroption at SemEval-2025 Task 8: Bridging the Gap Between Open-Source and Proprietary LLMs in Table QA](team_anotheroption_at_semeval-2025_task_8_bridging_the_gap_between_open-source_a.md)
-- [\[ACL 2025\] MHA2MLA: Towards Economical Inference by Enabling DeepSeek's Multi-Head Latent Attention in Any Transformer-based LLMs](mha2mla_deepseek_latent_attention.md)
+- [\[ACL 2025\] Active LLMs for Multi-hop Question Answering](active_llms_for_multi-hop_question_answering.md)
+- [\[ACL 2025\] BELLE: A Bi-Level Multi-Agent Reasoning Framework for Multi-Hop Question Answering](belle_a_bi-level_multi-agent_reasoning_framework_for_multi-hop_question_answerin.md)
 
 <!-- RELATED:END -->

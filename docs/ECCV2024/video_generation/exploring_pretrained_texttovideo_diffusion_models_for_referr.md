@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation
 description: >-
-  [ECCV 2024][文本引导视频物体分割] VD-IT首次探索预训练T2V扩散模型（ModelScopeT2V）在视频理解任务中的应用，通过Text-Guided Image Projection和Video-specific Noise Prediction设计，从固定T2V模型中提取语义对齐、时序一致的视频特征，在Referring VOS任务上超越传统判别式backbone。
+  [ECCV 2024][视频生成] VD-IT首次探索预训练T2V扩散模型（ModelScopeT2V）在视频理解任务中的应用，通过Text-Guided Image Projection和Video-specific Noise Prediction设计，从固定T2V模型中提取语义对齐、时序一致的视频特征，在Referring VOS任务上超越传统判别式backbone。
 tags:
   - ECCV 2024
-  - 文本引导视频物体分割
+  - 视频生成
   - Text-to-Video扩散模型
   - 时序一致性
   - 视频理解
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.12042](https://arxiv.org/abs/2403.12042)  
-**代码**: https://github.com/buxiangzhiren/VD-IT (有)  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/buxiangzhiren/VD-IT](https://github.com/buxiangzhiren/VD-IT)  
+**领域**: 视频生成  
 **关键词**: 文本引导视频物体分割, Text-to-Video扩散模型, 时序一致性, 视频理解, 特征提取
 
 ## 一句话总结
@@ -123,9 +123,9 @@ VD-IT分两部分：(1) 视频特征提取——将视频帧和referring text输
 ## 相关论文
 
 - [\[ECCV 2024\] FreeInit: Bridging Initialization Gap in Video Diffusion Models](freeinit_bridging_initialization_gap_in_video_diffusion.md)
-- [\[ECCV 2024\] VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models](vfusion3d_learning_scalable_3d_generative_models_from_video_diffusion_models.md)
 - [\[ECCV 2024\] Kalman-Inspired Feature Propagation for Video Face Super-Resolution](kalman-inspired_feature_propagation_for_video_face_super-resolution.md)
-- [\[ECCV 2024\] MagDiff: Multi-Alignment Diffusion for High-Fidelity Video Generation and Editing](magdiff_multi-alignment_diffusion_for_high-fidelity_video_generation_and_editing.md)
-- [\[ECCV 2024\] Videoshop: Localized Semantic Video Editing with Noise-Extrapolated Diffusion Inversion](videoshop_localized_semantic_video_editing_with_noise-extrapolated_diffusion_inv.md)
+- [\[ECCV 2024\] Evaluating Text-to-Visual Generation with Image-to-Text Generation](evaluating_text-to-visual_generation_with_image-to-text_generation.md)
+- [\[ECCV 2024\] VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models](vfusion3d_learning_scalable_3d_generative_models_from_video_diffusion_models.md)
+- [\[ECCV 2024\] SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](sv3d_novel_multi-view_synthesis_and_3d_generation_from_a_single_image_using_late.md)
 
 <!-- RELATED:END -->

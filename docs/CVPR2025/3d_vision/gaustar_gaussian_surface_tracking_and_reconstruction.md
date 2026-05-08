@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.10283](https://arxiv.org/abs/2501.10283)  
-**代码**: https://eth-ait.github.io/GauSTAR/ (有)  
+**代码**: [https://eth-ait.github.io/GauSTAR/](https://eth-ait.github.io/GauSTAR/)  
 **领域**: 3D视觉  
 **关键词**: 动态曲面重建, 3D高斯溅射, 拓扑变化, 表面跟踪, 场景流
 

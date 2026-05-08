@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining
 description: >-
-  [NeurIPS 2025][异常表示预训练] 首次提出面向工业异常检测的专用表示预训练框架 ADPretrain，通过角度和范数导向的对比损失在大规模异常检测数据集 RealIAD 上学习残差特征表示，替换五种主流嵌入式 AD 方法的原始特征后在五个数据集、五个骨干网络上取得一致性提升。
+  [NeurIPS 2025][其他] 首次提出面向工业异常检测的专用表示预训练框架 ADPretrain，通过角度和范数导向的对比损失在大规模异常检测数据集 RealIAD 上学习残差特征表示，替换五种主流嵌入式 AD 方法的原始特征后在五个数据集、五个骨干网络上取得一致性提升。
 tags:
   - NeurIPS 2025
-  - 异常表示预训练
+  - 其他
   - 对比学习
   - 残差特征
   - 工业异常检测
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.05245](https://arxiv.org/abs/2511.05245)  
 **代码**: [xcyao00/ADPretrain](https://github.com/xcyao00/ADPretrain)  
-**领域**: self_supervised, anomaly_detection  
+**领域**: 其他  
 **关键词**: 异常表示预训练, 对比学习, 残差特征, 工业异常检测, 特征预训练  
 **机构**: 上海交通大学, 南京农业大学  
 
@@ -160,8 +160,8 @@ $$\mathcal{L} = \frac{1}{2N} \sum_{i=1}^{2N} \lambda \cdot \mathbb{I}_{[i \leq N
 
 - [\[NeurIPS 2025\] Semi-supervised Graph Anomaly Detection via Robust Homophily Learning](semi-supervised_graph_anomaly_detection_via_robust_homophily_learning.md)
 - [\[CVPR 2025\] Integration of deep generative Anomaly Detection algorithm in high-speed industrial line](../../CVPR2025/others/integration_of_deep_generative_anomaly_detection_algorithm_in_high-speed_industr.md)
-- [\[NeurIPS 2025\] EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination](an_evidence-based_post-hoc_adjustment_framework_for_anomaly_detection_under_data.md)
 - [\[AAAI 2026\] RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection](../../AAAI2026/others/rcae_recursive_reconstruction_framework_for_unsupervised_industrial_anomaly_dete.md)
-- [\[CVPR 2025\] AnomalyNCD: Towards Novel Anomaly Class Discovery in Industrial Scenarios](../../CVPR2025/others/anomalyncd_towards_novel_anomaly_class_discovery_in_industrial_scenarios.md)
+- [\[CVPR 2025\] Multi-Sensor Object Anomaly Detection: Unifying Appearance, Geometry, and Internal Properties](../../CVPR2025/others/multi-sensor_object_anomaly_detection_unifying_appearance_geometry_and_internal_.md)
+- [\[NeurIPS 2025\] EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination](an_evidence-based_post-hoc_adjustment_framework_for_anomaly_detection_under_data.md)
 
 <!-- RELATED:END -->

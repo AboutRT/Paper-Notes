@@ -5,7 +5,7 @@ description: >-
   [ACL 2025 (Main Track)][有害语言检测] 本文系统比较了多种方法（微调、数据增强、零样本/少样本学习、跨语言迁移学习）在波斯语有害语言检测中的效果，揭示了文化相似性是决定跨语言迁移学习成功与否的关键因素——来自文化相近国家的语言数据带来更好的迁移效果。
 tags:
   - ACL 2025 (Main Track)
-  - 有害语言检测
+  - 社会计算
   - 波斯语
   - 文化因素
   - 跨语言迁移学习
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Main Track)  
 **arXiv**: [2506.03458](https://arxiv.org/abs/2506.03458)  
 **代码**: 无  
-**领域**: NLP / 有害内容检测  
+**领域**: 社会计算  
 **关键词**: 有害语言检测、波斯语、文化因素、跨语言迁移学习、低资源语言
 
 ## 一句话总结
@@ -136,9 +136,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Exploring Multimodal Challenges in Toxic Chinese Detection: Taxonomy, Benchmark, and Findings](exploring_multimodal_challenges_in_toxic_chinese_detection_taxonomy_benchmark_an.md)
-- [\[NeurIPS 2025\] A Multi-Task Benchmark for Abusive Language Detection in Low-Resource Settings](../../NeurIPS2025/social_computing/a_multitask_benchmark_for_abusive_language_detection_in_lowr.md)
 - [\[ACL 2025\] BiasGuard: A Reasoning-Enhanced Bias Detection Tool for Large Language Models](biasguard_a_reasoning-enhanced_bias_detection_tool_for_large_language_models.md)
-- [\[ACL 2025\] Detection of Human and Machine-Authored Fake News in Urdu](detection_of_human_and_machine-authored_fake_news_in_urdu.md)
 - [\[ACL 2025\] ImpliHateVid: Implicit Hate Speech Detection in Videos](implihatevid_video_hate.md)
+- [\[ACL 2025\] Translate With Care: Addressing Gender Bias, Neutrality, and Reasoning in Large Language Model Translations](translate_with_care_addressing_gender_bias_neutrality_and_reasoning_in_large_lan.md)
+- [\[ACL 2025\] Detection of Human and Machine-Authored Fake News in Urdu](detection_of_human_and_machine-authored_fake_news_in_urdu.md)
 
 <!-- RELATED:END -->

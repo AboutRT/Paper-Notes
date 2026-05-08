@@ -17,8 +17,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.04856](https://arxiv.org/abs/2503.04856)  
-**代码**: https://github.com/Junuha/M2S_DATA  
-**领域**: AI安全  
+**代码**: [https://github.com/Junuha/M2S_DATA](https://github.com/Junuha/M2S_DATA)  
+**领域**: LLM对齐  
 **关键词**: jailbreak, red teaming, multi-turn, single-turn conversion, contextual blindness
 
 ## 一句话总结

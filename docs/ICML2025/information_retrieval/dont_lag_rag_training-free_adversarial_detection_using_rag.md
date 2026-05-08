@@ -5,7 +5,7 @@ description: >-
   [ICML 2025 (VecDB Workshop)][对抗样本检测] 本文提出 VRAG 框架，通过构建对抗补丁数据库 + 视觉检索增强生成（VRAG）+ VLM 推理的免训练 pipeline，实现对多种对抗补丁攻击的高效检测，Gemini-2.0 达到 98% 准确率，开源模型 UI-TARS-72B-DPO 达 95%。
 tags:
   - ICML 2025 (VecDB Workshop)
-  - 对抗样本检测
+  - 信息检索
   - 对抗补丁攻击
   - 视觉RAG
   - VLM推理
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025 (VecDB Workshop)  
 **arXiv**: [2504.04858](https://arxiv.org/abs/2504.04858)  
 **代码**: 无  
-**领域**: 多模态VLM  
+**领域**: 信息检索  
 **关键词**: 对抗样本检测, 对抗补丁攻击, 视觉RAG, VLM推理, 免训练防御
 
 ## 一句话总结
@@ -146,10 +146,10 @@ VRAG 检测 pipeline（如 Figure 2 所示）分四步：
 
 ## 相关论文
 
+- [\[ACL 2025\] Contradiction Detection in RAG-Based Chatbots](../../ACL2025/information_retrieval/contradiction_detection_in_rag-based_chatbots.md)
 - [\[NeurIPS 2025\] SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG](../../NeurIPS2025/information_retrieval/secon-rag_a_two-stage_semantic_filtering_and_conflict-free_framework_for_trustwo.md)
 - [\[ACL 2026\] CRAFT: Training-Free Cascaded Retrieval for Tabular QA](../../ACL2026/information_retrieval/craft_training-free_cascaded_retrieval_for_tabular_qa.md)
 - [\[ACL 2025\] VoxRAG: A Step Toward Transcription-Free RAG Systems in Spoken Question Answering](../../ACL2025/information_retrieval/voxrag_a_step_toward_transcription-free_rag_systems_in_spoken_question_answering.md)
-- [\[NeurIPS 2025\] HiFi-RAG: Hierarchical Content Filtering and Two-Pass Generation for Open-Domain RAG](../../NeurIPS2025/information_retrieval/hifi-rag_hierarchical_content_filtering_and_two-pass_generation_for_open-domain_.md)
-- [\[NeurIPS 2025\] RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering](../../NeurIPS2025/information_retrieval/rag-igbench_innovative_evaluation_for_rag-based_interleaved_generation_in_open-d.md)
+- [\[ICLR 2026\] Q-RAG: Long Context Multi-Step Retrieval via Value-Based Embedder Training](../../ICLR2026/information_retrieval/q_rag_long_context_multi_step_retrieval.md)
 
 <!-- RELATED:END -->

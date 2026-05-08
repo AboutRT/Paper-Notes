@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2509.24897](https://arxiv.org/abs/2509.24897)  
-**代码**: https://github.com/FrankYang-17/RealUnify  
-**领域**: 多模态VLM  
+**代码**: [https://github.com/FrankYang-17/RealUnify](https://github.com/FrankYang-17/RealUnify)  
+**领域**: 图像生成  
 **关键词**: 统一模型, 能力协同, 理解与生成, 基准测试, 双向评估
 
 ## 一句话总结

@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 检索增强生成
   - 重排序器
-  - 端到端优化
+  - 信息检索
   - Gumbel技巧
   - 注意力掩码
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2502.11116](https://arxiv.org/abs/2502.11116)  
-**领域**: LLM NLP  
+**领域**: 信息检索  
 **关键词**: 检索增强生成, 重排序器, 端到端优化, Gumbel技巧, 注意力掩码
 
 ## 一句话总结
@@ -156,6 +156,6 @@ G-Rerank 在识别间接相关文档上 Recall@5 提升 **10.4%**！
 - [\[ACL 2026\] End-to-End Optimization of LLM-Driven Multi-Agent Search Systems via Heterogeneous-Group-Based Reinforcement Learning](../../ACL2026/information_retrieval/end-to-end_optimization_of_llm-driven_multi-agent_search_systems_via_heterogeneo.md)
 - [\[ACL 2025\] Reranking-based Generation for Unbiased Perspective Summarization](reranking-based_generation_for_unbiased_perspective_summarization.md)
 - [\[ACL 2025\] Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation](towards_adaptive_memory-based_optimization_for_enhanced_retrieval-augmented_gene.md)
-- [\[ACL 2025\] VISA: Retrieval Augmented Generation with Visual Source Attribution](visa_retrieval_augmented_generation_with_visual_source_attribution.md)
+- [\[ACL 2025\] MT-RAIG: Novel Benchmark and Evaluation Framework for Retrieval-Augmented Insight Generation over Multiple Tables](mt-raig_novel_benchmark_and_evaluation_framework_for_retrieval-augmented_insight.md)
 
 <!-- RELATED:END -->

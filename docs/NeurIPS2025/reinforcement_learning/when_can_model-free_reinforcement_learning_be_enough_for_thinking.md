@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.17124](https://arxiv.org/abs/2506.17124)  
-**代码**: https://github.com/prediction-action-lab/thinking-as-control  
+**代码**: [https://github.com/prediction-action-lab/thinking-as-control](https://github.com/prediction-action-lab/thinking-as-control)  
 **领域**: 强化学习  
 **关键词**: 思考MDP, 模型无关RL, 思考行为涌现, 策略初始化, 双过程理论
 
@@ -130,7 +130,7 @@ tags:
 - [\[NeurIPS 2025\] Parameter-Free Algorithms for the Stochastically Extended Adversarial Model](parameter-free_algorithms_for_the_stochastically_extended_adversarial_model.md)
 - [\[NeurIPS 2025\] Deep RL Needs Deep Behavior Analysis: Exploring Implicit Planning by Model-Free Agents](deep_rl_needs_deep_behavior_analysis_exploring_implicit_planning_by_model-free_a.md)
 - [\[NeurIPS 2025\] Learning Interactive World Model for Object-Centric Reinforcement Learning](learning_interactive_world_model_for_object-centric_reinforcement_learning.md)
-- [\[AAAI 2026\] When Eyes and Ears Disagree: Can MLLMs Discern Audio-Visual Confusion?](../../AAAI2026/reinforcement_learning/when_eyes_and_ears_disagree_can_mllms_discern_audio-visual_confusion.md)
 - [\[ICML 2025\] BRITE: Bootstrapping Reinforced Thinking Process to Enhance Language Model Reasoning](../../ICML2025/reinforcement_learning/brite_bootstrapping_reinforced_thinking_process_to_enhance_language_model_reason.md)
+- [\[NeurIPS 2025\] Optimizing the Unknown: Black Box Bayesian Optimization with Energy-Based Model and Reinforcement Learning](optimizing_the_unknown_black_box_bayesian_optimization_with_energy-based_model_a.md)
 
 <!-- RELATED:END -->

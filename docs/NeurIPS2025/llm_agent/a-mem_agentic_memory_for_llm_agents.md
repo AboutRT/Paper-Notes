@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2502.12110](https://arxiv.org/abs/2502.12110)  
-**代码**: https://github.com/WujiangXu/AgenticMemory  
+**代码**: [https://github.com/WujiangXu/AgenticMemory](https://github.com/WujiangXu/AgenticMemory)  
 **领域**: LLM Agent / 记忆系统  
 **关键词**: Agentic Memory, Zettelkasten, 长期记忆, LLM Agent, 知识管理
 

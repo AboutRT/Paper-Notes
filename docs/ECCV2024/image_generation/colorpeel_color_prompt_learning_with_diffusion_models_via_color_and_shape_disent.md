@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.07197](https://arxiv.org/abs/2407.07197)  
-**代码**: https://moatifbutt.github.io/colorpeel/ (项目页面)  
+**代码**: [https://moatifbutt.github.io/colorpeel/](https://moatifbutt.github.io/colorpeel/) (项目页面)  
 **领域**: 扩散模型 / 图像生成  
 **关键词**: 颜色提示学习, 扩散模型, 颜色-形状解耦, T2I个性化, 交叉注意力对齐
 
@@ -51,10 +51,10 @@ ColorPeel基于Stable Diffusion v1.4，流程如下：(1) 给定用户选择的R
 
 2. **交叉注意力对齐损失 (Cross-Attention Alignment, CAA)**：通过可视化SD-UNet的交叉注意力图发现，颜色token和形状token的注意力区域经常不对齐——颜色注意力泄漏到背景区域，导致颜色不准确。CAA损失通过最大化颜色和形状注意力图的余弦相似度来强制对齐：
 
-   $$\mathcal{L}_{caa} = 1 - \cos(\mathcal{A}_t^{c^*}, \mathcal{A}_t^{s^*})$$
+    $\mathcal{L}_{caa} = 1 - \cos(\mathcal{A}_t^{c^*}, \mathcal{A}_t^{s^*})$
 
    最终训练目标：
-   $$\mathcal{V}^* = \underset{\mathcal{V}}{\arg\min}\ \mathbb{E}[\mathcal{L}_{rec} + \lambda \cdot \mathcal{L}_{caa}]$$
+    $\mathcal{V}^* = \underset{\mathcal{V}}{\arg\min}\ \mathbb{E}[\mathcal{L}_{rec} + \lambda \cdot \mathcal{L}_{caa}]$
 
    其中 $\mathcal{L}_{rec}$ 为标准LDM噪声重建损失，$\lambda$ 为权衡超参数（最优值0.2）。
 

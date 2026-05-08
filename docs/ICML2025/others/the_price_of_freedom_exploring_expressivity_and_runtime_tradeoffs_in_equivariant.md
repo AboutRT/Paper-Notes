@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2506.13523](https://arxiv.org/abs/2506.13523)  
-**代码**: https://github.com/atomicarchitects/PriceofFreedom  
+**代码**: [https://github.com/atomicarchitects/PriceofFreedom](https://github.com/atomicarchitects/PriceofFreedom)  
 **领域**: 等变神经网络 / 科学计算  
 **关键词**: E(3)-equivariance, tensor product, expressivity, Gaunt tensor product, MACE, interatomic potentials
 
@@ -125,6 +125,6 @@ tags:
 - [\[NeurIPS 2025\] On Universality Classes of Equivariant Networks](../../NeurIPS2025/others/on_universality_classes_of_equivariant_networks.md)
 - [\[NeurIPS 2025\] Learning (Approximately) Equivariant Networks via Constrained Optimization](../../NeurIPS2025/others/learning_approximately_equivariant_networks_via_constrained_optimization.md)
 - [\[ICML 2025\] Positional Attention: Expressivity and Learnability of Algorithmic Computation](positional_attention_expressivity_and_learnability_of_algorithmic_computation.md)
-- [\[ICCV 2025\] despite exploring contrastive deep skeletonpointcloudimutext](../../ICCV2025/others/despite_exploring_contrastive_deep_skeletonpointcloudimutext.md)
+- [\[ICML 2025\] Improved Exploration in GFlowNets via Enhanced Epistemic Neural Networks](improved_exploration_in_gflownets_via_enhanced_epistemic_neural_networks.md)
 
 <!-- RELATED:END -->

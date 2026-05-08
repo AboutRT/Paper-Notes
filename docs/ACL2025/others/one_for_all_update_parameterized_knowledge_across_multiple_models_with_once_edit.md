@@ -2,10 +2,10 @@
 title: >-
   [论文解读] One for All: Update Parameterized Knowledge Across Multiple Models with Once Edit
 description: >-
-  [ACL 2025][知识编辑] 提出 OnceEdit，通过编辑一个轻量级插件模型并利用异构模型集成技术将编辑后的知识迁移到多个 LLM，实现"一次编辑，多模型更新"，在 ZsRE 和 Counterfact 数据集上显著超越现有方法。
+  [ACL 2025][其他] 提出 OnceEdit，通过编辑一个轻量级插件模型并利用异构模型集成技术将编辑后的知识迁移到多个 LLM，实现"一次编辑，多模型更新"，在 ZsRE 和 Counterfact 数据集上显著超越现有方法。
 tags:
   - ACL 2025
-  - 知识编辑
+  - 其他
   - 模型集成
   - 多模型更新
   - 参数化知识
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.00817](https://arxiv.org/abs/2506.00817)  
 **代码**: 有（即将公开）  
-**领域**: NLP / 知识编辑  
+**领域**: 其他  
 **关键词**: 知识编辑, 模型集成, 多模型更新, 参数化知识, LLM
 
 ## 一句话总结
@@ -180,7 +180,7 @@ OnceEdit 编辑 3 个模型的总时间最少——其他方法需要 2-4 倍的
 
 - [\[ACL 2025\] Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?](are_any-to-any_models_more_consistent_across_modality_transfers_than_specialists.md)
 - [\[ICML 2025\] Heavy-Tailed Linear Bandits: Huber Regression with One-Pass Update](../../ICML2025/others/heavy-tailed_linear_bandits_huber_regression_with_one-pass_update.md)
-- [\[ICML 2025\] LapSum -- One Method to Differentiate Them All: Ranking, Sorting and Top-k Selection](../../ICML2025/others/lapsum_--_one_method_to_differentiate_them_all_ranking_sorting_and_top-k_selecti.md)
+- [\[ACL 2025\] Low-Rank Interconnected Adaptation across Layers](low-rank_interconnected_adaptation_across_layers.md)
 - [\[ACL 2025\] CoAM: Corpus of All-Type Multiword Expressions](coam_corpus_of_all-type_multiword_expressions.md)
 - [\[ACL 2025\] HelpSteer3: Human-Annotated Feedback and Edit Data to Empower Inference-Time Scaling](helpsteer3_human-annotated_feedback_and_edit_data_to_empower_inference-time_scal.md)
 

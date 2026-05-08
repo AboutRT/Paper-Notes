@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.16549](https://arxiv.org/abs/2509.16549)  
 **代码**: [zirui0625/RFfusion](https://github.com/zirui0625/RFfusion)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: Image Fusion, Rectified Flow, diffusion model, VAE, One-Step Sampling
 
 ## 一句话总结
@@ -136,9 +136,9 @@ $$\mathcal{L}_{fusion} = \lambda_{int}\mathcal{L}_{int} + \lambda_{SSIM}\mathcal
 ## 相关论文
 
 - [\[NeurIPS 2025\] Balanced Conic Rectified Flow](balanced_conic_rectified_flow.md)
+- [\[NeurIPS 2025\] Rectified-CFG++ for Flow Based Models](rectified-cfg_for_flow_based_models.md)
 - [\[NeurIPS 2025\] GuideFlow3D: Optimization-Guided Rectified Flow For Appearance Transfer](guideflow3d_optimization-guided_rectified_flow_for_appearance_transfer.md)
 - [\[CVPR 2026\] CaReFlow: Cyclic Adaptive Rectified Flow for Multimodal Fusion](../../CVPR2026/image_generation/careflow_cyclic_adaptive_rectified_flow_for_multimodal_fusion.md)
 - [\[NeurIPS 2025\] On the Relation between Rectified Flows and Optimal Transport](on_the_relation_between_rectified_flows_and_optimal_transport.md)
-- [\[ICML 2025\] Taming Rectified Flow for Inversion and Editing](../../ICML2025/image_generation/taming_rectified_flow_for_inversion_and_editing.md)
 
 <!-- RELATED:END -->

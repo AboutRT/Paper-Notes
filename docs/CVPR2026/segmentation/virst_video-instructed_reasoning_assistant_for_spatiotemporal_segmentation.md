@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.27060](https://arxiv.org/abs/2603.27060)  
-**代码**: https://github.com/AIDASLab/VIRST  
+**代码**: [https://github.com/AIDASLab/VIRST](https://github.com/AIDASLab/VIRST)  
 **领域**: 分割  
 **关键词**: 视频目标分割、RVOS、视觉语言模型、时空融合、动态锚点、推理分割
 
@@ -132,6 +132,6 @@ $L_{total} = \lambda_{bce} L_{bce} + \lambda_{dice} L_{dice} + \lambda_{token} L
 - [\[ICCV 2025\] Online Reasoning Video Segmentation with Just-in-Time Digital Twins](../../ICCV2025/segmentation/online_reasoning_video_segmentation_with_just-in-time_digital_twins.md)
 - [\[ACL 2026\] TemporalVLM: Video LLMs for Temporal Reasoning in Long Videos](../../ACL2026/segmentation/temporalvlm_video_llms_for_temporal_reasoning_in_long_videos.md)
 - [\[CVPR 2026\] Weakly-Supervised Referring Video Object Segmentation through Text Supervision](wsrvos_weakly_supervised_rvos.md)
-- [\[ECCV 2024\] VISA: Reasoning Video Object Segmentation via Large Language Models](../../ECCV2024/segmentation/visa_reasoning_video_object_segmentation_via_large_language_models.md)
+- [\[CVPR 2026\] Live Interactive Training for Video Segmentation](live_interactive_training_for_video_segmentation.md)
 
 <!-- RELATED:END -->

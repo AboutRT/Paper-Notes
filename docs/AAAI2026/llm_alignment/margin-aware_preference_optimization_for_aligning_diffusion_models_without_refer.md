@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2406.06424](https://arxiv.org/abs/2406.06424)  
-**代码**: https://github.com/mapo-t2i/mapo  
+**代码**: [https://github.com/mapo-t2i/mapo](https://github.com/mapo-t2i/mapo)  
 **领域**: 扩散模型 / 对齐RLHF  
 **关键词**: 偏好对齐, 扩散模型, 文本图像生成, reference-free, DPO
 

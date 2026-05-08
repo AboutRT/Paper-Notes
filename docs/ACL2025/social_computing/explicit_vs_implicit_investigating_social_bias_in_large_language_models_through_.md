@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2501.02295](https://arxiv.org/abs/2501.02295)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: 社会计算  
 **关键词**: implicit bias, explicit bias, IAT, self-reflection, social psychology
 
 ## 一句话总结

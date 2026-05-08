@@ -60,16 +60,16 @@ $$C = C^{obj} \cdot e^{-\sigma^{attn} \cdot z} + C^{\infty} \cdot (1 - e^{-\sigm
    **核心思路**：从原始相机位姿 $P_c$ 生成水平和垂直两个虚拟视点 $P_h$ 和 $P_v$，强制三视图间的一致性来正则化 3D 高斯的空间位置。
 
    虚拟视点通过平移构造：
-   $$P_h = \begin{bmatrix} \mathbb{I} & \mathbf{t}_h \\ \mathbf{0}^\top & 1 \end{bmatrix} P_c, \quad P_v = \begin{bmatrix} \mathbb{I} & \mathbf{t}_v \\ \mathbf{0}^\top & 1 \end{bmatrix} P_c$$
+    $P_h = \begin{bmatrix} \mathbb{I} & \mathbf{t}_h \\ \mathbf{0}^\top & 1 \end{bmatrix} P_c, \quad P_v = \begin{bmatrix} \mathbb{I} & \mathbf{t}_v \\ \mathbf{0}^\top & 1 \end{bmatrix} P_c$
    其中 $\mathbf{t}_h = (b_h, 0, 0)^\top$, $\mathbf{t}_v = (0, b_v, 0)^\top$。
 
    从虚拟视点渲染图像后，利用深度图计算视差进行反向变换，将虚拟视点图像对齐到中心视图：
-   $$d_h(x,y) = \frac{f_h \cdot b_h}{D_c(x,y)}, \quad d_v(x,y) = \frac{f_v \cdot b_v}{D_c(x,y)}$$
+    $d_h(x,y) = \frac{f_h \cdot b_h}{D_c(x,y)}, \quad d_v(x,y) = \frac{f_v \cdot b_v}{D_c(x,y)}$
 
    一致性损失包含三部分：
-   - **物体立体一致性**：$L_{obj\text{-}stereo}$，反向变换后的物体图像与中心视图物体图像的 R-L1 损失
-   - **完整立体一致性**：$L_{full\text{-}stereo}$，合成完整图像与 GT 的 R-L1 损失
-   - **视差平滑性**：$L_{smooth}$，边缘感知的视差正则化
+    - **物体立体一致性**：$L_{obj\text{-}stereo}$，反向变换后的物体图像与中心视图物体图像的 R-L1 损失
+    - **完整立体一致性**：$L_{full\text{-}stereo}$，合成完整图像与 GT 的 R-L1 损失
+    - **视差平滑性**：$L_{smooth}$，边缘感知的视差正则化
 
    **设计动机**：单基线立体仅提供一个方向的约束，水平+垂直的正交基线提供了更强的空间约束力，能更好地消除散射介质中的几何模糊性。$b_v$ 从 [-0.4, 0.4] 采样，$b_h = 1.5 b_v$，使用不等长基线增加约束多样性。
 
@@ -78,27 +78,27 @@ $$C = C^{obj} \cdot e^{-\sigma^{attn} \cdot z} + C^{\infty} \cdot (1 - e^{-\sigm
    **核心思路**：利用虚拟视点间的三角测量推导自监督深度先验 $D_{epi}$，无需外部深度监督。
 
    具体步骤：
-   - 选择三目视锥交集内、透明度 > $\tau_\alpha$ 的 3D 高斯
-   - 将选中高斯投影到 $P_h$ 和 $P_v$ 的图像平面
-   - 通过对极几何建立线性系统 $\mathbf{A}_i \tilde{\mathbf{X}}_i = \mathbf{0}$
-   - 最小二乘求解三角测量点，转到中心相机坐标系取 z 分量作为深度先验
+    - 选择三目视锥交集内、透明度 > $\tau_\alpha$ 的 3D 高斯
+    - 将选中高斯投影到 $P_h$ 和 $P_v$ 的图像平面
+    - 通过对极几何建立线性系统 $\mathbf{A}_i \tilde{\mathbf{X}}_i = \mathbf{0}$
+    - 最小二乘求解三角测量点，转到中心相机坐标系取 z 分量作为深度先验
 
    应用边缘感知 Log-L1 损失：
-   $$L_{epi} = \frac{1}{HW}\sum_{x,y}\sum_{k}\log(1 + |D_c' - D_{epi}|) \cdot e^{-|\nabla_k I_c|}$$
+    $L_{epi} = \frac{1}{HW}\sum_{x,y}\sum_{k}\log(1 + |D_c' - D_{epi}|) \cdot e^{-|\nabla_k I_c|}$
 
    **设计动机**：水下场景几何线索有限，外部深度模型可能不准确，利用自身虚拟视点的几何关系提供自洽的深度约束，避免了外部依赖。
 
 3. **深度残差损失（Depth Residual Loss）**
 
    约束每个 3D 高斯的 z 分量与 alpha-blending 渲染深度一致：
-   $$L_{res} = \frac{1}{N'}\sum_{i=1}^{N'}|D_c(\mathbf{x}_i) - z_i|$$
+    $L_{res} = \frac{1}{N'}\sum_{i=1}^{N'}|D_c(\mathbf{x}_i) - z_i|$
 
    防止 3D 高斯沿光线过度分散，减少浮动伪影。
 
 4. **深度感知透明度调整（Depth-aware Alpha Adjustment）**
 
    在训练早期（$t < t_\alpha$），使用 MLP 根据深度和观察方向调整每个 3D 高斯的透明度：
-   $$\alpha_i' = (1-w)\alpha_i + w \cdot \phi_\alpha(\alpha_i, z_i, \vec{\mathbf{v}}_i)$$
+    $\alpha_i' = (1-w)\alpha_i + w \cdot \phi_\alpha(\alpha_i, z_i, \vec{\mathbf{v}}_i)$
 
    过渡步 $t_\alpha$ 之后权重 $w$ 衰减为 0，消除推理开销。
 
@@ -192,8 +192,8 @@ $$L_{total} = L_{photo} + \lambda_{tri} L_{tri} + \lambda_{epi} L_{epi} + \lambd
 ## 相关论文
 
 - [\[AAAI 2026\] Splat-SAP: Feed-Forward Gaussian Splatting for Human-Centered Scene with Scale-Aware Point Map Reconstruction](splat-sap_feed-forward_gaussian_splatting_for_human-centered_scene_with_scale-aw.md)
-- [\[AAAI 2026\] MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting](meshsplat_generalizable_sparse-view_surface_reconstruction_via_gaussian_splattin.md)
 - [\[AAAI 2026\] SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](sparsesurf_sparse-view_3d_gaussian_splatting_for_surface_reconstruction.md)
+- [\[AAAI 2026\] MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting](meshsplat_generalizable_sparse-view_surface_reconstruction_via_gaussian_splattin.md)
 - [\[AAAI 2026\] Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](sparse4dgs_4d_gaussian_splatting_for_sparse-frame_dynamic_scene_reconstruction.md)
 - [\[AAAI 2026\] Opt3DGS: Optimizing 3D Gaussian Splatting with Adaptive Exploration and Curvature-Aware Exploitation](opt3dgs_optimizing_3d_gaussian_splatting_with_adaptive_exploration_and_curvature.md)
 

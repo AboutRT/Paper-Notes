@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.21406](https://arxiv.org/abs/2510.21406)  
-**代码**: [GitHub](https://github.com/debby-0527/MUVR) (有)  
-**领域**: video_understanding  
+**代码**: [GitHub](https://github.com/debby-0527/MUVR)  
+**领域**: 视频理解  
 **关键词**: 视频检索, 多模态查询, 未剪辑视频, 多级视觉对应, 基准数据集
 
 ## 一句话总结

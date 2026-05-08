@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2502.01312](https://arxiv.org/abs/2502.01312)  
-**代码**: https://github.com/chrislin0621/CleanPose  
-**领域**: 3D视觉 / 位姿估计  
+**代码**: [https://github.com/chrislin0621/CleanPose](https://github.com/chrislin0621/CleanPose)  
+**领域**: 人体理解  
 **关键词**: 类别级位姿估计, 因果推理, 知识蒸馏, 前门调整, 数据偏差
 
 ## 一句话总结
@@ -177,7 +177,7 @@ HouseCat6D数据集：CleanPose在所有指标上超越AG-Pose（IoU50: +2.9%, 5
 - [\[CVPR 2025\] GCE-Pose: Global Context Enhancement for Category-Level Object Pose Estimation](../../CVPR2025/human_understanding/gce-pose_global_context_enhancement_for_category-level_object_pose_estimation.md)
 - [\[ECCV 2024\] U-COPE: Taking a Further Step to Universal 9D Category-Level Object Pose Estimation](../../ECCV2024/human_understanding/u-cope_taking_a_further_step_to_universal_9d_category-level_object_pose_estimati.md)
 - [\[ECCV 2024\] GS-Pose: Category-Level Object Pose Estimation via Geometric and Semantic Correspondence](../../ECCV2024/human_understanding/gs-pose_category-level_object_pose_estimation_via_geometric_and_semantic_corresp.md)
-- [\[ICCV 2025\] MixRI: Mixing Features of Reference Images for Novel Object Pose Estimation](mixri_mixing_features_of_reference_images_for_novel_object_pose_estimation.md)
+- [\[ICCV 2025\] Mitigating Object Hallucinations via Sentence-Level Early Intervention](mitigating_object_hallucinations_via_sentence-level_early_intervention.md)
 - [\[ECCV 2024\] LaPose: Laplacian Mixture Shape Modeling for RGB-Based Category-Level Object Pose Estimation](../../ECCV2024/human_understanding/lapose_laplacian_mixture_shape_modeling_for_rgb-based_category-level_object_pose.md)
 
 <!-- RELATED:END -->

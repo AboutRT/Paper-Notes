@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.11785](https://arxiv.org/abs/2412.11785)  
-**代码**: https://interdyn.is.tue.mpg.de/  
+**代码**: [https://interdyn.is.tue.mpg.de/](https://interdyn.is.tue.mpg.de/)  
 **领域**: 扩散模型  
 **关键词**: 交互动力学, 视频扩散模型, 可控生成, 隐式物理模拟, 人物交互
 

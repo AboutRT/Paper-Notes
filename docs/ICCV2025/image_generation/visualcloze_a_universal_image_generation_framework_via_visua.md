@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.07960](https://arxiv.org/abs/2504.07960)  
-**代码**: https://visualcloze.github.io/  
+**代码**: [https://visualcloze.github.io/](https://visualcloze.github.io/)  
 **领域**: 图像生成 / 统一框架 / 上下文学习  
 **关键词**: universal image generation, visual in-context learning, image infilling, Graph200K, multi-task unification
 

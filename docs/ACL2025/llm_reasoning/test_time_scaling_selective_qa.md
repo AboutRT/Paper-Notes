@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.13962](https://arxiv.org/abs/2502.13962)  
 **代码**: [https://github.com/wjurayj/final_answer](https://github.com/wjurayj/final_answer)  
-**领域**: LLM效率  
+**领域**: LLM推理  
 **关键词**: 测试时缩放, selective question answering, 置信度校准, compute budget, 弃权
 
 ## 一句话总结

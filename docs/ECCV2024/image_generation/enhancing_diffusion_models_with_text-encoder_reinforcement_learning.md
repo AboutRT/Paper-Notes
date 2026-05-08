@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2311.15657](https://arxiv.org/abs/2311.15657)  
-**代码**: [GitHub](https://github.com/chaofengc/TexForce) (有)  
+**代码**: [GitHub](https://github.com/chaofengc/TexForce)  
 **领域**: 图像生成  
 **关键词**: 扩散模型, 文本编码器, 强化学习, LoRA, 图文对齐
 

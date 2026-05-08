@@ -9,14 +9,14 @@ tags:
   - unsolvable problem detection
   - trustworthiness
   - answer refusal
-  - MCQA
+  - 多模态VLM
 ---
 
 # Unsolvable Problem Detection: Evaluating Trustworthiness of Large Multimodal Models
 
 **会议**: ACL 2025  
 **arXiv**: [2403.20331](https://arxiv.org/abs/2403.20331)  
-**代码**: https://github.com/AtsuMiyai/UPD  
+**代码**: [https://github.com/AtsuMiyai/UPD](https://github.com/AtsuMiyai/UPD)  
 **领域**: 多模态VLM  
 **关键词**: unsolvable problem detection, trustworthiness, multimodal evaluation, answer refusal, MCQA
 
@@ -135,6 +135,6 @@ tags:
 - [\[ACL 2025\] AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models](alignmmbench_evaluating_chinese_multimodal_alignment_in_large_vision-language_mo.md)
 - [\[ACL 2025\] Evaluating Multimodal Large Language Models on Video Captioning via Monte Carlo Tree Search](mcts_video_captioning_eval.md)
 - [\[ACL 2025\] Adaptive Linguistic Prompting (ALP) Enhances Phishing Webpage Detection in Multimodal Large Language Models](adaptive_linguistic_prompting_alp_enhances_phishing_webpage_detection_in_multimo.md)
-- [\[ACL 2025\] VLMInferSlow: Evaluating the Efficiency Robustness of Large Vision-Language Models as a Service](vlminferslow_evaluating_the_efficiency_robustness_of.md)
+- [\[ACL 2025\] SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](sciver_evaluating_foundation_models_for_multimodal_scientific_claim_verification.md)
 
 <!-- RELATED:END -->

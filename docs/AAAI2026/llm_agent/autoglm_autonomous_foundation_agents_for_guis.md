@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2411.00820](https://arxiv.org/abs/2411.00820)  
-**代码**: https://github.com/THUDM/AutoGLM (有)  
+**代码**: [https://github.com/THUDM/AutoGLM](https://github.com/THUDM/AutoGLM)  
 **领域**: Agent  
 **关键词**: GUI Agent, 强化学习, 中间接口设计, 自进化课程学习, 基础智能体
 

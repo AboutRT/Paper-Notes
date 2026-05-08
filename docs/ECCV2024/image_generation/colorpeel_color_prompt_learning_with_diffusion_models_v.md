@@ -17,8 +17,8 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2407.07197](https://arxiv.org/abs/2407.07197)  
-**代码**: https://moatifbutt.github.io/colorpeel/  
-**领域**: LLM/NLP  
+**代码**: [https://moatifbutt.github.io/colorpeel/](https://moatifbutt.github.io/colorpeel/)  
+**领域**: 图像生成  
 **关键词**: 扩散模型, 颜色提示学习, 文生图个性化, 颜色-形状解耦, Cross-Attention对齐
 
 ## 一句话总结
@@ -122,9 +122,9 @@ $$\mathcal{V}^* = \arg\min_{\mathcal{V}} \mathbb{E}[\mathcal{L}_{rec} + \lambda 
 ## 相关论文
 
 - [\[ECCV 2024\] Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers](difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md)
+- [\[ECCV 2024\] UDiffText: A Unified Framework for High-quality Text Synthesis in Arbitrary Images via Character-aware Diffusion Models](udifftext_a_unified_framework_for_high-quality_text_synthesis_in_arbitrary_image.md)
+- [\[ECCV 2024\] Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation](be_yourself_bounded_attention_for_multisubject_texttoimage_g.md)
 - [\[ECCV 2024\] Source Prompt Disentangled Inversion for Boosting Image Editability with Diffusion Models](source_prompt_disentangled_inversion_for_boosting_image_editability_with_diffusi.md)
 - [\[ECCV 2024\] ShapeFusion: A 3D Diffusion Model for Localized Shape Editing](shapefusion_a_3d_diffusion_model_for_localized_shape_editing.md)
-- [\[ECCV 2024\] Learning Differentially Private Diffusion Models via Stochastic Adversarial Distillation](learning_differentially_private_diffusion_models_via_stochastic_adversarial_dist.md)
-- [\[ECCV 2024\] Unveiling Advanced Frequency Disentanglement Paradigm for Low-Light Image Enhancement](unveiling_advanced_frequency_disentanglement_paradigm_for_low-light_image_enhanc.md)
 
 <!-- RELATED:END -->

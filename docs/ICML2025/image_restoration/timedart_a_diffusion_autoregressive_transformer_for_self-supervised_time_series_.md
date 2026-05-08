@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICML2025
   - 图像恢复
-  - 自监督学习
+  - 图像复原
   - 时间序列表示学习
   - 扩散模型
   - Transformer
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2410.05711](https://arxiv.org/abs/2410.05711)  
 **代码**: [GitHub](https://github.com/Melmaphother/TimeDART)  
-**领域**: 时间序列  
+**领域**: 图像复原  
 **关键词**: 自监督学习, 时间序列表示学习, 扩散模型, 自回归Transformer, 预训练
 
 ## 一句话总结
@@ -153,8 +153,8 @@ $$\mathcal{L}_{diff} = \sum_{j=1}^{N} \mathbb{E}_{\epsilon, q(x_j^0)} \left[ \| 
 
 - [\[ICLR 2026\] Skip to the Good Part: Representation Structure & Inference-Time Layer Skipping in Diffusion vs. Autoregressive LLMs](../../ICLR2026/image_restoration/skip_to_the_good_part_representation_structure_inference-time_layer_skipping_in_.md)
 - [\[ICML 2025\] HarmoniCa: Harmonizing Training and Inference for Better Feature Caching in Diffusion Transformer Acceleration](harmonica_harmonizing_training_and_inference_for_better_feature_caching_in_diffu.md)
-- [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](../../NeurIPS2025/image_restoration/moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
-- [\[CVPR 2026\] SelfHVD: Self-Supervised Handheld Video Deblurring](../../CVPR2026/image_restoration/selfhvd_self-supervised_handheld_video_deblurring.md)
 - [\[CVPR 2025\] Rotation-Equivariant Self-Supervised Method in Image Denoising](../../CVPR2025/image_restoration/rotation-equivariant_self-supervised_method_in_image_denoising.md)
+- [\[ICCV 2025\] Blind2Sound: Self-Supervised Image Denoising without Residual Noise](../../ICCV2025/image_restoration/blind2sound_self-supervised_image_denoising_without_residual_noise.md)
+- [\[NeurIPS 2025\] MoE-Gyro: Self-Supervised Over-Range Reconstruction and Denoising for MEMS Gyroscopes](../../NeurIPS2025/image_restoration/moe-gyro_self-supervised_over-range_reconstruction_and_denoising_for_mems_gyrosc.md)
 
 <!-- RELATED:END -->

@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 语音
-  - 流式视频LLM
+  - 音频语音
   - ASR转录
   - 实时解说
   - 密集交织
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.16030](https://arxiv.org/abs/2504.16030)  
-**代码**: https://showlab.github.io/livecc (有)  
+**代码**: [https://showlab.github.io/livecc](https://showlab.github.io/livecc)  
 **领域**: 音频语音 / 视频理解  
 **关键词**: 流式视频LLM, ASR转录, 实时解说, 密集交织, YouTube CC
 
@@ -104,10 +104,10 @@ tags:
 
 ## 相关论文
 
+- [\[CVPR 2026\] SAVE: Speech-Aware Video Representation Learning for Video-Text Retrieval](../../CVPR2026/audio_speech/save_speech-aware_video_representation_learning_for_video-text_retrieval.md)
 - [\[CVPR 2025\] Learning to Highlight Audio by Watching Movies](learning_to_highlight_audio_by_watching_movies.md)
-- [\[ACL 2025\] MMS-LLaMA: Efficient LLM-based Audio-Visual Speech Recognition with Minimal Multimodal Speech Tokens](../../ACL2025/audio_speech/mms-llama_efficient_llm-based_audio-visual_speech_recognition_with_minimal_multi.md)
+- [\[CVPR 2025\] MultiFoley: Video-Guided Foley Sound Generation with Multimodal Controls](video-guided_foley_sound_generation_with_multimodal_controls.md)
 - [\[ACL 2025\] Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens](../../ACL2025/audio_speech/spark-tts_an_efficient_llm-based_text-to-speech_model_with_single-stream_decoupl.md)
 - [\[NeurIPS 2025\] From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era](../../NeurIPS2025/audio_speech/from_generation_to_attribution_music_ai_agent_architectures_for_the_post-streami.md)
-- [\[NeurIPS 2025\] E2E-VGuard: Adversarial Prevention for Production LLM-based End-To-End Speech Synthesis](../../NeurIPS2025/audio_speech/e2e-vguard_adversarial_prevention_for_production_llm-based_end-to-end_speech_syn.md)
 
 <!-- RELATED:END -->

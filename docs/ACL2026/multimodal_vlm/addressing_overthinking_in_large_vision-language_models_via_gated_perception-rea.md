@@ -7,7 +7,7 @@ tags:
   - ACL 2026
   - 多模态
   - 过度思考
-  - 感知-推理分离
+  - 多模态VLM
   - 元推理控制器
   - 自适应计算
   - 多目标强化学习
@@ -119,8 +119,8 @@ GPRO在Transformer decoder的交替层插入GPR模块，替换标准FFN层。每
 
 ## 相关论文
 
-- [\[CVPR 2026\] Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models](../../CVPR2026/multimodal_vlm/overthinking_hallucination_confounder_propagation.md)
 - [\[ACL 2026\] OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models](omibench_benchmarking_olympiad-level_multi-image_reasoning_in_large_vision-langu.md)
+- [\[CVPR 2026\] Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models](../../CVPR2026/multimodal_vlm/overthinking_hallucination_confounder_propagation.md)
 - [\[ACL 2026\] TRACE: Unleashing Spatial Reasoning in Multimodal Large Language Models via Textual Representation Guided Reasoning](unleashing_spatial_reasoning_in_multimodal_large_language_models_via_textual_rep.md)
 - [\[ACL 2026\] MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models](mmerror_a_benchmark_for_erroneous_reasoning_in_vision-language_models.md)
 - [\[ACL 2026\] Position: Multimodal Large Language Models Can Significantly Advance Scientific Reasoning](position_multimodal_large_language_models_can_significantly_advance_scientific_r.md)

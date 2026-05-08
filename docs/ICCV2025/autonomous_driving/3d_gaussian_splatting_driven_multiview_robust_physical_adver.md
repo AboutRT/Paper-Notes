@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2507.01367](https://arxiv.org/abs/2507.01367)  
-**代码**: [https://github.com/TRLou/PGA](https://github.com/TRLou/PGA) (有)  
-**领域**: 3D视觉 / 对抗攻击 / 物理安全  
+**代码**: [https://github.com/TRLou/PGA](https://github.com/TRLou/PGA)  
+**领域**: 自动驾驶  
 **关键词**: 3D Gaussian Splatting, 物理对抗攻击, 对抗伪装, 多视角鲁棒性, 自动驾驶安全  
 
 ## 一句话总结
@@ -184,7 +184,7 @@ $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{det}}(T(\mathcal{I}_{\text{det
 ## 相关论文
 
 - [\[ICCV 2025\] GaussianFlowOcc: Sparse and Weakly Supervised Occupancy Estimation using Gaussian Splatting and Temporal Flow](gaussianflowocc_sparse_and_weakly_supervised_occupancy_estimation_using_gaussian.md)
-- [\[ICCV 2025\] A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds](a_constrained_optimization_approach_for_gaussian_splatting_f.md)
+- [\[ICCV 2025\] A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds](a_constrained_optimization_approach_for_gaussian_splatting_from_coarsely-posed_i.md)
 - [\[ICCV 2025\] IGL-Nav: Incremental 3D Gaussian Localization for Image-goal Navigation](igl-nav_incremental_3d_gaussian_localization_for_image-goal_navigation.md)
 - [\[ICCV 2025\] CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting](ccl-lgs_contrastive_codebook_learning_for_3d_language_gaussian_splatting.md)
 - [\[ICCV 2025\] EVT: Efficient View Transformation for Multi-Modal 3D Object Detection](evt_efficient_view_transformation_for_multi-modal_3d_object_detection.md)

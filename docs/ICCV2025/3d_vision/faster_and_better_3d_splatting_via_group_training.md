@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2412.07608](https://arxiv.org/abs/2412.07608)  
 **代码**: [项目页面](https://chengbo-wang.github.io/3DGS-with-Group-Training/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D高斯泼溅, 训练加速, Group Training, 基于透明度的采样, 新视角合成
 
 ## 一句话总结
@@ -177,7 +177,7 @@ $$\mathbb{E}[T_N] = (1 - \mathbb{E}[o_i] \cdot \mathbb{E}[G_i^{2D}])^N$$
 
 ## 相关论文
 
-- [\[ICCV 2025\] 3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt](3dgs_lm_faster_gaussian_splatting_optimization_with_levenberg_marquardt.md)
+- [\[ICCV 2025\] 3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt](3dgslm_faster_gaussiansplatting_optimization_with_levenbergm.md)
 - [\[CVPR 2025\] SfM-Free 3D Gaussian Splatting via Hierarchical Training](../../CVPR2025/3d_vision/sfm-free_3d_gaussian_splatting_via_hierarchical_training.md)
 - [\[ICCV 2025\] FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images](fross_faster-than-real-time_online_3d_semantic_scene_graph_generation_from_rgb-d.md)
 - [\[CVPR 2026\] FastGS: Training 3D Gaussian Splatting in 100 Seconds](../../CVPR2026/3d_vision/fastgs_training_3d_gaussian_splatting_in_100_seconds.md)

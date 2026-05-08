@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2510.01278](https://arxiv.org/abs/2510.01278)  
-**代码**: https://github.com/Hengwei-Zhao96/NcPU  
+**代码**: [https://github.com/Hengwei-Zhao96/NcPU](https://github.com/Hengwei-Zhao96/NcPU)  
 **领域**: 其他 / 弱监督学习  
 **关键词**: PU学习, 非对比表示学习, 噪声对鲁棒, 伪标签消歧, EM框架
 
@@ -155,8 +155,8 @@ NcPU 在 BYOL 非对比学习框架基础上构建。输入为正样本集 $\mat
 
 - [\[ICLR 2026\] ANO: Faster is Better in Noisy Landscapes](ano_faster_is_better_in_noisy_landscape.md)
 - [\[ICLR 2026\] Learning Adaptive Distribution Alignment with Neural Characteristic Function for Graph Domain Adaptation](learning_adaptive_distribution_alignment_with_neural_characteristic_function_for.md)
-- [\[ICCV 2025\] Joint Asymmetric Loss for Learning with Noisy Labels](../../ICCV2025/others/joint_asymmetric_loss_for_learning_with_noisy_labels.md)
 - [\[ECCV 2024\] Foster Adaptivity and Balance in Learning with Noisy Labels](../../ECCV2024/others/foster_adaptivity_and_balance_in_learning_with_noisy_labels.md)
-- [\[ICML 2025\] Cover Learning for Large-Scale Topology Representation](../../ICML2025/others/cover_learning_for_large-scale_topology_representation.md)
+- [\[ICCV 2025\] Joint Asymmetric Loss for Learning with Noisy Labels](../../ICCV2025/others/joint_asymmetric_loss_for_learning_with_noisy_labels.md)
+- [\[ACL 2025\] Minimal Pair-Based Evaluation of Code-Switching](../../ACL2025/others/minimal_pair-based_evaluation_of_code-switching.md)
 
 <!-- RELATED:END -->

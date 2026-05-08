@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2501.14677](https://arxiv.org/abs/2501.14677)  
-**代码**: https://pq-yang.github.io/projects/MatAnyone  
+**代码**: [https://pq-yang.github.io/projects/MatAnyone](https://pq-yang.github.io/projects/MatAnyone)  
 **领域**: 视频抠图 / 分割  
 **关键词**: 视频抠图, 记忆传播, 区域自适应融合, alpha matte, 目标指定
 

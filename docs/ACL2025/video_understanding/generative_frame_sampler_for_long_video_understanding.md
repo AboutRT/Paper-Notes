@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2503.09146](https://arxiv.org/abs/2503.09146)  
-**代码**: https://generative-sampler.github.io (有)  
+**代码**: [https://generative-sampler.github.io](https://generative-sampler.github.io)  
 **领域**: 视频理解 / 多模态VLM  
 **关键词**: 长视频理解, 帧采样, VideoLLM, 问题感知采样, 即插即用
 

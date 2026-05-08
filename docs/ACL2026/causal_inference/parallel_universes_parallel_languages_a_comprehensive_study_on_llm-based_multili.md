@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Parallel Universes, Parallel Languages: A Comprehensive Study on LLM-based Multilingual Counterfactual Example Generation
 description: >-
-  [ACL 2026][多语言反事实生成] 本文系统研究了 LLM 在六种语言上的多语言反事实样本生成能力，通过直接生成和翻译两种路径对比，发现翻译路径的标签翻转率更高但需要更多编辑，识别出四类常见错误模式，并验证多语言反事实数据增强优于跨语言增强，尤其对低资源语言更有效。
+  [ACL 2026][因果推理] 本文系统研究了 LLM 在六种语言上的多语言反事实样本生成能力，通过直接生成和翻译两种路径对比，发现翻译路径的标签翻转率更高但需要更多编辑，识别出四类常见错误模式，并验证多语言反事实数据增强优于跨语言增强，尤其对低资源语言更有效。
 tags:
   - ACL 2026
-  - 多语言反事实生成
+  - 因果推理
   - 反事实解释
   - 数据增强
   - 跨语言一致性
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.00263](https://arxiv.org/abs/2601.00263)  
 **代码**: [GitHub](https://github.com/qiaw99/multicfe)  
-**领域**: 多语言NLP / 可解释性  
+**领域**: 因果推理  
 **关键词**: 多语言反事实生成, 反事实解释, 数据增强, 跨语言一致性, LLM多语言能力
 
 ## 一句话总结
@@ -135,6 +135,6 @@ tags:
 - [\[ICML 2025\] E-LDA: Toward Interpretable LDA Topic Models with Strong Guarantees in Logarithmic Parallel Time](../../ICML2025/causal_inference/e-lda_toward_interpretable_lda_topic_models_with_strong_guarantees_in_logarithmi.md)
 - [\[ICLR 2026\] On the Eligibility of LLMs for Counterfactual Reasoning: A Decompositional Study](../../ICLR2026/causal_inference/on_the_eligibility_of_llms_for_counterfactual_reasoning_a_decompositional_study.md)
 - [\[ACL 2026\] iTAG: Inverse Design for Natural Text Generation with Accurate Causal Graph Annotations](itag_inverse_design_for_natural_text_generation_with_accurate_causal_graph_annot.md)
-- [\[ICLR 2026\] PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits](../../ICLR2026/causal_inference/personax_multimodal_datasets_with_llm-inferred_behavior_traits.md)
+- [\[ACL 2026\] Dialectic-Med: Mitigating Diagnostic Hallucinations via Counterfactual Adversarial Multi-Agent Debate](dialectic-med_mitigating_diagnostic_hallucinations_via_counterfactual_adversaria.md)
 
 <!-- RELATED:END -->

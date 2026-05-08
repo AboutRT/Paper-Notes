@@ -18,7 +18,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.03195](https://arxiv.org/abs/2603.03195)  
-**代码**: [https://fx-hit.github.io/cowvla-io](https://fx-hit.github.io/cowvla-io) (有)  
+**代码**: [https://fx-hit.github.io/cowvla-io](https://fx-hit.github.io/cowvla-io)  
 **领域**: 机器人操作 / 视觉-语言-动作模型 / 世界模型  
 **关键词**: [VLA, 世界模型, 隐运动建模, 视频VAE, 关键帧预测, 动作量化]  
 

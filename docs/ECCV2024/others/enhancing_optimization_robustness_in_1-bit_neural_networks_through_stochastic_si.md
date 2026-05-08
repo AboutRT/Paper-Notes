@@ -6,7 +6,7 @@ description: >-
 tags:
   - ECCV 2024
   - 二值神经网络
-  - 优化器设计
+  - 其他
   - 随机符号下降
   - 无潜在权重
   - 1-bit网络
@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: 无  
 **代码**: [https://github.com/GreenBitAI/bitorch-engine](https://github.com/GreenBitAI/bitorch-engine)  
-**领域**: 模型压缩  
+**领域**: 其他  
 **关键词**: 二值神经网络, 优化器设计, 随机符号下降, 无潜在权重, 1-bit网络
 
 ## 一句话总结
@@ -130,9 +130,9 @@ Diode不需要修改任务的损失函数——它是一个通用的优化器，
 ## 相关论文
 
 - [\[NeurIPS 2025\] Learning (Approximately) Equivariant Networks via Constrained Optimization](../../NeurIPS2025/others/learning_approximately_equivariant_networks_via_constrained_optimization.md)
+- [\[NeurIPS 2025\] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds](../../NeurIPS2025/others/finite-time_analysis_of_stochastic_nonconvex_nonsmooth_optimization_on_the_riema.md)
 - [\[AAAI 2026\] DS-ATGO: Dual-Stage Synergistic Learning via Forward Adaptive Threshold and Backward Gradient Optimization for Spiking Neural Networks](../../AAAI2026/others/ds-atgo_dual-stage_synergistic_learning_via_forward_adaptive_threshold_and_backw.md)
-- [\[NeurIPS 2025\] Depth-Bounds for Neural Networks via the Braid Arrangement](../../NeurIPS2025/others/depth-bounds_for_neural_networks_via_the_braid_arrangement.md)
-- [\[ICML 2025\] Permutation Equivariant Neural Networks for Symmetric Tensors](../../ICML2025/others/permutation_equivariant_neural_networks_for_symmetric_tensors.md)
-- [\[ICML 2025\] Enhancing Certified Robustness via Block Reflector Orthogonal Layers and Logit Annealing Loss](../../ICML2025/others/enhancing_certified_robustness_via_block_reflector_orthogonal_layers_and_logit_a.md)
+- [\[ICLR 2026\] Addressing Divergent Representations from Causal Interventions on Neural Networks](../../ICLR2026/others/addressing_divergent_representations_causal.md)
+- [\[ICML 2025\] Improved Exploration in GFlowNets via Enhanced Epistemic Neural Networks](../../ICML2025/others/improved_exploration_in_gflownets_via_enhanced_epistemic_neural_networks.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.14819](https://arxiv.org/abs/2603.14819)  
-**代码**: https://github.com/raviranjan-ai/RAZOR-cvpr2026 (有)  
+**代码**: [https://github.com/raviranjan-ai/RAZOR-cvpr2026](https://github.com/raviranjan-ai/RAZOR-cvpr2026)  
 **领域**: 模型安全 / 机器遗忘  
 **关键词**: 机器遗忘, 比率感知编辑, 多层选择, 模型不可学习, 量化鲁棒性
 

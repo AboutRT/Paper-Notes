@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.13287](https://arxiv.org/abs/2602.13287)  
-**代码**: https://cisl.ucr.edu/CooperTrim  
-**领域**: 自动驾驶 / 协同感知  
+**代码**: [https://cisl.ucr.edu/CooperTrim](https://cisl.ucr.edu/CooperTrim)  
+**领域**: 3D视觉  
 **关键词**: 协同感知, 带宽优化, 时序不确定性, 特征选择, 共形预测
 
 ## 一句话总结

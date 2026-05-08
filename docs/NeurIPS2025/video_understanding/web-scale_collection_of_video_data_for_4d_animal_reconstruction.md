@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.01169](https://arxiv.org/abs/2511.01169)  
-**代码**: https://github.com/briannlongzhao/Animal-in-Motion (有)  
+**代码**: [https://github.com/briannlongzhao/Animal-in-Motion](https://github.com/briannlongzhao/Animal-in-Motion)  
 **领域**: Video Understanding / 3D Vision  
 **关键词**: 4D动物重建, 数据管线, YouTube视频挖掘, 基准数据集, 单视图重建
 

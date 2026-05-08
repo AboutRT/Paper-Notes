@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.04074](https://arxiv.org/abs/2502.04074)  
 **代码**: www.yihua.zone/work/gaze322  
-**领域**: 人体理解 / 视线估计 / 跨任务少样本学习  
+**领域**: LLM预训练  
 **关键词**: Gaze Estimation, Cross-Task, Few-shot, Differentiable Projection, 3D-to-2D  
 
 ## 一句话总结
@@ -125,6 +125,6 @@ $$\mathcal{L} = \mathcal{L}_{proj} + 0.4\mathcal{L}_{flip} + 0.25\mathcal{L}_{un
 - [\[ACL 2025\] Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning](../../ACL2025/llm_pretraining/data_whisperer_data_selection.md)
 - [\[CVPR 2025\] Bridging the Vision-Brain Gap with an Uncertainty-Aware Blur Prior](bridging_the_vision-brain_gap_with_an_uncertainty-aware_blur_prior.md)
 - [\[ECCV 2024\] Learning to Obstruct Few-Shot Image Classification over Restricted Classes](../../ECCV2024/llm_pretraining/learning_to_obstruct_few-shot_image_classification_over_restricted_classes.md)
-- [\[ICML 2025\] Position: The Future of Bayesian Prediction Is Prior-Fitted](../../ICML2025/llm_pretraining/position_the_future_of_bayesian_prediction_is_prior-fitted.md)
+- [\[NeurIPS 2025\] One Prompt Fits All: Universal Graph Adaptation for Pretrained Models](../../NeurIPS2025/llm_pretraining/one_prompt_fits_all_universal_graph_adaptation_for_pretrained_models.md)
 
 <!-- RELATED:END -->

@@ -7,7 +7,7 @@ tags:
   - CVPR 2026
   - 图像恢复
   - 计算像差校正
-  - 光学退化评估
+  - 图像复原
   - 基准测试
   - 自动光学设计
 ---
@@ -16,7 +16,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12083](https://arxiv.org/abs/2603.12083)  
-**代码**: https://github.com/XiaolongQian/UniCAC  
+**代码**: [https://github.com/XiaolongQian/UniCAC](https://github.com/XiaolongQian/UniCAC)  
 **领域**: 图像复原  
 **关键词**: 计算像差校正, 光学退化评估, 基准测试, 自动光学设计, 图像恢复
 
@@ -126,6 +126,6 @@ UniCAC 基准的构建包含三个阶段：(1) 通过扩展的自动光学设计
 - [\[CVPR 2025\] OptiFusion: Towards Universal Computational Aberration Correction in Photographic Cameras](../../CVPR2025/image_restoration/towards_universal_computational_aberration_correction_in_photographic_cameras_a_.md)
 - [\[CVPR 2026\] Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset](toward_real-world_infrared_image_super-resolution_a_unified_autoregressive_frame.md)
 - [\[CVPR 2026\] DRFusion: Degradation-Robust Fusion via Degradation-Aware Diffusion Framework](drfusion_degradation_robust_fusion_via_degradation_aware_diffusion_framework.md)
-- [\[CVPR 2026\] UCAN: Unified Convolutional Attention Network for Expansive Receptive Fields in Lightweight Super-Resolution](ucan_unified_convolutional_attention_network_for_expansive_receptive_fields_in_l.md)
+- [\[CVPR 2026\] UCAN: Unified Convolutional Attention Network for Expansive Receptive Fields in Lightweight Super-Resolution](ucan_unified_convolutional_attention_lightweight_sr.md)
 
 <!-- RELATED:END -->

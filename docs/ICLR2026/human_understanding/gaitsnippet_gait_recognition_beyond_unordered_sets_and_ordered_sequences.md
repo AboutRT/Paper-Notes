@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2508.07782](https://arxiv.org/abs/2508.07782)  
 **代码**: 待确认  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: gait recognition, snippet paradigm, temporal modeling, silhouette, 2D convolution  
 
 ## 一句话总结
@@ -158,9 +158,9 @@ snippet 范式天然产生两级表征（序列级 + snippet 级），作者为 
 ## 相关论文
 
 - [\[CVPR 2026\] MMGait: Towards Multi-Modal Gait Recognition](../../CVPR2026/human_understanding/mmgait_multi_modal_gait_recognition.md)
+- [\[ICCV 2025\] CarGait: Cross-Attention based Re-ranking for Gait Recognition](../../ICCV2025/human_understanding/cargait_cross-attention_based_re-ranking_for_gait_recognition.md)
 - [\[ECCV 2024\] Cut Out the Middleman: Revisiting Pose-Based Gait Recognition](../../ECCV2024/human_understanding/cut_out_the_middleman_revisiting_pose-based_gait_recognition.md)
-- [\[ICCV 2025\] CarGait: Cross-Attention based Re-ranking for Gait Recognition](../../ICCV2025/human_understanding/cargait_cross_attention_based_re_ranking_for_gait_recognition.md)
-- [\[ACL 2026\] Planning Beyond Text: Graph-based Reasoning for Complex Narrative Generation](../../ACL2026/human_understanding/planning_beyond_text_graph-based_reasoning_for_complex_narrative_generation.md)
 - [\[ICLR 2026\] BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis](bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour.md)
+- [\[CVPR 2026\] Beyond the Fold: Quantifying Split-Level Noise and the Case for Leave-One-Dataset-Out AU Evaluation](../../CVPR2026/human_understanding/beyond_the_fold_quantifying_split-level_noise_and_the_case_for_leave-one-dataset.md)
 
 <!-- RELATED:END -->

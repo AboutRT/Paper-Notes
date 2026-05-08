@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.22865](https://arxiv.org/abs/2505.22865)  
 **代码**: [项目页面](https://liangsusan-git.github.io/project/binauralflow/)  
-**领域**: 音频生成  
+**领域**: 图像生成  
 **关键词**: Flow Matching, 双耳音频合成, 因果U-Net, 流式推理, 空间音频
 
 ## 一句话总结

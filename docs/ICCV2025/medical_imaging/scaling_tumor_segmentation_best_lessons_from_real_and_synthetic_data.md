@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2510.14831](https://arxiv.org/abs/2510.14831)  
-**代码**: https://github.com/BodyMaps/AbdomenAtlas2.0  
+**代码**: [https://github.com/BodyMaps/AbdomenAtlas2.0](https://github.com/BodyMaps/AbdomenAtlas2.0)  
 **领域**: 医学影像 / 肿瘤分割  
 **关键词**: 数据缩放定律, 肿瘤分割, 合成数据, AbdomenAtlas, CT分割
 

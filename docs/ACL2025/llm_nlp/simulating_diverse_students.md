@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2505.19997](https://arxiv.org/abs/2505.19997)  
-**代码**: https://mccartney01.github.io/student_sim  
+**代码**: [https://mccartney01.github.io/student_sim](https://mccartney01.github.io/student_sim)  
 **领域**: LLM NLP / 教育AI  
 **关键词**: student simulation, cognitive prototype, knowledge graph, beam search refinement, LLM agent
 

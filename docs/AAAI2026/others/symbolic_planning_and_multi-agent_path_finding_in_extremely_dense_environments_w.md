@@ -11,7 +11,7 @@ tags:
   - PDDL
   - LaCAM
   - 密集环境
-  - 仓储机器人
+  - 其他
 ---
 
 # Symbolic Planning and Multi-Agent Path Finding in Extremely Dense Environments with Unassigned Agents
@@ -19,7 +19,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2509.01022](https://arxiv.org/abs/2509.01022)  
 **代码**: 无  
-**领域**: 多智能体路径规划 / 仓储优化  
+**领域**: 其他  
 **关键词**: Block Rearrangement, MAPF, 符号规划, PDDL, LaCAM, 密集环境, 仓储机器人
 
 ## 一句话总结
@@ -147,10 +147,10 @@ Goal R1 最具挑战性，BR-LaCAM 在此场景下代价标准差较高（0.34�
 
 ## 相关论文
 
-- [\[AAAI 2026\] MeshA*: Efficient Path Planning With Motion Primitives](mesha_efficient_path_planning_with_motion_primitives.md)
 - [\[AAAI 2026\] Local Guidance for Configuration-Based Multi-Agent Pathfinding](local_guidance_for_configuration-based_multi-agent_pathfinding.md)
-- [\[AAAI 2026\] Finding Diverse Solutions Parameterized by Cliquewidth](finding_diverse_solutions_parameterized_by_cliquewidth.md)
-- [\[ACL 2025\] Preventing Rogue Agents Improves Multi-Agent Collaboration](../../ACL2025/others/preventing_rogue_agents_improves_multi-agent_collaboration.md)
 - [\[AAAI 2026\] Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit](area-optimal_control_strategies_for_heterogeneous_multi-agen.md)
+- [\[AAAI 2026\] Finding Diverse Solutions Parameterized by Cliquewidth](finding_diverse_solutions_parameterized_by_cliquewidth.md)
+- [\[AAAI 2026\] Whispering Agents: An Event-Driven Covert Communication Protocol for the Internet of Agents](whispering_agents_an_event-driven_covert_communication_protocol_for_the_internet.md)
+- [\[AAAI 2026\] An Epistemic Perspective on Agent Awareness](an_epistemic_perspective_on_agent_awareness.md)
 
 <!-- RELATED:END -->

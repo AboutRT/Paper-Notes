@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2509.01028](https://arxiv.org/abs/2509.01028)  
 **代码**: 无  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 属性解耦, 滑块控制, 文本到图像生成, 条件先验, 多属性操控
 
 ## 一句话总结
@@ -125,7 +125,7 @@ $$\bm{c}^{\mathcal{I}} = \text{CompSlider}(\bm{c}^{\mathcal{S}}, \bm{c}^{\mathca
 
 ## 相关论文
 
-- [\[CVPR 2026\] All-in-One Slider for Attribute Manipulation in Diffusion Models](../../CVPR2026/image_generation/all_in_one_slider_attribute_manipulation.md)
+- [\[CVPR 2026\] All-in-One Slider for Attribute Manipulation in Diffusion Models](../../CVPR2026/image_generation/all-in-one_slider_for_attribute_manipulation_in_diffusion_models.md)
 - [\[ICCV 2025\] ALE: Attribute-Leakage-free Editing for Text-based Image Editing](ale_attribute_leakage_free_editing.md)
 - [\[ICCV 2025\] Fair Generation without Unfair Distortions: Debiasing Text-to-Image Generation with Entanglement-Free Attention](fair_generation_without_unfair_distortions_debiasing_text-to-image_generation_wi.md)
 - [\[NeurIPS 2025\] Evaluating the Evaluators: Metrics for Compositional Text-to-Image Generation](../../NeurIPS2025/image_generation/evaluating_the_evaluators_metrics_for_compositional_text-to-image_generation.md)

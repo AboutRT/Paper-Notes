@@ -6,7 +6,7 @@ tags:
   - 视频哈希
   - 自监督学习
   - 帧采样
-  - 模型压缩
+  - 自监督
 ---
 
 # AutoSSVH: Automated Frame Sampling for Self-Supervised Video Hashing
@@ -139,10 +139,10 @@ AutoSSVH提出了自监督视频哈希中帧选择的自动化方案，通过可
 
 ## 相关论文
 
-- [\[ECCV 2024\] Self-supervised Video Copy Localization with Regional Token Representation](../../ECCV2024/self_supervised/self-supervised_video_copy_localization_with_regional_token_representation.md)
 - [\[CVPR 2026\] TeFlow: Enabling Multi-frame Supervision for Self-Supervised Feed-forward Scene Flow Estimation](../../CVPR2026/self_supervised/teflow_enabling_multi-frame_supervision_for_self-supervised_feed-forward_scene_f.md)
+- [\[ECCV 2024\] Self-supervised Video Copy Localization with Regional Token Representation](../../ECCV2024/self_supervised/self-supervised_video_copy_localization_with_regional_token_representation.md)
 - [\[ECCV 2024\] ViC-MAE: Self-Supervised Representation Learning from Images and Video with Contrastive Masked Autoencoders](../../ECCV2024/self_supervised/vic-mae_self-supervised_representation_learning_from_images_and_video_with_contr.md)
-- [\[ICML 2025\] ReSA: Clustering Properties of Self-Supervised Learning](../../ICML2025/self_supervised/clustering_properties_of_self-supervised_learning.md)
-- [\[CVPR 2025\] SMILE: Infusing Spatial and Motion Semantics in Masked Video Learning](smile_infusing_spatial_and_motion_semantics_in_masked_video_learning.md)
+- [\[NeurIPS 2025\] Understanding Ice Crystal Habit Diversity with Self-Supervised Learning](../../NeurIPS2025/self_supervised/understanding_ice_crystal_habit_diversity_with_self-supervised_learning.md)
+- [\[ACL 2025\] Improving Low-Resource Morphological Inflection via Self-Supervised Objectives](../../ACL2025/self_supervised/improving_low-resource_morphological_inflection_via_self-supervised_objectives.md)
 
 <!-- RELATED:END -->

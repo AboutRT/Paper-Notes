@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - RAG蒸馏
-  - 知识图谱
+  - 信息检索
   - 小语言模型
   - 幻觉缓解
   - 证据提取
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2506.01954](https://arxiv.org/abs/2506.01954)  
 **代码**: [https://github.com/VILA-Lab/DRAG](https://github.com/VILA-Lab/DRAG)  
-**领域**: 模型压缩  
+**领域**: 信息检索  
 **关键词**: RAG蒸馏, 知识图谱, 小语言模型, 幻觉缓解, 证据提取  
 
 ## 一句话总结
@@ -147,6 +147,6 @@ Teacher 模型对比（Student: Qwen2.5-3B，ARC-C）：
 - [\[ACL 2025\] Cross-Lingual Relevance Transfer for Document Retrieval](cross-lingual_relevance_transfer_for_document_retrieval.md)
 - [\[ACL 2025\] CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG](core_mmrag_knowledge_reconciliation.md)
 - [\[ACL 2025\] Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG](divide_then_align_rag_knowledge_boundary.md)
-- [\[AAAI 2026\] Does Less Hallucination Mean Less Creativity? An Empirical Investigation in LLMs](../../AAAI2026/information_retrieval/does_less_hallucination_mean_less_creativity_an_empirical_investigation_in_llms.md)
+- [\[ACL 2025\] KnowShiftQA: How Robust are RAG Systems when Textbook Knowledge Shifts in K-12 Education?](knowshiftqa_rag_knowledge_shifts.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2509.11698](https://arxiv.org/abs/2509.11698)  
 **代码**: [https://motionxperts.github.io/](https://motionxperts.github.io/)  
-**领域**: 多模态 VLM  
+**领域**: 其他  
 **关键词**: 运动指导生成, 姿态分析, 参考对比, 动作理解, 图卷积网络  
 
 ## 一句话总结
@@ -118,8 +118,8 @@ CoachMe 包含三个模块：(1) Concept Difference Module 对齐学员与参考
 
 - [\[ACL 2025\] ERU-KG: Efficient Reference-aligned Unsupervised Keyphrase Generation](eru-kg_efficient_reference-aligned_unsupervised_keyphrase_generation.md)
 - [\[ACL 2025\] EpiCoDe: Boosting Model Performance Beyond Training with Extrapolation and Contrastive Decoding](epicode_boosting_model_performance_beyond_training_with_extrapolation_and_contra.md)
-- [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
 - [\[ACL 2025\] Personalized Generation In Large Model Era: A Survey](personalized_generation_in_large_model_era_a_survey.md)
+- [\[ACL 2025\] Decoding Reading Goals from Eye Movements](decoding_reading_goals_from_eye_movements.md)
 - [\[ACL 2025\] Substance over Style: Evaluating Proactive Conversational Coaching Agents](proactive_conversational_coaching.md)
 
 <!-- RELATED:END -->

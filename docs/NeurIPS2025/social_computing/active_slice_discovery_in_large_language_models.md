@@ -7,7 +7,7 @@ tags:
   - "NeurIPS 2025 (Workshop: Reliable ML from Unreliable Data)"
   - slice discovery
   - active learning
-  - LLM interpretability
+  - 社会计算
   - toxicity classification
   - sparse autoencoder
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025 (Workshop: Reliable ML from Unreliable Data)  
 **arXiv**: [2511.20713](https://arxiv.org/abs/2511.20713)  
 **代码**: 待发布（论文承诺公开）  
-**领域**: human_understanding  
+**领域**: 社会计算  
 **关键词**: slice discovery, active learning, LLM interpretability, toxicity classification, sparse autoencoder
 
 ## 一句话总结

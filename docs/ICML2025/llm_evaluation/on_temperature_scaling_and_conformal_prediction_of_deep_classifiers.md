@@ -7,7 +7,7 @@ tags:
   - ICML2025
   - Temperature Scaling
   - 共形预测
-  - 不确定性量化
+  - LLM评测
   - 校准
   - 预测集大小
   - 条件覆盖
@@ -18,7 +18,7 @@ tags:
 **会议**: ICML2025  
 **arXiv**: [2402.05806](https://arxiv.org/abs/2402.05806)  
 **代码**: 未提供  
-**领域**: 其他/校准与Conformal Prediction  
+**领域**: LLM评测  
 **关键词**: Temperature Scaling, 共形预测, 不确定性量化, 校准, 预测集大小, 条件覆盖
 
 ## 一句话总结
@@ -146,8 +146,8 @@ TS 增大温度 ($T > 1$) 时：
 
 - [\[NeurIPS 2025\] Conformal Prediction in The Loop: A Feedback-Based Uncertainty Model for Trajectory Optimization](../../NeurIPS2025/llm_evaluation/conformal_prediction_in_the_loop_a_feedback-based_uncertainty_model_for_trajecto.md)
 - [\[ICLR 2026\] Conformal Prediction Adaptive to Unknown Subpopulation Shifts](../../ICLR2026/llm_evaluation/conformal_prediction_adaptive_to_unknown_subpopulation_shifts.md)
-- [\[NeurIPS 2025\] Conformal Online Learning of Deep Koopman Linear Embeddings](../../NeurIPS2025/llm_evaluation/conformal_online_learning_of_deep_koopman_linear_embeddings.md)
-- [\[CVPR 2026\] Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score](../../CVPR2026/llm_evaluation/semi-supervised_conformal_prediction_with_unlabeled_nonconformity_score.md)
 - [\[ACL 2026\] Min-k Sampling: Decoupling Truncation from Temperature Scaling via Relative Logit Dynamics](../../ACL2026/llm_evaluation/min-k_sampling_decoupling_truncation_from_temperature_scaling_via_relative_logit.md)
+- [\[CVPR 2026\] Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score](../../CVPR2026/llm_evaluation/semi-supervised_conformal_prediction_with_unlabeled_nonconformity_score.md)
+- [\[NeurIPS 2025\] Conformal Online Learning of Deep Koopman Linear Embeddings](../../NeurIPS2025/llm_evaluation/conformal_online_learning_of_deep_koopman_linear_embeddings.md)
 
 <!-- RELATED:END -->

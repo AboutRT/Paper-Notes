@@ -2,10 +2,10 @@
 title: >-
   [论文解读] ProAPO: Progressively Automatic Prompt Optimization for Visual Classification
 description: >-
-  [CVPR 2025][视觉语言模型] 提出 ProAPO，一种基于进化算法的渐进式自动提示优化方法，在仅需 one-shot 监督且无需人工参与的条件下，从任务级模板逐步优化到类别级描述，解决 LLM 生成描述中的幻觉和缺乏区分度问题，在 13 个数据集上超越现有文本提示方法。
+  [CVPR 2025][AIGC检测] 提出 ProAPO，一种基于进化算法的渐进式自动提示优化方法，在仅需 one-shot 监督且无需人工参与的条件下，从任务级模板逐步优化到类别级描述，解决 LLM 生成描述中的幻觉和缺乏区分度问题，在 13 个数据集上超越现有文本提示方法。
 tags:
   - CVPR 2025
-  - 视觉语言模型
+  - AIGC检测
   - 提示优化
   - 进化算法
   - 细粒度分类
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2502.19844](https://arxiv.org/abs/2502.19844)  
 **代码**: 有  
-**领域**: AIGC 检测  
+**领域**: AIGC检测  
 **关键词**: 视觉语言模型, 提示优化, 进化算法, 细粒度分类, 少样本学习
 
 ## 一句话总结
@@ -119,9 +119,9 @@ ProAPO 分两阶段：(1) 模板优化阶段——从初始模板"a photo of a {
 ## 相关论文
 
 - [\[CVPR 2025\] Enhancing Few-Shot Class-Incremental Learning via Training-Free Bi-Level Modality Calibration](enhancing_few-shot_class-incremental_learning_via_training-free_bi-level_modalit.md)
-- [\[ACL 2025\] Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training](../../ACL2025/aigc_detection/greater_adversarial_mgt_detection.md)
-- [\[NeurIPS 2025\] ASCIIBench: Evaluating Language-Model-Based Understanding of Visually-Oriented Text](../../NeurIPS2025/aigc_detection/asciibench_evaluating_language-model-based_understanding_of_visually-oriented_te.md)
-- [\[ACL 2025\] ChemActor: Enhancing Automated Extraction of Chemical Synthesis Actions with LLM-Generated Data](../../ACL2025/aigc_detection/chemactor_enhancing_automated_extraction_of_chemical_synthesis_actions_with_llm-.md)
+- [\[CVPR 2025\] SGC-Net: Stratified Granular Comparison Network for Open-Vocabulary HOI Detection](sgc-net_stratified_granular_comparison_network_for_open-vocabulary_hoi_detection.md)
+- [\[ACL 2026\] Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](../../ACL2026/aigc_detection/beyond_the_final_actor_modeling_the_dual_roles_of_creator_and_editor_for_fine-gr.md)
+- [\[ACL 2025\] HACo-Det: A Study Towards Fine-Grained Machine-Generated Text Detection under Human-AI Coauthoring](../../ACL2025/aigc_detection/haco-det_a_study_towards_fine-grained_machine-generated_text_detection_under_hum.md)
 - [\[NeurIPS 2025\] "Jutters"](../../NeurIPS2025/aigc_detection/jutters.md)
 
 <!-- RELATED:END -->

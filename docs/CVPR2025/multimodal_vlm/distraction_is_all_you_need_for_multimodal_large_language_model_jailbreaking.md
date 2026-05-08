@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 多模态
-  - MLLM安全
+  - 多模态VLM
   - 越狱攻击
   - 注意力分散
   - 对比子图
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2502.10794](https://arxiv.org/abs/2502.10794)  
-**代码**: https://github.com/TeamPigeonLab/CS-DJ  
+**代码**: [https://github.com/TeamPigeonLab/CS-DJ](https://github.com/TeamPigeonLab/CS-DJ)  
 **领域**: 多模态VLM  
 **关键词**: MLLM安全、越狱攻击、注意力分散、对比子图、黑盒攻击
 
@@ -122,8 +122,8 @@ tags:
 
 - [\[ICCV 2025\] Jailbreaking Multimodal Large Language Models via Shuffle Inconsistency](../../ICCV2025/multimodal_vlm/jailbreaking_multimodal_large_language_models_via_shuffle_inconsistency.md)
 - [\[CVPR 2025\] Playing the Fool: Jailbreaking LLMs and Multimodal LLMs with Out-of-Distribution Strategy](playing_the_fool_jailbreaking_llms_and_multimodal_llms_with_out-of-distribution_.md)
-- [\[ICCV 2025\] IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves](../../ICCV2025/multimodal_vlm/ideator_jailbreaking_and_benchmarking_large_vision-language_models_using_themsel.md)
 - [\[CVPR 2025\] Period-LLM: Extending the Periodic Capability of Multimodal Large Language Model](period-llm_extending_the_periodic_capability_of_multimodal_large_language_model.md)
 - [\[CVPR 2025\] SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model](seqafford_sequential_3d_affordance_reasoning_via_multimodal_large_language_model.md)
+- [\[CVPR 2025\] UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation](upme_an_unsupervised_peer_review_framework_for_multimodal_large_language_model_e.md)
 
 <!-- RELATED:END -->

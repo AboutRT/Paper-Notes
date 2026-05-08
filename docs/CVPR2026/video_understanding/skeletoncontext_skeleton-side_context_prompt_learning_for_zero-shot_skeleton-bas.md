@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.29692](https://arxiv.org/abs/2603.29692)  
-**代码**: https://github.com/NingWang2049/skeletoncontext  
+**代码**: [https://github.com/NingWang2049/skeletoncontext](https://github.com/NingWang2049/skeletoncontext)  
 **领域**: 视频理解 / 动作识别  
 **关键词**: 零样本动作识别, 骨骼序列, 上下文提示学习, 跨模态对齐, 关键部位解耦
 

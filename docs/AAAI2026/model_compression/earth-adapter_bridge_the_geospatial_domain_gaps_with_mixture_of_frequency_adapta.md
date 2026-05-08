@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2504.06220](https://arxiv.org/abs/2504.06220)  
 **代码**: [有](https://github.com/VisionXLab/Earth-Adapter)  
-**领域**: 分割  
+**领域**: 模型压缩  
 **关键词**: 遥感语义分割, 参数高效微调, 频域分解, 混合适配器, 伪影缓解
 
 ## 一句话总结
@@ -179,6 +179,6 @@ SS 均值超越 Rein **+1.2%**。
 - [\[ACL 2025\] Sci-LoRA: Mixture of Scientific LoRAs for Cross-Domain Lay Paraphrasing](../../ACL2025/model_compression/sci-lora_mixture_of_scientific_loras_for_cross-domain_lay_paraphrasing.md)
 - [\[NeurIPS 2025\] Towards Unsupervised Open-Set Graph Domain Adaptation via Dual Reprogramming](../../NeurIPS2025/model_compression/towards_unsupervised_open-set_graph_domain_adaptation_via_dual_reprogramming.md)
 - [\[AAAI 2026\] AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization](adafuse_accelerating_dynamic_adapter_inference_via_token-lev.md)
-- [\[AAAI 2026\] Prototype-Based Semantic Consistency Alignment for Domain Adaptive Retrieval](prototype-based_semantic_consistency_alignment_for_domain_adaptive_retrieval.md)
+- [\[ICML 2025\] Merge-Friendly Post-Training Quantization for Multi-Target Domain Adaptation](../../ICML2025/model_compression/merge-friendly_post-training_quantization_for_multi-target_domain_adaptation.md)
 
 <!-- RELATED:END -->

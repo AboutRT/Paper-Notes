@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2405.03205](https://arxiv.org/abs/2405.03205)  
 **代码**: [GitHub](https://github.com/ruizheliUOA/Anchored_Bias_GPT2)  
-**领域**: 可解释性 / 模型偏差  
+**领域**: 目标检测  
 **关键词**: 锚定偏差, GPT-2, 机械可解释性, Logit Lens, MLP值向量
 
 ## 一句话总结
@@ -116,10 +116,10 @@ MLP值向量更新后的MCQ准确率（%）：
 
 ## 相关论文
 
-- [\[ICCV 2025\] Synchronization of Multiple Videos](../../ICCV2025/object_detection/synchronization_of_multiple_videos.md)
 - [\[CVPR 2025\] Multiple Object Tracking as ID Prediction](../../CVPR2025/object_detection/multiple_object_tracking_as_id_prediction.md)
-- [\[CVPR 2025\] A Bias-Free Training Paradigm for More General AI-generated Image Detection](../../CVPR2025/object_detection/a_bias-free_training_paradigm_for_more_general_ai-generated_image_detection.md)
-- [\[ACL 2025\] Why Safeguarded Ships Run Aground? Aligned Large Language Models' Safety Mechanisms Tend to Be Anchored in The Template Region](why_safeguarded_ships_run_aground_aligned_large_language_models_safety_mechanism.md)
 - [\[ECCV 2024\] Rectify the Regression Bias in Long-Tailed Object Detection](../../ECCV2024/object_detection/rectify_the_regression_bias_in_long-tailed_object_detection.md)
+- [\[CVPR 2026\] AR²-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos](../../CVPR2026/object_detection/ar2-4fv_anchored_referring_and_re-identification_for_long-term_grounding_in_fixe.md)
+- [\[ECCV 2024\] WALKER: Self-supervised Multiple Object Tracking by Walking on Temporal Appearance Graphs](../../ECCV2024/object_detection/walker_self-supervised_multiple_object_tracking_by_walking_on_temporal_appearanc.md)
+- [\[AAAI 2026\] When Trackers Date Fish: A Benchmark and Framework for Underwater Multiple Fish Tracking](../../AAAI2026/object_detection/when_trackers_date_fish_a_benchmark_and_framework_for_underwater_multiple_fish_t.md)
 
 <!-- RELATED:END -->

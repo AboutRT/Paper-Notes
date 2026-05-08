@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2402.05054](https://arxiv.org/abs/2402.05054)  
-**代码**: https://github.com/3DTopia/LGM  
+**代码**: [https://github.com/3DTopia/LGM](https://github.com/3DTopia/LGM)  
 **领域**: 3D视觉  
 **关键词**: 3D生成, 高斯溅射, 多视角重建, 高分辨率, U-Net
 

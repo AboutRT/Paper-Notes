@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.15669](https://arxiv.org/abs/2602.15669)  
 **代码**: [GitHub](https://github.com/) (论文声明公开)  
-**领域**: 模型压缩 / LLM效率 / 可解释性控制  
+**领域**: 机器人  
 **关键词**: personality control, activation steering, vector algebra, inference-time, Big Five
 
 ## 一句话总结
@@ -137,8 +137,8 @@ $$h_l \leftarrow h_l + \alpha \cdot v_l$$
 
 - [\[ICLR 2026\] Enhancing Instruction Following of LLMs via Activation Steering with Dynamic Rejection](enhancing_instruction_following_of_llms_via_activation_steering_with_dynamic_rej.md)
 - [\[ICLR 2026\] Test-Time Mixture of World Models for Embodied Agents in Dynamic Environments](test-time_mixture_of_world_models_for_embodied_agents_in_dynamic_environments.md)
-- [\[NeurIPS 2025\] SITCOM: Scaling Inference-Time COMpute for VLAs](../../NeurIPS2025/robotics/sitcom_scaling_inference-time_compute_for_vlas.md)
 - [\[CVPR 2026\] Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](../../CVPR2026/robotics/adaptive_action_chunking_at_inference-time_for_vision-language-action_models.md)
 - [\[ICLR 2026\] On Entropy Control in LLM-RL Algorithms](on_entropy_control_in_llm-rl_algorithms.md)
+- [\[ICLR 2026\] Real-Time Robot Execution with Masked Action Chunking](real-time_robot_execution_with_masked_action_chunking.md)
 
 <!-- RELATED:END -->

@@ -8,7 +8,7 @@ tags:
   - RLVR
   - flawed positives
   - reward shaping
-  - generative reward model
+  - 强化学习
   - process reward
   - GRPO
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2510.22543](https://arxiv.org/abs/2510.22543)  
 **代码**: [fapo-rl.github.io](https://fapo-rl.github.io)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: RLVR, flawed positives, reward shaping, generative reward model, process reward, GRPO
 
 ## 一句话总结
@@ -128,10 +128,10 @@ $\lambda = 1$ 的选择来自 majority-guided 策略，使转移点恰好在 $\r
 
 ## 相关论文
 
+- [\[ICLR 2026\] REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning](rea-rl_reflection-aware_online_reinforcement_learning_for_efficient_reasoning.md)
 - [\[ICLR 2026\] Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization](thinking_on_the_fly_test-time_reasoning_enhancement_via_latent_thought_policy_op.md)
 - [\[AAAI 2026\] STELAR-Vision: Self-Topology-Aware Efficient Learning for Aligned Reasoning in Vision](../../AAAI2026/reinforcement_learning/stelar-vision_self-topology-aware_efficient_learning_for_aligned_reasoning_in_vi.md)
+- [\[ACL 2026\] Bridging SFT and RL: Dynamic Policy Optimization for Robust Reasoning](../../ACL2026/reinforcement_learning/bridging_sft_and_rl_dynamic_policy_optimization_for_robust_reasoning.md)
 - [\[ICLR 2026\] Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning](controllable_exploration_in_hybrid-policy_rlvr_for_multi-modal_reasoning.md)
-- [\[ICLR 2026\] WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control](wimle_uncertainty-aware_world_models_with_imle_for_sample-efficient_continuous_c.md)
-- [\[AAAI 2026\] Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning](../../AAAI2026/reinforcement_learning/well_begun_half_done_reinforcement_learning_with_prefix_optimization_for_llm_rea.md)
 
 <!-- RELATED:END -->

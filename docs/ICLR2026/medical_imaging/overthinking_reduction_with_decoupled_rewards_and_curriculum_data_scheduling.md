@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2509.25827](https://arxiv.org/abs/2509.25827)  
 **代码**: [github.com/pixas/DECS](https://github.com/pixas/DECS)  
-**领域**: LLM推理效率 / 强化学习  
+**领域**: 医学图像  
 **关键词**: overthinking, 解耦奖励, 课程学习, RLVR, NRP
 
 ## 一句话总结

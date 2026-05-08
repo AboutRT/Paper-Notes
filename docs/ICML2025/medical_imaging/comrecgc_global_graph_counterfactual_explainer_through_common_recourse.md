@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2505.07081](https://arxiv.org/abs/2505.07081)  
 **代码**: [GitHub](https://github.com/ssggreg/COMRECGC)  
-**领域**: 图神经网络可解释性 / 分子生物学  
+**领域**: 医学图像  
 **关键词**: 反事实解释, 图神经网络, 公共补救 (Common Recourse), 全局解释, 子模优化
 
 ## 一句话总结
@@ -231,7 +231,7 @@ ComRecGC 在四个数据集上覆盖率分别超越 GCFExplainer **+21.5%、+31.
 - [\[CVPR 2025\] Latent Drifting in Diffusion Models for Counterfactual Medical Image Synthesis](../../CVPR2025/medical_imaging/latent_drifting_in_diffusion_models_for_counterfactual_medical_image_synthesis.md)
 - [\[ICML 2025\] Supercharging Graph Transformers with Advective Diffusion](supercharging_graph_transformers_with_advective_diffusion.md)
 - [\[ICML 2025\] PolyConf: Unlocking Polymer Conformation Generation through Hierarchical Generative Models](polyconf_unlocking_polymer_conformation_generation_through_hierarchical_generati.md)
-- [\[ICML 2025\] Geometric Generative Modeling with Noise-Conditioned Graph Networks](geometric_generative_modeling_with_noise-conditioned_graph_networks.md)
 - [\[ACL 2026\] Faithfulness vs. Safety: Evaluating LLM Behavior Under Counterfactual Medical Evidence](../../ACL2026/medical_imaging/faithfulness_vs_safety_evaluating_llm_behavior_under_counterfactual_medical_evid.md)
+- [\[ICML 2025\] Geometric Generative Modeling with Noise-Conditioned Graph Networks](geometric_generative_modeling_with_noise-conditioned_graph_networks.md)
 
 <!-- RELATED:END -->

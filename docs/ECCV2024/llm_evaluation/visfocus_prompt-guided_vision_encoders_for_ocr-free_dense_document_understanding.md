@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.12594](https://arxiv.org/abs/2407.12594)  
 **代码**: 无  
-**领域**: NLP理解 / 文档理解  
+**领域**: LLM评测  
 **关键词**: OCR-free, 文档理解, 提示感知视觉编码, Swin Transformer, 视觉-语言交互
 
 ## 一句话总结
@@ -162,7 +162,7 @@ $$\mathcal{M}(\mathbf{p}, X) = \mathcal{M}_L(\mathbf{p}, \mathcal{M}_V^p(\mathbf
 - [\[ACL 2025\] KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding](../../ACL2025/llm_evaluation/kitab-bench_a_comprehensive_multi-domain_benchmark_for_arabic_ocr_and_document_u.md)
 - [\[ECCV 2024\] SIGMA: Sinkhorn-Guided Masked Video Modeling](sigma_sinkhorn-guided_masked_video_modeling.md)
 - [\[ECCV 2024\] OGNI-DC: Robust Depth Completion with Optimization-Guided Neural Iterations](ogni-dc_robust_depth_completion_with_optimization-guided_neural_iterations.md)
-- [\[ECCV 2024\] Gradient-Regularized Out-of-Distribution Detection](gradient-regularized_out-of-distribution_detection.md)
-- [\[ECCV 2024\] Eliminating Warping Shakes for Unsupervised Online Video Stitching](eliminating_warping_shakes_for_unsupervised_online_video_stitching.md)
+- [\[ECCV 2024\] Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence](learn_from_the_learnt_source-free_active_domain_adaptation_via_contrastive_sampl.md)
+- [\[ECCV 2024\] Deep Cost Ray Fusion for Sparse Depth Video Completion](deep_cost_ray_fusion_for_sparse_depth_video_completion.md)
 
 <!-- RELATED:END -->

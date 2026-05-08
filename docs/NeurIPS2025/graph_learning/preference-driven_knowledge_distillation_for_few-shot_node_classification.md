@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.10116](https://arxiv.org/abs/2510.10116)  
-**代码**: https://github.com/GEEX-Weixing/PKD  
+**代码**: [https://github.com/GEEX-Weixing/PKD](https://github.com/GEEX-Weixing/PKD)  
 **领域**: 图学习 / 少样本学习  
 **关键词**: 少样本节点分类, LLM-GNN协同, 知识蒸馏, RL教师选择, 文本属性图
 

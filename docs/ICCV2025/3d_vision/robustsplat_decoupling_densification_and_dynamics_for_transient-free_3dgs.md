@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2506.02751](https://arxiv.org/abs/2506.02751)  
-**代码**: https://fcyycf.github.io/RobustSplat/ (有项目页)  
+**代码**: [https://fcyycf.github.io/RobustSplat/](https://fcyycf.github.io/RobustSplat/) (有项目页)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 新视角合成, 瞬态物体去除, 高斯致密化, 鲁棒重建
 
@@ -153,7 +153,7 @@ NeRF On-the-go 数据集消融（以 PSNR 为指标）：
 
 ## 相关论文
 
-- [\[ICCV 2025\] 3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt](3dgs_lm_faster_gaussian_splatting_optimization_with_levenberg_marquardt.md)
+- [\[ICCV 2025\] 3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt](3dgs-lm_faster_gaussian-splatting_optimization_with_levenberg-marquardt.md)
 - [\[NeurIPS 2025\] EF-3DGS: Event-Aided Free-Trajectory 3D Gaussian Splatting](../../NeurIPS2025/3d_vision/ef-3dgs_event-aided_free-trajectory_3d_gaussian_splatting.md)
 - [\[ICCV 2025\] ResGS: Residual Densification of 3D Gaussian for Efficient Detail Recovery](resgs_residual_densification_of_3d_gaussian_for_efficient_detail_recovery.md)
 - [\[CVPR 2025\] HybridGS: Decoupling Transients and Statics with 2D and 3D Gaussian Splatting](../../CVPR2025/3d_vision/hybridgs_decoupling_transients_and_statics_with_2d_and_3d_gaussian_splatting.md)

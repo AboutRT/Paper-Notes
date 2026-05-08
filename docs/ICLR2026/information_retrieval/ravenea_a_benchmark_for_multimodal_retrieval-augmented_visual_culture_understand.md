@@ -7,7 +7,7 @@ tags:
   - ICLR 2026
   - 检索增强生成
   - 文化理解
-  - 多模态基准
+  - 信息检索
   - 视觉问答
   - 图像描述
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2505.14462](https://arxiv.org/abs/2505.14462)  
-**代码**: https://jiaangli.github.io/ravenea  
-**领域**: 多模态VLM  
+**代码**: [https://jiaangli.github.io/ravenea](https://jiaangli.github.io/ravenea)  
+**领域**: 信息检索  
 **关键词**: 检索增强生成, 文化理解, 多模态基准, 视觉问答, 图像描述
 
 ## 一句话总结
@@ -133,8 +133,8 @@ CAC 训练使用 Ravenea 标注数据微调 CLIP/SigLIP 编码器，三个损失
 
 - [\[ACL 2025\] VISA: Retrieval Augmented Generation with Visual Source Attribution](../../ACL2025/information_retrieval/visa_retrieval_augmented_generation_with_visual_source_attribution.md)
 - [\[CVPR 2025\] DocoPilot: Improving Multimodal Models for Document-Level Understanding](../../CVPR2025/information_retrieval/docopilot_improving_multimodal_models_for_document-level_understanding.md)
-- [\[NeurIPS 2025\] Windsock is Dancing: Adaptive Multimodal Retrieval-Augmented Generation](../../NeurIPS2025/information_retrieval/windsock_is_dancing_adaptive_multimodal_retrieval-augmented_generation.md)
-- [\[CVPR 2026\] RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations](../../CVPR2026/information_retrieval/robustvisrag_causality-aware_vision-based_retrieval-augmented_generation_under_v.md)
+- [\[ICLR 2026\] Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders](toward_faithful_retrieval-augmented_generation_with_sparse_autoencoders.md)
 - [\[CVPR 2026\] M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG](../../CVPR2026/information_retrieval/m4-rag_a_massive-scale_multilingual_multi-cultural_multimodal_rag.md)
+- [\[CVPR 2026\] RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations](../../CVPR2026/information_retrieval/robustvisrag_causality-aware_vision-based_retrieval-augmented_generation_under_v.md)
 
 <!-- RELATED:END -->

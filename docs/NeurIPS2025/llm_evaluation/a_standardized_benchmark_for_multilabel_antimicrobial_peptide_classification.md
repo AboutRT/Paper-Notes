@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.04814](https://arxiv.org/abs/2511.04814)  
 **作者**: Sebastian Ojeda, Rafael Velasquez, Nicolás Aparicio, Juanita Puentes, Paula Cárdenas, Nicolás Andrade, Gabriel González, Sergio Rincón, Carolina Muñoz-Camargo, Pablo Arbeláez (Universidad de los Andes, Colombia)  
-**领域**: others (生物信息学 / 抗菌肽分类)  
+**领域**: LLM评测  
 **关键词**: Antimicrobial Peptide, Multilabel Classification, benchmark, Transformer, Cross-Attention, Drug Discovery
 
 ## 一句话总结

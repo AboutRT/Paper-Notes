@@ -20,7 +20,7 @@ tags:
 **作者**: Ming Li, Hui Shan, Kai Zheng, Chentao Shen, Siyu Liu, Yanwei Fu, Zhen Chen, Xiangru Huang
 **机构**: 浙江大学, 上海创新研究院, 西湖大学, 复旦大学, Adobe, 西安电子科技大学
 **代码**: 待确认  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 服装重建, 缝纫模式, 拓扑重建, 多视图重建, 物理仿真
 
 ## 一句话总结

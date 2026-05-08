@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2601.09212v1](https://arxiv.org/abs/2601.09212v1)  
-**代码**: [https://github.com/xingyaoL/COOL-SD](https://github.com/xingyaoL/COOL-SD) (有)  
+**代码**: [https://github.com/xingyaoL/COOL-SD](https://github.com/xingyaoL/COOL-SD)  
 **领域**: 图像生成 / 高效推理  
 **关键词**: 推测解码, 自回归图像生成, 退火松弛, 总变差距离, 推理加速
 

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] NavQ: Learning a Q-Model for Foresighted Vision-and-Language Navigation
 description: >-
-  [ICCV 2025][视觉语言导航] 提出 NavQ，一种前瞻性 VLN 智能体，通过 Q-model 在单次前向传播中预测每个候选动作的长期未来语义聚合特征（Q-feature），结合 A* 式搜索策略在目标导向导航中取得显著提升。
+  [ICCV 2025][强化学习] 提出 NavQ，一种前瞻性 VLN 智能体，通过 Q-model 在单次前向传播中预测每个候选动作的长期未来语义聚合特征（Q-feature），结合 A* 式搜索策略在目标导向导航中取得显著提升。
 tags:
   - ICCV 2025
-  - 视觉语言导航
+  - 强化学习
   - Q学习
   - 前瞻性决策
   - "A*搜索"
@@ -49,7 +49,7 @@ NavQ 在 DUET 基线上增加一个**未来分支**，与全局编码器（GE，
 ### 关键设计
 
 1. **Q-function 定义**：
-   $$Q(T, a) = R(\mathcal{A}) + \gamma \mathbb{E}_{a' \sim \pi}[Q(T \cup \{\mathcal{A}\}, a')]$$
+    $Q(T, a) = R(\mathcal{A}) + \gamma \mathbb{E}_{a' \sim \pi}[Q(T \cup \{\mathcal{A}\}, a')]$
    
    不同于传统 Q-learning 预测标量奖励，此处 $R(\cdot)$ 是节点的文本描述特征（由 BLIP 等生成），$Q$ 输出是特征向量。解耦了奖励与导航指令，从而可在无标注场景上预训练。
 
@@ -148,6 +148,6 @@ NavQ 相比 DUET baseline 全面提升：SR +6.24, SPL +5.16, RGSPL +4.09。RGSP
 - [\[AAAI 2026\] Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach](../../AAAI2026/reinforcement_learning/vision-language_reasoning_for_geolocalization_a_reinforcement_learning_approach.md)
 - [\[NeurIPS 2025\] Provable Ordering and Continuity in Vision-Language Pretraining for Generalizable Embodied Agents](../../NeurIPS2025/reinforcement_learning/provable_ordering_and_continuity_in_vision-language_pretraining_for_generalizabl.md)
 - [\[NeurIPS 2025\] EvoLM: In Search of Lost Language Model Training Dynamics](../../NeurIPS2025/reinforcement_learning/evolm_in_search_of_lost_language_model_training_dynamics.md)
-- [\[ECCV 2024\] Octopus: Embodied Vision-Language Programmer from Environmental Feedback](../../ECCV2024/reinforcement_learning/octopus_embodied_vision-language_programmer_from_environmental_feedback.md)
+- [\[ICML 2025\] T1: Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling](../../ICML2025/reinforcement_learning/t1_advancing_language_model_reasoning_through_reinforcement_learning_and_inferen.md)
 
 <!-- RELATED:END -->

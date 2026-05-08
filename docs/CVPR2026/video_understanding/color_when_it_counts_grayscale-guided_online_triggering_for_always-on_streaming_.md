@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.22466](https://arxiv.org/abs/2603.22466)  
-**代码**: [lvgd.github.io/ColorTrigger](https://lvgd.github.io/ColorTrigger/) (有)  
+**代码**: [lvgd.github.io/ColorTrigger](https://lvgd.github.io/ColorTrigger/)  
 **领域**: 视频理解  
 **关键词**: 流式视频理解, 边缘设备, 灰度引导触发, 能效感知, 动态Token路由
 
@@ -52,29 +52,29 @@ ColorTrigger 包含两个核心组件：
 
 1. **滑动窗口灰度亲和矩阵**：在每个时间步 $t$，维护大小为 $W$ 的因果滑动窗口 $\mathcal{W}_t$。用冻结的 CLIP 视觉编码器提取各帧 CLS token 的 $\ell_2$ 归一化特征 $\mathbf{f}_i$，构建亲和矩阵：
 
-   $$\tilde{\mathbf{A}}_t = \frac{1}{2}(\mathbf{F}_t \mathbf{F}_t^\top + \mathbf{I}_{n_t}) \in [0,1]^{n_t \times n_t}$$
+    $\tilde{\mathbf{A}}_t = \frac{1}{2}(\mathbf{F}_t \mathbf{F}_t^\top + \mathbf{I}_{n_t}) \in [0,1]^{n_t \times n_t}$
 
    高 $\tilde{A}_{ij}$ 表示帧 $i,j$ 冗余（相似），低值表示新颖/变化。该矩阵对称、半正定，且严格因果（仅用当前窗口帧）。
 
 2. **多样性驱动的二次规划（QP）**：将帧选择建模为连续 QP 问题，对窗口内每帧分配权重 $\mathbf{w}_t \in [0,1]^{n_t}$：
 
-   $$\mathbf{w}_t = \arg\min_{\mathbf{w}} \lambda \mathbf{w}^\top \tilde{\mathbf{A}}_t \mathbf{w} \quad \text{s.t.} \quad \mathbf{1}^\top \mathbf{w} = m_t$$
+    $\mathbf{w}_t = \arg\min_{\mathbf{w}} \lambda \mathbf{w}^\top \tilde{\mathbf{A}}_t \mathbf{w} \quad \text{s.t.} \quad \mathbf{1}^\top \mathbf{w} = m_t$
 
    二次项 $\mathbf{w}^\top \tilde{\mathbf{A}}_t \mathbf{w}$ 惩罚将权重分配给相似帧——自然鼓励将预算分散到时序多样的帧上。当前帧权重 $s_t = (\mathbf{w}_t)_{n_t}$ 越高，说明该帧贡献了窗口中未被近期历史覆盖的新信息，应触发 RGB。
 
 3. **信用预算在线控制器（Credit-Budgeted Controller）**：维护标量信用余额 $b_t \in [0, C]$，以目标速率 $r$ 每帧累积，每次 RGB 触发消耗一单位：
 
-   $$b_{t+1} = \text{clip}(b_t - u_t + r,\; 0, C)$$
+    $b_{t+1} = \text{clip}(b_t - u_t + r,\; 0, C)$
 
    触发决策需同时满足几何准则（$s_t \geq \theta$）和预算准则（$b_t \geq 1$）：
 
-   $$u_t = \mathbb{I}[s_t \geq \theta \wedge b_t \geq 1]$$
+    $u_t = \mathbb{I}[s_t \geq \theta \wedge b_t \geq 1]$
 
    长期 RGB 使用量有界：$\sum_{t=1}^T u_t \leq rT + C$，保证预算合规。
 
 4. **动态 Token 路由**：灰度帧以低分辨率输入产生 $T_g$ 个 token，RGB 帧以高分辨率产生 $T_c > T_g$ 个 token：
 
-   $$\mathbf{Z}_t = (1 - u_t)\psi_g(g_t) \oplus u_t \psi_c(c_t)$$
+    $\mathbf{Z}_t = (1 - u_t)\psi_g(g_t) \oplus u_t \psi_c(c_t)$
 
    计算成本 $\sum_t [(1-u_t)T_g + u_t T_c]$ 在 RGB 稀疏时远低于全彩成本 $T \cdot T_c$，将计算资源集中在信息量大的时刻。
 

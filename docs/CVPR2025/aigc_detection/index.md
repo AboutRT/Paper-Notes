@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 AIGC检测方向2篇论文解读
+  CVPR2025 AIGC 检测方向3篇论文解读
 description: >-
-  2篇CVPR2025的 AIGC 检测方向论文解读，涵盖持续学习、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  3篇CVPR2025的 AIGC 检测方向论文解读，涵盖持续学习、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
-# 🔎 AIGC检测
+# 🔎 AIGC 检测
 
-**📷 CVPR2025** · **2** 篇论文解读
+**📷 CVPR2025** · **3** 篇论文解读
 
 **[Enhancing Few-Shot Class-Incremental Learning via Training-Free Bi-Level Modality Calibration](enhancing_few-shot_class-incremental_learning_via_training-free_bi-level_modalit.md)**
 
@@ -17,3 +17,7 @@ description: >-
 **[ProAPO: Progressively Automatic Prompt Optimization for Visual Classification](proapo_progressively_automatic_prompt_optimization_for_visual_classification.md)**
 
 :   提出 ProAPO，一种基于进化算法的渐进式自动提示优化方法，在仅需 one-shot 监督且无需人工参与的条件下，从任务级模板逐步优化到类别级描述，解决 LLM 生成描述中的幻觉和缺乏区分度问题，在 13 个数据集上超越现有文本提示方法。
+
+**[SGC-Net: Stratified Granular Comparison Network for Open-Vocabulary HOI Detection](sgc-net_stratified_granular_comparison_network_for_open-vocabulary_hoi_detection.md)**
+
+:   提出分层粒度比较网络SGC-Net，通过粒度感知对齐(GSA)模块聚合CLIP多层视觉特征，并利用层级分组比较(HGC)模块借助LLM递归生成区分性描述，解决开放词汇HOI检测中的特征粒度不足和语义混淆问题。

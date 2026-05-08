@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.00602v1](https://arxiv.org/abs/2512.00602v1)  
 **代码**: [https://github.com/RUC-MAS/AgentODRL](https://github.com/RUC-MAS/AgentODRL)  
-**领域**: 多智能体系统 / 自然语言处理 / 数据权限管理  
+**领域**: 模型压缩  
 **关键词**: ODRL生成, 多智能体系统, LLM, 数据权限策略, Orchestrator-Workers  
 
 ## 一句话总结
@@ -119,10 +119,10 @@ LoRA微调参数：r=16, alpha=32，使用2380个合成样本，单张NVIDIA 409
 
 ## 相关论文
 
-- [\[ACL 2026\] Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](../../ACL2026/model_compression/memory-augmented_llm-based_multi-agent_system_for_automated_feature_generation_o.md)
 - [\[AAAI 2026\] SafeSieve: From Heuristics to Experience in Progressive Pruning for LLM-based Multi-Agent Communication](safesieve_from_heuristics_to_experience_in_progressive_pruning_for_llm-based_mul.md)
 - [\[AAAI 2026\] Hierarchical Pedagogical Oversight: A Multi-Agent Adversarial Framework for Reliable AI Tutoring](hierarchical_pedagogical_oversight_a_multi-agent_adversarial_framework_for_relia.md)
+- [\[ACL 2026\] CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents](../../ACL2026/model_compression/clag_adaptive_memory_organization_via_agent-driven_clustering_for_small_language.md)
+- [\[ACL 2025\] Quantification of Large Language Model Distillation](../../ACL2025/model_compression/quantification_of_large_language_model_distillation.md)
 - [\[AAAI 2026\] EEG-DLite: Dataset Distillation for Efficient Large EEG Model Training](eeg-dlite_dataset_distillation_for_efficient_large_eeg_model_training.md)
-- [\[AAAI 2026\] CoEvo: Continual Evolution of Symbolic Solutions Using Large Language Models](coevo_continual_evolution_of_symbolic_solutions_using_large_language_models.md)
 
 <!-- RELATED:END -->

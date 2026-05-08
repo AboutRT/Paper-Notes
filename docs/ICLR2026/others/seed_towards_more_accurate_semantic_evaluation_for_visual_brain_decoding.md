@@ -13,7 +13,7 @@ tags:
 - **会议**: ICLR 2026
 - **arXiv**: [2503.06437](https://arxiv.org/abs/2503.06437)
 - **代码**: [https://github.com/Concarne2/SEED](https://github.com/Concarne2/SEED)
-- **领域**: others
+- **领域**: 其他
 - **关键词**: brain decoding, evaluation metrics, fMRI, semantic similarity, visual attention, human evaluation
 
 ## 一句话总结
@@ -134,9 +134,9 @@ $$\text{SEED} = \frac{\text{Object F1} + \text{Cap-Sim} + \overline{\text{EffNet
 
 ## 相关论文
 
-- [\[ECCV 2024\] Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals](../../ECCV2024/others/brain_netflix_scaling_data_to_reconstruct_videos_from_brain_signals.md)
-- [\[ACL 2025\] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks](../../ACL2025/others/self-correction_is_more_than_refinement_a_learning_framework_for_visual_and_lang.md)
-- [\[ACL 2025\] SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](../../ACL2025/others/seoe_semantic_eval.md)
+- [\[NeurIPS 2025\] Zebra: Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding](../../NeurIPS2025/others/zebra_towards_zero-shot_cross-subject_generalization_for_universal_brain_visual_.md)
+- [\[ICLR 2026\] ToProVAR: Efficient Visual Autoregressive Modeling via Tri-Dimensional Entropy-Aware Semantic Analysis and Sparsity Optimization](toprovar_efficient_visual_autoregressive_modeling_via_tri-dimensional_entropy-aw.md)
+- [\[ICLR 2026\] Neuro-Symbolic Decoding of Neural Activity](neuro-symbolic_decoding_of_neural_activity.md)
 - [\[ICLR 2026\] Completing Missing Annotation: Multi-Agent Debate for Accurate and Scalable Relevance Assessment](completing_missing_annotation_multi-agent_debate_for_accurate_and_scalable_relev.md)
 - [\[ICLR 2026\] Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation](revisiting_sharpness-aware_minimization_a_more_faithful_and_effective_implementa.md)
 

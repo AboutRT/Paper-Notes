@@ -5,7 +5,7 @@ description: >-
   [NeurIPS 2025 (Spotlight)][4D Gaussian Splatting] 提出4DGT——一种基于4D高斯的Transformer模型，完全在真实世界单目带位姿视频上训练，以前馈方式在几秒内完成动态场景重建，显著优于同类前馈网络，并达到与优化类方法可比的精度。
 tags:
   - NeurIPS 2025 (Spotlight)
-  - 4D Gaussian Splatting
+  - 其他
   - Transformer
   - 动态场景重建
   - 前馈推理
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025 (Spotlight)  
 **arXiv**: [2506.08015](https://arxiv.org/abs/2506.08015)  
 **代码**: [https://github.com/facebookresearch/4dgt](https://github.com/facebookresearch/4dgt)  
-**领域**: 3D视觉/动态场景重建  
+**领域**: 其他  
 **关键词**: 4D Gaussian Splatting, Transformer, 动态场景重建, 前馈推理, 单目视频  
 
 ## 一句话总结
@@ -138,8 +138,8 @@ tags:
 
 - [\[ACL 2025\] Capacity Matters: A Proof-of-Concept for Transformer Memorization on Real-World Data](../../ACL2025/others/capacity_matters_a_proof-of-concept_for_transformer_memorization_on_real-world_d.md)
 - [\[CVPR 2025\] LATTE-MV: Learning to Anticipate Table Tennis Hits from Monocular Videos](../../CVPR2025/others/latte-mv_learning_to_anticipate_table_tennis_hits_from_monocular_videos.md)
+- [\[CVPR 2025\] Zero-Shot Head Swapping in Real-World Scenarios](../../CVPR2025/others/zero-shot_head_swapping_in_real-world_scenarios.md)
 - [\[NeurIPS 2025\] OrbitZoo: Real Orbital Systems Challenges for Reinforcement Learning](orbitzoo_real_orbital_systems_challenges_for_reinforcement_learning.md)
-- [\[ICML 2025\] Suitability Filter: A Statistical Framework for Classifier Evaluation in Real-World Settings](../../ICML2025/others/suitability_filter_a_statistical_framework_for_classifier_evaluation_in_real-wor.md)
 - [\[NeurIPS 2025\] Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret in Noise-Free Gaussian Process Bandits](gaussian_process_upper_confidence_bound_achieves_nearly-optimal_regret_in_noise-.md)
 
 <!-- RELATED:END -->

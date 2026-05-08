@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.03678](https://arxiv.org/abs/2512.03678)  
-**代码**: https://github.com/LAMDA-Tabular/Tabular-Temporal-Modulation  
+**代码**: [https://github.com/LAMDA-Tabular/Tabular-Temporal-Modulation](https://github.com/LAMDA-Tabular/Tabular-Temporal-Modulation)  
 **领域**: 时间表格学习 / 信号与通信 / 时序分布漂移  
 **关键词**: temporal shift, feature modulation, 概念漂移, Yeo-Johnson, 表格深度学习
 
@@ -273,7 +273,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2512.03678](https://arxiv.org/abs/2512.03678)  
-**代码**: https://github.com/LAMDA-Tabular/Tabular-Temporal-Modulation  
+**代码**: [https://github.com/LAMDA-Tabular/Tabular-Temporal-Modulation](https://github.com/LAMDA-Tabular/Tabular-Temporal-Modulation)  
 **领域**: 信号与通信 / 表格学习  
 **关键词**: 时间分布漂移, 特征调制, Yeo-Johnson变换, 概念漂移, 表格数据
 

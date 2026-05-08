@@ -120,8 +120,8 @@ $\mathcal{L} = \mathcal{L}_{photo} + \lambda_{reg}\mathcal{L}_{continuity} + \la
 
 - [\[NeurIPS 2025\] ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection](recon_region-controllable_data_augmentation_with_rectification_and_alignment_for.md)
 - [\[CVPR 2025\] DEIM: DETR with Improved Matching for Fast Convergence](../../CVPR2025/object_detection/deim_detr_with_improved_matching_for_fast_convergence.md)
-- [\[CVPR 2025\] Image Reconstruction from Readout-Multiplexed Single-Photon Detector Arrays](../../CVPR2025/object_detection/image_reconstruction_from_readout-multiplexed_single-photon_detector_arrays.md)
-- [\[ICCV 2025\] SketchSplat: 3D Edge Reconstruction via Differentiable Multi-view Sketch Splatting](../../ICCV2025/object_detection/sketchsplat_3d_edge_reconstruction_via_differentiable_multi-view_sketch_splattin.md)
-- [\[AAAI 2026\] TRACE: A Generalizable Drift Detector for Streaming Data-Driven Optimization](../../AAAI2026/object_detection/trace_a_generalizable_drift_detector_for_streaming_data-driven_optimization.md)
+- [\[ECCV 2024\] Tensorial Template Matching for Fast Cross-Correlation with Rotations and Its Application for Tomography](../../ECCV2024/object_detection/tensorial_template_matching_for_fast_cross-correlation_with_rotations_and_its_ap.md)
+- [\[AAAI 2026\] TubeRMC: Tube-conditioned Reconstruction with Mutual Constraints for Weakly-supervised Spatio-Temporal Video Grounding](../../AAAI2026/object_detection/tubermc_tube-conditioned_reconstruction_with_mutual_constraints_for_weakly-super.md)
+- [\[NeurIPS 2025\] FlexEvent: Towards Flexible Event-Frame Object Detection at Varying Operational Frequencies](flexevent_towards_flexible_event-frame_object_detection_at_varying_operational_f.md)
 
 <!-- RELATED:END -->

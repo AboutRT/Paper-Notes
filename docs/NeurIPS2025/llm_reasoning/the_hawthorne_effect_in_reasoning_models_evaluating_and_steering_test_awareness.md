@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.14617](https://arxiv.org/abs/2505.14617)  
 **代码**: [microsoft/Test_Awareness_Steering](https://github.com/microsoft/Test_Awareness_Steering)  
-**领域**: ai_safety / llm_reasoning  
+**领域**: LLM推理  
 **关键词**: test awareness, representation engineering, safety evaluation, reasoning models, steering vectors  
 
 ## 一句话总结

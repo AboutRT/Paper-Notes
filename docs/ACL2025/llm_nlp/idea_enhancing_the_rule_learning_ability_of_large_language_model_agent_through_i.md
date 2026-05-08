@@ -18,8 +18,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2408.10455](https://arxiv.org/abs/2408.10455)  
-**代码**: https://github.com/KaiyuHe998/RULEARN_IDEA (有)  
-**领域**: LLM Agent / 推理  
+**代码**: [https://github.com/KaiyuHe998/RULEARN_IDEA](https://github.com/KaiyuHe998/RULEARN_IDEA)  
+**领域**: LLM/NLP  
 **关键词**: 规则学习, 归纳推理, 演绎推理, 溯因推理, 交互环境, benchmark
 
 ## 一句话总结
@@ -146,7 +146,7 @@ RULEARN benchmark 提供 300 个手工谜题环境，IDEA agent 在其中进行�
 - [\[ACL 2025\] Enhancing Character-Level Understanding in LLMs through Token Internal Structure Learning](character_level_understanding.md)
 - [\[ACL 2025\] Disentangling Memory and Reasoning Ability in Large Language Models](disentangle_memory_reasoning.md)
 - [\[ACL 2025\] Revisiting Compositional Generalization Capability of Large Language Models Considering Instruction Following Ability](compositional_generalization_instruction.md)
-- [\[ACL 2025\] MasRouter: Learning to Route LLMs for Multi-Agent Systems](masrouter_learning_to_route_llms_for_multi-agent_systems.md)
 - [\[ACL 2025\] SynapticRAG: Enhancing Temporal Memory Retrieval in Large Language Models through Synaptic Mechanisms](synapticrag_enhancing_temporal_memory_retrieval_in_large_language_models_through.md)
+- [\[ACL 2025\] MathFusion: Enhancing Mathematical Problem-solving of LLM through Instruction Fusion](mathfusion_instruction_fusion.md)
 
 <!-- RELATED:END -->

@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.14343](https://arxiv.org/abs/2405.14343)  
-**代码**: https://github.com/kkkls/EVSSM  
+**代码**: [https://github.com/kkkls/EVSSM](https://github.com/kkkls/EVSSM)  
 **领域**: 图像复原  
 **关键词**: 图像去模糊、状态空间模型、Mamba、频域前馈网络、高效扫描
 
@@ -118,7 +118,7 @@ EVSSM 在所有基准上均取得最佳 PSNR 和 SSIM。在 RealBlur 真实数�
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.14343](https://arxiv.org/abs/2405.14343)  
-**代码**: https://github.com/kkkls/EVSSM  
+**代码**: [https://github.com/kkkls/EVSSM](https://github.com/kkkls/EVSSM)  
 **领域**: 图像复原  
 **关键词**: 图像去模糊、状态空间模型、Mamba、频域FFN、几何变换扫描
 

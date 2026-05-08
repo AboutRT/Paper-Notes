@@ -8,7 +8,7 @@ tags:
   - 语音
   - speech language model
   - continuous latent space
-  - energy distance
+  - 音频语音
   - zero-shot TTS
   - streaming synthesis
 ---
@@ -18,7 +18,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2505.13181](https://arxiv.org/abs/2505.13181)  
 **代码**: [ictnlp/SLED-TTS](https://github.com/ictnlp/SLED-TTS)  
-**领域**: audio_speech  
+**领域**: 音频语音  
 **关键词**: speech language model, continuous latent space, energy distance, zero-shot TTS, streaming synthesis
 
 ## 一句话总结
@@ -147,8 +147,8 @@ SLED 是唯一同时实现单次采样、无后处理和流式推理的连续语
 
 - [\[NeurIPS 2025\] Latent Space Factorization in LoRA](latent_space_factorization_in_lora.md)
 - [\[ICML 2025\] FLAM: Frame-Wise Language-Audio Modeling](../../ICML2025/audio_speech/flam_frame-wise_language-audio_modeling.md)
+- [\[ICCV 2025\] Lyra: An Efficient and Speech-Centric Framework for Omni-Cognition](../../ICCV2025/audio_speech/lyra_an_efficient_and_speech-centric_framework_for_omni-cognition.md)
+- [\[AAAI 2026\] DualSpeechLM: Towards Unified Speech Understanding and Generation via Dual Speech Token Modeling](../../AAAI2026/audio_speech/dualspeechlm_towards_unified_speech_understanding_and_generation_via_dual_speech.md)
 - [\[ICML 2025\] Bridging the Language Gap: Synthetic Voice Diversity via Latent Mixup for Equitable Speech Recognition](../../ICML2025/audio_speech/bridging_the_language_gap_synthetic_voice_diversity_via_latent_mixup_for_equitab.md)
-- [\[NeurIPS 2025\] Multi-head Temporal Latent Attention](multi-head_temporal_latent_attention.md)
-- [\[NeurIPS 2025\] E-BATS: Efficient Backpropagation-Free Test-Time Adaptation for Speech Foundation Models](e-bats_efficient_backpropagation-free_test-time_adaptation_for_speech_foundation.md)
 
 <!-- RELATED:END -->

@@ -19,7 +19,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.23575](https://arxiv.org/abs/2505.23575)  
 **代码**: 基于 Inspect AI 框架  
-**领域**: AI Safety / AI Control  
+**领域**: LLM推理  
 **关键词**: CoT monitoring, AI control, red teaming, trusted monitoring, deceptive alignment, hybrid monitor
 
 ## 一句话总结
@@ -131,8 +131,8 @@ Hybrid 比 action-only 高 21%，比 CoT 高 42%。在 subtle 任务上 catch ra
 
 - [\[NeurIPS 2025\] 笔记1: CoT是幻觉吗？数据分布角度](is_chain-of-thought_reasoning_of_llms_a_mirage_a_data_distribution_lens.md)
 - [\[ACL 2025\] CoT-Valve: Length-Compressible Chain-of-Thought Tuning](../../ACL2025/llm_reasoning/cot-valve_length-compressible_chain-of-thought_tuning.md)
-- [\[CVPR 2025\] CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models](../../CVPR2025/llm_reasoning/cot-vla_visual_chain-of-thought_reasoning_for_vision-language-action_models.md)
 - [\[ACL 2025\] CoT-UQ: Improving Response-wise Uncertainty Quantification in LLMs with Chain-of-Thought](../../ACL2025/llm_reasoning/cot-uq_improving_response-wise_uncertainty_quantification_in_llms_with_chain-of-.md)
+- [\[CVPR 2025\] CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models](../../CVPR2025/llm_reasoning/cot-vla_visual_chain-of-thought_reasoning_for_vision-language-action_models.md)
 - [\[ACL 2025\] CoT-ICL Lab: A Synthetic Framework for Studying Chain-of-Thought Learning from In-Context Demonstrations](../../ACL2025/llm_reasoning/cot-icl_lab_a_synthetic_framework_for_studying_chain-of-thought_learning_from_in.md)
 
 <!-- RELATED:END -->

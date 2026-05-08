@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.23440](https://arxiv.org/abs/2507.23440)  
 **代码**: [有](https://github.com/Mubuky/Self-Foveate)  
-**领域**: NLP / 指令数据合成  
+**领域**: 其他  
 **关键词**: 指令合成, 无监督文本, 多粒度信息提取, 数据多样性, 数据难度
 
 ## 一句话总结
@@ -156,9 +156,9 @@ $$\mathcal{D}_{\text{gen}} = \mathcal{F}(\mathcal{D}) = \bigcup_{d_i \in \mathca
 ## 相关论文
 
 - [\[ACL 2025\] Enhancing the Comprehensibility of Text Explanations via Unsupervised Concept Discovery](enhancing_the_comprehensibility_of_text_explanations_via_unsupervised_concept_di.md)
-- [\[ACL 2025\] STaR-SQL: Self-Taught Reasoner for Text-to-SQL](star-sql_self-taught_reasoner_for_text-to-sql.md)
 - [\[ACL 2025\] From Real to Synthetic: Synthesizing Millions of Diversified and Complicated User Instructions with Attributed Grounding](from_real_to_synthetic_synthesizing_millions_of_diversified_and_complicated_user.md)
 - [\[ACL 2025\] Predicting Implicit Arguments in Procedural Video Instructions](implicit_arguments_video_instructions.md)
-- [\[ACL 2025\] GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning](getreason_enhancing_image_context_extraction_through_hierarchical_multi-agent_re.md)
+- [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
+- [\[ACL 2025\] Towards Text-Image Interleaved Retrieval](towards_text-image_interleaved_retrieval.md)
 
 <!-- RELATED:END -->

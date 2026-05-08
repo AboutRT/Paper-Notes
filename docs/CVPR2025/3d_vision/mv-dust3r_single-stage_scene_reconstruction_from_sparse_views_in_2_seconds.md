@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.06974](https://arxiv.org/abs/2412.06974)  
-**代码**: https://mv-dust3rp.github.io/ (项目页)  
+**代码**: [https://mv-dust3rp.github.io/](https://mv-dust3rp.github.io/) (项目页)  
 **领域**: 3D视觉  
 **关键词**: 多视图重建, 无位姿重建, 前馈网络, 高斯溅射, 新视角合成
 

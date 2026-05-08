@@ -7,7 +7,7 @@ tags:
   - ICML 2025
   - 共形预测
   - 贝叶斯求积
-  - 不确定性量化
+  - 可解释性
   - 概率数值方法
   - 分布无关
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2502.13228](https://arxiv.org/abs/2502.13228)  
 **代码**: 无  
-**领域**: 其他/不确定性量化  
+**领域**: 可解释性  
 **关键词**: 共形预测, 贝叶斯求积, 不确定性量化, 概率数值方法, 分布无关
 
 ## 一句话总结
@@ -146,10 +146,10 @@ tags:
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Interpretable Next-token Prediction via the Generalized Induction Head](../../NeurIPS2025/interpretability/interpretable_next-token_prediction_via_the_generalized_induction_head.md)
 - [\[ICLR 2026\] When Machine Learning Gets Personal: Evaluating Prediction and Explanation](../../ICLR2026/interpretability/when_machine_learning_gets_personal_evaluating_prediction_and_explanation.md)
 - [\[AAAI 2026\] GenePheno: Interpretable Gene Knockout-Induced Phenotype Abnormality Prediction Framework](../../AAAI2026/interpretability/genepheno_interpretable_gene_knockout-induced_phenotype_abnormality_prediction_f.md)
-- [\[ICML 2025\] Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas](why_is_spatial_reasoning_hard_for_vlms_an_attention_mechanism_perspective_on_foc.md)
-- [\[ICML 2025\] What Makes an Ensemble (Un)interpretable?](what_makes_an_ensemble_un_interpretable.md)
-- [\[ICML 2025\] Concept-Based Unsupervised Domain Adaptation](concept-based_unsupervised_domain_adaptation.md)
+- [\[ICML 2025\] Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups](sum-of-parts_self-attributing_neural_networks_with_end-to-end_learning_of_featur.md)
+- [\[ICML 2025\] Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs](towards_long-horizon_interpretability_efficient_and_faithful_multi-token_attribu.md)
 
 <!-- RELATED:END -->

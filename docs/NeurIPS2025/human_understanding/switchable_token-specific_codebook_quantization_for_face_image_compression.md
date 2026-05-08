@@ -55,13 +55,13 @@ tags:
 
    设计可微分路由网络 $G_\theta$ 进行码本选择。训练时使用概率路由：
 
-   $$G_\theta(\mathbf{z}_e) = \arg\max_{i \in \{1,...,M\}} g_\theta^i(\mathbf{z}_e)$$
+    $G_\theta(\mathbf{z}_e) = \arg\max_{i \in \{1,...,M\}} g_\theta^i(\mathbf{z}_e)$
 
    为确保所有码本被充分利用并避免坍缩，引入三个辅助损失：
 
-   - **熵最大化损失** $\mathcal{L}_{ent}$：强制批次内码本选择分布的熵最大化，防止偏向少数码本
-   - **决策清晰度损失** $\mathcal{L}_{dec}$：降低路由预测的模糊性，集中概率到最优码本
-   - **量化引导损失** $\mathcal{L}_{qua}$：引导路由器选择产生更低量化误差的码本
+    - **熵最大化损失** $\mathcal{L}_{ent}$：强制批次内码本选择分布的熵最大化，防止偏向少数码本
+    - **决策清晰度损失** $\mathcal{L}_{dec}$：降低路由预测的模糊性，集中概率到最优码本
+    - **量化引导损失** $\mathcal{L}_{qua}$：引导路由器选择产生更低量化误差的码本
 
    路由总损失：$\mathcal{L}_{router} = \mathcal{L}_{qua} + \lambda_1\mathcal{L}_{ent} + \lambda_2\mathcal{L}_{dec}$
 
@@ -71,7 +71,7 @@ tags:
 
    将每个码本组进一步分解为token级子码本：
 
-   $$\mathcal{C}_{tsc} = [\mathcal{C}_1 \oplus \mathcal{C}_2 \oplus \cdots \oplus \mathcal{C}_T] \in \mathbb{R}^{T \times K \times d}$$
+    $\mathcal{C}_{tsc} = [\mathcal{C}_1 \oplus \mathcal{C}_2 \oplus \cdots \oplus \mathcal{C}_T] \in \mathbb{R}^{T \times K \times d}$
 
    每个子码本 $\mathcal{C}_t$ 独立学习第 $t$ 个token的特征分布。虽然总码本大小增加（$T \times K$ vs $K$），但每个token的比特宽度保持不变（$b = \lceil\log_2 K\rceil$）。通过专属子码本在各token的特征子空间内实现更高的采样密度，直接提升重建保真度。
 
@@ -148,10 +148,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Recurrent Attention-based Token Selection for Efficient Streaming Video-LLMs](recurrent_attention-based_token_selection_for_efficient_streaming_video-llms.md)
 - [\[ECCV 2024\] Towards Unified Representation of Invariant-Specific Features in Missing Modality Face Anti-Spoofing](../../ECCV2024/human_understanding/towards_unified_representation_of_invariant-specific_features_in_missing_modalit.md)
-- [\[NeurIPS 2025\] FACE: A General Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens](face_a_general_framework_for_mapping_collaborative_filtering_embeddings_into_llm.md)
-- [\[NeurIPS 2025\] Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-modal Assistants](face-human-bench_a_comprehensive_benchmark_of_face_and_human_understanding_for_m.md)
-- [\[NeurIPS 2025\] Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video](node-based_editing_for_multimodal_generation_of_text_audio_image_and_video.md)
+- [\[NeurIPS 2025\] VASA-3D: Lifelike Audio-Driven Gaussian Head Avatars from a Single Image](vasa-3d_lifelike_audio-driven_gaussian_head_avatars_from_a_single_image.md)
+- [\[NeurIPS 2025\] PandaPose: 3D Human Pose Lifting from a Single Image via Propagating 2D Pose Prior to 3D Anchor Space](pandapose_3d_human_pose_lifting_from_a_single_image_via_propagating_2d_pose_prio.md)
+- [\[ICCV 2025\] GGTalker: Talking Head Synthesis with Generalizable Gaussian Priors and Identity-Specific Adaptation](../../ICCV2025/human_understanding/ggtalker_talking_head_systhesis_with_generalizable_gaussian_priors_and_identity-.md)
+- [\[CVPR 2025\] CryptoFace: End-to-End Encrypted Face Recognition](../../CVPR2025/human_understanding/cryptoface_end-to-end_encrypted_face_recognition.md)
 
 <!-- RELATED:END -->

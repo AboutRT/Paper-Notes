@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2402.12712](https://arxiv.org/abs/2402.12712)  
-**代码**: https://github.com/MVDiffusion/MVDiffusion-plusplus  
+**代码**: [https://github.com/MVDiffusion/MVDiffusion-plusplus](https://github.com/MVDiffusion/MVDiffusion-plusplus)  
 **领域**: 3D视觉  
 **关键词**: 多视图扩散模型, 三维重建, 新视角合成, 无位姿架构, 视图丢弃策略
 
@@ -141,6 +141,6 @@ MVDiffusion++提出了一种无需相机位姿的多视图潜在扩散模型，�
 - [\[ECCV 2024\] MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images](mvsplat_efficient_3d_gaussian_splatting_from_sparse_multi-view_images.md)
 - [\[ECCV 2024\] SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](sv3d_novel_multi-view_synthesis_and_3d_generation_from_a_single_image_using_late.md)
 - [\[ECCV 2024\] CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization](cor-gs_sparse-view_3d_gaussian_splatting_via_co-regularization.md)
-- [\[ECCV 2024\] MVDD: Multi-View Depth Diffusion Models](mvdd_multi-view_depth_diffusion_models.md)
+- [\[ECCV 2024\] Analysis-by-Synthesis Transformer for Single-View 3D Reconstruction](analysis-by-synthesis_transformer_for_single-view_3d_reconstruction.md)
 
 <!-- RELATED:END -->

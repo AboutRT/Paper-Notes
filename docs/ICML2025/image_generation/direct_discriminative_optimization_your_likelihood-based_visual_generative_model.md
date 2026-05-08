@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2503.01103](https://arxiv.org/abs/2503.01103)  
-**代码**: https://research.nvidia.com/labs/dir/ddo/ (有)  
+**代码**: [https://research.nvidia.com/labs/dir/ddo/](https://research.nvidia.com/labs/dir/ddo/)  
 **领域**: Image Generation  
 **关键词**: 生成模型微调, GAN判别器, 似然比参数化, 扩散模型, 自回归模型
 
@@ -166,7 +166,7 @@ DDO 的 pipeline 非常简洁：
 - [\[ICML 2025\] Discriminative Policy Optimization for Token-Level Reward Models](discriminative_policy_optimization_for_token-level_reward_models.md)
 - [\[CVPR 2025\] Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?](../../CVPR2025/image_generation/training_data_provenance_verification_did_your_model_use_synthetic_data_from_my_.md)
 - [\[ICML 2025\] PPO-MI: Efficient Black-Box Model Inversion via Proximal Policy Optimization](ppo-mi_efficient_black-box_model_inversion_via_proximal_policy_optimization.md)
-- [\[ICML 2025\] BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling](bridge_bootstrapping_text_to_control_time-series_generation_via_multi-agent_iter.md)
 - [\[ICML 2025\] GRAM: A Generative Foundation Reward Model for Reward Generalization](gram_a_generative_foundation_reward_model_for_reward_generalization.md)
+- [\[ICML 2025\] BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling](bridge_bootstrapping_text_to_control_time-series_generation_via_multi-agent_iter.md)
 
 <!-- RELATED:END -->

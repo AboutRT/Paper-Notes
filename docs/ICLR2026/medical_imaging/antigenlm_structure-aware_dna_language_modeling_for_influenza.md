@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.09067](https://arxiv.org/abs/2602.09067)  
-**代码**: [https://github.com/peilab-cnic/AntigenLM](https://github.com/peilab-cnic/AntigenLM) (有)  
+**代码**: [https://github.com/peilab-cnic/AntigenLM](https://github.com/peilab-cnic/AntigenLM)  
 **领域**: 生物序列生成 / DNA语言模型  
 **关键词**: DNA语言模型, 流感病毒预测, 功能单元编码, 全基因组建模, 疫苗设计  
 

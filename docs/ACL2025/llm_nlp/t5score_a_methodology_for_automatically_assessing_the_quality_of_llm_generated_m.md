@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2407.17390](https://arxiv.org/abs/2407.17390)  
 **代码**: [GitHub](https://github.com/itamartrainin/Tpower5Score)  
-**领域**: llm_nlp  
+**领域**: LLM/NLP  
 **关键词**: 主题提取评估, 自由文本主题, LLM-as-Judge, 标注者一致性, 多文档分析
 
 ## 一句话总结
@@ -123,10 +123,10 @@ tags:
 
 ## 相关论文
 
-- [\[ACL 2025\] Neural Topic Modeling with Large Language Models in the Loop](neural_topic_modeling_with_large_language_models_in_the_loop.md)
+- [\[ACL 2025\] Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs](event_graph_bias_mitigation_summarization.md)
 - [\[ACL 2025\] Training-free LLM Merging for Multi-task Learning](training-free_llm_merging_for_multi-task_learning.md)
 - [\[ACL 2025\] SkillVerse: Assessing and Enhancing LLMs with Tree Evaluation](skillverse_tree_eval.md)
+- [\[ACL 2025\] Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting](dolphin_document_image_parsing_via_heterogeneous_anchor_prompting.md)
 - [\[ACL 2025\] Aligning Large Language Models with Implicit Preferences from User-Generated Content](pugc_align_implicit_pref_ugc.md)
-- [\[ACL 2025\] Assessing the Vulnerability of LLMs to Cognitive Biases in Scientific Research](assessing_the_vulnerability_of_llms_to_cognitive_biases_in_scientific_research.md)
 
 <!-- RELATED:END -->

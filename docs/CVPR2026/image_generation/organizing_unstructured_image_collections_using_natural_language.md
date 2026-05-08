@@ -17,8 +17,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2410.05217](https://arxiv.org/abs/2410.05217)  
-**代码**: https://oatmealliu.github.io/xcluster.html (有)  
-**领域**: 多模态VLM / 图像聚类  
+**代码**: [https://oatmealliu.github.io/xcluster.html](https://oatmealliu.github.io/xcluster.html)  
+**领域**: 图像生成  
 **关键词**: 开放式语义多聚类, 图像组织, 自然语言, 大语言模型, 多粒度聚类
 
 ## 一句话总结

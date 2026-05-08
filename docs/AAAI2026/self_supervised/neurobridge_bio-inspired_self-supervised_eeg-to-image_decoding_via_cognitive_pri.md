@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2511.06836](https://arxiv.org/abs/2511.06836)  
 **作者**: Wenjiang Zhang, Sifeng Wang, Yuwei Su, Xinyu Li, Chen Zhang, Suyu Zhong  
 **代码**: [GitHub](https://github.com/feroooooo/NeuroBridge)  
-**领域**: self_supervised  
+**领域**: 自监督  
 **关键词**: EEG解码, 跨模态对比学习, 认知先验增强, 共享语义投影, 零样本检索, 脑机接口  
 
 ## 一句话总结

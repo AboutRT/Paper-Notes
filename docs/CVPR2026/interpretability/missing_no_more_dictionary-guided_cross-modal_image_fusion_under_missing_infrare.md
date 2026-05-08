@@ -8,7 +8,7 @@ tags:
   - 红外-可见光融合
   - 缺失模态
   - 卷积字典学习
-  - 系数域推理
+  - 可解释性
   - 大语言模型先验
 ---
 
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.08018](https://arxiv.org/abs/2603.08018)  
-**代码**: https://github.com/harukiv/DCMIF (有)  
-**领域**: 自监督学习  
+**代码**: [https://github.com/harukiv/DCMIF](https://github.com/harukiv/DCMIF)  
+**领域**: 可解释性  
 **关键词**: 红外-可见光融合, 缺失模态, 卷积字典学习, 系数域推理, 大语言模型先验
 
 ## 一句话总结
@@ -134,8 +134,8 @@ tags:
 
 - [\[CVPR 2026\] Neurodynamics-Driven Coupled Neural P Systems for Multi-Focus Image Fusion](neurodynamics-driven_coupled_neural_p_systems_for_multi-focus_image_fusion.md)
 - [\[ICLR 2026\] Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings](../../ICLR2026/interpretability/cross-modal_redundancy_and_the_geometry_of_vision-language_embeddings.md)
-- [\[CVPR 2026\] On the Possible Detectability of Image-in-Image Steganography](on_the_possible_detectability_of_image-in-image_steganography.md)
 - [\[CVPR 2026\] Geometry-Guided Camera Motion Understanding in VideoLLMs](geometry-guided_camera_motion_understanding_in_videollms.md)
-- [\[CVPR 2026\] FINER: MLLMs Hallucinate under Fine-grained Negative Queries](finer_mllms_hallucinate_under_fine-grained_negative_queries.md)
+- [\[CVPR 2026\] On the Possible Detectability of Image-in-Image Steganography](on_the_possible_detectability_of_image-in-image_steganography.md)
+- [\[ICML 2025\] A Cross Modal Knowledge Distillation & Data Augmentation Recipe for Improving Transcriptomics Representations through Morphological Features](../../ICML2025/interpretability/a_cross_modal_knowledge_distillation_data_augmentation_recipe_for_improving_tran.md)
 
 <!-- RELATED:END -->

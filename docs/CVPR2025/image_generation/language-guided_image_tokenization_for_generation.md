@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.05796](https://arxiv.org/abs/2412.05796)  
-**代码**: https://kaiwenzha.github.io/textok/ (项目页)  
+**代码**: [https://kaiwenzha.github.io/textok/](https://kaiwenzha.github.io/textok/) (项目页)  
 **领域**: 图像生成 / 扩散模型  
 **关键词**: 图像分词, 文本条件, 图像压缩, 扩散Transformer, 高效生成
 

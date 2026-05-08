@@ -5,7 +5,7 @@ description: >-
   [CVPR 2025][domain generalization] 提出TIDE框架，通过LLM和扩散模型自动生成概念级显著性标注，训练模型关注局部领域不变概念而非全局特征，并在测试时利用概念签名迭代修正错误预测，在四个SSDG基准上平均超越SOTA 12%。
 tags:
   - CVPR 2025
-  - domain generalization
+  - 可解释性
   - concept-level learning
   - test-time correction
   - saliency alignment
@@ -107,9 +107,9 @@ L = L_c(类别交叉熵) + L_k(概念交叉熵) + L_CSA(概念显著性对齐, L
 ## 相关论文
 
 - [\[CVPR 2025\] Scaling Vision Pre-Training to 4K Resolution](scaling_vision_pre-training_to_4k_resolution.md)
-- [\[CVPR 2025\] Differentiable Inverse Rendering with Interpretable Basis BRDFs](differentiable_inverse_rendering_with_interpretable_basis_brdfs.md)
 - [\[CVPR 2025\] Interpretable Image Classification via Non-parametric Part Prototype Learning](interpretable_image_classification_via_non-parametric_part_prototype_learning.md)
 - [\[CVPR 2025\] Prompt-CAM: Making Vision Transformers Interpretable for Fine-Grained Analysis](prompt-cam_making_vision_transformers_interpretable_for_fine-grained_analysis.md)
 - [\[CVPR 2025\] Towards Faithful Multimodal Concept Bottleneck Models](towards_faithful_multimodal_concept_bottleneck_models.md)
+- [\[CVPR 2025\] Towards Human-Understandable Multi-Dimensional Concept Discovery](towards_human-understandable_multi-dimensional_concept_discovery.md)
 
 <!-- RELATED:END -->

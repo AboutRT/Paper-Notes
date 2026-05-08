@@ -12,7 +12,7 @@ tags:
 - **会议**: ACL 2025
 - **arXiv**: [2505.12859](https://arxiv.org/abs/2505.12859)
 - **代码**: 未开源
-- **领域**: NLP 隐私与安全 / 文本去标识化
+- **领域**: 其他
 - **关键词**: 去标识化, 重标识攻击, RAG, 文本填充, 隐私保护, ColBERT
 
 ## 一句话总结
@@ -113,10 +113,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] Adaptive High-Frequency Transformer for Diverse Wildlife Re-Identification](../../ECCV2024/others/adaptive_highfrequency_transformer_for_diverse_wildlife_reid.md)
 - [\[CVPR 2025\] SDF-Net: Structure-Aware Disentangled Feature Learning for Optical–SAR Ship Re-Identification](../../CVPR2025/others/sdf-net_structure-aware_disentangled_feature_learning_for_opticall-sar_ship_re-i.md)
 - [\[ACL 2025\] Infogen: Generating Complex Statistical Infographics from Documents](infogen_generating_complex_statistical_infographics_from_documents.md)
 - [\[ACL 2025\] Advancing Sequential Numerical Prediction in Autoregressive Models](advancing_sequential_numerical_prediction_in_autoregressive_models.md)
+- [\[ECCV 2024\] De-confounded Gaze Estimation](../../ECCV2024/others/de-confounded_gaze_estimation.md)
 - [\[ACL 2025\] Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? Revisiting a Petroglyph](why_are_positional_encodings_nonessential_for_deep_autoregressive_transformers_r.md)
 
 <!-- RELATED:END -->

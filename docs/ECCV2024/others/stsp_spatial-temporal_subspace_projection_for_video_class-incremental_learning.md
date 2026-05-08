@@ -17,7 +17,7 @@ tags:
 **会议**: ECCV 2024  
 **论文链接**: [ECVA](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4106_ECCV_2024_paper.php)
 **代码**: 无  
-**领域**: 视频理解 / 增量学习  
+**领域**: 其他  
 **关键词**: 视频类增量学习, 子空间投影, 正交约束, 梯度投影, 灾难性遗忘
 
 ## 一句话总结
@@ -122,8 +122,8 @@ STSP的输入是视频帧序列，经过共享的特征提取器（如ResNet/ViT
 
 - [\[ECCV 2024\] An Incremental Unified Framework for Small Defect Inspection](an_incremental_unified_framework_for_small_defect_inspection.md)
 - [\[ECCV 2024\] Rebalancing Using Estimated Class Distribution for Imbalanced Semi-Supervised Learning under Class Distribution Mismatch](rebalancing_using_estimated_class_distribution_for_imbalanced_semi-supervised_le.md)
-- [\[ECCV 2024\] Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection](learning_anomalies_with_normality_prior_for_unsupervised_video_anomaly_detection.md)
 - [\[CVPR 2025\] Task-Agnostic Guided Feature Expansion for Class-Incremental Learning](../../CVPR2025/others/task-agnostic_guided_feature_expansion_for_class-incremental_learning.md)
+- [\[ECCV 2024\] Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection](learning_anomalies_with_normality_prior_for_unsupervised_video_anomaly_detection.md)
 - [\[ECCV 2024\] ABC Easy as 123: A Blind Counter for Exemplar-Free Multi-Class Class-Agnostic Counting](abc_easy_as_123_a_blind_counter_for_exemplar-free_multi-class_class-agnostic_cou.md)
 
 <!-- RELATED:END -->

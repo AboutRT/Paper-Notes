@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2506.06808](https://arxiv.org/abs/2506.06808)  
-**代码**: https://osf.io/r6xns/  
+**代码**: [https://osf.io/r6xns/](https://osf.io/r6xns/)  
 **领域**: LLM / NLP理解  
 **关键词**: 事件可能性、语义相关性、语言模型预测、常识推理、最小对
 
@@ -131,6 +131,6 @@ tags:
 - [\[AAAI 2026\] Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging](../../AAAI2026/llm_nlp/do_not_merge_my_model_safeguarding_open-source_llms_against_unauthorized_model_m.md)
 - [\[ACL 2025\] Can Language Models Replace Programmers for Coding? RepoCod Says 'Not Yet'](can_language_models_replace_programmers_for_coding_repocod_says_not_yet.md)
 - [\[ACL 2025\] Safer or Luckier? LLMs as Safety Evaluators Are Not Robust to Artifacts](safer_or_luckier_llms_as_safety_evaluators_are_not_robust_to_artifacts.md)
-- [\[ACL 2025\] Wait, that's not an option: LLMs Robustness with Incorrect Multiple-Choice Options](llm_robustness_incorrect_mcq.md)
+- [\[ACL 2025\] To Code or not to Code? Adaptive Tool Integration for Math Language Models via Expectation-Maximization](to_code_or_not_to_code_adaptive_tool_integration_for_math_language_models_via_ex.md)
 
 <!-- RELATED:END -->

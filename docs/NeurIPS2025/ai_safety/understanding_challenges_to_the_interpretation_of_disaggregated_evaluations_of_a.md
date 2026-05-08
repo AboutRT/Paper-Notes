@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.04193](https://arxiv.org/abs/2506.04193)  
 **代码**: [GitHub](https://github.com/google-research/google-research/tree/master/causal_evaluation)  
-**领域**: ai_safety  
+**领域**: AI安全  
 **关键词**: algorithmic fairness, disaggregated evaluation, causal inference, distribution shift, subgroup performance
 
 ## 一句话总结

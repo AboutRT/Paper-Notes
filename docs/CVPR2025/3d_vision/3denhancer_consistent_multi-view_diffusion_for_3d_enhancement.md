@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.18565](https://arxiv.org/abs/2412.18565)  
-**代码**: https://github.com/yihangluo/3DEnhancer  
+**代码**: [https://github.com/yihangluo/3DEnhancer](https://github.com/yihangluo/3DEnhancer)  
 **领域**: 3D视觉 / 神经渲染  
 **关键词**: 多视图扩散, 3D增强, 视图一致性, 极线聚合, 纹理细化
 

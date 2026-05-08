@@ -46,35 +46,35 @@ MoEMeta包含三个核心组件：(1) 注意力邻居聚合增强实体表示；
 1. **注意力邻居聚合**：利用一阶邻居的关系和实体信息增强目标实体表示
 
    对实体 $e$ 的邻居元组 $(r_i, e'_i)$，先拼接并变换：
-   $$\mathbf{c}'_i = \text{ReLU}(\mathbf{W} \mathbf{c}_i)$$
+    $\mathbf{c}'_i = \text{ReLU}(\mathbf{W} \mathbf{c}_i)$
    
    通过sigmoid门控选择信息性邻居：
-   $$g_i = \sigma(\bm{\beta}^T \mathbf{c}'_i)$$
+    $g_i = \sigma(\bm{\beta}^T \mathbf{c}'_i)$
    
    加权聚合后与实体自身嵌入相加：
-   $$\mathbf{e} = \text{Aggregate}(\{g_i \cdot \mathbf{c}'_i\}_{i=1}^n) + \mathbf{e}$$
+    $\mathbf{e} = \text{Aggregate}(\{g_i \cdot \mathbf{c}'_i\}_{i=1}^n) + \mathbf{e}$
    
    设计动机：KG中实体的含义高度依赖其关系上下文，邻居聚合可以提供更丰富的实体表示。
 
 2. **MoE元知识学习**：通过全局共享的稀疏MoE学习可组合的关系原型
 
    对每个支持三元组，门控网络计算每个专家的相关性分数：
-   $$s_{i,j} = \text{softmax}(\text{Gate}(\mathbf{h}_i, \mathbf{t}_i; \bm{\theta}_g))$$
+    $s_{i,j} = \text{softmax}(\text{Gate}(\mathbf{h}_i, \mathbf{t}_i; \bm{\theta}_g))$
    
    选择Top-N个专家加权组合生成关系表示：
-   $$\mathbf{r}_i = \frac{1}{N} \sum_{j=1}^{M} g_{i,j} f_j(\mathbf{h}_i, \mathbf{t}_i; \bm{\theta}_j)$$
+    $\mathbf{r}_i = \frac{1}{N} \sum_{j=1}^{M} g_{i,j} f_j(\mathbf{h}_i, \mathbf{t}_i; \bm{\theta}_j)$
    
    最终关系元为所有支持三元组关系表示的均值：
-   $$\mathbf{R}_{\mathcal{T}_r} = \frac{1}{K} \sum_{i=1}^{K} \mathbf{r}_i$$
+    $\mathbf{R}_{\mathcal{T}_r} = \frac{1}{K} \sum_{i=1}^{K} \mathbf{r}_i$
    
    设计动机：不同关系可由相同"关系构建块"（专家）的不同组合表示，稀疏激活使专家专门化，类似关系自然选择相似的专家子集。
 
 3. **任务定制局部适应**：通过可学习投影向量将嵌入投射到任务特定子空间
 
    为每个任务维护三个投影向量 $\mathbf{p}_h, \mathbf{p}_r, \mathbf{p}_t$，利用关系元进行调制：
-   $$\mathbf{h}'_i = \mathbf{h}_i + (\mathbf{p}_h^\top \mathbf{R}_{\mathcal{T}_r}) \cdot \mathbf{R}_{\mathcal{T}_r}$$
-   $$\mathbf{R}'_{\mathcal{T}_r} = \mathbf{R}_{\mathcal{T}_r} + (\mathbf{p}_r^\top \mathbf{R}_{\mathcal{T}_r}) \cdot \mathbf{R}_{\mathcal{T}_r}$$
-   $$\mathbf{t}'_i = \mathbf{t}_i + (\mathbf{p}_t^\top \mathbf{R}_{\mathcal{T}_r}) \cdot \mathbf{R}_{\mathcal{T}_r}$$
+    $\mathbf{h}'_i = \mathbf{h}_i + (\mathbf{p}_h^\top \mathbf{R}_{\mathcal{T}_r}) \cdot \mathbf{R}_{\mathcal{T}_r}$
+    $\mathbf{R}'_{\mathcal{T}_r} = \mathbf{R}_{\mathcal{T}_r} + (\mathbf{p}_r^\top \mathbf{R}_{\mathcal{T}_r}) \cdot \mathbf{R}_{\mathcal{T}_r}$
+    $\mathbf{t}'_i = \mathbf{t}_i + (\mathbf{p}_t^\top \mathbf{R}_{\mathcal{T}_r}) \cdot \mathbf{R}_{\mathcal{T}_r}$
    
    设计动机：受TransD启发，每个任务的关系约束不同，投影向量以极低参数量实现嵌入空间的任务特定偏移，避免过参数化。
 
@@ -158,6 +158,6 @@ $$\mathcal{L}(\mathcal{S}_r) = \sum_{(h_i,r,t_i) \in \mathcal{S}_r} \max\{0, \te
 - [\[NeurIPS 2025\] Moscat: Mixture of Scope Experts at Test for Generalizing Deeper GNNs](mixture_of_scope_experts_at_test_generalizing_deeper_graph_neural_networks_with_.md)
 - [\[NeurIPS 2025\] PKD: Preference-driven Knowledge Distillation for Few-shot Node Classification](preference-driven_knowledge_distillation_for_few-shot_node_classification.md)
 - [\[ICLR 2026\] Relatron: Automating Relational Machine Learning over Relational Databases](../../ICLR2026/graph_learning/relatron_automating_relational_machine_learning_over_relational_databases.md)
-- [\[NeurIPS 2025\] Inductive Transfer Learning for Graph-Based Recommenders](inductive_transfer_learning_for_graph-based_recommenders.md)
+- [\[NeurIPS 2025\] Learning Repetition-Invariant Representations for Polymer Informatics](learning_repetition-invariant_representations_for_polymer_informatics.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Uncertainty Estimation by Flexible Evidential Deep Learning
 description: >-
-  [NeurIPS 2025][不确定性量化] 提出 $\mathcal{F}$-EDL，通过将 EDL 中的 Dirichlet 分布推广为 Flexible Dirichlet (FD) 分布来建模类别概率分布，从而在保持单次前向传播效率的同时，显著增强不确定性估计在噪声、长尾、分布偏移等复杂场景下的泛化能力。
+  [NeurIPS 2025][其他] 提出 $\mathcal{F}$-EDL，通过将 EDL 中的 Dirichlet 分布推广为 Flexible Dirichlet (FD) 分布来建模类别概率分布，从而在保持单次前向传播效率的同时，显著增强不确定性估计在噪声、长尾、分布偏移等复杂场景下的泛化能力。
 tags:
   - NeurIPS 2025
-  - 不确定性量化
+  - 其他
   - 证据深度学习
   - Flexible Dirichlet分布
   - OOD检测
@@ -128,10 +128,10 @@ $$\mathcal{L} = \mathbb{E}_{\boldsymbol{\pi} \sim \text{FD}} [\|\mathbf{y} - \bo
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Deep Learning for Continuous-Time Stochastic Control with Jumps](deep_learning_for_continuous-time_stochastic_control_with_jumps.md)
+- [\[NeurIPS 2025\] Learning Dense Hand Contact Estimation from Imbalanced Data](learning_dense_hand_contact_estimation_from_imbalanced_data.md)
 - [\[NeurIPS 2025\] Position: There Is No Free Bayesian Uncertainty Quantification](position_there_is_no_free_bayesian_uncertainty_quantification.md)
-- [\[NeurIPS 2025\] Deep Legendre Transform](deep_legendre_transform.md)
-- [\[NeurIPS 2025\] Active Measurement: Efficient Estimation at Scale](active_measurement_efficient_estimation_at_scale.md)
 - [\[NeurIPS 2025\] Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics](uncertainty_quantification_for_reduced-order_surrogate_models_applied_to_cloud_m.md)
-- [\[ECCV 2024\] Bidirectional Uncertainty-Based Active Learning for Open-Set Annotation](../../ECCV2024/others/bidirectional_uncertainty-based_active_learning_for_open-set_annotation.md)
+- [\[NeurIPS 2025\] Deep Legendre Transform](deep_legendre_transform.md)
 
 <!-- RELATED:END -->

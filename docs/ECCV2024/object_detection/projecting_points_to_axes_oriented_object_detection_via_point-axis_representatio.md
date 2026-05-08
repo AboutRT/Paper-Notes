@@ -58,7 +58,7 @@ Point-Axis 表示将每个旋转目标 $i$ 定义为：
 
    用于监督点集学习，无需显式关键点标注。对于预测点集 $\hat{\mathcal{P}}_i$，先转为相对中心的向量 $\hat{\mathcal{V}}_i$，然后将每个向量投影到 GT 边界向量 $\mathcal{V}_i$ 上，选择最大投影值进行优化：
 
-   $$\text{minimize} \sum_{j=1}^{4} \left| \max_{m=1,...,K-1} \frac{(\hat{v}_i^m - v_i^j) \cdot v_i^j}{\|v_i^j\|} \right| + \|\hat{v}_i^K\|$$
+    $\text{minimize} \sum_{j=1}^{4} \left| \max_{m=1,...,K-1} \frac{(\hat{v}_i^m - v_i^j) \cdot v_i^j}{\|v_i^j\|} \right| + \|\hat{v}_i^K\|$
 
    设计动机：仅约束每个方向的最大投影值而不约束非最大值，减少优化方向歧义，增强点集描述的灵活性。实验表明添加额外惩罚项（penalty 或 top-k）反而降低精度。
 
@@ -66,7 +66,7 @@ Point-Axis 表示将每个旋转目标 $i$ 定义为：
 
    用于轴表示学习。将方向离散为 $N_{bins} = 360$ 个 bins，用交叉熵损失监督：
 
-   $$\text{minimize} \frac{1}{N_{bins}} \sum_{j=1}^{N_{bins}} [\mathcal{A}_i^j \log \hat{\mathcal{A}}_i^j + (1-\mathcal{A}_i^j) \log(1-\hat{\mathcal{A}}_i^j)]$$
+    $\text{minimize} \frac{1}{N_{bins}} \sum_{j=1}^{N_{bins}} [\mathcal{A}_i^j \log \hat{\mathcal{A}}_i^j + (1-\mathcal{A}_i^j) \log(1-\hat{\mathcal{A}}_i^j)]$
 
    推理时取 argmax 获得主方向，再间隔 90° 扩展为四个方向。对于缺乏明确方向定义的目标（如某些游泳池），模型仍能学到覆盖所有可能方向的分布。
 
@@ -74,9 +74,9 @@ Point-Axis 表示将每个旋转目标 $i$ 定义为：
 
    基于 DETR 框架的端到端检测模型，包含三个核心模块：
 
-   - **Object-to-Point Query Conversion**：将每个物体查询 $Q_o^i$ 转换为 $K$ 个点查询。中心点查询通过 MLP 预测相对参考点的偏移；边界点查询通过极坐标系预测各方向的距离
-   - **Points Detection Decoder**：包含 Point-to-Point Attention（组内自注意力，同一实例的 $K$ 个点交互）和 Object-to-Object Attention（提取各实例中心点进行跨实例交互），避免不同实例点查询间的歧义交互
-   - **Prediction Head**：每个点查询映射为 2D 坐标，类别和轴表示从所有条件化点查询中预测
+    - **Object-to-Point Query Conversion**：将每个物体查询 $Q_o^i$ 转换为 $K$ 个点查询。中心点查询通过 MLP 预测相对参考点的偏移；边界点查询通过极坐标系预测各方向的距离
+    - **Points Detection Decoder**：包含 Point-to-Point Attention（组内自注意力，同一实例的 $K$ 个点交互）和 Object-to-Object Attention（提取各实例中心点进行跨实例交互），避免不同实例点查询间的歧义交互
+    - **Prediction Head**：每个点查询映射为 2D 坐标，类别和轴表示从所有条件化点查询中预测
 
 ### 损失函数 / 训练策略
 
@@ -181,10 +181,10 @@ $$\mathcal{L} = \frac{1}{N} \sum_{i=1}^{N} (\lambda_1 \mathcal{L}_{proj} + \lamb
 
 ## 相关论文
 
-- [\[ECCV 2024\] TAPTR: Tracking Any Point with Transformers as Detection](taptr_tracking_any_point_with_transformers_as_detection.md)
-- [\[ECCV 2024\] MutDet: Mutually Optimizing Pre-training for Remote Sensing Object Detection](mutdet_mutually_optimizing_pre-training_for_remote_sensing_object_detection.md)
+- [\[ECCV 2024\] Stepwise Multi-grained Boundary Detector for Point-Supervised Temporal Action Localization](stepwise_multi-grained_boundary_detector_for_point-supervised_temporal_action_lo.md)
 - [\[CVPR 2026\] Fourier Angle Alignment for Oriented Object Detection in Remote Sensing](../../CVPR2026/object_detection/fourier_angle_alignment_for_oriented_object_detection_in_remote_sensing.md)
 - [\[ICLR 2026\] SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection](../../ICLR2026/object_detection/spwood_sparse_partial_weakly-supervised_oriented_object_detection.md)
-- [\[ECCV 2024\] Stepwise Multi-grained Boundary Detector for Point-Supervised Temporal Action Localization](stepwise_multi-grained_boundary_detector_for_point-supervised_temporal_action_lo.md)
+- [\[ECCV 2024\] MutDet: Mutually Optimizing Pre-training for Remote Sensing Object Detection](mutdet_mutually_optimizing_pre-training_for_remote_sensing_object_detection.md)
+- [\[ECCV 2024\] GRA: Detecting Oriented Objects Through Group-Wise Rotating and Attention](gra_detecting_oriented_objects_through_group-wise_rotating_and_attention.md)
 
 <!-- RELATED:END -->

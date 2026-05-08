@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2504.14119](https://arxiv.org/abs/2504.14119)  
 **代码**: [Website](https://cuhk-arise.github.io/CodeCrash/)  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: LLM 鲁棒性, 代码推理, 自然语言扰动, 推理崩溃, benchmark
 
 ## 一句话总结

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Does Less Hallucination Mean Less Creativity? An Empirical Investigation in LLMs
 description: >-
-  [AAAI 2026][幻觉缓解] 系统研究三种幻觉缓解方法（CoVe、DoLa、RAG）对LLM创造力的影响，发现它们对发散性创造力有截然相反的效果——CoVe增强、DoLa抑制、RAG无影响——而收敛性创造力基本不受影响，这一规律跨模型家族和参数规模一致成立。
+  [AAAI 2026][信息检索] 系统研究三种幻觉缓解方法（CoVe、DoLa、RAG）对LLM创造力的影响，发现它们对发散性创造力有截然相反的效果——CoVe增强、DoLa抑制、RAG无影响——而收敛性创造力基本不受影响，这一规律跨模型家族和参数规模一致成立。
 tags:
   - AAAI 2026
-  - 幻觉缓解
+  - 信息检索
   - 创造力
   - LLM
   - 发散性思维
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2512.11509](https://arxiv.org/abs/2512.11509)  
 **代码**: 无  
-**领域**: 模型压缩  
+**领域**: 信息检索  
 **关键词**: 幻觉缓解, 创造力, LLM, 发散性思维, 收敛性思维
 
 ## 一句话总结
@@ -180,9 +180,9 @@ $$\text{Difference from Base}(\%) = \frac{M_{\text{method}} - M_{\text{baseline}
 ## 相关论文
 
 - [\[ACL 2025\] DRAG: Distilling RAG for SLMs from LLMs to Transfer Knowledge and Mitigate Hallucination](../../ACL2025/information_retrieval/drag_distilling_rag_slm.md)
-- [\[AAAI 2026\] "As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)
 - [\[ACL 2025\] Removal of Hallucination on Hallucination: Debate-Augmented RAG](../../ACL2025/information_retrieval/removal_of_hallucination_on_hallucination_debate-augmented_rag.md)
-- [\[AAAI 2026\] LLMs for Game Theory: Entropy-Guided In-Context Learning and Adaptive CoT Reasoning](llms_for_game_theory_entropy-guided_in-context_learning_and_adaptive_cot_reasoni.md)
+- [\[AAAI 2026\] "As Eastern Powers, I Will Veto." : An Investigation of Nation-Level Bias of Large Language Models in International Relations](as_eastern_powers_i_will_veto_an_investigation_of_nation-level_bias_of_large_lan.md)
 - [\[AAAI 2026\] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs](n2n-gqa_noise-to-narrative_for_graph-based_table-text_question_answering_using_l.md)
+- [\[AAAI 2026\] SR-KI: Scalable and Real-Time Knowledge Integration into LLMs via Supervised Attention](sr-ki_scalable_and_real-time_knowledge_integration_into_llms_via_supervised_atte.md)
 
 <!-- RELATED:END -->

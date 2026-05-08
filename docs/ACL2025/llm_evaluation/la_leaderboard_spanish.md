@@ -2,10 +2,10 @@
 title: >-
   [论文解读] La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America
 description: >-
-  [ACL 2025][多语言评估] 构建首个面向西班牙和拉丁美洲语言的开源LLM排行榜，整合66个数据集覆盖西班牙语、加泰罗尼亚语、巴斯克语、加利西亚语，评估50个模型并分析训练策略、算力与性能的关系。
+  [ACL 2025][LLM评测] 构建首个面向西班牙和拉丁美洲语言的开源LLM排行榜，整合66个数据集覆盖西班牙语、加泰罗尼亚语、巴斯克语、加利西亚语，评估50个模型并分析训练策略、算力与性能的关系。
 tags:
   - ACL 2025
-  - 多语言评估
+  - LLM评测
   - 西班牙语
   - 排行榜
   - 低资源语言
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2507.00999](https://arxiv.org/abs/2507.00999)  
 **代码**: [https://hf.co/spaces/la-leaderboard/la-leaderboard](https://hf.co/spaces/la-leaderboard/la-leaderboard)  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 多语言评估, 西班牙语, 排行榜, 低资源语言, 社区驱动  
 
 ## 一句话总结
@@ -123,9 +123,9 @@ Top-10排名最频繁的模型（按进入Top-10的任务数排列）：
 ## 相关论文
 
 - [\[ACL 2025\] TUMLU: A Unified and Native Language Understanding Benchmark for Turkic Languages](tumlu_a_unified_and_native_language_understanding_benchmark_for_turkic_languages.md)
-- [\[ACL 2025\] Where Are We? Evaluating LLM Performance on African Languages](where_are_we_evaluating_llm_performance_on_african_languages.md)
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](../../NeurIPS2025/llm_evaluation/bayesian_evaluation_of_large_language_model_behavior.md)
 - [\[ACL 2025\] BESSTIE: A Benchmark for Sentiment and Sarcasm Classification for Varieties of English](besstie_a_benchmark_for_sentiment_and_sarcasm_classification_for_varieties_of_en.md)
+- [\[ACL 2025\] Where Are We? Evaluating LLM Performance on African Languages](where_are_we_evaluating_llm_performance_on_african_languages.md)
 - [\[ACL 2025\] Batayan: A Filipino NLP Benchmark for Evaluating Large Language Models](batayan_a_filipino_nlp_benchmark_for_evaluating_large_language_models.md)
+- [\[ACL 2025\] Language Model Probabilities are Not Calibrated in Numeric Contexts](language_model_probabilities_are_not_calibrated_in_numeric_contexts.md)
 
 <!-- RELATED:END -->

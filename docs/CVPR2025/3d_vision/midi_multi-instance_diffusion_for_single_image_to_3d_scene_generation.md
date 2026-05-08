@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2412.03558](https://arxiv.org/abs/2412.03558)  
-**代码**: https://github.com/huanngzh/MIDI-Page (项目页面)  
+**代码**: [https://github.com/huanngzh/MIDI-Page](https://github.com/huanngzh/MIDI-Page) (项目页面)  
 **领域**: 3D视觉 / 3D场景生成  
 **关键词**: 3D场景生成, 多实例扩散, 单图3D重建, 空间关系, 注意力机制
 

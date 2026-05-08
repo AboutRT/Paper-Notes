@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2506.00582](https://arxiv.org/abs/2506.00582)  
-**代码**: https://github.com/chenjux/AFCE  
+**代码**: [https://github.com/chenjux/AFCE](https://github.com/chenjux/AFCE)  
 **领域**: LLM/NLP, AI 安全  
 **关键词**: 置信度校准, 过度自信, 心理学, 人格偏差, LLM可靠性
 

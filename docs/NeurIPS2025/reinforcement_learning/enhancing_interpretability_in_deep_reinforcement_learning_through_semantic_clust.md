@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Enhancing Interpretability in Deep Reinforcement Learning through Semantic Clustering
 description: >-
-  [NeurIPS 2025][interpretability] 提出语义聚类模块(SCM)，将特征降维网络(FDR)与改进的 VQ-VAE 在线聚类相结合，无缝集成到 DRL 训练流程中，解决了 t-SNE 可视化不稳定的问题，揭示 DRL 内在具有基于语义的动态聚类特性。
+  [NeurIPS 2025][强化学习] 提出语义聚类模块(SCM)，将特征降维网络(FDR)与改进的 VQ-VAE 在线聚类相结合，无缝集成到 DRL 训练流程中，解决了 t-SNE 可视化不稳定的问题，揭示 DRL 内在具有基于语义的动态聚类特性。
 tags:
   - NeurIPS 2025
-  - interpretability
+  - 强化学习
   - semantic clustering
   - VQ-VAE
   - dimensionality reduction
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2409.17411](https://arxiv.org/abs/2409.17411)  
 **代码**: [github.com/ualiangzhang/semantic_rl](https://github.com/ualiangzhang/semantic_rl)  
-**领域**: reinforcement_learning / 可解释性  
+**领域**: 强化学习  
 **关键词**: interpretability, semantic clustering, VQ-VAE, dimensionality reduction, Procgen
 
 ## 一句话总结
@@ -145,10 +145,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Confounding Robust Deep Reinforcement Learning: A Causal Approach](confounding_robust_deep_reinforcement_learning_a_causal_approach.md)
 - [\[NeurIPS 2025\] Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning](improving_retrieval-augmented_generation_through_multi-agent_reinforcement_learn.md)
-- [\[NeurIPS 2025\] Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning](mind_the_gap_the_challenges_of_scale_in_pixel-based_deep_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Learning Human-Like RL Agents through Trajectory Optimization with Action Quantization](learning_human-like_rl_agents_through_trajectory_optimization_with_action_quanti.md)
 - [\[NeurIPS 2025\] STAIR: Addressing Stage Misalignment through Temporal-Aligned Preference Reinforcement Learning](stair_addressing_stage_misalignment_through_temporal-aligned_preference_reinforc.md)
+- [\[NeurIPS 2025\] Time Reversal Symmetry for Efficient Robotic Manipulations in Deep Reinforcement Learning](time_reversal_symmetry_for_efficient_robotic_manipulations_in_deep_reinforcement.md)
+- [\[NeurIPS 2025\] Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning](counteractive_rl_rethinking_core_principles_for_efficient_and_scalable_deep_rein.md)
 
 <!-- RELATED:END -->

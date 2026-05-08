@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.15071](https://arxiv.org/abs/2505.15071)  
 **代码**: [https://github.com/SCUNLP/Buzzword](https://github.com/SCUNLP/Buzzword)  
-**领域**: NLP理解  
+**领域**: LLM/NLP  
 **关键词**: buzzword, definition generation, user-generated content, language acquisition, LLM
 
 ## 一句话总结

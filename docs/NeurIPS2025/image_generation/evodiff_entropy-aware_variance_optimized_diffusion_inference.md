@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.26096](https://arxiv.org/abs/2509.26096)  
 **代码**: [ShiguiLi/EVODiff](https://github.com/ShiguiLi/EVODiff)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 扩散模型, 推理加速, 信息论, 条件熵, 方差优化
 
 ## 一句话总结

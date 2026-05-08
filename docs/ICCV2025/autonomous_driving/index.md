@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 自动驾驶方向100篇论文解读
+  ICCV2025 自动驾驶方向101篇论文解读
 description: >-
-  100篇ICCV2025的自动驾驶方向论文解读，涵盖 3D 高斯渲染、自动驾驶、扩散模型、3D 目标检测、动态场景、点云等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  101篇ICCV2025的自动驾驶方向论文解读，涵盖 3D 高斯渲染、自动驾驶、扩散模型、3D 目标检测、动态场景、点云等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**📹 ICCV2025** · **100** 篇论文解读
+**📹 ICCV2025** · **101** 篇论文解读
 
 **[3D Gaussian Splatting Driven Multi-View Robust Physical Adversarial Camouflage Generation](3d_gaussian_splatting_driven_multi-view_robust_physical_adversarial_camouflage_g.md)**
 
@@ -81,6 +81,14 @@ description: >-
 **[AGO: Adaptive Grounding for Open World 3D Occupancy Prediction](ago_adaptive_grounding_for_open_world_3d_occupancy_predictio.md)**
 
 :   提出AGO框架，通过噪声增强的接地训练(grounding training)处理已知类别 + 模态适配器的自适应对齐处理未知类别，并用基于信息熵的开放世界识别器在推理时动态选择最佳特征，在Occ3D-nuScenes自监督基准上超越VEON 4.09 mIoU，同时具备开放世界零样本/少样本迁移能力。
+
+**[ALOcc: Adaptive Lifting-Based 3D Semantic Occupancy and Cost Volume-Based Flow Predictions](alocc_adaptive_lifting-based_3d_semantic_occupancy_and_cost_volume-based_flow_pr.md)**
+
+:   提出ALOcc框架，通过遮挡感知自适应提升机制、语义原型占用头和BEV代价体积流预测三项创新，在多个3D语义占用和占用流预测基准上取得SOTA，同时提供实时到高精度的多种模型变体。
+
+**[ALOcc: Adaptive Lifting-Based 3D Semantic Occupancy and Cost Volume-Based Flow Predictions](alocc_adaptive_liftingbased_3d_semantic_occupancy_and_cost_v.md)**
+
+:   提出ALOcc框架，通过遮挡感知的自适应提升机制、语义原型对齐和BEV代价体flow预测三个改进，在多个占据预测基准上取得SOTA，同时保持较高推理速度。
 
 **[Beyond One Shot, Beyond One Perspective: Cross-View and Long-Horizon Distillation for Better LiDAR Representations](beyond_one_shot_beyond_one_perspective_cross-view_and_long-horizon_distillation_.md)**
 
@@ -357,10 +365,6 @@ description: >-
 **[SRefiner: Soft-Braid Attention for Multi-Agent Trajectory Refinement](srefiner_soft-braid_attention_for_multi-agent_trajectory_refinement.md)**
 
 :   提出 Soft-Braid Attention，通过"软交叉点"显式建模轨迹间和轨迹与车道间的时空拓扑关系来指导多智能体轨迹精炼，在 Argoverse v2 和 INTERACTION 两个数据集上对四种基线方法均实现显著提升，建立了轨迹精炼任务的新 SOTA。
-
-**[STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?](sti-bench_are_mllms_ready_for_precise_spatial-temporal_world_understanding.md)**
-
-:   提出 STI-Bench，一个评估多模态大语言模型（MLLM）精确时空理解能力的基准，涵盖桌面/室内/户外三大场景、8类静态+动态任务超 2000 道 QA 对，揭示当前最强 MLLM（Gemini-2.5-Pro）平均准确率仅 41.4%，在精确空间量化和时序动态理解上存在根本性不足。
 
 **[TARS: Traffic-Aware Radar Scene Flow Estimation](tars_traffic-aware_radar_scene_flow_estimation.md)**
 

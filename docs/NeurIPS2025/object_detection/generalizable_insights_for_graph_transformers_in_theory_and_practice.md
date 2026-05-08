@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.08028](https://arxiv.org/abs/2511.08028)  
 **代码**: 有  
-**领域**: 图学习 / Graph Transformer  
+**领域**: 目标检测  
 **关键词**: Graph Transformer, GD-WL, 位置编码表达力, few-shot迁移, 大规模评估
 
 ## 一句话总结
@@ -142,10 +142,10 @@ GDT 基于标准 Transformer 编码器层，支持两种 token 化：
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Towards Effective Federated Graph Foundation Model via Mitigating Knowledge Entanglement](towards_effective_federated_graph_foundation_model_via_mitigating_knowledge_enta.md)
 - [\[ICCV 2025\] Adversarial Attention Perturbations for Large Object Detection Transformers](../../ICCV2025/object_detection/adversarial_attention_perturbations_for_large_object_detection_transformers.md)
-- [\[NeurIPS 2025\] Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable](dual_data_alignment_makes_ai-generated_image_detector_easier_generalizable.md)
-- [\[ECCV 2024\] TAPTR: Tracking Any Point with Transformers as Detection](../../ECCV2024/object_detection/taptr_tracking_any_point_with_transformers_as_detection.md)
 - [\[CVPR 2025\] Mr. DETR++: Instructive Multi-Route Training for Detection Transformers with MoE](../../CVPR2025/object_detection/mr_detr_instructive_multi-route_training_for_detection_transformers.md)
+- [\[CVPR 2025\] DiffVsgg: Diffusion-Driven Online Video Scene Graph Generation](../../CVPR2025/object_detection/diffvsgg_diffusion-driven_online_video_scene_graph_generation.md)
+- [\[AAAI 2026\] LampQ: Towards Accurate Layer-wise Mixed Precision Quantization for Vision Transformers](../../AAAI2026/object_detection/lampq_towards_accurate_layer-wise_mixed_precision_quantization_for_vision_transf.md)
+- [\[CVPR 2026\] Toward Generalizable Whole Brain Representations with High-Resolution Light-Sheet Data](../../CVPR2026/object_detection/toward_generalizable_whole_brain_representations_with_high-resolution_light-shee.md)
 
 <!-- RELATED:END -->

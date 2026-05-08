@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.11278](https://arxiv.org/abs/2411.11278)  
-**代码**: https://github.com/jasongief/OV-AVEL (有)  
+**代码**: [https://github.com/jasongief/OV-AVEL](https://github.com/jasongief/OV-AVEL)  
 **领域**: 音频语音 / 多模态  
 **关键词**: 开放词汇, 音视频事件定位, ImageBind, 时序建模, 零样本泛化
 

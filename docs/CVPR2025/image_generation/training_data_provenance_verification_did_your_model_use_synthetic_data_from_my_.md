@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2503.09122](https://arxiv.org/abs/2503.09122)  
 **代码**: [GitHub](https://github.com/xieyc99/TrainProVe)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 数据溯源, 知识产权保护, 扩散模型, 假设检验, 合成数据
 
 ## 一句话总结

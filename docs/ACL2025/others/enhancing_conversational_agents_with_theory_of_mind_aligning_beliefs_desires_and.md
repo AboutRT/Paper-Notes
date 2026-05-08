@@ -7,7 +7,7 @@ tags:
   - ACL 2025 (Findings)
   - Theory of Mind
   - BDI 框架
-  - 对话对齐
+  - 其他
   - LLM 可解释性
   - LatentQA
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2502.14171](https://arxiv.org/abs/2502.14171)  
 **代码**: 有（论文提及代码仓库）  
-**领域**: NLP / 对话系统 / AI 对齐  
+**领域**: 其他  
 **关键词**: Theory of Mind, BDI 框架, 对话对齐, LLM 可解释性, LatentQA
 
 ## 一句话总结
@@ -143,6 +143,6 @@ tags:
 - [\[ACL 2025\] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs](a_practical_approach_for_building_production-grade_conversational_agents_with_wo.md)
 - [\[ACL 2025\] Visual Cues Enhance Predictive Turn-Taking for Two-Party Human Interaction](visual_cues_enhance_predictive_turn-taking_for_two-party_human_interaction.md)
 - [\[ACL 2025\] Enhancing Hyperbole and Metaphor Detection with Their Bidirectional Dynamic Interaction and Emotion Knowledge](hyperbole_metaphor_detection.md)
-- [\[AAAI 2026\] Enhancing Control Policy Smoothness by Aligning Actions with Predictions from Preceding States](../../AAAI2026/others/enhancing_control_policy_smoothness_by_aligning_actions_with_predictions_from_pr.md)
+- [\[ICCV 2025\] SyncDiff: Synchronized Motion Diffusion for Multi-Body Human-Object Interaction Synthesis](../../ICCV2025/others/syncdiff_synchronized_motion_diffusion_for_multi-body_human-object_interaction_s.md)
 
 <!-- RELATED:END -->

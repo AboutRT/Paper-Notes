@@ -2,10 +2,10 @@
 title: >-
   [论文解读] VSRM: A Robust Mamba-Based Framework for Video Super-Resolution
 description: >-
-  [ICCV 2025][视频超分辨率] 首次将 Mamba 引入视频超分辨率任务，提出双聚合 Mamba 模块（DAMB）捕获时空长程依赖、可变形交叉 Mamba 对齐模块（DCA）增强帧间对齐灵活性，以及频域 Charbonnier 损失（FCL）改善高频细节恢复，在 REDS4/Vid4/Vimeo-90K 上取得 SOTA。
+  [ICCV 2025][视频生成] 首次将 Mamba 引入视频超分辨率任务，提出双聚合 Mamba 模块（DAMB）捕获时空长程依赖、可变形交叉 Mamba 对齐模块（DCA）增强帧间对齐灵活性，以及频域 Charbonnier 损失（FCL）改善高频细节恢复，在 REDS4/Vid4/Vimeo-90K 上取得 SOTA。
 tags:
   - ICCV 2025
-  - 视频超分辨率
+  - 视频生成
   - Mamba
   - 状态空间模型
   - 可变形对齐
@@ -17,7 +17,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.22762](https://arxiv.org/abs/2506.22762)  
 **代码**: 无  
-**领域**: Image Restoration / Video Super-Resolution  
+**领域**: 视频生成  
 **关键词**: Video Super-Resolution, Mamba, State Space Model, Deformable Alignment, Frequency Loss
 
 ## 一句话总结
@@ -262,9 +262,9 @@ VSRM 在 REDS4 上比 IART 提升 0.21dB（16帧设置），在 Vid4 上提升 0
 ## 相关论文
 
 - [\[CVPR 2025\] VideoGigaGAN: Towards Detail-rich Video Super-Resolution](../../CVPR2025/video_generation/videogigagan_towards_detail-rich_video_super-resolution.md)
-- [\[CVPR 2025\] PatchVSR: Breaking Video Diffusion Resolution Limits with Patch-Wise Video Super-Resolution](../../CVPR2025/video_generation/patchvsr_breaking_video_diffusion_resolution_limits_with_patch-wise_video_super-.md)
 - [\[CVPR 2026\] Compressed-Domain-Aware Online Video Super-Resolution](../../CVPR2026/video_generation/compressed-domain-aware_online_video_super-resolution.md)
-- [\[CVPR 2025\] BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution](../../CVPR2025/video_generation/bf-stvsr_b-splines_and_fourier---best_friends_for_high_fidelity_spatia.md)
+- [\[CVPR 2025\] PatchVSR: Breaking Video Diffusion Resolution Limits with Patch-Wise Video Super-Resolution](../../CVPR2025/video_generation/patchvsr_breaking_video_diffusion_resolution_limits_with_patch-wise_video_super-.md)
+- [\[ICCV 2025\] FuXi-RTM: A Physics-Guided Prediction Framework with Radiative Transfer Modeling](fuxi-rtm_a_physics-guided_prediction_framework_with_radiative_transfer_modeling.md)
 - [\[ECCV 2024\] Kalman-Inspired Feature Propagation for Video Face Super-Resolution](../../ECCV2024/video_generation/kalman-inspired_feature_propagation_for_video_face_super-resolution.md)
 
 <!-- RELATED:END -->

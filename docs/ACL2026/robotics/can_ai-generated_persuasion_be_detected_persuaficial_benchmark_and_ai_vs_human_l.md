@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2601.04925](https://arxiv.org/abs/2601.04925)  
 **代码**: [https://github.com/ArkadiusDS/Persuaficial](https://github.com/ArkadiusDS/Persuaficial)  
-**领域**: AI 生成内容检测/说服力分析  
+**领域**: 机器人  
 **关键词**: 说服力检测, AI 生成文本, 多语言基准, 语言差异分析, 可控生成
 
 ## 一句话总结
@@ -128,9 +128,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2026\] XOXO: Stealthy Cross-Origin Context Poisoning Attacks against AI Coding Assistants](xoxo_stealthy_cross-origin_context_poisoning_attacks_against_ai_coding_assistant.md)
-- [\[AAAI 2026\] Characterizing AI Manipulation Risks in Brazilian YouTube Climate Discourse](../../AAAI2026/robotics/characterizing_ai_manipulation_risks_in_brazilian_youtube_climate_discourse.md)
 - [\[CVPR 2025\] Magma: A Foundation Model for Multimodal AI Agents](../../CVPR2025/robotics/magma_a_foundation_model_for_multimodal_ai_agents.md)
 - [\[ICLR 2026\] Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI](../../ICLR2026/robotics/grounding_generative_planners_in_verifiable_logic_a_hybrid_architecture_for_trus.md)
 - [\[ICLR 2026\] D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI](../../ICLR2026/robotics/d2e_scaling_vision-action_pretraining_on_desktop_data_for_transfer_to_embodied_a.md)
+- [\[ICLR 2026\] REI-Bench: Can Embodied Agents Understand Vague Human Instructions in Task Planning?](../../ICLR2026/robotics/rei-bench_can_embodied_agents_understand_vague_human_instructions_in_task_planni.md)
 
 <!-- RELATED:END -->

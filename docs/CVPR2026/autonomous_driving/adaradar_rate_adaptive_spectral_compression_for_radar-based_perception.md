@@ -23,7 +23,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.17979](https://arxiv.org/abs/2603.17979)  
 **代码**: [项目主页](https://jp4327.github.io/adaradar/)  
-**领域**: autonomous_driving  
+**领域**: 自动驾驶  
 **关键词**: 雷达感知, 自适应压缩, 频谱剪枝, 零阶梯度, 码率控制, 量化, DCT, 目标检测, 语义分割
 
 ## 一句话总结

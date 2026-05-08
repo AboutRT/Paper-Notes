@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.14926](https://arxiv.org/abs/2602.14926)  
 **代码**: [GitHub](https://github.com/CLMFAP/MAC-AMP_v1/)  
-**领域**: 多智能体系统 / 生物序列生成  
+**领域**: 图像生成  
 **关键词**: 抗菌肽设计, 多智能体协作, 闭环强化学习, 多目标优化, LLM agent
 
 ## 一句话总结

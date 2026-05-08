@@ -21,7 +21,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2502.19255](https://arxiv.org/abs/2502.19255)  
-**代码**: https://github.com/jiaweihhuang/RLHF_RewardTransfer  
+**代码**: [https://github.com/jiaweihhuang/RLHF_RewardTransfer](https://github.com/jiaweihhuang/RLHF_RewardTransfer)  
 **领域**: 对齐RLHF  
 **关键词**: transfer learning, KL regularization, policy coverage, online RLHF, sample efficiency, DPO, IPO, XPO, win rate
 
@@ -189,6 +189,6 @@ True reward：sfairXC/FsfairX-LLaMA3-RM-v0.1（蒸馏自 Llama3-8B）
 - [\[ACL 2025\] Towards Reward Fairness in RLHF: From a Resource Allocation Perspective](../../ACL2025/llm_alignment/reward_fairness_rlhf.md)
 - [\[NeurIPS 2025\] Provably Efficient Online RLHF with One-Pass Reward Modeling](../../NeurIPS2025/llm_alignment/provably_efficient_online_rlhf_with_one-pass_reward_modeling.md)
 - [\[ICLR 2026\] Learning More with Less: A Dynamic Dual-Level Down-Sampling Framework for Efficient Policy Optimization](../../ICLR2026/llm_alignment/learning_more_with_less_a_dynamic_dual-level_down-sampling_framework_for_efficie.md)
-- [\[ACL 2025\] Mutual-Taught for Co-adapting Policy and Reward Models](../../ACL2025/llm_alignment/mutual_taught_policy_reward.md)
+- [\[ICML 2025\] DPO Meets PPO: Reinforced Token Optimization for RLHF](dpo_meets_ppo_reinforced_token_optimization_for_rlhf.md)
 
 <!-- RELATED:END -->

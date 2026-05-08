@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Cheating Stereo Matching in Full-Scale: Physical Adversarial Attack against Binocular Depth Estimation
 description: >-
-  [AAAI 2026][自动驾驶][对抗攻击] 提出首个针对立体匹配模型的3D全表面纹理物理对抗攻击，通过立体对齐渲染模块和区域感知的融合攻击（merging attack），使对抗车辆在深度图中与背景无缝融合，导致自动驾驶感知系统严重失效。
+  [AAAI 2026][3D视觉][对抗攻击] 提出首个针对立体匹配模型的3D全表面纹理物理对抗攻击，通过立体对齐渲染模块和区域感知的融合攻击（merging attack），使对抗车辆在深度图中与背景无缝融合，导致自动驾驶感知系统严重失效。
 tags:
   - AAAI 2026
-  - 自动驾驶
+  - 3D视觉
   - 对抗攻击
   - 立体匹配
   - 双目深度估计
@@ -18,7 +18,7 @@ tags:
 **会议**: AAAI 2026  
 **arXiv**: [2511.14386](https://arxiv.org/abs/2511.14386)  
 **代码**: 无  
-**领域**: 自动驾驶  
+**领域**: 3D视觉  
 **关键词**: 对抗攻击, 立体匹配, 双目深度估计, 3D纹理伪装, 物理对抗样本
 
 ## 一句话总结
@@ -177,6 +177,6 @@ SAR是有效攻击SM的基础（无SAR则 $\mathcal{E}_{cover}$ 极低），Merg
 - [\[CVPR 2025\] DEFOM-Stereo: Depth Foundation Model Based Stereo Matching](../../CVPR2025/3d_vision/defom-stereo_depth_foundation_model_based_stereo_matching.md)
 - [\[AAAI 2026\] Domain Generalized Stereo Matching with Uncertainty-guided Data Augmentation](domain_generalized_stereo_matching_with_uncertainty-guided_data_augmentation.md)
 - [\[CVPR 2026\] Lite Any Stereo: Efficient Zero-Shot Stereo Matching](../../CVPR2026/3d_vision/lite_any_stereo_efficient_zero-shot_stereo_matching.md)
-- [\[CVPR 2026\] Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting](../../CVPR2026/3d_vision/spectral_defense_against_resourcetargeting_attack.md)
+- [\[CVPR 2026\] PIP-Stereo: Progressive Iterations Pruner for Iterative Optimization based Stereo Matching](../../CVPR2026/3d_vision/pip-stereo_progressive_iterations_pruner_for_iterative_optimization_based_stereo.md)
 
 <!-- RELATED:END -->

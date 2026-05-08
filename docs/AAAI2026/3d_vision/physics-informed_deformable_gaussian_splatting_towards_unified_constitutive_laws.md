@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.06299](https://arxiv.org/abs/2511.06299)  
-**代码**: https://github.com/SCAILab-USTC/Physics-Informed-Deformable-Gaussian-Splatting  
+**代码**: [https://github.com/SCAILab-USTC/Physics-Informed-Deformable-Gaussian-Splatting](https://github.com/SCAILab-USTC/Physics-Informed-Deformable-Gaussian-Splatting)  
 **领域**: 3D视觉  
 **关键词**: 3D Gaussian Splatting, 动态场景重建, 物理信息神经网络, 连续介质力学, 光流监督
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2504.10483](https://arxiv.org/abs/2504.10483)  
-**代码**: https://end2end-diffusion.github.io  
+**代码**: [https://end2end-diffusion.github.io](https://end2end-diffusion.github.io)  
 **领域**: 图像生成 / 扩散模型  
 **关键词**: 端到端训练, VAE, 潜在扩散模型, 表征对齐, 训练加速
 

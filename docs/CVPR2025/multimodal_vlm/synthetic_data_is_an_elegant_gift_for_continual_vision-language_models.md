@@ -8,7 +8,7 @@ tags:
   - 多模态
   - 持续学习
   - 合成数据
-  - 知识蒸馏
+  - 多模态VLM
   - 灾难性遗忘
   - VLM适配
 ---
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.04229](https://arxiv.org/abs/2503.04229)  
-**代码**: https://github.com/Luo-Jiaming/GIFT_CL  
+**代码**: [https://github.com/Luo-Jiaming/GIFT_CL](https://github.com/Luo-Jiaming/GIFT_CL)  
 **领域**: 多模态VLM  
 **关键词**: 持续学习、合成数据、知识蒸馏、灾难性遗忘、VLM适配
 
@@ -114,9 +114,9 @@ $\mathcal{L} = \mathcal{L}_{task} + \lambda_{CD} \cdot \mathcal{L}_{CD} + \lambd
 ## 相关论文
 
 - [\[ACL 2025\] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data](../../ACL2025/multimodal_vlm/spare_enhancing_spatial_reasoning_in_vision-language_models_with_synthetic_data.md)
-- [\[CVPR 2025\] Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](continual_learning_with_vision-language_models_via_semantic-geometry_preservatio.md)
 - [\[CVPR 2025\] Synthetic Visual Genome](synthetic_visual_genome.md)
-- [\[ECCV 2024\] Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models](../../ECCV2024/multimodal_vlm/select_and_distill_selective_dual-teacher_knowledge_transfer_for_continual_learn.md)
+- [\[CVPR 2025\] Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](continual_learning_with_vision-language_models_via_semantic-geometry_preservatio.md)
 - [\[CVPR 2025\] SVLTA: Benchmarking Vision-Language Temporal Alignment via Synthetic Video Situation](svlta_benchmarking_vision-language_temporal_alignment_via_synthetic_video_situat.md)
+- [\[NeurIPS 2025\] Continual Multimodal Contrastive Learning](../../NeurIPS2025/multimodal_vlm/continual_multimodal_contrastive_learning.md)
 
 <!-- RELATED:END -->

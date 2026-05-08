@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICLR 2026
   - RLVR
-  - 混合策略优化
+  - 强化学习
   - 多模态推理
   - 熵崩溃
   - 可控探索
@@ -16,7 +16,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.20197](https://arxiv.org/abs/2602.20197)  
-**代码**: https://github.com/zhh6425/CalibRL  
+**代码**: [https://github.com/zhh6425/CalibRL](https://github.com/zhh6425/CalibRL)  
 **领域**: 多模态VLM / 强化学习  
 **关键词**: RLVR, 混合策略优化, 多模态推理, 熵崩溃, 可控探索
 
@@ -118,9 +118,9 @@ CalibRL 将专家数据重新定义为分布校准基线（而非严格模仿目
 ## 相关论文
 
 - [\[ACL 2026\] Semantic-Space Exploration and Exploitation in RLVR for LLM Reasoning](../../ACL2026/reinforcement_learning/semantic-space_exploration_and_exploitation_in_rlvr_for_llm_reasoning.md)
-- [\[ICLR 2026\] Exploration vs Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](exploration_vs_exploitation_rethinking_rlvr_through_clipping_entropy_and_spuriou.md)
 - [\[ICLR 2026\] MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding](mergemix_a_unified_augmentation_paradigm_for_visual_and_multi-modal_understandin.md)
 - [\[ICLR 2026\] Learning from Synthetic Data Improves Multi-hop Reasoning](learning_from_synthetic_data_improves_multi-hop_reasoning.md)
-- [\[ACL 2026\] RL-PLUS: Countering Capability Boundary Collapse of LLMs in Reinforcement Learning with Hybrid-policy Optimization](../../ACL2026/reinforcement_learning/rl-plus_countering_capability_boundary_collapse_of_llms_in_reinforcement_learnin.md)
+- [\[ICLR 2026\] Exploration vs Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](exploration_vs_exploitation_rethinking_rlvr_through_clipping_entropy_and_spuriou.md)
+- [\[AAAI 2026\] Reasoning with Exploration: An Entropy Perspective](../../AAAI2026/reinforcement_learning/reasoning_with_exploration_an_entropy_perspective.md)
 
 <!-- RELATED:END -->

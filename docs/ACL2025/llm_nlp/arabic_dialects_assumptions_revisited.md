@@ -12,7 +12,7 @@ tags:
 - **会议**: ACL 2025
 - **arXiv**: [2505.21816](https://arxiv.org/abs/2505.21816)
 - **代码**: [GitHub](https://github.com/AMR-KELEG/MLADI-assumptions-revisiting)
-- **领域**: NLP理解 / 方言识别 / 多语言
+- **领域**: LLM/NLP
 - **关键词**: Arabic Dialect Identification, Multi-label Classification, ALDi, Dialectal Lexical Cues, MLADI
 
 ## 一句话总结
@@ -138,9 +138,9 @@ tags:
 ## 相关论文
 
 - [\[ACL 2025\] Culture is Not Trivia: Sociocultural Theory for Cultural NLP](culture_is_not_trivia_sociocultural_theory_for_cultural_nlp.md)
-- [\[ACL 2025\] KazMMLU: Evaluating Language Models on Kazakh, Russian, and Regional Knowledge of Kazakhstan](kazmmlu_evaluating_language_models_on_kazakh_russian_and_regional_knowledge_of_k.md)
+- [\[ACL 2025\] TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs](trimllm_layer_dropping.md)
 - [\[ACL 2025\] PlanGenLLMs: A Modern Survey of LLM Planning Capabilities](plangenllms_planning_survey.md)
-- [\[ACL 2025\] Classifying Unreliable Narrators with Large Language Models](classifying_unreliable_narrators.md)
 - [\[ACL 2025\] Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora](leveraging_large_language_models_to_measure_gender_representation_bias_in_gender.md)
+- [\[ACL 2025\] Classifying Unreliable Narrators with Large Language Models](classifying_unreliable_narrators.md)
 
 <!-- RELATED:END -->

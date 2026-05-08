@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Zeroth-Order Optimization Finds Flat Minima
 description: >-
-  [NeurIPS 2025][零阶优化] 首次从理论上证明标准零阶优化（两点梯度估计）具有隐式正则化效果——收敛到Hessian迹最小的平坦极小值（flat minima），在凸且充分光滑条件下给出了$T = \mathcal{O}(d^4/\epsilon^2)$的收敛复杂度保证。
+  [NeurIPS 2025][强化学习] 首次从理论上证明标准零阶优化（两点梯度估计）具有隐式正则化效果——收敛到Hessian迹最小的平坦极小值（flat minima），在凸且充分光滑条件下给出了$T = \mathcal{O}(d^4/\epsilon^2)$的收敛复杂度保证。
 tags:
   - NeurIPS 2025
-  - 零阶优化
+  - 强化学习
   - 隐式正则化
   - Hessian迹
   - 平坦极小值
@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2506.05454](https://arxiv.org/abs/2506.05454)  
 **作者**: Liang Zhang (ETH Zurich / MPI-IS), Bingcong Li (ETH Zurich), Kiran Koshy Thekumparampil (Amazon), Sewoong Oh (UW), Michael Muehlebach (MPI-IS), Niao He (ETH Zurich)  
 **代码**: [Liang137/FlatZero](https://github.com/Liang137/FlatZero)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: 零阶优化, 隐式正则化, Hessian迹, 平坦极小值, 语言模型微调, 锐度感知最小化  
 
 ## 一句话总结
@@ -164,8 +164,8 @@ $$\mathbb{E}[F(x_\tau) - \min_x F(x)] \leq \frac{8(d+6)L_1\|x_0 - x_F^*\|^2}{T} 
 
 - [\[NeurIPS 2025\] Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm](trust_region_reward_optimization_and_proximal_inverse_reward_optimization_algori.md)
 - [\[NeurIPS 2025\] Online Optimization for Offline Safe Reinforcement Learning](online_optimization_for_offline_safe_reinforcement_learning.md)
-- [\[AAAI 2026\] First-Order Representation Languages for Goal-Conditioned RL](../../AAAI2026/reinforcement_learning/first-order_representation_languages_for_goal-conditioned_rl.md)
-- [\[NeurIPS 2025\] Sequential Monte Carlo for Policy Optimization in Continuous POMDPs](sequential_monte_carlo_for_policy_optimization_in_continuous_pomdps.md)
+- [\[NeurIPS 2025\] Complexity Scaling Laws for Neural Models using Combinatorial Optimization](complexity_scaling_laws_for_neural_models_using_combinatorial_optimization.md)
 - [\[NeurIPS 2025\] Improved Regret Bounds for GP-UCB in Bayesian Optimization](improved_regret_bounds_for_gaussian_process_upper_confidence_bound_in_bayesian_o.md)
+- [\[NeurIPS 2025\] PARCO: Parallel AutoRegressive Models for Multi-Agent Combinatorial Optimization](parco_parallel_autoregressive_models_for_multi-agent_combinatorial_optimization.md)
 
 <!-- RELATED:END -->

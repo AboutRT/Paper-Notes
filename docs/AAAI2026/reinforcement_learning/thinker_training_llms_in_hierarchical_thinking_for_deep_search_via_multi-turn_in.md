@@ -7,7 +7,7 @@ tags:
   - AAAI2026
   - deep search
   - hierarchical thinking
-  - RAG
+  - 强化学习
   - multi-turn interaction
   - knowledge boundary
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: AAAI2026  
 **arXiv**: [2511.07943](https://arxiv.org/abs/2511.07943)  
 **代码**: [OpenSPG/KAG-Thinker](https://github.com/OpenSPG/KAG-Thinker)  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: deep search, hierarchical thinking, RAG, multi-turn interaction, knowledge boundary
 
 ## 一句话总结
@@ -123,7 +123,7 @@ LLM 在复杂多跳推理任务中面临知识不足和幻觉问题。现有 dee
 - [\[NeurIPS 2025\] Reinforcement Learning for Long-Horizon Multi-Turn Search Agents](../../NeurIPS2025/reinforcement_learning/reinforcement_learning_for_long-horizon_multi-turn_search_agents.md)
 - [\[AAAI 2026\] HCPO: Hierarchical Conductor-Based Policy Optimization in Multi-Agent Reinforcement Learning](hcpo_hierarchical_conductor-based_policy_optimization_in_multi-agent_reinforceme.md)
 - [\[ICLR 2026\] AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking](../../ICLR2026/reinforcement_learning/abstral_augmenting_llms_reasoning_by_reinforcing_abstract_thinking.md)
-- [\[ICLR 2026\] SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning](../../ICLR2026/reinforcement_learning/spiral_self-play_on_zero-sum_games_incentivizes_reasoning_via_multi-agent_multi-.md)
 - [\[NeurIPS 2025\] EvoLM: In Search of Lost Language Model Training Dynamics](../../NeurIPS2025/reinforcement_learning/evolm_in_search_of_lost_language_model_training_dynamics.md)
+- [\[AAAI 2026\] ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation](manilong-shot_interaction-aware_one-shot_imitation_learning_for_long-horizon_man.md)
 
 <!-- RELATED:END -->

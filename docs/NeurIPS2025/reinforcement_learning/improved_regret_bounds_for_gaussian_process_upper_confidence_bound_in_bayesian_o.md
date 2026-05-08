@@ -5,7 +5,7 @@ description: >-
   [NeurIPS 2025][Bayesian optimization] 本文证明 GP-UCB 在贝叶斯设定下可达 $\widetilde{O}(\sqrt{T})$ 高概率 regret（Matern 核满足光滑条件时）和 $O(\sqrt{T \ln^2 T})$（SE 核），弥合了 GP-UCB 已有上界与最优上界间的差距。
 tags:
   - NeurIPS 2025
-  - Bayesian optimization
+  - 强化学习
   - GP-UCB
   - regret bound
   - information gain
@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.01393](https://arxiv.org/abs/2506.01393)  
 **代码**: 无  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: Bayesian optimization, GP-UCB, regret bound, information gain, Gaussian process
 
 ## 一句话总结
@@ -135,8 +135,8 @@ GP-UCB：$\mathbf{x}_t = \arg\max \mu(\mathbf{x}) + \beta_t^{1/2} \sigma(\mathbf
 ## 相关论文
 
 - [\[NeurIPS 2025\] Improved Regret and Contextual Linear Extension for Pandora's Box and Prophet Inequality](improved_regret_and_contextual_linear_extension_for_pandoras_box_and_prophet_ine.md)
-- [\[NeurIPS 2025\] Establishing Linear Surrogate Regret Bounds for Convex Smooth Losses via Convolutional Fenchel–Young Losses](establishing_linear_surrogate_regret_bounds_for_convex_smooth_losses_via_convolu.md)
 - [\[NeurIPS 2025\] Optimizing the Unknown: Black Box Bayesian Optimization with Energy-Based Model and Reinforcement Learning](optimizing_the_unknown_black_box_bayesian_optimization_with_energy-based_model_a.md)
+- [\[NeurIPS 2025\] Establishing Linear Surrogate Regret Bounds for Convex Smooth Losses via Convolutional Fenchel–Young Losses](establishing_linear_surrogate_regret_bounds_for_convex_smooth_losses_via_convolu.md)
 - [\[NeurIPS 2025\] Dynamic Regret Reduces to Kernelized Static Regret](dynamic_regret_reduces_to_kernelized_static_regret.md)
 - [\[NeurIPS 2025\] Meta-World+: An Improved, Standardized, RL Benchmark](meta-world_an_improved_standardized_rl_benchmark.md)
 

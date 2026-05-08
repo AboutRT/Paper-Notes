@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.17891](https://arxiv.org/abs/2506.17891)  
-**代码**: [GitHub](https://github.com/) (有)  
+**代码**: [GitHub](https://github.com/)  
 **领域**: 3D视觉 / 点云实例分割  
 **关键词**: 点云实例分割, 关系建模, 对比学习, 自适应超点聚合, Transformer
 

@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.02095](https://arxiv.org/abs/2506.02095)  
 **代码**: [https://cyclereward.github.io/](https://cyclereward.github.io/)  
-**领域**: 多模态VLM / 图文对齐 / 奖励建模  
+**领域**: 图像生成  
 **关键词**: cycle consistency, 奖励模型, image-text alignment, 偏好学习, DPO, 自监督
 
 ## 一句话总结

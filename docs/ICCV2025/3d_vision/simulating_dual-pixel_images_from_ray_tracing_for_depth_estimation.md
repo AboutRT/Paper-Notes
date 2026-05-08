@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV2025  
 **arXiv**: [2503.11213](https://arxiv.org/abs/2503.11213)  
 **代码**: [GitHub](https://github.com/LinYark/Sdirt)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: dual-pixel, depth estimation, ray tracing, PSF simulation, domain gap  
 
 ## 一句话总结

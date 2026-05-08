@@ -1,14 +1,14 @@
 ---
 title: >-
-  CVPR2025 模型压缩方向62篇论文解读
+  CVPR2025 模型压缩方向58篇论文解读
 description: >-
-  62篇CVPR2025的模型压缩方向论文解读，涵盖压缩/编码、模型压缩、持续学习、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  58篇CVPR2025的模型压缩方向论文解读，涵盖压缩/编码、模型压缩、持续学习、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📷 CVPR2025** · **62** 篇论文解读
+**📷 CVPR2025** · **58** 篇论文解读
 
 **[Adapter Merging with Centroid Prototype Mapping for Scalable Class-Incremental Learning](adapter_merging_with_centroid_prototype_mapping_for_scalable_class-incremental_l.md)**
 
@@ -92,14 +92,6 @@ description: >-
 
 :   提出NRR-DD三阶段框架：用CAM选低置信度patch初始化合成图像、固定关键区域仅优化非关键区域提升信息密度、用2个距离值替代1000维软标签实现500倍存储压缩。在ImageNet-1K上IPC=10时达到46.1%（超RDED 25.7%），软标签存储从120GB降至0.2GB。
 
-**[Exploration-Driven Generative Interactive Environments](exploration-driven_generative_interactive_environments.md)**
-
-:   开源实现 Genie 世界模型（GenieRedux），增加真实动作条件、Token 距离交叉熵（TDCE）损失和 token 跳连得到 GenieRedux-G，并提出 AutoExplore 探索智能体用世界模型的 token 预测不确定性作为内在奖励驱动多样数据收集，将仿真质量提升高达 7.4 PSNR。
-
-**[Exploring Contextual Attribute Density in Referring Expression Counting (CAD-GD)](exploring_contextual_attribute_density_in_referring_expression_counting.md)**
-
-:   提出上下文属性密度（Contextual Attribute Density, CAD）概念来增强指代表达计数（Referring Expression Counting），通过 U 形密度估计器、CAD 注意力和动态查询初始化三个模块，在 REC-8K 数据集上相比 GroundingREC 降低了约 30% 的计数误差（MAE 从 6.80 降至 5.43）。
-
 **[Faster Parameter-Efficient Tuning with Token Redundancy Reduction (FPET)](faster_parameter-efficient_tuning_with_token_redundancy_reduction.md)**
 
 :   提出 FPET（Faster Parameter-Efficient Tuning），在参数高效微调（PET）中引入即插即用的 token 冗余压缩模块——在 ViT 中间层用可微的二分匹配策略合并约一半的 token，实现比原始 backbone 更快 20% 的推理速度、减少约 40% GPU显存、且精度与 SOTA PET 方法持平。
@@ -111,10 +103,6 @@ description: >-
 **[Gaze-LLE: Gaze Target Estimation via Large-Scale Learned Encoders](gaze-lle_gaze_target_estimation_via_large-scale_learned_encoders.md)**
 
 :   提出 Gaze-LLE，一个基于冻结 DINOv2 编码器的极简视线目标估计框架——仅用 ~2.8M 可训练参数（比先前方法少 1-2 个数量级）、无需辅助深度/姿态模型、无需独立头部编码器，通过人物位置提示 + 轻量 transformer 解码器即在 GazeFollow/VideoAttentionTarget 等基准上达到 SOTA（AUC 0.958）。
-
-**[GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration](geochemad_benchmarking_unsupervised_geochemical_anomaly_detection_for_mineral_ex.md)**
-
-:   提出 GeoChemAD 开源基准数据集（8 个子集，覆盖多区域/多采样源/多目标元素）和 GeoChemFormer 框架，通过空间上下文自监督预训练和元素依赖建模实现无监督地球化学异常检测，在所有子集上取得最优 AUC。
 
 **[Good, Cheap, and Fast: Overfitted Image Compression with Wasserstein Distortion](good_cheap_and_fast_overfitted_image_compression_with_wasserstein_distortion.md)**
 
@@ -188,6 +176,10 @@ description: >-
 
 :   提出 Masked Sub-branch (MaskSub)——在监督学习中引入高比例 (50%) mask 增强的通用框架，通过主分支(无mask)和子分支(有mask)的自蒸馏结构解决强 mask 增强导致训练不稳定的问题，在 DeiT-III、MAE 微调、CLIP 微调、BERT 训练以及 ResNet/Swin 等多种场景中均取得一致性能提升。
 
+**[MDP: Multidimensional Vision Model Pruning with Latency Constraint](mdp_multidimensional_vision_model_pruning_with_latency_constraint.md)**
+
+:   MDP 提出多维度剪枝范式，将通道、注意力头、Q/K/V、嵌入维度和整个 block 等不同粒度的结构化剪枝统一建模为混合整数非线性规划(MINLP)问题，在严格延迟约束下联合求解全局最优剪枝结构，在高剪枝比下大幅超越已有方法。
+
 **[MobileMamba: Lightweight Multi-Receptive Visual Mamba Network](mobilemamba_lightweight_multi-receptive_visual_mamba_network.md)**
 
 :   提出 MobileMamba 轻量级视觉网络，通过三阶段粗粒度架构设计和 MRFFI 细粒度模块（融合 Mamba 全局建模、多核卷积多尺度感知和 Identity 冗余消除），在分类和下游高分辨率任务上实现速度与精度的最优平衡。
@@ -196,10 +188,6 @@ description: >-
 
 :   本文提出MuTri，首次将向量量化（VQ）引入OCT到OCTA的3D体积翻译任务，通过两阶段训练——先预训练OCT和OCTA重建VQVAE提供多视图先验，再用对比语义对齐（3D OCT/OCTA视图）和血管结构对齐（2D OCTA投影图视图）三视图指导翻译VQVAE的码本学习，在三个数据集上全面超越SOTA。
 
-**[NADER: Neural Architecture Design via Multi-Agent Collaboration](nader_neural_architecture_design_via_multi-agent_collaboration.md)**
-
-:   NADER 将神经架构设计建模为多 LLM Agent 协作任务——Reader 读论文提炼知识、Proposer 生成改进方案、Modifier 用 DAG 图实现修改、Reflector 从失败中学习经验，仅 10 次试验即突破 NAS-Bench-201 搜索空间的准确率上限，在 CIFAR-100 上达 74.51%（搜索空间最优 73.51%）。
-
 **[Parameter Efficient Mamba Tuning via Projector-targeted Diagonal-centric Linear Transformation](parameter_efficient_mamba_tuning_via_projector-targeted_diagonal-centric_linear_.md)**
 
 :   本文揭示了 Mamba 架构中 Projector（投影层）而非 SSM 才是迁移学习的关键组件，并提出 ProDiaL 方法——通过对角中心线性变换矩阵间接微调冻结的 Projector 权重，仅训练不到 1% 的参数即可在视觉和语言 Mamba 模型上实现超越 LoRA/DoRA 的下游任务性能。
@@ -207,10 +195,6 @@ description: >-
 **[Plug-and-Play Versatile Compressed Video Enhancement](plug-and-play_versatile_compressed_video_enhancement.md)**
 
 :   本文提出一种编解码器感知的压缩视频增强框架，通过复用码流中的压缩因子、运动向量和分区图等信息，以单一模型自适应增强不同压缩级别的视频，同时作为即插即用模块辅助多种下游视觉任务。
-
-**[Reversible Decoupling Network for Single Image Reflection Removal](reversible_decoupling_network_for_single_image_reflection_removal.md)**
-
-:   RDNet 提出了一种基于可逆解耦架构的单图像反射去除方法，通过多列可逆编码器保证多尺度语义信息在前向传播中的无损传递，并设计传输率感知提示生成器来自适应不同反射强度，在五个基准数据集上全面超越 SOTA，赢得 NTIRE 2025 挑战赛。
 
 **[Sampling Innovation-Based Adaptive Compressive Sensing](sampling_innovation-based_adaptive_compressive_sensing.md)**
 

@@ -49,15 +49,15 @@ SMART 采用两阶段训练：
 ### 关键设计
 
 1. **SAM3 概念提示微调 (TPT)**：不依赖几何提示（点/框），而是利用 SAM3 独特的文本概念提示能力。微调 SAM3 的图像编码器、文本编码器和检测器，保持其他组件冻结。损失函数为：
-   $$\mathcal{L}_{\text{ft}} = \lambda_1 \mathcal{L}_{\text{Dice}} + \lambda_2 \mathcal{L}_{\text{Bce}}$$
+    $\mathcal{L}_{\text{ft}} = \lambda_1 \mathcal{L}_{\text{Dice}} + \lambda_2 \mathcal{L}_{\text{Bce}}$
    核心优势：文本概念提示理解视觉结构的语义，跨机构泛化能力远优于几何提示。
 
 2. **渐进置信度感知一致性正则化 (CCR)**：对教师模型注入 $N=8$ 次噪声扰动 $\epsilon^{(i)} \sim \mathcal{N}(0, \sigma^2 \mathbf{I})$ 获取 $N$ 组预测，计算集成均值 $\bar{\mathbf{P}}$ 和不确定性权重 $\boldsymbol{\mathcal{U}}$。一致性损失对不确定区域给予更高权重：
-   $$\mathcal{L}_{\text{conf}} = \frac{\sum_{x,y} \mathcal{D}(x,y) \mathcal{U}(x,y)}{\sum_{x,y} \mathcal{U}(x,y) + N\eta} + \frac{\beta}{N} \sum_{x,y} \mathcal{U}(x,y)$$
+    $\mathcal{L}_{\text{conf}} = \frac{\sum_{x,y} \mathcal{D}(x,y) \mathcal{U}(x,y)}{\sum_{x,y} \mathcal{U}(x,y) + N\eta} + \frac{\beta}{N} \sum_{x,y} \mathcal{U}(x,y)$
    其中 $\mathcal{D}(x,y) = (\sigma(S(x,y)) - \sigma(\bar{P}(x,y)))^2$ 为学生与教师集成预测的一致性距离。设计动机：低对比度区域教师预测不可靠，需自适应调节监督强度。
 
 3. **双流时序一致性 (DSTC)**：使用 SEA-RAFT 计算前向、后向光流 $\mathbf{F}_{t \to t+1}$ 和 $\mathbf{F}_{t+1 \to t}$，双向 Mask Warping 确保分割的时序一致性：
-   $$\mathcal{L}_{\text{opti}} = \frac{1}{2N} \sum_{x,y} \Big[\big(\mathbf{S}_t - \mathcal{W}(\mathbf{S}_{t+1}, \mathbf{F}_{t \to t+1})\big)^2 + \big(\mathbf{S}_{t+1} - \mathcal{W}(\mathbf{S}_t, \mathbf{F}_{t+1 \to t})\big)^2\Big]$$
+    $\mathcal{L}_{\text{opti}} = \frac{1}{2N} \sum_{x,y} \Big[\big(\mathbf{S}_t - \mathcal{W}(\mathbf{S}_{t+1}, \mathbf{F}_{t \to t+1})\big)^2 + \big(\mathbf{S}_{t+1} - \mathcal{W}(\mathbf{S}_t, \mathbf{F}_{t+1 \to t})\big)^2\Big]$
    额外引入 Flow Coherence Loss $\mathcal{L}_{\text{coh}}$ 惩罚边界点偏离血管主体运动，区分前景/背景。
 
 ### 损失函数 / 训练策略

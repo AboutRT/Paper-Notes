@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2507.04062](https://arxiv.org/abs/2507.04062)  
-**代码**: https://hyqlat.github.io/STABACB.github.io/  
+**代码**: [https://hyqlat.github.io/STABACB.github.io/](https://hyqlat.github.io/STABACB.github.io/)  
 **领域**: 人体理解 / 动作预测  
 **关键词**: 随机人体动作预测, 动作驱动, 记忆库, 动作过渡, CVAE
 
@@ -133,9 +133,9 @@ ARM 使用交叉熵损失训练 500 个 epoch，对大于阈值 $\tau$ 的每一
 ## 相关论文
 
 - [\[CVPR 2025\] SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction](simmotionedit_text-based_human_motion_editing_with_motion_similarity_prediction.md)
-- [\[CVPR 2025\] ShowUI: One Vision-Language-Action Model for GUI Visual Agent](showui_one_vision-language-action_model_for_gui_visual_agent.md)
 - [\[ECCV 2024\] Bridging the Gap Between Human Motion and Action Semantics via Kinematic Phrases](../../ECCV2024/human_understanding/bridging_the_gap_between_human_motion_and_action_semantics_via_kinematic_phrases.md)
-- [\[CVPR 2025\] SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters](solami_social_vision-language-action_modeling_for_immersive_interaction_with_3d_.md)
 - [\[CVPR 2025\] Human Motion Instruction Tuning](human_motion_instruction_tuning.md)
+- [\[CVPR 2025\] HSEmotion Team at ABAW-10 Competition: Facial Expression Recognition, Valence-Arousal Estimation, Action Unit Detection and Fine-Grained Violence Classification](hsemotion_team_at_abaw-10_competition_facial_expression_recognition_valence-arou.md)
+- [\[AAAI 2026\] mmPred: Radar-based Human Motion Prediction in the Dark](../../AAAI2026/human_understanding/mmpred_radar-based_human_motion_prediction_in_the_dark.md)
 
 <!-- RELATED:END -->

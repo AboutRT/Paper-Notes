@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 多模态
-  - AI生成图像检测
+  - 多模态VLM
   - 多模态大语言模型
   - 可解释检测
   - 直接偏好优化
@@ -17,8 +17,8 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: N/A (CVF OpenAccess)  
-**代码**: https://github.com/wyczzy/AIGI-Holmes  
-**领域**: multimodal_vlm  
+**代码**: [https://github.com/wyczzy/AIGI-Holmes](https://github.com/wyczzy/AIGI-Holmes)  
+**领域**: 多模态VLM  
 **关键词**: AI生成图像检测, 多模态大语言模型, 可解释检测, 直接偏好优化, 协同解码
 
 ## 一句话总结
@@ -206,10 +206,10 @@ AIGI-Holmes 在所有生成器上均达到 98%+ 的准确率，Mean Acc. 比 AID
 
 ## 相关论文
 
-- [\[ICCV 2025\] CompCap: Improving Multimodal Large Language Models with Composite Captions](compcap_improving_multimodal_large_language_models_with_composite_captions.md)
-- [\[ICCV 2025\] Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval](bidirectional_likelihood_estimation_with_multi-modal_large_language_models_for_t.md)
 - [\[ICCV 2025\] DocThinker: Explainable Multimodal Large Language Models with Rule-based Reinforcement Learning for Document Understanding](docthinker_explainable_multimodal_large_language_models_with.md)
-- [\[ICCV 2025\] Controlling Multimodal LLMs via Reward-guided Decoding](controlling_multimodal_llms_via_reward-guided_decoding.md)
-- [\[ICCV 2025\] Effective Training Data Synthesis for Improving MLLM Chart Understanding](effective_training_data_synthesis_for_improving_mllm_chart_understanding.md)
+- [\[ICCV 2025\] Generalizable Object Re-Identification via Visual In-Context Prompting](generalizable_object_re-identification_via_visual_in-context_prompting.md)
+- [\[ICCV 2025\] SimpleVQA: Multimodal Factuality Evaluation for Multimodal Large Language Models](simplevqa_multimodal_factuality_evaluation_for_multimodal_large_language_models.md)
+- [\[ICCV 2025\] IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves](ideator_jailbreaking_and_benchmarking_large_visionlanguage_m.md)
+- [\[ICCV 2025\] Jailbreaking Multimodal Large Language Models via Shuffle Inconsistency](jailbreaking_multimodal_large_language_models_via_shuffle_inconsistency.md)
 
 <!-- RELATED:END -->

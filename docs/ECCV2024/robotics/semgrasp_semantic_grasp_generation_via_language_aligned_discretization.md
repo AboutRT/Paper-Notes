@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.03590](https://arxiv.org/abs/2404.03590)  
-**代码**: https://kailinli.github.io/SemGrasp  
+**代码**: [https://kailinli.github.io/SemGrasp](https://kailinli.github.io/SemGrasp)  
 **领域**: 机器人 / 语义抓取生成  
 **关键词**: 语义抓取生成, VQ-VAE离散化, 多模态大语言模型, 手物交互, 抓取表示学习
 
@@ -181,10 +181,10 @@ SemGrasp在语义一致性指标GPT-4评分上达到74.5分（满分100），显
 
 ## 相关论文
 
+- [\[ECCV 2024\] Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation](decomposed_vector-quantized_variational_autoencoder_for_human_grasp_generation.md)
 - [\[ECCV 2024\] An Economic Framework for 6-DoF Grasp Detection](an_economic_framework_for_6-dof_grasp_detection.md)
-- [\[ECCV 2024\] Prioritized Semantic Learning for Zero-shot Instance Navigation](prioritized_semantic_learning_for_zero-shot_instance_navigation.md)
+- [\[ECCV 2024\] Prioritized Semantic Learning for Zero-Shot Instance Navigation](prioritized_semantic_learning_for_zeroshot_instance_navigation.md)
+- [\[ECCV 2024\] Octopus: Embodied Vision-Language Programmer from Environmental Feedback](octopus_embodied_visionlanguage_programmer_from_environmental_feedback.md)
 - [\[ECCV 2024\] LLM as Copilot for Coarse-Grained Vision-and-Language Navigation](llm_as_copilot_for_coarse-grained_vision-and-language_navigation.md)
-- [\[ECCV 2024\] DISCO: Embodied Navigation and Interaction via Differentiable Scene Semantics and Dual-Level Control](disco_embodied_navigation_and_interaction.md)
-- [\[ECCV 2024\] AFF-ttention! Affordances and Attention models for Short-Term Object Interaction Anticipation](aff-ttention_affordances_and_attention_models_for_short-term_object_interaction_.md)
 
 <!-- RELATED:END -->

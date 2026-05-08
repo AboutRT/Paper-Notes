@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.02447](https://arxiv.org/abs/2412.02447)  
-**代码**: https://github.com/cocoon2wong/Re (有)  
+**代码**: [https://github.com/cocoon2wong/Re](https://github.com/cocoon2wong/Re)  
 **领域**: 自动驾驶 / 行人轨迹预测  
 **关键词**: 行人轨迹预测, 振动分解, 共振交互, 频谱表示, 社会行为建模
 

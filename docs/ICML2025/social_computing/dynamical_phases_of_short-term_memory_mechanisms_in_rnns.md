@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2502.17433](https://arxiv.org/abs/2502.17433)  
-**代码**: https://github.com/fatihdinc/dynamical-phases-stm (有)  
-**领域**: LLM/NLP  
+**代码**: [https://github.com/fatihdinc/dynamical-phases-stm](https://github.com/fatihdinc/dynamical-phases-stm)  
+**领域**: 社会计算  
 **关键词**: 短时记忆, RNN, 动力学相变, 慢点流形, 极限环
 
 ## 一句话总结
@@ -135,10 +135,10 @@ tags:
 
 ## 相关论文
 
-- [\[ICML 2025\] Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing](raising_the_bar_investigating_the_values_of_large_language_models_via_generative.md)
 - [\[ICML 2025\] OR-Bench: An Over-Refusal Benchmark for Large Language Models](or-bench_an_over-refusal_benchmark_for_large_language_models.md)
-- [\[ICML 2025\] When Bad Data Leads to Good Models](when_bad_data_leads_to_good_models.md)
 - [\[ICML 2025\] DEFAME: Dynamic Evidence-based FAct-checking with Multimodal Experts](defame_dynamic_evidence-based_fact-checking_with_multimodal_experts.md)
+- [\[ICML 2025\] When Bad Data Leads to Good Models](when_bad_data_leads_to_good_models.md)
+- [\[ICML 2025\] Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing](raising_the_bar_investigating_the_values_of_large_language_models_via_generative.md)
 - [\[ICML 2025\] Learning Survival Distributions with the Asymmetric Laplace Distribution](learning_survival_distributions_with_the_asymmetric_laplace_distribution.md)
 
 <!-- RELATED:END -->

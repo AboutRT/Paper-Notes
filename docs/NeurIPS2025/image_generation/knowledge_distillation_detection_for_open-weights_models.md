@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.02302](https://arxiv.org/abs/2510.02302)  
-**代码**: [GitHub](https://github.com/shqii1j/distillation_detection) (有)  
-**领域**: image_generation / AI安全  
+**代码**: [GitHub](https://github.com/shqii1j/distillation_detection)  
+**领域**: 图像生成  
 **关键词**: 知识蒸馏检测, 模型溯源, 数据无关合成, 统计检测, 文本到图像生成
 
 ## 一句话总结

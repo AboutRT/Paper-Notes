@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16718](https://arxiv.org/abs/2411.16718)  
-**代码**: https://cdb342.github.io/GDFusion (有)  
+**代码**: [https://cdb342.github.io/GDFusion](https://cdb342.github.io/GDFusion)  
 **领域**: 自动驾驶 / 3D占用预测  
 **关键词**: 时序融合, 梯度下降, RNN重释, 3D语义占用, 内存高效
 

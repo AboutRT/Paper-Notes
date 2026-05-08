@@ -7,7 +7,7 @@ tags:
   - ICLR2026
   - 分子手性
   - 手性行列式核
-  - 等变图神经网络
+  - 信号通信
   - 轴向手性
   - SE(3)不变性
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2602.07415](https://arxiv.org/abs/2602.07415)  
 **代码**: 待确认  
-**领域**: self_supervised  
+**领域**: 信号通信  
 **关键词**: 分子手性, 手性行列式核, 等变图神经网络, 轴向手性, SE(3)不变性  
 
 ## 一句话总结
@@ -123,6 +123,6 @@ tags:
 - [\[ACL 2026\] UCS: Estimating Unseen Coverage for Improved In-Context Learning](../../ACL2026/signal_comm/ucs_estimating_unseen_coverage_for_improved_in-context_learning.md)
 - [\[CVPR 2026\] Dual-Imbalance Continual Learning for Real-World Food Recognition](../../CVPR2026/signal_comm/dual-imbalance_continual_learning_for_real-world_food_recognition.md)
 - [\[AAAI 2026\] Task Aware Modulation Using Representation Learning for Upscaling of Terrestrial Carbon Fluxes](../../AAAI2026/signal_comm/task_aware_modulation_using_representation_learning_for_upsaling_of_terrestrial_.md)
-- [\[NeurIPS 2025\] Feature-aware Modulation for Learning from Temporal Tabular Data](../../NeurIPS2025/signal_comm/feature-aware_modulation_for_learning_from_temporal_tabular_data.md)
+- [\[ICML 2025\] Large Language Model (LLM)-enabled In-context Learning for Wireless Network Optimization](../../ICML2025/signal_comm/large_language_model_llm-enabled_in-context_learning_for_wireless_network_optimi.md)
 
 <!-- RELATED:END -->

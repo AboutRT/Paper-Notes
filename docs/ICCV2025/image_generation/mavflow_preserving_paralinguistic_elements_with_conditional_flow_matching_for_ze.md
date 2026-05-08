@@ -12,7 +12,7 @@ tags:
 > **会议**: ICCV 2025
 > **arXiv**: [2503.11026](https://arxiv.org/abs/2503.11026)
 > **代码**: [GitHub](https://github.com/Peter-SungwooCho/MAVFlow)
-> **领域**: 多模态生成·音频视觉翻译·流匹配
+> **领域**: 图像生成
 > **关键词**: audio-visual translation, conditional flow matching, zero-shot, paralinguistic preservation, speaker consistency
 
 ## 一句话总结
@@ -145,6 +145,6 @@ MAVFlow 在所有语言对上说话人相似度平均提升 **36%**，DTW 和 DT
 - [\[ICML 2025\] FlexiClip: Locality-Preserving Free-Form Character Animation](../../ICML2025/image_generation/flexiclip_locality-preserving_free-form_character_animation.md)
 - [\[ICCV 2025\] SCFlow: Implicitly Learning Style and Content Disentanglement with Flow Models](scflow_implicitly_learning_style_and_content_disentanglement_with_flow_models.md)
 - [\[CVPR 2025\] DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation](../../CVPR2025/image_generation/dual-interrelated_diffusion_model_for_few-shot_anomaly_image_generation.md)
-- [\[ICCV 2025\] MatchDiffusion: Training-free Generation of Match-Cuts](matchdiffusion_training-free_generation_of_match-cuts.md)
+- [\[ICCV 2025\] Trans-Adapter: A Plug-and-Play Framework for Transparent Image Inpainting](trans-adapter_a_plug-and-play_framework_for_transparent_image_inpainting.md)
 
 <!-- RELATED:END -->

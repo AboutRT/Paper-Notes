@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.04282](https://arxiv.org/abs/2412.04282)  
 **代码**: [项目页](https://ellisonking.github.io/TaylorGaussian)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: dynamic scene, 3D Gaussian Splatting, Taylor series, Peano remainder, novel view synthesis
 
 ## 一句话总结
@@ -150,6 +150,6 @@ Technicolor Birthday 上相比 4DGS 提升 **58.25%**。
 - [\[CVPR 2025\] IRIS: Inverse Rendering of Indoor Scenes from Low Dynamic Range Images](iris_inverse_rendering_of_indoor_scenes_from_low_dynamic_range_images.md)
 - [\[CVPR 2025\] DropoutGS: Dropping Out Gaussians for Better Sparse-view Rendering](dropoutgs_dropping_out_gaussians_for_better_sparse-view_rendering.md)
 - [\[CVPR 2025\] WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments](wildgs-slam_monocular_gaussian_splatting_slam_in_dynamic_environments.md)
-- [\[CVPR 2025\] DeSplat: Decomposed Gaussian Splatting for Distractor-Free Rendering](desplat_decomposed_gaussian_splatting_for_distractor-free_rendering.md)
+- [\[ICCV 2025\] BillBoard Splatting (BBSplat): Learnable Textured Primitives for Novel View Synthesis](../../ICCV2025/3d_vision/billboard_splatting_bbsplat_learnable_textured_primitives_fo.md)
 
 <!-- RELATED:END -->

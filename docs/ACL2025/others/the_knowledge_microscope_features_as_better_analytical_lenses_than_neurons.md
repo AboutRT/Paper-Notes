@@ -9,7 +9,7 @@ tags:
   - 知识神经元
   - 特征分析
   - 单义性
-  - 隐私知识擦除
+  - 其他
 ---
 
 # The Knowledge Microscope: Features as Better Analytical Lenses than Neurons
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.12483](https://arxiv.org/abs/2502.12483)  
 **代码**: 无（论文中提到 "Code and dataset will be available"）  
-**领域**: LLM推理 / 可解释性  
+**领域**: 其他  
 **关键词**: 稀疏自编码器, 知识神经元, 特征分析, 单义性, 隐私知识擦除
 
 ## 一句话总结
@@ -150,8 +150,8 @@ Gemma-2 9B 上:
 
 - [\[ACL 2025\] Byte Latent Transformer: Patches Scale Better Than Tokens](byte_latent_transformer.md)
 - [\[ACL 2025\] Better Embeddings with Coupled Adam](better_embeddings_with_coupled_adam.md)
-- [\[ICLR 2026\] FastLSQ: Solving PDEs in One Shot via Fourier Features with Exact Analytical Derivatives](../../ICLR2026/others/fastlsq_solving_pdes_in_one_shot_via_fourier_features_with_exact_analytical_deri.md)
 - [\[ACL 2025\] Neuron Empirical Gradient: Discovering and Quantifying Neurons' Global Linear Controllability](neuron_empirical_gradient_discovering_and_quantifying_neurons_global_linear_cont.md)
 - [\[ACL 2025\] Hierarchical Attention Generates Better Proofs](hierarchical_attention_generates_better_proofs.md)
+- [\[ACL 2025\] Towards Better Evaluation for Generated Patent Claims](patclaimeval_patent_evaluation.md)
 
 <!-- RELATED:END -->

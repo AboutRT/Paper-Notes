@@ -17,7 +17,7 @@ tags:
 **会议**: ACL2025  
 **arXiv**: [2410.18359](https://arxiv.org/abs/2410.18359)  
 **代码**: 未公开  
-**领域**: Others / 事实性评估与提升  
+**领域**: LLM安全  
 **关键词**: Factuality, Hallucination, Critique-based Evaluator, Preference Training, FenCE  
 
 ## 一句话总结
@@ -213,7 +213,7 @@ FenCE 仅8B参数即超越 Mistral-123B 和 Claude-3 Opus，接近 GPT-4。
 - [\[ACL 2025\] Ewe: Improving Factuality with Explicit Working Memory](improving_factuality_with_explicit_working_memory.md)
 - [\[ACL 2025\] Fine-grained Hallucination Detection and Mitigation in Long-form Question Answering](localizing_and_mitigating_errors_in_long-form_question_answering.md)
 - [\[ACL 2025\] On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation](on-policy_self-alignment_with_fine-grained_knowledge_feedback_for_hallucination_.md)
-- [\[ACL 2025\] Exploring Forgetting in Large Language Model Pre-Training](exploring_forgetting_in_large_language_model_pre-training.md)
-- [\[ACL 2025\] Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training](hallucination_detox_send.md)
+- [\[ICML 2025\] Improving Your Model Ranking on Chatbot Arena by Vote Rigging](../../ICML2025/llm_safety/improving_your_model_ranking_on_chatbot_arena_by_vote_rigging.md)
+- [\[ACL 2025\] UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models](ualign_leveraging_uncertainty_estimations_for_factuality_alignment_on_large_lang.md)
 
 <!-- RELATED:END -->

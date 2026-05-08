@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.16315](https://arxiv.org/abs/2511.16315)  
 **代码**: [github.com/samuelstevens/biobench](https://github.com/samuelstevens/biobench)  
-**领域**: model_compression / benchmark  
+**领域**: 模型压缩  
 **关键词**: 生态图像, 视觉Benchmark, ImageNet局限性, 迁移学习, AI for Science  
 
 ## 一句话总结
@@ -137,10 +137,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] AutoDiscovery: Open-ended Scientific Discovery via Bayesian Surprise](autodiscovery_open-ended_scientific_discovery_via_bayesian_surprise.md)
-- [\[NeurIPS 2025\] Beyond Random: Automatic Inner-Loop Optimization in Dataset Distillation](beyond_random_automatic_inner-loop_optimization_in_dataset_distillation.md)
 - [\[ACL 2025\] Sci-LoRA: Mixture of Scientific LoRAs for Cross-Domain Lay Paraphrasing](../../ACL2025/model_compression/sci-lora_mixture_of_scientific_loras_for_cross-domain_lay_paraphrasing.md)
+- [\[NeurIPS 2025\] Beyond Random: Automatic Inner-Loop Optimization in Dataset Distillation](beyond_random_automatic_inner-loop_optimization_in_dataset_distillation.md)
 - [\[NeurIPS 2025\] Binary Quadratic Quantization: Beyond First-Order Quantization for Real-Valued Matrix Compression](binary_quadratic_quantization_beyond_first-order_quantization_for_real-valued_ma.md)
 - [\[NeurIPS 2025\] Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation](beyond_higher_rank_token-wise_input-output_projections_for_efficient_low-rank_ad.md)
+- [\[ACL 2025\] Beyond Text Compression: Evaluating Tokenizers Across Scales](../../ACL2025/model_compression/beyond_text_compression_tokenizers.md)
 
 <!-- RELATED:END -->

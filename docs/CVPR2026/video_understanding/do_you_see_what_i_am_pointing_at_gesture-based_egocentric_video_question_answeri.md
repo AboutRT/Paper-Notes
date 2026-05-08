@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2603.12533](https://arxiv.org/abs/2603.12533)  
-**代码**: https://yuuraa.github.io/papers/choi2026egovqa (即将发布)  
+**代码**: [https://yuuraa.github.io/papers/choi2026egovqa](https://yuuraa.github.io/papers/choi2026egovqa) (即将发布)  
 **领域**: 视频理解  
 **关键词**: 第一人称视频QA, 手势理解, deictic指示, 3D手关键点, 多模态大模型
 

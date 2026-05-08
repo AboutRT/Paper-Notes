@@ -60,7 +60,7 @@ ExtrinSplat 是一个**无训练框架**，输入已优化的3DGS场景和对应
    
    **核心思路**: 使用SAM提取三个粒度级别（part/object/scene）的掩码，用DAM2SAM跟踪保证多视角一致性。通过掩码反投影建立2D-3D对应关系。关键公式为前景概率计算：
    
-   $$W_k(G_j) = \sum_{v \in \mathcal{V}} \sum_{r \in \mathcal{P}_v} \delta(m_v(r) - k) \cdot w_v(r, G_j)$$
+    $W_k(G_j) = \sum_{v \in \mathcal{V}} \sum_{r \in \mathcal{P}_v} \delta(m_v(r) - k) \cdot w_v(r, G_j)$
    
    分组在三个粒度上独立执行，因此同一个高斯点可以同时属于多个语义组（如"窗"和"车"），**天然支持多义性**。
    
@@ -72,7 +72,7 @@ ExtrinSplat 是一个**无训练框架**，输入已优化的3DGS场景和对应
    
    **核心思路**: 利用多视角语义一致性量化模糊性。将每个视角视为给高斯点提供一个离散标签（前景/背景），计算语义熵：
    
-   $$H(p) = -\left(\frac{V_f}{V}\log_2\frac{V_f}{V} + \frac{V_b}{V}\log_2\frac{V_b}{V}\right)$$
+    $H(p) = -\left(\frac{V_f}{V}\log_2\frac{V_f}{V} + \frac{V_b}{V}\log_2\frac{V_b}{V}\right)$
    
    高熵点为候选中性点，但需进一步用不透明度 $\alpha$ 区分：高不透明度的高熵点实际是实体表面的误标记点，应保留分类；低不透明度的高熵点才是真正用于抗锯齿的过渡点，应排除。
    

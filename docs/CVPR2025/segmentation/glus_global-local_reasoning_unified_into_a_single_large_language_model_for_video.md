@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.07962](https://arxiv.org/abs/2504.07962)  
-**代码**: https://glus-video.github.io/ (项目页)  
+**代码**: [https://glus-video.github.io/](https://glus-video.github.io/) (项目页)  
 **领域**: 分割  
 **关键词**: 视频目标分割, 多模态大语言模型, 全局局部推理, 记忆库, 参考视频分割
 

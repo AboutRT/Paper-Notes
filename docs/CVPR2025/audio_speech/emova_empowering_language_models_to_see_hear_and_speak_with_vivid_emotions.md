@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 语音
-  - 全模态LLM
+  - 音频语音
   - 语义-声学解耦
   - 情感语音生成
   - 语音理解
@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2409.18042](https://arxiv.org/abs/2409.18042)  
-**代码**: https://emova-ollm.github.io/ (有)  
+**代码**: [https://emova-ollm.github.io/](https://emova-ollm.github.io/)  
 **领域**: 音频语音 / 多模态LLM  
 **关键词**: 全模态LLM, 语义-声学解耦, 情感语音生成, 语音理解, 端到端对话
 

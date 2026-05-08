@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 语音
-  - 多模态情感分析
+  - 音频语音
   - 三子空间解耦
   - 跨注意力融合
   - 成对共享
@@ -123,6 +123,6 @@ $$\mathcal{L}_{sup} = -\frac{1}{M}\sum_m [\log D_{com}(\mathbf{c}_m) + \sum_{n \
 - [\[AAAI 2026\] PaSE: Prototype-aligned Calibration and Shapley-based Equilibrium for Multimodal Sentiment Analysis](../../AAAI2026/audio_speech/pase_prototype-aligned_calibration_and_shapley-based_equilibrium_for_multimodal_.md)
 - [\[AAAI 2026\] Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection](../../AAAI2026/audio_speech/improving_multimodal_sentiment_analysis_via_modality_optimization_and_dynamic_pr.md)
 - [\[CVPR 2026\] UniM: A Unified Any-to-Any Interleaved Multimodal Benchmark](unim_a_unified_any-to-any_interleaved_multimodal_benchmark.md)
-- [\[CVPR 2026\] ViDscribe: Multimodal AI for Customizing Audio Description and Question Answering in Online Videos](vidscribe_multimodal_ai_customizing_audio_description_videos.md)
+- [\[CVPR 2026\] ViDscribe: Multimodal AI for Customizing Audio Description and Question Answering in Online Videos](vidscribe_multimodal_ai_for_customizing_audio_description_and_question_answering.md)
 
 <!-- RELATED:END -->

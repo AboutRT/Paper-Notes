@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning
 description: >-
-  [NeurIPS 2025][LLM路由] Router-R1 将多 LLM 路由和聚合建模为序列决策过程，用 LLM 自身作为路由器交替执行"思考"和"路由"动作，通过 PPO 训练配合格式/正确性/成本三重奖励，在 7 个 QA 基准上超越所有路由器基线且可泛化到未见过的 LLM。
+  [NeurIPS 2025][强化学习] Router-R1 将多 LLM 路由和聚合建模为序列决策过程，用 LLM 自身作为路由器交替执行"思考"和"路由"动作，通过 PPO 训练配合格式/正确性/成本三重奖励，在 7 个 QA 基准上超越所有路由器基线且可泛化到未见过的 LLM。
 tags:
   - NeurIPS 2025
-  - LLM路由
+  - 强化学习
   - 多轮交互
   - 强化学习
   - 模型协调
@@ -156,8 +156,8 @@ Router-R1 在全部 7 个数据集上超越所有基线，平均精确匹配 0.4
 
 - [\[NeurIPS 2025\] Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](robot-r1_reinforcement_learning_for_enhanced_embodied_reasoning_in_robotics.md)
 - [\[NeurIPS 2025\] MTL-KD: Multi-Task Learning Via Knowledge Distillation for Generalizable Neural Vehicle Routing Solver](mtl-kd_multi-task_learning_via_knowledge_distillation_for_generalizable_neural_v.md)
-- [\[NeurIPS 2025\] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment](teaching_language_models_to_evolve_with_users_dynamic_profile_modeling_for_perso.md)
 - [\[ICML 2025\] The Challenge of Teaching Reasoning to LLMs Without RL or Distillation](../../ICML2025/reinforcement_learning/the_challenge_of_teaching_reasoning_to_llms_without_rl_or_distillation.md)
 - [\[ICLR 2026\] Routing, Cascades, and User Choice for LLMs](../../ICLR2026/reinforcement_learning/routing_cascades_and_user_choice_for_llms.md)
+- [\[NeurIPS 2025\] Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment](teaching_language_models_to_evolve_with_users_dynamic_profile_modeling_for_perso.md)
 
 <!-- RELATED:END -->

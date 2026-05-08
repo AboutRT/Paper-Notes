@@ -7,7 +7,7 @@ tags:
   - ICCV 2025
   - 多模态
   - 多模态大模型
-  - 偏好对齐
+  - 多模态VLM
   - 指令遵循
   - DPO
   - 幻觉缓解
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: 2503.20309  
 **代码**: [数据集](https://huggingface.co/datasets/wangzt-kghl/IPA)  
-**领域**: multimodal_vlm  
+**领域**: 多模态VLM  
 **关键词**: 多模态大模型, 偏好对齐, 指令遵循, DPO, 幻觉缓解  
 **作者**: Zitian Wang, Yue Liao, Kang Rong, Fengyun Rao, Yibo Yang, Si Liu (北航, NUS, KAUST)
 
@@ -182,10 +182,10 @@ $$fb \sim \pi_R(\cdot | V, I, r, r^{ref}, I^{fb}; \theta_{\pi_R})$$
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Guiding Cross-Modal Representations with MLLM Priors via Preference Alignment](../../NeurIPS2025/multimodal_vlm/guiding_cross-modal_representations_with_mllm_priors_via_preference_alignment.md)
 - [\[ACL 2025\] OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference](../../ACL2025/multimodal_vlm/omnialign-v_towards_enhanced_alignment_of_mllms_with_human_preference.md)
+- [\[NeurIPS 2025\] Guiding Cross-Modal Representations with MLLM Priors via Preference Alignment](../../NeurIPS2025/multimodal_vlm/guiding_cross-modal_representations_with_mllm_priors_via_preference_alignment.md)
+- [\[ICCV 2025\] Spatial Preference Rewarding for MLLMs Spatial Understanding](spatial_preference_rewarding_for_mllms_spatial_understanding.md)
 - [\[ICCV 2025\] Scaling Inference-Time Search with Vision Value Model for Improved Visual Comprehension](scaling_inference-time_search_with_vision_value_model_for_improved_visual_compre.md)
-- [\[ICCV 2025\] Large Multi-modal Models Can Interpret Features in Large Multi-modal Models](large_multi-modal_models_can_interpret_features_in_large_multi-modal_models.md)
 - [\[ICCV 2025\] Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](causal_disentanglement_and_cross-modal_alignment_for_enhanced_few-shot_learning.md)
 
 <!-- RELATED:END -->

@@ -10,7 +10,7 @@ tags:
   - 一致性
   - 状态跟踪
   - 行为选择
-  - LLM Agent
+  - 其他
 ---
 
 # Consistent Client Simulation for Motivational Interviewing-based Counseling
@@ -20,7 +20,7 @@ tags:
 **代码**: 无  
 **作者**: Yizhe Yang, Palakorn Achananuparp, Heyan Huang, Jing Jiang, John Pinto, Jenny Giam, Kit Phey Leng, Nicholas Gabriel Lim, Cameron Tan Shi Ern, Ee-peng Lim  
 **机构**: Beijing Institute of Technology, Singapore Management University, Australian National University 等  
-**领域**: 对话系统 / 心理健康  
+**领域**: 其他  
 **关键词**: 客户模拟, 动机性访谈, 一致性, 状态跟踪, 行为选择, LLM Agent
 
 ## 一句话总结

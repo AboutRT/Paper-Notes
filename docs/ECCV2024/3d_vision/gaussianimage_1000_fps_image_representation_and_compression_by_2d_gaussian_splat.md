@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2403.08551](https://arxiv.org/abs/2403.08551)  
-**代码**: https://github.com/Xinjie-Q/GaussianImage (有)  
+**代码**: [https://github.com/Xinjie-Q/GaussianImage](https://github.com/Xinjie-Q/GaussianImage)  
 **领域**: 3D视觉  
 **关键词**: 2D Gaussian Splatting, 图像表示, 图像压缩, 向量量化, 快速渲染
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2412.17780](https://arxiv.org/abs/2412.17780)  
-**代码**: https://huggingface.co/ChatterjeeLab/PepTune (有)  
+**代码**: [https://huggingface.co/ChatterjeeLab/PepTune](https://huggingface.co/ChatterjeeLab/PepTune)  
 **领域**: Image Generation (Peptide/Drug Design)  
 **关键词**: 治疗性肽设计, 离散扩散, 多目标优化, MCTS, SMILES
 

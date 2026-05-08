@@ -47,21 +47,21 @@ tags:
 ### 关键设计
 
 1. **MoLRG数据模型**（Assumption 1）：数据分布为 $K$ 类噪声低秩高斯混合：
-   $$x_0 = U_k^\star a + \delta \tilde{U}_k^\star e, \quad \text{以概率 } \pi_k$$
-   - $U_k^\star \in \mathcal{O}^{n \times d}$：第 $k$ 类子空间正交基（类别相关属性）
-   - $\tilde{U}_k^\star$：其他类子空间的基（类别无关细粒度属性，如背景）
-   - $\delta$：数据噪声水平
+    $x_0 = U_k^\star a + \delta \tilde{U}_k^\star e, \quad \text{以概率 } \pi_k$
+    - $U_k^\star \in \mathcal{O}^{n \times d}$：第 $k$ 类子空间正交基（类别相关属性）
+    - $\tilde{U}_k^\star$：其他类子空间的基（类别无关细粒度属性，如背景）
+    - $\delta$：数据噪声水平
    
    动因：(1) MoLRG捕捉真实图像的内禀低维性；(2) 潜扩散模型的KL惩罚推动隐空间趋向高斯分布；(3) 噪声项建模类别无关的复杂度
 
 2. **网络参数化**：DAE和特征表示参数化为：
-   $$x_\theta(x_t, t) = U h_\theta(x_t, t), \quad h_\theta(x_t, t) = D(x_t, t) U^\top x_t$$
-   $$D(x_t, t) = \text{diag}(\beta_1^t I_d, \ldots, \beta_K^t I_d)$$
+    $x_\theta(x_t, t) = U h_\theta(x_t, t), \quad h_\theta(x_t, t) = D(x_t, t) U^\top x_t$
+    $D(x_t, t) = \text{diag}(\beta_1^t I_d, \ldots, \beta_K^t I_d)$
    
    其中 $\beta_l^t$ 通过softmax权重 $w_l(x_t, t)$ 实现数据和时间依赖的专家选择。这可解释为**浅层U-Net + 块状混合专家（MoE）**机制，包含低维投影、专家加权、对称重建三个组件。
 
 3. **SNR表示质量度量**（Definition 1）：
-   $$\text{SNR}(\hat{x}_\theta, t) = \mathbb{E}_k\left[\frac{\mathbb{E}_{x_t}[\|U_k^\star \hat{h}_\theta(x_t, t)\|^2 | k]}{\mathbb{E}_{x_t}[\|\hat{x}_\theta(x_t, t) - U_k^\star \hat{h}_\theta(x_t, t)\|^2 | k]}\right]$$
+    $\text{SNR}(\hat{x}_\theta, t) = \mathbb{E}_k\left[\frac{\mathbb{E}_{x_t}[\|U_k^\star \hat{h}_\theta(x_t, t)\|^2 | k]}{\mathbb{E}_{x_t}[\|\hat{x}_\theta(x_t, t) - U_k^\star \hat{h}_\theta(x_t, t)\|^2 | k]}\right]$
    分子衡量特征在正确类子空间上的投影能量（信号），分母衡量去除正确类投影后的残余能量（噪声）。
 
 ### 主要理论结果

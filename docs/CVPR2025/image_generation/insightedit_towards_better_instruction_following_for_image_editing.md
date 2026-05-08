@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.17323](https://arxiv.org/abs/2411.17323)  
 **代码**: [项目页面](https://poppyxu.github.io/InsightEdit_web/)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: image editing, instruction following, MLLM, diffusion model, two-stream bridging, AdvancedEdit dataset
 
 ## 一句话总结

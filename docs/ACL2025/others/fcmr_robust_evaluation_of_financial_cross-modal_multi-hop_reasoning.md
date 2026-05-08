@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 跨模态
-  - Multi-Hop QA
+  - 其他
   - Financial NLP
   - benchmark
   - MLLM Evaluation
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2412.12567](https://arxiv.org/abs/2412.12567)  
 **代码**: [HYU-NLP/FCMR](https://github.com/HYU-NLP/FCMR)  
-**领域**: NLP / 多模态推理评估  
+**领域**: 其他  
 **关键词**: Cross-Modal Reasoning, Multi-Hop QA, Financial NLP, benchmark, MLLM Evaluation
 
 ## 一句话总结
@@ -142,7 +142,7 @@ FCMR 的动机就是解决这两个痛点：用金融领域数据避免污染，
 - [\[ACL 2025\] InspireDebate: Multi-Dimensional Evaluation-Guided Reasoning for Debating](inspiredebate_multidim_evaluation_debating.md)
 - [\[ACL 2025\] Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework](learning_to_align_multi-faceted_evaluation_a_unified_and_robust_framework.md)
 - [\[ACL 2025\] Multi-Hop Question Generation via Dual-Perspective Keyword Guidance](multi-hop_question_generation_via_dual-perspective_keyword_guidance.md)
-- [\[ACL 2025\] Multi-Agent Collaboration via Cross-Team Orchestration](multi-agent_collaboration_via_cross-team_orchestration.md)
 - [\[ACL 2025\] AIDE: Attribute-Guided Multi-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning](aide_attribute-guided_multi-hop_data_expansion_for_data_scarcity_in_task-specifi.md)
+- [\[ACL 2025\] Are Bias Evaluation Methods Biased?](are_bias_evaluation_methods_biased.md)
 
 <!-- RELATED:END -->

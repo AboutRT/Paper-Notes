@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics
 description: >-
-  [NeurIPS 2025][具身推理] Robot-R1 提出利用强化学习（GRPO）训练大视觉语言模型（LVLM）进行具身推理，通过将下一关键状态预测转化为多选题并用 RL 优化推理路径，仅凭 7B 参数在低级控制推理任务上超越 GPT-4o。
+  [NeurIPS 2025][强化学习] Robot-R1 提出利用强化学习（GRPO）训练大视觉语言模型（LVLM）进行具身推理，通过将下一关键状态预测转化为多选题并用 RL 优化推理路径，仅凭 7B 参数在低级控制推理任务上超越 GPT-4o。
 tags:
   - NeurIPS 2025
-  - 具身推理
+  - 强化学习
   - 强化学习
   - 机器人控制
   - GRPO
@@ -144,10 +144,10 @@ GRPO 和 RLOO 表现相当，REINFORCE++ 因为批级奖励归一化方差更大
 
 ## 相关论文
 
+- [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning](router-r1_teaching_llms_multi-round_routing_and_aggregation_via_reinforcement_le.md)
 - [\[NeurIPS 2025\] Hybrid Latent Reasoning via Reinforcement Learning](hybrid_latent_reasoning_via_reinforcement_learning.md)
-- [\[NeurIPS 2025\] SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](swe-rl_advancing_llm_reasoning_via_reinforcement_learning_on_open_software_evolu.md)
-- [\[NeurIPS 2025\] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning](memo_training_memory-efficient_embodied_agents_with_reinforcement_learning.md)
-- [\[NeurIPS 2025\] Opinion: Towards Unified Expressive Policy Optimization for Robust Robot Learning](opinion_towards_unified_expressive_policy_optimization_for_robust_robot_learning.md)
+- [\[NeurIPS 2025\] Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling](learning_memory-enhanced_improvement_heuristics_for_flexible_job_shop_scheduling.md)
+- [\[NeurIPS 2025\] Self-Improving Embodied Foundation Models](self-improving_embodied_foundation_models.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Communicating Activations Between Language Model Agents
 description: >-
-  [ICML 2025][多智能体通信] 提出让 LLM 智能体通过中间层激活（而非自然语言）进行通信的方法——在模型 B 的前向传播中间层注入模型 A 的激活向量，无需额外参数和数据，在多项推理基准上比自然语言通信提升 27%，计算量仅为 1/4。
+  [ICML 2025][LLM评测] 提出让 LLM 智能体通过中间层激活（而非自然语言）进行通信的方法——在模型 B 的前向传播中间层注入模型 A 的激活向量，无需额外参数和数据，在多项推理基准上比自然语言通信提升 27%，计算量仅为 1/4。
 tags:
   - ICML 2025
-  - 多智能体通信
+  - LLM评测
   - 激活空间
   - 模型嫁接
   - LLM推理
@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2501.14082](https://arxiv.org/abs/2501.14082)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 多智能体通信, 激活空间, 模型嫁接, LLM推理, 计算效率
 
 ## 一句话总结
@@ -118,10 +118,10 @@ tags:
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](../../NeurIPS2025/llm_evaluation/bayesian_evaluation_of_large_language_model_behavior.md)
+- [\[ICML 2025\] Fleet of Agents: Coordinated Problem Solving with Large Language Models](fleet_of_agents_coordinated_problem_solving_with_large_language_models.md)
 - [\[ICML 2025\] UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](ui-evol_automatic_knowledge_evolving_for_computer_use_agents.md)
-- [\[ACL 2025\] Language Model Probabilities are Not Calibrated in Numeric Contexts](../../ACL2025/llm_evaluation/language_model_probabilities_are_not_calibrated_in_numeric_contexts.md)
 - [\[ICML 2025\] EnIGMA: Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](enigma_interactive_tools_substantially_assist_lm_agents_in_finding_security_vuln.md)
-- [\[NeurIPS 2025\] Exploiting Vocabulary Frequency Imbalance in Language Model Pre-training](../../NeurIPS2025/llm_evaluation/exploiting_vocabulary_frequency_imbalance_in_language_model_pre-training.md)
+- [\[ACL 2025\] Language Model Probabilities are Not Calibrated in Numeric Contexts](../../ACL2025/llm_evaluation/language_model_probabilities_are_not_calibrated_in_numeric_contexts.md)
+- [\[ACL 2026\] Language Model as Planner and Formalizer under Constraints](../../ACL2026/llm_evaluation/language_model_as_planner_and_formalizer_under_constraints.md)
 
 <!-- RELATED:END -->

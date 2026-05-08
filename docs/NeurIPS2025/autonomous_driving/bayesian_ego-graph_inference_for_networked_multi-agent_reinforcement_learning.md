@@ -17,8 +17,8 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2509.16606](https://arxiv.org/abs/2509.16606)  
-**代码**: https://github.com/Wei9711/BayesG  
-**领域**: 多智能体强化学习  
+**代码**: [https://github.com/Wei9711/BayesG](https://github.com/Wei9711/BayesG)  
+**领域**: 自动驾驶  
 **关键词**: 贝叶斯推断, 自我图, 网络化MARL, 动态通信图, 去中心化
 
 ## 一句话总结

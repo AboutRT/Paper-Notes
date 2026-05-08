@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR2025  
 **arXiv**: [2603.06167](https://arxiv.org/abs/2603.06167)  
 **代码**: 待确认  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: semi-supervised learning, breast ultrasound segmentation, pseudo label, vision-language model, contrastive learning
 
 ## 一句话总结

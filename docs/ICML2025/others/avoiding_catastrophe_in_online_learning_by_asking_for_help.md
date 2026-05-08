@@ -9,7 +9,7 @@ tags:
   - 灾难性风险
   - 求助机制
   - 后悔界
-  - Local Generalization
+  - 其他
   - VC维
   - Littlestone维
 ---
@@ -127,6 +127,6 @@ tags:
 - [\[ICML 2025\] Near-Optimal Consistency-Robustness Trade-Offs for Learning-Augmented Online Knapsack Problems](near-optimal_consistency-robustness_trade-offs_for_learning-augmented_online_kna.md)
 - [\[NeurIPS 2025\] Prediction-Powered Semi-Supervised Learning with Online Power Tuning](../../NeurIPS2025/others/prediction-powered_semi-supervised_learning_with_online_power_tuning.md)
 - [\[NeurIPS 2025\] Learning-Augmented Online Bipartite Fractional Matching](../../NeurIPS2025/others/learning-augmented_online_bipartite_fractional_matching.md)
-- [\[ACL 2025\] Can Uniform Meaning Representation Help GPT-4 Translate from Indigenous Languages?](../../ACL2025/others/can_uniform_meaning_representation_help_gpt-4_translate_from_indigenous_language.md)
+- [\[ICML 2025\] Online Sparsification of Bipartite-Like Clusters in Graphs](online_sparsification_of_bipartite-like_clusters_in_graphs.md)
 
 <!-- RELATED:END -->

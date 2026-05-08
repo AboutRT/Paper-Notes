@@ -7,7 +7,7 @@ tags:
   - ACL 2025
   - 多语言评估
   - 文化-语言协同
-  - 神经元可解释性
+  - 多语言翻译
   - 跨文化理解
   - BLEnD
 ---
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2505.24635](https://arxiv.org/abs/2505.24635)  
 **代码**: [https://yingjiahao14.github.io/Dual-Evaluation/](https://yingjiahao14.github.io/Dual-Evaluation/)  
-**领域**: LLM/NLP  
+**领域**: 多语言翻译  
 **关键词**: 多语言评估, 文化-语言协同, 神经元可解释性, 跨文化理解, BLEnD  
 
 ## 一句话总结

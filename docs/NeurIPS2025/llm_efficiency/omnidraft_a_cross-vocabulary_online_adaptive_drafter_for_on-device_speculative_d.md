@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2507.02659](https://arxiv.org/abs/2507.02659)  
 **代码**: 暂无  
-**领域**: 模型压缩  
+**领域**: LLM效率  
 **关键词**: 推测解码, 跨词表, 在线蒸馏, 自适应起草, 端侧推理
 
 ## 一句话总结
@@ -47,19 +47,19 @@ OmniDraft 包含三个核心组件：（1）跨词表 n-gram 缓存用于草稿/
 
 1. **跨词表 N-gram 缓存**：核心思路是维护一个缓存 $\mathcal{C} = \{(t_i, [d_j^i]_{j=1:n})\}$，记录目标 token $t_i$ 与草稿 token 序列 $[d_1^i, d_2^i, \cdots, d_n^i]$ 之间的映射关系。在提议阶段，扫描草稿 token 序列并查找 n-gram 缓存进行合并映射，概率计算为：
 
-   $$q'(t_i) = \begin{cases} q(d_i), & \text{直接映射} \\ \prod_j q(d_j^i), & \text{n-gram 映射} \end{cases}$$
+    $q'(t_i) = \begin{cases} q(d_i), & \text{直接映射} \\ \prod_j q(d_j^i), & \text{n-gram 映射} \end{cases}$
 
    对于修正阶段的残差分布计算，需要在整个目标词表上定义 $q'$，对前缀子 token 做概率调整：$q'(d_1^i) = q(d_1^i) - \prod_j q(d_j^i)$，确保概率质量的正确分配。缓存在推理过程中实时更新——每当出现新的未见映射实例就加入。设计动机：相比 UAG 仅处理词表交集，n-gram 缓存能处理合并 token 的情况，避免"假拒绝"，提高接受率。
 
 2. **跨词表混合蒸馏损失**：在线蒸馏分为两部分——对直接映射 token 使用反向 KL 散度以获得丰富的监督信号，对 n-gram token 使用负对数似然（NLL）因为只有可靠的点概率估计。总损失：
 
-   $$\mathcal{L}_{\text{cross\_vocab\_distill}}(\theta) = \mathcal{L}_{\text{DM}}(\theta) + \lambda \mathcal{L}_{\text{N-gram}}(\theta)$$
+    $\mathcal{L}_{\text{cross\_vocab\_distill}}(\theta) = \mathcal{L}_{\text{DM}}(\theta) + \lambda \mathcal{L}_{\text{N-gram}}(\theta)$
 
    其中 $\mathcal{L}_{\text{DM}}$ 对直接映射 token 计算 KL 散度，$\mathcal{L}_{\text{N-gram}}$ 对 n-gram token 计算 NLL。$\lambda$ 可设为固定超参或动态权重（如目标模型对该 n-gram 的验证概率）。该设计使草稿模型能在在线推理过程中持续与（可能变化的）目标模型对齐。
 
 3. **在线自适应起草**：使用轻量头网络 $f_\phi$ 预测当前提议 token 的接受率。通过累积拒绝概率控制是否提前终止提议：
 
-   $$P(\exists 1 \leq i \leq k, \text{s.t. } y_i \text{ rejected}) > \gamma \Rightarrow \text{exit}$$
+    $P(\exists 1 \leq i \leq k, \text{s.t. } y_i \text{ rejected}) > \gamma \Rightarrow \text{exit}$
 
    提出两种训练变体：**联合训练**（蒸馏 + 自适应头同步更新）和**交替训练**（自适应头多次更新/蒸馏一次更新，使用更大 buffer 缓解分布漂移）。
 
@@ -130,8 +130,8 @@ OmniDraft 包含三个核心组件：（1）跨词表 n-gram 缓存用于草稿/
 
 - [\[NeurIPS 2025\] 3-Model Speculative Decoding (PyramidSD)](3model_speculative_decoding.md)
 - [\[ACL 2026\] Multi-Drafter Speculative Decoding with Alignment Feedback](../../ACL2026/llm_efficiency/multi-drafter_speculative_decoding_with_alignment_feedback.md)
+- [\[ICML 2025\] DSSD: Efficient Edge-Device LLM Deployment and Collaborative Inference via Distributed Split Speculative Decoding](../../ICML2025/llm_efficiency/dssd_efficient_edge-device_llm_deployment_and_collaborative_inference_via_distri.md)
 - [\[ACL 2025\] SAM Decoding: Speculative Decoding via Suffix Automaton](../../ACL2025/llm_efficiency/sam_decoding_speculative_decoding_via_suffix_automaton.md)
-- [\[NeurIPS 2025\] Vocabulary Customization for Efficient Domain-Specific LLM Deployment](vocabulary_customization_for_efficient_domain-specific_llm_deployment.md)
-- [\[NeurIPS 2025\] Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding](yggdrasil_bridging_dynamic_speculation_and_static_runtime_for_latency-optimal_tr.md)
+- [\[NeurIPS 2025\] Efficient Training-Free Online Routing for High-Volume Multi-LLM Serving](efficient_training-free_online_routing_for_high-volume_multi-llm_serving.md)
 
 <!-- RELATED:END -->

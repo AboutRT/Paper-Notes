@@ -19,7 +19,7 @@ tags:
 **arXiv**: [2511.22288](https://arxiv.org/abs/2511.22288)  
 **作者**: Zhaorui Meng, Lu Yin, Yangqing Hou, Anjun Chen, Shihui Guo, Yipeng Qin (厦门大学, 卡迪夫大学)  
 **代码**: 未公开  
-**领域**: human_understanding  
+**领域**: 人体理解  
 **关键词**: 稀疏IMU, 人体运动捕捉, Label Smoothing, Perlin噪声, 正则化  
 
 ## 一句话总结
@@ -150,7 +150,7 @@ $$u = \texttt{sk-Perlin}(JC, \mathcal{H}, size)$$
 - [\[ICCV 2025\] MagShield: Towards Better Robustness in Sparse Inertial Motion Capture Under Magnetic Disturbances](../../ICCV2025/human_understanding/magshield_towards_better_robustness_in_sparse_inertial_motion_capture_under_magn.md)
 - [\[AAAI 2026\] mmPred: Radar-based Human Motion Prediction in the Dark](mmpred_radar-based_human_motion_prediction_in_the_dark.md)
 - [\[CVPR 2026\] HUM4D: A Dataset and Evaluation for Complex 4D Markerless Human Motion Capture](../../CVPR2026/human_understanding/hum4d_markerless_motion_capture.md)
-- [\[AAAI 2026\] FineXtrol: Controllable Motion Generation via Fine-Grained Text](finextrol_controllable_motion_generation_via_fine-grained_text.md)
 - [\[AAAI 2026\] SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control](soscontrol_enhancing_human_motion_generation_through_saliency-aware_symbolic_ori.md)
+- [\[CVPR 2026\] MoLingo: Motion-Language Alignment for Text-to-Human Motion Generation](../../CVPR2026/human_understanding/molingo_motion-language_alignment_for_text-to-motion_generation.md)
 
 <!-- RELATED:END -->

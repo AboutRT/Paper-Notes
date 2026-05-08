@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.22852](https://arxiv.org/abs/2510.22852)  
 **代码**: [kuleshov-group/e2d2](https://github.com/kuleshov-group/e2d2)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: discrete diffusion, encoder-decoder, block diffusion, language model, KV caching
 
 ## 一句话总结
@@ -156,8 +156,8 @@ E2D2 比 AR 吞吐量高 ~75%，ROUGE-L 更高；比 MDLM 快 ~3×。
 
 - [\[NeurIPS 2025\] KLASS: KL-Guided Fast Inference in Masked Diffusion Models](klass_kl-guided_fast_inference_in_masked_diffusion_models.md)
 - [\[NeurIPS 2025\] Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities](progressive_inference-time_annealing_of_diffusion_models_for_sampling_from_boltz.md)
-- [\[NeurIPS 2025\] Training-Free Constrained Generation with Stable Diffusion Models](training-free_constrained_generation_with_stable_diffusion_models.md)
 - [\[NeurIPS 2025\] RLZero: Direct Policy Inference from Language Without In-Domain Supervision](rlzero_direct_policy_inference_from_language_without_in-domain_supervision.md)
+- [\[NeurIPS 2025\] Training-Free Constrained Generation with Stable Diffusion Models](training-free_constrained_generation_with_stable_diffusion_models.md)
 - [\[NeurIPS 2025\] Continuous Diffusion Model for Language Modeling](continuous_diffusion_model_for_language_modeling.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Routing, Cascades, and User Choice for LLMs
 description: >-
-  [ICLR 2026][LLM routing] 将LLM路由建模为provider-user Stackelberg博弈，证明最优路由几乎总是静态无级联的阈值规则，揭示质量/成本排序不一致时的用户-提供商不对齐，以及低流失惩罚下provider被激励通过throttling延迟来降低成本但损害用户效用。
+  [ICLR 2026][强化学习] 将LLM路由建模为provider-user Stackelberg博弈，证明最优路由几乎总是静态无级联的阈值规则，揭示质量/成本排序不一致时的用户-提供商不对齐，以及低流失惩罚下provider被激励通过throttling延迟来降低成本但损害用户效用。
 tags:
   - ICLR 2026
-  - LLM routing
+  - 强化学习
   - cascading
   - Stackelberg game
   - user-provider misalignment
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2602.09902](https://arxiv.org/abs/2602.09902)  
 **代码**: 无  
-**领域**: llm_alignment  
+**领域**: 强化学习  
 **关键词**: LLM routing, cascading, Stackelberg game, user-provider misalignment, throttling
 
 ## 一句话总结
@@ -137,9 +137,9 @@ $$J_i(s, q) = C_i(s, q) + P(1 - S_i(s, q))$$
 ## 相关论文
 
 - [\[ICLR 2026\] ReMix: Reinforcement Routing for Mixtures of LoRAs in LLM Finetuning](remix_reinforcement_routing_lora.md)
+- [\[ICLR 2026\] P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling](p-genrm_personalized_generative_reward_model_with_test-time_user-based_scaling.md)
 - [\[NeurIPS 2025\] Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning](../../NeurIPS2025/reinforcement_learning/router-r1_teaching_llms_multi-round_routing_and_aggregation_via_reinforcement_le.md)
 - [\[ICLR 2026\] Reasoning Boosts Opinion Alignment in LLMs](reasoning_boosts_opinion_alignment_in_llms.md)
 - [\[ICLR 2026\] AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking](abstral_augmenting_llms_reasoning_by_reinforcing_abstract_thinking.md)
-- [\[ICLR 2026\] How LLMs Learn to Reason: A Complex Network Perspective](how_llms_learn_to_reason_a_complex_network_perspective.md)
 
 <!-- RELATED:END -->

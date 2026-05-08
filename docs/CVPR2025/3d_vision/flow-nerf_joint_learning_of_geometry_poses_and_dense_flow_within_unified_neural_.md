@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.10464](https://arxiv.org/abs/2503.10464)  
-**代码**: https://zhengxunzhi.github.io/flownerf/  
+**代码**: [https://zhengxunzhi.github.io/flownerf/](https://zhengxunzhi.github.io/flownerf/)  
 **领域**: 3D视觉  
 **关键词**: 神经辐射场, 无位姿NeRF, 光流, 联合优化, 新视角流
 

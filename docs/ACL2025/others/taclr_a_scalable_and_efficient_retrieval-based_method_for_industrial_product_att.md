@@ -6,7 +6,7 @@ description: >-
 tags:
   - ACL 2025
   - 产品属性值识别
-  - 对比学习
+  - 其他
   - 分类感知负采样
   - 检索范式
   - 工业部署
@@ -16,8 +16,8 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2501.03835](https://arxiv.org/abs/2501.03835)  
-**代码**: 有 (https://github.com/SuYindu/TACLR)  
-**领域**: NLP / 信息检索 / 电商  
+**代码**: 有 ([https://github.com/SuYindu/TACLR](https://github.com/SuYindu/TACLR))  
+**领域**: 其他  
 **关键词**: 产品属性值识别, 对比学习, 分类感知负采样, 检索范式, 工业部署
 
 ## 一句话总结
@@ -152,9 +152,9 @@ $$\mathcal{L}_a = -\log \frac{\exp(s(i, v_a^+)/\tau)}{\exp(s(i, v_a^+)/\tau) + \
 ## 相关论文
 
 - [\[ACL 2025\] Divide-Then-Aggregate: An Efficient Tool Learning Method via Parallel Tool Invocation](dta_llama_parallel_tool_invocation.md)
-- [\[ACL 2025\] Value Residual Learning](value_residual_learning.md)
-- [\[ACL 2025\] GeAR: Generation Augmented Retrieval](gear_generation_augmented_retrieval.md)
 - [\[ACL 2025\] HATA: Trainable and Hardware-Efficient Hash-Aware Top-k Attention for Scalable Large Model Inference](hata_trainable_and_hardware-efficient_hash-aware_top-k_attention_for_scalable_la.md)
-- [\[ACL 2025\] HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation](hash-rag_bridging_deep_hashing_with_retriever_for_efficient_fine_retrieval_and_a.md)
+- [\[ACL 2025\] Value Residual Learning](value_residual_learning.md)
+- [\[ACL 2025\] Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education](uni-retrieval_a_multi-style_retrieval_framework_for_stems_education.md)
+- [\[ACL 2025\] ACORD: An Expert-Annotated Retrieval Dataset for Legal Contract Clause Retrieval](acord_an_expert-annotated_retrieval_dataset_for_legal_contract_drafting.md)
 
 <!-- RELATED:END -->

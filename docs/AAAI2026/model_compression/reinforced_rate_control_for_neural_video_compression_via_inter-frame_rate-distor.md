@@ -20,7 +20,7 @@ tags:
 **arXiv**: [2601.19293](https://arxiv.org/abs/2601.19293)  
 **作者**: Wuyang Cong, Junqi Shi, Lizhong Wang, Weijing Shi, Ming Lu, Hao Chen, Zhan Ma (南京大学)  
 **代码**: 待公开  
-**领域**: model_compression  
+**领域**: 模型压缩  
 **关键词**: 神经视频压缩, 速率控制, 强化学习, 帧间依赖, Actor-Critic, 率失真优化  
 
 ## 一句话总结
@@ -180,6 +180,6 @@ $$r_t = -\mathbf{w}_t^\top \mathbf{f}_t, \quad \mathbf{f}_t = \begin{pmatrix} D_
 - [\[ICML 2025\] RADIO: Rate-Distortion Optimization for Large Language Model Compression](../../ICML2025/model_compression/radio_rate-distortion_optimization_for_large_language_model_compression.md)
 - [\[ICLR 2026\] Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport](../../ICLR2026/model_compression/cross_domain_lossy_compression_optimal_transport.md)
 - [\[AAAI 2026\] HCF: Hierarchical Cascade Framework for Distributed Multi-Stage Image Compression](hcf_hierarchical_cascade_framework_for_distributed_multi-stage_image_compression.md)
-- [\[AAAI 2026\] BD-Net: Has Depth-Wise Convolution Ever Been Applied in Binary Neural Networks?](bd-net_has_depth-wise_convolution_ever_been_applied_in_binary_neural_networks.md)
+- [\[AAAI 2026\] Failures to Surface Harmful Contents in Video Large Language Models](failures_to_surface_harmful_contents_in_video_large_language_models.md)
 
 <!-- RELATED:END -->

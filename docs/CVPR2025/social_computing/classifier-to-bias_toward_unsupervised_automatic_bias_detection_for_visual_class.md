@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2025
   - 公平性
-  - 偏差检测
+  - 社会计算
   - LLM
   - 无监督
   - 视觉分类器
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2504.20902](https://arxiv.org/abs/2504.20902)  
-**代码**: https://github.com/mardgui/C2B  
-**领域**: AI安全 / 公平性  
+**代码**: [https://github.com/mardgui/C2B](https://github.com/mardgui/C2B)  
+**领域**: 社会计算  
 **关键词**: 偏差检测, 无监督, LLM, 检索增强, 模型公平性
 
 ## 一句话总结

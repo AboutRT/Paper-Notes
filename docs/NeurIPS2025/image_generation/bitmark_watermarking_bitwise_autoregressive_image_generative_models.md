@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2506.21209](https://arxiv.org/abs/2506.21209)  
-**代码**: https://github.com/sprintml/BitMark  
+**代码**: [https://github.com/sprintml/BitMark](https://github.com/sprintml/BitMark)  
 **领域**: 图像生成 / 水印 / AI安全  
 **关键词**: 比特级水印, 自回归图像生成, 模型坍缩预防, 放射性水印, Infinity
 

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ECCV 2024  
 **arXiv**: [2404.11895](https://arxiv.org/abs/2404.11895)  
-**代码**: [GitHub](https://github.com/Thermal-Dynamics/FreeDiff) (有)  
+**代码**: [GitHub](https://github.com/Thermal-Dynamics/FreeDiff)  
 **领域**: 图像生成  
 **关键词**: 扩散模型, 图像编辑, 频率截断, 引导精炼, 免调优
 

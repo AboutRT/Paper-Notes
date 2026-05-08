@@ -9,7 +9,7 @@ tags:
   - 人格驱动行为模拟
   - 行为链
   - 基准测试
-  - LLM评估
+  - LLM评测
 ---
 
 # How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025 (Findings)  
 **arXiv**: [2502.14642](https://arxiv.org/abs/2502.14642)  
 **代码**: 无  
-**领域**: LLM/NLP  
+**领域**: LLM评测  
 **关键词**: 数字孪生, 人格驱动行为模拟, 行为链, 基准测试, LLM评估
 
 ## 一句话总结
@@ -131,8 +131,8 @@ BehaviorChain的构建和评估流程如下：（1）收集高质量的人格画
 
 - [\[ACL 2025\] Towards Objective Fine-tuning: How LLMs' Prior Knowledge Causes Potential Poor Calibration?](towards_objective_fine-tuning_how_llms_prior_knowledge_causes_potential_poor_cal.md)
 - [\[NeurIPS 2025\] PARROT: A Benchmark for Evaluating LLMs in Cross-System SQL Translation](../../NeurIPS2025/llm_evaluation/parrot_a_benchmark_for_evaluating_llms_in_cross-system_sql_translation.md)
+- [\[ACL 2025\] RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios](rulearena_rule_guided_reasoning.md)
+- [\[ICML 2025\] DataDecide: How to Predict Best Pretraining Data with Small Experiments](../../ICML2025/llm_evaluation/datadecide_how_to_predict_best_pretraining_data_with_small_experiments.md)
 - [\[ACL 2025\] CFBench: A Comprehensive Constraints-Following Benchmark for LLMs](cfbench_a_comprehensive_constraints-following_benchmark_for_llms.md)
-- [\[ICML 2025\] How Much Can We Forget about Data Contamination?](../../ICML2025/llm_evaluation/how_much_can_we_forget_about_data_contamination.md)
-- [\[NeurIPS 2025\] Bayesian Evaluation of Large Language Model Behavior](../../NeurIPS2025/llm_evaluation/bayesian_evaluation_of_large_language_model_behavior.md)
 
 <!-- RELATED:END -->

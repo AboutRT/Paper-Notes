@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2411.04746](https://arxiv.org/abs/2411.04746)  
-**代码**: https://github.com/wangjiangshan0725/RF-Solver-Edit  
+**代码**: [https://github.com/wangjiangshan0725/RF-Solver-Edit](https://github.com/wangjiangshan0725/RF-Solver-Edit)  
 **领域**: 扩散模型 / 图像编辑 / 视频编辑  
 **关键词**: Rectified Flow, ODE Solver, 图像反演, 图像编辑, Taylor展开
 
@@ -155,6 +155,6 @@ RF-Solver 在 FLUX 和 OpenSora 上均大幅超越 vanilla Euler 采样器，PSN
 - [\[ICCV 2025\] FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models](../../ICCV2025/image_generation/flowedit_inversion-free_text-based_editing_using_pre-trained_flow_models.md)
 - [\[CVPR 2025\] Unveil Inversion and Invariance in Flow Transformer for Versatile Image Editing](../../CVPR2025/image_generation/unveil_inversion_and_invariance_in_flow_transformer_for_versatile_image_editing.md)
 - [\[ICCV 2025\] ReFlex: Text-Guided Editing of Real Images in Rectified Flow via Mid-Step Feature Extraction and Attention Adaptation](../../ICCV2025/image_generation/reflex_text-guided_editing_of_real_images_in_rectified_flow_via_mid-step_feature.md)
-- [\[NeurIPS 2025\] Balanced Conic Rectified Flow](../../NeurIPS2025/image_generation/balanced_conic_rectified_flow.md)
+- [\[NeurIPS 2025\] Rectified-CFG++ for Flow Based Models](../../NeurIPS2025/image_generation/rectified-cfg_for_flow_based_models.md)
 
 <!-- RELATED:END -->

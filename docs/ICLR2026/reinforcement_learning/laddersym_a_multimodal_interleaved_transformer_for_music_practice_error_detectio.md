@@ -2,10 +2,10 @@
 title: >-
   [论文解读] LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection
 description: >-
-  [ICLR 2026][音乐错误检测] 提出LadderSym架构解决音乐练习错误检测任务，通过交替式跨流对齐模块（Ladder）克服晚期融合的对齐不足，并用符号乐谱提示（Sym）减少纯音频乐谱的频率歧义，在MAESTRO-E上将漏音F1从26.8%提升到56.3%。
+  [ICLR 2026][强化学习] 提出LadderSym架构解决音乐练习错误检测任务，通过交替式跨流对齐模块（Ladder）克服晚期融合的对齐不足，并用符号乐谱提示（Sym）减少纯音频乐谱的频率歧义，在MAESTRO-E上将漏音F1从26.8%提升到56.3%。
 tags:
   - ICLR 2026
-  - 音乐错误检测
+  - 强化学习
   - 多模态融合
   - 交叉注意力
   - 符号提示
@@ -17,7 +17,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.08580](https://arxiv.org/abs/2510.08580)  
 **代码**: [GitHub](https://github.com/ben2002chou/LadderSYM)  
-**领域**: 多模态/音乐AI  
+**领域**: 强化学习  
 **关键词**: 音乐错误检测, 多模态融合, 交叉注意力, 符号提示, 对齐模块
 
 ## 一句话总结
@@ -120,7 +120,7 @@ tags:
 - [\[ICLR 2026\] Echo: Towards Advanced Audio Comprehension via Audio-Interleaved Reasoning](echo_towards_advanced_audio_comprehension_via_audio-interleaved_reasoning.md)
 - [\[ICLR 2026\] Spotlight on Token Perception for Multimodal Reinforcement Learning](spotlight_on_token_perception_for_multimodal_reinforcement_learning.md)
 - [\[ICLR 2026\] MARS-Sep: Multimodal-Aligned Reinforced Sound Separation](mars-sep_multimodal-aligned_reinforced_sound_separation.md)
-- [\[AAAI 2026\] TextShield-R1: Reinforced Reasoning for Tampered Text Detection](../../AAAI2026/reinforcement_learning/textshield-r1_reinforced_reasoning_for_tampered_text_detection.md)
 - [\[ICLR 2026\] UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings](ume-r1_exploring_reasoning-driven_generative_multimodal_embeddings.md)
+- [\[AAAI 2026\] TextShield-R1: Reinforced Reasoning for Tampered Text Detection](../../AAAI2026/reinforcement_learning/textshield-r1_reinforced_reasoning_for_tampered_text_detection.md)
 
 <!-- RELATED:END -->

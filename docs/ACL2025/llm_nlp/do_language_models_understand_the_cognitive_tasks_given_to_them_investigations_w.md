@@ -17,7 +17,7 @@ tags:
 
 **会议**: ACL 2025  
 **arXiv**: [2412.18120](https://arxiv.org/abs/2412.18120)  
-**代码**: https://github.com/hxiaoyang/lm-nback  
+**代码**: [https://github.com/hxiaoyang/lm-nback](https://github.com/hxiaoyang/lm-nback)  
 **领域**: LLM/NLP - 认知评估  
 **关键词**: cognitive evaluation, N-back, working memory, task comprehension, LLM
 

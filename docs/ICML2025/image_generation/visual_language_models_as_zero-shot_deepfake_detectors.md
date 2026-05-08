@@ -18,7 +18,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2507.22469](https://arxiv.org/abs/2507.22469)  
 **代码**: 无  
-**领域**: AI安全 / 多模态VLM  
+**领域**: 图像生成  
 **关键词**: Deepfake检测, 视觉语言模型, 零样本分类, VLM概率校准, InstructBLIP
 
 ## 一句话总结
@@ -120,6 +120,6 @@ tags:
 - [\[NeurIPS 2025\] Towards Robust Zero-Shot Reinforcement Learning](../../NeurIPS2025/image_generation/towards_robust_zero-shot_reinforcement_learning.md)
 - [\[NeurIPS 2025\] Semantic Surgery: Zero-Shot Concept Erasure in Diffusion Models](../../NeurIPS2025/image_generation/semantic_surgery_zero-shot_concept_erasure_in_diffusion_models.md)
 - [\[CVPR 2025\] Visual Lexicon: Rich Image Features in Language Space](../../CVPR2025/image_generation/visual_lexicon_rich_image_features_in_language_space.md)
-- [\[CVPR 2025\] Zero-Shot Image Restoration Using Few-Step Guidance of Consistency Models (and Beyond)](../../CVPR2025/image_generation/zero-shot_image_restoration_using_few-step_guidance_of_consistency_models_and_be.md)
+- [\[CVPR 2025\] Overcoming Visual Clutter in Vision Language Action Models via Concept-Gated Visual Distillation](../../CVPR2025/image_generation/overcoming_visual_clutter_in_vision_language_action_models_via_concept-gated_vis.md)
 
 <!-- RELATED:END -->

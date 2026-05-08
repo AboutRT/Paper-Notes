@@ -6,7 +6,7 @@ description: >-
 tags:
   - ICCV 2025
   - 语音
-  - 视觉-语言预训练
+  - 音频语音
   - 交错图文数据集
   - 教学视频
   - 多模态教材
@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2501.00958](https://arxiv.org/abs/2501.00958)  
 **代码**: [https://github.com/DAMO-NLP-SG/multimodal_textbook](https://github.com/DAMO-NLP-SG/multimodal_textbook)  
-**领域**: 多模态预训练  
+**领域**: 音频语音  
 **关键词**: 视觉-语言预训练, 交错图文数据集, 教学视频, 多模态教材, 上下文学习
 
 ## 一句话总结
@@ -124,9 +124,9 @@ tags:
 
 ## 相关论文
 
-- [\[ICCV 2025\] How Would It Sound? Material-Controlled Multimodal Acoustic Profile Generation for Objects](how_would_it_sound_material-controlled_multimodal_acoustic_profile_generation_fo.md)
 - [\[ICCV 2025\] Zero-AVSR: Zero-Shot Audio-Visual Speech Recognition with LLMs by Learning Language-Agnostic Speech Representations](zero-avsr_zero-shot_audio-visual_speech_recognition_with_llms_by_learning_langua.md)
 - [\[ICCV 2025\] Everything is a Video: Unifying Modalities through Next-Frame Prediction](everything_is_a_video_unifying_modalities_through_next-frame_prediction.md)
+- [\[ICCV 2025\] VGGSounder: Audio-Visual Evaluations for Foundation Models](vggsounder_audio-visual_evaluations_for_foundation_models.md)
 - [\[ICCV 2025\] Lyra: An Efficient and Speech-Centric Framework for Omni-Cognition](lyra_an_efficient_and_speech-centric_framework_for_omni-cognition.md)
 - [\[ICCV 2025\] Learning to See Inside Opaque Liquid Containers using Speckle Vibrometry](learning_to_see_inside_opaque_liquid_containers_using_speckle_vibrometry.md)
 

@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.04010](https://arxiv.org/abs/2503.04010)  
 **代码**: 无  
-**领域**: reinforcement_learning  
+**领域**: 强化学习  
 **关键词**: structured bandits, greedy algorithm, regret, self-identifiability, contextual bandits
 
 ## 一句话总结

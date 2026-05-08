@@ -7,7 +7,7 @@ tags:
   - CVPR 2025
   - 点追踪
   - 时序一致性
-  - 视频深度估计
+  - 视频生成
   - 注意力机制
   - 即插即用
 ---
@@ -16,8 +16,8 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19904](https://arxiv.org/abs/2503.19904)  
-**代码**: https://zlai0.github.io/TrackTention  
-**领域**: 视频理解  
+**代码**: [https://zlai0.github.io/TrackTention](https://zlai0.github.io/TrackTention)  
+**领域**: 视频生成  
 **关键词**: 点追踪, 时序一致性, 视频深度估计, 注意力机制, 即插即用
 
 ## 一句话总结
@@ -127,9 +127,9 @@ Tracktention 层由三个子模块组成：（1）Attentional Sampling 从视频
 ## 相关论文
 
 - [\[CVPR 2025\] Exploring Temporally-Aware Features for Point Tracking](exploring_temporally-aware_features_for_point_tracking.md)
+- [\[CVPR 2025\] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](videoguide_improving_video_diffusion_models_without_training_through_a_teachers_.md)
+- [\[CVPR 2025\] TransPixeler: Advancing Text-to-Video Generation with Transparency](transpixeler_advancing_text-to-video_generation_with_transparency.md)
 - [\[CVPR 2025\] Learning Temporally Consistent Video Depth from Video Diffusion Priors](learning_temporally_consistent_video_depth_from_video_diffusion_priors.md)
 - [\[NeurIPS 2025\] VSA: Faster Video Diffusion with Trainable Sparse Attention](../../NeurIPS2025/video_generation/vsa_faster_video_diffusion_with_trainable_sparse_attention.md)
-- [\[NeurIPS 2025\] Scaling RL to Long Videos](../../NeurIPS2025/video_generation/scaling_rl_to_long_videos.md)
-- [\[CVPR 2025\] TransPixeler: Advancing Text-to-Video Generation with Transparency](transpixeler_advancing_text-to-video_generation_with_transparency.md)
 
 <!-- RELATED:END -->

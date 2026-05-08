@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2412.04887](https://arxiv.org/abs/2412.04887)  
-**代码**: https://jixuan-fan.github.io/Momentum-GS_Page/  
+**代码**: [https://jixuan-fan.github.io/Momentum-GS_Page/](https://jixuan-fan.github.io/Momentum-GS_Page/)  
 **领域**: 3D视觉  
 **关键词**: 3D高斯溅射, 大规模场景重建, 动量自蒸馏, 混合表示, 分块并行训练
 
@@ -137,8 +137,8 @@ MatrixCity 结果：Momentum-GS PSNR 29.11 / SSIM 0.881 / LPIPS 0.180，全面�
 
 - [\[ICCV 2025\] S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction](s3r-gs_streamlining_the_pipeline_for_large-scale_street_scene_reconstruction.md)
 - [\[ICCV 2025\] OccluGaussian: Occlusion-Aware Gaussian Splatting for Large Scene Reconstruction and Rendering](occlugaussian_occlusion-aware_gaussian_splatting_for_large_scene_reconstruction_.md)
-- [\[CVPR 2025\] HRAvatar: High-Quality and Relightable Gaussian Head Avatar](../../CVPR2025/3d_vision/hravatar_high-quality_and_relightable_gaussian_head_avatar.md)
 - [\[ICCV 2025\] RayZer: A Self-supervised Large View Synthesis Model](rayzer_a_self-supervised_large_view_synthesis_model.md)
+- [\[CVPR 2025\] HRAvatar: High-Quality and Relightable Gaussian Head Avatar](../../CVPR2025/3d_vision/hravatar_high-quality_and_relightable_gaussian_head_avatar.md)
 - [\[ECCV 2024\] GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting](../../ECCV2024/3d_vision/gs-lrm_large_reconstruction_model_for_3d_gaussian_splatting.md)
 
 <!-- RELATED:END -->

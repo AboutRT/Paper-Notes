@@ -16,8 +16,8 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.08550](https://arxiv.org/abs/2602.08550)  
-**代码**: https://github.com/chenshihfang/GOT (有)  
-**领域**: 视频理解 / 目标跟踪 / 3D视觉  
+**代码**: [https://github.com/chenshihfang/GOT](https://github.com/chenshihfang/GOT)  
+**领域**: 知识编辑  
 **关键词**: 目标跟踪, 3D几何, 零空间编辑, 在线模型更新, VGGT
 
 ## 一句话总结

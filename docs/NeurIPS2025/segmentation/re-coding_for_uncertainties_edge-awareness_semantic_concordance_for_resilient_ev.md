@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2511.08269](https://arxiv.org/abs/2511.08269)  
-**代码**: https://github.com/iCVTEAM/ESC  
+**代码**: [https://github.com/iCVTEAM/ESC](https://github.com/iCVTEAM/ESC)  
 **领域**: 语义分割 / 多模态融合  
 **关键词**: Event-RGB融合, 语义边缘, 离散潜空间, 不确定性优化, 极端条件
 

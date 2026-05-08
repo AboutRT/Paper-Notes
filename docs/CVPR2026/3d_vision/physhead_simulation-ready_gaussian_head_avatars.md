@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2604.06467](https://arxiv.org/abs/2604.06467)  
-**代码**: https://phys-head.github.io  
+**代码**: [https://phys-head.github.io](https://phys-head.github.io)  
 **领域**: 3D视觉 / 头部Avatar  
 **关键词**: 头部Avatar重建, 3D高斯溅射, 发丝物理模拟, 分层表示, VLM辅助
 

@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025 (Spotlight)  
 **arXiv**: [2505.08140](https://arxiv.org/abs/2505.08140)  
 **代码**: 无  
-**领域**: llm_reasoning  
+**领域**: LLM推理  
 **关键词**: communication complexity, bounded attention, chain-of-thought, LLM limitations, computational framework  
 **作者**: Tobias Schnabel, Kiran Tomlinson, Adith Swaminathan, Jennifer Neville (Microsoft)
 
@@ -130,6 +130,6 @@ tags:
 - [\[ICLR 2026\] Why is Your Language Model a Poor Implicit Reward Model?](../../ICLR2026/llm_reasoning/why_is_your_language_model_a_poor_implicit_reward_model.md)
 - [\[NeurIPS 2025\] 笔记6：Self-Evaluating LLMs - 多步任务的步级置信度估计](value-guided_search_for_efficient_chain-of-thought_reasoning.md)
 - [\[NeurIPS 2025\] Many LLMs Are More Utilitarian Than One](many_llms_are_more_utilitarian_than_one.md)
-- [\[ICLR 2026\] Native Reasoning Models: Training Language Models to Reason on Unverifiable Data](../../ICLR2026/llm_reasoning/native_reasoning_models_training_language_models_to_reason_on_unverifiable_data.md)
+- [\[ACL 2026\] When Is Thinking Enough? Early Exit via Sufficiency Assessment for Efficient Reasoning](../../ACL2026/llm_reasoning/when_is_thinking_enough_early_exit_via_sufficiency_assessment_for_efficient_reas.md)
 
 <!-- RELATED:END -->

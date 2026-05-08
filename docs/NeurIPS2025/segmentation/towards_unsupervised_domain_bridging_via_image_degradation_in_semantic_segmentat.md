@@ -18,7 +18,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2412.10339](https://arxiv.org/abs/2412.10339)  
 **代码**: [有](https://github.com/Woof6/DiDA)  
-**领域**: Segmentation / Domain Adaptation  
+**领域**: 图像分割  
 **关键词**: 无监督域适应, 语义分割, 扩散过程, 图像退化, 域桥接
 
 ## 一句话总结
@@ -46,11 +46,11 @@ DiDA 集成到标准自训练(ST) UDA 流程中，包含两个核心模块：(1)
 1. **基于退化的中间域构建 (Degradation-based Intermediate Domain Construction)**：将扩散前向过程 $x_t = \sqrt{\bar{\alpha}_t} x_0 + \sqrt{1-\bar{\alpha}_t} \epsilon$ 产生的中间状态 $X_1, X_2, \ldots, X_T$ 视为中间域。随着时间步增大，不同域分布的重叠面积逐渐扩大，消除域特定属性。基于理论命题（属性丢失与时间步的单调关系），退化操作构建了从源/目标域到共享域的连续桥接。
 
 2. **语义偏移补偿 (Semantic Shift Compensation)**：引入可训练的扩散编码器 $g'$，以时间嵌入模块条件化，对退化图像 $x_t$ 提取语义偏移信息：
-   $$\hat{z}_{(t,i)} = z'_{(t,i)} (MLP_s^i \circ \text{Embed}(t) + 1) + MLP_b^i \circ \text{Embed}(t)$$
+    $\hat{z}_{(t,i)} = z'_{(t,i)} (MLP_s^i \circ \text{Embed}(t) + 1) + MLP_b^i \circ \text{Embed}(t)$
    通过残差连接在多层级上融合特征 $g + g'$，用重建损失 $\mathcal{L}^R = \|f_\theta(x_t, t) - \epsilon\|_2^2$ 监督。设计动机：时间嵌入使网络能精确解耦不同退化程度对应的语义损失，从而针对性地补偿。
 
 3. **退化图像一致性损失 (Degraded Image Consistency, DIC)**：
-   $$\mathcal{L}^D = \sum_{i}^{N_S} \mathcal{L}_{ce}(\bar{f}_\theta(x_{i,t}^S, t), y_i^S) + \sum_{i}^{N_T} \mathcal{L}_{ce}(\bar{f}_\theta(x_{i,t}^T, t), p_i^T, q^T)$$
+    $\mathcal{L}^D = \sum_{i}^{N_S} \mathcal{L}_{ce}(\bar{f}_\theta(x_{i,t}^S, t), y_i^S) + \sum_{i}^{N_T} \mathcal{L}_{ce}(\bar{f}_\theta(x_{i,t}^T, t), p_i^T, q^T)$
    其中 $\bar{f}_\theta = h \circ (g + g')$，强制退化图像和原始图像的预测一致。
 
 ### 损失函数 / 训练策略

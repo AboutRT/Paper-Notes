@@ -6,7 +6,7 @@ description: >-
 tags:
   - CVPR 2026
   - 图表理解
-  - 多模态数据集
+  - 信号通信
   - 代码引导合成
   - 视觉语言模型
   - 数据可视化
@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.27064](https://arxiv.org/abs/2603.27064)  
 **代码**: [HuggingFace](https://huggingface.co/datasets/ibm-granite/ChartNet)  
-**领域**: 多模态理解  
+**领域**: 信号通信  
 **关键词**: 图表理解、多模态数据集、代码引导合成、视觉语言模型、数据可视化  
 
 ## 一句话总结
@@ -146,6 +146,6 @@ ChartMimic-v2 代码生成（granite-vision-2B）：
 - [\[ICCV 2025\] Boosting Multimodal Learning via Disentangled Gradient Learning](../../ICCV2025/signal_comm/boosting_multimodal_learning_via_disentangled_gradient_learning.md)
 - [\[ACL 2026\] Solver-Independent Automated Problem Formulation via LLMs for High-Cost Simulation-Driven Design](../../ACL2026/signal_comm/solver-independent_automated_problem_formulation_via_llms_for_high-cost_simulati.md)
 - [\[NeurIPS 2025\] Bispectral OT: Dataset Comparison using Symmetry-Aware Optimal Transport](../../NeurIPS2025/signal_comm/bispectral_ot_dataset_comparison_using_symmetry-aware_optimal_transport.md)
-- [\[CVPR 2025\] Tuning the Frequencies: Robust Training for Sinusoidal Neural Networks](../../CVPR2025/signal_comm/tuning_the_frequencies_robust_training_for_sinusoidal_neural_networks.md)
+- [\[ECCV 2024\] Defect Spectrum: A Granular Look of Large-Scale Defect Datasets with Rich Semantics](../../ECCV2024/signal_comm/defect_spectrum_a_granular_look_of_large-scale_defect_datasets_with_rich_semanti.md)
 
 <!-- RELATED:END -->

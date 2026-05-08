@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICLR 2026  
 **arXiv**: [2602.05420](https://arxiv.org/abs/2602.05420)  
-**代码**: https://github.com/SR0920/Disco (有)  
+**代码**: [https://github.com/SR0920/Disco](https://github.com/SR0920/Disco)  
 **领域**: 医学图像 / 分割  
 **关键词**: 细胞实例分割, 图着色, 密集重叠, 邻接约束, 病理图像
 

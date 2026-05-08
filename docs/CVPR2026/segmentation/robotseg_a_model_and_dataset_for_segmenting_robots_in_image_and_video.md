@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2026  
 **arXiv**: [2511.22950](https://arxiv.org/abs/2511.22950)  
-**代码**: https://github.com/showlab/RobotSeg  
+**代码**: [https://github.com/showlab/RobotSeg](https://github.com/showlab/RobotSeg)  
 **领域**: 分割  
 **关键词**: 机器人分割、SAM2、结构感知、自动分割、标签高效学习
 
@@ -133,6 +133,6 @@ tags:
 - [\[CVPR 2026\] RS-SSM: Refining Forgotten Specifics in State Space Model for Video Semantic Segmentation](rs-ssm_refining_forgotten_specifics_in_state_space_model_for_video_semantic_segm.md)
 - [\[AAAI 2026\] Tracking and Segmenting Anything in Any Modality](../../AAAI2026/segmentation/tracking_and_segmenting_anything_in_any_modality.md)
 - [\[CVPR 2026\] Live Interactive Training for Video Segmentation](live_interactive_training_for_video_segmentation.md)
-- [\[NeurIPS 2025\] ARGenSeg: Image Segmentation with Autoregressive Image Generation Model](../../NeurIPS2025/segmentation/argenseg_image_segmentation_with_autoregressive_image_generation_model.md)
+- [\[CVPR 2025\] Mosaic3D: Foundation Dataset and Model for Open-Vocabulary 3D Segmentation](../../CVPR2025/segmentation/mosaic3d_foundation_dataset_and_model_for_open-vocabulary_3d_segmentation.md)
 
 <!-- RELATED:END -->

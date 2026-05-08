@@ -17,7 +17,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2503.08250](https://arxiv.org/abs/2503.08250)  
-**代码**: https://softrepa.github.io/ (项目页)  
+**代码**: [https://softrepa.github.io/](https://softrepa.github.io/) (项目页)  
 **领域**: 扩散模型 / 文本-图像对齐  
 **关键词**: SoftREPA, 对比学习, Soft Token, 文本图像对齐, 互信息
 
@@ -133,6 +133,6 @@ tags:
 - [\[NeurIPS 2025\] Understand Before You Generate: Self-Guided Training for Autoregressive Image Generation](understand_before_you_generate_self-guided_training_for_autoregressive_image_gen.md)
 - [\[NeurIPS 2025\] Diffusion Adaptive Text Embedding for Text-to-Image Diffusion Models](diffusion_adaptive_text_embedding_for_texttoimage_diffusion.md)
 - [\[NeurIPS 2025\] Training-Free Safe Text Embedding Guidance for Text-to-Image Diffusion Models](training-free_safe_text_embedding_guidance_for_text-to-image_diffusion_models.md)
-- [\[NeurIPS 2025\] CORAL: Disentangling Latent Representations in Long-Tailed Diffusion](coral_disentangling_latent_representations_in_longtailed_dif.md)
+- [\[NeurIPS 2025\] CORAL: Disentangling Latent Representations in Long-Tailed Diffusion](coral_longtail_diffusion.md)
 
 <!-- RELATED:END -->

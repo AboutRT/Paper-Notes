@@ -17,7 +17,7 @@ tags:
 
 **会议**: AAAI 2026  
 **arXiv**: [2511.14784](https://arxiv.org/abs/2511.14784)  
-**代码**: [https://tinyurl.com/2v3dx75x](https://tinyurl.com/2v3dx75x) (有)  
+**代码**: [https://tinyurl.com/2v3dx75x](https://tinyurl.com/2v3dx75x)  
 **领域**: 聚类 / 鲁棒优化  
 **关键词**: 凸聚类, Median of Means, 鲁棒聚类, 离群点检测, Adam优化  
 

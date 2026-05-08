@@ -11,7 +11,7 @@ tags: [LLM Agent, 工具增强, 复杂推理, 多步规划, 工具卡]
 **会议**: ACL 2026
 **arXiv**: [2502.11271](https://arxiv.org/abs/2502.11271)
 **代码**: [https://github.com/octotools/octotools](https://github.com/octotools/octotools)
-**领域**: llm_reasoning
+**领域**: LLM推理
 **关键词**: 智能体框架, 工具增强推理, 多步规划, 工具卡, 可扩展性
 
 ## 一句话总结

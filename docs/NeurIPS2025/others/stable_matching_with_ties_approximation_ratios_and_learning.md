@@ -17,7 +17,7 @@ tags:
 **会议**: NeurIPS 2025  
 **arXiv**: [2411.03270](https://arxiv.org/abs/2411.03270)  
 **代码**: 暂无  
-**领域**: 算法博弈论 / 双边匹配 / Bandit学习  
+**领域**: 其他  
 **关键词**: 稳定匹配, 偏好并列, 近似比, OSS-ratio, 多臂老虎机
 
 ## 一句话总结
@@ -119,9 +119,9 @@ Bandit设定下每轮观察1-sub-Gaussian奖励$X_i(t)$，均值$\mathbf{U}(w_i,
 ## 相关论文
 
 - [\[NeurIPS 2025\] Learning-Augmented Online Bipartite Fractional Matching](learning-augmented_online_bipartite_fractional_matching.md)
-- [\[ICML 2025\] Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation](../../ICML2025/others/sassha_sharpness-aware_adaptive_second-order_optimization_with_stable_hessian_ap.md)
 - [\[NeurIPS 2025\] Improved Approximation Algorithms for Chromatic and Pseudometric-Weighted Correlation Clustering](improved_approximation_algorithms_for_chromatic_and_pseudometric-weighted_correl.md)
 - [\[ICML 2025\] Learning Distances from Data with Normalizing Flows and Score Matching](../../ICML2025/others/learning_distances_from_data_with_normalizing_flows_and_score_matching.md)
+- [\[AAAI 2026\] LILAD: Learning In-context Lyapunov-stable Adaptive Dynamics Models](../../AAAI2026/others/lilad_learning_in-context_lyapunov-stable_adaptive_dynamics_models.md)
 - [\[ICML 2025\] Score Matching with Missing Data](../../ICML2025/others/score_matching_with_missing_data.md)
 
 <!-- RELATED:END -->

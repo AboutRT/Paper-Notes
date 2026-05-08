@@ -18,7 +18,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2507.15260](https://arxiv.org/abs/2507.15260)  
 **代码**: [项目页面](https://hanjq17.github.io/CHORDS)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: 扩散模型加速, 多核并行, ODE求解器, 训练无关, 视频生成
 
 ## 一句话总结
@@ -186,8 +186,8 @@ Chords 是**训练无关**的方法，不涉及任何训练过程。它直接用
 
 - [\[ICCV 2025\] Accelerating Diffusion Sampling via Exploiting Local Transition Coherence](accelerating_diffusion_sampling_via_exploiting_local_transition_coherence.md)
 - [\[ICCV 2025\] Fewer Denoising Steps or Cheaper Per-Step Inference: Towards Compute-Optimal Diffusion Model Deployment](fewer_denoising_steps_or_cheaper_per-step_inference_towards_compute-optimal_diff.md)
+- [\[ICCV 2025\] Anchor Token Matching: Implicit Structure Locking for Training-free AR Image Editing](anchor_token_matching_implicit_structure_locking_for_training-free_ar_image_edit.md)
 - [\[ICCV 2025\] REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents](reducio_generating_1k_video_within_16_seconds_using_extremely_compressed_motion_.md)
 - [\[ICCV 2025\] From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers](from_reusing_to_forecasting_accelerating_diffusion_models_with_taylorseers.md)
-- [\[ICCV 2025\] HypDAE: Hyperbolic Diffusion Autoencoders for Hierarchical Few-shot Image Generation](hypdae_hyperbolic_diffusion_autoencoders_for_hierarchical_few-shot_image_generat.md)
 
 <!-- RELATED:END -->

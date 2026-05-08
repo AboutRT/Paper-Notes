@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.21766](https://arxiv.org/abs/2503.21766)  
-**代码**: https://haolinliu97.github.io/Stable-Score  
+**代码**: [https://haolinliu97.github.io/Stable-Score](https://haolinliu97.github.io/Stable-Score)  
 **领域**: 3D视觉  
 **关键词**: 3D形状对应, 配准方法, Neural Jacobian Fields, 2D基础模型, 非等距形状
 
@@ -153,8 +153,8 @@ $\mathcal{L} = \lambda_{flow}\mathcal{L}_{flow} + \lambda_{cd}\mathcal{L}_{cd} +
 
 - [\[ICCV 2025\] Stable Score Distillation](../../ICCV2025/3d_vision/stable_score_distillation.md)
 - [\[CVPR 2025\] SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images](spar3d_stable_point-aware_reconstruction_of_3d_objects_from_single_images.md)
+- [\[CVPR 2025\] Denoising Functional Maps: Diffusion Models for Shape Correspondence](denoising_functional_maps_diffusion_models_for_shape_correspondence.md)
 - [\[CVPR 2025\] A Lightweight UDF Learning Framework for 3D Reconstruction Based on Local Shape Functions](a_lightweight_udf_learning_framework_for_3d_reconstruction_based_on_local_shape_.md)
-- [\[CVPR 2025\] 4Deform: Neural Surface Deformation for Robust Shape Interpolation](4deform_neural_surface_deformation_for_robust_shape_interpolation.md)
 - [\[ICCV 2025\] Generating Physically Stable and Buildable Brick Structures from Text](../../ICCV2025/3d_vision/generating_physically_stable_and_buildable_brick_structures_from_text.md)
 
 <!-- RELATED:END -->

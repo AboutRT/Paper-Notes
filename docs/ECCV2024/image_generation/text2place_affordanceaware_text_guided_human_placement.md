@@ -18,7 +18,7 @@ tags:
 **会议**: ECCV 2024  
 **arXiv**: [2407.15446](https://arxiv.org/abs/2407.15446)  
 **代码**: 有（项目页面）  
-**领域**: LLM/NLP  
+**领域**: 图像生成  
 **关键词**: human placement, affordance, score distillation sampling, text-to-image, inpainting
 
 ## 一句话总结

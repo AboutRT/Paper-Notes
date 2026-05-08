@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.13185](https://arxiv.org/abs/2412.13185)  
 **代码**: [项目页](https://hhsinping.github.io/Move-in-2D)  
-**领域**: image_generation  
+**领域**: 图像生成  
 **关键词**: motion generation, 2D scene conditioning, diffusion transformer, in-context learning, HiC-Motion
 
 ## 一句话总结

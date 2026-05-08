@@ -8,7 +8,7 @@ tags:
   - 动态分词
   - 子词合并
   - 嵌入预测超网络
-  - 推理加速
+  - LLM预训练
   - 跨语言公平
 ---
 
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2411.18553](https://arxiv.org/abs/2411.18553)  
 **代码**: 无  
-**领域**: LLM效率  
+**领域**: LLM预训练  
 **关键词**: 动态分词、子词合并、嵌入预测超网络、推理加速、跨语言公平
 
 ## 一句话总结
@@ -134,9 +134,9 @@ Decoder 模型（Mistral-7B）的结果：
 ## 相关论文
 
 - [\[ACL 2025\] Large Vocabulary Size Improves Large Language Models](large_vocabulary_size_improves_large_language_models.md)
-- [\[ACL 2025\] Towards Effective and Efficient Continual Pre-training of Large Language Models](towards_effective_and_efficient_continual_pre-training_of_large_language_models.md)
 - [\[ACL 2025\] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models](leancode_understanding_models_better_for_code_simplification_of_pre-trained_larg.md)
-- [\[ACL 2025\] Emergent Abilities of Large Language Models under Continued Pretraining for Language Adaptation](emergent_abilities_continued_pt.md)
 - [\[ACL 2025\] DavIR: Data Selection via Implicit Reward for Large Language Models](davir_data_selection_via_implicit_reward_for_large_language_models.md)
+- [\[ACL 2025\] Adversarial Tokenization](adversarial_tokenization.md)
+- [\[ACL 2025\] Stealing Training Data from Large Language Models in Decentralized Training through Activation Inversion Attack](activation-inversion-attack-stealing-training-data-in-decentralized-training.md)
 
 <!-- RELATED:END -->

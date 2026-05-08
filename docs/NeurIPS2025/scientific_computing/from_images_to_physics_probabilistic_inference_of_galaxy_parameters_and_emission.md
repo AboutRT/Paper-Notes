@@ -19,7 +19,7 @@ tags:
 **会议**: NEURIPS2025  
 **arXiv**: [2511.12737](https://arxiv.org/abs/2511.12737)  
 **代码**: 待确认  
-**领域**: scientific_computing  
+**领域**: 科学计算  
 **关键词**: VAE, Normalizing Flows, galaxy parameter inference, emission line prediction, probabilistic inference
 
 ## 一句话总结

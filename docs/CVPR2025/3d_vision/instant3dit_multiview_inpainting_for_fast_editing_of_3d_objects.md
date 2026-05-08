@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2412.00518](https://arxiv.org/abs/2412.00518)  
 **代码**: [项目页面](https://amirbarda.github.io/Instant3dit.github.io/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D editing, multiview inpainting, 3D masking, diffusion model, SDXL, mesh editing
 
 ## 一句话总结

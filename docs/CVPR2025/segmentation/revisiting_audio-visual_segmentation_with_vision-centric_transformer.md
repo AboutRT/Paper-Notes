@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2506.23623](https://arxiv.org/abs/2506.23623)  
-**代码**: https://github.com/spyflying/VCT_AVS  
+**代码**: [https://github.com/spyflying/VCT_AVS](https://github.com/spyflying/VCT_AVS)  
 **领域**: 图像分割 / 多模态  
 **关键词**: 音频-视觉分割, 视觉中心Transformer, 原型提示, query设计, 发声物体分割
 
@@ -134,6 +134,6 @@ tags:
 - [\[CVPR 2025\] MambaVision: A Hybrid Mamba-Transformer Vision Backbone](mambavision_a_hybrid_mamba-transformer_vision_backbone.md)
 - [\[CVPR 2025\] Dynamic Derivation and Elimination: Audio Visual Segmentation with Enhanced Audio Semantics](dynamic_derivation_and_elimination_audio_visual_segmentation_with_enhanced_audio.md)
 - [\[CVPR 2025\] Rethinking Query-Based Transformer for Continual Image Segmentation](rethinking_query-based_transformer_for_continual_image_segmentation.md)
-- [\[CVPR 2025\] Audio-Visual Instance Segmentation](audio-visual_instance_segmentation.md)
+- [\[CVPR 2025\] DA-VPT: Semantic-Guided Visual Prompt Tuning for Vision Transformers](da-vpt_semantic-guided_visual_prompt_tuning_for_vision_transformers.md)
 
 <!-- RELATED:END -->

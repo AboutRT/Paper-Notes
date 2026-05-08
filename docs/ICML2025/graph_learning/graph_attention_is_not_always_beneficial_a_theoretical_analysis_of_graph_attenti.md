@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2412.15496](https://arxiv.org/abs/2412.15496)  
-**代码**: https://github.com/mztmzt/GAT_CSBM  
+**代码**: [https://github.com/mztmzt/GAT_CSBM](https://github.com/mztmzt/GAT_CSBM)  
 **领域**: 图学习  
 **关键词**: graph attention, GNN, over-smoothing, node classification, CSBM
 
@@ -126,7 +126,7 @@ tags:
 
 **会议**: ICML 2025  
 **arXiv**: [2412.15496](https://arxiv.org/abs/2412.15496)  
-**代码**: https://github.com/mztmzt/GAT_CSBM  
+**代码**: [https://github.com/mztmzt/GAT_CSBM](https://github.com/mztmzt/GAT_CSBM)  
 **领域**: 图学习  
 **关键词**: graph attention network, contextual stochastic block model, over-smoothing, node classification, graph neural network
 

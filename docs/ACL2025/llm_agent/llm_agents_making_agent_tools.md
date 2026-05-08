@@ -132,6 +132,6 @@ ToolMaker不涉及模型训练，完全基于现有LLM（如GPT-4）的零样本
 - [\[ACL 2025\] R2D2: Remembering, Replaying and Dynamic Decision Making with a Reflective Agentic Memory](r2d2_reflective_agentic_memory.md)
 - [\[NeurIPS 2025\] Distilling LLM Agent into Small Models with Retrieval and Code Tools](../../NeurIPS2025/llm_agent/distilling_llm_agent_into_small_models_with_retrieval_and_co.md)
 - [\[NeurIPS 2025\] Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools](../../NeurIPS2025/llm_agent/attractive_metadata_attack_inducing_llm_agents_to_invoke_malicious_tools.md)
-- [\[ACL 2025\] Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks](agents_under_siege_breaking_pragmatic_multi-agent_llm_systems_with_optimized_pro.md)
+- [\[ACL 2025\] Unveiling Privacy Risks in LLM Agent Memory](mextra_agent_memory_privacy.md)
 
 <!-- RELATED:END -->

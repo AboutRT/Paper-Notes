@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.16157](https://arxiv.org/abs/2411.16157)  
-**代码**: https://ewrfcas.github.io/MVGenMaster (含代码、模型和数据)  
+**代码**: [https://ewrfcas.github.io/MVGenMaster](https://ewrfcas.github.io/MVGenMaster) (含代码、模型和数据)  
 **领域**: 3D视觉  
 **关键词**: 新视角合成, 多视图扩散模型, 3D先验, 度量深度, 大规模数据集
 

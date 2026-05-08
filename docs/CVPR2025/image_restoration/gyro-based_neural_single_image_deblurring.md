@@ -18,7 +18,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2404.00916](https://arxiv.org/abs/2404.00916)  
 **代码**: 待确认  
-**领域**: image_restoration  
+**领域**: 图像复原  
 **关键词**: gyro sensor, image deblurring, camera motion field, curriculum learning, deformable convolution
 
 ## 一句话总结
@@ -155,8 +155,8 @@ PSNR 超越最佳单图方法 1.27 dB，超越最佳陀螺仪方法 1.79 dB。
 
 - [\[CVPR 2025\] Progressive Focused Transformer for Single Image Super-Resolution](progressive_focused_transformer_for_single_image_super-resolution.md)
 - [\[CVPR 2025\] DiffFNO: Diffusion Fourier Neural Operator](difffno_diffusion_fourier_neural_operator.md)
+- [\[CVPR 2025\] Reversible Decoupling Network for Single Image Reflection Removal](reversible_decoupling_network_for_single_image_reflection_removal.md)
 - [\[CVPR 2025\] Efficient Visual State Space Model for Image Deblurring](efficient_visual_state_space_model_for_image_deblurring.md)
 - [\[CVPR 2025\] Proximal Algorithm Unrolling: Flexible and Efficient Reconstruction Networks for Single-Pixel Imaging](proximal_algorithm_unrolling_flexible_and_efficient_reconstruction_networks_for_.md)
-- [\[ICCV 2025\] Efficient Concertormer for Image Deblurring and Beyond](../../ICCV2025/image_restoration/efficient_concertormer_for_image_deblurring_and_beyond.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Safe-Sora: Safe Text-to-Video Generation via Graphical Watermarking
 description: >-
-  [NeurIPS 2025][图形水印] Safe-Sora 首次将**图形水印**（如logo图像）直接嵌入到视频生成管线中，通过分层粗到细自适应匹配将水印patch分配到视觉最相似的帧和区域，并设计3D小波变换增强Mamba架构实现时空融合，在视频质量（FVD 3.77 vs 次优154.35）和水印保真度上大幅超越所有基线。
+  [NeurIPS 2025][视频生成] Safe-Sora 首次将**图形水印**（如logo图像）直接嵌入到视频生成管线中，通过分层粗到细自适应匹配将水印patch分配到视觉最相似的帧和区域，并设计3D小波变换增强Mamba架构实现时空融合，在视频质量（FVD 3.77 vs 次优154.35）和水印保真度上大幅超越所有基线。
 tags:
   - NeurIPS 2025
-  - 图形水印
+  - 视频生成
   - 视频生成
   - Mamba
   - 3D小波变换
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.12667](https://arxiv.org/abs/2505.12667)  
-**代码**: [https://github.com/Sugewud/Safe-Sora](https://github.com/Sugewud/Safe-Sora) (有)  
+**代码**: [https://github.com/Sugewud/Safe-Sora](https://github.com/Sugewud/Safe-Sora)  
 **领域**: 视频生成 / 数字水印 / 版权保护  
 **关键词**: 图形水印, 视频生成, Mamba, 3D小波变换, 自适应匹配  
 
@@ -145,10 +145,10 @@ FVD从次优的154.35降到3.77（**降低97.6%**），水印PSNR提升4.5dB+，
 
 ## 相关论文
 
-- [\[NeurIPS 2025\] Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation](foresight_adaptive_layer_reuse_for_accelerated_and_highquali.md)
-- [\[ICCV 2025\] STiV: Scalable Text and Image Conditioned Video Generation](../../ICCV2025/video_generation/stiv_scalable_text_and_image_conditioned_video_generation.md)
 - [\[ECCV 2024\] Evaluating Text-to-Visual Generation with Image-to-Text Generation](../../ECCV2024/video_generation/evaluating_text-to-visual_generation_with_image-to-text_generation.md)
 - [\[CVPR 2025\] TransPixeler: Advancing Text-to-Video Generation with Transparency](../../CVPR2025/video_generation/transpixeler_advancing_text-to-video_generation_with_transparency.md)
+- [\[NeurIPS 2025\] Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation](foresight_adaptive_layer_reuse_for_accelerated_and_highquali.md)
 - [\[CVPR 2025\] Identity-Preserving Text-to-Video Generation by Frequency Decomposition](../../CVPR2025/video_generation/identity-preserving_text-to-video_generation_by_frequency_decomposition.md)
+- [\[ICCV 2025\] STiV: Scalable Text and Image Conditioned Video Generation](../../ICCV2025/video_generation/stiv_scalable_text_and_image_conditioned_video_generation.md)
 
 <!-- RELATED:END -->

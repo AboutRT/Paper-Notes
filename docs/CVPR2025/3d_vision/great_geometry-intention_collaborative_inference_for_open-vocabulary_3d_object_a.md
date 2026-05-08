@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR 2025  
 **arXiv**: [2411.19626](https://arxiv.org/abs/2411.19626)  
 **代码**: [项目页面](https://yawen-shao.github.io/GREAT/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: open-vocabulary affordance, chain-of-thought, MLLM (InternVL), point cloud, cross-modal fusion, PIADv2 dataset
 
 ## 一句话总结
@@ -168,6 +168,6 @@ $$\mathcal{L}_{total} = \mathcal{L}_{focal} + \mathcal{L}_{dice}$$
 - [\[CVPR 2025\] SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding](seeground_see_and_ground_for_zero-shot_open-vocabulary_3d_visual_grounding.md)
 - [\[CVPR 2025\] Reconstructing In-the-Wild Open-Vocabulary Human-Object Interactions](reconstructing_in-the-wild_open-vocabulary_human-object_interactions.md)
 - [\[CVPR 2025\] Masked Point-Entity Contrast for Open-Vocabulary 3D Scene Understanding](masked_point-entity_contrast_for_open-vocabulary_3d_scene_understanding.md)
-- [\[CVPR 2025\] Mosaic3D: Foundation Dataset and Model for Open-Vocabulary 3D Segmentation](mosaic3d_foundation_dataset_and_model_for_open-vocabulary_3d_segmentation.md)
+- [\[CVPR 2025\] JOPP-3D: Joint Open Vocabulary Semantic Segmentation on Point Clouds and Panoramas](jopp-3d_joint_open_vocabulary_semantic_segmentation_on_point_clouds_and_panorama.md)
 
 <!-- RELATED:END -->

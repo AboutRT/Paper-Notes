@@ -18,7 +18,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2504.07096](https://arxiv.org/abs/2504.07096)  
 **代码**: [allenai/infinigram-api](https://github.com/allenai/infinigram-api)  
-**领域**: LLM可解释性/数据溯源  
+**领域**: LLM/NLP  
 **关键词**: 训练数据溯源, 逐字匹配, 后缀数组, infini-gram, 开放LM  
 
 ## 一句话总结

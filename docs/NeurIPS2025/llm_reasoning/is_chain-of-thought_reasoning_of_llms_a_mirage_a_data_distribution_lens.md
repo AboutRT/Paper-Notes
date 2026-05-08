@@ -42,13 +42,13 @@ tags:
 1. **分布discrepancy量化**：采用总变差距离$\Delta(\mathcal{D}_{train},\mathcal{D}_{test}):=TV(\mathcal{D}_{train},\mathcal{D}_{test})$，通过广义泛化界证明测试风险与分布discrepancy线性相关
 
 2. **三维分布分析框架**：
-   $$\Delta(\mathcal{D}_{train},\mathcal{D}_{test})=\Phi(\Delta_{task},\Delta_{length},\Delta_{format})$$
-   - 任务维度：组合方式、参与转换
-   - 长度维度：文本长度、推理步数
-   - 格式维度：扰动(插入/删除/修改)
+    $\Delta(\mathcal{D}_{train},\mathcal{D}_{test})=\Phi(\Delta_{task},\Delta_{length},\Delta_{format})$
+    - 任务维度：组合方式、参与转换
+    - 长度维度：文本长度、推理步数
+    - 格式维度：扰动(插入/删除/修改)
 
 3. **组合转换**：支持多步推理，自然生成CoT中间步骤：
-   $$f_S(\mathbf{e}): \underbrace{\mathbf{e}\xrightarrow{f_1}\mathbf{e}^{(1)}\xrightarrow{f_2}...\xrightarrow{f_k}}_{\text{推理轨迹}}\hat{\mathbf{e}}$$
+    $f_S(\mathbf{e}): \underbrace{\mathbf{e}\xrightarrow{f_1}\mathbf{e}^{(1)}\xrightarrow{f_2}...\xrightarrow{f_k}}_{\text{推理轨迹}}\hat{\mathbf{e}}$
 
 ## 实验关键数据
 
@@ -97,9 +97,9 @@ tags:
 ## 相关论文
 
 - [\[NeurIPS 2025\] CoT Red-Handed: Stress Testing Chain-of-Thought Monitoring](cot_redhanded_stress_testing_chainofthought_monitoring.md)
+- [\[ACL 2025\] CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis](../../ACL2025/llm_reasoning/cot-based_synthesizer_enhancing_llm_performance_through_answer_synthesis.md)
 - [\[ACL 2025\] CoT-Valve: Length-Compressible Chain-of-Thought Tuning](../../ACL2025/llm_reasoning/cot-valve_length-compressible_chain-of-thought_tuning.md)
-- [\[ACL 2025\] CoT-UQ: Improving Response-wise Uncertainty Quantification in LLMs with Chain-of-Thought](../../ACL2025/llm_reasoning/cot-uq_improving_response-wise_uncertainty_quantification_in_llms_with_chain-of-.md)
 - [\[CVPR 2025\] CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models](../../CVPR2025/llm_reasoning/cot-vla_visual_chain-of-thought_reasoning_for_vision-language-action_models.md)
-- [\[ACL 2025\] Fine-Tuning on Diverse Reasoning Chains Drives Within-Inference CoT Refinement in LLMs](../../ACL2025/llm_reasoning/dcot_diverse_cot_refinement.md)
+- [\[ACL 2025\] CoT-UQ: Improving Response-wise Uncertainty Quantification in LLMs with Chain-of-Thought](../../ACL2025/llm_reasoning/cot-uq_improving_response-wise_uncertainty_quantification_in_llms_with_chain-of-.md)
 
 <!-- RELATED:END -->

@@ -2,10 +2,10 @@
 title: >-
   [论文解读] AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation
 description: >-
-  [ACL 2026][不确定性量化] AGSC 提出了一个针对长文本生成的不确定性量化框架，通过 NLI 中立概率触发自适应粒度分解（减少 60% 推理时间），并使用 GMM 软聚类捕捉潜在语义主题进行主题感知的加权聚合，在 BIO 和 LongFact 基准上达到 SOTA 的事实性相关性。
+  [ACL 2026][LLM安全] AGSC 提出了一个针对长文本生成的不确定性量化框架，通过 NLI 中立概率触发自适应粒度分解（减少 60% 推理时间），并使用 GMM 软聚类捕捉潜在语义主题进行主题感知的加权聚合，在 BIO 和 LongFact 基准上达到 SOTA 的事实性相关性。
 tags:
   - ACL 2026
-  - 不确定性量化
+  - LLM安全
   - 长文本生成
   - 自适应粒度
   - 语义聚类
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2026  
 **arXiv**: [2604.06812](https://arxiv.org/abs/2604.06812)  
 **代码**: 无  
-**领域**: LLM 不确定性量化  
+**领域**: LLM安全  
 **关键词**: 不确定性量化, 长文本生成, 自适应粒度, 语义聚类, GMM
 
 ## 一句话总结
@@ -113,10 +113,10 @@ AGSC 分为三阶段：(1) **多样性生成**——采样多个响应；(2) **N
 
 ## 相关论文
 
-- [\[ACL 2025\] Odysseus Navigates the Sirens' Song: Dynamic Focus Decoding for Factual and Diverse Open-Ended Text Generation](../../ACL2025/llm_safety/odysseus_dynamic_focus_decoding.md)
+- [\[ICLR 2026\] Resource-Adaptive Federated Text Generation with Differential Privacy](../../ICLR2026/llm_safety/resource-adaptive_federated_text_generation_with_differential_privacy.md)
+- [\[ACL 2026\] Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization](adaptive_text_anonymization_learning_privacy-utility_trade-offs_via_prompt_optim.md)
+- [\[ACL 2026\] Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement](toward_consistent_world_models_with_multi-token_prediction_and_latent_semantic_e.md)
 - [\[ACL 2025\] Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation](../../ACL2025/llm_safety/rate-ft-auxiliary-tasks-for-hallucination-detection.md)
-- [\[CVPR 2026\] Association and Consolidation: Evolutionary Memory-Enhanced Incremental Multi-View Clustering](../../CVPR2026/llm_safety/association_and_consolidation_evolutionary_memory-enhanced_incremental_multi-vie.md)
-- [\[ICML 2025\] BECAME: BayEsian Continual Learning with Adaptive Model MErging](../../ICML2025/llm_safety/became_bayesian_continual_learning_with_adaptive_model_merging.md)
-- [\[ACL 2025\] UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models](../../ACL2025/llm_safety/ualign_leveraging_uncertainty_estimations_for_factuality_alignment_on_large_lang.md)
+- [\[AAAI 2026\] PRISM: Privacy-Aware Routing for Adaptive Cloud-Edge LLM Inference via Semantic Sketch Collaboration](../../AAAI2026/llm_safety/prism_privacy-aware_routing_for_adaptive_cloud-edge_llm_inference_via_semantic_s.md)
 
 <!-- RELATED:END -->

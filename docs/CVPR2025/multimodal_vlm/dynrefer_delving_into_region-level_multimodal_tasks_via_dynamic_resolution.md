@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2405.16071](https://arxiv.org/abs/2405.16071)  
-**代码**: https://github.com/callsys/DynRefer  
+**代码**: [https://github.com/callsys/DynRefer](https://github.com/callsys/DynRefer)  
 **领域**: 多模态VLM  
 **关键词**: 区域级理解、动态分辨率、多视图融合、人眼注视仿生、dense captioning
 

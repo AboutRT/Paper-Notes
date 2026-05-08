@@ -18,7 +18,7 @@ tags:
 **会议**: ICLR 2026  
 **arXiv**: [2510.00981](https://arxiv.org/abs/2510.00981)  
 **代码**: [amphionteam/flexicodec](https://github.com/amphionteam/flexicodec)  
-**领域**: LLM/NLP (语音编解码/语音语言模型)  
+**领域**: 音频语音  
 **关键词**: Neural Audio Codec, Dynamic Frame Rate, Low Frame Rate, Speech Tokenization, TTS
 
 ## 一句话总结

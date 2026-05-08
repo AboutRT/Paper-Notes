@@ -9,7 +9,7 @@ tags:
   - 去标识化
   - 数据约束
   - 领域适应
-  - PII检测
+  - LLM预训练
 ---
 
 # Data-Constrained Synthesis of Training Data for De-Identification
@@ -17,7 +17,7 @@ tags:
 **会议**: ACL 2025  
 **arXiv**: [2502.14677](https://arxiv.org/abs/2502.14677)  
 **代码**: 无  
-**领域**: 数据隐私 / 临床NLP / 命名实体识别  
+**领域**: LLM预训练  
 **关键词**: 合成数据, 去标识化, 数据约束, 领域适应, PII检测
 
 ## 一句话总结
@@ -136,10 +136,10 @@ tags:
 
 ## 相关论文
 
+- [\[ACL 2025\] Stealing Training Data from Large Language Models in Decentralized Training through Activation Inversion Attack](activation-inversion-attack-stealing-training-data-in-decentralized-training.md)
 - [\[ACL 2025\] Optimizing Pre-Training Data Mixtures with Mixtures of Data Expert Models](optimizing_pre-training_data_mixtures_with_mixtures_of_data_expert_models.md)
 - [\[ACL 2025\] Improving Continual Pre-training Through Seamless Data Packing](improving_continual_pre-training_through_seamless_data_packing.md)
-- [\[ACL 2025\] Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation](synthesizing_post-training_data_for_llms_through_multi-agent_simulation.md)
-- [\[ACL 2025\] Stealing Training Data from Large Language Models in Decentralized Training through Activation Inversion Attack](activation-inversion-attack-stealing-training-data-in-decentralized-training.md)
-- [\[ACL 2025\] Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models](metarater_a_multidimensional_data_selection_method.md)
+- [\[ACL 2025\] CritiQ: Mining Data Quality Criteria from Human Preferences](critiq_mining_data_quality_criteria_from_human_preferences.md)
+- [\[ACL 2025\] Model Performance-Guided Evaluation Data Selection for Effective Prompt Optimization](model_performance-guided_evaluation_data_selection_for_effective_prompt_optimiza.md)
 
 <!-- RELATED:END -->

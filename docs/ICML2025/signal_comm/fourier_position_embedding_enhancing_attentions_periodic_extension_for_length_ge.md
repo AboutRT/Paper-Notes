@@ -17,7 +17,7 @@ tags:
 **会议**: ICML 2025  
 **arXiv**: [2412.17739](https://arxiv.org/abs/2412.17739)  
 **代码**: [GitHub](https://github.com/TsinghuaC3I/Fourier-Position-Embedding)  
-**领域**: LLM效率  
+**领域**: 信号通信  
 **关键词**: 位置编码, 长度泛化, 旋转位置编码, 傅里叶级数, 频谱分析
 
 ## 一句话总结
@@ -129,9 +129,9 @@ FoPE 作为位置编码的替换模块，不引入额外损失函数。训练策
 ## 相关论文
 
 - [\[ICLR 2026\] Group Representational Position Encoding (GRAPE)](../../ICLR2026/signal_comm/group_representational_position_encoding.md)
-- [\[ICLR 2026\] FASA: Frequency-Aware Sparse Attention](../../ICLR2026/signal_comm/fasa_frequency-aware_sparse_attention.md)
-- [\[CVPR 2025\] ABC-Former: Auxiliary Bimodal Cross-domain Transformer with Interactive Channel Attention](../../CVPR2025/signal_comm/abc-former_auxiliary_bimodal_cross-domain_transformer_with_interactive_channel_a.md)
+- [\[ICCV 2025\] Rectifying Magnitude Neglect in Linear Attention](../../ICCV2025/signal_comm/rectifying_magnitude_neglect_in_linear_attention.md)
+- [\[CVPR 2025\] Breaking the Low-Rank Dilemma of Linear Attention](../../CVPR2025/signal_comm/breaking_the_low-rank_dilemma_of_linear_attention.md)
 - [\[CVPR 2026\] CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space](../../CVPR2026/signal_comm/clay_conditional_visual_similarity.md)
-- [\[ICML 2025\] SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator](sepllm_accelerate_large_language_models_by_compressing_one_segment_into_one_sepa.md)
+- [\[ICLR 2026\] FASA: Frequency-Aware Sparse Attention](../../ICLR2026/signal_comm/fasa_frequency-aware_sparse_attention.md)
 
 <!-- RELATED:END -->

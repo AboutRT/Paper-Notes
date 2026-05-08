@@ -19,7 +19,7 @@ tags:
 **代码**: [https://github.com/k0u-id/CCD](https://github.com/k0u-id/CCD)  
 **作者**: Dongseob Kim, Hyunjung Shim  
 **机构**: Samsung Electronics, KAIST  
-**领域**: 多模态VLM  
+**领域**: 社会计算  
 **关键词**: CLIP, unsupervised multi-label classification, CAM, debiasing, pseudo-labels
 
 ## 一句话总结
@@ -146,9 +146,9 @@ CCD 分为四个阶段：(1) 利用 CLIP 生成初始伪标签；(2) 用分类�
 ## 相关论文
 
 - [\[CVPR 2025\] Classifier-to-Bias: Toward Unsupervised Automatic Bias Detection for Visual Classifiers](classifier-to-bias_toward_unsupervised_automatic_bias_detection_for_visual_class.md)
+- [\[ECCV 2024\] Multi-Label Cluster Discrimination for Visual Representation Learning](../../ECCV2024/social_computing/multi-label_cluster_discrimination_for_visual_representation_learning.md)
 - [\[NeurIPS 2025\] IF-GUIDE: Influence Function-Guided Detoxification of LLMs](../../NeurIPS2025/social_computing/if-guide_influence_function-guided_detoxification_of_llms.md)
 - [\[ACL 2025\] Synergizing LLMs with Global Label Propagation for Multimodal Fake News Detection](../../ACL2025/social_computing/llm_label_propagation.md)
-- [\[AAAI 2026\] FactGuard: Event-Centric and Commonsense-Guided Fake News Detection](../../AAAI2026/social_computing/factguard_event-centric_and_commonsense-guided_fake_news_detection.md)
-- [\[CVPR 2025\] As Language Models Scale, Low-order Linear Depth Dynamics Emerge](as_language_models_scale_low-order_linear_depth_dynamics_emerge_v2.md)
+- [\[CVPR 2025\] Project-Probe-Aggregate: Efficient Fine-Tuning for Group Robustness](project-probe-aggregate_efficient_fine-tuning_for_group_robustness.md)
 
 <!-- RELATED:END -->

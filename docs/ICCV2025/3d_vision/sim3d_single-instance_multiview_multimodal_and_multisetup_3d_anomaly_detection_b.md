@@ -19,7 +19,7 @@ tags:
 **会议**: ICCV 2025  
 **arXiv**: [2506.21549](https://arxiv.org/abs/2506.21549)  
 **代码**: [alex-costanzino/SiM3D](https://alex-costanzino.github.io/SiM3D/)  
-**领域**: 3d_vision  
+**领域**: 3D视觉  
 **关键词**: 3D异常检测, 多视角, 多模态, 单实例, 体素异常体, 合成到真实
 
 ## 一句话总结
@@ -178,7 +178,7 @@ $$\text{2D标注} \xrightarrow{\text{投影到网格}} \text{3D网格标注} \xr
 - [\[ICCV 2025\] G2SF: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection](g2sf_geometry-guided_score_fusion_for_multimodal_industrial_anomaly_detection.md)
 - [\[ICCV 2025\] Event-based Tiny Object Detection: A Benchmark Dataset and Baseline](event-based_tiny_object_detection_a_benchmark_dataset_and_baseline.md)
 - [\[ICCV 2025\] PASDF: Bridging 3D Anomaly Localization and Repair via High-Quality Continuous Geometric Representation](bridging_3d_anomaly_localization_and_repair_via_highquality.md)
-- [\[ICCV 2025\] HIS-GPT: Towards 3D Human-In-Scene Multimodal Understanding](his-gpt_towards_3d_human-in-scene_multimodal_understanding.md)
-- [\[NeurIPS 2025\] CosmoBench: A Multiscale, Multiview, Multitask Cosmology Benchmark for Geometric Deep Learning](../../NeurIPS2025/3d_vision/cosmobench_a_multiscale_multiview_multitask_cosmology_benchmark_for_geometric_de.md)
+- [\[CVPR 2025\] Odd-One-Out: Anomaly Detection by Comparing with Neighbors](../../CVPR2025/3d_vision/odd-one-out_anomaly_detection_by_comparing_with_neighbors.md)
+- [\[CVPR 2026\] A Semantically Disentangled Unified Model for Multi-category 3D Anomaly Detection](../../CVPR2026/3d_vision/a_semantically_disentangled_unified_model_for_multi-category_3d_anomaly_detectio.md)
 
 <!-- RELATED:END -->

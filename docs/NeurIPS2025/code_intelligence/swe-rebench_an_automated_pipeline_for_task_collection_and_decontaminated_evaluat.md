@@ -8,7 +8,7 @@ tags:
   - SWE-bench
   - 数据污染
   - 自动化流水线
-  - Agent评估
+  - 代码智能
   - 软件工程
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2505.20411](https://arxiv.org/abs/2505.20411)  
-**代码**: https://huggingface.co/datasets/nebius/SWE-rebench  
+**代码**: [https://huggingface.co/datasets/nebius/SWE-rebench](https://huggingface.co/datasets/nebius/SWE-rebench)  
 **领域**: Agent / 代码生成  
 **关键词**: SWE-bench, 数据污染, 自动化流水线, Agent评估, 软件工程
 

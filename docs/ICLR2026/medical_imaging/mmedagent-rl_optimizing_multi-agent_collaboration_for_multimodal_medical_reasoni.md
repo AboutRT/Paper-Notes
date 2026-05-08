@@ -19,7 +19,7 @@ tags:
 **会议**: ICLR2026  
 **arXiv**: [2506.00555](https://arxiv.org/abs/2506.00555)  
 **代码**: 未开源  
-**领域**: medical_imaging  
+**领域**: 医学图像  
 **关键词**: multi-agent collaboration, reinforcement learning, medical VQA, curriculum learning, GRPO, clinical reasoning  
 
 ## 一句话总结

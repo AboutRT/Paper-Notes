@@ -17,7 +17,7 @@ tags:
 
 **会议**: CVPR 2025  
 **arXiv**: [2411.02336](https://arxiv.org/abs/2411.02336)  
-**代码**: http://mvpaint.github.io  
+**代码**: [http://mvpaint.github.io](http://mvpaint.github.io)  
 **领域**: 3D视觉  
 **关键词**: 3D纹理生成, 多视图一致性, UV精炼, 3D补绘, 扩散模型
 

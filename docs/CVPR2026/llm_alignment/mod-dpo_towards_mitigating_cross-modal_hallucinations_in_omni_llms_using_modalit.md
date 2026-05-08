@@ -19,7 +19,7 @@ tags:
 **会议**: CVPR2026  
 **arXiv**: [2603.03192](https://arxiv.org/abs/2603.03192)  
 **代码**: 待确认  
-**领域**: llm_alignment  
+**领域**: LLM对齐  
 **关键词**: omni LLM, cross-modal hallucination, DPO, modality decoupling, audio-visual, preference optimization
 
 ## 一句话总结

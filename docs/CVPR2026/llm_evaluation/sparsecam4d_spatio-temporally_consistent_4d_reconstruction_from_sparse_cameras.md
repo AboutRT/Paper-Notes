@@ -17,7 +17,7 @@ tags:
 **会议**: CVPR 2026  
 **arXiv**: [2603.26481](https://arxiv.org/abs/2603.26481)  
 **代码**: [https://inspatio.github.io/sparse-cam4d/](https://inspatio.github.io/sparse-cam4d/)  
-**领域**: 3D视觉 / 4D重建  
+**领域**: LLM评测  
 **关键词**: 稀疏相机4D重建, 时空扭曲场, 4D高斯溅射, 视频扩散模型, 动态场景
 
 ## 一句话总结
@@ -143,9 +143,9 @@ STDF 消融（Train/Jumping 场景 LPIPS↓ / SSIM↑）：
 ## 相关论文
 
 - [\[ACL 2025\] TripCraft: A Benchmark for Spatio-Temporally Fine Grained Travel Planning](../../ACL2025/llm_evaluation/tripcraft_a_benchmark_for_spatio-temporally_fine_grained_travel_planning.md)
+- [\[CVPR 2026\] PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion](prism_video_dataset_condensation_with_progressive_refinement_and_insertion_for_s.md)
+- [\[CVPR 2026\] Anchoring and Rescaling Attention for Semantically Coherent Inbetweening](anchoring_and_rescaling_attention_for_semantically_coherent_inbetweening.md)
 - [\[CVPR 2025\] Practical Solutions to the Relative Pose of Three Calibrated Cameras](../../CVPR2025/llm_evaluation/practical_solutions_to_the_relative_pose_of_three_calibrated_cameras.md)
-- [\[ICML 2025\] Are LLM Belief Updates Consistent with Bayes' Theorem?](../../ICML2025/llm_evaluation/are_llm_belief_updates_consistent_with_bayes_theorem.md)
-- [\[CVPR 2025\] VinaBench: Benchmark for Faithful and Consistent Visual Narratives](../../CVPR2025/llm_evaluation/vinabench_benchmark_for_faithful_and_consistent_visual_narratives.md)
-- [\[ECCV 2024\] Deep Cost Ray Fusion for Sparse Depth Video Completion](../../ECCV2024/llm_evaluation/deep_cost_ray_fusion_for_sparse_depth_video_completion.md)
+- [\[CVPR 2025\] Towards In-the-Wild 3D Plane Reconstruction from a Single Image](../../CVPR2025/llm_evaluation/towards_in-the-wild_3d_plane_reconstruction_from_a_single_image.md)
 
 <!-- RELATED:END -->
