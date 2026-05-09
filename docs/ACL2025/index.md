@@ -6508,7 +6508,7 @@ description: >-
 
 ---
 
-## 📄 moe { #moe }
+## 🧠 MoE / 混合专家 { #moe }
 
 **[DIVE into MoE: Diversity-Enhanced Reconstruction of Large Language Models from Dense into Mixture-of-Experts](moe/dive_moe_reconstruction.md)**
 

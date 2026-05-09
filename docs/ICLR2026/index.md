@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 1584篇论文解读
+  ICLR2026 1583篇论文解读
 description: >-
-  1584篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(142篇)、多模态 VLM(93篇)、模型压缩(92篇)、医学图像(72篇)、LLM 推理(71篇)、3D 视觉(65篇)、LLM 评测(60篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1583篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(142篇)、多模态 VLM(93篇)、模型压缩(92篇)、医学图像(72篇)、LLM 推理(71篇)、3D 视觉(65篇)、LLM 评测(60篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 ICLR2026 论文笔记
 
-1584篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(142篇)、多模态 VLM(93篇)、模型压缩(92篇)、医学图像(72篇)、LLM 推理(71篇)、3D 视觉(65篇)、LLM 评测(60篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1583篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(142篇)、多模态 VLM(93篇)、模型压缩(92篇)、医学图像(72篇)、LLM 推理(71篇)、3D 视觉(65篇)、LLM 评测(60篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
@@ -3358,10 +3358,6 @@ description: >-
 
 :   提出 M²-Miner，首个基于 MCTS 的移动端 GUI agent 自动数据挖掘框架，通过 InferAgent/OrchestraAgent/JudgeAgent 三智能体协作将挖掘效率提升 64 倍，结合 intent recycling 策略丰富意图多样性，训练的 GUI agent 在多个 benchmark 上达到 SOTA。
 
-**[MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains](llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search.md)**
-
-:   提出 MC-Search，首个面向代理式多模态 RAG 的基准，包含 3,333 个高质量样本、5 种推理拓扑结构和步级标注的推理链，同时引入过程级评估指标和 Search-Align 对齐框架显著提升开源 MLLM 的搜索规划能力。
-
 **[MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains](llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md)**
 
 :   提出 MC-Search，首个面向 agentic 多模态 RAG 的 benchmark，包含 3,333 个高质量样本（平均 3.7 跳），覆盖 5 种推理拓扑结构，通过 HAVE 验证确保每步必要性，并引入 Search-Align 过程监督微调框架使开源模型的检索规划能力大幅提升（Qwen2.5-VL-7B F1 提升 +13.7）。
@@ -6206,7 +6202,7 @@ description: >-
 
 ---
 
-## 📄 moe { #moe }
+## 🧠 MoE / 混合专家 { #moe }
 
 **[MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting](moe/moe-gs_mixture_of_experts_for_dynamic_gaussian_splatting.md)**
 

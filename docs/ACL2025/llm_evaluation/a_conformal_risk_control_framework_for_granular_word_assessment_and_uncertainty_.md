@@ -3,7 +3,6 @@ title: >-
   [论文解读] A Conformal Risk Control Framework for Granular Word Assessment and Uncertainty Calibration of CLIPScore Quality Estimates
 description: >-
    提出基于 conformal risk control 框架对 CLIPScore 进行细粒度词级错误检测和不确定性校准，通过简单的注意力掩码采样生成分数分布，在保持模型无关性的同时提供形式化的风险控制保证。
-tags:
 
 ---
 

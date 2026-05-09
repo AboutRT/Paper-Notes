@@ -3,7 +3,6 @@ title: >-
   [论文解读] Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry
 description: >-
    从权重对称性角度解释彩票假说(LTH)掩码不能迁移到新初始化的原因，并提出通过置换匹配对齐LTH掩码与新初始化的优化盆地来实现稀疏训练。
-tags:
 
 ---
 

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 模型压缩方向49篇论文解读
+  ICCV2025 模型压缩方向48篇论文解读
 description: >-
-  49篇ICCV2025的模型压缩方向论文解读，涵盖模型压缩、压缩/编码、持续学习、LLM、对抗鲁棒、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  48篇ICCV2025的模型压缩方向论文解读，涵盖模型压缩、压缩/编码、持续学习、LLM、对抗鲁棒、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📹 ICCV2025** · **49** 篇论文解读
+**📹 ICCV2025** · **48** 篇论文解读
 
 **[A Good Teacher Adapts Their Knowledge for Distillation](a_good_teacher_adapts_their_knowledge_for_distillation.md)**
 
@@ -33,10 +33,6 @@ description: >-
 **[Beyond Low-Rank Tuning: Model Prior-Guided Rank Allocation for Effective Transfer in Low-Data and Large-Gap Regimes](beyond_low-rank_tuning_model_prior-guided_rank_allocation_for_effective_transfer.md)**
 
 :   提出SR-LoRA（Stable Rank-Guided LoRA），利用预训练权重矩阵的稳定秩（Stable Rank）作为自然先验为每层LoRA模块分配最优秩，无需搜索即可实现灵活的逐层秩分配，在大域差距+少样本迁移场景（如医学影像）中显著优于固定低秩LoRA和其他自适应秩方法。
-
-**[TokenBridge: Bridging Continuous and Discrete Tokens for Autoregressive Visual Generation](bridging_continuous_and_discrete_tokens_for_autoregressive_v.md)**
-
-:   TokenBridge提出对预训练VAE连续特征进行后训练维度级量化，将连续token无损转化为离散token，再通过轻量级维度级自回归头高效建模指数级大词表空间，在ImageNet 256×256上用标准交叉熵损失达到了与连续token方法（如MAR）相当的生成质量（FID=1.55），且推理快5.94倍。
 
 **[Bridging Continuous and Discrete Tokens for Autoregressive Visual Generation](bridging_continuous_and_discrete_tokens_for_autoregressive_visual_generation.md)**
 

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 图像生成方向221篇论文解读
+  ICCV2025 图像生成方向219篇论文解读
 description: >-
-  221篇ICCV2025的图像生成方向论文解读，涵盖扩散模型、文生图、图像编辑、对抗鲁棒、少样本学习、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  219篇ICCV2025的图像生成方向论文解读，涵盖扩散模型、文生图、图像编辑、对抗鲁棒、少样本学习、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**📹 ICCV2025** · **221** 篇论文解读
+**📹 ICCV2025** · **219** 篇论文解读
 
 **[A0: An Affordance-Aware Hierarchical Model for General Robotic Manipulation](a0_affordance_aware_hierarchical_model_robotic_manipulation.md)**
 
@@ -193,10 +193,6 @@ description: >-
 **[DeepShield: Fortifying Deepfake Video Detection with Local and Global Forgery Analysis](deepshield_fortifying_deepfake_video_detection_with_local_and_global_forgery_ana.md)**
 
 :   提出 DeepShield，一种结合局部 patch 级引导（LPG）和全局伪造多样化（GFD）的深度伪造视频检测框架，通过时空伪影建模提供 patch 级监督、分布级特征增强合成多样伪造表征，在跨数据集和跨操控类型评估中显著超越 SOTA。
-
-**[Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation](dense2moe_restructuring_diffusion_transformer_to_moe_for_eff.md)**
-
-:   首次将预训练的dense DiT（FLUX.1 [dev] 12B参数）通过三步蒸馏pipeline转换为结构化稀疏的MoE架构——用MoE层替换FFN实现token级稀疏、用Mixture of Blocks（MoB）实现block级动态跳过——激活参数从12B降至5.2B（减少56%+）的同时保持原始性能，全面超越同等压缩比的剪枝方法。
 
 **[Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation](dense2moe_restructuring_diffusion_transformer_to_moe_for_efficient_text-to-image.md)**
 
@@ -873,10 +869,6 @@ description: >-
 **[VIGFace: Virtual Identity Generation for Privacy-Free Face Recognition Dataset](vigface_virtual_identity_generation_for_privacy-free_face_recognition_dataset.md)**
 
 :   提出 VIGFace 框架，通过在人脸识别模型的特征空间中预先分配与真实身份正交的虚拟原型（virtual prototypes），训练扩散模型从虚拟原型生成不存在于真实世界的人脸图像，实现隐私无忧的人脸识别数据集构建和数据增强。
-
-**[VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning](visualcloze_a_universal_image_generation_framework_via_visua.md)**
-
-:   提出 VisualCloze，将多种图像生成任务统一为"视觉完形填空"范式——用视觉示例（而非文本指令）定义任务，通过图像 infilling 模型实现统一生成，并构建 Graph200K 图结构数据集增强任务间知识迁移，支持域内任务、未见任务泛化、多任务组合和反向生成。
 
 **[VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning](visualcloze_a_universal_image_generation_framework_via_visual_in-context_learnin.md)**
 

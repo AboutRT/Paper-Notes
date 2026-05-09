@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICLR2026 LLM Agent方向48篇论文解读
+  ICLR2026 LLM Agent方向47篇论文解读
 description: >-
-  48篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、多模态、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  47篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🔬 ICLR2026** · **48** 篇论文解读
+**🔬 ICLR2026** · **47** 篇论文解读
 
 **[A Benchmark for Deep Information Synthesis (DeepSynth)](a_benchmark_for_deep_information_synthesis.md)**
 
@@ -85,10 +85,6 @@ description: >-
 **[M²-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](m2-miner_multi-agent_enhanced_mcts_for_mobile_gui_agent_data_mining.md)**
 
 :   提出 M²-Miner，首个基于 MCTS 的移动端 GUI agent 自动数据挖掘框架，通过 InferAgent/OrchestraAgent/JudgeAgent 三智能体协作将挖掘效率提升 64 倍，结合 intent recycling 策略丰富意图多样性，训练的 GUI agent 在多个 benchmark 上达到 SOTA。
-
-**[MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains](mc-search_evaluating_and_enhancing_multimodal_agentic_search.md)**
-
-:   提出 MC-Search，首个面向代理式多模态 RAG 的基准，包含 3,333 个高质量样本、5 种推理拓扑结构和步级标注的推理链，同时引入过程级评估指标和 Search-Align 对齐框架显著提升开源 MLLM 的搜索规划能力。
 
 **[MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains](mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md)**
 

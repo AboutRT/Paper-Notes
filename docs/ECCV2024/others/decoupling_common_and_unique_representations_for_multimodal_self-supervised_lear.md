@@ -195,7 +195,7 @@ $$\mathcal{L} = \mathcal{L}_{com} + \mathcal{L}_{uni} + \mathcal{L}_{M1} + \math
 
 ## 相关论文
 
-- [\[ECCV 2024\] DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_.md)
+- [\[ECCV 2024\] DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)
 - [\[ECCV 2024\] Momentum Auxiliary Network for Supervised Local Learning](momentum_auxiliary_network_for_supervised_local_learning.md)
 - [\[ECCV 2024\] Bidirectional Uncertainty-Based Active Learning for Open-Set Annotation](bidirectional_uncertainty-based_active_learning_for_open-set_annotation.md)
 - [\[ECCV 2024\] GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths](gazexplain_learning_to_predict_natural_language_explanations_of_visual_scanpaths.md)

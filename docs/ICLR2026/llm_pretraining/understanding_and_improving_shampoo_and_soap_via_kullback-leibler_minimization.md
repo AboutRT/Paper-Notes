@@ -3,7 +3,6 @@ title: >-
   [论文解读] Understanding and Improving Shampoo and SOAP via Kullback-Leibler Minimization
 description: >-
    从 KL 散度最小化角度重新解释 Shampoo 和 SOAP 的结构化二阶矩估计，揭示其固有局限，并提出 KL-Shampoo 和 KL-SOAP 两种实用方案，在无需 Adam grafting 的情况下匹配或超越原始方法。
-tags:
 
 ---
 

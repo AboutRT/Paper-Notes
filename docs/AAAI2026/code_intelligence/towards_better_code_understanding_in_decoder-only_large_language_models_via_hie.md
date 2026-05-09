@@ -3,7 +3,6 @@ title: >-
   [论文解读] Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning
 description: >-
    提出CL4D对比学习框架，通过继续预训练将decoder-only代码生成模型适配到代码理解任务（代码搜索、克隆检测），在不重新训练encoder模型的前提下实现了与同等规模encoder-only模型相当甚至更优的性能。
-tags:
 
 ---
 

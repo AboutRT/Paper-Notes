@@ -114,7 +114,7 @@ ACT损失基于active M-estimation改进。核心是用采样概率$\pi_B(\hat{\
 
 ## 相关论文
 
-- [\[ECCV 2024\] GENIXER: Empowering Multimodal Large Language Model as a Powerful Data Generator](../../ECCV2024/multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powe.md)
+- [\[ECCV 2024\] GENIXER: Empowering Multimodal Large Language Model as a Powerful Data Generator](../../ECCV2024/multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md)
 - [\[ACL 2025\] Error-driven Data-efficient Large Multimodal Model Tuning](../../ACL2025/multimodal_vlm/error-driven_data-efficient_large_multimodal_model_tuning.md)
 - [\[NeurIPS 2025\] The Illusion of Progress? A Critical Look at Test-Time Adaptation for Vision-Language Models](the_illusion_of_progress_a_critical_look_at_testtime_adaptat.md)
 - [\[NeurIPS 2025\] NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints](navil_rethinking_scaling_properties_of_native_multimodal_large_language_models_u.md)

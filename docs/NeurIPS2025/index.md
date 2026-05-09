@@ -9850,7 +9850,7 @@ description: >-
 
 ---
 
-## 📄 moe { #moe }
+## 🧠 MoE / 混合专家 { #moe }
 
 **[MoRE-Brain: Routed Mixture of Experts for Interpretable and Generalizable Cross-Subject fMRI Visual Decoding](moe/more-brain_routed_mixture_of_experts_for_interpretable_and_generalizable_cross-s.md)**
 

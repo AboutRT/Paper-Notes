@@ -56,7 +56,7 @@
 !video_generation/
 !video_understanding/
 
-# 已完成笔记 (1578 篇)
+# 已完成笔记 (1577 篇)
 !3d_vision/3dgeer_3d_gaussian_rendering_made_exact_and_efficient_for_generic_cameras.md
 !3d_vision/a_genetic_algorithm_for_navigating_synthesizable_molecular_spaces.md
 !3d_vision/a_step_to_decouple_optimization_in_3dgs.md
@@ -568,7 +568,6 @@
 !llm_agent/livenewsbench_evaluating_llm_web_search_capabilities_with_freshly_curated_news.md
 !llm_agent/m2-miner_multi-agent_enhanced_mcts_for_mobile_gui_agent.md
 !llm_agent/m2-miner_multi-agent_enhanced_mcts_for_mobile_gui_agent_data_mining.md
-!llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search.md
 !llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md
 !llm_agent/membership_privacy_risks_of_sharpness_aware_minimization.md
 !llm_agent/newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md

@@ -17,7 +17,7 @@ tags:
 
 **会议**: ICCV 2025  
 **arXiv**: [2503.08525](https://arxiv.org/abs/2503.08525)  
-**代码**: [GitHub](链接见论文)  
+**代码**: GitHub 链接见论文  
 **领域**: VLM Agent / 强化学习  
 **关键词**: 思维坍塌, CoT推理, 过程引导, PPO, VLM Agent  
 

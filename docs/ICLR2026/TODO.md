@@ -1655,7 +1655,7 @@
 - [x] [when large multimodal models confront evolving knowledge challenges and explorat](knowledge_editing/when_large_multimodal_models_confront_evolving_knowledge_challenges_and_explorat.md) | arXiv: 2505.24449
 - [x] [livenewsbench evaluating llm web search capabilities with fresh news](llm_agent/livenewsbench_evaluating_llm_web_search_capabilities_with_fresh_news.md) | arXiv: 2602.13543
 - [x] [m2-miner multi-agent enhanced mcts for mobile gui agent](llm_agent/m2-miner_multi-agent_enhanced_mcts_for_mobile_gui_agent.md) | arXiv: 2602.05429
-- [x] [mc-search evaluating and enhancing multimodal agentic search](llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search.md) | arXiv: 2603.00873
+- [x] [mc-search evaluating and enhancing multimodal agentic search](llm_agent/mc-search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_lon.md) | arXiv: 2603.00873
 - [x] [membership privacy risks of sharpness aware minimization](llm_agent/membership_privacy_risks_of_sharpness_aware_minimization.md) | arXiv: 2602.10975
 - [x] [radiometrically consistent gaussian surfels for inverse rendering](llm_agent/radiometrically_consistent_gaussian_surfels_for_inverse_rendering.md) | arXiv: 2601.22571
 - [x] [reducing belief deviation in reinforcement learning for active reasoning](llm_agent/reducing_belief_deviation_in_reinforcement_learning_for_active_reasoning.md) | arXiv: 2510.12264

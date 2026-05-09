@@ -3,7 +3,6 @@ title: >-
   [论文解读] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes
 description: >-
    DynamicScaler 提出了一个无需微调的统一框架，通过偏移移位去噪器（OSD）和全局运动引导（GMG）实现任意分辨率/宽高比的全景动态场景合成，支持常规全景和 360° 视野视频生成，同时保持恒定 VRAM 消耗。
-tags:
 
 ---
 

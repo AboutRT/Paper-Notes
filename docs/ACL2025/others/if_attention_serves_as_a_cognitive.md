@@ -3,7 +3,6 @@ title: >-
   [论文解读] If Attention Serves as a Cognitive Model of Human Memory Retrieval, What is the Plausible Memory Representation?
 description: >-
    通过 Transformer Grammar (TG) 的注意力机制研究人类记忆检索的表征形式，发现基于句法结构的注意力(TG)与基于 token 序列的注意力(vanilla Transformer)对阅读时间预测有独立贡献，表明人类句子处理涉及双重记忆表征系统。
-tags:
 
 ---
 

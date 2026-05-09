@@ -3,7 +3,6 @@ title: >-
   [论文解读] Voting or Consensus? Decision-Making in Multi-Agent Debate
 description: >-
    系统性对比了多智能体辩论中 7 种决策协议（投票 vs 共识），发现共识协议在知识任务上提升 2.8%、投票协议在推理任务上提升 13.2%，并提出 AAD 和 CI 两种增强答案多样性的新方法，分别带来 3.3% 和 7.4% 的性能提升。
-tags:
 
 ---
 

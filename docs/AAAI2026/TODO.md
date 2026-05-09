@@ -20,11 +20,11 @@
 - [x] [A Disease-Aware Dual-Stage Framework for Chest X-ray Report Generation](medical_imaging/a_disease-aware_dual-stage_framework_for_chest_x-ray_report_.md) | arXiv: 2511.12259
 - [x] [A Distributed Asynchronous Generalized Momentum Algorithm Without Delay Bounds](optimization/a_distributed_asynchronous_generalized_momentum_algorithm_wi.md) | arXiv: 2508.08218
 - [x] [A Fast Heuristic Search Approach for Energy-Optimal Profile Routing for Electric Vehicles](autonomous_driving/a_fast_heuristic_search_approach_for_energy-optimal_profile_.md) | arXiv: 2512.01331
-- [x] [A Graph-Theoretical Perspective on Law Design for Multiagent Systems](ai_safety/a_graph-theoretical_perspective_on_law_design_for_multiagent.md) | arXiv: 2511.06361
-- [x] [A Learning Framework For Cooperative Collision Avoidance of UAV Swarms Leveraging Domain Knowledge](reinforcement_learning/a_learning_framework_for_cooperative_collision_avoidance_of_.md) | arXiv: 2507.10913
+- [x] [A Graph-Theoretical Perspective on Law Design for Multiagent Systems](ai_safety/a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md) | arXiv: 2511.06361
+- [x] [A Learning Framework For Cooperative Collision Avoidance of UAV Swarms Leveraging Domain Knowledge](reinforcement_learning/a_learning_framework_for_cooperative_collision_avoidance_of_uav_swarms_leveragin.md) | arXiv: 2507.10913
 - [x] [a mind cannot be smeared across time](others/a_mind_cannot_be_smeared_across_time.md) | arXiv: 2601.11620
 - [x] [A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses](reinforcement_learning/a_multi-agent_conversational_bandit_approach_to_online_evaluation_and_selection_.md) | arXiv: 2501.01849
-- [x] [A Multi-Agent LLM Framework for Multi-Domain Low-Resource In-Context NER via Knowledge Retrieval, Disambiguation and Reflective Analysis](llm_agent/a_multi-agent_llm_framework_for_multi-domain_low-resource_in.md) | arXiv: 2511.19083
+- [x] [A Multi-Agent LLM Framework for Multi-Domain Low-Resource In-Context NER via Knowledge Retrieval, Disambiguation and Reflective Analysis](llm_agent/a_multi-agent_llm_framework_for_multi-domain_low-resource_in-context_ner_via_kno.md) | arXiv: 2511.19083
 - [x] [a new strategy for verifying reach-avoid specifications in neural feedback syste](others/a_new_strategy_for_verifying_reach-avoid_specifications_in_neural_feedback_syste.md) | arXiv: 2601.08065
 - [x] [A Phase Transition for Opinion Dynamics with Competing Biases](ai_safety/a_phase_transition_for_opinion_dynamics_with_competing_biase.md) | arXiv: 2511.09434
 - [x] [A Principle-Driven Adaptive Policy for Group Cognitive Stimulation Dialogue for Elderly with Cognitive Impairment](llm_nlp/a_principle-driven_adaptive_policy_for_group_cognitive_stimu.md) | arXiv: 2603.10034
@@ -74,7 +74,7 @@
 - [x] [AMS-IO-Bench and AMS-IO-Agent: Benchmarking and Structured Reasoning for Analog and Mixed-Signal Integrated Circuit Input/Output Design](others/ams-io-bench_and_ams-io-agent_benchmarking_and_structured_re.md) | arXiv: 2512.21613v1
 - [x] [An Epistemic Perspective on Agent Awareness](others/an_epistemic_perspective_on_agent_awareness.md) | arXiv: 2511.05977v1
 - [x] [An Improved Privacy and Utility Analysis of Differentially Private SGD with Bounded Domain and Smooth Losses](ai_safety/an_improved_privacy_and_utility_analysis_of_differentially_p.md) | arXiv: 2502.17772v4
-- [x] [An Information Theoretic Evaluation Metric for Strong Unlearning](ai_safety/an_information_theoretic_evaluation_metric_for_strong_unlear.md) | arXiv: 2405.17878v3
+- [x] [An Information Theoretic Evaluation Metric for Strong Unlearning](ai_safety/an_information_theoretic_evaluation_metric_for_strong_unlearning.md) | arXiv: 2405.17878v3
 - [x] [An Invariant Latent Space Perspective on Language Model Inversion](ai_safety/an_invariant_latent_space_perspective_on_language_model_inve.md) | arXiv: 2511.19569v1
 - [x] [An LLM-Based Simulation Framework for Embodied Conversational Agents in Psychological Counseling](ai_safety/an_llm-based_simulation_framework_for_embodied_conversationa.md) | arXiv: 2410.22041v3
 - [x] [an overall real-time mechanism for classification and quality evaluation of rice](object_detection/an_overall_real-time_mechanism_for_classification_and_quality_evaluation_of_rice.md) | arXiv: 2502.13764
@@ -113,7 +113,7 @@
 - [x] [automating complex document workflows via stepwise and rollback-enabled operatio](llm_agent/automating_complex_document_workflows_via_stepwise_and_rollback-enabled_operatio.md) | arXiv: 2512.04445
 - [x] [autonomous concept drift threshold determination](others/autonomous_concept_drift_threshold_determination.md) | arXiv: 2511.09953
 - [x] [autopp towards automated product poster generation and optimization](recommender/autopp_towards_automated_product_poster_generation_and_optimization.md) | arXiv: 2512.21921
-- [x] [AutoTool: Efficient Tool Selection for Large Language Model Agents](llm_agent/autotool_efficient_tool_selection_for_large_language_model_a.md) | arXiv: 2511.14650v1
+- [x] [AutoTool: Efficient Tool Selection for Large Language Model Agents](llm_agent/autotool_efficient_tool_selection_for_large_language_model_agents.md) | arXiv: 2511.14650v1
 - [x] [AUVIC: Adversarial Unlearning of Visual Concepts for Multi-modal Large Language Models](ai_safety/auvic_adversarial_unlearning_of_visual_concepts_for_multi-mo.md) | arXiv: 2511.11299
 - [x] [axis-aligned document dewarping](others/axis-aligned_document_dewarping.md) | arXiv: 2507.15000
 - [x] [A²LC: Active and Automated Label Correction for Semantic Segmentation](segmentation/a2lc_active_and_automated_label_correction_for_semantic_segm.md) | arXiv: 2506.11599
@@ -1546,7 +1546,7 @@
 - [x] [c3tg conflict-aware composite and collaborative controlled text generation](nlp_generation/c3tg_conflict-aware_composite_and_collaborative_controlled_text_generation.md) | arXiv: 2511.09292
 - [x] [convex clustering redefined robust learning with higher order norms and beyond](optimization/convex_clustering_redefined_robust_learning_with_higher_order_norms_and_beyond.md) | arXiv: 2511.14784
 - [x] [a fast heuristic search approach for energy-optimal profile ](others/a_fast_heuristic_search_approach_for_energy-optimal_profile_.md) | arXiv: 2512.01331
-- [x] [a graph-theoretical perspective on law design for multiagent](others/a_graph-theoretical_perspective_on_law_design_for_multiagent.md) | arXiv: 2511.06361
+- [x] [a graph-theoretical perspective on law design for multiagent](others/a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md) | arXiv: 2511.06361
 - [x] [a graph-theoretical perspective on law design for multiagent systems](others/a_graph-theoretical_perspective_on_law_design_for_multiagent_systems.md) | arXiv: 2511.06361
 - [x] [a phase transition for opinion dynamics with competing biase](others/a_phase_transition_for_opinion_dynamics_with_competing_biase.md) | arXiv: 2511.09434
 - [x] [a topological rewriting of tarskis mereogeometry](others/a_topological_rewriting_of_tarskis_mereogeometry.md) | arXiv: 2511.12727

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 其他方向63篇论文解读
+  ECCV2024 其他方向62篇论文解读
 description: >-
-  63篇ECCV2024的其他方向论文解读，涵盖对抗鲁棒、人脸/视线、多模态、自监督学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  62篇ECCV2024的其他方向论文解读，涵盖对抗鲁棒、人脸/视线、少样本学习、对齐/RLHF、Agent、GAN等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📂 其他
 
-**🎞️ ECCV2024** · **63** 篇论文解读
+**🎞️ ECCV2024** · **62** 篇论文解读
 
 **[3DFG-PIFu: 3D Feature Grids for Human Digitization from Sparse Views](3dfg-pifu_3d_feature_grids_for_human_digitization_from_sparse_views.md)**
 
@@ -77,10 +77,6 @@ description: >-
 **[De-confounded Gaze Estimation](de-confounded_gaze_estimation.md)**
 
 :   本文提出基于因果干预的视线估计框架 FSCI，通过特征分离将视线相关特征与身份/光照等无关特征解耦，并利用动态混杂因子库对无关特征进行因果干预，在跨域设置下较基线提升36.2%、较SOTA提升11.5%。
-
-**[DeCUR: Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_.md)**
-
-:   将Barlow Twins扩展到多模态场景，通过将嵌入维度显式分为跨模态公共（对齐到identity矩阵）和模态独特（推到零矩阵）两部分，配合模态内自监督训练避免退化，在SAR-光学、RGB-DEM、RGB-深度三类场景中一致超越SimCLR-cross和Barlow Twins基线。
 
 **[Decoupling Common and Unique Representations for Multimodal Self-supervised Learning](decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md)**
 

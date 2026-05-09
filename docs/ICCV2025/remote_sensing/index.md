@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 遥感方向12篇论文解读
+  ICCV2025 遥感方向11篇论文解读
 description: >-
-  12篇ICCV2025的遥感方向论文解读，涵盖遥感、对抗鲁棒、导航、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  11篇ICCV2025的遥感方向论文解读，涵盖遥感、对抗鲁棒、导航、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛰️ 遥感
 
-**📹 ICCV2025** · **12** 篇论文解读
+**📹 ICCV2025** · **11** 篇论文解读
 
 **[AstroLoc: Robust Space to Ground Image Localizer](astroloc_robust_space_to_ground_image_localizer.md)**
 
@@ -45,10 +45,6 @@ description: >-
 **[SMARTIES: Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images](smarties_spectrum-aware_multi-sensor_auto-encoder_for_remote_sensing_images.md)**
 
 :   提出 SMARTIES，一个统一的传感器无关遥感基础模型，通过光谱感知投影将异构传感器数据映射到共享空间，结合跨传感器 token 混合和掩码重建进行自监督预训练，在单模态和多模态任务上超越专用传感器模型，并可泛化到预训练未见过的传感器。
-
-**[Towards a Unified Copernicus Foundation Model for Earth Vision](towards_a_unified_copernicus_foundation_model_for_earth_visi.md)**
-
-:   提出由Copernicus-Pretrain（1870万张覆盖全部Sentinel任务的对齐图像）、Copernicus-FM（通过扩展动态超网络和Fourier元数据编码处理任意光谱/非光谱传感器的统一基础模型）、Copernicus-Bench（15个分层下游任务基准）三位一体的完整EO基础模型体系，首次实现从地表到大气的跨模态联合预训练，在15个下游任务中11个以冻结编码器超越全参数监督训练。
 
 **[Towards a Unified Copernicus Foundation Model for Earth Vision](towards_a_unified_copernicus_foundation_model_for_earth_vision.md)**
 

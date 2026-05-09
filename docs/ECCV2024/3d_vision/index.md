@@ -1,14 +1,14 @@
 ---
 title: >-
-  ECCV2024 3D 视觉方向173篇论文解读
+  ECCV2024 3D 视觉方向172篇论文解读
 description: >-
-  173篇ECCV2024的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、点云、扩散模型、NeRF、Text-to-3D、新视角合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  172篇ECCV2024的 3D 视觉方向论文解读，涵盖 3D 高斯渲染、点云、扩散模型、NeRF、Text-to-3D、新视角合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧊 3D 视觉
 
-**🎞️ ECCV2024** · **173** 篇论文解读
+**🎞️ ECCV2024** · **172** 篇论文解读
 
 **[3D Congealing: 3D-Aware Image Alignment in the Wild](3d_congealing_3d-aware_image_alignment_in_the_wild.md)**
 
@@ -369,10 +369,6 @@ description: >-
 **[Invertible Neural Warp for NeRF](invertible_neural_warp_for_nerf.md)**
 
 :   提出用可逆神经网络（INN）过参数化相机位姿的刚性变换函数，在 NeRF 联合优化中显著提升位姿估计精度和重建质量，证明可逆性是 MLP 建模刚性 warp 的关键约束。
-
-**[JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation](jointdreamer_ensuring_geometry_consistency_and_text_congruen.md)**
-
-:   提出Joint Score Distillation（JSD），通过能量函数建模多视角联合图像分布，将SDS从单视角独立优化扩展为多视角联合优化，从根本上缓解Text-to-3D中的Janus多面问题，在CLIP R-Precision上达到88.5%、User Study偏好率42.1%。
 
 **[JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation](jointdreamer_ensuring_geometry_consistency_and_text_congruence_in_text-to-3d_gen.md)**
 

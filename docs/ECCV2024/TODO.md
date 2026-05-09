@@ -879,7 +879,7 @@
 - [x] [dreamdrone texttoimage diffusion models are zeroshot perpetu](3d_vision/dreamdrone_texttoimage_diffusion_models_are_zeroshot_perpetu.md) | arXiv: 2312.08746
 - [x] [dreamview injecting viewspecific text guidance into textto3d](3d_vision/dreamview_injecting_viewspecific_text_guidance_into_textto3d.md) | arXiv: 2404.06119
 - [x] [falip visual prompt as foveal attention boosts clip zer](3d_vision/falip_visual_prompt_as_foveal_attention_boosts_clip_zer.md) | arXiv: 2407.05578
-- [x] [jointdreamer ensuring geometry consistency and text congruen](3d_vision/jointdreamer_ensuring_geometry_consistency_and_text_congruen.md) | arXiv: 2407.12291
+- [x] [jointdreamer ensuring geometry consistency and text congruen](3d_vision/jointdreamer_ensuring_geometry_consistency_and_text_congruence_in_text-to-3d_gen.md) | arXiv: 2407.12291
 - [x] [scenegraphloc crossmodal coarse visual localization on 3d sc](3d_vision/scenegraphloc_crossmodal_coarse_visual_localization_on_3d_sc.md) | arXiv: 2404.00469
 - [x] [sceneverse scaling 3d visionlanguage learning for grounded s](3d_vision/sceneverse_scaling_3d_visionlanguage_learning_for_grounded_s.md) | arXiv: 2401.09340
 - [x] [t-mae temporal masked autoencoders for point cloud representation learning](3d_vision/t-mae_temporal_masked_autoencoders_for_point_cloud_representation_learning.md) | arXiv: 2312.10217
@@ -905,7 +905,7 @@
 - [x] [wordrobe textguided generation of textured 3d garments](human_understanding/wordrobe_textguided_generation_of_textured_3d_garments.md) | arXiv: 2403.17541
 - [x] [a closer look at gan priors exploiting intermediate features](image_generation/a_closer_look_at_gan_priors_exploiting_intermediate_features.md) | arXiv: 2407.13863
 - [x] [a highquality robust diffusion framework for corrupted datas](image_generation/a_highquality_robust_diffusion_framework_for_corrupted_datas.md) | arXiv: 2311.17101
-- [x] [anycontrol create your artwork with versatile control on tex](image_generation/anycontrol_create_your_artwork_with_versatile_control_on_tex.md) | arXiv: 2406.18958
+- [x] [anycontrol create your artwork with versatile control on tex](image_generation/anycontrol_create_your_artwork_with_versatile_control_on_text-to-image_generatio.md) | arXiv: 2406.18958
 - [x] [colorpeel color prompt learning with diffusion models v](image_generation/colorpeel_color_prompt_learning_with_diffusion_models_v.md) | arXiv: 2407.07197
 - [x] [difftracker texttoimage diffusion models are unsupervised tr](image_generation/difftracker_texttoimage_diffusion_models_are_unsupervised_tr.md) | arXiv: 2407.08394
 - [x] [emdm efficient motion diffusion model for fast and high](image_generation/emdm_efficient_motion_diffusion_model_for_fast_and_high.md) | arXiv: 2312.02256
@@ -919,15 +919,15 @@
 - [x] [learning trimodal relation for audiovisual question answerin](image_generation/learning_trimodal_relation_for_audiovisual_question_answerin.md) | arXiv: 2407.16171
 - [x] [lego learning egocentric action frame generation via vi](image_generation/lego_learning_egocentric_action_frame_generation_via_vi.md) | arXiv: 2312.03849
 - [x] [mixdq memoryefficient fewstep texttoimage diffusion models w](image_generation/mixdq_memoryefficient_fewstep_texttoimage_diffusion_models_w.md) | arXiv: 2405.17873
-- [x] [motionchain conversational motion controllers via multimodal](image_generation/motionchain_conversational_motion_controllers_via_multimodal.md) | arXiv: 2404.01700
+- [x] [motionchain conversational motion controllers via multimodal](image_generation/motionchain_conversational_motion_controllers_via_multimodal_prompts.md) | arXiv: 2404.01700
 - [x] [pixelaware stable diffusion for realistic image superre](image_generation/pixelaware_stable_diffusion_for_realistic_image_superre.md) | arXiv: 2308.14469
 - [x] [ponymation learning articulated 3d animal motions from ](image_generation/ponymation_learning_articulated_3d_animal_motions_from_.md) | arXiv: 2312.13604
 - [x] [powerful and flexible personalized texttoimage generation vi](image_generation/powerful_and_flexible_personalized_texttoimage_generation_vi.md) | arXiv: 2407.06642
-- [x] [removing distributional discrepancies in captions improves i](image_generation/removing_distributional_discrepancies_in_captions_improves_i.md) | arXiv: 2410.00905
+- [x] [removing distributional discrepancies in captions improves i](image_generation/removing_distributional_discrepancies_in_captions_improves_image-text_alignment.md) | arXiv: 2410.00905
 - [x] [scaledreamer scalable textto3d synthesis with asynchronous s](image_generation/scaledreamer_scalable_textto3d_synthesis_with_asynchronous_s.md) | arXiv: 2407.02040
 - [x] [text2place affordanceaware text guided human placement](image_generation/text2place_affordanceaware_text_guided_human_placement.md) | arXiv: 2407.15446
 - [x] [textdiffuser2 unleashing the power of language models f](image_generation/textdiffuser2_unleashing_the_power_of_language_models_f.md) | arXiv: 2311.16465
-- [x] [towards reliable advertising image generation using human fe](image_generation/towards_reliable_advertising_image_generation_using_human_fe.md) | arXiv: 2408.00418
+- [x] [towards reliable advertising image generation using human fe](image_generation/towards_reliable_advertising_image_generation_using_human_feedback.md) | arXiv: 2408.00418
 - [x] [xpsr crossmodal priors for diffusionbased image superresolut](image_generation/xpsr_crossmodal_priors_for_diffusionbased_image_superresolut.md) | arXiv: 2403.05049
 - [x] [artvlm attribute recognition through vision-based prefix language modeling](information_retrieval/artvlm_attribute_recognition_through_vision-based_prefix_language_modeling.md) | arXiv: 2408.04102
 - [x] [artvlm attribute recognition through visionbased prefix lang](information_retrieval/artvlm_attribute_recognition_through_visionbased_prefix_lang.md) | arXiv: 2408.04102
@@ -976,15 +976,15 @@
 - [x] [beaf observing beforeafter changes to evaluate hallucination](multimodal_vlm/beaf_observing_beforeafter_changes_to_evaluate_hallucination.md) | arXiv: 2407.13442
 - [x] [brave broadening the visual encoding of visionlanguage model](multimodal_vlm/brave_broadening_the_visual_encoding_of_visionlanguage_model.md) | arXiv: 2404.07204
 - [x] [cat audio visual qa](multimodal_vlm/cat_audio_visual_qa.md) | arXiv: 2403.04640
-- [x] [clap isolating content from style through contrastive learni](multimodal_vlm/clap_isolating_content_from_style_through_contrastive_learni.md) | arXiv: 2311.16445
+- [x] [clap isolating content from style through contrastive learni](multimodal_vlm/clap_isolating_content_from_style_through_contrastive_learning_with_augmented_pr.md) | arXiv: 2311.16445
 - [x] [classact active learning](multimodal_vlm/classact_active_learning.md) | arXiv: 2312.05328
-- [x] [decoupling common and unique representations for multimodal ](multimodal_vlm/decoupling_common_and_unique_representations_for_multimodal_.md) | arXiv: 2309.05300
+- [x] [decoupling common and unique representations for multimodal ](multimodal_vlm/decoupling_common_and_unique_representations_for_multimodal_self-supervised_lear.md) | arXiv: 2309.05300
 - [x] [elevating all zeroshot sketchbased image retrieval through m](multimodal_vlm/elevating_all_zeroshot_sketchbased_image_retrieval_through_m.md) | arXiv: 2407.04207
 - [x] [eyes closed safety on protecting multimodal llms via imageto](multimodal_vlm/eyes_closed_safety_on_protecting_multimodal_llms_via_imageto.md) | arXiv: 2403.09572
 - [x] [flexattention for efficient highresolution visionlanguage mo](multimodal_vlm/flexattention_for_efficient_highresolution_visionlanguage_mo.md) | arXiv: 2407.20228
 - [x] [freemotion mocapfree human motion synthesis with multimodal ](multimodal_vlm/freemotion_mocapfree_human_motion_synthesis_with_multimodal_.md) | arXiv: 2406.10740
-- [x] [genixer empowering multimodal large language model as a powe](multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powe.md) | arXiv: 2312.06731
-- [x] [groma localized visual tokenization for grounding multimodal](multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal.md) | arXiv: 2404.13013
+- [x] [genixer empowering multimodal large language model as a powe](multimodal_vlm/genixer_empowering_multimodal_large_language_model_as_a_powerful_data_generator.md) | arXiv: 2312.06731
+- [x] [groma localized visual tokenization for grounding multimodal](multimodal_vlm/groma_localized_visual_tokenization_for_grounding_multimodal_large_language_mode.md) | arXiv: 2404.13013
 - [x] [marvelovd marrying object recognition and visionlanguage mod](multimodal_vlm/marvelovd_marrying_object_recognition_and_visionlanguage_mod.md) | arXiv: 2407.21465
 - [x] [mathverse does your multimodal llm truly see the diagrams in](multimodal_vlm/mathverse_does_your_multimodal_llm_truly_see_the_diagrams_in.md) | arXiv: 2403.14624
 - [x] [metaprompting for automating zeroshot visual recognitio](multimodal_vlm/metaprompting_for_automating_zeroshot_visual_recognitio.md) | arXiv: 2403.11755
@@ -1000,14 +1000,14 @@
 - [x] [the hard positive truth about visionlanguage compositionalit](multimodal_vlm/the_hard_positive_truth_about_visionlanguage_compositionalit.md) | arXiv: 2409.17958
 - [x] [towards openended visual quality comparison](multimodal_vlm/towards_openended_visual_quality_comparison.md) | arXiv: 2402.16641
 - [x] [towards realworld adverse weather image restoration enhancin](multimodal_vlm/towards_realworld_adverse_weather_image_restoration_enhancin.md) | arXiv: 2409.02101
-- [x] [unicode learning a unified codebook for multimodal large lan](multimodal_vlm/unicode_learning_a_unified_codebook_for_multimodal_large_lan.md) | arXiv: 2403.09072
+- [x] [unicode learning a unified codebook for multimodal large lan](multimodal_vlm/unicode_learning_a_unified_codebook_for_multimodal_large_language_models.md) | arXiv: 2403.09072
 - [x] [xformer unifying contrastive and reconstruction learning for](multimodal_vlm/xformer_unifying_contrastive_and_reconstruction_learning_for.md) | arXiv: 2407.13851
 - [x] [slimer zero shot ner](nlp_understanding/slimer_zero_shot_ner.md) | arXiv: 2407.01272
 - [x] [a new dataset and framework for real-world blurred images super-resolution](object_detection/a_new_dataset_and_framework_for_real-world_blurred_images_super-resolution.md) | arXiv: 2407.14880
 - [x] [afreeca annotationfree counting for all](object_detection/afreeca_annotationfree_counting_for_all.md) | arXiv: 2403.04943
 - [x] [be yourself bounded attention for multisubject texttoimage g](object_detection/be_yourself_bounded_attention_for_multisubject_texttoimage_g.md) | arXiv: 2403.16990
 - [x] [i canapost believe itaposs not scene flow](object_detection/i_canapost_believe_itaposs_not_scene_flow.md) | arXiv: 2403.04739
-- [x] [layoutdetr detection transformer is a good multimodal layout](object_detection/layoutdetr_detection_transformer_is_a_good_multimodal_layout.md) | arXiv: 2212.09877
+- [x] [layoutdetr detection transformer is a good multimodal layout](object_detection/layoutdetr_detection_transformer_is_a_good_multimodal_layout_designer.md) | arXiv: 2212.09877
 - [x] [towards natural languageguided drones geotext1652 bench](object_detection/towards_natural_languageguided_drones_geotext1652_bench.md) | arXiv: 2311.12751
 - [x] [tracking meets lora faster training larger model strong](object_detection/tracking_meets_lora_faster_training_larger_model_strong.md) | arXiv: 2403.05231
 - [x] [docling pdf document conversion](others/docling_pdf_document_conversion.md) | arXiv: 2408.09869
@@ -1044,5 +1044,5 @@
 - [x] [actionswitch class-agnostic detection of simultaneous actions in streaming video](video_understanding/actionswitch_class-agnostic_detection_of_simultaneous_actions_in_streaming_video.md) | arXiv: 2407.12987
 - [x] [elysium exploring objectlevel perception in videos via mllm](video_understanding/elysium_exploring_objectlevel_perception_in_videos_via_mllm.md) | arXiv: 2403.16558
 - [x] [finepseudo improving pseudo-labelling through temporal-alignablity for semi-supe](video_understanding/finepseudo_improving_pseudo-labelling_through_temporal-alignablity_for_semi-supe.md) | arXiv: 2409.01448
-- [x] [nymeria a massive collection of multimodal egocentric daily ](video_understanding/nymeria_a_massive_collection_of_multimodal_egocentric_daily_.md) | arXiv: 2406.09905
+- [x] [nymeria a massive collection of multimodal egocentric daily ](video_understanding/nymeria_a_massive_collection_of_multimodal_egocentric_daily_motion_in_the_wild.md) | arXiv: 2406.09905
 - [x] [pite pixeltemporal alignment for large videolanguage mo](video_understanding/pite_pixeltemporal_alignment_for_large_videolanguage_mo.md) | arXiv: 2409.07239

@@ -1,14 +1,14 @@
 ---
 title: >-
-  ICCV2025 多模态 VLM方向164篇论文解读
+  ICCV2025 多模态 VLM方向159篇论文解读
 description: >-
-  164篇ICCV2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、少样本学习、对齐/RLHF、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  159篇ICCV2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、少样本学习、对齐/RLHF、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**📹 ICCV2025** · **164** 篇论文解读
+**📹 ICCV2025** · **159** 篇论文解读
 
 **[A Quality-Guided Mixture of Score-Fusion Experts Framework for Human Recognition](a_quality-guided_mixture_of_score-fusion_experts_framework_for_human_recognition.md)**
 
@@ -222,10 +222,6 @@ description: >-
 
 :   提出 FALCON，通过在 ViT 中引入可学习的视觉寄存器（Visual Register），利用 ReCompact 机制在编码阶段直接消除视觉冗余（9 倍 token 压缩），并用 ReAtten 模块通过寄存器间交互解决裁切导致的视觉碎片化问题。
 
-**[Feather the Throttle: Revisiting Visual Token Pruning for Vision-Language Model Acceleration](feather_the_throttle_revisiting_visual_token_pruning_for_vis.md)**
-
-:   揭示了VLM中视觉token剪枝方法（如FastV）因RoPE的长程衰减特性导致系统性地保留图像底部token的严重缺陷，并提出FEATHER方法通过去除RoPE+均匀采样+两阶段剪枝修复该问题，在定位任务上实现5倍以上的性能提升。
-
 **[Feather the Throttle: Revisiting Visual Token Pruning for Vision-Language Model Acceleration](feather_the_throttle_revisiting_visual_token_pruning_for_vision-language_model_a.md)**
 
 :   揭示了 VLM 中早期视觉 token 剪枝存在系统性位置偏差（RoPE 导致倾向保留图像底部 token），并提出 FEATHER 方法通过去除 RoPE + 均匀采样 + 多阶段剪枝解决该问题，在定位任务上实现 5× 以上性能提升。
@@ -390,10 +386,6 @@ description: >-
 
 :   提出多上下文视觉定位（Multi-Context Visual Grounding）这一新任务和 MC-Bench 基准——包含 2000 个人工标注样本、3 种文本描述风格、20 项实用技能，评估了 20+ 个 MLLM 和基础模型，揭示现有模型与人类之间存在显著性能差距（人类 AP50=41.3% vs. 最优端到端模型 AP50=30.7%），并提供了一个 GPT-4o + G-DINO 的 agentic 基线（AP50=36.2%）。
 
-**[MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](metamorph_multimodal_understanding_and_generation_via_instru.md)**
-
-:   本文提出 VPiT（Visual-Predictive Instruction Tuning），仅通过扩展视觉指令微调让预训练 LLM 同时输出文本和连续视觉 token，发现视觉生成能力作为理解能力的"副产品"自然涌现，且理解数据对两种能力的贡献大于生成数据。
-
 **[MetaMorph: Multimodal Understanding and Generation via Instruction Tuning](metamorph_multimodal_understanding_and_generation_via_instruction_tuning.md)**
 
 :   提出 Visual-Predictive Instruction Tuning（VPiT），仅通过轻量级指令微调即可将预训练 LLM 扩展为同时理解和生成视觉 token 的统一模型 MetaMorph，发现视觉生成能力是视觉理解的自然副产物且两者互利不对称。
@@ -534,10 +526,6 @@ description: >-
 
 :   提出SCAN，一种动态自举数据集剪枝方法，通过迭代的剪枝候选识别和数据集突变操作，在CLIP和MoCo对比预训练中以30-35%的数据剪枝率实现平均不到1%的性能下降。
 
-**[ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers](shortv_efficient_multimodal_large_language_models_by_freezin.md)**
-
-:   发现MLLM中约60%的层对视觉token的变换几乎不影响模型输出（Layer Contribution极低），提出ShortV方法在这些"ineffective layers"中冻结视觉token（不参与attention query和FFN），在LLaVA-NeXT-13B上实现50% FLOPs降低且性能几乎不变，且与token剪枝方法（如FastV）正交可叠加。
-
 **[ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers](shortv_efficient_multimodal_large_language_models_by_freezing_visual_tokens_in_i.md)**
 
 :   发现 MLLM 中存在显著的**层级冗余**——多数层对视觉 token 的变换贡献极小，据此提出 ShortV：在约 60% 的层中冻结视觉 token（跳过其注意力和 FFN 计算），在 LLaVA-NeXT-13B 上实现 50% FLOPs 减少，性能几乎无损。方法免训练，且与 token 剪枝方法正交可叠加。
@@ -550,17 +538,9 @@ description: >-
 
 :   发现多模态大模型持续视觉指令微调（CVIT）中存在"双重灾难性遗忘"——视觉理解能力和指令遵循能力同时退化，提出SMoLoRA通过可分离路由的LoRA专家混合方法有效缓解该问题。
 
-**[SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs](sparsemm_head_sparsity_emerges_from_visual_concept_responses.md)**
-
-:   发现MLLM中仅约5%的attention head主动参与视觉理解（称为"visual heads"），提出基于OCR任务的training-free识别方法量化每个head的视觉相关性，并设计SparseMM——按visual score非对称分配KV-Cache预算的策略，在DocVQA上仅用5.3%的cache（256/4830）即可维持Qwen2-VL的性能，实现1.87×加速和50%内存减少。
-
 **[SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs](sparsemm_head_sparsity_emerges_from_visual_concept_responses_in_mllms.md)**
 
 :   揭示了多模态大语言模型(MLLM)中仅约5%的注意力头实际参与视觉理解的"visual head sparsity"现象，提出基于OCR任务的免训练visual head识别框架，并设计SparseMM——一种按视觉分数对不同head分配不对称KV-Cache预算的加速策略，实现1.38×实时加速和52%显存降低，同时保持性能不降。
-
-**[SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference](sparsevila_decoupling_visual_sparsity_for_efficient_vlm_infe.md)**
-
-:   提出SparseVILA，将VLM推理时的视觉token稀疏化解耦为两个阶段——prefill阶段做query-agnostic剪枝（去冗余）、decode阶段做query-aware检索（精选相关token），在长视频任务上实现4.0×prefill加速、2.5×decode加速、2.6×端到端加速，同时在视频理解benchmark上精度不降反升。
 
 **[SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference](sparsevila_decoupling_visual_sparsity_for_efficient_vlm_inference.md)**
 

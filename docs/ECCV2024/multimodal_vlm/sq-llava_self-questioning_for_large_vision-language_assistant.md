@@ -136,7 +136,7 @@ SQ-LLaVA-7B 在 10 个基准中的 9 个超过 LLaVA-v1.5-7B，13B 规模同样�
 - [\[ECCV 2024\] NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models](navgpt2_unleashing_navigational_reasoning_capability.md)
 - [\[ECCV 2024\] Robust Calibration of Large Vision-Language Adapters](robust_calibration_of_large_visionlanguage_adapters.md)
 - [\[ECCV 2024\] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models](ivtp_instruction-guided_visual_token_pruning_for_large_vision-language_models.md)
-- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_lan.md)
+- [\[ECCV 2024\] UniCode: Learning a Unified Codebook for Multimodal Large Language Models](unicode_learning_a_unified_codebook_for_multimodal_large_language_models.md)
 - [\[ECCV 2024\] The Hard Positive Truth about Vision-Language Compositionality](the_hard_positive_truth_about_vision-language_compositionality.md)
 
 <!-- RELATED:END -->

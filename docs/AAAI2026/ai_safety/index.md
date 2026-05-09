@@ -1,14 +1,14 @@
 ---
 title: >-
-  AAAI2026 AI 安全方向45篇论文解读
+  AAAI2026 AI 安全方向44篇论文解读
 description: >-
-  45篇AAAI2026的 AI 安全方向论文解读，涵盖对抗鲁棒、水印/隐写、联邦学习、语音、推荐系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  44篇AAAI2026的 AI 安全方向论文解读，涵盖对抗鲁棒、水印/隐写、联邦学习、语音、推荐系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**🤖 AAAI2026** · **45** 篇论文解读
+**🤖 AAAI2026** · **44** 篇论文解读
 
 **[Alternative Fairness and Accuracy Optimization in Criminal Justice](alternative_fairness_and_accuracy_optimization_in_criminal_j.md)**
 
@@ -17,10 +17,6 @@ description: >-
 **[An Improved Privacy and Utility Analysis of Differentially Private SGD with Bounded Domain and Smooth Losses](an_improved_privacy_and_utility_analysis_of_differentially_p.md)**
 
 :   在仅假设损失函数L-光滑（不需要凸性）的条件下，为DPSGD推导出了更紧的闭式RDP隐私界，并首次在有界域场景下给出了完整的收敛性/效用分析，揭示了较小的参数域直径可以同时改善隐私和效用。
-
-**[An Information Theoretic Evaluation Metric for Strong Unlearning](an_information_theoretic_evaluation_metric_for_strong_unlear.md)**
-
-:   提出 Information Difference Index (IDI)，一种基于信息论的白盒评估指标，通过度量中间层特征与遗忘标签之间的互信息来衡量机器遗忘的彻底程度，揭示了现有黑盒指标（MIA、JSD等）无法捕捉的中间层残留信息问题，并提出 COLA 方法在特征层面消除残余信息。
 
 **[An Information Theoretic Evaluation Metric for Strong Unlearning](an_information_theoretic_evaluation_metric_for_strong_unlearning.md)**
 

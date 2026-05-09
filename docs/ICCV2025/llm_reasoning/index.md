@@ -1,18 +1,14 @@
 ---
 title: >-
-  ICCV2025 LLM 推理方向4篇论文解读
+  ICCV2025 LLM 推理方向3篇论文解读
 description: >-
-  4篇ICCV2025的 LLM 推理方向论文解读，涵盖推理、LLM、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  3篇ICCV2025的 LLM 推理方向论文解读，涵盖推理、LLM、多模态、对齐/RLHF、视频生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM 推理
 
-**📹 ICCV2025** · **4** 篇论文解读
-
-**[Corvid: Improving Multimodal Large Language Models Towards Chain-of-Thought Reasoning](corvid_improving_multimodal_large_language_models_towards_ch.md)**
-
-:   提出Corvid MLLM，通过混合视觉编码器(SigLIP+ConvNeXt)+GateMixer门控连接器+MCoT-Instruct-287K高质量CoT数据+推理时自验证策略，三阶段训练实现超越同规模o1-like模型的CoT推理能力。
+**📹 ICCV2025** · **3** 篇论文解读
 
 **[CoRVid: Improving Multimodal Large Language Models Towards Chain-of-Thought Reasoning](corvid_improving_multimodal_large_language_models_towards_chain-of-thought_reaso.md)**
 
