@@ -47,7 +47,7 @@ Paper Notes 交流群: `1094559400`
 | [ACL 2025](https://papernotes.org/ACL2025/) | 1,906 | [ACL2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ACL2025-Papers.md) |
 | [ICML 2025](https://papernotes.org/ICML2025/) | 1,085 | [ICML2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ICML2025-Papers.md) |
 | [CVPR 2025](https://papernotes.org/CVPR2025/) | 1,846 | [CVPR2025-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/CVPR2025-Papers.md) |
-| [ECCV 2024](https://papernotes.org/ECCV2024/) | 973 | — |
+| [ECCV 2024](https://papernotes.org/ECCV2024/) | 973 | [ECCV2024-Papers.md →](https://github.com/zhaoyang97/papers-with-notes/blob/main/ECCV2024-Papers.md) |
 
 ## 🗓️ 更新路线图
 
